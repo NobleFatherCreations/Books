@@ -282,7 +282,7 @@
       "Telling someone their use of an AI tool is 'coercion' can dismiss a choice they made willingly. Relying on a tool is not the same as being forced.",
       "Distrusting every answer on principle is also poor reasoning, and it can push people toward worse sources."
     ],
-    "how_to_distinguish_from_related": "Algorithmic Manipulation shapes what appears in your feed. This one is about a chat system becoming the only voice you trust. Context Poisoning corrupts the data or documents a system or person draws on. Here the material may be sound, and the problem is the system's stance on it. Weaponized AI Empathy works through apparent warmth, while this works through confidence and finality."
+    "how_to_distinguish_from_related": "Algorithmic Manipulation shapes what appears in your feed. This one is about a chat system becoming the only voice you trust. Context Poisoning corrupts the data or documents a system or person draws on. Here the material may be sound, and the problem is the system's stance on it. Weaponized AI Empathy relies on apparent warmth, while this relies on confidence and finality."
   },
   "AI-Driven Narrative Hijacking": {
     "short_definition": "Using machine-made, tailored messages in huge numbers and at high speed, so that one party ends up setting the terms of a public debate.",

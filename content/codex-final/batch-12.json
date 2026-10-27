@@ -171,7 +171,7 @@
       "The bar for 'enough' moves each time you meet it.",
       "You notice your own certainty falling because every claim feels like it needs an audit."
     ],
-    "repair_check": "Repair looks like a change in who carries the work. They begin from your account, ask what you need, and keep any requests for evidence for facts that are really in dispute. A one-off 'I believe you' followed by a new request for documentation next time has not moved the burden.",
+    "repair_check": "Real change shows in who carries the work. They begin from your account, ask what you need, and keep any requests for evidence for facts that are really in dispute. A one-off 'I believe you' followed by a new request for documentation next time has not moved the burden.",
     "boundary_respect_check": "Ask yourself what happens when you state a need without any proof attached. If it is simply considered or answered, the boundary is being respected. If it is returned to you with a list of conditions, it is being treated as a case to be won.",
     "psychological_mechanism": "When a person is asked to prove something, they tend to focus on gathering evidence and to take on the role of a defendant. Time and attention go into the case rather than the original need. If the standard keeps shifting, the person can start to doubt that their experience counts without a paper trail.",
     "possible_impact_on_receiver": "People describe over-preparing for ordinary conversations, feeling rehearsed and watched, and giving up on requests that matter. Some say they began to doubt their own account unless it was written down. Others describe anger at being treated like a witness in their own life.",
@@ -189,7 +189,7 @@
       "Calling every request for evidence burden-shifting can protect a claim that really does need checking. Some claims, including serious accusations, deserve a close look.",
       "Using the term to refuse all questions about your own account turns a description of unfair standards into a way to dodge being asked anything."
     ],
-    "how_to_distinguish_from_related": "Credibility Theft attacks whether you are a reliable person at all. This tactic leaves you as a possible witness but makes you carry all the proof. Frame Control sets what the conversation is about. Here the topic stays the same and only the duty to prove it moves. Projection hands you the other person's behavior. This one hands you their obligation."
+    "how_to_distinguish_from_related": "Credibility Theft attacks whether you are a reliable person at all. This tactic leaves you as a possible witness but makes you carry all the proof. With Frame Control, the subject of the conversation is what gets changed. Here the topic stays the same and only the duty to prove it moves. Projection hands you the other person's behavior. This one hands you their obligation."
   },
   "Gish Gallop": {
     "short_definition": "Overwhelming a rival in live debate with a rapid stream of claims, many weak or false, too many to answer one by one.",
@@ -284,7 +284,7 @@
       "Calling every long or detailed argument a Gish Gallop can be a way of avoiding a case that has many real parts. Check whether the claims hold before using the label.",
       "If you accuse someone of galloping because you are losing the argument, you turn a description of a technique into a way to end the debate."
     ],
-    "how_to_distinguish_from_related": "Frame Control sets what the conversation is about. A Gish Gallop does not choose a frame at all. It buries the real subject under a pile of claims. Priming / Narrative Seeding shapes a view in advance, quietly. A gallop is loud and happens in the moment. Credibility Theft discounts you as a witness to what happened, whereas a gallop leaves you unable to keep up."
+    "how_to_distinguish_from_related": "Frame Control decides the subject and terms of a discussion in advance. A Gish Gallop does not choose a frame at all. It buries the real subject under a pile of claims. Priming / Narrative Seeding shapes a view in advance, quietly. A gallop is loud and happens in the moment. Credibility Theft discounts you as a witness to what happened, whereas a gallop leaves you unable to keep up."
   },
   "Limited Hangout": {
     "short_definition": "A limited hangout admits a smaller wrong or shares part of the truth so the matter seems fully disclosed, while the larger part stays hidden.",

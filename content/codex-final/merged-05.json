@@ -2,7 +2,7 @@
   "Account Takeover": {
     "short_definition": "Taking over someone's email, social media, banking or cloud accounts, which leaves them watched, spoken for, cut off or locked out of their own online life.",
     "core_meaning": "Taking over someone's email, social media, banking or cloud accounts, which leaves them watched, spoken for, cut off or locked out of their own online life.",
-    "expanded_definition": "Account takeover is when someone controls another person's digital accounts without their agreement. They may change passwords, redirect recovery details, read or send messages in the person's name, or give access back only on conditions. It is also called account control. It can start as casual shared access and harden into sole control. One reset after a forgotten password means little. It becomes a pattern when access changes without your knowledge and your ways back in are blocked.",
+    "expanded_definition": "Account takeover is when someone controls another person's digital accounts without their agreement. They may change passwords, redirect recovery details, read or send messages in the person's name, or give access back only on conditions. It is also called account control. It can start as casual shared access and harden into sole control. One reset after a forgotten password means little. It is a concern when access changes without your knowledge and your ways back in are blocked.",
     "plain_language_summary": "Someone gets control of your email, social media or bank logins. They can read your messages, write as you, or keep you out, and getting back in depends on them.",
     "why_this_matters": "Being pushed out of your own accounts costs more than access. Messages can go out under your name to people who have every reason to believe them. Everyday tasks like paying a bill or reaching a doctor start to need permission.",
     "what_it_is": [
@@ -95,7 +95,7 @@
       "A locked or hacked account does not show that someone close to you did it. Look at the provider's login history and recovery details before suspecting a person.",
       "Accusing a partner or relative of taking over your accounts after one failed login can damage trust. The fault may belong to the platform."
     ],
-    "how_to_distinguish_from_related": "Stalking & Surveillance (Post-Separation) tracks your movements and contacts after a break-up. It need not touch your accounts at all. Account takeover works through your own logins, recovery details and the messages stored there. Resource Sabotage removes things you need to succeed, such as tools or funding, and blames you for the failure. Here the thing removed is your access and your own voice."
+    "how_to_distinguish_from_related": "Stalking & Surveillance (Post-Separation) tracks your movements and contacts after a break-up. It need not touch your accounts at all. Account takeover goes in through your own logins, recovery details and the messages stored there. Resource Sabotage removes things you need to succeed, such as tools or funding, and blames you for the failure. Here the thing removed is your access and your own voice."
   },
   "Emotional Blackmail": {
     "short_definition": "Making love, closeness or the relationship itself depend on doing what someone wants, so that saying no feels like risking the bond.",
@@ -293,7 +293,7 @@
       "Hurt feelings are not always guilt-tripping. People may say how a decision affected them, and calling that manipulation can silence an honest request.",
       "Using the label on someone who is grieving or struggling can turn a cry for contact into an accusation."
     ],
-    "how_to_distinguish_from_related": "Martyrdom Display advertises sacrifice to build obligation and need not make any request. Guilt-tripping uses sacrifice to push against a specific refusal. Demand for Gratitude asks for thanks as payment for help given. Duty Scripts invoke role expectations such as 'a good daughter would'. Guilt-tripping works through your sense of owing and does not need a role."
+    "how_to_distinguish_from_related": "Martyrdom Display advertises sacrifice to build obligation and need not make any request. Guilt-tripping uses sacrifice to push against a specific refusal. Demand for Gratitude asks for thanks as payment for help given. Duty Scripts invoke role expectations such as 'a good daughter would'. Guilt-tripping relies on your sense of owing and does not need a role."
   },
   "Weaponized Generosity": {
     "short_definition": "Giving gifts, favors or help in a way that leaves the receiver in debt, so the giving can be turned into leverage for a later request.",

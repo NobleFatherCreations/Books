@@ -173,7 +173,7 @@
       "The same phrases come back attached to new topics.",
       "You start apologizing for unspecified things and adjusting your behavior to fit guesses."
     ],
-    "repair_check": "Repair looks like a name or a description arriving. That could be the actual behavior ('Tuesday's meeting, the way the budget was challenged') or an honest 'I have no specifics and I shouldn't have said it that way'. A softer repeat of the same hint in a warmer tone is not repair.",
+    "repair_check": "Real repair is a name or a description arriving. That could be the actual behavior ('Tuesday's meeting, the way the budget was challenged') or an honest 'I have no specifics and I shouldn't have said it that way'. A softer repeat of the same hint in a warmer tone is not repair.",
     "boundary_respect_check": "Notice what happens to your question, 'Can you tell me what was said?' A respectful reply gives something, or says honestly why it can't. If the question itself is treated as proof that something is wrong with you, the boundary was not respected.",
     "psychological_mechanism": "An unspecific accusation leaves a gap, and the mind often fills gaps with its own worst fears. With nothing concrete to check, it can keep searching and turn ordinary events into possible clues. Not knowing who is involved can make everyone in the room a possible source. This may lead to withdrawing from the people who could have helped.",
     "possible_impact_on_receiver": "People describe rereading old messages, replaying conversations and watching coworkers' faces for signs. Some change their behavior to fit guesses about the complaint, and some pull back from groups where they think the talk is happening. Feeling judged without a hearing can be painful in its own right.",
@@ -580,7 +580,7 @@
       "Calling a complaint false because it was not upheld can silence real reporters. Unproven is not untrue, and many genuine reports cannot be proved.",
       "Telling someone who raised a concern that they filed a 'false report' can itself be a way of punishing them for speaking up."
     ],
-    "how_to_distinguish_from_related": "Lying is a false statement made to a person. A false report puts it into a formal file where an institution must act. Fabricated Evidence manufactures proof, such as a forged message. A false report can rest on words alone, though the two can be combined. Vague Allegations stays unspecific so nothing can be checked. A false report is usually specific enough for records to contradict it."
+    "how_to_distinguish_from_related": "A false report puts a false statement into a formal file where an institution must act. Lying is a false statement made to a person. Fabricated Evidence manufactures proof, such as a forged message. A false report can rest on words alone, though the two can be combined. Vague Allegations stays unspecific so nothing can be checked. A false report is usually specific enough for records to contradict it."
   },
   "Paper-Trail Traps": {
     "short_definition": "Creating or shaping written records, such as write-ups, emails and notes, to build a one-sided case against someone who does not know it is happening.",

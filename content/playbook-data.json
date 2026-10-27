@@ -7802,7 +7802,7 @@
     "Moving Goalposts",
     "Thought-Stopping Clichés"
    ],
-   "how_to_distinguish_from_related": "Countering is the flat 'that didn't happen' aimed at your account on the spot. Selective Memory is claiming not to recall, so there is nothing to argue with, only a blank. Deflection does not contest the facts at all. It moves to a new subject. Gaslighting goes further than any one contradiction. It works over time to make you distrust your own mind, while countering can leave your confidence intact.",
+   "how_to_distinguish_from_related": "The flat 'that didn't happen' aimed at your account on the spot is countering. Selective Memory is claiming not to recall, so there is nothing to argue with, only a blank. Deflection does not contest the facts at all. It moves to a new subject. Gaslighting goes further than any one contradiction. It works over time to make you distrust your own mind, while countering can leave your confidence intact.",
    "detection_notes": "Actively matched against pasted text by this tool, at low confidence. Phrase matching can flag wording, but it cannot know intent, tone, history, context, or whether the claim is even true — an innocent reading is always attached to every match. Guards (sarcasm, quotation, hypothetical framing, reported speech, and others) can reduce or nullify a match. Severity only contributes to the overall index above the detection floor.",
    "codex_maturity": "mature",
    "human_review_flags": [
@@ -8414,7 +8414,7 @@
     "Duty Scripts",
     "Demand for Gratitude"
    ],
-   "how_to_distinguish_from_related": "Martyrdom Display advertises sacrifice to build obligation and need not make any request. Guilt-tripping uses sacrifice to push against a specific refusal. Demand for Gratitude asks for thanks as payment for help given. Duty Scripts invoke role expectations such as 'a good daughter would'. Guilt-tripping works through your sense of owing and does not need a role.",
+   "how_to_distinguish_from_related": "Martyrdom Display advertises sacrifice to build obligation and need not make any request. Guilt-tripping uses sacrifice to push against a specific refusal. Demand for Gratitude asks for thanks as payment for help given. Duty Scripts invoke role expectations such as 'a good daughter would'. Guilt-tripping relies on your sense of owing and does not need a role.",
    "detection_notes": "Actively matched against pasted text by this tool, at low confidence. Phrase matching can flag wording, but it cannot know intent, tone, history, context, or whether the claim is even true — an innocent reading is always attached to every match. Guards (sarcasm, quotation, hypothetical framing, reported speech, and others) can reduce or nullify a match. Severity only contributes to the overall index above the detection floor.",
    "codex_maturity": "mature",
    "human_review_flags": [
@@ -9180,7 +9180,7 @@
    "forensic_only": false,
    "absorbs": [],
    "short_definition": "Citing past gifts, money or support as the reason someone must agree to a present request. Past kindness is then treated like a signed contract.",
-   "expanded_definition": "Favor debt is the habit of citing what someone has given, such as school fees, a loan, a place to stay or a favor, as the reason you must say yes to something now. Mutual support is part of nearly every close relationship, and mentioning it is not a problem. It becomes a pattern when old help is used to push on a particular decision. It can be cited again and again and has no end point. Whatever you give, the balance stays open.",
+   "expanded_definition": "Favor debt is the habit of citing what someone has given, such as school fees, a loan, a place to stay or a favor, as the reason you must say yes to something now. Mutual support is part of nearly every close relationship, and mentioning it is not a problem. It turns into a problem when old help is used to push on a particular decision. It can be cited again and again and has no end point. Whatever you give, the balance stays open.",
    "plain_language_summary": "Someone reminds you of everything they gave you and uses it to get a yes now. Whatever you do, the balance never seems paid off.",
    "why_this_matters": "A debt you never agreed to has no settlement date, so you can be asked to pay it over and over. People may stay in jobs, relationships or cities they would have left, or hand over money they cannot spare. They may do this because refusing feels like taking from someone who helped.",
    "what_it_is": [
@@ -9526,7 +9526,7 @@
     "Negging",
     "Silent Treatment"
    ],
-   "how_to_distinguish_from_related": "Exclusive Meaning is a specific claim that only this person understands you, which slowly makes other relationships seem lesser. Love bombing is the overall surge of praise and attention. Future Faking centers on promises about what is coming, rather than on affection in the present. Hoovering happens after distance or a breakup, but love bombing arrives at the start of a connection.",
+   "how_to_distinguish_from_related": "A surge of praise and attention at the start of a connection is what marks love bombing. Exclusive Meaning is a specific claim that only this person understands you, which slowly makes other relationships seem lesser. Future Faking centers on promises about what is coming, rather than on affection in the present. Hoovering happens after distance or a breakup.",
    "detection_notes": "Actively matched against pasted text by this tool, at low confidence. Phrase matching can flag wording, but it cannot know intent, tone, history, context, or whether the claim is even true — an innocent reading is always attached to every match. Guards (sarcasm, quotation, hypothetical framing, reported speech, and others) can reduce or nullify a match. Severity only contributes to the overall index above the detection floor.",
    "codex_maturity": "mature",
    "human_review_flags": [
@@ -9669,7 +9669,7 @@
    "forensic_only": false,
    "absorbs": [],
    "short_definition": "Reaching out to draw someone back into a relationship after they have pulled away or ended it. This often comes with promises that things will change.",
-   "expanded_definition": "Hoovering, named for the vacuum cleaner, is the pull-back that comes after distance or a breakup. It can be messages, apologies, gifts, sudden crises or declarations of change, sent to restart contact. People do sincerely change and ask for another chance, so a single approach means little. It becomes a pattern when the contact returns after each separation and uses whatever has worked before. Once you are back, the old dynamics return.",
+   "expanded_definition": "Hoovering, named for the vacuum cleaner, is the pull-back that comes after distance or a breakup. It can be messages, apologies, gifts, sudden crises or declarations of change, sent to restart contact. People do sincerely change and ask for another chance, so a single approach means little. The concern grows when the contact returns after each separation and uses whatever has worked before. Once you are back, the old dynamics return.",
    "plain_language_summary": "After you pull away or break up, they reach out with promises, apologies or emergencies. You get drawn back, and the old pattern starts again.",
    "why_this_matters": "Each return restarts hope and resets the cycle. You may go back repeatedly, losing time and confidence, and may feel guilty or foolish when it falls apart again.",
    "what_it_is": [
@@ -10384,7 +10384,7 @@
     "\"I Know Best\" Paternalism",
     "Punishment of Boundaries"
    ],
-   "how_to_distinguish_from_related": "Location Tracking is the narrower habit of demanding to know where you are at all times. Monitoring and surveillance take in your messages, accounts and whole day. Behavior Control sets rules about what you do, while monitoring checks on what you have done. Isolation reduces who you see. Surveillance can sit alongside a full social life and still leave you feeling inspected.",
+   "how_to_distinguish_from_related": "Demanding to know where you are at all times is the narrower habit called Location Tracking. Monitoring and surveillance take in your messages, accounts and whole day. Behavior Control sets rules about what you do, while monitoring checks on what you have done. Isolation reduces who you see. Surveillance can sit alongside a full social life and still leave you feeling inspected.",
    "detection_notes": "Actively matched against pasted text by this tool, at low confidence. Phrase matching can flag wording, but it cannot know intent, tone, history, context, or whether the claim is even true — an innocent reading is always attached to every match. Guards (sarcasm, quotation, hypothetical framing, reported speech, and others) can reduce or nullify a match. Severity only contributes to the overall index above the detection floor.",
    "codex_maturity": "mature",
    "human_review_flags": [
@@ -10479,7 +10479,7 @@
     "Places you used to visit freely quietly drop off your routine.",
     "A rule that began as a one-time safety measure becomes permanent without any new conversation."
    ],
-   "repair_check": "Repair looks like the switch actually being yours. Sharing is optional, it can be off without comment, and the questions about stops disappear. If the app stays on 'for safety' and the questions move to your phone calls or your receipts, the tracking has changed form and not ended.",
+   "repair_check": "Real repair is the switch actually being yours. Sharing is optional, it can be off without comment, and the questions about stops disappear. If the app stays on 'for safety' and the questions move to your phone calls or your receipts, the tracking has changed form and not ended.",
    "boundary_respect_check": "Ask yourself how the person behaves in the hour after your location goes off. Calm or curious is one thing. Pressure to turn it back on, a barrage of calls, or an accusation tells you the choice was never really yours.",
    "psychological_mechanism": "When a person knows their movements are visible, they can begin to rehearse explanations in advance. They may avoid places they would find hard to explain. The self-restriction can come to feel like their own idea. The requirement may also be framed as proof of love or safety, which can make refusing seem like rejecting the relationship itself.",
    "possible_impact_on_receiver": "A low hum of anxiety about the phone battery, leaving the phone behind, and feeling watched even when alone are common reports. Some trimmed their day to what could be defended. Some felt guilty about wanting to be unobserved. Others felt relief when a friend or counselor pointed out that a dot on a map is not the same thing as trust.",
@@ -11957,7 +11957,7 @@
     "Denial",
     "Minimization"
    ],
-   "how_to_distinguish_from_related": "Denial is a person refusing to admit what they did. Kafka Trapping is about what is done to the person who denies. DARVO turns the confrontation around so the accuser becomes the injured party. Here the accuser stays the accuser and simply makes every reply count as guilt. Whataboutism answers a charge with a charge of your own. Nothing here needs a counter-charge.",
+   "how_to_distinguish_from_related": "Kafka Trapping is about what is done to the person who denies. A plain denial is only a person refusing to admit what they did. DARVO turns the confrontation around so the accuser becomes the injured party. Here the accuser stays the accuser and simply makes every reply count as guilt. Whataboutism answers a charge with a charge of your own. Nothing here needs a counter-charge.",
    "detection_notes": "Actively matched against pasted text by this tool, at low confidence. Phrase matching can flag wording, but it cannot know intent, tone, history, context, or whether the claim is even true — an innocent reading is always attached to every match. Guards (sarcasm, quotation, hypothetical framing, reported speech, and others) can reduce or nullify a match. Severity only contributes to the overall index above the detection floor.",
    "codex_maturity": "mature",
    "human_review_flags": [
@@ -12318,7 +12318,7 @@
     "Intimidation",
     "Baiting"
    ],
-   "how_to_distinguish_from_related": "Contempt expresses disgust at who you are and needs no benchmark. Comparative devaluation works through a named third person. Shame Installation announces that something is wrong with you as a person, while comparison only says someone else is better. Name-Calling Disguised as Humor wraps the insult in a joke, but comparison can be said seriously and calmly.",
+   "how_to_distinguish_from_related": "Contempt expresses disgust at who you are and needs no benchmark. Comparative devaluation needs a named third person to measure you against. Shame Installation announces that something is wrong with you as a person, while comparison only says someone else is better. Name-Calling Disguised as Humor wraps the insult in a joke, but comparison can be said seriously and calmly.",
    "detection_notes": "Actively matched against pasted text by this tool, at low confidence. Phrase matching can flag wording, but it cannot know intent, tone, history, context, or whether the claim is even true — an innocent reading is always attached to every match. Guards (sarcasm, quotation, hypothetical framing, reported speech, and others) can reduce or nullify a match. Severity only contributes to the overall index above the detection floor.",
    "codex_maturity": "mature",
    "human_review_flags": [
@@ -12678,7 +12678,7 @@
     "Shame Installation",
     "Baiting"
    ],
-   "how_to_distinguish_from_related": "Baiting provokes you so that your reaction can be used against you, while intimidation works through fear to stop or steer you. Contempt looks down on you and need not threaten anything. Shame Installation attacks your worth; intimidation points to what might be done to you or taken from you.",
+   "how_to_distinguish_from_related": "Baiting provokes you so that your reaction can be used against you, while intimidation relies on fear to stop or steer you. Contempt looks down on you and need not threaten anything. Shame Installation attacks your worth; intimidation points to what might be done to you or taken from you.",
    "detection_notes": "Actively matched against pasted text by this tool, at low confidence. Phrase matching can flag wording, but it cannot know intent, tone, history, context, or whether the claim is even true — an innocent reading is always attached to every match. Guards (sarcasm, quotation, hypothetical framing, reported speech, and others) can reduce or nullify a match. Severity only contributes to the overall index above the detection floor.",
    "codex_maturity": "mature",
    "human_review_flags": [
@@ -13980,7 +13980,7 @@
     "The same phrases come back attached to new topics.",
     "You start apologizing for unspecified things and adjusting your behavior to fit guesses."
    ],
-   "repair_check": "Repair looks like a name or a description arriving. That could be the actual behavior ('Tuesday's meeting, the way the budget was challenged') or an honest 'I have no specifics and I shouldn't have said it that way'. A softer repeat of the same hint in a warmer tone is not repair.",
+   "repair_check": "Real repair is a name or a description arriving. That could be the actual behavior ('Tuesday's meeting, the way the budget was challenged') or an honest 'I have no specifics and I shouldn't have said it that way'. A softer repeat of the same hint in a warmer tone is not repair.",
    "boundary_respect_check": "Notice what happens to your question, 'Can you tell me what was said?' A respectful reply gives something, or says honestly why it can't. If the question itself is treated as proof that something is wrong with you, the boundary was not respected.",
    "psychological_mechanism": "An unspecific accusation leaves a gap, and the mind often fills gaps with its own worst fears. With nothing concrete to check, it can keep searching and turn ordinary events into possible clues. Not knowing who is involved can make everyone in the room a possible source. This may lead to withdrawing from the people who could have helped.",
    "possible_impact_on_receiver": "People describe rereading old messages, replaying conversations and watching coworkers' faces for signs. Some change their behavior to fit guesses about the complaint, and some pull back from groups where they think the talk is happening. Feeling judged without a hearing can be painful in its own right.",
@@ -15115,7 +15115,7 @@
     "Shame Installation",
     "Intimidation"
    ],
-   "how_to_distinguish_from_related": "Intimidation works through fear of consequences. It pushes you toward stopping or giving in, while baiting pushes you toward reacting. Emotional Invalidation tells you your reaction is wrong. Baiting is about drawing the reaction out first. Contempt is scorn that stands on its own. In baiting, your response is what gets picked up and used afterward.",
+   "how_to_distinguish_from_related": "Intimidation rests on fear of consequences. It pushes you toward stopping or giving in, while baiting pushes you toward reacting. Emotional Invalidation tells you your reaction is wrong. Baiting is about drawing the reaction out first. Contempt is scorn that stands on its own. In baiting, your response is what gets picked up and used afterward.",
    "detection_notes": "Actively matched against pasted text by this tool, at low confidence. Phrase matching can flag wording, but it cannot know intent, tone, history, context, or whether the claim is even true — an innocent reading is always attached to every match. Guards (sarcasm, quotation, hypothetical framing, reported speech, and others) can reduce or nullify a match. Severity only contributes to the overall index above the detection floor.",
    "codex_maturity": "mature",
    "human_review_flags": [
@@ -15387,7 +15387,7 @@
    "forensic_only": false,
    "absorbs": [],
    "short_definition": "Treating a person's visible feelings as proof that their point can be ignored. The feeling becomes the topic, and the complaint disappears.",
-   "expanded_definition": "This is a way of answering a concern by pointing at how upset the speaker looks or sounds, instead of at what they said. The subject moves from the problem to the person's state. One remark in a heated moment is common and means little. It becomes a pattern when it shows up mainly on inconvenient topics. It also does when the point is never answered later, or when the speaker hides their feelings just to be heard.",
+   "expanded_definition": "This is a way of answering a concern by pointing at how upset the speaker looks or sounds, instead of at what they said. The subject moves from the problem to the person's state. One remark in a heated moment is common and means little. It deserves attention when it shows up mainly on inconvenient topics. It also does when the point is never answered later, or when the speaker hides their feelings just to be heard.",
    "plain_language_summary": "You raise a problem, and the reply is about how upset you seem. Your tears or raised voice become the reason the problem never gets discussed.",
    "why_this_matters": "People who hear this often learn to read their own feelings as a defect. They may stop raising problems, or rehearse a flat voice, so the actual issue never gets heard and nothing changes.",
    "what_it_is": [
@@ -15578,7 +15578,7 @@
     "Past remarks resurface months later, quoted without the doubt you attached.",
     "You find it easier to tell a friend or a journal the honest version than to tell this person."
    ],
-   "repair_check": "Watch for whether openness becomes safe again. A person who has changed will treat your next unfinished thought as something to explore together. They may even say they regret pouncing before. An apology that is followed by another 'aha' the next time you admit something has not changed anything.",
+   "repair_check": "Watch for whether openness becomes safe again. A person who has changed will treat your next unfinished thought as something to explore together. They may even say they regret pouncing before. An apology that is followed by another 'aha' the next time you admit something is not repair.",
    "boundary_respect_check": "Try telling them, 'I was thinking out loud, not confessing.' Notice whether that is allowed to stand. If they accept it and ask what you were thinking, your point was heard. If they insist your words stand as spoken, the thinking-aloud space is still closed.",
    "psychological_mechanism": "People tend to share more when they expect a kind reception and less when disclosure has cost them before. Repeatedly seeing a half-formed thought used as evidence can teach the speaker to stay guarded. In time the person may edit themselves before speaking, and it can seem as if their own honest voice has gone quiet.",
    "possible_impact_on_receiver": "People describe becoming wary of their own words and going quiet about doubts, mistakes and feelings. Some say they started to over-explain, or to avoid conversations that might lead somewhere honest. Others describe a growing sense that anything they admit will be saved for later, which leaves them lonely even when they are not alone.",
@@ -16062,7 +16062,7 @@
     "You find it hard to say that something was truly worse than something else.",
     "Friends see a big gap in who is giving and who is taking, though you describe it as even."
    ],
-   "repair_check": "Check whether the larger share ever gets named on its own. Repair looks like 'what I did was bigger, and I'm not putting it next to yours'. A hasty apology bundled with 'and you did X too' keeps the scale level.",
+   "repair_check": "Check whether the larger share ever gets named on its own. Real repair sounds like 'what I did was bigger, and I'm not putting it next to yours'. A hasty apology bundled with 'and you did X too' keeps the scale level.",
    "boundary_respect_check": "Ask them to take your complaint alone for five minutes, without adding anything from their side. Can they do it? If they need to answer with their own list straight away, the request for a separate hearing is not being honored.",
    "psychological_mechanism": "Fairness is a strong value for most people, and an appeal to it can be hard to resist. When two faults are placed together, the larger one can look smaller by comparison. A person who values being fair may then accept more blame than the facts support, to keep the peace.",
    "possible_impact_on_receiver": "People describe an uneasy sense that something is off but that they cannot say what, since 'both of us' sounds reasonable. Some end up apologizing for small things while the big one stays unaddressed, and then wonder whether they are keeping score unfairly. Others describe losing the sense of how serious a thing was.",
@@ -17409,7 +17409,7 @@
     "Small issues pile up unsaid, because raising them feels like arguing against someone's entire character.",
     "Others in the group start to treat the person as beyond question."
    ],
-   "repair_check": "Their own words name the specific event back to you before any mention of their record. If history comes in afterwards as context and the event still gets addressed, the exchange has moved. A longer list of credentials on the second try has not changed anything.",
+   "repair_check": "Their own words name the specific event back to you before any mention of their record. If history comes in afterwards as context and the event still gets addressed, the exchange has moved. A longer list of credentials on the second try shows no movement.",
    "boundary_respect_check": "Notice whether saying 'I'm asking about Tuesday, not about your whole character' changes their next reply. Watch for a move from the list to the event. Also watch for the list getting longer, along with a hint that you are being unfair to ask.",
    "psychological_mechanism": "A person's good standing can work as a shortcut for deciding what is likely: someone kind seems unlikely to have done harm. Listeners may discount a complaint, and the person making it, before checking the facts. The speaker can also be reassured by their own record, which may lead them to treat an uncomfortable complaint as an error instead of information.",
    "possible_impact_on_receiver": "Accounts of this often include guilt for raising something real, and extra caution about raising it again. Some doubt whether they have the right to complain, given what the person has done for them. Others are left with a small, specific problem that was never discussed and a large, vague sense of having been ungrateful.",
@@ -18162,7 +18162,7 @@
     "Future Faking",
     "Negging"
    ],
-   "how_to_distinguish_from_related": "Relief Bait is the move itself: kindness placed right after harm to reset what you will tolerate. Trauma bonding is the attachment that can result when this is repeated. Intermittent Reinforcement concerns the unpredictable timing of rewards, whether or not pain precedes them. Conditional Love sets out terms; here the terms are never stated, and the bond is felt as love.",
+   "how_to_distinguish_from_related": "Kindness placed right after harm, to reset what you will tolerate, is the move called Relief Bait. Trauma bonding is the attachment that can result when this is repeated. Intermittent Reinforcement concerns the unpredictable timing of rewards, whether or not pain precedes them. Conditional Love sets out terms; here the terms are never stated, and the bond is felt as love.",
    "detection_notes": "Not matched line-by-line. This requires repeated context or a recognizable sequence across a long enough thread to mean anything — a single message is never sufficient. Never scored.",
    "codex_maturity": "mature",
    "human_review_flags": [
@@ -18531,7 +18531,7 @@
     "Shame Installation",
     "Intimidation"
    ],
-   "how_to_distinguish_from_related": "Contempt is a visible, specific expression of disgust, while this is an undercurrent with no single expression to point to. Intimidation implies a consequence for non-compliance, but here nothing is threatened outright. Emotional Invalidation answers your feelings when you state them. This mood is felt even when nothing is said.",
+   "how_to_distinguish_from_related": "Ambient abuse is an undercurrent with no single expression to point to, while contempt is a visible, specific expression of disgust. Intimidation implies a consequence for non-compliance, but here nothing is threatened outright. Emotional Invalidation answers your feelings when you state them. This mood is felt even when nothing is said.",
    "detection_notes": "Not matched line-by-line. This requires repeated context or a recognizable sequence across a long enough thread to mean anything — a single message is never sufficient. Never scored.",
    "codex_maturity": "mature",
    "human_review_flags": [
@@ -18918,7 +18918,7 @@
    "forensic_only": false,
    "absorbs": [],
    "short_definition": "A sudden, sharper surge of a pressure tactic right after it stops working, as the person tries harder to get the old result back.",
-   "expanded_definition": "The term comes from behavior science: when a habit that used to pay off stops paying off, it often gets louder before it fades. In relationships, this can look like more messages, more anger or bigger promises right after you hold a limit for the first time. A spike after a new boundary can come from hurt or shock and does not show what anyone meant. It becomes a pattern when each limit you hold is met with something heavier than before.",
+   "expanded_definition": "The term comes from behavior science: when a habit that used to pay off stops paying off, it often gets louder before it fades. In relationships, this can look like more messages, more anger or bigger promises right after you hold a limit for the first time. A spike after a new boundary can come from hurt or shock and does not show what anyone meant. It is more worrying when each limit you hold is met with something heavier than before.",
    "plain_language_summary": "You hold a limit for the first time, and things suddenly get worse, not better. The pressure that used to work gets turned up because it stopped working.",
    "why_this_matters": "The first boundary that actually works is the one that costs the most. It can teach you that holding a limit makes things worse. Giving in then starts to feel like the only way to get peace again.",
    "what_it_is": [
@@ -18990,7 +18990,7 @@
     "You find yourself giving in earlier each time to avoid the surge.",
     "Good stretches follow only when you have given way, which teaches you what each choice costs."
    ],
-   "repair_check": "Once you have named the surge, watch what happens to the limit itself. Repair looks like the surge ending while the boundary stays in place, and an acknowledgment that the escalation was too much. A calm week bought by your quietly dropping the limit is a return of the old arrangement.",
+   "repair_check": "Once you have named the surge, watch what happens to the limit itself. Real repair is the surge ending while the boundary stays in place, and an acknowledgment that the escalation was too much. A calm week bought by your quietly dropping the limit is a return of the old arrangement.",
    "boundary_respect_check": "Compare the first refusal with the fourth. When a limit is respected, the answer to it gets quieter each time, even if the disappointment remains. When the answer keeps getting louder, the limit is being treated as a problem to be overcome.",
    "psychological_mechanism": "When a behavior has paid off before, it tends to be repeated harder before it is dropped. On the receiving end, relief when the surge stops can strengthen the habit of yielding. Escalation can look like proof that you were wrong to refuse. The discomfort arrives right away, and the benefit of the limit comes later.",
    "possible_impact_on_receiver": "People describe doubting a boundary that was reasonable, replaying the moment before the surge, and feeling guilty for the fallout. Some describe giving in just to end the noise, and then feeling angry at themselves. Others say that naming this shape gave them the nerve to hold the second limit.",
@@ -19495,7 +19495,7 @@
     "Fawning",
     "Identity Erosion"
    ],
-   "how_to_distinguish_from_related": "Identity Erosion is the slow loss of tastes, opinions and friendships. Self-Gaslighting Induction is distrust of your memory and perception. Fawning is appeasing a person in the moment, but this habit continues when the person is not there. Learned Helplessness is doubt about whether you can manage tasks, while this one is doubt about what you saw and remember.",
+   "how_to_distinguish_from_related": "The slow loss of tastes, opinions and friendships belongs to Identity Erosion. Self-Gaslighting Induction is distrust of your memory and perception. Fawning is appeasing a person in the moment, but this habit continues when the person is not there. Learned Helplessness is doubt about whether you can manage tasks, while this one is doubt about what you saw and remember.",
    "detection_notes": "Not matched or scored, by design. This tool never evaluates its own user's internal state — doing so would mean diagnosing the person using the tool.",
    "codex_maturity": "mature",
    "human_review_flags": [
@@ -19980,7 +19980,7 @@
     "Self-Gaslighting Induction",
     "Fawning"
    ],
-   "how_to_distinguish_from_related": "Loyalty Binds is the demand that you keep quiet, while silence installation is what is left once nobody needs to demand it. Fawning is active appeasing, with agreeing and soothing, whereas here you go silent on one topic. Self-Gaslighting Induction is doubting whether what you saw was real, but with silence you know exactly what you saw and cannot say it.",
+   "how_to_distinguish_from_related": "Loyalty Binds demand that you keep quiet, while silence installation is what is left once nobody needs to demand it. Fawning is active appeasing, with agreeing and soothing, whereas here you go silent on one topic. Self-Gaslighting Induction is doubting whether what you saw was real, but with silence you know exactly what you saw and cannot say it.",
    "detection_notes": "Not matched or scored, by design. This tool never evaluates its own user's internal state — doing so would mean diagnosing the person using the tool.",
    "codex_maturity": "mature",
    "human_review_flags": [
@@ -20222,7 +20222,7 @@
     "Self-Gaslighting Induction",
     "Fawning"
    ],
-   "how_to_distinguish_from_related": "Learned Helplessness is the message that you cannot cope alone. Parentification is nearly the reverse, with you treated as the one who must cope for everyone. Loyalty Binds defines love as silence and compliance, but here the demand is for care work. Conditional Worth ties your value to usefulness. It often goes with the role but can exist without it.",
+   "how_to_distinguish_from_related": "The message that you cannot cope alone belongs to Learned Helplessness. Parentification is nearly the reverse, with you treated as the one who must cope for everyone. Loyalty Binds defines love as silence and compliance, but here the demand is for care work. Conditional Worth ties your value to usefulness. It often goes with the role but can exist without it.",
    "detection_notes": "Not matched or scored, by design. This tool never evaluates its own user's internal state — doing so would mean diagnosing the person using the tool.",
    "codex_maturity": "mature",
    "human_review_flags": [
@@ -21567,7 +21567,7 @@
     "Lying by Omission",
     "Strategic Incompleteness"
    ],
-   "how_to_distinguish_from_related": "Lying is a false statement in someone's own voice. Fabricated evidence is a false object that borrows the authority of a record, so it can be passed to others and outlive the conversation. Lying by Omission invents nothing and leaves out a piece of a true story. Vague Allegations point to unnamed critics or unspecified accusations with nothing to inspect. Fabricated evidence gives you something concrete to inspect that turns out not to be authentic.",
+   "how_to_distinguish_from_related": "Fabricated evidence is a false object that borrows the authority of a record, so it can be passed to others and outlive the conversation. Lying is a false statement in someone's own voice. Lying by Omission invents nothing and leaves out a piece of a true story. Vague Allegations point to unnamed critics or unspecified accusations with nothing to inspect. Fabricated evidence gives you something concrete to inspect that turns out not to be authentic.",
    "detection_notes": "Not matched or scored. Pasted text cannot verify or authenticate forensic/evidentiary claims — that requires the actual technical evidence, not conversational text.",
    "codex_maturity": "mature",
    "human_review_flags": [
@@ -21812,7 +21812,7 @@
     "Social Engineering",
     "Performative Allyship / False Solidarity"
    ],
-   "how_to_distinguish_from_related": "Identity Performances is a whole persona tailored to each audience, while credential-costuming is one specific claim about qualifications that can be checked. Strategic Self-Deprecation / Performed Humility lowers standing to block criticism. This one raises standing to block questions. Social Engineering often borrows a title as a pretext to get something quickly. Here the title is the point.",
+   "how_to_distinguish_from_related": "Credential-costuming is one specific claim about qualifications that can be checked, while Identity Performances is a whole persona tailored to each audience. Strategic Self-Deprecation / Performed Humility lowers standing to block criticism. This one raises standing to block questions. Social Engineering often borrows a title as a pretext to get something quickly. Here the title is the point.",
    "detection_notes": "Not matched or scored by this tool. Pasted text cannot establish this concept — included in the Field Guide purely as a literacy reference.",
    "codex_maturity": "mature",
    "human_review_flags": [
@@ -22511,7 +22511,7 @@
     "Financial Dependence by Design",
     "Platform Migration"
    ],
-   "how_to_distinguish_from_related": "Confirmation Bias Exploitation works through the warm, repeated stretches that follow each harmful event in a close relationship. The halo here comes from standing, talent or reputation that other people share, and it has nothing to do with the incident. Premature Exclusivity pushes a quick commitment, while the halo is used to quiet doubt about conduct after the fact. Covert Contracts punishes breaking a rule never stated, which is a different problem from being talked out of a concern.",
+   "how_to_distinguish_from_related": "Confirmation Bias Exploitation draws on the warm, repeated stretches that follow each harmful event in a close relationship. The halo here comes from standing, talent or reputation that other people share, and it has nothing to do with the incident. Premature Exclusivity pushes a quick commitment, while the halo is used to quiet doubt about conduct after the fact. Covert Contracts punishes breaking a rule never stated, which is a different problem from being talked out of a concern.",
    "detection_notes": "Not matched or scored by this tool. Pasted text cannot establish this concept — included in the Field Guide purely as a literacy reference.",
    "codex_maturity": "mature",
    "human_review_flags": [
@@ -23219,7 +23219,7 @@
     "Dehumanization",
     "Overcorrection Demands"
    ],
-   "how_to_distinguish_from_related": "Shame-as-Governance Disguised as Advice works through informal comments about your character with nothing written down. A PIP puts a document and dates around the judgment. Credit Laundering removes your name from successful work, where a PIP builds a record of supposed failure. Overcorrection Demands asks for outsized repair after a small lapse, whereas a PIP tells you to close a gap by a set date.",
+   "how_to_distinguish_from_related": "Shame-as-Governance Disguised as Advice relies on informal comments about your character with nothing written down. A PIP puts a document and dates around the judgment. Credit Laundering removes your name from successful work, where a PIP builds a record of supposed failure. Overcorrection Demands asks for outsized repair after a small lapse, whereas a PIP tells you to close a gap by a set date.",
    "detection_notes": "Not matched or scored by this tool. Pasted text cannot establish this concept — included in the Field Guide purely as a literacy reference.",
    "codex_maturity": "mature",
    "human_review_flags": [
@@ -23915,7 +23915,7 @@
     "Grief or anger arrives later, in places you cannot explain, because it had nowhere to go.",
     "The group praises those who stay upbeat and quietly sidelines those who do not."
    ],
-   "repair_check": "Change would be someone saying 'I jumped to cheering you up before I heard you', then asking you to tell them the thing again and staying with it. Warm talk that slides back to bright-side phrases in the next hard moment has not changed anything.",
+   "repair_check": "Change would be someone saying 'I jumped to cheering you up before I heard you', then asking you to tell them the thing again and staying with it. Warm talk that slides back to bright-side phrases in the next hard moment shows the habit is still running.",
    "boundary_respect_check": "Say what you need before you describe the problem, such as listening only, and observe what comes back. Listening without a fix honors it. A return to 'but look on the bright side' within a minute shows your need was treated as a mood to be managed.",
    "psychological_mechanism": "Many people are uncomfortable around others' pain and reach for quick reassurance to relieve it. When that reassurance is repeated, the person in pain may learn that distress is unwelcome and start to hide it. That can leave the feeling unprocessed. In groups, an upbeat norm can make complaints look like disloyalty, so problems stay unspoken.",
    "possible_impact_on_receiver": "Being dismissed, then ashamed of having a feeling, then alone with it: that sequence is a common account. Some pretend to be fine in front of the same people afterwards. Others doubt whether their grief or anger was reasonable. At work, giving up on reporting problems is one result.",
@@ -24275,7 +24275,7 @@
     "You catch yourself asking the other person what you must be feeling.",
     "You share less of what is going on inside, because sharing only starts the correction."
    ],
-   "repair_check": "Repair looks like a reading becoming a question and staying one: 'Is it more this, or that?' followed by accepting your answer. Apologizing once for 'assuming' and then telling you your real motive again next week is the same claim in new clothes.",
+   "repair_check": "Change shows when a reading becomes a question and stays one: 'Is it more this, or that?' followed by accepting your answer. Apologizing once for 'assuming' and then telling you your real motive again next week is the same claim in new clothes.",
    "boundary_respect_check": "Try stating what you feel in one short sentence, then stop. Watch who gets the last word. If your sentence stands, your boundary was heard. If it gets a second sentence explaining what you really mean, it was not.",
    "psychological_mechanism": "Few of us have perfect access to our own motives, so a confident outside reading can sound plausible. When it comes from someone close or with standing, such as a parent, partner or boss, it can be easier to adopt than to resist. Repeated often, it can teach a person to look to others for the answer to what they feel.",
    "possible_impact_on_receiver": "People describe being unable to say what they feel without it being corrected, and then feeling unsure of the feeling itself. Some become guarded and share less. Some say they began asking others what they must be feeling, which they later found disorienting. There can also be a flat anger at not being believed about their own mind.",
@@ -24635,7 +24635,7 @@
     "The bar for 'enough' moves each time you meet it.",
     "You notice your own certainty falling because every claim feels like it needs an audit."
    ],
-   "repair_check": "Repair looks like a change in who carries the work. They begin from your account, ask what you need, and keep any requests for evidence for facts that are really in dispute. A one-off 'I believe you' followed by a new request for documentation next time has not moved the burden.",
+   "repair_check": "Real change shows in who carries the work. They begin from your account, ask what you need, and keep any requests for evidence for facts that are really in dispute. A one-off 'I believe you' followed by a new request for documentation next time has not moved the burden.",
    "boundary_respect_check": "Ask yourself what happens when you state a need without any proof attached. If it is simply considered or answered, the boundary is being respected. If it is returned to you with a list of conditions, it is being treated as a case to be won.",
    "psychological_mechanism": "When a person is asked to prove something, they tend to focus on gathering evidence and to take on the role of a defendant. Time and attention go into the case rather than the original need. If the standard keeps shifting, the person can start to doubt that their experience counts without a paper trail.",
    "possible_impact_on_receiver": "People describe over-preparing for ordinary conversations, feeling rehearsed and watched, and giving up on requests that matter. Some say they began to doubt their own account unless it was written down. Others describe anger at being treated like a witness in their own life.",
@@ -24661,7 +24661,7 @@
     "Authority Hijack",
     "Accountability Evasion via Diagnosis"
    ],
-   "how_to_distinguish_from_related": "Credibility Theft attacks whether you are a reliable person at all. This tactic leaves you as a possible witness but makes you carry all the proof. Frame Control sets what the conversation is about. Here the topic stays the same and only the duty to prove it moves. Projection hands you the other person's behavior. This one hands you their obligation.",
+   "how_to_distinguish_from_related": "Credibility Theft attacks whether you are a reliable person at all. This tactic leaves you as a possible witness but makes you carry all the proof. With Frame Control, the subject of the conversation is what gets changed. Here the topic stays the same and only the duty to prove it moves. Projection hands you the other person's behavior. This one hands you their obligation.",
    "detection_notes": "Not matched or scored by this tool. Pasted text cannot establish this concept — included in the Field Guide purely as a literacy reference.",
    "codex_maturity": "mature",
    "human_review_flags": [
@@ -24779,7 +24779,7 @@
     "Authority Hijack",
     "Accountability Evasion via Diagnosis"
    ],
-   "how_to_distinguish_from_related": "Frame Control sets what the conversation is about. A Gish Gallop does not choose a frame at all. It buries the real subject under a pile of claims. Priming / Narrative Seeding shapes a view in advance, quietly. A gallop is loud and happens in the moment. Credibility Theft discounts you as a witness to what happened, whereas a gallop leaves you unable to keep up.",
+   "how_to_distinguish_from_related": "Frame Control decides the subject and terms of a discussion in advance. A Gish Gallop does not choose a frame at all. It buries the real subject under a pile of claims. Priming / Narrative Seeding shapes a view in advance, quietly. A gallop is loud and happens in the moment. Credibility Theft discounts you as a witness to what happened, whereas a gallop leaves you unable to keep up.",
    "detection_notes": "Not matched or scored by this tool. Pasted text cannot establish this concept — included in the Field Guide purely as a literacy reference.",
    "codex_maturity": "mature",
    "human_review_flags": [
@@ -26071,7 +26071,7 @@
     "Each new burst of public anger is directed to the same safe outlet and then fades.",
     "Independent groups that formed to push harder keep failing to get meetings, funding or coverage."
    ],
-   "repair_check": "Suppose a group is found to have taken undisclosed money or direction. Repair looks like publishing the whole record, stepping aside and letting members choose new leaders. A fresh logo and a statement about 'lessons learned', with the same people in charge, is a different thing.",
+   "repair_check": "Suppose a group is found to have taken undisclosed money or direction. Real repair is publishing the whole record, stepping aside and letting members choose new leaders. A fresh logo and a statement about 'lessons learned', with the same people in charge, is a different thing.",
    "boundary_respect_check": "Watch what happens to a member who asks where the money comes from. Are they answered with figures, or with a cooler welcome? Open books and tolerated questions point one way; hostility to the question points the other.",
    "psychological_mechanism": "A sanctioned outlet can pass for progress. Being heard, attending a meeting or signing a petition can release the urge to act. Energy that might have gone into harder options is spent before it builds up. When the visible opponent also seems reasonable and independent, people often trust the process and see impatient critics as extremists.",
    "possible_impact_on_receiver": "People describe years of effort that ended in a polite report, and a sinking feeling on finding the sponsor behind a trusted group. Some become suspicious of every organization, including honest ones. Others feel foolish, or fall out with friends who stayed involved.",
@@ -26083,7 +26083,7 @@
     "workplace_or_professional": "If you work for such a group or for the institution it opposes, record what you were asked to do and when. Raise concerns through your ethics or compliance route."
    },
    "boundary_script": "Verification script (to yourself, before joining or sharing): \"Can I name a document, a donor or a witness that shows who steers this group, or am I reacting to a feeling that it is too tidy? Has it ever won anything the other side fought?\"",
-   "safety_note": "Controlled opposition is rarely a personal danger. The risk comes when a group's insiders are pressured, followed or threatened for asking questions, or when you are urged to hand over personal details. If so, stop sharing and save what you hold. Speak to a lawyer, a press-freedom organization or a legal aid service.",
+   "safety_note": "Controlled opposition is rarely a personal danger. The risk comes when a group's insiders are pressured, followed or threatened for asking questions, or when you are urged to hand over personal details. If so, stop sharing and save what you hold. Speak to a legal aid service, a press-freedom organization or a lawyer.",
    "safety_sensitive": false,
    "misuse_warning": [
     "Calling a rival group 'controlled' because it chose a different tactic spreads suspicion without proof and splits movements.",
@@ -26191,7 +26191,7 @@
     "Invitations, referrals or opportunities quietly dry up and no reason is ever given.",
     "People who once knew you well start repeating the story as though they had changed their mind about you."
    ],
-   "repair_check": "Suppose someone realizes the story had no source. Repair looks like them going back to the people they told and saying they cannot stand behind it. Telling you privately that they believe you, while leaving the rumor untouched in public, does not take it back out of circulation.",
+   "repair_check": "Suppose someone realizes the story had no source. Real repair is them going back to the people they told and saying they cannot stand behind it. Telling you privately that they believe you, while leaving the rumor untouched in public, does not take it back out of circulation.",
    "boundary_respect_check": "Notice whether the person who repeated the story is willing to say where it came from when you ask. Naming the source and then dropping the claim shows respect for the limit. Changing the subject, or saying they cannot remember, then repeating it, shows the reverse.",
    "psychological_mechanism": "Hearing a story several times, from several mouths, can make it seem more believable, even when all the mouths share one origin. Each person who passes it on can also feel entitled to, because others did first. The source drops out of view while the confidence goes up, so the story starts to seem settled.",
    "possible_impact_on_receiver": "Some walk into rooms where the verdict has arrived first. Some have to prove a negative, and cannot find anyone to argue with. Some pull back from groups to avoid the looks. Others spend months trying to trace a rumor to its start.",
@@ -26203,7 +26203,7 @@
     "workplace_or_professional": "At work, ask your manager to name specific incidents or complaints in writing. Keep a dated record of positive work, feedback and who has seen it."
    },
    "boundary_script": "\"I'd like to deal with what actually happened. If you saw something, tell me what it was. If you only heard it from others, please don't pass it on as fact, and I'm glad to answer anything you want to ask me directly.\"",
-   "safety_note": "Reputation laundering is usually painful but not dangerous. It becomes serious when the rumor costs you your job, housing, custody or standing in a community, or when it is used to justify harassment. Keep dated records and screenshots. Take them to an employment adviser, a union rep or a legal aid service.",
+   "safety_note": "Reputation laundering is usually painful but not dangerous. It becomes serious when the rumor costs you your job, housing, custody or standing in a community, or when it is used to justify harassment. Keep dated records and screenshots. Take them to a legal aid service, a union rep or an employment adviser.",
    "safety_sensitive": false,
    "misuse_warning": [
     "Calling a legitimate warning from several people 'laundering' can wave away real concerns about someone's conduct.",
@@ -26237,7 +26237,7 @@
    "forensic_only": false,
    "absorbs": [],
    "short_definition": "A mother repeatedly corrects, redoes or limits the other parent's or caregiver's care of a child, until that person loses confidence and steps back.",
-   "expanded_definition": "Maternal gatekeeping is a term from family research. It describes ways a mother, often without noticing, can limit how much another caregiver does with a child. That caregiver is usually the father, but can be a grandparent or stepparent. It includes redoing tasks, giving instructions about methods that have no single right way, and being the one who decides who may care for the child. One correction about safety is ordinary. It becomes a pattern when competent care keeps being redone and the other caregiver slowly stops trying.",
+   "expanded_definition": "Maternal gatekeeping is a term from family research. It describes ways a mother, often without noticing, can limit how much another caregiver does with a child. That caregiver is usually the father, but can be a grandparent or stepparent. It includes redoing tasks, giving instructions about methods that have no single right way, and being the one who decides who may care for the child. One correction about safety is ordinary. It matters when competent care keeps being redone and the other caregiver slowly stops trying.",
    "plain_language_summary": "One parent keeps correcting or redoing how the other cares for the child. The other parent gives up and does less, which then seems to prove the point.",
    "why_this_matters": "The corrected caregiver's confidence erodes until they step back, and the stepping back is then read as proof they were never really willing. Both the child and that caregiver can lose time and closeness.",
    "what_it_is": [
@@ -26357,7 +26357,7 @@
    "forensic_only": false,
    "absorbs": [],
    "short_definition": "Arranging what another person reads, hears and talks about so that they mostly meet one view and come to see every other source as unreliable.",
-   "expanded_definition": "An echo chamber is a closed circle in which the same views bounce back and outside voices are cast as biased. Construction is the active part. Someone feeds a person selected sources, introduces them to one set of friends, and pre-labels outsiders as liars or fools before they have spoken. Sharing links you like is ordinary. It becomes a pattern when other sources are steadily discouraged and doubt about outsiders is taught in advance.",
+   "expanded_definition": "An echo chamber is a closed circle in which the same views bounce back and outside voices are cast as biased. Construction is the active part. Someone feeds a person selected sources, introduces them to one set of friends, and pre-labels outsiders as liars or fools before they have spoken. Sharing links you like is ordinary. It is a concern when other sources are steadily discouraged and doubt about outsiders is taught in advance.",
    "plain_language_summary": "Someone slowly fills your information world with one point of view and teaches you in advance to distrust everyone else, so it looks like your own choice.",
    "why_this_matters": "You lose the outside views that would let you sense-check your own situation, and the narrowing arrives feeling like a preference you chose. It is hard to notice what you are no longer hearing.",
    "what_it_is": [
@@ -26431,7 +26431,7 @@
     "Old friends say you have changed, and you feel defensive before they finish speaking.",
     "Reading something the group frowns on makes your stomach tighten."
    ],
-   "repair_check": "When the narrowing is named, repair looks like the person encouraging you to read widely. They back your contact with people you have drifted from, and they accept your doubts without any penalty. A short pause in the pressure, followed by a return to the same sources and the same warnings, is not that.",
+   "repair_check": "When the narrowing is named, real repair is the person encouraging you to read widely. They back your contact with people you have drifted from, and they accept your doubts without any penalty. A short pause in the pressure, followed by a return to the same sources and the same warnings, is not that.",
    "boundary_respect_check": "Try something small, such as saying you will read a source they dislike, or meet an old friend alone. Does the person accept it, or pay you back with sulking, a lecture or sudden coldness? Accepting without a price suggests the limit is being respected.",
    "psychological_mechanism": "Hearing the same view often, from people you like, can make it feel like plain fact. Having your view echoed back can also feel good. If outsiders are described as biased before they speak, their arguments can be dismissed without being weighed. Over time this can make one circle's picture feel like plain reality, and doubt feel like betrayal.",
    "possible_impact_on_receiver": "Meeting outsiders can come as a shock, because the world looks different from what the circle said. Some report losing touch with relatives, finding it hard to talk to anyone who disagrees, and feeling embarrassed later about what they once repeated with certainty.",
@@ -26673,7 +26673,7 @@
     "Attempts to correct the record are answered with 'it has been widely reported'.",
     "Details of the claim harden over time, such as numbers becoming exact, while the evidence stays thin."
    ],
-   "repair_check": "When a chain is exposed, repair looks like each outlet saying it relied on an earlier source it did not check. They update the original piece and tell readers who saw the earlier version. Quietly deleting a link while leaving the claim in place does not remove it from circulation.",
+   "repair_check": "When a chain is exposed, real repair is each outlet saying it relied on an earlier source it did not check. They update the original piece and tell readers who saw the earlier version. Quietly deleting a link while leaving the claim in place does not remove it from circulation.",
    "boundary_respect_check": "When you ask an outlet or colleague where a claim came from, watch how they respond. Naming the source and conceding what they did not check shows that the question was respected. Pointing to the number of other places that ran it avoids the question.",
    "psychological_mechanism": "Messenger reputation often does the work that checking should. Readers can judge a claim by how reputable the messenger seems and by how often they have seen it, rather than checking the root. A respectable outlet can lend its reputation to something it did not verify. Seeing a claim in several places may look like confirmation, even when they all trace to one origin.",
    "possible_impact_on_receiver": "People describe the frustration of facing a claim that seems sourced and cannot be answered in one line. Targets report harm to their name or job from something they never said. Readers describe feeling foolish on learning that the 'many sources' were one.",
@@ -26960,7 +26960,7 @@
     "Postural Dominance"
    ],
    "short_definition": "Using posture, stares, sighs, eye rolls or the way a body fills a room to dismiss or pressure someone without saying anything.",
-   "expanded_definition": "Nonverbal dominance is pressure carried by the body instead of words. Examples are a pointed sigh, an eye roll, a long stare, standing over someone who is seated, or taking the head of the table and more room than the moment needs. When it is mostly about how someone stands or sits, it is called postural dominance. Each signal is easy to deny and hard to quote. One sigh means little. It becomes a pattern when it reliably lands on the moments you disagree, correct something or ask for something, and you start editing yourself around it.",
+   "expanded_definition": "Nonverbal dominance is pressure carried by the body instead of words. Examples are a pointed sigh, an eye roll, a long stare, standing over someone who is seated, or taking the head of the table and more room than the moment needs. When it is mostly about how someone stands or sits, it is called postural dominance. Each signal is easy to deny and hard to quote. One sigh means little. It is a concern when it reliably lands on the moments you disagree, correct something or ask for something, and you start editing yourself around it.",
    "plain_language_summary": "Without saying a word, someone uses sighs, stares, eye rolls or where they stand to make you feel small, so you stop disagreeing. There is nothing you could quote back to them.",
    "why_this_matters": "Nothing quotable is said, so the experience is hard to explain to anyone else. You may end up quietly editing yourself around a reaction you could not describe if asked. Being looked down on, literally, works below the level of argument. You feel smaller and cannot point to why.",
    "what_it_is": [
@@ -27180,7 +27180,7 @@
     "Resource Sabotage",
     "\"Managed Out\" Through Exhaustion"
    ],
-   "how_to_distinguish_from_related": "Nonverbal Dominance unsettles through looks, sighs and eye rolls and can work from across a room. Spatial invasion works through where a body stands, closing distance or covering the way out. Emotion Control penalizes the feelings you show and does not depend on where anyone stands. Resource Sabotage removes tools and support over weeks, while this plays out inside one tense moment.",
+   "how_to_distinguish_from_related": "Nonverbal Dominance unsettles through looks, sighs and eye rolls and can work from across a room. Spatial invasion depends on where a body stands, closing distance or covering the way out. Emotion Control penalizes the feelings you show and does not depend on where anyone stands. Resource Sabotage removes tools and support over weeks, while this plays out inside one tense moment.",
    "detection_notes": "Not matched or scored by this tool. Pasted text cannot establish this concept — included in the Field Guide purely as a literacy reference.",
    "codex_maturity": "mature",
    "human_review_flags": [
@@ -28133,7 +28133,7 @@
     "Spatial Invasion",
     "Resource Sabotage"
    ],
-   "how_to_distinguish_from_related": "Spatial Invasion uses a person's body, such as standing too close or blocking a doorway. Smart-home coercion works through devices, often when nobody is in the room. Resource Sabotage takes away money, tools or information you need. Here the devices stay in place and work as a way of watching or unsettling you. The telltale sign is access that only one person holds.",
+   "how_to_distinguish_from_related": "Spatial Invasion uses a person's body, such as standing too close or blocking a doorway. Smart-home coercion uses devices, often when nobody is in the room. Resource Sabotage takes away money, tools or information you need. Here the devices stay in place and work as a way of watching or unsettling you. The telltale sign is access that only one person holds.",
    "detection_notes": "Not matched or scored by this tool. Pasted text cannot establish this concept — included in the Field Guide purely as a literacy reference.",
    "codex_maturity": "mature",
    "human_review_flags": [
@@ -28468,7 +28468,7 @@
     "Each new incident is treated as isolated, so the overall pattern never gets named.",
     "People who might have spoken up stop doing so because nothing changes."
    ],
-   "repair_check": "Repair looks like the file being opened. They ask for the evidence, speak to the people involved, tell you what they will do and by when, and do it. An expression of sorrow that they were not told, with no change in who looks at what, leaves the gap in place.",
+   "repair_check": "Real repair is the file being opened. They ask for the evidence, speak to the people involved, tell you what they will do and by when, and do it. An expression of sorrow that they were not told, with no change in who looks at what, leaves the gap in place.",
    "boundary_respect_check": "After you put a concern in writing, check what comes back: an acknowledgment with a date, a named person, a next step. Warm words with no record and no follow-up are different from a documented response. The difference is easy to see after a few weeks.",
    "psychological_mechanism": "Looking away can protect a person from the effort, cost or conflict that knowing would bring. Groups can slip into it together, each person assuming that someone else has checked. It can be easier to tell oneself 'there must be an explanation' than to find out there is not. Responsibility can end up spread so thinly that nobody holds it.",
    "possible_impact_on_receiver": "Feeling unseen is common. So is repeating the same account to person after person, doubting whether what you saw was real, and losing faith in those you turned to. Some say being ignored by someone who should have helped hurt as much as the original harm. Anger can grow with each unanswered message.",
@@ -29367,7 +29367,7 @@
     "Account Control"
    ],
    "short_definition": "Taking over someone's email, social media, banking or cloud accounts, which leaves them watched, spoken for, cut off or locked out of their own online life.",
-   "expanded_definition": "Account takeover is when someone controls another person's digital accounts without their agreement. They may change passwords, redirect recovery details, read or send messages in the person's name, or give access back only on conditions. It is also called account control. It can start as casual shared access and harden into sole control. One reset after a forgotten password means little. It becomes a pattern when access changes without your knowledge and your ways back in are blocked.",
+   "expanded_definition": "Account takeover is when someone controls another person's digital accounts without their agreement. They may change passwords, redirect recovery details, read or send messages in the person's name, or give access back only on conditions. It is also called account control. It can start as casual shared access and harden into sole control. One reset after a forgotten password means little. It is a concern when access changes without your knowledge and your ways back in are blocked.",
    "plain_language_summary": "Someone gets control of your email, social media or bank logins. They can read your messages, write as you, or keep you out, and getting back in depends on them.",
    "why_this_matters": "Being pushed out of your own accounts costs more than access. Messages can go out under your name to people who have every reason to believe them. Everyday tasks like paying a bill or reaching a doctor start to need permission.",
    "what_it_is": [
@@ -29470,7 +29470,7 @@
     "Emotion Control",
     "Ritualized Exhaustion"
    ],
-   "how_to_distinguish_from_related": "Stalking & Surveillance (Post-Separation) tracks your movements and contacts after a break-up. It need not touch your accounts at all. Account takeover works through your own logins, recovery details and the messages stored there. Resource Sabotage removes things you need to succeed, such as tools or funding, and blames you for the failure. Here the thing removed is your access and your own voice.",
+   "how_to_distinguish_from_related": "Stalking & Surveillance (Post-Separation) tracks your movements and contacts after a break-up. It need not touch your accounts at all. Account takeover goes in through your own logins, recovery details and the messages stored there. Resource Sabotage removes things you need to succeed, such as tools or funding, and blames you for the failure. Here the thing removed is your access and your own voice.",
    "detection_notes": "Not matched or scored by this tool. Pasted text cannot establish this concept — included in the Field Guide purely as a literacy reference.",
    "codex_maturity": "mature",
    "human_review_flags": [
@@ -29592,7 +29592,7 @@
     "Stalking & Surveillance (Post-Separation)",
     "Legal Abuse (Post-Separation)"
    ],
-   "how_to_distinguish_from_related": "Stalking & Surveillance (Post-Separation) is the watching of a former partner's life. A SIM swap can be a route to it, because it sends that person's messages and codes elsewhere. Strangers also do it for money, with no personal link. Legal Abuse works through courts and paper, in the open. A swap works quietly through accounts and is found by what stops working. Forced Submission needs the person's own words, but a swap takes control with no input from them.",
+   "how_to_distinguish_from_related": "Watching a former partner's life is what Stalking & Surveillance (Post-Separation) means. A SIM swap can be a route to it, because it sends that person's messages and codes elsewhere. Strangers also do it for money, with no personal link. Legal Abuse works through courts and paper, in the open. A swap works quietly through accounts and is found by what stops working. Forced Submission needs the person's own words, but a swap takes control with no input from them.",
    "detection_notes": "Not matched or scored by this tool. Pasted text cannot establish this concept — included in the Field Guide purely as a literacy reference.",
    "codex_maturity": "mature",
    "human_review_flags": [
@@ -29956,7 +29956,7 @@
     "Immersive Manipulation (VR/AR)",
     "AI-Driven Social Engineering (Automated)"
    ],
-   "how_to_distinguish_from_related": "Algorithmic Manipulation works through what a feed shows over weeks. A dark pattern works at the point of a specific decision, such as a button or a form. AI-Driven Social Engineering impersonates someone to get you to act. Dark patterns come from the real service you are already using. Parasocial Manipulation Engineering builds a felt relationship, but a dark pattern needs no relationship at all, only a screen built to win the click.",
+   "how_to_distinguish_from_related": "Algorithmic Manipulation acts through what a feed shows over weeks. A dark pattern works at the point of a specific decision, such as a button or a form. AI-Driven Social Engineering impersonates someone to get you to act. Dark patterns come from the real service you are already using. Parasocial Manipulation Engineering builds a felt relationship, but a dark pattern needs no relationship at all, only a screen built to win the click.",
    "detection_notes": "Not matched or scored. Pasted personal text cannot establish an institutional- or societal-scale pattern — that requires independent, corroborated, documented evidence at a completely different scale.",
    "codex_maturity": "mature",
    "human_review_flags": [
@@ -30906,7 +30906,7 @@
     "Parasocial Manipulation Engineering",
     "Immersive Manipulation (VR/AR)"
    ],
-   "how_to_distinguish_from_related": "Algorithmic Manipulation shapes what appears in your feed. This one is about a chat system becoming the only voice you trust. Context Poisoning corrupts the data or documents a system or person draws on. Here the material may be sound, and the problem is the system's stance on it. Weaponized AI Empathy works through apparent warmth, while this works through confidence and finality.",
+   "how_to_distinguish_from_related": "Algorithmic Manipulation shapes what appears in your feed. This one is about a chat system becoming the only voice you trust. Context Poisoning corrupts the data or documents a system or person draws on. Here the material may be sound, and the problem is the system's stance on it. Weaponized AI Empathy relies on apparent warmth, while this relies on confidence and finality.",
    "detection_notes": "Not matched or scored. Pasted personal text cannot establish an institutional- or societal-scale pattern — that requires independent, corroborated, documented evidence at a completely different scale.",
    "codex_maturity": "mature",
    "human_review_flags": [
@@ -32457,7 +32457,7 @@
     "Strategic Leaking",
     "Cognitive Warfare"
    ],
-   "how_to_distinguish_from_related": "Agent of Influence Operations works through public figures who speak to an audience. Honey trapping works in private, through one person's intimate trust. MICE Framework Exploitation is the analyst's checklist of levers such as money or compromise, and honey trapping is one route to the compromise lever. Strategic Deception misleads whole adversaries. Here, one person is deceived about a single relationship.",
+   "how_to_distinguish_from_related": "Agent of Influence Operations uses public figures who speak to an audience. Honey trapping happens in private, through one person's intimate trust. MICE Framework Exploitation is the analyst's checklist of levers such as money or compromise, and honey trapping is one route to the compromise lever. Strategic Deception misleads whole adversaries. Here, one person is deceived about a single relationship.",
    "detection_notes": "Not matched or scored. Pasted personal text cannot establish an institutional- or societal-scale pattern — that requires independent, corroborated, documented evidence at a completely different scale.",
    "codex_maturity": "mature",
    "human_review_flags": [
@@ -33427,7 +33427,7 @@
    "forensic_only": false,
    "absorbs": [],
    "short_definition": "A group's tight control over what members can read, hear and discuss and whom they see, so the group becomes their only source of information.",
-   "expanded_definition": "Milieu control means a group manages the information and the relationships around its members. It can be formal, such as banned books or rules about who may be contacted. It can also be informal, such as steady pressure to spend all free time with fellow members. Robert Lifton, who studied thought reform, listed it among the features of totalistic groups. Wanting focus or privacy is normal. It becomes a pattern once outside contact, news and doubts are discouraged, reported or punished, and a member has nothing else to test the group's claims against.",
+   "expanded_definition": "Milieu control means a group manages the information and the relationships around its members. It can be formal, such as banned books or rules about who may be contacted. It can also be informal, such as steady pressure to spend all free time with fellow members. Robert Lifton, who studied thought reform, listed it among the features of totalistic groups. Wanting focus or privacy is normal. It crosses a line once outside contact, news and doubts are discouraged, reported or punished, and a member has nothing else to test the group's claims against.",
    "plain_language_summary": "The group decides what you may read, hear and say, and who you may talk to. In the end, its version of the world is the only one you can reach.",
    "why_this_matters": "Reading, contact and conversation are all bounded by the group. That leaves no outside view to compare anything against, including the question of whether the boundary itself is reasonable.",
    "what_it_is": [
@@ -34503,7 +34503,7 @@
    "forensic_only": false,
    "absorbs": [],
    "short_definition": "An institution that people depend on fails to prevent harm or to treat them fairly afterward, which adds a second injury to the first one.",
-   "expanded_definition": "Institutional betrayal is the term psychologist Jennifer Freyd introduced for the harm an institution does when it fails the people who depend on it, such as a school, employer, hospital, congregation or agency. The first harm may come from anyone. The second comes from how the institution handles it: ignoring it, doubting the person, or protecting its own standing. One slow answer proves little. It becomes a pattern in how the whole process treats the person reporting, from first contact to the last letter.",
+   "expanded_definition": "Institutional betrayal is the term psychologist Jennifer Freyd introduced for the harm an institution does when it fails the people who depend on it, such as a school, employer, hospital, congregation or agency. The first harm may come from anyone. The second comes from how the institution handles it: ignoring it, doubting the person, or protecting its own standing. One slow answer proves little. The harm shows in how the whole process treats the person reporting, from first contact to the last letter.",
    "plain_language_summary": "You were hurt and turned to the place that was supposed to help. That place made things worse by ignoring you, doubting you, or protecting itself.",
    "why_this_matters": "Being harmed and then failed by the body meant to prevent it causes a second injury that often outlasts the first. It can teach a person that reporting brings exposure without a fix. It can also make them doubt their own account of what happened.",
    "what_it_is": [
@@ -34601,7 +34601,7 @@
     "Performance Framework Manipulation",
     "Algorithmic Management"
    ],
-   "how_to_distinguish_from_related": "Silence Engineering is a culture that teaches people not to speak up before anything is reported, while betrayal concerns how the institution responds to a specific report of harm. HR Shielding is one mechanism, the complaint machinery working for the institution. Betrayal can also be plain neglect with no one shielded. Performance Framework Manipulation works through scores and reviews, and not through a response to a report.",
+   "how_to_distinguish_from_related": "Silence Engineering is a culture that teaches people not to speak up before anything is reported, while betrayal concerns how the institution responds to a specific report of harm. HR Shielding is one mechanism, the complaint machinery working for the institution. Betrayal can also be plain neglect with no one shielded. Performance Framework Manipulation operates on scores and reviews, and not on a response to a report.",
    "detection_notes": "Not matched or scored. Pasted personal text cannot establish an institutional- or societal-scale pattern — that requires independent, corroborated, documented evidence at a completely different scale.",
    "codex_maturity": "mature",
    "human_review_flags": [
@@ -34740,7 +34740,7 @@
    "forensic_only": false,
    "absorbs": [],
    "short_definition": "Designing ratings, targets and reviews so that agreement and loyalty are rewarded, and skill, dissent and ethical objection are marked down.",
-   "expanded_definition": "Performance framework manipulation is a pattern in which the measures used to judge workers, such as ratings, targets and review steps, end up tracking deference instead of the work. People who go along score well. Those who raise problems or refuse questionable instructions build up a record that looks objective. Every scoring system favors some things over others, so one odd rubric proves little. It becomes a pattern when the measures shift whenever the wrong people begin scoring well.",
+   "expanded_definition": "Performance framework manipulation is a setup in which the measures used to judge workers, such as ratings, targets and review steps, end up tracking deference instead of the work. People who go along score well. Those who raise problems or refuse questionable instructions build up a record that looks objective. Every scoring system favors some things over others, so one odd rubric proves little. It is a warning sign when the measures shift whenever the wrong people begin scoring well.",
    "plain_language_summary": "The way you are scored at work seems to reward agreeing and going along. It marks down people who are good at the job but raise problems or say no.",
    "why_this_matters": "Effort shifts from doing the work well to being agreeable about it. Anyone who raises problems builds up a documented record of underperformance that looks objective to whoever reads it later. That record can follow a person into pay, promotion and job security.",
    "what_it_is": [
@@ -35216,7 +35216,7 @@
    "forensic_only": false,
    "absorbs": [],
    "short_definition": "Saying something never happened and then, in the same talk, defending it as justified, so no single answer settles the matter.",
-   "expanded_definition": "Contradiction stacking puts two incompatible positions on the table at once: it did not happen, and if it did, it was fair. Each one blocks the other, so whichever you answer seems to give up the second. It can start as a muddled defense in a heated moment. It becomes a pattern when the same pair of claims returns after each new complaint and the conversation never reaches which one is true.",
+   "expanded_definition": "Contradiction stacking puts two incompatible positions on the table at once: it did not happen, and if it did, it was fair. Each one blocks the other, so whichever you answer seems to give up the second. It can start as a muddled defense in a heated moment. It is a concern when the same pair of claims returns after each new complaint and the conversation never reaches which one is true.",
    "plain_language_summary": "Whatever you say back seems to prove the other half right: first the thing never happened, then it was deserved anyway.",
    "why_this_matters": "Answering one claim feels like accepting the other, so you never get a position to stand on, and what actually happened is never settled. Many people leave these talks more tired than angry, unsure what they were even trying to prove.",
    "what_it_is": [
@@ -36894,7 +36894,7 @@
    "forensic_only": false,
    "absorbs": [],
    "short_definition": "Treating a debt from before you were born, like a family sacrifice or an ancestor's hardship, as yours to repay by doing what is asked.",
-   "expanded_definition": "Guilt Legacy asks you to repay what you never borrowed. A parent's sacrifice, a grandparent's journey or a family's hardship is raised as a debt. Going along with a present demand, such as a marriage, a career, money or where you live, is the payment. Many families hold real values of duty and gratitude, and sharing history is often loving. It becomes a pattern when the history is used mainly to settle a current disagreement, and saying no is treated as betraying the whole family line, as well as one person.",
+   "expanded_definition": "Guilt Legacy asks you to repay what you never borrowed. A parent's sacrifice, a grandparent's journey or a family's hardship is raised as a debt. Going along with a present demand, such as a marriage, a career, money or where you live, is the payment. Many families hold real values of duty and gratitude, and sharing history is often loving. The concern starts when the history is used mainly to settle a current disagreement, and saying no is treated as betraying the whole family line, as well as one person.",
    "plain_language_summary": "A family's past hardship is used as a bill for you, so saying no to something now feels like betraying everyone who came before.",
    "why_this_matters": "Repayment is expected for a debt taken on before you could have agreed to it. Saying no is treated as a betrayal of a whole family line, and not of one relationship only.",
    "what_it_is": [
@@ -37140,7 +37140,7 @@
    "forensic_only": false,
    "absorbs": [],
    "short_definition": "Presenting a relationship as fated or cosmically arranged, so that doubting it, slowing it down or leaving it is treated as going against destiny.",
-   "expanded_definition": "Manufactured destiny is the use of fate language, such as 'we were meant to meet', 'the universe brought us together' or 'you are my one', to raise the stakes of an ordinary choice. Saying such things once, in love, is common and carries little weight. It becomes a pattern when the fated story arrives very early and grows louder when you hesitate. Your doubt is then treated as a mistake against something larger than either of you.",
+   "expanded_definition": "Manufactured destiny is the use of fate language, such as 'we were meant to meet', 'the universe brought us together' or 'you are my one', to raise the stakes of an ordinary choice. Saying such things once, in love, is common and carries little weight. The concern starts when the fated story arrives very early and grows louder when you hesitate. Your doubt is then treated as a mistake against something larger than either of you.",
    "plain_language_summary": "Someone tells you the two of you are meant to be. Each time you hesitate, they use that story to make stepping back look like a mistake you can't undo.",
    "why_this_matters": "Leaving stops being the end of a relationship and becomes defying something larger. That raises the cost of an otherwise ordinary decision to go. Doubt gets treated as a flaw in you and not as information.",
    "what_it_is": [
@@ -37217,9 +37217,9 @@
     "Your own wishes for your life shrink as the shared story becomes bigger."
    ],
    "repair_check": "Listen for ordinary language to take over, such as 'you're allowed to be unsure, and I'll stop using fate to answer your questions.' If a new sign, dream or omen turns up a week later, the pressure has only changed costume.",
-   "boundary_respect_check": "Ask yourself if you could say 'I don't believe it's fate, and I'd like to decide this as an ordinary choice' and still be safe, liked and listened to. If that sentence is welcomed, or argued with kindly, the belief is theirs to hold. If it starts a fight about your faith in the relationship, the belief was working as a lever against you.",
+   "boundary_respect_check": "Ask yourself if you could say 'I don't believe it's fate, and I'd like to decide this as an ordinary choice' and still be safe, liked and heard. If it is welcomed, or argued with kindly, the belief is theirs to hold. If it starts a fight about your faith in the relationship, the belief was a lever.",
    "psychological_mechanism": "A choice that feels like fate can seem to carry no personal responsibility and an impossible price for reversal. People also tend to resist actions that might waste something they have been told is rare. Framing a relationship as destined can make the ordinary tools of weighing, comparing and slowing down feel disloyal rather than sensible.",
-   "possible_impact_on_receiver": "Reported experiences include being trapped by something beautiful, guilty for doubting, and unable to explain to friends why leaving felt so large. Some stayed longer than they wanted because the story made the choice seem not theirs to make. Some grieved the idea itself once the relationship ended.",
+   "possible_impact_on_receiver": "Reported experiences include being trapped by something beautiful, guilty for doubting, and unable to explain to friends why leaving felt so large. Some stayed longer than they wanted, because the story made it seem the choice was never theirs. Some grieved the idea itself once the relationship ended.",
    "response_options": {
     "soft_clarification": "Separate the feeling from the decision: 'I can feel this is special to you. I still need to make my choices by what I see, not by what was written for us.'",
     "firm_boundary": "State that the decision is yours and ordinary: 'I'm not going to treat leaving as defying fate. If I need time, I'm taking it.'",
@@ -37242,7 +37242,7 @@
     "Future Faking",
     "Negging"
    ],
-   "how_to_distinguish_from_related": "Love Bombing is a flood of attention, gifts and praise, and needs no talk of fate. Exclusive Meaning is a claim about your bond with one person who understands you uniquely. Destiny is a claim about the relationship's cosmic standing. Future Faking promises particular events to come. This tactic says the future is already settled and your hesitation cannot change it.",
+   "how_to_distinguish_from_related": "Manufactured destiny is a claim about the relationship's cosmic standing. Love Bombing is a flood of attention, gifts and praise, and needs no talk of fate. Exclusive Meaning is a claim about your bond with one person who understands you uniquely. Future Faking promises particular events to come. Destiny says the future is already settled and your hesitation cannot change it.",
    "detection_notes": "Not matched or scored by this tool. Pasted text cannot establish this concept — included in the Field Guide purely as a literacy reference.",
    "codex_maturity": "mature",
    "human_review_flags": [
@@ -38066,7 +38066,7 @@
     "You weigh up whether each new thing is worth raising.",
     "You have started arranging your days to avoid certain moments with them."
    ],
-   "repair_check": "Repair looks like the limit holding after you have named it. The early arrivals stop, the midnight text doesn't come, and a similar version doesn't appear in its place. Lasting change shows over months. An apology made while the next small step is already under way does not count.",
+   "repair_check": "Real repair is the limit holding after you have named it. The early arrivals stop, the midnight text doesn't come, and a similar version doesn't appear in its place. Lasting change shows over months. An apology made while the next small step is already under way does not count.",
    "boundary_respect_check": "State the limit in one clear sentence and then watch what comes in its place. Is the same step repeated, a neighboring one tried, or does the limit simply hold? One neighboring step is information; a string of them is a pattern.",
    "psychological_mechanism": "Small steps can make a person's resistance look out of proportion. After letting several pass, objecting to the next may look inconsistent, as if permission had been given earlier. It takes more effort to hold a line they have already let slide. Being told it is nothing can add doubt about whether their own sense of a line is reasonable.",
    "possible_impact_on_receiver": "A nagging unease that is hard to justify is common. People also replay moments to check whether they overreacted, and feel foolish for not objecting earlier. Some become wary of the person without being able to explain why to others. Many say they felt relief when they saw the steps laid out in order.",
@@ -38672,7 +38672,7 @@
     "You find that you stop asking questions because the clock is always running.",
     "The 'last chance' language has moved from one subject to the next, across sales, plans and relationships."
    ],
-   "repair_check": "The tempo changes first. After you point out that the deadline shifted, repair looks like a clear timeline you can check. It also includes a written copy of what is on offer, and room to say no. An apology that comes with a new, tighter deadline is the same pressure again.",
+   "repair_check": "The tempo changes first. After you point out that the deadline shifted, a real fix is a clear timeline you can check. It also includes a written copy of what is on offer, and room to say no. An apology that comes with a new, tighter deadline is the same pressure again.",
    "boundary_respect_check": "Ask for a specific length of time, and see what happens to the offer and to the warmth. If the answer is a plain 'that's fine' or a clear statement of what the real limit is, the request was respected. If you get a fresh countdown, it was not.",
    "psychological_mechanism": "Things seem more valuable as they appear less available, and fear of loss can narrow attention to the next few minutes. Under a visible clock, checking and comparing feel like luxuries. A claimed rival adds social pressure, and agreeing can bring relief from the tension, whether or not the offer is good.",
    "possible_impact_on_receiver": "A rushed feeling in the chest and a sense of being cornered are commonly mentioned. Later comes a sinking realization that a basic fact was never checked. Some agree to something and spend weeks going over what they missed. Others become wary of every real deadline afterwards.",
@@ -38841,7 +38841,7 @@
     "Rapid Topic Switching"
    ],
    "short_definition": "Steering a conversation away from the issue that was raised, so the concern never gets a direct answer.",
-   "expanded_definition": "Deflection is turning a conversation away from the issue just raised. Diverting and rapid topic switching are everyday words for the same move. The turn can be a counter-question, an old grievance, a quibble over your wording, or a fast run of new subjects. With so many topics, nothing stays open long enough to be answered. Everyone does it sometimes. It becomes a pattern when one concern reliably goes unanswered however it is raised.",
+   "expanded_definition": "Deflection is turning a conversation away from the issue just raised. Diverting and rapid topic switching are everyday words for the same move. The turn can be a counter-question, an old grievance, a quibble over your wording, or a fast run of new subjects. With so many topics, nothing stays open long enough to be answered. Everyone does it sometimes. It is a problem when one concern reliably goes unanswered however it is raised.",
    "plain_language_summary": "You ask a straight question and get a different topic, a question back, an old argument, or a stream of subjects. When the talk ends, your question is still unanswered.",
    "why_this_matters": "The original concern never gets a direct reply, so it stays open while the conversation ends looking as though it happened. The person who raised it is left unsure whether they were heard at all.",
    "what_it_is": [
@@ -39416,7 +39416,7 @@
     "workplace_or_professional": "Confirm instructions and deadlines by email straight after the conversation. Ask for a reply that restates the task, so the record shows what was understood."
    },
    "boundary_script": "\"I've explained this twice, and I think it was clear. I'm going to send you the plan in writing today. I'd like you to read it and tell me by Friday what you will take on.\"",
-   "safety_note": "This is rarely a danger on its own. It deserves more care if the 'I didn't know' covers money, medication, children's needs or a legal deadline. There, the cost of a missed duty falls on you or someone who depends on you. In that case, put the specific duty in writing. If a deadline or a child's welfare is involved, contact the relevant office or a legal aid service.",
+   "safety_note": "This is rarely a danger on its own. It deserves more care if the 'I didn't know' covers money, medication, children's needs or a legal deadline. There, the cost of a missed duty falls on you or someone who depends on you. In that case, put the specific duty in writing. If a deadline or a child's welfare is involved, contact a legal aid service or the relevant office.",
    "safety_sensitive": false,
    "misuse_warning": [
     "Deciding that someone is 'faking it' because they didn't remember is an easy way to be unfair to people with real memory, attention or language difficulties.",
@@ -40850,7 +40850,7 @@
     "You work longer hours each quarter for results that are no better received.",
     "Colleagues or family members remember the failure but not its conditions."
    ],
-   "repair_check": "Repair starts with the retelling and the bar. A person who has noticed this goes back to the people who heard you failed. They correct the account to include the deadline and missing staff, and give the next assignment the resources it needs or a pass line written down. Praise for effort that leaves the record unchanged is a different thing.",
+   "repair_check": "Repair starts with the retelling and the bar. A person who has noticed this goes back to the people who heard you failed. They correct the account to include the deadline and missing staff, and give the next assignment the resources it needs or a written pass line. Praise for effort that leaves the record unchanged is different.",
    "boundary_respect_check": "Watch the next request you send. Ask in writing for what the task needs, or for the definition of done. A yes, a partial yes with a reason, or a clear no that is noted in the plan means you were taken seriously. A cheerful 'you'll manage' with no reply is another answer.",
    "psychological_mechanism": "Failure is often read as information about the person, and the conditions that produced it fade from memory faster than the outcome. If whoever set the task also describes the result, that account can become the accepted one. When a standard cannot be reached, effort stops turning into success. People often turn the blame inward because the standard was presented as reasonable.",
    "possible_impact_on_receiver": "Some replay the project to find what they should have done, work longer for less sense of achievement, and dread review days and the next hand-off. Others start to believe they are bad at jobs they once did well, or stop volunteering ideas. Still others say that writing down the original conditions brought a grim relief, because the failure looked different on paper.",
@@ -41251,7 +41251,7 @@
     "Ghosting as Control",
     "Humiliation Rituals"
    ],
-   "how_to_distinguish_from_related": "Flying Monkeys sends people to you with a message, while a smear tells people about you behind your back. Public Humiliation embarrasses someone in front of others, face to face, where a smear works out of your sight. Legal Abuse (Post-Separation) works through courts and filings, and a smear works through opinion and trust. The smear is the one carried entirely by what others have been led to believe.",
+   "how_to_distinguish_from_related": "Flying Monkeys sends people to you with a message, while a smear tells people about you behind your back. Public Humiliation embarrasses someone in front of others, face to face, where a smear works out of your sight. Legal Abuse (Post-Separation) operates in courts and filings, and a smear operates on opinion and trust. The smear is the one carried entirely by what others have been led to believe.",
    "detection_notes": "Not matched or scored by this tool. Pasted text cannot establish this concept — included in the Field Guide purely as a literacy reference.",
    "codex_maturity": "mature",
    "human_review_flags": [
@@ -41352,7 +41352,7 @@
     "firm_boundary": "State the experience without accusing anyone: 'I've noticed I'm often not included. I'd like to be told about plans, and I'll take it from there.'",
     "disengagement": "Spend your time where you are welcomed, and let the group's access to you reflect how it treats you, without announcing it.",
     "support_seeking": "Describe a few specific examples to someone outside the group. Ask whether they see what you see, and whether the story rings true to them.",
-    "workplace_or_professional": "At work, keep a dated list of meetings and decisions you were left out of. Ask your manager for clear communication about how projects are shared."
+    "workplace_or_professional": "At work, keep a dated list of the meetings and decisions that happened without you. Ask your manager for clear communication about how projects are shared."
    },
    "boundary_script": "\"I've noticed I'm often out of the loop on plans, and it's been weighing on me. I'm not blaming anyone. I'd just like to be included, and I'd welcome hearing if there is something I'm missing.\"",
    "safety_note": "Group exclusion hurts, but it rarely creates physical danger. It changes if the group's silence follows you into your home, your job or online spaces. That can come through threats, rumors that could cost you work or housing, or sharing of private images. At that point, save evidence and speak to a trusted person, an employer's process or a local support service.",
@@ -41460,7 +41460,7 @@
     "New members are told quietly about the one who 'didn't last'.",
     "Each time someone is made an example of, the next dissent appears later and softer."
    ],
-   "repair_check": "Repair looks like the group's leader saying in public that the response went further than the matter warranted. After that, people can raise questions without penalty. A private apology to the person alone, while the audience still carries the lesson, leaves the main effect in place.",
+   "repair_check": "Real repair is the group's leader saying in public that the response went further than the matter warranted. After that, people can raise questions without penalty. A private apology to the person alone, while the audience still carries the lesson, leaves the main effect in place.",
    "boundary_respect_check": "The next time someone raises a similar concern is the test. If it is heard and answered, the example has lost its force. If the room goes silent or looks to the leader first, the lesson is still active, whatever has been said about openness.",
    "psychological_mechanism": "People often learn a group's rules by watching what happens to others. Seeing someone punished can teach more than a written policy. Fear of being next can lead to self-censoring before any threat is made. Observers may also distance themselves from the person punished, which can deepen that person's isolation.",
    "possible_impact_on_receiver": "People who were made an example of describe humiliation and isolation, and sometimes shame that lasts after the group has moved on. Onlookers describe guilt about staying silent, tension in meetings, and a habit of checking the leader's face before speaking. Some leave quietly, and some say they stopped believing they could raise problems.",
@@ -41625,7 +41625,7 @@
    "forensic_only": false,
    "absorbs": [],
    "short_definition": "A person is left out of invitations, conversations, decisions or information until they end up on the outside of their own group.",
-   "expanded_definition": "Ostracism is being left out in practice: off the invite list, out of the group chat, missing from the meeting where the decision was made. Any single omission can be explained as an oversight, which is part of why it is hard to name. It becomes a pattern when it runs one way, lasts, and often begins after the person disagreed, set a limit or said something unwelcome. None of this proves what anyone meant.",
+   "expanded_definition": "Ostracism is being left out in practice: off the invite list, out of the group chat, missing from the meeting where the decision was made. Any single omission can be explained as an oversight, which is part of why it is hard to name. It deserves a closer look when it runs one way, lasts, and often begins after the person disagreed, set a limit or said something unwelcome. None of this proves what anyone meant.",
    "plain_language_summary": "You keep being left out of plans, messages and decisions that the rest of the group gets. You cannot point to one moment you could complain about.",
    "why_this_matters": "Being cut off from information and decisions has practical costs well beyond the social ones, and each omission is small enough to be explained away. A person can miss deadlines, a promotion or a friend's news, and then be blamed for being out of touch.",
    "what_it_is": [
@@ -42569,7 +42569,7 @@
     "Response-Time Policing",
     "Interrogation"
    ],
-   "how_to_distinguish_from_related": "A False Dilemma shrinks your choices to two and treats both as costly. The door-in-the-face first ask is simply meant to be refused, so the second one feels light. Urgency Manufacturing works through a clock. This tactic works through your sense that a concession deserves one in return. Sunk Cost Exploitation leans on what you have already put in, and here you have put in nothing until the second yes.",
+   "how_to_distinguish_from_related": "A False Dilemma shrinks your choices to two and treats both as costly. The door-in-the-face first ask is simply meant to be refused, so the second one feels light. Urgency Manufacturing uses a clock. This tactic uses your sense that a concession deserves one in return. Sunk Cost Exploitation leans on what you have already put in, and here you have put in nothing until the second yes.",
    "detection_notes": "Not matched or scored by this tool. Pasted text cannot establish this concept — included in the Field Guide purely as a literacy reference.",
    "codex_maturity": "mature",
    "human_review_flags": [
@@ -42811,7 +42811,7 @@
     "Emotion Control",
     "Ritualized Exhaustion"
    ],
-   "how_to_distinguish_from_related": "False Dilemma is a statement, usually spoken, that there are only two options when more exist. You can challenge it on the spot. Choice restriction often has no statement at all. The other options are closed in practice or described as out of reach. Ultimatums attach a threatened loss to a forced either-or, while no threat is needed here. Resource Sabotage removes what you need to succeed, then blames you for the result. Choice restriction removes the alternatives to one outcome.",
+   "how_to_distinguish_from_related": "Choice restriction often has no statement at all. The other options are closed in practice or described as out of reach. False Dilemma is a statement, usually spoken, that there are only two options when more exist. You can challenge it on the spot. Ultimatums attach a threatened loss to a forced either-or, while no threat is needed here. Resource Sabotage removes what you need to succeed, then blames you for the result. Choice restriction removes the alternatives to one outcome.",
    "detection_notes": "Not matched or scored by this tool. Pasted text cannot establish this concept — included in the Field Guide purely as a literacy reference.",
    "codex_maturity": "mature",
    "human_review_flags": [
@@ -43020,7 +43020,7 @@
     "You feel stupid after most dealings with them, though you are not stupid in other areas.",
     "Mistakes you were warned about in the fine print have cost you money or time."
    ],
-   "repair_check": "Ask for the one-page version and see what comes back. Repair looks like a real summary, an honest answer about the parts that matter most, and an extension if you need one. A longer document or a sigh does not count as a change.",
+   "repair_check": "Ask for the one-page version and see what comes back. A genuine change is a real summary, an honest answer about the parts that matter most, and an extension if you need one. A longer document or a sigh does not count as a change.",
    "boundary_respect_check": "Say what you can manage: one question at a time, or the key terms on one page. Do they adapt? A person who respects the limit shortens the list. A person who does not will repeat the full load, or tell you everyone else coped.",
    "psychological_mechanism": "Working memory is limited. When it is full, we often rely on shortcuts, such as trusting whoever sounds confident or agreeing just to finish. Stress and time pressure can shrink capacity further. Choosing the easiest path out may look like a free choice in the moment, though it may be a response to overload.",
    "possible_impact_on_receiver": "A fog, a sense of shutting down, and a signature given with vague unease are common accounts. Some feel ashamed that they did not understand, and so did not ask. Afterwards, some go through the documents and find terms they did not know they had accepted.",
@@ -43183,7 +43183,7 @@
    "forensic_only": false,
    "absorbs": [],
    "short_definition": "You hold yourself back before anyone else can, by not applying, speaking or trying, because past experience taught you that being seen gets punished.",
-   "expanded_definition": "This is something a person does to themselves, so there may be no one else involved in the moment. After being mocked, shamed or hurt for standing out, a person can learn to remove the chance of being seen. Examples are skipping the application, staying silent in the meeting, or never sending the draft. The punishment is imagined and delivered in advance. Caution is not the same thing. It becomes a pattern when it follows you into places where nothing like that has happened.",
+   "expanded_definition": "This is something a person does to themselves, so there may be no one else involved in the moment. After being mocked, shamed or hurt for standing out, a person can learn to remove the chance of being seen. Examples are skipping the application, staying silent in the meeting, or never sending the draft. The punishment is imagined and delivered in advance. Caution is not the same thing. The concern is greatest when it follows you into places where nothing like that has happened.",
    "plain_language_summary": "You turn yourself down before anyone else gets the chance. You do not apply, speak or try, because it once felt dangerous to be noticed, and not trying feels safer.",
    "why_this_matters": "Opportunities close before anyone else has the chance to refuse them. The cost stays invisible because nothing happened. That cost includes jobs not applied for and things not said. Your life can narrow without anyone noticing.",
    "what_it_is": [
@@ -43423,7 +43423,7 @@
     "Selective Information Sharing"
    ],
    "short_definition": "Leaving out information the other person needs for an accurate picture, while everything that is said stays technically true.",
-   "expanded_definition": "Lying by omission is a true account with the important piece missing. What is said holds up; the gap is where the false picture forms. Gaslighting by omission and selective information sharing are other ways of naming it. Sometimes the missing piece is a single fact, sometimes it is a steady filtering of which facts one person gets. One forgotten detail means little. It becomes a pattern when the missing pieces are the ones that would have changed your decision, and they keep being missing.",
+   "expanded_definition": "Lying by omission is a true account with the important piece missing. What is said holds up; the gap is where the false picture forms. Gaslighting by omission and selective information sharing are other ways of naming it. Sometimes the missing piece is a single fact, sometimes it is a steady filtering of which facts one person gets. One forgotten detail means little. It is a concern when the missing pieces are the ones that would have changed your decision, and they keep being missing.",
    "plain_language_summary": "You are told true things, but not the one fact that would have changed what you decided. You find out later, from someone else or by accident, that it was known all along.",
    "why_this_matters": "Nothing said was false, so there is no untruth to point at. There is only a conclusion you reached on grounds you did not know were incomplete. The missing piece usually appears too late to change what you chose. You may blame yourself for not asking.",
    "what_it_is": [
@@ -43790,7 +43790,7 @@
     "Paltering"
    ],
    "short_definition": "Choosing and arranging statements that are each true so that the listener ends up with a false overall picture.",
-   "expanded_definition": "Half-truth framing builds a false impression out of true statements. Each sentence holds up when checked. But the pieces are picked and ordered so the listener reaches a conclusion the full facts would not support. The word paltering means the same thing. It often shows up as a technically accurate answer to a direct question, followed by 'everything I said was true.' One hurried summary proves little. It becomes a pattern when answers keep steering the same way on the same kind of topic.",
+   "expanded_definition": "Half-truth framing builds a false impression out of true statements. Each sentence holds up when checked. But the pieces are picked and ordered so the listener reaches a conclusion the full facts would not support. The word paltering means the same thing. It often shows up as a technically accurate answer to a direct question, followed by 'everything I said was true.' One hurried summary proves little. It is a concern when answers keep steering the same way on the same kind of topic.",
    "plain_language_summary": "Everything said is true, yet you walk away believing something that is not. Each fact checks out, so the problem only shows when you see what was left around it.",
    "why_this_matters": "Every fact checks out, so even a careful listener who verifies still ends up with the wrong conclusion. When you object, you are told, correctly, that nothing false was said. That can leave you doubting your own reasonable guess instead of the account.",
    "what_it_is": [
@@ -43893,7 +43893,7 @@
     "Frame Control",
     "Credibility Theft"
    ],
-   "how_to_distinguish_from_related": "Lying states something false. Half-truth framing states nothing false and works through what is picked and in what order. Lying by Omission is a gap, a fact left out of an otherwise complete account. Here, the stated facts are fitted together to point at a conclusion. Frame Control sets what the conversation is about. A half-truth can sit inside any frame, as long as the facts told lead somewhere the whole would not.",
+   "how_to_distinguish_from_related": "Lying states something false. Half-truth framing states nothing false and acts through what is picked and in what order. Lying by Omission is a gap, a fact left out of an otherwise complete account. Here, the stated facts are fitted together to point at a conclusion. Frame Control decides the subject and terms of a conversation. A half-truth can sit inside any frame, as long as the facts told lead somewhere the whole would not.",
    "detection_notes": "Not matched or scored by this tool. Pasted text cannot establish this concept — included in the Field Guide purely as a literacy reference.",
    "codex_maturity": "mature",
    "human_review_flags": [
@@ -44011,7 +44011,7 @@
     "Lying",
     "Lying by Omission"
    ],
-   "how_to_distinguish_from_related": "Lying is a false statement made to a person. A false report puts it into a formal file where an institution must act. Fabricated Evidence manufactures proof, such as a forged message. A false report can rest on words alone, though the two can be combined. Vague Allegations stays unspecific so nothing can be checked. A false report is usually specific enough for records to contradict it.",
+   "how_to_distinguish_from_related": "A false report puts a false statement into a formal file where an institution must act. Lying is a false statement made to a person. Fabricated Evidence manufactures proof, such as a forged message. A false report can rest on words alone, though the two can be combined. Vague Allegations stays unspecific so nothing can be checked. A false report is usually specific enough for records to contradict it.",
    "detection_notes": "Not matched or scored by this tool. Pasted text cannot establish this concept — included in the Field Guide purely as a literacy reference.",
    "codex_maturity": "mature",
    "human_review_flags": [
