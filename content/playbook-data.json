@@ -3425,9 +3425,9 @@
   {
    "name": "Dehumanization",
    "cat": "Devaluation structural",
-   "what": "Reducing a person to a label, a number or a problem, so that decisions are made about them without room for their own point of view.",
+   "what": "Dehumanization reduces a person to a label, a number or a problem, so decisions are made about them with no room for their point of view.",
    "nots": [
-    "Formal, clinical and bureaucratic language, which exists for good reasons and is applied to everybody in some settings. The test is whether the reductive framing is used selectively for one person.",
+    "Formal, clinical and bureaucratic language exists for good reasons, and in some settings it is applied to everybody. The test is whether this shrinking language is used selectively on one person.",
     "Professional detachment in triage, where speed matters more than conversation, which is not contempt.",
     "Shorthand between staff, such as ward or ticket numbers, while the person is still addressed by name and heard.",
     "Someone with a blunt or cold style who treats everyone the same way.",
@@ -3444,15 +3444,15 @@
     "Just process her and move on.",
     "Is the problem tenant still on the third floor?"
    ],
-   "why": "Decisions are made about you in language that has no place for your view, so there is no point at which your own account could plausibly be asked for. It can wear down your sense that your voice counts."
+   "why": "Decisions are made about you in language that leaves no place for your view. There is no point where anyone could plausibly ask for your own account. It can wear down your sense that your voice counts."
   },
   {
    "name": "Overcorrection Demands",
    "cat": "Devaluation structural",
-   "what": "Demanding an apology, payment or gesture far larger than a small lapse warrants, so the repair is shaped more by who sets the terms than by the harm.",
+   "what": "Overcorrection demands ask for an apology, payment or gesture far larger than a small lapse needs, so the repair follows their terms, not the harm.",
    "nots": [
     "What looked minor turned out to have caused real damage, such as a missed payment with fees, and a bigger repair is fair.",
-    "Expectations around apology vary across families and cultures, and elaborate ones can be sincere. The revealing moment is what happens when the disproportion is named out loud.",
+    "Expectations around apology vary across families and cultures, and elaborate ones can be sincere. The revealing moment comes when you name the mismatch out loud and see what happens.",
     "A person who asks for more than is needed at first, hears 'that's too much', and agrees to something smaller.",
     "A formal process, such as a settlement or workplace policy, that sets consequences by rule for everyone.",
     "Your own sense of guilt, which can run larger than anything anyone is asking for.",
@@ -3468,12 +3468,12 @@
     "Questioning the size of the apology is one more thing you'll need to make up for.",
     "Now you owe me for how you reacted to being asked."
    ],
-   "why": "Repair stops being achievable and becomes a performance of submission, and you learn that small mistakes carry costs you cannot predict. You may start over-apologizing, or hiding mistakes, to avoid the bill."
+   "why": "Repair stops being achievable and becomes a show of submission. You learn that small mistakes carry costs you cannot predict. You may start over-apologizing, or hiding mistakes, to avoid the bill."
   },
   {
    "name": "Toxic Positivity / Weaponized Optimism",
    "cat": "Devaluation structural",
-   "what": "Insisting on a cheerful outlook in answer to real pain or a real complaint, so that the feeling becomes the problem and its cause goes unexamined.",
+   "what": "Toxic positivity insists on a cheerful outlook in answer to real pain or a real complaint, so the feeling becomes the problem and its cause goes unexamined.",
    "nots": [
     "Encouragement that arrives alongside real acknowledgment of the difficulty.",
     "Optimism by temperament, shared without requiring anyone to match it.",
@@ -3493,14 +3493,14 @@
     "Good vibes only.",
     "Why are you bringing the mood down?"
    ],
-   "why": "Your dissatisfaction becomes the thing that needs fixing, so whatever caused it goes unexamined, and saying it again costs you standing in the room."
+   "why": "Your dissatisfaction becomes the thing that needs fixing. Whatever caused it goes unexamined, and saying it again costs you standing in the room."
   },
   {
    "name": "Credibility Theft",
    "cat": "Confusion / rhetoric",
-   "what": "Casting doubt on someone's reliability in advance, so whatever they later report is heard as doubtful before they have said it.",
+   "what": "Credibility theft casts doubt on someone's reliability in advance, so whatever they later report is heard as doubtful before they have said it.",
    "nots": [
-    "A documented record of inaccuracy reasonably affects how much weight an account carries, and doubting one particular claim is not a campaign. The separation is between doubt about a claim and doubt installed in advance about the person.",
+    "A documented record of inaccuracy reasonably affects how much weight an account carries, and doubting one particular claim is not a campaign. The difference is between doubt about a claim and doubt planted in advance about the person.",
     "A colleague saying 'I'm not sure about that date, can we check the email?'",
     "Mutual wariness between two people who have each been caught out before.",
     "A private word to you, from someone who cares, that you seem overwhelmed lately.",
@@ -3517,14 +3517,14 @@
     "When you report something, the reply opens with 'is this another one of your situations?'",
     "A relative tells the others, 'She'll probably bring that up again, just be kind about it.'"
    ],
-   "why": "Your account is discounted before you give it, so whatever you later report meets people who have already been prepared not to believe it, and you may never find out why. Asking for help becomes hardest exactly when you most need it."
+   "why": "Your account is discounted before you give it. Whatever you later report meets people who have already been prepared not to believe it, and you may never find out why. Asking for help becomes hardest exactly when you most need it."
   },
   {
    "name": "Projection",
    "cat": "Confusion / rhetoric",
    "what": "Charging someone with a behavior or motive that the exchange shows more clearly in the person making the charge.",
    "nots": [
-    "An accusation can be accurate even when it also describes the accuser, and in most conflicts both people contribute some of the same behavior. Someone naming a pattern they share, and owning their half, is doing the opposite.",
+    "An accusation can be accurate even when it also describes the accuser, and in most conflicts both people contribute some of the same behavior. Someone who names a pattern they share and owns their half is doing the opposite.",
     "A counter-complaint that is specific, dated and checkable, even if it is uncomfortable to hear.",
     "A genuine mirror, where both of you do the thing and each can see it.",
     "A flash of defensiveness that the person admits an hour later.",
@@ -3540,14 +3540,14 @@
     "I'm not the one who doesn't trust you. You're the one who doesn't trust me.",
     "An email answers your note about missed deadlines with a list of deadlines you supposedly missed, none of them dated."
    ],
-   "why": "You spend the conversation defending yourself against the very thing you came to name, which makes the source of the harm hard to see, and harder to describe to anyone else. The conflict ends in a tie instead of an answer."
+   "why": "You spend the conversation defending yourself against the very thing you came to name. That makes the source of the harm hard to see, and harder to describe to anyone else. The conflict ends in a tie instead of an answer."
   },
   {
    "name": "Authority Hijack",
    "cat": "Confusion / rhetoric",
-   "what": "Insisting you know what another person really feels, thinks or meant better than they do, and treating their own account as the thing to be corrected.",
+   "what": "Authority Hijack insists it knows what another person really feels, thinks or meant better than they do, and treats their own account as the thing to correct.",
    "nots": [
-    "People who know you well sometimes offer a reading you had not considered, and in therapy that questioning is invited, not imposed; a clarifying question is not a counter-claim. The difference is whether your own account is still allowed to be the last word.",
+    "People who know you well sometimes offer a reading you had not considered. In therapy that questioning is invited, not imposed. A clarifying question is not a counter-claim. The difference is whether your own account is still allowed to be the last word.",
     "A friend saying 'I wonder if you're more tired than angry' and then accepting 'no, I'm angry.'",
     "Someone noticing your behavior has changed and asking what is going on.",
     "A guess at your mood from a visible sign, such as asking if you are cold when you are shivering.",
@@ -3569,9 +3569,9 @@
   {
    "name": "Accountability Evasion via Diagnosis",
    "cat": "Confusion / rhetoric",
-   "what": "Answering a complaint about someone's conduct by suggesting the complainant has a condition, so the complaint is treated as a symptom.",
+   "what": "Accountability evasion via diagnosis answers a complaint about someone's conduct by suggesting the complainant has a condition, so the complaint is treated as a symptom.",
    "nots": [
-    "A real condition can be part of the picture, and someone qualified raising it with care is doing their job. The question is whether the original report ever gets answered by anybody, or whether the diagnosis is where the matter ends.",
+    "A real condition can be part of the picture, and someone qualified who raises it with care is doing their job. The question is whether anybody ever answers the original report, or whether the diagnosis is where the matter ends.",
     "A manager who offers support resources and also investigates your complaint.",
     "A person who tells you they are worried about your sleep because they noticed you are not sleeping.",
     "A clinician explaining a diagnosis you asked about.",
@@ -3593,10 +3593,10 @@
   {
    "name": "Spiritual Bypassing",
    "cat": "Confusion / rhetoric",
-   "what": "Using spiritual or wellness ideas, such as forgiveness, positivity or karma, to avoid answering for a harm and to shame the hurt person's pain.",
+   "what": "Spiritual bypassing uses spiritual or wellness ideas, such as forgiveness, positivity or karma, to avoid answering for a harm and to shame the hurt person's pain.",
    "nots": [
     "Many people hold these beliefs sincerely and apply them first to their own lives. A faith or practice that someone lives by is not an attack on you.",
-    "Spiritual perspective offered alongside a real acknowledgment of what happened. It is the ordering that matters: letting go requested before anything is admitted.",
+    "A spiritual perspective offered alongside a real acknowledgment of what happened. The order is what matters. In bypassing, letting go is requested before anything is admitted.",
     "A grieving friend leaning on 'everything happens for a reason' to cope with a loss that has nothing to do with you.",
     "A chaplain, counselor or elder who sits with your pain first and mentions forgiveness only if and when you ask.",
     "You choosing to forgive in your own time and your own words. That is your decision, not something done to you."
@@ -3611,14 +3611,14 @@
     "\"You keep attracting this because you stay in a low place.\"",
     "\"We're all on our own path. I can't take on your reaction.\""
    ],
-   "why": "Your anger gets judged as a spiritual shortcoming, and forgiveness is requested before anything has been acknowledged. The harm is closed off without being repaired, and you may start to feel that the hurt itself was the mistake."
+   "why": "Your anger gets judged as a spiritual shortcoming, and forgiveness is requested before anything has been acknowledged. The harm is closed off without being repaired. You may start to think the hurt itself was the mistake."
   },
   {
    "name": "Burden of Proof Shifting",
    "cat": "Confusion / rhetoric",
-   "what": "Arranging an exchange so the person raising a concern must prove they were harmed, are innocent, or deserve ordinary decent treatment.",
+   "what": "Burden of proof shifting arranges an exchange so the person raising a concern must prove they were harmed, are innocent, or deserve ordinary decent treatment.",
    "nots": [
-    "A dispute where a fact is truly contested, such as who paid a bill, and where a receipt would end the argument for both sides.",
+    "A dispute where a fact is truly contested, such as who paid a bill. A receipt there would end the argument for both sides.",
     "A court, school hearing or HR process that asks everyone involved for evidence under the same rules.",
     "Someone asking 'can you give me an example?' because they honestly do not understand what you mean and want to fix it.",
     "A reasonable request to confirm a plan in writing that applies to both people equally.",
@@ -3656,18 +3656,18 @@
     "\"Just answer the question. Any of the questions. I asked forty.\"",
     "A post with a long list of bullet points, each one a separate claim with a link that has no clear relation to it."
    ],
-   "why": "You lose on speed rather than on substance, and the fact that you could not answer everything gets treated as evidence that you could not answer anything. Onlookers and you yourself may count the loss as real."
+   "why": "You lose on speed rather than on substance. The fact that you could not answer everything gets treated as evidence that you could not answer anything. Onlookers, and you yourself, may count the loss as real."
   },
   {
    "name": "Limited Hangout",
    "cat": "Confusion / rhetoric",
-   "what": "Admitting a smaller wrong or sharing part of the truth so the matter seems fully disclosed, while the larger part stays hidden.",
+   "what": "A limited hangout admits a smaller wrong or shares part of the truth so the matter seems fully disclosed, while the larger part stays hidden.",
    "nots": [
-    "People often disclose in stages as they find the nerve, or because they genuinely do not yet know the full scope of what they did.",
+    "People often disclose in stages as they find the nerve. Or they genuinely do not yet know the full scope of what they did.",
     "Leading with the largest thing and filling in details later is a natural order, not a suspicious one.",
     "A person who tells you something small and truthful, and then answers every question you ask after that.",
     "A lawyer or manager who limits what they share for legal or privacy reasons and says so openly.",
-    "Keeping something private that is not your business, which is different from hiding something you are entitled to know."
+    "Keeping something private that is not your business is different from hiding something you are entitled to know."
    ],
    "tag": "reference",
    "sounds": [
@@ -3678,14 +3678,14 @@
     "\"We're releasing the first set of emails today in the interest of transparency.\"",
     "\"Okay, yes, I spent some of it. Happy now?\""
    ],
-   "why": "You close the matter believing you now have the full picture, and the smaller admission is afterwards used as proof that there was nothing more to tell. When the rest surfaces, you may feel you should have known, and trust becomes harder."
+   "why": "You close the matter believing you now have the full picture. The smaller admission is afterwards used as proof that there was nothing more to tell. When the rest surfaces, you may feel you should have known, and trust becomes harder."
   },
   {
    "name": "Pseudo-Profundity / Intellectual Intimidation",
    "cat": "Confusion / rhetoric",
-   "what": "Using grand, technical or abstract language that sounds deep but explains little, so questioning it feels like admitting you are not clever enough.",
+   "what": "Pseudo-profundity uses grand, technical or abstract language that sounds deep but explains little, so questioning it seems like admitting you are not clever enough.",
    "nots": [
-    "Some subjects genuinely need specialist vocabulary, and real experts are frequently poor at translating what they know into plain language.",
+    "Some subjects genuinely need specialist vocabulary, and real experts are often poor at translating what they know into plain language.",
     "Asking for a simpler version usually separates them: genuine expertise can be restated, and hollow language cannot.",
     "A genuinely hard idea, such as a math proof or a legal doctrine, that takes time and effort to learn.",
     "Poetry, scripture or philosophy that is deliberately open-ended and does not claim to settle a factual question.",
@@ -3701,7 +3701,7 @@
     "\"Most people don't have the intellectual patience for this, which is fine.\"",
     "Asked to say it simply, they reply with a longer sentence using the same words."
    ],
-   "why": "You are left unable to challenge a conclusion you never understood, and you read your own confusion as a shortfall in yourself rather than in the explanation. Decisions about money, health or work may then be made on words nobody checked."
+   "why": "You are left unable to challenge a conclusion you never understood. You read your own confusion as a shortfall in yourself instead of in the explanation. Decisions about money, health or work may then be made on words nobody checked."
   },
   {
    "name": "Semantic Erosion / Meaning Dilution",
@@ -23593,20 +23593,20 @@
    "branch": "reference",
    "category": "Devaluation structural",
    "detectability_note": "This tool cannot establish this from pasted text at all. It is included for literacy only, so you can learn to recognize the concept — not as something this tool detects, scores, or flags.",
-   "core_meaning": "Reducing a person to a label, a number or a problem, so that decisions are made about them without room for their own point of view.",
+   "core_meaning": "Dehumanization reduces a person to a label, a number or a problem, so decisions are made about them with no room for their point of view.",
    "aftermath_state": false,
    "forensic_only": false,
    "absorbs": [],
-   "short_definition": "Reducing a person to a label, a number or a problem, so that decisions are made about them without room for their own point of view.",
+   "short_definition": "Dehumanization reduces a person to a label, a number or a problem, so decisions are made about them with no room for their point of view.",
    "expanded_definition": "Dehumanization strips away what makes a person particular: their history, preferences and inner life. They become 'the difficult one', 'bed fourteen', 'a case', 'those people'. It can live in spoken language, in paperwork, or in the way a room is run. Plain clinical or procedural language is normal in many jobs. The pattern is in selective use and in what follows: decisions about the person are made as if they had no input to give. Over time this can make worse treatment seem acceptable to those doing it.",
    "plain_language_summary": "A person is talked about or handled as a case, a number or a type, and no one seems to ask what they think.",
-   "why_this_matters": "Decisions are made about you in language that has no place for your view, so there is no point at which your own account could plausibly be asked for. It can wear down your sense that your voice counts.",
+   "why_this_matters": "Decisions are made about you in language that leaves no place for your view. There is no point where anyone could plausibly ask for your own account. It can wear down your sense that your voice counts.",
    "what_it_is": [
     "Language that swaps a name for a label, a number, a room, a diagnosis or a group.",
-    "Treatment that skips ordinary courtesy: talking over a person to someone else, deciding in their absence, or moving them without explanation.",
+    "Treatment that skips ordinary courtesy. Someone talks over a person to someone else, decides in their absence, or moves them without explanation.",
     "Found in workplaces, healthcare, social services, schools, families and online, wherever someone is processed more than met.",
     "Often built into systems and forms, so no single speaker may be responsible.",
-    "Can be applied to one person or to a whole group, and the group form can make worse treatment feel more acceptable to those carrying it out."
+    "It can be aimed at one person or at a whole group. The group form can make worse treatment seem more acceptable to the people carrying it out."
    ],
    "what_it_sounds_like": [
     "Bed fourteen needs moving. (said about a patient who is listening)",
@@ -23619,7 +23619,7 @@
     "Is the problem tenant still on the third floor?"
    ],
    "what_it_is_not": [
-    "Formal, clinical and bureaucratic language, which exists for good reasons and is applied to everybody in some settings. The test is whether the reductive framing is used selectively for one person.",
+    "Formal, clinical and bureaucratic language exists for good reasons, and in some settings it is applied to everybody. The test is whether this shrinking language is used selectively on one person.",
     "Professional detachment in triage, where speed matters more than conversation, which is not contempt.",
     "Shorthand between staff, such as ward or ticket numbers, while the person is still addressed by name and heard.",
     "Someone with a blunt or cold style who treats everyone the same way.",
@@ -23674,21 +23674,21 @@
    ],
    "repair_check": "Visible change would be people using your name, asking for your view before a decision, and correcting a label or record you showed to be wrong. A softer tone while the same decisions are still made around you has changed the voice, not the process.",
    "boundary_respect_check": "Notice who answers when you ask to be included in a decision. An invitation to the meeting, or a plain explanation, means the ask landed. Being told it is not how things work, or hearing the label quoted back, means it was filed under the category.",
-   "psychological_mechanism": "A category has no history or point of view to weigh, so reducing someone to a type can make their feelings and claims easier to overlook. Repetition can make the language ordinary to those using it, and the person on the receiving end may begin to describe themselves in the same terms. High-pressure systems handling many people can encourage it.",
+   "psychological_mechanism": "A category has no history or point of view to weigh. So reducing someone to a type can make their feelings and claims easier to overlook. Repeating the language can make it ordinary to the people using it. The person on the receiving end may start to describe themselves the same way. High-pressure systems that handle many people can encourage this.",
    "possible_impact_on_receiver": "Feeling invisible is the most common account, followed by anger that is then read as a symptom of the label. Some withdraw from talks about their own care or case, and lose confidence that they will be heard. A few start using the label for themselves. Repeated processing can leave a flat, tired feeling.",
    "response_options": {
     "soft_clarification": "Ask to be addressed directly: 'Please call me by my name, and tell me what is being decided.' Most people adjust when asked plainly.",
-    "firm_boundary": "Ask for the decision to be explained to you directly and for a chance to give your view before it is final: 'I'd like to be heard before this is decided.'",
-    "disengagement": "Where you can, bring a second person to appointments or meetings, such as a friend or family member, so you are not alone in the room being discussed.",
+    "firm_boundary": "Ask for the decision to be explained to you directly. Ask for a chance to give your view before it is final: 'I'd like to be heard before this is decided.'",
+    "disengagement": "Where you can, bring a second person to appointments or meetings, such as a friend or family member. Then you are not alone in the room while you are being discussed.",
     "support_seeking": "Contact a patient advocate, ombudsman (an independent complaints officer), tenant or client rights group, or union, depending on the setting. They deal with exactly this and can speak to the system on your behalf.",
     "workplace_or_professional": "Ask that your file be written with facts rather than labels, and add a dated comment on anything you dispute."
    },
    "boundary_script": "\"Please speak to me, not about me. Tell me what is being decided, and let me give my view before it's final.\"",
-   "safety_note": "Dehumanizing language can sit beside loss of choices, contact, money, housing or safety, especially where you depend on the people using it. Watch for being moved, restricted or medicated without explanation, or for threats tied to a label. Contact an independent advocate, ombudsman or legal aid service early, and tell someone outside the setting where you are.",
+   "safety_note": "Dehumanizing language can come with loss of choices, contact, money, housing or safety, especially where you depend on the people using it. Watch for being moved, restricted or medicated without explanation, or for threats tied to a label. Contact an independent advocate, ombudsman or legal aid service early, and tell someone outside the setting where you are.",
    "safety_sensitive": true,
    "misuse_warning": [
-    "Calling plain bureaucratic or clinical language dehumanizing can turn staff who are doing their jobs into targets of a charge they cannot answer.",
-    "Using the word for an insult or a rude remark mixes up an unkind moment with a pattern that denies someone's standing."
+    "Calling plain bureaucratic or clinical language dehumanizing can turn staff who are just doing their jobs into targets of a charge they cannot answer.",
+    "Using the word for an insult or a rude remark mixes up one unkind moment with a pattern that denies someone's standing."
    ],
    "related_tactics": [
     "Shame-as-Governance Disguised as Advice",
@@ -23698,7 +23698,7 @@
     "Objectification",
     "Overcorrection Demands"
    ],
-   "how_to_distinguish_from_related": "Objectification sees the person but only for their use; dehumanization removes the person, leaving a label. Shame-as-Governance Disguised as Advice speaks to you, to tell you what is wrong with you; dehumanization often speaks about you, over your head. Overcorrection Demands needs you present to perform the repair, whereas dehumanization carries on without you.",
+   "how_to_distinguish_from_related": "Objectification sees the person, but only for their use. Dehumanization removes the person and leaves a label. Shame-as-Governance Disguised as Advice speaks to you, to tell you what is wrong with you. Dehumanization often speaks about you, over your head. Overcorrection Demands needs you present to perform the repair, while dehumanization carries on without you.",
    "detection_notes": "Not matched or scored by this tool. Pasted text cannot establish this concept — included in the Field Guide purely as a literacy reference.",
    "codex_maturity": "mature",
    "human_review_flags": [
@@ -23714,19 +23714,19 @@
    "branch": "reference",
    "category": "Devaluation structural",
    "detectability_note": "This tool cannot establish this from pasted text at all. It is included for literacy only, so you can learn to recognize the concept — not as something this tool detects, scores, or flags.",
-   "core_meaning": "Demanding an apology, payment or gesture far larger than a small lapse warrants, so the repair is shaped more by who sets the terms than by the harm.",
+   "core_meaning": "Overcorrection demands ask for an apology, payment or gesture far larger than a small lapse needs, so the repair follows their terms, not the harm.",
    "aftermath_state": false,
    "forensic_only": false,
    "absorbs": [],
-   "short_definition": "Demanding an apology, payment or gesture far larger than a small lapse warrants, so the repair is shaped more by who sets the terms than by the harm.",
-   "expanded_definition": "After a small mistake such as a late reply, a forgotten errand or a joke that fell flat, the response asked for is out of scale: a long written apology, repeated groveling, a gift, money, a public acknowledgment, or weeks of penance. Sometimes a slip really did cause more harm than it looked, and some families and cultures expect elaborate apologies. The pattern is in the mismatch plus what follows when you say so: the demand grows, and the matter is not closed when you comply.",
-   "plain_language_summary": "You make a small mistake and are asked for a very large apology or payment, and when you say it is too much, the ask gets bigger.",
-   "why_this_matters": "Repair stops being achievable and becomes a performance of submission, and you learn that small mistakes carry costs you cannot predict. You may start over-apologizing, or hiding mistakes, to avoid the bill.",
+   "short_definition": "Overcorrection demands ask for an apology, payment or gesture far larger than a small lapse needs, so the repair follows their terms, not the harm.",
+   "expanded_definition": "After a small mistake, such as a late reply, a forgotten errand or a joke that fell flat, the response asked for is out of scale. It might be a long written apology, repeated groveling, a gift, money, a public acknowledgment, or weeks of penance. Sometimes a slip really did cause more harm than it looked, and some families and cultures expect elaborate apologies. The pattern is the mismatch plus what follows when you say so. The demand grows, and the matter is not closed when you comply.",
+   "plain_language_summary": "You make a small mistake and are asked for a very large apology or payment. When you say it is too much, the ask gets bigger.",
+   "why_this_matters": "Repair stops being achievable and becomes a show of submission. You learn that small mistakes carry costs you cannot predict. You may start over-apologizing, or hiding mistakes, to avoid the bill.",
    "what_it_is": [
     "A response out of scale with the lapse: weeks of cold treatment over a missed call, or a large sum for a small breakage.",
-    "Often asks for a visible act, such as a written apology in specific words, an apology in front of others, or a gift.",
+    "Often asks for a visible act, like a written apology in specific words, an apology in front of others, or a gift.",
     "The target keeps moving: meeting one demand opens another, and the matter stays open.",
-    "Seen in couples, families, workplaces, friendships and online communities, wherever one person holds the right to say what is enough.",
+    "Seen in couples, families, workplaces, friendships and online communities. It shows up wherever one person gets to decide what is enough.",
     "The size can feel urgent and certain to the person asking, who may sincerely believe the harm was large."
    ],
    "what_it_sounds_like": [
@@ -23740,7 +23740,7 @@
    ],
    "what_it_is_not": [
     "What looked minor turned out to have caused real damage, such as a missed payment with fees, and a bigger repair is fair.",
-    "Expectations around apology vary across families and cultures, and elaborate ones can be sincere. The revealing moment is what happens when the disproportion is named out loud.",
+    "Expectations around apology vary across families and cultures, and elaborate ones can be sincere. The revealing moment comes when you name the mismatch out loud and see what happens.",
     "A person who asks for more than is needed at first, hears 'that's too much', and agrees to something smaller.",
     "A formal process, such as a settlement or workplace policy, that sets consequences by rule for everyone.",
     "Your own sense of guilt, which can run larger than anything anyone is asking for.",
@@ -23793,23 +23793,23 @@
     "Repairs get bigger over weeks, and old ones are brought up again.",
     "You stop mentioning small problems or errors to them at all."
    ],
-   "repair_check": "Proportion comes back when the person who set the demand says it was too much and lets the matter end at a size you both can see as fair. Compliance followed by a new demand suggests the first request was never only about the original lapse.",
+   "repair_check": "Proportion comes back when the person who set the demand says it was too much. They then let the matter end at a size you both can see as fair. If you comply and a new demand follows, the first request may never have been only about the original lapse.",
    "boundary_respect_check": "If it is safe to try, put a smaller repair on the table and see what follows. A matter that ends there, or a counter in reasonable steps, shows the size was negotiable. Silence, a longer list or a charge of insincerity shows it was not open to discussion.",
-   "psychological_mechanism": "When a response is out of scale, the person receiving it may start guessing at the rules, since the facts do not explain the demand. Anxiety about unpredictable costs tends to push people toward over-apologizing, and giving in can make the next demand feel more likely to be met. A repair that is never accepted as complete keeps the matter open.",
+   "psychological_mechanism": "When a response is out of scale, the person receiving it may start guessing at the rules, since the facts do not explain the demand. Anxiety about unpredictable costs pushes some people toward over-apologizing. Giving in can make the next demand more likely to be met. A repair that is never accepted as complete keeps the matter open.",
    "possible_impact_on_receiver": "Small errors start to feel dangerous. You may apologize before knowing whether you did anything wrong, brace for the next bill, and feel humiliated after giving the apology asked for. Some lose track of what they actually did, because the response was so large, and feel anger at themselves for complying.",
    "response_options": {
     "soft_clarification": "Ask how the person sees the size of it: 'Help me understand what would feel like enough here, so I can tell whether I can do it.'",
     "firm_boundary": "When it feels safe to do so, state your own view once and calmly: 'I'm sorry about it. I think what you're asking is more than the mistake calls for.'",
-    "disengagement": "Delay agreeing to a large demand by saying you will think about it, if that is safe, and use the time to talk it over with someone outside the situation.",
-    "support_seeking": "Describe the original lapse and the response asked for to someone outside the situation, and ask whether the two match. An advocate or counselor can also tell you whether a run of such demands is a known sign of controlling behavior.",
-    "workplace_or_professional": "If the demand comes from a boss or institution, ask which policy sets the consequence and request it in writing, and keep dated notes of what was asked and what you did."
+    "disengagement": "If it is safe, delay agreeing to a large demand by saying you will think about it. Use the time to talk it over with someone outside the situation.",
+    "support_seeking": "Describe the original lapse and the response asked for to someone outside the situation, and ask whether the two match. An advocate or counselor can also tell you if a run of such demands is a known sign of controlling behavior.",
+    "workplace_or_professional": "If the demand comes from a boss or institution, ask which policy sets the consequence and request it in writing. Keep dated notes of what was asked and what you did."
    },
    "boundary_script": "\"I know I got that wrong, and I'm sorry. I want to make it right in a way that fits the mistake. Could we agree on something smaller that we both think is fair?\" If a refusal could bring anger, hold off.",
-   "safety_note": "Large, shifting demands can sit alongside controlling behavior: penalties involving money, access to children, your phone, your home or contact with others, and fear of what happens if you refuse. Complying may have begun to feel necessary for safety. If so, speak with a domestic abuse advocate or legal aid service, and choose a moment and a device where you cannot be overheard or checked.",
+   "safety_note": "Large, shifting demands can sit alongside controlling behavior. This may include penalties involving money, access to children, your phone, your home or contact with others, and fear of what happens if you refuse. Complying may have begun to feel necessary for safety. If so, speak with a domestic abuse advocate or legal aid service. Choose a moment and a device where you cannot be overheard or checked.",
    "safety_sensitive": true,
    "misuse_warning": [
-    "Calling any strong request for an apology overcorrection can silence someone whose hurt is real and whose request is proportionate.",
-    "Using the term to avoid a repair you owe, because the ask feels heavy, mistakes discomfort for disproportion."
+    "Calling any strong request for an apology overcorrection can silence someone whose hurt is real and whose request is reasonable in size.",
+    "Using the term to avoid a repair you owe, because the ask feels heavy, mistakes discomfort for a demand that is too big."
    ],
    "related_tactics": [
     "Shame-as-Governance Disguised as Advice",
@@ -23819,7 +23819,7 @@
     "Objectification",
     "Dehumanization"
    ],
-   "how_to_distinguish_from_related": "Shame-as-Governance Disguised as Advice answers a small lapse with a lesson about your character, where this tactic asks for a payment or a performance. PIP Weaponization is a formal workplace process with dates and paperwork; here the demand is often personal and unwritten. Dehumanization talks around you, whereas this one needs you present to perform the apology.",
+   "how_to_distinguish_from_related": "Shame-as-Governance Disguised as Advice answers a small lapse with a lesson about your character, while this tactic asks for a payment or a performance. PIP Weaponization is a formal workplace process with dates and paperwork. Here the demand is often personal and unwritten. Dehumanization talks around you, but this one needs you present to perform the apology.",
    "detection_notes": "Not matched or scored by this tool. Pasted text cannot establish this concept — included in the Field Guide purely as a literacy reference.",
    "codex_maturity": "mature",
    "human_review_flags": [
@@ -23835,20 +23835,20 @@
    "branch": "reference",
    "category": "Devaluation structural",
    "detectability_note": "This tool cannot establish this from pasted text at all. It is included for literacy only, so you can learn to recognize the concept — not as something this tool detects, scores, or flags.",
-   "core_meaning": "Insisting on a cheerful outlook in answer to real pain or a real complaint, so that the feeling becomes the problem and its cause goes unexamined.",
+   "core_meaning": "Toxic positivity insists on a cheerful outlook in answer to real pain or a real complaint, so the feeling becomes the problem and its cause goes unexamined.",
    "aftermath_state": false,
    "forensic_only": false,
    "absorbs": [],
-   "short_definition": "Insisting on a cheerful outlook in answer to real pain or a real complaint, so that the feeling becomes the problem and its cause goes unexamined.",
-   "expanded_definition": "Toxic positivity and weaponized optimism overlap closely. 'Toxic positivity' usually describes the general habit of meeting hard feelings with cheer; 'weaponized optimism' points to the way that cheer can end up closing down a particular complaint, often at work or in a group. Both treat low mood or dissatisfaction as a fault of attitude. Comfort is not the problem. The pattern is positivity used in place of listening, so the cause of the pain is never discussed and speaking up costs standing.",
-   "plain_language_summary": "Someone answers your real problem with 'look on the bright side', so the problem never gets discussed and you feel bad for having brought it up.",
-   "why_this_matters": "Your dissatisfaction becomes the thing that needs fixing, so whatever caused it goes unexamined, and saying it again costs you standing in the room.",
+   "short_definition": "Toxic positivity insists on a cheerful outlook in answer to real pain or a real complaint, so the feeling becomes the problem and its cause goes unexamined.",
+   "expanded_definition": "Toxic positivity and weaponized optimism overlap closely. 'Toxic positivity' usually describes the general habit of meeting hard feelings with cheer. 'Weaponized optimism' points to the way cheer can close down a particular complaint, often at work or in a group. Both treat low mood or dissatisfaction as a fault of attitude. Comfort is not the problem. The pattern is positivity used in place of listening, so the cause of the pain is never discussed and speaking up costs standing.",
+   "plain_language_summary": "Someone answers your real problem with 'look on the bright side'. The problem never gets discussed, and you feel bad for having brought it up.",
+   "why_this_matters": "Your dissatisfaction becomes the thing that needs fixing. Whatever caused it goes unexamined, and saying it again costs you standing in the room.",
    "what_it_is": [
     "A reply of reassurance or gratitude that skips the content of what you said.",
-    "Two forms: the personal one, said to someone grieving or struggling, and the group one, where a team or family culture treats complaint as disloyal.",
-    "Phrases like 'everything happens for a reason' or 'good vibes only' used on losses and grievances rather than small setbacks.",
+    "It comes in two forms. The personal one is said to someone grieving or struggling. The group one is a team or family culture that treats complaint as disloyal.",
+    "Phrases like 'everything happens for a reason' or 'good vibes only', used on losses and grievances instead of small setbacks.",
     "Often said warmly, and the effect on the listener can be the same either way.",
-    "At work it can sound like 'focus on solutions' applied to every problem, including ones a better attitude cannot solve."
+    "At work it can sound like 'focus on solutions' applied to every problem, even ones a better attitude cannot solve."
    ],
    "what_it_sounds_like": [
     "Just stay positive. It could be worse.",
@@ -23906,7 +23906,7 @@
    ],
    "more_concerning_if": [
     "Your serious loss, illness or mistreatment is met with gratitude talk.",
-    "Raising problems is labeled negativity and carries consequences such as exclusion or a mark against you in reviews.",
+    "Raising problems is labeled negativity and brings consequences, like exclusion or a mark against you in reviews.",
     "The reassurance is used to stop you reporting something harmful or unsafe."
    ],
    "pattern_over_time_signs": [
@@ -23915,22 +23915,22 @@
     "Grief or anger arrives later, in places you cannot explain, because it had nowhere to go.",
     "The group praises those who stay upbeat and quietly sidelines those who do not."
    ],
-   "repair_check": "Change would be someone saying 'I jumped to cheering you up before I heard you', then asking you to tell them the thing again and staying with it. Warm talk that slides back to bright-side phrases in the next hard moment has not shifted.",
+   "repair_check": "Change would be someone saying 'I jumped to cheering you up before I heard you', then asking you to tell them the thing again and staying with it. Warm talk that slides back to bright-side phrases in the next hard moment has not changed anything.",
    "boundary_respect_check": "Say what you need before you describe the problem, such as listening only, and observe what comes back. Listening without a fix honors it. A return to 'but look on the bright side' within a minute shows your need was treated as a mood to be managed.",
-   "psychological_mechanism": "Many people feel uncomfortable around others' pain and reach for quick reassurance to relieve it. When that reassurance is repeated, the person in pain may learn that distress is unwelcome and begin to hide it, which can leave the feeling unprocessed. In groups, an upbeat norm can make complaints seem like disloyalty, so problems stay unspoken.",
+   "psychological_mechanism": "Many people are uncomfortable around others' pain and reach for quick reassurance to relieve it. When that reassurance is repeated, the person in pain may learn that distress is unwelcome and start to hide it. That can leave the feeling unprocessed. In groups, an upbeat norm can make complaints look like disloyalty, so problems stay unspoken.",
    "possible_impact_on_receiver": "Being dismissed, then ashamed of having a feeling, then alone with it: that sequence is a common account. Some pretend to be fine in front of the same people afterwards. Others doubt whether their grief or anger was reasonable. At work, giving up on reporting problems is one result.",
    "response_options": {
     "soft_clarification": "Say what you would like: 'I don't need a fix right now. I'd like you to hear that this is hard.' Naming the need gives the other person a way to help.",
     "firm_boundary": "When positivity replaces the topic, bring it back once: 'I understand you want me to feel better. I'd still like to talk about the problem itself.'",
     "disengagement": "Take hard things to people who stay with them, and keep cheerful company for the rest. You do not have to bring every feeling to every person.",
-    "support_seeking": "Find someone, a friend, a support group or a counselor, who lets sadness or anger be sad or angry without trying to fix it, and use them for the heavy things.",
+    "support_seeking": "Find someone who lets sadness or anger be sad or angry without trying to fix it. This could be a friend, a support group or a counselor. Use them for the heavy things.",
     "workplace_or_professional": "Put the problem in writing with the facts, who it affects and what it costs, so it cannot be answered with mood."
    },
    "boundary_script": "\"I know you want me to feel better, and I appreciate that. Right now I need you to just listen to how bad this is. Then we can talk about what might help.\"",
-   "safety_note": "Cheerful dismissal is not a danger signal on its own. It matters more when 'stay positive' is used to talk someone out of reporting a safety problem, getting medical help, or telling anyone they are in pain. If you are having thoughts of harming yourself, tell a doctor, a crisis line or someone you trust today, and do not wait for the bright side to arrive.",
+   "safety_note": "Cheerful dismissal is not a danger signal on its own. It matters more when 'stay positive' is used to talk someone out of reporting a safety problem, getting medical help, or telling anyone they are in pain. If you are having thoughts of harming yourself, tell a doctor, a crisis line or someone you trust today. Do not wait for the bright side to arrive.",
    "safety_sensitive": false,
    "misuse_warning": [
-    "Calling every encouraging remark toxic positivity can discourage kindness from people who have simply run out of words.",
+    "Calling every encouraging remark toxic positivity can put off kind people who have simply run out of words.",
     "Using the label for people who find comfort in optimism disrespects their way of coping."
    ],
    "related_tactics": [
@@ -23941,7 +23941,7 @@
     "Objectification",
     "Dehumanization"
    ],
-   "how_to_distinguish_from_related": "Shame-as-Governance Disguised as Advice tells you what is wrong with your character; toxic positivity tells you nothing is wrong, so the trouble is your mood. Dehumanization leaves out your viewpoint by talking about you, while this one hears you and answers with cheer. Overcorrection Demands asks for a large repair after a lapse, whereas here you are asked to feel better instead of being heard.",
+   "how_to_distinguish_from_related": "Shame-as-Governance Disguised as Advice tells you what is wrong with your character. Toxic positivity tells you nothing is wrong, so the trouble is your mood. Dehumanization leaves out your viewpoint by talking about you, while this one hears you and answers with cheer. Overcorrection Demands asks for a large repair after a lapse. Here you are asked to feel better instead of being heard.",
    "detection_notes": "Not matched or scored by this tool. Pasted text cannot establish this concept — included in the Field Guide purely as a literacy reference.",
    "codex_maturity": "mature",
    "human_review_flags": [
@@ -23956,19 +23956,19 @@
    "branch": "reference",
    "category": "Confusion / rhetoric",
    "detectability_note": "This tool cannot establish this from pasted text at all. It is included for literacy only, so you can learn to recognize the concept — not as something this tool detects, scores, or flags.",
-   "core_meaning": "Casting doubt on someone's reliability in advance, so whatever they later report is heard as doubtful before they have said it.",
+   "core_meaning": "Credibility theft casts doubt on someone's reliability in advance, so whatever they later report is heard as doubtful before they have said it.",
    "aftermath_state": false,
    "forensic_only": false,
    "absorbs": [],
-   "short_definition": "Casting doubt on someone's reliability in advance, so whatever they later report is heard as doubtful before they have said it.",
-   "expanded_definition": "Credibility theft works on the audience, not on the argument. Remarks about someone's memory, mood, honesty or habit of exaggerating are placed with people who have not yet heard their account: relatives, coworkers, a manager, a school. When the account arrives, it is weighed against the reputation instead of the facts. Doubting a single claim is not this. The pattern is doubt about the person, spread early and widely, without any specific claim being named.",
+   "short_definition": "Credibility theft casts doubt on someone's reliability in advance, so whatever they later report is heard as doubtful before they have said it.",
+   "expanded_definition": "Credibility theft works on the audience, not on the argument. Remarks about someone's memory, mood, honesty or habit of exaggerating are placed with people who have not yet heard their account. These might be relatives, coworkers, a manager or a school. When the account arrives, it is weighed against the reputation instead of the facts. Doubting a single claim is not this. The pattern is doubt about the person, spread early and widely, without any specific claim being named.",
    "plain_language_summary": "Before you say a word, others have been told you exaggerate or get confused. So what you report is doubted before you even speak.",
-   "why_this_matters": "Your account is discounted before you give it, so whatever you later report meets people who have already been prepared not to believe it, and you may never find out why. Asking for help becomes hardest exactly when you most need it.",
+   "why_this_matters": "Your account is discounted before you give it. Whatever you later report meets people who have already been prepared not to believe it, and you may never find out why. Asking for help becomes hardest exactly when you most need it.",
    "what_it_is": [
-    "Remarks about your reliability that reach other people before your own account does, such as 'she remembers things her own way.'",
-    "Aimed at the person, not a claim: no particular statement is named as wrong, only that you are the kind of person who gets things wrong.",
-    "Often built on real moments of weakness, such as a tearful day, an old mistake or a diagnosis, offered as proof you cannot be relied on.",
-    "Found in family group chats, workplaces, schools, custody and housing disputes, and wherever someone will later decide whose account to believe.",
+    "Remarks about your reliability reach other people before your own account does, such as 'she remembers things her own way.'",
+    "It is aimed at the person, not at a claim. No particular statement is named as wrong. The message is only that you are the kind of person who gets things wrong.",
+    "Often built on real moments of weakness, such as a tearful day, an old mistake or a diagnosis. These are offered as proof you cannot be relied on.",
+    "Found in family group chats, workplaces, schools, and custody and housing disputes. It can show up wherever someone will later decide whose account to believe.",
     "Different from Gaslighting, which works on your trust in your own memory; this works on other people's trust in you."
    ],
    "what_it_sounds_like": [
@@ -23981,7 +23981,7 @@
     "A relative tells the others, 'She'll probably bring that up again, just be kind about it.'"
    ],
    "what_it_is_not": [
-    "A documented record of inaccuracy reasonably affects how much weight an account carries, and doubting one particular claim is not a campaign. The separation is between doubt about a claim and doubt installed in advance about the person.",
+    "A documented record of inaccuracy reasonably affects how much weight an account carries, and doubting one particular claim is not a campaign. The difference is between doubt about a claim and doubt planted in advance about the person.",
     "A colleague saying 'I'm not sure about that date, can we check the email?'",
     "Mutual wariness between two people who have each been caught out before.",
     "A private word to you, from someone who cares, that you seem overwhelmed lately.",
@@ -24021,7 +24021,7 @@
    ],
    "less_concerning_if": [
     "The doubt is limited to one claim and is settled by looking at the evidence.",
-    "Everyone's accounts get checked, not only yours.",
+    "Every account gets checked, whoever gives it.",
     "You can learn what has been said about you, and you are given the chance to respond."
    ],
    "more_concerning_if": [
@@ -24035,16 +24035,16 @@
     "You begin to leave out things you know to be true because you expect not to be believed.",
     "More and more, you need a witness or a document before anyone will take you seriously."
    ],
-   "repair_check": "Repair would mean going back to the people who were given the doubt and correcting what they were told, naming what was fact and what was opinion. An apology made only to you, with the earlier remarks left standing among everyone else, has not reached where the damage is.",
+   "repair_check": "Repair would mean going back to the people who were given the doubt and correcting what they were told. It would name what was fact and what was opinion. An apology made only to you, with the earlier remarks left standing among everyone else, has not reached where the damage is.",
    "boundary_respect_check": "Ask to know who has been told what, and watch whether you get an answer. A response that names the people and the words, and stops there, is a response to your request. A response that questions why you want to know is a response to something else.",
-   "psychological_mechanism": "People often judge a report by the reputation of whoever makes it, since checking every claim takes effort. An early remark about unreliability hands listeners a shortcut: they can disbelieve without examining. It tends to work better when it contains something true, like a bad week, and comes from someone the listener already trusts. The person it describes may begin to doubt themselves too.",
+   "psychological_mechanism": "People often judge a report by the reputation of whoever makes it, since checking every claim takes effort. An early remark about unreliability hands listeners a shortcut, because they can disbelieve without examining. It often works better when it contains something true, like a bad week, and comes from someone the listener already trusts. The person it describes may begin to doubt themselves too.",
    "possible_impact_on_receiver": "People describe being met with polite doubt when they report something important, and learning later what had been said. Some hold back reports, over-prepare evidence, or avoid the people who may have heard the remarks. A lonely sense of being right and unheard is also reported, along with exhaustion at having to prove ordinary things.",
    "response_options": {
     "soft_clarification": "Ask a trusted colleague what they have heard, and write down the answer afterward, rather than confronting the person who may be saying it.",
     "firm_boundary": "Ask to be heard on the facts: 'Please judge what I'm reporting by the evidence, not by what you've heard about me. I can show you the messages.'",
     "disengagement": "Stop trying to win each doubter over one at a time. Put your account in writing, with dates, and let the record speak where conversation cannot.",
     "support_seeking": "Tell one person who knew you before this began what has been said, and ask whether it matches how they know you. Their answer helps you test the doubt you may have absorbed.",
-    "workplace_or_professional": "At work, keep a dated file of what you reported and what happened, and ask HR or a union representative how to put your concerns on record. Quiet documentation counts for more than an argument."
+    "workplace_or_professional": "At work, keep a dated file of what you reported and what happened. Ask HR or a union representative how to put your concerns on record. Quiet documentation counts for more than an argument."
    },
    "boundary_script": "\"I'd like what I report to be looked at on its own facts. I have messages and dates for it. Could we go through them together, or could someone else look at them with us?\"",
    "safety_note": "This often travels with bigger problems. Watch for doubt being planted with people who decide things about you, such as a landlord, employer, family court or doctor. Watch, too, for remarks about your mental state used to explain away a report of harm. Keep dated copies somewhere only you can reach, and speak to a legal aid service or an advocate before the next formal step.",
@@ -24061,7 +24061,7 @@
     "Accountability Evasion via Diagnosis",
     "Trash-Can Diagnosis"
    ],
-   "how_to_distinguish_from_related": "Gaslighting works on your own trust in your memory, in private; Credibility Theft works on other people's trust in you, usually out of your hearing. Priming / Narrative Seeding sets any interpretation before an encounter, while this one targets your reliability as a witness. Identity Diminishment via Pathologizing relies on clinical labels; this tactic needs no label at all, only the suggestion that you are not to be taken at your word.",
+   "how_to_distinguish_from_related": "Gaslighting works on your own trust in your memory, in private. Credibility Theft works on other people's trust in you, usually out of your hearing. Priming / Narrative Seeding sets any interpretation before an encounter, while this one targets your reliability as a witness. Identity Diminishment via Pathologizing relies on clinical labels. This tactic needs no label at all, only the suggestion that you are not to be taken at your word.",
    "detection_notes": "Not matched or scored by this tool. Pasted text cannot establish this concept — included in the Field Guide purely as a literacy reference.",
    "codex_maturity": "mature",
    "human_review_flags": [
@@ -24082,9 +24082,9 @@
    "forensic_only": false,
    "absorbs": [],
    "short_definition": "Charging someone with a behavior or motive that the exchange shows more clearly in the person making the charge.",
-   "expanded_definition": "A classic idea in psychology is that people can attribute their own feelings or impulses to someone else, often without realizing it. In everyday conflict this looks like an accusation that fits the accuser better than the accused: 'You're so controlling' said in the middle of a list of instructions. It does not show what anyone meant, and people can do it unknowingly. One mismatch is ordinary. The pattern is a repeated one, where the charges track whatever you just pointed out.",
+   "expanded_definition": "A classic idea in psychology is that people can attribute their own feelings or impulses to someone else, often without realizing it. In everyday conflict this looks like an accusation that fits the accuser better than the accused, such as 'You're so controlling' said in the middle of a list of instructions. It does not show what anyone meant, and people can do it unknowingly. One mismatch is ordinary. The pattern is a repeated one, where the charges track whatever you just pointed out.",
    "plain_language_summary": "You say something is happening, and you are told you are the one doing it, even though the record fits the other person more.",
-   "why_this_matters": "You spend the conversation defending yourself against the very thing you came to name, which makes the source of the harm hard to see, and harder to describe to anyone else. The conflict ends in a tie instead of an answer.",
+   "why_this_matters": "You spend the conversation defending yourself against the very thing you came to name. That makes the source of the harm hard to see, and harder to describe to anyone else. The conflict ends in a tie instead of an answer.",
    "what_it_is": [
     "An accusation that hands your complaint back in nearly the same words: 'You never listen' answered with 'No, you never listen.'",
     "Often arrives right after you name a behavior, not at some random time.",
@@ -24102,7 +24102,7 @@
     "An email answers your note about missed deadlines with a list of deadlines you supposedly missed, none of them dated."
    ],
    "what_it_is_not": [
-    "An accusation can be accurate even when it also describes the accuser, and in most conflicts both people contribute some of the same behavior. Someone naming a pattern they share, and owning their half, is doing the opposite.",
+    "An accusation can be accurate even when it also describes the accuser, and in most conflicts both people contribute some of the same behavior. Someone who names a pattern they share and owns their half is doing the opposite.",
     "A counter-complaint that is specific, dated and checkable, even if it is uncomfortable to hear.",
     "A genuine mirror, where both of you do the thing and each can see it.",
     "A flash of defensiveness that the person admits an hour later.",
@@ -24162,7 +24162,7 @@
    "response_options": {
     "soft_clarification": "Acknowledge what might be true, then go back to your point: 'I might do that sometimes. I'd still like to talk about what happened on Tuesday.'",
     "firm_boundary": "Keep to one thing at a time: 'Let's finish my concern, then I will listen to yours properly and give it the same time.'",
-    "disengagement": "When the same words keep coming back to you, stop trading charges and move to something written, where wording cannot be echoed back in the moment.",
+    "disengagement": "When the same words keep coming back to you, stop trading charges. Move to something written, where wording cannot be echoed back in the moment.",
     "support_seeking": "Describe the exchange to someone who knows you both and ask whether the charge sounds like you. Check it on a calm day, not in the middle of an argument.",
     "workplace_or_professional": "Keep the facts in a dated email: what happened, when, and what you are asking for. A reply that engages with it, or one that charges you back, becomes part of the record."
    },
@@ -24170,7 +24170,7 @@
    "safety_note": "Having your concern turned back on you is a communication problem. It changes when the charges against you are used to justify checking your phone, controlling your movements or limiting your money. It also changes when you start to fear the reaction to naming anything. If so, write down specifics privately and speak to a counselor or advocate outside the relationship.",
    "safety_sensitive": false,
    "misuse_warning": [
-    "Saying 'you're projecting' to someone's honest complaint is itself the move described in Pseudo-Insight as Shutdown: it ends the conversation instead of describing it.",
+    "Saying 'you're projecting' to someone's honest complaint is itself the move described in Pseudo-Insight as Shutdown. It ends the conversation instead of describing it.",
     "The word names an accusation that fits the accuser, which you can only judge from the record. Using it because a charge stung is not enough."
    ],
    "related_tactics": [
@@ -24181,7 +24181,7 @@
     "Accountability Evasion via Diagnosis",
     "Trash-Can Diagnosis"
    ],
-   "how_to_distinguish_from_related": "Blame-Shifting moves responsibility for an event onto you, while projection hands you a specific trait or motive, often the one you just named. DARVO packs a denial, an attack and a role reversal together; projection can be only the echo. Pseudo-Insight as Shutdown uses psychological-sounding terms to stop the talk, whereas projection keeps the talk going, in a circle.",
+   "how_to_distinguish_from_related": "Blame-Shifting moves responsibility for an event onto you, while projection hands you a specific trait or motive, often the one you just named. DARVO packs a denial, an attack and a role reversal together. Projection can be only the echo. Pseudo-Insight as Shutdown uses psychological-sounding terms to stop the talk, whereas projection keeps the talk going, in a circle.",
    "detection_notes": "Not matched or scored by this tool. Pasted text cannot establish this concept — included in the Field Guide purely as a literacy reference.",
    "codex_maturity": "mature",
    "human_review_flags": [
@@ -24196,13 +24196,13 @@
    "branch": "reference",
    "category": "Confusion / rhetoric",
    "detectability_note": "This tool cannot establish this from pasted text at all. It is included for literacy only, so you can learn to recognize the concept — not as something this tool detects, scores, or flags.",
-   "core_meaning": "Insisting you know what another person really feels, thinks or meant better than they do, and treating their own account as the thing to be corrected.",
+   "core_meaning": "Authority Hijack insists it knows what another person really feels, thinks or meant better than they do, and treats their own account as the thing to correct.",
    "aftermath_state": false,
    "forensic_only": false,
    "absorbs": [],
-   "short_definition": "Insisting you know what another person really feels, thinks or meant better than they do, and treating their own account as the thing to be corrected.",
-   "expanded_definition": "Authority Hijack is a claim to be the expert on someone else's inner life: 'You don't really feel that', 'What you actually mean is...' The disagreement stops being about what happened and becomes about who is allowed to know what you feel. A friend offering a different reading is not this, since you can decline it. The pattern is when your account is always the one up for correction and theirs never is.",
-   "plain_language_summary": "Someone tells you what you really feel or mean, and your own explanation of your own mind is treated as the thing that needs fixing.",
+   "short_definition": "Authority Hijack insists it knows what another person really feels, thinks or meant better than they do, and treats their own account as the thing to correct.",
+   "expanded_definition": "Authority Hijack is a claim to be the expert on someone else's inner life, like 'You don't really feel that' or 'What you actually mean is...' The argument stops being about what happened. It becomes about who is allowed to know what you feel. A friend offering a different reading is not this, since you can decline it. The pattern is when your account is always the one up for correction and theirs never is.",
+   "plain_language_summary": "Someone tells you what you really feel or mean, and treats your own explanation of your own mind as the thing that needs fixing.",
    "why_this_matters": "You end up arguing the case for your own feelings, and simply being taken at your word is no longer on offer. Over time you may start checking your inner states against someone else's reading before you trust them.",
    "what_it_is": [
     "A statement about your inner state made as fact: 'You're not angry, you're jealous.'",
@@ -24221,7 +24221,7 @@
     "A supervisor's feedback form lists your 'real motivation' for a decision you explained in writing."
    ],
    "what_it_is_not": [
-    "People who know you well sometimes offer a reading you had not considered, and in therapy that questioning is invited, not imposed; a clarifying question is not a counter-claim. The difference is whether your own account is still allowed to be the last word.",
+    "People who know you well sometimes offer a reading you had not considered. In therapy that questioning is invited, not imposed. A clarifying question is not a counter-claim. The difference is whether your own account is still allowed to be the last word.",
     "A friend saying 'I wonder if you're more tired than angry' and then accepting 'no, I'm angry.'",
     "Someone noticing your behavior has changed and asking what is going on.",
     "A guess at your mood from a visible sign, such as asking if you are cold when you are shivering.",
@@ -24277,14 +24277,14 @@
    ],
    "repair_check": "Repair looks like a reading becoming a question and staying one: 'Is it more this, or that?' followed by accepting your answer. Apologizing once for 'assuming' and then telling you your real motive again next week is the same claim in new clothes.",
    "boundary_respect_check": "Try stating what you feel in one short sentence, then stop. Watch who gets the last word. If your sentence stands, your boundary was heard. If it gets a second sentence explaining what you really mean, it was not.",
-   "psychological_mechanism": "Few of us have perfect access to our own motives, so a confident outside reading can sound plausible. When it comes from someone close or with standing, such as a parent, partner or boss, it can be easier to adopt than to resist. Repeated, it can teach a person to look to others for the answer to what they feel.",
+   "psychological_mechanism": "Few of us have perfect access to our own motives, so a confident outside reading can sound plausible. When it comes from someone close or with standing, such as a parent, partner or boss, it can be easier to adopt than to resist. Repeated often, it can teach a person to look to others for the answer to what they feel.",
    "possible_impact_on_receiver": "People describe being unable to say what they feel without it being corrected, and then feeling unsure of the feeling itself. Some become guarded and share less. Some say they began asking others what they must be feeling, which they later found disorienting. There can also be a flat anger at not being believed about their own mind.",
    "response_options": {
     "soft_clarification": "Give your account once, plainly: 'I do feel angry. I'm telling you how it is for me.'",
     "firm_boundary": "Mark where the authority sits: 'You can tell me how it looks from outside, but what I feel is mine to say.'",
-    "disengagement": "If your feelings keep being corrected, share them less in that setting and keep them where you can hear them clearly, such as a journal or a friend.",
+    "disengagement": "If your feelings keep being corrected, share them less in that setting. Keep them where you can hear them clearly, such as a journal or a friend.",
     "support_seeking": "Say your feeling aloud to someone with no stake and notice whether it sounds true to you in their company. Being listened to helps you hear yourself.",
-    "workplace_or_professional": "At work, put your reasons for a decision in writing, in your own words, so a manager's later account of your 'real motive' can be set beside it."
+    "workplace_or_professional": "At work, put your reasons for a decision in writing, in your own words. Then a manager's later account of your 'real motive' can be set beside it."
    },
    "boundary_script": "\"If you're curious what I feel, ask me and I'll tell you. I'm not looking for a reading of it. What I've told you is what's true for me.\"",
    "safety_note": "Being told what you really feel is a dispute over who gets to describe your inner life. It deserves closer attention when the 'correction' is used to override your refusals, your consent or your account of being hurt. If you feel pressed toward something you have said no to, speak to a trusted person or an advocate outside the relationship before agreeing to anything.",
@@ -24301,7 +24301,7 @@
     "Accountability Evasion via Diagnosis",
     "Trash-Can Diagnosis"
    ],
-   "how_to_distinguish_from_related": "Emotional Invalidation tells you your feeling is wrong or too much; Authority Hijack tells you that you do not have the feeling you say you have. Gaslighting disputes what happened, while this one disputes what is going on inside you. Credibility Theft works on how others see your reliability, where this one works on how you are told to see yourself.",
+   "how_to_distinguish_from_related": "Emotional Invalidation tells you your feeling is wrong or too much. Authority Hijack tells you that you do not have the feeling you say you have. Gaslighting disputes what happened, while this one disputes what is going on inside you. Credibility Theft works on how others see your reliability. This one works on how you are told to see yourself.",
    "detection_notes": "Not matched or scored by this tool. Pasted text cannot establish this concept — included in the Field Guide purely as a literacy reference.",
    "codex_maturity": "mature",
    "human_review_flags": [
@@ -24316,11 +24316,11 @@
    "branch": "reference",
    "category": "Confusion / rhetoric",
    "detectability_note": "This tool cannot establish this from pasted text at all. It is included for literacy only, so you can learn to recognize the concept — not as something this tool detects, scores, or flags.",
-   "core_meaning": "Answering a complaint about someone's conduct by suggesting the complainant has a condition, so the complaint is treated as a symptom.",
+   "core_meaning": "Accountability evasion via diagnosis answers a complaint about someone's conduct by suggesting the complainant has a condition, so the complaint is treated as a symptom.",
    "aftermath_state": false,
    "forensic_only": false,
    "absorbs": [],
-   "short_definition": "Answering a complaint about someone's conduct by suggesting the complainant has a condition, so the complaint is treated as a symptom.",
+   "short_definition": "Accountability evasion via diagnosis answers a complaint about someone's conduct by suggesting the complainant has a condition, so the complaint is treated as a symptom.",
    "expanded_definition": "A complaint is raised, such as a missed diagnosis, a harsh remark or an unsafe workplace. The reply does not say whether it happened. It turns to the complainant: perhaps you are anxious, or stressed, or should talk to someone. Concern for your wellbeing can be genuine. What marks this pattern is where the matter ends: the diagnosis becomes the answer, and the complaint is never examined. It appears in families, workplaces, schools, clinics and services.",
    "plain_language_summary": "You say something went wrong, and the reply is that maybe something is wrong with you, so what you reported never gets looked at.",
    "why_this_matters": "The complaint is never answered. It is converted into a symptom, and you are sent to seek help for a reaction to someone else's conduct. What happened stays unexamined, and you carry both the harm and the label.",
@@ -24341,7 +24341,7 @@
     "A school letter on your report of bullying discusses your child's 'sensitivities' and says nothing about the incident."
    ],
    "what_it_is_not": [
-    "A real condition can be part of the picture, and someone qualified raising it with care is doing their job. The question is whether the original report ever gets answered by anybody, or whether the diagnosis is where the matter ends.",
+    "A real condition can be part of the picture, and someone qualified who raises it with care is doing their job. The question is whether anybody ever answers the original report, or whether the diagnosis is where the matter ends.",
     "A manager who offers support resources and also investigates your complaint.",
     "A person who tells you they are worried about your sleep because they noticed you are not sleeping.",
     "A clinician explaining a diagnosis you asked about.",
@@ -24364,12 +24364,12 @@
    ],
    "innocent_or_ordinary_possibilities": [
     "Distress and a real complaint often go together, and a caring person may attend to the distress first.",
-    "Staff are often trained to offer wellbeing resources whenever someone is upset, without any plan to sidestep the issue.",
+    "Staff are often trained to offer wellbeing resources whenever someone is upset, with no plan to sidestep the issue.",
     "People afraid of conflict may reach for a soft-sounding suggestion because they do not know what else to say."
    ],
    "common_false_positives": [
     "A family doctor asking about your mood during an appointment about something else.",
-    "A workplace policy that sends everyone who files a complaint a list of support services, alongside the investigation.",
+    "A workplace policy that sends a list of support services to everyone who files a complaint, alongside the investigation.",
     "A relative who notices you have seemed low and says so, before any complaint exists."
    ],
    "discernment_questions": [
@@ -24387,7 +24387,7 @@
    "more_concerning_if": [
     "A diagnosis is entered in a file or shared with others in response to a complaint.",
     "Your complaint is dropped on the grounds of your state, with no review.",
-    "Access to something you depend on, such as a role, placement or service, is made to depend on accepting the referral."
+    "Something you depend on, such as a role, placement or service, is only kept if you accept the referral."
    ],
    "pattern_over_time_signs": [
     "Each new complaint is answered with a new concern about you.",
@@ -24395,19 +24395,19 @@
     "People who have heard about your complaint also mention your health.",
     "You begin holding back reports to avoid the next suggestion of treatment."
    ],
-   "repair_check": "Your complaint gets looked at on its own terms, with a written outcome, and any concern for your wellbeing is offered separately and without conditions. A sincere 'we're sorry you're upset' with no review of what you reported leaves the matter where it began.",
+   "repair_check": "Your complaint gets looked at on its own terms, with a written outcome. Any concern for your wellbeing is offered separately and without conditions. A sincere 'we're sorry you're upset' with no review of what you reported leaves the matter where it began.",
    "boundary_respect_check": "Ask for the two things separately: help for you if you want it, and an answer on your complaint. Notice whether the second is quietly folded into the first. If an answer to your complaint arrives, with reasons, your request was heard.",
    "psychological_mechanism": "People tend to treat concern for their wellbeing as kindness, and objecting to kindness feels ungracious. A clinical-sounding word can also make a complaint look like evidence of the speaker's state, so it gets weighed less. Over time the person may question whether their reaction was proportionate and drop the complaint themselves.",
    "possible_impact_on_receiver": "People describe feeling dismissed and then guilty for being angry about it. Some withdraw the complaint, avoid the service or workplace, or begin to treat their own distress as the real problem. A lasting wariness about asking for help can follow, even when they need it.",
    "response_options": {
     "soft_clarification": "Separate the two: 'I appreciate the concern, and I'd like to look at what happened. Can you tell me how my complaint will be reviewed?'",
     "firm_boundary": "Ask for a written answer: 'Please respond to the complaint itself, in writing, with what was found.'",
-    "disengagement": "If a referral is offered in place of a review, set it aside for now and say you will take it up separately and by choice.",
-    "support_seeking": "Take your account to someone outside the system, such as an independent patient advocate, an ombudsman (an independent complaints officer) or a union representative, who can help press for a response on the facts.",
+    "disengagement": "If a referral is offered in place of a review, set it aside for now. Say you will take it up separately and by choice.",
+    "support_seeking": "Take your account to someone outside the system, such as an independent patient advocate, an ombudsman (an independent complaints officer) or a union representative. They can help press for a response on the facts.",
     "workplace_or_professional": "Put the complaint in writing, with dates, to a named person, and keep a copy. If it is answered with comments about your health, note that and ask for the outcome in writing."
    },
    "boundary_script": "\"I'm glad you care about how I'm doing, and I'll take that up separately. What I'd like now is an answer to the complaint itself: what happened on the fourteenth, and what will be done about it.\"",
-   "safety_note": "This can sit next to real stakes: a diagnosis written in a file can affect work, housing, a care placement or custody. Watch for a label being recorded or shared, for help being made a condition of keeping a role or place, and for pressure toward treatment you did not ask for. Ask for copies of what is recorded, and reach an ombudsman, patient advocate, union representative or legal aid service.",
+   "safety_note": "This can sit next to real stakes. A diagnosis written in a file can affect work, housing, a care placement or custody. Watch for a label being recorded or shared, for help being made a condition of keeping a role or place, and for pressure toward treatment you did not ask for. Ask for copies of what is recorded, and reach an ombudsman, patient advocate, union representative or legal aid service.",
    "safety_sensitive": true,
    "misuse_warning": [
     "Not every suggestion to seek help is an evasion. Treating kind concern as an attack can cost you real support.",
@@ -24421,7 +24421,7 @@
     "Authority Hijack",
     "Trash-Can Diagnosis"
    ],
-   "how_to_distinguish_from_related": "Identity Diminishment via Pathologizing turns your everyday limits and reactions into signs of a disorder; this one shows up at the moment of a complaint and ends it. Pseudo-Insight as Shutdown uses psychological terms like 'projecting' in a quarrel, whereas this uses a diagnosis-style reply, often in an institution, so that no review follows. Frame Assassination swaps the topic to your character; here it is swapped to your condition, and a referral becomes the outcome.",
+   "how_to_distinguish_from_related": "Identity Diminishment via Pathologizing turns your everyday limits and reactions into signs of a disorder. This one shows up at the moment of a complaint and ends it. Pseudo-Insight as Shutdown uses psychological terms like 'projecting' in a quarrel, whereas this uses a diagnosis-style reply, often in an institution, so that no review follows. Frame Assassination swaps the topic to your character. Here it is swapped to your condition, and a referral becomes the outcome.",
    "detection_notes": "Not matched or scored by this tool. Pasted text cannot establish this concept — included in the Field Guide purely as a literacy reference.",
    "codex_maturity": "mature",
    "human_review_flags": [
@@ -24438,18 +24438,18 @@
    "branch": "reference",
    "category": "Confusion / rhetoric",
    "detectability_note": "This tool cannot establish this from pasted text at all. It is included for literacy only, so you can learn to recognize the concept — not as something this tool detects, scores, or flags.",
-   "core_meaning": "Using spiritual or wellness ideas, such as forgiveness, positivity or karma, to avoid answering for a harm and to shame the hurt person's pain.",
+   "core_meaning": "Spiritual bypassing uses spiritual or wellness ideas, such as forgiveness, positivity or karma, to avoid answering for a harm and to shame the hurt person's pain.",
    "aftermath_state": false,
    "forensic_only": false,
    "absorbs": [],
-   "short_definition": "Using spiritual or wellness ideas, such as forgiveness, positivity or karma, to avoid answering for a harm and to shame the hurt person's pain.",
+   "short_definition": "Spiritual bypassing uses spiritual or wellness ideas, such as forgiveness, positivity or karma, to avoid answering for a harm and to shame the hurt person's pain.",
    "expanded_definition": "Spiritual bypassing is the use of spiritual or wellness language to step around something that went wrong. A person says everything happens for a reason, or that real healing means letting go, and the harm itself never gets named. Often the hurt person's anger is then described as a lack of growth. One kind remark means little. The pattern shows in the order of events: release is asked for first, and acknowledgment either comes late or never comes. This exchange alone does not show what anyone meant by it.",
    "plain_language_summary": "Someone answers your hurt with talk of forgiveness, karma or good vibes, and the thing that hurt you never gets talked about. Your pain starts to look like your own spiritual failing.",
-   "why_this_matters": "Your anger gets judged as a spiritual shortcoming, and forgiveness is requested before anything has been acknowledged. The harm is closed off without being repaired, and you may start to feel that the hurt itself was the mistake.",
+   "why_this_matters": "Your anger gets judged as a spiritual shortcoming, and forgiveness is requested before anything has been acknowledged. The harm is closed off without being repaired. You may start to think the hurt itself was the mistake.",
    "what_it_is": [
-    "Offering a spiritual or wellness idea as the whole answer to a specific complaint, so the complaint is never discussed.",
-    "Asking for forgiveness or letting go before the other person has said what happened or what they would do differently.",
-    "Describing anger, grief or fear as a low vibration, an attachment or an ego problem rather than a response to something real.",
+    "A spiritual or wellness idea is offered as the whole answer to a specific complaint, so the complaint is never discussed.",
+    "Forgiveness or letting go is asked for before the other person has said what happened or what they would do differently.",
+    "Anger, grief or fear is described as a low vibration, an attachment or an ego problem, not as a response to something real.",
     "Often applied to your hurt more than to the speaker's own, which is treated as worth feeling.",
     "Often said warmly and sincerely, which is part of why it is hard to push back on."
    ],
@@ -24464,13 +24464,13 @@
    ],
    "what_it_is_not": [
     "Many people hold these beliefs sincerely and apply them first to their own lives. A faith or practice that someone lives by is not an attack on you.",
-    "Spiritual perspective offered alongside a real acknowledgment of what happened. It is the ordering that matters: letting go requested before anything is admitted.",
+    "A spiritual perspective offered alongside a real acknowledgment of what happened. The order is what matters. In bypassing, letting go is requested before anything is admitted.",
     "A grieving friend leaning on 'everything happens for a reason' to cope with a loss that has nothing to do with you.",
     "A chaplain, counselor or elder who sits with your pain first and mentions forgiveness only if and when you ask.",
     "You choosing to forgive in your own time and your own words. That is your decision, not something done to you."
    ],
    "this_may_be_it_when": [
-    "The spiritual idea arrives right after you name a specific thing that was said or done, and that thing is not mentioned again.",
+    "The spiritual idea arrives right after you name a specific thing that was said or done, and that thing is never mentioned again.",
     "Forgiveness is asked of you within minutes or days, while no apology or change has been offered.",
     "Your anger is described as proof you are less evolved, rather than as information about what happened.",
     "The same person has no trouble holding a grudge of their own, or being upset when they are the one wronged.",
@@ -24484,13 +24484,13 @@
     "They stay in the conversation after you say you are not ready to forgive."
    ],
    "innocent_or_ordinary_possibilities": [
-    "Someone raised in a tradition where forgiveness is central may reach for it automatically, without noticing it skips a step.",
+    "Someone raised in a tradition where forgiveness is central may reach for it automatically, without noticing that it skips a step.",
     "People often grab comforting phrases when they feel helpless to fix someone else's pain.",
     "A person who found peace through a practice may sincerely want you to have it too."
    ],
    "common_false_positives": [
     "A relative offering a prayer or a kind saying at a funeral, who is not responsible for the loss.",
-    "A therapist or mindfulness teacher suggesting you notice your anger rather than act on it, while still treating the anger as valid.",
+    "A therapist or mindfulness teacher suggests you notice your anger rather than act on it, and still treats the anger as valid.",
     "A friend who admits a mistake, apologizes, and then says they are working on letting go of their own guilt."
    ],
    "discernment_questions": [
@@ -24506,33 +24506,33 @@
     "They live by the same ideas when they are the one who got hurt."
    ],
    "more_concerning_if": [
-    "Forgiveness is presented as a duty to the person who caused the harm, including where you are still exposed to it.",
+    "Forgiveness is presented as a duty to the person who caused the harm, even while you are still exposed to it.",
     "Your refusal to let go is treated as the reason things are not getting better.",
     "A group or community repeats the same message, so that speaking about the harm feels like a breach of the group's values."
    ],
    "pattern_over_time_signs": [
-    "Every complaint you raise gets turned into a conversation about your growth, and the original complaint is never resolved.",
+    "Every complaint you raise gets turned into a conversation about your growth. The original complaint is never resolved.",
     "You start to preface hurt feelings with an apology for having them.",
     "You stop bringing things up because the answer will be a quote or a teaching.",
     "The same behavior recurs, since nothing was ever acknowledged, and the cycle of forgive-and-move-on starts again."
    ],
-   "repair_check": "Repair would start with the harm being said aloud in the other person's own words, before any talk of forgiveness, and the next conversation would show a different behavior. Reassurance that you will feel better once you let go, with the harm still unnamed, leaves the hurt itself untouched and still waiting to be named.",
+   "repair_check": "Repair would start with the harm being said aloud in the other person's own words, before any talk of forgiveness. The next conversation would then show different behavior. Reassurance that you will feel better once you let go, with the harm still unnamed, leaves the hurt untouched and still waiting to be named.",
    "boundary_respect_check": "Tell them you are not ready to forgive and watch what happens to that sentence. A person who respects it lets it stand and perhaps asks what you need. Treating the sentence as proof that you are stuck, or bringing it up again as a lesson, shows it was not heard.",
    "psychological_mechanism": "Spiritual language tends to carry authority and warmth, which makes it hard to argue with. When it arrives in place of an acknowledgment, a hurt person can start to read their own reaction as the thing that needs fixing. Many people are also taught that anger is a flaw, so the message can slot into a belief that is already there.",
-   "possible_impact_on_receiver": "People describe swallowing anger they believed was justified, feeling ashamed for not forgiving fast enough, and wondering whether they are the one who is spiritually behind. Some say they stopped trusting faith communities or wellness spaces entirely, and some say they went back to the same person for another round because they thought forgiving was the answer.",
+   "possible_impact_on_receiver": "People describe swallowing anger they believed was justified, feeling ashamed for not forgiving fast enough, and wondering whether they are the one who is spiritually behind. Some say they stopped trusting faith communities or wellness spaces entirely. Some say they went back to the same person for another round because they thought forgiving was the answer.",
    "response_options": {
-    "soft_clarification": "Separate the two topics gently: 'I may get to forgiveness in time, but right now I'd like to talk about what actually happened.'",
+    "soft_clarification": "Gently keep the two topics apart: 'I may get to forgiveness in time, but right now I'd like to talk about what actually happened.'",
     "firm_boundary": "Say plainly that your feelings are not a spiritual problem: 'I'm not going to be told my hurt is a lack of growth. I'd like us to talk about the specific thing first.'",
     "disengagement": "Pause the conversation when it turns into a lesson about you, and say you will come back when the actual event can be discussed.",
-    "support_seeking": "Talk it through with someone you trust who shares or respects the same belief, and ask them whether forgiveness before acknowledgment matches what the tradition itself teaches.",
-    "workplace_or_professional": "At work or in a wellness or faith community, put the specific event in writing and ask for the process to address it, rather than for a shared reflection or a circle."
+    "support_seeking": "Talk it through with someone you trust who shares or respects the same belief. Ask them whether forgiveness before acknowledgment matches what the tradition itself teaches.",
+    "workplace_or_professional": "At work or in a wellness or faith community, put the specific event in writing. Ask for the process to address it, instead of a shared reflection or a circle."
    },
    "boundary_script": "\"I take your faith seriously, and I'm not asking you to give it up. I am asking you to hear what happened to me before we talk about letting go. I'm not ready to forgive yet, and that isn't a failure.\"",
-   "safety_note": "Pressure to forgive is a hurtful conversation rather than a danger in itself. It matters more when forgiveness is demanded after threats, controlling behavior or physical harm. It also matters when a spiritual leader asks you to handle it quietly, because that can hold someone in a still-unsafe situation. A domestic abuse advocate or a counselor outside the community can help you think it through first.",
+   "safety_note": "Pressure to forgive is a hurtful conversation, not a danger in itself. It matters more when forgiveness is demanded after threats, controlling behavior or physical harm. It also matters when a spiritual leader asks you to handle it quietly, because that can keep someone in a situation that is still unsafe. A domestic abuse advocate or a counselor outside the community can help you think it through first.",
    "safety_sensitive": false,
    "misuse_warning": [
-    "Calling someone's faith or comfort practice 'bypassing' because it irritates you turns a description of one conversational move into an attack on their beliefs. The word fits an ordering problem, not a worldview.",
-    "Using the term to wave away every request to forgive can make it harder to hear when the request is sincere and comes with a real acknowledgment."
+    "Calling someone's faith or comfort practice 'bypassing' because it irritates you turns a description of one conversational move into an attack on their beliefs. The word fits a problem of order, not a worldview.",
+    "Using the term to wave away every request to forgive can make it harder to hear a request that is sincere and comes with a real acknowledgment."
    ],
    "related_tactics": [
     "Priming / Narrative Seeding",
@@ -24542,7 +24542,7 @@
     "Authority Hijack",
     "Accountability Evasion via Diagnosis"
    ],
-   "how_to_distinguish_from_related": "Frame Control sets what the conversation is about at all, while spiritual bypassing swaps the harm for a lesson about your growth. Credibility Theft undermines whether your account can be believed, whereas here your account is accepted but made to look spiritually immature. Accountability Evasion via Diagnosis uses a clinical label for the same purpose. The difference is that this one borrows the language of wisdom.",
+   "how_to_distinguish_from_related": "Frame Control sets what the conversation is about at all, while spiritual bypassing swaps the harm for a lesson about your growth. Credibility Theft undermines whether your account can be believed. Here your account is accepted but made to look spiritually immature. Accountability Evasion via Diagnosis uses a clinical label for the same purpose. This one borrows the language of wisdom instead.",
    "detection_notes": "Not matched or scored by this tool. Pasted text cannot establish this concept — included in the Field Guide purely as a literacy reference.",
    "codex_maturity": "mature",
    "human_review_flags": [
@@ -24557,20 +24557,20 @@
    "branch": "reference",
    "category": "Confusion / rhetoric",
    "detectability_note": "This tool cannot establish this from pasted text at all. It is included for literacy only, so you can learn to recognize the concept — not as something this tool detects, scores, or flags.",
-   "core_meaning": "Arranging an exchange so the person raising a concern must prove they were harmed, are innocent, or deserve ordinary decent treatment.",
+   "core_meaning": "Burden of proof shifting arranges an exchange so the person raising a concern must prove they were harmed, are innocent, or deserve ordinary decent treatment.",
    "aftermath_state": false,
    "forensic_only": false,
    "absorbs": [],
-   "short_definition": "Arranging an exchange so the person raising a concern must prove they were harmed, are innocent, or deserve ordinary decent treatment.",
-   "expanded_definition": "Burden of proof shifting turns a request or a complaint into a trial in which the person who asked has to supply the evidence. In a fair dispute over a contested fact, a claim usually needs support from whoever makes it. This pattern differs because the proof demanded is for a feeling, a boundary or a basic courtesy, and no amount of evidence seems to count. One request for a screenshot proves nothing. The pattern is where the standard sits on one side only.",
-   "plain_language_summary": "Instead of answering what you raised, the other person makes you prove it, over and over, as though you must earn the right to be treated decently.",
+   "short_definition": "Burden of proof shifting arranges an exchange so the person raising a concern must prove they were harmed, are innocent, or deserve ordinary decent treatment.",
+   "expanded_definition": "Burden of proof shifting turns a request or a complaint into a trial in which the person who asked has to supply the evidence. In a fair dispute over a contested fact, a claim usually needs support from whoever makes it. This pattern differs. The proof demanded is for a feeling, a boundary or a basic courtesy, and no amount of evidence seems to count. One request for a screenshot proves nothing. The pattern is where the standard sits on one side only.",
+   "plain_language_summary": "Instead of answering what you raised, the other person makes you prove it, over and over. It is as though you must earn the right to be treated decently.",
    "why_this_matters": "You have to build a case for ordinary treatment, and the work of proving becomes the price of asking. Most people eventually stop asking, not because things are fine but because the cost is too high.",
    "what_it_is": [
     "Answering a described experience with 'prove it' instead of with a question about what happened.",
     "Requiring documentation for things that are not facts in dispute, such as how a remark felt or why you need a break.",
     "A standard that applies to you but not to them: your claims need receipts, theirs are accepted on their word.",
-    "Evidence handed over and then dismissed or replaced by a new request, so you are never finished proving.",
-    "Seen in homes, workplaces, online threads and official processes, anywhere someone has the power to decide what counts as enough."
+    "Evidence is handed over and then dismissed or replaced by a new request, so you are never finished proving.",
+    "Seen in homes, workplaces, online threads and official processes. It shows up anywhere someone has the power to decide what counts as enough."
    ],
    "what_it_sounds_like": [
     "\"Prove it. Show me where I said that.\"",
@@ -24582,7 +24582,7 @@
     "\"You're asking me to change my behavior. The least you can do is justify it properly.\""
    ],
    "what_it_is_not": [
-    "A dispute where a fact is truly contested, such as who paid a bill, and where a receipt would end the argument for both sides.",
+    "A dispute where a fact is truly contested, such as who paid a bill. A receipt there would end the argument for both sides.",
     "A court, school hearing or HR process that asks everyone involved for evidence under the same rules.",
     "Someone asking 'can you give me an example?' because they honestly do not understand what you mean and want to fix it.",
     "A reasonable request to confirm a plan in writing that applies to both people equally.",
@@ -24608,7 +24608,7 @@
     "A person who feels accused may ask for proof as a way of slowing down while they absorb it."
    ],
    "common_false_positives": [
-    "A manager asking for a sales report before approving a budget, who asks every team member the same.",
+    "A manager asks for a sales report before approving a budget, and asks every team member the same.",
     "A friend who says 'I don't remember that, can you remind me what I said?' and then listens.",
     "An insurance or benefits process that requires paperwork from every claimant."
    ],
@@ -24625,7 +24625,7 @@
     "They hold their own statements to the same standard."
    ],
    "more_concerning_if": [
-    "Ordinary treatment, such as being spoken to politely or being allowed to rest, is made to depend on your passing a test of evidence.",
+    "Ordinary treatment, such as being spoken to politely or being allowed to rest, depends on you passing a test of evidence.",
     "The proof you give is picked apart for flaws rather than weighed.",
     "Others are told that you 'have no evidence', so your account is treated as invalid before it is heard."
    ],
@@ -24635,7 +24635,7 @@
     "The bar for 'enough' moves each time you meet it.",
     "You notice your own certainty falling because every claim feels like it needs an audit."
    ],
-   "repair_check": "Repair looks like a change in who carries the work: they begin from your account, ask what you need, and keep any requests for evidence for facts that are really in dispute. A one-off 'I believe you' followed by a new request for documentation next time has not moved the burden.",
+   "repair_check": "Repair looks like a change in who carries the work. They begin from your account, ask what you need, and keep any requests for evidence for facts that are really in dispute. A one-off 'I believe you' followed by a new request for documentation next time has not moved the burden.",
    "boundary_respect_check": "Ask yourself what happens when you state a need without any proof attached. If it is simply considered or answered, the boundary is being respected. If it is returned to you with a list of conditions, it is being treated as a case to be won.",
    "psychological_mechanism": "When a person is asked to prove something, they tend to focus on gathering evidence and to take on the role of a defendant. Time and attention go into the case rather than the original need. If the standard keeps shifting, the person can start to doubt that their experience counts without a paper trail.",
    "possible_impact_on_receiver": "People describe over-preparing for ordinary conversations, feeling rehearsed and watched, and giving up on requests that matter. Some say they began to doubt their own account unless it was written down. Others describe anger at being treated like a witness in their own life.",
@@ -24644,14 +24644,14 @@
     "firm_boundary": "Decline the courtroom framing: 'I'm not going to build a case for being treated kindly. I'm telling you what I need.'",
     "disengagement": "Stop supplying evidence once a pattern of new demands is clear, and tell them you are ending that line of discussion.",
     "support_seeking": "Show someone you trust the list of proofs you were asked for and ask whether it seems proportionate to the request you made.",
-    "workplace_or_professional": "In a formal process, ask in writing what standard of evidence applies to each party, and ask for the same standard to be applied to everyone."
+    "workplace_or_professional": "In a formal process, ask in writing what standard of evidence applies to each party. Ask for the same standard to be applied to everyone."
    },
    "boundary_script": "\"I've shown you what I can. This is not a court case, and I don't think I should need documents to be treated respectfully. I'd like us to talk about the request itself.\"",
-   "safety_note": "The danger is rarely the demand for proof itself. It rises when the proof you gather puts you at risk, for example collecting evidence in secret from someone who monitors your devices or reacts with anger. If gathering it feels unsafe, stop, and talk to an advocate or legal aid about what safe documentation looks like before doing more.",
+   "safety_note": "The danger is rarely the demand for proof itself. It rises when the proof you gather puts you at risk, for example collecting evidence in secret from someone who monitors your devices or reacts with anger. If gathering it feels unsafe, stop. Talk to an advocate or legal aid about what safe documentation looks like before doing more.",
    "safety_sensitive": false,
    "misuse_warning": [
-    "Describing every request for evidence as burden-shifting can shield a claim that really does need checking. Some claims, including serious accusations, deserve scrutiny.",
-    "Using the term to refuse any questions about your own account turns a description of unfair standards into a way to avoid being asked anything."
+    "Calling every request for evidence burden-shifting can protect a claim that really does need checking. Some claims, including serious accusations, deserve a close look.",
+    "Using the term to refuse all questions about your own account turns a description of unfair standards into a way to dodge being asked anything."
    ],
    "related_tactics": [
     "Priming / Narrative Seeding",
@@ -24661,7 +24661,7 @@
     "Authority Hijack",
     "Accountability Evasion via Diagnosis"
    ],
-   "how_to_distinguish_from_related": "Credibility Theft attacks whether you are a reliable person at all, while this tactic leaves you as a possible witness but makes you carry all the proof. Frame Control sets what the conversation is about, while here the topic stays the same and only the duty to prove it moves. Projection hands you the other person's behavior. This one hands you their obligation.",
+   "how_to_distinguish_from_related": "Credibility Theft attacks whether you are a reliable person at all. This tactic leaves you as a possible witness but makes you carry all the proof. Frame Control sets what the conversation is about. Here the topic stays the same and only the duty to prove it moves. Projection hands you the other person's behavior. This one hands you their obligation.",
    "detection_notes": "Not matched or scored by this tool. Pasted text cannot establish this concept — included in the Field Guide purely as a literacy reference.",
    "codex_maturity": "mature",
    "human_review_flags": [
@@ -24681,9 +24681,9 @@
    "forensic_only": false,
    "absorbs": [],
    "short_definition": "Overwhelming a rival in live debate with a rapid stream of claims, many weak or false, too many to answer one by one.",
-   "expanded_definition": "A Gish Gallop is a burst of many claims in a short space, some accurate, some distorted, some invented, fired off faster than anyone could check. Answering one properly takes longer than making it, so the other person always seems to be behind. Whoever stops to correct one point is then told that the rest went unanswered. It shows up in live debates, family arguments and online threads. Speed on its own is not the signal; the claims not surviving a slow look is.",
+   "expanded_definition": "A Gish Gallop is a burst of many claims in a short space. Some are accurate, some distorted, some invented, and all are fired off faster than anyone could check. Answering one properly takes longer than making it, so the other person always seems to be behind. Whoever stops to correct one point is then told that the rest went unanswered. It shows up in live debates, family arguments and online threads. Speed on its own is not the signal. The signal is claims that do not survive a slow look.",
    "plain_language_summary": "Someone throws out so many points so fast that you cannot answer them all, then treats every unanswered one as a point won.",
-   "why_this_matters": "You lose on speed rather than on substance, and the fact that you could not answer everything gets treated as evidence that you could not answer anything. Onlookers and you yourself may count the loss as real.",
+   "why_this_matters": "You lose on speed rather than on substance. The fact that you could not answer everything gets treated as evidence that you could not answer anything. Onlookers, and you yourself, may count the loss as real.",
    "what_it_is": [
     "A long run of separate claims delivered in a single turn, usually without pauses for reply.",
     "A mix of true, half-true and false statements, so that sorting them takes much longer than saying them.",
@@ -24753,23 +24753,23 @@
     "You notice that debunked claims reappear in later conversations as though they had never been answered.",
     "You find yourself preparing long rebuttals in advance, and still falling behind."
    ],
-   "repair_check": "They agree to take one claim at a time, concede one that turns out to be wrong, and stay on a point until it is settled, which is a change in pace. A promise to 'try to be brief' followed by another list of twenty items is the old pattern in a shorter version.",
+   "repair_check": "They agree to take one claim at a time, concede one that turns out to be wrong, and stay on a point until it is settled. That is a change in pace. A promise to 'try to be brief' followed by another list of twenty items is the old pattern in a shorter version.",
    "boundary_respect_check": "Propose a rule, such as choosing the strongest point and discussing only that one. Watch whether they take it up or treat the proposal itself as dodging. How they respond to a limit on the pace says more than how they responded to your last rebuttal.",
-   "psychological_mechanism": "People can only hold a few things in mind while forming a reply, so a long run of claims tends to exceed what anyone can track. When one reply covers only part of the list, the gap may be taken as a personal failing. Audiences may also count claims rather than weigh them, and a long list can look more convincing simply because it is long.",
+   "psychological_mechanism": "People can only hold a few things in mind while forming a reply, so a long run of claims often goes past what anyone can track. When one reply covers only part of the list, the gap can be taken as a personal failing. Audiences may also count claims rather than weigh them, and a long list can look more convincing simply because it is long.",
    "possible_impact_on_receiver": "People describe feeling breathless, behind and slightly stupid after these exchanges, and replaying the conversation afterwards to find what they should have said. Some stop debating with the person. Others begin to doubt a position they had good reason to hold, only because they could not answer every point on the spot.",
    "response_options": {
     "soft_clarification": "Choose one claim and say so: 'There's a lot here. Let's take the one about the budget, and I'll answer that properly before we move on.'",
     "firm_boundary": "State that you will not be rushed: 'I'm going to answer one thing at a time. I won't be answering the rest on the spot, and that doesn't mean I agree.'",
-    "disengagement": "Stop replying to the list and tell them that you will return to the one or two points that seem most important to them, in writing.",
+    "disengagement": "Stop replying to the list. Tell them you will return, in writing, to the one or two points that seem most important to them.",
     "support_seeking": "Share the list with a friend or fact-checker and split the claims between you, so you can check them without carrying the whole load.",
-    "workplace_or_professional": "In a meeting, ask the chair to take one item at a time, and ask for the claims to be sent in writing with sources so they can be checked afterwards."
+    "workplace_or_professional": "In a meeting, ask the chair to take one item at a time. Ask for the claims to be sent in writing with sources so they can be checked afterwards."
    },
    "boundary_script": "\"That's more than I can answer well in one go. Pick the point you think matters most and I'll give it my full attention. Silence on the rest isn't agreement; it means I haven't had time to check it.\"",
-   "safety_note": "A Gish Gallop is an argument tactic and is not by itself a danger signal. It becomes one if the pace is joined by shouting, blocking your way out of a room, or demands that you not leave until you have answered everything. If a debate begins to feel physically unsafe, step out and tell someone where you are.",
+   "safety_note": "A Gish Gallop is an argument tactic, not a danger signal by itself. It becomes one if the fast pace is joined by shouting, blocking your way out of a room, or demands that you not leave until you have answered everything. If a debate starts to feel physically unsafe, step out and tell someone where you are.",
    "safety_sensitive": false,
    "misuse_warning": [
     "Calling every long or detailed argument a Gish Gallop can be a way of avoiding a case that has many real parts. Check whether the claims hold before using the label.",
-    "Accusing someone of galloping because you are losing the argument turns a description of a technique into a way to end the debate."
+    "If you accuse someone of galloping because you are losing the argument, you turn a description of a technique into a way to end the debate."
    ],
    "related_tactics": [
     "Priming / Narrative Seeding",
@@ -24779,7 +24779,7 @@
     "Authority Hijack",
     "Accountability Evasion via Diagnosis"
    ],
-   "how_to_distinguish_from_related": "Frame Control sets what the conversation is about, while a Gish Gallop does not choose a frame at all; it buries the real subject under a pile of claims. Priming / Narrative Seeding shapes a view in advance, quietly. A gallop is loud and happens in the moment. Credibility Theft discounts you as a witness to what happened, whereas a gallop leaves you unable to keep up in the moment.",
+   "how_to_distinguish_from_related": "Frame Control sets what the conversation is about. A Gish Gallop does not choose a frame at all. It buries the real subject under a pile of claims. Priming / Narrative Seeding shapes a view in advance, quietly. A gallop is loud and happens in the moment. Credibility Theft discounts you as a witness to what happened, whereas a gallop leaves you unable to keep up.",
    "detection_notes": "Not matched or scored by this tool. Pasted text cannot establish this concept — included in the Field Guide purely as a literacy reference.",
    "codex_maturity": "mature",
    "human_review_flags": [
@@ -24794,18 +24794,18 @@
    "branch": "reference",
    "category": "Confusion / rhetoric",
    "detectability_note": "This tool cannot establish this from pasted text at all. It is included for literacy only, so you can learn to recognize the concept — not as something this tool detects, scores, or flags.",
-   "core_meaning": "Admitting a smaller wrong or sharing part of the truth so the matter seems fully disclosed, while the larger part stays hidden.",
+   "core_meaning": "A limited hangout admits a smaller wrong or shares part of the truth so the matter seems fully disclosed, while the larger part stays hidden.",
    "aftermath_state": false,
    "forensic_only": false,
    "absorbs": [],
-   "short_definition": "Admitting a smaller wrong or sharing part of the truth so the matter seems fully disclosed, while the larger part stays hidden.",
-   "expanded_definition": "A limited hangout is a partial confession that works to end the questions. A person offers a real but smaller truth, often before being asked, and the admission makes further questions feel unfair: 'I already told you.' The phrase comes from the language of intelligence and politics, where an organization releases part of a story to contain the rest. In private life it can look like confessing the lesser secret. What marks it is the effect: the smaller admission is used to close the question.",
+   "short_definition": "A limited hangout admits a smaller wrong or shares part of the truth so the matter seems fully disclosed, while the larger part stays hidden.",
+   "expanded_definition": "A limited hangout is a partial confession that works to end the questions. A person offers a real but smaller truth, often before being asked. The admission makes further questions feel unfair: 'I already told you.' The phrase comes from the language of intelligence and politics, where an organization releases part of a story to contain the rest. In private life it can look like confessing the lesser secret. What marks it is the effect, because the smaller admission is used to close the question.",
    "plain_language_summary": "Someone owns up to a small part of what happened, in a way that makes you stop asking, while the bigger part stays unsaid.",
-   "why_this_matters": "You close the matter believing you now have the full picture, and the smaller admission is afterwards used as proof that there was nothing more to tell. When the rest surfaces, you may feel you should have known, and trust becomes harder.",
+   "why_this_matters": "You close the matter believing you now have the full picture. The smaller admission is afterwards used as proof that there was nothing more to tell. When the rest surfaces, you may feel you should have known, and trust becomes harder.",
    "what_it_is": [
     "A true disclosure that is chosen because it is less serious than what remains.",
     "Often offered first, before you ask, so that it looks like openness and sets the expected size of the problem.",
-    "Followed by a closing line such as 'that's everything' or 'I've been honest with you', which signals that questions are finished.",
+    "It is followed by a closing line such as 'that's everything' or 'I've been honest with you', which signals that questions are finished.",
     "Used as a shield later: 'I already admitted that, so why are you still bringing it up?'",
     "Found in couples, workplaces and organizations, wherever a person or group is deciding how much to tell."
    ],
@@ -24818,11 +24818,11 @@
     "\"Okay, yes, I spent some of it. Happy now?\""
    ],
    "what_it_is_not": [
-    "People often disclose in stages as they find the nerve, or because they genuinely do not yet know the full scope of what they did.",
+    "People often disclose in stages as they find the nerve. Or they genuinely do not yet know the full scope of what they did.",
     "Leading with the largest thing and filling in details later is a natural order, not a suspicious one.",
     "A person who tells you something small and truthful, and then answers every question you ask after that.",
     "A lawyer or manager who limits what they share for legal or privacy reasons and says so openly.",
-    "Keeping something private that is not your business, which is different from hiding something you are entitled to know."
+    "Keeping something private that is not your business is different from hiding something you are entitled to know."
    ],
    "this_may_be_it_when": [
     "The admission comes quickly and with a lot of detail about the smaller matter, but little on anything near it.",
@@ -24840,8 +24840,8 @@
    ],
    "innocent_or_ordinary_possibilities": [
     "Shame makes many people confess in pieces, starting with the part that feels most bearable.",
-    "A person may only discover the scale of a problem, like a debt or a mistake at work, after the first conversation.",
-    "Details come back to people over days, so a later addition can be a memory returning rather than a held-back fact."
+    "A person may only find out how big a problem is, like a debt or a mistake at work, after the first conversation.",
+    "Details come back to people over days, so a later addition can be a memory returning, not a held-back fact."
    ],
    "common_false_positives": [
     "A friend who admits a smaller lapse, then says honestly 'I wasn't ready to talk about the rest, but I will'.",
@@ -24871,23 +24871,23 @@
     "You feel relief after each disclosure, followed by a sinking feeling a week later.",
     "You start to check the story against records or other people, rather than taking the account as given."
    ],
-   "repair_check": "Repair means the rest comes out without being dragged out, and they accept that your trust will be slow to return. Offering another confession only when cornered, then asking you to be grateful for the honesty, means the pattern is still running in a different form.",
+   "repair_check": "Repair means the rest comes out without being dragged out. They also accept that your trust will be slow to return. If they confess again only when cornered, then ask you to be grateful for the honesty, the pattern is still running in a different form.",
    "boundary_respect_check": "Ask directly: 'Is there anything else connected to this that I should know now?' Watch the response. Calm, complete answers and offering to be checked point toward a real disclosure. Irritation that you are asking at all suggests the earlier admission is being treated as the end of the topic.",
-   "psychological_mechanism": "A confession carries a lot of moral weight, so people tend to treat it as the full amount owed and feel it would be unkind to keep asking. A smaller admission can also set an anchor, so that the later, larger fact seems like an add-on instead of the main event. Wanting the matter to be over can lead a person to accept the first account.",
+   "psychological_mechanism": "A confession carries a lot of moral weight, so people often treat it as the full amount owed and feel it would be unkind to keep asking. A smaller admission can also set an anchor, so the later, larger fact seems like an add-on instead of the main event. Wanting the matter to be over can lead a person to accept the first account.",
    "possible_impact_on_receiver": "People describe a sense of being managed, a double hurt when the rest emerges, and shame at having accepted the first account. Some say they now search for hidden things in every conversation, even with trustworthy people. Others describe feeling guilty for having pushed after an admission that seemed so brave.",
    "response_options": {
     "soft_clarification": "Acknowledge the admission, then keep the question open: 'Thank you for telling me that. I'd still like to know whether there is anything else connected to it.'",
     "firm_boundary": "Say you can accept a partial answer but cannot treat it as complete: 'I'll take what you've told me as a start. I'm not going to treat it as the whole story until I've asked what I need to.'",
     "disengagement": "Stop the conversation if the response to a follow-up is anger, and say you will return when they can answer your questions calmly.",
     "support_seeking": "Write down what you were told and when, and talk through the gaps with a friend or counselor who is not involved.",
-    "workplace_or_professional": "In an organization, ask in writing whether a disclosure is complete or interim, and request a date for any further release or review."
+    "workplace_or_professional": "In an organization, ask in writing whether a disclosure is complete or interim. Request a date for any further release or review."
    },
    "boundary_script": "\"That was worth telling me, and it did matter. I still have questions, and asking them isn't a sign that I didn't hear you. Can I ask them now?\"",
-   "safety_note": "A partial disclosure is mostly a trust issue. It deserves more care when the hidden part concerns your safety, health or money, such as an undisclosed debt, a health risk or a legal problem that touches you. In those cases, check records yourself, speak with a financial or legal adviser, and do not rely only on the account you were given.",
+   "safety_note": "A partial disclosure is mostly a trust issue. It deserves more care when the hidden part concerns your safety, health or money. Examples are an undisclosed debt, a health risk or a legal problem that touches you. In those cases, check records yourself, speak with a financial or legal adviser, and do not rely only on the account you were given.",
    "safety_sensitive": false,
    "misuse_warning": [
-    "Treating every gradual disclosure as a limited hangout punishes people for the way honesty often arrives, in pieces, and can discourage the next piece.",
-    "Telling someone 'this is just a limited hangout' to dismiss a real confession makes it harder for them to admit anything again."
+    "If you treat every gradual disclosure as a limited hangout, you punish people for the way honesty often arrives, in pieces. That can discourage the next piece.",
+    "Telling someone 'this is just a limited hangout' in order to dismiss a real confession makes it harder for them to admit anything again."
    ],
    "related_tactics": [
     "Priming / Narrative Seeding",
@@ -24897,7 +24897,7 @@
     "Authority Hijack",
     "Accountability Evasion via Diagnosis"
    ],
-   "how_to_distinguish_from_related": "Frame Control decides what the conversation is about, while a limited hangout accepts the topic and shrinks how much of it is on the table. Priming / Narrative Seeding sets up a view before the event, whereas this tactic arrives after, as a way of settling the story. Projection pins the speaker's own conduct on you, while a limited hangout simply tells a true piece and stops.",
+   "how_to_distinguish_from_related": "Frame Control decides what the conversation is about, while a limited hangout accepts the topic and shrinks how much of it is on the table. Priming / Narrative Seeding sets up a view before the event. This tactic arrives after, as a way of settling the story. Projection pins the speaker's own conduct on you, while a limited hangout simply tells a true piece and stops.",
    "detection_notes": "Not matched or scored by this tool. Pasted text cannot establish this concept — included in the Field Guide purely as a literacy reference.",
    "codex_maturity": "mature",
    "human_review_flags": [
@@ -24912,18 +24912,18 @@
    "branch": "reference",
    "category": "Confusion / rhetoric",
    "detectability_note": "This tool cannot establish this from pasted text at all. It is included for literacy only, so you can learn to recognize the concept — not as something this tool detects, scores, or flags.",
-   "core_meaning": "Using grand, technical or abstract language that sounds deep but explains little, so questioning it feels like admitting you are not clever enough.",
+   "core_meaning": "Pseudo-profundity uses grand, technical or abstract language that sounds deep but explains little, so questioning it seems like admitting you are not clever enough.",
    "aftermath_state": false,
    "forensic_only": false,
    "absorbs": [],
-   "short_definition": "Using grand, technical or abstract language that sounds deep but explains little, so questioning it feels like admitting you are not clever enough.",
+   "short_definition": "Pseudo-profundity uses grand, technical or abstract language that sounds deep but explains little, so questioning it seems like admitting you are not clever enough.",
    "expanded_definition": "Pseudo-profundity is the language: statements that sound deep but, looked at closely, say little or nothing. Intellectual intimidation is the effect: the listener feels too uninformed to ask what is meant. The two usually travel together. One dense sentence from an expert can be fine. What marks the pattern is that a request for plain words gets more fog, and your confusion is treated as your fault.",
-   "plain_language_summary": "Someone speaks in big, abstract words that sound impressive but never land on anything concrete, and you end up feeling too slow to question it.",
-   "why_this_matters": "You are left unable to challenge a conclusion you never understood, and you read your own confusion as a shortfall in yourself rather than in the explanation. Decisions about money, health or work may then be made on words nobody checked.",
+   "plain_language_summary": "Someone speaks in big, abstract words that sound impressive but never land on anything concrete. You end up feeling too slow to question it.",
+   "why_this_matters": "You are left unable to challenge a conclusion you never understood. You read your own confusion as a shortfall in yourself instead of in the explanation. Decisions about money, health or work may then be made on words nobody checked.",
    "what_it_is": [
     "Phrases built from abstract or technical terms that cannot be restated in everyday words without losing everything.",
     "Pseudo-profundity is the content side: the sentence has the feel of wisdom but no claim you could test.",
-    "Intellectual intimidation is the effect side: the way it is delivered makes a question feel like a confession of ignorance.",
+    "Intellectual intimidation is the effect side. The way it is delivered makes a question sound like a confession of ignorance.",
     "Reaching for more vocabulary, not less, when asked to explain.",
     "Found in meetings, sales pitches, consulting, classrooms, wellness talks, online threads and some close relationships."
    ],
@@ -24937,7 +24937,7 @@
     "Asked to say it simply, they reply with a longer sentence using the same words."
    ],
    "what_it_is_not": [
-    "Some subjects genuinely need specialist vocabulary, and real experts are frequently poor at translating what they know into plain language.",
+    "Some subjects genuinely need specialist vocabulary, and real experts are often poor at translating what they know into plain language.",
     "Asking for a simpler version usually separates them: genuine expertise can be restated, and hollow language cannot.",
     "A genuinely hard idea, such as a math proof or a legal doctrine, that takes time and effort to learn.",
     "Poetry, scripture or philosophy that is deliberately open-ended and does not claim to settle a factual question.",
@@ -24980,7 +24980,7 @@
     "Your confusion is met with patience, and the terms are defined as they go."
    ],
    "more_concerning_if": [
-    "A decision with real stakes, such as an investment or a medical or legal step, is being pushed through language you have been made to feel you cannot question.",
+    "A decision with real stakes, such as an investment or a medical or legal step, is being pushed through. The language used makes you feel you cannot question it.",
     "Doubt is described as a failing, or the speaker implies that people who ask are not smart enough to take part.",
     "Pressure to agree rises with the vagueness of the claim."
    ],
@@ -24993,20 +24993,20 @@
    "repair_check": "Repair means the idea gets stated plainly and, if it cannot be, they say so. The sign to look for is a speaker who can say 'let me try that again in simpler words' and mean it. A fresh round of equally abstract vocabulary offered as clarification has not repaired anything.",
    "boundary_respect_check": "Ask for one concrete example and see what comes back. A respectful answer gives a real case you can picture, or an honest admission that they cannot. Teasing you for needing an example, or implying that real understanding comes without one, signals that your request has not been taken seriously.",
    "psychological_mechanism": "Many people assume that difficult language reflects difficult thought, and that if you cannot follow, the fault is yours rather than the speaker's. Fear of looking foolish in front of others can silence questions, and nodding along then reads as agreement. Authority tends to be granted to whoever sounds most certain, whether or not the content holds up.",
-   "possible_impact_on_receiver": "People describe feeling stupid, agreeing out of embarrassment and later regretting it, and distrusting their own judgment about subjects they were perfectly able to follow. Some stopped attending meetings or groups. Others describe relief on realizing that the explanation, not they, was the problem.",
+   "possible_impact_on_receiver": "People describe feeling stupid. They describe agreeing out of embarrassment and later regretting it, and distrusting their own judgment about subjects they were perfectly able to follow. Some stopped attending meetings or groups. Others describe relief on realizing that the explanation, not they, was the problem.",
    "response_options": {
     "soft_clarification": "Ask for the idea in everyday words: 'Can you give me a plain example of what that looks like, say for someone starting out?'",
     "firm_boundary": "Hold your ground on the request: 'I'm not able to agree to something I can't explain back. I'll need it in simpler terms before I decide.'",
     "disengagement": "Put the decision on hold until you have an explanation you can follow, and say that you will not be answering in the meeting.",
-    "support_seeking": "Take the claim to someone who knows the field and ask them to translate it, or to say honestly whether there is anything behind it.",
-    "workplace_or_professional": "Ask for the proposal in writing in plain language, with the specific outcomes, costs and dates, before it goes to a vote or a signature."
+    "support_seeking": "Take the claim to someone who knows the field. Ask them to translate it, or to say honestly whether there is anything behind it.",
+    "workplace_or_professional": "Before it goes to a vote or a signature, ask for the proposal in writing in plain language, with the specific outcomes, costs and dates."
    },
    "boundary_script": "\"Please put it in plain words with one real example, so I can follow it properly. If it holds up, it will survive being said simply, and I will be glad to hear it.\"",
-   "safety_note": "The risk is greatest when the language is wrapped around money, health, legal or contract decisions, since a signature given in confusion is hard to undo. Before signing or paying, get an independent explanation from a lawyer, an adviser or someone with no stake in the outcome, and ask for time to think.",
+   "safety_note": "The risk is greatest when the language is wrapped around money, health, legal or contract decisions, since a signature given in confusion is hard to undo. Before signing or paying, get an independent explanation from a lawyer, an adviser or someone with no stake in the outcome. Ask for time to think.",
    "safety_sensitive": false,
    "misuse_warning": [
     "Calling any difficult language 'pseudo-profound' can be used to dodge ideas you simply have not yet understood. Check for a real attempt at an example first.",
-    "Using 'intellectual intimidation' against a person who is genuinely expert turns a request for clarity into an insult and makes experts less willing to explain."
+    "Using 'intellectual intimidation' against a genuine expert turns a request for clarity into an insult. It makes experts less willing to explain."
    ],
    "related_tactics": [
     "Priming / Narrative Seeding",
@@ -25016,7 +25016,7 @@
     "Authority Hijack",
     "Accountability Evasion via Diagnosis"
    ],
-   "how_to_distinguish_from_related": "Authority Hijack claims the right to tell you what your own experience means, while this tactic makes no claim about you; its fog leaves you unable to assess the idea. Credibility Theft damages your standing as a witness, where this damages your confidence as a questioner. Frame Control picks the topic, and here the topic is open but unanswerable.",
+   "how_to_distinguish_from_related": "Authority Hijack claims the right to tell you what your own experience means. This tactic makes no claim about you, and its fog leaves you unable to assess the idea. Credibility Theft damages your standing as a witness, where this damages your confidence as a questioner. Frame Control picks the topic, and here the topic is open but unanswerable.",
    "detection_notes": "Not matched or scored by this tool. Pasted text cannot establish this concept — included in the Field Guide purely as a literacy reference.",
    "codex_maturity": "mature",
    "human_review_flags": [

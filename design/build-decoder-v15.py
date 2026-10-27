@@ -363,7 +363,9 @@ def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--selftest", action="store_true", help="prove the pre-compile gate rejects bad input, then exit")
     ap.add_argument("--out", default=os.path.join(ROOT, "instruments", "playbook", "_undeployed", "v15", "index.html"))
+    ap.add_argument("--draft", action="store_true", help="design iteration only: skip the content validator and write draft.html beside the build; never deploy this file")
     a = ap.parse_args()
+    if a.draft: a.out = os.path.join(os.path.dirname(a.out), "draft.html")
     entries, by, recipes, aliases, narrow, feelings, feeling_groups, stop, common = assemble()
 
     groups = [(k, l, b) for k, l, b in v10.GROUPS if any(e["g"] == k for e in entries)]
@@ -419,7 +421,7 @@ def main():
             .replace("{{BEACON}}", read(A10, "beacon.html")))
     if a.selftest:
         sys.exit(selftest(entries, recipes, html))
-    problems = run_gate(entries, recipes, html)
+    problems = run_gate(entries, recipes, html, with_validator=not a.draft)
     if problems:
         print(f"PRE-COMPILE GATE FAILED ({len(problems)} problems). Nothing was written.")
         for x in problems[:25]: print("  -", x)

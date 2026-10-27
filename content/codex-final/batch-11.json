@@ -99,15 +99,15 @@
     "core_meaning": "Giving someone an interpretation of a person or event before they see it themselves, so what they notice afterward fits that view."
   },
   "Credibility Theft": {
-    "short_definition": "Casting doubt on someone's reliability in advance, so whatever they later report is heard as doubtful before they have said it.",
-    "expanded_definition": "Credibility theft works on the audience, not on the argument. Remarks about someone's memory, mood, honesty or habit of exaggerating are placed with people who have not yet heard their account: relatives, coworkers, a manager, a school. When the account arrives, it is weighed against the reputation instead of the facts. Doubting a single claim is not this. The pattern is doubt about the person, spread early and widely, without any specific claim being named.",
+    "short_definition": "Credibility theft casts doubt on someone's reliability in advance, so whatever they later report is heard as doubtful before they have said it.",
+    "expanded_definition": "Credibility theft works on the audience, not on the argument. Remarks about someone's memory, mood, honesty or habit of exaggerating are placed with people who have not yet heard their account. These might be relatives, coworkers, a manager or a school. When the account arrives, it is weighed against the reputation instead of the facts. Doubting a single claim is not this. The pattern is doubt about the person, spread early and widely, without any specific claim being named.",
     "plain_language_summary": "Before you say a word, others have been told you exaggerate or get confused. So what you report is doubted before you even speak.",
-    "why_this_matters": "Your account is discounted before you give it, so whatever you later report meets people who have already been prepared not to believe it, and you may never find out why. Asking for help becomes hardest exactly when you most need it.",
+    "why_this_matters": "Your account is discounted before you give it. Whatever you later report meets people who have already been prepared not to believe it, and you may never find out why. Asking for help becomes hardest exactly when you most need it.",
     "what_it_is": [
-      "Remarks about your reliability that reach other people before your own account does, such as 'she remembers things her own way.'",
-      "Aimed at the person, not a claim: no particular statement is named as wrong, only that you are the kind of person who gets things wrong.",
-      "Often built on real moments of weakness, such as a tearful day, an old mistake or a diagnosis, offered as proof you cannot be relied on.",
-      "Found in family group chats, workplaces, schools, custody and housing disputes, and wherever someone will later decide whose account to believe.",
+      "Remarks about your reliability reach other people before your own account does, such as 'she remembers things her own way.'",
+      "It is aimed at the person, not at a claim. No particular statement is named as wrong. The message is only that you are the kind of person who gets things wrong.",
+      "Often built on real moments of weakness, such as a tearful day, an old mistake or a diagnosis. These are offered as proof you cannot be relied on.",
+      "Found in family group chats, workplaces, schools, and custody and housing disputes. It can show up wherever someone will later decide whose account to believe.",
       "Different from Gaslighting, which works on your trust in your own memory; this works on other people's trust in you."
     ],
     "what_it_sounds_like": [
@@ -120,7 +120,7 @@
       "A relative tells the others, 'She'll probably bring that up again, just be kind about it.'"
     ],
     "what_it_is_not": [
-      "A documented record of inaccuracy reasonably affects how much weight an account carries, and doubting one particular claim is not a campaign. The separation is between doubt about a claim and doubt installed in advance about the person.",
+      "A documented record of inaccuracy reasonably affects how much weight an account carries, and doubting one particular claim is not a campaign. The difference is between doubt about a claim and doubt planted in advance about the person.",
       "A colleague saying 'I'm not sure about that date, can we check the email?'",
       "Mutual wariness between two people who have each been caught out before.",
       "A private word to you, from someone who cares, that you seem overwhelmed lately.",
@@ -160,7 +160,7 @@
     ],
     "less_concerning_if": [
       "The doubt is limited to one claim and is settled by looking at the evidence.",
-      "Everyone's accounts get checked, not only yours.",
+      "Every account gets checked, whoever gives it.",
       "You can learn what has been said about you, and you are given the chance to respond."
     ],
     "more_concerning_if": [
@@ -174,16 +174,16 @@
       "You begin to leave out things you know to be true because you expect not to be believed.",
       "More and more, you need a witness or a document before anyone will take you seriously."
     ],
-    "repair_check": "Repair would mean going back to the people who were given the doubt and correcting what they were told, naming what was fact and what was opinion. An apology made only to you, with the earlier remarks left standing among everyone else, has not reached where the damage is.",
+    "repair_check": "Repair would mean going back to the people who were given the doubt and correcting what they were told. It would name what was fact and what was opinion. An apology made only to you, with the earlier remarks left standing among everyone else, has not reached where the damage is.",
     "boundary_respect_check": "Ask to know who has been told what, and watch whether you get an answer. A response that names the people and the words, and stops there, is a response to your request. A response that questions why you want to know is a response to something else.",
-    "psychological_mechanism": "People often judge a report by the reputation of whoever makes it, since checking every claim takes effort. An early remark about unreliability hands listeners a shortcut: they can disbelieve without examining. It tends to work better when it contains something true, like a bad week, and comes from someone the listener already trusts. The person it describes may begin to doubt themselves too.",
+    "psychological_mechanism": "People often judge a report by the reputation of whoever makes it, since checking every claim takes effort. An early remark about unreliability hands listeners a shortcut, because they can disbelieve without examining. It often works better when it contains something true, like a bad week, and comes from someone the listener already trusts. The person it describes may begin to doubt themselves too.",
     "possible_impact_on_receiver": "People describe being met with polite doubt when they report something important, and learning later what had been said. Some hold back reports, over-prepare evidence, or avoid the people who may have heard the remarks. A lonely sense of being right and unheard is also reported, along with exhaustion at having to prove ordinary things.",
     "response_options": {
       "soft_clarification": "Ask a trusted colleague what they have heard, and write down the answer afterward, rather than confronting the person who may be saying it.",
       "firm_boundary": "Ask to be heard on the facts: 'Please judge what I'm reporting by the evidence, not by what you've heard about me. I can show you the messages.'",
       "disengagement": "Stop trying to win each doubter over one at a time. Put your account in writing, with dates, and let the record speak where conversation cannot.",
       "support_seeking": "Tell one person who knew you before this began what has been said, and ask whether it matches how they know you. Their answer helps you test the doubt you may have absorbed.",
-      "workplace_or_professional": "At work, keep a dated file of what you reported and what happened, and ask HR or a union representative how to put your concerns on record. Quiet documentation counts for more than an argument."
+      "workplace_or_professional": "At work, keep a dated file of what you reported and what happened. Ask HR or a union representative how to put your concerns on record. Quiet documentation counts for more than an argument."
     },
     "boundary_script": "\"I'd like what I report to be looked at on its own facts. I have messages and dates for it. Could we go through them together, or could someone else look at them with us?\"",
     "safety_sensitive": true,
@@ -192,14 +192,14 @@
       "Anyone whose account was doubted can feel this has happened to them. A record of real errors reasonably lowers trust, and using the label to wave that record away turns it around.",
       "Confronting the people who repeated the remarks as if they had planned them can look like one more attempt to discredit someone. Check what was actually said, and by whom, before you describe it."
     ],
-    "how_to_distinguish_from_related": "Gaslighting works on your own trust in your memory, in private; Credibility Theft works on other people's trust in you, usually out of your hearing. Priming / Narrative Seeding sets any interpretation before an encounter, while this one targets your reliability as a witness. Identity Diminishment via Pathologizing relies on clinical labels; this tactic needs no label at all, only the suggestion that you are not to be taken at your word.",
-    "core_meaning": "Casting doubt on someone's reliability in advance, so whatever they later report is heard as doubtful before they have said it."
+    "how_to_distinguish_from_related": "Gaslighting works on your own trust in your memory, in private. Credibility Theft works on other people's trust in you, usually out of your hearing. Priming / Narrative Seeding sets any interpretation before an encounter, while this one targets your reliability as a witness. Identity Diminishment via Pathologizing relies on clinical labels. This tactic needs no label at all, only the suggestion that you are not to be taken at your word.",
+    "core_meaning": "Credibility theft casts doubt on someone's reliability in advance, so whatever they later report is heard as doubtful before they have said it."
   },
   "Projection": {
     "short_definition": "Charging someone with a behavior or motive that the exchange shows more clearly in the person making the charge.",
-    "expanded_definition": "A classic idea in psychology is that people can attribute their own feelings or impulses to someone else, often without realizing it. In everyday conflict this looks like an accusation that fits the accuser better than the accused: 'You're so controlling' said in the middle of a list of instructions. It does not show what anyone meant, and people can do it unknowingly. One mismatch is ordinary. The pattern is a repeated one, where the charges track whatever you just pointed out.",
+    "expanded_definition": "A classic idea in psychology is that people can attribute their own feelings or impulses to someone else, often without realizing it. In everyday conflict this looks like an accusation that fits the accuser better than the accused, such as 'You're so controlling' said in the middle of a list of instructions. It does not show what anyone meant, and people can do it unknowingly. One mismatch is ordinary. The pattern is a repeated one, where the charges track whatever you just pointed out.",
     "plain_language_summary": "You say something is happening, and you are told you are the one doing it, even though the record fits the other person more.",
-    "why_this_matters": "You spend the conversation defending yourself against the very thing you came to name, which makes the source of the harm hard to see, and harder to describe to anyone else. The conflict ends in a tie instead of an answer.",
+    "why_this_matters": "You spend the conversation defending yourself against the very thing you came to name. That makes the source of the harm hard to see, and harder to describe to anyone else. The conflict ends in a tie instead of an answer.",
     "what_it_is": [
       "An accusation that hands your complaint back in nearly the same words: 'You never listen' answered with 'No, you never listen.'",
       "Often arrives right after you name a behavior, not at some random time.",
@@ -217,7 +217,7 @@
       "An email answers your note about missed deadlines with a list of deadlines you supposedly missed, none of them dated."
     ],
     "what_it_is_not": [
-      "An accusation can be accurate even when it also describes the accuser, and in most conflicts both people contribute some of the same behavior. Someone naming a pattern they share, and owning their half, is doing the opposite.",
+      "An accusation can be accurate even when it also describes the accuser, and in most conflicts both people contribute some of the same behavior. Someone who names a pattern they share and owns their half is doing the opposite.",
       "A counter-complaint that is specific, dated and checkable, even if it is uncomfortable to hear.",
       "A genuine mirror, where both of you do the thing and each can see it.",
       "A flash of defensiveness that the person admits an hour later.",
@@ -277,7 +277,7 @@
     "response_options": {
       "soft_clarification": "Acknowledge what might be true, then go back to your point: 'I might do that sometimes. I'd still like to talk about what happened on Tuesday.'",
       "firm_boundary": "Keep to one thing at a time: 'Let's finish my concern, then I will listen to yours properly and give it the same time.'",
-      "disengagement": "When the same words keep coming back to you, stop trading charges and move to something written, where wording cannot be echoed back in the moment.",
+      "disengagement": "When the same words keep coming back to you, stop trading charges. Move to something written, where wording cannot be echoed back in the moment.",
       "support_seeking": "Describe the exchange to someone who knows you both and ask whether the charge sounds like you. Check it on a calm day, not in the middle of an argument.",
       "workplace_or_professional": "Keep the facts in a dated email: what happened, when, and what you are asking for. A reply that engages with it, or one that charges you back, becomes part of the record."
     },
@@ -285,16 +285,16 @@
     "safety_sensitive": false,
     "safety_note": "Having your concern turned back on you is a communication problem. It changes when the charges against you are used to justify checking your phone, controlling your movements or limiting your money. It also changes when you start to fear the reaction to naming anything. If so, write down specifics privately and speak to a counselor or advocate outside the relationship.",
     "misuse_warning": [
-      "Saying 'you're projecting' to someone's honest complaint is itself the move described in Pseudo-Insight as Shutdown: it ends the conversation instead of describing it.",
+      "Saying 'you're projecting' to someone's honest complaint is itself the move described in Pseudo-Insight as Shutdown. It ends the conversation instead of describing it.",
       "The word names an accusation that fits the accuser, which you can only judge from the record. Using it because a charge stung is not enough."
     ],
-    "how_to_distinguish_from_related": "Blame-Shifting moves responsibility for an event onto you, while projection hands you a specific trait or motive, often the one you just named. DARVO packs a denial, an attack and a role reversal together; projection can be only the echo. Pseudo-Insight as Shutdown uses psychological-sounding terms to stop the talk, whereas projection keeps the talk going, in a circle.",
+    "how_to_distinguish_from_related": "Blame-Shifting moves responsibility for an event onto you, while projection hands you a specific trait or motive, often the one you just named. DARVO packs a denial, an attack and a role reversal together. Projection can be only the echo. Pseudo-Insight as Shutdown uses psychological-sounding terms to stop the talk, whereas projection keeps the talk going, in a circle.",
     "core_meaning": "Charging someone with a behavior or motive that the exchange shows more clearly in the person making the charge."
   },
   "Authority Hijack": {
-    "short_definition": "Insisting you know what another person really feels, thinks or meant better than they do, and treating their own account as the thing to be corrected.",
-    "expanded_definition": "Authority Hijack is a claim to be the expert on someone else's inner life: 'You don't really feel that', 'What you actually mean is...' The disagreement stops being about what happened and becomes about who is allowed to know what you feel. A friend offering a different reading is not this, since you can decline it. The pattern is when your account is always the one up for correction and theirs never is.",
-    "plain_language_summary": "Someone tells you what you really feel or mean, and your own explanation of your own mind is treated as the thing that needs fixing.",
+    "short_definition": "Authority Hijack insists it knows what another person really feels, thinks or meant better than they do, and treats their own account as the thing to correct.",
+    "expanded_definition": "Authority Hijack is a claim to be the expert on someone else's inner life, like 'You don't really feel that' or 'What you actually mean is...' The argument stops being about what happened. It becomes about who is allowed to know what you feel. A friend offering a different reading is not this, since you can decline it. The pattern is when your account is always the one up for correction and theirs never is.",
+    "plain_language_summary": "Someone tells you what you really feel or mean, and treats your own explanation of your own mind as the thing that needs fixing.",
     "why_this_matters": "You end up arguing the case for your own feelings, and simply being taken at your word is no longer on offer. Over time you may start checking your inner states against someone else's reading before you trust them.",
     "what_it_is": [
       "A statement about your inner state made as fact: 'You're not angry, you're jealous.'",
@@ -313,7 +313,7 @@
       "A supervisor's feedback form lists your 'real motivation' for a decision you explained in writing."
     ],
     "what_it_is_not": [
-      "People who know you well sometimes offer a reading you had not considered, and in therapy that questioning is invited, not imposed; a clarifying question is not a counter-claim. The difference is whether your own account is still allowed to be the last word.",
+      "People who know you well sometimes offer a reading you had not considered. In therapy that questioning is invited, not imposed. A clarifying question is not a counter-claim. The difference is whether your own account is still allowed to be the last word.",
       "A friend saying 'I wonder if you're more tired than angry' and then accepting 'no, I'm angry.'",
       "Someone noticing your behavior has changed and asking what is going on.",
       "A guess at your mood from a visible sign, such as asking if you are cold when you are shivering.",
@@ -369,14 +369,14 @@
     ],
     "repair_check": "Repair looks like a reading becoming a question and staying one: 'Is it more this, or that?' followed by accepting your answer. Apologizing once for 'assuming' and then telling you your real motive again next week is the same claim in new clothes.",
     "boundary_respect_check": "Try stating what you feel in one short sentence, then stop. Watch who gets the last word. If your sentence stands, your boundary was heard. If it gets a second sentence explaining what you really mean, it was not.",
-    "psychological_mechanism": "Few of us have perfect access to our own motives, so a confident outside reading can sound plausible. When it comes from someone close or with standing, such as a parent, partner or boss, it can be easier to adopt than to resist. Repeated, it can teach a person to look to others for the answer to what they feel.",
+    "psychological_mechanism": "Few of us have perfect access to our own motives, so a confident outside reading can sound plausible. When it comes from someone close or with standing, such as a parent, partner or boss, it can be easier to adopt than to resist. Repeated often, it can teach a person to look to others for the answer to what they feel.",
     "possible_impact_on_receiver": "People describe being unable to say what they feel without it being corrected, and then feeling unsure of the feeling itself. Some become guarded and share less. Some say they began asking others what they must be feeling, which they later found disorienting. There can also be a flat anger at not being believed about their own mind.",
     "response_options": {
       "soft_clarification": "Give your account once, plainly: 'I do feel angry. I'm telling you how it is for me.'",
       "firm_boundary": "Mark where the authority sits: 'You can tell me how it looks from outside, but what I feel is mine to say.'",
-      "disengagement": "If your feelings keep being corrected, share them less in that setting and keep them where you can hear them clearly, such as a journal or a friend.",
+      "disengagement": "If your feelings keep being corrected, share them less in that setting. Keep them where you can hear them clearly, such as a journal or a friend.",
       "support_seeking": "Say your feeling aloud to someone with no stake and notice whether it sounds true to you in their company. Being listened to helps you hear yourself.",
-      "workplace_or_professional": "At work, put your reasons for a decision in writing, in your own words, so a manager's later account of your 'real motive' can be set beside it."
+      "workplace_or_professional": "At work, put your reasons for a decision in writing, in your own words. Then a manager's later account of your 'real motive' can be set beside it."
     },
     "boundary_script": "\"If you're curious what I feel, ask me and I'll tell you. I'm not looking for a reading of it. What I've told you is what's true for me.\"",
     "safety_sensitive": false,
@@ -385,11 +385,11 @@
       "Saying 'you can't know what I feel' to shut down any honest observation turns a defense into a wall. Others sometimes see patterns you cannot, and you can listen without agreeing.",
       "Using the label for anyone who offers an interpretation can hurt people who are trying to help."
     ],
-    "how_to_distinguish_from_related": "Emotional Invalidation tells you your feeling is wrong or too much; Authority Hijack tells you that you do not have the feeling you say you have. Gaslighting disputes what happened, while this one disputes what is going on inside you. Credibility Theft works on how others see your reliability, where this one works on how you are told to see yourself.",
-    "core_meaning": "Insisting you know what another person really feels, thinks or meant better than they do, and treating their own account as the thing to be corrected."
+    "how_to_distinguish_from_related": "Emotional Invalidation tells you your feeling is wrong or too much. Authority Hijack tells you that you do not have the feeling you say you have. Gaslighting disputes what happened, while this one disputes what is going on inside you. Credibility Theft works on how others see your reliability. This one works on how you are told to see yourself.",
+    "core_meaning": "Authority Hijack insists it knows what another person really feels, thinks or meant better than they do, and treats their own account as the thing to correct."
   },
   "Accountability Evasion via Diagnosis": {
-    "short_definition": "Answering a complaint about someone's conduct by suggesting the complainant has a condition, so the complaint is treated as a symptom.",
+    "short_definition": "Accountability evasion via diagnosis answers a complaint about someone's conduct by suggesting the complainant has a condition, so the complaint is treated as a symptom.",
     "expanded_definition": "A complaint is raised, such as a missed diagnosis, a harsh remark or an unsafe workplace. The reply does not say whether it happened. It turns to the complainant: perhaps you are anxious, or stressed, or should talk to someone. Concern for your wellbeing can be genuine. What marks this pattern is where the matter ends: the diagnosis becomes the answer, and the complaint is never examined. It appears in families, workplaces, schools, clinics and services.",
     "plain_language_summary": "You say something went wrong, and the reply is that maybe something is wrong with you, so what you reported never gets looked at.",
     "why_this_matters": "The complaint is never answered. It is converted into a symptom, and you are sent to seek help for a reaction to someone else's conduct. What happened stays unexamined, and you carry both the harm and the label.",
@@ -410,7 +410,7 @@
       "A school letter on your report of bullying discusses your child's 'sensitivities' and says nothing about the incident."
     ],
     "what_it_is_not": [
-      "A real condition can be part of the picture, and someone qualified raising it with care is doing their job. The question is whether the original report ever gets answered by anybody, or whether the diagnosis is where the matter ends.",
+      "A real condition can be part of the picture, and someone qualified who raises it with care is doing their job. The question is whether anybody ever answers the original report, or whether the diagnosis is where the matter ends.",
       "A manager who offers support resources and also investigates your complaint.",
       "A person who tells you they are worried about your sleep because they noticed you are not sleeping.",
       "A clinician explaining a diagnosis you asked about.",
@@ -433,12 +433,12 @@
     ],
     "innocent_or_ordinary_possibilities": [
       "Distress and a real complaint often go together, and a caring person may attend to the distress first.",
-      "Staff are often trained to offer wellbeing resources whenever someone is upset, without any plan to sidestep the issue.",
+      "Staff are often trained to offer wellbeing resources whenever someone is upset, with no plan to sidestep the issue.",
       "People afraid of conflict may reach for a soft-sounding suggestion because they do not know what else to say."
     ],
     "common_false_positives": [
       "A family doctor asking about your mood during an appointment about something else.",
-      "A workplace policy that sends everyone who files a complaint a list of support services, alongside the investigation.",
+      "A workplace policy that sends a list of support services to everyone who files a complaint, alongside the investigation.",
       "A relative who notices you have seemed low and says so, before any complaint exists."
     ],
     "discernment_questions": [
@@ -456,7 +456,7 @@
     "more_concerning_if": [
       "A diagnosis is entered in a file or shared with others in response to a complaint.",
       "Your complaint is dropped on the grounds of your state, with no review.",
-      "Access to something you depend on, such as a role, placement or service, is made to depend on accepting the referral."
+      "Something you depend on, such as a role, placement or service, is only kept if you accept the referral."
     ],
     "pattern_over_time_signs": [
       "Each new complaint is answered with a new concern about you.",
@@ -464,25 +464,25 @@
       "People who have heard about your complaint also mention your health.",
       "You begin holding back reports to avoid the next suggestion of treatment."
     ],
-    "repair_check": "Your complaint gets looked at on its own terms, with a written outcome, and any concern for your wellbeing is offered separately and without conditions. A sincere 'we're sorry you're upset' with no review of what you reported leaves the matter where it began.",
+    "repair_check": "Your complaint gets looked at on its own terms, with a written outcome. Any concern for your wellbeing is offered separately and without conditions. A sincere 'we're sorry you're upset' with no review of what you reported leaves the matter where it began.",
     "boundary_respect_check": "Ask for the two things separately: help for you if you want it, and an answer on your complaint. Notice whether the second is quietly folded into the first. If an answer to your complaint arrives, with reasons, your request was heard.",
     "psychological_mechanism": "People tend to treat concern for their wellbeing as kindness, and objecting to kindness feels ungracious. A clinical-sounding word can also make a complaint look like evidence of the speaker's state, so it gets weighed less. Over time the person may question whether their reaction was proportionate and drop the complaint themselves.",
     "possible_impact_on_receiver": "People describe feeling dismissed and then guilty for being angry about it. Some withdraw the complaint, avoid the service or workplace, or begin to treat their own distress as the real problem. A lasting wariness about asking for help can follow, even when they need it.",
     "response_options": {
       "soft_clarification": "Separate the two: 'I appreciate the concern, and I'd like to look at what happened. Can you tell me how my complaint will be reviewed?'",
       "firm_boundary": "Ask for a written answer: 'Please respond to the complaint itself, in writing, with what was found.'",
-      "disengagement": "If a referral is offered in place of a review, set it aside for now and say you will take it up separately and by choice.",
-      "support_seeking": "Take your account to someone outside the system, such as an independent patient advocate, an ombudsman (an independent complaints officer) or a union representative, who can help press for a response on the facts.",
+      "disengagement": "If a referral is offered in place of a review, set it aside for now. Say you will take it up separately and by choice.",
+      "support_seeking": "Take your account to someone outside the system, such as an independent patient advocate, an ombudsman (an independent complaints officer) or a union representative. They can help press for a response on the facts.",
       "workplace_or_professional": "Put the complaint in writing, with dates, to a named person, and keep a copy. If it is answered with comments about your health, note that and ask for the outcome in writing."
     },
     "boundary_script": "\"I'm glad you care about how I'm doing, and I'll take that up separately. What I'd like now is an answer to the complaint itself: what happened on the fourteenth, and what will be done about it.\"",
     "safety_sensitive": true,
-    "safety_note": "This can sit next to real stakes: a diagnosis written in a file can affect work, housing, a care placement or custody. Watch for a label being recorded or shared, for help being made a condition of keeping a role or place, and for pressure toward treatment you did not ask for. Ask for copies of what is recorded, and reach an ombudsman, patient advocate, union representative or legal aid service.",
+    "safety_note": "This can sit next to real stakes. A diagnosis written in a file can affect work, housing, a care placement or custody. Watch for a label being recorded or shared, for help being made a condition of keeping a role or place, and for pressure toward treatment you did not ask for. Ask for copies of what is recorded, and reach an ombudsman, patient advocate, union representative or legal aid service.",
     "misuse_warning": [
       "Not every suggestion to seek help is an evasion. Treating kind concern as an attack can cost you real support.",
       "Saying a clinician is dodging accountability because they raised a diagnosis can shut out appropriate care. The test is whether your complaint was answered."
     ],
-    "how_to_distinguish_from_related": "Identity Diminishment via Pathologizing turns your everyday limits and reactions into signs of a disorder; this one shows up at the moment of a complaint and ends it. Pseudo-Insight as Shutdown uses psychological terms like 'projecting' in a quarrel, whereas this uses a diagnosis-style reply, often in an institution, so that no review follows. Frame Assassination swaps the topic to your character; here it is swapped to your condition, and a referral becomes the outcome.",
-    "core_meaning": "Answering a complaint about someone's conduct by suggesting the complainant has a condition, so the complaint is treated as a symptom."
+    "how_to_distinguish_from_related": "Identity Diminishment via Pathologizing turns your everyday limits and reactions into signs of a disorder. This one shows up at the moment of a complaint and ends it. Pseudo-Insight as Shutdown uses psychological terms like 'projecting' in a quarrel, whereas this uses a diagnosis-style reply, often in an institution, so that no review follows. Frame Assassination swaps the topic to your character. Here it is swapped to your condition, and a referral becomes the outcome.",
+    "core_meaning": "Accountability evasion via diagnosis answers a complaint about someone's conduct by suggesting the complainant has a condition, so the complaint is treated as a symptom."
   }
 }
