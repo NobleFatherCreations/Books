@@ -190,16 +190,16 @@
     "how_to_distinguish_from_related": "Algorithmic Manipulation tunes your feed from what you click and watch. This one reads the body and voice itself. Dark Patterns (AI-Adaptive) shape the layout and choices on screen, but here the lever is a hidden reading of how you feel in the moment. Immersive Manipulation (VR/AR) builds a convincing environment around you. This one needs no environment at all, only a sensor pointed at you."
   },
   "Epistemic Coercion via AI": {
-    "short_definition": "Pushing people to depend on an AI system's framing of the facts while wearing down their confidence in checking, questioning or reasoning for themselves.",
-    "core_meaning": "Pushing people to depend on an AI system's framing of the facts while wearing down their confidence in checking, questioning or reasoning for themselves.",
-    "expanded_definition": "People increasingly ask AI chat tools to explain, summarize and decide. Using a good source is normal. The concern is a setup in which one system's framing becomes the only one on offer, doubts are brushed aside, and checking elsewhere is made to seem pointless or foolish. One confident wrong answer means little, since every source makes mistakes. The pattern is a steady drift in which your own reasoning and your habit of cross-checking fade because the system always sounds sure.",
+    "short_definition": "Steering people to lean on one AI system's version of the facts until they stop trusting their own checking and reasoning.",
+    "core_meaning": "Steering people to lean on one AI system's version of the facts until they stop trusting their own checking and reasoning.",
+    "expanded_definition": "More and more people ask AI chat tools to explain, summarize and decide. Using a good source is normal. The worry is a setup where one system's version is the only one on offer, doubts get brushed aside, and checking elsewhere is made to look pointless or foolish. One confident wrong answer means little, since every source makes mistakes. What matters is a slow drift. Your own reasoning and your habit of cross-checking fade because the system always sounds sure.",
     "plain_language_summary": "An AI tool becomes the only voice you trust about what is true. Its smooth confidence makes checking elsewhere, or trusting yourself, feel pointless.",
-    "why_this_matters": "Confidence in your own reasoning erodes when every question is answered fluently by something that never sounds unsure. The habit of checking elsewhere quietly lapses, and the system's picture of the world becomes yours without a moment of choosing it.",
+    "why_this_matters": "When every question gets a smooth answer from something that never sounds unsure, your confidence in your own reasoning wears away. The habit of checking elsewhere quietly lapses. Then the system's picture of the world becomes yours, and you never chose it.",
     "what_it_is": [
       "A system that answers in a confident tone about matters that are really disputed, uncertain or beyond what it knows.",
       "A framing that is the same every time, so that alternatives never appear in the conversation.",
       "Responses that treat your doubts as confusion to be fixed rather than as questions worth examining.",
-      "A tool placed so that it stands between you and other sources, such as the first and only answer in a search, app or workplace system.",
+      "A tool placed between you and other sources, like the first and only answer in a search, app or workplace system.",
       "A gradual process: reliance builds across many small exchanges instead of one dramatic push."
     ],
     "what_it_sounds_like": [
@@ -211,11 +211,11 @@
       "You catch yourself asking it questions you used to be able to answer or look up."
     ],
     "what_it_is_not": [
-      "A tool that is genuinely useful and usually right will be relied on, and leaning on a good source is not dependence. Worth distinguishing: a system that shows its reasoning and its uncertainty, versus one whose framing is the only one ever on offer.",
+      "A tool that is truly useful and usually right will be relied on, and leaning on a good source is not dependence. Compare two kinds: a system that shows its reasoning and its uncertainty, and one whose version is the only one ever on offer.",
       "An AI that is wrong sometimes, which is a quality problem and not coercion.",
       "A teacher or expert giving a firm answer on a settled matter.",
       "Choosing a trusted assistant for convenience while still verifying important claims.",
-      "A model's default confident writing style, which can sound sure without anyone having designed it to shut down questions."
+      "A model's usual confident writing style, which can sound sure even though nobody designed it to shut down questions."
     ],
     "this_may_be_it_when": [
       "The system discourages checking other sources or presents doing so as unnecessary.",
@@ -264,37 +264,37 @@
       "Your wording starts to echo the system's phrasing and framing.",
       "Friends or coworkers note that you seem to quote the tool where you once offered your own view."
     ],
-    "repair_check": "A provider who took this seriously would add visible uncertainty, show sources, and make outside checking easy and expected. A small-print disclaimer above the same unwavering tone changes nothing about how the answers land.",
+    "repair_check": "A provider who took this seriously would show uncertainty openly, name sources, and make outside checking easy and expected. A disclaimer in small print above the same unwavering tone changes nothing about how the answers land.",
     "boundary_respect_check": "Do you get a fair hearing when you say you intend to verify a claim elsewhere? A system or institution that welcomes that, or at least does not react, respects your reasoning. Pressure, penalties or sudden reassurance in return suggest the framing was meant to be final.",
-    "psychological_mechanism": "Fluent, confident language is often read as a sign of knowledge. When a source rarely hedges and answers instantly, checking it can seem like wasted effort, and the habit of cross-checking may wane. Repeated exposure to one framing can also make it seem like common sense, and where the tool is hard to avoid there is no easy comparison.",
-    "possible_impact_on_receiver": "People describe becoming less sure of their own judgment, feeling anxious when they cannot ask the tool, and struggling to explain a view that is really the system's. Some describe a jolt when they discover a confident answer was wrong, and some feel quietly relieved by the reliance until they notice what it has replaced.",
+    "psychological_mechanism": "Smooth, confident language is often taken as a sign of knowledge. A source that rarely hedges and answers instantly makes checking look like wasted effort, so the habit of cross-checking may fade. Hearing one version again and again can also turn it into common sense. Where the tool is hard to avoid, there is no easy way to compare.",
+    "possible_impact_on_receiver": "Some people become less sure of their own judgment. They may feel anxious when they cannot ask the tool, or struggle to explain a view that is really the system's. Others describe a jolt on finding out a confident answer was wrong. A few feel quietly relieved by the reliance until they notice what it has replaced.",
     "response_options": {
       "soft_clarification": "Ask the tool to show its sources and say what it is unsure about. Then compare one answer with an outside source and note whether the two agree.",
-      "firm_boundary": "Keep a short list of questions you will always check elsewhere, such as health, money, legal and voting matters, and do it every time regardless of how sure the tool sounds.",
+      "firm_boundary": "Keep a short list of questions you will always check elsewhere, like health, money, legal and voting matters. Do it every time, however sure the tool sounds.",
       "disengagement": "Take a week off using the tool for opinions and decisions, then notice what you can still work out yourself. Keep it for drafting and routine tasks if it helps.",
-      "support_seeking": "Talk through an important question with a person you trust, a librarian or a subject expert and see whether they would frame it the way the tool did.",
-      "workplace_or_professional": "If a tool is mandated at work, ask in writing for its known limits, an escalation route to a human expert, and permission to cite independent sources in your own decisions."
+      "support_seeking": "Talk an important question through with a person you trust, a librarian or a subject expert. See whether they would frame it the way the tool did.",
+      "workplace_or_professional": "If your work requires you to use a tool, ask in writing for its known limits, a way to reach a human expert, and permission to cite independent sources in your own decisions."
     },
     "boundary_script": "\"It sounds very sure, but sounding sure is not evidence. On anything that matters I will find where this comes from and compare it with one other source before relying on it.\"",
     "safety_sensitive": false,
-    "safety_note": "The main harm is to judgment and decision quality, and it grows when high-stakes choices about health, money or legal matters rest on one unverified source. If a tool's advice could affect your health or safety, check it with a qualified person, such as a doctor, pharmacist or lawyer, before acting. Do not take a confident tone as proof.",
+    "safety_note": "The main harm is to judgment and decision quality. It grows when high-stakes choices about health, money or legal matters rest on one unverified source. If a tool's advice could affect your health or safety, check it with a qualified person, such as a doctor, pharmacist or lawyer, before acting. A confident tone is not proof.",
     "misuse_warning": [
-      "Telling someone their use of an AI tool is 'coercion' can be a way to dismiss a choice they made willingly; reliance is not the same as being forced.",
-      "Distrusting every answer on principle is also a failure of reasoning, and it can push people toward sources that are worse."
+      "Telling someone their use of an AI tool is 'coercion' can dismiss a choice they made willingly. Relying on a tool is not the same as being forced.",
+      "Distrusting every answer on principle is also poor reasoning, and it can push people toward worse sources."
     ],
-    "how_to_distinguish_from_related": "Algorithmic Manipulation shapes what appears in your feed, while this one is about a conversational system becoming the sole voice you trust. Context Poisoning corrupts the data or documents that a system or person draws on, and here the material may be sound but the system's stance on it is the problem. Weaponized AI Empathy works through apparent warmth, while this works through confidence and finality."
+    "how_to_distinguish_from_related": "Algorithmic Manipulation shapes what appears in your feed. This one is about a chat system becoming the only voice you trust. Context Poisoning corrupts the data or documents a system or person draws on. Here the material may be sound, and the problem is the system's stance on it. Weaponized AI Empathy works through apparent warmth, while this works through confidence and finality."
   },
   "AI-Driven Narrative Hijacking": {
-    "short_definition": "Flooding public conversation with machine-generated, tailored messaging so fast and so plentiful that one party ends up setting the terms of a debate.",
-    "core_meaning": "Flooding public conversation with machine-generated, tailored messaging so fast and so plentiful that one party ends up setting the terms of a debate.",
-    "expanded_definition": "Generative AI makes text, images and video cheap to produce in large quantity and in many variations. Used openly, that is just communication. Hijacking is when the sheer volume and variety of messaging, often without disclosure of who or what is behind it, crowds out other voices and fixes the terms of the debate: which question is asked, which words are used, which story sticks. One viral post is ordinary. Look instead for similar framing flooding many places at once and keeping pace with every counter-argument.",
+    "short_definition": "Using machine-made, tailored messages in huge numbers and at high speed, so that one party ends up setting the terms of a public debate.",
+    "core_meaning": "Using machine-made, tailored messages in huge numbers and at high speed, so that one party ends up setting the terms of a public debate.",
+    "expanded_definition": "Generative AI makes text, images and video cheap to produce in large amounts and many variations. Used openly, that is just communication. Hijacking is different. The sheer volume and variety of messages, often with no disclosure of who or what is behind them, crowds out other voices. It fixes the terms of the debate: which question is asked, which words are used, which story sticks. One viral post is ordinary. Look instead for similar framing flooding many places at once and keeping pace with every counter-argument.",
     "plain_language_summary": "A huge wave of AI-made posts floods the talk about an issue. Soon one way of seeing it seems to be all anyone is saying.",
     "why_this_matters": "Volume settles what a topic is about before most people have finished forming a view. The terms of the argument arrive already fixed, and those who disagree find themselves answering a question they never chose.",
     "what_it_is": [
-      "Many posts, comments, articles or videos carrying one frame, produced faster than any group of volunteers could manage.",
+      "Many posts, comments, articles or videos that carry one frame, made faster than any group of volunteers could manage.",
       "Messages in different voices and styles, tailored to different audiences, that all push toward the same conclusion.",
       "Rapid replies to every counter-claim, so that rebuttals are buried almost as soon as they appear.",
-      "Content that may be partly synthetic: text, voices, images or video that look authentic but are not tied to real witnesses.",
+      "Content that may be partly synthetic, such as text, voices, images or video that look real but are not tied to real witnesses.",
       "A pattern defined by scale and speed, as well as by what the content actually says."
     ],
     "what_it_sounds_like": [
@@ -359,38 +359,38 @@
       "You find yourself arguing against positions nobody you know actually holds.",
       "Fact-checks and corrections arrive after the framing has already settled."
     ],
-    "repair_check": "Platforms or publishers taking this seriously would label synthetic material, show who paid for what, and share their findings with researchers. Removing a handful of accounts while the volume and framing continue unchanged does little.",
+    "repair_check": "Platforms or publishers who took this seriously would label synthetic material, show who paid for what, and share their findings with researchers. Removing a handful of accounts while the volume and framing carry on unchanged does little.",
     "boundary_respect_check": "When you ask a poster or outlet where an image, quote or claim came from, what comes back? A named source and a link is a respectful answer. Silence, more repetition or a burst of replies that skip the question suggests the volume is the argument.",
-    "psychological_mechanism": "People often use how much they see something as a clue to how widely it is believed, and repetition can make claims feel familiar and true. When one framing fills the space, alternatives can feel fringe, and people may adopt the dominant vocabulary without noticing. Tailored messages can seem to come from people like you, which tends to lower scrutiny.",
-    "possible_impact_on_receiver": "Feeling that everyone else has already made up their mind is common, as are exhaustion from trying to keep up, confusion about what is real, and reluctance to speak because your view feels like a lone one. Some people turn away from the news altogether, and some feel a quiet anger once they realize how much of the noise was not people.",
+    "psychological_mechanism": "People often judge how widely something is believed by how often they see it. Repetition can also make a claim feel familiar, and so true. When one framing fills the space, other views can look fringe, and people may pick up the dominant vocabulary without noticing. Tailored messages that appear to come from people like you often lower scrutiny.",
+    "possible_impact_on_receiver": "It is common to feel that everyone else has already made up their mind. Others are worn out from trying to keep up, confused about what is real, or reluctant to speak because their view seems to stand alone. Some turn away from the news altogether, and some feel a quiet anger once they realize how much of the noise was not people.",
     "response_options": {
       "soft_clarification": "When a claim lands, ask in the thread where it came from: 'Is there an original source for this?' Watch whether you get a link or more of the same wording.",
-      "firm_boundary": "Hold off reposting anything about a fast-moving issue until you have traced it to a named, original source, however many times you have seen it.",
+      "firm_boundary": "Hold off reposting anything about a fast-moving issue until you have traced it to a named, original source. Do this however many times you have seen it.",
       "disengagement": "Mute the topic for a few days, get news from sources with named reporters, and come back after the wave has passed.",
-      "support_seeking": "Send suspicious patterns, with links and dates, to a fact-checking organization, a reporter covering disinformation or the platform's reporting tool.",
-      "workplace_or_professional": "If you work in communications, moderation or policy, record dates, examples and account details, and follow your organization's route for reporting suspected coordinated activity."
+      "support_seeking": "Send suspicious patterns, with links and dates, to a fact-checking organization, a reporter who covers disinformation, or the platform's reporting tool.",
+      "workplace_or_professional": "If you work in communications, moderation or policy, record dates, examples and account details. Follow your organization's route for reporting suspected coordinated activity."
     },
     "boundary_script": "\"I've seen this everywhere in a day, and that alone tells me nothing. Before I repeat it, I want a named source and the original recording. If I can't find them, I'll hold off and say so.\"",
     "safety_sensitive": false,
     "safety_note": "Most of the harm is to public understanding, but fabricated content can turn into harassment, threats or panic aimed at real people. You or someone you know may be hit by a flood of fake material or by threats that follow it. If so, save evidence and report it to the platform and local authorities. Seek help from a digital-safety or legal-aid organization.",
     "misuse_warning": [
       "Calling a view 'AI-generated hijacking' because it is popular or unwelcome dismisses real people who hold it.",
-      "Suspecting everything is fake can leave people unable to trust anything, which serves those who want the truth to feel unknowable."
+      "Suspecting everything is fake can leave people unable to trust anything, which suits those who want the truth to feel unknowable."
     ],
-    "how_to_distinguish_from_related": "Synthetic Persona Networks concern fake identities posing as members of a community, whereas this is about the flood of messaging itself, which may come from open or fake sources. Context Poisoning corrupts shared databases or training material, while here the content is public and visible. Algorithmic Manipulation decides what each person sees, and this one decides what there is to see in the first place."
+    "how_to_distinguish_from_related": "Synthetic Persona Networks are fake identities posing as members of a community. This one is about the flood of messaging itself, which may come from open or fake sources. Context Poisoning corrupts shared databases or training material, while here the content is public and visible. Algorithmic Manipulation decides what each person sees, and this one decides what there is to see in the first place."
   },
   "Algorithmic Targeting of Vulnerable Populations": {
-    "short_definition": "Using data profiles to find people at a low point, such as broke, grieving, lonely or desperate, and aiming exploitative offers, scams or harmful content at them.",
-    "core_meaning": "Using data profiles to find people at a low point, such as broke, grieving, lonely or desperate, and aiming exploitative offers, scams or harmful content at them.",
-    "expanded_definition": "Advertising and recommendation systems sort people by what they search, buy, watch and linger on. Reaching people with relevant help is normal and often useful. The concern is when those same signals mark someone out as being in a weak moment, and what is aimed at them is built to profit from it: high-cost loans, miracle cures, scam approaches, extremist material. One odd ad is trivial. Offers that cluster around a hard stretch of your life are what set this apart.",
-    "plain_language_summary": "Data about you reveals when you are struggling, and then ads, messages or videos that take advantage of that struggle keep finding you.",
-    "why_this_matters": "The approach arrives exactly when a person is least equipped to weigh it, short of money, newly bereaved or isolated, which is precisely why it works. The cost can be debt, lost savings, health risks or a slide toward harmful beliefs.",
+    "short_definition": "Finding people in a weak moment through their data, then targeting them with exploitative offers, scams or harmful content.",
+    "core_meaning": "Finding people in a weak moment through their data, then targeting them with exploitative offers, scams or harmful content.",
+    "expanded_definition": "Advertising and recommendation systems sort people by what they search, buy, watch and linger on. Reaching people with relevant help is normal and often useful. The concern is when those same signals mark someone as being in a weak moment, and what is aimed at them is built to profit from it. Examples are high-cost loans, miracle cures, scam approaches and extremist material. One odd ad is trivial. Offers that cluster around a hard stretch of your life are what set this apart.",
+    "plain_language_summary": "Data about you shows when you are struggling. Then ads, messages or videos that take advantage of that struggle keep finding you.",
+    "why_this_matters": "The approach arrives just when a person is least able to weigh it, such as when they are short of money, newly bereaved or isolated. That is why it works. The cost can be debt, lost savings, health risks or a slide toward harmful beliefs.",
     "what_it_is": [
       "Ads for high-interest loans or debt schemes that begin to follow someone whose searches suggest money trouble.",
       "Miracle-cure, gambling or get-rich offers shown to people who have just searched about illness, addiction or job loss.",
       "Scam approaches that arrive soon after a bereavement, breakup or move, when the person is isolated.",
       "Recommendation feeds that, once they detect despair or anger, escalate toward more extreme or self-destructive material.",
-      "A matter of aim and terms: it is the targeting of a weak moment plus a harmful offer, not the fact of being advertised to."
+      "It is about aim and terms. The targeting of a weak moment plus a harmful offer is the problem, not the fact of being advertised to."
     ],
     "what_it_sounds_like": [
       "After searching about overdue bills, your feeds fill with payday-style loan offers promising instant cash.",
@@ -401,7 +401,7 @@
       "The offers all carry urgency, such as 'today only', and none of them mention costs plainly."
     ],
     "what_it_is_not": [
-      "Relevant advertising is not automatically predatory, and outreach aimed at people in difficulty, such as a debt charity or a crisis line, is a different kind of targeting. The terms of the offer, not the fact of being reached, make it exploitation.",
+      "Relevant advertising is not automatically predatory. Outreach aimed at people in difficulty, such as a debt charity or a crisis line, is a different kind of targeting. What makes it exploitation is the terms of the offer, not the fact of being reached.",
       "An ad for something you searched for last week and might actually want.",
       "A bank or nonprofit offering hardship support to customers who are behind.",
       "Coincidence: many people share the same worries, so an ad can fit your trouble without anyone having profiled it.",
@@ -422,7 +422,7 @@
       "The timing is explained by something innocent, like a seasonal sale or a shared event."
     ],
     "innocent_or_ordinary_possibilities": [
-      "Advertisers often target broad categories like age or region, which can feel personal without being aimed at a weakness.",
+      "Advertisers often target broad groups like age or region. That can look personal without being aimed at a weakness.",
       "Friends or family sharing your device or network can change what you see.",
       "Companies try to sell to anyone who looks like a customer, including people in tight spots, without a plan to exploit them."
     ],
@@ -454,38 +454,38 @@
       "Unsolicited messages from strangers reference your situation more and more specifically.",
       "You have spent or risked more on 'solutions' than the original problem cost."
     ],
-    "repair_check": "A company taking this seriously would exclude people in distress from harmful categories of offer, show who pays for each ad, and honor requests to stop. A new setting buried in menus, with the same pitches arriving, only looks like change.",
-    "boundary_respect_check": "After you decline an offer or hide the ad, does it stop? If the same pitch comes back reworded, from a new sender or with a bigger discount, your no was treated as a step in the sale instead of an answer.",
-    "psychological_mechanism": "Stress, grief, debt and loneliness tend to narrow attention and make quick relief more appealing, which can make people more willing to accept an offer they would normally question. Profiling can time approaches to those moments. Urgent language and testimonials may then add pressure, while shame can make people reluctant to ask anyone for a second opinion.",
-    "possible_impact_on_receiver": "People describe losing money to products or schemes that promised relief, feeling foolish and keeping it secret, a feed that seemed to know their darkest moods, and a sense that bad things were pulling at them. Some describe being drawn toward harmful communities or content during a fragile stretch, and some feel deep anger once they see how it was done.",
+    "repair_check": "A company that took this seriously would keep people in distress out of harmful kinds of offer, show who pays for each ad, and honor requests to stop. A new setting buried in menus, with the same pitches still arriving, only looks like change.",
+    "boundary_respect_check": "After you decline an offer or hide the ad, does it stop? If the same pitch comes back reworded, from a new sender or with a bigger discount, your no was treated as a step in the sale and not as an answer.",
+    "psychological_mechanism": "Stress, grief, debt and loneliness often narrow attention and make quick relief more appealing. That can make people more willing to accept an offer they would normally question. Profiling can time approaches to those moments. Urgent language and testimonials may add pressure, and shame can make people reluctant to ask anyone for a second opinion.",
+    "possible_impact_on_receiver": "Some lose money to products or schemes that promised relief, then feel foolish and keep it secret. A feed may seem to know their darkest moods, with bad things pulling at them. Others are drawn toward harmful communities or content during a fragile stretch, and some feel deep anger once they see how it was done.",
     "response_options": {
       "soft_clarification": "Before engaging, ask who is making the offer, how they got your contact details and what the full cost is. Reputable providers answer these plainly.",
-      "firm_boundary": "Make a rule not to commit money or personal data to an offer that arrives unprompted while you are in a hard stretch, and to wait two days and talk to someone first.",
+      "firm_boundary": "Make a rule not to commit money or personal data to an offer that arrives unprompted while you are in a hard stretch. Wait two days and talk to someone first.",
       "disengagement": "Hide or report the ad, block the sender, and clear ad personalization and search history if you can. Do not reply to scammers, even to tell them off.",
-      "support_seeking": "Tell a person you trust what you were offered, and bring it to a consumer agency, a nonprofit credit or debt counselor, or a health professional before paying anything.",
-      "workplace_or_professional": "If you work in advertising, lending or platform policy, review whether any targeting categories can single out people in crisis, and raise concerns through compliance or ethics channels."
+      "support_seeking": "Tell a person you trust what you were offered. Before paying anything, bring it to a consumer agency, a nonprofit credit or debt counselor, or a health professional.",
+      "workplace_or_professional": "If you work in advertising, lending or platform policy, review whether any targeting categories can single out people in crisis. Raise concerns through compliance or ethics channels."
     },
     "boundary_script": "\"This showed up right when I am at my lowest, and that timing is a reason to slow down. I will wait two days, read the full terms, and talk it over with someone I trust before doing anything.\"",
     "safety_sensitive": false,
     "safety_note": "A targeted ad is pressure on judgment, not a threat, until it demands money or account access quickly or asks for secrecy from family. It also crosses that line when it pushes toward self-harm, or comes from a stranger who knows too much about you. If so, pause and do not send money; a consumer-protection agency, legal aid or a debt counselor can help. If anyone is thinking of self-harm, contact a crisis line or emergency services.",
     "misuse_warning": [
-      "Assuming every ad that fits your worries was aimed at you can make people feel watched and ashamed; much of it is coincidence or broad categories.",
+      "Assuming every ad that fits your worries was aimed at you can make people feel watched and ashamed. Much of it is coincidence or broad categories.",
       "Blaming people who fell for an offer adds shame to harm, and the tactic depends on that shame to keep victims quiet."
     ],
-    "how_to_distinguish_from_related": "Algorithmic Manipulation shapes a person's information diet and mood over time, while this one picks out a specific weak moment and pairs it with a harmful offer. Dark Patterns (AI-Adaptive) alter an interface to trick any user into a click, and here the person is chosen for their circumstances. Parasocial Manipulation Engineering builds a one-sided bond first, which is not required here."
+    "how_to_distinguish_from_related": "Algorithmic Manipulation shapes a person's information diet and mood over time. This one picks out a specific weak moment and pairs it with a harmful offer. Dark Patterns (AI-Adaptive) change an interface to trick any user into a click, while here the person is chosen for their circumstances. Parasocial Manipulation Engineering builds a one-sided bond first, which is not required here."
   },
   "Pig Butchering (Long-Con Digital Fraud)": {
-    "short_definition": "A long online scam in which a stranger builds weeks or months of trust with a victim, then leads them into a fake investment or other financial loss.",
-    "core_meaning": "A long online scam in which a stranger builds weeks or months of trust with a victim, then leads them into a fake investment or other financial loss.",
-    "expanded_definition": "The name comes from the idea of fattening before slaughter, and it describes a fraud that unfolds slowly. It often begins with a wrong-number text or a friendly message, grows into a daily friendship or romance, and only later turns to money, usually a trading or crypto platform that looks real and even shows gains. One friendly stranger is common and mostly harmless. The pattern is a relationship that never asks for anything until it introduces a platform, then keeps raising the stakes.",
+    "short_definition": "A slow online fraud in which a stranger wins your trust over weeks or months, then steers you into a fake investment or other money loss.",
+    "core_meaning": "A slow online fraud in which a stranger wins your trust over weeks or months, then steers you into a fake investment or other money loss.",
+    "expanded_definition": "The name comes from the idea of fattening an animal before slaughter. It describes a fraud that unfolds slowly. It often begins with a wrong-number text or a friendly message. It grows into a daily friendship or romance, and only later turns to money, usually a trading or crypto platform that looks real and even shows gains. One friendly stranger is common and mostly harmless. What stands out is a relationship that never asks for anything until it introduces a platform, then keeps raising the stakes.",
     "plain_language_summary": "A friendly or romantic stranger online spends weeks winning your trust. Then they steer you into a fake investment that can cost your savings.",
-    "why_this_matters": "Months of unhurried, ordinary relationship-building mean that when the request finally comes it arrives from someone you have real reason to trust. The losses can be life-changing, and shame often keeps people from telling anyone until the money is gone.",
+    "why_this_matters": "After months of unhurried, ordinary relationship-building, the request finally comes from someone you have real reason to trust. The losses can be life-changing, and shame often keeps people from telling anyone until the money is gone.",
     "what_it_is": [
-      "A contact that begins by chance, such as a message to a wrong number or a friendly follow, and turns into daily conversation.",
+      "A first contact that starts by chance, such as a message to a wrong number or a friendly follow, and turns into daily conversation.",
       "A warm relationship, romantic or friendly, in which the other person seems to share your life and values.",
       "Money entering the picture only later, through an investment or trading platform the new friend recommends.",
       "A site or app that shows impressive gains but makes withdrawals difficult or always one payment away.",
-      "A scheme worked by organized groups, with many victims in the pipeline, and not a lone person improvising."
+      "A scheme run by organized groups with many victims in the pipeline, and not a lone person making it up as they go."
     ],
     "what_it_sounds_like": [
       "A text from an unknown number that turns into a pleasant daily conversation.",
@@ -496,7 +496,7 @@
       "Questions or doubts are met with hurt feelings, reassurance or urgency about a closing window."
     ],
     "what_it_is_not": [
-      "Genuine friendships and relationships do begin online and build slowly, and someone talking enthusiastically about their own investments may simply be doing that. The turn worth noticing is a relationship that has asked for nothing beginning to direct money toward a platform it introduced.",
+      "Real friendships and relationships do begin online and build slowly. Someone talking happily about their own investments may simply be doing that. The turn to notice is a relationship that has asked for nothing starting to steer money toward a platform it introduced.",
       "A real wrong-number text where both people say sorry and move on.",
       "A friend recommending an investment they honestly use, who is easy to verify and does not push.",
       "A long-distance relationship with video calls, mutual friends and no money requests.",
@@ -507,7 +507,7 @@
       "They avoid live video, in-person meetings or anything that can be independently verified.",
       "The platform is reached by a link they supply and is not one you can check through independent sources.",
       "Withdrawals are blocked by new fees, taxes or minimum deposits.",
-      "You are asked to keep it to yourself, or you feel nudged away from asking family or a financial professional."
+      "You are told to keep it secret, or you feel nudged away from asking family or a financial professional."
     ],
     "this_may_not_be_it_when": [
       "You can meet or video-call them live, and they have a verifiable life with real mutual contacts.",
@@ -549,24 +549,24 @@
       "Your deposits grow while your ability to withdraw shrinks.",
       "You find yourself hiding the relationship or the investment from people close to you."
     ],
-    "repair_check": "If a person or platform were genuine, you could take your money out in full without a new fee, verify who runs it, and talk to anyone you like. A delay, a surprise charge or an appeal to your trust in them is not repair.",
+    "repair_check": "If a person or platform were genuine, you could take all your money out without a new fee, check who runs it, and talk to anyone you like. A delay, a surprise charge or an appeal to your trust in them is not repair.",
     "boundary_respect_check": "What happens when you say you want to pause, ask a professional, or withdraw? Someone with your interests at heart is comfortable with all three. Hurt feelings, a deadline or a sudden obstacle to leaving suggests your caution is being treated as the thing to overcome.",
-    "psychological_mechanism": "Steady attention and affection over weeks can build real trust and attachment, and people may feel indebted or protective toward a relationship they value. Early small gains on a platform may seem like proof. Once money is in, the wish not to lose it, and the shame of admitting a mistake, tend to push people to deposit more and tell fewer people. Loneliness deepens the pull.",
-    "possible_impact_on_receiver": "People describe losing savings, retirement money or borrowed funds, grief for a relationship that turned out not to be what it seemed, and deep shame that kept them silent. Some describe sleeplessness, strained family ties and difficulty trusting new people afterward. Many also describe relief at learning that skilled, organized fraud, not personal failure, was involved.",
+    "psychological_mechanism": "Steady attention and affection over weeks can build real trust and attachment. People may feel they owe something to, or want to protect, a relationship they value. Early small gains on a platform may look like proof. Once money is in, the wish not to lose it and the shame of admitting a mistake often push people to deposit more and tell fewer people. Loneliness deepens the pull.",
+    "possible_impact_on_receiver": "Many lose savings, retirement money or borrowed funds. Some grieve for a relationship that turned out not to be what it seemed, and carry deep shame that kept them silent. Others describe sleeplessness, strained family ties and trouble trusting new people afterward. Many also feel relief on learning that skilled, organized fraud was involved, and not personal failure.",
     "response_options": {
-      "soft_clarification": "Ask to meet on live video now, and say you would like to talk the idea over with a family member or advisor before any money moves. Notice whether that is welcomed.",
-      "firm_boundary": "Do not send further money, crypto or fees, and do not move funds on instructions from someone you have not met in person, however convincing the dashboard looks.",
-      "disengagement": "Stop replying, keep the messages and screenshots rather than deleting them, and avoid answering later contacts offering to recover your funds for a fee.",
-      "support_seeking": "Tell someone you trust today, contact your bank or card provider, and report to your national fraud-reporting service and local police. Ask a consumer-protection or victim-support organization what to do next.",
-      "workplace_or_professional": "If you work in banking, a platform or customer support, flag unusual large transfers to new crypto or trading sites, especially by customers who mention an online friend, and follow your fraud-escalation process."
+      "soft_clarification": "Ask to meet on live video now. Say you would like to talk the idea over with a family member or advisor before any money moves, and notice whether that is welcomed.",
+      "firm_boundary": "Do not send further money, crypto or fees. Do not move funds on instructions from someone you have not met in person, however convincing the dashboard looks.",
+      "disengagement": "Stop replying. Keep the messages and screenshots instead of deleting them, and avoid answering later contacts who offer to recover your funds for a fee.",
+      "support_seeking": "Tell someone you trust today. Contact your bank or card provider, and report it to your national fraud-reporting service and local police. Ask a consumer-protection or victim-support organization what to do next.",
+      "workplace_or_professional": "If you work in banking, a platform or customer support, flag unusual large transfers to new crypto or trading sites, especially from customers who mention an online friend. Follow your fraud-escalation process."
     },
     "boundary_script": "\"I've decided not to move any money until a trusted person and my bank have looked at all of this. I also want to check the platform through a regulator on my own. If it's real, it will hold up to that.\"",
     "safety_sensitive": true,
     "safety_note": "This is financial entrapment that can wipe out savings and sometimes pushes people into debt, lost housing or despair. Warning signs are pressure to borrow or cash out retirement funds, secrecy and fee demands to release your money. Contact your bank right away, report it, and reach out to victim support or legal aid. If you feel hopeless, talk to someone now or call a crisis line.",
     "misuse_warning": [
-      "Telling a friend who is in a new online romance that it must be a scam, without evidence, can damage a real relationship and push them away from you.",
+      "Telling a friend in a new online romance that it must be a scam, with no evidence, can damage a real relationship and push them away from you.",
       "Blaming victims as gullible adds shame to loss and keeps people from reporting, which is exactly what the fraud relies on."
     ],
-    "how_to_distinguish_from_related": "Parasocial Manipulation Engineering uses a one-sided bond with an audience figure, whereas here the bond is a personal, two-way-seeming friendship or romance aimed at one victim. Synthetic Persona Networks may supply the fake faces and voices, but this is defined by the slow path from trust to a money request. Dark Patterns (AI-Adaptive) trick a click in an interface, and here the trick is the relationship itself."
+    "how_to_distinguish_from_related": "Parasocial Manipulation Engineering uses a one-sided bond with an audience figure. Here the bond is a personal, seemingly two-way friendship or romance aimed at one victim. Synthetic Persona Networks may supply the fake faces and voices, but this tactic is defined by the slow path from trust to a money request. Dark Patterns (AI-Adaptive) trick a click in an interface, and here the trick is the relationship itself."
   }
 }

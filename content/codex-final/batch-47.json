@@ -1,15 +1,15 @@
 {
   "Reflexive Control": {
-    "short_definition": "Shaping the information another party receives so that their own reasoning leads them to a decision that benefits the sender, without their noticing.",
-    "core_meaning": "Shaping the information another party receives so that their own reasoning leads them to a decision that benefits the sender, without their noticing.",
+    "short_definition": "Controlling which facts someone gets, so their own reasoning leads them to the decision the sender wants and they never notice.",
+    "core_meaning": "Controlling which facts someone gets, so their own reasoning leads them to the decision the sender wants and they never notice.",
     "expanded_definition": "Reflexive control is a concept associated with Soviet and Russian military and influence theory. The idea is that a choice can be steered by shaping the picture a rival reasons from, so the rival feels it decided freely. From the receiving end, the decision looks like your own. One slanted briefing or selective news item proves little, since everyone argues from chosen facts. What marks the pattern is sustained shaping of the whole picture, plus a decision that lands conveniently for someone else. Observers can rarely prove it as it happens.",
     "plain_language_summary": "Someone arranges what you get to see so that your own careful thinking walks you to the choice they wanted. You feel you decided freely, which is why it is hard to spot.",
-    "why_this_matters": "A choice we reach by our own reasoning feels like ours, so we defend it and rarely revisit it. If the inputs were selected for us, we can end up protecting a decision we never truly weighed, and finding that out later is costly.",
+    "why_this_matters": "We treat a choice we reached by our own reasoning as ours, so we defend it and rarely revisit it. If the inputs were picked for us, we can end up protecting a decision we never truly weighed. Finding that out later is costly.",
     "what_it_is": [
       "A way of influencing a decision by working on what goes into the decision, not by pressuring the person who makes it.",
-      "A concept associated with Soviet and Russian military and influence theory, often described as aimed at rivals such as commanders, governments or institutions.",
-      "Open pressure and visible threats are the opposite of it, because it depends on the audience believing the conclusion is self-made.",
-      "Can touch ordinary audiences when a whole information environment is tilted, though it is hard to show that any single audience was the target.",
+      "A concept linked to Soviet and Russian military and influence theory, often described as aimed at rivals such as commanders, governments or institutions.",
+      "Open pressure and visible threats are its opposite, because it depends on the audience believing the conclusion is their own.",
+      "It can reach ordinary audiences when a whole information environment is tilted, though it is hard to show that any single audience was the target.",
       "Rarely provable in the moment. Claims about it usually rest on documents or testimony that surface later."
     ],
     "what_it_sounds_like": [
@@ -22,7 +22,7 @@
       "A decision-maker quoted as saying they simply followed the evidence in front of them."
     ],
     "what_it_is_not": [
-      "Everyone decides on incomplete information, and negotiators, advertisers and friends all present the facts that favor their case. Ordinary selectivity in an argument is not a sustained effort to shape someone's whole picture.",
+      "Everyone decides with incomplete information. Negotiators, advertisers and friends all present the facts that favor their case. Ordinary selectivity in an argument is not a sustained effort to shape someone's whole picture.",
       "A one-sided briefing that is labeled as advocacy, so you know whose case you are hearing.",
       "A genuine news or intelligence failure, where sources were simply wrong or slow.",
       "A rival's public bluff or signal, which is meant to be seen and weighed as a signal.",
@@ -80,30 +80,30 @@
     ],
     "repair_check": "Correction here means the shaped inputs are named and the choice is reopened with a fuller picture. A quiet retraction of one detail, while the decision it justified stays untouched, corrects very little.",
     "boundary_respect_check": "Ask a source for the original document behind a claim and note what comes back. Handing over the primary material, and saying what it does not show, points away from steering. Vague reassurance or irritation at the question points toward it.",
-    "psychological_mechanism": "A conclusion we reached ourselves feels earned, and few of us go back to audit the inputs once it does. Reasoning can only work with the facts in front of it, so a tilted set of facts can produce a sincere, confident and tilted choice. Time pressure and a shortage of independent sources can strengthen this.",
-    "possible_impact_on_receiver": "A jolt of embarrassment is common on learning that facts once trusted were selected for you, along with anger and a reluctance to trust your own judgment afterward. Some become suspicious of all information, which carries its own cost. Others dig in to defend the earlier choice, because it felt like their own.",
+    "psychological_mechanism": "We count a conclusion we reached ourselves as earned, and few of us go back to audit the inputs. Reasoning can only work with the facts in front of it, so a tilted set of facts can produce a sincere, confident and tilted choice. Time pressure and a shortage of independent sources can strengthen this.",
+    "possible_impact_on_receiver": "Many feel a jolt of embarrassment on learning that facts they trusted were selected for them. Anger and a reluctance to trust their own judgment can follow. Some become suspicious of all information, which carries its own cost. Others dig in to defend the earlier choice, because they see it as their own.",
     "response_options": {
       "soft_clarification": "Ask where a key claim started: 'What is the original source for this, and has anyone independent confirmed it?' Ask it of sources you like as well as those you doubt.",
       "firm_boundary": "Decline to decide under a deadline nobody can explain. Take extra time to find sources that do not trace back to the same origin before you commit.",
-      "disengagement": "Step away from a flood of one-direction news about a pending decision, and come back after a day to compare it with older, slower reporting.",
+      "disengagement": "Step away from a flood of one-sided news about a pending decision. Come back after a day and compare it with older, slower reporting.",
       "support_seeking": "Talk the situation through with a friend who holds a different view and ask which sources they would trust. A librarian or fact-checking service can help trace where claims began.",
-      "workplace_or_professional": "In an organization, ask for a written list of the sources behind a recommendation, and invite someone to argue the opposite case before a major decision is signed off."
+      "workplace_or_professional": "In an organization, ask for a written list of the sources behind a recommendation. Before a major decision is signed off, invite someone to argue the opposite case."
     },
     "boundary_script": "\"Before I act on this, where did it first come from? Who else, with no stake in it, has confirmed it? And which options have I stopped considering, and who told me to stop?\"",
     "safety_sensitive": false,
-    "safety_note": "Reflexive control works on judgment and is not usually a direct threat to your body. That changes when a decision pushed on you involves money you cannot lose, your home, your legal status or a dangerous confrontation. Then slow down, ask a lawyer, financial counselor or trusted outside person for advice, and ask for the decision to wait.",
+    "safety_note": "Reflexive control works on judgment and is not usually a direct threat to your body. That changes when a decision pushed on you involves money you cannot lose, your home, your legal status or a dangerous confrontation. Then slow down. Ask a lawyer, financial counselor or trusted outsider for advice, and ask for the decision to wait.",
     "misuse_warning": [
-      "Blaming any decision you dislike on reflexive control dismisses the people who made it, and requires a hidden planner for what may be ordinary error.",
-      "Used about political opponents, it becomes a way of saying anyone who disagrees was tricked, which ends the conversation."
+      "Blaming reflexive control for any decision you dislike dismisses the people who made it. It also requires a hidden planner for what may be ordinary error.",
+      "When used about political opponents, it turns into a claim that anyone who disagrees was tricked, which ends the conversation."
     ],
-    "how_to_distinguish_from_related": "Manufactured Consent works on what a whole population seems to agree with, while reflexive control concerns one party's specific decision and the facts that party was given. Computational Propaganda is a delivery method, bots and networks, which could supply inputs but says nothing about a decision. Normative Messaging leans on what others supposedly do; reflexive control leans on which facts you were shown."
+    "how_to_distinguish_from_related": "Manufactured Consent works on what a whole population seems to agree with, while reflexive control concerns one party's specific decision and the facts that party was given. Computational Propaganda is a delivery method, using bots and networks, which could supply inputs but says nothing about a decision. Normative Messaging leans on what others supposedly do. Reflexive control leans on which facts you were shown."
   },
   "Normative Messaging": {
-    "short_definition": "Telling people what 'most others' believe or do, so that they drift toward that apparent norm whatever they privately prefer.",
-    "core_meaning": "Telling people what 'most others' believe or do, so that they drift toward that apparent norm whatever they privately prefer.",
-    "expanded_definition": "Normative messaging is any communication about what is normal, common or expected in a group, from a poster saying most neighbors recycle to a headline saying everyone has moved on. People tend to adjust toward what they think others do. When the stated norm is accurate and the aim is disclosed, it is a mainstream public-health and civic tool. The concern begins when the claim is false, unverifiable or invented, or the sender hides a stake. One poster means little; the pattern is a steady drumbeat of 'everyone' claims you cannot check.",
+    "short_definition": "Claiming that 'most others' hold a view or act a certain way, which pulls people toward that apparent norm.",
+    "core_meaning": "Claiming that 'most others' hold a view or act a certain way, which pulls people toward that apparent norm.",
+    "expanded_definition": "Normative messaging is any communication about what is normal, common or expected in a group, from a poster saying most neighbors recycle to a headline saying everyone has moved on. People often adjust toward what they think others do. When the stated norm is accurate and the aim is disclosed, it is a mainstream public-health and civic tool. The concern begins when the claim is false, unverifiable or invented, or the sender hides a stake. One poster means little. What stands out is a steady drumbeat of 'everyone' claims you cannot check.",
     "plain_language_summary": "Being told that 'everybody' thinks or does something, so you go along. It is fine when the claim is true and the reason is stated, and a problem when you cannot check it.",
-    "why_this_matters": "Behavior shifts to match what everyone else is said to be doing, even where private preference points elsewhere. Because the claim about what everyone does is rarely checked, a person can be moved by a majority that is smaller than described, or does not exist.",
+    "why_this_matters": "Behavior shifts to match what everyone else is said to be doing, even where private preference points elsewhere. The claim about what everyone does is rarely checked. So a person can be moved by a majority that is smaller than described, or does not exist.",
     "what_it_is": [
       "Messages about the typical person: 'most people in your area', 'nine in ten', 'nobody still believes that'.",
       "Works through a wish to belong and a fear of standing out, not through argument about the merits.",
@@ -178,36 +178,36 @@
       "Counts and percentages shown to you keep rising while nobody can say who was counted.",
       "When you talk to people in person, their views turn out to be more varied than the feeds suggested."
     ],
-    "repair_check": "A sender who is fixing this names the source of the figure, corrects it once it is shown to be inflated, and stops using it. A message that swaps the claim for a different 'everyone' statement has not corrected anything.",
+    "repair_check": "A sender who is fixing this names the source of the figure, corrects it once it is shown to be inflated, and stops using it. A message that swaps in a different 'everyone' statement has not corrected anything.",
     "boundary_respect_check": "Does asking for the source change how you are treated? Calm sharing of the survey is a good sign. Being called out of step, or told that asking is itself odd, suggests the claim leaned on pressure and not on evidence.",
-    "psychological_mechanism": "Others' behavior serves as a quick guide to what is safe, correct and approved, especially in unfamiliar settings, and a norm claim borrows that shortcut. It can work even when we privately disagree, because standing out can feel costly. The effect tends to weaken when we can see the data or meet real members of the group.",
-    "possible_impact_on_receiver": "People describe quietly dropping a view because it seemed unpopular, feeling alone in a disagreement that was widely shared, or feeling embarrassed on finding that the majority was a fraction of what had been described. Some become wary of every statistic, including honest ones.",
+    "psychological_mechanism": "Other people's behavior is a quick guide to what is safe, correct and approved, especially in unfamiliar settings, and a norm claim borrows that shortcut. It can work even when we privately disagree, because standing out can feel costly. The effect often weakens when we can see the data or meet real members of the group.",
+    "possible_impact_on_receiver": "Some quietly drop a view because it seemed unpopular. Others feel alone in a disagreement that was widely shared, or embarrassed on finding that the majority was a fraction of what had been described. Some grow wary of every statistic, including honest ones.",
     "response_options": {
       "soft_clarification": "Ask politely where the figure comes from: 'Which survey is that, and when was it taken?'",
-      "firm_boundary": "Decline to change your mind or sign up on the strength of a claim about what others think until you have seen the number for yourself.",
+      "firm_boundary": "Do not change your mind or sign up on the strength of a claim about what others think until you have seen the number for yourself.",
       "disengagement": "Turn off visible counters, trending panels and 'people also' prompts for a while, and decide from what you value instead.",
       "support_seeking": "Ask two or three people you know, in person, what they actually think. Real answers are often more varied than a headline suggests.",
       "workplace_or_professional": "If a colleague says everyone has already agreed, ask who, and ask to hear it from them. Request that any poll be run with the question and result shared openly."
     },
     "boundary_script": "\"Who counted these people, and when? Would I want this if I were the only one? Am I going along because it is true, or because I fear being the odd one out?\"",
     "safety_sensitive": false,
-    "safety_note": "Norm claims are usually low-risk to your safety. The risk grows when a claim about what 'everyone' will do is used to rally a crowd against named people or to build pressure for harassment. If that appears, save the examples, report them to the platform, and contact a local support service or lawyer if you are targeted.",
+    "safety_note": "Norm claims are usually low-risk to your safety. The risk grows when a claim about what 'everyone' will do is used to rally a crowd against named people, or to build pressure for harassment. If that appears, save the examples, report them to the platform, and contact a local support service or lawyer if you are targeted.",
     "misuse_warning": [
-      "Calling every statement about what most people think 'normative messaging' makes ordinary reporting of a true majority look sinister.",
+      "If you label every statement about what most people think as 'normative messaging', ordinary reporting of a true majority starts to look sinister.",
       "Treating a person who changed their view as sheep-like ignores that they may have been persuaded by good reasons."
     ],
-    "how_to_distinguish_from_related": "Astroturfing fakes the crowd itself, with voices that hide their sponsor; normative messaging only describes a crowd, real or not. Manufactured Consent shapes a society's agreement through media and institutions over time. Overton Window Manipulation shifts which ideas feel thinkable by pushing extremes, not by claims about what most people already think. Here, the work is done by a statement about the majority."
+    "how_to_distinguish_from_related": "Astroturfing fakes the crowd itself, with voices that hide their sponsor. Normative messaging only describes a crowd, real or not. Manufactured Consent shapes a society's agreement through media and institutions over time. Overton Window Manipulation shifts which ideas seem thinkable by pushing extremes, not by claims about what most people already think. Here, the work is done by a statement about the majority."
   },
   "False Flag Operations": {
-    "short_definition": "Staging an attack or incident so that another group appears to be responsible, in order to justify a response or damage the blamed party.",
-    "core_meaning": "Staging an attack or incident so that another group appears to be responsible, in order to justify a response or damage the blamed party.",
-    "expanded_definition": "A false flag operation is an event arranged so that it looks like the work of someone else. Historians have documented some cases, usually through archives and investigations years later. In real time the label is claimed far more often than shown, because early facts about any incident are confused. A gap in the official story, an odd coincidence or a convenient result does not establish staging. What it would take is evidence about who arranged the event, which ordinary readers rarely hold.",
+    "short_definition": "Arranging an event to look like another group's work, so a response seems justified or the blamed party is harmed.",
+    "core_meaning": "Arranging an event to look like another group's work, so a response seems justified or the blamed party is harmed.",
+    "expanded_definition": "A false flag operation is an event arranged so that it looks like the work of someone else. Historians have documented some cases, usually through archives and investigations years later. In real time the label is claimed far more often than shown, because early facts about any incident are confused. A gap in the official story, an odd coincidence or a convenient result does not establish staging. Proving it would take evidence about who arranged the event, which ordinary readers rarely hold.",
     "plain_language_summary": "An attack or incident is arranged to look like someone else did it, so blame, anger and action land on the wrong party. It is also a label people often apply far too fast.",
-    "why_this_matters": "Retaliation, suspicion and public anger land on a group that did not do the thing, and the record that would correct it is the very thing that was arranged. The opposite harm exists too: calling real tragedies staged wounds the people who lived them.",
+    "why_this_matters": "Retaliation, suspicion and public anger land on a group that did not do the thing, and the record that would correct it is the very thing that was arranged. The opposite harm exists too. Calling real tragedies staged wounds the people who lived them.",
     "what_it_is": [
-      "A deception about who is responsible for an event, not only about what happened.",
+      "A lie about who is responsible for an event, on top of any lie about what happened.",
       "The phrase is usually traced to old naval ruses in which a ship flew another side's flag.",
-      "Cases accepted as real have been established by archives, documents, testimony and investigation, usually long after the event.",
+      "Cases accepted as real were established by archives, documents, testimony and investigation, usually long after the event.",
       "The idea can apply to a state, a group or a company, so scale does not define it.",
       "The claim 'it was a false flag' is itself widely used to explain events people dislike, so it needs strong evidence."
     ],
@@ -220,11 +220,11 @@
       "Later findings that the party first named was not involved."
     ],
     "what_it_is_not": [
-      "Most disputed events are confusing in their first days, and unanswered questions after an incident are normal, not proof of staging. Documented cases were established through archives and investigation years afterward, never through pattern-spotting in real time.",
+      "Most disputed events are confusing in their first days. Unanswered questions after an incident are normal and are not proof of staging. Documented cases were established through archives and investigation years afterward, never through pattern-spotting in real time.",
       "A real attack that was carried out by the group blamed for it.",
       "Early reporting mistakes, which are common in the first days of any incident.",
       "An accidental event whose cause stays unclear for a while, such as an industrial failure.",
-      "A group falsely claiming credit for something it did not do, which deceives about credit and not about a staged event.",
+      "A group that falsely claims credit for something it did not do. That deceives about credit and does not involve a staged event.",
       "Official secrecy or slow release of files, which can be poor transparency without hiding a staged event."
     ],
     "this_may_be_it_when": [
@@ -276,23 +276,23 @@
       "Blame follows group identity more than evidence, a pattern you may notice in your own reactions too.",
       "Survivors or neighbors report being contacted or accused by strangers who are sure it was staged."
     ],
-    "repair_check": "When a blamed party is later shown to be innocent, correction looks like a public record that names the error, a retraction from those who spread the blame, and a plain acknowledgment to the group wrongly accused. Silence or a changed subject is not correction.",
+    "repair_check": "When a blamed party is later shown to be innocent, correction means a public record that names the error. It also means a retraction from those who spread the blame and a plain acknowledgment to the group wrongly accused. Silence or a changed subject is not correction.",
     "boundary_respect_check": "Notice whether doubting the claim is allowed. A person confident in their evidence will show you the document and accept your questions. Anger at the question, or an accusation that you are part of the plot, suggests the claim is held on faith.",
-    "psychological_mechanism": "After a shocking event, people seek a cause and a culprit, and an explanation that feels satisfying can be accepted before it is checked. Anger can narrow attention toward a group already disliked. Where trust in institutions is low, a claim that officials lied can seem plausible whether or not any evidence supports it.",
+    "psychological_mechanism": "After a shocking event, people look for a cause and a culprit. An explanation that satisfies can be accepted before it is checked. Anger can narrow attention toward a group already disliked. Where trust in institutions is low, a claim that officials lied can seem plausible whether or not any evidence supports it.",
     "possible_impact_on_receiver": "People describe fury at a group that may be innocent, fear of retaliation, and later shame at having shared an unverified claim. Survivors of real events describe hurt when told their loss was staged. Some people grow so wary that they cannot believe any report of an attack.",
     "response_options": {
       "soft_clarification": "Ask what evidence is cited: 'Is that from a document or testimony, or is it an inference from who benefits?'",
-      "firm_boundary": "Decline to repeat a claim of staging, or of blame, until investigators or independent reporting support it, and say that you are waiting.",
-      "disengagement": "Step away from fast-moving threads in the first days after an incident, when claims are least reliable, and return when fuller reporting exists.",
+      "firm_boundary": "Decline to repeat a claim of staging, or of blame, until investigators or independent reporting support it. Say that you are waiting.",
+      "disengagement": "Step away from fast-moving threads in the first days after an incident, when claims are least reliable. Return when fuller reporting exists.",
       "support_seeking": "Talk with someone who reads the incident differently and ask what evidence they would accept. If you are a survivor accused of faking, reach out to friends, a local support group or a lawyer.",
-      "workplace_or_professional": "If you edit or report news, label unverified claims of staging as unverified, and cite what investigators have actually said, with dates."
+      "workplace_or_professional": "If you edit or report news, label unverified claims of staging as unverified. Cite what investigators have actually said, with dates."
     },
     "boundary_script": "\"I do not know who did this yet. What document, record or witness shows it, not just who benefits? Would I accept the same quality of proof if the blamed group were one I support?\"",
     "safety_sensitive": false,
     "safety_note": "Reading about this carries no danger. What changes that is the aftermath: a wrongly blamed group can face harassment or violence, and survivors falsely called actors can be stalked. If you or someone you know is targeted, save the messages, report them, and contact local authorities or legal aid. If danger is immediate, call emergency services.",
     "misuse_warning": [
-      "Shouting 'false flag' at any event you dislike turns a rare, evidence-based finding into a reflex, and can harm survivors and the groups blamed.",
-      "Dismissing every question about an official account as conspiracy thinking is also a misuse, since documented cases exist and asking for evidence is fair."
+      "Shouting 'false flag' at any event you dislike turns a rare, evidence-based finding into a reflex, and it can harm survivors and the groups blamed.",
+      "Dismissing every question about an official account as conspiracy thinking is also a misuse. Documented cases exist, and asking for evidence is fair."
     ],
     "how_to_distinguish_from_related": "Astroturfing fakes ordinary supporters; a false flag fakes an event and its author. Reflexive Control steers a rival's decision through selected information and need not stage anything. Wedge Issue Exploitation uses real divisions to fracture a coalition, with no deceit about who did what. A false flag is the one where the deception is about who stands behind a staged act."
   },
