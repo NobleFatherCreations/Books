@@ -4740,3 +4740,7 @@ Owner asked for ten phone upgrades, a final combing of every tactic for accuracy
 - Deploys: playbook 6ae09a7fcc7b79e87238455d, hub 6ae09ac47e52e5d2b6b76ae7. verify-deployed: both in sync (322 + 1 files);
   all 326 published files byte-identical through the domain; suite 109/109.
 - Owner to do: submit sitemaps in Google Search Console / Bing Webmaster Tools.
+- **v17 DEPLOYED same day** (deploy 6ae09db8439c5c4311f80851): owner chose "Midnight Matte" from the pasted 13 Gates plan. Values
+  changed, token names kept (`--amber*` now = safety RED #FF6B5E / fill #F04438; `--blade` = champagne gold #E5C158). People line
+  coral to orange so no line reads as danger. Search field is obsidian with a gold ring. See DESIGN.md v17 addendum. Titles kept as
+  they are (owner). **Open:** owner says "the design was meant to show 13 gates" but there are 10 lines. Asked what the 13 are; nothing built.
