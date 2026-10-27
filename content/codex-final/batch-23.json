@@ -196,7 +196,7 @@
     "short_definition": "Fear, a sense of debt, and guilt layered around a request until saying no is frightening, ungrateful and cruel all at once.",
     "core_meaning": "Fear, a sense of debt, and guilt layered around a request until saying no is frightening, ungrateful and cruel all at once.",
     "expanded_definition": "FOG is short for fear, obligation and guilt. The tactic is the layering, not any one strand. Fear says something bad follows a no. Obligation says you owe this. Guilt says only a heartless person would refuse. Each strand alone might be answered. Together they close off every version of no, so each way of declining sets off a different alarm. Real duties, real stakes and real worry can all exist in one situation without anyone assembling them. What marks FOG is the combination arriving reliably around one particular request.",
-    "plain_language_summary": "When you think about saying no, you are scared of what might happen, you feel you owe a debt, and you feel guilty for even considering it, all at once.",
+    "plain_language_summary": "When you think about saying no, you are scared of what might happen. You feel you owe a debt, and you feel guilty for even considering it, all at once.",
     "why_this_matters": "Any one of these pressures might be refusable alone. Layered together, they leave no kind of no that does not feel frightening, ungrateful or cruel at the same moment.",
     "what_it_is": [
       "Three strands of pressure delivered together, often in a single conversation about one decision.",
@@ -269,12 +269,12 @@
       "You keep paying the debt, but the amount owed is never settled."
     ],
     "repair_check": "Check whether the three strands actually leave. Someone changing course would name which pressure they applied, drop the vague hints and let a no stand without a cold week afterward. An apology that arrives alongside new, slightly different pressure is the same fog in different weather.",
-    "boundary_respect_check": "Think about the week after you decline. Is the relationship as warm as before, or is there a price, such as silence, a reminder of debts or a mention of what might go wrong? A boundary that is respected costs you nothing afterward.",
+    "boundary_respect_check": "Think about the week after you decline. Is the relationship as warm as before? Or is there a price, such as silence, a reminder of debts or a mention of what might go wrong? A boundary that is respected costs you nothing afterward.",
     "psychological_mechanism": "Fear, obligation and guilt each speak to a different need: safety, fairness and belonging. A refusal that threatens all three leaves no safe place to stand. Vagueness in the fear can help it work. Imagination fills in a consequence larger than anything said aloud, and an unnamed danger is hard to argue with.",
     "possible_impact_on_receiver": "Some report a tight chest or dread before the phone rings, and agreeing just to make it stop. Others say they can no longer tell whether a decision is their own. Over time, simple requests from that person can feel loaded, even when they are not.",
     "response_options": {
       "soft_clarification": "Name one strand calmly: 'I notice I feel pressured to say yes. Can we look at the request on its own?'",
-      "firm_boundary": "Hold to one short, repeatable line: 'I'm going to think about it, and I'll tell you what I decide.' Time keeps the three strands from landing at once.",
+      "firm_boundary": "Hold to one short, repeatable line. For example: 'I'm going to think about it, and I'll tell you what I decide.' Time keeps the three strands from landing at once.",
       "disengagement": "Postpone the answer. Saying 'I'll get back to you' and then taking a day gives the pressure time to fade and your own judgment time to return.",
       "support_seeking": "Write the fear, the debt and the guilt as three separate lists. Show them to someone outside the situation, such as a counselor or friend. Seeing them apart often changes their weight.",
       "workplace_or_professional": "At work, ask for any consequence or expectation in writing from HR or a supervisor. Then fears can be checked against real policy and not hints."
@@ -365,12 +365,12 @@
       "You feel relief when their mood lifts that has little to do with enjoying their company."
     ],
     "repair_check": "Take note of what changes when you decline a small request. Someone working on this would tell you they were upset, handle it with other people and not mention it again as your doing. A promise to 'try not to get upset' followed by the same collapse next time has not shifted anything.",
-    "boundary_respect_check": "After a no, who is looking after the feeling? If it stays with the person who has it and you are not asked to fix it, your boundary has been respected, even if they are sad. If the sadness is handed back to you as a debt, it has not.",
+    "boundary_respect_check": "After a no, who is looking after the feeling? If it stays with the person who has it and you are not asked to fix it, your boundary has been respected. That holds even if they are sad. If the sadness is handed back to you as a debt, it has not.",
     "psychological_mechanism": "Most people want the people close to them to be okay, and a visible low mood speaks to that. When the mood reliably follows a refusal, saying no can start to seem like causing harm instead of making a choice. Compliance then brings quick relief to both people, which can teach the pattern without anyone saying anything.",
     "possible_impact_on_receiver": "The image of eggshells comes up often. You may cancel your own plans, hide good news or stay quiet when you disagree. Many feel responsible for moods that are not theirs to carry, and tired from constantly forecasting how a small decision will land.",
     "response_options": {
       "soft_clarification": "Acknowledge the feeling without taking on the job: 'I can see you're disappointed. I still can't come, and I hope tonight goes okay.'",
-      "firm_boundary": "Separate the feeling from the decision, gently, with words like: 'Your being upset matters to me, and I still need to decide this one myself.' If talk of self-harm comes up, stay with them. Call a crisis line or emergency services together.",
+      "firm_boundary": "Separate the feeling from the decision, gently. You could say: 'Your being upset matters to me, and I still need to decide this one myself.' If talk of self-harm comes up, stay with them. Call a crisis line or emergency services together.",
       "disengagement": "If the mood turns into silence, let it run without chasing it. Do something steadying for yourself, and talk about the request later at a calmer time.",
       "support_seeking": "Describe the loop to a friend or therapist: your answer, their mood, your next decision. Others can often tell you how much of it belongs to you.",
       "workplace_or_professional": "At work, a colleague's visible mood may steer decisions. If so, ask for decisions to be made against criteria agreed in advance, and raise it with your manager if it continues."
@@ -474,7 +474,7 @@
     },
     "boundary_script": "\"I can see you're upset, and I'm not trying to make it worse. Let's pause now and pick this up tomorrow evening, because it still matters to me.\"",
     "safety_sensitive": false,
-    "safety_note": "Tears alone are not a danger signal. Pay attention if crying is followed by threats, by accusations that you are harming them, or by promises of self-injury unless you drop the matter. In that case, take it to a counselor or crisis service and decide with them how to respond. A one-on-one debate is the wrong place for it.",
+    "safety_note": "Tears alone are not a danger signal. Pay attention if crying is followed by threats or by accusations that you are harming them. Also watch for promises of self-injury unless you drop the matter. In any of those cases, take it to a counselor or crisis service and decide with them how to respond. A one-on-one debate is the wrong place for it.",
     "misuse_warning": [
       "Treating someone's real tears as a trick is cruel and can silence people who cry easily or are in distress.",
       "The label says nothing about what the person feels, so it cannot be used to prove they are faking."
@@ -560,7 +560,7 @@
     ],
     "repair_check": "Unwritten rules become written ones. Someone working on this tells you openly what they expect, asks whether you agree and accepts a no. A promise to 'never bring it up again' that returns the next time you disagree has not changed the pattern.",
     "boundary_respect_check": "Ask whether you are allowed to put the secret down. Say 'I'd rather not be the only one who knows this'. Does the person find another source of support, or take it as proof that you cannot be trusted? The answer shows how the boundary landed.",
-    "psychological_mechanism": "Being trusted with something personal creates real closeness and a sense of responsibility, and most people want to honor that. When the trust is later named as a reason to comply, disagreeing may look like a betrayal of the person, and more than a reply to a request. Rules never stated are hard to challenge, because there was no moment to say no.",
+    "psychological_mechanism": "Being trusted with something personal creates real closeness and a sense of responsibility, and most people want to honor that. When the trust is later named as a reason to comply, disagreeing may look like a betrayal of the person. It is then more than a reply to a request. Rules never stated are hard to challenge, because there was no moment to say no.",
     "possible_impact_on_receiver": "Feeling trapped by what you know, along with guilt about wanting out, is how some describe it. Some report holding back opinions or avoiding the person whose secret they carry. Others say they could not tell where friendship ended and obligation began, and told almost nobody about it.",
     "response_options": {
       "soft_clarification": "Ask for the expectation to be said aloud: 'I didn't know that was a rule between us. Can you tell me what you were counting on?'",
@@ -571,7 +571,7 @@
     },
     "boundary_script": "\"I'm honored that you told me that, and I will keep it private. It doesn't mean I owe you a yes on this. Can we talk through what you expect, so I don't find out by getting it wrong?\"",
     "safety_sensitive": false,
-    "safety_note": "Pay attention if what you hold is used to scare you, such as a hint that the secret could be told, or that someone could come to harm if you step away. That moves this into threat territory. Keep a private note of what was said and when. Take it to an advocate or lawyer before responding, especially if the secret involves money, immigration status or safety.",
+    "safety_note": "Pay attention if what you hold is used to scare you. Examples are a hint that the secret could be told, or a hint that someone could come to harm if you step away. That moves this into threat territory. Keep a private note of what was said and when. Take it to an advocate or lawyer before responding, especially if the secret involves money, immigration status or safety.",
     "misuse_warning": [
       "Being asked to keep a confidence is not an installed obligation. The label fits when it is later used against your choices.",
       "Do not apply it to someone who is hurt that you did not tell them something. They may be reacting out of closeness and not trying to hold something over you."
@@ -579,9 +579,9 @@
     "how_to_distinguish_from_related": "Duty Scripts cite a role ('a good son would'). Here the hold comes from something you were told, or assumed you had agreed to. Emotional Blackmail makes the relationship itself depend on your yes. Obligation Installation works earlier, setting up the debt before any request. Guilt-Tripping acts on a refusal in the moment, while this lays the groundwork for one."
   },
   "Guilt Legacy": {
-    "short_definition": "Treating a debt from before you were born, like a family sacrifice or an ancestor's hardship, as yours to repay by doing what is asked.",
-    "core_meaning": "Treating a debt from before you were born, like a family sacrifice or an ancestor's hardship, as yours to repay by doing what is asked.",
-    "expanded_definition": "Guilt Legacy asks you to repay what you never borrowed. A parent's sacrifice, a grandparent's journey or a family's hardship is raised as a debt. Going along with a present demand, such as a marriage, a career, money or where you live, is the payment. Many families hold real values of duty and gratitude, and sharing history is often loving. The concern starts when the history is used mainly to settle a current disagreement, and saying no is treated as betraying the whole family line, as well as one person.",
+    "short_definition": "Treating a family sacrifice or an ancestor's hardship from before you were born as a debt you repay by doing what is asked.",
+    "core_meaning": "Treating a family sacrifice or an ancestor's hardship from before you were born as a debt you repay by doing what is asked.",
+    "expanded_definition": "Guilt Legacy asks you to repay what you never borrowed. A parent's sacrifice, a grandparent's long journey or a family's hardship is raised as a debt. Going along with a present demand is the payment. Examples are a marriage, a career, money or where you live. Many families hold real values of duty and gratitude, and sharing history is often loving. The concern starts when the history is used mainly to settle a current disagreement. Then saying no is treated as betraying the whole family line, as well as one person.",
     "plain_language_summary": "A family's past hardship is used as a bill for you, so saying no to something now feels like betraying everyone who came before.",
     "why_this_matters": "Repayment is expected for a debt taken on before you could have agreed to it. Saying no is treated as a betrayal of a whole family line, and not of one relationship only.",
     "what_it_is": [
@@ -661,10 +661,10 @@
     "possible_impact_on_receiver": "Many describe a heavy sense of owing, and being unable to enjoy their own achievements without guilt. Some hide plans from the family or make major choices to avoid disappointing people who are no longer alive. A few report a loneliness of being valued for what they repay more than for who they are.",
     "response_options": {
       "soft_clarification": "Acknowledge the history without accepting the debt: 'I know how much was given up for this family, and I'm grateful. I still need to think about this decision for myself.'",
-      "firm_boundary": "Hold to one point with every relative: 'I respect what happened before me, and this decision is mine to make.' You do not have to defend your gratitude each time.",
+      "firm_boundary": "Hold to one point with every relative. For example: 'I respect what happened before me, and this decision is mine to make.' You do not have to defend your gratitude each time.",
       "disengagement": "When a long story about the family's sacrifices begins, you can listen politely and say 'thank you for telling me'. Then leave the decision for another day.",
       "support_seeking": "Speak with someone who knows both your culture and the pressure. This could be a trusted relative, a community elder who respects your choices or a counselor with that background.",
-      "workplace_or_professional": "If family is pressuring a professional decision, such as a transfer or job offer, ask a mentor or career adviser to help you weigh it outside the family conversation."
+      "workplace_or_professional": "If family is pressuring a professional decision, such as a transfer or job offer, ask for help. A mentor or career adviser can help you weigh it outside the family conversation."
     },
     "boundary_script": "\"I know what this family gave up, and I am grateful for it. Being grateful is not the same as owing this decision. Let me tell you what I'm thinking, and please hear me out.\"",
     "safety_sensitive": false,

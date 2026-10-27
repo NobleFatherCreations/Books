@@ -7,7 +7,7 @@
     "why_this_matters": "The original concern never gets a direct reply, so it stays open while the conversation ends looking as though it happened. The person who raised it is left unsure whether they were heard at all.",
     "what_it_is": [
       "A move away from a question, not a response to it: the topic changes, or the roles do.",
-      "It takes several forms. These include a counter-question, a tangent, a technicality, an older complaint, a joke, sudden concern about your tone, or a quick succession of unrelated subjects.",
+      "It takes several forms. These include a counter-question, a tangent, a technicality, an older complaint or a joke. They also include sudden concern about your tone, or a quick run of unrelated subjects.",
       "Often subtle enough that the conversation feels full, even warm, with no answer given.",
       "Can be an unplanned reflex under stress, and is visible in the exchange whatever the reason behind it.",
       "Matters by repetition: one subject is always avoided while others are discussed openly."
@@ -90,7 +90,7 @@
     },
     "boundary_script": "\"I'd like to go back to my first question before we move on, because I don't think I've had an answer yet. If you need time, tell me when you'll reply, and I'll hold off until then.\"",
     "safety_sensitive": false,
-    "safety_note": "Not a safety matter in itself. That changes when the question being avoided carries real stakes, like where money went, a medical decision, a child's wellbeing or a threat that was made. It changes, too, when raising it brings anger or fear. In that case, write down the question and what happened when you asked. Talk to a counselor or advocate before pressing it again.",
+    "safety_note": "Not a safety matter in itself. That changes when the question being avoided carries real stakes. Examples are where money went, a medical decision, a child's wellbeing or a threat that was made. It changes, too, when raising it brings anger or fear. In that case, write down the question and what happened when you asked. Talk to a counselor or advocate before pressing it again.",
     "misuse_warning": [
       "Calling a pause or a topic change deflection can punish someone for being overwhelmed. If you need an answer right now, check whether time is part of the request.",
       "The label can become a demand for a reply to every question. Nobody owes an answer on everything, and that holds most for private matters."

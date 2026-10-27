@@ -369,12 +369,12 @@
       "You say 'never mind' to end the talk, though the issue is unchanged.",
       "Over months you bring up fewer concerns, and the list you keep in your head gets longer."
     ],
-    "repair_check": "After you point out the swap, real change looks like them stating your original point back to you and answering it, even if the answer is no. An apology about the argument that never touches the original issue leaves that issue where it was.",
+    "repair_check": "After you point out the swap, real change is them stating your original point back to you. They then answer it, even if the answer is no. An apology about the argument that never touches the original issue leaves that issue where it was.",
     "boundary_respect_check": "Notice whether you can hold your topic. Say once, 'I'd like an answer to my first question,' and see if it gets one. If the reply is more about you, the request was met with the very move it was about.",
     "psychological_mechanism": "Conversations follow whichever topic is emotionally louder. A remark about your stability or character is hard to ignore, so your effort moves to defending yourself, which is more tiring than complaining. A loaded label does similar work early, since later facts are often read through it. Pushing back on a personal remark can sound like proving it, and the original concern gets quietly dropped.",
     "possible_impact_on_receiver": "After a talk like this, some people cannot say what they had meant to ask. They replay it for hours and wonder whether they really are as difficult as they were just told. Some begin rehearsing complaints in advance, or stop raising them. A slow sense that nothing they bring up ever gets settled is also common.",
     "response_options": {
-      "soft_clarification": "Name the swap and ask for both topics, with words like: 'I'd like to hear how I come across, and I'd also like an answer to what I first asked. Can we do mine first?'",
+      "soft_clarification": "Name the swap and ask for both topics. You could say: 'I'd like to hear how I come across, and I'd also like an answer to what I first asked. Can we do mine first?'",
       "firm_boundary": "Hold your topic: 'That may be worth talking about, but it's not the subject today. I asked about the canceled plans.'",
       "disengagement": "If the new topic keeps winning, stop the exchange and put the original concern in a short written note you can point back to.",
       "support_seeking": "Tell a friend your original question and ask them to say back what they hear. If they can state it clearly, you know the question was not the problem.",

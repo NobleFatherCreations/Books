@@ -2,7 +2,7 @@
   "Strategic Ambiguity": {
     "short_definition": "Wording a promise, an exclusion or an intention so loosely that several readings stay open, and the useful one is chosen later.",
     "core_meaning": "Wording a promise, an exclusion or an intention so loosely that several readings stay open, and the useful one is chosen later.",
-    "expanded_definition": "Strategic ambiguity is wording left loose enough that two people can leave the same conversation with different understandings, and nothing firm shows which was meant. Some call it ambiguity as a weapon. It can be vague promises and terms, or vague exclusion and tone that leave you unable to confirm what is happening. One fuzzy sentence proves nothing. What stands out is vagueness that keeps resolving the same way, on matters that carry weight for you.",
+    "expanded_definition": "Strategic ambiguity is wording left so loose that two people can leave the same conversation with different understandings. Nothing firm shows which was meant. Some call it ambiguity as a weapon. It can be vague promises and terms. It can also be vague exclusion and tone that leave you unable to confirm what is happening. One fuzzy sentence proves nothing. What stands out is vagueness that keeps resolving the same way, on matters that carry weight for you.",
     "plain_language_summary": "Someone's words can be read two ways. Later you cannot prove what was promised or whether you were being left out, and you are the one left unsure.",
     "why_this_matters": "You can feel that something was agreed, or that you are being left out, yet there is nothing firm to point to. Raising it risks sounding picky or paranoid, and staying quiet means carrying the doubt alone, sometimes while acting on a promise nobody pinned down.",
     "what_it_is": [
@@ -86,14 +86,14 @@
     "possible_impact_on_receiver": "Some people replay conversations to work out what was actually said. They feel picky for asking and hesitate to act on anything that is not in writing. Some turn down plans or work because they could not tell whether they were wanted. Others carry a lingering ache about whether they imagined being left out.",
     "response_options": {
       "soft_clarification": "Offer a recap that invites correction: 'So we agreed you'd pay half by the first of the month. Have I got that right?'",
-      "firm_boundary": "Ask for the point to be settled before you act, as in: 'I need a yes or a no on this by Friday, in a message I can keep.'",
+      "firm_boundary": "Ask for the point to be settled before you act. For example: 'I need a yes or a no on this by Friday, in a message I can keep.'",
       "disengagement": "Hold off on anything that depends on the loose promise. Make plans that do not rely on it, without arguing over what was meant.",
       "support_seeking": "Describe the exchange to a friend and ask what they would take it to mean. An outside reading shows whether the gap is as wide as it feels.",
       "workplace_or_professional": "After meetings, send a short email stating the decision, the owner and the date. Ask people to reply if they read it differently."
     },
     "boundary_script": "\"We should both be working from the same understanding. Can you tell me, in a message, exactly what you will do and by when? If you're not sure yet, just say that, and we can pick a day to decide.\"",
     "safety_sensitive": false,
-    "safety_note": "Vague wording is a clarity problem, and not a danger signal in itself. That changes when the vague wording covers housing, immigration paperwork, custody arrangements or money you depend on, or when asking for specifics brings anger or threats. In those cases, have the arrangement reviewed by a tenants' group, legal aid or a caseworker before you act on it.",
+    "safety_note": "Vague wording is a clarity problem, and not a danger signal in itself. That changes when the vague wording covers housing, immigration paperwork, custody arrangements or money you depend on. It also changes when asking for specifics brings anger or threats. In those cases, have the arrangement reviewed by a tenants' group, legal aid or a caseworker before you act on it.",
     "misuse_warning": [
       "Not every 'maybe' or 'we'll see' is a trap. Treating ordinary hedging as proof of bad faith can turn a clumsy communicator into a villain.",
       "Being unable to tell whether you are excluded does not show that you are. Asking plainly before concluding is fair to both sides."

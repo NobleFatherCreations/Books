@@ -75,7 +75,7 @@
     ],
     "repair_check": "Look for them to repeat back, in their own words, what was agreed and then do it without being asked a second time. Something that only looks like repair is a warm apology for the misunderstanding, followed by the same blank look next month.",
     "boundary_respect_check": "After you say you will explain it once, in writing, does the writing get read and used? A respectful answer is a reply like 'got it, I will do that by Friday'. A telling answer is a request to go through it all again out loud.",
-    "psychological_mechanism": "Appearing not to know can shift the work of the conversation onto the person who raised the issue. They often start explaining, defending the reasonableness of the request, or wondering whether they were clear enough, and the original concern slides out of view. Each repeat explanation can also wear down the energy people have to keep raising it.",
+    "psychological_mechanism": "Appearing not to know can shift the work of the conversation onto the person who raised the issue. They often start explaining, defending why the request is reasonable, or wondering whether they were clear enough. Meanwhile the original concern slides out of view. Each repeat explanation can also wear down the energy people have to keep raising it.",
     "possible_impact_on_receiver": "A particular tiredness from explaining the same thing over and over is a common account. So are a growing habit of doing the task alone and a nagging question of whether the request was ever clear. Some end up feeling that nagging has become their job. Trust wears away in small steps, long before any single incident stands out.",
     "response_options": {
       "soft_clarification": "Put the point in one clear sentence and ask them to restate it. You might say: 'So we're on the same page, can you tell me what you heard me ask for?'",
@@ -88,7 +88,7 @@
     "safety_sensitive": false,
     "safety_note": "This is rarely a danger on its own. It deserves more care if the 'I didn't know' covers money, medication, children's needs or a legal deadline. There, the cost of a missed duty falls on you or someone who depends on you. In that case, put the specific duty in writing. If a deadline or a child's welfare is involved, contact a legal aid service or the relevant office.",
     "misuse_warning": [
-      "Deciding that someone is 'faking it' because they didn't remember is an easy way to be unfair to people with real memory, attention or language difficulties.",
+      "Deciding that someone is 'faking it' because they didn't remember is an easy way to be unfair. It can be unfair to people with real memory, attention or language difficulties.",
       "Using the label to dismiss every honest question can punish people who just need a clearer explanation."
     ],
     "how_to_distinguish_from_related": "Denial says the thing did not happen or was not wrong, while feigned ignorance claims not to have known or understood it. Minimization admits it happened but shrinks the harm. Blame-Shifting assigns the fault to you instead of to a gap in knowledge. Here the claim is 'I did not know', and the test is whether that fits what else you have seen them understand.",

@@ -295,7 +295,7 @@
   "Apology Without Repair": {
     "short_definition": "An apology is offered but no change in behavior follows, so the same harm returns and the apology closes the matter each time.",
     "core_meaning": "An apology is offered but no change in behavior follows, so the same harm returns and the apology closes the matter each time.",
-    "expanded_definition": "Apology without repair is a sorry that works as an ending instead of a beginning. The words may be warm, specific and even tearful, but nothing is different afterwards. The same thing happens again, and the same sorry is offered. One apology not followed by instant change is normal, because change is slow and uneven. The pattern is the closed loop, where the apology stands in for the repair and raising the repeat is met with 'I already apologized.' This does not show whether the person means it.",
+    "expanded_definition": "Apology without repair is a sorry that works as an ending instead of a beginning. The words may be warm, specific and even tearful, but nothing is different afterwards. The same thing happens again, and the same sorry is offered. One apology not followed by instant change is normal, because change is slow and uneven. The pattern is the closed loop. The apology stands in for the repair. Raising the repeat is met with 'I already apologized.' This does not show whether the person means it.",
     "plain_language_summary": "They say sorry, sometimes beautifully, and then do the same thing again. After a few rounds the sorry starts to feel like a way of ending the conversation.",
     "why_this_matters": "Each apology closes the incident without changing anything. The same harm can recur while, on paper, it has been dealt with every time. The person on the receiving end is left holding a record of apologies and no change.",
     "what_it_is": [
@@ -475,8 +475,8 @@
       "soft_clarification": "Separate the two things: 'I do want us to be okay, and I need to talk about what happened before I can get there.'",
       "firm_boundary": "Decline the deadline: 'Forgiveness isn't something I can schedule. I'll tell you if and when I get there, and until then, please don't ask.'",
       "disengagement": "You can skip events or conversations where you will be expected to act as if nothing happened. You do not have to explain yourself to everyone.",
-      "support_seeking": "Talk to someone outside the family or group who will not be asked to take sides, such as a counselor, a faith leader you trust, or a friend. Ask what they would want from you.",
-      "workplace_or_professional": "If a manager asks you to bury the hatchet before a complaint has been looked at, ask in writing how the complaint is being handled. Make clear that forgiving is not a condition of the process."
+      "support_seeking": "Talk to someone outside the family or group who will not be asked to take sides. This could be a counselor, a faith leader you trust, or a friend. Ask what they would want from you.",
+      "workplace_or_professional": "A manager may ask you to bury the hatchet before a complaint has been looked at. If so, ask in writing how the complaint is being handled. Make clear that forgiving is not a condition of the process."
     },
     "boundary_script": "\"I'd like things to be better between us. Before I can forgive, I need what happened to be acknowledged, and I can't rush that. Please don't ask me again for now. I'll tell you when I'm ready.\"",
     "safety_sensitive": true,
@@ -490,7 +490,7 @@
   "Plausible Deniability": {
     "short_definition": "Someone acts in ways that can always be explained as concern, policy or accident, so no single incident can be called harmful without the accuser sounding unfair.",
     "core_meaning": "Someone acts in ways that can always be explained as concern, policy or accident, so no single incident can be called harmful without the accuser sounding unfair.",
-    "expanded_definition": "Plausible deniability is a structure where each action arrives with a reasonable explanation attached. Examples are 'I was worried about you', 'it's company policy', 'I didn't mean it like that', and 'that must have been a mistake'. Often the explanation is simply true. What makes it a pattern, rather than a run of ordinary events, is that the effects add up in one direction while every single example can be defended. In politics and law the term has a formal sense of leaders arranging to claim ignorance. In daily life the pattern is looser, and spotting it does not show what anyone intended.",
+    "expanded_definition": "Plausible deniability is a structure where each action arrives with a reasonable explanation attached. Examples are 'I was worried about you', 'it's company policy', 'I didn't mean it like that', and 'that must have been a mistake'. Often the explanation is simply true. What makes it a pattern, not a run of ordinary events, is that the effects add up in one direction. Yet every single example can be defended. In politics and law the term has a formal sense of leaders arranging to claim ignorance. In daily life the pattern is looser, and spotting it does not show what anyone intended.",
     "plain_language_summary": "Every time something harmful happens, there is a decent-sounding reason, so you can never point to one thing without feeling unfair. Only the whole pile shows the shape.",
     "why_this_matters": "Every incident comes with a fair-sounding explanation. Raising any one of them can make the person raising it look unreasonable. To describe the pattern, you have to point at things that look like nothing when taken separately.",
     "what_it_is": [
@@ -565,7 +565,7 @@
       "You rehearse how to raise something so that it will not sound unreasonable.",
       "You wonder whether you are being unfair, even when the effects are plain."
     ],
-    "repair_check": "Repair here means the effect itself changes. If you tell them what the pattern is doing to you and the behavior adjusts, you get your information or access back, and that is repair. A fresh, equally reasonable reason for the same outcome is not repair.",
+    "repair_check": "Repair here means the effect itself changes. If you tell them what the pattern is doing to you, and the behavior adjusts, that is repair. You get your information or access back. A fresh, equally reasonable reason for the same outcome is not repair.",
     "boundary_respect_check": "State the effect you need to stop, without arguing over their reasons, and watch the next few weeks. Respect shows as the effect ending, whatever their explanation. If a new justification appears for the same outcome, the boundary has been routed around, not honored.",
     "psychological_mechanism": "When every action comes with a reasonable explanation, the listener often judges each incident alone, and each looks too small to object to. Objecting then carries a social cost, since it can make the objector seem suspicious or ungrateful. Doubt can turn inward, with the person wondering whether their reaction is the problem rather than the pattern.",
     "possible_impact_on_receiver": "A creeping doubt about whether they are being unreasonable is common. So is a habit of saving up incidents that each feel too small, and difficulty explaining to others why they are troubled. Some feel isolated by how reasonable everything sounds. Others describe relief when they put the incidents on paper and see the shape for the first time.",
@@ -578,7 +578,7 @@
     },
     "boundary_script": "\"I believe you may have good reasons each time, and I'm not asking you to prove them. Could we think about how messages and accounts are handled, with a third person there? I would feel better that way.\" Offer it only when you judge it safe; if not, take the list to an advocate first.",
     "safety_sensitive": true,
-    "safety_note": "Concern and rules are a common explanation for controlling behavior such as reading your messages, tracking your location, holding your documents, or limiting your contact with friends and money. The explanations may lead to you losing access to those things, or you may fear the response to questions. Then take your dated list to a domestic abuse advocate or, at work, an employment lawyer. Keep copies of key documents somewhere safe outside the situation.",
+    "safety_note": "Concern and rules are a common explanation for controlling behavior. This includes reading your messages, tracking your location, holding your documents, or limiting your contact with friends and money. The explanations may lead to you losing access to those things. Or you may fear the response to questions. Then take your dated list to a domestic abuse advocate or, at work, an employment lawyer. Keep copies of key documents somewhere safe outside the situation.",
     "misuse_warning": [
       "Not every explanation is a cover story. If all reasons are treated as cover, honest explanation becomes impossible, and so does disproving the label.",
       "The term describes a pattern, so using it on a single incident turns an ambiguous event into an accusation it cannot support."

@@ -173,12 +173,12 @@
       "You hesitate before sharing anything you find with this person.",
       "Your picture of your own finances, health or family comes mostly from one voice."
     ],
-    "repair_check": "Look at what comes back to you: passwords handed over, post opened by you, calls you make alone, and outside sources discussed without a sneer. An apology changes little if the same person still answers the phone for you.",
+    "repair_check": "Look at what comes back to you. That includes passwords handed over, post opened by you, calls you make alone, and outside sources discussed without a sneer. An apology changes little if the same person still answers the phone for you.",
     "boundary_respect_check": "Ask yourself a plain question after you request something: was it simply handed to you, and could you talk about it afterwards? If the conversation turns to why you needed to look, the request is being treated as the problem.",
     "psychological_mechanism": "A person's sense of what is true leans heavily on cross-checking with others. When one source supplies most of the facts and dismisses the rest in advance, the cross-check weakens. The person may come to treat that source as the only reliable one. The more they depend on it for housing, money or belonging, the harder it can be to test its version.",
     "possible_impact_on_receiver": "Many are oddly unsure what is happening in their own finances, health or family. They lean on one voice for facts and feel guilty for wanting to look something up. Some find later that what they were told was incomplete, and grieve the lost time. Others feel foggy or isolated even when surrounded by people.",
     "response_options": {
-      "soft_clarification": "Calmly ask for the information itself: 'Can you forward me that letter so I can read it too?' Their answer shows whether sharing is possible.",
+      "soft_clarification": "Calmly ask for the information itself. For example: 'Can you forward me that letter so I can read it too?' Their answer shows whether sharing is possible.",
       "firm_boundary": "If past reactions suggest it is safe, say one plain need: 'I'd like to read the letter myself.' If not, skip it. An advocate can help you reach your statements and mail another way.",
       "disengagement": "Stop explaining where you got a piece of information. You can read, call or ask someone in your own time. Keep what you learn to yourself until you know what to do with it.",
       "support_seeking": "Check one or two facts you were given with an outside source you trust, and compare. This could be your own doctor, a bank, a library or a friend who knew you before.",
@@ -216,7 +216,7 @@
       "I just need to check that you're being safe online."
     ],
     "what_it_is_not": [
-      "An arrangement both people agreed to and can end, such as managing a young child's tablet or sharing a family account that either person can leave.",
+      "An arrangement both people agreed to and can end. Examples are managing a young child's tablet, or sharing a family account that either person can leave.",
       "A disclosed institutional requirement applied to everyone, such as monitored work accounts with the policy in writing.",
       "A streaming login, shared calendar or photo library that you both set up and either of you can end.",
       "A one-off, like handing over a phone to show one specific message, where permission is asked and the scope stays limited to that message.",
@@ -283,7 +283,7 @@
     },
     "boundary_script": "\"I can tell you're worried, and I want to talk about that. What would help you feel more settled right now? I'd rather tell you things than have my phone checked.\" Try it only if a calm reaction is likely. Otherwise, speak with an advocate first.",
     "safety_sensitive": true,
-    "safety_note": "Access demands can sit alongside stalking, or threats about what will be done with whatever is found. Warning signs include the other person knowing things you never told them, apps you did not install, or fear of what happens if you change a passcode. Contact a domestic abuse advocate from a device they cannot reach, and ask how to check your phone safely for tracking software.",
+    "safety_note": "Access demands can sit alongside stalking, or threats about what will be done with whatever is found. Warning signs include the other person knowing things you never told them. Others are apps you did not install, or fear of what happens if you change a passcode. Contact a domestic abuse advocate from a device they cannot reach. Ask how to check your phone safely for tracking software.",
     "misuse_warning": [
       "A parent's age-appropriate checks on a child's device, or a partner's one-off 'show me that text', are not this pattern. Treating them as if they were overlooks consent and scope.",
       "The label can be used to avoid accountability after someone has actually broken a trust. A mutual conversation about rebuilding that trust would be fairer."
@@ -293,11 +293,11 @@
   "Enforcing Trivial Demands": {
     "short_definition": "Insisting on exact compliance with small, pointless-looking rules, treated far more seriously than the stakes deserve, until going along becomes routine.",
     "core_meaning": "Insisting on exact compliance with small, pointless-looking rules, treated far more seriously than the stakes deserve, until going along becomes routine.",
-    "expanded_definition": "Enforcing Trivial Demands means holding people to small rules with no clear purpose, such as which way the towels hang, the order of a morning routine or the exact words of a greeting. Strong reactions follow when they are missed. One fussy preference means little, and many rules have a reason not everyone knows. What marks it is rules that multiply, a reaction far bigger than the stakes, and no reason given, or a reason that keeps changing. Over time, complying becomes the default.",
+    "expanded_definition": "Enforcing Trivial Demands means holding people to small rules with no clear purpose. Examples are which way the towels hang, the order of a morning routine or the exact words of a greeting. Strong reactions follow when they are missed. One fussy preference means little, and many rules have a reason not everyone knows. What marks it is rules that multiply and a reaction far bigger than the stakes. There is also no reason given, or a reason that keeps changing. Over time, complying becomes the default.",
     "plain_language_summary": "Petty rules with no point are enforced as if they mattered enormously, and you learn to follow them to keep the peace.",
     "why_this_matters": "When going along with petty rules becomes automatic, going along with big ones can feel like the same small step. The person also loses the ability to tell what truly matters to the other and what is just upkeep.",
     "what_it_is": [
-      "Rules about details with no visible purpose, such as how the dishwasher is stacked, how a bed is made, where the keys hang or the order of a morning routine.",
+      "Rules about details with no visible purpose. Examples are how the dishwasher is stacked, how a bed is made, where the keys hang or the order of a morning routine.",
       "Enforced with weight, such as sighs, a lecture, silence or a redo, that doesn't fit the thing that was missed.",
       "Rules that tend to multiply or move, so a person who gets one right finds another waiting.",
       "Reasons that are absent, or that shift when questioned.",
@@ -371,17 +371,17 @@
     "repair_check": "Something has shifted when a rule is dropped or explained and the strong reaction does not simply move on to the next small thing. Watch what happens to the list: does it shrink, and can you do things your own way without a penalty? A single apology while the rules stay does not change the day-to-day.",
     "boundary_respect_check": "Compare two responses. One person lets you load the dishwasher your way and may say it isn't how they would do it. Another has you redo it, or finds a new rule once the old one lapses. The first leaves your way of doing things alone; the second keeps the structure.",
     "psychological_mechanism": "Small repeated compliance can build a habit that needs no thought. Pushing back on something petty brings a big reaction, and giving in brings calm. People may learn to choose calm, and the habit can carry over to larger requests. Missing reasons can also leave a person anxious, trying to guess what the rules are.",
-    "possible_impact_on_receiver": "Reports include tiredness from constant vigilance, a sense of being a child or a new employee in their own home, and doubt about what is reasonable. Some feel shame at having obeyed rules they could not defend. Others notice that they now defer on bigger things as well, and cannot say when that began.",
+    "possible_impact_on_receiver": "Reports include tiredness from constant vigilance, and doubt about what is reasonable. Some people have a sense of being a child or a new employee in their own home. Some feel shame at having obeyed rules they could not defend. Others notice that they now defer on bigger things as well, and cannot say when that began.",
     "response_options": {
-      "soft_clarification": "Ask what the rule is for, in a curious tone: 'Help me understand why the cups go that way, so I can get it right.' A reason or a shrug will both tell you something.",
-      "firm_boundary": "Say plainly that you will do this task your way: 'I'll load the dishwasher, and I'll do it how I do it.' Keep your tone level and your reasons short. If you expect anger, pick a calmer moment or skip this one.",
+      "soft_clarification": "Ask what the rule is for, in a curious tone. For example: 'Help me understand why the cups go that way, so I can get it right.' A reason or a shrug will both tell you something.",
+      "firm_boundary": "Say plainly that you will do this task your way. For example: 'I'll load the dishwasher, and I'll do it how I do it.' Keep your tone level and your reasons short. If you expect anger, pick a calmer moment or skip this one.",
       "disengagement": "Pick one or two rules that cost you nothing and let others pass without comment, so your energy goes to the ones that matter. Choosing what to follow is different from giving in to all of it.",
       "support_seeking": "List the rules you follow in a typical week and show the list to someone outside the home or team. Their reaction to the length of it can help you see what has become normal.",
       "workplace_or_professional": "For petty procedures from a manager, ask for them in the written process and note who else has to follow them. If you are singled out, keep dated examples for HR or a union representative."
     },
     "boundary_script": "\"Getting this right matters to me. Can you tell me what the rule is for? If there's no particular reason, let me try it this other way and see how that goes.\"",
     "safety_sensitive": true,
-    "safety_note": "Petty rules become a safety issue when missing one brings shouting, threats, damage to your things, or the loss of food, sleep, money or a place to live. Rules about who you contact or what you wear deserve attention too. If the reaction to a small slip frightens you, tell someone outside the home. Ask a domestic abuse advocate how to think through next steps.",
+    "safety_note": "Petty rules become a safety issue when missing one brings shouting, threats or damage to your things. They also do when it brings the loss of food, sleep, money or a place to live. Rules about who you contact or what you wear deserve attention too. If the reaction to a small slip frightens you, tell someone outside the home. Ask a domestic abuse advocate how to think through next steps.",
     "misuse_warning": [
       "Calling a strong preference 'trivial demands' can dismiss someone with real sensory or safety reasons they find hard to explain. Ask for the reason before judging.",
       "A single fussy request, or a house rule you simply dislike, is not the pattern. The label needs rules that multiply and reactions out of proportion."
@@ -471,14 +471,14 @@
     "possible_impact_on_receiver": "A nagging unease that is hard to justify is common. People also replay moments to check whether they overreacted, and feel foolish for not objecting earlier. Some become wary of the person without being able to explain why to others. Many say they felt relief when they saw the steps laid out in order.",
     "response_options": {
       "soft_clarification": "Describe the sequence in neutral terms and ask whether they knew: 'This is the third call after nine. I'd said I'd rather not take calls then, so I wasn't sure you remembered.'",
-      "firm_boundary": "Restate the limit in one short sentence and add no reasons, like 'No calls after nine.' If a similar version appears, point to the same limit in the same calm tone.",
+      "firm_boundary": "Restate the limit in one short sentence, and add no reasons. For example: 'No calls after nine.' If a similar version appears, point to the same limit in the same calm tone.",
       "disengagement": "Let late messages wait until morning and answer in the form you prefer. Not replying at once is a limit in itself, and needs no announcement.",
       "support_seeking": "Write down dates and what happened, then tell someone you trust the whole list at once. Seen together, the small steps often look different from how they felt one at a time.",
       "workplace_or_professional": "At work or with clients, restate the limit in writing, such as 'Please contact me during office hours only'. Keep dated copies of the crossings for your manager or HR."
     },
     "boundary_script": "\"I said no calls after nine, and this one came at ten. I'd like us to keep to that, and I'm happy to talk about what was so urgent.\"",
     "safety_sensitive": false,
-    "safety_note": "Testing is usually a matter of pace and respect. It deserves more concern when the steps move toward your body, home, location or belongings, or when saying no to a small step brings anger. Trust the discomfort you notice early. If crossings include touch you did not agree to, following you, or turning up uninvited at home, take that seriously. Keep a dated record and contact an advocate or the police non-emergency line.",
+    "safety_note": "Testing is usually a matter of pace and respect. It deserves more concern when the steps move toward your body, home, location or belongings. It also does when saying no to a small step brings anger. Trust the discomfort you notice early. If crossings include touch you did not agree to, following you, or turning up uninvited at home, take that seriously. Keep a dated record and contact an advocate or the police non-emergency line.",
     "misuse_warning": [
       "Reading every awkward misstep as testing can punish people who simply didn't know the limit. The label needs a limit that was clear and a crossing that repeated.",
       "Telling someone they are 'testing' you in the middle of a disagreement can end the chance for them to just say sorry and adjust."
@@ -496,7 +496,7 @@
       "Concern used as a reason: 'I just worry', 'I only want what's best', in reply to your own plans.",
       "Persistence in a soft tone that continues after you have said no, until saying yes is easier.",
       "Gratitude expected: you are reminded how much is done for you whenever you differ.",
-      "It shows up between couples, between parents and adult children, in caring roles, at workplaces with a kindly mentor, and in groups led by a warm leader."
+      "It shows up between couples and between parents and adult children. It also shows up in caring roles, at workplaces with a kindly mentor, and in groups led by a warm leader."
     ],
     "what_it_sounds_like": [
       "I just worry about you, that's all.",

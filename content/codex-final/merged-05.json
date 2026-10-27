@@ -296,8 +296,8 @@
     "how_to_distinguish_from_related": "Martyrdom Display advertises sacrifice to build obligation and need not make any request. Guilt-tripping uses sacrifice to push against a specific refusal. Demand for Gratitude asks for thanks as payment for help given. Duty Scripts invoke role expectations such as 'a good daughter would'. Guilt-tripping relies on your sense of owing and does not need a role."
   },
   "Weaponized Generosity": {
-    "short_definition": "Giving gifts, favors or help in a way that leaves the receiver in debt, so the giving can be turned into leverage for a later request.",
-    "core_meaning": "Giving gifts, favors or help in a way that leaves the receiver in debt, so the giving can be turned into leverage for a later request.",
+    "short_definition": "Giving gifts, favors or help in a way that leaves the receiver in debt, so the giving can be used to press a later request.",
+    "core_meaning": "Giving gifts, favors or help in a way that leaves the receiver in debt, so the giving can be used to press a later request.",
     "expanded_definition": "Weaponized generosity is giving that later works as a debt. A gift, favor or loan arrives, often unasked and sometimes in front of others. Later it is named as the reason you should say yes to something else. Some people call these loan-sharking gifts. At the moment it is given, the kindness looks like honest kindness. What gives it away comes afterwards, when the gift is brought up for a separate demand and the warmth drops if you decline.",
     "plain_language_summary": "Someone does you a favor or gives you something. Later they use it as a reason you must say yes to something else, and they treat a no as ingratitude.",
     "why_this_matters": "Accepting a kindness can turn out to have been entering a deal whose price is set later, by someone else, for something unrelated. Witnesses who saw only the giving also raise the cost of saying no.",
@@ -318,7 +318,7 @@
       "I don't want anything for it, but I won't forget this."
     ],
     "what_it_is_not": [
-      "Openly trade-based giving, like 'I'll lend you the car if you drop me at the airport.' Both sides know the terms, and either can say no.",
+      "Open give-and-take, like 'I'll lend you the car if you drop me at the airport.' Both sides know the terms, and either can say no.",
       "A person who is directly honest about wanting something in return and accepts a 'no' without consequence.",
       "Reciprocal favors between friends who both understand and welcome the give-and-take.",
       "Generosity that the giver never brings up again, whatever you do.",
@@ -385,7 +385,7 @@
     },
     "boundary_script": "\"Your help with that was kind. I want to keep it separate from this decision, and my answer to this is no. If it's the cost that matters to you, tell me the amount and I'll pay it back.\"",
     "safety_sensitive": false,
-    "safety_note": "A favor with strings is pressure on your choice, and not a danger by itself. That changes if the debt touches where you live, your income or your immigration status, because then refusing puts a roof or livelihood at risk. If what you owe is tied to housing, work or legal status, speak to legal aid or a tenants' or migrant advocate before agreeing to or repaying anything.",
+    "safety_note": "A favor with strings is pressure on your choice, and not a danger by itself. That changes if the debt touches where you live, your income or your immigration status. Then refusing puts a roof or livelihood at risk. If what you owe is tied to housing, work or legal status, speak to legal aid or a tenants' or migrant advocate. Do this before agreeing to or repaying anything.",
     "misuse_warning": [
       "Treating every kind act as a hidden trap can make you refuse honest help, and punish people for generosity. The tell is what is demanded later, not the gift.",
       "Accusing a giver on the strength of one awkward ask can wound someone who simply hoped to be helped in return."

@@ -86,7 +86,7 @@
   },
   "boundary_script": "\"I heard two things just now: that it did not happen, and that it was fair. I can talk about either one, but not both at once. Which would you like to start with?\"",
   "safety_sensitive": false,
-  "safety_note": "A mix of denial and defense is a confusing conversation, and it is not a danger sign in itself. It would call for more care if the justification starts to include blame that leads to punishment, or if you are made to feel afraid of the reaction when you disagree. It would also call for more care if money, access to children or housing hang on the outcome. In those cases, talk with a counselor or advocate.",
+  "safety_note": "A mix of denial and defense is a confusing conversation, and it is not a danger sign in itself. It would call for more care if the justification starts to include blame that leads to punishment. The same goes if you are made afraid of the reaction when you disagree. It would also call for more care if money, access to children or housing hang on the outcome. In those cases, talk with a counselor or advocate.",
   "misuse_warning": [
    "Spotting two clashing statements in a single argument does not prove a tactic. People under stress contradict themselves all the time, so look for the same pair returning across many incidents.",
    "Pointing out someone's contradiction in a triumphant way can turn into a way of winning instead of understanding."
@@ -98,7 +98,7 @@
   "core_meaning": "Defending a claim by pointing back to the claim itself, so no outside fact is ever allowed to test it.",
   "expanded_definition": "A circular argument offers the conclusion as its own reason. It is true because it is true, or because the speaker feels sure. Everyone slips into this in a quarrel. It matters when it is the main way a disagreement gets handled, and your questions are answered with a looped restatement. The loop contains no checkable fact, so there is nothing to agree or disagree with. The talk can run for an hour without moving.",
   "plain_language_summary": "Every reason you get is just the first claim in new words. The talk goes in circles and never reaches anything you can check.",
-  "why_this_matters": "When every challenge sends you back to the starting point, you cannot win, lose or even learn what the other person bases their view on. Long loops can wear a person down until agreeing seems easier than asking again for a reason.",
+  "why_this_matters": "When every challenge sends you back to the starting point, you cannot win or lose. You cannot even learn what the other person bases their view on. Long loops can wear a person down until agreeing seems easier than asking again for a reason.",
   "what_it_is": [
    "A claim supported by itself, as in 'I'm right because I'm not wrong.'",
    "Reasons that, when examined, only repeat the point in different wording.",
@@ -167,7 +167,7 @@
    "You can recall arguments that lasted hours and cannot name a single point that was actually made.",
    "You start to quote their circular phrases back to yourself, such as 'I'm too sensitive to judge.'"
   ],
-  "repair_check": "Mending this looks like a reason you can check showing up in the next disagreement. It can also be an honest 'I can't explain why I think so, but I do.' A promise to listen better that is followed by the same loop leaves the loop running.",
+  "repair_check": "Mending this means a reason you can check shows up in the next disagreement. It can also be an honest 'I can't explain why I think so, but I do.' A promise to listen better changes nothing if the same loop follows.",
   "boundary_respect_check": "Try asking once for a single concrete reason, then notice what changes. A person who respects the request will name something, even a weak thing. If the request is treated as proof that you are not listening, the boundary is not landing.",
   "psychological_mechanism": "A loop with no fact in it gives a listener no weak point to test. So they may keep searching for one and blame their own slowness. The same sentence coming back again and again can start to sound true just because it is familiar. Giving in may become the quickest way out of the discomfort.",
   "possible_impact_on_receiver": "Long talks end with a dizzy sense of having missed something. Then comes replaying the argument, looking for the point nobody grasped. Some doubt their own reasoning, some stop asking questions, and some feel oddly guilty for wanting a reason at all.",
@@ -275,7 +275,7 @@
   },
   "boundary_script": "\"I understand you are upset, and I want to hear what happened. I'm going to keep to what I did, and not accept a word that describes me as a person. What was the thing that hurt?\"",
   "safety_sensitive": false,
-  "safety_note": "Heavy labels are usually a communication problem, and not a danger signal. Take more care if the labels are used to isolate you from friends ('they're toxic, they're against us'), to threaten your job or custody of children, or to justify punishment. In those cases, document what is said and speak with an advocate or counselor outside the relationship.",
+  "safety_note": "Heavy labels are usually a communication problem, and not a danger signal. Take more care if the labels isolate you from friends ('they're toxic, they're against us'). Also take more care if they are used to threaten your job or custody of children, or to justify punishment. In those cases, document what is said and speak with an advocate or counselor outside the relationship.",
   "misuse_warning": [
    "Calling someone's words 'loaded language' can brush aside a person who is truly hurt and has no gentler words yet.",
    "Not every strong word is a tactic. A fitting label, backed by examples, is accurate speech and not manipulation."
@@ -380,7 +380,7 @@
   "short_definition": "Saying the same claim over and over, with no new evidence, until its familiarity begins to feel like proof.",
   "core_meaning": "Saying the same claim over and over, with no new evidence, until its familiarity begins to feel like proof.",
   "expanded_definition": "People tend to believe what they have heard many times, because familiar statements feel easier and truer. This tactic relies on that effect: a claim returns in nearly the same words, from conversation to conversation, without anything new behind it. Repeating a fact you have good reason for is ordinary. What marks the pattern is that the repetition is the only support, and 'I've told you before' stands in for a reason.",
-  "plain_language_summary": "A claim is said so many times, in the same words and with no new proof, that it starts to seem true just because you have heard it so often.",
+  "plain_language_summary": "A claim is said so many times, in the same words, with no new proof. It starts to seem true just because you have heard it so often.",
   "why_this_matters": "Familiar claims can start to seem true even when you cannot say what supports them. If you hear the same sentence about yourself or about what happened, you may start repeating it without noticing. You can lose track of whether you ever had a reason to believe it.",
   "what_it_is": [
    "The same claim, in near-identical words, returning across days, weeks or years.",
@@ -451,9 +451,9 @@
    "People who barely know you describe you with the same phrase."
   ],
   "repair_check": "Real change shows up as the claim being put to an actual test. They look at the evidence with you, say what they found, and change what they say afterwards. An apology followed by the old sentence the next week has only gone quiet.",
-  "boundary_respect_check": "You can ask yourself what happens when you say 'please show me one new example.' Someone willing to look for one is treating the claim as testable. Someone who answers with the same sentence, louder, is repeating the claim again and has not heard the request.",
+  "boundary_respect_check": "You can ask yourself what happens when you say 'please show me one new example.' Someone willing to look for one treats the claim as testable. Someone who answers with the same sentence, louder, is just repeating the claim and has not heard the request.",
   "psychological_mechanism": "Humans tend to rate familiar statements as more likely to be true, even when they were first heard in doubt. Repetition can also wear down the effort to argue back, because each reply feels like starting again. When the repeated claim comes from someone who matters to you, it can slip from something you hear to something you believe about yourself.",
-  "possible_impact_on_receiver": "Some people notice a slow slide from 'that's not true' to 'maybe there's something in it.' Some notice they have taken the claim on as part of how they describe themselves. Some feel angry on discovering the same sentence has been planted in several people. Others felt relief once they asked for a reason and saw there was none.",
+  "possible_impact_on_receiver": "Some people notice a slow slide from 'that's not true' to 'maybe there's something in it.' Some notice they have taken the claim on as part of how they describe themselves. Some feel angry on finding that the same sentence has been planted in several people. Others describe relief at asking for a reason and seeing there was none.",
   "response_options": {
    "soft_clarification": "Ask for the evidence behind the line: 'You've said that a few times. Can you give me one example from this month?'",
    "firm_boundary": "Say you will not accept a claim on repetition alone: 'Hearing it again doesn't make it more true for me. I'll respond when there's something I can check.'",
@@ -463,7 +463,7 @@
   },
   "boundary_script": "\"I've heard that sentence several times now. I'm not going to treat it as true because it's familiar. If there's a specific example, I'll listen to it. If not, I'd like to move on.\"",
   "safety_sensitive": false,
-  "safety_note": "A repeated claim puts pressure on your beliefs, but it is not a physical danger in itself. It deserves more care when the repeated line concerns your fitness as a parent, your sanity or your honesty, and is told to schools, courts, employers or relatives. In that case, keep dated records and talk to a lawyer, an advocate or a trusted person.",
+  "safety_note": "A repeated claim puts pressure on your beliefs, but it is not a physical danger in itself. It deserves more care when the repeated line concerns your fitness as a parent, your sanity or your honesty. That is especially so when it is told to schools, courts, employers or relatives. In that case, keep dated records and talk to a lawyer, an advocate or a trusted person.",
   "misuse_warning": [
    "Repeating a true thing is not manipulation. If you have not checked whether the claim is accurate, the label may only mean you dislike hearing it.",
    "Accusing someone of 'repeating' can brush off a person whose concern keeps coming back because it has not been addressed."
@@ -607,7 +607,7 @@
    "They respond to your concerns the same way when you phrase them gently or sharply."
   ],
   "innocent_or_ordinary_possibilities": [
-   "Being accused of something serious can cause a flash of hurt that comes out as a counter-accusation, before the person has had time to listen.",
+   "Being accused of something serious can cause a flash of hurt. It can come out as a counter-accusation before the person has had time to listen.",
    "Someone who has been wrongly labeled in the past may be especially raw about certain words.",
    "A person who is shocked may need a pause before they can hear a concern at all."
   ],

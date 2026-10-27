@@ -562,7 +562,7 @@
   ],
   "repair_check": "What matters is whether the record becomes shared again. A real change is an account that matches the documents, an admission that the earlier retelling was wrong, and agreements that then hold. A smooth 'we both remember it differently' that leaves the rewritten version standing is not that.",
   "boundary_respect_check": "Do they agree on a record both of you can point to, such as a shared note or an email? Watch whether the new account then respects it or whether the record itself is suddenly disputed as 'out of context'.",
-  "psychological_mechanism": "A story told confidently and often can begin to pass as memory, for the teller and the listener. When the retold version is the only one anyone brings up, the original can fade, and a person may begin to wonder if they are the one who has it wrong. Having no shared record to point to often makes that doubt stronger.",
+  "psychological_mechanism": "A story told confidently and often can begin to pass as memory, for the teller and the listener. When the retold version is the only one anyone brings up, the original can fade. A person may begin to wonder if they are the one who has it wrong. Having no shared record to point to often makes that doubt stronger.",
   "possible_impact_on_receiver": "People describe being unsure whether to trust an agreement, spending conversations defending the past and not discussing the point. Some say they began to take notes or save messages and felt guilty doing so. Others describe a strange loneliness in being the only one who remembered it the way it was.",
   "response_options": {
    "soft_clarification": "Point to the record in a neutral way: 'That isn't how I have it. Can we look at what we wrote at the time?'",
@@ -573,7 +573,7 @@
   },
   "boundary_script": "\"I have the agreement in writing, and it says what I've told you. If you remember it differently, I'm happy to look at the document together. I won't treat the new version as what we decided.\"",
   "safety_sensitive": false,
-  "safety_note": "A rewritten past is mostly a trust and fairness problem. It becomes a risk when the rewritten item involves money you rely on, housing, child arrangements, immigration paperwork or legal commitments, or when keeping records brings anger. Keep copies of important documents somewhere private. Consult legal aid, a mediator or an advocate before any big decision rests on the disputed account.",
+  "safety_note": "A rewritten past is mostly a trust and fairness problem. It becomes a risk when the rewritten item involves money you rely on, housing, child arrangements, immigration papers or legal commitments. It is also a risk when keeping records brings anger. Keep copies of important documents somewhere private. Consult legal aid, a mediator or an advocate before any big decision rests on the disputed account.",
   "misuse_warning": [
    "Calling every different recollection 'revisionism' treats ordinary memory drift as bad faith. The label needs evidence of a direction, a record and a refusal to adjust.",
    "It is a misuse to use the term against someone who is honestly rethinking a painful past, such as a survivor re-reading events."
@@ -583,7 +583,7 @@
  },
  "Word Salad": {
   "short_definition": "Answering with long, looping language that never reaches a point, so the listener cannot pin anything down.",
-  "expanded_definition": "Word salad is speech that goes on at length and sounds as if it is about your question, but never answers it. Phrases loop back and ideas change mid-sentence. Clarifying questions bring more of the same. Plenty of people talk this way when they are anxious, tired or thinking aloud, and some conditions affect how thoughts come out, so this does not show what anyone meant. It is a concern when the fog reliably appears where a clear answer would be costly, and the listener leaves exhausted.",
+  "expanded_definition": "Word salad is long speech that sounds as if it is about your question but never answers it. Phrases loop back and ideas change mid-sentence. Clarifying questions bring more of the same. Plenty of people talk this way when they are anxious, tired or thinking aloud. Some conditions also affect how thoughts come out. So this does not show what anyone meant. It is a concern when the fog appears reliably where a clear answer would be costly. It is also a concern when the listener leaves exhausted.",
   "plain_language_summary": "You ask a simple question and get a long, winding reply that never answers it. Asking again makes it more confusing, and you walk away not knowing what was said.",
   "why_this_matters": "Hours can pass with nothing settled. There is no claim to answer and no agreement reached. The exhaustion left behind is easy to mistake for having been unreasonable.",
   "what_it_is": [
@@ -657,7 +657,7 @@
    "You start writing the question down beforehand, or asking for answers by text.",
    "You feel slower or less intelligent after conversations with this person than with others."
   ],
-  "repair_check": "Watch what a direct request produces. Real change is a short answer on a topic where there used to be a loop, or a plain 'I don't know yet, give me a day'. A promise to 'try to be clearer' followed by the same maze the next time has not made a difference.",
+  "repair_check": "Watch what a direct request produces. Real change is a short answer on a topic that used to bring a loop. It can also be a plain 'I don't know yet, give me a day'. A promise to 'try to be clearer' has not made a difference if the same maze comes back next time.",
   "boundary_respect_check": "When you ask for a one-line answer, what comes back? A single sentence, even an uncomfortable one, is respect for the request. Another long reply that sidesteps the request shows that the maze, not the answer, is still on offer.",
   "psychological_mechanism": "Following a tangled reply takes a lot of attention. The effort of searching for the point can leave a person tired and doubting their own understanding. After enough of these talks, some people may stop asking, or agree just to end the conversation. Then they find they have committed to something unclear.",
   "possible_impact_on_receiver": "People describe leaving talks drained, with a headache or a heavy fog, and no clear idea what was said. Some say they began to wonder if they were slow or unable to follow. Others describe agreeing just to escape and feeling frustrated with themselves later.",
@@ -666,7 +666,7 @@
    "firm_boundary": "Say that you cannot continue without an answer: 'I can't follow this. I need one sentence on that one point before we go on.'",
    "disengagement": "Pause the talk when you notice you are tired and the point has not appeared, and return only to written questions.",
    "support_seeking": "Tell a friend what was said and ask whether they can find the answer in it. If neither of you can, you have learned something.",
-   "workplace_or_professional": "Put the question in an email with numbered points and ask for a written reply, so that a clear record exists of what was and was not answered."
+   "workplace_or_professional": "Put the question in an email with numbered points and ask for a written reply. That leaves a clear record of what was and was not answered."
   },
   "boundary_script": "\"I want to understand, and I've lost the thread. What's the short answer, in one sentence? If you need time to think, that's fine, and we can pick it up tomorrow.\"",
   "safety_sensitive": false,

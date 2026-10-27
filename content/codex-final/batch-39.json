@@ -1,7 +1,7 @@
 {
   "Dispensing of Existence": {
-    "short_definition": "A group's doctrine sorts people by whether they deserve to exist or count as fully human, and harm to outsiders, critics and former members is then treated as justified.",
-    "core_meaning": "A group's doctrine sorts people by whether they deserve to exist or count as fully human, and harm to outsiders, critics and former members is then treated as justified.",
+    "short_definition": "A group's doctrine sorts people by who deserves to exist or counts as fully human, which makes harm to outsiders, critics and former members seem justified.",
+    "core_meaning": "A group's doctrine sorts people by who deserves to exist or counts as fully human, which makes harm to outsiders, critics and former members seem justified.",
     "expanded_definition": "Dispensing of Existence is one of Robert Lifton's eight themes of thought reform: the group decides whose life has worth. People outside it, and those who leave or object, are called lost, evil, contaminated or less than human. Strong boundaries alone do not make this pattern, since many communities have membership rules. What marks it is that a person's worth itself is taken away. Cruelty toward outsiders then starts to look like virtue, and members learn their own standing could be taken away the same way.",
     "plain_language_summary": "The group teaches that people who disagree or walk away are worth less, or are not really people at all. Treating them badly then starts to seem right instead of wrong.",
     "why_this_matters": "When worth is handed out by doctrine, people outside the group can be shunned, mocked or harmed without anyone feeling they did wrong. Members also learn that their own standing is conditional, which makes doubt feel dangerous and staying feel like the only safe place.",
@@ -25,7 +25,7 @@
       "A group that says its beliefs are true and others are mistaken. Claiming to be right is not the same as saying others have no worth.",
       "Sharp anger at one person for something they did, which is about conduct and can end, not about whether they count as human.",
       "Religious teaching that every person is valued, where a leaver is missed and still welcome to visit, write or call.",
-      "Ordinary loyalty to your own side, like a sports rivalry or national pride, where the other side is mocked but nobody doubts they are people."
+      "Ordinary loyalty to your own side, like a sports rivalry or national pride. The other side is mocked, but nobody doubts they are people."
     ],
     "this_may_be_it_when": [
       "Former members or critics are spoken of as dead, empty, evil or subhuman, not merely as mistaken.",
@@ -77,10 +77,10 @@
     "repair_check": "A changed practice is the test. Leavers are named again, contact is allowed, harsh language about them is withdrawn, and members are free to speak kindly of them. A regretful sermon that leaves the shunning list and the vocabulary untouched changes nothing.",
     "boundary_respect_check": "What happens to the member who mentions a leaver kindly? If they are heard, even with disagreement, the group still treats that leaver as a person. If they are corrected, watched or put on a list themselves, the ranking is still doing its work.",
     "psychological_mechanism": "Seeing a group of people as lesser can lower the usual discomfort of hurting them. When that view arrives through a respected doctrine, it can pass for moral clarity instead of prejudice. Members may also hold their own worth as conditional on obedience, which can make questioning risky and keep them close.",
-    "possible_impact_on_receiver": "Those who have been inside describe guilt over what they once said or did to others, grief for family who now treat them as gone, and a nagging fear that they are worthless outside the group. Some find it hard to trust their own sense of right and wrong afterward. Members still inside may describe a constant effort to stay on the right side of the line.",
+    "possible_impact_on_receiver": "Those who have been inside describe guilt over what they once said or did to others. Some feel grief for family who now treat them as gone. Some have a nagging fear that they are worthless outside the group. Some find it hard to trust their own sense of right and wrong afterward. Members still inside may describe a constant effort to stay on the right side of the line.",
     "response_options": {
-      "soft_clarification": "Ask one plain question about one specific person: 'What did he actually do, and is he still a person we owe kindness?' Keep it curious and brief.",
-      "firm_boundary": "If it feels safe, decline to join the name-calling: 'I'd rather not talk about anyone that way.' You do not need to argue the doctrine. If refusing would cost you standing or safety, stay quiet instead.",
+      "soft_clarification": "Ask one plain question about one specific person. For example: 'What did he actually do, and is he still a person we owe kindness?' Keep it curious and brief.",
+      "firm_boundary": "If it feels safe, decline to join the name-calling. You could say, 'I'd rather not talk about anyone that way.' You do not need to argue the doctrine. If refusing would cost you standing or safety, stay quiet instead.",
       "disengagement": "Change the subject or step out of the room when someone is being written off. Keep your private views private until you have support around you.",
       "support_seeking": "Talk with a counselor experienced in high-control groups, or with a former-member support organization. Make decisions about your place in the group privately with them, and never announce them.",
       "workplace_or_professional": "If this happens in a workplace, school or care setting, keep dated notes of people being demeaned for their beliefs or membership. Take the notes to HR, a licensed professional or counsel."
@@ -97,7 +97,7 @@
   "Bounded Choice": {
     "short_definition": "Shaping a member's world so that every remaining option looks like a free personal pick, while the only choices left serve the group.",
     "core_meaning": "Shaping a member's world so that every remaining option looks like a free personal pick, while the only choices left serve the group.",
-    "expanded_definition": "Bounded Choice describes a setting where people feel they decide freely, yet the options have been quietly narrowed to ones that keep them in the group. Other paths may be allowed on paper but cost a home, family or standing. Every setting narrows choices, and a job or a mortgage does too. The concern is when options that would serve the person instead of the group exist only on paper, and any outcome is called the person's own doing.",
+    "expanded_definition": "Bounded Choice is a setting where people feel they decide freely. Yet the options have been quietly narrowed to ones that keep them in the group. Other paths may be allowed on paper but cost a home, family or standing. Every setting narrows choices, and a job or a mortgage does too. The concern is when options that serve the person, not the group, exist only on paper. Then any outcome is called the person's own doing.",
     "plain_language_summary": "The real alternatives were closed off or made so costly that only one answer was left. Everyone still says you chose it freely.",
     "why_this_matters": "Your choices feel entirely your own, while the range they were drawn from has closed. You then carry full responsibility for outcomes you were never given room to avoid. Asking for help also gets harder, since nothing seems to have been forced.",
     "what_it_is": [
@@ -175,15 +175,15 @@
     "psychological_mechanism": "A decision believed to be freely made tends to earn extra loyalty and defense. When alternatives have been made costly or invisible, that loyalty can attach to an outcome that mainly serves the group. Owning the result can make it harder to say that anything was done to you.",
     "possible_impact_on_receiver": "Afterward, a confusing mix of guilt and anger is common: they remember saying yes, but also that no other answer felt available. Some find it hard to trust their own decisions or to say whether they ever wanted something. Others report relief when someone names the narrowing.",
     "response_options": {
-      "soft_clarification": "Ask what each option would cost, for example: 'If I decided otherwise, what would happen to my place here?' The answer shows how open the choice really is.",
-      "firm_boundary": "If it feels safe, ask for time and outside input before deciding: 'I'd like a week to think, and to talk with my sister first.' A real choice can wait.",
+      "soft_clarification": "Ask what each option would cost. For example: 'If I decided otherwise, what would happen to my place here?' The answer shows how open the choice really is.",
+      "firm_boundary": "If it feels safe, ask for time and outside input before deciding. For example: 'I'd like a week to think, and to talk with my sister first.' A real choice can wait.",
       "disengagement": "Postpone big decisions that are presented as now-or-never, and note who benefits from the speed.",
       "support_seeking": "Talk to someone outside the group, such as a former member, therapist or counselor who knows high-control environments. Lay out the options as you see them.",
       "workplace_or_professional": "If a workplace or program calls costly terms voluntary, ask for the terms in writing. Talk to a lawyer or union representative before you sign or commit."
     },
     "boundary_script": "Before I accept that I chose this freely, I ask myself: \"Could I say no and keep my home, my friends and my standing? Who told me the other options are not real, and have I heard it from anyone outside?\"",
     "safety_sensitive": true,
-    "safety_note": "Bounded choice alone is a pattern of pressure, not necessarily danger. It becomes safety-relevant when the narrowed options involve housing, money, immigration status, medical care or children, or when anyone is threatened for taking another path. In that case, consult a lawyer, legal aid or a cult-recovery advocate before acting, and plan any big change privately.",
+    "safety_note": "Bounded choice alone is a pattern of pressure, not necessarily danger. It becomes a safety matter when the narrowed options involve housing, money, immigration status, medical care or children. It is also a safety matter when anyone is threatened for taking another path. In that case, talk to a lawyer, legal aid or a cult-recovery advocate before acting. Plan any big change privately.",
     "misuse_warning": [
       "Cost, family duty and a demanding career are ordinary constraints. Treating each of them as coercion erases the real decisions behind a person's life.",
       "Telling someone they never really chose their life can take away their agency. The label is for understanding pressure, not for overriding what a person says they wanted."
@@ -193,7 +193,7 @@
   "Charismatic Authority Dependence": {
     "short_definition": "Making a single leader the only trusted source of truth, meaning and safety, so that winning the leader's approval becomes a member's deepest need.",
     "core_meaning": "Making a single leader the only trusted source of truth, meaning and safety, so that winning the leader's approval becomes a member's deepest need.",
-    "expanded_definition": "Charismatic Authority Dependence is a bond in which a member relies on one leader for answers about what is true, what life means, and whether they are safe or good. Admiring a gifted teacher is common and often helpful. The pattern appears when no second source of judgment counts. It also appears when the leader's reading of events replaces the member's own, and when losing approval brings the sense of losing everything at once.",
+    "expanded_definition": "Charismatic Authority Dependence is a bond where a member relies on one leader for answers. These cover what is true, what life means, and whether they are safe or good. Admiring a gifted teacher is common and often helpful. The pattern appears when no second source of judgment counts. It also appears when the leader's reading of events replaces the member's own. Another sign is that losing approval brings the sense of losing everything at once.",
     "plain_language_summary": "One person becomes the only one whose word counts, so their approval feels like air, and disagreeing with them feels like falling apart.",
     "why_this_matters": "When one person holds truth, meaning and safety, losing their approval means losing all three at once. Even ordinary disagreement can start to threaten a person's whole sense of self. A member may also have nobody else to check reality with.",
     "what_it_is": [
@@ -270,7 +270,7 @@
     "psychological_mechanism": "People often look to a confident figure for certainty when they are lonely, grieving or seeking meaning. Warm attention that rises and falls with compliance can build strong attachment. Approval from a single source also often crowds out other sources of reassurance. Over time, checking everything against the leader's view can become automatic.",
     "possible_impact_on_receiver": "People describe an intense need for the leader's approval, dread at their displeasure, and difficulty making even small decisions alone. After leaving, many describe grief like a bereavement, along with shame about having believed. Some feel lost about what they value without the leader's voice.",
     "response_options": {
-      "soft_clarification": "Ask how a question would be received, for example: 'Is it okay if I talk this over with my sister too?' Notice whether the reply is warm or tense.",
+      "soft_clarification": "Ask how a question would be received. For example: 'Is it okay if I talk this over with my sister too?' Notice whether the reply is warm or tense.",
       "firm_boundary": "If it feels safe, keep one decision for your own judgment, such as a medical, money or family matter. Say only 'I'll think about that.' You do not need to announce what you decided.",
       "disengagement": "Spend more time with people outside the leader's orbit, and let that grow slowly. Avoid dramatic statements about your doubts or plans.",
       "support_seeking": "Talk to a therapist, former member or cult-recovery counselor who knows high-control groups. Bring one specific example.",
@@ -290,7 +290,7 @@
     "core_meaning": "Required, repeated sharing of faults, doubts or past wrongs with the group, which brings shame and gives the group material it can hold over people.",
     "expanded_definition": "Forced confession and self-criticism rituals are two forms of one practice. Members must disclose faults, doubts or past wrongdoing before the group, either by confessing or by criticizing themselves in set sessions. One leans toward what you did or hid, the other toward what is wrong with you. Healthy settings use disclosure too, but there it is voluntary and bounded. Here it is required, open-ended, and may be recalled later. Lifton's list of thought-reform themes includes a 'cult of confession'.",
     "plain_language_summary": "You are required to tell the group your faults and secrets, again and again. What you say can be brought back up later to keep you in line.",
-    "why_this_matters": "Material given up under group pressure does not go away. It stays available to be used as pressure, and the habit of confessing on demand can leave a person with no private ground to stand on.",
+    "why_this_matters": "Material given up under group pressure does not go away. It stays available to be used as pressure. The habit of confessing on demand can leave a person with no private ground to stand on.",
     "what_it_is": [
       "Scheduled sessions in which members must state wrongs, doubts or 'insufficiencies' in front of others.",
       "Self-criticism turned inward: members list their own failings as proof of loyalty, aloud or in writing.",
@@ -366,7 +366,7 @@
     "possible_impact_on_receiver": "Sessions bring dread, a habit of searching oneself for faults, and fear that old admissions might be used later. After leaving, some report lingering shame, trouble keeping anything private, or distrust of any setting where people share openly. Some feel relief at finding it was a practice, not a personal failing.",
     "response_options": {
       "soft_clarification": "Ask about the rules for sharing: 'Who hears this, and is it kept private?' You are asking for information, not accusing anyone.",
-      "firm_boundary": "Hold some things back: 'I'll share what I'm comfortable with and pass on the rest.' You are allowed to keep your inner life to yourself.",
+      "firm_boundary": "Hold some things back. You could say, 'I'll share what I'm comfortable with and pass on the rest.' You are allowed to keep your inner life to yourself.",
       "disengagement": "Give brief, general answers that reveal little of your inner life, and avoid writing doubts down where the group can read them. Plan any bigger change privately.",
       "support_seeking": "Talk with a counselor, former member or cult-recovery organization about what you have disclosed and what worries you. Keep your own notes somewhere private and safe.",
       "workplace_or_professional": "If a workplace or training program requires staff to disclose personal faults or confess to colleagues, ask for the policy in writing. Then consult HR, an ombudsperson (an independent complaints officer), a union representative or an employment lawyer."
