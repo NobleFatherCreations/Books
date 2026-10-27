@@ -3992,7 +3992,7 @@
   {
    "name": "Stochastic Harassment Direction",
    "cat": "Isolation / social",
-   "what": "Someone keeps describing a named person in angry terms to a big audience, so some listeners predictably harass them without being told to.",
+   "what": "Someone keeps describing a named person in angry terms to a big audience, so some listeners predictably harass them although nobody gives an order.",
    "nots": [
     "Proportionate public criticism of someone's public actions is legitimate, even when a third party overreacts to it.",
     "Reporting real wrongdoing through proper channels is not incitement.",
@@ -7681,7 +7681,7 @@
     "Moving Goalposts",
     "Thought-Stopping Clichés"
    ],
-   "how_to_distinguish_from_related": "Countering puts forward a rival version of events to win a point; gaslighting works on your trust in your own memory. Trivializing shrinks the importance of what you felt but accepts that it happened. Selective Memory is forgetting convenient facts, often passively, while gaslighting asserts the facts did not occur. If the live question is 'did this happen at all?', you are closer to gaslighting than to the others.",
+   "how_to_distinguish_from_related": "Countering puts forward a rival version of events to win a point; gaslighting wears down your trust in your own memory. Trivializing shrinks the importance of what you felt but accepts that it happened. Selective Memory is forgetting convenient facts, often passively, while gaslighting asserts the facts did not occur. If the live question is 'did this happen at all?', you are closer to gaslighting than to the others.",
    "detection_notes": "Actively matched against pasted text by this tool, at low confidence. Phrase matching can flag wording, but it cannot know intent, tone, history, context, or whether the claim is even true — an innocent reading is always attached to every match. Guards (sarcasm, quotation, hypothetical framing, reported speech, and others) can reduce or nullify a match. Severity only contributes to the overall index above the detection floor.",
    "codex_maturity": "mature",
    "human_review_flags": [
@@ -7924,7 +7924,7 @@
     "Moving Goalposts",
     "Thought-Stopping Clichés"
    ],
-   "how_to_distinguish_from_related": "A claimed blank, 'I don't recall', leaves nothing contested but also nothing owed, which is what marks selective memory. Countering says it did not happen, a firm contradiction of what you said. Moving Goalposts accepts the deal existed but changes what counts as meeting it. Minimization admits the event and shrinks its weight. Gaslighting works on your trust in your own mind, where this one mostly lets the person off the hook.",
+   "how_to_distinguish_from_related": "A claimed blank, 'I don't recall', leaves nothing contested but also nothing owed, which is what marks selective memory. Countering says it did not happen, a firm contradiction of what you said. Moving Goalposts accepts the deal existed but changes what counts as meeting it. Minimization admits the event and shrinks its weight. Gaslighting attacks your trust in your own mind, where this one mostly lets the person off the hook.",
    "detection_notes": "Actively matched against pasted text by this tool, at low confidence. Phrase matching can flag wording, but it cannot know intent, tone, history, context, or whether the claim is even true — an innocent reading is always attached to every match. Guards (sarcasm, quotation, hypothetical framing, reported speech, and others) can reduce or nullify a match. Severity only contributes to the overall index above the detection floor.",
    "codex_maturity": "mature",
    "human_review_flags": [
@@ -8288,7 +8288,7 @@
     "Selective Memory",
     "Moving Goalposts"
    ],
-   "how_to_distinguish_from_related": "Normalization says the treatment is typical and so not worth questioning; it points to everyone else. Minimization says this particular incident was small. Countering says it did not happen the way you said. Deflection moves the topic. Gaslighting works on whether you can trust your own mind. Normalization leaves the facts alone and rules your objection out of bounds.",
+   "how_to_distinguish_from_related": "Normalization says the treatment is typical and so not worth questioning; it points to everyone else. Minimization says this particular incident was small. Countering says it did not happen the way you said. Deflection moves the topic. Gaslighting shakes whether you can trust your own mind. Normalization leaves the facts alone and rules your objection out of bounds.",
    "detection_notes": "Actively matched against pasted text by this tool, at low confidence. Phrase matching can flag wording, but it cannot know intent, tone, history, context, or whether the claim is even true — an innocent reading is always attached to every match. Guards (sarcasm, quotation, hypothetical framing, reported speech, and others) can reduce or nullify a match. Severity only contributes to the overall index above the detection floor.",
    "codex_maturity": "mature",
    "human_review_flags": [
@@ -8542,7 +8542,7 @@
     "Love Bombing",
     "Exclusive Meaning"
    ],
-   "how_to_distinguish_from_related": "Guilt-Tripping works on your conscience. It tells you refusal is morally wrong, and does not put the relationship itself on the line. Self-Harm Threats as Leverage makes the stake the speaker's own safety, while emotional blackmail can name any loss at all. Silent Treatment goes quiet to force a reply. It can be one way the withdrawal is delivered, but it needs no tie to a specific demand.",
+   "how_to_distinguish_from_related": "Guilt-Tripping targets your conscience. It tells you refusal is morally wrong, and does not put the relationship itself on the line. Self-Harm Threats as Leverage makes the stake the speaker's own safety, while emotional blackmail can name any loss at all. Silent Treatment goes quiet to force a reply. It can be one way the withdrawal is delivered, but it needs no tie to a specific demand.",
    "detection_notes": "Actively matched against pasted text by this tool, at low confidence. Phrase matching can flag wording, but it cannot know intent, tone, history, context, or whether the claim is even true — an innocent reading is always attached to every match. Guards (sarcasm, quotation, hypothetical framing, reported speech, and others) can reduce or nullify a match. Severity only contributes to the overall index above the detection floor.",
    "codex_maturity": "mature",
    "human_review_flags": [
@@ -15953,7 +15953,7 @@
     "workplace_or_professional": "At work, ask whether HR, a union representative or your own advisor can review the form. Write down who gave which deadline so the date can be checked later."
    },
    "boundary_script": "\"Explaining it was helpful, and I need time with the paper itself. I'd like a copy to read through properly, and I'll give you my answer once I've done that. Can you tell me the date you actually need it by?\"",
-   "safety_note": "A rushed signature can carry real danger. This is true when it touches housing, immigration status, custody, a lease co-signature, a loan or a resignation. It can also be dangerous if a partner or relative presses the pen on you. That is more true if you fear their reaction. If saying no feels unsafe, you do not have to argue the point. Agree to look at it. Before anything is signed, take the paper, a photo of it, or its title to an attorney. A legal aid office or a domestic violence advocate can also help.",
+   "safety_note": "A rushed signature can carry real danger. This is true when it touches housing, immigration status, custody, a lease co-signature, a loan or a resignation. It can also be dangerous if a partner or relative presses the pen on you, more so if you fear their reaction. If saying no feels unsafe, you do not have to argue. Agree to look at it. Before anything is signed, take the paper, a photo of it, or its title to an attorney. A legal aid office or a domestic violence advocate can also help.",
    "safety_sensitive": true,
    "misuse_warning": [
     "If you call every request for a prompt signature 'pressure', ordinary deadlines may start to look sinister. Some forms truly must be returned quickly.",
@@ -19351,7 +19351,7 @@
     "Colleagues who once spoke freely have become quiet or have left.",
     "Your own record of dates and outcomes shows a consistent gap after each time you spoke up."
    ],
-   "repair_check": "Repair here has to change how the place works. A personal apology is not enough. It takes an honest account of what happened to people who raised concerns. It takes a visible change in who gets opportunities. It also takes a channel where speaking up stops costing something. A friendly all-hands about 'psychological safety' with no change in outcomes does not count.",
+   "repair_check": "Repair must change how the place runs. A personal apology is not enough. It takes an honest account of what happened to those who raised concerns, a visible change in who gets opportunities, and a channel where speaking up carries no cost. A friendly all-hands about 'psychological safety' with no change in outcomes does not count.",
    "boundary_respect_check": "A useful test is what happens to the next person who disagrees in public. If the response is curiosity and a decision, the space can hold dissent. If they are warmly thanked and quietly sidelined, your own boundary or concern will probably meet the same fate.",
    "psychological_mechanism": "People learn quickly what is safe to say by watching what happens to others. When the cost of honesty is delayed and deniable, a person may not link the loss to the remark, and may blame themselves instead. Seeing a colleague quietly sidelined can teach a whole group to stay silent without any rule being stated.",
    "possible_impact_on_receiver": "People describe self-doubt, because nothing rude ever happened that they could point to. Some say they became overly careful with their words. Some felt cut off from colleagues who stayed quiet, and some began to dread work without being able to say what was wrong. Leaving the place can bring relief and grief at once.",
@@ -24061,7 +24061,7 @@
     "Accountability Evasion via Diagnosis",
     "Trash-Can Diagnosis"
    ],
-   "how_to_distinguish_from_related": "Gaslighting works on your own trust in your memory, in private. Credibility Theft works on other people's trust in you, usually out of your hearing. Priming / Narrative Seeding sets any interpretation before an encounter, while this one targets your reliability as a witness. Identity Diminishment via Pathologizing relies on clinical labels. This tactic needs no label at all, only the suggestion that you are not to be taken at your word.",
+   "how_to_distinguish_from_related": "Gaslighting shakes your trust in your own memory, in private. Credibility Theft shapes what other people think of you, usually out of your hearing. Priming / Narrative Seeding sets any interpretation before an encounter, while this one targets your reliability as a witness. Identity Diminishment via Pathologizing relies on clinical labels. This tactic needs no label at all, only the suggestion that you are not to be taken at your word.",
    "detection_notes": "Not matched or scored by this tool. Pasted text cannot establish this concept — included in the Field Guide purely as a literacy reference.",
    "codex_maturity": "mature",
    "human_review_flags": [
@@ -24301,7 +24301,7 @@
     "Accountability Evasion via Diagnosis",
     "Trash-Can Diagnosis"
    ],
-   "how_to_distinguish_from_related": "Emotional Invalidation tells you your feeling is wrong or too much. Authority Hijack tells you that you do not have the feeling you say you have. Gaslighting disputes what happened, while this one disputes what is going on inside you. Credibility Theft works on how others see your reliability. This one works on how you are told to see yourself.",
+   "how_to_distinguish_from_related": "Emotional Invalidation tells you your feeling is wrong or too much. Authority Hijack tells you that you do not have the feeling you say you have. Gaslighting disputes what happened, while this one disputes what is going on inside you. Credibility Theft damages how others see your reliability. This one changes how you are told to see yourself.",
    "detection_notes": "Not matched or scored by this tool. Pasted text cannot establish this concept — included in the Field Guide purely as a literacy reference.",
    "codex_maturity": "mature",
    "human_review_flags": [
@@ -25840,7 +25840,7 @@
     "workplace_or_professional": "If the trouble reaches a coworker, record dates and facts only, such as what changed, when and who was told. Take them to HR or an ombudsperson (an independent complaints officer), and keep to the concrete change, not who might have caused it."
    },
    "boundary_script": "\"What's going on for her matters to me, and I'm wary of guessing. Can we leave it there for today and come back to it when things are calmer?\"",
-   "safety_note": "This pattern can sit beside stalking, or threats toward children, pets and relatives. It can also sit beside coercive control, which is an ongoing pattern of intimidation and rules that limits your life. Warning signs are harm to the third person that follows your refusals, and remarks linking it to you. Another sign is fear of what a disagreement might cost them. Do not confront the person or announce changes. Talk to a domestic violence advocate or legal aid service about a plan for you and the third person. Keep dated notes where the other person cannot see them.",
+   "safety_note": "This tactic can sit beside stalking, threats toward children, pets and relatives, or coercive control, an ongoing pattern of intimidation and rules that limits your life. Warning signs are harm to the third person that follows your refusals, and remarks linking it to you. Another sign is fear of what a disagreement might cost them. Do not confront the person or announce changes. Talk to a domestic violence advocate or legal aid service about a plan for you and the third person. Keep dated notes where the other person cannot see them.",
    "safety_sensitive": true,
    "misuse_warning": [
     "This label is easy to over-read, because the link rests on timing and the reader usually cannot see the cause. Treating coincidence as a message can damage a relationship that did nothing.",
@@ -26473,11 +26473,11 @@
    "branch": "reference",
    "category": "Isolation / social",
    "detectability_note": "This tool cannot establish this from pasted text at all. It is included for literacy only, so you can learn to recognize the concept — not as something this tool detects, scores, or flags.",
-   "core_meaning": "Someone keeps describing a named person in angry terms to a big audience, so some listeners predictably harass them without being told to.",
+   "core_meaning": "Someone keeps describing a named person in angry terms to a big audience, so some listeners predictably harass them although nobody gives an order.",
    "aftermath_state": false,
    "forensic_only": false,
    "absorbs": [],
-   "short_definition": "Someone keeps describing a named person in angry terms to a big audience, so some listeners predictably harass them without being told to.",
+   "short_definition": "Someone keeps describing a named person in angry terms to a big audience, so some listeners predictably harass them although nobody gives an order.",
    "expanded_definition": "Stochastic means 'driven by chance'. Nobody can say which listener will act, only that with a large enough audience, some probably will. Here, someone repeatedly names a target and describes them in a way that stirs up anger, often mentioning their workplace or town. They never give an instruction. Then a wave of messages, calls or visits arrives. One harsh post means little. The pattern is repeated portrayal, followed by repeated waves that cite the same words.",
    "plain_language_summary": "Someone keeps painting one person as a villain to a big audience. They never tell anyone to act, yet strangers start harassing that person.",
    "why_this_matters": "The person singled out takes harassment from many people at once. The portrayal that set it off stays easy to deny. So there is no single act to report and no one to hold to account. The whole world can seem to have turned on you.",
@@ -26937,7 +26937,7 @@
     "Resource Sabotage",
     "\"Managed Out\" Through Exhaustion"
    ],
-   "how_to_distinguish_from_related": "Resource Sabotage takes away the tools and support you need so that you fail. Ritualized exhaustion leaves the tools alone and fills your hours. \"Managed Out\" Through Exhaustion is a loss of purpose and belonging at work over months, so the person ends up sidelined rather than overloaded. Emotion Control works on what you may show, and this one works on how much you have left.",
+   "how_to_distinguish_from_related": "Resource Sabotage takes away the tools and support you need so that you fail. Ritualized exhaustion leaves the tools alone and fills your hours. \"Managed Out\" Through Exhaustion is a loss of purpose and belonging at work over months, so the person ends up sidelined rather than overloaded. Emotion Control limits what you may show, and this one drains how much you have left.",
    "detection_notes": "Not matched or scored by this tool. Pasted text cannot establish this concept — included in the Field Guide purely as a literacy reference.",
    "codex_maturity": "mature",
    "human_review_flags": [
@@ -31972,7 +31972,7 @@
     "Computational Propaganda",
     "Normative Messaging"
    ],
-   "how_to_distinguish_from_related": "Manufactured Consent works on what a whole population seems to agree with. Reflexive control concerns one party's specific decision and the facts that party was given. Computational Propaganda is a delivery method, using bots and networks, which could supply inputs but says nothing about a decision. Normative Messaging leans on what others supposedly do. Reflexive control leans on which facts you were shown.",
+   "how_to_distinguish_from_related": "Manufactured Consent shapes what a whole population seems to agree with. Reflexive control concerns one party's specific decision and the facts that party was given. Computational Propaganda is a delivery method, using bots and networks, which could supply inputs but says nothing about a decision. Normative Messaging leans on what others supposedly do. Reflexive control leans on which facts you were shown.",
    "detection_notes": "Not matched or scored. Pasted personal text cannot establish an institutional- or societal-scale pattern — that requires independent, corroborated, documented evidence at a completely different scale.",
    "codex_maturity": "mature",
    "human_review_flags": [
@@ -34601,7 +34601,7 @@
     "Performance Framework Manipulation",
     "Algorithmic Management"
    ],
-   "how_to_distinguish_from_related": "Silence Engineering is a culture that teaches people not to speak up before anything is reported. Betrayal concerns how the institution responds to a specific report of harm. HR Shielding is one mechanism, the complaint machinery working for the institution. Betrayal can also be plain neglect with no one shielded. Performance Framework Manipulation works on scores and reviews, not on a response to a report.",
+   "how_to_distinguish_from_related": "Silence Engineering is a culture that teaches people not to speak up before anything is reported. Betrayal concerns how the institution responds to a specific report of harm. HR Shielding is one mechanism, the complaint machinery working for the institution. Betrayal can also be plain neglect with no one shielded. Performance Framework Manipulation targets scores and reviews, not a response to a report.",
    "detection_notes": "Not matched or scored. Pasted personal text cannot establish an institutional- or societal-scale pattern — that requires independent, corroborated, documented evidence at a completely different scale.",
    "codex_maturity": "mature",
    "human_review_flags": [
@@ -35076,7 +35076,7 @@
     "Selective Memory",
     "Moving Goalposts"
    ],
-   "how_to_distinguish_from_related": "Revisionist History rewrites the shared record, usually in the direction of the teller's gain. Selective Memory claims a blank and offers no new story. Countering contradicts a single account on the spot, without needing a new narrative. Gaslighting works on your trust in your own mind, where revisionism works on the record of what was agreed. Moving Goalposts accepts the deal and changes the standard.",
+   "how_to_distinguish_from_related": "Revisionist History rewrites the shared record, usually in the direction of the teller's gain. Selective Memory claims a blank and offers no new story. Countering contradicts a single account on the spot, without needing a new narrative. Gaslighting shakes your trust in your own mind, where revisionism targets the record of what was agreed. Moving Goalposts accepts the deal and changes the standard.",
    "detection_notes": "Not matched or scored by this tool. Pasted text cannot establish this concept — included in the Field Guide purely as a literacy reference.",
    "codex_maturity": "mature",
    "human_review_flags": [
@@ -35313,7 +35313,7 @@
     "Selective Memory",
     "Moving Goalposts"
    ],
-   "how_to_distinguish_from_related": "Gaslighting works on your confidence in your own memory. Contradiction stacking leaves your memory alone and buries the issue under two clashing replies. Deflection moves to a different subject, but here the subject stays put and two answers pile onto it. Minimization shrinks the harm, but this tactic first denies it happened and then defends it.",
+   "how_to_distinguish_from_related": "Contradiction stacking leaves your memory alone and buries the issue under two clashing replies. Gaslighting goes after your confidence in your own memory. Deflection moves to a different subject, but here the subject stays put and two answers pile onto it. Minimization shrinks the harm, but this tactic first denies it happened and then defends it.",
    "detection_notes": "Not matched or scored by this tool. Pasted text cannot establish this concept — included in the Field Guide purely as a literacy reference.",
    "codex_maturity": "mature",
    "human_review_flags": [
@@ -36874,7 +36874,7 @@
     "Martyrdom Display",
     "Duty Scripts"
    ],
-   "how_to_distinguish_from_related": "Demand for Gratitude asks for thanks as payment for help. This tactic treats the gift as a debt to be paid back with a different, unrelated action. Guilt-Tripping works on your conscience after a refusal, without any gift. Pity Plays seek sympathy by showing helplessness, while this one builds an obligation out of something the giver actually handed over.",
+   "how_to_distinguish_from_related": "Demand for Gratitude asks for thanks as payment for help. This tactic treats the gift as a debt to be paid back with a different, unrelated action. Guilt-Tripping targets your conscience after a refusal, without any gift. Pity Plays seek sympathy by showing helplessness, while this one builds an obligation out of something the giver actually handed over.",
    "detection_notes": "Not matched or scored by this tool. Pasted text cannot establish this concept — included in the Field Guide purely as a literacy reference.",
    "codex_maturity": "mature",
    "human_review_flags": [
@@ -37728,7 +37728,7 @@
     "Infantilization",
     "\"I Know Best\" Paternalism"
    ],
-   "how_to_distinguish_from_related": "Isolation works on your relationships and who you may see. Information Control works on what you may know, and can operate with you in a room full of people. Monitoring & Surveillance watches what you do, while here the focus is what reaches you. \"I Know Best\" Paternalism overrides your choices openly. This one narrows what you have to choose from.",
+   "how_to_distinguish_from_related": "Isolation cuts your relationships and who you may see. Information Control limits what you may know, and can operate with you in a room full of people. Monitoring & Surveillance watches what you do, while here the focus is what reaches you. \"I Know Best\" Paternalism overrides your choices openly. This one narrows what you have to choose from.",
    "detection_notes": "Not matched or scored by this tool. Pasted text cannot establish this concept — included in the Field Guide purely as a literacy reference.",
    "codex_maturity": "mature",
    "human_review_flags": [
@@ -38335,7 +38335,7 @@
     "Infantilization",
     "\"I Know Best\" Paternalism"
    ],
-   "how_to_distinguish_from_related": "Monitoring & Surveillance involves actually demanding access to your activity. Here the display of knowing, however it was gained, is the whole point. Location Tracking depends on a specific mechanism such as live sharing. This can rest on a few remarks and a surprise visit. Isolation works on your ties to other people. This works on your belief that anything you attempt will be known and countered.",
+   "how_to_distinguish_from_related": "Monitoring & Surveillance involves actually demanding access to your activity. Here the display of knowing, however it was gained, is the whole point. Location Tracking depends on a specific mechanism such as live sharing. This can rest on a few remarks and a surprise visit. Isolation cuts your ties to other people. This one aims at your belief that anything you attempt will be known and countered.",
    "detection_notes": "Not matched or scored by this tool. Pasted text cannot establish this concept — included in the Field Guide purely as a literacy reference.",
    "codex_maturity": "mature",
    "human_review_flags": [
@@ -40268,7 +40268,7 @@
     "Ghosting as Control",
     "Humiliation Rituals"
    ],
-   "how_to_distinguish_from_related": "Shame Installation works on your sense of being deeply inadequate and can happen in private, whereas public humiliation relies on witnesses. A Smear Campaign spreads distorted claims about you to build a reputation over time. Public humiliation is a moment played to the people in the room or the group chat. Humiliation Rituals dress the degradation as initiation or discipline and say the pain proves it is working.",
+   "how_to_distinguish_from_related": "Shame Installation targets your sense of being deeply inadequate and can happen in private, whereas public humiliation relies on witnesses. A Smear Campaign spreads distorted claims about you to build a reputation over time. Public humiliation is a moment played to the people in the room or the group chat. Humiliation Rituals dress the degradation as initiation or discipline and say the pain proves it is working.",
    "detection_notes": "Not matched or scored by this tool. Pasted text cannot establish this concept — included in the Field Guide purely as a literacy reference.",
    "codex_maturity": "mature",
    "human_review_flags": [
