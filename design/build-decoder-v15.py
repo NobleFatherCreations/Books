@@ -25,13 +25,16 @@ ROOT = os.path.join(HERE, "..")
 V15 = os.path.join(HERE, "decoder-v15")
 A15 = os.path.join(V15, "assets")
 A10 = os.path.join(HERE, "decoder-v10", "assets")
+sys.path.insert(0, HERE)
+import decoder_pages as pages  # noqa: E402  (plain per-tactic pages, v16)
 
 _spec = importlib.util.spec_from_file_location("v10", os.path.join(HERE, "build-decoder-v10.py"))
 v10 = importlib.util.module_from_spec(_spec); _spec.loader.exec_module(v10)
 
-VERSION = "v15"
+VERSION = "v16"
 DATE = "2026-10-27"
 UPDATES = [
+    "<strong>Every tactic has its own page (v16).</strong> Each of the tactics now has a plain page with its own address, like noblefathercreations.com/playbook/gaslighting, so you can find it from a search engine and share a link that opens straight to it. The page address and the tab now always show what you are reading. If someone else could see this device, a private window is the safest way to read.",
     "<strong>Plainer words, all the way through.</strong> Every entry was read again for clarity. Long sentences were split, hard words were swapped for everyday ones, and the stiff, repeated phrasing was reworded so it reads like a person talking. A few claims that could not be backed up were removed, and one description of a study was corrected.",
     "<strong>Easier on a phone.</strong> A button takes you back to the top of a long page, and a slim bar lets you change step without scrolling up. Search has a Paste button, and the bottom bar steps aside while you type. Every entry has a Text size button and a Listen button that reads it aloud with a voice stored on your phone. A small buzz when you tap is available in Settings and is off until you turn it on.",
     "<strong>More ways to find your way.</strong> Every station has a short code, like T09, that you can type into search. Lines have their own shapes as well as colours. You can set a line aside if you are not ready to read about it, choose where the Leave button goes, and print one station as a clean one-page card.",
@@ -325,6 +328,7 @@ def gate_output(entries, html, expected=EXPECTED):
     if "{{" in html: bad.append("an unfilled placeholder is left in the page")
     if len(re.findall(r"@font-face", html)) != 3: bad.append("the three embedded fonts are not all present")
     stripped = re.sub(r"<script[^>]*cloudflareinsights[^>]*></script>", "", html)
+    stripped = re.sub(r'<link rel="canonical" href="https://noblefathercreations\.com/playbook">', "", stripped)  # names the address; never fetched
     if re.search(r"@import|url\(['\"]?https?:", stripped) or re.search(r"<(script|link|img|iframe)[^>]+(src|href)=['\"]https?://", stripped): bad.append("an external request is in the page")
     return bad
 
@@ -362,10 +366,11 @@ def selftest(entries, recipes, html):
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--selftest", action="store_true", help="prove the pre-compile gate rejects bad input, then exit")
-    ap.add_argument("--out", default=os.path.join(ROOT, "instruments", "playbook", "_undeployed", "v15", "index.html"))
+    ap.add_argument("--out", default=os.path.join(ROOT, "instruments", "playbook", "site", "index.html"),
+                    help="the app page; unless --draft, the plain pages, fonts and sitemap are written beside it (the whole folder is the publish directory)")
     ap.add_argument("--draft", action="store_true", help="design iteration only: skip the content validator and write draft.html beside the build; never deploy this file")
     a = ap.parse_args()
-    if a.draft: a.out = os.path.join(os.path.dirname(a.out), "draft.html")
+    if a.draft: a.out = os.path.join(ROOT, "instruments", "playbook", "_undeployed", "v15", "draft.html")
     entries, by, recipes, aliases, narrow, feelings, feeling_groups, stop, common = assemble()
 
     groups = [(k, l, b) for k, l, b in v10.GROUPS if any(e["g"] == k for e in entries)]
@@ -412,6 +417,8 @@ def main():
             .replace("{{FONTS}}", fonts)
             .replace("{{CSS}}", read(V15, "app.css").replace("/*@@LINES@@*/", line_css))
             .replace("{{LOGO}}", read(A10, "brand-logo.txt"))
+            .replace("{{LDSET}}", pages.ld_set(len(entries)))
+            .replace("{{CRAWL}}", pages.crawl_links(lines, len(entries)))
             .replace("{{COUNT}}", str(len(entries)))
             .replace("{{HOME}}", home_html(lines, len(entries)))
             .replace("{{INDEX}}", js_json(payload))
@@ -428,10 +435,21 @@ def main():
         if len(problems) > 25: print(f"  ... and {len(problems) - 25} more")
         sys.exit(1)
     os.makedirs(os.path.dirname(os.path.abspath(a.out)), exist_ok=True)
-    tmp = a.out + ".tmp"          # written whole or not at all
-    with open(tmp, "w", encoding="utf-8") as fh:
-        fh.write(html)
-    os.replace(tmp, a.out)
+    if a.draft:
+        tmp = a.out + ".tmp"          # written whole or not at all
+        with open(tmp, "w", encoding="utf-8") as fh:
+            fh.write(html)
+        os.replace(tmp, a.out)
+    else:
+        site = os.path.dirname(os.path.abspath(a.out))
+        written, urls = pages.write_site(site, html, entries, lines, read(A10, "house.html"), read(A10, "beacon.html"),
+                                         read(A10, "brand-logo.txt").strip(), A15, DATE)
+        text_of = lambda t: re.sub(r"<(style|script)\b.*?</\1>", "", t, flags=re.S)   # CSS and JS braces are not placeholders
+        bad = [n for n, t in written.items() if n != "index.html" and (PLACEHOLDER.search(text_of(t)) or "noindex" in t)]
+        bad += [e["n"] for e in entries if e["s"] + ".html" not in written]
+        if bad or len(urls) != len(entries) + len(lines) + 2:
+            print("PLAIN PAGES FAILED:", bad[:10], len(urls)); sys.exit(1)
+        print(f"plain pages: {len(written) - 1} written ({len(entries)} tactics, {len(lines)} lines, 1 index), sitemap {len(urls)} addresses")
     print("pre-compile gate: all", len(entries), "entries checked and read back from the page, byte for byte")
     print(f"wrote {os.path.relpath(a.out, ROOT)}  {len(html.encode())//1024} KB  entries {len(entries)}  "
           f"index {len(js_json(payload).encode())//1024} KB  css {len(read(V15,'app.css').encode())//1024} KB  js {len(read(V15,'app.js').encode())//1024} KB")

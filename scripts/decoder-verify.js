@@ -38,7 +38,7 @@ const contrast = (a, b) => { const L = c => { c = c.map(v => v / 255).map(v => v
   const b = await chromium.launch();
   const html = fs.readFileSync(file);
   T("file size", html.length < 4.5e6, (html.length / 1e6).toFixed(2) + " MB, " + (zlib.gzipSync(html).length / 1e6).toFixed(2) + " MB gzipped");
-  T("no external requests in markup (only the approved beacon)", (() => { const h = html.toString("utf8").replace(/<script[^>]*cloudflareinsights[^>]*><\/script>/, "");
+  T("no external requests in markup (only the approved beacon)", (() => { const h = html.toString("utf8").replace(/<script[^>]*cloudflareinsights[^>]*><\/script>/, "").replace(/<link rel="canonical" href="https:\/\/noblefathercreations\.com\/playbook">/, "");
     return !/(src|href)=["']https?:\/\/(?!www\.w3\.org)/i.test(h.replace(/<a [^>]*href=["']https?:[^>]*>/g, "")) && !/@import|url\(["']?https?:/.test(h); })());
 
   const ctxFor = (w, h, scheme, extra) => b.newContext(Object.assign({ viewport: { width: w, height: h }, isMobile: w < 500, hasTouch: w < 500, colorScheme: scheme || "dark", deviceScaleFactor: 1 }, extra || {}));
@@ -102,9 +102,13 @@ const contrast = (a, b) => { const L = c => { c = c.map(v => v / 255).map(v => v
     await p.goto(URL0 + "#/search"); await p.fill("#q", "silent treatment"); await p.waitForTimeout(250);
     const z = await p.evaluate(() => ({ ls: localStorage.length, ss: sessionStorage.length, ck: document.cookie, url: location.href, title: document.title }));
     T("private: nothing written to the device after browsing 25 stations and a search", z.ls === 0 && z.ss === 0 && z.ck === "", JSON.stringify({ ls: z.ls, ss: z.ss }));
-    T("private: the query is not in the address", !/silent/.test(z.url)); T("private: neutral tab title", z.title === "Pattern Decoder", z.title);
+    T("private: the query is not in the address", !/silent/.test(z.url)); T("findable (v16): the tab title names the page", z.title === "Search · Pattern Decoder", z.title);
     await p.goto(URL0 + "#/entry/gaslighting"); await p.waitForTimeout(100);
-    T("private: station links use numbers", await p.evaluate(() => [...document.querySelectorAll("a[href^='#/']")].filter(a => /entry|line\/|compare\/|routes\/./.test(a.getAttribute("href"))).length === 0));
+    T("findable (v16): station links use names, never numbers", await p.evaluate(() => { const h = [...document.querySelectorAll("a[href^='#/']")].map(a => a.getAttribute("href")); return h.some(x => /^#\/entry\//.test(x)) && !h.some(x => /^#\/(s|l|c|r)\/\d/.test(x)); }));
+    { const m = await p.evaluate(() => ({ t: document.title, d: document.querySelector("meta[name=description]").content, c: document.querySelector("link[rel=canonical]").href,
+        ld: JSON.parse((document.querySelector("#ld-page") || { textContent: "{}" }).textContent), robots: !!document.querySelector("meta[name=robots]") }));
+      T("findable (v16): no robots block, and a station sets its title, description, canonical and DefinedTerm", !m.robots && /^Gaslighting: /.test(m.t) && /^What is Gaslighting\? /.test(m.d)
+        && m.c === "https://noblefathercreations.com/playbook/gaslighting" && m.ld["@type"] === "DefinedTerm" && /^T\d\d$/.test(m.ld.termCode), JSON.stringify(m).slice(0, 200)); }
     await ctx.close(); }
 
   // ---- axe on each page type, both themes, both widths
@@ -261,7 +265,7 @@ const contrast = (a, b) => { const L = c => { c = c.map(v => v / 255).map(v => v
     T("station sign wears its line colour (band matches the line bullet)", await p.evaluate(() => { const b = getComputedStyle(document.querySelector(".sname"), "::before"), bl = getComputedStyle(document.querySelector(".sname .b")); return b.backgroundColor === bl.backgroundColor && parseFloat(b.height) >= 6; }));
     await p.goto(URL0 + "#/search"); const asked = {};
     for (const q of ["settings", "love", "safe", "dark"]) { await p.fill("#q", q); await p.waitForTimeout(250); asked[q] = await p.evaluate(() => [...document.querySelectorAll("#results a.row")].map(a => a.getAttribute("href"))); }
-    T("search reaches pages and lines (settings, love, safe, dark)", asked.settings.includes("#/settings") && asked.love.some(h => /#\/l\/\d/.test(h)) && asked.safe.includes("#/safety") && asked.dark.includes("#/settings"), JSON.stringify(Object.fromEntries(Object.entries(asked).map(([k, v]) => [k, v.slice(0, 3)]))));
+    T("search reaches pages and lines (settings, love, safe, dark)", asked.settings.includes("#/settings") && asked.love.some(h => /#\/line\//.test(h)) && asked.safe.includes("#/safety") && asked.dark.includes("#/settings"), JSON.stringify(Object.fromEntries(Object.entries(asked).map(([k, v]) => [k, v.slice(0, 3)]))));
     await ctx.close(); }
   { const ctx = await ctxFor(390, 844, "dark", { reducedMotion: "reduce" }); const p = await open(ctx, "#/entry/gaslighting"); await p.waitForTimeout(200);
     await p.click("[data-showmap]"); await p.waitForTimeout(500);
@@ -482,7 +486,7 @@ const contrast = (a, b) => { const L = c => { c = c.map(v => v / 255).map(v => v
   // ---- review round: rested lines stay out everywhere, honest saving copy, Leave keeps nothing, no referrer
   { const ctx = await ctxFor(390, 844, "dark"); const p = await open(ctx, "#/settings"); await p.click("label:has(input[name=save][value=on])"); await p.waitForTimeout(150);
     const copy = await p.evaluate(() => document.querySelector("[data-settings]").textContent);
-    T("settings says the saved entry is scrambled, not secret, and that addresses show names", /Scrambled is not secret/.test(copy) && /tactic names/.test(copy));
+    T("settings says the saved entry is scrambled, not secret, and that a private window is safer", /Scrambled is not secret/.test(copy) && /private window is safer/.test(copy));
     await p.goto(URL0 + "#/entry/gaslighting"); await p.waitForTimeout(200); await p.click(".acts [data-save], [data-save]").catch(() => {});
     const raw = await p.evaluate(() => localStorage.getItem("ui-state")); const dec = await p.evaluate(r => { const a = atob(r), K = [110,102,33,154,60,81]; return Array.from(a, (c, i) => String.fromCharCode(c.charCodeAt(0) ^ K[i % 6])).join(""); }, raw);
     T("the stored entry has no timestamps and no tactic words", !/\d{12}/.test(dec) && !/gaslighting/i.test(dec), dec.slice(0, 80));

@@ -2,8 +2,10 @@
 /* Pattern Decoder v15 — Wayfinding.
    One offline page. Every route is a hash, so back, forward and bookmarks work. Groups are lines,
    tactics are stations, related tactics in other groups are interchanges, sequences are routes.
-   Private by default: nothing is written to the device until the reader turns saving on, and while it is
-   off the addresses are numbers (#/s/12), not names. See docs/DECODER-V15-ARCHITECTURE.html. */
+   Private by default: nothing is written to the device until the reader turns saving on. Since v16 the guide is
+   meant to be found, so addresses always carry the tactic's name (#/entry/gaslighting) and the tab title, meta
+   description, canonical link and JSON-LD follow the page (seo() below); the old numbered addresses (#/s/12)
+   still open. See docs/DECODER-V15-ARCHITECTURE.html and docs/DECODER-SEO.md. */
 const D = JSON.parse(document.getElementById("data").textContent);
 const $ = (s, el) => (el || document).querySelector(s);
 const $$ = (s, el) => Array.from((el || document).querySelectorAll(s));
@@ -120,10 +122,10 @@ const LEAVE_TO={weather:["A weather search","https://www.google.com/search?q=wea
 function logTrail(n){ if(!store.saving) return; const t=store.get("trail",[]).filter(x=>x&&x.name!==n); t.unshift({name:n}); store.set("trail",t.slice(0,100)); }
 
 /* ---------- addresses: names when saving, numbers when private ---------- */
-const stH = e => store.saving ? "#/entry/"+e.s : "#/s/"+e.i;
-const lnH = l => store.saving ? "#/line/"+l.k : "#/l/"+l.i;
-const cpH = (a,b) => store.saving ? "#/compare/"+a.s+"/"+b.s : "#/c/"+a.i+"/"+b.i;
-const rtH = r => store.saving ? "#/routes/"+r.s : "#/r/"+r.i;
+const stH = e => "#/entry/"+e.s;
+const lnH = l => "#/line/"+l.k;
+const cpH = (a,b) => "#/compare/"+a.s+"/"+b.s;
+const rtH = r => "#/routes/"+r.s;
 const readable = e => location.href.split("#")[0]+"#/entry/"+e.s;
 
 /* ---------- small renderers ---------- */
@@ -175,7 +177,7 @@ function gloss(html){
 }
 function foot(){
   return '<footer class="foot"><p>A free guide by Noble Father Creations. It is a reading aid, not a diagnosis, a legal opinion or therapy. If you are in danger, contact emergency services.</p>'+
-    '<nav aria-label="More"><a href="#/safety">Use this safely</a><a href="#/lines">All lines</a><a href="#/routes">Patterns seen together</a><a href="#/updates">Service updates ('+esc(D.version)+')</a><a href="#/settings">Settings</a></nav></footer>';
+    '<nav aria-label="More"><a href="#/safety">Use this safely</a><a href="/playbook/tactics">Every tactic on its own page</a><a href="#/lines">All lines</a><a href="#/routes">Patterns seen together</a><a href="#/updates">Service updates ('+esc(D.version)+')</a><a href="#/settings">Settings</a></nav></footer>';
 }
 const notFound = () => '<div class="view"><h1 class="h-page">That page is not here.</h1><p class="lede">The link may be out of date or cut short.</p><div class="blades"><a class="blade pri" href="#/"><span class="bt"><b>Go to the start</b></span><span class="ar">'+ic("arrow")+'</span></a><a class="blade" href="#/search"><span class="bt"><b>Search instead</b></span><span class="ar">'+ic("arrow")+'</span></a></div></div>';
 
@@ -524,7 +526,7 @@ function viewRoutes(r){
 function viewSaved(){
   if(!store.saving) return '<div class="view"><h1 class="h-page" tabindex="-1">Saved</h1><p class="lede">Saving is off, so nothing you read or save is kept on this device. This is the safer choice if anyone else might use this phone.</p>'+
     (store.legacy?legacyNotice():'')+
-    '<div class="notice"><h2>Want to keep tactics for later?</h2><p>Turning saving on keeps the tactics you save, what you recently read and your settings on this device only. They are kept in a scrambled entry, which hides them from a glance but is not secret: someone who knows how could read which tactics you saved and which lines you rested. Saving also puts tactic names in page addresses, the tab title and your browser history. A private window is safer. You can turn saving off again in Settings, and that deletes all of it.</p><div class="acts"><button class="btn pri" type="button" data-saving="on">Turn on saving</button></div></div></div>';
+    '<div class="notice"><h2>Want to keep tactics for later?</h2><p>Turning saving on keeps the tactics you save, what you recently read and your settings on this device only. They are kept in a scrambled entry, which hides them from a glance but is not secret: someone who knows how could read which tactics you saved and which lines you rested. You can turn saving off again in Settings, and that deletes all of it.</p><div class="acts"><button class="btn pri" type="button" data-saving="on">Turn on saving</button></div></div></div>';
   const HV=hiddenSet(), st=starred().map(n=>BY[n]).filter(e=>!HV.has(e.g)), tr=store.get("trail",[]).map(t=>BY[canon(t.name)]).filter(e=>e&&!HV.has(e.g)).slice(0,24);
   return '<div class="view"><h1 class="h-page" tabindex="-1">Saved</h1><p class="lede">Kept on this device only. Clearing your browser data clears these too.</p>'+
     '<h2 class="h-sec">Saved tactics</h2>'+(st.length?rows(st):'<p class="empty">Tap Save on any station to keep it here.</p>')+
@@ -545,7 +547,7 @@ function viewSafety(){
     h("A signal, not a verdict")+p("One example of a pattern is a reason to look more closely, not proof of motive or character. Every entry says what its tactic is not, because most of these behaviors also have ordinary explanations. Please do not use a label from this guide to attack, shame, threaten, expose or get back at someone.")+
     h("The map and the patterns")+p("Lines group tactics of one kind, and stations next to each other are closely related. A pattern shows tactics that are often seen together. None of it predicts what a particular person will do.")+
     h("The search box")+p("Pasting in something that was said to you finds entries whose wording is close to it. That is a pointer to read further, never a finding. What you type is never added to the address bar or your history, and never sent anywhere.")+
-    h("Your privacy")+p("There is no account. Saving is off unless you turn it on: until then nothing is written to this device, the page addresses use numbers instead of tactic names, and the tab shows only the guide's name. The page counts anonymous visits; nothing you read, type or save is sent anywhere.")+
+    h("Your privacy")+p("There is no account. Saving is off unless you turn it on: until then nothing is written to this device. Page addresses and the tab title show what you are reading, and your browser keeps them in its history, so a private window is the safest way to read. The page counts anonymous visits; nothing you read, type or save is sent anywhere.")+
     p('If you turn saving on, your saved tactics, recent reading and settings stay on this device only. Turning it off in <a href="#/settings">Settings</a> deletes all of it.')+
     h("If your connection drops")+p("This guide is one file. Once it has loaded, it keeps working with no connection, because every page you can move to is already inside it. Keep the tab open. It does not install anything on your phone and it keeps no copy of itself in the browser's cache, on purpose: anything left on a device can be found. If you reload the page while offline, your browser may not be able to open it.")+
     h("Taking a pause")+p("After about twenty minutes of steady reading, the guide suggests a short pause. You can keep reading straight away, or switch the reminder off in Settings.")+'</div>';
@@ -559,7 +561,7 @@ function viewSettings(){
   const ch=(name,cur,opts)=>'<div class="ch">'+opts.map(o=>'<label><input type="radio" name="'+name+'" value="'+o[0]+'"'+(cur===o[0]?' checked':'')+'>'+o[1]+'</label>').join("")+'</div>';
   return '<div class="view set"><h1 class="h-page" tabindex="-1">Settings</h1><form data-settings>'+
     '<fieldset><legend>Saving on this device</legend>'+ch("save",store.saving?"on":"off",[["off","Off (private)"],["on","On"]])+
-      '<p class="help">'+(store.saving?'Saved tactics, recent reading and these settings are kept on this device in a scrambled entry. Scrambled is not secret: someone who knows how could read which tactics you saved and which lines you rested. Page addresses and the tab title now show tactic names, and your browser history keeps them. A private window is safer. Turning saving off deletes all of it.':'Nothing is written to this device. Addresses use numbers instead of tactic names, and the tab shows only the guide\'s name.')+'</p></fieldset>'+
+      '<p class="help">'+(store.saving?'Saved tactics, recent reading and these settings are kept on this device in a scrambled entry. Scrambled is not secret: someone who knows how could read which tactics you saved and which lines you rested. A private window is safer. Turning saving off deletes all of it.':'Nothing is written to this device. Page addresses and the tab title still show what you are reading, so a private window is safer.')+'</p></fieldset>'+
     '<fieldset><legend>Colours</legend>'+ch("theme",PREF.theme,[["auto","Match my phone"],["night","Night"],["day","Day"]])+'</fieldset>'+
     '<fieldset><legend>Colour strength</legend>'+ch("color",PREF.color,[["vivid","Vivid"],["quiet","Quiet"]])+'<p class="help">Quiet keeps colour to small marks. It is easier on the eyes at night and draws less attention on a shared screen.</p></fieldset>'+
     '<fieldset><legend>Text size</legend>'+ch("size",PREF.size,[["m","Standard"],["l","Larger"],["xl","Largest"]])+'</fieldset>'+
@@ -655,8 +657,32 @@ function render(){
 }
 /* After a tap on a row, the station sign's line-colour band draws in from the left (the contract's one signature moment). */
 function sweep(tapped){ if(!tapped||!motionOK()) return; const s=$(".sname"); if(s) s.classList.add("sweep"); }
+/* ---------- findability (v16): tab title, description, canonical and JSON-LD follow the page ----------
+   The canonical for a station or line is its plain page (/playbook/gaslighting, /playbook/line-truth), which the
+   build writes beside this one; those are what search engines and AI crawlers read. Titles match the plain pages. */
+const SITE="https://noblefathercreations.com/playbook";
+const HOME_SEO={t:document.title,d:($("meta[name=description]")||{}).content||""};
+const clip=(s,n)=>{ s=String(s||"").replace(/\s+/g," ").trim(); if(s.length<=n) return s; const c=s.slice(0,n-1); return c.slice(0,c.lastIndexOf(" ")).replace(/[,;:.]$/,"")+"…"; };
+function setMeta(sel,v){ const m=$(sel); if(m) m.setAttribute(m.tagName==="LINK"?"href":"content",v); }
+function seo(r,c){
+  const st=c.station, ln=!st&&(r.view==="line"?LINE[r.a]:r.view==="l"?byNum(LINES,r.a):null);
+  const t=st?st.n+": Signs, Examples and What to Do · Pattern Decoder" : ln?ln.label+": "+ln.order.length+" Tactics · Pattern Decoder" : c.title?c.title+" · Pattern Decoder" : HOME_SEO.t;
+  const d=st?clip("What is "+st.n+"? "+st.f.short_definition,160) : ln?clip(ln.blurb,160) : HOME_SEO.d;
+  const u=st?SITE+"/"+st.s : ln?SITE+"/line-"+ln.k : SITE;
+  document.title=t;
+  setMeta("meta[name=description]",d); setMeta("link[rel=canonical]",u);
+  setMeta('meta[property="og:title"]',t); setMeta('meta[property="og:description"]',d); setMeta('meta[property="og:url"]',u);
+  const old=$("#ld-page"); if(old) old.remove();
+  if(!st) return;
+  const l=LINE[st.g], ld=document.createElement("script");
+  ld.type="application/ld+json"; ld.id="ld-page";
+  ld.textContent=JSON.stringify({"@context":"https://schema.org","@type":"DefinedTerm","@id":u+"#term","name":st.n,"url":u,
+    "termCode":l.letter+pad2(l.order.indexOf(st.n)+1),"description":st.f.short_definition,
+    ...(st.abs&&st.abs.length?{"alternateName":st.abs}:{}),"inDefinedTermSet":{"@id":SITE+"#set"}});
+  document.head.appendChild(ld);
+}
 function after(r,c,key){
-  document.title=store.saving&&c.title?c.title+" · Pattern Decoder":"Pattern Decoder";
+  seo(r,c);
   document.body.dataset.page=c.station?"station":(r.view||"home"); document.body.dataset.g=c.station?c.station.g:"";
   $$(".doors a").forEach(a=>{ if(a.dataset.door===(c.door||(c.station||r.view==="compare"||r.view==="c"?LASTDOOR:null))) a.setAttribute("aria-current","page"); else a.removeAttribute("aria-current"); });
   if(!r.view) fillHome();
