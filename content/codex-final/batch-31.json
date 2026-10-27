@@ -388,14 +388,14 @@
   "core_meaning": "Arranging what another person reads, hears and talks about so that they mostly meet one view and come to see every other source as unreliable."
  },
  "Stochastic Harassment Direction": {
-  "short_definition": "Repeatedly describing a named person in inflammatory terms to a large audience, so some listeners predictably harass them although the speaker never gives an instruction.",
-  "expanded_definition": "Stochastic means 'driven by chance': nobody can say which listener will act, only that with a large enough audience, some probably will. In this pattern, someone repeatedly names a target and describes them in a way that provokes anger, often with their workplace or town, and never gives an instruction. Then a wave of messages, calls or visits arrives. One harsh post means little. The pattern is repeated portrayal, followed by repeated waves that cite the same words.",
+  "short_definition": "Someone keeps describing a named person in angry terms to a big audience, so some listeners predictably harass that person, though the speaker never gives an instruction.",
+  "expanded_definition": "Stochastic means 'driven by chance'. Nobody can say which listener will act, only that with a large enough audience, some probably will. Here, someone repeatedly names a target and describes them in a way that stirs up anger, often mentioning their workplace or town. They never give an instruction. Then a wave of messages, calls or visits arrives. One harsh post means little. The pattern is repeated portrayal, followed by repeated waves that cite the same words.",
   "plain_language_summary": "Someone keeps painting one person as a villain to a big audience. They never tell anyone to act, yet strangers start harassing that person.",
-  "why_this_matters": "The person singled out absorbs harassment from many people at once while the portrayal that produced it stays technically deniable, so there is no single act to report and no one to hold to it. It can feel as if the whole world has turned on you.",
+  "why_this_matters": "The person singled out takes harassment from many people at once. The portrayal that set it off stays easy to deny, so there is no single act to report and no one to hold to account. It can feel as if the whole world has turned on you.",
   "what_it_is": [
    "A repeated, inflammatory description of a named individual, often with their job, school or neighborhood attached.",
    "An audience large and angry enough that a few of its members acting is close to certain.",
-   "No direct instruction, only a framing that makes harassment seem justified, so the speaker can say they never asked for it.",
+   "There is no direct instruction, only a framing that makes harassment seem justified, so the speaker can say they never asked for it.",
    "Waves of messages, calls or complaints that arrive soon after each post and quote its wording.",
    "It is about foreseeable effect over time, not about one person's anger or one heated post."
   ],
@@ -453,7 +453,7 @@
    "The reaction is limited to ordinary replies and does not reach the person's work or family."
   ],
   "more_concerning_if": [
-   "The harassment includes threats, repeated unwanted visits, or the sharing of the person's home address or children's details.",
+   "The harassment includes threats, repeated unwanted visits, or sharing of the person's home address or their children's details.",
    "Contact is arriving at your workplace, threatening your income.",
    "The speaker keeps posting after being told that threats have arrived."
   ],
@@ -463,36 +463,36 @@
    "New people turn up with the same wording, and you feel watched in more places.",
    "You begin to change how you live: locking accounts, varying your routes or leaving your usual places."
   ],
-  "repair_check": "If the speaker is confronted with the harassment, repair would be them publicly telling the audience to stop, taking down the posts and not naming the person again. A reply that says 'I never asked anyone to do that' and then goes on posting has changed nothing for the person being harassed.",
+  "repair_check": "If the speaker is confronted with the harassment, repair would mean telling the audience publicly to stop, taking down the posts and not naming the person again. A reply that says 'I never asked anyone to do that' and then keeps posting has changed nothing for the person being harassed.",
   "boundary_respect_check": "Ask whether, after you or someone else asks that the posts stop, new waves still follow within days. If the posts stop and the waves die down, the request has been honored. If they continue, then the request is being treated as a part of the story.",
-  "psychological_mechanism": "A large audience can contain a few people who are already angry or looking for a target. A vivid, repeated portrayal can tell them whom to be angry at and make acting feel righteous, while the speaker keeps a sense of distance, since no instruction was given. Responsibility then seems to spread out among many senders, and no one feels it entirely.",
+  "psychological_mechanism": "A large audience can include a few people who are already angry or looking for a target. A vivid, repeated portrayal can show them whom to be angry at and make acting seem righteous. The speaker stays at a distance, since no instruction was given. Responsibility then spreads out among many senders, and no one feels all of it.",
   "possible_impact_on_receiver": "People describe constant alerts, losing sleep, fear when the phone rings, and pulling out of public life. Some lose work because employers get flooded with complaints. Others describe feeling unable to explain it, since no single message looks serious on its own.",
   "response_options": {
-   "soft_clarification": "If you think you may be the audience, ask yourself in private what the speaker is wanting you to do, and whether you would say it to the person's face.",
+   "soft_clarification": "If you think you may be part of the audience, ask yourself in private what the speaker wants you to do. Then ask whether you would say it to the person's face.",
    "firm_boundary": "Do not reply to the harassers or to the speaker in public. Block, mute and report from your accounts, and keep screenshots with dates and links.",
-   "disengagement": "Lock down accounts, remove personal information from public view, and ask trusted people to help you watch messages so you are not alone with them.",
-   "support_seeking": "Tell a trusted friend or family member what is happening, and ask for help with a record of each message, including a note of when it arrived.",
-   "workplace_or_professional": "If it reaches you at work, tell your manager or HR early, give them your record, and ask that the organization handle calls and emails about you."
+   "disengagement": "Lock down your accounts and remove personal information from public view. Ask trusted people to help you watch the messages, so you are not alone with them.",
+   "support_seeking": "Tell a trusted friend or family member what is happening. Ask them to help you keep a record of each message, with a note of when it arrived.",
+   "workplace_or_professional": "If it reaches you at work, tell your manager or HR early and give them your record. Ask the organization to handle calls and emails about you."
   },
   "boundary_script": "\"Will you read through these messages with me and help me work out who should see them? I'm keeping a dated record and not replying to any of them.\" Say this to a trusted helper, never to the sender.",
   "safety_sensitive": true,
-  "safety_note": "Harassment waves can move from messages to threats, doxxing or visits to a home or workplace. Signs to take seriously are your address being shared, threats naming you or your family, or someone appearing in person. Keep dated copies, report each wave to the platform, and take the file to the police or a victim-support service, who can advise on protective orders.",
+  "safety_note": "Harassment waves can move from messages to threats, doxxing or visits to a home or workplace. Take these signs seriously: your address being shared, threats naming you or your family, or someone appearing in person. Keep dated copies and report each wave to the platform. Take the file to the police or a victim-support service, who can advise on protective orders.",
   "misuse_warning": [
-   "Treating any pile-on after a post as proof of orchestrated incitement can shield real wrongdoing from public criticism.",
+   "Treating any pile-on after a post as proof of planned incitement can shield real wrongdoing from public criticism.",
    "Someone who is being criticized may use the label to cast all criticism of themselves as harassment."
   ],
-  "how_to_distinguish_from_related": "Punishment by proxy hits someone you love, to send a message, while here the pain lands on you directly, from many strangers. Information cascades spread a belief because agreeing is safer, and no one aims it at a person. Reputation laundering hides the source of a claim, whereas here the speaker is out in the open and the deniability sits in the lack of any instruction.",
-  "core_meaning": "Repeatedly describing a named person in inflammatory terms to a large audience, so some listeners predictably harass them although the speaker never gives an instruction."
+  "how_to_distinguish_from_related": "Punishment by proxy hurts someone you love to send you a message. Here the pain lands on you directly, from many strangers. Information cascades spread a belief because agreeing is safer, and no one aims them at a person. Reputation laundering hides the source of a claim. Here the speaker is out in the open, and the deniability comes from never giving an instruction.",
+  "core_meaning": "Someone keeps describing a named person in angry terms to a big audience, so some listeners predictably harass that person, though the speaker never gives an instruction."
  },
  "Information Laundering": {
   "short_definition": "Passing a false or unverified claim through a series of apparently credible sources until it looks like established fact and its origin can no longer be seen.",
-  "expanded_definition": "Information laundering moves a claim from a weak source, such as an anonymous post or a fabricated document, through a chain of better-looking ones: a blog, a small outlet, a bigger outlet, an expert quoting the outlet. Each step cites the one before and adds a little respectability. Citing earlier reporting is normal. The pattern is when no link in the chain ever checked the claim itself, and the original source fades out of view.",
+  "expanded_definition": "Information laundering moves a claim from a weak source, such as an anonymous post or a fabricated document, through a chain of better-looking ones. These might be a blog, a small outlet, a bigger outlet, then an expert quoting that outlet. Each step cites the one before and adds a little respectability. Citing earlier reporting is normal. The pattern is when no link in the chain ever checked the claim itself, and the original source fades out of view.",
   "plain_language_summary": "A shaky claim gets passed from one source to a more respected one, then another. Soon it looks well-sourced, though nobody checked if it was true.",
   "why_this_matters": "You are contradicted by something that now looks well-sourced, and disproving it means unpicking a chain of citations rather than a single claim. By then, the claim has been quoted in so many places that it feels settled.",
   "what_it_is": [
    "A claim moved upward through outlets of rising credibility, each citing the last.",
    "A circle of sources that repeat each other, so the number of citations looks like independent confirmation.",
-   "A weak original, such as a forged document or an anonymous post, that becomes hard to find once better-known outlets carry it.",
+   "The weak original, such as a forged document or an anonymous post, gets hard to find once better-known outlets carry the claim.",
    "Credibility gained from the messenger's reputation, not from any new evidence.",
    "It happens in news, in academic citations, in company reports and in word-of-mouth."
   ],
@@ -560,7 +560,7 @@
    "Attempts to correct the record are answered with 'it has been widely reported'.",
    "Details of the claim harden over time, such as numbers becoming exact, while the evidence stays thin."
   ],
-  "repair_check": "When a chain is exposed, repair looks like each outlet stating that it relied on an earlier source it did not check, updating the original piece and telling readers who saw the earlier version. Quietly deleting a link while leaving the claim in place does not remove it from circulation.",
+  "repair_check": "When a chain is exposed, repair looks like each outlet saying it relied on an earlier source it did not check. They update the original piece and tell readers who saw the earlier version. Quietly deleting a link while leaving the claim in place does not remove it from circulation.",
   "boundary_respect_check": "When you ask an outlet or colleague where a claim came from, watch how they respond. Naming the source and conceding what they did not check shows that the question was respected. Pointing to the number of other places that ran it avoids the question.",
   "psychological_mechanism": "Messenger reputation often does the work that checking should. Readers can judge a claim by how reputable the messenger seems and by how often they have seen it, rather than checking the root. A respectable outlet can lend its reputation to something it did not verify. Seeing a claim in several places may look like confirmation, even when they all trace to one origin.",
   "possible_impact_on_receiver": "People describe the frustration of facing a claim that seems sourced and cannot be answered in one line. Targets report harm to their name or job from something they never said. Readers describe feeling foolish on learning that the 'many sources' were one.",
@@ -568,15 +568,15 @@
    "soft_clarification": "Ask the person sharing it: 'Where does this first come from, before the article?' Wait for an answer you can check.",
    "firm_boundary": "Decline to repeat or cite the claim until you have traced it to a source that did its own checking.",
    "disengagement": "Stop engaging with a thread that is only citing itself, and avoid sharing it further, which gives it more reach.",
-   "support_seeking": "Send the chain you traced to a fact-checking organization, a librarian or a reporter who covers the topic, and ask them to review it.",
-   "workplace_or_professional": "If you edit, research or cite for work, require a primary source for key claims and note in your records how each source was checked."
+   "support_seeking": "Send the chain you traced to a fact-checking organization, a librarian or a reporter who covers the topic. Ask them to review it.",
+   "workplace_or_professional": "If you edit, research or cite for work, require a primary source for key claims. Note in your records how each source was checked."
   },
   "boundary_script": "Verification script (to yourself, before sharing): \"Can I trace this back to someone who actually saw it, measured it or held the document? Or am I looking at five sources that all got it from the same place?\"",
   "safety_sensitive": false,
-  "safety_note": "Information laundering is mostly a harm to understanding and reputation. It becomes a safety matter if a laundered claim names a private person and prompts harassment, threats or loss of work. If that happens, save copies of the pages, report to the platforms and outlets, and speak to a lawyer or a media-law advice service.",
+  "safety_note": "Information laundering mostly harms understanding and reputation. It becomes a safety matter if a laundered claim names a private person and leads to harassment, threats or loss of work. If that happens, save copies of the pages and report to the platforms and outlets. Speak to a lawyer or a media-law advice service.",
   "misuse_warning": [
    "Calling a claim 'laundered' just because you dislike it, without tracing it, dismisses honest reporting.",
-   "The label can be used to wave away any claim that many outlets carried, even when each one verified it separately."
+   "The label can be used to wave away any claim that many outlets carried, even when each one checked it separately."
   ],
   "how_to_distinguish_from_related": "Information cascades spread a claim because agreeing is safer, and nobody needs to have staged the climb. Information laundering is built to make a weak claim look verified, and the chain matters. Strategic ambiguity keeps meaning vague to avoid being pinned down, while here the claim is specific but its origin is hidden. Reputation laundering does the same to a person's image.",
   "core_meaning": "Passing a false or unverified claim through a series of apparently credible sources until it looks like established fact and its origin can no longer be seen."

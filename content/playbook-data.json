@@ -3992,7 +3992,7 @@
   {
    "name": "Stochastic Harassment Direction",
    "cat": "Isolation / social",
-   "what": "Repeatedly describing a named person in inflammatory terms to a large audience, so some listeners predictably harass them although the speaker never gives an instruction.",
+   "what": "Someone keeps describing a named person in angry terms to a big audience, so some listeners predictably harass that person, though the speaker never gives an instruction.",
    "nots": [
     "Proportionate public criticism of someone's public actions is legitimate, even when a third party overreacts to it.",
     "Reporting real wrongdoing through proper channels is not incitement.",
@@ -4011,7 +4011,7 @@
     "Your address, workplace or family showing up in comments after a post, posted by strangers.",
     "New accounts appearing in your inbox with the same few insults."
    ],
-   "why": "The person singled out absorbs harassment from many people at once while the portrayal that produced it stays technically deniable, so there is no single act to report and no one to hold to it. It can feel as if the whole world has turned on you."
+   "why": "The person singled out takes harassment from many people at once. The portrayal that set it off stays easy to deny, so there is no single act to report and no one to hold to account. It can feel as if the whole world has turned on you."
   },
   {
    "name": "Information Laundering",
@@ -4040,10 +4040,10 @@
   {
    "name": "Emotion Control",
    "cat": "Control structural",
-   "what": "Rewarding the feelings a person is allowed to show and punishing or shaming the rest, until they perform emotions instead of reporting them.",
+   "what": "Rewarding the feelings a person is allowed to show and punishing or shaming the rest, until they act out emotions instead of reporting them.",
    "nots": [
     "A household or workplace with norms about how feelings get expressed, such as no shouting at the table. Cultures differ widely, and a difference in emotional style is not a tactic.",
-    "A norm that falls evenly on everyone in the room, including the person who set it, instead of landing on one person as a penalty for particular feelings.",
+    "A rule that applies evenly to everyone in the room, including the person who set it, instead of landing on one person as a penalty for particular feelings.",
     "Someone asking for a calmer tone in the middle of a heated argument, then coming back to hear you out.",
     "A person who finds sadness or anger hard to be near, says so, and does not punish you for having it.",
     "A job that asks for steady composure with customers while leaving room to be human elsewhere.",
@@ -4083,17 +4083,17 @@
     "A schedule with no free day, and a day off that gets filled at the last minute.",
     "Being told you look tired, followed by another task."
    ],
-   "why": "Depletion that runs for months narrows the ability to think, weigh options and push back, and once that is gone, noticing its absence gets harder too."
+   "why": "Depletion that runs for months narrows your ability to think, weigh options and push back. Once that is gone, noticing it is gone gets harder too."
   },
   {
    "name": "Nonverbal Dominance",
    "cat": "Control structural",
    "what": "Using posture, stares, sighs, eye rolls or the way a body fills a room to dismiss or pressure someone without saying anything.",
    "nots": [
-    "Faces move on their own: a flash of visible irritation, an expressive manner, a real sigh at the end of a long day. The test is whether the reaction appears whenever something is annoying, or specifically whenever one person disagrees.",
-    "Rooms have layouts. A standing desk, a low sofa or a narrow kitchen can put one person above another, and someone standing up is usually just about to leave.",
+    "Faces move on their own: a flash of visible irritation, an expressive manner, a real sigh at the end of a long day. Ask whether the reaction appears whenever something is annoying, or only when one person disagrees.",
+    "Rooms have layouts. A standing desk, a low sofa or a narrow kitchen can put one person above another. Someone standing up is usually just about to leave.",
     "People differ in height, build and posture, and a tall or broad person takes up room without meaning anything by it.",
-    "A family or cultural style with long or short eye contact, or comfortable silence, that shows up with everyone.",
+    "A family or cultural style of long or short eye contact, or comfortable silence, that shows up with everyone.",
     "Tiredness, pain, or a neurological or sensory difference that shapes facial expression and eye contact.",
     "A frown or far-off stare while someone concentrates on what you are saying."
    ],
@@ -4107,14 +4107,14 @@
     "They turn away or pick up a phone as soon as you mention the budget.",
     "You ask what is wrong and hear: 'Nothing. I didn't say anything.'"
    ],
-   "why": "Nothing quotable is said, so the experience is hard to explain to anyone else, and you may end up quietly editing yourself around a reaction you could not describe if asked. Being looked down on, literally, works below the level of argument: you feel smaller and cannot point to why."
+   "why": "Nothing quotable is said, so the experience is hard to explain to anyone else. You may end up quietly editing yourself around a reaction you could not describe if asked. Being looked down on, literally, works below the level of argument. You feel smaller and cannot point to why."
   },
   {
    "name": "Spatial Invasion",
    "cat": "Control structural",
-   "what": "Standing too close, blocking a doorway or cornering someone during tension, so they feel physically hemmed in though nothing is threatened aloud.",
+   "what": "Standing too close, blocking a doorway or cornering someone during tension, so they feel physically hemmed in even though nothing is threatened aloud.",
    "nots": [
-    "Personal-space norms vary widely between cultures and individuals, and small rooms, elevators and crowded venues force closeness on everyone. A closeness noticed and corrected once is not this.",
+    "Personal-space norms vary widely between cultures and individuals. Small rooms, elevators and crowded venues force closeness on everyone. A closeness that was noticed and corrected once is not this.",
     "Leaning in to hear someone in a loud room.",
     "A parent standing in a doorway to stop a toddler running toward the road.",
     "Someone upset who stands near you and moves back as soon as you say it is too close.",
@@ -4131,14 +4131,14 @@
     "They stand against the closed door of the room you are in.",
     "Sit down. I'm talking to you."
    ],
-   "why": "The body reacts to a blocked exit well before there are words for it, so fear arrives in a conversation where nothing was ever threatened out loud."
+   "why": "The body reacts to a blocked exit well before there are words for it. So fear arrives in a conversation where nothing was ever threatened out loud."
   },
   {
    "name": "Resource Sabotage",
    "cat": "Control structural",
-   "what": "Withdrawing the tools, information, money or help a person needs to do something, then treating the resulting failure as proof they are not up to it.",
+   "what": "Taking away the tools, information, money or help a person needs to do something, then treating the failure that follows as proof they are not up to it.",
    "nots": [
-    "Budgets get cut, colleagues forget things, and money and attention are legitimately redirected for real, stated reasons. The question is whether the shortfall lands on everyone or only ever on one person, and whether the missing support is acknowledged when the work then fails.",
+    "Budgets get cut, colleagues forget things, and money and attention are legitimately redirected for real, stated reasons. Ask whether the shortfall lands on everyone or only ever on one person. Ask too whether the missing support is acknowledged when the work then fails.",
     "A team-wide shortage that everyone is working around together.",
     "An honest mistake, such as an email sent to the wrong list, put right quickly once pointed out.",
     "A partner who truly cannot help this week because of their own crisis, and says so.",
@@ -4155,14 +4155,14 @@
     "You should have asked for the login sooner. (It was changed without notice.)",
     "The one piece of equipment you need goes to someone else the week before your presentation."
    ],
-   "why": "Failing without the tools needed to succeed reads to everyone watching, and often to the person themselves, as plain incompetence."
+   "why": "When someone fails without the tools they needed, everyone watching sees plain incompetence. Often the person sees it that way too."
   },
   {
    "name": "\"Managed Out\" Through Exhaustion",
    "cat": "Control structural",
-   "what": "Slowly removing a person's meaningful work, visibility and belonging until their departure looks like a free choice on paper.",
+   "what": "Slowly removing a person's meaningful work, visibility and belonging until their leaving looks like a free choice on paper.",
    "nots": [
-    "Restructures, shrinking budgets and real role mismatches hollow out jobs, and an employer in decline has less for everyone. A transparent change across a group differs from a quiet removal that falls on one person while no complaint is filed.",
+    "Restructures, shrinking budgets and real role mismatches hollow out jobs, and an employer in decline has less for everyone. A transparent change across a group is different from a quiet removal that falls on one person while no complaint is filed.",
     "A skills mismatch discussed openly, with a plan to move you or train you.",
     "A planned handover to a successor, announced and explained.",
     "A documented performance process with stated expectations and a chance to meet them. It can be painful and still be transparent.",
@@ -4178,16 +4178,16 @@
     "You hear about a decision in your own team from a colleague, after the fact.",
     "Maybe it's time to think about what you really want."
    ],
-   "why": "A departure produced by these conditions looks, on paper and in memory, like a free choice, which leaves the person carrying the story that they simply could not cope."
+   "why": "A departure produced by these conditions looks like a free choice, on paper and in memory. The person is left carrying the story that they simply could not cope."
   },
   {
    "name": "Evidence Traps",
    "cat": "Control structural",
-   "what": "Saving a person's messages, posts or remarks without their context, then bringing them out later at a moment when they do the most damage.",
+   "what": "Saving a person's messages, posts or remarks without their context, then bringing them out later at the moment they will do the most damage.",
    "nots": [
-    "Keeping records is legitimate and often wise, and raising something someone said because it still matters, in the context it was said in, is just conversation. What is being described is the stripping of that context and the choosing of the moment it returns.",
+    "Keeping records is legitimate and often wise. Raising something someone said because it still matters, in the context it was said in, is just conversation. What is being described is the stripping of that context and the choosing of the moment it returns.",
     "Quoting an email in a work dispute with the full thread attached.",
-    "Saving threatening or abusive messages to show an advocate, lawyer or police. That is documentation for safety, a different use altogether.",
+    "Saving threatening or abusive messages to show an advocate, lawyer or police is a different use altogether. That is documentation for safety.",
     "A friend who remembers what you said and says 'but you told me last week' in good faith.",
     "Receipts kept for an HR or legal process and shared in full with the people entitled to see them."
    ],
@@ -4201,14 +4201,14 @@
     "A colleague pastes one line of your email into a meeting thread without the lines around it.",
     "I took a screenshot back then, just in case."
    ],
-   "why": "Knowing that anything said may be stored and re-timed makes ordinary candor feel risky, and speech starts being drafted rather than spoken."
+   "why": "Knowing that anything said may be stored and re-timed makes ordinary honesty feel risky. Speech starts being drafted rather than spoken."
   },
   {
    "name": "Moral Framing",
    "cat": "Control structural",
    "what": "Answering someone's boundary, objection or criticism with a judgment of their character, such as selfish or disloyal, instead of with the thing they raised.",
    "nots": [
-    "Sometimes an observation about character is accurate, specific and offered as real feedback, and sometimes two people hold different values and read the same event through them. A hurt remark later walked back and replaced with substance is not this.",
+    "Sometimes an observation about character is accurate, specific and offered as real feedback. Sometimes two people hold different values and read the same event through them. A hurt remark later walked back and replaced with substance is not this.",
     "A specific, honest observation about a behavior, given along with a discussion of the issue itself.",
     "A disagreement rooted in different values, such as how much to give to family, where each side explains their own.",
     "Someone telling you honestly that your action conflicted with a promise you made.",
@@ -4229,12 +4229,12 @@
   {
    "name": "Reproductive Coercion",
    "cat": "Control structural",
-   "what": "Pressuring or penalizing someone over whether, when or how to have children, through money, work, family standing or withdrawal of support.",
+   "what": "Pressuring or penalizing someone over whether, when or how to have children, using money, work, family standing or withdrawal of support.",
    "nots": [
-    "People may want things and say so: a parent hoping for grandchildren, a partner describing the family they imagined. A neutral, lawful employment policy can touch a reproductive decision without targeting it. What changes the picture is a consequence attached to the answer.",
-    "A partner who says they want children, talks about timing, and accepts a 'no' or a 'not yet' while the relationship stays on the same terms.",
+    "People may want things and say so, like a parent hoping for grandchildren or a partner describing the family they imagined. A neutral, lawful employment policy can touch a reproductive decision without targeting it. What changes the picture is a consequence attached to the answer.",
+    "A partner says they want children and talks about timing. They accept a 'no' or a 'not yet', and the relationship stays on the same terms.",
     "Grandparents' hopes shared once or twice, with no money or standing attached.",
-    "A doctor or counselor explaining the medical risks of a pregnancy or a treatment, then leaving the decision to you.",
+    "A doctor or counselor explains the medical risks of a pregnancy or a treatment, then leaves the decision to you.",
     "Parental leave rules applied the same way to everyone at a workplace."
    ],
    "tag": "reference",
@@ -4247,12 +4247,12 @@
     "You don't get to decide that on your own.",
     "You've said no three times, and we're not done talking."
    ],
-   "why": "A decision that belongs to one person's body and life ends up made under the weight of what refusal would cost them: job, money, support, standing in the family."
+   "why": "A decision that belongs to one person's body and life ends up made under the weight of what refusal would cost: job, money, support, standing in the family."
   },
   {
    "name": "Negative Reinforcement Traps",
    "cat": "Control structural",
-   "what": "A cycle in which coldness, criticism or withdrawal stays in place until someone gives in, then lifts at once, so giving in comes to feel like relief.",
+   "what": "A cycle where coldness, criticism or withdrawal stays until someone gives in and then lifts at once, so giving in starts to bring relief.",
    "nots": [
     "Moods that rise and fall for reasons that have nothing to do with what you decided. Some people are simply changeable, and their weather does not track your answers.",
     "Tension that eases because something got resolved. Calm after a real conversation is different from calm that only ever arrives at the moment of compliance.",
@@ -4271,7 +4271,7 @@
     "(Your own thought:) It is easier to say yes now than to sit through the next two days.",
     "Why can't things be this nice all the time? They would be, if you'd just listen."
    ],
-   "why": "Relief becomes the reward for giving in, and in time the giving-in starts arriving early, before the pressure does. The disagreement underneath never gets discussed, so it never gets settled either."
+   "why": "Relief becomes the reward for giving in. In time the giving in starts arriving early, before the pressure does. The disagreement underneath never gets discussed, so it never gets settled either."
   },
   {
    "name": "Moving-in-Silence",
@@ -26473,18 +26473,18 @@
    "branch": "reference",
    "category": "Isolation / social",
    "detectability_note": "This tool cannot establish this from pasted text at all. It is included for literacy only, so you can learn to recognize the concept — not as something this tool detects, scores, or flags.",
-   "core_meaning": "Repeatedly describing a named person in inflammatory terms to a large audience, so some listeners predictably harass them although the speaker never gives an instruction.",
+   "core_meaning": "Someone keeps describing a named person in angry terms to a big audience, so some listeners predictably harass that person, though the speaker never gives an instruction.",
    "aftermath_state": false,
    "forensic_only": false,
    "absorbs": [],
-   "short_definition": "Repeatedly describing a named person in inflammatory terms to a large audience, so some listeners predictably harass them although the speaker never gives an instruction.",
-   "expanded_definition": "Stochastic means 'driven by chance': nobody can say which listener will act, only that with a large enough audience, some probably will. In this pattern, someone repeatedly names a target and describes them in a way that provokes anger, often with their workplace or town, and never gives an instruction. Then a wave of messages, calls or visits arrives. One harsh post means little. The pattern is repeated portrayal, followed by repeated waves that cite the same words.",
+   "short_definition": "Someone keeps describing a named person in angry terms to a big audience, so some listeners predictably harass that person, though the speaker never gives an instruction.",
+   "expanded_definition": "Stochastic means 'driven by chance'. Nobody can say which listener will act, only that with a large enough audience, some probably will. Here, someone repeatedly names a target and describes them in a way that stirs up anger, often mentioning their workplace or town. They never give an instruction. Then a wave of messages, calls or visits arrives. One harsh post means little. The pattern is repeated portrayal, followed by repeated waves that cite the same words.",
    "plain_language_summary": "Someone keeps painting one person as a villain to a big audience. They never tell anyone to act, yet strangers start harassing that person.",
-   "why_this_matters": "The person singled out absorbs harassment from many people at once while the portrayal that produced it stays technically deniable, so there is no single act to report and no one to hold to it. It can feel as if the whole world has turned on you.",
+   "why_this_matters": "The person singled out takes harassment from many people at once. The portrayal that set it off stays easy to deny, so there is no single act to report and no one to hold to account. It can feel as if the whole world has turned on you.",
    "what_it_is": [
     "A repeated, inflammatory description of a named individual, often with their job, school or neighborhood attached.",
     "An audience large and angry enough that a few of its members acting is close to certain.",
-    "No direct instruction, only a framing that makes harassment seem justified, so the speaker can say they never asked for it.",
+    "There is no direct instruction, only a framing that makes harassment seem justified, so the speaker can say they never asked for it.",
     "Waves of messages, calls or complaints that arrive soon after each post and quote its wording.",
     "It is about foreseeable effect over time, not about one person's anger or one heated post."
    ],
@@ -26542,7 +26542,7 @@
     "The reaction is limited to ordinary replies and does not reach the person's work or family."
    ],
    "more_concerning_if": [
-    "The harassment includes threats, repeated unwanted visits, or the sharing of the person's home address or children's details.",
+    "The harassment includes threats, repeated unwanted visits, or sharing of the person's home address or their children's details.",
     "Contact is arriving at your workplace, threatening your income.",
     "The speaker keeps posting after being told that threats have arrived."
    ],
@@ -26552,22 +26552,22 @@
     "New people turn up with the same wording, and you feel watched in more places.",
     "You begin to change how you live: locking accounts, varying your routes or leaving your usual places."
    ],
-   "repair_check": "If the speaker is confronted with the harassment, repair would be them publicly telling the audience to stop, taking down the posts and not naming the person again. A reply that says 'I never asked anyone to do that' and then goes on posting has changed nothing for the person being harassed.",
+   "repair_check": "If the speaker is confronted with the harassment, repair would mean telling the audience publicly to stop, taking down the posts and not naming the person again. A reply that says 'I never asked anyone to do that' and then keeps posting has changed nothing for the person being harassed.",
    "boundary_respect_check": "Ask whether, after you or someone else asks that the posts stop, new waves still follow within days. If the posts stop and the waves die down, the request has been honored. If they continue, then the request is being treated as a part of the story.",
-   "psychological_mechanism": "A large audience can contain a few people who are already angry or looking for a target. A vivid, repeated portrayal can tell them whom to be angry at and make acting feel righteous, while the speaker keeps a sense of distance, since no instruction was given. Responsibility then seems to spread out among many senders, and no one feels it entirely.",
+   "psychological_mechanism": "A large audience can include a few people who are already angry or looking for a target. A vivid, repeated portrayal can show them whom to be angry at and make acting seem righteous. The speaker stays at a distance, since no instruction was given. Responsibility then spreads out among many senders, and no one feels all of it.",
    "possible_impact_on_receiver": "People describe constant alerts, losing sleep, fear when the phone rings, and pulling out of public life. Some lose work because employers get flooded with complaints. Others describe feeling unable to explain it, since no single message looks serious on its own.",
    "response_options": {
-    "soft_clarification": "If you think you may be the audience, ask yourself in private what the speaker is wanting you to do, and whether you would say it to the person's face.",
+    "soft_clarification": "If you think you may be part of the audience, ask yourself in private what the speaker wants you to do. Then ask whether you would say it to the person's face.",
     "firm_boundary": "Do not reply to the harassers or to the speaker in public. Block, mute and report from your accounts, and keep screenshots with dates and links.",
-    "disengagement": "Lock down accounts, remove personal information from public view, and ask trusted people to help you watch messages so you are not alone with them.",
-    "support_seeking": "Tell a trusted friend or family member what is happening, and ask for help with a record of each message, including a note of when it arrived.",
-    "workplace_or_professional": "If it reaches you at work, tell your manager or HR early, give them your record, and ask that the organization handle calls and emails about you."
+    "disengagement": "Lock down your accounts and remove personal information from public view. Ask trusted people to help you watch the messages, so you are not alone with them.",
+    "support_seeking": "Tell a trusted friend or family member what is happening. Ask them to help you keep a record of each message, with a note of when it arrived.",
+    "workplace_or_professional": "If it reaches you at work, tell your manager or HR early and give them your record. Ask the organization to handle calls and emails about you."
    },
    "boundary_script": "\"Will you read through these messages with me and help me work out who should see them? I'm keeping a dated record and not replying to any of them.\" Say this to a trusted helper, never to the sender.",
-   "safety_note": "Harassment waves can move from messages to threats, doxxing or visits to a home or workplace. Signs to take seriously are your address being shared, threats naming you or your family, or someone appearing in person. Keep dated copies, report each wave to the platform, and take the file to the police or a victim-support service, who can advise on protective orders.",
+   "safety_note": "Harassment waves can move from messages to threats, doxxing or visits to a home or workplace. Take these signs seriously: your address being shared, threats naming you or your family, or someone appearing in person. Keep dated copies and report each wave to the platform. Take the file to the police or a victim-support service, who can advise on protective orders.",
    "safety_sensitive": true,
    "misuse_warning": [
-    "Treating any pile-on after a post as proof of orchestrated incitement can shield real wrongdoing from public criticism.",
+    "Treating any pile-on after a post as proof of planned incitement can shield real wrongdoing from public criticism.",
     "Someone who is being criticized may use the label to cast all criticism of themselves as harassment."
    ],
    "related_tactics": [
@@ -26578,7 +26578,7 @@
     "Gatekeeping",
     "Punishment by Proxy"
    ],
-   "how_to_distinguish_from_related": "Punishment by proxy hits someone you love, to send a message, while here the pain lands on you directly, from many strangers. Information cascades spread a belief because agreeing is safer, and no one aims it at a person. Reputation laundering hides the source of a claim, whereas here the speaker is out in the open and the deniability sits in the lack of any instruction.",
+   "how_to_distinguish_from_related": "Punishment by proxy hurts someone you love to send you a message. Here the pain lands on you directly, from many strangers. Information cascades spread a belief because agreeing is safer, and no one aims them at a person. Reputation laundering hides the source of a claim. Here the speaker is out in the open, and the deniability comes from never giving an instruction.",
    "detection_notes": "Not matched or scored by this tool. Pasted text cannot establish this concept — included in the Field Guide purely as a literacy reference.",
    "codex_maturity": "mature",
    "human_review_flags": [
@@ -26599,13 +26599,13 @@
    "forensic_only": false,
    "absorbs": [],
    "short_definition": "Passing a false or unverified claim through a series of apparently credible sources until it looks like established fact and its origin can no longer be seen.",
-   "expanded_definition": "Information laundering moves a claim from a weak source, such as an anonymous post or a fabricated document, through a chain of better-looking ones: a blog, a small outlet, a bigger outlet, an expert quoting the outlet. Each step cites the one before and adds a little respectability. Citing earlier reporting is normal. The pattern is when no link in the chain ever checked the claim itself, and the original source fades out of view.",
+   "expanded_definition": "Information laundering moves a claim from a weak source, such as an anonymous post or a fabricated document, through a chain of better-looking ones. These might be a blog, a small outlet, a bigger outlet, then an expert quoting that outlet. Each step cites the one before and adds a little respectability. Citing earlier reporting is normal. The pattern is when no link in the chain ever checked the claim itself, and the original source fades out of view.",
    "plain_language_summary": "A shaky claim gets passed from one source to a more respected one, then another. Soon it looks well-sourced, though nobody checked if it was true.",
    "why_this_matters": "You are contradicted by something that now looks well-sourced, and disproving it means unpicking a chain of citations rather than a single claim. By then, the claim has been quoted in so many places that it feels settled.",
    "what_it_is": [
     "A claim moved upward through outlets of rising credibility, each citing the last.",
     "A circle of sources that repeat each other, so the number of citations looks like independent confirmation.",
-    "A weak original, such as a forged document or an anonymous post, that becomes hard to find once better-known outlets carry it.",
+    "The weak original, such as a forged document or an anonymous post, gets hard to find once better-known outlets carry the claim.",
     "Credibility gained from the messenger's reputation, not from any new evidence.",
     "It happens in news, in academic citations, in company reports and in word-of-mouth."
    ],
@@ -26673,7 +26673,7 @@
     "Attempts to correct the record are answered with 'it has been widely reported'.",
     "Details of the claim harden over time, such as numbers becoming exact, while the evidence stays thin."
    ],
-   "repair_check": "When a chain is exposed, repair looks like each outlet stating that it relied on an earlier source it did not check, updating the original piece and telling readers who saw the earlier version. Quietly deleting a link while leaving the claim in place does not remove it from circulation.",
+   "repair_check": "When a chain is exposed, repair looks like each outlet saying it relied on an earlier source it did not check. They update the original piece and tell readers who saw the earlier version. Quietly deleting a link while leaving the claim in place does not remove it from circulation.",
    "boundary_respect_check": "When you ask an outlet or colleague where a claim came from, watch how they respond. Naming the source and conceding what they did not check shows that the question was respected. Pointing to the number of other places that ran it avoids the question.",
    "psychological_mechanism": "Messenger reputation often does the work that checking should. Readers can judge a claim by how reputable the messenger seems and by how often they have seen it, rather than checking the root. A respectable outlet can lend its reputation to something it did not verify. Seeing a claim in several places may look like confirmation, even when they all trace to one origin.",
    "possible_impact_on_receiver": "People describe the frustration of facing a claim that seems sourced and cannot be answered in one line. Targets report harm to their name or job from something they never said. Readers describe feeling foolish on learning that the 'many sources' were one.",
@@ -26681,15 +26681,15 @@
     "soft_clarification": "Ask the person sharing it: 'Where does this first come from, before the article?' Wait for an answer you can check.",
     "firm_boundary": "Decline to repeat or cite the claim until you have traced it to a source that did its own checking.",
     "disengagement": "Stop engaging with a thread that is only citing itself, and avoid sharing it further, which gives it more reach.",
-    "support_seeking": "Send the chain you traced to a fact-checking organization, a librarian or a reporter who covers the topic, and ask them to review it.",
-    "workplace_or_professional": "If you edit, research or cite for work, require a primary source for key claims and note in your records how each source was checked."
+    "support_seeking": "Send the chain you traced to a fact-checking organization, a librarian or a reporter who covers the topic. Ask them to review it.",
+    "workplace_or_professional": "If you edit, research or cite for work, require a primary source for key claims. Note in your records how each source was checked."
    },
    "boundary_script": "Verification script (to yourself, before sharing): \"Can I trace this back to someone who actually saw it, measured it or held the document? Or am I looking at five sources that all got it from the same place?\"",
-   "safety_note": "Information laundering is mostly a harm to understanding and reputation. It becomes a safety matter if a laundered claim names a private person and prompts harassment, threats or loss of work. If that happens, save copies of the pages, report to the platforms and outlets, and speak to a lawyer or a media-law advice service.",
+   "safety_note": "Information laundering mostly harms understanding and reputation. It becomes a safety matter if a laundered claim names a private person and leads to harassment, threats or loss of work. If that happens, save copies of the pages and report to the platforms and outlets. Speak to a lawyer or a media-law advice service.",
    "safety_sensitive": false,
    "misuse_warning": [
     "Calling a claim 'laundered' just because you dislike it, without tracing it, dismisses honest reporting.",
-    "The label can be used to wave away any claim that many outlets carried, even when each one verified it separately."
+    "The label can be used to wave away any claim that many outlets carried, even when each one checked it separately."
    ],
    "related_tactics": [
     "Strategic Ambiguity",
@@ -26714,17 +26714,17 @@
    "branch": "reference",
    "category": "Control structural",
    "detectability_note": "This tool cannot establish this from pasted text at all. It is included for literacy only, so you can learn to recognize the concept — not as something this tool detects, scores, or flags.",
-   "core_meaning": "Rewarding the feelings a person is allowed to show and punishing or shaming the rest, until they perform emotions instead of reporting them.",
+   "core_meaning": "Rewarding the feelings a person is allowed to show and punishing or shaming the rest, until they act out emotions instead of reporting them.",
    "aftermath_state": false,
    "forensic_only": false,
    "absorbs": [],
-   "short_definition": "Rewarding the feelings a person is allowed to show and punishing or shaming the rest, until they perform emotions instead of reporting them.",
-   "expanded_definition": "Emotion control is a pattern in which a household, relationship or group sets which feelings may be shown and enforces it through reactions that differ by feeling. Cheerfulness and gratitude get warmth. Anger, sadness or doubt get coldness, shame or a lecture. Some versions also demand that feelings be confessed on request. One tense reaction to one outburst means little. Weight comes from repetition: the same feelings are penalized every time, whatever the situation, and the person starts editing themselves before anyone has reacted.",
+   "short_definition": "Rewarding the feelings a person is allowed to show and punishing or shaming the rest, until they act out emotions instead of reporting them.",
+   "expanded_definition": "Emotion control is when a household, relationship or group decides which feelings may be shown, and enforces it by reacting differently to each feeling. Cheerfulness and gratitude get warmth. Anger, sadness or doubt get coldness, shame or a lecture. Some versions also demand that feelings be confessed on request. One tense reaction to one outburst means little. What gives it weight is repetition: the same feelings are penalized every time, whatever the situation. The person starts editing themselves before anyone has reacted.",
    "plain_language_summary": "Some of your feelings are welcome and others cost you something, so you learn to show only the welcome ones, even at home.",
    "why_this_matters": "When only some feelings are safe to show, you stop reporting the rest and may eventually stop noticing them. What is left of your emotional life is the part that was permitted.",
    "what_it_is": [
     "Approval handed out for certain feelings (cheerfulness, gratitude, calm) and withdrawn for others (anger, grief, fear, doubt).",
-    "Demands for positivity in the middle of a real problem, such as being told to smile or be thankful when something has gone wrong.",
+    "Demands to stay positive during a real problem, like being told to smile or be thankful when something has gone wrong.",
     "Requests to confess how you feel, followed by that confession being kept and used later as proof of a flaw.",
     "Penalties out of scale with the feeling: days of silence, a long lecture, or mockery after a mild complaint.",
     "Found in couples, families, workplaces with mandatory enthusiasm, and tightly run groups."
@@ -26740,7 +26740,7 @@
    ],
    "what_it_is_not": [
     "A household or workplace with norms about how feelings get expressed, such as no shouting at the table. Cultures differ widely, and a difference in emotional style is not a tactic.",
-    "A norm that falls evenly on everyone in the room, including the person who set it, instead of landing on one person as a penalty for particular feelings.",
+    "A rule that applies evenly to everyone in the room, including the person who set it, instead of landing on one person as a penalty for particular feelings.",
     "Someone asking for a calmer tone in the middle of a heated argument, then coming back to hear you out.",
     "A person who finds sadness or anger hard to be near, says so, and does not punish you for having it.",
     "A job that asks for steady composure with customers while leaving room to be human elsewhere.",
@@ -26762,7 +26762,7 @@
    ],
    "innocent_or_ordinary_possibilities": [
     "Someone raised in a home where feelings were never discussed may simply have no practice receiving them.",
-    "A tired or overloaded person can lack room for someone else's upset, which says little about whether the feeling is allowed to exist.",
+    "A tired or overloaded person may have no room for someone else's upset. That says little about whether the feeling is allowed to exist.",
     "A culture or faith tradition may prize restraint, and the person holding that norm may apply it to themselves as well."
    ],
    "common_false_positives": [
@@ -26795,20 +26795,20 @@
    ],
    "repair_check": "The next time you are visibly sad or angry is when it shows. Repair here shows up as the same warmth arriving whether or not you are cheerful. An apology for a harsh reaction, followed by the cold shoulder on your next low day, has not changed the rule.",
    "boundary_respect_check": "Think about what it costs to say 'I'm not okay today' a week after asking for room to feel things. If the answer is nothing, the request landed. If the price is back, in sighs, silence or a lecture, it did not.",
-   "psychological_mechanism": "People adjust what they show in order to keep approval and avoid pain, and the adjustment can become automatic. When warmth reliably follows some feelings and withdrawal follows others, a person can learn to suppress the penalized ones before they surface. Being asked to confess feelings on demand can add a second pressure: anything admitted may be kept. Over time the habit can reach the feeling itself, not just its display.",
+   "psychological_mechanism": "People adjust what they show to keep approval and avoid pain, and the adjustment can become automatic. When warmth reliably follows some feelings and withdrawal follows others, a person can learn to hold back the penalized ones before they surface. Being asked to confess feelings on demand can add a second pressure, because anything admitted may be kept. With time the habit can reach the feeling itself, as well as how it shows.",
    "possible_impact_on_receiver": "Accounts include numbness or flatness at home, not knowing what you feel when asked, rehearsing cheerful answers, and crying only when alone. Some report feeling fake in their own family, or noticing that relief at leaving the house was the only strong feeling left. Others are surprised at how quickly anger and grief came back once the penalty was gone.",
    "response_options": {
     "soft_clarification": "Name the pattern of reaction, not the person: 'When I say I'm sad, the room goes cold. I'd like to be able to say it and have you just listen.'",
     "firm_boundary": "State what you will and won't do tonight: 'I'm not going to pretend to be fine. I'm tired, and that's all I'm saying.'",
-    "disengagement": "When a feeling is being ridiculed, take it out of the room for a while: a walk, a bath, a call to a friend who lets you have it.",
+    "disengagement": "When a feeling is being ridiculed, take it out of the room for a while. Go for a walk, take a bath, or call a friend who lets you have it.",
     "support_seeking": "Tell someone who has seen you in many moods what you have stopped saying at home. A counselor can help you test whether your range has narrowed.",
-    "workplace_or_professional": "Where cheerfulness is part of the job culture, keep your composure with clients, and find one manager or colleague one-to-one where you can say 'this week was hard' plainly."
+    "workplace_or_professional": "Where cheerfulness is part of the job culture, keep your composure with clients. Find one manager or colleague, one-to-one, where you can say 'this week was hard' plainly."
    },
    "boundary_script": "\"I can be kind and calm with you, but I can't be cheerful on command. If I'm sad or angry, I want to say so once and have you hear it without a lecture.\"",
-   "safety_note": "Being punished for a feeling is pressure on your inner life, not a physical danger. It can change when the penalty for a feeling includes threats, intimidation when you show anger, or control of money or contact. Another sign is a mood being treated as proof you are unfit or unwell. If a reaction to a feeling ever frightens you, tell a friend, a doctor or a domestic abuse advocate what happens in the minutes after you speak.",
+   "safety_note": "Being punished for a feeling is pressure on your inner life, not a physical danger. That can change when the penalty includes threats, intimidation when you show anger, or control of money or contact. Another sign is a mood being treated as proof you are unfit or unwell. If a reaction to a feeling ever frightens you, tell a friend, a doctor or a domestic abuse advocate what happens in the minutes after you speak.",
    "safety_sensitive": false,
    "misuse_warning": [
-    "Calling every request for calm 'emotion control' can turn an ordinary ask to lower the volume into an accusation. The label fits when penalties fall repeatedly on particular feelings.",
+    "Calling every request for calm 'emotion control' can turn a simple ask to lower the volume into an accusation. The label fits when penalties fall again and again on particular feelings.",
     "Using it to excuse your own outbursts, as if any limit on how you express anger were control, misreads it."
    ],
    "related_tactics": [
@@ -26818,7 +26818,7 @@
     "Resource Sabotage",
     "\"Managed Out\" Through Exhaustion"
    ],
-   "how_to_distinguish_from_related": "Nonverbal Dominance uses sighs, stares and eye rolls to unsettle or dismiss you in a single moment. Emotion control is the lasting rule about which feelings may appear at all, and a sigh or a stare may be one way it gets enforced. Ritualized Exhaustion drains your capacity through schedules and lost sleep, while emotion control leaves your energy alone and works on what you show.",
+   "how_to_distinguish_from_related": "Nonverbal Dominance uses sighs, stares and eye rolls to unsettle or dismiss you in a single moment. Emotion control is the lasting rule about which feelings may appear at all. A sigh or a stare may be one way it gets enforced. Ritualized Exhaustion drains your capacity through schedules and lost sleep. Emotion control leaves your energy alone and works on what you show.",
    "detection_notes": "Not matched or scored by this tool. Pasted text cannot establish this concept — included in the Field Guide purely as a literacy reference.",
    "codex_maturity": "mature",
    "human_review_flags": [
@@ -26838,9 +26838,9 @@
    "forensic_only": false,
    "absorbs": [],
    "short_definition": "A relentless run of schedules, demands and lost sleep that keeps a person too depleted to think clearly, weigh options or push back.",
-   "expanded_definition": "Ritualized exhaustion is a sustained pattern of fixed routines, constant demands and cut-down sleep that leaves a person chronically worn out instead of briefly busy. It can appear in a household, a workplace, a caregiving arrangement or a tightly run group. A hard week or a launch crunch is not this. What sets it apart is a load with no end date, rest treated as laziness or failure, and a reduced ability to think and object that nobody acknowledges.",
+   "expanded_definition": "Ritualized exhaustion is a long-running pattern of fixed routines, constant demands and cut-down sleep. It leaves a person worn out for a long time, which is different from being briefly busy. It can appear in a household, a workplace, a caregiving arrangement or a tightly run group. A hard week or a launch crunch is not this. What sets it apart is a load with no end date, rest treated as laziness or failure, and a reduced ability to think and object that nobody acknowledges.",
    "plain_language_summary": "You are kept so busy and so short of sleep that you have nothing left for thinking, deciding or saying no.",
-   "why_this_matters": "Depletion that runs for months narrows the ability to think, weigh options and push back, and once that is gone, noticing its absence gets harder too.",
+   "why_this_matters": "Depletion that runs for months narrows your ability to think, weigh options and push back. Once that is gone, noticing it is gone gets harder too.",
    "what_it_is": [
     "Fixed routines, such as early wake-ups, late-night tasks and set check-ins, that crowd out sleep, meals and time alone.",
     "Demands that arrive as fast as the last one is finished, so catching up never happens.",
@@ -26913,22 +26913,22 @@
     "Small decisions you used to make, like when to eat or sleep, now wait for permission or do not happen."
    ],
    "repair_check": "Look for rest that actually returns: a day off that stays off, a schedule that shortens, sleep that is left alone. A promise that things will calm down next month, repeated every month, is another pass of the same schedule.",
-   "boundary_respect_check": "Ask for one protected block, such as a full night's sleep before a set hour, and see whether it holds on the third and fourth night as well as the first. A limit respected only when it costs nothing is easy to mistake for one that is kept.",
-   "psychological_mechanism": "Long sleep loss and constant demand can reduce attention, memory and the ability to plan or weigh consequences. A tired person may take the nearest available option, accept requests they would otherwise refuse, and have little energy left to question the arrangement. The schedule can also use up the very time in which someone might talk to friends, look at alternatives or simply think.",
+   "boundary_respect_check": "Ask for one protected block, such as a full night's sleep before a set hour. See whether it holds on the third and fourth night as well as the first. A limit respected only when it costs nothing is easy to mistake for one that is kept.",
+   "psychological_mechanism": "Long sleep loss and constant demand can reduce attention, memory and the ability to plan or weigh consequences. A tired person may take the nearest available option and accept requests they would otherwise refuse. They may have little energy left to question the arrangement. The schedule can also use up the very time in which someone might talk to friends, look at alternatives or simply think.",
    "possible_impact_on_receiver": "Accounts include fog, irritability, getting sick more often, forgetting simple things, and a feeling of watching one's own life from a distance. Some lose the ability to picture an alternative, or the energy to want one. Others notice how quickly their thinking cleared after a few nights of real sleep.",
    "response_options": {
-    "soft_clarification": "Ask about the shape of the load rather than its fairness: 'How long do you expect this pace to last, and what could ease it?'",
+    "soft_clarification": "Ask how long the load will last, instead of whether it is fair: 'How long do you expect this pace to last, and what could ease it?'",
     "firm_boundary": "Make one small request in plain terms: 'I do better work when I've slept. Could late-night requests wait until morning?'",
-    "disengagement": "Protect small pockets of rest without announcing them or arguing about them: a short walk, a meal eaten sitting down, ten minutes of quiet.",
+    "disengagement": "Protect small pockets of rest, and do not announce them or argue about them. Try a short walk, a meal eaten sitting down, or ten minutes of quiet.",
     "support_seeking": "Tell a doctor about your sleep and workload, and a trusted friend or advocate about the schedule itself. If anyone controls when you may sleep or eat, an advocate can help you plan privately.",
-    "workplace_or_professional": "Write down hours worked and requests received, with dates. A manager, HR contact, union representative or employment advice service can compare them with your agreement or local rules."
+    "workplace_or_professional": "Write down the hours you work and the requests you receive, with dates. A manager, HR contact, union representative or employment advice service can compare them with your agreement or local rules."
    },
    "boundary_script": "\"On this little sleep I can't think clearly, and I do want to do this well. Can we agree on which of these things really have to be done tonight, and which can wait until tomorrow?\"",
-   "safety_note": "Forced sleep loss and an unbroken schedule can sit alongside exploitative work or a group that rations rest. They can also be part of coercive control, a web of rules, checks and threats that runs your days. Watch for being woken or kept up by others, food or sleep used as reward, punishment for refusing, and shrinking contact with outsiders. A doctor, a labor-rights service or a domestic abuse advocate can help you plan privately, and keeping dated notes somewhere the other person cannot find them helps.",
+   "safety_note": "Forced sleep loss and an unbroken schedule can sit alongside exploitative work or a group that rations rest. They can also be part of coercive control, which is a web of rules, checks and threats that runs your days. Watch for being woken or kept up by others, food or sleep used as a reward, punishment for refusing, and shrinking contact with outsiders. A doctor, a labor-rights service or a domestic abuse advocate can help you plan privately. Keeping dated notes somewhere the other person cannot find them helps.",
    "safety_sensitive": true,
    "misuse_warning": [
-    "Describing a busy season or a new baby as ritualized exhaustion mislabels ordinary strain and can sour a relationship over circumstances nobody chose.",
-    "Applying the label to an employer's heavy demands without looking at pay, agreement and end date can hide a simple contract dispute that has its own remedies."
+    "Calling a busy season or a new baby ritualized exhaustion mislabels ordinary strain. It can sour a relationship over circumstances nobody chose.",
+    "Applying the label to an employer's heavy demands without checking pay, agreement and end date can hide a simple contract dispute. That kind of dispute has its own remedies."
    ],
    "related_tactics": [
     "Emotion Control",
@@ -26937,7 +26937,7 @@
     "Resource Sabotage",
     "\"Managed Out\" Through Exhaustion"
    ],
-   "how_to_distinguish_from_related": "Resource Sabotage takes away the tools and support you need so that you fail, while ritualized exhaustion leaves the tools alone and fills your hours. \"Managed Out\" Through Exhaustion is a loss of purpose and belonging at work over months, so the person ends up sidelined rather than overloaded. Emotion Control works on what you may show, and this one works on how much you have left.",
+   "how_to_distinguish_from_related": "Resource Sabotage takes away the tools and support you need so that you fail. Ritualized exhaustion leaves the tools alone and fills your hours. \"Managed Out\" Through Exhaustion is a loss of purpose and belonging at work over months, so the person ends up sidelined rather than overloaded. Emotion Control works on what you may show, and this one works on how much you have left.",
    "detection_notes": "Not matched or scored by this tool. Pasted text cannot establish this concept — included in the Field Guide purely as a literacy reference.",
    "codex_maturity": "mature",
    "human_review_flags": [
@@ -26960,15 +26960,15 @@
     "Postural Dominance"
    ],
    "short_definition": "Using posture, stares, sighs, eye rolls or the way a body fills a room to dismiss or pressure someone without saying anything.",
-   "expanded_definition": "Nonverbal dominance is pressure carried by the body instead of words: a pointed sigh, an eye roll, a long stare, standing over someone who is seated, or taking the head of the table and more room than the moment needs. When it is mostly about how someone stands or sits, it is called postural dominance. Each signal is easy to deny and hard to quote. One sigh means little. It becomes a pattern when it reliably lands on the moments you disagree, correct something or ask for something, and you start editing yourself around it.",
+   "expanded_definition": "Nonverbal dominance is pressure carried by the body instead of words. Examples are a pointed sigh, an eye roll, a long stare, standing over someone who is seated, or taking the head of the table and more room than the moment needs. When it is mostly about how someone stands or sits, it is called postural dominance. Each signal is easy to deny and hard to quote. One sigh means little. It becomes a pattern when it reliably lands on the moments you disagree, correct something or ask for something, and you start editing yourself around it.",
    "plain_language_summary": "Without saying a word, someone uses sighs, stares, eye rolls or where they stand to make you feel small, so you stop disagreeing. There is nothing you could quote back to them.",
-   "why_this_matters": "Nothing quotable is said, so the experience is hard to explain to anyone else, and you may end up quietly editing yourself around a reaction you could not describe if asked. Being looked down on, literally, works below the level of argument: you feel smaller and cannot point to why.",
+   "why_this_matters": "Nothing quotable is said, so the experience is hard to explain to anyone else. You may end up quietly editing yourself around a reaction you could not describe if asked. Being looked down on, literally, works below the level of argument. You feel smaller and cannot point to why.",
    "what_it_is": [
-    "Signals sent with the face and body: sighs, eye rolls, long stares, a turned back, a slow exhale timed to the end of your sentence.",
-    "Positioning that puts you lower or smaller: standing over you while you sit, taking the head of the table, leaning over your desk or your chair.",
+    "Signals sent with the face and body: sighs, eye rolls, long stares, a turned back, or a slow exhale timed to the end of your sentence.",
+    "Positioning that puts you lower or smaller. Examples are standing over you while you sit, taking the head of the table, or leaning over your desk or your chair.",
     "Wordless, so it leaves nothing to quote and is easy to answer with 'I didn't say anything.'",
     "Found in kitchens, meetings, classrooms and car rides, where the same sigh can carry a very different weight.",
-    "What sets it apart from ordinary body language is aim: it lands on disagreement, correction or a request, not on everything that irritates the person."
+    "What sets it apart from ordinary body language is aim. It lands on disagreement, correction or a request, and not on everything that irritates the person."
    ],
    "what_it_sounds_like": [
     "A long exhale and an eye roll the moment you say 'I see it differently', and none when you agree.",
@@ -26980,10 +26980,10 @@
     "You ask what is wrong and hear: 'Nothing. I didn't say anything.'"
    ],
    "what_it_is_not": [
-    "Faces move on their own: a flash of visible irritation, an expressive manner, a real sigh at the end of a long day. The test is whether the reaction appears whenever something is annoying, or specifically whenever one person disagrees.",
-    "Rooms have layouts. A standing desk, a low sofa or a narrow kitchen can put one person above another, and someone standing up is usually just about to leave.",
+    "Faces move on their own: a flash of visible irritation, an expressive manner, a real sigh at the end of a long day. Ask whether the reaction appears whenever something is annoying, or only when one person disagrees.",
+    "Rooms have layouts. A standing desk, a low sofa or a narrow kitchen can put one person above another. Someone standing up is usually just about to leave.",
     "People differ in height, build and posture, and a tall or broad person takes up room without meaning anything by it.",
-    "A family or cultural style with long or short eye contact, or comfortable silence, that shows up with everyone.",
+    "A family or cultural style of long or short eye contact, or comfortable silence, that shows up with everyone.",
     "Tiredness, pain, or a neurological or sensory difference that shapes facial expression and eye contact.",
     "A frown or far-off stare while someone concentrates on what you are saying."
    ],
@@ -27004,7 +27004,7 @@
    "innocent_or_ordinary_possibilities": [
     "Chronic pain, a bad night's sleep or a long shift can come out as sighs, frowns and refusing to sit.",
     "Some people sigh to release tension and barely know they are doing it.",
-    "Norms about eye contact, personal space and who stands differ across cultures and families, so the same stare can mean something else where the person grew up.",
+    "Norms about eye contact, personal space and who stands differ across cultures and families. The same stare can mean something else where the person grew up.",
     "A resting face can look stern or contemptuous when nothing is meant."
    ],
    "common_false_positives": [
@@ -27020,7 +27020,7 @@
     "Do I feel dismissed, or do I feel afraid?"
    ],
    "less_concerning_if": [
-    "It appears with everyone and in every sort of mood, not just when you disagree.",
+    "It appears with everyone and in every sort of mood, whether or not you disagree.",
     "The person is open when told how a particular look landed, and it changes.",
     "You can still say what you think and be heard after the sigh."
    ],
@@ -27035,16 +27035,16 @@
     "You read their face and posture as you walk in to work out what kind of evening it will be.",
     "Described aloud to friends, the sigh sounds trivial, which leaves you doubting yourself."
    ],
-   "repair_check": "Repair shows up in the body, not only in a sentence. Look for whether the sighs and looming ease when you disagree, and whether the person can say what the look meant and why it was unfair. An apology followed by the same stare next week has changed nothing.",
-   "boundary_respect_check": "After you say you would rather hear what they think than guess from a look, what do you see over the next days: words, a quieter version of the same look, or a silence that seems to punish you for asking?",
-   "psychological_mechanism": "People read faces and posture quickly and below conscious thought, and many learn early to treat a frown or a looming figure as a cue to back down. A wordless signal gives you no statement to argue with, so the response happens in the body first. Over repeated moments, a person can start editing themselves before anything is said.",
+   "repair_check": "Repair shows up in the body as well as in a sentence. Look for whether the sighs and looming ease when you disagree. Look too for whether the person can say what the look meant and why it was unfair. An apology followed by the same stare next week has changed nothing.",
+   "boundary_respect_check": "After you say you would rather hear what they think than guess from a look, what do you see over the next days? It might be words, a quieter version of the same look, or a silence that seems to punish you for asking.",
+   "psychological_mechanism": "People read faces and posture quickly, below conscious thought. Many learn early to treat a frown or a looming figure as a cue to back down. A wordless signal gives you no statement to argue with, so the response happens in the body first. Over repeated moments, a person can start editing themselves before anything is said.",
    "possible_impact_on_receiver": "People describe going quiet in the room, rehearsing sentences, shrinking in their chair, and feeling tense before they have said anything. Some say they cannot explain to others why a sigh frightens them, and begin to wonder if they are oversensitive. Others describe losing the habit of disagreeing at all.",
    "response_options": {
     "soft_clarification": "Pick a calm moment and ask for words: 'I can't always tell what that look means. Can you tell me what you think?'",
-    "firm_boundary": "Describe the effect on you once, without asking for a promise: 'When I get a stare after I speak, I stop saying what I think. I would like to hear it in words.'",
+    "firm_boundary": "Describe the effect on you once, and do not ask for a promise: 'When I get a stare after I speak, I stop saying what I think. I would like to hear it in words.'",
     "disengagement": "Choose where you sit and stand so you are level with the person, near a door and, where you can, in view of others. Keep harder subjects for times when someone else is around.",
-    "support_seeking": "Describe what you see and how your body reacts to a trusted person or a domestic violence advocate, and ask if it sounds like part of something larger, especially if you feel afraid.",
-    "workplace_or_professional": "Write down dates, who was present and what you saw in plain description ('stood over my desk while I spoke, arms folded'), and ask for meetings to run with an agenda or a third person present."
+    "support_seeking": "Describe what you see, and how your body reacts, to a trusted person or a domestic violence advocate. Ask if it sounds like part of something larger, especially if you feel afraid.",
+    "workplace_or_professional": "Write down dates, who was present and what you saw, in plain description ('stood over my desk while I spoke, arms folded'). Ask for meetings to run with an agenda or a third person present."
    },
    "boundary_script": "\"I can't always tell what a look means, and I would like to hear what you think in words. Could we sit down and each say our piece?\"",
    "safety_note": "Stares, looming and slow exhales weigh more when they sit beside shouting, broken objects, blocked doorways or being followed from room to room. Then the body language can be a reminder of what has happened before. If you fear the person's reaction, avoid confronting the signals directly. Write down each incident with the date and bring the list to a domestic violence advocate before changing how you respond.",
@@ -27060,7 +27060,7 @@
     "Resource Sabotage",
     "\"Managed Out\" Through Exhaustion"
    ],
-   "how_to_distinguish_from_related": "Spatial Invasion uses closeness itself, such as cornering, blocking an exit or removing personal space, so the body is the barrier. Nonverbal dominance can work from across a room, through a sigh or a stare. Emotion Control governs which feelings you are allowed to show, using shame, reward and punishment, and is often spoken; the silent signal here is aimed at your disagreement, not at your feelings.",
+   "how_to_distinguish_from_related": "Spatial Invasion uses closeness itself, such as cornering, blocking an exit or removing personal space, so the body is the barrier. Nonverbal dominance can work from across a room, through a sigh or a stare. Emotion Control governs which feelings you are allowed to show, using shame, reward and punishment, and is often spoken. The silent signal here is aimed at your disagreement, not at your feelings.",
    "detection_notes": "Not matched or scored by this tool. Pasted text cannot establish this concept — included in the Field Guide purely as a literacy reference.",
    "codex_maturity": "mature",
    "human_review_flags": [
@@ -27076,20 +27076,20 @@
    "branch": "reference",
    "category": "Control structural",
    "detectability_note": "This tool cannot establish this from pasted text at all. It is included for literacy only, so you can learn to recognize the concept — not as something this tool detects, scores, or flags.",
-   "core_meaning": "Standing too close, blocking a doorway or cornering someone during tension, so they feel physically hemmed in though nothing is threatened aloud.",
+   "core_meaning": "Standing too close, blocking a doorway or cornering someone during tension, so they feel physically hemmed in even though nothing is threatened aloud.",
    "aftermath_state": false,
    "forensic_only": false,
    "absorbs": [],
-   "short_definition": "Standing too close, blocking a doorway or cornering someone during tension, so they feel physically hemmed in though nothing is threatened aloud.",
-   "expanded_definition": "Spatial invasion is the use of body position in a conflict: standing within arm's reach, stepping into a doorway, backing someone toward a wall, following from room to room. No spoken word needs to be threatening, which makes it hard to describe afterward. A crowded elevator or a cramped kitchen forces closeness on everyone. What marks the pattern is that the closeness or blocking appears when things get tense, narrows your way out, and returns each time. The body often reacts before the mind has a name for it.",
-   "plain_language_summary": "During an argument someone stands so close, or so squarely in your way, that you feel trapped, though they never say anything threatening.",
-   "why_this_matters": "The body reacts to a blocked exit well before there are words for it, so fear arrives in a conversation where nothing was ever threatened out loud.",
+   "short_definition": "Standing too close, blocking a doorway or cornering someone during tension, so they feel physically hemmed in even though nothing is threatened aloud.",
+   "expanded_definition": "Spatial invasion is the use of body position in a conflict. Someone stands within arm's reach, steps into a doorway, backs someone toward a wall, or follows from room to room. No spoken word needs to be threatening, which makes it hard to describe afterward. A crowded elevator or a cramped kitchen forces closeness on everyone. What marks the pattern is closeness or blocking that appears when things get tense, narrows your way out, and returns each time. The body often reacts before the mind has a name for it.",
+   "plain_language_summary": "During an argument someone stands so close, or so squarely in your way, that you feel trapped. They never say anything threatening.",
+   "why_this_matters": "The body reacts to a blocked exit well before there are words for it. So fear arrives in a conversation where nothing was ever threatened out loud.",
    "what_it_is": [
-    "Closing the distance during a disagreement until you are within arm's reach, or backed against furniture or a wall.",
+    "Moving in close during a disagreement, until you are within arm's reach or backed against furniture or a wall.",
     "Standing in a doorway, hallway or beside a car door so the quickest way out is blocked.",
     "Following you from room to room while the argument carries on.",
     "Taking up the only path, step or seat so you cannot pass without touching or asking.",
-    "Leaving nothing quotable: the message sits in where a body is placed, which is why people doubt themselves afterward."
+    "Nothing quotable is left. The message sits in where a body is placed, which is why people doubt themselves afterward."
    ],
    "what_it_sounds_like": [
     "They step in as you stand to leave the room, and stay there while they keep talking.",
@@ -27101,7 +27101,7 @@
     "Sit down. I'm talking to you."
    ],
    "what_it_is_not": [
-    "Personal-space norms vary widely between cultures and individuals, and small rooms, elevators and crowded venues force closeness on everyone. A closeness noticed and corrected once is not this.",
+    "Personal-space norms vary widely between cultures and individuals. Small rooms, elevators and crowded venues force closeness on everyone. A closeness that was noticed and corrected once is not this.",
     "Leaning in to hear someone in a loud room.",
     "A parent standing in a doorway to stop a toddler running toward the road.",
     "Someone upset who stands near you and moves back as soon as you say it is too close.",
@@ -27156,18 +27156,18 @@
     "You stop raising issues at home, because raising them has meant being cornered."
    ],
    "repair_check": "Watch the physical record, not the words. After an apology, do they leave you the doorway, keep an arm's length and let you walk out of a room mid-sentence? Sorrow said while the same positioning returns in the next argument has changed nothing you can feel.",
-   "boundary_respect_check": "Notice whether a quiet request for more room changes where their body goes, not just what they say. Distance that opens and stays open is a request respected. Distance that closes again within the minute, or a response that mocks the request, is not.",
-   "psychological_mechanism": "Humans react to people very close to them and to blocked ways out without needing to think. Being cornered can set off a fight-or-flight response before any words register, which can leave the person afraid and then doubting the fear, because nothing was said. With no sentence to quote, the person may also struggle to explain it to others, which can add to the doubt.",
-   "possible_impact_on_receiver": "Accounts include a pounding heart, shaking, a dry mouth, and going quiet or freezing in the moment. Afterward there may be self-doubt, since nothing was said that could be repeated. Some start steering conversations toward open rooms, sitting near exits or avoiding being alone with the person, and the habit can stay in other settings long after.",
+   "boundary_respect_check": "Notice whether a quiet request for more room changes where their body goes, as well as what they say. Distance that opens and stays open is a request respected. Distance that closes again within the minute, or a response that mocks the request, is not.",
+   "psychological_mechanism": "Humans react to people very close to them, and to blocked ways out, without needing to think. Being cornered can set off a fight-or-flight response before any words register. That can leave the person afraid and then doubting the fear, because nothing was said. With no sentence to quote, the person may also struggle to explain it to others, which can add to the doubt.",
+   "possible_impact_on_receiver": "In the moment, some feel a pounding heart, shaking or a dry mouth, or go quiet and freeze. Afterward there may be self-doubt, since nothing was said that could be repeated. Some start steering conversations toward open rooms, sitting near exits or avoiding being alone with the person. The habit can stay in other settings long after.",
    "response_options": {
     "soft_clarification": "Ask for a small change in the setting: 'Can we both sit down for this? I find it easier to talk with a little room.'",
-    "firm_boundary": "If it feels safe, say once and quietly: 'I need a bit more room to think.' If it does not feel safe, skip the words and focus on staying near a way out.",
+    "firm_boundary": "If it feels safe, say once, quietly: 'I need a bit more room to think.' If it does not feel safe, skip the words. Focus on staying near a way out.",
     "disengagement": "If a talk starts to close in, move toward a shared space where others are present, or step out for water or the bathroom. The aim is distance without a confrontation.",
     "support_seeking": "Tell someone you trust what happens in your body in these moments, and ask a domestic abuse advocate how to plan for them. An advocate can talk through safety planning without you having to say anything to the other person.",
     "workplace_or_professional": "At work, note dates, places and who was present, and report to a manager, HR or a union representative. Ask for meetings in open spaces or with a third person there."
    },
    "boundary_script": "\"I'd like us to sit down for this. I think better with a bit of space between us, and I want to hear what you're saying.\"",
-   "safety_note": "Blocked doors and cornering can come before, or sit beside, grabbing, threats, or taking keys and phones. Watch for blocking that grows more frequent, any holding or pushing, fear of being alone with them, or being unable to leave a room. A domestic abuse advocate can help you plan exits and what to keep within reach, and emergency services are for when you are being held or hurt right now.",
+   "safety_note": "Blocked doors and cornering can come before, or sit beside, grabbing, threats, or taking keys and phones. Watch for blocking that grows more frequent, any holding or pushing, fear of being alone with them, or being unable to leave a room. A domestic abuse advocate can help you plan exits and what to keep within reach. Emergency services are for when you are being held or hurt right now.",
    "safety_sensitive": true,
    "misuse_warning": [
     "Reading any close or crowded moment as invasion can turn a cramped kitchen or a loud bar into an accusation. The label fits closeness that tightens in conflict and blocks your way.",
@@ -27196,14 +27196,14 @@
    "branch": "reference",
    "category": "Control structural",
    "detectability_note": "This tool cannot establish this from pasted text at all. It is included for literacy only, so you can learn to recognize the concept — not as something this tool detects, scores, or flags.",
-   "core_meaning": "Withdrawing the tools, information, money or help a person needs to do something, then treating the resulting failure as proof they are not up to it.",
+   "core_meaning": "Taking away the tools, information, money or help a person needs to do something, then treating the failure that follows as proof they are not up to it.",
    "aftermath_state": false,
    "forensic_only": false,
    "absorbs": [],
-   "short_definition": "Withdrawing the tools, information, money or help a person needs to do something, then treating the resulting failure as proof they are not up to it.",
-   "expanded_definition": "Resource sabotage is a pattern in which what someone needs to succeed goes missing: the budget is cut, the login stops working, the car is unavailable, the instructions never get passed on. The shortfall is then treated as the person's own failing. It can occur in a job, a household, a study program or a caring role. Shortages happen to everyone. Look at whether the gap lands on one person, tends to arrive just before something important, and goes unmentioned when the work then falls short.",
+   "short_definition": "Taking away the tools, information, money or help a person needs to do something, then treating the failure that follows as proof they are not up to it.",
+   "expanded_definition": "Resource sabotage is when what someone needs to succeed goes missing. The budget is cut, the login stops working, the car is unavailable, or the instructions never get passed on. The shortfall is then treated as the person's own failing. It can occur in a job, a household, a study program or a caring role. Shortages happen to everyone. Look at whether the gap lands on one person, often arrives just before something important, and goes unmentioned when the work then falls short.",
    "plain_language_summary": "The things you need to succeed keep going missing, and then the failure is blamed on you.",
-   "why_this_matters": "Failing without the tools needed to succeed reads to everyone watching, and often to the person themselves, as plain incompetence.",
+   "why_this_matters": "When someone fails without the tools they needed, everyone watching sees plain incompetence. Often the person sees it that way too.",
    "what_it_is": [
     "Information that never reaches you, such as a changed deadline, a moved meeting or a form you were meant to see.",
     "Access cut off at the point it matters: a shared login, a car, a key, a bank card, a budget line.",
@@ -27221,7 +27221,7 @@
     "The one piece of equipment you need goes to someone else the week before your presentation."
    ],
    "what_it_is_not": [
-    "Budgets get cut, colleagues forget things, and money and attention are legitimately redirected for real, stated reasons. The question is whether the shortfall lands on everyone or only ever on one person, and whether the missing support is acknowledged when the work then fails.",
+    "Budgets get cut, colleagues forget things, and money and attention are legitimately redirected for real, stated reasons. Ask whether the shortfall lands on everyone or only ever on one person. Ask too whether the missing support is acknowledged when the work then fails.",
     "A team-wide shortage that everyone is working around together.",
     "An honest mistake, such as an email sent to the wrong list, put right quickly once pointed out.",
     "A partner who truly cannot help this week because of their own crisis, and says so.",
@@ -27275,22 +27275,22 @@
     "Your record of failures grows, though your skill has not changed.",
     "You ask less often, since asking has produced delay or a new reason."
    ],
-   "repair_check": "Check whether the missing thing is back in your hands with no strings attached, and whether the next shortfall is named at the time rather than discovered later. A heartfelt apology while access stays withheld has restored nothing you can use.",
+   "repair_check": "Check whether the missing thing is back in your hands with no strings attached. Check whether the next shortfall is named at the time, rather than discovered later. A heartfelt apology while access stays withheld has restored nothing you can use.",
    "boundary_respect_check": "Ask in plain terms for the one item you need by a stated day, and see whether it appears on that day. If it arrives with no commentary on how you asked, the request was respected. If new conditions or reasons attach, the shortfall is still operating.",
-   "psychological_mechanism": "When the tools for a task go missing, the person who fails is usually the only one anyone looks at, and the missing support can be forgotten by everyone, including them. Repeated failures can wear down confidence and lead the person to ask for less, depend more, and accept the story that the problem is them. Control over money, transport or information also raises the cost of objecting.",
+   "psychological_mechanism": "When the tools for a task go missing, the person who fails is usually the only one anyone looks at. The missing support can be forgotten by everyone, including them. Repeated failures can wear down confidence. The person may ask for less, depend more, and accept the story that the problem is them. Control over money, transport or information also raises the cost of objecting.",
    "possible_impact_on_receiver": "Common accounts: working harder and getting less, always feeling slightly behind, and shame about failures that cannot be fully explained. Some begin keeping copies, receipts and lists to show what went missing. Others stop applying for things or asking for help, since asking brought delay. Seeing the whole list written out can bring relief.",
    "response_options": {
     "soft_clarification": "Ask what you need and when: 'The file I need for Thursday hasn't arrived. Can you tell me when I'll get it?'",
-    "firm_boundary": "Put the request in writing, with a date, and keep a copy: 'I need the login and the budget figures by Wednesday to finish on time.'",
+    "firm_boundary": "Put the request in writing with a date, and keep a copy: 'I need the login and the budget figures by Wednesday to finish on time.'",
     "disengagement": "Build your own backup: copies of key files, a second route to your work, a little money or a ride you control. That reduces how much one withheld item can stop you.",
     "support_seeking": "Show a list of what went missing, and when, to a friend, mentor or advocate who can compare it with what others had. If money or housing depends on the person, legal aid can look at your options privately.",
-    "workplace_or_professional": "Keep a dated log of requests and responses, follow up by email, and raise the pattern with a manager, HR or a union representative along with its effect on your results."
+    "workplace_or_professional": "Keep a dated log of requests and responses, and follow up by email. Raise the pattern, and its effect on your results, with a manager, HR or a union representative."
    },
    "boundary_script": "\"I can only do this well if I have the figures and the login. Could you tell me today when I'll have them, so I can plan around it?\"",
-   "safety_note": "Cut-off money, transport, documents or phones can be part of financial or coercive control, meaning control kept up through dependence and fear, especially at home. Watch for needing permission to spend, being kept from your own accounts or papers, or fear of what happens if you ask. A financial abuse advocate or legal aid service can help you plan, and copies of important documents are safest with someone you trust.",
+   "safety_note": "Cut-off money, transport, documents or phones can be part of financial or coercive control, which means control kept up through dependence and fear, especially at home. Watch for needing permission to spend, being kept from your own accounts or papers, or fear of what happens if you ask. A financial abuse advocate or legal aid service can help you plan. Copies of important documents are safest with someone you trust.",
    "safety_sensitive": true,
    "misuse_warning": [
-    "Calling every shortage or forgotten message sabotage turns ordinary mistakes into accusations. The label fits a gap that falls on one person, repeatedly, and is then blamed on them.",
+    "Calling every shortage or forgotten message sabotage turns ordinary mistakes into accusations. The label fits a gap that falls on one person again and again, and is then blamed on them.",
     "Raising it at work without dates or comparisons can sound like blame when what you hold is a timeline worth showing."
    ],
    "related_tactics": [
@@ -27300,7 +27300,7 @@
     "Spatial Invasion",
     "\"Managed Out\" Through Exhaustion"
    ],
-   "how_to_distinguish_from_related": "Ritualized Exhaustion fills your hours so you have nothing left, while resource sabotage takes away what you need for the task itself. \"Managed Out\" Through Exhaustion is a slow thinning of purpose and visibility across months, whereas this concerns particular tasks and the tools for them. Nonverbal Dominance unsettles you in a moment with looks, and takes no tools away.",
+   "how_to_distinguish_from_related": "Ritualized Exhaustion fills your hours so you have nothing left. Resource sabotage takes away what you need for the task itself. \"Managed Out\" Through Exhaustion is a slow thinning of purpose and visibility across months, whereas this concerns particular tasks and the tools for them. Nonverbal Dominance unsettles you in a moment with looks, and takes no tools away.",
    "detection_notes": "Not matched or scored by this tool. Pasted text cannot establish this concept — included in the Field Guide purely as a literacy reference.",
    "codex_maturity": "mature",
    "human_review_flags": [
@@ -27316,14 +27316,14 @@
    "branch": "reference",
    "category": "Control structural",
    "detectability_note": "This tool cannot establish this from pasted text at all. It is included for literacy only, so you can learn to recognize the concept — not as something this tool detects, scores, or flags.",
-   "core_meaning": "Slowly removing a person's meaningful work, visibility and belonging until their departure looks like a free choice on paper.",
+   "core_meaning": "Slowly removing a person's meaningful work, visibility and belonging until their leaving looks like a free choice on paper.",
    "aftermath_state": false,
    "forensic_only": false,
    "absorbs": [],
-   "short_definition": "Slowly removing a person's meaningful work, visibility and belonging until their departure looks like a free choice on paper.",
-   "expanded_definition": "Being managed out is a gradual loss of a place: projects are reassigned, invitations to meetings stop, feedback dries up, and the person is left with little to do and no one asking for their view. Nothing is formally taken away and no complaint is filed, so a resignation reads as their own decision. Restructures and role changes hollow out jobs too. Telling signs are a loss that is quiet, falls on one person, and often starts after a conflict, a complaint or a change of leadership.",
+   "short_definition": "Slowly removing a person's meaningful work, visibility and belonging until their leaving looks like a free choice on paper.",
+   "expanded_definition": "Being managed out is a gradual loss of a place. Projects are reassigned, invitations to meetings stop, and feedback dries up. The person is left with little to do and no one asking for their view. Nothing is formally taken away and no complaint is filed, so a resignation reads as their own decision. Restructures and role changes hollow out jobs too. Telling signs are a loss that is quiet, falls on one person, and often starts after a conflict, a complaint or a change of leadership.",
    "plain_language_summary": "Your work, your say and your place at the table slip away bit by bit, until quitting starts to feel like your only choice.",
-   "why_this_matters": "A departure produced by these conditions looks, on paper and in memory, like a free choice, which leaves the person carrying the story that they simply could not cope.",
+   "why_this_matters": "A departure produced by these conditions looks like a free choice, on paper and in memory. The person is left carrying the story that they simply could not cope.",
    "what_it_is": [
     "Meaningful projects reassigned one at a time, with no conversation.",
     "Being dropped from meetings, email threads and decisions you used to take part in.",
@@ -27341,7 +27341,7 @@
     "Maybe it's time to think about what you really want."
    ],
    "what_it_is_not": [
-    "Restructures, shrinking budgets and real role mismatches hollow out jobs, and an employer in decline has less for everyone. A transparent change across a group differs from a quiet removal that falls on one person while no complaint is filed.",
+    "Restructures, shrinking budgets and real role mismatches hollow out jobs, and an employer in decline has less for everyone. A transparent change across a group is different from a quiet removal that falls on one person while no complaint is filed.",
     "A skills mismatch discussed openly, with a plan to move you or train you.",
     "A planned handover to a successor, announced and explained.",
     "A documented performance process with stated expectations and a chance to meet them. It can be painful and still be transparent.",
@@ -27394,23 +27394,23 @@
     "A mention of your performance appears in conversation without any earlier feedback.",
     "You begin to question whether you ever did good work."
    ],
-   "repair_check": "Look for work and a voice actually restored: a real project with real decisions attached, a seat back at meetings, a straight conversation about what happened. Reassurance that you are valued, while the calendar stays empty, has repaired nothing.",
+   "repair_check": "Look for work and a voice actually restored. That means a real project with real decisions attached, a seat back at meetings, and a straight conversation about what happened. Reassurance that you are valued, while the calendar stays empty, has repaired nothing.",
    "boundary_respect_check": "Ask in writing for a conversation about your role and what is expected. Watch whether a date is set and kept, and whether what you hear matches what happens next. Being told nothing has changed, while the empty calendar says otherwise, answers a different question.",
-   "psychological_mechanism": "Work gives people purpose, status and routine, and losing them gradually can feel more like personal inadequacy than like something happening to them. Because nothing is formally removed, there is no event to point to, which can make the person doubt their own read. As confidence falls, going can start to look like relief, and the departure may be recorded and remembered as a free choice.",
-   "possible_impact_on_receiver": "Accounts include dread on Sunday evenings, checking whether you have been left off an email, feeling invisible, and doubting your own competence. Some wonder whether they imagined the change. Afterward, some carry the belief that they could not cope even when they did their work well, while others feel relief on seeing it laid out.",
+   "psychological_mechanism": "Work gives people purpose, status and routine. Losing them bit by bit can look like personal inadequacy more than something being done to the person. Because nothing is formally removed, there is no event to point to, which can make the person doubt their own read. As confidence falls, going can start to look like relief, and the departure may be recorded and remembered as a free choice.",
+   "possible_impact_on_receiver": "Dread on Sunday evenings is a common account, along with checking whether you have been left off an email, feeling invisible, and doubting your own competence. Some wonder whether they imagined the change. Afterward, some carry the belief that they could not cope even when they did their work well, while others feel relief on seeing it laid out.",
    "response_options": {
     "soft_clarification": "Ask a plain question about the work: 'I've noticed I'm not on the planning meetings anymore. Is that a change in my role?'",
-    "firm_boundary": "Request clarity in writing: 'Could we meet this week to talk about my responsibilities and what is expected of me over the next quarter?'",
-    "disengagement": "Put quiet energy into skills, contacts and records outside the situation, and decide privately what you want before taking any step.",
+    "firm_boundary": "Ask for clarity in writing: 'Could we meet this week to talk about my responsibilities and what is expected of me over the next quarter?'",
+    "disengagement": "Quietly put energy into skills, contacts and records outside the situation. Decide privately what you want before taking any step.",
     "support_seeking": "Talk to a trusted colleague outside your chain, a mentor or a counselor about what you are seeing. An employment advice service or union can explain your rights before you decide anything.",
     "workplace_or_professional": "Keep a dated log of projects removed, meetings dropped and feedback received, and keep your own reviews and praise where company policy allows. Raise the pattern with HR or a union representative."
    },
    "boundary_script": "\"Help me understand how my role has changed over the last few months. Could we set up a time to talk about what I'm responsible for and what you expect from me?\"",
-   "safety_note": "This is chiefly a threat to income and standing, though a visa or housing tied to the job raises the stakes. Concern grows if pay or immigration status depends on staying, if you are pressed to sign a separation agreement quickly, or if the strain is hurting your sleep or health. Get advice from an employment lawyer, union or legal aid service before signing, and keep dated notes of what changed.",
+   "safety_note": "This is chiefly a threat to income and standing, though a visa or housing tied to the job raises the stakes. Concern grows if pay or immigration status depends on staying, if you are pressed to sign a separation agreement quickly, or if the strain is hurting your sleep or health. Get advice from an employment lawyer, union or legal aid service before signing. Keep dated notes of what changed.",
    "safety_sensitive": false,
    "misuse_warning": [
-    "Reading every quiet spell or reassignment as being managed out can turn ordinary reorganizing into a grievance. The label needs a comparison, a timeline and a lack of explanation, not just a bad feeling.",
-    "Telling a coworker they are being managed out can add to their distress or push a decision that the evidence does not support."
+    "Reading every quiet spell or reassignment as being managed out can turn ordinary reorganizing into a grievance. The label needs a comparison, a timeline and a lack of explanation, and a bad feeling alone is not enough.",
+    "Telling a coworker they are being managed out can add to their distress. It can also push them toward a decision the evidence does not support."
    ],
    "related_tactics": [
     "Emotion Control",
@@ -27419,7 +27419,7 @@
     "Spatial Invasion",
     "Resource Sabotage"
    ],
-   "how_to_distinguish_from_related": "Resource Sabotage takes away tools and information for a task and cites the failure, while being managed out takes away the role itself, across months, with no task to fail at. Ritualized Exhaustion overloads you until nothing is left, the opposite of the empty calendar here. Emotion Control sets which feelings may show and has nothing to do with the work you are given.",
+   "how_to_distinguish_from_related": "Resource Sabotage takes away tools and information for a task and cites the failure. Being managed out takes away the role itself, across months, with no task to fail at. Ritualized Exhaustion overloads you until nothing is left, the opposite of the empty calendar here. Emotion Control sets which feelings may show and has nothing to do with the work you are given.",
    "detection_notes": "Not matched or scored by this tool. Pasted text cannot establish this concept — included in the Field Guide purely as a literacy reference.",
    "codex_maturity": "mature",
    "human_review_flags": [
@@ -27434,18 +27434,18 @@
    "branch": "reference",
    "category": "Control structural",
    "detectability_note": "This tool cannot establish this from pasted text at all. It is included for literacy only, so you can learn to recognize the concept — not as something this tool detects, scores, or flags.",
-   "core_meaning": "Saving a person's messages, posts or remarks without their context, then bringing them out later at a moment when they do the most damage.",
+   "core_meaning": "Saving a person's messages, posts or remarks without their context, then bringing them out later at the moment they will do the most damage.",
    "aftermath_state": false,
    "forensic_only": false,
    "absorbs": [],
-   "short_definition": "Saving a person's messages, posts or remarks without their context, then bringing them out later at a moment when they do the most damage.",
-   "expanded_definition": "Evidence traps are genuine words, screenshots or recordings that are kept rather than answered, then returned later with the surrounding conversation removed. Nothing is faked, which is why it is hard to dispute. A joke becomes a position, and a vent at midnight becomes a confession. Keeping records is ordinary and often wise, and people do bring up old remarks. What stands out is comments stored instead of discussed at the time, context stripped away, and a return that arrives in a moment of conflict, review or dispute.",
-   "plain_language_summary": "Things you said casually are saved, then held up later without their context, so that everything you say starts to feel like it could be used against you.",
-   "why_this_matters": "Knowing that anything said may be stored and re-timed makes ordinary candor feel risky, and speech starts being drafted rather than spoken.",
+   "short_definition": "Saving a person's messages, posts or remarks without their context, then bringing them out later at the moment they will do the most damage.",
+   "expanded_definition": "Evidence traps are genuine words, screenshots or recordings that are kept rather than answered, then returned later with the surrounding conversation removed. Nothing is faked, which is why it is hard to dispute. A joke becomes a position, and a vent at midnight becomes a confession. Keeping records is ordinary and often wise, and people do bring up old remarks. Three things together stand out. Comments are stored instead of discussed at the time. Context is stripped away. The return arrives in a moment of conflict, review or dispute.",
+   "plain_language_summary": "Things you said casually are saved, then held up later without their context. Everything you say starts to feel as if it could be used against you.",
+   "why_this_matters": "Knowing that anything said may be stored and re-timed makes ordinary honesty feel risky. Speech starts being drafted rather than spoken.",
    "what_it_is": [
     "Real material, such as texts, posts, voice notes and emails, that is kept and later quoted in part.",
     "The original exchange often had a tone, a joke or an earlier message that has been left out.",
-    "It surfaces at a chosen point: an argument, a performance review, a group dispute, a custody or legal exchange.",
+    "It comes out at a chosen point, such as an argument, a performance review, a group dispute, or a custody or legal exchange.",
     "Different from forgery: the words are yours, and the harm lies in what is cut away and when it appears.",
     "Occurs in relationships, friendships, families, workplaces and online communities."
    ],
@@ -27459,9 +27459,9 @@
     "I took a screenshot back then, just in case."
    ],
    "what_it_is_not": [
-    "Keeping records is legitimate and often wise, and raising something someone said because it still matters, in the context it was said in, is just conversation. What is being described is the stripping of that context and the choosing of the moment it returns.",
+    "Keeping records is legitimate and often wise. Raising something someone said because it still matters, in the context it was said in, is just conversation. What is being described is the stripping of that context and the choosing of the moment it returns.",
     "Quoting an email in a work dispute with the full thread attached.",
-    "Saving threatening or abusive messages to show an advocate, lawyer or police. That is documentation for safety, a different use altogether.",
+    "Saving threatening or abusive messages to show an advocate, lawyer or police is a different use altogether. That is documentation for safety.",
     "A friend who remembers what you said and says 'but you told me last week' in good faith.",
     "Receipts kept for an HR or legal process and shared in full with the people entitled to see them."
    ],
@@ -27480,7 +27480,7 @@
     "You asked for the thing to be kept, such as a promise put in writing."
    ],
    "innocent_or_ordinary_possibilities": [
-    "People often keep chats and emails for practical reasons, and referring back is a normal way to settle a factual question.",
+    "People often keep chats and emails for practical reasons. Referring back is a normal way to settle a factual question.",
     "Memory itself can bring up an old remark in a heated moment, with nothing stored.",
     "Cloud backups and message history keep things automatically, with no plan behind it."
    ],
@@ -27512,19 +27512,19 @@
     "You are surprised by what has been kept: dates, screenshots, details.",
     "Old remarks come back at each new dispute, whatever the subject."
    ],
-   "repair_check": "Repair would mean saying openly what was kept, showing the whole exchange, and raising concerns on the day they arise from now on. An apology that arrives while the folder of screenshots stays and keeps being used has changed nothing about how safe it is to speak.",
+   "repair_check": "Repair would mean saying openly what was kept, showing the whole exchange, and raising concerns on the day they arise from now on. An apology that arrives while the folder of screenshots stays, and keeps being used, has changed nothing about how safe it is to speak.",
    "boundary_respect_check": "Ask that concerns be raised when they happen, not stored. Then see whether next month brings 'this bothered me', said that day, or another old quote out of nowhere. Also watch whether your own words are given the same openness.",
-   "psychological_mechanism": "People relax their guard when they believe words fade, and talk more honestly as a result. Learning that remarks may be saved and replayed can make speech feel risky, so the person edits themselves, guards what they write, and may start to doubt their own earlier words when shown a fragment. Because the material is real, it is also hard to contest, which can add to the sense of being trapped.",
-   "possible_impact_on_receiver": "Accounts include going quiet in writing, rereading messages before sending, feeling watched in your own home or friend group, and wariness about telling anyone anything. Doubt about what you really meant can set in when you are shown a fragment. Others feel anger that something said in trust was held back for later.",
+   "psychological_mechanism": "People relax their guard when they believe words fade, and they talk more honestly as a result. Learning that remarks may be saved and replayed can make speech seem risky. The person edits themselves, guards what they write, and may start to doubt their own earlier words when shown a fragment. Because the material is real, it is also hard to contest, which can add to the sense of being trapped.",
+   "possible_impact_on_receiver": "Some people go quiet in writing, reread messages before sending, feel watched in their own home or friend group, and grow wary of telling anyone anything. Doubt about what you really meant can set in when you are shown a fragment. Others feel anger that something said in trust was held back for later.",
    "response_options": {
     "soft_clarification": "Ask for the whole picture: 'Can you show me the messages around that one? I remember the conversation going differently.'",
-    "firm_boundary": "If it feels safe, ask for concerns in real time: 'If something I say bothers you, tell me then, so we can sort it out together.'",
-    "disengagement": "Stop sharing delicate things with someone who keeps them for later, and move sensitive talk to a call or an in-person conversation.",
+    "firm_boundary": "If it feels safe, ask to hear concerns at the time: 'If something I say bothers you, tell me then, so we can sort it out together.'",
+    "disengagement": "Stop sharing delicate things with someone who keeps them for later. Move sensitive talk to a call or an in-person conversation.",
     "support_seeking": "Show the full thread to someone neutral and ask how it reads. If material is being shared, or threatened to be, keep your own copies of what was sent and talk to an advocate or lawyer.",
-    "workplace_or_professional": "At work, keep your own copy of the full email thread, reply with the missing context in writing, and ask a manager or HR to review the whole exchange and not the fragment."
+    "workplace_or_professional": "At work, keep your own copy of the full email thread and reply with the missing context in writing. Ask a manager or HR to review the whole exchange and not the fragment."
    },
    "boundary_script": "\"I'm happy to talk about anything I've said, if we look at the whole conversation and talk about it when it comes up. I'd rather not have old messages brought out in the middle of something else.\"",
-   "safety_note": "Someone quietly saving your words is pressure on trust, not a physical danger. The picture changes if saved material is paired with threats to release it, intimate images or recordings, a custody or legal case, or demands that you do something or stay. Keep your own copies of what has been sent, and take them to a lawyer or a domestic abuse or cyber-abuse advocate before replying to any threat.",
+   "safety_note": "Someone quietly saving your words is pressure on trust, not a physical danger. The picture changes if saved material is paired with threats to release it, intimate images or recordings, a custody or legal case, or demands that you do something or stay. Keep your own copies of what has been sent. Take them to a lawyer or a domestic abuse or cyber-abuse advocate before replying to any threat.",
    "safety_sensitive": true,
    "misuse_warning": [
     "Calling any reminder of an earlier statement an evidence trap can make accountability look like an attack. People are entitled to say 'you told me this'.",
@@ -27537,7 +27537,7 @@
     "Spatial Invasion",
     "Resource Sabotage"
    ],
-   "how_to_distinguish_from_related": "Emotion Control penalizes a feeling as soon as it is shown, whereas evidence traps bank the remark and bring it out weeks later. Resource Sabotage takes away something you need in the present, and here the material is something you already gave. Unlike a faked screenshot, nothing in an evidence trap is invented; the words are yours.",
+   "how_to_distinguish_from_related": "Emotion Control penalizes a feeling as soon as it is shown, whereas evidence traps bank the remark and bring it out weeks later. Resource Sabotage takes away something you need in the present. Here the material is something you already gave. Unlike a faked screenshot, nothing in an evidence trap is invented; the words are yours.",
    "detection_notes": "Not matched or scored by this tool. Pasted text cannot establish this concept — included in the Field Guide purely as a literacy reference.",
    "codex_maturity": "mature",
    "human_review_flags": [
@@ -27559,12 +27559,12 @@
    "absorbs": [],
    "short_definition": "Answering someone's boundary, objection or criticism with a judgment of their character, such as selfish or disloyal, instead of with the thing they raised.",
    "expanded_definition": "In moral framing, a boundary or complaint is met with a verdict on the kind of person who made it. A no becomes selfish, a fair criticism becomes disloyalty, a request for change becomes cruelty. The original issue drops out of sight, because the conversation is now about the person's worth. A hurt remark in a heated moment is common. The tell is character judgments replacing the subject every time, so a request has to be defended as virtue before it can be discussed.",
-   "plain_language_summary": "You say what you need or what bothered you, and the reply is about what kind of person you are, so the issue never gets discussed.",
+   "plain_language_summary": "You say what you need or what bothered you, and the reply is about what kind of person you are. The issue never gets discussed.",
    "why_this_matters": "Once the subject has become what kind of person you are, the original issue is no longer on the table and cannot be settled.",
    "what_it_is": [
-    "Naming a moral failing, such as selfish, cold, ungrateful, disloyal or a bad mother, in reply to a specific request.",
+    "Replying to a specific request by naming a moral failing, such as selfish, cold, ungrateful, disloyal or a bad mother.",
     "A reply that moves from the event to the person, so the question 'can we change this?' is never reached.",
-    "Often borrows values the person holds dear, such as family loyalty, generosity or faith, and turns them into a test.",
+    "It often borrows values the person holds dear, like family loyalty, generosity or faith, and turns them into a test.",
     "Makes saying no feel like a character flaw instead of a choice.",
     "Occurs in families, couples, friendships, congregations and workplaces."
    ],
@@ -27578,7 +27578,7 @@
     "I'm disappointed in the person you've become."
    ],
    "what_it_is_not": [
-    "Sometimes an observation about character is accurate, specific and offered as real feedback, and sometimes two people hold different values and read the same event through them. A hurt remark later walked back and replaced with substance is not this.",
+    "Sometimes an observation about character is accurate, specific and offered as real feedback. Sometimes two people hold different values and read the same event through them. A hurt remark later walked back and replaced with substance is not this.",
     "A specific, honest observation about a behavior, given along with a discussion of the issue itself.",
     "A disagreement rooted in different values, such as how much to give to family, where each side explains their own.",
     "Someone telling you honestly that your action conflicted with a promise you made.",
@@ -27631,23 +27631,23 @@
     "You weigh each choice by what it will say about you instead of by what you need.",
     "Your sense of being a good person starts to depend on going along."
    ],
-   "repair_check": "Watch whether the original topic gets its turn. If, after the character remark is withdrawn, the conversation returns to your request and the answer can be no without a new verdict, something has shifted. A kind apology that leaves the request unheard, and reappears next time, has not.",
+   "repair_check": "Watch whether the original topic gets its turn. If the character remark is withdrawn and the conversation returns to your request, and the answer can be no without a new verdict, something has shifted. A kind apology that leaves the request unheard, and reappears next time, has not shifted anything.",
    "boundary_respect_check": "State the boundary once without defending your character, and see what is said next. If the reply is about the boundary, even in disagreement, it was heard. If the next thing you hear is a statement about who you are, the boundary became a test of your character.",
-   "psychological_mechanism": "Most people want to see themselves as good, and moral labels reach that wish directly. When a request is recast as a flaw, the person may drop the request to protect their self-image, because defending their character feels more urgent than the original point. If the language borrows values they hold, such as loyalty or generosity, giving in may seem consistent with who they believe they are.",
-   "possible_impact_on_receiver": "People describe guilt out of proportion to what they asked for, rehearsing justifications, and apologizing for ordinary needs. Some say they started to doubt whether they were selfish, and gave in to prove otherwise. Others describe a mix of relief and anger on realizing that the question they raised was never answered.",
+   "psychological_mechanism": "Most people want to see themselves as good, and moral labels reach that wish directly. When a request is recast as a flaw, the person may drop the request to protect their self-image. Defending their character feels more urgent than the original point. If the language borrows values they hold, such as loyalty or generosity, giving in can look consistent with who they believe they are.",
+   "possible_impact_on_receiver": "Guilt out of proportion to what they asked for is a common report, along with rehearsing justifications and apologizing for ordinary needs. Some say they started to doubt whether they were selfish, and gave in to prove otherwise. Others describe a mix of relief and anger on realizing that the question they raised was never answered.",
    "response_options": {
     "soft_clarification": "Bring the conversation back to the request: 'I hear that you think I'm being selfish. Can we go back to what I asked?'",
     "firm_boundary": "Decline to argue character: 'I'm not going to debate whether I'm a good person. I've told you what I can do, and that is my answer.'",
     "disengagement": "If the labels keep coming, close the talk on the original topic: 'Let's leave this for now.' You do not need to win the point about who you are.",
     "support_seeking": "Describe the exact words used and your request to someone outside the situation, and ask whether the request seems reasonable. A counselor or a leader you trust can help separate your values from the pressure.",
-    "workplace_or_professional": "At work, restate the issue in neutral terms and in writing: 'To be clear, my request is about the schedule.' If personal remarks continue, note them and raise them with a manager or HR."
+    "workplace_or_professional": "At work, restate the issue in neutral terms and in writing: 'To be clear, my request is about the schedule.' If personal remarks continue, note them. Raise them with a manager or HR."
    },
    "boundary_script": "\"You may be right that we see this differently, but I'm asking about one specific thing. Can we talk about that request, and leave out what kind of person either of us is?\"",
-   "safety_note": "Moral labels on their own press on your self-image, not on your physical safety. That can change when a judgment comes with threats of exposure to a community, loss of housing, money or contact with children or family, or being told you deserve harm. If a verdict carries that weight, speak to someone outside the group, such as an advocate, a counselor or legal aid, before deciding anything.",
+   "safety_note": "Moral labels on their own press on your self-image, not on your physical safety. That can change when a judgment comes with threats of exposure to a community, loss of housing, money or contact with children or family, or being told you deserve harm. If a verdict carries that weight, speak to someone outside the group before deciding anything. An advocate, a counselor or legal aid can help.",
    "safety_sensitive": false,
    "misuse_warning": [
     "Calling every disapproving remark moral framing can wave away honest feedback. Sometimes a hard thing is true and said kindly.",
-    "Using the label to dismiss a family's real worries about a decision you have made turns a pattern into a way to avoid a conversation."
+    "Using the label to brush off a family's real worries about a decision you made turns a pattern into a way to avoid a conversation."
    ],
    "related_tactics": [
     "Emotion Control",
@@ -27656,7 +27656,7 @@
     "Spatial Invasion",
     "Resource Sabotage"
    ],
-   "how_to_distinguish_from_related": "Emotion Control penalizes certain feelings as they appear, while moral framing answers a boundary or complaint with a verdict on the person's goodness. Nonverbal Dominance conveys disapproval through sighs and stares without words, and this one is put into words. Resource Sabotage takes things away; here nothing is removed, and the request is simply turned into a test of your character.",
+   "how_to_distinguish_from_related": "Emotion Control penalizes certain feelings as they appear, while moral framing answers a boundary or complaint with a verdict on the person's goodness. Nonverbal Dominance conveys disapproval through sighs and stares without words. Moral framing is put into words. Resource Sabotage takes things away. Here nothing is removed, and the request is simply turned into a test of your character.",
    "detection_notes": "Not matched or scored by this tool. Pasted text cannot establish this concept — included in the Field Guide purely as a literacy reference.",
    "codex_maturity": "mature",
    "human_review_flags": [
@@ -27671,17 +27671,17 @@
    "branch": "reference",
    "category": "Control structural",
    "detectability_note": "This tool cannot establish this from pasted text at all. It is included for literacy only, so you can learn to recognize the concept — not as something this tool detects, scores, or flags.",
-   "core_meaning": "Pressuring or penalizing someone over whether, when or how to have children, through money, work, family standing or withdrawal of support.",
+   "core_meaning": "Pressuring or penalizing someone over whether, when or how to have children, using money, work, family standing or withdrawal of support.",
    "aftermath_state": false,
    "forensic_only": false,
    "absorbs": [],
-   "short_definition": "Pressuring or penalizing someone over whether, when or how to have children, through money, work, family standing or withdrawal of support.",
-   "expanded_definition": "Reproductive coercion is pressure over another person's decisions about pregnancy and children: whether to have a child, when, how many, whether to continue a pregnancy, or whether to use contraception. The pressure can come from a partner, relatives, an employer or an institution, and works through consequences: money, a job, housing, belonging or support made to depend on the answer. Stating hopes is normal. The line is crossed when a cost is attached to the answer and the pressure continues after it has been given.",
-   "plain_language_summary": "Someone ties your job, money, home or place in the family to what you decide about having children, and keeps pressing after you have answered.",
-   "why_this_matters": "A decision that belongs to one person's body and life ends up made under the weight of what refusal would cost them: job, money, support, standing in the family.",
+   "short_definition": "Pressuring or penalizing someone over whether, when or how to have children, using money, work, family standing or withdrawal of support.",
+   "expanded_definition": "Reproductive coercion is pressure over another person's decisions about pregnancy and children. That covers whether to have a child, when, how many, whether to continue a pregnancy, or whether to use contraception. The pressure can come from a partner, relatives, an employer or an institution. It works through consequences, with money, a job, housing, belonging or support made to depend on the answer. Stating hopes is normal. The line is crossed when a cost is attached to the answer and the pressure continues after it has been given.",
+   "plain_language_summary": "Someone ties your job, money, home or place in the family to what you decide about having children. They keep pressing after you have answered.",
+   "why_this_matters": "A decision that belongs to one person's body and life ends up made under the weight of what refusal would cost: job, money, support, standing in the family.",
    "what_it_is": [
-    "Consequences attached to a decision: pay, promotion, housing, money or support depend on having or not having a child.",
-    "Pressure repeated after you have given your answer, passed from partner to parents to in-laws to a community leader in turn.",
+    "Consequences attached to a decision. Pay, promotion, housing, money or support depend on having or not having a child.",
+    "Pressure repeated after you have given your answer, passed in turn from partner to parents to in-laws to a community leader.",
     "Can include interference with contraception or with access to health care, which takes the decision out of your hands.",
     "Can come from a partner, a family, an employer or an institution, and each works differently.",
     "Runs in both directions: pressure to have a child, and pressure not to, or to end a pregnancy."
@@ -27696,10 +27696,10 @@
     "You've said no three times, and we're not done talking."
    ],
    "what_it_is_not": [
-    "People may want things and say so: a parent hoping for grandchildren, a partner describing the family they imagined. A neutral, lawful employment policy can touch a reproductive decision without targeting it. What changes the picture is a consequence attached to the answer.",
-    "A partner who says they want children, talks about timing, and accepts a 'no' or a 'not yet' while the relationship stays on the same terms.",
+    "People may want things and say so, like a parent hoping for grandchildren or a partner describing the family they imagined. A neutral, lawful employment policy can touch a reproductive decision without targeting it. What changes the picture is a consequence attached to the answer.",
+    "A partner says they want children and talks about timing. They accept a 'no' or a 'not yet', and the relationship stays on the same terms.",
     "Grandparents' hopes shared once or twice, with no money or standing attached.",
-    "A doctor or counselor explaining the medical risks of a pregnancy or a treatment, then leaving the decision to you.",
+    "A doctor or counselor explains the medical risks of a pregnancy or a treatment, then leaves the decision to you.",
     "Parental leave rules applied the same way to everyone at a workplace."
    ],
    "this_may_be_it_when": [
@@ -27723,7 +27723,7 @@
    ],
    "common_false_positives": [
     "A relative asking 'any news?' at every holiday, who stops when told it is private.",
-    "A partner who is sad about a difference over children and grieves openly, with no leverage attached.",
+    "A partner who is sad about a difference over children and says so openly, with no leverage attached.",
     "A clinic asking routine questions about pregnancy plans before prescribing."
    ],
    "discernment_questions": [
@@ -27749,23 +27749,23 @@
     "You have started saying what is wanted to keep the peace.",
     "Conversations about the future always lead back to children."
    ],
-   "repair_check": "Repair would mean the decision stays yours and the cost attached to it disappears: the support, the job conditions and the family welcome continue as before, whatever you decided. Regret expressed while the pressure or the conditions remain is not repair.",
-   "boundary_respect_check": "After you have given an answer, notice whether the subject is closed or reopened. A respected answer is followed by an unchanged life and a different topic. If it is followed by a quiet drop in help, warmth or hours, or by a new person raising it, the answer is still being negotiated.",
-   "psychological_mechanism": "When the price of a choice is housing, income or family belonging, the choice gets weighed against security instead of against one's own wishes. Pressure repeated through several people can make a 'no' feel selfish or impossible to hold, and reduced access to money or care can make going along seem the only workable route. Over time a person may report agreeing without feeling the decision was theirs.",
-   "possible_impact_on_receiver": "Accounts include a sense that your body and future are being decided by others, dread around conversations about family, and anxiety about money or work. Some feel grief over a decision made under pressure, or anger years afterward. Others fear that questions about their health care would be followed by consequences.",
+   "repair_check": "Repair would mean the decision stays yours and the cost attached to it disappears. The support, the job conditions and the family welcome continue as before, whatever you decided. Regret expressed while the pressure or the conditions remain is not repair.",
+   "boundary_respect_check": "After you have given an answer, notice whether the subject is closed or reopened. A respected answer is followed by an unchanged life and a different topic. A quiet drop in help, warmth or hours, or a new person raising it, means the answer is still being negotiated.",
+   "psychological_mechanism": "When the price of a choice is housing, income or family belonging, the choice gets weighed against security instead of against one's own wishes. Pressure repeated through several people can make a 'no' feel selfish or impossible to hold. Reduced access to money or care can make going along look like the only workable route. A person may later report agreeing without feeling the decision was theirs.",
+   "possible_impact_on_receiver": "Some describe a sense that others are deciding their body and future, dread around conversations about family, and anxiety about money or work. Others feel grief over a decision made under pressure, or anger years afterward. Some fear that questions about their health care would be followed by consequences.",
    "response_options": {
     "soft_clarification": "If it feels safe, answer briefly and without arguing: 'That's something I'm still thinking about. I'll let you know.'",
     "firm_boundary": "Ask for the topic to be set aside: 'I'd like to leave this for now, and I'd like to talk about something else.'",
-    "disengagement": "Without announcing anything, keep your own medical appointments, records and money where you can reach them, and let a clinic know if you need to speak to a clinician alone.",
+    "disengagement": "Without announcing anything, keep your own medical appointments, records and money where you can reach them. Let a clinic know if you need to speak to a clinician alone.",
     "support_seeking": "A sexual and reproductive health clinic, a doctor or a domestic abuse advocate can talk with you privately. They can explain your options and how to keep care confidential where you live.",
-    "workplace_or_professional": "If a work decision seems tied to pregnancy or plans for children, write down what was said and when, and take it to HR, a union representative or an employment-rights service before replying to anything."
+    "workplace_or_professional": "If a work decision seems tied to pregnancy or plans for children, write down what was said and when. Take it to HR, a union representative or an employment-rights service before replying to anything."
    },
    "boundary_script": "\"I understand this matters a lot to you. It's a decision about my own body and life, and I need to think it through at my own pace. Can we talk about something else for now?\"",
-   "safety_note": "Pressure about pregnancy can sit alongside violence, threats to money, housing, children or immigration status, and coercive control, a steady pattern of rules and threats that narrows your choices. Pregnancy can also be a time when abuse begins or worsens. Warning signs include controlled contraception or appointments, being watched at clinics, and threats tied to your answer. A domestic abuse hotline or clinic can talk privately; ask about safe ways to reach them from a phone or device the other person cannot see.",
+   "safety_note": "Pressure about pregnancy can sit alongside violence, threats to money, housing, children or immigration status, and coercive control, which is a steady pattern of rules and threats that narrows your choices. Pregnancy can also be a time when abuse begins or worsens. Warning signs include controlled contraception or appointments, being watched at clinics, and threats tied to your answer. A domestic abuse hotline or clinic can talk privately. Ask about safe ways to reach them from a phone or device the other person cannot see.",
    "safety_sensitive": true,
    "misuse_warning": [
     "Treating any wish for a child, or any employer's parental-leave policy, as coercion can silence honest wishes. The label fits consequences attached to the answer, not the wish.",
-    "Calling a partner's grief over a difference about children coercion can turn a painful, honest disagreement into an accusation."
+    "If you call a partner's grief over a difference about children coercion, a painful, honest disagreement can become an accusation."
    ],
    "related_tactics": [
     "Emotion Control",
@@ -27774,7 +27774,7 @@
     "Spatial Invasion",
     "Resource Sabotage"
    ],
-   "how_to_distinguish_from_related": "Resource Sabotage removes tools or support so that a task fails, while reproductive coercion ties the loss of money, work or support to a decision about children. \"Managed Out\" Through Exhaustion strips a person's place at work gradually, whereas here the consequence is tied to one decision and follows the answer. Emotion Control penalizes feelings generally, not a specific choice about family.",
+   "how_to_distinguish_from_related": "Resource Sabotage removes tools or support so that a task fails. Reproductive coercion ties the loss of money, work or support to a decision about children. \"Managed Out\" Through Exhaustion strips a person's place at work gradually, whereas here the consequence is tied to one decision and follows the answer. Emotion Control penalizes feelings generally, not a specific choice about family.",
    "detection_notes": "Not matched or scored by this tool. Pasted text cannot establish this concept — included in the Field Guide purely as a literacy reference.",
    "codex_maturity": "mature",
    "human_review_flags": [
@@ -27790,16 +27790,16 @@
    "branch": "reference",
    "category": "Control structural",
    "detectability_note": "This tool cannot establish this from pasted text at all. It is included for literacy only, so you can learn to recognize the concept — not as something this tool detects, scores, or flags.",
-   "core_meaning": "A cycle in which coldness, criticism or withdrawal stays in place until someone gives in, then lifts at once, so giving in comes to feel like relief.",
+   "core_meaning": "A cycle where coldness, criticism or withdrawal stays until someone gives in and then lifts at once, so giving in starts to bring relief.",
    "aftermath_state": false,
    "forensic_only": false,
    "absorbs": [],
-   "short_definition": "A cycle in which coldness, criticism or withdrawal stays in place until someone gives in, then lifts at once, so giving in comes to feel like relief.",
-   "expanded_definition": "In psychology, negative reinforcement means a behavior becomes more likely because it makes something unpleasant stop. In a relationship or team, the unpleasant thing might be a cold shoulder, sharp remarks or a sulk that fills the house, and it ends the moment you agree, apologize or drop the request. One tense stretch that eases after a talk is ordinary life. What sets this apart is easing that is tied to your compliance and not to anything being settled, and giving in that starts before the chill has even arrived.",
-   "plain_language_summary": "The atmosphere stays tense until you do what is wanted, and then it turns warm at once, so giving in starts to feel like the only way to get peace.",
-   "why_this_matters": "Relief becomes the reward for giving in, and in time the giving-in starts arriving early, before the pressure does. The disagreement underneath never gets discussed, so it never gets settled either.",
+   "short_definition": "A cycle where coldness, criticism or withdrawal stays until someone gives in and then lifts at once, so giving in starts to bring relief.",
+   "expanded_definition": "In psychology, negative reinforcement means a behavior becomes more likely because it makes something unpleasant stop. In a relationship or team, the unpleasant thing might be a cold shoulder, sharp remarks or a sulk that fills the house. It ends the moment you agree, apologize or drop the request. One tense stretch that eases after a talk is ordinary life. What sets this apart is easing that is tied to your compliance and not to anything being settled. Giving in may also start before the chill has even arrived.",
+   "plain_language_summary": "The atmosphere stays tense until you do what is wanted, and then it turns warm at once. Giving in starts to look like the only way to get peace.",
+   "why_this_matters": "Relief becomes the reward for giving in. In time the giving in starts arriving early, before the pressure does. The disagreement underneath never gets discussed, so it never gets settled either.",
    "what_it_is": [
-    "A tense stretch (silence, clipped answers, pointed criticism) that stays in the room until a particular outcome happens.",
+    "A tense stretch of silence, clipped answers or pointed criticism that stays in the room until a particular outcome happens.",
     "A sudden return to warmth the moment you agree, which can feel like being forgiven for something you never found out you had done.",
     "A learned link in your own body: you tighten when a certain tone appears and loosen only after you yield.",
     "Found in couples, families, friendships and workplaces where a manager's mood tracks whether you did as asked.",
@@ -27823,7 +27823,7 @@
     "A routine at work where a deadline stress lifts when the project ships, whoever delivered it."
    ],
    "this_may_be_it_when": [
-    "The chill ends within minutes of you agreeing, even though nothing about the original disagreement was talked through.",
+    "The chill ends within minutes of you agreeing, and nothing about the original disagreement was talked through.",
     "The same sequence plays out over many different topics, from where to spend a vacation to what you wear.",
     "You notice yourself saying yes before the cold has fully set in.",
     "Your relief at the thaw is bigger than your pleasure in the outcome you agreed to.",
@@ -27837,12 +27837,12 @@
     "You went along with something because you were persuaded, and you would do it again."
    ],
    "innocent_or_ordinary_possibilities": [
-    "Many people withdraw when upset because they were raised to cool off alone, and the return of warmth is relief at the quiet ending, not a reward.",
-    "Both of you may be stressed by the same thing, such as a move or a sick relative, and the mood in the house lifts for everyone when it passes.",
-    "A person who struggles to say what they feel may go silent and then ease up once they feel heard, with no link to who gave way."
+    "Many people withdraw when upset because they were raised to cool off alone. The return of warmth is relief at the quiet ending, not a reward.",
+    "Both of you may be stressed by the same thing, such as a move or a sick relative. The mood in the house lifts for everyone when it passes.",
+    "A person who struggles to say what they feel may go silent and then ease up once they feel heard. That has no link to who gave way."
    ],
    "common_false_positives": [
-    "A couple who go quiet after a fight and warm up after a real apology from the person who was wrong, whichever of them that was.",
+    "A couple go quiet after a fight and warm up after a real apology from the person who was wrong, whichever of them that was.",
     "A parent who is genuinely upset about a teenager's lie and is friendly again once the truth is out.",
     "A colleague who is curt during a crunch and cheerful when the launch is over."
    ],
@@ -27871,21 +27871,21 @@
    ],
    "repair_check": "A real change would show up as a disagreement getting talked through while the mood stayed steady, even when you did not come round. A kind week after you yield tells you only that the cycle finished.",
    "boundary_respect_check": "Hold a position on something small and watch what the next two days feel like. Does the atmosphere stay level, or does the cold appear and linger until you reverse? Your answer to that question tells you more than anything either of you says.",
-   "psychological_mechanism": "When an unpleasant state reliably ends the moment a person complies, the body can learn the link without any words being said. The relief feels good, and the next time tension appears, giving in comes sooner. Over many rounds, the anticipation alone can be enough to produce the yielding, and the original disagreement never gets examined.",
-   "possible_impact_on_receiver": "A low hum of dread when a certain tone appears is common, along with quick agreement that is hard to explain afterwards and a habit of stepping carefully around the house. Some can no longer tell which of their choices they really wanted. Seeing the sequence written down at last brings a flood of relief to some.",
+   "psychological_mechanism": "When an unpleasant state reliably ends the moment a person complies, the body can learn the link without any words being said. The relief feels good, and the next time tension appears, giving in comes sooner. Over many rounds, the anticipation alone can be enough to produce the yielding. The original disagreement never gets examined.",
+   "possible_impact_on_receiver": "A low hum of dread when a certain tone appears is common. So is quick agreement that is hard to explain afterwards, and so is a habit of stepping carefully around the house. Some can no longer tell which of their choices they really wanted. Seeing the sequence written down at last brings a flood of relief to some.",
    "response_options": {
     "soft_clarification": "Ask once, in a calm moment: 'I notice things get tense until I say yes, and then they lift. Can we talk about the actual disagreement while it is still calm?'",
     "firm_boundary": "Hold your position without arguing it, and let the quiet be quiet: 'I've decided, and I'm happy to talk about why. I'm not going to change my mind to make the mood better.'",
-    "disengagement": "When the chill sets in, put your attention on something that is yours, such as a walk, a call with a friend or a task, and do not negotiate with the silence.",
+    "disengagement": "When the chill sets in, put your attention on something that is yours, such as a walk, a call with a friend or a task. Do not negotiate with the silence.",
     "support_seeking": "Tell someone outside the relationship about two or three rounds of the cycle, including how fast you gave in. Hearing yourself say it often shows the sequence.",
-    "workplace_or_professional": "If a manager's mood tracks whether you comply, move requests and decisions into email or a shared tracker so the outcome rests on what is written, not on how the day felt."
+    "workplace_or_professional": "If a manager's mood follows whether you comply, move requests and decisions into email or a shared tracker. Then the outcome rests on what is written, not on how the day felt."
    },
    "boundary_script": "\"Saying yes just to make things easier is not something I'm going to do, and I want to think this through properly. I'm glad to talk about it whenever you are ready.\"",
    "safety_note": "A cycle of pressure and relief is a strain on a relationship, not a sign of physical danger. Take it more seriously if the pressure grows to include threats, monitoring, or cutting you off from friends or money. Take it seriously, too, if you start to fear what happens when you hold your position. Those are the changes that call for a domestic abuse advocate or a counselor you trust.",
    "safety_sensitive": false,
    "misuse_warning": [
     "Calling every mood after an argument a 'trap' can make normal cooling-off look sinister. A person who needs time and returns to talk is not applying pressure.",
-    "Using the label to prove that someone is manipulating you, based on how your own body responded, skips the question of what they actually said and did."
+    "Using the label to prove that someone is manipulating you, based on how your own body responded, skips over what they actually said and did."
    ],
    "related_tactics": [
     "Emotion Control",
@@ -27894,7 +27894,7 @@
     "Spatial Invasion",
     "Resource Sabotage"
    ],
-   "how_to_distinguish_from_related": "Emotion Control sets which feelings are allowed and punishes the rest, whatever the topic, while this cycle ties the pressure to one outcome: your yes. Nonverbal Dominance is the sigh, stare or eye roll itself; here the point is how long the chill lasts and what ends it. Ritualized Exhaustion wears down a person through demands and lost sleep, whereas this pattern leaves your rest alone and works through the timing of relief.",
+   "how_to_distinguish_from_related": "Emotion Control sets which feelings are allowed and punishes the rest, whatever the topic. This cycle ties the pressure to one outcome: your yes. Nonverbal Dominance is the sigh, stare or eye roll itself. Here the point is how long the chill lasts and what ends it. Ritualized Exhaustion wears down a person through demands and lost sleep, whereas this pattern leaves your rest alone and works through the timing of relief.",
    "detection_notes": "Not matched or scored by this tool. Pasted text cannot establish this concept — included in the Field Guide purely as a literacy reference.",
    "codex_maturity": "mature",
    "human_review_flags": [
