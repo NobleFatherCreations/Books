@@ -1,5 +1,15 @@
 # MEMORY — read this first, every session
 
+> **START HERE (latest, 2026-10-27).** Pattern Decoder **v18 is LIVE** (deploy 6ae0a61aff2b9cdb5d09a3c4); repo and live are
+> byte-identical (`node scripts/verify-deployed.mjs playbook hub` in Books). The source is `Books/design/decoder-v15/` +
+> `Books/design/decoder_pages.py`, built by `python3 design/build-decoder-v15.py` into the publish directory
+> `Books/instruments/playbook/site/` (app + 310 tactic pages + 10 line pages + index + sitemap). Tests:
+> `npm i --no-save axe-core && node scripts/decoder-verify.js instruments/playbook/site/index.html` (112 checks). Read
+> first for the redesign: `Books/docs/DECODER-REVIEW-PACK-v17.md` (complete spec), `Books/instruments/playbook/DESIGN.md`
+> (v17 and v18 addenda), `Books/docs/DECODER-V18-PASTE-CHECK.md` (what was refused and why), `Books/docs/DECODER-SEO.md`.
+> Open owner questions: Help Q2 lacks "they say it never happened"; one page vs four tabs; Quiet colours default; what
+> the "13 gates" are. Details are in the dated entries at the end of this file.
+
 This is the actual cross-session memory for this project. In this remote
 environment, a new chat/session gets a fresh container — nothing outside
 this git repo survives. So this file (not a plugin, not `~/.claude/`) is
@@ -4753,3 +4763,19 @@ Owner asked for ten phone upgrades, a final combing of every tactic for accuracy
   sentence splitter fix (stray quotes). Suite 112 checks. Paste triage: docs/DECODER-V18-PASTE-CHECK.md.
   **Open for owner:** Help Q2 has no "they say it never happened" option (content); 25-screen full read (tabs vs one page);
   Quiet colours as default for shared phones; what the 13 gates are.
+
+## 2026-10-27 (end of session) — hand-off for the final redesign chat
+
+- **Live now:** Pattern Decoder v18 at /playbook. Same day: v15 Wayfinding (another session), then v16 findable (no
+  noindex, plain pages, robots.txt, sitemaps), v17 Midnight Matte (black/obsidian/champagne gold; safety moved to red;
+  People line to orange), v18 room-to-read (phone reading mode, obsidian dock, Save/Listen/Text size/More, compare
+  stacks, champagne day theme, sentence splitter fix). Every round: build gate, suite, live byte check, Playwright.
+- **Owner decisions on record:** findable over private; Midnight Matte; titles stay "<Tactic>: Signs, Examples and What
+  to Do · Pattern Decoder"; the name stays "Pattern Decoder"; "the design was meant to show 13 gates" (undefined).
+- **Rejected for good, with reasons in DECODER-V18-PASTE-CHECK.md:** React/Tailwind/Framer; invented tactics and
+  "sovereign exit" advice; user-scalable=no; user-select:none; 100vh scroll-locked card; 9px tracked caps; crimson exit.
+- **Sequential Thinking MCP:** pinned in `.mcp.json` of Books, Wookbook and Castings, auto-approved via
+  `enabledMcpjsonServers` in each `.claude/settings.json`. That loads it in a chat opened inside a repo. For chats opened
+  above the repos (/home/user), it must be registered at user scope by the environment's Setup script:
+  `claude mcp add --scope user sequential-thinking -- npx -y @modelcontextprotocol/server-sequential-thinking@2.0.0 || true`
+  (verified Connected on 2026-10-27; Node 22 warns that it wants Node 24 but works).

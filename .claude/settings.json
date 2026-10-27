@@ -65,5 +65,7 @@
       }
     }
   },
-  "description": "Wookbook project configuration: session initialization + design quality checks"
+  "enabledMcpjsonServers": [
+    "sequential-thinking"
+  ]
 }
