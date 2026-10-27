@@ -1,14 +1,14 @@
 {
  "Strategic Leaking": {
-  "short_definition": "Releasing sensitive information through channels that look unauthorized, so that a planned disclosure reads as a secret that escaped.",
-  "core_meaning": "Releasing sensitive information through channels that look unauthorized, so that a planned disclosure reads as a secret that escaped.",
+  "short_definition": "Releasing sensitive information through channels that look unauthorized, so a planned disclosure looks like a secret that got out.",
+  "core_meaning": "Releasing sensitive information through channels that look unauthorized, so a planned disclosure looks like a secret that got out.",
   "expanded_definition": "Strategic leaking is a disclosure that is presented as an accident or a breach but serves the interests of whoever released it. The aim can be to shape opinion, send a signal, test a reaction, or pull attention from something else. A story built on anonymous sources is not suspect by that fact alone. The question for a reader is who gains if this version of events is believed, and whether anyone has checked it independently.",
-  "plain_language_summary": "A story arrives as if someone slipped out a secret, but the release may have been planned and may serve the people who let it out.",
-  "why_this_matters": "Information that seems to have escaped carries extra credibility, because people assume nobody would choose to reveal it. A placed story can be read as an exposed one, and readers may never learn who benefited from the timing.",
+  "plain_language_summary": "A story arrives as if someone slipped out a secret. The release may have been planned, and it may serve the people who let it out.",
+  "why_this_matters": "Information that seems to have escaped carries extra credibility, because people assume nobody would choose to reveal it. A placed story can be read as an exposed one. Readers may never learn who benefited from the timing.",
   "what_it_is": [
    "A disclosure framed as unauthorized that actually serves the interests of someone connected to the source.",
    "Used to shape opinion, signal intentions, test how people react, or move attention away from another story.",
-   "Passed on through anonymous sources, unnamed officials, documents with no clear chain of custody, or sudden 'insider' accounts.",
+   "Passed on through anonymous sources, unnamed officials, documents with no clear record of who held them, or sudden 'insider' accounts.",
    "Hard to spot from outside because real leaks and planned ones can look the same on the page.",
    "Often partial: true details arranged so that the overall picture leans one way."
   ],
@@ -22,7 +22,7 @@
   ],
   "what_it_is_not": [
    "Genuine whistleblowing, where someone discloses wrongdoing at personal risk. From outside it can look the same, so the label should never be used to wave it away.",
-   "An open press briefing, where an official gives reporters information on the record or with the source's role stated.",
+   "An open press briefing, where an official gives reporters information on the record, or with the source's role stated.",
    "A reporter's own investigation, built from several independent sources and records.",
    "An honest mistake in which a document was shared with the wrong people.",
    "Any anonymous sourcing at all. Reporters promise anonymity for sound reasons, and it is not evidence of a planted story."
@@ -74,16 +74,16 @@
    "Earlier leaked claims quietly turn out to have been partial or wrong, and no one is held to account.",
    "Coverage across outlets follows the same framing, down to the same phrases, within hours."
   ],
-  "repair_check": "Accountability here looks like a source or outlet later explaining what was released, why, and what was left out, then correcting the record when details prove wrong. Silence, or a fresh unattributed story that shifts attention, is not a correction.",
+  "repair_check": "Accountability here looks like a source or outlet later explaining what was released, why, and what was left out. It also means correcting the record when details prove wrong. Silence is not a correction, and neither is a fresh unattributed story that shifts attention.",
   "boundary_respect_check": "Can you wait a day? A claim that holds up will still hold up after checking. If the surrounding noise pushes you to react before anyone has confirmed anything, that pressure is worth examining before you share.",
   "psychological_mechanism": "A secret that seems to have slipped out feels more honest than a statement, because a deliberate lie would seem pointless to hide. That assumption can make a placed account more convincing than an official one. Urgency and an air of forbidden knowledge can also make a claim feel important before anyone has examined it.",
-  "possible_impact_on_receiver": "People describe whiplash when a dramatic story is later revised, and a lingering sense of having been used to carry someone else's message. Some start to distrust all anonymous reporting, including the honest kind. Others feel the pull to share an exciting revelation and regret it afterward.",
+  "possible_impact_on_receiver": "Some feel whiplash when a dramatic story is later revised, along with a lingering sense of having been used to carry someone else's message. Others start to distrust all anonymous reporting, including the honest kind. A few feel the pull to share an exciting revelation and regret it afterward.",
   "response_options": {
-   "soft_clarification": "Ask the person sharing the story where it first appeared and whether anyone else confirmed it, in a tone of curiosity rather than accusation.",
+   "soft_clarification": "Ask the person sharing the story where it first appeared and whether anyone else confirmed it. Ask with curiosity, not accusation.",
    "firm_boundary": "Decide for yourself that you will not pass along a leaked claim until you have seen the original and at least one independent confirmation.",
    "disengagement": "Step away from fast-moving threads about a supposed leak for a day. Real confirmations and corrections tend to arrive after the first wave of reaction.",
-   "support_seeking": "Take a doubtful story to a fact-checking service, a librarian, or a reporter who covers the topic, and ask how they would verify it.",
-   "workplace_or_professional": "If you work in media, public affairs or an organization that handles sensitive material, follow its sourcing and disclosure policies and record who decided to release what."
+   "support_seeking": "Take a doubtful story to a fact-checking service, a librarian, or a reporter who covers the topic. Ask how they would verify it.",
+   "workplace_or_professional": "If you work in media, public affairs or an organization that handles sensitive material, follow its sourcing and disclosure policies. Record who decided to release what."
   },
   "boundary_script": "\"Before I pass this on: who is the original source, who gains if I believe it, and has anyone with nothing to gain confirmed it? If I can't answer those, I'll wait.\"",
   "safety_sensitive": false,
@@ -92,14 +92,14 @@
    "Calling a story 'just a leak' can become a way to dismiss real disclosures of wrongdoing. Whether a claim is true and whether it was placed are separate questions.",
    "Accusing a named reporter or source of planting a story without evidence is itself a smear."
   ],
-  "how_to_distinguish_from_related": "Strategic Deception is a wider campaign to mislead an adversary about plans or capabilities across several channels, while a leak is one release whose force comes from seeming accidental. Agent of Influence works through a person with a credible public platform, whereas a leak needs no such person. PSYOP Message Framing is about how a message is built to land, and a leak is about how it is delivered."
+  "how_to_distinguish_from_related": "Strategic Deception is a wider campaign to mislead an adversary about plans or capabilities across several channels. A leak is one release whose force comes from seeming accidental. Agent of Influence works through a person with a credible public platform, and a leak needs no such person. PSYOP Message Framing is about how a message is built to land. A leak is about how it is delivered."
  },
  "Cognitive Warfare": {
-  "short_definition": "Efforts to wear down a population's ability to think clearly, trust shared facts, and reach agreement, by working on beliefs and attention.",
-  "core_meaning": "Efforts to wear down a population's ability to think clearly, trust shared facts, and reach agreement, by working on beliefs and attention.",
-  "expanded_definition": "Cognitive warfare is a term used in security circles for campaigns aimed at how a society thinks, not at its buildings or machines. Instead of persuading people of one claim, such campaigns can aim to leave them tired, suspicious of each other, and unable to settle on what is true. The word is contested and sometimes overused. Real societies also fall into confusion and distrust without any outside plan.",
-  "plain_language_summary": "A campaign that tries to leave a whole society confused, divided and unable to agree on facts, instead of winning people to one side.",
-  "why_this_matters": "What is attacked is a group's ability to reason together. The damage can show up as exhaustion, mutual distrust, and an inability to agree on anything long enough to act on it, which weakens people whichever side they are on.",
+  "short_definition": "Efforts to wear down a population's ability to think clearly, trust shared facts and reach agreement, by working on beliefs and attention.",
+  "core_meaning": "Efforts to wear down a population's ability to think clearly, trust shared facts and reach agreement, by working on beliefs and attention.",
+  "expanded_definition": "Cognitive warfare is a term used in security circles for campaigns aimed at how a society thinks, not at its buildings or machines. Such campaigns can aim to leave people tired, suspicious of each other, and unable to settle on what is true, rather than persuading them of one claim. The word is contested and sometimes overused. Real societies also fall into confusion and distrust without any outside plan.",
+  "plain_language_summary": "A campaign that tries to leave a whole society confused, divided and unable to agree on facts. It does not try to win people to one side.",
+  "why_this_matters": "What is attacked is a group's ability to reason together. The damage can show up as exhaustion, mutual distrust, and an inability to agree on anything long enough to act on it. This weakens people whichever side they are on.",
   "what_it_is": [
    "A strategy aimed at a population's attention, beliefs and trust rather than at its physical resources.",
    "Often described as working through many small, repeated pushes, and not through one big lie.",
@@ -171,32 +171,32 @@
   ],
   "repair_check": "Recovery looks like shared facts rebuilt slowly: institutions that show their sources and admit errors, and neighbors who can disagree and still talk. A louder counter-campaign, or an accusation that only the other side is manipulated, repeats the damage.",
   "boundary_respect_check": "Slow down and see what the content does to you. If it wants an instant reaction, a side picked, or a verdict that nobody can be believed, that urgency is worth questioning. Material that survives a pause and a second source is safer to take seriously.",
-  "psychological_mechanism": "People rely on shared facts and a sense that others are reasonable in order to cooperate. Repeated overload, contradiction and provocation can tend to tire attention, make skepticism feel like safety, and turn disagreement into personal hostility. Once trust drops, even accurate information has a harder time being believed.",
-  "possible_impact_on_receiver": "People describe news fatigue, a feeling that everything is spin, and rising irritation with relatives or neighbors over topics they once discussed calmly. Some withdraw from public life altogether. Others become sure that everyone who disagrees is a dupe, which can leave them lonelier and more easily provoked.",
+  "psychological_mechanism": "People rely on shared facts, and on a sense that others are reasonable, in order to cooperate. Repeated overload, contradiction and provocation can tire attention, make skepticism seem safe, and turn disagreement into personal hostility. Once trust drops, even accurate information is harder to believe.",
+  "possible_impact_on_receiver": "Some report news fatigue, a sense that everything is spin, and rising irritation with relatives or neighbors over topics they once discussed calmly. Some withdraw from public life altogether. Others become sure that everyone who disagrees is a dupe, which can leave them lonelier and easier to provoke.",
   "response_options": {
-   "soft_clarification": "When a topic is getting heated, ask the other person what they have actually read and where it came from, and offer the sources you used.",
+   "soft_clarification": "When a topic is getting heated, ask the other person what they have actually read and where it came from. Offer the sources you used.",
    "firm_boundary": "Choose a small number of sources you can check and trust, and decline to react to content from accounts you cannot place.",
    "disengagement": "Take a break from feeds that leave you angry and exhausted. Rest is a legitimate response, not surrender.",
-   "support_seeking": "Talk with someone from the other side of a divide in person, about something other than the dispute, to remember they are a real neighbor.",
-   "workplace_or_professional": "If you work in education, journalism, public service or platform integrity, document what you observe and use your organization's channels for reporting suspected coordinated activity."
+   "support_seeking": "Talk in person with someone from the other side of a divide, about something other than the dispute. It helps you remember they are a real neighbor.",
+   "workplace_or_professional": "If you work in education, journalism, public service or platform integrity, document what you observe. Use your organization's channels to report suspected coordinated activity."
   },
   "boundary_script": "\"Is this trying to convince me of something specific, or just make me angry and tired? Who made it, where did it start, and can I find a second source before I react?\"",
   "safety_sensitive": false,
-  "safety_note": "Reading contested content is not a personal danger, but campaigns of this kind can spill into harassment of named people or into pressure to act at once. If you see threats or personal details being spread, save examples, report them to the platform, and alert the people affected. If you feel unsafe, contact local emergency services.",
+  "safety_note": "Reading contested content is not a personal danger. But campaigns of this kind can spill into harassment of named people, or into pressure to act at once. If you see threats or personal details being spread, save examples, report them to the platform, and alert the people affected. If you feel unsafe, contact local emergency services.",
   "misuse_warning": [
-   "Calling any disagreement 'cognitive warfare' can turn a political opponent into an enemy agent. The term needs documented evidence, and not just a dislike of someone's views.",
-   "Using it to explain away every bad mood in a society hides real grievances that people have a right to raise."
+   "Calling any disagreement 'cognitive warfare' can turn a political opponent into an enemy agent. The term needs documented evidence. A dislike of someone's views is not enough.",
+   "Using the term to explain every bad mood in a society hides real grievances that people have a right to raise."
   ],
-  "how_to_distinguish_from_related": "PSYOP Message Framing concerns how a single message is built to move a particular audience, and cognitive warfare is the wider effort to degrade a whole population's reasoning. Strategic Deception targets an adversary's decisions about plans and capabilities. Agent of Influence works through one credible person. What sets this apart is its target: a society's shared sense of what is true."
+  "how_to_distinguish_from_related": "PSYOP Message Framing concerns how a single message is built to move a particular audience. Cognitive warfare is the wider effort to degrade a whole population's reasoning. Strategic Deception targets an adversary's decisions about plans and capabilities. Agent of Influence works through one credible person. What sets cognitive warfare apart is its target, which is a society's shared sense of what is true."
  },
  "Cyber Manipulation Operations (CMOs)": {
-  "short_definition": "Quietly changing, inventing or deleting data inside a system, so that people make decisions based on records they believe are real.",
-  "core_meaning": "Quietly changing, inventing or deleting data inside a system, so that people make decisions based on records they believe are real.",
-  "expanded_definition": "Cyber manipulation operations, sometimes called CMOs, are intrusions whose goal is not to steal information but to alter it. A balance, a record, a sensor reading or a message is changed, and the people relying on it act on false figures without knowing. Nothing appears stolen and nothing appears broken. This is a forensic finding made by specialists, and it is not something to conclude from one number that looks wrong.",
-  "plain_language_summary": "Instead of stealing information, someone secretly changes it, so the people who rely on it make choices based on figures that are quietly wrong.",
-  "why_this_matters": "Nothing appears stolen and nothing appears broken, so decisions carry on being made confidently on figures that are quietly wrong. By the time anyone notices, the harm may already be done and trust in the records themselves is damaged.",
+  "short_definition": "Quietly changing, inventing or deleting data inside a system, so people make decisions based on records they believe are real.",
+  "core_meaning": "Quietly changing, inventing or deleting data inside a system, so people make decisions based on records they believe are real.",
+  "expanded_definition": "Cyber manipulation operations, sometimes called CMOs, are intrusions whose goal is to alter information, not to steal it. A balance, a record, a sensor reading or a message is changed, and the people relying on it act on false figures without knowing. Nothing appears stolen and nothing appears broken. Specialists make this finding after forensic work. You should not conclude it from one number that looks wrong.",
+  "plain_language_summary": "Instead of stealing information, someone secretly changes it. The people who rely on it then make choices based on figures that are quietly wrong.",
+  "why_this_matters": "Nothing appears stolen and nothing appears broken, so decisions keep being made with confidence on figures that are quietly wrong. By the time anyone notices, the harm may already be done, and trust in the records themselves is damaged.",
   "what_it_is": [
-   "Tampering with the contents of records, such as balances, results, logs, readings or messages, rather than taking a copy.",
+   "Tampering with the contents of records, such as balances, results, logs, readings or messages, instead of taking a copy.",
    "Aimed at the decisions people make, not at the data as such.",
    "Meant to go unnoticed, since a change that is detected loses its effect.",
    "Found in finance, public records, health, industry and news, anywhere people rely on stored figures.",
@@ -267,32 +267,32 @@
   "repair_check": "Real recovery means restoring records from trusted backups, telling affected people what changed, and showing how future changes will be logged and reviewed. A bare statement that everything is fine, with no account of what was checked, does not rebuild trust.",
   "boundary_respect_check": "When you ask an organization to confirm a figure against an independent record, notice the answer. A willingness to check and to say what the check showed is a good sign. Defensiveness, or an answer that only repeats the original number, tells you less.",
   "psychological_mechanism": "Official records and automatic systems are usually treated as neutral and rarely re-checked. Altered data can exploit that default trust: a confident decision made on a false figure feels just like a sound one. Doubt arrives late, and once it does it can spread well beyond the records that were actually changed.",
-  "possible_impact_on_receiver": "People describe confusion and anger at discovering that a decision they made in good faith rested on a false figure, along with lingering suspicion of systems they used to trust. Some say they now keep personal copies of important records and check them more often.",
+  "possible_impact_on_receiver": "Many describe confusion and anger at discovering that a decision they made in good faith rested on a false figure. Some are left with lingering suspicion of systems they used to trust. Some say they now keep personal copies of important records and check them more often.",
   "response_options": {
    "soft_clarification": "If a figure looks wrong, ask the organization to confirm it against a second record and tell you how the check was done.",
-   "firm_boundary": "Decline to act on a high-stakes number until it has been confirmed by an independent source or by a second system.",
-   "disengagement": "If a service keeps giving you inconsistent records, move important dealings to channels you can document, and keep your own dated copies.",
-   "support_seeking": "Report a suspected problem to the organization's security or records team, and ask a consumer protection service or a lawyer about your options.",
-   "workplace_or_professional": "If you work with sensitive records, report anomalies through your organization's incident process quickly, keep a dated note of what you saw, and avoid changing anything that could be evidence."
+   "firm_boundary": "Decline to act on a high-stakes number until an independent source or a second system has confirmed it.",
+   "disengagement": "If a service keeps giving you inconsistent records, move important dealings to channels you can document. Keep your own dated copies.",
+   "support_seeking": "Report a suspected problem to the organization's security or records team. Ask a consumer protection service or a lawyer about your options.",
+   "workplace_or_professional": "If you work with sensitive records, report anomalies quickly through your organization's incident process. Keep a dated note of what you saw, and avoid changing anything that could be evidence."
   },
   "boundary_script": "\"This number doesn't match what I expected. Before I act on it, can it be confirmed against a second record, and is there an ordinary explanation that has been checked?\"",
   "safety_sensitive": false,
-  "safety_note": "A wrong number is not a threat to your physical safety. It becomes serious when altered records affect medicine, money, housing or legal status. In those cases contact the provider or agency directly, keep copies of what you have, and ask a legal aid service or consumer protection office for help.",
+  "safety_note": "A wrong number is not a threat to your physical safety. It becomes serious when altered records affect medicine, money, housing or legal status. In those cases, contact the provider or agency directly and keep copies of what you have. Ask a legal aid service or consumer protection office for help.",
   "misuse_warning": [
-   "Treating every odd figure as sabotage can shut down honest error-checking and make people accuse colleagues or officials without evidence.",
+   "Treating every odd figure as sabotage can shut down honest error-checking. It can also lead people to accuse colleagues or officials without evidence.",
    "Claiming that results were secretly altered, with no forensic finding, can wrongly destroy trust in records that are accurate."
   ],
-  "how_to_distinguish_from_related": "Strategic Deception misleads an adversary through coordinated concealment and misdirection across many channels, while a data-altering operation changes what a specific system holds. Strategic Leaking releases real information at a chosen moment, whereas this alters the information itself. PSYOP Message Framing shapes how a message is received; this corrupts the record that decisions depend on."
+  "how_to_distinguish_from_related": "Strategic Deception misleads an adversary through coordinated concealment and misdirection across many channels. A data-altering operation changes what a specific system holds. Strategic Leaking releases real information at a chosen moment. This pattern alters the information itself. PSYOP Message Framing shapes how a message is received. This pattern corrupts the record that decisions depend on."
  },
  "Adversarial Machine Learning": {
-  "short_definition": "Crafting the data an AI system learns from or reads so that it gives wrong or manipulated answers, a risk to filters, fraud checks and screening software.",
-  "core_meaning": "Crafting the data an AI system learns from or reads so that it gives wrong or manipulated answers, a risk to filters, fraud checks and screening software.",
-  "expanded_definition": "Adversarial machine learning is the study of how AI systems can be pushed into mistakes by inputs designed for that purpose, and of how to defend against it. For ordinary people the point is simple: a filter, a fraud check or a screening tool can be fooled, and it will still return a confident answer. Strange or wrong outputs are far more often ordinary limitations than attacks, and spotting a wrong answer is not the same as finding an attack.",
-  "plain_language_summary": "AI systems can be fooled by inputs made to mislead them, so a confident answer from a filter or screening tool is not always a correct one.",
-  "why_this_matters": "The systems people are told to rely on, such as filters, fraud checks and screening tools, return confident answers, and the person affected often has no way to see why. If such a system has been misled, the error can land on someone who did nothing.",
+  "short_definition": "Crafting the data an AI system learns from or reads so it gives wrong or manipulated answers, which puts filters, fraud checks and screening software at risk.",
+  "core_meaning": "Crafting the data an AI system learns from or reads so it gives wrong or manipulated answers, which puts filters, fraud checks and screening software at risk.",
+  "expanded_definition": "Adversarial machine learning is the study of how AI systems can be pushed into mistakes by inputs designed for that purpose, and of how to defend against it. For ordinary people the point is simple. A filter, a fraud check or a screening tool can be fooled, and it will still return a confident answer. Strange or wrong outputs are far more often ordinary limitations than attacks. Spotting a wrong answer is not the same as finding an attack.",
+  "plain_language_summary": "AI systems can be fooled by inputs made to mislead them. So a confident answer from a filter or screening tool is not always a correct one.",
+  "why_this_matters": "The systems people are told to rely on, such as filters, fraud checks and screening tools, return confident answers. The person affected often has no way to see why. If such a system has been misled, the error can land on someone who did nothing.",
   "what_it_is": [
    "An attempt to make an AI system misread, misjudge or misclassify what it is given.",
-   "A concern for any automated decision tool, such as spam filters, fraud flags, content moderation, and screening software.",
+   "A concern for any tool that makes automated decisions, such as spam filters, fraud flags, content moderation and screening software.",
    "A field of research as well as a threat, since defenders study it to make systems safer.",
    "Usually invisible to the person on the receiving end, who sees only the system's answer.",
    "Distinct from ordinary AI error, which happens without anyone trying to cause it."
@@ -359,24 +359,24 @@
    "The tool's results grow less trustworthy after some change in what it takes in.",
    "Appeals are refused with the same answer, with no human looking at your case."
   ],
-  "repair_check": "Accountability would mean the operator telling affected people what went wrong, correcting individual decisions made on bad outputs, and showing how the system is now tested. A quiet fix with no account to those affected leaves the earlier decisions standing.",
+  "repair_check": "Accountability would mean the operator telling affected people what went wrong and correcting individual decisions made on bad outputs. It would also mean showing how the system is now tested. A quiet fix with no account to those affected leaves the earlier decisions standing.",
   "boundary_respect_check": "Ask for a human review of any automated decision that matters, and note how it is received. A prompt, plain explanation and a real second look is a good sign. A reply that repeats the system's result as if it were final is a poor one.",
   "psychological_mechanism": "A computer seems neutral, fast and consistent, so its answers often get the benefit of the doubt. That trust can make an automated error harder to challenge than a human one. Opaque results also leave the affected person unsure where to push back, and many simply accept the outcome.",
-  "possible_impact_on_receiver": "People describe frustration at being refused or flagged by a system nobody can explain, a sense of helplessness in appeals, and fresh distrust of automated tools. Some become wary of every confident AI answer, while others feel pressure to doubt their own judgment against the machine's.",
+  "possible_impact_on_receiver": "Some report frustration at being refused or flagged by a system nobody can explain, a sense of helplessness in appeals, and fresh distrust of automated tools. Some become wary of every confident AI answer. Others feel pressure to doubt their own judgment against the machine's.",
   "response_options": {
-   "soft_clarification": "Ask the organization in plain words how a decision was reached and whether a person reviewed it, and request the answer in writing.",
-   "firm_boundary": "Decline to treat an automated result as final for anything important, and ask for a human decision-maker to look at your case.",
+   "soft_clarification": "Ask the organization in plain words how a decision was reached and whether a person reviewed it. Request the answer in writing.",
+   "firm_boundary": "Decline to treat an automated result as final for anything important. Ask for a human decision-maker to look at your case.",
    "disengagement": "If a tool keeps giving you doubtful answers, stop relying on it for important matters and use a second source or a person.",
-   "support_seeking": "Take an unexplained automated decision to a consumer protection office, an advocacy group or a legal aid service, with copies of what you were told.",
-   "workplace_or_professional": "If you work with automated tools, log odd results with dates and examples, report them to whoever maintains the system, and keep a human check on high-stakes outputs."
+   "support_seeking": "Take an unexplained automated decision to a consumer protection office, an advocacy group or a legal aid service. Bring copies of what you were told.",
+   "workplace_or_professional": "If you work with automated tools, log odd results with dates and examples. Report them to whoever maintains the system, and keep a human check on high-stakes outputs."
   },
   "boundary_script": "\"This result came from an automated system, and a confident answer is not the same as a correct one. Can a person review it, and what else do I have that supports or contradicts it?\"",
   "safety_sensitive": false,
   "safety_note": "An odd AI result is rarely a personal danger. It becomes serious if an automated tool wrongly affects your money, housing, job, health care or legal standing. In that case ask for human review in writing, keep copies, and contact a legal aid service or consumer protection office.",
   "misuse_warning": [
-   "Blaming every strange AI output on an attack can excuse real design flaws and hide the ordinary biases and limits that cause most errors.",
-   "Accusing a specific person or company of tampering with a model, with no evidence, is a serious claim that can do real harm."
+   "Blaming every strange AI output on an attack can excuse real design flaws. It can also hide the ordinary biases and limits that cause most errors.",
+   "Accusing a specific person or company of tampering with a model, with no evidence, is a serious claim and can do real harm."
   ],
-  "how_to_distinguish_from_related": "Strategic Leaking releases real information at a chosen moment, while adversarial machine learning concerns misleading an AI tool so that its judgments go wrong. Strategic Deception is a broad campaign to mislead an adversary's decisions through many channels. PSYOP Message Framing is crafted to move human audiences, whereas an adversarial input is about fooling a machine's reading of its input."
+  "how_to_distinguish_from_related": "Strategic Leaking releases real information at a chosen moment. Adversarial machine learning misleads an AI tool so that its judgments go wrong. Strategic Deception is a broad campaign to mislead an adversary's decisions through many channels. PSYOP Message Framing is crafted to move human audiences. An adversarial input fools a machine's reading of its input."
  }
 }

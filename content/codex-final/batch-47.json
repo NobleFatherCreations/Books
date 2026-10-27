@@ -297,15 +297,15 @@
     "how_to_distinguish_from_related": "Astroturfing fakes ordinary supporters; a false flag fakes an event and its author. Reflexive Control steers a rival's decision through selected information and need not stage anything. Wedge Issue Exploitation uses real divisions to fracture a coalition, with no deceit about who did what. A false flag is the one where the deception is about who stands behind a staged act."
   },
   "Post-Truth Epistemic Manipulation": {
-    "short_definition": "Wearing down belief that facts can be established at all, until people stop trusting any source and claims cannot be held to account.",
-    "core_meaning": "Wearing down belief that facts can be established at all, until people stop trusting any source and claims cannot be held to account.",
-    "expanded_definition": "'Post-truth' is a term for public life in which appeals to emotion and identity count for more than checkable facts. As a manipulation pattern, it means a sustained flood of contradictions, denials and 'who can really know' messages that leaves people unsure whether anything can be verified. Doubting a specific claim is healthy. This pattern pushes doubt about whether claims can be tested at all. One dishonest statement, or one sincere moment of cynicism, does not show it. What marks it is the scale and the effect: fatigue and giving up.",
+    "short_definition": "A flood of contradictions and denials that wears down belief that facts can be known, until people trust no source and nobody can be held to account.",
+    "core_meaning": "A flood of contradictions and denials that wears down belief that facts can be known, until people trust no source and nobody can be held to account.",
+    "expanded_definition": "'Post-truth' is a term for public life where appeals to emotion and identity count for more than facts you can check. As a manipulation pattern, it is a steady flood of contradictions, denials and 'who can really know' messages. People end up unsure whether anything can be verified. Doubting a specific claim is healthy. This pattern pushes doubt about whether claims can be tested at all. One dishonest statement, or one sincere moment of cynicism, does not show it. What marks it is the scale and the effect, which are fatigue and giving up.",
     "plain_language_summary": "People are pushed to feel that no one can know what is true, so they stop checking and stop objecting. Honest doubt about one claim is different; this is giving up on checking.",
     "why_this_matters": "When nothing can be known, nothing can be checked, and someone left doubting everything has no ground from which to object to anything. They may also fall back on whoever sounds most certain, or on their own group.",
     "what_it_is": [
       "A climate of doubt about whether facts can be established, not a single false claim.",
-      "Works through volume and contradiction: many stories, denials and counter-stories, so that sorting them takes more effort than most people have.",
-      "Can come from governments, parties, companies or influencers, or from ordinary audiences repeating the mood themselves, so its source is rarely clear.",
+      "Works through volume and contradiction. There are many stories, denials and counter-stories, and sorting them takes more effort than most people have.",
+      "Can come from governments, parties, companies or influencers. Ordinary audiences can also repeat the mood themselves, so the source is rarely clear.",
       "Often voiced as 'both sides are the same' or 'no one can really know'.",
       "Different from honest skepticism, which still holds that claims can be tested and wants better tests."
     ],
@@ -319,7 +319,7 @@
       "A real document dismissed as 'fake' with no reason given beyond who published it."
     ],
     "what_it_is_not": [
-      "Distrust of institutions is often earned, and saying that reporting has bias or uncertainty is honesty. The difference lies between doubting a particular claim and abandoning the idea that claims can be tested at all.",
+      "Distrust of institutions is often earned. Saying that reporting has bias or uncertainty is honest. The difference is between doubting one claim and giving up on the idea that claims can be tested at all.",
       "A scientist saying results are uncertain and giving the margin of error.",
       "Reporters who correct their own mistakes in public.",
       "Philosophical debate about knowledge, which is a serious subject and not a campaign.",
@@ -329,8 +329,8 @@
     "this_may_be_it_when": [
       "Disproved claims are replaced by new ones instead of being withdrawn, and the supply never stops.",
       "Checking is treated as pointless or naive, regardless of what the check shows.",
-      "The message targets the idea of verification itself, not only one fact.",
-      "Contradictory stories about a single event flood in at once, and the confusion itself becomes the main result.",
+      "The message attacks the idea of verification itself, and goes beyond one fact.",
+      "Contradictory stories about one event flood in at once, and the confusion becomes the main result.",
       "Real records and fake ones are treated by the speaker as equally untrustworthy."
     ],
     "this_may_not_be_it_when": [
@@ -367,7 +367,7 @@
     "more_concerning_if": [
       "You catch yourself saying nothing can be known and have stopped reading, voting or checking.",
       "People around you treat the same record as proof or forgery depending on whose side it favors.",
-      "Pressure to give up on facts comes with encouragement to rely on one personality or group for the answers."
+      "You are pushed to give up on facts and told to rely on one personality or group for the answers."
     ],
     "pattern_over_time_signs": [
       "Conflicting claims keep arriving, and few are settled before the next wave.",
@@ -377,7 +377,7 @@
     ],
     "repair_check": "Where trust is restored, sources publish their evidence, admit errors and let others check. A promise to be more honest next time, with no method others could test, restores very little.",
     "boundary_respect_check": "Ask what evidence would change their mind, and listen to the answer. A concrete answer shows that claims can still be tested. 'Nothing would, they all lie' shows that the idea that testing is impossible is holding steady.",
-    "psychological_mechanism": "Faced with more contradictory claims than they can sort, many of us conserve effort by disengaging, or by retreating to the group we feel loyal to. Repeated falsehoods that carry no cost can teach that truth does not matter. Doubt can then spread from the false claim to the whole idea of checking.",
+    "psychological_mechanism": "Faced with more contradictory claims than they can sort, many of us save effort by switching off or retreating to the group we feel loyal to. Repeated falsehoods that carry no cost can teach that truth does not matter. Doubt can then spread from the false claim to the whole idea of checking.",
     "possible_impact_on_receiver": "People describe exhaustion, cynicism, a sense that the effort to find out is wasted, and withdrawal from news or civic life. Others describe leaning harder on one trusted voice or group because everything else feels unreliable. Some feel shame at having been fooled and stop trusting even honest sources.",
     "response_options": {
       "soft_clarification": "Separate the two doubts out loud: 'I doubt that claim, and here is what would settle it. I do not doubt that things can be checked.'",
@@ -388,11 +388,11 @@
     },
     "boundary_script": "\"I can doubt this one claim without doubting everything. What would settle it, who has checked it, and have I read the original? If I cannot tell, I will say I do not know instead of pretending I do.\"",
     "safety_sensitive": false,
-    "safety_note": "Post-truth pressure is usually not a physical danger. It matters for safety when doubt about everything leads people to ignore real warnings, such as medical, weather or financial ones. If a decision touches your health, money or home, check with a doctor, an official emergency channel or a trusted professional, not only your feed.",
+    "safety_note": "Post-truth pressure is usually not a physical danger. It matters for safety when doubt about everything leads people to ignore real warnings, such as medical, weather or financial ones. If a decision touches your health, money or home, check with a doctor, an official emergency channel or a trusted professional. Do not rely on your feed alone.",
     "misuse_warning": [
       "Calling a person's honest doubt 'post-truth' can be used to shut down legitimate criticism of institutions.",
-      "Using the label for views you simply disagree with turns a description of a method into a way of saying your opponents do not care about facts."
+      "If you use the label for views you simply disagree with, it stops describing a method. It becomes a way of saying your opponents do not care about facts."
     ],
-    "how_to_distinguish_from_related": "Manufactured Consent tries to install an agreement; this pattern tries to dissolve the ground on which agreement or disagreement is judged. Computational Propaganda names the automated machinery that can flood a feed, while post-truth manipulation names the climate of doubt that results. Overton Window Manipulation moves what is acceptable to say, not what can be known. The difference is the target: the possibility of knowing at all."
+    "how_to_distinguish_from_related": "Manufactured Consent tries to install an agreement. This pattern tries to wear away the shared ground on which agreement or disagreement is judged. Computational Propaganda names the automated machinery that can flood a feed. Post-truth manipulation names the climate of doubt that results. Overton Window Manipulation moves what is acceptable to say, not what can be known. The difference is the target, which is the possibility of knowing at all."
   }
 }

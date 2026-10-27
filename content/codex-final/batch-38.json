@@ -1,10 +1,10 @@
 {
   "Milieu Control": {
-    "short_definition": "A group's tight control over what members can read, hear and discuss and whom they can see, so the group becomes their only source of information.",
-    "core_meaning": "A group's tight control over what members can read, hear and discuss and whom they can see, so the group becomes their only source of information.",
-    "expanded_definition": "Milieu control means a group manages the information and the relationships around its members. It can be formal, such as banned books or rules about who may be contacted, or informal, such as steady pressure to spend all free time with fellow members. Robert Lifton, who studied thought reform, listed it among the features of totalistic groups. Wanting focus or privacy is normal. It becomes a pattern once outside contact, news and doubts are discouraged, reported or punished, and a member has nothing else to test the group's claims against.",
-    "plain_language_summary": "The group decides what you may read, hear and say, and who you may talk to, until its version of the world is the only one you can reach.",
-    "why_this_matters": "With reading, contact and conversation all bounded by the group, there is no outside view left to compare anything against, including the question of whether the boundary itself is reasonable.",
+    "short_definition": "A group's tight control over what members can read, hear and discuss and whom they see, so the group becomes their only source of information.",
+    "core_meaning": "A group's tight control over what members can read, hear and discuss and whom they see, so the group becomes their only source of information.",
+    "expanded_definition": "Milieu control means a group manages the information and the relationships around its members. It can be formal, such as banned books or rules about who may be contacted. It can also be informal, such as steady pressure to spend all free time with fellow members. Robert Lifton, who studied thought reform, listed it among the features of totalistic groups. Wanting focus or privacy is normal. It becomes a pattern once outside contact, news and doubts are discouraged, reported or punished, and a member has nothing else to test the group's claims against.",
+    "plain_language_summary": "The group decides what you may read, hear and say, and who you may talk to. In the end, its version of the world is the only one you can reach.",
+    "why_this_matters": "Reading, contact and conversation are all bounded by the group. That leaves no outside view to compare anything against, including the question of whether the boundary itself is reasonable.",
     "what_it_is": [
       "Rules, spoken or unspoken, about which books, websites, news and media members may use.",
       "Limits on who a member may call, visit or live near, often with family and old friends described as a bad influence.",
@@ -21,7 +21,7 @@
       "Phones go in the box for the retreat, and the retreat keeps getting extended."
     ],
     "what_it_is_not": [
-      "Communities of every kind have shared practices, retreats and times of deliberate focus, and choosing to spend most of your time among people who share your commitments is ordinary. The question is whether outside contact and information can resume without penalty.",
+      "Communities of every kind have shared practices, retreats and times of deliberate focus. Choosing to spend most of your time among people who share your commitments is ordinary. The question is whether outside contact and information can resume without penalty.",
       "A silent retreat or monastery that people enter by choice, with a known end date and a way to call home.",
       "A school or workplace that limits phones during working hours.",
       "Parents guiding what a young child watches and reads.",
@@ -75,37 +75,37 @@
       "You catch yourself describing relatives with the group's words for them.",
       "Doubts feel unsafe to say aloud to anyone, even a person you trust."
     ],
-    "repair_check": "Real change would show as open doors: contact rules lifted, outside reading no longer questioned, former members heard directly instead of described. A statement about openness, with the same permission gate still in place, changes nothing a member can feel.",
+    "repair_check": "Real change would show as open doors. Contact rules are lifted, outside reading is no longer questioned, and former members are heard directly instead of described. A statement about openness, with the same permission gate still in place, changes nothing a member can feel.",
     "boundary_respect_check": "Notice what follows an afternoon with an outside friend or an outside article. Curiosity from the group points one way. Questions about who knew, or a cooler reception afterward, point the other.",
     "psychological_mechanism": "When one group supplies nearly all of a person's information, friendships and daily routine, it can become the standard for what seems normal. Without other voices to compare against, small restrictions tend to feel reasonable, and doubts can start to feel like personal failings. Each step often seems minor on its own.",
-    "possible_impact_on_receiver": "People describe losing touch with friends and family, feeling unable to judge whether the group's claims hold up, and shame about wanting outside contact. After a long time inside, some describe feeling lost in ordinary life, unsure how to rebuild relationships or what to trust.",
+    "possible_impact_on_receiver": "Members report losing touch with friends and family, being unable to judge whether the group's claims hold up, and shame about wanting outside contact. After a long time inside, some say they feel lost in ordinary life, unsure how to rebuild relationships or what to trust.",
     "response_options": {
       "soft_clarification": "Ask a plain question in the group: 'Is it all right if I keep up with my sister?' How the question is received tells you a good deal.",
       "firm_boundary": "Keep one outside contact steady and ordinary, such as a short weekly call with someone who knew you before, without announcing it. Decide any larger change privately, with a counselor who knows high-control groups.",
-      "disengagement": "Take a walk, a nap or a quiet hour alone when pressure builds, and keep one steady contact outside the group informed of how you are.",
+      "disengagement": "Take a walk, a nap or a quiet hour alone when pressure builds. Keep one steady contact outside the group informed of how you are.",
       "support_seeking": "Reach someone who knew you before, or a counselor who understands high-control groups, and say what daily life is like in your own words.",
-      "workplace_or_professional": "If a workplace program or training limits contact and outside information, ask for the policy in writing and keep copies where the organization cannot see them."
+      "workplace_or_professional": "If a workplace program or training limits contact and outside information, ask for the policy in writing. Keep copies where the organization cannot see them."
     },
     "boundary_script": "\"Is it all right if I keep up with my sister and my old friends? I'm glad to talk about what the group is doing. I just want to stay in touch with them as well.\"",
     "safety_sensitive": true,
-    "safety_note": "Warning signs include being watched, having your phone, money or documents held, being told what will happen to people who question, or fear of what follows contact with family. Decisions about leaving are best made privately, with an experienced advocate, a counselor who knows high-control groups, or a trusted person outside. If you are in immediate danger, contact emergency services.",
+    "safety_note": "Warning signs include being watched, having your phone, money or documents held, or being told what will happen to people who question. Fear of what follows contact with family is another sign. Decisions about leaving are best made privately, with an experienced advocate, a counselor who knows high-control groups, or a trusted person outside. If you are in immediate danger, contact emergency services.",
     "misuse_warning": [
       "Calling a tight-knit congregation, team or family a controlling group because it is close or devout mistakes closeness for control. The test is whether outside contact is penalized.",
       "Telling someone their group is controlling their world can push them to defend it. A question about how free they feel usually lands better than a label."
     ],
-    "how_to_distinguish_from_related": "Doctrine Over Person is about what a member is taught to think of their own experience, whereas milieu control concerns what reaches them to begin with. Sacred Science makes the doctrine unquestionable; milieu control makes sure the questions never arrive. Bounded Choice describes how choices come to feel free. Here the matter is simply who may talk to whom."
+    "how_to_distinguish_from_related": "Doctrine Over Person is about what a member is taught to think of their own experience. Milieu control concerns what reaches them to begin with. Sacred Science makes the doctrine unquestionable. Milieu control makes sure the questions never arrive. Bounded Choice describes how choices come to feel free. Here the matter is simply who may talk to whom."
   },
   "Mystical Manipulation": {
-    "short_definition": "Arranging events that look spontaneous or divine, such as visions, healings or signs, to persuade members that a leader holds special spiritual authority.",
-    "core_meaning": "Arranging events that look spontaneous or divine, such as visions, healings or signs, to persuade members that a leader holds special spiritual authority.",
-    "expanded_definition": "Mystical manipulation is when experiences presented as spontaneous or divinely sent were in fact arranged by leadership, then used as proof of the leader's special connection. Robert Lifton listed it among his criteria for thought reform, and it is separate from belief itself. Prepared settings, music and ritual are ordinary in worship. The concern is an event staged in secret and presented as chance, so that members treat it as evidence and feel they cannot question the person who presided over it.",
+    "short_definition": "Staging events that look spontaneous or divine, like visions, healings or signs, to persuade members that a leader holds special spiritual authority.",
+    "core_meaning": "Staging events that look spontaneous or divine, like visions, healings or signs, to persuade members that a leader holds special spiritual authority.",
+    "expanded_definition": "Mystical manipulation is when experiences presented as spontaneous or divinely sent were in fact arranged by leadership. The leader then uses them as proof of a special connection. Robert Lifton listed it among his criteria for thought reform, and it is separate from belief itself. Prepared settings, music and ritual are ordinary in worship. The concern is an event staged in secret and presented as chance. Members then treat it as evidence and feel they cannot question the person who presided over it.",
     "plain_language_summary": "A moving or 'miraculous' moment is secretly set up, then called an unplanned sign. Members take it as proof the leader is chosen and stop asking questions.",
-    "why_this_matters": "An experience read as evidence of something greater is very hard to reconsider later, and the authority it lends to whoever presided over it is correspondingly hard to question.",
+    "why_this_matters": "An experience read as evidence of something greater is very hard to reconsider later. The authority it gives whoever presided over it is just as hard to question.",
     "what_it_is": [
       "An event described as unplanned, such as a vision, a healing or a perfectly timed sign, that was in fact prepared ahead of time.",
       "The experience then used as proof that the leader is chosen, gifted or specially guided.",
       "Often built on real emotion, real hope and real need, which is why it can feel so convincing from inside.",
-      "Sometimes small, like a remark that feels uncannily personal, and sometimes large, like a gathering built around a promised miracle."
+      "Sometimes small, like a remark that seems uncannily personal. Sometimes large, like a gathering built around a promised miracle."
     ],
     "what_it_sounds_like": [
       "It was no accident that you came today. You were meant to be here.",
@@ -170,16 +170,16 @@
       "Members who did not have the experience pretend they did.",
       "Earlier events that did not come true are quietly forgotten while the ones that fit are retold."
     ],
-    "repair_check": "Honest repair would be someone involved saying plainly that an event was arranged, describing what was done, and not asking members to keep treating it as proof. Reframing it as a symbol while keeping the authority it earned is not the same.",
+    "repair_check": "Honest repair would be someone involved saying plainly that an event was arranged and describing what was done. It would not ask members to keep treating the event as proof. Reframing it as a symbol while keeping the authority it earned is not the same.",
     "boundary_respect_check": "Ask how the event came about, and notice whether the reply is an explanation or a verdict on you. A plain answer is respect. Being told your question shows weak faith is the opposite.",
     "psychological_mechanism": "A strong experience in a charged setting works as direct evidence for many people, who trust what they felt over what they were told. When it is credited to one person, that person gains a kind of authority argument cannot reach. Admitting it was arranged may seem like losing something real, which makes it harder to revisit.",
     "possible_impact_on_receiver": "People describe real awe at the time and later confusion or grief on learning an event was arranged, along with embarrassment at having believed. Some describe being unsure which of their own spiritual experiences were real. Others keep what mattered to them while letting go of the person who claimed credit.",
     "response_options": {
-      "soft_clarification": "Ask a curious, plain question, and only if it feels safe: 'I'd love to understand how that came about.' Do not press for an answer.",
+      "soft_clarification": "Only if it feels safe, ask a curious, plain question: 'I'd love to understand how that came about.' Do not press for an answer.",
       "firm_boundary": "If it feels safe, decline to treat a single experience as proof: 'I'm glad it moved people. I'd like time before deciding anything big.'",
       "disengagement": "Step back from gatherings built around dramatic moments for a while and notice how you feel with some distance.",
-      "support_seeking": "Talk with a chaplain, counselor or former member who can discuss spiritual experience without insisting on one answer, and who respects whatever you still believe.",
-      "workplace_or_professional": "If a workplace or training program uses staged breakthroughs or 'signs', ask for the curriculum and a participant contact, and speak to an ombudsperson (an independent complaints officer) or HR if the answers are evasive."
+      "support_seeking": "Talk with a chaplain, counselor or former member who can discuss spiritual experience without insisting on one answer. Choose someone who respects whatever you still believe.",
+      "workplace_or_professional": "If a workplace or training program uses staged breakthroughs or 'signs', ask for the curriculum and a participant contact. If the answers are evasive, speak to an ombudsperson (an independent complaints officer) or HR."
     },
     "boundary_script": "\"I'm glad that was meaningful to people. I don't want to make any big decisions off one night, so I'm going to take my time.\"",
     "safety_sensitive": true,

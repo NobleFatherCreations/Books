@@ -5107,9 +5107,9 @@
   {
    "name": "Post-Truth Epistemic Manipulation",
    "cat": "Political & Propaganda",
-   "what": "Wearing down belief that facts can be established at all, until people stop trusting any source and claims cannot be held to account.",
+   "what": "A flood of contradictions and denials that wears down belief that facts can be known, until people trust no source and nobody can be held to account.",
    "nots": [
-    "Distrust of institutions is often earned, and saying that reporting has bias or uncertainty is honesty. The difference lies between doubting a particular claim and abandoning the idea that claims can be tested at all.",
+    "Distrust of institutions is often earned. Saying that reporting has bias or uncertainty is honest. The difference is between doubting one claim and giving up on the idea that claims can be tested at all.",
     "A scientist saying results are uncertain and giving the margin of error.",
     "Reporters who correct their own mistakes in public.",
     "Philosophical debate about knowledge, which is a serious subject and not a campaign.",
@@ -5131,9 +5131,9 @@
   {
    "name": "Honey Trapping",
    "cat": "Espionage & Influence Operations",
-   "what": "A romantic or sexual relationship used as a cover for an intelligence aim, such as gaining access to secrets, recruiting someone, or gathering material to pressure them later.",
+   "what": "Using a romantic or sexual relationship as cover for an intelligence aim, like getting at secrets, recruiting someone, or collecting material to pressure them later.",
    "nots": [
-    "Relationships involving people in sensitive positions are overwhelmingly just relationships, and suspicion about a partner's motives is not evidence of an operation.",
+    "Relationships involving people in sensitive positions are overwhelmingly just relationships. Suspicion about a partner's motives is not evidence of an operation.",
     "Attraction between colleagues, conference-goers, or neighbors, which happens constantly without anything being arranged.",
     "A partner who is curious about your day, including your job, because they care about you.",
     "A romance scam, where a stranger online builds affection to ask for money. It hurts, but it is a different pattern.",
@@ -5149,17 +5149,17 @@
     "A warm message followed weeks later by a veiled hint that private material could be shared.",
     "A partner who is gentle about your confidential work at first, and then starts to frame small favors as proof of love."
    ],
-   "why": "The relationship itself was the mechanism, so finding out means losing the connection and facing the consequences of everything disclosed inside it at the same moment. Shame and fear of exposure can keep people silent when telling a security officer early would limit the damage."
+   "why": "The relationship itself was the tool. So finding out means losing the connection and facing the results of everything shared inside it, all at the same moment. Shame and fear of exposure can keep people silent, even when telling a security officer early would limit the damage."
   },
   {
    "name": "Agent of Influence Operations",
    "cat": "Espionage & Influence Operations",
-   "what": "A public figure, such as a journalist, academic, politician, or executive, who is secretly guided by an outside party while appearing to speak independently.",
+   "what": "A public figure, such as a journalist, academic, politician or executive, who is secretly guided by an outside party while seeming to speak independently.",
    "nots": [
-    "Journalists, academics and executives take funding, briefings, access and hospitality openly, and holding a view that happens to suit a government or a company is not proof of recruitment.",
+    "Journalists, academics and executives openly take funding, briefings, access and hospitality. Holding a view that happens to suit a government or a company is not proof of recruitment.",
     "Sincere conviction that happens to match a powerful party's interests.",
     "Open advocacy, where the speaker states who they work for or who pays them.",
-    "A source who gives a reporter information with their own agenda, which reporters weigh as a matter of routine.",
+    "A source who gives a reporter information with their own agenda. Reporters weigh that as a matter of routine.",
     "Ordinary changes of mind after new evidence or experience.",
     "Being friendly with officials or businesses, which is part of many public jobs."
    ],
@@ -5172,12 +5172,12 @@
     "A public figure who changes position abruptly on one topic after a trip or a new business partnership.",
     "A guest who is introduced as a neutral analyst and turns out later to have been paid by an interested party."
    ],
-   "why": "Audiences weigh an argument partly by how independent its source appears; where that independence is not real, their judgment is being borrowed rather than informed. Trust in real experts and reporters also erodes when a hidden arrangement comes out."
+   "why": "Audiences weigh an argument partly by how independent its source seems. Where that independence is not real, their judgment is borrowed instead of informed. Trust in real experts and reporters also erodes when a hidden arrangement comes out."
   },
   {
    "name": "Strategic Deception (Denial & Deception / D&D)",
    "cat": "Espionage & Influence Operations",
-   "what": "Organized efforts by a state or institution to hide what is real and to show something false, so that an opponent plans against a mistaken picture.",
+   "what": "Organized efforts by a state or institution to hide what is real and show something false, so an opponent plans against a mistaken picture.",
    "nots": [
     "Ordinary secrecy is legitimate; institutions and states keep capabilities and intentions confidential without staging a coordinated illusion.",
     "Not being told something is not the same as being actively pointed the wrong way.",
@@ -5195,15 +5195,15 @@
     "A denial issued confidently and repeated across outlets, then reversed once records emerge.",
     "Analysts later saying that signs which looked like evidence had been put there to be found."
    ],
-   "why": "Plans get laid against a picture of the world that was arranged to be believed, and the error usually becomes visible only once acting on it can no longer be undone. For the public, it also means official accounts and leaked ones both deserve a second look."
+   "why": "Plans get laid against a picture of the world that was arranged to be believed. The error usually shows only when acting on it can no longer be undone. For the public, it also means official accounts and leaked ones both deserve a second look."
   },
   {
    "name": "MICE Framework Exploitation",
    "cat": "Espionage & Influence Operations",
-   "what": "Being pulled into helping an outside party by pressure on one of four common motives: money, ideology, coercion or compromise, and ego.",
+   "what": "Being pulled into helping an outside party through pressure on one of four common motives: money, ideology, coercion or compromise, and ego.",
    "nots": [
     "This is a framework analysts use to describe recruitment after the fact, not a checklist of warning signs.",
-    "Everyone has financial pressures, convictions, embarrassments and vanity; having them is the human condition, not an indication that anyone is working on you.",
+    "Everyone has financial pressures, convictions, embarrassments and vanity. Having them is the human condition and does not mean anyone is working on you.",
     "A friendly colleague who offers a compliment, or a generous gift that is part of a normal friendship.",
     "Real disillusionment with an employer or government, which is common and legitimate.",
     "Money trouble that comes from ordinary events like illness or layoffs.",
@@ -5218,14 +5218,14 @@
     "A hint that something embarrassing in your past is known, delivered lightly.",
     "A request that begins small and harmless and grows once you have said yes."
    ],
-   "why": "What gets used is whatever a person most needs or most fears losing, so the approach can feel less like pressure and more like finally being understood. Because the levers are ordinary, people often feel shame and do not tell anyone, and that silence is what makes the situation worse."
+   "why": "What gets used is whatever a person most needs or most fears losing. The approach can come across as finally being understood, with little sense of pressure. Because the levers are ordinary, people often feel shame and tell no one, and that silence makes the situation worse."
   },
   {
    "name": "PSYOP Message Framing",
    "cat": "Espionage & Influence Operations",
-   "what": "Messages shaped on psychological principles to steer how a population sees legitimacy, inevitability, loyalty, or hopelessness, and so what it does.",
+   "what": "Messages built on psychological principles to steer how a population sees legitimacy, inevitability, loyalty or hopelessness, and therefore how it acts.",
    "nots": [
-    "The techniques described overlap heavily with ordinary advertising, campaigning and public communication, so spotting the shape of a frame tells you nothing about who wrote it or why.",
+    "The techniques described overlap heavily with ordinary advertising, campaigning and public communication. Spotting the shape of a frame tells you nothing about who wrote it or why.",
     "A rousing or a fatalistic message is not by itself an operation.",
     "An honest statement of bad news, such as a forecast that a project will fail.",
     "A speech designed to rally a team or a community around a shared goal.",
@@ -5241,15 +5241,15 @@
     "A message telling a group that its leaders have abandoned it and that no help is coming.",
     "A flyer, broadcast, or message that arrives in the same wording from sources that claim to be unrelated."
    ],
-   "why": "Messages built around futility or inevitability leave people experiencing their own resignation as simple realism. When a frame feels like your own conclusion, you are less likely to question where it came from or whether other options exist."
+   "why": "Messages built around futility or inevitability leave people seeing their own resignation as simple realism. When a frame seems to be your own conclusion, you are less likely to question where it came from or whether other options exist."
   },
   {
    "name": "Strategic Leaking",
    "cat": "Espionage & Influence Operations",
-   "what": "Releasing sensitive information through channels that look unauthorized, so that a planned disclosure reads as a secret that escaped.",
+   "what": "Releasing sensitive information through channels that look unauthorized, so a planned disclosure looks like a secret that got out.",
    "nots": [
     "Genuine whistleblowing, where someone discloses wrongdoing at personal risk. From outside it can look the same, so the label should never be used to wave it away.",
-    "An open press briefing, where an official gives reporters information on the record or with the source's role stated.",
+    "An open press briefing, where an official gives reporters information on the record, or with the source's role stated.",
     "A reporter's own investigation, built from several independent sources and records.",
     "An honest mistake in which a document was shared with the wrong people.",
     "Any anonymous sourcing at all. Reporters promise anonymity for sound reasons, and it is not evidence of a planted story."
@@ -5263,12 +5263,12 @@
     "An official publicly 'declines to comment' while the account keeps circulating, unchallenged.",
     "A leaked memo that conveniently makes the sources' own side look reasonable and decisive."
    ],
-   "why": "Information that seems to have escaped carries extra credibility, because people assume nobody would choose to reveal it. A placed story can be read as an exposed one, and readers may never learn who benefited from the timing."
+   "why": "Information that seems to have escaped carries extra credibility, because people assume nobody would choose to reveal it. A placed story can be read as an exposed one. Readers may never learn who benefited from the timing."
   },
   {
    "name": "Cognitive Warfare",
    "cat": "Espionage & Influence Operations",
-   "what": "Efforts to wear down a population's ability to think clearly, trust shared facts, and reach agreement, by working on beliefs and attention.",
+   "what": "Efforts to wear down a population's ability to think clearly, trust shared facts and reach agreement, by working on beliefs and attention.",
    "nots": [
     "A society arguing with itself. People disagree, polarize and lose trust for their own reasons, such as economic strain, real grievances and poor governance.",
     "Ordinary advertising or political persuasion, which tries to win agreement openly and for a stated side.",
@@ -5285,12 +5285,12 @@
     "Sudden bursts of outrage about a topic that most people had never discussed before.",
     "Trusted institutions and local reporters described again and again as fools or frauds."
    ],
-   "why": "What is attacked is a group's ability to reason together. The damage can show up as exhaustion, mutual distrust, and an inability to agree on anything long enough to act on it, which weakens people whichever side they are on."
+   "why": "What is attacked is a group's ability to reason together. The damage can show up as exhaustion, mutual distrust, and an inability to agree on anything long enough to act on it. This weakens people whichever side they are on."
   },
   {
    "name": "Cyber Manipulation Operations (CMOs)",
    "cat": "Espionage & Influence Operations",
-   "what": "Quietly changing, inventing or deleting data inside a system, so that people make decisions based on records they believe are real.",
+   "what": "Quietly changing, inventing or deleting data inside a system, so people make decisions based on records they believe are real.",
    "nots": [
     "A software bug, a botched migration, or a typing mistake. Data corrupts through ordinary error far more often than through intrusion.",
     "A number you personally find surprising. A discrepancy is a reason to investigate, not a conclusion.",
@@ -5307,12 +5307,12 @@
     "Statements to customers contain errors that match no known software fault.",
     "An organization announces that it is checking whether data was 'altered', and not just accessed."
    ],
-   "why": "Nothing appears stolen and nothing appears broken, so decisions carry on being made confidently on figures that are quietly wrong. By the time anyone notices, the harm may already be done and trust in the records themselves is damaged."
+   "why": "Nothing appears stolen and nothing appears broken, so decisions keep being made with confidence on figures that are quietly wrong. By the time anyone notices, the harm may already be done, and trust in the records themselves is damaged."
   },
   {
    "name": "Adversarial Machine Learning",
    "cat": "Espionage & Influence Operations",
-   "what": "Crafting the data an AI system learns from or reads so that it gives wrong or manipulated answers, a risk to filters, fraud checks and screening software.",
+   "what": "Crafting the data an AI system learns from or reads so it gives wrong or manipulated answers, which puts filters, fraud checks and screening software at risk.",
    "nots": [
     "Everyday AI mistakes. Models break on unusual inputs, carry the biases of their training data, and drift as the world changes. A wrong or strange output is far more likely a limitation than an attack.",
     "A system making a decision you dislike but that follows its stated rules.",
@@ -5329,14 +5329,14 @@
     "A researcher publishes a report showing that a particular AI product can be misled by certain inputs.",
     "A company announces it has found that a system's results were being steered."
    ],
-   "why": "The systems people are told to rely on, such as filters, fraud checks and screening tools, return confident answers, and the person affected often has no way to see why. If such a system has been misled, the error can land on someone who did nothing."
+   "why": "The systems people are told to rely on, such as filters, fraud checks and screening tools, return confident answers. The person affected often has no way to see why. If such a system has been misled, the error can land on someone who did nothing."
   },
   {
    "name": "Milieu Control",
    "cat": "Cult & Thought Reform",
-   "what": "A group's tight control over what members can read, hear and discuss and whom they can see, so the group becomes their only source of information.",
+   "what": "A group's tight control over what members can read, hear and discuss and whom they see, so the group becomes their only source of information.",
    "nots": [
-    "Communities of every kind have shared practices, retreats and times of deliberate focus, and choosing to spend most of your time among people who share your commitments is ordinary. The question is whether outside contact and information can resume without penalty.",
+    "Communities of every kind have shared practices, retreats and times of deliberate focus. Choosing to spend most of your time among people who share your commitments is ordinary. The question is whether outside contact and information can resume without penalty.",
     "A silent retreat or monastery that people enter by choice, with a known end date and a way to call home.",
     "A school or workplace that limits phones during working hours.",
     "Parents guiding what a young child watches and reads.",
@@ -5352,12 +5352,12 @@
     "You don't need other friends. You have all of us.",
     "Phones go in the box for the retreat, and the retreat keeps getting extended."
    ],
-   "why": "With reading, contact and conversation all bounded by the group, there is no outside view left to compare anything against, including the question of whether the boundary itself is reasonable."
+   "why": "Reading, contact and conversation are all bounded by the group. That leaves no outside view to compare anything against, including the question of whether the boundary itself is reasonable."
   },
   {
    "name": "Mystical Manipulation",
    "cat": "Cult & Thought Reform",
-   "what": "Arranging events that look spontaneous or divine, such as visions, healings or signs, to persuade members that a leader holds special spiritual authority.",
+   "what": "Staging events that look spontaneous or divine, like visions, healings or signs, to persuade members that a leader holds special spiritual authority.",
    "nots": [
     "Religious and spiritual experience is real to those who have it, and none of this takes a view on any belief. Ritual, atmosphere and preparation are ordinary in worship. The line is between a prepared setting and an arranged event presented as spontaneous.",
     "A choir, candles, incense or a darkened room used openly to set a mood that everyone knows was planned.",
@@ -5375,7 +5375,7 @@
     "People who left never felt it, which tells you something.",
     "A leader asking how else they could have known something so personal."
    ],
-   "why": "An experience read as evidence of something greater is very hard to reconsider later, and the authority it lends to whoever presided over it is correspondingly hard to question."
+   "why": "An experience read as evidence of something greater is very hard to reconsider later. The authority it gives whoever presided over it is just as hard to question."
   },
   {
    "name": "Demand for Purity",
@@ -32231,18 +32231,18 @@
    "branch": "societal",
    "category": "Political & Propaganda",
    "detectability_note": "This tool cannot establish this from pasted text at all. It is included for literacy only, so you can learn to recognize the concept — not as something this tool detects, scores, or flags.",
-   "core_meaning": "Wearing down belief that facts can be established at all, until people stop trusting any source and claims cannot be held to account.",
+   "core_meaning": "A flood of contradictions and denials that wears down belief that facts can be known, until people trust no source and nobody can be held to account.",
    "aftermath_state": false,
    "forensic_only": false,
    "absorbs": [],
-   "short_definition": "Wearing down belief that facts can be established at all, until people stop trusting any source and claims cannot be held to account.",
-   "expanded_definition": "'Post-truth' is a term for public life in which appeals to emotion and identity count for more than checkable facts. As a manipulation pattern, it means a sustained flood of contradictions, denials and 'who can really know' messages that leaves people unsure whether anything can be verified. Doubting a specific claim is healthy. This pattern pushes doubt about whether claims can be tested at all. One dishonest statement, or one sincere moment of cynicism, does not show it. What marks it is the scale and the effect: fatigue and giving up.",
+   "short_definition": "A flood of contradictions and denials that wears down belief that facts can be known, until people trust no source and nobody can be held to account.",
+   "expanded_definition": "'Post-truth' is a term for public life where appeals to emotion and identity count for more than facts you can check. As a manipulation pattern, it is a steady flood of contradictions, denials and 'who can really know' messages. People end up unsure whether anything can be verified. Doubting a specific claim is healthy. This pattern pushes doubt about whether claims can be tested at all. One dishonest statement, or one sincere moment of cynicism, does not show it. What marks it is the scale and the effect, which are fatigue and giving up.",
    "plain_language_summary": "People are pushed to feel that no one can know what is true, so they stop checking and stop objecting. Honest doubt about one claim is different; this is giving up on checking.",
    "why_this_matters": "When nothing can be known, nothing can be checked, and someone left doubting everything has no ground from which to object to anything. They may also fall back on whoever sounds most certain, or on their own group.",
    "what_it_is": [
     "A climate of doubt about whether facts can be established, not a single false claim.",
-    "Works through volume and contradiction: many stories, denials and counter-stories, so that sorting them takes more effort than most people have.",
-    "Can come from governments, parties, companies or influencers, or from ordinary audiences repeating the mood themselves, so its source is rarely clear.",
+    "Works through volume and contradiction. There are many stories, denials and counter-stories, and sorting them takes more effort than most people have.",
+    "Can come from governments, parties, companies or influencers. Ordinary audiences can also repeat the mood themselves, so the source is rarely clear.",
     "Often voiced as 'both sides are the same' or 'no one can really know'.",
     "Different from honest skepticism, which still holds that claims can be tested and wants better tests."
    ],
@@ -32256,7 +32256,7 @@
     "A real document dismissed as 'fake' with no reason given beyond who published it."
    ],
    "what_it_is_not": [
-    "Distrust of institutions is often earned, and saying that reporting has bias or uncertainty is honesty. The difference lies between doubting a particular claim and abandoning the idea that claims can be tested at all.",
+    "Distrust of institutions is often earned. Saying that reporting has bias or uncertainty is honest. The difference is between doubting one claim and giving up on the idea that claims can be tested at all.",
     "A scientist saying results are uncertain and giving the margin of error.",
     "Reporters who correct their own mistakes in public.",
     "Philosophical debate about knowledge, which is a serious subject and not a campaign.",
@@ -32266,8 +32266,8 @@
    "this_may_be_it_when": [
     "Disproved claims are replaced by new ones instead of being withdrawn, and the supply never stops.",
     "Checking is treated as pointless or naive, regardless of what the check shows.",
-    "The message targets the idea of verification itself, not only one fact.",
-    "Contradictory stories about a single event flood in at once, and the confusion itself becomes the main result.",
+    "The message attacks the idea of verification itself, and goes beyond one fact.",
+    "Contradictory stories about one event flood in at once, and the confusion becomes the main result.",
     "Real records and fake ones are treated by the speaker as equally untrustworthy."
    ],
    "this_may_not_be_it_when": [
@@ -32304,7 +32304,7 @@
    "more_concerning_if": [
     "You catch yourself saying nothing can be known and have stopped reading, voting or checking.",
     "People around you treat the same record as proof or forgery depending on whose side it favors.",
-    "Pressure to give up on facts comes with encouragement to rely on one personality or group for the answers."
+    "You are pushed to give up on facts and told to rely on one personality or group for the answers."
    ],
    "pattern_over_time_signs": [
     "Conflicting claims keep arriving, and few are settled before the next wave.",
@@ -32314,7 +32314,7 @@
    ],
    "repair_check": "Where trust is restored, sources publish their evidence, admit errors and let others check. A promise to be more honest next time, with no method others could test, restores very little.",
    "boundary_respect_check": "Ask what evidence would change their mind, and listen to the answer. A concrete answer shows that claims can still be tested. 'Nothing would, they all lie' shows that the idea that testing is impossible is holding steady.",
-   "psychological_mechanism": "Faced with more contradictory claims than they can sort, many of us conserve effort by disengaging, or by retreating to the group we feel loyal to. Repeated falsehoods that carry no cost can teach that truth does not matter. Doubt can then spread from the false claim to the whole idea of checking.",
+   "psychological_mechanism": "Faced with more contradictory claims than they can sort, many of us save effort by switching off or retreating to the group we feel loyal to. Repeated falsehoods that carry no cost can teach that truth does not matter. Doubt can then spread from the false claim to the whole idea of checking.",
    "possible_impact_on_receiver": "People describe exhaustion, cynicism, a sense that the effort to find out is wasted, and withdrawal from news or civic life. Others describe leaning harder on one trusted voice or group because everything else feels unreliable. Some feel shame at having been fooled and stop trusting even honest sources.",
    "response_options": {
     "soft_clarification": "Separate the two doubts out loud: 'I doubt that claim, and here is what would settle it. I do not doubt that things can be checked.'",
@@ -32324,11 +32324,11 @@
     "workplace_or_professional": "In a team, agree on how disputed facts will be settled: which records count, who can check them, and where corrections are posted."
    },
    "boundary_script": "\"I can doubt this one claim without doubting everything. What would settle it, who has checked it, and have I read the original? If I cannot tell, I will say I do not know instead of pretending I do.\"",
-   "safety_note": "Post-truth pressure is usually not a physical danger. It matters for safety when doubt about everything leads people to ignore real warnings, such as medical, weather or financial ones. If a decision touches your health, money or home, check with a doctor, an official emergency channel or a trusted professional, not only your feed.",
+   "safety_note": "Post-truth pressure is usually not a physical danger. It matters for safety when doubt about everything leads people to ignore real warnings, such as medical, weather or financial ones. If a decision touches your health, money or home, check with a doctor, an official emergency channel or a trusted professional. Do not rely on your feed alone.",
    "safety_sensitive": false,
    "misuse_warning": [
     "Calling a person's honest doubt 'post-truth' can be used to shut down legitimate criticism of institutions.",
-    "Using the label for views you simply disagree with turns a description of a method into a way of saying your opponents do not care about facts."
+    "If you use the label for views you simply disagree with, it stops describing a method. It becomes a way of saying your opponents do not care about facts."
    ],
    "related_tactics": [
     "Overton Window Manipulation",
@@ -32338,7 +32338,7 @@
     "Computational Propaganda",
     "Reflexive Control"
    ],
-   "how_to_distinguish_from_related": "Manufactured Consent tries to install an agreement; this pattern tries to dissolve the ground on which agreement or disagreement is judged. Computational Propaganda names the automated machinery that can flood a feed, while post-truth manipulation names the climate of doubt that results. Overton Window Manipulation moves what is acceptable to say, not what can be known. The difference is the target: the possibility of knowing at all.",
+   "how_to_distinguish_from_related": "Manufactured Consent tries to install an agreement. This pattern tries to wear away the shared ground on which agreement or disagreement is judged. Computational Propaganda names the automated machinery that can flood a feed. Post-truth manipulation names the climate of doubt that results. Overton Window Manipulation moves what is acceptable to say, not what can be known. The difference is the target, which is the possibility of knowing at all.",
    "detection_notes": "Not matched or scored. Pasted personal text cannot establish an institutional- or societal-scale pattern — that requires independent, corroborated, documented evidence at a completely different scale.",
    "codex_maturity": "mature",
    "human_review_flags": [
@@ -32353,19 +32353,19 @@
    "branch": "societal",
    "category": "Espionage & Influence Operations",
    "detectability_note": "This tool cannot establish this from pasted text at all. It is included for literacy only, so you can learn to recognize the concept — not as something this tool detects, scores, or flags.",
-   "core_meaning": "A romantic or sexual relationship used as a cover for an intelligence aim, such as gaining access to secrets, recruiting someone, or gathering material to pressure them later.",
+   "core_meaning": "Using a romantic or sexual relationship as cover for an intelligence aim, like getting at secrets, recruiting someone, or collecting material to pressure them later.",
    "aftermath_state": false,
    "forensic_only": false,
    "absorbs": [],
-   "short_definition": "A romantic or sexual relationship used as a cover for an intelligence aim, such as gaining access to secrets, recruiting someone, or gathering material to pressure them later.",
-   "expanded_definition": "Honey trapping is the use of an apparent romance or sexual relationship as the means of an intelligence operation. The affection is the delivery method, and the goal sits behind it. It is discussed in espionage history and counterintelligence training, and it is rare compared with ordinary dating. From the inside it feels like a normal relationship, which is why one odd detail proves nothing. What matters is a combination: sensitive access, a relationship that outpaces the facts, and later pressure.",
+   "short_definition": "Using a romantic or sexual relationship as cover for an intelligence aim, like getting at secrets, recruiting someone, or collecting material to pressure them later.",
+   "expanded_definition": "Honey trapping is the use of an apparent romance or sexual relationship as the means of an intelligence operation. The affection is the delivery method, and the goal sits behind it. It appears in espionage history and counterintelligence training, and it is rare compared with ordinary dating. From the inside it looks like a normal relationship, so one odd detail proves nothing. What matters is a combination of three things: sensitive access, a relationship that moves faster than the facts support, and later pressure.",
    "plain_language_summary": "A relationship feels real to you, but someone is using it. The other person, or whoever is behind them, wants secrets, cooperation or a hold over you.",
-   "why_this_matters": "The relationship itself was the mechanism, so finding out means losing the connection and facing the consequences of everything disclosed inside it at the same moment. Shame and fear of exposure can keep people silent when telling a security officer early would limit the damage.",
+   "why_this_matters": "The relationship itself was the tool. So finding out means losing the connection and facing the results of everything shared inside it, all at the same moment. Shame and fear of exposure can keep people silent, even when telling a security officer early would limit the damage.",
    "what_it_is": [
     "A relationship that is real in feeling for the person targeted but staged in purpose for the other side.",
     "Mostly discussed in connection with people who hold sensitive jobs, clearances, or access to information others want.",
     "Often involves closeness that later turns into requests or pressure, rather than a single moment.",
-    "A romance scam is a separate pattern: a stranger online builds affection to ask an ordinary person for money, with no access or secrets involved.",
+    "A romance scam is a separate pattern. A stranger online builds affection to ask an ordinary person for money, and no access or secrets are involved.",
     "Usually visible only in hindsight, once the pieces are laid side by side."
    ],
    "what_it_sounds_like": [
@@ -32377,7 +32377,7 @@
     "A partner who is gentle about your confidential work at first, and then starts to frame small favors as proof of love."
    ],
    "what_it_is_not": [
-    "Relationships involving people in sensitive positions are overwhelmingly just relationships, and suspicion about a partner's motives is not evidence of an operation.",
+    "Relationships involving people in sensitive positions are overwhelmingly just relationships. Suspicion about a partner's motives is not evidence of an operation.",
     "Attraction between colleagues, conference-goers, or neighbors, which happens constantly without anything being arranged.",
     "A partner who is curious about your day, including your job, because they care about you.",
     "A romance scam, where a stranger online builds affection to ask for money. It hurts, but it is a different pattern.",
@@ -32404,7 +32404,7 @@
     "A new partner may ask about work because it is simply a large part of your life."
    ],
    "common_false_positives": [
-    "A partner who works for a competitor or a rival organization and met you openly through the industry.",
+    "A partner who works for a competitor or a rival organization, and who met you openly through the industry.",
     "A partner who stays vague about money or family because of an unrelated private difficulty.",
     "The anxiety of a person with a clearance who begins to wonder about every new date."
    ],
@@ -32421,7 +32421,7 @@
     "You feel free to talk to others about the relationship."
    ],
    "more_concerning_if": [
-    "Intimate material is mentioned as leverage, even indirectly.",
+    "Intimate material is mentioned as a way to pressure you, even indirectly.",
     "The person begins to ask for favors tied to your access, framed as proof of caring.",
     "They discourage you from telling colleagues or friends about the relationship."
    ],
@@ -32431,22 +32431,22 @@
     "Warmth rises and falls with how much you share or provide.",
     "You start hiding things from your own workplace to protect the relationship."
    ],
-   "repair_check": "If you raise concerns, a genuine partner can tolerate being checked: they introduce friends, answer plain questions, and do not bristle at your employer's rules. What only looks like repair is more intensity, new promises, or a tearful appeal that you trust them.",
+   "repair_check": "If you raise concerns, a genuine partner can accept being checked. They introduce friends, answer plain questions, and do not bristle at your employer's rules. What only looks like repair is more intensity, new promises, or a tearful appeal that you trust them.",
    "boundary_respect_check": "Watch how they react when you say you will not discuss work. Do they let it go and ask about something else? Or does affection cool, or pressure rise? The reaction to a closed door is more telling than any single question.",
-   "psychological_mechanism": "Closeness can lower a person's guard, and sexual or romantic attachment can make someone want to please a partner and hide anything that might spoil it. Shared secrets can create a sense of obligation. Later, embarrassment and fear of exposure can make a person comply or stay quiet rather than report, which keeps the situation going.",
-   "possible_impact_on_receiver": "The loss lands twice: the relationship they believed in turns out to have been something else, and there may be professional consequences for what was shared. Many report shame, anger at themselves, and a fear of telling anyone. Some pull away from friends because of the embarrassment.",
+   "psychological_mechanism": "Closeness can lower a person's guard. Sexual or romantic attachment can make someone want to please a partner and hide anything that might spoil it. Shared secrets can create a sense of obligation. Later, embarrassment and fear of exposure can make a person comply or stay quiet rather than report, which keeps the situation going.",
+   "possible_impact_on_receiver": "The loss lands twice. The relationship they believed in turns out to have been something else, and there may be professional consequences for what was shared. Many report shame, anger at themselves, and a fear of telling anyone. Some pull away from friends because of the embarrassment.",
    "response_options": {
-    "soft_clarification": "Ask a plain, calm question about something checkable, such as 'Can I meet your coworkers or friends sometime?' and notice how it is received.",
-    "firm_boundary": "Keep work details out of the relationship altogether: 'I do not discuss work with anyone, including people I love.' Say it the same way every time.",
+    "soft_clarification": "Ask a plain, calm question about something checkable, such as 'Can I meet your coworkers or friends sometime?' Then notice how it is received.",
+    "firm_boundary": "Keep work details out of the relationship altogether, with words like 'I do not discuss work with anyone, including people I love.' Say it the same way every time.",
     "disengagement": "Pause sharing anything sensitive while you check things out, and keep your conversations about everyday life.",
     "support_seeking": "Tell a trusted friend what has been happening, and consider a lawyer or counselor, so you are not holding it alone.",
-    "workplace_or_professional": "If your job has a security office or a reporting process for unusual contacts, going early is usually better than waiting. Reporting early usually leaves you more options."
+    "workplace_or_professional": "If your job has a security office or a reporting process for unusual contacts, it is usually better to go early than to wait. Early reports usually leave you more options."
    },
    "boundary_script": "\"I keep my work separate from my relationships, with everyone, and that won't change. I'm happy to talk about anything else.\"",
-   "safety_note": "Watch for any mention of private photos, recordings or messages being shared, and for pressure that grows once you have shared something. Do not handle it alone: a lawyer, the security or legal contact at your workplace, or a trusted person can help you plan the next step before anything is disclosed.",
+   "safety_note": "Watch for any mention of private photos, recordings or messages being shared. Watch too for pressure that grows once you have shared something. Do not handle it alone. A lawyer, the security or legal contact at your workplace, or a trusted person can help you plan the next step before anything is disclosed.",
    "safety_sensitive": true,
    "misuse_warning": [
-    "Accusing a partner of being an operative on thin evidence can wreck a real relationship and invite harassment of an innocent person.",
+    "Accusing a partner of being an operative on thin evidence can wreck a real relationship. It can also bring harassment down on an innocent person.",
     "Using the label to explain away any breakup or betrayal turns a rare category into a catch-all."
    ],
    "related_tactics": [
@@ -32457,7 +32457,7 @@
     "Strategic Leaking",
     "Cognitive Warfare"
    ],
-   "how_to_distinguish_from_related": "Agent of Influence Operations works through public figures who speak to an audience, while honey trapping works in private through one person's intimate trust. MICE Framework Exploitation is the analyst's checklist of levers such as money or compromise, and honey trapping is one route to the compromise lever. Strategic Deception misleads whole adversaries; here, one person is deceived about a single relationship.",
+   "how_to_distinguish_from_related": "Agent of Influence Operations works through public figures who speak to an audience. Honey trapping works in private, through one person's intimate trust. MICE Framework Exploitation is the analyst's checklist of levers such as money or compromise, and honey trapping is one route to the compromise lever. Strategic Deception misleads whole adversaries. Here, one person is deceived about a single relationship.",
    "detection_notes": "Not matched or scored. Pasted personal text cannot establish an institutional- or societal-scale pattern — that requires independent, corroborated, documented evidence at a completely different scale.",
    "codex_maturity": "mature",
    "human_review_flags": [
@@ -32473,20 +32473,20 @@
    "branch": "societal",
    "category": "Espionage & Influence Operations",
    "detectability_note": "This tool cannot establish this from pasted text at all. It is included for literacy only, so you can learn to recognize the concept — not as something this tool detects, scores, or flags.",
-   "core_meaning": "A public figure, such as a journalist, academic, politician, or executive, who is secretly guided by an outside party while appearing to speak independently.",
+   "core_meaning": "A public figure, such as a journalist, academic, politician or executive, who is secretly guided by an outside party while seeming to speak independently.",
    "aftermath_state": false,
    "forensic_only": false,
    "absorbs": [],
-   "short_definition": "A public figure, such as a journalist, academic, politician, or executive, who is secretly guided by an outside party while appearing to speak independently.",
+   "short_definition": "A public figure, such as a journalist, academic, politician or executive, who is secretly guided by an outside party while seeming to speak independently.",
    "expanded_definition": "An agent of influence is someone with a credible public voice who, without disclosing it, promotes another party's interests. The key word is undisclosed. Taking funding, access, or advice openly is common and often legitimate. The concern arises when the direction is hidden and the audience believes they are hearing an independent view. From the outside it looks like a persuasive voice. Proof usually takes documents or testimony, not a hunch about whose side someone is on.",
-   "plain_language_summary": "Someone people trust to speak for themselves is quietly being steered by someone else, so the audience thinks they are hearing a free opinion when they are not.",
-   "why_this_matters": "Audiences weigh an argument partly by how independent its source appears; where that independence is not real, their judgment is being borrowed rather than informed. Trust in real experts and reporters also erodes when a hidden arrangement comes out.",
+   "plain_language_summary": "Someone people trust to speak for themselves is quietly being steered by someone else. The audience thinks it is hearing a free opinion, but it is not.",
+   "why_this_matters": "Audiences weigh an argument partly by how independent its source seems. Where that independence is not real, their judgment is borrowed instead of informed. Trust in real experts and reporters also erodes when a hidden arrangement comes out.",
    "what_it_is": [
-    "A public voice with credibility, such as a columnist, professor, official, or business leader, whose positions are shaped from outside and not disclosed.",
+    "A public voice with credibility, such as a columnist, professor, official or business leader, whose positions are shaped from outside and are not disclosed.",
     "Distinct from open lobbying, sponsorship, or advocacy, where the relationship is stated.",
-    "A concern that usually emerges from leaked records, court filings, or later testimony and not from reading the person's output alone.",
+    "A concern that usually comes from leaked records, court filings or later testimony. It does not usually come from reading the person's output alone.",
     "A long-running relationship, more than a single favor or one article.",
-    "A label that describes an arrangement, not a view: the same opinion held sincerely is not an operation."
+    "The label describes an arrangement. The same opinion, held sincerely, is not an operation."
    ],
    "what_it_sounds_like": [
     "A commentator whose opinions line up closely with one foreign government or company, with no disclosed tie.",
@@ -32497,15 +32497,15 @@
     "A guest who is introduced as a neutral analyst and turns out later to have been paid by an interested party."
    ],
    "what_it_is_not": [
-    "Journalists, academics and executives take funding, briefings, access and hospitality openly, and holding a view that happens to suit a government or a company is not proof of recruitment.",
+    "Journalists, academics and executives openly take funding, briefings, access and hospitality. Holding a view that happens to suit a government or a company is not proof of recruitment.",
     "Sincere conviction that happens to match a powerful party's interests.",
     "Open advocacy, where the speaker states who they work for or who pays them.",
-    "A source who gives a reporter information with their own agenda, which reporters weigh as a matter of routine.",
+    "A source who gives a reporter information with their own agenda. Reporters weigh that as a matter of routine.",
     "Ordinary changes of mind after new evidence or experience.",
     "Being friendly with officials or businesses, which is part of many public jobs."
    ],
    "this_may_be_it_when": [
-    "A relationship with an outside party exists and has been hidden from the audience, not just left unmentioned.",
+    "A relationship with an outside party exists and has been hidden from the audience, which is more than simply going unmentioned.",
     "Documents or credible testimony, not impressions, show direction or payment that was not disclosed.",
     "The speaker presents themselves as unaffiliated while holding ties that would change how listeners weigh their words.",
     "Their positions track one outside party's interests across many topics over time.",
@@ -32551,23 +32551,23 @@
     "Disclosures arrive only after outside reporting forces them.",
     "Criticism of the outside party is consistently absent, even when events would normally call for it."
    ],
-   "repair_check": "If the tie is raised, genuine repair is a plain disclosure of who funded or advised what, a correction notice on past work, and a willingness to be questioned. What only looks like repair is a vague statement about independence with no names, or an attack on whoever asked.",
+   "repair_check": "If the tie is raised, genuine repair is a plain disclosure of who funded or advised what. It also includes a correction notice on past work and a willingness to be questioned. What only looks like repair is a vague statement about independence with no names, or an attack on whoever asked.",
    "boundary_respect_check": "Ask yourself: if I could see every tie this speaker has, would my trust change? Then notice whether they offer that information or resist it. Openness to the question is a stronger signal than any one opinion they hold.",
-   "psychological_mechanism": "An argument often carries more weight when its source seems to have no stake in it. A familiar, respected voice can make a position sound like common sense, and repetition adds to that. When the sponsorship is hidden, listeners cannot apply the discount they would give an advertisement, so the message may land harder than it has earned.",
+   "psychological_mechanism": "An argument often carries more weight when its source seems to have no stake in it. A familiar, respected voice can make a position sound like common sense, and repetition adds to that. When the sponsorship is hidden, listeners cannot apply the discount they would give an advertisement. The message may land harder than it has earned.",
    "possible_impact_on_receiver": "Once a hidden tie comes out, earlier articles or talks look different, and some readers wonder what else they believed because of that voice. Others turn suspicious of every expert, including honest ones. Many say the hardest part was that they had no way of knowing at the time.",
    "response_options": {
-    "soft_clarification": "When you hear a strong claim, ask in a comment or question: 'Do you have any financial or professional ties to the people who gain from this?'",
+    "soft_clarification": "When you hear a strong claim, you can ask in a comment or question, 'Do you have any financial or professional ties to the people who gain from this?'",
     "firm_boundary": "Decline to share or rely on a piece until you know who funded it and whether the author disclosed their ties.",
     "disengagement": "Step back from sources that will not say who supports them, and rely on those that publish funding and corrections.",
-    "support_seeking": "Take specific, documented concerns to a reporter, a press-standards body, or a research-integrity office, not to a social media pile-on.",
-    "workplace_or_professional": "If you edit, teach, or commission work, ask contributors to state funding and affiliations in writing, and keep a record of the answers."
+    "support_seeking": "Take specific, documented concerns to a reporter, a press-standards body or a research-integrity office. Do not take them to a social media pile-on.",
+    "workplace_or_professional": "If you edit, teach or commission work, ask contributors to state funding and affiliations in writing. Keep a record of the answers."
    },
    "boundary_script": "\"Before I share this: who pays this person, and is that stated anywhere? Would I find the argument as convincing if I knew every tie they have, and has anyone independent checked the claim?\"",
-   "safety_note": "Learning that a trusted voice was steered is upsetting but not usually dangerous in itself. The risk changes if you are asked to pass on information, or if you are a journalist or researcher who is approached with offers or pressure. In that case, tell your editor or institution and get legal advice.",
+   "safety_note": "Learning that a trusted voice was steered is upsetting, but it is not usually dangerous in itself. The risk changes if you are asked to pass on information. It also changes if you are a journalist or researcher who is approached with offers or pressure. In that case, tell your editor or institution and get legal advice.",
    "safety_sensitive": false,
    "misuse_warning": [
-    "Calling a critic an 'agent' with no evidence is a standard way to dismiss a person without answering what they said.",
-    "Naming a real person as a hidden agent without documents can be a damaging smear, and it often falls on those who simply disagree."
+    "Calling a critic an 'agent' with no evidence is a common way to brush someone off without answering what they said.",
+    "Naming a real person as a hidden agent without documents can be a damaging smear. It often falls on people who simply disagree."
    ],
    "related_tactics": [
     "Honey Trapping",
@@ -32577,7 +32577,7 @@
     "Strategic Leaking",
     "Cognitive Warfare"
    ],
-   "how_to_distinguish_from_related": "Honey Trapping works privately on one person through intimacy, while an agent of influence works publicly through an audience. MICE Framework Exploitation names the levers (in one common version: money, ideology, coercion, sometimes called compromise, and ego) that may be used to bring such a person into an arrangement, whereas an agent of influence is the finished result. PSYOP Message Framing is about the shape of the message; an agent of influence is about who carries it and whether their independence is real.",
+   "how_to_distinguish_from_related": "Honey Trapping works privately on one person through intimacy. An agent of influence works publicly through an audience. MICE Framework Exploitation names the levers that may bring such a person into an arrangement. In one common version they are money, ideology, coercion (sometimes called compromise) and ego. An agent of influence is the finished result. PSYOP Message Framing is about the shape of the message. An agent of influence is about who carries it and whether their independence is real.",
    "detection_notes": "Not matched or scored. Pasted personal text cannot establish an institutional- or societal-scale pattern — that requires independent, corroborated, documented evidence at a completely different scale.",
    "codex_maturity": "mature",
    "human_review_flags": [
@@ -32592,19 +32592,19 @@
    "branch": "societal",
    "category": "Espionage & Influence Operations",
    "detectability_note": "This tool cannot establish this from pasted text at all. It is included for literacy only, so you can learn to recognize the concept — not as something this tool detects, scores, or flags.",
-   "core_meaning": "Organized efforts by a state or institution to hide what is real and to show something false, so that an opponent plans against a mistaken picture.",
+   "core_meaning": "Organized efforts by a state or institution to hide what is real and show something false, so an opponent plans against a mistaken picture.",
    "aftermath_state": false,
    "forensic_only": false,
    "absorbs": [],
-   "short_definition": "Organized efforts by a state or institution to hide what is real and to show something false, so that an opponent plans against a mistaken picture.",
+   "short_definition": "Organized efforts by a state or institution to hide what is real and show something false, so an opponent plans against a mistaken picture.",
    "expanded_definition": "The title joins two related behaviors that are usually discussed together. Denial means keeping the real thing out of view: concealing a capability, a plan, or a site. Deception means putting a false picture in its place so others believe it. They are two sides of one effort, and the pairing is used in security studies. It happens at the scale of states, armies and large organizations. Ordinary secrecy is not the same: not being told something differs from being pointed the wrong way.",
-   "plain_language_summary": "Powerful groups sometimes hide what is real and show something false at the same time, so that others make decisions based on a picture that was arranged for them.",
-   "why_this_matters": "Plans get laid against a picture of the world that was arranged to be believed, and the error usually becomes visible only once acting on it can no longer be undone. For the public, it also means official accounts and leaked ones both deserve a second look.",
+   "plain_language_summary": "Powerful groups sometimes hide what is real and show something false at the same time. Others then make decisions based on a picture that was arranged for them.",
+   "why_this_matters": "Plans get laid against a picture of the world that was arranged to be believed. The error usually shows only when acting on it can no longer be undone. For the public, it also means official accounts and leaked ones both deserve a second look.",
    "what_it_is": [
     "Two linked parts: denial hides the real thing, and deception supplies a false substitute. Describing either alone misses the combination.",
     "Done by states, militaries, and large institutions across several channels at once, not by individuals.",
     "Aimed at what an opponent believes about intentions, capabilities, plans or timing.",
-    "Judged in hindsight by historians and analysts, usually from released records, because it is meant to be invisible while it works.",
+    "Historians and analysts judge it in hindsight, usually from released records, because it is meant to be invisible while it works.",
     "Different from simple secrecy, which keeps something quiet without installing a false belief."
    ],
    "what_it_sounds_like": [
@@ -32624,11 +32624,11 @@
     "Bluffing in a negotiation or game, which is limited and understood by the players."
    ],
    "this_may_be_it_when": [
-    "Records released later show a deliberate effort to mislead, not just a gap in knowledge.",
+    "Records released later show a deliberate effort to mislead, which goes beyond a gap in knowledge.",
     "Multiple channels told the same false story, and independent checking shows they traced back to one source.",
     "Something that should have been visible was missing, and something visible was staged.",
     "The people most eager to confirm the story were the ones who gained when you believed it.",
-    "Credible historians or investigators have documented the effort with sources, not just inference."
+    "Credible historians or investigators have documented the effort with sources, and have not relied on inference alone."
    ],
    "this_may_not_be_it_when": [
     "The gap is explained by incomplete information that everyone had.",
@@ -32643,7 +32643,7 @@
     "Wrong forecasts usually come from limited information and human error."
    ],
    "common_false_positives": [
-    "A surprise attack or event that analysts failed to predict, which does not itself show anyone planned the misdirection.",
+    "A surprise attack or event that analysts failed to predict. That does not show anyone planned the misdirection.",
     "A company's secret product launch kept under wraps for competitive reasons.",
     "A government that said 'no comment' on an operation."
    ],
@@ -32671,22 +32671,22 @@
     "Later declassified or leaked records that describe the effort in the institution's own words."
    ],
    "repair_check": "Once the misleading effort is exposed, accountability looks like release of the underlying records, an open correction, and a named account of who decided what. It does not look like a new statement that is again careful, partial and impossible to check.",
-   "boundary_respect_check": "When you press for sources, does the account become more checkable, with named documents and independent confirmation? Or does it become more guarded, and are you told that doubt itself is unpatriotic or irresponsible?",
-   "psychological_mechanism": "New information is usually read in line with what a person already expects, so a picture that matches expectations may be accepted with little checking. Several matching reports look like proof even when they share one origin. Attention is limited too, so what is shown prominently can crowd out what is missing, and the absence goes unnoticed.",
+   "boundary_respect_check": "When you press for sources, does the account become more checkable, with named documents and independent confirmation? Or does it become more guarded, with you told that doubt itself is unpatriotic or irresponsible?",
+   "psychological_mechanism": "New information is usually read in line with what a person already expects, so a picture that matches expectations may be accepted with little checking. Several matching reports look like proof, even when they share one origin. Attention is limited too. What is shown prominently can crowd out what is missing, so the absence goes unnoticed.",
    "possible_impact_on_receiver": "Readers talk about a gap between the world they thought they understood and what records later showed. Some feel anger or embarrassment at having believed it. After repeated cases, others drift into believing nothing, which leaves them no better equipped. Those who made decisions on the false picture may face real losses.",
    "response_options": {
     "soft_clarification": "Ask for the basis: 'What is the source for this, and has anyone independent confirmed it?'",
     "firm_boundary": "Hold your conclusion open until separate, independent sources agree, and say so if you are asked to take a side.",
-    "disengagement": "Step away from fast-moving, unverified claims that ask for an immediate judgment, and return when records or reporting have caught up.",
+    "disengagement": "Step away from fast-moving, unverified claims that ask for an immediate judgment. Return when records or reporting have caught up.",
     "support_seeking": "Discuss what you are seeing with a librarian, a teacher, or an experienced reporter who tracks the topic.",
-    "workplace_or_professional": "If you analyze, report or decide on such matters, document your sources and their independence, and flag the points where one origin sits behind many reports."
+    "workplace_or_professional": "If you analyze, report or decide on such matters, document your sources and how independent they are. Flag the points where one origin sits behind many reports."
    },
    "boundary_script": "\"Do I know where this actually came from? Are these sources truly separate from each other? Who gains if I believe it, and can I wait for records or independent confirmation before I act?\"",
    "safety_note": "Learning of this kind of effort is rarely a personal danger. It changes if you hold a role where a false picture puts people at risk, such as in emergency, security or journalism work. Raise the concern with a supervisor, an editor or a legal adviser, and keep a record of what you saw.",
    "safety_sensitive": false,
    "misuse_warning": [
     "Calling every unwelcome fact 'disinformation by design' lets people dismiss inconvenient true information.",
-    "Assuming everything official is a staged deception becomes a conspiracy habit that is as unreliable as blind trust."
+    "Assuming everything official is a staged deception becomes a conspiracy habit, and it is as unreliable as blind trust."
    ],
    "related_tactics": [
     "Honey Trapping",
@@ -32696,7 +32696,7 @@
     "Strategic Leaking",
     "Cognitive Warfare"
    ],
-   "how_to_distinguish_from_related": "Honey Trapping targets one person through a staged romance, while strategic deception targets what a whole adversary believes. Agent of Influence Operations uses a credible voice to carry a message; deception concerns the falseness of the picture itself, whoever delivers it. PSYOP Message Framing shapes how people feel about a message, whereas strategic deception is about hiding what is real and showing a false picture.",
+   "how_to_distinguish_from_related": "Honey Trapping targets one person through a staged romance. Strategic deception targets what a whole adversary believes. Agent of Influence Operations uses a credible voice to carry a message. Deception concerns the falseness of the picture itself, whoever delivers it. PSYOP Message Framing shapes how people feel about a message. Strategic deception is about hiding what is real and showing a false picture.",
    "detection_notes": "Not matched or scored. Pasted personal text cannot establish an institutional- or societal-scale pattern — that requires independent, corroborated, documented evidence at a completely different scale.",
    "codex_maturity": "mature",
    "human_review_flags": [
@@ -32711,17 +32711,17 @@
    "branch": "societal",
    "category": "Espionage & Influence Operations",
    "detectability_note": "This tool cannot establish this from pasted text at all. It is included for literacy only, so you can learn to recognize the concept — not as something this tool detects, scores, or flags.",
-   "core_meaning": "Being pulled into helping an outside party by pressure on one of four common motives: money, ideology, coercion or compromise, and ego.",
+   "core_meaning": "Being pulled into helping an outside party through pressure on one of four common motives: money, ideology, coercion or compromise, and ego.",
    "aftermath_state": false,
    "forensic_only": false,
    "absorbs": [],
-   "short_definition": "Being pulled into helping an outside party by pressure on one of four common motives: money, ideology, coercion or compromise, and ego.",
+   "short_definition": "Being pulled into helping an outside party through pressure on one of four common motives: money, ideology, coercion or compromise, and ego.",
    "expanded_definition": "MICE is a mnemonic from counterintelligence, one common version being Money, Ideology, Coercion (sometimes Compromise), and Ego. It sorts the reasons people have been drawn into betraying a trust. It is a way of describing cases afterward and of teaching people about risk, not a test that predicts who will do so. Everyone has money worries, beliefs, secrets and pride. Pressure on those is what matters, and that is something only visible in the circumstances, not in the person.",
    "plain_language_summary": "Four ordinary human needs, money, belief, fear of exposure, and pride, can be leaned on by someone else. Knowing the list helps you notice when your own needs are being leaned on.",
-   "why_this_matters": "What gets used is whatever a person most needs or most fears losing, so the approach can feel less like pressure and more like finally being understood. Because the levers are ordinary, people often feel shame and do not tell anyone, and that silence is what makes the situation worse.",
+   "why_this_matters": "What gets used is whatever a person most needs or most fears losing. The approach can come across as finally being understood, with little sense of pressure. Because the levers are ordinary, people often feel shame and tell no one, and that silence makes the situation worse.",
    "what_it_is": [
     "A teaching mnemonic from counterintelligence, in one common version: Money, Ideology, Coercion (sometimes Compromise), Ego.",
-    "Used mainly to explain, after the fact, why someone with access cooperated with an outside party, and to train people to notice risk.",
+    "Used mainly to explain, after the fact, why someone with access cooperated with an outside party. It is also used to train people to notice risk.",
     "A description of motives, not a profile: all four are present in most lives.",
     "Typically combined and changing: one motive can open a door and another keep it open.",
     "Relevant to anyone with sensitive access, and, in a looser sense, to anyone being steered through a need or fear."
@@ -32736,14 +32736,14 @@
    ],
    "what_it_is_not": [
     "This is a framework analysts use to describe recruitment after the fact, not a checklist of warning signs.",
-    "Everyone has financial pressures, convictions, embarrassments and vanity; having them is the human condition, not an indication that anyone is working on you.",
+    "Everyone has financial pressures, convictions, embarrassments and vanity. Having them is the human condition and does not mean anyone is working on you.",
     "A friendly colleague who offers a compliment, or a generous gift that is part of a normal friendship.",
     "Real disillusionment with an employer or government, which is common and legitimate.",
     "Money trouble that comes from ordinary events like illness or layoffs.",
     "A fraud or scam that targets money only, without any intelligence aim."
    ],
    "this_may_be_it_when": [
-    "Interest in your finances, beliefs, or private life comes from someone who has no ordinary reason to ask.",
+    "Interest in your finances, beliefs or private life comes from someone with no ordinary reason to ask.",
     "Generous attention arrives just as you are under strain, and is tied to something they want from you.",
     "You are asked to keep the contact or the favors secret from your employer or family.",
     "Small requests increase in size, and refusing makes the warmth turn cold.",
@@ -32789,23 +32789,23 @@
     "Your circle of people who know about the relationship narrows.",
     "You begin to feel obliged and ashamed, not free."
    ],
-   "repair_check": "If you raise the concern, a trustworthy contact accepts that you will report the contact or decline gifts, and does not try to talk you out of it. What only looks like repair is a larger apology gift, a tearful appeal, or an explanation of why telling anyone is unnecessary.",
+   "repair_check": "If you raise the concern, a trustworthy contact accepts that you will report the contact or decline gifts. They do not try to talk you out of it. What only looks like repair is a larger apology gift, a tearful appeal, or an explanation of why telling anyone is unnecessary.",
    "boundary_respect_check": "After you decline a gift, a favor or a private conversation, does the person keep treating you the same? Or does warmth drop, or does a hint about what they know appear? The change in manner is more informative than any one request.",
-   "psychological_mechanism": "Need and fear can narrow attention and make a way out look attractive. Money pressure can make an offer feel like relief, belief can make a request feel like loyalty, and pride can make recognition feel earned. Embarrassment tends to push people to keep a secret, which can make a hold on them grow because the thing hidden gains weight with time.",
+   "psychological_mechanism": "Need and fear can narrow attention and make a way out look attractive. Money pressure can turn an offer into relief, belief can turn a request into loyalty, and pride can make recognition seem earned. Embarrassment often pushes people to keep a secret, and the longer it stays hidden the more weight it gains, which can strengthen a hold on them.",
    "possible_impact_on_receiver": "Many describe a slow slide in which each step felt small and reasonable at the time. Looking back, they feel shame and a sense they should have known better, which often keeps them from asking for help. Some describe fear about their job, legal standing or reputation once they see the whole picture.",
    "response_options": {
-    "soft_clarification": "Say the plain question out loud: 'Why are you interested in this about me?' A friend can answer; someone with an agenda tends to avoid it.",
+    "soft_clarification": "Say the plain question out loud: 'Why are you interested in this about me?' A friend can answer. Someone with an agenda often avoids it.",
     "firm_boundary": "Decline gifts, payments and favors that are out of proportion, and keep your answer short and the same each time.",
     "disengagement": "Let the contact lapse without a debate, and avoid being alone or on private channels with them while you decide.",
     "support_seeking": "Tell someone you trust early, even if it is embarrassing. Where legal exposure is possible, a lawyer can advise confidentially.",
     "workplace_or_professional": "If you hold access, report approaches that feel odd to your security or compliance contact. Reporting early is generally treated far better than reporting late."
    },
    "boundary_script": "\"I keep my work and my personal finances separate, so I will pass on the gift. I am happy to keep talking about anything else, and I would like to think about this for a few days.\"",
-   "safety_note": "Watch for any hint that private information, images or a past mistake could be exposed unless you cooperate, for requests that keep growing, and for demands for secrecy. Do not deal with it alone: a lawyer, your workplace's security contact, or a trusted person can help you decide what to disclose and when.",
+   "safety_note": "Watch for any hint that private information, images or a past mistake could be exposed unless you cooperate. Watch also for requests that keep growing, and for demands for secrecy. Do not deal with it alone. A lawyer, your workplace's security contact, or a trusted person can help you decide what to disclose and when.",
    "safety_sensitive": true,
    "misuse_warning": [
-    "Using the four letters as a checklist to suspect a coworker, partner, or friend turns a teaching tool into a way of accusing people who simply have worries and beliefs.",
-    "Applying the label to every case of someone cooperating with a competitor or foreign party hides the many other reasons people do so."
+    "Using the four letters as a checklist to suspect a coworker, partner or friend turns a teaching tool into a way of accusing people. They may simply have worries and beliefs.",
+    "If you apply the label to every case of someone cooperating with a competitor or foreign party, you hide the many other reasons people do so."
    ],
    "related_tactics": [
     "Honey Trapping",
@@ -32815,7 +32815,7 @@
     "Strategic Leaking",
     "Cognitive Warfare"
    ],
-   "how_to_distinguish_from_related": "Honey Trapping is one route to the compromise lever, using a staged relationship. Agent of Influence Operations is the end state where a public figure carries another party's message, while MICE names the motives that may have led there. PSYOP Message Framing and Strategic Deception work on audiences and adversaries at scale. MICE is about one person's needs and how they were used.",
+   "how_to_distinguish_from_related": "Honey Trapping is one route to the compromise lever, using a staged relationship. Agent of Influence Operations is the end state where a public figure carries another party's message. MICE names the motives that may have led there. PSYOP Message Framing and Strategic Deception work on audiences and adversaries at scale. MICE is about one person's needs and how they were used.",
    "detection_notes": "Not matched or scored. Pasted personal text cannot establish an institutional- or societal-scale pattern — that requires independent, corroborated, documented evidence at a completely different scale.",
    "codex_maturity": "mature",
    "human_review_flags": [
@@ -32831,18 +32831,18 @@
    "branch": "societal",
    "category": "Espionage & Influence Operations",
    "detectability_note": "This tool cannot establish this from pasted text at all. It is included for literacy only, so you can learn to recognize the concept — not as something this tool detects, scores, or flags.",
-   "core_meaning": "Messages shaped on psychological principles to steer how a population sees legitimacy, inevitability, loyalty, or hopelessness, and so what it does.",
+   "core_meaning": "Messages built on psychological principles to steer how a population sees legitimacy, inevitability, loyalty or hopelessness, and therefore how it acts.",
    "aftermath_state": false,
    "forensic_only": false,
    "absorbs": [],
-   "short_definition": "Messages shaped on psychological principles to steer how a population sees legitimacy, inevitability, loyalty, or hopelessness, and so what it does.",
-   "expanded_definition": "PSYOP, short for psychological operations, is the military term for communication aimed at changing how groups think and act. Framing means the choice of angle that makes a message feel natural: who is legitimate, what is coming anyway, who is us and who is them, and whether resisting is pointless. The techniques overlap heavily with ordinary advertising and campaigns, so a particular frame tells you very little about who sent it or why.",
+   "short_definition": "Messages built on psychological principles to steer how a population sees legitimacy, inevitability, loyalty or hopelessness, and therefore how it acts.",
+   "expanded_definition": "PSYOP, short for psychological operations, is the military term for communication aimed at changing how groups think and act. Framing means choosing an angle that makes a message seem natural. The angle might say who is legitimate, what is coming anyway, who is us and who is them, or whether resisting is pointless. The techniques overlap heavily with ordinary advertising and campaigns, so a particular frame tells you very little about who sent it or why.",
    "plain_language_summary": "Some messages are built to make you feel that something is already decided, that resistance is pointless, or that a group is on your side or against you. Recognizing the angle helps you decide for yourself.",
-   "why_this_matters": "Messages built around futility or inevitability leave people experiencing their own resignation as simple realism. When a frame feels like your own conclusion, you are less likely to question where it came from or whether other options exist.",
+   "why_this_matters": "Messages built around futility or inevitability leave people seeing their own resignation as simple realism. When a frame seems to be your own conclusion, you are less likely to question where it came from or whether other options exist.",
    "what_it_is": [
-    "A set of message angles used in military and political communication that tend to make resistance, doubt or leaving seem pointless or disloyal.",
+    "A set of message angles used in military and political communication. They often make resistance, doubt or leaving seem pointless or disloyal.",
     "Aimed at populations, not individuals, and measured by what groups do, not by whether they agree.",
-    "Overlaps with advertising, public health campaigns and political persuasion, so the frame alone is not evidence of an operation.",
+    "These angles overlap with advertising, public health campaigns and political persuasion. So the frame alone is not evidence of an operation.",
     "Often carried by repetition across many channels so it feels like background fact.",
     "Not the same as lying: many framed messages are true in every detail and persuasive for their emphasis."
    ],
@@ -32855,7 +32855,7 @@
     "A flyer, broadcast, or message that arrives in the same wording from sources that claim to be unrelated."
    ],
    "what_it_is_not": [
-    "The techniques described overlap heavily with ordinary advertising, campaigning and public communication, so spotting the shape of a frame tells you nothing about who wrote it or why.",
+    "The techniques described overlap heavily with ordinary advertising, campaigning and public communication. Spotting the shape of a frame tells you nothing about who wrote it or why.",
     "A rousing or a fatalistic message is not by itself an operation.",
     "An honest statement of bad news, such as a forecast that a project will fail.",
     "A speech designed to rally a team or a community around a shared goal.",
@@ -32909,23 +32909,23 @@
     "Options that were once discussed vanish from conversation.",
     "The same sources keep supplying the same angle, whatever happens in the news."
    ],
-   "repair_check": "When a frame is challenged, a straightforward sender names themselves, supplies the evidence, and revises the claim if it was overstated. What only looks like response is a louder repeat of the message, a change of name, or a claim that questioning proves you are a target.",
+   "repair_check": "When a frame is challenged, a straightforward sender names themselves, supplies the evidence, and revises the claim if it was overstated. A louder repeat of the message, a change of name, or a claim that questioning proves you are a target only looks like a response.",
    "boundary_respect_check": "Try putting the message aside for a day and talking with someone with a different view. Does the message still seem like your own conclusion? And does the source tolerate your distance, or press harder? The answer shows how much you were choosing.",
    "psychological_mechanism": "A conclusion is accepted more readily when it arrives with a feeling, is repeated often, and seems widely shared. Messages of inevitability make effort look pointless, and messages of belonging make doubt look like betrayal. When they turn up in many places, they start to read as background fact and not as a claim.",
-   "possible_impact_on_receiver": "Listeners report feeling worn down, resigned, or unusually angry at one group without knowing why. Some notice later that they had stopped voting, organizing or talking to neighbors who disagreed. Others grow distrustful of all information once they see how they were pulled, which can be as disabling as the original frame.",
+   "possible_impact_on_receiver": "Listeners report feeling worn down, resigned, or unusually angry at one group without knowing why. Some notice later that they had stopped voting, organizing or talking to neighbors who disagreed. Others distrust all information once they see how they were pulled in, and that can be as disabling as the original frame.",
    "response_options": {
     "soft_clarification": "Ask the person sharing it: 'Where did this come from, and what is it asking us to do?'",
     "firm_boundary": "Decline to pass along a message that tells you to feel hopeless or hostile until you can name its source.",
     "disengagement": "Limit exposure: mute accounts and channels that repeat the same angle, and notice whether your mood changes.",
     "support_seeking": "Talk it through with someone who holds a different view, or with a media-literacy teacher or librarian.",
-    "workplace_or_professional": "If you work in communications, moderation, or public information, log the examples with dates and sources, and use your organization's process to report coordinated patterns."
+    "workplace_or_professional": "If you work in communications, moderation or public information, log the examples with dates and sources. Use your organization's process to report coordinated patterns."
    },
    "boundary_script": "\"What is this message asking me to feel, and who benefits if I feel it? Can I name the sender? Do independent sources back the facts, and is it actually true that nothing can be done?\"",
-   "safety_note": "Exposure to such messages is not usually a personal danger. It changes when a campaign targets named people with harassment or pushes a group toward violence. In that case, save examples, report them to the platform, and contact local authorities or a legal adviser if threats are involved.",
+   "safety_note": "Seeing such messages is not usually a personal danger. It changes when a campaign targets named people with harassment or pushes a group toward violence. In that case, save examples, report them to the platform, and contact local authorities or a legal adviser if threats are involved.",
    "safety_sensitive": false,
    "misuse_warning": [
-    "Dismissing any persuasive or emotional message as 'psyops' is a way to avoid engaging with an argument you cannot answer.",
-    "Telling someone their views are the product of an operation, without evidence, is insulting and ends the conversation."
+    "Dismissing any persuasive or emotional message as 'psyops' is a way to avoid an argument you cannot answer.",
+    "Telling someone their views come from an operation, without evidence, is insulting and ends the conversation."
    ],
    "related_tactics": [
     "Honey Trapping",
@@ -32935,7 +32935,7 @@
     "Strategic Leaking",
     "Cognitive Warfare"
    ],
-   "how_to_distinguish_from_related": "Strategic Deception is about hiding what is real and showing something false, while PSYOP Message Framing may use entirely true statements chosen for effect. Agent of Influence Operations concerns who carries a message and whether their independence is genuine; framing concerns the shape of the message whoever carries it. Honey Trapping and MICE Framework Exploitation work on a single person, not a population.",
+   "how_to_distinguish_from_related": "Strategic Deception is about hiding what is real and showing something false. PSYOP Message Framing may use entirely true statements chosen for effect. Agent of Influence Operations concerns who carries a message and whether their independence is genuine. Framing concerns the shape of the message, whoever carries it. Honey Trapping and MICE Framework Exploitation work on a single person, not a population.",
    "detection_notes": "Not matched or scored. Pasted personal text cannot establish an institutional- or societal-scale pattern — that requires independent, corroborated, documented evidence at a completely different scale.",
    "codex_maturity": "mature",
    "human_review_flags": [
@@ -32950,18 +32950,18 @@
    "branch": "societal",
    "category": "Espionage & Influence Operations",
    "detectability_note": "This tool cannot establish this from pasted text at all. It is included for literacy only, so you can learn to recognize the concept — not as something this tool detects, scores, or flags.",
-   "core_meaning": "Releasing sensitive information through channels that look unauthorized, so that a planned disclosure reads as a secret that escaped.",
+   "core_meaning": "Releasing sensitive information through channels that look unauthorized, so a planned disclosure looks like a secret that got out.",
    "aftermath_state": false,
    "forensic_only": false,
    "absorbs": [],
-   "short_definition": "Releasing sensitive information through channels that look unauthorized, so that a planned disclosure reads as a secret that escaped.",
+   "short_definition": "Releasing sensitive information through channels that look unauthorized, so a planned disclosure looks like a secret that got out.",
    "expanded_definition": "Strategic leaking is a disclosure that is presented as an accident or a breach but serves the interests of whoever released it. The aim can be to shape opinion, send a signal, test a reaction, or pull attention from something else. A story built on anonymous sources is not suspect by that fact alone. The question for a reader is who gains if this version of events is believed, and whether anyone has checked it independently.",
-   "plain_language_summary": "A story arrives as if someone slipped out a secret, but the release may have been planned and may serve the people who let it out.",
-   "why_this_matters": "Information that seems to have escaped carries extra credibility, because people assume nobody would choose to reveal it. A placed story can be read as an exposed one, and readers may never learn who benefited from the timing.",
+   "plain_language_summary": "A story arrives as if someone slipped out a secret. The release may have been planned, and it may serve the people who let it out.",
+   "why_this_matters": "Information that seems to have escaped carries extra credibility, because people assume nobody would choose to reveal it. A placed story can be read as an exposed one. Readers may never learn who benefited from the timing.",
    "what_it_is": [
     "A disclosure framed as unauthorized that actually serves the interests of someone connected to the source.",
     "Used to shape opinion, signal intentions, test how people react, or move attention away from another story.",
-    "Passed on through anonymous sources, unnamed officials, documents with no clear chain of custody, or sudden 'insider' accounts.",
+    "Passed on through anonymous sources, unnamed officials, documents with no clear record of who held them, or sudden 'insider' accounts.",
     "Hard to spot from outside because real leaks and planned ones can look the same on the page.",
     "Often partial: true details arranged so that the overall picture leans one way."
    ],
@@ -32975,7 +32975,7 @@
    ],
    "what_it_is_not": [
     "Genuine whistleblowing, where someone discloses wrongdoing at personal risk. From outside it can look the same, so the label should never be used to wave it away.",
-    "An open press briefing, where an official gives reporters information on the record or with the source's role stated.",
+    "An open press briefing, where an official gives reporters information on the record, or with the source's role stated.",
     "A reporter's own investigation, built from several independent sources and records.",
     "An honest mistake in which a document was shared with the wrong people.",
     "Any anonymous sourcing at all. Reporters promise anonymity for sound reasons, and it is not evidence of a planted story."
@@ -33027,16 +33027,16 @@
     "Earlier leaked claims quietly turn out to have been partial or wrong, and no one is held to account.",
     "Coverage across outlets follows the same framing, down to the same phrases, within hours."
    ],
-   "repair_check": "Accountability here looks like a source or outlet later explaining what was released, why, and what was left out, then correcting the record when details prove wrong. Silence, or a fresh unattributed story that shifts attention, is not a correction.",
+   "repair_check": "Accountability here looks like a source or outlet later explaining what was released, why, and what was left out. It also means correcting the record when details prove wrong. Silence is not a correction, and neither is a fresh unattributed story that shifts attention.",
    "boundary_respect_check": "Can you wait a day? A claim that holds up will still hold up after checking. If the surrounding noise pushes you to react before anyone has confirmed anything, that pressure is worth examining before you share.",
    "psychological_mechanism": "A secret that seems to have slipped out feels more honest than a statement, because a deliberate lie would seem pointless to hide. That assumption can make a placed account more convincing than an official one. Urgency and an air of forbidden knowledge can also make a claim feel important before anyone has examined it.",
-   "possible_impact_on_receiver": "People describe whiplash when a dramatic story is later revised, and a lingering sense of having been used to carry someone else's message. Some start to distrust all anonymous reporting, including the honest kind. Others feel the pull to share an exciting revelation and regret it afterward.",
+   "possible_impact_on_receiver": "Some feel whiplash when a dramatic story is later revised, along with a lingering sense of having been used to carry someone else's message. Others start to distrust all anonymous reporting, including the honest kind. A few feel the pull to share an exciting revelation and regret it afterward.",
    "response_options": {
-    "soft_clarification": "Ask the person sharing the story where it first appeared and whether anyone else confirmed it, in a tone of curiosity rather than accusation.",
+    "soft_clarification": "Ask the person sharing the story where it first appeared and whether anyone else confirmed it. Ask with curiosity, not accusation.",
     "firm_boundary": "Decide for yourself that you will not pass along a leaked claim until you have seen the original and at least one independent confirmation.",
     "disengagement": "Step away from fast-moving threads about a supposed leak for a day. Real confirmations and corrections tend to arrive after the first wave of reaction.",
-    "support_seeking": "Take a doubtful story to a fact-checking service, a librarian, or a reporter who covers the topic, and ask how they would verify it.",
-    "workplace_or_professional": "If you work in media, public affairs or an organization that handles sensitive material, follow its sourcing and disclosure policies and record who decided to release what."
+    "support_seeking": "Take a doubtful story to a fact-checking service, a librarian, or a reporter who covers the topic. Ask how they would verify it.",
+    "workplace_or_professional": "If you work in media, public affairs or an organization that handles sensitive material, follow its sourcing and disclosure policies. Record who decided to release what."
    },
    "boundary_script": "\"Before I pass this on: who is the original source, who gains if I believe it, and has anyone with nothing to gain confirmed it? If I can't answer those, I'll wait.\"",
    "safety_note": "Reading a leaked story is not a danger in itself. Risk appears when a leak names private individuals, exposes their addresses or workplaces, or invites a pile-on. In that case do not share it further, report it to the platform, and tell the people named so they can protect themselves.",
@@ -33053,7 +33053,7 @@
     "PSYOP Message Framing",
     "Cognitive Warfare"
    ],
-   "how_to_distinguish_from_related": "Strategic Deception is a wider campaign to mislead an adversary about plans or capabilities across several channels, while a leak is one release whose force comes from seeming accidental. Agent of Influence works through a person with a credible public platform, whereas a leak needs no such person. PSYOP Message Framing is about how a message is built to land, and a leak is about how it is delivered.",
+   "how_to_distinguish_from_related": "Strategic Deception is a wider campaign to mislead an adversary about plans or capabilities across several channels. A leak is one release whose force comes from seeming accidental. Agent of Influence works through a person with a credible public platform, and a leak needs no such person. PSYOP Message Framing is about how a message is built to land. A leak is about how it is delivered.",
    "detection_notes": "Not matched or scored. Pasted personal text cannot establish an institutional- or societal-scale pattern — that requires independent, corroborated, documented evidence at a completely different scale.",
    "codex_maturity": "mature",
    "human_review_flags": [
@@ -33068,14 +33068,14 @@
    "branch": "societal",
    "category": "Espionage & Influence Operations",
    "detectability_note": "This tool cannot establish this from pasted text at all. It is included for literacy only, so you can learn to recognize the concept — not as something this tool detects, scores, or flags.",
-   "core_meaning": "Efforts to wear down a population's ability to think clearly, trust shared facts, and reach agreement, by working on beliefs and attention.",
+   "core_meaning": "Efforts to wear down a population's ability to think clearly, trust shared facts and reach agreement, by working on beliefs and attention.",
    "aftermath_state": false,
    "forensic_only": false,
    "absorbs": [],
-   "short_definition": "Efforts to wear down a population's ability to think clearly, trust shared facts, and reach agreement, by working on beliefs and attention.",
-   "expanded_definition": "Cognitive warfare is a term used in security circles for campaigns aimed at how a society thinks, not at its buildings or machines. Instead of persuading people of one claim, such campaigns can aim to leave them tired, suspicious of each other, and unable to settle on what is true. The word is contested and sometimes overused. Real societies also fall into confusion and distrust without any outside plan.",
-   "plain_language_summary": "A campaign that tries to leave a whole society confused, divided and unable to agree on facts, instead of winning people to one side.",
-   "why_this_matters": "What is attacked is a group's ability to reason together. The damage can show up as exhaustion, mutual distrust, and an inability to agree on anything long enough to act on it, which weakens people whichever side they are on.",
+   "short_definition": "Efforts to wear down a population's ability to think clearly, trust shared facts and reach agreement, by working on beliefs and attention.",
+   "expanded_definition": "Cognitive warfare is a term used in security circles for campaigns aimed at how a society thinks, not at its buildings or machines. Such campaigns can aim to leave people tired, suspicious of each other, and unable to settle on what is true, rather than persuading them of one claim. The word is contested and sometimes overused. Real societies also fall into confusion and distrust without any outside plan.",
+   "plain_language_summary": "A campaign that tries to leave a whole society confused, divided and unable to agree on facts. It does not try to win people to one side.",
+   "why_this_matters": "What is attacked is a group's ability to reason together. The damage can show up as exhaustion, mutual distrust, and an inability to agree on anything long enough to act on it. This weakens people whichever side they are on.",
    "what_it_is": [
     "A strategy aimed at a population's attention, beliefs and trust rather than at its physical resources.",
     "Often described as working through many small, repeated pushes, and not through one big lie.",
@@ -33147,21 +33147,21 @@
    ],
    "repair_check": "Recovery looks like shared facts rebuilt slowly: institutions that show their sources and admit errors, and neighbors who can disagree and still talk. A louder counter-campaign, or an accusation that only the other side is manipulated, repeats the damage.",
    "boundary_respect_check": "Slow down and see what the content does to you. If it wants an instant reaction, a side picked, or a verdict that nobody can be believed, that urgency is worth questioning. Material that survives a pause and a second source is safer to take seriously.",
-   "psychological_mechanism": "People rely on shared facts and a sense that others are reasonable in order to cooperate. Repeated overload, contradiction and provocation can tend to tire attention, make skepticism feel like safety, and turn disagreement into personal hostility. Once trust drops, even accurate information has a harder time being believed.",
-   "possible_impact_on_receiver": "People describe news fatigue, a feeling that everything is spin, and rising irritation with relatives or neighbors over topics they once discussed calmly. Some withdraw from public life altogether. Others become sure that everyone who disagrees is a dupe, which can leave them lonelier and more easily provoked.",
+   "psychological_mechanism": "People rely on shared facts, and on a sense that others are reasonable, in order to cooperate. Repeated overload, contradiction and provocation can tire attention, make skepticism seem safe, and turn disagreement into personal hostility. Once trust drops, even accurate information is harder to believe.",
+   "possible_impact_on_receiver": "Some report news fatigue, a sense that everything is spin, and rising irritation with relatives or neighbors over topics they once discussed calmly. Some withdraw from public life altogether. Others become sure that everyone who disagrees is a dupe, which can leave them lonelier and easier to provoke.",
    "response_options": {
-    "soft_clarification": "When a topic is getting heated, ask the other person what they have actually read and where it came from, and offer the sources you used.",
+    "soft_clarification": "When a topic is getting heated, ask the other person what they have actually read and where it came from. Offer the sources you used.",
     "firm_boundary": "Choose a small number of sources you can check and trust, and decline to react to content from accounts you cannot place.",
     "disengagement": "Take a break from feeds that leave you angry and exhausted. Rest is a legitimate response, not surrender.",
-    "support_seeking": "Talk with someone from the other side of a divide in person, about something other than the dispute, to remember they are a real neighbor.",
-    "workplace_or_professional": "If you work in education, journalism, public service or platform integrity, document what you observe and use your organization's channels for reporting suspected coordinated activity."
+    "support_seeking": "Talk in person with someone from the other side of a divide, about something other than the dispute. It helps you remember they are a real neighbor.",
+    "workplace_or_professional": "If you work in education, journalism, public service or platform integrity, document what you observe. Use your organization's channels to report suspected coordinated activity."
    },
    "boundary_script": "\"Is this trying to convince me of something specific, or just make me angry and tired? Who made it, where did it start, and can I find a second source before I react?\"",
-   "safety_note": "Reading contested content is not a personal danger, but campaigns of this kind can spill into harassment of named people or into pressure to act at once. If you see threats or personal details being spread, save examples, report them to the platform, and alert the people affected. If you feel unsafe, contact local emergency services.",
+   "safety_note": "Reading contested content is not a personal danger. But campaigns of this kind can spill into harassment of named people, or into pressure to act at once. If you see threats or personal details being spread, save examples, report them to the platform, and alert the people affected. If you feel unsafe, contact local emergency services.",
    "safety_sensitive": false,
    "misuse_warning": [
-    "Calling any disagreement 'cognitive warfare' can turn a political opponent into an enemy agent. The term needs documented evidence, and not just a dislike of someone's views.",
-    "Using it to explain away every bad mood in a society hides real grievances that people have a right to raise."
+    "Calling any disagreement 'cognitive warfare' can turn a political opponent into an enemy agent. The term needs documented evidence. A dislike of someone's views is not enough.",
+    "Using the term to explain every bad mood in a society hides real grievances that people have a right to raise."
    ],
    "related_tactics": [
     "Honey Trapping",
@@ -33171,7 +33171,7 @@
     "PSYOP Message Framing",
     "Strategic Leaking"
    ],
-   "how_to_distinguish_from_related": "PSYOP Message Framing concerns how a single message is built to move a particular audience, and cognitive warfare is the wider effort to degrade a whole population's reasoning. Strategic Deception targets an adversary's decisions about plans and capabilities. Agent of Influence works through one credible person. What sets this apart is its target: a society's shared sense of what is true.",
+   "how_to_distinguish_from_related": "PSYOP Message Framing concerns how a single message is built to move a particular audience. Cognitive warfare is the wider effort to degrade a whole population's reasoning. Strategic Deception targets an adversary's decisions about plans and capabilities. Agent of Influence works through one credible person. What sets cognitive warfare apart is its target, which is a society's shared sense of what is true.",
    "detection_notes": "Not matched or scored. Pasted personal text cannot establish an institutional- or societal-scale pattern — that requires independent, corroborated, documented evidence at a completely different scale.",
    "codex_maturity": "mature",
    "human_review_flags": [
@@ -33186,16 +33186,16 @@
    "branch": "societal",
    "category": "Espionage & Influence Operations",
    "detectability_note": "This tool cannot establish this from pasted text at all. It is included for literacy only, so you can learn to recognize the concept — not as something this tool detects, scores, or flags.",
-   "core_meaning": "Quietly changing, inventing or deleting data inside a system, so that people make decisions based on records they believe are real.",
+   "core_meaning": "Quietly changing, inventing or deleting data inside a system, so people make decisions based on records they believe are real.",
    "aftermath_state": false,
    "forensic_only": false,
    "absorbs": [],
-   "short_definition": "Quietly changing, inventing or deleting data inside a system, so that people make decisions based on records they believe are real.",
-   "expanded_definition": "Cyber manipulation operations, sometimes called CMOs, are intrusions whose goal is not to steal information but to alter it. A balance, a record, a sensor reading or a message is changed, and the people relying on it act on false figures without knowing. Nothing appears stolen and nothing appears broken. This is a forensic finding made by specialists, and it is not something to conclude from one number that looks wrong.",
-   "plain_language_summary": "Instead of stealing information, someone secretly changes it, so the people who rely on it make choices based on figures that are quietly wrong.",
-   "why_this_matters": "Nothing appears stolen and nothing appears broken, so decisions carry on being made confidently on figures that are quietly wrong. By the time anyone notices, the harm may already be done and trust in the records themselves is damaged.",
+   "short_definition": "Quietly changing, inventing or deleting data inside a system, so people make decisions based on records they believe are real.",
+   "expanded_definition": "Cyber manipulation operations, sometimes called CMOs, are intrusions whose goal is to alter information, not to steal it. A balance, a record, a sensor reading or a message is changed, and the people relying on it act on false figures without knowing. Nothing appears stolen and nothing appears broken. Specialists make this finding after forensic work. You should not conclude it from one number that looks wrong.",
+   "plain_language_summary": "Instead of stealing information, someone secretly changes it. The people who rely on it then make choices based on figures that are quietly wrong.",
+   "why_this_matters": "Nothing appears stolen and nothing appears broken, so decisions keep being made with confidence on figures that are quietly wrong. By the time anyone notices, the harm may already be done, and trust in the records themselves is damaged.",
    "what_it_is": [
-    "Tampering with the contents of records, such as balances, results, logs, readings or messages, rather than taking a copy.",
+    "Tampering with the contents of records, such as balances, results, logs, readings or messages, instead of taking a copy.",
     "Aimed at the decisions people make, not at the data as such.",
     "Meant to go unnoticed, since a change that is detected loses its effect.",
     "Found in finance, public records, health, industry and news, anywhere people rely on stored figures.",
@@ -33266,19 +33266,19 @@
    "repair_check": "Real recovery means restoring records from trusted backups, telling affected people what changed, and showing how future changes will be logged and reviewed. A bare statement that everything is fine, with no account of what was checked, does not rebuild trust.",
    "boundary_respect_check": "When you ask an organization to confirm a figure against an independent record, notice the answer. A willingness to check and to say what the check showed is a good sign. Defensiveness, or an answer that only repeats the original number, tells you less.",
    "psychological_mechanism": "Official records and automatic systems are usually treated as neutral and rarely re-checked. Altered data can exploit that default trust: a confident decision made on a false figure feels just like a sound one. Doubt arrives late, and once it does it can spread well beyond the records that were actually changed.",
-   "possible_impact_on_receiver": "People describe confusion and anger at discovering that a decision they made in good faith rested on a false figure, along with lingering suspicion of systems they used to trust. Some say they now keep personal copies of important records and check them more often.",
+   "possible_impact_on_receiver": "Many describe confusion and anger at discovering that a decision they made in good faith rested on a false figure. Some are left with lingering suspicion of systems they used to trust. Some say they now keep personal copies of important records and check them more often.",
    "response_options": {
     "soft_clarification": "If a figure looks wrong, ask the organization to confirm it against a second record and tell you how the check was done.",
-    "firm_boundary": "Decline to act on a high-stakes number until it has been confirmed by an independent source or by a second system.",
-    "disengagement": "If a service keeps giving you inconsistent records, move important dealings to channels you can document, and keep your own dated copies.",
-    "support_seeking": "Report a suspected problem to the organization's security or records team, and ask a consumer protection service or a lawyer about your options.",
-    "workplace_or_professional": "If you work with sensitive records, report anomalies through your organization's incident process quickly, keep a dated note of what you saw, and avoid changing anything that could be evidence."
+    "firm_boundary": "Decline to act on a high-stakes number until an independent source or a second system has confirmed it.",
+    "disengagement": "If a service keeps giving you inconsistent records, move important dealings to channels you can document. Keep your own dated copies.",
+    "support_seeking": "Report a suspected problem to the organization's security or records team. Ask a consumer protection service or a lawyer about your options.",
+    "workplace_or_professional": "If you work with sensitive records, report anomalies quickly through your organization's incident process. Keep a dated note of what you saw, and avoid changing anything that could be evidence."
    },
    "boundary_script": "\"This number doesn't match what I expected. Before I act on it, can it be confirmed against a second record, and is there an ordinary explanation that has been checked?\"",
-   "safety_note": "A wrong number is not a threat to your physical safety. It becomes serious when altered records affect medicine, money, housing or legal status. In those cases contact the provider or agency directly, keep copies of what you have, and ask a legal aid service or consumer protection office for help.",
+   "safety_note": "A wrong number is not a threat to your physical safety. It becomes serious when altered records affect medicine, money, housing or legal status. In those cases, contact the provider or agency directly and keep copies of what you have. Ask a legal aid service or consumer protection office for help.",
    "safety_sensitive": false,
    "misuse_warning": [
-    "Treating every odd figure as sabotage can shut down honest error-checking and make people accuse colleagues or officials without evidence.",
+    "Treating every odd figure as sabotage can shut down honest error-checking. It can also lead people to accuse colleagues or officials without evidence.",
     "Claiming that results were secretly altered, with no forensic finding, can wrongly destroy trust in records that are accurate."
    ],
    "related_tactics": [
@@ -33289,7 +33289,7 @@
     "PSYOP Message Framing",
     "Strategic Leaking"
    ],
-   "how_to_distinguish_from_related": "Strategic Deception misleads an adversary through coordinated concealment and misdirection across many channels, while a data-altering operation changes what a specific system holds. Strategic Leaking releases real information at a chosen moment, whereas this alters the information itself. PSYOP Message Framing shapes how a message is received; this corrupts the record that decisions depend on.",
+   "how_to_distinguish_from_related": "Strategic Deception misleads an adversary through coordinated concealment and misdirection across many channels. A data-altering operation changes what a specific system holds. Strategic Leaking releases real information at a chosen moment. This pattern alters the information itself. PSYOP Message Framing shapes how a message is received. This pattern corrupts the record that decisions depend on.",
    "detection_notes": "Not matched or scored. Pasted personal text cannot establish an institutional- or societal-scale pattern — that requires independent, corroborated, documented evidence at a completely different scale.",
    "codex_maturity": "mature",
    "human_review_flags": [
@@ -33304,17 +33304,17 @@
    "branch": "societal",
    "category": "Espionage & Influence Operations",
    "detectability_note": "This tool cannot establish this from pasted text at all. It is included for literacy only, so you can learn to recognize the concept — not as something this tool detects, scores, or flags.",
-   "core_meaning": "Crafting the data an AI system learns from or reads so that it gives wrong or manipulated answers, a risk to filters, fraud checks and screening software.",
+   "core_meaning": "Crafting the data an AI system learns from or reads so it gives wrong or manipulated answers, which puts filters, fraud checks and screening software at risk.",
    "aftermath_state": false,
    "forensic_only": false,
    "absorbs": [],
-   "short_definition": "Crafting the data an AI system learns from or reads so that it gives wrong or manipulated answers, a risk to filters, fraud checks and screening software.",
-   "expanded_definition": "Adversarial machine learning is the study of how AI systems can be pushed into mistakes by inputs designed for that purpose, and of how to defend against it. For ordinary people the point is simple: a filter, a fraud check or a screening tool can be fooled, and it will still return a confident answer. Strange or wrong outputs are far more often ordinary limitations than attacks, and spotting a wrong answer is not the same as finding an attack.",
-   "plain_language_summary": "AI systems can be fooled by inputs made to mislead them, so a confident answer from a filter or screening tool is not always a correct one.",
-   "why_this_matters": "The systems people are told to rely on, such as filters, fraud checks and screening tools, return confident answers, and the person affected often has no way to see why. If such a system has been misled, the error can land on someone who did nothing.",
+   "short_definition": "Crafting the data an AI system learns from or reads so it gives wrong or manipulated answers, which puts filters, fraud checks and screening software at risk.",
+   "expanded_definition": "Adversarial machine learning is the study of how AI systems can be pushed into mistakes by inputs designed for that purpose, and of how to defend against it. For ordinary people the point is simple. A filter, a fraud check or a screening tool can be fooled, and it will still return a confident answer. Strange or wrong outputs are far more often ordinary limitations than attacks. Spotting a wrong answer is not the same as finding an attack.",
+   "plain_language_summary": "AI systems can be fooled by inputs made to mislead them. So a confident answer from a filter or screening tool is not always a correct one.",
+   "why_this_matters": "The systems people are told to rely on, such as filters, fraud checks and screening tools, return confident answers. The person affected often has no way to see why. If such a system has been misled, the error can land on someone who did nothing.",
    "what_it_is": [
     "An attempt to make an AI system misread, misjudge or misclassify what it is given.",
-    "A concern for any automated decision tool, such as spam filters, fraud flags, content moderation, and screening software.",
+    "A concern for any tool that makes automated decisions, such as spam filters, fraud flags, content moderation and screening software.",
     "A field of research as well as a threat, since defenders study it to make systems safer.",
     "Usually invisible to the person on the receiving end, who sees only the system's answer.",
     "Distinct from ordinary AI error, which happens without anyone trying to cause it."
@@ -33381,23 +33381,23 @@
     "The tool's results grow less trustworthy after some change in what it takes in.",
     "Appeals are refused with the same answer, with no human looking at your case."
    ],
-   "repair_check": "Accountability would mean the operator telling affected people what went wrong, correcting individual decisions made on bad outputs, and showing how the system is now tested. A quiet fix with no account to those affected leaves the earlier decisions standing.",
+   "repair_check": "Accountability would mean the operator telling affected people what went wrong and correcting individual decisions made on bad outputs. It would also mean showing how the system is now tested. A quiet fix with no account to those affected leaves the earlier decisions standing.",
    "boundary_respect_check": "Ask for a human review of any automated decision that matters, and note how it is received. A prompt, plain explanation and a real second look is a good sign. A reply that repeats the system's result as if it were final is a poor one.",
    "psychological_mechanism": "A computer seems neutral, fast and consistent, so its answers often get the benefit of the doubt. That trust can make an automated error harder to challenge than a human one. Opaque results also leave the affected person unsure where to push back, and many simply accept the outcome.",
-   "possible_impact_on_receiver": "People describe frustration at being refused or flagged by a system nobody can explain, a sense of helplessness in appeals, and fresh distrust of automated tools. Some become wary of every confident AI answer, while others feel pressure to doubt their own judgment against the machine's.",
+   "possible_impact_on_receiver": "Some report frustration at being refused or flagged by a system nobody can explain, a sense of helplessness in appeals, and fresh distrust of automated tools. Some become wary of every confident AI answer. Others feel pressure to doubt their own judgment against the machine's.",
    "response_options": {
-    "soft_clarification": "Ask the organization in plain words how a decision was reached and whether a person reviewed it, and request the answer in writing.",
-    "firm_boundary": "Decline to treat an automated result as final for anything important, and ask for a human decision-maker to look at your case.",
+    "soft_clarification": "Ask the organization in plain words how a decision was reached and whether a person reviewed it. Request the answer in writing.",
+    "firm_boundary": "Decline to treat an automated result as final for anything important. Ask for a human decision-maker to look at your case.",
     "disengagement": "If a tool keeps giving you doubtful answers, stop relying on it for important matters and use a second source or a person.",
-    "support_seeking": "Take an unexplained automated decision to a consumer protection office, an advocacy group or a legal aid service, with copies of what you were told.",
-    "workplace_or_professional": "If you work with automated tools, log odd results with dates and examples, report them to whoever maintains the system, and keep a human check on high-stakes outputs."
+    "support_seeking": "Take an unexplained automated decision to a consumer protection office, an advocacy group or a legal aid service. Bring copies of what you were told.",
+    "workplace_or_professional": "If you work with automated tools, log odd results with dates and examples. Report them to whoever maintains the system, and keep a human check on high-stakes outputs."
    },
    "boundary_script": "\"This result came from an automated system, and a confident answer is not the same as a correct one. Can a person review it, and what else do I have that supports or contradicts it?\"",
    "safety_note": "An odd AI result is rarely a personal danger. It becomes serious if an automated tool wrongly affects your money, housing, job, health care or legal standing. In that case ask for human review in writing, keep copies, and contact a legal aid service or consumer protection office.",
    "safety_sensitive": false,
    "misuse_warning": [
-    "Blaming every strange AI output on an attack can excuse real design flaws and hide the ordinary biases and limits that cause most errors.",
-    "Accusing a specific person or company of tampering with a model, with no evidence, is a serious claim that can do real harm."
+    "Blaming every strange AI output on an attack can excuse real design flaws. It can also hide the ordinary biases and limits that cause most errors.",
+    "Accusing a specific person or company of tampering with a model, with no evidence, is a serious claim and can do real harm."
    ],
    "related_tactics": [
     "Honey Trapping",
@@ -33407,7 +33407,7 @@
     "PSYOP Message Framing",
     "Strategic Leaking"
    ],
-   "how_to_distinguish_from_related": "Strategic Leaking releases real information at a chosen moment, while adversarial machine learning concerns misleading an AI tool so that its judgments go wrong. Strategic Deception is a broad campaign to mislead an adversary's decisions through many channels. PSYOP Message Framing is crafted to move human audiences, whereas an adversarial input is about fooling a machine's reading of its input.",
+   "how_to_distinguish_from_related": "Strategic Leaking releases real information at a chosen moment. Adversarial machine learning misleads an AI tool so that its judgments go wrong. Strategic Deception is a broad campaign to mislead an adversary's decisions through many channels. PSYOP Message Framing is crafted to move human audiences. An adversarial input fools a machine's reading of its input.",
    "detection_notes": "Not matched or scored. Pasted personal text cannot establish an institutional- or societal-scale pattern — that requires independent, corroborated, documented evidence at a completely different scale.",
    "codex_maturity": "mature",
    "human_review_flags": [
@@ -33422,14 +33422,14 @@
    "branch": "societal",
    "category": "Cult & Thought Reform",
    "detectability_note": "This tool cannot establish this from pasted text at all. It is included for literacy only, so you can learn to recognize the concept — not as something this tool detects, scores, or flags.",
-   "core_meaning": "A group's tight control over what members can read, hear and discuss and whom they can see, so the group becomes their only source of information.",
+   "core_meaning": "A group's tight control over what members can read, hear and discuss and whom they see, so the group becomes their only source of information.",
    "aftermath_state": false,
    "forensic_only": false,
    "absorbs": [],
-   "short_definition": "A group's tight control over what members can read, hear and discuss and whom they can see, so the group becomes their only source of information.",
-   "expanded_definition": "Milieu control means a group manages the information and the relationships around its members. It can be formal, such as banned books or rules about who may be contacted, or informal, such as steady pressure to spend all free time with fellow members. Robert Lifton, who studied thought reform, listed it among the features of totalistic groups. Wanting focus or privacy is normal. It becomes a pattern once outside contact, news and doubts are discouraged, reported or punished, and a member has nothing else to test the group's claims against.",
-   "plain_language_summary": "The group decides what you may read, hear and say, and who you may talk to, until its version of the world is the only one you can reach.",
-   "why_this_matters": "With reading, contact and conversation all bounded by the group, there is no outside view left to compare anything against, including the question of whether the boundary itself is reasonable.",
+   "short_definition": "A group's tight control over what members can read, hear and discuss and whom they see, so the group becomes their only source of information.",
+   "expanded_definition": "Milieu control means a group manages the information and the relationships around its members. It can be formal, such as banned books or rules about who may be contacted. It can also be informal, such as steady pressure to spend all free time with fellow members. Robert Lifton, who studied thought reform, listed it among the features of totalistic groups. Wanting focus or privacy is normal. It becomes a pattern once outside contact, news and doubts are discouraged, reported or punished, and a member has nothing else to test the group's claims against.",
+   "plain_language_summary": "The group decides what you may read, hear and say, and who you may talk to. In the end, its version of the world is the only one you can reach.",
+   "why_this_matters": "Reading, contact and conversation are all bounded by the group. That leaves no outside view to compare anything against, including the question of whether the boundary itself is reasonable.",
    "what_it_is": [
     "Rules, spoken or unspoken, about which books, websites, news and media members may use.",
     "Limits on who a member may call, visit or live near, often with family and old friends described as a bad influence.",
@@ -33446,7 +33446,7 @@
     "Phones go in the box for the retreat, and the retreat keeps getting extended."
    ],
    "what_it_is_not": [
-    "Communities of every kind have shared practices, retreats and times of deliberate focus, and choosing to spend most of your time among people who share your commitments is ordinary. The question is whether outside contact and information can resume without penalty.",
+    "Communities of every kind have shared practices, retreats and times of deliberate focus. Choosing to spend most of your time among people who share your commitments is ordinary. The question is whether outside contact and information can resume without penalty.",
     "A silent retreat or monastery that people enter by choice, with a known end date and a way to call home.",
     "A school or workplace that limits phones during working hours.",
     "Parents guiding what a young child watches and reads.",
@@ -33500,19 +33500,19 @@
     "You catch yourself describing relatives with the group's words for them.",
     "Doubts feel unsafe to say aloud to anyone, even a person you trust."
    ],
-   "repair_check": "Real change would show as open doors: contact rules lifted, outside reading no longer questioned, former members heard directly instead of described. A statement about openness, with the same permission gate still in place, changes nothing a member can feel.",
+   "repair_check": "Real change would show as open doors. Contact rules are lifted, outside reading is no longer questioned, and former members are heard directly instead of described. A statement about openness, with the same permission gate still in place, changes nothing a member can feel.",
    "boundary_respect_check": "Notice what follows an afternoon with an outside friend or an outside article. Curiosity from the group points one way. Questions about who knew, or a cooler reception afterward, point the other.",
    "psychological_mechanism": "When one group supplies nearly all of a person's information, friendships and daily routine, it can become the standard for what seems normal. Without other voices to compare against, small restrictions tend to feel reasonable, and doubts can start to feel like personal failings. Each step often seems minor on its own.",
-   "possible_impact_on_receiver": "People describe losing touch with friends and family, feeling unable to judge whether the group's claims hold up, and shame about wanting outside contact. After a long time inside, some describe feeling lost in ordinary life, unsure how to rebuild relationships or what to trust.",
+   "possible_impact_on_receiver": "Members report losing touch with friends and family, being unable to judge whether the group's claims hold up, and shame about wanting outside contact. After a long time inside, some say they feel lost in ordinary life, unsure how to rebuild relationships or what to trust.",
    "response_options": {
     "soft_clarification": "Ask a plain question in the group: 'Is it all right if I keep up with my sister?' How the question is received tells you a good deal.",
     "firm_boundary": "Keep one outside contact steady and ordinary, such as a short weekly call with someone who knew you before, without announcing it. Decide any larger change privately, with a counselor who knows high-control groups.",
-    "disengagement": "Take a walk, a nap or a quiet hour alone when pressure builds, and keep one steady contact outside the group informed of how you are.",
+    "disengagement": "Take a walk, a nap or a quiet hour alone when pressure builds. Keep one steady contact outside the group informed of how you are.",
     "support_seeking": "Reach someone who knew you before, or a counselor who understands high-control groups, and say what daily life is like in your own words.",
-    "workplace_or_professional": "If a workplace program or training limits contact and outside information, ask for the policy in writing and keep copies where the organization cannot see them."
+    "workplace_or_professional": "If a workplace program or training limits contact and outside information, ask for the policy in writing. Keep copies where the organization cannot see them."
    },
    "boundary_script": "\"Is it all right if I keep up with my sister and my old friends? I'm glad to talk about what the group is doing. I just want to stay in touch with them as well.\"",
-   "safety_note": "Warning signs include being watched, having your phone, money or documents held, being told what will happen to people who question, or fear of what follows contact with family. Decisions about leaving are best made privately, with an experienced advocate, a counselor who knows high-control groups, or a trusted person outside. If you are in immediate danger, contact emergency services.",
+   "safety_note": "Warning signs include being watched, having your phone, money or documents held, or being told what will happen to people who question. Fear of what follows contact with family is another sign. Decisions about leaving are best made privately, with an experienced advocate, a counselor who knows high-control groups, or a trusted person outside. If you are in immediate danger, contact emergency services.",
    "safety_sensitive": true,
    "misuse_warning": [
     "Calling a tight-knit congregation, team or family a controlling group because it is close or devout mistakes closeness for control. The test is whether outside contact is penalized.",
@@ -33526,7 +33526,7 @@
     "Dispensing of Existence",
     "Bounded Choice"
    ],
-   "how_to_distinguish_from_related": "Doctrine Over Person is about what a member is taught to think of their own experience, whereas milieu control concerns what reaches them to begin with. Sacred Science makes the doctrine unquestionable; milieu control makes sure the questions never arrive. Bounded Choice describes how choices come to feel free. Here the matter is simply who may talk to whom.",
+   "how_to_distinguish_from_related": "Doctrine Over Person is about what a member is taught to think of their own experience. Milieu control concerns what reaches them to begin with. Sacred Science makes the doctrine unquestionable. Milieu control makes sure the questions never arrive. Bounded Choice describes how choices come to feel free. Here the matter is simply who may talk to whom.",
    "detection_notes": "Not matched or scored. Pasted personal text cannot establish an institutional- or societal-scale pattern — that requires independent, corroborated, documented evidence at a completely different scale.",
    "codex_maturity": "mature",
    "human_review_flags": [
@@ -33542,19 +33542,19 @@
    "branch": "societal",
    "category": "Cult & Thought Reform",
    "detectability_note": "This tool cannot establish this from pasted text at all. It is included for literacy only, so you can learn to recognize the concept — not as something this tool detects, scores, or flags.",
-   "core_meaning": "Arranging events that look spontaneous or divine, such as visions, healings or signs, to persuade members that a leader holds special spiritual authority.",
+   "core_meaning": "Staging events that look spontaneous or divine, like visions, healings or signs, to persuade members that a leader holds special spiritual authority.",
    "aftermath_state": false,
    "forensic_only": false,
    "absorbs": [],
-   "short_definition": "Arranging events that look spontaneous or divine, such as visions, healings or signs, to persuade members that a leader holds special spiritual authority.",
-   "expanded_definition": "Mystical manipulation is when experiences presented as spontaneous or divinely sent were in fact arranged by leadership, then used as proof of the leader's special connection. Robert Lifton listed it among his criteria for thought reform, and it is separate from belief itself. Prepared settings, music and ritual are ordinary in worship. The concern is an event staged in secret and presented as chance, so that members treat it as evidence and feel they cannot question the person who presided over it.",
+   "short_definition": "Staging events that look spontaneous or divine, like visions, healings or signs, to persuade members that a leader holds special spiritual authority.",
+   "expanded_definition": "Mystical manipulation is when experiences presented as spontaneous or divinely sent were in fact arranged by leadership. The leader then uses them as proof of a special connection. Robert Lifton listed it among his criteria for thought reform, and it is separate from belief itself. Prepared settings, music and ritual are ordinary in worship. The concern is an event staged in secret and presented as chance. Members then treat it as evidence and feel they cannot question the person who presided over it.",
    "plain_language_summary": "A moving or 'miraculous' moment is secretly set up, then called an unplanned sign. Members take it as proof the leader is chosen and stop asking questions.",
-   "why_this_matters": "An experience read as evidence of something greater is very hard to reconsider later, and the authority it lends to whoever presided over it is correspondingly hard to question.",
+   "why_this_matters": "An experience read as evidence of something greater is very hard to reconsider later. The authority it gives whoever presided over it is just as hard to question.",
    "what_it_is": [
     "An event described as unplanned, such as a vision, a healing or a perfectly timed sign, that was in fact prepared ahead of time.",
     "The experience then used as proof that the leader is chosen, gifted or specially guided.",
     "Often built on real emotion, real hope and real need, which is why it can feel so convincing from inside.",
-    "Sometimes small, like a remark that feels uncannily personal, and sometimes large, like a gathering built around a promised miracle."
+    "Sometimes small, like a remark that seems uncannily personal. Sometimes large, like a gathering built around a promised miracle."
    ],
    "what_it_sounds_like": [
     "It was no accident that you came today. You were meant to be here.",
@@ -33619,16 +33619,16 @@
     "Members who did not have the experience pretend they did.",
     "Earlier events that did not come true are quietly forgotten while the ones that fit are retold."
    ],
-   "repair_check": "Honest repair would be someone involved saying plainly that an event was arranged, describing what was done, and not asking members to keep treating it as proof. Reframing it as a symbol while keeping the authority it earned is not the same.",
+   "repair_check": "Honest repair would be someone involved saying plainly that an event was arranged and describing what was done. It would not ask members to keep treating the event as proof. Reframing it as a symbol while keeping the authority it earned is not the same.",
    "boundary_respect_check": "Ask how the event came about, and notice whether the reply is an explanation or a verdict on you. A plain answer is respect. Being told your question shows weak faith is the opposite.",
    "psychological_mechanism": "A strong experience in a charged setting works as direct evidence for many people, who trust what they felt over what they were told. When it is credited to one person, that person gains a kind of authority argument cannot reach. Admitting it was arranged may seem like losing something real, which makes it harder to revisit.",
    "possible_impact_on_receiver": "People describe real awe at the time and later confusion or grief on learning an event was arranged, along with embarrassment at having believed. Some describe being unsure which of their own spiritual experiences were real. Others keep what mattered to them while letting go of the person who claimed credit.",
    "response_options": {
-    "soft_clarification": "Ask a curious, plain question, and only if it feels safe: 'I'd love to understand how that came about.' Do not press for an answer.",
+    "soft_clarification": "Only if it feels safe, ask a curious, plain question: 'I'd love to understand how that came about.' Do not press for an answer.",
     "firm_boundary": "If it feels safe, decline to treat a single experience as proof: 'I'm glad it moved people. I'd like time before deciding anything big.'",
     "disengagement": "Step back from gatherings built around dramatic moments for a while and notice how you feel with some distance.",
-    "support_seeking": "Talk with a chaplain, counselor or former member who can discuss spiritual experience without insisting on one answer, and who respects whatever you still believe.",
-    "workplace_or_professional": "If a workplace or training program uses staged breakthroughs or 'signs', ask for the curriculum and a participant contact, and speak to an ombudsperson (an independent complaints officer) or HR if the answers are evasive."
+    "support_seeking": "Talk with a chaplain, counselor or former member who can discuss spiritual experience without insisting on one answer. Choose someone who respects whatever you still believe.",
+    "workplace_or_professional": "If a workplace or training program uses staged breakthroughs or 'signs', ask for the curriculum and a participant contact. If the answers are evasive, speak to an ombudsperson (an independent complaints officer) or HR."
    },
    "boundary_script": "\"I'm glad that was meaningful to people. I don't want to make any big decisions off one night, so I'm going to take my time.\"",
    "safety_note": "An arranged sign is not a physical danger in itself. The picture changes when the authority it builds is used to demand money or obedience, or to cut members off from family. It also changes when members are told that doubting means harm will follow. If that happens, reach someone outside the group, such as a counselor experienced with high-control groups, a legal aid office or a trusted relative.",
