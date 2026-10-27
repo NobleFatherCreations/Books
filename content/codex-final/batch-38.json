@@ -191,14 +191,14 @@
     "how_to_distinguish_from_related": "Sacred Science protects the doctrine from questions, while mystical manipulation produces the experiences that make the leader seem beyond question. Demand for Purity uses shame to hold people in place, where this uses wonder. Milieu Control limits what members can check, which helps staged events stay unexamined. The marker here is an arranged event passed off as spontaneous."
   },
   "Demand for Purity": {
-    "short_definition": "Setting a standard of moral perfection that no one can meet, so members stay ashamed and look only to the group for forgiveness.",
-    "core_meaning": "Setting a standard of moral perfection that no one can meet, so members stay ashamed and look only to the group for forgiveness.",
-    "expanded_definition": "Demand for purity divides the world into the pure and the corrupt and holds members to a standard of near-perfection in thought, speech and behavior. Because no one can meet it, guilt becomes constant and the group becomes the only source of relief. Confession, public correction and watching one another often go with it. Many traditions hold high standards sincerely. What marks this pattern is a standard drawn so that failure is guaranteed and only the group can absolve it.",
-    "plain_language_summary": "The rules for being good are set so high that everyone fails, and the only way to feel clean again is to go back to the group.",
-    "why_this_matters": "A standard nobody can meet keeps a person permanently slightly in the wrong, and the only place to seek relief from that is the authority that set the standard.",
+    "short_definition": "Setting a standard of moral perfection that no one can meet, which leaves members ashamed and looking only to the group for forgiveness.",
+    "core_meaning": "Setting a standard of moral perfection that no one can meet, which leaves members ashamed and looking only to the group for forgiveness.",
+    "expanded_definition": "Demand for purity splits the world into the pure and the corrupt. Members are held to near-perfection in thought, speech and behavior. Nobody can meet that, so guilt never ends and the group becomes the only place to find relief. Confession, public correction and watching one another often go with it. Many traditions hold high standards sincerely. This pattern is different because the standard is drawn so that failure is guaranteed and only the group can forgive it.",
+    "plain_language_summary": "The rules for being good are set so high that everyone fails. The only way to feel clean again is to go back to the group.",
+    "why_this_matters": "Nobody can meet the standard, so a person is always a little in the wrong. The only place to find relief is the authority that set the standard.",
     "what_it_is": [
       "A sharp line between pure and impure, with members sorted into one or the other.",
-      "Standards covering thoughts, desires and doubts, not only actions.",
+      "Standards that cover thoughts, desires and doubts as well as actions.",
       "Rituals of confession or public self-criticism, where lapses are reported to the group.",
       "Shame that is renewed by the rules themselves, since the bar always sits just out of reach.",
       "Relief offered only by the group through its penance, forgiveness or approval."
@@ -212,7 +212,7 @@
       "Everyone here is working on purity. Why aren't you?"
     ],
     "what_it_is_not": [
-      "Many traditions and ethical communities hold demanding standards sincerely, and wanting to be better than you currently are is not shame-based control. What changes the picture is a standard drawn so that falling short is guaranteed and only the group can absolve it.",
+      "Many traditions and ethical communities hold demanding standards sincerely. Wanting to be better than you are now is not shame-based control. The picture changes when the standard is drawn so that falling short is guaranteed and only the group can forgive it.",
       "A faith's fast, vow or discipline that members choose, with a path back after a lapse.",
       "A recovery program that asks for honest accounting and also offers acceptance after setbacks.",
       "A professional code of conduct that holds people accountable for specific behavior.",
@@ -268,14 +268,14 @@
     ],
     "repair_check": "Genuine change would mean the standard itself gets looser: penance ends, confessions stay private, and a lapse leaves a person's standing intact. A leader who apologizes for shaming someone while the same impossible measure stays in place has not changed much.",
     "boundary_respect_check": "Try holding back one private thought and see what happens. If the group accepts that some things are yours, that is a good sign. Pressure to hand it over, or a cooler welcome afterward, says otherwise.",
-    "psychological_mechanism": "Shame tends to push people toward whoever can relieve it. If the rules are set so that failure is certain and only the group can forgive, the group can come to feel like the only safe place. Treating private thoughts as violations can also lead people to police themselves, so that outside control is hardly needed.",
+    "psychological_mechanism": "Shame often pushes people toward whoever can relieve it. If failure is certain and only the group can forgive, the group can come to feel like the only safe place. When private thoughts count as violations, people may police themselves, so outside control is hardly needed.",
     "possible_impact_on_receiver": "People describe constant guilt, scrupulous checking of their own minds, fear of being found out, and a deep sense of being unclean or unworthy. Some describe feeling lighter after stepping away and then grieving the years spent in that state. Others struggle for a long time to trust their own sense of right and wrong.",
     "response_options": {
       "soft_clarification": "Ask gently about the standard itself: 'Has anyone here ever met this fully? What happens when they don't?'",
       "firm_boundary": "Keep some things private and say so calmly: 'My private thoughts are mine. I'm happy to talk about what I do.'",
       "disengagement": "Sit out a confession or correction session to rest, and spend that time with a person who accepts you as you are.",
-      "support_seeking": "Speak with a counselor, therapist or former member who understands shame-based groups, and notice how it feels to be heard without being graded.",
-      "workplace_or_professional": "If a program or workplace requires public confessions or ranking people's character, ask for the policy in writing and raise it with an ombudsperson (an independent complaints officer), HR or legal aid."
+      "support_seeking": "Speak with a counselor, therapist or former member who understands shame-based groups. Notice what it is like to be heard without being graded.",
+      "workplace_or_professional": "If a program or workplace requires public confessions or ranks people's character, ask for the policy in writing. You can raise it with an ombudsperson (an independent complaints officer), HR or legal aid."
     },
     "boundary_script": "\"I take my values seriously, and I'm still going to keep my private thoughts to myself. I can talk about what I do, and I'd like that to be enough.\"",
     "safety_sensitive": true,
@@ -284,14 +284,14 @@
       "Calling a faith or ethical community shame-based because its standards are high ignores that many people choose such standards freely. The test is whether failure is guaranteed and only the group can absolve it.",
       "Telling someone their guilt is entirely manufactured can dismiss real conscience about real harm they did."
     ],
-    "how_to_distinguish_from_related": "Sacred Science makes the doctrine unquestionable; demand for purity makes you unworthy by its measure. Doctrine Over Person says your experience is wrong, while this says your self is stained. Dispensing of Existence ranks people by worth and treats outsiders as lesser, whereas this keeps insiders permanently short of the standard."
+    "how_to_distinguish_from_related": "Sacred Science makes the doctrine unquestionable, while demand for purity makes you unworthy by its measure. Doctrine Over Person says your experience is wrong, while this says your self is stained. Dispensing of Existence ranks people by worth and treats outsiders as lesser. This one keeps insiders permanently short of the standard."
   },
   "Sacred Science": {
-    "short_definition": "Treating the group's doctrine as beyond question, so that doubts are read as a flaw in the doubter instead of a reason to examine the claim.",
-    "core_meaning": "Treating the group's doctrine as beyond question, so that doubts are read as a flaw in the doubter instead of a reason to examine the claim.",
-    "expanded_definition": "Sacred science is when a group's founding ideas are placed above evidence, argument and revision, and questioning them is treated as disloyalty or weakness. The ideas may be religious, political, therapeutic or even scientific in tone. What marks it is not how strongly people believe, but that the claims cannot be tested, and the questioner's character becomes the subject. Every field has assumptions it does not reopen daily; the difference is whether questions are allowed to matter.",
+    "short_definition": "Treating the group's doctrine as beyond question, so a doubt is read as a flaw in the doubter and the claim goes unexamined.",
+    "core_meaning": "Treating the group's doctrine as beyond question, so a doubt is read as a flaw in the doubter and the claim goes unexamined.",
+    "expanded_definition": "Sacred science is when a group's founding ideas sit above evidence, argument and change. Questioning them is treated as disloyalty or weakness. The ideas may be religious, political, therapeutic or even scientific in tone. Strong belief alone does not make it sacred science. What marks it is that the claims cannot be tested, and the questioner's character becomes the subject. Every field has assumptions it does not reopen daily. The difference is whether questions are allowed to matter.",
     "plain_language_summary": "The group's central ideas can't be questioned. If you doubt them, the problem is said to be you, not the ideas.",
-    "why_this_matters": "Doubt gets recoded as a fault in the doubter rather than a question about the claim, so the ordinary means of testing an idea are unavailable from inside.",
+    "why_this_matters": "Doubt gets treated as a fault in the doubter instead of a question about the claim. So the usual ways of testing an idea are out of reach from inside.",
     "what_it_is": [
       "A set of core claims declared final, complete or beyond ordinary checking.",
       "Doubt interpreted as pride, weakness, ignorance, or lack of commitment.",
@@ -308,7 +308,7 @@
       "The science here is settled, and we don't revisit it."
     ],
     "what_it_is_not": [
-      "Strong conviction is not this, and every field has foundational assumptions it does not reopen daily. The flag is a body of ideas that cannot be questioned without the questioner's character or loyalty becoming the subject instead.",
+      "Strong conviction is not this, and every field has foundational assumptions it does not reopen daily. The warning sign is a body of ideas that cannot be questioned without the questioner's character or loyalty becoming the subject.",
       "A scientific or religious consensus that still welcomes challenge and revision through evidence or argument.",
       "A teacher who asks students to try a practice for a season before judging it, while saying critics are welcome.",
       "A committed believer who disagrees with critics, even strongly, and still lets others differ.",
@@ -364,35 +364,35 @@
     ],
     "repair_check": "Meaningful change would mean questions get real answers, past errors get named, and a dissenter keeps their standing. A speech praising open inquiry, while questioners still fall out of favor, fixes only the speech.",
     "boundary_respect_check": "Put one question to the group and watch what it costs. If the answer engages the question, the claim is open to checking. If the response is about your loyalty, motives or readiness, the claim is being shielded.",
-    "psychological_mechanism": "When doubt is treated as a personal failing, a person may hide it, and a hidden doubt can seem like proof of being the only one who has it. Hearing that the teaching is complete also makes it look safer than examining it. The habit of testing claims can weaken from disuse.",
-    "possible_impact_on_receiver": "People describe silencing their own questions, fear of what doubt says about them, and difficulty weighing evidence after leaving. Some describe anger at having been told questions meant weakness, and relief at discovering ordinary inquiry is allowed. Others describe a long stretch of not trusting any source of authority.",
+    "psychological_mechanism": "When doubt is treated as a personal failing, a person may hide it. A hidden doubt can then look like proof that they are the only one who has it. Hearing that the teaching is complete also makes it look safer than examining it. The habit of testing claims can weaken from disuse.",
+    "possible_impact_on_receiver": "Those who have left describe silencing their own questions, fearing what doubt says about them, and struggling to weigh evidence. Some describe anger at being told questions meant weakness, and relief at finding that ordinary inquiry is allowed. Others describe a long stretch of not trusting any source of authority.",
     "response_options": {
       "soft_clarification": "Ask a sincere question aloud: 'What would we expect to see if this teaching were wrong?'",
       "firm_boundary": "If it feels safe, keep thinking for yourself and say so lightly: 'I'd like to look at how this holds up before I decide.'",
       "disengagement": "Take a break from study sessions and use the time to read widely, including sources the group dislikes.",
       "support_seeking": "Talk with someone outside who has no stake, such as a teacher, counselor or former member, and test your questions on them.",
-      "workplace_or_professional": "If a company or program treats its method as beyond question, ask for the evidence in writing and keep a record of how the questions were answered."
+      "workplace_or_professional": "If a company or program treats its method as beyond question, ask for the evidence in writing. Keep a record of how your questions were answered."
     },
     "boundary_script": "\"I'm interested in learning more about this. Could you point me to where I can read about how it was tested? I want to look at it for myself.\"",
     "safety_sensitive": true,
-    "safety_note": "An unquestionable doctrine is not a physical danger by itself. It raises concern when questioning brings threats, shunning, loss of housing or income, or when the doctrine is used to deny medical care or to justify harm. If that happens, speak to a counselor who knows high-control groups, a legal aid office or a trusted relative before acting.",
+    "safety_note": "An unquestionable doctrine is not a physical danger by itself. It raises concern when questioning brings threats, shunning, or loss of housing or income. It also raises concern when the doctrine is used to deny medical care or to justify harm. If that happens, speak to a counselor who knows high-control groups, a legal aid office or a trusted relative before acting.",
     "misuse_warning": [
       "Calling any strong belief sacred science dismisses people for being sure of themselves. The test is whether questions can be asked and answered, not whether conviction runs deep.",
       "Using the label to mock someone's faith turns a description of a closed system into an insult."
     ],
-    "how_to_distinguish_from_related": "Doctrine Over Person tells you that your own experience is wrong when it clashes with the teaching, while sacred science declares the teaching itself closed to testing. Milieu Control limits what reaches you, whereas this governs how you treat what does. Mystical Manipulation produces experiences that seem to prove the leader; here the claim simply cannot be challenged."
+    "how_to_distinguish_from_related": "Doctrine Over Person tells you that your own experience is wrong when it clashes with the teaching. Sacred science declares the teaching itself closed to testing. Milieu Control limits what reaches you, while this governs how you treat what does. Mystical Manipulation produces experiences that seem to prove the leader. Here the claim simply cannot be challenged."
   },
   "Doctrine Over Person": {
-    "short_definition": "Teaching members that when their own experience, memory or conscience contradicts the group's doctrine, the experience is what must be wrong.",
-    "core_meaning": "Teaching members that when their own experience, memory or conscience contradicts the group's doctrine, the experience is what must be wrong.",
-    "expanded_definition": "Doctrine over person means a member's lived experience is never allowed to count against the group's teaching. If something harmed them, or a memory disagrees with the official story, they are told they misunderstood, were not yet ready, or sinned by doubting. Committed groups often ask for belief that cuts against immediate feeling, such as forgiveness or discipline. The distinguishing question is whether a contradicting experience can ever count as evidence, or is always rewritten as the member's own failure.",
+    "short_definition": "Teaching members that if their own experience, memory or conscience contradicts the group's doctrine, then the experience, and not the doctrine, must be wrong.",
+    "core_meaning": "Teaching members that if their own experience, memory or conscience contradicts the group's doctrine, then the experience, and not the doctrine, must be wrong.",
+    "expanded_definition": "Doctrine over person means a member's lived experience is never allowed to count against the group's teaching. If something harmed them, or a memory disagrees with the official story, they are told they misunderstood, were not yet ready, or sinned by doubting. Committed groups often ask for belief that cuts against immediate feeling, such as forgiveness or discipline. The deciding question is whether a contradicting experience can ever count as evidence, or is always rewritten as the member's own failure.",
     "plain_language_summary": "When what you lived through does not match what the group teaches, you are told you are the one who is mistaken.",
-    "why_this_matters": "When lived experience is always the thing that must be wrong, a person loses the only instrument they have for noticing that something is harming them.",
+    "why_this_matters": "When lived experience is always the thing that must be wrong, a person loses the one tool they have for noticing that something is harming them.",
     "what_it_is": [
       "A member's account of harm, pain or confusion answered by pointing back to the teaching.",
       "Memories that differ from the group's official history declared false or distorted.",
       "Conscience treated as a symptom of weakness when it conflicts with what leaders say.",
-      "Present in groups of many kinds, from religious to political to commercial, though most let personal experience count.",
+      "Found in groups of many kinds, from religious to political to commercial, though most let personal experience count.",
       "Often gentle in tone, delivered as concern for the member's growth."
     ],
     "what_it_sounds_like": [
@@ -404,7 +404,7 @@
       "Trust the teaching over your own mind."
     ],
     "what_it_is_not": [
-      "Committed communities routinely ask members to hold a belief that cuts against immediate feeling, such as fasting or forgiveness, and that alone is not this. The question is whether a contradicting experience can count as evidence, or is always reclassified as the member's failure.",
+      "Committed communities routinely ask members to hold a belief that cuts against immediate feeling, such as fasting or forgiveness. That alone is not this. The question is whether a contradicting experience can count as evidence, or is always relabeled as the member's failure.",
       "A therapist or mentor who gently challenges a distorted self-view while taking the person's experience seriously.",
       "Two people honestly remembering an event differently and being willing to check.",
       "A teacher who says a feeling may pass and still listens when it does not.",
@@ -460,22 +460,22 @@
     ],
     "repair_check": "Honest repair would be a leader saying the experience was real and the teaching was part of the problem, then changing something concrete. Praise for the member's growth, with no change to how accounts of harm are handled, repairs nothing.",
     "boundary_respect_check": "Describe something that happened exactly as you saw it, then watch whether the reply begins with your account or with the doctrine. Starting with what you said is respect. Starting with what you ought to have felt is not.",
-    "psychological_mechanism": "Many people are inclined to trust a group's account over their own, especially when the group offers belonging and meaning. If every contradicting experience is explained as a personal failing, a member may learn to distrust their reactions, and the habit can carry into areas the group never addressed.",
-    "possible_impact_on_receiver": "People describe not trusting their own memory or feelings, silence about harm they experienced, and difficulty making decisions without checking with someone first. After leaving, some describe slowly relearning how to listen to themselves. Many describe a mix of anger and grief at the years their own experience was set aside.",
+    "psychological_mechanism": "Many people are inclined to trust a group's account over their own, especially when the group offers belonging and meaning. If every contradicting experience is explained as a personal failing, a member may learn to distrust their reactions. The habit can carry into areas the group never addressed.",
+    "possible_impact_on_receiver": "Some people describe not trusting their own memory or feelings, staying silent about harm they went through, and finding it hard to decide anything without checking with someone first. After leaving, some describe slowly relearning how to listen to themselves. Many describe a mix of anger and grief over the years their own experience was set aside.",
     "response_options": {
       "soft_clarification": "State what you saw and ask if it can count: 'This is what happened for me. Can we treat that as real and talk about it?'",
-      "firm_boundary": "If it feels safe, hold your own account without arguing it: 'That is what I experienced.' If answering would cost you standing or safety, write it down privately instead.",
+      "firm_boundary": "If it feels safe, hold to your own account without arguing it: 'That is what I experienced.' If answering would cost you standing or safety, write it down privately instead.",
       "disengagement": "Pause a conversation that is turning into a verdict on you and write your account down privately for yourself.",
-      "support_seeking": "Share what happened with someone who knew you before the group and ask how it sounds to them, or with a counselor who understands high-control groups.",
-      "workplace_or_professional": "If a program or workplace treats complaints as personal flaws, put your account in writing with dates and take it to HR, an ombudsperson (an independent complaints officer) or an outside regulator."
+      "support_seeking": "Tell someone who knew you before the group what happened, and ask how it sounds to them. A counselor who understands high-control groups can also help.",
+      "workplace_or_professional": "If a program or workplace treats complaints as personal flaws, put your account in writing with dates. Take it to HR, an ombudsperson (an independent complaints officer) or an outside regulator."
     },
     "boundary_script": "\"I know what I experienced, and it matters to me. I'd like us to start from that, even if it does not fit the teaching.\"",
     "safety_sensitive": true,
-    "safety_note": "Being told your experience is wrong is not by itself a physical danger. It becomes serious when the pattern is used to hide abuse or to deny medical care, or when reporting harm brings retaliation. In that case put your account in writing, reach an outside advocate, a doctor, legal aid or a trusted person, and call emergency services if you are in danger.",
+    "safety_note": "Being told your experience is wrong is not by itself a physical danger. It becomes serious when the pattern is used to hide abuse or to deny medical care, or when reporting harm brings retaliation. In that case, put your account in writing and reach an outside advocate, a doctor, legal aid or a trusted person. Call emergency services if you are in danger.",
     "misuse_warning": [
       "Calling every disagreement with your experience this pattern can shut down honest correction. It fits when experience is never allowed to count, not when it is questioned once.",
-      "Using the label against a friend who offers a different view of an event can turn a conversation into a verdict."
+      "Using the label against a friend who sees an event differently can turn a conversation into a verdict."
     ],
-    "how_to_distinguish_from_related": "Sacred Science protects the doctrine from outside testing, whereas doctrine over person is what happens to your own memory and feelings when they clash with it. Milieu Control restricts what you can see and who you can speak to, but not what you conclude. Bounded Choice shapes which options feel real; this one discounts what you have already lived."
+    "how_to_distinguish_from_related": "Sacred Science protects the doctrine from outside testing. Doctrine over person is what happens to your own memory and feelings when they clash with it. Milieu Control restricts what you can see and who you can speak to, but not what you conclude. Bounded Choice shapes which options feel real, while this one discounts what you have already lived."
   }
 }

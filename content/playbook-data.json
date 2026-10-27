@@ -5380,9 +5380,9 @@
   {
    "name": "Demand for Purity",
    "cat": "Cult & Thought Reform",
-   "what": "Setting a standard of moral perfection that no one can meet, so members stay ashamed and look only to the group for forgiveness.",
+   "what": "Setting a standard of moral perfection that no one can meet, which leaves members ashamed and looking only to the group for forgiveness.",
    "nots": [
-    "Many traditions and ethical communities hold demanding standards sincerely, and wanting to be better than you currently are is not shame-based control. What changes the picture is a standard drawn so that falling short is guaranteed and only the group can absolve it.",
+    "Many traditions and ethical communities hold demanding standards sincerely. Wanting to be better than you are now is not shame-based control. The picture changes when the standard is drawn so that falling short is guaranteed and only the group can forgive it.",
     "A faith's fast, vow or discipline that members choose, with a path back after a lapse.",
     "A recovery program that asks for honest accounting and also offers acceptance after setbacks.",
     "A professional code of conduct that holds people accountable for specific behavior.",
@@ -5398,14 +5398,14 @@
     "We only correct you because we love you.",
     "Everyone here is working on purity. Why aren't you?"
    ],
-   "why": "A standard nobody can meet keeps a person permanently slightly in the wrong, and the only place to seek relief from that is the authority that set the standard."
+   "why": "Nobody can meet the standard, so a person is always a little in the wrong. The only place to find relief is the authority that set the standard."
   },
   {
    "name": "Sacred Science",
    "cat": "Cult & Thought Reform",
-   "what": "Treating the group's doctrine as beyond question, so that doubts are read as a flaw in the doubter instead of a reason to examine the claim.",
+   "what": "Treating the group's doctrine as beyond question, so a doubt is read as a flaw in the doubter and the claim goes unexamined.",
    "nots": [
-    "Strong conviction is not this, and every field has foundational assumptions it does not reopen daily. The flag is a body of ideas that cannot be questioned without the questioner's character or loyalty becoming the subject instead.",
+    "Strong conviction is not this, and every field has foundational assumptions it does not reopen daily. The warning sign is a body of ideas that cannot be questioned without the questioner's character or loyalty becoming the subject.",
     "A scientific or religious consensus that still welcomes challenge and revision through evidence or argument.",
     "A teacher who asks students to try a practice for a season before judging it, while saying critics are welcome.",
     "A committed believer who disagrees with critics, even strongly, and still lets others differ.",
@@ -5421,14 +5421,14 @@
     "Doubting the method means doubting yourself.",
     "The science here is settled, and we don't revisit it."
    ],
-   "why": "Doubt gets recoded as a fault in the doubter rather than a question about the claim, so the ordinary means of testing an idea are unavailable from inside."
+   "why": "Doubt gets treated as a fault in the doubter instead of a question about the claim. So the usual ways of testing an idea are out of reach from inside."
   },
   {
    "name": "Doctrine Over Person",
    "cat": "Cult & Thought Reform",
-   "what": "Teaching members that when their own experience, memory or conscience contradicts the group's doctrine, the experience is what must be wrong.",
+   "what": "Teaching members that if their own experience, memory or conscience contradicts the group's doctrine, then the experience, and not the doctrine, must be wrong.",
    "nots": [
-    "Committed communities routinely ask members to hold a belief that cuts against immediate feeling, such as fasting or forgiveness, and that alone is not this. The question is whether a contradicting experience can count as evidence, or is always reclassified as the member's failure.",
+    "Committed communities routinely ask members to hold a belief that cuts against immediate feeling, such as fasting or forgiveness. That alone is not this. The question is whether a contradicting experience can count as evidence, or is always relabeled as the member's failure.",
     "A therapist or mentor who gently challenges a distorted self-view while taking the person's experience seriously.",
     "Two people honestly remembering an event differently and being willing to check.",
     "A teacher who says a feeling may pass and still listens when it does not.",
@@ -5444,18 +5444,18 @@
     "Your gut feeling is just fear talking.",
     "Trust the teaching over your own mind."
    ],
-   "why": "When lived experience is always the thing that must be wrong, a person loses the only instrument they have for noticing that something is harming them."
+   "why": "When lived experience is always the thing that must be wrong, a person loses the one tool they have for noticing that something is harming them."
   },
   {
    "name": "Dispensing of Existence",
    "cat": "Cult & Thought Reform",
-   "what": "A group's doctrine ranks people by whether they deserve to exist or count as fully human, so that harm to outsiders, critics and former members is treated as justified.",
+   "what": "A group's doctrine sorts people by whether they deserve to exist or count as fully human, and harm to outsiders, critics and former members is then treated as justified.",
    "nots": [
-    "Strong boundaries such as membership rules, excommunication or shunning are not automatically this; many communities have exit rules while still treating leavers as full people.",
+    "Strong boundaries such as membership rules, excommunication or shunning are not automatically this. Many communities have exit rules and still treat leavers as full people.",
     "A group that says its beliefs are true and others are mistaken. Claiming to be right is not the same as saying others have no worth.",
     "Sharp anger at one person for something they did, which is about conduct and can end, not about whether they count as human.",
     "Religious teaching that every person is valued, where a leaver is missed and still welcome to visit, write or call.",
-    "Ordinary in-group loyalty, such as a sports rivalry or national pride, where the other side is mocked but nobody doubts they are people."
+    "Ordinary loyalty to your own side, like a sports rivalry or national pride, where the other side is mocked but nobody doubts they are people."
    ],
    "tag": "reference",
    "sounds": [
@@ -5471,13 +5471,13 @@
   {
    "name": "Bounded Choice",
    "cat": "Cult & Thought Reform",
-   "what": "Shaping a member's world so every remaining option looks like a free personal pick, while the only options left are ones that serve the group.",
+   "what": "Shaping a member's world so that every remaining option looks like a free personal pick, while the only choices left serve the group.",
    "nots": [
     "Every environment shapes what feels choosable. A job, a mortgage or a close family all narrow options, and feeling free within limits is ordinary.",
-    "A person freely committing to a demanding path, such as a monastery, a medical residency or a military term, with the costs known ahead of time.",
+    "A person freely choosing a demanding path, like a monastery, a medical residency or a military term. The costs are known ahead of time.",
     "A group whose terms were explained before joining and that does not punish leaving beyond ending the membership.",
     "Honest advice from friends who say a choice will disappoint them without removing the choice.",
-    "Limited options caused by money, geography or the job market, which is hardship but not something a group designed to keep you.",
+    "Limited options caused by money, geography or the job market. That is hardship, but it is not something a group designed to keep you.",
     "Regret about a choice you made, which is common and does not show the choice was rigged."
    ],
    "tag": "reference",
@@ -5489,12 +5489,12 @@
     "Sure, take the outside job. Just know what it says about your commitment.",
     "It's your decision. We just know you'll make the right one."
    ],
-   "why": "Choices feel entirely your own while the range they were drawn from has closed, so you carry full responsibility for outcomes you were never given room to avoid. It also makes asking for help harder, since nothing seems to have been forced."
+   "why": "Your choices feel entirely your own, while the range they were drawn from has closed. You then carry full responsibility for outcomes you were never given room to avoid. Asking for help also gets harder, since nothing seems to have been forced."
   },
   {
    "name": "Charismatic Authority Dependence",
    "cat": "Cult & Thought Reform",
-   "what": "Making one leader the only trusted source of truth, meaning and safety, so that the leader's approval becomes a member's deepest need.",
+   "what": "Making a single leader the only trusted source of truth, meaning and safety, so that winning the leader's approval becomes a member's deepest need.",
    "nots": [
     "Admiring a teacher, mentor or leader and being genuinely changed by them is common and often good. The pattern differs where no second source of meaning remains.",
     "Deep respect for a teacher, coach or spiritual guide who welcomes questions and encourages you to have other mentors.",
@@ -5511,18 +5511,18 @@
     "I was so afraid when he stopped looking at me in meetings.",
     "Everything good in my life came through her."
    ],
-   "why": "When one person holds truth, meaning and safety, losing their approval means losing all three at once, which makes ordinary disagreement feel like self-destruction. It can also leave a member with nobody else to check reality with."
+   "why": "When one person holds truth, meaning and safety, losing their approval means losing all three at once. Even ordinary disagreement can start to threaten a person's whole sense of self. A member may also have nobody else to check reality with."
   },
   {
    "name": "Forced Confession / Self-Criticism Rituals",
    "cat": "Cult & Thought Reform",
-   "what": "Required, repeated disclosure of faults, doubts or past wrongs to the group, which produces shame and hands the group material it can hold over people.",
+   "what": "Required, repeated sharing of faults, doubts or past wrongs with the group, which brings shame and gives the group material it can hold over people.",
    "nots": [
-    "Accountability practices exist in healthy settings, such as step work, clinical supervision and restorative circles. Saying something difficult before a group is not itself harmful.",
+    "Accountability practices exist in healthy settings, such as step work, clinical supervision and restorative circles. Saying something difficult before a group is not harmful in itself.",
     "Voluntary sharing in a peer support meeting, where what is said stays in the room and nobody is pressed for more.",
     "A team retrospective that asks what went wrong with a project, not what is wrong with the people.",
     "Confession in a faith tradition that is private, freely chosen and covered by confidentiality.",
-    "Apologizing to someone you harmed, which is aimed at repairing that one relationship and ends when it is done."
+    "Apologizing to someone you harmed. That aims at repairing one relationship and ends when it is done."
    ],
    "tag": "reference",
    "sounds": [
@@ -5533,12 +5533,12 @@
     "A truly committed person has nothing to hide from the family.",
     "Stand up and tell us how you failed the group this week."
    ],
-   "why": "Material given up under group pressure does not go away. It stays available as leverage, and the habit of confessing on demand can leave a person with no private ground to stand on."
+   "why": "Material given up under group pressure does not go away. It stays available to be used as pressure, and the habit of confessing on demand can leave a person with no private ground to stand on."
   },
   {
    "name": "Institutional Betrayal",
    "cat": "Organizational & Institutional",
-   "what": "An institution that people depend on fails to prevent harm or to respond fairly when it happens, adding a second injury to the first.",
+   "what": "An institution that people depend on fails to prevent harm or to treat them fairly afterward, which adds a second injury to the first one.",
    "nots": [
     "An institution that responds slowly or clumsily, or within genuine legal limits, is not thereby betraying anyone. Formal processes are often bad at speed.",
     "A fair investigation that does not reach the outcome you hoped for. A finding can go against you and still be reached honestly.",
@@ -5557,7 +5557,7 @@
     "You are told the institution takes this seriously, while the process described seems to protect the institution first.",
     "Others who spoke up before you were reassigned, ignored or described as difficult."
    ],
-   "why": "Being harmed and then failed by the body meant to prevent it produces a second injury that often outlasts the first. It can teach a person that reporting brings exposure without remedy, and it can make them doubt their own account of what happened."
+   "why": "Being harmed and then failed by the body meant to prevent it causes a second injury that often outlasts the first. It can teach a person that reporting brings exposure without a fix. It can also make them doubt their own account of what happened."
   },
   {
    "name": "Organizational Silence Engineering",
@@ -5566,9 +5566,9 @@
    "nots": [
     "A calm, well-run team in which people simply have little to complain about.",
     "A workplace where people prefer to raise things one-to-one, not in meetings, and are heard when they do.",
-    "A confidentiality rule that limits what can be shared outside the company for a legitimate reason, such as client privacy.",
-    "A culture of politeness or reserve that comes from the industry or a region's norms, with no cost attached to speaking.",
-    "A single manager who dislikes criticism, in a company that has other routes and where concerns do get acted on.",
+    "A confidentiality rule with a legitimate reason, such as client privacy, that limits what can be shared outside the company.",
+    "A polite or reserved culture that comes from the industry or the region's norms, where speaking up carries no cost.",
+    "A single manager who dislikes criticism, in a company with other routes where concerns do get acted on.",
     "A quiet period after a reorganization, while people wait to see how things settle."
    ],
    "tag": "reference",
@@ -5581,16 +5581,16 @@
     "Bad news is passed up in softened wording until it no longer sounds like bad news.",
     "A concern is called negativity, and the person who raised it is described as not a team player."
    ],
-   "why": "Problems that people can plainly see go unreported, and the cost lands first on whoever the warning would have protected, then on the person who stayed quiet and knew. Over time, people can lose their sense that anything they say matters."
+   "why": "Problems that people can plainly see go unreported. The cost lands first on whoever the warning would have protected, then on the person who stayed quiet and knew. Over time, people can lose their sense that anything they say matters."
   },
   {
    "name": "Performance Framework Manipulation",
    "cat": "Organizational & Institutional",
-   "what": "Setting up evaluations, targets and reviews so that they reward agreement and loyalty while penalizing skill, dissent and ethical objection.",
+   "what": "Designing ratings, targets and reviews so that agreement and loyalty are rewarded, and skill, dissent and ethical objection are marked down.",
    "nots": [
     "A rubric that undervalues your particular strengths. That is a design flaw, not a control mechanism.",
     "A fair performance plan with clear, achievable goals, regular check-ins and support to meet them.",
-    "A stricter review cycle because the company is under financial pressure and is applying new standards to everyone.",
+    "A stricter review cycle because the company is under financial pressure and applies new standards to everyone.",
     "Honest critical feedback from a manager who wants you to improve and says so openly.",
     "Ratings forced into a curve that disadvantage some people each year without regard to who they are or what they said.",
     "A bad year for you, in which the results were weak and the review reflected that accurately."
@@ -5605,14 +5605,14 @@
     "A colleague with weaker results is rated higher and is known to agree with management on everything.",
     "A performance improvement plan lists goals that conflict with each other or cannot be met within the time given."
    ],
-   "why": "Effort shifts from doing the work well to being agreeable about it, and anyone who raises problems accumulates a documented record of underperformance that looks objective to whoever reads it later. That record can follow a person into pay, promotion and job security."
+   "why": "Effort shifts from doing the work well to being agreeable about it. Anyone who raises problems builds up a documented record of underperformance that looks objective to whoever reads it later. That record can follow a person into pay, promotion and job security."
   },
   {
    "name": "Algorithmic Management",
    "cat": "Organizational & Institutional",
-   "what": "Using automated systems to assign tasks, track output and make decisions about workers' hours, pay or jobs, with little human review.",
+   "what": "Software that assigns tasks, tracks output and makes decisions about workers' hours, pay or jobs, with little human review.",
    "nots": [
-    "A schedule generated by software is not a control apparatus. Automation in scheduling and routing is widespread and often simply efficient.",
+    "A schedule made by software is not a system of control in itself. Automation in scheduling and routing is widespread and often just efficient.",
     "A tracking tool that workers can see, that is explained in advance and that a person reviews when something looks wrong.",
     "A safety system, such as one that logs hazards or limits driving hours, that protects the worker as well as the company.",
     "Productivity numbers used as a starting point for a conversation with a manager, not as a verdict.",
@@ -5629,13 +5629,13 @@
     "An automatic message says your access has been ended, with no named person to contact.",
     "Appeals go to a form or chatbot that returns the same reply every time."
    ],
-   "why": "Consequential decisions arrive with no one to ask and nowhere to appeal, so workers adapt to a system they cannot see and blame themselves for outcomes they have no way to examine. Pay, hours and job security can turn on numbers nobody will explain."
+   "why": "Big decisions arrive with no one to ask and nowhere to appeal. Workers adapt to a system they cannot see, and they blame themselves for outcomes they have no way to check. Pay, hours and job security can turn on numbers nobody will explain."
   },
   {
    "name": "Revisionist History",
    "tag": "reference",
    "cat": "Reality Distortion",
-   "what": "Rewriting the agreed record of past events to fit a preferred present story, even though others clearly remember it differently.",
+   "what": "Changing the agreed account of past events so it matches the story someone prefers now, even though others clearly remember it differently.",
    "sounds": [
     "\"We never actually agreed to that.\"",
     "\"That's not how it went. I was against it from the start.\"",
@@ -5652,7 +5652,7 @@
     "Real historians revising an account in light of new evidence, in public and open to challenge.",
     "A retelling that is warmer or kinder in hindsight, such as smoothing a family story, with no stakes attached."
    ],
-   "why": "Agreements stop being safe to rely on, because the version that counts is whichever suits the present, and the person who remembers accurately spends the conversation arguing about the past instead of the point."
+   "why": "Agreements stop being safe to rely on, because the version that counts is whichever suits the present. The person who remembers accurately ends up arguing about the past instead of the point."
   },
   {
    "name": "Word Salad",
@@ -33661,17 +33661,17 @@
    "branch": "societal",
    "category": "Cult & Thought Reform",
    "detectability_note": "This tool cannot establish this from pasted text at all. It is included for literacy only, so you can learn to recognize the concept — not as something this tool detects, scores, or flags.",
-   "core_meaning": "Setting a standard of moral perfection that no one can meet, so members stay ashamed and look only to the group for forgiveness.",
+   "core_meaning": "Setting a standard of moral perfection that no one can meet, which leaves members ashamed and looking only to the group for forgiveness.",
    "aftermath_state": false,
    "forensic_only": false,
    "absorbs": [],
-   "short_definition": "Setting a standard of moral perfection that no one can meet, so members stay ashamed and look only to the group for forgiveness.",
-   "expanded_definition": "Demand for purity divides the world into the pure and the corrupt and holds members to a standard of near-perfection in thought, speech and behavior. Because no one can meet it, guilt becomes constant and the group becomes the only source of relief. Confession, public correction and watching one another often go with it. Many traditions hold high standards sincerely. What marks this pattern is a standard drawn so that failure is guaranteed and only the group can absolve it.",
-   "plain_language_summary": "The rules for being good are set so high that everyone fails, and the only way to feel clean again is to go back to the group.",
-   "why_this_matters": "A standard nobody can meet keeps a person permanently slightly in the wrong, and the only place to seek relief from that is the authority that set the standard.",
+   "short_definition": "Setting a standard of moral perfection that no one can meet, which leaves members ashamed and looking only to the group for forgiveness.",
+   "expanded_definition": "Demand for purity splits the world into the pure and the corrupt. Members are held to near-perfection in thought, speech and behavior. Nobody can meet that, so guilt never ends and the group becomes the only place to find relief. Confession, public correction and watching one another often go with it. Many traditions hold high standards sincerely. This pattern is different because the standard is drawn so that failure is guaranteed and only the group can forgive it.",
+   "plain_language_summary": "The rules for being good are set so high that everyone fails. The only way to feel clean again is to go back to the group.",
+   "why_this_matters": "Nobody can meet the standard, so a person is always a little in the wrong. The only place to find relief is the authority that set the standard.",
    "what_it_is": [
     "A sharp line between pure and impure, with members sorted into one or the other.",
-    "Standards covering thoughts, desires and doubts, not only actions.",
+    "Standards that cover thoughts, desires and doubts as well as actions.",
     "Rituals of confession or public self-criticism, where lapses are reported to the group.",
     "Shame that is renewed by the rules themselves, since the bar always sits just out of reach.",
     "Relief offered only by the group through its penance, forgiveness or approval."
@@ -33685,7 +33685,7 @@
     "Everyone here is working on purity. Why aren't you?"
    ],
    "what_it_is_not": [
-    "Many traditions and ethical communities hold demanding standards sincerely, and wanting to be better than you currently are is not shame-based control. What changes the picture is a standard drawn so that falling short is guaranteed and only the group can absolve it.",
+    "Many traditions and ethical communities hold demanding standards sincerely. Wanting to be better than you are now is not shame-based control. The picture changes when the standard is drawn so that falling short is guaranteed and only the group can forgive it.",
     "A faith's fast, vow or discipline that members choose, with a path back after a lapse.",
     "A recovery program that asks for honest accounting and also offers acceptance after setbacks.",
     "A professional code of conduct that holds people accountable for specific behavior.",
@@ -33741,14 +33741,14 @@
    ],
    "repair_check": "Genuine change would mean the standard itself gets looser: penance ends, confessions stay private, and a lapse leaves a person's standing intact. A leader who apologizes for shaming someone while the same impossible measure stays in place has not changed much.",
    "boundary_respect_check": "Try holding back one private thought and see what happens. If the group accepts that some things are yours, that is a good sign. Pressure to hand it over, or a cooler welcome afterward, says otherwise.",
-   "psychological_mechanism": "Shame tends to push people toward whoever can relieve it. If the rules are set so that failure is certain and only the group can forgive, the group can come to feel like the only safe place. Treating private thoughts as violations can also lead people to police themselves, so that outside control is hardly needed.",
+   "psychological_mechanism": "Shame often pushes people toward whoever can relieve it. If failure is certain and only the group can forgive, the group can come to feel like the only safe place. When private thoughts count as violations, people may police themselves, so outside control is hardly needed.",
    "possible_impact_on_receiver": "People describe constant guilt, scrupulous checking of their own minds, fear of being found out, and a deep sense of being unclean or unworthy. Some describe feeling lighter after stepping away and then grieving the years spent in that state. Others struggle for a long time to trust their own sense of right and wrong.",
    "response_options": {
     "soft_clarification": "Ask gently about the standard itself: 'Has anyone here ever met this fully? What happens when they don't?'",
     "firm_boundary": "Keep some things private and say so calmly: 'My private thoughts are mine. I'm happy to talk about what I do.'",
     "disengagement": "Sit out a confession or correction session to rest, and spend that time with a person who accepts you as you are.",
-    "support_seeking": "Speak with a counselor, therapist or former member who understands shame-based groups, and notice how it feels to be heard without being graded.",
-    "workplace_or_professional": "If a program or workplace requires public confessions or ranking people's character, ask for the policy in writing and raise it with an ombudsperson (an independent complaints officer), HR or legal aid."
+    "support_seeking": "Speak with a counselor, therapist or former member who understands shame-based groups. Notice what it is like to be heard without being graded.",
+    "workplace_or_professional": "If a program or workplace requires public confessions or ranks people's character, ask for the policy in writing. You can raise it with an ombudsperson (an independent complaints officer), HR or legal aid."
    },
    "boundary_script": "\"I take my values seriously, and I'm still going to keep my private thoughts to myself. I can talk about what I do, and I'd like that to be enough.\"",
    "safety_note": "Watch for confessions being used as pressure, or shame that turns into thoughts of self-harm. Watch, too, for penances that involve deprivation or pain, or fear of what happens to those who are found impure. If you feel unsafe with yourself, reach a crisis line or emergency services right away. Plans for stepping away are best made privately, with a counselor or advocate who knows high-control groups.",
@@ -33765,7 +33765,7 @@
     "Dispensing of Existence",
     "Bounded Choice"
    ],
-   "how_to_distinguish_from_related": "Sacred Science makes the doctrine unquestionable; demand for purity makes you unworthy by its measure. Doctrine Over Person says your experience is wrong, while this says your self is stained. Dispensing of Existence ranks people by worth and treats outsiders as lesser, whereas this keeps insiders permanently short of the standard.",
+   "how_to_distinguish_from_related": "Sacred Science makes the doctrine unquestionable, while demand for purity makes you unworthy by its measure. Doctrine Over Person says your experience is wrong, while this says your self is stained. Dispensing of Existence ranks people by worth and treats outsiders as lesser. This one keeps insiders permanently short of the standard.",
    "detection_notes": "Not matched or scored. Pasted personal text cannot establish an institutional- or societal-scale pattern — that requires independent, corroborated, documented evidence at a completely different scale.",
    "codex_maturity": "mature",
    "human_review_flags": [
@@ -33781,14 +33781,14 @@
    "branch": "societal",
    "category": "Cult & Thought Reform",
    "detectability_note": "This tool cannot establish this from pasted text at all. It is included for literacy only, so you can learn to recognize the concept — not as something this tool detects, scores, or flags.",
-   "core_meaning": "Treating the group's doctrine as beyond question, so that doubts are read as a flaw in the doubter instead of a reason to examine the claim.",
+   "core_meaning": "Treating the group's doctrine as beyond question, so a doubt is read as a flaw in the doubter and the claim goes unexamined.",
    "aftermath_state": false,
    "forensic_only": false,
    "absorbs": [],
-   "short_definition": "Treating the group's doctrine as beyond question, so that doubts are read as a flaw in the doubter instead of a reason to examine the claim.",
-   "expanded_definition": "Sacred science is when a group's founding ideas are placed above evidence, argument and revision, and questioning them is treated as disloyalty or weakness. The ideas may be religious, political, therapeutic or even scientific in tone. What marks it is not how strongly people believe, but that the claims cannot be tested, and the questioner's character becomes the subject. Every field has assumptions it does not reopen daily; the difference is whether questions are allowed to matter.",
+   "short_definition": "Treating the group's doctrine as beyond question, so a doubt is read as a flaw in the doubter and the claim goes unexamined.",
+   "expanded_definition": "Sacred science is when a group's founding ideas sit above evidence, argument and change. Questioning them is treated as disloyalty or weakness. The ideas may be religious, political, therapeutic or even scientific in tone. Strong belief alone does not make it sacred science. What marks it is that the claims cannot be tested, and the questioner's character becomes the subject. Every field has assumptions it does not reopen daily. The difference is whether questions are allowed to matter.",
    "plain_language_summary": "The group's central ideas can't be questioned. If you doubt them, the problem is said to be you, not the ideas.",
-   "why_this_matters": "Doubt gets recoded as a fault in the doubter rather than a question about the claim, so the ordinary means of testing an idea are unavailable from inside.",
+   "why_this_matters": "Doubt gets treated as a fault in the doubter instead of a question about the claim. So the usual ways of testing an idea are out of reach from inside.",
    "what_it_is": [
     "A set of core claims declared final, complete or beyond ordinary checking.",
     "Doubt interpreted as pride, weakness, ignorance, or lack of commitment.",
@@ -33805,7 +33805,7 @@
     "The science here is settled, and we don't revisit it."
    ],
    "what_it_is_not": [
-    "Strong conviction is not this, and every field has foundational assumptions it does not reopen daily. The flag is a body of ideas that cannot be questioned without the questioner's character or loyalty becoming the subject instead.",
+    "Strong conviction is not this, and every field has foundational assumptions it does not reopen daily. The warning sign is a body of ideas that cannot be questioned without the questioner's character or loyalty becoming the subject.",
     "A scientific or religious consensus that still welcomes challenge and revision through evidence or argument.",
     "A teacher who asks students to try a practice for a season before judging it, while saying critics are welcome.",
     "A committed believer who disagrees with critics, even strongly, and still lets others differ.",
@@ -33861,17 +33861,17 @@
    ],
    "repair_check": "Meaningful change would mean questions get real answers, past errors get named, and a dissenter keeps their standing. A speech praising open inquiry, while questioners still fall out of favor, fixes only the speech.",
    "boundary_respect_check": "Put one question to the group and watch what it costs. If the answer engages the question, the claim is open to checking. If the response is about your loyalty, motives or readiness, the claim is being shielded.",
-   "psychological_mechanism": "When doubt is treated as a personal failing, a person may hide it, and a hidden doubt can seem like proof of being the only one who has it. Hearing that the teaching is complete also makes it look safer than examining it. The habit of testing claims can weaken from disuse.",
-   "possible_impact_on_receiver": "People describe silencing their own questions, fear of what doubt says about them, and difficulty weighing evidence after leaving. Some describe anger at having been told questions meant weakness, and relief at discovering ordinary inquiry is allowed. Others describe a long stretch of not trusting any source of authority.",
+   "psychological_mechanism": "When doubt is treated as a personal failing, a person may hide it. A hidden doubt can then look like proof that they are the only one who has it. Hearing that the teaching is complete also makes it look safer than examining it. The habit of testing claims can weaken from disuse.",
+   "possible_impact_on_receiver": "Those who have left describe silencing their own questions, fearing what doubt says about them, and struggling to weigh evidence. Some describe anger at being told questions meant weakness, and relief at finding that ordinary inquiry is allowed. Others describe a long stretch of not trusting any source of authority.",
    "response_options": {
     "soft_clarification": "Ask a sincere question aloud: 'What would we expect to see if this teaching were wrong?'",
     "firm_boundary": "If it feels safe, keep thinking for yourself and say so lightly: 'I'd like to look at how this holds up before I decide.'",
     "disengagement": "Take a break from study sessions and use the time to read widely, including sources the group dislikes.",
     "support_seeking": "Talk with someone outside who has no stake, such as a teacher, counselor or former member, and test your questions on them.",
-    "workplace_or_professional": "If a company or program treats its method as beyond question, ask for the evidence in writing and keep a record of how the questions were answered."
+    "workplace_or_professional": "If a company or program treats its method as beyond question, ask for the evidence in writing. Keep a record of how your questions were answered."
    },
    "boundary_script": "\"I'm interested in learning more about this. Could you point me to where I can read about how it was tested? I want to look at it for myself.\"",
-   "safety_note": "An unquestionable doctrine is not a physical danger by itself. It raises concern when questioning brings threats, shunning, loss of housing or income, or when the doctrine is used to deny medical care or to justify harm. If that happens, speak to a counselor who knows high-control groups, a legal aid office or a trusted relative before acting.",
+   "safety_note": "An unquestionable doctrine is not a physical danger by itself. It raises concern when questioning brings threats, shunning, or loss of housing or income. It also raises concern when the doctrine is used to deny medical care or to justify harm. If that happens, speak to a counselor who knows high-control groups, a legal aid office or a trusted relative before acting.",
    "safety_sensitive": true,
    "misuse_warning": [
     "Calling any strong belief sacred science dismisses people for being sure of themselves. The test is whether questions can be asked and answered, not whether conviction runs deep.",
@@ -33885,7 +33885,7 @@
     "Dispensing of Existence",
     "Bounded Choice"
    ],
-   "how_to_distinguish_from_related": "Doctrine Over Person tells you that your own experience is wrong when it clashes with the teaching, while sacred science declares the teaching itself closed to testing. Milieu Control limits what reaches you, whereas this governs how you treat what does. Mystical Manipulation produces experiences that seem to prove the leader; here the claim simply cannot be challenged.",
+   "how_to_distinguish_from_related": "Doctrine Over Person tells you that your own experience is wrong when it clashes with the teaching. Sacred science declares the teaching itself closed to testing. Milieu Control limits what reaches you, while this governs how you treat what does. Mystical Manipulation produces experiences that seem to prove the leader. Here the claim simply cannot be challenged.",
    "detection_notes": "Not matched or scored. Pasted personal text cannot establish an institutional- or societal-scale pattern — that requires independent, corroborated, documented evidence at a completely different scale.",
    "codex_maturity": "mature",
    "human_review_flags": [
@@ -33901,19 +33901,19 @@
    "branch": "societal",
    "category": "Cult & Thought Reform",
    "detectability_note": "This tool cannot establish this from pasted text at all. It is included for literacy only, so you can learn to recognize the concept — not as something this tool detects, scores, or flags.",
-   "core_meaning": "Teaching members that when their own experience, memory or conscience contradicts the group's doctrine, the experience is what must be wrong.",
+   "core_meaning": "Teaching members that if their own experience, memory or conscience contradicts the group's doctrine, then the experience, and not the doctrine, must be wrong.",
    "aftermath_state": false,
    "forensic_only": false,
    "absorbs": [],
-   "short_definition": "Teaching members that when their own experience, memory or conscience contradicts the group's doctrine, the experience is what must be wrong.",
-   "expanded_definition": "Doctrine over person means a member's lived experience is never allowed to count against the group's teaching. If something harmed them, or a memory disagrees with the official story, they are told they misunderstood, were not yet ready, or sinned by doubting. Committed groups often ask for belief that cuts against immediate feeling, such as forgiveness or discipline. The distinguishing question is whether a contradicting experience can ever count as evidence, or is always rewritten as the member's own failure.",
+   "short_definition": "Teaching members that if their own experience, memory or conscience contradicts the group's doctrine, then the experience, and not the doctrine, must be wrong.",
+   "expanded_definition": "Doctrine over person means a member's lived experience is never allowed to count against the group's teaching. If something harmed them, or a memory disagrees with the official story, they are told they misunderstood, were not yet ready, or sinned by doubting. Committed groups often ask for belief that cuts against immediate feeling, such as forgiveness or discipline. The deciding question is whether a contradicting experience can ever count as evidence, or is always rewritten as the member's own failure.",
    "plain_language_summary": "When what you lived through does not match what the group teaches, you are told you are the one who is mistaken.",
-   "why_this_matters": "When lived experience is always the thing that must be wrong, a person loses the only instrument they have for noticing that something is harming them.",
+   "why_this_matters": "When lived experience is always the thing that must be wrong, a person loses the one tool they have for noticing that something is harming them.",
    "what_it_is": [
     "A member's account of harm, pain or confusion answered by pointing back to the teaching.",
     "Memories that differ from the group's official history declared false or distorted.",
     "Conscience treated as a symptom of weakness when it conflicts with what leaders say.",
-    "Present in groups of many kinds, from religious to political to commercial, though most let personal experience count.",
+    "Found in groups of many kinds, from religious to political to commercial, though most let personal experience count.",
     "Often gentle in tone, delivered as concern for the member's growth."
    ],
    "what_it_sounds_like": [
@@ -33925,7 +33925,7 @@
     "Trust the teaching over your own mind."
    ],
    "what_it_is_not": [
-    "Committed communities routinely ask members to hold a belief that cuts against immediate feeling, such as fasting or forgiveness, and that alone is not this. The question is whether a contradicting experience can count as evidence, or is always reclassified as the member's failure.",
+    "Committed communities routinely ask members to hold a belief that cuts against immediate feeling, such as fasting or forgiveness. That alone is not this. The question is whether a contradicting experience can count as evidence, or is always relabeled as the member's failure.",
     "A therapist or mentor who gently challenges a distorted self-view while taking the person's experience seriously.",
     "Two people honestly remembering an event differently and being willing to check.",
     "A teacher who says a feeling may pass and still listens when it does not.",
@@ -33981,21 +33981,21 @@
    ],
    "repair_check": "Honest repair would be a leader saying the experience was real and the teaching was part of the problem, then changing something concrete. Praise for the member's growth, with no change to how accounts of harm are handled, repairs nothing.",
    "boundary_respect_check": "Describe something that happened exactly as you saw it, then watch whether the reply begins with your account or with the doctrine. Starting with what you said is respect. Starting with what you ought to have felt is not.",
-   "psychological_mechanism": "Many people are inclined to trust a group's account over their own, especially when the group offers belonging and meaning. If every contradicting experience is explained as a personal failing, a member may learn to distrust their reactions, and the habit can carry into areas the group never addressed.",
-   "possible_impact_on_receiver": "People describe not trusting their own memory or feelings, silence about harm they experienced, and difficulty making decisions without checking with someone first. After leaving, some describe slowly relearning how to listen to themselves. Many describe a mix of anger and grief at the years their own experience was set aside.",
+   "psychological_mechanism": "Many people are inclined to trust a group's account over their own, especially when the group offers belonging and meaning. If every contradicting experience is explained as a personal failing, a member may learn to distrust their reactions. The habit can carry into areas the group never addressed.",
+   "possible_impact_on_receiver": "Some people describe not trusting their own memory or feelings, staying silent about harm they went through, and finding it hard to decide anything without checking with someone first. After leaving, some describe slowly relearning how to listen to themselves. Many describe a mix of anger and grief over the years their own experience was set aside.",
    "response_options": {
     "soft_clarification": "State what you saw and ask if it can count: 'This is what happened for me. Can we treat that as real and talk about it?'",
-    "firm_boundary": "If it feels safe, hold your own account without arguing it: 'That is what I experienced.' If answering would cost you standing or safety, write it down privately instead.",
+    "firm_boundary": "If it feels safe, hold to your own account without arguing it: 'That is what I experienced.' If answering would cost you standing or safety, write it down privately instead.",
     "disengagement": "Pause a conversation that is turning into a verdict on you and write your account down privately for yourself.",
-    "support_seeking": "Share what happened with someone who knew you before the group and ask how it sounds to them, or with a counselor who understands high-control groups.",
-    "workplace_or_professional": "If a program or workplace treats complaints as personal flaws, put your account in writing with dates and take it to HR, an ombudsperson (an independent complaints officer) or an outside regulator."
+    "support_seeking": "Tell someone who knew you before the group what happened, and ask how it sounds to them. A counselor who understands high-control groups can also help.",
+    "workplace_or_professional": "If a program or workplace treats complaints as personal flaws, put your account in writing with dates. Take it to HR, an ombudsperson (an independent complaints officer) or an outside regulator."
    },
    "boundary_script": "\"I know what I experienced, and it matters to me. I'd like us to start from that, even if it does not fit the teaching.\"",
-   "safety_note": "Being told your experience is wrong is not by itself a physical danger. It becomes serious when the pattern is used to hide abuse or to deny medical care, or when reporting harm brings retaliation. In that case put your account in writing, reach an outside advocate, a doctor, legal aid or a trusted person, and call emergency services if you are in danger.",
+   "safety_note": "Being told your experience is wrong is not by itself a physical danger. It becomes serious when the pattern is used to hide abuse or to deny medical care, or when reporting harm brings retaliation. In that case, put your account in writing and reach an outside advocate, a doctor, legal aid or a trusted person. Call emergency services if you are in danger.",
    "safety_sensitive": true,
    "misuse_warning": [
     "Calling every disagreement with your experience this pattern can shut down honest correction. It fits when experience is never allowed to count, not when it is questioned once.",
-    "Using the label against a friend who offers a different view of an event can turn a conversation into a verdict."
+    "Using the label against a friend who sees an event differently can turn a conversation into a verdict."
    ],
    "related_tactics": [
     "Milieu Control",
@@ -34005,7 +34005,7 @@
     "Dispensing of Existence",
     "Bounded Choice"
    ],
-   "how_to_distinguish_from_related": "Sacred Science protects the doctrine from outside testing, whereas doctrine over person is what happens to your own memory and feelings when they clash with it. Milieu Control restricts what you can see and who you can speak to, but not what you conclude. Bounded Choice shapes which options feel real; this one discounts what you have already lived.",
+   "how_to_distinguish_from_related": "Sacred Science protects the doctrine from outside testing. Doctrine over person is what happens to your own memory and feelings when they clash with it. Milieu Control restricts what you can see and who you can speak to, but not what you conclude. Bounded Choice shapes which options feel real, while this one discounts what you have already lived.",
    "detection_notes": "Not matched or scored. Pasted personal text cannot establish an institutional- or societal-scale pattern — that requires independent, corroborated, documented evidence at a completely different scale.",
    "codex_maturity": "mature",
    "human_review_flags": [
@@ -34021,18 +34021,18 @@
    "branch": "societal",
    "category": "Cult & Thought Reform",
    "detectability_note": "This tool cannot establish this from pasted text at all. It is included for literacy only, so you can learn to recognize the concept — not as something this tool detects, scores, or flags.",
-   "core_meaning": "A group's doctrine ranks people by whether they deserve to exist or count as fully human, so that harm to outsiders, critics and former members is treated as justified.",
+   "core_meaning": "A group's doctrine sorts people by whether they deserve to exist or count as fully human, and harm to outsiders, critics and former members is then treated as justified.",
    "aftermath_state": false,
    "forensic_only": false,
    "absorbs": [],
-   "short_definition": "A group's doctrine ranks people by whether they deserve to exist or count as fully human, so that harm to outsiders, critics and former members is treated as justified.",
-   "expanded_definition": "Dispensing of Existence is one of Robert Lifton's eight themes of thought reform: the group decides whose life has worth. People outside it, and those who leave or object, are described as lost, evil, contaminated or less than human. Strong boundaries alone do not make this pattern, since many communities have membership rules. What marks it is that worth itself is withdrawn, so cruelty toward outsiders feels like virtue and members learn their own standing could be withdrawn the same way.",
-   "plain_language_summary": "The group teaches that people who disagree or walk away are worth less, or are not really people at all, so treating them badly starts to feel right instead of wrong.",
+   "short_definition": "A group's doctrine sorts people by whether they deserve to exist or count as fully human, and harm to outsiders, critics and former members is then treated as justified.",
+   "expanded_definition": "Dispensing of Existence is one of Robert Lifton's eight themes of thought reform: the group decides whose life has worth. People outside it, and those who leave or object, are called lost, evil, contaminated or less than human. Strong boundaries alone do not make this pattern, since many communities have membership rules. What marks it is that a person's worth itself is taken away. Cruelty toward outsiders then starts to look like virtue, and members learn their own standing could be taken away the same way.",
+   "plain_language_summary": "The group teaches that people who disagree or walk away are worth less, or are not really people at all. Treating them badly then starts to seem right instead of wrong.",
    "why_this_matters": "When worth is handed out by doctrine, people outside the group can be shunned, mocked or harmed without anyone feeling they did wrong. Members also learn that their own standing is conditional, which makes doubt feel dangerous and staying feel like the only safe place.",
    "what_it_is": [
-    "A sorting of humanity into those who count and those who do not, done by doctrine rather than by anything a person actually did.",
+    "A sorting of humanity into those who count and those who do not, decided by doctrine and not by anything a person actually did.",
     "Language for outsiders and leavers that strips away personhood: lost, dead to us, vermin, beyond saving.",
-    "Treating critics and former members as if they had stopped existing, with their names unspoken and their messages unanswered.",
+    "Treating critics and former members as if they had stopped existing. Their names go unspoken and their messages go unanswered.",
     "A moral frame in which harshness toward the unworthy is praised, so the people carrying it out feel pride instead of guilt.",
     "A rule that turns inward too: a member judged unworthy can be declared worthless by the same logic."
    ],
@@ -34045,11 +34045,11 @@
     "Pray for the lost, but don't expect them to feel anything."
    ],
    "what_it_is_not": [
-    "Strong boundaries such as membership rules, excommunication or shunning are not automatically this; many communities have exit rules while still treating leavers as full people.",
+    "Strong boundaries such as membership rules, excommunication or shunning are not automatically this. Many communities have exit rules and still treat leavers as full people.",
     "A group that says its beliefs are true and others are mistaken. Claiming to be right is not the same as saying others have no worth.",
     "Sharp anger at one person for something they did, which is about conduct and can end, not about whether they count as human.",
     "Religious teaching that every person is valued, where a leaver is missed and still welcome to visit, write or call.",
-    "Ordinary in-group loyalty, such as a sports rivalry or national pride, where the other side is mocked but nobody doubts they are people."
+    "Ordinary loyalty to your own side, like a sports rivalry or national pride, where the other side is mocked but nobody doubts they are people."
    ],
    "this_may_be_it_when": [
     "Former members or critics are spoken of as dead, empty, evil or subhuman, not merely as mistaken.",
@@ -34068,11 +34068,11 @@
    "innocent_or_ordinary_possibilities": [
     "A community grieving a departure may say painful things like 'we lost him' that express sadness, not a verdict on his worth.",
     "Crude jokes or slang among members about outsiders can exist without shaping how anyone is actually treated.",
-    "Old religious language about being 'lost' or 'dead in sin' is, in many traditions, paired with a duty to love the person so described."
+    "In many traditions, old religious language about being 'lost' or 'dead in sin' comes with a duty to love the person it describes."
    ],
    "common_false_positives": [
-    "A congregation that limits contact for a stated offense, explains how to return, and still treats the person as a person.",
-    "A political or sports rivalry in which each side calls the other terrible names but nobody is denied basic respect.",
+    "A congregation that limits contact because of a stated offense, explains how to return, and still treats the person as a person.",
+    "A political or sports rivalry where each side calls the other terrible names, yet nobody is denied basic respect.",
     "A family estrangement where relatives stopped speaking to someone after real harm."
    ],
    "discernment_questions": [
@@ -34098,16 +34098,16 @@
     "Members stop mentioning outside friends or relatives because those people have been sorted into the unworthy group.",
     "Your own sympathy for someone outside begins to feel like a betrayal you have to hide."
    ],
-   "repair_check": "A changed practice is the test: leavers named again, contact allowed, harsh language about them withdrawn, members free to speak kindly of them. A regretful sermon that leaves the shunning list and the vocabulary untouched changes nothing.",
+   "repair_check": "A changed practice is the test. Leavers are named again, contact is allowed, harsh language about them is withdrawn, and members are free to speak kindly of them. A regretful sermon that leaves the shunning list and the vocabulary untouched changes nothing.",
    "boundary_respect_check": "What happens to the member who mentions a leaver kindly? If they are heard, even with disagreement, the group still treats that leaver as a person. If they are corrected, watched or put on a list themselves, the ranking is still doing its work.",
    "psychological_mechanism": "Seeing a group of people as lesser can lower the usual discomfort of hurting them. When that view arrives through a respected doctrine, it can pass for moral clarity instead of prejudice. Members may also hold their own worth as conditional on obedience, which can make questioning risky and keep them close.",
-   "possible_impact_on_receiver": "People who have been inside describe guilt over what they once said or did to others, grief for family who now treat them as gone, and a nagging fear that they are worthless outside the group. Some find it hard to trust their own sense of right and wrong afterward. Members still inside may describe a constant effort to stay on the right side of the line.",
+   "possible_impact_on_receiver": "Those who have been inside describe guilt over what they once said or did to others, grief for family who now treat them as gone, and a nagging fear that they are worthless outside the group. Some find it hard to trust their own sense of right and wrong afterward. Members still inside may describe a constant effort to stay on the right side of the line.",
    "response_options": {
-    "soft_clarification": "Ask a plain question about one specific person: 'What did he actually do, and is he still a person we owe kindness?' Keep it curious and brief.",
-    "firm_boundary": "If it feels safe, decline to join the name-calling: 'I'd rather not talk about anyone that way.' You do not need to argue the doctrine. If refusing would cost you standing or safety, simply stay quiet.",
+    "soft_clarification": "Ask one plain question about one specific person: 'What did he actually do, and is he still a person we owe kindness?' Keep it curious and brief.",
+    "firm_boundary": "If it feels safe, decline to join the name-calling: 'I'd rather not talk about anyone that way.' You do not need to argue the doctrine. If refusing would cost you standing or safety, stay quiet instead.",
     "disengagement": "Change the subject or step out of the room when someone is being written off. Keep your private views private until you have support around you.",
-    "support_seeking": "Talk with a counselor experienced in high-control groups or a former-member support organization. Decisions about your place in the group are best made privately with them, never announced.",
-    "workplace_or_professional": "If this is in a workplace, school or care setting, keep dated notes of people being demeaned for their beliefs or membership and take them to HR, a licensed professional or counsel."
+    "support_seeking": "Talk with a counselor experienced in high-control groups, or with a former-member support organization. Make decisions about your place in the group privately with them, and never announce them.",
+    "workplace_or_professional": "If this happens in a workplace, school or care setting, keep dated notes of people being demeaned for their beliefs or membership. Take the notes to HR, a licensed professional or counsel."
    },
    "boundary_script": "Before repeating this, I ask myself: \"Would I say this about someone I loved? Is this person described by what they did, or by what the group says they are? Who outside the group could tell me about them?\"",
    "safety_note": "Watch for talk that treats named people as deserving harm, and threats toward leavers or critics. Other signs are anyone kept from medical care, money, a home or their children, and pressure to take part in mistreating someone. Reach a cult-recovery or domestic violence advocate or a lawyer, or emergency services if someone is in immediate danger. Plan any exit privately with that support.",
@@ -34140,18 +34140,18 @@
    "branch": "societal",
    "category": "Cult & Thought Reform",
    "detectability_note": "This tool cannot establish this from pasted text at all. It is included for literacy only, so you can learn to recognize the concept — not as something this tool detects, scores, or flags.",
-   "core_meaning": "Shaping a member's world so every remaining option looks like a free personal pick, while the only options left are ones that serve the group.",
+   "core_meaning": "Shaping a member's world so that every remaining option looks like a free personal pick, while the only choices left serve the group.",
    "aftermath_state": false,
    "forensic_only": false,
    "absorbs": [],
-   "short_definition": "Shaping a member's world so every remaining option looks like a free personal pick, while the only options left are ones that serve the group.",
-   "expanded_definition": "Bounded Choice describes a setting where people feel they decide freely, yet the options have been quietly narrowed to ones that keep them in the group. Other paths may be technically allowed but cost a home, family or standing. Every setting narrows choices; a job or a mortgage does too. The concern is when options that would serve the person instead of the group exist only on paper, and any outcome is called the person's own doing.",
-   "plain_language_summary": "The real alternatives were closed off or made so costly that only one answer was left, yet everyone keeps saying you chose it freely.",
-   "why_this_matters": "Choices feel entirely your own while the range they were drawn from has closed, so you carry full responsibility for outcomes you were never given room to avoid. It also makes asking for help harder, since nothing seems to have been forced.",
+   "short_definition": "Shaping a member's world so that every remaining option looks like a free personal pick, while the only choices left serve the group.",
+   "expanded_definition": "Bounded Choice describes a setting where people feel they decide freely, yet the options have been quietly narrowed to ones that keep them in the group. Other paths may be allowed on paper but cost a home, family or standing. Every setting narrows choices, and a job or a mortgage does too. The concern is when options that would serve the person instead of the group exist only on paper, and any outcome is called the person's own doing.",
+   "plain_language_summary": "The real alternatives were closed off or made so costly that only one answer was left. Everyone still says you chose it freely.",
+   "why_this_matters": "Your choices feel entirely your own, while the range they were drawn from has closed. You then carry full responsibility for outcomes you were never given room to avoid. Asking for help also gets harder, since nothing seems to have been forced.",
    "what_it_is": [
     "A narrowing of real options, through cost, shame, timing or lost belonging, that leaves one answer looking natural.",
     "Decisions framed as 'your own call' after the group has set the terms, so the member owns the result.",
-    "Alternatives that exist in theory, such as seeing a doctor, visiting family or taking a job elsewhere, but carry a penalty so steep nobody tries.",
+    "Alternatives that exist in theory, such as seeing a doctor, visiting family or taking a job elsewhere. The penalty is so steep that nobody tries.",
     "Language of freedom and commitment used to describe what are in effect required choices.",
     "A shared belief among members that they chose this life, which makes complaints seem inconsistent."
    ],
@@ -34165,10 +34165,10 @@
    ],
    "what_it_is_not": [
     "Every environment shapes what feels choosable. A job, a mortgage or a close family all narrow options, and feeling free within limits is ordinary.",
-    "A person freely committing to a demanding path, such as a monastery, a medical residency or a military term, with the costs known ahead of time.",
+    "A person freely choosing a demanding path, like a monastery, a medical residency or a military term. The costs are known ahead of time.",
     "A group whose terms were explained before joining and that does not punish leaving beyond ending the membership.",
     "Honest advice from friends who say a choice will disappoint them without removing the choice.",
-    "Limited options caused by money, geography or the job market, which is hardship but not something a group designed to keep you.",
+    "Limited options caused by money, geography or the job market. That is hardship, but it is not something a group designed to keep you.",
     "Regret about a choice you made, which is common and does not show the choice was rigged."
    ],
    "this_may_be_it_when": [
@@ -34218,19 +34218,19 @@
     "Past decisions you later regret are retold as your own preference, even when they were not.",
     "You realize you have not made a major decision without consulting the leaders for a long time."
    ],
-   "repair_check": "Correction opens options in practice: members can take another path and keep their housing, friends and standing, and past decisions are acknowledged as pressured. Words about freedom that leave every cost in place only repeat the pattern.",
+   "repair_check": "Correction opens options in practice. Members can take another path and keep their housing, friends and standing, and past decisions are acknowledged as pressured. Words about freedom that leave every cost in place only repeat the pattern.",
    "boundary_respect_check": "Can an alternative be named out loud without a penalty? If it is raised and discussed on its merits, the choice is open. If raising it brings reminders of loyalty or a cooling of warmth, the choice was bounded.",
    "psychological_mechanism": "A decision believed to be freely made tends to earn extra loyalty and defense. When alternatives have been made costly or invisible, that loyalty can attach to an outcome that mainly serves the group. Owning the result can make it harder to say that anything was done to you.",
    "possible_impact_on_receiver": "Afterward, a confusing mix of guilt and anger is common: they remember saying yes, but also that no other answer felt available. Some find it hard to trust their own decisions or to say whether they ever wanted something. Others report relief when someone names the narrowing.",
    "response_options": {
-    "soft_clarification": "Ask what each option would cost: 'If I decided otherwise, what would happen to my place here?' The answer shows how open the choice really is.",
+    "soft_clarification": "Ask what each option would cost, for example: 'If I decided otherwise, what would happen to my place here?' The answer shows how open the choice really is.",
     "firm_boundary": "If it feels safe, ask for time and outside input before deciding: 'I'd like a week to think, and to talk with my sister first.' A real choice can wait.",
     "disengagement": "Postpone big decisions that are presented as now-or-never, and note who benefits from the speed.",
-    "support_seeking": "Talk to someone outside the group, such as a former member, therapist or counselor who knows high-control environments, and lay out the options as you see them.",
-    "workplace_or_professional": "In a workplace or program that frames costly terms as voluntary, ask for the terms in writing and consult a lawyer or union representative before signing or committing."
+    "support_seeking": "Talk to someone outside the group, such as a former member, therapist or counselor who knows high-control environments. Lay out the options as you see them.",
+    "workplace_or_professional": "If a workplace or program calls costly terms voluntary, ask for the terms in writing. Talk to a lawyer or union representative before you sign or commit."
    },
    "boundary_script": "Before I accept that I chose this freely, I ask myself: \"Could I say no and keep my home, my friends and my standing? Who told me the other options are not real, and have I heard it from anyone outside?\"",
-   "safety_note": "Bounded choice alone is a pattern of pressure, not necessarily danger. It becomes safety-relevant when the narrowed options involve housing, money, immigration status, medical care or children, or when anyone is threatened for taking another path. Then consult a lawyer or legal aid, or a cult-recovery advocate, before acting, and plan any big change privately.",
+   "safety_note": "Bounded choice alone is a pattern of pressure, not necessarily danger. It becomes safety-relevant when the narrowed options involve housing, money, immigration status, medical care or children, or when anyone is threatened for taking another path. In that case, consult a lawyer, legal aid or a cult-recovery advocate before acting, and plan any big change privately.",
    "safety_sensitive": true,
    "misuse_warning": [
     "Cost, family duty and a demanding career are ordinary constraints. Treating each of them as coercion erases the real decisions behind a person's life.",
@@ -34244,7 +34244,7 @@
     "Doctrine Over Person",
     "Dispensing of Existence"
    ],
-   "how_to_distinguish_from_related": "Milieu Control restricts what you can read, hear and discuss; Bounded Choice may leave the information in principle but shrinks what you can safely do with it. Doctrine Over Person tells you your experience is wrong, while this tells you your decisions were free. Demand for Purity sets an impossible standard; Bounded Choice leaves a doorway that exists but costs too much to use.",
+   "how_to_distinguish_from_related": "Milieu Control restricts what you can read, hear and discuss. Bounded Choice may leave the information in place but shrinks what you can safely do with it. Doctrine Over Person tells you your experience is wrong, while this tells you your decisions were free. Demand for Purity sets an impossible standard, while Bounded Choice leaves a doorway that exists but costs too much to use.",
    "detection_notes": "Not matched or scored. Pasted personal text cannot establish an institutional- or societal-scale pattern — that requires independent, corroborated, documented evidence at a completely different scale.",
    "codex_maturity": "mature",
    "human_review_flags": [
@@ -34260,14 +34260,14 @@
    "branch": "societal",
    "category": "Cult & Thought Reform",
    "detectability_note": "This tool cannot establish this from pasted text at all. It is included for literacy only, so you can learn to recognize the concept — not as something this tool detects, scores, or flags.",
-   "core_meaning": "Making one leader the only trusted source of truth, meaning and safety, so that the leader's approval becomes a member's deepest need.",
+   "core_meaning": "Making a single leader the only trusted source of truth, meaning and safety, so that winning the leader's approval becomes a member's deepest need.",
    "aftermath_state": false,
    "forensic_only": false,
    "absorbs": [],
-   "short_definition": "Making one leader the only trusted source of truth, meaning and safety, so that the leader's approval becomes a member's deepest need.",
-   "expanded_definition": "Charismatic Authority Dependence is a bond in which a member comes to rely on one leader for answers about what is true, what life means, and whether they are safe or good. Admiring a gifted teacher is common and often helpful. The pattern appears when no second source of judgment counts, when the leader's reading of events replaces the member's own, and when losing approval feels like losing everything at once.",
+   "short_definition": "Making a single leader the only trusted source of truth, meaning and safety, so that winning the leader's approval becomes a member's deepest need.",
+   "expanded_definition": "Charismatic Authority Dependence is a bond in which a member relies on one leader for answers about what is true, what life means, and whether they are safe or good. Admiring a gifted teacher is common and often helpful. The pattern appears when no second source of judgment counts. It also appears when the leader's reading of events replaces the member's own, and when losing approval brings the sense of losing everything at once.",
    "plain_language_summary": "One person becomes the only one whose word counts, so their approval feels like air, and disagreeing with them feels like falling apart.",
-   "why_this_matters": "When one person holds truth, meaning and safety, losing their approval means losing all three at once, which makes ordinary disagreement feel like self-destruction. It can also leave a member with nobody else to check reality with.",
+   "why_this_matters": "When one person holds truth, meaning and safety, losing their approval means losing all three at once. Even ordinary disagreement can start to threaten a person's whole sense of self. A member may also have nobody else to check reality with.",
    "what_it_is": [
     "A relationship in which the leader's view of events outranks what the member saw, felt or remembers.",
     "Approval and attention from the leader used as the main measure of whether a member is doing well.",
@@ -34291,7 +34291,7 @@
     "A grieving or struggling person leaning hard on a counselor for a season, with their own strength returning."
    ],
    "this_may_be_it_when": [
-    "Disagreeing with the leader feels frightening, or like a moral failure, not just awkward.",
+    "Disagreeing with the leader brings fear or a sense of moral failure, far more than awkwardness.",
     "Members with doubts keep them quiet because the leader's view is final.",
     "Decisions about work, partners, money or children are run past the leader first.",
     "The leader's mood sets the mood of the group, and approval is handed out or withheld unpredictably.",
@@ -34337,19 +34337,19 @@
     "Your preferences begin to sound like the leader's, down to their phrases.",
     "Doubts that once seemed normal are now frightening to think, let alone say."
    ],
-   "repair_check": "Change shows in a leader who takes questions and shares authority: other sources of judgment are encouraged, criticism is answered without punishment, and members' outside ties are welcomed. A moving apology that leaves final say with one person is not that.",
+   "repair_check": "Change shows in a leader who takes questions and shares authority. Other sources of judgment are encouraged, criticism is answered without punishment, and members' outside ties are welcomed. A moving apology that leaves final say with one person is not that.",
    "boundary_respect_check": "When you disagree out loud, notice whether the response is curiosity or a drop in warmth. A leader who respects limits can hear no without cooling toward you; a chill that follows a no is itself information.",
-   "psychological_mechanism": "People often look to a confident figure for certainty when they are lonely, grieving or seeking meaning. Warm attention that rises and falls with compliance can build strong attachment, and approval from a single source tends to crowd out other sources of reassurance. Over time, checking everything against the leader's view can become automatic.",
+   "psychological_mechanism": "People often look to a confident figure for certainty when they are lonely, grieving or seeking meaning. Warm attention that rises and falls with compliance can build strong attachment. Approval from a single source also often crowds out other sources of reassurance. Over time, checking everything against the leader's view can become automatic.",
    "possible_impact_on_receiver": "People describe an intense need for the leader's approval, dread at their displeasure, and difficulty making even small decisions alone. After leaving, many describe grief like a bereavement, along with shame about having believed. Some feel lost about what they value without the leader's voice.",
    "response_options": {
-    "soft_clarification": "Ask how a question would be received: 'Is it okay if I talk this over with my sister too?' Notice whether the reply is warm or tense.",
-    "firm_boundary": "If it feels safe, keep one decision for your own judgment, such as a medical, money or family matter, and say only 'I'll think about that.' You do not need to announce what you decided.",
+    "soft_clarification": "Ask how a question would be received, for example: 'Is it okay if I talk this over with my sister too?' Notice whether the reply is warm or tense.",
+    "firm_boundary": "If it feels safe, keep one decision for your own judgment, such as a medical, money or family matter. Say only 'I'll think about that.' You do not need to announce what you decided.",
     "disengagement": "Spend more time with people outside the leader's orbit, and let that grow slowly. Avoid dramatic statements about your doubts or plans.",
-    "support_seeking": "Talk to a therapist, former member or cult-recovery counselor who knows high-control groups, and bring one specific example.",
-    "workplace_or_professional": "In a workplace or training program built around a single boss or guru, keep outside mentors, write down instructions you are given, and bring concerns about pressure to HR or an ombudsperson (an independent complaints officer)."
+    "support_seeking": "Talk to a therapist, former member or cult-recovery counselor who knows high-control groups. Bring one specific example.",
+    "workplace_or_professional": "In a workplace or training program built around a single boss or guru, keep outside mentors and write down the instructions you are given. Bring concerns about pressure to HR or an ombudsperson (an independent complaints officer)."
    },
    "boundary_script": "Before I act on this, I ask myself: \"Is it true because I can check it, or only because this person said it? What would I decide if I asked two people outside this group? What would I lose if their approval went away?\"",
-   "safety_note": "Watch for a leader who controls housing, money, documents or contact with children, for punishments aimed at doubters, and for pressure toward self-harm or giving up medical care. A lawyer, legal aid, a cult-recovery counselor or a trusted outsider can help. Call emergency services if anyone is in immediate danger. Plan any change privately with that support.",
+   "safety_note": "Watch for a leader who controls housing, money, documents or contact with children. Watch too for punishments aimed at doubters, and for pressure toward self-harm or giving up medical care. A lawyer, legal aid, a cult-recovery counselor or a trusted outsider can help. Call emergency services if anyone is in immediate danger. Plan any change privately with that support.",
    "safety_sensitive": true,
    "misuse_warning": [
     "Devotion to a teacher is not automatically unhealthy. Calling a friend's admiration for a mentor 'dependence' can shame a good relationship.",
@@ -34363,7 +34363,7 @@
     "Doctrine Over Person",
     "Dispensing of Existence"
    ],
-   "how_to_distinguish_from_related": "Sacred Science puts the doctrine beyond question, while charismatic authority dependence puts a person there. Doctrine Over Person overrides the member's experience in favor of the teaching; here the member's experience yields to the leader's reading. Mystical Manipulation stages events to prove special status, whereas dependence is the bond that shows itself in a member's fear of losing approval.",
+   "how_to_distinguish_from_related": "Sacred Science puts the doctrine beyond question, while charismatic authority dependence puts a person there. Doctrine Over Person overrides the member's experience in favor of the teaching. Here the member's experience yields to the leader's reading. Mystical Manipulation stages events to prove special status, whereas dependence is the bond that shows itself in a member's fear of losing approval.",
    "detection_notes": "Not matched or scored. Pasted personal text cannot establish an institutional- or societal-scale pattern — that requires independent, corroborated, documented evidence at a completely different scale.",
    "codex_maturity": "mature",
    "human_review_flags": [
@@ -34379,18 +34379,18 @@
    "branch": "societal",
    "category": "Cult & Thought Reform",
    "detectability_note": "This tool cannot establish this from pasted text at all. It is included for literacy only, so you can learn to recognize the concept — not as something this tool detects, scores, or flags.",
-   "core_meaning": "Required, repeated disclosure of faults, doubts or past wrongs to the group, which produces shame and hands the group material it can hold over people.",
+   "core_meaning": "Required, repeated sharing of faults, doubts or past wrongs with the group, which brings shame and gives the group material it can hold over people.",
    "aftermath_state": false,
    "forensic_only": false,
    "absorbs": [],
-   "short_definition": "Required, repeated disclosure of faults, doubts or past wrongs to the group, which produces shame and hands the group material it can hold over people.",
-   "expanded_definition": "Forced confession and self-criticism rituals are two forms of one practice: members must disclose faults, doubts or past wrongdoing before the group, either by confessing or by criticizing themselves in set sessions. One leans toward what you did or hid, the other toward what is wrong with you. Healthy settings use disclosure too, but there it is voluntary and bounded. Here it is required, open-ended, and may be recalled later. Lifton's list of thought-reform themes includes a 'cult of confession'.",
-   "plain_language_summary": "You are required to tell the group your faults and secrets, again and again, and what you say can be brought back up later to keep you in line.",
-   "why_this_matters": "Material given up under group pressure does not go away. It stays available as leverage, and the habit of confessing on demand can leave a person with no private ground to stand on.",
+   "short_definition": "Required, repeated sharing of faults, doubts or past wrongs with the group, which brings shame and gives the group material it can hold over people.",
+   "expanded_definition": "Forced confession and self-criticism rituals are two forms of one practice. Members must disclose faults, doubts or past wrongdoing before the group, either by confessing or by criticizing themselves in set sessions. One leans toward what you did or hid, the other toward what is wrong with you. Healthy settings use disclosure too, but there it is voluntary and bounded. Here it is required, open-ended, and may be recalled later. Lifton's list of thought-reform themes includes a 'cult of confession'.",
+   "plain_language_summary": "You are required to tell the group your faults and secrets, again and again. What you say can be brought back up later to keep you in line.",
+   "why_this_matters": "Material given up under group pressure does not go away. It stays available to be used as pressure, and the habit of confessing on demand can leave a person with no private ground to stand on.",
    "what_it_is": [
     "Scheduled sessions in which members must state wrongs, doubts or 'insufficiencies' in front of others.",
     "Self-criticism turned inward: members list their own failings as proof of loyalty, aloud or in writing.",
-    "Confessions that are recorded, remembered or passed to leaders, so what was said stays attached to the person.",
+    "Confessions that are recorded, remembered or passed to leaders. What was said stays attached to the person.",
     "Disclosure that is never complete, since each session asks for more, including private thoughts and doubts.",
     "Found in religious groups, political movements, some residential programs and high-pressure workplaces."
    ],
@@ -34403,11 +34403,11 @@
     "Stand up and tell us how you failed the group this week."
    ],
    "what_it_is_not": [
-    "Accountability practices exist in healthy settings, such as step work, clinical supervision and restorative circles. Saying something difficult before a group is not itself harmful.",
+    "Accountability practices exist in healthy settings, such as step work, clinical supervision and restorative circles. Saying something difficult before a group is not harmful in itself.",
     "Voluntary sharing in a peer support meeting, where what is said stays in the room and nobody is pressed for more.",
     "A team retrospective that asks what went wrong with a project, not what is wrong with the people.",
     "Confession in a faith tradition that is private, freely chosen and covered by confidentiality.",
-    "Apologizing to someone you harmed, which is aimed at repairing that one relationship and ends when it is done."
+    "Apologizing to someone you harmed. That aims at repairing one relationship and ends when it is done."
    ],
    "this_may_be_it_when": [
     "Attendance and participation are required, and declining is treated as a sign of guilt or disloyalty.",
@@ -34456,16 +34456,16 @@
     "You edit what you say in ordinary conversation, sensing it could be recorded or repeated.",
     "Old admissions are mentioned at moments when you are asking questions."
    ],
-   "repair_check": "A genuine fix ends the requirement itself: disclosure becomes optional, past confessions are not referred to again, and any records are destroyed or returned. An apology for how the sessions felt that leaves them on the schedule has fixed nothing.",
+   "repair_check": "A genuine fix ends the requirement itself. Disclosure becomes optional, past confessions are not referred to again, and any records are destroyed or returned. An apology for how the sessions felt that leaves them on the schedule has fixed nothing.",
    "boundary_respect_check": "Pay attention to what follows a plain 'I'll pass.' If the session moves on and you are treated as before, the practice is optional. If you are pressed, watched, or reminded of something you said earlier, it was not.",
-   "psychological_mechanism": "Public disclosure tends to create shame and a sense of exposure, and shared secrets can make people feel bound to the group that holds them. When confessions are required again and again, a person can learn to see their own thoughts as suspect, and to hand over private material in exchange for belonging.",
+   "psychological_mechanism": "Public disclosure often creates shame and a sense of exposure, and shared secrets can make people feel bound to the group that holds them. When confessions are required again and again, a person can learn to see their own thoughts as suspect. They may also learn to hand over private material in exchange for belonging.",
    "possible_impact_on_receiver": "Sessions bring dread, a habit of searching oneself for faults, and fear that old admissions might be used later. After leaving, some report lingering shame, trouble keeping anything private, or distrust of any setting where people share openly. Some feel relief at finding it was a practice, not a personal failing.",
    "response_options": {
     "soft_clarification": "Ask about the rules for sharing: 'Who hears this, and is it kept private?' You are asking for information, not accusing anyone.",
     "firm_boundary": "Hold some things back: 'I'll share what I'm comfortable with and pass on the rest.' You are allowed to keep your inner life to yourself.",
     "disengagement": "Give brief, general answers that reveal little of your inner life, and avoid writing doubts down where the group can read them. Plan any bigger change privately.",
     "support_seeking": "Talk with a counselor, former member or cult-recovery organization about what you have disclosed and what worries you. Keep your own notes somewhere private and safe.",
-    "workplace_or_professional": "If a workplace or training program requires staff to disclose personal faults or confess to colleagues, ask for the policy in writing and consult HR, an ombudsperson (an independent complaints officer), a union representative or an employment lawyer."
+    "workplace_or_professional": "If a workplace or training program requires staff to disclose personal faults or confess to colleagues, ask for the policy in writing. Then consult HR, an ombudsperson (an independent complaints officer), a union representative or an employment lawyer."
    },
    "boundary_script": "Before I disclose anything, I ask myself: \"Who will hear what I say, what could it be used for later, and could I decline without anything changing? Would I share it if no one could repeat it?\"",
    "safety_note": "Watch for confessions being recorded, threats to reveal them, and pressure to inform on others. Other signs are pressure to admit wrongdoing that could cause legal trouble, and punishments such as loss of housing or family contact. Legal aid, a cult-recovery counselor or a trusted outsider can help. Call emergency services if there is immediate danger. Make any decision to step away privately, with support.",
@@ -34482,7 +34482,7 @@
     "Doctrine Over Person",
     "Dispensing of Existence"
    ],
-   "how_to_distinguish_from_related": "Demand for Purity creates the standard members can never meet, and confession is one way failures against it are paraded and recorded. Milieu Control manages what members can see and say; confession extracts what they think and have done. Doctrine Over Person tells members their experience is wrong, while confession asks them to testify against themselves.",
+   "how_to_distinguish_from_related": "Demand for Purity creates the standard members can never meet, and confession is one way their failures against it are paraded and recorded. Milieu Control manages what members can see and say, while confession extracts what they think and have done. Doctrine Over Person tells members their experience is wrong, and confession asks them to testify against themselves.",
    "detection_notes": "Not matched or scored. Pasted personal text cannot establish an institutional- or societal-scale pattern — that requires independent, corroborated, documented evidence at a completely different scale.",
    "codex_maturity": "mature",
    "human_review_flags": [
@@ -34498,14 +34498,14 @@
    "branch": "societal",
    "category": "Organizational & Institutional",
    "detectability_note": "This tool cannot establish this from pasted text at all. It is included for literacy only, so you can learn to recognize the concept — not as something this tool detects, scores, or flags.",
-   "core_meaning": "An institution that people depend on fails to prevent harm or to respond fairly when it happens, adding a second injury to the first.",
+   "core_meaning": "An institution that people depend on fails to prevent harm or to treat them fairly afterward, which adds a second injury to the first one.",
    "aftermath_state": false,
    "forensic_only": false,
    "absorbs": [],
-   "short_definition": "An institution that people depend on fails to prevent harm or to respond fairly when it happens, adding a second injury to the first.",
-   "expanded_definition": "Institutional betrayal is the term psychologist Jennifer Freyd introduced for the harm an institution does by failing the people who depend on it, such as a school, employer, hospital, congregation or agency. The first harm may come from anyone. The second comes from how the institution handles it: ignoring it, doubting the person, or protecting its own standing. One slow answer proves little. What makes it a pattern is how the whole process treats the person reporting, from first contact to the last letter.",
-   "plain_language_summary": "You were hurt, you turned to the place that was supposed to help, and that place made things worse by ignoring you, doubting you, or protecting itself.",
-   "why_this_matters": "Being harmed and then failed by the body meant to prevent it produces a second injury that often outlasts the first. It can teach a person that reporting brings exposure without remedy, and it can make them doubt their own account of what happened.",
+   "short_definition": "An institution that people depend on fails to prevent harm or to treat them fairly afterward, which adds a second injury to the first one.",
+   "expanded_definition": "Institutional betrayal is the term psychologist Jennifer Freyd introduced for the harm an institution does when it fails the people who depend on it, such as a school, employer, hospital, congregation or agency. The first harm may come from anyone. The second comes from how the institution handles it: ignoring it, doubting the person, or protecting its own standing. One slow answer proves little. It becomes a pattern in how the whole process treats the person reporting, from first contact to the last letter.",
+   "plain_language_summary": "You were hurt and turned to the place that was supposed to help. That place made things worse by ignoring you, doubting you, or protecting itself.",
+   "why_this_matters": "Being harmed and then failed by the body meant to prevent it causes a second injury that often outlasts the first. It can teach a person that reporting brings exposure without a fix. It can also make them doubt their own account of what happened.",
    "what_it_is": [
     "A failure at two points: before the harm, when warning signs go unaddressed, and after it, when the response is poor or hostile.",
     "Something the people depending on the institution experience, such as students, patients, employees, members or service users.",
@@ -34546,12 +34546,12 @@
    ],
    "innocent_or_ordinary_possibilities": [
     "Staff may be bound by privacy rules and unable to say what was done, which can feel like silence from the outside.",
-    "A small or under-resourced office may be slow because it is overloaded, not because it is protecting anyone.",
+    "A small or under-resourced office may be slow because it is overloaded, and not because it is protecting anyone.",
     "A process can seem cold because it is built to be neutral toward both sides, including the person you reported."
    ],
    "common_false_positives": [
-    "An investigation that finds insufficient evidence, which is a different thing from a finding that you were not believed.",
-    "A busy office that takes weeks to reply to everyone, not only to you.",
+    "An investigation that finds not enough evidence. That is different from a finding that you were not believed.",
+    "A busy office that takes weeks to reply to everybody, you included.",
     "A policy that is rigid and unfair but applied to every case the same way, with no sign of shielding anyone."
    ],
    "discernment_questions": [
@@ -34564,7 +34564,7 @@
    "less_concerning_if": [
     "You were told what the process is, and the institution has followed it.",
     "Your account was taken seriously even though the outcome was limited.",
-    "Someone outside the immediate chain, such as an ombudsperson's office (an independent complaints office), can review how the matter was handled."
+    "Someone outside the immediate chain can review how the matter was handled, such as an ombudsperson's office (an independent complaints office)."
    ],
    "more_concerning_if": [
     "Other people with similar reports describe the same kind of response from the same place.",
@@ -34577,23 +34577,23 @@
     "You stop telling the institution things, and may stop relying on other institutions too.",
     "Years later, the way you were treated still comes up as often as the original event does."
    ],
-   "repair_check": "Real accountability from an institution is concrete: someone with authority names what went wrong, explains what will change, and the change can be checked later. A warm statement of regret with no named failure and no follow-up is the part that tends to look like repair without being it.",
+   "repair_check": "Real accountability from an institution is concrete. Someone with authority names what went wrong and explains what will change, and the change can be checked later. A warm statement of regret with no named failure and no follow-up often looks like repair without being it.",
    "boundary_respect_check": "Ask whether you can have the process, timeline and outcome in writing, and notice what comes back. A clear written answer, or an honest account of why it cannot be given, suggests respect. Vague reassurance that changes nothing on paper suggests the question was managed, not heard.",
-   "psychological_mechanism": "Trust placed in a school, employer or agency can make its failure land harder than the original harm, since there may be nowhere else to turn. A person in that spot may start blaming themselves, wonder if they overreacted, or quietly accept the institution's framing just to end the uncertainty.",
-   "possible_impact_on_receiver": "People describe distrust of the institution and sometimes of all institutions, a reluctance to report anything again, shame about having spoken, and a sense of having been harmed twice. Some describe losing the place they belonged to, such as a school or workplace, as well as losing trust in it. Some say being believed later by an outsider mattered a great deal.",
+   "psychological_mechanism": "Trust placed in a school, employer or agency can make its failure hit harder than the original harm, since there may be nowhere else to turn. A person in that spot may start blaming themselves or wonder if they overreacted. They may also quietly accept the institution's framing just to end the uncertainty.",
+   "possible_impact_on_receiver": "Afterward, people describe distrust of the institution and sometimes of all institutions, a reluctance to report anything again, shame about having spoken, and a sense of having been harmed twice. Some describe losing the place they belonged to, such as a school or workplace, as well as losing trust in it. Some say being believed later by an outsider mattered a great deal.",
    "response_options": {
     "soft_clarification": "Ask the office for the process in writing: who is handling your report, what the steps are, and when you can expect an update.",
-    "firm_boundary": "Keep your own dated record of every contact, and ask that any decision about your case be put in writing before you agree to anything.",
-    "disengagement": "If dealing with the institution directly is wearing you down, ask a trusted person or advocate to handle the contact, or pause and take it up when you have more support.",
+    "firm_boundary": "Keep your own dated record of every contact. Ask that any decision about your case be put in writing before you agree to anything.",
+    "disengagement": "If dealing with the institution directly is wearing you down, ask a trusted person or advocate to handle the contact. You can also pause and take it up again when you have more support.",
     "support_seeking": "Talk with an advocate for the type of harm involved, a counselor, or a lawyer who can explain what routes outside the institution exist. Being believed by someone outside can matter.",
-    "workplace_or_professional": "Ask whether an ombudsperson's office, a union representative or an outside regulator can review how your report was handled, and consider a consult with an employment or education attorney."
+    "workplace_or_professional": "Ask whether an ombudsperson's office, a union representative or an outside regulator can review how your report was handled. You might also consider a consult with an employment or education attorney."
    },
    "boundary_script": "\"I would like the steps of this process, who is handling my report, and the timeline in writing. I would also like to bring a support person to any meeting about it.\"",
    "safety_note": "Watch for quiet changes after you report: loss of hours, grades, housing, a role or a reference, or being treated as the problem. Those can be retaliation and are worth documenting with dates. Keep copies somewhere the institution does not control, and talk with an advocate or an attorney before taking any step. If you feel unsafe or have thoughts of harming yourself, contact emergency services or a crisis line right away.",
    "safety_sensitive": true,
    "misuse_warning": [
-    "Labeling any slow or disappointing response as betrayal can overlook genuine legal limits and honest processes. The term fits a pattern of protecting the institution at the person's expense, not every unwelcome outcome.",
-    "Using the word to condemn a whole organization, including people who worked hard on your behalf, can leave out the individuals who did try to help."
+    "Calling any slow or disappointing response betrayal can overlook real legal limits and honest processes. The term fits a pattern of protecting the institution at the person's expense, and not every unwelcome outcome.",
+    "Using the word against a whole organization can leave out the individuals who did try to help, including people who worked hard on your behalf."
    ],
    "related_tactics": [
     "Organizational Silence Engineering",
@@ -34601,7 +34601,7 @@
     "Performance Framework Manipulation",
     "Algorithmic Management"
    ],
-   "how_to_distinguish_from_related": "Silence Engineering is a culture that teaches people not to speak up before anything is reported, while betrayal concerns how the institution responds to a specific report of harm. HR Shielding is one mechanism, the complaint machinery working for the institution, whereas betrayal can also be plain neglect with no one shielded. Performance Framework Manipulation works through scores and reviews, not through a response to a report.",
+   "how_to_distinguish_from_related": "Silence Engineering is a culture that teaches people not to speak up before anything is reported, while betrayal concerns how the institution responds to a specific report of harm. HR Shielding is one mechanism, the complaint machinery working for the institution. Betrayal can also be plain neglect with no one shielded. Performance Framework Manipulation works through scores and reviews, and not through a response to a report.",
    "detection_notes": "Not matched or scored. Pasted personal text cannot establish an institutional- or societal-scale pattern — that requires independent, corroborated, documented evidence at a completely different scale.",
    "codex_maturity": "mature",
    "human_review_flags": [
@@ -34622,15 +34622,15 @@
    "forensic_only": false,
    "absorbs": [],
    "short_definition": "Building a workplace culture in which people learn that speaking up brings punishment and staying quiet brings safety.",
-   "expanded_definition": "Organizational silence engineering is a pattern in which a workplace teaches its people, through what happens to others, that raising problems costs more than it gains. Nobody has to forbid anything. People watch who gets sidelined after a complaint, whose concern disappears into a form, and who is praised for going along. Soon they stop sharing bad news. One quiet meeting means little. A habit of silence across a whole team, about things everyone can see, is the signal.",
-   "plain_language_summary": "People at a workplace see what happens to those who raise problems, so they stop raising them, and everyone knows about issues that no one will say out loud.",
-   "why_this_matters": "Problems that people can plainly see go unreported, and the cost lands first on whoever the warning would have protected, then on the person who stayed quiet and knew. Over time, people can lose their sense that anything they say matters.",
+   "expanded_definition": "Organizational silence engineering is a pattern where a workplace teaches its people, through what happens to others, that raising problems costs more than it gains. Nobody has to forbid anything. People watch who gets sidelined after a complaint, whose concern disappears into a form, and who is praised for going along. Soon they stop sharing bad news. One quiet meeting means little. The signal is a habit of silence across a whole team, about things everyone can see.",
+   "plain_language_summary": "People at a workplace see what happens to those who raise problems, so they stop raising them. Everyone knows about issues that no one will say out loud.",
+   "why_this_matters": "Problems that people can plainly see go unreported. The cost lands first on whoever the warning would have protected, then on the person who stayed quiet and knew. Over time, people can lose their sense that anything they say matters.",
    "what_it_is": [
     "A culture, not a rule: the lesson is taught by watching what happens to coworkers who spoke up.",
-    "Often built from small signals, such as a raised eyebrow in a meeting, a joke about troublemakers or a pointed absence from a later invitation.",
+    "Often built from small signals. Examples are a raised eyebrow in a meeting, a joke about troublemakers, or a pointed absence from a later invitation.",
     "Marked by a gap between what is said in private hallway talk and what is said in official meetings.",
-    "Reinforced when feedback channels exist on paper but produce nothing visible, so people conclude there is no point.",
-    "Costly for the organization too, because safety problems, errors and ethical concerns stay hidden until they get large."
+    "Reinforced when feedback channels exist on paper but produce nothing anyone can see. People conclude there is no point.",
+    "Costly for the organization too. Safety problems, errors and ethical concerns stay hidden until they grow large."
    ],
    "what_it_sounds_like": [
     "Everyone nods in the meeting, then the real talk happens in the parking lot.",
@@ -34644,9 +34644,9 @@
    "what_it_is_not": [
     "A calm, well-run team in which people simply have little to complain about.",
     "A workplace where people prefer to raise things one-to-one, not in meetings, and are heard when they do.",
-    "A confidentiality rule that limits what can be shared outside the company for a legitimate reason, such as client privacy.",
-    "A culture of politeness or reserve that comes from the industry or a region's norms, with no cost attached to speaking.",
-    "A single manager who dislikes criticism, in a company that has other routes and where concerns do get acted on.",
+    "A confidentiality rule with a legitimate reason, such as client privacy, that limits what can be shared outside the company.",
+    "A polite or reserved culture that comes from the industry or the region's norms, where speaking up carries no cost.",
+    "A single manager who dislikes criticism, in a company with other routes where concerns do get acted on.",
     "A quiet period after a reorganization, while people wait to see how things settle."
    ],
    "this_may_be_it_when": [
@@ -34670,7 +34670,7 @@
    ],
    "common_false_positives": [
     "A meeting where nobody speaks because the agenda was dull and the issue was already settled.",
-    "A person who was let go for documented performance reasons after raising a concern separately, where the two are unrelated.",
+    "A person let go for documented performance reasons. They raised a concern separately, and the two are unrelated.",
     "A company that keeps a firm line on sharing client information, which can feel like secrecy to staff."
    ],
    "discernment_questions": [
@@ -34686,7 +34686,7 @@
     "There is a route outside the chain of command, and it is used without anyone being penalized."
    ],
    "more_concerning_if": [
-    "The silence covers safety, legal or ethical issues, not only matters of taste or preference.",
+    "The silence covers safety, legal or ethical issues as well as matters of taste or preference.",
     "People who spoke up report retaliation such as lost hours, shifts or reviews.",
     "Employees are told, directly or by hint, not to talk to outside parties about concerns."
    ],
@@ -34696,23 +34696,23 @@
     "Errors that many people noticed early only come out once they are large.",
     "Turnover rises among those who used to speak most, and the ones who remain say less."
    ],
-   "repair_check": "Leaders who want to undo a culture of silence show it in what they do with the next bad news: they thank the messenger, fix the problem visibly, and protect the person who raised it. A new open-door announcement with no change in how past speakers were treated leaves the lesson standing.",
+   "repair_check": "Leaders who want to undo a culture of silence show it in what they do with the next bad news. They thank the messenger, fix the problem visibly, and protect the person who raised it. A new open-door announcement with no change in how past speakers were treated leaves the lesson standing.",
    "boundary_respect_check": "When you raise a concern, ask yourself what happens next. Does anyone report back, and does your standing stay the same weeks later? Respect shows in follow-through and in how you are treated afterward, not in what is said during the meeting itself.",
    "psychological_mechanism": "Watching one coworker get sidelined can teach a whole team what is safe. When speaking up seems to change nothing, effort starts to feel pointless and self-protection takes over. Silence then feels like a personal choice, though it was shaped by what the workplace showed.",
-   "possible_impact_on_receiver": "People describe holding back things they know are wrong, feeling complicit, tension between their conscience and their paycheck, and a flattening of enthusiasm for the work. Some describe guilt about not saying anything earlier, and some describe relief at finding that coworkers had seen the same thing. Others describe leaving a job over it.",
+   "possible_impact_on_receiver": "People describe holding back things they know are wrong, feeling complicit, a pull between conscience and paycheck, and a flattening of enthusiasm for the work. Some describe guilt about not speaking earlier. Some describe relief at finding that coworkers had seen the same thing. Others describe leaving a job over it.",
    "response_options": {
-    "soft_clarification": "Check your read with one trusted coworker: ask whether they have noticed the same hesitation to raise problems, and whether they know of any concern that led to a fix.",
+    "soft_clarification": "Check your read with one trusted coworker. Ask whether they have noticed the same hesitation to raise problems, and whether they know of any concern that led to a fix.",
     "firm_boundary": "Keep a private, dated record of what you raised, to whom and what came back. Keep it somewhere your employer does not control.",
     "disengagement": "You do not have to carry every concern alone. Decide what you can safely raise, and think privately about what you would need before deciding how much to risk.",
-    "support_seeking": "Talk to a trusted mentor outside the company, or a lawyer or advocate who works with employees, about what protections may apply where you work.",
+    "support_seeking": "Talk to a trusted mentor outside the company, or to a lawyer or advocate who works with employees. Ask what protections may apply where you work.",
     "workplace_or_professional": "If your workplace has an ombudsperson's office (an independent complaints office), a union, or an outside reporting line, learn how each works and what it protects before using one. An employment attorney can explain your options."
    },
    "boundary_script": "\"Can you walk me through how concerns get handled here? Who reviews them, and how would I hear what came of mine?\"",
-   "safety_note": "A culture of silence is mainly a risk to careers and to problems left unreported. Concern rises when retaliation follows speaking up: lost hours, a sudden bad review, a changed role, or hints that your job is at risk. Document those with dates, outside the employer's systems, and talk with an employment attorney, union representative or legal aid clinic before any formal step. If a concern involves immediate danger to people, contact emergency services.",
+   "safety_note": "A culture of silence is mainly a risk to careers and to problems left unreported. Concern rises when retaliation follows speaking up: lost hours, a sudden bad review, a changed role, or hints that your job is at risk. Document those with dates, outside the employer's systems. Talk with an employment attorney, union representative or legal aid clinic before any formal step. If a concern involves immediate danger to people, contact emergency services.",
    "safety_sensitive": false,
    "misuse_warning": [
     "Calling a quiet or reserved workplace silenced can ignore people's real reasons for holding back. The label needs evidence of what happened to those who spoke.",
-    "Using it to describe any manager who disagreed with you may turn an ordinary conflict into an accusation about the whole organization."
+    "Using the term for any manager who disagreed with you may turn an ordinary conflict into an accusation against the whole organization."
    ],
    "related_tactics": [
     "Institutional Betrayal",
@@ -34720,7 +34720,7 @@
     "Performance Framework Manipulation",
     "Algorithmic Management"
    ],
-   "how_to_distinguish_from_related": "Whether anyone reports at all is the question here, while Institutional Betrayal concerns the response to a specific report of harm. HR Shielding is complaint machinery that serves the institution once a complaint exists, whereas in a silenced workplace complaints stop arriving. Algorithmic Management controls people through automated decisions, not through the lesson that colleagues learn from watching each other.",
+   "how_to_distinguish_from_related": "Here the question is whether anyone reports at all, while Institutional Betrayal concerns the response to a specific report of harm. HR Shielding is complaint machinery that serves the institution once a complaint exists. In a silenced workplace, complaints stop arriving. Algorithmic Management controls people through automated decisions, and not through the lesson that colleagues learn from watching each other.",
    "detection_notes": "Not matched or scored. Pasted personal text cannot establish an institutional- or societal-scale pattern — that requires independent, corroborated, documented evidence at a completely different scale.",
    "codex_maturity": "mature",
    "human_review_flags": [
@@ -34735,14 +34735,14 @@
    "branch": "societal",
    "category": "Organizational & Institutional",
    "detectability_note": "This tool cannot establish this from pasted text at all. It is included for literacy only, so you can learn to recognize the concept — not as something this tool detects, scores, or flags.",
-   "core_meaning": "Setting up evaluations, targets and reviews so that they reward agreement and loyalty while penalizing skill, dissent and ethical objection.",
+   "core_meaning": "Designing ratings, targets and reviews so that agreement and loyalty are rewarded, and skill, dissent and ethical objection are marked down.",
    "aftermath_state": false,
    "forensic_only": false,
    "absorbs": [],
-   "short_definition": "Setting up evaluations, targets and reviews so that they reward agreement and loyalty while penalizing skill, dissent and ethical objection.",
-   "expanded_definition": "Performance framework manipulation is a pattern in which the measures used to judge workers, such as ratings, targets and review steps, end up tracking deference instead of the work. People who go along score well, and those who raise problems or refuse questionable instructions accumulate a record that looks objective. Every scoring system favors some things over others, so one odd rubric proves little. It becomes a pattern when the measures shift whenever the wrong people begin scoring well.",
-   "plain_language_summary": "The way you are scored at work seems to reward agreeing and going along, and to mark down people who are good at the job but raise problems or say no.",
-   "why_this_matters": "Effort shifts from doing the work well to being agreeable about it, and anyone who raises problems accumulates a documented record of underperformance that looks objective to whoever reads it later. That record can follow a person into pay, promotion and job security.",
+   "short_definition": "Designing ratings, targets and reviews so that agreement and loyalty are rewarded, and skill, dissent and ethical objection are marked down.",
+   "expanded_definition": "Performance framework manipulation is a pattern in which the measures used to judge workers, such as ratings, targets and review steps, end up tracking deference instead of the work. People who go along score well. Those who raise problems or refuse questionable instructions build up a record that looks objective. Every scoring system favors some things over others, so one odd rubric proves little. It becomes a pattern when the measures shift whenever the wrong people begin scoring well.",
+   "plain_language_summary": "The way you are scored at work seems to reward agreeing and going along. It marks down people who are good at the job but raise problems or say no.",
+   "why_this_matters": "Effort shifts from doing the work well to being agreeable about it. Anyone who raises problems builds up a documented record of underperformance that looks objective to whoever reads it later. That record can follow a person into pay, promotion and job security.",
    "what_it_is": [
     "A mismatch between what the job actually requires and what the scoring system measures.",
     "Targets, rating scales or review criteria that are vague enough to be applied differently to different people.",
@@ -34762,7 +34762,7 @@
    "what_it_is_not": [
     "A rubric that undervalues your particular strengths. That is a design flaw, not a control mechanism.",
     "A fair performance plan with clear, achievable goals, regular check-ins and support to meet them.",
-    "A stricter review cycle because the company is under financial pressure and is applying new standards to everyone.",
+    "A stricter review cycle because the company is under financial pressure and applies new standards to everyone.",
     "Honest critical feedback from a manager who wants you to improve and says so openly.",
     "Ratings forced into a curve that disadvantage some people each year without regard to who they are or what they said.",
     "A bad year for you, in which the results were weak and the review reflected that accurately."
@@ -34814,19 +34814,19 @@
     "Your good results are no longer mentioned in reviews, while small lapses are recorded.",
     "The documents about you grow in number while the conversations about you shrink."
    ],
-   "repair_check": "A fair fix is visible in the paperwork: criteria are written and shared, your rating is looked at again by someone outside your reporting line, and past records are corrected where they were wrong. A kind meeting and a promise to do better, with the file left unchanged, only looks like repair.",
+   "repair_check": "A fair fix is visible in the paperwork. Criteria are written and shared, someone outside your reporting line looks at your rating again, and past records are corrected where they were wrong. A kind meeting and a promise to do better, with the file left unchanged, only looks like repair.",
    "boundary_respect_check": "Ask for the criteria and examples behind a rating, in writing, and see what comes back. A specific answer you can respond to suggests a genuine measure. Shifting reasons, or a reply that moves to your attitude for asking, suggests the score is not really about the work.",
-   "psychological_mechanism": "A score that looks neutral can carry more weight than a boss's opinion, so workers adapt to it even when it measures the wrong thing. When the measures reward agreeing, doubting yourself and staying quiet can start to feel sensible. A record that builds slowly can make a person question their own competence before anyone else does.",
-   "possible_impact_on_receiver": "People describe anxiety before reviews, losing confidence in work they once did well, a feeling of being set up to fail, and fear for their pay or position. Some describe shifting their effort toward looking agreeable. Some say seeing the pattern laid out on paper helped them stop blaming themselves, and some describe leaving a role they were good at.",
+   "psychological_mechanism": "A score that looks neutral can carry more weight than a boss's opinion, so workers adapt to it even when it measures the wrong thing. When the measures reward agreeing, doubting yourself and staying quiet can start to look sensible. A record that builds slowly can make a person question their own competence before anyone else does.",
+   "possible_impact_on_receiver": "People describe anxiety before reviews, losing confidence in work they once did well, a sense of being set up to fail, and fear for their pay or position. Some describe shifting their effort toward looking agreeable. Some say seeing the pattern laid out on paper helped them stop blaming themselves. Others describe leaving a role they were good at.",
    "response_options": {
     "soft_clarification": "Ask your manager to put the criteria for your rating in writing, with an example of what a stronger result would have looked like.",
-    "firm_boundary": "Write down your own account of the facts and add it to your file where your employer allows responses, rather than only signing the review.",
+    "firm_boundary": "Write down your own account of the facts and add it to your file where your employer allows responses. Do this instead of only signing the review.",
     "disengagement": "You do not need to turn every review into a debate. Keep your copies and your own results records, and take time to decide what, if anything, to dispute.",
-    "support_seeking": "Show your records to a trusted mentor outside your reporting line, or to a union representative, to check whether the ratings fit your results.",
-    "workplace_or_professional": "Ask whether there is a formal way to dispute a rating or plan, and consider talking with an employment attorney or legal aid before signing anything that you do not understand."
+    "support_seeking": "Show your records to a trusted mentor outside your reporting line, or to a union representative. Ask whether the ratings fit your results.",
+    "workplace_or_professional": "Ask whether there is a formal way to dispute a rating or plan. Consider talking with an employment attorney or legal aid before you sign anything you do not understand."
    },
    "boundary_script": "\"Before I sign, please send me the written criteria for this rating and the earlier feedback it relies on. My own response should go in the file as well.\"",
-   "safety_note": "This mostly puts income and standing at stake, not physical safety. It becomes more serious when a rating or plan appears to set up a dismissal, or when you are pressed to resign or sign a release. Keep copies of your results, feedback and reviews outside work systems, with dates. Before signing, ask for time and advice from an employment attorney, union representative or legal aid service, since rights vary by place.",
+   "safety_note": "This mostly puts income and standing at stake, not physical safety. It becomes more serious when a rating or plan appears to set up a dismissal, or when you are pressed to resign or sign a release. Keep dated copies of your results, feedback and reviews outside work systems. Before signing, ask for time and advice from an employment attorney, union representative or legal aid service, since rights vary by place.",
    "safety_sensitive": false,
    "misuse_warning": [
     "Reading every poor review as manipulation can keep a person from hearing accurate feedback. The label needs evidence that the measures track deference more than work.",
@@ -34838,7 +34838,7 @@
     "HR Shielding",
     "Algorithmic Management"
    ],
-   "how_to_distinguish_from_related": "Here the harm is built into scoring and records, with no report involved, unlike Institutional Betrayal, which is a failed response to harm. Silence Engineering teaches people to stay quiet through example, while this works through formal ratings. Algorithmic Management also scores people, but through automated systems with no person to ask, whereas this is usually a human-run process with judgment applied unevenly.",
+   "how_to_distinguish_from_related": "Here the harm is built into scoring and records with no report involved, unlike Institutional Betrayal, which is a failed response to harm. Silence Engineering teaches people to stay quiet through example, while this works through formal ratings. Algorithmic Management also scores people, but through automated systems with no person to ask. This one is usually a human-run process with judgment applied unevenly.",
    "detection_notes": "Not matched or scored. Pasted personal text cannot establish an institutional- or societal-scale pattern — that requires independent, corroborated, documented evidence at a completely different scale.",
    "codex_maturity": "mature",
    "human_review_flags": [
@@ -34853,14 +34853,14 @@
    "branch": "societal",
    "category": "Organizational & Institutional",
    "detectability_note": "This tool cannot establish this from pasted text at all. It is included for literacy only, so you can learn to recognize the concept — not as something this tool detects, scores, or flags.",
-   "core_meaning": "Using automated systems to assign tasks, track output and make decisions about workers' hours, pay or jobs, with little human review.",
+   "core_meaning": "Software that assigns tasks, tracks output and makes decisions about workers' hours, pay or jobs, with little human review.",
    "aftermath_state": false,
    "forensic_only": false,
    "absorbs": [],
-   "short_definition": "Using automated systems to assign tasks, track output and make decisions about workers' hours, pay or jobs, with little human review.",
-   "expanded_definition": "Algorithmic management is the use of software to direct and judge work: it hands out tasks, sets schedules, measures speed and flags people for discipline. Software on its own is common and often useful. The concern is when the criteria are hidden, the data cannot be seen or corrected, and no person can be reached to review a decision. Then workers face a boss they cannot question. It shows up in delivery, warehouse, driving, call center and retail work, among others.",
-   "plain_language_summary": "Software decides your tasks, your hours or whether you keep the job, and there is no person you can ask why or push back on.",
-   "why_this_matters": "Consequential decisions arrive with no one to ask and nowhere to appeal, so workers adapt to a system they cannot see and blame themselves for outcomes they have no way to examine. Pay, hours and job security can turn on numbers nobody will explain.",
+   "short_definition": "Software that assigns tasks, tracks output and makes decisions about workers' hours, pay or jobs, with little human review.",
+   "expanded_definition": "Algorithmic management is the use of software to direct and judge work. It hands out tasks, sets schedules, measures speed and flags people for discipline. Software on its own is common and often useful. The concern is when the criteria are hidden, the data cannot be seen or corrected, and no person can be reached to review a decision. Then workers face a boss they cannot question. It shows up in delivery, warehouse, driving, call center and retail work, among others.",
+   "plain_language_summary": "Software decides your tasks, your hours or whether you keep the job. There is no person you can ask why or push back on.",
+   "why_this_matters": "Big decisions arrive with no one to ask and nowhere to appeal. Workers adapt to a system they cannot see, and they blame themselves for outcomes they have no way to check. Pay, hours and job security can turn on numbers nobody will explain.",
    "what_it_is": [
     "Software that assigns work, sets pace, tracks location or output and scores workers continuously.",
     "Decisions about scheduling, pay or discipline that come from the system, sometimes with a manager simply passing them along.",
@@ -34878,7 +34878,7 @@
     "Appeals go to a form or chatbot that returns the same reply every time."
    ],
    "what_it_is_not": [
-    "A schedule generated by software is not a control apparatus. Automation in scheduling and routing is widespread and often simply efficient.",
+    "A schedule made by software is not a system of control in itself. Automation in scheduling and routing is widespread and often just efficient.",
     "A tracking tool that workers can see, that is explained in advance and that a person reviews when something looks wrong.",
     "A safety system, such as one that logs hazards or limits driving hours, that protects the worker as well as the company.",
     "Productivity numbers used as a starting point for a conversation with a manager, not as a verdict.",
@@ -34932,16 +34932,16 @@
     "Coworkers trade rumors about what the system punishes, since nobody official will say.",
     "You feel watched even during breaks, and start to hurry to keep the numbers up."
    ],
-   "repair_check": "Meaningful change is practical: a named person who can review decisions, a written explanation of how the system judges workers, and corrected records. An apology that blames the system, with no route for review, leaves the same unanswerable boss in place.",
+   "repair_check": "Real change is practical. There is a named person who can review decisions, a written explanation of how the system judges workers, and corrected records. An apology that blames the system and offers no route for review leaves the same unanswerable boss in place.",
    "boundary_respect_check": "Ask who can review a specific decision and what data it used. A named contact and a real answer suggest the system is accountable. If every route loops back to the same automated message, the question has not reached anyone.",
-   "psychological_mechanism": "When a decision comes from a system that cannot be questioned, workers may blame themselves, since the alternative is feeling helpless. Constant measurement can also push a person to work faster and skip breaks without any direct order. Not knowing the rules makes it hard to tell whether a bad outcome was something you did or simply how the system works.",
-   "possible_impact_on_receiver": "People describe constant pressure to keep up, anxiety about unseen scores, exhaustion from rushing, a sense of being treated as a number, and frustration at having no one to talk to. Some describe losing income suddenly through a deactivation they could not contest. Some say learning that others were hit by the same system helped them stop blaming themselves.",
+   "psychological_mechanism": "When a decision comes from a system that cannot be questioned, workers may blame themselves, since the alternative is feeling helpless. Constant measurement can also push a person to work faster and skip breaks without any direct order. Not knowing the rules makes it hard to tell if a bad outcome came from something you did or from how the system works.",
+   "possible_impact_on_receiver": "Workers describe constant pressure to keep up, anxiety about unseen scores, exhaustion from rushing, a sense of being treated as a number, and frustration at having no one to talk to. Some describe losing income suddenly through a deactivation they could not contest. Some say learning that others were hit by the same system helped them stop blaming themselves.",
    "response_options": {
-    "soft_clarification": "Ask a supervisor or the platform's support team in writing what data and rules were used for a specific decision, and who can review it.",
+    "soft_clarification": "Ask a supervisor or the platform's support team, in writing, what data and rules were used for a specific decision. Also ask who can review it.",
     "firm_boundary": "Save screenshots, messages and records of hours, pay and warnings, with dates, outside the company's own systems.",
-    "disengagement": "If the constant tracking is wearing you down, look at where you can safely ease the pace and what your options are for other work, without making sudden changes.",
+    "disengagement": "If the constant tracking is wearing you down, look at where you can safely ease the pace. Also look at your options for other work, and avoid sudden changes.",
     "support_seeking": "Compare notes with coworkers or a worker group. Seeing that others had the same unexplained outcomes can show whether it is a system issue and not something you did.",
-    "workplace_or_professional": "A union, a worker center or an employment attorney can explain what rights to information and review may apply where you work, and how to raise a dispute."
+    "workplace_or_professional": "A union, a worker center or an employment attorney can explain what rights to information and review may apply where you work. They can also explain how to raise a dispute."
    },
    "boundary_script": "\"Which data and rules led to this decision, and who can review it? Could you send me that, along with a way to submit corrections, in writing?\"",
    "safety_note": "The main exposure is to income and work: deactivation, cut hours or pay, sometimes with no warning or person to appeal to. Concern rises when the pace starts to cause injury or exhaustion, so protect your breaks. Keep your own records of hours, pay and messages outside the company's systems. A union, worker center or employment attorney can advise on rights. If you are hurt, get medical help first.",
@@ -34956,7 +34956,7 @@
     "HR Shielding",
     "Performance Framework Manipulation"
    ],
-   "how_to_distinguish_from_related": "Performance Framework Manipulation is usually human judgment dressed up as measurement, while here a system makes or relays the decision and nobody can explain it. Institutional Betrayal is about a failed response to harm. Silence Engineering teaches people to stay quiet by example, whereas this controls pace, pay and hours through software that sees everything and answers no questions.",
+   "how_to_distinguish_from_related": "Performance Framework Manipulation is usually human judgment dressed up as measurement. Here a system makes or relays the decision and nobody can explain it. Institutional Betrayal is about a failed response to harm. Silence Engineering teaches people to stay quiet by example, whereas this controls pace, pay and hours through software that sees everything and answers no questions.",
    "detection_notes": "Not matched or scored. Pasted personal text cannot establish an institutional- or societal-scale pattern — that requires independent, corroborated, documented evidence at a completely different scale.",
    "codex_maturity": "mature",
    "human_review_flags": [
@@ -34971,14 +34971,14 @@
    "branch": "reference",
    "category": "Reality Distortion",
    "detectability_note": "This tool cannot establish this from pasted text at all. It is included for literacy only, so you can learn to recognize the concept — not as something this tool detects, scores, or flags.",
-   "core_meaning": "Rewriting the agreed record of past events to fit a preferred present story, even though others clearly remember it differently.",
+   "core_meaning": "Changing the agreed account of past events so it matches the story someone prefers now, even though others clearly remember it differently.",
    "aftermath_state": false,
    "forensic_only": false,
    "absorbs": [],
-   "short_definition": "Rewriting the agreed record of past events to fit a preferred present story, even though others clearly remember it differently.",
-   "expanded_definition": "Revisionist history, in a personal setting, is retelling a shared past so that it now says something it did not say then. A promise becomes a maybe, an argument becomes a joke, a decision becomes yours alone. Memory blurs for everyone, so a different retelling can be honest. The pattern is a version that changes direction exactly when the original becomes inconvenient, that has no room for the documents or witnesses, and that is repeated until the old account is hard to hold.",
+   "short_definition": "Changing the agreed account of past events so it matches the story someone prefers now, even though others clearly remember it differently.",
+   "expanded_definition": "In a personal setting, revisionist history is retelling a shared past so that it now says something it did not say then. A promise becomes a maybe, an argument becomes a joke, a decision becomes yours alone. Memory blurs for everyone, so a different retelling can be honest. The pattern is a version that changes direction exactly when the original becomes inconvenient. It also has no room for the documents or witnesses, and it is repeated until the old account is hard to hold.",
    "plain_language_summary": "The story of the past gets rewritten to fit the present. Your memory, and often the paperwork, says otherwise, yet you seem out of step.",
-   "why_this_matters": "Agreements stop being safe to rely on, because the version that counts is whichever suits the present, and the person who remembers accurately spends the conversation arguing about the past instead of the point.",
+   "why_this_matters": "Agreements stop being safe to rely on, because the version that counts is whichever suits the present. The person who remembers accurately ends up arguing about the past instead of the point.",
    "what_it_is": [
     "A retelling of a past promise, decision or event that quietly reverses what was understood at the time.",
     "A version that always shifts in the direction that favors the teller, as the facts become inconvenient.",
@@ -35052,21 +35052,21 @@
    ],
    "repair_check": "What matters is whether the record becomes shared again. A real change is an account that matches the documents, an admission that the earlier retelling was wrong, and agreements that then hold. A smooth 'we both remember it differently' that leaves the rewritten version standing is not that.",
    "boundary_respect_check": "Do they agree on a record both of you can point to, such as a shared note or an email? Watch whether the new account then respects it or whether the record itself is suddenly disputed as 'out of context'.",
-   "psychological_mechanism": "A story told confidently and often can start to feel like memory, both for the teller and the listener. When the retold version is the only one anyone brings up, the original can fade, and a person may begin to wonder if they are the one who has it wrong. Having no shared record to point to tends to make that doubt stronger.",
+   "psychological_mechanism": "A story told confidently and often can begin to pass as memory, for the teller and the listener. When the retold version is the only one anyone brings up, the original can fade, and a person may begin to wonder if they are the one who has it wrong. Having no shared record to point to often makes that doubt stronger.",
    "possible_impact_on_receiver": "People describe being unsure whether to trust an agreement, spending conversations defending the past and not discussing the point. Some say they began to take notes or save messages and felt guilty doing so. Others describe a strange loneliness in being the only one who remembered it the way it was.",
    "response_options": {
     "soft_clarification": "Point to the record in a neutral way: 'That isn't how I have it. Can we look at what we wrote at the time?'",
     "firm_boundary": "Hold to what was agreed: 'We agreed on this, and it's in writing. I'm not willing to treat it as something else now.'",
-    "disengagement": "If the version keeps changing, stop negotiating from memory and move any further agreements into a written form both of you sign or send.",
+    "disengagement": "If the version keeps changing, stop negotiating from memory. Move any further agreements into writing that both of you sign or send.",
     "support_seeking": "Ask someone who was there what they remember, and share the documents with a person you trust to confirm what they say.",
-    "workplace_or_professional": "Send meeting summaries and decisions by email the same day, and file them where others can see, so that the agreed record exists beyond anyone's recollection."
+    "workplace_or_professional": "Send meeting summaries and decisions by email the same day, and file them where others can see them. That way the agreed record exists beyond anyone's recollection."
    },
    "boundary_script": "\"I have the agreement in writing, and it says what I've told you. If you remember it differently, I'm happy to look at the document together. I won't treat the new version as what we decided.\"",
-   "safety_note": "A rewritten past is mostly a trust and fairness problem. It becomes a risk when the rewritten item involves money you rely on, housing, child arrangements, immigration paperwork or legal commitments, or when keeping records brings anger. Keep copies of important documents somewhere private and consult legal aid, a mediator or an advocate before any big decision rests on the disputed account.",
+   "safety_note": "A rewritten past is mostly a trust and fairness problem. It becomes a risk when the rewritten item involves money you rely on, housing, child arrangements, immigration paperwork or legal commitments, or when keeping records brings anger. Keep copies of important documents somewhere private. Consult legal aid, a mediator or an advocate before any big decision rests on the disputed account.",
    "safety_sensitive": false,
    "misuse_warning": [
     "Calling every different recollection 'revisionism' treats ordinary memory drift as bad faith. The label needs evidence of a direction, a record and a refusal to adjust.",
-    "Using it to dismiss a person who is genuinely reappraising a painful past, such as a survivor re-reading events, would be a misuse."
+    "It is a misuse to use the term against someone who is honestly rethinking a painful past, such as a survivor re-reading events."
    ],
    "related_tactics": [
     "Gaslighting",

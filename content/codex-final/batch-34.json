@@ -485,10 +485,10 @@
   "core_meaning": "Presenting harmful or hurtful treatment as ordinary and not worth questioning, so that objecting to it seems like the problem."
  },
  "Revisionist History": {
-  "short_definition": "Rewriting the agreed record of past events to fit a preferred present story, even though others clearly remember it differently.",
-  "expanded_definition": "Revisionist history, in a personal setting, is retelling a shared past so that it now says something it did not say then. A promise becomes a maybe, an argument becomes a joke, a decision becomes yours alone. Memory blurs for everyone, so a different retelling can be honest. The pattern is a version that changes direction exactly when the original becomes inconvenient, that has no room for the documents or witnesses, and that is repeated until the old account is hard to hold.",
+  "short_definition": "Changing the agreed account of past events so it matches the story someone prefers now, even though others clearly remember it differently.",
+  "expanded_definition": "In a personal setting, revisionist history is retelling a shared past so that it now says something it did not say then. A promise becomes a maybe, an argument becomes a joke, a decision becomes yours alone. Memory blurs for everyone, so a different retelling can be honest. The pattern is a version that changes direction exactly when the original becomes inconvenient. It also has no room for the documents or witnesses, and it is repeated until the old account is hard to hold.",
   "plain_language_summary": "The story of the past gets rewritten to fit the present. Your memory, and often the paperwork, says otherwise, yet you seem out of step.",
-  "why_this_matters": "Agreements stop being safe to rely on, because the version that counts is whichever suits the present, and the person who remembers accurately spends the conversation arguing about the past instead of the point.",
+  "why_this_matters": "Agreements stop being safe to rely on, because the version that counts is whichever suits the present. The person who remembers accurately ends up arguing about the past instead of the point.",
   "what_it_is": [
    "A retelling of a past promise, decision or event that quietly reverses what was understood at the time.",
    "A version that always shifts in the direction that favors the teller, as the facts become inconvenient.",
@@ -562,24 +562,24 @@
   ],
   "repair_check": "What matters is whether the record becomes shared again. A real change is an account that matches the documents, an admission that the earlier retelling was wrong, and agreements that then hold. A smooth 'we both remember it differently' that leaves the rewritten version standing is not that.",
   "boundary_respect_check": "Do they agree on a record both of you can point to, such as a shared note or an email? Watch whether the new account then respects it or whether the record itself is suddenly disputed as 'out of context'.",
-  "psychological_mechanism": "A story told confidently and often can start to feel like memory, both for the teller and the listener. When the retold version is the only one anyone brings up, the original can fade, and a person may begin to wonder if they are the one who has it wrong. Having no shared record to point to tends to make that doubt stronger.",
+  "psychological_mechanism": "A story told confidently and often can begin to pass as memory, for the teller and the listener. When the retold version is the only one anyone brings up, the original can fade, and a person may begin to wonder if they are the one who has it wrong. Having no shared record to point to often makes that doubt stronger.",
   "possible_impact_on_receiver": "People describe being unsure whether to trust an agreement, spending conversations defending the past and not discussing the point. Some say they began to take notes or save messages and felt guilty doing so. Others describe a strange loneliness in being the only one who remembered it the way it was.",
   "response_options": {
    "soft_clarification": "Point to the record in a neutral way: 'That isn't how I have it. Can we look at what we wrote at the time?'",
    "firm_boundary": "Hold to what was agreed: 'We agreed on this, and it's in writing. I'm not willing to treat it as something else now.'",
-   "disengagement": "If the version keeps changing, stop negotiating from memory and move any further agreements into a written form both of you sign or send.",
+   "disengagement": "If the version keeps changing, stop negotiating from memory. Move any further agreements into writing that both of you sign or send.",
    "support_seeking": "Ask someone who was there what they remember, and share the documents with a person you trust to confirm what they say.",
-   "workplace_or_professional": "Send meeting summaries and decisions by email the same day, and file them where others can see, so that the agreed record exists beyond anyone's recollection."
+   "workplace_or_professional": "Send meeting summaries and decisions by email the same day, and file them where others can see them. That way the agreed record exists beyond anyone's recollection."
   },
   "boundary_script": "\"I have the agreement in writing, and it says what I've told you. If you remember it differently, I'm happy to look at the document together. I won't treat the new version as what we decided.\"",
   "safety_sensitive": false,
-  "safety_note": "A rewritten past is mostly a trust and fairness problem. It becomes a risk when the rewritten item involves money you rely on, housing, child arrangements, immigration paperwork or legal commitments, or when keeping records brings anger. Keep copies of important documents somewhere private and consult legal aid, a mediator or an advocate before any big decision rests on the disputed account.",
+  "safety_note": "A rewritten past is mostly a trust and fairness problem. It becomes a risk when the rewritten item involves money you rely on, housing, child arrangements, immigration paperwork or legal commitments, or when keeping records brings anger. Keep copies of important documents somewhere private. Consult legal aid, a mediator or an advocate before any big decision rests on the disputed account.",
   "misuse_warning": [
    "Calling every different recollection 'revisionism' treats ordinary memory drift as bad faith. The label needs evidence of a direction, a record and a refusal to adjust.",
-   "Using it to dismiss a person who is genuinely reappraising a painful past, such as a survivor re-reading events, would be a misuse."
+   "It is a misuse to use the term against someone who is honestly rethinking a painful past, such as a survivor re-reading events."
   ],
   "how_to_distinguish_from_related": "Revisionist History rewrites the shared record, usually in the direction of the teller's gain. Selective Memory claims a blank and offers no new story. Countering contradicts a single account on the spot, without needing a new narrative. Gaslighting works on your trust in your own mind, where revisionism works on the record of what was agreed. Moving Goalposts accepts the deal and changes the standard.",
-  "core_meaning": "Rewriting the agreed record of past events to fit a preferred present story, even though others clearly remember it differently."
+  "core_meaning": "Changing the agreed account of past events so it matches the story someone prefers now, even though others clearly remember it differently."
  },
  "Word Salad": {
   "short_definition": "Answering with long, circular, tangled language that never lands on a point, leaving the listener unable to pin anything down.",

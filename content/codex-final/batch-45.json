@@ -1,10 +1,10 @@
 {
   "Institutional Betrayal": {
-    "short_definition": "An institution that people depend on fails to prevent harm or to respond fairly when it happens, adding a second injury to the first.",
-    "core_meaning": "An institution that people depend on fails to prevent harm or to respond fairly when it happens, adding a second injury to the first.",
-    "expanded_definition": "Institutional betrayal is the term psychologist Jennifer Freyd introduced for the harm an institution does by failing the people who depend on it, such as a school, employer, hospital, congregation or agency. The first harm may come from anyone. The second comes from how the institution handles it: ignoring it, doubting the person, or protecting its own standing. One slow answer proves little. What makes it a pattern is how the whole process treats the person reporting, from first contact to the last letter.",
-    "plain_language_summary": "You were hurt, you turned to the place that was supposed to help, and that place made things worse by ignoring you, doubting you, or protecting itself.",
-    "why_this_matters": "Being harmed and then failed by the body meant to prevent it produces a second injury that often outlasts the first. It can teach a person that reporting brings exposure without remedy, and it can make them doubt their own account of what happened.",
+    "short_definition": "An institution that people depend on fails to prevent harm or to treat them fairly afterward, which adds a second injury to the first one.",
+    "core_meaning": "An institution that people depend on fails to prevent harm or to treat them fairly afterward, which adds a second injury to the first one.",
+    "expanded_definition": "Institutional betrayal is the term psychologist Jennifer Freyd introduced for the harm an institution does when it fails the people who depend on it, such as a school, employer, hospital, congregation or agency. The first harm may come from anyone. The second comes from how the institution handles it: ignoring it, doubting the person, or protecting its own standing. One slow answer proves little. It becomes a pattern in how the whole process treats the person reporting, from first contact to the last letter.",
+    "plain_language_summary": "You were hurt and turned to the place that was supposed to help. That place made things worse by ignoring you, doubting you, or protecting itself.",
+    "why_this_matters": "Being harmed and then failed by the body meant to prevent it causes a second injury that often outlasts the first. It can teach a person that reporting brings exposure without a fix. It can also make them doubt their own account of what happened.",
     "what_it_is": [
       "A failure at two points: before the harm, when warning signs go unaddressed, and after it, when the response is poor or hostile.",
       "Something the people depending on the institution experience, such as students, patients, employees, members or service users.",
@@ -45,12 +45,12 @@
     ],
     "innocent_or_ordinary_possibilities": [
       "Staff may be bound by privacy rules and unable to say what was done, which can feel like silence from the outside.",
-      "A small or under-resourced office may be slow because it is overloaded, not because it is protecting anyone.",
+      "A small or under-resourced office may be slow because it is overloaded, and not because it is protecting anyone.",
       "A process can seem cold because it is built to be neutral toward both sides, including the person you reported."
     ],
     "common_false_positives": [
-      "An investigation that finds insufficient evidence, which is a different thing from a finding that you were not believed.",
-      "A busy office that takes weeks to reply to everyone, not only to you.",
+      "An investigation that finds not enough evidence. That is different from a finding that you were not believed.",
+      "A busy office that takes weeks to reply to everybody, you included.",
       "A policy that is rigid and unfair but applied to every case the same way, with no sign of shielding anyone."
     ],
     "discernment_questions": [
@@ -63,7 +63,7 @@
     "less_concerning_if": [
       "You were told what the process is, and the institution has followed it.",
       "Your account was taken seriously even though the outcome was limited.",
-      "Someone outside the immediate chain, such as an ombudsperson's office (an independent complaints office), can review how the matter was handled."
+      "Someone outside the immediate chain can review how the matter was handled, such as an ombudsperson's office (an independent complaints office)."
     ],
     "more_concerning_if": [
       "Other people with similar reports describe the same kind of response from the same place.",
@@ -76,38 +76,38 @@
       "You stop telling the institution things, and may stop relying on other institutions too.",
       "Years later, the way you were treated still comes up as often as the original event does."
     ],
-    "repair_check": "Real accountability from an institution is concrete: someone with authority names what went wrong, explains what will change, and the change can be checked later. A warm statement of regret with no named failure and no follow-up is the part that tends to look like repair without being it.",
+    "repair_check": "Real accountability from an institution is concrete. Someone with authority names what went wrong and explains what will change, and the change can be checked later. A warm statement of regret with no named failure and no follow-up often looks like repair without being it.",
     "boundary_respect_check": "Ask whether you can have the process, timeline and outcome in writing, and notice what comes back. A clear written answer, or an honest account of why it cannot be given, suggests respect. Vague reassurance that changes nothing on paper suggests the question was managed, not heard.",
-    "psychological_mechanism": "Trust placed in a school, employer or agency can make its failure land harder than the original harm, since there may be nowhere else to turn. A person in that spot may start blaming themselves, wonder if they overreacted, or quietly accept the institution's framing just to end the uncertainty.",
-    "possible_impact_on_receiver": "People describe distrust of the institution and sometimes of all institutions, a reluctance to report anything again, shame about having spoken, and a sense of having been harmed twice. Some describe losing the place they belonged to, such as a school or workplace, as well as losing trust in it. Some say being believed later by an outsider mattered a great deal.",
+    "psychological_mechanism": "Trust placed in a school, employer or agency can make its failure hit harder than the original harm, since there may be nowhere else to turn. A person in that spot may start blaming themselves or wonder if they overreacted. They may also quietly accept the institution's framing just to end the uncertainty.",
+    "possible_impact_on_receiver": "Afterward, people describe distrust of the institution and sometimes of all institutions, a reluctance to report anything again, shame about having spoken, and a sense of having been harmed twice. Some describe losing the place they belonged to, such as a school or workplace, as well as losing trust in it. Some say being believed later by an outsider mattered a great deal.",
     "response_options": {
       "soft_clarification": "Ask the office for the process in writing: who is handling your report, what the steps are, and when you can expect an update.",
-      "firm_boundary": "Keep your own dated record of every contact, and ask that any decision about your case be put in writing before you agree to anything.",
-      "disengagement": "If dealing with the institution directly is wearing you down, ask a trusted person or advocate to handle the contact, or pause and take it up when you have more support.",
+      "firm_boundary": "Keep your own dated record of every contact. Ask that any decision about your case be put in writing before you agree to anything.",
+      "disengagement": "If dealing with the institution directly is wearing you down, ask a trusted person or advocate to handle the contact. You can also pause and take it up again when you have more support.",
       "support_seeking": "Talk with an advocate for the type of harm involved, a counselor, or a lawyer who can explain what routes outside the institution exist. Being believed by someone outside can matter.",
-      "workplace_or_professional": "Ask whether an ombudsperson's office, a union representative or an outside regulator can review how your report was handled, and consider a consult with an employment or education attorney."
+      "workplace_or_professional": "Ask whether an ombudsperson's office, a union representative or an outside regulator can review how your report was handled. You might also consider a consult with an employment or education attorney."
     },
     "boundary_script": "\"I would like the steps of this process, who is handling my report, and the timeline in writing. I would also like to bring a support person to any meeting about it.\"",
     "safety_sensitive": true,
     "safety_note": "Watch for quiet changes after you report: loss of hours, grades, housing, a role or a reference, or being treated as the problem. Those can be retaliation and are worth documenting with dates. Keep copies somewhere the institution does not control, and talk with an advocate or an attorney before taking any step. If you feel unsafe or have thoughts of harming yourself, contact emergency services or a crisis line right away.",
     "misuse_warning": [
-      "Labeling any slow or disappointing response as betrayal can overlook genuine legal limits and honest processes. The term fits a pattern of protecting the institution at the person's expense, not every unwelcome outcome.",
-      "Using the word to condemn a whole organization, including people who worked hard on your behalf, can leave out the individuals who did try to help."
+      "Calling any slow or disappointing response betrayal can overlook real legal limits and honest processes. The term fits a pattern of protecting the institution at the person's expense, and not every unwelcome outcome.",
+      "Using the word against a whole organization can leave out the individuals who did try to help, including people who worked hard on your behalf."
     ],
-    "how_to_distinguish_from_related": "Silence Engineering is a culture that teaches people not to speak up before anything is reported, while betrayal concerns how the institution responds to a specific report of harm. HR Shielding is one mechanism, the complaint machinery working for the institution, whereas betrayal can also be plain neglect with no one shielded. Performance Framework Manipulation works through scores and reviews, not through a response to a report."
+    "how_to_distinguish_from_related": "Silence Engineering is a culture that teaches people not to speak up before anything is reported, while betrayal concerns how the institution responds to a specific report of harm. HR Shielding is one mechanism, the complaint machinery working for the institution. Betrayal can also be plain neglect with no one shielded. Performance Framework Manipulation works through scores and reviews, and not through a response to a report."
   },
   "Organizational Silence Engineering": {
     "short_definition": "Building a workplace culture in which people learn that speaking up brings punishment and staying quiet brings safety.",
     "core_meaning": "Building a workplace culture in which people learn that speaking up brings punishment and staying quiet brings safety.",
-    "expanded_definition": "Organizational silence engineering is a pattern in which a workplace teaches its people, through what happens to others, that raising problems costs more than it gains. Nobody has to forbid anything. People watch who gets sidelined after a complaint, whose concern disappears into a form, and who is praised for going along. Soon they stop sharing bad news. One quiet meeting means little. A habit of silence across a whole team, about things everyone can see, is the signal.",
-    "plain_language_summary": "People at a workplace see what happens to those who raise problems, so they stop raising them, and everyone knows about issues that no one will say out loud.",
-    "why_this_matters": "Problems that people can plainly see go unreported, and the cost lands first on whoever the warning would have protected, then on the person who stayed quiet and knew. Over time, people can lose their sense that anything they say matters.",
+    "expanded_definition": "Organizational silence engineering is a pattern where a workplace teaches its people, through what happens to others, that raising problems costs more than it gains. Nobody has to forbid anything. People watch who gets sidelined after a complaint, whose concern disappears into a form, and who is praised for going along. Soon they stop sharing bad news. One quiet meeting means little. The signal is a habit of silence across a whole team, about things everyone can see.",
+    "plain_language_summary": "People at a workplace see what happens to those who raise problems, so they stop raising them. Everyone knows about issues that no one will say out loud.",
+    "why_this_matters": "Problems that people can plainly see go unreported. The cost lands first on whoever the warning would have protected, then on the person who stayed quiet and knew. Over time, people can lose their sense that anything they say matters.",
     "what_it_is": [
       "A culture, not a rule: the lesson is taught by watching what happens to coworkers who spoke up.",
-      "Often built from small signals, such as a raised eyebrow in a meeting, a joke about troublemakers or a pointed absence from a later invitation.",
+      "Often built from small signals. Examples are a raised eyebrow in a meeting, a joke about troublemakers, or a pointed absence from a later invitation.",
       "Marked by a gap between what is said in private hallway talk and what is said in official meetings.",
-      "Reinforced when feedback channels exist on paper but produce nothing visible, so people conclude there is no point.",
-      "Costly for the organization too, because safety problems, errors and ethical concerns stay hidden until they get large."
+      "Reinforced when feedback channels exist on paper but produce nothing anyone can see. People conclude there is no point.",
+      "Costly for the organization too. Safety problems, errors and ethical concerns stay hidden until they grow large."
     ],
     "what_it_sounds_like": [
       "Everyone nods in the meeting, then the real talk happens in the parking lot.",
@@ -121,9 +121,9 @@
     "what_it_is_not": [
       "A calm, well-run team in which people simply have little to complain about.",
       "A workplace where people prefer to raise things one-to-one, not in meetings, and are heard when they do.",
-      "A confidentiality rule that limits what can be shared outside the company for a legitimate reason, such as client privacy.",
-      "A culture of politeness or reserve that comes from the industry or a region's norms, with no cost attached to speaking.",
-      "A single manager who dislikes criticism, in a company that has other routes and where concerns do get acted on.",
+      "A confidentiality rule with a legitimate reason, such as client privacy, that limits what can be shared outside the company.",
+      "A polite or reserved culture that comes from the industry or the region's norms, where speaking up carries no cost.",
+      "A single manager who dislikes criticism, in a company with other routes where concerns do get acted on.",
       "A quiet period after a reorganization, while people wait to see how things settle."
     ],
     "this_may_be_it_when": [
@@ -147,7 +147,7 @@
     ],
     "common_false_positives": [
       "A meeting where nobody speaks because the agenda was dull and the issue was already settled.",
-      "A person who was let go for documented performance reasons after raising a concern separately, where the two are unrelated.",
+      "A person let go for documented performance reasons. They raised a concern separately, and the two are unrelated.",
       "A company that keeps a firm line on sharing client information, which can feel like secrecy to staff."
     ],
     "discernment_questions": [
@@ -163,7 +163,7 @@
       "There is a route outside the chain of command, and it is used without anyone being penalized."
     ],
     "more_concerning_if": [
-      "The silence covers safety, legal or ethical issues, not only matters of taste or preference.",
+      "The silence covers safety, legal or ethical issues as well as matters of taste or preference.",
       "People who spoke up report retaliation such as lost hours, shifts or reviews.",
       "Employees are told, directly or by hint, not to talk to outside parties about concerns."
     ],
@@ -173,32 +173,32 @@
       "Errors that many people noticed early only come out once they are large.",
       "Turnover rises among those who used to speak most, and the ones who remain say less."
     ],
-    "repair_check": "Leaders who want to undo a culture of silence show it in what they do with the next bad news: they thank the messenger, fix the problem visibly, and protect the person who raised it. A new open-door announcement with no change in how past speakers were treated leaves the lesson standing.",
+    "repair_check": "Leaders who want to undo a culture of silence show it in what they do with the next bad news. They thank the messenger, fix the problem visibly, and protect the person who raised it. A new open-door announcement with no change in how past speakers were treated leaves the lesson standing.",
     "boundary_respect_check": "When you raise a concern, ask yourself what happens next. Does anyone report back, and does your standing stay the same weeks later? Respect shows in follow-through and in how you are treated afterward, not in what is said during the meeting itself.",
     "psychological_mechanism": "Watching one coworker get sidelined can teach a whole team what is safe. When speaking up seems to change nothing, effort starts to feel pointless and self-protection takes over. Silence then feels like a personal choice, though it was shaped by what the workplace showed.",
-    "possible_impact_on_receiver": "People describe holding back things they know are wrong, feeling complicit, tension between their conscience and their paycheck, and a flattening of enthusiasm for the work. Some describe guilt about not saying anything earlier, and some describe relief at finding that coworkers had seen the same thing. Others describe leaving a job over it.",
+    "possible_impact_on_receiver": "People describe holding back things they know are wrong, feeling complicit, a pull between conscience and paycheck, and a flattening of enthusiasm for the work. Some describe guilt about not speaking earlier. Some describe relief at finding that coworkers had seen the same thing. Others describe leaving a job over it.",
     "response_options": {
-      "soft_clarification": "Check your read with one trusted coworker: ask whether they have noticed the same hesitation to raise problems, and whether they know of any concern that led to a fix.",
+      "soft_clarification": "Check your read with one trusted coworker. Ask whether they have noticed the same hesitation to raise problems, and whether they know of any concern that led to a fix.",
       "firm_boundary": "Keep a private, dated record of what you raised, to whom and what came back. Keep it somewhere your employer does not control.",
       "disengagement": "You do not have to carry every concern alone. Decide what you can safely raise, and think privately about what you would need before deciding how much to risk.",
-      "support_seeking": "Talk to a trusted mentor outside the company, or a lawyer or advocate who works with employees, about what protections may apply where you work.",
+      "support_seeking": "Talk to a trusted mentor outside the company, or to a lawyer or advocate who works with employees. Ask what protections may apply where you work.",
       "workplace_or_professional": "If your workplace has an ombudsperson's office (an independent complaints office), a union, or an outside reporting line, learn how each works and what it protects before using one. An employment attorney can explain your options."
     },
     "boundary_script": "\"Can you walk me through how concerns get handled here? Who reviews them, and how would I hear what came of mine?\"",
     "safety_sensitive": false,
-    "safety_note": "A culture of silence is mainly a risk to careers and to problems left unreported. Concern rises when retaliation follows speaking up: lost hours, a sudden bad review, a changed role, or hints that your job is at risk. Document those with dates, outside the employer's systems, and talk with an employment attorney, union representative or legal aid clinic before any formal step. If a concern involves immediate danger to people, contact emergency services.",
+    "safety_note": "A culture of silence is mainly a risk to careers and to problems left unreported. Concern rises when retaliation follows speaking up: lost hours, a sudden bad review, a changed role, or hints that your job is at risk. Document those with dates, outside the employer's systems. Talk with an employment attorney, union representative or legal aid clinic before any formal step. If a concern involves immediate danger to people, contact emergency services.",
     "misuse_warning": [
       "Calling a quiet or reserved workplace silenced can ignore people's real reasons for holding back. The label needs evidence of what happened to those who spoke.",
-      "Using it to describe any manager who disagreed with you may turn an ordinary conflict into an accusation about the whole organization."
+      "Using the term for any manager who disagreed with you may turn an ordinary conflict into an accusation against the whole organization."
     ],
-    "how_to_distinguish_from_related": "Whether anyone reports at all is the question here, while Institutional Betrayal concerns the response to a specific report of harm. HR Shielding is complaint machinery that serves the institution once a complaint exists, whereas in a silenced workplace complaints stop arriving. Algorithmic Management controls people through automated decisions, not through the lesson that colleagues learn from watching each other."
+    "how_to_distinguish_from_related": "Here the question is whether anyone reports at all, while Institutional Betrayal concerns the response to a specific report of harm. HR Shielding is complaint machinery that serves the institution once a complaint exists. In a silenced workplace, complaints stop arriving. Algorithmic Management controls people through automated decisions, and not through the lesson that colleagues learn from watching each other."
   },
   "Performance Framework Manipulation": {
-    "short_definition": "Setting up evaluations, targets and reviews so that they reward agreement and loyalty while penalizing skill, dissent and ethical objection.",
-    "core_meaning": "Setting up evaluations, targets and reviews so that they reward agreement and loyalty while penalizing skill, dissent and ethical objection.",
-    "expanded_definition": "Performance framework manipulation is a pattern in which the measures used to judge workers, such as ratings, targets and review steps, end up tracking deference instead of the work. People who go along score well, and those who raise problems or refuse questionable instructions accumulate a record that looks objective. Every scoring system favors some things over others, so one odd rubric proves little. It becomes a pattern when the measures shift whenever the wrong people begin scoring well.",
-    "plain_language_summary": "The way you are scored at work seems to reward agreeing and going along, and to mark down people who are good at the job but raise problems or say no.",
-    "why_this_matters": "Effort shifts from doing the work well to being agreeable about it, and anyone who raises problems accumulates a documented record of underperformance that looks objective to whoever reads it later. That record can follow a person into pay, promotion and job security.",
+    "short_definition": "Designing ratings, targets and reviews so that agreement and loyalty are rewarded, and skill, dissent and ethical objection are marked down.",
+    "core_meaning": "Designing ratings, targets and reviews so that agreement and loyalty are rewarded, and skill, dissent and ethical objection are marked down.",
+    "expanded_definition": "Performance framework manipulation is a pattern in which the measures used to judge workers, such as ratings, targets and review steps, end up tracking deference instead of the work. People who go along score well. Those who raise problems or refuse questionable instructions build up a record that looks objective. Every scoring system favors some things over others, so one odd rubric proves little. It becomes a pattern when the measures shift whenever the wrong people begin scoring well.",
+    "plain_language_summary": "The way you are scored at work seems to reward agreeing and going along. It marks down people who are good at the job but raise problems or say no.",
+    "why_this_matters": "Effort shifts from doing the work well to being agreeable about it. Anyone who raises problems builds up a documented record of underperformance that looks objective to whoever reads it later. That record can follow a person into pay, promotion and job security.",
     "what_it_is": [
       "A mismatch between what the job actually requires and what the scoring system measures.",
       "Targets, rating scales or review criteria that are vague enough to be applied differently to different people.",
@@ -218,7 +218,7 @@
     "what_it_is_not": [
       "A rubric that undervalues your particular strengths. That is a design flaw, not a control mechanism.",
       "A fair performance plan with clear, achievable goals, regular check-ins and support to meet them.",
-      "A stricter review cycle because the company is under financial pressure and is applying new standards to everyone.",
+      "A stricter review cycle because the company is under financial pressure and applies new standards to everyone.",
       "Honest critical feedback from a manager who wants you to improve and says so openly.",
       "Ratings forced into a curve that disadvantage some people each year without regard to who they are or what they said.",
       "A bad year for you, in which the results were weak and the review reflected that accurately."
@@ -270,32 +270,32 @@
       "Your good results are no longer mentioned in reviews, while small lapses are recorded.",
       "The documents about you grow in number while the conversations about you shrink."
     ],
-    "repair_check": "A fair fix is visible in the paperwork: criteria are written and shared, your rating is looked at again by someone outside your reporting line, and past records are corrected where they were wrong. A kind meeting and a promise to do better, with the file left unchanged, only looks like repair.",
+    "repair_check": "A fair fix is visible in the paperwork. Criteria are written and shared, someone outside your reporting line looks at your rating again, and past records are corrected where they were wrong. A kind meeting and a promise to do better, with the file left unchanged, only looks like repair.",
     "boundary_respect_check": "Ask for the criteria and examples behind a rating, in writing, and see what comes back. A specific answer you can respond to suggests a genuine measure. Shifting reasons, or a reply that moves to your attitude for asking, suggests the score is not really about the work.",
-    "psychological_mechanism": "A score that looks neutral can carry more weight than a boss's opinion, so workers adapt to it even when it measures the wrong thing. When the measures reward agreeing, doubting yourself and staying quiet can start to feel sensible. A record that builds slowly can make a person question their own competence before anyone else does.",
-    "possible_impact_on_receiver": "People describe anxiety before reviews, losing confidence in work they once did well, a feeling of being set up to fail, and fear for their pay or position. Some describe shifting their effort toward looking agreeable. Some say seeing the pattern laid out on paper helped them stop blaming themselves, and some describe leaving a role they were good at.",
+    "psychological_mechanism": "A score that looks neutral can carry more weight than a boss's opinion, so workers adapt to it even when it measures the wrong thing. When the measures reward agreeing, doubting yourself and staying quiet can start to look sensible. A record that builds slowly can make a person question their own competence before anyone else does.",
+    "possible_impact_on_receiver": "People describe anxiety before reviews, losing confidence in work they once did well, a sense of being set up to fail, and fear for their pay or position. Some describe shifting their effort toward looking agreeable. Some say seeing the pattern laid out on paper helped them stop blaming themselves. Others describe leaving a role they were good at.",
     "response_options": {
       "soft_clarification": "Ask your manager to put the criteria for your rating in writing, with an example of what a stronger result would have looked like.",
-      "firm_boundary": "Write down your own account of the facts and add it to your file where your employer allows responses, rather than only signing the review.",
+      "firm_boundary": "Write down your own account of the facts and add it to your file where your employer allows responses. Do this instead of only signing the review.",
       "disengagement": "You do not need to turn every review into a debate. Keep your copies and your own results records, and take time to decide what, if anything, to dispute.",
-      "support_seeking": "Show your records to a trusted mentor outside your reporting line, or to a union representative, to check whether the ratings fit your results.",
-      "workplace_or_professional": "Ask whether there is a formal way to dispute a rating or plan, and consider talking with an employment attorney or legal aid before signing anything that you do not understand."
+      "support_seeking": "Show your records to a trusted mentor outside your reporting line, or to a union representative. Ask whether the ratings fit your results.",
+      "workplace_or_professional": "Ask whether there is a formal way to dispute a rating or plan. Consider talking with an employment attorney or legal aid before you sign anything you do not understand."
     },
     "boundary_script": "\"Before I sign, please send me the written criteria for this rating and the earlier feedback it relies on. My own response should go in the file as well.\"",
     "safety_sensitive": false,
-    "safety_note": "This mostly puts income and standing at stake, not physical safety. It becomes more serious when a rating or plan appears to set up a dismissal, or when you are pressed to resign or sign a release. Keep copies of your results, feedback and reviews outside work systems, with dates. Before signing, ask for time and advice from an employment attorney, union representative or legal aid service, since rights vary by place.",
+    "safety_note": "This mostly puts income and standing at stake, not physical safety. It becomes more serious when a rating or plan appears to set up a dismissal, or when you are pressed to resign or sign a release. Keep dated copies of your results, feedback and reviews outside work systems. Before signing, ask for time and advice from an employment attorney, union representative or legal aid service, since rights vary by place.",
     "misuse_warning": [
       "Reading every poor review as manipulation can keep a person from hearing accurate feedback. The label needs evidence that the measures track deference more than work.",
       "Using it to describe any rubric you dislike turns a design flaw into an accusation."
     ],
-    "how_to_distinguish_from_related": "Here the harm is built into scoring and records, with no report involved, unlike Institutional Betrayal, which is a failed response to harm. Silence Engineering teaches people to stay quiet through example, while this works through formal ratings. Algorithmic Management also scores people, but through automated systems with no person to ask, whereas this is usually a human-run process with judgment applied unevenly."
+    "how_to_distinguish_from_related": "Here the harm is built into scoring and records with no report involved, unlike Institutional Betrayal, which is a failed response to harm. Silence Engineering teaches people to stay quiet through example, while this works through formal ratings. Algorithmic Management also scores people, but through automated systems with no person to ask. This one is usually a human-run process with judgment applied unevenly."
   },
   "Algorithmic Management": {
-    "short_definition": "Using automated systems to assign tasks, track output and make decisions about workers' hours, pay or jobs, with little human review.",
-    "core_meaning": "Using automated systems to assign tasks, track output and make decisions about workers' hours, pay or jobs, with little human review.",
-    "expanded_definition": "Algorithmic management is the use of software to direct and judge work: it hands out tasks, sets schedules, measures speed and flags people for discipline. Software on its own is common and often useful. The concern is when the criteria are hidden, the data cannot be seen or corrected, and no person can be reached to review a decision. Then workers face a boss they cannot question. It shows up in delivery, warehouse, driving, call center and retail work, among others.",
-    "plain_language_summary": "Software decides your tasks, your hours or whether you keep the job, and there is no person you can ask why or push back on.",
-    "why_this_matters": "Consequential decisions arrive with no one to ask and nowhere to appeal, so workers adapt to a system they cannot see and blame themselves for outcomes they have no way to examine. Pay, hours and job security can turn on numbers nobody will explain.",
+    "short_definition": "Software that assigns tasks, tracks output and makes decisions about workers' hours, pay or jobs, with little human review.",
+    "core_meaning": "Software that assigns tasks, tracks output and makes decisions about workers' hours, pay or jobs, with little human review.",
+    "expanded_definition": "Algorithmic management is the use of software to direct and judge work. It hands out tasks, sets schedules, measures speed and flags people for discipline. Software on its own is common and often useful. The concern is when the criteria are hidden, the data cannot be seen or corrected, and no person can be reached to review a decision. Then workers face a boss they cannot question. It shows up in delivery, warehouse, driving, call center and retail work, among others.",
+    "plain_language_summary": "Software decides your tasks, your hours or whether you keep the job. There is no person you can ask why or push back on.",
+    "why_this_matters": "Big decisions arrive with no one to ask and nowhere to appeal. Workers adapt to a system they cannot see, and they blame themselves for outcomes they have no way to check. Pay, hours and job security can turn on numbers nobody will explain.",
     "what_it_is": [
       "Software that assigns work, sets pace, tracks location or output and scores workers continuously.",
       "Decisions about scheduling, pay or discipline that come from the system, sometimes with a manager simply passing them along.",
@@ -313,7 +313,7 @@
       "Appeals go to a form or chatbot that returns the same reply every time."
     ],
     "what_it_is_not": [
-      "A schedule generated by software is not a control apparatus. Automation in scheduling and routing is widespread and often simply efficient.",
+      "A schedule made by software is not a system of control in itself. Automation in scheduling and routing is widespread and often just efficient.",
       "A tracking tool that workers can see, that is explained in advance and that a person reviews when something looks wrong.",
       "A safety system, such as one that logs hazards or limits driving hours, that protects the worker as well as the company.",
       "Productivity numbers used as a starting point for a conversation with a manager, not as a verdict.",
@@ -367,16 +367,16 @@
       "Coworkers trade rumors about what the system punishes, since nobody official will say.",
       "You feel watched even during breaks, and start to hurry to keep the numbers up."
     ],
-    "repair_check": "Meaningful change is practical: a named person who can review decisions, a written explanation of how the system judges workers, and corrected records. An apology that blames the system, with no route for review, leaves the same unanswerable boss in place.",
+    "repair_check": "Real change is practical. There is a named person who can review decisions, a written explanation of how the system judges workers, and corrected records. An apology that blames the system and offers no route for review leaves the same unanswerable boss in place.",
     "boundary_respect_check": "Ask who can review a specific decision and what data it used. A named contact and a real answer suggest the system is accountable. If every route loops back to the same automated message, the question has not reached anyone.",
-    "psychological_mechanism": "When a decision comes from a system that cannot be questioned, workers may blame themselves, since the alternative is feeling helpless. Constant measurement can also push a person to work faster and skip breaks without any direct order. Not knowing the rules makes it hard to tell whether a bad outcome was something you did or simply how the system works.",
-    "possible_impact_on_receiver": "People describe constant pressure to keep up, anxiety about unseen scores, exhaustion from rushing, a sense of being treated as a number, and frustration at having no one to talk to. Some describe losing income suddenly through a deactivation they could not contest. Some say learning that others were hit by the same system helped them stop blaming themselves.",
+    "psychological_mechanism": "When a decision comes from a system that cannot be questioned, workers may blame themselves, since the alternative is feeling helpless. Constant measurement can also push a person to work faster and skip breaks without any direct order. Not knowing the rules makes it hard to tell if a bad outcome came from something you did or from how the system works.",
+    "possible_impact_on_receiver": "Workers describe constant pressure to keep up, anxiety about unseen scores, exhaustion from rushing, a sense of being treated as a number, and frustration at having no one to talk to. Some describe losing income suddenly through a deactivation they could not contest. Some say learning that others were hit by the same system helped them stop blaming themselves.",
     "response_options": {
-      "soft_clarification": "Ask a supervisor or the platform's support team in writing what data and rules were used for a specific decision, and who can review it.",
+      "soft_clarification": "Ask a supervisor or the platform's support team, in writing, what data and rules were used for a specific decision. Also ask who can review it.",
       "firm_boundary": "Save screenshots, messages and records of hours, pay and warnings, with dates, outside the company's own systems.",
-      "disengagement": "If the constant tracking is wearing you down, look at where you can safely ease the pace and what your options are for other work, without making sudden changes.",
+      "disengagement": "If the constant tracking is wearing you down, look at where you can safely ease the pace. Also look at your options for other work, and avoid sudden changes.",
       "support_seeking": "Compare notes with coworkers or a worker group. Seeing that others had the same unexplained outcomes can show whether it is a system issue and not something you did.",
-      "workplace_or_professional": "A union, a worker center or an employment attorney can explain what rights to information and review may apply where you work, and how to raise a dispute."
+      "workplace_or_professional": "A union, a worker center or an employment attorney can explain what rights to information and review may apply where you work. They can also explain how to raise a dispute."
     },
     "boundary_script": "\"Which data and rules led to this decision, and who can review it? Could you send me that, along with a way to submit corrections, in writing?\"",
     "safety_sensitive": false,
@@ -385,6 +385,6 @@
       "Calling any software tool at work algorithmic management can overlook systems that help workers and that a person reviews. The concern is hidden criteria and no route to a human.",
       "Blaming an algorithm can also let managers off the hook when they chose the rules; the label should not hide who set them up."
     ],
-    "how_to_distinguish_from_related": "Performance Framework Manipulation is usually human judgment dressed up as measurement, while here a system makes or relays the decision and nobody can explain it. Institutional Betrayal is about a failed response to harm. Silence Engineering teaches people to stay quiet by example, whereas this controls pace, pay and hours through software that sees everything and answers no questions."
+    "how_to_distinguish_from_related": "Performance Framework Manipulation is usually human judgment dressed up as measurement. Here a system makes or relays the decision and nobody can explain it. Institutional Betrayal is about a failed response to harm. Silence Engineering teaches people to stay quiet by example, whereas this controls pace, pay and hours through software that sees everything and answers no questions."
   }
 }
