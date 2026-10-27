@@ -197,7 +197,7 @@
   },
   "Projection": {
     "short_definition": "Charging someone with a behavior or motive that the exchange shows more clearly in the person making the charge.",
-    "expanded_definition": "A classic idea in psychology is that people can attribute their own feelings or impulses to someone else, often without realizing it. In everyday conflict this looks like an accusation that fits the accuser better than the accused, such as 'You're so controlling' said in the middle of a list of instructions. It does not show what anyone meant, and people can do it unknowingly. One mismatch is ordinary. The pattern is a repeated one, where the charges track whatever you just pointed out.",
+    "expanded_definition": "A classic idea in psychology is that people can put their own feelings or impulses onto someone else. They often do it without realizing it. In everyday conflict this looks like an accusation that fits the accuser better than the accused. An example is 'You're so controlling' said in the middle of a list of instructions. It does not show what anyone meant, and people can do it unknowingly. One mismatch is ordinary. The pattern is a repeated one, where the charges track whatever you just pointed out.",
     "plain_language_summary": "You say something is happening, and you are told you are the one doing it, even though the record fits the other person more.",
     "why_this_matters": "You spend the conversation defending yourself against the very thing you came to name. That makes the source of the harm hard to see, and harder to describe to anyone else. The conflict ends in a tie instead of an answer.",
     "what_it_is": [
@@ -292,8 +292,8 @@
     "core_meaning": "Charging someone with a behavior or motive that the exchange shows more clearly in the person making the charge."
   },
   "Authority Hijack": {
-    "short_definition": "Authority Hijack insists it knows what another person really feels, thinks or meant better than they do, and treats their own account as the thing to correct.",
-    "expanded_definition": "Authority Hijack is a claim to be the expert on someone else's inner life, like 'You don't really feel that' or 'What you actually mean is...' The argument stops being about what happened. It becomes about who is allowed to know what you feel. A friend offering a different reading is not this, since you can decline it. The pattern is when your account is always the one up for correction and theirs never is.",
+    "short_definition": "Authority Hijack insists it knows what another person really feels, thinks or meant better than they do, and treats their account as the one to correct.",
+    "expanded_definition": "Authority Hijack is a claim to be the expert on someone else's inner life. It sounds like 'You don't really feel that' or 'What you actually mean is...' The argument stops being about what happened. It becomes about who is allowed to know what you feel. A friend offering a different reading is not this, since you can decline it. The pattern is when your account is always the one up for correction. Theirs never is.",
     "plain_language_summary": "Someone tells you what you really feel or mean, and treats your own explanation of your own mind as the thing that needs fixing.",
     "why_this_matters": "You end up arguing the case for your own feelings, and simply being taken at your word is no longer on offer. Over time you may start checking your inner states against someone else's reading before you trust them.",
     "what_it_is": [
@@ -369,7 +369,7 @@
     ],
     "repair_check": "Change shows when a reading becomes a question and stays one: 'Is it more this, or that?' followed by accepting your answer. Apologizing once for 'assuming' and then telling you your real motive again next week is the same claim in new clothes.",
     "boundary_respect_check": "Try stating what you feel in one short sentence, then stop. Watch who gets the last word. If your sentence stands, your boundary was heard. If it gets a second sentence explaining what you really mean, it was not.",
-    "psychological_mechanism": "Few of us have perfect access to our own motives, so a confident outside reading can sound plausible. When it comes from someone close or with standing, such as a parent, partner or boss, it can be easier to adopt than to resist. Repeated often, it can teach a person to look to others for the answer to what they feel.",
+    "psychological_mechanism": "Few of us have perfect access to our own motives, so a confident outside reading can sound plausible. When it comes from someone close or with standing, it can be easier to adopt than to resist. That might be a parent, partner or boss. Repeated often, it can teach a person to look to others for the answer to what they feel.",
     "possible_impact_on_receiver": "People describe being unable to say what they feel without it being corrected, and then feeling unsure of the feeling itself. Some become guarded and share less. Some say they began asking others what they must be feeling, which they later found disorienting. There can also be a flat anger at not being believed about their own mind.",
     "response_options": {
       "soft_clarification": "Give your account once, plainly: 'I do feel angry. I'm telling you how it is for me.'",
@@ -380,16 +380,16 @@
     },
     "boundary_script": "\"If you're curious what I feel, ask me and I'll tell you. I'm not looking for a reading of it. What I've told you is what's true for me.\"",
     "safety_sensitive": false,
-    "safety_note": "Being told what you really feel is a dispute over who gets to describe your inner life. It deserves closer attention when the 'correction' is used to override your refusals, your consent or your account of being hurt. If you feel pressed toward something you have said no to, speak to a trusted person or an advocate outside the relationship before agreeing to anything.",
+    "safety_note": "Being told what you really feel is a dispute over who gets to describe your inner life. It deserves closer attention when the 'correction' is used to override your refusals or your consent. The same goes for your account of being hurt. If you feel pressed toward something you have said no to, speak to a trusted person or an advocate outside the relationship. Do this before agreeing to anything.",
     "misuse_warning": [
       "Saying 'you can't know what I feel' to shut down any honest observation turns a defense into a wall. Others sometimes see patterns you cannot, and you can listen without agreeing.",
       "Using the label for anyone who offers an interpretation can hurt people who are trying to help."
     ],
     "how_to_distinguish_from_related": "Emotional Invalidation tells you your feeling is wrong or too much. Authority Hijack tells you that you do not have the feeling you say you have. Gaslighting disputes what happened, while this one disputes what is going on inside you. Credibility Theft works on how others see your reliability. This one works on how you are told to see yourself.",
-    "core_meaning": "Authority Hijack insists it knows what another person really feels, thinks or meant better than they do, and treats their own account as the thing to correct."
+    "core_meaning": "Authority Hijack insists it knows what another person really feels, thinks or meant better than they do, and treats their account as the one to correct."
   },
   "Accountability Evasion via Diagnosis": {
-    "short_definition": "Accountability evasion via diagnosis answers a complaint about someone's conduct by suggesting the complainant has a condition, so the complaint is treated as a symptom.",
+    "short_definition": "Accountability evasion via diagnosis answers a complaint about conduct by suggesting the person complaining has a condition, so the complaint is read as a symptom.",
     "expanded_definition": "A complaint is raised, such as a missed diagnosis, a harsh remark or an unsafe workplace. The reply does not say whether it happened. It turns to the complainant: perhaps you are anxious, or stressed, or should talk to someone. Concern for your wellbeing can be genuine. What marks this pattern is where the matter ends: the diagnosis becomes the answer, and the complaint is never examined. It appears in families, workplaces, schools, clinics and services.",
     "plain_language_summary": "You say something went wrong, and the reply is that maybe something is wrong with you, so what you reported never gets looked at.",
     "why_this_matters": "The complaint is never answered. It is converted into a symptom, and you are sent to seek help for a reaction to someone else's conduct. What happened stays unexamined, and you carry both the harm and the label.",
@@ -477,12 +477,12 @@
     },
     "boundary_script": "\"I'm glad you care about how I'm doing, and I'll take that up separately. What I'd like now is an answer to the complaint itself: what happened on the fourteenth, and what will be done about it.\"",
     "safety_sensitive": true,
-    "safety_note": "This can sit next to real stakes. A diagnosis written in a file can affect work, housing, a care placement or custody. Watch for a label being recorded or shared, for help being made a condition of keeping a role or place, and for pressure toward treatment you did not ask for. Ask for copies of what is recorded, and reach an ombudsman, patient advocate, union representative or legal aid service.",
+    "safety_note": "This can sit next to real stakes. A diagnosis written in a file can affect work, housing, a care placement or custody. Watch for a label being recorded or shared. Watch for help being made a condition of keeping a role or place, and for pressure toward treatment you did not ask for. Ask for copies of what is recorded. You can also contact an ombudsman, patient advocate, union representative or legal aid service.",
     "misuse_warning": [
       "Not every suggestion to seek help is an evasion. Treating kind concern as an attack can cost you real support.",
       "Saying a clinician is dodging accountability because they raised a diagnosis can shut out appropriate care. The test is whether your complaint was answered."
     ],
-    "how_to_distinguish_from_related": "Identity Diminishment via Pathologizing turns your everyday limits and reactions into signs of a disorder. This one shows up at the moment of a complaint and ends it. Pseudo-Insight as Shutdown uses psychological terms like 'projecting' in a quarrel, whereas this uses a diagnosis-style reply, often in an institution, so that no review follows. Frame Assassination swaps the topic to your character. Here it is swapped to your condition, and a referral becomes the outcome.",
-    "core_meaning": "Accountability evasion via diagnosis answers a complaint about someone's conduct by suggesting the complainant has a condition, so the complaint is treated as a symptom."
+    "how_to_distinguish_from_related": "Identity Diminishment via Pathologizing turns your everyday limits and reactions into signs of a disorder. This one shows up at the moment of a complaint and ends it. Pseudo-Insight as Shutdown uses psychological terms like 'projecting' in a quarrel. This uses a diagnosis-style reply, often in an institution, so that no review follows. Frame Assassination swaps the topic to your character. Here it is swapped to your condition. A referral becomes the outcome.",
+    "core_meaning": "Accountability evasion via diagnosis answers a complaint about conduct by suggesting the person complaining has a condition, so the complaint is read as a symptom."
   }
 }

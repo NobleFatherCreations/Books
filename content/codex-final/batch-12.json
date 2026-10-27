@@ -1,7 +1,7 @@
 {
   "Spiritual Bypassing": {
-    "short_definition": "Spiritual bypassing uses spiritual or wellness ideas, such as forgiveness, positivity or karma, to avoid answering for a harm and to shame the hurt person's pain.",
-    "core_meaning": "Spiritual bypassing uses spiritual or wellness ideas, such as forgiveness, positivity or karma, to avoid answering for a harm and to shame the hurt person's pain.",
+    "short_definition": "Spiritual bypassing uses spiritual or wellness ideas like forgiveness, positivity or karma to avoid answering for a harm and to shame the hurt person's pain.",
+    "core_meaning": "Spiritual bypassing uses spiritual or wellness ideas like forgiveness, positivity or karma to avoid answering for a harm and to shame the hurt person's pain.",
     "expanded_definition": "Spiritual bypassing is the use of spiritual or wellness language to step around something that went wrong. A person says everything happens for a reason, or that real healing means letting go, and the harm itself never gets named. Often the hurt person's anger is then described as a lack of growth. One kind remark means little. The pattern shows in the order of events: release is asked for first, and acknowledgment either comes late or never comes. This exchange alone does not show what anyone meant by it.",
     "plain_language_summary": "Someone answers your hurt with talk of forgiveness, karma or good vibes, and the thing that hurt you never gets talked about. Your pain starts to look like your own spiritual failing.",
     "why_this_matters": "Your anger gets judged as a spiritual shortcoming, and forgiveness is requested before anything has been acknowledged. The harm is closed off without being repaired. You may start to think the hurt itself was the mistake.",
@@ -75,10 +75,10 @@
       "You stop bringing things up because the answer will be a quote or a teaching.",
       "The same behavior recurs, since nothing was ever acknowledged, and the cycle of forgive-and-move-on starts again."
     ],
-    "repair_check": "Repair would start with the harm being said aloud in the other person's own words, before any talk of forgiveness. The next conversation would then show different behavior. Reassurance that you will feel better once you let go, with the harm still unnamed, leaves the hurt untouched and still waiting to be named.",
+    "repair_check": "Repair would start with the harm being said aloud in the other person's own words, before any talk of forgiveness. The next conversation would then show different behavior. Reassurance that you will feel better once you let go does not help if the harm is still unnamed. It leaves the hurt untouched and waiting to be named.",
     "boundary_respect_check": "Tell them you are not ready to forgive and watch what happens to that sentence. A person who respects it lets it stand and perhaps asks what you need. Treating the sentence as proof that you are stuck, or bringing it up again as a lesson, shows it was not heard.",
     "psychological_mechanism": "Spiritual language tends to carry authority and warmth, which makes it hard to argue with. When it arrives in place of an acknowledgment, a hurt person can start to read their own reaction as the thing that needs fixing. Many people are also taught that anger is a flaw, so the message can slot into a belief that is already there.",
-    "possible_impact_on_receiver": "People describe swallowing anger they believed was justified, feeling ashamed for not forgiving fast enough, and wondering whether they are the one who is spiritually behind. Some say they stopped trusting faith communities or wellness spaces entirely. Some say they went back to the same person for another round because they thought forgiving was the answer.",
+    "possible_impact_on_receiver": "People describe swallowing anger they believed was justified. Some feel ashamed for not forgiving fast enough, and some wonder whether they are the one who is spiritually behind. Some say they stopped trusting faith communities or wellness spaces entirely. Some say they went back to the same person for another round. They thought forgiving was the answer.",
     "response_options": {
       "soft_clarification": "Gently keep the two topics apart: 'I may get to forgiveness in time, but right now I'd like to talk about what actually happened.'",
       "firm_boundary": "Say plainly that your feelings are not a spiritual problem: 'I'm not going to be told my hurt is a lack of growth. I'd like us to talk about the specific thing first.'",
@@ -88,16 +88,16 @@
     },
     "boundary_script": "\"I take your faith seriously, and I'm not asking you to give it up. I am asking you to hear what happened to me before we talk about letting go. I'm not ready to forgive yet, and that isn't a failure.\"",
     "safety_sensitive": false,
-    "safety_note": "Pressure to forgive is a hurtful conversation, not a danger in itself. It matters more when forgiveness is demanded after threats, controlling behavior or physical harm. It also matters when a spiritual leader asks you to handle it quietly, because that can keep someone in a situation that is still unsafe. A domestic abuse advocate or a counselor outside the community can help you think it through first.",
+    "safety_note": "Pressure to forgive is a hurtful conversation, not a danger in itself. It matters more when forgiveness is demanded after threats, controlling behavior or physical harm. It also matters when a spiritual leader asks you to handle it quietly. That can keep someone in a situation that is still unsafe. A domestic abuse advocate or a counselor outside the community can help you think it through first.",
     "misuse_warning": [
       "Calling someone's faith or comfort practice 'bypassing' because it irritates you turns a description of one conversational move into an attack on their beliefs. The word fits a problem of order, not a worldview.",
-      "Using the term to wave away every request to forgive can make it harder to hear a request that is sincere and comes with a real acknowledgment."
+      "Using the term to wave away every request to forgive can make it harder to hear a sincere one. A sincere request comes with a real acknowledgment."
     ],
     "how_to_distinguish_from_related": "Frame Control sets what the conversation is about at all, while spiritual bypassing swaps the harm for a lesson about your growth. Credibility Theft undermines whether your account can be believed. Here your account is accepted but made to look spiritually immature. Accountability Evasion via Diagnosis uses a clinical label for the same purpose. This one borrows the language of wisdom instead."
   },
   "Burden of Proof Shifting": {
-    "short_definition": "Burden of proof shifting arranges an exchange so the person raising a concern must prove they were harmed, are innocent, or deserve ordinary decent treatment.",
-    "core_meaning": "Burden of proof shifting arranges an exchange so the person raising a concern must prove they were harmed, are innocent, or deserve ordinary decent treatment.",
+    "short_definition": "Burden of proof shifting makes the person raising a concern prove they were harmed, are innocent, or deserve ordinary decent treatment.",
+    "core_meaning": "Burden of proof shifting makes the person raising a concern prove they were harmed, are innocent, or deserve ordinary decent treatment.",
     "expanded_definition": "Burden of proof shifting turns a request or a complaint into a trial in which the person who asked has to supply the evidence. In a fair dispute over a contested fact, a claim usually needs support from whoever makes it. This pattern differs. The proof demanded is for a feeling, a boundary or a basic courtesy, and no amount of evidence seems to count. One request for a screenshot proves nothing. The pattern is where the standard sits on one side only.",
     "plain_language_summary": "Instead of answering what you raised, the other person makes you prove it, over and over. It is as though you must earn the right to be treated decently.",
     "why_this_matters": "You have to build a case for ordinary treatment, and the work of proving becomes the price of asking. Most people eventually stop asking, not because things are fine but because the cost is too high.",
@@ -176,7 +176,7 @@
     "psychological_mechanism": "When a person is asked to prove something, they tend to focus on gathering evidence and to take on the role of a defendant. Time and attention go into the case rather than the original need. If the standard keeps shifting, the person can start to doubt that their experience counts without a paper trail.",
     "possible_impact_on_receiver": "People describe over-preparing for ordinary conversations, feeling rehearsed and watched, and giving up on requests that matter. Some say they began to doubt their own account unless it was written down. Others describe anger at being treated like a witness in their own life.",
     "response_options": {
-      "soft_clarification": "Ask which part is in doubt: 'Is there a fact you think I've got wrong, or are you asking me to justify what I need?'",
+      "soft_clarification": "Ask which part is in doubt. Try: 'Is there a fact you think I've got wrong, or are you asking me to justify what I need?'",
       "firm_boundary": "Decline the courtroom framing: 'I'm not going to build a case for being treated kindly. I'm telling you what I need.'",
       "disengagement": "Stop supplying evidence once a pattern of new demands is clear, and tell them you are ending that line of discussion.",
       "support_seeking": "Show someone you trust the list of proofs you were asked for and ask whether it seems proportionate to the request you made.",
@@ -184,10 +184,10 @@
     },
     "boundary_script": "\"I've shown you what I can. This is not a court case, and I don't think I should need documents to be treated respectfully. I'd like us to talk about the request itself.\"",
     "safety_sensitive": false,
-    "safety_note": "The danger is rarely the demand for proof itself. It rises when the proof you gather puts you at risk, for example collecting evidence in secret from someone who monitors your devices or reacts with anger. If gathering it feels unsafe, stop. Talk to an advocate or legal aid about what safe documentation looks like before doing more.",
+    "safety_note": "The danger is rarely the demand for proof itself. It rises when the proof you gather puts you at risk. An example is collecting evidence in secret from someone who monitors your devices or reacts with anger. If gathering it feels unsafe, stop. Talk to an advocate or legal aid about what safe documentation looks like before doing more.",
     "misuse_warning": [
       "Calling every request for evidence burden-shifting can protect a claim that really does need checking. Some claims, including serious accusations, deserve a close look.",
-      "Using the term to refuse all questions about your own account turns a description of unfair standards into a way to dodge being asked anything."
+      "You might use the term to refuse all questions about your own account. That turns a description of unfair standards into a way to dodge being asked anything."
     ],
     "how_to_distinguish_from_related": "Credibility Theft attacks whether you are a reliable person at all. This tactic leaves you as a possible witness but makes you carry all the proof. With Frame Control, the subject of the conversation is what gets changed. Here the topic stays the same and only the duty to prove it moves. Projection hands you the other person's behavior. This one hands you their obligation."
   },
@@ -266,9 +266,9 @@
       "You notice that debunked claims reappear in later conversations as though they had never been answered.",
       "You find yourself preparing long rebuttals in advance, and still falling behind."
     ],
-    "repair_check": "They agree to take one claim at a time, concede one that turns out to be wrong, and stay on a point until it is settled. That is a change in pace. A promise to 'try to be brief' followed by another list of twenty items is the old pattern in a shorter version.",
+    "repair_check": "They agree to take one claim at a time. They concede one that turns out to be wrong, and stay on a point until it is settled. That is a change in pace. A promise to 'try to be brief' followed by another list of twenty items is the old pattern in a shorter version.",
     "boundary_respect_check": "Propose a rule, such as choosing the strongest point and discussing only that one. Watch whether they take it up or treat the proposal itself as dodging. How they respond to a limit on the pace says more than how they responded to your last rebuttal.",
-    "psychological_mechanism": "People can only hold a few things in mind while forming a reply, so a long run of claims often goes past what anyone can track. When one reply covers only part of the list, the gap can be taken as a personal failing. Audiences may also count claims rather than weigh them, and a long list can look more convincing simply because it is long.",
+    "psychological_mechanism": "People can only hold a few things in mind while forming a reply. A long run of claims often goes past what anyone can track. When one reply covers only part of the list, the gap can be taken as a personal failing. Audiences may also count claims rather than weigh them. A long list can look more convincing simply because it is long.",
     "possible_impact_on_receiver": "People describe feeling breathless, behind and slightly stupid after these exchanges, and replaying the conversation afterwards to find what they should have said. Some stop debating with the person. Others begin to doubt a position they had good reason to hold, only because they could not answer every point on the spot.",
     "response_options": {
       "soft_clarification": "Choose one claim and say so: 'There's a lot here. Let's take the one about the budget, and I'll answer that properly before we move on.'",
@@ -279,17 +279,17 @@
     },
     "boundary_script": "\"That's more than I can answer well in one go. Pick the point you think matters most and I'll give it my full attention. Silence on the rest isn't agreement; it means I haven't had time to check it.\"",
     "safety_sensitive": false,
-    "safety_note": "A Gish Gallop is an argument tactic, not a danger signal by itself. It becomes one if the fast pace is joined by shouting, blocking your way out of a room, or demands that you not leave until you have answered everything. If a debate starts to feel physically unsafe, step out and tell someone where you are.",
+    "safety_note": "A Gish Gallop is an argument tactic, not a danger signal by itself. It becomes one if the fast pace is joined by shouting or blocking your way out of a room. It also becomes one if they demand that you not leave until you have answered everything. If a debate starts to feel physically unsafe, step out and tell someone where you are.",
     "misuse_warning": [
       "Calling every long or detailed argument a Gish Gallop can be a way of avoiding a case that has many real parts. Check whether the claims hold before using the label.",
-      "If you accuse someone of galloping because you are losing the argument, you turn a description of a technique into a way to end the debate."
+      "You might accuse someone of galloping because you are losing the argument. If you do, you turn a description of a technique into a way to end the debate."
     ],
     "how_to_distinguish_from_related": "Frame Control decides the subject and terms of a discussion in advance. A Gish Gallop does not choose a frame at all. It buries the real subject under a pile of claims. Priming / Narrative Seeding shapes a view in advance, quietly. A gallop is loud and happens in the moment. Credibility Theft discounts you as a witness to what happened, whereas a gallop leaves you unable to keep up."
   },
   "Limited Hangout": {
-    "short_definition": "A limited hangout admits a smaller wrong or shares part of the truth so the matter seems fully disclosed, while the larger part stays hidden.",
-    "core_meaning": "A limited hangout admits a smaller wrong or shares part of the truth so the matter seems fully disclosed, while the larger part stays hidden.",
-    "expanded_definition": "A limited hangout is a partial confession that works to end the questions. A person offers a real but smaller truth, often before being asked. The admission makes further questions feel unfair: 'I already told you.' The phrase comes from the language of intelligence and politics, where an organization releases part of a story to contain the rest. In private life it can look like confessing the lesser secret. What marks it is the effect, because the smaller admission is used to close the question.",
+    "short_definition": "A limited hangout shares part of the truth or admits a smaller wrong, so it seems fully disclosed while the larger part stays hidden.",
+    "core_meaning": "A limited hangout shares part of the truth or admits a smaller wrong, so it seems fully disclosed while the larger part stays hidden.",
+    "expanded_definition": "A limited hangout is a partial confession that works to end the questions. A person offers a real but smaller truth, often before being asked. The admission makes further questions feel unfair: 'I already told you.' The phrase comes from intelligence and politics. There, an organization releases part of a story to contain the rest. In private life it can look like confessing the lesser secret. What marks it is the effect. The smaller admission is used to close the question.",
     "plain_language_summary": "Someone owns up to a small part of what happened, in a way that makes you stop asking, while the bigger part stays unsaid.",
     "why_this_matters": "You close the matter believing you now have the full picture. The smaller admission is afterwards used as proof that there was nothing more to tell. When the rest surfaces, you may feel you should have known, and trust becomes harder.",
     "what_it_is": [
@@ -361,9 +361,9 @@
       "You feel relief after each disclosure, followed by a sinking feeling a week later.",
       "You start to check the story against records or other people, rather than taking the account as given."
     ],
-    "repair_check": "Repair means the rest comes out without being dragged out. They also accept that your trust will be slow to return. If they confess again only when cornered, then ask you to be grateful for the honesty, the pattern is still running in a different form.",
+    "repair_check": "Repair means the rest comes out without being dragged out. They also accept that your trust will be slow to return. Say they confess again only when cornered, and then ask you to be grateful for the honesty. The pattern is still running in a different form.",
     "boundary_respect_check": "Ask directly: 'Is there anything else connected to this that I should know now?' Watch the response. Calm, complete answers and offering to be checked point toward a real disclosure. Irritation that you are asking at all suggests the earlier admission is being treated as the end of the topic.",
-    "psychological_mechanism": "A confession carries a lot of moral weight, so people often treat it as the full amount owed and feel it would be unkind to keep asking. A smaller admission can also set an anchor, so the later, larger fact seems like an add-on instead of the main event. Wanting the matter to be over can lead a person to accept the first account.",
+    "psychological_mechanism": "A confession carries a lot of moral weight. People often treat it as the full amount owed, and feel it would be unkind to keep asking. A smaller admission can also set an anchor. The later, larger fact then seems like an add-on instead of the main event. Wanting the matter to be over can lead a person to accept the first account.",
     "possible_impact_on_receiver": "People describe a sense of being managed, a double hurt when the rest emerges, and shame at having accepted the first account. Some say they now search for hidden things in every conversation, even with trustworthy people. Others describe feeling guilty for having pushed after an admission that seemed so brave.",
     "response_options": {
       "soft_clarification": "Acknowledge the admission, then keep the question open: 'Thank you for telling me that. I'd still like to know whether there is anything else connected to it.'",
@@ -379,7 +379,7 @@
       "If you treat every gradual disclosure as a limited hangout, you punish people for the way honesty often arrives, in pieces. That can discourage the next piece.",
       "Telling someone 'this is just a limited hangout' in order to dismiss a real confession makes it harder for them to admit anything again."
     ],
-    "how_to_distinguish_from_related": "Frame Control decides what the conversation is about, while a limited hangout accepts the topic and shrinks how much of it is on the table. Priming / Narrative Seeding sets up a view before the event. This tactic arrives after, as a way of settling the story. Projection pins the speaker's own conduct on you, while a limited hangout simply tells a true piece and stops."
+    "how_to_distinguish_from_related": "Frame Control decides what the conversation is about. A limited hangout accepts the topic and shrinks how much of it is on the table. Priming / Narrative Seeding sets up a view before the event. This tactic arrives after, as a way of settling the story. Projection pins the speaker's own conduct on you. A limited hangout simply tells a true piece and stops."
   },
   "Pseudo-Profundity / Intellectual Intimidation": {
     "short_definition": "Pseudo-profundity uses grand, technical or abstract language that sounds deep but explains little, so questioning it seems like admitting you are not clever enough.",
@@ -466,11 +466,11 @@
       "firm_boundary": "Hold your ground on the request: 'I'm not able to agree to something I can't explain back. I'll need it in simpler terms before I decide.'",
       "disengagement": "Put the decision on hold until you have an explanation you can follow, and say that you will not be answering in the meeting.",
       "support_seeking": "Take the claim to someone who knows the field. Ask them to translate it, or to say honestly whether there is anything behind it.",
-      "workplace_or_professional": "Before it goes to a vote or a signature, ask for the proposal in writing in plain language, with the specific outcomes, costs and dates."
+      "workplace_or_professional": "Before it goes to a vote or a signature, ask for the proposal in writing. Ask for plain language, with the specific outcomes, costs and dates."
     },
     "boundary_script": "\"Please put it in plain words with one real example, so I can follow it properly. If it holds up, it will survive being said simply, and I will be glad to hear it.\"",
     "safety_sensitive": false,
-    "safety_note": "The risk is greatest when the language is wrapped around money, health, legal or contract decisions, since a signature given in confusion is hard to undo. Before signing or paying, get an independent explanation from a lawyer, an adviser or someone with no stake in the outcome. Ask for time to think.",
+    "safety_note": "The risk is greatest when the language is wrapped around money, health, legal or contract decisions. A signature given in confusion is hard to undo. Before signing or paying, get an independent explanation from a lawyer, an adviser or someone with no stake in the outcome. Ask for time to think.",
     "misuse_warning": [
       "Calling any difficult language 'pseudo-profound' can be used to dodge ideas you simply have not yet understood. Check for a real attempt at an example first.",
       "Using 'intellectual intimidation' against a genuine expert turns a request for clarity into an insult. It makes experts less willing to explain."
@@ -485,7 +485,7 @@
     "why_this_matters": "You lose the accurate word for your own situation, so describing it plainly now sounds like exaggeration, to other people and often to you. Without the word, it can be harder to find support or to be believed.",
     "what_it_is": [
       "A strong term, such as abuse, trauma, harassment or fraud, applied to minor events until listeners grow tired of it.",
-      "A word that once ended an argument, such as 'gaslighting' or 'bullying', now gets a shrug or an eye roll when someone uses it about something serious.",
+      "Words such as 'gaslighting' or 'bullying' once ended an argument. Now they get a shrug or an eye roll when someone uses them about something serious.",
       "Often visible as a joke or exaggeration, which is part of why it spreads without anyone planning it.",
       "A comparison used to shrink a real claim: 'if that counts, then everything counts'.",
       "A slow change in a community's vocabulary, and in some cases a push by someone who gains if the word loses force."
@@ -553,9 +553,9 @@
       "Each time you try to name a real event, a story about a silly use of the term follows.",
       "Support services, groups or colleagues who once used the term precisely begin to hedge about it."
     ],
-    "repair_check": "Precision comes back when they agree the word has a core meaning, accept your use of it for what happened, and stop quoting trivial uses at you. A promise to 'be careful with the word' is not a repair if they still point at its worst misuse whenever you raise a concern.",
+    "repair_check": "Precision comes back when they agree the word has a core meaning. They accept your use of it for what happened, and stop quoting trivial uses at you. Suppose they promise to 'be careful with the word'. That is not a repair if they still point at its worst misuse whenever you raise a concern.",
     "boundary_respect_check": "Ask yourself whether you can use the plain word for your situation in their presence without a lecture about overuse. If they listen to what you describe and engage with it, the word is being respected. If your description is met with a debate about the word, your point has been put aside.",
-    "psychological_mechanism": "People often give a word weight by how often and how lightly they hear it. When a serious word is attached to many small things, listeners can start to shrink what it means, and they apply that to the next case too. A speaker who needs the word for something real may also edit themselves ahead of time, expecting the eye-roll.",
+    "psychological_mechanism": "People often give a word weight by how often and how lightly they hear it. When a serious word is attached to many small things, listeners can start to shrink what it means. They then apply that to the next case too. A speaker who needs the word for something real may also edit themselves ahead of time, expecting the eye-roll.",
     "possible_impact_on_receiver": "Some people search for a different word and find that none fits. Some are told they are exaggerating when they describe their experience plainly, and they are reluctant to name what happened at all. Some say they were taken seriously only once they used the longer, clinical description. Others stopped using a word that had once helped them understand their lives.",
     "response_options": {
       "soft_clarification": "Separate the word from the event: 'I know that word gets used loosely. I'm using it for this specific thing, and here is what happened.'",
@@ -566,9 +566,9 @@
     },
     "boundary_script": "\"I understand the word is used for a lot of things. I'm using it for what happened on Tuesday, and I'd like you to respond to that. We can talk about the vocabulary afterwards.\"",
     "safety_sensitive": false,
-    "safety_note": "Losing a precise word may make asking for help harder, because a hotline, a court or an HR team may respond to the label you use. If you are describing threats, stalking or violence, describe the acts themselves in plain detail. Tell an advocate or lawyer what happened so they can match it to the right term.",
+    "safety_note": "Losing a precise word may make asking for help harder. A hotline, a court or an HR team may respond to the label you use. If you are describing threats, stalking or violence, describe the acts themselves in plain detail. Tell an advocate or lawyer what happened so they can match it to the right term.",
     "misuse_warning": [
-      "Saying someone is eroding a word because they used it more widely than you would can shut down real changes in how language is used. Words change, and not every change is aimed at you.",
+      "Someone may use a word more widely than you would. Saying they are eroding it can shut down real changes in how language is used. Words change, and not every change is aimed at you.",
       "Using 'dilution' as an accusation in a dispute about vocabulary may end a conversation that could have helped both people find clearer words."
     ],
     "how_to_distinguish_from_related": "Frame Control decides what the conversation is about. Semantic erosion works earlier and wider, by wearing down the word before the conversation starts. Accountability Evasion via Diagnosis replaces your account with a clinical label for you, while this one weakens the label you would use. Credibility Theft discounts you as a witness. Here you are accepted as a witness but left without a word that carries weight."
@@ -576,7 +576,7 @@
   "Dog Whistling / Coded Signaling": {
     "short_definition": "Words that sound ordinary to most listeners but carry a second, often threatening or exclusionary message for people who know the code.",
     "core_meaning": "Words that sound ordinary to most listeners but carry a second, often threatening or exclusionary message for people who know the code.",
-    "expanded_definition": "In dog whistling, also called coded signaling, a message has an ordinary surface for everyone and a second meaning for the person or group who knows the code. That lets the sender say 'I never said that.' It appears in politics, workplaces, families and online. The second meaning is hidden from bystanders by design, so it can rarely be confirmed from the words alone. A phrase that rattles you is a reason to notice and record what happened. It is not proof of a hidden meaning.",
+    "expanded_definition": "In dog whistling, also called coded signaling, a message has an ordinary surface for everyone. It has a second meaning for the person or group who knows the code. That lets the sender say 'I never said that.' It appears in politics, workplaces, families and online. The second meaning is hidden from bystanders by design, so it can rarely be confirmed from the words alone. A phrase that rattles you is a reason to notice and record what happened. It is not proof of a hidden meaning.",
     "plain_language_summary": "A comment sounds normal to everyone, but you or a certain group hear a second message. The speaker can always say they meant nothing.",
     "why_this_matters": "You react to something real that nobody else in the room can see. Your reaction becomes the visible event, while the message itself stays deniable. Being the only one who flinches is isolating, and it can make you doubt what you heard.",
     "what_it_is": [
@@ -648,12 +648,12 @@
       "Others tell you it was nothing, and you stop mentioning it.",
       "A record of dates, words and outcomes begins to show the phrase and the consequence going together."
     ],
-    "repair_check": "Repair would mean the phrase stops. If you ask about it, they explain plainly what they meant, without turning the question back on you. A flat denial while the same phrase keeps turning up, or an explanation that changes each time you ask, leaves you knowing no more than before.",
+    "repair_check": "Repair would mean the phrase stops. If you ask about it, they explain plainly what they meant, without turning the question back on you. A flat denial while the same phrase keeps turning up leaves you knowing no more than before. So does an explanation that changes each time you ask.",
     "boundary_respect_check": "Notice what happens after you say, calmly, that a certain remark unsettles you. If the phrase simply stops and no consequence follows, that is informative. If it returns, or you are told that you are overreacting, you have learned about the response rather than proved anything about the meaning.",
     "psychological_mechanism": "A message that only one person can decode is felt very personally by that person and not at all by anyone else. This can leave the recipient alert and alone, since nobody can confirm what they heard. Because a denial is always available, the recipient may start doubting their own reading, and the signal can work through that uncertainty as much as through its content.",
     "possible_impact_on_receiver": "People describe a constant watchfulness, a sense of being singled out in plain sight, and a reluctance to mention it because it sounds paranoid. Some describe changing their behavior long before anyone has asked them to. Others describe a doubt about their own perception, wondering whether they are reading too much into everything.",
     "response_options": {
-      "soft_clarification": "Ask once, in a calm moment and in writing if you can: 'When you said that on Friday, what did you mean by it?' Then keep their answer.",
+      "soft_clarification": "Ask once, in a calm moment and in writing if you can. Try: 'When you said that on Friday, what did you mean by it?' Then keep their answer.",
       "firm_boundary": "State your experience without arguing about their intent: 'That phrase makes me uneasy, so please don't use it with me.'",
       "disengagement": "Move conversations to a time and place with other people present, or to writing, so that remarks can be seen and recorded.",
       "support_seeking": "Keep a private log of the date, the exact words and what followed. Show it to an advocate or someone you trust who can look at the pattern with you.",

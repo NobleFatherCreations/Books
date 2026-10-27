@@ -23,7 +23,7 @@
     ],
     "what_it_is_not": [
       "A household or workplace with norms about how feelings get expressed, such as no shouting at the table. Cultures differ widely, and a difference in emotional style is not a tactic.",
-      "A rule that applies evenly to everyone in the room, including the person who set it, instead of landing on one person as a penalty for particular feelings.",
+      "A rule that applies evenly to everyone in the room, including the person who set it. It does not land on one person as a penalty for particular feelings.",
       "Someone asking for a calmer tone in the middle of a heated argument, then coming back to hear you out.",
       "A person who finds sadness or anger hard to be near, says so, and does not punish you for having it.",
       "A job that asks for steady composure with customers while leaving room to be human elsewhere.",
@@ -89,7 +89,7 @@
     },
     "boundary_script": "\"I can be kind and calm with you, but I can't be cheerful on command. If I'm sad or angry, I want to say so once and have you hear it without a lecture.\"",
     "safety_sensitive": false,
-    "safety_note": "Being punished for a feeling is pressure on your inner life, not a physical danger. That can change when the penalty includes threats, intimidation when you show anger, or control of money or contact. Another sign is a mood being treated as proof you are unfit or unwell. If a reaction to a feeling ever frightens you, tell a friend, a doctor or a domestic abuse advocate what happens in the minutes after you speak.",
+    "safety_note": "Being punished for a feeling is pressure on your inner life, not a physical danger. That can change when the penalty includes threats, intimidation when you show anger, or control of money or contact. Another sign is a mood being treated as proof you are unfit or unwell. If a reaction to a feeling ever frightens you, tell a friend, a doctor or a domestic abuse advocate. Tell them what happens in the minutes after you speak.",
     "misuse_warning": [
       "Calling every request for calm 'emotion control' can turn a simple ask to lower the volume into an accusation. The label fits when penalties fall again and again on particular feelings.",
       "Using it to excuse your own outbursts, as if any limit on how you express anger were control, misreads it."

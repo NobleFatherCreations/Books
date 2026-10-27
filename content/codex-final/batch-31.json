@@ -1,9 +1,9 @@
 {
  "Controlled Opposition": {
-  "short_definition": "A protest group, critic or movement that is secretly funded, steered or shaped by the very power it appears to oppose, so dissent goes somewhere harmless.",
+  "short_definition": "A protest group, critic or movement secretly funded, steered or shaped by the power it seems to oppose, so dissent goes somewhere harmless.",
   "expanded_definition": "Controlled opposition is resistance that looks independent but is quietly guided by the party it claims to challenge. Instead of banning dissent, that party offers an official-looking outlet, such as a licensed protest, a friendly critic or a talking shop. Anger is released there and nothing changes. The claim needs evidence like money, shared staff or coordination. A critic who is cautious, or a movement that fights over tactics, shows none of that.",
   "plain_language_summary": "The people who seem to be fighting something are actually helping it. Your anger gets a place to go, but the place was built so that it never leads to change.",
-  "why_this_matters": "If you pour your energy into a channel built to absorb it, you can spend years believing you are pushing for change while nothing moves. You may also come to distrust real allies. Asking for evidence protects you from both mistakes.",
+  "why_this_matters": "If you pour your energy into a channel built to absorb it, you can spend years believing you are pushing for change. Meanwhile nothing moves. You may also come to distrust real allies. Asking for evidence protects you from both mistakes.",
   "what_it_is": [
    "A group set up, funded or advised by the institution it criticizes, while it presents itself as an independent voice.",
    "An existing movement that is quietly won over, for example by giving its leaders paid roles, access or praise in return for softer demands.",
@@ -80,7 +80,7 @@
   "psychological_mechanism": "A sanctioned outlet can pass for progress. Being heard, attending a meeting or signing a petition can release the urge to act. Energy that might have gone into harder options is spent before it builds up. When the visible opponent also seems reasonable and independent, people often trust the process and see impatient critics as extremists.",
   "possible_impact_on_receiver": "People describe years of effort that ended in a polite report, and a sinking feeling on finding the sponsor behind a trusted group. Some become suspicious of every organization, including honest ones. Others feel foolish, or fall out with friends who stayed involved.",
   "response_options": {
-   "soft_clarification": "Ask the group a plain question in public or in writing: 'Where does your funding come from, and have you had contact with the agency you are campaigning against?'",
+   "soft_clarification": "Ask the group a plain question in public or in writing. Try: 'Where does your funding come from, and have you had contact with the agency you are campaigning against?'",
    "firm_boundary": "Make your support depend on evidence. You will give time or money once their accounts and any agreements with the institution are published.",
    "disengagement": "Move your effort to another channel, such as a local group with open books, rather than arguing with the leaders of the first one.",
    "support_seeking": "Take what you have found to a journalist, a campaign-finance regulator or a transparency charity. Bring documents and dates instead of suspicions.",
@@ -88,13 +88,13 @@
   },
   "boundary_script": "Verification script (to yourself, before joining or sharing): \"Can I name a document, a donor or a witness that shows who steers this group, or am I reacting to a feeling that it is too tidy? Has it ever won anything the other side fought?\"",
   "safety_sensitive": false,
-  "safety_note": "Controlled opposition is rarely a personal danger. The risk comes when a group's insiders are pressured, followed or threatened for asking questions, or when you are urged to hand over personal details. If so, stop sharing and save what you hold. Speak to a legal aid service, a press-freedom organization or a lawyer.",
+  "safety_note": "Controlled opposition is rarely a personal danger. The risk comes when a group's insiders are pressured, followed or threatened for asking questions. It also comes when you are urged to hand over personal details. If so, stop sharing and save what you hold. Speak to a legal aid service, a press-freedom organization or a lawyer.",
   "misuse_warning": [
    "Calling a rival group 'controlled' because it chose a different tactic spreads suspicion without proof and splits movements.",
    "The label can become impossible to disprove, because any compromise counts as evidence of control and no group can ever clear itself."
   ],
   "how_to_distinguish_from_related": "Gatekeeping decides who gets in the room at all, while controlled opposition fills the room with a friendly stand-in. Strategic ambiguity hides a speaker's meaning. Here the speaker's independence is what is hidden. Information cascades need no planner, because people simply follow each other. This pattern needs someone behind the scenes.",
-  "core_meaning": "A protest group, critic or movement that is secretly funded, steered or shaped by the very power it appears to oppose, so dissent goes somewhere harmless."
+  "core_meaning": "A protest group, critic or movement secretly funded, steered or shaped by the power it seems to oppose, so dissent goes somewhere harmless."
  },
  "Reputation Laundering": {
   "short_definition": "Retelling a damaging or flattering claim about a person so often that it loses its source and is treated as common knowledge.",
@@ -177,7 +177,7 @@
   "psychological_mechanism": "Hearing a story several times, from several mouths, can make it seem more believable, even when all the mouths share one origin. Each person who passes it on can also feel entitled to, because others did first. The source drops out of view while the confidence goes up, so the story starts to seem settled.",
   "possible_impact_on_receiver": "Some walk into rooms where the verdict has arrived first. Some have to prove a negative, and cannot find anyone to argue with. Some pull back from groups to avoid the looks. Others spend months trying to trace a rumor to its start.",
   "response_options": {
-   "soft_clarification": "Ask the person repeating it one calm question: 'Who told you that, and did they see it themselves?' Let the answer, or the lack of one, speak.",
+   "soft_clarification": "Ask the person repeating it one calm question. Try: 'Who told you that, and did they see it themselves?' Let the answer, or the lack of one, speak.",
    "firm_boundary": "Decline to discuss the rumor with people who cannot say what they witnessed: 'I will talk about what happened with anyone who was there.'",
    "disengagement": "Step back from the circle that passes the story around. Put your effort into relationships where people deal with you directly.",
    "support_seeking": "Tell one or two people who know you well what is being said. Ask whether they have heard it, who from, and what they make of it.",
@@ -185,7 +185,7 @@
   },
   "boundary_script": "\"I'd like to deal with what actually happened. If you saw something, tell me what it was. If you only heard it from others, please don't pass it on as fact, and I'm glad to answer anything you want to ask me directly.\"",
   "safety_sensitive": false,
-  "safety_note": "Reputation laundering is usually painful but not dangerous. It becomes serious when the rumor costs you your job, housing, custody or standing in a community, or when it is used to justify harassment. Keep dated records and screenshots. Take them to a legal aid service, a union rep or an employment adviser.",
+  "safety_note": "Reputation laundering is usually painful but not dangerous. It becomes serious when the rumor costs you your job, housing, custody or standing in a community. It also becomes serious when it is used to justify harassment. Keep dated records and screenshots. Take them to a legal aid service, a union rep or an employment adviser.",
   "misuse_warning": [
    "Calling a legitimate warning from several people 'laundering' can wave away real concerns about someone's conduct.",
    "The label should not be used to demand that others stay silent about their own first-hand experience."
@@ -195,7 +195,7 @@
  },
  "Maternal Gatekeeping": {
   "short_definition": "A mother repeatedly corrects, redoes or limits the other parent's or caregiver's care of a child, until that person loses confidence and steps back.",
-  "expanded_definition": "Maternal gatekeeping is a term from family research. It describes ways a mother, often without noticing, can limit how much another caregiver does with a child. That caregiver is usually the father, but can be a grandparent or stepparent. It includes redoing tasks, giving instructions about methods that have no single right way, and being the one who decides who may care for the child. One correction about safety is ordinary. It matters when competent care keeps being redone and the other caregiver slowly stops trying.",
+  "expanded_definition": "Maternal gatekeeping is a term from family research. It describes ways a mother, often without noticing, can limit how much another caregiver does with a child. That caregiver is usually the father, but can be a grandparent or stepparent. It includes redoing tasks and giving instructions about methods that have no single right way. It also includes being the one who decides who may care for the child. One correction about safety is ordinary. It matters when competent care keeps being redone and the other caregiver slowly stops trying.",
   "plain_language_summary": "One parent keeps correcting or redoing how the other cares for the child. The other parent gives up and does less, which then seems to prove the point.",
   "why_this_matters": "The corrected caregiver's confidence erodes until they step back, and the stepping back is then read as proof they were never really willing. Both the child and that caregiver can lose time and closeness.",
   "what_it_is": [
@@ -238,7 +238,7 @@
   ],
   "innocent_or_ordinary_possibilities": [
    "A new parent who is exhausted and anxious may hover over everything before trust has had time to build.",
-   "A parent who has done most of the care may truly know details that the other has not learned, like a child's allergy or routines.",
+   "A parent who has done most of the care may truly know details that the other has not learned. Examples are a child's allergy or routines.",
    "Different upbringings give people honest disagreement about what is normal for a child."
   ],
   "common_false_positives": [
@@ -269,12 +269,12 @@
    "The child begins to ask for one parent only, and the other is hurt.",
    "Past efforts get remembered as failures: 'You tried, remember how that went'."
   ],
-  "repair_check": "Once the pattern is raised, repair is the corrector handing over a whole task, such as bedtime, and leaving the room while it is done a different way. A promise to be 'less critical' does not change what the caregiver experiences if each task is still re-checked.",
+  "repair_check": "Once the pattern is raised, repair is the corrector handing over a whole task, such as bedtime. They then leave the room while it is done a different way. A promise to be 'less critical' does not change what the caregiver experiences if each task is still re-checked.",
   "boundary_respect_check": "After you ask to handle a task your own way, ask yourself whether the task stays yours the next time. A boundary that was heard looks like a task left alone, even when it is not done as they would do it. One that was not looks like a quiet redo once you leave.",
-  "psychological_mechanism": "Repeated correction on tasks with no single right answer can teach a caregiver that their own judgment is not trusted. They may then check with the other parent, or stop trying. The one doing most of the care may also feel that the child's wellbeing rests on them alone, which can make handing over seem risky. Each side's behavior can then reinforce the other's.",
+  "psychological_mechanism": "Repeated correction on tasks with no single right answer can teach a caregiver that their own judgment is not trusted. They may then check with the other parent, or stop trying. The one doing most of the care may also feel that the child's wellbeing rests on them alone. That can make handing over seem risky. Each side's behavior can then reinforce the other's.",
   "possible_impact_on_receiver": "Some on the receiving end say they are treated as a helper rather than a parent. Some lose the nerve to make small choices, and feel shut out of the child's routines. Some withdraw to avoid the criticism, and then worry that it looks like not caring. Others feel grief about missed time.",
   "response_options": {
-   "soft_clarification": "Pick one task and say what you would like: 'Can bath time be mine this week, done my way, and we compare notes afterwards on how it went?'",
+   "soft_clarification": "Pick one task and say what you would like. Try: 'Can bath time be mine this week, done my way, and we compare notes afterwards on how it went?'",
    "firm_boundary": "Ask for corrections to be limited to safety: 'If it's about safety, tell me and I'll change it. If it's just a different method, please let it be.'",
    "disengagement": "If a conversation turns into a fight about methods, pause it. Return to it when the child is not in the room, instead of arguing in front of them.",
    "support_seeking": "Talk to a pediatric nurse, a parenting group or a family counselor. They can say what is a real safety issue and what is a style choice.",
@@ -291,9 +291,9 @@
   "core_meaning": "A mother repeatedly corrects, redoes or limits the other parent's or caregiver's care of a child, until that person loses confidence and steps back."
  },
  "Echo Chamber Construction": {
-  "short_definition": "Arranging what another person reads, hears and talks about so that they mostly meet one view and come to see every other source as unreliable.",
+  "short_definition": "Arranging what another person reads, hears and talks about so they mostly meet one view and see every other source as unreliable.",
   "expanded_definition": "An echo chamber is a closed circle in which the same views bounce back and outside voices are cast as biased. Construction is the active part. Someone feeds a person selected sources, introduces them to one set of friends, and pre-labels outsiders as liars or fools before they have spoken. Sharing links you like is ordinary. It is a concern when other sources are steadily discouraged and doubt about outsiders is taught in advance.",
-  "plain_language_summary": "Someone slowly fills your information world with one point of view and teaches you in advance to distrust everyone else, so it looks like your own choice.",
+  "plain_language_summary": "Someone slowly fills your information world with one point of view. They teach you in advance to distrust everyone else, so it looks like your own choice.",
   "why_this_matters": "You lose the outside views that would let you sense-check your own situation, and the narrowing arrives feeling like a preference you chose. It is hard to notice what you are no longer hearing.",
   "what_it_is": [
    "Steady recommendations of the same few channels, authors or forums, with a dismissal of everything else.",
@@ -369,7 +369,7 @@
   "repair_check": "When the narrowing is named, real repair is the person encouraging you to read widely. They back your contact with people you have drifted from, and they accept your doubts without any penalty. A short pause in the pressure, followed by a return to the same sources and the same warnings, is not that.",
   "boundary_respect_check": "Try something small, such as saying you will read a source they dislike, or meet an old friend alone. Does the person accept it, or pay you back with sulking, a lecture or sudden coldness? Accepting without a price suggests the limit is being respected.",
   "psychological_mechanism": "Hearing the same view often, from people you like, can make it feel like plain fact. Having your view echoed back can also feel good. If outsiders are described as biased before they speak, their arguments can be dismissed without being weighed. Over time this can make one circle's picture feel like plain reality, and doubt feel like betrayal.",
-  "possible_impact_on_receiver": "Meeting outsiders can come as a shock, because the world looks different from what the circle said. Some report losing touch with relatives, finding it hard to talk to anyone who disagrees, and feeling embarrassed later about what they once repeated with certainty.",
+  "possible_impact_on_receiver": "Meeting outsiders can come as a shock, because the world looks different from what the circle said. Some report losing touch with relatives and finding it hard to talk to anyone who disagrees. Some feel embarrassed later about what they once repeated with certainty.",
   "response_options": {
    "soft_clarification": "Ask a mild question when you hear a sweeping claim: 'What is the best argument against that, and where would I read it?'",
    "firm_boundary": "Keep your own reading and friendships going quietly as a matter of course, without announcing them. If the group reacts with anger or pressure, talk to someone outside it before changing anything.",
@@ -379,19 +379,19 @@
   },
   "boundary_script": "\"I like a lot of what you share, and I want to hear other views too. Is it okay if I keep reading widely and seeing my friends as well? If we disagree, I'd rather talk it through.\" Hold it back if the group tends to react with anger.",
   "safety_sensitive": true,
-  "safety_note": "Echo chamber construction is not by itself a physical-safety signal. It becomes one if you are told to cut off family or hand over passwords or devices, or if leaving the circle brings threats or loss of housing or income. At that point, reach for an outside person you trust, and for a cult-recovery or domestic abuse service.",
+  "safety_note": "Echo chamber construction is not by itself a physical-safety signal. It becomes one if you are told to cut off family or hand over passwords or devices. It also becomes one if leaving the circle brings threats or loss of housing or income. At that point, turn to an outside person you trust. Turn to a cult-recovery or domestic abuse service too.",
   "misuse_warning": [
    "Saying someone is 'in an echo chamber' is a quick way to dismiss their view without engaging with it. Everyone's circle is somewhat narrow.",
-   "The term can be wrongly used on a loved one who has found a community that suits them, even though nobody is steering them and the door is open."
+   "The term can be wrongly used on a loved one who has found a community that suits them. Nobody is steering them, and the door is open."
   ],
   "how_to_distinguish_from_related": "Information cascades spread a belief because agreeing seems safe, and no single person has to run it. Echo chamber construction has someone actively shaping the supply and teaching distrust of the rest. Gatekeeping controls who gets in or out, and here the control is over what gets in to your head. Strategic ambiguity is about vague wording; this is about a narrow diet.",
-  "core_meaning": "Arranging what another person reads, hears and talks about so that they mostly meet one view and come to see every other source as unreliable."
+  "core_meaning": "Arranging what another person reads, hears and talks about so they mostly meet one view and see every other source as unreliable."
  },
  "Stochastic Harassment Direction": {
-  "short_definition": "Someone keeps describing a named person in angry terms to a big audience, so some listeners predictably harass that person, though the speaker never gives an instruction.",
+  "short_definition": "Someone keeps describing a named person in angry terms to a big audience, so some listeners predictably harass them without being told to.",
   "expanded_definition": "Stochastic means 'driven by chance'. Nobody can say which listener will act, only that with a large enough audience, some probably will. Here, someone repeatedly names a target and describes them in a way that stirs up anger, often mentioning their workplace or town. They never give an instruction. Then a wave of messages, calls or visits arrives. One harsh post means little. The pattern is repeated portrayal, followed by repeated waves that cite the same words.",
   "plain_language_summary": "Someone keeps painting one person as a villain to a big audience. They never tell anyone to act, yet strangers start harassing that person.",
-  "why_this_matters": "The person singled out takes harassment from many people at once. The portrayal that set it off stays easy to deny, so there is no single act to report and no one to hold to account. It can feel as if the whole world has turned on you.",
+  "why_this_matters": "The person singled out takes harassment from many people at once. The portrayal that set it off stays easy to deny. So there is no single act to report and no one to hold to account. The whole world can seem to have turned on you.",
   "what_it_is": [
    "A repeated, inflammatory description of a named individual, often with their job, school or neighborhood attached.",
    "An audience large and angry enough that a few of its members acting is close to certain.",
@@ -463,7 +463,7 @@
    "New people turn up with the same wording, and you feel watched in more places.",
    "You begin to change how you live: locking accounts, varying your routes or leaving your usual places."
   ],
-  "repair_check": "If the speaker is confronted with the harassment, repair would mean telling the audience publicly to stop, taking down the posts and not naming the person again. A reply that says 'I never asked anyone to do that' and then keeps posting has changed nothing for the person being harassed.",
+  "repair_check": "If the speaker is confronted with the harassment, repair would mean telling the audience publicly to stop. It would also mean taking down the posts and not naming the person again. A reply that says 'I never asked anyone to do that' and then keeps posting has changed nothing for the person being harassed.",
   "boundary_respect_check": "Ask whether, after you or someone else asks that the posts stop, new waves still follow within days. If the posts stop and the waves die down, the request has been honored. If they continue, then the request is being treated as a part of the story.",
   "psychological_mechanism": "A large audience can include a few people who are already angry or looking for a target. A vivid, repeated portrayal can show them whom to be angry at and make acting seem righteous. The speaker stays at a distance, since no instruction was given. Responsibility then spreads out among many senders, and no one feels all of it.",
   "possible_impact_on_receiver": "People describe constant alerts, losing sleep, fear when the phone rings, and pulling out of public life. Some lose work because employers get flooded with complaints. Others describe feeling unable to explain it, since no single message looks serious on its own.",
@@ -482,7 +482,7 @@
    "Someone who is being criticized may use the label to cast all criticism of themselves as harassment."
   ],
   "how_to_distinguish_from_related": "Punishment by proxy hurts someone you love to send you a message. Here the pain lands on you directly, from many strangers. Information cascades spread a belief because agreeing is safer, and no one aims them at a person. Reputation laundering hides the source of a claim. Here the speaker is out in the open, and the deniability comes from never giving an instruction.",
-  "core_meaning": "Someone keeps describing a named person in angry terms to a big audience, so some listeners predictably harass that person, though the speaker never gives an instruction."
+  "core_meaning": "Someone keeps describing a named person in angry terms to a big audience, so some listeners predictably harass them without being told to."
  },
  "Information Laundering": {
   "short_definition": "Passing a false or unverified claim through a series of apparently credible sources until it looks like established fact and its origin can no longer be seen.",

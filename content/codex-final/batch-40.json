@@ -80,13 +80,13 @@
     ],
     "repair_check": "Whether anything improved shows in what comes down and stays down. Look for the media removed from the sites that host it, the account closed, and the maker naming themselves and ending any demands. An apology while copies still circulate repairs nothing.",
     "boundary_respect_check": "Did the demands or new postings stop after you reported, or only change accounts? A pause that ends when attention moves elsewhere is not the same as the matter being closed.",
-    "psychological_mechanism": "People believe their eyes and ears before they ask where a clip came from. So a realistic fake lands as proof before any thinking starts. Once viewers have seen it, a denial may sound like what anyone caught would say. Shame, fear of exposure and the speed of sharing can push targets toward silence or compliance, which is part of what gives the fabrication its force.",
+    "psychological_mechanism": "People believe their eyes and ears before they ask where a clip came from. So a realistic fake lands as proof before any thinking starts. Once viewers have seen it, a denial may sound like what anyone caught would say. Shame, fear of exposure and the speed of sharing can push targets toward silence or compliance. That is part of what gives the fabrication its force.",
     "possible_impact_on_receiver": "People describe shock at seeing their own face or voice used. They describe shame they did not earn, dread about who has seen it, and trouble sleeping or going to work or school. Some pull back from social media, friends or public life. Others describe steadier footing once they had a report number, a lawyer or a friend on their side.",
     "response_options": {
       "soft_clarification": "If someone you trust has seen it, tell them plainly that it is fabricated and that you can show where you were. Then ask them not to forward it.",
       "firm_boundary": "Do not bargain with anyone demanding something in exchange for keeping it private. Keep the demand as it was sent and hand it to the people handling your report.",
       "disengagement": "Stop replying to the sender. Before blocking anyone, save the messages, links and dates so there is a record.",
-      "support_seeking": "StopNCII.org and Take It Down are hash-matching services (they match a digital fingerprint of an image) that help block known intimate images on participating platforms. They need the image on your device, so ask whether they accept AI-generated images. Contact a victim advocate or legal aid about options where you live.",
+      "support_seeking": "StopNCII.org and Take It Down are hash-matching services. They match a digital fingerprint of an image, which helps block known intimate images on participating platforms. They need the image on your device, so ask whether they accept AI-generated images. Contact a victim advocate or legal aid about options where you live.",
       "workplace_or_professional": "If it reaches work or school, give HR or an administrator a short factual note with links and dates. Ask for a named contact. You do not have to describe the content in detail."
     },
     "boundary_script": "\"This is fabricated media of me. I have saved the links, the dates and every message about it. I am asking you to remove it and to tell me what happens next.\" Send this to a platform, school or employer, never to the person who made or shared it.",
@@ -101,7 +101,7 @@
   "AI Voice Cloning": {
     "short_definition": "Software-made copies of a real person's voice, used to impersonate them in calls, messages or recordings.",
     "core_meaning": "Software-made copies of a real person's voice, used to impersonate them in calls, messages or recordings.",
-    "expanded_definition": "AI voice cloning is the use of software to make speech that sounds like a specific real person, built from recordings of them. It shows up as an urgent call from a relative, a voice note from a boss, or a recording offered as proof of what someone said. A familiar sound no longer shows who is speaking. The pattern to notice is a trusted voice paired with pressure to act fast or keep quiet.",
+    "expanded_definition": "AI voice cloning uses software to make speech that sounds like a specific real person. It is built from recordings of them. It shows up as an urgent call from a relative or a voice note from a boss. Or it is a recording offered as proof of what someone said. A familiar sound no longer shows who is speaking. The pattern to notice is a trusted voice paired with pressure to act fast or keep quiet.",
     "plain_language_summary": "A computer-made copy of someone's voice that can say things they never said. It may sound exactly like a person you trust, so the sound alone proves nothing.",
     "why_this_matters": "A voice you have trusted all your life stops being evidence of anything. Checking each unexpected call through a second channel becomes a permanent tax on ordinary contact. People can lose money or be blamed for words they never spoke.",
     "what_it_is": [
@@ -177,7 +177,7 @@
       "You catch yourself unsure whether to trust even genuine calls from people you love.",
       "A recording attributed to you gets cited in a dispute, and each retelling treats it as settled."
     ],
-    "repair_check": "Practical steps show repair. The number or account is shut down, the bank freezes or reverses a transfer where it can, and everyone who was called is told it was not the real person. Anyone calling it a misunderstanding while the money is still gone has repaired nothing.",
+    "repair_check": "Practical steps show repair. The number or account is shut down. The bank freezes or reverses a transfer where it can. Everyone who was called is told it was not the real person. Anyone calling it a misunderstanding while the money is still gone has repaired nothing.",
     "boundary_respect_check": "When you say you will call back on a number you already have, watch what the caller does. A real person welcomes the check. Pressure to stay on the line is the pattern showing itself.",
     "psychological_mechanism": "A familiar voice often slips past doubt because we link it to people we love and trust. A panicked tone can narrow thinking to the emergency in front of us. Urgency, secrecy and fear of being the one who did not help can push people to act before they check. Embarrassment afterward often keeps people from telling anyone.",
     "possible_impact_on_receiver": "A drop in the stomach on hearing a loved one in apparent danger is common. Shame or anger at oneself can follow once the person learns it was false. Some people lose savings. Others start doubting real calls or avoid answering the phone. Someone whose voice was copied may feel violated that something so personal was taken.",
@@ -276,7 +276,7 @@
       "You change routines: routes, hours, phone numbers, social media.",
       "People you know ask whether you are okay after seeing a thread about you."
     ],
-    "repair_check": "Repair shows in what is removed and stays removed. The post and its copies are taken down, the publisher confirms in writing that nothing further is kept, and the contact from strangers dies off. An apology while the thread stays up does not count.",
+    "repair_check": "Repair shows in what is removed and stays removed. The post and its copies are taken down, and the publisher confirms in writing that nothing further is kept. The contact from strangers dies off. An apology while the thread stays up does not count.",
     "boundary_respect_check": "After you report, does the contact slow, or does fresh content turn up on other accounts? Whether the listing stays down is a better measure than anything said to you.",
     "psychological_mechanism": "Exposure often turns an online dispute into a worry about the physical world. Once a person knows strangers could find their door, ordinary acts like answering the phone or walking home can feel risky. Crowds also spread responsibility thin. Each stranger does a small thing, and nobody sees themselves as the cause of the whole. That can leave the exposed person feeling watched by everyone.",
     "possible_impact_on_receiver": "People describe fear at home, checking windows and cars, changing numbers, altering children's routines, and dreading every unknown caller. Some take time off work, go offline or move. Others describe shame at being found, or anger that a private life was made public.",
@@ -375,10 +375,10 @@
       "The agreement seems to come from a different crowd each time but sounds the same.",
       "You begin to doubt your own views because everyone online seems to disagree."
     ],
-    "repair_check": "When one operator is found out, repair would mean closing the extra accounts, saying openly that one person ran them, and retracting what they claimed. A fresh batch of accounts after a public apology shows the opposite.",
+    "repair_check": "When one operator is found out, repair would mean closing the extra accounts. It would also mean saying openly that one person ran them, and retracting what they claimed. A fresh batch of accounts after a public apology shows the opposite.",
     "boundary_respect_check": "Check whether the pile-on thins after you report or mute, or whether fresh accounts take the same place. A crowd of separate individuals tends to drift away; a staged one tends to be replaced.",
-    "psychological_mechanism": "We use other people's apparent views as a guide to what is normal and safe to say, so several seeming strangers agreeing may read as evidence. A crowd often leaves a target feeling isolated and outnumbered. It can push bystanders toward silence or the majority side. Each account looks separate, so spotting the link takes effort most readers do not spend.",
-    "possible_impact_on_receiver": "Feeling outnumbered is a common description. People also describe doubting a view once held, withdrawing from a forum, or reading a pile-on as proof of being widely disliked when it came from few people. Some feel anger on learning the crowd was thin, and some grow distrustful of every new account that agrees with them.",
+    "psychological_mechanism": "We use other people's apparent views as a guide to what is normal and safe to say. Several seeming strangers agreeing may read as evidence. A crowd often leaves a target feeling isolated and outnumbered. It can push bystanders toward silence or the majority side. Each account looks separate, so spotting the link takes effort most readers do not spend.",
+    "possible_impact_on_receiver": "Feeling outnumbered is a common description. Some people doubt a view they once held, or withdraw from a forum. Some read a pile-on as proof they are widely disliked, when it came from few people. Some feel anger on learning the crowd was thin. Some grow distrustful of every new account that agrees with them.",
     "response_options": {
       "soft_clarification": "Before answering a crowd, look at whether the accounts have histories and whether their wording matches. A plain question such as whether you have talked before can show a lot.",
       "firm_boundary": "Decline to argue with accounts you cannot place. Say what you think once, in your own space, and do not answer each reply.",
@@ -398,7 +398,7 @@
   "Coordinated Reporting": {
     "short_definition": "Organized mass reporting of an account or post, often on false grounds, to get a platform to remove or restrict it.",
     "core_meaning": "Organized mass reporting of an account or post, often on false grounds, to get a platform to remove or restrict it.",
-    "expanded_definition": "Coordinated reporting is when many people use a platform's report buttons at once to get someone suspended, demonetized or removed, whether or not a rule was broken. Platforms may treat the number of reports as a signal, so volume can stand in for evidence. Many honest reports about a real violation are not this. What marks it is organization, a mismatch between the reports and the content, and a target who cannot see why.",
+    "expanded_definition": "Coordinated reporting is when many people use a platform's report buttons at once. The aim is to get someone suspended, cut off from earning money, or removed, whether or not a rule was broken. Platforms may treat the number of reports as a signal, so volume can stand in for evidence. Many honest reports about a real violation are not this. What marks it is organization, a mismatch between the reports and the content, and a target who cannot see why.",
     "plain_language_summary": "Many people file complaints about the same account at the same time, not because of a real problem but to get it shut down.",
     "why_this_matters": "You can lose your account, your audience or your income through a system built to protect people. Appeals against decisions made on volume can be slow and hard to reach.",
     "what_it_is": [

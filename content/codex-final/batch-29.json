@@ -96,7 +96,7 @@
   "Tokenism": {
     "short_definition": "Including one person, or a small number of people, from a group as a visible gesture. They are not given the voice or authority that inclusion seems to promise.",
     "core_meaning": "Including one person, or a small number of people, from a group as a visible gesture. They are not given the voice or authority that inclusion seems to promise.",
-    "expanded_definition": "Tokenism is inclusion that exists mainly to be seen. One member of a group is given a title, a seat on a panel, a spot in a photograph. Then they are expected to stand for everyone like them. Their presence is mentioned more often than their views are asked for. A first hire from an underrepresented group is not tokenism by itself, since every change starts somewhere. It becomes tokenism when visibility stays high and influence stays near zero, and the person's presence is offered as the answer to questions about representation.",
+    "expanded_definition": "Tokenism is inclusion that exists mainly to be seen. One member of a group is given a title, a seat on a panel, a spot in a photograph. Then they are expected to stand for everyone like them. Their presence is mentioned more often than their views are asked for. A first hire from an underrepresented group is not tokenism by itself. Every change starts somewhere. It becomes tokenism when visibility stays high and influence stays near zero. The person's presence is then offered as the answer to questions about representation.",
     "plain_language_summary": "A seat, a title or a spot in the photo makes the group look inclusive. But the person's views carry little weight in real decisions.",
     "why_this_matters": "Your presence gets used as the reply to the very criticism you were brought in to raise. Pushing back makes you look ungrateful for the seat. You can end up carrying the group's image while holding none of its power.",
     "what_it_is": [
@@ -176,7 +176,7 @@
       "firm_boundary": "Decline to speak for a whole community, and speak only for your own experience and expertise when asked.",
       "disengagement": "Turn down appearances, photos or panels that show you in a role you do not hold, until the role itself changes.",
       "support_seeking": "Speak with others who have held similar seats elsewhere, or with a mentor outside the organization. They can help you test whether your read of the role is fair.",
-      "workplace_or_professional": "Ask for the role's authority and budget in writing. Raise representation with HR or a diversity office if one exists, and keep a dated record of proposals you made and what became of them."
+      "workplace_or_professional": "Ask for the role's authority and budget in writing. Raise representation with HR or a diversity office if one exists. Keep a dated record of proposals you made and what became of them."
     },
     "boundary_script": "\"I can share my own experience, but I can't speak for everyone from my background. Can we agree on what I actually get to decide in this role, so my presence here counts for something?\"",
     "safety_sensitive": false,
@@ -190,9 +190,9 @@
   "Individualization of Systemic Issues": {
     "short_definition": "Calling a problem of workload, staffing or structure a personal weakness, and expecting the individual to fix it.",
     "core_meaning": "Calling a problem of workload, staffing or structure a personal weakness, and expecting the individual to fix it.",
-    "expanded_definition": "Individualization of Systemic Issues treats a shared, structural problem as a private shortcoming. A team is understaffed, deadlines are unrealistic or the process is broken, and the advice offered is to manage time better, build resilience or practice self-care. Personal habits do matter, and coaching can help. The trouble is when the individual frame is the only one on offer, even though many people hit the same wall and the conditions never come up for discussion.",
+    "expanded_definition": "Individualization of Systemic Issues treats a shared, structural problem as a private shortcoming. A team is understaffed, deadlines are unrealistic, or the process is broken. The advice offered is to manage time better, build resilience or practice self-care. Personal habits do matter, and coaching can help. The trouble is when the individual frame is the only one on offer. Many people hit the same wall, and the conditions never come up for discussion.",
     "plain_language_summary": "When the real problem is the workload or the system, you are told to fix yourself instead: sleep more, plan better, be more resilient.",
-    "why_this_matters": "You add self-improvement to a load that was already too heavy, and you decide the shortfall is in your own resilience, not in the conditions. Meanwhile the thing that is actually broken goes unexamined and keeps hurting the next person too.",
+    "why_this_matters": "You add self-improvement to a load that was already too heavy. You decide the shortfall is in your own resilience, not in the conditions. Meanwhile the thing that is actually broken goes unexamined and keeps hurting the next person too.",
     "what_it_is": [
       "Offering a wellness class, app or resilience workshop in response to a complaint about workload or staffing.",
       "Giving advice about personal habits to someone who is describing a problem with how work or services are organized.",
@@ -360,10 +360,10 @@
     "psychological_mechanism": "When many people each hold a small share of a decision, each can feel the outcome is not really theirs. Each check may be treated as someone else's safety net. On the receiving end, repeated transfers often wear down persistence. The effort of tracing the problem can end up larger than the problem.",
     "possible_impact_on_receiver": "People describe retelling their story to a fifth stranger, losing days on hold, and a growing sense that they are shouting into a wall. Some give up and absorb the cost. Others turn their anger on individual staff who are as powerless as they are.",
     "response_options": {
-      "soft_clarification": "Ask each person you reach one question: 'Who is the person who can decide this, and can you give me their name or role title?'",
+      "soft_clarification": "Ask each person you reach one question. Use these words: 'Who is the person who can decide this, and can you give me their name or role title?'",
       "firm_boundary": "Say that you will keep one written thread open until someone with authority takes ownership. Ask for a reference number to quote each time.",
       "disengagement": "Pause the phone calls, which leave no record. Move to email or letters, so each referral is on paper before you spend more time.",
-      "support_seeking": "Take the log of who said what to an ombudsperson's office (an independent complaints office), a consumer or patient advocate, or an elected representative's caseworker. They can often find the owner you cannot.",
+      "support_seeking": "Take your log of who said what to an ombudsperson's office, which is an independent complaints office. You could also take it to a consumer or patient advocate, or an elected representative's caseworker. They can often find the owner you cannot.",
       "workplace_or_professional": "Within an organization, ask by role for the process owner or the approving manager for the decision. Also ask for a written account of how the decision was reached."
     },
     "boundary_script": "\"I understand that your step was done correctly. I still need the name or job title of the person who has the authority to reverse this, and I'll keep a written record of each person who points me elsewhere.\"",

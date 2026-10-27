@@ -177,10 +177,10 @@
     "psychological_mechanism": "A formal document carries weight because it looks neutral. When a plan lands on someone already worried about their job, fear can narrow attention to the plan. That leaves less energy for the work itself, which can make the shortfalls it describes more likely. Being measured against shifting goals can also make it hard to know what effort will count.",
     "possible_impact_on_receiver": "People describe dread before each check-in meeting, broken sleep, doubt about work they used to be proud of, and a sense of being watched. Some start to see themselves through the plan's words. Money worry can crowd out everything else, including the search for a new job.",
     "response_options": {
-      "soft_clarification": "Ask for clarity in writing. For example: 'Could you spell out what meeting this goal looks like, and how it will be measured?' Their answer gives you both something to hold to.",
+      "soft_clarification": "Ask for clarity in writing. Try this: 'Could you spell out what meeting this goal looks like, and how it will be measured?' Their answer gives you both something to hold to.",
       "firm_boundary": "Say plainly that you want to meet the plan. Say that you need the targets fixed in writing before the next review, and that the support it promises should start.",
       "disengagement": "Keep contact with the person who wrote the plan to scheduled check-ins. Afterwards, send a short follow-up message recording what was said, so you are not relying on memory.",
-      "support_seeking": "Speak confidentially with a trusted colleague outside your reporting line, a union representative if you have one, or an employment advice service before signing anything. Ask whether the plan looks ordinary for your workplace.",
+      "support_seeking": "Before signing anything, speak confidentially with a trusted colleague outside your reporting line. You could also speak to a union representative if you have one, or an employment advice service. Ask whether the plan looks ordinary for your workplace.",
       "workplace_or_professional": "Keep a dated note of what you were asked, what you delivered and any praise. Store it somewhere you can still reach if your access ends. Ask HR how to attach your own comments to the plan file."
     },
     "boundary_script": "\"Passing this plan is my aim. For that I need each goal written so I can tell when I've reached it, and my comments added to the file after every review. Can we settle that today?\"",
@@ -269,7 +269,7 @@
       "People two levels above you are unaware of what you have contributed.",
       "You grow reluctant to share ideas early, since early sharing seems to give them away."
     ],
-    "repair_check": "When this is handled well, someone with authority names the original source in the same place the credit went astray, such as an updated deck or an email to the same people. Tracing sources then becomes routine. A private 'thanks for your input' leaves the public record as it was.",
+    "repair_check": "When this is handled well, someone with authority names the original source. They do it in the same place the credit went astray, such as an updated deck or an email to the same people. Tracing sources then becomes routine. A private 'thanks for your input' leaves the public record as it was.",
     "boundary_respect_check": "Check whether your name appears the next time the same material is passed along. A request to put sources on shared documents is honored when it becomes routine for everyone. It is not honored when you are told the credit is petty, or the next version quietly leaves you out again.",
     "psychological_mechanism": "Credit often goes to whoever is visible when a good idea lands. Each retelling moves the idea a step further from you in people's memory. Because no one hand removes your name, nobody may feel they did anything unfair. Observers usually remember the last teller, so attribution can fade through ordinary memory habits alone.",
     "possible_impact_on_receiver": "A slow resentment that cannot be pinned to any one event is typical. So are hesitation about sharing ideas in progress and worry that raising it will look petty. Some stop speaking up in meetings, and some start documenting everything. Careers can stall while the work is praised under other names.",
@@ -290,8 +290,8 @@
     "how_to_distinguish_from_related": "PIP Weaponization builds a record of supposed failure around someone, while credit laundering builds a record of success that leaves them out. Objectification treats a person as a source of useful output. Credit laundering is one way that output can be absorbed without the person being thanked. Shame-as-Governance Disguised as Advice leaves you feeling smaller. Here you may feel fine about yourself and still find your work belongs to others."
   },
   "The \"Good Woman Program\"": {
-    "short_definition": "Unspoken social rules that reward women for going along and giving things up, and make them pay for being direct, setting boundaries or taking up space.",
-    "core_meaning": "Unspoken social rules that reward women for going along and giving things up, and make them pay for being direct, setting boundaries or taking up space.",
+    "short_definition": "Unspoken rules reward women for going along and giving things up, and make them pay for being direct, setting boundaries or taking up space.",
+    "core_meaning": "Unspoken rules reward women for going along and giving things up, and make them pay for being direct, setting boundaries or taking up space.",
     "expanded_definition": "This is less a tactic used by one person than a background set of expectations absorbed from family, school, media, work and faith. Women who accommodate are called kind or easy to work with. Words that would pass without comment from someone else, such as a firm no, can draw labels like difficult or cold. One person's reaction means little. What matters is whether the price of the same behavior changes with who is doing it. It also matters whether you have taken the discomfort on as your own.",
     "plain_language_summary": "Unwritten rules praise women for putting others first and quietly punish them for saying no. Over time, the discomfort can feel like a personal flaw.",
     "why_this_matters": "The same conduct costs you more than it costs others, so a proportionate no draws a penalty. Over time, discomfort with taking up space can feel like a personal trait when it is partly a response learned from that penalty.",
@@ -319,7 +319,7 @@
       "A faith or community norm of service that you have chosen and can step back from without a penalty."
     ],
     "this_may_be_it_when": [
-      "A direct no or a pointed question draws a label, such as difficult, cold or bossy, that others do not get for the same words.",
+      "A direct no or a pointed question draws a label that others do not get for the same words. The label might be difficult, cold or bossy.",
       "You feel guilty before anyone has reacted.",
       "Being accommodating brings praise, and the praise stops when you stop.",
       "You rehearse how to phrase a plain request so that it sounds soft.",
@@ -368,9 +368,9 @@
     "repair_check": "In a family, team or friendship, change shows when a plain no or a direct ask gets the same warmth as a yes. It also shows when someone who used a label like 'difficult' takes it back. Praise for being 'so easy' that returns the moment you give in leaves the rulebook intact.",
     "boundary_respect_check": "Try a small, low-stakes no and watch what follows, without judging yourself on the first reaction. A request that is heard and answered with ordinary courtesy tells you something. Labels, silence or pointed jokes at your expense, repeated, tell you something different.",
     "psychological_mechanism": "People are sensitive to small signs of social disapproval and often adjust their behavior to avoid them. When disapproval attaches to certain behaviors in certain people, avoidance can harden into habit and then seem part of your personality. Praise for compliance can reinforce the habit. The cost of asking directly can start to look larger than it is.",
-    "possible_impact_on_receiver": "Common accounts include constant low-level guilt, trouble knowing what you want, resentment you feel you have no right to, and tiredness from being everyone's support. Seeing the pattern as learned rather than inborn brings relief for some. Others feel grief for the years spent making themselves smaller.",
+    "possible_impact_on_receiver": "Common accounts include constant low-level guilt and trouble knowing what you want. They also include resentment you feel you have no right to, and tiredness from being everyone's support. Seeing the pattern as learned rather than inborn brings relief for some. Others feel grief for the years spent making themselves smaller.",
     "response_options": {
-      "soft_clarification": "When a label like 'difficult' comes up, ask a curious question, such as 'Would you call a colleague difficult for asking that?' It lets the other person hear the double standard without an accusation.",
+      "soft_clarification": "When a label like 'difficult' comes up, ask a curious question. One example is 'Would you call a colleague difficult for asking that?' It lets the other person hear the double standard without an accusation.",
       "firm_boundary": "Give your answer without padding or an apology and let the silence after it be. 'No, I can't take that on' is a complete sentence.",
       "disengagement": "For a trial week, step out of tasks that fall to you by default, such as organizing, soothing or remembering. See who notices and who steps in.",
       "support_seeking": "Talk with other women, or friends of any gender, about where each of you is penalized for the same behavior. Hearing it said aloud makes it easier to see a pattern rather than a flaw.",
@@ -383,12 +383,12 @@
       "Using the label for any woman who is polite or accommodating can disrespect her own choice to be generous.",
       "Pinning it on one person as if they are enforcing it misreads a background culture as one person's plan."
     ],
-    "how_to_distinguish_from_related": "Shame-as-Governance Disguised as Advice is one person giving a particular lecture. This pattern is the background expectation that makes the lecture seem reasonable. Overcorrection Demands asks for a big apology after a particular lapse, while here the price is attached to a whole class of behavior, such as saying no, asking or resting. Objectification values a person for use. This program rewards a woman for how little she asks."
+    "how_to_distinguish_from_related": "Shame-as-Governance Disguised as Advice is one person giving a particular lecture. This pattern is the background expectation that makes the lecture seem reasonable. Overcorrection Demands asks for a big apology after a particular lapse. Here the price is attached to a whole class of behavior, such as saying no, asking or resting. Objectification values a person for use. This program rewards a woman for how little she asks."
   },
   "Objectification": {
     "short_definition": "Treating a person as a tool, a body or a source of output, so that only what they supply seems to count about them.",
     "core_meaning": "Treating a person as a tool, a body or a source of output, so that only what they supply seems to count about them.",
-    "expanded_definition": "Objectification means relating to someone as an object with a use: their labor, their looks, their money, their listening, their usefulness at a given moment. Attention rises when the use is wanted and drops when it is not. It can happen at work, in families, in dating and in friendships where one person is always the helper. Using someone's skills is ordinary, and so is a transactional relationship both sides understand. The pattern is in what is missing. Nobody asks about the rest of the person, and their own plans barely register.",
+    "expanded_definition": "Objectification means relating to someone as an object with a use. The use might be their labor, their looks, their money, their listening, or their usefulness at a given moment. Attention rises when the use is wanted and drops when it is not. It can happen at work, in families, in dating and in friendships where one person is always the helper. Using someone's skills is ordinary, and so is a transactional relationship both sides understand. The pattern is in what is missing. Nobody asks about the rest of the person, and their own plans barely register.",
     "plain_language_summary": "You matter to them for what you do or how you look, and when that is not needed, they seem to lose interest.",
     "why_this_matters": "Your worth seems to rise and fall with how useful you are, so the parts of you that are not useful go unseen. When attention withdraws, it can feel like something you failed to supply.",
     "what_it_is": [
@@ -462,7 +462,7 @@
       "Friendships or contacts thin out in periods when you cannot deliver.",
       "You start measuring your own worth by output, and feel idle or worthless on rest days."
     ],
-    "repair_check": "Change would appear as curiosity that is not tied to a need. You would be asked how you are before being asked for anything, get a call with no request in it, and have your 'no' accepted without a cold spell afterwards. An apology followed by a new list of tasks has not changed the arrangement.",
+    "repair_check": "Change would appear as curiosity that is not tied to a need. You would be asked how you are before being asked for anything. You would get a call with no request in it. Your 'no' would be accepted without a cold spell afterwards. An apology followed by a new list of tasks has not changed the arrangement.",
     "boundary_respect_check": "Compare the contact after a time you could not help with the contact after a time you could. A check-in that asks for nothing and stays warm shows the limit landed. Warmth that comes back only alongside a new request shows the old terms still stand.",
     "psychological_mechanism": "People often feel valued when they are useful, which makes being needed a strong pull. If attention follows output, a person can learn to earn their place by producing more and to read any silence as failure. Being seen as a role also tends to leave less room to offer opinions, rest or ask for anything.",
     "possible_impact_on_receiver": "A common account is feeling hollow after relationships where you were only wanted for something. Anxiety about being useful enough and guilt about resting are also common. Thanks can still leave you feeling unseen. If you were relied on constantly, loneliness can follow, and some people only notice when they can no longer give.",
@@ -478,13 +478,13 @@
     "safety_note": "Being treated as a thing to be used is a wounding pattern, not a danger sign. It changes when being 'useful' is enforced with threats, or your body is treated as something owed. It also changes when money or housing depends on your compliance, or you are pressed into sexual contact. Then talk with an advocate, a doctor or a legal aid service, someone outside the arrangement, before taking any step.",
     "misuse_warning": [
       "Using 'objectification' for any attention to someone's appearance or skills, including welcome attention, takes away the other person's choice about how to be admired.",
-      "If you call a colleague an objectifier because they rely heavily on your work, you turn a workload complaint into a claim about their character."
+      "You might call a colleague an objectifier because they rely heavily on your work. If you do, you turn a workload complaint into a claim about their character."
     ],
     "how_to_distinguish_from_related": "Dehumanization denies a person's inner life, using labels, numbers and cases. Objectification still sees a person, but only for what they provide. Credit Laundering takes your output without your name, while objectification can be generous with credit and still ignore you outside the work. The \"Good Woman Program\" is a background expectation that women give. Objectification is relating to any one person, of any gender, as a supply of something."
   },
   "Dehumanization": {
-    "short_definition": "Dehumanization reduces a person to a label, a number or a problem, so decisions are made about them with no room for their point of view.",
-    "core_meaning": "Dehumanization reduces a person to a label, a number or a problem, so decisions are made about them with no room for their point of view.",
+    "short_definition": "Dehumanization reduces a person to a label, a number or a problem, so decisions about them leave no room for their point of view.",
+    "core_meaning": "Dehumanization reduces a person to a label, a number or a problem, so decisions about them leave no room for their point of view.",
     "expanded_definition": "Dehumanization strips away what makes a person particular: their history, preferences and inner life. They become 'the difficult one', 'bed fourteen', 'a case', 'those people'. It can live in spoken language, in paperwork, or in the way a room is run. Plain clinical or procedural language is normal in many jobs. The pattern is in selective use and in what follows: decisions about the person are made as if they had no input to give. Over time this can make worse treatment seem acceptable to those doing it.",
     "plain_language_summary": "A person is talked about or handled as a case, a number or a type, and no one seems to ask what they think.",
     "why_this_matters": "Decisions are made about you in language that leaves no place for your view. There is no point where anyone could plausibly ask for your own account. It can wear down your sense that your voice counts.",
@@ -559,7 +559,7 @@
       "You catch yourself explaining that you are a person, or flinching when others are discussed in the same way.",
       "Decisions pile up that you learn about from other people."
     ],
-    "repair_check": "Visible change would be people using your name, asking for your view before a decision, and correcting a label or record you showed to be wrong. A softer tone while the same decisions are still made around you has changed the voice, not the process.",
+    "repair_check": "Visible change would be people using your name and asking for your view before a decision. It would also be correcting a label or record you showed to be wrong. A softer tone while the same decisions are still made around you has changed the voice, not the process.",
     "boundary_respect_check": "Notice who answers when you ask to be included in a decision. An invitation to the meeting, or a plain explanation, means the ask landed. Being told it is not how things work, or hearing the label quoted back, means it was filed under the category.",
     "psychological_mechanism": "A category has no history or point of view to weigh. So reducing someone to a type can make their feelings and claims easier to overlook. Repeating the language can make it ordinary to the people using it. The person on the receiving end may start to describe themselves the same way. High-pressure systems that handle many people can encourage this.",
     "possible_impact_on_receiver": "Feeling invisible is the most common account, followed by anger that is then read as a symptom of the label. Some withdraw from talks about their own care or case, and lose confidence that they will be heard. A few start using the label for themselves. Repeated processing can leave a flat, tired feeling.",
@@ -580,9 +580,9 @@
     "how_to_distinguish_from_related": "Objectification sees the person, but only for their use. Dehumanization removes the person and leaves a label. Shame-as-Governance Disguised as Advice speaks to you, to tell you what is wrong with you. Dehumanization often speaks about you, over your head. Overcorrection Demands needs you present to perform the repair, while dehumanization carries on without you."
   },
   "Overcorrection Demands": {
-    "short_definition": "Overcorrection demands ask for an apology, payment or gesture far larger than a small lapse needs, so the repair follows their terms, not the harm.",
-    "core_meaning": "Overcorrection demands ask for an apology, payment or gesture far larger than a small lapse needs, so the repair follows their terms, not the harm.",
-    "expanded_definition": "After a small mistake, such as a late reply, a forgotten errand or a joke that fell flat, the response asked for is out of scale. It might be a long written apology, repeated groveling, a gift, money, a public acknowledgment, or weeks of penance. Sometimes a slip really did cause more harm than it looked, and some families and cultures expect elaborate apologies. The pattern is the mismatch plus what follows when you say so. The demand grows, and the matter is not closed when you comply.",
+    "short_definition": "Overcorrection demands ask for a far larger apology, payment or gesture than a small lapse needs, so repair follows their terms, not the harm.",
+    "core_meaning": "Overcorrection demands ask for a far larger apology, payment or gesture than a small lapse needs, so repair follows their terms, not the harm.",
+    "expanded_definition": "After a small mistake, the response asked for is out of scale. The mistake might be a late reply, a forgotten errand or a joke that fell flat. The response might be a long written apology, repeated begging for forgiveness, a gift, money, a public acknowledgment, or weeks of making amends. Sometimes a slip really did cause more harm than it looked, and some families and cultures expect long, formal apologies. The pattern is the mismatch plus what follows when you say so. The demand grows, and the matter is not closed when you comply.",
     "plain_language_summary": "You make a small mistake and are asked for a very large apology or payment. When you say it is too much, the ask gets bigger.",
     "why_this_matters": "Repair stops being achievable and becomes a show of submission. You learn that small mistakes carry costs you cannot predict. You may start over-apologizing, or hiding mistakes, to avoid the bill.",
     "what_it_is": [
@@ -658,10 +658,10 @@
     ],
     "repair_check": "Proportion comes back when the person who set the demand says it was too much. They then let the matter end at a size you both can see as fair. If you comply and a new demand follows, the first request may never have been only about the original lapse.",
     "boundary_respect_check": "If it is safe to try, put a smaller repair on the table and see what follows. A matter that ends there, or a counter in reasonable steps, shows the size was negotiable. Silence, a longer list or a charge of insincerity shows it was not open to discussion.",
-    "psychological_mechanism": "When a response is out of scale, the person receiving it may start guessing at the rules, since the facts do not explain the demand. Anxiety about unpredictable costs pushes some people toward over-apologizing. Giving in can make the next demand more likely to be met. A repair that is never accepted as complete keeps the matter open.",
+    "psychological_mechanism": "When a response is out of scale, the person receiving it may start guessing at the rules. The facts do not explain the demand. Anxiety about unpredictable costs pushes some people toward over-apologizing. Giving in can make the next demand more likely to be met. A repair that is never accepted as complete keeps the matter open.",
     "possible_impact_on_receiver": "Small errors start to feel dangerous. You may apologize before knowing whether you did anything wrong, brace for the next bill, and feel humiliated after giving the apology asked for. Some lose track of what they actually did, because the response was so large, and feel anger at themselves for complying.",
     "response_options": {
-      "soft_clarification": "Ask how the person sees the size of it: 'Help me understand what would feel like enough here, so I can tell whether I can do it.'",
+      "soft_clarification": "Ask how the person sees the size of it. Try: 'Help me understand what would feel like enough here, so I can tell whether I can do it.'",
       "firm_boundary": "When it feels safe to do so, state your own view once and calmly: 'I'm sorry about it. I think what you're asking is more than the mistake calls for.'",
       "disengagement": "If it is safe, delay agreeing to a large demand by saying you will think about it. Use the time to talk it over with someone outside the situation.",
       "support_seeking": "Describe the original lapse and the response asked for to someone outside the situation, and ask whether the two match. An advocate or counselor can also tell you if a run of such demands is a known sign of controlling behavior.",
@@ -669,7 +669,7 @@
     },
     "boundary_script": "\"I know I got that wrong, and I'm sorry. I want to make it right in a way that fits the mistake. Could we agree on something smaller that we both think is fair?\" If a refusal could bring anger, hold off.",
     "safety_sensitive": true,
-    "safety_note": "Large, shifting demands can sit alongside controlling behavior. This may include penalties involving money, access to children, your phone, your home or contact with others, and fear of what happens if you refuse. Complying may have begun to feel necessary for safety. If so, speak with a domestic abuse advocate or legal aid service. Choose a moment and a device where you cannot be overheard or checked.",
+    "safety_note": "Large, shifting demands can sit alongside controlling behavior. This may include penalties involving money, access to children, your phone, your home or contact with others. It may also include fear of what happens if you refuse. Complying may have begun to feel necessary for safety. If so, speak with a domestic abuse advocate or legal aid service. Choose a moment and a device where you cannot be overheard or checked.",
     "misuse_warning": [
       "Calling any strong request for an apology overcorrection can silence someone whose hurt is real and whose request is reasonable in size.",
       "Using the term to avoid a repair you owe, because the ask feels heavy, mistakes discomfort for a demand that is too big."
@@ -677,8 +677,8 @@
     "how_to_distinguish_from_related": "Shame-as-Governance Disguised as Advice answers a small lapse with a lesson about your character, while this tactic asks for a payment or a performance. PIP Weaponization is a formal workplace process with dates and paperwork. Here the demand is often personal and unwritten. Dehumanization talks around you, but this one needs you present to perform the apology."
   },
   "Toxic Positivity / Weaponized Optimism": {
-    "short_definition": "Toxic positivity insists on a cheerful outlook in answer to real pain or a real complaint, so the feeling becomes the problem and its cause goes unexamined.",
-    "core_meaning": "Toxic positivity insists on a cheerful outlook in answer to real pain or a real complaint, so the feeling becomes the problem and its cause goes unexamined.",
+    "short_definition": "Toxic positivity insists on cheer in answer to real pain or a real complaint, so the feeling becomes the problem and its cause goes unexamined.",
+    "core_meaning": "Toxic positivity insists on cheer in answer to real pain or a real complaint, so the feeling becomes the problem and its cause goes unexamined.",
     "expanded_definition": "Toxic positivity and weaponized optimism overlap closely. 'Toxic positivity' usually describes the general habit of meeting hard feelings with cheer. 'Weaponized optimism' points to the way cheer can close down a particular complaint, often at work or in a group. Both treat low mood or dissatisfaction as a fault of attitude. Comfort is not the problem. The pattern is positivity used in place of listening, so the cause of the pain is never discussed and speaking up costs standing.",
     "plain_language_summary": "Someone answers your real problem with 'look on the bright side'. The problem never gets discussed, and you feel bad for having brought it up.",
     "why_this_matters": "Your dissatisfaction becomes the thing that needs fixing. Whatever caused it goes unexamined, and saying it again costs you standing in the room.",
@@ -754,7 +754,7 @@
       "Grief or anger arrives later, in places you cannot explain, because it had nowhere to go.",
       "The group praises those who stay upbeat and quietly sidelines those who do not."
     ],
-    "repair_check": "Change would be someone saying 'I jumped to cheering you up before I heard you', then asking you to tell them the thing again and staying with it. Warm talk that slides back to bright-side phrases in the next hard moment shows the habit is still running.",
+    "repair_check": "Change would be someone saying 'I jumped to cheering you up before I heard you'. Then they ask you to tell them again, and they stay with it. Warm talk that slides back to bright-side phrases in the next hard moment shows the habit is still running.",
     "boundary_respect_check": "Say what you need before you describe the problem, such as listening only, and observe what comes back. Listening without a fix honors it. A return to 'but look on the bright side' within a minute shows your need was treated as a mood to be managed.",
     "psychological_mechanism": "Many people are uncomfortable around others' pain and reach for quick reassurance to relieve it. When that reassurance is repeated, the person in pain may learn that distress is unwelcome and start to hide it. That can leave the feeling unprocessed. In groups, an upbeat norm can make complaints look like disloyalty, so problems stay unspoken.",
     "possible_impact_on_receiver": "Being dismissed, then ashamed of having a feeling, then alone with it: that sequence is a common account. Some pretend to be fine in front of the same people afterwards. Others doubt whether their grief or anger was reasonable. At work, giving up on reporting problems is one result.",
@@ -767,7 +767,7 @@
     },
     "boundary_script": "\"I know you want me to feel better, and I appreciate that. Right now I need you to just listen to how bad this is. Then we can talk about what might help.\"",
     "safety_sensitive": false,
-    "safety_note": "Cheerful dismissal is not a danger signal on its own. It matters more when 'stay positive' is used to talk someone out of reporting a safety problem, getting medical help, or telling anyone they are in pain. If you are having thoughts of harming yourself, tell a doctor, a crisis line or someone you trust today. Do not wait for the bright side to arrive.",
+    "safety_note": "Cheerful dismissal is not a danger signal on its own. It matters more when 'stay positive' is used to talk someone out of reporting a safety problem. It also matters when it is used to stop them getting medical help, or telling anyone they are in pain. If you are having thoughts of harming yourself, tell a doctor, a crisis line or someone you trust today. Do not wait for the bright side to arrive.",
     "misuse_warning": [
       "Calling every encouraging remark toxic positivity can put off kind people who have simply run out of words.",
       "Using the label for people who find comfort in optimism disrespects their way of coping."

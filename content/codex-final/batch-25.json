@@ -98,14 +98,14 @@
   "Credential-Costuming": {
     "short_definition": "Wearing a title or affiliation that is invented, stretched or borrowed, so a claim carries more authority than the person's real qualifications support.",
     "core_meaning": "Wearing a title or affiliation that is invented, stretched or borrowed, so a claim carries more authority than the person's real qualifications support.",
-    "expanded_definition": "Credential-costuming is dressing a claim in a title, degree or affiliation that the person does not hold. Or they hold it only in a smaller form. A consultant becomes a 'Dr.', a conference attendee becomes 'a member of the advisory board', one meeting with a famous person becomes 'we work closely together'. The title then does the work that evidence should do. An unfamiliar credential is not a false one, so checking comes before concluding anything.",
+    "expanded_definition": "Credential-costuming is dressing a claim in a title, degree or affiliation that the person does not hold. Or they hold it only in a smaller form. A consultant becomes a 'Dr.' A conference attendee becomes 'a member of the advisory board'. One meeting with a famous person becomes 'we work closely together'. The title then does the work that evidence should do. An unfamiliar credential is not a false one, so checking comes before concluding anything.",
     "plain_language_summary": "Someone leans on a title or affiliation that is invented or inflated, and so you stop asking the questions you would normally ask.",
     "why_this_matters": "You defer to standing that is not there, and the questions you would otherwise ask start to feel out of place. Decisions, such as money, health or hiring choices, can then rest on the look of expertise instead of anything that was tested.",
     "what_it_is": [
       "Inventing a degree, license or job title, or claiming one from an institution that cannot confirm it.",
       "Stretching something small into something large. A weekend course becomes 'certified', and a freelance gig becomes 'former head of the department'.",
-      "Borrowing authority from others, such as logos, photos with notable people, or the name of an organization that has no real link to the person.",
-      "Leaning on the title instead of giving evidence, as in 'trust me, I'm a doctor of this', when you need an explanation you can check.",
+      "Borrowing authority from others. This can be logos, photos with notable people, or the name of an organization that has no real link to the person.",
+      "Leaning on the title instead of giving evidence. An example is 'trust me, I'm a doctor of this', when you need an explanation you can check.",
       "Common in sales pages, social media bios, consulting, wellness and finance advice, and job applications."
     ],
     "what_it_sounds_like": [
@@ -288,8 +288,8 @@
     "how_to_distinguish_from_related": "Credential-Costuming is one claim about titles and qualifications, while identity performance is a whole constructed person. Performative Allyship / False Solidarity is about stated values that go unpracticed, not invented history. Social Engineering is a pretext for one specific request made quickly. A persona is built up over weeks or months and rests on closeness."
   },
   "Social Engineering": {
-    "short_definition": "Getting someone to hand over information, access or action by playing on their trust, urgency or social habits, usually under a false story such as a claimed role or emergency.",
-    "core_meaning": "Getting someone to hand over information, access or action by playing on their trust, urgency or social habits, usually under a false story such as a claimed role or emergency.",
+    "short_definition": "Getting someone to hand over information, access or action by playing on their trust, urgency or habits, usually with a false story.",
+    "core_meaning": "Getting someone to hand over information, access or action by playing on their trust, urgency or habits, usually with a false story.",
     "expanded_definition": "Social engineering is a request that gets past normal checks by working on people instead of on systems. A caller claims to be from the bank. A message appears to be from a boss. Someone in a hi-vis vest walks through a door. The request leans on helpfulness, respect for authority or fear of getting it wrong. Real organizations also make urgent requests, so urgency alone settles nothing. The test is whether the request can be verified through a channel you already trust.",
     "plain_language_summary": "Someone pretends to be a person or company you trust. They rush you or act official, so you hand over details before you check.",
     "why_this_matters": "What gets used is ordinary decency: being helpful, deferring to apparent authority, not wanting to make a fuss. So a loss of money, access or privacy can leave you blaming yourself, instead of seeing that it was done to you.",
@@ -376,7 +376,7 @@
     },
     "boundary_script": "\"Thanks for letting me know. I deal with anything like this through the official number, so I'll look it up myself and check. If it's real, it will still be there after I've confirmed it.\"",
     "safety_sensitive": false,
-    "safety_note": "A scam call or message is a fraud risk rather than a personal-safety one. It becomes more urgent when there are threats of arrest, claims that a relative is in danger, demands for secrecy, or pressure to send money in ways that are hard to trace. If you have already sent money or shared a code, phone your bank's fraud line straight away using the number on your card, since speed matters.",
+    "safety_note": "A scam call or message is a fraud risk rather than a personal-safety one. It becomes more urgent when there are threats of arrest, claims that a relative is in danger, or demands for secrecy. Pressure to send money in ways that are hard to trace is also a sign. If you have already sent money or shared a code, phone your bank's fraud line straight away. Use the number on your card, since speed matters.",
     "misuse_warning": [
       "Treating every urgent request as a scam can strain relationships and slow honest work. Verification is the test, not a feeling of suspicion.",
       "Blaming someone who fell for it adds shame to a loss. Good people with good habits get caught by well-built pretexts."
@@ -472,7 +472,7 @@
     },
     "boundary_script": "\"Your saying that means something. What would mean even more is one concrete step. Could you tell me what you are able to do this month, and by when?\"",
     "safety_sensitive": false,
-    "safety_note": "This is usually a problem of trust and credibility, and not a danger. That would change if the declared alliance is used to gain access to a vulnerable person, such as in a support group or a youth setting. It would also change if it is used to pressure someone into silence. In that case, raise it with the group's organizer or a safeguarding contact.",
+    "safety_note": "This is usually a problem of trust and credibility, and not a danger. That would change if the declared alliance is used to gain access to a vulnerable person. This could be in a support group or a youth setting. It would also change if it is used to pressure someone into silence. In that case, raise it with the group's organizer or a safeguarding contact.",
     "misuse_warning": [
       "Calling every public statement performative discourages people who are sincerely learning and may act later. Judge by what follows, as time passes.",
       "Using the label to dismiss someone who disagrees with you turns a description of a gap into a way to end a debate."

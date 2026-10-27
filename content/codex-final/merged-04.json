@@ -100,12 +100,12 @@
   "Fabricated Evidence": {
     "short_definition": "Passing off invented or altered messages, images or documents as genuine proof of something that did not happen or was not said.",
     "core_meaning": "Passing off invented or altered messages, images or documents as genuine proof of something that did not happen or was not said.",
-    "expanded_definition": "Fabricated evidence is material that looks like a record but is not one. Examples are an edited message thread, a screenshot of a conversation that never took place, a changed date or a forged document, offered as proof. Many people know it as forged screenshots, since a faked image of a message is the most common kind. Screenshots are often treated as settled proof, which is why a fake can carry weight. It differs from a real record taken out of context, because here the item itself is not authentic. It is usually shown to a third party, so the harm falls on your credibility.",
+    "expanded_definition": "Fabricated evidence is material that looks like a record but is not one. Examples are an edited message thread, a screenshot of a conversation that never took place, a changed date or a forged document. These are offered as proof. Many people know it as forged screenshots, since a faked image of a message is the most common kind. Screenshots are often treated as settled proof, which is why a fake can carry weight. It differs from a real record taken out of context, because here the item itself is not authentic. It is usually shown to a third party, so the harm falls on your credibility.",
     "plain_language_summary": "Someone shows others a screenshot or document that looks real but was made up or changed. They present it as proof of something you never wrote, said or did.",
-    "why_this_matters": "Screenshots and documents are widely accepted as proof. Disproving a fake means asking people to doubt evidence they normally trust. Meanwhile your own account can start to look like the lie, and the harm can reach work, school or court before anyone checks the item.",
+    "why_this_matters": "Screenshots and documents are widely accepted as proof. Disproving a fake means asking people to doubt evidence they normally trust. Meanwhile your own account can start to look like the lie. The harm can reach work, school or court before anyone checks the item.",
     "what_it_is": [
       "A message, image or document that looks like a record but was edited, put together or invented, then presented as real.",
-      "Either a full invention, such as a conversation that never took place, or a change to something real, such as a different word, name, date or amount.",
+      "It is either a full invention, such as a conversation that never took place, or a change to something real. The change might be a different word, name, date or amount.",
       "Usually shown to a third party, such as friends, an employer, a school, a platform or a court, and not to you.",
       "Often introduced with a phrase like 'I have receipts'. That asks for trust in how the thing looks, and not in what it contains.",
       "Found in breakups, custody fights, workplace disputes, online feuds and disputes with institutions. It shows up wherever a record could decide whose account is believed.",
@@ -167,7 +167,7 @@
       "The disagreement is about what a real message meant, not whether it was written."
     ],
     "more_concerning_if": [
-      "The item is used in a formal complaint, in a custody or protective-order matter, or to get you dismissed or shut out of a group.",
+      "The item is used in a formal complaint, or in a custody or protective-order matter. Or it is used to get you dismissed or shut out of a group.",
       "More than one doubtful item has appeared, or accounts that hold the originals have become unavailable to you.",
       "The other person has had access to your phone, accounts or cloud backups."
     ],
@@ -182,7 +182,7 @@
     "psychological_mechanism": "A record-shaped object earns trust quickly, and a screenshot has the air of a witness who cannot be argued with. Third parties often have no way to check it, so the first version they see can set their view. The person it targets may start doubting their own memory, which can make the fake feel more believable.",
     "possible_impact_on_receiver": "People describe shock at reading words attributed to them, then a scramble to prove a negative. Some lose standing at work, with friends or in a legal matter before anyone checks the item. Others describe doubting their memory, going silent to avoid more material, and feeling that being believed has turned into a technical problem.",
     "response_options": {
-      "soft_clarification": "Ask to see the record in the app it came from, not as an image: 'Can we open that conversation on the phone it came from?' A genuine record can usually survive that request.",
+      "soft_clarification": "Ask to see the record in the app it came from, not as an image. Try: 'Can we open that conversation on the phone it came from?' A genuine record can usually survive that request.",
       "firm_boundary": "Decline to argue about the item with the person who produced it. Move the question to a neutral reviewer, such as a platform, a mediator or HR, who can compare originals.",
       "disengagement": "Stop replying about the item, delete nothing on your side, and do not repost the fake to disprove it, since that spreads it further. Save it with its source and date.",
       "support_seeking": "Bring your saved originals and the suspect item to a lawyer, legal aid clinic or victim services advocate. Ask how originals are authenticated.",
