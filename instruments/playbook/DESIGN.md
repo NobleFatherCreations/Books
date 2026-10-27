@@ -418,3 +418,37 @@ From an independent critique (Nielsen 29/40) and the owner's pasted v18 brief (c
   - one-card PREV / MATRIX / NEXT deck: it would drop the four steps, search results and compare.
   - tracked 9–11px capitals, `user-scalable=no`, `user-select:none`, crimson exit: see the paste check for why.
 - **Regression net:** `scripts/decoder-verify.js` now has 112 checks (three new v18 checks).
+
+
+## v19 addendum: one scroll, no map, Apple manner (2026-10-27, owner brief; candidate build, not deployed)
+
+The owner asked for the single-scroll station, no clutter or tabs, the "tracks with small circles" replaced by an easier way to
+navigate, and an Apple feel. Content is unchanged. This answers two of the open owner questions: **one page, not four tabs**,
+and **Quiet colours is the default** (the calm look the brief asks for; Vivid is opt-in in Settings).
+
+- **A station is one scroll.** The four steps are four sections (`#sec-0..3`, `.panelx`): Is this it? / Understand / What to do /
+  Go deeper. A sticky section index (`.secnav`, four buttons, 44px, 13px labels) sits under the top bar, follows the reader down
+  (scroll-spy sets `aria-current`) and jumps on tap. Keys 1 to 4 jump too. Old `/entry/slug/3` and `/s/5/4` addresses scroll to that
+  section. Gone: the tabs, the step bar, Next buttons, the swipe and its hint, the step dock, the line strip with its track of dots.
+- **Phone reading mode, v19.** Going down the page the sign bar slides away (`body.reading`, set by scroll direction, not by a
+  threshold); scrolling up brings it and Back to top back. The section index stays. Honours reduced motion.
+- **No map.** The network map, the station sheet, the Home thumbnail, the line page's track and the route strip are removed, with
+  `Show on the map` and `See them on the map`. The third door is now **Browse** (`#/lines`): ten lines as an inset grouped list, a
+  two-way segmented control (By line / A to Z), and "Other ways in" rows (where it happens, most common, patterns). `#/map` and
+  old sky/constellation links redirect to Browse. "Change here for" and Compare, which carried the map's real value, stay.
+- **Home** is: headline, gold Help blade, a search field (a link to Search, cursor lands in the box), the safety blade, then the ten
+  lines as a grouped list. No brick wall, no stripe, no glow, no colour toggle (Settings has it).
+- **Apple manner, within the tokens.** Frosted top bar, section index and sign bar (`backdrop-filter`, solid under
+  `prefers-reduced-transparency`); inset grouped lists with hairlines inset to the text and a chevron; capsule buttons and
+  segmented controls; one radius scale (`--r` 14px, `--r-s` 10px); large tight-tracked titles; the line's colour is a short
+  pill above the title and the letter bullet. Fonts, gold, safety red and exit green are unchanged. Shape rules live in one block.
+- **Quiet is the default.** `data-color=vivid` (opt-in) restores the colour tiles, stripe, glow and coloured line headers. A saved
+  `co:"quiet"` is simply the default; the head script now only sets `vivid`.
+- **Top bar** no longer overlaps at the Largest text size (the name truncates).
+- **Not done / still open:** Help Q2 wording ("they say it never happened") needs the owner's yes; "the 13 gates" undefined; the
+  grain texture stays rejected. `docs/DECODER-REVIEW-PACK-v17.md` still describes tabs and the map (see the note at its top).
+- **Regression net:** `scripts/decoder-verify.js` is now 105 checks: the map, sheet, tab, dock, swipe, route-strip, thumbnail and
+  colour-toggle checks were removed or rewritten for the new structure; new checks cover the section index (pinned, marks where
+  you are, jumps), keys and deep links, the sliding sign bar, Browse rows, Quiet default and Vivid opt-in, the Home search
+  field, and the top bar at 320px. Axe: no serious or critical findings (64 scans). LCP 572 to 624 ms on the 4x slowdown.
+

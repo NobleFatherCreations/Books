@@ -1,5 +1,9 @@
 # MEMORY — read this first, every session
 
+> **v19 CANDIDATE (2026-10-27, later, NOT deployed):** the owner asked for single scroll, no tabs/clutter, no "tracks with
+> circles", Apple feel. Built from this source: one scroll per station with a sticky section index, Browse replaces the map,
+> Quiet default, frosted bars. Suite 105/105, axe clean. Deploying it is a production write: needs the owner's go-ahead, then bump
+> `sites.json` (version v19 + changelog) in the same commit; the page already says v19. Details: DESIGN.md "v19 addendum".
 > **START HERE (latest, 2026-10-27).** Pattern Decoder **v18 is LIVE** (deploy 6ae0a61aff2b9cdb5d09a3c4); repo and live are
 > byte-identical (`node scripts/verify-deployed.mjs playbook hub` in Books). The source is `Books/design/decoder-v15/` +
 > `Books/design/decoder_pages.py`, built by `python3 design/build-decoder-v15.py` into the publish directory
@@ -4783,3 +4787,18 @@ Owner asked for ten phone upgrades, a final combing of every tactic for accuracy
   Sequential Thinking at user scope on every start (idempotent; tested fresh, repeated, and outside a repo: Connected).
   A server registered by a hook is live from the next start or resume of that chat; the environment Setup script line is
   still the only way to have it in the very first turn of every new chat.
+
+## 2026-10-27 (v19 candidate) — one scroll, no map, Apple manner
+
+- **Ask:** "add the single scroll and any other upgrade; remove clutter and tabs; replace the tracks with small circles with an
+  easier system; Apple feel; act as a senior design expert." Planning used Sequential Thinking (connected in this session) and
+  the apple-design and ponytail skills. A pasted plan from another chat (React tooling, Festival tokens, red-free exit, 12px
+  labels, "Kinetic Deck") was not followed: it contradicts CLAUDE.md and DECODER-V18-PASTE-CHECK.md; its context files were never
+  added to the repo.
+- **Done (source, not live):** `design/decoder-v15/{app.js,app.css,shell.html}`, `design/build-decoder-v15.py`
+  (`home_html`, version v19, update note), `design/decoder_pages.py` (one line of copy), `scripts/decoder-verify.js`
+  (105 checks), `instruments/playbook/DESIGN.md` (v19 addendum). The built `instruments/playbook/site/` was rebuilt, so it now
+  differs from live (v18) until deployed. JS 95 to 81 KB, CSS 51 to 42 KB.
+- **Open for the owner:** Help Q2 wording; the 13 gates; whether to deploy v19. A phone check on a real device (the suite
+  uses a software browser) is still worth doing, especially the sliding sign bar and the sticky index with the on-screen keyboard.
+

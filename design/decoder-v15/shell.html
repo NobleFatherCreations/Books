@@ -20,7 +20,7 @@
 <script>/* Saved preferences apply before first paint, but only when the reader turned saving on (they live in one scrambled entry). */
 (function(){var r=document.documentElement;try{var t=localStorage.getItem("ui-state");if(!t)return;var a=atob(t),k=[110,102,33,154,60,81],u=new Uint8Array(a.length);for(var i=0;i<a.length;i++)u[i]=a.charCodeAt(i)^k[i%6];
 var o=JSON.parse(new TextDecoder().decode(u));if(!o||o.on!==1)return;if(o.th==="night"||o.th==="day")r.setAttribute("data-theme",o.th);if(o.sz==="l"||o.sz==="xl")r.setAttribute("data-size",o.sz);
-if(o.sp==="roomy")r.setAttribute("data-space","roomy");if(o.mo==="reduce")r.setAttribute("data-motion","reduce");if(o.co==="quiet")r.setAttribute("data-color","quiet");}catch(e){}})();</script>
+if(o.sp==="roomy")r.setAttribute("data-space","roomy");if(o.mo==="reduce")r.setAttribute("data-motion","reduce");if(o.co==="vivid")r.setAttribute("data-color","vivid");}catch(e){}})();</script>
 <style>
 {{FONTS}}
 {{CSS}}
@@ -31,7 +31,7 @@ if(o.sp==="roomy")r.setAttribute("data-space","roomy");if(o.mo==="reduce")r.setA
 THESIS: Wayfinding. A frightened reader gets the sign system of a metro at night, not a gallery: ten lettered lines, stations, "change here for", a green exit. Refuses the support-site pastel and v14's moving sky.
 OWN-WORLD: near-black sign panels, enamel-white lettering, ten line colours each with a letter bullet, ISO amber for danger only, exit green for leaving only; Overpass 800 sign lettering over Atkinson Hyperlegible Next; rectangles for signs, circles for lines; nothing moves unprompted.
 STORY: the reader understands where they are and where to go, believes nothing is saved or judged, and acts: names it, checks it both ways, finds a safe step, or leaves.
-FIRST VIEWPORT: headline "Put a name to what is happening." at 36px; three sign blades, the white "Help me figure it out" first; the ten-line index below; Private status and green Leave in the top bar; four doors along the thumb.
+FIRST VIEWPORT: headline "Put a name to what is happening." at 36px; three sign blades, the gold "Help me figure it out" first; the ten-line index below; Private status and green Leave in the top bar; four doors along the thumb (Help, Search, Browse, Saved). v19: one scroll per station with a sticky section index; no network map.
 FORM: Wayfinding (A of three compared in docs/DECODER-V15-ARCHITECTURE.html; seed 2e781f06, mode read).
 FINISH: unreviewed and undocumented is unfinished; this build ends with the finish review, the verdict, and DESIGN.md
 -->
@@ -44,7 +44,7 @@ FINISH: unreviewed and undocumented is unfinished; this build ends with the fini
 <nav class="doors" aria-label="Main">
   <a href="#/help" data-door="help"><span class="di"><svg class="i" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M9.5 9a2.5 2.5 0 1 1 3.5 2.3c-.7.3-1 .9-1 1.7v.5"/><circle cx="12" cy="17" r=".6" fill="currentColor"/></svg></span>Help</a>
   <a href="#/search" data-door="search"><span class="di"><svg class="i" viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg></span>Search</a>
-  <a href="#/map" data-door="map"><span class="di"><svg class="i" viewBox="0 0 24 24" aria-hidden="true"><circle cx="6" cy="6" r="2"/><circle cx="18" cy="18" r="2"/><path d="M6 8v4a4 4 0 0 0 4 4h6"/><circle cx="18" cy="6" r="2"/><path d="M18 8v8"/></svg></span>Map</a>
+  <a href="#/lines" data-door="browse"><span class="di"><svg class="i" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 6h16M4 12h16M4 18h10"/></svg></span>Browse</a>
   <a href="#/saved" data-door="saved"><span class="di"><svg class="i" viewBox="0 0 24 24" aria-hidden="true"><path d="M6 3h12v18l-6-4-6 4z"/></svg></span>Saved</a>
   <div class="lines" id="doorlines"></div>
 </nav>
@@ -55,7 +55,6 @@ FINISH: unreviewed and undocumented is unfinished; this build ends with the fini
 <div class="toast" id="toast" role="status" aria-live="polite"></div>
 <p class="sr-only" id="announce" role="status" aria-live="polite"></p>
 <div class="breath" id="breath" hidden><div class="breath-box" role="dialog" aria-modal="false" aria-labelledby="breath-h"><h2 id="breath-h">You have been reading for a while.</h2><p>This can be heavy to sit with. Breathe out slowly, look away from the screen for a moment, and come back when you are ready.</p><div class="acts"><button class="btn pri" type="button" data-breath="go">Keep reading</button><button class="btn line" type="button" data-breath="off">Don’t remind me again</button></div></div></div>
-<dialog class="sheet" id="sheet" aria-labelledby="sheet-h"></dialog>
 <script type="application/json" id="data">{{INDEX}}</script>
 {{HOUSE}}
 <script>

@@ -115,7 +115,7 @@ const canon = n => D.aliases[n]||n;
 const starred = () => store.get("starred",[]).map(canon).filter(n=>BY[n]);
 const isSaved = n => starred().includes(n);
 function toggleSave(n){ let s=starred(); s=s.includes(n)?s.filter(x=>x!==n):[n].concat(s); store.set("starred",s); return s.includes(n); }
-/* Rest a line: the reader hides whole lines they are not ready to read about. They stay out of search, matches, lists and the map
+/* Rest a line: the reader hides whole lines they are not ready to read about. They stay out of search, matches and lists
    until shown again. Nothing here rates how intense a tactic is; the choice is entirely the reader's. At least one line stays visible. */
 const hiddenSet=()=>new Set(store.get("hidden",[]));
 function setHidden(k,on){ let h=store.get("hidden",[]); h=on?[...new Set(h.concat(k))]:h.filter(x=>x!==k); if(on&&h.length>=LINES.length) return false; store.set("hidden",h); return true; }
@@ -240,7 +240,7 @@ function snippet(e,n){
 }
 let SEARCH_Q = "";
 /* Search also reaches the lines and the pages, the way v14's command menu did. */
-const PAGES=[["Help me figure it out","#/help","guide questions where feel not sure"],["The map","#/map","network lines stations"],["Saved","#/saved","bookmarks kept recent"],
+const PAGES=[["Help me figure it out","#/help","guide questions where feel not sure"],["Browse all lines","#/lines","map network lines stations"],["Saved","#/saved","bookmarks kept recent"],
   ["Use this safely","#/safety","safety danger emergency help leave exit privacy"],["Settings","#/settings","text size larger night day dark light colours motion spacing saving private"],
   ["Service updates","#/updates","what changed version news"],["Patterns seen together","#/routes","sequences combine order recipes"],["All lines, A to Z","#/lines/az","alphabetical list index"],
   ["Where it happens","#/lines/where","relationship family work online settings"],["The most common","#/lines/common","popular frequent starting point"]];
@@ -307,15 +307,14 @@ function viewHelp(){
     (sens?'<div class="warn" role="note"><div class="band">'+ic("tri")+'If you feel unsafe</div><div class="body"><p>If you are afraid of someone, reach a person you trust, a local support service, or emergency services if you are in immediate danger. <a href="#/safety">More on staying safe</a></p></div></div>':'')+
     (list.length?'<div class="rows">'+top.map(m=>rowHTML(m.e,{why:whyHTML(m)})).join("")+'</div>':'<p class="lede">Try adding another answer.</p>')+
     (rest.length?(g.more?'<h2 class="k">More possible matches</h2><div class="rows">'+rest.map(m=>rowHTML(m.e,{why:whyHTML(m)})).join("")+'</div>':'<button class="linkbtn" type="button" data-gmore>Show '+rest.length+' more possible matches</button>'):'')+
-    '<div class="blades" style="margin-top:2rem">'+(list.length?'<button class="blade" type="button" data-maplit>'+'<span class="pict">'+ic("map")+'</span><span class="bt"><b>See them on the map</b><small>Matches often cluster on one or two lines</small></span><span class="ar">'+ic("arrow")+'</span></button>':'')+
+    '<div class="blades" style="margin-top:2rem">'+
     '<button class="blade quiet" type="button" data-greset><span class="bt"><b>Start over</b></span></button></div></div>';
 }
 
 /* ---------- a station ---------- */
 const visRel=(e,HID)=>crossRel(e).filter(r=>!HID.has(r.g));
 const RESP=[["soft_clarification","Ask about it gently"],["firm_boundary","Set a clear limit"],["disengagement","Step back"],["support_seeking","Get support"],["workplace_or_professional","At work, school or with services"]];
-const STEPS=[["fit","Is this it?"],["understand","Understand it"],["do","What you can do"],["deeper","Go deeper"]];
-let STEP=0;
+const STEPS=[["fit","Is this it?"],["understand","Understand"],["do","What to do"],["deeper","Go deeper"]];
 function stepPanels(e){
   const HID=hiddenSet(), f=full(e), notIt=f.this_may_not_be_it_when||[], says=f.what_it_sounds_like||[], pats=(PATS_OF[e.n]||[]).map(i=>D.recipes[i]), x=visRel(e,HID), same=(e.rel||[]).filter(n=>BY[n]&&BY[n].g===e.g).map(n=>BY[n]);
   const scriptH={verify:"A check to run before you share or act",self:"Words to say to yourself",say:"Words you could use"}[e.kind];
@@ -356,12 +355,7 @@ function viewStation(e,stepArg){
   logTrail(e.n);
   const l=LINE[e.g], f=full(e), si=l.order.indexOf(e.n), prev=l.st[si-1], next=l.st[si+1], says=f.what_it_sounds_like||[], saved=isSaved(e.n);
   const HID=hiddenSet(), xAll=crossRel(e), x=xAll.filter(r=>!HID.has(r.g)), w=(e.w||[]).map(k=>SET[k]&&SET[k].label).filter(Boolean), pats=(PATS_OF[e.n]||[]).map(i=>D.recipes[i]);
-  const s0=Math.max(0,Math.min(3,(parseInt(stepArg,10)||1)-1)); STEP=s0;
-  const strip='<nav class="strip" aria-label="Position on the '+esc(lineName(l))+'">'+
-      (prev?'<a href="'+stH(prev)+'" data-vt data-pg="prev">'+ic("prev")+'<span>'+H(prev.n)+'</span></a>':'<span class="nolink">Start of line</span>')+
-      '<span class="pos">Station '+(si+1)+' of '+l.order.length+'</span>'+
-      (next?'<a class="nx" href="'+stH(next)+'" data-vt data-pg="next"><span>'+H(next.n)+'</span>'+ic("next")+'</a>':'<span class="nolink nx">End of line</span>')+
-      '<div class="track" aria-hidden="true">'+(prev?'<i class="st"></i><i class="ln"></i>':'<i class="st end"></i>')+'<i class="st here"></i>'+(next?'<i class="ln"></i><i class="st"></i>':'<i class="st end"></i>')+'</div></nav>';
+  SEC_JUMP=Math.max(0,Math.min(3,(parseInt(stepArg,10)||1)-1))||null;   /* an old /entry/name/3 address scrolls to that section */
   const panels=stepPanels(e);
   return gloss('<article class="view station" data-g="'+e.g+'" aria-labelledby="st-h">'+
     '<div class="printhead" aria-hidden="true"><b>Pattern Decoder</b><span>'+bullet(l)+emblem(l)+esc(lineName(l))+' · Station '+(si+1)+' of '+l.order.length+'</span></div>'+
@@ -375,38 +369,32 @@ function viewStation(e,stepArg){
       (e.abs&&e.abs.length?'<p class="alsoc">Also called '+e.abs.map(H).join(", ")+'</p>':'')+'</section>'+
     '<div class="acts"><button class="btn" type="button" data-save="'+esc(e.n)+'" aria-pressed="'+saved+'">'+ic(saved?"saved":"save")+(saved?'Saved':'Save')+'</button>'+
       (CAN_SPEAK?'<button class="btn" type="button" data-listen>'+ic("volume")+'Listen</button>':'')+
-      '<button class="btn" type="button" data-aa><span class="aa" aria-hidden="true">Aa</span>Text size<span class="sr-only">, now '+SIZE_NAME[PREF.size]+'. Tap to change.</span></button>'+
-      '<details class="moreacts"><summary class="btn">More<span class="sr-only"> ways to keep this</span></summary><button class="btn" type="button" data-share>'+ic("share")+'Share link</button><button class="btn" type="button" data-print>'+ic("print")+'Print</button></details></div>'+strip+
-    '<div class="steps" data-steps><div class="tabs" role="tablist" aria-label="Read this entry in four steps">'+
-      STEPS.map((s,i)=>'<button role="tab" type="button" id="t-'+i+'" aria-controls="p-'+i+'" aria-selected="'+(i===s0)+'" tabindex="'+(i===s0?0:-1)+'"><span class="no">'+(i+1)+'</span>'+s[1]+'</button>').join("")+
-      '</div><div class="stepbar" aria-hidden="true"><i style="--p:'+(s0+1)/4+'"></i></div>'+
-      (!SWIPE_HINTED&&matchMedia("(pointer: coarse)").matches?'<p class="swipehint" data-swipehint>Tip: swipe left or right to change step.</p>':'')+
-      panels.map((p,i)=>'<section class="panelx" role="tabpanel" id="p-'+i+'" aria-labelledby="t-'+i+'" tabindex="0"'+(i!==s0?' hidden':'')+'>'+p+
-        (i<3?'<div class="stepnav"><button class="btn pri" type="button" data-step="'+(i+1)+'">Next: '+STEPS[i+1][1]+ic("arrow")+'</button></div>':'')+'</section>').join("")+'</div>'+
+      '<details class="moreacts"><summary class="btn">More<span class="sr-only"> ways to keep this</span></summary>'+
+        '<button class="btn" type="button" data-aa><span class="aa" aria-hidden="true">Aa</span>Text size<span class="sr-only">, now '+SIZE_NAME[PREF.size]+'. Tap to change.</span></button>'+
+        '<button class="btn" type="button" data-share>'+ic("share")+'Share link</button><button class="btn" type="button" data-print>'+ic("print")+'Print</button></details></div>'+
+    '<div class="sections"><nav class="secnav" aria-label="On this page">'+STEPS.map((s,i)=>'<button type="button" data-sec="'+i+'">'+s[1]+'</button>').join("")+'</nav>'+
+    '<div class="steps">'+panels.map((p,i)=>'<section class="panelx" id="sec-'+i+'">'+p+'</section>').join("")+'</div></div>'+
     '<aside class="side" aria-label="Around this station">'+
-      '<button class="btn line showmap" type="button" data-showmap="'+e.i+'">'+ic("map")+'Show on the map</button>'+
       (x.length||xAll.length?'<section class="xchg" id="chg"><h2 class="k" style="margin-top:0">Change here for</h2><p class="small muted" style="margin-bottom:.5rem">Look-alikes on other lines</p><div class="rows">'+
         x.slice(0,6).map(r=>'<div class="xrow">'+rowHTML(r)+'<a class="cmp" href="'+cpH(e,r)+'" aria-label="Compare '+esc(e.n)+' with '+esc(r.n)+'">Compare</a></div>').join("")+'</div>'+
         (xAll.length>x.length?'<p class="small muted" style="margin-top:.75rem">'+(xAll.length-x.length)+(xAll.length-x.length===1?' look-alike is':' look-alikes are')+' on lines you rested. <a href="#/settings">Settings</a> shows them again.</p>':'')+'</section>':'')+
       '<section class="facts"><dl>'+(w.length?'<div><dt>Where it happens</dt><dd>'+w.map(esc).join(", ")+'</dd></div>':'')+
         (pats.length?'<div><dt>Seen in '+pats.length+(pats.length===1?' pattern':' patterns')+'</dt><dd>'+pats.slice(0,3).map(r=>'<a href="'+rtH(r)+'">'+H(r.n)+'</a>').join(", ")+'</dd></div>':'')+'</dl></section></aside>'+
-    '<nav class="pn" aria-label="Along the '+esc(lineName(l))+'">'+(prev?'<a href="'+stH(prev)+'" data-vt><span class="arr">'+ic("prev")+'</span><span class="pt"><small>Previous station</small><b>'+H(prev.n)+'</b></span></a>':'<span></span>')+
-      (next?'<a class="nx" href="'+stH(next)+'" data-vt><span class="pt"><small>Next station</small><b>'+H(next.n)+'</b></span><span class="arr">'+ic("next")+'</span></a>':'')+'</nav>'+
+    '<nav class="pn" aria-label="Along the '+esc(lineName(l))+'">'+(prev?'<a href="'+stH(prev)+'" data-vt data-pg="prev"><span class="arr">'+ic("prev")+'</span><span class="pt"><small>Previous in this line</small><b>'+H(prev.n)+'</b></span></a>':'<span></span>')+
+      (next?'<a class="nx" href="'+stH(next)+'" data-vt data-pg="next"><span class="pt"><small>Next in this line</small><b>'+H(next.n)+'</b></span><span class="arr">'+ic("next")+'</span></a>':'')+'</nav>'+
     '<div class="printfoot" aria-hidden="true">A reading aid, not a diagnosis, a legal opinion or therapy. If you are in danger, contact emergency services.</div>'+
   '</article>');
 }
-function setStep(n,from,anim){
-  const root=$("[data-steps]"); if(!root||n<0||n>3) return;
-  if(SPK.on) speakStop();
-  const tabs=$$("[role=tab]",root), panels=$$("[role=tabpanel]",root);
-  tabs.forEach((t,i)=>{ const on=i===n; t.setAttribute("aria-selected",on); t.tabIndex=on?0:-1; if(i===STEP&&i!==n) t.classList.add("seen"); });
-  panels.forEach((p,i)=>{ p.hidden=i!==n; p.classList.remove("in-l","in-r"); });
-  if(anim&&motionOK()&&n!==STEP){ void panels[n].offsetWidth; panels[n].classList.add(n>STEP?"in-r":"in-l"); }
-  STEP=n; $(".stepbar i",root).style.setProperty("--p",(n+1)/4); dockLabel();
-  if(from){ SWIPE_HINTED=true; $$("[data-swipehint]").forEach(x=>x.remove()); hap(6); }
-  { const st=ctx(parse()).station; if(st){ const h=stH(st)+(n?"/"+(n+1):""); try{ history.replaceState(history.state,"",h); if(STACK.length) STACK[STACK.length-1].h=h; }catch(x){} } }
-  announce("Step "+(n+1)+" of 4: "+STEPS[n][1]);
-  if(from==="next"){ const t=tabs[n]; t.focus({preventScroll:true}); root.scrollIntoView({block:"start",behavior:motionOK()?"smooth":"auto"}); }
+/* One scroll, four sections. The sticky index jumps to a section and follows the reader down the page. */
+let SEC_JUMP=null, SECNAV=null;
+function jumpSec(n){ const s=document.getElementById("sec-"+n); if(!s) return; if(SPK.on) speakStop(); hap(6); s.scrollIntoView({block:"start",behavior:motionOK()?"smooth":"auto"}); }
+function secSpy(){
+  const on=$(".station")&&SECNAV&&document.contains(SECNAV); if(!on){ document.body.classList.remove("reading"); return; }
+  const edge=SECNAV.getBoundingClientRect().bottom+24; let cur=-1;   /* a section counts as current once its top is just under the index */
+  $$(".panelx").forEach((s,i)=>{ if(s.getBoundingClientRect().top<=edge) cur=i; });
+  $$("[data-sec]",SECNAV).forEach((b,i)=>{ if(i===cur) b.setAttribute("aria-current","true"); else b.removeAttribute("aria-current"); });
+  /* reading down: the sign bar steps aside; scrolling up brings it back */
+  document.body.classList.toggle("reading",cur>=0&&!UP);
 }
 
 /* ---------- compare two look-alikes ---------- */
@@ -428,23 +416,23 @@ function viewCompare(a,b){
 /* ---------- lines ---------- */
 function viewLine(l){
   if(!l) return notFound();
-  if(hiddenSet().has(l.k)) return '<div class="view" data-g="'+l.k+'"><div class="lhead">'+bullet(l,"lg")+emblem(l,"plate")+'<div><h1 class="h-page" tabindex="-1" style="margin-bottom:.5rem">'+esc(l.label)+'</h1></div></div>'+
-    '<div class="notice"><h2>You are resting this line</h2><p>Its stations are out of search, matches, lists and the map, so nothing from it turns up until you are ready. Nothing is deleted. Use this safely stays open whatever you hide.</p><div class="acts"><button class="btn pri" type="button" data-unhide="'+l.k+'">Show this line</button><a class="btn line" href="#/safety">Use this safely</a></div></div></div>';
+  if(hiddenSet().has(l.k)) return '<div class="view" data-g="'+l.k+'"><div class="lhead">'+bullet(l,"lg")+'<div><h1 class="h-page" tabindex="-1" style="margin-bottom:.5rem">'+esc(l.label)+'</h1></div></div>'+
+    '<div class="notice"><h2>You are resting this line</h2><p>Its stations are out of search, matches and lists, so nothing from it turns up until you are ready. Nothing is deleted. Use this safely stays open whatever you hide.</p><div class="acts"><button class="btn pri" type="button" data-unhide="'+l.k+'">Show this line</button><a class="btn line" href="#/safety">Use this safely</a></div></div></div>';
   const ix=l.st.filter(e=>crossRel(e).length).length;
-  return '<div class="view" data-g="'+l.k+'"><div class="lhead">'+bullet(l,"lg")+emblem(l,"plate")+'<div><h1 class="h-page" tabindex="-1" style="margin-bottom:.5rem">'+esc(l.label)+'</h1><p class="lede" style="margin:0">'+esc(l.blurb)+'</p></div></div>'+
+  return '<div class="view" data-g="'+l.k+'"><div class="lhead">'+bullet(l,"lg")+'<div><h1 class="h-page" tabindex="-1" style="margin-bottom:.5rem">'+esc(l.label)+'</h1><p class="lede" style="margin:0">'+esc(l.blurb)+'</p></div></div>'+
     '<p class="small muted">'+esc(l.letter)+' line · '+l.order.length+' stations · '+ix+' with places to change. Stations next to each other are closely related.</p>'+
-    '<div class="legend" aria-hidden="true"><span><i style="box-shadow:inset 0 0 0 .1875rem var(--lc)"></i>Station</span><span>'+bullet(LINE[l.k==="truth"?"control":"truth"],"sm")+'Change here for that line</span><span>'+ic("tri","tri")+'Safety first</span></div>'+
-    '<ol class="ldia">'+l.st.map(e=>{ const xs=[...new Set(crossRel(e).map(r=>r.g))];
+    '<div class="legend" aria-hidden="true"><span>'+bullet(LINE[l.k==="truth"?"control":"truth"],"sm")+'Look-alikes on another line</span><span>'+ic("tri","tri")+'Safety first</span></div>'+
+    '<ol class="glist ldia">'+l.st.map(e=>{ const xs=[...new Set(crossRel(e).map(r=>r.g))];
       return '<li><a href="'+stH(e)+'" data-vt><span class="nm">'+H(e.n)+'</span>'+(e.sens?ic("tri","tri"):'')+
         (xs.length?'<span class="xb" aria-hidden="true">'+xs.slice(0,4).map(g=>bullet(LINE[g],"sm")).join("")+'</span>':'')+
         '<span class="sr-only">'+(e.sens?', safety first':'')+(xs.length?', change here for '+xs.map(g=>LINE[g].letter+' line').join(", "):'')+'</span></a></li>'; }).join("")+'</ol>'+
-    '<div class="blades" style="margin-top:2rem"><a class="blade quiet" href="#/map"><span class="pict">'+ic("map")+'</span><span class="bt"><b>See this line on the map</b></span><span class="ar">'+ic("arrow")+'</span></a>'+
-    '<button class="blade quiet" type="button" data-hide="'+l.k+'"><span class="pict">'+ic("eyeoff")+'</span><span class="bt"><b>Rest this line for now</b><small>Hide it from search, matches and the map until you show it</small></span></button></div></div>';
+    '<div class="blades" style="margin-top:2rem">'+
+    '<button class="blade quiet" type="button" data-hide="'+l.k+'"><span class="pict">'+ic("eyeoff")+'</span><span class="bt"><b>Rest this line for now</b><small>Hide it from search, matches and lists until you show it</small></span></button></div></div>';
 }
-function lineRows(){ const HID=hiddenSet(); return '<ol class="lrows">'+LINES.map(l=>'<li><a class="lrow'+(HID.has(l.k)?' rest':'')+'" href="'+lnH(l)+'">'+bullet(l)+'<span class="lt"><b>'+esc(l.label)+'</b><small>'+(HID.has(l.k)?'Resting. Hidden from search, matches and the map. Open to show it.':esc(l.blurb))+'</small></span><span class="n">'+l.order.length+'</span></a></li>').join("")+'</ol>'; }
+function lineRows(){ const HID=hiddenSet(); return '<ol class="lrows glist">'+LINES.map(l=>'<li><a class="lrow'+(HID.has(l.k)?' rest':'')+'" href="'+lnH(l)+'">'+bullet(l)+'<span class="lt"><b>'+esc(l.label)+'</b><small>'+(HID.has(l.k)?'Resting. Hidden from search and matches. Open to show it.':esc(l.blurb))+'</small></span><span class="n">'+l.order.length+'</span>'+ic("next","chev")+'</a></li>').join("")+'</ol>'; }
 function viewLines(tab){
   const HID=hiddenSet();
-  const tabs=[["","By line"],["az","A to Z"],["where","Where it happens"],["common","Most common"]];
+  const tabs=[["","By line"],["az","A to Z"]], other=[["#/lines/where","By where it happens","The settings where tactics turn up"],["#/lines/common","The most common","What shows up most across documented patterns"],["#/routes","Patterns seen together","Tactics that often arrive in a sequence"]];
   let body="";
   if(tab==="az"){ const by={}; alpha().filter(e=>!HID.has(e.g)).forEach(e=>{ const c=/[a-z]/i.test(e.n.charAt(0))?e.n.charAt(0).toUpperCase():"#"; (by[c]=by[c]||[]).push(e); });
     const ks=Object.keys(by);
@@ -453,72 +441,20 @@ function viewLines(tab){
   else if(tab==="where") body=D.settings.map(s=>{ const list=E.filter(e=>!HID.has(e.g)&&(e.w||[]).includes(s.k)).sort((a,b)=>b.pop-a.pop||a.n.localeCompare(b.n));
     return '<h2 class="h-sec">'+pic(s.k)+esc(s.label)+'</h2><p class="small muted" style="margin-bottom:.75rem">'+esc(s.blurb)+' '+list.length+' tactics.</p>'+fold(list,"rows-f",6,e=>rowHTML(e)).replace('class="ul rows-f"','class="rows"'); }).join("");
   else if(tab==="common") body='<p class="lede">A starting point: the tactics that show up most often across the documented patterns.</p>'+rows(D.common.map(n=>BY[n]).filter(e=>e&&!HID.has(e.g)));
-  else body='<p class="lede">Ten lines, one for each kind of tactic. Every tactic is a station on its line.</p>'+lineRows();
-  return '<div class="view"><h1 class="h-page" tabindex="-1">All lines</h1><nav class="seg" aria-label="Ways to list">'+tabs.map(t=>'<a href="#/lines'+(t[0]?'/'+t[0]:'')+'"'+((tab||"")===t[0]?' aria-current="page"':'')+'>'+t[1]+'</a>').join("")+'</nav>'+body+'</div>';
+  else body='<p class="lede">Ten lines, one for each kind of tactic. Every tactic is a station on its line.</p>'+lineRows()+
+    '<h2 class="h-sec">Other ways in</h2><ul class="glist">'+other.map(o=>'<li><a class="lrow" href="'+o[0]+'"><span class="lt"><b>'+o[1]+'</b><small>'+o[2]+'</small></span>'+ic("next","chev")+'</a></li>').join("")+'</ul>';
+  const sub=tab==="where"?"By where it happens":tab==="common"?"The most common":"";
+  return '<div class="view"><h1 class="h-page" tabindex="-1">'+(sub||"Browse")+'</h1>'+(sub?'':'<nav class="seg" aria-label="Ways to list">'+tabs.map(t=>'<a href="#/lines'+(t[0]?'/'+t[0]:'')+'"'+((tab||"")===t[0]?' aria-current="page"':'')+'>'+t[1]+'</a>').join("")+'</nav>')+body+'</div>';
 }
 
-/* ---------- the map: ten lines side by side, stations in line order ---------- */
-let MAPLIT=null, MAPSEL=-1, MAPROUTE=null;
-function mapGeom(land){
-  const g={land, pts:[]};
-  /* 24-unit spacing between stations in both layouts, so every tap target is at least 24 CSS pixels (WCAG 2.5.8) */
-  if(land){ g.w=76+44*24+24; g.h=40+LINES.length*52; LINES.forEach((l,li)=>l.st.forEach((e,si)=>{ g.pts[e.i]={x:76+si*24,y:36+li*52}; })); }
-  else { g.w=22+(LINES.length-1)*32+22; g.h=64+Math.max(...LINES.map(l=>l.order.length))*28; LINES.forEach((l,li)=>l.st.forEach((e,si)=>{ g.pts[e.i]={x:22+li*32,y:56+si*28}; })); }
-  return g;
-}
-function mapSVG(){
-  const land=innerWidth>=900, g=mapGeom(land), lit=new Set(MAPLIT||MAPROUTE||[]), HID=hiddenSet();
-  let s='<svg class="map'+(land?' land':'')+(lit.size?' dim':'')+'" id="map" viewBox="0 0 '+g.w+' '+g.h+'" role="group" aria-label="Network map of all '+E.length+' stations. Use the arrow keys to move between stations and Enter to open one.">';
-  LINES.forEach((l,li)=>{ const a=g.pts[l.st[0].i], b=g.pts[l.st[l.st.length-1].i];
-    s+='<g data-g="'+l.k+'"'+(HID.has(l.k)?' class="rest"':'')+'><line class="ln" x1="'+a.x+'" y1="'+a.y+'" x2="'+b.x+'" y2="'+b.y+'"/>'+
-      '<g class="bl" aria-hidden="true"><circle cx="'+(land?28:a.x)+'" cy="'+(land?a.y:20)+'" r="12"/><text x="'+(land?28:a.x)+'" y="'+((land?a.y:20)+4.5)+'">'+l.letter+'</text></g></g>'; });
-  if(MAPROUTE){ s+='<polyline class="route" points="'+MAPROUTE.map(i=>g.pts[i].x+","+g.pts[i].y).join(" ")+'"/>'; }
-  s+='<g id="xl"></g>';
-  E.forEach(e=>{ const p=g.pts[e.i], ix=crossRel(e).length>0;
-    const entry=MAPSEL>=0?MAPSEL:(lit.size?[...lit][0]:(LINES.find(l=>!HID.has(l.k))||LINES[0]).st[0].i), rest=HID.has(e.g);
-    s+='<a href="'+stH(e)+'" data-i="'+e.i+'" data-g="'+e.g+'" tabindex="'+(e.i===entry&&!rest?0:-1)+'"'+(rest?' aria-hidden="true"':'')+' class="'+(lit.has(e.i)?'lit':'')+(e.i===MAPSEL?' sel':'')+(rest?' rest':'')+'" aria-label="'+esc(e.n+", "+lineName(LINE[e.g]))+'">'+
-      '<circle class="hit" cx="'+p.x+'" cy="'+p.y+'" r="12"/><circle class="st" cx="'+p.x+'" cy="'+p.y+'" r="6"/></a>'; });
-  return s+'</svg>';
-}
-function drawInterchanges(i){
-  const svg=$("#map"), gx=$("#xl"); if(!svg||!gx) return; const g=mapGeom(svg.classList.contains('land')), e=E[i], a=g.pts[i];
-  gx.innerHTML=crossRel(e).map(r=>{ const b=g.pts[r.i], mx=(a.x+b.x)/2, my=(a.y+b.y)/2, bend=g.land?-24:24;
-    return '<path class="xl draw" d="M'+a.x+' '+a.y+' Q'+(mx+(g.land?0:bend))+' '+(my+(g.land?bend:0))+' '+b.x+' '+b.y+'"/>'; }).join("");
-  $$("path",gx).forEach((p,i)=>{ p.style.setProperty("--len",Math.ceil(p.getTotalLength())); p.style.animationDelay=(i*40)+"ms"; });
-}
-function viewMap(){
-  const note=MAPLIT?'<div class="maptools"><span class="small"><b>Showing your '+MAPLIT.length+' matches.</b></span><button class="linkbtn" type="button" data-mapclear>Show every station</button></div>':
-    MAPSEL>=0?'<div class="maptools"><span class="small"><b>'+H(E[MAPSEL].n)+'</b> is highlighted, with a line to each place you can change.</span><a class="linkbtn" href="'+stH(E[MAPSEL])+'">Open the station</a><button class="linkbtn" type="button" data-mapclear>Clear</button></div>':'';
-  return '<div class="view wide"><h1 class="h-page" tabindex="-1">The map</h1><p class="lede">Ten lines, one for each kind of tactic. Lines that share the most look-alikes run side by side. Tap a station to see it and where you can change. For station names, scroll down to the list of every line.</p>'+
-    note+'<div class="legend"><span><i></i>A station: tap one to read it and see where you can change</span></div><div class="mapwrap">'+mapSVG()+'</div>'+
-    '<h2 class="h-sec">Every line as a list</h2>'+lineRows()+'</div>';
-}
-function openSheet(i){
-  const e=E[i], l=LINE[e.g], x=crossRel(e), sh=$("#sheet");
-  MAPSEL=i; $$("#map a.sel").forEach(a=>a.classList.remove("sel")); const a=$('#map a[data-i="'+i+'"]'); if(a) a.classList.add("sel");
-  drawInterchanges(i);
-  sh.innerHTML='<span class="grab" data-grab aria-hidden="true"></span><button class="leave lvs" type="button" data-leave aria-label="Leave this site quickly"><span>Leave</span>'+ic("exit")+'</button><button class="x" type="button" data-sheetclose aria-label="Close">'+ic("close")+'</button><div class="in" data-g="'+e.g+'">'+
-    '<div class="sign" style="display:flex;gap:.75rem;align-items:flex-start">'+bullet(l)+'<div><h2 id="sheet-h" style="font-size:1.5rem;line-height:1.1">'+H(e.n)+'</h2>'+(e.sub?'<p class="muted">'+H(e.sub)+'</p>':'')+'</div></div>'+
-    (e.sens?'<p class="small" style="display:flex;gap:.5rem;align-items:center">'+ic("tri","tri")+'<span>Safety first: this entry starts with its safety note.</span></p>':'')+
-    '<p>'+H(e.f.plain_language_summary)+'</p>'+
-    '<a class="blade pri" href="'+stH(e)+'"><span class="bt"><b>Open this station</b></span><span class="ar">'+ic("arrow")+'</span></a>'+
-    (x.length?'<h3 class="k" style="margin:0">Change here for</h3><div class="rows">'+x.slice(0,5).map(r=>rowHTML(r)).join("")+'</div>':'')+'</div>';
-  SHEET_RET=a; if(!sh.open){ try{ sh.showModal(); }catch(err){ sh.setAttribute("open",""); } }
-  sh.scrollTop=0; const t=$("#sheet-h"); if(t){ t.tabIndex=-1; t.focus(); }
-}
-let SHEET_RET=null;
-function closeSheet(){ const sh=$("#sheet"); if(sh.open) sh.close(); }
 
 /* ---------- routes ---------- */
 function viewRoutes(r){
-  if(r){ const HV=hiddenSet(), RC=r.c.filter(n=>BY[n]&&!HV.has(BY[n].g)), skipped=r.c.length-RC.length; MAPROUTE=RC.map(n=>BY[n]&&BY[n].i).filter(x=>x!=null);
-    const html='<div class="view wide"><h1 class="h-page" tabindex="-1">'+H(r.n)+'</h1><p class="lede">'+H(r.d)+'</p>'+
+  if(r){ const HV=hiddenSet(), RC=r.c.filter(n=>BY[n]&&!HV.has(BY[n].g)), skipped=r.c.length-RC.length; 
+    return '<div class="view wide"><h1 class="h-page" tabindex="-1">'+H(r.n)+'</h1><p class="lede">'+H(r.d)+'</p>'+
       '<p class="note">These tactics are often seen together, in roughly this order. It is a pattern, not a prediction: nothing here says what will happen next in your situation.</p>'+
       (skipped?'<p class="note">'+skipped+(skipped===1?' tactic is':' tactics are')+' on a line you are resting, so '+(skipped===1?'it is':'they are')+' left out. Settings shows them again.</p>':'')+
-      '<div class="rstrip" aria-hidden="true" tabindex="-1"><ol>'+RC.map((n,i)=>{ const e=BY[n]; return e?'<li data-href="'+stH(e)+'" data-g="'+e.g+'"><span class="rs-n">'+(i+1)+'</span><span class="rs-st"></span><span class="rs-l">'+H(e.n)+'</span></li>':''; }).join("")+'</ol></div>'+
-      '<ol class="chain" style="margin-top:2rem">'+RC.map(n=>{ const e=BY[n]; return e?'<li><a href="'+stH(e)+'" data-vt data-g="'+e.g+'"><span class="rt" style="display:flex;flex-direction:column;gap:.25rem"><b class="nm" style="font:800 1.0625rem/1.25 var(--sign);display:flex;gap:.5rem;align-items:center">'+bullet(LINE[e.g],"sm")+H(e.n)+'</b><small class="muted">'+H(e.f.short_definition)+'</small></span></a></li>':''; }).join("")+'</ol>'+
-      '<h2 class="h-sec">On the map</h2><div class="mapwrap">'+mapSVG()+'</div></div>';
-    MAPROUTE=null; return html; }
+      '<ol class="chain" style="margin-top:2rem">'+RC.map(n=>{ const e=BY[n]; return e?'<li><a href="'+stH(e)+'" data-vt data-g="'+e.g+'"><span class="rt" style="display:flex;flex-direction:column;gap:.25rem"><b class="nm" style="font:800 1.0625rem/1.25 var(--sign);display:flex;gap:.5rem;align-items:center">'+bullet(LINE[e.g],"sm")+H(e.n)+'</b><small class="muted">'+H(e.f.short_definition)+'</small></span></a></li>':''; }).join("")+'</ol></div>'; }
   return '<div class="view"><h1 class="h-page" tabindex="-1">Patterns seen together</h1><p class="lede">Tactics rarely arrive alone. These '+D.recipes.length+' documented patterns show tactics that often appear together, and roughly in what order. They describe what has been seen, never what will happen.</p>'+
     '<div class="rows rlist">'+D.recipes.map(r=>'<a class="row" href="'+rtH(r)+'"><span class="rt"><b class="nm">'+H(r.n)+'</b><small>'+H(r.d)+'</small></span><span class="n">'+r.c.length+'</span></a>').join("")+'</div></div>';
 }
@@ -546,7 +482,7 @@ function viewSafety(){
     h("What this guide is")+p("A reading aid. It helps you put a name to something that happened, see what else it could be, and decide what to do next. Some entries are about everyday relationships; others are about workplaces, online life and influence on a whole society.")+
     h("What it is not")+p("It is not a diagnosis, a legal opinion or therapy. It cannot tell you what another person meant, what they are like, or whether you are in danger. Only you, and the people you trust, can weigh that.")+
     h("A signal, not a verdict")+p("One example of a pattern is a reason to look more closely, not proof of motive or character. Every entry says what its tactic is not, because most of these behaviors also have ordinary explanations. Please do not use a label from this guide to attack, shame, threaten, expose or get back at someone.")+
-    h("The map and the patterns")+p("Lines group tactics of one kind, and stations next to each other are closely related. A pattern shows tactics that are often seen together. None of it predicts what a particular person will do.")+
+    h("The lines and the patterns")+p("Lines group tactics of one kind, and tactics next to each other in a line are closely related. A pattern shows tactics that are often seen together. None of it predicts what a particular person will do.")+
     h("The search box")+p("Pasting in something that was said to you finds entries whose wording is close to it. That is a pointer to read further, never a finding. What you type is never added to the address bar or your history, and never sent anywhere.")+
     h("Your privacy")+p("There is no account. Saving is off unless you turn it on: until then nothing is written to this device. Page addresses and the tab title show what you are reading, and your browser keeps them in its history, so a private window is the safest way to read. The page counts anonymous visits; nothing you read, type or save is sent anywhere.")+
     p('If you turn saving on, your saved tactics, recent reading and settings stay on this device only. Turning it off in <a href="#/settings">Settings</a> deletes all of it.')+
@@ -564,25 +500,25 @@ function viewSettings(){
     '<fieldset><legend>Saving on this device</legend>'+ch("save",store.saving?"on":"off",[["off","Off (private)"],["on","On"]])+
       '<p class="help">'+(store.saving?'Saved tactics, recent reading and these settings are kept on this device in a scrambled entry. Scrambled is not secret: someone who knows how could read which tactics you saved and which lines you rested. A private window is safer. Turning saving off deletes all of it.':'Nothing is written to this device. Page addresses and the tab title still show what you are reading, so a private window is safer.')+'</p></fieldset>'+
     '<fieldset><legend>Colours</legend>'+ch("theme",PREF.theme,[["auto","Match my phone"],["night","Night"],["day","Day"]])+'</fieldset>'+
-    '<fieldset><legend>Colour strength</legend>'+ch("color",PREF.color,[["vivid","Vivid"],["quiet","Quiet"]])+'<p class="help">Quiet keeps colour to small marks. It is easier on the eyes at night and draws less attention on a shared screen.</p></fieldset>'+
+    '<fieldset><legend>Colour strength</legend>'+ch("color",PREF.color,[["quiet","Quiet"],["vivid","Vivid"]])+'<p class="help">Quiet keeps colour to small marks. It is easier on the eyes at night and draws less attention on a shared screen. Vivid adds each line’s colour to the headings and the home list.</p></fieldset>'+
     '<fieldset><legend>Text size</legend>'+ch("size",PREF.size,[["m","Standard"],["l","Larger"],["xl","Largest"]])+'</fieldset>'+
     '<fieldset><legend>Line spacing</legend>'+ch("space",PREF.space,[["normal","Standard"],["roomy","Roomier"]])+'</fieldset>'+
     '<fieldset><legend>Motion</legend>'+ch("motion",PREF.motion,[["auto","Match my phone"],["reduce","Reduce"]])+'<p class="help">Nothing moves on its own either way. Reduce also removes the short slides when you tap.</p></fieldset>'+
     (navigator.vibrate?'<fieldset><legend>Tap feedback</legend>'+ch("hap",store.get("hap",false)?"on":"off",[["off","Off"],["on","A small buzz when you tap"]])+'<p class="help">Only some phones can do this. On the others it does nothing.</p></fieldset>':'')+
     '<fieldset><legend>Reading pause</legend>'+ch("breath",store.get("breath",true)?"on":"off",[["on","Suggest a pause after 20 minutes"],["off","Off"]])+'</fieldset>'+
     '<fieldset><legend>Rest a line</legend><div class="ch rest">'+LINES.map(l=>'<label><input type="checkbox" name="rest" value="'+l.k+'"'+(hiddenSet().has(l.k)?' checked':'')+'>'+bullet(l,"sm")+esc(l.label)+'</label>').join("")+'</div>'+
-      '<p class="help">Tick the lines you are not ready to read about. They stay out of search, matches, lists and the map until you untick them. Nothing is deleted, Use this safely stays open, and some entries on a resting line can involve danger, so if you are unsure leave it visible.'+(store.saving?'':' Saving is off, so this is remembered only until you close the page.')+'</p></fieldset>'+
+      '<p class="help">Tick the lines you are not ready to read about. They stay out of search, matches and lists until you untick them. Nothing is deleted, Use this safely stays open, and some entries on a resting line can involve danger, so if you are unsure leave it visible.'+(store.saving?'':' Saving is off, so this is remembered only until you close the page.')+'</p></fieldset>'+
     '<fieldset><legend>The Leave button goes to</legend>'+ch("leave",store.get("leave","weather"),[["weather","A weather search"],["wiki","Wikipedia"],["blank","A blank page"]])+'<p class="help">It needs a connection; without one it shows a blank page. No web page can promise to leave no trace in your browser, so a private browsing window is safer still.</p></fieldset>'+
     '</form></div>';
 }
-const PREF={theme:"auto",size:"m",space:"normal",motion:"auto",color:"vivid"};
+const PREF={theme:"auto",size:"m",space:"normal",motion:"auto",color:"quiet"};
 function loadPrefs(){ Object.keys(PREF).forEach(k=>{ const v=store.get(k,null); if(v) PREF[k]=v; }); applyPrefs(); }
 function applyPrefs(){ const r=document.documentElement;
   PREF.theme==="auto"?r.removeAttribute("data-theme"):r.setAttribute("data-theme",PREF.theme);
   PREF.size==="m"?r.removeAttribute("data-size"):r.setAttribute("data-size",PREF.size);
   PREF.space==="roomy"?r.setAttribute("data-space","roomy"):r.removeAttribute("data-space");
   PREF.motion==="reduce"?r.setAttribute("data-motion","reduce"):r.removeAttribute("data-motion");
-  PREF.color==="quiet"?r.setAttribute("data-color","quiet"):r.removeAttribute("data-color"); }
+  PREF.color==="vivid"?r.setAttribute("data-color","vivid"):r.removeAttribute("data-color"); }
 const motionOK = () => PREF.motion!=="reduce" && !matchMedia("(prefers-reduced-motion: reduce)").matches;
 
 /* ---------- home ---------- */
@@ -593,9 +529,7 @@ function fillHome(){
   if(store.legacy){ c.innerHTML=legacyNotice(); return; }
   const HID=hiddenSet(), t=store.saving?store.get("trail",[]).map(x=>BY[canon(x.name)]).filter(e=>e&&!HID.has(e.g)):[];
   c.innerHTML=t.length?'<div class="continue"><span class="small muted">Continue where you left off:</span></div>'+rows([t[0]]):"";
-  $$(".net [data-g]").forEach(x=>{ if(HID.has(x.dataset.g)) x.classList.add("rest"); });
-  { const ct=$("[data-colortoggle]"); if(ct) ct.textContent=PREF.color==="quiet"?"Bring the colours back":"Make the colours quieter"; }
-  $$("#main .lrow").forEach(a=>{ const key=a.getAttribute("href").split("/").pop(), l=LINE[key]; if(l){ a.setAttribute("href",lnH(l)); if(HID.has(l.k)){ a.classList.add("rest"); const sm=$("small",a); if(sm) sm.textContent="Resting. Hidden from search, matches and the map. Open to show it."; } } });
+  $$("#main .lrow").forEach(a=>{ const key=a.getAttribute("href").split("/").pop(), l=LINE[key]; if(l){ a.setAttribute("href",lnH(l)); if(HID.has(l.k)){ a.classList.add("rest"); const sm=$("small",a); if(sm) sm.textContent="Resting. Hidden from search and matches. Open to show it."; } } });
 }
 
 /* ---------- router ---------- */
@@ -604,7 +538,7 @@ const byNum = (arr,n) => /^\d+$/.test(n)?arr[+n]:undefined;
 function stationFrom(slug){ if(BY_SLUG[slug]) return BY_SLUG[slug]; const a=ALIAS_SLUG[slug]; return a&&BY[a]; }
 /* Old v9 and v14 addresses keep working. */
 function legacy(r){
-  const m={guide:"help",narrow:"help",feeling:"help",sky:"map",constellation:"lines",index:"lines/az",all:"lines/az",common:"lines/common",core:"lines/common",
+  const m={guide:"help",narrow:"help",feeling:"help",sky:"lines",map:"lines",constellation:"lines",index:"lines/az",all:"lines/az",common:"lines/common",core:"lines/common",
     where:"lines/where",patterns:r.a?"routes/"+r.a:"routes",about:"safety",trail:"saved"};
   if(r.view==="browse") return r.a&&LINE[r.a]?"line/"+r.a:"lines";
   if(r.view==="category") return r.a&&D.catToGroup[r.a]?"line/"+D.catToGroup[r.a]:"lines";
@@ -612,7 +546,7 @@ function legacy(r){
   return m[r.view];
 }
 const ROUTES={
-  "":()=>viewHome(), help:()=>viewHelp(), search:()=>viewSearch(), map:()=>viewMap(), saved:()=>viewSaved(), safety:()=>viewSafety(), settings:()=>viewSettings(), updates:()=>viewUpdates(),
+  "":()=>viewHome(), help:()=>viewHelp(), search:()=>viewSearch(), saved:()=>viewSaved(), safety:()=>viewSafety(), settings:()=>viewSettings(), updates:()=>viewUpdates(),
   lines:r=>viewLines(r.a), line:r=>viewLine(LINE[r.a]), l:r=>viewLine(byNum(LINES,r.a)),
   entry:r=>viewStation(stationFrom(r.a),r.b), s:r=>viewStation(byNum(E,r.a),r.b),
   compare:r=>viewCompare(stationFrom(r.a),stationFrom(r.b)), c:r=>viewCompare(byNum(E,r.a),byNum(E,r.b)),
@@ -622,11 +556,11 @@ function ctx(r){ /* what a page is called, and which door it belongs to */
   const st=r.view==="entry"?stationFrom(r.a):r.view==="s"?byNum(E,r.a):null;
   const ln=r.view==="line"?LINE[r.a]:r.view==="l"?byNum(LINES,r.a):null;
   const rt=r.view==="routes"&&r.a?D.recipes.find(x=>x.s===r.a):r.view==="r"?byNum(D.recipes,r.a):null;
-  const label = st?st.n : ln?ln.label : rt?rt.n : ({"":"the start",help:GUIDE.step===2?"your matches":"Help",search:SEARCH_Q?"your search":"Search",map:"the map",lines:"All lines",routes:"Patterns",
+  const label = st?st.n : ln?ln.label : rt?rt.n : ({"":"the start",help:GUIDE.step===2?"your matches":"Help",search:SEARCH_Q?"your search":"Search",lines:"Browse",routes:"Patterns",
     saved:"Saved",safety:"Use this safely",settings:"Settings",updates:"Service updates",compare:"the comparison",c:"the comparison"})[r.view]||"the previous page";
-  const door={help:"help",search:"search",map:"map",line:"map",l:"map",lines:"map",routes:"map",r:"map",saved:"saved"}[r.view];
-  const parent = st?{h:lnH(LINE[st.g]),label:LINE[st.g].label} : ln?{h:"#/lines",label:"All lines"} : rt?{h:"#/routes",label:"Patterns"} : null;
-  const title = st?st.n : ln?ln.label : rt?rt.n : ({help:"Help me figure it out",search:"Search",map:"The map",lines:"All lines",routes:"Patterns seen together",saved:"Saved",safety:"Use this safely",settings:"Settings",updates:"Service updates"})[r.view];
+  const door={help:"help",search:"search",line:"browse",l:"browse",lines:"browse",routes:"browse",r:"browse",saved:"saved"}[r.view];
+  const parent = st?{h:lnH(LINE[st.g]),label:LINE[st.g].label} : ln?{h:"#/lines",label:"Browse"} : rt?{h:"#/routes",label:"Patterns"} : null;
+  const title = st?st.n : ln?ln.label : rt?rt.n : ({help:"Help me figure it out",search:"Search",lines:"Browse",routes:"Patterns seen together",saved:"Saved",safety:"Use this safely",settings:"Settings",updates:"Service updates"})[r.view];
   return {label,door,parent,title,station:st};
 }
 let STACK=[], LASTDOOR=null, FIRST=true, PENDING_VT=null;
@@ -640,7 +574,6 @@ function render(){
   if(LEAVING) return;
   let r=parse();
   const to=legacy(r); if(to){ try{ history.replaceState(null,"","#/"+to); }catch(e){} r=parse(); }
-  if(r.view!=="map"&&r.view!=="routes"&&r.view!=="r") MAPSEL=-1;
   const key=location.hash||"#/";
   if(STACK.length>1&&STACK[STACK.length-2].h===key) STACK.pop(); else if(!STACK.length||STACK[STACK.length-1].h!==key) STACK.push({h:key,label:""});
   STACK=STACK.slice(-30);
@@ -691,12 +624,7 @@ function after(r,c,key){
   if(r.view==="search"){ const q=$("#q"); if(q&&!FIRST) q.focus(); }
   else if(!FIRST){ const h=$("#main h1"); if(h){ if(!h.hasAttribute("tabindex")) h.tabIndex=-1; h.focus({preventScroll:true}); } }
   window.scrollTo(0, SCROLL[key]&&POPPED?SCROLL[key]:0); POPPED=false;
-  if(c.station&&r.b){ const stp=$("[data-steps]"); if(stp) stp.scrollIntoView({block:"start"}); }
-  if(r.view==="map"&&MAPSEL>=0&&!$('#map a[data-i="'+MAPSEL+'"]')) MAPSEL=-1;
-  if(r.view==="map"&&MAPSEL>=0) drawInterchanges(MAPSEL);
-  /* the camera flight, as a scroll: the map brings the station you came for into the middle of the screen */
-  if(r.view==="map"){ const target=MAPSEL>=0?MAPSEL:(MAPLIT&&MAPLIT.length?MAPLIT[0]:-1); if(target>=0) requestAnimationFrame(()=>{ const a=$('#map a[data-i="'+target+'"]'); if(a) a.scrollIntoView({block:"center",inline:"center",behavior:motionOK()?"smooth":"auto"}); }); }
-  if($("[data-swipehint]")) SWIPE_HINTED=true;
+  SECNAV=$(".secnav"); if(c.station&&SEC_JUMP){ const sec=document.getElementById("sec-"+SEC_JUMP); if(sec) sec.scrollIntoView({block:"start"}); } SEC_JUMP=null;
   phoneTouches();
   FIRST=false;
 }
@@ -706,7 +634,7 @@ let POPPED=false;
 addEventListener("popstate",()=>{ POPPED=true; });
 addEventListener("hashchange",(ev)=>{ if(LEAVING) return;
   try{ if(!history.state||history.state.d==null) history.replaceState({d:DEPTH+1},""); DEPTH=history.state.d; }catch(e){}
-  try{ SCROLL[new URL(ev.oldURL).hash||"#/"]=scrollY; }catch(e){} closeSheet(); render(); });
+  try{ SCROLL[new URL(ev.oldURL).hash||"#/"]=scrollY; }catch(e){} render(); });
 function nav(h){ if(location.hash===h) render(); else location.hash=h; }
 function announce(t){ const a=$("#announce"); a.textContent=""; setTimeout(()=>{ a.textContent=t; },60); }
 function noWidows(root){ $$("p,li,small,.sum p",root).forEach(el=>{ const n=el.lastChild; if(n&&n.nodeType===3){ const m=n.nodeValue.match(/^([\s\S]*\S)\s+(\S+\s*)$/); if(m&&m[2].length<=10&&m[1].length>24) n.nodeValue=m[1]+"\u00a0"+m[2]; } }); }
@@ -722,32 +650,20 @@ function setSaving(v){ store.setSaving(v); if(v) Object.keys(PREF).forEach(k=>st
 
 /* ---------- phone touches: each is caused by a tap or a scroll, none moves on its own ---------- */
 const SIZE_NAME={m:"Standard",l:"Larger",xl:"Largest"};
-let SWIPE_HINTED=false;
 function hap(ms){ if(store.get("hap",false)&&navigator.vibrate){ try{ navigator.vibrate(ms||8); }catch(e){} } }
 /* back to the top, after a couple of screens of scrolling */
 const TOTOP=document.createElement("button"); TOTOP.id="totop"; TOTOP.className="totop"; TOTOP.type="button"; TOTOP.hidden=true;
 TOTOP.setAttribute("aria-label","Back to the top of this page"); TOTOP.innerHTML=ic("up"); document.body.appendChild(TOTOP);
 let TT=false;
-let LASTY=0;
+let LASTY=0, UP=false;
 addEventListener("scroll",()=>{ if(TT) return; TT=true; requestAnimationFrame(()=>{ TT=false; const y=scrollY; let show=!TOTOP.hidden;
+  if(y<LASTY-2) UP=true; else if(y>LASTY+2) UP=false;
   if(y<=innerHeight*1.5) show=false; else if(y<LASTY-2) show=true; else if(y>LASTY+2) show=false; LASTY=y;
-  if(TOTOP.hidden===show) TOTOP.hidden=!show; dockCheck(); }); },{passive:true});
+  if(TOTOP.hidden===show) TOTOP.hidden=!show; secSpy(); }); },{passive:true});
 TOTOP.addEventListener("click",()=>{ scrollTo({top:0,behavior:motionOK()?"smooth":"auto"}); hap(6); const h=$("#main h1"); if(h) h.focus({preventScroll:true}); });
 /* when the on-screen keyboard is up, the sign bar steps out of the way so the search box keeps its room */
 if(window.visualViewport){ const vv=visualViewport, chk=()=>document.body.classList.toggle("kbd",innerHeight-vv.height>140&&vv.scale<=1.01&&/^(INPUT|TEXTAREA)$/.test((document.activeElement||{}).tagName||""));
   vv.addEventListener("resize",chk); addEventListener("focusout",()=>setTimeout(chk,80)); }
-/* a slim step bar under the top bar once the four tabs have scrolled away */
-let DOCK=null, DOCK_TABS=null;
-function dockLabel(){ if(!DOCK) return; $(".dkt",DOCK).textContent="Step "+(STEP+1)+" of 4: "+STEPS[STEP][1]; const bs=$$(".dk",DOCK); bs[0].disabled=STEP===0; bs[1].disabled=STEP===3; }
-function dockCheck(){ if(!DOCK){ document.body.classList.remove("reading"); return; } const top=$(".top"), edge=top?top.getBoundingClientRect().bottom:56; DOCK.hidden=!(DOCK_TABS.getBoundingClientRect().bottom<edge); document.body.classList.toggle("hasdock",!DOCK.hidden);
-  document.body.classList.toggle("reading",!DOCK.hidden&&TOTOP.hidden);   /* reading down: the dock alone; scrolling up: doors and back-to-top return */ document.documentElement.style.setProperty("--dockpad",DOCK.hidden?"0rem":"2.75rem"); }
-function dock(){
-  if(DOCK){ DOCK.remove(); DOCK=null; DOCK_TABS=null; } document.body.classList.remove("reading","hasdock");
-  const tabs=$(".steps .tabs"); if(!tabs) return;
-  DOCK=document.createElement("div"); DOCK.className="stepdock"; DOCK.hidden=true; DOCK.setAttribute("role","group"); DOCK.setAttribute("aria-label","Change step"); DOCK_TABS=tabs;
-  DOCK.innerHTML='<button type="button" class="dk" data-dock="-1" aria-label="Previous step">'+ic("prev")+'</button><span class="dkt"></span><button type="button" class="dk" data-dock="1" aria-label="Next step">'+ic("next")+'</button>';
-  document.body.appendChild(DOCK); dockLabel(); dockCheck();
-}
 /* read aloud, with a voice that lives on the phone. A voice that streams from the internet is never used, so nothing is sent anywhere. */
 const CAN_SPEAK="speechSynthesis" in window&&"SpeechSynthesisUtterance" in window;
 let SPK={on:false};
@@ -755,7 +671,7 @@ function localVoice(){ const vs=speechSynthesis.getVoices().filter(v=>v.localSer
   return vs.find(v=>v.lang.toLowerCase().startsWith(lang)&&v.default)||vs.find(v=>v.lang.toLowerCase().startsWith(lang))||null; }
 function speakStop(){ SPK.on=false; try{ speechSynthesis.cancel(); }catch(e){} $$("[data-listen]").forEach(b=>{ b.innerHTML=ic("volume")+"Listen"; }); }
 function speakBlocks(){ const out=[];
-  [$(".warn"),$(".answer"),$("[role=tabpanel]:not([hidden])")].filter(Boolean).forEach(r=>{
+  [$(".warn"),$(".answer"),$(".steps")].filter(Boolean).forEach(r=>{
     $$("h2,h3,h4,p,li,blockquote",r).forEach(el=>{ if(el.querySelector("h2,h3,h4,p,li,blockquote")||el.closest("[hidden]")||el.closest(".sr-only")) return;
       const d=el.closest("details"); if(d&&!d.open&&!el.closest("summary")) return;
       const t=el.textContent.replace(/\s+/g," ").trim(); if(t.length>1) out.push(t); }); });
@@ -772,13 +688,13 @@ function speak(){
   if(speechSynthesis.getVoices().length) go(); else { speechSynthesis.addEventListener("voiceschanged",go,{once:true}); setTimeout(go,600); }
 }
 document.addEventListener("visibilitychange",()=>{ if(document.hidden&&SPK.on) speakStop(); });
-function phoneTouches(){ if(SPK.on) speakStop(); dock(); TOTOP.hidden=true; LASTY=scrollY; }
+function phoneTouches(){ if(SPK.on) speakStop(); TOTOP.hidden=true; LASTY=scrollY; UP=false; secSpy(); }
 
 /* ---------- leaving quickly ---------- */
 let LEAVING=false;
 function leave(){ if(LEAVING) return; LEAVING=true;
   const dest=(LEAVE_TO[store.get("leave","weather")]||LEAVE_TO.weather)[1];   /* read before memory is cleared */
-  try{ try{ speechSynthesis.cancel(); }catch(e){} store.forgetAll(); SEARCH_Q=""; GUIDE={step:0,where:null,feels:[]}; document.title="Weather"; $("#sheet").close(); document.body.style.visibility="hidden"; }catch(e){}
+  try{ try{ speechSynthesis.cancel(); }catch(e){} store.forgetAll(); SEARCH_Q=""; GUIDE={step:0,where:null,feels:[]}; document.title="Weather"; document.body.style.visibility="hidden"; }catch(e){}
   const url=navigator.onLine?dest:"about:blank", n=DEPTH; let gone=false;
   const go=()=>{ if(!gone){ gone=true; location.replace(url); } };
   /* step back over every page of this visit first, so Back from the weather page does not land in the guide;
@@ -793,28 +709,21 @@ document.addEventListener("click",ev=>{
   if(t.closest("#leave,[data-leave]")){ leave(); return; }
   if(a&&a.hasAttribute("data-back")&&STACK.length>1){ ev.preventDefault(); history.back(); return; }
   if(a&&a.hasAttribute("data-vt")&&ev.detail>0){ PENDING_VT=a.querySelector(".nm,span")||a; }
-  if(a&&a.dataset.i!=null&&a.closest("#map")){ ev.preventDefault(); openSheet(+a.dataset.i); return; }
-  if(t.closest("#map")&&!a){ const svg=$("#map"), pt=svg.createSVGPoint(); pt.x=ev.clientX; pt.y=ev.clientY; const p=pt.matrixTransform(svg.getScreenCTM().inverse());
-    const g=mapGeom(svg.classList.contains('land')); let best=-1,bd=1e9; const HIDM=hiddenSet(); g.pts.forEach((q,i)=>{ if(HIDM.has(E[i].g)) return; const d=(q.x-p.x)**2+(q.y-p.y)**2; if(d<bd){bd=d;best=i;} });
-    if(best>=0&&bd<14*14) openSheet(best); return; }
   if(a&&a.hasAttribute("data-jump")){ ev.preventDefault(); const el=document.getElementById(a.getAttribute("href").slice(1)); if(el){ el.tabIndex=-1; el.scrollIntoView(); el.focus({preventScroll:true}); } return; }
   if(!b) { if(a&&a.hasAttribute("data-gstep")){ ev.preventDefault(); GUIDE.step=+a.dataset.gstep; render(); } return; }
   const d=b.dataset;
   if(d.fold!=null){ const ul=document.getElementById(d.fold), open=b.getAttribute("aria-expanded")==="true";
     const n=+(d.n||3); $$(":scope>li",ul).forEach((li,i)=>{ if(i>=n) li.hidden=open; }); b.setAttribute("aria-expanded",!open); b.textContent=open?"Show all "+ul.children.length:"Show fewer"; if(!open){ const li=ul.children[n]; if(li){ const f=li.querySelector("input,a"); if(f) f.focus(); } } return; }
   if(d.term){ const el=document.getElementById(d.term), o=b.getAttribute("aria-expanded")==="true"; el.hidden=o; b.setAttribute("aria-expanded",!o); return; }
-  if(b.getAttribute("role")==="tab"){ setStep(+b.id.slice(2),"tab",ev.detail>0); return; }
-  if(d.step){ setStep(+d.step,"next",true); return; }
+  if(d.sec!=null){ jumpSec(+d.sec); return; }
   if(d.save!=null){ if(!store.saving){ toast("Saving is off, so nothing is kept on this device.","Turn on saving",()=>{ setSaving(true); const on=toggleSave(d.save); toast(on?"Saved on this device":"Removed"); render(); }); return; }
     const on=toggleSave(d.save); b.setAttribute("aria-pressed",on); b.innerHTML=ic(on?"saved":"save")+(on?"Saved":"Save"); hap(10); if(on&&motionOK()){ const sv=b.querySelector("svg"); if(sv) sv.classList.add("pop"); } toast(on?"Saved on this device":"Removed from saved"); return; }
-  if(d.share!=null){ const e=ctx(parse()).station; if(!e) return; const url=readable(e)+(STEP?"/"+(STEP+1):"");
+  if(d.share!=null){ const e=ctx(parse()).station; if(!e) return; const url=readable(e);
     if(navigator.share){ navigator.share({title:e.n,url}).catch(()=>{}); } else copyText(url,"Link copied"); return; }
   if(d.print!=null){ window.print(); return; }
   if(d.paste!=null){ navigator.clipboard.readText().then(t=>{ t=(t||"").trim().slice(0,400); if(!t){ toast("There was nothing to paste."); return; } SEARCH_Q=t; const q=$("#q"); if(q) q.value=t; updateResults(true); const cb=$("[data-clear]"); if(cb) cb.focus({preventScroll:true}); }).catch(()=>toast("Your phone did not allow pasting. Press and hold in the box instead.")); return; }
-  if(d.aa!=null){ const order=["m","l","xl"], nx=order[(order.indexOf(PREF.size)+1)%3]; PREF.size=nx; store.set("size",nx); applyPrefs(); dockCheck(); { const so=$(".sr-only",b); if(so) so.textContent=", now "+SIZE_NAME[nx]+". Tap to change."; } hap(8); toast("Text size: "+SIZE_NAME[nx]); return; }
+  if(d.aa!=null){ const order=["m","l","xl"], nx=order[(order.indexOf(PREF.size)+1)%3]; PREF.size=nx; store.set("size",nx); applyPrefs(); { const so=$(".sr-only",b); if(so) so.textContent=", now "+SIZE_NAME[nx]+". Tap to change."; } hap(8); toast("Text size: "+SIZE_NAME[nx]); return; }
   if(d.listen!=null){ speak(); return; }
-  if(d.colortoggle!=null){ PREF.color=PREF.color==="quiet"?"vivid":"quiet"; store.set("color",PREF.color); applyPrefs(); b.textContent=PREF.color==="quiet"?"Bring the colours back":"Make the colours quieter"; toast(PREF.color==="quiet"?"Colours are quieter":"Colours are back"); return; }
-  if(d.dock){ setStep(STEP+ +d.dock,"next",true); return; }
   if(d.copy){ copyText($("#"+d.copy).textContent,"Copied"); return; }
   if(d.try){ SEARCH_Q=d.try; const q=$("#q"); if(q){ q.value=SEARCH_Q; } updateResults(true); return; }
   if(d.clear!=null){ SEARCH_Q=""; const q=$("#q"); q.value=""; q.focus(); updateResults(true); return; }
@@ -823,12 +732,8 @@ document.addEventListener("click",ev=>{
   if(d.unfeel){ GUIDE.feels=GUIDE.feels.filter(k=>k!==d.unfeel); if(!GUIDE.feels.length) GUIDE.step=1; render(); return; }
   if(d.gmore!=null){ GUIDE.more=true; render(); return; }
   if(d.greset!=null){ GUIDE={step:0,where:null,feels:[],more:false,err:false}; render(); return; }
-  if(d.hide){ if(setHidden(d.hide,true)){ render(); toast(LINE[d.hide].label+" is resting. It is out of search, matches and the map until you show it.","Undo",()=>{ setHidden(d.hide,false); render(); }); } else toast("At least one line has to stay visible."); return; }
+  if(d.hide){ if(setHidden(d.hide,true)){ render(); toast(LINE[d.hide].label+" is resting. It is out of search, matches and lists until you show it.","Undo",()=>{ setHidden(d.hide,false); render(); }); } else toast("At least one line has to stay visible."); return; }
   if(d.unhide){ setHidden(d.unhide,false); render(); toast(LINE[d.unhide].label+" is shown again"); return; }
-  if(d.showmap!=null){ MAPSEL=+d.showmap; MAPLIT=null; nav("#/map"); return; }
-  if(d.maplit!=null){ MAPLIT=matches().map(m=>m.e.i); MAPSEL=-1; nav("#/map"); return; }
-  if(d.mapclear!=null){ MAPLIT=null; MAPSEL=-1; render(); return; }
-  if(d.sheetclose!=null){ closeSheet(); return; }
   if(d.saving){ setSaving(d.saving==="on"); toast(d.saving==="on"?"Saving is on for this device":"Saving is off"); render(); return; }
   if(d.forgetlegacy!=null){ store.forgetLegacy(); statusUI(); toast("Deleted from this device"); render(); return; }
   if(d.clearlists!=null){ const snap=store.clearLists(); render(); toast("Saved and recent deleted","Undo",()=>{ store.restore(snap); render(); }); return; }
@@ -856,42 +761,16 @@ document.addEventListener("keydown",ev=>{
   const inField=/^(INPUT|TEXTAREA|SELECT)$/.test((ev.target.tagName||""))||ev.target.isContentEditable;
   if(ev.key==="Escape"){ const now=Date.now(); if(now-LAST_ESC<1000){ leave(); return; } LAST_ESC=now; if(!$("#breath").hidden) breathHide(); return; }
   if((ev.key==="k"&&(ev.metaKey||ev.ctrlKey))||(ev.key==="/"&&!inField)){ ev.preventDefault(); nav("#/search"); setTimeout(()=>{ const q=$("#q"); if(q) q.focus(); },0); return; }
-  const tab=ev.target.closest&&ev.target.closest("[role=tab]");
-  if(tab&&["ArrowLeft","ArrowRight","Home","End"].includes(ev.key)){ ev.preventDefault(); const n=ev.key==="Home"?0:ev.key==="End"?3:(STEP+(ev.key==="ArrowRight"?1:-1)+4)%4; setStep(n); $("#t-"+n).focus(); return; }
-  const ma=ev.target.closest&&ev.target.closest("#map a");
-  if(ma&&["ArrowUp","ArrowDown","ArrowLeft","ArrowRight"].includes(ev.key)){ ev.preventDefault(); const e=E[+ma.dataset.i], l=LINE[e.g], si=l.order.indexOf(e.n), land=innerWidth>=900;
-    const along=(land?["ArrowLeft","ArrowRight"]:["ArrowUp","ArrowDown"]).indexOf(ev.key);
-    let n;
-    if(along>=0){ n=l.st[Math.max(0,Math.min(l.st.length-1,si+(along?1:-1)))]; }
-    else { const dir=(land?(ev.key==="ArrowDown"):(ev.key==="ArrowRight"))?1:-1, HIDK=hiddenSet(); let li=l.i+dir; while(LINES[li]&&HIDK.has(LINES[li].k)) li+=dir; const l2=LINES[li]||l; n=l2.st[Math.min(si,l2.st.length-1)]; }
-    const na=$('#map a[data-i="'+n.i+'"]'); ma.tabIndex=-1; na.tabIndex=0; na.focus(); return; }
   if(inField||ev.metaKey||ev.ctrlKey||ev.altKey) return;
-  if(/^[1-4]$/.test(ev.key)&&$(".station")){ const n=+ev.key-1; setStep(n,"key"); const tb=$("#t-"+n); if(tb) tb.focus({preventScroll:true}); return; }
+  if(/^[1-4]$/.test(ev.key)&&$(".station")){ jumpSec(+ev.key-1); return; }
   if((ev.key==="j"||ev.key==="k")&&$(".station")){ const pg=$('[data-pg="'+(ev.key==="j"?"next":"prev")+'"]'); if(pg) nav(pg.getAttribute("href")); }
 });
-document.addEventListener("focusin",ev=>{ const svg=$("#map"); if(svg&&ev.target===svg){ const a=$("#map a.sel")||$("#map a"); a.tabIndex=0; a.focus(); } });
-/* swipe between steps; drag the sheet down to close it */
-let SW=null;
-document.addEventListener("pointerdown",ev=>{
-  const p=ev.target.closest(".panelx"); if(p&&ev.pointerType!=="mouse") SW={x:ev.clientX,y:ev.clientY,t:Date.now(),k:"step"};
-  if(ev.target.closest("[data-grab]")){ const sh=$("#sheet"); SW={y:ev.clientY,t:Date.now(),k:"sheet"}; sh.style.transition="none"; try{ ev.target.setPointerCapture(ev.pointerId); }catch(e){} }
-},{passive:true});
-document.addEventListener("pointermove",ev=>{ if(SW&&SW.k==="sheet"){ const dy=ev.clientY-SW.y, sh=$("#sheet"); sh.style.transform="translateY("+(dy>0?dy:dy/(1-dy/40)/3)+"px)"; } },{passive:true});
-document.addEventListener("pointerup",ev=>{ if(!SW) return; const s=SW; SW=null;
-  if(s.k==="step"){ const dx=ev.clientX-s.x, dy=ev.clientY-s.y; if(Math.abs(dx)>60&&Math.abs(dx)>Math.abs(dy)*1.6&&Date.now()-s.t<800) setStep(STEP+(dx<0?1:-1),"swipe",true); return; }
-  const dy=ev.clientY-s.y, v=dy/Math.max(1,Date.now()-s.t), sh=$("#sheet");
-  sh.style.transition=motionOK()?"transform .22s var(--ease-sheet)":"none";
-  if(dy>120||v>.5){ sh.style.transform="translateY(100%)"; setTimeout(()=>{ closeSheet(); sh.style.transform=""; sh.style.transition=""; },motionOK()?200:0); }
-  else sh.style.transform="";
-});
-$("#sheet").addEventListener("close",()=>{ const r=SHEET_RET; SHEET_RET=null; if(r&&document.contains(r)){ $$("#map a").forEach(x=>x.tabIndex=-1); r.tabIndex=0; r.focus(); } });
-$("#sheet").addEventListener("click",ev=>{ if(ev.target===ev.currentTarget) closeSheet(); });
 
 /* Printing opens every step, fold and section, then puts them back. */
 let PRINT_STATE=null;
-addEventListener("beforeprint",()=>{ PRINT_STATE={panels:$$("[role=tabpanel]").map(x=>x.hidden),lis:$$("li[hidden]"),det:$$("details").map(d=>d.open)};
-  $$("[role=tabpanel]").forEach(x=>x.hidden=false); $$("li[hidden]").forEach(li=>li.hidden=false); $$("details").forEach(d=>d.open=true); });
-addEventListener("afterprint",()=>{ if(!PRINT_STATE) return; $$("[role=tabpanel]").forEach((x,i)=>x.hidden=PRINT_STATE.panels[i]); PRINT_STATE.lis.forEach(li=>li.hidden=true); $$("details").forEach((d,i)=>d.open=PRINT_STATE.det[i]); PRINT_STATE=null; });
+addEventListener("beforeprint",()=>{ PRINT_STATE={lis:$$("li[hidden]"),det:$$("details").map(d=>d.open)};
+  $$("li[hidden]").forEach(li=>li.hidden=false); $$("details").forEach(d=>d.open=true); });
+addEventListener("afterprint",()=>{ if(!PRINT_STATE) return; PRINT_STATE.lis.forEach(li=>li.hidden=true); $$("details").forEach((d,i)=>d.open=PRINT_STATE.det[i]); PRINT_STATE=null; });
 
 /* ---------- a pause after a long stretch of reading (optional) ---------- */
 const BREATH_AFTER=20*60*1000; let READ_MS=0, LAST_ACT=Date.now(), BREATH_RET=null;
@@ -907,4 +786,3 @@ function fixDoorLines(){ $$("#doorlines a").forEach(a=>a.setAttribute("href",lnH
 addEventListener("hashchange",fixDoorLines);
 function start(){ fixDoorLines(); render(); setTimeout(buildIndexIdle,300); }
 if(document.readyState==="loading") document.addEventListener("DOMContentLoaded",start); else start();
-addEventListener("resize",(()=>{ let t, w=innerWidth>=900; return ()=>{ clearTimeout(t); t=setTimeout(()=>{ const nw=innerWidth>=900; if(nw!==w&&$("#map")){ w=nw; render(); } w=nw; },200); }; })());

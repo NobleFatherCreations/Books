@@ -65,8 +65,9 @@ const contrast = (a, b) => { const L = c => { c = c.map(v => v / 255).map(v => v
         if (!ans) o.push("no answer card"); else if (innerWidth < 500) { const top = ans.getBoundingClientRect().top; if (!sens && top > innerHeight - 90) o.push("answer starts below the first screen"); if (sens && top > innerHeight * 1.4) o.push("answer starts beyond 1.4 screens"); }
         if (sens) { if (!warn) o.push("no safety note"); else { if (!(warn.compareDocumentPosition(ans) & Node.DOCUMENT_POSITION_FOLLOWING)) o.push("safety note is not before the answer"); if (innerWidth < 500 && warn.getBoundingClientRect().top > innerHeight - 200) o.push("safety note not on the first screen"); } }
         else if (warn) o.push("safety panel on a non-sensitive entry");
-        if (document.querySelectorAll("[role=tabpanel]").length !== 4) o.push("not four steps");
-        if (document.querySelectorAll("[role=tab]").length !== 4) o.push("not four tabs");
+        if (document.querySelectorAll(".panelx").length !== 4) o.push("not four sections");
+        if (document.querySelectorAll(".secnav [data-sec]").length !== 4) o.push("no four-part section index");
+        if (document.querySelector("[role=tab],[role=tabpanel],.strip,.stepdock,#map")) o.push("old tabs, strip, dock or map still present");
         return o;
       }, st.sens);
       if (r.length) bad.push(st.n + ": " + r.join(", "));
@@ -76,20 +77,16 @@ const contrast = (a, b) => { const L = c => { c = c.map(v => v / 255).map(v => v
     await ctx.close();
   }
 
-  // ---- how long is a full read on a phone, folded?
+  // ---- how long is a full read on a phone? One scroll now, so the whole entry is the measure
   { const ctx = await ctxFor(390, 844); const p = await open(ctx, "#/entry/gaslighting");
-    const m = await p.evaluate(() => { const panels = [...document.querySelectorAll("[role=tabpanel]")], vh = innerHeight, per = [];
-      panels.forEach(x => x.hidden = true); const base = document.documentElement.scrollHeight;
-      panels.forEach((x, i) => { x.hidden = false; per.push(document.documentElement.scrollHeight / vh); x.hidden = true; });
-      panels.forEach(x => x.hidden = false); const all = document.documentElement.scrollHeight / vh; return { per, base: base / vh, all }; });
-    const worst = Math.max(...m.per);
-    T("Gaslighting on a phone: the longest single step view is ≤ 6 screens (v14: one page of 16.5)", worst <= 6, "step views " + m.per.map(x => x.toFixed(1)).join(" / ") + " screens; all four open at once " + m.all.toFixed(1)); await ctx.close(); }
+    const m = await p.evaluate(() => ({ all: document.documentElement.scrollHeight / innerHeight, longest: Math.max(...[...document.querySelectorAll(".panelx")].map(x => x.getBoundingClientRect().height / innerHeight)) }));
+    T("Gaslighting on a phone: one scroll of ≤ 14 screens, and no single section over 6 screens (v14: one page of 16.5)", m.all <= 14 && m.longest <= 6, "whole entry " + m.all.toFixed(1) + " screens; longest section " + m.longest.toFixed(1)); await ctx.close(); }
 
   // ---- reflow: 320px wide and the Largest text size (WCAG 1.4.4 / 1.4.10)
   { const bad = [];
     for (const size of ["m", "xl"]) { const ctx = await ctxFor(320, 640, "dark"); const p = await open(ctx, "#/"); await p.evaluate(sz => document.documentElement.setAttribute("data-size", sz), size);
-      for (const pg of ["#/", "#/entry/emotional-blackmail", "#/entry/pseudo-profundity-intellectual-intimidation", "#/help", "#/search", "#/map", "#/line/truth", "#/compare/gaslighting/countering", "#/routes/grooming", "#/settings", "#/safety", "#/lines/where"]) {
-        await p.goto(URL0 + pg); await p.evaluate(sz => document.documentElement.setAttribute("data-size", sz), size); await p.evaluate(() => document.querySelectorAll("[role=tabpanel]").forEach(x => x.hidden = false)); await p.waitForTimeout(80);
+      for (const pg of ["#/", "#/entry/emotional-blackmail", "#/entry/pseudo-profundity-intellectual-intimidation", "#/help", "#/search", "#/lines", "#/line/truth", "#/compare/gaslighting/countering", "#/routes/grooming", "#/settings", "#/safety", "#/lines/where"]) {
+        await p.goto(URL0 + pg); await p.evaluate(sz => document.documentElement.setAttribute("data-size", sz), size); await p.waitForTimeout(80);
         const o = await p.evaluate(() => { const d = document.documentElement; const wide = [...document.querySelectorAll("main *")].filter(e => !e.closest(".mapwrap") && e.getBoundingClientRect().right > innerWidth + 1 && e.offsetParent).slice(0, 2).map(e => e.tagName + "." + e.className);
           return { sw: d.scrollWidth - innerWidth, wide }; });
         if (o.sw > 1) bad.push(`${size} ${pg} +${o.sw}px ${o.wide.join(",")}`); }
@@ -114,13 +111,12 @@ const contrast = (a, b) => { const L = c => { c = c.map(v => v / 255).map(v => v
   // ---- axe on each page type, both themes, both widths
   if (!axeSrc) { T("axe-core accessibility scan", false, "axe-core not found: run `npm i --no-save axe-core`"); }
   else {
-    const pages = ["#/", "#/entry/gaslighting", "#/entry/emotional-blackmail", "#/search", "#/help", "#/map", "#/line/truth", "#/compare/gaslighting/countering", "#/routes", "#/routes/grooming", "#/lines/az", "#/lines/where", "#/saved", "#/settings", "#/safety", "#/updates"];
+    const pages = ["#/", "#/entry/gaslighting", "#/entry/emotional-blackmail", "#/search", "#/help", "#/lines", "#/line/truth", "#/compare/gaslighting/countering", "#/routes", "#/routes/grooming", "#/lines/az", "#/lines/where", "#/saved", "#/settings", "#/safety", "#/updates"];
     const bad = [], minor = {}; let scans = 0;
     for (const scheme of ["dark", "light"]) for (const [w, h] of [[390, 844], [1440, 900]]) {
       const ctx = await ctxFor(w, h, scheme); const p = await open(ctx, "#/");
       for (const pg of pages) { await p.goto(URL0 + pg); await p.waitForTimeout(120);
         if (pg === "#/search") { await p.fill("#q", "silent treatment"); await p.waitForTimeout(250); }
-        if (pg === "#/entry/gaslighting") { await p.evaluate(() => document.querySelectorAll("[role=tabpanel]").forEach(x => x.hidden = false)); }
         await p.addScriptTag({ content: axeSrc }).catch(() => {});
         const res = await p.evaluate(() => axe.run(document, { runOnly: { type: "tag", values: ["wcag2a", "wcag2aa", "wcag21a", "wcag21aa", "wcag22aa", "best-practice"] }, resultTypes: ["violations"] }).then(r => r.violations.map(v => ({ id: v.id, impact: v.impact, n: v.nodes.length, sel: v.nodes[0].target.join(" ") }))));
         scans++;
@@ -134,8 +130,7 @@ const contrast = (a, b) => { const L = c => { c = c.map(v => v / 255).map(v => v
   // ---- contrast from computed colours
   { const bad = []; let tested = 0;
     for (const scheme of ["dark", "light"]) { const ctx = await ctxFor(390, 844, scheme); const p = await open(ctx, "#/");
-      for (const pg of ["#/", "#/entry/emotional-blackmail", "#/help", "#/search", "#/line/truth", "#/map", "#/settings", "#/safety"]) { await p.goto(URL0 + pg); await p.waitForTimeout(120);
-        if (pg.includes("emotional")) await p.evaluate(() => document.querySelectorAll("[role=tabpanel]").forEach(x => x.hidden = false));
+      for (const pg of ["#/", "#/entry/emotional-blackmail", "#/help", "#/search", "#/line/truth", "#/lines", "#/settings", "#/safety"]) { await p.goto(URL0 + pg); await p.waitForTimeout(120);
         const r = await p.evaluate(() => {
           const parse = c => { const m = c.match(/rgba?\(([\d.]+)[, ]+([\d.]+)[, ]+([\d.]+)(?:[, /]+([\d.]+))?/); return m ? [+m[1], +m[2], +m[3], m[4] === undefined ? 1 : +m[4]] : null; };
           const bgOf = el => { let acc = []; for (let e = el; e; e = e.parentElement) { const c = parse(getComputedStyle(e).backgroundColor); if (c && c[3] > 0) { acc.push(c); if (c[3] >= .99) break; } } let base = [255, 255, 255]; for (let i = acc.length - 1; i >= 0; i--) { const c = acc[i]; base = base.map((v, k) => v * (1 - c[3]) + c[k] * c[3]); } return base; };
@@ -150,7 +145,7 @@ const contrast = (a, b) => { const L = c => { c = c.map(v => v / 255).map(v => v
     T(`text contrast: every text colour ≥4.5:1 (≥3:1 large), ${tested} text runs, both themes`, !bad.length, bad.slice(0, 5).join(" | ")); }
 
   // ---- smallest text
-  { const ctx = await ctxFor(390, 844); const p = await open(ctx, "#/entry/gaslighting"); await p.evaluate(() => document.querySelectorAll("[role=tabpanel]").forEach(x => x.hidden = false));
+  { const ctx = await ctxFor(390, 844); const p = await open(ctx, "#/entry/gaslighting");
     const small = await p.evaluate(() => { const o = [], w = document.createTreeWalker(document.body, NodeFilter.SHOW_TEXT); for (let n; (n = w.nextNode());) { if (!n.nodeValue.trim()) continue; const el = n.parentElement; if (el.closest(".nf-chrome,.nf-panel,.sr-only,[hidden],script,style")) continue; const px = parseFloat(getComputedStyle(el).fontSize); if (px < 13) o.push(Math.round(px * 10) / 10 + "px " + (el.className || el.tagName)); } return o; });
     T("no text smaller than 13px (v14: 13–14px italic labels)", !small.length, small.slice(0, 4).join("; ")); await ctx.close(); }
 
@@ -215,14 +210,13 @@ const contrast = (a, b) => { const L = c => { c = c.map(v => v / 255).map(v => v
     await p.goto(URL0 + "#/entry/gaslighting"); await p.evaluate(() => breathShow()); await p.waitForTimeout(100);
     T("leave: the Leave button is on top of the pause card", await p.evaluate(() => { const r = document.querySelector("#leave").getBoundingClientRect(); const e = document.elementFromPoint(r.x + r.width / 2, r.y + r.height / 2); return !!e && !!e.closest("#leave"); }));
     await p.evaluate(() => breathHide());
-    await p.goto(URL0 + "#/map"); await p.waitForTimeout(200); await p.evaluate(() => openSheet(40)); await p.waitForTimeout(250);
-    T("leave: a Leave button is inside the open map sheet", await p.evaluate(() => { const l = document.querySelector("#sheet [data-leave]"); if (!l) return false; const r = l.getBoundingClientRect(); const e = document.elementFromPoint(r.x + r.width / 2, r.y + r.height / 2); return !!e && !!e.closest("[data-leave]"); }));
+    await p.goto(URL0 + "#/lines"); await p.waitForTimeout(200);
     await p.keyboard.press("Escape"); await p.keyboard.press("Escape"); await p.waitForTimeout(700);
-    T("leave: Escape twice leaves even with the map sheet open", /google\.com/.test(p.url()), p.url());
+    T("leave: Escape twice leaves from the browse page", /google\.com/.test(p.url()), p.url());
     await ctx.close(); }
   { const ctx = await ctxFor(390, 844, "dark"); const p = await open(ctx, "#/");
     await p.route("**/*google.com/**", r => r.fulfill({ status: 200, body: "weather" }));
-    for (const h of ["#/s/5", "#/s/6", "#/map", "#/search"]) { await p.evaluate(h => { location.hash = h; }, h); await p.waitForTimeout(120); }
+    for (const h of ["#/s/5", "#/s/6", "#/lines", "#/search"]) { await p.evaluate(h => { location.hash = h; }, h); await p.waitForTimeout(120); }
     await p.click("#leave"); await p.waitForTimeout(900);
     const onWeather = /google\.com/.test(p.url());
     const back = await p.goBack({ timeout: 4000 }).catch(() => null);
@@ -243,18 +237,13 @@ const contrast = (a, b) => { const L = c => { c = c.map(v => v / 255).map(v => v
     T("search highlight is not amber (amber is for danger only)", await p.evaluate(() => { const m = document.querySelector("mark"); if (!m) return false; const c = getComputedStyle(m).backgroundColor; return !/255, 176, 32/.test(c); }));
     await ctx.close(); }
 
-  // ---- map tap targets, measured from the rendered page
+  // ---- browse: the ten lines are rows you can hit, and the whole index is visible on a phone in about two screens
   { const bad = [];
-    for (const w of [320, 360, 390, 1440]) { const ctx = await ctxFor(w, 800, "dark"); const p = await open(ctx, "#/map"); await p.waitForTimeout(200);
-      const m = await p.evaluate(() => { const pts = [...document.querySelectorAll("#map a .st")].map(c => { const r = c.getBoundingClientRect(); return [r.x + r.width / 2, r.y + r.height / 2]; });
-        let min = 1e9; const byCol = {}; pts.forEach(([x, y]) => { (byCol[Math.round(x)] = byCol[Math.round(x)] || []).push(y); });
-        Object.values(byCol).forEach(ys => { ys.sort((a, b) => a - b); for (let i = 1; i < ys.length; i++) min = Math.min(min, ys[i] - ys[i - 1]); });
-        const xs = [...new Set(pts.map(p => Math.round(p[0])))].sort((a, b) => a - b); const landscape = document.querySelector("#map").classList.contains("land");
-        return { min, gapX: xs.length > 1 && !landscape ? Math.min(...xs.slice(1).map((x, i) => x - xs[i])) : 99, landscape }; });
-      const need = 24; const gap = m.landscape ? 24 : Math.min(m.min, m.gapX);
-      if ((m.landscape ? m.min < 0 : m.min < need - 0.6 || m.gapX < need - 0.6) && !m.landscape) bad.push(`${w}px: rows ${m.min.toFixed(1)} cols ${m.gapX.toFixed(1)}`);
+    for (const w of [320, 360, 390]) { const ctx = await ctxFor(w, 800, "dark"); const p = await open(ctx, "#/lines"); await p.waitForTimeout(150);
+      const m = await p.evaluate(() => { const rs = [...document.querySelectorAll(".lrows .lrow")].map(a => a.getBoundingClientRect()); return { n: rs.length, minH: Math.min(...rs.map(r => r.height)), minW: Math.min(...rs.map(r => r.width)) }; });
+      if (m.n !== 10 || m.minH < 44 || m.minW < 44) bad.push(`${w}px: ${JSON.stringify(m)}`);
       await ctx.close(); }
-    T("map: neighbouring stations are ≥24 CSS px apart on phones down to 320px wide", !bad.length, bad.join("; ")); }
+    T("browse: ten line rows, each at least 44 CSS px tall, down to 320px wide", !bad.length, bad.join("; ")); }
 
   // ---- techniques brought back from v14
   { const ctx = await ctxFor(390, 844, "dark"); const p = await open(ctx, "#/entry/gaslighting"); await p.waitForTimeout(200);
@@ -267,17 +256,12 @@ const contrast = (a, b) => { const L = c => { c = c.map(v => v / 255).map(v => v
     for (const q of ["settings", "love", "safe", "dark"]) { await p.fill("#q", q); await p.waitForTimeout(250); asked[q] = await p.evaluate(() => [...document.querySelectorAll("#results a.row")].map(a => a.getAttribute("href"))); }
     T("search reaches pages and lines (settings, love, safe, dark)", asked.settings.includes("#/settings") && asked.love.some(h => /#\/line\//.test(h)) && asked.safe.includes("#/safety") && asked.dark.includes("#/settings"), JSON.stringify(Object.fromEntries(Object.entries(asked).map(([k, v]) => [k, v.slice(0, 3)]))));
     await ctx.close(); }
-  { const ctx = await ctxFor(390, 844, "dark", { reducedMotion: "reduce" }); const p = await open(ctx, "#/entry/gaslighting"); await p.waitForTimeout(200);
-    await p.click("[data-showmap]"); await p.waitForTimeout(500);
-    const r = await p.evaluate(() => { const a = document.querySelector("#map a.sel"); if (!a) return { sel: false }; const b = a.getBoundingClientRect(); return { sel: true, inView: b.top > 0 && b.bottom < innerHeight, links: document.querySelectorAll("#xl path").length, note: /highlighted/.test(document.querySelector("main").textContent), hash: location.hash }; });
-    T("Show on the map: lands on the map with the station highlighted, in view, interchanges drawn", r.sel && r.inView && r.links > 0 && r.note && r.hash === "#/map", JSON.stringify(r));
-    await ctx.close(); }
   { const ctx = await ctxFor(390, 844, "dark", { contrast: "more" }); const p = await open(ctx, "#/");
     const r = await p.evaluate(() => { const b = document.querySelector(".blade:not(.pri)"), cs = getComputedStyle(b), fg2 = getComputedStyle(document.querySelector(".lede")).color, fg = getComputedStyle(document.body).color; return { ring: cs.boxShadow, lede: fg2 === fg }; });
     T("more contrast: controls get a 2px outline and secondary text goes full strength", /2px/.test(r.ring) && r.lede, r.ring.slice(0, 50) + " lede=" + r.lede);
     await ctx.close(); }
   { const ctx = await ctxFor(390, 844, "dark", { forcedColors: "active" }); const p = await open(ctx, "#/entry/gaslighting"); const errs = [];
-    for (const h of ["#/", "#/entry/emotional-blackmail", "#/map", "#/help"]) { await p.goto(URL0 + h); await p.waitForTimeout(150); const o = await p.evaluate(() => document.documentElement.scrollWidth - innerWidth); if (o > 1) errs.push(h + " +" + o); }
+    for (const h of ["#/", "#/entry/emotional-blackmail", "#/lines", "#/help"]) { await p.goto(URL0 + h); await p.waitForTimeout(150); const o = await p.evaluate(() => document.documentElement.scrollWidth - innerWidth); if (o > 1) errs.push(h + " +" + o); }
     const bd = await p.evaluate(() => { const b = document.querySelector(".leave"); return b ? getComputedStyle(b).borderTopWidth : "none"; });
     T("forced colours: pages reflow and Leave keeps a 2px outline", !errs.length && parseFloat(bd) >= 2, errs.join(",") + " border " + bd);
     await ctx.close(); }
@@ -318,8 +302,8 @@ const contrast = (a, b) => { const L = c => { c = c.map(v => v / 255).map(v => v
     T("rest a line: a resting line's tactics leave search (and return when shown)", before.includes(pick.n) && !after.includes(pick.n), pick.n + " before " + before.includes(pick.n) + " after " + after.includes(pick.n));
     await p.goto(URL0 + "#/line/society"); await p.waitForTimeout(200);
     T("rest a line: its page says it is resting and offers to show it", await p.evaluate(() => /resting this line/i.test(document.querySelector("main").textContent) && !!document.querySelector("[data-unhide]")));
-    await p.goto(URL0 + "#/map"); await p.waitForTimeout(200);
-    T("rest a line: its stations are dim, unreachable on the map", await p.evaluate(() => { const a = [...document.querySelectorAll("#map a[data-g=society]")]; return a.length > 0 && a.every(x => x.classList.contains("rest") && x.getAttribute("aria-hidden") === "true" && x.tabIndex === -1); }));
+    await p.goto(URL0 + "#/lines"); await p.waitForTimeout(200);
+    T("rest a line: its row on Browse is dimmed and says it is resting", await p.evaluate(() => { const a = [...document.querySelectorAll(".lrows .lrow")].filter(x => /society/.test(x.getAttribute("href"))); return a.length === 1 && a[0].classList.contains("rest") && /Resting/.test(a[0].textContent); }));
     await p.goto(URL0 + "#/entry/" + pick.s); await p.waitForTimeout(200);
     T("rest a line: an entry opened by link is closed behind a notice with Show and Use-this-safely", await p.evaluate(() => !!document.querySelector("[data-unhide]") && !document.querySelector("h1.h-st") && !!document.querySelector("a[href='#/safety']")));
     await p.click("[data-unhide]"); await p.waitForTimeout(300);
@@ -334,47 +318,42 @@ const contrast = (a, b) => { const L = c => { c = c.map(v => v / 255).map(v => v
     await p.keyboard.press("Escape"); await p.keyboard.press("Escape"); await p.waitForTimeout(900);
     T("Leave goes where you chose (Wikipedia)", /wikipedia\.org/.test(p.url()), p.url()); await ctx.close(); }
 
-  // ---- stage 2: number keys, deep links to a step, the route strip, the staggered interchange lines
-  { const ctx = await ctxFor(1440, 900, "dark"); const p = await open(ctx, "#/entry/gaslighting"); await p.waitForTimeout(200);
-    await p.keyboard.press("3"); await p.waitForTimeout(120);
-    const k3 = await p.evaluate(() => document.querySelector("#t-2").getAttribute("aria-selected") === "true" && !document.querySelector("#p-2").hidden);
-    await p.keyboard.press("1"); await p.waitForTimeout(120);
-    const k1 = await p.evaluate(() => document.querySelector("#t-0").getAttribute("aria-selected") === "true");
-    T("keys 1 to 4 jump between the four steps", k3 && k1);
-    await p.goto(URL0 + "#/entry/gaslighting/3"); await p.waitForTimeout(250);
-    const deep = await p.evaluate(() => ({ tab: document.querySelector("#t-2").getAttribute("aria-selected"), shown: !document.querySelector("#p-2").hidden, others: document.querySelectorAll("[role=tabpanel]:not([hidden])").length, bar: getComputedStyle(document.querySelector(".stepbar i")).getPropertyValue("--p") }));
-    T("deep link #/entry/slug/3 opens on step 3", deep.tab === "true" && deep.shown && deep.others === 1 && +deep.bar === 0.75, JSON.stringify(deep));
-    await p.click("#t-1"); await p.waitForTimeout(150);
-    const histBefore = await p.evaluate(() => history.length); const h2 = await p.evaluate(() => location.hash);
-    await p.reload(); await p.waitForTimeout(250);
-    T("the address follows the step without adding history, and a reload keeps the step", /\/2$/.test(h2) && await p.evaluate(() => document.querySelector("#t-1").getAttribute("aria-selected") === "true") && histBefore === await p.evaluate(() => history.length), h2);
-    await p.goto(URL0 + "#/s/5/4"); await p.waitForTimeout(250);
-    T("private numbered deep link #/s/5/4 opens on step 4", await p.evaluate(() => document.querySelector("#t-3").getAttribute("aria-selected") === "true"));
+  // ---- stage 2: number keys, deep links to a section, the numbered route list
+  { const ctx = await ctxFor(1440, 900, "dark", { reducedMotion: "reduce" }); const p = await open(ctx, "#/entry/gaslighting"); await p.waitForTimeout(200);
+    const near = n => p.evaluate(n => { const t = document.getElementById("sec-" + n).getBoundingClientRect().top; return t > 40 && t < 260; }, n);
+    await p.keyboard.press("3"); await p.waitForTimeout(250); const k3 = await near(2) && await p.evaluate(() => document.querySelector(".secnav [data-sec='2']").getAttribute("aria-current") === "true");
+    await p.keyboard.press("1"); await p.waitForTimeout(250); const k1 = await near(0);
+    T("keys 1 to 4 jump between the four sections, and the index follows", k3 && k1);
+    await p.goto(URL0 + "#/entry/gaslighting/3"); await p.waitForTimeout(350);
+    T("deep link #/entry/slug/3 opens scrolled to section 3", await near(2));
+    await p.goto(URL0 + "#/s/5/4"); await p.waitForTimeout(350);
+    T("private numbered deep link #/s/5/4 opens scrolled to section 4", await near(3));
     await ctx.close(); }
   { const ctx = await ctxFor(390, 844, "dark"); const p = await open(ctx, "#/routes/grooming"); await p.waitForTimeout(250);
-    const r = await p.evaluate(() => { const st = document.querySelector(".rstrip"), li = st.querySelectorAll("li").length, list = document.querySelectorAll(".chain li").length; return { li, list, scroll: st.scrollWidth > st.clientWidth, hidden: st.getAttribute("aria-hidden"), snap: getComputedStyle(st).scrollSnapType }; });
-    T("route strip: every station of the route, scrolls sideways on a phone, snaps, and the numbered list is still there", r.li === r.list && r.li > 3 && r.scroll && r.hidden === "true" && /x/.test(r.snap), JSON.stringify(r));
-    await p.click(".rstrip li >> nth=1"); await p.waitForTimeout(300);
-    T("route strip: a tap on a station opens it", await p.evaluate(() => !!document.querySelector("h1.h-st")));
+    const r = await p.evaluate(() => ({ list: document.querySelectorAll(".chain li").length, old: !!document.querySelector(".rstrip,.mapwrap,#map") }));
+    T("route page: the numbered list of every station, with no strip of circles and no map", r.list > 3 && !r.old, JSON.stringify(r));
+    await p.click(".chain li a >> nth=1"); await p.waitForTimeout(300);
+    T("route page: a tap on a station opens it", await p.evaluate(() => !!document.querySelector("h1.h-st")));
     await ctx.close(); }
-  { const ctx = await ctxFor(390, 844, "dark"); const p = await open(ctx, "#/entry/gaslighting"); await p.waitForTimeout(150); await p.click("[data-showmap]"); await p.waitForTimeout(500);
-    const d = await p.evaluate(() => [...document.querySelectorAll("#xl path")].map(x => x.style.animationDelay));
-    T("interchange lines draw in one after another", d.length >= 2 && d.every((x, i) => x === i * 40 + "ms"), JSON.stringify(d)); await ctx.close(); }
 
   // ---- stage 3: the pre-compile gate in the build proves it rejects bad input (and that the real data passes)
   { const r = require("child_process").spawnSync("python3", ["-I", path.join(__dirname, "..", "design", "build-decoder-v15.py"), "--selftest"], { encoding: "utf-8", timeout: 180000 });
     const out2 = (r.stdout || "") + (r.stderr || ""); const rejected = (out2.match(/: rejected/g) || []).length;
     T("build gate self-test: real data passes and 11 kinds of damage are each rejected (empty field, unclosed marker, placeholder, cut-off sentence, HTML, missing safety note, bad link, missing entry, changed character, damaged data block)", r.status === 0 && rejected === 11 && /real data: passes/.test(out2), `exit ${r.status}, ${rejected} rejected`); }
 
-  // ---- stage 4: ten visual ideas (emblems, enamel rim, tactile dots, network thumbnail, pictograms, print card, codes, arrows, tiles, stars)
+  // ---- stage 4: the signs (code plates, enamel rim, tactile dots, pictograms, print card, arrows), now without the map pictures
   { const ctx = await ctxFor(390, 844, "dark"); const p = await open(ctx, "#/"); await p.waitForTimeout(300);
-    const h = await p.evaluate(() => { const e = [...document.querySelectorAll(".home .emb")]; const n = document.querySelector("a.net"); const cs = getComputedStyle(document.querySelector(".home .concourse"), "::before"); const st = getComputedStyle(document.querySelector(".home .h-page"), "::after");
-      return { emb: e.length, distinct: new Set(e.map(x => x.innerHTML)).size, net: !!n, paths: n ? n.querySelectorAll("path").length : 0, href: n && n.getAttribute("href"), label: n && n.getAttribute("aria-label"), tile: cs.maskImage !== "none" || cs.webkitMaskImage !== "none" || /url/.test(cs.backgroundImage), star: st.content === "none" || st.content === "normal" }; });
-    T("line emblems: ten distinct glyphs on Home", h.emb === 10 && h.distinct === 10, JSON.stringify(h));
-    T("network thumbnail: ten lines, opens the map, has a name for screen readers", h.net && h.paths >= 10 && h.href === "#/map" && !!h.label, JSON.stringify(h));
-    T("subway-tile wall is present on Home and the headline carries no sparkle", h.tile && h.star, JSON.stringify(h));
-    await p.click("a.net"); await p.waitForTimeout(300); T("the thumbnail goes to the map", /#\/map/.test(p.url()));
+    const h = await p.evaluate(() => ({ rows: document.querySelectorAll(".home .lrows .lrow").length, chev: document.querySelectorAll(".home .lrow .chev").length, net: !!document.querySelector("a.net,#map,[href='#/map']"), pri: getComputedStyle(document.querySelector(".blade.pri")).backgroundColor }));
+    T("Home: no network picture and no map; the ten lines are a grouped list with chevrons", h.rows === 10 && h.chev === 10 && !h.net, JSON.stringify(h));
+    T("Home: the primary action is the gold Help blade", h.pri === "rgb(229, 193, 88)", h.pri);
+    await p.click("a.sflink"); await p.waitForTimeout(400);
+    T("Home: the search field opens Search with the cursor in the box", /#\/search/.test(p.url()) && await p.evaluate(() => document.activeElement.id === "q"));
     await ctx.close(); }
+  { const bad = [];
+    for (const size of ["m", "l", "xl"]) { const ctx = await ctxFor(320, 640, "dark"); const p = await open(ctx, "#/"); await p.evaluate(sz => document.documentElement.setAttribute("data-size", sz), size); await p.waitForTimeout(120);
+      const o = await p.evaluate(() => { const r = s => document.querySelector(s).getBoundingClientRect(); const b = r(".brand"), st = r(".status"), l = r(".leave"); return { brandStatus: b.right - st.left, statusLeave: st.right - l.left }; });
+      if (o.brandStatus > 1 || o.statusLeave > 1) bad.push(size + " " + JSON.stringify(o)); await ctx.close(); }
+    T("top bar: the name, Private and Leave never overlap, even at 320px and the Largest text", !bad.length, bad.join("; ")); }
   { const ctx = await ctxFor(390, 844, "dark"); const p = await open(ctx, "#/entry/emotional-blackmail"); await p.waitForTimeout(300);
     const s = await p.evaluate(() => { const pl = document.querySelector(".onl .plate"); const rim = getComputedStyle(document.querySelector(".answer, .warn, .panel")).boxShadow; const dots = getComputedStyle(document.querySelector(".warn .band"), "::after"); const arr = document.querySelectorAll(".pn .arr").length;
       return { plate: pl && pl.getAttribute("aria-label") || pl && pl.textContent.replace(/\s/g, ""), rim, dots: dots.content !== "none" && dots.backgroundImage !== "none", arr }; });
@@ -387,53 +366,48 @@ const contrast = (a, b) => { const L = c => { c = c.map(v => v / 255).map(v => v
     const pics = await p.evaluate(() => document.querySelectorAll(".opt .pic, .row .pic, button .pic").length);
     T("pictograms on the where-it-happens choices", pics >= 7, "found " + pics);
     await p.goto(URL0 + "#/line/truth"); await p.waitForTimeout(250);
-    T("line page shows its emblem plate", await p.evaluate(() => !!document.querySelector(".lhead .emb.plate")));
+    T("line page: every station is a plain row, with no track or circles drawn", await p.evaluate(() => document.querySelectorAll(".ldia li").length > 10 && [...document.querySelectorAll(".ldia li a")].every(a => ["none", "normal"].includes(getComputedStyle(a, "::before").content))));
     await p.goto(URL0 + "#/search"); const codes = {};
     for (const [q, want] of [["t01", "T"], ["T 9", "T"], ["g44", "G"]]) { await p.fill("#q", q); await p.waitForTimeout(250); codes[q] = await p.evaluate(() => (document.querySelector("#results a, #results .row")?.textContent || "").trim().slice(0, 60)); }
     T("searching a station code lists that station first", Object.values(codes).every(Boolean) && (await p.evaluate(() => document.querySelector("#results") !== null)), JSON.stringify(codes));
     await ctx.close(); }
   { const ctx = await ctxFor(794, 1123, "dark"); const p = await open(ctx, "#/entry/emotional-blackmail"); await p.emulateMedia({ media: "print" }); await p.waitForTimeout(500);
-    const r = await p.evaluate(() => ({ head: getComputedStyle(document.querySelector(".printhead")).display, top: getComputedStyle(document.querySelector(".top")).display, band: getComputedStyle(document.querySelector(".warn .band")).backgroundColor, foot: getComputedStyle(document.querySelector(".printfoot")).position, bg: getComputedStyle(document.body).backgroundColor, strip: document.querySelector(".strip") ? getComputedStyle(document.querySelector(".strip")).display : "none" }));
+    const r = await p.evaluate(() => ({ head: getComputedStyle(document.querySelector(".printhead")).display, top: getComputedStyle(document.querySelector(".top")).display, band: getComputedStyle(document.querySelector(".warn .band")).backgroundColor, foot: getComputedStyle(document.querySelector(".printfoot")).position, bg: getComputedStyle(document.body).backgroundColor, strip: document.querySelector(".secnav") ? getComputedStyle(document.querySelector(".secnav")).display : "none" }));
     T("print: station card has its header and footer, the app chrome is gone, black band, white page", r.head === "flex" && r.top === "none" && r.band === "rgb(0, 0, 0)" && r.foot === "fixed" && r.bg === "rgb(255, 255, 255)" && r.strip === "none", JSON.stringify(r));
     const pdf = await p.pdf({ format: "A4", printBackground: true }); T("print: a real PDF comes out", pdf.slice(0, 4).toString() === "%PDF" && pdf.length > 20000, pdf.length + " bytes");
     await p.emulateMedia({ media: "screen" });
     T("print rules do not leak onto the screen", await p.evaluate(() => getComputedStyle(document.querySelector(".printhead")).display === "none"));
     await ctx.close(); }
-  { const ctx = await ctxFor(390, 844, "dark", { reducedMotion: "reduce" }); const p = await open(ctx, "#/line/truth"); await p.waitForTimeout(300);
-    const star = await p.evaluate(() => { const a = document.querySelectorAll(".ldia li"); const f = getComputedStyle(a[0].querySelector("a"), "::before").clipPath, l = getComputedStyle(a[a.length - 1].querySelector("a"), "::before").clipPath; return { f, l }; });
-    T("terminus stations are drawn as four-point stars (first and last)", /polygon/.test(star.f) && /polygon/.test(star.l), JSON.stringify(star)); await ctx.close(); }
-
-  // ---- phone upgrades: back to top, paste, keyboard room, quick text size, buzz, swipe hint, step dock, read aloud
+  // ---- phone upgrades: back to top, paste, keyboard room, quick text size, buzz, the sticky section index, read aloud
   { const ctx = await ctxFor(390, 844, "dark"); await ctx.grantPermissions(["clipboard-read", "clipboard-write"]).catch(() => {});
     await ctx.addInitScript(() => { window.__vib = []; navigator.vibrate = n => { window.__vib.push(n); return true; };
       const spoken = []; window.__spoken = spoken; let cancelled = 0; window.__cancel = () => cancelled;
       window.SpeechSynthesisUtterance = function (t) { this.text = t; };
       Object.defineProperty(window, "speechSynthesis", { configurable: true, value: { getVoices: () => [{ name: "Local", lang: "en-US", localService: true, default: true }], speak: u => spoken.push(u.text), cancel: () => { cancelled++; }, addEventListener() {} } }); });
     const p = await open(ctx, "#/entry/emotional-blackmail"); await p.waitForTimeout(300);
-    T("swipe hint shows once on a touch screen and goes after the first step change", await p.evaluate(() => !!document.querySelector("[data-swipehint]")) && (await p.click("#t-1"), await p.waitForTimeout(150), await p.evaluate(() => !document.querySelector("[data-swipehint]"))));
+    T("one scroll: no swipe hint, no tabs, nothing to swipe between", await p.evaluate(() => !document.querySelector("[data-swipehint],[role=tab]")));
     await p.goto(URL0 + "#/entry/emotional-blackmail"); await p.waitForTimeout(250);
     const tt = await p.evaluate(() => document.querySelector("#totop").hidden); await p.evaluate(() => scrollTo(0, 2600)); await p.waitForTimeout(250); await p.evaluate(() => scrollTo(0, 2500)); await p.waitForTimeout(300);
     const vis = await p.evaluate(() => !document.querySelector("#totop").hidden && document.querySelector("#totop").getAttribute("aria-label"));
-    const dockOn = await p.evaluate(() => { const d = document.querySelector(".stepdock"); return d && !d.hidden && d.textContent; });
     T("back to top: hidden at the top, shown after scrolling, named for screen readers", tt === true && /top/i.test(vis || ""), String(vis));
-    T("step dock appears once the tabs scroll away and says which step", /Step 1 of 4/.test(dockOn || ""), String(dockOn));
-    const geo = await p.evaluate(() => { const d = document.querySelector(".stepdock").getBoundingClientRect(), l = document.querySelector(".leave").getBoundingClientRect(); return { dockTop: d.top, leaveBottom: l.bottom }; });
-    T("step dock sits at the bottom, nowhere near the Leave button", geo.dockTop > geo.leaveBottom + 300, JSON.stringify(geo));
-    await p.click(".stepdock [data-dock='1']"); await p.waitForTimeout(400);
-    T("step dock moves to the next step", await p.evaluate(() => document.querySelector("#t-1").getAttribute("aria-selected") === "true"));
-    await p.click("#totop"); await p.waitForTimeout(700); T("back to top: tapping it goes to the top", await p.evaluate(() => scrollY < 40));
-    const aa = []; for (let i = 0; i < 3; i++) { await p.click("[data-aa]"); await p.waitForTimeout(80); aa.push(await p.evaluate(() => document.documentElement.getAttribute("data-size"))); }
+    const idx = await p.evaluate(() => { const n = document.querySelector(".secnav"), r = n.getBoundingClientRect(), top = document.querySelector(".top").getBoundingClientRect(); return { gap: Math.round(r.top - top.bottom), cur: !!n.querySelector("[aria-current]"), label: (n.querySelector("[aria-current]") || {}).textContent }; });
+    T("section index stays pinned right under the top bar while reading, and marks where you are", Math.abs(idx.gap) <= 1 && idx.cur, JSON.stringify(idx));
+    await p.click(".secnav [data-sec='3']"); await p.waitForTimeout(900);
+    T("tapping a section in the index scrolls to it and marks it", await p.evaluate(() => { const t = document.getElementById("sec-3").getBoundingClientRect().top; return t > 40 && t < 260 && document.querySelector(".secnav [data-sec='3']").getAttribute("aria-current") === "true"; }));
+    await p.evaluate(() => scrollBy(0, -400)); await p.waitForTimeout(300);
+    await p.click("#totop"); await p.waitForTimeout(1800); T("back to top: tapping it goes to the top", await p.evaluate(() => scrollY < 40));
+    await p.click(".moreacts summary"); const aa = []; for (let i = 0; i < 3; i++) { await p.click("[data-aa]"); await p.waitForTimeout(80); aa.push(await p.evaluate(() => document.documentElement.getAttribute("data-size"))); }
     T("quick text size cycles Larger, Largest, Standard", aa.join() === "l,xl," || aa.join() === "l,xl,null", aa.join());
     await p.goto(URL0 + "#/settings"); await p.click("label:has(input[name=hap][value=on])"); await p.waitForTimeout(100);
-    await p.goto(URL0 + "#/entry/emotional-blackmail"); await p.waitForTimeout(250); await p.evaluate(() => { window.__vib.length = 0; }); await p.click("#t-2"); await p.waitForTimeout(100);
-    T("tap feedback: a step change buzzes only after you turn it on", await p.evaluate(() => window.__vib.length > 0));
+    await p.goto(URL0 + "#/entry/emotional-blackmail"); await p.waitForTimeout(250); await p.evaluate(() => { window.__vib.length = 0; }); await p.click(".secnav [data-sec='2']"); await p.waitForTimeout(100);
+    T("tap feedback: a section jump buzzes only after you turn it on", await p.evaluate(() => window.__vib.length > 0));
     await p.click("[data-listen]"); await p.waitForTimeout(200);
     T("read aloud: the first tap only warns that it plays out loud", await p.evaluate(() => window.__spoken.length === 0 && /plays out loud/.test(document.querySelector("#toast").textContent)));
     await p.click("[data-toastact]"); await p.waitForTimeout(250);
     const sp = await p.evaluate(() => ({ n: window.__spoken.length, first: window.__spoken[0] || "", label: document.querySelector("[data-listen]").textContent.trim(), pressed: document.querySelector("[data-listen]").hasAttribute("aria-pressed") }));
     T("read aloud: uses an on-device voice, starts with the safety note, button turns to Stop with no confusing pressed state", sp.n > 3 && /^Safety first|Watch for|Those turn/.test(sp.first) && sp.label === "Stop" && !sp.pressed, JSON.stringify(sp).slice(0, 200));
-    await p.click("#t-1"); await p.waitForTimeout(150);
-    T("read aloud: changing step stops it", await p.evaluate(() => window.__cancel() > 0 && document.querySelector("[data-listen]").textContent.trim() === "Listen"));
+    await p.click(".secnav [data-sec='1']"); await p.waitForTimeout(150);
+    T("read aloud: jumping to another section stops it", await p.evaluate(() => window.__cancel() > 0 && document.querySelector("[data-listen]").textContent.trim() === "Listen"));
     await p.click("[data-listen]"); await p.waitForTimeout(150); await p.click("[data-listen]"); await p.waitForTimeout(100);
     T("read aloud: tapping Stop stops it", await p.evaluate(() => document.querySelector("[data-listen]").textContent.trim() === "Listen"));
     await ctx.close(); }
@@ -453,49 +427,43 @@ const contrast = (a, b) => { const L = c => { c = c.map(v => v / 255).map(v => v
     await p.goto(URL0 + "#/entry/gaslighting"); await p.waitForTimeout(250); await p.click("[data-save]"); await p.waitForTimeout(80);
     T("saving a station gives the bookmark a short pop", await p.evaluate(() => !!document.querySelector("[data-save] svg.pop") || matchMedia("(prefers-reduced-motion: reduce)").matches)); await ctx.close(); }
 
-  // ---- colour and depth: each line's colour is its identity
+  // ---- colour: Quiet is the default; Vivid (opt-in) gives each line's colour to the home rows and the headings
   { const ctx = await ctxFor(390, 844, "dark"); const p = await open(ctx, "#/"); await p.waitForTimeout(300);
-    const h = await p.evaluate(() => { const rows = [...document.querySelectorAll(".home .lrow")]; const cols = rows.map(r => getComputedStyle(r).backgroundColor);
-      return { n: rows.length, distinct: new Set(cols).size, solid: cols.every(c => c !== "rgba(0, 0, 0, 0)"), stripe: /gradient/.test(getComputedStyle(document.querySelector(".top"), "::before").backgroundImage), glow: /radial-gradient/.test(getComputedStyle(document.body).backgroundImage) }; });
-    T("Home: the ten lines are ten distinct solid colour tiles", h.n === 10 && h.distinct === 10 && h.solid, JSON.stringify(h));
-    T("a ten-colour stripe runs under the top bar, and a soft glow sits behind the Home headline", h.stripe && h.glow, JSON.stringify(h));
+    const q = await p.evaluate(() => ({ attr: document.documentElement.getAttribute("data-color"), rows: [...document.querySelectorAll(".home .lrow")].map(r => getComputedStyle(r).backgroundColor), stripe: getComputedStyle(document.querySelector(".top"), "::before").content, glow: getComputedStyle(document.body).backgroundImage }));
+    T("Quiet is the default on a fresh load: the home rows are plain, with no colour stripe and no glow", q.attr === null && q.rows.length === 10 && new Set(q.rows).size === 1 && (q.stripe === "none" || q.stripe === "normal") && q.glow === "none", JSON.stringify(q).slice(0, 220));
     await p.goto(URL0 + "#/entry/emotional-blackmail"); await p.waitForTimeout(300);
-    const s = await p.evaluate(() => ({ lc: getComputedStyle(document.querySelector(".sname .b")).backgroundColor, tab: getComputedStyle(document.querySelector("[role=tab][aria-selected=true]")).backgroundColor, bar: getComputedStyle(document.querySelector(".sname"), "::before").backgroundColor, ans: getComputedStyle(document.querySelector(".answer")).borderTopColor, wash: /radial-gradient/.test(getComputedStyle(document.body).backgroundImage) }));
-    T("station: the selected step, the sign bar and the answer's top edge all take the line's colour, with a wash behind the title", s.tab === s.lc && s.bar === s.lc && s.ans === s.lc && s.wash, JSON.stringify(s));
-    await p.goto(URL0 + "#/line/pressure"); await p.waitForTimeout(300);
-    T("line page: the header is a block of the line's colour", await p.evaluate(() => { const l = getComputedStyle(document.querySelector(".lhead")).backgroundColor, b = getComputedStyle(document.querySelector(".lhead")).color; return l !== "rgba(0, 0, 0, 0)" && l !== b; }));
+    const s0 = await p.evaluate(() => ({ lc: getComputedStyle(document.querySelector(".sname .b")).backgroundColor, bar: getComputedStyle(document.querySelector(".sname"), "::before").backgroundColor, ans: getComputedStyle(document.querySelector(".answer")).borderTopWidth }));
+    T("station (Quiet): the short bar above the title takes the line's colour, the answer card has no coloured edge", s0.bar === s0.lc && parseFloat(s0.ans) === 0, JSON.stringify(s0));
     await ctx.close(); }
-
-  { const ctx = await ctxFor(390, 844, "dark"); const p = await open(ctx, "#/settings"); await p.click("label:has(input[name=color][value=quiet])"); await p.waitForTimeout(150);
+  { const ctx = await ctxFor(390, 844, "dark"); const p = await open(ctx, "#/settings"); await p.click("label:has(input[name=color][value=vivid])"); await p.waitForTimeout(150);
     await p.goto(URL0 + "#/"); await p.waitForTimeout(300);
-    const q = await p.evaluate(() => ({ attr: document.documentElement.getAttribute("data-color"), tile: getComputedStyle(document.querySelector(".home .lrow")).backgroundColor, panel: getComputedStyle(document.documentElement).getPropertyValue("--panel").trim(), glow: getComputedStyle(document.body).backgroundImage, stripe: getComputedStyle(document.querySelector(".top"), "::before").display }));
-    T("Quiet colours: tiles go back to small marks, the glow and the stripe are off", q.attr === "quiet" && q.glow === "none" && q.stripe === "none", JSON.stringify(q));
-    await ctx.close(); }
-
-  { const ctx = await ctxFor(390, 844, "dark"); const p = await open(ctx, "#/"); await p.waitForTimeout(250);
-    const a = await p.evaluate(() => document.documentElement.getAttribute("data-color")); await p.click("[data-colortoggle]"); await p.waitForTimeout(150);
-    const b = await p.evaluate(() => ({ attr: document.documentElement.getAttribute("data-color"), label: document.querySelector("[data-colortoggle]").textContent, tile: getComputedStyle(document.querySelector(".home .lrow")).backgroundColor }));
-    await p.click("[data-colortoggle]"); await p.waitForTimeout(150);
-    T("Home: one tap makes the colours quiet and one tap brings them back", a === null && b.attr === "quiet" && /Bring the colours back/.test(b.label) && b.tile !== "rgb(240, 106, 82)" && (await p.evaluate(() => document.documentElement.getAttribute("data-color"))) === null, JSON.stringify(b));
+    const h = await p.evaluate(() => { const rows = [...document.querySelectorAll(".home .lrow")]; const cols = rows.map(r => getComputedStyle(r).backgroundColor);
+      return { attr: document.documentElement.getAttribute("data-color"), n: rows.length, distinct: new Set(cols).size, solid: cols.every(c => c !== "rgba(0, 0, 0, 0)"), stripe: /gradient/.test(getComputedStyle(document.querySelector(".top"), "::before").backgroundImage), glow: /radial-gradient/.test(getComputedStyle(document.body).backgroundImage) }; });
+    T("Vivid: the ten lines are ten distinct solid colour tiles, with a ten-colour stripe and a soft glow", h.attr === "vivid" && h.n === 10 && h.distinct === 10 && h.solid && h.stripe && h.glow, JSON.stringify(h));
+    await p.goto(URL0 + "#/entry/emotional-blackmail"); await p.waitForTimeout(300);
+    const s1 = await p.evaluate(() => ({ lc: getComputedStyle(document.querySelector(".sname .b")).backgroundColor, bar: getComputedStyle(document.querySelector(".sname"), "::before").backgroundColor, ans: getComputedStyle(document.querySelector(".answer")).borderTopColor, wash: /radial-gradient/.test(getComputedStyle(document.body).backgroundImage) }));
+    T("Vivid station: the sign bar and the answer's top edge take the line's colour, with a wash behind the title", s1.bar === s1.lc && s1.ans === s1.lc && s1.wash, JSON.stringify(s1));
+    await p.goto(URL0 + "#/line/pressure"); await p.waitForTimeout(300);
+    T("Vivid line page: the header is a block of the line's colour", await p.evaluate(() => { const l = getComputedStyle(document.querySelector(".lhead")).backgroundColor, b = getComputedStyle(document.querySelector(".lhead")).color; return l !== "rgba(0, 0, 0, 0)" && l !== b; }));
     await ctx.close(); }
   { const ctx = await ctxFor(390, 844, "dark"); const p = await open(ctx, "#/settings"); await p.click("input[name=rest][value=people]"); await p.waitForTimeout(120);
     await p.goto(URL0 + "#/"); await p.waitForTimeout(250);
-    T("a resting line's tile stays readable, not faded", await p.evaluate(() => { const r = document.querySelector(".home .lrow.rest"); return !!r && getComputedStyle(r).opacity === "1" && getComputedStyle(r.querySelector("small")).color === getComputedStyle(document.documentElement).getPropertyValue("--fg") || !!r && getComputedStyle(r).opacity === "1"; }));
+    T("a resting line's row stays readable, not faded", await p.evaluate(() => { const r = document.querySelector(".home .lrow.rest"); return !!r && getComputedStyle(r).opacity === "1" && /Resting/.test(r.textContent); }));
     await ctx.close(); }
 
   // ---- v18: room to read on a phone, Share/Print under More, compare stacks, quotes stay inside their sentence
   { const ctx = await ctxFor(390, 844, "dark"); const p = await open(ctx, "#/entry/silent-treatment");
-    const vis = s => p.evaluate(s => { const e = document.querySelector(s); return !!e && !e.hidden && getComputedStyle(e).display !== "none"; }, s);
+    const vis = s => p.evaluate(s => { const e = document.querySelector(s); return !!e && !e.hidden && getComputedStyle(e).display !== "none" && getComputedStyle(e).visibility !== "hidden"; }, s);
     await p.evaluate(() => scrollTo(0, 1800)); await p.waitForTimeout(250); await p.evaluate(() => scrollTo(0, 2400)); await p.waitForTimeout(350);
-    const down = { doors: await vis(".doors"), dock: await vis(".stepdock"), gap: await p.evaluate(() => Math.round(innerHeight - document.querySelector(".stepdock").getBoundingClientRect().bottom)) };
+    const down = { doors: await vis(".doors"), idx: await p.evaluate(() => Math.round(document.querySelector(".secnav").getBoundingClientRect().top - document.querySelector(".top").getBoundingClientRect().bottom)) };
     await p.evaluate(() => scrollTo(0, 2300)); await p.waitForTimeout(350);
     const up = { doors: await vis(".doors"), totop: await vis("#totop") };
-    T("v18 phone: reading down shows only the step dock at the bottom edge; scrolling up brings the doors and back-to-top back", !down.doors && down.dock && down.gap <= 1 && up.doors && up.totop, JSON.stringify({ down, up }));
+    T("phone: reading down, the sign bar slides away and the section index stays under the top bar; scrolling up brings the sign bar and back-to-top back", !down.doors && Math.abs(down.idx) <= 1 && up.doors && up.totop, JSON.stringify({ down, up }));
     await p.evaluate(() => scrollTo(0, 0)); await p.waitForTimeout(150);
     const acts = await p.evaluate(() => [...document.querySelectorAll(".station .acts")][0].querySelectorAll(":scope > .btn, :scope > details > summary").length);
     await p.click(".moreacts summary"); await p.waitForTimeout(120);
-    const more = await p.evaluate(() => !!document.querySelector(".moreacts[open] [data-share]") && !!document.querySelector(".moreacts[open] [data-print]"));
-    T("v18 station: four choices before the steps (Save, Listen, Text size, More), with Share and Print under More", acts === 4 && more, JSON.stringify({ acts, more }));
+    const more = await p.evaluate(() => !!document.querySelector(".moreacts[open] [data-aa]") && !!document.querySelector(".moreacts[open] [data-share]") && !!document.querySelector(".moreacts[open] [data-print]"));
+    T("station: three choices before the reading (Save, Listen, More), with Text size, Share and Print under More", acts === 3 && more, JSON.stringify({ acts, more }));
     await p.goto(URL0 + "#/compare/gaslighting/countering"); await p.waitForTimeout(400);
     const c = await p.evaluate(() => ({ cols: getComputedStyle(document.querySelector(".cmp-row .cmp-g")).gridTemplateColumns.split(" ").length, who: getComputedStyle(document.querySelector(".cmp-who")).display,
       orphan: [...document.querySelectorAll(".cmp-row p")].filter(x => /^[‘’'“”"],/.test(x.textContent.trim())).length }));
@@ -515,7 +483,7 @@ const contrast = (a, b) => { const L = c => { c = c.map(v => v / 255).map(v => v
     await p.goto(URL0 + "#/search"); await p.fill("#q", "t01"); await p.waitForTimeout(250);
     T("searching a code on a rested line finds nothing from it", await p.evaluate(() => !/Gaslighting/.test(document.querySelector("#results").textContent)));
     await p.goto(URL0 + "#/"); await p.waitForTimeout(250);
-    T("the Home thumbnail dims a rested line", await p.evaluate(() => !!document.querySelector(".net .rest")));
+    T("Home marks a rested line's row as resting", await p.evaluate(() => !!document.querySelector(".home .lrow.rest")));
     await p.evaluate(() => document.querySelector("a[href='#/settings']") && 0);
     await ctx.close(); }
   { const ctx = await ctxFor(390, 844, "dark"); const p = await open(ctx, "#/"); T("no referrer is sent to the Leave destination", await p.evaluate(() => document.querySelector("meta[name=referrer]")?.content === "no-referrer")); await ctx.close(); }

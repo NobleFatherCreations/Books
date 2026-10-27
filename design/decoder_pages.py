@@ -249,7 +249,7 @@ def line_page(l, by, house, beacon):
         by[n]["s"], code(l, i + 1), H(n), H(clip(by[n]["f"]["short_definition"], 140))) for i, n in enumerate(l["order"]))
     body = ('<main class="view" data-g="%s"><nav class="crumbs" aria-label="You are here"><a href="/playbook">Pattern Decoder</a> \u203a <a href="/playbook/tactics">Every tactic</a></nav>'
             '<div class="sign">%s<h1>%s</h1></div><p class="lede">%s %d tactics on this line, in the order the guide walks them.</p>'
-            '<a class="go" href="/playbook#/line/%s">Open this line in the guide<small>See it on the map, with look-alikes on other lines.</small></a>'
+            '<a class="go" href="/playbook#/line/%s">Open this line in the guide<small>Every tactic on this line, with look-alikes on other lines.</small></a>'
             '<div class="rows">%s</div></main>') % (l["k"], bullet(l), esc(l["label"]), H(l["blurb"]), len(l["order"]), l["k"], rows)
     ld = {"@context": "https://schema.org", "@graph": [
         term_set(),
