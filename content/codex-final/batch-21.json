@@ -590,17 +590,17 @@
     "how_to_distinguish_from_related": "A Smear Campaign spreads claims, true or false, about a person and may use no recording at all. An edited recording gives a claim a piece of apparent proof. Legal Abuse can bring such a clip into a court filing, whereas an edited recording is about how the clip was cut. Forced Submission demands words from you, but an edited clip can put words in your mouth without your input."
   },
   "SIM Swap / 2FA Interception": {
-    "short_definition": "Taking over a person's phone number, or the text codes sent to it, to get into their accounts, lock them out or read their messages.",
-    "core_meaning": "Taking over a person's phone number, or the text codes sent to it, to get into their accounts, lock them out or read their messages.",
-    "expanded_definition": "A SIM swap is when a phone number is moved onto a different SIM card than the owner's, so calls and texts go to someone else. 2FA interception is the wider outcome: the one-time codes that prove who you are reach another person, by a swap or by other routes. Carrier outages and glitches happen, so one odd code means little. The telltale run is a lost signal, followed by lockouts and by account changes that someone else made.",
-    "plain_language_summary": "Someone gets control of your phone number or the codes sent to it, then uses them to get into your accounts while you are locked out.",
-    "why_this_matters": "The phone number that secures everything else becomes the way in, and the lockout usually arrives before there is any way to understand what has happened. Email, banking and messaging can all be reached from a single number, so a loss can spread quickly.",
+    "short_definition": "Someone takes over a person's phone number or the text codes sent to it, then uses them to get into accounts, lock the person out or read messages.",
+    "core_meaning": "Someone takes over a person's phone number or the text codes sent to it, then uses them to get into accounts, lock the person out or read messages.",
+    "expanded_definition": "A SIM swap is when a phone number is moved onto a different SIM card than the owner's, so calls and texts go to someone else. 2FA interception is the wider outcome. The one-time codes that prove who you are reach another person, by a swap or by other routes. Carrier outages and glitches happen, so one odd code means little. The telltale sequence is a lost signal, then lockouts, then account changes that someone else made.",
+    "plain_language_summary": "Someone gets control of your phone number or the codes sent to it. They then use those codes to get into your accounts while you are locked out.",
+    "why_this_matters": "The phone number that secures everything else becomes the way in. The lockout usually arrives before there is any way to understand what has happened. Email, banking and messaging can all be reached from a single number, so a loss can spread quickly.",
     "what_it_is": [
       "A phone number moved to a SIM or device the owner does not hold, which takes over their calls and texts.",
       "Text-message codes that arrive with someone else, so they can pass the checks for logins and password resets.",
       "Often arranged through a carrier's account processes and not by breaking into your device.",
-      "Used for theft, impersonation, reading private messages, or cutting a person off from their own accounts, and sometimes by someone the person knows.",
-      "Two overlapping behaviors: swapping is one method, interception of codes is the broader result, and interception can also happen without a swap."
+      "It is used for theft, impersonation, reading private messages, or cutting a person off from their own accounts. Sometimes the person doing it is someone the account owner knows.",
+      "There are two overlapping behaviors. Swapping is one method, and interception of codes is the broader result. Interception can also happen without a swap."
     ],
     "what_it_sounds_like": [
       "Your phone suddenly shows 'No service' or 'SOS only' in a place where you normally have full bars.",
@@ -615,7 +615,7 @@
       "Carriers have outages, tower maintenance and billing errors that drop service for hours.",
       "A single odd authentication code on one platform, which often means someone mistyped their own address.",
       "A SIM replacement you asked for yourself, after a lost or broken phone or an upgrade, that you forgot in a stressful week.",
-      "A line moved to a new plan or eSIM by a family-plan owner who legitimately manages the account.",
+      "A family-plan owner who legitimately manages the account moves a line to a new plan or eSIM.",
       "Travel or roaming problems that cut service when you cross a border."
     ],
     "this_may_be_it_when": [
@@ -623,7 +623,7 @@
       "Several unrelated accounts show resets or sign-ins from new devices within the same day.",
       "The recovery phone number or email on an account has been changed without you.",
       "Texts or calls meant for you stop arriving at your phone.",
-      "The timing matches a falling-out with someone who had access to your carrier account or devices, which shows only access and not who acted."
+      "The timing matches a falling-out with someone who had access to your carrier account or devices. That shows only access, and not who acted."
     ],
     "this_may_not_be_it_when": [
       "The carrier confirms an outage or maintenance in your area, and service returns on its own.",
@@ -667,32 +667,32 @@
       "Verification codes arrive repeatedly for logins you did not attempt.",
       "Friends report unusual messages that look as if they came from you, more than once."
     ],
-    "repair_check": "Resolution looks like the carrier confirming it has reversed the change and added extra protection to the line, each account recovering with a clean sign-in history, and no new unexplained codes over the following weeks. Regaining one login while the number stays exposed is only a partial fix.",
-    "boundary_respect_check": "Treat the weeks after you tighten security as the test. If codes stop arriving and sign-in histories stay clean, the change held. If lockouts return, new-device alerts reappear, or someone seems to know about changes you only made privately, treat access as still open and contact your carrier's fraud team.",
+    "repair_check": "Resolution looks like the carrier confirming it has reversed the change and added extra protection to the line. Each account recovers with a clean sign-in history, and no new unexplained codes appear over the following weeks. Regaining one login while the number stays exposed is only a partial fix.",
+    "boundary_respect_check": "Treat the weeks after you tighten security as the test. If codes stop arriving and sign-in histories stay clean, the change held. Lockouts that return, new-device alerts that reappear, or someone who seems to know about changes you only made privately all mean access may still be open. In that case, contact your carrier's fraud team.",
     "psychological_mechanism": "Losing the number that proves who you are can resemble losing your identity at once, since email, money and friends all hang from it. Rapid, unexplained lockouts tend to push people to act fast, and urgency makes it harder to sort real alerts from fake ones. Messages posing as 'your bank' or 'your carrier' can take advantage of that urgency.",
     "possible_impact_on_receiver": "People describe panic when the signal vanishes, then dread as accounts lock one by one. Some lose money or access to years of photos and messages. Others feel exposed in the days afterward, afraid of what was read, and distrust their own phone. When someone known to them is involved, they describe an added sense of betrayal.",
     "response_options": {
-      "soft_clarification": "Check first from a different, trusted device or a friend's phone: look at your carrier account's recent changes and at the sign-in history on your email. Write down what you find, with times.",
+      "soft_clarification": "First, check from a different, trusted device or a friend's phone. Look at your carrier account's recent changes and at the sign-in history on your email. Write down what you find, with times.",
       "firm_boundary": "Do not read out codes or PINs to anyone who calls or texts, even if they seem to be your carrier or bank. Hang up and contact them through the number on your card or their official app.",
-      "disengagement": "Once you are back in control, move key accounts such as email and banking off text-message codes, where the service allows, onto an authenticator app or a physical security key.",
+      "disengagement": "Once you are back in control, move key accounts such as email and banking off text-message codes, where the service allows. Use an authenticator app or a physical security key instead.",
       "support_seeking": "Contact your carrier's fraud team, your bank and, where one exists, your country's fraud reporting service. If an ex-partner may be involved, also speak to a domestic abuse or stalking advocate.",
-      "workplace_or_professional": "If a work account is affected, tell the IT or security team right away, and treat any message sent from your number or email during that window as suspect."
+      "workplace_or_professional": "If a work account is affected, tell the IT or security team right away. Treat any message sent from your number or email during that window as suspect."
     },
     "boundary_script": "\"I did not request a change to my SIM or my number. Please note that on the account, require extra verification for any future change, and send me a written record of what changed and when.\"",
     "safety_sensitive": true,
-    "safety_note": "Danger signals include money moving, access to your private messages, or messages that show someone knows your movements, especially a former partner who once held your carrier details. A SIM problem in that setting may be one piece of wider monitoring. Contact your carrier and bank from a device that person has never touched, and reach a stalking or domestic abuse advocate before changing anything they might notice.",
+    "safety_note": "Danger signals include money moving, access to your private messages, or messages that show someone knows your movements. A former partner who once held your carrier details is a special concern. A SIM problem in that setting may be one piece of wider monitoring. Use a device that person has never touched to contact your carrier and bank. Reach a stalking or domestic abuse advocate before changing anything they might notice.",
     "misuse_warning": [
       "Reading a one-off dropped signal or a stray verification code as a SIM swap can cause alarm that the facts do not support. The first check is your carrier's account history.",
-      "Pointing at a particular person from nothing but timing can turn a technical fraud into a family or workplace accusation."
+      "Blaming one person based only on timing can turn a technical fraud into a family or workplace accusation."
     ],
-    "how_to_distinguish_from_related": "Stalking & Surveillance (Post-Separation) is the watching of a former partner's life, and a SIM swap can be a route to it by sending that person's messages and codes elsewhere, but strangers also do it for money with no personal link. Legal Abuse works through courts and paper, in the open, while a swap works quietly through accounts and is found by what stops working. Forced Submission needs the person's own words, where a swap takes control with no input from them."
+    "how_to_distinguish_from_related": "Stalking & Surveillance (Post-Separation) is the watching of a former partner's life. A SIM swap can be a route to it, because it sends that person's messages and codes elsewhere. Strangers also do it for money, with no personal link. Legal Abuse works through courts and paper, in the open. A swap works quietly through accounts and is found by what stops working. Forced Submission needs the person's own words, but a swap takes control with no input from them."
   },
   "Intimate Image Abuse": {
-    "short_definition": "Sharing or threatening to share private sexual images of someone without consent, including fake ones, often tied to a demand for money, contact or compliance.",
-    "core_meaning": "Sharing or threatening to share private sexual images of someone without consent, including fake ones, often tied to a demand for money, contact or compliance.",
-    "expanded_definition": "Intimate image abuse covers real or fabricated sexual images used against the person shown: posted, sent on, or threatened with exposure. The threat can be attached to a demand for money, more images, contact or silence, or can follow a breakup. Images shared willingly within trust do not become abuse by existing; the line is passed when they are spread or held over the person without consent. Fear of exposure can steer behavior whether or not anything is shared, and a bluff has the same effect.",
-    "plain_language_summary": "Someone shares, or says they will share, private sexual pictures or videos of you without your agreement, sometimes real and sometimes faked.",
-    "why_this_matters": "Control over the most private material about a person passes to somebody else, and the fear of exposure keeps working whether or not anything is ever actually shared. The shame it brings often leads people to hide it, which is when help is hardest to reach.",
+    "short_definition": "Sharing or threatening to share private sexual images of someone without consent, including fake ones, often with a demand for money, contact or compliance.",
+    "core_meaning": "Sharing or threatening to share private sexual images of someone without consent, including fake ones, often with a demand for money, contact or compliance.",
+    "expanded_definition": "Intimate image abuse covers real or fabricated sexual images used against the person shown. The images may be posted, sent on, or held over them as a threat. The threat can come with a demand for money, more images, contact or silence, or can follow a breakup. Images shared willingly within trust do not become abuse just by existing. The line is crossed when they are spread, or held over the person, without consent. Fear of exposure can steer behavior whether or not anything is shared, and a bluff has the same effect.",
+    "plain_language_summary": "Someone shares, or says they will share, private sexual pictures or videos of you without your agreement. The images are sometimes real and sometimes faked.",
+    "why_this_matters": "Control over the most private material about a person passes to somebody else. The fear of exposure keeps working whether or not anything is ever shared. The shame it brings often leads people to hide it, which is when help is hardest to reach.",
     "what_it_is": [
       "Real images shared, posted or sent onward without the consent of the person shown.",
       "Threats to share, with or without a stated demand, that keep the person afraid even if nothing is ever sent.",
@@ -714,7 +714,7 @@
       "Images shared consensually inside a relationship, with no threat and no sharing beyond it.",
       "Adults who agreed to publish or sell their own content, such as a creator or a couple who chose to post together.",
       "An accidental send to the wrong chat that the recipient deletes at once and tells you about.",
-      "Someone telling you that they came across an image of you posted by a third party, so that you can report it, with no demand attached.",
+      "Someone tells you they came across an image of you posted by a third party, so that you can report it, with no demand attached.",
       "A vague line like 'I have stuff on you' with no mention of images, which is a different kind of threat."
     ],
     "this_may_be_it_when": [
@@ -727,9 +727,9 @@
     "this_may_not_be_it_when": [
       "Nothing has been shared or threatened, and the images were given in a relationship that remains on good terms.",
       "The message is a vague boast with no mention of images, who would see them or what you must do.",
-      "The only images are ones a couple openly agreed to keep, with a shared understanding of what they are for.",
+      "The only images are ones a couple openly agreed to keep, and both understand what they are for.",
       "Everyone shown agreed to the use, with no pressure.",
-      "The message went to hundreds of people as a template and no real image of you was ever included, though it is still worth reporting."
+      "The message went to hundreds of people as a template, and no real image of you was ever included. It is still worth reporting."
     ],
     "innocent_or_ordinary_possibilities": [
       "A partner may keep photos you willingly shared, with no plan to do anything with them.",
@@ -740,7 +740,7 @@
     "common_false_positives": [
       "A friend joking 'I have embarrassing pictures of you' about a clothed vacation photo.",
       "A scam message sent to thousands of strangers saying 'I recorded you', with no real image of you. It is still a threat to report, but it is not a leak.",
-      "A relative posting a swimsuit photo from a family vacation, which may be tactless but is not sexual exposure."
+      "A relative posts a swimsuit photo from a family vacation. That may be tactless, but it is not sexual exposure."
     ],
     "discernment_questions": [
       "Has anything actually been posted or sent, or is it a threat so far?",
@@ -758,7 +758,7 @@
     "more_concerning_if": [
       "Images have been shared or shown to people who matter to you, such as family, an employer or a school.",
       "The demands escalate, a deadline is set, or contact arrives from several accounts.",
-      "You feel unsafe in person, or the threat comes with other controlling behavior, such as monitoring, stalking or control of money."
+      "You feel unsafe in person. Or the threat comes with other controlling behavior, such as monitoring, stalking or control of money."
     ],
     "pattern_over_time_signs": [
       "The reference returns whenever you pull away: 'remember what I have.'",
@@ -766,24 +766,24 @@
       "Demands shift from one thing to another, and each payment or image buys only a pause.",
       "You have started to check search results, group chats and tagged posts for your own pictures."
     ],
-    "repair_check": "Repair shows in things you can see for yourself: posts taken down, links that now fail, and threats that stop and do not come back. A promise to delete with nothing visible behind it leaves the option open, and so does an apology that arrives alongside a new demand.",
-    "boundary_respect_check": "A limit on this subject is judged by the next message. A reply that ends the threat, followed by a gap that holds, is one kind. A larger demand, a deadline, or a copy sent to someone close to you is the other, and that is the point to stop replying and reach a helpline or advocate.",
-    "psychological_mechanism": "Fear of exposure works through shame and the picture of everyone you know seeing it. The threat does not need to be carried out to work, because imagining it can be enough. Secrecy tends to deepen the hold: the longer a person handles it alone, the more the other party's control can feel total, and each demand can feel smaller than the feared exposure.",
+    "repair_check": "Repair shows in things you can see for yourself: posts taken down, links that now fail, and threats that stop and do not come back. A promise to delete with nothing visible behind it leaves the option open. So does an apology that arrives alongside a new demand.",
+    "boundary_respect_check": "A limit on this subject is judged by the next message. One kind of reply ends the threat and is followed by a gap that holds. The other kind brings a larger demand, a deadline, or a copy sent to someone close to you. That is the point to stop replying and reach a helpline or advocate.",
+    "psychological_mechanism": "Fear of exposure works through shame and the picture of everyone you know seeing it. The threat does not need to be carried out to work, because imagining it can be enough. Secrecy deepens the hold. The longer a person handles it alone, the more complete the other party's control can appear, and each demand can look smaller than the feared exposure.",
     "possible_impact_on_receiver": "People describe panic, nausea, shame, trouble sleeping and a feeling of being watched wherever they go. Some stop using social media or avoid work and school for fear of being recognized. Many describe relief once they told one person, and some describe anger at being blamed for taking the picture in the first place.",
     "response_options": {
-      "soft_clarification": "Before replying, save everything: screenshots of messages, usernames, links and dates, stored somewhere private. Questions and arguments with the sender can wait until you have advice.",
+      "soft_clarification": "Before you reply, save everything in a private place. Keep screenshots of messages, usernames, links and dates. Questions and arguments with the sender can wait until you have advice.",
       "firm_boundary": "Do not pay, send more images or negotiate. Payment or new images tend to bring further demands, not an end. Further contact with the sender can wait until an advocate has advised; do not send them the wording below.",
       "disengagement": "If the sender is someone you know, ask an advocate before blocking or going silent, since a sudden change can raise the pressure. With a stranger, blocking after saving evidence is usually fine.",
-      "support_seeking": "Tell someone you trust and contact an image-abuse helpline or advocate. StopNCII.org (adults) and Take It Down (images taken before 18, even if you are now an adult) let you flag an image so participating platforms can block it, without sharing it.",
-      "workplace_or_professional": "If images or threats reach your job or school, tell one trusted person in HR, student services or security early, so it does not arrive as a surprise. Give them the links, not the images."
+      "support_seeking": "Tell someone you trust and contact an image-abuse helpline or advocate. StopNCII.org (adults) and Take It Down (images taken before 18, even if you are now an adult) let you flag an image so participating platforms can block it.",
+      "workplace_or_professional": "If images or threats reach your job or school, tell one trusted person early, in HR, student services or security, so it does not arrive as a surprise. Give them the links, not the images."
     },
-    "boundary_script": "\"I did not agree to these images being shared. I have saved the links, messages and dates, and I am asking for help getting them removed.\" Send this to a platform, school, employer or advocate, never to the person who shared them.",
+    "boundary_script": "\"I did not agree to these images being shared. I have saved the links, messages and dates, and I am asking for help getting them removed.\" Send this to a platform, school, employer or advocate. Never send it to the person who shared them.",
     "safety_sensitive": true,
-    "safety_note": "Take seriously a deadline, a demand that keeps growing, contact from several accounts, messages to your family or workplace, or threats of self-harm used to keep you quiet. If shame feels unbearable, a crisis line can help tonight. If the person shown is under 18, treat it as urgent and contact your country's child-safety or police service. Save links and screenshots, then ask an advocate about takedown options before replying.",
+    "safety_note": "Take these seriously: a deadline, a demand that keeps growing, contact from several accounts, messages to your family or workplace, or threats of self-harm used to keep you quiet. If shame feels unbearable, a crisis line can help tonight. If the person shown is under 18, treat it as urgent and contact your country's child-safety or police service. Save links and screenshots, then ask an advocate about takedown options before replying.",
     "misuse_warning": [
       "Using the label for any private picture someone still has can accuse a former partner of abuse when nothing has been threatened or shared. The line is consent and use, not possession.",
       "Treating the person shown as responsible because they once took or sent the picture adds blame to someone who needs help. The picture existing is not the wrongdoing."
     ],
-    "how_to_distinguish_from_related": "Public Humiliation exposes someone in front of others, though not necessarily with sexual material or an attached demand. Forced Submission presses a person to say words, while intimate image abuse presses with a threat of exposure and may ask for money or more images instead. Stalking & Surveillance (Post-Separation) may sit alongside it, but concerns following and watching, not the exposure of private images."
+    "how_to_distinguish_from_related": "Public Humiliation exposes someone in front of others, though not always with sexual material or a demand attached. Forced Submission presses a person to say words. Intimate image abuse presses with a threat of exposure, and may ask for money or more images instead. Stalking & Surveillance (Post-Separation) may sit alongside it, but it is about following and watching, and not about exposing private images."
   }
 }

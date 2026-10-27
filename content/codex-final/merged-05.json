@@ -1,15 +1,15 @@
 {
   "Account Takeover": {
-    "short_definition": "Taking over someone's email, social media, banking or cloud accounts so they are watched, spoken for, cut off or locked out of their own online life.",
-    "core_meaning": "Taking over someone's email, social media, banking or cloud accounts so they are watched, spoken for, cut off or locked out of their own online life.",
-    "expanded_definition": "Account takeover is control of another person's digital accounts that the account holder did not agree to: changed passwords, redirected recovery details, messages read or sent in their name, access handed back only on conditions. Also called account control, it can start as casual shared access and harden into sole control. One reset after a forgotten password means little. It becomes a pattern when access changes without your knowledge and your ways back in are blocked.",
-    "plain_language_summary": "Someone gets control of your email, social media or bank logins, so they can read your messages, write as you, or keep you out, and getting back in depends on them.",
-    "why_this_matters": "Being pushed out of your own accounts costs more than access. Messages can go out under your name to people who have every reason to believe them, and everyday tasks like paying a bill or reaching a doctor start to need permission.",
+    "short_definition": "Taking over someone's email, social media, banking or cloud accounts, which leaves them watched, spoken for, cut off or locked out of their own online life.",
+    "core_meaning": "Taking over someone's email, social media, banking or cloud accounts, which leaves them watched, spoken for, cut off or locked out of their own online life.",
+    "expanded_definition": "Account takeover is when someone controls another person's digital accounts without their agreement. They may change passwords, redirect recovery details, read or send messages in the person's name, or give access back only on conditions. It is also called account control. It can start as casual shared access and harden into sole control. One reset after a forgotten password means little. It becomes a pattern when access changes without your knowledge and your ways back in are blocked.",
+    "plain_language_summary": "Someone gets control of your email, social media or bank logins. They can read your messages, write as you, or keep you out, and getting back in depends on them.",
+    "why_this_matters": "Being pushed out of your own accounts costs more than access. Messages can go out under your name to people who have every reason to believe them. Everyday tasks like paying a bill or reaching a doctor start to need permission.",
     "what_it_is": [
-      "Passwords, recovery email addresses or phone numbers changed by someone else, so the account holder cannot get back in.",
-      "Reading, deleting or sending messages from an account while the owner is unaware, or aware and unable to stop it.",
-      "A step beyond ordinary shared access: the person once had independent use of the account and now needs someone's help to open it.",
-      "Access used as leverage, handed back only after an apology, an agreement or a favor.",
+      "Someone else changes the passwords, recovery email addresses or phone numbers, so the account holder cannot get back in.",
+      "Someone reads, deletes or sends messages from an account while the owner does not know, or knows and cannot stop it.",
+      "This goes beyond ordinary shared access. The person once used the account on their own and now needs someone's help to open it.",
+      "Access is used as a bargaining chip. It is handed back only after an apology, an agreement or a favor.",
       "Covers email, banking, social media, phone accounts and cloud storage where photos, documents and contacts are kept."
     ],
     "what_it_sounds_like": [
@@ -23,10 +23,10 @@
     ],
     "what_it_is_not": [
       "Forgotten passwords, expired codes and lost phones. A locked account on its own is a common technical problem.",
-      "Platform outages, bugs and automatic security locks that follow an unusual login, which affect many users at once.",
+      "Platform outages, bugs and automatic security locks after an unusual login. These affect many users at once.",
       "A parent managing a young child's accounts openly, with access that eases as the child grows.",
       "An authorized family member resetting a shared account, saying so, and handing it back.",
-      "A hacker or scammer with no personal link to you, which is a crime of a different kind from control inside a relationship.",
+      "A hacker or scammer with no personal link to you. That is a different kind of crime from control inside a relationship.",
       "Mutual agreement to share a streaming login or family calendar that either person can leave."
     ],
     "this_may_be_it_when": [
@@ -73,29 +73,29 @@
     ],
     "pattern_over_time_signs": [
       "Your list of accounts that only the other person can open grows, from one streaming login to email, then bank.",
-      "You copy important documents to a place nobody else can reach, because anything stored in one account may vanish.",
+      "You copy important documents to a place nobody else can reach, because anything kept in one account may vanish.",
       "People you used to message say they have not heard from you, or heard strange things.",
       "Each time access comes back, it arrives with a new term attached."
     ],
     "repair_check": "What happens to the logins themselves is the clearest sign. Repair means every password and recovery detail returned to you with nothing attached, an account history you can read, and no new lockout later. An apology while they still hold the keys has fixed nothing.",
-    "boundary_respect_check": "Ask yourself whether you can now open each account yourself, today, on a device you control. If the only route is still through them, or a request to be left alone is followed by new changes, the request has not been respected.",
-    "psychological_mechanism": "Accounts hold a person's contacts, money, history and voice, so losing them tends to feel like losing the ability to act. Control through logins works quietly because each step looks small and administrative, and because getting access back turns into a favor to be asked for, which can shift who seems to be in charge of ordinary life.",
-    "possible_impact_on_receiver": "People describe panic at being unable to reach their own contacts or money, shame about messages sent in their name, and a constant sense of being watched. Some stop trusting every device or app. Some say the practical problems, such as missing a work email or a bill, hurt as much as the intrusion.",
+    "boundary_respect_check": "Ask yourself whether you can now open each account yourself, today, on a device you control. If the only route is still through them, the request has not been respected. The same is true if a request to be left alone is followed by new changes.",
+    "psychological_mechanism": "Accounts hold a person's contacts, money, history and voice. Losing them often shakes your sense of being able to act at all. This kind of control works quietly. Each step looks small and administrative, and getting access back turns into a favor you have to ask for. That can shift who seems to be in charge of ordinary life.",
+    "possible_impact_on_receiver": "Panic at being unable to reach your own contacts or money is common, along with shame about messages sent in your name and a constant sense of being watched. Some stop trusting every device or app. Some say the practical problems, such as a missed work email or bill, hurt as much as the intrusion.",
     "response_options": {
       "soft_clarification": "Ask a plain question about the change: 'My login doesn't work and the recovery number isn't mine. Do you know why?' Then see whether the answer is specific and whether it is fixed.",
-      "firm_boundary": "Do not ask for your logins back unless you are sure it is safe. A tech-safety advocate can help you regain control of your accounts first, because a demand can lead to the change being hidden or to anger.",
-      "disengagement": "Do not argue over each message. Use a trusted device, such as a library computer or a friend's phone, to check what you can still reach and begin setting up new accounts.",
-      "support_seeking": "Tell a trusted person or a domestic abuse or tech safety advocate what you have seen, and write down dates, screenshots of login alerts and unfamiliar devices before anything changes.",
-      "workplace_or_professional": "If a work account is involved, report it to your IT or security team at once, and ask your bank or phone company to put a block on changes without extra verification."
+      "firm_boundary": "Do not ask for your logins back unless you are sure it is safe. A demand can lead to the change being hidden, or to anger. A tech-safety advocate can help you regain control of your accounts first.",
+      "disengagement": "Do not argue over each message. Use a trusted device, such as a library computer or a friend's phone. Check what you can still reach and begin setting up new accounts.",
+      "support_seeking": "Tell a trusted person or a domestic abuse or tech safety advocate what you have seen. Before anything changes, write down dates and keep screenshots of login alerts and unfamiliar devices.",
+      "workplace_or_professional": "If a work account is involved, report it to your IT or security team at once. Ask your bank or phone company to block changes unless extra verification is given."
     },
     "boundary_script": "\"My login stopped working and the recovery number isn't mine. Do you know why that happened? Let's sort it out calmly.\" If you are unsure how they would react, hold off and ask a tech-safety advocate how to proceed.",
     "safety_sensitive": true,
-    "safety_note": "Losing control of accounts can go with monitoring, isolation, threats or control of money. Changing passwords or removing a device can alert the person to what you are doing. Work out your next step on a device they cannot see, with a domestic abuse advocate or a tech safety service, before you change anything on the compromised account.",
+    "safety_note": "Losing control of accounts can go with monitoring, isolation, threats or control of money. Changing passwords or removing a device can alert the person to what you are doing. Before you change anything on the compromised account, work out your next step on a device they cannot see, with a domestic abuse advocate or a tech safety service.",
     "misuse_warning": [
       "A locked or hacked account does not show that someone close to you did it. Look at the provider's login history and recovery details before suspecting a person.",
-      "Accusing a partner or relative of taking over your accounts because of one failed login can damage trust over a fault that belongs to the platform."
+      "Accusing a partner or relative of taking over your accounts after one failed login can damage trust. The fault may belong to the platform."
     ],
-    "how_to_distinguish_from_related": "Stalking & Surveillance (Post-Separation) tracks your movements and contacts after a break-up and need not touch your accounts at all, while account takeover works through your own logins, recovery details and the messages stored there. Resource Sabotage removes things you need to succeed, such as tools or funding, and blames you for the failure. Here the thing removed is your access and your own voice."
+    "how_to_distinguish_from_related": "Stalking & Surveillance (Post-Separation) tracks your movements and contacts after a break-up. It need not touch your accounts at all. Account takeover works through your own logins, recovery details and the messages stored there. Resource Sabotage removes things you need to succeed, such as tools or funding, and blames you for the failure. Here the thing removed is your access and your own voice."
   },
   "Emotional Blackmail": {
     "short_definition": "Making love, closeness or the relationship itself depend on doing what someone wants, so that saying no feels like risking the bond.",
