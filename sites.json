@@ -13,6 +13,11 @@
     "version": "v15",
     "changelog": [
       {
+        "date": "2026-10-27",
+        "version": "v15",
+        "summary": "Site files only (page unchanged, so no version bump): robots.txt inviting search and AI crawlers, and sitemap.xml built by scripts/build-root-sitemap.py. Deploy 6ae09ac47e52e5d2b6b76ae7."
+      },
+      {
         "date": "2026-09-04",
         "version": "v15",
         "summary": "Moved How to Program NFC Tags up to be the second section on the page (right after the Workshop opener, ahead of the Library) and added it to THE HOUSE nav drawer that travels with every other page -- previously it sat at the very bottom of the hub and wasn't reachable from anywhere else on the site."
@@ -82,6 +87,10 @@
         "version": "v2",
         "summary": "Fixed the intro video not playing and the tutorial not appearing on some phones; the 3 doors are now genuinely the only thing you can do until you pick one (scrolling past them no longer works); each door now visibly moves instead of only reacting to hover, which never fires on a touch screen. Also found and fixed a layout bug this same round introduced -- the door screen had grown taller than one view, and centering it on the doors pushed the title off the top of the screen with no way to scroll back to it; it now scrolls smoothly within its own frame instead. Typography rebuilt: the display serif now uses its full character at large sizes, headings have real weight contrast, and small print moved out of the monospace into something easier to read on a phone."
       }
+    ],
+    "siteFiles": [
+      "hub/robots.txt",
+      "hub/sitemap.xml"
     ]
   },
   "projects": [
@@ -99,8 +108,13 @@
         "found": false,
         "checkedAt": "2026-08-02"
       },
-      "version": "v15",
+      "version": "v16",
       "changelog": [
+        {
+          "date": "2026-10-27",
+          "version": "v16",
+          "summary": "Made findable (owner decision): removed noindex; tab title, description, canonical and JSON-LD follow the page; addresses always use tactic names; a plain page per tactic, per line and an index, with /playbook/sitemap.xml. Reader app design unchanged."
+        },
         {
           "date": "2026-10-27",
           "version": "v15",
@@ -183,15 +197,15 @@
         }
       ],
       "section": "instruments",
-      "repoPath": "instruments/playbook/index.html",
+      "repoPath": "instruments/playbook/site",
       "dataSource": "content/playbook-data.json",
       "lastDeploy": {
         "date": "2026-10-27",
-        "version": "v15",
-        "deployId": "6ae07f8d1d3cc016c185f5cc",
-        "method": "netlify MCP deploy-site -> npx @netlify/mcp from a staging dir containing only index.html (= instruments/playbook/index.html, built by design/build-decoder-v15.py behind its byte-for-byte gate)",
-        "verified": "fetched noblefathercreations.com/playbook and noblepatterns.netlify.app after deploy: both byte-identical to the repo file (md5 faa7a856edb3e34f5dbe94eab06462d8, 3,332,380 bytes); live Playwright smoke test at 390 and 1440 with no page errors (10 line tiles, station with Listen and Text size, search by code t09 finds Platform Migration, no horizontal overflow); local suite 109/109 before deploy",
-        "replaced": "v14 (deploy 6adcc6fa52666a093ddba0ad, md5 947ee1587a2bc20700b38244b1a484f9); pre-deploy drift check showed live byte-identical to the repo's v14 file"
+        "version": "v16",
+        "deployId": "6ae09a7fcc7b79e87238455d",
+        "method": "netlify MCP deploy-site -> npx @netlify/mcp from a staging copy of instruments/playbook/site (324 files, 15 MB)",
+        "verified": "all 326 files fetched through noblefathercreations.com/playbook byte-identical to the repo; clean addresses (/playbook/gaslighting) 200 without redirects, unknown 404; live Playwright at 390 and 1440: titles and canonicals correct, no overflow, Leave works; local suite 109/109",
+        "replaced": "v15 single-file deploy 6ae07f8d1d3cc016c185f5cc"
       },
       "openItems": [
         {
@@ -251,7 +265,8 @@
           "item": "Unverified claims from pasted text: a Netlify suspension and a failing GitHub Action. Nothing in this session showed either; check the Netlify dashboard and Actions if they matter."
         }
       ],
-      "openItemsUpdated": "2026-10-24"
+      "openItemsUpdated": "2026-10-24",
+      "repoPathNote": "Publish directory, built by design/build-decoder-v15.py (app index.html + 321 plain pages + f/ fonts and icon + sitemap.xml). Deploy the whole folder."
     },
     {
       "codename": "root",

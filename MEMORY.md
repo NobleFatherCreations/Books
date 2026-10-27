@@ -4723,3 +4723,20 @@ Owner asked for ten phone upgrades, a final combing of every tactic for accuracy
   title (both safety features since v8). The code is broken in several ways, and it breaks the no-framework rule.
   Open owner decisions: discoverability vs. privacy, and the "13 Gates" name.
 - Added the Sequential Thinking MCP to `.mcp.json` (official package, pinned 2.0.0, inspected, handshake OK; live next session).
+
+## 2026-10-27 (later) — Decoder v16 DEPLOYED: findable by search engines and AI (owner decision)
+
+- Owner chose discoverability over the privacy shield ("drop the shield"). The pasted directive's React Helmet / `src/` /
+  tacticsMatrix.json parts don't exist here, so they were mapped onto the real pipeline instead. See `docs/DECODER-SEO.md`.
+- App: `noindex` removed; descriptive title, description, canonical, Open Graph and DefinedTerm follow each route
+  (`seo()` in app.js); addresses always `#/entry/<slug>` (old numbered links still open). Settings and Safety copy changed
+  from "addresses use numbers" to "the address and tab show what you read; a private window is safer". Leave unchanged.
+- New `design/decoder_pages.py`: 310 tactic pages, 10 line pages, `/playbook/tactics`, `/playbook/sitemap.xml`. Publish
+  dir is now `instruments/playbook/site/` (index.html moved there; sites.json repoPath updated). Fonts/icon shared at `/playbook/f/`.
+- Hub: `hub/robots.txt` (all allowed, AI crawlers named) + `hub/sitemap.xml` (`scripts/build-root-sitemap.py`).
+- Gotchas: the build gate flagged the canonical `<link>` as an "external request" (exempted, exact tag only); the
+  placeholder regex matches CSS `}}`, so the plain-page gate checks visible text only. Netlify serves `/x` from `x.html`
+  through the proxy with no redirect. Never use `x/index.html`, because a slash redirect escapes `/playbook`.
+- Deploys: playbook 6ae09a7fcc7b79e87238455d, hub 6ae09ac47e52e5d2b6b76ae7. verify-deployed: both in sync (322 + 1 files);
+  all 326 published files byte-identical through the domain; suite 109/109.
+- Owner to do: submit sitemaps in Google Search Console / Bing Webmaster Tools.
