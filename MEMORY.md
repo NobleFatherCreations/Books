@@ -4710,3 +4710,16 @@ Owner asked for ten phone upgrades, a final combing of every tactic for accuracy
 - **Content:** `design/copyedit-pass.py` (extract flagged passages, apply with guards to playbook-data.json and the codex-final batch files in place). 26 batches, a six-list sentence-length pass and fix passes, one agent at a time. Mean grade 8.73 to 7.76; long sentences 2,573 to 138; dashes 302 to 0. Validator 310/310. Facts: named citations checked; DARVO study description corrected; two coined jargon labels removed. Not done: clinical sign-off on medical symptom lists (Clinical Tone Policing, Medical Gaslighting, False Conclusion from Normal Labs) and safeguarding notes (The Exception Script, Stalking).
 - **Process gotchas:** the rate limit hit agents twice (resets 23:40 and 06:10 UTC); outputs were already saved, so resume with one canary. Repeated-phrasing frames (validator) accumulate when many agents choose the same natural phrase; fix with a dedicated pass from the validator's own messages. A `:has()` rule on `html` slowed the 310-row page by ~80 ms. Pseudo-element glows behind `body` are hidden by the body background: use `background-image` on body. The test harness cannot read gradients; give gradient blocks a solid `background-color` too. `build-decoder-v15.py --draft` skips only the content validator and writes draft.html (never deploy it).
 - **Tests:** 109 checks, all pass on the final build.
+
+## 2026-10-27 — Pasted "13 Gates / SovereignPlaybookEngine" plan reviewed (nothing built, nothing deployed)
+
+- Session start found `playbook` drifted: live was v15 (deployed 10:42 UTC from `claude/friendly-albattani-j667ry`), this
+  branch was 50 commits behind. Live was right, so both Books and Wookbook were **fast-forwarded** to that branch. After that:
+  `verify-deployed playbook` in sync; `build-decoder-v15.py` output byte-identical to live; `decoder-verify.js` 108/108
+  (it needs `npm i --no-save axe-core` first or the axe check fails).
+- Owner pasted a React/Tailwind/Framer/Helmet plan from another chat. Full verdict in `docs/DECODER-PASTE-REVIEW-2026-10-27.md`.
+  In short: line names real; most other ideas v15 already ships; but the tactics are invented (only DARVO and Love Bombing are
+  real), the "exit" advice is unsafe, it drops the safety fields, and the SEO part would remove `noindex` and the neutral
+  title (both safety features since v8). The code is broken in several ways, and it breaks the no-framework rule.
+  Open owner decisions: discoverability vs. privacy, and the "13 Gates" name.
+- Added the Sequential Thinking MCP to `.mcp.json` (official package, pinned 2.0.0, inspected, handshake OK; live next session).

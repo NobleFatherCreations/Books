@@ -4,6 +4,10 @@
       "command": "npx",
       "args": ["-y", "@playwright/mcp@latest"]
     },
+    "sequential-thinking": {
+      "command": "npx",
+      "args": ["-y", "@modelcontextprotocol/server-sequential-thinking@2.0.0"]
+    },
     "higgsfield": {
       "command": "python",
       "args": ["tools/geopopos-higgsfield_ai_mcp/src/higgsfield_mcp/server.py"],
