@@ -31,9 +31,10 @@ import decoder_pages as pages  # noqa: E402  (plain per-tactic pages, v16)
 _spec = importlib.util.spec_from_file_location("v10", os.path.join(HERE, "build-decoder-v10.py"))
 v10 = importlib.util.module_from_spec(_spec); _spec.loader.exec_module(v10)
 
-VERSION = "v17"
+VERSION = "v18"
 DATE = "2026-10-27"
 UPDATES = [
+    "<strong>More room to read on a phone (v18).</strong> While you read down a tactic, only the slim step bar stays at the bottom of the screen; scroll up and the four buttons and Back to top come back. Share and Print now sit under More, two look-alikes compare one above the other on a phone, the daytime look uses the same warm gold as the night one, and a stray quote mark in a few comparisons is fixed.",
     "<strong>A new night look (v17).</strong> The guide is now matte black with a warm gold for the thing to press. Safety notes are red now, so they stand apart from everything else on the page, and the green Leave button is where it always was.",
     "<strong>Every tactic has its own page (v16).</strong> Each of the tactics now has a plain page with its own address, like noblefathercreations.com/playbook/gaslighting, so you can find it from a search engine and share a link that opens straight to it. The page address and the tab now always show what you are reading. If someone else could see this device, a private window is the safest way to read.",
     "<strong>Plainer words, all the way through.</strong> Every entry was read again for clarity. Long sentences were split, hard words were swapped for everyday ones, and the stiff, repeated phrasing was reworded so it reads like a person talking. A few claims that could not be backed up were removed, and one description of a study was corrected.",

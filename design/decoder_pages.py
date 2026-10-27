@@ -38,7 +38,8 @@ def H(s):
 
 
 def sentences(t):
-    m = re.findall(r"[^.!?]+(?:[.!?]+[\"\u201d\u2019)]*|$)\s*", str(t or ""))
+    # same rule as the app: . ! ? (plus closing quotes) end a sentence only before a space or the end
+    m = re.findall(r"(?:[^.!?]|[.!?]+[\"'\u201d\u2019)]*(?=[^\s\"'\u201d\u2019)]))+(?:[.!?]+[\"'\u201d\u2019)]*|$)\s*", str(t or ""))
     return [x.strip() for x in (m or [str(t or "")]) if x.strip()]
 
 
@@ -88,7 +89,7 @@ CSS = """
 --blade:#E5C158;--blade-ink:#050507;--bullet-ink:#050507;--amber:#FF6B5E;--amber-fill:#F04438;--amber-fill-ink:#050507;--exit:#00B864;--exit-ink:#04140B;
 --sign:'Overpass',system-ui,sans-serif;--read:'Atkinson Next','Atkinson Hyperlegible',system-ui,sans-serif;color-scheme:dark}
 @media (prefers-color-scheme:light){:root{--bg:#FBFAF7;--panel:#F3F1EB;--panel-2:#E8E5DC;--rule:#DAD6CB;--rule-hi:#BDB8AA;--fg:#14161A;--fg-2:#4B5159;--fg-3:#5C636B;
---blade:#6B500F;--blade-ink:#FFFFFF;--bullet-ink:#FFFFFF;--amber:#B42318;--exit:#007A40;--exit-ink:#FFFFFF;color-scheme:light}%DAY%}
+--blade:#E5C158;--blade-ink:#14161A;--blade-edge:#9A7414;--bullet-ink:#FFFFFF;--amber:#B42318;--exit:#007A40;--exit-ink:#FFFFFF;color-scheme:light}%DAY%}
 *{box-sizing:border-box}html{-webkit-text-size-adjust:100%}
 body{margin:0;background:var(--bg);color:var(--fg);font:400 1.125rem/1.6 var(--read);overflow-wrap:break-word}
 a{color:inherit;text-decoration-color:var(--fg-3);text-underline-offset:.2em}a:hover{text-decoration-color:currentColor}
@@ -112,7 +113,7 @@ h2{font:800 1.375rem/1.2 var(--sign);letter-spacing:-.01em;margin:0 0 12px}
 .says li:not(.nq)::before{content:"\\201C";position:absolute;left:0;top:6px;font:800 2rem/1 var(--sign);color:var(--lc,var(--fg-2));font-style:normal}
 .k{font:800 1.0625rem/1.2 var(--sign);margin:20px 0 4px}
 .also{color:var(--fg-2);font-size:1rem;margin:12px 0 0}
-.go{display:block;min-height:72px;padding:16px 20px;margin:0 0 48px;background:var(--blade);color:var(--blade-ink);text-decoration:none;font:800 1.1875rem/1.2 var(--sign)}
+.go{display:block;min-height:72px;box-shadow:inset 0 0 0 1px var(--blade-edge,transparent);padding:16px 20px;margin:0 0 48px;background:var(--blade);color:var(--blade-ink);text-decoration:none;font:800 1.1875rem/1.2 var(--sign)}
 .go small{display:block;font:400 .9375rem/1.4 var(--read);margin-top:4px}
 .blk{padding:32px 0 0;margin:32px 0 0;box-shadow:inset 0 1px 0 var(--rule)}.blk p{margin:0 0 12px}.blk ul{margin:0;padding-left:1.25em}.blk li{margin:0 0 8px}
 .blk h3{font:800 1.0625rem/1.25 var(--sign);margin:20px 0 4px}

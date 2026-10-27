@@ -24,7 +24,8 @@ const H = s => esc(curly(s));
 const sayLi = t => { t=String(t||"").trim(); const st=/^["“‘]/.test(t), en=/["”’]$/.test(t); return st&&!en?'<li class="nq">'+H(t)+'</li>':'<li>'+H(unq(t))+'</li>'; };
 const unq = t => { t=String(t||"").trim(); return /^["“‘]/.test(t)&&/["”’]$/.test(t)?t.replace(/^["“‘]\s*/,"").replace(/\s*["”’]$/,""):t; };
 function slugify(s){return (s||"").toLowerCase().replace(/[^a-z0-9]+/g,"-").replace(/(^-+|-+$)/g,"")||"x";}
-function sentences(t){ const m=String(t||"").match(/[^.!?]+(?:[.!?]+["”’)]*|$)\s*/g); return (m||[String(t||"")]).map(x=>x.trim()).filter(Boolean); }
+/* A sentence ends at . ! or ? (plus any closing quotes) only when a space or the end follows, so 'did this happen?', stays one sentence. */
+function sentences(t){ const m=String(t||"").match(/(?:[^.!?]|[.!?]+["'”’)]*(?=[^\s"'”’)]))+(?:[.!?]+["'”’)]*|$)\s*/g); return (m||[String(t||"")]).map(x=>x.trim()).filter(Boolean); }
 /* The answer comes first: the first sentence of an explanation is bold, long paragraphs break every two sentences. */
 function prose(t){
   const ss=sentences(t); if(!ss.length) return "";
@@ -121,7 +122,7 @@ function setHidden(k,on){ let h=store.get("hidden",[]); h=on?[...new Set(h.conca
 const LEAVE_TO={weather:["A weather search","https://www.google.com/search?q=weather"],wiki:["Wikipedia","https://en.wikipedia.org/wiki/Main_Page"],blank:["A blank page","about:blank"]};
 function logTrail(n){ if(!store.saving) return; const t=store.get("trail",[]).filter(x=>x&&x.name!==n); t.unshift({name:n}); store.set("trail",t.slice(0,100)); }
 
-/* ---------- addresses: names when saving, numbers when private ---------- */
+/* ---------- addresses: always names since v16 (old numbered addresses still open) ---------- */
 const stH = e => "#/entry/"+e.s;
 const lnH = l => "#/line/"+l.k;
 const cpH = (a,b) => "#/compare/"+a.s+"/"+b.s;
@@ -375,7 +376,7 @@ function viewStation(e,stepArg){
     '<div class="acts"><button class="btn" type="button" data-save="'+esc(e.n)+'" aria-pressed="'+saved+'">'+ic(saved?"saved":"save")+(saved?'Saved':'Save')+'</button>'+
       (CAN_SPEAK?'<button class="btn" type="button" data-listen>'+ic("volume")+'Listen</button>':'')+
       '<button class="btn" type="button" data-aa><span class="aa" aria-hidden="true">Aa</span>Text size<span class="sr-only">, now '+SIZE_NAME[PREF.size]+'. Tap to change.</span></button>'+
-      '<button class="btn" type="button" data-share>'+ic("share")+'Share link</button><button class="btn" type="button" data-print>'+ic("print")+'Print</button></div>'+strip+
+      '<details class="moreacts"><summary class="btn">More<span class="sr-only"> ways to keep this</span></summary><button class="btn" type="button" data-share>'+ic("share")+'Share link</button><button class="btn" type="button" data-print>'+ic("print")+'Print</button></details></div>'+strip+
     '<div class="steps" data-steps><div class="tabs" role="tablist" aria-label="Read this entry in four steps">'+
       STEPS.map((s,i)=>'<button role="tab" type="button" id="t-'+i+'" aria-controls="p-'+i+'" aria-selected="'+(i===s0)+'" tabindex="'+(i===s0?0:-1)+'"><span class="no">'+(i+1)+'</span>'+s[1]+'</button>').join("")+
       '</div><div class="stepbar" aria-hidden="true"><i style="--p:'+(s0+1)/4+'"></i></div>'+
@@ -412,7 +413,7 @@ function setStep(n,from,anim){
 function viewCompare(a,b){
   if(!a||!b||a===b) return notFound();
   const fa=full(a), fb=full(b), la=LINE[a.g], lb=LINE[b.g];
-  const col=(e,l,inner)=>'<div data-g="'+e.g+'">'+inner+'</div>';
+  const col=(e,l,inner)=>'<div data-g="'+e.g+'"><p class="cmp-who" aria-hidden="true">'+bullet(l,"sm")+H(e.n)+'</p>'+inner+'</div>';
   const row=(title,fn)=>'<section class="cmp-row"><h2>'+title+'</h2><div class="cmp-g">'+col(a,la,fn(a,fa))+col(b,lb,fn(b,fb))+'</div></section>';
   return '<div class="view"><h1 class="h-page" tabindex="-1">'+H(a.n)+' or '+H(b.n)+'?</h1><p class="lede">Side by side, from what each entry already says.</p>'+
     (a.sens||b.sens?'<div class="warn" role="note"><div class="band">'+ic("tri")+'Safety first</div><div class="body"><p>'+[a,b].filter(e=>e.sens).map(e=>H(e.n)).join(" and ")+' can travel with real danger. Read the safety note on '+((a.sens&&b.sens)?'each':'that')+' entry before acting on anything here.</p></div></div>':'')+
@@ -738,9 +739,10 @@ if(window.visualViewport){ const vv=visualViewport, chk=()=>document.body.classL
 /* a slim step bar under the top bar once the four tabs have scrolled away */
 let DOCK=null, DOCK_TABS=null;
 function dockLabel(){ if(!DOCK) return; $(".dkt",DOCK).textContent="Step "+(STEP+1)+" of 4: "+STEPS[STEP][1]; const bs=$$(".dk",DOCK); bs[0].disabled=STEP===0; bs[1].disabled=STEP===3; }
-function dockCheck(){ if(!DOCK) return; const top=$(".top"), edge=top?top.getBoundingClientRect().bottom:56; DOCK.hidden=!(DOCK_TABS.getBoundingClientRect().bottom<edge); document.body.classList.toggle("hasdock",!DOCK.hidden); document.documentElement.style.setProperty("--dockpad",DOCK.hidden?"0rem":"2.75rem"); }
+function dockCheck(){ if(!DOCK){ document.body.classList.remove("reading"); return; } const top=$(".top"), edge=top?top.getBoundingClientRect().bottom:56; DOCK.hidden=!(DOCK_TABS.getBoundingClientRect().bottom<edge); document.body.classList.toggle("hasdock",!DOCK.hidden);
+  document.body.classList.toggle("reading",!DOCK.hidden&&TOTOP.hidden);   /* reading down: the dock alone; scrolling up: doors and back-to-top return */ document.documentElement.style.setProperty("--dockpad",DOCK.hidden?"0rem":"2.75rem"); }
 function dock(){
-  if(DOCK){ DOCK.remove(); DOCK=null; DOCK_TABS=null; }
+  if(DOCK){ DOCK.remove(); DOCK=null; DOCK_TABS=null; } document.body.classList.remove("reading","hasdock");
   const tabs=$(".steps .tabs"); if(!tabs) return;
   DOCK=document.createElement("div"); DOCK.className="stepdock"; DOCK.hidden=true; DOCK.setAttribute("role","group"); DOCK.setAttribute("aria-label","Change step"); DOCK_TABS=tabs;
   DOCK.innerHTML='<button type="button" class="dk" data-dock="-1" aria-label="Previous step">'+ic("prev")+'</button><span class="dkt"></span><button type="button" class="dk" data-dock="1" aria-label="Next step">'+ic("next")+'</button>';

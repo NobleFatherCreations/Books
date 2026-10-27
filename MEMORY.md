@@ -4744,3 +4744,12 @@ Owner asked for ten phone upgrades, a final combing of every tactic for accuracy
   changed, token names kept (`--amber*` now = safety RED #FF6B5E / fill #F04438; `--blade` = champagne gold #E5C158). People line
   coral to orange so no line reads as danger. Search field is obsidian with a gold ring. See DESIGN.md v17 addendum. Titles kept as
   they are (owner). **Open:** owner says "the design was meant to show 13 gates" but there are 10 lines. Asked what the 13 are; nothing built.
+- **v18 (2026-10-27): "room to read".** Owner asked to turn on every MCP/skill, check a pasted "v18 13 Gates" brief, and
+  make the final optimized version. Skills were already all on; the Sequential Thinking MCP is in Books/.mcp.json but only
+  loads in a session started inside Books/ (this one started at /home/user). Ran impeccable critique: A as a sub-agent (29/40),
+  B the detector (advisory only, mostly stale DESIGN.md frontmatter, now updated). Shipped: phone reading mode (`body.reading`
+  hides doors while the dock shows and Back to top is hidden), obsidian dock and back-to-top, Save/Listen/Text size/More,
+  compare stacks under 600px with labels, day gold = champagne + #9A7414 edge, sheet backdrop blur, 44px compare targets,
+  sentence splitter fix (stray quotes). Suite 112 checks. Paste triage: docs/DECODER-V18-PASTE-CHECK.md.
+  **Open for owner:** Help Q2 has no "they say it never happened" option (content); 25-screen full read (tabs vs one page);
+  Quiet colours as default for shared phones; what the 13 gates are.

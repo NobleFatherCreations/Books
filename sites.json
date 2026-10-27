@@ -108,8 +108,13 @@
         "found": false,
         "checkedAt": "2026-08-02"
       },
-      "version": "v17",
+      "version": "v18",
       "changelog": [
+        {
+          "date": "2026-10-27",
+          "version": "v18",
+          "summary": "Room to read: on phones the step dock alone holds the bottom edge while reading (doors and back-to-top return on scroll up); obsidian dock and back-to-top; Save/Listen/Text size/More; compare stacks on phones; day theme uses champagne gold; map sheet backdrop blurs; 44px targets for Compare; sentence splitter fix removes stray quote marks. From an independent critique (29/40) and the owner's pasted v18 brief (docs/DECODER-V18-PASTE-CHECK.md)."
+        },
         {
           "date": "2026-10-27",
           "version": "v17",

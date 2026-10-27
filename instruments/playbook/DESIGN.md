@@ -1,33 +1,37 @@
 ---
 name: Pattern Decoder
-description: A metro-at-night sign system for a frightened reader: ten lettered lines, stations, a green exit, amber only for danger.
+description: A metro-at-night sign system for a frightened reader, in Midnight Matte (v17+): ten lettered lines, stations, champagne gold to press, red only for danger, a green exit. (amber-* tokens hold the safety red.)
 colors:
-  bg: "#0E1113"
-  panel: "#181C1F"
-  panel-2: "#20262A"
-  rule: "#2A3135"
-  rule-hi: "#3A4247"
-  fg: "#F2F4F1"
-  fg-2: "#A8B0B3"
-  fg-3: "#8A9397"
-  blade: "#F2F4F1"
-  blade-ink: "#0E1113"
-  amber: "#FFB020"
-  amber-fill: "#FFB020"
-  amber-fill-ink: "#0E1113"
+  bg: "#050507"
+  panel: "#0E0E12"
+  panel-2: "#17171D"
+  rule: "#25252D"
+  rule-hi: "#383842"
+  fg: "#F2F0EA"
+  fg-2: "#A8A69E"
+  fg-3: "#8B8982"
+  blade: "#E5C158"
+  blade-ink: "#050507"
+  gold-line: "#E5C158"
+  day-blade: "#E5C158"
+  day-blade-ink: "#14161A"
+  day-gold-line: "#9A7414"
+  amber: "#FF6B5E"
+  amber-fill: "#F04438"
+  amber-fill-ink: "#050507"
   exit: "#00B864"
   exit-ink: "#04140B"
   toward: "#9CD9BC"
   away: "#AFB8E8"
-  day-bg: "#FFFFFF"
-  day-panel: "#F3F5F6"
-  day-panel-2: "#E6EBED"
-  day-rule: "#D5DBDE"
-  day-rule-hi: "#B9C2C7"
-  day-fg: "#111416"
-  day-fg-2: "#4A5257"
-  day-fg-3: "#5F686F"
-  day-amber: "#9A5B00"
+  day-bg: "#FBFAF7"
+  day-panel: "#F3F1EB"
+  day-panel-2: "#E8E5DC"
+  day-rule: "#DAD6CB"
+  day-rule-hi: "#BDB8AA"
+  day-fg: "#14161A"
+  day-fg-2: "#4B5159"
+  day-fg-3: "#5C636B"
+  day-amber: "#B42318"
   day-exit: "#007A40"
   day-toward: "#1D6B4A"
   day-away: "#3B4A9A"
@@ -37,7 +41,7 @@ colors:
   line-hook: "#F05BA0"
   line-wear: "#C06BE0"
   line-blame: "#B07A52"
-  line-people: "#F06A52"
+  line-people: "#FF8A4C"
   line-systems: "#8FA3BD"
   line-online: "#17BDB0"
   line-society: "#A2C23A"
@@ -47,7 +51,7 @@ colors:
   day-line-hook: "#C2316F"
   day-line-wear: "#8E3BB0"
   day-line-blame: "#8A5534"
-  day-line-people: "#C2412A"
+  day-line-people: "#B4501A"
   day-line-systems: "#5A6F8A"
   day-line-online: "#0A7F76"
   day-line-society: "#5E7A12"
@@ -384,3 +388,33 @@ Token names are unchanged; their values are not. **Read the frontmatter above as
 - **Exit green is unchanged.** Green still means leave and nothing else.
 - **People line moved from coral to orange** (#FF8A4C, day #B4501A) so no line colour reads as a warning.
 - All of it measured: 1,344 text runs at ≥4.5:1 in both themes, axe-core clean; suite 109/109.
+
+
+## v18 addendum: room to read (2026-10-27)
+
+From an independent critique (Nielsen 29/40) and the owner's pasted v18 brief (checked line by line in
+`docs/DECODER-V18-PASTE-CHECK.md`). Content is unchanged.
+
+- **Reading mode on phones.** On a station, once the four tabs scroll away, `body.reading` hides the four doors and the step
+  dock takes the bottom edge alone (with the safe-area inset). Scrolling up removes `reading`: the doors and Back to top
+  return. Desktop is unchanged (the doors are the left rail). This cut about 64px of chrome while reading.
+- **The step dock and Back to top are obsidian, not gold slabs.** The dock is a `panel` bar with a 3px line-colour top edge
+  and gold arrows. Back to top is a `panel` disc with a 2px gold ring. Gold stays the accent for the one thing to press,
+  not for chrome over the text.
+- **Four choices before the steps.** Save · Listen · Text size · More (`details.moreacts`), with Share link and Print under
+  More. Listen stays visible because its Stop must never be hidden.
+- **Compare on phones** (below 600px) stacks the two sides into one column, and each block carries a small label
+  (`.cmp-who`: bullet plus name).
+- **Day gold is champagne.** `blade` #E5C158 with #14161A ink; `--gold-line`/`--blade-edge` #9A7414 draws the 1px edge on
+  gold fills and the 2px search ring (≥3:1 non-text contrast on paper). Night has `--blade-edge: transparent`.
+- **The map sheet's backdrop mutes the map** (`backdrop-filter: blur(6px)`), turned off under
+  `prefers-reduced-transparency`.
+- **Tap targets:** the Compare links and the compare name links are now at least 44px.
+- **Sentence splitting fixed** (app `sentences()` and `decoder_pages.sentences`): `. ! ?` plus closing quotes end a
+  sentence only before a space or the end, so `'did this happen at all?', you are…` stays one sentence. This was a
+  rendering bug that left a stray quote mark at the start of a paragraph; no text changed.
+- **Considered, not adopted:**
+  - grain texture: Assessment A found the stripe and tile wall already slightly decorative; the paste's SVG was broken.
+  - one-card PREV / MATRIX / NEXT deck: it would drop the four steps, search results and compare.
+  - tracked 9–11px capitals, `user-scalable=no`, `user-select:none`, crimson exit: see the paste check for why.
+- **Regression net:** `scripts/decoder-verify.js` now has 112 checks (three new v18 checks).

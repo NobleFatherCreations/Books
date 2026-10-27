@@ -483,6 +483,25 @@ const contrast = (a, b) => { const L = c => { c = c.map(v => v / 255).map(v => v
     T("a resting line's tile stays readable, not faded", await p.evaluate(() => { const r = document.querySelector(".home .lrow.rest"); return !!r && getComputedStyle(r).opacity === "1" && getComputedStyle(r.querySelector("small")).color === getComputedStyle(document.documentElement).getPropertyValue("--fg") || !!r && getComputedStyle(r).opacity === "1"; }));
     await ctx.close(); }
 
+  // ---- v18: room to read on a phone, Share/Print under More, compare stacks, quotes stay inside their sentence
+  { const ctx = await ctxFor(390, 844, "dark"); const p = await open(ctx, "#/entry/silent-treatment");
+    const vis = s => p.evaluate(s => { const e = document.querySelector(s); return !!e && !e.hidden && getComputedStyle(e).display !== "none"; }, s);
+    await p.evaluate(() => scrollTo(0, 1800)); await p.waitForTimeout(250); await p.evaluate(() => scrollTo(0, 2400)); await p.waitForTimeout(350);
+    const down = { doors: await vis(".doors"), dock: await vis(".stepdock"), gap: await p.evaluate(() => Math.round(innerHeight - document.querySelector(".stepdock").getBoundingClientRect().bottom)) };
+    await p.evaluate(() => scrollTo(0, 2300)); await p.waitForTimeout(350);
+    const up = { doors: await vis(".doors"), totop: await vis("#totop") };
+    T("v18 phone: reading down shows only the step dock at the bottom edge; scrolling up brings the doors and back-to-top back", !down.doors && down.dock && down.gap <= 1 && up.doors && up.totop, JSON.stringify({ down, up }));
+    await p.evaluate(() => scrollTo(0, 0)); await p.waitForTimeout(150);
+    const acts = await p.evaluate(() => [...document.querySelectorAll(".station .acts")][0].querySelectorAll(":scope > .btn, :scope > details > summary").length);
+    await p.click(".moreacts summary"); await p.waitForTimeout(120);
+    const more = await p.evaluate(() => !!document.querySelector(".moreacts[open] [data-share]") && !!document.querySelector(".moreacts[open] [data-print]"));
+    T("v18 station: four choices before the steps (Save, Listen, Text size, More), with Share and Print under More", acts === 4 && more, JSON.stringify({ acts, more }));
+    await p.goto(URL0 + "#/compare/gaslighting/countering"); await p.waitForTimeout(400);
+    const c = await p.evaluate(() => ({ cols: getComputedStyle(document.querySelector(".cmp-row .cmp-g")).gridTemplateColumns.split(" ").length, who: getComputedStyle(document.querySelector(".cmp-who")).display,
+      orphan: [...document.querySelectorAll(".cmp-row p")].filter(x => /^[‘’'“”"],/.test(x.textContent.trim())).length }));
+    T("v18 compare on a phone: one labelled column, and no paragraph starts with a stray quote mark", c.cols === 1 && c.who === "flex" && c.orphan === 0, JSON.stringify(c));
+    await ctx.close(); }
+
   // ---- review round: rested lines stay out everywhere, honest saving copy, Leave keeps nothing, no referrer
   { const ctx = await ctxFor(390, 844, "dark"); const p = await open(ctx, "#/settings"); await p.click("label:has(input[name=save][value=on])"); await p.waitForTimeout(150);
     const copy = await p.evaluate(() => document.querySelector("[data-settings]").textContent);
