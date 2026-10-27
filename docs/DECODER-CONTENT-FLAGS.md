@@ -1,0 +1,167 @@
+# Pattern Decoder: accuracy flags for human review
+
+Collected 2026-10-27 from the plain-wording pass (26 batches, a six-list sentence-length pass and fix passes). Each editing agent was told to
+leave any claim it could not vouch for exactly as written and flag it. **Nothing here has been changed.** These are the claims a human
+(ideally a clinician or a safeguarding lead for the medical and safety items) should confirm. Named people and works were already checked
+against sources by the assistant (Freyd and DARVO 1997; Harsey, Zurbriggen and Freyd 2017, whose description was corrected; Lippmann 1922; Herman
+and Chomsky 1988; Lifton's eight themes; Freyd on institutional betrayal; RAND on the firehose of falsehood; Bateson 1950s double bind).
+
+## Needs clinical or safeguarding review first
+
+- **Apology Without Repair** / `what_it_is_not`: Mentions ADHD and depression affecting follow-through; clinical claim kept as written.
+- **Clinical Tone Policing** / `safety_note`: Lists urgent medical symptoms (chest pain, trouble breathing, one-sided weakness, severe headache). Kept as written; a clinician should confirm the list and advice are acceptable.
+- **Clinical Tone Policing** / `safety_note`: Medical emergency symptom list (chest pain, trouble breathing, one-sided weakness, severe headache). Kept as written, clinical content should be reviewed by someone qualified.
+- **False Conclusion from Normal Labs** / `safety_note`: Clinical red-flag list (fainting, heavy bleeding, new confusion, fast-worsening symptoms). Kept as written; a clinician should confirm it is appropriate and complete.
+- **Health Sabotage** / `psychological_mechanism`: Clinical-style claim that poor sleep, missed medication and poor nutrition reduce concentration, mood and energy; kept as written.
+- **Learned Helplessness** / `expanded_definition`: States the term is a communication pattern and not a clinical finding. The term has a clinical research origin; wording kept as written, worth a check.
+- **Medical Gaslighting** / `safety_note`: Clinical emergency examples (sudden severe pain, fever with stiff neck or confusion, stroke signs). Kept as written; worth medical review.
+- **Medical Gaslighting** / `safety_note`: Medical emergency symptom list (sudden severe pain, fever with stiff neck or confusion, stroke signs). Kept as written, clinical content should be reviewed.
+- **Phobia Indoctrination** / `psychological_mechanism`: Clinical learning claim (fear conditioning from stories, avoidance maintaining fear). Wording kept as written; check against a clinical source.
+- **Projection** / `expanded_definition`: Calls projection a classic idea in psychology and says people can do it unknowingly. Clinical-concept claim, kept as written.
+- **Reproductive Coercion** / `safety_note`: Claim that pregnancy can be a time when abuse begins or worsens is a research-based assertion with no source given; kept as written.
+- **Ritualized Exhaustion** / `psychological_mechanism`: Claim that sleep loss reduces attention, memory and planning is general science, kept as written; no source given.
+- **Word Salad** / `common_false_positives`: Clinical claim linking dementia or mental illness to disorganized speech; kept as written.
+- **Word Salad** / `expanded_definition`: Says some conditions affect how thoughts come out; a general clinical claim kept as written.
+
+## All flags
+
+138 flags in total.
+
+- **AI-Driven Social Engineering (Automated)** / `what_it_is_not`: Claims synthetic voice is now standard on ordinary customer service lines. Unverifiable general claim; kept as written.
+- **Algorithmic Manipulation** / `expanded_definition`: States that only researchers with system access can show deliberate steering. Broad claim; kept as written.
+- **Algorithmic Manipulation** / `this_may_be_it_when`: Refers to leaked internal documents describing tuning to move mood or behavior. Unnamed evidence; kept as written.
+- **Anchoring** / `psychological_mechanism`: Research-based claim that people adjust insufficiently from a first number and that even known-random numbers pull judgments. Plausible (anchoring-and-adjustment literature) but no source given; kept as written.
+- **Apology Without Repair** / `what_it_is_not`: Mentions ADHD and depression affecting follow-through; clinical claim kept as written.
+- **Approval Addiction Cultivation** / `expanded_definition`: Compares unpredictable warmth to rewards at irregular intervals (variable reinforcement). A psychology claim with no source given. Kept as written.
+- **Astroturfing** / `boundary_script`: Quoted script with a long sentence inside the quotes. Left unchanged (quoted words).
+- **Biometric Exploitation** / `what_it_is_not`: Claims many emotion-reading products are of uncertain reliability. General claim without a source; kept as written.
+- **Blackmail / Leverage Exploitation** / `safety_note`: Legal claim that blackmail 'can be a crime in many places'. Kept as written; hedged but unverified.
+- **Blackmail / Leverage Exploitation** / `safety_note`: States blackmail can be a crime in many places; a legal claim kept as written. Jurisdiction varies.
+- **Brigading** / `psychological_mechanism`: Social-proof and diffusion-of-responsibility claims stated as general psychology. Wording kept as written; unverified.
+- **Choice Restriction** / `response_options`: The quoted script is a single sentence of 21 words, which cannot be shortened because it is inside quotation marks.
+- **Clinical Tone Policing** / `safety_note`: Lists urgent medical symptoms (chest pain, trouble breathing, one-sided weakness, severe headache). Kept as written; a clinician should confirm the list and advice are acceptable.
+- **Clinical Tone Policing** / `safety_note`: Medical emergency symptom list (chest pain, trouble breathing, one-sided weakness, severe headache). Kept as written, clinical content should be reviewed by someone qualified.
+- **Cognitive Warfare** / `expanded_definition`: Claim that 'cognitive warfare' is a term used in security circles. Kept as written; unverified.
+- **Complaint Weaponization** / `boundary_script`: Left unchanged: the whole item is a quotation.
+- **Contempt** / `expanded_definition`: Frames contempt as 'you are beneath me' and tied to face and body signals. This echoes relationship-research framing but no source is given. Kept as written.
+- **Credit Laundering** / `psychological_mechanism`: Claims observers usually remember the last teller; a general memory claim stated without a source.
+- **Credit Theft** / `boundary_script`: Left unchanged: the whole item is a quotation.
+- **DARVO** / `psychological_mechanism`: Cites Harsey, Zurbriggen and Freyd (2017) as an online vignette study linking DARVO-style replies to more self-blame. Kept as written; please verify the citation and wording of the finding.
+- **Dark Patterns (AI-Adaptive)** / `boundary_script`: Whole item is one quoted script with a long sentence. Left unchanged (quoted words).
+- **Deepfakes** / `response_options`: Names StopNCII.org and Take It Down and says they use hash-matching and need the image on your device; unverified here, and whether they accept AI-generated images changes over time. Kept as written.
+- **Deepfakes** / `response_options`: Names StopNCII.org and Take It Down as hash-matching services, and claims they need the image on your device and may not accept AI-generated images. Service names and how they work should be verified and may change. I also added a short plain explanation of hash-matching ('a digital fingerprint of an image'); check it is accurate enough.
+- **Demonstrating Omnipotence** / `psychological_mechanism`: Claim about beliefs of futility stopping effort (learned-helplessness style) kept as written; unsourced.
+- **Dispensing of Existence** / `expanded_definition`: Attributes 'eight themes of thought reform' to Robert Lifton and names this one as a theme. Kept as written; verify against Lifton's 1961 work.
+- **Dr. Jekyll/Mr. Hyde** / `misuse_warning`: References the literary figures Jekyll and Hyde by name; kept as written.
+- **Emotional Blackmail** / `boundary_script`: Left unchanged: the whole item is inside quotation marks.
+- **Emotional Blackmail** / `how_to_distinguish_from_related`: Left unchanged: the only flagged word is 'Leverage' inside the required entry name 'Self-Harm Threats as Leverage'; all sentences are already under 21 words.
+- **Emotional Hostage-Taking** / `how_to_distinguish_from_related`: Left unchanged. Only flagged word is 'Leverage' inside the named term 'Self-Harm Threats as Leverage'.
+- **False Authority** / `what_it_is`: Mentions 'studies show' as a vague claim. This is a quoted phrase, not a real citation, so left word for word.
+- **False Conclusion from Normal Labs** / `safety_note`: Clinical red-flag list (fainting, heavy bleeding, new confusion, fast-worsening symptoms). Kept as written; a clinician should confirm it is appropriate and complete.
+- **False Flag Operations** / `boundary_script`: Whole item is a quoted script that contains a 'not just' frame. Left unchanged because words inside quotation marks may not be edited.
+- **False Flag Operations** / `expanded_definition`: States historians have documented some cases; unverifiable without naming them. Kept as written.
+- **Fawning** / `expanded_definition`: Says fawning is listed alongside fight, flight and freeze in many accounts. Plausible but a general claim about the literature; unverified. Kept as written.
+- **Feigned Ignorance** / `innocent_or_ordinary_possibilities`: Claim that people freeze under criticism and cannot recall details, then remember later, is a psychological claim kept as written; unsourced.
+- **Financial Control** / `expanded_definition`: Says 'financial enmeshment' is a term used for the same thing. Unverified terminology claim.
+- **Firehose of Falsehood** / `boundary_script`: Left unchanged: the script is inside quotation marks.
+- **Firehose of Falsehood** / `expanded_definition`: Refers to researchers who studied Russian state media (the RAND 'firehose of falsehood' model); unnamed in the text, unverified here.
+- **Flying Monkeys** / `psychological_mechanism`: Claim that trust in relatives and friends is usually higher than in strangers is unverified. Kept as written.
+- **Foot-in-the-Door** / `psychological_mechanism`: Consistency-with-past-behavior explanation is a general psychology claim with no source given; kept as written.
+- **Forced Confession / Self-Criticism Rituals** / `boundary_script`: Left unchanged: the text is almost entirely inside quotation marks.
+- **Forced Confession / Self-Criticism Rituals** / `expanded_definition`: Claims Lifton's list of thought-reform themes includes a 'cult of confession'. Kept as written; verify the attribution and the quoted phrase.
+- **Forced Dependency** / `boundary_script`: Left unchanged: the text is inside quotation marks apart from one short sentence.
+- **Forced Dependency** / `psychological_mechanism`: Claim that low practical experience leads people to rate their own competence low kept as written; unsourced.
+- **Ghosting as Control** / `psychological_mechanism`: Claims unpredictable rewards hold attention better than steady ones (variable reinforcement) and that rumination ties people to the other person. Psychology claim kept as written, unsourced.
+- **Gish Gallop** / `expanded_definition`: Term is named after a debater, though the text does not say so. No factual claim added; noted only because the origin of the name is not given.
+- **Golden Bars** / `psychological_mechanism`: Loss aversion claim (people weigh loss more than equivalent gain) kept as written; a general research finding, not sourced.
+- **Golden Child Elevation** / `response_options`: The quoted script contains the banned phrase 'feels like', which could not be changed because it is inside quotation marks.
+- **Group Consolidation** / `psychological_mechanism`: General claim that watching punishment teaches rules more than policy; unsourced.
+- **Guilt Legacy** / `expanded_definition`: Replaced 'journey' with 'long trip' (AI-flavoured word). Original may have meant migration; check the meaning is still right.
+- **Half-Truth Framing** / `expanded_definition`: Names the term 'paltering' as a synonym. Kept as written; confirm usage.
+- **Half-Truth Framing** / `expanded_definition`: Says the word 'paltering' means the same thing. Kept as written; the term is a research term whose exact scope is unverified here.
+- **Health Sabotage** / `psychological_mechanism`: Clinical-style claim that poor sleep, missed medication and poor nutrition reduce concentration, mood and energy; kept as written.
+- **Hoovering** / `boundary_script`: Left unchanged: the quote is fixed and the sentence after it is already 20 words.
+- **Humiliation Rituals** / `psychological_mechanism`: Claims people defend painful rituals to avoid concluding they suffered for nothing (effort justification); psychology claim kept as written, unsourced.
+- **Immersive Manipulation (VR/AR)** / `boundary_script`: Whole item is a quoted script. Left unchanged (quoted words).
+- **Immersive Manipulation (VR/AR)** / `why_this_matters`: Says memories from embodied experiences are much harder to revise. Psychological claim without a source; kept as written.
+- **Information Cascades** / `expanded_definition`: Claims popular beliefs are often right. Unverified generalisation, kept as written.
+- **Information Cascades** / `expanded_definition`: Describes information cascades as a social-psychology phenomenon without citation; kept as written.
+- **Institutional Betrayal** / `expanded_definition`: Credits psychologist Jennifer Freyd with introducing the term institutional betrayal. Generally accurate, kept as written; verify.
+- **Institutional Betrayal** / `expanded_definition`: Says psychologist Jennifer Freyd introduced the term 'institutional betrayal'. Kept as written; verify attribution.
+- **Intermittent Reinforcement** / `expanded_definition`: Attributes the term to 'learning research on reward schedules' with no named source; unverifiable as written.
+- **Intermittent Reinforcement** / `expanded_definition`: Claims the name comes from learning research on reward schedules and that unpredictable rewards often produce steady effort. Unnamed research claim, kept as written; worth a citation check.
+- **Intermittent Reinforcement** / `psychological_mechanism`: States that learning research has 'long found' unpredictable rewards sustain behavior longer. Broadly consistent with variable-reward research, but the research is unnamed and the claim is applied to relationships without a source.
+- **Internalized Conditioning** / `psychological_mechanism`: Claims enforced rules can be stored as part of self-monitoring. Unsourced psychological claim. Kept as written.
+- **Interrogation** / `expanded_definition`: Names the JADE loop (justify, argue, defend, explain) as a known term. Kept as written; confirm this is an established name.
+- **Intimate Image Abuse** / `boundary_script`: Sentences outside the quote are already short. Left unchanged.
+- **Intimate Image Abuse** / `response_options`: Names StopNCII.org (adults) and Take It Down (images taken before 18) and how they work. Kept as written; verify current scope and wording.
+- **Intimidation** / `psychological_mechanism`: General claims about how fear narrows attention and how threats keep working after relief. Kept as written; unsourced psychology claim.
+- **Labeling as Identity Warfare** / `boundary_script`: Left unchanged: the whole item is a quotation.
+- **Learned Helplessness** / `expanded_definition`: States the term is a communication pattern and not a clinical finding. The term has a clinical research origin; wording kept as written, worth a check.
+- **Limited Hangout** / `expanded_definition`: Claims the phrase comes from the language of intelligence and politics. Plausible (Watergate-era usage) but unverified here; left as written.
+- **Limited Hangout** / `expanded_definition`: States the phrase comes from intelligence and politics. Historical origin claim, kept as written but worth verifying.
+- **Love Bombing** / `boundary_script`: Left unchanged: the whole item is inside quotation marks.
+- **Lying** / `response_options`: Left unchanged: the 'not just' wording sits inside a quotation, which cannot be altered.
+- **Malicious Compliance** / `boundary_script`: Left unchanged: 'not just match my words' sits inside a quotation.
+- **Malicious Compliance** / `response_options`: Left unchanged: 'not just the wording' sits inside a quotation.
+- **Manufactured Consent** / `boundary_script`: Whole item is a quoted script. Left unchanged (quoted words).
+- **Manufactured Consent** / `expanded_definition`: Names Walter Lippmann (1922) and Herman and Chomsky's 1988 book 'Manufacturing Consent'. Dates and attribution kept as written; please verify. Note the entry is titled 'Manufactured Consent' but the book title is 'Manufacturing Consent'.
+- **Manufactured Consent** / `what_it_is`: Attributes the narrowing-of-coverage argument to Herman and Chomsky; kept as written, verify.
+- **Maternal Gatekeeping** / `expanded_definition`: Says 'maternal gatekeeping' is a term from family research. This is a real research concept, but the wording is unverified here.
+- **Medical Gaslighting** / `safety_note`: Clinical emergency examples (sudden severe pain, fever with stiff neck or confusion, stroke signs). Kept as written; worth medical review.
+- **Medical Gaslighting** / `safety_note`: Medical emergency symptom list (sudden severe pain, fever with stiff neck or confusion, stroke signs). Kept as written, clinical content should be reviewed.
+- **Milieu Control** / `expanded_definition`: Names Robert Lifton and his thought-reform work (totalistic groups); kept as written, please verify.
+- **Milieu Control** / `expanded_definition`: Names Robert Lifton and says he listed milieu control among features of totalistic groups (thought reform research). Real, but attribution and wording kept as written; verify.
+- **Mobbing** / `boundary_script`: Left unchanged: the whole item is a quotation.
+- **Mobbing** / `expanded_definition`: Claims mobbing is a term from workplace research; true in general (Leymann) but unsourced.
+- **Mobbing** / `expanded_definition`: States that mobbing is a term from workplace research. Kept as written; the attribution is unverified here.
+- **Moral Licensing** / `expanded_definition`: Claims psychologists use 'moral licensing' for feeling freer to act badly after doing good. Research-based claim, kept as written; the evidence for the effect has been debated.
+- **Moving Goalposts** / `boundary_script`: Left unchanged: the whole item is inside quotation marks, so no words could be altered.
+- **Mystical Manipulation** / `expanded_definition`: Says Robert Lifton listed mystical manipulation among his thought-reform criteria; kept as written, please verify.
+- **Negative Reinforcement Traps** / `expanded_definition`: Gives the psychology definition of negative reinforcement; standard but unsourced, kept as written.
+- **Normative Messaging** / `expanded_definition`: Says accurate norm messaging is a mainstream public-health and civic tool; an unsourced general claim, kept as written.
+- **Overton Window Manipulation** / `more_concerning_if`: Contains a quoted promoter phrase; left word for word. Treat as an example, not a documented quote.
+- **PIP Weaponization** / `psychological_mechanism`: Claim that fear narrows attention and makes shortfalls more likely; psychological claim with no source, left as written.
+- **Phobia Indoctrination** / `psychological_mechanism`: Clinical learning claim (fear conditioning from stories, avoidance maintaining fear). Wording kept as written; check against a clinical source.
+- **Pig Butchering (Long-Con Digital Fraud)** / `expanded_definition`: Explains the name's origin as fattening before slaughter; kept as written, verify.
+- **Platform Migration** / `psychological_mechanism`: Claim that people defer to whoever sounds most certain when unsure of what was said; unsourced, left as written.
+- **Plausible Deniability** / `expanded_definition`: Claim about the formal sense of the term in politics and law is unverified; kept as written.
+- **Plausible Deniability** / `expanded_definition`: States that in politics and law the term has a formal sense of leaders arranging to claim ignorance. Left as written; unverified.
+- **Process Exhaustion** / `expanded_definition`: Lists insurance, benefits, immigration and housing contexts as examples; general claim, no statistic, kept as written.
+- **Projection** / `expanded_definition`: Calls projection a classic idea in psychology and says people can do it unknowingly. Clinical-concept claim, kept as written.
+- **Projection** / `expanded_definition`: States that projection is 'a classic idea in psychology'. Broadly accurate (Freudian origin) but unsourced; left as written.
+- **Punishment by Proxy** / `safety_note`: Defines coercive control in a short clause; the definition is a simplification and was kept as written.
+- **Push-Pull** / `psychological_mechanism`: Claim that relief after an unpredictable gap can be stronger than steady kindness and bind a person more tightly. Psychological claim, unverified; kept hedged as written.
+- **Reflexive Control** / `what_it_is`: Claims the concept is associated with Soviet and Russian military and influence theory; kept as written, verify.
+- **Relief Bait** / `psychological_mechanism`: Claims relief after distress feels stronger than steady comfort and that people link relief to its source. Plausible psychology but unsourced; kept as written.
+- **Repetition as Truth** / `why_this_matters`: Familiar claims seeming true reflects the illusory truth effect; stated as general fact, unsourced.
+- **Reproductive Coercion** / `safety_note`: Claim that pregnancy can be a time when abuse begins or worsens is a research-based assertion with no source given; kept as written.
+- **Reverse Psychology** / `psychological_mechanism`: Names 'reactance' as a recognized psychological reaction. Named concept, kept as written; unverified here.
+- **Ritualized Exhaustion** / `psychological_mechanism`: Claim that sleep loss reduces attention, memory and planning is general science, kept as written; no source given.
+- **Scapegoating** / `boundary_script`: Left unchanged: the whole item is a quotation.
+- **Self-Gaslighting Induction** / `psychological_mechanism`: States a psychological mechanism (learned self-doubt moved inside) as a general account with no source. Kept as written.
+- **Silence Installation** / `possible_impact_on_receiver`: Infers that easier writing or counselor disclosure shows the block is about risk of speaking. An interpretation, not sourced. Kept as written.
+- **Silent Coalitions** / `psychological_mechanism`: General claims that humans are sensitive to exclusion and that ambiguity hurts more than clear rejection; unsourced.
+- **Social Proof Pressure** / `psychological_mechanism`: General psychology claim about people using others' views as a guide; unsourced.
+- **Spatial Invasion** / `psychological_mechanism`: Fight-or-flight claim about being cornered is a general psychology claim; kept as written, unsourced.
+- **Splitting** / `psychological_mechanism`: Compares unpredictable praise to unpredictable rewards holding attention (intermittent reinforcement); a psychological claim kept as written.
+- **Splitting** / `psychological_mechanism`: Psychological claims (black-and-white views ease discomfort; unpredictable rewards hold attention) are kept as written and are not verified here.
+- **Stalking & Surveillance (Post-Separation)** / `safety_note`: States risk can rise around a separation; a general safety-research claim kept as written, no source.
+- **Stochastic Harassment Direction** / `expanded_definition`: Gives 'driven by chance' as the meaning of stochastic; broadly accurate, left as written.
+- **Strategic Incompleteness** / `boundary_script`: Left unchanged: the whole item is a quotation.
+- **Strategic Leaking** / `boundary_script`: Whole item is a quoted script. Left unchanged (quoted words).
+- **Sunk Cost Exploitation** / `misuse_warning`: Refers to 'the fallacy' (sunk cost fallacy), a named concept. Kept as written.
+- **The Exception Script** / `response_options`: Left unchanged: it contains the quoted words 'not just', which cannot be edited inside quotation marks.
+- **The Exception Script** / `safety_note`: Links singling out and secrecy to grooming or exploitation. Kept as originally hedged; worth a safeguarding review.
+- **Time Theft** / `response_options`: Left unchanged because it sits inside a quoted script, but the script names a consequence to the other person, which conflicts with the cautious-tone rule.
+- **Trash-Can Diagnosis** / `expanded_definition`: 'identity diminishment via pathologizing' is presented as an existing term. Unverifiable; kept as written.
+- **Trauma Bonding** / `possible_impact_on_receiver`: Reports of feeling addicted to the reconciliation and a strong pull after leaving; anecdotal framing kept as written.
+- **Trauma Bonding** / `safety_note`: Claims the days around leaving are 'often the riskiest'. This is a commonly cited safety claim but unsourced here; kept as written.
+- **Trauma Bonding** / `safety_note`: States the days around leaving are often the riskiest. Safety-risk claim without a source, kept as written.
+- **Ultimatums** / `psychological_mechanism`: States that fear of loss pulls harder than hope of gain for many people (loss aversion). Kept as written; it is a general research claim worth a source check.
+- **Vague Allegations** / `what_it_is_not`: Mentions a '360 review' as a named feedback practice. Left unchanged; confirm the description is accurate.
+- **Weaponized Therapy-Speak** / `expanded_definition`: 'role reversal via therapy language' and 'pseudo-insight as shutdown' are presented as terms others use. Unverifiable; kept as written.
+- **Wedge Issue Exploitation** / `boundary_script`: Whole item is a quoted script. Left unchanged (quoted words).
+- **Willful Blindness as Complicity** / `expanded_definition`: Uses the legal concept of willful blindness without naming a jurisdiction or standard; kept as written.
+- **Word Salad** / `common_false_positives`: Clinical claim linking dementia or mental illness to disorganized speech; kept as written.
+- **Word Salad** / `expanded_definition`: Says some conditions affect how thoughts come out; a general clinical claim kept as written.
