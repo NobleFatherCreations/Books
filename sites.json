@@ -211,11 +211,11 @@
       "dataSource": "content/playbook-data.json",
       "lastDeploy": {
         "date": "2026-10-27",
-        "version": "v17",
-        "deployId": "6ae09db8439c5c4311f80851",
+        "version": "v18",
+        "deployId": "6ae0a61aff2b9cdb5d09a3c4",
         "method": "netlify MCP deploy-site -> npx @netlify/mcp from a staging copy of instruments/playbook/site (324 files, 15 MB)",
-        "verified": "verify-deployed: 322 files identical to live; live Playwright dark 390/1440: matte bg, red safety band, no overflow, no page errors; suite 109/109",
-        "replaced": "v16 deploy 6ae09a7fcc7b79e87238455d"
+        "verified": "verify-deployed: 322 files identical to live; live Playwright 390: reading mode, compare stack, no stray quotes, day champagne, no page errors; suite 112/112",
+        "replaced": "v17 deploy 6ae09db8439c5c4311f80851"
       },
       "openItems": [
         {
