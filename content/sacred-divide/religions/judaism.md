@@ -4,7 +4,7 @@ title: "Judaism"
 family: "Judaism"
 family_id: judaism-family
 family_members: [judaism, orthodox-hasidic-judaism]
-version: v4
+version: v5
 checked: 2026-10-03
 sections_filled: 27/27
 missing: []

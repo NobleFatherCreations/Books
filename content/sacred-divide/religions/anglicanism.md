@@ -4,7 +4,7 @@ title: "Anglicanism"
 family: "Christianity"
 family_id: christianity-family
 family_members: [christianity, catholicism, eastern-orthodoxy, oriental-orthodoxy, anglicanism, protestant-evangelical, pentecostal-charismatic, plymouth-brethren]
-version: v4
+version: v5
 checked: 2026-10-03
 sections_filled: 27/27
 missing: []

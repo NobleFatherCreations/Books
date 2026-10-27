@@ -4,7 +4,7 @@ title: "Mormonism / LDS"
 family: "Restorationist & Adventist"
 family_id: restorationist
 family_members: [mormonism, jehovahs-witnesses, seventh-day-adventism]
-version: v4
+version: v5
 checked: 2026-10-03
 sections_filled: 27/27
 missing: []

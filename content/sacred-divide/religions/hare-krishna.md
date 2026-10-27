@@ -4,7 +4,7 @@ title: "Hare Krishna / ISKCON"
 family: "Dharmic"
 family_id: dharmic
 family_members: [hinduism, hare-krishna, sikhism, jainism]
-version: v4
+version: v5
 checked: 2026-10-03
 sections_filled: 27/27
 missing: []
