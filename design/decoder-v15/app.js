@@ -371,7 +371,7 @@ function viewStation(e,stepArg){
       (says.length?'<h2 class="k">It can sound like</h2><ul class="says">'+says.slice(0,2).map(sayLi).join("")+'</ul>':'')+
       (e.abs&&e.abs.length?'<p class="alsoc">Also called '+e.abs.map(H).join(", ")+'</p>':'')+'</section>'+
     '<div class="acts"><button class="btn" type="button" data-save="'+esc(e.n)+'" aria-pressed="'+saved+'">'+ic(saved?"saved":"save")+(saved?'Saved':'Save')+'</button>'+
-      (CAN_SPEAK?'<button class="btn" type="button" data-listen aria-pressed="false">'+ic("volume")+'Listen</button>':'')+
+      (CAN_SPEAK?'<button class="btn" type="button" data-listen>'+ic("volume")+'Listen</button>':'')+
       '<button class="btn" type="button" data-aa><span class="aa" aria-hidden="true">Aa</span>Text size<span class="sr-only">, now '+SIZE_NAME[PREF.size]+'. Tap to change.</span></button>'+
       '<button class="btn" type="button" data-share>'+ic("share")+'Share link</button><button class="btn" type="button" data-print>'+ic("print")+'Print</button></div>'+strip+
     '<div class="steps" data-steps><div class="tabs" role="tablist" aria-label="Read this entry in four steps">'+
@@ -394,6 +394,7 @@ function viewStation(e,stepArg){
 }
 function setStep(n,from,anim){
   const root=$("[data-steps]"); if(!root||n<0||n>3) return;
+  if(SPK.on) speakStop();
   const tabs=$$("[role=tab]",root), panels=$$("[role=tabpanel]",root);
   tabs.forEach((t,i)=>{ const on=i===n; t.setAttribute("aria-selected",on); t.tabIndex=on?0:-1; if(i===STEP&&i!==n) t.classList.add("seen"); });
   panels.forEach((p,i)=>{ p.hidden=i!==n; p.classList.remove("in-l","in-r"); });
@@ -590,6 +591,7 @@ function fillHome(){
   const HID=hiddenSet(), t=store.saving?store.get("trail",[]).map(x=>BY[canon(x.name)]).filter(e=>e&&!HID.has(e.g)):[];
   c.innerHTML=t.length?'<div class="continue"><span class="small muted">Continue where you left off:</span></div>'+rows([t[0]]):"";
   $$(".net [data-g]").forEach(x=>{ if(HID.has(x.dataset.g)) x.classList.add("rest"); });
+  { const ct=$("[data-colortoggle]"); if(ct) ct.textContent=PREF.color==="quiet"?"Bring the colours back":"Make the colours quieter"; }
   $$("#main .lrow").forEach(a=>{ const key=a.getAttribute("href").split("/").pop(), l=LINE[key]; if(l){ a.setAttribute("href",lnH(l)); if(HID.has(l.k)){ a.classList.add("rest"); const sm=$("small",a); if(sm) sm.textContent="Resting. Hidden from search, matches and the map. Open to show it."; } } });
 }
 
@@ -667,6 +669,7 @@ function after(r,c,key){
   if(r.view==="map"&&MAPSEL>=0) drawInterchanges(MAPSEL);
   /* the camera flight, as a scroll: the map brings the station you came for into the middle of the screen */
   if(r.view==="map"){ const target=MAPSEL>=0?MAPSEL:(MAPLIT&&MAPLIT.length?MAPLIT[0]:-1); if(target>=0) requestAnimationFrame(()=>{ const a=$('#map a[data-i="'+target+'"]'); if(a) a.scrollIntoView({block:"center",inline:"center",behavior:motionOK()?"smooth":"auto"}); }); }
+  if($("[data-swipehint]")) SWIPE_HINTED=true;
   phoneTouches();
   FIRST=false;
 }
@@ -698,15 +701,18 @@ function hap(ms){ if(store.get("hap",false)&&navigator.vibrate){ try{ navigator.
 const TOTOP=document.createElement("button"); TOTOP.id="totop"; TOTOP.className="totop"; TOTOP.type="button"; TOTOP.hidden=true;
 TOTOP.setAttribute("aria-label","Back to the top of this page"); TOTOP.innerHTML=ic("up"); document.body.appendChild(TOTOP);
 let TT=false;
-addEventListener("scroll",()=>{ if(TT) return; TT=true; requestAnimationFrame(()=>{ TT=false; const show=scrollY>innerHeight*1.5; if(TOTOP.hidden===show) TOTOP.hidden=!show; dockCheck(); }); },{passive:true});
+let LASTY=0;
+addEventListener("scroll",()=>{ if(TT) return; TT=true; requestAnimationFrame(()=>{ TT=false; const y=scrollY; let show=!TOTOP.hidden;
+  if(y<=innerHeight*1.5) show=false; else if(y<LASTY-2) show=true; else if(y>LASTY+2) show=false; LASTY=y;
+  if(TOTOP.hidden===show) TOTOP.hidden=!show; dockCheck(); }); },{passive:true});
 TOTOP.addEventListener("click",()=>{ scrollTo({top:0,behavior:motionOK()?"smooth":"auto"}); hap(6); const h=$("#main h1"); if(h) h.focus({preventScroll:true}); });
 /* when the on-screen keyboard is up, the sign bar steps out of the way so the search box keeps its room */
-if(window.visualViewport){ const vv=visualViewport, chk=()=>document.body.classList.toggle("kbd",innerHeight-vv.height>140&&/^(INPUT|TEXTAREA)$/.test((document.activeElement||{}).tagName||""));
+if(window.visualViewport){ const vv=visualViewport, chk=()=>document.body.classList.toggle("kbd",innerHeight-vv.height>140&&vv.scale<=1.01&&/^(INPUT|TEXTAREA)$/.test((document.activeElement||{}).tagName||""));
   vv.addEventListener("resize",chk); addEventListener("focusout",()=>setTimeout(chk,80)); }
 /* a slim step bar under the top bar once the four tabs have scrolled away */
 let DOCK=null, DOCK_TABS=null;
 function dockLabel(){ if(!DOCK) return; $(".dkt",DOCK).textContent="Step "+(STEP+1)+" of 4: "+STEPS[STEP][1]; const bs=$$(".dk",DOCK); bs[0].disabled=STEP===0; bs[1].disabled=STEP===3; }
-function dockCheck(){ if(DOCK) DOCK.hidden=!(DOCK_TABS.getBoundingClientRect().bottom<56); }
+function dockCheck(){ if(!DOCK) return; const top=$(".top"), edge=top?top.getBoundingClientRect().bottom:56; DOCK.hidden=!(DOCK_TABS.getBoundingClientRect().bottom<edge); document.body.classList.toggle("hasdock",!DOCK.hidden); document.documentElement.style.setProperty("--dockpad",DOCK.hidden?"0rem":"2.75rem"); }
 function dock(){
   if(DOCK){ DOCK.remove(); DOCK=null; DOCK_TABS=null; }
   const tabs=$(".steps .tabs"); if(!tabs) return;
@@ -719,25 +725,26 @@ const CAN_SPEAK="speechSynthesis" in window&&"SpeechSynthesisUtterance" in windo
 let SPK={on:false};
 function localVoice(){ const vs=speechSynthesis.getVoices().filter(v=>v.localService), lang=(document.documentElement.lang||"en").slice(0,2).toLowerCase();
   return vs.find(v=>v.lang.toLowerCase().startsWith(lang)&&v.default)||vs.find(v=>v.lang.toLowerCase().startsWith(lang))||null; }
-function speakStop(){ SPK.on=false; try{ speechSynthesis.cancel(); }catch(e){} $$("[data-listen]").forEach(b=>{ b.setAttribute("aria-pressed","false"); b.innerHTML=ic("volume")+"Listen"; }); }
+function speakStop(){ SPK.on=false; try{ speechSynthesis.cancel(); }catch(e){} $$("[data-listen]").forEach(b=>{ b.innerHTML=ic("volume")+"Listen"; }); }
 function speakBlocks(){ const out=[];
-  [$(".answer"),$("[role=tabpanel]:not([hidden])")].filter(Boolean).forEach(r=>{
+  [$(".warn"),$(".answer"),$("[role=tabpanel]:not([hidden])")].filter(Boolean).forEach(r=>{
     $$("h2,h3,h4,p,li,blockquote",r).forEach(el=>{ if(el.querySelector("h2,h3,h4,p,li,blockquote")||el.closest("[hidden]")||el.closest(".sr-only")) return;
       const d=el.closest("details"); if(d&&!d.open&&!el.closest("summary")) return;
       const t=el.textContent.replace(/\s+/g," ").trim(); if(t.length>1) out.push(t); }); });
   return out; }
 function speak(){
   if(!CAN_SPEAK) return; if(SPK.on){ speakStop(); return; }
+  if(!SPK.warned){ SPK.warned=true; toast("This plays out loud. Use headphones if anyone is near.","Read aloud",speak); return; }
   let tried=false;
-  const go=()=>{ if(tried) return; tried=true; const v=localVoice(); if(!v){ toast("Your phone has no built-in voice for this, so nothing can be read aloud. Nothing was sent anywhere."); return; }
+  const go=()=>{ if(tried) return; tried=true; const v=localVoice(); if(!v){ toast("Your phone has no built-in voice for this, so nothing can be read aloud."); return; }
     const blocks=speakBlocks(); if(!blocks.length) return; SPK.on=true;
-    $$("[data-listen]").forEach(b=>{ b.setAttribute("aria-pressed","true"); b.innerHTML=ic("stop")+"Stop"; });
+    $$("[data-listen]").forEach(b=>{ b.innerHTML=ic("stop")+"Stop"; });
     blocks.forEach((t,i)=>{ const u=new SpeechSynthesisUtterance(t); u.voice=v; u.lang=v.lang; u.rate=.95; if(i===blocks.length-1) u.onend=speakStop; u.onerror=()=>{ if(SPK.on) speakStop(); }; speechSynthesis.speak(u); });
     toast("Reading aloud from your phone's speaker","Stop",speakStop); };
   if(speechSynthesis.getVoices().length) go(); else { speechSynthesis.addEventListener("voiceschanged",go,{once:true}); setTimeout(go,600); }
 }
 document.addEventListener("visibilitychange",()=>{ if(document.hidden&&SPK.on) speakStop(); });
-function phoneTouches(){ if(SPK.on) speakStop(); dock(); TOTOP.hidden=scrollY<=innerHeight*1.5; }
+function phoneTouches(){ if(SPK.on) speakStop(); dock(); TOTOP.hidden=true; LASTY=scrollY; }
 
 /* ---------- leaving quickly ---------- */
 let LEAVING=false;
@@ -775,9 +782,10 @@ document.addEventListener("click",ev=>{
   if(d.share!=null){ const e=ctx(parse()).station; if(!e) return; const url=readable(e)+(STEP?"/"+(STEP+1):"");
     if(navigator.share){ navigator.share({title:e.n,url}).catch(()=>{}); } else copyText(url,"Link copied"); return; }
   if(d.print!=null){ window.print(); return; }
-  if(d.paste!=null){ navigator.clipboard.readText().then(t=>{ t=(t||"").trim().slice(0,400); if(!t){ toast("There was nothing to paste."); return; } SEARCH_Q=t; const q=$("#q"); if(q) q.value=t; updateResults(true); }).catch(()=>toast("Your phone did not allow pasting. Press and hold in the box instead.")); return; }
-  if(d.aa!=null){ const order=["m","l","xl"], nx=order[(order.indexOf(PREF.size)+1)%3]; PREF.size=nx; store.set("size",nx); applyPrefs(); { const so=$(".sr-only",b); if(so) so.textContent=", now "+SIZE_NAME[nx]+". Tap to change."; } hap(8); toast("Text size: "+SIZE_NAME[nx]); return; }
+  if(d.paste!=null){ navigator.clipboard.readText().then(t=>{ t=(t||"").trim().slice(0,400); if(!t){ toast("There was nothing to paste."); return; } SEARCH_Q=t; const q=$("#q"); if(q) q.value=t; updateResults(true); const cb=$("[data-clear]"); if(cb) cb.focus({preventScroll:true}); }).catch(()=>toast("Your phone did not allow pasting. Press and hold in the box instead.")); return; }
+  if(d.aa!=null){ const order=["m","l","xl"], nx=order[(order.indexOf(PREF.size)+1)%3]; PREF.size=nx; store.set("size",nx); applyPrefs(); dockCheck(); { const so=$(".sr-only",b); if(so) so.textContent=", now "+SIZE_NAME[nx]+". Tap to change."; } hap(8); toast("Text size: "+SIZE_NAME[nx]); return; }
   if(d.listen!=null){ speak(); return; }
+  if(d.colortoggle!=null){ PREF.color=PREF.color==="quiet"?"vivid":"quiet"; store.set("color",PREF.color); applyPrefs(); b.textContent=PREF.color==="quiet"?"Bring the colours back":"Make the colours quieter"; toast(PREF.color==="quiet"?"Colours are quieter":"Colours are back"); return; }
   if(d.dock){ setStep(STEP+ +d.dock,"next",true); return; }
   if(d.copy){ copyText($("#"+d.copy).textContent,"Copied"); return; }
   if(d.try){ SEARCH_Q=d.try; const q=$("#q"); if(q){ q.value=SEARCH_Q; } updateResults(true); return; }

@@ -408,11 +408,13 @@ const contrast = (a, b) => { const L = c => { c = c.map(v => v / 255).map(v => v
     const p = await open(ctx, "#/entry/emotional-blackmail"); await p.waitForTimeout(300);
     T("swipe hint shows once on a touch screen and goes after the first step change", await p.evaluate(() => !!document.querySelector("[data-swipehint]")) && (await p.click("#t-1"), await p.waitForTimeout(150), await p.evaluate(() => !document.querySelector("[data-swipehint]"))));
     await p.goto(URL0 + "#/entry/emotional-blackmail"); await p.waitForTimeout(250);
-    const tt = await p.evaluate(() => document.querySelector("#totop").hidden); await p.evaluate(() => scrollTo(0, 2600)); await p.waitForTimeout(300);
+    const tt = await p.evaluate(() => document.querySelector("#totop").hidden); await p.evaluate(() => scrollTo(0, 2600)); await p.waitForTimeout(250); await p.evaluate(() => scrollTo(0, 2500)); await p.waitForTimeout(300);
     const vis = await p.evaluate(() => !document.querySelector("#totop").hidden && document.querySelector("#totop").getAttribute("aria-label"));
     const dockOn = await p.evaluate(() => { const d = document.querySelector(".stepdock"); return d && !d.hidden && d.textContent; });
     T("back to top: hidden at the top, shown after scrolling, named for screen readers", tt === true && /top/i.test(vis || ""), String(vis));
     T("step dock appears once the tabs scroll away and says which step", /Step 1 of 4/.test(dockOn || ""), String(dockOn));
+    const geo = await p.evaluate(() => { const d = document.querySelector(".stepdock").getBoundingClientRect(), l = document.querySelector(".leave").getBoundingClientRect(); return { dockTop: d.top, leaveBottom: l.bottom }; });
+    T("step dock sits at the bottom, nowhere near the Leave button", geo.dockTop > geo.leaveBottom + 300, JSON.stringify(geo));
     await p.click(".stepdock [data-dock='1']"); await p.waitForTimeout(400);
     T("step dock moves to the next step", await p.evaluate(() => document.querySelector("#t-1").getAttribute("aria-selected") === "true"));
     await p.click("#totop"); await p.waitForTimeout(700); T("back to top: tapping it goes to the top", await p.evaluate(() => scrollY < 40));
@@ -422,10 +424,14 @@ const contrast = (a, b) => { const L = c => { c = c.map(v => v / 255).map(v => v
     await p.goto(URL0 + "#/entry/emotional-blackmail"); await p.waitForTimeout(250); await p.evaluate(() => { window.__vib.length = 0; }); await p.click("#t-2"); await p.waitForTimeout(100);
     T("tap feedback: a step change buzzes only after you turn it on", await p.evaluate(() => window.__vib.length > 0));
     await p.click("[data-listen]"); await p.waitForTimeout(200);
-    const sp = await p.evaluate(() => ({ n: window.__spoken.length, on: document.querySelector("[data-listen]").getAttribute("aria-pressed") }));
-    T("read aloud: uses an on-device voice, reads the answer and the open step, button turns to Stop", sp.n > 3 && sp.on === "true", JSON.stringify(sp));
-    await p.click("[data-listen]"); await p.waitForTimeout(100);
-    T("read aloud: tapping again stops it", await p.evaluate(() => window.__cancel() > 0 && document.querySelector("[data-listen]").getAttribute("aria-pressed") === "false"));
+    T("read aloud: the first tap only warns that it plays out loud", await p.evaluate(() => window.__spoken.length === 0 && /plays out loud/.test(document.querySelector("#toast").textContent)));
+    await p.click("[data-toastact]"); await p.waitForTimeout(250);
+    const sp = await p.evaluate(() => ({ n: window.__spoken.length, first: window.__spoken[0] || "", label: document.querySelector("[data-listen]").textContent.trim(), pressed: document.querySelector("[data-listen]").hasAttribute("aria-pressed") }));
+    T("read aloud: uses an on-device voice, starts with the safety note, button turns to Stop with no confusing pressed state", sp.n > 3 && /^Safety first|Watch for|Those turn/.test(sp.first) && sp.label === "Stop" && !sp.pressed, JSON.stringify(sp).slice(0, 200));
+    await p.click("#t-1"); await p.waitForTimeout(150);
+    T("read aloud: changing step stops it", await p.evaluate(() => window.__cancel() > 0 && document.querySelector("[data-listen]").textContent.trim() === "Listen"));
+    await p.click("[data-listen]"); await p.waitForTimeout(150); await p.click("[data-listen]"); await p.waitForTimeout(100);
+    T("read aloud: tapping Stop stops it", await p.evaluate(() => document.querySelector("[data-listen]").textContent.trim() === "Listen"));
     await ctx.close(); }
   { const ctx = await ctxFor(390, 844, "dark"); await ctx.grantPermissions(["clipboard-read", "clipboard-write"]).catch(() => {}); const p = await open(ctx, "#/search"); await p.waitForTimeout(200);
     await p.evaluate(() => navigator.clipboard.writeText("you are imagining things")).catch(() => {});
@@ -437,7 +443,7 @@ const contrast = (a, b) => { const L = c => { c = c.map(v => v / 255).map(v => v
     T("touch feel: taps are not delayed and pulling down does not refresh", await p.evaluate(() => getComputedStyle(document.querySelector(".btn, .blade, a")).touchAction === "manipulation" && getComputedStyle(document.documentElement).overscrollBehaviorY === "contain"));
     await ctx.close(); }
   { const ctx = await ctxFor(390, 844, "dark"); await ctx.addInitScript(() => { Object.defineProperty(window, "speechSynthesis", { configurable: true, value: { getVoices: () => [{ name: "Net", lang: "en-US", localService: false }], speak() {}, cancel() {}, addEventListener() {} } }); window.SpeechSynthesisUtterance = function () {}; });
-    const p = await open(ctx, "#/entry/gaslighting"); await p.waitForTimeout(250); await p.click("[data-listen]"); await p.waitForTimeout(250);
+    const p = await open(ctx, "#/entry/gaslighting"); await p.waitForTimeout(250); await p.click("[data-listen]"); await p.waitForTimeout(200); await p.click("[data-toastact]"); await p.waitForTimeout(250);
     T("read aloud: a voice that needs the internet is never used", await p.evaluate(() => /no built-in voice/.test(document.querySelector("#toast").textContent))); await ctx.close(); }
   { const ctx = await ctxFor(390, 844, "dark"); const p = await open(ctx, "#/settings"); await p.click("label:has(input[name=save][value=on])"); await p.waitForTimeout(120);
     await p.goto(URL0 + "#/entry/gaslighting"); await p.waitForTimeout(250); await p.click("[data-save]"); await p.waitForTimeout(80);
@@ -460,6 +466,17 @@ const contrast = (a, b) => { const L = c => { c = c.map(v => v / 255).map(v => v
     await p.goto(URL0 + "#/"); await p.waitForTimeout(300);
     const q = await p.evaluate(() => ({ attr: document.documentElement.getAttribute("data-color"), tile: getComputedStyle(document.querySelector(".home .lrow")).backgroundColor, panel: getComputedStyle(document.documentElement).getPropertyValue("--panel").trim(), glow: getComputedStyle(document.body).backgroundImage, stripe: getComputedStyle(document.querySelector(".top"), "::before").display }));
     T("Quiet colours: tiles go back to small marks, the glow and the stripe are off", q.attr === "quiet" && q.glow === "none" && q.stripe === "none", JSON.stringify(q));
+    await ctx.close(); }
+
+  { const ctx = await ctxFor(390, 844, "dark"); const p = await open(ctx, "#/"); await p.waitForTimeout(250);
+    const a = await p.evaluate(() => document.documentElement.getAttribute("data-color")); await p.click("[data-colortoggle]"); await p.waitForTimeout(150);
+    const b = await p.evaluate(() => ({ attr: document.documentElement.getAttribute("data-color"), label: document.querySelector("[data-colortoggle]").textContent, tile: getComputedStyle(document.querySelector(".home .lrow")).backgroundColor }));
+    await p.click("[data-colortoggle]"); await p.waitForTimeout(150);
+    T("Home: one tap makes the colours quiet and one tap brings them back", a === null && b.attr === "quiet" && /Bring the colours back/.test(b.label) && b.tile !== "rgb(240, 106, 82)" && (await p.evaluate(() => document.documentElement.getAttribute("data-color"))) === null, JSON.stringify(b));
+    await ctx.close(); }
+  { const ctx = await ctxFor(390, 844, "dark"); const p = await open(ctx, "#/settings"); await p.click("input[name=rest][value=people]"); await p.waitForTimeout(120);
+    await p.goto(URL0 + "#/"); await p.waitForTimeout(250);
+    T("a resting line's tile stays readable, not faded", await p.evaluate(() => { const r = document.querySelector(".home .lrow.rest"); return !!r && getComputedStyle(r).opacity === "1" && getComputedStyle(r.querySelector("small")).color === getComputedStyle(document.documentElement).getPropertyValue("--fg") || !!r && getComputedStyle(r).opacity === "1"; }));
     await ctx.close(); }
 
   // ---- review round: rested lines stay out everywhere, honest saving copy, Leave keeps nothing, no referrer

@@ -30,10 +30,10 @@ _spec = importlib.util.spec_from_file_location("v10", os.path.join(HERE, "build-
 v10 = importlib.util.module_from_spec(_spec); _spec.loader.exec_module(v10)
 
 VERSION = "v15"
-DATE = "2026-10-26"
+DATE = "2026-10-27"
 UPDATES = [
     "<strong>Plainer words, all the way through.</strong> Every entry was read again for clarity. Long sentences were split, hard words were swapped for everyday ones, and the stiff, repeated phrasing was reworded so it reads like a person talking. A few claims that could not be backed up were removed, and one description of a study was corrected.",
-    "<strong>Easier on a phone.</strong> A button takes you back to the top of a long page, and a slim bar lets you change step without scrolling up. Search has a Paste button, and the bottom bar steps aside while you type. Every entry has a Text size button and a Listen button that reads it aloud with a voice stored on your phone, so nothing is sent anywhere. A small buzz when you tap is available in Settings and is off until you turn it on.",
+    "<strong>Easier on a phone.</strong> A button takes you back to the top of a long page, and a slim bar lets you change step without scrolling up. Search has a Paste button, and the bottom bar steps aside while you type. Every entry has a Text size button and a Listen button that reads it aloud with a voice stored on your phone. A small buzz when you tap is available in Settings and is off until you turn it on.",
     "<strong>More ways to find your way.</strong> Every station has a short code, like T09, that you can type into search. Lines have their own shapes as well as colours. You can set a line aside if you are not ready to read about it, choose where the Leave button goes, and print one station as a clean one-page card.",
     "<strong>A new design, made to be easy to find your way (v15).</strong> The guide is now laid out like the signs in a metro or an airport. Each of the ten groups is a coloured line with a letter, each tactic is a station on its line, and look-alike tactics in other groups are shown as places to “change here for”.",
     "<strong>The answer comes first.</strong> Every entry now opens with what it is, what it can sound like and, where it matters, your safety. The rest is split into four short steps instead of one long page, and long lists open only when you ask.",
@@ -224,7 +224,7 @@ def home_html(lines, count):
             '<div class="blades">%s%s%s%s</div>'
             '<div id="continue"></div>%s'
             '</section>'
-            '<section class="lines-ix" aria-labelledby="lines-h"><h2 id="lines-h" class="k">The ten lines</h2>'
+            '<section class="lines-ix" aria-labelledby="lines-h"><h2 id="lines-h" class="k">The ten lines</h2><button type="button" class="linkbtn colortoggle" data-colortoggle>Make the colours quieter</button>'
             '<p class="small muted">Each line is one kind of tactic. Every tactic is a station on its line.</p>'
             '<ol class="lrows">%s</ol>'
             '<p class="more-links"><a href="#/lines/az">All %d, A to Z</a><a href="#/lines/where">By where it happens</a><a href="#/lines/common">The most common</a><a href="#/routes">Patterns seen together</a></p>'
