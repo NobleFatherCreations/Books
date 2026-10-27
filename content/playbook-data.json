@@ -5658,7 +5658,7 @@
    "name": "Word Salad",
    "tag": "reference",
    "cat": "Reality Distortion",
-   "what": "Answering with long, circular, tangled language that never lands on a point, leaving the listener unable to pin anything down.",
+   "what": "Answering with long, looping language that never reaches a point, so the listener cannot pin anything down.",
    "sounds": [
     "A two-minute reply to 'did you pay the bill?' that mentions the bank, a cousin and how money works, but never says yes or no.",
     "\"Well, it depends on what you mean by 'pay', and what you mean by 'bill', and when.\"",
@@ -5669,19 +5669,19 @@
     "Sentences that start in one direction, turn halfway and finish somewhere else."
    ],
    "nots": [
-    "Plenty of people struggle to say a complicated or half-formed thing clearly, and thinking aloud is naturally circular while the thinking is unfinished.",
-    "A communication difference, such as an associative or tangential style, that is part of how someone's mind works and not a tactic.",
+    "Plenty of people struggle to say a complicated or half-formed thing clearly. Thinking aloud is naturally circular while the thinking is unfinished.",
+    "A communication difference, such as an associative or tangential style. It is part of how someone's mind works, and it is not a tactic.",
     "Speaking in a second language or in a technical field, where precise words are hard to find.",
     "Fatigue, anxiety, a panic response or medication that scrambles speech temporarily.",
     "A person who truly does not know the answer and is talking around the gap, and says so when asked directly."
    ],
-   "why": "Hours can pass with nothing established, with no claim to answer and no agreement reached, and the exhaustion left behind is easy to mistake for having been unreasonable."
+   "why": "Hours can pass with nothing settled. There is no claim to answer and no agreement reached. The exhaustion left behind is easy to mistake for having been unreasonable."
   },
   {
    "name": "Contradiction Stacking",
    "tag": "reference",
    "cat": "Reality Distortion",
-   "what": "Denying that something happened and, in the same conversation, defending it as justified, so no single answer settles anything.",
+   "what": "Saying something never happened and then, in the same talk, defending it as justified, so no single answer settles the matter.",
    "sounds": [
     "\"I never told you that. And honestly, after the way you acted, I had every right to.\"",
     "\"That didn't happen, but if it did, you made me do it.\"",
@@ -5715,11 +5715,11 @@
    "nots": [
     "Someone summarizing their view in a different way because they think you missed it the first time.",
     "A rule that is explained by its purpose after you ask, even if the purpose is one you dislike.",
-    "A principle held as a basic value, such as 'I don't lie to my children,' that is not meant to be argued from further evidence.",
+    "A principle held as a basic value, such as 'I don't lie to my children.' It is not meant to be argued from more evidence.",
     "A tired person repeating themselves because they are worn out and the talk has gone long.",
     "A real disagreement about premises, where each side honestly cannot see what would persuade the other."
    ],
-   "why": "When every challenge returns you to the starting point, you cannot win, lose or even learn what the other person actually bases their view on. Long loops can wear a person down until agreeing feels easier than continuing to ask for a reason."
+   "why": "When every challenge sends you back to the starting point, you cannot win, lose or even learn what the other person bases their view on. Long loops can wear a person down until agreeing seems easier than asking again for a reason."
   },
   {
    "name": "Loaded Language",
@@ -5739,16 +5739,16 @@
     "A person in real pain using strong language for how something felt, then settling on plainer words once the first rush passes.",
     "A fair label for something that really fits, such as calling a repeated, deliberate lie a lie.",
     "Cultural or family styles of speech where dramatic words are normal and not meant literally.",
-    "Everyday exaggeration, like 'you always do this,' which is imprecise but not an attempt to pin an identity on you.",
-    "Technical or legal terms used precisely, such as 'trespass' or 'overdraft,' which carry meaning without implying a verdict about you."
+    "Everyday exaggeration, like 'you always do this.' It is imprecise, but it is not an attempt to pin an identity on you.",
+    "Technical or legal terms used precisely, such as 'trespass' or 'overdraft.' They carry meaning without implying a verdict about you."
    ],
-   "why": "Once a word like 'selfish' or 'abusive' is attached, the discussion shifts from what happened to whether you are that kind of person. Defending against the label can take over from addressing the actual issue, and a label repeated often enough can start to shape how you see yourself."
+   "why": "Once a word like 'selfish' or 'abusive' is attached, the talk shifts from what happened to whether you are that kind of person. Defending yourself against the label can take over from the actual issue. A label repeated often enough can start to shape how you see yourself."
   },
   {
    "name": "Semantic Traps",
    "tag": "reference",
    "cat": "Reality Distortion",
-   "what": "Turning a conversation toward the exact wording someone used, so the original concern is lost in a fight about definitions.",
+   "what": "Steering a conversation to the exact wording someone used, so the original concern gets lost in a fight about definitions.",
    "sounds": [
     "\"I did not 'scream.' I spoke loudly. Those are different things.\"",
     "\"You said 'never.' I did it last March. So that's wrong, and the rest of it is too.\"",
@@ -5764,7 +5764,7 @@
     "A person who feels misquoted and asks to restate their own words, then returns to the topic.",
     "Gentle humor about a phrase that ends with them hearing you out."
    ],
-   "why": "Your concern can be real and still lose, simply because one word was imperfect. When talks keep turning to your phrasing, you may start choosing words so carefully that you stop raising issues at all, and the actual problem stays where it was."
+   "why": "Your concern can be real and still lose because one word was imperfect. If talks keep turning to your phrasing, you may start choosing words so carefully that you stop raising issues at all. The actual problem stays where it was."
   },
   {
    "name": "Frame Control",
@@ -5788,13 +5788,13 @@
     "Choosing emphasis in an open argument, which is part of ordinary persuasion.",
     "Agreeing to pause a heated talk and come back, with a time named and kept."
    ],
-   "why": "An accurate account can come out sounding irrelevant, because the terms were set to leave it out before you spoke. You arrive with a concern about something that happened and leave defending your mood or motives, with your original point never refused and never answered."
+   "why": "An accurate account can come out sounding irrelevant, because the terms were set to leave it out before you spoke. You arrive with a concern about something that happened and leave defending your mood or motives. Your original point was never refused and never answered."
   },
   {
    "name": "Strategic Ambiguity",
    "tag": "watch",
    "cat": "Reality Distortion",
-   "what": "Phrasing a promise, an exclusion or an intention so loosely that several readings stay open, and the one that gets used is picked afterwards.",
+   "what": "Wording a promise, an exclusion or an intention so loosely that several readings stay open, and the useful one is chosen later.",
    "sounds": [
     "We'll sort the money side out at some point.",
     "I never said I'd do that. I said I'd see what I could do.",
@@ -5807,7 +5807,7 @@
    ],
    "nots": [
     "Honest uncertainty about the future, said as uncertain and firmed up when you ask.",
-    "A person who is loose with words about everything, their own plans and deadlines included, and not only the ones that matter to you.",
+    "A person who is loose with words about everything. Their own plans and deadlines are vague too, along with the ones that matter to you.",
     "A plan that was genuinely still being worked out, where nobody had the details yet.",
     "Tact: a polite 'maybe' used to soften a no, which most people will clarify if asked directly.",
     "A group event that really was informal, where nobody counted heads and others were missed too.",
@@ -5835,13 +5835,13 @@
     "Teaching, where an idea is rehearsed for learning and the evidence is shared when asked.",
     "Two people stuck on an honest disagreement who each keep restating their view because they have not found common ground."
    ],
-   "why": "Familiar claims can come to feel true even when you cannot say what supports them. If you hear the same sentence about yourself or about what happened, you may start repeating it without noticing, and lose track of whether you ever had a reason to believe it."
+   "why": "Familiar claims can start to seem true even when you cannot say what supports them. If you hear the same sentence about yourself or about what happened, you may start repeating it without noticing. You can lose track of whether you ever had a reason to believe it."
   },
   {
    "name": "Firehose of Falsehood",
    "tag": "reference",
    "cat": "Reality Distortion",
-   "what": "Flooding people with a high volume of fast, shifting and often contradictory claims so that checking and answering each one becomes impossible.",
+   "what": "Flooding people with fast, shifting and often contradictory claims, so checking and answering each one becomes impossible.",
    "sounds": [
     "A stream of posts in one hour offering three different explanations for the same event, none of them agreeing.",
     "A reply to your single question that raises five new accusations.",
@@ -5886,7 +5886,7 @@
    "name": "FOG",
    "tag": "reference",
    "cat": "Guilt & Obligation Leverage",
-   "what": "Fear, a sense of what is owed, and guilt layered together around a request until refusing feels frightening, ungrateful and cruel all at once.",
+   "what": "Fear, a sense of debt, and guilt layered around a request until saying no is frightening, ungrateful and cruel all at once.",
    "sounds": [
     "I'd hate to see what happens if you walk away from this.",
     "After all I've done for you, I think I'm owed this one thing.",
@@ -5897,10 +5897,10 @@
     "I've never asked for anything, and now you want to turn me down?"
    ],
    "nots": [
-    "Real obligations, real stakes and real concern can sit in one situation without anyone assembling them into pressure. Cultural and family norms about duty can produce all three honestly.",
+    "Real duties, real stakes and real worry can exist in one situation without anyone building them into pressure. Cultural and family norms about duty can bring up all three honestly.",
     "A single strand on its own: a worried parent, a debt openly discussed, or an honest 'I'd feel guilty if you went.'",
     "A manager explaining the real consequences of missing a deadline, which is information and not menace.",
-    "A friend anxious about a risky plan who reminds you of past help and says they would feel awful, but hears your no and stays warm.",
+    "A friend is anxious about a risky plan. They remind you of past help and say they would feel awful, but they hear your no and stay warm.",
     "Someone stating their own feelings about your choice and then letting you make it."
    ],
    "why": "Any one of these pressures might be refusable alone. Layered together, they leave no kind of no that does not feel frightening, ungrateful or cruel at the same moment."
@@ -5909,7 +5909,7 @@
    "name": "Emotional Hostage-Taking",
    "tag": "reference",
    "cat": "Guilt & Obligation Leverage",
-   "what": "Tying your own mood or wellbeing so visibly to another person's answer that they feel responsible for keeping you okay.",
+   "what": "Linking your own mood to another person's answer so openly that they feel responsible for keeping you okay.",
    "sounds": [
     "Fine. Do what you want. I'll just be miserable all weekend.",
     "I don't know if I can face the party if you won't come.",
@@ -5920,13 +5920,13 @@
     "My stomach is in knots, but sure, you go and enjoy yourself."
    ],
    "nots": [
-    "Being truly, involuntarily upset by a disappointing answer. Someone who finds feelings hard to regulate is not thereby using them as leverage.",
+    "Being truly, involuntarily upset by a disappointing answer. Someone who finds feelings hard to manage is not using them to get their way.",
     "The ordinary give and take of close relationships, where each person's choices affect the other's mood.",
     "An open request such as 'I get anxious being alone, can we plan something?', which leaves you free to say no.",
     "Grief, illness or depression, where low mood has causes that do not depend on your answer.",
     "A person who sulks briefly after a no and is ordinary again by dinner, without any change in your answer."
    ],
-   "why": "Managing another person's mood becomes the price of refusing anything, and whatever follows a no is blamed on the person who said it."
+   "why": "Managing another person's mood becomes the price of refusing anything. Whatever follows a no is blamed on the person who said it."
   },
   {
    "name": "Weaponized Tears",
@@ -35091,20 +35091,20 @@
    "branch": "reference",
    "category": "Reality Distortion",
    "detectability_note": "This tool cannot establish this from pasted text at all. It is included for literacy only, so you can learn to recognize the concept — not as something this tool detects, scores, or flags.",
-   "core_meaning": "Answering with long, circular, tangled language that never lands on a point, leaving the listener unable to pin anything down.",
+   "core_meaning": "Answering with long, looping language that never reaches a point, so the listener cannot pin anything down.",
    "aftermath_state": false,
    "forensic_only": false,
    "absorbs": [],
-   "short_definition": "Answering with long, circular, tangled language that never lands on a point, leaving the listener unable to pin anything down.",
-   "expanded_definition": "Word salad is speech that goes on at length, sounds as if it is about your question, and never actually answers it. Phrases loop back, ideas change mid-sentence and clarifying questions bring more of the same. Plenty of people talk this way when they are anxious, tired or thinking aloud, and some conditions affect how thoughts come out, so this does not show what anyone meant. The concern is when the fog reliably appears where a clear answer would be costly, and the listener leaves exhausted.",
+   "short_definition": "Answering with long, looping language that never reaches a point, so the listener cannot pin anything down.",
+   "expanded_definition": "Word salad is speech that goes on at length and sounds as if it is about your question, but never answers it. Phrases loop back and ideas change mid-sentence. Clarifying questions bring more of the same. Plenty of people talk this way when they are anxious, tired or thinking aloud, and some conditions affect how thoughts come out, so this does not show what anyone meant. It is a concern when the fog reliably appears where a clear answer would be costly, and the listener leaves exhausted.",
    "plain_language_summary": "You ask a simple question and get a long, winding reply that never answers it. Asking again makes it more confusing, and you walk away not knowing what was said.",
-   "why_this_matters": "Hours can pass with nothing established, with no claim to answer and no agreement reached, and the exhaustion left behind is easy to mistake for having been unreasonable.",
+   "why_this_matters": "Hours can pass with nothing settled. There is no claim to answer and no agreement reached. The exhaustion left behind is easy to mistake for having been unreasonable.",
    "what_it_is": [
     "A long answer to a short, direct question, with no answer in it.",
     "Circular phrasing, where each sentence points back to the previous one and none arrives anywhere.",
     "A reply to a request for clarification that adds new tangled material.",
     "A conversation that runs for a long time, after which neither person can say what was agreed.",
-    "Different from a person struggling to explain a hard, half-formed thought, who becomes clearer when given time and simple questions."
+    "This is different from a person struggling to explain a hard, half-formed thought. That person becomes clearer when given time and simple questions."
    ],
    "what_it_sounds_like": [
     "A two-minute reply to 'did you pay the bill?' that mentions the bank, a cousin and how money works, but never says yes or no.",
@@ -35116,8 +35116,8 @@
     "Sentences that start in one direction, turn halfway and finish somewhere else."
    ],
    "what_it_is_not": [
-    "Plenty of people struggle to say a complicated or half-formed thing clearly, and thinking aloud is naturally circular while the thinking is unfinished.",
-    "A communication difference, such as an associative or tangential style, that is part of how someone's mind works and not a tactic.",
+    "Plenty of people struggle to say a complicated or half-formed thing clearly. Thinking aloud is naturally circular while the thinking is unfinished.",
+    "A communication difference, such as an associative or tangential style. It is part of how someone's mind works, and it is not a tactic.",
     "Speaking in a second language or in a technical field, where precise words are hard to find.",
     "Fatigue, anxiety, a panic response or medication that scrambles speech temporarily.",
     "A person who truly does not know the answer and is talking around the gap, and says so when asked directly."
@@ -35145,7 +35145,7 @@
    "common_false_positives": [
     "A colleague describing a technical system in jargon you do not share.",
     "A nervous friend telling a long story to avoid a hard answer, who gives the answer once pressed gently.",
-    "A relative with dementia or a mental illness whose speech has become disorganized, which is a health issue and not a tactic."
+    "A relative with dementia or a mental illness whose speech has become disorganized. That is a health issue, and it is not a tactic."
    ],
    "discernment_questions": [
     "Does a simple, closed question get a simple answer at any point?",
@@ -35170,9 +35170,9 @@
     "You start writing the question down beforehand, or asking for answers by text.",
     "You feel slower or less intelligent after conversations with this person than with others."
    ],
-   "repair_check": "Watch what a direct request produces. Something real is a short answer given on a topic where it used to be a loop, or a plain 'I don't know yet, give me a day'. A promise to 'try to be clearer' followed by the same maze the next time has not made a difference.",
+   "repair_check": "Watch what a direct request produces. Real change is a short answer on a topic where there used to be a loop, or a plain 'I don't know yet, give me a day'. A promise to 'try to be clearer' followed by the same maze the next time has not made a difference.",
    "boundary_respect_check": "When you ask for a one-line answer, what comes back? A single sentence, even an uncomfortable one, is respect for the request. Another long reply that sidesteps the request shows that the maze, not the answer, is still on offer.",
-   "psychological_mechanism": "Trying to follow a tangled reply uses a lot of attention, and the effort of searching for the point can leave a person tired and doubting their own comprehension. After enough such exchanges, some people may give up asking, or agree just to end the conversation, and then find they have committed to something unclear.",
+   "psychological_mechanism": "Following a tangled reply takes a lot of attention. The effort of searching for the point can leave a person tired and doubting their own understanding. After enough of these talks, some people may stop asking, or agree just to end the conversation. Then they find they have committed to something unclear.",
    "possible_impact_on_receiver": "People describe leaving talks drained, with a headache or a heavy fog, and no clear idea what was said. Some say they began to wonder if they were slow or unable to follow. Others describe agreeing just to escape and feeling frustrated with themselves later.",
    "response_options": {
     "soft_clarification": "Narrow the question: 'Let me ask just one thing. Yes or no: did you send it?'",
@@ -35211,11 +35211,11 @@
    "branch": "reference",
    "category": "Reality Distortion",
    "detectability_note": "This tool cannot establish this from pasted text at all. It is included for literacy only, so you can learn to recognize the concept — not as something this tool detects, scores, or flags.",
-   "core_meaning": "Denying that something happened and, in the same conversation, defending it as justified, so no single answer settles anything.",
+   "core_meaning": "Saying something never happened and then, in the same talk, defending it as justified, so no single answer settles the matter.",
    "aftermath_state": false,
    "forensic_only": false,
    "absorbs": [],
-   "short_definition": "Denying that something happened and, in the same conversation, defending it as justified, so no single answer settles anything.",
+   "short_definition": "Saying something never happened and then, in the same talk, defending it as justified, so no single answer settles the matter.",
    "expanded_definition": "Contradiction stacking puts two incompatible positions on the table at once: it did not happen, and if it did, it was fair. Each one blocks the other, so whichever you answer seems to give up the second. It can start as a muddled defense in a heated moment. It becomes a pattern when the same pair of claims returns after each new complaint and the conversation never reaches which one is true.",
    "plain_language_summary": "Whatever you say back seems to prove the other half right: first the thing never happened, then it was deserved anyway.",
    "why_this_matters": "Answering one claim feels like accepting the other, so you never get a position to stand on, and what actually happened is never settled. Many people leave these talks more tired than angry, unsure what they were even trying to prove.",
@@ -35265,7 +35265,7 @@
     "Two relatives retelling a family argument, each defending their own part and forgetting their own slips."
    ],
    "discernment_questions": [
-    "Do the denial and the justification truly refer to the same event, or have two events blurred together in my mind?",
+    "Do the denial and the justification really refer to the same event, or have two events blurred together in my mind?",
     "When I name the mismatch calmly, does the other person engage with it, or does it become a new fight?",
     "Can I say, in one sentence, what they believe happened?",
     "Does this two-part answer show up in many conversations, or only this one?",
@@ -35277,7 +35277,7 @@
     "They can tell you which statement they stand behind and why."
    ],
    "more_concerning_if": [
-    "The denial returns each time the justification is challenged, and the justification returns each time the denial is challenged.",
+    "The denial comes back each time the justification is challenged. The justification comes back each time the denial is challenged.",
     "Noticing the contradiction is treated as another offense, such as nitpicking or twisting words.",
     "You have begun to avoid raising problems because you expect to be caught between the two answers."
    ],
@@ -35287,23 +35287,23 @@
     "You catch yourself agreeing with the justification just to end the talk.",
     "A friend notices that you apologize for events you are fairly sure were not your doing."
    ],
-   "repair_check": "Repair here sounds like one account of what happened, said without a justification stapled on, followed by different behavior the next time. A sorry that arrives wrapped in 'but you' is the same pair of claims again in softer clothes.",
+   "repair_check": "Repair here sounds like one account of what happened, said without a justification attached, followed by different behavior next time. A sorry wrapped in 'but you' is the same pair of claims again in softer clothes.",
    "boundary_respect_check": "One answer or two? State your concern once and count what comes back. A single answer, even an unwelcome one, gives the exchange footing. If the reply splits into denial plus defense again, the boundary is not being heard.",
-   "psychological_mechanism": "Two answers that block each other can leave a listener working on a puzzle with no solution. The effort of holding both in mind tends to use up the energy needed to press the original complaint. Over repeated rounds, a person may drop the complaint to stop the mental strain, and may begin to wonder whether the confusion is their own fault.",
+   "psychological_mechanism": "Two answers that block each other leave a listener working on a puzzle with no solution. Holding both in mind uses up the energy needed to press the original complaint. After repeated rounds, a person may drop the complaint to stop the strain, and may wonder whether the confusion is their own fault.",
    "possible_impact_on_receiver": "Cornered by their own words, some replay the talk for hours looking for the reply that would have worked. Many end up exhausted without having said what they meant, and some stop raising problems with that person at all. Others describe relief on seeing that the puzzle had no answer built into it.",
    "response_options": {
     "soft_clarification": "Point at the mismatch gently and ask for one answer: 'Those two things don't fit together for me. Which one is closest to how you see it?'",
     "firm_boundary": "Say you will take one answer at a time: 'Let's settle whether it happened first. Whether it was fair is a separate question, and I'll talk about it after.'",
-    "disengagement": "Stop when the second claim arrives and say you will pick the topic up later, then put the original concern in a short written note.",
+    "disengagement": "When the second claim arrives, stop and say you will pick the topic up later. Then put the original concern in a short written note.",
     "support_seeking": "Tell a friend the two replies exactly as you heard them and ask whether they read as contradictory to someone outside the talk.",
-    "workplace_or_professional": "At work, send a brief written summary naming the one fact in question, and ask the other person to confirm or correct that single point before discussing reasons."
+    "workplace_or_professional": "At work, send a brief written summary that names the one fact in question. Ask the other person to confirm or correct that single point before you discuss reasons."
    },
    "boundary_script": "\"I heard two things just now: that it did not happen, and that it was fair. I can talk about either one, but not both at once. Which would you like to start with?\"",
-   "safety_note": "Mixed denial and defense is a confusing conversation, not a danger sign in itself. It would call for more care if the justification starts to include blame that leads to punishment, or you are made to feel afraid of the reaction when you disagree. It would also if money, access to children or housing hang on the outcome. In those cases, talk with a counselor or advocate.",
+   "safety_note": "A mix of denial and defense is a confusing conversation, and it is not a danger sign in itself. It would call for more care if the justification starts to include blame that leads to punishment, or if you are made to feel afraid of the reaction when you disagree. It would also call for more care if money, access to children or housing hang on the outcome. In those cases, talk with a counselor or advocate.",
    "safety_sensitive": false,
    "misuse_warning": [
     "Spotting two clashing statements in a single argument does not prove a tactic. People under stress contradict themselves all the time, so look for the same pair returning across many incidents.",
-    "Pointing out someone's contradiction in a triumphant way can become its own way of winning rather than understanding."
+    "Pointing out someone's contradiction in a triumphant way can turn into a way of winning instead of understanding."
    ],
    "related_tactics": [
     "Gaslighting",
@@ -35313,7 +35313,7 @@
     "Selective Memory",
     "Moving Goalposts"
    ],
-   "how_to_distinguish_from_related": "Gaslighting works on your confidence in your own memory, whereas contradiction stacking leaves your memory alone and buries the issue under two clashing replies. Deflection moves to a different subject, while here the subject stays put and two answers pile onto it. Minimization shrinks the harm, but this tactic first denies it happened and then defends it.",
+   "how_to_distinguish_from_related": "Gaslighting works on your confidence in your own memory. Contradiction stacking leaves your memory alone and buries the issue under two clashing replies. Deflection moves to a different subject, but here the subject stays put and two answers pile onto it. Minimization shrinks the harm, but this tactic first denies it happened and then defends it.",
    "detection_notes": "Not matched or scored by this tool. Pasted text cannot establish this concept — included in the Field Guide purely as a literacy reference.",
    "codex_maturity": "mature",
    "human_review_flags": [
@@ -35333,9 +35333,9 @@
    "forensic_only": false,
    "absorbs": [],
    "short_definition": "Defending a claim by pointing back to the claim itself, so no outside fact is ever allowed to test it.",
-   "expanded_definition": "A circular argument offers the conclusion as its own reason: it is true because it is true, or because the speaker feels sure. Everyone slips into this in a quarrel. It matters when it is the main way a disagreement gets handled, and when your questions are answered by a looped restatement. Because the loop contains no checkable fact, there is nothing to agree or disagree with, and the talk can run for an hour without moving.",
+   "expanded_definition": "A circular argument offers the conclusion as its own reason. It is true because it is true, or because the speaker feels sure. Everyone slips into this in a quarrel. It matters when it is the main way a disagreement gets handled, and your questions are answered with a looped restatement. The loop contains no checkable fact, so there is nothing to agree or disagree with. The talk can run for an hour without moving.",
    "plain_language_summary": "Every reason you get is just the first claim in new words. The talk goes in circles and never reaches anything you can check.",
-   "why_this_matters": "When every challenge returns you to the starting point, you cannot win, lose or even learn what the other person actually bases their view on. Long loops can wear a person down until agreeing feels easier than continuing to ask for a reason.",
+   "why_this_matters": "When every challenge sends you back to the starting point, you cannot win, lose or even learn what the other person bases their view on. Long loops can wear a person down until agreeing seems easier than asking again for a reason.",
    "what_it_is": [
     "A claim supported by itself, as in 'I'm right because I'm not wrong.'",
     "Reasons that, when examined, only repeat the point in different wording.",
@@ -35353,7 +35353,7 @@
    "what_it_is_not": [
     "Someone summarizing their view in a different way because they think you missed it the first time.",
     "A rule that is explained by its purpose after you ask, even if the purpose is one you dislike.",
-    "A principle held as a basic value, such as 'I don't lie to my children,' that is not meant to be argued from further evidence.",
+    "A principle held as a basic value, such as 'I don't lie to my children.' It is not meant to be argued from more evidence.",
     "A tired person repeating themselves because they are worn out and the talk has gone long.",
     "A real disagreement about premises, where each side honestly cannot see what would persuade the other."
    ],
@@ -35404,23 +35404,23 @@
     "You can recall arguments that lasted hours and cannot name a single point that was actually made.",
     "You start to quote their circular phrases back to yourself, such as 'I'm too sensitive to judge.'"
    ],
-   "repair_check": "Mending this looks like a reason you can check turning up in the next disagreement, or an honest 'I can't explain why I think so, but I do.' A promise to listen better, followed by the same loop, leaves the loop running.",
+   "repair_check": "Mending this looks like a reason you can check showing up in the next disagreement. It can also be an honest 'I can't explain why I think so, but I do.' A promise to listen better that is followed by the same loop leaves the loop running.",
    "boundary_respect_check": "Try asking once for a single concrete reason, then notice what changes. A person who respects the request will name something, even a weak thing. If the request is treated as proof that you are not listening, the boundary is not landing.",
-   "psychological_mechanism": "A loop with no fact in it offers no weak point to test, so a listener may keep searching for one and read the failure as their own slowness. The same sentence returning over and over can start to feel like support just because it is familiar, and giving in may become the quickest way out of the discomfort.",
-   "possible_impact_on_receiver": "Long talks end with a dizzy feeling of having missed something, followed by replaying the argument in search of the point nobody grasped. Some doubt their own reasoning, some stop asking questions, and some feel oddly guilty for wanting a reason at all.",
+   "psychological_mechanism": "A loop with no fact in it gives a listener no weak point to test. So they may keep searching for one and blame their own slowness. The same sentence coming back again and again can start to sound true just because it is familiar. Giving in may become the quickest way out of the discomfort.",
+   "possible_impact_on_receiver": "Long talks end with a dizzy sense of having missed something. Then comes replaying the argument, looking for the point nobody grasped. Some doubt their own reasoning, some stop asking questions, and some feel oddly guilty for wanting a reason at all.",
    "response_options": {
     "soft_clarification": "Ask for the step between the claim and the reason: 'I'm not following how you got there. What is the evidence underneath it?'",
     "firm_boundary": "Name the loop and decline to continue it: 'We have said the same sentence three times. I'd like one reason that's different from the claim.'",
-    "disengagement": "Pause the discussion when a new fact has not appeared for a while, and offer to pick it up after each of you has looked up what you can.",
+    "disengagement": "If no new fact has appeared for a while, pause the discussion. Offer to pick it up after each of you has looked up what you can.",
     "support_seeking": "Write the argument out in a few lines and ask a friend whether the reasoning goes anywhere. Seeing it on paper often makes the loop obvious.",
-    "workplace_or_professional": "At work, ask for the policy, data or decision-maker behind a claim, and note in writing that 'it is how we do things' was the explanation you were given."
+    "workplace_or_professional": "At work, ask for the policy, data or decision-maker behind a claim. Note in writing that 'it is how we do things' was the explanation you were given."
    },
    "boundary_script": "\"I've listened closely, and the reason I keep hearing is the claim itself. I'm happy to continue if you can give me one reason that stands apart from it. If not, let's leave it for today.\"",
    "safety_note": "A loop of this kind is tiring but rarely dangerous on its own. It becomes more serious when the unquestionable claim is used to control your movements, spending or contact with other people. It also does when asking for a reason is met with anger or threats. Then, speak to someone outside the relationship, such as an advocate or counselor.",
    "safety_sensitive": false,
    "misuse_warning": [
     "Calling an argument circular can be a way of dodging a point you cannot answer. Check first whether you have really been given a reason.",
-    "Accusing someone of circular logic in the middle of a quarrel may simply start a new loop about who is being logical."
+    "Calling someone's logic circular in the middle of a quarrel may simply start a new loop about who is being logical."
    ],
    "related_tactics": [
     "Gaslighting",
@@ -35430,7 +35430,7 @@
     "Selective Memory",
     "Moving Goalposts"
    ],
-   "how_to_distinguish_from_related": "Deflection leaves the topic and wanders somewhere else, while a circular argument stays on the topic and goes round it. Moving Goalposts changes what would count as proof after you meet it, but here nothing could ever count, since no proof is allowed in. Countering flatly contradicts your account, whereas this tactic answers your question with the claim itself dressed as a reason.",
+   "how_to_distinguish_from_related": "Deflection leaves the topic and wanders somewhere else. A circular argument stays on the topic and goes round it. Moving Goalposts changes what would count as proof after you meet it, but here nothing could ever count, since no proof is allowed in. Countering flatly contradicts your account. This tactic answers your question with the claim itself, dressed up as a reason.",
    "detection_notes": "Not matched or scored by this tool. Pasted text cannot establish this concept — included in the Field Guide purely as a literacy reference.",
    "codex_maturity": "mature",
    "human_review_flags": [
@@ -35450,11 +35450,11 @@
    "forensic_only": false,
    "absorbs": [],
    "short_definition": "Choosing words that carry a verdict, label or insult so that a judgment is made before the facts are discussed.",
-   "expanded_definition": "Loaded language uses words that already contain a judgment, such as calling a forgotten errand 'betrayal' or a question 'an attack'. The label does the arguing, so the facts never have to. Everyone reaches for strong words when hurt. The concern is when the biggest available word is applied to ordinary behavior again and again, and when pushing back on the word is treated as further proof it fit.",
+   "expanded_definition": "Loaded language uses words that already contain a judgment, such as calling a forgotten errand 'betrayal' or a question 'an attack'. The label does the arguing, so the facts never have to. Everyone reaches for strong words when hurt. The concern is when the biggest available word is used again and again for ordinary behavior. Another sign is when pushing back on the word is treated as further proof it fit.",
    "plain_language_summary": "A heavy label gets stuck on something ordinary. You end up fighting the word instead of talking about what happened.",
-   "why_this_matters": "Once a word like 'selfish' or 'abusive' is attached, the discussion shifts from what happened to whether you are that kind of person. Defending against the label can take over from addressing the actual issue, and a label repeated often enough can start to shape how you see yourself.",
+   "why_this_matters": "Once a word like 'selfish' or 'abusive' is attached, the talk shifts from what happened to whether you are that kind of person. Defending yourself against the label can take over from the actual issue. A label repeated often enough can start to shape how you see yourself.",
    "what_it_is": [
-    "Words picked for their emotional charge, such as 'betrayal,' 'manipulation' or 'crazy,' rather than for describing what took place.",
+    "Words picked for their emotional charge, such as 'betrayal,' 'manipulation' or 'crazy,' instead of words that describe what took place.",
     "A way of describing one action in two different vocabularies, with the choice depending on who did it.",
     "Labels that name a whole identity ('you are a liar') instead of a single behavior ('that was not true').",
     "Seen in households, workplaces, news headlines and political speech, with different words but the same mechanism."
@@ -35472,8 +35472,8 @@
     "A person in real pain using strong language for how something felt, then settling on plainer words once the first rush passes.",
     "A fair label for something that really fits, such as calling a repeated, deliberate lie a lie.",
     "Cultural or family styles of speech where dramatic words are normal and not meant literally.",
-    "Everyday exaggeration, like 'you always do this,' which is imprecise but not an attempt to pin an identity on you.",
-    "Technical or legal terms used precisely, such as 'trespass' or 'overdraft,' which carry meaning without implying a verdict about you."
+    "Everyday exaggeration, like 'you always do this.' It is imprecise, but it is not an attempt to pin an identity on you.",
+    "Technical or legal terms used precisely, such as 'trespass' or 'overdraft.' They carry meaning without implying a verdict about you."
    ],
    "this_may_be_it_when": [
     "A severe label arrives before anyone has described what happened.",
@@ -35495,7 +35495,7 @@
     "A person may only have a few words for an emotion and reaches for the strongest one available."
    ],
    "common_false_positives": [
-    "A friend who says 'I was devastated' about a canceled trip, meaning disappointed, and is happy to say so when asked.",
+    "A friend says 'I was devastated' about a canceled trip. They mean disappointed, and they are happy to say so when asked.",
     "A manager who calls a missed deadline 'unacceptable' in a performance review that gives the specifics.",
     "A news headline that uses punchy language, which is a sales choice rather than a personal judgment of you."
    ],
@@ -35524,20 +35524,20 @@
    ],
    "repair_check": "A genuine repair names the specific action that bothered them and drops the identity word, even when angry. Someone saying 'I shouldn't have called it that' and then reaching for the same word next week has only paused, not changed.",
    "boundary_respect_check": "You might ask yourself whether asking to keep to plain description is welcomed or mocked. When it is accepted, the conversation tends to name actions. When the request itself gets labeled, as in 'now you're policing my language,' the label is still doing the arguing.",
-   "psychological_mechanism": "A word that carries a verdict can skip past the facts and land on identity. The listener is pulled into defending against the label, so the original issue goes undiscussed. Hearing the same word often, from someone whose opinion counts, may also lead a person to try it on and half accept it after first rejecting it.",
-   "possible_impact_on_receiver": "Having to prove you are not the word uses up the energy that should go to the real question. Some begin to censor ordinary behavior, some start applying the label to themselves, and some say they only saw the effect when a friend repeated it back to them.",
+   "psychological_mechanism": "A word that carries a verdict can skip past the facts and land on who you are. The listener is pulled into defending against the label, so the original issue goes undiscussed. Hearing the same word often, from someone whose opinion counts, may lead a person to try it on. They may half accept it after first rejecting it.",
+   "possible_impact_on_receiver": "Having to prove you are not the word uses up energy that should go to the real question. Some begin to censor ordinary behavior. Some start applying the label to themselves. Some say they only saw the effect when a friend repeated it back to them.",
    "response_options": {
     "soft_clarification": "Ask for the plain version: 'That word feels very big to me. Can you tell me what I did, in a sentence, without the label?'",
     "firm_boundary": "Keep the talk on actions: 'I'll talk about what I did. I won't agree to a word that describes who I am.'",
-    "disengagement": "Step out of a conversation once it becomes a back-and-forth about the label, and invite them to return when the action itself is the topic.",
-    "support_seeking": "Ask someone who knows you well whether the word fits, and tell them the specific event so they judge it, not just the label.",
-    "workplace_or_professional": "At work, ask for specific examples when a label like 'difficult' or 'unprofessional' is used, and record the dates and facts in your own words."
+    "disengagement": "Once the talk becomes a back-and-forth about the label, step out of it. Invite them to return when the action itself is the topic.",
+    "support_seeking": "Ask someone who knows you well whether the word fits. Tell them the specific event, so they judge what happened as well as the label.",
+    "workplace_or_professional": "At work, ask for specific examples when a label like 'difficult' or 'unprofessional' is used. Record the dates and facts in your own words."
    },
    "boundary_script": "\"I understand you are upset, and I want to hear what happened. I'm going to keep to what I did, and not accept a word that describes me as a person. What was the thing that hurt?\"",
-   "safety_note": "Heavy labels are usually a communication problem, not a danger signal. Take more care if the labels are used to isolate you from friends ('they're toxic, they're against us'), to threaten your job or custody of children, or to justify punishment. In those cases, document what is said and speak with an advocate or counselor outside the relationship.",
+   "safety_note": "Heavy labels are usually a communication problem, and not a danger signal. Take more care if the labels are used to isolate you from friends ('they're toxic, they're against us'), to threaten your job or custody of children, or to justify punishment. In those cases, document what is said and speak with an advocate or counselor outside the relationship.",
    "safety_sensitive": false,
    "misuse_warning": [
-    "Accusing someone of 'loaded language' can dismiss a person who is truly hurt and has no gentler words available yet.",
+    "Calling someone's words 'loaded language' can brush aside a person who is truly hurt and has no gentler words yet.",
     "Not every strong word is a tactic. A fitting label, backed by examples, is accurate speech and not manipulation."
    ],
    "related_tactics": [
@@ -35563,19 +35563,19 @@
    "branch": "reference",
    "category": "Reality Distortion",
    "detectability_note": "This tool cannot establish this from pasted text at all. It is included for literacy only, so you can learn to recognize the concept — not as something this tool detects, scores, or flags.",
-   "core_meaning": "Turning a conversation toward the exact wording someone used, so the original concern is lost in a fight about definitions.",
+   "core_meaning": "Steering a conversation to the exact wording someone used, so the original concern gets lost in a fight about definitions.",
    "aftermath_state": false,
    "forensic_only": false,
    "absorbs": [],
-   "short_definition": "Turning a conversation toward the exact wording someone used, so the original concern is lost in a fight about definitions.",
+   "short_definition": "Steering a conversation to the exact wording someone used, so the original concern gets lost in a fight about definitions.",
    "expanded_definition": "A semantic trap takes one imprecise word or phrase from your complaint and makes it the whole discussion. You said 'always' and it was twice. You said 'yelled' and the reply is that it was only a raised voice. Wording does matter sometimes, and careful people do correct each other. It becomes a trap when the correction replaces the concern, and you spend the talk defending vocabulary.",
-   "plain_language_summary": "One small slip in how you phrased something becomes the whole argument, so you end up defending your words and the thing you came to say never gets answered.",
-   "why_this_matters": "Your concern can be real and still lose, simply because one word was imperfect. When talks keep turning to your phrasing, you may start choosing words so carefully that you stop raising issues at all, and the actual problem stays where it was.",
+   "plain_language_summary": "One small slip in how you phrased something becomes the whole argument. You end up defending your words, and what you came to say never gets answered.",
+   "why_this_matters": "Your concern can be real and still lose because one word was imperfect. If talks keep turning to your phrasing, you may start choosing words so carefully that you stop raising issues at all. The actual problem stays where it was.",
    "what_it_is": [
     "Seizing on a single word, such as 'always,' 'never' or 'yelled,' and treating its precision as the main matter.",
     "A move from 'what you did' to 'what you called it,' so the behavior drops out of view.",
     "'That's not what I said' used about the exact phrasing and not the meaning.",
-    "A form of argument that works best on people who are emotional or short of time, since they are the least able to word things perfectly."
+    "A form of argument that works best on people who are emotional or short of time. They are the least able to word things perfectly."
    ],
    "what_it_sounds_like": [
     "\"I did not 'scream.' I spoke loudly. Those are different things.\"",
@@ -35612,7 +35612,7 @@
     "People from different regions or families may mean different things by the same word."
    ],
    "common_false_positives": [
-    "A coworker who corrects 'we agreed on Tuesday' to Wednesday, because the date really matters for the schedule.",
+    "A coworker corrects 'we agreed on Tuesday' to Wednesday, because the date really matters for the schedule.",
     "A partner who says 'I wasn't angry, I was frustrated,' and then goes on to discuss what frustrated them.",
     "A friend who teases you over a word and then listens to the actual story."
    ],
@@ -35639,22 +35639,22 @@
     "You have stopped raising smaller worries because the wording fight feels too costly.",
     "You notice that complaints from months ago were never actually answered."
    ],
-   "repair_check": "Real repair here means they respond to the substance you meant, even when the wording was messy, and they can say 'I got stuck on your word and missed your point.' If they agree about the word and drop the topic anyway, that is not repair.",
+   "repair_check": "Real repair here means they answer the substance you meant, even when your wording was messy. They can say 'I got stuck on your word and missed your point.' If they agree about the word and drop the topic anyway, that is not repair.",
    "boundary_respect_check": "Offer a swap and watch the result: use their word in place of yours and ask whether the concern still stands. If they do so and answer the point, the boundary works. If the offer is called yet more twisting, it has not been heard.",
-   "psychological_mechanism": "Because feelings are rarely worded perfectly, a challenge to wording can nearly always find something to hold onto. Defending a phrase takes the person's attention away from the complaint, and each lost round may teach them that raising an issue costs more than it gives. Over time, a careful speaker may start to doubt their own ability to describe events.",
+   "psychological_mechanism": "Feelings are rarely worded perfectly, so a challenge to wording can nearly always find something to hold onto. Defending a phrase pulls attention away from the complaint. Each lost round may teach the person that raising an issue costs more than it gives. Over time, a careful speaker may start to doubt their own ability to describe events.",
    "possible_impact_on_receiver": "A sense of having lost on a technicality, while still believing the original concern, is common. Some become guarded speakers who rehearse and over-qualify. Some stop speaking up, and some say they began to doubt whether they could describe their own life accurately.",
    "response_options": {
     "soft_clarification": "Accept the word and go back to the point: 'Fair, call it loud if you like. What I'm trying to say is that I felt scared.'",
     "firm_boundary": "Decline the side-trip kindly: 'I'm happy to use your word. I'd like us to talk about what happened, not which word is best.'",
     "disengagement": "When the wording debate takes over, pause it and say you will write your concern down in plain terms and send it later.",
     "support_seeking": "Tell a friend the complaint and the reply, then ask whether the reply answered the complaint or only its phrasing.",
-    "workplace_or_professional": "At work, put your concern in an email with dated facts, so there is less loose wording to seize on, and ask for a reply to the facts."
+    "workplace_or_professional": "At work, put your concern in an email with dated facts, so there is less loose wording to seize on. Ask for a reply to the facts."
    },
    "boundary_script": "\"You may be right about my word, and I'm fine using yours. It doesn't change what I came to say. Can you tell me what you make of the substance of it?\"",
    "safety_note": "Quibbling over words is draining, but it is not a danger signal by itself. The picture changes when the wording fights are used to deny things that have real consequences, like threats, injuries or money taken. It also changes when you are punished for how you describe them. Keep your own record of events and talk to an advocate or legal aid if that happens.",
    "safety_sensitive": false,
    "misuse_warning": [
-    "Labeling any request for precision as a 'semantic trap' can dismiss fair corrections, which matter in agreements and facts.",
+    "Calling any request for precision a 'semantic trap' can dismiss fair corrections, and those matter in agreements and facts.",
     "If you use the label to avoid hearing a correction that was right, the label becomes your own way of skipping the point."
    ],
    "related_tactics": [
@@ -35665,7 +35665,7 @@
     "Selective Memory",
     "Moving Goalposts"
    ],
-   "how_to_distinguish_from_related": "Countering flatly contradicts what you said happened, whereas a semantic trap leaves the event alone and attacks the way you described it. Deflection changes the subject to something unrelated, while here the topic is still your complaint but its words get all the attention. Minimization says the harm was small, but this tactic never gets as far as discussing size.",
+   "how_to_distinguish_from_related": "Countering flatly contradicts what you said happened. A semantic trap leaves the event alone and attacks the way you described it. Deflection changes the subject to something unrelated. Here the topic is still your complaint, but its words get all the attention. Minimization says the harm was small, but this tactic never gets as far as discussing size.",
    "detection_notes": "Not matched or scored by this tool. Pasted text cannot establish this concept — included in the Field Guide purely as a literacy reference.",
    "codex_maturity": "mature",
    "human_review_flags": [
@@ -35690,13 +35690,13 @@
    "short_definition": "Deciding what a conversation is about, through loaded labels or topic swaps, so that your actual concern has no place to land.",
    "expanded_definition": "Frame control sets the terms of an exchange: what it is about, what is at stake and who plays which part. It takes more than one form. When a loaded label or extreme comparison settles the verdict before the facts arrive, it is often called false framing. When your point about an action is answered by turning the talk to your mood or character, the term frame assassination gets used. One topic change in a tense talk is ordinary. The pattern is a frame that no version of your concern can fit inside.",
    "plain_language_summary": "The talk keeps getting turned into a talk about something else, often you. What you actually wanted to say never gets an answer.",
-   "why_this_matters": "An accurate account can come out sounding irrelevant, because the terms were set to leave it out before you spoke. You arrive with a concern about something that happened and leave defending your mood or motives, with your original point never refused and never answered.",
+   "why_this_matters": "An accurate account can come out sounding irrelevant, because the terms were set to leave it out before you spoke. You arrive with a concern about something that happened and leave defending your mood or motives. Your original point was never refused and never answered.",
    "what_it_is": [
     "Redefining the topic, the stakes or the roles so that your concern no longer matches the conversation.",
     "Opening with a loaded label or an extreme comparison, so the verdict is settled before the facts are laid out.",
     "Swapping a concern about an action for a remark about your tone, mood, character or history.",
     "Persistent: restating your point sends it back into the same frame.",
-    "Can happen in writing, in meetings, in family disputes and in public statements, anywhere one account is allowed to name the subject."
+    "It can happen in writing, in meetings, in family disputes and in public statements. It can happen anywhere one account is allowed to name the subject."
    ],
    "what_it_sounds_like": [
     "This isn't about the dishes. This is about how unstable you've been lately.",
@@ -35762,12 +35762,12 @@
     "You say 'never mind' to end the talk, though the issue is unchanged.",
     "Over months you bring up fewer concerns, and the list you keep in your head gets longer."
    ],
-   "repair_check": "Once you point out the swap, a changed exchange looks like them stating your original point back to you and answering it, even if the answer is no. An apology about the argument that never touches the original issue leaves that issue where it was.",
+   "repair_check": "After you point out the swap, real change looks like them stating your original point back to you and answering it, even if the answer is no. An apology about the argument that never touches the original issue leaves that issue where it was.",
    "boundary_respect_check": "Notice whether you can hold your topic. Say once, 'I'd like an answer to my first question,' and see if it gets one. If the reply is more about you, the request was met with the very move it was about.",
-   "psychological_mechanism": "Conversations follow whichever topic is emotionally louder. A remark about your stability or character is hard to ignore, so your effort moves to defending yourself, which is more tiring than complaining. A loaded label does similar work early, since later facts tend to be read through it. Pushing back on a personal remark can sound like proving it, and the original concern gets quietly dropped.",
-   "possible_impact_on_receiver": "People describe leaving a talk unable to say what they had meant to ask, replaying it for hours, and wondering whether they really are as difficult as they were just told. Some begin rehearsing complaints in advance, or stop raising them. A slow sense that nothing they bring up ever gets settled is also common.",
+   "psychological_mechanism": "Conversations follow whichever topic is emotionally louder. A remark about your stability or character is hard to ignore, so your effort moves to defending yourself, which is more tiring than complaining. A loaded label does similar work early, since later facts are often read through it. Pushing back on a personal remark can sound like proving it, and the original concern gets quietly dropped.",
+   "possible_impact_on_receiver": "After a talk like this, some people cannot say what they had meant to ask. They replay it for hours and wonder whether they really are as difficult as they were just told. Some begin rehearsing complaints in advance, or stop raising them. A slow sense that nothing they bring up ever gets settled is also common.",
    "response_options": {
-    "soft_clarification": "Name the swap and ask for both topics: 'I'd like to hear how I come across, and I'd also like an answer to what I first asked. Can we do mine first?'",
+    "soft_clarification": "Name the swap and ask for both topics, with words like: 'I'd like to hear how I come across, and I'd also like an answer to what I first asked. Can we do mine first?'",
     "firm_boundary": "Hold your topic: 'That may be worth talking about, but it's not the subject today. I asked about the canceled plans.'",
     "disengagement": "If the new topic keeps winning, stop the exchange and put the original concern in a short written note you can point back to.",
     "support_seeking": "Tell a friend your original question and ask them to say back what they hear. If they can state it clearly, you know the question was not the problem.",
@@ -35777,8 +35777,8 @@
    "safety_note": "A conversation where someone else sets the terms is a conversation problem, not a danger sign. The picture changes if raising a concern starts to bring threats, punishments, or talk of your mental state to doctors or relatives. If that happens, note what was said and when, and talk to a counselor or advocate you trust before the next conversation about it.",
    "safety_sensitive": false,
    "misuse_warning": [
-    "Calling it frame control whenever a talk changes topic punishes ordinary drift and hides the times you changed the subject yourself.",
-    "Used as an accusation, 'you're controlling the frame' can itself replace the other person's concern, which is the move it describes."
+    "Calling every change of topic frame control punishes ordinary drift. It also hides the times you changed the subject yourself.",
+    "Said as an accusation, 'you're controlling the frame' can push aside the other person's concern, which is the very move it describes."
    ],
    "related_tactics": [
     "Gaslighting",
@@ -35790,7 +35790,7 @@
     "Priming / Narrative Seeding",
     "Credibility Theft"
    ],
-   "how_to_distinguish_from_related": "Deflection steps away from the issue with a tangent or a counter-question, and often leaves the original frame standing; frame control replaces the frame itself, usually with you at the center. Projection hands your complaint back as an accusation of the same behavior, while this hands it back as a remark about who you are. Priming / Narrative Seeding installs a lens before a talk begins, whereas this works inside the talk, as it unfolds.",
+   "how_to_distinguish_from_related": "Deflection steps away from the issue with a tangent or a counter-question, and often leaves the original frame standing. Frame control replaces the frame itself, usually with you at the center. Projection hands your complaint back as an accusation of the same behavior, while this hands it back as a remark about who you are. Priming / Narrative Seeding installs a lens before a talk begins, whereas this works inside the talk as it unfolds.",
    "detection_notes": "Not matched or scored by this tool. Pasted text cannot establish this concept — included in the Field Guide purely as a literacy reference.",
    "codex_maturity": "mature",
    "human_review_flags": [
@@ -35805,21 +35805,21 @@
    "branch": "watch",
    "category": "Reality Distortion",
    "detectability_note": "This tool can technically match phrasing linked to this tactic, but text alone cannot reliably establish intent here — the same words are too easily produced by an innocent explanation. It is shown as low-signal information only and is never scored.",
-   "core_meaning": "Phrasing a promise, an exclusion or an intention so loosely that several readings stay open, and the one that gets used is picked afterwards.",
+   "core_meaning": "Wording a promise, an exclusion or an intention so loosely that several readings stay open, and the useful one is chosen later.",
    "aftermath_state": false,
    "forensic_only": false,
    "absorbs": [
     "Ambiguity as Weapon"
    ],
-   "short_definition": "Phrasing a promise, an exclusion or an intention so loosely that several readings stay open, and the one that gets used is picked afterwards.",
-   "expanded_definition": "Strategic ambiguity is wording left loose enough that two people can leave the same conversation with different understandings, with nothing firm to show which was meant. Some call it ambiguity as a weapon. It can be vague promises and terms, or vague exclusion and tone that leave you unable to confirm what is happening. A single fuzzy sentence proves nothing. What stands out is vagueness that keeps resolving the same way, on matters that carry weight for you.",
-   "plain_language_summary": "Someone's words can be read two ways, so later you cannot prove what was promised or whether you were being left out, and you are the one left unsure.",
+   "short_definition": "Wording a promise, an exclusion or an intention so loosely that several readings stay open, and the useful one is chosen later.",
+   "expanded_definition": "Strategic ambiguity is wording left loose enough that two people can leave the same conversation with different understandings, and nothing firm shows which was meant. Some call it ambiguity as a weapon. It can be vague promises and terms, or vague exclusion and tone that leave you unable to confirm what is happening. One fuzzy sentence proves nothing. What stands out is vagueness that keeps resolving the same way, on matters that carry weight for you.",
+   "plain_language_summary": "Someone's words can be read two ways. Later you cannot prove what was promised or whether you were being left out, and you are the one left unsure.",
    "why_this_matters": "You can feel that something was agreed, or that you are being left out, yet there is nothing firm to point to. Raising it risks sounding picky or paranoid, and staying quiet means carrying the doubt alone, sometimes while acting on a promise nobody pinned down.",
    "what_it_is": [
     "Commitments phrased softly, such as 'we'll see' or 'I'll try', on exactly the matters where a clear yes or no would cost something.",
     "Dates, amounts or reasons left unstated, so each person fills the gap with what they expected.",
     "Exclusion that is never spoken: a plan you hear about late, a cooler tone, a 'maybe next time' with no next time.",
-    "An explanation that arrives only after the loose wording is questioned, and that often differs from what you understood.",
+    "An explanation that comes only after the loose wording is questioned, and that often differs from what you understood.",
     "Found in households, workplaces, friendships, rental dealings and group chats."
    ],
    "what_it_sounds_like": [
@@ -35834,7 +35834,7 @@
    ],
    "what_it_is_not": [
     "Honest uncertainty about the future, said as uncertain and firmed up when you ask.",
-    "A person who is loose with words about everything, their own plans and deadlines included, and not only the ones that matter to you.",
+    "A person who is loose with words about everything. Their own plans and deadlines are vague too, along with the ones that matter to you.",
     "A plan that was genuinely still being worked out, where nobody had the details yet.",
     "Tact: a polite 'maybe' used to soften a no, which most people will clarify if asked directly.",
     "A group event that really was informal, where nobody counted heads and others were missed too.",
@@ -35880,29 +35880,29 @@
     "Others in the same position report the same uncertainty."
    ],
    "more_concerning_if": [
-    "The vague wording surrounds money, housing, work or a legal matter, where a later reading carries real consequences.",
+    "The vague wording covers money, housing, work or a legal matter, where a later reading has real consequences.",
     "Asking for clarity is treated as distrust, or answered with 'why are you making this so hard?'",
     "You have started acting on promises you are no longer sure were ever made."
    ],
    "pattern_over_time_signs": [
-    "You begin sending recap messages after every conversation to fix what was agreed, and the replies stay loose.",
+    "You start sending recap messages after every conversation to fix what was agreed, and the replies stay loose.",
     "You find out about plans or decisions only after they are settled.",
     "You argue both possible meanings in your head before asking anything.",
     "You feel unable to call something exclusion or a broken promise, because it was never put in so many words."
    ],
-   "repair_check": "The wording changes and not only the tone: dates, amounts and names start to appear, and a written recap is welcomed. An apology for 'the confusion' followed by an arrangement just as loose is not a change.",
+   "repair_check": "The wording itself changes, as well as the tone: dates, amounts and names start to appear, and a written recap is welcomed. An apology for 'the confusion' followed by an arrangement just as loose is not a change.",
    "boundary_respect_check": "Ask yourself what happens when you request the arrangement in a text or email. If it comes promptly and says something checkable, the request was respected. If it is delayed, softened again or called overkill, the loose wording is being protected.",
    "psychological_mechanism": "Loose wording hands each listener the job of filling in the gaps, and listeners often fill them with what they hope or expect. Afterwards there is nothing quotable to hold anyone to, so the listener may start blaming their own hearing. When the vagueness concerns exclusion, the lack of any concrete event can lead a person to suspect their own reading instead of the situation.",
-   "possible_impact_on_receiver": "People describe replaying conversations to work out what was actually said, feeling picky for asking, and hesitating to act on anything that is not in writing. Some describe turning down plans or work because they could not tell whether they were wanted, and others a lingering ache about whether they imagined being left out.",
+   "possible_impact_on_receiver": "Some people replay conversations to work out what was actually said. They feel picky for asking and hesitate to act on anything that is not in writing. Some turn down plans or work because they could not tell whether they were wanted. Others carry a lingering ache about whether they imagined being left out.",
    "response_options": {
     "soft_clarification": "Offer a recap that invites correction: 'So we agreed you'd pay half by the first of the month. Have I got that right?'",
-    "firm_boundary": "Ask for the point to be settled before you act: 'I need a yes or a no on this by Friday, in a message I can keep.'",
-    "disengagement": "Hold off on anything that depends on the loose promise, and make plans that do not rely on it, without arguing over what was meant.",
+    "firm_boundary": "Ask for the point to be settled before you act, as in: 'I need a yes or a no on this by Friday, in a message I can keep.'",
+    "disengagement": "Hold off on anything that depends on the loose promise. Make plans that do not rely on it, without arguing over what was meant.",
     "support_seeking": "Describe the exchange to a friend and ask what they would take it to mean. An outside reading shows whether the gap is as wide as it feels.",
-    "workplace_or_professional": "Follow meetings with a short email stating the decision, the owner and the date, and ask people to reply if they read it differently."
+    "workplace_or_professional": "After meetings, send a short email stating the decision, the owner and the date. Ask people to reply if they read it differently."
    },
    "boundary_script": "\"We should both be working from the same understanding. Can you tell me, in a message, exactly what you will do and by when? If you're not sure yet, just say that, and we can pick a day to decide.\"",
-   "safety_note": "Vague wording is a clarity problem, not a danger signal. It changes when the vague wording covers housing, immigration paperwork, custody arrangements or money you depend on, or when asking for specifics brings anger or threats. In those cases, have the arrangement reviewed by a tenants' group, legal aid or a caseworker before you act on it.",
+   "safety_note": "Vague wording is a clarity problem, and not a danger signal in itself. That changes when the vague wording covers housing, immigration paperwork, custody arrangements or money you depend on, or when asking for specifics brings anger or threats. In those cases, have the arrangement reviewed by a tenants' group, legal aid or a caseworker before you act on it.",
    "safety_sensitive": false,
    "misuse_warning": [
     "Not every 'maybe' or 'we'll see' is a trap. Treating ordinary hedging as proof of bad faith can turn a clumsy communicator into a villain.",
@@ -35942,8 +35942,8 @@
    "absorbs": [],
    "short_definition": "Saying the same claim over and over, with no new evidence, until its familiarity begins to feel like proof.",
    "expanded_definition": "People tend to believe what they have heard many times, because familiar statements feel easier and truer. This tactic relies on that effect: a claim returns in nearly the same words, from conversation to conversation, without anything new behind it. Repeating a fact you have good reason for is ordinary. What marks the pattern is that the repetition is the only support, and 'I've told you before' stands in for a reason.",
-   "plain_language_summary": "A claim is said so many times, in the same words and with no new proof, that it starts to feel true simply because you have heard it so often.",
-   "why_this_matters": "Familiar claims can come to feel true even when you cannot say what supports them. If you hear the same sentence about yourself or about what happened, you may start repeating it without noticing, and lose track of whether you ever had a reason to believe it.",
+   "plain_language_summary": "A claim is said so many times, in the same words and with no new proof, that it starts to seem true just because you have heard it so often.",
+   "why_this_matters": "Familiar claims can start to seem true even when you cannot say what supports them. If you hear the same sentence about yourself or about what happened, you may start repeating it without noticing. You can lose track of whether you ever had a reason to believe it.",
    "what_it_is": [
     "The same claim, in near-identical words, returning across days, weeks or years.",
     "Repetition used in place of proof, as in 'I've said it a hundred times.'",
@@ -35986,7 +35986,7 @@
    ],
    "common_false_positives": [
     "A coach who says 'keep your eyes on the ball' at every practice, because that is the instruction.",
-    "A relative who retells an old family story at every holiday, which is nostalgia and not an argument.",
+    "A relative who retells an old family story at every holiday. That is nostalgia, and it is not an argument.",
     "A colleague repeating a deadline in each email because it has not been met."
    ],
    "discernment_questions": [
@@ -36012,19 +36012,19 @@
     "Counter-evidence you once held now feels weaker than the repeated line.",
     "People who barely know you describe you with the same phrase."
    ],
-   "repair_check": "Fixing this would show up as the claim being put to an actual test: they look at the evidence with you, say what they found, and change what they say afterwards. An apology that is followed by the old sentence the next week has only gone quiet.",
+   "repair_check": "Real change shows up as the claim being put to an actual test. They look at the evidence with you, say what they found, and change what they say afterwards. An apology followed by the old sentence the next week has only gone quiet.",
    "boundary_respect_check": "You can ask yourself what happens when you say 'please show me one new example.' Someone willing to look for one is treating the claim as testable. Someone who answers with the same sentence, louder, is repeating the claim again and has not heard the request.",
    "psychological_mechanism": "Humans tend to rate familiar statements as more likely to be true, even when they were first heard in doubt. Repetition can also wear down the effort to argue back, because each reply feels like starting again. When the repeated claim comes from someone who matters to you, it can slip from something you hear to something you believe about yourself.",
-   "possible_impact_on_receiver": "A slow slide from 'that's not true' to 'maybe there's something in it' is what some report. Some notice they have taken the claim on as part of how they describe themselves, and some feel angry on discovering the same sentence has been planted in several people. Others felt relief once they asked for a reason and saw there was none.",
+   "possible_impact_on_receiver": "Some people notice a slow slide from 'that's not true' to 'maybe there's something in it.' Some notice they have taken the claim on as part of how they describe themselves. Some feel angry on discovering the same sentence has been planted in several people. Others felt relief once they asked for a reason and saw there was none.",
    "response_options": {
     "soft_clarification": "Ask for the evidence behind the line: 'You've said that a few times. Can you give me one example from this month?'",
     "firm_boundary": "Say you will not accept a claim on repetition alone: 'Hearing it again doesn't make it more true for me. I'll respond when there's something I can check.'",
     "disengagement": "Stop responding when the same sentence comes back with nothing new, and keep your own notes of what is actually true.",
     "support_seeking": "Ask someone who has seen you in many settings whether the repeated claim matches what they see, and write down their answer.",
-    "workplace_or_professional": "At work, ask for specific, dated examples whenever a vague criticism returns, and keep your own record of your work and feedback."
+    "workplace_or_professional": "At work, ask for specific, dated examples whenever a vague criticism returns. Keep your own record of your work and feedback."
    },
    "boundary_script": "\"I've heard that sentence several times now. I'm not going to treat it as true because it's familiar. If there's a specific example, I'll listen to it. If not, I'd like to move on.\"",
-   "safety_note": "A repeated claim is a pressure on your beliefs, not a physical danger in itself. It deserves more care when the repeated line concerns your fitness as a parent, your sanity or your honesty, and is told to schools, courts, employers or relatives. In that case, keep dated records and talk to a lawyer, an advocate or a trusted person.",
+   "safety_note": "A repeated claim puts pressure on your beliefs, but it is not a physical danger in itself. It deserves more care when the repeated line concerns your fitness as a parent, your sanity or your honesty, and is told to schools, courts, employers or relatives. In that case, keep dated records and talk to a lawyer, an advocate or a trusted person.",
    "safety_sensitive": false,
    "misuse_warning": [
     "Repeating a true thing is not manipulation. If you have not checked whether the claim is accurate, the label may only mean you dislike hearing it.",
@@ -36038,7 +36038,7 @@
     "Selective Memory",
     "Moving Goalposts"
    ],
-   "how_to_distinguish_from_related": "Gaslighting flatly denies what you saw or remember, whereas this tactic states a claim, usually about you or a past event, and relies on volume. Selective Memory leaves things out as though forgotten, but repetition keeps pressing one thing forward. Countering contradicts your account on the spot, while this works slowly, by wearing a line into familiarity.",
+   "how_to_distinguish_from_related": "Gaslighting flatly denies what you saw or remember. This tactic states a claim, usually about you or a past event, and relies on volume. Selective Memory leaves things out as though forgotten, but repetition keeps pressing one thing forward. Countering contradicts your account on the spot, while this works slowly, by wearing a line into familiarity.",
    "detection_notes": "Not matched or scored by this tool. Pasted text cannot establish this concept — included in the Field Guide purely as a literacy reference.",
    "codex_maturity": "mature",
    "human_review_flags": [
@@ -36053,19 +36053,19 @@
    "branch": "reference",
    "category": "Reality Distortion",
    "detectability_note": "This tool cannot establish this from pasted text at all. It is included for literacy only, so you can learn to recognize the concept — not as something this tool detects, scores, or flags.",
-   "core_meaning": "Flooding people with a high volume of fast, shifting and often contradictory claims so that checking and answering each one becomes impossible.",
+   "core_meaning": "Flooding people with fast, shifting and often contradictory claims, so checking and answering each one becomes impossible.",
    "aftermath_state": false,
    "forensic_only": false,
    "absorbs": [],
-   "short_definition": "Flooding people with a high volume of fast, shifting and often contradictory claims so that checking and answering each one becomes impossible.",
-   "expanded_definition": "The firehose of falsehood is a propaganda style, described by researchers who studied Russian state media, that sends out a large number of claims through many channels, quickly and without worrying about consistency. The aim is not to persuade with one story. It is to leave listeners overloaded, unsure what to believe and tired of checking. The same overload can happen in a family or workplace argument, when accusations arrive faster than anyone can answer them.",
-   "plain_language_summary": "So many claims arrive so quickly, and from so many directions, that you cannot check them all, and you may give up trying to work out what is true.",
+   "short_definition": "Flooding people with fast, shifting and often contradictory claims, so checking and answering each one becomes impossible.",
+   "expanded_definition": "The firehose of falsehood is a propaganda style, described by researchers who studied Russian state media. It sends out a large number of claims through many channels, quickly and without worrying about consistency. The aim is to leave listeners overloaded, unsure what to believe and tired of checking, rather than to persuade with one story. The same overload can happen in a family or workplace argument, when accusations arrive faster than anyone can answer them.",
+   "plain_language_summary": "So many claims arrive so quickly, and from so many directions, that you cannot check them all. You may give up trying to work out what is true.",
    "why_this_matters": "Fact-checking one claim takes minutes, while a flood can arrive in seconds. People who cannot keep up may stop trusting everything, or fall back on whoever sounds most confident. Either way, the thing they set out to understand stays buried.",
    "what_it_is": [
     "A flood of claims at high volume, sent through many outlets or voices at once.",
     "Claims that do not need to agree with each other, since the aim is to overload and not to persuade with one story.",
     "A style that treats speed as more important than accuracy, so corrections come after the damage is done.",
-    "Shown at population scale in media and online campaigns, and at small scale in arguments that pile accusation on accusation."
+    "It shows up at population scale in media and online campaigns. It shows up at small scale in arguments that pile accusation on accusation."
    ],
    "what_it_sounds_like": [
     "A stream of posts in one hour offering three different explanations for the same event, none of them agreeing.",
@@ -36087,7 +36087,7 @@
     "The claims arrive in volume and speed that no person could check, across many channels at once.",
     "The messages contradict each other and nobody seems bothered by it.",
     "Corrections are ignored or answered with a new set of claims.",
-    "After a while you feel less sure of what you know, and not just about the topic in question.",
+    "After a while you feel less sure of what you know, on topics well beyond the one in question.",
     "The overall effect is to make you doubt that anything can be known, instead of convincing you of one thing."
    ],
    "this_may_not_be_it_when": [
@@ -36132,14 +36132,14 @@
    ],
    "repair_check": "In an organization or public conversation, mending looks like fewer claims, each stated once, with sources and a plain correction when one fails. In a personal argument, it looks like someone slowing down to address one charge at a time. A flood followed by an apology for 'the confusion' is not that.",
    "boundary_respect_check": "Ask yourself if you were given room to take one claim at a time. A person or source that agrees to focus on a single point and give you evidence is treating you as someone who can think. If asking to slow down produces a fresh wave, the overload is the point.",
-   "psychological_mechanism": "Attention and checking effort are limited. A flood tends to use them up, so people may fall back on shortcuts like trusting the most repeated or most confident voice. Contradictory claims can also leave a listener feeling that truth is out of reach, which may lead to disengaging altogether, a result that serves whoever wanted the question left unresolved.",
-   "possible_impact_on_receiver": "People describe fatigue, a sense that nothing can be trusted, and a reluctance to follow the news or the argument at all. Some retreat to a small circle they trust, some feel anxious about being fooled, and some describe the odd experience of agreeing with a claim at breakfast and being unable to say why by evening.",
+   "psychological_mechanism": "Attention and checking effort are limited, and a flood often uses them up. People may fall back on shortcuts, like trusting the most repeated or most confident voice. Contradictory claims can also leave a listener sure that truth is out of reach. That may lead to disengaging altogether, which serves whoever wanted the question left unresolved.",
+   "possible_impact_on_receiver": "People describe fatigue, a sense that nothing can be trusted, and a reluctance to follow the news or the argument at all. Some retreat to a small circle they trust. Some feel anxious about being fooled. Some describe the odd experience of agreeing with a claim at breakfast and being unable to say why by evening.",
    "response_options": {
     "soft_clarification": "Ask for one thing at a time: 'There are a lot of points here. Can we take the first one and see what supports it before we move on?'",
     "firm_boundary": "Decline to answer a flood: 'I'll respond to one claim at a time. Pick the one that matters most to you and I'll give it my full attention.'",
     "disengagement": "Step back from the feed or the argument and return later, picking only one or two claims to check from sources you can name.",
-    "support_seeking": "Take a pattern of high-volume claims to a fact-checking service, a reporter or the platform's reporting tool, with the examples you saved.",
-    "workplace_or_professional": "If this happens in your workplace, ask for important claims to be put in writing one at a time, and keep dated copies for a manager or HR."
+    "support_seeking": "Take a pattern of high-volume claims to a fact-checking service, a reporter or the platform's reporting tool. Bring the examples you saved.",
+    "workplace_or_professional": "If this happens in your workplace, ask for important claims to be put in writing one at a time. Keep dated copies for a manager or HR."
    },
    "boundary_script": "Verification script (to yourself, before sharing): \"Can I say where this came from, what supports it, and whether it fits with what I already know? If I can't, I'll wait a day before passing it on.\"",
    "safety_note": "Information overload is rarely a personal danger by itself. The danger signal is when a flood of claims is aimed at a named person, with harassment, threats or the release of personal details. If that begins, save the evidence, report it to the platform, and talk to a lawyer or local support service about next steps.",
@@ -36183,7 +36183,7 @@
     "A response that treats your naming of a pattern as the wrong done, not the pattern itself.",
     "Defending against the word, such as 'gaslighting,' instead of looking at the specific events you described.",
     "A second layer of doubt on top of the first: first about what happened, then about whether you may describe it.",
-    "A conversational trap that works even when the original behavior was ordinary, because it centers on offense taken."
+    "A conversational trap that works even when the original behavior was ordinary, because the talk turns on offense taken."
    ],
    "what_it_sounds_like": [
     "\"I can't believe you'd accuse me of that. That's the real attack here.\"",
@@ -36215,14 +36215,14 @@
     "They respond to your concerns the same way when you phrase them gently or sharply."
    ],
    "innocent_or_ordinary_possibilities": [
-    "Being accused of something serious can produce a flash of hurt that comes out as counter-accusation, before the person has had time to listen.",
+    "Being accused of something serious can cause a flash of hurt that comes out as a counter-accusation, before the person has had time to listen.",
     "Someone who has been wrongly labeled in the past may be especially raw about certain words.",
     "A person who is shocked may need a pause before they can hear a concern at all."
    ],
    "common_false_positives": [
     "A partner who says 'that's an unfair word' and then, a day later, asks what happened and listens.",
     "A colleague who objects to being called 'dismissive' but agrees to change how meetings are run.",
-    "A friend who disagrees that a pattern exists, offering their own view of the events, without turning it into a charge against you."
+    "A friend who disagrees that a pattern exists and offers their own view of the events, without turning it into a charge against you."
    ],
    "discernment_questions": [
     "If I describe only what happened, with no label, do I get a different response?",
@@ -36249,14 +36249,14 @@
    ],
    "repair_check": "Mending this starts with them going back to the first thing you described and answering it, after the heat has passed. A sorry for having 'been upset by your tone' while the original concern remains untouched leaves the same pattern in place.",
    "boundary_respect_check": "Try describing the event in plain terms, with no label, and see whether the reaction shifts. If they can hear it then, the word was the obstacle. If the same offense arrives anyway, the topic itself is off limits, whatever words you choose.",
-   "psychological_mechanism": "Naming a pattern is often how people regain confidence in what they have seen. If naming it brings accusation and distress, the lesson can be that perceiving is dangerous. Each time, the person may weigh the cost of speaking against the cost of staying quiet, and silence can begin to look like the easier path, while the original doubts stay in place.",
+   "psychological_mechanism": "Naming a pattern is often how people regain confidence in what they have seen. If naming it brings accusation and distress, a person can learn that noticing is dangerous. Each time, they may weigh the cost of speaking against the cost of staying quiet. Silence can begin to look like the easier path, while the original doubts stay in place.",
    "possible_impact_on_receiver": "Feeling unable to win even by being accurate and kind is what many report. Some begin to apologize for noticing things, some rehearse speeches that never get said, and some wonder whether they are the one causing harm. Others report a rush of clarity on realizing their concern had never actually been answered.",
    "response_options": {
     "soft_clarification": "Drop the label and describe the event: 'I'm not trying to name you. On Tuesday I said one thing and heard another, and I'd like to understand it.'",
     "firm_boundary": "Hold the line kindly: 'You can disagree with the word. I still need us to talk about what happened on Tuesday.'",
-    "disengagement": "If the talk turns to how you spoke, pause it and say you will return to the original point once you have both had time to cool off.",
-    "support_seeking": "Describe the original concern and the reply to someone you trust, and ask whether the concern was ever really answered.",
-    "workplace_or_professional": "At work, put your concern in writing as dated facts with no labels, and ask for a written reply to those facts so the response cannot drift to your wording."
+    "disengagement": "If the talk turns to how you spoke, pause it. Say you will return to the original point once you have both had time to cool off.",
+    "support_seeking": "Describe the original concern and the reply to someone you trust. Ask whether the concern was ever really answered.",
+    "workplace_or_professional": "At work, put your concern in writing as dated facts with no labels. Ask for a written reply to those facts, so the response cannot drift to your wording."
    },
    "boundary_script": "\"I can hear that the word hurt, and I'll set it aside. What I'm asking about is what happened on Tuesday. Can we start there, and talk about the word afterwards if you'd like?\"",
    "safety_note": "Being told that naming a problem is the problem is painful, though not unsafe on its own. It becomes a bigger concern if raising issues brings threats, punishment, silence that lasts days, or control over money and contact. Then, keep notes somewhere private, and talk to an advocate or counselor outside the relationship before pressing the issue further.",
@@ -36273,7 +36273,7 @@
     "Selective Memory",
     "Moving Goalposts"
    ],
-   "how_to_distinguish_from_related": "Gaslighting disputes what you saw, while meta-gaslighting disputes your right to say what you saw. Deflection changes the subject to something else, but here the subject becomes your wording and tone. Countering contradicts your account of events, whereas this tactic responds to your account of the pattern by casting you as the offender.",
+   "how_to_distinguish_from_related": "Gaslighting disputes what you saw, while meta-gaslighting disputes your right to say what you saw. Deflection changes the subject to something else, but here the subject becomes your wording and tone. Countering contradicts your account of events. This tactic answers your account of the pattern by casting you as the offender.",
    "detection_notes": "Not matched or scored by this tool. Pasted text cannot establish this concept — included in the Field Guide purely as a literacy reference.",
    "codex_maturity": "mature",
    "human_review_flags": [
@@ -36288,20 +36288,20 @@
    "branch": "reference",
    "category": "Guilt & Obligation Leverage",
    "detectability_note": "This tool cannot establish this from pasted text at all. It is included for literacy only, so you can learn to recognize the concept — not as something this tool detects, scores, or flags.",
-   "core_meaning": "Fear, a sense of what is owed, and guilt layered together around a request until refusing feels frightening, ungrateful and cruel all at once.",
+   "core_meaning": "Fear, a sense of debt, and guilt layered around a request until saying no is frightening, ungrateful and cruel all at once.",
    "aftermath_state": false,
    "forensic_only": false,
    "absorbs": [],
-   "short_definition": "Fear, a sense of what is owed, and guilt layered together around a request until refusing feels frightening, ungrateful and cruel all at once.",
+   "short_definition": "Fear, a sense of debt, and guilt layered around a request until saying no is frightening, ungrateful and cruel all at once.",
    "expanded_definition": "FOG is short for fear, obligation and guilt. The tactic is the layering, not any one strand. Fear says something bad follows a no. Obligation says you owe this. Guilt says only a heartless person would refuse. Each strand alone might be answered. Together they close off every version of no, so each way of declining sets off a different alarm. Real duties, real stakes and real worry can all exist in one situation without anyone assembling them. What marks FOG is the combination arriving reliably around one particular request.",
-   "plain_language_summary": "When you think about saying no, you feel scared of what might happen, in debt for what you owe, and guilty for even considering it, all at once.",
+   "plain_language_summary": "When you think about saying no, you are scared of what might happen, you feel you owe a debt, and you feel guilty for even considering it, all at once.",
    "why_this_matters": "Any one of these pressures might be refusable alone. Layered together, they leave no kind of no that does not feel frightening, ungrateful or cruel at the same moment.",
    "what_it_is": [
     "Three strands of pressure delivered together, often in a single conversation about one decision.",
     "The fear strand is usually vague: a hint at what might happen, seldom a stated consequence.",
     "The obligation strand turns past help into a bill, such as money lent, years of care or sacrifices recalled.",
     "The guilt strand casts declining as a flaw in your character, not a choice about one request.",
-    "It can run through families, workplaces, faith communities and couples, wherever one person holds some power over another's security or standing."
+    "It can run through families, workplaces, faith communities and couples. It shows up wherever one person holds some power over another's security or standing."
    ],
    "what_it_sounds_like": [
     "I'd hate to see what happens if you walk away from this.",
@@ -36313,10 +36313,10 @@
     "I've never asked for anything, and now you want to turn me down?"
    ],
    "what_it_is_not": [
-    "Real obligations, real stakes and real concern can sit in one situation without anyone assembling them into pressure. Cultural and family norms about duty can produce all three honestly.",
+    "Real duties, real stakes and real worry can exist in one situation without anyone building them into pressure. Cultural and family norms about duty can bring up all three honestly.",
     "A single strand on its own: a worried parent, a debt openly discussed, or an honest 'I'd feel guilty if you went.'",
     "A manager explaining the real consequences of missing a deadline, which is information and not menace.",
-    "A friend anxious about a risky plan who reminds you of past help and says they would feel awful, but hears your no and stays warm.",
+    "A friend is anxious about a risky plan. They remind you of past help and say they would feel awful, but they hear your no and stay warm.",
     "Someone stating their own feelings about your choice and then letting you make it."
    ],
    "this_may_be_it_when": [
@@ -36367,21 +36367,21 @@
     "You keep paying the debt, but the amount owed is never settled."
    ],
    "repair_check": "Check whether the three strands actually leave. Someone changing course would name which pressure they applied, drop the vague hints and let a no stand without a cold week afterward. An apology that arrives alongside new, slightly different pressure is the same fog in different weather.",
-   "boundary_respect_check": "Consider the week after you decline. Is the relationship as warm as before, or is there a price, such as silence, a reminder of debts or a mention of what might go wrong? A boundary that is respected costs you nothing afterward.",
-   "psychological_mechanism": "Fear, obligation and guilt each speak to a different need: safety, fairness and belonging. A refusal that threatens all three tends to leave no safe place to stand. Vagueness in the fear can help it work, because imagination fills in a consequence larger than anything said aloud, and an unnamed danger is hard to argue with.",
+   "boundary_respect_check": "Think about the week after you decline. Is the relationship as warm as before, or is there a price, such as silence, a reminder of debts or a mention of what might go wrong? A boundary that is respected costs you nothing afterward.",
+   "psychological_mechanism": "Fear, obligation and guilt each speak to a different need: safety, fairness and belonging. A refusal that threatens all three leaves no safe place to stand. Vagueness in the fear can help it work. Imagination fills in a consequence larger than anything said aloud, and an unnamed danger is hard to argue with.",
    "possible_impact_on_receiver": "Some report a tight chest or dread before the phone rings, and agreeing just to make it stop. Others say they can no longer tell whether a decision is their own. Over time, simple requests from that person can feel loaded, even when they are not.",
    "response_options": {
     "soft_clarification": "Name one strand calmly: 'I notice I feel pressured to say yes. Can we look at the request on its own?'",
     "firm_boundary": "Hold to one short, repeatable line: 'I'm going to think about it, and I'll tell you what I decide.' Time keeps the three strands from landing at once.",
     "disengagement": "Postpone the answer. Saying 'I'll get back to you' and then taking a day gives the pressure time to fade and your own judgment time to return.",
-    "support_seeking": "Write the fear, the debt and the guilt as three separate lists and show them to someone outside the situation, such as a counselor or friend. Seeing them apart often changes their weight.",
-    "workplace_or_professional": "At work, ask for any consequence or expectation in writing from HR or a supervisor, so fears can be checked against real policy and not hints."
+    "support_seeking": "Write the fear, the debt and the guilt as three separate lists. Show them to someone outside the situation, such as a counselor or friend. Seeing them apart often changes their weight.",
+    "workplace_or_professional": "At work, ask for any consequence or expectation in writing from HR or a supervisor. Then fears can be checked against real policy and not hints."
    },
    "boundary_script": "\"This matters to you, and I take that seriously. I'm not able to give you an answer in this conversation. Give me a day, and I'll come back to you.\"",
    "safety_note": "The mix of fear, obligation and guilt is mostly an emotional squeeze. Concern rises when the fear strand points at something concrete and serious: housing, income, access to your children, immigration status or your physical safety. In that case do not test it; talk to a domestic violence or legal-aid advocate about a plan first. Many can be reached by phone or chat without the other person knowing.",
    "safety_sensitive": false,
    "misuse_warning": [
-    "Naming FOG for any family request that carries some worry, duty and guilt can turn ordinary closeness into a verdict on the relationship.",
+    "Calling any family request that carries some worry, duty and guilt FOG can turn ordinary closeness into a verdict on the relationship.",
     "Calling someone's honest fear 'pressure' can dismiss people who are truly frightened for you."
    ],
    "related_tactics": [
@@ -36407,20 +36407,20 @@
    "branch": "reference",
    "category": "Guilt & Obligation Leverage",
    "detectability_note": "This tool cannot establish this from pasted text at all. It is included for literacy only, so you can learn to recognize the concept — not as something this tool detects, scores, or flags.",
-   "core_meaning": "Tying your own mood or wellbeing so visibly to another person's answer that they feel responsible for keeping you okay.",
+   "core_meaning": "Linking your own mood to another person's answer so openly that they feel responsible for keeping you okay.",
    "aftermath_state": false,
    "forensic_only": false,
    "absorbs": [],
-   "short_definition": "Tying your own mood or wellbeing so visibly to another person's answer that they feel responsible for keeping you okay.",
+   "short_definition": "Linking your own mood to another person's answer so openly that they feel responsible for keeping you okay.",
    "expanded_definition": "Emotional Hostage-Taking is when one person's distress rises and falls with another person's yes or no. A request is declined and the mood drops: silence, a sunk face, a headache, a refusal to eat. The other person ends up in charge of managing it. Everyone is upset sometimes by a disappointing answer, and that is not this. The pattern is distress that arrives reliably around requests, limits and disagreements, and clears when the answer changes.",
-   "plain_language_summary": "Your answer decides whether the other person falls apart or is fine, so every choice you make comes with the job of managing their mood.",
-   "why_this_matters": "Managing another person's mood becomes the price of refusing anything, and whatever follows a no is blamed on the person who said it.",
+   "plain_language_summary": "Your answer decides whether the other person falls apart or is fine. Every choice you make comes with the job of managing their mood.",
+   "why_this_matters": "Managing another person's mood becomes the price of refusing anything. Whatever follows a no is blamed on the person who said it.",
    "what_it_is": [
     "A mood or physical state that seems to hinge on the answer to a request: sulking, withdrawal, low energy, 'not feeling well'.",
     "Leaves the other person with a duty they never agreed to: keeping someone's day, evening or week from going wrong.",
     "The distress may be real to the person feeling it. What shows from outside is its timing around requests and limits.",
     "Often runs through silence or withdrawal more than words, so the link between your answer and their state goes unspoken.",
-    "Different from an open request for support, where the other person can decline to fix things and the relationship carries on."
+    "This is different from an open request for support, where the other person can decline to fix things and the relationship carries on."
    ],
    "what_it_sounds_like": [
     "Fine. Do what you want. I'll just be miserable all weekend.",
@@ -36432,7 +36432,7 @@
     "My stomach is in knots, but sure, you go and enjoy yourself."
    ],
    "what_it_is_not": [
-    "Being truly, involuntarily upset by a disappointing answer. Someone who finds feelings hard to regulate is not thereby using them as leverage.",
+    "Being truly, involuntarily upset by a disappointing answer. Someone who finds feelings hard to manage is not using them to get their way.",
     "The ordinary give and take of close relationships, where each person's choices affect the other's mood.",
     "An open request such as 'I get anxious being alone, can we plan something?', which leaves you free to say no.",
     "Grief, illness or depression, where low mood has causes that do not depend on your answer.",
@@ -36446,7 +36446,7 @@
     "The same upset follows any limit, large or small."
    ],
    "this_may_not_be_it_when": [
-    "The distress shows up in many parts of life, not only around your answers.",
+    "The distress shows up in many parts of life, well beyond your answers.",
     "They tell you they are struggling and ask for company, and accept that you may not be able to give it.",
     "The mood passes whether or not you give in.",
     "They have a diagnosed condition or a recent loss and are getting support for it.",
@@ -36460,7 +36460,7 @@
    "common_false_positives": [
     "A partner who is sad that you are away for a month, says so, and then helps you pack.",
     "A friend with depression who has a rough week after a canceled plan.",
-    "A young child who melts down at a refusal, which is development and not leverage."
+    "A young child who melts down at a refusal. That is development, and it is not a tactic."
    ],
    "discernment_questions": [
     "Does the distress follow my answer, or would it have happened anyway?",
@@ -36486,15 +36486,15 @@
     "You feel relief when their mood lifts that has little to do with enjoying their company."
    ],
    "repair_check": "Take note of what changes when you decline a small request. Someone working on this would tell you they were upset, handle it with other people and not mention it again as your doing. A promise to 'try not to get upset' followed by the same collapse next time has not shifted anything.",
-   "boundary_respect_check": "After a no, who is looking after the feeling? When it stays with the person who has it, and you are not asked to fix it, your boundary has been respected, even if they are sad. When the sadness is handed back to you as a debt, it has not.",
+   "boundary_respect_check": "After a no, who is looking after the feeling? If it stays with the person who has it and you are not asked to fix it, your boundary has been respected, even if they are sad. If the sadness is handed back to you as a debt, it has not.",
    "psychological_mechanism": "Most people want the people close to them to be okay, and a visible low mood speaks to that. When the mood reliably follows a refusal, saying no can start to seem like causing harm instead of making a choice. Compliance then brings quick relief to both people, which can teach the pattern without anyone saying anything.",
    "possible_impact_on_receiver": "The image of eggshells comes up often. You may cancel your own plans, hide good news or stay quiet when you disagree. Many feel responsible for moods that are not theirs to carry, and tired from constantly forecasting how a small decision will land.",
    "response_options": {
     "soft_clarification": "Acknowledge the feeling without taking on the job: 'I can see you're disappointed. I still can't come, and I hope tonight goes okay.'",
-    "firm_boundary": "Separate the feeling from the decision, gently: 'Your being upset matters to me, and I still need to decide this one myself.' If talk of self-harm comes up, stay with them and call a crisis line or emergency services together.",
-    "disengagement": "If the mood turns into silence, let it run without chasing it, do something steadying for yourself, and talk about the request later at a calmer time.",
+    "firm_boundary": "Separate the feeling from the decision, gently, with words like: 'Your being upset matters to me, and I still need to decide this one myself.' If talk of self-harm comes up, stay with them. Call a crisis line or emergency services together.",
+    "disengagement": "If the mood turns into silence, let it run without chasing it. Do something steadying for yourself, and talk about the request later at a calmer time.",
     "support_seeking": "Describe the loop to a friend or therapist: your answer, their mood, your next decision. Others can often tell you how much of it belongs to you.",
-    "workplace_or_professional": "At work, if a colleague's visible mood steers decisions, ask for decisions to be made against criteria agreed in advance, and raise it with your manager if it continues."
+    "workplace_or_professional": "At work, a colleague's visible mood may steer decisions. If so, ask for decisions to be made against criteria agreed in advance, and raise it with your manager if it continues."
    },
    "boundary_script": "\"I can tell this is hard for you, and I'm sorry you're disappointed. I've thought about it and my answer stays as it is for now. Maybe we can think together about who else you could lean on tonight.\"",
    "safety_note": "Watch for talk of harming themselves, or distress used to keep you from leaving the house, seeing people or going to work. If you hear words about not wanting to live, take them seriously. If the risk feels immediate, contact a crisis line or emergency services for them. Then speak to a counselor yourself about how much you can carry. An advocate can help if the distress is used to control your movements.",
@@ -36511,7 +36511,7 @@
     "Martyrdom Display",
     "Duty Scripts"
    ],
-   "how_to_distinguish_from_related": "Pity Plays perform helplessness to win sympathy, while here the upset is a state your answer is expected to manage. Self-Harm Threats as Leverage name danger to oneself if you leave or refuse; hostage-taking stays at mood and symptoms and states no threat. Martyrdom Display advertises past sacrifices, whereas this one ties present wellbeing to your next yes.",
+   "how_to_distinguish_from_related": "Pity Plays perform helplessness to win sympathy, while here the upset is a state your answer is expected to manage. Self-Harm Threats as Leverage name danger to oneself if you leave or refuse. Hostage-taking stays at mood and symptoms and states no threat. Martyrdom Display advertises past sacrifices, whereas this one ties present wellbeing to your next yes.",
    "detection_notes": "Not matched or scored by this tool. Pasted text cannot establish this concept — included in the Field Guide purely as a literacy reference.",
    "codex_maturity": "mature",
    "human_review_flags": [

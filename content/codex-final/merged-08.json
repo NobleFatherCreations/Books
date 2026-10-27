@@ -1,15 +1,15 @@
 {
   "Strategic Ambiguity": {
-    "short_definition": "Phrasing a promise, an exclusion or an intention so loosely that several readings stay open, and the one that gets used is picked afterwards.",
-    "core_meaning": "Phrasing a promise, an exclusion or an intention so loosely that several readings stay open, and the one that gets used is picked afterwards.",
-    "expanded_definition": "Strategic ambiguity is wording left loose enough that two people can leave the same conversation with different understandings, with nothing firm to show which was meant. Some call it ambiguity as a weapon. It can be vague promises and terms, or vague exclusion and tone that leave you unable to confirm what is happening. A single fuzzy sentence proves nothing. What stands out is vagueness that keeps resolving the same way, on matters that carry weight for you.",
-    "plain_language_summary": "Someone's words can be read two ways, so later you cannot prove what was promised or whether you were being left out, and you are the one left unsure.",
+    "short_definition": "Wording a promise, an exclusion or an intention so loosely that several readings stay open, and the useful one is chosen later.",
+    "core_meaning": "Wording a promise, an exclusion or an intention so loosely that several readings stay open, and the useful one is chosen later.",
+    "expanded_definition": "Strategic ambiguity is wording left loose enough that two people can leave the same conversation with different understandings, and nothing firm shows which was meant. Some call it ambiguity as a weapon. It can be vague promises and terms, or vague exclusion and tone that leave you unable to confirm what is happening. One fuzzy sentence proves nothing. What stands out is vagueness that keeps resolving the same way, on matters that carry weight for you.",
+    "plain_language_summary": "Someone's words can be read two ways. Later you cannot prove what was promised or whether you were being left out, and you are the one left unsure.",
     "why_this_matters": "You can feel that something was agreed, or that you are being left out, yet there is nothing firm to point to. Raising it risks sounding picky or paranoid, and staying quiet means carrying the doubt alone, sometimes while acting on a promise nobody pinned down.",
     "what_it_is": [
       "Commitments phrased softly, such as 'we'll see' or 'I'll try', on exactly the matters where a clear yes or no would cost something.",
       "Dates, amounts or reasons left unstated, so each person fills the gap with what they expected.",
       "Exclusion that is never spoken: a plan you hear about late, a cooler tone, a 'maybe next time' with no next time.",
-      "An explanation that arrives only after the loose wording is questioned, and that often differs from what you understood.",
+      "An explanation that comes only after the loose wording is questioned, and that often differs from what you understood.",
       "Found in households, workplaces, friendships, rental dealings and group chats."
     ],
     "what_it_sounds_like": [
@@ -24,7 +24,7 @@
     ],
     "what_it_is_not": [
       "Honest uncertainty about the future, said as uncertain and firmed up when you ask.",
-      "A person who is loose with words about everything, their own plans and deadlines included, and not only the ones that matter to you.",
+      "A person who is loose with words about everything. Their own plans and deadlines are vague too, along with the ones that matter to you.",
       "A plan that was genuinely still being worked out, where nobody had the details yet.",
       "Tact: a polite 'maybe' used to soften a no, which most people will clarify if asked directly.",
       "A group event that really was informal, where nobody counted heads and others were missed too.",
@@ -70,30 +70,30 @@
       "Others in the same position report the same uncertainty."
     ],
     "more_concerning_if": [
-      "The vague wording surrounds money, housing, work or a legal matter, where a later reading carries real consequences.",
+      "The vague wording covers money, housing, work or a legal matter, where a later reading has real consequences.",
       "Asking for clarity is treated as distrust, or answered with 'why are you making this so hard?'",
       "You have started acting on promises you are no longer sure were ever made."
     ],
     "pattern_over_time_signs": [
-      "You begin sending recap messages after every conversation to fix what was agreed, and the replies stay loose.",
+      "You start sending recap messages after every conversation to fix what was agreed, and the replies stay loose.",
       "You find out about plans or decisions only after they are settled.",
       "You argue both possible meanings in your head before asking anything.",
       "You feel unable to call something exclusion or a broken promise, because it was never put in so many words."
     ],
-    "repair_check": "The wording changes and not only the tone: dates, amounts and names start to appear, and a written recap is welcomed. An apology for 'the confusion' followed by an arrangement just as loose is not a change.",
+    "repair_check": "The wording itself changes, as well as the tone: dates, amounts and names start to appear, and a written recap is welcomed. An apology for 'the confusion' followed by an arrangement just as loose is not a change.",
     "boundary_respect_check": "Ask yourself what happens when you request the arrangement in a text or email. If it comes promptly and says something checkable, the request was respected. If it is delayed, softened again or called overkill, the loose wording is being protected.",
     "psychological_mechanism": "Loose wording hands each listener the job of filling in the gaps, and listeners often fill them with what they hope or expect. Afterwards there is nothing quotable to hold anyone to, so the listener may start blaming their own hearing. When the vagueness concerns exclusion, the lack of any concrete event can lead a person to suspect their own reading instead of the situation.",
-    "possible_impact_on_receiver": "People describe replaying conversations to work out what was actually said, feeling picky for asking, and hesitating to act on anything that is not in writing. Some describe turning down plans or work because they could not tell whether they were wanted, and others a lingering ache about whether they imagined being left out.",
+    "possible_impact_on_receiver": "Some people replay conversations to work out what was actually said. They feel picky for asking and hesitate to act on anything that is not in writing. Some turn down plans or work because they could not tell whether they were wanted. Others carry a lingering ache about whether they imagined being left out.",
     "response_options": {
       "soft_clarification": "Offer a recap that invites correction: 'So we agreed you'd pay half by the first of the month. Have I got that right?'",
-      "firm_boundary": "Ask for the point to be settled before you act: 'I need a yes or a no on this by Friday, in a message I can keep.'",
-      "disengagement": "Hold off on anything that depends on the loose promise, and make plans that do not rely on it, without arguing over what was meant.",
+      "firm_boundary": "Ask for the point to be settled before you act, as in: 'I need a yes or a no on this by Friday, in a message I can keep.'",
+      "disengagement": "Hold off on anything that depends on the loose promise. Make plans that do not rely on it, without arguing over what was meant.",
       "support_seeking": "Describe the exchange to a friend and ask what they would take it to mean. An outside reading shows whether the gap is as wide as it feels.",
-      "workplace_or_professional": "Follow meetings with a short email stating the decision, the owner and the date, and ask people to reply if they read it differently."
+      "workplace_or_professional": "After meetings, send a short email stating the decision, the owner and the date. Ask people to reply if they read it differently."
     },
     "boundary_script": "\"We should both be working from the same understanding. Can you tell me, in a message, exactly what you will do and by when? If you're not sure yet, just say that, and we can pick a day to decide.\"",
     "safety_sensitive": false,
-    "safety_note": "Vague wording is a clarity problem, not a danger signal. It changes when the vague wording covers housing, immigration paperwork, custody arrangements or money you depend on, or when asking for specifics brings anger or threats. In those cases, have the arrangement reviewed by a tenants' group, legal aid or a caseworker before you act on it.",
+    "safety_note": "Vague wording is a clarity problem, and not a danger signal in itself. That changes when the vague wording covers housing, immigration paperwork, custody arrangements or money you depend on, or when asking for specifics brings anger or threats. In those cases, have the arrangement reviewed by a tenants' group, legal aid or a caseworker before you act on it.",
     "misuse_warning": [
       "Not every 'maybe' or 'we'll see' is a trap. Treating ordinary hedging as proof of bad faith can turn a clumsy communicator into a villain.",
       "Being unable to tell whether you are excluded does not show that you are. Asking plainly before concluding is fair to both sides."

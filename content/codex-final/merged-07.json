@@ -297,13 +297,13 @@
     "core_meaning": "Deciding what a conversation is about, through loaded labels or topic swaps, so that your actual concern has no place to land.",
     "expanded_definition": "Frame control sets the terms of an exchange: what it is about, what is at stake and who plays which part. It takes more than one form. When a loaded label or extreme comparison settles the verdict before the facts arrive, it is often called false framing. When your point about an action is answered by turning the talk to your mood or character, the term frame assassination gets used. One topic change in a tense talk is ordinary. The pattern is a frame that no version of your concern can fit inside.",
     "plain_language_summary": "The talk keeps getting turned into a talk about something else, often you. What you actually wanted to say never gets an answer.",
-    "why_this_matters": "An accurate account can come out sounding irrelevant, because the terms were set to leave it out before you spoke. You arrive with a concern about something that happened and leave defending your mood or motives, with your original point never refused and never answered.",
+    "why_this_matters": "An accurate account can come out sounding irrelevant, because the terms were set to leave it out before you spoke. You arrive with a concern about something that happened and leave defending your mood or motives. Your original point was never refused and never answered.",
     "what_it_is": [
       "Redefining the topic, the stakes or the roles so that your concern no longer matches the conversation.",
       "Opening with a loaded label or an extreme comparison, so the verdict is settled before the facts are laid out.",
       "Swapping a concern about an action for a remark about your tone, mood, character or history.",
       "Persistent: restating your point sends it back into the same frame.",
-      "Can happen in writing, in meetings, in family disputes and in public statements, anywhere one account is allowed to name the subject."
+      "It can happen in writing, in meetings, in family disputes and in public statements. It can happen anywhere one account is allowed to name the subject."
     ],
     "what_it_sounds_like": [
       "This isn't about the dishes. This is about how unstable you've been lately.",
@@ -369,12 +369,12 @@
       "You say 'never mind' to end the talk, though the issue is unchanged.",
       "Over months you bring up fewer concerns, and the list you keep in your head gets longer."
     ],
-    "repair_check": "Once you point out the swap, a changed exchange looks like them stating your original point back to you and answering it, even if the answer is no. An apology about the argument that never touches the original issue leaves that issue where it was.",
+    "repair_check": "After you point out the swap, real change looks like them stating your original point back to you and answering it, even if the answer is no. An apology about the argument that never touches the original issue leaves that issue where it was.",
     "boundary_respect_check": "Notice whether you can hold your topic. Say once, 'I'd like an answer to my first question,' and see if it gets one. If the reply is more about you, the request was met with the very move it was about.",
-    "psychological_mechanism": "Conversations follow whichever topic is emotionally louder. A remark about your stability or character is hard to ignore, so your effort moves to defending yourself, which is more tiring than complaining. A loaded label does similar work early, since later facts tend to be read through it. Pushing back on a personal remark can sound like proving it, and the original concern gets quietly dropped.",
-    "possible_impact_on_receiver": "People describe leaving a talk unable to say what they had meant to ask, replaying it for hours, and wondering whether they really are as difficult as they were just told. Some begin rehearsing complaints in advance, or stop raising them. A slow sense that nothing they bring up ever gets settled is also common.",
+    "psychological_mechanism": "Conversations follow whichever topic is emotionally louder. A remark about your stability or character is hard to ignore, so your effort moves to defending yourself, which is more tiring than complaining. A loaded label does similar work early, since later facts are often read through it. Pushing back on a personal remark can sound like proving it, and the original concern gets quietly dropped.",
+    "possible_impact_on_receiver": "After a talk like this, some people cannot say what they had meant to ask. They replay it for hours and wonder whether they really are as difficult as they were just told. Some begin rehearsing complaints in advance, or stop raising them. A slow sense that nothing they bring up ever gets settled is also common.",
     "response_options": {
-      "soft_clarification": "Name the swap and ask for both topics: 'I'd like to hear how I come across, and I'd also like an answer to what I first asked. Can we do mine first?'",
+      "soft_clarification": "Name the swap and ask for both topics, with words like: 'I'd like to hear how I come across, and I'd also like an answer to what I first asked. Can we do mine first?'",
       "firm_boundary": "Hold your topic: 'That may be worth talking about, but it's not the subject today. I asked about the canceled plans.'",
       "disengagement": "If the new topic keeps winning, stop the exchange and put the original concern in a short written note you can point back to.",
       "support_seeking": "Tell a friend your original question and ask them to say back what they hear. If they can state it clearly, you know the question was not the problem.",
@@ -384,9 +384,9 @@
     "safety_sensitive": false,
     "safety_note": "A conversation where someone else sets the terms is a conversation problem, not a danger sign. The picture changes if raising a concern starts to bring threats, punishments, or talk of your mental state to doctors or relatives. If that happens, note what was said and when, and talk to a counselor or advocate you trust before the next conversation about it.",
     "misuse_warning": [
-      "Calling it frame control whenever a talk changes topic punishes ordinary drift and hides the times you changed the subject yourself.",
-      "Used as an accusation, 'you're controlling the frame' can itself replace the other person's concern, which is the move it describes."
+      "Calling every change of topic frame control punishes ordinary drift. It also hides the times you changed the subject yourself.",
+      "Said as an accusation, 'you're controlling the frame' can push aside the other person's concern, which is the very move it describes."
     ],
-    "how_to_distinguish_from_related": "Deflection steps away from the issue with a tangent or a counter-question, and often leaves the original frame standing; frame control replaces the frame itself, usually with you at the center. Projection hands your complaint back as an accusation of the same behavior, while this hands it back as a remark about who you are. Priming / Narrative Seeding installs a lens before a talk begins, whereas this works inside the talk, as it unfolds."
+    "how_to_distinguish_from_related": "Deflection steps away from the issue with a tangent or a counter-question, and often leaves the original frame standing. Frame control replaces the frame itself, usually with you at the center. Projection hands your complaint back as an accusation of the same behavior, while this hands it back as a remark about who you are. Priming / Narrative Seeding installs a lens before a talk begins, whereas this works inside the talk as it unfolds."
   }
 }

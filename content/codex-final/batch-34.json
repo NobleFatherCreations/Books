@@ -582,16 +582,16 @@
   "core_meaning": "Changing the agreed account of past events so it matches the story someone prefers now, even though others clearly remember it differently."
  },
  "Word Salad": {
-  "short_definition": "Answering with long, circular, tangled language that never lands on a point, leaving the listener unable to pin anything down.",
-  "expanded_definition": "Word salad is speech that goes on at length, sounds as if it is about your question, and never actually answers it. Phrases loop back, ideas change mid-sentence and clarifying questions bring more of the same. Plenty of people talk this way when they are anxious, tired or thinking aloud, and some conditions affect how thoughts come out, so this does not show what anyone meant. The concern is when the fog reliably appears where a clear answer would be costly, and the listener leaves exhausted.",
+  "short_definition": "Answering with long, looping language that never reaches a point, so the listener cannot pin anything down.",
+  "expanded_definition": "Word salad is speech that goes on at length and sounds as if it is about your question, but never answers it. Phrases loop back and ideas change mid-sentence. Clarifying questions bring more of the same. Plenty of people talk this way when they are anxious, tired or thinking aloud, and some conditions affect how thoughts come out, so this does not show what anyone meant. It is a concern when the fog reliably appears where a clear answer would be costly, and the listener leaves exhausted.",
   "plain_language_summary": "You ask a simple question and get a long, winding reply that never answers it. Asking again makes it more confusing, and you walk away not knowing what was said.",
-  "why_this_matters": "Hours can pass with nothing established, with no claim to answer and no agreement reached, and the exhaustion left behind is easy to mistake for having been unreasonable.",
+  "why_this_matters": "Hours can pass with nothing settled. There is no claim to answer and no agreement reached. The exhaustion left behind is easy to mistake for having been unreasonable.",
   "what_it_is": [
    "A long answer to a short, direct question, with no answer in it.",
    "Circular phrasing, where each sentence points back to the previous one and none arrives anywhere.",
    "A reply to a request for clarification that adds new tangled material.",
    "A conversation that runs for a long time, after which neither person can say what was agreed.",
-   "Different from a person struggling to explain a hard, half-formed thought, who becomes clearer when given time and simple questions."
+   "This is different from a person struggling to explain a hard, half-formed thought. That person becomes clearer when given time and simple questions."
   ],
   "what_it_sounds_like": [
    "A two-minute reply to 'did you pay the bill?' that mentions the bank, a cousin and how money works, but never says yes or no.",
@@ -603,8 +603,8 @@
    "Sentences that start in one direction, turn halfway and finish somewhere else."
   ],
   "what_it_is_not": [
-   "Plenty of people struggle to say a complicated or half-formed thing clearly, and thinking aloud is naturally circular while the thinking is unfinished.",
-   "A communication difference, such as an associative or tangential style, that is part of how someone's mind works and not a tactic.",
+   "Plenty of people struggle to say a complicated or half-formed thing clearly. Thinking aloud is naturally circular while the thinking is unfinished.",
+   "A communication difference, such as an associative or tangential style. It is part of how someone's mind works, and it is not a tactic.",
    "Speaking in a second language or in a technical field, where precise words are hard to find.",
    "Fatigue, anxiety, a panic response or medication that scrambles speech temporarily.",
    "A person who truly does not know the answer and is talking around the gap, and says so when asked directly."
@@ -632,7 +632,7 @@
   "common_false_positives": [
    "A colleague describing a technical system in jargon you do not share.",
    "A nervous friend telling a long story to avoid a hard answer, who gives the answer once pressed gently.",
-   "A relative with dementia or a mental illness whose speech has become disorganized, which is a health issue and not a tactic."
+   "A relative with dementia or a mental illness whose speech has become disorganized. That is a health issue, and it is not a tactic."
   ],
   "discernment_questions": [
    "Does a simple, closed question get a simple answer at any point?",
@@ -657,9 +657,9 @@
    "You start writing the question down beforehand, or asking for answers by text.",
    "You feel slower or less intelligent after conversations with this person than with others."
   ],
-  "repair_check": "Watch what a direct request produces. Something real is a short answer given on a topic where it used to be a loop, or a plain 'I don't know yet, give me a day'. A promise to 'try to be clearer' followed by the same maze the next time has not made a difference.",
+  "repair_check": "Watch what a direct request produces. Real change is a short answer on a topic where there used to be a loop, or a plain 'I don't know yet, give me a day'. A promise to 'try to be clearer' followed by the same maze the next time has not made a difference.",
   "boundary_respect_check": "When you ask for a one-line answer, what comes back? A single sentence, even an uncomfortable one, is respect for the request. Another long reply that sidesteps the request shows that the maze, not the answer, is still on offer.",
-  "psychological_mechanism": "Trying to follow a tangled reply uses a lot of attention, and the effort of searching for the point can leave a person tired and doubting their own comprehension. After enough such exchanges, some people may give up asking, or agree just to end the conversation, and then find they have committed to something unclear.",
+  "psychological_mechanism": "Following a tangled reply takes a lot of attention. The effort of searching for the point can leave a person tired and doubting their own understanding. After enough of these talks, some people may stop asking, or agree just to end the conversation. Then they find they have committed to something unclear.",
   "possible_impact_on_receiver": "People describe leaving talks drained, with a headache or a heavy fog, and no clear idea what was said. Some say they began to wonder if they were slow or unable to follow. Others describe agreeing just to escape and feeling frustrated with themselves later.",
   "response_options": {
    "soft_clarification": "Narrow the question: 'Let me ask just one thing. Yes or no: did you send it?'",
@@ -676,6 +676,6 @@
    "Applying it to anyone whose argument you find hard can be a way of dismissing the content."
   ],
   "how_to_distinguish_from_related": "Word Salad overloads you with language and gives no answer. Deflection gives a clear but different answer, changing the subject or posing a counter-question. Thought-Stopping Clich\u00e9s use a short phrase to close the topic, while this uses a long one to dissolve it. Gaslighting contradicts what you remember, where word salad leaves you unsure what was said at all.",
-  "core_meaning": "Answering with long, circular, tangled language that never lands on a point, leaving the listener unable to pin anything down."
+  "core_meaning": "Answering with long, looping language that never reaches a point, so the listener cannot pin anything down."
  }
 }

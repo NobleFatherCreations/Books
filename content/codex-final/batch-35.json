@@ -1,7 +1,7 @@
 {
  "Contradiction Stacking": {
-  "short_definition": "Denying that something happened and, in the same conversation, defending it as justified, so no single answer settles anything.",
-  "core_meaning": "Denying that something happened and, in the same conversation, defending it as justified, so no single answer settles anything.",
+  "short_definition": "Saying something never happened and then, in the same talk, defending it as justified, so no single answer settles the matter.",
+  "core_meaning": "Saying something never happened and then, in the same talk, defending it as justified, so no single answer settles the matter.",
   "expanded_definition": "Contradiction stacking puts two incompatible positions on the table at once: it did not happen, and if it did, it was fair. Each one blocks the other, so whichever you answer seems to give up the second. It can start as a muddled defense in a heated moment. It becomes a pattern when the same pair of claims returns after each new complaint and the conversation never reaches which one is true.",
   "plain_language_summary": "Whatever you say back seems to prove the other half right: first the thing never happened, then it was deserved anyway.",
   "why_this_matters": "Answering one claim feels like accepting the other, so you never get a position to stand on, and what actually happened is never settled. Many people leave these talks more tired than angry, unsure what they were even trying to prove.",
@@ -51,7 +51,7 @@
    "Two relatives retelling a family argument, each defending their own part and forgetting their own slips."
   ],
   "discernment_questions": [
-   "Do the denial and the justification truly refer to the same event, or have two events blurred together in my mind?",
+   "Do the denial and the justification really refer to the same event, or have two events blurred together in my mind?",
    "When I name the mismatch calmly, does the other person engage with it, or does it become a new fight?",
    "Can I say, in one sentence, what they believe happened?",
    "Does this two-part answer show up in many conversations, or only this one?",
@@ -63,7 +63,7 @@
    "They can tell you which statement they stand behind and why."
   ],
   "more_concerning_if": [
-   "The denial returns each time the justification is challenged, and the justification returns each time the denial is challenged.",
+   "The denial comes back each time the justification is challenged. The justification comes back each time the denial is challenged.",
    "Noticing the contradiction is treated as another offense, such as nitpicking or twisting words.",
    "You have begun to avoid raising problems because you expect to be caught between the two answers."
   ],
@@ -73,32 +73,32 @@
    "You catch yourself agreeing with the justification just to end the talk.",
    "A friend notices that you apologize for events you are fairly sure were not your doing."
   ],
-  "repair_check": "Repair here sounds like one account of what happened, said without a justification stapled on, followed by different behavior the next time. A sorry that arrives wrapped in 'but you' is the same pair of claims again in softer clothes.",
+  "repair_check": "Repair here sounds like one account of what happened, said without a justification attached, followed by different behavior next time. A sorry wrapped in 'but you' is the same pair of claims again in softer clothes.",
   "boundary_respect_check": "One answer or two? State your concern once and count what comes back. A single answer, even an unwelcome one, gives the exchange footing. If the reply splits into denial plus defense again, the boundary is not being heard.",
-  "psychological_mechanism": "Two answers that block each other can leave a listener working on a puzzle with no solution. The effort of holding both in mind tends to use up the energy needed to press the original complaint. Over repeated rounds, a person may drop the complaint to stop the mental strain, and may begin to wonder whether the confusion is their own fault.",
+  "psychological_mechanism": "Two answers that block each other leave a listener working on a puzzle with no solution. Holding both in mind uses up the energy needed to press the original complaint. After repeated rounds, a person may drop the complaint to stop the strain, and may wonder whether the confusion is their own fault.",
   "possible_impact_on_receiver": "Cornered by their own words, some replay the talk for hours looking for the reply that would have worked. Many end up exhausted without having said what they meant, and some stop raising problems with that person at all. Others describe relief on seeing that the puzzle had no answer built into it.",
   "response_options": {
    "soft_clarification": "Point at the mismatch gently and ask for one answer: 'Those two things don't fit together for me. Which one is closest to how you see it?'",
    "firm_boundary": "Say you will take one answer at a time: 'Let's settle whether it happened first. Whether it was fair is a separate question, and I'll talk about it after.'",
-   "disengagement": "Stop when the second claim arrives and say you will pick the topic up later, then put the original concern in a short written note.",
+   "disengagement": "When the second claim arrives, stop and say you will pick the topic up later. Then put the original concern in a short written note.",
    "support_seeking": "Tell a friend the two replies exactly as you heard them and ask whether they read as contradictory to someone outside the talk.",
-   "workplace_or_professional": "At work, send a brief written summary naming the one fact in question, and ask the other person to confirm or correct that single point before discussing reasons."
+   "workplace_or_professional": "At work, send a brief written summary that names the one fact in question. Ask the other person to confirm or correct that single point before you discuss reasons."
   },
   "boundary_script": "\"I heard two things just now: that it did not happen, and that it was fair. I can talk about either one, but not both at once. Which would you like to start with?\"",
   "safety_sensitive": false,
-  "safety_note": "Mixed denial and defense is a confusing conversation, not a danger sign in itself. It would call for more care if the justification starts to include blame that leads to punishment, or you are made to feel afraid of the reaction when you disagree. It would also if money, access to children or housing hang on the outcome. In those cases, talk with a counselor or advocate.",
+  "safety_note": "A mix of denial and defense is a confusing conversation, and it is not a danger sign in itself. It would call for more care if the justification starts to include blame that leads to punishment, or if you are made to feel afraid of the reaction when you disagree. It would also call for more care if money, access to children or housing hang on the outcome. In those cases, talk with a counselor or advocate.",
   "misuse_warning": [
    "Spotting two clashing statements in a single argument does not prove a tactic. People under stress contradict themselves all the time, so look for the same pair returning across many incidents.",
-   "Pointing out someone's contradiction in a triumphant way can become its own way of winning rather than understanding."
+   "Pointing out someone's contradiction in a triumphant way can turn into a way of winning instead of understanding."
   ],
-  "how_to_distinguish_from_related": "Gaslighting works on your confidence in your own memory, whereas contradiction stacking leaves your memory alone and buries the issue under two clashing replies. Deflection moves to a different subject, while here the subject stays put and two answers pile onto it. Minimization shrinks the harm, but this tactic first denies it happened and then defends it."
+  "how_to_distinguish_from_related": "Gaslighting works on your confidence in your own memory. Contradiction stacking leaves your memory alone and buries the issue under two clashing replies. Deflection moves to a different subject, but here the subject stays put and two answers pile onto it. Minimization shrinks the harm, but this tactic first denies it happened and then defends it."
  },
  "Circular Arguments": {
   "short_definition": "Defending a claim by pointing back to the claim itself, so no outside fact is ever allowed to test it.",
   "core_meaning": "Defending a claim by pointing back to the claim itself, so no outside fact is ever allowed to test it.",
-  "expanded_definition": "A circular argument offers the conclusion as its own reason: it is true because it is true, or because the speaker feels sure. Everyone slips into this in a quarrel. It matters when it is the main way a disagreement gets handled, and when your questions are answered by a looped restatement. Because the loop contains no checkable fact, there is nothing to agree or disagree with, and the talk can run for an hour without moving.",
+  "expanded_definition": "A circular argument offers the conclusion as its own reason. It is true because it is true, or because the speaker feels sure. Everyone slips into this in a quarrel. It matters when it is the main way a disagreement gets handled, and your questions are answered with a looped restatement. The loop contains no checkable fact, so there is nothing to agree or disagree with. The talk can run for an hour without moving.",
   "plain_language_summary": "Every reason you get is just the first claim in new words. The talk goes in circles and never reaches anything you can check.",
-  "why_this_matters": "When every challenge returns you to the starting point, you cannot win, lose or even learn what the other person actually bases their view on. Long loops can wear a person down until agreeing feels easier than continuing to ask for a reason.",
+  "why_this_matters": "When every challenge sends you back to the starting point, you cannot win, lose or even learn what the other person bases their view on. Long loops can wear a person down until agreeing seems easier than asking again for a reason.",
   "what_it_is": [
    "A claim supported by itself, as in 'I'm right because I'm not wrong.'",
    "Reasons that, when examined, only repeat the point in different wording.",
@@ -116,7 +116,7 @@
   "what_it_is_not": [
    "Someone summarizing their view in a different way because they think you missed it the first time.",
    "A rule that is explained by its purpose after you ask, even if the purpose is one you dislike.",
-   "A principle held as a basic value, such as 'I don't lie to my children,' that is not meant to be argued from further evidence.",
+   "A principle held as a basic value, such as 'I don't lie to my children.' It is not meant to be argued from more evidence.",
    "A tired person repeating themselves because they are worn out and the talk has gone long.",
    "A real disagreement about premises, where each side honestly cannot see what would persuade the other."
   ],
@@ -167,34 +167,34 @@
    "You can recall arguments that lasted hours and cannot name a single point that was actually made.",
    "You start to quote their circular phrases back to yourself, such as 'I'm too sensitive to judge.'"
   ],
-  "repair_check": "Mending this looks like a reason you can check turning up in the next disagreement, or an honest 'I can't explain why I think so, but I do.' A promise to listen better, followed by the same loop, leaves the loop running.",
+  "repair_check": "Mending this looks like a reason you can check showing up in the next disagreement. It can also be an honest 'I can't explain why I think so, but I do.' A promise to listen better that is followed by the same loop leaves the loop running.",
   "boundary_respect_check": "Try asking once for a single concrete reason, then notice what changes. A person who respects the request will name something, even a weak thing. If the request is treated as proof that you are not listening, the boundary is not landing.",
-  "psychological_mechanism": "A loop with no fact in it offers no weak point to test, so a listener may keep searching for one and read the failure as their own slowness. The same sentence returning over and over can start to feel like support just because it is familiar, and giving in may become the quickest way out of the discomfort.",
-  "possible_impact_on_receiver": "Long talks end with a dizzy feeling of having missed something, followed by replaying the argument in search of the point nobody grasped. Some doubt their own reasoning, some stop asking questions, and some feel oddly guilty for wanting a reason at all.",
+  "psychological_mechanism": "A loop with no fact in it gives a listener no weak point to test. So they may keep searching for one and blame their own slowness. The same sentence coming back again and again can start to sound true just because it is familiar. Giving in may become the quickest way out of the discomfort.",
+  "possible_impact_on_receiver": "Long talks end with a dizzy sense of having missed something. Then comes replaying the argument, looking for the point nobody grasped. Some doubt their own reasoning, some stop asking questions, and some feel oddly guilty for wanting a reason at all.",
   "response_options": {
    "soft_clarification": "Ask for the step between the claim and the reason: 'I'm not following how you got there. What is the evidence underneath it?'",
    "firm_boundary": "Name the loop and decline to continue it: 'We have said the same sentence three times. I'd like one reason that's different from the claim.'",
-   "disengagement": "Pause the discussion when a new fact has not appeared for a while, and offer to pick it up after each of you has looked up what you can.",
+   "disengagement": "If no new fact has appeared for a while, pause the discussion. Offer to pick it up after each of you has looked up what you can.",
    "support_seeking": "Write the argument out in a few lines and ask a friend whether the reasoning goes anywhere. Seeing it on paper often makes the loop obvious.",
-   "workplace_or_professional": "At work, ask for the policy, data or decision-maker behind a claim, and note in writing that 'it is how we do things' was the explanation you were given."
+   "workplace_or_professional": "At work, ask for the policy, data or decision-maker behind a claim. Note in writing that 'it is how we do things' was the explanation you were given."
   },
   "boundary_script": "\"I've listened closely, and the reason I keep hearing is the claim itself. I'm happy to continue if you can give me one reason that stands apart from it. If not, let's leave it for today.\"",
   "safety_sensitive": false,
   "safety_note": "A loop of this kind is tiring but rarely dangerous on its own. It becomes more serious when the unquestionable claim is used to control your movements, spending or contact with other people. It also does when asking for a reason is met with anger or threats. Then, speak to someone outside the relationship, such as an advocate or counselor.",
   "misuse_warning": [
    "Calling an argument circular can be a way of dodging a point you cannot answer. Check first whether you have really been given a reason.",
-   "Accusing someone of circular logic in the middle of a quarrel may simply start a new loop about who is being logical."
+   "Calling someone's logic circular in the middle of a quarrel may simply start a new loop about who is being logical."
   ],
-  "how_to_distinguish_from_related": "Deflection leaves the topic and wanders somewhere else, while a circular argument stays on the topic and goes round it. Moving Goalposts changes what would count as proof after you meet it, but here nothing could ever count, since no proof is allowed in. Countering flatly contradicts your account, whereas this tactic answers your question with the claim itself dressed as a reason."
+  "how_to_distinguish_from_related": "Deflection leaves the topic and wanders somewhere else. A circular argument stays on the topic and goes round it. Moving Goalposts changes what would count as proof after you meet it, but here nothing could ever count, since no proof is allowed in. Countering flatly contradicts your account. This tactic answers your question with the claim itself, dressed up as a reason."
  },
  "Loaded Language": {
   "short_definition": "Choosing words that carry a verdict, label or insult so that a judgment is made before the facts are discussed.",
   "core_meaning": "Choosing words that carry a verdict, label or insult so that a judgment is made before the facts are discussed.",
-  "expanded_definition": "Loaded language uses words that already contain a judgment, such as calling a forgotten errand 'betrayal' or a question 'an attack'. The label does the arguing, so the facts never have to. Everyone reaches for strong words when hurt. The concern is when the biggest available word is applied to ordinary behavior again and again, and when pushing back on the word is treated as further proof it fit.",
+  "expanded_definition": "Loaded language uses words that already contain a judgment, such as calling a forgotten errand 'betrayal' or a question 'an attack'. The label does the arguing, so the facts never have to. Everyone reaches for strong words when hurt. The concern is when the biggest available word is used again and again for ordinary behavior. Another sign is when pushing back on the word is treated as further proof it fit.",
   "plain_language_summary": "A heavy label gets stuck on something ordinary. You end up fighting the word instead of talking about what happened.",
-  "why_this_matters": "Once a word like 'selfish' or 'abusive' is attached, the discussion shifts from what happened to whether you are that kind of person. Defending against the label can take over from addressing the actual issue, and a label repeated often enough can start to shape how you see yourself.",
+  "why_this_matters": "Once a word like 'selfish' or 'abusive' is attached, the talk shifts from what happened to whether you are that kind of person. Defending yourself against the label can take over from the actual issue. A label repeated often enough can start to shape how you see yourself.",
   "what_it_is": [
-   "Words picked for their emotional charge, such as 'betrayal,' 'manipulation' or 'crazy,' rather than for describing what took place.",
+   "Words picked for their emotional charge, such as 'betrayal,' 'manipulation' or 'crazy,' instead of words that describe what took place.",
    "A way of describing one action in two different vocabularies, with the choice depending on who did it.",
    "Labels that name a whole identity ('you are a liar') instead of a single behavior ('that was not true').",
    "Seen in households, workplaces, news headlines and political speech, with different words but the same mechanism."
@@ -212,8 +212,8 @@
    "A person in real pain using strong language for how something felt, then settling on plainer words once the first rush passes.",
    "A fair label for something that really fits, such as calling a repeated, deliberate lie a lie.",
    "Cultural or family styles of speech where dramatic words are normal and not meant literally.",
-   "Everyday exaggeration, like 'you always do this,' which is imprecise but not an attempt to pin an identity on you.",
-   "Technical or legal terms used precisely, such as 'trespass' or 'overdraft,' which carry meaning without implying a verdict about you."
+   "Everyday exaggeration, like 'you always do this.' It is imprecise, but it is not an attempt to pin an identity on you.",
+   "Technical or legal terms used precisely, such as 'trespass' or 'overdraft.' They carry meaning without implying a verdict about you."
   ],
   "this_may_be_it_when": [
    "A severe label arrives before anyone has described what happened.",
@@ -235,7 +235,7 @@
    "A person may only have a few words for an emotion and reaches for the strongest one available."
   ],
   "common_false_positives": [
-   "A friend who says 'I was devastated' about a canceled trip, meaning disappointed, and is happy to say so when asked.",
+   "A friend says 'I was devastated' about a canceled trip. They mean disappointed, and they are happy to say so when asked.",
    "A manager who calls a missed deadline 'unacceptable' in a performance review that gives the specifics.",
    "A news headline that uses punchy language, which is a sales choice rather than a personal judgment of you."
   ],
@@ -264,35 +264,35 @@
   ],
   "repair_check": "A genuine repair names the specific action that bothered them and drops the identity word, even when angry. Someone saying 'I shouldn't have called it that' and then reaching for the same word next week has only paused, not changed.",
   "boundary_respect_check": "You might ask yourself whether asking to keep to plain description is welcomed or mocked. When it is accepted, the conversation tends to name actions. When the request itself gets labeled, as in 'now you're policing my language,' the label is still doing the arguing.",
-  "psychological_mechanism": "A word that carries a verdict can skip past the facts and land on identity. The listener is pulled into defending against the label, so the original issue goes undiscussed. Hearing the same word often, from someone whose opinion counts, may also lead a person to try it on and half accept it after first rejecting it.",
-  "possible_impact_on_receiver": "Having to prove you are not the word uses up the energy that should go to the real question. Some begin to censor ordinary behavior, some start applying the label to themselves, and some say they only saw the effect when a friend repeated it back to them.",
+  "psychological_mechanism": "A word that carries a verdict can skip past the facts and land on who you are. The listener is pulled into defending against the label, so the original issue goes undiscussed. Hearing the same word often, from someone whose opinion counts, may lead a person to try it on. They may half accept it after first rejecting it.",
+  "possible_impact_on_receiver": "Having to prove you are not the word uses up energy that should go to the real question. Some begin to censor ordinary behavior. Some start applying the label to themselves. Some say they only saw the effect when a friend repeated it back to them.",
   "response_options": {
    "soft_clarification": "Ask for the plain version: 'That word feels very big to me. Can you tell me what I did, in a sentence, without the label?'",
    "firm_boundary": "Keep the talk on actions: 'I'll talk about what I did. I won't agree to a word that describes who I am.'",
-   "disengagement": "Step out of a conversation once it becomes a back-and-forth about the label, and invite them to return when the action itself is the topic.",
-   "support_seeking": "Ask someone who knows you well whether the word fits, and tell them the specific event so they judge it, not just the label.",
-   "workplace_or_professional": "At work, ask for specific examples when a label like 'difficult' or 'unprofessional' is used, and record the dates and facts in your own words."
+   "disengagement": "Once the talk becomes a back-and-forth about the label, step out of it. Invite them to return when the action itself is the topic.",
+   "support_seeking": "Ask someone who knows you well whether the word fits. Tell them the specific event, so they judge what happened as well as the label.",
+   "workplace_or_professional": "At work, ask for specific examples when a label like 'difficult' or 'unprofessional' is used. Record the dates and facts in your own words."
   },
   "boundary_script": "\"I understand you are upset, and I want to hear what happened. I'm going to keep to what I did, and not accept a word that describes me as a person. What was the thing that hurt?\"",
   "safety_sensitive": false,
-  "safety_note": "Heavy labels are usually a communication problem, not a danger signal. Take more care if the labels are used to isolate you from friends ('they're toxic, they're against us'), to threaten your job or custody of children, or to justify punishment. In those cases, document what is said and speak with an advocate or counselor outside the relationship.",
+  "safety_note": "Heavy labels are usually a communication problem, and not a danger signal. Take more care if the labels are used to isolate you from friends ('they're toxic, they're against us'), to threaten your job or custody of children, or to justify punishment. In those cases, document what is said and speak with an advocate or counselor outside the relationship.",
   "misuse_warning": [
-   "Accusing someone of 'loaded language' can dismiss a person who is truly hurt and has no gentler words available yet.",
+   "Calling someone's words 'loaded language' can brush aside a person who is truly hurt and has no gentler words yet.",
    "Not every strong word is a tactic. A fitting label, backed by examples, is accurate speech and not manipulation."
   ],
   "how_to_distinguish_from_related": "Gaslighting disputes what happened, whereas loaded language accepts that it happened and wraps it in a verdict. Minimization shrinks the weight of the event, while a loaded word usually inflates the other person's part. Deflection moves the subject. Loaded language stays on the subject but settles the judgment through the vocabulary alone."
  },
  "Semantic Traps": {
-  "short_definition": "Turning a conversation toward the exact wording someone used, so the original concern is lost in a fight about definitions.",
-  "core_meaning": "Turning a conversation toward the exact wording someone used, so the original concern is lost in a fight about definitions.",
+  "short_definition": "Steering a conversation to the exact wording someone used, so the original concern gets lost in a fight about definitions.",
+  "core_meaning": "Steering a conversation to the exact wording someone used, so the original concern gets lost in a fight about definitions.",
   "expanded_definition": "A semantic trap takes one imprecise word or phrase from your complaint and makes it the whole discussion. You said 'always' and it was twice. You said 'yelled' and the reply is that it was only a raised voice. Wording does matter sometimes, and careful people do correct each other. It becomes a trap when the correction replaces the concern, and you spend the talk defending vocabulary.",
-  "plain_language_summary": "One small slip in how you phrased something becomes the whole argument, so you end up defending your words and the thing you came to say never gets answered.",
-  "why_this_matters": "Your concern can be real and still lose, simply because one word was imperfect. When talks keep turning to your phrasing, you may start choosing words so carefully that you stop raising issues at all, and the actual problem stays where it was.",
+  "plain_language_summary": "One small slip in how you phrased something becomes the whole argument. You end up defending your words, and what you came to say never gets answered.",
+  "why_this_matters": "Your concern can be real and still lose because one word was imperfect. If talks keep turning to your phrasing, you may start choosing words so carefully that you stop raising issues at all. The actual problem stays where it was.",
   "what_it_is": [
    "Seizing on a single word, such as 'always,' 'never' or 'yelled,' and treating its precision as the main matter.",
    "A move from 'what you did' to 'what you called it,' so the behavior drops out of view.",
    "'That's not what I said' used about the exact phrasing and not the meaning.",
-   "A form of argument that works best on people who are emotional or short of time, since they are the least able to word things perfectly."
+   "A form of argument that works best on people who are emotional or short of time. They are the least able to word things perfectly."
   ],
   "what_it_sounds_like": [
    "\"I did not 'scream.' I spoke loudly. Those are different things.\"",
@@ -329,7 +329,7 @@
    "People from different regions or families may mean different things by the same word."
   ],
   "common_false_positives": [
-   "A coworker who corrects 'we agreed on Tuesday' to Wednesday, because the date really matters for the schedule.",
+   "A coworker corrects 'we agreed on Tuesday' to Wednesday, because the date really matters for the schedule.",
    "A partner who says 'I wasn't angry, I was frustrated,' and then goes on to discuss what frustrated them.",
    "A friend who teases you over a word and then listens to the actual story."
   ],
@@ -356,32 +356,32 @@
    "You have stopped raising smaller worries because the wording fight feels too costly.",
    "You notice that complaints from months ago were never actually answered."
   ],
-  "repair_check": "Real repair here means they respond to the substance you meant, even when the wording was messy, and they can say 'I got stuck on your word and missed your point.' If they agree about the word and drop the topic anyway, that is not repair.",
+  "repair_check": "Real repair here means they answer the substance you meant, even when your wording was messy. They can say 'I got stuck on your word and missed your point.' If they agree about the word and drop the topic anyway, that is not repair.",
   "boundary_respect_check": "Offer a swap and watch the result: use their word in place of yours and ask whether the concern still stands. If they do so and answer the point, the boundary works. If the offer is called yet more twisting, it has not been heard.",
-  "psychological_mechanism": "Because feelings are rarely worded perfectly, a challenge to wording can nearly always find something to hold onto. Defending a phrase takes the person's attention away from the complaint, and each lost round may teach them that raising an issue costs more than it gives. Over time, a careful speaker may start to doubt their own ability to describe events.",
+  "psychological_mechanism": "Feelings are rarely worded perfectly, so a challenge to wording can nearly always find something to hold onto. Defending a phrase pulls attention away from the complaint. Each lost round may teach the person that raising an issue costs more than it gives. Over time, a careful speaker may start to doubt their own ability to describe events.",
   "possible_impact_on_receiver": "A sense of having lost on a technicality, while still believing the original concern, is common. Some become guarded speakers who rehearse and over-qualify. Some stop speaking up, and some say they began to doubt whether they could describe their own life accurately.",
   "response_options": {
    "soft_clarification": "Accept the word and go back to the point: 'Fair, call it loud if you like. What I'm trying to say is that I felt scared.'",
    "firm_boundary": "Decline the side-trip kindly: 'I'm happy to use your word. I'd like us to talk about what happened, not which word is best.'",
    "disengagement": "When the wording debate takes over, pause it and say you will write your concern down in plain terms and send it later.",
    "support_seeking": "Tell a friend the complaint and the reply, then ask whether the reply answered the complaint or only its phrasing.",
-   "workplace_or_professional": "At work, put your concern in an email with dated facts, so there is less loose wording to seize on, and ask for a reply to the facts."
+   "workplace_or_professional": "At work, put your concern in an email with dated facts, so there is less loose wording to seize on. Ask for a reply to the facts."
   },
   "boundary_script": "\"You may be right about my word, and I'm fine using yours. It doesn't change what I came to say. Can you tell me what you make of the substance of it?\"",
   "safety_sensitive": false,
   "safety_note": "Quibbling over words is draining, but it is not a danger signal by itself. The picture changes when the wording fights are used to deny things that have real consequences, like threats, injuries or money taken. It also changes when you are punished for how you describe them. Keep your own record of events and talk to an advocate or legal aid if that happens.",
   "misuse_warning": [
-   "Labeling any request for precision as a 'semantic trap' can dismiss fair corrections, which matter in agreements and facts.",
+   "Calling any request for precision a 'semantic trap' can dismiss fair corrections, and those matter in agreements and facts.",
    "If you use the label to avoid hearing a correction that was right, the label becomes your own way of skipping the point."
   ],
-  "how_to_distinguish_from_related": "Countering flatly contradicts what you said happened, whereas a semantic trap leaves the event alone and attacks the way you described it. Deflection changes the subject to something unrelated, while here the topic is still your complaint but its words get all the attention. Minimization says the harm was small, but this tactic never gets as far as discussing size."
+  "how_to_distinguish_from_related": "Countering flatly contradicts what you said happened. A semantic trap leaves the event alone and attacks the way you described it. Deflection changes the subject to something unrelated. Here the topic is still your complaint, but its words get all the attention. Minimization says the harm was small, but this tactic never gets as far as discussing size."
  },
  "Repetition as Truth": {
   "short_definition": "Saying the same claim over and over, with no new evidence, until its familiarity begins to feel like proof.",
   "core_meaning": "Saying the same claim over and over, with no new evidence, until its familiarity begins to feel like proof.",
   "expanded_definition": "People tend to believe what they have heard many times, because familiar statements feel easier and truer. This tactic relies on that effect: a claim returns in nearly the same words, from conversation to conversation, without anything new behind it. Repeating a fact you have good reason for is ordinary. What marks the pattern is that the repetition is the only support, and 'I've told you before' stands in for a reason.",
-  "plain_language_summary": "A claim is said so many times, in the same words and with no new proof, that it starts to feel true simply because you have heard it so often.",
-  "why_this_matters": "Familiar claims can come to feel true even when you cannot say what supports them. If you hear the same sentence about yourself or about what happened, you may start repeating it without noticing, and lose track of whether you ever had a reason to believe it.",
+  "plain_language_summary": "A claim is said so many times, in the same words and with no new proof, that it starts to seem true just because you have heard it so often.",
+  "why_this_matters": "Familiar claims can start to seem true even when you cannot say what supports them. If you hear the same sentence about yourself or about what happened, you may start repeating it without noticing. You can lose track of whether you ever had a reason to believe it.",
   "what_it_is": [
    "The same claim, in near-identical words, returning across days, weeks or years.",
    "Repetition used in place of proof, as in 'I've said it a hundred times.'",
@@ -424,7 +424,7 @@
   ],
   "common_false_positives": [
    "A coach who says 'keep your eyes on the ball' at every practice, because that is the instruction.",
-   "A relative who retells an old family story at every holiday, which is nostalgia and not an argument.",
+   "A relative who retells an old family story at every holiday. That is nostalgia, and it is not an argument.",
    "A colleague repeating a deadline in each email because it has not been met."
   ],
   "discernment_questions": [
@@ -450,37 +450,37 @@
    "Counter-evidence you once held now feels weaker than the repeated line.",
    "People who barely know you describe you with the same phrase."
   ],
-  "repair_check": "Fixing this would show up as the claim being put to an actual test: they look at the evidence with you, say what they found, and change what they say afterwards. An apology that is followed by the old sentence the next week has only gone quiet.",
+  "repair_check": "Real change shows up as the claim being put to an actual test. They look at the evidence with you, say what they found, and change what they say afterwards. An apology followed by the old sentence the next week has only gone quiet.",
   "boundary_respect_check": "You can ask yourself what happens when you say 'please show me one new example.' Someone willing to look for one is treating the claim as testable. Someone who answers with the same sentence, louder, is repeating the claim again and has not heard the request.",
   "psychological_mechanism": "Humans tend to rate familiar statements as more likely to be true, even when they were first heard in doubt. Repetition can also wear down the effort to argue back, because each reply feels like starting again. When the repeated claim comes from someone who matters to you, it can slip from something you hear to something you believe about yourself.",
-  "possible_impact_on_receiver": "A slow slide from 'that's not true' to 'maybe there's something in it' is what some report. Some notice they have taken the claim on as part of how they describe themselves, and some feel angry on discovering the same sentence has been planted in several people. Others felt relief once they asked for a reason and saw there was none.",
+  "possible_impact_on_receiver": "Some people notice a slow slide from 'that's not true' to 'maybe there's something in it.' Some notice they have taken the claim on as part of how they describe themselves. Some feel angry on discovering the same sentence has been planted in several people. Others felt relief once they asked for a reason and saw there was none.",
   "response_options": {
    "soft_clarification": "Ask for the evidence behind the line: 'You've said that a few times. Can you give me one example from this month?'",
    "firm_boundary": "Say you will not accept a claim on repetition alone: 'Hearing it again doesn't make it more true for me. I'll respond when there's something I can check.'",
    "disengagement": "Stop responding when the same sentence comes back with nothing new, and keep your own notes of what is actually true.",
    "support_seeking": "Ask someone who has seen you in many settings whether the repeated claim matches what they see, and write down their answer.",
-   "workplace_or_professional": "At work, ask for specific, dated examples whenever a vague criticism returns, and keep your own record of your work and feedback."
+   "workplace_or_professional": "At work, ask for specific, dated examples whenever a vague criticism returns. Keep your own record of your work and feedback."
   },
   "boundary_script": "\"I've heard that sentence several times now. I'm not going to treat it as true because it's familiar. If there's a specific example, I'll listen to it. If not, I'd like to move on.\"",
   "safety_sensitive": false,
-  "safety_note": "A repeated claim is a pressure on your beliefs, not a physical danger in itself. It deserves more care when the repeated line concerns your fitness as a parent, your sanity or your honesty, and is told to schools, courts, employers or relatives. In that case, keep dated records and talk to a lawyer, an advocate or a trusted person.",
+  "safety_note": "A repeated claim puts pressure on your beliefs, but it is not a physical danger in itself. It deserves more care when the repeated line concerns your fitness as a parent, your sanity or your honesty, and is told to schools, courts, employers or relatives. In that case, keep dated records and talk to a lawyer, an advocate or a trusted person.",
   "misuse_warning": [
    "Repeating a true thing is not manipulation. If you have not checked whether the claim is accurate, the label may only mean you dislike hearing it.",
    "Accusing someone of 'repeating' can brush off a person whose concern keeps coming back because it has not been addressed."
   ],
-  "how_to_distinguish_from_related": "Gaslighting flatly denies what you saw or remember, whereas this tactic states a claim, usually about you or a past event, and relies on volume. Selective Memory leaves things out as though forgotten, but repetition keeps pressing one thing forward. Countering contradicts your account on the spot, while this works slowly, by wearing a line into familiarity."
+  "how_to_distinguish_from_related": "Gaslighting flatly denies what you saw or remember. This tactic states a claim, usually about you or a past event, and relies on volume. Selective Memory leaves things out as though forgotten, but repetition keeps pressing one thing forward. Countering contradicts your account on the spot, while this works slowly, by wearing a line into familiarity."
  },
  "Firehose of Falsehood": {
-  "short_definition": "Flooding people with a high volume of fast, shifting and often contradictory claims so that checking and answering each one becomes impossible.",
-  "core_meaning": "Flooding people with a high volume of fast, shifting and often contradictory claims so that checking and answering each one becomes impossible.",
-  "expanded_definition": "The firehose of falsehood is a propaganda style, described by researchers who studied Russian state media, that sends out a large number of claims through many channels, quickly and without worrying about consistency. The aim is not to persuade with one story. It is to leave listeners overloaded, unsure what to believe and tired of checking. The same overload can happen in a family or workplace argument, when accusations arrive faster than anyone can answer them.",
-  "plain_language_summary": "So many claims arrive so quickly, and from so many directions, that you cannot check them all, and you may give up trying to work out what is true.",
+  "short_definition": "Flooding people with fast, shifting and often contradictory claims, so checking and answering each one becomes impossible.",
+  "core_meaning": "Flooding people with fast, shifting and often contradictory claims, so checking and answering each one becomes impossible.",
+  "expanded_definition": "The firehose of falsehood is a propaganda style, described by researchers who studied Russian state media. It sends out a large number of claims through many channels, quickly and without worrying about consistency. The aim is to leave listeners overloaded, unsure what to believe and tired of checking, rather than to persuade with one story. The same overload can happen in a family or workplace argument, when accusations arrive faster than anyone can answer them.",
+  "plain_language_summary": "So many claims arrive so quickly, and from so many directions, that you cannot check them all. You may give up trying to work out what is true.",
   "why_this_matters": "Fact-checking one claim takes minutes, while a flood can arrive in seconds. People who cannot keep up may stop trusting everything, or fall back on whoever sounds most confident. Either way, the thing they set out to understand stays buried.",
   "what_it_is": [
    "A flood of claims at high volume, sent through many outlets or voices at once.",
    "Claims that do not need to agree with each other, since the aim is to overload and not to persuade with one story.",
    "A style that treats speed as more important than accuracy, so corrections come after the damage is done.",
-   "Shown at population scale in media and online campaigns, and at small scale in arguments that pile accusation on accusation."
+   "It shows up at population scale in media and online campaigns. It shows up at small scale in arguments that pile accusation on accusation."
   ],
   "what_it_sounds_like": [
    "A stream of posts in one hour offering three different explanations for the same event, none of them agreeing.",
@@ -502,7 +502,7 @@
    "The claims arrive in volume and speed that no person could check, across many channels at once.",
    "The messages contradict each other and nobody seems bothered by it.",
    "Corrections are ignored or answered with a new set of claims.",
-   "After a while you feel less sure of what you know, and not just about the topic in question.",
+   "After a while you feel less sure of what you know, on topics well beyond the one in question.",
    "The overall effect is to make you doubt that anything can be known, instead of convincing you of one thing."
   ],
   "this_may_not_be_it_when": [
@@ -547,14 +547,14 @@
   ],
   "repair_check": "In an organization or public conversation, mending looks like fewer claims, each stated once, with sources and a plain correction when one fails. In a personal argument, it looks like someone slowing down to address one charge at a time. A flood followed by an apology for 'the confusion' is not that.",
   "boundary_respect_check": "Ask yourself if you were given room to take one claim at a time. A person or source that agrees to focus on a single point and give you evidence is treating you as someone who can think. If asking to slow down produces a fresh wave, the overload is the point.",
-  "psychological_mechanism": "Attention and checking effort are limited. A flood tends to use them up, so people may fall back on shortcuts like trusting the most repeated or most confident voice. Contradictory claims can also leave a listener feeling that truth is out of reach, which may lead to disengaging altogether, a result that serves whoever wanted the question left unresolved.",
-  "possible_impact_on_receiver": "People describe fatigue, a sense that nothing can be trusted, and a reluctance to follow the news or the argument at all. Some retreat to a small circle they trust, some feel anxious about being fooled, and some describe the odd experience of agreeing with a claim at breakfast and being unable to say why by evening.",
+  "psychological_mechanism": "Attention and checking effort are limited, and a flood often uses them up. People may fall back on shortcuts, like trusting the most repeated or most confident voice. Contradictory claims can also leave a listener sure that truth is out of reach. That may lead to disengaging altogether, which serves whoever wanted the question left unresolved.",
+  "possible_impact_on_receiver": "People describe fatigue, a sense that nothing can be trusted, and a reluctance to follow the news or the argument at all. Some retreat to a small circle they trust. Some feel anxious about being fooled. Some describe the odd experience of agreeing with a claim at breakfast and being unable to say why by evening.",
   "response_options": {
    "soft_clarification": "Ask for one thing at a time: 'There are a lot of points here. Can we take the first one and see what supports it before we move on?'",
    "firm_boundary": "Decline to answer a flood: 'I'll respond to one claim at a time. Pick the one that matters most to you and I'll give it my full attention.'",
    "disengagement": "Step back from the feed or the argument and return later, picking only one or two claims to check from sources you can name.",
-   "support_seeking": "Take a pattern of high-volume claims to a fact-checking service, a reporter or the platform's reporting tool, with the examples you saved.",
-   "workplace_or_professional": "If this happens in your workplace, ask for important claims to be put in writing one at a time, and keep dated copies for a manager or HR."
+   "support_seeking": "Take a pattern of high-volume claims to a fact-checking service, a reporter or the platform's reporting tool. Bring the examples you saved.",
+   "workplace_or_professional": "If this happens in your workplace, ask for important claims to be put in writing one at a time. Keep dated copies for a manager or HR."
   },
   "boundary_script": "Verification script (to yourself, before sharing): \"Can I say where this came from, what supports it, and whether it fits with what I already know? If I can't, I'll wait a day before passing it on.\"",
   "safety_sensitive": false,
@@ -575,7 +575,7 @@
    "A response that treats your naming of a pattern as the wrong done, not the pattern itself.",
    "Defending against the word, such as 'gaslighting,' instead of looking at the specific events you described.",
    "A second layer of doubt on top of the first: first about what happened, then about whether you may describe it.",
-   "A conversational trap that works even when the original behavior was ordinary, because it centers on offense taken."
+   "A conversational trap that works even when the original behavior was ordinary, because the talk turns on offense taken."
   ],
   "what_it_sounds_like": [
    "\"I can't believe you'd accuse me of that. That's the real attack here.\"",
@@ -607,14 +607,14 @@
    "They respond to your concerns the same way when you phrase them gently or sharply."
   ],
   "innocent_or_ordinary_possibilities": [
-   "Being accused of something serious can produce a flash of hurt that comes out as counter-accusation, before the person has had time to listen.",
+   "Being accused of something serious can cause a flash of hurt that comes out as a counter-accusation, before the person has had time to listen.",
    "Someone who has been wrongly labeled in the past may be especially raw about certain words.",
    "A person who is shocked may need a pause before they can hear a concern at all."
   ],
   "common_false_positives": [
    "A partner who says 'that's an unfair word' and then, a day later, asks what happened and listens.",
    "A colleague who objects to being called 'dismissive' but agrees to change how meetings are run.",
-   "A friend who disagrees that a pattern exists, offering their own view of the events, without turning it into a charge against you."
+   "A friend who disagrees that a pattern exists and offers their own view of the events, without turning it into a charge against you."
   ],
   "discernment_questions": [
    "If I describe only what happened, with no label, do I get a different response?",
@@ -641,14 +641,14 @@
   ],
   "repair_check": "Mending this starts with them going back to the first thing you described and answering it, after the heat has passed. A sorry for having 'been upset by your tone' while the original concern remains untouched leaves the same pattern in place.",
   "boundary_respect_check": "Try describing the event in plain terms, with no label, and see whether the reaction shifts. If they can hear it then, the word was the obstacle. If the same offense arrives anyway, the topic itself is off limits, whatever words you choose.",
-  "psychological_mechanism": "Naming a pattern is often how people regain confidence in what they have seen. If naming it brings accusation and distress, the lesson can be that perceiving is dangerous. Each time, the person may weigh the cost of speaking against the cost of staying quiet, and silence can begin to look like the easier path, while the original doubts stay in place.",
+  "psychological_mechanism": "Naming a pattern is often how people regain confidence in what they have seen. If naming it brings accusation and distress, a person can learn that noticing is dangerous. Each time, they may weigh the cost of speaking against the cost of staying quiet. Silence can begin to look like the easier path, while the original doubts stay in place.",
   "possible_impact_on_receiver": "Feeling unable to win even by being accurate and kind is what many report. Some begin to apologize for noticing things, some rehearse speeches that never get said, and some wonder whether they are the one causing harm. Others report a rush of clarity on realizing their concern had never actually been answered.",
   "response_options": {
    "soft_clarification": "Drop the label and describe the event: 'I'm not trying to name you. On Tuesday I said one thing and heard another, and I'd like to understand it.'",
    "firm_boundary": "Hold the line kindly: 'You can disagree with the word. I still need us to talk about what happened on Tuesday.'",
-   "disengagement": "If the talk turns to how you spoke, pause it and say you will return to the original point once you have both had time to cool off.",
-   "support_seeking": "Describe the original concern and the reply to someone you trust, and ask whether the concern was ever really answered.",
-   "workplace_or_professional": "At work, put your concern in writing as dated facts with no labels, and ask for a written reply to those facts so the response cannot drift to your wording."
+   "disengagement": "If the talk turns to how you spoke, pause it. Say you will return to the original point once you have both had time to cool off.",
+   "support_seeking": "Describe the original concern and the reply to someone you trust. Ask whether the concern was ever really answered.",
+   "workplace_or_professional": "At work, put your concern in writing as dated facts with no labels. Ask for a written reply to those facts, so the response cannot drift to your wording."
   },
   "boundary_script": "\"I can hear that the word hurt, and I'll set it aside. What I'm asking about is what happened on Tuesday. Can we start there, and talk about the word afterwards if you'd like?\"",
   "safety_sensitive": false,
@@ -657,6 +657,6 @@
    "The label can be used to dismiss anyone who reacts with hurt to being accused. Feeling wounded by a harsh word is human and not proof of a tactic.",
    "Calling a reply 'meta-gaslighting' can end a conversation just as quickly as the pattern it describes. Describe the events first."
   ],
-  "how_to_distinguish_from_related": "Gaslighting disputes what you saw, while meta-gaslighting disputes your right to say what you saw. Deflection changes the subject to something else, but here the subject becomes your wording and tone. Countering contradicts your account of events, whereas this tactic responds to your account of the pattern by casting you as the offender."
+  "how_to_distinguish_from_related": "Gaslighting disputes what you saw, while meta-gaslighting disputes your right to say what you saw. Deflection changes the subject to something else, but here the subject becomes your wording and tone. Countering contradicts your account of events. This tactic answers your account of the pattern by casting you as the offender."
  }
 }
