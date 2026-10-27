@@ -7363,15 +7363,15 @@
     "A genuinely different, honestly held interpretation of the same true facts is disagreement rather than arrangement.",
     "Careful, precise people answer exactly what was asked and nothing more. That can sound evasive without steering anyone anywhere.",
     "An honest answer given with an incomplete picture, because that was all the speaker had.",
-    "Things people are entitled not to disclose at all, such as medical history, where they say it is private and do not imply something else."
+    "Things people have a right to keep private, such as medical history, when they say it is private and do not imply something else."
    ],
-   "why": "Every fact checks out, so a careful listener who verifies still reaches the wrong conclusion. When you object you are told, correctly, that nothing false was said, which can leave you doubting your own reasonable inference instead of the account."
+   "why": "Every fact checks out, so even a careful listener who verifies still ends up with the wrong conclusion. When you object, you are told, correctly, that nothing false was said. That can leave you doubting your own reasonable guess instead of the account."
   },
   {
    "name": "False Reports",
    "tag": "reference",
    "cat": "Deception",
-   "what": "Filing complaints or accusations with an employer, school, agency or police that contain claims the filer knows are untrue, so the accused person must answer for something that never happened.",
+   "what": "Making a formal complaint to an employer, school, agency or police that the filer knows contains untrue claims, so the accused must answer for something that never happened.",
    "sounds": [
     "A letter from HR describing a meeting you can show you did not attend.",
     "A welfare check or investigation notice triggered by a claim you can disprove.",
@@ -7380,19 +7380,19 @@
     "Several agencies receiving similar reports from the same source within weeks."
    ],
    "nots": [
-    "A genuine report that characterizes events in a way the subject disputes still reflects the reporter's honest perception. Institutions also make their own errors in processing legitimate reports.",
+    "A genuine report that describes events in a way the other person disputes still reflects the reporter's honest view. Institutions also make their own mistakes when they handle real reports.",
     "Two people who disagree factually about what happened, where neither is inventing anything.",
     "A report made in good faith and found unsubstantiated. Unproven is not the same as false.",
     "A mandated reporter, such as a teacher or nurse, passing on a concern as their role requires.",
     "A true complaint that is also embarrassing or inconvenient for the person it concerns."
    ],
-   "why": "A fabricated complaint puts a real job, license or family arrangement in jeopardy, and the person has to answer for something that did not happen before anyone establishes whether it did."
+   "why": "A made-up complaint puts a real job, license or family arrangement at risk. The person has to answer for something that did not happen before anyone finds out whether it did."
   },
   {
    "name": "Paper-Trail Traps",
    "tag": "reference",
    "cat": "Deception",
-   "what": "Creating or shaping written records, such as write-ups, emails and notes, that build a one-sided case against someone who does not know it is being assembled.",
+   "what": "Creating or shaping written records, such as write-ups, emails and notes, to build a one-sided case against someone who does not know it is happening.",
    "sounds": [
     "Just to confirm what we discussed... followed by a version you do not recognize.",
     "A review that cites 'several previous concerns' no one raised with you.",
@@ -7402,19 +7402,19 @@
     "A folder of screenshots shown at a meeting, picked to show one side of a long exchange."
    ],
    "nots": [
-    "Standard documentation applied to everyone is not targeting. A genuine record of concerns that were actually raised with the person is legitimate even if they wish it did not exist.",
+    "Standard documentation applied to everyone is not targeting. A genuine record of concerns that were actually raised with the person is legitimate, even if they wish it did not exist.",
     "Someone keeping notes on their own experience for their own reference.",
     "Meeting minutes circulated to all attendees with a chance to correct them.",
     "Records required by law or policy in regulated settings such as care or finance.",
     "A manager who writes an informal summary to help them remember, and shares it when asked."
    ],
-   "why": "A record accumulates that the person has no opportunity to answer as it is built, and by the time they see it, it reads as damning."
+   "why": "A record builds up that the person has no chance to answer as it is made. By the time they see it, it reads as damning."
   },
   {
    "name": "Compartmentalization",
    "tag": "reference",
    "cat": "Deception",
-   "what": "Keeping information in separate pockets, with different people knowing different parts, so that nobody can see enough to notice a problem or ask the right question.",
+   "what": "Keeping information in separate pockets so different people know different parts, and nobody can see enough to notice a problem or ask the right question.",
    "sounds": [
     "Don't mention this to your brother, he'd only worry.",
     "That's between you and me.",
@@ -7424,19 +7424,19 @@
     "Please don't discuss this with the other team."
    ],
    "nots": [
-    "Confidentiality and need-to-know structures exist for good reasons in most organizations, and information silos form naturally in any large family or workplace. Someone who simply did not think to pass something on has partitioned nothing.",
+    "Confidentiality and need-to-know rules exist for good reasons in most organizations, and information silos form naturally in any large family or workplace. Someone who simply did not think to pass something on has not kept anything apart.",
     "A surprise being planned, where the planner is open about keeping it.",
     "Medical or client privacy that is stated and fits the situation.",
     "Keeping your own private matters from some relatives.",
     "Role-based access required by law, such as patient records."
    ],
-   "why": "No single person can see enough to raise a question, so accountability fails not because anyone refused it but because nobody had the view required to ask for it."
+   "why": "No single person can see enough to raise a question. Accountability fails because nobody has the view needed to ask for it, even though nobody refused it."
   },
   {
    "name": "Thought Control",
    "tag": "reference",
    "cat": "Identity & Conditioning",
-   "what": "Controlling the words, explanations and conclusions a person may use, so doubt is labeled a symptom and one reading of events counts as the only acceptable one.",
+   "what": "Controlling the words, explanations and conclusions a person may use, so doubt is labeled a symptom and only one reading of events is allowed.",
    "sounds": [
     "Asking that question shows how far you have drifted.",
     "That's just the negativity talking. Everyone goes through it.",
@@ -7447,7 +7447,7 @@
     "You aren't thinking clearly right now. Let's go back over the lessons."
    ],
    "nots": [
-    "Shared shorthand, which every family, profession and fan community develops over time and which is normal rather than controlling.",
+    "Shared shorthand, which every family, profession and fan community develops over time. It is normal and does not control anyone.",
     "A belief you hold independently and can explain in your own words, including to someone who disagrees.",
     "Passionate, sincere conviction, which is different from a mechanism that suppresses dissent.",
     "A teacher or coach insisting on one method for a while so you can learn it, while you stay free to question it afterwards.",
@@ -7460,7 +7460,7 @@
    "name": "Phobia Indoctrination",
    "tag": "reference",
    "cat": "Identity & Conditioning",
-   "what": "Intense, out-of-proportion dread attached to particular actions such as leaving, disagreeing or trusting outsiders, until avoiding them is a bodily reflex rather than a reasoned choice.",
+   "what": "Intense, out-of-proportion dread attached to actions such as leaving, disagreeing or trusting outsiders, until avoiding them becomes a bodily reflex instead of a reasoned choice.",
    "sounds": [
     "You have no idea what happens to people who go out there alone.",
     "Do you know what happened to her after she left? I won't even say.",
@@ -7472,19 +7472,19 @@
    ],
    "nots": [
     "Proportionate warnings about real risks from someone with relevant experience, which are useful information.",
-    "Pre-existing anxiety or trauma responses that belong to you and may have nothing to do with anyone currently present.",
+    "Anxiety or trauma responses you already had before, which belong to you and may have nothing to do with anyone around you now.",
     "Cautious family or cultural norms that restrict you without having been built to frighten anyone.",
     "A specific phobia, such as fear of flying or of dogs, which has its own causes and its own treatment.",
     "A friend or relative who worries aloud, overstates a risk once, and is happy to be corrected.",
     "Healthy caution after a bad experience of your own."
    ],
-   "why": "Avoidance becomes bodily rather than reasoned, so options stay ruled out by a fear response that persists even after you have concluded the fear was unwarranted. Choices that should be open stay shut."
+   "why": "Avoidance becomes a body reaction instead of a reasoned choice. A fear response keeps some options ruled out even after you have decided the fear was unwarranted. Choices that should be open stay shut."
   },
   {
    "name": "Administrative Escalation",
    "tag": "reference",
    "cat": "Institutional & Process",
-   "what": "Turning a small, informal concern into a formal complaint, report or legal step whose weight is out of proportion to what happened.",
+   "what": "Turning a small, informal concern into a formal complaint, report or legal step that is far heavier than what actually happened.",
    "sounds": [
     "\"I've tried to resolve this, but I'm going to have to take it to HR.\" No earlier attempt had been made.",
     "A formal written warning arriving three days after you asked for a change to your schedule.",
@@ -7500,13 +7500,13 @@
     "A formal complaint made after informal attempts truly failed and the problem continued.",
     "A required report, such as a safety incident that staff must file by law or policy."
    ],
-   "why": "Defending against a process that is out of scale takes time, money and attention however it ends, and your next concern may go unraised for that reason alone. Even a case that is dismissed leaves a record you did not expect to have."
+   "why": "Defending against a process that is out of scale takes time, money and attention however it ends. Your next concern may go unraised for that reason alone. Even a dismissed case leaves a record you did not expect to have."
   },
   {
    "name": "Paper Terrorism",
    "tag": "reference",
    "cat": "Institutional & Process",
-   "what": "Overwhelming a person with a steady stream of filings, motions, complaints and requests whose combined burden drains their time, money and energy.",
+   "what": "Overwhelming a person with a steady stream of filings, motions, complaints and requests that drain their time, money and energy.",
    "sounds": [
     "A fifth motion arriving in six weeks on a point the judge already ruled on.",
     "A records request, a complaint to the licensing board and a new lawsuit all landing in the same month.",
@@ -7516,19 +7516,19 @@
     "Mailbox and inbox filling with formal papers, each demanding a response within a short window."
    ],
    "nots": [
-    "A genuinely complex dispute that needs many legitimate filings to resolve, such as an estate, a business split or a multi-party case.",
+    "A truly complex dispute, such as an estate, a business split or a case with many parties, that needs many legitimate filings to resolve.",
     "A lawyer being thorough and generating volume as a by-product of diligence.",
     "An institution's own procedures producing a large amount of paperwork, whoever the parties are.",
-    "Someone without legal training filing repeatedly because they do not understand how to bring a matter to an end.",
+    "Someone without legal training who files again and again because they do not know how to bring a matter to an end.",
     "A series of separate legitimate complaints about separate real problems."
    ],
-   "why": "The burden builds across filings and does not sit in any one of them. Answering all of them costs time and money whether or not a single one has merit, and the cost can force settlements, missed deadlines or default judgments."
+   "why": "The burden builds across filings and does not sit in any one of them. Answering all of them costs time and money whether or not a single one has merit. That cost can force settlements, missed deadlines or default judgments."
   },
   {
    "name": "Brigading",
    "tag": "reference",
    "cat": "Digital",
-   "what": "A group converging on one person's posts, account or message at once, usually after a shared call to do so, so the volume itself overwhelms them.",
+   "what": "A group converging on one person's posts, account or messages at once, usually after a shared call to do so, so the sheer volume overwhelms them.",
    "sounds": [
     "Within minutes of a screenshot being shared in another group, your mentions fill with replies that use the same phrases.",
     "Go and look at what this person said, posted in a group chat, followed by a stream of new commenters.",
@@ -7538,19 +7538,19 @@
     "Dozens of near-identical replies such as 'Wow. Unbelievable.' from accounts with no history with you."
    ],
    "nots": [
-    "Virality is not coordination: a post that spreads on its own draws unconnected people who arrived by different routes. What marks brigading is convergence traceable to one rallying post or thread, and friends reacting independently to the same post is not that.",
+    "Virality is not coordination. A post that spreads on its own draws unconnected people who arrived by different routes. Brigading shows up as convergence that can be traced to one rallying post or thread. Friends reacting independently to the same post is not that.",
     "Heavy criticism of a public statement from people who each saw it for themselves, in their own words.",
-    "An openly announced campaign of letters or calls about a public decision, organized but done in the open under people's own names.",
+    "An openly announced campaign of letters or calls about a public decision, organized but carried out in the open under people's own names.",
     "A group of supporters replying warmly to a friend's post, which is coordinated but not an attack.",
     "Real customers leaving many bad reviews after a product actually failed or was recalled."
    ],
-   "why": "Volume arriving at once removes any chance of answering the way you could answer a single message, and the platform itself becomes unusable for as long as it lasts. Notifications pile up faster than anyone can read, and a calm reply is buried."
+   "why": "Volume arriving at once removes any chance of answering the way you could answer a single message. The platform itself becomes unusable for as long as it lasts. Notifications pile up faster than anyone can read, and a calm reply is buried."
   },
   {
    "name": "Context Collapse Exploitation",
    "tag": "reference",
    "cat": "Digital",
-   "what": "Passing on a statement or image without the surrounding material that gave it its meaning, so viewers read something different from what was meant where it began.",
+   "what": "Passing on a statement or image without the surrounding material that gave it meaning, so viewers read something different from what was meant originally.",
    "sounds": [
     "A cropped screenshot of one angry-looking reply, captioned: Look how this person talks to people.",
     "A quote that stops at 'I don't think any of us should have to' when the line went on to say 'be afraid to ask for help'.",
@@ -43790,14 +43790,14 @@
     "Paltering"
    ],
    "short_definition": "Choosing and arranging statements that are each true so that the listener ends up with a false overall picture.",
-   "expanded_definition": "Half-truth framing is building a false impression out of true statements. Each sentence can be checked and holds up, but the pieces are chosen and ordered so the listener reaches a conclusion the full facts would not support. The word paltering means the same thing. It often appears as a technically accurate answer to a direct question, followed by 'everything I said was true.' One hurried summary proves little. It becomes a pattern when answers keep steering the same way on the same kind of topic.",
+   "expanded_definition": "Half-truth framing builds a false impression out of true statements. Each sentence holds up when checked. But the pieces are picked and ordered so the listener reaches a conclusion the full facts would not support. The word paltering means the same thing. It often shows up as a technically accurate answer to a direct question, followed by 'everything I said was true.' One hurried summary proves little. It becomes a pattern when answers keep steering the same way on the same kind of topic.",
    "plain_language_summary": "Everything said is true, yet you walk away believing something that is not. Each fact checks out, so the problem only shows when you see what was left around it.",
-   "why_this_matters": "Every fact checks out, so a careful listener who verifies still reaches the wrong conclusion. When you object you are told, correctly, that nothing false was said, which can leave you doubting your own reasonable inference instead of the account.",
+   "why_this_matters": "Every fact checks out, so even a careful listener who verifies still ends up with the wrong conclusion. When you object, you are told, correctly, that nothing false was said. That can leave you doubting your own reasonable guess instead of the account.",
    "what_it_is": [
     "A set of true statements, chosen and ordered so that they imply something the whole story would not support.",
     "Often a true answer to a slightly different question than the one asked.",
     "Works because most people assume a truthful answer is an honest one, and rarely check what sits around it.",
-    "Different from an outright lie, since every sentence can be defended, and from plain omission, since the pieces are fitted together to point somewhere.",
+    "This is different from an outright lie, because every sentence can be defended. It is also different from plain omission, because the pieces are fitted together to point somewhere.",
     "Found in sales pitches, job references, relationship disputes, apologies and reports to bosses."
    ],
    "what_it_sounds_like": [
@@ -43815,7 +43815,7 @@
     "A genuinely different, honestly held interpretation of the same true facts is disagreement rather than arrangement.",
     "Careful, precise people answer exactly what was asked and nothing more. That can sound evasive without steering anyone anywhere.",
     "An honest answer given with an incomplete picture, because that was all the speaker had.",
-    "Things people are entitled not to disclose at all, such as medical history, where they say it is private and do not imply something else."
+    "Things people have a right to keep private, such as medical history, when they say it is private and do not imply something else."
    ],
    "this_may_be_it_when": [
     "The answer addresses a neighboring question, not the one you asked.",
@@ -43865,19 +43865,19 @@
     "'Technically true' becomes a phrase you hear from them, or say about them.",
     "You trust their literal words less while still being unable to point to a lie."
    ],
-   "repair_check": "Mending this starts with the person saying what picture they let you form and what they knew that would have changed it, then volunteering the rest. Watch whether later answers to direct questions get plainer. An apology that defends every sentence as true has repaired nothing.",
+   "repair_check": "Repair starts with the person saying what picture they let you form and what they knew that would have changed it. Then they offer the rest without being asked. Watch whether later answers to direct questions get plainer. An apology that defends every sentence as true has repaired nothing.",
    "boundary_respect_check": "Ask a question that has only one honest short answer and notice what comes back. A yes or a no, even an unwelcome one, shows the request was heard. Another accurate but roundabout reply shows the old shape returning.",
    "psychological_mechanism": "Listeners tend to assume a speaker is being cooperative, so they fill gaps with the most natural meaning of what they hear. True statements pass the checks people normally run, which leaves the false conclusion as the listener's own inference. That can make a complaint harder, because the speaker can truthfully say that every sentence was accurate.",
    "possible_impact_on_receiver": "Some feel foolish for believing something that was never technically said, and are unable to explain the complaint to others. They may begin to cross-examine every answer, or blame themselves for not asking the right question. Some describe losing the sense that plain conversation with this person is possible.",
    "response_options": {
     "soft_clarification": "Restate the answer you were given and ask the one thing it left open: 'That's true, but it doesn't tell me whether you went. Did you?'",
-    "firm_boundary": "Say you want direct answers to direct questions on this topic, and that 'technically true' will not do: 'When I ask yes or no, I need yes or no.'",
+    "firm_boundary": "Say you want direct answers to direct questions on this topic, and that 'technically true' will not do. For example: 'When I ask yes or no, I need yes or no.'",
     "disengagement": "Stop trying to corner the person with sharper wording. Get the facts from the original source, such as the document, the account or a third party, and let the conversation go.",
     "support_seeking": "Lay out the exchange to someone neutral and ask what conclusion they would draw from what was said. It checks whether your inference was reasonable.",
     "workplace_or_professional": "In writing, ask for confirmation of the specific facts you need ('Please confirm whether the contract includes overtime') and keep the reply. A written yes or no is harder to blur."
    },
    "boundary_script": "\"Thank you, I believe what you told me is accurate. I'd still like a plain yes or no to my question: did it happen or not? I make decisions based on the picture I'm left with, so I need the whole picture.\"",
-   "safety_note": "A misleading frame with true parts is a communication problem, not a danger signal. That changes if the missing piece concerns safety, money, a health risk or custody, or if asking questions brings anger or retaliation. Then check the facts through documents or an independent source before acting, and take the matter to a lawyer, advisor or doctor rather than relying on the person's own account.",
+   "safety_note": "A misleading frame made of true parts is a communication problem, not a danger signal. That changes if the missing piece is about safety, money, a health risk or custody. It also changes if asking questions brings anger or payback. In those cases, check the facts through documents or an independent source before you act. Take the matter to a lawyer, advisor or doctor instead of relying on the person's own account.",
    "safety_sensitive": false,
    "misuse_warning": [
     "Calling any careful or incomplete answer a half-truth treats privacy and precision as lies. The label needs a gap between the impression left and the facts, shown with the facts.",
@@ -43893,7 +43893,7 @@
     "Frame Control",
     "Credibility Theft"
    ],
-   "how_to_distinguish_from_related": "Lying states something false; half-truth framing states nothing false and works through selection and order. Lying by Omission is a gap, a fact left out of an otherwise complete account, whereas here the stated facts are fitted together to point at a conclusion. Frame Control sets what the conversation is about, while a half-truth can sit inside any frame, as long as the facts told lead somewhere the whole would not.",
+   "how_to_distinguish_from_related": "Lying states something false. Half-truth framing states nothing false and works through what is picked and in what order. Lying by Omission is a gap, a fact left out of an otherwise complete account. Here, the stated facts are fitted together to point at a conclusion. Frame Control sets what the conversation is about. A half-truth can sit inside any frame, as long as the facts told lead somewhere the whole would not.",
    "detection_notes": "Not matched or scored by this tool. Pasted text cannot establish this concept — included in the Field Guide purely as a literacy reference.",
    "codex_maturity": "mature",
    "human_review_flags": [
@@ -43908,14 +43908,14 @@
    "branch": "reference",
    "category": "Deception",
    "detectability_note": "This tool cannot establish this from pasted text at all. It is included for literacy only, so you can learn to recognize the concept — not as something this tool detects, scores, or flags.",
-   "core_meaning": "Filing complaints or accusations with an employer, school, agency or police that contain claims the filer knows are untrue, so the accused person must answer for something that never happened.",
+   "core_meaning": "Making a formal complaint to an employer, school, agency or police that the filer knows contains untrue claims, so the accused must answer for something that never happened.",
    "aftermath_state": false,
    "forensic_only": false,
    "absorbs": [],
-   "short_definition": "Filing complaints or accusations with an employer, school, agency or police that contain claims the filer knows are untrue, so the accused person must answer for something that never happened.",
-   "expanded_definition": "A false report is a formal complaint whose central facts did not happen: an invented incident, a made-up date, an act the accused person could not have done. It goes to a body with power, such as a manager, a school, a licensing board, a child-protection agency or the police, which must respond. Mistaken reports and honestly disputed ones are different, and a report that cannot be proved is not necessarily false. What marks the pattern is a report contradicted by independent records, sometimes repeated to more than one body.",
+   "short_definition": "Making a formal complaint to an employer, school, agency or police that the filer knows contains untrue claims, so the accused must answer for something that never happened.",
+   "expanded_definition": "A false report is a formal complaint whose main facts did not happen. It might be an invented incident, a made-up date, or an act the accused could not have done. It goes to a body with power, such as a manager, a school, a licensing board, a child-protection agency or the police, and that body must respond. Mistaken reports and honestly disputed ones are different. A report that cannot be proved is not necessarily false. What marks the pattern is a report that independent records contradict, sometimes repeated to more than one body.",
    "plain_language_summary": "Someone reports you to an authority for something that never happened. You have to defend yourself before anyone checks whether it is true.",
-   "why_this_matters": "A fabricated complaint puts a real job, license or family arrangement in jeopardy, and the person has to answer for something that did not happen before anyone establishes whether it did.",
+   "why_this_matters": "A made-up complaint puts a real job, license or family arrangement at risk. The person has to answer for something that did not happen before anyone finds out whether it did.",
    "what_it_is": [
     "A formal complaint, accusation or document sent to an authority whose core facts are untrue.",
     "Recipients include employers, schools, landlords, licensing bodies, child-protection services and police.",
@@ -43931,7 +43931,7 @@
     "Several agencies receiving similar reports from the same source within weeks."
    ],
    "what_it_is_not": [
-    "A genuine report that characterizes events in a way the subject disputes still reflects the reporter's honest perception. Institutions also make their own errors in processing legitimate reports.",
+    "A genuine report that describes events in a way the other person disputes still reflects the reporter's honest view. Institutions also make their own mistakes when they handle real reports.",
     "Two people who disagree factually about what happened, where neither is inventing anything.",
     "A report made in good faith and found unsubstantiated. Unproven is not the same as false.",
     "A mandated reporter, such as a teacher or nurse, passing on a concern as their role requires.",
@@ -43986,19 +43986,19 @@
     "You avoid ordinary things, like a child handover or a one-to-one meeting, for fear of another report.",
     "Managers, relatives or neighbors are approached and asked about you."
    ],
-   "repair_check": "A written withdrawal or correction, sent to the same body that received the report, plus a plain acknowledgment to you that the claim was not true, is what repair would involve. Saying 'I only wanted someone to listen' while the file stays open leaves the consequences where they were.",
+   "repair_check": "Repair would involve a written withdrawal or correction sent to the same body that got the report, plus a plain admission to you that the claim was not true. Saying 'I only wanted someone to listen' while the file stays open leaves the consequences where they were.",
    "boundary_respect_check": "What matters is whether the reports stop and whether anything is corrected on the record. Words said to you in private, such as 'I'm sorry it went that far', count for little if the institution has not been told. Notice which bodies have heard the correction.",
-   "psychological_mechanism": "Institutions are built to take reports seriously and to act while the facts are unknown, which is sensible but can cause harm if the report is invented. Being accused by a body with power can produce fear, shame and urgency to defend oneself before anything is checked. People around you may keep a lingering doubt even after a clearing.",
-   "possible_impact_on_receiver": "People describe shock at being formally accused, sleeplessness, and a sense of being watched by the process. Some face suspension, interviews or temporary limits on contact with children while a report is looked at. Even after being cleared, many describe lasting caution about being alone with others or doing ordinary things.",
+   "psychological_mechanism": "Institutions are built to take reports seriously and to act while the facts are still unknown. That is sensible, but it can cause harm if the report is invented. Being accused by a body with power can bring fear, shame and a rush to defend yourself before anything is checked. People around you may keep a lingering doubt even after you are cleared.",
+   "possible_impact_on_receiver": "Shock at being formally accused is one thing people report, along with sleeplessness and a sense of being watched by the process. Some face suspension, interviews or temporary limits on contact with children while a report is looked at. Even after being cleared, many describe staying careful about being alone with others or doing ordinary things.",
    "response_options": {
     "soft_clarification": "Ask the body for specifics: 'Could you tell me what I am accused of, with dates, so I can respond accurately?'",
-    "firm_boundary": "Answer in writing and stay with verifiable facts, leaving the complainant's motives out of it: 'Here are the records for those dates.'",
+    "firm_boundary": "Answer in writing and stick to facts that can be checked, leaving the complainant's motives out of it: 'Here are the records for those dates.'",
     "disengagement": "Keep contact with whoever filed to a minimum and in writing, through a lawyer or mediator if one is involved. Don't confront them privately about the report.",
     "support_seeking": "Contact a lawyer or legal aid early, before any interview, and bring documents showing where you were. A union representative or a parents' or tenants' rights group can also help.",
-    "workplace_or_professional": "At work, ask HR for the written allegation and the process, bring a representative or colleague to meetings, and supply dated records or witnesses."
+    "workplace_or_professional": "At work, ask HR for the written allegation and the process. Bring a representative or colleague to meetings, and give dated records or witnesses."
    },
    "boundary_script": "\"I take this seriously and I want to respond properly. Please send me the allegation in writing, with dates, and I'll provide records for each of them. I'd like a representative with me at any meeting.\"",
-   "safety_note": "A false report can threaten work, a license, housing or time with your children, and the person who made it may be someone you share a home or children with. Don't confront them about it. Save every notice, get legal advice before any interview, and if you fear for your safety, tell your lawyer or a domestic abuse advocate what else has happened.",
+   "safety_note": "A false report can threaten work, a license, housing or time with your children. The person who made it may be someone you share a home or children with. Don't confront them about it. Save every notice and get legal advice before any interview. If you fear for your safety, tell your lawyer or a domestic abuse advocate what else has happened.",
    "safety_sensitive": true,
    "misuse_warning": [
     "Calling a complaint false because it was not upheld can silence real reporters. Unproven is not untrue, and many genuine reports cannot be proved.",
@@ -44011,7 +44011,7 @@
     "Lying",
     "Lying by Omission"
    ],
-   "how_to_distinguish_from_related": "Lying is a false statement made to a person; a false report puts it into a formal file where an institution must act. Fabricated Evidence manufactures proof, such as a forged message, while a false report can rest on words alone, though the two can be combined. Vague Allegations stays unspecific so nothing can be checked, whereas a false report is usually specific enough for records to contradict it.",
+   "how_to_distinguish_from_related": "Lying is a false statement made to a person. A false report puts it into a formal file where an institution must act. Fabricated Evidence manufactures proof, such as a forged message. A false report can rest on words alone, though the two can be combined. Vague Allegations stays unspecific so nothing can be checked. A false report is usually specific enough for records to contradict it.",
    "detection_notes": "Not matched or scored by this tool. Pasted text cannot establish this concept — included in the Field Guide purely as a literacy reference.",
    "codex_maturity": "mature",
    "human_review_flags": [
@@ -44027,17 +44027,17 @@
    "branch": "reference",
    "category": "Deception",
    "detectability_note": "This tool cannot establish this from pasted text at all. It is included for literacy only, so you can learn to recognize the concept — not as something this tool detects, scores, or flags.",
-   "core_meaning": "Creating or shaping written records, such as write-ups, emails and notes, that build a one-sided case against someone who does not know it is being assembled.",
+   "core_meaning": "Creating or shaping written records, such as write-ups, emails and notes, to build a one-sided case against someone who does not know it is happening.",
    "aftermath_state": false,
    "forensic_only": false,
    "absorbs": [],
-   "short_definition": "Creating or shaping written records, such as write-ups, emails and notes, that build a one-sided case against someone who does not know it is being assembled.",
-   "expanded_definition": "A paper-trail trap is a record that gathers quietly: emails that restate a conversation in a slanted way, notes about 'concerns' never raised with the person, write-ups that leave out context. Each item may look minor. Together they can read like a long history when finally shown, at a review, a hearing or a custody dispute. Ordinary record-keeping is common and fair, so one memo says little. Concern rises when documentation concentrates on one person, is kept from them, and differs from what happened.",
+   "short_definition": "Creating or shaping written records, such as write-ups, emails and notes, to build a one-sided case against someone who does not know it is happening.",
+   "expanded_definition": "A paper-trail trap is a record that gathers quietly. Examples are emails that retell a conversation in a slanted way, notes about 'concerns' never raised with the person, and write-ups that leave out context. Each item may look minor. When finally shown at a review, a hearing or a custody dispute, together they can read like a long history. Ordinary record-keeping is common and fair, so one memo says little. Concern rises when documentation piles up on one person, is kept from them, and differs from what happened.",
    "plain_language_summary": "Someone quietly collects written 'evidence' against you that you never saw or got to answer, and it all appears at once when it counts.",
-   "why_this_matters": "A record accumulates that the person has no opportunity to answer as it is built, and by the time they see it, it reads as damning.",
+   "why_this_matters": "A record builds up that the person has no chance to answer as it is made. By the time they see it, it reads as damning.",
    "what_it_is": [
     "Emails, notes or formal write-ups that frame events one way and leave out the other side.",
-    "'Confirming' emails sent after a conversation that restate it in a slanted form, so that silence reads as agreement.",
+    "'Confirming' emails sent after a conversation that retell it in a slanted way, so that your silence looks like agreement.",
     "Documentation concentrated on one person while others doing the same things go unrecorded.",
     "Built out of sight, so the first time the person hears of the 'history' is when it is used.",
     "Found at work, in schools and care settings, in rental disputes, and in family and custody conflicts."
@@ -44051,7 +44051,7 @@
     "A folder of screenshots shown at a meeting, picked to show one side of a long exchange."
    ],
    "what_it_is_not": [
-    "Standard documentation applied to everyone is not targeting. A genuine record of concerns that were actually raised with the person is legitimate even if they wish it did not exist.",
+    "Standard documentation applied to everyone is not targeting. A genuine record of concerns that were actually raised with the person is legitimate, even if they wish it did not exist.",
     "Someone keeping notes on their own experience for their own reference.",
     "Meeting minutes circulated to all attendees with a chance to correct them.",
     "Records required by law or policy in regulated settings such as care or finance.",
@@ -44106,22 +44106,22 @@
     "You have begun keeping your own record in self-defense and checking every conversation.",
     "People around you are asked to provide statements about you."
    ],
-   "repair_check": "Repair means the file is opened to you: a copy of everything held, a chance to add your reply to each item, and removal of entries shown to be wrong. A promise to stop writing things down while the existing record stays unchanged leaves its effects in place.",
+   "repair_check": "Repair means the file is opened to you. You get a copy of everything held, a chance to add your reply to each item, and wrong entries removed. A promise to stop writing things down, while the existing record stays unchanged, leaves its effects in place.",
    "boundary_respect_check": "After you reply in writing to correct a record, check where your correction ended up. If it sits beside the original in the file and gets mentioned, it was respected. If the original is the only version ever quoted, your correction was filed away unread.",
-   "psychological_mechanism": "Written records carry authority: a paper account often outweighs a spoken one, and later readers frequently see only the file. Repetition across many items can make a pattern look established even when each is thin. Because the person is not told, they have no moment to dispute the framing, and a late reply can seem defensive.",
+   "psychological_mechanism": "Written records carry authority. A paper account often outweighs a spoken one, and later readers frequently see only the file. Many items repeated together can make a pattern look settled even when each is thin. The person is not told, so they get no moment to dispute the framing, and a late reply can look defensive.",
    "possible_impact_on_receiver": "First sight of the file often brings a sinking shock, then a feeling of being watched and measured. Some begin writing everything down, rehearsing conversations and avoiding one-to-one meetings. Others find that colleagues or relatives who read the record already hold a view of them.",
    "response_options": {
     "soft_clarification": "Reply in writing to any 'confirming' email within a day with your own account: 'Thanks for the summary. Here is what I recall being agreed.'",
     "firm_boundary": "Ask for the record directly: 'I would like a copy of everything in my file, and I would like my response added to it.'",
-    "disengagement": "Move conversations about disputed matters into writing or into a room with a witness, and keep each exchange short and factual.",
-    "support_seeking": "Talk early to a union representative, employment adviser, tenants' organization or family lawyer, depending on the setting, and bring copies of what you hold.",
-    "workplace_or_professional": "At work, request your personnel file in writing where policy or law allows, and keep dated notes of your own, following your employer's rules on company data."
+    "disengagement": "Move conversations about disputed matters into writing, or into a room with a witness. Keep each exchange short and factual.",
+    "support_seeking": "Talk early to a union representative, employment adviser, tenants' organization or family lawyer, depending on the setting. Bring copies of what you hold.",
+    "workplace_or_professional": "At work, ask in writing for your personnel file, where policy or law allows. Keep dated notes of your own, and follow your employer's rules on company data."
    },
    "boundary_script": "\"Please give me a copy of anything written about me, and add my responses to the file. And when there is a concern, tell me when it happens so I can answer it at the time.\"",
    "safety_note": "This tactic matters most when the record may be used in decisions about your job, housing, immigration status or time with your children. Signs of high stakes are meetings called without notice, requests to sign things you haven't read, and being told 'it's all documented'. Sign nothing unread. Keep your own dated notes somewhere the other person cannot reach, and see a lawyer or union representative before any formal meeting.",
    "safety_sensitive": true,
    "misuse_warning": [
-    "Keeping your own notes is not a paper-trail trap, and calling honest record-keeping a trap can excuse behavior that really was a problem.",
+    "Keeping your own notes is not a paper-trail trap. Calling honest record-keeping a trap can excuse behavior that really was a problem.",
     "Believing every unwelcome review is a plot can stop a person from seeing feedback that is accurate."
    ],
    "related_tactics": [
@@ -44131,7 +44131,7 @@
     "Lying",
     "Lying by Omission"
    ],
-   "how_to_distinguish_from_related": "Fabricated Evidence invents a single item, such as a doctored screenshot; a paper-trail trap may include no forged item at all, only slanted wording and omissions that accumulate. Lying by Omission shapes one account by what it leaves out, while here the omissions are spread across many documents. Vague Allegations has nothing on paper to examine; here there is plenty, and the problem is what it adds up to.",
+   "how_to_distinguish_from_related": "Fabricated Evidence invents a single item, such as a doctored screenshot. A paper-trail trap may include no forged item at all, only slanted wording and omissions that pile up. Lying by Omission shapes one account by what it leaves out, while here the omissions are spread across many documents. With Vague Allegations there is nothing on paper to examine. Here there is plenty, and the problem is what it adds up to.",
    "detection_notes": "Not matched or scored by this tool. Pasted text cannot establish this concept — included in the Field Guide purely as a literacy reference.",
    "codex_maturity": "mature",
    "human_review_flags": [
@@ -44147,14 +44147,14 @@
    "branch": "reference",
    "category": "Deception",
    "detectability_note": "This tool cannot establish this from pasted text at all. It is included for literacy only, so you can learn to recognize the concept — not as something this tool detects, scores, or flags.",
-   "core_meaning": "Keeping information in separate pockets, with different people knowing different parts, so that nobody can see enough to notice a problem or ask the right question.",
+   "core_meaning": "Keeping information in separate pockets so different people know different parts, and nobody can see enough to notice a problem or ask the right question.",
    "aftermath_state": false,
    "forensic_only": false,
    "absorbs": [],
-   "short_definition": "Keeping information in separate pockets, with different people knowing different parts, so that nobody can see enough to notice a problem or ask the right question.",
+   "short_definition": "Keeping information in separate pockets so different people know different parts, and nobody can see enough to notice a problem or ask the right question.",
    "expanded_definition": "In compartmentalization, each person is told something true, but only their own slice. One relative hears about the money, another about the move, a third about the health scare, and nobody has the three together. Questions that would link the slices are discouraged or redirected. Most families and workplaces have private matters and need-to-know rules, so a gap in who knows what says little. Concern rises when the slicing is consistent, follows what would raise questions if joined, and comparing notes is met with displeasure.",
-   "plain_language_summary": "Everyone in the family or team is told a different piece, so no one can see the whole story or notice that something doesn't add up.",
-   "why_this_matters": "No single person can see enough to raise a question, so accountability fails not because anyone refused it but because nobody had the view required to ask for it.",
+   "plain_language_summary": "Everyone in the family or team is told a different piece. No one can see the whole story or notice that something doesn't add up.",
+   "why_this_matters": "No single person can see enough to raise a question. Accountability fails because nobody has the view needed to ask for it, even though nobody refused it.",
    "what_it_is": [
     "Information sorted into slices by listener: each person gets a true but partial version.",
     "Seen in families (money, health, the past), workplaces (budgets, decisions) and groups (what leaders know).",
@@ -44171,7 +44171,7 @@
     "Please don't discuss this with the other team."
    ],
    "what_it_is_not": [
-    "Confidentiality and need-to-know structures exist for good reasons in most organizations, and information silos form naturally in any large family or workplace. Someone who simply did not think to pass something on has partitioned nothing.",
+    "Confidentiality and need-to-know rules exist for good reasons in most organizations, and information silos form naturally in any large family or workplace. Someone who simply did not think to pass something on has not kept anything apart.",
     "A surprise being planned, where the planner is open about keeping it.",
     "Medical or client privacy that is stated and fits the situation.",
     "Keeping your own private matters from some relatives.",
@@ -44226,19 +44226,19 @@
     "Each person describes the situation differently, and each thinks they alone know.",
     "At a crisis the accounts converge and many people say 'I didn't know that'."
    ],
-   "repair_check": "Repair would show up as a gathering of the separate pieces: everyone affected hears the same account, in the same room or the same message, and questions that cross groups are welcomed. A private apology to each person, one at a time, re-creates the same arrangement.",
+   "repair_check": "Repair would look like gathering the separate pieces. Everyone affected hears the same account, in the same room or the same message, and questions that cross groups are welcome. A private apology to each person, one at a time, sets up the same arrangement again.",
    "boundary_respect_check": "Notice the response to a simple question: 'Who else has been told this?' A direct answer, even a partial one, honors the question. A change of subject, or irritation that you asked, does not.",
-   "psychological_mechanism": "People judge what is normal from what they are told, and when each person's slice looks reasonable alone, nothing seems to need explaining. Doubts that would arise on seeing the whole can stay below the threshold of speaking up. Each person may also assume others know more, so they hesitate to ask, which keeps the separation going without anyone being told to stay quiet.",
+   "psychological_mechanism": "People judge what is normal from what they are told. When each person's slice looks reasonable alone, nothing seems to need explaining. Doubts that would come up on seeing the whole can stay too small to voice. Each person may also assume others know more, so they hesitate to ask. That keeps the separation going without anyone being told to stay quiet.",
    "possible_impact_on_receiver": "A jolt comes on discovering that others were told something different, then questions about what else was kept apart. Some feel angry at relatives or colleagues drawn into the arrangement; some lose trust in group conversations. The shared sense of everyone knowing can fall away, and with it some relationships.",
    "response_options": {
     "soft_clarification": "Invite the pieces together without blame: 'I was told about the loan, and I think you were told about the move. Can we put what we know side by side?'",
-    "firm_boundary": "Decline to carry secrets between people: 'I'll keep your privacy, but I won't hold back information about shared money or care from the people it affects.'",
+    "firm_boundary": "Decline to carry secrets between people, and say: 'I'll keep your privacy, but I won't hold back information about shared money or care from the people it affects.'",
     "disengagement": "Decline to be the keeper of the secret. Tell the person asking that you would rather not be told anything you would be asked to hide from someone it concerns.",
-    "support_seeking": "Compare notes quietly with the other people affected, such as a sibling, a colleague or a friend, and write down what each was told and when.",
+    "support_seeking": "Compare notes quietly with the other people affected, such as a sibling, a colleague or a friend. Write down what each was told and when.",
     "workplace_or_professional": "At work, ask who owns each decision and request one shared summary of budget or status that all affected teams can see. Raise gaps with a manager or a compliance contact."
    },
    "boundary_script": "\"I'm glad to keep your private things private. I'm not comfortable keeping something from my brother when it affects his money. Can the three of us talk about it together?\"",
-   "safety_note": "Separate pockets of information are most worrying when the person holding the map also controls money, care or housing for someone who depends on them. That could be an older parent or a partner without their own accounts. Then the gaps can hide real harm. Gather the facts from others involved, and ask the bank, doctor or care manager what you are entitled to see. Contact an adult-protection or elder-care service if someone's welfare is at risk.",
+   "safety_note": "Separate pockets of information are most worrying when one person holds the whole map and also controls money, care or housing for someone who depends on them. That could be an older parent, or a partner without their own accounts. Then the gaps can hide real harm. Gather the facts from others involved, and ask the bank, doctor or care manager what you are entitled to see. Contact an adult-protection or elder-care service if someone's welfare is at risk.",
    "safety_sensitive": false,
    "misuse_warning": [
     "Treating every confidence as compartmentalization punishes ordinary privacy, such as someone's diagnosis or a surprise being planned.",
@@ -44251,7 +44251,7 @@
     "Lying",
     "Lying by Omission"
    ],
-   "how_to_distinguish_from_related": "Lying by Omission is about what one person leaves out of an account for one listener; compartmentalization is about how pieces are divided across many listeners so they cannot be joined. Strategic Incompleteness feeds one person pieces so they keep returning, whereas here no one needs to return and the cost falls on the group's oversight. Vague Allegations hints at the whole with no detail, while each pocket here holds specific, true detail.",
+   "how_to_distinguish_from_related": "Lying by Omission is about what one person leaves out of an account for one listener. Compartmentalization is about how pieces are divided across many listeners so they cannot be joined. Strategic Incompleteness feeds one person pieces so they keep returning. Here no one needs to return, and the cost falls on the group's oversight. Vague Allegations hints at the whole with no detail, while each pocket here holds specific, true detail.",
    "detection_notes": "Not matched or scored by this tool. Pasted text cannot establish this concept — included in the Field Guide purely as a literacy reference.",
    "codex_maturity": "mature",
    "human_review_flags": [
@@ -44266,20 +44266,20 @@
    "branch": "reference",
    "category": "Identity & Conditioning",
    "detectability_note": "This tool cannot establish this from pasted text at all. It is included for literacy only, so you can learn to recognize the concept — not as something this tool detects, scores, or flags.",
-   "core_meaning": "Controlling the words, explanations and conclusions a person may use, so doubt is labeled a symptom and one reading of events counts as the only acceptable one.",
+   "core_meaning": "Controlling the words, explanations and conclusions a person may use, so doubt is labeled a symptom and only one reading of events is allowed.",
    "aftermath_state": false,
    "forensic_only": false,
    "absorbs": [],
-   "short_definition": "Controlling the words, explanations and conclusions a person may use, so doubt is labeled a symptom and one reading of events counts as the only acceptable one.",
-   "expanded_definition": "Thought control works on the vocabulary a person uses to think. Rather than argue one point, a group or relationship supplies loaded terms for insiders and outsiders, treats questions as signs of a problem in the asker, and offers a single explanation for any doubt. Every community has shorthand, and strong belief is not control. What matters is whether disagreement can be voiced without being relabeled, whether outside sources may be read, and whether leaving is possible. It is judged by those conditions, never by whether the belief itself is true.",
-   "plain_language_summary": "A group or person gives you a fixed set of words and explanations, and any doubt you have gets renamed as a flaw in you instead of being answered.",
+   "short_definition": "Controlling the words, explanations and conclusions a person may use, so doubt is labeled a symptom and only one reading of events is allowed.",
+   "expanded_definition": "Thought control works on the vocabulary a person uses to think. Instead of arguing one point, a group or relationship supplies loaded terms for insiders and outsiders. It treats questions as signs of a problem in the asker, and offers a single explanation for any doubt. Every community has shorthand, and strong belief is not control. What matters is whether disagreement can be voiced without being relabeled, whether outside sources may be read, and whether leaving is possible. It is judged by those conditions, never by whether the belief itself is true.",
+   "plain_language_summary": "A group or person gives you a fixed set of words and explanations. Any doubt you have gets renamed as a flaw in you instead of being answered.",
    "why_this_matters": "The words you would use to examine the situation are supplied from inside it, so doubt arrives already labeled as a symptom. Questions that cannot be asked cannot be answered, and you may lose a way to check your own thinking.",
    "what_it_is": [
-    "A private vocabulary with a label for people who leave or object, such as 'worldly' or 'deceived', that ends the discussion.",
+    "A private vocabulary that has a label, such as 'worldly' or 'deceived', for people who leave or object, and the label ends the discussion.",
     "Questions treated as evidence of a problem in the person asking, instead of as questions.",
     "One explanation offered for every kind of doubt, whatever the doubt was about.",
     "Found in high-control groups, in some families and workplaces, and in online communities with strict insider language.",
-    "Judged by openness, not by content, meaning whether outside information may be read and dissent heard, whatever the belief."
+    "Judged by openness and not by what is believed. That means whether outside information may be read and disagreement heard."
    ],
    "what_it_sounds_like": [
     "Asking that question shows how far you have drifted.",
@@ -44291,7 +44291,7 @@
     "You aren't thinking clearly right now. Let's go back over the lessons."
    ],
    "what_it_is_not": [
-    "Shared shorthand, which every family, profession and fan community develops over time and which is normal rather than controlling.",
+    "Shared shorthand, which every family, profession and fan community develops over time. It is normal and does not control anyone.",
     "A belief you hold independently and can explain in your own words, including to someone who disagrees.",
     "Passionate, sincere conviction, which is different from a mechanism that suppresses dissent.",
     "A teacher or coach insisting on one method for a while so you can learn it, while you stay free to question it afterwards.",
@@ -44345,22 +44345,22 @@
     "Old friends find you harder to talk with, because your words have changed.",
     "You begin labeling other people's questions the way yours were labeled."
    ],
-   "repair_check": "Genuine change would let a doubt be stated plainly and answered on its merits, with outside sources welcome and no label attached to the person who asked. Kind words that keep the same labels for dissent leave the structure untouched.",
+   "repair_check": "Real change would let a doubt be stated plainly and answered on its merits, with outside sources welcome and no label put on the person who asked. Kind words that keep the same labels for disagreement leave the structure untouched.",
    "boundary_respect_check": "Ask one plain question, such as where a claim comes from, and see how the conversation goes. An open reply names sources and tolerates 'I'm not sure yet'. A reply that questions your loyalty, state of mind or commitment treats the question itself as the problem.",
-   "psychological_mechanism": "Thinking happens in whatever words are available. When a framework supplies the only words for a doubt, such as 'weakness' or 'attack', the doubt may read as evidence against oneself. Belonging, approval and meaning are often at stake, which makes agreeing rewarding and questioning costly, until independent checking starts to seem unsafe or disloyal.",
+   "psychological_mechanism": "Thinking happens in whatever words are available. If a framework supplies the only words for a doubt, such as 'weakness' or 'attack', the doubt may look like evidence against yourself. Belonging, approval and meaning are often at stake. That makes agreeing rewarding and questioning costly, until checking things independently starts to seem unsafe or disloyal.",
    "possible_impact_on_receiver": "Some report an inner censor that stops a thought before it forms, or find that their own words for feelings have faded. Others describe relief on meeting outside language that fits their experience, along with grief and anger. Contact with old friends can feel strange once the shared vocabulary is gone.",
    "response_options": {
     "soft_clarification": "Ask a curious, narrow question and note the answer: 'Where does that come from? I'd like to read it myself.'",
-    "firm_boundary": "Hold your ground quietly with 'I'm going to think about that before I agree,' and repeat it as often as needed without arguing the point.",
+    "firm_boundary": "Hold your ground quietly with 'I'm going to think about that before I agree,' and repeat it as often as needed. Do not argue the point.",
     "disengagement": "Keep your words few and neutral in heated debates, and use the time between sessions to read, walk and talk with people outside.",
     "support_seeking": "Find someone outside who is not part of the group, such as a counselor experienced with high-control groups or a friend from before, and describe specific phrases and what happened when you questioned them.",
-    "workplace_or_professional": "In a workplace with enforced slogans, keep a record of meetings where questions were answered with labels, and bring concerns to HR or an employee representative in writing."
+    "workplace_or_professional": "In a workplace with enforced slogans, keep a record of meetings where questions were answered with labels. Bring your concerns to HR or an employee representative in writing."
    },
    "boundary_script": "\"This is still sinking in for me, and a bit more reading would help before I decide. Where does that come from?\"",
-   "safety_note": "Danger signals include being cut off from outside contacts, risking housing, income or children for disagreeing, being told that going elsewhere means ruin, or being watched for doubt. Keep your questions low-key and your plans to yourself. Contact a counselor experienced with high-control groups, or legal aid if custody or housing is at stake, and work out any next step privately with them.",
+   "safety_note": "Danger signals include being cut off from outside contacts, and risking housing, income or children for disagreeing. Others are being told that going elsewhere means ruin, or being watched for doubt. Keep your questions low-key and your plans to yourself. Contact a counselor experienced with high-control groups, or legal aid if custody or housing is at stake, and work out any next step privately with them.",
    "safety_sensitive": true,
    "misuse_warning": [
-    "Calling any community with its own vocabulary 'thought control' dismisses members who are there freely and glad of it.",
+    "If you call any community with its own vocabulary 'thought control', you dismiss members who are there freely and are glad to be.",
     "The label describes how doubt is handled, so it should not be used to mean that a belief is false."
    ],
    "related_tactics": [
@@ -44371,7 +44371,7 @@
     "Self-Gaslighting Induction",
     "Fawning"
    ],
-   "how_to_distinguish_from_related": "Loyalty Binds makes silence the price of belonging, while thought control supplies the vocabulary that makes questions sound like symptoms. Self-Gaslighting Induction is doubting your memory of events, but here the doubt is over whether you may think a thought at all. Learned Helplessness tells you that you cannot cope alone, whereas thought control tells you that your own reading cannot be trusted.",
+   "how_to_distinguish_from_related": "Loyalty Binds makes silence the price of belonging. Thought control supplies the vocabulary that makes questions sound like symptoms. Self-Gaslighting Induction is doubting your memory of events. Here the doubt is over whether you may think a thought at all. Learned Helplessness tells you that you cannot cope alone, while thought control tells you that your own reading cannot be trusted.",
    "detection_notes": "Not matched or scored by this tool. Pasted text cannot establish this concept — included in the Field Guide purely as a literacy reference.",
    "codex_maturity": "mature",
    "human_review_flags": [
@@ -44387,16 +44387,16 @@
    "branch": "reference",
    "category": "Identity & Conditioning",
    "detectability_note": "This tool cannot establish this from pasted text at all. It is included for literacy only, so you can learn to recognize the concept — not as something this tool detects, scores, or flags.",
-   "core_meaning": "Intense, out-of-proportion dread attached to particular actions such as leaving, disagreeing or trusting outsiders, until avoiding them is a bodily reflex rather than a reasoned choice.",
+   "core_meaning": "Intense, out-of-proportion dread attached to actions such as leaving, disagreeing or trusting outsiders, until avoiding them becomes a bodily reflex instead of a reasoned choice.",
    "aftermath_state": false,
    "forensic_only": false,
    "absorbs": [],
-   "short_definition": "Intense, out-of-proportion dread attached to particular actions such as leaving, disagreeing or trusting outsiders, until avoiding them is a bodily reflex rather than a reasoned choice.",
-   "expanded_definition": "Phobia indoctrination is dread attached to specific actions through repeated frightening stories, warnings and reactions, until even thinking about the action brings panic. The actions are usually ones that would widen a person's independence: leaving, disagreeing, spending time apart, trusting outsiders. Honest warnings about real risks are not this. It stands out when the feared outcome is far larger than any evidence, is described as certain, and lines up with the very actions that would widen your world. Because the fear is felt in the body, knowing it is out of proportion may not switch it off.",
+   "short_definition": "Intense, out-of-proportion dread attached to actions such as leaving, disagreeing or trusting outsiders, until avoiding them becomes a bodily reflex instead of a reasoned choice.",
+   "expanded_definition": "Phobia indoctrination is dread tied to specific actions. It is built through repeated frightening stories, warnings and reactions, until even thinking about the action brings panic. The actions are usually ones that would widen a person's independence: leaving, disagreeing, spending time apart, trusting outsiders. Honest warnings about real risks are not this. It stands out when the feared outcome is far larger than any evidence, is described as certain, and lines up with the very actions that would widen your world. The fear is felt in the body, so knowing it is out of proportion may not switch it off.",
    "plain_language_summary": "After so many scary stories about one choice, just thinking of it brings panic. Your body reacts even when your mind knows the danger isn't real.",
-   "why_this_matters": "Avoidance becomes bodily rather than reasoned, so options stay ruled out by a fear response that persists even after you have concluded the fear was unwarranted. Choices that should be open stay shut.",
+   "why_this_matters": "Avoidance becomes a body reaction instead of a reasoned choice. A fear response keeps some options ruled out even after you have decided the fear was unwarranted. Choices that should be open stay shut.",
    "what_it_is": [
-    "Vivid stories about what happened to people who left, disagreed or trusted outsiders, told as certain rather than possible.",
+    "Vivid stories about what happened to people who left, disagreed or trusted outsiders, told as if the outcome were certain instead of possible.",
     "Fear aimed at particular actions, often those that would widen independence.",
     "A body reaction, such as a racing heart, nausea or freezing, at the mere idea of the action.",
     "Frequently arriving before any plan exists, as a warning given before the action was ever proposed.",
@@ -44413,7 +44413,7 @@
    ],
    "what_it_is_not": [
     "Proportionate warnings about real risks from someone with relevant experience, which are useful information.",
-    "Pre-existing anxiety or trauma responses that belong to you and may have nothing to do with anyone currently present.",
+    "Anxiety or trauma responses you already had before, which belong to you and may have nothing to do with anyone around you now.",
     "Cautious family or cultural norms that restrict you without having been built to frighten anyone.",
     "A specific phobia, such as fear of flying or of dogs, which has its own causes and its own treatment.",
     "A friend or relative who worries aloud, overstates a risk once, and is happy to be corrected.",
@@ -44466,19 +44466,19 @@
     "You stop proposing changes because the dread arrives first.",
     "The fear stays after the stories have been disproved."
    ],
-   "repair_check": "Change would look like the frightening stories being withdrawn or corrected, an admission that they were exaggerated, and support for the very action once feared. Gentle reassurance while the warnings continue is not that. On your side, small planned steps with a therapist's help can loosen the response.",
+   "repair_check": "Change would look like the frightening stories being withdrawn or corrected. It would include an admission that they were exaggerated, and support for the very action once feared. Gentle reassurance while the warnings continue is not that. On your side, small planned steps with a therapist's help can loosen the response.",
    "boundary_respect_check": "Mention the feared action as a mere possibility and watch the reply. Facts, questions and help with a plan show a warning that is about the risk. The same story repeated, louder or with sudden coldness, shows a warning that is not open to discussion.",
-   "psychological_mechanism": "Fear can be learned from stories as well as from experience. Repeated vivid warnings, especially from someone you trust or depend on, can pair a particular action with a threat response, so the body reacts before reasoning begins. Avoiding the action brings relief, which strengthens the link and prevents learning that nothing bad happens.",
-   "possible_impact_on_receiver": "Panic, nausea or dread at ordinary decisions can come with shame at being unable to act on a conclusion reached by reasoning. Some stop making plans, since the fear is already waiting. Others realize years later that a whole set of options never seemed to be on the menu, and grieve for the choices that went unmade.",
+   "psychological_mechanism": "Fear can be learned from stories as well as from experience. Repeated vivid warnings, especially from someone you trust or depend on, can pair a particular action with a threat response, so the body reacts before reasoning begins. Avoiding the action brings relief. That strengthens the link and stops you from learning that nothing bad happens.",
+   "possible_impact_on_receiver": "Ordinary decisions can bring panic, nausea or dread, along with shame at being unable to act on what you have reasoned out. Some stop making plans, because the fear is already waiting. Others realize years later that a whole set of options never seemed to be on the menu. They may grieve for the choices that went unmade.",
    "response_options": {
-    "soft_clarification": "Ask for the source: 'What makes you sure that would happen?' Listen for specifics, and notice whether the answer is information or only repetition.",
+    "soft_clarification": "Ask for the source: 'What makes you sure that would happen?' Listen for specifics, and notice whether the answer gives information or only repeats the claim.",
     "firm_boundary": "Keep your own pace with 'I hear that you're worried. I'm going to look into it myself before I decide.'",
     "disengagement": "When a story starts another loop, steer toward a neutral task and let it drop without a debate, then fact-check on your own later.",
-    "support_seeking": "Test the claim with someone outside the relationship, such as a doctor, a lawyer, a counselor or a friend from before, and ask what the real risk is. A trauma-informed therapist can also help with the body's fear response.",
-    "workplace_or_professional": "If a manager's scare stories about a transfer or training keep you in place, ask HR or a mentor for the actual policy in writing and check the facts independently."
+    "support_seeking": "Test the claim with someone outside the relationship, such as a doctor, a lawyer, a counselor or a friend from before. Ask what the real risk is. A trauma-informed therapist can also help with the body's fear response.",
+    "workplace_or_professional": "If a manager's scare stories about a transfer or training keep you in place, ask HR or a mentor for the actual policy in writing. Check the facts independently."
    },
    "boundary_script": "\"I know you're worried. Let me check the facts myself so I can feel sure either way, and we can talk again after.\"",
-   "safety_note": "Danger signals include warnings that name violence, ruin or death for the actions that would widen your independence, threats tied to children or housing, and being kept from checking facts. Fears like these deserve help from someone outside, such as an advocate, legal aid or a therapist. Reach them where the person cannot overhear or read your messages, and make any plan privately with their help.",
+   "safety_note": "Danger signals include warnings that name violence, ruin or death if you take actions that would widen your independence. Others are threats tied to children or housing, and being kept from checking facts. Fears like these deserve help from someone outside, such as an advocate, legal aid or a therapist. Reach them where the person cannot overhear or read your messages, and make any plan privately with their help.",
    "safety_sensitive": true,
    "misuse_warning": [
     "Not every strong warning is indoctrination. A worried parent or friend who overstates a risk once is not building a phobia.",
@@ -44492,7 +44492,7 @@
     "Self-Gaslighting Induction",
     "Fawning"
    ],
-   "how_to_distinguish_from_related": "Learned Helplessness tells you that you could not cope alone, while phobia indoctrination skips the argument and attaches dread to specific acts, so the body objects before any reasoning. Fawning is appeasing a threatening person in the moment, but here the fear is of an action and it persists with the person absent. Loyalty Binds uses obligation and guilt to hold you in place, whereas this one runs on fear of what would happen.",
+   "how_to_distinguish_from_related": "Learned Helplessness tells you that you could not cope alone. Phobia indoctrination skips the argument and attaches dread to specific acts, so the body objects before any reasoning. Fawning is appeasing a threatening person in the moment. Here the fear is of an action, and it persists with the person absent. Loyalty Binds uses obligation and guilt to hold you in place, while this one runs on fear of what would happen.",
    "detection_notes": "Not matched or scored by this tool. Pasted text cannot establish this concept — included in the Field Guide purely as a literacy reference.",
    "codex_maturity": "mature",
    "human_review_flags": [
@@ -44508,14 +44508,14 @@
    "branch": "reference",
    "category": "Institutional & Process",
    "detectability_note": "This tool cannot establish this from pasted text at all. It is included for literacy only, so you can learn to recognize the concept — not as something this tool detects, scores, or flags.",
-   "core_meaning": "Turning a small, informal concern into a formal complaint, report or legal step whose weight is out of proportion to what happened.",
+   "core_meaning": "Turning a small, informal concern into a formal complaint, report or legal step that is far heavier than what actually happened.",
    "aftermath_state": false,
    "forensic_only": false,
    "absorbs": [],
-   "short_definition": "Turning a small, informal concern into a formal complaint, report or legal step whose weight is out of proportion to what happened.",
-   "expanded_definition": "Administrative Escalation is the jump from a conversation to a paper process. A disagreement that could have been settled over coffee becomes an HR complaint, a neighbor's noise becomes a formal notice, a request for space becomes a documented incident. Formal routes are sometimes exactly right. The warning sign is a formality far larger than the event, arriving soon after you raised a concern of your own, and mostly flowing in one direction. The process itself then costs you time, money and attention to answer.",
+   "short_definition": "Turning a small, informal concern into a formal complaint, report or legal step that is far heavier than what actually happened.",
+   "expanded_definition": "Administrative Escalation is the jump from a conversation to a paper process. A disagreement that could have been settled over coffee becomes an HR complaint. A neighbor's noise becomes a formal notice. A request for space becomes a documented incident. Formal routes are sometimes exactly right. The warning sign is a formality far larger than the event, arriving soon after you raised a concern of your own, and mostly flowing in one direction. The process then costs you time, money and attention to answer.",
    "plain_language_summary": "A small disagreement suddenly turns into an official complaint or filing. You spend weeks answering something a short talk could have settled.",
-   "why_this_matters": "Defending against a process that is out of scale takes time, money and attention however it ends, and your next concern may go unraised for that reason alone. Even a case that is dismissed leaves a record you did not expect to have.",
+   "why_this_matters": "Defending against a process that is out of scale takes time, money and attention however it ends. Your next concern may go unraised for that reason alone. Even a dismissed case leaves a record you did not expect to have.",
    "what_it_is": [
     "A conversation-sized matter moved straight into a written complaint, formal warning or filed report.",
     "An escalation that lands shortly after you voiced a concern or set a limit of your own.",
@@ -44554,7 +44554,7 @@
    "innocent_or_ordinary_possibilities": [
     "Some people document everything out of habit, caution or past experience of not being believed.",
     "Organizations often require a written trail before they can act at all, so staff are told to file.",
-    "A person who is afraid to confront someone directly may find a formal route less frightening than a conversation."
+    "Someone who is afraid to face a person directly may find a formal route less scary than a talk."
    ],
    "common_false_positives": [
     "A tenant who reports a repeated safety hazard after several unanswered verbal requests.",
@@ -44575,7 +44575,7 @@
    ],
    "more_concerning_if": [
     "A series of formal steps follows each concern you raise, one after another.",
-    "The consequences threatened in the formal notice, such as a job, a lease or access to children, are far greater than the event.",
+    "The formal notice threatens consequences far greater than the event, such as a job, a lease or access to children.",
     "You are told that the process will go away if you drop your original concern."
    ],
    "pattern_over_time_signs": [
@@ -44584,22 +44584,22 @@
     "You keep your own folder of emails and dates just in case, and check every message twice before sending.",
     "Others around you learn to avoid the topic after seeing what happened."
    ],
-   "repair_check": "The formal step is withdrawn or closed with a note that it was out of scale, and the next disagreement is raised in conversation first. A softened tone with the file left open falls short.",
+   "repair_check": "The formal step is withdrawn or closed with a note that it was out of scale. The next disagreement is raised in conversation first. A softer tone with the file left open falls short.",
    "boundary_respect_check": "State the limit you set and watch the next response. Is the original request addressed, or does another notice follow? Compare how this person handled earlier disagreements with how they handle yours now.",
    "psychological_mechanism": "A formal process carries the weight of an institution, and being on the receiving end tends to trigger worry about records, reputation and money. That worry can make speaking up again feel too costly. Because each step looks procedural, it may be hard to see the pattern across several of them.",
-   "possible_impact_on_receiver": "People describe dread each time an envelope or an email from a particular sender arrives, sleepless nights over a matter that began small, and growing caution about raising any concern at all. Some say they paid for advice they could not really afford, and some say they withdrew a legitimate request just to make it stop.",
+   "possible_impact_on_receiver": "Dread can arrive with each envelope or email from a particular sender. Sleepless nights over a matter that began small are one thing people report, as is growing caution about raising any concern at all. Some say they paid for advice they could not really afford, and some say they withdrew a legitimate request just to make it stop.",
    "response_options": {
     "soft_clarification": "Offer to go back to a conversation: 'This feels bigger than what happened. Can we talk it through before it goes any further?'",
     "firm_boundary": "Answer the formal process on its facts, in writing, and raise your own concern separately through the right channel.",
-    "disengagement": "Respond in writing, briefly and factually, to the formal step, and avoid side conversations or messages that could be quoted back.",
-    "support_seeking": "Ask a union representative, tenants' association, mediator or legal aid office to read the notice with you and tell you what response is actually required and by when.",
-    "workplace_or_professional": "Request the written policy, ask what the process allows you to submit in reply, and ask for mediation as a first step if the policy provides for it."
+    "disengagement": "Reply to the formal step in writing, briefly and factually. Avoid side conversations or messages that could be quoted back.",
+    "support_seeking": "Ask a union representative, tenants' association, mediator or legal aid office to read the notice with you. They can tell you what response is actually required and by when.",
+    "workplace_or_professional": "Ask for the written policy and what the process lets you submit in reply. If the policy allows it, ask for mediation as a first step."
    },
    "boundary_script": "\"I will answer this fully. Could we also talk it through first? I also want my own concern recorded alongside it, so neither one gets dropped.\"",
    "safety_note": "Danger signals are a formal step that touches your job, home, immigration status or time with your children, especially with a response deadline running. Another is a filing by someone who has frightened you before. Read the deadline on the notice today. Take it to legal aid, a union representative or a tenants' organization before you reply. An advocate can help if the filing is part of a wider pattern of control.",
    "safety_sensitive": true,
    "misuse_warning": [
-    "Treating every complaint filed against you as retaliation can blind you to a legitimate concern that deserves a real answer.",
+    "If you treat every complaint filed against you as retaliation, you may miss a legitimate concern that deserves a real answer.",
     "Calling someone's careful record-keeping 'escalation' can penalize people who keep records because they were once disbelieved."
    ],
    "related_tactics": [
@@ -44610,7 +44610,7 @@
     "Pressure to Sign",
     "Clinical Tone Policing"
    ],
-   "how_to_distinguish_from_related": "Legal threats use a possible official step as leverage, but Administrative Escalation actually starts the process, so the weight is felt and not just implied. Tone policing dismisses your concern as too intense, whereas escalation answers it with a file. A trash-can label hands you a verdict; this hands you a process to respond to.",
+   "how_to_distinguish_from_related": "Legal threats hold a possible official step over you as pressure. Administrative Escalation actually starts the process, so you feel the weight directly instead of only hearing it hinted at. Tone policing dismisses your concern as too intense, whereas escalation answers it with a file. A trash-can label hands you a verdict, and this hands you a process to respond to.",
    "detection_notes": "Not matched or scored by this tool. Pasted text cannot establish this concept — included in the Field Guide purely as a literacy reference.",
    "codex_maturity": "mature",
    "human_review_flags": [
@@ -44627,14 +44627,14 @@
    "branch": "reference",
    "category": "Institutional & Process",
    "detectability_note": "This tool cannot establish this from pasted text at all. It is included for literacy only, so you can learn to recognize the concept — not as something this tool detects, scores, or flags.",
-   "core_meaning": "Overwhelming a person with a steady stream of filings, motions, complaints and requests whose combined burden drains their time, money and energy.",
+   "core_meaning": "Overwhelming a person with a steady stream of filings, motions, complaints and requests that drain their time, money and energy.",
    "aftermath_state": false,
    "forensic_only": false,
    "absorbs": [],
-   "short_definition": "Overwhelming a person with a steady stream of filings, motions, complaints and requests whose combined burden drains their time, money and energy.",
-   "expanded_definition": "Paper Terrorism describes the use of courts, agencies and administrative offices as a source of constant pressure through volume. Each filing, motion, records request or complaint may look proper by itself. Together they arrive faster than anyone can reasonably answer, and each one needs a reply, a deadline met and often a fee paid. Complex disputes do legitimately produce paperwork, and thorough lawyers file a lot. It stands out when repetition continues after matters are settled and the cost of responding is the heaviest part.",
+   "short_definition": "Overwhelming a person with a steady stream of filings, motions, complaints and requests that drain their time, money and energy.",
+   "expanded_definition": "Paper Terrorism is the use of courts, agencies and administrative offices to create constant pressure through volume. Each filing, motion, records request or complaint may look proper by itself. Together they arrive faster than anyone can reasonably answer. Each one needs a reply, a deadline met and often a fee paid. Complex disputes do legitimately produce paperwork, and thorough lawyers file a lot. It stands out when repetition continues after matters are settled and the cost of responding is the heaviest part.",
    "plain_language_summary": "A person is hit with so many formal filings and complaints that simply responding to them uses up their time, money and strength.",
-   "why_this_matters": "The burden builds across filings and does not sit in any one of them. Answering all of them costs time and money whether or not a single one has merit, and the cost can force settlements, missed deadlines or default judgments.",
+   "why_this_matters": "The burden builds across filings and does not sit in any one of them. Answering all of them costs time and money whether or not a single one has merit. That cost can force settlements, missed deadlines or default judgments.",
    "what_it_is": [
     "A run of separate, technically valid filings, each with its own response deadline.",
     "The same issue brought again after it was decided, in a new form or before a different body.",
@@ -44650,10 +44650,10 @@
     "Mailbox and inbox filling with formal papers, each demanding a response within a short window."
    ],
    "what_it_is_not": [
-    "A genuinely complex dispute that needs many legitimate filings to resolve, such as an estate, a business split or a multi-party case.",
+    "A truly complex dispute, such as an estate, a business split or a case with many parties, that needs many legitimate filings to resolve.",
     "A lawyer being thorough and generating volume as a by-product of diligence.",
     "An institution's own procedures producing a large amount of paperwork, whoever the parties are.",
-    "Someone without legal training filing repeatedly because they do not understand how to bring a matter to an end.",
+    "Someone without legal training who files again and again because they do not know how to bring a matter to an end.",
     "A series of separate legitimate complaints about separate real problems."
    ],
    "this_may_be_it_when": [
@@ -44668,7 +44668,7 @@
     "A court or agency requires the multiple submissions in question.",
     "The volume tapers off as issues are resolved.",
     "A neutral lawyer reviewing the file sees the volume as normal for the dispute.",
-    "The filer is a person who is struggling to understand the process, and a clear explanation from a court clerk ends the repetition."
+    "The filer is struggling to understand the process, and a clear explanation from a court clerk ends the repetition."
    ],
    "innocent_or_ordinary_possibilities": [
     "Complicated disputes often generate paperwork on both sides, including your own lawyer's.",
@@ -44701,24 +44701,24 @@
     "Your calendar is filled with response deadlines, and you dread the mail.",
     "New complaints appear soon after each earlier one is closed in your favor.",
     "Legal costs mount well beyond the amount in dispute.",
-    "Agencies and courts begin to recognize your name and the filer's pattern, and a judge comments on repetitive filings."
+    "Agencies and courts begin to recognize your name and the filer's pattern. A judge comments on repetitive filings."
    ],
    "repair_check": "The stream stops, the repeated matters are withdrawn or formally closed, and there is an agreement on how any future dispute will be handled. A single paper withdrawn while others stay open is not a change.",
    "boundary_respect_check": "Ask yourself whether the volume dropped after your last response or settlement offer, or whether it moved to a new office. A lull of a few weeks proves little. Look at several months of filings together.",
-   "psychological_mechanism": "Deadlines with legal consequences keep the attention of a person almost constantly, and each one demands a reply before the next arrives. The steady load tends to drain money, sleep and concentration, which can make mistakes more likely and settling on bad terms more tempting. Because each paper is individually proper, it is hard to explain the pattern to others.",
-   "possible_impact_on_receiver": "People describe constant dread of the mailbox, unable to plan beyond the next deadline, and spending savings on fees for a matter that began small. Some describe sleeplessness, strained work, and a sense that no outcome would bring it to an end. Some say they gave up a valid position simply to stop the flow.",
+   "psychological_mechanism": "Deadlines with legal consequences hold a person's attention almost constantly, and each one demands a reply before the next arrives. The steady load often drains money, sleep and concentration, which can make mistakes more likely and settling on bad terms more tempting. Because each paper is proper on its own, the pattern is hard to explain to others.",
+   "possible_impact_on_receiver": "Some describe constant dread of the mailbox, being unable to plan beyond the next deadline, and spending savings on fees for a matter that began small. Others describe sleeplessness, strained work, and a sense that no outcome would bring it to an end. Some say they gave up a valid position simply to stop the flow.",
    "response_options": {
-    "soft_clarification": "Through your lawyer or in a short written note, ask the other side to identify which pending issues remain in dispute and which are resolved.",
-    "firm_boundary": "Respond only to filings that require it, on the facts, and keep a log of repeated matters so a court or agency can see them together.",
-    "disengagement": "Keep all contact in formal channels and do not discuss the case by text, phone or in person, so you are not drawn into answering outside the process.",
-    "support_seeking": "Contact legal aid, a bar association referral service or a domestic abuse legal advocate. Ask them whether the court has tools to manage repetitive filings in your jurisdiction.",
-    "workplace_or_professional": "If complaints reach your employer or licensing body, give them a short factual summary and a timeline of the filings, and ask what their process is for repeat complaints."
+    "soft_clarification": "Through your lawyer or in a short written note, ask the other side which pending issues are still in dispute and which are resolved.",
+    "firm_boundary": "Respond only to filings that require it, and stick to the facts. Keep a log of repeated matters so a court or agency can see them together.",
+    "disengagement": "Keep all contact in formal channels. Do not discuss the case by text, phone or in person, so you are not drawn into answering outside the process.",
+    "support_seeking": "Contact legal aid, a bar association referral service or a domestic abuse legal advocate. Ask them whether the court has ways to deal with repeated filings where you live.",
+    "workplace_or_professional": "If complaints reach your employer or licensing body, give them a short factual summary and a timeline of the filings. Ask what their process is for repeat complaints."
    },
    "boundary_script": "\"I'll respond to anything the court requires. I am asking the court to look at these filings together, because several raise matters that have already been decided.\"",
-   "safety_note": "Filing volume can sit alongside other control, especially after a separation: threats, monitoring, financial pressure or a fight over children. A stream of filings may come from someone who frightened you before. If so, tell a domestic abuse or legal advocate about the whole history, not only the paperwork. Ask about protective orders and safe ways to receive court mail.",
+   "safety_note": "Filing volume can sit alongside other control, especially after a separation, such as threats, monitoring, financial pressure or a fight over children. A stream of filings may come from someone who frightened you before. If so, tell a domestic abuse or legal advocate about the whole history, including things that have nothing to do with the paperwork. Ask about protective orders and safe ways to receive court mail.",
    "safety_sensitive": true,
    "misuse_warning": [
-    "A person who files many papers because they are in real distress or do not understand court rules may not be doing anything to harm you. Look at the content and the effect, and avoid assuming what they feel.",
+    "Someone who files many papers because they are in real distress or do not understand court rules may not be trying to harm you. Look at the content and the effect, and avoid assuming what they feel.",
     "Using the phrase to describe any lawsuit against you can wrongly paint a legitimate claim as harassment."
    ],
    "related_tactics": [
@@ -44729,7 +44729,7 @@
     "Pressure to Sign",
     "Clinical Tone Policing"
    ],
-   "how_to_distinguish_from_related": "Legal threats warn of a possible filing to gain leverage, but in Paper Terrorism the filings are actually arriving, one after another. Signing pressure demands a fast yes to one document; this buries you in many, each with its own deadline. Tone policing talks down your distress, while here the weight is paper you can see and count.",
+   "how_to_distinguish_from_related": "Legal threats warn of a possible filing as pressure, but in Paper Terrorism the filings are actually arriving, one after another. Signing pressure demands a fast yes to one document, while this buries you in many, each with its own deadline. Tone policing talks down your distress, while here the weight is paper you can see and count.",
    "detection_notes": "Not matched or scored by this tool. Pasted text cannot establish this concept — included in the Field Guide purely as a literacy reference.",
    "codex_maturity": "mature",
    "human_review_flags": [
@@ -44746,14 +44746,14 @@
    "branch": "reference",
    "category": "Digital",
    "detectability_note": "This tool cannot establish this from pasted text at all. It is included for literacy only, so you can learn to recognize the concept — not as something this tool detects, scores, or flags.",
-   "core_meaning": "A group converging on one person's posts, account or message at once, usually after a shared call to do so, so the volume itself overwhelms them.",
+   "core_meaning": "A group converging on one person's posts, account or messages at once, usually after a shared call to do so, so the sheer volume overwhelms them.",
    "aftermath_state": false,
    "forensic_only": false,
    "absorbs": [],
-   "short_definition": "A group converging on one person's posts, account or message at once, usually after a shared call to do so, so the volume itself overwhelms them.",
-   "expanded_definition": "Brigading is a surge of replies, reports, downvotes, ratings or messages sent to one person or page by people who have been pointed there, often by a post, group chat or forum thread elsewhere. It also happens on review pages, polls and comment sections. What separates it from a pile-on is the shared source and the short window. Each participant may do something small. The weight comes from the sum, which no one can answer one by one.",
+   "short_definition": "A group converging on one person's posts, account or messages at once, usually after a shared call to do so, so the sheer volume overwhelms them.",
+   "expanded_definition": "Brigading is a surge of replies, reports, downvotes, ratings or messages sent to one person or page by people who were pointed there. The pointer is often a post, group chat or forum thread elsewhere. It also happens on review pages, polls and comment sections. What separates it from a pile-on is the shared source and the short window. Each participant may do something small. The weight comes from the sum, which no one can answer one by one.",
    "plain_language_summary": "Dozens or hundreds of people flood one person with replies or reports within hours. Usually a post somewhere else sent them, and nobody could answer them all.",
-   "why_this_matters": "Volume arriving at once removes any chance of answering the way you could answer a single message, and the platform itself becomes unusable for as long as it lasts. Notifications pile up faster than anyone can read, and a calm reply is buried.",
+   "why_this_matters": "Volume arriving at once removes any chance of answering the way you could answer a single message. The platform itself becomes unusable for as long as it lasts. Notifications pile up faster than anyone can read, and a calm reply is buried.",
    "what_it_is": [
     "A sudden spike of hostile or mocking replies, ratings or messages in a short window.",
     "A visible source, such as a post, screenshot, group chat or forum thread, that points people toward one person or account.",
@@ -44770,9 +44770,9 @@
     "Dozens of near-identical replies such as 'Wow. Unbelievable.' from accounts with no history with you."
    ],
    "what_it_is_not": [
-    "Virality is not coordination: a post that spreads on its own draws unconnected people who arrived by different routes. What marks brigading is convergence traceable to one rallying post or thread, and friends reacting independently to the same post is not that.",
+    "Virality is not coordination. A post that spreads on its own draws unconnected people who arrived by different routes. Brigading shows up as convergence that can be traced to one rallying post or thread. Friends reacting independently to the same post is not that.",
     "Heavy criticism of a public statement from people who each saw it for themselves, in their own words.",
-    "An openly announced campaign of letters or calls about a public decision, organized but done in the open under people's own names.",
+    "An openly announced campaign of letters or calls about a public decision, organized but carried out in the open under people's own names.",
     "A group of supporters replying warmly to a friend's post, which is coordinated but not an attack.",
     "Real customers leaving many bad reviews after a product actually failed or was recalled."
    ],
@@ -44826,23 +44826,23 @@
     "You mute notifications or close accounts, and the quiet is then cited as proof of something.",
     "People you know start asking about screenshots you have never seen."
    ],
-   "repair_check": "Where the source post's author acknowledges the pile-on, removes the call to converge and asks followers to stop, the volume tends to fall. A quiet deletion while the thread elsewhere keeps running, or an 'I never told anyone to do that' with the link left up, leaves the wave moving.",
+   "repair_check": "If the author of the source post acknowledges the pile-on, removes the call to converge and asks followers to stop, the volume often falls. A quiet deletion while the thread elsewhere keeps running leaves the wave moving. So does an 'I never told anyone to do that' with the link left up.",
    "boundary_respect_check": "Watch the first day after you limit replies or lock the account. If the wave thins and does not move to your email, workplace or another platform, the limit worked. If new accounts appear or the thread starts discussing how to get round it, the limit is being tested.",
-   "psychological_mechanism": "Seeing many people agree can make a view feel more correct, and each participant can feel their own small reply is harmless because they are one of many. For the person on the receiving end, a flood in a short time can overload the ability to sort real concerns from noise, and the crowd can feel far larger than the number of people actually involved.",
+   "psychological_mechanism": "Seeing many people agree can make a view seem more correct, and each participant may feel their own small reply is harmless because they are one of many. The person on the receiving end gets a flood in a short time, which can overload their ability to sort real concerns from noise. The crowd can also look far larger than the number of people actually involved.",
    "possible_impact_on_receiver": "People describe dreading to open notifications, losing sleep, deleting posts or accounts, and checking the thread to see what comes next. Some describe shame over things they never said. Friends and employers may see screenshots, so some describe worry about work or reputation, and relief once the wave passes or someone speaks up.",
    "response_options": {
     "soft_clarification": "If you were misquoted, post one calm correction with the full original attached and answer no individual replies. People who arrive later can then see the record.",
     "firm_boundary": "Use tools that need no announcement: restrict replies, filter keywords, mute the thread and block accounts as they appear.",
     "disengagement": "Step away from notifications for a day. Ask a trusted friend to read them and tell you only about threats or personal details.",
     "support_seeking": "Save dated screenshots of the wave, the rallying post and any threats. Send them to the platform's report tools and, if threats or personal details appear, to the police and an online-harassment support service.",
-    "workplace_or_professional": "If it may reach your employer, give your manager or HR a short heads-up with screenshots before they find it themselves, and ask who should handle any press or messages."
+    "workplace_or_professional": "If it may reach your employer, give your manager or HR a short heads-up with screenshots before they find it themselves. Ask who should handle any press or messages."
    },
    "boundary_script": "\"Here is the original post in full, with what came before it. I'm not answering individual replies.\"",
-   "safety_note": "Treat threats, a home address, a workplace name or a family member's name appearing in the wave as a different level of problem from rude replies. Save evidence before blocking, report it to the platform and, where threats look credible, to the police. Ask a friend you trust to read the messages for you and flag only threats or personal details.",
+   "safety_note": "If threats, a home address, a workplace name or a family member's name appear in the wave, treat that as a different level of problem from rude replies. Save evidence before blocking. Report it to the platform and, where threats look credible, to the police. Ask a friend you trust to read the messages for you and flag only threats or personal details.",
    "safety_sensitive": true,
    "misuse_warning": [
     "Calling any heavy criticism 'brigading' can dismiss people who disagree with you in good faith. The label needs evidence of a shared call to converge.",
-    "Accusing a named person of organizing a pile-on without a link or screenshot trail can start a pile-on of its own."
+    "If you accuse a named person of organizing a pile-on without a link or screenshot trail, that can start a pile-on of its own."
    ],
    "related_tactics": [
     "Stalking-by-Notification",
@@ -44852,7 +44852,7 @@
     "Doxxing",
     "Sock Puppets"
    ],
-   "how_to_distinguish_from_related": "Sock Puppets are one person posing as many voices, while a brigade is many real people. Doxxing publishes private details such as an address; a wave can include it, but a brigade needs no private information, only a link to follow. What sets Brigading apart is the shared rallying point: everyone arrives from the same place, at about the same time.",
+   "how_to_distinguish_from_related": "Sock Puppets are one person posing as many voices, while a brigade is many real people. Doxxing publishes private details such as an address. A wave can include that, but a brigade needs no private information, only a link to follow. What sets Brigading apart is the shared rallying point: everyone arrives from the same place, at about the same time.",
    "detection_notes": "Not matched or scored by this tool. Pasted text cannot establish this concept — included in the Field Guide purely as a literacy reference.",
    "codex_maturity": "mature",
    "human_review_flags": [
@@ -44868,13 +44868,13 @@
    "branch": "reference",
    "category": "Digital",
    "detectability_note": "This tool cannot establish this from pasted text at all. It is included for literacy only, so you can learn to recognize the concept — not as something this tool detects, scores, or flags.",
-   "core_meaning": "Passing on a statement or image without the surrounding material that gave it its meaning, so viewers read something different from what was meant where it began.",
+   "core_meaning": "Passing on a statement or image without the surrounding material that gave it meaning, so viewers read something different from what was meant originally.",
    "aftermath_state": false,
    "forensic_only": false,
    "absorbs": [],
-   "short_definition": "Passing on a statement or image without the surrounding material that gave it its meaning, so viewers read something different from what was meant where it began.",
-   "expanded_definition": "Context Collapse Exploitation is when a screenshot, clip, quote or old post travels without what surrounded it, and the stripped version is used to show something the whole would not show. Examples are a reply without the message it answered, a joke without its setting, or a years-old post shown as a current view. Every excerpt leaves something out, so the question is whether the missing part changes the meaning and whether it was easy to include. It does not show why it was left out.",
-   "plain_language_summary": "A piece of something you said or posted is cut out of its setting and shared, so people who see only that piece think you meant something you did not.",
+   "short_definition": "Passing on a statement or image without the surrounding material that gave it meaning, so viewers read something different from what was meant originally.",
+   "expanded_definition": "Context Collapse Exploitation is when a screenshot, clip, quote or old post travels without what surrounded it. The stripped version is then used to show something the whole would not show. Examples are a reply without the message it answered, a joke without its setting, or a years-old post shown as a current view. Every excerpt leaves something out, so the question is whether the missing part changes the meaning and whether it was easy to include. The excerpt alone does not show why something was left out.",
+   "plain_language_summary": "A piece of something you said or posted is cut out of its setting and shared. People who see only that piece think you meant something you did not.",
    "why_this_matters": "The version that circulates is the stripped one, and restoring the context means reaching an audience that has already reacted. By then the first impression has often set, and a correction may not travel as far as the clip did.",
    "what_it_is": [
     "A screenshot of one message sent round without the message it replied to.",
@@ -44948,23 +44948,23 @@
     "You begin to write everything knowing it could be screenshotted, and say less in writing.",
     "People who saw only the clip bring it up with you months later."
    ],
-   "repair_check": "A proper fix puts the original in full beside the clip, or takes the clip down with a note saying what was left out. A 'for context' reply while the stripped version stays pinned, or a correction placed where far fewer people will see it, leaves the first impression standing.",
+   "repair_check": "A proper fix puts the original in full beside the clip, or takes the clip down with a note saying what was left out. A 'for context' reply while the stripped version stays pinned leaves the first impression standing. So does a correction placed where far fewer people will see it.",
    "boundary_respect_check": "Ask the sharer to add the full thread or link beside the excerpt, and watch whether it appears and stays. A quick edit is a good sign. Being told the context is irrelevant, or being called defensive for asking, is not.",
    "psychological_mechanism": "Viewers judge quickly from whatever is in front of them, and the cut-away part is invisible, so nobody goes looking for it. An excerpt that fits an opinion already held about someone may feel complete, and anger can travel faster than checking. Feeds also put separate audiences in one place, so a joke made for friends reaches strangers with different norms.",
-   "possible_impact_on_receiver": "People describe dread at learning that a version of them exists that they do not recognize, urgency to explain to people who have already decided, and care about everything they put in writing afterwards. Some withdraw from posting. Some describe messages from acquaintances asking about something they never said.",
+   "possible_impact_on_receiver": "Learning that a version of you exists that you do not recognize can bring dread. Some feel an urgency to explain to people who have already decided, and take care over everything they put in writing afterwards. Some withdraw from posting. Some describe messages from acquaintances asking about something they never said.",
    "response_options": {
-    "soft_clarification": "Reply under the post with a link to the full original and one sentence: 'The part before this changes the meaning, so here is the whole thing.'",
+    "soft_clarification": "Reply under the post with a link to the full original, plus one sentence such as: 'The part before this changes the meaning, so here is the whole thing.'",
     "firm_boundary": "Ask the poster to add the full thread or take the excerpt down. Keep it short and do not argue the point with commenters.",
     "disengagement": "Do not rewrite the original post or answer every commenter. One pinned correction on your own page is enough.",
     "support_seeking": "Show a friend who has seen neither version the original and the cropped one, and ask what each says to them. Then ask them to share the original when people ask about it.",
-    "workplace_or_professional": "If the excerpt reaches your employer or school, bring the full original with its date and thread to the person who needs it, in writing, before they form a view."
+    "workplace_or_professional": "If the excerpt reaches your employer or school, bring the full original, with its date and thread, to the person who needs it. Do this in writing, before they form a view."
    },
    "boundary_script": "\"The screenshot leaves out the message I was replying to. Here is the whole conversation. Please add it next to your post, or take the screenshot down.\"",
-   "safety_note": "A clipped quote circulating is a reputation problem, not a physical one. It changes if the clipped version brings threats, your address or workplace being posted, or calls to people who hold power over your income or housing. Save dated copies of both versions and the replies, and take them to the platform's report tool and, if threats appear, the police.",
+   "safety_note": "A clipped quote circulating is a reputation problem, not a physical one. That changes if the clipped version brings threats, your address or workplace being posted, or calls to people who hold power over your income or housing. Save dated copies of both versions and the replies. Take them to the platform's report tool and, if threats appear, to the police.",
    "safety_sensitive": false,
    "misuse_warning": [
     "Saying 'you took it out of context' about every unwelcome quote can protect someone who really did say it. The label needs the missing part to change the meaning.",
-    "Accusing a sharer of manipulation when they simply never saw the full conversation turns a mistake into a charge."
+    "If a sharer never saw the full conversation, accusing them of manipulation turns a mistake into a charge."
    ],
    "related_tactics": [
     "Stalking-by-Notification",

@@ -487,11 +487,11 @@
     "how_to_distinguish_from_related": "Lying is one false statement that can sit inside an otherwise real relationship. Catfishing replaces the whole person the relationship is with. Exaggeration inflates real qualities such as height or income, while a fabricated identity can't be fixed by toning it down. Fabricated Evidence manufactures documents or screenshots to prove a claim. A catfish profile may contain staged photos, but what defines it is that the person at the other end is not who they say."
   },
   "False Reports": {
-    "short_definition": "Filing complaints or accusations with an employer, school, agency or police that contain claims the filer knows are untrue, so the accused person must answer for something that never happened.",
-    "core_meaning": "Filing complaints or accusations with an employer, school, agency or police that contain claims the filer knows are untrue, so the accused person must answer for something that never happened.",
-    "expanded_definition": "A false report is a formal complaint whose central facts did not happen: an invented incident, a made-up date, an act the accused person could not have done. It goes to a body with power, such as a manager, a school, a licensing board, a child-protection agency or the police, which must respond. Mistaken reports and honestly disputed ones are different, and a report that cannot be proved is not necessarily false. What marks the pattern is a report contradicted by independent records, sometimes repeated to more than one body.",
+    "short_definition": "Making a formal complaint to an employer, school, agency or police that the filer knows contains untrue claims, so the accused must answer for something that never happened.",
+    "core_meaning": "Making a formal complaint to an employer, school, agency or police that the filer knows contains untrue claims, so the accused must answer for something that never happened.",
+    "expanded_definition": "A false report is a formal complaint whose main facts did not happen. It might be an invented incident, a made-up date, or an act the accused could not have done. It goes to a body with power, such as a manager, a school, a licensing board, a child-protection agency or the police, and that body must respond. Mistaken reports and honestly disputed ones are different. A report that cannot be proved is not necessarily false. What marks the pattern is a report that independent records contradict, sometimes repeated to more than one body.",
     "plain_language_summary": "Someone reports you to an authority for something that never happened. You have to defend yourself before anyone checks whether it is true.",
-    "why_this_matters": "A fabricated complaint puts a real job, license or family arrangement in jeopardy, and the person has to answer for something that did not happen before anyone establishes whether it did.",
+    "why_this_matters": "A made-up complaint puts a real job, license or family arrangement at risk. The person has to answer for something that did not happen before anyone finds out whether it did.",
     "what_it_is": [
       "A formal complaint, accusation or document sent to an authority whose core facts are untrue.",
       "Recipients include employers, schools, landlords, licensing bodies, child-protection services and police.",
@@ -507,7 +507,7 @@
       "Several agencies receiving similar reports from the same source within weeks."
     ],
     "what_it_is_not": [
-      "A genuine report that characterizes events in a way the subject disputes still reflects the reporter's honest perception. Institutions also make their own errors in processing legitimate reports.",
+      "A genuine report that describes events in a way the other person disputes still reflects the reporter's honest view. Institutions also make their own mistakes when they handle real reports.",
       "Two people who disagree factually about what happened, where neither is inventing anything.",
       "A report made in good faith and found unsubstantiated. Unproven is not the same as false.",
       "A mandated reporter, such as a teacher or nurse, passing on a concern as their role requires.",
@@ -562,35 +562,35 @@
       "You avoid ordinary things, like a child handover or a one-to-one meeting, for fear of another report.",
       "Managers, relatives or neighbors are approached and asked about you."
     ],
-    "repair_check": "A written withdrawal or correction, sent to the same body that received the report, plus a plain acknowledgment to you that the claim was not true, is what repair would involve. Saying 'I only wanted someone to listen' while the file stays open leaves the consequences where they were.",
+    "repair_check": "Repair would involve a written withdrawal or correction sent to the same body that got the report, plus a plain admission to you that the claim was not true. Saying 'I only wanted someone to listen' while the file stays open leaves the consequences where they were.",
     "boundary_respect_check": "What matters is whether the reports stop and whether anything is corrected on the record. Words said to you in private, such as 'I'm sorry it went that far', count for little if the institution has not been told. Notice which bodies have heard the correction.",
-    "psychological_mechanism": "Institutions are built to take reports seriously and to act while the facts are unknown, which is sensible but can cause harm if the report is invented. Being accused by a body with power can produce fear, shame and urgency to defend oneself before anything is checked. People around you may keep a lingering doubt even after a clearing.",
-    "possible_impact_on_receiver": "People describe shock at being formally accused, sleeplessness, and a sense of being watched by the process. Some face suspension, interviews or temporary limits on contact with children while a report is looked at. Even after being cleared, many describe lasting caution about being alone with others or doing ordinary things.",
+    "psychological_mechanism": "Institutions are built to take reports seriously and to act while the facts are still unknown. That is sensible, but it can cause harm if the report is invented. Being accused by a body with power can bring fear, shame and a rush to defend yourself before anything is checked. People around you may keep a lingering doubt even after you are cleared.",
+    "possible_impact_on_receiver": "Shock at being formally accused is one thing people report, along with sleeplessness and a sense of being watched by the process. Some face suspension, interviews or temporary limits on contact with children while a report is looked at. Even after being cleared, many describe staying careful about being alone with others or doing ordinary things.",
     "response_options": {
       "soft_clarification": "Ask the body for specifics: 'Could you tell me what I am accused of, with dates, so I can respond accurately?'",
-      "firm_boundary": "Answer in writing and stay with verifiable facts, leaving the complainant's motives out of it: 'Here are the records for those dates.'",
+      "firm_boundary": "Answer in writing and stick to facts that can be checked, leaving the complainant's motives out of it: 'Here are the records for those dates.'",
       "disengagement": "Keep contact with whoever filed to a minimum and in writing, through a lawyer or mediator if one is involved. Don't confront them privately about the report.",
       "support_seeking": "Contact a lawyer or legal aid early, before any interview, and bring documents showing where you were. A union representative or a parents' or tenants' rights group can also help.",
-      "workplace_or_professional": "At work, ask HR for the written allegation and the process, bring a representative or colleague to meetings, and supply dated records or witnesses."
+      "workplace_or_professional": "At work, ask HR for the written allegation and the process. Bring a representative or colleague to meetings, and give dated records or witnesses."
     },
     "boundary_script": "\"I take this seriously and I want to respond properly. Please send me the allegation in writing, with dates, and I'll provide records for each of them. I'd like a representative with me at any meeting.\"",
     "safety_sensitive": true,
-    "safety_note": "A false report can threaten work, a license, housing or time with your children, and the person who made it may be someone you share a home or children with. Don't confront them about it. Save every notice, get legal advice before any interview, and if you fear for your safety, tell your lawyer or a domestic abuse advocate what else has happened.",
+    "safety_note": "A false report can threaten work, a license, housing or time with your children. The person who made it may be someone you share a home or children with. Don't confront them about it. Save every notice and get legal advice before any interview. If you fear for your safety, tell your lawyer or a domestic abuse advocate what else has happened.",
     "misuse_warning": [
       "Calling a complaint false because it was not upheld can silence real reporters. Unproven is not untrue, and many genuine reports cannot be proved.",
       "Telling someone who raised a concern that they filed a 'false report' can itself be a way of punishing them for speaking up."
     ],
-    "how_to_distinguish_from_related": "Lying is a false statement made to a person; a false report puts it into a formal file where an institution must act. Fabricated Evidence manufactures proof, such as a forged message, while a false report can rest on words alone, though the two can be combined. Vague Allegations stays unspecific so nothing can be checked, whereas a false report is usually specific enough for records to contradict it."
+    "how_to_distinguish_from_related": "Lying is a false statement made to a person. A false report puts it into a formal file where an institution must act. Fabricated Evidence manufactures proof, such as a forged message. A false report can rest on words alone, though the two can be combined. Vague Allegations stays unspecific so nothing can be checked. A false report is usually specific enough for records to contradict it."
   },
   "Paper-Trail Traps": {
-    "short_definition": "Creating or shaping written records, such as write-ups, emails and notes, that build a one-sided case against someone who does not know it is being assembled.",
-    "core_meaning": "Creating or shaping written records, such as write-ups, emails and notes, that build a one-sided case against someone who does not know it is being assembled.",
-    "expanded_definition": "A paper-trail trap is a record that gathers quietly: emails that restate a conversation in a slanted way, notes about 'concerns' never raised with the person, write-ups that leave out context. Each item may look minor. Together they can read like a long history when finally shown, at a review, a hearing or a custody dispute. Ordinary record-keeping is common and fair, so one memo says little. Concern rises when documentation concentrates on one person, is kept from them, and differs from what happened.",
+    "short_definition": "Creating or shaping written records, such as write-ups, emails and notes, to build a one-sided case against someone who does not know it is happening.",
+    "core_meaning": "Creating or shaping written records, such as write-ups, emails and notes, to build a one-sided case against someone who does not know it is happening.",
+    "expanded_definition": "A paper-trail trap is a record that gathers quietly. Examples are emails that retell a conversation in a slanted way, notes about 'concerns' never raised with the person, and write-ups that leave out context. Each item may look minor. When finally shown at a review, a hearing or a custody dispute, together they can read like a long history. Ordinary record-keeping is common and fair, so one memo says little. Concern rises when documentation piles up on one person, is kept from them, and differs from what happened.",
     "plain_language_summary": "Someone quietly collects written 'evidence' against you that you never saw or got to answer, and it all appears at once when it counts.",
-    "why_this_matters": "A record accumulates that the person has no opportunity to answer as it is built, and by the time they see it, it reads as damning.",
+    "why_this_matters": "A record builds up that the person has no chance to answer as it is made. By the time they see it, it reads as damning.",
     "what_it_is": [
       "Emails, notes or formal write-ups that frame events one way and leave out the other side.",
-      "'Confirming' emails sent after a conversation that restate it in a slanted form, so that silence reads as agreement.",
+      "'Confirming' emails sent after a conversation that retell it in a slanted way, so that your silence looks like agreement.",
       "Documentation concentrated on one person while others doing the same things go unrecorded.",
       "Built out of sight, so the first time the person hears of the 'history' is when it is used.",
       "Found at work, in schools and care settings, in rental disputes, and in family and custody conflicts."
@@ -604,7 +604,7 @@
       "A folder of screenshots shown at a meeting, picked to show one side of a long exchange."
     ],
     "what_it_is_not": [
-      "Standard documentation applied to everyone is not targeting. A genuine record of concerns that were actually raised with the person is legitimate even if they wish it did not exist.",
+      "Standard documentation applied to everyone is not targeting. A genuine record of concerns that were actually raised with the person is legitimate, even if they wish it did not exist.",
       "Someone keeping notes on their own experience for their own reference.",
       "Meeting minutes circulated to all attendees with a chance to correct them.",
       "Records required by law or policy in regulated settings such as care or finance.",
@@ -659,32 +659,32 @@
       "You have begun keeping your own record in self-defense and checking every conversation.",
       "People around you are asked to provide statements about you."
     ],
-    "repair_check": "Repair means the file is opened to you: a copy of everything held, a chance to add your reply to each item, and removal of entries shown to be wrong. A promise to stop writing things down while the existing record stays unchanged leaves its effects in place.",
+    "repair_check": "Repair means the file is opened to you. You get a copy of everything held, a chance to add your reply to each item, and wrong entries removed. A promise to stop writing things down, while the existing record stays unchanged, leaves its effects in place.",
     "boundary_respect_check": "After you reply in writing to correct a record, check where your correction ended up. If it sits beside the original in the file and gets mentioned, it was respected. If the original is the only version ever quoted, your correction was filed away unread.",
-    "psychological_mechanism": "Written records carry authority: a paper account often outweighs a spoken one, and later readers frequently see only the file. Repetition across many items can make a pattern look established even when each is thin. Because the person is not told, they have no moment to dispute the framing, and a late reply can seem defensive.",
+    "psychological_mechanism": "Written records carry authority. A paper account often outweighs a spoken one, and later readers frequently see only the file. Many items repeated together can make a pattern look settled even when each is thin. The person is not told, so they get no moment to dispute the framing, and a late reply can look defensive.",
     "possible_impact_on_receiver": "First sight of the file often brings a sinking shock, then a feeling of being watched and measured. Some begin writing everything down, rehearsing conversations and avoiding one-to-one meetings. Others find that colleagues or relatives who read the record already hold a view of them.",
     "response_options": {
       "soft_clarification": "Reply in writing to any 'confirming' email within a day with your own account: 'Thanks for the summary. Here is what I recall being agreed.'",
       "firm_boundary": "Ask for the record directly: 'I would like a copy of everything in my file, and I would like my response added to it.'",
-      "disengagement": "Move conversations about disputed matters into writing or into a room with a witness, and keep each exchange short and factual.",
-      "support_seeking": "Talk early to a union representative, employment adviser, tenants' organization or family lawyer, depending on the setting, and bring copies of what you hold.",
-      "workplace_or_professional": "At work, request your personnel file in writing where policy or law allows, and keep dated notes of your own, following your employer's rules on company data."
+      "disengagement": "Move conversations about disputed matters into writing, or into a room with a witness. Keep each exchange short and factual.",
+      "support_seeking": "Talk early to a union representative, employment adviser, tenants' organization or family lawyer, depending on the setting. Bring copies of what you hold.",
+      "workplace_or_professional": "At work, ask in writing for your personnel file, where policy or law allows. Keep dated notes of your own, and follow your employer's rules on company data."
     },
     "boundary_script": "\"Please give me a copy of anything written about me, and add my responses to the file. And when there is a concern, tell me when it happens so I can answer it at the time.\"",
     "safety_sensitive": true,
     "safety_note": "This tactic matters most when the record may be used in decisions about your job, housing, immigration status or time with your children. Signs of high stakes are meetings called without notice, requests to sign things you haven't read, and being told 'it's all documented'. Sign nothing unread. Keep your own dated notes somewhere the other person cannot reach, and see a lawyer or union representative before any formal meeting.",
     "misuse_warning": [
-      "Keeping your own notes is not a paper-trail trap, and calling honest record-keeping a trap can excuse behavior that really was a problem.",
+      "Keeping your own notes is not a paper-trail trap. Calling honest record-keeping a trap can excuse behavior that really was a problem.",
       "Believing every unwelcome review is a plot can stop a person from seeing feedback that is accurate."
     ],
-    "how_to_distinguish_from_related": "Fabricated Evidence invents a single item, such as a doctored screenshot; a paper-trail trap may include no forged item at all, only slanted wording and omissions that accumulate. Lying by Omission shapes one account by what it leaves out, while here the omissions are spread across many documents. Vague Allegations has nothing on paper to examine; here there is plenty, and the problem is what it adds up to."
+    "how_to_distinguish_from_related": "Fabricated Evidence invents a single item, such as a doctored screenshot. A paper-trail trap may include no forged item at all, only slanted wording and omissions that pile up. Lying by Omission shapes one account by what it leaves out, while here the omissions are spread across many documents. With Vague Allegations there is nothing on paper to examine. Here there is plenty, and the problem is what it adds up to."
   },
   "Compartmentalization": {
-    "short_definition": "Keeping information in separate pockets, with different people knowing different parts, so that nobody can see enough to notice a problem or ask the right question.",
-    "core_meaning": "Keeping information in separate pockets, with different people knowing different parts, so that nobody can see enough to notice a problem or ask the right question.",
+    "short_definition": "Keeping information in separate pockets so different people know different parts, and nobody can see enough to notice a problem or ask the right question.",
+    "core_meaning": "Keeping information in separate pockets so different people know different parts, and nobody can see enough to notice a problem or ask the right question.",
     "expanded_definition": "In compartmentalization, each person is told something true, but only their own slice. One relative hears about the money, another about the move, a third about the health scare, and nobody has the three together. Questions that would link the slices are discouraged or redirected. Most families and workplaces have private matters and need-to-know rules, so a gap in who knows what says little. Concern rises when the slicing is consistent, follows what would raise questions if joined, and comparing notes is met with displeasure.",
-    "plain_language_summary": "Everyone in the family or team is told a different piece, so no one can see the whole story or notice that something doesn't add up.",
-    "why_this_matters": "No single person can see enough to raise a question, so accountability fails not because anyone refused it but because nobody had the view required to ask for it.",
+    "plain_language_summary": "Everyone in the family or team is told a different piece. No one can see the whole story or notice that something doesn't add up.",
+    "why_this_matters": "No single person can see enough to raise a question. Accountability fails because nobody has the view needed to ask for it, even though nobody refused it.",
     "what_it_is": [
       "Information sorted into slices by listener: each person gets a true but partial version.",
       "Seen in families (money, health, the past), workplaces (budgets, decisions) and groups (what leaders know).",
@@ -701,7 +701,7 @@
       "Please don't discuss this with the other team."
     ],
     "what_it_is_not": [
-      "Confidentiality and need-to-know structures exist for good reasons in most organizations, and information silos form naturally in any large family or workplace. Someone who simply did not think to pass something on has partitioned nothing.",
+      "Confidentiality and need-to-know rules exist for good reasons in most organizations, and information silos form naturally in any large family or workplace. Someone who simply did not think to pass something on has not kept anything apart.",
       "A surprise being planned, where the planner is open about keeping it.",
       "Medical or client privacy that is stated and fits the situation.",
       "Keeping your own private matters from some relatives.",
@@ -756,24 +756,24 @@
       "Each person describes the situation differently, and each thinks they alone know.",
       "At a crisis the accounts converge and many people say 'I didn't know that'."
     ],
-    "repair_check": "Repair would show up as a gathering of the separate pieces: everyone affected hears the same account, in the same room or the same message, and questions that cross groups are welcomed. A private apology to each person, one at a time, re-creates the same arrangement.",
+    "repair_check": "Repair would look like gathering the separate pieces. Everyone affected hears the same account, in the same room or the same message, and questions that cross groups are welcome. A private apology to each person, one at a time, sets up the same arrangement again.",
     "boundary_respect_check": "Notice the response to a simple question: 'Who else has been told this?' A direct answer, even a partial one, honors the question. A change of subject, or irritation that you asked, does not.",
-    "psychological_mechanism": "People judge what is normal from what they are told, and when each person's slice looks reasonable alone, nothing seems to need explaining. Doubts that would arise on seeing the whole can stay below the threshold of speaking up. Each person may also assume others know more, so they hesitate to ask, which keeps the separation going without anyone being told to stay quiet.",
+    "psychological_mechanism": "People judge what is normal from what they are told. When each person's slice looks reasonable alone, nothing seems to need explaining. Doubts that would come up on seeing the whole can stay too small to voice. Each person may also assume others know more, so they hesitate to ask. That keeps the separation going without anyone being told to stay quiet.",
     "possible_impact_on_receiver": "A jolt comes on discovering that others were told something different, then questions about what else was kept apart. Some feel angry at relatives or colleagues drawn into the arrangement; some lose trust in group conversations. The shared sense of everyone knowing can fall away, and with it some relationships.",
     "response_options": {
       "soft_clarification": "Invite the pieces together without blame: 'I was told about the loan, and I think you were told about the move. Can we put what we know side by side?'",
-      "firm_boundary": "Decline to carry secrets between people: 'I'll keep your privacy, but I won't hold back information about shared money or care from the people it affects.'",
+      "firm_boundary": "Decline to carry secrets between people, and say: 'I'll keep your privacy, but I won't hold back information about shared money or care from the people it affects.'",
       "disengagement": "Decline to be the keeper of the secret. Tell the person asking that you would rather not be told anything you would be asked to hide from someone it concerns.",
-      "support_seeking": "Compare notes quietly with the other people affected, such as a sibling, a colleague or a friend, and write down what each was told and when.",
+      "support_seeking": "Compare notes quietly with the other people affected, such as a sibling, a colleague or a friend. Write down what each was told and when.",
       "workplace_or_professional": "At work, ask who owns each decision and request one shared summary of budget or status that all affected teams can see. Raise gaps with a manager or a compliance contact."
     },
     "boundary_script": "\"I'm glad to keep your private things private. I'm not comfortable keeping something from my brother when it affects his money. Can the three of us talk about it together?\"",
     "safety_sensitive": false,
-    "safety_note": "Separate pockets of information are most worrying when the person holding the map also controls money, care or housing for someone who depends on them. That could be an older parent or a partner without their own accounts. Then the gaps can hide real harm. Gather the facts from others involved, and ask the bank, doctor or care manager what you are entitled to see. Contact an adult-protection or elder-care service if someone's welfare is at risk.",
+    "safety_note": "Separate pockets of information are most worrying when one person holds the whole map and also controls money, care or housing for someone who depends on them. That could be an older parent, or a partner without their own accounts. Then the gaps can hide real harm. Gather the facts from others involved, and ask the bank, doctor or care manager what you are entitled to see. Contact an adult-protection or elder-care service if someone's welfare is at risk.",
     "misuse_warning": [
       "Treating every confidence as compartmentalization punishes ordinary privacy, such as someone's diagnosis or a surprise being planned.",
       "Using the label to demand that one person reveal another's private matters."
     ],
-    "how_to_distinguish_from_related": "Lying by Omission is about what one person leaves out of an account for one listener; compartmentalization is about how pieces are divided across many listeners so they cannot be joined. Strategic Incompleteness feeds one person pieces so they keep returning, whereas here no one needs to return and the cost falls on the group's oversight. Vague Allegations hints at the whole with no detail, while each pocket here holds specific, true detail."
+    "how_to_distinguish_from_related": "Lying by Omission is about what one person leaves out of an account for one listener. Compartmentalization is about how pieces are divided across many listeners so they cannot be joined. Strategic Incompleteness feeds one person pieces so they keep returning. Here no one needs to return, and the cost falls on the group's oversight. Vague Allegations hints at the whole with no detail, while each pocket here holds specific, true detail."
   }
 }

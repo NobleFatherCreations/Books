@@ -200,14 +200,14 @@
   "Half-Truth Framing": {
     "short_definition": "Choosing and arranging statements that are each true so that the listener ends up with a false overall picture.",
     "core_meaning": "Choosing and arranging statements that are each true so that the listener ends up with a false overall picture.",
-    "expanded_definition": "Half-truth framing is building a false impression out of true statements. Each sentence can be checked and holds up, but the pieces are chosen and ordered so the listener reaches a conclusion the full facts would not support. The word paltering means the same thing. It often appears as a technically accurate answer to a direct question, followed by 'everything I said was true.' One hurried summary proves little. It becomes a pattern when answers keep steering the same way on the same kind of topic.",
+    "expanded_definition": "Half-truth framing builds a false impression out of true statements. Each sentence holds up when checked. But the pieces are picked and ordered so the listener reaches a conclusion the full facts would not support. The word paltering means the same thing. It often shows up as a technically accurate answer to a direct question, followed by 'everything I said was true.' One hurried summary proves little. It becomes a pattern when answers keep steering the same way on the same kind of topic.",
     "plain_language_summary": "Everything said is true, yet you walk away believing something that is not. Each fact checks out, so the problem only shows when you see what was left around it.",
-    "why_this_matters": "Every fact checks out, so a careful listener who verifies still reaches the wrong conclusion. When you object you are told, correctly, that nothing false was said, which can leave you doubting your own reasonable inference instead of the account.",
+    "why_this_matters": "Every fact checks out, so even a careful listener who verifies still ends up with the wrong conclusion. When you object, you are told, correctly, that nothing false was said. That can leave you doubting your own reasonable guess instead of the account.",
     "what_it_is": [
       "A set of true statements, chosen and ordered so that they imply something the whole story would not support.",
       "Often a true answer to a slightly different question than the one asked.",
       "Works because most people assume a truthful answer is an honest one, and rarely check what sits around it.",
-      "Different from an outright lie, since every sentence can be defended, and from plain omission, since the pieces are fitted together to point somewhere.",
+      "This is different from an outright lie, because every sentence can be defended. It is also different from plain omission, because the pieces are fitted together to point somewhere.",
       "Found in sales pitches, job references, relationship disputes, apologies and reports to bosses."
     ],
     "what_it_sounds_like": [
@@ -225,7 +225,7 @@
       "A genuinely different, honestly held interpretation of the same true facts is disagreement rather than arrangement.",
       "Careful, precise people answer exactly what was asked and nothing more. That can sound evasive without steering anyone anywhere.",
       "An honest answer given with an incomplete picture, because that was all the speaker had.",
-      "Things people are entitled not to disclose at all, such as medical history, where they say it is private and do not imply something else."
+      "Things people have a right to keep private, such as medical history, when they say it is private and do not imply something else."
     ],
     "this_may_be_it_when": [
       "The answer addresses a neighboring question, not the one you asked.",
@@ -275,25 +275,25 @@
       "'Technically true' becomes a phrase you hear from them, or say about them.",
       "You trust their literal words less while still being unable to point to a lie."
     ],
-    "repair_check": "Mending this starts with the person saying what picture they let you form and what they knew that would have changed it, then volunteering the rest. Watch whether later answers to direct questions get plainer. An apology that defends every sentence as true has repaired nothing.",
+    "repair_check": "Repair starts with the person saying what picture they let you form and what they knew that would have changed it. Then they offer the rest without being asked. Watch whether later answers to direct questions get plainer. An apology that defends every sentence as true has repaired nothing.",
     "boundary_respect_check": "Ask a question that has only one honest short answer and notice what comes back. A yes or a no, even an unwelcome one, shows the request was heard. Another accurate but roundabout reply shows the old shape returning.",
     "psychological_mechanism": "Listeners tend to assume a speaker is being cooperative, so they fill gaps with the most natural meaning of what they hear. True statements pass the checks people normally run, which leaves the false conclusion as the listener's own inference. That can make a complaint harder, because the speaker can truthfully say that every sentence was accurate.",
     "possible_impact_on_receiver": "Some feel foolish for believing something that was never technically said, and are unable to explain the complaint to others. They may begin to cross-examine every answer, or blame themselves for not asking the right question. Some describe losing the sense that plain conversation with this person is possible.",
     "response_options": {
       "soft_clarification": "Restate the answer you were given and ask the one thing it left open: 'That's true, but it doesn't tell me whether you went. Did you?'",
-      "firm_boundary": "Say you want direct answers to direct questions on this topic, and that 'technically true' will not do: 'When I ask yes or no, I need yes or no.'",
+      "firm_boundary": "Say you want direct answers to direct questions on this topic, and that 'technically true' will not do. For example: 'When I ask yes or no, I need yes or no.'",
       "disengagement": "Stop trying to corner the person with sharper wording. Get the facts from the original source, such as the document, the account or a third party, and let the conversation go.",
       "support_seeking": "Lay out the exchange to someone neutral and ask what conclusion they would draw from what was said. It checks whether your inference was reasonable.",
       "workplace_or_professional": "In writing, ask for confirmation of the specific facts you need ('Please confirm whether the contract includes overtime') and keep the reply. A written yes or no is harder to blur."
     },
     "boundary_script": "\"Thank you, I believe what you told me is accurate. I'd still like a plain yes or no to my question: did it happen or not? I make decisions based on the picture I'm left with, so I need the whole picture.\"",
     "safety_sensitive": false,
-    "safety_note": "A misleading frame with true parts is a communication problem, not a danger signal. That changes if the missing piece concerns safety, money, a health risk or custody, or if asking questions brings anger or retaliation. Then check the facts through documents or an independent source before acting, and take the matter to a lawyer, advisor or doctor rather than relying on the person's own account.",
+    "safety_note": "A misleading frame made of true parts is a communication problem, not a danger signal. That changes if the missing piece is about safety, money, a health risk or custody. It also changes if asking questions brings anger or payback. In those cases, check the facts through documents or an independent source before you act. Take the matter to a lawyer, advisor or doctor instead of relying on the person's own account.",
     "misuse_warning": [
       "Calling any careful or incomplete answer a half-truth treats privacy and precision as lies. The label needs a gap between the impression left and the facts, shown with the facts.",
       "'Technically true' can be thrown at someone to win an argument about interpretation. If both readings fit the facts, it is a disagreement."
     ],
-    "how_to_distinguish_from_related": "Lying states something false; half-truth framing states nothing false and works through selection and order. Lying by Omission is a gap, a fact left out of an otherwise complete account, whereas here the stated facts are fitted together to point at a conclusion. Frame Control sets what the conversation is about, while a half-truth can sit inside any frame, as long as the facts told lead somewhere the whole would not."
+    "how_to_distinguish_from_related": "Lying states something false. Half-truth framing states nothing false and works through what is picked and in what order. Lying by Omission is a gap, a fact left out of an otherwise complete account. Here, the stated facts are fitted together to point at a conclusion. Frame Control sets what the conversation is about. A half-truth can sit inside any frame, as long as the facts told lead somewhere the whole would not."
   },
   "Lying by Omission": {
     "short_definition": "Leaving out information the other person needs for an accurate picture, while everything that is said stays technically true.",

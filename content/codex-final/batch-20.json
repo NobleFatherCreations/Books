@@ -195,11 +195,11 @@
     "how_to_distinguish_from_related": "Stalking-by-Notification turns what it sees into questions and accusations, while orbiting says nothing about what it sees. Doxxing publishes private details to other people, but orbiting stays on your own public posts and reaches only you. With the Ghosting-Orbiting Cycle, the contact is gone but the watching, and the occasional warm return, are not."
   },
   "Brigading": {
-    "short_definition": "A group converging on one person's posts, account or message at once, usually after a shared call to do so, so the volume itself overwhelms them.",
-    "core_meaning": "A group converging on one person's posts, account or message at once, usually after a shared call to do so, so the volume itself overwhelms them.",
-    "expanded_definition": "Brigading is a surge of replies, reports, downvotes, ratings or messages sent to one person or page by people who have been pointed there, often by a post, group chat or forum thread elsewhere. It also happens on review pages, polls and comment sections. What separates it from a pile-on is the shared source and the short window. Each participant may do something small. The weight comes from the sum, which no one can answer one by one.",
+    "short_definition": "A group converging on one person's posts, account or messages at once, usually after a shared call to do so, so the sheer volume overwhelms them.",
+    "core_meaning": "A group converging on one person's posts, account or messages at once, usually after a shared call to do so, so the sheer volume overwhelms them.",
+    "expanded_definition": "Brigading is a surge of replies, reports, downvotes, ratings or messages sent to one person or page by people who were pointed there. The pointer is often a post, group chat or forum thread elsewhere. It also happens on review pages, polls and comment sections. What separates it from a pile-on is the shared source and the short window. Each participant may do something small. The weight comes from the sum, which no one can answer one by one.",
     "plain_language_summary": "Dozens or hundreds of people flood one person with replies or reports within hours. Usually a post somewhere else sent them, and nobody could answer them all.",
-    "why_this_matters": "Volume arriving at once removes any chance of answering the way you could answer a single message, and the platform itself becomes unusable for as long as it lasts. Notifications pile up faster than anyone can read, and a calm reply is buried.",
+    "why_this_matters": "Volume arriving at once removes any chance of answering the way you could answer a single message. The platform itself becomes unusable for as long as it lasts. Notifications pile up faster than anyone can read, and a calm reply is buried.",
     "what_it_is": [
       "A sudden spike of hostile or mocking replies, ratings or messages in a short window.",
       "A visible source, such as a post, screenshot, group chat or forum thread, that points people toward one person or account.",
@@ -216,9 +216,9 @@
       "Dozens of near-identical replies such as 'Wow. Unbelievable.' from accounts with no history with you."
     ],
     "what_it_is_not": [
-      "Virality is not coordination: a post that spreads on its own draws unconnected people who arrived by different routes. What marks brigading is convergence traceable to one rallying post or thread, and friends reacting independently to the same post is not that.",
+      "Virality is not coordination. A post that spreads on its own draws unconnected people who arrived by different routes. Brigading shows up as convergence that can be traced to one rallying post or thread. Friends reacting independently to the same post is not that.",
       "Heavy criticism of a public statement from people who each saw it for themselves, in their own words.",
-      "An openly announced campaign of letters or calls about a public decision, organized but done in the open under people's own names.",
+      "An openly announced campaign of letters or calls about a public decision, organized but carried out in the open under people's own names.",
       "A group of supporters replying warmly to a friend's post, which is coordinated but not an attack.",
       "Real customers leaving many bad reviews after a product actually failed or was recalled."
     ],
@@ -272,31 +272,31 @@
       "You mute notifications or close accounts, and the quiet is then cited as proof of something.",
       "People you know start asking about screenshots you have never seen."
     ],
-    "repair_check": "Where the source post's author acknowledges the pile-on, removes the call to converge and asks followers to stop, the volume tends to fall. A quiet deletion while the thread elsewhere keeps running, or an 'I never told anyone to do that' with the link left up, leaves the wave moving.",
+    "repair_check": "If the author of the source post acknowledges the pile-on, removes the call to converge and asks followers to stop, the volume often falls. A quiet deletion while the thread elsewhere keeps running leaves the wave moving. So does an 'I never told anyone to do that' with the link left up.",
     "boundary_respect_check": "Watch the first day after you limit replies or lock the account. If the wave thins and does not move to your email, workplace or another platform, the limit worked. If new accounts appear or the thread starts discussing how to get round it, the limit is being tested.",
-    "psychological_mechanism": "Seeing many people agree can make a view feel more correct, and each participant can feel their own small reply is harmless because they are one of many. For the person on the receiving end, a flood in a short time can overload the ability to sort real concerns from noise, and the crowd can feel far larger than the number of people actually involved.",
+    "psychological_mechanism": "Seeing many people agree can make a view seem more correct, and each participant may feel their own small reply is harmless because they are one of many. The person on the receiving end gets a flood in a short time, which can overload their ability to sort real concerns from noise. The crowd can also look far larger than the number of people actually involved.",
     "possible_impact_on_receiver": "People describe dreading to open notifications, losing sleep, deleting posts or accounts, and checking the thread to see what comes next. Some describe shame over things they never said. Friends and employers may see screenshots, so some describe worry about work or reputation, and relief once the wave passes or someone speaks up.",
     "response_options": {
       "soft_clarification": "If you were misquoted, post one calm correction with the full original attached and answer no individual replies. People who arrive later can then see the record.",
       "firm_boundary": "Use tools that need no announcement: restrict replies, filter keywords, mute the thread and block accounts as they appear.",
       "disengagement": "Step away from notifications for a day. Ask a trusted friend to read them and tell you only about threats or personal details.",
       "support_seeking": "Save dated screenshots of the wave, the rallying post and any threats. Send them to the platform's report tools and, if threats or personal details appear, to the police and an online-harassment support service.",
-      "workplace_or_professional": "If it may reach your employer, give your manager or HR a short heads-up with screenshots before they find it themselves, and ask who should handle any press or messages."
+      "workplace_or_professional": "If it may reach your employer, give your manager or HR a short heads-up with screenshots before they find it themselves. Ask who should handle any press or messages."
     },
     "boundary_script": "\"Here is the original post in full, with what came before it. I'm not answering individual replies.\"",
     "safety_sensitive": true,
-    "safety_note": "Treat threats, a home address, a workplace name or a family member's name appearing in the wave as a different level of problem from rude replies. Save evidence before blocking, report it to the platform and, where threats look credible, to the police. Ask a friend you trust to read the messages for you and flag only threats or personal details.",
+    "safety_note": "If threats, a home address, a workplace name or a family member's name appear in the wave, treat that as a different level of problem from rude replies. Save evidence before blocking. Report it to the platform and, where threats look credible, to the police. Ask a friend you trust to read the messages for you and flag only threats or personal details.",
     "misuse_warning": [
       "Calling any heavy criticism 'brigading' can dismiss people who disagree with you in good faith. The label needs evidence of a shared call to converge.",
-      "Accusing a named person of organizing a pile-on without a link or screenshot trail can start a pile-on of its own."
+      "If you accuse a named person of organizing a pile-on without a link or screenshot trail, that can start a pile-on of its own."
     ],
-    "how_to_distinguish_from_related": "Sock Puppets are one person posing as many voices, while a brigade is many real people. Doxxing publishes private details such as an address; a wave can include it, but a brigade needs no private information, only a link to follow. What sets Brigading apart is the shared rallying point: everyone arrives from the same place, at about the same time."
+    "how_to_distinguish_from_related": "Sock Puppets are one person posing as many voices, while a brigade is many real people. Doxxing publishes private details such as an address. A wave can include that, but a brigade needs no private information, only a link to follow. What sets Brigading apart is the shared rallying point: everyone arrives from the same place, at about the same time."
   },
   "Context Collapse Exploitation": {
-    "short_definition": "Passing on a statement or image without the surrounding material that gave it its meaning, so viewers read something different from what was meant where it began.",
-    "core_meaning": "Passing on a statement or image without the surrounding material that gave it its meaning, so viewers read something different from what was meant where it began.",
-    "expanded_definition": "Context Collapse Exploitation is when a screenshot, clip, quote or old post travels without what surrounded it, and the stripped version is used to show something the whole would not show. Examples are a reply without the message it answered, a joke without its setting, or a years-old post shown as a current view. Every excerpt leaves something out, so the question is whether the missing part changes the meaning and whether it was easy to include. It does not show why it was left out.",
-    "plain_language_summary": "A piece of something you said or posted is cut out of its setting and shared, so people who see only that piece think you meant something you did not.",
+    "short_definition": "Passing on a statement or image without the surrounding material that gave it meaning, so viewers read something different from what was meant originally.",
+    "core_meaning": "Passing on a statement or image without the surrounding material that gave it meaning, so viewers read something different from what was meant originally.",
+    "expanded_definition": "Context Collapse Exploitation is when a screenshot, clip, quote or old post travels without what surrounded it. The stripped version is then used to show something the whole would not show. Examples are a reply without the message it answered, a joke without its setting, or a years-old post shown as a current view. Every excerpt leaves something out, so the question is whether the missing part changes the meaning and whether it was easy to include. The excerpt alone does not show why something was left out.",
+    "plain_language_summary": "A piece of something you said or posted is cut out of its setting and shared. People who see only that piece think you meant something you did not.",
     "why_this_matters": "The version that circulates is the stripped one, and restoring the context means reaching an audience that has already reacted. By then the first impression has often set, and a correction may not travel as far as the clip did.",
     "what_it_is": [
       "A screenshot of one message sent round without the message it replied to.",
@@ -370,23 +370,23 @@
       "You begin to write everything knowing it could be screenshotted, and say less in writing.",
       "People who saw only the clip bring it up with you months later."
     ],
-    "repair_check": "A proper fix puts the original in full beside the clip, or takes the clip down with a note saying what was left out. A 'for context' reply while the stripped version stays pinned, or a correction placed where far fewer people will see it, leaves the first impression standing.",
+    "repair_check": "A proper fix puts the original in full beside the clip, or takes the clip down with a note saying what was left out. A 'for context' reply while the stripped version stays pinned leaves the first impression standing. So does a correction placed where far fewer people will see it.",
     "boundary_respect_check": "Ask the sharer to add the full thread or link beside the excerpt, and watch whether it appears and stays. A quick edit is a good sign. Being told the context is irrelevant, or being called defensive for asking, is not.",
     "psychological_mechanism": "Viewers judge quickly from whatever is in front of them, and the cut-away part is invisible, so nobody goes looking for it. An excerpt that fits an opinion already held about someone may feel complete, and anger can travel faster than checking. Feeds also put separate audiences in one place, so a joke made for friends reaches strangers with different norms.",
-    "possible_impact_on_receiver": "People describe dread at learning that a version of them exists that they do not recognize, urgency to explain to people who have already decided, and care about everything they put in writing afterwards. Some withdraw from posting. Some describe messages from acquaintances asking about something they never said.",
+    "possible_impact_on_receiver": "Learning that a version of you exists that you do not recognize can bring dread. Some feel an urgency to explain to people who have already decided, and take care over everything they put in writing afterwards. Some withdraw from posting. Some describe messages from acquaintances asking about something they never said.",
     "response_options": {
-      "soft_clarification": "Reply under the post with a link to the full original and one sentence: 'The part before this changes the meaning, so here is the whole thing.'",
+      "soft_clarification": "Reply under the post with a link to the full original, plus one sentence such as: 'The part before this changes the meaning, so here is the whole thing.'",
       "firm_boundary": "Ask the poster to add the full thread or take the excerpt down. Keep it short and do not argue the point with commenters.",
       "disengagement": "Do not rewrite the original post or answer every commenter. One pinned correction on your own page is enough.",
       "support_seeking": "Show a friend who has seen neither version the original and the cropped one, and ask what each says to them. Then ask them to share the original when people ask about it.",
-      "workplace_or_professional": "If the excerpt reaches your employer or school, bring the full original with its date and thread to the person who needs it, in writing, before they form a view."
+      "workplace_or_professional": "If the excerpt reaches your employer or school, bring the full original, with its date and thread, to the person who needs it. Do this in writing, before they form a view."
     },
     "boundary_script": "\"The screenshot leaves out the message I was replying to. Here is the whole conversation. Please add it next to your post, or take the screenshot down.\"",
     "safety_sensitive": false,
-    "safety_note": "A clipped quote circulating is a reputation problem, not a physical one. It changes if the clipped version brings threats, your address or workplace being posted, or calls to people who hold power over your income or housing. Save dated copies of both versions and the replies, and take them to the platform's report tool and, if threats appear, the police.",
+    "safety_note": "A clipped quote circulating is a reputation problem, not a physical one. That changes if the clipped version brings threats, your address or workplace being posted, or calls to people who hold power over your income or housing. Save dated copies of both versions and the replies. Take them to the platform's report tool and, if threats appear, to the police.",
     "misuse_warning": [
       "Saying 'you took it out of context' about every unwelcome quote can protect someone who really did say it. The label needs the missing part to change the meaning.",
-      "Accusing a sharer of manipulation when they simply never saw the full conversation turns a mistake into a charge."
+      "If a sharer never saw the full conversation, accusing them of manipulation turns a mistake into a charge."
     ],
     "how_to_distinguish_from_related": "Deepfakes fabricate words or images that never existed; here every word is real and the problem is what was left out. Doxxing publishes private facts such as an address, while the material here was often public already. AI Voice Cloning imitates a voice to say new things, but an excerpt keeps the person's real words in a different frame. Context Collapse Exploitation is the one where nothing is invented, only removed."
   }

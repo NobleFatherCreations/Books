@@ -389,17 +389,17 @@
     "how_to_distinguish_from_related": "Learned Helplessness is the message that you cannot cope alone. Parentification is nearly the reverse, with you treated as the one who must cope for everyone. Loyalty Binds defines love as silence and compliance, but here the demand is for care work. Conditional Worth ties your value to usefulness. It often goes with the role but can exist without it."
   },
   "Thought Control": {
-    "short_definition": "Controlling the words, explanations and conclusions a person may use, so doubt is labeled a symptom and one reading of events counts as the only acceptable one.",
-    "core_meaning": "Controlling the words, explanations and conclusions a person may use, so doubt is labeled a symptom and one reading of events counts as the only acceptable one.",
-    "expanded_definition": "Thought control works on the vocabulary a person uses to think. Rather than argue one point, a group or relationship supplies loaded terms for insiders and outsiders, treats questions as signs of a problem in the asker, and offers a single explanation for any doubt. Every community has shorthand, and strong belief is not control. What matters is whether disagreement can be voiced without being relabeled, whether outside sources may be read, and whether leaving is possible. It is judged by those conditions, never by whether the belief itself is true.",
-    "plain_language_summary": "A group or person gives you a fixed set of words and explanations, and any doubt you have gets renamed as a flaw in you instead of being answered.",
+    "short_definition": "Controlling the words, explanations and conclusions a person may use, so doubt is labeled a symptom and only one reading of events is allowed.",
+    "core_meaning": "Controlling the words, explanations and conclusions a person may use, so doubt is labeled a symptom and only one reading of events is allowed.",
+    "expanded_definition": "Thought control works on the vocabulary a person uses to think. Instead of arguing one point, a group or relationship supplies loaded terms for insiders and outsiders. It treats questions as signs of a problem in the asker, and offers a single explanation for any doubt. Every community has shorthand, and strong belief is not control. What matters is whether disagreement can be voiced without being relabeled, whether outside sources may be read, and whether leaving is possible. It is judged by those conditions, never by whether the belief itself is true.",
+    "plain_language_summary": "A group or person gives you a fixed set of words and explanations. Any doubt you have gets renamed as a flaw in you instead of being answered.",
     "why_this_matters": "The words you would use to examine the situation are supplied from inside it, so doubt arrives already labeled as a symptom. Questions that cannot be asked cannot be answered, and you may lose a way to check your own thinking.",
     "what_it_is": [
-      "A private vocabulary with a label for people who leave or object, such as 'worldly' or 'deceived', that ends the discussion.",
+      "A private vocabulary that has a label, such as 'worldly' or 'deceived', for people who leave or object, and the label ends the discussion.",
       "Questions treated as evidence of a problem in the person asking, instead of as questions.",
       "One explanation offered for every kind of doubt, whatever the doubt was about.",
       "Found in high-control groups, in some families and workplaces, and in online communities with strict insider language.",
-      "Judged by openness, not by content, meaning whether outside information may be read and dissent heard, whatever the belief."
+      "Judged by openness and not by what is believed. That means whether outside information may be read and disagreement heard."
     ],
     "what_it_sounds_like": [
       "Asking that question shows how far you have drifted.",
@@ -411,7 +411,7 @@
       "You aren't thinking clearly right now. Let's go back over the lessons."
     ],
     "what_it_is_not": [
-      "Shared shorthand, which every family, profession and fan community develops over time and which is normal rather than controlling.",
+      "Shared shorthand, which every family, profession and fan community develops over time. It is normal and does not control anyone.",
       "A belief you hold independently and can explain in your own words, including to someone who disagrees.",
       "Passionate, sincere conviction, which is different from a mechanism that suppresses dissent.",
       "A teacher or coach insisting on one method for a while so you can learn it, while you stay free to question it afterwards.",
@@ -465,34 +465,34 @@
       "Old friends find you harder to talk with, because your words have changed.",
       "You begin labeling other people's questions the way yours were labeled."
     ],
-    "repair_check": "Genuine change would let a doubt be stated plainly and answered on its merits, with outside sources welcome and no label attached to the person who asked. Kind words that keep the same labels for dissent leave the structure untouched.",
+    "repair_check": "Real change would let a doubt be stated plainly and answered on its merits, with outside sources welcome and no label put on the person who asked. Kind words that keep the same labels for disagreement leave the structure untouched.",
     "boundary_respect_check": "Ask one plain question, such as where a claim comes from, and see how the conversation goes. An open reply names sources and tolerates 'I'm not sure yet'. A reply that questions your loyalty, state of mind or commitment treats the question itself as the problem.",
-    "psychological_mechanism": "Thinking happens in whatever words are available. When a framework supplies the only words for a doubt, such as 'weakness' or 'attack', the doubt may read as evidence against oneself. Belonging, approval and meaning are often at stake, which makes agreeing rewarding and questioning costly, until independent checking starts to seem unsafe or disloyal.",
+    "psychological_mechanism": "Thinking happens in whatever words are available. If a framework supplies the only words for a doubt, such as 'weakness' or 'attack', the doubt may look like evidence against yourself. Belonging, approval and meaning are often at stake. That makes agreeing rewarding and questioning costly, until checking things independently starts to seem unsafe or disloyal.",
     "possible_impact_on_receiver": "Some report an inner censor that stops a thought before it forms, or find that their own words for feelings have faded. Others describe relief on meeting outside language that fits their experience, along with grief and anger. Contact with old friends can feel strange once the shared vocabulary is gone.",
     "response_options": {
       "soft_clarification": "Ask a curious, narrow question and note the answer: 'Where does that come from? I'd like to read it myself.'",
-      "firm_boundary": "Hold your ground quietly with 'I'm going to think about that before I agree,' and repeat it as often as needed without arguing the point.",
+      "firm_boundary": "Hold your ground quietly with 'I'm going to think about that before I agree,' and repeat it as often as needed. Do not argue the point.",
       "disengagement": "Keep your words few and neutral in heated debates, and use the time between sessions to read, walk and talk with people outside.",
       "support_seeking": "Find someone outside who is not part of the group, such as a counselor experienced with high-control groups or a friend from before, and describe specific phrases and what happened when you questioned them.",
-      "workplace_or_professional": "In a workplace with enforced slogans, keep a record of meetings where questions were answered with labels, and bring concerns to HR or an employee representative in writing."
+      "workplace_or_professional": "In a workplace with enforced slogans, keep a record of meetings where questions were answered with labels. Bring your concerns to HR or an employee representative in writing."
     },
     "boundary_script": "\"This is still sinking in for me, and a bit more reading would help before I decide. Where does that come from?\"",
     "safety_sensitive": true,
-    "safety_note": "Danger signals include being cut off from outside contacts, risking housing, income or children for disagreeing, being told that going elsewhere means ruin, or being watched for doubt. Keep your questions low-key and your plans to yourself. Contact a counselor experienced with high-control groups, or legal aid if custody or housing is at stake, and work out any next step privately with them.",
+    "safety_note": "Danger signals include being cut off from outside contacts, and risking housing, income or children for disagreeing. Others are being told that going elsewhere means ruin, or being watched for doubt. Keep your questions low-key and your plans to yourself. Contact a counselor experienced with high-control groups, or legal aid if custody or housing is at stake, and work out any next step privately with them.",
     "misuse_warning": [
-      "Calling any community with its own vocabulary 'thought control' dismisses members who are there freely and glad of it.",
+      "If you call any community with its own vocabulary 'thought control', you dismiss members who are there freely and are glad to be.",
       "The label describes how doubt is handled, so it should not be used to mean that a belief is false."
     ],
-    "how_to_distinguish_from_related": "Loyalty Binds makes silence the price of belonging, while thought control supplies the vocabulary that makes questions sound like symptoms. Self-Gaslighting Induction is doubting your memory of events, but here the doubt is over whether you may think a thought at all. Learned Helplessness tells you that you cannot cope alone, whereas thought control tells you that your own reading cannot be trusted."
+    "how_to_distinguish_from_related": "Loyalty Binds makes silence the price of belonging. Thought control supplies the vocabulary that makes questions sound like symptoms. Self-Gaslighting Induction is doubting your memory of events. Here the doubt is over whether you may think a thought at all. Learned Helplessness tells you that you cannot cope alone, while thought control tells you that your own reading cannot be trusted."
   },
   "Phobia Indoctrination": {
-    "short_definition": "Intense, out-of-proportion dread attached to particular actions such as leaving, disagreeing or trusting outsiders, until avoiding them is a bodily reflex rather than a reasoned choice.",
-    "core_meaning": "Intense, out-of-proportion dread attached to particular actions such as leaving, disagreeing or trusting outsiders, until avoiding them is a bodily reflex rather than a reasoned choice.",
-    "expanded_definition": "Phobia indoctrination is dread attached to specific actions through repeated frightening stories, warnings and reactions, until even thinking about the action brings panic. The actions are usually ones that would widen a person's independence: leaving, disagreeing, spending time apart, trusting outsiders. Honest warnings about real risks are not this. It stands out when the feared outcome is far larger than any evidence, is described as certain, and lines up with the very actions that would widen your world. Because the fear is felt in the body, knowing it is out of proportion may not switch it off.",
+    "short_definition": "Intense, out-of-proportion dread attached to actions such as leaving, disagreeing or trusting outsiders, until avoiding them becomes a bodily reflex instead of a reasoned choice.",
+    "core_meaning": "Intense, out-of-proportion dread attached to actions such as leaving, disagreeing or trusting outsiders, until avoiding them becomes a bodily reflex instead of a reasoned choice.",
+    "expanded_definition": "Phobia indoctrination is dread tied to specific actions. It is built through repeated frightening stories, warnings and reactions, until even thinking about the action brings panic. The actions are usually ones that would widen a person's independence: leaving, disagreeing, spending time apart, trusting outsiders. Honest warnings about real risks are not this. It stands out when the feared outcome is far larger than any evidence, is described as certain, and lines up with the very actions that would widen your world. The fear is felt in the body, so knowing it is out of proportion may not switch it off.",
     "plain_language_summary": "After so many scary stories about one choice, just thinking of it brings panic. Your body reacts even when your mind knows the danger isn't real.",
-    "why_this_matters": "Avoidance becomes bodily rather than reasoned, so options stay ruled out by a fear response that persists even after you have concluded the fear was unwarranted. Choices that should be open stay shut.",
+    "why_this_matters": "Avoidance becomes a body reaction instead of a reasoned choice. A fear response keeps some options ruled out even after you have decided the fear was unwarranted. Choices that should be open stay shut.",
     "what_it_is": [
-      "Vivid stories about what happened to people who left, disagreed or trusted outsiders, told as certain rather than possible.",
+      "Vivid stories about what happened to people who left, disagreed or trusted outsiders, told as if the outcome were certain instead of possible.",
       "Fear aimed at particular actions, often those that would widen independence.",
       "A body reaction, such as a racing heart, nausea or freezing, at the mere idea of the action.",
       "Frequently arriving before any plan exists, as a warning given before the action was ever proposed.",
@@ -509,7 +509,7 @@
     ],
     "what_it_is_not": [
       "Proportionate warnings about real risks from someone with relevant experience, which are useful information.",
-      "Pre-existing anxiety or trauma responses that belong to you and may have nothing to do with anyone currently present.",
+      "Anxiety or trauma responses you already had before, which belong to you and may have nothing to do with anyone around you now.",
       "Cautious family or cultural norms that restrict you without having been built to frighten anyone.",
       "A specific phobia, such as fear of flying or of dogs, which has its own causes and its own treatment.",
       "A friend or relative who worries aloud, overstates a risk once, and is happy to be corrected.",
@@ -562,24 +562,24 @@
       "You stop proposing changes because the dread arrives first.",
       "The fear stays after the stories have been disproved."
     ],
-    "repair_check": "Change would look like the frightening stories being withdrawn or corrected, an admission that they were exaggerated, and support for the very action once feared. Gentle reassurance while the warnings continue is not that. On your side, small planned steps with a therapist's help can loosen the response.",
+    "repair_check": "Change would look like the frightening stories being withdrawn or corrected. It would include an admission that they were exaggerated, and support for the very action once feared. Gentle reassurance while the warnings continue is not that. On your side, small planned steps with a therapist's help can loosen the response.",
     "boundary_respect_check": "Mention the feared action as a mere possibility and watch the reply. Facts, questions and help with a plan show a warning that is about the risk. The same story repeated, louder or with sudden coldness, shows a warning that is not open to discussion.",
-    "psychological_mechanism": "Fear can be learned from stories as well as from experience. Repeated vivid warnings, especially from someone you trust or depend on, can pair a particular action with a threat response, so the body reacts before reasoning begins. Avoiding the action brings relief, which strengthens the link and prevents learning that nothing bad happens.",
-    "possible_impact_on_receiver": "Panic, nausea or dread at ordinary decisions can come with shame at being unable to act on a conclusion reached by reasoning. Some stop making plans, since the fear is already waiting. Others realize years later that a whole set of options never seemed to be on the menu, and grieve for the choices that went unmade.",
+    "psychological_mechanism": "Fear can be learned from stories as well as from experience. Repeated vivid warnings, especially from someone you trust or depend on, can pair a particular action with a threat response, so the body reacts before reasoning begins. Avoiding the action brings relief. That strengthens the link and stops you from learning that nothing bad happens.",
+    "possible_impact_on_receiver": "Ordinary decisions can bring panic, nausea or dread, along with shame at being unable to act on what you have reasoned out. Some stop making plans, because the fear is already waiting. Others realize years later that a whole set of options never seemed to be on the menu. They may grieve for the choices that went unmade.",
     "response_options": {
-      "soft_clarification": "Ask for the source: 'What makes you sure that would happen?' Listen for specifics, and notice whether the answer is information or only repetition.",
+      "soft_clarification": "Ask for the source: 'What makes you sure that would happen?' Listen for specifics, and notice whether the answer gives information or only repeats the claim.",
       "firm_boundary": "Keep your own pace with 'I hear that you're worried. I'm going to look into it myself before I decide.'",
       "disengagement": "When a story starts another loop, steer toward a neutral task and let it drop without a debate, then fact-check on your own later.",
-      "support_seeking": "Test the claim with someone outside the relationship, such as a doctor, a lawyer, a counselor or a friend from before, and ask what the real risk is. A trauma-informed therapist can also help with the body's fear response.",
-      "workplace_or_professional": "If a manager's scare stories about a transfer or training keep you in place, ask HR or a mentor for the actual policy in writing and check the facts independently."
+      "support_seeking": "Test the claim with someone outside the relationship, such as a doctor, a lawyer, a counselor or a friend from before. Ask what the real risk is. A trauma-informed therapist can also help with the body's fear response.",
+      "workplace_or_professional": "If a manager's scare stories about a transfer or training keep you in place, ask HR or a mentor for the actual policy in writing. Check the facts independently."
     },
     "boundary_script": "\"I know you're worried. Let me check the facts myself so I can feel sure either way, and we can talk again after.\"",
     "safety_sensitive": true,
-    "safety_note": "Danger signals include warnings that name violence, ruin or death for the actions that would widen your independence, threats tied to children or housing, and being kept from checking facts. Fears like these deserve help from someone outside, such as an advocate, legal aid or a therapist. Reach them where the person cannot overhear or read your messages, and make any plan privately with their help.",
+    "safety_note": "Danger signals include warnings that name violence, ruin or death if you take actions that would widen your independence. Others are threats tied to children or housing, and being kept from checking facts. Fears like these deserve help from someone outside, such as an advocate, legal aid or a therapist. Reach them where the person cannot overhear or read your messages, and make any plan privately with their help.",
     "misuse_warning": [
       "Not every strong warning is indoctrination. A worried parent or friend who overstates a risk once is not building a phobia.",
       "The label should not be used to dismiss real fear, since dread can have a real basis that is invisible from outside."
     ],
-    "how_to_distinguish_from_related": "Learned Helplessness tells you that you could not cope alone, while phobia indoctrination skips the argument and attaches dread to specific acts, so the body objects before any reasoning. Fawning is appeasing a threatening person in the moment, but here the fear is of an action and it persists with the person absent. Loyalty Binds uses obligation and guilt to hold you in place, whereas this one runs on fear of what would happen."
+    "how_to_distinguish_from_related": "Learned Helplessness tells you that you could not cope alone. Phobia indoctrination skips the argument and attaches dread to specific acts, so the body objects before any reasoning. Fawning is appeasing a threatening person in the moment. Here the fear is of an action, and it persists with the person absent. Loyalty Binds uses obligation and guilt to hold you in place, while this one runs on fear of what would happen."
   }
 }

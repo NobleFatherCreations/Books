@@ -376,11 +376,11 @@
     "how_to_distinguish_from_related": "Legal threats name an authority to frighten you, but Diffusion of Responsibility gives you no one to address, threatening or otherwise. Tone policing meets your distress with a person who calls it excessive. Here no single person stays long enough to say anything. Therapy-speak needs a speaker using clinical words, and this runaround often involves none at all."
   },
   "Administrative Escalation": {
-    "short_definition": "Turning a small, informal concern into a formal complaint, report or legal step whose weight is out of proportion to what happened.",
-    "core_meaning": "Turning a small, informal concern into a formal complaint, report or legal step whose weight is out of proportion to what happened.",
-    "expanded_definition": "Administrative Escalation is the jump from a conversation to a paper process. A disagreement that could have been settled over coffee becomes an HR complaint, a neighbor's noise becomes a formal notice, a request for space becomes a documented incident. Formal routes are sometimes exactly right. The warning sign is a formality far larger than the event, arriving soon after you raised a concern of your own, and mostly flowing in one direction. The process itself then costs you time, money and attention to answer.",
+    "short_definition": "Turning a small, informal concern into a formal complaint, report or legal step that is far heavier than what actually happened.",
+    "core_meaning": "Turning a small, informal concern into a formal complaint, report or legal step that is far heavier than what actually happened.",
+    "expanded_definition": "Administrative Escalation is the jump from a conversation to a paper process. A disagreement that could have been settled over coffee becomes an HR complaint. A neighbor's noise becomes a formal notice. A request for space becomes a documented incident. Formal routes are sometimes exactly right. The warning sign is a formality far larger than the event, arriving soon after you raised a concern of your own, and mostly flowing in one direction. The process then costs you time, money and attention to answer.",
     "plain_language_summary": "A small disagreement suddenly turns into an official complaint or filing. You spend weeks answering something a short talk could have settled.",
-    "why_this_matters": "Defending against a process that is out of scale takes time, money and attention however it ends, and your next concern may go unraised for that reason alone. Even a case that is dismissed leaves a record you did not expect to have.",
+    "why_this_matters": "Defending against a process that is out of scale takes time, money and attention however it ends. Your next concern may go unraised for that reason alone. Even a dismissed case leaves a record you did not expect to have.",
     "what_it_is": [
       "A conversation-sized matter moved straight into a written complaint, formal warning or filed report.",
       "An escalation that lands shortly after you voiced a concern or set a limit of your own.",
@@ -419,7 +419,7 @@
     "innocent_or_ordinary_possibilities": [
       "Some people document everything out of habit, caution or past experience of not being believed.",
       "Organizations often require a written trail before they can act at all, so staff are told to file.",
-      "A person who is afraid to confront someone directly may find a formal route less frightening than a conversation."
+      "Someone who is afraid to face a person directly may find a formal route less scary than a talk."
     ],
     "common_false_positives": [
       "A tenant who reports a repeated safety hazard after several unanswered verbal requests.",
@@ -440,7 +440,7 @@
     ],
     "more_concerning_if": [
       "A series of formal steps follows each concern you raise, one after another.",
-      "The consequences threatened in the formal notice, such as a job, a lease or access to children, are far greater than the event.",
+      "The formal notice threatens consequences far greater than the event, such as a job, a lease or access to children.",
       "You are told that the process will go away if you drop your original concern."
     ],
     "pattern_over_time_signs": [
@@ -449,32 +449,32 @@
       "You keep your own folder of emails and dates just in case, and check every message twice before sending.",
       "Others around you learn to avoid the topic after seeing what happened."
     ],
-    "repair_check": "The formal step is withdrawn or closed with a note that it was out of scale, and the next disagreement is raised in conversation first. A softened tone with the file left open falls short.",
+    "repair_check": "The formal step is withdrawn or closed with a note that it was out of scale. The next disagreement is raised in conversation first. A softer tone with the file left open falls short.",
     "boundary_respect_check": "State the limit you set and watch the next response. Is the original request addressed, or does another notice follow? Compare how this person handled earlier disagreements with how they handle yours now.",
     "psychological_mechanism": "A formal process carries the weight of an institution, and being on the receiving end tends to trigger worry about records, reputation and money. That worry can make speaking up again feel too costly. Because each step looks procedural, it may be hard to see the pattern across several of them.",
-    "possible_impact_on_receiver": "People describe dread each time an envelope or an email from a particular sender arrives, sleepless nights over a matter that began small, and growing caution about raising any concern at all. Some say they paid for advice they could not really afford, and some say they withdrew a legitimate request just to make it stop.",
+    "possible_impact_on_receiver": "Dread can arrive with each envelope or email from a particular sender. Sleepless nights over a matter that began small are one thing people report, as is growing caution about raising any concern at all. Some say they paid for advice they could not really afford, and some say they withdrew a legitimate request just to make it stop.",
     "response_options": {
       "soft_clarification": "Offer to go back to a conversation: 'This feels bigger than what happened. Can we talk it through before it goes any further?'",
       "firm_boundary": "Answer the formal process on its facts, in writing, and raise your own concern separately through the right channel.",
-      "disengagement": "Respond in writing, briefly and factually, to the formal step, and avoid side conversations or messages that could be quoted back.",
-      "support_seeking": "Ask a union representative, tenants' association, mediator or legal aid office to read the notice with you and tell you what response is actually required and by when.",
-      "workplace_or_professional": "Request the written policy, ask what the process allows you to submit in reply, and ask for mediation as a first step if the policy provides for it."
+      "disengagement": "Reply to the formal step in writing, briefly and factually. Avoid side conversations or messages that could be quoted back.",
+      "support_seeking": "Ask a union representative, tenants' association, mediator or legal aid office to read the notice with you. They can tell you what response is actually required and by when.",
+      "workplace_or_professional": "Ask for the written policy and what the process lets you submit in reply. If the policy allows it, ask for mediation as a first step."
     },
     "boundary_script": "\"I will answer this fully. Could we also talk it through first? I also want my own concern recorded alongside it, so neither one gets dropped.\"",
     "safety_sensitive": true,
     "safety_note": "Danger signals are a formal step that touches your job, home, immigration status or time with your children, especially with a response deadline running. Another is a filing by someone who has frightened you before. Read the deadline on the notice today. Take it to legal aid, a union representative or a tenants' organization before you reply. An advocate can help if the filing is part of a wider pattern of control.",
     "misuse_warning": [
-      "Treating every complaint filed against you as retaliation can blind you to a legitimate concern that deserves a real answer.",
+      "If you treat every complaint filed against you as retaliation, you may miss a legitimate concern that deserves a real answer.",
       "Calling someone's careful record-keeping 'escalation' can penalize people who keep records because they were once disbelieved."
     ],
-    "how_to_distinguish_from_related": "Legal threats use a possible official step as leverage, but Administrative Escalation actually starts the process, so the weight is felt and not just implied. Tone policing dismisses your concern as too intense, whereas escalation answers it with a file. A trash-can label hands you a verdict; this hands you a process to respond to."
+    "how_to_distinguish_from_related": "Legal threats hold a possible official step over you as pressure. Administrative Escalation actually starts the process, so you feel the weight directly instead of only hearing it hinted at. Tone policing dismisses your concern as too intense, whereas escalation answers it with a file. A trash-can label hands you a verdict, and this hands you a process to respond to."
   },
   "Paper Terrorism": {
-    "short_definition": "Overwhelming a person with a steady stream of filings, motions, complaints and requests whose combined burden drains their time, money and energy.",
-    "core_meaning": "Overwhelming a person with a steady stream of filings, motions, complaints and requests whose combined burden drains their time, money and energy.",
-    "expanded_definition": "Paper Terrorism describes the use of courts, agencies and administrative offices as a source of constant pressure through volume. Each filing, motion, records request or complaint may look proper by itself. Together they arrive faster than anyone can reasonably answer, and each one needs a reply, a deadline met and often a fee paid. Complex disputes do legitimately produce paperwork, and thorough lawyers file a lot. It stands out when repetition continues after matters are settled and the cost of responding is the heaviest part.",
+    "short_definition": "Overwhelming a person with a steady stream of filings, motions, complaints and requests that drain their time, money and energy.",
+    "core_meaning": "Overwhelming a person with a steady stream of filings, motions, complaints and requests that drain their time, money and energy.",
+    "expanded_definition": "Paper Terrorism is the use of courts, agencies and administrative offices to create constant pressure through volume. Each filing, motion, records request or complaint may look proper by itself. Together they arrive faster than anyone can reasonably answer. Each one needs a reply, a deadline met and often a fee paid. Complex disputes do legitimately produce paperwork, and thorough lawyers file a lot. It stands out when repetition continues after matters are settled and the cost of responding is the heaviest part.",
     "plain_language_summary": "A person is hit with so many formal filings and complaints that simply responding to them uses up their time, money and strength.",
-    "why_this_matters": "The burden builds across filings and does not sit in any one of them. Answering all of them costs time and money whether or not a single one has merit, and the cost can force settlements, missed deadlines or default judgments.",
+    "why_this_matters": "The burden builds across filings and does not sit in any one of them. Answering all of them costs time and money whether or not a single one has merit. That cost can force settlements, missed deadlines or default judgments.",
     "what_it_is": [
       "A run of separate, technically valid filings, each with its own response deadline.",
       "The same issue brought again after it was decided, in a new form or before a different body.",
@@ -490,10 +490,10 @@
       "Mailbox and inbox filling with formal papers, each demanding a response within a short window."
     ],
     "what_it_is_not": [
-      "A genuinely complex dispute that needs many legitimate filings to resolve, such as an estate, a business split or a multi-party case.",
+      "A truly complex dispute, such as an estate, a business split or a case with many parties, that needs many legitimate filings to resolve.",
       "A lawyer being thorough and generating volume as a by-product of diligence.",
       "An institution's own procedures producing a large amount of paperwork, whoever the parties are.",
-      "Someone without legal training filing repeatedly because they do not understand how to bring a matter to an end.",
+      "Someone without legal training who files again and again because they do not know how to bring a matter to an end.",
       "A series of separate legitimate complaints about separate real problems."
     ],
     "this_may_be_it_when": [
@@ -508,7 +508,7 @@
       "A court or agency requires the multiple submissions in question.",
       "The volume tapers off as issues are resolved.",
       "A neutral lawyer reviewing the file sees the volume as normal for the dispute.",
-      "The filer is a person who is struggling to understand the process, and a clear explanation from a court clerk ends the repetition."
+      "The filer is struggling to understand the process, and a clear explanation from a court clerk ends the repetition."
     ],
     "innocent_or_ordinary_possibilities": [
       "Complicated disputes often generate paperwork on both sides, including your own lawyer's.",
@@ -541,26 +541,26 @@
       "Your calendar is filled with response deadlines, and you dread the mail.",
       "New complaints appear soon after each earlier one is closed in your favor.",
       "Legal costs mount well beyond the amount in dispute.",
-      "Agencies and courts begin to recognize your name and the filer's pattern, and a judge comments on repetitive filings."
+      "Agencies and courts begin to recognize your name and the filer's pattern. A judge comments on repetitive filings."
     ],
     "repair_check": "The stream stops, the repeated matters are withdrawn or formally closed, and there is an agreement on how any future dispute will be handled. A single paper withdrawn while others stay open is not a change.",
     "boundary_respect_check": "Ask yourself whether the volume dropped after your last response or settlement offer, or whether it moved to a new office. A lull of a few weeks proves little. Look at several months of filings together.",
-    "psychological_mechanism": "Deadlines with legal consequences keep the attention of a person almost constantly, and each one demands a reply before the next arrives. The steady load tends to drain money, sleep and concentration, which can make mistakes more likely and settling on bad terms more tempting. Because each paper is individually proper, it is hard to explain the pattern to others.",
-    "possible_impact_on_receiver": "People describe constant dread of the mailbox, unable to plan beyond the next deadline, and spending savings on fees for a matter that began small. Some describe sleeplessness, strained work, and a sense that no outcome would bring it to an end. Some say they gave up a valid position simply to stop the flow.",
+    "psychological_mechanism": "Deadlines with legal consequences hold a person's attention almost constantly, and each one demands a reply before the next arrives. The steady load often drains money, sleep and concentration, which can make mistakes more likely and settling on bad terms more tempting. Because each paper is proper on its own, the pattern is hard to explain to others.",
+    "possible_impact_on_receiver": "Some describe constant dread of the mailbox, being unable to plan beyond the next deadline, and spending savings on fees for a matter that began small. Others describe sleeplessness, strained work, and a sense that no outcome would bring it to an end. Some say they gave up a valid position simply to stop the flow.",
     "response_options": {
-      "soft_clarification": "Through your lawyer or in a short written note, ask the other side to identify which pending issues remain in dispute and which are resolved.",
-      "firm_boundary": "Respond only to filings that require it, on the facts, and keep a log of repeated matters so a court or agency can see them together.",
-      "disengagement": "Keep all contact in formal channels and do not discuss the case by text, phone or in person, so you are not drawn into answering outside the process.",
-      "support_seeking": "Contact legal aid, a bar association referral service or a domestic abuse legal advocate. Ask them whether the court has tools to manage repetitive filings in your jurisdiction.",
-      "workplace_or_professional": "If complaints reach your employer or licensing body, give them a short factual summary and a timeline of the filings, and ask what their process is for repeat complaints."
+      "soft_clarification": "Through your lawyer or in a short written note, ask the other side which pending issues are still in dispute and which are resolved.",
+      "firm_boundary": "Respond only to filings that require it, and stick to the facts. Keep a log of repeated matters so a court or agency can see them together.",
+      "disengagement": "Keep all contact in formal channels. Do not discuss the case by text, phone or in person, so you are not drawn into answering outside the process.",
+      "support_seeking": "Contact legal aid, a bar association referral service or a domestic abuse legal advocate. Ask them whether the court has ways to deal with repeated filings where you live.",
+      "workplace_or_professional": "If complaints reach your employer or licensing body, give them a short factual summary and a timeline of the filings. Ask what their process is for repeat complaints."
     },
     "boundary_script": "\"I'll respond to anything the court requires. I am asking the court to look at these filings together, because several raise matters that have already been decided.\"",
     "safety_sensitive": true,
-    "safety_note": "Filing volume can sit alongside other control, especially after a separation: threats, monitoring, financial pressure or a fight over children. A stream of filings may come from someone who frightened you before. If so, tell a domestic abuse or legal advocate about the whole history, not only the paperwork. Ask about protective orders and safe ways to receive court mail.",
+    "safety_note": "Filing volume can sit alongside other control, especially after a separation, such as threats, monitoring, financial pressure or a fight over children. A stream of filings may come from someone who frightened you before. If so, tell a domestic abuse or legal advocate about the whole history, including things that have nothing to do with the paperwork. Ask about protective orders and safe ways to receive court mail.",
     "misuse_warning": [
-      "A person who files many papers because they are in real distress or do not understand court rules may not be doing anything to harm you. Look at the content and the effect, and avoid assuming what they feel.",
+      "Someone who files many papers because they are in real distress or do not understand court rules may not be trying to harm you. Look at the content and the effect, and avoid assuming what they feel.",
       "Using the phrase to describe any lawsuit against you can wrongly paint a legitimate claim as harassment."
     ],
-    "how_to_distinguish_from_related": "Legal threats warn of a possible filing to gain leverage, but in Paper Terrorism the filings are actually arriving, one after another. Signing pressure demands a fast yes to one document; this buries you in many, each with its own deadline. Tone policing talks down your distress, while here the weight is paper you can see and count."
+    "how_to_distinguish_from_related": "Legal threats warn of a possible filing as pressure, but in Paper Terrorism the filings are actually arriving, one after another. Signing pressure demands a fast yes to one document, while this buries you in many, each with its own deadline. Tone policing talks down your distress, while here the weight is paper you can see and count."
   }
 }
