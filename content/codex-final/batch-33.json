@@ -99,7 +99,7 @@
   "core_meaning": "Making a big request that is likely to be refused so that the smaller request that follows seems modest and hard to turn down.",
   "expanded_definition": "The name comes from a salesman slamming a door: the first ask is expected to get a no. The second, smaller ask is the one that was wanted all along. Agreeing to it can feel like returning a favor, because the other person seems to have backed down. Plenty of honest bargaining works this way, so one round proves nothing. It is a pattern when the big ask is never really meant and the same two-step shows up again and again.",
   "plain_language_summary": "Someone asks for far too much, you say no, and then they ask for less. The smaller request feels like a favor to them, so it is hard to refuse.",
-  "why_this_matters": "Relief at the smaller ask stands in for judging it. The second request gets measured against the first, not against what is fair, and a yes given to feel gracious can leave you carrying more than you chose.",
+  "why_this_matters": "Relief at the smaller ask takes the place of judging it. The second request gets measured against the first, not against what is fair. A yes given to feel gracious can leave you carrying more than you chose.",
   "what_it_is": [
    "A two-step request: an oversized ask, then a reduced one soon after your refusal.",
    "The reduction is framed as a concession, as though a favor were being granted to you.",
@@ -115,7 +115,7 @@
    "\"I came down a lot. The least you can do is say yes to this.\""
   ],
   "what_it_is_not": [
-   "Ordinary negotiation, where both sides know the opening position is high and expect to settle in the middle.",
+   "Ordinary negotiation. Both sides know the opening position is high, and both expect to settle in the middle.",
    "Someone who truly wanted the larger thing, asked for it, and then settled for less in good faith.",
    "A person who learns your limits from your first answer and then asks for something that fits them.",
    "Two separate requests that happen to arrive close together.",
@@ -123,7 +123,7 @@
   ],
   "this_may_be_it_when": [
    "The first request was so extreme that no one could have expected a yes.",
-   "The smaller request comes within minutes or days, and is presented as a concession you now owe something for.",
+   "The smaller request comes within minutes or days. It is presented as a concession, and you now owe something back.",
    "You notice the same big-then-small order in several separate dealings with this person.",
    "The smaller ask would have seemed too much if it had been the first thing said.",
    "They draw attention to how much they came down, instead of explaining why they need the thing."
@@ -159,7 +159,7 @@
   ],
   "more_concerning_if": [
    "The small ask involves your money, housing, legal paperwork or access to your accounts.",
-   "A refusal of the big ask is followed by hurt or anger, and the small ask then arrives as the way back to their good graces.",
+   "A refusal of the big ask is followed by hurt or anger. The small ask then arrives as the way back into their good graces.",
    "The big ask always seems designed to fail."
   ],
   "pattern_over_time_signs": [
@@ -177,23 +177,23 @@
    "firm_boundary": "Decline without trading: 'I did not say no to the first one to get a better deal on the second. My answer to both is no.'",
    "disengagement": "Do not answer straight away. Say you will get back to them tomorrow, and use the gap to look at the second ask alone.",
    "support_seeking": "Tell someone you trust both requests in order and ask what they would say to the second if it had come first.",
-   "workplace_or_professional": "Ask for the request in writing with the actual scope and deadline, so the small version is judged on its own terms and not against the big one."
+   "workplace_or_professional": "Ask for the request in writing, with the actual scope and deadline. That way the small version is judged on its own terms and not against the big one."
   },
   "boundary_script": "\"I see you have scaled it down, and I appreciate that. Taken on its own, it is still more than I can take on, so my answer is no. I would be glad to help with something smaller than this.\"",
   "safety_sensitive": false,
   "safety_note": "On its own this is a pressure tactic about requests, not a danger signal. It would raise concern if the asks involve money, signing papers, access to your accounts or your home, or if a refusal brings threats. In those cases, take time before agreeing and talk to someone independent, such as a legal aid clinic or a financial counselor.",
   "misuse_warning": [
    "Calling normal bargaining 'door-in-the-face' can make you suspicious of every negotiation, including honest ones.",
-   "Using the label to dismiss a real, reduced request can leave a person without help they genuinely needed."
+   "If you use the label to wave away a real, smaller request, a person may go without help they truly needed."
   ],
-  "how_to_distinguish_from_related": "A False Dilemma shrinks your choices to two and treats both as costly; the door-in-the-face first ask is simply meant to be refused, so the second feels light. Urgency Manufacturing works through a clock, while this works through your sense that a concession deserves one in return. Sunk Cost Exploitation leans on what you have already put in, and here you have put in nothing until the second yes."
+  "how_to_distinguish_from_related": "A False Dilemma shrinks your choices to two and treats both as costly. The door-in-the-face first ask is simply meant to be refused, so the second one feels light. Urgency Manufacturing works through a clock. This tactic works through your sense that a concession deserves one in return. Sunk Cost Exploitation leans on what you have already put in, and here you have put in nothing until the second yes."
  },
  "Anchoring": {
   "short_definition": "Putting forward a first number, price or claim that then shapes how every later figure and offer is judged.",
   "core_meaning": "Putting forward a first number, price or claim that then shapes how every later figure and offer is judged.",
   "expanded_definition": "People tend to judge a value by comparing it to the first one they hear, even when the first one is arbitrary. A seller names a high price, a manager names a salary band, a relative says how much you 'usually' give. Everything after is measured against that figure. Stating an opening number is normal in any negotiation. It becomes a tactic when the number has no basis and is used to make a worse offer look generous.",
-  "plain_language_summary": "The first number you hear sticks in your mind and makes later numbers look big or small by comparison, even when that first number was made up.",
-  "why_this_matters": "Everything that follows gets measured against a figure or framing that was never justified, so an offer that would look unreasonable on its own can seem fair, and you may feel you won something when you did not.",
+  "plain_language_summary": "The first number you hear sticks in your mind. Later numbers then look big or small next to it, even when that first number was made up.",
+  "why_this_matters": "Everything that follows gets measured against a figure or framing that was never justified. An offer that would look unreasonable on its own can then seem fair. You may feel you won something when you did not.",
   "what_it_is": [
    "An opening price, salary, deadline or amount that sets the range for the whole discussion.",
    "Often a crossed-out 'original' price beside a sale price, or a 'suggested' tip or donation amount.",
@@ -262,30 +262,30 @@
    "Their first figure keeps being the highest or lowest one in the room.",
    "You start asking for less than you wanted, to stay near the range they set."
   ],
-  "repair_check": "If you point out that the first number had no basis, a straight answer would be to explain how it was set and to restate the offer from a fair starting point. Quietly lowering it a bit while insisting the first figure was reasonable moves the number without changing the habit.",
+  "repair_check": "If you point out that the first number had no basis, a straight answer would explain how it was set and restate the offer from a fair starting point. Quietly lowering it a bit while insisting the first figure was reasonable moves the number but leaves the habit as it was.",
   "boundary_respect_check": "Try putting your own number on the table before they answer, or ask where theirs came from. Do they engage with the question, or press on as if you had not spoken? Their ease with being challenged tells you most.",
-  "psychological_mechanism": "People tend to adjust from the first figure they hear, and usually stop adjusting too soon. Even a number known to be random can pull judgments toward it. The pull can be stronger when you are short of information or time, and a later 'discount' can seem like a gain that you earned.",
+  "psychological_mechanism": "We usually adjust from the first figure we hear, and we stop adjusting too soon. Even a number known to be random can pull judgments toward it. The pull can be stronger when you are short of information or time. A later 'discount' may look like a gain that you earned.",
   "possible_impact_on_receiver": "People describe agreeing to a price or a pay level and later working out that they had accepted the other side's frame. Some feel foolish when they compare notes with others. Some describe a lingering sense of having been handled, even though nothing false was said.",
   "response_options": {
    "soft_clarification": "Ask for the source: 'How did you get to that number? I'd like to understand it before I answer.'",
    "firm_boundary": "Reset the frame yourself: 'I'm going to work from my own research on this, not from your opening figure. Here is what I have found.'",
    "disengagement": "Do not respond to the figure straight away. Take a day, look up typical ranges, and return with your own range.",
    "support_seeking": "Ask someone who has bought, sold or been paid in this field what a normal figure is, before you reply.",
-   "workplace_or_professional": "In pay or contract talks, research the range from published scales or peers first, and state your number before they state theirs if you can."
+   "workplace_or_professional": "In pay or contract talks, research the range first, using published scales or peers. If you can, state your number before they state theirs."
   },
   "boundary_script": "\"Thanks for the opening figure. I would like to see how it was worked out, and I've done my own research on the range. Can we start from what comparable cases show?\"",
   "safety_sensitive": false,
-  "safety_note": "A high opening number is a financial pressure, and rarely a danger by itself. It matters more where the stakes are heavy and hard to undo: a legal settlement, a debt payment plan, a lease, or a pay offer tied to your immigration status. For those, get independent advice from legal aid or a financial counselor before you answer.",
+  "safety_note": "A high opening number is a financial pressure and rarely a danger by itself. It matters more where the stakes are heavy and hard to undo, such as a legal settlement, a debt payment plan, a lease, or a pay offer tied to your immigration status. For those, get independent advice from legal aid or a financial counselor before you answer.",
   "misuse_warning": [
-   "Calling every opening price 'anchoring' can make normal negotiation look like manipulation and leave you unable to bargain at all.",
+   "Calling every opening price 'anchoring' can make normal negotiation look like manipulation. You may then be unable to bargain at all.",
    "Accusing someone of anchoring when they simply quoted a figure they believe in shuts down a fair talk."
   ],
-  "how_to_distinguish_from_related": "Urgency Manufacturing shortens your time, while anchoring distorts your sense of the figure, however long you take. A False Dilemma limits your choices to two; an anchor leaves your choices open but tilts where you land. Sunk Cost Exploitation uses what you have already spent to keep you in, whereas an anchor works on the very first figure you hear, before you have spent anything."
+  "how_to_distinguish_from_related": "Urgency Manufacturing shortens your time. Anchoring distorts your sense of the figure, however long you take. A False Dilemma limits your choices to two. An anchor leaves your choices open but tilts where you land. Sunk Cost Exploitation uses what you have already spent to keep you in. An anchor works on the very first figure you hear, before you have spent anything."
  },
  "Emotional Flooding": {
-  "short_definition": "Pouring on emotion so fast and so hard that the other person cannot think, and speed or intensity is mistaken for closeness.",
-  "core_meaning": "Pouring on emotion so fast and so hard that the other person cannot think, and speed or intensity is mistaken for closeness.",
-  "expanded_definition": "Flooding is a state of being so emotionally overwhelmed that thinking narrows, and it can happen to anyone in a heated moment. As a tactic, it means keeping someone there on purpose or by habit: back-to-back declarations, crises and reconciliations, with no ordinary days in between. Strong feelings are not a tactic, and many real relationships are intense. The question is whether the intensity leaves you any quiet time in which to judge what is happening.",
+  "short_definition": "Pouring on emotion so fast and so hard that the other person cannot think, until speed and intensity get mistaken for closeness.",
+  "core_meaning": "Pouring on emotion so fast and so hard that the other person cannot think, until speed and intensity get mistaken for closeness.",
+  "expanded_definition": "Flooding is being so emotionally overwhelmed that your thinking narrows, and it can happen to anyone in a heated moment. As a tactic, someone keeps you in that state on purpose or by habit. It looks like back-to-back declarations, crises and reconciliations, with no ordinary days in between. Strong feelings are not a tactic, and many real relationships are intense. The question is whether the intensity leaves you any quiet time to judge what is happening.",
   "plain_language_summary": "Things move through such big highs and lows, so quickly, that you never get a calm moment to think. The intensity can feel like love, but it also keeps you from seeing clearly.",
   "why_this_matters": "Sustained intensity leaves no quiet stretch in which to assess anything. Speed gets mistaken for depth, and there is no calm vantage point from which to notice what you are agreeing to.",
   "what_it_is": [
@@ -320,7 +320,7 @@
    "There are calm stretches, and the relationship is fine in them.",
    "Slowing down, when you ask, is accepted without punishment.",
    "The intensity matches something real going on in their life and eases when it passes.",
-   "Decisions are made on ordinary days and not only at emotional peaks.",
+   "Decisions get made on ordinary days as well as at emotional peaks.",
    "You feel energized and clear-headed in the relationship, and not drained."
   ],
   "innocent_or_ordinary_possibilities": [
@@ -356,8 +356,8 @@
    "You feel constant relief when a storm passes, and dread when it is quiet.",
    "The highs are what you stay for and the lows are what you apologize for."
   ],
-  "repair_check": "Repair in this case shows up as the pace itself changing: ordinary days appear, and a request to slow down is met with agreement and not a new crisis. A moving apology in the middle of another peak does not change the rhythm.",
-  "boundary_respect_check": "A quiet evening alone is a small test. Someone who respects the request lets it be quiet, even if disappointed. If the temperature rises the moment you ask for calm, or a fresh crisis lands at your door, the request itself is being met with more flooding.",
+  "repair_check": "Repair in this case shows up as the pace itself changing. Ordinary days appear, and a request to slow down is met with agreement and not a new crisis. A moving apology in the middle of another peak does not change the rhythm.",
+  "boundary_respect_check": "A quiet evening alone is a small test. Someone who respects the request lets it be quiet, even if disappointed. If things heat up the moment you ask for calm, or a fresh crisis lands at your door, your request is being met with more flooding.",
   "psychological_mechanism": "When feelings run very high, thinking tends to narrow and people lean on gut sense and the wish to end the discomfort. Strong highs followed by relief can be mistaken for deep bonding, and a sense of urgency can be read as proof of love. Without calm stretches, there may be few chances to compare what is said with what is done.",
   "possible_impact_on_receiver": "Whirlwind relationships are often remembered as exhausting and thrilling in the same breath. Some report poor sleep, lost touch with friends and a fog about what they actually wanted. Some say they only saw the pace once they had a quiet month for the first time.",
   "response_options": {
@@ -365,7 +365,7 @@
    "firm_boundary": "Defer big decisions: 'I don't make decisions like this in the middle of a hard night. We can talk about it on Saturday.'",
    "disengagement": "When the intensity peaks, say you need to sleep on it and leave the conversation until morning.",
    "support_seeking": "Tell a friend you trust about the last month, day by day, and ask whether the pace looks right from the outside.",
-   "workplace_or_professional": "If a manager or client sets a constant crisis tone, ask for requests in writing and respond within a set window, not in the moment."
+   "workplace_or_professional": "If a manager or client keeps setting a crisis tone, ask for requests in writing. Respond within a set window, not in the moment."
   },
   "boundary_script": "\"I do care, and I'm too tired to think clearly tonight. I'm going to sleep, and we can talk through this properly tomorrow afternoon.\"",
   "safety_sensitive": false,
@@ -374,19 +374,19 @@
    "Calling a passionate new relationship 'flooding' can make real, mutual excitement look suspicious.",
    "Using the word to describe a person's real distress can dismiss someone who is struggling."
   ],
-  "how_to_distinguish_from_related": "Urgency Manufacturing is about time: a deadline you are given. Flooding is about feeling: a pace of emotion that leaves no space. An Ultimatum is a single hard choice with a penalty attached, while flooding is a sustained atmosphere with no clear demand. Interrogation demands justification from you, and flooding mostly offers you emotion to respond to."
+  "how_to_distinguish_from_related": "Urgency Manufacturing is about time: a deadline you are given. Flooding is about feeling: a pace of emotion that leaves no space. An Ultimatum is a single hard choice with a penalty attached. Flooding is a sustained atmosphere with no clear demand. Interrogation demands justification from you, and flooding mostly offers you emotion to respond to."
  },
  "Cognitive Overload": {
   "short_definition": "Burying someone in more information, steps or demands than they can take in, so they cannot judge a decision clearly.",
   "core_meaning": "Burying someone in more information, steps or demands than they can take in, so they cannot judge a decision clearly.",
   "expanded_definition": "Everyone can only hold so much in mind at once. Past that point, people skim, guess, or agree just to be done. Cognitive overload as a tactic means a decision arrives wrapped in a flood of detail, jargon, paperwork or competing demands, often with a deadline. Complicated things are often truly complicated, so the amount alone proves nothing. What matters is whether the volume is needed, and what happens when you ask for less.",
-  "plain_language_summary": "You are handed so much to read, learn or do at once that you cannot think straight, and saying yes becomes the quickest way out.",
-  "why_this_matters": "Agreement becomes the fastest way out of the overwhelm, so the decision that results was never really weighed, and you may find later that you consented to things you did not understand.",
+  "plain_language_summary": "You are handed so much to read, learn or do at once that you cannot think straight. Saying yes becomes the quickest way out.",
+  "why_this_matters": "Agreement becomes the fastest way out of the overwhelm, so the decision that results was never really weighed. You may find later that you agreed to things you did not understand.",
   "what_it_is": [
    "A heavy dose of detail, terms or tasks delivered right before a decision is needed.",
    "Pages of small print, a long list of changes, or many people asking for different things at once.",
    "Requests for time met with more material, and not with a pause.",
-   "Found in contracts, medical or insurance paperwork, workplace changes, and arguments where ten complaints arrive in one go."
+   "It is found in contracts, medical or insurance paperwork, workplace changes, and arguments where ten complaints arrive in one go."
   ],
   "what_it_sounds_like": [
    "A forty-page agreement handed over at the signing table with 'it's all standard, just initial here.'",
@@ -397,7 +397,7 @@
    "\"If you had read the terms, you would know this.\""
   ],
   "what_it_is_not": [
-   "A decision that is truly complex, such as a mortgage or a medical consent, which does need a lot of real information.",
+   "A decision that is truly complex, such as a mortgage or a medical consent. These do need a lot of real information.",
    "An anxious person who explains everything because they want to be thorough, with no wish to hurry you.",
    "A busy period at work when many real tasks pile up, with nobody designing it.",
    "Plain jargon from someone who forgot you are not an expert in their field.",
@@ -452,27 +452,27 @@
   ],
   "repair_check": "Ask for the one-page version and see what comes back. Repair looks like a real summary, an honest answer about the parts that matter most, and an extension if you need one. A longer document or a sigh does not count as a change.",
   "boundary_respect_check": "Say what you can manage: one question at a time, or the key terms on one page. Do they adapt? A person who respects the limit shortens the list. A person who does not will repeat the full load, or tell you everyone else coped.",
-  "psychological_mechanism": "Working memory is limited, and when it is full people tend to rely on shortcuts such as trusting whoever sounds confident or agreeing to finish. Stress and time pressure can reduce capacity further. Choosing the easiest path out may seem like a free choice in the moment, though it may be a response to overload.",
+  "psychological_mechanism": "Working memory is limited. When it is full, we often rely on shortcuts, such as trusting whoever sounds confident or agreeing just to finish. Stress and time pressure can shrink capacity further. Choosing the easiest path out may look like a free choice in the moment, though it may be a response to overload.",
   "possible_impact_on_receiver": "A fog, a sense of shutting down, and a signature given with vague unease are common accounts. Some feel ashamed that they did not understand, and so did not ask. Afterwards, some go through the documents and find terms they did not know they had accepted.",
   "response_options": {
    "soft_clarification": "Ask for a narrower version: 'This is a lot. Can you give me the three points that matter most, and I will read the rest tonight?'",
    "firm_boundary": "Refuse to decide in the pile: 'I am not going to sign something I have not read. I will take it home and give you an answer on Thursday.'",
    "disengagement": "Stop the meeting or call when you reach your limit: 'I have taken in all I can for today. Let's pick this up tomorrow.'",
-   "support_seeking": "Have someone with no stake in the outcome read the documents with you, such as a legal aid clinic, a patient advocate or a trusted friend who reads closely.",
+   "support_seeking": "Have someone with no stake in the outcome read the documents with you. That could be a legal aid clinic, a patient advocate or a trusted friend who reads closely.",
    "workplace_or_professional": "Ask for a written summary of changes and priorities, and confirm back in writing which items you will do first and which will wait."
   },
   "boundary_script": "\"I want to understand this properly before I decide. Please send me the key terms on one page, and I will respond by Thursday afternoon.\"",
   "safety_sensitive": false,
-  "safety_note": "Being overloaded is not itself a danger. It matters more where the decision touches your housing, income, health care or legal position, such as a lease, a benefits form or a settlement. For those, take time and ask a legal aid office, advocate or counselor to read it first. Never sign under pressure of time you cannot verify.",
+  "safety_note": "Being overloaded is not itself a danger. It matters more when a decision touches your housing, income, health care or legal position. A lease, a benefits form or a settlement are examples. For those, take time and ask a legal aid office, advocate or counselor to read it first. Never sign under pressure of time you cannot verify.",
   "misuse_warning": [
-   "Calling a genuinely complicated process 'overload' can lead you to distrust the people who are trying to explain it.",
+   "If you call a genuinely complicated process 'overload', you may start to distrust the people who are trying to explain it.",
    "Using the label on a nervous over-explainer can punish someone who was trying to be careful."
   ],
-  "how_to_distinguish_from_related": "Urgency Manufacturing shortens the clock; overload fills the time with so much material that the clock hardly matters. Interrogation demands answers from you, while overload pours material onto you. A False Dilemma shrinks your options to two, whereas overload buries them under detail so you cannot see how many options exist."
+  "how_to_distinguish_from_related": "Urgency Manufacturing shortens the clock. Overload fills the time with so much material that the clock hardly matters. Interrogation demands answers from you, while overload pours material onto you. A False Dilemma shrinks your options to two. Overload buries them under detail, so you cannot see how many options exist."
  },
  "Bait and Switch": {
-  "short_definition": "Advertising or promising an appealing deal, then swapping in a worse one after the person is committed or has given something up.",
-  "core_meaning": "Advertising or promising an appealing deal, then swapping in a worse one after the person is committed or has given something up.",
+  "short_definition": "Promising or advertising an appealing deal, then swapping in a worse one after the person has committed or given something up.",
+  "core_meaning": "Promising or advertising an appealing deal, then swapping in a worse one after the person has committed or given something up.",
   "expanded_definition": "The bait is the attractive offer: a low price, a job title, a promised role, a shared plan. The switch comes once you have said yes, moved, paid a deposit or turned down alternatives, and the terms turn out to be different. Plans and prices change honestly, and an apology with a real fix is a different matter. It is a pattern when the better terms were never available, or the change always favors the person who made it.",
   "plain_language_summary": "You are drawn in by one offer, and after you commit, you are handed a worse one. By then, walking away costs more than going along.",
   "why_this_matters": "By the time the terms change, you have often given something up: a deposit, another offer, a move, a plan. Walking away costs more than accepting, and that cost is what makes a worse deal acceptable.",
@@ -544,15 +544,15 @@
    "You are always the one adjusting to a new version of the deal.",
    "You stop believing the first version of anything they say, and still feel unable to leave."
   ],
-  "repair_check": "Honest correction means the original terms are acknowledged, and you are offered a remedy that puts you back where you were, such as refund, release or the original deal. A new explanation that leaves you with the worse terms is not a fix, even when it comes with a warm apology.",
+  "repair_check": "Honest correction means the original terms are acknowledged. You are offered a remedy that puts you back where you were, such as a refund, a release or the original deal. A new explanation that leaves you with the worse terms is not a fix, even when it comes with a warm apology.",
   "boundary_respect_check": "State the terms as you remember them and ask for a written confirmation. Does the person confirm, or argue about what was said? One who respects the limit puts it in writing and lets you decide.",
   "psychological_mechanism": "Once people have invested money, effort or hope, they tend to feel pulled to stay with the choice and to explain away discrepancies. A good first offer also anchors expectations, so the swapped version can seem like a small loss and not a different deal. Giving up other options makes walking away feel more costly.",
   "possible_impact_on_receiver": "Feeling foolish, cornered and unsure whether you misheard is a common account. Some are left out of pocket, or stuck in a job or home that is not what they chose. Some say the hardest part was that nothing could be proven, because the first offer had only been spoken.",
   "response_options": {
    "soft_clarification": "Restate it plainly: 'What I understood at the start was this price and this role. Has something changed that I should know about?'",
    "firm_boundary": "Insist on the original: 'I agreed to the first terms. I am not able to accept the new ones.'",
-   "disengagement": "Stop adding to what you have already put in, such as more deposit, more time or more work, until the terms are confirmed in writing.",
-   "support_seeking": "Show the original offer and the new one to someone neutral, such as a consumer advice office, a tenants' group or a friend who reads contracts.",
+   "disengagement": "Stop adding to what you have already put in, such as more deposit, more time or more work. Wait until the terms are confirmed in writing.",
+   "support_seeking": "Show the original offer and the new one to someone neutral. That could be a consumer advice office, a tenants' group or a friend who reads contracts.",
    "workplace_or_professional": "Ask for the role, pay and duties in a signed letter before you start, and keep the original offer message. If terms shift, raise it in writing with HR."
   },
   "boundary_script": "\"That is different from what we agreed at the start. I would like the original terms confirmed in writing today. If that cannot be done, I would like my deposit returned.\"",
@@ -562,17 +562,17 @@
    "Calling an honest change of plans 'bait and switch' can punish someone who told you promptly and offered a fair fix.",
    "Using the term without checking what was actually promised can turn a misunderstanding into an accusation."
   ],
-  "how_to_distinguish_from_related": "Sunk Cost Exploitation uses what you have already invested to keep you in; the switch is the change in terms that triggers that pull. A False Dilemma gives you two options at the time of choosing, while here the choice was made on one set of terms and then changed. An Ultimatum attaches a penalty to a demand, whereas the switch simply alters what you agreed to."
+  "how_to_distinguish_from_related": "Sunk Cost Exploitation uses what you have already invested to keep you in. The switch is the change in terms that triggers that pull. A False Dilemma gives you two options at the time of choosing. Here the choice was made on one set of terms and then changed. An Ultimatum attaches a penalty to a demand, whereas the switch simply alters what you agreed to."
  },
  "Pre-Punishment": {
-  "short_definition": "Shutting yourself down before anyone else can, by not applying, speaking or trying, because past experience taught you that being seen gets punished.",
-  "core_meaning": "Shutting yourself down before anyone else can, by not applying, speaking or trying, because past experience taught you that being seen gets punished.",
-  "expanded_definition": "This is something a person does to themselves, so there may be no second party in the moment. After being mocked, shamed or hurt for standing out, a person can learn to remove the chance of being seen: skipping the application, staying silent in the meeting, never sending the draft. The punishment is imagined and delivered in advance. Caution is not the same thing. It becomes a pattern when it follows you into places where nothing like that has happened.",
+  "short_definition": "You hold yourself back before anyone else can, by not applying, speaking or trying, because past experience taught you that being seen gets punished.",
+  "core_meaning": "You hold yourself back before anyone else can, by not applying, speaking or trying, because past experience taught you that being seen gets punished.",
+  "expanded_definition": "This is something a person does to themselves, so there may be no one else involved in the moment. After being mocked, shamed or hurt for standing out, a person can learn to remove the chance of being seen. Examples are skipping the application, staying silent in the meeting, or never sending the draft. The punishment is imagined and delivered in advance. Caution is not the same thing. It becomes a pattern when it follows you into places where nothing like that has happened.",
   "plain_language_summary": "You turn yourself down before anyone else gets the chance. You do not apply, speak or try, because it once felt dangerous to be noticed, and not trying feels safer.",
-  "why_this_matters": "Opportunities close before anyone else has the chance to refuse them. The cost, which includes jobs not applied for and things not said, stays invisible because nothing happened, and your life can narrow without anyone noticing.",
+  "why_this_matters": "Opportunities close before anyone else has the chance to refuse them. The cost stays invisible because nothing happened. That cost includes jobs not applied for and things not said. Your life can narrow without anyone noticing.",
   "what_it_is": [
    "Declining to try, apply, ask or speak based on a punishment you expect, not one that has happened.",
-   "A learned reflex: at some point, visibility was followed by ridicule, anger or loss, so staying small became a way to stay safe.",
+   "A learned reflex. At some point, being visible was followed by ridicule, anger or loss, so staying small became a way to stay safe.",
    "It can attach to success as well as failure, so that both feel unsafe.",
    "Self-directed: the inner critic does the work that a critical person once did."
   ],
@@ -647,15 +647,15 @@
    "firm_boundary": "Set a very small test: send one email or speak once this week, and write down what actually happened afterwards.",
    "disengagement": "When the inner critic starts its case, step away from the decision for a day and come back with a calmer eye.",
    "support_seeking": "Tell a trusted person or a counselor about the old experience. Talking about when it began can loosen its hold.",
-   "workplace_or_professional": "Pick one low-stakes place to be visible, such as a short comment in a meeting, and ask a trusted colleague for plain feedback afterwards."
+   "workplace_or_professional": "Pick one low-stakes place to be visible, such as a short comment in a meeting. Afterwards, ask a trusted colleague for plain feedback."
   },
   "boundary_script": "\"I notice I am talking myself out of this before anyone has said a word. That is an old habit, not today's facts. I am going to send the application and see what really happens.\"",
   "safety_sensitive": false,
-  "safety_note": "Holding yourself back is a painful pattern but not by itself a danger. It deserves more care if it comes with hopelessness, thoughts of self-harm, or if you still live or work where being visible really is punished. In that case, talk to a counselor, a doctor or a crisis line, and think about what makes your present situation safe.",
+  "safety_note": "Holding yourself back is a painful pattern but not by itself a danger. It deserves more care if it comes with hopelessness or thoughts of self-harm, or if you still live or work where being visible really is punished. In that case, talk to a counselor, a doctor or a crisis line, and think about what makes your present situation safe.",
   "misuse_warning": [
    "Naming someone else's hesitation as 'pre-punishment' can dismiss a reasonable decision they made for sound reasons.",
    "Treating all caution as an old wound can push a person to take risks that are not safe for them."
   ],
-  "how_to_distinguish_from_related": "Ultimatums, False Dilemma and Interrogation all come from another person who presses on you. Pre-Punishment has no one pressing in the moment: the pressure is a remembered one, now carried inside. Sunk Cost Exploitation keeps you in something because of what you have already put in; pre-punishment keeps you out of things because of a punishment you expect."
+  "how_to_distinguish_from_related": "Ultimatums, False Dilemma and Interrogation all come from another person who presses on you. Pre-Punishment has no one pressing in the moment. The pressure is a remembered one, now carried inside. Sunk Cost Exploitation keeps you in something because of what you have already put in. Pre-punishment keeps you out of things because of a punishment you expect."
  }
 }

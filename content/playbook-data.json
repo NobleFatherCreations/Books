@@ -7085,14 +7085,14 @@
     "A free gift is handed over, and the request for a donation that follows mentions the gift."
    ],
    "nots": [
-    "Small favors that grow into larger ones naturally and mutually, with real consent at each stage, are how most relationships work.",
+    "Small favors often grow into larger ones. When that happens naturally, with both people agreeing and real consent at each stage, it is how most relationships work.",
     "Someone who asks for something small, gets it, and only later finds they need something bigger, with no sequence in mind.",
     "A large request that stands on its own merits whatever came before it.",
     "A trial whose price and cancellation terms were shown clearly before you began.",
     "A role that grows as trust is earned, with each increase named out loud and agreed.",
     "Volunteering for more because you enjoy the work."
    ],
-   "why": "The larger request is judged against what you already agreed to, not on its own terms. You can end up carrying an obligation you never chose at any single moment, and refusing starts to feel like going back on your word."
+   "why": "The larger request is judged against what you already agreed to, not on its own terms. You may end up carrying an obligation you never chose at any one moment. Refusing starts to feel like going back on your word."
   },
   {
    "name": "Door-in-the-Face",
@@ -7108,13 +7108,13 @@
     "\"I came down a lot. The least you can do is say yes to this.\""
    ],
    "nots": [
-    "Ordinary negotiation, where both sides know the opening position is high and expect to settle in the middle.",
+    "Ordinary negotiation. Both sides know the opening position is high, and both expect to settle in the middle.",
     "Someone who truly wanted the larger thing, asked for it, and then settled for less in good faith.",
     "A person who learns your limits from your first answer and then asks for something that fits them.",
     "Two separate requests that happen to arrive close together.",
     "A reasonable request that you find uncomfortable only because it follows a stressful one."
    ],
-   "why": "Relief at the smaller ask stands in for judging it. The second request gets measured against the first, not against what is fair, and a yes given to feel gracious can leave you carrying more than you chose."
+   "why": "Relief at the smaller ask takes the place of judging it. The second request gets measured against the first, not against what is fair. A yes given to feel gracious can leave you carrying more than you chose."
   },
   {
    "name": "Anchoring",
@@ -7136,13 +7136,13 @@
     "A reference you picked yourself, such as the price you saw last week at another shop.",
     "Natural comparison: noticing one thing is cheaper than another is just using information."
    ],
-   "why": "Everything that follows gets measured against a figure or framing that was never justified, so an offer that would look unreasonable on its own can seem fair, and you may feel you won something when you did not."
+   "why": "Everything that follows gets measured against a figure or framing that was never justified. An offer that would look unreasonable on its own can then seem fair. You may feel you won something when you did not."
   },
   {
    "name": "Choice Restriction",
    "tag": "reference",
    "cat": "Pressure & Coercion",
-   "what": "Closing off or hiding realistic alternatives one by one, so that a single outcome ends up looking like the only sensible choice.",
+   "what": "Someone closes off or hides your realistic options one by one, until a single outcome looks like the only sensible choice.",
    "sounds": [
     "You don't really have a choice here.",
     "You could do the second one, but you'd lose your whole routine and it never works out. The first is simple.",
@@ -7154,20 +7154,20 @@
     "Looking back, every path I was offered ended in the same place."
    ],
    "nots": [
-    "Options are often truly limited by outside constraints nobody arranged, such as a tight budget, a small town or a full calendar.",
+    "Options are often truly limited by outside constraints that nobody arranged, such as a tight budget, a small town or a full calendar.",
     "Honest advice about which of several real options is best, with the others left available to you.",
     "A sensible default set for practical reasons, like a standard meeting time you can change.",
     "A person who only knows a few options, shares them, and welcomes the others when you find them.",
     "A menu of fixed packages shown openly with prices side by side.",
     "Circumstances narrowing over time, as a lease ends or a workplace closes, with nobody steering."
    ],
-   "why": "No demand is made, so there is nothing to push back on. By the time you notice, you may have agreed to something you never really picked, with no single moment to point to when you ask how you got here."
+   "why": "No demand is made, so there is nothing to push back on. By the time you notice, you may have agreed to something you never really picked. When you ask how you got here, there is no single moment to point to."
   },
   {
    "name": "Emotional Flooding",
    "tag": "reference",
    "cat": "Pressure & Coercion",
-   "what": "Pouring on emotion so fast and so hard that the other person cannot think, and speed or intensity is mistaken for closeness.",
+   "what": "Pouring on emotion so fast and so hard that the other person cannot think, until speed and intensity get mistaken for closeness.",
    "sounds": [
     "\"I've never felt this way about anyone. I know you're the one.\" (said in the first week)",
     "\"I can't breathe when you're not here. Please don't leave me tonight.\"",
@@ -7199,19 +7199,19 @@
     "\"If you had read the terms, you would know this.\""
    ],
    "nots": [
-    "A decision that is truly complex, such as a mortgage or a medical consent, which does need a lot of real information.",
+    "A decision that is truly complex, such as a mortgage or a medical consent. These do need a lot of real information.",
     "An anxious person who explains everything because they want to be thorough, with no wish to hurry you.",
     "A busy period at work when many real tasks pile up, with nobody designing it.",
     "Plain jargon from someone who forgot you are not an expert in their field.",
     "Your own tiredness or stress, which lowers how much you can take in on any day."
    ],
-   "why": "Agreement becomes the fastest way out of the overwhelm, so the decision that results was never really weighed, and you may find later that you consented to things you did not understand."
+   "why": "Agreement becomes the fastest way out of the overwhelm, so the decision that results was never really weighed. You may find later that you agreed to things you did not understand."
   },
   {
    "name": "Bait and Switch",
    "tag": "reference",
    "cat": "Pressure & Coercion",
-   "what": "Advertising or promising an appealing deal, then swapping in a worse one after the person is committed or has given something up.",
+   "what": "Promising or advertising an appealing deal, then swapping in a worse one after the person has committed or given something up.",
    "sounds": [
     "\"That model just sold out, but I can offer you this one for a bit more.\"",
     "\"The role turned out to be different from what we discussed, but you'll grow into it.\"",
@@ -7233,7 +7233,7 @@
    "name": "Pre-Punishment",
    "tag": "reference",
    "cat": "Pressure & Coercion",
-   "what": "Shutting yourself down before anyone else can, by not applying, speaking or trying, because past experience taught you that being seen gets punished.",
+   "what": "You hold yourself back before anyone else can, by not applying, speaking or trying, because past experience taught you that being seen gets punished.",
    "sounds": [
     "\"There's no point applying. They would only laugh.\"",
     "\"If I speak up in the meeting, they will tear it apart.\"",
@@ -7249,7 +7249,7 @@
     "Introversion or a preference for staying out of the spotlight, if it brings you no distress.",
     "A needed rest. Pulling back during a hard season can be healthy."
    ],
-   "why": "Opportunities close before anyone else has the chance to refuse them. The cost, which includes jobs not applied for and things not said, stays invisible because nothing happened, and your life can narrow without anyone noticing."
+   "why": "Opportunities close before anyone else has the chance to refuse them. The cost stays invisible because nothing happened. That cost includes jobs not applied for and things not said. Your life can narrow without anyone noticing."
   },
   {
    "name": "Lying",
@@ -7265,7 +7265,7 @@
     "That's the first I'm hearing of it."
    ],
    "nots": [
-    "An honest mistake stated sincerely. A rounded or simplified figure that is not technically precise may carry no deception at all, and someone who corrects their account because they later remembered better is doing the right thing.",
+    "An honest mistake stated sincerely. A rounded or simplified figure that is not technically precise may carry no deception at all. Someone who corrects their account because they later remembered better is doing the right thing.",
     "A prediction or opinion that turned out wrong, such as 'it'll be fine'.",
     "A refusal to share, such as 'I can't discuss that', which declines to answer and states nothing false.",
     "A cover story for a surprise party that everyone laughs about afterwards.",
@@ -7277,7 +7277,7 @@
    "name": "Lying by Omission",
    "tag": "reference",
    "cat": "Deception",
-   "what": "Leaving out information the other person needs for an accurate understanding, while everything that is said stays technically true.",
+   "what": "Leaving out information the other person needs for an accurate picture, while everything that is said stays technically true.",
    "sounds": [
     "'I never said that wasn't true.'",
     "'I told you about it.' (a passing remark, months ago, in a different conversation)",
@@ -7289,19 +7289,19 @@
    ],
    "nots": [
     "Not thinking to mention something that did not seem relevant at the time is ordinary.",
-    "Plenty of information is legitimately nobody else's business, such as a friend's confidence or a person's private medical history.",
-    "A gap held briefly, with a plan to close it once the timing is right, such as waiting for test results before telling the family. That is a delay, not a concealment.",
+    "Plenty of information is nobody else's business. A friend's confidence and a person's private medical history are two examples.",
+    "A gap held briefly, with a plan to close it when the timing is right. One example is waiting for test results before telling the family. That is a delay, not a concealment.",
     "Context can be missing because the speaker never had it, which is a gap and not a filter.",
-    "Sharing what you know as you learn it, across several conversations, differs from choosing in advance which facts another person gets.",
+    "Sharing what you know as you learn it, over several conversations, is different from choosing in advance which facts another person gets.",
     "A short summary that drops detail for length and would readily expand if asked."
    ],
-   "why": "Nothing said was false, so there is no untruth to point at, only a conclusion you reached on grounds you did not know were incomplete. The missing piece usually appears too late to change what you chose, and you may blame yourself for not asking."
+   "why": "Nothing said was false, so there is no untruth to point at. There is only a conclusion you reached on grounds you did not know were incomplete. The missing piece usually appears too late to change what you chose. You may blame yourself for not asking."
   },
   {
    "name": "Strategic Incompleteness",
    "tag": "reference",
    "cat": "Deception",
-   "what": "Giving someone enough information to take the next step but never enough to see the whole picture, so they keep coming back for more.",
+   "what": "Someone gives you enough information for the next step but never enough to see the whole picture, so you keep coming back for more.",
    "sounds": [
     "Just do this part for now, I'll explain the rest later.",
     "You don't need to worry about that yet.",
@@ -7311,7 +7311,7 @@
     "We'll cross that bridge when we come to it."
    ],
    "nots": [
-    "Genuinely complex things are often explained in stages because that is the only comprehensible order. Someone who does not yet have the full picture can only pass on what they have, and need-to-know structures exist for reasons unconnected to any one person.",
+    "Genuinely complex things are often explained in stages because that is the only order that makes sense. Someone who does not yet have the full picture can only pass on what they have. Need-to-know structures exist for reasons unconnected to any one person.",
     "A mentor who holds back advanced material until the basics are learned, and says so.",
     "A project whose later phases genuinely have not been decided yet.",
     "A surprise being planned, where the holder of the plan is open about keeping it.",
@@ -7323,7 +7323,7 @@
    "name": "Catfishing",
    "tag": "reference",
    "cat": "Deception",
-   "what": "Building a relationship, usually online, behind a made-up identity such as borrowed photos or an invented life story, so the other person bonds with someone who does not exist.",
+   "what": "Building an online relationship behind a made-up identity, such as borrowed photos or an invented life story, so the other person bonds with someone who does not exist.",
    "sounds": [
     "Photos that, on a reverse image search, belong to a different name or a model's portfolio.",
     "'My camera is broken' or 'bad signal' every time a video call is planned.",
@@ -7338,10 +7338,10 @@
     "Outdated photos and flattering presentation fall short of accurate without being wholesale invention.",
     "Reluctance about video calls or meeting in person is frequently social anxiety.",
     "A username or pseudonym used for privacy, with the real name shared as trust grows.",
-    "A person with safety or health reasons, such as someone hiding their location from a former partner, who wants control over what they show.",
+    "A person with safety or health reasons who wants control over what they show. One example is someone hiding their location from a former partner.",
     "Role-play in a game or fiction community where everyone knows the characters are invented."
    ],
-   "why": "Everything built on the connection rests on ground that was never there, so what is lost on discovery includes the relationship's entire history, not merely its ending."
+   "why": "Everything built on the connection rests on ground that was never there. On discovery, you lose the relationship's entire history and not merely its ending."
   },
   {
    "name": "Half-Truth Framing",
@@ -42354,12 +42354,12 @@
    "short_definition": "Winning a small yes first, then using it to secure a larger one, so each agreement makes the next harder to refuse.",
    "expanded_definition": "Foot-in-the-door begins with something easy to agree to, then follows with something bigger that leans on the first yes. It can be one jump or a ladder of many small steps. People also call it graduated compliance, for the small steps, or a commitment trap, for the obligation piled up by the end. One favor followed by a bigger one means little, since requests grow in ordinary friendships. The pattern is that the earlier yes is cited as the reason for the next.",
    "plain_language_summary": "You agree to something small. Then a bigger ask arrives, and your first yes is used as a reason you should not say no to this one.",
-   "why_this_matters": "The larger request is judged against what you already agreed to, not on its own terms. You can end up carrying an obligation you never chose at any single moment, and refusing starts to feel like going back on your word.",
+   "why_this_matters": "The larger request is judged against what you already agreed to, not on its own terms. You may end up carrying an obligation you never chose at any one moment. Refusing starts to feel like going back on your word.",
    "what_it_is": [
     "A small, easy request that gets a yes, followed by a larger request on the same theme.",
     "Either a single jump (a quick favor, then a big one) or a ladder of many steps, each barely bigger than the last.",
     "Draws on the common habit of staying consistent with what we have already said and done.",
-    "Appears in sales, fundraising, volunteering, workplaces and close relationships, for example a free sample followed by a plea to buy.",
+    "It shows up in sales, fundraising, volunteering, workplaces and close relationships. One example is a free sample followed by a plea to buy.",
     "Leaves a final obligation that nobody named at the start and that you never agreed to as a whole."
    ],
    "what_it_sounds_like": [
@@ -42372,7 +42372,7 @@
     "A free gift is handed over, and the request for a donation that follows mentions the gift."
    ],
    "what_it_is_not": [
-    "Small favors that grow into larger ones naturally and mutually, with real consent at each stage, are how most relationships work.",
+    "Small favors often grow into larger ones. When that happens naturally, with both people agreeing and real consent at each stage, it is how most relationships work.",
     "Someone who asks for something small, gets it, and only later finds they need something bigger, with no sequence in mind.",
     "A large request that stands on its own merits whatever came before it.",
     "A trial whose price and cancellation terms were shown clearly before you began.",
@@ -42426,19 +42426,19 @@
     "You start refusing small things early, to avoid where they might lead.",
     "Reminders of what you already did come up whenever you hesitate."
    ],
-   "repair_check": "Repair means the whole size of the ask is said out loud, and you get a real chance to start again from where you want to stand. Being thanked for earlier help while the extra load stays exactly where it was is appreciation, not repair.",
+   "repair_check": "Repair means the whole size of the ask is said out loud. You also get a real chance to start again from where you want to stand. Being thanked for earlier help while the extra load stays exactly where it was is appreciation, not repair.",
    "boundary_respect_check": "Notice whether your earlier yes is thanked or tallied. When a boundary is respected, the first favor stays a gift. When it is not, the favor turns into a debt that gets raised each time you hesitate.",
-   "psychological_mechanism": "Most of us like to act in line with what we have said and done before, and a first yes can make a later request seem a continuation of who we are. Small steps keep the cost of each yes low, so no single step prompts a pause. The total shows itself only when you compare the start with where you stand now.",
+   "psychological_mechanism": "Most of us like to act in line with what we have said and done before. A first yes can make a later request look like a natural part of who we are. Small steps keep the cost of each yes low, so no single step makes you pause. You only see the total when you compare the start with where you stand now.",
    "possible_impact_on_receiver": "A creeping sense of being stuck in something never signed up for is common, along with a hard time saying when it began. Some feel embarrassed at having said yes so often. Others begin refusing small, harmless requests early to avoid where they might lead, which can strain ordinary generosity.",
    "response_options": {
     "soft_clarification": "Ask for the whole picture: 'Before I say yes to this part, what else would come next? I'd like to know the full size of it.'",
     "firm_boundary": "Separate the steps: 'I agreed to the first part. This is a new request, and I'm deciding it on its own.'",
     "disengagement": "Finish the part you agreed to, and decline to start the next stage until it is written down.",
     "support_seeking": "Tell a friend the whole sequence in order and ask whether they would have agreed to the last step if it had come first.",
-    "workplace_or_professional": "At work, ask for new duties to be added to your role description or confirmed by email, with any change in pay or hours, before you take them on."
+    "workplace_or_professional": "At work, ask for any new duties to be added to your role description or confirmed by email before you take them on. Ask about any change in pay or hours too."
    },
    "boundary_script": "\"I was glad to do the first part, and I'm treating this as a new request. Can you tell me what the whole thing involves? I'll decide about this part once I can see that.\"",
-   "safety_note": "By itself this is a pressure pattern, not a danger sign. It changes when the steps start to involve money, signing legal papers, sexual activity or secrecy, or when stopping brings threats. Before agreeing to anything with legal or financial weight, show the papers to someone outside the situation, such as a legal aid service or a trusted adviser.",
+   "safety_note": "On its own, this is a pressure pattern, not a danger sign. It changes when the steps start to involve money, signing legal papers, sexual activity or secrecy. It also changes when stopping brings threats. Before agreeing to anything with legal or financial weight, show the papers to someone outside the situation, such as a legal aid service or a trusted adviser.",
    "safety_sensitive": false,
    "misuse_warning": [
     "A follow-up request after a favor is not automatically a trap. Applying the label to ordinary friends can make it hard to ask for or give help at all.",
@@ -42452,7 +42452,7 @@
     "Response-Time Policing",
     "Interrogation"
    ],
-   "how_to_distinguish_from_related": "Sunk Cost Exploitation points at what you have already invested to stop you from leaving; foot-in-the-door points at a past yes to win a new yes. Ultimatums force an either-or under threat of loss, while here nothing is threatened and the first agreement carries the weight. Urgency Manufacturing squeezes the clock, whereas the lever in this tactic is your own earlier consent, however unhurried the asking.",
+   "how_to_distinguish_from_related": "Sunk Cost Exploitation points at what you have already invested to stop you from leaving. Foot-in-the-door points at a past yes to win a new yes. Ultimatums force an either-or under threat of loss. Here nothing is threatened, and the first agreement carries the weight. Urgency Manufacturing squeezes the clock. The lever in this tactic is your own earlier consent, however unhurried the asking.",
    "detection_notes": "Not matched or scored by this tool. Pasted text cannot establish this concept — included in the Field Guide purely as a literacy reference.",
    "codex_maturity": "mature",
    "human_review_flags": [
@@ -42474,7 +42474,7 @@
    "short_definition": "Making a big request that is likely to be refused so that the smaller request that follows seems modest and hard to turn down.",
    "expanded_definition": "The name comes from a salesman slamming a door: the first ask is expected to get a no. The second, smaller ask is the one that was wanted all along. Agreeing to it can feel like returning a favor, because the other person seems to have backed down. Plenty of honest bargaining works this way, so one round proves nothing. It is a pattern when the big ask is never really meant and the same two-step shows up again and again.",
    "plain_language_summary": "Someone asks for far too much, you say no, and then they ask for less. The smaller request feels like a favor to them, so it is hard to refuse.",
-   "why_this_matters": "Relief at the smaller ask stands in for judging it. The second request gets measured against the first, not against what is fair, and a yes given to feel gracious can leave you carrying more than you chose.",
+   "why_this_matters": "Relief at the smaller ask takes the place of judging it. The second request gets measured against the first, not against what is fair. A yes given to feel gracious can leave you carrying more than you chose.",
    "what_it_is": [
     "A two-step request: an oversized ask, then a reduced one soon after your refusal.",
     "The reduction is framed as a concession, as though a favor were being granted to you.",
@@ -42490,7 +42490,7 @@
     "\"I came down a lot. The least you can do is say yes to this.\""
    ],
    "what_it_is_not": [
-    "Ordinary negotiation, where both sides know the opening position is high and expect to settle in the middle.",
+    "Ordinary negotiation. Both sides know the opening position is high, and both expect to settle in the middle.",
     "Someone who truly wanted the larger thing, asked for it, and then settled for less in good faith.",
     "A person who learns your limits from your first answer and then asks for something that fits them.",
     "Two separate requests that happen to arrive close together.",
@@ -42498,7 +42498,7 @@
    ],
    "this_may_be_it_when": [
     "The first request was so extreme that no one could have expected a yes.",
-    "The smaller request comes within minutes or days, and is presented as a concession you now owe something for.",
+    "The smaller request comes within minutes or days. It is presented as a concession, and you now owe something back.",
     "You notice the same big-then-small order in several separate dealings with this person.",
     "The smaller ask would have seemed too much if it had been the first thing said.",
     "They draw attention to how much they came down, instead of explaining why they need the thing."
@@ -42534,7 +42534,7 @@
    ],
    "more_concerning_if": [
     "The small ask involves your money, housing, legal paperwork or access to your accounts.",
-    "A refusal of the big ask is followed by hurt or anger, and the small ask then arrives as the way back to their good graces.",
+    "A refusal of the big ask is followed by hurt or anger. The small ask then arrives as the way back into their good graces.",
     "The big ask always seems designed to fail."
    ],
    "pattern_over_time_signs": [
@@ -42552,14 +42552,14 @@
     "firm_boundary": "Decline without trading: 'I did not say no to the first one to get a better deal on the second. My answer to both is no.'",
     "disengagement": "Do not answer straight away. Say you will get back to them tomorrow, and use the gap to look at the second ask alone.",
     "support_seeking": "Tell someone you trust both requests in order and ask what they would say to the second if it had come first.",
-    "workplace_or_professional": "Ask for the request in writing with the actual scope and deadline, so the small version is judged on its own terms and not against the big one."
+    "workplace_or_professional": "Ask for the request in writing, with the actual scope and deadline. That way the small version is judged on its own terms and not against the big one."
    },
    "boundary_script": "\"I see you have scaled it down, and I appreciate that. Taken on its own, it is still more than I can take on, so my answer is no. I would be glad to help with something smaller than this.\"",
    "safety_note": "On its own this is a pressure tactic about requests, not a danger signal. It would raise concern if the asks involve money, signing papers, access to your accounts or your home, or if a refusal brings threats. In those cases, take time before agreeing and talk to someone independent, such as a legal aid clinic or a financial counselor.",
    "safety_sensitive": false,
    "misuse_warning": [
     "Calling normal bargaining 'door-in-the-face' can make you suspicious of every negotiation, including honest ones.",
-    "Using the label to dismiss a real, reduced request can leave a person without help they genuinely needed."
+    "If you use the label to wave away a real, smaller request, a person may go without help they truly needed."
    ],
    "related_tactics": [
     "Ultimatums",
@@ -42569,7 +42569,7 @@
     "Response-Time Policing",
     "Interrogation"
    ],
-   "how_to_distinguish_from_related": "A False Dilemma shrinks your choices to two and treats both as costly; the door-in-the-face first ask is simply meant to be refused, so the second feels light. Urgency Manufacturing works through a clock, while this works through your sense that a concession deserves one in return. Sunk Cost Exploitation leans on what you have already put in, and here you have put in nothing until the second yes.",
+   "how_to_distinguish_from_related": "A False Dilemma shrinks your choices to two and treats both as costly. The door-in-the-face first ask is simply meant to be refused, so the second one feels light. Urgency Manufacturing works through a clock. This tactic works through your sense that a concession deserves one in return. Sunk Cost Exploitation leans on what you have already put in, and here you have put in nothing until the second yes.",
    "detection_notes": "Not matched or scored by this tool. Pasted text cannot establish this concept — included in the Field Guide purely as a literacy reference.",
    "codex_maturity": "mature",
    "human_review_flags": [
@@ -42590,8 +42590,8 @@
    "absorbs": [],
    "short_definition": "Putting forward a first number, price or claim that then shapes how every later figure and offer is judged.",
    "expanded_definition": "People tend to judge a value by comparing it to the first one they hear, even when the first one is arbitrary. A seller names a high price, a manager names a salary band, a relative says how much you 'usually' give. Everything after is measured against that figure. Stating an opening number is normal in any negotiation. It becomes a tactic when the number has no basis and is used to make a worse offer look generous.",
-   "plain_language_summary": "The first number you hear sticks in your mind and makes later numbers look big or small by comparison, even when that first number was made up.",
-   "why_this_matters": "Everything that follows gets measured against a figure or framing that was never justified, so an offer that would look unreasonable on its own can seem fair, and you may feel you won something when you did not.",
+   "plain_language_summary": "The first number you hear sticks in your mind. Later numbers then look big or small next to it, even when that first number was made up.",
+   "why_this_matters": "Everything that follows gets measured against a figure or framing that was never justified. An offer that would look unreasonable on its own can then seem fair. You may feel you won something when you did not.",
    "what_it_is": [
     "An opening price, salary, deadline or amount that sets the range for the whole discussion.",
     "Often a crossed-out 'original' price beside a sale price, or a 'suggested' tip or donation amount.",
@@ -42660,22 +42660,22 @@
     "Their first figure keeps being the highest or lowest one in the room.",
     "You start asking for less than you wanted, to stay near the range they set."
    ],
-   "repair_check": "If you point out that the first number had no basis, a straight answer would be to explain how it was set and to restate the offer from a fair starting point. Quietly lowering it a bit while insisting the first figure was reasonable moves the number without changing the habit.",
+   "repair_check": "If you point out that the first number had no basis, a straight answer would explain how it was set and restate the offer from a fair starting point. Quietly lowering it a bit while insisting the first figure was reasonable moves the number but leaves the habit as it was.",
    "boundary_respect_check": "Try putting your own number on the table before they answer, or ask where theirs came from. Do they engage with the question, or press on as if you had not spoken? Their ease with being challenged tells you most.",
-   "psychological_mechanism": "People tend to adjust from the first figure they hear, and usually stop adjusting too soon. Even a number known to be random can pull judgments toward it. The pull can be stronger when you are short of information or time, and a later 'discount' can seem like a gain that you earned.",
+   "psychological_mechanism": "We usually adjust from the first figure we hear, and we stop adjusting too soon. Even a number known to be random can pull judgments toward it. The pull can be stronger when you are short of information or time. A later 'discount' may look like a gain that you earned.",
    "possible_impact_on_receiver": "People describe agreeing to a price or a pay level and later working out that they had accepted the other side's frame. Some feel foolish when they compare notes with others. Some describe a lingering sense of having been handled, even though nothing false was said.",
    "response_options": {
     "soft_clarification": "Ask for the source: 'How did you get to that number? I'd like to understand it before I answer.'",
     "firm_boundary": "Reset the frame yourself: 'I'm going to work from my own research on this, not from your opening figure. Here is what I have found.'",
     "disengagement": "Do not respond to the figure straight away. Take a day, look up typical ranges, and return with your own range.",
     "support_seeking": "Ask someone who has bought, sold or been paid in this field what a normal figure is, before you reply.",
-    "workplace_or_professional": "In pay or contract talks, research the range from published scales or peers first, and state your number before they state theirs if you can."
+    "workplace_or_professional": "In pay or contract talks, research the range first, using published scales or peers. If you can, state your number before they state theirs."
    },
    "boundary_script": "\"Thanks for the opening figure. I would like to see how it was worked out, and I've done my own research on the range. Can we start from what comparable cases show?\"",
-   "safety_note": "A high opening number is a financial pressure, and rarely a danger by itself. It matters more where the stakes are heavy and hard to undo: a legal settlement, a debt payment plan, a lease, or a pay offer tied to your immigration status. For those, get independent advice from legal aid or a financial counselor before you answer.",
+   "safety_note": "A high opening number is a financial pressure and rarely a danger by itself. It matters more where the stakes are heavy and hard to undo, such as a legal settlement, a debt payment plan, a lease, or a pay offer tied to your immigration status. For those, get independent advice from legal aid or a financial counselor before you answer.",
    "safety_sensitive": false,
    "misuse_warning": [
-    "Calling every opening price 'anchoring' can make normal negotiation look like manipulation and leave you unable to bargain at all.",
+    "Calling every opening price 'anchoring' can make normal negotiation look like manipulation. You may then be unable to bargain at all.",
     "Accusing someone of anchoring when they simply quoted a figure they believe in shuts down a fair talk."
    ],
    "related_tactics": [
@@ -42686,7 +42686,7 @@
     "Response-Time Policing",
     "Interrogation"
    ],
-   "how_to_distinguish_from_related": "Urgency Manufacturing shortens your time, while anchoring distorts your sense of the figure, however long you take. A False Dilemma limits your choices to two; an anchor leaves your choices open but tilts where you land. Sunk Cost Exploitation uses what you have already spent to keep you in, whereas an anchor works on the very first figure you hear, before you have spent anything.",
+   "how_to_distinguish_from_related": "Urgency Manufacturing shortens your time. Anchoring distorts your sense of the figure, however long you take. A False Dilemma limits your choices to two. An anchor leaves your choices open but tilts where you land. Sunk Cost Exploitation uses what you have already spent to keep you in. An anchor works on the very first figure you hear, before you have spent anything.",
    "detection_notes": "Not matched or scored by this tool. Pasted text cannot establish this concept — included in the Field Guide purely as a literacy reference.",
    "codex_maturity": "mature",
    "human_review_flags": [
@@ -42701,22 +42701,22 @@
    "branch": "reference",
    "category": "Pressure & Coercion",
    "detectability_note": "This tool cannot establish this from pasted text at all. It is included for literacy only, so you can learn to recognize the concept — not as something this tool detects, scores, or flags.",
-   "core_meaning": "Closing off or hiding realistic alternatives one by one, so that a single outcome ends up looking like the only sensible choice.",
+   "core_meaning": "Someone closes off or hides your realistic options one by one, until a single outcome looks like the only sensible choice.",
    "aftermath_state": false,
    "forensic_only": false,
    "absorbs": [
     "Choice Architecture Manipulation"
    ],
-   "short_definition": "Closing off or hiding realistic alternatives one by one, so that a single outcome ends up looking like the only sensible choice.",
+   "short_definition": "Someone closes off or hides your realistic options one by one, until a single outcome looks like the only sensible choice.",
    "expanded_definition": "Choice restriction narrows what you can realistically do, through money, access, information or the way options are described, until one outcome is left standing. When the focus is on how the menu of options was laid out, it is called choice architecture manipulation. No demand is ever made, so there is nothing to refuse. One short list of options means little. The pattern is that the list keeps shrinking in the same direction.",
-   "plain_language_summary": "Your options get closed off or made to look unworkable one at a time, until the choice someone else would prefer is the only one that seems left.",
-   "why_this_matters": "No demand is made, so there is nothing to push back on. By the time you notice, you may have agreed to something you never really picked, with no single moment to point to when you ask how you got here.",
+   "plain_language_summary": "Your options get closed off or made to look unworkable, one at a time. In the end, the choice someone else would prefer is the only one left.",
+   "why_this_matters": "No demand is made, so there is nothing to push back on. By the time you notice, you may have agreed to something you never really picked. When you ask how you got here, there is no single moment to point to.",
    "what_it_is": [
-    "Alternatives removed in practice: an account closed, a ride not offered, a form never handed over, a deadline you were not told about.",
-    "Alternatives made to sound unworkable by the way they are described, so one choice sounds sensible and the rest sound foolish or costly.",
+    "Alternatives removed in practice, such as an account closed, a ride not offered, a form never handed over, or a deadline you were not told about.",
+    "Alternatives made to sound unworkable by how they are described. One choice sounds sensible, and the rest sound foolish or costly.",
     "The preferred option made easiest, as the default, the one already filled in, scheduled or paid for.",
     "Information held back or sorted so you cannot compare, such as quotes you never see.",
-    "Found in households, workplaces, sales settings, families and care arrangements, wherever one person handles the money, paperwork, schedule or information."
+    "It is found in households, workplaces, sales settings, families and care arrangements. It happens wherever one person handles the money, paperwork, schedule or information."
    ],
    "what_it_sounds_like": [
     "You don't really have a choice here.",
@@ -42729,7 +42729,7 @@
     "Looking back, every path I was offered ended in the same place."
    ],
    "what_it_is_not": [
-    "Options are often truly limited by outside constraints nobody arranged, such as a tight budget, a small town or a full calendar.",
+    "Options are often truly limited by outside constraints that nobody arranged, such as a tight budget, a small town or a full calendar.",
     "Honest advice about which of several real options is best, with the others left available to you.",
     "A sensible default set for practical reasons, like a standard meeting time you can change.",
     "A person who only knows a few options, shares them, and welcomes the others when you find them.",
@@ -42738,7 +42738,7 @@
    ],
    "this_may_be_it_when": [
     "Each time you name another possibility there is a reason it will not work, and the reasons all point the same way.",
-    "The person describing the options also controls the money, paperwork, schedule or information you would need to check them.",
+    "The person describing your options also controls what you would need to check them. That includes the money, paperwork, schedule or information.",
     "Options you would normally consider have disappeared without any conversation about removing them.",
     "Looking into an alternative on your own is met with irritation, or you find it was more open than you were told.",
     "The outcome that is left happens to suit the person doing the narrowing."
@@ -42774,7 +42774,7 @@
    ],
    "more_concerning_if": [
     "The person narrowing your options also controls your money, housing, documents or contact with other people.",
-    "Looking for alternatives is discouraged, or you are told the people who might offer them cannot be trusted.",
+    "Looking for alternatives is discouraged. Or you are told the people who might offer them cannot be trusted.",
     "Choosing a different option brings a loss, such as support being withdrawn or a long punishing silence."
    ],
    "pattern_over_time_signs": [
@@ -42783,23 +42783,23 @@
     "Decisions that used to be yours, such as where to live, work or spend, are now described as obvious.",
     "You struggle to name one thing you chose that went against what the other person wanted."
    ],
-   "repair_check": "Repair here is practical: the closed doors reopen. The missing options get named, information you were not given is shared openly, and a choice that goes against their preference is accepted without a penalty. A warm apology while the same short menu stays in place changes little.",
+   "repair_check": "Repair here is practical: the closed doors reopen. The missing options get named. Information you were not given is shared openly. A choice that goes against their preference is accepted without a penalty. A warm apology while the same short menu stays in place changes little.",
    "boundary_respect_check": "Watch what happens to the second option once you ask about it. Does it get a fair description with its real costs, or one more reason it will not work? And if you choose it, does your ordinary day stay as it was?",
-   "psychological_mechanism": "We usually choose from what is in front of us and seldom go looking for what is missing. When alternatives are removed or described as costly, the remaining option may read as your own conclusion, because no one ever asked you for anything. Objecting afterwards is hard, since you can recall agreeing but not choosing.",
-   "possible_impact_on_receiver": "Many report a puzzled sense of having said yes to something they never wanted, and trouble explaining how it happened. Some feel foolish for not looking harder. Others say they started to distrust their own judgment, or stopped making plans because the plans never seemed to survive the facts they were handed.",
+   "psychological_mechanism": "We usually choose from what is in front of us and seldom go looking for what is missing. When alternatives are removed or described as costly, the remaining option may look like your own conclusion. No one ever asked you for anything. Objecting afterwards is hard, because you can recall agreeing but not choosing.",
+   "possible_impact_on_receiver": "Many report a puzzled sense of having said yes to something they never wanted. They have trouble explaining how it happened. Some feel foolish for not looking harder. Others say they started to distrust their own judgment. Some stopped making plans, because the plans never seemed to survive the facts they were handed.",
    "response_options": {
     "soft_clarification": "Ask for the missing options by name: 'Could we write down every way this could go, including the ones you think are unlikely, before we settle on one?'",
     "firm_boundary": "Keep the decision open: 'I'm not ready to treat that as the only option. I'd like to look into one or two others myself before I answer.'",
     "disengagement": "Without announcing anything, keep a private note of which options disappeared, when, and who said so, somewhere only you can reach. Weigh big decisions about housing or money quietly, with an advocate.",
     "support_seeking": "Describe the situation to someone outside it, or to an advocate, and ask them to list the options they see. If their list is longer than yours, that is useful information.",
-    "workplace_or_professional": "At work, ask in writing which alternatives were considered and who ruled them out. If the answer is vague, ask a union representative, HR or an ombudsperson's office (an independent complaints office) to look at it."
+    "workplace_or_professional": "At work, ask in writing which alternatives were considered and who ruled them out. If the answer is vague, ask a union representative, HR or an ombudsperson's office to look at it. An ombudsperson's office is an independent complaints office."
    },
    "boundary_script": "\"I'd like to see all the options laid out side by side, including the ones that look unlikely. Could we list what each one involves, and then I'll take it from there?\"",
    "safety_note": "The picture changes when the closed options involve money, housing, documents, medical care or contact with other people, and the person closing them is the one who controls those things. Watch for being told you could not manage elsewhere, or being unable to see accounts or papers. Speak with a domestic abuse advocate or legal aid service before changing anything, and plan any change privately.",
    "safety_sensitive": true,
    "misuse_warning": [
-    "Calling it whenever an option you liked becomes unavailable can turn landlords, budgets and bad luck into someone's strategy. Check first whether the limit is real and can be verified.",
-    "Telling someone who gave you honest, strongly worded advice that they restricted your choices can turn a plain disagreement into a charge."
+    "If you call it every time an option you liked becomes unavailable, landlords, budgets and bad luck start to look like someone's strategy. Check first whether the limit is real and can be verified.",
+    "If you tell someone who gave you honest, strongly worded advice that they restricted your choices, a plain disagreement can become a charge."
    ],
    "related_tactics": [
     "Ultimatums",
@@ -42811,7 +42811,7 @@
     "Emotion Control",
     "Ritualized Exhaustion"
    ],
-   "how_to_distinguish_from_related": "False Dilemma is a statement, usually spoken, that there are only two options when more exist, so it can be challenged on the spot. Choice restriction often has no statement at all; the other options are closed in practice or described out of reach. Ultimatums attach a threatened loss to a forced either-or, while no threat is needed here. Resource Sabotage removes what you need to succeed, then blames you for the result, while this removes the alternatives to one outcome.",
+   "how_to_distinguish_from_related": "False Dilemma is a statement, usually spoken, that there are only two options when more exist. You can challenge it on the spot. Choice restriction often has no statement at all. The other options are closed in practice or described as out of reach. Ultimatums attach a threatened loss to a forced either-or, while no threat is needed here. Resource Sabotage removes what you need to succeed, then blames you for the result. Choice restriction removes the alternatives to one outcome.",
    "detection_notes": "Not matched or scored by this tool. Pasted text cannot establish this concept — included in the Field Guide purely as a literacy reference.",
    "codex_maturity": "mature",
    "human_review_flags": [
@@ -42827,12 +42827,12 @@
    "branch": "reference",
    "category": "Pressure & Coercion",
    "detectability_note": "This tool cannot establish this from pasted text at all. It is included for literacy only, so you can learn to recognize the concept — not as something this tool detects, scores, or flags.",
-   "core_meaning": "Pouring on emotion so fast and so hard that the other person cannot think, and speed or intensity is mistaken for closeness.",
+   "core_meaning": "Pouring on emotion so fast and so hard that the other person cannot think, until speed and intensity get mistaken for closeness.",
    "aftermath_state": false,
    "forensic_only": false,
    "absorbs": [],
-   "short_definition": "Pouring on emotion so fast and so hard that the other person cannot think, and speed or intensity is mistaken for closeness.",
-   "expanded_definition": "Flooding is a state of being so emotionally overwhelmed that thinking narrows, and it can happen to anyone in a heated moment. As a tactic, it means keeping someone there on purpose or by habit: back-to-back declarations, crises and reconciliations, with no ordinary days in between. Strong feelings are not a tactic, and many real relationships are intense. The question is whether the intensity leaves you any quiet time in which to judge what is happening.",
+   "short_definition": "Pouring on emotion so fast and so hard that the other person cannot think, until speed and intensity get mistaken for closeness.",
+   "expanded_definition": "Flooding is being so emotionally overwhelmed that your thinking narrows, and it can happen to anyone in a heated moment. As a tactic, someone keeps you in that state on purpose or by habit. It looks like back-to-back declarations, crises and reconciliations, with no ordinary days in between. Strong feelings are not a tactic, and many real relationships are intense. The question is whether the intensity leaves you any quiet time to judge what is happening.",
    "plain_language_summary": "Things move through such big highs and lows, so quickly, that you never get a calm moment to think. The intensity can feel like love, but it also keeps you from seeing clearly.",
    "why_this_matters": "Sustained intensity leaves no quiet stretch in which to assess anything. Speed gets mistaken for depth, and there is no calm vantage point from which to notice what you are agreeing to.",
    "what_it_is": [
@@ -42867,7 +42867,7 @@
     "There are calm stretches, and the relationship is fine in them.",
     "Slowing down, when you ask, is accepted without punishment.",
     "The intensity matches something real going on in their life and eases when it passes.",
-    "Decisions are made on ordinary days and not only at emotional peaks.",
+    "Decisions get made on ordinary days as well as at emotional peaks.",
     "You feel energized and clear-headed in the relationship, and not drained."
    ],
    "innocent_or_ordinary_possibilities": [
@@ -42903,8 +42903,8 @@
     "You feel constant relief when a storm passes, and dread when it is quiet.",
     "The highs are what you stay for and the lows are what you apologize for."
    ],
-   "repair_check": "Repair in this case shows up as the pace itself changing: ordinary days appear, and a request to slow down is met with agreement and not a new crisis. A moving apology in the middle of another peak does not change the rhythm.",
-   "boundary_respect_check": "A quiet evening alone is a small test. Someone who respects the request lets it be quiet, even if disappointed. If the temperature rises the moment you ask for calm, or a fresh crisis lands at your door, the request itself is being met with more flooding.",
+   "repair_check": "Repair in this case shows up as the pace itself changing. Ordinary days appear, and a request to slow down is met with agreement and not a new crisis. A moving apology in the middle of another peak does not change the rhythm.",
+   "boundary_respect_check": "A quiet evening alone is a small test. Someone who respects the request lets it be quiet, even if disappointed. If things heat up the moment you ask for calm, or a fresh crisis lands at your door, your request is being met with more flooding.",
    "psychological_mechanism": "When feelings run very high, thinking tends to narrow and people lean on gut sense and the wish to end the discomfort. Strong highs followed by relief can be mistaken for deep bonding, and a sense of urgency can be read as proof of love. Without calm stretches, there may be few chances to compare what is said with what is done.",
    "possible_impact_on_receiver": "Whirlwind relationships are often remembered as exhausting and thrilling in the same breath. Some report poor sleep, lost touch with friends and a fog about what they actually wanted. Some say they only saw the pace once they had a quiet month for the first time.",
    "response_options": {
@@ -42912,7 +42912,7 @@
     "firm_boundary": "Defer big decisions: 'I don't make decisions like this in the middle of a hard night. We can talk about it on Saturday.'",
     "disengagement": "When the intensity peaks, say you need to sleep on it and leave the conversation until morning.",
     "support_seeking": "Tell a friend you trust about the last month, day by day, and ask whether the pace looks right from the outside.",
-    "workplace_or_professional": "If a manager or client sets a constant crisis tone, ask for requests in writing and respond within a set window, not in the moment."
+    "workplace_or_professional": "If a manager or client keeps setting a crisis tone, ask for requests in writing. Respond within a set window, not in the moment."
    },
    "boundary_script": "\"I do care, and I'm too tired to think clearly tonight. I'm going to sleep, and we can talk through this properly tomorrow afternoon.\"",
    "safety_note": "Intensity alone is not an emergency. Pay attention if the whirlwind comes with threats of self-harm if you step back, or pressure to move in or hand over money. Cutting off your friends, or any physical fear, matters too. Then reach out to a trusted person, and consider a domestic violence advocate or a crisis line, depending on what you are facing.",
@@ -42929,7 +42929,7 @@
     "Response-Time Policing",
     "Interrogation"
    ],
-   "how_to_distinguish_from_related": "Urgency Manufacturing is about time: a deadline you are given. Flooding is about feeling: a pace of emotion that leaves no space. An Ultimatum is a single hard choice with a penalty attached, while flooding is a sustained atmosphere with no clear demand. Interrogation demands justification from you, and flooding mostly offers you emotion to respond to.",
+   "how_to_distinguish_from_related": "Urgency Manufacturing is about time: a deadline you are given. Flooding is about feeling: a pace of emotion that leaves no space. An Ultimatum is a single hard choice with a penalty attached. Flooding is a sustained atmosphere with no clear demand. Interrogation demands justification from you, and flooding mostly offers you emotion to respond to.",
    "detection_notes": "Not matched or scored by this tool. Pasted text cannot establish this concept — included in the Field Guide purely as a literacy reference.",
    "codex_maturity": "mature",
    "human_review_flags": [
@@ -42950,13 +42950,13 @@
    "absorbs": [],
    "short_definition": "Burying someone in more information, steps or demands than they can take in, so they cannot judge a decision clearly.",
    "expanded_definition": "Everyone can only hold so much in mind at once. Past that point, people skim, guess, or agree just to be done. Cognitive overload as a tactic means a decision arrives wrapped in a flood of detail, jargon, paperwork or competing demands, often with a deadline. Complicated things are often truly complicated, so the amount alone proves nothing. What matters is whether the volume is needed, and what happens when you ask for less.",
-   "plain_language_summary": "You are handed so much to read, learn or do at once that you cannot think straight, and saying yes becomes the quickest way out.",
-   "why_this_matters": "Agreement becomes the fastest way out of the overwhelm, so the decision that results was never really weighed, and you may find later that you consented to things you did not understand.",
+   "plain_language_summary": "You are handed so much to read, learn or do at once that you cannot think straight. Saying yes becomes the quickest way out.",
+   "why_this_matters": "Agreement becomes the fastest way out of the overwhelm, so the decision that results was never really weighed. You may find later that you agreed to things you did not understand.",
    "what_it_is": [
     "A heavy dose of detail, terms or tasks delivered right before a decision is needed.",
     "Pages of small print, a long list of changes, or many people asking for different things at once.",
     "Requests for time met with more material, and not with a pause.",
-    "Found in contracts, medical or insurance paperwork, workplace changes, and arguments where ten complaints arrive in one go."
+    "It is found in contracts, medical or insurance paperwork, workplace changes, and arguments where ten complaints arrive in one go."
    ],
    "what_it_sounds_like": [
     "A forty-page agreement handed over at the signing table with 'it's all standard, just initial here.'",
@@ -42967,7 +42967,7 @@
     "\"If you had read the terms, you would know this.\""
    ],
    "what_it_is_not": [
-    "A decision that is truly complex, such as a mortgage or a medical consent, which does need a lot of real information.",
+    "A decision that is truly complex, such as a mortgage or a medical consent. These do need a lot of real information.",
     "An anxious person who explains everything because they want to be thorough, with no wish to hurry you.",
     "A busy period at work when many real tasks pile up, with nobody designing it.",
     "Plain jargon from someone who forgot you are not an expert in their field.",
@@ -43022,20 +43022,20 @@
    ],
    "repair_check": "Ask for the one-page version and see what comes back. Repair looks like a real summary, an honest answer about the parts that matter most, and an extension if you need one. A longer document or a sigh does not count as a change.",
    "boundary_respect_check": "Say what you can manage: one question at a time, or the key terms on one page. Do they adapt? A person who respects the limit shortens the list. A person who does not will repeat the full load, or tell you everyone else coped.",
-   "psychological_mechanism": "Working memory is limited, and when it is full people tend to rely on shortcuts such as trusting whoever sounds confident or agreeing to finish. Stress and time pressure can reduce capacity further. Choosing the easiest path out may seem like a free choice in the moment, though it may be a response to overload.",
+   "psychological_mechanism": "Working memory is limited. When it is full, we often rely on shortcuts, such as trusting whoever sounds confident or agreeing just to finish. Stress and time pressure can shrink capacity further. Choosing the easiest path out may look like a free choice in the moment, though it may be a response to overload.",
    "possible_impact_on_receiver": "A fog, a sense of shutting down, and a signature given with vague unease are common accounts. Some feel ashamed that they did not understand, and so did not ask. Afterwards, some go through the documents and find terms they did not know they had accepted.",
    "response_options": {
     "soft_clarification": "Ask for a narrower version: 'This is a lot. Can you give me the three points that matter most, and I will read the rest tonight?'",
     "firm_boundary": "Refuse to decide in the pile: 'I am not going to sign something I have not read. I will take it home and give you an answer on Thursday.'",
     "disengagement": "Stop the meeting or call when you reach your limit: 'I have taken in all I can for today. Let's pick this up tomorrow.'",
-    "support_seeking": "Have someone with no stake in the outcome read the documents with you, such as a legal aid clinic, a patient advocate or a trusted friend who reads closely.",
+    "support_seeking": "Have someone with no stake in the outcome read the documents with you. That could be a legal aid clinic, a patient advocate or a trusted friend who reads closely.",
     "workplace_or_professional": "Ask for a written summary of changes and priorities, and confirm back in writing which items you will do first and which will wait."
    },
    "boundary_script": "\"I want to understand this properly before I decide. Please send me the key terms on one page, and I will respond by Thursday afternoon.\"",
-   "safety_note": "Being overloaded is not itself a danger. It matters more where the decision touches your housing, income, health care or legal position, such as a lease, a benefits form or a settlement. For those, take time and ask a legal aid office, advocate or counselor to read it first. Never sign under pressure of time you cannot verify.",
+   "safety_note": "Being overloaded is not itself a danger. It matters more when a decision touches your housing, income, health care or legal position. A lease, a benefits form or a settlement are examples. For those, take time and ask a legal aid office, advocate or counselor to read it first. Never sign under pressure of time you cannot verify.",
    "safety_sensitive": false,
    "misuse_warning": [
-    "Calling a genuinely complicated process 'overload' can lead you to distrust the people who are trying to explain it.",
+    "If you call a genuinely complicated process 'overload', you may start to distrust the people who are trying to explain it.",
     "Using the label on a nervous over-explainer can punish someone who was trying to be careful."
    ],
    "related_tactics": [
@@ -43046,7 +43046,7 @@
     "Response-Time Policing",
     "Interrogation"
    ],
-   "how_to_distinguish_from_related": "Urgency Manufacturing shortens the clock; overload fills the time with so much material that the clock hardly matters. Interrogation demands answers from you, while overload pours material onto you. A False Dilemma shrinks your options to two, whereas overload buries them under detail so you cannot see how many options exist.",
+   "how_to_distinguish_from_related": "Urgency Manufacturing shortens the clock. Overload fills the time with so much material that the clock hardly matters. Interrogation demands answers from you, while overload pours material onto you. A False Dilemma shrinks your options to two. Overload buries them under detail, so you cannot see how many options exist.",
    "detection_notes": "Not matched or scored by this tool. Pasted text cannot establish this concept — included in the Field Guide purely as a literacy reference.",
    "codex_maturity": "mature",
    "human_review_flags": [
@@ -43061,11 +43061,11 @@
    "branch": "reference",
    "category": "Pressure & Coercion",
    "detectability_note": "This tool cannot establish this from pasted text at all. It is included for literacy only, so you can learn to recognize the concept — not as something this tool detects, scores, or flags.",
-   "core_meaning": "Advertising or promising an appealing deal, then swapping in a worse one after the person is committed or has given something up.",
+   "core_meaning": "Promising or advertising an appealing deal, then swapping in a worse one after the person has committed or given something up.",
    "aftermath_state": false,
    "forensic_only": false,
    "absorbs": [],
-   "short_definition": "Advertising or promising an appealing deal, then swapping in a worse one after the person is committed or has given something up.",
+   "short_definition": "Promising or advertising an appealing deal, then swapping in a worse one after the person has committed or given something up.",
    "expanded_definition": "The bait is the attractive offer: a low price, a job title, a promised role, a shared plan. The switch comes once you have said yes, moved, paid a deposit or turned down alternatives, and the terms turn out to be different. Plans and prices change honestly, and an apology with a real fix is a different matter. It is a pattern when the better terms were never available, or the change always favors the person who made it.",
    "plain_language_summary": "You are drawn in by one offer, and after you commit, you are handed a worse one. By then, walking away costs more than going along.",
    "why_this_matters": "By the time the terms change, you have often given something up: a deposit, another offer, a move, a plan. Walking away costs more than accepting, and that cost is what makes a worse deal acceptable.",
@@ -43137,15 +43137,15 @@
     "You are always the one adjusting to a new version of the deal.",
     "You stop believing the first version of anything they say, and still feel unable to leave."
    ],
-   "repair_check": "Honest correction means the original terms are acknowledged, and you are offered a remedy that puts you back where you were, such as refund, release or the original deal. A new explanation that leaves you with the worse terms is not a fix, even when it comes with a warm apology.",
+   "repair_check": "Honest correction means the original terms are acknowledged. You are offered a remedy that puts you back where you were, such as a refund, a release or the original deal. A new explanation that leaves you with the worse terms is not a fix, even when it comes with a warm apology.",
    "boundary_respect_check": "State the terms as you remember them and ask for a written confirmation. Does the person confirm, or argue about what was said? One who respects the limit puts it in writing and lets you decide.",
    "psychological_mechanism": "Once people have invested money, effort or hope, they tend to feel pulled to stay with the choice and to explain away discrepancies. A good first offer also anchors expectations, so the swapped version can seem like a small loss and not a different deal. Giving up other options makes walking away feel more costly.",
    "possible_impact_on_receiver": "Feeling foolish, cornered and unsure whether you misheard is a common account. Some are left out of pocket, or stuck in a job or home that is not what they chose. Some say the hardest part was that nothing could be proven, because the first offer had only been spoken.",
    "response_options": {
     "soft_clarification": "Restate it plainly: 'What I understood at the start was this price and this role. Has something changed that I should know about?'",
     "firm_boundary": "Insist on the original: 'I agreed to the first terms. I am not able to accept the new ones.'",
-    "disengagement": "Stop adding to what you have already put in, such as more deposit, more time or more work, until the terms are confirmed in writing.",
-    "support_seeking": "Show the original offer and the new one to someone neutral, such as a consumer advice office, a tenants' group or a friend who reads contracts.",
+    "disengagement": "Stop adding to what you have already put in, such as more deposit, more time or more work. Wait until the terms are confirmed in writing.",
+    "support_seeking": "Show the original offer and the new one to someone neutral. That could be a consumer advice office, a tenants' group or a friend who reads contracts.",
     "workplace_or_professional": "Ask for the role, pay and duties in a signed letter before you start, and keep the original offer message. If terms shift, raise it in writing with HR."
    },
    "boundary_script": "\"That is different from what we agreed at the start. I would like the original terms confirmed in writing today. If that cannot be done, I would like my deposit returned.\"",
@@ -43163,7 +43163,7 @@
     "Response-Time Policing",
     "Interrogation"
    ],
-   "how_to_distinguish_from_related": "Sunk Cost Exploitation uses what you have already invested to keep you in; the switch is the change in terms that triggers that pull. A False Dilemma gives you two options at the time of choosing, while here the choice was made on one set of terms and then changed. An Ultimatum attaches a penalty to a demand, whereas the switch simply alters what you agreed to.",
+   "how_to_distinguish_from_related": "Sunk Cost Exploitation uses what you have already invested to keep you in. The switch is the change in terms that triggers that pull. A False Dilemma gives you two options at the time of choosing. Here the choice was made on one set of terms and then changed. An Ultimatum attaches a penalty to a demand, whereas the switch simply alters what you agreed to.",
    "detection_notes": "Not matched or scored by this tool. Pasted text cannot establish this concept — included in the Field Guide purely as a literacy reference.",
    "codex_maturity": "mature",
    "human_review_flags": [
@@ -43178,17 +43178,17 @@
    "branch": "reference",
    "category": "Pressure & Coercion",
    "detectability_note": "This tool cannot establish this from pasted text at all. It is included for literacy only, so you can learn to recognize the concept — not as something this tool detects, scores, or flags.",
-   "core_meaning": "Shutting yourself down before anyone else can, by not applying, speaking or trying, because past experience taught you that being seen gets punished.",
+   "core_meaning": "You hold yourself back before anyone else can, by not applying, speaking or trying, because past experience taught you that being seen gets punished.",
    "aftermath_state": false,
    "forensic_only": false,
    "absorbs": [],
-   "short_definition": "Shutting yourself down before anyone else can, by not applying, speaking or trying, because past experience taught you that being seen gets punished.",
-   "expanded_definition": "This is something a person does to themselves, so there may be no second party in the moment. After being mocked, shamed or hurt for standing out, a person can learn to remove the chance of being seen: skipping the application, staying silent in the meeting, never sending the draft. The punishment is imagined and delivered in advance. Caution is not the same thing. It becomes a pattern when it follows you into places where nothing like that has happened.",
+   "short_definition": "You hold yourself back before anyone else can, by not applying, speaking or trying, because past experience taught you that being seen gets punished.",
+   "expanded_definition": "This is something a person does to themselves, so there may be no one else involved in the moment. After being mocked, shamed or hurt for standing out, a person can learn to remove the chance of being seen. Examples are skipping the application, staying silent in the meeting, or never sending the draft. The punishment is imagined and delivered in advance. Caution is not the same thing. It becomes a pattern when it follows you into places where nothing like that has happened.",
    "plain_language_summary": "You turn yourself down before anyone else gets the chance. You do not apply, speak or try, because it once felt dangerous to be noticed, and not trying feels safer.",
-   "why_this_matters": "Opportunities close before anyone else has the chance to refuse them. The cost, which includes jobs not applied for and things not said, stays invisible because nothing happened, and your life can narrow without anyone noticing.",
+   "why_this_matters": "Opportunities close before anyone else has the chance to refuse them. The cost stays invisible because nothing happened. That cost includes jobs not applied for and things not said. Your life can narrow without anyone noticing.",
    "what_it_is": [
     "Declining to try, apply, ask or speak based on a punishment you expect, not one that has happened.",
-    "A learned reflex: at some point, visibility was followed by ridicule, anger or loss, so staying small became a way to stay safe.",
+    "A learned reflex. At some point, being visible was followed by ridicule, anger or loss, so staying small became a way to stay safe.",
     "It can attach to success as well as failure, so that both feel unsafe.",
     "Self-directed: the inner critic does the work that a critical person once did."
    ],
@@ -43263,10 +43263,10 @@
     "firm_boundary": "Set a very small test: send one email or speak once this week, and write down what actually happened afterwards.",
     "disengagement": "When the inner critic starts its case, step away from the decision for a day and come back with a calmer eye.",
     "support_seeking": "Tell a trusted person or a counselor about the old experience. Talking about when it began can loosen its hold.",
-    "workplace_or_professional": "Pick one low-stakes place to be visible, such as a short comment in a meeting, and ask a trusted colleague for plain feedback afterwards."
+    "workplace_or_professional": "Pick one low-stakes place to be visible, such as a short comment in a meeting. Afterwards, ask a trusted colleague for plain feedback."
    },
    "boundary_script": "\"I notice I am talking myself out of this before anyone has said a word. That is an old habit, not today's facts. I am going to send the application and see what really happens.\"",
-   "safety_note": "Holding yourself back is a painful pattern but not by itself a danger. It deserves more care if it comes with hopelessness, thoughts of self-harm, or if you still live or work where being visible really is punished. In that case, talk to a counselor, a doctor or a crisis line, and think about what makes your present situation safe.",
+   "safety_note": "Holding yourself back is a painful pattern but not by itself a danger. It deserves more care if it comes with hopelessness or thoughts of self-harm, or if you still live or work where being visible really is punished. In that case, talk to a counselor, a doctor or a crisis line, and think about what makes your present situation safe.",
    "safety_sensitive": false,
    "misuse_warning": [
     "Naming someone else's hesitation as 'pre-punishment' can dismiss a reasonable decision they made for sound reasons.",
@@ -43280,7 +43280,7 @@
     "Response-Time Policing",
     "Interrogation"
    ],
-   "how_to_distinguish_from_related": "Ultimatums, False Dilemma and Interrogation all come from another person who presses on you. Pre-Punishment has no one pressing in the moment: the pressure is a remembered one, now carried inside. Sunk Cost Exploitation keeps you in something because of what you have already put in; pre-punishment keeps you out of things because of a punishment you expect.",
+   "how_to_distinguish_from_related": "Ultimatums, False Dilemma and Interrogation all come from another person who presses on you. Pre-Punishment has no one pressing in the moment. The pressure is a remembered one, now carried inside. Sunk Cost Exploitation keeps you in something because of what you have already put in. Pre-punishment keeps you out of things because of a punishment you expect.",
    "detection_notes": "Not matched or scored by this tool. Pasted text cannot establish this concept — included in the Field Guide purely as a literacy reference.",
    "codex_maturity": "mature",
    "human_review_flags": [
@@ -43301,7 +43301,7 @@
    "forensic_only": false,
    "absorbs": [],
    "short_definition": "Saying something the speaker knows to be untrue so that another person will believe it and act on it.",
-   "expanded_definition": "A lie is a statement the speaker knows is false, offered so that the listener will believe it. The key is what the speaker knew, which an outsider usually cannot see at the time. A wrong statement is not a lie, and a lie need not be large: it can be an invented reason for being late or a false claim about money. Kind white lies are common and differ from lies that steer someone's decisions. Checkable claims that keep failing, and accounts that change only once evidence appears, point toward lying.",
+   "expanded_definition": "A lie is a statement the speaker knows is false, offered so that the listener will believe it. The key is what the speaker knew, which an outsider usually cannot see at the time. A wrong statement is not a lie. A lie need not be large. It can be an invented reason for being late or a false claim about money. Kind white lies are common and differ from lies that steer someone's decisions. Checkable claims that keep failing, and accounts that change only once evidence appears, point toward lying.",
    "plain_language_summary": "Someone tells you something they know is not true, and you make choices based on it.",
    "why_this_matters": "You decide things with false information, and finding out costs more than one belief. It makes you doubt everything else that person has told you, including the parts that were true.",
    "what_it_is": [
@@ -43320,7 +43320,7 @@
     "That's the first I'm hearing of it."
    ],
    "what_it_is_not": [
-    "An honest mistake stated sincerely. A rounded or simplified figure that is not technically precise may carry no deception at all, and someone who corrects their account because they later remembered better is doing the right thing.",
+    "An honest mistake stated sincerely. A rounded or simplified figure that is not technically precise may carry no deception at all. Someone who corrects their account because they later remembered better is doing the right thing.",
     "A prediction or opinion that turned out wrong, such as 'it'll be fine'.",
     "A refusal to share, such as 'I can't discuss that', which declines to answer and states nothing false.",
     "A cover story for a surprise party that everyone laughs about afterwards.",
@@ -43381,16 +43381,16 @@
    "possible_impact_on_receiver": "A sharp jolt on discovery comes first, then going back through past conversations to sort true from false. Believing is an ordinary default, yet many feel foolish for having done it. Others turn into checkers, and some find the relationship, or the institution, harder to rely on afterwards even when the lie was small.",
    "response_options": {
     "soft_clarification": "Lead with the fact rather than the accusation: 'The bank record shows the payment on the 14th. Help me understand what happened.'",
-    "firm_boundary": "Say that on money and safety matters you need claims you can back up: 'On this kind of thing, I need to see the record, not just hear it.'",
+    "firm_boundary": "Say that on money and safety matters you need claims that can be checked. For example: 'On this kind of thing, I need to see the record, not just hear it.'",
     "disengagement": "Where the stakes are high, stop acting on this person's unverified claims. Decide using what you can check yourself, and let the rest wait.",
-    "support_seeking": "Check your reading with someone neutral who can look at the documents, so you are not relying on memory alone or on the other person's version.",
+    "support_seeking": "Check your reading with someone neutral who can look at the documents. That way you are not relying on memory alone or on the other person's version.",
     "workplace_or_professional": "At work, ask for important statements in writing and keep the record. If a false statement affected a decision, take the documents to a supervisor or HR rather than arguing the point out loud."
    },
    "boundary_script": "\"Being able to rely on what you tell me matters to me. When it's about money or plans, I'll ask to see the confirmation. That isn't an accusation, it's how I'm going to make decisions from now on.\"",
    "safety_note": "Lying becomes safety-relevant when the false claims concern where someone is, or what has been done with your money or documents. It also does when asking about the truth is met with anger or threats. Keep copies of records you can verify, and if questions bring fear, speak to an advocate or lawyer before raising it again.",
    "safety_sensitive": false,
    "misuse_warning": [
-    "Calling someone a liar when they may have been mistaken or remember differently closes the conversation and treats a guess about what they knew as fact.",
+    "Calling someone a liar when they may have been mistaken or remember differently closes the conversation. It also treats a guess about what they knew as fact.",
     "Treating one inaccurate statement as proof that everything else the person says is false."
    ],
    "related_tactics": [
@@ -43400,7 +43400,7 @@
     "Lying by Omission",
     "Strategic Incompleteness"
    ],
-   "how_to_distinguish_from_related": "Lying by Omission says nothing false but leaves out the piece that would change your decision; a lie puts a false statement on the table. Fabricated Evidence adds a manufactured document or screenshot to back the claim, so there is a physical thing to examine. Exaggeration begins with something true and stretches it. A lie stands alone as a flat statement the speaker knows is untrue.",
+   "how_to_distinguish_from_related": "Lying by Omission says nothing false but leaves out the piece that would change your decision. A lie puts a false statement on the table. Fabricated Evidence adds a manufactured document or screenshot to back the claim, so there is a physical thing to examine. Exaggeration begins with something true and stretches it. A lie stands alone as a flat statement the speaker knows is untrue.",
    "detection_notes": "Not matched or scored by this tool. Pasted text cannot establish this concept — included in the Field Guide purely as a literacy reference.",
    "codex_maturity": "mature",
    "human_review_flags": [
@@ -43415,24 +43415,24 @@
    "branch": "reference",
    "category": "Deception",
    "detectability_note": "This tool cannot establish this from pasted text at all. It is included for literacy only, so you can learn to recognize the concept — not as something this tool detects, scores, or flags.",
-   "core_meaning": "Leaving out information the other person needs for an accurate understanding, while everything that is said stays technically true.",
+   "core_meaning": "Leaving out information the other person needs for an accurate picture, while everything that is said stays technically true.",
    "aftermath_state": false,
    "forensic_only": false,
    "absorbs": [
     "Gaslighting by Omission",
     "Selective Information Sharing"
    ],
-   "short_definition": "Leaving out information the other person needs for an accurate understanding, while everything that is said stays technically true.",
+   "short_definition": "Leaving out information the other person needs for an accurate picture, while everything that is said stays technically true.",
    "expanded_definition": "Lying by omission is a true account with the important piece missing. What is said holds up; the gap is where the false picture forms. Gaslighting by omission and selective information sharing are other ways of naming it. Sometimes the missing piece is a single fact, sometimes it is a steady filtering of which facts one person gets. One forgotten detail means little. It becomes a pattern when the missing pieces are the ones that would have changed your decision, and they keep being missing.",
    "plain_language_summary": "You are told true things, but not the one fact that would have changed what you decided. You find out later, from someone else or by accident, that it was known all along.",
-   "why_this_matters": "Nothing said was false, so there is no untruth to point at, only a conclusion you reached on grounds you did not know were incomplete. The missing piece usually appears too late to change what you chose, and you may blame yourself for not asking.",
+   "why_this_matters": "Nothing said was false, so there is no untruth to point at. There is only a conclusion you reached on grounds you did not know were incomplete. The missing piece usually appears too late to change what you chose. You may blame yourself for not asking.",
    "what_it_is": [
     "An account that is accurate in every sentence, with the one piece that would change its meaning absent.",
     "Can be a single missing fact, such as a debt or a diagnosis, or an ongoing filter on which facts reach you.",
     "Often found by chance, from a letter, a third person or a record, not from the person who knew.",
-    "Sometimes the information was mentioned in a way that buried it, such as a passing remark in an unrelated conversation that later counts as 'I told you.'",
+    "Sometimes the information was mentioned in a way that buried it. An example is a passing remark in an unrelated conversation that later counts as 'I told you.'",
     "Matters most where the listener is deciding something, such as signing, buying, moving, lending or trusting.",
-    "The line between privacy and concealment is whether the other person is relying on the incomplete picture to decide."
+    "What separates privacy from concealment is whether the other person is relying on the incomplete picture to make a decision."
    ],
    "what_it_sounds_like": [
     "'I never said that wasn't true.'",
@@ -43445,10 +43445,10 @@
    ],
    "what_it_is_not": [
     "Not thinking to mention something that did not seem relevant at the time is ordinary.",
-    "Plenty of information is legitimately nobody else's business, such as a friend's confidence or a person's private medical history.",
-    "A gap held briefly, with a plan to close it once the timing is right, such as waiting for test results before telling the family. That is a delay, not a concealment.",
+    "Plenty of information is nobody else's business. A friend's confidence and a person's private medical history are two examples.",
+    "A gap held briefly, with a plan to close it when the timing is right. One example is waiting for test results before telling the family. That is a delay, not a concealment.",
     "Context can be missing because the speaker never had it, which is a gap and not a filter.",
-    "Sharing what you know as you learn it, across several conversations, differs from choosing in advance which facts another person gets.",
+    "Sharing what you know as you learn it, over several conversations, is different from choosing in advance which facts another person gets.",
     "A short summary that drops detail for length and would readily expand if asked."
    ],
    "this_may_be_it_when": [
@@ -43500,22 +43500,22 @@
     "Your picture of events keeps getting corrected by later discoveries.",
     "You cross-check what they say against other sources, and feel uneasy doing it."
    ],
-   "repair_check": "Mending it means the person hands over the whole picture, including what they knew and when, without being asked twice, and then volunteers things before they are discovered. A version that supplies the missing fact but blames you for not asking leaves the habit in place.",
+   "repair_check": "Mending it means the person hands over the whole picture, including what they knew and when, without being asked twice. They then volunteer things before they are discovered. A version that supplies the missing fact but blames you for not asking leaves the habit in place.",
    "boundary_respect_check": "Tell them in plain terms what you need to know in order to decide, then watch the next few weeks. Do the facts that matter reach you first, or do you still hear them from other people? The gap between what is promised and what arrives is your answer.",
-   "psychological_mechanism": "People build decisions on what they believe is the whole story, and trust that a person would speak up if something important were missing. A gap in the account is invisible from the inside, so the listener fills it with the most ordinary assumption. When the omission is found, being told that nothing false was said can lead a person to doubt their own judgment or their memory of what they were told.",
-   "possible_impact_on_receiver": "On finding out, some feel foolish and then betrayed, even though no lie can be quoted. They may go over old conversations looking for what they missed, hesitate to trust good news, or start asking so many questions that they feel like an interrogator. Some doubt their memory of what they were told.",
+   "psychological_mechanism": "We build decisions on what we believe is the whole story. We trust that a person would speak up if something important were missing. A gap in the account is invisible from the inside, so the listener fills it with the most ordinary assumption. Once the omission is found, being told that nothing false was said can lead a person to doubt their own judgment or their memory of what they were told.",
+   "possible_impact_on_receiver": "Some feel foolish and then betrayed when they find out, even though no lie can be quoted. They may go over old conversations looking for what they missed. They may hesitate to trust good news, or ask so many questions that they sound like an interrogator. Some doubt their memory of what they were told.",
    "response_options": {
     "soft_clarification": "Ask the open question in a neutral voice: 'Is there anything about this that I'd want to know before I decide?' It makes it easy to add the missing piece without anyone feeling accused.",
     "firm_boundary": "Say what you need in order to trust the account: 'If something affects my decision, I need to hear it from you before I find it out myself.'",
     "disengagement": "Do not decide anything large on this person's account alone. Get the key facts from the document, the records or a third person, and hold off until you have them.",
-    "support_seeking": "Describe what you were told and what you later found to someone not involved, and ask whether the missing piece would have changed their decision. It helps separate fair upset from self-blame.",
+    "support_seeking": "Describe what you were told, and what you later found, to someone not involved. Ask whether the missing piece would have changed their decision. This helps separate fair upset from self-blame.",
     "workplace_or_professional": "Ask for decisions, terms and changes in writing, and include the line 'Is there anything else that affects this?' in the message. Keep the reply as a record of what you were told and when."
    },
    "boundary_script": "\"I'm not saying anything you told me was false. What I found out later changes how I see it, and I would have decided differently. From here, I need to hear anything that affects me from you, first and plainly.\"",
    "safety_note": "Usually this is a trust problem and not a danger. That changes if the hidden matter is a debt in your name, a health risk such as an infection, or a legal case. It also changes if it concerns where children or money are, or if asking is met with anger. Then get documents and records from the source and talk to a lawyer, doctor or financial counselor before acting on the person's account.",
    "safety_sensitive": false,
    "misuse_warning": [
-    "Treating every unmentioned detail as a lie turns privacy and forgetfulness into charges. The label needs a gap that mattered to a decision and that the other person knew about.",
+    "If every unmentioned detail counts as a lie, privacy and forgetfulness become charges. The label fits only when the gap mattered to a decision and the other person knew about it.",
     "People are entitled to keep some things to themselves. 'You didn't tell me' is not always a complaint the other person owes an answer to."
    ],
    "related_tactics": [
@@ -43528,7 +43528,7 @@
     "Countering",
     "Minimization"
    ],
-   "how_to_distinguish_from_related": "Lying states something false, while omission states only true things. Strategic Incompleteness gives you just enough to act on and keeps you coming back for the rest, so the gap is ongoing and builds dependence; here the gap is a hidden piece in an otherwise finished account. Countering flatly contradicts your version of events, whereas omission contradicts nothing and leaves your picture incomplete.",
+   "how_to_distinguish_from_related": "Lying states something false, while omission states only true things. Strategic Incompleteness gives you just enough to act on and keeps you coming back for the rest. The gap is ongoing and builds dependence. Here the gap is a hidden piece in an otherwise finished account. Countering flatly contradicts your version of events, whereas omission contradicts nothing and leaves your picture incomplete.",
    "detection_notes": "Not matched or scored by this tool. Pasted text cannot establish this concept — included in the Field Guide purely as a literacy reference.",
    "codex_maturity": "mature",
    "human_review_flags": [
@@ -43543,13 +43543,13 @@
    "branch": "reference",
    "category": "Deception",
    "detectability_note": "This tool cannot establish this from pasted text at all. It is included for literacy only, so you can learn to recognize the concept — not as something this tool detects, scores, or flags.",
-   "core_meaning": "Giving someone enough information to take the next step but never enough to see the whole picture, so they keep coming back for more.",
+   "core_meaning": "Someone gives you enough information for the next step but never enough to see the whole picture, so you keep coming back for more.",
    "aftermath_state": false,
    "forensic_only": false,
    "absorbs": [],
-   "short_definition": "Giving someone enough information to take the next step but never enough to see the whole picture, so they keep coming back for more.",
-   "expanded_definition": "Information arrives in installments. Each one is enough to act on, and none gives the whole plan, the full cost or the real timeline, so the person has to return to the same source for the next piece. Nothing false need be said, and plenty of honest situations work this way, such as a new job or a medical treatment explained in stages. Concern rises when asking for the full picture is answered with reassurance, and the person never becomes able to act alone.",
-   "plain_language_summary": "You get the next instruction but never the whole plan, and every time you ask for the big picture you are told not to worry.",
+   "short_definition": "Someone gives you enough information for the next step but never enough to see the whole picture, so you keep coming back for more.",
+   "expanded_definition": "Information arrives in installments. Each one is enough to act on, and none gives the whole plan, the full cost or the real timeline. The person has to return to the same source for the next piece. Nothing false need be said. Plenty of honest situations work this way, such as a new job or a medical treatment explained in stages. Concern rises when asking for the full picture is answered with reassurance, and the person never becomes able to act alone.",
+   "plain_language_summary": "You get the next instruction but never the whole plan. Every time you ask for the big picture, you are told not to worry.",
    "why_this_matters": "You can act, but you can't act well, so every step sends you back to the same source, and independence never arrives.",
    "what_it_is": [
     "Information released in pieces sized to the next step, never the whole route.",
@@ -43567,7 +43567,7 @@
     "We'll cross that bridge when we come to it."
    ],
    "what_it_is_not": [
-    "Genuinely complex things are often explained in stages because that is the only comprehensible order. Someone who does not yet have the full picture can only pass on what they have, and need-to-know structures exist for reasons unconnected to any one person.",
+    "Genuinely complex things are often explained in stages because that is the only order that makes sense. Someone who does not yet have the full picture can only pass on what they have. Need-to-know structures exist for reasons unconnected to any one person.",
     "A mentor who holds back advanced material until the basics are learned, and says so.",
     "A project whose later phases genuinely have not been decided yet.",
     "A surprise being planned, where the holder of the plan is open about keeping it.",
@@ -43622,10 +43622,10 @@
     "Each new step commits you further, or costs more, than the one before.",
     "Alternatives drop out because only the source knows enough to advise."
    ],
-   "repair_check": "A complete outline handed over without being chased is the sign: what the whole arrangement involves, what remains unknown, and what you can now do without asking. A promise to be more open while the next piece still arrives alone is a repeat.",
+   "repair_check": "The sign is a complete outline handed over without being chased. It covers what the whole arrangement involves, what remains unknown, and what you can now do without asking. A promise to be more open while the next piece still arrives alone is a repeat.",
    "boundary_respect_check": "Ask for the full outline in writing and see whether you receive something you could take to another person for a second opinion. A document you can show others suggests the request was heard. Talk about how complicated it all is, offered instead of the document, suggests it was not.",
    "psychological_mechanism": "Small pieces make each next step look like a modest commitment, and effort already spent makes stopping harder. Without the whole, risk is hard to judge, alternatives are hard to compare, and growth in the total goes unnoticed. Needing to return for the next piece can also make the source feel indispensable.",
-   "possible_impact_on_receiver": "The usual report is feeling busy but not oriented: unable to explain to a friend what you are involved in, and discovering late that the total cost or demand was larger than any step suggested. Some feel they should have asked sooner; others notice they asked often and were soothed.",
+   "possible_impact_on_receiver": "The usual report is feeling busy but not oriented. You cannot explain to a friend what you are involved in. You find out late that the total cost or demand was larger than any step suggested. Some feel they should have asked sooner. Others notice they asked often and were soothed.",
    "response_options": {
     "soft_clarification": "Ask for the overall outline in one go: 'Could you give me the whole plan, even roughly, with the costs and the end date? I'd like to see it before I do the next piece.'",
     "firm_boundary": "Make the next step depend on the picture: 'I'll carry on once I have the full terms in writing. Until then I'm holding where I am.'",
@@ -43634,10 +43634,10 @@
     "workplace_or_professional": "At work, ask for the scope, deadlines and decision-makers for your project in writing, and for who holds the parts you lack. Send a manager your own summary to confirm."
    },
    "boundary_script": "\"Before I take the next step, I need to see the whole thing laid out: what it involves, what it costs and when it ends. I'm happy to wait while you put it together, and I may ask someone else to look it over with me.\"",
-   "safety_note": "Staged information is mostly a risk to your money and time. It becomes more serious when whoever holds the missing pieces also controls your housing, immigration papers, wages or accounts, since then you cannot easily verify or step back. Copy the documents you have and get independent advice, such as legal aid or a workers' rights center, before committing further.",
+   "safety_note": "Staged information is mostly a risk to your money and time. It becomes more serious when whoever holds the missing pieces also controls your housing, immigration papers, wages or accounts. Then you cannot easily verify or step back. Copy the documents you have and get independent advice, such as legal aid or a workers' rights center, before committing further.",
    "safety_sensitive": false,
    "misuse_warning": [
-    "Calling any staged explanation manipulation can make teachers, doctors and new managers look sinister when they are simply sequencing hard material.",
+    "Calling any staged explanation manipulation can make teachers, doctors and new managers look sinister when they are only putting hard material in order.",
     "Demanding everything at once from someone who honestly does not have it yet."
    ],
    "related_tactics": [
@@ -43647,7 +43647,7 @@
     "Lying",
     "Lying by Omission"
    ],
-   "how_to_distinguish_from_related": "Lying by Omission keeps back one fact that would change a single decision; here information keeps coming, always in pieces, and the repeated need to return defines it. Vague Allegations leaves out detail so nothing can be checked, while here each piece is concrete and usable and only the whole is missing. Lying states a falsehood, which this pattern may never involve.",
+   "how_to_distinguish_from_related": "Lying by Omission keeps back one fact that would change a single decision. Here information keeps coming, always in pieces, and the repeated need to return defines it. Vague Allegations leaves out detail so nothing can be checked. Here each piece is concrete and usable, and only the whole is missing. Lying states a falsehood, which this pattern may never involve.",
    "detection_notes": "Not matched or scored by this tool. Pasted text cannot establish this concept — included in the Field Guide purely as a literacy reference.",
    "codex_maturity": "mature",
    "human_review_flags": [
@@ -43662,14 +43662,14 @@
    "branch": "reference",
    "category": "Deception",
    "detectability_note": "This tool cannot establish this from pasted text at all. It is included for literacy only, so you can learn to recognize the concept — not as something this tool detects, scores, or flags.",
-   "core_meaning": "Building a relationship, usually online, behind a made-up identity such as borrowed photos or an invented life story, so the other person bonds with someone who does not exist.",
+   "core_meaning": "Building an online relationship behind a made-up identity, such as borrowed photos or an invented life story, so the other person bonds with someone who does not exist.",
    "aftermath_state": false,
    "forensic_only": false,
    "absorbs": [],
-   "short_definition": "Building a relationship, usually online, behind a made-up identity such as borrowed photos or an invented life story, so the other person bonds with someone who does not exist.",
-   "expanded_definition": "Catfishing is forming a close online connection under a false identity: another person's photos, an invented job, a made-up age or location. Because the person is met through messages and pictures, the missing step is verification, and each new excuse for avoiding live video or a meeting pushes it further away. People use false profiles for many reasons, including loneliness and play, and also for money or images. From the receiving end you usually cannot tell which until you can check. Shifting basic facts and live contact that never happens are what mark it.",
-   "plain_language_summary": "You grow close to someone online who turns out not to be who they said, so the feelings were real but the person was not.",
-   "why_this_matters": "Everything built on the connection rests on ground that was never there, so what is lost on discovery includes the relationship's entire history, not merely its ending.",
+   "short_definition": "Building an online relationship behind a made-up identity, such as borrowed photos or an invented life story, so the other person bonds with someone who does not exist.",
+   "expanded_definition": "Catfishing is forming a close online connection under a false identity, such as another person's photos, an invented job, or a made-up age or location. Because the person is met through messages and pictures, the missing step is verification. Each new excuse for avoiding live video or a meeting pushes it further away. People use false profiles for many reasons, including loneliness and play, and also for money or images. From the receiving end you usually cannot tell which until you can check. Shifting basic facts and live contact that never happens are what mark it.",
+   "plain_language_summary": "You grow close to someone online who turns out not to be who they said. The feelings were real, but the person was not.",
+   "why_this_matters": "Everything built on the connection rests on ground that was never there. On discovery, you lose the relationship's entire history and not merely its ending.",
    "what_it_is": [
     "A profile built from someone else's photos or from a fictional person's details: name, job, location, family.",
     "Usually lives in messaging apps, dating apps, games and social platforms, where a face is not required.",
@@ -43691,7 +43691,7 @@
     "Outdated photos and flattering presentation fall short of accurate without being wholesale invention.",
     "Reluctance about video calls or meeting in person is frequently social anxiety.",
     "A username or pseudonym used for privacy, with the real name shared as trust grows.",
-    "A person with safety or health reasons, such as someone hiding their location from a former partner, who wants control over what they show.",
+    "A person with safety or health reasons who wants control over what they show. One example is someone hiding their location from a former partner.",
     "Role-play in a game or fiction community where everyone knows the characters are invented."
    ],
    "this_may_be_it_when": [
@@ -43743,22 +43743,22 @@
     "Requests grow from small, a favor or a gift card, to larger.",
     "Details you were told need quiet patching whenever they conflict."
    ],
-   "repair_check": "If the person is open about the false identity, they volunteer the true name and situation without being questioned, and leave you to decide what to do with it. Further explanations that require you to send money or keep quiet are not that.",
+   "repair_check": "If the person is open about the false identity, they volunteer the true name and situation without being questioned. They leave you to decide what to do with it. Further explanations that require you to send money or keep quiet are not that.",
    "boundary_respect_check": "Think about what happens when you say you would like a live video call before going further. Someone who is who they say usually finds a way, even if nervous. A new reason, a guilt-laden message or a deadline in reply is information too.",
-   "psychological_mechanism": "Messaging lets you fill a blank with your hopes. Warm attention, constant contact and early self-disclosure build closeness fast, and shared secrets seem like proof of trust. When the only evidence is a profile, the mind supplies the rest, and each small excuse is easy to accept because the feelings are already real to you.",
-   "possible_impact_on_receiver": "People describe grief that other people don't recognize, because the person they were attached to never existed in that form. Many feel embarrassed or foolish, though closeness with someone online is ordinary. Some describe money lost, trust in later dating damaged, and replaying messages to find what they missed.",
+   "psychological_mechanism": "Messaging lets you fill a blank with your hopes. Warm attention, constant contact and early self-disclosure build closeness fast, and shared secrets look like proof of trust. When the only evidence is a profile, the mind supplies the rest. Each small excuse is easy to accept because the feelings are already real to you.",
+   "possible_impact_on_receiver": "Many grieve in a way other people don't recognize, because the person they were attached to never existed in that form. Many feel embarrassed or foolish, though closeness with someone online is ordinary. Some lose money, find their trust in later dating damaged, or replay messages to find what they missed.",
    "response_options": {
     "soft_clarification": "Ask for a live check as a normal next step: 'I'd love to see you on video this week. What day works?' Notice whether a time is found.",
     "firm_boundary": "State your limit on money and images once, in plain words: 'I don't send money or private photos to anyone I haven't met in person.' Then hold to it, whatever the reply.",
     "disengagement": "Stop replying and send nothing further. Save the messages and profile links first, then report the account to the platform.",
     "support_seeking": "Tell a friend or family member what happened, even if it feels embarrassing, and show them the messages. If money or images were sent, contact your bank and a fraud-reporting or victim-support service promptly.",
-    "workplace_or_professional": "If a profile approached you through a professional network, report it to the platform and to your workplace's security or IT team, with screenshots and links."
+    "workplace_or_professional": "If a profile approached you through a professional network, report it to the platform. Also tell your workplace's security or IT team, and include screenshots and links."
    },
    "boundary_script": "\"I've enjoyed talking. Before we go further, I want us to have a live video call. I also don't send money or private photos to anyone I haven't met properly, so that isn't something I'll be doing.\"",
-   "safety_note": "A fake profile is mostly a fraud and trust problem. Concern rises with requests for money, gift cards, crypto or intimate images, pressure to keep the relationship secret, or threats to share what you have sent. Send nothing more. Keep screenshots, profile links and payment records, report the account to the platform, and contact your bank. If images were shared or threats made, a victim-support service or the police can advise on takedown options.",
+   "safety_note": "A fake profile is mostly a fraud and trust problem. Concern rises with requests for money, gift cards, crypto or intimate images. It also rises with pressure to keep the relationship secret, or threats to share what you have sent. Send nothing more. Keep screenshots, profile links and payment records, report the account to the platform, and contact your bank. If images were shared or threats made, a victim-support service or the police can advise on takedown options.",
    "safety_sensitive": false,
    "misuse_warning": [
-    "Treating every shy or private online contact as a fake identity can hurt people who are cautious for good reasons.",
+    "If you treat every shy or private online contact as a fake identity, you can hurt people who are cautious for good reasons.",
     "Publicly accusing a real person of catfishing without checking can expose a private individual to harassment."
    ],
    "related_tactics": [
@@ -43768,7 +43768,7 @@
     "Lying",
     "Lying by Omission"
    ],
-   "how_to_distinguish_from_related": "Lying is one false statement that can sit inside an otherwise real relationship; catfishing replaces the whole person the relationship is with. Exaggeration inflates real qualities such as height or income, while a fabricated identity can't be fixed by toning it down. Fabricated Evidence manufactures documents or screenshots to prove a claim; a catfish profile may contain staged photos, but what defines it is that the person at the other end is not who they say.",
+   "how_to_distinguish_from_related": "Lying is one false statement that can sit inside an otherwise real relationship. Catfishing replaces the whole person the relationship is with. Exaggeration inflates real qualities such as height or income, while a fabricated identity can't be fixed by toning it down. Fabricated Evidence manufactures documents or screenshots to prove a claim. A catfish profile may contain staged photos, but what defines it is that the person at the other end is not who they say.",
    "detection_notes": "Not matched or scored by this tool. Pasted text cannot establish this concept — included in the Field Guide purely as a literacy reference.",
    "codex_maturity": "mature",
    "human_review_flags": [

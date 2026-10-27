@@ -296,18 +296,18 @@
     "how_to_distinguish_from_related": "Lying states something false; half-truth framing states nothing false and works through selection and order. Lying by Omission is a gap, a fact left out of an otherwise complete account, whereas here the stated facts are fitted together to point at a conclusion. Frame Control sets what the conversation is about, while a half-truth can sit inside any frame, as long as the facts told lead somewhere the whole would not."
   },
   "Lying by Omission": {
-    "short_definition": "Leaving out information the other person needs for an accurate understanding, while everything that is said stays technically true.",
-    "core_meaning": "Leaving out information the other person needs for an accurate understanding, while everything that is said stays technically true.",
+    "short_definition": "Leaving out information the other person needs for an accurate picture, while everything that is said stays technically true.",
+    "core_meaning": "Leaving out information the other person needs for an accurate picture, while everything that is said stays technically true.",
     "expanded_definition": "Lying by omission is a true account with the important piece missing. What is said holds up; the gap is where the false picture forms. Gaslighting by omission and selective information sharing are other ways of naming it. Sometimes the missing piece is a single fact, sometimes it is a steady filtering of which facts one person gets. One forgotten detail means little. It becomes a pattern when the missing pieces are the ones that would have changed your decision, and they keep being missing.",
     "plain_language_summary": "You are told true things, but not the one fact that would have changed what you decided. You find out later, from someone else or by accident, that it was known all along.",
-    "why_this_matters": "Nothing said was false, so there is no untruth to point at, only a conclusion you reached on grounds you did not know were incomplete. The missing piece usually appears too late to change what you chose, and you may blame yourself for not asking.",
+    "why_this_matters": "Nothing said was false, so there is no untruth to point at. There is only a conclusion you reached on grounds you did not know were incomplete. The missing piece usually appears too late to change what you chose. You may blame yourself for not asking.",
     "what_it_is": [
       "An account that is accurate in every sentence, with the one piece that would change its meaning absent.",
       "Can be a single missing fact, such as a debt or a diagnosis, or an ongoing filter on which facts reach you.",
       "Often found by chance, from a letter, a third person or a record, not from the person who knew.",
-      "Sometimes the information was mentioned in a way that buried it, such as a passing remark in an unrelated conversation that later counts as 'I told you.'",
+      "Sometimes the information was mentioned in a way that buried it. An example is a passing remark in an unrelated conversation that later counts as 'I told you.'",
       "Matters most where the listener is deciding something, such as signing, buying, moving, lending or trusting.",
-      "The line between privacy and concealment is whether the other person is relying on the incomplete picture to decide."
+      "What separates privacy from concealment is whether the other person is relying on the incomplete picture to make a decision."
     ],
     "what_it_sounds_like": [
       "'I never said that wasn't true.'",
@@ -320,10 +320,10 @@
     ],
     "what_it_is_not": [
       "Not thinking to mention something that did not seem relevant at the time is ordinary.",
-      "Plenty of information is legitimately nobody else's business, such as a friend's confidence or a person's private medical history.",
-      "A gap held briefly, with a plan to close it once the timing is right, such as waiting for test results before telling the family. That is a delay, not a concealment.",
+      "Plenty of information is nobody else's business. A friend's confidence and a person's private medical history are two examples.",
+      "A gap held briefly, with a plan to close it when the timing is right. One example is waiting for test results before telling the family. That is a delay, not a concealment.",
       "Context can be missing because the speaker never had it, which is a gap and not a filter.",
-      "Sharing what you know as you learn it, across several conversations, differs from choosing in advance which facts another person gets.",
+      "Sharing what you know as you learn it, over several conversations, is different from choosing in advance which facts another person gets.",
       "A short summary that drops detail for length and would readily expand if asked."
     ],
     "this_may_be_it_when": [
@@ -375,24 +375,24 @@
       "Your picture of events keeps getting corrected by later discoveries.",
       "You cross-check what they say against other sources, and feel uneasy doing it."
     ],
-    "repair_check": "Mending it means the person hands over the whole picture, including what they knew and when, without being asked twice, and then volunteers things before they are discovered. A version that supplies the missing fact but blames you for not asking leaves the habit in place.",
+    "repair_check": "Mending it means the person hands over the whole picture, including what they knew and when, without being asked twice. They then volunteer things before they are discovered. A version that supplies the missing fact but blames you for not asking leaves the habit in place.",
     "boundary_respect_check": "Tell them in plain terms what you need to know in order to decide, then watch the next few weeks. Do the facts that matter reach you first, or do you still hear them from other people? The gap between what is promised and what arrives is your answer.",
-    "psychological_mechanism": "People build decisions on what they believe is the whole story, and trust that a person would speak up if something important were missing. A gap in the account is invisible from the inside, so the listener fills it with the most ordinary assumption. When the omission is found, being told that nothing false was said can lead a person to doubt their own judgment or their memory of what they were told.",
-    "possible_impact_on_receiver": "On finding out, some feel foolish and then betrayed, even though no lie can be quoted. They may go over old conversations looking for what they missed, hesitate to trust good news, or start asking so many questions that they feel like an interrogator. Some doubt their memory of what they were told.",
+    "psychological_mechanism": "We build decisions on what we believe is the whole story. We trust that a person would speak up if something important were missing. A gap in the account is invisible from the inside, so the listener fills it with the most ordinary assumption. Once the omission is found, being told that nothing false was said can lead a person to doubt their own judgment or their memory of what they were told.",
+    "possible_impact_on_receiver": "Some feel foolish and then betrayed when they find out, even though no lie can be quoted. They may go over old conversations looking for what they missed. They may hesitate to trust good news, or ask so many questions that they sound like an interrogator. Some doubt their memory of what they were told.",
     "response_options": {
       "soft_clarification": "Ask the open question in a neutral voice: 'Is there anything about this that I'd want to know before I decide?' It makes it easy to add the missing piece without anyone feeling accused.",
       "firm_boundary": "Say what you need in order to trust the account: 'If something affects my decision, I need to hear it from you before I find it out myself.'",
       "disengagement": "Do not decide anything large on this person's account alone. Get the key facts from the document, the records or a third person, and hold off until you have them.",
-      "support_seeking": "Describe what you were told and what you later found to someone not involved, and ask whether the missing piece would have changed their decision. It helps separate fair upset from self-blame.",
+      "support_seeking": "Describe what you were told, and what you later found, to someone not involved. Ask whether the missing piece would have changed their decision. This helps separate fair upset from self-blame.",
       "workplace_or_professional": "Ask for decisions, terms and changes in writing, and include the line 'Is there anything else that affects this?' in the message. Keep the reply as a record of what you were told and when."
     },
     "boundary_script": "\"I'm not saying anything you told me was false. What I found out later changes how I see it, and I would have decided differently. From here, I need to hear anything that affects me from you, first and plainly.\"",
     "safety_sensitive": false,
     "safety_note": "Usually this is a trust problem and not a danger. That changes if the hidden matter is a debt in your name, a health risk such as an infection, or a legal case. It also changes if it concerns where children or money are, or if asking is met with anger. Then get documents and records from the source and talk to a lawyer, doctor or financial counselor before acting on the person's account.",
     "misuse_warning": [
-      "Treating every unmentioned detail as a lie turns privacy and forgetfulness into charges. The label needs a gap that mattered to a decision and that the other person knew about.",
+      "If every unmentioned detail counts as a lie, privacy and forgetfulness become charges. The label fits only when the gap mattered to a decision and the other person knew about it.",
       "People are entitled to keep some things to themselves. 'You didn't tell me' is not always a complaint the other person owes an answer to."
     ],
-    "how_to_distinguish_from_related": "Lying states something false, while omission states only true things. Strategic Incompleteness gives you just enough to act on and keeps you coming back for the rest, so the gap is ongoing and builds dependence; here the gap is a hidden piece in an otherwise finished account. Countering flatly contradicts your version of events, whereas omission contradicts nothing and leaves your picture incomplete."
+    "how_to_distinguish_from_related": "Lying states something false, while omission states only true things. Strategic Incompleteness gives you just enough to act on and keeps you coming back for the rest. The gap is ongoing and builds dependence. Here the gap is a hidden piece in an otherwise finished account. Countering flatly contradicts your version of events, whereas omission contradicts nothing and leaves your picture incomplete."
   }
 }

@@ -1,16 +1,16 @@
 {
   "Choice Restriction": {
-    "short_definition": "Closing off or hiding realistic alternatives one by one, so that a single outcome ends up looking like the only sensible choice.",
-    "core_meaning": "Closing off or hiding realistic alternatives one by one, so that a single outcome ends up looking like the only sensible choice.",
+    "short_definition": "Someone closes off or hides your realistic options one by one, until a single outcome looks like the only sensible choice.",
+    "core_meaning": "Someone closes off or hides your realistic options one by one, until a single outcome looks like the only sensible choice.",
     "expanded_definition": "Choice restriction narrows what you can realistically do, through money, access, information or the way options are described, until one outcome is left standing. When the focus is on how the menu of options was laid out, it is called choice architecture manipulation. No demand is ever made, so there is nothing to refuse. One short list of options means little. The pattern is that the list keeps shrinking in the same direction.",
-    "plain_language_summary": "Your options get closed off or made to look unworkable one at a time, until the choice someone else would prefer is the only one that seems left.",
-    "why_this_matters": "No demand is made, so there is nothing to push back on. By the time you notice, you may have agreed to something you never really picked, with no single moment to point to when you ask how you got here.",
+    "plain_language_summary": "Your options get closed off or made to look unworkable, one at a time. In the end, the choice someone else would prefer is the only one left.",
+    "why_this_matters": "No demand is made, so there is nothing to push back on. By the time you notice, you may have agreed to something you never really picked. When you ask how you got here, there is no single moment to point to.",
     "what_it_is": [
-      "Alternatives removed in practice: an account closed, a ride not offered, a form never handed over, a deadline you were not told about.",
-      "Alternatives made to sound unworkable by the way they are described, so one choice sounds sensible and the rest sound foolish or costly.",
+      "Alternatives removed in practice, such as an account closed, a ride not offered, a form never handed over, or a deadline you were not told about.",
+      "Alternatives made to sound unworkable by how they are described. One choice sounds sensible, and the rest sound foolish or costly.",
       "The preferred option made easiest, as the default, the one already filled in, scheduled or paid for.",
       "Information held back or sorted so you cannot compare, such as quotes you never see.",
-      "Found in households, workplaces, sales settings, families and care arrangements, wherever one person handles the money, paperwork, schedule or information."
+      "It is found in households, workplaces, sales settings, families and care arrangements. It happens wherever one person handles the money, paperwork, schedule or information."
     ],
     "what_it_sounds_like": [
       "You don't really have a choice here.",
@@ -23,7 +23,7 @@
       "Looking back, every path I was offered ended in the same place."
     ],
     "what_it_is_not": [
-      "Options are often truly limited by outside constraints nobody arranged, such as a tight budget, a small town or a full calendar.",
+      "Options are often truly limited by outside constraints that nobody arranged, such as a tight budget, a small town or a full calendar.",
       "Honest advice about which of several real options is best, with the others left available to you.",
       "A sensible default set for practical reasons, like a standard meeting time you can change.",
       "A person who only knows a few options, shares them, and welcomes the others when you find them.",
@@ -32,7 +32,7 @@
     ],
     "this_may_be_it_when": [
       "Each time you name another possibility there is a reason it will not work, and the reasons all point the same way.",
-      "The person describing the options also controls the money, paperwork, schedule or information you would need to check them.",
+      "The person describing your options also controls what you would need to check them. That includes the money, paperwork, schedule or information.",
       "Options you would normally consider have disappeared without any conversation about removing them.",
       "Looking into an alternative on your own is met with irritation, or you find it was more open than you were told.",
       "The outcome that is left happens to suit the person doing the narrowing."
@@ -68,7 +68,7 @@
     ],
     "more_concerning_if": [
       "The person narrowing your options also controls your money, housing, documents or contact with other people.",
-      "Looking for alternatives is discouraged, or you are told the people who might offer them cannot be trusted.",
+      "Looking for alternatives is discouraged. Or you are told the people who might offer them cannot be trusted.",
       "Choosing a different option brings a loss, such as support being withdrawn or a long punishing silence."
     ],
     "pattern_over_time_signs": [
@@ -77,37 +77,37 @@
       "Decisions that used to be yours, such as where to live, work or spend, are now described as obvious.",
       "You struggle to name one thing you chose that went against what the other person wanted."
     ],
-    "repair_check": "Repair here is practical: the closed doors reopen. The missing options get named, information you were not given is shared openly, and a choice that goes against their preference is accepted without a penalty. A warm apology while the same short menu stays in place changes little.",
+    "repair_check": "Repair here is practical: the closed doors reopen. The missing options get named. Information you were not given is shared openly. A choice that goes against their preference is accepted without a penalty. A warm apology while the same short menu stays in place changes little.",
     "boundary_respect_check": "Watch what happens to the second option once you ask about it. Does it get a fair description with its real costs, or one more reason it will not work? And if you choose it, does your ordinary day stay as it was?",
-    "psychological_mechanism": "We usually choose from what is in front of us and seldom go looking for what is missing. When alternatives are removed or described as costly, the remaining option may read as your own conclusion, because no one ever asked you for anything. Objecting afterwards is hard, since you can recall agreeing but not choosing.",
-    "possible_impact_on_receiver": "Many report a puzzled sense of having said yes to something they never wanted, and trouble explaining how it happened. Some feel foolish for not looking harder. Others say they started to distrust their own judgment, or stopped making plans because the plans never seemed to survive the facts they were handed.",
+    "psychological_mechanism": "We usually choose from what is in front of us and seldom go looking for what is missing. When alternatives are removed or described as costly, the remaining option may look like your own conclusion. No one ever asked you for anything. Objecting afterwards is hard, because you can recall agreeing but not choosing.",
+    "possible_impact_on_receiver": "Many report a puzzled sense of having said yes to something they never wanted. They have trouble explaining how it happened. Some feel foolish for not looking harder. Others say they started to distrust their own judgment. Some stopped making plans, because the plans never seemed to survive the facts they were handed.",
     "response_options": {
       "soft_clarification": "Ask for the missing options by name: 'Could we write down every way this could go, including the ones you think are unlikely, before we settle on one?'",
       "firm_boundary": "Keep the decision open: 'I'm not ready to treat that as the only option. I'd like to look into one or two others myself before I answer.'",
       "disengagement": "Without announcing anything, keep a private note of which options disappeared, when, and who said so, somewhere only you can reach. Weigh big decisions about housing or money quietly, with an advocate.",
       "support_seeking": "Describe the situation to someone outside it, or to an advocate, and ask them to list the options they see. If their list is longer than yours, that is useful information.",
-      "workplace_or_professional": "At work, ask in writing which alternatives were considered and who ruled them out. If the answer is vague, ask a union representative, HR or an ombudsperson's office (an independent complaints office) to look at it."
+      "workplace_or_professional": "At work, ask in writing which alternatives were considered and who ruled them out. If the answer is vague, ask a union representative, HR or an ombudsperson's office to look at it. An ombudsperson's office is an independent complaints office."
     },
     "boundary_script": "\"I'd like to see all the options laid out side by side, including the ones that look unlikely. Could we list what each one involves, and then I'll take it from there?\"",
     "safety_sensitive": true,
     "safety_note": "The picture changes when the closed options involve money, housing, documents, medical care or contact with other people, and the person closing them is the one who controls those things. Watch for being told you could not manage elsewhere, or being unable to see accounts or papers. Speak with a domestic abuse advocate or legal aid service before changing anything, and plan any change privately.",
     "misuse_warning": [
-      "Calling it whenever an option you liked becomes unavailable can turn landlords, budgets and bad luck into someone's strategy. Check first whether the limit is real and can be verified.",
-      "Telling someone who gave you honest, strongly worded advice that they restricted your choices can turn a plain disagreement into a charge."
+      "If you call it every time an option you liked becomes unavailable, landlords, budgets and bad luck start to look like someone's strategy. Check first whether the limit is real and can be verified.",
+      "If you tell someone who gave you honest, strongly worded advice that they restricted your choices, a plain disagreement can become a charge."
     ],
-    "how_to_distinguish_from_related": "False Dilemma is a statement, usually spoken, that there are only two options when more exist, so it can be challenged on the spot. Choice restriction often has no statement at all; the other options are closed in practice or described out of reach. Ultimatums attach a threatened loss to a forced either-or, while no threat is needed here. Resource Sabotage removes what you need to succeed, then blames you for the result, while this removes the alternatives to one outcome."
+    "how_to_distinguish_from_related": "False Dilemma is a statement, usually spoken, that there are only two options when more exist. You can challenge it on the spot. Choice restriction often has no statement at all. The other options are closed in practice or described as out of reach. Ultimatums attach a threatened loss to a forced either-or, while no threat is needed here. Resource Sabotage removes what you need to succeed, then blames you for the result. Choice restriction removes the alternatives to one outcome."
   },
   "Foot-in-the-Door": {
     "short_definition": "Winning a small yes first, then using it to secure a larger one, so each agreement makes the next harder to refuse.",
     "core_meaning": "Winning a small yes first, then using it to secure a larger one, so each agreement makes the next harder to refuse.",
     "expanded_definition": "Foot-in-the-door begins with something easy to agree to, then follows with something bigger that leans on the first yes. It can be one jump or a ladder of many small steps. People also call it graduated compliance, for the small steps, or a commitment trap, for the obligation piled up by the end. One favor followed by a bigger one means little, since requests grow in ordinary friendships. The pattern is that the earlier yes is cited as the reason for the next.",
     "plain_language_summary": "You agree to something small. Then a bigger ask arrives, and your first yes is used as a reason you should not say no to this one.",
-    "why_this_matters": "The larger request is judged against what you already agreed to, not on its own terms. You can end up carrying an obligation you never chose at any single moment, and refusing starts to feel like going back on your word.",
+    "why_this_matters": "The larger request is judged against what you already agreed to, not on its own terms. You may end up carrying an obligation you never chose at any one moment. Refusing starts to feel like going back on your word.",
     "what_it_is": [
       "A small, easy request that gets a yes, followed by a larger request on the same theme.",
       "Either a single jump (a quick favor, then a big one) or a ladder of many steps, each barely bigger than the last.",
       "Draws on the common habit of staying consistent with what we have already said and done.",
-      "Appears in sales, fundraising, volunteering, workplaces and close relationships, for example a free sample followed by a plea to buy.",
+      "It shows up in sales, fundraising, volunteering, workplaces and close relationships. One example is a free sample followed by a plea to buy.",
       "Leaves a final obligation that nobody named at the start and that you never agreed to as a whole."
     ],
     "what_it_sounds_like": [
@@ -120,7 +120,7 @@
       "A free gift is handed over, and the request for a donation that follows mentions the gift."
     ],
     "what_it_is_not": [
-      "Small favors that grow into larger ones naturally and mutually, with real consent at each stage, are how most relationships work.",
+      "Small favors often grow into larger ones. When that happens naturally, with both people agreeing and real consent at each stage, it is how most relationships work.",
       "Someone who asks for something small, gets it, and only later finds they need something bigger, with no sequence in mind.",
       "A large request that stands on its own merits whatever came before it.",
       "A trial whose price and cancellation terms were shown clearly before you began.",
@@ -174,25 +174,25 @@
       "You start refusing small things early, to avoid where they might lead.",
       "Reminders of what you already did come up whenever you hesitate."
     ],
-    "repair_check": "Repair means the whole size of the ask is said out loud, and you get a real chance to start again from where you want to stand. Being thanked for earlier help while the extra load stays exactly where it was is appreciation, not repair.",
+    "repair_check": "Repair means the whole size of the ask is said out loud. You also get a real chance to start again from where you want to stand. Being thanked for earlier help while the extra load stays exactly where it was is appreciation, not repair.",
     "boundary_respect_check": "Notice whether your earlier yes is thanked or tallied. When a boundary is respected, the first favor stays a gift. When it is not, the favor turns into a debt that gets raised each time you hesitate.",
-    "psychological_mechanism": "Most of us like to act in line with what we have said and done before, and a first yes can make a later request seem a continuation of who we are. Small steps keep the cost of each yes low, so no single step prompts a pause. The total shows itself only when you compare the start with where you stand now.",
+    "psychological_mechanism": "Most of us like to act in line with what we have said and done before. A first yes can make a later request look like a natural part of who we are. Small steps keep the cost of each yes low, so no single step makes you pause. You only see the total when you compare the start with where you stand now.",
     "possible_impact_on_receiver": "A creeping sense of being stuck in something never signed up for is common, along with a hard time saying when it began. Some feel embarrassed at having said yes so often. Others begin refusing small, harmless requests early to avoid where they might lead, which can strain ordinary generosity.",
     "response_options": {
       "soft_clarification": "Ask for the whole picture: 'Before I say yes to this part, what else would come next? I'd like to know the full size of it.'",
       "firm_boundary": "Separate the steps: 'I agreed to the first part. This is a new request, and I'm deciding it on its own.'",
       "disengagement": "Finish the part you agreed to, and decline to start the next stage until it is written down.",
       "support_seeking": "Tell a friend the whole sequence in order and ask whether they would have agreed to the last step if it had come first.",
-      "workplace_or_professional": "At work, ask for new duties to be added to your role description or confirmed by email, with any change in pay or hours, before you take them on."
+      "workplace_or_professional": "At work, ask for any new duties to be added to your role description or confirmed by email before you take them on. Ask about any change in pay or hours too."
     },
     "boundary_script": "\"I was glad to do the first part, and I'm treating this as a new request. Can you tell me what the whole thing involves? I'll decide about this part once I can see that.\"",
     "safety_sensitive": false,
-    "safety_note": "By itself this is a pressure pattern, not a danger sign. It changes when the steps start to involve money, signing legal papers, sexual activity or secrecy, or when stopping brings threats. Before agreeing to anything with legal or financial weight, show the papers to someone outside the situation, such as a legal aid service or a trusted adviser.",
+    "safety_note": "On its own, this is a pressure pattern, not a danger sign. It changes when the steps start to involve money, signing legal papers, sexual activity or secrecy. It also changes when stopping brings threats. Before agreeing to anything with legal or financial weight, show the papers to someone outside the situation, such as a legal aid service or a trusted adviser.",
     "misuse_warning": [
       "A follow-up request after a favor is not automatically a trap. Applying the label to ordinary friends can make it hard to ask for or give help at all.",
       "Naming a sequence tells you what happened, not what anyone planned. Treating it as proof of a plan turns a description into an accusation."
     ],
-    "how_to_distinguish_from_related": "Sunk Cost Exploitation points at what you have already invested to stop you from leaving; foot-in-the-door points at a past yes to win a new yes. Ultimatums force an either-or under threat of loss, while here nothing is threatened and the first agreement carries the weight. Urgency Manufacturing squeezes the clock, whereas the lever in this tactic is your own earlier consent, however unhurried the asking."
+    "how_to_distinguish_from_related": "Sunk Cost Exploitation points at what you have already invested to stop you from leaving. Foot-in-the-door points at a past yes to win a new yes. Ultimatums force an either-or under threat of loss. Here nothing is threatened, and the first agreement carries the weight. Urgency Manufacturing squeezes the clock. The lever in this tactic is your own earlier consent, however unhurried the asking."
   },
   "Urgency Manufacturing": {
     "short_definition": "Pushing for a decision right now, often by inventing or inflating a deadline or emergency, so you have no time to think or ask anyone.",
