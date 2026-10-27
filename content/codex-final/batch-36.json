@@ -477,11 +477,11 @@
   "Silent Coalitions": {
     "short_definition": "A group leaving one person out through many small, deniable slights, so no single clear incident ever stands out.",
     "core_meaning": "A group leaving one person out through many small, deniable slights, so no single clear incident ever stands out.",
-    "expanded_definition": "A silent coalition is a group that sidelines one member through many small, deniable acts: plans made elsewhere, replies that arrive late, jokes that nobody explains. There is no announcement and often no explicit agreement, so the person has nothing concrete to name and may conclude the fault lies with them. Any one slight is ordinary. It starts to look like a coalition when the same person is left out consistently, across settings, while others in the group are not.",
-    "plain_language_summary": "A group keeps one person on the edge through lots of small, hard-to-prove moments, so the person starts to think the problem must be them.",
+    "expanded_definition": "A silent coalition is a group that sidelines one member through many small, deniable acts: plans made elsewhere, replies that arrive late, jokes that nobody explains. There is no announcement and often no explicit agreement. The person has nothing concrete to name and may conclude the fault lies with them. Any one slight is ordinary. It starts to look like a coalition when the same person is left out consistently, across settings, while others in the group are not.",
+    "plain_language_summary": "A group keeps one person on the edge through lots of small, hard-to-prove moments. The person starts to think the problem must be them.",
     "why_this_matters": "There is no incident to point at, only a consistent absence, which turns the search for an explanation inward. The person ends up blaming themselves for something nobody will admit to.",
     "what_it_is": [
-      "Consistent small exclusions from invitations, group chats, inside jokes and decisions, with no single moment that could be called unfair.",
+      "Small, steady exclusions from invitations, group chats, inside jokes and decisions, with no single moment that could be called unfair.",
       "Exclusion that can feel coordinated even when nobody planned it.",
       "Shared reactions across several people, such as the same polite silence when the person speaks.",
       "Denial when the person raises it, often with real surprise, because each individual feels they did nothing."
@@ -495,7 +495,7 @@
       "People who are friendly one-on-one are distant in a group."
     ],
     "what_it_is_not": [
-      "Social anxiety can produce the same feeling with nothing at all behind it, and some groups are simply less inclusive as a general dynamic rather than toward one individual.",
+      "Social anxiety can produce the same feeling with nothing at all behind it. Some groups are also simply less inclusive in general, not toward one individual.",
       "A low period colors ordinary social gaps and makes a pattern out of them.",
       "A tight friend group that has history together and is not hostile to new people, only slow to open up.",
       "A busy season in which everyone is slow to reply, including to each other.",
@@ -548,35 +548,35 @@
       "Where you once spoke freely in the group, you now rehearse everything.",
       "Friends outside the group notice that you seem smaller whenever it is mentioned."
     ],
-    "repair_check": "Something real has shifted when someone in the group notices the gap and says so aloud, includes you in the next plan and keeps doing it. A rush of warmth for a week followed by the old silence is not that. What counts is the next month of ordinary invitations.",
+    "repair_check": "Something real has shifted when someone in the group notices the gap and says so aloud. They include you in the next plan and keep doing it. A week of warmth followed by the old silence is not that. What counts is the next month of ordinary invitations.",
     "boundary_respect_check": "After you say 'I've felt left out', consider whether anyone asks what that has been like. Curiosity suggests that people take it seriously. If you hear 'you're overthinking' in several voices at once, that shared script is worth noticing, though it does not prove a plan.",
-    "psychological_mechanism": "People rely on a group's reactions to know where they stand. When exclusion arrives in small, deniable pieces, there is no single event to evaluate, so the mind may supply an explanation and tends to pick one about the self. Humans are also sensitive to being left out, and ambiguity can feel worse than a clear rejection.",
+    "psychological_mechanism": "People rely on a group's reactions to know where they stand. When exclusion arrives in small, deniable pieces, there is no single event to judge. The mind may supply an explanation, and it often picks one about the self. Humans are also sensitive to being left out, and not knowing can hurt more than a clear rejection.",
     "possible_impact_on_receiver": "People describe replaying conversations to look for the mistake, withdrawing from the group, and feeling embarrassed to say they feel left out. Some begin to avoid places where the group meets. Some feel a mix of relief and anger when they learn that others noticed too.",
     "response_options": {
       "soft_clarification": "Ask one person you trust in the group: 'I've felt a bit on the outside lately. Have you noticed anything, or am I reading too much into it?'",
       "firm_boundary": "State the experience without accusing anyone: 'I've noticed I'm often not included. I'd like to be told about plans, and I'll take it from there.'",
       "disengagement": "Spend your time where you are welcomed, and let the group's access to you reflect how it treats you, without announcing it.",
-      "support_seeking": "Describe a few specific examples to someone outside the group and ask whether they see what you see, and whether the story rings true to them.",
-      "workplace_or_professional": "At work, keep a dated list of meetings and decisions you were left out of, and ask your manager for clear communication about how projects are shared."
+      "support_seeking": "Describe a few specific examples to someone outside the group. Ask whether they see what you see, and whether the story rings true to them.",
+      "workplace_or_professional": "At work, keep a dated list of meetings and decisions you were left out of. Ask your manager for clear communication about how projects are shared."
     },
     "boundary_script": "\"I've noticed I'm often out of the loop on plans, and it's been weighing on me. I'm not blaming anyone. I'd just like to be included, and I'd welcome hearing if there is something I'm missing.\"",
     "safety_sensitive": false,
     "safety_note": "Group exclusion hurts, but it rarely creates physical danger. It changes if the group's silence follows you into your home, your job or online spaces. That can come through threats, rumors that could cost you work or housing, or sharing of private images. At that point, save evidence and speak to a trusted person, an employer's process or a local support service.",
     "misuse_warning": [
-      "Treating every unreturned message as a coalition can turn ordinary social drift into a story of persecution and push away people who are not hostile.",
+      "Treating every unreturned message as a coalition can turn ordinary social drift into a story of persecution. It can also push away people who are not hostile.",
       "Telling others that a group is conspiring against you, without evidence, can itself damage relationships that might have recovered."
     ],
-    "how_to_distinguish_from_related": "Triangulation is active and spoken, with third parties quoted against you, while a silent coalition is made of absences that nobody ever voices. Flying Monkeys act, pressing or checking on you for someone else, and the coalition simply withholds. A polite hostile environment punishes people for speaking up, whereas a silent coalition can sideline someone who has said nothing at all."
+    "how_to_distinguish_from_related": "Triangulation is active and spoken, with third parties quoted against you. A silent coalition is made of absences that nobody ever voices. Flying Monkeys act, pressing or checking on you for someone else, while the coalition simply withholds. A polite hostile environment punishes people for speaking up, whereas a silent coalition can sideline someone who has said nothing at all."
   },
   "Group Consolidation": {
     "short_definition": "Publicly punishing one person harshly enough that everyone watching learns what disagreement will cost them.",
     "core_meaning": "Publicly punishing one person harshly enough that everyone watching learns what disagreement will cost them.",
-    "expanded_definition": "Group consolidation uses one person as a lesson. Someone who pushed back, questioned a decision or broke an unwritten rule is reprimanded, mocked or removed in front of others, and the severity fits the warning better than the offense. The real audience is everyone else. Ordinary accountability can also be visible, and a serious breach may deserve a visible response. What gives it away is a penalty out of proportion, staged for onlookers and followed by a quieter group.",
-    "plain_language_summary": "One person is punished in front of everyone, and the punishment is bigger than what they did, so the rest of the group learns to keep their heads down.",
+    "expanded_definition": "Group consolidation uses one person as a lesson. Someone who pushed back, questioned a decision or broke an unwritten rule is reprimanded, mocked or removed in front of others. The severity fits the warning better than the offense. The real audience is everyone else. Ordinary accountability can also be visible, and a serious breach may deserve a visible response. What gives it away is a penalty out of proportion, staged for onlookers and followed by a quieter group.",
+    "plain_language_summary": "One person is punished in front of everyone, and the punishment is bigger than what they did. The rest of the group learns to keep their heads down.",
     "why_this_matters": "Everyone watching learns the price of dissent without being told, and the lesson outlasts the person it was demonstrated on.",
     "what_it_is": [
-      "A reprimand, demotion, removal or ridicule delivered where others can see it, in a way that is bigger than the matter calls for.",
-      "A penalty whose timing and setting seem chosen for the onlookers, such as at a meeting, in a group chat or at a family dinner.",
+      "A reprimand, demotion, removal or ridicule delivered where others can see it, and bigger than the matter calls for.",
+      "A penalty whose timing and setting look chosen for the onlookers, like a meeting, a group chat or a family dinner.",
       "An example made after someone questioned a leader or broke an unspoken norm, and not after a clear rule violation.",
       "A change in the group's behavior afterward: fewer questions, more careful words, more agreement."
     ],
@@ -589,10 +589,10 @@
       "A relative who disagreed at a family dinner is mocked in front of the table, and others laugh nervously."
     ],
     "what_it_is_not": [
-      "Proportionate accountability can be visible simply because of the setting, such as an open-plan office, a meeting or a family gathering.",
+      "Proportionate accountability can be visible just because of the setting, like an open-plan office, a meeting or a family gathering.",
       "A genuinely serious matter can warrant a visible response on its own merits.",
       "Consequences applied consistently and announced as policy are not calibrated to an audience.",
-      "A leader explaining why a rule was enforced so that others understand the standard, without humiliating the person.",
+      "A leader who explains why a rule was enforced, so others understand the standard, and does not humiliate the person.",
       "A group removing someone who harassed other members, where the removal protects people and is in proportion."
     ],
     "this_may_be_it_when": [
@@ -642,24 +642,24 @@
       "New members are told quietly about the one who 'didn't last'.",
       "Each time someone is made an example of, the next dissent appears later and softer."
     ],
-    "repair_check": "Repair looks like the group's leader acknowledging in public that the response went beyond what the matter warranted, and then allowing questions to be raised without penalty. A private apology to the person alone, while the audience continues to carry the lesson, leaves the main effect in place.",
+    "repair_check": "Repair looks like the group's leader saying in public that the response went further than the matter warranted. After that, people can raise questions without penalty. A private apology to the person alone, while the audience still carries the lesson, leaves the main effect in place.",
     "boundary_respect_check": "The next time someone raises a similar concern is the test. If it is heard and answered, the example has lost its force. If the room goes silent or looks to the leader first, the lesson is still active, whatever has been said about openness.",
-    "psychological_mechanism": "People often learn the rules of a group by watching what happens to others, and seeing someone punished can teach more than a written policy. Fear of being next can lead to self-censoring before any threat is made. Observers may also distance themselves from the person punished, which can deepen that person's isolation.",
+    "psychological_mechanism": "People often learn a group's rules by watching what happens to others. Seeing someone punished can teach more than a written policy. Fear of being next can lead to self-censoring before any threat is made. Observers may also distance themselves from the person punished, which can deepen that person's isolation.",
     "possible_impact_on_receiver": "People who were made an example of describe humiliation and isolation, and sometimes shame that lasts after the group has moved on. Onlookers describe guilt about staying silent, tension in meetings, and a habit of checking the leader's face before speaking. Some leave quietly, and some say they stopped believing they could raise problems.",
     "response_options": {
-      "soft_clarification": "Ask the leader privately what rule or standard applied: 'Can you help me understand what the expectation is, so I know how to handle it next time?'",
-      "firm_boundary": "State your own limit without confronting anyone in public: 'I will keep raising concerns through the proper channel, and I'd like a clear response when I do.'",
-      "disengagement": "Reduce your visibility in the room if you feel at risk, while you decide privately what to do, and avoid joining in the mockery of the person punished.",
+      "soft_clarification": "In private, ask the leader which rule or standard applied: 'Can you help me understand what the expectation is, so I know how to handle it next time?'",
+      "firm_boundary": "Say your own limit without confronting anyone in public: 'I will keep raising concerns through the proper channel, and I'd like a clear response when I do.'",
+      "disengagement": "If you feel at risk, make yourself less visible in the room while you decide privately what to do. Avoid joining in the mockery of the person punished.",
       "support_seeking": "Reach out quietly to the person who was singled out, and to someone outside the group, so that no one carries the lesson alone.",
-      "workplace_or_professional": "Write down what happened, when and who saw it, and bring it to HR, an ombudsperson's office (an independent complaints office), a union representative or an employment lawyer if the response affected someone's job."
+      "workplace_or_professional": "Write down what happened, when, and who saw it. If the response affected someone's job, bring it to HR, an ombudsperson's office (an independent complaints office), a union representative or an employment lawyer."
     },
     "boundary_script": "\"I think the issue deserved a conversation, but I don't think it needed to be handled in front of everyone. I'd like us to agree on how concerns are raised, so that people feel able to speak up.\"",
     "safety_sensitive": false,
     "safety_note": "Public punishment is a status and fairness issue in most cases. It becomes more serious if it is used to threaten livelihood, housing or standing in a close community. It also does if people are told to shun the person, or if it is combined with intimidation. Keep notes with dates and witnesses, and speak with an employment lawyer, a union or a trusted outside advisor early.",
     "misuse_warning": [
-      "Reading every public reprimand as an example being made can overlook cases where visible accountability was fair and proportionate.",
+      "If you read every public reprimand as an example being made, you can miss cases where visible accountability was fair and proportionate.",
       "Calling a leader's decision 'consolidation' without evidence about timing, proportion and audience can turn a disagreement into an accusation of motive."
     ],
-    "how_to_distinguish_from_related": "A polite hostile environment punishes quietly and deniably, while group consolidation depends on being seen. Silent Coalitions exclude without any announcement, and here the announcement is the point. Triangulation sets two people against each other with borrowed voices, but consolidation addresses the whole group through one person's example."
+    "how_to_distinguish_from_related": "A polite hostile environment punishes quietly and deniably, while group consolidation depends on being seen. Silent Coalitions exclude without any announcement, and here the announcement is the point. Triangulation sets two people against each other with borrowed voices. Consolidation speaks to the whole group through one person's example."
   }
 }

@@ -387,16 +387,16 @@
     "how_to_distinguish_from_related": "Setting Up to Fail hands you a task built to be lost. Here the task is sound and the road to it keeps getting blocked from outside. Impossible Metrics keeps the bar out of reach, while this leaves the bar fine and the timing bad. Intimidation puts a threat on the table. Sabotaging success arrives as ordinary bad timing, with nothing threatened."
   },
   "Scapegoating": {
-    "short_definition": "Placing blame for a shared, systemic or leadership failure on one individual, who then absorbs the consequences while the cause stays in place.",
-    "core_meaning": "Placing blame for a shared, systemic or leadership failure on one individual, who then absorbs the consequences while the cause stays in place.",
+    "short_definition": "Blame for a failure shared by many lands on one person, who pays the price while the real cause stays untouched.",
+    "core_meaning": "Blame for a failure shared by many lands on one person, who pays the price while the real cause stays untouched.",
     "expanded_definition": "Blame for a collective failure lands on one person, in a family, team, school, congregation or organization. That person may have played a small part, or none, yet they carry the consequences: a reprimand, dismissal, shunning, the shame. The conditions that caused the failure usually stay unchanged because the matter is now called solved. Real individual mistakes exist. The pattern lies in the mismatch between the blame and the person's actual authority and role.",
     "plain_language_summary": "When something goes wrong for a whole group, one person is named as the cause and punished, and the real problem stays untouched.",
-    "why_this_matters": "One person absorbs consequences out of proportion to a collective failure, and the conditions that produced it stay exactly as they were, because the matter has been declared solved. The person blamed can lose standing, income or belonging, while the same problem waits for the next name.",
+    "why_this_matters": "One person takes far more of the consequences than their share of a group failure. The conditions that caused it stay exactly as they were, because the matter is now called solved. The person blamed can lose standing, income or belonging, and the same problem waits for the next name.",
     "what_it_is": [
-      "One person made to carry blame for an outcome shaped by many: a leadership decision, a team culture, a family tension.",
+      "One person is made to carry blame for an outcome that many people shaped, such as a leadership decision, a team culture or a family tension.",
       "A blamed person who typically has less power or standing than those who made the decisions.",
       "A way of closing the matter: once someone is blamed or removed, the group can say the problem is dealt with.",
-      "Formal at times, as in a dismissal or a report naming one person, and informal at others, such as the relative blamed for every holiday argument or a member shunned by the group.",
+      "It can be formal, like a dismissal or a report naming one person. It can also be informal, like the relative blamed for every holiday argument or a member the group shuns.",
       "Often fast, with blame arriving before evidence has been gathered."
     ],
     "what_it_sounds_like": [
@@ -431,7 +431,7 @@
       "The person agrees with the account of what they did."
     ],
     "innocent_or_ordinary_possibilities": [
-      "Groups under pressure grab simple explanations, and one name is easier to repeat than a complicated cause, without any plan behind it.",
+      "Groups under pressure grab simple explanations. One name is easier to repeat than a complicated cause, and no plan is needed for that to happen.",
       "People often misjudge how much control a person had. A manager may believe an employee had more authority than they did.",
       "A person's own error can be the trigger, with the deeper problems found only later."
     ],
@@ -450,11 +450,11 @@
     "less_concerning_if": [
       "The investigation reviewed several levels and the person had a chance to respond.",
       "Consequences match the person's role and the degree of fault.",
-      "The conditions that let the failure happen were fixed as well, not only the person."
+      "The conditions that let the failure happen were fixed as well as the person being dealt with."
     ],
     "more_concerning_if": [
       "The blame is attached to firing, expulsion, shunning or public naming.",
-      "The blamed person has little power or protection, such as a junior, an outsider, or someone who depends on the group for housing or income.",
+      "The blamed person has little power or protection. They may be a junior, an outsider, or someone who depends on the group for housing or income.",
       "Those who question the story become targets in turn."
     ],
     "pattern_over_time_signs": [
@@ -463,24 +463,24 @@
       "The group's story settles quickly into 'it was them' and stops being examined.",
       "People who might speak up in the person's defense grow quiet."
     ],
-    "repair_check": "Repair means the cause gets examined after the blame. In practice that looks like a revised account naming what leaders or the group decided, a restored reputation or role for the person, and a changed process. An apology to the one person with the rest of the structure left alone has not reached the source.",
-    "boundary_respect_check": "If you ask for the same questions to be put to others involved, does the group agree, or does the questioning itself get treated as defending the culprit? What happens to the next person who asks may tell you more than the answer does.",
+    "repair_check": "Repair means the cause gets examined after the blame is placed. In practice you would see a revised account that names what leaders or the group decided. The person gets their reputation or role back, and the process changes. An apology to the one person, with the rest of the structure left alone, has not reached the source.",
+    "boundary_respect_check": "If you ask for the same questions to be put to others involved, does the group agree? Or does the questioning itself get treated as defending the culprit? What happens to the next person who asks may tell you more than the answer does.",
     "psychological_mechanism": "Groups under pressure tend to want a quick, simple cause, and a single person is easier to hold responsible than a system. Blame can also relieve the group's discomfort: if one person caused it, nobody else needs to change. People with less power are easier targets, and once a story is repeated it tends to feel settled. The person blamed may start to accept it.",
-    "possible_impact_on_receiver": "People describe being cut off from colleagues or relatives who used to be friendly, replaying whether they really were the cause, and being unable to correct a story everyone has already heard. Some lose a job or standing. Others describe lasting wariness of groups and a sense of being watched for the next error.",
+    "possible_impact_on_receiver": "Being cut off from colleagues or relatives who used to be friendly is a common account. So is replaying whether you really were the cause, and being unable to correct a story everyone has already heard. Some lose a job or standing. Others describe lasting wariness of groups and a sense of being watched for the next error.",
     "response_options": {
       "soft_clarification": "Ask for the full picture in a calm voice: 'Can we look at who signed off on this and what the process was? I'd like the account to be complete.'",
       "firm_boundary": "Correct the record on what you did: 'I carried out the instruction I was given on the third. I'm happy to go through the emails.'",
       "disengagement": "Don't try to win the group over in the moment. Write down your account while it is fresh, and hold off replying in group chats while feelings are high.",
-      "support_seeking": "Talk to someone outside the group, such as a friend, a union representative or an ombudsperson (an independent complaints officer), who can hear your account without a stake in it and say whether the blame matches your role.",
+      "support_seeking": "Talk to someone outside the group, like a friend, a union representative or an ombudsperson (an independent complaints officer). They can hear your account without a stake in it and say whether the blame matches your role.",
       "workplace_or_professional": "Ask in writing for the findings and a chance to respond. Gather the instructions, approvals and emails showing who decided what, and bring them to HR, a union or an employment lawyer."
     },
     "boundary_script": "\"I'm willing to answer for the part that was mine. I'd like the decisions made above and alongside me to be looked at in the same review, and I'd like to see the findings before they are shared.\"",
     "safety_sensitive": false,
-    "safety_note": "Scapegoating is mostly a fairness and standing problem. It deserves more care when blame is tied to dismissal, loss of housing, harassment or threats. The same goes for exile from a group you cannot easily step away from, such as a family or a faith community. Keep copies of your own account and any messages, and see an employment lawyer, tenants' service or advocate before agreeing to any statement or exit terms.",
+    "safety_note": "Scapegoating is mostly a fairness and standing problem. It deserves more care when blame is tied to dismissal, loss of housing, harassment or threats. The same goes for being pushed out of a group you cannot easily step away from, such as a family or a faith community. Keep copies of your own account and any messages. See an employment lawyer, tenants' service or advocate before agreeing to any statement or exit terms.",
     "misuse_warning": [
-      "Calling every disciplinary outcome scapegoating can turn away fair accountability for a mistake that was truly yours. Check whether the consequences match your authority.",
+      "Calling every disciplinary outcome scapegoating can mean turning away fair accountability for a mistake that was truly yours. Check whether the consequences match your authority.",
       "Naming someone else as the group's scapegoat in a dispute can itself pin a role on them. Describe what happened to the person instead."
     ],
-    "how_to_distinguish_from_related": "Setting Up to Fail arranges conditions so that one assignment goes wrong, whereas scapegoating happens after a failure that was already shared. Comparative Devaluation lowers you against other people. Scapegoating makes you the single carrier of something that belonged to everyone. Shame Installation says you are inadequate as a person; scapegoating concerns who pays for one specific failure."
+    "how_to_distinguish_from_related": "Setting Up to Fail arranges conditions so that one assignment goes wrong. Scapegoating happens after a failure that was already shared. Comparative Devaluation lowers you against other people. Scapegoating makes you the single carrier of something that belonged to everyone. Shame Installation says you are inadequate as a person, while scapegoating is about who pays for one specific failure."
   }
 }
