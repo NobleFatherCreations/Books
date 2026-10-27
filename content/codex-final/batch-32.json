@@ -469,11 +469,11 @@
    "support_seeking": "Tell a friend or counselor about one round of questions in detail, including how long it lasted. Ask how it sounds from the outside.",
    "workplace_or_professional": "If a manager is grilling you, ask for the concern in writing and for a set meeting time. If the process is formal, bring a colleague or union representative."
   },
-  "boundary_script": "\"I want to talk about this. Could we take a short break and come back to it, or have someone else sit in? I'll tell you what I can, one question at a time.\" Do this only if it feels safe; otherwise answer briefly and calmly and talk to an advocate later.",
+  "boundary_script": "\"I want to talk about this. Could we take a short break and come back to it, or have someone else sit in? I'll tell you what I can, one question at a time.\" Do this only if it feels safe. Otherwise answer briefly and calmly, and talk to an advocate later.",
   "safety_sensitive": true,
-  "safety_note": "Questioning moves toward danger when it goes on for hours. It also does when it blocks you from leaving the room, includes searching your phone or belongings, or ends in shouting, threats or physical intimidation. If you feel afraid of what happens when you decline to answer, talk privately with a domestic abuse advocate before you try anything else.",
+  "safety_note": "Questioning moves toward danger when it goes on for hours. It also does when it blocks you from leaving the room, or includes searching your phone or belongings. The same is true if it ends in shouting, threats or physical intimidation. If you fear what happens when you decline to answer, talk privately with a domestic abuse advocate first.",
   "misuse_warning": [
-   "Calling any run of follow-up questions 'interrogation' can be a way to dodge a fair and gentle request for an account, such as after a real breach of trust.",
+   "Calling any run of follow-up questions 'interrogation' can dodge a fair, gentle request for an account. This includes a request made after a real breach of trust.",
    "The label describes how questions are asked, not what they are about; it does not mean the questioner is wrong to be worried."
   ],
   "how_to_distinguish_from_related": "Response-time policing is about the delay before you answer. Interrogation is about the content and the duty to explain. An ultimatum comes with a threat of loss, while questioning relies on persistence and assumed entitlement. A false dilemma shrinks your choices, and questioning instead keeps you on the defensive. The telling feature is that the answer is demanded, not requested.",
@@ -481,12 +481,12 @@
  },
  "Sexual Coercion": {
   "short_definition": "Using pressure, guilt, obligation or implied consequences to push someone into sexual activity without their free consent.",
-  "expanded_definition": "Sexual coercion covers the many ways, short of physical force, that a person can be pushed into sex or sexual acts. These include repeated asking after a no, sulking or anger, guilt about what is owed, threats to end something, or leaning on a difference in power. Consent given to avoid a penalty, or to stop the asking, is not free consent. A single moment of disappointment is not coercion. The pattern shows when a no carries a cost, and the costs push the answer toward yes.",
+  "expanded_definition": "Sexual coercion covers the many ways a person can be pushed into sex or sexual acts without physical force. These include repeated asking after a no, sulking or anger, guilt about what is owed, threats to end something, or leaning on a difference in power. Consent given to avoid a penalty, or to stop the asking, is not free consent. A single moment of disappointment is not coercion. What marks it is a no that carries a cost, with the costs pushing the answer toward yes.",
   "plain_language_summary": "Someone makes saying no costly, through guilt, anger, pressure or threats, until agreeing feels easier than refusing.",
   "why_this_matters": "Saying yes under pressure is not the same as wanting to. Living with that difference can leave real marks, like shame, numbness, or less trust in your own signals. You are not to blame for what pressure made you do. Naming it can help restore your sense of your own limits.",
   "what_it_is": [
    "Pressure to engage in a sexual act, delivered through guilt, anger, sulking, or repeated asking.",
-   "A cost attached to a no, whether spoken or implied, such as a cold shoulder, a threat to leave, or money or help taken away.",
+   "A cost attached to a no, whether spoken or implied. Examples are a cold shoulder, a threat to leave, or money or help taken away.",
    "Can be linked to a power gap, such as age, employment, money, or immigration status.",
    "Includes pushing for acts you have already declined, and pressing when you are tired, intoxicated or afraid.",
    "Often hard to name from the inside because no force was used."
@@ -569,7 +569,7 @@
   "safety_sensitive": true,
   "safety_note": "Sexual pressure can sit alongside threats, stalking, control of money or housing, or force that escalates when a no is given. Warning signs include fear of what happens if you refuse, being cornered, and threats about images or reputation. Contact a sexual assault or domestic abuse hotline or an advocate to plan privately. Call emergency services if you are in immediate danger.",
   "misuse_warning": [
-   "Applying this label to a partner's honest disappointment, or to a single clumsy ask that was dropped at once, can blur it with serious harm. Real cases then get harder to name.",
+   "Applying this label to a partner's honest disappointment can blur it with serious harm. So can applying it to a single clumsy ask that was dropped at once. Real cases then get harder to name.",
    "Only the person on the receiving end can say what they did or did not freely agree to. Outsiders and the label itself cannot decide it for them."
   ],
   "how_to_distinguish_from_related": "An ultimatum demands a choice and names a loss, while sexual coercion applies pressure to a specific intimate decision, often with the cost unspoken. Interrogation presses for explanations; here the pressure is for compliance. Urgency squeezes the time to decide, which may be one part of it. A false dilemma limits options. This tactic is the one aimed at consent itself.",

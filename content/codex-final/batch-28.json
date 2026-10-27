@@ -1,7 +1,7 @@
 {
   "Legal/Administrative Threats": {
-    "short_definition": "Bringing up the police, lawyers, HR, courts or other authorities as pressure in a personal or workplace dispute, instead of as a step in a real process.",
-    "core_meaning": "Bringing up the police, lawyers, HR, courts or other authorities as pressure in a personal or workplace dispute, instead of as a step in a real process.",
+    "short_definition": "Raising the police, lawyers, HR, courts or other authorities as pressure in a personal or workplace dispute, instead of as part of a real process.",
+    "core_meaning": "Raising the police, lawyers, HR, courts or other authorities as pressure in a personal or workplace dispute, instead of as part of a real process.",
     "expanded_definition": "Legal and administrative threats bring an institution into an argument that is not really about that institution. The named body might be a lawyer, the police, HR, a licensing board, a landlord or an immigration office. Contacting these places is often legitimate and sometimes necessary. The telling feature is how the mention is used: as a consequence of disagreeing, with vague details, timed to what you do next. One heated line in a fight means little. Mentions that return whenever you object are another matter.",
     "plain_language_summary": "Whenever you disagree, they bring up the police, a lawyer, your boss or an agency. Soon every disagreement feels like a risk to your safety or your job.",
     "why_this_matters": "A threat that borrows an institution's weight can make you agree to things you would otherwise question. You cannot tell how real it is, and the possible loss, such as a job, a lease or time with your kids, is large. You may stop raising fair concerns at all.",
@@ -44,7 +44,7 @@
       "The remark was a flare of temper, followed by a plain statement that they should not have said it."
     ],
     "innocent_or_ordinary_possibilities": [
-      "People who are frightened or overwhelmed often reach for the police or a lawyer, because those are the only authorities they know how to name.",
+      "People who are frightened or overwhelmed often reach for the police or a lawyer. Those are the only authorities they know how to name.",
       "Many leases and workplaces quote policy language as routine. It can read like a threat even when it is standard wording.",
       "A friend who works in law or HR may mention an option out of habit, without meaning it as pressure."
     ],
@@ -76,10 +76,10 @@
       "You catch yourself saving records of ordinary conversations in case they are used against you.",
       "Friends notice you have stopped mentioning the dispute, and you have not told them why."
     ],
-    "repair_check": "Watch what becomes of the threat itself. Someone has changed course if they say the disagreement belongs between the two of you, or in a proper channel named openly, and then stop mentioning the authority when you say no. An apology that keeps the option in reserve ('I won't call, this time') leaves it in place.",
+    "repair_check": "Watch what becomes of the threat itself. Someone has changed course if they say the disagreement belongs between the two of you, or in a proper channel named openly. They also stop mentioning the authority when you say no. An apology that keeps the option in reserve ('I won't call, this time') leaves it in place.",
     "boundary_respect_check": "Once you say you want to talk about the actual problem, does the conversation move there? Or does the same sentence about a lawyer or the police come back the next time you disagree?",
     "psychological_mechanism": "An institution carries authority and consequences that the speaker does not have to explain. You cannot easily check how real a threat is, and the possible losses are lopsided, so the safest-feeling choice can be to comply. Uncertainty tends to do more of the work than the threat itself. Repeated mentions can teach a person to treat ordinary disagreement as risky.",
-    "possible_impact_on_receiver": "People describe checking their words before speaking, losing sleep over a call or letter that may never come, and agreeing to terms they privately think are unfair. Some began to doubt whether their own complaint was legitimate, because the other side kept using official-sounding language. A lasting wariness of HR, courts or the police can follow, even where those could help.",
+    "possible_impact_on_receiver": "People describe checking their words before speaking. Some lose sleep over a call or letter that may never come, or agree to terms they privately think are unfair. Some began to doubt whether their own complaint was genuine, because the other side kept using official-sounding language. A lasting wariness of HR, courts or the police can follow, even where those could help.",
     "response_options": {
       "soft_clarification": "Ask what the step would actually be: 'Which process are you thinking of, and what would you be asking them to do?' A concrete answer is easier to judge than a hint.",
       "firm_boundary": "Name the topic you will stay on: 'I'm happy to talk about the lease problem. I find it hard to think clearly with a lawyer being mentioned in the middle of it.'",
@@ -92,16 +92,16 @@
     "safety_note": "This can sit next to real danger when the named consequence is your housing, income, immigration status or custody. It can also when a partner or relative uses it to keep you quiet about harm. Treat any mention of a report to immigration or child services as something to check privately first. A legal aid office, a domestic violence advocate or an attorney can tell you what could really happen. Keep dated copies of messages somewhere the other person cannot reach.",
     "misuse_warning": [
       "Labeling every mention of HR, a lawyer or the police as a threat can stop people using those channels when they truly need them. That includes you.",
-      "Telling a person who has filed a legitimate complaint that they are 'just making legal threats' can be a way of dismissing a genuine grievance."
+      "If a person has filed a legitimate complaint, telling them they are 'just making legal threats' can dismiss a genuine grievance."
     ],
     "how_to_distinguish_from_related": "Pressure to Sign uses a document and a clock to get agreement in the moment. A legal threat can be made with no paper at all. Confidentiality as Weapon uses an institution's rules to keep evidence from you once a process is underway. Here the institution is brought up as a warning, before anything has started. A threat names what might happen to you, and the other two limit what you can see or do."
   },
   "Confidentiality as Weapon": {
     "short_definition": "Citing confidentiality rules to keep from someone the accusation, the evidence or even the source of a complaint against them. They are left unable to answer it.",
     "core_meaning": "Citing confidentiality rules to keep from someone the accusation, the evidence or even the source of a complaint against them. They are left unable to answer it.",
-    "expanded_definition": "Confidentiality is a real protection. It shields people who report harm, patients and employees under review. The pattern starts when the protection is cited to keep a person from learning what they are accused of, who said what, or what a decision rested on. Responding is then hard, because there is nothing to respond to. A single limit that is explained, along with a summary of the concerns, is ordinary. The trouble is a blanket refusal that stays in place and offers no way to give your side.",
+    "expanded_definition": "Confidentiality is a real protection. It shields people who report harm, patients and employees under review. The pattern starts when the protection is cited to keep a person in the dark. They cannot learn what they are accused of, who said what, or what a decision rested on. Responding is then hard, because there is nothing to respond to. A single limit that is explained, along with a summary of the concerns, is ordinary. The trouble is a blanket refusal that stays in place and offers no way to give your side.",
     "plain_language_summary": "You are told you cannot know what you are accused of, or what the evidence is, because it is 'confidential'. So you have no real chance to explain or object.",
-    "why_this_matters": "If you are judged on information you are not allowed to see, you cannot correct a mistake, give context or show that something is untrue. A decision can follow that affects your job, grades, standing or care. There is no visible reasoning to appeal.",
+    "why_this_matters": "If you are judged on information you are not allowed to see, you cannot correct a mistake. You cannot give context or show that something is untrue. A decision can follow that affects your job, grades, standing or care. There is no visible reasoning to appeal.",
     "what_it_is": [
       "A privacy rule given as the reason you cannot see the complaint, the notes or the findings of a process about you.",
       "Used where formal processes exist: workplace investigations, school discipline, licensing boards, housing hearings and disputes over records.",
@@ -119,7 +119,7 @@
       "Sharing the file would breach other people's privacy."
     ],
     "what_it_is_not": [
-      "Protecting the name of someone who reported harm, while still telling you the main points of what is alleged and giving you room to respond.",
+      "Protecting the name of someone who reported harm. You are still told the main points of what is alleged, and given room to respond.",
       "A legal bar on sharing information, where the specific rule is named and a summary is offered instead.",
       "A process in its early stage, with a stated date when you will be told more.",
       "A doctor or therapist declining to share another person's information, which is their duty.",
@@ -173,7 +173,7 @@
       "People close to the process start to treat you differently, and you cannot tell what they have heard.",
       "You spend more energy guessing what was said than answering anything."
     ],
-    "repair_check": "Three things would each change your position: a written summary of the concerns, a deadline for your response, and an explanation of which rule limits the rest. An offer to reconsider, or regret about how the process felt, leaves you exactly where you were if no new information reaches you.",
+    "repair_check": "Three things would each change your position. One is a written summary of the concerns. Another is a deadline for your response. The third is an explanation of which rule limits the rest. An offer to reconsider, or regret about how the process felt, changes nothing if no new information reaches you.",
     "boundary_respect_check": "Ask in writing for three things: the general nature of the concern, the rule they are relying on and the route for responding. Watch whether each gets an answer, or whether you get back a polite restatement of the word 'confidential'.",
     "psychological_mechanism": "When the evidence is closed, a person cannot test it, so the only material left is imagination. Not knowing what others know and say often pushes people toward over-apologizing, guessing or withdrawing. Procedural language can also give a closed process an air of fairness. Objections then look like attacks on the rules, not questions about the outcome.",
     "possible_impact_on_receiver": "People describe lying awake building the case against themselves. They describe agreeing to things just to end the uncertainty, and feeling watched in places that used to feel safe. Some describe shame about something they cannot even name. Some also lose trust in the institution, well beyond this one decision.",
@@ -202,7 +202,7 @@
     "what_it_is": [
       "A document presented together with a time limit: today, before you leave, before the office closes.",
       "A summary offered in place of the text: 'it's just the standard form', 'it only says you were here'.",
-      "Often put in front of you when you are tired, upset or without support, such as after a termination meeting, a medical event or a long shift.",
+      "Often put in front of you when you are tired, upset or without support. This could be after a termination meeting, a medical event or a long shift.",
       "It can be an admission or apology that you are asked to write out and sign, about something still in dispute.",
       "A signature framed as a favor, a formality, or the quickest way to make a problem disappear."
     ],
@@ -271,28 +271,28 @@
     ],
     "repair_check": "What changes the picture is a delay you can check. That means a copy in your hands, a date several days out, and a promise that asking questions costs you nothing. A reassurance that 'you can always change it later' means little if the document says you cannot.",
     "boundary_respect_check": "Try asking for the weekend, then see whether the offer survives. A written date with the terms unchanged means your request has been respected. If the terms vanish or the mood turns, the clock was carrying more weight than the document.",
-    "psychological_mechanism": "Time pressure narrows attention and makes people reach for whatever ends the discomfort fastest. A signature is a clear way to end it. When the person asking also seems to hold authority, or when refusing seems the same as accusing them of bad faith, going along can seem easier than asking. Fatigue, fear or being alone in the room can add to the pressure.",
+    "psychological_mechanism": "Time pressure narrows attention and makes people reach for whatever ends the discomfort fastest. A signature is a clear way to end it. When the person asking also appears to hold authority, going along can look easier than asking. The same happens when refusing looks like accusing them of bad faith. Fatigue, fear or being alone in the room can add to the pressure.",
     "possible_impact_on_receiver": "People describe replaying the moment of signing, a sinking feeling on reading the papers at home, and anger at themselves for not asking. Some describe becoming wary of any form with a line for a signature. Others carry the document's consequences, such as a debt or a lost claim, for years.",
     "response_options": {
       "soft_clarification": "Ask for the ordinary things: 'Could I have a copy to read? I'd like to look at it properly before I give an answer.'",
       "firm_boundary": "Say you give answers on paperwork after reading it: 'I read everything before I sign. I'll get back to you once I've done that.'",
-      "disengagement": "If it is safe to do so, take the paper without signing and put the decision off until later: 'I'll look it over tonight.' A phone call or the end of a meeting gives a natural way out.",
+      "disengagement": "If it is safe, take the paper without signing and put the decision off: 'I'll look it over tonight.' A phone call or the end of a meeting gives a natural way out.",
       "support_seeking": "If you can do so safely, note the document's title, date and page count. Then show it to legal aid, a union representative, a housing counselor or any trusted person who has read contracts before.",
       "workplace_or_professional": "At work, ask whether HR, a union representative or your own advisor can review the form. Write down who gave which deadline so the date can be checked later."
     },
     "boundary_script": "\"Explaining it was helpful, and I need time with the paper itself. I'd like a copy to read through properly, and I'll give you my answer once I've done that. Can you tell me the date you actually need it by?\"",
     "safety_sensitive": true,
-    "safety_note": "A rushed signature can carry real danger when it touches housing, immigration status, custody, a lease co-signature, a loan or a resignation. It can also be dangerous when a partner or relative presses the pen on you and you fear their reaction. If saying no feels unsafe, you do not have to argue the point. Agree to look at it. Then take the paper, a photo of it, or its title to a legal aid office, a domestic violence advocate or an attorney before anything is signed.",
+    "safety_note": "A rushed signature can carry real danger. This is true when it touches housing, immigration status, custody, a lease co-signature, a loan or a resignation. It can also be dangerous if a partner or relative presses the pen on you. That is more true if you fear their reaction. If saying no feels unsafe, you do not have to argue the point. Agree to look at it. Before anything is signed, take the paper, a photo of it, or its title to an attorney. A legal aid office or a domestic violence advocate can also help.",
     "misuse_warning": [
       "If you call every request for a prompt signature 'pressure', ordinary deadlines may start to look sinister. Some forms truly must be returned quickly.",
-      "If you decline to honor something you agreed to earlier, and describe it afterward as having been pressured, that can be a way to step out of a commitment made freely."
+      "Describing it afterward as having been pressured can be a way to step out of a commitment made freely. This applies if you decline to honor something you agreed to earlier."
     ],
     "how_to_distinguish_from_related": "Legal/Administrative Threats rest on what an authority might do, with or without a document. Pressure to sign needs a paper and a pen in front of you. Confidentiality as Weapon keeps information from you, while this tactic hands you information and gives you no time to take it in. The difference lies in what is missing: with a threat, certainty. With confidentiality, content. Here, time."
   },
   "Clinical Tone Policing": {
     "short_definition": "Answering a person's report of pain, fear or distress by judging how they express it, as 'dramatic' or 'catastrophizing'. What they reported goes unaddressed.",
     "core_meaning": "Answering a person's report of pain, fear or distress by judging how they express it, as 'dramatic' or 'catastrophizing'. What they reported goes unaddressed.",
-    "expanded_definition": "Tone policing is when the manner of speaking becomes the topic and the content falls away. In the clinical form, someone with professional standing labels a concern as excessive. This might be a doctor, nurse, therapist, HR officer or school counselor. They use words that sound like an assessment: catastrophizing, overreacting, health anxiety, emotional. Clinicians do sometimes need to help a person whose worry has outrun the evidence. The pattern appears when the label comes first, replaces the examination, and leaves no way to say, 'I understand, and I still need this looked at.'",
+    "expanded_definition": "Tone policing is when the manner of speaking becomes the topic and the content falls away. In the clinical form, someone with professional standing labels a concern as excessive. This might be a doctor, nurse, therapist, HR officer or school counselor. They use words that sound like an assessment: catastrophizing, overreacting, health anxiety, emotional. Clinicians do sometimes need to help a person whose worry has outrun the evidence. The pattern appears when the label comes first and replaces the examination. It also leaves no way to say, 'I understand, and I still need this looked at.'",
     "plain_language_summary": "You describe something worrying and are told you are being dramatic. Then the talk is about how you act, not what you reported.",
     "why_this_matters": "When a person with training and a title calls a worry excessive, you may drop it, even when it was reasonable. It may then go unexamined. The label can also stay in your records and shape how the next person reads you.",
     "what_it_is": [
@@ -375,11 +375,11 @@
       "firm_boundary": "Ask for the concern to be taken on its own terms: 'I'd like to set my tone aside and have you look at what I described.'",
       "disengagement": "If the visit is going nowhere, end it politely and book with someone else: 'Thank you, I'd like a second opinion on this.'",
       "support_seeking": "Bring someone to the next appointment to listen and take notes. You can also ask a patient advocate or ombudsperson's office (an independent complaints office) how to request a second review.",
-      "workplace_or_professional": "In an HR or school setting, put the concern in an email with dates and specifics, so the reply has to deal with the content. Ask who reviews it."
+      "workplace_or_professional": "In an HR or school setting, put the concern in an email with dates and specifics. That way the reply has to deal with the content. Ask who reviews it."
     },
     "boundary_script": "\"I sound upset, and I am. My worry is real and I would like it looked at. Could we go through what I described, one thing at a time, and could you note it in my record as I've said it?\"",
     "safety_sensitive": false,
-    "safety_note": "Tone policing in a clinic is not a coercion signal by itself. But a dismissed symptom can be an urgent one. Sudden chest pain, trouble breathing, weakness on one side, a severe headache unlike others, or thoughts of harming yourself need prompt care, whatever anyone says about your manner. Go to an emergency department for those. If you are sent home, ask a nurse or patient advocate to note that you asked to be examined.",
+    "safety_note": "Tone policing in a clinic is not a coercion signal by itself. But a dismissed symptom can be an urgent one. Some symptoms need prompt care, whatever anyone says about your manner. These are sudden chest pain, trouble breathing, weakness on one side, a severe headache unlike others, or thoughts of harming yourself. Go to an emergency department for those. If you are sent home, ask a nurse or patient advocate to note that you asked to be examined.",
     "misuse_warning": [
       "A professional's honest view that a fear is out of proportion is not automatically tone policing. Using the label to reject all reassurance can keep someone from relief they could accept.",
       "If the label is used as a verdict on a particular clinician after one brisk visit, it can overlook an overloaded schedule."
@@ -465,7 +465,7 @@
     "repair_check": "The sentence that matters is 'the tests are normal, and I still believe you.' A provider who adds a next step has reopened the question. That could be a different test, a specialist, a symptom log or a check-in date. A chart note that repeats the normal results has not.",
     "boundary_respect_check": "Ask what the test was able to rule out and what it could not, and what you should do if the symptoms continue. A clear, specific reply respects the question. A shrug or a repetition of the result suggests the question did not land.",
     "psychological_mechanism": "Numbers and written results carry special trust, for the patient and for whoever reads them. A normal value can look like objective proof against a feeling, and that is hard to argue with in an exam room. If you have already been told your symptoms are stress, a normal result can look like confirmation. Doubt about your own body can follow.",
-    "possible_impact_on_receiver": "After a long stretch of being told you are fine while still unwell, you may collect normal results and doubt your own sense of your body. If a cause is eventually found, you may feel relief mixed with frustration. Some people stop seeking care, and guilt about taking up appointments is common.",
+    "possible_impact_on_receiver": "After a long stretch of being told you are fine while still unwell, you may collect normal results. You may also doubt your own sense of your body. If a cause is eventually found, you may feel relief mixed with frustration. Some people stop seeking care, and guilt about taking up appointments is common.",
     "response_options": {
       "soft_clarification": "Ask what the result does and does not rule out: 'What could this test have missed? What should we look at if I am still like this in a month?'",
       "firm_boundary": "Ask the provider to write your continuing symptoms in the record. You could say: 'I'd like my ongoing symptoms, and the fact that they continue despite normal results, documented in my chart.'",
@@ -483,8 +483,8 @@
     "how_to_distinguish_from_related": "Clinical Tone Policing comments on how you are coming across, while this pattern leaves your tone alone and points to a number. Trash-Can Diagnosis attaches a mental health label as a verdict, which may follow a normal result but is a separate step. Here the sticking point is the gap between what the test measures and what you describe."
   },
   "Medical Gaslighting": {
-    "short_definition": "In a medical setting, a patient's symptoms or pain are dismissed, minimized or put down to something else, until the patient starts doubting what their own body is saying.",
-    "core_meaning": "In a medical setting, a patient's symptoms or pain are dismissed, minimized or put down to something else, until the patient starts doubting what their own body is saying.",
+    "short_definition": "Dismissing, minimizing or explaining away a patient's symptoms or pain in a medical setting, until the patient starts doubting their own body.",
+    "core_meaning": "Dismissing, minimizing or explaining away a patient's symptoms or pain in a medical setting, until the patient starts doubting their own body.",
     "expanded_definition": "Medical gaslighting is a name patients use when clinicians treat their account of symptoms or pain as unreliable, minor or imagined. The clinician explains it away without fully looking into it. A wrong guess is not it, because every clinician is wrong sometimes. The pattern is in how the report is handled. Pain is discounted, requests for tests go unanswered, and notes describe what the patient said differently from how they said it. It is not a formal diagnosis or a legal term. People with symptoms that are hard to see or measure often describe it.",
     "plain_language_summary": "A doctor or clinic keeps telling you that what you feel is nothing, or all in your head. You start to wonder whether your own body can be trusted.",
     "why_this_matters": "Dismissal delays diagnosis and treatment. It also teaches people to distrust their own symptoms, especially people from groups that medicine has often disbelieved. They may avoid seeking help the next time something is wrong.",
@@ -570,11 +570,11 @@
       "firm_boundary": "Ask for a refusal to be put in writing. You could say: 'If you're not ordering that test, could you note that I asked and why it was declined?'",
       "disengagement": "If the visit is not going anywhere, end it politely and book with another clinician or clinic, bringing your notes along.",
       "support_seeking": "Bring someone to appointments. Join a group for your symptom or condition. Ask a patient advocate how to request a second opinion.",
-      "workplace_or_professional": "If you must show an employer or school what you are dealing with, ask the clinician to put your symptoms and limits in a letter. Keep copies of every visit summary."
+      "workplace_or_professional": "You may need to show an employer or school what you are dealing with. If so, ask the clinician to put your symptoms and limits in a letter. Keep copies of every visit summary."
     },
     "boundary_script": "\"I'm still having this pain and it's affecting my work and sleep. What else could it be, and what do you suggest if it doesn't improve? Could you also record in my chart that I asked for further tests?\"",
     "safety_sensitive": false,
-    "safety_note": "Dismissed symptoms are most dangerous when they signal something time-critical. Examples are pain that is sudden and severe, symptoms that are rapidly worsening, a fever with a stiff neck or confusion, or signs of a stroke. Do not wait for a better appointment for those. Go to an emergency department and describe what you told earlier clinicians. For anything slower, request your own records and book a second opinion.",
+    "safety_note": "Dismissed symptoms are most dangerous when they signal something time-critical. Examples are pain that is sudden and severe, or symptoms that are rapidly worsening. Others are a fever with a stiff neck or confusion, or signs of a stroke. Do not wait for a better appointment for those. Go to an emergency department and describe what you told earlier clinicians. For anything slower, request your own records and book a second opinion.",
     "misuse_warning": [
       "Using the label for any visit that did not end in the answer or treatment you wanted can overlook honest uncertainty. It can also make good clinicians harder to reach.",
       "Telling a person that their doctor 'gaslit' them, before they have asked about the reasoning, can push them away from care they still need."
@@ -582,9 +582,9 @@
     "how_to_distinguish_from_related": "Clinical Tone Policing criticizes how you express distress, while medical gaslighting is about whether your symptoms are believed at all. Trash-Can Diagnosis hands out a mental health label as an insult. Weaponized Therapy-Speak uses clinical words in arguments between people. Medical gaslighting happens inside a care relationship, where what gets discounted is your account of your own body."
   },
   "Process Exhaustion": {
-    "short_definition": "A process that keeps adding steps, forms, meetings and re-reviews until the person gives up because they are worn out, and not because their matter was decided.",
-    "core_meaning": "A process that keeps adding steps, forms, meetings and re-reviews until the person gives up because they are worn out, and not because their matter was decided.",
-    "expanded_definition": "Process exhaustion is when the process itself becomes the obstacle. Each step may be reasonable and follow written rules. Together, though, they restart clocks, ask for the same information again, pass the person between offices, and stretch a simple matter across months. It shows up in insurance claims, benefits, immigration paperwork, workplace complaints, school accommodations and housing disputes. Complex matters do take time. The difference is effort out of proportion to the issue, progress that does not carry from one step to the next, and a withdrawal recorded as though you had chosen it.",
+    "short_definition": "Steps, forms, meetings and re-reviews keep piling up until the person gives up worn out, and not because their matter was decided.",
+    "core_meaning": "Steps, forms, meetings and re-reviews keep piling up until the person gives up worn out, and not because their matter was decided.",
+    "expanded_definition": "Process exhaustion is when the process itself becomes the obstacle. Each step may be reasonable and follow written rules. Together, though, they restart clocks and ask for the same information again. They pass the person between offices, and stretch a simple matter across months. It shows up in insurance claims, benefits, immigration paperwork, workplace complaints, school accommodations and housing disputes. Complex matters do take time. The difference is effort out of proportion to the issue. Progress does not carry from one step to the next. A withdrawal is recorded as though you had chosen it.",
     "plain_language_summary": "Each time you ask for something, a new form, meeting or review starts. After enough rounds you give up, and nobody ever has to decide.",
     "why_this_matters": "You lose by being worn down, and not by a decision. Then the record shows it as your choice: you withdrew, you did not follow up, you stopped replying.",
     "what_it_is": [
@@ -662,7 +662,7 @@
     ],
     "repair_check": "Genuine reform means one consolidated file, a single contact, a final timeline in writing and credit for time already waited. Regret paired with yet another form repeats the first problem. So does a fresh review that starts the clock at day one.",
     "boundary_respect_check": "Notice what happens when you ask for a written list of every remaining step, with dates. If it arrives and holds, the process can be planned around. If the list keeps changing, or the request is passed from desk to desk, that tells you something about the process.",
-    "psychological_mechanism": "Effort and waiting can wear people down in a way that open disagreement does not. Each step asks for a little more time, money or composure, and the cost of continuing grows while the chance of an end stays unclear. Every step looks reasonable alone, so it is hard to point to one moment where things went wrong. That can make a complaint look petty and quitting look like personal failure.",
+    "psychological_mechanism": "Effort and waiting can wear people down in a way that open disagreement does not. Each step asks for a little more time, money or composure. The cost of continuing grows while the chance of an end stays unclear. Every step looks reasonable alone, so it is hard to point to one moment where things went wrong. That can make a complaint look petty and quitting look like personal failure.",
     "possible_impact_on_receiver": "People describe dread of letters and calls, losing hours of work to appointments, and repeating painful details to a new person each time. Some finally give up on something they were entitled to. Some feel shame at having quit, though the process had asked more than the matter was worth. Others describe the process taking over their free time.",
     "response_options": {
       "soft_clarification": "Ask the office for every step still to come and what each one is for. You might say: 'Can you give me everything still needed, in writing, with dates?'",

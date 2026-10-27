@@ -454,7 +454,7 @@
       "Colleagues who once spoke freely have become quiet or have left.",
       "Your own record of dates and outcomes shows a consistent gap after each time you spoke up."
     ],
-    "repair_check": "Repair here has to change how the place works. A personal apology is not enough. It takes an honest account of what happened to people who raised concerns, a visible change in who gets opportunities, and a channel where speaking up stops costing something. A friendly all-hands about 'psychological safety' with no change in outcomes does not count.",
+    "repair_check": "Repair here has to change how the place works. A personal apology is not enough. It takes an honest account of what happened to people who raised concerns. It takes a visible change in who gets opportunities. It also takes a channel where speaking up stops costing something. A friendly all-hands about 'psychological safety' with no change in outcomes does not count.",
     "boundary_respect_check": "A useful test is what happens to the next person who disagrees in public. If the response is curiosity and a decision, the space can hold dissent. If they are warmly thanked and quietly sidelined, your own boundary or concern will probably meet the same fate.",
     "psychological_mechanism": "People learn quickly what is safe to say by watching what happens to others. When the cost of honesty is delayed and deniable, a person may not link the loss to the remark, and may blame themselves instead. Seeing a colleague quietly sidelined can teach a whole group to stay silent without any rule being stated.",
     "possible_impact_on_receiver": "People describe self-doubt, because nothing rude ever happened that they could point to. Some say they became overly careful with their words. Some felt cut off from colleagues who stayed quiet, and some began to dread work without being able to say what was wrong. Leaving the place can bring relief and grief at once.",
@@ -467,9 +467,9 @@
     },
     "boundary_script": "\"I appreciate how respectful this team is, and raising concerns is part of doing my job well. Let's put them in writing so we can all see what was raised and what was decided.\"",
     "safety_sensitive": false,
-    "safety_note": "This pattern is mostly about status and opportunity, not physical danger. That changes if consequences reach your pay, your hours, your references, or your immigration or housing status, because losing a job then has serious effects. Document things quickly. Speak with an employment lawyer, a union representative or a legal aid service before the situation moves.",
+    "safety_note": "This pattern is mostly about status and opportunity, not physical danger. That changes if consequences reach your pay, your hours or your references. It also changes if they reach your immigration or housing status, because losing a job then has serious effects. Document things quickly. Speak with an employment lawyer, a union representative or a legal aid service before the situation moves.",
     "misuse_warning": [
-      "Applying this label to any workplace where you did not get a promotion can turn a real pattern into a way of avoiding honest feedback.",
+      "Applying this label whenever you did not get a promotion can turn a real pattern into a way of avoiding honest feedback.",
       "Calling a whole organization hostile because of one bad manager can overlook colleagues who are acting in good faith."
     ],
     "how_to_distinguish_from_related": "Concern Trolling is personal and aimed at one person's choices. A polite hostile environment is a climate that touches many people. Forced Teaming demands loyalty to a 'we' by name, while here the loyalty is unspoken and enforced through omission. Triangulation uses specific third parties as ammunition, but this pattern needs no individual messenger at all."

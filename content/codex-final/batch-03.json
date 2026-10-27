@@ -2,7 +2,7 @@
   "Malicious Compliance": {
     "short_definition": "Doing exactly what was asked, to the letter, in a way that predictably defeats the point of the request.",
     "core_meaning": "Doing exactly what was asked, to the letter, in a way that predictably defeats the point of the request.",
-    "expanded_definition": "Malicious compliance is carrying out an instruction so literally that the result misses the purpose behind it. The person can still say they did as told. It often shows up in workplaces and households after a disagreement, an unwelcome order or a criticism. The same outcome can come from an honest literal reading, a badly worded request or a rule that really does produce a bad result, so one case says little about why it happened. A pattern is the literal reading being chosen again and again, soon after friction.",
+    "expanded_definition": "Malicious compliance is carrying out an instruction so literally that the result misses the purpose behind it. The person can still say they did as told. It often shows up in workplaces and households after a disagreement, an unwelcome order or a criticism. The same outcome can come from an honest literal reading, a badly worded request, or a rule that really does produce a bad result. So one case says little about why it happened. A pattern is the literal reading being chosen again and again, soon after friction.",
     "plain_language_summary": "You asked for something, you got exactly those words and nothing more, and the result is useless. It is hard to complain because the instruction was followed.",
     "why_this_matters": "The person on the receiving end absorbs the failure with no clear grievance to name. The instruction was followed, so pointing at anything risks sounding unreasonable. They are left wondering whether they asked badly.",
     "what_it_is": [
@@ -176,7 +176,7 @@
     ],
     "repair_check": "Their own words name the specific event back to you before any mention of their record. If history comes in afterwards as context and the event still gets addressed, the exchange has moved. A longer list of credentials on the second try shows no movement.",
     "boundary_respect_check": "Notice whether saying 'I'm asking about Tuesday, not about your whole character' changes their next reply. Watch for a move from the list to the event. Also watch for the list getting longer, along with a hint that you are being unfair to ask.",
-    "psychological_mechanism": "A person's good standing can work as a shortcut for deciding what is likely: someone kind seems unlikely to have done harm. Listeners may discount a complaint, and the person making it, before checking the facts. The speaker can also be reassured by their own record, which may lead them to treat an uncomfortable complaint as an error instead of information.",
+    "psychological_mechanism": "A person's good standing can work as a shortcut for deciding what is likely. Someone kind seems unlikely to have done harm. Listeners may discount a complaint, and the person making it, before checking the facts. The speaker can also be reassured by their own record. That may lead them to treat an uncomfortable complaint as an error instead of information.",
     "possible_impact_on_receiver": "Accounts of this often include guilt for raising something real, and extra caution about raising it again. Some doubt whether they have the right to complain, given what the person has done for them. Others are left with a small, specific problem that was never discussed and a large, vague sense of having been ungrateful.",
     "response_options": {
       "soft_clarification": "Acknowledge the record and return to the point: 'I know you've done a lot, and that's not what I'm asking about. I'm asking about what happened on Tuesday.'",
@@ -187,12 +187,12 @@
     },
     "boundary_script": "\"I believe you've done a lot of good, and I'm not asking you to prove it. I'm asking about one thing that happened. Can we talk about that first, and then talk about everything else if you like?\"",
     "safety_sensitive": false,
-    "safety_note": "On its own this is not a danger signal. It deserves more care where good standing is itself the source of power. Examples are a respected leader, clergy member, coach or senior colleague whose reputation makes complaints unlikely to be believed. In those cases, keep dated notes. Take the complaint to an outside body, such as an ombudsperson (an independent complaints officer), regulator or independent reporting line, not to the person's own circle.",
+    "safety_note": "On its own this is not a danger signal. It deserves more care where good standing is itself the source of power. Examples are a respected leader, clergy member, coach or senior colleague. Their reputation makes complaints unlikely to be believed. In those cases, keep dated notes. Take the complaint to an outside body, not to the person's own circle. This could be an ombudsperson (an independent complaints officer), a regulator or an independent reporting line.",
     "misuse_warning": [
       "Not every mention of a good record is an evasion. Using the label on someone sincerely hurt by an accusation can shut them out of a fair hearing.",
       "Someone's real history can be relevant evidence. Waving it away as 'licensing' discards context that may matter."
     ],
-    "how_to_distinguish_from_related": "A flat Denial says the thing did not occur. Licensing can concede there is a complaint and answer it with reputation. Blame-Shifting hands the fault to you, while licensing leaves fault unmentioned and puts the speaker's goodness on the table, which can leave you feeling in debt. Minimization makes the harm small, whereas licensing swaps in a different question: are they a good person?"
+    "how_to_distinguish_from_related": "A flat Denial says the thing did not occur. Licensing can concede there is a complaint and answer it with reputation. Blame-Shifting hands the fault to you. Licensing leaves fault unmentioned and puts the speaker's goodness on the table. That can leave you feeling in debt. Minimization makes the harm small. Licensing swaps in a different question: are they a good person?"
   },
   "Sealioning": {
     "short_definition": "Pressing someone again and again, in a polite tone, to produce evidence or explanation. It wears them out and does not move toward understanding.",
@@ -272,7 +272,7 @@
       "Hours that used to go elsewhere are eaten by answering, and you feel behind.",
       "You notice you spend more time proving points than making them."
     ],
-    "repair_check": "Repair here is the asker changing the shape of the exchange: stating a position, naming what would count as enough, or stopping when a question has been answered. If a cheerful 'fair enough' is followed by a fresh round of questions the next day, the loop is exactly where it was.",
+    "repair_check": "Repair here is the asker changing the shape of the exchange. They might state a position, name what would count as enough, or stop when a question has been answered. A cheerful 'fair enough' can be followed by a fresh round of questions the next day. Then the loop is exactly where it was.",
     "boundary_respect_check": "Tell them once that you have answered what you will, then see whether the questions stop or turn into comments on your refusal. A person who accepts the limit goes quiet; one who tests it asks why you are afraid to continue.",
     "psychological_mechanism": "Asking for evidence carries social authority, so refusing can look like having nothing to offer. Each answer also costs time and attention, while each question costs almost nothing, which tilts the exchange. A calm tone can make any frustration look like the real problem. Over time a person may give up their point just to end the cost.",
     "possible_impact_on_receiver": "People describe exhaustion, a sense of being on trial for something they only mentioned, and anxiety about posting. Some withdraw from the topic or the platform. Others say they began doubting their own knowledge even when they had good sources.",
@@ -285,7 +285,7 @@
     },
     "boundary_script": "\"I've shared my sources and explained my reasoning, and I'm happy to leave it there. If you want to carry on, tell me what you think and what would change your mind. Otherwise I'm stepping out of this thread.\"",
     "safety_sensitive": false,
-    "safety_note": "By itself this drains time and nerves. It is not a danger. That changes when the questions follow you to personal details, such as your address, employer, family or private messages, or arrive in organized waves of accounts. Then save dated screenshots, report to the platform, and tighten the privacy settings on your accounts.",
+    "safety_note": "By itself this drains time and nerves. It is not a danger. That changes when the questions follow you to personal details, such as your address, employer, family or private messages. It also changes when they arrive in organized waves of accounts. Then save dated screenshots, report to the platform, and tighten the privacy settings on your accounts.",
     "misuse_warning": [
       "Calling every request for evidence 'sealioning' lets people dodge fair scrutiny. Asking for sources on a public claim is ordinary, and journalists and scientists do it as a duty.",
       "Labeling a sincere, persistent newcomer a sea lion can shut out someone who truly wants to learn."

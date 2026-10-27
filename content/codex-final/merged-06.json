@@ -100,7 +100,7 @@
     "core_meaning": "A workplace complaints process that, in practice, protects the organization's reputation and the accused person better than it protects the employee who reported harm.",
     "expanded_definition": "HR shielding is when a complaints function, set up to help employees, ends up serving the organization's exposure to blame. That means its reputation, its legal risk and the accused person's position. It also goes by strategic HR complicity. That name includes using a complainant's trust to draw out details that then shape the organization's reply. One slow or disappointing process proves little. What gives it away is what happens to the person who reported compared with the person reported.",
     "plain_language_summary": "You report harm to HR, and the process seems to protect the company and the person you named. You are the one who feels the strain.",
-    "why_this_matters": "Someone brings a complaint believing they are speaking to a protector, and finds that what they said has been used to shape the response against them. They absorb the disruption while the situation continues. Colleagues learn what reporting costs.",
+    "why_this_matters": "Someone brings a complaint believing they are speaking to a protector. They find that what they said has been used to shape the response against them. They absorb the disruption while the situation continues. Colleagues learn what reporting costs.",
     "what_it_is": [
       "A complaints, grievance or investigation process that looks correct on paper: forms filed, meetings held, letters sent.",
       "Information a complainant gave in trust being passed to managers or lawyers, then used to prepare the organization's position.",
@@ -120,7 +120,7 @@
     ],
     "what_it_is_not": [
       "Due process protects the accused too. A fair process lets them respond and limits who learns the details, which can feel one-sided to the person who reported.",
-      "HR staff who explain the limits of confidentiality at the start, follow a policy that disappoints you, or reach a conclusion you disagree with are doing the job as designed. They are not colluding.",
+      "HR staff who explain the limits of confidentiality at the start are doing the job as designed. So are those who follow a policy that disappoints you, or reach a conclusion you disagree with. They are not colluding.",
       "A finding of 'not substantiated' means the evidence did not meet the standard. It is not the same as being disbelieved.",
       "An under-trained or overloaded HR team producing a slow, clumsy process through lack of capacity.",
       "HR advising a manager on how to handle a case, done openly and fairly to both sides, which is part of the role."
@@ -164,7 +164,7 @@
     "more_concerning_if": [
       "Your report becomes a reason for discipline, a transfer or a performance plan aimed at you.",
       "You are pressed to withdraw the complaint or accept an agreement before you have had advice.",
-      "The harm you reported is still going on, or it involves safety, sexual harassment, discrimination or your income, and the process has not touched it."
+      "The harm you reported is still going on, or it involves safety, sexual harassment, discrimination or your income. The process has not touched it."
     ],
     "pattern_over_time_signs": [
       "Replies to you get shorter and further apart, while the organization's file on the case grows.",
@@ -172,7 +172,7 @@
       "You keep your own notes of every conversation because what was said in meetings does not match what is later written.",
       "You learn that earlier complaints about the same person ended the same way, or that those who made them left."
     ],
-    "repair_check": "Repair would show in the process itself. Witnesses are interviewed, the outcome comes with a written reason, protection from retaliation is put in place, and what you shared is no longer used against you. A warm meeting and an offer of a transfer, with the case itself untouched, only change the mood.",
+    "repair_check": "Repair would show in the process itself. Witnesses are interviewed, and the outcome comes with a written reason. Protection from retaliation is put in place, and what you shared is no longer used against you. A warm meeting and an offer of a transfer, with the case itself untouched, only change the mood.",
     "boundary_respect_check": "Ask whether your request for the process to be explained led to an explanation. A written answer to who has seen your report and what happens next shows the request was respected. Being told it is confidential, or that your questions are slowing things down, suggests it was handled as a nuisance.",
     "psychological_mechanism": "People usually bring complaints to HR trusting that it is neutral, so they share more than they otherwise would. A process can then be shaped by liability concerns while using the language of fairness, which can make unfair treatment look like routine policy. Because each step is defensible alone, the person may end up blaming their own handling of the case.",
     "possible_impact_on_receiver": "Many say they felt betrayed by the one place they were told to go, and regret at having shared details. Some say they stopped trusting any internal process, wondered whether they imagined the harm, or dreaded going to work. Others describe losing sleep over each email and weighing whether to push further or leave a job they need.",
@@ -185,10 +185,10 @@
     },
     "boundary_script": "\"Before we go on, could you tell me in writing who has seen what I reported, what the next steps are, and when I will hear back? I would also like to ask whether I can bring a support person to the next meeting.\"",
     "safety_sensitive": false,
-    "safety_note": "A complaints process that protects the institution is a fairness problem first. Concern rises if retaliation follows the report. Examples are changed hours, lost shifts, a sudden performance plan, or pressure to sign something, especially where income or immigration status depends on the job. If the original harm involved threats, stalking or sexual violence, tell someone outside work too. Keep dated copies of your own notes. Before signing anything, ask an employment lawyer or legal aid clinic about filing deadlines.",
+    "safety_note": "A complaints process that protects the institution is a fairness problem first. Concern rises if retaliation follows the report. Examples are changed hours, lost shifts, a sudden performance plan, or pressure to sign something. This matters most where income or immigration status depends on the job. If the original harm involved threats, stalking or sexual violence, tell someone outside work too. Keep dated copies of your own notes. Before signing anything, ask an employment lawyer or legal aid clinic about filing deadlines.",
     "misuse_warning": [
       "A disappointing outcome is not proof the process was rigged. Treating every unfavorable result as shielding can erode trust in a process that may have been fair.",
-      "Pinning this label on one HR worker can make a problem personal when it usually sits in how the process is built and whom it answers to."
+      "Pinning this label on one HR worker can make a problem personal. It usually sits in how the process is built and whom it answers to."
     ],
     "how_to_distinguish_from_related": "Confidentiality as Weapon uses secrecy to keep you from seeing the accusations or evidence. HR shielding is wider, covering the whole complaint process and where its effort goes. Pressure to Sign is a single push to accept a document on the spot, and may appear inside this pattern. Institutional Betrayal names the harm of being failed by a body you depend on. This one names a single route to it, a complaints function turned toward protecting the organization."
   },
@@ -272,18 +272,18 @@
     ],
     "repair_check": "The limit is respected first, then the label is withdrawn in front of whoever heard it. Someone apologizing for how it came out, while still holding that you have a problem, has changed the tone but not the claim.",
     "boundary_respect_check": "State a limit and see whether the answer is about the limit or about you. 'Okay, I won't ask for that' answers the limit. Any reply that includes a word for your mental state sends the limit back unanswered.",
-    "psychological_mechanism": "Clinical words carry authority, and few people feel qualified to argue with them. When your response is renamed as a symptom, defending it may seem to confirm it. Being told again and again that something is wrong with you can lead you to weigh your own reactions less and the other person's reading more. Others may come to treat your boundaries as optional.",
+    "psychological_mechanism": "Clinical words carry authority, and few people feel qualified to argue with them. When your response is renamed as a symptom, defending it can look like proof of it. Being told again and again that something is wrong with you can lead you to trust your own reactions less. You may trust the other person's reading more. Others may come to treat your boundaries as optional.",
     "possible_impact_on_receiver": "People describe second-guessing normal reactions, apologizing for needing space, and hiding upset so as not to supply evidence. Some look up the terms used about them or ask others whether they are 'too much'. Some describe grief or anger at having been misread for years.",
     "response_options": {
       "soft_clarification": "Ask what they are basing the term on: 'Is there something specific I did that worries you? I'd rather talk about that than a label.'",
       "firm_boundary": "Separate your limit from your health: 'My answer is about the request, not about my mental health. I'm asking you to respect that.'",
       "disengagement": "Do not argue your sanity point by point. Ask for a pause of a few hours or a day, then return to the request in writing.",
       "support_seeking": "Tell a trusted friend, or a clinician of your own choosing, which words are being used about you. Ask whether they match what they see. An outside view helps you check.",
-      "workplace_or_professional": "If a label is used about you at work, school or in a care setting, ask in writing what it is based on and who has seen it. Take it to HR, a union representative or an advocate."
+      "workplace_or_professional": "Someone may use a label about you at work, school or in a care setting. If so, ask in writing what it is based on and who has seen it. Take it to HR, a union representative or an advocate."
     },
     "boundary_script": "\"I understand you're worried, and I want to talk about what actually happened. When you call my answer a symptom, I can't respond to that. What I said was no to this request. Can we stay with the request?\"",
     "safety_sensitive": true,
-    "safety_note": "Watch for the label being used outside the conversation. It may be shared with family, an employer, a school, a doctor or a court, or used to explain why your account should not count. Also watch for talk of treatment you did not ask for. Keep dated copies of messages, and speak to a legal aid service or an advocate before any meeting where the label may come up.",
+    "safety_note": "Watch for the label being used outside the conversation. It may be shared with family, an employer, a school, a doctor or a court. It may also be used to explain why your account should not count. Also watch for talk of treatment you did not ask for. Keep dated copies of messages. Speak to a legal aid service or an advocate before any meeting where the label may come up.",
     "misuse_warning": [
       "Not every mention of mental health about someone is pathologizing. Treating all concern as an attack can leave a person alone when they are struggling.",
       "Applying this label to someone who is sincerely worried about you can turn a hard moment into a rupture. Check whether your limit was actually answered."
@@ -369,19 +369,19 @@
       "Friends comment that you used to be clearer about what you needed."
     ],
     "repair_check": "Listen for whether the speaker can describe your limit in your words, not theirs. Listen for whether the original complaint finally gets a reply, even a disagreeing one. A change shows when they ask 'what was my part?' about themselves in the same talk. Praising your growth while the labels still arrive whenever you say no is not that.",
-    "boundary_respect_check": "Notice whether the limit survives being named. If you say 'I won't discuss that tonight' and the reply is 'okay, thanks for telling me', the boundary is being respected. If the reply is an assessment of why you feel that way, or a fresh psychological term, the limit has become a topic about you.",
+    "boundary_respect_check": "Notice whether the limit survives being named. Say 'I won't discuss that tonight'. If the reply is 'okay, thanks for telling me', the boundary is being respected. If the reply explains why you feel that way, or offers a fresh psychological term, the limit has become a topic about you.",
     "psychological_mechanism": "Clinical words can sound neutral and well informed, so they may be accepted more readily than a plain insult. When a self-protective reaction is described as a symptom, a person can begin to doubt whether their instinct was sound. A claim about your inner life cannot be proven or disproven. Answering it pulls the talk away from the facts, and objecting may seem to prove the point.",
-    "possible_impact_on_receiver": "People describe confusion about whether their limits are healthy, a habit of explaining themselves in clinical terms, and fear that standing firm will confirm a label. Some leave a talk with the problem untouched and a new worry that they might be the problem. Others recall feeling angry only afterward, once they saw that their original complaint was never answered.",
+    "possible_impact_on_receiver": "People describe confusion about whether their limits are healthy. They may explain themselves in clinical terms, and fear that standing firm will confirm a label. Some leave a talk with the problem untouched and a new worry that they might be the problem. Others recall anger only afterward, once they saw that their original complaint was never answered.",
     "response_options": {
       "soft_clarification": "Bring the conversation back to plain words: 'Can we leave the labels aside? I don't want to be shouted at, and that's all I'm asking.'",
       "firm_boundary": "Name what the talk is about: 'I'm asking about the invoice I raised. Please answer that. I'm not going to debate my psychology.'",
       "disengagement": "When each limit you set is met with an analysis, end the exchange. Put the concrete question in writing, in plain language, so it stands on the page.",
       "support_seeking": "Describe the whole exchange, including your original complaint, to a licensed therapist or trusted friend. Ask whether your question was answered.",
-      "workplace_or_professional": "If a manager answers a boundary with terms like 'defensive' or 'not a team player', ask for the specific behavior and the specific request in writing, with a date."
+      "workplace_or_professional": "A manager may answer a boundary with terms like 'defensive' or 'not a team player'. If so, ask for the specific behavior and the specific request in writing, with a date."
     },
     "boundary_script": "\"You may be right that my past plays a part, and I'm open to talking about that another time. Right now I'm asking about the invoice, and I need a break when voices are raised. Can we stay with what happened?\"",
     "safety_sensitive": false,
-    "safety_note": "This pattern on its own is not a physical danger. Take it more seriously if relabeling your limits is used to push you into contact you have said you do not want. The same goes if it keeps you from outside support, or recasts your reports of harm as symptoms. In that case, speak with a licensed counselor who is independent of the person, and keep a dated record of what you said and how it was answered.",
+    "safety_note": "This pattern on its own is not a physical danger. Take it more seriously if they relabel your limits to push you into contact you have said you do not want. The same goes if it keeps you from outside support, or recasts your reports of harm as symptoms. In that case, speak with a licensed counselor who is independent of the person. Keep a dated record of what you said and how it was answered.",
     "misuse_warning": [
       "Turning the label on someone who is honestly sharing a concern about your withdrawal can stop you hearing something true. Ask whether the concern is aimed at understanding you.",
       "Calling any use of therapy words a manipulation would punish people who are trying to learn how to talk about feelings."

@@ -202,7 +202,7 @@
   "The Exception Script": {
     "short_definition": "Telling you that you are uniquely different from everyone around you. Keeping that special status then depends on staying close to the speaker.",
     "core_meaning": "Telling you that you are uniquely different from everyone around you. Keeping that special status then depends on staying close to the speaker.",
-    "expanded_definition": "The exception script is flattery built on contrast. You are not like your friends, peers, family or colleagues. You are the one who truly gets it. It is also known as the pedestal ploy. It can feel wonderful, especially if you have felt overlooked. The trouble is a silent condition. To stay on the pedestal, you may need to keep your distance from the very people you were set apart from, and to avoid questioning the speaker.",
+    "expanded_definition": "The exception script is flattery built on contrast. You are not like your friends, peers, family or colleagues. You are the one who truly gets it. It is also known as the pedestal ploy. It can feel wonderful, especially if you have felt overlooked. The trouble is a silent condition. To stay on the pedestal, you may need to keep your distance from the very people you were set apart from. You may also need to avoid questioning the speaker.",
     "plain_language_summary": "Someone praises you by putting down everyone else in your life. Slowly, being special to them starts to mean being cut off from the people who know you best.",
     "why_this_matters": "Being the exception means having no peers. Your worth depends on staying above the very people who might offer perspective. That can leave you with fewer places to go when something goes wrong.",
     "what_it_is": [
@@ -376,23 +376,23 @@
       "Your sense of which version is real keeps flipping with the weather in the house.",
       "You have started to keep your own record of events because nobody else holds one."
     ],
-    "repair_check": "Change would look like the harsh side no longer needing a hiding place. They treat you the same when unobserved, do not object when you speak to others about what happened, and stop asking you to keep the private version private. A kinder week with the public face intact shows only a pleasant phase.",
+    "repair_check": "Change would look like the harsh side no longer needing a hiding place. They treat you the same when unobserved. They do not object when you speak to others about what happened. They stop asking you to keep the private version private. A kinder week with the public face intact shows only a pleasant phase.",
     "boundary_respect_check": "Notice whether your request is honored when nobody is watching. A boundary kept only in front of guests and dropped at home tells you what it is worth. Compare early weeks with later ones: do the private behaviors continue, even once the public manner has softened?",
-    "psychological_mechanism": "When most people see only the pleasant version, a person on the receiving end can start weighing their own account against everyone else's, and tends to lose. Good phases may feed hope that the harsh phases were not real. The private ones leave no proof. Doubt about what happened, and about who would listen, can keep a person quiet.",
+    "psychological_mechanism": "When most people see only the pleasant version, the person on the receiving end can start weighing their own account against everyone else's. Often their account loses. Good phases may feed hope that the harsh phases were not real. The private ones leave no proof. Doubt about what happened, and about who would listen, can keep a person quiet.",
     "possible_impact_on_receiver": "People describe isolation that feels odd because they are surrounded by people who admire the other person. Some report rehearsing their account for years without telling it, and feeling an odd guilt for describing someone others like. Others say they came to dread praise of the person, and found it hardest to be congratulated for having such a partner.",
     "response_options": {
       "soft_clarification": "Say what you notice without arguing about character: 'You were gentle with my sister today, and this morning you spoke to me very differently. I'd like to understand that.'",
       "firm_boundary": "Ask for a short break rather than a verdict on the person: 'Could we take twenty minutes and try again when it is calmer?'",
       "disengagement": "Stop trying to prove the private side to people who like the public one. Keep your own dated notes where the other person cannot read them.",
       "support_seeking": "Tell one person who can listen without trying to fix or defend. That could be a counselor, a domestic abuse advocate, or a friend outside the shared circle.",
-      "workplace_or_professional": "At work, write down dates, words and witnesses. Bring the record to HR or an ombudsperson (an independent complaints officer), since a charming manner in meetings will not show up on its own."
+      "workplace_or_professional": "At work, write down dates, words and witnesses. Bring the record to HR or an ombudsperson (an independent complaints officer). A charming manner in meetings will not show up in the record on its own."
     },
     "boundary_script": "\"I'd like us to speak to each other at home the way we do in front of other people. I'm not asking you to agree about the past, only about how we talk from here.\"",
     "safety_sensitive": true,
-    "safety_note": "A split like this can sit alongside controlling behavior, threats, or physical harm that stays hidden from outsiders. Warning signs are fear of what happens after guests go home, being told you would not be believed, or having your phone, money or contacts checked. Tell a domestic abuse advocate first. Keep your records somewhere private and out of the home.",
+    "safety_note": "A split like this can sit alongside controlling behavior, threats, or physical harm that stays hidden from outsiders. Warning signs are fear of what happens after guests go home, or being told you would not be believed. Another is having your phone, money or contacts checked. Tell a domestic abuse advocate first. Keep your records somewhere private and out of the home.",
     "misuse_warning": [
-      "Calling a person a Jekyll and Hyde because they were short with you after a hard day turns ordinary mood shifts into a case against their character. The label needs a sustained gap, not a bad evening.",
-      "Using it to tell friends that a well-liked person is secretly cruel, based on your side alone, can spread a verdict the evidence cannot yet support."
+      "Someone may be short with you after a hard day. Calling them a Jekyll and Hyde turns an ordinary mood shift into a case against their character. The label needs a sustained gap, not a bad evening.",
+      "You may tell friends that a well-liked person is secretly cruel, based on your side alone. That can spread a verdict the evidence cannot yet support."
     ],
     "how_to_distinguish_from_related": "Contempt is disgust toward you and can show in public and private alike; this one depends on a gap between the two. Intimidation implies a cost for not complying and needs no split of faces. Flying Monkeys are third parties enlisted to pressure you, while here the audience usually has no idea, and is simply charmed. What is distinctive is that you have no witness who knows the private version."
   }

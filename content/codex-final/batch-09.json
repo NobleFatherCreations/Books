@@ -22,7 +22,7 @@
     "what_it_is_not": [
       "A person who is flooded themselves and says they need twenty minutes, then comes back and hears the whole concern.",
       "A friend who asks, \"Do you need a minute?\" and stays ready to listen either way.",
-      "A group rule that asks everyone to keep voices level so all points can be heard, such as in an emergency room or a debate club.",
+      "A group rule asking everyone to keep voices level so all points can be heard. Examples are an emergency room or a debate club.",
       "Honest worry about someone who seems unwell, offered with no attempt to settle the argument by it.",
       "A real difference in how loudly two people show feeling, where neither one uses that to win."
     ],
@@ -96,7 +96,7 @@
   "Ambient Abuse": {
     "short_definition": "A steady climate of tension, criticism and unpredictability. No single moment looks serious, but the whole leaves a person worn down.",
     "core_meaning": "A steady climate of tension, criticism and unpredictability. No single moment looks serious, but the whole leaves a person worn down.",
-    "expanded_definition": "Instead of a few clear incidents, this is a background mood that a person lives inside: sighs, corrections, changeable tempers, and a sense that something will go wrong soon. Taken one at a time, each moment can be explained away. What marks it is the total effect and the constant bracing. The mood also seems to follow one person's moods or approval. Ordinary stressful periods can look similar for a while.",
+    "expanded_definition": "Instead of a few clear incidents, this is a background mood that a person lives inside. It is made of sighs, corrections, changeable tempers, and a sense that something will go wrong soon. Taken one at a time, each moment can be explained away. What marks it is the total effect and the constant bracing. The mood also seems to follow one person's moods or approval. Ordinary stressful periods can look similar for a while.",
     "plain_language_summary": "There is no big fight to point to. It is the sighs, the sharp tone, and the need to guess the mood. You end up tired all the time and cannot say why.",
     "why_this_matters": "There is nothing to quote, so you cannot explain the exhaustion to anyone, yourself included. You stay braced without being able to say what for.",
     "what_it_is": [
@@ -190,11 +190,11 @@
   "Ambient Sexual Threat": {
     "short_definition": "A sexually charged or menacing atmosphere around a person, kept alive by repeated small signals. The person stays on guard with nothing definite to report.",
     "core_meaning": "A sexually charged or menacing atmosphere around a person, kept alive by repeated small signals. The person stays on guard with nothing definite to report.",
-    "expanded_definition": "This describes a climate rather than a single act: remarks about your body, lingering looks, jokes with a sexual edge, someone appearing near you more often than seems accidental. Any one of these can be explained as clumsiness or humor. The pattern is in the total effect. A person begins to rearrange their route, schedule or clothing around someone. It does not show what anyone intended, only what the person living in those surroundings experiences.",
+    "expanded_definition": "This describes a climate rather than a single act. It includes remarks about your body, lingering looks, jokes with a sexual edge, and someone appearing near you more often than seems accidental. Any one of these can be explained as clumsiness or humor. The pattern is in the total effect. A person begins to rearrange their route, schedule or clothing around someone. It does not show what anyone intended. It shows only what the person living in those surroundings experiences.",
     "plain_language_summary": "Nothing happens that you could report, yet you are always aware of one person. You change where you go, when you leave and who comes with you.",
     "why_this_matters": "You may reorganize your movements, schedule and attention around one person. Meanwhile you hold nothing concrete enough to report, or even to explain to a friend.",
     "what_it_is": [
-      "A repeated set of small signals that add up to unease, such as comments on your appearance, jokes with a sexual edge, or staying close to you.",
+      "A repeated set of small signals that add up to unease. Examples are comments on your appearance, jokes with a sexual edge, or staying close to you.",
       "This differs from a single act, because each piece is easy to deny or dismiss. The effect lives in the repetition.",
       "Seen at work, in schools, in shared housing, in congregations, and in families and friend groups.",
       "Often leaves a person planning around it: taking another stairwell, bringing a friend, avoiding a room."
@@ -267,10 +267,10 @@
     "possible_impact_on_receiver": "People describe taking longer routes, leaving early, dressing to draw less attention, and feeling embarrassed that they cannot explain it. Some talk about doubting their own sense of what is happening, and about the tiredness of staying watchful in places that should be ordinary. Others describe anger at having to plan their day around another person's presence.",
     "response_options": {
       "soft_clarification": "If you feel safe, say one thing plainly and briefly: \"Comments about my body make me uncomfortable.\" You do not need to argue the point.",
-      "firm_boundary": "If you feel safe, state it once without softening, then write down the date and the words you used: \"I do not want comments about my appearance. Please stop.\"",
+      "firm_boundary": "If you feel safe, state it once without softening. Then write down the date and the words you used: \"I do not want comments about my appearance. Please stop.\"",
       "disengagement": "Where you can, avoid being alone with them, bring a colleague or friend, and use routes and times that keep other people around.",
       "support_seeking": "Tell someone you trust what you have noticed, even if it sounds small. Ask them to keep a record with you of dates and what was said.",
-      "workplace_or_professional": "Write down each incident with date, place, words and witnesses. Bring the record to HR, a union rep, a school office or an ombudsperson (an independent complaints officer), and present it as a pattern rather than separate incidents."
+      "workplace_or_professional": "Write down each incident with date, place, words and witnesses. Bring the record to HR, a union rep, a school office or an ombudsperson (an independent complaints officer). Present it as a pattern rather than separate incidents."
     },
     "boundary_script": "\"Please stop commenting on my appearance. I would like to keep our conversations about the work.\" If you do not feel safe, skip it and keep a record.",
     "safety_sensitive": true,

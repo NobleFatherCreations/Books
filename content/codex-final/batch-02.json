@@ -266,7 +266,7 @@
     ],
     "repair_check": "Pay attention to how they talk about their next opinion. Real change sounds like 'that's how I see it' or 'I haven't checked that', and a willingness to be corrected in front of you. If the word 'objective' just appears less often while your views are still treated as feelings, nothing underneath has shifted.",
     "boundary_respect_check": "State your view as a view and see if it gets a place at the table. Does your 'I disagree, and here's why' get a reply about the reasons, or about your emotional state? What comes back to you shows whether the room has space for more than one voice.",
-    "psychological_mechanism": "People often defer to those who sound certain, because confidence is commonly taken as a sign of knowledge. When a view is framed as fact, disagreeing can look like admitting an error or showing emotion. Hearing this again and again may lead a person to doubt that their own reasoning counts, particularly in areas where they have less formal expertise.",
+    "psychological_mechanism": "People often defer to those who sound certain. Confidence is commonly taken as a sign of knowledge. When a view is framed as fact, disagreeing can look like admitting an error or showing emotion. Hearing this again and again may lead a person to doubt that their own reasoning counts. This is more likely in areas where they have less formal expertise.",
     "possible_impact_on_receiver": "Some feel shut down mid-sentence, then second-guess a view they held a moment before and wonder if they are just too sensitive. Some go along with decisions they privately disagreed with, because arguing felt pointless. Others pick up a habit of looking things up in secret, to check whether they were the one in the wrong.",
     "response_options": {
       "soft_clarification": "Ask for the basis, plainly: 'What is that based on? I'd like to look at it too.' A real source is easy to share.",
@@ -277,7 +277,7 @@
     },
     "boundary_script": "\"You sound very sure. I'd still like to know what this is based on, because from where I stand it looks like one way of seeing it. I'm not being emotional, I'm disagreeing. Can we look at the evidence together?\"",
     "safety_sensitive": false,
-    "safety_note": "This is a communication problem, not usually a danger. It matters more when 'objective fact' is used to override your medical care, your finances or your contact with others. It also matters more when disagreeing brings threats or punishment. If that is happening, ask an independent professional, such as a doctor, a financial counselor or a legal aid service, to check the claim directly with you.",
+    "safety_note": "This is a communication problem, not usually a danger. It matters more when 'objective fact' is used to override your medical care. The same goes for your finances or your contact with others. It also matters more when disagreeing brings threats or punishment. If that is happening, ask an independent professional to check the claim directly with you. This could be a doctor, a financial counselor or a legal aid service.",
     "misuse_warning": [
       "Calling every confident person a false authority can brush aside real expertise. Some people do know more, and the test is whether they will show their basis.",
       "It is easy to label someone's view as 'just an opinion' to dismiss a point that is well supported. Check the evidence before using the term."
@@ -307,7 +307,7 @@
     ],
     "what_it_is_not": [
       "A conflict in which both people did contribute in a similar degree, and each can name their part in detail.",
-      "Someone adding their own smaller mistake to the account, as in 'I was wrong to snap at you, and I also need to talk about the money'.",
+      "Someone adding their own smaller mistake to the account. For example: 'I was wrong to snap at you, and I also need to talk about the money'.",
       "A mediator who encourages both parties to look at their own role, as a process step before sorting out size.",
       "A true statement that nobody is perfect, said alongside an honest account of what each person did.",
       "A group project or team failure where responsibility really is spread across many people."
@@ -372,7 +372,7 @@
     },
     "boundary_script": "\"I do own what I did, and I'm willing to talk about it separately. But what happened with the money is a different size from what I said that night, and I won't call them equal. Let's deal with that one first.\"",
     "safety_sensitive": false,
-    "safety_note": "False Equivalence is not a danger signal by itself. It can be used to make real harm sound mutual, though. If the 'both sides' framing is applied to violence, threats, or control of money or contact, a calm talk is not the right place to sort it out. Speak to a domestic abuse advocate or a legal aid service that can look at the full account before you agree to any shared-fault version.",
+    "safety_note": "False Equivalence is not a danger signal by itself. It can be used to make real harm sound mutual, though. Suppose the 'both sides' framing is applied to violence, threats, or control of money or contact. A calm talk is not the right place to sort that out. Speak to a domestic abuse advocate or a legal aid service before you agree to any shared-fault version. They can look at the full account.",
     "misuse_warning": [
       "Treating every 'we both' as a dodge can make you resist honest self-examination. In many conflicts you do hold a real share, and owning it is a strength.",
       "Using the label to avoid ever being asked about your own part turns an observation into a shield."
@@ -567,6 +567,6 @@
       "Reading every 'I don't mind' as a trap can make you miss someone who truly is easygoing. Look for the later criticism, not the shrug.",
       "Pushing a tired or depressed person to state preferences can add to their burden. Ask first whether they are struggling."
     ],
-    "how_to_distinguish_from_related": "Blame-Shifting moves fault for something that went wrong onto you after the fact, while Strategic Apathy sets up the position beforehand by leaving you as the only decider. Minimization says your concern is small. Here the person says their own opinion is small. Denial refuses to admit a problem, and this one does not even stake out a position that could be denied."
+    "how_to_distinguish_from_related": "Blame-Shifting moves fault for something that went wrong onto you after the fact. Strategic Apathy sets up the position beforehand, by leaving you as the only decider. Minimization says your concern is small. Here the person says their own opinion is small. Denial refuses to admit a problem. This one does not even stake out a position that could be denied."
   }
 }
