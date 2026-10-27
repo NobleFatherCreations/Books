@@ -21,7 +21,7 @@
       "Marcus says you've been talking behind my back."
     ],
     "what_it_is_not": [
-      "A person who says 'I talked this over with my sister and she gave me a useful angle', and who owns the view as their own.",
+      "A person who says 'I talked this over with my sister and she gave me a useful angle'. That person owns the view as their own.",
       "A group conversation, such as a family meeting, that everyone knowingly joined to settle something together.",
       "A caring group raising a worry directly and openly with someone, such as friends speaking up about a risky situation.",
       "Venting to a close friend after a hard day, with no plan to bring the friend's opinion back as proof.",
@@ -175,14 +175,14 @@
     "possible_impact_on_receiver": "People describe saying yes and resenting it later. They describe feeling bound by promises they cannot remember making, and a quiet guilt whenever they want something separate. Some say they stopped being able to tell their own wishes from the team's. Some describe relief when a team they never chose finally let them go.",
     "response_options": {
       "soft_clarification": "Separate the invitation from the assumption: 'I didn't realize we'd agreed on this. Can you tell me what you're hoping I'll do?'",
-      "firm_boundary": "Decline the part you do not want, and leave the relationship intact: 'I'm glad to help with that piece, but I'm not signing up for the rest.'",
+      "firm_boundary": "Decline the part you do not want, and leave the relationship intact. For example: 'I'm glad to help with that piece, but I'm not signing up for the rest.'",
       "disengagement": "Step back from the shared project or group chat for a while, without explaining your whole case. Then see whether the 'we' still stands without you.",
       "support_seeking": "Tell a friend outside the group exactly what you were expected to do and ask if it sounds like something you agreed to.",
       "workplace_or_professional": "Before taking on shared work, ask for roles, deadlines and decision rights in writing. Then note in an email what you accepted and what you did not."
     },
     "boundary_script": "\"I like working with you, and I also need to be asked before I'm counted in. I'm in for this part. I'm not agreeing to the rest, and I'd like us to talk about it as two separate people.\"",
     "safety_sensitive": false,
-    "safety_note": "A forced 'we' alone is not usually dangerous. It becomes serious when the shared cause is used to get access to your money, accounts, home or immigration papers, or to keep you from outside contact. If joint finances or secrecy are involved, a legal aid service or a financial counselor can help you review the arrangement before you sign anything more.",
+    "safety_note": "A forced 'we' alone is not usually dangerous. It becomes serious when the shared cause is used to get access to your money, accounts, home or immigration papers. It is also serious when it is used to keep you from outside contact. If joint finances or secrecy are involved, a legal aid service or a financial counselor can help. They can review the arrangement with you before you sign anything more.",
     "misuse_warning": [
       "Calling any enthusiastic 'we' manipulation can make you suspicious of normal teamwork and of people who are simply eager.",
       "Using the label to avoid commitments you did agree to turns a real pattern into an excuse."
@@ -192,7 +192,7 @@
   "\"We're Family\" Erasure": {
     "short_definition": "Using family loyalty to make fairness, limits and the right to say no seem not to apply between relatives.",
     "core_meaning": "Using family loyalty to make fairness, limits and the right to say no seem not to apply between relatives.",
-    "expanded_definition": "This pattern uses the word 'family' as a trump card. A request is made for money, labor, time or silence. A limit is answered with 'but we're family', as though the bond cancels the limit. Family can mean real generosity, and giving freely to relatives is common and good. It becomes erasure when the bond is used mainly to override a no, when the giving runs one way, and when asking for fairness is treated as proof you do not love them.",
+    "expanded_definition": "This pattern uses the word 'family' as a trump card. A request is made for money, labor, time or silence. A limit is answered with 'but we're family', as though the bond cancels the limit. Family can mean real generosity, and giving freely to relatives is common and good. It becomes erasure when the bond is used mainly to override a no. It is also erasure when the giving runs one way. And it is erasure when asking for fairness is treated as proof you do not love them.",
     "plain_language_summary": "A relative says 'we're family' to shut down your limit or your sense of what is fair. The closeness becomes a reason you cannot say no.",
     "why_this_matters": "The people you love most can be the hardest to refuse. When the family bond is used to cancel every limit, you may give up money, time and peace. You may feel guilty for even wanting fairness.",
     "what_it_is": [
@@ -277,7 +277,7 @@
     },
     "boundary_script": "\"I do love you, and being family doesn't change what I'm able to give. I can't do this one, and I'd rather say so plainly than say yes and resent it. Let's find something that works for both of us.\"",
     "safety_sensitive": false,
-    "safety_note": "Usually this is a painful family dynamic and not an emergency. It turns more serious when 'family' is used to get your signature on loans or property, to take your income, or to put children or housing at stake. Before signing anything, speak with a legal aid service or a financial counselor. Keep copies of what you were asked to sign.",
+    "safety_note": "Usually this is a painful family dynamic and not an emergency. It turns more serious when 'family' is used to get your signature on loans or property. It is also more serious when it is used to take your income, or to put children or housing at stake. Before signing anything, speak with a legal aid service or a financial counselor. Keep copies of what you were asked to sign.",
     "misuse_warning": [
       "Calling every family request 'erasure' can leave you cut off from relatives who simply need help and ask in a clumsy way.",
       "Using the phrase to cover a limit you could have discussed gently can harden a conflict that a calm talk might settle."
@@ -287,7 +287,7 @@
   "Concern Trolling": {
     "short_definition": "Voicing worry for someone's wellbeing as cover for telling them what to do, so that refusing the advice looks like harming themselves.",
     "core_meaning": "Voicing worry for someone's wellbeing as cover for telling them what to do, so that refusing the advice looks like harming themselves.",
-    "expanded_definition": "Concern Trolling wraps a directive in the language of care. The speaker says they are worried, and the worry always leads to a specific instruction about your job, your body, your partner or your choices. If you decline, you are told that you are being reckless or in denial. That makes it hard to push back without looking careless. Real concern is offered once and leaves the decision with you. Here the worry keeps pointing toward what the speaker wants.",
+    "expanded_definition": "Concern Trolling wraps a directive in the language of care. The speaker says they are worried. The worry always leads to a specific instruction. It might be about your job, your body, your partner or your choices. If you decline, you are told that you are being reckless or in denial. That makes it hard to push back without looking careless. Real concern is offered once and leaves the decision with you. Here the worry keeps pointing toward what the speaker wants.",
     "plain_language_summary": "Someone says they are worried about you, but the worry always ends in an order. If you say no, they act as if you are hurting yourself.",
     "why_this_matters": "Care is hard to argue with, so a directive dressed as care leaves you with two bad choices. You can comply, or be treated as someone who cannot look after themselves. Over time you may stop trusting your own judgment.",
     "what_it_is": [
@@ -372,7 +372,7 @@
     },
     "boundary_script": "\"I can tell you care, and I'm grateful. I've thought about what you said, and I'm making a different choice. I'd like you to trust me with it, and I'll tell you if I want your help.\"",
     "safety_sensitive": false,
-    "safety_note": "Worry about someone is normally harmless. Take it more seriously if the 'concern' is used to justify checking your phone, controlling your money, deciding who you see, or escalating when you decline. If that begins, talk with someone outside the relationship, such as a counselor or a domestic abuse advocate, about what you are experiencing.",
+    "safety_note": "Worry about someone is normally harmless. Take it more seriously if the 'concern' is used to justify checking your phone or controlling your money. Take it more seriously too if it is used to justify deciding who you see, or escalating when you decline. If that begins, talk with someone outside the relationship, such as a counselor or a domestic abuse advocate. Tell them what you are experiencing.",
     "misuse_warning": [
       "Dismissing every worried friend as a concern troll can leave you ignoring a warning you needed to hear. Real concern is common.",
       "Using the label to wave off a doctor, therapist or someone with relevant experience can cost you good advice."

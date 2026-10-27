@@ -195,7 +195,7 @@
   "Location Tracking": {
     "short_definition": "Requiring a person to keep their live location visible. Any gap in it is treated as a problem to be explained.",
     "core_meaning": "Requiring a person to keep their live location visible. Any gap in it is treated as a problem to be explained.",
-    "expanded_definition": "Location tracking is the use of shared maps, location apps or trackers as a rule of the relationship. Your dot has to stay on, and a gap needs an explanation. Many couples and families share location because they want to, and can stop. What marks the pattern is that sharing is required, one-way or punished when switched off. One request for your location is ordinary. The line is crossed when stops are questioned, an off switch brings a fight, and where you go starts to depend on what you could explain.",
+    "expanded_definition": "Location tracking is the use of shared maps, location apps or trackers as a rule of the relationship. Your dot has to stay on, and a gap needs an explanation. Many couples and families share location because they want to, and can stop. What marks the pattern is that sharing is required, one-way or punished when switched off. One request for your location is ordinary. The line is crossed when stops are questioned and an off switch brings a fight. It is also crossed when where you go starts to depend on what you could explain.",
     "plain_language_summary": "Someone insists on seeing where you are at all times. If you turn your location off, or are somewhere unexpected, it leads to questions or a fight.",
     "why_this_matters": "When every stop might be questioned, ordinary choices start to feel risky. You may drop errands, visits or detours, not because anyone forbade them, but because explaining them has become tiring or frightening.",
     "what_it_is": [
@@ -268,7 +268,7 @@
       "Places you used to visit freely quietly drop off your routine.",
       "A rule that began as a one-time safety measure becomes permanent without any new conversation."
     ],
-    "repair_check": "Real repair is the switch actually being yours. Sharing is optional, it can be off without comment, and the questions about stops disappear. If the app stays on 'for safety' and the questions move to your phone calls or your receipts, the tracking has changed form and not ended.",
+    "repair_check": "Real repair is the switch actually being yours. Sharing is optional, it can be off without comment, and the questions about stops disappear. Suppose the app stays on 'for safety' and the questions move to your phone calls or your receipts. Then the tracking has changed form and not ended.",
     "boundary_respect_check": "Ask yourself how the person behaves in the hour after your location goes off. Calm or curious is one thing. Pressure to turn it back on, a barrage of calls, or an accusation tells you the choice was never really yours.",
     "psychological_mechanism": "When a person knows their movements are visible, they can begin to rehearse explanations in advance. They may avoid places they would find hard to explain. The self-restriction can come to feel like their own idea. The requirement may also be framed as proof of love or safety, which can make refusing seem like rejecting the relationship itself.",
     "possible_impact_on_receiver": "A low hum of anxiety about the phone battery, leaving the phone behind, and feeling watched even when alone are common reports. Some trimmed their day to what could be defended. Some felt guilty about wanting to be unobserved. Others felt relief when a friend or counselor pointed out that a dot on a map is not the same thing as trust.",
@@ -367,7 +367,7 @@
     "repair_check": "Look for rules being given back to you. If the person asks instead of tells, accepts your no without payback, and loosens one thing without tightening another, that is a change. A promise to be 'less strict' while the same punishments remain only reshuffles the rulebook.",
     "boundary_respect_check": "Test a small, safe choice: wear what you like to a low-stakes event and note what follows. A shrug or a question shows a boundary at work. Sulking, interrogation or a new rule shows the limit was being treated as a dare, not as your decision.",
     "psychological_mechanism": "Rules enforced by anger or silence can teach a person to expect a reaction and avoid it. Nobody has to repeat the rule. Each time you go along, the next request can look small, so the rules can grow bit by bit. Someone may call a rule care, modesty or loyalty. Then objecting can feel unkind or ungrateful.",
-    "possible_impact_on_receiver": "Reports include checking an outfit or a plan against how someone else might react, avoiding people or places that cause arguments, and losing sight of what you like. Some people end up enforcing the rules on themselves. Others feel ashamed of having gone along with it, or feel like a guest in their own life.",
+    "possible_impact_on_receiver": "Reports include checking an outfit or a plan against how someone else might react. They also include avoiding people or places that cause arguments, and losing sight of what you like. Some people end up enforcing the rules on themselves. Others feel ashamed of having gone along with it, or sense that they are a guest in their own life.",
     "response_options": {
       "soft_clarification": "Separate the feeling from the rule: 'If it bothers you, I'd like to hear that. But what I wear is my decision.' Gauge how they have reacted before choosing to say it.",
       "firm_boundary": "Pick one thing that is clearly yours, such as a friendship or a haircut. Keep it without explaining it every time, if you judge it safe.",
@@ -387,7 +387,7 @@
   "Infantilization": {
     "short_definition": "Treating a capable adult as if they cannot manage their own money, tasks or decisions, and taking those over.",
     "core_meaning": "Treating a capable adult as if they cannot manage their own money, tasks or decisions, and taking those over.",
-    "expanded_definition": "Infantilization is treating a grown person like a child who needs supervising. Someone speaks for them, takes over their bills, appointments or paperwork, praises small tasks, or sighs at their mistakes. One offer of help with something new is ordinary. It stands out when the assumption of incompetence is broad, stays in place after you have shown you can do the task, and is hard to refuse. Over time the person can lose both practice and confidence, which then seems to prove the point.",
+    "expanded_definition": "Infantilization is treating a grown person like a child who needs supervising. Someone speaks for them, takes over their bills, appointments or paperwork, praises small tasks, or sighs at their mistakes. One offer of help with something new is ordinary. It stands out when the assumption of incompetence is broad and is hard to refuse. It also stands out when it stays in place after you have shown you can do the task. Over time the person can lose both practice and confidence, which then seems to prove the point.",
     "plain_language_summary": "Someone talks and acts as though you can't handle adult life. They take over your jobs and decisions, and you end up feeling less able than you are.",
     "why_this_matters": "Skills and confidence both fade when they are not used. If a person is told often enough that they cannot cope, they may stop trying. They may end up unable to manage money, paperwork or decisions they once handled well.",
     "what_it_is": [
@@ -473,7 +473,7 @@
     },
     "boundary_script": "\"Wanting to help is kind of you. I want to do this one myself, and I'll ask if I get stuck. Could you show me where everything is?\"",
     "safety_sensitive": true,
-    "safety_note": "Take extra care if you cannot see or reach your own money, ID, medication or documents, or if you are told you are not allowed to decide. These can lead to loss of income, housing or independence, particularly for older adults and people with disabilities. Reach out to an advocate, adult protective services where they exist, or a legal aid service. Make copies of your key documents somewhere the other person cannot get to.",
+    "safety_note": "Take extra care if you cannot see or reach your own money, ID, medication or documents. Take care too if you are told you are not allowed to decide. These can lead to loss of income, housing or independence, particularly for older adults and people with disabilities. Reach out to an advocate, adult protective services where they exist, or a legal aid service. Make copies of your key documents somewhere the other person cannot get to.",
     "misuse_warning": [
       "Calling every offer of help 'infantilizing' can punish people who are simply trying to be useful. It can also push away real support during illness or grief.",
       "Using the label about care for someone with a real impairment can overlook their need for assistance. The test is whether they are still included, not whether help is given."
@@ -483,7 +483,7 @@
   "\"I Know Best\" Paternalism": {
     "short_definition": "Overriding another adult's choices in the name of what is good for them, and expecting them to be grateful.",
     "core_meaning": "Overriding another adult's choices in the name of what is good for them, and expecting them to be grateful.",
-    "expanded_definition": "This is the habit of deciding for another adult what is good for them and acting on it, often alongside real affection. Advice turns into steering, and steering into pressure. A decision you made is quietly undone or ignored. One piece of advice is ordinary, and a person who knows more than you may be right. It stands out when your refusal is not accepted, when your choice is reversed behind your back, or when the relationship cools if you decide differently.",
+    "expanded_definition": "This is the habit of deciding for another adult what is good for them, and acting on it. It often comes with real affection. Advice turns into steering, and steering into pressure. A decision you made is quietly undone or ignored. One piece of advice is ordinary, and a person who knows more than you may be right. It stands out when your refusal is not accepted or your choice is reversed behind your back. It also stands out when the relationship cools if you decide differently.",
     "plain_language_summary": "Someone says they are acting for your good, but they do not accept your decision when you say no. They keep pushing or work around you.",
     "why_this_matters": "Care that cannot accept your no is hard to turn down, because refusing can feel ungrateful. Over time you may stop trusting your own judgment, or stop telling the person what you are deciding.",
     "what_it_is": [
@@ -562,7 +562,7 @@
     "possible_impact_on_receiver": "People describe guilt for refusing someone who 'means well', frustration at not being heard, and hesitation to share news in case it is overruled. Some say they began making decisions in secret. Some describe doubting their judgment, especially when the person was often right. Some feel grief at a relationship that only works when they agree.",
     "response_options": {
       "soft_clarification": "Acknowledge the care and keep the decision: 'I know you're worried because you care. I've thought it through, and I'm going ahead.'",
-      "firm_boundary": "Say you will not discuss the choice again, and then stick to that: 'I've made my decision, and I'm not going to go over it again. I'd love to talk about anything else.'",
+      "firm_boundary": "Say you will not discuss the choice again, and then stick to that. For example: 'I've made my decision, and I'm not going to go over it again. I'd love to talk about anything else.'",
       "disengagement": "Move to topics other than the decision, and share news after it is done, not before, if the debates drain you.",
       "support_seeking": "Ask someone who knows both of you whether your decision seems reasonable. An outside view can check your judgment without handing it over.",
       "workplace_or_professional": "When a supervisor or professional overrides you, ask for the reasons and the alternatives in writing. Say clearly which decisions belong to you."

@@ -173,7 +173,7 @@
       "The same phrases come back attached to new topics.",
       "You start apologizing for unspecified things and adjusting your behavior to fit guesses."
     ],
-    "repair_check": "Real repair is a name or a description arriving. That could be the actual behavior ('Tuesday's meeting, the way the budget was challenged') or an honest 'I have no specifics and I shouldn't have said it that way'. A softer repeat of the same hint in a warmer tone is not repair.",
+    "repair_check": "Real repair is a name or a description arriving. That could be the actual behavior ('Tuesday's meeting, the way the budget was challenged'). It could also be an honest 'I have no specifics and I shouldn't have said it that way'. A softer repeat of the same hint in a warmer tone is not repair.",
     "boundary_respect_check": "Notice what happens to your question, 'Can you tell me what was said?' A respectful reply gives something, or says honestly why it can't. If the question itself is treated as proof that something is wrong with you, the boundary was not respected.",
     "psychological_mechanism": "An unspecific accusation leaves a gap, and the mind often fills gaps with its own worst fears. With nothing concrete to check, it can keep searching and turn ordinary events into possible clues. Not knowing who is involved can make everyone in the room a possible source. This may lead to withdrawing from the people who could have helped.",
     "possible_impact_on_receiver": "People describe rereading old messages, replaying conversations and watching coworkers' faces for signs. Some change their behavior to fit guesses about the complaint, and some pull back from groups where they think the talk is happening. Feeling judged without a hearing can be painful in its own right.",
@@ -186,7 +186,7 @@
     },
     "boundary_script": "\"I take it seriously if people have concerns. I can't respond to something I haven't been told, though. If you can describe what happened, even without names, I'll listen and answer it properly.\"",
     "safety_sensitive": false,
-    "safety_note": "A vague claim alone is mostly a strain on your reputation and your feelings. It becomes more serious if it is tied to consequences you can't see coming, such as a looming dismissal, a custody dispute or a housing review. Then ask in writing what is being claimed. Bring in a union representative, employment adviser or lawyer before any meeting where you are expected to answer.",
+    "safety_note": "A vague claim alone is mostly a strain on your reputation and your feelings. It becomes more serious if it is tied to consequences you can't see coming. Examples are a looming dismissal, a custody dispute or a housing review. Then ask in writing what is being claimed. Bring in a union representative, employment adviser or lawyer. Do this before any meeting where you are expected to answer.",
     "misuse_warning": [
       "Calling every cautious or confidential remark a 'vague allegation' can punish people who are protecting a source for good reason.",
       "Demanding names from someone relaying a real concern can put the person who raised it at risk."

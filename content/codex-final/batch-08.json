@@ -2,7 +2,7 @@
   "Contempt": {
     "short_definition": "Treating someone with open disgust or superiority. It is aimed at who they are, not at anything they did.",
     "core_meaning": "Treating someone with open disgust or superiority. It is aimed at who they are, not at anything they did.",
-    "expanded_definition": "Contempt is disgust or scorn pointed at a person's worth. It can be spoken, but it also shows in the face and body, like an eye-roll, a curled lip, or a mocking imitation of how you talk. Anger says 'what you did was wrong'. Contempt says 'you are beneath me'. One sneer in a bad argument is common. It becomes a concern when this tone is the usual way you are spoken to about ordinary things.",
+    "expanded_definition": "Contempt is disgust or scorn pointed at a person's worth. It can be spoken. It also shows in the face and body. Examples are an eye-roll, a curled lip, or a mocking imitation of how you talk. Anger says 'what you did was wrong'. Contempt says 'you are beneath me'. One sneer in a bad argument is common. It becomes a concern when this tone is the usual way you are spoken to about ordinary things.",
     "plain_language_summary": "Contempt is when someone looks down on you with disgust, so the message is not 'that was wrong' but 'you are beneath me'.",
     "why_this_matters": "You can answer anger about an action with an apology or a fix. Scorn for who you are leaves nothing to fix. It can leave you feeling lower and more guarded, and less willing to bring up any problem at all.",
     "what_it_is": [
@@ -75,7 +75,7 @@
       "Warm moments get rarer and the remaining ones feel like a pause between sneers.",
       "People close to you start to mimic the same tone, or visibly wince when it happens."
     ],
-    "repair_check": "Change shows up in the face and voice before it shows up in promises. A person who is working on this catches the eye-roll halfway, asks what they missed about you, and speaks to you as an equal on a normal Tuesday. A big apology followed by the same sneer on Friday is not that.",
+    "repair_check": "Change shows up in the face and voice before it shows up in promises. A person who is working on this catches the eye-roll halfway. They ask what they missed about you, and speak to you as an equal on a normal Tuesday. A big apology followed by the same sneer on Friday is not that.",
     "boundary_respect_check": "State once that you want to be spoken to without mockery, then watch what the next ordinary disagreement looks like. Do the tone and expression soften without being reminded? Or does your request become the next thing to roll eyes about?",
     "psychological_mechanism": "Being looked down on can hurt a person's sense of standing. People read faces and tone quickly, often before they can name what they saw. When scorn comes from someone whose opinion matters, it can sink in as information about your worth. The nonverbal parts are hard to quote back, so they can be harder to object to.",
     "possible_impact_on_receiver": "People describe flinching at a certain look, going quiet in a room, and rehearsing how to avoid being laughed at. They also describe feeling lower than the people around them. Some find they start using the same scorn on themselves, or on others. Many say it was hard to name because no single sentence seemed bad enough to quote.",
@@ -88,7 +88,7 @@
     },
     "boundary_script": "\"I can take disagreement, and I can take being told I got something wrong. What I can't do is talk while being looked at like I'm disgusting. If you tell me the actual problem, I'll work on it with you.\"",
     "safety_sensitive": false,
-    "safety_note": "Contempt on its own is a painful way of treating someone, not a sign of physical danger. That would change if scorn starts arriving with threats, with control of money or movement, or with a drop in your sense that it is safe to disagree. If that happens, talk to a counselor or a domestic abuse advocate before you try to reshape the relationship.",
+    "safety_note": "Contempt on its own is a painful way of treating someone, not a sign of physical danger. That would change if scorn starts arriving with threats, or with control of money or movement. It would also change if you lose your sense that it is safe to disagree. If that happens, talk to a counselor or a domestic abuse advocate before you try to reshape the relationship.",
     "misuse_warning": [
       "Labeling any eye-roll or sarcasm as contempt can turn ordinary irritation into a charge. Look for scorn aimed at worth that repeats, not a bad moment.",
       "Telling someone 'you are being contemptuous' mid-argument often becomes its own put-down. Describe the behavior you saw instead."
@@ -98,7 +98,7 @@
   "Name-Calling Disguised as Humor": {
     "short_definition": "Putting an insult or demeaning label inside a joke, so that if you object, you can be accused of overreacting.",
     "core_meaning": "Putting an insult or demeaning label inside a joke, so that if you object, you can be accused of overreacting.",
-    "expanded_definition": "This is an insult dressed as a joke. The joke frame lets the speaker say something cutting. Then any hurt is treated as the listener's fault for lacking a sense of humor. A single clumsy joke means little, and plenty of friends tease each other and enjoy it. The pattern is a tease that always lands on the same person, stings under the laugh, and keeps coming after you say it does not feel funny.",
+    "expanded_definition": "This is an insult dressed as a joke. The joke frame lets the speaker say something cutting. Then any hurt is treated as the listener's fault for lacking a sense of humor. A single clumsy joke means little, and plenty of friends tease each other and enjoy it. The pattern is a tease that always lands on the same person and stings under the laugh. It keeps coming after you say it does not feel funny.",
     "plain_language_summary": "Someone says something insulting and wraps it in 'just kidding', so if you are hurt, you become the person who cannot take a joke.",
     "why_this_matters": "You are left with two bad choices: swallow the sting or be labeled humorless. Over time, many people stop objecting, and that silence can be mistaken by everyone, including you, for being fine with it.",
     "what_it_is": [
@@ -194,7 +194,7 @@
   "Comparative Devaluation": {
     "short_definition": "Holding a person up against someone else, again and again, in a way that always leaves them coming up short.",
     "core_meaning": "Holding a person up against someone else, again and again, in a way that always leaves them coming up short.",
-    "expanded_definition": "Comparative devaluation is measuring someone against a third person, such as a sibling, an ex, a coworker or a stranger online. The result is always that they fall short. A single comparison can be a clumsy way of saying what someone wants. The pattern is when comparing is the main way of voicing a need, the people used keep changing, and nothing you do ever puts you ahead.",
+    "expanded_definition": "Comparative devaluation is measuring someone against a third person. That might be a sibling, an ex, a coworker or a stranger online. The result is always that they fall short. A single comparison can be a clumsy way of saying what someone wants. The pattern is when comparing is the main way of voicing a need. The people used keep changing. Nothing you do ever puts you ahead.",
     "plain_language_summary": "Someone keeps pointing to other people who do things better, so you feel you are never quite enough, no matter what you do.",
     "why_this_matters": "A comparison with no finish line cannot be won, because there is always another person who seems better. It can wear down confidence and also harm your relationships with the people you are being compared to.",
     "what_it_is": [
@@ -214,7 +214,7 @@
       "I wish you had half of his drive."
     ],
     "what_it_is_not": [
-      "A person describing what they need by using someone they know as an example: 'Could you handle the school forms the way Sam does for his kids?'",
+      "A person describing what they need by using someone they know as an example. They might say 'Could you handle the school forms the way Sam does for his kids?'",
       "A teacher or manager showing an example of a good result as a model, without ranking you against a named person.",
       "Admiration for a friend that is not meant as a rebuke and not tied to your shortcomings.",
       "One careless comment after a rough day, quickly regretted.",
@@ -386,7 +386,7 @@
   "Shame Installation": {
     "short_definition": "Treating a person's mistake as proof that something is wrong with them as a whole, so shame replaces guilt.",
     "core_meaning": "Treating a person's mistake as proof that something is wrong with them as a whole, so shame replaces guilt.",
-    "expanded_definition": "Guilt says 'I did something bad'. Shame says 'I am bad'. Shame installation is the repeated move from the first to the second. A mistake is treated as a verdict on the whole person, until the shame lives inside them and keeps working when the other person is not there. One harsh 'what is wrong with you' on a bad day is common. The pattern is when every error becomes proof of a deep flaw.",
+    "expanded_definition": "Guilt says 'I did something bad'. Shame says 'I am bad'. Shame installation is the repeated move from the first to the second. A mistake is treated as a verdict on the whole person. In time the shame lives inside them. It keeps working when the other person is not there. One harsh 'what is wrong with you' on a bad day is common. The pattern is when every error becomes proof of a deep flaw.",
     "plain_language_summary": "A mistake gets treated as proof that something is wrong with you as a person. In time, the shame stays with you even when the other person is not there.",
     "why_this_matters": "Guilt can lead to an apology and a repair. Shame often leads to hiding, which makes repair less likely. A person who believes they are the problem can find it hard to ask for help or to trust their own judgment.",
     "what_it_is": [
@@ -416,7 +416,7 @@
       "The criticism moves from what you did to what you are.",
       "Old failures are listed as proof every time something new happens.",
       "There is no stated way to repair it, only more disappointment.",
-      "After a conversation, you feel dirty or defective, and not only sorry.",
+      "After a conversation, you feel dirty or defective, as well as sorry.",
       "Ordinary needs or traits get treated as moral failings."
     ],
     "this_may_not_be_it_when": [
@@ -460,9 +460,9 @@
       "You find it harder to accept kindness because you feel you do not deserve it."
     ],
     "repair_check": "Watch whether past errors stay in the past. When something has shifted, a mistake gets talked about as a mistake, a way to fix it is offered, and the topic closes. An apology that is followed by 'but this is exactly what I'd expect from you' has just moved the shame to the next sentence.",
-    "boundary_respect_check": "When you say you will answer for what you did but not for who you are, notice whether the conversation can stay on the act. Can they say what they want from you without a verdict? If each request ends with a statement about your character, the limit hasn't taken hold.",
+    "boundary_respect_check": "Say you will answer for what you did but not for who you are. Then notice whether the conversation can stay on the act. Can they say what they want from you without a verdict? If each request ends with a statement about your character, the limit hasn't taken hold.",
     "psychological_mechanism": "Shame is a social emotion and strongly tied to belonging. Being told you are deeply flawed can register as a threat to your place with the person. Shame also pushes people to hide and be small. That can weaken the very responses, such as explaining and repairing, that would resolve the matter. If it is repeated, the inner voice can carry the message on alone.",
-    "possible_impact_on_receiver": "Many people report a heavy, physical sense of being defective. They also report hiding mistakes, avoiding eye contact, and taking on blame in situations that were shared. Some become very hard on themselves. Others describe an unexpected relief when someone named the difference between doing something wrong and being wrong, as though a weight had been put in the right place.",
+    "possible_impact_on_receiver": "Many people report a heavy, physical sense of being defective. They also report hiding mistakes, avoiding eye contact, and taking on blame in situations that were shared. Some become very hard on themselves. Others describe an unexpected relief when someone named the difference between doing something wrong and being wrong. It was as though a weight had been put in the right place.",
     "response_options": {
       "soft_clarification": "Separate the act from the person: 'I can hear that what I did upset you. I'd like to talk about that, not about whether I'm a bad person.'",
       "firm_boundary": "State the limit on verdicts: 'I'll take responsibility for what I did. I won't agree that something is wrong with me as a person.'",

@@ -1,7 +1,7 @@
 {
  "Countering": {
   "short_definition": "Flatly contradicting someone's account of an event over and over, so the two of you can never agree on what happened.",
-  "expanded_definition": "Countering is the reflex of answering what you say happened with a flat 'no, it didn't', before any checking has been done. It differs from a plain dispute over facts because the contradiction comes fast and sure, and it does not move when a message or a witness points the other way. Once, it is just disagreement. When it becomes the usual reply to your account, you can end up arguing about the past in every conversation and never reaching the real subject.",
+  "expanded_definition": "Countering is the reflex of answering what you say happened with a flat 'no, it didn't'. It comes before any checking has been done. It differs from a plain dispute over facts because the contradiction comes fast and sure. It does not move when a message or a witness points the other way. Once, it is just disagreement. When it becomes the usual reply to your account, you can end up arguing about the past in every conversation. You never reach the real subject.",
   "plain_language_summary": "You say what happened, and you get an instant, sure 'no, it didn't', every time. You never reach the real issue, because you are stuck arguing facts.",
   "why_this_matters": "Constant contradiction makes it impossible to build a shared sense of what is real. If every account you give is overruled on the spot, you lose the ability to settle even small facts. The problem you meant to raise never gets heard.",
   "what_it_is": [
@@ -9,7 +9,7 @@
    "Contradiction as the usual reply to your account, whatever the topic. The argument is always about the past and never about what to do next.",
    "A stance of certainty with no room for 'maybe I have it wrong', which is what separates it from an honest difference in recall.",
    "Often paired with accusations that you are distorting things, such as 'you're twisting my words', which turns your report into the thing on trial.",
-   "This differs from the healthier move of saying 'my memory of that is different, let's check the messages', which keeps the door open to evidence."
+   "This differs from the healthier move of saying 'my memory of that is different, let's check the messages'. That move keeps the door open to evidence."
   ],
   "what_it_sounds_like": [
    "\"That's not what happened.\"",
@@ -78,7 +78,7 @@
   "repair_check": "A change shows up when they pause before denying. They say something like 'let me check before I answer', and they accept what the message shows. A one-time 'sorry' followed by the same instant 'that's not what happened' next week is not that change.",
   "boundary_respect_check": "When you propose checking a record together, does the offer get taken up or turned into a fresh argument? Someone respecting it opens the thread with you, even reluctantly. Someone who is not may contest the very idea of checking.",
   "psychological_mechanism": "Being overruled over and over can teach a person that stating a memory costs something. Some people go quiet. Some argue harder to defend their account. Some start to doubt what they recall, to keep the peace. A steady stream of 'no, it didn't' tends to pull attention away from the issue and toward defending your own memory.",
-  "possible_impact_on_receiver": "People describe rehearsing what they will say, gathering evidence before conversations, and feeling worn out by arguments that never get past the question of what was said. Some say they stopped raising problems because nothing could be settled. Others feel relief when a friend simply believed their account.",
+  "possible_impact_on_receiver": "Some people rehearse what they will say and gather evidence before conversations. They feel worn out by arguments that never get past what was said. Some say they stopped raising problems because nothing could be settled. Others feel relief when a friend simply believed their account.",
   "response_options": {
    "soft_clarification": "Offer a way to settle it without a fight: 'We remember this differently. Could we look at the messages and see?'",
    "firm_boundary": "Decline the loop on the facts: 'I've told you what I remember. I'm not going to go round again on whether it happened.'",
@@ -88,7 +88,7 @@
   },
   "boundary_script": "\"I've said what I remember, and you've said what you remember. I'm not willing to keep arguing about who is right. If it matters, let's check the messages together, and if they don't settle it, we can leave it as a difference.\"",
   "safety_sensitive": false,
-  "safety_note": "Contradicting your account is not a physical-safety sign by itself. It becomes more serious if disagreeing brings anger that frightens you, if you are punished for your version, or if the denial covers events involving threats or injury. In that case, write down what happened privately. Talk to a counselor or an advocate before raising it again.",
+  "safety_note": "Contradicting your account is not a physical-safety sign by itself. It becomes more serious if disagreeing brings anger that frightens you. It is also more serious if you are punished for your version. The same goes if the denial covers events involving threats or injury. In that case, write down what happened privately. Talk to a counselor or an advocate before raising it again.",
   "misuse_warning": [
    "Labeling every disagreement about a fact as 'countering' can punish someone for honestly remembering differently. The word fits an instant, repeated, evidence-proof denial, not a single clash.",
    "Using the label to avoid checking whether you remembered correctly turns a useful term into a way to win."
@@ -174,7 +174,7 @@
   ],
   "repair_check": "Notice what happens to the item itself once it is raised. When something has really changed, the forgotten commitment gets done. The person also finds their own way to hold on to it, such as a note or alarm. A warm 'you're right, sorry' while the promise stays undone does not count.",
   "boundary_respect_check": "After you ask for agreements to be written down, watch how that request is received. Does it get used, with texts sent and read? Or is it called controlling, and do the same blanks continue despite the written record?",
-  "psychological_mechanism": "When one person's memory seems to fail only where it is costly, the other can slip into the role of keeper of the record. That job is tiring. It can make a person doubt whether they are remembering correctly, especially when 'you must be confusing me with someone else' is said with a calm face. The doubt can pull attention from the broken promise toward their own reliability.",
+  "psychological_mechanism": "If one person's memory fails only where remembering is costly, the other can slip into keeping the record. That job is tiring. It can make a person doubt their own memory. This is more likely when 'you must be confusing me with someone else' is said with a calm face. The doubt can pull attention from the broken promise toward their own reliability.",
   "possible_impact_on_receiver": "People describe keeping screenshots and notes they hate having to keep, and feeling petty for asking for things in writing. Some say they stopped relying on the person for anything that mattered. Others describe a creeping unease about their own accuracy after being told many times they had it wrong.",
   "response_options": {
    "soft_clarification": "Offer a record as help, not accusation: 'I want us both to be sure. Can I send a quick text with what we decided?'",
@@ -203,7 +203,7 @@
    "Rewards, such as approval, a raise, forgiveness or a promotion, that always sit one step beyond the work done.",
    "Criteria that stay vague at the start, which leaves room to say afterward 'that is not what I meant'.",
    "Often shows up at work, in school, in family expectations and in how an apology is judged.",
-   "This differs from a bar that rises for a reason you can name and plan around, such as new requirements, a changed budget or a different client."
+   "This differs from a bar that rises for a reason you can name and plan around. Examples are new requirements, a changed budget or a different client."
   ],
   "what_it_sounds_like": [
    "\"That's still not good enough.\"",
@@ -270,9 +270,9 @@
    "You describe your worth in terms of the other person's last verdict."
   ],
   "repair_check": "Look for a standard that stays fixed after it is raised. That would mean a stated finish line, written down and honored when you reach it. Changes come only for a reason, and before the work, not after. An apology for 'being demanding' with no fixed line leaves you where you started.",
-  "boundary_respect_check": "What happens when you ask 'what exactly would make this complete?' Does it get a concrete answer you can write down, or does the answer change each time you ask? A fixed finish line is respect. Another sliding one is the pattern again.",
-  "psychological_mechanism": "When effort stops paying off on a predictable schedule, a person can keep trying harder in the hope that the next attempt will be the one. The uncertainty can make approval feel more valuable. The repeated shortfall can be taken as proof of personal failure, when it comes from how the arrangement works. A hazy target tends to leave the person judging themselves instead of the target.",
-  "possible_impact_on_receiver": "People describe working harder and harder with less and less sense of achievement, replaying tasks to find what they missed, and feeling anxious as a deadline approaches or passes. Some say they began to see themselves as never quite good enough. Others feel suddenly lighter when they see that the target moved and their ability did not.",
+  "boundary_respect_check": "What happens when you ask 'what exactly would make this complete?' Does it get a concrete answer you can write down? Or does the answer change each time you ask? A fixed finish line is respect. Another sliding one is the pattern again.",
+  "psychological_mechanism": "When effort stops paying off on a predictable schedule, a person can keep trying harder. They hope the next attempt will be the one. The uncertainty can make approval feel more valuable. The repeated shortfall can be taken as proof of personal failure, when it comes from how the arrangement works. A hazy target often leaves the person judging themselves instead of the target.",
+  "possible_impact_on_receiver": "Some people work harder and harder with less and less sense of achievement. They replay tasks to find what they missed, and feel anxious as a deadline approaches or passes. Some say they began to see themselves as never quite good enough. Others feel suddenly lighter when they see that the target moved and their ability did not.",
   "response_options": {
    "soft_clarification": "Ask for the finish line: 'Before I start, can we write down what a finished version looks like, so we both agree?'",
    "firm_boundary": "Hold to the first agreement: 'We agreed on this standard, and I met it. If there's a new request, I'm happy to talk about it as a new request.'",
@@ -282,7 +282,7 @@
   },
   "boundary_script": "\"I did what we agreed on. If you want something different now, that's a new request, and I'd like to talk about what it involves and how long it will take before I start.\"",
   "safety_sensitive": false,
-  "safety_note": "A shifting standard is usually a stress and self-worth problem and not a danger. That changes if the goal controls something you cannot do without, such as a job, a visa, a place to live, or access to your children or money. It also changes if failing the standard brings threats or punishment. If so, keep dated copies of what was asked and delivered. Seek legal aid, a union rep or an advocate.",
+  "safety_note": "A shifting standard is usually a stress and self-worth problem and not a danger. That changes if the goal controls something you cannot do without. Examples are a job, a visa, a place to live, or access to your children or money. It also changes if failing the standard brings threats or punishment. If so, keep dated copies of what was asked and delivered. Seek legal aid, a union rep or an advocate.",
   "misuse_warning": [
    "Calling every revision 'moving the goalposts' can excuse poor work and make fair feedback sound like abuse. Ask whether a reason was given and whether the bar rose before or after the work.",
    "Applying the label to a manager who is simply raising standards for everyone can hide a real skills gap."
@@ -375,7 +375,7 @@
    "firm_boundary": "Say the phrase does not close the topic: 'That saying doesn't answer my question. I still need an answer about who is handling this.'",
    "disengagement": "Take the concern to someone who engages with it, and leave the topic with this person if every attempt returns the same line.",
    "support_seeking": "Talk it over with a friend, counselor or peer group where you can say the whole worry and hear it taken seriously.",
-   "workplace_or_professional": "When a manager answers a concern with a slogan, follow up by email with a specific question, such as 'Could you confirm who owns this task by Friday?' That puts an answer on record."
+   "workplace_or_professional": "When a manager answers a concern with a slogan, follow up by email with a specific question. For example: 'Could you confirm who owns this task by Friday?' That puts an answer on record."
   },
   "boundary_script": "\"I know you may mean that kindly, but a saying isn't an answer to what I asked. I'm not going to drop it. Can we set aside ten minutes this week to talk about it properly?\"",
   "safety_sensitive": false,
@@ -391,7 +391,7 @@
   "short_definition": "Presenting harmful or hurtful treatment as ordinary and not worth questioning, so that objecting to it seems like the problem.",
   "expanded_definition": "Normalization tells you that what hurt you is simply how things are. It can come from one person ('every couple fights like this'), a family ('this is how we are') or a whole workplace ('everyone puts up with it'). Sometimes it is true, and the comparison gives useful perspective. The pattern is when the comparison is offered to end the talk, when it is never checked against what you can see, and when it is aimed at the exact thing you are trying to name as harmful.",
   "plain_language_summary": "When you say something hurt, you are told it is normal and everyone goes through it. It starts to feel like you are wrong to mind.",
-  "why_this_matters": "If harmful treatment is called normal, you lose the words to describe it. People can put up with something painful for years because they were taught that it was simply what relationships, work or family life were like.",
+  "why_this_matters": "If harmful treatment is called normal, you lose the words to describe it. People can put up with something painful for years. They were taught that it was simply what relationships, work or family life were like.",
   "what_it_is": [
    "A statement that the treatment you object to is typical, such as 'all couples fight like this' or 'every boss yells'.",
    "A comparison to a vague 'everyone' that cannot be checked and does not use your own situation.",
@@ -412,7 +412,7 @@
    "A real, accurate comparison, such as a friend who says many new parents argue about chores and who still listens to the details.",
    "A genuine cultural or family norm that everyone involved shares and is comfortable with, even though it differs from yours.",
    "Reassurance from an older person who has been through something similar and says so to comfort you, not to close the topic.",
-   "Realism about a job that is hard in known ways, such as long hours in a busy kitchen, when pay and terms were agreed beforehand.",
+   "Realism about a job that is hard in known ways. One example is long hours in a busy kitchen, when pay and terms were agreed beforehand.",
    "A person's own habit of treating a hurt as normal because they were raised that way, with no one else pushing it."
   ],
   "this_may_be_it_when": [
