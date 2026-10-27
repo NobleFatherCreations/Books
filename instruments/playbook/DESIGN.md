@@ -174,7 +174,7 @@ components:
 
 A frightened reader needs to know where they are and where to go next. The Decoder answers with the sign system of a metro after dark: near-black panels, enamel-white lettering, ten coloured lines each with its own letter, every tactic a station on a line, look-alike tactics in other lines shown as "change here for". The Leave control is exit green and sits in the top bar on every screen. The build refuses the support-site pastel and the moving sky of the previous version (v14).
 
-The system is flat and quiet. Signs are rectangles with square corners; lines and stations are circles; triangles appear only for safety. Colour never carries meaning alone: every line colour has a letter, every state has a word or shape. Nothing moves unless the reader tapped something. Reading is the job, so body text is large (18px), measured (about 42-44rem), and set in a face designed for low-vision legibility.
+The system is square-cornered and calm. Since round four it is also coloured: each line's colour is its identity and fills tiles, heroes and the selected step (see the addendum), with a quieter option one tap away. Signs are rectangles with square corners; lines and stations are circles; triangles appear only for safety. Colour never carries meaning alone: every line colour has a letter, every state has a word or shape. Nothing moves unless the reader tapped something. Reading is the job, so body text is large (18px), measured (about 42-44rem), and set in a face designed for low-vision legibility.
 
 Evidence note: the first viewport in the build matches the contract (headline at 36px on a phone, three blades with the white "Help me figure it out" first, ten-line index, Private status and green Leave in the top bar, four doors on the thumb edge).
 
@@ -184,7 +184,7 @@ Evidence note: the first viewport in the build matches the contract (headline at
 - Two reserved signal colours: amber (danger) and exit green (leaving).
 - Overpass 800 for signs, Atkinson Next for reading.
 - Sharp rectangles for signs and controls, circles for lines and stations.
-- Tonal panels, hairline rules, inset rings; no drop shadows.
+- Tonal panels, hairline rules, inset rings. Round four adds two soft glows (a line-colour wash behind Home and each station, and a glow on the station's colour bar); there are still no card drop shadows.
 - Motion only in response to a tap, transform and opacity only.
 
 ## Colors
@@ -310,7 +310,7 @@ Exactly five motions, all transform/opacity and all caused by a tap: press-scale
 - **Don't** use amber for anything but safety, or green for anything but leaving.
 - **Don't** use colour alone to separate lines or states.
 - **Don't** round buttons, blades, or panels, or square the circles of lines.
-- **Don't** add drop shadows, gradients, or motion that starts without a reader action.
+- **Don't** add card drop shadows, decorative gradients, or motion that starts without a reader action. (The line-colour washes and tile fills are identity, not decoration, and switch off under Quiet colours, contrast and forced-colors modes and print.)
 - **Don't** add `!important` to the stylesheet. The existing 7 are `[hidden]`, the print hide list, and the shared House seal override; that is the full allowance.
 - **Don't** write type smaller than 0.8125rem or tap targets under 44px.
 - **Don't** restyle the shared House menu from inside this system.
@@ -350,3 +350,20 @@ plates (G 01) with search by code, directional arrows on Previous/Next, a faint 
 at line termini only. Cut in review: the headline star. Safety: one scrambled `ui-state` entry (numbers only, no timestamps,
 described as scrambled not secret), rested lines excluded from search, codes, Saved, Continue, routes and station pages,
 Leave destination chosen in Settings with depth kept in history.state, no referrer. Print hides the route strip and app chrome.
+
+
+## Round four addendum (2026-10-27)
+
+**Colour and depth.** The first build read as flat dark grey. Colour now appears wherever a line appears, because a line's colour is its identity:
+- Home lists the ten lines as ten solid colour tiles (dark ink on the night colours, white ink on the day colours, both at 4.5:1 or better).
+- A thin ten-colour stripe runs under the top bar.
+- A soft glow sits behind the Home headline and behind each station in that line's colour. It is the body's own background image, because a pseudo-element behind the body background is invisible.
+- Line pages open with a full block of the line's colour; on a station the selected step tab, the answer panel's top edge and the sign bar take the line colour.
+- Night is a deep ink (`#0A0E16` family); Day is warm paper (`#FBFAF7` family).
+- **Quiet colours** (`data-color=quiet`, a Settings choice and a link on Home) shrinks colour back to small marks for a calmer look or a shared screen. It is not saved while saving is off. Vivid is the default because the owner asked for the build to stand out; the independent review recommended Quiet as the default. That is an open owner decision.
+
+**Ten phone upgrades.** Back to top (appears only when scrolling up); a slim step bar above the sign bar once the four tabs scroll away (placed at the bottom so it can never sit under Leave); Paste in search; the sign bar steps aside when the keyboard is up; a Text size button; opt-in tap buzz (off by default, never on Leave); a one-time swipe tip; read-aloud with on-device voices only (first tap warns that it plays out loud, it reads the safety note first, and it stops on any step change or Leave); touch-feel CSS (no tap delay, no pull-to-refresh, pinch-zoom kept); a short pop on Save.
+
+**Review fixes shipped.** Resting-line tiles stay readable; print drops colour fills and glows so nothing prints white on white; forced-colors gives the new surfaces borders; the dock moved off the top; the pause card sits above the dock but below the top bar so Leave stays on top; a CSS `:has()` rule was replaced by a variable because it slowed the A to Z page.
+
+**Plain wording.** Every entry was re-read in 26 batches plus a six-list second pass and a repeated-phrasing fix: 4,101 of 18,819 passages changed, mean reading grade 8.7 to 7.8, sentences over 24 words 2,573 to 138, no dashes. Guards refused any rewrite that changed a number, a named term, quoted words, a negation or a hedge. Named people and works were checked (Freyd, Lippmann, Herman and Chomsky, Lifton, the RAND firehose research); one study description was corrected and two unsupported jargon labels were removed. Medical symptom lists and safeguarding notes are unchanged and still need clinical review.
