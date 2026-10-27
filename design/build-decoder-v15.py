@@ -31,9 +31,10 @@ import decoder_pages as pages  # noqa: E402  (plain per-tactic pages, v16)
 _spec = importlib.util.spec_from_file_location("v10", os.path.join(HERE, "build-decoder-v10.py"))
 v10 = importlib.util.module_from_spec(_spec); _spec.loader.exec_module(v10)
 
-VERSION = "v16"
+VERSION = "v17"
 DATE = "2026-10-27"
 UPDATES = [
+    "<strong>A new night look (v17).</strong> The guide is now matte black with a warm gold for the thing to press. Safety notes are red now, so they stand apart from everything else on the page, and the green Leave button is where it always was.",
     "<strong>Every tactic has its own page (v16).</strong> Each of the tactics now has a plain page with its own address, like noblefathercreations.com/playbook/gaslighting, so you can find it from a search engine and share a link that opens straight to it. The page address and the tab now always show what you are reading. If someone else could see this device, a private window is the safest way to read.",
     "<strong>Plainer words, all the way through.</strong> Every entry was read again for clarity. Long sentences were split, hard words were swapped for everyday ones, and the stiff, repeated phrasing was reworded so it reads like a person talking. A few claims that could not be backed up were removed, and one description of a study was corrected.",
     "<strong>Easier on a phone.</strong> A button takes you back to the top of a long page, and a slim bar lets you change step without scrolling up. Search has a Paste button, and the bottom bar steps aside while you type. Every entry has a Text size button and a Listen button that reads it aloud with a voice stored on your phone. A small buzz when you tap is available in Settings and is off until you turn it on.",
@@ -48,9 +49,9 @@ UPDATES = [
 LETTER = {"truth": "T", "pressure": "G", "control": "C", "hook": "L", "wear": "W",
           "blame": "B", "people": "P", "systems": "S", "online": "O", "society": "M"}
 NIGHT = {"truth": "#4A82FF", "pressure": "#9469FF", "control": "#1AA9DE", "hook": "#F05BA0", "wear": "#C06BE0",
-         "blame": "#B07A52", "people": "#F06A52", "systems": "#8FA3BD", "online": "#17BDB0", "society": "#A2C23A"}
+         "blame": "#B07A52", "people": "#FF8A4C", "systems": "#8FA3BD", "online": "#17BDB0", "society": "#A2C23A"}
 DAY = {"truth": "#1F55D6", "pressure": "#6A3FE0", "control": "#0B7AA6", "hook": "#C2316F", "wear": "#8E3BB0",
-       "blame": "#8A5534", "people": "#C2412A", "systems": "#5A6F8A", "online": "#0A7F76", "society": "#5E7A12"}
+       "blame": "#8A5534", "people": "#B4501A", "systems": "#5A6F8A", "online": "#0A7F76", "society": "#5E7A12"}
 # One drawn glyph per line (24 x 24, 2px strokes): identity by shape, so lines are told apart in grey as well as in colour.
 EMBLEM = {
     "truth": '<circle cx="9.5" cy="12" r="5.5"/><circle cx="14.5" cy="12" r="5.5"/>',

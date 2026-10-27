@@ -18,38 +18,40 @@
 @layer tokens {
   :root{
     color-scheme:dark;
-    --bg:#0A0E16;--panel:#121826;--panel-2:#1A2233;--rule:#263044;--rule-hi:#37425A;
-    --fg:#F3F5F8;--fg-2:#AAB4C3;--fg-3:#8D98AA;
-    --blade:#F3F5F8;--blade-ink:#0A0E16;--bullet-ink:#0A0E16;
-    --amber:#FFB020;--amber-ink:#0A0E16;--amber-fill:#FFB020;--amber-fill-ink:#0A0E16;
-    --glow-a:rgba(148,105,255,.40);--glow-b:rgba(74,130,255,.34);--glow-c:rgba(240,91,160,.20);--lift:rgba(255,255,255,.04);
-    --stripe:#F06A52,#C06BE0,#9469FF,#1AA9DE,#8FA3BD,#B07A52,#4A82FF,#A2C23A,#17BDB0,#F05BA0;--exit:#00B864;--exit-ink:#04140B;
-    --toward:#9CD9BC;--away:#AFB8E8;--mark:rgba(255,176,32,.28);
+    /* v16 Midnight Matte: matte void, obsidian panels, champagne gold as the one accent (--blade).
+       The --amber tokens keep their names but are now SAFETY RED: danger only, never decoration. */
+    --bg:#050507;--panel:#0E0E12;--panel-2:#17171D;--rule:#25252D;--rule-hi:#383842;
+    --fg:#F2F0EA;--fg-2:#A8A69E;--fg-3:#8B8982;
+    --blade:#E5C158;--blade-ink:#050507;--bullet-ink:#050507;
+    --amber:#FF6B5E;--amber-ink:#050507;--amber-fill:#F04438;--amber-fill-ink:#050507;
+    --glow-a:rgba(229,193,88,.16);--glow-b:rgba(229,193,88,.08);--glow-c:rgba(229,193,88,.05);--lift:rgba(255,255,255,.03);
+    --stripe:#FF8A4C,#C06BE0,#9469FF,#1AA9DE,#8FA3BD,#B07A52,#4A82FF,#A2C23A,#17BDB0,#F05BA0;--exit:#00B864;--exit-ink:#04140B;
+    --toward:#9CD9BC;--away:#AFB8E8;--mark:rgba(229,193,88,.24);
     --sign:'Overpass',system-ui,sans-serif;--read:'Atkinson Next','Atkinson Hyperlegible',system-ui,sans-serif;
     --s1:.5rem;--s2:1rem;--s3:1.5rem;--s4:2rem;--s5:3rem;--s6:4rem;
     --top-h:3.5rem;--bar-h:4.25rem;--side-w:15rem;
     --ease:cubic-bezier(.23,1,.32,1);--ease-sheet:cubic-bezier(.32,.72,0,1);
-    --lc:var(--fg);--rim:rgba(255,255,255,.07);
+    --lc:var(--fg);--rim:rgba(229,193,88,.14);
   }
   @media (prefers-color-scheme: light){:root:not([data-theme=night]){
     color-scheme:light;
     --bg:#FBFAF7;--panel:#F3F1EB;--panel-2:#E8E5DC;--rule:#DAD6CB;--rule-hi:#BDB8AA;
     --fg:#14161A;--fg-2:#4B5159;--fg-3:#5C636B;
-    --blade:#14161A;--blade-ink:#FBFAF7;--bullet-ink:#FFFFFF;
+    --blade:#6B500F;--blade-ink:#FFFFFF;--bullet-ink:#FFFFFF;
     --glow-a:rgba(106,63,224,.20);--glow-b:rgba(31,85,214,.17);--glow-c:rgba(194,49,111,.12);--lift:rgba(255,255,255,.6);
-    --stripe:#C2412A,#8E3BB0,#6A3FE0,#0B7AA6,#5A6F8A,#8A5534,#1F55D6,#5E7A12,#0A7F76,#C2316F;
-    --amber:#9A5B00;--amber-ink:#FFFFFF;--exit:#007A40;--exit-ink:#FFFFFF;
-    --toward:#1D6B4A;--away:#3B4A9A;--mark:rgba(154,91,0,.18);--rim:rgba(0,0,0,.1);
+    --stripe:#B4501A,#8E3BB0,#6A3FE0,#0B7AA6,#5A6F8A,#8A5534,#1F55D6,#5E7A12,#0A7F76,#C2316F;
+    --amber:#B42318;--amber-ink:#FFFFFF;--exit:#007A40;--exit-ink:#FFFFFF;
+    --toward:#1D6B4A;--away:#3B4A9A;--mark:rgba(107,80,15,.16);--rim:rgba(0,0,0,.1);
   }}
   :root[data-theme=day]{
     color-scheme:light;
     --bg:#FBFAF7;--panel:#F3F1EB;--panel-2:#E8E5DC;--rule:#DAD6CB;--rule-hi:#BDB8AA;
     --fg:#14161A;--fg-2:#4B5159;--fg-3:#5C636B;
-    --blade:#14161A;--blade-ink:#FBFAF7;--bullet-ink:#FFFFFF;
+    --blade:#6B500F;--blade-ink:#FFFFFF;--bullet-ink:#FFFFFF;
     --glow-a:rgba(106,63,224,.20);--glow-b:rgba(31,85,214,.17);--glow-c:rgba(194,49,111,.12);--lift:rgba(255,255,255,.6);
-    --stripe:#C2412A,#8E3BB0,#6A3FE0,#0B7AA6,#5A6F8A,#8A5534,#1F55D6,#5E7A12,#0A7F76,#C2316F;
-    --amber:#9A5B00;--amber-ink:#FFFFFF;--exit:#007A40;--exit-ink:#FFFFFF;
-    --toward:#1D6B4A;--away:#3B4A9A;--mark:rgba(154,91,0,.18);--rim:rgba(0,0,0,.1);
+    --stripe:#B4501A,#8E3BB0,#6A3FE0,#0B7AA6,#5A6F8A,#8A5534,#1F55D6,#5E7A12,#0A7F76,#C2316F;
+    --amber:#B42318;--amber-ink:#FFFFFF;--exit:#007A40;--exit-ink:#FFFFFF;
+    --toward:#1D6B4A;--away:#3B4A9A;--mark:rgba(107,80,15,.16);--rim:rgba(0,0,0,.1);
   }
   :root[data-size=l]{font-size:112.5%}
   :root[data-size=xl]{font-size:125%}
@@ -210,7 +212,7 @@
   .more-links a{min-height:2.75rem;display:inline-flex;align-items:center}
 
   /* search field */
-  .sfield{display:flex;align-items:center;gap:.75rem;background:var(--blade);color:var(--blade-ink);padding:0 .5rem 0 1rem;min-height:3.5rem}
+  .sfield{display:flex;align-items:center;gap:.75rem;background:var(--panel);color:var(--fg);box-shadow:inset 0 0 0 2px var(--blade);padding:0 .5rem 0 1rem;min-height:3.5rem}
   .sfield input{flex:1;min-width:0;border:0;background:none;outline:none;font:400 1.0625rem/1.3 var(--read);color:inherit;min-height:3.5rem}
   .sfield input::placeholder{color:currentColor;opacity:.62}
   .sfield input::-webkit-search-cancel-button{display:none}

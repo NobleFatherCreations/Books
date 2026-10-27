@@ -108,8 +108,13 @@
         "found": false,
         "checkedAt": "2026-08-02"
       },
-      "version": "v16",
+      "version": "v17",
       "changelog": [
+        {
+          "date": "2026-10-27",
+          "version": "v17",
+          "summary": "Midnight Matte palette (owner decision): matte black and obsidian with champagne gold as the one accent; safety moved from amber to red (always with the triangle); People line coral to orange; Leave stays green. App and all 321 plain pages."
+        },
         {
           "date": "2026-10-27",
           "version": "v16",

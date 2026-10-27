@@ -84,11 +84,11 @@ def sec(title, body, cls=""):
 CSS = """
 @font-face{font-family:'Overpass';font-weight:600 800;font-display:swap;src:url(/playbook/f/overpass-var.woff2) format('woff2')}
 @font-face{font-family:'Atkinson Next';font-weight:400 700;font-display:swap;src:url(/playbook/f/atkinson-next-var.woff2) format('woff2')}
-:root{--bg:#0A0E16;--panel:#121826;--panel-2:#1A2233;--rule:#263044;--rule-hi:#37425A;--fg:#F3F5F8;--fg-2:#AAB4C3;--fg-3:#8D98AA;
---blade:#F3F5F8;--blade-ink:#0A0E16;--bullet-ink:#0A0E16;--amber:#FFB020;--amber-fill:#FFB020;--amber-fill-ink:#0A0E16;--exit:#00B864;--exit-ink:#04140B;
+:root{--bg:#050507;--panel:#0E0E12;--panel-2:#17171D;--rule:#25252D;--rule-hi:#383842;--fg:#F2F0EA;--fg-2:#A8A69E;--fg-3:#8B8982;
+--blade:#E5C158;--blade-ink:#050507;--bullet-ink:#050507;--amber:#FF6B5E;--amber-fill:#F04438;--amber-fill-ink:#050507;--exit:#00B864;--exit-ink:#04140B;
 --sign:'Overpass',system-ui,sans-serif;--read:'Atkinson Next','Atkinson Hyperlegible',system-ui,sans-serif;color-scheme:dark}
 @media (prefers-color-scheme:light){:root{--bg:#FBFAF7;--panel:#F3F1EB;--panel-2:#E8E5DC;--rule:#DAD6CB;--rule-hi:#BDB8AA;--fg:#14161A;--fg-2:#4B5159;--fg-3:#5C636B;
---blade:#14161A;--blade-ink:#FBFAF7;--bullet-ink:#FFFFFF;--amber:#9A5B00;--exit:#007A40;--exit-ink:#FFFFFF;color-scheme:light}%DAY%}
+--blade:#6B500F;--blade-ink:#FFFFFF;--bullet-ink:#FFFFFF;--amber:#B42318;--exit:#007A40;--exit-ink:#FFFFFF;color-scheme:light}%DAY%}
 *{box-sizing:border-box}html{-webkit-text-size-adjust:100%}
 body{margin:0;background:var(--bg);color:var(--fg);font:400 1.125rem/1.6 var(--read);overflow-wrap:break-word}
 a{color:inherit;text-decoration-color:var(--fg-3);text-underline-offset:.2em}a:hover{text-decoration-color:currentColor}
@@ -143,7 +143,7 @@ def frame(title, desc, url, ld, body, house, beacon, extra_head=""):
             "<meta property=\"og:type\" content=\"article\">\n<meta property=\"og:site_name\" content=\"Noble Father Creations\">\n"
             "<meta property=\"og:title\" content=\"%s\">\n<meta property=\"og:description\" content=\"%s\">\n<meta property=\"og:url\" content=\"%s\">\n"
             "<meta name=\"twitter:card\" content=\"summary\">\n"
-            "<meta name=\"theme-color\" content=\"#0A0E16\" media=\"(prefers-color-scheme: dark)\">\n"
+            "<meta name=\"theme-color\" content=\"#050507\" media=\"(prefers-color-scheme: dark)\">\n"
             "<meta name=\"theme-color\" content=\"#FBFAF7\" media=\"(prefers-color-scheme: light)\">\n"
             "<link rel=\"icon\" href=\"/playbook/f/icon.webp\">\n%s"
             "<link rel=\"preload\" href=\"/playbook/f/overpass-var.woff2\" as=\"font\" type=\"font/woff2\" crossorigin>\n"
@@ -203,7 +203,7 @@ def tactic_page(e, l, si, by, line_of, house, beacon):
         '<nav class="crumbs" aria-label="You are here"><a href="/playbook">Pattern Decoder</a> \u203a <a href="/playbook/line-%s">%s</a></nav>' % (l["k"], esc(l["label"])) +
         '<header><div class="sign">%s<div><h1 id="h">%s</h1>%s</div></div>' % (bullet(l), H(n), '<p class="sub">%s</p>' % H(e["sub"]) if e["sub"] else "") +
         '<p class="onl">Station %d of %d on the %s line. Code %s</p></header>' % (si + 1, len(order), esc(l["label"]), code(l, si + 1)) +
-        ('<section class="warn" role="note" aria-labelledby="w"><h2 id="w">Safety first</h2><div class="body">%s</div></section>' % prose(f["safety_note"]) if e["sens"] else "") +
+        ('<section class="warn" role="note" aria-labelledby="w"><h2 id="w"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M12 3 2 20h20z"/><path d="M12 10v4"/><circle cx="12" cy="17" r=".6" fill="currentColor"/></svg>Safety first</h2><div class="body">%s</div></section>' % prose(f["safety_note"]) if e["sens"] else "") +
         '<section class="answer" aria-label="In short"><h2>What is %s?</h2>%s%s%s</section>' % (
             H(n), prose(f["plain_language_summary"]),
             ('<h3 class="k">It can sound like</h3><ul class="says">%s</ul>' % "".join(say_li(x) for x in says[:3])) if says else "",

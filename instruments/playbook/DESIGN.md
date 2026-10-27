@@ -367,3 +367,20 @@ Leave destination chosen in Settings with depth kept in history.state, no referr
 **Review fixes shipped.** Resting-line tiles stay readable; print drops colour fills and glows so nothing prints white on white; forced-colors gives the new surfaces borders; the dock moved off the top; the pause card sits above the dock but below the top bar so Leave stays on top; a CSS `:has()` rule was replaced by a variable because it slowed the A to Z page.
 
 **Plain wording.** Every entry was re-read in 26 batches plus a six-list second pass and a repeated-phrasing fix: 4,101 of 18,819 passages changed, mean reading grade 8.7 to 7.8, sentences over 24 words 2,573 to 138, no dashes. Guards refused any rewrite that changed a number, a named term, quoted words, a negation or a hedge. Named people and works were checked (Freyd, Lippmann, Herman and Chomsky, Lifton, the RAND firehose research); one study description was corrected and two unsupported jargon labels were removed. Medical symptom lists and safeguarding notes are unchanged and still need clinical review.
+
+
+## v17 addendum: Midnight Matte (2026-10-27, owner decision)
+
+The owner chose a matte black and champagne gold look, with safety moved off amber so gold and danger never meet.
+Token names are unchanged; their values are not. **Read the frontmatter above as v15 history for these tokens.**
+
+- **Ground:** `bg` #050507, `panel` #0E0E12, `panel-2` #17171D, `rule` #25252D, `rule-hi` #383842; text #F2F0EA / #A8A69E / #8B8982.
+- **The one accent is champagne gold** (`blade` #E5C158 with #050507 ink; day #6B500F with white ink): the primary blade,
+  pressed and selected states, step tabs, the version badge. The search field is an obsidian panel with a 2px gold ring,
+  not a gold bar. The home glows and the enamel rim are faint gold.
+- **Safety is red** (the `--amber*` tokens): text #FF6B5E (day #B42318), band fill #F04438 with #050507 ink. The
+  Danger-Only rule now reads "red means danger": never use red for emphasis or decoration. It is always paired with
+  the triangle (now on the plain pages too).
+- **Exit green is unchanged.** Green still means leave and nothing else.
+- **People line moved from coral to orange** (#FF8A4C, day #B4501A) so no line colour reads as a warning.
+- All of it measured: 1,344 text runs at ≥4.5:1 in both themes, axe-core clean; suite 109/109.
