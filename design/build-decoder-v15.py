@@ -215,8 +215,8 @@ def home_html(lines, count):
     ic = lambda d: '<svg class="i" viewBox="0 0 24 24" aria-hidden="true">' + d + '</svg>'
     blade = lambda href, cls, icon, t, s: ('<a class="blade%s" href="%s"><span class="pict">%s</span><span class="bt"><b>%s</b><small>%s</small></span>'
                                             '<span class="ar" aria-hidden="true">%s</span></a>') % (cls, href, ic(icon), t, s, ic('<path d="M5 12h14M13 6l6 6-6 6"/>'))
-    rows = "".join('<li><a class="lrow" href="#/line/%s"><span class="b" data-g="%s">%s</span><span class="lt"><b>%s</b><small>%s</small></span><span class="emb" data-g="%s" aria-hidden="true"><svg viewBox="0 0 24 24">%s</svg></span><span class="n">%d</span></a></li>'
-                   % (l["k"], l["k"], l["letter"], l["label"], l["blurb"], l["k"], l["emb"], len(l["order"])) for l in lines)
+    rows = "".join('<li><a class="lrow" data-g="%s" href="#/line/%s"><span class="b" data-g="%s">%s</span><span class="lt"><b>%s</b><small>%s</small></span><span class="emb" data-g="%s" aria-hidden="true"><svg viewBox="0 0 24 24">%s</svg></span><span class="n">%d</span></a></li>'
+                   % (l["k"], l["k"], l["k"], l["letter"], l["label"], l["blurb"], l["k"], l["emb"], len(l["order"])) for l in lines)
     return ('<div class="view home" id="home-src">'
             '<section class="concourse" aria-labelledby="home-h">'
             '<h1 id="home-h" class="h-page">Put a name to what is happening.</h1>'

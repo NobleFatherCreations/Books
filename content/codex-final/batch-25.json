@@ -96,16 +96,16 @@
     "how_to_distinguish_from_related": "Identity Performances builds a whole persona for an audience, while this is a single move at a single moment. Performative Allyship / False Solidarity uses stated values, not stated flaws, to deflect scrutiny. Credential-Costuming raises someone's standing to stop questions, whereas self-deprecation lowers it to the same end. Here the signature is the other person turning into the comforter."
   },
   "Credential-Costuming": {
-    "short_definition": "Presenting invented, stretched or borrowed titles and affiliations so that a claim or request carries more authority than the person's real qualifications support.",
-    "core_meaning": "Presenting invented, stretched or borrowed titles and affiliations so that a claim or request carries more authority than the person's real qualifications support.",
-    "expanded_definition": "Credential-costuming is dressing a claim in a title, degree, affiliation or association that the person does not hold, or holds only in a smaller form. A consultant becomes a 'Dr.', a conference attendee becomes 'a member of the advisory board', one meeting with a famous person becomes 'we work closely together'. The title then does the work that evidence should do. An unfamiliar credential is not a false one, so checking comes before concluding anything.",
-    "plain_language_summary": "Someone leans on a title or affiliation that is invented or inflated, so you stop asking questions you would normally ask.",
+    "short_definition": "Wearing a title or affiliation that is invented, stretched or borrowed, so a claim carries more authority than the person's real qualifications support.",
+    "core_meaning": "Wearing a title or affiliation that is invented, stretched or borrowed, so a claim carries more authority than the person's real qualifications support.",
+    "expanded_definition": "Credential-costuming is dressing a claim in a title, degree or affiliation that the person does not hold. Or they hold it only in a smaller form. A consultant becomes a 'Dr.', a conference attendee becomes 'a member of the advisory board', one meeting with a famous person becomes 'we work closely together'. The title then does the work that evidence should do. An unfamiliar credential is not a false one, so checking comes before concluding anything.",
+    "plain_language_summary": "Someone leans on a title or affiliation that is invented or inflated, and so you stop asking the questions you would normally ask.",
     "why_this_matters": "You defer to standing that is not there, and the questions you would otherwise ask start to feel out of place. Decisions, such as money, health or hiring choices, can then rest on the look of expertise instead of anything that was tested.",
     "what_it_is": [
       "Inventing a degree, license or job title, or claiming one from an institution that cannot confirm it.",
-      "Stretching something small into something large: a weekend course becomes 'certified', and a freelance gig becomes 'former head of the department'.",
-      "Borrowing authority from others, such as logos, photos with notable people, or a name-dropped organization that has no real link to the person.",
-      "Leaning on the title where evidence should be, as in 'trust me, I'm a doctor of this' in place of an explanation you can check.",
+      "Stretching something small into something large. A weekend course becomes 'certified', and a freelance gig becomes 'former head of the department'.",
+      "Borrowing authority from others, such as logos, photos with notable people, or the name of an organization that has no real link to the person.",
+      "Leaning on the title instead of giving evidence, as in 'trust me, I'm a doctor of this', when you need an explanation you can check.",
       "Common in sales pages, social media bios, consulting, wellness and finance advice, and job applications."
     ],
     "what_it_sounds_like": [
@@ -120,12 +120,12 @@
     "what_it_is_not": [
       "An unfamiliar credential is not a false one. Many genuine titles mean nothing outside their field, and a modest person may describe real experience in a way that sounds grand.",
       "Honorary degrees, titles from other countries, and professional bodies that differ in how they name qualifications.",
-      "Titles that really belong to the person but are used loosely in conversation, such as calling a research fellow 'professor'. This is sloppy, and not necessarily invented.",
+      "Titles that really belong to the person but are used loosely in conversation, like calling a research fellow 'professor'. That is sloppy, but it is not necessarily invented.",
       "Self-taught expertise, which can be real and deep with no certificate behind it, and which is not a costume if the person says so.",
       "A job title that sounds big because a small company hands out large titles, which is a company habit."
     ],
     "this_may_be_it_when": [
-      "The institution or licensing body has no record of the person, or the credential cannot be found in a public register.",
+      "The institution or licensing body has no record of the person, or the credential is missing from a public register.",
       "The title is used mainly to end questions ('I'm the expert here') and not to support an explanation.",
       "Basic follow-up questions about the claimed field get vague or inconsistent answers.",
       "The details of the credential shift between tellings: different years, different schools, different roles.",
@@ -140,11 +140,11 @@
     ],
     "innocent_or_ordinary_possibilities": [
       "Some qualifications are real but obscure, so a first search finds nothing.",
-      "People sometimes round up a title out of nerves in an interview or on a bio, without any plan to deceive.",
+      "People sometimes round up a title out of nerves in an interview or on a bio, with no plan to deceive.",
       "Cultures and industries differ in how titles are awarded and written."
     ],
     "common_false_positives": [
-      "A professional with a genuine but regional or unusual qualification that takes a few minutes to look up.",
+      "A professional with a real but regional or unusual qualification that takes a few minutes to look up.",
       "A young specialist with a modest title whose knowledge is deep and checkable.",
       "A practitioner who lists a past role accurately but did not update their bio after leaving it."
     ],
@@ -171,16 +171,16 @@
       "Details about education or past roles quietly change between conversations or profiles.",
       "People who check the claims are told they are being petty or disloyal."
     ],
-    "repair_check": "Once a gap is found, correction looks like the title being dropped or restated accurately everywhere it appeared, including old profiles and printed material. Reworded claims that sound nearly as grand, or an explanation that blames a misunderstanding by others, leave the costume in place.",
+    "repair_check": "Once a gap is found, correction looks like the title being dropped or restated accurately everywhere it appeared, including old profiles and printed material. Reworded claims that sound nearly as grand leave the costume in place. So does an explanation that blames a misunderstanding by others.",
     "boundary_respect_check": "Ask to verify the credential through the issuing body, and watch the answer. Someone with a genuine qualification usually gives the name of the register, and may be pleased you asked. Delay, offense, or a new credential offered in its place is a different signal.",
     "psychological_mechanism": "Titles work as shortcuts: it is hard to judge expertise yourself, so people often rely on markers such as degrees and affiliations. That shortcut can make questions feel rude, particularly in front of others or in fields where the listener lacks background. A borrowed marker can carry weight that has not been tested.",
-    "possible_impact_on_receiver": "People describe acting on advice they later could not confirm, feeling embarrassed at having deferred, and growing wary of all experts afterwards, including honest ones. Some describe being unsure how they missed it, when the title itself had made checking feel unnecessary.",
+    "possible_impact_on_receiver": "People describe acting on advice they later could not confirm. They feel embarrassed at having deferred, and grow wary of all experts afterwards, including honest ones. Some are unsure how they missed it, when the title itself had made checking feel unnecessary.",
     "response_options": {
       "soft_clarification": "Ask a curious, plain question: 'Where did you train for this? I'd like to read about it.' Genuine experts tend to answer easily.",
-      "firm_boundary": "Hold your decision until you can verify: 'I make choices like this after I've checked the licensing register myself, so I'll get back to you.'",
+      "firm_boundary": "Hold your decision until you can verify. Try something like: 'I make choices like this after I've checked the licensing register myself, so I'll get back to you.'",
       "disengagement": "Step away from the offer, purchase or sign-up until a check is done, and let the delay stand.",
-      "support_seeking": "Show the claim to someone who works in the field, or to a librarian or fact-checker, and ask whether the credential and institution look real.",
-      "workplace_or_professional": "In hiring or vendor choices, confirm degrees, licenses and references directly with the issuing body, and apply the same check to every candidate."
+      "support_seeking": "Show the claim to someone who works in the field, or to a librarian or fact-checker. Ask whether the credential and institution look real.",
+      "workplace_or_professional": "In hiring or vendor choices, confirm degrees, licenses and references directly with the body that issued them. Apply the same check to every candidate."
     },
     "boundary_script": "\"I'm sure it's accurate, and I double-check titles for anyone I'm going to rely on. Could you send me the name of the institution and the year, so I can confirm it myself?\"",
     "safety_sensitive": false,
@@ -189,18 +189,18 @@
       "Accusing someone of faking their credentials because their title is unfamiliar can hurt a real professional. Look it up before saying anything.",
       "Dismissing self-taught or non-traditional experts as costumed ignores real expertise that has no certificate."
     ],
-    "how_to_distinguish_from_related": "Identity Performances is a whole persona tailored to each audience, while credential-costuming is one specific claim about qualifications that can be checked. Strategic Self-Deprecation / Performed Humility lowers standing to block criticism, where this raises it to block questions. Social Engineering often borrows a title as a pretext to get something quickly; here the title is the point."
+    "how_to_distinguish_from_related": "Identity Performances is a whole persona tailored to each audience, while credential-costuming is one specific claim about qualifications that can be checked. Strategic Self-Deprecation / Performed Humility lowers standing to block criticism. This one raises standing to block questions. Social Engineering often borrows a title as a pretext to get something quickly. Here the title is the point."
   },
   "Identity Performances": {
-    "short_definition": "Presenting a built persona, with claimed experiences and traits, that earns trust or access the person's real circumstances would not support.",
-    "core_meaning": "Presenting a built persona, with claimed experiences and traits, that earns trust or access the person's real circumstances would not support.",
-    "expanded_definition": "An identity performance is a persona assembled for an audience: a backstory, interests, hardships or beliefs that land well with that audience, and told in a way that does not match the facts. It can be a dating profile, a networking pitch, a support-group story or a social media character. Everyone adjusts how they present across settings, so a different manner at work proves nothing. The signal is specific claims that fall apart under ordinary follow-up questions.",
+    "short_definition": "Presenting a made-up persona, with claimed experiences and traits, to gain trust or access that the person's real life would not earn.",
+    "core_meaning": "Presenting a made-up persona, with claimed experiences and traits, to gain trust or access that the person's real life would not earn.",
+    "expanded_definition": "An identity performance is a persona built for an audience. It has a backstory, interests, hardships or beliefs that land well with that audience, told in a way that does not match the facts. It can be a dating profile, a networking pitch, a support-group story or a social media character. Everyone adjusts how they present across settings, so a different manner at work proves nothing. The signal is specific claims that fall apart under ordinary follow-up questions.",
     "plain_language_summary": "Someone shows you a version of themselves, with a story and traits tailored to you, that turns out not to match the facts.",
-    "why_this_matters": "You extend trust to a version of someone that does not exist, so your read on the relationship rests on facts that were supplied to you and never observed. When the gap appears, you can doubt your judgment as well as the person.",
+    "why_this_matters": "You extend trust to a version of someone that does not exist. Your read on the relationship rests on facts that were supplied to you and never observed. When the gap appears, you can doubt your judgment as well as the person.",
     "what_it_is": [
-      "A persona with a backstory, such as a hardship, a career or a past relationship, that is invented or heavily reshaped.",
-      "A presentation that shifts with each audience in ways that go beyond tone, so that facts change, not just style.",
-      "A story that fits what a particular group would find sympathetic, such as a shared illness, shared faith or shared loss.",
+      "A persona with an invented or heavily reshaped backstory, such as a hardship, a career or a past relationship.",
+      "A presentation that changes with each audience, where the facts change as well as the tone.",
+      "A story that suits what a particular group would find sympathetic, such as a shared illness, faith or loss.",
       "Found in online dating, community groups, online forums, workplaces, fundraising and friendships that began online.",
       "Most visible when a claim meets a detail that can be checked, such as a date, a place or a mutual acquaintance."
     ],
@@ -215,7 +215,7 @@
     ],
     "what_it_is_not": [
       "Everyone presents differently in different rooms. Someone rebuilding or still working out who they are is changing, not fabricating.",
-      "Code-switching, where a person shifts vocabulary or tone to fit a community without changing any facts about their life.",
+      "Code-switching, where a person changes their words or tone to fit a community. No facts about their life change.",
       "Privacy: leaving out painful details, or keeping an ex's name private, is not inventing false ones.",
       "Exaggeration in a funny story, which listeners understand as storytelling.",
       "People using a pen name or an online handle to keep their work life and personal life apart."
@@ -229,19 +229,19 @@
     ],
     "this_may_not_be_it_when": [
       "The differences are in tone, vocabulary or humor, not in facts.",
-      "The person gives plain reasons for caution, such as safety concerns, and still shares verifiable details over time.",
+      "The person gives plain reasons for caution, such as safety concerns, and still shares details you can verify as time goes on.",
       "A mutual acquaintance or public record confirms the main claims.",
       "The story is incomplete, and not contradictory: they simply have not told you everything yet.",
       "They are open about using a pseudonym or a persona, such as an artist or performer."
     ],
     "innocent_or_ordinary_possibilities": [
       "People are often more guarded, or more upbeat, with new acquaintances than with old friends.",
-      "Someone recovering from a hard chapter might not describe it in full, or might describe it differently at different times.",
+      "Someone recovering from a hard chapter might not describe it in full. They might describe it differently at different times.",
       "Shame about a job, a past or a family can lead to softened details without any plan to gain from them."
     ],
     "common_false_positives": [
       "A person who is quieter and more formal at work and loud and silly with old friends.",
-      "Someone exploring a new identity, such as a new name, a new faith or a new gender expression, whose self-description is changing as they find it.",
+      "Someone exploring a new identity, such as a new name, faith or gender expression, whose self-description changes as they find it.",
       "A friend who tells the same anecdote differently each time because it is a good story, not a record."
     ],
     "discernment_questions": [
@@ -270,35 +270,35 @@
     "repair_check": "Repair starts with the facts being put right in specific terms: which parts were not true, who was told, and what that cost. A fresh, more moving story to explain the old one, or a plea that you understand why, keeps the performance going.",
     "boundary_respect_check": "Ask to confirm one concrete detail, such as a video call, a mutual contact or a workplace. Is it made easy, or is the answer more story? A genuine person with a reason to be careful will usually offer another way to confirm.",
     "psychological_mechanism": "Stories that mirror our own experiences earn trust quickly, and those who seem like us earn warmth. A persona shaped to match can speed up closeness before there are facts to base it on. Because the closeness feels earned, questions can seem disloyal.",
-    "possible_impact_on_receiver": "People describe grief when a connection turns out to rest on invented details, shame about having believed it, and doubt about their own judgment in new relationships. Some find it hard to say which parts were real, and mourn those too.",
+    "possible_impact_on_receiver": "People describe grief when a connection turns out to rest on invented details. They describe shame about having believed it, and doubt about their own judgment in new relationships. Some find it hard to say which parts were real, and mourn those too.",
     "response_options": {
       "soft_clarification": "Ask for detail the way a friend would: 'Tell me more about that time. Who else was there?' Consistent, easy answers are reassuring.",
-      "firm_boundary": "Keep the relationship at its current depth until something can be verified: 'I'd like to meet in person or on video before I share anything personal.'",
-      "disengagement": "Slow your replies and stop sharing personal information, and let the lack of verifiable detail settle the question.",
-      "support_seeking": "Show the profile or story to a friend and ask what they see, or run a reverse image search on photos and check what turns up.",
-      "workplace_or_professional": "For hires and partners, check employment history and references directly, with numbers you looked up yourself, and treat each candidate the same way."
+      "firm_boundary": "Keep the relationship at its current depth until something can be verified. You could say: 'I'd like to meet in person or on video before I share anything personal.'",
+      "disengagement": "Slow your replies and stop sharing personal information. Let the lack of details you can check settle the question.",
+      "support_seeking": "Show the profile or story to a friend and ask what they see. You can also run a reverse image search on photos and check what turns up.",
+      "workplace_or_professional": "For hires and partners, check employment history and references directly, using contact numbers you looked up yourself. Treat each candidate the same way."
     },
     "boundary_script": "\"I like getting to know you. Before I go any deeper, I'd feel better if we could video call, or if I could meet someone who knows you. Would that be okay?\"",
     "safety_sensitive": false,
     "safety_note": "A persona alone is not a safety signal. It becomes one when it comes with requests for money, secrecy, intimate photos or access to your accounts. If it does, stop sending anything, keep the messages, and report the profile to the platform or to your bank's fraud team.",
     "misuse_warning": [
-      "Accusing someone of 'performing' because they are shy, reserved or private punishes people who simply do not share much.",
+      "Accusing someone of 'performing' because they are shy, reserved or private is unfair to people who simply do not share much.",
       "People with changing identities, new names or pen names are often mislabeled as fake. Look for false facts, not unfamiliar presentation."
     ],
-    "how_to_distinguish_from_related": "Credential-Costuming is one claim about titles and qualifications, while identity performance is a whole constructed person. Performative Allyship / False Solidarity is about stated values that go unpracticed, not invented history. Social Engineering is a pretext for one specific request made quickly, whereas a persona is built up over weeks or months and rests on closeness."
+    "how_to_distinguish_from_related": "Credential-Costuming is one claim about titles and qualifications, while identity performance is a whole constructed person. Performative Allyship / False Solidarity is about stated values that go unpracticed, not invented history. Social Engineering is a pretext for one specific request made quickly. A persona is built up over weeks or months and rests on closeness."
   },
   "Social Engineering": {
-    "short_definition": "Getting information, access or action out of someone by exploiting trust, urgency or social habits, usually under a false pretext such as a claimed role or emergency.",
-    "core_meaning": "Getting information, access or action out of someone by exploiting trust, urgency or social habits, usually under a false pretext such as a claimed role or emergency.",
-    "expanded_definition": "Social engineering is a request that gets past normal checks by working on people instead of on systems. A caller claims to be from the bank, a message appears to be from a boss, someone in a hi-vis vest walks through a door. The request leans on helpfulness, respect for authority or fear of getting it wrong. Real organizations also make urgent requests, so urgency alone settles nothing. The test is whether the request can be verified through a channel you already trust.",
+    "short_definition": "Getting someone to hand over information, access or action by playing on their trust, urgency or social habits, usually under a false story such as a claimed role or emergency.",
+    "core_meaning": "Getting someone to hand over information, access or action by playing on their trust, urgency or social habits, usually under a false story such as a claimed role or emergency.",
+    "expanded_definition": "Social engineering is a request that gets past normal checks by working on people instead of on systems. A caller claims to be from the bank. A message appears to be from a boss. Someone in a hi-vis vest walks through a door. The request leans on helpfulness, respect for authority or fear of getting it wrong. Real organizations also make urgent requests, so urgency alone settles nothing. The test is whether the request can be verified through a channel you already trust.",
     "plain_language_summary": "Someone pretends to be a person or company you trust. They rush you or act official, so you hand over details before you check.",
-    "why_this_matters": "What gets used is ordinary decency: being helpful, deferring to apparent authority, not wanting to make a fuss. So the loss afterwards, of money, access or privacy, can feel like a personal failing and not something that was done to you.",
+    "why_this_matters": "What gets used is ordinary decency: being helpful, deferring to apparent authority, not wanting to make a fuss. So a loss of money, access or privacy can leave you blaming yourself, instead of seeing that it was done to you.",
     "what_it_is": [
-      "A request that arrives with a role attached, such as bank staff, IT support, a manager, a delivery driver or a government agent.",
+      "A request that comes with a role attached, like bank staff, IT support, a manager, a delivery driver or a government agent.",
       "A pretext, meaning a made-up reason, that explains why the usual process must be skipped this once.",
-      "Pressure on time or on feelings: a deadline, a threat to an account, a relative in trouble, or embarrassment about asking.",
+      "Pressure on time or on feelings, such as a deadline, a threat to an account, a relative in trouble, or embarrassment about asking.",
       "Delivered by phone, text, email, social media, or in person at a front desk or a door.",
-      "Aimed at what people can give freely: a code, a password, a payment, a keycard, a favor or a piece of personal information."
+      "Aimed at things people can give freely, like a code, a password, a payment, a keycard, a favor or a piece of personal information."
     ],
     "what_it_sounds_like": [
       "This is the fraud team at your bank. Someone is draining your account right now, and I need you to read me the code we just sent.",
@@ -310,10 +310,10 @@
       "An email from a familiar name with a slightly different address, asking you to change where an invoice is paid."
     ],
     "what_it_is_not": [
-      "Genuinely urgent, legitimate requests exist, and real IT or security staff follow processes that most people have never met. Checking back through a channel you already trust costs an honest request nothing, which makes it the cheap test here and not suspicion of the person.",
+      "Genuinely urgent, legitimate requests exist, and real IT or security staff follow processes that most people have never met. Checking back through a channel you already trust costs an honest request nothing. It is a cheap test, not suspicion of the person.",
       "A real colleague who is rushed and informal and writes a short, blunt email with no pretext at all.",
       "Marketing or sales outreach that is pushy but honest about who is calling and what they want.",
-      "A friend or relative who actually has an emergency, which can be confirmed by calling them on their usual number.",
+      "A friend or relative who really has an emergency, which you can confirm by calling them on their usual number.",
       "A security drill run by your own employer that has been announced through official channels."
     ],
     "this_may_be_it_when": [
@@ -363,38 +363,38 @@
       "A growing amount of your personal detail, such as birthdays, addresses and workplaces, appears in the messages.",
       "The pressure escalates each time you delay or ask to check."
     ],
-    "repair_check": "After a request is found to be false, repair for you is practical: the bank, employer or platform is told, passwords and codes are changed, and the channel that was used is blocked. The genuine organization, if one was imitated, explains what it will never ask for.",
+    "repair_check": "After a request is found to be false, repair for you is practical. The bank, employer or platform is told, passwords and codes are changed, and the channel that was used is blocked. The genuine organization, if one was imitated, explains what it will never ask for.",
     "boundary_respect_check": "Ask whether you can verify and call back, and watch whether the pace slows. A legitimate caller tends to agree and wait. Pressure that rises, a new reason it cannot wait, or an offer to stay on the line while you check is the signal.",
     "psychological_mechanism": "Pressure and borrowed authority can narrow attention to the request, so the habit of checking gets crowded out. Fear of loss or of letting someone down tends to push people to act quickly. Familiar roles, a known name or a plausible detail can lower guard, since most such requests in daily life are honest.",
-    "possible_impact_on_receiver": "People describe sudden panic followed by shame, replaying how they missed the signs, and reluctance to tell anyone for fear of being judged. Some become wary of every call and message, and some lose savings, access to accounts or private information.",
+    "possible_impact_on_receiver": "People describe sudden panic followed by shame. They replay how they missed the signs, and hold back from telling anyone for fear of being judged. Some become wary of every call and message. Some lose savings, access to accounts or private information.",
     "response_options": {
       "soft_clarification": "Say you handle such matters yourself: 'I'm going to check this through the official number and come back to you.'",
-      "firm_boundary": "Decline to share codes or passwords with anyone who contacts you first: 'I don't give that out in response to a call or message, whoever it is.'",
-      "disengagement": "Close the message, end the call without explanation, and then contact the real organization using a number from its official site or the back of your card.",
+      "firm_boundary": "Decline to share codes or passwords with anyone who contacts you first. A line to try: 'I don't give that out in response to a call or message, whoever it is.'",
+      "disengagement": "Close the message, or end the call without explanation. Then contact the real organization using a number from its official site or the back of your card.",
       "support_seeking": "Tell someone you trust right away, even if you feel foolish. If money moved or a password was shared, call your bank's fraud line and ask for help securing your accounts.",
-      "workplace_or_professional": "Report any odd request to your security or IT team, and set up a rule that payments or access changes need a second person to confirm by a known channel."
+      "workplace_or_professional": "Report any odd request to your security or IT team. Set up a rule that payments or access changes need a second person to confirm by a known channel."
     },
     "boundary_script": "\"Thanks for letting me know. I deal with anything like this through the official number, so I'll look it up myself and check. If it's real, it will still be there after I've confirmed it.\"",
     "safety_sensitive": false,
-    "safety_note": "A scam call or message is a fraud risk rather than a personal-safety one. It becomes more urgent with threats of arrest, claims that a relative is in danger, demands for secrecy, or pressure to send money in hard-to-trace ways. If you have already sent money or shared a code, phone your bank's fraud line straight away using the number on your card, since speed matters.",
+    "safety_note": "A scam call or message is a fraud risk rather than a personal-safety one. It becomes more urgent when there are threats of arrest, claims that a relative is in danger, demands for secrecy, or pressure to send money in ways that are hard to trace. If you have already sent money or shared a code, phone your bank's fraud line straight away using the number on your card, since speed matters.",
     "misuse_warning": [
       "Treating every urgent request as a scam can strain relationships and slow honest work. Verification is the test, not a feeling of suspicion.",
       "Blaming someone who fell for it adds shame to a loss. Good people with good habits get caught by well-built pretexts."
     ],
-    "how_to_distinguish_from_related": "Credential-Costuming is about inflated titles and standing over time, while social engineering is a single request that uses a role to get something now. Identity Performances builds a persona over weeks or months; here the pretext is usually short-lived and aimed at an action. Performative Allyship / False Solidarity trades on shared values, not on urgency or authority."
+    "how_to_distinguish_from_related": "Credential-Costuming is about inflated titles and standing over time, while social engineering is a single request that uses a role to get something now. Identity Performances builds a persona over weeks or months. Here the pretext is usually short-lived and aimed at an action. Performative Allyship / False Solidarity trades on shared values, not on urgency or authority."
   },
   "Performative Allyship / False Solidarity": {
-    "short_definition": "Declaring support for a cause or group in public while private actions and choices do not match the words, so the support earns trust it has not backed up.",
-    "core_meaning": "Declaring support for a cause or group in public while private actions and choices do not match the words, so the support earns trust it has not backed up.",
-    "expanded_definition": "Performative allyship, sometimes called false solidarity, means public statements of support or shared values that are not matched by anything done when no one is watching. 'Allyship' is the term usually used for social causes and 'solidarity' is used more widely, including at work and among friends. The statement may even be heartfelt. The gap shows when support would cost something, and it quietly disappears.",
+    "short_definition": "Public support for a cause or group that private actions and choices do not match, so it earns trust it has not backed up.",
+    "core_meaning": "Public support for a cause or group that private actions and choices do not match, so it earns trust it has not backed up.",
+    "expanded_definition": "Performative allyship, sometimes called false solidarity, is public support or shared values that nothing done when no one is watching backs up. 'Allyship' is usually used for social causes. 'Solidarity' is used more widely, including at work and among friends. The statement may even be heartfelt. The gap shows when support would cost something, and the support quietly disappears.",
     "plain_language_summary": "Someone says all the right things about standing with you or your cause, but when support would cost them something, it is not there.",
-    "why_this_matters": "Trust is given on the strength of stated values, and the gap only becomes visible when support would have cost something, which is usually the moment you most needed it. The let-down then lands as a betrayal and can make future trust harder.",
+    "why_this_matters": "Trust is given on the strength of stated values. The gap only becomes visible when support would have cost something, which is usually the moment you most needed it. The let-down then lands as a betrayal and can make future trust harder.",
     "what_it_is": [
       "Public statements, posts, badges or slogans of support that sit beside private choices that point the other way.",
-      "Two labels for the same gap: 'allyship' is used in discussions of social justice, 'false solidarity' in workplaces, unions, friendships and movements.",
+      "Two labels for the same gap. 'Allyship' is used in discussions of social justice, and 'false solidarity' in workplaces, unions, friendships and movements.",
       "Support that rises with attention, such as around an event or a campaign, and fades when the audience moves on.",
       "A declared alliance used as cover, so that a later criticism is met with 'but I support you'.",
-      "Visible most clearly when something concrete is needed, such as a vote, a referral, a speaking-up, a shared cost or a risk."
+      "Visible most clearly when something concrete is needed, such as a vote, a referral, speaking up, a shared cost or a risk."
     ],
     "what_it_sounds_like": [
       "I'm so proud to stand with you. You can always count on me. (and in the meeting, silence)",
@@ -406,7 +406,7 @@
       "Colleagues who endorse your cause in a team meeting and vote against it in private."
     ],
     "what_it_is_not": [
-      "Many people are further along in their stated values than in their practice and are genuinely, if unevenly, catching up.",
+      "Many people are further along in their stated values than in their practice. They are genuinely, if unevenly, catching up.",
       "Quiet support that is never announced anywhere is the reverse of this pattern, not a mild version of it.",
       "Someone who supports a cause but is limited by real constraints, such as a precarious job, and says so honestly.",
       "A newcomer to an issue who is learning, makes mistakes, and takes correction well.",
@@ -459,24 +459,24 @@
       "Your requests for concrete help are met with praise for the cause instead of an answer.",
       "People who were helped in the past quietly stop relying on this person."
     ],
-    "repair_check": "Mending this shows up as costs accepted: a specific thing done, a decision changed, a seat or credit given up, and a plain acknowledgment of the earlier gap. Another statement of support, however well written, only repeats the gap.",
+    "repair_check": "Mending this shows up as costs accepted. That means a specific thing done, a decision changed, a seat or credit given up, and a plain acknowledgment of the earlier gap. Another statement of support, however well written, only repeats the gap.",
     "boundary_respect_check": "Ask for one specific, practical thing and see what follows. If it gets done, even imperfectly, the stated support has substance. Another statement of how much they care, or a claim that your request is unfair, is the pattern again.",
     "psychological_mechanism": "Stated shared values can lower our guard, because we expect people who say they care to act accordingly. Public statements are cheap and bring social reward, while acting often carries a cost, so the reward can arrive without the cost. A person on the receiving end may then excuse the gap for a long time, hoping for the action.",
-    "possible_impact_on_receiver": "A particular sting comes when someone who said they stood with you is absent at the critical moment, and you start doubting whether your need was reasonable. Some become wary of every public statement of support, and some keep thanking people who have done little.",
+    "possible_impact_on_receiver": "It stings when someone who said they stood with you is missing at the key moment. You may start doubting whether your need was reasonable. Some become wary of every public statement of support, and some keep thanking people who have done little.",
     "response_options": {
       "soft_clarification": "Name what you need in concrete terms: 'It would really help if you could raise this at Thursday's meeting. Can you do that?'",
       "firm_boundary": "Decline to offer praise or credit in place of action: 'I appreciate the words. I need to see what you will do before I treat it as support.'",
       "disengagement": "Stop relying on this person for the thing they promised, and turn to people who have shown up before.",
       "support_seeking": "Talk with others in the same cause or community about who has actually helped, and build on those relationships.",
-      "workplace_or_professional": "Ask for specific commitments in writing, such as a policy change, a date, or an owner, and follow up on them in the next meeting."
+      "workplace_or_professional": "Ask for specific commitments in writing, such as a policy change, a date, or an owner. Follow up on them in the next meeting."
     },
     "boundary_script": "\"Your saying that means something. What would mean even more is one concrete step. Could you tell me what you are able to do this month, and by when?\"",
     "safety_sensitive": false,
-    "safety_note": "This is usually a trust and credibility problem and not a danger. It would change if the declared alliance is used to gain access to a vulnerable person, such as in a support group or a youth setting. It would also change if it is used to pressure someone into silence. In that case, raise it with the group's organizer or a safeguarding contact.",
+    "safety_note": "This is usually a problem of trust and credibility, and not a danger. That would change if the declared alliance is used to gain access to a vulnerable person, such as in a support group or a youth setting. It would also change if it is used to pressure someone into silence. In that case, raise it with the group's organizer or a safeguarding contact.",
     "misuse_warning": [
-      "Calling every public statement performative discourages people who are sincerely learning and who may act later. Judge by what follows, over time.",
-      "Using the label to dismiss someone who disagrees with you turns a description of a gap into a way of ending a debate."
+      "Calling every public statement performative discourages people who are sincerely learning and may act later. Judge by what follows, as time passes.",
+      "Using the label to dismiss someone who disagrees with you turns a description of a gap into a way to end a debate."
     ],
-    "how_to_distinguish_from_related": "Identity Performances invents a history or persona, while performative allyship leaves the person's real history alone and gaps appear between stated values and actions. Strategic Self-Deprecation / Performed Humility deflects through stated flaws, where this deflects through stated virtue. Social Engineering is a quick request under a pretext, while here the alliance is long-running and the cost is what is left undone."
+    "how_to_distinguish_from_related": "Identity Performances invents a history or persona. Performative allyship leaves the person's real history alone, and the gap lies between stated values and actions. Strategic Self-Deprecation / Performed Humility deflects through stated flaws, where this deflects through stated virtue. Social Engineering is a quick request under a pretext, while here the alliance is long-running and the cost is what is left undone."
   }
 }

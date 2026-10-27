@@ -582,11 +582,11 @@
     "how_to_distinguish_from_related": "Clinical Tone Policing criticizes how you express distress, while medical gaslighting is about whether your symptoms are believed at all. Trash-Can Diagnosis hands out a mental health label as an insult. Weaponized Therapy-Speak uses clinical words in arguments between people. Medical gaslighting happens inside a care relationship, where what gets discounted is your account of your own body."
   },
   "Process Exhaustion": {
-    "short_definition": "A process that keeps adding steps, forms, meetings and re-reviews until the person gives up from tiredness, not because their matter was decided.",
-    "core_meaning": "A process that keeps adding steps, forms, meetings and re-reviews until the person gives up from tiredness, not because their matter was decided.",
-    "expanded_definition": "Process exhaustion is when the process itself becomes the obstacle. Each step may be reasonable and follow written rules, but together they restart clocks, ask for the same information again, pass the person between offices, and stretch a simple matter across months. It shows up in insurance claims, benefits, immigration paperwork, workplace complaints, school accommodations and housing disputes. Complex matters do take time. The difference is effort out of proportion to the issue, progress that does not carry from one step to the next, and a withdrawal recorded as though you had chosen it.",
+    "short_definition": "A process that keeps adding steps, forms, meetings and re-reviews until the person gives up because they are worn out, and not because their matter was decided.",
+    "core_meaning": "A process that keeps adding steps, forms, meetings and re-reviews until the person gives up because they are worn out, and not because their matter was decided.",
+    "expanded_definition": "Process exhaustion is when the process itself becomes the obstacle. Each step may be reasonable and follow written rules. Together, though, they restart clocks, ask for the same information again, pass the person between offices, and stretch a simple matter across months. It shows up in insurance claims, benefits, immigration paperwork, workplace complaints, school accommodations and housing disputes. Complex matters do take time. The difference is effort out of proportion to the issue, progress that does not carry from one step to the next, and a withdrawal recorded as though you had chosen it.",
     "plain_language_summary": "Each time you ask for something, a new form, meeting or review starts. After enough rounds you give up, and nobody ever has to decide.",
-    "why_this_matters": "You lose through depletion instead of a decision, and the record shows it as your choice: you withdrew, you did not follow up, you stopped replying.",
+    "why_this_matters": "You lose by being worn down, and not by a decision. Then the record shows it as your choice: you withdrew, you did not follow up, you stopped replying.",
     "what_it_is": [
       "A sequence of required steps that keeps lengthening: another form, another office, another review, another waiting period.",
       "Restarted clocks: a new complaint, a changed address or a missing signature sends you back to the beginning.",
@@ -607,7 +607,7 @@
     "what_it_is_not": [
       "A complex matter that really needs several expert steps and a long time, with each step building on the last.",
       "A slow office short of staff, where every applicant waits the same long time.",
-      "Required documents and safeguards meant to prevent fraud or protect others, which feel heavy but apply equally to everyone.",
+      "Required documents and safeguards meant to prevent fraud or protect others. They can be heavy, but they apply equally to everyone.",
       "An appeals ladder that is long but stated up front, with stage timelines you can plan around.",
       "A delay caused by a real error, such as a lost file, that is then fixed with credit for the time already waited.",
       "Waiting on a third party, such as a lab or a court date, that nobody in the process controls."
@@ -660,24 +660,24 @@
       "You take time off or arrange childcare for steps that could have been done by mail or phone.",
       "Your list of reasons to keep going gets shorter, and the file closes with a note saying you withdrew."
     ],
-    "repair_check": "Genuine reform means one consolidated file, a single contact, a final timeline in writing and credit for time already waited. Regret paired with yet another form, or a fresh review that starts the clock at day one, repeats the first problem.",
+    "repair_check": "Genuine reform means one consolidated file, a single contact, a final timeline in writing and credit for time already waited. Regret paired with yet another form repeats the first problem. So does a fresh review that starts the clock at day one.",
     "boundary_respect_check": "Notice what happens when you ask for a written list of every remaining step, with dates. If it arrives and holds, the process can be planned around. If the list keeps changing, or the request is passed from desk to desk, that tells you something about the process.",
-    "psychological_mechanism": "Effort and waiting can wear people down in a way that open disagreement does not. Each step asks for a little more time, money or composure, and the cost of continuing grows while the chance of an end stays unclear. Because every step seems reasonable alone, it is hard to point to one moment where things went wrong, which can make complaint feel petty and quitting feel like personal failure.",
-    "possible_impact_on_receiver": "People describe dread of letters and calls, losing hours of work to appointments, repeating painful details to a new person each time, and finally giving up on something they were entitled to. Some feel shame at having quit, though the process had asked more than the matter was worth. Others describe the process taking over their free time.",
+    "psychological_mechanism": "Effort and waiting can wear people down in a way that open disagreement does not. Each step asks for a little more time, money or composure, and the cost of continuing grows while the chance of an end stays unclear. Every step looks reasonable alone, so it is hard to point to one moment where things went wrong. That can make a complaint look petty and quitting look like personal failure.",
+    "possible_impact_on_receiver": "People describe dread of letters and calls, losing hours of work to appointments, and repeating painful details to a new person each time. Some finally give up on something they were entitled to. Some feel shame at having quit, though the process had asked more than the matter was worth. Others describe the process taking over their free time.",
     "response_options": {
-      "soft_clarification": "Ask the office for the full list of remaining steps and what each one is for: 'Can you give me everything still needed, in writing, with dates?'",
+      "soft_clarification": "Ask the office for every step still to come and what each one is for. You might say: 'Can you give me everything still needed, in writing, with dates?'",
       "firm_boundary": "Hold the process to its own record: 'I submitted this on the date shown on my confirmation. I'd like it treated as received then, not restarted.'",
       "disengagement": "Put a limit on your own effort. Pick one day a week for the process and let the rest of the week stay free, so it stops filling every gap.",
-      "support_seeking": "Bring in a caseworker, legal aid office, union steward or advocate for your kind of case; they often know which steps are required and which can be combined.",
-      "workplace_or_professional": "Keep a single dated log of every submission, call and name, and ask in writing for escalation to a supervisor or ombudsperson's office (an independent complaints office) when a step repeats."
+      "support_seeking": "Bring in a caseworker, legal aid office, union steward or advocate for your kind of case. They often know which steps are required and which can be combined.",
+      "workplace_or_professional": "Keep a single dated log of every submission, call and name. When a step repeats, ask in writing for escalation to a supervisor or ombudsperson's office (an independent complaints office)."
     },
     "boundary_script": "\"I've already provided these documents on the dates shown on my confirmations. Please check the file for them, and let me know in writing what is actually still outstanding and when a decision will be made.\"",
     "safety_sensitive": false,
-    "safety_note": "Being worn down by forms and deadlines is a fairness and time problem. It becomes more serious when the matter protects your housing, income, health care, immigration status or custody, because a missed step can close the case permanently. If you are close to a hard deadline of that kind, contact legal aid or a caseworker now. Ask what the actual cut-off date is before spending more time on forms.",
+    "safety_note": "Being worn down by forms and deadlines is a fairness and time problem. It becomes more serious when the matter protects your housing, income, health care, immigration status or custody. A missed step can close the case permanently. If you are close to a hard deadline of that kind, contact legal aid or a caseworker now. Ask what the actual cut-off date is before spending more time on forms.",
     "misuse_warning": [
-      "Calling any slow or heavy process 'exhaustion' can write off real safeguards and long timelines that apply to everyone, and can make an overloaded office look hostile.",
-      "A person who missed deadlines on their own may use the label to explain the loss; a dated log of what actually happened is the check."
+      "Calling any slow or heavy process 'exhaustion' can write off real safeguards and long timelines that apply to everyone. It can also make an overloaded office look hostile.",
+      "A person who missed deadlines on their own may use the label to explain the loss. A dated log of what actually happened is the check."
     ],
-    "how_to_distinguish_from_related": "Pressure to Sign compresses time to nothing, while process exhaustion stretches it out. Confidentiality as Weapon closes the file to you, whereas here the file is open and the path keeps growing. Legal/Administrative Threats mention an authority as a warning, and nothing in this tactic needs to be said aloud, because the steps themselves wear you down."
+    "how_to_distinguish_from_related": "Pressure to Sign squeezes time down to nothing, while process exhaustion stretches it out. Confidentiality as Weapon closes the file to you, but here the file is open and the path keeps growing. Legal/Administrative Threats mention an authority as a warning. This tactic needs nothing said aloud, because the steps themselves wear you down."
   }
 }

@@ -387,7 +387,7 @@
     "why_this_matters": "The doubting continues with nobody present to do it. You discount things you clearly remember and edit your own account before anyone has even challenged it.",
     "what_it_is": [
       "A reflex of second-guessing your memory that fires before any disagreement has been voiced.",
-      "A habit that may have formed after repeated denial of your account in a relationship, family or workplace.",
+      "A habit that may have formed after your account was denied again and again in a relationship, family or workplace.",
       "Self-editing, such as softening or dropping the part of a story you are sure about.",
       "Not a defect of memory: it is how you treat your memory, and it can ease with time and support."
     ],
@@ -416,7 +416,7 @@
     "this_may_not_be_it_when": [
       "The memory really is fuzzy, and you hold it loosely for that reason.",
       "You changed your mind because someone showed you a reason, and the new view makes sense to you.",
-      "You doubt yourself equally in every area, in a way that a doctor or therapist is already exploring.",
+      "You doubt yourself equally in every area, and a doctor or therapist is already exploring why.",
       "Your doubt lifts as soon as you check the record, and stays lifted.",
       "It is a short phase of stress or sleep loss that eases once things calm down."
     ],
@@ -453,32 +453,32 @@
       "You say 'I don't know, maybe' to questions you can in fact answer.",
       "Friends comment that you used to trust your own account more."
     ],
-    "repair_check": "Watch for small moments when the old reflex does not fire, such as telling a story as you remember it without adding a hedge. Change tends to arrive as repeated, small choices to believe yourself, helped by people who confirm what you saw, rather than as one big realization.",
+    "repair_check": "Watch for small moments when the old reflex does not fire, such as telling a story as you remember it without adding a hedge. Change usually arrives as many small choices to believe yourself, helped by people who confirm what you saw, more than as one big realization.",
     "boundary_respect_check": "Notice what happens when you give yourself permission to pause before deciding what you think. Does the permission hold, or does the old habit override it within seconds? A boundary here is a promise to yourself, and it is kept in small, repeated acts.",
-    "psychological_mechanism": "When your account is contradicted again and again, especially by someone you rely on, you can learn that your read of events is the thing most likely to be wrong. The doubt then gets moved inside, so it can fire quickly and quietly as a way of avoiding conflict. Over time, it may pass for a personal trait.",
-    "possible_impact_on_receiver": "Some report hedging every sentence, keeping notes to prove they are not wrong, and feeling lost when asked what they want. Others describe tiredness from constant checking, or surprise at how clear their memory felt once they were away from the person who contradicted it.",
+    "psychological_mechanism": "When your account is contradicted again and again, especially by someone you rely on, you can learn that your read of events is the thing most likely to be wrong. The doubt then moves inside. It can fire quickly and quietly as a way to avoid conflict. Over time, it may pass for a personal trait.",
+    "possible_impact_on_receiver": "Some report hedging every sentence, keeping notes to prove they are not wrong, and feeling lost when asked what they want. Others describe tiredness from constant checking. Some were surprised at how clear their memory felt once they were away from the person who contradicted it.",
     "response_options": {
       "soft_clarification": "To someone who asks what happened, try giving your account first and the hedge second, or not at all: 'Here is what I remember.'",
       "firm_boundary": "Treat your own notes as legitimate: 'I wrote it down at the time, and I am going to trust that record.'",
       "disengagement": "When the urge to retract arrives, you can postpone the decision. Close the conversation, give yourself an hour, and come back to the facts as you see them.",
       "support_seeking": "A therapist or counselor who works with people leaving controlling relationships can help you test your memories and rebuild trust in them. A friend who was around at the time can help too.",
-      "workplace_or_professional": "At work, writing short same-day notes after meetings gives you a record that does not depend on anyone agreeing, and it can help you hold your ground."
+      "workplace_or_professional": "At work, short same-day notes after meetings give you a record that does not depend on anyone agreeing. They can help you hold your ground."
     },
     "boundary_script": "Self-support script: \"I am allowed to trust my own read of things. I do not have to decide how I feel about this right now, and I can check what I wrote down before I change my account.\"",
     "safety_sensitive": false,
     "safety_note": "Self-gaslighting is a habit you carry, not a threat from someone else. The person whose version you doubt may still be in your life, and you may feel afraid of them. Or the doubt may come with low mood that does not lift. Then a counselor, doctor or domestic abuse advocate can help, and you can start with a private conversation.",
     "misuse_warning": [
-      "This is a way to understand yourself, not a label to hand to someone else ('you are self-gaslighting') or to treat as proof that your memory is unreliable.",
+      "This is a way to understand yourself. Do not hand it to someone else as a label ('you are self-gaslighting'), and do not treat it as proof that your memory is unreliable.",
       "Treating every moment of doubt as a symptom can make healthy caution feel like damage. Some doubt is just good thinking."
     ],
-    "how_to_distinguish_from_related": "Identity Erosion is the slow loss of tastes, opinions and friendships, while Self-Gaslighting Induction is distrust of your memory and perception. Fawning is appeasing a person in the moment, but this habit continues when the person is not there. Learned Helplessness is doubt about whether you can manage tasks; this one is doubt about what you saw and remember."
+    "how_to_distinguish_from_related": "Identity Erosion is the slow loss of tastes, opinions and friendships. Self-Gaslighting Induction is distrust of your memory and perception. Fawning is appeasing a person in the moment, but this habit continues when the person is not there. Learned Helplessness is doubt about whether you can manage tasks, while this one is doubt about what you saw and remember."
   },
   "Fawning": {
-    "short_definition": "Responding to a threatening person by pleasing, agreeing and shrinking yourself, as an automatic way of staying safe.",
-    "core_meaning": "Responding to a threatening person by pleasing, agreeing and shrinking yourself, as an automatic way of staying safe.",
-    "expanded_definition": "Fawning is a safety response, listed alongside fight, flight and freeze in many accounts of how people react to threat. Facing someone who feels dangerous or unpredictable, the person agrees quickly, flatters, apologizes, anticipates needs and sets their own opinion aside. It usually forms because it worked once. It is different from kindness: the driver is fear, and the pattern may continue after the danger has gone.",
+    "short_definition": "Responding to a threatening person by pleasing them, agreeing and shrinking yourself, as an automatic way to stay safe.",
+    "core_meaning": "Responding to a threatening person by pleasing them, agreeing and shrinking yourself, as an automatic way to stay safe.",
+    "expanded_definition": "Fawning is a safety response. Many accounts list it alongside fight, flight and freeze as a way people react to threat. When someone seems dangerous or unpredictable, the person agrees quickly, flatters, apologizes, guesses needs ahead of time and sets their own opinion aside. It usually forms because it worked once. It is different from kindness: the driver is fear, and the pattern may continue after the danger has gone.",
     "plain_language_summary": "When someone feels scary, you switch into pleasing them: agreeing, saying sorry, hiding what you think. You learned it because it once kept you safe.",
-    "why_this_matters": "Safety is bought with your own position: you apologize for things done to you, and lose track of what you actually think while you are still saying it.",
+    "why_this_matters": "You buy safety with your own position. You apologize for things done to you, and you lose track of what you actually think while you are still saying it.",
     "what_it_is": [
       "A quick, automatic move toward agreement, flattery or apology when a particular person seems unsafe.",
       "Often learned in childhood homes or relationships where calm depended on keeping someone else happy.",
@@ -548,16 +548,16 @@
       "Friends notice you seem different, quieter or more agreeable, around one person.",
       "You feel tired after social contact because of how much mood-reading you do."
     ],
-    "repair_check": "Look for moments when the automatic yes loosens, such as taking a beat before answering or saying a small no to a safe person and surviving it. Change tends to build through many small experiences of staying safe while disagreeing, not through a decision to stop.",
+    "repair_check": "Look for moments when the automatic yes loosens, such as taking a beat before answering, or saying a small no to a safe person and surviving it. Change usually builds through many small experiences of staying safe while disagreeing, and not through a decision to stop.",
     "boundary_respect_check": "When you give yourself time to answer, does the pause hold, or does the old reflex override it in seconds? Treat this as information about your nervous system, not about your character, and note which settings let the pause last.",
-    "psychological_mechanism": "When a person has learned that someone's anger or disapproval brings real costs, agreement and appeasement can become a quick, practiced way to lower the threat. Because it often worked, it tends to run automatically and without thought. The response can stay active in later situations that echo the first, even when the danger is gone.",
-    "possible_impact_on_receiver": "Some report not knowing what they think until they are alone, feeling shame about things they agreed to, or being worn out from constant mood-reading. Others notice that with kind people they feel strangely blank when asked what they want. Many describe relief on learning that this has a name and a reason.",
+    "psychological_mechanism": "When a person has learned that someone's anger or disapproval brings real costs, agreement and appeasement can become a quick, practiced way to lower the threat. Because it often worked, it usually runs automatically, without thought. The response can stay active in later situations that echo the first, even when the danger is gone.",
+    "possible_impact_on_receiver": "Some report not knowing what they think until they are alone. Some feel shame about things they agreed to, or are worn out from constant mood-reading. Others notice that with kind people they go strangely blank when asked what they want. Many describe relief on learning that this has a name and a reason.",
     "response_options": {
       "soft_clarification": "With someone safe, you can name the habit lightly: 'I tend to say yes fast. Can I think about that and tell you tomorrow?'",
-      "firm_boundary": "Practice small refusals in low-stakes settings first, such as choosing the film or the food, to build the experience of staying safe while holding a preference.",
-      "disengagement": "If a person or place sets off the reflex, it is fine to keep contact brief, choose calmer settings where you can, and recover afterward somewhere quiet.",
+      "firm_boundary": "Start with small refusals in low-stakes settings, such as choosing the film or the food. This builds the experience of staying safe while holding a preference.",
+      "disengagement": "If a person or place sets off the reflex, it is fine to keep contact brief. Choose calmer settings where you can, and recover afterward somewhere quiet.",
       "support_seeking": "A therapist who understands trauma responses can help you work out when fawning protects you and when it costs you. Tell them about the specific people it happens around.",
-      "workplace_or_professional": "If a boss triggers it, keep decisions in writing and give yourself a rule of answering after a day on anything large, so your yes is not made under pressure."
+      "workplace_or_professional": "If a boss triggers it, keep decisions in writing. Give yourself a rule of answering after a day on anything large, so your yes is not made under pressure."
     },
     "boundary_script": "Self-support script: \"This quick yes is a safety habit. I can notice it without acting on it yet, and I can take my time deciding what I actually think.\"",
     "safety_sensitive": false,

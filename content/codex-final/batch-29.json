@@ -1,14 +1,14 @@
 {
   "Pseudo-Consultation": {
-    "short_definition": "Asking for opinions, feedback or comment after the decision is already settled, so the input has nothing left to change.",
-    "core_meaning": "Asking for opinions, feedback or comment after the decision is already settled, so the input has nothing left to change.",
-    "expanded_definition": "Pseudo-Consultation is a consultation that happens in form but not in function. A survey, town hall, comment period or feedback session is held, people give their views, and the outcome turns out to have been fixed beforehand. The decision is then described as shaped by those who took part. One disappointing consultation proves little, since honest ones also end in decisions people dislike. What gives it away is timing: the contract was signed, the vendor chosen or the announcement drafted before the first person spoke.",
-    "plain_language_summary": "You are invited to have your say about something already decided, and afterward it gets described as a choice you took part in.",
-    "why_this_matters": "You spend real effort and real candor on input that could never have changed anything, and the decision is afterwards described as shared with you. Next time you may speak up less, or feel you gave up the right to object because you were asked.",
+    "short_definition": "Asking for opinions, feedback or comment after the decision is already made, when the input can no longer change anything.",
+    "core_meaning": "Asking for opinions, feedback or comment after the decision is already made, when the input can no longer change anything.",
+    "expanded_definition": "Pseudo-Consultation is a consultation that happens in form but not in function. A survey, town hall, comment period or feedback session is held, and people give their views. The outcome turns out to have been fixed beforehand. The decision is then described as shaped by those who took part. One disappointing consultation proves little, since honest ones also end in decisions people dislike. What gives it away is timing: the contract was signed, the vendor chosen or the announcement drafted before the first person spoke.",
+    "plain_language_summary": "You are invited to have your say about something already decided. Afterward it gets described as a choice you took part in.",
+    "why_this_matters": "You spend real effort and real honesty on input that could never have changed anything. Afterwards the decision is described as shared with you. Next time you may speak up less, or feel you gave up the right to object because you were asked.",
     "what_it_is": [
       "A feedback step placed after the point where a decision can still be reversed, such as after a lease, contract or restructure has been signed.",
-      "Input gathered in public and then summarized in a way that thanks people without saying what, if anything, changed.",
-      "Questions that only offer choices among options already picked, like the color of the new logo but not whether to rebrand.",
+      "Input gathered in public, then summed up with thanks but no word on what, if anything, changed.",
+      "Questions that offer choices only among options already picked, like the color of the new logo but not whether to rebrand.",
       "A record of participation (attendance sheets, survey counts) later cited as evidence that the people affected agreed."
     ],
     "what_it_sounds_like": [
@@ -20,10 +20,10 @@
       "A staff meeting where the manager says, \"Nothing is set in stone,\" and the new policy is in the handbook by the end of the week."
     ],
     "what_it_is_not": [
-      "A consultation that says up front what is fixed, for example, \"The budget is set, but you can shape how it is spent.\" Honest limits are not staged influence.",
+      "A consultation that says up front what is fixed, for example: \"The budget is set, but you can shape how it is spent.\" Honest limits are not staged influence.",
       "Feedback on how to carry out a decision that really is final, when that narrower scope is stated plainly.",
       "A real consultation where the decision went against most of the people who spoke. Losing a fair process is not the same as never having had one.",
-      "A legal requirement to hold a comment period that the body treats seriously, even if the final text changes only a little.",
+      "A legal requirement to hold a comment period, where the body takes the comments seriously even if the final text changes only a little.",
       "A leader who listened, weighed everything and kept the original plan, and can say why."
     ],
     "this_may_be_it_when": [
@@ -41,17 +41,17 @@
       "You only suspect the outcome was fixed because you dislike it, and have no timeline or record pointing that way."
     ],
     "innocent_or_ordinary_possibilities": [
-      "Organizers sometimes consult late because a deadline, funder or regulator left them little room, and then say so.",
+      "Organizers sometimes consult late because a deadline, funder or regulator left them little room. They then say so.",
       "A leader may have a strong preference, listen honestly, and still end up where they started.",
-      "Consultations often gather more suggestions than a project can absorb, so many are filed for later without being dismissed."
+      "Consultations often gather more suggestions than a project can absorb, so many are filed for later and not dismissed."
     ],
     "common_false_positives": [
-      "A public hearing on a zoning change where the council votes against the majority of speakers after weighing legal limits.",
-      "A workplace survey about a launched system where only the training schedule can still be changed, and the notice says so.",
+      "A public hearing on a zoning change where the council weighs legal limits and then votes against the majority of speakers.",
+      "A workplace survey about a system that has already launched, where only the training schedule can still change, and the notice says so.",
       "A design review in which the lead adopts two ideas out of thirty and keeps the rest of the plan."
     ],
     "discernment_questions": [
-      "Do dates, contracts or announcements show when the decision was actually made compared with when you were asked?",
+      "Do dates, contracts or announcements show when the decision was actually made, and how that compares with when you were asked?",
       "Can anyone point to one thing that changed because of what people said?",
       "Were you told in advance which parts were open and which were not?",
       "If nobody had attended or answered, would the outcome have been any different?",
@@ -73,35 +73,35 @@
       "Final outcomes keep matching the earliest draft, whatever was said in between.",
       "Reports cite 'extensive consultation' as a credential for decisions nobody remembers influencing."
     ],
-    "repair_check": "Change shows up as a seat at an earlier stage, a published account of what input did and did not alter, and at least one decision reopened. An apology that leaves next year's process the same does not count.",
+    "repair_check": "Change shows up as a seat at an earlier stage, a published account of what input did and did not change, and at least one decision reopened. An apology that leaves next year's process the same does not count.",
     "boundary_respect_check": "Ask in writing what remains open and who decides. A straight answer, even a disappointing one, shows respect for the question. Watch whether you get reassurance and a thank-you instead of dates and names.",
     "psychological_mechanism": "Being heard calms objections even when nothing changes, and a person who took part in a process often feels more bound by its result. A consultation held after the fact can borrow that effect, and a record of attendance can later stand in for consent. Raising a late objection then feels like going back on your own word.",
-    "possible_impact_on_receiver": "People describe effort wasted on long written submissions, followed by embarrassment at having believed it mattered. Some stop attending or answering anything. Others feel quietly implicated, as though they agreed because they showed up, and hesitate to object to the decision later.",
+    "possible_impact_on_receiver": "People describe wasting effort on long written submissions, then feeling embarrassed that they believed it mattered. Some stop attending or answering anything. Others feel quietly caught up in the decision, as though showing up meant they agreed, and they hesitate to object later.",
     "response_options": {
       "soft_clarification": "Ask a neutral question before investing time: 'Which parts of this are still open, and when is the final decision being made?'",
-      "firm_boundary": "Say you will give input once you have been told what it can change, and that you want a written reply showing what was done with it afterward.",
-      "disengagement": "Skip the survey or session if the decision is visibly final, and send a short written objection for the record instead of a performance of enthusiasm.",
+      "firm_boundary": "Say you will give input once you have been told what it can change. Say you also want a written reply afterward showing what was done with it.",
+      "disengagement": "Skip the survey or session if the decision is visibly final. Send a short written objection for the record instead of putting on a show of enthusiasm.",
       "support_seeking": "Compare notes with others who took part. If several of you saw the same fixed outcome, a joint letter or a conversation with a representative carries more weight.",
-      "workplace_or_professional": "Keep the dates of the invitation, the draft and the announcement. If a formal consultation duty applies, a union rep, ombudsperson's office (an independent complaints office) or regulator can tell you what was required."
+      "workplace_or_professional": "Keep the dates of the invitation, the draft and the announcement. A formal consultation duty may apply. If so, a union rep, ombudsperson's office (an independent complaints office) or regulator can tell you what was required."
     },
     "boundary_script": "\"Before I give feedback, which parts can still change? If you can send me the decision date, and tell me afterward what happened to the comments, I'll write something thorough.\"",
     "safety_sensitive": false,
-    "safety_note": "This tactic is a process problem, not a danger signal. It becomes more serious when the decision at stake involves your housing, pay, care or immigration status and a deadline to object is quietly running. In that case, find out the appeal window now and ask a tenants' union, legal aid office or employee representative about it.",
+    "safety_note": "This tactic is a process problem, not a danger signal. It becomes more serious when the decision at stake involves your housing, pay, care or immigration status. A deadline to object may be quietly running. In that case, find out the appeal window now and ask a tenants' union, legal aid office or employee representative about it.",
     "misuse_warning": [
-      "Calling any unwelcome decision a sham consultation dismisses leaders who listened and still disagreed. The label needs a timeline or record, not just disappointment.",
+      "Calling any unwelcome decision a sham consultation dismisses leaders who listened and still disagreed. The label needs a timeline or a record to back it up. Disappointment alone is not enough.",
       "Using it to refuse all later participation can leave you with no voice on the next decision, which may be a real one."
     ],
-    "how_to_distinguish_from_related": "Tone policing answers your distress by calling it excessive, whereas Pseudo-Consultation answers your input with thanks and no change. Legal threats name an authority to frighten you into silence; here nobody threatens you, and the invitation to speak is the whole exchange. Only this one asks you to take part first and then points to your taking part afterward."
+    "how_to_distinguish_from_related": "Tone policing answers your distress by calling it excessive. Pseudo-Consultation answers your input with thanks and no change. Legal threats name an authority to frighten you into silence, but here nobody threatens you, and the invitation to speak is the whole exchange. Only this one asks you to take part first and then points to your taking part afterward."
   },
   "Tokenism": {
-    "short_definition": "Including one person or a small number from a group as a visible gesture, without giving them the voice or authority that inclusion seems to promise.",
-    "core_meaning": "Including one person or a small number from a group as a visible gesture, without giving them the voice or authority that inclusion seems to promise.",
-    "expanded_definition": "Tokenism is inclusion that exists mainly to be seen. One member of a group is given a title, a seat on a panel, a spot in a photograph, and then is expected to stand for everyone like them. Their presence is mentioned more often than their views are asked for. A first hire from an underrepresented group is not tokenism by itself, since every change starts somewhere. It becomes tokenism when visibility stays high and influence stays near zero, and the person's presence is offered as the answer to questions about representation.",
+    "short_definition": "Including one person, or a small number of people, from a group as a visible gesture. They are not given the voice or authority that inclusion seems to promise.",
+    "core_meaning": "Including one person, or a small number of people, from a group as a visible gesture. They are not given the voice or authority that inclusion seems to promise.",
+    "expanded_definition": "Tokenism is inclusion that exists mainly to be seen. One member of a group is given a title, a seat on a panel, a spot in a photograph. Then they are expected to stand for everyone like them. Their presence is mentioned more often than their views are asked for. A first hire from an underrepresented group is not tokenism by itself, since every change starts somewhere. It becomes tokenism when visibility stays high and influence stays near zero, and the person's presence is offered as the answer to questions about representation.",
     "plain_language_summary": "A seat, a title or a spot in the photo makes the group look inclusive. But the person's views carry little weight in real decisions.",
-    "why_this_matters": "Your presence gets used as the reply to the very criticism you were brought in to raise, and pushing back makes you look ungrateful for the seat. You can end up carrying the group's image while holding none of its power.",
+    "why_this_matters": "Your presence gets used as the reply to the very criticism you were brought in to raise. Pushing back makes you look ungrateful for the seat. You can end up carrying the group's image while holding none of its power.",
     "what_it_is": [
       "A single representative placed on a committee, board or team with no vote, no budget or no say in the agenda.",
-      "A person asked to speak for an entire community, as if one account covered millions of different lives.",
+      "A person asked to speak for a whole community, as if one account covered millions of different lives.",
       "A presence that is more visible on a website or brochure than in the meetings where decisions are made.",
       "A role whose job description sounds senior but whose decisions are reviewed and reversed by others."
     ],
@@ -116,7 +116,7 @@
     "what_it_is_not": [
       "A first step toward inclusion that is sincere and has a visible plan for more seats and more influence.",
       "A new role whose authority is still being defined and is growing in practice.",
-      "Being asked for your perspective on something you know well, when it is one voice among many and not a stand-in for a whole group.",
+      "Being asked for your perspective on something you know well. You are one voice among many here, and not a stand-in for a whole group.",
       "A small team where everyone, including the newest member, has limited influence for ordinary reasons of seniority.",
       "An organization that says honestly what the role can and cannot decide right now."
     ],
@@ -140,7 +140,7 @@
       "Someone invited to represent a community may truly want that visibility and use it well."
     ],
     "common_false_positives": [
-      "The only junior engineer on a team being overruled on architecture decisions, for reasons of experience and not background.",
+      "The only junior engineer on a team being overruled on architecture decisions because of experience, and not background.",
       "A board adding its first member from a user community and asking that member for candid advice.",
       "A person choosing to take a public-facing ambassador role knowing it is symbolic."
     ],
@@ -167,16 +167,16 @@
       "Questions about representation are met by gesturing at the existing member each time.",
       "The person starts to downplay their own views to avoid being seen as the difficult one."
     ],
-    "repair_check": "A vote, a budget line or a deciding role appears that did not exist before, and a second person joins so one voice is no longer asked to carry a group. A new title or a thank-you event leaves the work untouched.",
+    "repair_check": "A vote, a budget line or a deciding role appears that did not exist before. A second person joins, so one voice is no longer asked to carry a group. A new title or a thank-you event leaves the work untouched.",
     "boundary_respect_check": "Tell them which decisions you need a hand in. Notice whether your next meeting differs: are you now on the agenda, copied on drafts, present before the decision? Praise for your contribution that comes with the same limits shows nothing changed.",
-    "psychological_mechanism": "A lone member of a group in a larger one tends to be noticed more and to feel watched, which can make criticism feel risky. Being offered a visible role can create gratitude and a sense of obligation, and speaking about the limits of the role can then feel like biting the hand that offered it.",
-    "possible_impact_on_receiver": "People in this position describe feeling like a poster instead of a colleague, carrying pressure to speak for everyone like them, and doubt about whether their work was hired for or merely displayed. Some say they hold back criticism to protect a role they fear losing.",
+    "psychological_mechanism": "A lone member of one group inside a larger one is usually noticed more and feels watched, which can make criticism feel risky. Being offered a visible role can create gratitude and a sense of obligation. Speaking about the limits of the role can then look like biting the hand that offered it.",
+    "possible_impact_on_receiver": "People in this position describe feeling like a poster instead of a colleague. They carry pressure to speak for everyone like them, and doubt whether they were hired for their work or merely displayed. Some say they hold back criticism to protect a role they fear losing.",
     "response_options": {
-      "soft_clarification": "Ask what the role can decide: 'Which decisions will I have a vote or final say in, and which are advisory?' A clear answer helps either way.",
+      "soft_clarification": "Ask what the role can decide. You might say: 'Which decisions will I have a vote or final say in, and which are advisory?' A clear answer helps either way.",
       "firm_boundary": "Decline to speak for a whole community, and speak only for your own experience and expertise when asked.",
       "disengagement": "Turn down appearances, photos or panels that show you in a role you do not hold, until the role itself changes.",
-      "support_seeking": "Speak with others who have held similar seats elsewhere, or a mentor outside the organization, to test whether your read of the role is fair.",
-      "workplace_or_professional": "Ask for the role's authority and budget in writing, raise representation with HR or a diversity office if one exists, and keep a dated record of proposals you made and what became of them."
+      "support_seeking": "Speak with others who have held similar seats elsewhere, or with a mentor outside the organization. They can help you test whether your read of the role is fair.",
+      "workplace_or_professional": "Ask for the role's authority and budget in writing. Raise representation with HR or a diversity office if one exists, and keep a dated record of proposals you made and what became of them."
     },
     "boundary_script": "\"I can share my own experience, but I can't speak for everyone from my background. Can we agree on what I actually get to decide in this role, so my presence here counts for something?\"",
     "safety_sensitive": false,
@@ -185,17 +185,17 @@
       "Calling someone a token can wound the very person who earned the seat, and it can hide that they are doing real work. The word describes a role's design, not a person's worth.",
       "Applying the label to any early step toward inclusion can discourage organizations that are sincerely trying."
     ],
-    "how_to_distinguish_from_related": "Tone policing reframes your distress as excessive, whereas Tokenism points to your presence as proof nothing is wrong. Legal threats use authorities as leverage against you, while here the institution rewards you with visibility and withholds power. A token sits in the room and sees the decision made, but does not make it."
+    "how_to_distinguish_from_related": "Tone policing reframes your distress as excessive, whereas Tokenism points to your presence as proof nothing is wrong. Legal threats use authorities as pressure against you, while here the institution rewards you with visibility and withholds power. A token sits in the room and sees the decision made, but does not make it."
   },
   "Individualization of Systemic Issues": {
-    "short_definition": "Presenting a problem caused by workload, staffing or structure as a personal weakness that the individual is expected to fix.",
-    "core_meaning": "Presenting a problem caused by workload, staffing or structure as a personal weakness that the individual is expected to fix.",
+    "short_definition": "Calling a problem of workload, staffing or structure a personal weakness, and expecting the individual to fix it.",
+    "core_meaning": "Calling a problem of workload, staffing or structure a personal weakness, and expecting the individual to fix it.",
     "expanded_definition": "Individualization of Systemic Issues treats a shared, structural problem as a private shortcoming. A team is understaffed, deadlines are unrealistic or the process is broken, and the advice offered is to manage time better, build resilience or practice self-care. Personal habits do matter, and coaching can help. The trouble is when the individual frame is the only one on offer, even though many people hit the same wall and the conditions never come up for discussion.",
     "plain_language_summary": "When the real problem is the workload or the system, you are told to fix yourself instead: sleep more, plan better, be more resilient.",
-    "why_this_matters": "You add self-improvement to an already unsustainable load, and you conclude the shortfall is in your own resilience instead of in the conditions. Meanwhile the thing that is actually broken stays unexamined and keeps hurting the next person too.",
+    "why_this_matters": "You add self-improvement to a load that was already too heavy, and you decide the shortfall is in your own resilience, not in the conditions. Meanwhile the thing that is actually broken goes unexamined and keeps hurting the next person too.",
     "what_it_is": [
       "Offering a wellness class, app or resilience workshop in response to a complaint about workload or staffing.",
-      "Giving advice about personal habits to someone describing a problem with the way work or services are organized.",
+      "Giving advice about personal habits to someone who is describing a problem with how work or services are organized.",
       "Treating one person's struggle as a performance issue even when colleagues report the same strain.",
       "Describing burnout, errors or lateness as traits of individuals while the policies that produce them go unreviewed."
     ],
@@ -261,34 +261,34 @@
       "Colleagues quietly compare notes and find their experiences match.",
       "Exit interviews describe the same pressures while records list reasons as personal."
     ],
-    "repair_check": "Something has shifted when the workload, tools or staffing are actually examined and a change follows, with someone named as responsible for it. A second webinar or an apology for the tone of the advice leaves the load as it was.",
-    "boundary_respect_check": "Ask for the cause itself to be looked at, not just for support, and see what comes back. A response that records your request and returns with a finding is real. One that returns with another coping tip suggests the question has been set aside.",
-    "psychological_mechanism": "When a problem is named as yours, the natural move is to look inward for the explanation, especially when the advice sounds caring and the speaker has authority. If everyone is handled one at a time, nobody sees that others have the same trouble, so the pattern stays invisible and self-blame can deepen.",
+    "repair_check": "Something has shifted when the workload, tools or staffing are really looked at and a change follows, with a named person responsible. A second webinar leaves the load as it was. So does an apology for the tone of the advice.",
+    "boundary_respect_check": "Ask for the cause itself to be looked at, as well as for support, and see what comes back. A response that records your request and returns with a finding is real. If it returns with another coping tip, the question has probably been set aside.",
+    "psychological_mechanism": "When a problem is named as yours, the natural move is to look inward for the reason. This is more likely when the advice sounds caring and the speaker has authority. If everyone is handled one at a time, nobody sees that others have the same trouble. The pattern stays invisible and self-blame can deepen.",
     "possible_impact_on_receiver": "People describe working harder on self-care while feeling worse, a creeping sense of being the weak link, and shame about raising the issue again. Some discover that colleagues were struggling in the same way and feel anger and relief at once. Others leave the job, convinced they failed it.",
     "response_options": {
       "soft_clarification": "Separate the two layers aloud: 'Habits may help, but even with better habits this volume does not fit the hours. Can we look at the workload?'",
-      "firm_boundary": "Decline to treat a structural problem as a personal one: 'I'll try the training, but I'm not willing to record this as my own failing.'",
-      "disengagement": "Step back from the self-improvement tasks that eat more of your time than the problem warrants, and protect your rest before taking on another one.",
+      "firm_boundary": "Decline to treat a structural problem as a personal one. For example: 'I'll try the training, but I'm not willing to record this as my own failing.'",
+      "disengagement": "Step back from self-improvement tasks that take more of your time than the problem deserves. Protect your rest before you take on another one.",
       "support_seeking": "Ask colleagues quietly whether they hit the same wall. Three people with the same story is a far stronger case than one person asking for help.",
-      "workplace_or_professional": "Bring numbers, such as hours, caseloads or tickets, with a shared request from several colleagues, to a manager, union steward or health and safety committee."
+      "workplace_or_professional": "Bring numbers, such as hours, caseloads or tickets, to a manager, union steward or health and safety committee. Add a shared request from several colleagues."
     },
     "boundary_script": "\"I'm open to tools that help, but my hours and the size of this workload aren't a personal skill issue. Can we look at what is being asked of the team before we talk about what I should change?\"",
     "safety_sensitive": false,
-    "safety_note": "Prolonged overload can harm health, so this is more than an irritation when it brings chest symptoms, panic, or thoughts of not wanting to go on. Tell a doctor or counselor about the physical and emotional load, and keep a record of hours worked, since that record may matter if you later seek leave or support.",
+    "safety_note": "Long-term overload can harm health. It is more than an irritation if it brings chest symptoms, panic, or thoughts of not wanting to go on. Tell a doctor or counselor about the physical and emotional load. Keep a record of hours worked, since that record may matter if you later seek leave or support.",
     "misuse_warning": [
-      "Calling every piece of advice about habits 'individualization' can shut out help that is offered kindly and would actually serve you.",
+      "Labelling all advice about habits 'individualization' can shut out kind help that would really serve you.",
       "Treating all personal difficulty as someone else's fault can leave real skill gaps unaddressed."
     ],
-    "how_to_distinguish_from_related": "Therapy-speak turns clinical vocabulary against you in a specific exchange, while this shifts attention from conditions to your coping, often with no jargon at all. Trash-can labels hand you a mental-health verdict; Individualization only suggests you need to be more resilient. Tone policing treats your distress as excessive, but here the distress is accepted and sent back to you as a problem to solve."
+    "how_to_distinguish_from_related": "Therapy-speak turns clinical vocabulary against you in a specific exchange. This one shifts attention from conditions to your coping, often with no jargon at all. Trash-can labels hand you a mental-health verdict, but Individualization only suggests you need to be more resilient. Tone policing treats your distress as excessive. Here the distress is accepted and sent back to you as a problem to solve."
   },
   "Diffusion of Responsibility": {
-    "short_definition": "Spreading a decision or a harm across so many people and steps that nobody can be found who is answerable for it.",
-    "core_meaning": "Spreading a decision or a harm across so many people and steps that nobody can be found who is answerable for it.",
+    "short_definition": "A decision or harm gets spread across so many people and steps that no one can be found who is answerable for it.",
+    "core_meaning": "A decision or harm gets spread across so many people and steps that no one can be found who is answerable for it.",
     "expanded_definition": "Diffusion of Responsibility, as an institutional pattern, is a chain in which each person can truthfully say they only did their part. One drafted it, another approved it, a third carried it out, and a fourth says it is policy from elsewhere. When harm results, tracing it leads in a circle. Large organizations really do share decisions, and shared ownership is not wrongdoing. It becomes a problem when real harm falls on someone and the search for who can fix it keeps ending at another desk.",
     "plain_language_summary": "Everyone points to someone else, so a harm that really happened has no person who owns it or can put it right.",
-    "why_this_matters": "The harm is real and nobody is answerable for it, so you have nowhere to take it, no one to ask for repair, and no way to stop it recurring. Hours go into being transferred, and the problem stays where it started.",
+    "why_this_matters": "The harm is real, but nobody is answerable for it. You have nowhere to take it, no one to ask for repair, and no way to stop it happening again. Hours go into being transferred, and the problem stays where it started.",
     "what_it_is": [
-      "A chain of approvals in which each person depends on the previous check and nobody examines the whole outcome.",
+      "A chain of approvals where each person relies on the check before theirs, and nobody looks at the whole outcome.",
       "Referral from desk to desk, department to department, each saying the matter belongs elsewhere.",
       "Decisions credited to a committee, a system or a policy with no named person who can reverse them.",
       "An outcome that everyone describes as unfortunate and nobody describes as theirs to correct."
@@ -304,7 +304,7 @@
     "what_it_is_not": [
       "Large organizations dividing work among specialists, where someone can still tell you who owns your case.",
       "Legitimate delegation to a person with more relevant expertise, who then answers for the result.",
-      "Honest confusion after a restructure, when staff really do not know who inherited a responsibility and are trying to find out.",
+      "Honest confusion after a restructure, when staff really do not know who took over a responsibility and are trying to find out.",
       "A genuine referral to the correct office, which then takes the case.",
       "A decision that many people shaped, but where a named person signs off and can explain it."
     ],
@@ -323,7 +323,7 @@
       "A process owner explains why the outcome happened and offers a route to appeal."
     ],
     "innocent_or_ordinary_possibilities": [
-      "Frontline staff often have no authority to override a rule, and honestly cannot help even when they want to.",
+      "Frontline staff often have no power to override a rule. They honestly cannot help, even when they want to.",
       "After reorganizations, ownership of old processes can be unclear to everyone involved.",
       "Specialization means no single person sees an entire process, which is a feature of size and not a concealment."
     ],
@@ -351,29 +351,29 @@
     ],
     "pattern_over_time_signs": [
       "The same kind of problem recurs for other customers, patients or staff with the same dead ends.",
-      "Each time it surfaces, the response is a new apology from a different person who has no authority to act.",
+      "Each time it comes up, the response is a new apology from a different person who has no power to act.",
       "Records show a decision was approved by many and authored by none.",
       "People stop complaining because the effort of tracing the problem exceeds what it cost them."
     ],
     "repair_check": "A named person takes the case, says what they will do and by when, and the fix is made. A sympathetic call from someone who cannot change anything, or a promise to pass the complaint along, does not count.",
     "boundary_respect_check": "Ask for a single owner by name and a date for the next step. See whether you get both. Notice if the reply restates the process in more detail instead, which leaves your question unanswered.",
-    "psychological_mechanism": "When many people each hold a small share of a decision, each can feel the outcome is not really theirs, and each check may be treated as someone else's safety net. On the receiving end, repeated transfers tend to wear down persistence, and the effort of tracing the problem can end up larger than the problem.",
+    "psychological_mechanism": "When many people each hold a small share of a decision, each can feel the outcome is not really theirs. Each check may be treated as someone else's safety net. On the receiving end, repeated transfers often wear down persistence. The effort of tracing the problem can end up larger than the problem.",
     "possible_impact_on_receiver": "People describe retelling their story to a fifth stranger, losing days on hold, and a growing sense that they are shouting into a wall. Some give up and absorb the cost. Others turn their anger on individual staff who are as powerless as they are.",
     "response_options": {
-      "soft_clarification": "Ask each person who you reach one question: 'Who is the person who can decide this, and can you give me their name or role title?'",
-      "firm_boundary": "State that you will keep one written thread open until someone with authority takes ownership, and ask for a reference number to quote each time.",
-      "disengagement": "Pause the phone calls, which leave no record, and move to email or letters so each referral is on paper before you invest more time.",
-      "support_seeking": "Take the log of who said what to an ombudsperson's office (an independent complaints office), a consumer or patient advocate, or an elected representative's caseworker, who can often find the owner you cannot.",
-      "workplace_or_professional": "Within an organization, ask for the process owner or the approving manager for the decision by role, and request a written account of how the decision was reached."
+      "soft_clarification": "Ask each person you reach one question: 'Who is the person who can decide this, and can you give me their name or role title?'",
+      "firm_boundary": "Say that you will keep one written thread open until someone with authority takes ownership. Ask for a reference number to quote each time.",
+      "disengagement": "Pause the phone calls, which leave no record. Move to email or letters, so each referral is on paper before you spend more time.",
+      "support_seeking": "Take the log of who said what to an ombudsperson's office (an independent complaints office), a consumer or patient advocate, or an elected representative's caseworker. They can often find the owner you cannot.",
+      "workplace_or_professional": "Within an organization, ask by role for the process owner or the approving manager for the decision. Also ask for a written account of how the decision was reached."
     },
     "boundary_script": "\"I understand that your step was done correctly. I still need the name or job title of the person who has the authority to reverse this, and I'll keep a written record of each person who points me elsewhere.\"",
     "safety_sensitive": false,
-    "safety_note": "The runaround itself is not dangerous, but the stakes can be. Where the harm affects medication, benefits, housing or a legal deadline, the clock matters more than finding the owner. Contact a patient advocate, legal aid or the relevant regulator for the deadline first, and chase the responsible person second.",
+    "safety_note": "The runaround itself is not dangerous, but the stakes can be. Where the harm affects medication, benefits, housing or a legal deadline, the clock matters more than finding the owner. For the deadline, contact a patient advocate, legal aid or the relevant regulator first. Chase the responsible person second.",
     "misuse_warning": [
       "Assuming a bureaucratic runaround was arranged can make you hostile to staff who are as stuck as you are. The pattern is about structure, and it does not reveal anyone's motives.",
       "Calling every referral a dodge can overlook the real case where you were sent to the right place."
     ],
-    "how_to_distinguish_from_related": "Legal threats name an authority to frighten you, whereas Diffusion of Responsibility gives you no one to address, threatening or otherwise. Tone policing meets your distress with a person who calls it excessive; here no single person stays long enough to say anything. Therapy-speak needs a speaker using clinical words, but this runaround often involves none at all."
+    "how_to_distinguish_from_related": "Legal threats name an authority to frighten you, but Diffusion of Responsibility gives you no one to address, threatening or otherwise. Tone policing meets your distress with a person who calls it excessive. Here no single person stays long enough to say anything. Therapy-speak needs a speaker using clinical words, and this runaround often involves none at all."
   },
   "Administrative Escalation": {
     "short_definition": "Turning a small, informal concern into a formal complaint, report or legal step whose weight is out of proportion to what happened.",

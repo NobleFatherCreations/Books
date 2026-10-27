@@ -2,12 +2,12 @@
   "Covert Contracts": {
     "short_definition": "Holding someone to rules or debts they never agreed to and were never told about, then punishing or shaming them when they fall short.",
     "core_meaning": "Holding someone to rules or debts they never agreed to and were never told about, then punishing or shaming them when they fall short.",
-    "expanded_definition": "A covert contract is an agreement that exists only in one person's head: a rule about how often you call, what you share, or what you owe after past favors. Nobody names it, yet breaking it brings a penalty. When the rule is about debts and loyalty enforced through shame and duty, people sometimes call it an obligation contract. One misunderstood expectation means little. What stands out is new unwritten rules that keep surfacing only after you break them.",
-    "plain_language_summary": "You are expected to follow rules nobody told you, or to repay debts nobody named, and you find out only when you are punished or shamed for missing them.",
-    "why_this_matters": "You are judged against a standard you were never shown, so effort never buys safety: there is always another rule you have not been told. Questioning a supposed debt gets treated as disloyalty, not as a fair question about what you agreed to.",
+    "expanded_definition": "A covert contract is an agreement that exists only in one person's head. It might be a rule about how often you call, what you share, or what you owe after past favors. Nobody names it, yet breaking it brings a penalty. When the rule is about debts and loyalty enforced through shame and duty, people sometimes call it an obligation contract. One misunderstood expectation means little. What stands out is new unwritten rules that keep surfacing only after you break them.",
+    "plain_language_summary": "You are expected to follow rules nobody told you, or to repay debts nobody named. You find out only when you are punished or shamed for missing them.",
+    "why_this_matters": "You are judged against a standard you were never shown, so effort never buys safety. There is always another rule you have not been told. Questioning a supposed debt gets treated as disloyalty, not as a fair question about what you agreed to.",
     "what_it_is": [
       "A rule that exists only in one person's expectations, such as answering messages within the hour or never turning down a family event.",
-      "A debt assumed from the past: favors, money or sacrifices are counted as owed back, though nobody said they were loans.",
+      "A debt assumed from the past. Favors, money or sacrifices are counted as owed back, though nobody said they were loans.",
       "Discovered only by breaking it. The first sign of the rule is the anger, the silence or the lecture that follows.",
       "Enforced through shame and duty language rather than a request, so questioning it sounds like betrayal.",
       "Found in families, friendships, couples, teams and communities, anywhere closeness or loyalty is simply assumed."
@@ -22,7 +22,7 @@
       "You find out about a rule only when you are met with a week of silence for breaking it."
     ],
     "what_it_is_not": [
-      "Some expectations are shared widely enough that most people would recognize them unstated, such as telling a housemate you will be out overnight. Someone who adjusts readily once told the rule was never communicated is having a miscommunication, not enforcing one.",
+      "Some expectations are shared widely enough that most people would know them without being told, such as telling a housemate you will be out overnight. If someone was never told a rule and adjusts readily once they hear it, that is a miscommunication, not enforcement.",
       "Long relationships build genuine mutual obligations that both people would describe the same way if asked separately.",
       "Honest hurt that an assumed closeness was not there, said once as hurt and not as a charge.",
       "A spoken or written promise that was forgotten or dropped. That is a broken agreement, not a hidden one.",
@@ -77,12 +77,12 @@
     ],
     "repair_check": "Repair starts with the rules being said aloud: what was expected, where it came from, and a plain admission that you were never asked. After that you get a real vote on which ones stay. Being thanked for finally understanding, while the debt stays open, is the same contract in new words.",
     "boundary_respect_check": "When you say you never agreed to something, does the other person ask what you would agree to? Watch what declining costs you afterwards: a cold week, a story told to others, a favor withdrawn. A boundary that is honored leaves the next ordinary day intact.",
-    "psychological_mechanism": "Shame and duty are strong motivators, and few people want to be the ungrateful one. When rules are never stated, you cannot check them, argue with them, or meet them once and be done. That can keep your attention on guessing what is wanted, and the sense of owing can make saying no feel like a moral failing instead of a choice.",
+    "psychological_mechanism": "Shame and duty are strong motivators, and few people want to be the ungrateful one. When rules are never stated, you cannot check them, argue with them, or meet them once and be done. Your attention can stay on guessing what is wanted. The sense of owing can also make saying no look like a moral failing instead of a choice.",
     "possible_impact_on_receiver": "People describe walking on eggshells, over-explaining ordinary choices, and feeling guilty with no clear reason. Some say they keep paying a debt whose size they never learned. Others describe a late moment of recognition, looking back and seeing that a whole set of expectations had been made on their behalf.",
     "response_options": {
       "soft_clarification": "Ask for the rule in plain words: 'I didn't know that was expected. Can you tell me what you were hoping for, so we can talk about it?'",
       "firm_boundary": "State what you did and did not agree to: 'I never agreed to that, so I can't treat it as settled. I am willing to talk about what I can offer.'",
-      "disengagement": "When the debt is raised again in an unrelated argument, stop that thread, and come back to the original topic later or in writing.",
+      "disengagement": "When the debt is raised again in an unrelated argument, stop that thread. Come back to the original topic later or in writing.",
       "support_seeking": "Describe the expectations to someone outside the relationship and ask whether they would have guessed them. If not, you have learned something about the rule, not about your character.",
       "workplace_or_professional": "At work, ask for unwritten expectations about hours, availability or duties to be put in writing, and keep the reply with its date."
     },
@@ -91,21 +91,21 @@
     "safety_note": "Unspoken rules you never agreed to are mostly a pressure-and-guilt problem. It changes if refusing a hidden rule brings threats, loss of housing or money, being cut off from other people, or fear. In that case, keep dated notes of what was demanded and what followed. Ask an advocate or legal aid service about your housing or money position before you change anything.",
     "misuse_warning": [
       "Calling a friend's disappointment a covert contract can dismiss a fair request. Ask whether the expectation was reasonable and whether they accepted it once it was named.",
-      "Using this label to escape obligations you knowingly took on, such as a promise or shared bills, turns a useful term into an excuse."
+      "If you use this label to escape obligations you knowingly took on, such as a promise or shared bills, it becomes an excuse instead of a useful term."
     ],
-    "how_to_distinguish_from_related": "Premature Exclusivity asks for commitment out loud and early, before you know enough, while a covert contract asks for nothing aloud and is revealed by the penalty, at any stage. Financial Dependence by Design builds real economic reliance, whereas a covert contract works through duty and shame even when no money is involved. Halo Effect Exploitation uses someone's good name to excuse harm; here a person's good deeds are counted as a debt you owe."
+    "how_to_distinguish_from_related": "Premature Exclusivity asks for commitment out loud and early, before you know enough. A covert contract asks for nothing aloud and is revealed by the penalty, at any stage. Financial Dependence by Design builds real economic reliance, whereas a covert contract works through duty and shame even when no money is involved. Halo Effect Exploitation uses someone's good name to excuse harm. Here a person's good deeds are counted as a debt you owe."
   },
   "HR Shielding": {
-    "short_definition": "A workplace complaints process that in practice protects the organization's reputation and the accused person more than the employee who reported harm.",
-    "core_meaning": "A workplace complaints process that in practice protects the organization's reputation and the accused person more than the employee who reported harm.",
-    "expanded_definition": "HR shielding is when a complaints function, set up to help employees, ends up serving the organization's exposure to blame: its reputation, its legal risk and the accused person's position. It also goes by strategic HR complicity, a name that takes in using a complainant's trust to draw out details that then shape the organization's reply. One slow or disappointing process proves little. What gives it away is what happens to the person who reported compared with the person reported.",
-    "plain_language_summary": "You report harm to HR, and the process seems to protect the company and the person you named while you are the one who feels the strain.",
-    "why_this_matters": "Someone brings a complaint believing they are speaking to a protector, and finds that what they said has been used to shape the response against them. They absorb the disruption while the situation continues, and colleagues learn what reporting costs.",
+    "short_definition": "A workplace complaints process that, in practice, protects the organization's reputation and the accused person better than it protects the employee who reported harm.",
+    "core_meaning": "A workplace complaints process that, in practice, protects the organization's reputation and the accused person better than it protects the employee who reported harm.",
+    "expanded_definition": "HR shielding is when a complaints function, set up to help employees, ends up serving the organization's exposure to blame. That means its reputation, its legal risk and the accused person's position. It also goes by strategic HR complicity. That name includes using a complainant's trust to draw out details that then shape the organization's reply. One slow or disappointing process proves little. What gives it away is what happens to the person who reported compared with the person reported.",
+    "plain_language_summary": "You report harm to HR, and the process seems to protect the company and the person you named. You are the one who feels the strain.",
+    "why_this_matters": "Someone brings a complaint believing they are speaking to a protector, and finds that what they said has been used to shape the response against them. They absorb the disruption while the situation continues. Colleagues learn what reporting costs.",
     "what_it_is": [
       "A complaints, grievance or investigation process that looks correct on paper: forms filed, meetings held, letters sent.",
-      "Information a complainant gave in trust being passed to managers or lawyers and used to prepare the organization's position.",
-      "Attention fixed on the organization's exposure, such as reputation, legal risk and how things look, more than on what happened.",
-      "Friction landing on the person who reported, such as new scrutiny or a cooler team, while the accused carries on as before.",
+      "Information a complainant gave in trust being passed to managers or lawyers, then used to prepare the organization's position.",
+      "Attention fixed on the organization's exposure to blame, such as reputation, legal risk and how things look, more than on what happened.",
+      "Trouble landing on the person who reported, such as closer watching or a cooler team, while the accused carries on as before.",
       "Found in workplaces, schools, universities and other bodies that run their own internal complaints office."
     ],
     "what_it_sounds_like": [
@@ -120,7 +120,7 @@
     ],
     "what_it_is_not": [
       "Due process protects the accused too. A fair process lets them respond and limits who learns the details, which can feel one-sided to the person who reported.",
-      "HR staff who explain the limits of confidentiality at the start, follow a policy that disappoints you, or reach a conclusion you disagree with are doing the job as designed, not colluding.",
+      "HR staff who explain the limits of confidentiality at the start, follow a policy that disappoints you, or reach a conclusion you disagree with are doing the job as designed. They are not colluding.",
       "A finding of 'not substantiated' means the evidence did not meet the standard. It is not the same as being disbelieved.",
       "An under-trained or overloaded HR team producing a slow, clumsy process through lack of capacity.",
       "HR advising a manager on how to handle a case, done openly and fairly to both sides, which is part of the role."
@@ -140,21 +140,21 @@
       "Changes to your work come from a documented business reason that predates your report."
     ],
     "innocent_or_ordinary_possibilities": [
-      "Confidentiality rules often stop HR from sharing outcomes or discipline, so silence can look like protection when it is a legal limit.",
+      "Confidentiality rules often stop HR from sharing outcomes or discipline. Silence can look like protection when it is a legal limit.",
       "HR teams are often small and handle complaints beside hiring and payroll, so a slow reply may be capacity.",
       "A manager may have to be told something so that people can be kept apart, which can feel like exposure."
     ],
     "common_false_positives": [
       "An investigation that took months and ended without a finding in your favor, but was thorough and explained to you.",
       "An HR officer who said at the outset that they work for the organization and cannot act as your advocate.",
-      "A complaint about a policy decision rather than about harm, where HR correctly explained that the policy applied."
+      "A complaint about a policy decision and not about harm, where HR correctly explained that the policy applied."
     ],
     "discernment_questions": [
       "Were the people and records I named actually looked at?",
       "Who has been told what I said in confidence?",
       "Since I reported, has my own treatment changed more than theirs?",
       "Can I get a written account of each step, the standard used and the reason for the outcome?",
-      "Would an outside reviewer, such as a union representative or employment adviser, read the process as fair on its face?"
+      "Would an outside reviewer, like a union representative or employment adviser, see the process as fair on its face?"
     ],
     "less_concerning_if": [
       "You were told early who can see your report, and nothing contradicts that.",
@@ -164,7 +164,7 @@
     "more_concerning_if": [
       "Your report becomes a reason for discipline, a transfer or a performance plan aimed at you.",
       "You are pressed to withdraw the complaint or accept an agreement before you have had advice.",
-      "The harm you reported is ongoing or involves safety, sexual harassment, discrimination or your income, and the process has not touched it."
+      "The harm you reported is still going on, or it involves safety, sexual harassment, discrimination or your income, and the process has not touched it."
     ],
     "pattern_over_time_signs": [
       "Replies to you get shorter and further apart, while the organization's file on the case grows.",
@@ -172,25 +172,25 @@
       "You keep your own notes of every conversation because what was said in meetings does not match what is later written.",
       "You learn that earlier complaints about the same person ended the same way, or that those who made them left."
     ],
-    "repair_check": "Repair would show in the process itself: witnesses interviewed, a written reason for the outcome, protection from retaliation put in place, and what you shared no longer used against you. A warm meeting and an offer of a transfer, with the case itself untouched, only changes the mood.",
+    "repair_check": "Repair would show in the process itself. Witnesses are interviewed, the outcome comes with a written reason, protection from retaliation is put in place, and what you shared is no longer used against you. A warm meeting and an offer of a transfer, with the case itself untouched, only change the mood.",
     "boundary_respect_check": "Ask whether your request for the process to be explained led to an explanation. A written answer to who has seen your report and what happens next shows the request was respected. Being told it is confidential, or that your questions are slowing things down, suggests it was handled as a nuisance.",
     "psychological_mechanism": "People usually bring complaints to HR trusting that it is neutral, so they share more than they otherwise would. A process can then be shaped by liability concerns while using the language of fairness, which can make unfair treatment look like routine policy. Because each step is defensible alone, the person may end up blaming their own handling of the case.",
     "possible_impact_on_receiver": "Many say they felt betrayed by the one place they were told to go, and regret at having shared details. Some say they stopped trusting any internal process, wondered whether they imagined the harm, or dreaded going to work. Others describe losing sleep over each email and weighing whether to push further or leave a job they need.",
     "response_options": {
-      "soft_clarification": "Ask in writing for the steps and who will see your report: 'Could you confirm the stages, the expected dates and who has access to what I submitted?'",
-      "firm_boundary": "Ask for your concerns about how the process is running to be recorded in the case file, in writing, along with a copy of the procedure being followed.",
-      "disengagement": "Keep what you tell HR to facts and dates, in writing where possible, and avoid offering extra detail in informal chats until you have outside advice.",
-      "support_seeking": "Speak to a union representative, an employment advice service or a legal aid clinic before the next meeting, and ask whether a companion may attend with you.",
-      "workplace_or_professional": "Ask whether there is an ombudsperson's office (an independent complaints office), a second-level reviewer or an external body for complaints about the process, and request that route in writing."
+      "soft_clarification": "Ask in writing for the steps and for who will see your report. You might write: 'Could you confirm the stages, the expected dates and who has access to what I submitted?'",
+      "firm_boundary": "Ask in writing for your concerns about how the process is running to be recorded in the case file. Ask for a copy of the procedure being followed too.",
+      "disengagement": "Keep what you tell HR to facts and dates, in writing where possible. Avoid offering extra detail in informal chats until you have outside advice.",
+      "support_seeking": "Speak to a union representative, an employment advice service or a legal aid clinic before the next meeting. Ask whether a companion may attend with you.",
+      "workplace_or_professional": "Ask whether there is an ombudsperson's office (an independent complaints office), a second-level reviewer or an external body for complaints about the process. Request that route in writing."
     },
     "boundary_script": "\"Before we go on, could you tell me in writing who has seen what I reported, what the next steps are, and when I will hear back? I would also like to ask whether I can bring a support person to the next meeting.\"",
     "safety_sensitive": false,
-    "safety_note": "A complaints process that protects the institution is a fairness problem first. Concern rises if retaliation follows the report: changed hours, lost shifts, a sudden performance plan or pressure to sign something, especially where income or immigration status depends on the job. If the original harm involved threats, stalking or sexual violence, tell someone outside work too. Keep dated copies of your own notes, and ask an employment lawyer or legal aid clinic about filing deadlines before signing anything.",
+    "safety_note": "A complaints process that protects the institution is a fairness problem first. Concern rises if retaliation follows the report. Examples are changed hours, lost shifts, a sudden performance plan, or pressure to sign something, especially where income or immigration status depends on the job. If the original harm involved threats, stalking or sexual violence, tell someone outside work too. Keep dated copies of your own notes. Before signing anything, ask an employment lawyer or legal aid clinic about filing deadlines.",
     "misuse_warning": [
       "A disappointing outcome is not proof the process was rigged. Treating every unfavorable result as shielding can erode trust in a process that may have been fair.",
-      "Pinning this label on one HR worker can personalize a problem that usually sits in how the process is built and whom it answers to."
+      "Pinning this label on one HR worker can make a problem personal when it usually sits in how the process is built and whom it answers to."
     ],
-    "how_to_distinguish_from_related": "Confidentiality as Weapon uses secrecy to keep you from seeing the accusations or evidence, while HR shielding is wider, covering the whole complaint process and where its effort goes. Pressure to Sign is a single push to accept a document on the spot, and may appear inside this pattern. Institutional Betrayal names the harm of being failed by a body you depend on; this names one route to it, a complaints function turned toward protecting the organization."
+    "how_to_distinguish_from_related": "Confidentiality as Weapon uses secrecy to keep you from seeing the accusations or evidence. HR shielding is wider, covering the whole complaint process and where its effort goes. Pressure to Sign is a single push to accept a document on the spot, and may appear inside this pattern. Institutional Betrayal names the harm of being failed by a body you depend on. This one names a single route to it, a complaints function turned toward protecting the organization."
   },
   "Trash-Can Diagnosis": {
     "short_definition": "Using a mental-health label about someone as an insult, a verdict, or a way to treat their limits and reactions as symptoms.",

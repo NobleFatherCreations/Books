@@ -98,17 +98,17 @@
     "how_to_distinguish_from_related": "Spatial Invasion uses closeness itself, such as cornering, blocking an exit or removing personal space, so the body is the barrier. Nonverbal dominance can work from across a room, through a sigh or a stare. Emotion Control governs which feelings you are allowed to show, using shame, reward and punishment, and is often spoken; the silent signal here is aimed at your disagreement, not at your feelings."
   },
   "Fabricated Evidence": {
-    "short_definition": "Presenting made-up or altered messages, images or documents as genuine proof of something that did not happen or was not said.",
-    "core_meaning": "Presenting made-up or altered messages, images or documents as genuine proof of something that did not happen or was not said.",
-    "expanded_definition": "Fabricated evidence is material that looks like a record but is not one: an edited message thread, a screenshot of a conversation that never took place, a changed date or a forged document, offered as proof. Many people know it as forged screenshots, since a faked image of a message is the most common kind. Screenshots are often treated as settled proof, which is why a fake can carry weight. It differs from a real record taken out of context, because here the item itself is not authentic. It is usually shown to a third party, so the harm falls on your credibility.",
-    "plain_language_summary": "Someone shows others a screenshot or document that looks real but was made up or changed, and presents it as proof of something you never wrote, said or did.",
-    "why_this_matters": "Screenshots and documents are widely accepted as proof, so disproving a fake means asking people to doubt evidence they normally trust. Meanwhile your own account can start to look like the lie, and the harm can reach work, school or court before anyone checks the item.",
+    "short_definition": "Passing off invented or altered messages, images or documents as genuine proof of something that did not happen or was not said.",
+    "core_meaning": "Passing off invented or altered messages, images or documents as genuine proof of something that did not happen or was not said.",
+    "expanded_definition": "Fabricated evidence is material that looks like a record but is not one. Examples are an edited message thread, a screenshot of a conversation that never took place, a changed date or a forged document, offered as proof. Many people know it as forged screenshots, since a faked image of a message is the most common kind. Screenshots are often treated as settled proof, which is why a fake can carry weight. It differs from a real record taken out of context, because here the item itself is not authentic. It is usually shown to a third party, so the harm falls on your credibility.",
+    "plain_language_summary": "Someone shows others a screenshot or document that looks real but was made up or changed. They present it as proof of something you never wrote, said or did.",
+    "why_this_matters": "Screenshots and documents are widely accepted as proof. Disproving a fake means asking people to doubt evidence they normally trust. Meanwhile your own account can start to look like the lie, and the harm can reach work, school or court before anyone checks the item.",
     "what_it_is": [
-      "A message, image or document that looks like a record but was edited, assembled or invented, then presented as authentic.",
-      "Either a full invention, such as a conversation that never took place, or an alteration of something real, such as a changed word, name, date or amount.",
+      "A message, image or document that looks like a record but was edited, put together or invented, then presented as real.",
+      "Either a full invention, such as a conversation that never took place, or a change to something real, such as a different word, name, date or amount.",
       "Usually shown to a third party, such as friends, an employer, a school, a platform or a court, and not to you.",
-      "Often introduced with a phrase like 'I have receipts', which asks for trust in the look of the thing and not in what it contains.",
-      "Found in breakups, custody and workplace disputes, online feuds and disputes with institutions, wherever a record could decide whose account is believed.",
+      "Often introduced with a phrase like 'I have receipts'. That asks for trust in how the thing looks, and not in what it contains.",
+      "Found in breakups, custody fights, workplace disputes, online feuds and disputes with institutions. It shows up wherever a record could decide whose account is believed.",
       "It concerns whether the record itself is genuine, which is different from whether someone remembers events correctly."
     ],
     "what_it_sounds_like": [
@@ -167,8 +167,8 @@
       "The disagreement is about what a real message meant, not whether it was written."
     ],
     "more_concerning_if": [
-      "The item is used in a formal complaint, a custody or protective-order matter, or to get you dismissed or shut out of a group.",
-      "More than one doubtful item has appeared, or accounts that would hold the originals have become unavailable to you.",
+      "The item is used in a formal complaint, in a custody or protective-order matter, or to get you dismissed or shut out of a group.",
+      "More than one doubtful item has appeared, or accounts that hold the originals have become unavailable to you.",
       "The other person has had access to your phone, accounts or cloud backups."
     ],
     "pattern_over_time_signs": [
@@ -177,16 +177,16 @@
       "Your standing with mutual friends, a workplace or a school drops without your knowing what was said.",
       "You begin exporting or photographing your own conversations regularly to protect yourself."
     ],
-    "repair_check": "Correction here looks like paperwork: the item withdrawn from everyone who saw it, the original produced and compared, and the audience told it was not genuine. An apology to you alone, while the fake stays in circulation, leaves the damage where it was.",
+    "repair_check": "Correction here looks like paperwork. The item is withdrawn from everyone who saw it, the original is produced and compared, and the audience is told it was not genuine. An apology to you alone, while the fake stays in circulation, leaves the damage where it was.",
     "boundary_respect_check": "Ask in writing, calmly, to see the original. Does it appear, can a neutral person examine it, or does the talk move to how you reacted? Whether the item can be examined is the test, not how confident anyone sounds.",
     "psychological_mechanism": "A record-shaped object earns trust quickly, and a screenshot has the air of a witness who cannot be argued with. Third parties often have no way to check it, so the first version they see can set their view. The person it targets may start doubting their own memory, which can make the fake feel more believable.",
     "possible_impact_on_receiver": "People describe shock at reading words attributed to them, then a scramble to prove a negative. Some lose standing at work, with friends or in a legal matter before anyone checks the item. Others describe doubting their memory, going silent to avoid more material, and feeling that being believed has turned into a technical problem.",
     "response_options": {
       "soft_clarification": "Ask to see the record in the app it came from, not as an image: 'Can we open that conversation on the phone it came from?' A genuine record can usually survive that request.",
-      "firm_boundary": "Decline to argue about the item with the person who produced it, and move the question to a neutral reviewer, such as a platform, a mediator or HR, who can compare originals.",
+      "firm_boundary": "Decline to argue about the item with the person who produced it. Move the question to a neutral reviewer, such as a platform, a mediator or HR, who can compare originals.",
       "disengagement": "Stop replying about the item, delete nothing on your side, and do not repost the fake to disprove it, since that spreads it further. Save it with its source and date.",
-      "support_seeking": "Bring your saved originals and the suspect item to a lawyer, legal aid clinic or victim services advocate, and ask how originals are authenticated.",
-      "workplace_or_professional": "If it reached your employer or school, give HR or the conduct office your own export with dates, and ask in writing that the item be checked against originals before anything is decided."
+      "support_seeking": "Bring your saved originals and the suspect item to a lawyer, legal aid clinic or victim services advocate. Ask how originals are authenticated.",
+      "workplace_or_professional": "If it reached your employer or school, give HR or the conduct office your own export with dates. Ask in writing that the item be checked against originals before anything is decided."
     },
     "boundary_script": "\"That does not match my records of this conversation. I have the original with its dates saved, and I'd ask that whoever decides this look at both side by side before drawing a conclusion.\"",
     "safety_sensitive": true,
@@ -195,7 +195,7 @@
       "Calling a damaging screenshot fake is the same move reversed: a real record can be disowned with the word 'forged'. Ask for the original, not a verdict.",
       "Telling others that a named person forged something, without evidence, is itself an accusation. Describe which details do not match instead."
     ],
-    "how_to_distinguish_from_related": "Lying is a false statement in someone's own voice. Fabricated evidence is a false object that borrows the authority of a record, so it can be passed to others and outlive the conversation. Lying by Omission invents nothing and leaves out a piece of a true story. Vague Allegations point to unnamed critics or unspecified accusations with nothing to inspect, while fabricated evidence supplies something concrete to inspect that turns out not to be authentic."
+    "how_to_distinguish_from_related": "Lying is a false statement in someone's own voice. Fabricated evidence is a false object that borrows the authority of a record, so it can be passed to others and outlive the conversation. Lying by Omission invents nothing and leaves out a piece of a true story. Vague Allegations point to unnamed critics or unspecified accusations with nothing to inspect. Fabricated evidence gives you something concrete to inspect that turns out not to be authentic."
   },
   "Half-Truth Framing": {
     "short_definition": "Choosing and arranging statements that are each true so that the listener ends up with a false overall picture.",

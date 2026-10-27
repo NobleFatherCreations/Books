@@ -380,16 +380,16 @@
     "how_to_distinguish_from_related": "Flying Monkeys carry pressure on someone else's behalf; concern trolling is delivered by the person who wants the outcome. Triangulation brings in outside voices as proof, and concern trolling may use one voice, the speaker's own, and call it care. \"We're Family\" Erasure cancels a limit by appeal to duty, and this one cancels it by appeal to worry for your own good."
   },
   "\"Polite Hostile\" Environments": {
-    "short_definition": "A workplace or social setting that stays courteous on the surface while quietly penalizing anyone who speaks plainly or disagrees.",
-    "core_meaning": "A workplace or social setting that stays courteous on the surface while quietly penalizing anyone who speaks plainly or disagrees.",
-    "expanded_definition": "In a polite hostile environment, nobody raises their voice and every email is warm, yet raising a real problem is followed by cooler treatment: left off invitations, passed over for projects, or described as 'not a culture fit'. Because nothing rude happened, there is nothing to report. One slow promotion or one cold week proves little. What marks it is the record across months and several people, when honesty and dissent are repeatedly followed by quiet losses.",
+    "short_definition": "A workplace or social setting that stays polite on the surface but quietly punishes anyone who speaks plainly or disagrees.",
+    "core_meaning": "A workplace or social setting that stays polite on the surface but quietly punishes anyone who speaks plainly or disagrees.",
+    "expanded_definition": "In a polite hostile environment, nobody raises their voice and every email is warm. But when you raise a real problem, people treat you more coolly. You get left off invitations, passed over for projects, or described as 'not a culture fit'. Because nothing rude happened, there is nothing to report. One slow promotion or one cold week proves little. What marks it is the record across months and several people, when honesty and dissent are repeatedly followed by quiet losses.",
     "plain_language_summary": "Everyone is nice to your face, but people who speak up about real problems slowly get shut out, so you learn to stay quiet.",
-    "why_this_matters": "Nothing that happens is documentable, so whoever spoke up carries the cost alone, with no evidence to present. Everyone watching learns that silence is the sensible option, and the place slowly loses its honest voices.",
+    "why_this_matters": "Nothing that happens can be documented, so whoever spoke up pays the cost alone, with no evidence to show. Everyone watching learns that staying silent is the sensible choice, and the place slowly loses its honest voices.",
     "what_it_is": [
       "A setting where courtesy is strictly kept and honest disagreement is quietly punished.",
-      "Penalties that arrive as small omissions: dropped from a meeting list, a project given to someone else, a slower reply.",
+      "Penalties that arrive as small omissions, like being dropped from a meeting list, losing a project to someone else, or getting a slower reply.",
       "Feedback that is vague and warm, such as 'we love your energy', followed by exclusion that is never explained.",
-      "A shared understanding among staff or members that certain topics, though never forbidden, cost you something to raise."
+      "A shared sense among staff or members that some topics are never forbidden, yet cost you something to raise."
     ],
     "what_it_sounds_like": [
       "Every formal exchange is warm, and raising a real concern is followed by weeks of cooler replies.",
@@ -404,7 +404,7 @@
       "A workplace where politeness is a real norm and people who disagree respectfully are still heard and promoted.",
       "A company going through budget cuts, where several people's projects stall for stated business reasons.",
       "A single raised concern that went nowhere because the issue was weighed and judged minor.",
-      "A reserved culture where people are formal with everyone, not only with those who spoke up.",
+      "A reserved culture where people are formal with everyone, including those who never spoke up.",
       "Honest feedback about how a concern was delivered, which may be fair even when it stings."
     ],
     "this_may_be_it_when": [
@@ -428,7 +428,7 @@
     ],
     "common_false_positives": [
       "A team that has been polite throughout a hiring freeze, where no one is getting promoted.",
-      "A manager who is formal and reserved with everyone and cooler to you after a real performance problem.",
+      "A manager who is formal and reserved with everyone, and who is cooler to you after a real performance problem.",
       "A group that feels clique-ish because its members have worked together for years and are slow to include newcomers."
     ],
     "discernment_questions": [
@@ -454,25 +454,25 @@
       "Colleagues who once spoke freely have become quiet or have left.",
       "Your own record of dates and outcomes shows a consistent gap after each time you spoke up."
     ],
-    "repair_check": "Repair here is structural, not a personal apology: an honest account of what happened to people who raised concerns, a visible change in who gets opportunities, and a channel where speaking up stops costing something. A friendly all-hands about 'psychological safety' with no change in outcomes does not count.",
+    "repair_check": "Repair here has to change how the place works. A personal apology is not enough. It takes an honest account of what happened to people who raised concerns, a visible change in who gets opportunities, and a channel where speaking up stops costing something. A friendly all-hands about 'psychological safety' with no change in outcomes does not count.",
     "boundary_respect_check": "A useful test is what happens to the next person who disagrees in public. If the response is curiosity and a decision, the space can hold dissent. If they are warmly thanked and quietly sidelined, your own boundary or concern will probably meet the same fate.",
     "psychological_mechanism": "People learn quickly what is safe to say by watching what happens to others. When the cost of honesty is delayed and deniable, a person may not link the loss to the remark, and may blame themselves instead. Seeing a colleague quietly sidelined can teach a whole group to stay silent without any rule being stated.",
-    "possible_impact_on_receiver": "People describe self-doubt, because nothing rude ever happened that they could point to. Some say they became overly careful with their words, some felt isolated from colleagues who stayed quiet, and some began to dread work without being able to say what was wrong. Leaving the place can bring relief and grief at once.",
+    "possible_impact_on_receiver": "People describe self-doubt, because nothing rude ever happened that they could point to. Some say they became overly careful with their words. Some felt cut off from colleagues who stayed quiet, and some began to dread work without being able to say what was wrong. Leaving the place can bring relief and grief at once.",
     "response_options": {
       "soft_clarification": "Ask a plain question in private: 'After I raised that issue, I noticed I wasn't included in the planning meetings. Is there a reason I should know about?'",
-      "firm_boundary": "State what you will continue to do: 'I will keep raising problems I see, in writing, so there is a clear record of what was said and when.'",
-      "disengagement": "Put your energy into the people and work that are still open to you, and stop investing in channels where candor has been punished.",
-      "support_seeking": "Talk with a mentor outside the organization, a professional association or an employment advisor about what you have seen, and compare your timeline with their experience.",
-      "workplace_or_professional": "Keep a dated log of what you raised, who responded and what changed afterward. Bring it to HR, an ombudsperson's office (an independent complaints office) or an employment lawyer if the consequences are tangible."
+      "firm_boundary": "State what you will keep doing: 'I will keep raising problems I see, in writing, so there is a clear record of what was said and when.'",
+      "disengagement": "Put your energy into the people and work that are still open to you. Stop investing in channels where honesty has been punished.",
+      "support_seeking": "Talk about what you have seen with a mentor outside the organization, a professional association or an employment advisor. Compare your timeline with their experience.",
+      "workplace_or_professional": "Keep a dated log of what you raised, who responded and what changed afterward. If the consequences are real, bring it to HR, an ombudsperson's office (an independent complaints office) or an employment lawyer."
     },
     "boundary_script": "\"I appreciate how respectful this team is, and raising concerns is part of doing my job well. Let's put them in writing so we can all see what was raised and what was decided.\"",
     "safety_sensitive": false,
-    "safety_note": "This pattern is mostly about status and opportunity, not physical danger. It changes if consequences reach your pay, your hours, your references or your immigration or housing status, since a job loss then has serious effects. Document quickly, and speak with an employment lawyer, a union representative or a legal aid service before the situation moves.",
+    "safety_note": "This pattern is mostly about status and opportunity, not physical danger. That changes if consequences reach your pay, your hours, your references, or your immigration or housing status, because losing a job then has serious effects. Document things quickly. Speak with an employment lawyer, a union representative or a legal aid service before the situation moves.",
     "misuse_warning": [
       "Applying this label to any workplace where you did not get a promotion can turn a real pattern into a way of avoiding honest feedback.",
-      "Describing a whole organization as hostile on the strength of one bad manager can overlook colleagues who are acting in good faith."
+      "Calling a whole organization hostile because of one bad manager can overlook colleagues who are acting in good faith."
     ],
-    "how_to_distinguish_from_related": "Concern Trolling is personal and aimed at one person's choices, while a polite hostile environment is a climate that touches many people. Forced Teaming demands loyalty to a 'we' by name, and here the loyalty is unspoken and enforced through omission. Triangulation uses specific third parties as ammunition, whereas this one needs no individual messenger at all."
+    "how_to_distinguish_from_related": "Concern Trolling is personal and aimed at one person's choices. A polite hostile environment is a climate that touches many people. Forced Teaming demands loyalty to a 'we' by name, while here the loyalty is unspoken and enforced through omission. Triangulation uses specific third parties as ammunition, but this pattern needs no individual messenger at all."
   },
   "Silent Coalitions": {
     "short_definition": "A group leaving one person out through many small, deniable slights, so no single clear incident ever stands out.",

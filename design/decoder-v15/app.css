@@ -18,10 +18,12 @@
 @layer tokens {
   :root{
     color-scheme:dark;
-    --bg:#0E1113;--panel:#181C1F;--panel-2:#20262A;--rule:#2A3135;--rule-hi:#3A4247;
-    --fg:#F2F4F1;--fg-2:#A8B0B3;--fg-3:#8A9397;
-    --blade:#F2F4F1;--blade-ink:#0E1113;--bullet-ink:#0E1113;
-    --amber:#FFB020;--amber-ink:#0E1113;--amber-fill:#FFB020;--amber-fill-ink:#0E1113;--exit:#00B864;--exit-ink:#04140B;
+    --bg:#0A0E16;--panel:#121826;--panel-2:#1A2233;--rule:#263044;--rule-hi:#37425A;
+    --fg:#F3F5F8;--fg-2:#AAB4C3;--fg-3:#8D98AA;
+    --blade:#F3F5F8;--blade-ink:#0A0E16;--bullet-ink:#0A0E16;
+    --amber:#FFB020;--amber-ink:#0A0E16;--amber-fill:#FFB020;--amber-fill-ink:#0A0E16;
+    --glow-a:rgba(148,105,255,.40);--glow-b:rgba(74,130,255,.34);--glow-c:rgba(240,91,160,.20);--lift:rgba(255,255,255,.04);
+    --stripe:#F06A52,#C06BE0,#9469FF,#1AA9DE,#8FA3BD,#B07A52,#4A82FF,#A2C23A,#17BDB0,#F05BA0;--exit:#00B864;--exit-ink:#04140B;
     --toward:#9CD9BC;--away:#AFB8E8;--mark:rgba(255,176,32,.28);
     --sign:'Overpass',system-ui,sans-serif;--read:'Atkinson Next','Atkinson Hyperlegible',system-ui,sans-serif;
     --s1:.5rem;--s2:1rem;--s3:1.5rem;--s4:2rem;--s5:3rem;--s6:4rem;
@@ -31,17 +33,21 @@
   }
   @media (prefers-color-scheme: light){:root:not([data-theme=night]){
     color-scheme:light;
-    --bg:#FFFFFF;--panel:#F3F5F6;--panel-2:#E6EBED;--rule:#D5DBDE;--rule-hi:#B9C2C7;
-    --fg:#111416;--fg-2:#4A5257;--fg-3:#5F686F;
-    --blade:#111416;--blade-ink:#FFFFFF;--bullet-ink:#FFFFFF;
+    --bg:#FBFAF7;--panel:#F3F1EB;--panel-2:#E8E5DC;--rule:#DAD6CB;--rule-hi:#BDB8AA;
+    --fg:#14161A;--fg-2:#4B5159;--fg-3:#5C636B;
+    --blade:#14161A;--blade-ink:#FBFAF7;--bullet-ink:#FFFFFF;
+    --glow-a:rgba(106,63,224,.20);--glow-b:rgba(31,85,214,.17);--glow-c:rgba(194,49,111,.12);--lift:rgba(255,255,255,.6);
+    --stripe:#C2412A,#8E3BB0,#6A3FE0,#0B7AA6,#5A6F8A,#8A5534,#1F55D6,#5E7A12,#0A7F76,#C2316F;
     --amber:#9A5B00;--amber-ink:#FFFFFF;--exit:#007A40;--exit-ink:#FFFFFF;
     --toward:#1D6B4A;--away:#3B4A9A;--mark:rgba(154,91,0,.18);--rim:rgba(0,0,0,.1);
   }}
   :root[data-theme=day]{
     color-scheme:light;
-    --bg:#FFFFFF;--panel:#F3F5F6;--panel-2:#E6EBED;--rule:#D5DBDE;--rule-hi:#B9C2C7;
-    --fg:#111416;--fg-2:#4A5257;--fg-3:#5F686F;
-    --blade:#111416;--blade-ink:#FFFFFF;--bullet-ink:#FFFFFF;
+    --bg:#FBFAF7;--panel:#F3F1EB;--panel-2:#E8E5DC;--rule:#DAD6CB;--rule-hi:#BDB8AA;
+    --fg:#14161A;--fg-2:#4B5159;--fg-3:#5C636B;
+    --blade:#14161A;--blade-ink:#FBFAF7;--bullet-ink:#FFFFFF;
+    --glow-a:rgba(106,63,224,.20);--glow-b:rgba(31,85,214,.17);--glow-c:rgba(194,49,111,.12);--lift:rgba(255,255,255,.6);
+    --stripe:#C2412A,#8E3BB0,#6A3FE0,#0B7AA6,#5A6F8A,#8A5534,#1F55D6,#5E7A12,#0A7F76,#C2316F;
     --amber:#9A5B00;--amber-ink:#FFFFFF;--exit:#007A40;--exit-ink:#FFFFFF;
     --toward:#1D6B4A;--away:#3B4A9A;--mark:rgba(154,91,0,.18);--rim:rgba(0,0,0,.1);
   }
@@ -493,7 +499,7 @@
     .blade:not(.pri),.btn:not(.pri),.opt,.seg a,.seg button,.tabs [role=tab],.feels label,.pn a,.sfield,.set .ch label,.lrow,.row,details.more,.answer,.panel,.notice{box-shadow:inset 0 0 0 2px var(--fg)}
     a{text-decoration-thickness:2px}
     .strip .ln{height:.375rem}
-    .home .concourse::before{display:none}
+    .home .concourse::before,.top::before,body::before{display:none}
   }
   /* Windows high-contrast: the system picks the colours; shapes and outlines must still say what each thing is. */
   @media (forced-colors: active){
@@ -501,7 +507,7 @@
     .tabs [role=tab][aria-selected=true],.btn[aria-pressed=true],.seg [aria-current]{border-color:Highlight;outline:2px solid Highlight}
     .warn .band,.exitplate .band{border-bottom:2px solid CanvasText}
     .sname::before,.strip .ln,.ldia::before,.ldia li:first-child a::before,.ldia li:last-child a::before,.strip .st.end{background:CanvasText}
-    .home .concourse::before{display:none}
+    .home .concourse::before,.top::before,body::before{display:none}
   }
 }
 
@@ -567,7 +573,7 @@
     .sname::before{background:#000!important;height:6pt;-webkit-print-color-adjust:exact;print-color-adjust:exact}
     .plate i{background:#fff!important;color:#000!important;box-shadow:inset 0 0 0 .5pt #000}
     .warn .band{background:#000!important;color:#fff!important;-webkit-print-color-adjust:exact;print-color-adjust:exact}
-    .warn .band::after,.home .concourse::before{display:none}
+    .warn .band::after,.home .concourse::before,.top::before,body::before{display:none}
   }
 }
 
@@ -602,6 +608,39 @@
   @keyframes dockIn{from{transform:translateY(-100%)}}
   @keyframes dockFade{from{opacity:0;transform:translateY(.5rem)}}
   @keyframes pop{40%{transform:scale(1.3)}}
+}
+
+/* ---------- colour and depth: each line's colour is its identity, so colour appears where a line does ---------- */
+@layer components{
+  .top::before{content:"";position:absolute;left:0;right:0;bottom:-1px;height:3px;background:linear-gradient(90deg,var(--stripe))}
+  .home .lrows{display:grid;gap:.75rem;border:0;margin-top:var(--s2)}
+  .home .lrow{position:relative;align-items:center;padding:1.125rem 1.25rem;border:0;background:var(--lc);color:var(--bullet-ink);overflow:hidden;transition:filter .2s var(--ease),transform .2s var(--ease)}
+  .home .lrow .b{background:var(--bullet-ink);color:var(--lc);box-shadow:none}
+  .home .lrow b{font-size:1.25rem;color:var(--bullet-ink)}
+  .home .lrow small{color:color-mix(in srgb,var(--bullet-ink) 92%,var(--lc))}
+  .home .lrow .n{color:var(--bullet-ink)}
+  .home .lrow .emb{color:var(--bullet-ink);opacity:.92}
+  .home .lrow:hover{filter:brightness(1.07)}
+  .net path{filter:drop-shadow(0 0 5px color-mix(in srgb,var(--lc) 55%,transparent))}
+  .net{background:radial-gradient(28rem 12rem at 50% 0,color-mix(in srgb,var(--fg) 6%,var(--panel)),var(--panel))}
+  .home .lrow small{display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
+  @media (max-width:30em){ .home .lrow{padding:.875rem 1rem;gap:.875rem} .home .lrow .emb{display:none} .home .lrow b{font-size:1.1875rem} }
+  @media (min-width:56.25em){ .home .lrows{grid-template-columns:1fr 1fr} }
+}
+@layer pages{
+  body[data-page=home]::before,body[data-page=station]::before{content:"";position:absolute;z-index:-1;left:0;right:0;top:0;height:38rem;pointer-events:none;
+    background:radial-gradient(42rem 22rem at 10% -3rem,var(--glow-a),transparent 70%),radial-gradient(36rem 20rem at 92% 2rem,var(--glow-b),transparent 70%),radial-gradient(30rem 14rem at 52% 14rem,var(--glow-c),transparent 70%)}
+  body[data-page=station]::before{background:radial-gradient(46rem 20rem at 24% -4rem,color-mix(in srgb,var(--lc) 34%,transparent),transparent 72%),radial-gradient(30rem 14rem at 96% 4rem,color-mix(in srgb,var(--lc) 16%,transparent),transparent 70%)}
+  body[data-page=station] .sname::before{height:.625rem;box-shadow:0 0 2.5rem color-mix(in srgb,var(--lc) 60%,transparent)}
+  body[data-page=station] .answer{background:linear-gradient(180deg,color-mix(in srgb,var(--lc) 13%,var(--panel)),var(--panel) 70%);border-top:.25rem solid var(--lc)}
+  body[data-page=station] .tabs [role=tab][aria-selected=true]{background:var(--lc);color:var(--bullet-ink)}
+  body[data-page=station] .tabs [role=tab][aria-selected=true] .no{background:var(--bullet-ink);color:var(--lc)}
+  .panel,.notice,.blade:not(.pri):not(.quiet),.opt,.row{background-image:linear-gradient(180deg,var(--lift),transparent 55%)}
+  .view[data-g] .lhead{align-items:center;gap:var(--s2);padding:var(--s3);margin-inline:calc(var(--s2)*-1);background:linear-gradient(135deg,var(--lc),color-mix(in srgb,var(--lc) 92%,var(--bullet-ink)));color:var(--bullet-ink)}
+  .view[data-g] .lhead .h-page,.view[data-g] .lhead .lede{color:var(--bullet-ink)}
+  .view[data-g] .lhead .b,.view[data-g] .lhead .emb.plate{background:var(--bullet-ink);color:var(--lc);margin:0}
+  .view[data-g] .lhead .emb.plate{width:2.5rem;height:2.5rem;flex:none}
+  .view[data-g] .lhead .emb.plate svg{width:1.5rem;height:1.5rem}
 }
 
 /* The shared House seal. On a phone it rests at the end of the page, above the sign bar, so it never floats over the text;
