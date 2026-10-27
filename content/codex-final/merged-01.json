@@ -2,12 +2,12 @@
   "Deflection": {
     "short_definition": "Steering a conversation away from the issue that was raised, so the concern never gets a direct answer.",
     "core_meaning": "Steering a conversation away from the issue that was raised, so the concern never gets a direct answer.",
-    "expanded_definition": "Deflection is turning a conversation away from the issue just raised. Diverting and rapid topic switching are everyday words for the same move. The turn can be a counter-question, an old grievance, a quibble over your wording, or a fast run of new subjects so that nothing stays open long enough to answer. Everyone does it sometimes. It becomes a pattern when one concern reliably goes unanswered however it is raised.",
+    "expanded_definition": "Deflection is turning a conversation away from the issue just raised. Diverting and rapid topic switching are everyday words for the same move. The turn can be a counter-question, an old grievance, a quibble over your wording, or a fast run of new subjects. With so many topics, nothing stays open long enough to be answered. Everyone does it sometimes. It becomes a pattern when one concern reliably goes unanswered however it is raised.",
     "plain_language_summary": "You ask a straight question and get a different topic, a question back, an old argument, or a stream of subjects. When the talk ends, your question is still unanswered.",
     "why_this_matters": "The original concern never gets a direct reply, so it stays open while the conversation ends looking as though it happened. The person who raised it is left unsure whether they were heard at all.",
     "what_it_is": [
       "A move away from a question, not a response to it: the topic changes, or the roles do.",
-      "Takes several forms: a counter-question, a tangent, a technicality, an older complaint, a joke, sudden concern about your tone, or a quick succession of unrelated subjects.",
+      "It takes several forms. These include a counter-question, a tangent, a technicality, an older complaint, a joke, sudden concern about your tone, or a quick succession of unrelated subjects.",
       "Often subtle enough that the conversation feels full, even warm, with no answer given.",
       "Can be an unplanned reflex under stress, and is visible in the exchange whatever the reason behind it.",
       "Matters by repetition: one subject is always avoided while others are discussed openly."
@@ -23,10 +23,10 @@
       "Three subjects in two minutes, and each time you go back to your first point, a fourth begins."
     ],
     "what_it_is_not": [
-      "Someone overwhelmed who asks for a pause and does come back, or a person who misheard the question and answered something nearby. Dealing with a truly urgent related matter first is also fine, so long as the original topic is picked up again.",
+      "Someone who is overwhelmed, asks for a pause, and does come back. Or a person who misheard the question and answered something nearby. Dealing with a truly urgent related matter first is also fine, as long as the original topic is picked up again.",
       "A clarifying question such as 'Which time do you mean?', after which your answer leads to theirs.",
       "A group conversation where tangents are normal and no one's question outranks another's.",
-      "Weariness with a long-running argument: 'not this again' can be plain exhaustion and not a way of escaping the subject.",
+      "Weariness with a long-running argument. Saying 'not this again' can be plain exhaustion and not a way of escaping the subject.",
       "A busy, fast-moving meeting that touches many items briefly and has a clear time for follow-up."
     ],
     "this_may_be_it_when": [
@@ -77,7 +77,7 @@
       "You ask in smaller and smaller pieces to get any response at all.",
       "You have been given plenty of warmth and conversation, but no answers."
     ],
-    "repair_check": "The dropped question gets picked up again: they return to it without being prompted, answer it directly, and do so whenever the subject comes round. A string of 'later' promises that never turn into a date is the old pattern with a gentler face.",
+    "repair_check": "The dropped question gets picked up again. They return to it without being prompted, answer it directly, and do so whenever the subject comes round. A string of 'later' promises that never turn into a date is the old pattern with a gentler face.",
     "boundary_respect_check": "Try putting the question in one written line and see what comes back. A direct answer, or an honest 'I don't want to answer that yet', respects the limit. A reply about something else, or about your wording, shows the question is still being routed around.",
     "psychological_mechanism": "Changing the subject is easy because conversation has no fixed agenda, and the person who raised the issue is often too polite to insist. A counter-question hands the listener a task, and answering it feels cooperative. A quick run of subjects leaves no point to hold onto. Within a few turns the original concern is buried, and it may only be missed afterwards.",
     "possible_impact_on_receiver": "People describe leaving a long conversation feeling heard, then realizing nothing was answered. Over time some stop asking, some ask louder, and some blame themselves for never finding the right moment or wording. Others describe a quiet resentment about questions that have been open for months.",
@@ -90,10 +90,10 @@
     },
     "boundary_script": "\"I'd like to go back to my first question before we move on, because I don't think I've had an answer yet. If you need time, tell me when you'll reply, and I'll hold off until then.\"",
     "safety_sensitive": false,
-    "safety_note": "Not a safety matter in itself. That changes when the question being avoided carries real stakes, like where money went, a medical decision, a child's wellbeing or a threat that was made. It changes, too, when raising it brings anger or fear. Then write down the question and what happened when you asked, and talk to a counselor or advocate before pressing it again.",
+    "safety_note": "Not a safety matter in itself. That changes when the question being avoided carries real stakes, like where money went, a medical decision, a child's wellbeing or a threat that was made. It changes, too, when raising it brings anger or fear. In that case, write down the question and what happened when you asked. Talk to a counselor or advocate before pressing it again.",
     "misuse_warning": [
       "Calling a pause or a topic change deflection can punish someone for being overwhelmed. If you need an answer right now, check whether time is part of the request.",
-      "The label can turn into a demand for a reply to every question. Nobody owes an answer on everything, especially private matters."
+      "The label can become a demand for a reply to every question. Nobody owes an answer on everything, and that holds most for private matters."
     ],
     "how_to_distinguish_from_related": "Whataboutism answers with someone else's comparable conduct; deflection goes wherever the exit is. Blame-Shifting engages with the complaint by turning it into your fault, while deflection does not engage with it at all. Denial says no to the facts, but deflection says nothing about them. Thought-Stopping Clichés close the subject with a stock phrase, where deflection opens a different one."
   },

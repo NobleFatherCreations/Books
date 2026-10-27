@@ -1,14 +1,14 @@
 {
   "Feigned Ignorance": {
-    "short_definition": "Acting as if you do not know or cannot follow something, so that a responsibility is dropped or a hard conversation is put off.",
-    "expanded_definition": "Feigned ignorance is a show of not knowing: blank looks, requests to have things explained again, or a sudden fog over an agreement made last week. What stands out is where the fog lands. The same person follows plans, schedules and jokes without trouble, but cannot seem to grasp the one thing that would cost them something. One lapse means little, since people forget and misunderstand. The telling feature is the not-knowing arriving, again and again, on the same inconvenient subjects.",
+    "short_definition": "Someone acts as if they do not know or cannot follow something, so a responsibility is dropped or a hard conversation is put off.",
+    "expanded_definition": "Feigned ignorance is a show of not knowing. It may be blank looks, requests to have things explained again, or a sudden fog over an agreement made last week. What stands out is where the fog lands. The same person follows plans, schedules and jokes without trouble, but cannot seem to grasp the one thing that would cost them something. One lapse means little, since people forget and misunderstand. The telling feature is the not-knowing arriving, again and again, on the same inconvenient subjects.",
     "plain_language_summary": "They act clueless about the one thing they would have to answer for. About everything else they understand just fine, so the issue never gets settled.",
     "why_this_matters": "When a person seems not to understand, nothing can be settled, because the shared basis for settling it is missing. Whoever raised the issue ends up explaining it again and again instead of getting an answer.",
     "what_it_is": [
       "A selective fog: normal understanding on most subjects, and puzzlement mainly on the one that carries a cost.",
       "Often shows up as a request to be told again, which restarts the conversation from the beginning each time.",
       "Seen in households (chores, bills, promises), at work (instructions, deadlines, policies) and among friends (plans, borrowed things).",
-      "Different from refusing outright: the person may seem willing and even apologetic, yet nothing changes because the point was never taken in."
+      "This differs from refusing outright. The person may seem willing and even apologetic, yet nothing changes because the point was never taken in."
     ],
     "what_it_sounds_like": [
       "\"Wait, what promise? I honestly don't remember us agreeing to that.\"",
@@ -19,21 +19,21 @@
       "A blank look and \"huh?\" when the topic turns to their share of the work, followed by easy chat about something else."
     ],
     "what_it_is_not": [
-      "Ordinary forgetting, which is strongest in busy or sleepless stretches and hits many subjects, including ones that matter to the person.",
-      "A real gap in knowledge on a hard topic, such as taxes, a legal form or a medical term, where confusion matches difficulty and not convenience.",
+      "Ordinary forgetting. It is strongest in busy or sleepless stretches and hits many subjects, including ones that matter to the person.",
+      "A real gap in knowledge on a hard topic, such as taxes, a legal form or a medical term. The confusion matches the difficulty and not the convenience.",
       "Someone who was truly not in the room, never saw the message, or got a different version of the plan.",
       "A person who asks for a second explanation, listens, and then acts on it. Asking twice is not evasion.",
       "Cultural or language differences that make an instruction land differently than it was meant."
     ],
     "this_may_be_it_when": [
-      "The confusion appears only on topics that would ask something of the person, and clears up on topics that benefit them.",
+      "The confusion appears only on topics that would ask something of the person. It clears up on topics that benefit them.",
       "There is a record, such as a text, a signed form or a witness, showing they understood at the time.",
       "Each explanation is followed by a new round of not-knowing rather than by action.",
       "The person reads, calculates and remembers well in other parts of life, such as work, hobbies or money they care about.",
       "The questions they ask are never the ones that would move things forward, only ones that restart the explanation."
     ],
     "this_may_not_be_it_when": [
-      "The confusion shows up on many topics, including ones they care about, and eases after a clear reminder.",
+      "The confusion shows up on many topics, including ones they care about. It eases after a clear reminder.",
       "After one more explanation they do the thing, and keep doing it.",
       "They tell you what they are missing, such as 'I never got that email', and it checks out.",
       "The subject really is technical or new to them, and they ask the kind of questions someone learning would ask.",
@@ -42,7 +42,7 @@
     "innocent_or_ordinary_possibilities": [
       "A week of poor sleep, grief or illness can blur memory of everyday agreements.",
       "People often hear a request while distracted, and later honestly have no memory of agreeing.",
-      "Some people freeze or go blank under criticism and truly cannot recall details in that moment, then remember them later.",
+      "Some people freeze or go blank under criticism and truly cannot recall details in that moment. They remember them later.",
       "An unclear instruction can fail to register even with the best will."
     ],
     "common_false_positives": [
@@ -75,24 +75,24 @@
     ],
     "repair_check": "Look for them to repeat back, in their own words, what was agreed and then do it without being asked a second time. Something that only looks like repair is a warm apology for the misunderstanding, followed by the same blank look next month.",
     "boundary_respect_check": "After you say you will explain it once, in writing, does the writing get read and used? A respectful answer is a reply like 'got it, I will do that by Friday'. A telling answer is a request to go through it all again out loud.",
-    "psychological_mechanism": "Appearing not to know can shift the work of the conversation onto the person who raised the issue. They tend to start explaining, defending the reasonableness of the request, or wondering whether they were clear enough, and the original concern slides out of view. Each repeat explanation can also wear down the energy people have to keep raising it.",
-    "possible_impact_on_receiver": "Common accounts include a particular tiredness from explaining the same thing over and over, a growing habit of doing the task alone, and a nagging question of whether the request was ever clear. Some end up feeling that nagging has become their job, with trust wearing away in small steps long before any single incident stood out.",
+    "psychological_mechanism": "Appearing not to know can shift the work of the conversation onto the person who raised the issue. They often start explaining, defending the reasonableness of the request, or wondering whether they were clear enough, and the original concern slides out of view. Each repeat explanation can also wear down the energy people have to keep raising it.",
+    "possible_impact_on_receiver": "A particular tiredness from explaining the same thing over and over is a common account. So are a growing habit of doing the task alone and a nagging question of whether the request was ever clear. Some end up feeling that nagging has become their job. Trust wears away in small steps, long before any single incident stands out.",
     "response_options": {
-      "soft_clarification": "Put the point in one clear sentence and ask them to restate it: 'So we're on the same page, can you tell me what you heard me ask for?'",
+      "soft_clarification": "Put the point in one clear sentence and ask them to restate it. You might say: 'So we're on the same page, can you tell me what you heard me ask for?'",
       "firm_boundary": "Say you will explain once and then expect action: 'I've gone over this twice. I'm not going to explain it a third time, but I'll send it in writing.'",
       "disengagement": "When the explanation loop restarts, end it for now: 'I can tell we're going round again. Let's stop and pick it up after you've read what I sent.'",
-      "support_seeking": "Ask someone who knows you both whether the agreement as you describe it sounds clear, to check whether the problem is in how it was said.",
-      "workplace_or_professional": "Confirm instructions and deadlines by email straight after the conversation, and ask for a reply that restates the task, so the record shows what was understood."
+      "support_seeking": "Ask someone who knows you both whether the agreement, as you describe it, sounds clear. This checks whether the problem is in how it was said.",
+      "workplace_or_professional": "Confirm instructions and deadlines by email straight after the conversation. Ask for a reply that restates the task, so the record shows what was understood."
     },
     "boundary_script": "\"I've explained this twice, and I think it was clear. I'm going to send you the plan in writing today. I'd like you to read it and tell me by Friday what you will take on.\"",
     "safety_sensitive": false,
-    "safety_note": "This is rarely a danger on its own. It deserves more care if the 'I didn't know' covers money, medication, children's needs or a legal deadline. There, the cost of a missed duty falls on you or someone who depends on you. Then put the specific duty in writing, and if a deadline or a child's welfare is involved, contact the relevant office or a legal aid service.",
+    "safety_note": "This is rarely a danger on its own. It deserves more care if the 'I didn't know' covers money, medication, children's needs or a legal deadline. There, the cost of a missed duty falls on you or someone who depends on you. In that case, put the specific duty in writing. If a deadline or a child's welfare is involved, contact the relevant office or a legal aid service.",
     "misuse_warning": [
-      "Deciding that someone is 'faking it' because they didn't remember is a quick way to be unfair to people with real memory, attention or language difficulties.",
+      "Deciding that someone is 'faking it' because they didn't remember is an easy way to be unfair to people with real memory, attention or language difficulties.",
       "Using the label to dismiss every honest question can punish people who just need a clearer explanation."
     ],
     "how_to_distinguish_from_related": "Denial says the thing did not happen or was not wrong, while feigned ignorance claims not to have known or understood it. Minimization admits it happened but shrinks the harm. Blame-Shifting assigns the fault to you instead of to a gap in knowledge. Here the claim is 'I did not know', and the test is whether that fits what else you have seen them understand.",
-    "core_meaning": "Acting as if you do not know or cannot follow something, so that a responsibility is dropped or a hard conversation is put off."
+    "core_meaning": "Someone acts as if they do not know or cannot follow something, so a responsibility is dropped or a hard conversation is put off."
   },
   "Preemptive Accusation": {
     "short_definition": "Accusing someone of a fault before they have spoken, often the same fault that is about to be raised about the accuser, so their later account sounds like a copy.",

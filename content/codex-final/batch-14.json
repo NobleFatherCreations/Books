@@ -389,10 +389,10 @@
     "how_to_distinguish_from_related": "Behavior Control sets rules about big areas, such as clothing, movement and friends. This one is about small, purposeless details and the weight put on them. Infantilization treats you as unable to manage your affairs, which can include picky rules but is about capacity. \"I Know Best\" Paternalism has a stated reason, 'for your own good', while trivial demands often have none."
   },
   "Boundary Testing": {
-    "short_definition": "Crossing a stated or implied limit in small steps, where each step that goes unchallenged is followed by a slightly bigger one.",
-    "core_meaning": "Crossing a stated or implied limit in small steps, where each step that goes unchallenged is followed by a slightly bigger one.",
-    "expanded_definition": "Boundary Testing is a run of small crossings of a limit someone has stated or clearly implied: arriving an hour early, a touch on the arm, borrowing without asking, repeating a personal question after a no. Each step is minor enough that objecting feels petty, which lets the line shift without any moment where it was held. A single mistake, or someone unsure where the line is, is not this. What marks it is crossings that repeat after the limit has been made clear, each a little bigger than the last.",
-    "plain_language_summary": "Someone keeps nudging past a line you have drawn, a little further each time, so that it never seems big enough to make a fuss about.",
+    "short_definition": "Someone crosses a stated or implied limit in small steps, and each step that goes unchallenged is followed by a slightly bigger one.",
+    "core_meaning": "Someone crosses a stated or implied limit in small steps, and each step that goes unchallenged is followed by a slightly bigger one.",
+    "expanded_definition": "Boundary Testing is a run of small crossings of a limit someone has stated or clearly implied. Examples are arriving an hour early, a touch on the arm, borrowing without asking, or repeating a personal question after a no. Each step is so minor that objecting feels petty. That lets the line shift, and there is never a moment where it was held. A single mistake is not this, and neither is someone who is unsure where the line is. It shows up as crossings that repeat after the limit is clear, each a little bigger than the last.",
+    "plain_language_summary": "Someone keeps nudging past a line you have drawn, a little further each time. It never seems big enough to make a fuss about.",
     "why_this_matters": "Since no single step seems worth a fight, the line can move a long way without one clear moment to hold it. The person on the receiving end often feels the shift only afterwards, and wonders why they didn't say something sooner.",
     "what_it_is": [
       "A series of crossings, each slightly past the last: a late-night text, then a call, then turning up uninvited.",
@@ -413,7 +413,7 @@
     "what_it_is_not": [
       "A one-off misjudgement with nothing following it, which is a mistake.",
       "Someone unclear where the line sits who adjusts once told, and so has done exactly the right thing.",
-      "Good-faith negotiation about where a reasonable limit should sit, such as asking whether a rule can bend for a special occasion.",
+      "Good-faith negotiation about where a reasonable limit should sit. For example, asking whether a rule can bend for a special occasion.",
       "A toddler or teenager pressing on edges as part of growing up, who needs a steady reply rather than suspicion.",
       "A new colleague who doesn't yet know the office habits and stops when told.",
       "Different customs about closeness or timing, such as dropping in unannounced being normal in someone's family."
@@ -434,7 +434,7 @@
     ],
     "innocent_or_ordinary_possibilities": [
       "Norms differ between families, cultures and workplaces, and people can honestly misjudge what is welcome.",
-      "People sometimes check mildly whether a limit still stands after circumstances change, like a new job or an illness.",
+      "People sometimes check, in a mild way, whether a limit still stands after things change, like a new job or an illness.",
       "Young children and teenagers learn by pressing on edges, and a steady reply is ordinary parenting."
     ],
     "common_false_positives": [
@@ -465,25 +465,25 @@
       "You weigh up whether each new thing is worth raising.",
       "You have started arranging your days to avoid certain moments with them."
     ],
-    "repair_check": "Repair looks like the limit holding after you have named it: the early arrivals stop, the midnight text doesn't come, and a nearby version doesn't appear in its place. Lasting change is seen over months, not in an apology made while the next small step is already under way.",
+    "repair_check": "Repair looks like the limit holding after you have named it. The early arrivals stop, the midnight text doesn't come, and a similar version doesn't appear in its place. Lasting change shows over months. An apology made while the next small step is already under way does not count.",
     "boundary_respect_check": "State the limit in one clear sentence and then watch what comes in its place. Is the same step repeated, a neighboring one tried, or does the limit simply hold? One neighboring step is information; a string of them is a pattern.",
-    "psychological_mechanism": "Small steps can make resistance feel out of proportion. After a person has let several pass, objecting to the next may feel inconsistent, as if permission had been given earlier, and it takes more effort to hold a line they have already let slide. Being told it is nothing can add doubt about whether their own sense of a line is reasonable.",
-    "possible_impact_on_receiver": "A nagging unease that is hard to justify is common, along with replaying moments to see whether they overreacted and feeling foolish for not objecting earlier. Some become wary of the person without being able to explain why to others. Many say they felt relief when they saw the steps laid out in order.",
+    "psychological_mechanism": "Small steps can make a person's resistance look out of proportion. After letting several pass, objecting to the next may look inconsistent, as if permission had been given earlier. It takes more effort to hold a line they have already let slide. Being told it is nothing can add doubt about whether their own sense of a line is reasonable.",
+    "possible_impact_on_receiver": "A nagging unease that is hard to justify is common. People also replay moments to check whether they overreacted, and feel foolish for not objecting earlier. Some become wary of the person without being able to explain why to others. Many say they felt relief when they saw the steps laid out in order.",
     "response_options": {
       "soft_clarification": "Describe the sequence in neutral terms and ask whether they knew: 'This is the third call after nine. I'd said I'd rather not take calls then, so I wasn't sure you remembered.'",
-      "firm_boundary": "Restate the limit in one short sentence and add no reasons: 'No calls after nine.' If a neighboring version appears, point to the same limit in the same calm tone.",
+      "firm_boundary": "Restate the limit in one short sentence and add no reasons, like 'No calls after nine.' If a similar version appears, point to the same limit in the same calm tone.",
       "disengagement": "Let late messages wait until morning and answer in the form you prefer. Not replying at once is a limit in itself, and needs no announcement.",
       "support_seeking": "Write down dates and what happened, then tell someone you trust the whole list at once. Seen together, the small steps often look different from how they felt one at a time.",
-      "workplace_or_professional": "At work or with clients, restate the limit in writing, such as 'Please contact me during office hours only', and keep dated copies of the crossings for your manager or HR."
+      "workplace_or_professional": "At work or with clients, restate the limit in writing, such as 'Please contact me during office hours only'. Keep dated copies of the crossings for your manager or HR."
     },
     "boundary_script": "\"I said no calls after nine, and this one came at ten. I'd like us to keep to that, and I'm happy to talk about what was so urgent.\"",
     "safety_sensitive": false,
-    "safety_note": "Testing is usually a matter of pace and respect. It deserves more concern when the steps move toward your body, home, location or belongings, or when saying no to a small step brings anger. Trust the discomfort you notice early. If crossings include touch you did not agree to, following you, or turning up uninvited at home, keep a dated record and contact an advocate or the police non-emergency line.",
+    "safety_note": "Testing is usually a matter of pace and respect. It deserves more concern when the steps move toward your body, home, location or belongings, or when saying no to a small step brings anger. Trust the discomfort you notice early. If crossings include touch you did not agree to, following you, or turning up uninvited at home, take that seriously. Keep a dated record and contact an advocate or the police non-emergency line.",
     "misuse_warning": [
       "Reading every awkward misstep as testing can punish people who simply didn't know the limit. The label needs a limit that was clear and a crossing that repeated.",
       "Telling someone they are 'testing' you in the middle of a disagreement can end the chance for them to just say sorry and adjust."
     ],
-    "how_to_distinguish_from_related": "Behavior Control issues rules about your clothes, movement or friends, while boundary testing pushes at rules you have set yourself. Monitoring & Surveillance asks for standing access and accounting; testing can be a single extra question or visit, repeated and growing. Location Tracking is a fixed condition, whereas a testing step may be arriving unannounced where you are, once, and then again."
+    "how_to_distinguish_from_related": "Behavior Control issues rules about your clothes, movement or friends. Boundary testing pushes at rules you have set yourself. Monitoring & Surveillance asks for standing access and accounting. Testing can be a single extra question or visit, repeated and growing. Location Tracking is a fixed condition. A testing step may be arriving unannounced where you are, once, and then again."
   },
   "Velvet Glove Control": {
     "short_definition": "Narrowing someone's choices through warmth, concern and gentle persistence instead of force, so that the loss of their say is hard to see.",
@@ -496,7 +496,7 @@
       "Concern used as a reason: 'I just worry', 'I only want what's best', in reply to your own plans.",
       "Persistence in a soft tone that continues after you have said no, until saying yes is easier.",
       "Gratitude expected: you are reminded how much is done for you whenever you differ.",
-      "Found in couples, parents and adult children, caring roles, workplaces with a kindly mentor, and groups led by a warm leader."
+      "It shows up between couples, between parents and adult children, in caring roles, at workplaces with a kindly mentor, and in groups led by a warm leader."
     ],
     "what_it_sounds_like": [
       "I just worry about you, that's all.",
@@ -509,15 +509,15 @@
       "Let's talk about it again tomorrow, shall we?"
     ],
     "what_it_is_not": [
-      "Gentle guidance from someone who ultimately accepts a decision they disagree with, which is care.",
+      "Gentle guidance from someone who in the end accepts a decision they disagree with, which is care.",
       "Honest worry, said once, about a risky choice, followed by support for whatever you decide.",
-      "Help you asked for, such as someone running errands during an illness or a partner who handles the taxes by agreement.",
+      "Help you asked for. Examples are someone running errands during an illness, or a partner who handles the taxes by agreement.",
       "A naturally soft-spoken person whose requests are easy to refuse and who doesn't mind when you do.",
       "A professional caregiver or mentor advising within their role and accepting that you decide.",
       "Someone who disagrees warmly and then comes along anyway."
     ],
     "this_may_be_it_when": [
-      "The test falls at your refusal: the gentle persistence goes on, the plan is quietly carried out anyway, or you pay in sorrow and guilt.",
+      "The test comes when you refuse. The gentle persistence goes on, the plan is quietly carried out anyway, or you pay in sorrow and guilt.",
       "Decisions that should be yours, such as your job, money, health and friends, are made or pre-empted without you being asked.",
       "Concern is expressed about exactly the plans that would give you more independence.",
       "You are reminded of what has been done for you when you differ.",
@@ -564,24 +564,24 @@
       "You feel guilty for wanting independence.",
       "Friends notice that you check with this person on things you used to decide yourself."
     ],
-    "repair_check": "Look at a decision they disagreed with: did it stand? If they can sit with your choice and offer help anyway, something has changed. Warm apologies that leave the arrangement as it was, or that come with a reminder of how much they do, have kept the structure in place.",
+    "repair_check": "Look at a decision they disagreed with. Did it stand? If they can sit with your choice and still offer help, something has changed. Warm apologies leave the arrangement as it was, or come with a reminder of how much they do. In that case the structure is still in place.",
     "boundary_respect_check": "What does your no cost? A decision that is respected leaves you with the same warmth and the same help as before. If the gentleness thickens into sorrow, persuasion or a quiet workaround, the no is being handled as a problem and not as an answer.",
-    "psychological_mechanism": "Kindness is hard to resist, and refusing someone who appears to be acting out of love can feel selfish. When a person's choices are met with hurt or sorrow rather than anger, they may take on responsibility for the other's feelings and give in to avoid causing pain. Because nothing was forced, they may also struggle to recall when they stopped deciding.",
-    "possible_impact_on_receiver": "Being grateful and trapped at once is a common report, along with guilt about wanting something different and doubt about being unreasonable. Some only notice when they write out which decisions were once theirs alone. Others describe a vague loss of confidence, or relief at finally having words for something that seemed too gentle to complain about.",
+    "psychological_mechanism": "Kindness is hard to resist, and refusing someone who appears to be acting out of love can feel selfish. When a person's choices are met with hurt or sorrow instead of anger, they may take on responsibility for the other's feelings. They may give in to avoid causing pain. Because nothing was forced, they may also struggle to recall when they stopped deciding.",
+    "possible_impact_on_receiver": "Being grateful and trapped at once is a common report. So are guilt about wanting something different and doubt about being unreasonable. Some only notice when they write out which decisions were once theirs alone. Others describe a vague loss of confidence, or relief at finally having words for something that seemed too gentle to complain about.",
     "response_options": {
       "soft_clarification": "Say what you'd like and ask for backing in a single sentence: 'I've decided to take the job. I'd like your support, even though you're worried.'",
       "firm_boundary": "Thank them for the concern and keep the decision with yourself: 'I appreciate that you care. This one is mine to decide.' If it comes up again, say the same sentence and carry on.",
       "disengagement": "Make one small decision entirely yourself and don't discuss it beforehand, like a haircut or a route. Practicing private choices can help you tell what you want from what has been suggested.",
       "support_seeking": "Ask someone who knew you before this relationship what decisions you used to make on your own. Their list can show where the narrowing happened.",
-      "workplace_or_professional": "With a mentor or manager who 'looks after' you, ask for your responsibilities and goals in writing, and make sure decisions about your role are recorded with your input."
+      "workplace_or_professional": "With a mentor or manager who 'looks after' you, ask for your responsibilities and goals in writing. Make sure decisions about your role are recorded with your input."
     },
     "boundary_script": "\"I know this comes from caring about me, and I'm glad of that. I'm going to make this decision myself, and I'd like you to be there for me whichever way it goes.\"",
     "safety_sensitive": true,
-    "safety_note": "Gentle control can sit alongside control of money, documents, medical care and who you see. Watch for a growing share of your accounts, ID or appointments sitting with them, or a sense that refusing would cost you home, income or family. Talking in confidence to a doctor, a domestic abuse advocate or an older-adult services line can give you an outside view; ask how to protect your documents.",
+    "safety_note": "Gentle control can sit alongside control of money, documents, medical care and who you see. Watch for a growing share of your accounts, ID or appointments sitting with them. Also watch for a sense that refusing would cost you home, income or family. Talking in confidence to a doctor, a domestic abuse advocate or an older-adult services line can give you an outside view. Ask how to protect your documents.",
     "misuse_warning": [
       "Reading every kind, caring act as hidden control makes it hard to accept ordinary help. The label needs your no being overridden or quietly undone.",
-      "Telling a gentle person that they are controlling, without raising specifics, can shut down a chance for both of you to renegotiate who decides what."
+      "Telling a gentle person that they are controlling, without raising specifics, can close off a chance. Both of you could have used it to renegotiate who decides what."
     ],
-    "how_to_distinguish_from_related": "Infantilization treats you as less capable, while this treats you as capable and cherished and still decides for you. \"I Know Best\" Paternalism states its reasons and overrides you in the open; the velvet glove avoids visible overriding, using persistence and sorrow. Behavior Control lists rules about clothes or movement, whereas here there may be no rule at all, only gentle steering."
+    "how_to_distinguish_from_related": "Infantilization treats you as less capable. This treats you as capable and cherished, and still decides for you. \"I Know Best\" Paternalism states its reasons and overrides you in the open. The velvet glove avoids visible overriding and uses persistence and sorrow instead. Behavior Control lists rules about clothes or movement. Here there may be no rule at all, only gentle steering."
   }
 }

@@ -293,11 +293,11 @@
     "how_to_distinguish_from_related": "Whataboutism answers a charge with a counter-charge; sealioning answers a claim with endless requests and may never make a charge of its own. Denial rejects the facts outright, while the asker here may never say they disagree. Blame-Shifting assigns you the fault; sealioning assigns you the burden of proof, again and again."
   },
   "Apology Without Repair": {
-    "short_definition": "An apology that is offered but followed by no change in behavior, so the same harm returns and the apology closes the matter each time.",
-    "core_meaning": "An apology that is offered but followed by no change in behavior, so the same harm returns and the apology closes the matter each time.",
-    "expanded_definition": "Apology without repair is a sorry that works as an ending instead of a beginning. The words may be warm, specific and even tearful, but nothing is different afterwards: the same thing happens again, and the same sorry is offered. One apology not followed by instant change is normal, because change is slow and uneven. The pattern is the closed loop, where the apology stands in for the repair and raising the repeat is met with 'I already apologized.' This does not show whether the person means it.",
+    "short_definition": "An apology is offered but no change in behavior follows, so the same harm returns and the apology closes the matter each time.",
+    "core_meaning": "An apology is offered but no change in behavior follows, so the same harm returns and the apology closes the matter each time.",
+    "expanded_definition": "Apology without repair is a sorry that works as an ending instead of a beginning. The words may be warm, specific and even tearful, but nothing is different afterwards. The same thing happens again, and the same sorry is offered. One apology not followed by instant change is normal, because change is slow and uneven. The pattern is the closed loop, where the apology stands in for the repair and raising the repeat is met with 'I already apologized.' This does not show whether the person means it.",
     "plain_language_summary": "They say sorry, sometimes beautifully, and then do the same thing again. After a few rounds the sorry starts to feel like a way of ending the conversation.",
-    "why_this_matters": "Each apology closes the incident without changing anything, so the same harm can recur while, on paper, it has been dealt with every time. The person on the receiving end is left holding a record of apologies and no change.",
+    "why_this_matters": "Each apology closes the incident without changing anything. The same harm can recur while, on paper, it has been dealt with every time. The person on the receiving end is left holding a record of apologies and no change.",
     "what_it_is": [
       "An apology that is complete in itself, with no plan, change or follow-up attached.",
       "Often arrives at the point of highest tension, and its effect is to lower it.",
@@ -318,7 +318,7 @@
       "A sincere apology followed by imperfect effort. Change is rarely instant and rarely a straight line.",
       "Someone who apologizes well but has a real skill gap, with money or time, and needs a plan more than willpower.",
       "One relapse followed by renewed effort, which is not a closed loop.",
-      "A person whose follow-through is affected by something like ADHD or depression, who is open about it and working on it.",
+      "A person whose follow-through is affected by something like ADHD or depression, and who is open about it and working on it.",
       "An apology for something that cannot be undone, where no further repair is possible.",
       "An apology you both agree is enough: 'that's all I needed'."
     ],
@@ -372,14 +372,14 @@
     ],
     "repair_check": "What counts as repair is something you can see happen between apologies: a changed routine, a step taken, a behavior that stops appearing. Ask what they did differently last week. More feeling, more tears and a bigger promise do not add up to a change.",
     "boundary_respect_check": "Consider asking for one concrete thing you need to see, then note what follows. If they take it on, say how, and you can watch it happen, the boundary is being treated as real. If you get another apology or irritation at being asked, the sorry is still doing the job of ending the talk.",
-    "psychological_mechanism": "An apology produces relief on both sides: the person apologizing may feel better as soon as it is said, and the listener feels the tension drop and hopes things will change. That relief can substitute for the work of changing. Because forgiving is also rewarded, the listener may accept again and again, and the cycle becomes familiar.",
+    "psychological_mechanism": "An apology produces relief on both sides. The person apologizing may feel better as soon as it is said, and the listener feels the tension drop and hopes things will change. That relief can substitute for the work of changing. Forgiving is also rewarded, so the listener may accept again and again, and the cycle becomes familiar.",
     "possible_impact_on_receiver": "People describe a draining kind of hope: believing each apology, then watching the same thing return. Some blame themselves for giving another chance, and some feel their anger is unreasonable because they have been apologized to. Over time, trust in the words themselves can wear thin, including words that are meant.",
     "response_options": {
       "soft_clarification": "Ask what the apology comes with: 'Thank you for saying sorry. What will you do differently next time, and how will I know?'",
       "firm_boundary": "Say that words alone are no longer enough on this issue: 'I appreciate the apology. Could we write down what will be different?'",
       "disengagement": "Stop giving a quick 'it's fine' to end the discomfort. You can say 'I heard you' and leave it unresolved while behavior makes the case.",
       "support_seeking": "Keep a short dated list of the repeats and the apologies and show it to someone you trust. A pattern can be easier to see on paper than in the moment.",
-      "workplace_or_professional": "Ask for the apology to come with a written next step and a review date, such as an agreement on how this will be handled next time."
+      "workplace_or_professional": "Ask for the apology to come with a written next step and a review date. This could be an agreement on how it will be handled next time."
     },
     "boundary_script": "\"Your apology is real to me, and so is the pattern. This has happened a few times now, so what I need isn't another apology. Can we agree on what will be different next time?\"",
     "safety_sensitive": true,
@@ -388,16 +388,16 @@
       "Counting apologies as proof of bad faith is unfair to people working on change slowly. The label fits a closed loop, not a first or second relapse.",
       "It can also be used to refuse any apology, treating sorry as worthless in advance. Sometimes an apology is all that can be offered."
     ],
-    "how_to_distinguish_from_related": "A Non-Apology Apology regrets your reaction, not their action; here the apology can name the action in full and sound sincere, and then nothing changes. Denial disputes what happened, whereas here it is admitted. Minimization makes light of the damage, but here the damage may be fully owned and the same thing still happens again."
+    "how_to_distinguish_from_related": "A Non-Apology Apology regrets your reaction, not their action. Here the apology can name the action in full and sound sincere, and then nothing changes. Denial disputes what happened, whereas here it is admitted. Minimization makes light of the damage. Here the damage may be fully owned and the same thing still happens again."
   },
   "Forced Forgiveness": {
-    "short_definition": "Pressing someone to forgive or move on before the harm has been acknowledged or made right, so forgiveness is demanded in place of repair.",
-    "core_meaning": "Pressing someone to forgive or move on before the harm has been acknowledged or made right, so forgiveness is demanded in place of repair.",
+    "short_definition": "Someone presses a person to forgive or move on before the harm has been acknowledged or made right, demanding forgiveness in place of repair.",
+    "core_meaning": "Someone presses a person to forgive or move on before the harm has been acknowledged or made right, demanding forgiveness in place of repair.",
     "expanded_definition": "Forced forgiveness is pressure to say 'it's fine' or 'let's move on' before anyone has admitted what happened or tried to put it right. The pressure may come from the person who caused the harm, or from relatives, a congregation or colleagues who want peace. Forgiving is a personal act that usually follows acknowledgment, and a deadline cannot hurry it. Hoping for reconciliation is not the problem. The pattern appears when forgiveness is treated as a duty or a test of character, and when still feeling hurt becomes the next offense.",
     "plain_language_summary": "The people around you want it over. You are told to forgive and move on though no one has faced what happened, and still feeling hurt is treated as the problem.",
-    "why_this_matters": "Resolution is claimed before acknowledgment, so the harm stays unprocessed. Any further mention of it then becomes the new problem, and the person who was hurt carries the extra task of looking forgiving.",
+    "why_this_matters": "Resolution is claimed before acknowledgment, so the harm stays unprocessed. Any further mention of it then becomes the new problem. The person who was hurt carries the extra task of looking forgiving.",
     "what_it_is": [
-      "Pressure toward a conclusion, such as forgiveness, a handshake or a hug, that normally comes after acknowledgment and repair.",
+      "Pressure toward a conclusion that normally comes after acknowledgment and repair. Forgiveness, a handshake or a hug are examples.",
       "Often speaks the language of virtue: faith, family loyalty, maturity, being the bigger person.",
       "Can come from the person who caused harm or from others who speak for peace, such as relatives, leaders and friends.",
       "Commonly carries a clock, as in 'it's been a year' or 'by Christmas'.",
@@ -467,36 +467,36 @@
       "You are invited to events on the understanding that you will behave as though nothing happened.",
       "The list of subjects you cannot bring up gets longer."
     ],
-    "repair_check": "Where forgiveness follows real repair, the order is visible: acknowledgment first, then change, then room for you to decide in your own time. If the request to forgive arrives first, or 'moving on' is the only repair on offer, the sequence has been turned round.",
+    "repair_check": "Where forgiveness follows real repair, the order is visible. Acknowledgment comes first, then change, then room for you to decide in your own time. If the request to forgive arrives first, or 'moving on' is the only repair on offer, the sequence has been turned round.",
     "boundary_respect_check": "What happens when you say 'not yet' or 'no'? Respect looks like patience and perhaps a question about what you need. Disrespect looks like a cooler tone, a reminder of how much time has passed, or other people being sent to persuade you.",
-    "psychological_mechanism": "Forgiveness is widely praised, so being asked for it can make hesitation feel like a personal failing. When the request comes from family or a community, the cost of refusing can include losing belonging. Hurrying toward peace can also spare everyone the discomfort of the facts, letting the group relax while the hurt person absorbs the cost.",
+    "psychological_mechanism": "Forgiveness is widely praised, so being asked for it can make hesitation look like a personal failing. When the request comes from family or a community, the cost of refusing can include losing belonging. Hurrying toward peace can also spare everyone the discomfort of the facts. The group relaxes while the hurt person absorbs the cost.",
     "possible_impact_on_receiver": "People describe swallowing anger to keep the peace, feeling guilty for still being hurt, and being shut out of the conversation they needed. Some say they pretended to forgive and felt more alone afterwards. Others describe losing trust in the people who urged them to move on.",
     "response_options": {
       "soft_clarification": "Separate the two things: 'I do want us to be okay, and I need to talk about what happened before I can get there.'",
       "firm_boundary": "Decline the deadline: 'Forgiveness isn't something I can schedule. I'll tell you if and when I get there, and until then, please don't ask.'",
-      "disengagement": "You can skip events or conversations where you will be expected to act as if nothing happened, without explaining yourself to everyone.",
-      "support_seeking": "Talk to someone outside the family or group who will not be asked to take sides, such as a counselor, a faith leader you trust, or a friend, and ask what they would want from you.",
-      "workplace_or_professional": "If a manager asks you to bury the hatchet before a complaint has been looked at, ask in writing how the complaint is being handled, and make clear that forgiving is not a condition of the process."
+      "disengagement": "You can skip events or conversations where you will be expected to act as if nothing happened. You do not have to explain yourself to everyone.",
+      "support_seeking": "Talk to someone outside the family or group who will not be asked to take sides, such as a counselor, a faith leader you trust, or a friend. Ask what they would want from you.",
+      "workplace_or_professional": "If a manager asks you to bury the hatchet before a complaint has been looked at, ask in writing how the complaint is being handled. Make clear that forgiving is not a condition of the process."
     },
     "boundary_script": "\"I'd like things to be better between us. Before I can forgive, I need what happened to be acknowledged, and I can't rush that. Please don't ask me again for now. I'll tell you when I'm ready.\"",
     "safety_sensitive": true,
-    "safety_note": "Pressure to forgive can keep a person in contact with someone who hurt them, which matters most when the harm was violence, abuse or threats. Forgiving in your heart does not oblige you to see anyone or be alone with them. You may be pushed to go back to a person you fear. A domestic violence or sexual assault advocate can help you plan how to say no and stay safe. In immediate danger, call emergency services.",
+    "safety_note": "Pressure to forgive can keep a person in contact with someone who hurt them. This matters most when the harm was violence, abuse or threats. Forgiving in your heart does not oblige you to see anyone or be alone with them. You may be pushed to go back to a person you fear. A domestic violence or sexual assault advocate can help you plan how to say no and stay safe. In immediate danger, call emergency services.",
     "misuse_warning": [
-      "Telling anyone who urges peace that they are 'forcing forgiveness' can silence people who sincerely want to help, or who are themselves hurt by the rift.",
+      "Telling anyone who urges peace that they are 'forcing forgiveness' can silence people who sincerely want to help. It can also silence people who are themselves hurt by the rift.",
       "The label can harden into a rule that forgiveness must never be asked of anyone. A gentle invitation is not coercion."
     ],
-    "how_to_distinguish_from_related": "Minimization says the harm was small, so your reaction looks too big; forced forgiveness may accept the harm was real and still demand that you stop feeling it. Denial disputes the events, where this skips past them. A Non-Apology Apology offers a hollow sorry to close things; here the sorry may be missing entirely, and the pressure falls on your forgiveness instead."
+    "how_to_distinguish_from_related": "Minimization says the harm was small, so your reaction looks too big. Forced forgiveness may accept the harm was real and still demand that you stop feeling it. Denial disputes the events, where this skips past them. A Non-Apology Apology offers a hollow sorry to close things. Here the sorry may be missing entirely, and the pressure falls on your forgiveness instead."
   },
   "Plausible Deniability": {
-    "short_definition": "Acting in ways that can always be explained as concern, policy or accident, so no single incident can be called harmful without the accuser sounding unfair.",
-    "core_meaning": "Acting in ways that can always be explained as concern, policy or accident, so no single incident can be called harmful without the accuser sounding unfair.",
-    "expanded_definition": "Plausible deniability is a structure in which each action arrives with a reasonable explanation attached: 'I was worried about you', 'it's company policy', 'I didn't mean it like that', 'that must have been a mistake'. Often the explanation is simply true. What makes it a pattern, rather than a run of ordinary events, is that the effects add up in one direction while every single example can be defended. In politics and law the term has a formal sense of leaders arranging to claim ignorance. In daily life the pattern is looser, and spotting it does not show what anyone intended.",
+    "short_definition": "Someone acts in ways that can always be explained as concern, policy or accident, so no single incident can be called harmful without the accuser sounding unfair.",
+    "core_meaning": "Someone acts in ways that can always be explained as concern, policy or accident, so no single incident can be called harmful without the accuser sounding unfair.",
+    "expanded_definition": "Plausible deniability is a structure where each action arrives with a reasonable explanation attached. Examples are 'I was worried about you', 'it's company policy', 'I didn't mean it like that', and 'that must have been a mistake'. Often the explanation is simply true. What makes it a pattern, rather than a run of ordinary events, is that the effects add up in one direction while every single example can be defended. In politics and law the term has a formal sense of leaders arranging to claim ignorance. In daily life the pattern is looser, and spotting it does not show what anyone intended.",
     "plain_language_summary": "Every time something harmful happens, there is a decent-sounding reason, so you can never point to one thing without feeling unfair. Only the whole pile shows the shape.",
-    "why_this_matters": "Every incident comes with a fair-sounding explanation, so raising any one of them can make the person raising it look unreasonable. The pattern can only be described by pointing at things that, taken separately, look like nothing.",
+    "why_this_matters": "Every incident comes with a fair-sounding explanation. Raising any one of them can make the person raising it look unreasonable. To describe the pattern, you have to point at things that look like nothing when taken separately.",
     "what_it_is": [
       "A reasonable explanation attached to each act: concern, rules, humor, accident or misunderstanding.",
-      "Visible across many incidents more than in any one, as the same direction of effect repeats over time.",
-      "Works through ambiguity: things left unsaid, a 'suggestion' standing in for an order, or responsibility spread thin through a process.",
+      "It shows across many incidents more than in any one, because the effects keep pointing the same way over time.",
+      "It works through ambiguity. Things are left unsaid, a 'suggestion' stands in for an order, or responsibility is spread thin through a process.",
       "Found in homes, workplaces, institutions and friend groups.",
       "Can be a feature of a system as well as a person, when nobody is clearly responsible for outcomes."
     ],
@@ -518,7 +518,7 @@
       "An understaffed office where problems come from chaos and not from any design."
     ],
     "this_may_be_it_when": [
-      "Effects line up in one direction across months, such as your access to money, friends or time narrowing, while each reason differs.",
+      "Across months, the effects all point one way, such as your access to money, friends or time narrowing, while each reason is different.",
       "The explanations arrive quickly, before you have said what troubled you.",
       "Asking about one incident prompts a response about how suspicious you are.",
       "The reasons change with the circumstance but the outcome does not.",
@@ -565,13 +565,13 @@
       "You rehearse how to raise something so that it will not sound unreasonable.",
       "You wonder whether you are being unfair, even when the effects are plain."
     ],
-    "repair_check": "Repair here means the effect changes, not only the explanation. If you tell them what the pattern is doing to you and the behavior adjusts, so that you get your information or access back, that is repair. A fresh, equally reasonable reason for the same outcome is not.",
+    "repair_check": "Repair here means the effect itself changes. If you tell them what the pattern is doing to you and the behavior adjusts, you get your information or access back, and that is repair. A fresh, equally reasonable reason for the same outcome is not repair.",
     "boundary_respect_check": "State the effect you need to stop, without arguing over their reasons, and watch the next few weeks. Respect shows as the effect ending, whatever their explanation. If a new justification appears for the same outcome, the boundary has been routed around, not honored.",
-    "psychological_mechanism": "When every action comes with a reasonable explanation, the listener tends to judge each incident alone, and each looks too small to object to. Objecting then carries a social cost, since it can make the objector seem suspicious or ungrateful. Doubt can turn inward, with the person wondering whether their reaction is the problem rather than the pattern.",
-    "possible_impact_on_receiver": "People describe a creeping doubt about whether they are being unreasonable, a habit of saving up incidents that each feel too small, and difficulty explaining to others why they are troubled. Some feel isolated by how reasonable everything sounds. Others describe relief when they put the incidents on paper and see the shape for the first time.",
+    "psychological_mechanism": "When every action comes with a reasonable explanation, the listener often judges each incident alone, and each looks too small to object to. Objecting then carries a social cost, since it can make the objector seem suspicious or ungrateful. Doubt can turn inward, with the person wondering whether their reaction is the problem rather than the pattern.",
+    "possible_impact_on_receiver": "A creeping doubt about whether they are being unreasonable is common. So is a habit of saving up incidents that each feel too small, and difficulty explaining to others why they are troubled. Some feel isolated by how reasonable everything sounds. Others describe relief when they put the incidents on paper and see the shape for the first time.",
     "response_options": {
       "soft_clarification": "Describe the effect and leave the reason alone, but only if it feels safe: 'I know you were worried. Could we look at how messages are handled, with someone else there?'",
-      "firm_boundary": "Skip arguing over intent. Keep a private, dated list of what has changed in your messages, accounts and contacts, and take it to an advocate before saying anything to the other person about it.",
+      "firm_boundary": "Skip arguing over intent. Keep a private, dated list of what has changed in your messages, accounts and contacts. Take it to an advocate before saying anything to the other person about it.",
       "disengagement": "Stop accepting each explanation as a final answer. You can say 'I hear the reason' and still keep your own copies of documents, accounts and contacts.",
       "support_seeking": "Write the incidents down with dates and take the list to someone outside the situation. Ask whether the direction looks as clear to them as it does on paper.",
       "workplace_or_professional": "Ask for the policy in writing and ask whether it is applied the same way to others. If the answers do not hold, take your dated list to HR or an ombudsperson (an independent complaints officer)."
@@ -580,8 +580,8 @@
     "safety_sensitive": true,
     "safety_note": "Concern and rules are a common explanation for controlling behavior such as reading your messages, tracking your location, holding your documents, or limiting your contact with friends and money. The explanations may lead to you losing access to those things, or you may fear the response to questions. Then take your dated list to a domestic abuse advocate or, at work, an employment lawyer. Keep copies of key documents somewhere safe outside the situation.",
     "misuse_warning": [
-      "Not every explanation is a cover story. Treating all reasons as cover makes honest explanation impossible and makes the label impossible to disprove.",
-      "Because the term describes a pattern, using it on a single incident turns an ambiguous event into an accusation it cannot support."
+      "Not every explanation is a cover story. If all reasons are treated as cover, honest explanation becomes impossible, and so does disproving the label.",
+      "The term describes a pattern, so using it on a single incident turns an ambiguous event into an accusation it cannot support."
     ],
     "how_to_distinguish_from_related": "Denial says the act did not happen; here the act is admitted and given a good reason. Minimization plays down harm after it has been named, while here the explanation arrives before anyone has named any harm. Blame-Shifting places the fault on you; here nobody is at fault, because the explanation says nothing went wrong."
   }
