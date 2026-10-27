@@ -168,7 +168,7 @@
    "The 'small' asks add up to far more than you would ever have agreed to in one go.",
    "You feel more indebted to this person than the facts support."
   ],
-  "repair_check": "Ask what happens when you go back and say you will reconsider the smaller request. Honest acknowledgment sounds like 'you're right, I made it harder to say no.' A repeat of the sequence next month, with the same pair of asks, shows nothing has changed.",
+  "repair_check": "Ask what happens when you go back and say you will reconsider the smaller request. Honest acknowledgment sounds like 'you're right, I made it harder to say no'. A repeat of the sequence next month, with the same pair of asks, shows nothing has changed.",
   "boundary_respect_check": "Try declining both requests and see how the conversation goes. If a clean no to the second ask is received calmly, the first ask was probably just an opening position. If the second no brings guilt about their concession, that is informative.",
   "psychological_mechanism": "People tend to feel they should answer a concession with a concession. A smaller request after a refusal can read as a step toward you, so saying yes feels like fairness. The first, extreme ask also changes the reference point, which can make a moderate request feel light even if it is not.",
   "possible_impact_on_receiver": "People describe agreeing and then feeling oddly cornered, as if a yes had been taken out of them. Some say they could not work out what had bothered them until they separated the second request from the first. Others mention resentment toward a favor that felt requested and also owed.",
@@ -262,7 +262,7 @@
    "Their first figure keeps being the highest or lowest one in the room.",
    "You start asking for less than you wanted, to stay near the range they set."
   ],
-  "repair_check": "If you point out that the first number had no basis, a straight answer would explain how it was set and restate the offer from a fair starting point. Quietly lowering it a bit while insisting the first figure was reasonable moves the number but leaves the habit as it was.",
+  "repair_check": "If you point out that the first number had no basis, a straight answer would explain how it was set. It would also restate the offer from a fair starting point. Quietly lowering it a bit while insisting the first figure was reasonable moves the number. It leaves the habit as it was.",
   "boundary_respect_check": "Try putting your own number on the table before they answer, or ask where theirs came from. Do they engage with the question, or press on as if you had not spoken? Their ease with being challenged tells you most.",
   "psychological_mechanism": "We usually adjust from the first figure we hear, and we stop adjusting too soon. Even a number known to be random can pull judgments toward it. The pull can be stronger when you are short of information or time. A later 'discount' may look like a gain that you earned.",
   "possible_impact_on_receiver": "People describe agreeing to a price or a pay level and later working out that they had accepted the other side's frame. Some feel foolish when they compare notes with others. Some describe a lingering sense of having been handled, even though nothing false was said.",
@@ -275,7 +275,7 @@
   },
   "boundary_script": "\"Thanks for the opening figure. I would like to see how it was worked out, and I've done my own research on the range. Can we start from what comparable cases show?\"",
   "safety_sensitive": false,
-  "safety_note": "A high opening number is a financial pressure and rarely a danger by itself. It matters more where the stakes are heavy and hard to undo, such as a legal settlement, a debt payment plan, a lease, or a pay offer tied to your immigration status. For those, get independent advice from legal aid or a financial counselor before you answer.",
+  "safety_note": "A high opening number is a financial pressure and rarely a danger by itself. It matters more where the stakes are heavy and hard to undo. Examples are a legal settlement, a debt payment plan, a lease, or a pay offer tied to your immigration status. For those, get independent advice from legal aid or a financial counselor before you answer.",
   "misuse_warning": [
    "Calling every opening price 'anchoring' can make normal negotiation look like manipulation. You may then be unable to bargain at all.",
    "Accusing someone of anchoring when they simply quoted a figure they believe in shuts down a fair talk."
@@ -357,7 +357,7 @@
    "The highs are what you stay for and the lows are what you apologize for."
   ],
   "repair_check": "Repair in this case shows up as the pace itself changing. Ordinary days appear, and a request to slow down is met with agreement and not a new crisis. A moving apology in the middle of another peak does not change the rhythm.",
-  "boundary_respect_check": "A quiet evening alone is a small test. Someone who respects the request lets it be quiet, even if disappointed. If things heat up the moment you ask for calm, or a fresh crisis lands at your door, your request is being met with more flooding.",
+  "boundary_respect_check": "A quiet evening alone is a small test. Someone who respects the request lets it be quiet, even if disappointed. If things heat up the moment you ask for calm, that is more flooding. The same goes for a fresh crisis landing at your door.",
   "psychological_mechanism": "When feelings run very high, thinking tends to narrow and people lean on gut sense and the wish to end the discomfort. Strong highs followed by relief can be mistaken for deep bonding, and a sense of urgency can be read as proof of love. Without calm stretches, there may be few chances to compare what is said with what is done.",
   "possible_impact_on_receiver": "Whirlwind relationships are often remembered as exhausting and thrilling in the same breath. Some report poor sleep, lost touch with friends and a fog about what they actually wanted. Some say they only saw the pace once they had a quiet month for the first time.",
   "response_options": {
@@ -651,7 +651,7 @@
   },
   "boundary_script": "\"I notice I am talking myself out of this before anyone has said a word. That is an old habit, not today's facts. I am going to send the application and see what really happens.\"",
   "safety_sensitive": false,
-  "safety_note": "Holding yourself back is a painful pattern but not by itself a danger. It deserves more care if it comes with hopelessness or thoughts of self-harm, or if you still live or work where being visible really is punished. In that case, talk to a counselor, a doctor or a crisis line, and think about what makes your present situation safe.",
+  "safety_note": "Holding yourself back is a painful pattern but not by itself a danger. It deserves more care if it comes with hopelessness or thoughts of self-harm. It also deserves more care if you still live or work where being visible really is punished. In that case, talk to a counselor, a doctor or a crisis line. Think about what makes your present situation safe.",
   "misuse_warning": [
    "Naming someone else's hesitation as 'pre-punishment' can dismiss a reasonable decision they made for sound reasons.",
    "Treating all caution as an old wound can push a person to take risks that are not safe for them."

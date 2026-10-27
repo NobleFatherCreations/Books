@@ -6,7 +6,7 @@
     "plain_language_summary": "Your options get closed off or made to look unworkable, one at a time. In the end, the choice someone else would prefer is the only one left.",
     "why_this_matters": "No demand is made, so there is nothing to push back on. By the time you notice, you may have agreed to something you never really picked. When you ask how you got here, there is no single moment to point to.",
     "what_it_is": [
-      "Alternatives removed in practice, such as an account closed, a ride not offered, a form never handed over, or a deadline you were not told about.",
+      "Alternatives removed in practice. Think of an account closed, a ride not offered, a form never handed over, a deadline nobody told you about.",
       "Alternatives made to sound unworkable by how they are described. One choice sounds sensible, and the rest sound foolish or costly.",
       "The preferred option made easiest, as the default, the one already filled in, scheduled or paid for.",
       "Information held back or sorted so you cannot compare, such as quotes you never see.",
@@ -82,7 +82,7 @@
     "psychological_mechanism": "We usually choose from what is in front of us and seldom go looking for what is missing. When alternatives are removed or described as costly, the remaining option may look like your own conclusion. No one ever asked you for anything. Objecting afterwards is hard, because you can recall agreeing but not choosing.",
     "possible_impact_on_receiver": "Many report a puzzled sense of having said yes to something they never wanted. They have trouble explaining how it happened. Some feel foolish for not looking harder. Others say they started to distrust their own judgment. Some stopped making plans, because the plans never seemed to survive the facts they were handed.",
     "response_options": {
-      "soft_clarification": "Ask for the missing options by name: 'Could we write down every way this could go, including the ones you think are unlikely, before we settle on one?'",
+      "soft_clarification": "Ask for the missing options by name. You could say: 'Could we write down every way this could go, including the ones you think are unlikely, before we settle on one?'",
       "firm_boundary": "Keep the decision open: 'I'm not ready to treat that as the only option. I'd like to look into one or two others myself before I answer.'",
       "disengagement": "Without announcing anything, keep a private note of which options disappeared, when, and who said so, somewhere only you can reach. Weigh big decisions about housing or money quietly, with an advocate.",
       "support_seeking": "Describe the situation to someone outside it, or to an advocate, and ask them to list the options they see. If their list is longer than yours, that is useful information.",
@@ -90,7 +90,7 @@
     },
     "boundary_script": "\"I'd like to see all the options laid out side by side, including the ones that look unlikely. Could we list what each one involves, and then I'll take it from there?\"",
     "safety_sensitive": true,
-    "safety_note": "The picture changes when the closed options involve money, housing, documents, medical care or contact with other people, and the person closing them is the one who controls those things. Watch for being told you could not manage elsewhere, or being unable to see accounts or papers. Speak with a domestic abuse advocate or legal aid service before changing anything, and plan any change privately.",
+    "safety_note": "The picture changes when the closed options involve money, housing, documents, medical care or contact with other people. It matters most when the person closing them is the one who controls those things. Watch for being told you could not manage elsewhere, or being unable to see accounts or papers. Speak with a domestic abuse advocate or legal aid service before changing anything, and plan any change privately.",
     "misuse_warning": [
       "If you call it every time an option you liked becomes unavailable, landlords, budgets and bad luck start to look like someone's strategy. Check first whether the limit is real and can be verified.",
       "If you tell someone who gave you honest, strongly worded advice that they restricted your choices, a plain disagreement can become a charge."
@@ -187,7 +187,7 @@
     },
     "boundary_script": "\"I was glad to do the first part, and I'm treating this as a new request. Can you tell me what the whole thing involves? I'll decide about this part once I can see that.\"",
     "safety_sensitive": false,
-    "safety_note": "On its own, this is a pressure pattern, not a danger sign. It changes when the steps start to involve money, signing legal papers, sexual activity or secrecy. It also changes when stopping brings threats. Before agreeing to anything with legal or financial weight, show the papers to someone outside the situation, such as a legal aid service or a trusted adviser.",
+    "safety_note": "On its own, this is a pressure pattern, not a danger sign. It changes when the steps start to involve money, signing legal papers, sexual activity or secrecy. It also changes when stopping brings threats. Show the papers to someone outside the situation before agreeing to anything with legal or financial weight. This could be a legal aid service or a trusted adviser.",
     "misuse_warning": [
       "A follow-up request after a favor is not automatically a trap. Applying the label to ordinary friends can make it hard to ask for or give help at all.",
       "Naming a sequence tells you what happened, not what anyone planned. Treating it as proof of a plan turns a description into an accusation."

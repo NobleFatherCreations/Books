@@ -465,7 +465,7 @@
       "Old friends find you harder to talk with, because your words have changed.",
       "You begin labeling other people's questions the way yours were labeled."
     ],
-    "repair_check": "Real change would let a doubt be stated plainly and answered on its merits, with outside sources welcome and no label put on the person who asked. Kind words that keep the same labels for disagreement leave the structure untouched.",
+    "repair_check": "Real change would let a doubt be stated plainly and answered on its merits. Outside sources would be welcome, and no label would be put on the person who asked. Kind words that keep the same labels for disagreement leave the structure untouched.",
     "boundary_respect_check": "Ask one plain question, such as where a claim comes from, and see how the conversation goes. An open reply names sources and tolerates 'I'm not sure yet'. A reply that questions your loyalty, state of mind or commitment treats the question itself as the problem.",
     "psychological_mechanism": "Thinking happens in whatever words are available. If a framework supplies the only words for a doubt, such as 'weakness' or 'attack', the doubt may look like evidence against yourself. Belonging, approval and meaning are often at stake. That makes agreeing rewarding and questioning costly, until checking things independently starts to seem unsafe or disloyal.",
     "possible_impact_on_receiver": "Some report an inner censor that stops a thought before it forms, or find that their own words for feelings have faded. Others describe relief on meeting outside language that fits their experience, along with grief and anger. Contact with old friends can feel strange once the shared vocabulary is gone.",
@@ -478,7 +478,7 @@
     },
     "boundary_script": "\"This is still sinking in for me, and a bit more reading would help before I decide. Where does that come from?\"",
     "safety_sensitive": true,
-    "safety_note": "Danger signals include being cut off from outside contacts, and risking housing, income or children for disagreeing. Others are being told that going elsewhere means ruin, or being watched for doubt. Keep your questions low-key and your plans to yourself. Contact a counselor experienced with high-control groups, or legal aid if custody or housing is at stake, and work out any next step privately with them.",
+    "safety_note": "Danger signals include being cut off from outside contacts, and risking housing, income or children for disagreeing. Others are being told that going elsewhere means ruin, or being watched for doubt. Keep your questions low-key and your plans to yourself. Contact a counselor experienced with high-control groups, or legal aid if custody or housing is at stake. Work out any next step privately with them.",
     "misuse_warning": [
       "If you call any community with its own vocabulary 'thought control', you dismiss members who are there freely and are glad to be.",
       "The label describes how doubt is handled, so it should not be used to mean that a belief is false."
@@ -486,9 +486,9 @@
     "how_to_distinguish_from_related": "Loyalty Binds makes silence the price of belonging. Thought control supplies the vocabulary that makes questions sound like symptoms. Self-Gaslighting Induction is doubting your memory of events. Here the doubt is over whether you may think a thought at all. Learned Helplessness tells you that you cannot cope alone, while thought control tells you that your own reading cannot be trusted."
   },
   "Phobia Indoctrination": {
-    "short_definition": "Intense, out-of-proportion dread attached to actions such as leaving, disagreeing or trusting outsiders, until avoiding them becomes a bodily reflex instead of a reasoned choice.",
-    "core_meaning": "Intense, out-of-proportion dread attached to actions such as leaving, disagreeing or trusting outsiders, until avoiding them becomes a bodily reflex instead of a reasoned choice.",
-    "expanded_definition": "Phobia indoctrination is dread tied to specific actions. It is built through repeated frightening stories, warnings and reactions, until even thinking about the action brings panic. The actions are usually ones that would widen a person's independence: leaving, disagreeing, spending time apart, trusting outsiders. Honest warnings about real risks are not this. It stands out when the feared outcome is far larger than any evidence, is described as certain, and lines up with the very actions that would widen your world. The fear is felt in the body, so knowing it is out of proportion may not switch it off.",
+    "short_definition": "Intense, out-of-proportion dread attached to actions like leaving, disagreeing or trusting outsiders, until avoiding them is a bodily reflex and not a reasoned choice.",
+    "core_meaning": "Intense, out-of-proportion dread attached to actions like leaving, disagreeing or trusting outsiders, until avoiding them is a bodily reflex and not a reasoned choice.",
+    "expanded_definition": "Phobia indoctrination is dread tied to specific actions. It is built through repeated frightening stories, warnings and reactions, until even thinking about the action brings panic. The actions are usually ones that would widen a person's independence: leaving, disagreeing, spending time apart, trusting outsiders. Honest warnings about real risks are not this. It stands out when the feared outcome is far larger than any evidence and is described as certain. It also lines up with the very actions that would widen your world. The fear is felt in the body, so knowing it is out of proportion may not switch it off.",
     "plain_language_summary": "After so many scary stories about one choice, just thinking of it brings panic. Your body reacts even when your mind knows the danger isn't real.",
     "why_this_matters": "Avoidance becomes a body reaction instead of a reasoned choice. A fear response keeps some options ruled out even after you have decided the fear was unwarranted. Choices that should be open stay shut.",
     "what_it_is": [
@@ -564,14 +564,14 @@
     ],
     "repair_check": "Change would look like the frightening stories being withdrawn or corrected. It would include an admission that they were exaggerated, and support for the very action once feared. Gentle reassurance while the warnings continue is not that. On your side, small planned steps with a therapist's help can loosen the response.",
     "boundary_respect_check": "Mention the feared action as a mere possibility and watch the reply. Facts, questions and help with a plan show a warning that is about the risk. The same story repeated, louder or with sudden coldness, shows a warning that is not open to discussion.",
-    "psychological_mechanism": "Fear can be learned from stories as well as from experience. Repeated vivid warnings, especially from someone you trust or depend on, can pair a particular action with a threat response, so the body reacts before reasoning begins. Avoiding the action brings relief. That strengthens the link and stops you from learning that nothing bad happens.",
+    "psychological_mechanism": "Fear can be learned from stories as well as from experience. Repeated vivid warnings, especially from someone you trust or depend on, can pair a particular action with a threat response. Then the body reacts before reasoning begins. Avoiding the action brings relief. That strengthens the link and stops you from learning that nothing bad happens.",
     "possible_impact_on_receiver": "Ordinary decisions can bring panic, nausea or dread, along with shame at being unable to act on what you have reasoned out. Some stop making plans, because the fear is already waiting. Others realize years later that a whole set of options never seemed to be on the menu. They may grieve for the choices that went unmade.",
     "response_options": {
-      "soft_clarification": "Ask for the source: 'What makes you sure that would happen?' Listen for specifics, and notice whether the answer gives information or only repeats the claim.",
+      "soft_clarification": "Ask for the source, for example: 'What makes you sure that would happen?' Listen for specifics. Notice whether the answer gives information or only repeats the claim.",
       "firm_boundary": "Keep your own pace with 'I hear that you're worried. I'm going to look into it myself before I decide.'",
       "disengagement": "When a story starts another loop, steer toward a neutral task and let it drop without a debate, then fact-check on your own later.",
       "support_seeking": "Test the claim with someone outside the relationship, such as a doctor, a lawyer, a counselor or a friend from before. Ask what the real risk is. A trauma-informed therapist can also help with the body's fear response.",
-      "workplace_or_professional": "If a manager's scare stories about a transfer or training keep you in place, ask HR or a mentor for the actual policy in writing. Check the facts independently."
+      "workplace_or_professional": "If a manager's scare stories about a transfer or training keep you in place, ask HR or a mentor. Ask for the actual policy in writing. Check the facts independently."
     },
     "boundary_script": "\"I know you're worried. Let me check the facts myself so I can feel sure either way, and we can talk again after.\"",
     "safety_sensitive": true,

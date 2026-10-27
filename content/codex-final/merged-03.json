@@ -102,11 +102,11 @@
     "short_definition": "Someone embarrasses or puts down a person in front of others, or puts private matters on show, so the audience adds to the sting.",
     "core_meaning": "Someone embarrasses or puts down a person in front of others, or puts private matters on show, so the audience adds to the sting.",
     "expanded_definition": "Public humiliation is a correction, joke, revealed secret, story or post aimed at one person where others can see or hear it. When a secret or private detail is revealed, it often goes by the name public exposure. Feedback given in company is sometimes unavoidable, so context matters. It raises concern when the audience seems to be part of the point. It also raises concern when the same words would be gentler in private, or when it keeps landing on one person.",
-    "plain_language_summary": "You are put down, corrected or laughed at, or something private is shown to others, in a way that would have been handled differently one on one. The audience is what makes it hurt.",
+    "plain_language_summary": "You are put down, corrected or laughed at, or something private is shown to others. It would have been handled differently one on one. The audience is what makes it hurt.",
     "why_this_matters": "An audience makes the injury last in a way private criticism does not. Everyone present carries a version of it afterwards, including the person it was about. It cannot be taken back privately later, and it can change how the group treats you.",
     "what_it_is": [
       "Criticism, ridicule or private information put on show where other people can see or hear it.",
-      "It can be a correction in a meeting, a story told against you at dinner, a group message quoting your private words, or a post that names you.",
+      "It can be a correction in a meeting or a story told against you at dinner. It can be a group message quoting your private words, or a post that names you.",
       "It lasts longer than a private remark, because witnesses remember it and the person singled out remembers them remembering.",
       "Seen in workplaces, classrooms, families, friend groups and online.",
       "Sometimes the chosen venue has the largest audience, such as an all-staff call or a holiday table, even though a quiet word was possible."
@@ -121,7 +121,7 @@
       "\"Since we're all here, we might as well go through your review.\""
     ],
     "what_it_is_not": [
-      "Feedback that is needed at once and has to be given where others happen to be, such as a safety problem in a room full of people.",
+      "Feedback that is needed at once and has to be given where others are. An example is a safety problem in a room full of people.",
       "Settings where feedback is normal and given evenly to everybody, such as a design critique. These humiliate nobody.",
       "An awkward moment that came from poor timing, or from carelessness with something private, such as an offhand mention at a party.",
       "A public award or roast that the person agreed to and enjoys.",
@@ -180,7 +180,7 @@
     "psychological_mechanism": "People are highly attuned to how their group sees them. Being lowered in front of others hurts their standing as well as their feelings. Witnesses add to it by laughing, going quiet or looking away. A person may begin to expect it, and the dread alone can change how they speak and act around others.",
     "possible_impact_on_receiver": "People describe heat in the face, loss of words, replaying the moment for days, and avoiding the people who saw it. Some say the worst part was a bystander's silence. Many talk about shrinking in later meetings, and about checking whether anyone still remembers.",
     "response_options": {
-      "soft_clarification": "Ask for privacy next time, in a matter-of-fact tone: \"If there's a problem with my work, I'd find it easier to hear it one on one.\"",
+      "soft_clarification": "Ask for privacy next time, in a matter-of-fact tone. You could say: \"If there's a problem with my work, I'd find it easier to hear it one on one.\"",
       "firm_boundary": "Name it lightly, in the moment if you can: \"That was hard to hear in front of everyone. Could we pick it up later, just the two of us?\"",
       "disengagement": "Leave the room, the chat or the table for a few minutes without explanation. Return only when the subject has moved on.",
       "support_seeking": "Talk to someone who was there, and ask what they saw and heard. Knowing that a witness found it unfair can lift the doubt you carry.",
@@ -191,14 +191,14 @@
     "safety_note": "Humiliation is mostly about standing and dignity, but it can sit alongside danger. Watch for intimate images or private details shared without consent, or hints that something will be revealed unless you comply. Exposure that follows you from the household into work or online spaces is another sign. Save dated screenshots. Before replying, ask a legal aid service or an advocate who handles image-based or domestic abuse about next steps.",
     "misuse_warning": [
       "Calling a fair, public correction humiliation can let real problems with performance go unaddressed. The label fits when the audience is the point, not when the venue is.",
-      "If you tell a group that someone humiliated you as a way to turn people against them, that can become a humiliation of its own."
+      "Telling a group that someone humiliated you can turn people against them. If that is the aim, it can become a humiliation of its own."
     ],
     "how_to_distinguish_from_related": "Shame Installation works on your sense of being deeply inadequate and can happen in private, whereas public humiliation relies on witnesses. A Smear Campaign spreads distorted claims about you to build a reputation over time. Public humiliation is a moment played to the people in the room or the group chat. Humiliation Rituals dress the degradation as initiation or discipline and say the pain proves it is working."
   },
   "Setting Up to Fail": {
-    "short_definition": "Giving someone a task or standard they are unlikely to meet with what they are given, then treating the miss as proof that they are inadequate.",
-    "core_meaning": "Giving someone a task or standard they are unlikely to meet with what they are given, then treating the miss as proof that they are inadequate.",
-    "expanded_definition": "Being set up to fail takes two shapes. One is a single assignment with the odds stacked, such as a deadline too short, a budget too small or information held back. The other is a standing bar kept out of reach by vague, shifting or contradictory criteria, often called impossible metrics. Hard tasks are normal. Look for requests for what is needed being brushed aside, a finish line that moves, and the miss later cited as a fact about you.",
+    "short_definition": "Giving someone a task or standard they are unlikely to meet with the means given, then treating the miss as proof they are inadequate.",
+    "core_meaning": "Giving someone a task or standard they are unlikely to meet with the means given, then treating the miss as proof they are inadequate.",
+    "expanded_definition": "Being set up to fail takes two shapes. One is a single assignment with the odds stacked. Examples are a deadline too short, a budget too small or information held back. The other is a standing bar kept out of reach by vague, shifting or contradictory criteria, often called impossible metrics. Hard tasks are normal. Look for requests for what is needed being brushed aside, and for a finish line that moves. Also look for the miss later being cited as a fact about you.",
     "plain_language_summary": "You get a job or a target that few people could meet with what you were given. When you fall short, the blame lands on you and not on the set-up.",
     "why_this_matters": "Conditions disappear from the account and only the outcome remains. A predictable failure then becomes lasting evidence about the person who was handed it. Effort rises while the record of misses grows. That record can be quoted in reviews and decisions about you long after the conditions are forgotten.",
     "what_it_is": [
@@ -222,7 +222,7 @@
     "what_it_is_not": [
       "Hard tasks with real constraints, which are ordinary work, and resources that nobody has, rather than ones withheld from you.",
       "Something that turned out harder than anyone anticipated, with nobody having arranged it.",
-      "A stretch goal or pilot that is openly described as aspirational and has a fallback in place, so a miss is understood to be fine.",
+      "A stretch goal or pilot that is openly described as aspirational and has a fallback in place. A miss is understood to be fine.",
       "A demanding bar that others in your role have met under the same conditions, or that you have cleared before.",
       "Clumsy delegation by someone who underestimated the task and revises the plan when told.",
       "Hard but specific performance management, with written criteria and support."
@@ -276,10 +276,10 @@
       "You work longer hours each quarter for results that are no better received.",
       "Colleagues or family members remember the failure but not its conditions."
     ],
-    "repair_check": "Repair starts with the retelling and the bar. A person who has noticed this goes back to the people who heard you failed. They correct the account to include the deadline and missing staff, and give the next assignment the resources it needs or a written pass line. Praise for effort that leaves the record unchanged is different.",
+    "repair_check": "Repair starts with the retelling and the bar. A person who has noticed this goes back to the people who heard you failed. They correct the account to include the deadline and missing staff. They give the next assignment the resources it needs or a written pass line. Praise for effort that leaves the record unchanged is different.",
     "boundary_respect_check": "Watch the next request you send. Ask in writing for what the task needs, or for the definition of done. A yes, a partial yes with a reason, or a clear no that is noted in the plan means you were taken seriously. A cheerful 'you'll manage' with no reply is another answer.",
     "psychological_mechanism": "Failure is often read as information about the person, and the conditions that produced it fade from memory faster than the outcome. If whoever set the task also describes the result, that account can become the accepted one. When a standard cannot be reached, effort stops turning into success. People often turn the blame inward because the standard was presented as reasonable.",
-    "possible_impact_on_receiver": "Some replay the project to find what they should have done, work longer for less sense of achievement, and dread review days and the next hand-off. Others start to believe they are bad at jobs they once did well, or stop volunteering ideas. Still others say that writing down the original conditions brought a grim relief, because the failure looked different on paper.",
+    "possible_impact_on_receiver": "Some replay the project to find what they should have done. Some work longer for less sense of achievement, and dread review days and the next hand-off. Others start to believe they are bad at jobs they once did well, or stop volunteering ideas. Still others say that writing down the original conditions brought a grim relief. The failure looked different on paper.",
     "response_options": {
       "soft_clarification": "Ask about the gap before starting: \"This needs three people and I have one, with two weeks. What would you like me to put first?\"",
       "firm_boundary": "Put your concerns on record: \"I'll start, and I want it noted that without the client data this deadline is not realistic.\"",
@@ -289,7 +289,7 @@
     },
     "boundary_script": "\"I want this to go well, so I'm saying now that I can't finish it by Friday without the sales figures. Could we agree what counts as done, in writing, and when I can have the figures?\"",
     "safety_sensitive": false,
-    "safety_note": "This is rarely a physical danger, but the record of misses can feed probation, dismissal, or job decisions that affect an immigration status or housing tied to the job. Keep the written brief, your flags and the outcome together. Ask a union representative, employment lawyer or legal aid service for advice before attending a disciplinary meeting alone.",
+    "safety_note": "This is rarely a physical danger. But the record of misses can feed probation or dismissal. It can also feed job decisions that affect an immigration status or housing tied to the job. Keep the written brief, your flags and the outcome together. Ask a union representative, employment lawyer or legal aid service for advice before attending a disciplinary meeting alone.",
     "misuse_warning": [
       "Calling every hard assignment a set-up can stop you learning from a failure that was partly yours. Ask whether the conditions were the same for others.",
       "Treating a manager's vague wording as proof of a plan against you ignores that vagueness is often just an unfinished idea. Ask for specifics in writing first."

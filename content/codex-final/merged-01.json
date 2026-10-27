@@ -196,11 +196,11 @@
     "how_to_distinguish_from_related": "Denial says it did not happen. Minimization says it did, and was nothing. Tone Policing leaves the size alone and objects to how you said it. Blame-Shifting accepts the event and its size but puts the cause on you. Gaslighting disputes whether you remember correctly, whereas minimization lets the memory stand and shrinks what it means."
   },
   "Victim Role Reversal": {
-    "short_definition": "Someone presents themselves as the injured party when asked to answer for harm, so comfort and sympathy move away from the person who was actually hurt.",
-    "core_meaning": "Someone presents themselves as the injured party when asked to answer for harm, so comfort and sympathy move away from the person who was actually hurt.",
-    "expanded_definition": "Victim role reversal happens when someone asked to account for a harm answers by describing their own suffering. The person harmed then ends up comforting them or apologizing. It is also called a role reversal trap. The hurt they describe may be real. What marks it is the effect: a talk about what was done to you turns into a talk about how awful this is for them. One tearful reaction proves little. Repetition is what matters.",
+    "short_definition": "Someone calls themselves the injured party when asked about harm, so sympathy shifts away from the person actually hurt.",
+    "core_meaning": "Someone calls themselves the injured party when asked about harm, so sympathy shifts away from the person actually hurt.",
+    "expanded_definition": "Victim role reversal happens when someone asked to account for a harm answers by describing their own suffering. The person harmed then ends up comforting them or apologizing. It is also called a role reversal trap. The hurt they describe may be real. The effect is what marks it. A talk about what was done to you turns into a talk about how awful this is for them. One tearful reaction proves little. Repetition is what matters.",
     "plain_language_summary": "After hurting you, they become the hurt one. You, and maybe others, end up caring for them while what happened to you is dropped.",
-    "why_this_matters": "Sympathy that should have gone to the person harmed goes elsewhere. That person ends up soothing and apologizing. Onlookers form an impression that is very hard to correct later, and the person harmed may start to doubt they have the right to be upset.",
+    "why_this_matters": "Sympathy that should have gone to the person harmed goes elsewhere. That person ends up soothing and apologizing. Onlookers form an impression that is very hard to correct later. The person harmed may start to doubt they have the right to be upset.",
     "what_it_is": [
       "A swap in who is treated as wounded, usually after someone is told how their behavior landed.",
       "Often aimed at an audience, such as family, a friend group, a team or a congregation, as well as at the person harmed.",
@@ -276,11 +276,11 @@
     "repair_check": "Genuine repair starts with them naming the original harm in specific terms, before they bring in their own distress. It also means the person harmed is no longer asked to carry their feelings. Warm words about how sorry they are that you are upset do not do this.",
     "boundary_respect_check": "Ask yourself whether, once you said you needed to finish your point, you were allowed to. Notice if their sadness deepens until you stop, or if they can sit with discomfort while you speak. The first leaves your point unheard; the second does not.",
     "psychological_mechanism": "Most people are quick to comfort someone who is visibly distressed, and slow to keep pressing a point while that distress shows. When someone shows suffering at the moment of accountability, that habit can pull attention away from the harm. Onlookers who only hear the distressed version often settle on it. A person who was harmed may feel guilty for causing visible pain.",
-    "possible_impact_on_receiver": "Accounts often mention guilt at having 'made them cry', hesitation to bring anything up again, and anger or confusion at being cast as the aggressor. Some recall ending up as the soother, others as the one whose version nobody asked for. Over time a few pull back from friends or family who only heard one side.",
+    "possible_impact_on_receiver": "Accounts often mention guilt at having 'made them cry'. Some hesitate to bring anything up again. Others feel anger or confusion at being cast as the aggressor. Some recall ending up as the soother, others as the one whose version nobody asked for. Over time a few pull back from friends or family who only heard one side.",
     "response_options": {
       "soft_clarification": "Acknowledge the pain and keep your point: 'I can see this is really hard for you. I still need to finish telling you what happened to me.'",
       "firm_boundary": "Decline the comforting role gently, for now: 'I do care that you're hurting. Can we first go through what happened, and then I'll listen?'",
-      "disengagement": "If the tears or accusations take over, ask for a pause: 'Let's stop for today and come back to this tomorrow, when we've both slept.'",
+      "disengagement": "Ask for a pause if the tears or accusations take over. You could say: 'Let's stop for today and come back to this tomorrow, when we've both slept.'",
       "support_seeking": "Tell your account to someone before the other version spreads. Ask them to hear the whole thing before saying anything about the other person.",
       "workplace_or_professional": "At work, write down what happened, with dates, before you meet a manager or HR. Ask for a process that records both accounts separately."
     },

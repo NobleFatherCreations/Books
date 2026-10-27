@@ -95,8 +95,8 @@
     "core_meaning": "Someone acts as if they do not know or cannot follow something, so a responsibility is dropped or a hard conversation is put off."
   },
   "Preemptive Accusation": {
-    "short_definition": "Accusing someone of a fault before they speak, often the very fault the accuser expects to hear about, so their later account sounds like a copy.",
-    "expanded_definition": "Preemptive accusation puts a charge on the record first. The accuser may name the other person's supposed fault before any concern has been voiced, sometimes the very thing they expect to be told about themselves. When the other person later speaks, the account already sounds familiar, or like payback. One early complaint can be a coincidence, since two people often notice the same problem. Look at the timing. The early charge keeps landing just before a conversation that could have gone the other way.",
+    "short_definition": "Someone accuses another person of a fault first, often the very one they expect to hear about, so the reply sounds like a copy.",
+    "expanded_definition": "Preemptive accusation puts a charge on the record first. The accuser may name the other person's supposed fault before any concern has been voiced. Sometimes it is the very thing they expect to be told about themselves. When the other person later speaks, the account already sounds familiar, or like payback. One early complaint can be a coincidence, since two people often notice the same problem. Look at the timing. The early charge keeps landing just before a conversation that could have gone the other way.",
     "plain_language_summary": "They accuse you of something first, often something they are doing themselves. Later, when you raise it, it sounds like you are just copying them or getting even.",
     "why_this_matters": "By the time the other person speaks, the ground has been prepared. An accurate account arrives sounding like retaliation for one already made, and the person raising it spends their effort defending their motives.",
     "what_it_is": [
@@ -174,7 +174,7 @@
     "possible_impact_on_receiver": "There can be anger at learning an accusation was already circulating, and anxiety about how to raise anything without sounding like payback. Some stay silent, feeling the chance to tell their story has passed. Standing with people who never heard the other side may slip.",
     "response_options": {
       "soft_clarification": "Name what you are seeing without attacking: 'You raised this about me before I'd said anything. Can I tell you what I was going to bring up?'",
-      "firm_boundary": "Ask to take the topics one at a time: 'I'll answer your point, and then I'd like mine heard on its own, not as a reaction.'",
+      "firm_boundary": "Ask to take the topics one at a time. You could say: 'I'll answer your point, and then I'd like mine heard on its own, not as a reaction.'",
       "disengagement": "If every attempt to raise your concern gets 'I said you would', stop that line and put your account in writing for later.",
       "support_seeking": "Tell someone neutral your account, with dates, before the first accusation hardens, and ask them to note when you raised it.",
       "workplace_or_professional": "Keep dated notes of when you first noticed the problem. In any report, say when your concern began and why it was not voiced sooner."
@@ -187,7 +187,7 @@
       "If you treat every early complaint as strategy, you ignore that the person who speaks first is sometimes simply right."
     ],
     "how_to_distinguish_from_related": "Whataboutism answers an accusation you have made by pointing at some other fault of yours. Preemptive accusation comes before yours exists. DARVO needs you to have accused them first, so that they can deny and reverse it. Blame-Shifting also follows an act or a complaint. This one is defined by its timing: the charge is placed ahead of the account it is meant to cover.",
-    "core_meaning": "Accusing someone of a fault before they speak, often the very fault the accuser expects to hear about, so their later account sounds like a copy."
+    "core_meaning": "Someone accuses another person of a fault first, often the very one they expect to hear about, so the reply sounds like a copy."
   },
   "Complaint Weaponization": {
     "short_definition": "Using a complaint, formal or informal and often filed first, to shape how a later, truthful report from the other person will be received.",
@@ -263,20 +263,20 @@
       "Your later reports are met with 'you also have a complaint against you' by more than one person.",
       "You begin to feel that you cannot raise anything without it being read as payback."
     ],
-    "repair_check": "Repair would mean the complaint is corrected or withdrawn where it was false, and both accounts are heard by the same process. It is not repair when someone tells you they 'only wanted to be heard' but leaves the original file in place and your report still tied to it.",
+    "repair_check": "Repair would mean the complaint is corrected or withdrawn where it was false. Both accounts would be heard by the same process. Someone may tell you they 'only wanted to be heard'. If they leave the original file in place and your report still tied to it, that is not repair.",
     "boundary_respect_check": "Ask for the two reports to be handled separately and on their merits. Watch whether the process, and the other person, agree. If your report is still described as 'a response', the request has not been respected.",
     "psychological_mechanism": "Institutions and groups often treat the first record of a conflict as the baseline, and compare everything after it. A person who files early can gain from that habit. A second account then has to overcome both the content of the first and the suspicion of retaliation. Listeners also often assume that someone who reports quickly is more worried, and so more credible.",
-    "possible_impact_on_receiver": "Learning a complaint exists can bring a drop in the stomach, fear that nothing said will be taken at face value, and weeks of strain while a process runs. Some stop reporting because it seems futile. Worry about a job or family arrangement while waiting to be heard is common.",
+    "possible_impact_on_receiver": "Learning a complaint exists can bring a drop in the stomach. You may fear that nothing you say will be taken at face value. Weeks of strain can follow while a process runs. Some stop reporting because it seems futile. Worry about a job or family arrangement while waiting to be heard is common.",
     "response_options": {
       "soft_clarification": "Ask neutrally what was filed and when: 'Can you tell me what the complaint says and when it was made? I'd like to respond to it properly.'",
-      "firm_boundary": "Ask that both accounts be handled on their own merits: 'I'd like my report treated as its own matter and not as a reaction to theirs.'",
+      "firm_boundary": "Ask that both accounts be handled on their own merits. You could say: 'I'd like my report treated as its own matter and not as a reaction to theirs.'",
       "disengagement": "Stop discussing the incident with the other person directly. Route all further contact through the official process.",
       "support_seeking": "Before you reply, speak with a union representative, an employment or tenant advisor, or a legal aid service. Bring your dated notes.",
       "workplace_or_professional": "Put your own account in writing as soon as you can, with dates, witnesses and documents. Ask the process, in writing, to record when your concern first arose."
     },
     "boundary_script": "\"I understand a report was made. I'd like it investigated fairly, and I'd also like my own account looked at as a separate matter, with the dates of what happened set out in writing.\"",
     "safety_sensitive": true,
-    "safety_note": "A complaint can put your income, housing, custody of children or immigration status at risk, so treat a surprise filing as more serious than an ordinary dispute. Watch for threats to report you if you speak, or a deadline to respond. Get your own dated records together at once. Contact an employment lawyer, tenant advocate, legal aid clinic or union representative before replying.",
+    "safety_note": "A complaint can put your income, housing, custody of children or immigration status at risk. Treat a surprise filing as more serious than an ordinary dispute. Watch for threats to report you if you speak, or a deadline to respond. Get your own dated records together at once. Contact an employment lawyer, tenant advocate, legal aid clinic or union representative before replying.",
     "misuse_warning": [
       "If you use this label against someone who reported first, in good faith, you can discourage people from reporting real problems.",
       "Saying 'you filed first so you must be doing this' treats timing as proof, and timing alone does not show it."
@@ -365,7 +365,7 @@
     "response_options": {
       "soft_clarification": "Separate tone from topic: 'I know I'm upset, and I still need an answer to the question I asked about Thursday.'",
       "firm_boundary": "Decline the tone review: 'My voice is not the subject. I'm happy to talk more quietly if you'll answer what I asked.'",
-      "disengagement": "Step away on your own terms, with a time to return: 'I'm going to take twenty minutes, and when I come back I'd like us to start with my question.'",
+      "disengagement": "Step away on your own terms, with a time to return. Say: 'I'm going to take twenty minutes, and when I come back I'd like us to start with my question.'",
       "support_seeking": "Describe what was said, not the tone, to someone you trust, and ask whether your concern sounds reasonable on its own.",
       "workplace_or_professional": "Write your concern in an email, with the specific question, so the response is judged on content, not on how either of you sounded."
     },
@@ -409,7 +409,7 @@
       "The two demands apply to the same moment, and obeying one directly breaks the other.",
       "You have tried both options and been faulted for each.",
       "When you name the contradiction, the answer is that you are being difficult.",
-      "The standard seems to move to whatever you did not just do.",
+      "The standard seems to move to whatever you did not do this time.",
       "The consequences of 'failure' are real, such as cold treatment, anger or loss of something you need."
     ],
     "this_may_not_be_it_when": [
@@ -434,7 +434,7 @@
       "Is there any response, even a partial one, that has ever been accepted as right?",
       "Do both demands apply to the same situation, or to different ones?",
       "When I point out the conflict, is it acknowledged, or is it treated as another failing?",
-      "Does the criticism follow what I did, or whatever I did not just do?",
+      "Does the criticism follow what I did, or whatever I did not do this time?",
       "Would a neutral person see the two demands as genuinely impossible to satisfy together?"
     ],
     "less_concerning_if": [
@@ -466,9 +466,9 @@
     },
     "boundary_script": "\"You asked me to do two things that can't both happen. I'm not going to guess which is the right one. Tell me which you want, and I'll do it. I won't be criticized for the other.\"",
     "safety_sensitive": false,
-    "safety_note": "Double binds alone are not a safety signal. The risk grows if the person setting them holds power over your home, income, children or immigration status, or if breaking one demand brings threats or physical intimidation. Then keep a record of the exact instructions and what followed. Speak to an advocate or legal aid service who can look at the whole picture.",
+    "safety_note": "Double binds alone are not a safety signal. The risk grows if the person setting them holds power over your home, income, children or immigration status. It also grows if breaking one demand brings threats or physical intimidation. Then keep a record of the exact instructions and what followed. Speak to an advocate or legal aid service who can look at the whole picture.",
     "misuse_warning": [
-      "If you call every mixed message a 'double bind', you can miss that many are just muddled, rushed or the result of real competing needs.",
+      "If you call every mixed message a 'double bind', you can miss what is really going on. Many are just muddled, rushed or the result of real competing needs.",
       "Using the term to refuse any feedback ('you're putting me in a bind') can be a way of avoiding all correction."
     ],
     "how_to_distinguish_from_related": "Minimization makes your reaction seem too big for what happened. Whataboutism turns the conversation to a different past fault. DARVO flips who is accused. A double bind is not about one dispute; it is a rule set where two instructions block each other. The mark is that you cannot comply with one without breaking the other, and no exit is offered.",

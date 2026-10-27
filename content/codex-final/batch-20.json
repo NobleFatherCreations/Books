@@ -195,8 +195,8 @@
     "how_to_distinguish_from_related": "Stalking-by-Notification turns what it sees into questions and accusations, while orbiting says nothing about what it sees. Doxxing publishes private details to other people, but orbiting stays on your own public posts and reaches only you. With the Ghosting-Orbiting Cycle, the contact is gone but the watching, and the occasional warm return, are not."
   },
   "Brigading": {
-    "short_definition": "A group converging on one person's posts, account or messages at once, usually after a shared call to do so, so the sheer volume overwhelms them.",
-    "core_meaning": "A group converging on one person's posts, account or messages at once, usually after a shared call to do so, so the sheer volume overwhelms them.",
+    "short_definition": "A group converging on one person's posts, account or messages at once, usually after a shared call, so the sheer volume overwhelms them.",
+    "core_meaning": "A group converging on one person's posts, account or messages at once, usually after a shared call, so the sheer volume overwhelms them.",
     "expanded_definition": "Brigading is a surge of replies, reports, downvotes, ratings or messages sent to one person or page by people who were pointed there. The pointer is often a post, group chat or forum thread elsewhere. It also happens on review pages, polls and comment sections. What separates it from a pile-on is the shared source and the short window. Each participant may do something small. The weight comes from the sum, which no one can answer one by one.",
     "plain_language_summary": "Dozens or hundreds of people flood one person with replies or reports within hours. Usually a post somewhere else sent them, and nobody could answer them all.",
     "why_this_matters": "Volume arriving at once removes any chance of answering the way you could answer a single message. The platform itself becomes unusable for as long as it lasts. Notifications pile up faster than anyone can read, and a calm reply is buried.",
@@ -274,7 +274,7 @@
     ],
     "repair_check": "If the author of the source post acknowledges the pile-on, removes the call to converge and asks followers to stop, the volume often falls. A quiet deletion while the thread elsewhere keeps running leaves the wave moving. So does an 'I never told anyone to do that' with the link left up.",
     "boundary_respect_check": "Watch the first day after you limit replies or lock the account. If the wave thins and does not move to your email, workplace or another platform, the limit worked. If new accounts appear or the thread starts discussing how to get round it, the limit is being tested.",
-    "psychological_mechanism": "Seeing many people agree can make a view seem more correct, and each participant may feel their own small reply is harmless because they are one of many. The person on the receiving end gets a flood in a short time, which can overload their ability to sort real concerns from noise. The crowd can also look far larger than the number of people actually involved.",
+    "psychological_mechanism": "Seeing many people agree can make a view seem more correct. Each participant may feel their own small reply is harmless because they are one of many. The person on the receiving end gets a flood in a short time. This can overload their ability to sort real concerns from noise. The crowd can also look far larger than the number of people actually involved.",
     "possible_impact_on_receiver": "People describe dreading to open notifications, losing sleep, deleting posts or accounts, and checking the thread to see what comes next. Some describe shame over things they never said. Friends and employers may see screenshots, so some describe worry about work or reputation, and relief once the wave passes or someone speaks up.",
     "response_options": {
       "soft_clarification": "If you were misquoted, post one calm correction with the full original attached and answer no individual replies. People who arrive later can then see the record.",
@@ -285,7 +285,7 @@
     },
     "boundary_script": "\"Here is the original post in full, with what came before it. I'm not answering individual replies.\"",
     "safety_sensitive": true,
-    "safety_note": "If threats, a home address, a workplace name or a family member's name appear in the wave, treat that as a different level of problem from rude replies. Save evidence before blocking. Report it to the platform and, where threats look credible, to the police. Ask a friend you trust to read the messages for you and flag only threats or personal details.",
+    "safety_note": "Look for threats, a home address, a workplace name or a family member's name in the wave. If you see them, treat it as a different level of problem from rude replies. Save evidence before blocking. Report it to the platform and, where threats look credible, to the police. Ask a friend you trust to read the messages for you and flag only threats or personal details.",
     "misuse_warning": [
       "Calling any heavy criticism 'brigading' can dismiss people who disagree with you in good faith. The label needs evidence of a shared call to converge.",
       "If you accuse a named person of organizing a pile-on without a link or screenshot trail, that can start a pile-on of its own."
@@ -375,7 +375,7 @@
     "psychological_mechanism": "Viewers judge quickly from whatever is in front of them, and the cut-away part is invisible, so nobody goes looking for it. An excerpt that fits an opinion already held about someone may feel complete, and anger can travel faster than checking. Feeds also put separate audiences in one place, so a joke made for friends reaches strangers with different norms.",
     "possible_impact_on_receiver": "Learning that a version of you exists that you do not recognize can bring dread. Some feel an urgency to explain to people who have already decided, and take care over everything they put in writing afterwards. Some withdraw from posting. Some describe messages from acquaintances asking about something they never said.",
     "response_options": {
-      "soft_clarification": "Reply under the post with a link to the full original, plus one sentence such as: 'The part before this changes the meaning, so here is the whole thing.'",
+      "soft_clarification": "Reply under the post with a link to the full original. Add one sentence such as: 'The part before this changes the meaning, so here is the whole thing.'",
       "firm_boundary": "Ask the poster to add the full thread or take the excerpt down. Keep it short and do not argue the point with commenters.",
       "disengagement": "Do not rewrite the original post or answer every commenter. One pinned correction on your own page is enough.",
       "support_seeking": "Show a friend who has seen neither version the original and the cropped one, and ask what each says to them. Then ask them to share the original when people ask about it.",
@@ -383,7 +383,7 @@
     },
     "boundary_script": "\"The screenshot leaves out the message I was replying to. Here is the whole conversation. Please add it next to your post, or take the screenshot down.\"",
     "safety_sensitive": false,
-    "safety_note": "A clipped quote circulating is a reputation problem, not a physical one. That changes if the clipped version brings threats, your address or workplace being posted, or calls to people who hold power over your income or housing. Save dated copies of both versions and the replies. Take them to the platform's report tool and, if threats appear, to the police.",
+    "safety_note": "A clipped quote circulating is a reputation problem, not a physical one. That changes if the clipped version brings threats, or your address or workplace being posted. It also changes if it brings calls to people who hold power over your income or housing. Save dated copies of both versions and the replies. Take them to the platform's report tool and, if threats appear, to the police.",
     "misuse_warning": [
       "Saying 'you took it out of context' about every unwelcome quote can protect someone who really did say it. The label needs the missing part to change the meaning.",
       "If a sharer never saw the full conversation, accusing them of manipulation turns a mistake into a charge."

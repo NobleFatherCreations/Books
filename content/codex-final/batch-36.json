@@ -477,7 +477,7 @@
   "Silent Coalitions": {
     "short_definition": "A group leaving one person out through many small, deniable slights, so no single clear incident ever stands out.",
     "core_meaning": "A group leaving one person out through many small, deniable slights, so no single clear incident ever stands out.",
-    "expanded_definition": "A silent coalition is a group that sidelines one member through many small, deniable acts: plans made elsewhere, replies that arrive late, jokes that nobody explains. There is no announcement and often no explicit agreement. The person has nothing concrete to name and may conclude the fault lies with them. Any one slight is ordinary. It starts to look like a coalition when the same person is left out consistently, across settings, while others in the group are not.",
+    "expanded_definition": "A silent coalition is a group that sidelines one member through many small, deniable acts. Examples are plans made elsewhere, replies that arrive late and jokes that nobody explains. There is no announcement and often no explicit agreement. The person has nothing concrete to name and may conclude the fault lies with them. Any one slight is ordinary. It starts to look like a coalition when the same person is left out consistently, across settings. Others in the group are not.",
     "plain_language_summary": "A group keeps one person on the edge through lots of small, hard-to-prove moments. The person starts to think the problem must be them.",
     "why_this_matters": "There is no incident to point at, only a consistent absence, which turns the search for an explanation inward. The person ends up blaming themselves for something nobody will admit to.",
     "what_it_is": [
@@ -647,8 +647,8 @@
     "psychological_mechanism": "People often learn a group's rules by watching what happens to others. Seeing someone punished can teach more than a written policy. Fear of being next can lead to self-censoring before any threat is made. Observers may also distance themselves from the person punished, which can deepen that person's isolation.",
     "possible_impact_on_receiver": "People who were made an example of describe humiliation and isolation, and sometimes shame that lasts after the group has moved on. Onlookers describe guilt about staying silent, tension in meetings, and a habit of checking the leader's face before speaking. Some leave quietly, and some say they stopped believing they could raise problems.",
     "response_options": {
-      "soft_clarification": "In private, ask the leader which rule or standard applied: 'Can you help me understand what the expectation is, so I know how to handle it next time?'",
-      "firm_boundary": "Say your own limit without confronting anyone in public: 'I will keep raising concerns through the proper channel, and I'd like a clear response when I do.'",
+      "soft_clarification": "In private, ask the leader which rule or standard applied. For example: 'Can you help me understand what the expectation is, so I know how to handle it next time?'",
+      "firm_boundary": "Say your own limit without confronting anyone in public. For example: 'I will keep raising concerns through the proper channel, and I'd like a clear response when I do.'",
       "disengagement": "If you feel at risk, make yourself less visible in the room while you decide privately what to do. Avoid joining in the mockery of the person punished.",
       "support_seeking": "Reach out quietly to the person who was singled out, and to someone outside the group, so that no one carries the lesson alone.",
       "workplace_or_professional": "Write down what happened, when, and who saw it. If the response affected someone's job, bring it to HR, an ombudsperson's office (an independent complaints office), a union representative or an employment lawyer."

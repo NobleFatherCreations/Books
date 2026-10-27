@@ -2,14 +2,14 @@
   "Labeling as Identity Warfare": {
     "short_definition": "Others pin a fixed defect label on a person, such as 'the difficult one', until everything that person does is read through it.",
     "core_meaning": "Others pin a fixed defect label on a person, such as 'the difficult one', until everything that person does is read through it.",
-    "expanded_definition": "This is what happens when one description, such as 'the difficult one', 'the unstable one' or 'the troublemaker', gets attached to a person and then travels. It turns up in team meetings, family group chats, school files and case notes. After that, the label does the interpreting. A calm question reads as hostility, and a good week reads as a mask. One unkind nickname is not this. The pattern appears when the description spreads past whoever coined it and nothing you do can count against it.",
+    "expanded_definition": "This is what happens when one description gets attached to a person and then travels. Examples are 'the difficult one', 'the unstable one' or 'the troublemaker'. It turns up in team meetings, family group chats, school files and case notes. After that, the label does the interpreting. A calm question reads as hostility, and a good week reads as a mask. One unkind nickname is not this. The pattern appears when the description spreads past whoever coined it and nothing you do can count against it.",
     "plain_language_summary": "Someone gets a one-line description like 'the difficult one'. From then on, everything they do, good or bad, is taken as proof of it.",
     "why_this_matters": "Once a label sticks, ordinary behavior is read as confirming it, so nothing you do can count as evidence against it. You may start managing how you appear instead of simply acting. People who never met you can arrive already holding the verdict.",
     "what_it_is": [
       "A single phrase, such as 'the sensitive one' or 'the flaky one', standing in for a whole person.",
       "Passed along: repeated to new coworkers, relatives, teachers or officials until it arrives before you do.",
       "Self-sealing: calm behavior is called putting on an act, and upset is called proof.",
-      "Sometimes it is written down in an email, a performance file, a school note or a case record, which gives it weight it never earned.",
+      "Sometimes it is written down in an email, a performance file, a school note or a case record. That gives it weight it never earned.",
       "It is different from feedback on one behavior, which names what happened and leaves you room to act differently next time."
     ],
     "what_it_sounds_like": [
@@ -76,7 +76,7 @@
       "You begin to use the label about yourself in jokes."
     ],
     "repair_check": "Repair here shows in how you are introduced and recorded. Someone who takes it seriously retracts the label to the people who heard it, corrects the file or note, and starts describing specific events. A private 'I didn't mean it like that' while the nickname keeps circulating leaves the label standing.",
-    "boundary_respect_check": "After you object, listen for whether the word drops out of what people say about you, or whether you are now also described as touchy about labels. The next description of you is the answer. Is it about something you did?",
+    "boundary_respect_check": "After you object, listen for whether the word drops out of what people say about you. Or listen for whether you are now also described as touchy about labels. The next description of you is the answer. Is it about something you did?",
     "psychological_mechanism": "A label hands people a ready-made lens, and once they hold it they tend to notice what fits and pass over what does not. People can also treat someone according to the expectation, which may draw out the very behavior expected. The person labeled can begin to watch themselves through the same lens, so the label comes to feel like their own judgment.",
     "possible_impact_on_receiver": "People describe a tiring watchfulness: choosing words so as not to fit the description, then finding that the caution is read against them. Some start to wonder whether the label is true. Others describe anger at being introduced as a summary, and a pull to withdraw from groups where the word circulates.",
     "response_options": {
@@ -98,7 +98,7 @@
   "Rage as Control": {
     "short_definition": "Explosive anger that reliably ends a disagreement, whatever lies behind it, because the people nearby learn to give way.",
     "core_meaning": "Explosive anger that reliably ends a disagreement, whatever lies behind it, because the people nearby learn to give way.",
-    "expanded_definition": "The focus is what an outburst does, not what is going on inside the person. Shouting, slamming a door, hitting a table, or going rigid and cold with fury can all close a conversation. The people nearby learn to calm things down first, and whatever raised the issue gets dropped. One blow-up under strain is common. Look for outbursts that arrive when you push back, a topic that never returns afterwards, and a world that shrinks around avoiding the next one.",
+    "expanded_definition": "The focus is what an outburst does, not what is going on inside the person. Shouting, slamming a door, hitting a table, or going rigid and cold with fury can all close a conversation. The people nearby learn to calm things down first, and whatever raised the issue gets dropped. One blow-up under strain is common. Look for outbursts that arrive when you push back, and for a topic that never returns afterwards. Also look for a world that shrinks around avoiding the next one.",
     "plain_language_summary": "After enough blow-ups, you stop raising things that might set one off, so the anger ends up deciding what can be talked about.",
     "why_this_matters": "People around an outburst learn to put calming things down ahead of whatever started it. Topics stop being raised long before anyone decides to stop raising them. Over time one person's temper quietly sets the limits of a household or workplace.",
     "what_it_is": [
@@ -174,7 +174,7 @@
     ],
     "repair_check": "Repair for this tactic means the original issue gets its turn. After the outburst, the person comes back when calm, names what they did in plain words, and then discusses what you had raised. Gifts, a quiet week or sudden tenderness that leave the topic untouched have only restored calm.",
     "boundary_respect_check": "Watch what happens to a request to continue later. If the pause is allowed and the topic returns on schedule, the anger is not setting the agenda. If the pause is shouted down, or the later talk never happens, the subject has been closed in practice.",
-    "psychological_mechanism": "Fear responses are fast and bodily: a raised voice or a slammed object can trigger vigilance before thought. If giving way ends the noise and the tension, the relief rewards giving way, and the habit can be learned without anyone discussing it. Over time a person may predict reactions and edit themselves in advance, which can look, from the inside, like simply choosing to keep the peace.",
+    "psychological_mechanism": "Fear responses are fast and bodily: a raised voice or a slammed object can trigger vigilance before thought. If giving way ends the noise and the tension, the relief rewards giving way. The habit can be learned without anyone discussing it. Over time a person may predict reactions and edit themselves in advance. From the inside, this can look like simply choosing to keep the peace.",
     "possible_impact_on_receiver": "People describe walking on eggshells, rehearsing sentences, and feeling a drop in the stomach at a tone or a key in the door. Some stop raising money, parenting or health topics altogether. Others feel responsible for the other person's moods, or ashamed of how often they backed down. Children in a home may learn to leave the room or go silent.",
     "response_options": {
       "soft_clarification": "Pick a calm moment, away from the last blow-up: 'I've noticed I stop mentioning things when your voice goes up. Can we find a way to talk about hard things that works for both of us?'",
@@ -185,7 +185,7 @@
     },
     "boundary_script": "\"Once voices are raised I can't do this well, though I do want to talk about it. Could we take twenty minutes and then pick it up again?\" Skip it if the temperature is already rising.",
     "safety_sensitive": true,
-    "safety_note": "Anger that makes you afraid is a safety question as well as a communication one. Warning signs include thrown or broken objects, blocked doorways, grabbing, threats, being followed from room to room, and damage to your belongings. If you see them, keep a phone charged and papers where you can reach them. Call a domestic violence hotline or advocate to plan privately. If a rage turns physical, or you fear it will within minutes, leave if you can and call emergency services from wherever you are safe.",
+    "safety_note": "Anger that makes you afraid is a safety question as well as a communication one. Warning signs include thrown or broken objects, blocked doorways, grabbing and threats. Others are being followed from room to room and damage to your belongings. If you see them, keep a phone charged and papers where you can reach them. Call a domestic violence hotline or advocate to plan privately. If a rage turns physical, or you fear it will within minutes, leave if you can. Call emergency services from wherever you are safe.",
     "misuse_warning": [
       "Calling any anger 'control' can silence honest frustration, including your own. The words fit anger whose result is a closed topic and a wary household, not every raised voice.",
       "Describing someone as 'raging' to others to win support in a dispute turns the label into a weapon. Describe what happened, with dates."
@@ -195,7 +195,7 @@
   "Credit Theft": {
     "short_definition": "Someone presents another person's work, idea or effort as their own, or lets the credit drift away from the person who made it.",
     "core_meaning": "Someone presents another person's work, idea or effort as their own, or lets the credit drift away from the person who made it.",
-    "expanded_definition": "Credit theft covers a range. At one end, a finished piece of work is shown to an audience under another name. At the other, credit leaks slowly. An idea you raised is repeated in a later meeting by someone else, thanks are given in private, and by the time it reaches decision-makers its source is forgotten. One slip is common and often fixed once pointed out. The pattern is the same person's contributions repeatedly ending up under someone else's name.",
+    "expanded_definition": "Credit theft covers a range. At one end, a finished piece of work is shown to an audience under another name. At the other, credit leaks slowly. An idea you raised is repeated in a later meeting by someone else. Thanks are given in private. By the time it reaches decision-makers, its source is forgotten. One slip is common and often fixed once pointed out. The pattern is the same person's contributions repeatedly ending up under someone else's name.",
     "plain_language_summary": "Your work or idea is shown as someone else's, once or over and over. In the end, the people who matter no longer know it was yours.",
     "why_this_matters": "Work continues while recognition builds up elsewhere, and by the time the pattern is visible the original attribution is hard to prove. Pay, promotion, references and your own sense of competence can all follow the credit rather than the work.",
     "what_it_is": [
@@ -269,20 +269,20 @@
       "Opportunities that follow visible work, like being asked to present, go to someone else.",
       "You stop sharing early ideas in rooms where they may be picked up."
     ],
-    "repair_check": "Repair for credit can be measured. A correction is sent to the same people who saw the wrong version, your name is restored on the file or list, and the next project credits you without being asked. A warm private thank-you with the public record unchanged repairs nothing.",
+    "repair_check": "Repair for credit can be measured. A correction is sent to the same people who saw the wrong version. Your name is restored on the file or list. The next project credits you without being asked. A warm private thank-you with the public record unchanged repairs nothing.",
     "boundary_respect_check": "After asking for your name on the work, watch the very next piece. Is the name there before you have to ask again? Or have you become the person who is difficult about credit?",
     "psychological_mechanism": "Credit often goes to whoever stands visibly behind the work in front of decision-makers. When an idea travels by informal routes, memory of its source is thin, and listeners often attach it to the person presenting. Each repetition makes the new attribution seem more settled, and challenging it later can seem petty even when it is accurate.",
     "possible_impact_on_receiver": "People describe a specific kind of anger: the work was real and the reward went elsewhere. Some stop sharing ideas early or start documenting everything. Others doubt whether the idea was that good, or whether they are petty for caring. Careers can stall because the evidence of contribution sits on someone else's record.",
     "response_options": {
       "soft_clarification": "Assume a slip and ask: 'I noticed my name isn't on the slide for the analysis I wrote. Can we add it before it goes out?'",
       "firm_boundary": "Name the fact and the fix: 'This section is my work, drafted on the third. I'd like it credited to me in the circulated version.'",
-      "disengagement": "Share early ideas in writing, by email with a date and to the group, rather than in hallway talk or live calls where nothing is recorded.",
+      "disengagement": "Share early ideas in writing, by email with a date and to the group. Hallway talk and live calls leave nothing recorded.",
       "support_seeking": "Ask a colleague who saw the original work to confirm in writing when it was first shown. Talk to a mentor outside your reporting line about how to raise it.",
       "workplace_or_professional": "Keep dated drafts and sent messages. Raise it with your manager first. If the reporting line is the problem, HR, a union, or an ombudsperson (an independent complaints officer) can look at the record."
     },
     "boundary_script": "\"The record needs to be right. I wrote this proposal and sent the first draft on the twelfth, so please credit it to me when it goes to the director's list.\"",
     "safety_sensitive": false,
-    "safety_note": "Credit theft rarely endangers you physically. It becomes more serious when it is tied to job security, a visa or sponsorship that depends on your employer, a degree, or retaliation after you speak. Gather dated proof of your own authorship, without copying confidential material before checking policy. Speak to an employment lawyer, union representative or student ombudsperson before escalating inside the organization.",
+    "safety_note": "Credit theft rarely endangers you physically. It becomes more serious when it is tied to job security, a degree, or retaliation after you speak. It is also more serious with a visa or sponsorship that depends on your employer. Gather dated proof of your own authorship, without copying confidential material before checking policy. Speak to an employment lawyer, union representative or student advocate before taking it further inside the organization.",
     "misuse_warning": [
       "Claiming theft whenever a project's credit is less than you hoped can hurt a colleague who gave you a fair share. Check the record first.",
       "Posting a screenshot of a missing name as a public accusation can turn a fixable oversight into a feud. Ask for the correction first."
@@ -313,7 +313,7 @@
     ],
     "what_it_is_not": [
       "Plain coincidence. Unrelated trouble does cluster around big days, partly because those are the days you are watching.",
-      "A person who is unreliable about everything, not only around your milestones.",
+      "A person who is unreliable about everything, whether or not a milestone is near.",
       "Genuinely competing demands, such as shift work or a sick relative, that clash with your timeline.",
       "A worried 'Are you sure?' from someone who says it once, names the cost to you, and helps anyway.",
       "Your own nerves or avoidance before big moments producing mishaps that are then blamed on someone else.",
@@ -368,7 +368,7 @@
     ],
     "repair_check": "Repair shows in what happens before the next milestone. Someone engaging with this asks which dates matter, protects them, and checks in afterwards. A heartfelt apology after you missed the chance, followed by the same last-minute trouble next time, addresses only the last event.",
     "boundary_respect_check": "Tell them in advance that a particular date matters, then see what that week looks like. Do they ask what you need? Or does a fresh emergency appear, and does the talk turn to why you are making a fuss about the date?",
-    "psychological_mechanism": "Repeated disruption near goals can teach a person to link ambition with trouble and anxiety. Each event has an ordinary explanation, so the cost is often taken as a personal failing: not ready enough, not organized enough. Where someone also depends on the other person for money, a ride or a home, they may scale plans down in advance to protect the peace.",
+    "psychological_mechanism": "Repeated disruption near goals can teach a person to link ambition with trouble and anxiety. Each event has an ordinary explanation. So the cost is often taken as a personal failing: not ready enough, not organized enough. Someone may also depend on the other person for money, a ride or a home. If so, they may scale plans down in advance to protect the peace.",
     "possible_impact_on_receiver": "People describe the tiredness of preparing twice, once for the milestone and once for the interference. Some stop telling anyone their plans. Others came to believe they were bad at finishing things, and only saw the timing when they lined events up on a calendar. Hope can start to feel risky, and good news can arrive with dread.",
     "response_options": {
       "soft_clarification": "Say what the date means, early and plainly: 'The fourteenth is my exam. What would help me protect that evening? I'm asking for practical backup.'",
@@ -393,7 +393,7 @@
     "plain_language_summary": "When something goes wrong for a whole group, one person is named as the cause and punished, and the real problem stays untouched.",
     "why_this_matters": "One person takes far more of the consequences than their share of a group failure. The conditions that caused it stay exactly as they were, because the matter is now called solved. The person blamed can lose standing, income or belonging, and the same problem waits for the next name.",
     "what_it_is": [
-      "One person is made to carry blame for an outcome that many people shaped, such as a leadership decision, a team culture or a family tension.",
+      "One person is made to carry blame for an outcome that many people shaped. Examples are a leadership decision, a team culture or a family tension.",
       "A blamed person who typically has less power or standing than those who made the decisions.",
       "A way of closing the matter: once someone is blamed or removed, the group can say the problem is dealt with.",
       "It can be formal, like a dismissal or a report naming one person. It can also be informal, like the relative blamed for every holiday argument or a member the group shuns.",
