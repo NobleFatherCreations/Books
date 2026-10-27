@@ -1,7 +1,7 @@
 {
   "Account Takeover": {
-    "short_definition": "Taking over someone's email, social media, banking or cloud accounts, which leaves them watched, spoken for, cut off or locked out of their own online life.",
-    "core_meaning": "Taking over someone's email, social media, banking or cloud accounts, which leaves them watched, spoken for, cut off or locked out of their own online life.",
+    "short_definition": "Taking over someone's email, social media, banking or cloud accounts, so they are watched, spoken for and cut off from their online life.",
+    "core_meaning": "Taking over someone's email, social media, banking or cloud accounts, so they are watched, spoken for and cut off from their online life.",
     "expanded_definition": "Account takeover is when someone controls another person's digital accounts without their agreement. They may change passwords, redirect recovery details, read or send messages in the person's name, or give access back only on conditions. It is also called account control. It can start as casual shared access and harden into sole control. One reset after a forgotten password means little. It is a concern when access changes without your knowledge and your ways back in are blocked.",
     "plain_language_summary": "Someone gets control of your email, social media or bank logins. They can read your messages, write as you, or keep you out, and getting back in depends on them.",
     "why_this_matters": "Being pushed out of your own accounts costs more than access. Messages can go out under your name to people who have every reason to believe them. Everyday tasks like paying a bill or reaching a doctor start to need permission.",
@@ -80,7 +80,7 @@
     "repair_check": "What happens to the logins themselves is the clearest sign. Repair means every password and recovery detail returned to you with nothing attached, an account history you can read, and no new lockout later. An apology while they still hold the keys has fixed nothing.",
     "boundary_respect_check": "Ask yourself whether you can now open each account yourself, today, on a device you control. If the only route is still through them, the request has not been respected. The same is true if a request to be left alone is followed by new changes.",
     "psychological_mechanism": "Accounts hold a person's contacts, money, history and voice. Losing them often shakes your sense of being able to act at all. This kind of control works quietly. Each step looks small and administrative, and getting access back turns into a favor you have to ask for. That can shift who seems to be in charge of ordinary life.",
-    "possible_impact_on_receiver": "Panic at being unable to reach your own contacts or money is common, along with shame about messages sent in your name and a constant sense of being watched. Some stop trusting every device or app. Some say the practical problems, such as a missed work email or bill, hurt as much as the intrusion.",
+    "possible_impact_on_receiver": "Panic at being unable to reach your own contacts or money is common. So are shame about messages sent in your name and a constant sense of being watched. Some stop trusting every device or app. Some say the practical problems, such as a missed work email or bill, hurt as much as the intrusion.",
     "response_options": {
       "soft_clarification": "Ask a plain question about the change: 'My login doesn't work and the recovery number isn't mine. Do you know why?' Then see whether the answer is specific and whether it is fixed.",
       "firm_boundary": "Do not ask for your logins back unless you are sure it is safe. A demand can lead to the change being hidden, or to anger. A tech-safety advocate can help you regain control of your accounts first.",
@@ -90,7 +90,7 @@
     },
     "boundary_script": "\"My login stopped working and the recovery number isn't mine. Do you know why that happened? Let's sort it out calmly.\" If you are unsure how they would react, hold off and ask a tech-safety advocate how to proceed.",
     "safety_sensitive": true,
-    "safety_note": "Losing control of accounts can go with monitoring, isolation, threats or control of money. Changing passwords or removing a device can alert the person to what you are doing. Before you change anything on the compromised account, work out your next step on a device they cannot see, with a domestic abuse advocate or a tech safety service.",
+    "safety_note": "Losing control of accounts can go with monitoring, isolation, threats or control of money. Changing passwords or removing a device can alert the person to what you are doing. Before you change anything on the compromised account, work out your next step. Do it on a device they cannot see, with a domestic abuse advocate or a tech safety service.",
     "misuse_warning": [
       "A locked or hacked account does not show that someone close to you did it. Look at the provider's login history and recovery details before suspecting a person.",
       "Accusing a partner or relative of taking over your accounts after one failed login can damage trust. The fault may belong to the platform."

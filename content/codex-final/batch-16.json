@@ -99,7 +99,7 @@
   "Ritualized Exhaustion": {
     "short_definition": "A relentless run of schedules, demands and lost sleep that keeps a person too depleted to think clearly, weigh options or push back.",
     "core_meaning": "A relentless run of schedules, demands and lost sleep that keeps a person too depleted to think clearly, weigh options or push back.",
-    "expanded_definition": "Ritualized exhaustion is a long-running pattern of fixed routines, constant demands and cut-down sleep. It leaves a person worn out for a long time, which is different from being briefly busy. It can appear in a household, a workplace, a caregiving arrangement or a tightly run group. A hard week or a launch crunch is not this. What sets it apart is a load with no end date, rest treated as laziness or failure, and a reduced ability to think and object that nobody acknowledges.",
+    "expanded_definition": "Ritualized exhaustion is a long-running pattern of fixed routines, constant demands and cut-down sleep. It leaves a person worn out for a long time, which is different from being briefly busy. It can appear in a household, a workplace, a caregiving arrangement or a tightly run group. A hard week or a launch crunch is not this. What sets it apart is a load with no end date. Rest is treated as laziness or failure. Nobody acknowledges that the person's ability to think and object has shrunk.",
     "plain_language_summary": "You are kept so busy and so short of sleep that you have nothing left for thinking, deciding or saying no.",
     "why_this_matters": "Depletion that runs for months narrows your ability to think, weigh options and push back. Once that is gone, noticing it is gone gets harder too.",
     "what_it_is": [
@@ -178,7 +178,7 @@
     "psychological_mechanism": "Long sleep loss and constant demand can reduce attention, memory and the ability to plan or weigh consequences. A tired person may take the nearest available option and accept requests they would otherwise refuse. They may have little energy left to question the arrangement. The schedule can also use up the very time in which someone might talk to friends, look at alternatives or simply think.",
     "possible_impact_on_receiver": "Accounts include fog, irritability, getting sick more often, forgetting simple things, and a feeling of watching one's own life from a distance. Some lose the ability to picture an alternative, or the energy to want one. Others notice how quickly their thinking cleared after a few nights of real sleep.",
     "response_options": {
-      "soft_clarification": "Ask how long the load will last, instead of whether it is fair: 'How long do you expect this pace to last, and what could ease it?'",
+      "soft_clarification": "Ask how long the load will last, instead of whether it is fair. You could say: 'How long do you expect this pace to last, and what could ease it?'",
       "firm_boundary": "Make one small request in plain terms: 'I do better work when I've slept. Could late-night requests wait until morning?'",
       "disengagement": "Protect small pockets of rest, and do not announce them or argue about them. Try a short walk, a meal eaten sitting down, or ten minutes of quiet.",
       "support_seeking": "Tell a doctor about your sleep and workload, and a trusted friend or advocate about the schedule itself. If anyone controls when you may sleep or eat, an advocate can help you plan privately.",
@@ -291,8 +291,8 @@
     "how_to_distinguish_from_related": "Nonverbal Dominance unsettles through looks, sighs and eye rolls and can work from across a room. Spatial invasion depends on where a body stands, closing distance or covering the way out. Emotion Control penalizes the feelings you show and does not depend on where anyone stands. Resource Sabotage removes tools and support over weeks, while this plays out inside one tense moment."
   },
   "Resource Sabotage": {
-    "short_definition": "Taking away the tools, information, money or help a person needs to do something, then treating the failure that follows as proof they are not up to it.",
-    "core_meaning": "Taking away the tools, information, money or help a person needs to do something, then treating the failure that follows as proof they are not up to it.",
+    "short_definition": "Taking away the tools, information, money or help someone needs, and calling the failure proof they are not up to it.",
+    "core_meaning": "Taking away the tools, information, money or help someone needs, and calling the failure proof they are not up to it.",
     "expanded_definition": "Resource sabotage is when what someone needs to succeed goes missing. The budget is cut, the login stops working, the car is unavailable, or the instructions never get passed on. The shortfall is then treated as the person's own failing. It can occur in a job, a household, a study program or a caring role. Shortages happen to everyone. Look at whether the gap lands on one person, often arrives just before something important, and goes unmentioned when the work then falls short.",
     "plain_language_summary": "The things you need to succeed keep going missing, and then the failure is blamed on you.",
     "why_this_matters": "When someone fails without the tools they needed, everyone watching sees plain incompetence. Often the person sees it that way too.",
@@ -373,14 +373,14 @@
     "possible_impact_on_receiver": "Common accounts: working harder and getting less, always feeling slightly behind, and shame about failures that cannot be fully explained. Some begin keeping copies, receipts and lists to show what went missing. Others stop applying for things or asking for help, since asking brought delay. Seeing the whole list written out can bring relief.",
     "response_options": {
       "soft_clarification": "Ask what you need and when: 'The file I need for Thursday hasn't arrived. Can you tell me when I'll get it?'",
-      "firm_boundary": "Put the request in writing with a date, and keep a copy: 'I need the login and the budget figures by Wednesday to finish on time.'",
+      "firm_boundary": "Put the request in writing with a date, and keep a copy. You could say: 'I need the login and the budget figures by Wednesday to finish on time.'",
       "disengagement": "Build your own backup: copies of key files, a second route to your work, a little money or a ride you control. That reduces how much one withheld item can stop you.",
       "support_seeking": "Show a list of what went missing, and when, to a friend, mentor or advocate who can compare it with what others had. If money or housing depends on the person, legal aid can look at your options privately.",
       "workplace_or_professional": "Keep a dated log of requests and responses, and follow up by email. Raise the pattern, and its effect on your results, with a manager, HR or a union representative."
     },
     "boundary_script": "\"I can only do this well if I have the figures and the login. Could you tell me today when I'll have them, so I can plan around it?\"",
     "safety_sensitive": true,
-    "safety_note": "Cut-off money, transport, documents or phones can be part of financial or coercive control, which means control kept up through dependence and fear, especially at home. Watch for needing permission to spend, being kept from your own accounts or papers, or fear of what happens if you ask. A financial abuse advocate or legal aid service can help you plan. Copies of important documents are safest with someone you trust.",
+    "safety_note": "Cut-off money, transport, documents or phones can be part of financial or coercive control. That means control kept up through dependence and fear, especially at home. Watch for needing permission to spend, or being kept from your own accounts or papers. Also watch for fear of what happens if you ask. A financial abuse advocate or legal aid service can help you plan. Copies of important documents are safest with someone you trust.",
     "misuse_warning": [
       "Calling every shortage or forgotten message sabotage turns ordinary mistakes into accusations. The label fits a gap that falls on one person again and again, and is then blamed on them.",
       "Raising it at work without dates or comparisons can sound like blame when what you hold is a timeline worth showing."
@@ -390,7 +390,7 @@
   "\"Managed Out\" Through Exhaustion": {
     "short_definition": "Slowly removing a person's meaningful work, visibility and belonging until their leaving looks like a free choice on paper.",
     "core_meaning": "Slowly removing a person's meaningful work, visibility and belonging until their leaving looks like a free choice on paper.",
-    "expanded_definition": "Being managed out is a gradual loss of a place. Projects are reassigned, invitations to meetings stop, and feedback dries up. The person is left with little to do and no one asking for their view. Nothing is formally taken away and no complaint is filed, so a resignation reads as their own decision. Restructures and role changes hollow out jobs too. Telling signs are a loss that is quiet, falls on one person, and often starts after a conflict, a complaint or a change of leadership.",
+    "expanded_definition": "Being managed out is a gradual loss of a place. Projects are reassigned, invitations to meetings stop, and feedback dries up. The person is left with little to do and no one asking for their view. Nothing is formally taken away and no complaint is filed, so a resignation reads as their own decision. Restructures and role changes hollow out jobs too. Telling signs are a loss that is quiet and falls on one person. It often starts after a conflict, a complaint or a change of leadership.",
     "plain_language_summary": "Your work, your say and your place at the table slip away bit by bit, until quitting starts to feel like your only choice.",
     "why_this_matters": "A departure produced by these conditions looks like a free choice, on paper and in memory. The person is left carrying the story that they simply could not cope.",
     "what_it_is": [
@@ -466,17 +466,17 @@
     "repair_check": "Look for work and a voice actually restored. That means a real project with real decisions attached, a seat back at meetings, and a straight conversation about what happened. Reassurance that you are valued, while the calendar stays empty, has repaired nothing.",
     "boundary_respect_check": "Ask in writing for a conversation about your role and what is expected. Watch whether a date is set and kept, and whether what you hear matches what happens next. Being told nothing has changed, while the empty calendar says otherwise, answers a different question.",
     "psychological_mechanism": "Work gives people purpose, status and routine. Losing them bit by bit can look like personal inadequacy more than something being done to the person. Because nothing is formally removed, there is no event to point to, which can make the person doubt their own read. As confidence falls, going can start to look like relief, and the departure may be recorded and remembered as a free choice.",
-    "possible_impact_on_receiver": "Dread on Sunday evenings is a common account, along with checking whether you have been left off an email, feeling invisible, and doubting your own competence. Some wonder whether they imagined the change. Afterward, some carry the belief that they could not cope even when they did their work well, while others feel relief on seeing it laid out.",
+    "possible_impact_on_receiver": "Dread on Sunday evenings is a common account. So are checking whether you have been left off an email, feeling invisible, and doubting your own competence. Some wonder whether they imagined the change. Afterward, some carry the belief that they could not cope, even when they did their work well. Others feel relief on seeing it laid out.",
     "response_options": {
       "soft_clarification": "Ask a plain question about the work: 'I've noticed I'm not on the planning meetings anymore. Is that a change in my role?'",
-      "firm_boundary": "Ask for clarity in writing: 'Could we meet this week to talk about my responsibilities and what is expected of me over the next quarter?'",
+      "firm_boundary": "Ask for clarity in writing. You could say: 'Could we meet this week to talk about my responsibilities and what is expected of me over the next quarter?'",
       "disengagement": "Quietly put energy into skills, contacts and records outside the situation. Decide privately what you want before taking any step.",
       "support_seeking": "Talk to a trusted colleague outside your chain, a mentor or a counselor about what you are seeing. An employment advice service or union can explain your rights before you decide anything.",
       "workplace_or_professional": "Keep a dated log of projects removed, meetings dropped and feedback received, and keep your own reviews and praise where company policy allows. Raise the pattern with HR or a union representative."
     },
     "boundary_script": "\"Help me understand how my role has changed over the last few months. Could we set up a time to talk about what I'm responsible for and what you expect from me?\"",
     "safety_sensitive": false,
-    "safety_note": "This is chiefly a threat to income and standing, though a visa or housing tied to the job raises the stakes. Concern grows if pay or immigration status depends on staying, if you are pressed to sign a separation agreement quickly, or if the strain is hurting your sleep or health. Get advice from an employment lawyer, union or legal aid service before signing. Keep dated notes of what changed.",
+    "safety_note": "This is mainly a threat to income and standing. A visa or housing tied to the job raises the stakes. Concern grows if pay or immigration status depends on staying. It also grows if you are pressed to sign a separation agreement quickly. Another sign is strain that is hurting your sleep or health. Get advice from an employment lawyer, union or legal aid service before signing. Keep dated notes of what changed.",
     "misuse_warning": [
       "Reading every quiet spell or reassignment as being managed out can turn ordinary reorganizing into a grievance. The label needs a comparison, a timeline and a lack of explanation, and a bad feeling alone is not enough.",
       "Telling a coworker they are being managed out can add to their distress. It can also push them toward a decision the evidence does not support."
@@ -562,17 +562,17 @@
     "repair_check": "Repair would mean saying openly what was kept, showing the whole exchange, and raising concerns on the day they arise from now on. An apology that arrives while the folder of screenshots stays, and keeps being used, has changed nothing about how safe it is to speak.",
     "boundary_respect_check": "Ask that concerns be raised when they happen, not stored. Then see whether next month brings 'this bothered me', said that day, or another old quote out of nowhere. Also watch whether your own words are given the same openness.",
     "psychological_mechanism": "People relax their guard when they believe words fade, and they talk more honestly as a result. Learning that remarks may be saved and replayed can make speech seem risky. The person edits themselves, guards what they write, and may start to doubt their own earlier words when shown a fragment. Because the material is real, it is also hard to contest, which can add to the sense of being trapped.",
-    "possible_impact_on_receiver": "Some people go quiet in writing, reread messages before sending, feel watched in their own home or friend group, and grow wary of telling anyone anything. Doubt about what you really meant can set in when you are shown a fragment. Others feel anger that something said in trust was held back for later.",
+    "possible_impact_on_receiver": "Some people go quiet in writing and reread messages before sending. Some feel watched in their own home or friend group, and grow wary of telling anyone anything. Doubt about what you really meant can set in when you are shown a fragment. Others feel anger that something said in trust was held back for later.",
     "response_options": {
       "soft_clarification": "Ask for the whole picture: 'Can you show me the messages around that one? I remember the conversation going differently.'",
-      "firm_boundary": "If it feels safe, ask to hear concerns at the time: 'If something I say bothers you, tell me then, so we can sort it out together.'",
+      "firm_boundary": "If it feels safe, ask to hear concerns at the time. You could say: 'If something I say bothers you, tell me then, so we can sort it out together.'",
       "disengagement": "Stop sharing delicate things with someone who keeps them for later. Move sensitive talk to a call or an in-person conversation.",
       "support_seeking": "Show the full thread to someone neutral and ask how it reads. If material is being shared, or threatened to be, keep your own copies of what was sent and talk to an advocate or lawyer.",
       "workplace_or_professional": "At work, keep your own copy of the full email thread and reply with the missing context in writing. Ask a manager or HR to review the whole exchange and not the fragment."
     },
     "boundary_script": "\"I'm happy to talk about anything I've said, if we look at the whole conversation and talk about it when it comes up. I'd rather not have old messages brought out in the middle of something else.\"",
     "safety_sensitive": true,
-    "safety_note": "Someone quietly saving your words is pressure on trust, not a physical danger. The picture changes if saved material is paired with threats to release it, intimate images or recordings, a custody or legal case, or demands that you do something or stay. Keep your own copies of what has been sent. Take them to a lawyer or a domestic abuse or cyber-abuse advocate before replying to any threat.",
+    "safety_note": "Someone quietly saving your words is pressure on trust, not a physical danger. The picture changes if saved material is paired with threats to release it. It changes too with intimate images or recordings, or a custody or legal case. Demands that you do something or stay count as well. Keep your own copies of what has been sent. Take them to a lawyer or a domestic abuse or cyber-abuse advocate before replying to any threat.",
     "misuse_warning": [
       "Calling any reminder of an earlier statement an evidence trap can make accountability look like an attack. People are entitled to say 'you told me this'.",
       "Using the label to avoid being quoted accurately confuses stripped context with unwelcome content."
@@ -655,23 +655,23 @@
       "You weigh each choice by what it will say about you instead of by what you need.",
       "Your sense of being a good person starts to depend on going along."
     ],
-    "repair_check": "Watch whether the original topic gets its turn. If the character remark is withdrawn and the conversation returns to your request, and the answer can be no without a new verdict, something has shifted. A kind apology that leaves the request unheard, and reappears next time, has not shifted anything.",
+    "repair_check": "Watch whether the original topic gets its turn. Something has shifted if the character remark is withdrawn and the talk returns to your request. It has also shifted if the answer can be no without a new verdict. A kind apology that leaves the request unheard, and reappears next time, has not shifted anything.",
     "boundary_respect_check": "State the boundary once without defending your character, and see what is said next. If the reply is about the boundary, even in disagreement, it was heard. If the next thing you hear is a statement about who you are, the boundary became a test of your character.",
     "psychological_mechanism": "Most people want to see themselves as good, and moral labels reach that wish directly. When a request is recast as a flaw, the person may drop the request to protect their self-image. Defending their character feels more urgent than the original point. If the language borrows values they hold, such as loyalty or generosity, giving in can look consistent with who they believe they are.",
     "possible_impact_on_receiver": "Guilt out of proportion to what they asked for is a common report, along with rehearsing justifications and apologizing for ordinary needs. Some say they started to doubt whether they were selfish, and gave in to prove otherwise. Others describe a mix of relief and anger on realizing that the question they raised was never answered.",
     "response_options": {
       "soft_clarification": "Bring the conversation back to the request: 'I hear that you think I'm being selfish. Can we go back to what I asked?'",
       "firm_boundary": "Decline to argue character: 'I'm not going to debate whether I'm a good person. I've told you what I can do, and that is my answer.'",
-      "disengagement": "If the labels keep coming, close the talk on the original topic: 'Let's leave this for now.' You do not need to win the point about who you are.",
+      "disengagement": "If the labels keep coming, close the talk on the original topic. You could say: 'Let's leave this for now.' You do not need to win the point about who you are.",
       "support_seeking": "Describe the exact words used and your request to someone outside the situation, and ask whether the request seems reasonable. A counselor or a leader you trust can help separate your values from the pressure.",
-      "workplace_or_professional": "At work, restate the issue in neutral terms and in writing: 'To be clear, my request is about the schedule.' If personal remarks continue, note them. Raise them with a manager or HR."
+      "workplace_or_professional": "At work, restate the issue in neutral terms and in writing. You could say: 'To be clear, my request is about the schedule.' If personal remarks continue, note them. Raise them with a manager or HR."
     },
     "boundary_script": "\"You may be right that we see this differently, but I'm asking about one specific thing. Can we talk about that request, and leave out what kind of person either of us is?\"",
     "safety_sensitive": false,
-    "safety_note": "Moral labels on their own press on your self-image, not on your physical safety. That can change when a judgment comes with threats of exposure to a community, loss of housing, money or contact with children or family, or being told you deserve harm. If a verdict carries that weight, speak to someone outside the group before deciding anything. An advocate, a counselor or legal aid can help.",
+    "safety_note": "Moral labels on their own press on your self-image, not on your physical safety. That can change when a judgment comes with threats of exposure to a community. It can also change with threats of losing housing, money or contact with children or family. Being told you deserve harm is another sign. If a verdict carries that weight, speak to someone outside the group before deciding anything. An advocate, a counselor or legal aid can help.",
     "misuse_warning": [
       "Calling every disapproving remark moral framing can wave away honest feedback. Sometimes a hard thing is true and said kindly.",
-      "Using the label to brush off a family's real worries about a decision you made turns a pattern into a way to avoid a conversation."
+      "Using the label to brush off a family's real worries about a decision you made is a misuse of it. It turns a pattern into a way to avoid a conversation."
     ],
     "how_to_distinguish_from_related": "Emotion Control penalizes certain feelings as they appear, while moral framing answers a boundary or complaint with a verdict on the person's goodness. Nonverbal Dominance conveys disapproval through sighs and stares without words. Moral framing is put into words. Resource Sabotage takes things away. Here nothing is removed, and the request is simply turned into a test of your character."
   },
@@ -680,7 +680,7 @@
     "core_meaning": "Pressuring or penalizing someone over whether, when or how to have children, using money, work, family standing or withdrawal of support.",
     "expanded_definition": "Reproductive coercion is pressure over another person's decisions about pregnancy and children. That covers whether to have a child, when, how many, whether to continue a pregnancy, or whether to use contraception. The pressure can come from a partner, relatives, an employer or an institution. It works through consequences, with money, a job, housing, belonging or support made to depend on the answer. Stating hopes is normal. The line is crossed when a cost is attached to the answer and the pressure continues after it has been given.",
     "plain_language_summary": "Someone ties your job, money, home or place in the family to what you decide about having children. They keep pressing after you have answered.",
-    "why_this_matters": "A decision that belongs to one person's body and life ends up made under the weight of what refusal would cost: job, money, support, standing in the family.",
+    "why_this_matters": "A decision that belongs to one person's body and life ends up made under pressure. The pressure is what refusal would cost: job, money, support, standing in the family.",
     "what_it_is": [
       "Consequences attached to a decision. Pay, promotion, housing, money or support depend on having or not having a child.",
       "Pressure repeated after you have given your answer, passed in turn from partner to parents to in-laws to a community leader.",
@@ -725,7 +725,7 @@
     ],
     "common_false_positives": [
       "A relative asking 'any news?' at every holiday, who stops when told it is private.",
-      "A partner who is sad about a difference over children and says so openly, with no leverage attached.",
+      "A partner who is sad about a difference over children and says so openly, with no pressure attached.",
       "A clinic asking routine questions about pregnancy plans before prescribing."
     ],
     "discernment_questions": [
@@ -764,7 +764,7 @@
     },
     "boundary_script": "\"I understand this matters a lot to you. It's a decision about my own body and life, and I need to think it through at my own pace. Can we talk about something else for now?\"",
     "safety_sensitive": true,
-    "safety_note": "Pressure about pregnancy can sit alongside violence, threats to money, housing, children or immigration status, and coercive control, which is a steady pattern of rules and threats that narrows your choices. Pregnancy can also be a time when abuse begins or worsens. Warning signs include controlled contraception or appointments, being watched at clinics, and threats tied to your answer. A domestic abuse hotline or clinic can talk privately. Ask about safe ways to reach them from a phone or device the other person cannot see.",
+    "safety_note": "Pressure about pregnancy can sit alongside violence, or threats to money, housing, children or immigration status. It can come with coercive control, which is a steady pattern of rules and threats that narrows your choices. Pregnancy can also be a time when abuse begins or worsens. Warning signs include controlled contraception or appointments, being watched at clinics, and threats tied to your answer. A domestic abuse hotline or clinic can talk privately. Ask about safe ways to reach them from a phone or device the other person cannot see.",
     "misuse_warning": [
       "Treating any wish for a child, or any employer's parental-leave policy, as coercion can silence honest wishes. The label fits consequences attached to the answer, not the wish.",
       "If you call a partner's grief over a difference about children coercion, a painful, honest disagreement can become an accusation."

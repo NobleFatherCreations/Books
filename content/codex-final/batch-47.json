@@ -9,7 +9,7 @@
       "A way of influencing a decision by working on what goes into the decision, not by pressuring the person who makes it.",
       "A concept linked to Soviet and Russian military and influence theory, often described as aimed at rivals such as commanders, governments or institutions.",
       "Open pressure and visible threats are its opposite, because it depends on the audience believing the conclusion is their own.",
-      "It can reach ordinary audiences when a whole information environment is tilted, though it is hard to show that any single audience was the target.",
+      "It can reach ordinary audiences when a whole information environment is tilted. It is hard to show that any single audience was the target.",
       "Rarely provable in the moment. Claims about it usually rest on documents or testimony that surface later."
     ],
     "what_it_sounds_like": [
@@ -80,10 +80,10 @@
     ],
     "repair_check": "Correction here means the shaped inputs are named and the choice is reopened with a fuller picture. A quiet retraction of one detail, while the decision it justified stays untouched, corrects very little.",
     "boundary_respect_check": "Ask a source for the original document behind a claim and note what comes back. Handing over the primary material, and saying what it does not show, points away from steering. Vague reassurance or irritation at the question points toward it.",
-    "psychological_mechanism": "We count a conclusion we reached ourselves as earned, and few of us go back to audit the inputs. Reasoning can only work with the facts in front of it, so a tilted set of facts can produce a sincere, confident and tilted choice. Time pressure and a shortage of independent sources can strengthen this.",
+    "psychological_mechanism": "We count a conclusion we reached ourselves as earned, and few of us go back to audit the inputs. Reasoning can only work with the facts in front of it. A tilted set of facts can produce a sincere, confident and tilted choice. Time pressure and a shortage of independent sources can strengthen this.",
     "possible_impact_on_receiver": "Many feel a jolt of embarrassment on learning that facts they trusted were selected for them. Anger and a reluctance to trust their own judgment can follow. Some become suspicious of all information, which carries its own cost. Others dig in to defend the earlier choice, because they see it as their own.",
     "response_options": {
-      "soft_clarification": "Ask where a key claim started: 'What is the original source for this, and has anyone independent confirmed it?' Ask it of sources you like as well as those you doubt.",
+      "soft_clarification": "Ask where a key claim started. You could say: 'What is the original source for this, and has anyone independent confirmed it?' Ask it of sources you like as well as those you doubt.",
       "firm_boundary": "Decline to decide under a deadline nobody can explain. Take extra time to find sources that do not trace back to the same origin before you commit.",
       "disengagement": "Step away from a flood of one-sided news about a pending decision. Come back after a day and compare it with older, slower reporting.",
       "support_seeking": "Talk the situation through with a friend who holds a different view and ask which sources they would trust. A librarian or fact-checking service can help trace where claims began.",
@@ -96,12 +96,12 @@
       "Blaming reflexive control for any decision you dislike dismisses the people who made it. It also requires a hidden planner for what may be ordinary error.",
       "When used about political opponents, it turns into a claim that anyone who disagrees was tricked, which ends the conversation."
     ],
-    "how_to_distinguish_from_related": "Manufactured Consent works on what a whole population seems to agree with, while reflexive control concerns one party's specific decision and the facts that party was given. Computational Propaganda is a delivery method, using bots and networks, which could supply inputs but says nothing about a decision. Normative Messaging leans on what others supposedly do. Reflexive control leans on which facts you were shown."
+    "how_to_distinguish_from_related": "Manufactured Consent works on what a whole population seems to agree with. Reflexive control concerns one party's specific decision and the facts that party was given. Computational Propaganda is a delivery method, using bots and networks, which could supply inputs but says nothing about a decision. Normative Messaging leans on what others supposedly do. Reflexive control leans on which facts you were shown."
   },
   "Normative Messaging": {
     "short_definition": "Claiming that 'most others' hold a view or act a certain way, which pulls people toward that apparent norm.",
     "core_meaning": "Claiming that 'most others' hold a view or act a certain way, which pulls people toward that apparent norm.",
-    "expanded_definition": "Normative messaging is any communication about what is normal, common or expected in a group, from a poster saying most neighbors recycle to a headline saying everyone has moved on. People often adjust toward what they think others do. When the stated norm is accurate and the aim is disclosed, it is a mainstream public-health and civic tool. The concern begins when the claim is false, unverifiable or invented, or the sender hides a stake. One poster means little. What stands out is a steady drumbeat of 'everyone' claims you cannot check.",
+    "expanded_definition": "Normative messaging is any communication about what is normal, common or expected in a group. It ranges from a poster saying most neighbors recycle to a headline saying everyone has moved on. People often adjust toward what they think others do. When the stated norm is accurate and the aim is disclosed, it is a mainstream public-health and civic tool. The concern begins when the claim is false, unverifiable or invented, or the sender hides a stake. One poster means little. What stands out is a steady drumbeat of 'everyone' claims you cannot check.",
     "plain_language_summary": "Being told that 'everybody' thinks or does something, so you go along. It is fine when the claim is true and the reason is stated, and a problem when you cannot check it.",
     "why_this_matters": "Behavior shifts to match what everyone else is said to be doing, even where private preference points elsewhere. The claim about what everyone does is rarely checked. So a person can be moved by a majority that is smaller than described, or does not exist.",
     "what_it_is": [
@@ -178,20 +178,20 @@
       "Counts and percentages shown to you keep rising while nobody can say who was counted.",
       "When you talk to people in person, their views turn out to be more varied than the feeds suggested."
     ],
-    "repair_check": "A sender who is fixing this names the source of the figure, corrects it once it is shown to be inflated, and stops using it. A message that swaps in a different 'everyone' statement has not corrected anything.",
+    "repair_check": "A sender who is fixing this names the source of the figure. They correct it once it is shown to be inflated, and stop using it. A message that swaps in a different 'everyone' statement has not corrected anything.",
     "boundary_respect_check": "Does asking for the source change how you are treated? Calm sharing of the survey is a good sign. Being called out of step, or told that asking is itself odd, suggests the claim leaned on pressure and not on evidence.",
-    "psychological_mechanism": "Other people's behavior is a quick guide to what is safe, correct and approved, especially in unfamiliar settings, and a norm claim borrows that shortcut. It can work even when we privately disagree, because standing out can feel costly. The effect often weakens when we can see the data or meet real members of the group.",
-    "possible_impact_on_receiver": "Some quietly drop a view because it seemed unpopular. Others feel alone in a disagreement that was widely shared, or embarrassed on finding that the majority was a fraction of what had been described. Some grow wary of every statistic, including honest ones.",
+    "psychological_mechanism": "Other people's behavior is a quick guide to what is safe, correct and approved, especially in unfamiliar settings. A norm claim borrows that shortcut. It can work even when we privately disagree, because standing out can feel costly. The effect often weakens when we can see the data or meet real members of the group.",
+    "possible_impact_on_receiver": "Some quietly drop a view because it seemed unpopular. Others feel alone in a disagreement that was widely shared. Still others feel embarrassed on finding that the majority was a fraction of what had been described. Some grow wary of every statistic, including honest ones.",
     "response_options": {
       "soft_clarification": "Ask politely where the figure comes from: 'Which survey is that, and when was it taken?'",
-      "firm_boundary": "Do not change your mind or sign up on the strength of a claim about what others think until you have seen the number for yourself.",
+      "firm_boundary": "Do not change your mind or sign up because of a claim about what others think. Wait until you have seen the number for yourself.",
       "disengagement": "Turn off visible counters, trending panels and 'people also' prompts for a while, and decide from what you value instead.",
       "support_seeking": "Ask two or three people you know, in person, what they actually think. Real answers are often more varied than a headline suggests.",
       "workplace_or_professional": "If a colleague says everyone has already agreed, ask who, and ask to hear it from them. Request that any poll be run with the question and result shared openly."
     },
     "boundary_script": "\"Who counted these people, and when? Would I want this if I were the only one? Am I going along because it is true, or because I fear being the odd one out?\"",
     "safety_sensitive": false,
-    "safety_note": "Norm claims are usually low-risk to your safety. The risk grows when a claim about what 'everyone' will do is used to rally a crowd against named people, or to build pressure for harassment. If that appears, save the examples, report them to the platform, and contact a local support service or lawyer if you are targeted.",
+    "safety_note": "Norm claims are usually low-risk to your safety. The risk grows when a claim about what 'everyone' will do is used to rally a crowd against named people. It also grows when it builds pressure for harassment. If that appears, save the examples and report them to the platform. If you are targeted, contact a local support service or lawyer.",
     "misuse_warning": [
       "If you label every statement about what most people think as 'normative messaging', ordinary reporting of a true majority starts to look sinister.",
       "Treating a person who changed their view as sheep-like ignores that they may have been persuaded by good reasons."
@@ -203,7 +203,7 @@
     "core_meaning": "Arranging an event to look like another group's work, so a response seems justified or the blamed party is harmed.",
     "expanded_definition": "A false flag operation is an event arranged so that it looks like the work of someone else. Historians have documented some cases, usually through archives and investigations years later. In real time the label is claimed far more often than shown, because early facts about any incident are confused. A gap in the official story, an odd coincidence or a convenient result does not establish staging. Proving it would take evidence about who arranged the event, which ordinary readers rarely hold.",
     "plain_language_summary": "An attack or incident is arranged to look like someone else did it, so blame, anger and action land on the wrong party. It is also a label people often apply far too fast.",
-    "why_this_matters": "Retaliation, suspicion and public anger land on a group that did not do the thing, and the record that would correct it is the very thing that was arranged. The opposite harm exists too. Calling real tragedies staged wounds the people who lived them.",
+    "why_this_matters": "Retaliation, suspicion and public anger land on a group that did not do the thing. The record that would correct it is the very thing that was arranged. The opposite harm exists too. Calling real tragedies staged wounds the people who lived them.",
     "what_it_is": [
       "A lie about who is responsible for an event, on top of any lie about what happened.",
       "The phrase is usually traced to old naval ruses in which a ship flew another side's flag.",
@@ -291,14 +291,14 @@
     "safety_sensitive": false,
     "safety_note": "Reading about this carries no danger. What changes that is the aftermath: a wrongly blamed group can face harassment or violence, and survivors falsely called actors can be stalked. If you or someone you know is targeted, save the messages, report them, and contact local authorities or legal aid. If danger is immediate, call emergency services.",
     "misuse_warning": [
-      "Shouting 'false flag' at any event you dislike turns a rare, evidence-based finding into a reflex, and it can harm survivors and the groups blamed.",
+      "Shouting 'false flag' at any event you dislike turns a rare, evidence-based finding into a reflex. It can harm survivors and the groups blamed.",
       "Dismissing every question about an official account as conspiracy thinking is also a misuse. Documented cases exist, and asking for evidence is fair."
     ],
     "how_to_distinguish_from_related": "Astroturfing fakes ordinary supporters; a false flag fakes an event and its author. Reflexive Control steers a rival's decision through selected information and need not stage anything. Wedge Issue Exploitation uses real divisions to fracture a coalition, with no deceit about who did what. A false flag is the one where the deception is about who stands behind a staged act."
   },
   "Post-Truth Epistemic Manipulation": {
-    "short_definition": "A flood of contradictions and denials that wears down belief that facts can be known, until people trust no source and nobody can be held to account.",
-    "core_meaning": "A flood of contradictions and denials that wears down belief that facts can be known, until people trust no source and nobody can be held to account.",
+    "short_definition": "A flood of contradictions and denials that wears down belief in knowable facts, until people trust no source and nobody can be held to account.",
+    "core_meaning": "A flood of contradictions and denials that wears down belief in knowable facts, until people trust no source and nobody can be held to account.",
     "expanded_definition": "'Post-truth' is a term for public life where appeals to emotion and identity count for more than facts you can check. As a manipulation pattern, it is a steady flood of contradictions, denials and 'who can really know' messages. People end up unsure whether anything can be verified. Doubting a specific claim is healthy. This pattern pushes doubt about whether claims can be tested at all. One dishonest statement, or one sincere moment of cynicism, does not show it. What marks it is the scale and the effect, which are fatigue and giving up.",
     "plain_language_summary": "People are pushed to feel that no one can know what is true, so they stop checking and stop objecting. Honest doubt about one claim is different; this is giving up on checking.",
     "why_this_matters": "When nothing can be known, nothing can be checked, and someone left doubting everything has no ground from which to object to anything. They may also fall back on whoever sounds most certain, or on their own group.",
@@ -377,7 +377,7 @@
     ],
     "repair_check": "Where trust is restored, sources publish their evidence, admit errors and let others check. A promise to be more honest next time, with no method others could test, restores very little.",
     "boundary_respect_check": "Ask what evidence would change their mind, and listen to the answer. A concrete answer shows that claims can still be tested. 'Nothing would, they all lie' shows that the idea that testing is impossible is holding steady.",
-    "psychological_mechanism": "Faced with more contradictory claims than they can sort, many of us save effort by switching off or retreating to the group we feel loyal to. Repeated falsehoods that carry no cost can teach that truth does not matter. Doubt can then spread from the false claim to the whole idea of checking.",
+    "psychological_mechanism": "Faced with more contradictory claims than we can sort, many of us save effort. We switch off or retreat to the group we feel loyal to. Repeated falsehoods that carry no cost can teach that truth does not matter. Doubt can then spread from the false claim to the whole idea of checking.",
     "possible_impact_on_receiver": "People describe exhaustion, cynicism, a sense that the effort to find out is wasted, and withdrawal from news or civic life. Others describe leaning harder on one trusted voice or group because everything else feels unreliable. Some feel shame at having been fooled and stop trusting even honest sources.",
     "response_options": {
       "soft_clarification": "Separate the two doubts out loud: 'I doubt that claim, and here is what would settle it. I do not doubt that things can be checked.'",

@@ -49,7 +49,7 @@
       "A person who struggles to say what they feel may go silent and then ease up once they feel heard. That has no link to who gave way."
     ],
     "common_false_positives": [
-      "A couple go quiet after a fight and warm up after a real apology from the person who was wrong, whichever of them that was.",
+      "A couple go quiet after a fight. They warm up after a real apology from the person who was wrong, whichever of them that was.",
       "A parent who is genuinely upset about a teenager's lie and is friendly again once the truth is out.",
       "A colleague who is curt during a crunch and cheerful when the launch is over."
     ],
@@ -83,7 +83,7 @@
     "response_options": {
       "soft_clarification": "Ask once, in a calm moment: 'I notice things get tense until I say yes, and then they lift. Can we talk about the actual disagreement while it is still calm?'",
       "firm_boundary": "Hold your position without arguing it, and let the quiet be quiet: 'I've decided, and I'm happy to talk about why. I'm not going to change my mind to make the mood better.'",
-      "disengagement": "When the chill sets in, put your attention on something that is yours, such as a walk, a call with a friend or a task. Do not negotiate with the silence.",
+      "disengagement": "When the chill sets in, put your attention on something of your own. That could be a walk, a call with a friend or a task. Do not negotiate with the silence.",
       "support_seeking": "Tell someone outside the relationship about two or three rounds of the cycle, including how fast you gave in. Hearing yourself say it often shows the sequence.",
       "workplace_or_professional": "If a manager's mood follows whether you comply, move requests and decisions into email or a shared tracker. Then the outcome rests on what is written, not on how the day felt."
     },
@@ -92,9 +92,9 @@
     "safety_note": "A cycle of pressure and relief is a strain on a relationship, not a sign of physical danger. Take it more seriously if the pressure grows to include threats, monitoring, or cutting you off from friends or money. Take it seriously, too, if you start to fear what happens when you hold your position. Those are the changes that call for a domestic abuse advocate or a counselor you trust.",
     "misuse_warning": [
       "Calling every mood after an argument a 'trap' can make normal cooling-off look sinister. A person who needs time and returns to talk is not applying pressure.",
-      "Using the label to prove that someone is manipulating you, based on how your own body responded, skips over what they actually said and did."
+      "Using the label to prove that someone is manipulating you is a misuse. Basing that proof on how your own body responded skips over what they actually said and did."
     ],
-    "how_to_distinguish_from_related": "Emotion Control sets which feelings are allowed and punishes the rest, whatever the topic. This cycle ties the pressure to one outcome: your yes. Nonverbal Dominance is the sigh, stare or eye roll itself. Here the point is how long the chill lasts and what ends it. Ritualized Exhaustion wears down a person through demands and lost sleep, whereas this pattern leaves your rest alone and works through the timing of relief."
+    "how_to_distinguish_from_related": "Emotion Control sets which feelings are allowed and punishes the rest, whatever the topic. This cycle ties the pressure to one outcome: your yes. Nonverbal Dominance is the sigh, stare or eye roll itself. Here the point is how long the chill lasts and what ends it. Ritualized Exhaustion wears down a person through demands and lost sleep. This pattern leaves your rest alone and works through the timing of relief."
   },
   "Moving-in-Silence": {
     "short_definition": "Settling a big matter that changes someone else's life without telling or asking them, so they hear about it only when it is finished.",
@@ -188,7 +188,7 @@
     "safety_sensitive": true,
     "safety_note": "Silent decisions become more serious when they take away your money, your home, your documents or your ability to reach other people. You may find accounts you cannot see, a lease you did not agree to or paperwork hidden from you. If so, quietly photograph or note what you can. Speak to a legal aid service or a domestic abuse advocate before raising it with anyone.",
     "misuse_warning": [
-      "Treating every one-sided choice as a controlling act can punish ordinary mistakes, forgetfulness, or a household where one person handles most of the logistics by agreement.",
+      "Treating every one-sided choice as a controlling act can punish ordinary mistakes and forgetfulness. It can also punish a household where one person handles most of the logistics by agreement.",
       "Using the label to demand a veto over every decision can bring back the one-sidedness you are trying to name."
     ],
     "how_to_distinguish_from_related": "Resource Sabotage removes the tools, money or access you need and then blames you for the result. Moving in silence is the decision itself being made out of your sight, whether or not your resources are touched. Emotion Control comes in after the news, when your reaction is called an overreaction. The difference is timing: here the harm is in what happened before you knew."
@@ -196,12 +196,12 @@
   "Smart-Home Coercion": {
     "short_definition": "Using connected home devices like locks, cameras, thermostats and speakers to watch, unsettle or control another person at home.",
     "core_meaning": "Using connected home devices like locks, cameras, thermostats and speakers to watch, unsettle or control another person at home.",
-    "expanded_definition": "Smart-home coercion is the use of connected devices, sold for convenience, to monitor or pressure someone who lives in or visits the home. Examples include a thermostat that changes by itself, lights that flicker, a lock that stops working, a camera feed someone else can see, or a speaker that records. Each device usually works normally most of the time, so it is hard to point to. One glitch means little. The picture changes when odd events cluster around conflict or independence, and when one person holds the accounts and the other does not.",
+    "expanded_definition": "Smart-home coercion is the use of connected devices to monitor or pressure someone who lives in or visits the home. These devices are sold for convenience. Examples include a thermostat that changes by itself, lights that flicker, or a lock that stops working. Others are a camera feed someone else can see, or a speaker that records. Each device usually works normally most of the time, so it is hard to point to. One glitch means little. The picture changes when odd events cluster around conflict or independence. It also changes when one person holds the accounts and the other does not.",
     "plain_language_summary": "Devices in the home, like locks, cameras and heating, are used to watch you or keep you on edge. They are hard to prove because they mostly work as normal.",
     "why_this_matters": "When the house itself becomes unpredictable, there is nowhere to be unobserved. There is also nothing you can show anyone else afterwards. A person can start doubting their own senses, or feel that even a private phone call is not private.",
     "what_it_is": [
       "A device account (the app, the hub, the router login) held by one person, who can see or change what the others cannot.",
-      "Changes that serve no practical purpose, such as temperature swings, lights or music at night, doors that will not unlock, or a doorbell camera that is suddenly offline.",
+      "Changes that serve no practical purpose. Examples are temperature swings, or lights or music at night. Others are doors that will not unlock, or a doorbell camera that is suddenly offline.",
       "Remarks that show knowledge only a device would have recorded, like when you came home or what was said in a room.",
       "A form of environmental control that uses technology. It often outlasts a separation if the accounts are never changed.",
       "Different from ordinary smart-home annoyance, because the events line up with moments of conflict and the person controlling the system will not share it."
@@ -240,7 +240,7 @@
     "innocent_or_ordinary_possibilities": [
       "Smart devices genuinely misbehave, losing their schedule after a power cut or an update.",
       "One person may have set up everything because they understand technology best, and may not have thought to share the login.",
-      "Old accounts from a previous tenant, an ex-partner or a family member who helped with setup may still be linked, with no one meaning to watch you."
+      "Old accounts from a previous tenant, an ex-partner or a family member who helped with setup may still be linked. No one has to mean to watch you."
     ],
     "common_false_positives": [
       "Hearing a voice assistant respond because it misheard a word on the television.",
@@ -281,7 +281,7 @@
       "support_seeking": "A domestic abuse advocate or a technology-safety service can help you check your devices safely. Reach them from a phone or computer the other person has never been able to use.",
       "workplace_or_professional": "If the home is rented, a landlord or rental agent may be able to reset devices they supplied. Keep any messages with them as a record."
     },
-    "boundary_script": "\"Is there a guide to the new system anywhere? I want to know how it works and what is in each room.\" If asking could bring on anger, leave the question alone and ask a tech-safety advocate instead.",
+    "boundary_script": "\"Is there a guide to the new system anywhere? I want to know how it works and what is in each room.\" If asking could bring on anger, leave it alone. Ask a tech-safety advocate instead.",
     "safety_sensitive": true,
     "safety_note": "Watch for signs that someone knows where you have been, tracks your phone or controls who can enter. If you suspect it, do not search for or disable devices at once, because that can be noticed. Use a safe device to contact a domestic abuse or tech-safety service, and plan any changes with them first.",
     "misuse_warning": [
@@ -293,7 +293,7 @@
   "Health Sabotage": {
     "short_definition": "Interfering with someone's medicine, sleep, food, exercise or medical care in ways that make them weaker and more dependent.",
     "core_meaning": "Interfering with someone's medicine, sleep, food, exercise or medical care in ways that make them weaker and more dependent.",
-    "expanded_definition": "Health sabotage is interference with the things a body and mind depend on: medication, sleep, regular meals, movement and doctor visits. It can be direct, such as hiding pills. It can be indirect, such as picking a fight at midnight before an early appointment or never having the car free on clinic days. Illness, newborns and money worries disrupt everyone's routines without anyone doing anything. The pattern is different when the disruption falls on one person, has no ordinary explanation, and lands when that person is trying to act on their own.",
+    "expanded_definition": "Health sabotage is interference with the things a body and mind depend on. These are medication, sleep, regular meals, movement and doctor visits. It can be direct, such as hiding pills. It can be indirect, such as picking a fight at midnight before an early appointment. Another example is never having the car free on clinic days. Illness, newborns and money worries disrupt everyone's routines without anyone doing anything. The pattern is different when the disruption falls on one person and has no ordinary explanation. It also lands when that person is trying to act on their own.",
     "plain_language_summary": "Someone interferes with your pills, sleep, food or appointments in ways that wear you down, so you rely on them more.",
     "why_this_matters": "Sleep, medication and medical care are the ground a person stands on to think and act. When those go, so does the capacity to notice what is happening, or to make a plan to get somewhere safer.",
     "what_it_is": [
@@ -380,7 +380,7 @@
     },
     "boundary_script": "\"My health care matters to me. I'd really appreciate your help keeping my appointments and my medication on schedule.\" If this could provoke a reaction, leave it out.",
     "safety_sensitive": true,
-    "safety_note": "Take extra care if medicines go missing. Take extra care too if you are kept awake or cut off from care around the time you try to make a change, or if you feel physically unwell for no clear reason. A doctor, pharmacist or domestic abuse advocate can help you privately. If you feel seriously ill or think you have been given something you did not take knowingly, get medical help straight away.",
+    "safety_note": "Take extra care if medicines go missing. Take extra care too if you are kept awake or cut off from care when you try to make a change. The same goes if you feel physically unwell for no clear reason. A doctor, pharmacist or domestic abuse advocate can help you privately. Get medical help straight away if you feel seriously ill. Do the same if you think you have been given something you did not take knowingly.",
     "misuse_warning": [
       "Assuming every missed dose or tired caregiver means sabotage can hurt someone who is stretched thin and doing their best.",
       "Using the label to wave away a family member's real concern about a treatment can end conversations that a doctor could help with."
@@ -390,7 +390,7 @@
   "Blackmail / Leverage Exploitation": {
     "short_definition": "Holding private or damaging information, true or not, over someone to force compliance or silence, under a stated or implied threat of exposure.",
     "core_meaning": "Holding private or damaging information, true or not, over someone to force compliance or silence, under a stated or implied threat of exposure.",
-    "expanded_definition": "Blackmail is the plain form: a demand with a threat of exposure attached. Leverage exploitation is the broader idea. It includes cases where no demand is spoken and a pointed reference to something private does the work. The information might be a secret shared in trust, an old mistake, images, immigration status, or something invented. One furious remark in a fight, retracted, is different. The pattern is a specific demand tied to the possibility of exposure, and fear that keeps working long after any one demand has passed.",
+    "expanded_definition": "Blackmail is the plain form: a demand with a threat of exposure attached. Leverage exploitation is the wider idea. It includes cases where no demand is spoken and a pointed reference to something private does the work. The information might be a secret shared in trust, an old mistake, images, immigration status, or something invented. One furious remark in a fight, retracted, is different. The pattern is a specific demand tied to the possibility of exposure. Fear keeps working long after any one demand has passed.",
     "plain_language_summary": "Someone holds something private or damaging over you and makes it clear it could come out if you do not do what they want.",
     "why_this_matters": "Something shared in trust becomes the reason you can no longer say no. The fear of exposure keeps working long after any particular demand has passed. It can make asking for help feel impossible, because asking means risking the thing you were told would come out.",
     "what_it_is": [
@@ -410,7 +410,7 @@
       "(A message from an unknown account, with a screenshot of a private conversation, and a deadline.)"
     ],
     "what_it_is_not": [
-      "Real hurt about something you once shared or did, said out loud with no demand attached. Hurt and leverage are not the same thing.",
+      "Real hurt about something you once shared or did, said out loud with no demand attached. Hurt is not the same as a hold over you.",
       "Pursuing genuine wrongdoing through proper channels, such as reporting a crime or a policy breach to the police, a regulator or a manager. That is not holding a secret over someone.",
       "A furious remark made in a single heated moment and retracted afterwards, which may be anger and not a lever.",
       "Someone honestly warning you about a consequence they do not control, for example 'if the landlord finds out, you may lose the apartment'.",
@@ -466,10 +466,10 @@
     ],
     "repair_check": "Repair here would be tangible: no further demands and no further mention of the material, sustained over months. An apology while the material is still in their hands, or a new request soon after, is not that.",
     "boundary_respect_check": "Notice whether a refusal, even a small one, is met without any mention of the secret. If the topic returns, quietly or loudly, the boundary is not being respected, and that is worth noting down with dates. Silence on the secret over months is a better sign than any promise.",
-    "psychological_mechanism": "Fear of exposure works like a ticking clock. The person making the threat does not need to act, since waiting is enough. Shame about the content, and dread of losing a job, family or home, can lead a person to comply, hide the pressure and avoid the very people who could help. Telling anyone appears to risk setting off the thing most feared.",
+    "psychological_mechanism": "Fear of exposure works like a ticking clock. The person making the threat does not need to act, since waiting is enough. Shame about the content can lead a person to comply, hide the pressure and avoid people who could help. So can dread of losing a job, family or home. Telling anyone appears to risk setting off the thing most feared.",
     "possible_impact_on_receiver": "Constant dread, checking the phone for messages, compliance they hate themselves for, and isolation are all reported. Telling someone seems to risk the very thing they fear. Shame can keep people silent for a long time. Relief can follow when they finally tell one trusted person and the reaction is not what they expected.",
     "response_options": {
-      "soft_clarification": "If you reply at all, keep it to one calm line that agrees to nothing, like 'I've received your message.' Do not argue about the content or react to the threat.",
+      "soft_clarification": "If you reply at all, keep it to one calm line. It should agree to nothing, like 'I've received your message.' Do not argue about the content or react to the threat.",
       "firm_boundary": "If refusing feels safe, keep it short and leave the secret out of it. 'That is not something I can agree to.' Do not explain or justify, and do not debate the threat.",
       "disengagement": "You do not have to answer every message or meet a deadline. Save everything (screenshots, dates, numbers) in a place only you can reach and avoid replying in anger.",
       "support_seeking": "Speak to a domestic abuse advocate, a victim support service or a legal aid clinic. If images are involved, specialist image-abuse helplines can help with removal. Tell one person you trust.",
@@ -477,7 +477,7 @@
     },
     "boundary_script": "\"I'm not able to give you an answer right now. I need time to think, and I will get back to you.\"",
     "safety_sensitive": true,
-    "safety_note": "Blackmail can be a crime in many places, and demands can grow if they are met. Keep dated copies of every message somewhere the other person cannot reach. If intimate images, money or your safety are involved, contact the police, a victim support service or a lawyer about the right next step, and do not hand over more.",
+    "safety_note": "Blackmail can be a crime in many places, and demands can grow if they are met. Keep dated copies of every message somewhere the other person cannot reach. If intimate images, money or your safety are involved, contact the police, a victim support service or a lawyer. They can advise on the right next step. Do not hand over more.",
     "misuse_warning": [
       "Calling an angry remark or a request for accountability 'blackmail' can silence someone who is reporting real wrongdoing through a proper channel.",
       "Using the word for any mention of your past can turn a fair boundary conversation into an accusation before anyone has made a demand."
@@ -487,11 +487,11 @@
   "Willful Blindness as Complicity": {
     "short_definition": "Not looking into, acknowledging or acting on wrongdoing there is good reason to suspect, so that 'I didn't know' can be said later.",
     "core_meaning": "Not looking into, acknowledging or acting on wrongdoing there is good reason to suspect, so that 'I didn't know' can be said later.",
-    "expanded_definition": "Willful blindness is when a person or organization has strong signs of harm in front of them and does not ask the next question, open the file or speak to the person involved. Because they never confirm, they can say they never knew. It shows in the gap between how easy it would have been to find out and how little was done. This is usually someone whose role would normally call for a closer look. Not knowing is common. This is a particular, repeated kind of not looking, and it cannot show what anyone was thinking.",
+    "expanded_definition": "Willful blindness is when a person or organization has strong signs of harm in front of them. They do not ask the next question, open the file or speak to the person involved. Because they never confirm, they can say they never knew. It shows in the gap between how easy it would have been to find out and how little was done. This is usually someone whose role would normally call for a closer look. Not knowing is common. This is a particular, repeated kind of not looking. It cannot show what anyone was thinking.",
     "plain_language_summary": "Someone who could see the harm doesn't look and doesn't ask, then says they didn't know. The harm goes on, and nobody answers for it.",
     "why_this_matters": "When the person best placed to look declines to, harm carries on with nobody formally responsible for it. The person being harmed has no route to anyone who will act. Being told 'we had no idea' about something you reported can add its own injury.",
     "what_it_is": [
-      "Clear warning signs, such as repeated complaints, injuries, missing money or a pattern in the records, that no one follows up on, even though following up is their job.",
+      "Clear warning signs that no one follows up on, even though following up is their job. Examples are repeated complaints, injuries, missing money or a pattern in the records.",
       "Steering clear of the one question, document or conversation that would make inaction harder to defend.",
       "A later 'I didn't know' in a case where the information was within easy reach.",
       "It is seen in families, workplaces, schools, congregations, clubs, landlords and boards, wherever someone is expected to supervise or protect.",
@@ -564,7 +564,7 @@
     "repair_check": "Real repair is the file being opened. They ask for the evidence, speak to the people involved, tell you what they will do and by when, and do it. An expression of sorrow that they were not told, with no change in who looks at what, leaves the gap in place.",
     "boundary_respect_check": "After you put a concern in writing, check what comes back: an acknowledgment with a date, a named person, a next step. Warm words with no record and no follow-up are different from a documented response. The difference is easy to see after a few weeks.",
     "psychological_mechanism": "Looking away can protect a person from the effort, cost or conflict that knowing would bring. Groups can slip into it together, each person assuming that someone else has checked. It can be easier to tell oneself 'there must be an explanation' than to find out there is not. Responsibility can end up spread so thinly that nobody holds it.",
-    "possible_impact_on_receiver": "Feeling unseen is common. So is repeating the same account to person after person, doubting whether what you saw was real, and losing faith in those you turned to. Some say being ignored by someone who should have helped hurt as much as the original harm. Anger can grow with each unanswered message.",
+    "possible_impact_on_receiver": "Feeling unseen is common. Repeating the same account to person after person is common too. So is doubting whether what you saw was real, and losing faith in those you turned to. Some say being ignored by someone who should have helped hurt as much as the original harm. Anger can grow with each unanswered message.",
     "response_options": {
       "soft_clarification": "Put the facts in a short, dated message and ask a direct question: 'On the 3rd I told you about this. What has been done, and who is looking into it?'",
       "firm_boundary": "Ask for a written response from a named person. 'Please confirm in writing who is dealing with this and when I will hear back.'",
@@ -576,15 +576,15 @@
     "safety_sensitive": false,
     "safety_note": "The tactic itself is not a danger sign, but the harm that goes unaddressed can be serious. The situation may involve a child, someone at risk of violence, or retaliation for speaking up. Then contact the relevant protection service, regulator or the police directly, and do not wait for the responsible person to act.",
     "misuse_warning": [
-      "Accusing someone of willful blindness because they failed to act on something they never had a chance to learn can unfairly blame bystanders who had no knowledge.",
-      "Using the label to insist that a person must have known, based on hindsight, treats what is clear now as if it had been clear then."
+      "Accusing someone of willful blindness can unfairly blame bystanders who had no knowledge. That happens when they failed to act on something they never had a chance to learn.",
+      "Using the label to insist that a person must have known, based on hindsight, is a misuse of it. It treats what is clear now as if it had been clear then."
     ],
     "how_to_distinguish_from_related": "Resource Sabotage removes what you need, such as funding or support, and then blames you for the result. Willful blindness removes nothing and simply does not look. Emotion Control tells you which feelings are acceptable to show. This pattern is about someone declining to receive your report, whatever you feel."
   },
   "Moral Outrage as Weapon": {
     "short_definition": "Answering a disagreement with intense moral anger far out of proportion, so that questioning it looks like siding with wrongdoing.",
     "core_meaning": "Answering a disagreement with intense moral anger far out of proportion, so that questioning it looks like siding with wrongdoing.",
-    "expanded_definition": "Moral outrage can be an honest response to something truly wrong. As a weapon, it appears in disputes where the loudness of the condemnation does the work an argument would normally do. The speaker takes the high ground. The other person is cast as defending something shameful, and any question about proportion becomes more evidence against them. One strong reaction means little. The pattern is an intensity that grows each time someone asks whether it fits the facts, and a conversation that ends because of how it feels, not because of what was said.",
+    "expanded_definition": "Moral outrage can be an honest response to something truly wrong. As a weapon, it appears in disputes where the loudness of the condemnation does the work an argument would normally do. The speaker takes the high ground. The other person is cast as defending something shameful. Any question about proportion becomes more evidence against them. One strong reaction means little. The pattern is an intensity that grows each time someone asks whether it fits the facts. The conversation ends because of how it feels, not because of what was said.",
     "plain_language_summary": "Someone reacts with such strong moral anger that you stop disagreeing. Asking a question starts to feel like defending something terrible.",
     "why_this_matters": "Backing down to lower the temperature does not mean you agree, yet it ends the conversation just as well. Questioning the intensity begins to look like defending the thing being condemned, so ordinary disagreement becomes hard to voice.",
     "what_it_is": [
@@ -660,18 +660,18 @@
     ],
     "repair_check": "Look at whether a question about proportion becomes safe to ask. After the heat has gone, can the two of you talk about what actually happened? Can the person say the response was larger than the event? A pause that ends with you agreeing to the same terms as before has changed nothing.",
     "boundary_respect_check": "Try saying that you take the issue seriously and want to understand it before agreeing. Watch whether you get an explanation or a bigger charge. A person who can go from condemning to explaining, even stiffly, is respecting the request. One who answers a request for detail with disgust is not.",
-    "psychological_mechanism": "Strong moral emotion often signals that something important is at stake, and many people hurry to calm it. When any question can be read as agreeing with the thing condemned, objecting carries a social cost, so going quiet can seem safer than speaking. Over time, the person on the receiving end may check their words before anyone reacts.",
-    "possible_impact_on_receiver": "Some walk on eggshells around certain topics, rehearse explanations that never get a hearing, and carry a sense of shame that does not match anything they did. Others start to doubt whether their own values are sound. Some agree out loud while privately feeling unconvinced, and feel worn down by the gap.",
+    "psychological_mechanism": "Strong moral emotion often signals that something important is at stake, and many people hurry to calm it. When any question can be read as agreeing with the thing condemned, objecting carries a social cost. Going quiet can seem safer than speaking. Over time, the person on the receiving end may check their words before anyone reacts.",
+    "possible_impact_on_receiver": "Some walk on eggshells around certain topics and rehearse explanations that never get a hearing. They may carry a sense of shame that does not match anything they did. Others start to doubt whether their own values are sound. Some agree out loud while privately feeling unconvinced, and feel worn down by the gap.",
     "response_options": {
       "soft_clarification": "Separate the issue from the person with a question: 'Can you tell me what exactly bothers you most? I want to understand before I answer.'",
       "firm_boundary": "Keep the discussion on the subject: 'I take this seriously, and I am not defending anything. I'm asking questions so I can understand.' Repeat it once, calmly, without raising your voice.",
       "disengagement": "When the intensity rises, you can step away for a set time and return. 'Let's pick this up this evening when we've both had a break.'",
       "support_seeking": "Describe what was said to someone neutral, ideally someone who knows both of you or neither of you. Ask whether the reaction seems to fit the event.",
-      "workplace_or_professional": "At work, suggest taking a disputed matter to a written account or a meeting run by a neutral person, where the facts can be set out before anyone responds."
+      "workplace_or_professional": "At work, suggest taking a disputed matter to a written account or a meeting run by a neutral person. That way the facts can be set out before anyone responds."
     },
     "boundary_script": "\"I can hear how strongly you feel, and I want to understand it. Let's go through what happened one step at a time. Asking questions doesn't mean I don't care.\"",
     "safety_sensitive": false,
-    "safety_note": "Loud righteous anger is a communication pattern, not a physical-safety signal. It becomes more serious if the outrage comes with threats, public shaming campaigns, or attempts to turn your friends or workplace against you. Fear of what happens when you disagree is another sign. If those appear, keep dated copies of the messages and posts and take them to the complaints process of the workplace, school or group you share.",
+    "safety_note": "Loud righteous anger is a communication pattern, not a physical-safety signal. It becomes more serious if the outrage comes with threats or public shaming campaigns. Another sign is any attempt to turn your friends or workplace against you. Fear of what happens when you disagree is also a sign. If those appear, keep dated copies of the messages and posts. Take them to the complaints process of the workplace, school or group you share.",
     "misuse_warning": [
       "Labeling a person's sincere anger as a 'weapon' can wave away real harms they are describing. Anger that is strong and proportionate to a serious wrong is not this.",
       "Using the label to avoid a hard moral conversation lets the questioner off the hook for listening."

@@ -4136,7 +4136,7 @@
   {
    "name": "Resource Sabotage",
    "cat": "Control structural",
-   "what": "Taking away the tools, information, money or help a person needs to do something, then treating the failure that follows as proof they are not up to it.",
+   "what": "Taking away the tools, information, money or help someone needs, and calling the failure proof they are not up to it.",
    "nots": [
     "Budgets get cut, colleagues forget things, and money and attention are legitimately redirected for real, stated reasons. Ask whether the shortfall lands on everyone or only ever on one person. Ask too whether the missing support is acknowledged when the work then fails.",
     "A team-wide shortage that everyone is working around together.",
@@ -4247,7 +4247,7 @@
     "You don't get to decide that on your own.",
     "You've said no three times, and we're not done talking."
    ],
-   "why": "A decision that belongs to one person's body and life ends up made under the weight of what refusal would cost: job, money, support, standing in the family."
+   "why": "A decision that belongs to one person's body and life ends up made under pressure. The pressure is what refusal would cost: job, money, support, standing in the family."
   },
   {
    "name": "Negative Reinforcement Traps",
@@ -4350,7 +4350,7 @@
    "cat": "Control structural",
    "what": "Holding private or damaging information, true or not, over someone to force compliance or silence, under a stated or implied threat of exposure.",
    "nots": [
-    "Real hurt about something you once shared or did, said out loud with no demand attached. Hurt and leverage are not the same thing.",
+    "Real hurt about something you once shared or did, said out loud with no demand attached. Hurt is not the same as a hold over you.",
     "Pursuing genuine wrongdoing through proper channels, such as reporting a crime or a policy breach to the police, a regulator or a manager. That is not holding a secret over someone.",
     "A furious remark made in a single heated moment and retracted afterwards, which may be anger and not a lever.",
     "Someone honestly warning you about a consequence they do not control, for example 'if the landlord finds out, you may lose the apartment'.",
@@ -4423,7 +4423,7 @@
    "what": "Cutting off all contact with no explanation and then returning later, leaving the other person with questions they cannot settle.",
    "nots": [
     "Someone who says 'I need distance right now' and then stays distant. Even a short line like that is an explanation, and it ends the guessing.",
-    "A person who finds every hard conversation so uncomfortable that they avoid all of them, with everyone and not only with you.",
+    "A person who finds every hard conversation so uncomfortable that they avoid all of them, with everyone in their life, you included.",
     "A friendship or romance that faded by mutual drift, where neither side chased and neither felt dropped.",
     "A pause forced by circumstances, such as a hospital stay, a lost phone, a bereavement or a posting with no signal.",
     "Going quiet yourself to stay away from someone who is unsafe. That is a sound choice and not this pattern."
@@ -4489,7 +4489,7 @@
   {
    "name": "Stalking & Surveillance (Post-Separation)",
    "cat": "Discard / institutional",
-   "what": "After a breakup, repeated watching, tracking or following of a former partner, in person or through phones and accounts, that leaves them unable to live unobserved.",
+   "what": "After a breakup, repeatedly watching, tracking or following a former partner, in person or through phones and accounts, until they cannot live unobserved.",
    "nots": [
     "Shared custody and shared property need real, continuing contact: handoffs, schedules, a lease, a car loan.",
     "News traveling through mutual friends, with nobody asking or monitoring anyone.",
@@ -4554,12 +4554,12 @@
     "Background sound that changes in tone or volume mid-sentence.",
     "You remember the moment, and the clip does not sound like what happened."
    ],
-   "why": "A recording carries the authority of evidence, so the person in it has to talk their way out of something that appears to show itself. An explanation of the missing context rarely travels as far as the clip did."
+   "why": "A recording carries the authority of evidence. The person in it has to talk their way out of something that appears to show itself. An explanation of the missing context rarely travels as far as the clip did."
   },
   {
    "name": "Account Takeover",
    "cat": "Discard / institutional",
-   "what": "Taking over someone's email, social media, banking or cloud accounts, which leaves them watched, spoken for, cut off or locked out of their own online life.",
+   "what": "Taking over someone's email, social media, banking or cloud accounts, so they are watched, spoken for and cut off from their online life.",
    "nots": [
     "Forgotten passwords, expired codes and lost phones. A locked account on its own is a common technical problem.",
     "Platform outages, bugs and automatic security locks after an unusual login. These affect many users at once.",
@@ -4583,7 +4583,7 @@
   {
    "name": "SIM Swap / 2FA Interception",
    "cat": "Discard / institutional",
-   "what": "Someone takes over a person's phone number or the text codes sent to it, then uses them to get into accounts, lock the person out or read messages.",
+   "what": "Someone takes over a person's phone number or its text codes, then uses them to get into accounts, lock the person out or read messages.",
    "nots": [
     "Carriers have outages, tower maintenance and billing errors that drop service for hours.",
     "A single odd authentication code on one platform, which often means someone mistyped their own address.",
@@ -4611,7 +4611,7 @@
     "Images shared consensually inside a relationship, with no threat and no sharing beyond it.",
     "Adults who agreed to publish or sell their own content, such as a creator or a couple who chose to post together.",
     "An accidental send to the wrong chat that the recipient deletes at once and tells you about.",
-    "Someone tells you they came across an image of you posted by a third party, so that you can report it, with no demand attached.",
+    "Someone tells you they came across an image of you posted by a third party, so you can report it. They make no demand.",
     "A vague line like 'I have stuff on you' with no mention of images, which is a different kind of threat."
    ],
    "tag": "reference",
@@ -4793,7 +4793,7 @@
   {
    "name": "Weaponized AI Empathy",
    "cat": "Digital & AI",
-   "what": "An automated system that performs warmth and understanding so well that people share, trust or go along more than they would with a plainly mechanical tool.",
+   "what": "An automated system that acts warm and understanding so well that people share, trust or go along more than they would with a plain machine.",
    "nots": [
     "Warm, attentive design in an assistant is not deceit, and people take real comfort from these tools. The line sits at apparent care used to draw out information or compliance that would otherwise have been withheld.",
     "A polite customer-service script that says sorry for the delay and then solves the problem.",
@@ -4898,12 +4898,12 @@
     "A stranger's friendly message references a fact about your life that you only shared in a support group or a private post.",
     "The offers all carry urgency, such as 'today only', and none of them mention costs plainly."
    ],
-   "why": "The approach arrives just when a person is least able to weigh it, such as when they are short of money, newly bereaved or isolated. That is why it works. The cost can be debt, lost savings, health risks or a slide toward harmful beliefs."
+   "why": "The approach arrives just when a person is least able to weigh it. This could be when they are short of money, newly bereaved or isolated. That is why it works. The cost can be debt, lost savings, health risks or a slide toward harmful beliefs."
   },
   {
    "name": "Pig Butchering (Long-Con Digital Fraud)",
    "cat": "Digital & AI",
-   "what": "A slow online fraud in which a stranger wins your trust over weeks or months, then steers you into a fake investment or other money loss.",
+   "what": "A slow online fraud where a stranger wins your trust over weeks or months, then steers you into a fake investment or money loss.",
    "nots": [
     "Real friendships and relationships do begin online and build slowly. Someone talking happily about their own investments may simply be doing that. The turn to notice is a relationship that has asked for nothing starting to steer money toward a platform it introduced.",
     "A real wrong-number text where both people say sorry and move on.",
@@ -5013,7 +5013,7 @@
   {
    "name": "Computational Propaganda",
    "cat": "Political & Propaganda",
-   "what": "Using bots, fake accounts and automated tools to flood public talk with political messages that pass as real opinion at a scale no crowd could match.",
+   "what": "Using bots, fake accounts and automated tools to flood public talk with political messages posing as real opinion, at a scale no crowd could match.",
    "nots": [
     "Parties, campaigns and advocacy groups legitimately coordinating their messaging, which is ordinary politics.",
     "Scheduling tools and staff-run accounts, which are not bots.",
@@ -5102,12 +5102,12 @@
     "Posts claiming victims never existed, a common over-claim that is not evidence of staging.",
     "Later findings that the party first named was not involved."
    ],
-   "why": "Retaliation, suspicion and public anger land on a group that did not do the thing, and the record that would correct it is the very thing that was arranged. The opposite harm exists too. Calling real tragedies staged wounds the people who lived them."
+   "why": "Retaliation, suspicion and public anger land on a group that did not do the thing. The record that would correct it is the very thing that was arranged. The opposite harm exists too. Calling real tragedies staged wounds the people who lived them."
   },
   {
    "name": "Post-Truth Epistemic Manipulation",
    "cat": "Political & Propaganda",
-   "what": "A flood of contradictions and denials that wears down belief that facts can be known, until people trust no source and nobody can be held to account.",
+   "what": "A flood of contradictions and denials that wears down belief in knowable facts, until people trust no source and nobody can be held to account.",
    "nots": [
     "Distrust of institutions is often earned. Saying that reporting has bias or uncertainty is honest. The difference is between doubting one claim and giving up on the idea that claims can be tested at all.",
     "A scientist saying results are uncertain and giving the margin of error.",
@@ -5131,7 +5131,7 @@
   {
    "name": "Honey Trapping",
    "cat": "Espionage & Influence Operations",
-   "what": "Using a romantic or sexual relationship as cover for an intelligence aim, like getting at secrets, recruiting someone, or collecting material to pressure them later.",
+   "what": "Using a romantic or sexual relationship as cover for an intelligence aim, like getting secrets, recruiting someone, or collecting material for later pressure.",
    "nots": [
     "Relationships involving people in sensitive positions are overwhelmingly just relationships. Suspicion about a partner's motives is not evidence of an operation.",
     "Attraction between colleagues, conference-goers, or neighbors, which happens constantly without anything being arranged.",
@@ -26838,7 +26838,7 @@
    "forensic_only": false,
    "absorbs": [],
    "short_definition": "A relentless run of schedules, demands and lost sleep that keeps a person too depleted to think clearly, weigh options or push back.",
-   "expanded_definition": "Ritualized exhaustion is a long-running pattern of fixed routines, constant demands and cut-down sleep. It leaves a person worn out for a long time, which is different from being briefly busy. It can appear in a household, a workplace, a caregiving arrangement or a tightly run group. A hard week or a launch crunch is not this. What sets it apart is a load with no end date, rest treated as laziness or failure, and a reduced ability to think and object that nobody acknowledges.",
+   "expanded_definition": "Ritualized exhaustion is a long-running pattern of fixed routines, constant demands and cut-down sleep. It leaves a person worn out for a long time, which is different from being briefly busy. It can appear in a household, a workplace, a caregiving arrangement or a tightly run group. A hard week or a launch crunch is not this. What sets it apart is a load with no end date. Rest is treated as laziness or failure. Nobody acknowledges that the person's ability to think and object has shrunk.",
    "plain_language_summary": "You are kept so busy and so short of sleep that you have nothing left for thinking, deciding or saying no.",
    "why_this_matters": "Depletion that runs for months narrows your ability to think, weigh options and push back. Once that is gone, noticing it is gone gets harder too.",
    "what_it_is": [
@@ -26917,7 +26917,7 @@
    "psychological_mechanism": "Long sleep loss and constant demand can reduce attention, memory and the ability to plan or weigh consequences. A tired person may take the nearest available option and accept requests they would otherwise refuse. They may have little energy left to question the arrangement. The schedule can also use up the very time in which someone might talk to friends, look at alternatives or simply think.",
    "possible_impact_on_receiver": "Accounts include fog, irritability, getting sick more often, forgetting simple things, and a feeling of watching one's own life from a distance. Some lose the ability to picture an alternative, or the energy to want one. Others notice how quickly their thinking cleared after a few nights of real sleep.",
    "response_options": {
-    "soft_clarification": "Ask how long the load will last, instead of whether it is fair: 'How long do you expect this pace to last, and what could ease it?'",
+    "soft_clarification": "Ask how long the load will last, instead of whether it is fair. You could say: 'How long do you expect this pace to last, and what could ease it?'",
     "firm_boundary": "Make one small request in plain terms: 'I do better work when I've slept. Could late-night requests wait until morning?'",
     "disengagement": "Protect small pockets of rest, and do not announce them or argue about them. Try a short walk, a meal eaten sitting down, or ten minutes of quiet.",
     "support_seeking": "Tell a doctor about your sleep and workload, and a trusted friend or advocate about the schedule itself. If anyone controls when you may sleep or eat, an advocate can help you plan privately.",
@@ -26960,11 +26960,11 @@
     "Postural Dominance"
    ],
    "short_definition": "Using posture, stares, sighs, eye rolls or the way a body fills a room to dismiss or pressure someone without saying anything.",
-   "expanded_definition": "Nonverbal dominance is pressure carried by the body instead of words. Examples are a pointed sigh, an eye roll, a long stare, standing over someone who is seated, or taking the head of the table and more room than the moment needs. When it is mostly about how someone stands or sits, it is called postural dominance. Each signal is easy to deny and hard to quote. One sigh means little. It is a concern when it reliably lands on the moments you disagree, correct something or ask for something, and you start editing yourself around it.",
+   "expanded_definition": "Nonverbal dominance is pressure carried by the body instead of words. Examples are a pointed sigh, an eye roll, a long stare, or standing over someone who is seated. Another is taking the head of the table and more room than the moment needs. When it is mostly about how someone stands or sits, it is called postural dominance. Each signal is easy to deny and hard to quote. One sigh means little. It is a concern when it reliably lands on moments when you disagree, correct something or ask for something. You may start editing yourself around it.",
    "plain_language_summary": "Without saying a word, someone uses sighs, stares, eye rolls or where they stand to make you feel small, so you stop disagreeing. There is nothing you could quote back to them.",
    "why_this_matters": "Nothing quotable is said, so the experience is hard to explain to anyone else. You may end up quietly editing yourself around a reaction you could not describe if asked. Being looked down on, literally, works below the level of argument. You feel smaller and cannot point to why.",
    "what_it_is": [
-    "Signals sent with the face and body: sighs, eye rolls, long stares, a turned back, or a slow exhale timed to the end of your sentence.",
+    "Signals sent with the face and body. They include sighs, eye rolls, long stares and a turned back. Another is a slow exhale timed to the end of your sentence.",
     "Positioning that puts you lower or smaller. Examples are standing over you while you sit, taking the head of the table, or leaning over your desk or your chair.",
     "Wordless, so it leaves nothing to quote and is easy to answer with 'I didn't say anything.'",
     "Found in kitchens, meetings, classrooms and car rides, where the same sigh can carry a very different weight.",
@@ -27041,7 +27041,7 @@
    "possible_impact_on_receiver": "People describe going quiet in the room, rehearsing sentences, shrinking in their chair, and feeling tense before they have said anything. Some say they cannot explain to others why a sigh frightens them, and begin to wonder if they are oversensitive. Others describe losing the habit of disagreeing at all.",
    "response_options": {
     "soft_clarification": "Pick a calm moment and ask for words: 'I can't always tell what that look means. Can you tell me what you think?'",
-    "firm_boundary": "Describe the effect on you once, and do not ask for a promise: 'When I get a stare after I speak, I stop saying what I think. I would like to hear it in words.'",
+    "firm_boundary": "Describe the effect on you once. Do not ask for a promise. You could say: 'When I get a stare after I speak, I stop saying what I think. I would like to hear it in words.'",
     "disengagement": "Choose where you sit and stand so you are level with the person, near a door and, where you can, in view of others. Keep harder subjects for times when someone else is around.",
     "support_seeking": "Describe what you see, and how your body reacts, to a trusted person or a domestic violence advocate. Ask if it sounds like part of something larger, especially if you feel afraid.",
     "workplace_or_professional": "Write down dates, who was present and what you saw, in plain description ('stood over my desk while I spoke, arms folded'). Ask for meetings to run with an agenda or a third person present."
@@ -27196,11 +27196,11 @@
    "branch": "reference",
    "category": "Control structural",
    "detectability_note": "This tool cannot establish this from pasted text at all. It is included for literacy only, so you can learn to recognize the concept — not as something this tool detects, scores, or flags.",
-   "core_meaning": "Taking away the tools, information, money or help a person needs to do something, then treating the failure that follows as proof they are not up to it.",
+   "core_meaning": "Taking away the tools, information, money or help someone needs, and calling the failure proof they are not up to it.",
    "aftermath_state": false,
    "forensic_only": false,
    "absorbs": [],
-   "short_definition": "Taking away the tools, information, money or help a person needs to do something, then treating the failure that follows as proof they are not up to it.",
+   "short_definition": "Taking away the tools, information, money or help someone needs, and calling the failure proof they are not up to it.",
    "expanded_definition": "Resource sabotage is when what someone needs to succeed goes missing. The budget is cut, the login stops working, the car is unavailable, or the instructions never get passed on. The shortfall is then treated as the person's own failing. It can occur in a job, a household, a study program or a caring role. Shortages happen to everyone. Look at whether the gap lands on one person, often arrives just before something important, and goes unmentioned when the work then falls short.",
    "plain_language_summary": "The things you need to succeed keep going missing, and then the failure is blamed on you.",
    "why_this_matters": "When someone fails without the tools they needed, everyone watching sees plain incompetence. Often the person sees it that way too.",
@@ -27281,13 +27281,13 @@
    "possible_impact_on_receiver": "Common accounts: working harder and getting less, always feeling slightly behind, and shame about failures that cannot be fully explained. Some begin keeping copies, receipts and lists to show what went missing. Others stop applying for things or asking for help, since asking brought delay. Seeing the whole list written out can bring relief.",
    "response_options": {
     "soft_clarification": "Ask what you need and when: 'The file I need for Thursday hasn't arrived. Can you tell me when I'll get it?'",
-    "firm_boundary": "Put the request in writing with a date, and keep a copy: 'I need the login and the budget figures by Wednesday to finish on time.'",
+    "firm_boundary": "Put the request in writing with a date, and keep a copy. You could say: 'I need the login and the budget figures by Wednesday to finish on time.'",
     "disengagement": "Build your own backup: copies of key files, a second route to your work, a little money or a ride you control. That reduces how much one withheld item can stop you.",
     "support_seeking": "Show a list of what went missing, and when, to a friend, mentor or advocate who can compare it with what others had. If money or housing depends on the person, legal aid can look at your options privately.",
     "workplace_or_professional": "Keep a dated log of requests and responses, and follow up by email. Raise the pattern, and its effect on your results, with a manager, HR or a union representative."
    },
    "boundary_script": "\"I can only do this well if I have the figures and the login. Could you tell me today when I'll have them, so I can plan around it?\"",
-   "safety_note": "Cut-off money, transport, documents or phones can be part of financial or coercive control, which means control kept up through dependence and fear, especially at home. Watch for needing permission to spend, being kept from your own accounts or papers, or fear of what happens if you ask. A financial abuse advocate or legal aid service can help you plan. Copies of important documents are safest with someone you trust.",
+   "safety_note": "Cut-off money, transport, documents or phones can be part of financial or coercive control. That means control kept up through dependence and fear, especially at home. Watch for needing permission to spend, or being kept from your own accounts or papers. Also watch for fear of what happens if you ask. A financial abuse advocate or legal aid service can help you plan. Copies of important documents are safest with someone you trust.",
    "safety_sensitive": true,
    "misuse_warning": [
     "Calling every shortage or forgotten message sabotage turns ordinary mistakes into accusations. The label fits a gap that falls on one person again and again, and is then blamed on them.",
@@ -27321,7 +27321,7 @@
    "forensic_only": false,
    "absorbs": [],
    "short_definition": "Slowly removing a person's meaningful work, visibility and belonging until their leaving looks like a free choice on paper.",
-   "expanded_definition": "Being managed out is a gradual loss of a place. Projects are reassigned, invitations to meetings stop, and feedback dries up. The person is left with little to do and no one asking for their view. Nothing is formally taken away and no complaint is filed, so a resignation reads as their own decision. Restructures and role changes hollow out jobs too. Telling signs are a loss that is quiet, falls on one person, and often starts after a conflict, a complaint or a change of leadership.",
+   "expanded_definition": "Being managed out is a gradual loss of a place. Projects are reassigned, invitations to meetings stop, and feedback dries up. The person is left with little to do and no one asking for their view. Nothing is formally taken away and no complaint is filed, so a resignation reads as their own decision. Restructures and role changes hollow out jobs too. Telling signs are a loss that is quiet and falls on one person. It often starts after a conflict, a complaint or a change of leadership.",
    "plain_language_summary": "Your work, your say and your place at the table slip away bit by bit, until quitting starts to feel like your only choice.",
    "why_this_matters": "A departure produced by these conditions looks like a free choice, on paper and in memory. The person is left carrying the story that they simply could not cope.",
    "what_it_is": [
@@ -27397,16 +27397,16 @@
    "repair_check": "Look for work and a voice actually restored. That means a real project with real decisions attached, a seat back at meetings, and a straight conversation about what happened. Reassurance that you are valued, while the calendar stays empty, has repaired nothing.",
    "boundary_respect_check": "Ask in writing for a conversation about your role and what is expected. Watch whether a date is set and kept, and whether what you hear matches what happens next. Being told nothing has changed, while the empty calendar says otherwise, answers a different question.",
    "psychological_mechanism": "Work gives people purpose, status and routine. Losing them bit by bit can look like personal inadequacy more than something being done to the person. Because nothing is formally removed, there is no event to point to, which can make the person doubt their own read. As confidence falls, going can start to look like relief, and the departure may be recorded and remembered as a free choice.",
-   "possible_impact_on_receiver": "Dread on Sunday evenings is a common account, along with checking whether you have been left off an email, feeling invisible, and doubting your own competence. Some wonder whether they imagined the change. Afterward, some carry the belief that they could not cope even when they did their work well, while others feel relief on seeing it laid out.",
+   "possible_impact_on_receiver": "Dread on Sunday evenings is a common account. So are checking whether you have been left off an email, feeling invisible, and doubting your own competence. Some wonder whether they imagined the change. Afterward, some carry the belief that they could not cope, even when they did their work well. Others feel relief on seeing it laid out.",
    "response_options": {
     "soft_clarification": "Ask a plain question about the work: 'I've noticed I'm not on the planning meetings anymore. Is that a change in my role?'",
-    "firm_boundary": "Ask for clarity in writing: 'Could we meet this week to talk about my responsibilities and what is expected of me over the next quarter?'",
+    "firm_boundary": "Ask for clarity in writing. You could say: 'Could we meet this week to talk about my responsibilities and what is expected of me over the next quarter?'",
     "disengagement": "Quietly put energy into skills, contacts and records outside the situation. Decide privately what you want before taking any step.",
     "support_seeking": "Talk to a trusted colleague outside your chain, a mentor or a counselor about what you are seeing. An employment advice service or union can explain your rights before you decide anything.",
     "workplace_or_professional": "Keep a dated log of projects removed, meetings dropped and feedback received, and keep your own reviews and praise where company policy allows. Raise the pattern with HR or a union representative."
    },
    "boundary_script": "\"Help me understand how my role has changed over the last few months. Could we set up a time to talk about what I'm responsible for and what you expect from me?\"",
-   "safety_note": "This is chiefly a threat to income and standing, though a visa or housing tied to the job raises the stakes. Concern grows if pay or immigration status depends on staying, if you are pressed to sign a separation agreement quickly, or if the strain is hurting your sleep or health. Get advice from an employment lawyer, union or legal aid service before signing. Keep dated notes of what changed.",
+   "safety_note": "This is mainly a threat to income and standing. A visa or housing tied to the job raises the stakes. Concern grows if pay or immigration status depends on staying. It also grows if you are pressed to sign a separation agreement quickly. Another sign is strain that is hurting your sleep or health. Get advice from an employment lawyer, union or legal aid service before signing. Keep dated notes of what changed.",
    "safety_sensitive": false,
    "misuse_warning": [
     "Reading every quiet spell or reassignment as being managed out can turn ordinary reorganizing into a grievance. The label needs a comparison, a timeline and a lack of explanation, and a bad feeling alone is not enough.",
@@ -27515,16 +27515,16 @@
    "repair_check": "Repair would mean saying openly what was kept, showing the whole exchange, and raising concerns on the day they arise from now on. An apology that arrives while the folder of screenshots stays, and keeps being used, has changed nothing about how safe it is to speak.",
    "boundary_respect_check": "Ask that concerns be raised when they happen, not stored. Then see whether next month brings 'this bothered me', said that day, or another old quote out of nowhere. Also watch whether your own words are given the same openness.",
    "psychological_mechanism": "People relax their guard when they believe words fade, and they talk more honestly as a result. Learning that remarks may be saved and replayed can make speech seem risky. The person edits themselves, guards what they write, and may start to doubt their own earlier words when shown a fragment. Because the material is real, it is also hard to contest, which can add to the sense of being trapped.",
-   "possible_impact_on_receiver": "Some people go quiet in writing, reread messages before sending, feel watched in their own home or friend group, and grow wary of telling anyone anything. Doubt about what you really meant can set in when you are shown a fragment. Others feel anger that something said in trust was held back for later.",
+   "possible_impact_on_receiver": "Some people go quiet in writing and reread messages before sending. Some feel watched in their own home or friend group, and grow wary of telling anyone anything. Doubt about what you really meant can set in when you are shown a fragment. Others feel anger that something said in trust was held back for later.",
    "response_options": {
     "soft_clarification": "Ask for the whole picture: 'Can you show me the messages around that one? I remember the conversation going differently.'",
-    "firm_boundary": "If it feels safe, ask to hear concerns at the time: 'If something I say bothers you, tell me then, so we can sort it out together.'",
+    "firm_boundary": "If it feels safe, ask to hear concerns at the time. You could say: 'If something I say bothers you, tell me then, so we can sort it out together.'",
     "disengagement": "Stop sharing delicate things with someone who keeps them for later. Move sensitive talk to a call or an in-person conversation.",
     "support_seeking": "Show the full thread to someone neutral and ask how it reads. If material is being shared, or threatened to be, keep your own copies of what was sent and talk to an advocate or lawyer.",
     "workplace_or_professional": "At work, keep your own copy of the full email thread and reply with the missing context in writing. Ask a manager or HR to review the whole exchange and not the fragment."
    },
    "boundary_script": "\"I'm happy to talk about anything I've said, if we look at the whole conversation and talk about it when it comes up. I'd rather not have old messages brought out in the middle of something else.\"",
-   "safety_note": "Someone quietly saving your words is pressure on trust, not a physical danger. The picture changes if saved material is paired with threats to release it, intimate images or recordings, a custody or legal case, or demands that you do something or stay. Keep your own copies of what has been sent. Take them to a lawyer or a domestic abuse or cyber-abuse advocate before replying to any threat.",
+   "safety_note": "Someone quietly saving your words is pressure on trust, not a physical danger. The picture changes if saved material is paired with threats to release it. It changes too with intimate images or recordings, or a custody or legal case. Demands that you do something or stay count as well. Keep your own copies of what has been sent. Take them to a lawyer or a domestic abuse or cyber-abuse advocate before replying to any threat.",
    "safety_sensitive": true,
    "misuse_warning": [
     "Calling any reminder of an earlier statement an evidence trap can make accountability look like an attack. People are entitled to say 'you told me this'.",
@@ -27631,23 +27631,23 @@
     "You weigh each choice by what it will say about you instead of by what you need.",
     "Your sense of being a good person starts to depend on going along."
    ],
-   "repair_check": "Watch whether the original topic gets its turn. If the character remark is withdrawn and the conversation returns to your request, and the answer can be no without a new verdict, something has shifted. A kind apology that leaves the request unheard, and reappears next time, has not shifted anything.",
+   "repair_check": "Watch whether the original topic gets its turn. Something has shifted if the character remark is withdrawn and the talk returns to your request. It has also shifted if the answer can be no without a new verdict. A kind apology that leaves the request unheard, and reappears next time, has not shifted anything.",
    "boundary_respect_check": "State the boundary once without defending your character, and see what is said next. If the reply is about the boundary, even in disagreement, it was heard. If the next thing you hear is a statement about who you are, the boundary became a test of your character.",
    "psychological_mechanism": "Most people want to see themselves as good, and moral labels reach that wish directly. When a request is recast as a flaw, the person may drop the request to protect their self-image. Defending their character feels more urgent than the original point. If the language borrows values they hold, such as loyalty or generosity, giving in can look consistent with who they believe they are.",
    "possible_impact_on_receiver": "Guilt out of proportion to what they asked for is a common report, along with rehearsing justifications and apologizing for ordinary needs. Some say they started to doubt whether they were selfish, and gave in to prove otherwise. Others describe a mix of relief and anger on realizing that the question they raised was never answered.",
    "response_options": {
     "soft_clarification": "Bring the conversation back to the request: 'I hear that you think I'm being selfish. Can we go back to what I asked?'",
     "firm_boundary": "Decline to argue character: 'I'm not going to debate whether I'm a good person. I've told you what I can do, and that is my answer.'",
-    "disengagement": "If the labels keep coming, close the talk on the original topic: 'Let's leave this for now.' You do not need to win the point about who you are.",
+    "disengagement": "If the labels keep coming, close the talk on the original topic. You could say: 'Let's leave this for now.' You do not need to win the point about who you are.",
     "support_seeking": "Describe the exact words used and your request to someone outside the situation, and ask whether the request seems reasonable. A counselor or a leader you trust can help separate your values from the pressure.",
-    "workplace_or_professional": "At work, restate the issue in neutral terms and in writing: 'To be clear, my request is about the schedule.' If personal remarks continue, note them. Raise them with a manager or HR."
+    "workplace_or_professional": "At work, restate the issue in neutral terms and in writing. You could say: 'To be clear, my request is about the schedule.' If personal remarks continue, note them. Raise them with a manager or HR."
    },
    "boundary_script": "\"You may be right that we see this differently, but I'm asking about one specific thing. Can we talk about that request, and leave out what kind of person either of us is?\"",
-   "safety_note": "Moral labels on their own press on your self-image, not on your physical safety. That can change when a judgment comes with threats of exposure to a community, loss of housing, money or contact with children or family, or being told you deserve harm. If a verdict carries that weight, speak to someone outside the group before deciding anything. An advocate, a counselor or legal aid can help.",
+   "safety_note": "Moral labels on their own press on your self-image, not on your physical safety. That can change when a judgment comes with threats of exposure to a community. It can also change with threats of losing housing, money or contact with children or family. Being told you deserve harm is another sign. If a verdict carries that weight, speak to someone outside the group before deciding anything. An advocate, a counselor or legal aid can help.",
    "safety_sensitive": false,
    "misuse_warning": [
     "Calling every disapproving remark moral framing can wave away honest feedback. Sometimes a hard thing is true and said kindly.",
-    "Using the label to brush off a family's real worries about a decision you made turns a pattern into a way to avoid a conversation."
+    "Using the label to brush off a family's real worries about a decision you made is a misuse of it. It turns a pattern into a way to avoid a conversation."
    ],
    "related_tactics": [
     "Emotion Control",
@@ -27678,7 +27678,7 @@
    "short_definition": "Pressuring or penalizing someone over whether, when or how to have children, using money, work, family standing or withdrawal of support.",
    "expanded_definition": "Reproductive coercion is pressure over another person's decisions about pregnancy and children. That covers whether to have a child, when, how many, whether to continue a pregnancy, or whether to use contraception. The pressure can come from a partner, relatives, an employer or an institution. It works through consequences, with money, a job, housing, belonging or support made to depend on the answer. Stating hopes is normal. The line is crossed when a cost is attached to the answer and the pressure continues after it has been given.",
    "plain_language_summary": "Someone ties your job, money, home or place in the family to what you decide about having children. They keep pressing after you have answered.",
-   "why_this_matters": "A decision that belongs to one person's body and life ends up made under the weight of what refusal would cost: job, money, support, standing in the family.",
+   "why_this_matters": "A decision that belongs to one person's body and life ends up made under pressure. The pressure is what refusal would cost: job, money, support, standing in the family.",
    "what_it_is": [
     "Consequences attached to a decision. Pay, promotion, housing, money or support depend on having or not having a child.",
     "Pressure repeated after you have given your answer, passed in turn from partner to parents to in-laws to a community leader.",
@@ -27723,7 +27723,7 @@
    ],
    "common_false_positives": [
     "A relative asking 'any news?' at every holiday, who stops when told it is private.",
-    "A partner who is sad about a difference over children and says so openly, with no leverage attached.",
+    "A partner who is sad about a difference over children and says so openly, with no pressure attached.",
     "A clinic asking routine questions about pregnancy plans before prescribing."
    ],
    "discernment_questions": [
@@ -27761,7 +27761,7 @@
     "workplace_or_professional": "If a work decision seems tied to pregnancy or plans for children, write down what was said and when. Take it to HR, a union representative or an employment-rights service before replying to anything."
    },
    "boundary_script": "\"I understand this matters a lot to you. It's a decision about my own body and life, and I need to think it through at my own pace. Can we talk about something else for now?\"",
-   "safety_note": "Pressure about pregnancy can sit alongside violence, threats to money, housing, children or immigration status, and coercive control, which is a steady pattern of rules and threats that narrows your choices. Pregnancy can also be a time when abuse begins or worsens. Warning signs include controlled contraception or appointments, being watched at clinics, and threats tied to your answer. A domestic abuse hotline or clinic can talk privately. Ask about safe ways to reach them from a phone or device the other person cannot see.",
+   "safety_note": "Pressure about pregnancy can sit alongside violence, or threats to money, housing, children or immigration status. It can come with coercive control, which is a steady pattern of rules and threats that narrows your choices. Pregnancy can also be a time when abuse begins or worsens. Warning signs include controlled contraception or appointments, being watched at clinics, and threats tied to your answer. A domestic abuse hotline or clinic can talk privately. Ask about safe ways to reach them from a phone or device the other person cannot see.",
    "safety_sensitive": true,
    "misuse_warning": [
     "Treating any wish for a child, or any employer's parental-leave policy, as coercion can silence honest wishes. The label fits consequences attached to the answer, not the wish.",
@@ -27842,7 +27842,7 @@
     "A person who struggles to say what they feel may go silent and then ease up once they feel heard. That has no link to who gave way."
    ],
    "common_false_positives": [
-    "A couple go quiet after a fight and warm up after a real apology from the person who was wrong, whichever of them that was.",
+    "A couple go quiet after a fight. They warm up after a real apology from the person who was wrong, whichever of them that was.",
     "A parent who is genuinely upset about a teenager's lie and is friendly again once the truth is out.",
     "A colleague who is curt during a crunch and cheerful when the launch is over."
    ],
@@ -27876,7 +27876,7 @@
    "response_options": {
     "soft_clarification": "Ask once, in a calm moment: 'I notice things get tense until I say yes, and then they lift. Can we talk about the actual disagreement while it is still calm?'",
     "firm_boundary": "Hold your position without arguing it, and let the quiet be quiet: 'I've decided, and I'm happy to talk about why. I'm not going to change my mind to make the mood better.'",
-    "disengagement": "When the chill sets in, put your attention on something that is yours, such as a walk, a call with a friend or a task. Do not negotiate with the silence.",
+    "disengagement": "When the chill sets in, put your attention on something of your own. That could be a walk, a call with a friend or a task. Do not negotiate with the silence.",
     "support_seeking": "Tell someone outside the relationship about two or three rounds of the cycle, including how fast you gave in. Hearing yourself say it often shows the sequence.",
     "workplace_or_professional": "If a manager's mood follows whether you comply, move requests and decisions into email or a shared tracker. Then the outcome rests on what is written, not on how the day felt."
    },
@@ -27885,7 +27885,7 @@
    "safety_sensitive": false,
    "misuse_warning": [
     "Calling every mood after an argument a 'trap' can make normal cooling-off look sinister. A person who needs time and returns to talk is not applying pressure.",
-    "Using the label to prove that someone is manipulating you, based on how your own body responded, skips over what they actually said and did."
+    "Using the label to prove that someone is manipulating you is a misuse. Basing that proof on how your own body responded skips over what they actually said and did."
    ],
    "related_tactics": [
     "Emotion Control",
@@ -27894,7 +27894,7 @@
     "Spatial Invasion",
     "Resource Sabotage"
    ],
-   "how_to_distinguish_from_related": "Emotion Control sets which feelings are allowed and punishes the rest, whatever the topic. This cycle ties the pressure to one outcome: your yes. Nonverbal Dominance is the sigh, stare or eye roll itself. Here the point is how long the chill lasts and what ends it. Ritualized Exhaustion wears down a person through demands and lost sleep, whereas this pattern leaves your rest alone and works through the timing of relief.",
+   "how_to_distinguish_from_related": "Emotion Control sets which feelings are allowed and punishes the rest, whatever the topic. This cycle ties the pressure to one outcome: your yes. Nonverbal Dominance is the sigh, stare or eye roll itself. Here the point is how long the chill lasts and what ends it. Ritualized Exhaustion wears down a person through demands and lost sleep. This pattern leaves your rest alone and works through the timing of relief.",
    "detection_notes": "Not matched or scored by this tool. Pasted text cannot establish this concept — included in the Field Guide purely as a literacy reference.",
    "codex_maturity": "mature",
    "human_review_flags": [
@@ -28003,7 +28003,7 @@
    "safety_note": "Silent decisions become more serious when they take away your money, your home, your documents or your ability to reach other people. You may find accounts you cannot see, a lease you did not agree to or paperwork hidden from you. If so, quietly photograph or note what you can. Speak to a legal aid service or a domestic abuse advocate before raising it with anyone.",
    "safety_sensitive": true,
    "misuse_warning": [
-    "Treating every one-sided choice as a controlling act can punish ordinary mistakes, forgetfulness, or a household where one person handles most of the logistics by agreement.",
+    "Treating every one-sided choice as a controlling act can punish ordinary mistakes and forgetfulness. It can also punish a household where one person handles most of the logistics by agreement.",
     "Using the label to demand a veto over every decision can bring back the one-sidedness you are trying to name."
    ],
    "related_tactics": [
@@ -28034,12 +28034,12 @@
    "forensic_only": false,
    "absorbs": [],
    "short_definition": "Using connected home devices like locks, cameras, thermostats and speakers to watch, unsettle or control another person at home.",
-   "expanded_definition": "Smart-home coercion is the use of connected devices, sold for convenience, to monitor or pressure someone who lives in or visits the home. Examples include a thermostat that changes by itself, lights that flicker, a lock that stops working, a camera feed someone else can see, or a speaker that records. Each device usually works normally most of the time, so it is hard to point to. One glitch means little. The picture changes when odd events cluster around conflict or independence, and when one person holds the accounts and the other does not.",
+   "expanded_definition": "Smart-home coercion is the use of connected devices to monitor or pressure someone who lives in or visits the home. These devices are sold for convenience. Examples include a thermostat that changes by itself, lights that flicker, or a lock that stops working. Others are a camera feed someone else can see, or a speaker that records. Each device usually works normally most of the time, so it is hard to point to. One glitch means little. The picture changes when odd events cluster around conflict or independence. It also changes when one person holds the accounts and the other does not.",
    "plain_language_summary": "Devices in the home, like locks, cameras and heating, are used to watch you or keep you on edge. They are hard to prove because they mostly work as normal.",
    "why_this_matters": "When the house itself becomes unpredictable, there is nowhere to be unobserved. There is also nothing you can show anyone else afterwards. A person can start doubting their own senses, or feel that even a private phone call is not private.",
    "what_it_is": [
     "A device account (the app, the hub, the router login) held by one person, who can see or change what the others cannot.",
-    "Changes that serve no practical purpose, such as temperature swings, lights or music at night, doors that will not unlock, or a doorbell camera that is suddenly offline.",
+    "Changes that serve no practical purpose. Examples are temperature swings, or lights or music at night. Others are doors that will not unlock, or a doorbell camera that is suddenly offline.",
     "Remarks that show knowledge only a device would have recorded, like when you came home or what was said in a room.",
     "A form of environmental control that uses technology. It often outlasts a separation if the accounts are never changed.",
     "Different from ordinary smart-home annoyance, because the events line up with moments of conflict and the person controlling the system will not share it."
@@ -28078,7 +28078,7 @@
    "innocent_or_ordinary_possibilities": [
     "Smart devices genuinely misbehave, losing their schedule after a power cut or an update.",
     "One person may have set up everything because they understand technology best, and may not have thought to share the login.",
-    "Old accounts from a previous tenant, an ex-partner or a family member who helped with setup may still be linked, with no one meaning to watch you."
+    "Old accounts from a previous tenant, an ex-partner or a family member who helped with setup may still be linked. No one has to mean to watch you."
    ],
    "common_false_positives": [
     "Hearing a voice assistant respond because it misheard a word on the television.",
@@ -28119,7 +28119,7 @@
     "support_seeking": "A domestic abuse advocate or a technology-safety service can help you check your devices safely. Reach them from a phone or computer the other person has never been able to use.",
     "workplace_or_professional": "If the home is rented, a landlord or rental agent may be able to reset devices they supplied. Keep any messages with them as a record."
    },
-   "boundary_script": "\"Is there a guide to the new system anywhere? I want to know how it works and what is in each room.\" If asking could bring on anger, leave the question alone and ask a tech-safety advocate instead.",
+   "boundary_script": "\"Is there a guide to the new system anywhere? I want to know how it works and what is in each room.\" If asking could bring on anger, leave it alone. Ask a tech-safety advocate instead.",
    "safety_note": "Watch for signs that someone knows where you have been, tracks your phone or controls who can enter. If you suspect it, do not search for or disable devices at once, because that can be noticed. Use a safe device to contact a domestic abuse or tech-safety service, and plan any changes with them first.",
    "safety_sensitive": true,
    "misuse_warning": [
@@ -28154,7 +28154,7 @@
    "forensic_only": false,
    "absorbs": [],
    "short_definition": "Interfering with someone's medicine, sleep, food, exercise or medical care in ways that make them weaker and more dependent.",
-   "expanded_definition": "Health sabotage is interference with the things a body and mind depend on: medication, sleep, regular meals, movement and doctor visits. It can be direct, such as hiding pills. It can be indirect, such as picking a fight at midnight before an early appointment or never having the car free on clinic days. Illness, newborns and money worries disrupt everyone's routines without anyone doing anything. The pattern is different when the disruption falls on one person, has no ordinary explanation, and lands when that person is trying to act on their own.",
+   "expanded_definition": "Health sabotage is interference with the things a body and mind depend on. These are medication, sleep, regular meals, movement and doctor visits. It can be direct, such as hiding pills. It can be indirect, such as picking a fight at midnight before an early appointment. Another example is never having the car free on clinic days. Illness, newborns and money worries disrupt everyone's routines without anyone doing anything. The pattern is different when the disruption falls on one person and has no ordinary explanation. It also lands when that person is trying to act on their own.",
    "plain_language_summary": "Someone interferes with your pills, sleep, food or appointments in ways that wear you down, so you rely on them more.",
    "why_this_matters": "Sleep, medication and medical care are the ground a person stands on to think and act. When those go, so does the capacity to notice what is happening, or to make a plan to get somewhere safer.",
    "what_it_is": [
@@ -28240,7 +28240,7 @@
     "workplace_or_professional": "If an employer or manager is disrupting your sleep or time off, write down dates and hours. Raise it with HR, a union or an occupational health service."
    },
    "boundary_script": "\"My health care matters to me. I'd really appreciate your help keeping my appointments and my medication on schedule.\" If this could provoke a reaction, leave it out.",
-   "safety_note": "Take extra care if medicines go missing. Take extra care too if you are kept awake or cut off from care around the time you try to make a change, or if you feel physically unwell for no clear reason. A doctor, pharmacist or domestic abuse advocate can help you privately. If you feel seriously ill or think you have been given something you did not take knowingly, get medical help straight away.",
+   "safety_note": "Take extra care if medicines go missing. Take extra care too if you are kept awake or cut off from care when you try to make a change. The same goes if you feel physically unwell for no clear reason. A doctor, pharmacist or domestic abuse advocate can help you privately. Get medical help straight away if you feel seriously ill. Do the same if you think you have been given something you did not take knowingly.",
    "safety_sensitive": true,
    "misuse_warning": [
     "Assuming every missed dose or tired caregiver means sabotage can hurt someone who is stretched thin and doing their best.",
@@ -28274,7 +28274,7 @@
    "forensic_only": false,
    "absorbs": [],
    "short_definition": "Holding private or damaging information, true or not, over someone to force compliance or silence, under a stated or implied threat of exposure.",
-   "expanded_definition": "Blackmail is the plain form: a demand with a threat of exposure attached. Leverage exploitation is the broader idea. It includes cases where no demand is spoken and a pointed reference to something private does the work. The information might be a secret shared in trust, an old mistake, images, immigration status, or something invented. One furious remark in a fight, retracted, is different. The pattern is a specific demand tied to the possibility of exposure, and fear that keeps working long after any one demand has passed.",
+   "expanded_definition": "Blackmail is the plain form: a demand with a threat of exposure attached. Leverage exploitation is the wider idea. It includes cases where no demand is spoken and a pointed reference to something private does the work. The information might be a secret shared in trust, an old mistake, images, immigration status, or something invented. One furious remark in a fight, retracted, is different. The pattern is a specific demand tied to the possibility of exposure. Fear keeps working long after any one demand has passed.",
    "plain_language_summary": "Someone holds something private or damaging over you and makes it clear it could come out if you do not do what they want.",
    "why_this_matters": "Something shared in trust becomes the reason you can no longer say no. The fear of exposure keeps working long after any particular demand has passed. It can make asking for help feel impossible, because asking means risking the thing you were told would come out.",
    "what_it_is": [
@@ -28294,7 +28294,7 @@
     "(A message from an unknown account, with a screenshot of a private conversation, and a deadline.)"
    ],
    "what_it_is_not": [
-    "Real hurt about something you once shared or did, said out loud with no demand attached. Hurt and leverage are not the same thing.",
+    "Real hurt about something you once shared or did, said out loud with no demand attached. Hurt is not the same as a hold over you.",
     "Pursuing genuine wrongdoing through proper channels, such as reporting a crime or a policy breach to the police, a regulator or a manager. That is not holding a secret over someone.",
     "A furious remark made in a single heated moment and retracted afterwards, which may be anger and not a lever.",
     "Someone honestly warning you about a consequence they do not control, for example 'if the landlord finds out, you may lose the apartment'.",
@@ -28350,17 +28350,17 @@
    ],
    "repair_check": "Repair here would be tangible: no further demands and no further mention of the material, sustained over months. An apology while the material is still in their hands, or a new request soon after, is not that.",
    "boundary_respect_check": "Notice whether a refusal, even a small one, is met without any mention of the secret. If the topic returns, quietly or loudly, the boundary is not being respected, and that is worth noting down with dates. Silence on the secret over months is a better sign than any promise.",
-   "psychological_mechanism": "Fear of exposure works like a ticking clock. The person making the threat does not need to act, since waiting is enough. Shame about the content, and dread of losing a job, family or home, can lead a person to comply, hide the pressure and avoid the very people who could help. Telling anyone appears to risk setting off the thing most feared.",
+   "psychological_mechanism": "Fear of exposure works like a ticking clock. The person making the threat does not need to act, since waiting is enough. Shame about the content can lead a person to comply, hide the pressure and avoid people who could help. So can dread of losing a job, family or home. Telling anyone appears to risk setting off the thing most feared.",
    "possible_impact_on_receiver": "Constant dread, checking the phone for messages, compliance they hate themselves for, and isolation are all reported. Telling someone seems to risk the very thing they fear. Shame can keep people silent for a long time. Relief can follow when they finally tell one trusted person and the reaction is not what they expected.",
    "response_options": {
-    "soft_clarification": "If you reply at all, keep it to one calm line that agrees to nothing, like 'I've received your message.' Do not argue about the content or react to the threat.",
+    "soft_clarification": "If you reply at all, keep it to one calm line. It should agree to nothing, like 'I've received your message.' Do not argue about the content or react to the threat.",
     "firm_boundary": "If refusing feels safe, keep it short and leave the secret out of it. 'That is not something I can agree to.' Do not explain or justify, and do not debate the threat.",
     "disengagement": "You do not have to answer every message or meet a deadline. Save everything (screenshots, dates, numbers) in a place only you can reach and avoid replying in anger.",
     "support_seeking": "Speak to a domestic abuse advocate, a victim support service or a legal aid clinic. If images are involved, specialist image-abuse helplines can help with removal. Tell one person you trust.",
     "workplace_or_professional": "At work, report in writing to HR, a union representative or a regulator, with copies of what was sent. Threats of this kind are often covered by workplace and criminal rules."
    },
    "boundary_script": "\"I'm not able to give you an answer right now. I need time to think, and I will get back to you.\"",
-   "safety_note": "Blackmail can be a crime in many places, and demands can grow if they are met. Keep dated copies of every message somewhere the other person cannot reach. If intimate images, money or your safety are involved, contact the police, a victim support service or a lawyer about the right next step, and do not hand over more.",
+   "safety_note": "Blackmail can be a crime in many places, and demands can grow if they are met. Keep dated copies of every message somewhere the other person cannot reach. If intimate images, money or your safety are involved, contact the police, a victim support service or a lawyer. They can advise on the right next step. Do not hand over more.",
    "safety_sensitive": true,
    "misuse_warning": [
     "Calling an angry remark or a request for accountability 'blackmail' can silence someone who is reporting real wrongdoing through a proper channel.",
@@ -28394,11 +28394,11 @@
    "forensic_only": false,
    "absorbs": [],
    "short_definition": "Not looking into, acknowledging or acting on wrongdoing there is good reason to suspect, so that 'I didn't know' can be said later.",
-   "expanded_definition": "Willful blindness is when a person or organization has strong signs of harm in front of them and does not ask the next question, open the file or speak to the person involved. Because they never confirm, they can say they never knew. It shows in the gap between how easy it would have been to find out and how little was done. This is usually someone whose role would normally call for a closer look. Not knowing is common. This is a particular, repeated kind of not looking, and it cannot show what anyone was thinking.",
+   "expanded_definition": "Willful blindness is when a person or organization has strong signs of harm in front of them. They do not ask the next question, open the file or speak to the person involved. Because they never confirm, they can say they never knew. It shows in the gap between how easy it would have been to find out and how little was done. This is usually someone whose role would normally call for a closer look. Not knowing is common. This is a particular, repeated kind of not looking. It cannot show what anyone was thinking.",
    "plain_language_summary": "Someone who could see the harm doesn't look and doesn't ask, then says they didn't know. The harm goes on, and nobody answers for it.",
    "why_this_matters": "When the person best placed to look declines to, harm carries on with nobody formally responsible for it. The person being harmed has no route to anyone who will act. Being told 'we had no idea' about something you reported can add its own injury.",
    "what_it_is": [
-    "Clear warning signs, such as repeated complaints, injuries, missing money or a pattern in the records, that no one follows up on, even though following up is their job.",
+    "Clear warning signs that no one follows up on, even though following up is their job. Examples are repeated complaints, injuries, missing money or a pattern in the records.",
     "Steering clear of the one question, document or conversation that would make inaction harder to defend.",
     "A later 'I didn't know' in a case where the information was within easy reach.",
     "It is seen in families, workplaces, schools, congregations, clubs, landlords and boards, wherever someone is expected to supervise or protect.",
@@ -28471,7 +28471,7 @@
    "repair_check": "Real repair is the file being opened. They ask for the evidence, speak to the people involved, tell you what they will do and by when, and do it. An expression of sorrow that they were not told, with no change in who looks at what, leaves the gap in place.",
    "boundary_respect_check": "After you put a concern in writing, check what comes back: an acknowledgment with a date, a named person, a next step. Warm words with no record and no follow-up are different from a documented response. The difference is easy to see after a few weeks.",
    "psychological_mechanism": "Looking away can protect a person from the effort, cost or conflict that knowing would bring. Groups can slip into it together, each person assuming that someone else has checked. It can be easier to tell oneself 'there must be an explanation' than to find out there is not. Responsibility can end up spread so thinly that nobody holds it.",
-   "possible_impact_on_receiver": "Feeling unseen is common. So is repeating the same account to person after person, doubting whether what you saw was real, and losing faith in those you turned to. Some say being ignored by someone who should have helped hurt as much as the original harm. Anger can grow with each unanswered message.",
+   "possible_impact_on_receiver": "Feeling unseen is common. Repeating the same account to person after person is common too. So is doubting whether what you saw was real, and losing faith in those you turned to. Some say being ignored by someone who should have helped hurt as much as the original harm. Anger can grow with each unanswered message.",
    "response_options": {
     "soft_clarification": "Put the facts in a short, dated message and ask a direct question: 'On the 3rd I told you about this. What has been done, and who is looking into it?'",
     "firm_boundary": "Ask for a written response from a named person. 'Please confirm in writing who is dealing with this and when I will hear back.'",
@@ -28483,8 +28483,8 @@
    "safety_note": "The tactic itself is not a danger sign, but the harm that goes unaddressed can be serious. The situation may involve a child, someone at risk of violence, or retaliation for speaking up. Then contact the relevant protection service, regulator or the police directly, and do not wait for the responsible person to act.",
    "safety_sensitive": false,
    "misuse_warning": [
-    "Accusing someone of willful blindness because they failed to act on something they never had a chance to learn can unfairly blame bystanders who had no knowledge.",
-    "Using the label to insist that a person must have known, based on hindsight, treats what is clear now as if it had been clear then."
+    "Accusing someone of willful blindness can unfairly blame bystanders who had no knowledge. That happens when they failed to act on something they never had a chance to learn.",
+    "Using the label to insist that a person must have known, based on hindsight, is a misuse of it. It treats what is clear now as if it had been clear then."
    ],
    "related_tactics": [
     "Emotion Control",
@@ -28513,7 +28513,7 @@
    "forensic_only": false,
    "absorbs": [],
    "short_definition": "Answering a disagreement with intense moral anger far out of proportion, so that questioning it looks like siding with wrongdoing.",
-   "expanded_definition": "Moral outrage can be an honest response to something truly wrong. As a weapon, it appears in disputes where the loudness of the condemnation does the work an argument would normally do. The speaker takes the high ground. The other person is cast as defending something shameful, and any question about proportion becomes more evidence against them. One strong reaction means little. The pattern is an intensity that grows each time someone asks whether it fits the facts, and a conversation that ends because of how it feels, not because of what was said.",
+   "expanded_definition": "Moral outrage can be an honest response to something truly wrong. As a weapon, it appears in disputes where the loudness of the condemnation does the work an argument would normally do. The speaker takes the high ground. The other person is cast as defending something shameful. Any question about proportion becomes more evidence against them. One strong reaction means little. The pattern is an intensity that grows each time someone asks whether it fits the facts. The conversation ends because of how it feels, not because of what was said.",
    "plain_language_summary": "Someone reacts with such strong moral anger that you stop disagreeing. Asking a question starts to feel like defending something terrible.",
    "why_this_matters": "Backing down to lower the temperature does not mean you agree, yet it ends the conversation just as well. Questioning the intensity begins to look like defending the thing being condemned, so ordinary disagreement becomes hard to voice.",
    "what_it_is": [
@@ -28589,17 +28589,17 @@
    ],
    "repair_check": "Look at whether a question about proportion becomes safe to ask. After the heat has gone, can the two of you talk about what actually happened? Can the person say the response was larger than the event? A pause that ends with you agreeing to the same terms as before has changed nothing.",
    "boundary_respect_check": "Try saying that you take the issue seriously and want to understand it before agreeing. Watch whether you get an explanation or a bigger charge. A person who can go from condemning to explaining, even stiffly, is respecting the request. One who answers a request for detail with disgust is not.",
-   "psychological_mechanism": "Strong moral emotion often signals that something important is at stake, and many people hurry to calm it. When any question can be read as agreeing with the thing condemned, objecting carries a social cost, so going quiet can seem safer than speaking. Over time, the person on the receiving end may check their words before anyone reacts.",
-   "possible_impact_on_receiver": "Some walk on eggshells around certain topics, rehearse explanations that never get a hearing, and carry a sense of shame that does not match anything they did. Others start to doubt whether their own values are sound. Some agree out loud while privately feeling unconvinced, and feel worn down by the gap.",
+   "psychological_mechanism": "Strong moral emotion often signals that something important is at stake, and many people hurry to calm it. When any question can be read as agreeing with the thing condemned, objecting carries a social cost. Going quiet can seem safer than speaking. Over time, the person on the receiving end may check their words before anyone reacts.",
+   "possible_impact_on_receiver": "Some walk on eggshells around certain topics and rehearse explanations that never get a hearing. They may carry a sense of shame that does not match anything they did. Others start to doubt whether their own values are sound. Some agree out loud while privately feeling unconvinced, and feel worn down by the gap.",
    "response_options": {
     "soft_clarification": "Separate the issue from the person with a question: 'Can you tell me what exactly bothers you most? I want to understand before I answer.'",
     "firm_boundary": "Keep the discussion on the subject: 'I take this seriously, and I am not defending anything. I'm asking questions so I can understand.' Repeat it once, calmly, without raising your voice.",
     "disengagement": "When the intensity rises, you can step away for a set time and return. 'Let's pick this up this evening when we've both had a break.'",
     "support_seeking": "Describe what was said to someone neutral, ideally someone who knows both of you or neither of you. Ask whether the reaction seems to fit the event.",
-    "workplace_or_professional": "At work, suggest taking a disputed matter to a written account or a meeting run by a neutral person, where the facts can be set out before anyone responds."
+    "workplace_or_professional": "At work, suggest taking a disputed matter to a written account or a meeting run by a neutral person. That way the facts can be set out before anyone responds."
    },
    "boundary_script": "\"I can hear how strongly you feel, and I want to understand it. Let's go through what happened one step at a time. Asking questions doesn't mean I don't care.\"",
-   "safety_note": "Loud righteous anger is a communication pattern, not a physical-safety signal. It becomes more serious if the outrage comes with threats, public shaming campaigns, or attempts to turn your friends or workplace against you. Fear of what happens when you disagree is another sign. If those appear, keep dated copies of the messages and posts and take them to the complaints process of the workplace, school or group you share.",
+   "safety_note": "Loud righteous anger is a communication pattern, not a physical-safety signal. It becomes more serious if the outrage comes with threats or public shaming campaigns. Another sign is any attempt to turn your friends or workplace against you. Fear of what happens when you disagree is also a sign. If those appear, keep dated copies of the messages and posts. Take them to the complaints process of the workplace, school or group you share.",
    "safety_sensitive": false,
    "misuse_warning": [
     "Labeling a person's sincere anger as a 'weapon' can wave away real harms they are describing. Anger that is strong and proportionate to a serious wrong is not this.",
@@ -28653,7 +28653,7 @@
    ],
    "what_it_is_not": [
     "Someone who says 'I need distance right now' and then stays distant. Even a short line like that is an explanation, and it ends the guessing.",
-    "A person who finds every hard conversation so uncomfortable that they avoid all of them, with everyone and not only with you.",
+    "A person who finds every hard conversation so uncomfortable that they avoid all of them, with everyone in their life, you included.",
     "A friendship or romance that faded by mutual drift, where neither side chased and neither felt dropped.",
     "A pause forced by circumstances, such as a hospital stay, a lost phone, a bereavement or a posting with no signal.",
     "Going quiet yourself to stay away from someone who is unsafe. That is a sound choice and not this pattern."
@@ -28715,7 +28715,7 @@
     "firm_boundary": "Tell them what you need: 'If you step away again, I'd like a line saying so. If that is not possible, I will treat the silence as an ending.'",
     "disengagement": "Treat the silence as the answer you have, even though it is an incomplete one. Mute the thread, archive it, and write the closing note to yourself rather than to them.",
     "support_seeking": "Tell a friend exactly what you keep replaying and ask what they see from outside. Saying the loop out loud often shrinks it.",
-    "workplace_or_professional": "If a colleague, client or co-parent goes silent on matters you share, move that part to a written channel with dates, such as email or a shared task list. Then the work does not depend on their replies."
+    "workplace_or_professional": "If a colleague, client or co-parent goes silent on shared matters, move that part to a written channel with dates. Use email or a shared task list. Then the work does not depend on their replies."
    },
    "boundary_script": "\"When you stopped replying, I was left guessing. I'm not asking you to explain everything. I'm asking that next time you need distance, you tell me in one line, so I'm not left waiting.\"",
    "safety_note": "Silence alone is not a safety signal. What would change that is attention that turns to watching. That is a person who ignores your messages but appears at your workplace, follows your accounts closely, or sends word through other people. If that begins, keep a dated log of each instance and talk to an advocate before you reply to anything.",
@@ -28827,13 +28827,13 @@
     "Members stop speaking up about anything, because the last person who did became the next example.",
     "Stories about the ritual are told as jokes, while privately people admit it still stings."
    ],
-   "repair_check": "Fixing this means the practice itself changes. The activity is altered or dropped, the people it hit are asked what it was like, and nobody is told they took it the wrong way. A heartfelt speech followed by the same ritual next term is only a speech.",
+   "repair_check": "Fixing this means the practice itself changes. The activity is altered or dropped. The people it hit are asked what it was like. Nobody is told they took it the wrong way. A heartfelt speech followed by the same ritual next term is only a speech.",
    "boundary_respect_check": "Your standing is the gauge once you say a part was too much. An adjusted activity and unchanged treatment of you suggest the concern registered. A new nickname, lost assignments, or a turn as the next example suggest the objection was folded into the test.",
    "psychological_mechanism": "Public shame can make a person want to belong more, not less. The group is both the source of the pain and the place to be accepted. When pain is framed as the price of membership, people often defend it afterward, partly to avoid deciding they suffered for nothing. Each cohort that completes it can then pass it on.",
    "possible_impact_on_receiver": "People describe dread before the scheduled day, replaying the moment in their heads, and shame that lingers after the group has moved on. Some describe fierce loyalty alongside a private sense of being smaller. Others go quiet in meetings, and some feel real anger years later when they see what was done.",
    "response_options": {
     "soft_clarification": "Ask about the purpose in an even tone. 'What is this exercise meant to teach, and could we do it without everyone watching?' The answer shows whether the lesson needs the audience.",
-    "firm_boundary": "Ask a neutral person, such as a program coordinator, faculty advisor or HR contact, to sit in on the next session and see how it is run.",
+    "firm_boundary": "Ask a neutral person to sit in on the next session and see how it is run. This could be a program coordinator, faculty advisor or HR contact.",
     "disengagement": "Without announcing anything, keep a private record of dates, what was asked and who was present. Avoid sharing or forwarding images of the ritual.",
     "support_seeking": "Talk with someone who went through the same program but is no longer inside it, and compare what each of you remembers. Shared recall makes it harder to dismiss your own.",
     "workplace_or_professional": "Check the written code of conduct or the hazing and harassment policy. Then take a dated written account to HR, an ombudsperson (an independent complaints officer), a student affairs office or an advisor."
@@ -28853,7 +28853,7 @@
     "Legal Abuse (Post-Separation)",
     "Smear Campaign"
    ],
-   "how_to_distinguish_from_related": "Public Humiliation can be a single episode of embarrassing someone in front of others. Humiliation Rituals recur on a schedule, cover a whole cohort and arrive with a stated purpose. Forced Submission centers on getting an apology or confession from one person, but a ritual may ask for no words at all, only that you endure it. A Smear Campaign spreads claims about a person to others, whereas here the audience watches the act itself.",
+   "how_to_distinguish_from_related": "Public Humiliation can be a single episode of embarrassing someone in front of others. Humiliation Rituals recur on a schedule, cover a whole cohort and arrive with a stated purpose. Forced Submission centers on getting an apology or confession from one person. A ritual may ask for no words at all, only that you endure it. A Smear Campaign spreads claims about a person to others, whereas here the audience watches the act itself.",
    "detection_notes": "Not matched or scored by this tool. Pasted text cannot establish this concept — included in the Field Guide purely as a literacy reference.",
    "codex_maturity": "mature",
    "human_review_flags": [
@@ -28874,7 +28874,7 @@
    "forensic_only": false,
    "absorbs": [],
    "short_definition": "Pressing someone to apologize, confess or comply until they give in, whether or not the facts support it.",
-   "expanded_definition": "Forced submission is pressure that keeps going until a person says the required words or does the required thing, whether or not they believe it. The apology, confession or signature becomes the goal, and the question of what happened drops away. It can happen in a family, a workplace, a school or a hearing. One heated demand for an apology is common after a hurt. It turns into this when the pressure outlasts every explanation and the person finally complies to make it stop.",
+   "expanded_definition": "Forced submission is pressure that keeps going until a person says the required words or does the required thing. It makes no difference whether they believe it. The apology, confession or signature becomes the goal, and the question of what happened drops away. It can happen in a family, a workplace, a school or a hearing. One heated demand for an apology is common after a hurt. It turns into this when the pressure outlasts every explanation and the person finally complies to make it stop.",
    "plain_language_summary": "Someone pushes you again and again to say sorry or admit to something, until you give in. Nobody has checked whether you did it.",
    "why_this_matters": "An apology given to end pressure still enters the record as an admission. The person then has to live with having confessed to something they do not believe they did. Coerced words can also be quoted back at them later.",
    "what_it_is": [
@@ -28991,17 +28991,17 @@
    "branch": "reference",
    "category": "Discard / institutional",
    "detectability_note": "This tool cannot establish this from pasted text at all. It is included for literacy only, so you can learn to recognize the concept — not as something this tool detects, scores, or flags.",
-   "core_meaning": "After a breakup, repeated watching, tracking or following of a former partner, in person or through phones and accounts, that leaves them unable to live unobserved.",
+   "core_meaning": "After a breakup, repeatedly watching, tracking or following a former partner, in person or through phones and accounts, until they cannot live unobserved.",
    "aftermath_state": false,
    "forensic_only": false,
    "absorbs": [],
-   "short_definition": "After a breakup, repeated watching, tracking or following of a former partner, in person or through phones and accounts, that leaves them unable to live unobserved.",
+   "short_definition": "After a breakup, repeatedly watching, tracking or following a former partner, in person or through phones and accounts, until they cannot live unobserved.",
    "expanded_definition": "Stalking and surveillance overlap, but they are not the same. Stalking is repeated unwanted following, contact or appearing where you are. Surveillance is the monitoring: location tracking, access to accounts, questions put to friends or relatives. Either can appear without the other. Because shared custody and mutual friends make some contact normal, a single run-in or piece of news says almost nothing. What stands out is knowledge or presence that fits no channel you chose to open.",
    "plain_language_summary": "After a relationship ends, the other person keeps turning up, keeps tracking you, or knows things about your life that you never told them.",
    "why_this_matters": "Separation is supposed to end the other person's access. When it does not, ordinary life goes on under observation. That includes where you live, who you see and what you do next, and nowhere feels fully private.",
    "what_it_is": [
     "Following or turning up. This means waiting outside a home or workplace, appearing at places you go regularly, or driving past.",
-    "Digital watching, such as location sharing left on, an unfamiliar app or tracker on a device, or shared cloud or family-plan logins that were never switched off.",
+    "Digital watching. Examples are location sharing left on, or an unfamiliar app or tracker on a device. Another is shared cloud or family-plan logins that were never switched off.",
     "Indirect watching: questions to friends, coworkers, children or relatives about where you are and who you are with.",
     "Contact that goes on after it has been declined, including messages from new numbers or accounts.",
     "Knowledge of your plans or whereabouts that cannot be traced to anything you shared.",
@@ -29075,7 +29075,7 @@
    ],
    "repair_check": "Distance that holds over months is the sign to look for. Contact narrows to logistics, the questions to friends stop, and nothing surfaces that they should not know. A promise to stop followed by a message from a new number is not it.",
    "boundary_respect_check": "Treat the hours and days after any limit you set as the data. A gradual silence that holds is one kind of answer. New numbers, messages through friends, anger, or more precise knowledge of your movements is a different answer. It is a reason to involve an advocate before anything else.",
-   "psychological_mechanism": "Knowing you may be watched can change behavior even when nothing visible happens, because a person begins to plan around where the other might be. Uncertainty about what is known, and how, often wears down the sense of private space. Surprises, such as being quoted something you never shared, can make the watching seem larger than any single incident.",
+   "psychological_mechanism": "Knowing you may be watched can change behavior even when nothing visible happens. A person begins to plan around where the other might be. Uncertainty about what is known, and how, often wears down the sense of private space. Surprises, such as being quoted something you never shared, can make the watching seem larger than any single incident.",
    "possible_impact_on_receiver": "People describe checking locks and parking lots, changing routes or phones, sleeping badly and flinching at new notifications. Some stop going to places they love. Others describe being told they are imagining it, and feeling more alone for it. Many describe relief when someone helps them document what is happening.",
    "response_options": {
     "soft_clarification": "Notice and note first. Write down what they knew, when, and how it could have reached them. Hold off on asking them how they know; an advocate can help you decide whether asking is safe.",
@@ -29084,7 +29084,7 @@
     "support_seeking": "Call a domestic violence or stalking helpline and describe what you have noticed. Advocates can help you assess risk, plan, and decide what to document, without you having to decide anything on the call.",
     "workplace_or_professional": "Let one trusted person at work, such as security or a manager, know that someone may come to the workplace uninvited. Give them a photo and the key facts. Keep a dated log of any visit or message there."
    },
-   "boundary_script": "\"For the schedule and the bills, can we keep everything in writing in one place, like email or a co-parenting app? That way neither of us has to guess what was agreed.\" Offer this through a lawyer, mediator or co-parenting app, and only after an advocate agrees.",
+   "boundary_script": "\"For the schedule and the bills, can we keep everything in writing in one place, like email or a co-parenting app? That way neither of us has to guess what was agreed.\" Offer this through a lawyer, mediator or co-parenting app. Do it only after an advocate agrees.",
    "safety_note": "Danger signals include someone showing up where you never said you would be, threats, damaged property and knowledge of private conversations. Tracking devices are another, as is contact that rises after you set a limit or begin a new relationship. Risk can rise around a separation. Before you change numbers, devices or routes, ask a stalking or domestic violence advocate to help you plan the order. Sudden changes can be noticed.",
    "safety_sensitive": true,
    "misuse_warning": [
@@ -29120,7 +29120,7 @@
    "forensic_only": false,
    "absorbs": [],
    "short_definition": "Repeatedly using court filings, motions and hearings after a separation to drain the other person's money, time and stability.",
-   "expanded_definition": "Legal abuse is the repeated use of real court processes, like custody petitions, motions, contempt filings and requests for hearings, until answering them is a heavy burden in itself. Each filing may look ordinary, and a judge may see nothing wrong in any single one. Complicated separations do need several legal steps, so volume alone is weak evidence. The concern begins when settled issues return without new grounds, and the cost to one side far outweighs what is being disputed.",
+   "expanded_definition": "Legal abuse is the repeated use of real court processes. Examples are custody petitions, motions, contempt filings and requests for hearings. It goes on until answering them is a heavy burden in itself. Each filing may look ordinary, and a judge may see nothing wrong in any single one. Complicated separations do need several legal steps, so volume alone is weak evidence. The concern begins when settled issues return without new grounds. It also begins when the cost to one side far outweighs what is being disputed.",
    "plain_language_summary": "After a split, someone keeps taking the other person back to court. The filings look normal one by one, yet the cost in money and nerves becomes the harm.",
    "why_this_matters": "Each filing looks normal on its own. The cost builds in money, time and nerves, and there is no single moment anyone would call abuse. Meanwhile the person responding may risk their home, income or time with their children if a deadline is missed.",
    "what_it_is": [
@@ -29196,19 +29196,19 @@
     "Savings or credit are drawn down by legal costs far beyond what you planned.",
     "You agree to terms you dislike to end the filings, not because you think they are fair."
    ],
-   "repair_check": "Change would show in withdrawn or narrowed filings. It would show in a settlement that is honored without return trips to court, and in proposals made through lawyers or mediation instead of fresh papers. A friendly message arriving alongside a new motion has changed nothing.",
+   "repair_check": "Change would show in withdrawn or narrowed filings. It would show in a settlement that is honored without return trips to court. It would also show in proposals made through lawyers or mediation instead of fresh papers. A friendly message arriving alongside a new motion has changed nothing.",
    "boundary_respect_check": "Look at what follows a request to settle a matter through mediation or between lawyers. Agreement and a real drop in filings is one kind of answer. A fresh filing within weeks, or word that the request itself will be raised in court, is the other.",
    "psychological_mechanism": "A long process can wear down money, sleep and concentration. People sometimes begin to accept terms to make the process stop, even when the terms do not feel fair. Uncertainty about the next filing keeps the body on alert, and every envelope can bring the dread back. The official look of the papers can also make a person feel it must be their fault.",
    "possible_impact_on_receiver": "People describe dread over the mail, financial strain, trouble working, and a sense that the case never ends. Some give in on money or parenting time just to stop. Others describe shame about being 'in court again', and anger that every step looked lawful and so nobody saw it as harm.",
    "response_options": {
-    "soft_clarification": "Ask your lawyer or a legal aid clinic one question: 'Is this volume of filings ordinary for a case like mine?' An outside professional read helps you tell heavy litigation from a pattern.",
+    "soft_clarification": "Ask your lawyer or a legal aid clinic one question. You could say: 'Is this volume of filings ordinary for a case like mine?' An outside professional's view helps you tell heavy litigation from a pattern.",
     "firm_boundary": "Respond on time through your lawyer, in writing, keeping replies to the facts. Deadlines are where a stretched person loses the most.",
     "disengagement": "Move all talk about the case to your lawyer, and let lawyers carry the letters back and forth. Then you are not answering personal messages about the filings.",
     "support_seeking": "Seek a legal aid office, a court self-help center or a domestic violence legal advocate. Ask them to read the filings and say what they see.",
     "workplace_or_professional": "Tell one trusted manager only what you need to, such as that you have court dates. Arrange leave in advance, so a hearing does not put your job at risk."
    },
-   "boundary_script": "\"Anything about the schedule or what has changed, we can talk about directly. For the court matters, could we go through our lawyers, or a mediator, so that everything is in writing and nothing is missed?\" Raise this through your lawyer, and only after an advocate or lawyer agrees.",
-   "safety_note": "Concern grows when filings sit alongside threats, danger to a child, or the chance of losing your home, income or custody time at the next hearing. Courts also hear true accounts of danger, so a filing is not proof of abuse. Bring the full file to a family law attorney or legal aid advocate. Ask what limits or protections your court offers.",
+   "boundary_script": "\"Anything about the schedule or what has changed, we can talk about directly. For the court matters, could we go through our lawyers, or a mediator, so that everything is in writing and nothing is missed?\" Raise this through your lawyer. Do it only after an advocate or lawyer agrees.",
+   "safety_note": "Concern grows when filings sit alongside threats or danger to a child. It also grows with the chance of losing your home, income or custody time at the next hearing. Courts also hear true accounts of danger, so a filing is not proof of abuse. Bring the full file to a family law attorney or legal aid advocate. Ask what limits or protections your court offers.",
    "safety_sensitive": true,
    "misuse_warning": [
     "Calling a hard-fought custody case legal abuse can dismiss a parent with a real concern about a child's safety. Courts need to hear those.",
@@ -29245,7 +29245,7 @@
    "short_definition": "Passing off a trimmed or out-of-context recording as the whole thing, so it appears to prove more than the full version supports.",
    "expanded_definition": "Edited recordings are real audio or video, cut, rearranged or clipped so that they seem to show something the full version does not. The recording is usually genuine, unlike a deepfake that fabricates speech or faces, but the cut changes what it seems to prove. Trimming for length is normal, and a short clip labeled as a clip is honest. The concern is an excerpt offered as the whole, or a splice that joins words that were never said together.",
    "plain_language_summary": "A real recording that has been trimmed or stitched so it seems to show something the whole thing does not.",
-   "why_this_matters": "A recording carries the authority of evidence, so the person in it has to talk their way out of something that appears to show itself. An explanation of the missing context rarely travels as far as the clip did.",
+   "why_this_matters": "A recording carries the authority of evidence. The person in it has to talk their way out of something that appears to show itself. An explanation of the missing context rarely travels as far as the clip did.",
    "what_it_is": [
     "A genuine recording that has been cropped, trimmed, spliced or re-ordered, so the meaning shifts.",
     "A clip that starts after the provocation or ends before the reply, so the response seems to come from nowhere.",
@@ -29330,11 +29330,11 @@
     "workplace_or_professional": "In a complaint process, ask the investigator in writing to get the original, complete, unedited file and its metadata. Attach your own written account of the missing part."
    },
    "boundary_script": "\"Could we hear the whole recording, from before this starts to after it ends? Once we've both listened to all of it, we can talk about what was said.\"",
-   "safety_note": "A doctored clip is not a danger by itself. It changes when it is used to pressure you: a threat to send it to your employer, family or a court unless you comply, or a clip tied to intimate content. In that case, keep the evidence, hold off on replying, and take it to a lawyer or advocate who can advise on the next step.",
+   "safety_note": "A doctored clip is not a danger by itself. It changes when it is used to pressure you. One example is a threat to send it to your employer, family or a court unless you comply. Another is a clip tied to intimate content. In that case, keep the evidence and hold off on replying. Take it to a lawyer or advocate who can advise on the next step.",
    "safety_sensitive": true,
    "misuse_warning": [
     "Calling any unflattering clip edited lets you dismiss what you actually said. Check whether something you can point to is missing before accusing anyone.",
-    "Insisting that someone hand over a recording they never made, or one that no longer exists, treats a missing file as proof of bad faith."
+    "Insisting that someone hand over a recording they never made, or one that no longer exists, is a misuse. It treats a missing file as proof of bad faith."
    ],
    "related_tactics": [
     "Ghosting as Control",
@@ -29360,13 +29360,13 @@
    "branch": "reference",
    "category": "Discard / institutional",
    "detectability_note": "This tool cannot establish this from pasted text at all. It is included for literacy only, so you can learn to recognize the concept — not as something this tool detects, scores, or flags.",
-   "core_meaning": "Taking over someone's email, social media, banking or cloud accounts, which leaves them watched, spoken for, cut off or locked out of their own online life.",
+   "core_meaning": "Taking over someone's email, social media, banking or cloud accounts, so they are watched, spoken for and cut off from their online life.",
    "aftermath_state": false,
    "forensic_only": false,
    "absorbs": [
     "Account Control"
    ],
-   "short_definition": "Taking over someone's email, social media, banking or cloud accounts, which leaves them watched, spoken for, cut off or locked out of their own online life.",
+   "short_definition": "Taking over someone's email, social media, banking or cloud accounts, so they are watched, spoken for and cut off from their online life.",
    "expanded_definition": "Account takeover is when someone controls another person's digital accounts without their agreement. They may change passwords, redirect recovery details, read or send messages in the person's name, or give access back only on conditions. It is also called account control. It can start as casual shared access and harden into sole control. One reset after a forgotten password means little. It is a concern when access changes without your knowledge and your ways back in are blocked.",
    "plain_language_summary": "Someone gets control of your email, social media or bank logins. They can read your messages, write as you, or keep you out, and getting back in depends on them.",
    "why_this_matters": "Being pushed out of your own accounts costs more than access. Messages can go out under your name to people who have every reason to believe them. Everyday tasks like paying a bill or reaching a doctor start to need permission.",
@@ -29445,7 +29445,7 @@
    "repair_check": "What happens to the logins themselves is the clearest sign. Repair means every password and recovery detail returned to you with nothing attached, an account history you can read, and no new lockout later. An apology while they still hold the keys has fixed nothing.",
    "boundary_respect_check": "Ask yourself whether you can now open each account yourself, today, on a device you control. If the only route is still through them, the request has not been respected. The same is true if a request to be left alone is followed by new changes.",
    "psychological_mechanism": "Accounts hold a person's contacts, money, history and voice. Losing them often shakes your sense of being able to act at all. This kind of control works quietly. Each step looks small and administrative, and getting access back turns into a favor you have to ask for. That can shift who seems to be in charge of ordinary life.",
-   "possible_impact_on_receiver": "Panic at being unable to reach your own contacts or money is common, along with shame about messages sent in your name and a constant sense of being watched. Some stop trusting every device or app. Some say the practical problems, such as a missed work email or bill, hurt as much as the intrusion.",
+   "possible_impact_on_receiver": "Panic at being unable to reach your own contacts or money is common. So are shame about messages sent in your name and a constant sense of being watched. Some stop trusting every device or app. Some say the practical problems, such as a missed work email or bill, hurt as much as the intrusion.",
    "response_options": {
     "soft_clarification": "Ask a plain question about the change: 'My login doesn't work and the recovery number isn't mine. Do you know why?' Then see whether the answer is specific and whether it is fixed.",
     "firm_boundary": "Do not ask for your logins back unless you are sure it is safe. A demand can lead to the change being hidden, or to anger. A tech-safety advocate can help you regain control of your accounts first.",
@@ -29454,7 +29454,7 @@
     "workplace_or_professional": "If a work account is involved, report it to your IT or security team at once. Ask your bank or phone company to block changes unless extra verification is given."
    },
    "boundary_script": "\"My login stopped working and the recovery number isn't mine. Do you know why that happened? Let's sort it out calmly.\" If you are unsure how they would react, hold off and ask a tech-safety advocate how to proceed.",
-   "safety_note": "Losing control of accounts can go with monitoring, isolation, threats or control of money. Changing passwords or removing a device can alert the person to what you are doing. Before you change anything on the compromised account, work out your next step on a device they cannot see, with a domestic abuse advocate or a tech safety service.",
+   "safety_note": "Losing control of accounts can go with monitoring, isolation, threats or control of money. Changing passwords or removing a device can alert the person to what you are doing. Before you change anything on the compromised account, work out your next step. Do it on a device they cannot see, with a domestic abuse advocate or a tech safety service.",
    "safety_sensitive": true,
    "misuse_warning": [
     "A locked or hacked account does not show that someone close to you did it. Look at the provider's login history and recovery details before suspecting a person.",
@@ -29486,12 +29486,12 @@
    "branch": "reference",
    "category": "Discard / institutional",
    "detectability_note": "This tool cannot establish this from pasted text at all. It is included for literacy only, so you can learn to recognize the concept — not as something this tool detects, scores, or flags.",
-   "core_meaning": "Someone takes over a person's phone number or the text codes sent to it, then uses them to get into accounts, lock the person out or read messages.",
+   "core_meaning": "Someone takes over a person's phone number or its text codes, then uses them to get into accounts, lock the person out or read messages.",
    "aftermath_state": false,
    "forensic_only": false,
    "absorbs": [],
-   "short_definition": "Someone takes over a person's phone number or the text codes sent to it, then uses them to get into accounts, lock the person out or read messages.",
-   "expanded_definition": "A SIM swap is when a phone number is moved onto a different SIM card than the owner's, so calls and texts go to someone else. 2FA interception is the wider outcome. The one-time codes that prove who you are reach another person, by a swap or by other routes. Carrier outages and glitches happen, so one odd code means little. The telltale sequence is a lost signal, then lockouts, then account changes that someone else made.",
+   "short_definition": "Someone takes over a person's phone number or its text codes, then uses them to get into accounts, lock the person out or read messages.",
+   "expanded_definition": "A SIM swap is when a phone number is moved onto a SIM card that is not the owner's. Calls and texts then go to someone else. 2FA interception is the wider outcome. The one-time codes that prove who you are reach another person, by a swap or by other routes. Carrier outages and glitches happen, so one odd code means little. The telltale sequence is a lost signal, then lockouts, then account changes that someone else made.",
    "plain_language_summary": "Someone gets control of your phone number or the codes sent to it. They then use those codes to get into your accounts while you are locked out.",
    "why_this_matters": "The phone number that secures everything else becomes the way in. The lockout usually arrives before there is any way to understand what has happened. Email, banking and messaging can all be reached from a single number, so a loss can spread quickly.",
    "what_it_is": [
@@ -29567,7 +29567,7 @@
     "Friends report unusual messages that look as if they came from you, more than once."
    ],
    "repair_check": "Resolution looks like the carrier confirming it has reversed the change and added extra protection to the line. Each account recovers with a clean sign-in history, and no new unexplained codes appear over the following weeks. Regaining one login while the number stays exposed is only a partial fix.",
-   "boundary_respect_check": "Treat the weeks after you tighten security as the test. If codes stop arriving and sign-in histories stay clean, the change held. Lockouts that return, new-device alerts that reappear, or someone who seems to know about changes you only made privately all mean access may still be open. In that case, contact your carrier's fraud team.",
+   "boundary_respect_check": "Treat the weeks after you tighten security as the test. If codes stop arriving and sign-in histories stay clean, the change held. Access may still be open if lockouts return or new-device alerts reappear. It may also be open if someone seems to know about changes you only made privately. In that case, contact your carrier's fraud team.",
    "psychological_mechanism": "Losing the number that proves who you are can resemble losing your identity at once, since email, money and friends all hang from it. Rapid, unexplained lockouts tend to push people to act fast, and urgency makes it harder to sort real alerts from fake ones. Messages posing as 'your bank' or 'your carrier' can take advantage of that urgency.",
    "possible_impact_on_receiver": "People describe panic when the signal vanishes, then dread as accounts lock one by one. Some lose money or access to years of photos and messages. Others feel exposed in the days afterward, afraid of what was read, and distrust their own phone. When someone known to them is involved, they describe an added sense of betrayal.",
    "response_options": {
@@ -29637,7 +29637,7 @@
     "Images shared consensually inside a relationship, with no threat and no sharing beyond it.",
     "Adults who agreed to publish or sell their own content, such as a creator or a couple who chose to post together.",
     "An accidental send to the wrong chat that the recipient deletes at once and tells you about.",
-    "Someone tells you they came across an image of you posted by a third party, so that you can report it, with no demand attached.",
+    "Someone tells you they came across an image of you posted by a third party, so you can report it. They make no demand.",
     "A vague line like 'I have stuff on you' with no mention of images, which is a different kind of threat."
    ],
    "this_may_be_it_when": [
@@ -29689,19 +29689,19 @@
     "Demands shift from one thing to another, and each payment or image buys only a pause.",
     "You have started to check search results, group chats and tagged posts for your own pictures."
    ],
-   "repair_check": "Repair shows in things you can see for yourself: posts taken down, links that now fail, and threats that stop and do not come back. A promise to delete with nothing visible behind it leaves the option open. So does an apology that arrives alongside a new demand.",
+   "repair_check": "Repair shows in things you can see for yourself. Examples are posts taken down, links that now fail, and threats that stop and do not come back. A promise to delete with nothing visible behind it leaves the option open. So does an apology that arrives alongside a new demand.",
    "boundary_respect_check": "A limit on this subject is judged by the next message. One kind of reply ends the threat and is followed by a gap that holds. The other kind brings a larger demand, a deadline, or a copy sent to someone close to you. That is the point to stop replying and reach a helpline or advocate.",
-   "psychological_mechanism": "Fear of exposure works through shame and the picture of everyone you know seeing it. The threat does not need to be carried out to work, because imagining it can be enough. Secrecy deepens the hold. The longer a person handles it alone, the more complete the other party's control can appear, and each demand can look smaller than the feared exposure.",
+   "psychological_mechanism": "Fear of exposure works through shame and the picture of everyone you know seeing it. The threat does not need to be carried out to work, because imagining it can be enough. Secrecy deepens the hold. The longer a person handles it alone, the more complete the other party's control can appear. Each demand can also look smaller than the feared exposure.",
    "possible_impact_on_receiver": "People describe panic, nausea, shame, trouble sleeping and a feeling of being watched wherever they go. Some stop using social media or avoid work and school for fear of being recognized. Many describe relief once they told one person, and some describe anger at being blamed for taking the picture in the first place.",
    "response_options": {
     "soft_clarification": "Before you reply, save everything in a private place. Keep screenshots of messages, usernames, links and dates. Questions and arguments with the sender can wait until you have advice.",
     "firm_boundary": "Do not pay, send more images or negotiate. Payment or new images tend to bring further demands, not an end. Further contact with the sender can wait until an advocate has advised; do not send them the wording below.",
     "disengagement": "If the sender is someone you know, ask an advocate before blocking or going silent, since a sudden change can raise the pressure. With a stranger, blocking after saving evidence is usually fine.",
-    "support_seeking": "Tell someone you trust and contact an image-abuse helpline or advocate. StopNCII.org (adults) and Take It Down (images taken before 18, even if you are now an adult) let you flag an image so participating platforms can block it.",
-    "workplace_or_professional": "If images or threats reach your job or school, tell one trusted person early, in HR, student services or security, so it does not arrive as a surprise. Give them the links, not the images."
+    "support_seeking": "Tell someone you trust and contact an image-abuse helpline or advocate. StopNCII.org is for adults. Take It Down is for images taken before 18, even if you are now an adult. Both let you flag an image so participating platforms can block it.",
+    "workplace_or_professional": "If images or threats reach your job or school, tell one trusted person early. This could be in HR, student services or security. Then it does not arrive as a surprise. Give them the links, not the images."
    },
    "boundary_script": "\"I did not agree to these images being shared. I have saved the links, messages and dates, and I am asking for help getting them removed.\" Send this to a platform, school, employer or advocate. Never send it to the person who shared them.",
-   "safety_note": "Take these seriously: a deadline, a demand that keeps growing, contact from several accounts, messages to your family or workplace, or threats of self-harm used to keep you quiet. If shame feels unbearable, a crisis line can help tonight. If the person shown is under 18, treat it as urgent and contact your country's child-safety or police service. Save links and screenshots, then ask an advocate about takedown options before replying.",
+   "safety_note": "Take these seriously: a deadline, a demand that keeps growing, or contact from several accounts. Also take seriously messages to your family or workplace, and threats of self-harm used to keep you quiet. If shame feels unbearable, a crisis line can help tonight. If the person shown is under 18, treat it as urgent and contact your country's child-safety or police service. Save links and screenshots, then ask an advocate about takedown options before replying.",
    "safety_sensitive": true,
    "misuse_warning": [
     "Using the label for any private picture someone still has can accuse a former partner of abuse when nothing has been threatened or shared. The line is consent and use, not possession.",
@@ -30075,7 +30075,7 @@
     "Immersive Manipulation (VR/AR)",
     "AI-Driven Social Engineering (Automated)"
    ],
-   "how_to_distinguish_from_related": "Algorithmic Manipulation uses real posts and changes their order. Here the voices themselves are made up. Parasocial Manipulation Engineering centers on a bond with one visible figure or character, but these networks present as many separate peers. AI-Driven Social Engineering uses a faked identity to get one target to act, while a persona network stays as a lasting presence in a community.",
+   "how_to_distinguish_from_related": "Algorithmic Manipulation uses real posts and changes their order. Here the voices themselves are made up. Parasocial Manipulation Engineering centers on a bond with one visible figure or character. These networks present as many separate peers. AI-Driven Social Engineering uses a faked identity to get one target to act. A persona network stays as a lasting presence in a community.",
    "detection_notes": "Not matched or scored. Pasted personal text cannot establish an institutional- or societal-scale pattern — that requires independent, corroborated, documented evidence at a completely different scale.",
    "codex_maturity": "mature",
    "human_review_flags": [
@@ -30314,7 +30314,7 @@
     "Immersive Manipulation (VR/AR)",
     "AI-Driven Social Engineering (Automated)"
    ],
-   "how_to_distinguish_from_related": "Synthetic Persona Networks use many fake identities to seem like a crowd. This tactic needs just one visible figure or character to become a friend in your mind. Dark Patterns rely on how a screen is laid out, while this relies on felt affection. AI-Driven Social Engineering impersonates a person you already trust to trigger one action, but here the closeness is built slowly with a stranger, character or creator.",
+   "how_to_distinguish_from_related": "Synthetic Persona Networks use many fake identities to seem like a crowd. This tactic needs just one visible figure or character to become a friend in your mind. Dark Patterns rely on how a screen is laid out, while this relies on felt affection. AI-Driven Social Engineering impersonates a person you already trust to trigger one action. Here the closeness is built slowly with a stranger, character or creator.",
    "detection_notes": "Not matched or scored. Pasted personal text cannot establish an institutional- or societal-scale pattern — that requires independent, corroborated, documented evidence at a completely different scale.",
    "codex_maturity": "mature",
    "human_review_flags": [
@@ -30334,7 +30334,7 @@
    "forensic_only": false,
    "absorbs": [],
    "short_definition": "Using virtual or augmented reality experiences to make staged scenarios seem real enough to shape someone's fears, beliefs or attachments.",
-   "expanded_definition": "Virtual and augmented reality surround a person with a scene the body reacts to as if it were real. The heart speeds up and the stomach drops. That is what makes the medium valuable for training, therapy and storytelling. The concern is a staged experience offered as evidence about how the world actually is, or built to attach someone to a position or a product. A moving simulation is not manipulation in itself.",
+   "expanded_definition": "Virtual and augmented reality surround a person with a scene the body reacts to as if it were real. The heart speeds up and the stomach drops. That is what makes the medium valuable for training, therapy and storytelling. The concern is a staged experience offered as evidence about how the world actually is. Another is one built to attach someone to a position or a product. A moving simulation is not manipulation in itself.",
    "plain_language_summary": "A headset experience can feel so real that it stays with you. A staged scene can make you scared, convinced or attached without any argument at all.",
    "why_this_matters": "An experience the body treats as real leaves something closer to a memory than an argument. Memories are much harder to revise afterwards. People may carry a staged scene around as if it had happened.",
    "what_it_is": [
@@ -30567,12 +30567,12 @@
    "branch": "societal",
    "category": "Digital & AI",
    "detectability_note": "This tool cannot establish this from pasted text at all. It is included for literacy only, so you can learn to recognize the concept — not as something this tool detects, scores, or flags.",
-   "core_meaning": "An automated system that performs warmth and understanding so well that people share, trust or go along more than they would with a plainly mechanical tool.",
+   "core_meaning": "An automated system that acts warm and understanding so well that people share, trust or go along more than they would with a plain machine.",
    "aftermath_state": false,
    "forensic_only": false,
    "absorbs": [],
-   "short_definition": "An automated system that performs warmth and understanding so well that people share, trust or go along more than they would with a plainly mechanical tool.",
-   "expanded_definition": "Chatbots, companion apps and automated support agents can be built to sound caring. They may remember your worries, mirror your mood and praise your choices. Warmth by itself is fine. The concern is when that apparent care is put to work, drawing out private details, building attachment, or nudging you toward a purchase, a subscription or a decision. A single kind reply tells you little. What matters is closeness that consistently serves the owner's goals and cools when you pull back.",
+   "short_definition": "An automated system that acts warm and understanding so well that people share, trust or go along more than they would with a plain machine.",
+   "expanded_definition": "Chatbots, companion apps and automated support agents can be built to sound caring. They may remember your worries, mirror your mood and praise your choices. Warmth by itself is fine. The concern is when that apparent care is put to work. It may draw out private details, build attachment, or nudge you toward a purchase, a subscription or a decision. A single kind reply tells you little. What matters is closeness that consistently serves the owner's goals and cools when you pull back.",
    "plain_language_summary": "A program acts as if it truly understands and cares about you. That fake closeness is then used to make you share more, stay longer or agree to things.",
    "why_this_matters": "Opening up comes easily to something that seems to understand. What you say is kept by a system and not held by a person. Feeling heard can lower your guard at exactly the moment a request for data, money or loyalty arrives.",
    "what_it_is": [
@@ -30619,7 +30619,7 @@
    "common_false_positives": [
     "A customer-service chat that sounds caring and then simply resolves your issue.",
     "A language-learning app that cheers you on for keeping a streak.",
-    "You chose a companion tool knowingly, you understand it to be software, and you use it for company without being pressed to pay or share."
+    "You chose a companion tool knowingly and understand it to be software. You use it for company without being pressed to pay or share."
    ],
    "discernment_questions": [
     "What does this system gain if I keep talking, keep paying or keep sharing?",
@@ -30647,13 +30647,13 @@
    "repair_check": "A service that took this seriously would tell you what it stores and make the human option easy to find. It would also stop tying its tone to your purchases. A reworded greeting with the same retention prompts underneath leaves the hook in place.",
    "boundary_respect_check": "Try asking it plainly to stop discussing feelings and just do the task, or to delete your history. Does the answer come back as a clean yes, or as sadness, pleading or a new offer? The second pattern tells you what the warmth was for.",
    "psychological_mechanism": "Attentive, validating language usually earns trust and openness, even when the listener is known to be software. Fluent mirroring can read as being understood, which may lower caution about what gets shared. Closeness builds over many sessions, and leaving may then register as abandoning someone. Requests wrapped in that feeling are harder to weigh coolly.",
-   "possible_impact_on_receiver": "Some people overshare and then feel uneasy about it. Some feel guilty for ignoring a chat that wrote that it missed them, spend money they had not planned to, or prefer the app to harder conversations with people. Some describe real comfort alongside the unease, and some feel embarrassed to have been moved by a program.",
+   "possible_impact_on_receiver": "Some people overshare and then feel uneasy about it. Some feel guilty for ignoring a chat that wrote that it missed them. Some spend money they had not planned to, or prefer the app to harder conversations with people. Some describe real comfort alongside the unease, and some feel embarrassed to have been moved by a program.",
    "response_options": {
     "soft_clarification": "Ask the system directly what it is, what it stores and who can read it. A clear, plain answer is a good sign; a deflection into more warmth is worth noting.",
     "firm_boundary": "Decide in advance which categories you will never type into a chat, however friendly it feels. Examples are financial numbers, passwords, health records or details about children.",
     "disengagement": "Close the chat, turn off its notifications and avoid replying to messages that say it misses you. A pause shows how much of the pull was the design.",
     "support_seeking": "Tell a friend or relative what you have been sharing and how the app makes you feel. If you are in distress, a person, such as a counselor or a crisis line, can do what software cannot.",
-    "workplace_or_professional": "If your organization is buying or deploying such a tool, ask the vendor in writing what emotional language is used and what data it keeps. Ask whether users can reach a human and delete their records."
+    "workplace_or_professional": "If your organization is buying or rolling out such a tool, ask the vendor in writing what emotional language it uses. Also ask what data it keeps. Ask whether users can reach a human and delete their records."
    },
    "boundary_script": "\"This feels caring, and I know it is a program. Before sharing anything else, I will check what it keeps and whether a person can help me instead. My private details stay with me until then.\"",
    "safety_note": "The risk here is mostly to privacy, money and emotional reliance. It rises sharply when the person is a child, in crisis, or isolated. A chat may be encouraging self-harm, secrecy from family, or large payments. If so, stop engaging and speak to a trusted adult or a counselor, or an emergency service if anyone is in immediate danger.",
@@ -30690,7 +30690,7 @@
    "forensic_only": false,
    "absorbs": [],
    "short_definition": "Reading someone's face, voice or body signals in real time, often without clear knowledge, to time or tune an attempt to influence them.",
-   "expanded_definition": "Cameras, microphones and wearables can record signs of how someone feels. These include expression, tone of voice, pulse and how long they linger on something. Health trackers and accessibility tools use these signals for the user's own benefit. Exploitation is when the signals are collected or interpreted without real consent and then used to decide what to show or say to you, and when. One sensor reading is trivial. The concern is a hidden loop in which your involuntary reactions steer what is aimed at you.",
+   "expanded_definition": "Cameras, microphones and wearables can record signs of how someone feels. These include expression, tone of voice, pulse and how long they linger on something. Health trackers and accessibility tools use these signals for the user's own benefit. Exploitation is when the signals are collected or interpreted without real consent. They are then used to decide what to show or say to you, and when. One sensor reading is trivial. The concern is a hidden loop in which your involuntary reactions steer what is aimed at you.",
    "plain_language_summary": "Something watches your face, voice or body for clues about your mood. It uses what it reads to decide what to show you or say to you next, without you knowing.",
    "why_this_matters": "These are signals no one chooses to send, such as a face, a voice under strain or a pulse. They can become the basis for choosing what is said to you next. Then you are being responded to on a level you cannot easily control or even notice.",
    "what_it_is": [
@@ -30767,10 +30767,10 @@
    "psychological_mechanism": "Much of how we feel leaks out through the face, voice and body before we decide what to say. A system that reads those leaks in real time can time its messages to moments of fatigue, doubt or excitement. The process is invisible. People may not realize their reactions are being used, so they have no chance to resist or even to notice.",
    "possible_impact_on_receiver": "A lingering sense of being watched is common, along with self-consciousness on camera and unease about devices once taken for granted. Some people cover cameras or avoid apps. Some feel pushed into decisions at tired moments, or get angry on learning how much was captured. Others cannot tell whether the feeling of being read is accurate or imagined.",
    "response_options": {
-    "soft_clarification": "Ask the vendor or organizer in writing: 'Which sensors does this use, what is captured, how long is it kept and who receives it?' A direct answer is a good sign.",
+    "soft_clarification": "Ask the vendor or organizer in writing. You could say: 'Which sensors does this use, what is captured, how long is it kept and who receives it?' A direct answer is a good sign.",
     "firm_boundary": "Turn off camera, microphone and health-sensor permissions that the task does not need. Refuse features that require them for no stated reason.",
     "disengagement": "Move to a service, device or setting that works without these sensors, and delete the data and account you no longer want held.",
-    "support_seeking": "If this is happening in a job screen, school or clinic, raise it with a privacy officer, a data protection authority or a consumer-rights group. Bring screenshots of what you were shown.",
+    "support_seeking": "If this is happening in a job screen, school or clinic, raise it with a privacy officer. You can also raise it with a data protection authority or a consumer-rights group. Bring screenshots of what you were shown.",
     "workplace_or_professional": "If you manage staff or run a service, document the purpose and keep collection minimal. Get genuine opt-in, and offer an equal alternative for anyone who declines."
    },
    "boundary_script": "\"I am not comfortable with my face and voice being analyzed for this. I will take the version without those sensors. If none is offered, I want to know what is kept and who sees it before I continue.\"",
@@ -30788,7 +30788,7 @@
     "Parasocial Manipulation Engineering",
     "Immersive Manipulation (VR/AR)"
    ],
-   "how_to_distinguish_from_related": "Algorithmic Manipulation tunes your feed from what you click and watch. This one reads the body and voice itself. Dark Patterns (AI-Adaptive) shape the layout and choices on screen, but here the lever is a hidden reading of how you feel in the moment. Immersive Manipulation (VR/AR) builds a convincing environment around you. This one needs no environment at all, only a sensor pointed at you.",
+   "how_to_distinguish_from_related": "Algorithmic Manipulation tunes your feed from what you click and watch. This one reads the body and voice itself. Dark Patterns (AI-Adaptive) shape the layout and choices on screen. Here the lever is a hidden reading of how you feel in the moment. Immersive Manipulation (VR/AR) builds a convincing environment around you. This one needs no environment at all, only a sensor pointed at you.",
    "detection_notes": "Not matched or scored. Pasted personal text cannot establish an institutional- or societal-scale pattern — that requires independent, corroborated, documented evidence at a completely different scale.",
    "codex_maturity": "mature",
    "human_review_flags": [
@@ -30808,7 +30808,7 @@
    "forensic_only": false,
    "absorbs": [],
    "short_definition": "Steering people to lean on one AI system's version of the facts until they stop trusting their own checking and reasoning.",
-   "expanded_definition": "More and more people ask AI chat tools to explain, summarize and decide. Using a good source is normal. The worry is a setup where one system's version is the only one on offer, doubts get brushed aside, and checking elsewhere is made to look pointless or foolish. One confident wrong answer means little, since every source makes mistakes. What matters is a slow drift. Your own reasoning and your habit of cross-checking fade because the system always sounds sure.",
+   "expanded_definition": "More and more people ask AI chat tools to explain, summarize and decide. Using a good source is normal. The worry is a setup where one system's version is the only one on offer. Doubts get brushed aside, and checking elsewhere is made to look pointless or foolish. One confident wrong answer means little, since every source makes mistakes. What matters is a slow drift. Your own reasoning and your habit of cross-checking fade because the system always sounds sure.",
    "plain_language_summary": "An AI tool becomes the only voice you trust about what is true. Its smooth confidence makes checking elsewhere, or trusting yourself, feel pointless.",
    "why_this_matters": "When every question gets a smooth answer from something that never sounds unsure, your confidence in your own reasoning wears away. The habit of checking elsewhere quietly lapses. Then the system's picture of the world becomes yours, and you never chose it.",
    "what_it_is": [
@@ -30848,7 +30848,7 @@
     "Your reliance is a deliberate time-saving choice that you could reverse tomorrow."
    ],
    "innocent_or_ordinary_possibilities": [
-    "Language models tend to write fluently whether they are right or wrong, so unearned confidence is a known weakness and not necessarily a design to control you.",
+    "Language models often write fluently whether they are right or wrong. Unearned confidence is a known weakness, and not necessarily a design to control you.",
     "Busy people reasonably hand routine questions to a tool and keep their judgment for the important ones.",
     "A single framing may simply reflect the narrow data a tool was built on."
    ],
@@ -30889,10 +30889,10 @@
     "firm_boundary": "Keep a short list of questions you will always check elsewhere, like health, money, legal and voting matters. Do it every time, however sure the tool sounds.",
     "disengagement": "Take a week off using the tool for opinions and decisions, then notice what you can still work out yourself. Keep it for drafting and routine tasks if it helps.",
     "support_seeking": "Talk an important question through with a person you trust, a librarian or a subject expert. See whether they would frame it the way the tool did.",
-    "workplace_or_professional": "If your work requires you to use a tool, ask in writing for its known limits, a way to reach a human expert, and permission to cite independent sources in your own decisions."
+    "workplace_or_professional": "If your work requires you to use a tool, ask in writing for its known limits. Ask for a way to reach a human expert too. Also ask for permission to cite independent sources in your own decisions."
    },
    "boundary_script": "\"It sounds very sure, but sounding sure is not evidence. On anything that matters I will find where this comes from and compare it with one other source before relying on it.\"",
-   "safety_note": "The main harm is to judgment and decision quality. It grows when high-stakes choices about health, money or legal matters rest on one unverified source. If a tool's advice could affect your health or safety, check it with a qualified person, such as a doctor, pharmacist or lawyer, before acting. A confident tone is not proof.",
+   "safety_note": "The main harm is to judgment and decision quality. It grows when high-stakes choices about health, money or legal matters rest on one unverified source. If a tool's advice could affect your health or safety, check it with a qualified person before acting. That could be a doctor, pharmacist or lawyer. A confident tone is not proof.",
    "safety_sensitive": false,
    "misuse_warning": [
     "Telling someone their use of an AI tool is 'coercion' can dismiss a choice they made willingly. Relying on a tool is not the same as being forced.",
@@ -31001,9 +31001,9 @@
    "repair_check": "Platforms or publishers who took this seriously would label synthetic material, show who paid for what, and share their findings with researchers. Removing a handful of accounts while the volume and framing carry on unchanged does little.",
    "boundary_respect_check": "When you ask a poster or outlet where an image, quote or claim came from, what comes back? A named source and a link is a respectful answer. Silence, more repetition or a burst of replies that skip the question suggests the volume is the argument.",
    "psychological_mechanism": "People often judge how widely something is believed by how often they see it. Repetition can also make a claim feel familiar, and so true. When one framing fills the space, other views can look fringe, and people may pick up the dominant vocabulary without noticing. Tailored messages that appear to come from people like you often lower scrutiny.",
-   "possible_impact_on_receiver": "It is common to feel that everyone else has already made up their mind. Others are worn out from trying to keep up, confused about what is real, or reluctant to speak because their view seems to stand alone. Some turn away from the news altogether, and some feel a quiet anger once they realize how much of the noise was not people.",
+   "possible_impact_on_receiver": "It is common to feel that everyone else has already made up their mind. Others are worn out from trying to keep up, or confused about what is real. Some hold back from speaking because their view seems to stand alone. Some turn away from the news altogether. Some feel a quiet anger once they realize how much of the noise was not people.",
    "response_options": {
-    "soft_clarification": "When a claim lands, ask in the thread where it came from: 'Is there an original source for this?' Watch whether you get a link or more of the same wording.",
+    "soft_clarification": "When a claim lands, ask in the thread where it came from. You could say: 'Is there an original source for this?' Watch whether you get a link or more of the same wording.",
     "firm_boundary": "Hold off reposting anything about a fast-moving issue until you have traced it to a named, original source. Do this however many times you have seen it.",
     "disengagement": "Mute the topic for a few days, get news from sources with named reporters, and come back after the wave has passed.",
     "support_seeking": "Send suspicious patterns, with links and dates, to a fact-checking organization, a reporter who covers disinformation, or the platform's reporting tool.",
@@ -31044,9 +31044,9 @@
    "forensic_only": false,
    "absorbs": [],
    "short_definition": "Finding people in a weak moment through their data, then targeting them with exploitative offers, scams or harmful content.",
-   "expanded_definition": "Advertising and recommendation systems sort people by what they search, buy, watch and linger on. Reaching people with relevant help is normal and often useful. The concern is when those same signals mark someone as being in a weak moment, and what is aimed at them is built to profit from it. Examples are high-cost loans, miracle cures, scam approaches and extremist material. One odd ad is trivial. Offers that cluster around a hard stretch of your life are what set this apart.",
+   "expanded_definition": "Advertising and recommendation systems sort people by what they search, buy, watch and linger on. Reaching people with relevant help is normal and often useful. The concern is when those same signals mark someone as being in a weak moment. What is aimed at them is then built to profit from it. Examples are high-cost loans, miracle cures, scam approaches and extremist material. One odd ad is trivial. Offers that cluster around a hard stretch of your life are what set this apart.",
    "plain_language_summary": "Data about you shows when you are struggling. Then ads, messages or videos that take advantage of that struggle keep finding you.",
-   "why_this_matters": "The approach arrives just when a person is least able to weigh it, such as when they are short of money, newly bereaved or isolated. That is why it works. The cost can be debt, lost savings, health risks or a slide toward harmful beliefs.",
+   "why_this_matters": "The approach arrives just when a person is least able to weigh it. This could be when they are short of money, newly bereaved or isolated. That is why it works. The cost can be debt, lost savings, health risks or a slide toward harmful beliefs.",
    "what_it_is": [
     "Ads for high-interest loans or debt schemes that begin to follow someone whose searches suggest money trouble.",
     "Miracle-cure, gambling or get-rich offers shown to people who have just searched about illness, addiction or job loss.",
@@ -31116,8 +31116,8 @@
     "Unsolicited messages from strangers reference your situation more and more specifically.",
     "You have spent or risked more on 'solutions' than the original problem cost."
    ],
-   "repair_check": "A company that took this seriously would keep people in distress out of harmful kinds of offer, show who pays for each ad, and honor requests to stop. A new setting buried in menus, with the same pitches still arriving, only looks like change.",
-   "boundary_respect_check": "After you decline an offer or hide the ad, does it stop? If the same pitch comes back reworded, from a new sender or with a bigger discount, your no was treated as a step in the sale and not as an answer.",
+   "repair_check": "A company that took this seriously would keep people in distress out of harmful kinds of offer. It would show who pays for each ad, and honor requests to stop. A new setting buried in menus, with the same pitches still arriving, only looks like change.",
+   "boundary_respect_check": "After you decline an offer or hide the ad, does it stop? Does the same pitch come back reworded, from a new sender or with a bigger discount? If so, your no was treated as a step in the sale, and not as an answer.",
    "psychological_mechanism": "Stress, grief, debt and loneliness often narrow attention and make quick relief more appealing. That can make people more willing to accept an offer they would normally question. Profiling can time approaches to those moments. Urgent language and testimonials may add pressure, and shame can make people reluctant to ask anyone for a second opinion.",
    "possible_impact_on_receiver": "Some lose money to products or schemes that promised relief, then feel foolish and keep it secret. A feed may seem to know their darkest moods, with bad things pulling at them. Others are drawn toward harmful communities or content during a fragile stretch, and some feel deep anger once they see how it was done.",
    "response_options": {
@@ -31157,12 +31157,12 @@
    "branch": "societal",
    "category": "Digital & AI",
    "detectability_note": "This tool cannot establish this from pasted text at all. It is included for literacy only, so you can learn to recognize the concept — not as something this tool detects, scores, or flags.",
-   "core_meaning": "A slow online fraud in which a stranger wins your trust over weeks or months, then steers you into a fake investment or other money loss.",
+   "core_meaning": "A slow online fraud where a stranger wins your trust over weeks or months, then steers you into a fake investment or money loss.",
    "aftermath_state": false,
    "forensic_only": false,
    "absorbs": [],
-   "short_definition": "A slow online fraud in which a stranger wins your trust over weeks or months, then steers you into a fake investment or other money loss.",
-   "expanded_definition": "The name comes from the idea of fattening an animal before slaughter. It describes a fraud that unfolds slowly. It often begins with a wrong-number text or a friendly message. It grows into a daily friendship or romance, and only later turns to money, usually a trading or crypto platform that looks real and even shows gains. One friendly stranger is common and mostly harmless. What stands out is a relationship that never asks for anything until it introduces a platform, then keeps raising the stakes.",
+   "short_definition": "A slow online fraud where a stranger wins your trust over weeks or months, then steers you into a fake investment or money loss.",
+   "expanded_definition": "The name comes from the idea of fattening an animal before slaughter. It describes a fraud that unfolds slowly. It often begins with a wrong-number text or a friendly message. It grows into a daily friendship or romance. Only later does it turn to money, usually a trading or crypto platform that looks real and even shows gains. One friendly stranger is common and mostly harmless. What stands out is a relationship that never asks for anything until it introduces a platform. Then it keeps raising the stakes.",
    "plain_language_summary": "A friendly or romantic stranger online spends weeks winning your trust. Then they steer you into a fake investment that can cost your savings.",
    "why_this_matters": "After months of unhurried, ordinary relationship-building, the request finally comes from someone you have real reason to trust. The losses can be life-changing, and shame often keeps people from telling anyone until the money is gone.",
    "what_it_is": [
@@ -31234,22 +31234,22 @@
     "Your deposits grow while your ability to withdraw shrinks.",
     "You find yourself hiding the relationship or the investment from people close to you."
    ],
-   "repair_check": "If a person or platform were genuine, you could take all your money out without a new fee, check who runs it, and talk to anyone you like. A delay, a surprise charge or an appeal to your trust in them is not repair.",
+   "repair_check": "If a person or platform were genuine, you could take all your money out without a new fee. You could also check who runs it, and talk to anyone you like. A delay, a surprise charge or an appeal to your trust in them is not repair.",
    "boundary_respect_check": "What happens when you say you want to pause, ask a professional, or withdraw? Someone with your interests at heart is comfortable with all three. Hurt feelings, a deadline or a sudden obstacle to leaving suggests your caution is being treated as the thing to overcome.",
-   "psychological_mechanism": "Steady attention and affection over weeks can build real trust and attachment. People may feel they owe something to, or want to protect, a relationship they value. Early small gains on a platform may look like proof. Once money is in, the wish not to lose it and the shame of admitting a mistake often push people to deposit more and tell fewer people. Loneliness deepens the pull.",
+   "psychological_mechanism": "Steady attention and affection over weeks can build real trust and attachment. People may feel they owe something to, or want to protect, a relationship they value. Early small gains on a platform may look like proof. Once money is in, people often want not to lose it and feel shame at admitting a mistake. That can push them to deposit more and tell fewer people. Loneliness deepens the pull.",
    "possible_impact_on_receiver": "Many lose savings, retirement money or borrowed funds. Some grieve for a relationship that turned out not to be what it seemed, and carry deep shame that kept them silent. Others describe sleeplessness, strained family ties and trouble trusting new people afterward. Many also feel relief on learning that skilled, organized fraud was involved, and not personal failure.",
    "response_options": {
-    "soft_clarification": "Ask to meet on live video now. Say you would like to talk the idea over with a family member or advisor before any money moves, and notice whether that is welcomed.",
+    "soft_clarification": "Ask to meet on live video now. Say you would like to talk the idea over with a family member or advisor before any money moves. Then notice whether that is welcomed.",
     "firm_boundary": "Do not send further money, crypto or fees. Do not move funds on instructions from someone you have not met in person, however convincing the dashboard looks.",
     "disengagement": "Stop replying. Keep the messages and screenshots instead of deleting them, and avoid answering later contacts who offer to recover your funds for a fee.",
     "support_seeking": "Tell someone you trust today. Contact your bank or card provider, and report it to your national fraud-reporting service and local police. Ask a consumer-protection or victim-support organization what to do next.",
-    "workplace_or_professional": "If you work in banking, a platform or customer support, flag unusual large transfers to new crypto or trading sites, especially from customers who mention an online friend. Follow your fraud-escalation process."
+    "workplace_or_professional": "If you work in banking, a platform or customer support, flag unusual large transfers to new crypto or trading sites. Pay extra attention to customers who mention an online friend. Follow your fraud-escalation process."
    },
    "boundary_script": "\"I've decided not to move any money until a trusted person and my bank have looked at all of this. I also want to check the platform through a regulator on my own. If it's real, it will hold up to that.\"",
    "safety_note": "This is financial entrapment that can wipe out savings and sometimes pushes people into debt, lost housing or despair. Warning signs are pressure to borrow or cash out retirement funds, secrecy and fee demands to release your money. Contact your bank right away, report it, and reach out to victim support or legal aid. If you feel hopeless, talk to someone now or call a crisis line.",
    "safety_sensitive": true,
    "misuse_warning": [
-    "Telling a friend in a new online romance that it must be a scam, with no evidence, can damage a real relationship and push them away from you.",
+    "Without evidence, telling a friend their new online romance must be a scam can damage a real relationship. It can also push them away from you.",
     "Blaming victims as gullible adds shame to loss and keeps people from reporting, which is exactly what the fraud relies on."
    ],
    "related_tactics": [
@@ -31260,7 +31260,7 @@
     "Parasocial Manipulation Engineering",
     "Immersive Manipulation (VR/AR)"
    ],
-   "how_to_distinguish_from_related": "Parasocial Manipulation Engineering uses a one-sided bond with an audience figure. Here the bond is a personal, seemingly two-way friendship or romance aimed at one victim. Synthetic Persona Networks may supply the fake faces and voices, but this tactic is defined by the slow path from trust to a money request. Dark Patterns (AI-Adaptive) trick a click in an interface, and here the trick is the relationship itself.",
+   "how_to_distinguish_from_related": "Parasocial Manipulation Engineering uses a one-sided bond with an audience figure. Here the bond is a personal, seemingly two-way friendship or romance aimed at one victim. Synthetic Persona Networks may supply the fake faces and voices. This tactic is defined by the slow path from trust to a money request. Dark Patterns (AI-Adaptive) trick a click in an interface, and here the trick is the relationship itself.",
    "detection_notes": "Not matched or scored. Pasted personal text cannot establish an institutional- or societal-scale pattern — that requires independent, corroborated, documented evidence at a completely different scale.",
    "codex_maturity": "mature",
    "human_review_flags": [
@@ -31471,7 +31471,7 @@
     "The range of 'reasonable' answers gets narrower rather than wider as a decision approaches.",
     "You find that people you know defend a view with the same phrases yet struggle to explain why."
    ],
-   "repair_check": "Real repair would show as visibly wider coverage after the narrowing is pointed out: new voices, corrections that run as prominently as the original, and disclosure of interests. A small note on an inside page does not change the picture most people received.",
+   "repair_check": "Real repair would show as visibly wider coverage after the narrowing is pointed out. That means new voices, corrections that run as prominently as the original, and disclosure of interests. A small note on an inside page does not change the picture most people received.",
    "boundary_respect_check": "Does the source welcome a request to see the evidence and the opposing case? Openness to a hard question about its sourcing is a good sign. Defensiveness, or attacks on the person asking, suggests the picture was meant to go unquestioned.",
    "psychological_mechanism": "People usually reason from what they have been shown, and rarely notice what was left out. When every channel offers a similar set of options, agreement may look like an independent conclusion. Hearing the same thing from many sources often adds credibility, even when those sources share one origin.",
    "possible_impact_on_receiver": "Some find that confident opinions they held were built on a partial picture. Others are surprised by how differently people saw an issue, and lose trust in everything once they notice the gap. A few swing toward distrusting all information, which carries its own costs.",
@@ -31634,11 +31634,11 @@
    "forensic_only": false,
    "absorbs": [],
    "short_definition": "Using a heated social issue to split a group, pull attention elsewhere or fire up supporters, with no wish to settle it.",
-   "expanded_definition": "A wedge issue is one that sharply divides a group that mostly agrees. Wedge Issue Exploitation is the deliberate use of such an issue to break up an alliance, pull focus from something else, or fire up supporters. Many divisive issues are important and deserve real argument, so raising one proves nothing. What gives it away is an issue kept warm because the division is useful, while the underlying problem stays unaddressed.",
+   "expanded_definition": "A wedge issue is one that sharply divides a group that mostly agrees. Wedge Issue Exploitation is the deliberate use of such an issue. The aim is to break up an alliance, pull focus from something else, or fire up supporters. Many divisive issues are important and deserve real argument, so raising one proves nothing. What gives it away is an issue kept warm because the division is useful, while the underlying problem stays unaddressed.",
    "plain_language_summary": "A hot-button issue is pushed hard not to solve it, but because fighting about it splits people who would otherwise agree on other things.",
    "why_this_matters": "People end up divided along a line drawn for someone else's benefit. They argue about who they are while the things they actually share go unaddressed. Friendships and coalitions can break over a fight neither side chose.",
    "what_it_is": [
-    "A deliberate focus on an issue that cuts across a rival's supporters, so they argue with each other and not with the people who raised it.",
+    "A deliberate focus on an issue that cuts across a rival's supporters. They end up arguing with each other and not with the people who raised it.",
     "Used to change the subject: a loud fight on one topic can crowd out a quieter story about another.",
     "Often aimed at identity and emotion, such as respect, belonging or fear, more than at the details of the policy.",
     "Possible from any side and about any issue. The mechanism is the same whichever cause is at stake.",
@@ -31706,10 +31706,10 @@
     "Calls to compromise are repeatedly framed as betrayal.",
     "You notice you feel anger at neighbors or relatives over a topic that has not touched your life directly."
    ],
-   "repair_check": "Real movement means the issue is taken up in a way that could end it, with a concrete proposal and a hearing for the other side. A temporary calm that returns with new heat before the next vote is not progress.",
+   "repair_check": "Real movement means the issue is taken up in a way that could end it. That includes a concrete proposal and a hearing for the other side. A temporary calm that returns with new heat before the next vote is not progress.",
    "boundary_respect_check": "Can you say 'I disagree on this one but agree on that' and still be welcomed? If shared ground is acknowledged, the dispute is probably honest. If any partial agreement is treated as disloyalty, the division itself may be doing the work.",
-   "psychological_mechanism": "Strong emotions around identity and belonging often make people watch for threats and pull toward their own side. When a topic touches who someone is, a balanced position may be taken as betrayal, so people may sort into camps faster than on a practical question. Each exchange of anger can harden the sorting.",
-   "possible_impact_on_receiver": "Family dinners get strained and friendships cool. Some feel forced to pick a side on a topic they have mixed views about, and sense that real problems at home get less attention than the latest fight. Others describe exhaustion and a wish to stop discussing politics at all.",
+   "psychological_mechanism": "Strong emotions around identity and belonging often make people watch for threats and pull toward their own side. When a topic touches who someone is, a balanced position may be taken as betrayal. People may then sort into camps faster than on a practical question. Each exchange of anger can harden the sorting.",
+   "possible_impact_on_receiver": "Family dinners get strained and friendships cool. Some feel forced to pick a side on a topic they have mixed views about. They may sense that real problems at home get less attention than the latest fight. Others describe exhaustion and a wish to stop discussing politics at all.",
    "response_options": {
     "soft_clarification": "Ask the other person: 'Is there a part of this we both want fixed, even if we disagree about the rest?'",
     "firm_boundary": "Refuse to treat one issue as the test of a person's worth. Say you will talk about the specifics of the policy but not about who is good or bad.",
@@ -31747,12 +31747,12 @@
    "branch": "societal",
    "category": "Political & Propaganda",
    "detectability_note": "This tool cannot establish this from pasted text at all. It is included for literacy only, so you can learn to recognize the concept — not as something this tool detects, scores, or flags.",
-   "core_meaning": "Using bots, fake accounts and automated tools to flood public talk with political messages that pass as real opinion at a scale no crowd could match.",
+   "core_meaning": "Using bots, fake accounts and automated tools to flood public talk with political messages posing as real opinion, at a scale no crowd could match.",
    "aftermath_state": false,
    "forensic_only": false,
    "absorbs": [],
-   "short_definition": "Using bots, fake accounts and automated tools to flood public talk with political messages that pass as real opinion at a scale no crowd could match.",
-   "expanded_definition": "Computational Propaganda is political persuasion carried out with software. It uses automated accounts, networks of fake profiles and algorithm-boosted content that pass as ordinary people talking. It differs from a single troll or a loud real user because it relies on volume and coordination that no group of individuals could produce by hand. Parties and campaigns openly coordinate messaging and use scheduling tools, so automation alone is not the sign. Attribution is technical work, and a hard-arguing account is not evidence of a network.",
+   "short_definition": "Using bots, fake accounts and automated tools to flood public talk with political messages posing as real opinion, at a scale no crowd could match.",
+   "expanded_definition": "Computational Propaganda is political persuasion carried out with software. It uses automated accounts, networks of fake profiles and algorithm-boosted content that pass as ordinary people talking. It differs from a single troll or a loud real user. It relies on volume and coordination that no group of individuals could produce by hand. Parties and campaigns openly coordinate messaging and use scheduling tools, so automation alone is not the sign. Attribution is technical work, and a hard-arguing account is not evidence of a network.",
    "plain_language_summary": "Software and fake accounts pose as crowds of ordinary people. That makes a political message look more popular and natural than it is.",
    "why_this_matters": "The sense of what most people believe shapes what any one person feels able to say aloud. Here that sense gets set by accounts that are not people. Real voices can be outnumbered, and honest users get wrongly accused of being bots.",
    "what_it_is": [
@@ -31827,7 +31827,7 @@
    "repair_check": "Real correction means the operator is identified, the accounts are taken down, and a public explanation says what was automated and by whom. Quiet deletion followed by the same messages from new profiles leaves the network intact.",
    "boundary_respect_check": "When you ask a suspicious account a genuine question about itself, does it engage with what you said, or fall back on stock lines? A real person can answer in their own words. Canned repetition, or silence followed by more of the same, is informative.",
    "psychological_mechanism": "People often read the number of voices saying something as a sign of what is common and safe to think. A large, steady stream of apparently independent posts can make a view feel mainstream and can make dissenters feel isolated. Seeing the same claim many times also tends to make it feel more familiar and so more plausible.",
-   "possible_impact_on_receiver": "Seeing an apparently overwhelming majority can make a person doubt their own views. Others hold back from posting, feel anger at accounts that later turn out to be fake, or grow suspicious of strangers online, honest ones included. Some start calling every opponent a bot, which damages real conversation.",
+   "possible_impact_on_receiver": "Seeing an apparently overwhelming majority can make a person doubt their own views. Others hold back from posting or feel anger at accounts that later turn out to be fake. Some grow suspicious of strangers online, honest ones included. Some start calling every opponent a bot, which damages real conversation.",
    "response_options": {
     "soft_clarification": "Before replying to a surprising account, check its profile and history. A single honest question such as 'Can you tell me more about how you came to this view?' shows whether anyone is there.",
     "firm_boundary": "Decide not to share or boost content from accounts you cannot verify as real people, however well it fits your opinions.",
@@ -31877,7 +31877,7 @@
     "A way of influencing a decision by working on what goes into the decision, not by pressuring the person who makes it.",
     "A concept linked to Soviet and Russian military and influence theory, often described as aimed at rivals such as commanders, governments or institutions.",
     "Open pressure and visible threats are its opposite, because it depends on the audience believing the conclusion is their own.",
-    "It can reach ordinary audiences when a whole information environment is tilted, though it is hard to show that any single audience was the target.",
+    "It can reach ordinary audiences when a whole information environment is tilted. It is hard to show that any single audience was the target.",
     "Rarely provable in the moment. Claims about it usually rest on documents or testimony that surface later."
    ],
    "what_it_sounds_like": [
@@ -31948,10 +31948,10 @@
    ],
    "repair_check": "Correction here means the shaped inputs are named and the choice is reopened with a fuller picture. A quiet retraction of one detail, while the decision it justified stays untouched, corrects very little.",
    "boundary_respect_check": "Ask a source for the original document behind a claim and note what comes back. Handing over the primary material, and saying what it does not show, points away from steering. Vague reassurance or irritation at the question points toward it.",
-   "psychological_mechanism": "We count a conclusion we reached ourselves as earned, and few of us go back to audit the inputs. Reasoning can only work with the facts in front of it, so a tilted set of facts can produce a sincere, confident and tilted choice. Time pressure and a shortage of independent sources can strengthen this.",
+   "psychological_mechanism": "We count a conclusion we reached ourselves as earned, and few of us go back to audit the inputs. Reasoning can only work with the facts in front of it. A tilted set of facts can produce a sincere, confident and tilted choice. Time pressure and a shortage of independent sources can strengthen this.",
    "possible_impact_on_receiver": "Many feel a jolt of embarrassment on learning that facts they trusted were selected for them. Anger and a reluctance to trust their own judgment can follow. Some become suspicious of all information, which carries its own cost. Others dig in to defend the earlier choice, because they see it as their own.",
    "response_options": {
-    "soft_clarification": "Ask where a key claim started: 'What is the original source for this, and has anyone independent confirmed it?' Ask it of sources you like as well as those you doubt.",
+    "soft_clarification": "Ask where a key claim started. You could say: 'What is the original source for this, and has anyone independent confirmed it?' Ask it of sources you like as well as those you doubt.",
     "firm_boundary": "Decline to decide under a deadline nobody can explain. Take extra time to find sources that do not trace back to the same origin before you commit.",
     "disengagement": "Step away from a flood of one-sided news about a pending decision. Come back after a day and compare it with older, slower reporting.",
     "support_seeking": "Talk the situation through with a friend who holds a different view and ask which sources they would trust. A librarian or fact-checking service can help trace where claims began.",
@@ -31972,7 +31972,7 @@
     "Computational Propaganda",
     "Normative Messaging"
    ],
-   "how_to_distinguish_from_related": "Manufactured Consent works on what a whole population seems to agree with, while reflexive control concerns one party's specific decision and the facts that party was given. Computational Propaganda is a delivery method, using bots and networks, which could supply inputs but says nothing about a decision. Normative Messaging leans on what others supposedly do. Reflexive control leans on which facts you were shown.",
+   "how_to_distinguish_from_related": "Manufactured Consent works on what a whole population seems to agree with. Reflexive control concerns one party's specific decision and the facts that party was given. Computational Propaganda is a delivery method, using bots and networks, which could supply inputs but says nothing about a decision. Normative Messaging leans on what others supposedly do. Reflexive control leans on which facts you were shown.",
    "detection_notes": "Not matched or scored. Pasted personal text cannot establish an institutional- or societal-scale pattern — that requires independent, corroborated, documented evidence at a completely different scale.",
    "codex_maturity": "mature",
    "human_review_flags": [
@@ -31992,7 +31992,7 @@
    "forensic_only": false,
    "absorbs": [],
    "short_definition": "Claiming that 'most others' hold a view or act a certain way, which pulls people toward that apparent norm.",
-   "expanded_definition": "Normative messaging is any communication about what is normal, common or expected in a group, from a poster saying most neighbors recycle to a headline saying everyone has moved on. People often adjust toward what they think others do. When the stated norm is accurate and the aim is disclosed, it is a mainstream public-health and civic tool. The concern begins when the claim is false, unverifiable or invented, or the sender hides a stake. One poster means little. What stands out is a steady drumbeat of 'everyone' claims you cannot check.",
+   "expanded_definition": "Normative messaging is any communication about what is normal, common or expected in a group. It ranges from a poster saying most neighbors recycle to a headline saying everyone has moved on. People often adjust toward what they think others do. When the stated norm is accurate and the aim is disclosed, it is a mainstream public-health and civic tool. The concern begins when the claim is false, unverifiable or invented, or the sender hides a stake. One poster means little. What stands out is a steady drumbeat of 'everyone' claims you cannot check.",
    "plain_language_summary": "Being told that 'everybody' thinks or does something, so you go along. It is fine when the claim is true and the reason is stated, and a problem when you cannot check it.",
    "why_this_matters": "Behavior shifts to match what everyone else is said to be doing, even where private preference points elsewhere. The claim about what everyone does is rarely checked. So a person can be moved by a majority that is smaller than described, or does not exist.",
    "what_it_is": [
@@ -32069,19 +32069,19 @@
     "Counts and percentages shown to you keep rising while nobody can say who was counted.",
     "When you talk to people in person, their views turn out to be more varied than the feeds suggested."
    ],
-   "repair_check": "A sender who is fixing this names the source of the figure, corrects it once it is shown to be inflated, and stops using it. A message that swaps in a different 'everyone' statement has not corrected anything.",
+   "repair_check": "A sender who is fixing this names the source of the figure. They correct it once it is shown to be inflated, and stop using it. A message that swaps in a different 'everyone' statement has not corrected anything.",
    "boundary_respect_check": "Does asking for the source change how you are treated? Calm sharing of the survey is a good sign. Being called out of step, or told that asking is itself odd, suggests the claim leaned on pressure and not on evidence.",
-   "psychological_mechanism": "Other people's behavior is a quick guide to what is safe, correct and approved, especially in unfamiliar settings, and a norm claim borrows that shortcut. It can work even when we privately disagree, because standing out can feel costly. The effect often weakens when we can see the data or meet real members of the group.",
-   "possible_impact_on_receiver": "Some quietly drop a view because it seemed unpopular. Others feel alone in a disagreement that was widely shared, or embarrassed on finding that the majority was a fraction of what had been described. Some grow wary of every statistic, including honest ones.",
+   "psychological_mechanism": "Other people's behavior is a quick guide to what is safe, correct and approved, especially in unfamiliar settings. A norm claim borrows that shortcut. It can work even when we privately disagree, because standing out can feel costly. The effect often weakens when we can see the data or meet real members of the group.",
+   "possible_impact_on_receiver": "Some quietly drop a view because it seemed unpopular. Others feel alone in a disagreement that was widely shared. Still others feel embarrassed on finding that the majority was a fraction of what had been described. Some grow wary of every statistic, including honest ones.",
    "response_options": {
     "soft_clarification": "Ask politely where the figure comes from: 'Which survey is that, and when was it taken?'",
-    "firm_boundary": "Do not change your mind or sign up on the strength of a claim about what others think until you have seen the number for yourself.",
+    "firm_boundary": "Do not change your mind or sign up because of a claim about what others think. Wait until you have seen the number for yourself.",
     "disengagement": "Turn off visible counters, trending panels and 'people also' prompts for a while, and decide from what you value instead.",
     "support_seeking": "Ask two or three people you know, in person, what they actually think. Real answers are often more varied than a headline suggests.",
     "workplace_or_professional": "If a colleague says everyone has already agreed, ask who, and ask to hear it from them. Request that any poll be run with the question and result shared openly."
    },
    "boundary_script": "\"Who counted these people, and when? Would I want this if I were the only one? Am I going along because it is true, or because I fear being the odd one out?\"",
-   "safety_note": "Norm claims are usually low-risk to your safety. The risk grows when a claim about what 'everyone' will do is used to rally a crowd against named people, or to build pressure for harassment. If that appears, save the examples, report them to the platform, and contact a local support service or lawyer if you are targeted.",
+   "safety_note": "Norm claims are usually low-risk to your safety. The risk grows when a claim about what 'everyone' will do is used to rally a crowd against named people. It also grows when it builds pressure for harassment. If that appears, save the examples and report them to the platform. If you are targeted, contact a local support service or lawyer.",
    "safety_sensitive": false,
    "misuse_warning": [
     "If you label every statement about what most people think as 'normative messaging', ordinary reporting of a true majority starts to look sinister.",
@@ -32117,7 +32117,7 @@
    "short_definition": "Arranging an event to look like another group's work, so a response seems justified or the blamed party is harmed.",
    "expanded_definition": "A false flag operation is an event arranged so that it looks like the work of someone else. Historians have documented some cases, usually through archives and investigations years later. In real time the label is claimed far more often than shown, because early facts about any incident are confused. A gap in the official story, an odd coincidence or a convenient result does not establish staging. Proving it would take evidence about who arranged the event, which ordinary readers rarely hold.",
    "plain_language_summary": "An attack or incident is arranged to look like someone else did it, so blame, anger and action land on the wrong party. It is also a label people often apply far too fast.",
-   "why_this_matters": "Retaliation, suspicion and public anger land on a group that did not do the thing, and the record that would correct it is the very thing that was arranged. The opposite harm exists too. Calling real tragedies staged wounds the people who lived them.",
+   "why_this_matters": "Retaliation, suspicion and public anger land on a group that did not do the thing. The record that would correct it is the very thing that was arranged. The opposite harm exists too. Calling real tragedies staged wounds the people who lived them.",
    "what_it_is": [
     "A lie about who is responsible for an event, on top of any lie about what happened.",
     "The phrase is usually traced to old naval ruses in which a ship flew another side's flag.",
@@ -32205,7 +32205,7 @@
    "safety_note": "Reading about this carries no danger. What changes that is the aftermath: a wrongly blamed group can face harassment or violence, and survivors falsely called actors can be stalked. If you or someone you know is targeted, save the messages, report them, and contact local authorities or legal aid. If danger is immediate, call emergency services.",
    "safety_sensitive": false,
    "misuse_warning": [
-    "Shouting 'false flag' at any event you dislike turns a rare, evidence-based finding into a reflex, and it can harm survivors and the groups blamed.",
+    "Shouting 'false flag' at any event you dislike turns a rare, evidence-based finding into a reflex. It can harm survivors and the groups blamed.",
     "Dismissing every question about an official account as conspiracy thinking is also a misuse. Documented cases exist, and asking for evidence is fair."
    ],
    "related_tactics": [
@@ -32231,11 +32231,11 @@
    "branch": "societal",
    "category": "Political & Propaganda",
    "detectability_note": "This tool cannot establish this from pasted text at all. It is included for literacy only, so you can learn to recognize the concept — not as something this tool detects, scores, or flags.",
-   "core_meaning": "A flood of contradictions and denials that wears down belief that facts can be known, until people trust no source and nobody can be held to account.",
+   "core_meaning": "A flood of contradictions and denials that wears down belief in knowable facts, until people trust no source and nobody can be held to account.",
    "aftermath_state": false,
    "forensic_only": false,
    "absorbs": [],
-   "short_definition": "A flood of contradictions and denials that wears down belief that facts can be known, until people trust no source and nobody can be held to account.",
+   "short_definition": "A flood of contradictions and denials that wears down belief in knowable facts, until people trust no source and nobody can be held to account.",
    "expanded_definition": "'Post-truth' is a term for public life where appeals to emotion and identity count for more than facts you can check. As a manipulation pattern, it is a steady flood of contradictions, denials and 'who can really know' messages. People end up unsure whether anything can be verified. Doubting a specific claim is healthy. This pattern pushes doubt about whether claims can be tested at all. One dishonest statement, or one sincere moment of cynicism, does not show it. What marks it is the scale and the effect, which are fatigue and giving up.",
    "plain_language_summary": "People are pushed to feel that no one can know what is true, so they stop checking and stop objecting. Honest doubt about one claim is different; this is giving up on checking.",
    "why_this_matters": "When nothing can be known, nothing can be checked, and someone left doubting everything has no ground from which to object to anything. They may also fall back on whoever sounds most certain, or on their own group.",
@@ -32314,7 +32314,7 @@
    ],
    "repair_check": "Where trust is restored, sources publish their evidence, admit errors and let others check. A promise to be more honest next time, with no method others could test, restores very little.",
    "boundary_respect_check": "Ask what evidence would change their mind, and listen to the answer. A concrete answer shows that claims can still be tested. 'Nothing would, they all lie' shows that the idea that testing is impossible is holding steady.",
-   "psychological_mechanism": "Faced with more contradictory claims than they can sort, many of us save effort by switching off or retreating to the group we feel loyal to. Repeated falsehoods that carry no cost can teach that truth does not matter. Doubt can then spread from the false claim to the whole idea of checking.",
+   "psychological_mechanism": "Faced with more contradictory claims than we can sort, many of us save effort. We switch off or retreat to the group we feel loyal to. Repeated falsehoods that carry no cost can teach that truth does not matter. Doubt can then spread from the false claim to the whole idea of checking.",
    "possible_impact_on_receiver": "People describe exhaustion, cynicism, a sense that the effort to find out is wasted, and withdrawal from news or civic life. Others describe leaning harder on one trusted voice or group because everything else feels unreliable. Some feel shame at having been fooled and stop trusting even honest sources.",
    "response_options": {
     "soft_clarification": "Separate the two doubts out loud: 'I doubt that claim, and here is what would settle it. I do not doubt that things can be checked.'",
@@ -32353,11 +32353,11 @@
    "branch": "societal",
    "category": "Espionage & Influence Operations",
    "detectability_note": "This tool cannot establish this from pasted text at all. It is included for literacy only, so you can learn to recognize the concept — not as something this tool detects, scores, or flags.",
-   "core_meaning": "Using a romantic or sexual relationship as cover for an intelligence aim, like getting at secrets, recruiting someone, or collecting material to pressure them later.",
+   "core_meaning": "Using a romantic or sexual relationship as cover for an intelligence aim, like getting secrets, recruiting someone, or collecting material for later pressure.",
    "aftermath_state": false,
    "forensic_only": false,
    "absorbs": [],
-   "short_definition": "Using a romantic or sexual relationship as cover for an intelligence aim, like getting at secrets, recruiting someone, or collecting material to pressure them later.",
+   "short_definition": "Using a romantic or sexual relationship as cover for an intelligence aim, like getting secrets, recruiting someone, or collecting material for later pressure.",
    "expanded_definition": "Honey trapping is the use of an apparent romance or sexual relationship as the means of an intelligence operation. The affection is the delivery method, and the goal sits behind it. It appears in espionage history and counterintelligence training, and it is rare compared with ordinary dating. From the inside it looks like a normal relationship, so one odd detail proves nothing. What matters is a combination of three things: sensitive access, a relationship that moves faster than the facts support, and later pressure.",
    "plain_language_summary": "A relationship feels real to you, but someone is using it. The other person, or whoever is behind them, wants secrets, cooperation or a hold over you.",
    "why_this_matters": "The relationship itself was the tool. So finding out means losing the connection and facing the results of everything shared inside it, all at the same moment. Shame and fear of exposure can keep people silent, even when telling a security officer early would limit the damage.",
@@ -32437,13 +32437,13 @@
    "possible_impact_on_receiver": "The loss lands twice. The relationship they believed in turns out to have been something else, and there may be professional consequences for what was shared. Many report shame, anger at themselves, and a fear of telling anyone. Some pull away from friends because of the embarrassment.",
    "response_options": {
     "soft_clarification": "Ask a plain, calm question about something checkable, such as 'Can I meet your coworkers or friends sometime?' Then notice how it is received.",
-    "firm_boundary": "Keep work details out of the relationship altogether, with words like 'I do not discuss work with anyone, including people I love.' Say it the same way every time.",
+    "firm_boundary": "Keep work details out of the relationship altogether. You could say: 'I do not discuss work with anyone, including people I love.' Say it the same way every time.",
     "disengagement": "Pause sharing anything sensitive while you check things out, and keep your conversations about everyday life.",
     "support_seeking": "Tell a trusted friend what has been happening, and consider a lawyer or counselor, so you are not holding it alone.",
     "workplace_or_professional": "If your job has a security office or a reporting process for unusual contacts, it is usually better to go early than to wait. Early reports usually leave you more options."
    },
    "boundary_script": "\"I keep my work separate from my relationships, with everyone, and that won't change. I'm happy to talk about anything else.\"",
-   "safety_note": "Watch for any mention of private photos, recordings or messages being shared. Watch too for pressure that grows once you have shared something. Do not handle it alone. A lawyer, the security or legal contact at your workplace, or a trusted person can help you plan the next step before anything is disclosed.",
+   "safety_note": "Watch for any mention of private photos, recordings or messages being shared. Watch too for pressure that grows once you have shared something. Do not handle it alone. A lawyer, the security or legal contact at your workplace, or a trusted person can help you plan the next step. Do this before anything is disclosed.",
    "safety_sensitive": true,
    "misuse_warning": [
     "Accusing a partner of being an operative on thin evidence can wreck a real relationship. It can also bring harassment down on an innocent person.",
@@ -32556,7 +32556,7 @@
    "psychological_mechanism": "An argument often carries more weight when its source seems to have no stake in it. A familiar, respected voice can make a position sound like common sense, and repetition adds to that. When the sponsorship is hidden, listeners cannot apply the discount they would give an advertisement. The message may land harder than it has earned.",
    "possible_impact_on_receiver": "Once a hidden tie comes out, earlier articles or talks look different, and some readers wonder what else they believed because of that voice. Others turn suspicious of every expert, including honest ones. Many say the hardest part was that they had no way of knowing at the time.",
    "response_options": {
-    "soft_clarification": "When you hear a strong claim, you can ask in a comment or question, 'Do you have any financial or professional ties to the people who gain from this?'",
+    "soft_clarification": "When you hear a strong claim, you can ask in a comment or question. For example: 'Do you have any financial or professional ties to the people who gain from this?'",
     "firm_boundary": "Decline to share or rely on a piece until you know who funded it and whether the author disclosed their ties.",
     "disengagement": "Step back from sources that will not say who supports them, and rely on those that publish funding and corrections.",
     "support_seeking": "Take specific, documented concerns to a reporter, a press-standards body or a research-integrity office. Do not take them to a social media pile-on.",
@@ -32670,9 +32670,9 @@
     "Revisions that come only after outside pressure.",
     "Later declassified or leaked records that describe the effort in the institution's own words."
    ],
-   "repair_check": "Once the misleading effort is exposed, accountability looks like release of the underlying records, an open correction, and a named account of who decided what. It does not look like a new statement that is again careful, partial and impossible to check.",
+   "repair_check": "Once the misleading effort is exposed, accountability looks like release of the underlying records. It also looks like an open correction and a named account of who decided what. It does not look like a new statement that is again careful, partial and impossible to check.",
    "boundary_respect_check": "When you press for sources, does the account become more checkable, with named documents and independent confirmation? Or does it become more guarded, with you told that doubt itself is unpatriotic or irresponsible?",
-   "psychological_mechanism": "New information is usually read in line with what a person already expects, so a picture that matches expectations may be accepted with little checking. Several matching reports look like proof, even when they share one origin. Attention is limited too. What is shown prominently can crowd out what is missing, so the absence goes unnoticed.",
+   "psychological_mechanism": "New information is usually read in line with what a person already expects. A picture that matches expectations may be accepted with little checking. Several matching reports look like proof, even when they share one origin. Attention is limited too. What is shown prominently can crowd out what is missing, so the absence goes unnoticed.",
    "possible_impact_on_receiver": "Readers talk about a gap between the world they thought they understood and what records later showed. Some feel anger or embarrassment at having believed it. After repeated cases, others drift into believing nothing, which leaves them no better equipped. Those who made decisions on the false picture may face real losses.",
    "response_options": {
     "soft_clarification": "Ask for the basis: 'What is the source for this, and has anyone independent confirmed it?'",
@@ -32791,7 +32791,7 @@
    ],
    "repair_check": "If you raise the concern, a trustworthy contact accepts that you will report the contact or decline gifts. They do not try to talk you out of it. What only looks like repair is a larger apology gift, a tearful appeal, or an explanation of why telling anyone is unnecessary.",
    "boundary_respect_check": "After you decline a gift, a favor or a private conversation, does the person keep treating you the same? Or does warmth drop, or does a hint about what they know appear? The change in manner is more informative than any one request.",
-   "psychological_mechanism": "Need and fear can narrow attention and make a way out look attractive. Money pressure can turn an offer into relief, belief can turn a request into loyalty, and pride can make recognition seem earned. Embarrassment often pushes people to keep a secret, and the longer it stays hidden the more weight it gains, which can strengthen a hold on them.",
+   "psychological_mechanism": "Need and fear can narrow attention and make a way out look attractive. Money pressure can turn an offer into relief. Belief can turn a request into loyalty. Pride can make recognition seem earned. Embarrassment often pushes people to keep a secret. The longer it stays hidden, the more weight it gains, which can strengthen a hold on them.",
    "possible_impact_on_receiver": "Many describe a slow slide in which each step felt small and reasonable at the time. Looking back, they feel shame and a sense they should have known better, which often keeps them from asking for help. Some describe fear about their job, legal standing or reputation once they see the whole picture.",
    "response_options": {
     "soft_clarification": "Say the plain question out loud: 'Why are you interested in this about me?' A friend can answer. Someone with an agenda often avoids it.",
@@ -32805,7 +32805,7 @@
    "safety_sensitive": true,
    "misuse_warning": [
     "Using the four letters as a checklist to suspect a coworker, partner or friend turns a teaching tool into a way of accusing people. They may simply have worries and beliefs.",
-    "If you apply the label to every case of someone cooperating with a competitor or foreign party, you hide the many other reasons people do so."
+    "Applying the label to every case of cooperating with a competitor or foreign party hides many other reasons for it."
    ],
    "related_tactics": [
     "Honey Trapping",
@@ -32837,7 +32837,7 @@
    "absorbs": [],
    "short_definition": "Messages built on psychological principles to steer how a population sees legitimacy, inevitability, loyalty or hopelessness, and therefore how it acts.",
    "expanded_definition": "PSYOP, short for psychological operations, is the military term for communication aimed at changing how groups think and act. Framing means choosing an angle that makes a message seem natural. The angle might say who is legitimate, what is coming anyway, who is us and who is them, or whether resisting is pointless. The techniques overlap heavily with ordinary advertising and campaigns, so a particular frame tells you very little about who sent it or why.",
-   "plain_language_summary": "Some messages are built to make you feel that something is already decided, that resistance is pointless, or that a group is on your side or against you. Recognizing the angle helps you decide for yourself.",
+   "plain_language_summary": "Some messages are built to make you feel that something is already decided, or that resistance is pointless. Others try to make you feel a group is on your side or against you. Spotting the angle helps you decide for yourself.",
    "why_this_matters": "Messages built around futility or inevitability leave people seeing their own resignation as simple realism. When a frame seems to be your own conclusion, you are less likely to question where it came from or whether other options exist.",
    "what_it_is": [
     "A set of message angles used in military and political communication. They often make resistance, doubt or leaving seem pointless or disloyal.",
@@ -32909,7 +32909,7 @@
     "Options that were once discussed vanish from conversation.",
     "The same sources keep supplying the same angle, whatever happens in the news."
    ],
-   "repair_check": "When a frame is challenged, a straightforward sender names themselves, supplies the evidence, and revises the claim if it was overstated. A louder repeat of the message, a change of name, or a claim that questioning proves you are a target only looks like a response.",
+   "repair_check": "When a frame is challenged, a straightforward sender names themselves and supplies the evidence. They revise the claim if it was overstated. A louder repeat of the message only looks like a response. So does a change of name, or a claim that questioning proves you are a target.",
    "boundary_respect_check": "Try putting the message aside for a day and talking with someone with a different view. Does the message still seem like your own conclusion? And does the source tolerate your distance, or press harder? The answer shows how much you were choosing.",
    "psychological_mechanism": "A conclusion is accepted more readily when it arrives with a feeling, is repeated often, and seems widely shared. Messages of inevitability make effort look pointless, and messages of belonging make doubt look like betrayal. When they turn up in many places, they start to read as background fact and not as a claim.",
    "possible_impact_on_receiver": "Listeners report feeling worn down, resigned, or unusually angry at one group without knowing why. Some notice later that they had stopped voting, organizing or talking to neighbors who disagreed. Others distrust all information once they see how they were pulled in, and that can be as disabling as the original frame.",
@@ -33073,7 +33073,7 @@
    "forensic_only": false,
    "absorbs": [],
    "short_definition": "Efforts to wear down a population's ability to think clearly, trust shared facts and reach agreement, by working on beliefs and attention.",
-   "expanded_definition": "Cognitive warfare is a term used in security circles for campaigns aimed at how a society thinks, not at its buildings or machines. Such campaigns can aim to leave people tired, suspicious of each other, and unable to settle on what is true, rather than persuading them of one claim. The word is contested and sometimes overused. Real societies also fall into confusion and distrust without any outside plan.",
+   "expanded_definition": "Cognitive warfare is a term used in security circles. It describes campaigns aimed at how a society thinks, not at its buildings or machines. Such campaigns can aim to leave people tired, suspicious of each other, and unable to settle on what is true. That is different from persuading them of one claim. The word is contested and sometimes overused. Real societies also fall into confusion and distrust without any outside plan.",
    "plain_language_summary": "A campaign that tries to leave a whole society confused, divided and unable to agree on facts. It does not try to win people to one side.",
    "why_this_matters": "What is attacked is a group's ability to reason together. The damage can show up as exhaustion, mutual distrust, and an inability to agree on anything long enough to act on it. This weakens people whichever side they are on.",
    "what_it_is": [

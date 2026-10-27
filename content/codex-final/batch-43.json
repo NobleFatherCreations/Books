@@ -1,6 +1,6 @@
 {
  "Honey Trapping": {
-  "short_definition": "Using a romantic or sexual relationship as cover for an intelligence aim, like getting at secrets, recruiting someone, or collecting material to pressure them later.",
+  "short_definition": "Using a romantic or sexual relationship as cover for an intelligence aim, like getting secrets, recruiting someone, or collecting material for later pressure.",
   "expanded_definition": "Honey trapping is the use of an apparent romance or sexual relationship as the means of an intelligence operation. The affection is the delivery method, and the goal sits behind it. It appears in espionage history and counterintelligence training, and it is rare compared with ordinary dating. From the inside it looks like a normal relationship, so one odd detail proves nothing. What matters is a combination of three things: sensitive access, a relationship that moves faster than the facts support, and later pressure.",
   "plain_language_summary": "A relationship feels real to you, but someone is using it. The other person, or whoever is behind them, wants secrets, cooperation or a hold over you.",
   "why_this_matters": "The relationship itself was the tool. So finding out means losing the connection and facing the results of everything shared inside it, all at the same moment. Shame and fear of exposure can keep people silent, even when telling a security officer early would limit the damage.",
@@ -80,20 +80,20 @@
   "possible_impact_on_receiver": "The loss lands twice. The relationship they believed in turns out to have been something else, and there may be professional consequences for what was shared. Many report shame, anger at themselves, and a fear of telling anyone. Some pull away from friends because of the embarrassment.",
   "response_options": {
    "soft_clarification": "Ask a plain, calm question about something checkable, such as 'Can I meet your coworkers or friends sometime?' Then notice how it is received.",
-   "firm_boundary": "Keep work details out of the relationship altogether, with words like 'I do not discuss work with anyone, including people I love.' Say it the same way every time.",
+   "firm_boundary": "Keep work details out of the relationship altogether. You could say: 'I do not discuss work with anyone, including people I love.' Say it the same way every time.",
    "disengagement": "Pause sharing anything sensitive while you check things out, and keep your conversations about everyday life.",
    "support_seeking": "Tell a trusted friend what has been happening, and consider a lawyer or counselor, so you are not holding it alone.",
    "workplace_or_professional": "If your job has a security office or a reporting process for unusual contacts, it is usually better to go early than to wait. Early reports usually leave you more options."
   },
   "boundary_script": "\"I keep my work separate from my relationships, with everyone, and that won't change. I'm happy to talk about anything else.\"",
   "safety_sensitive": true,
-  "safety_note": "Watch for any mention of private photos, recordings or messages being shared. Watch too for pressure that grows once you have shared something. Do not handle it alone. A lawyer, the security or legal contact at your workplace, or a trusted person can help you plan the next step before anything is disclosed.",
+  "safety_note": "Watch for any mention of private photos, recordings or messages being shared. Watch too for pressure that grows once you have shared something. Do not handle it alone. A lawyer, the security or legal contact at your workplace, or a trusted person can help you plan the next step. Do this before anything is disclosed.",
   "misuse_warning": [
    "Accusing a partner of being an operative on thin evidence can wreck a real relationship. It can also bring harassment down on an innocent person.",
    "Using the label to explain away any breakup or betrayal turns a rare category into a catch-all."
   ],
   "how_to_distinguish_from_related": "Agent of Influence Operations uses public figures who speak to an audience. Honey trapping happens in private, through one person's intimate trust. MICE Framework Exploitation is the analyst's checklist of levers such as money or compromise, and honey trapping is one route to the compromise lever. Strategic Deception misleads whole adversaries. Here, one person is deceived about a single relationship.",
-  "core_meaning": "Using a romantic or sexual relationship as cover for an intelligence aim, like getting at secrets, recruiting someone, or collecting material to pressure them later."
+  "core_meaning": "Using a romantic or sexual relationship as cover for an intelligence aim, like getting secrets, recruiting someone, or collecting material for later pressure."
  },
  "Agent of Influence Operations": {
   "short_definition": "A public figure, such as a journalist, academic, politician or executive, who is secretly guided by an outside party while seeming to speak independently.",
@@ -175,7 +175,7 @@
   "psychological_mechanism": "An argument often carries more weight when its source seems to have no stake in it. A familiar, respected voice can make a position sound like common sense, and repetition adds to that. When the sponsorship is hidden, listeners cannot apply the discount they would give an advertisement. The message may land harder than it has earned.",
   "possible_impact_on_receiver": "Once a hidden tie comes out, earlier articles or talks look different, and some readers wonder what else they believed because of that voice. Others turn suspicious of every expert, including honest ones. Many say the hardest part was that they had no way of knowing at the time.",
   "response_options": {
-   "soft_clarification": "When you hear a strong claim, you can ask in a comment or question, 'Do you have any financial or professional ties to the people who gain from this?'",
+   "soft_clarification": "When you hear a strong claim, you can ask in a comment or question. For example: 'Do you have any financial or professional ties to the people who gain from this?'",
    "firm_boundary": "Decline to share or rely on a piece until you know who funded it and whether the author disclosed their ties.",
    "disengagement": "Step back from sources that will not say who supports them, and rely on those that publish funding and corrections.",
    "support_seeking": "Take specific, documented concerns to a reporter, a press-standards body or a research-integrity office. Do not take them to a social media pile-on.",
@@ -266,9 +266,9 @@
    "Revisions that come only after outside pressure.",
    "Later declassified or leaked records that describe the effort in the institution's own words."
   ],
-  "repair_check": "Once the misleading effort is exposed, accountability looks like release of the underlying records, an open correction, and a named account of who decided what. It does not look like a new statement that is again careful, partial and impossible to check.",
+  "repair_check": "Once the misleading effort is exposed, accountability looks like release of the underlying records. It also looks like an open correction and a named account of who decided what. It does not look like a new statement that is again careful, partial and impossible to check.",
   "boundary_respect_check": "When you press for sources, does the account become more checkable, with named documents and independent confirmation? Or does it become more guarded, with you told that doubt itself is unpatriotic or irresponsible?",
-  "psychological_mechanism": "New information is usually read in line with what a person already expects, so a picture that matches expectations may be accepted with little checking. Several matching reports look like proof, even when they share one origin. Attention is limited too. What is shown prominently can crowd out what is missing, so the absence goes unnoticed.",
+  "psychological_mechanism": "New information is usually read in line with what a person already expects. A picture that matches expectations may be accepted with little checking. Several matching reports look like proof, even when they share one origin. Attention is limited too. What is shown prominently can crowd out what is missing, so the absence goes unnoticed.",
   "possible_impact_on_receiver": "Readers talk about a gap between the world they thought they understood and what records later showed. Some feel anger or embarrassment at having believed it. After repeated cases, others drift into believing nothing, which leaves them no better equipped. Those who made decisions on the false picture may face real losses.",
   "response_options": {
    "soft_clarification": "Ask for the basis: 'What is the source for this, and has anyone independent confirmed it?'",
@@ -364,7 +364,7 @@
   ],
   "repair_check": "If you raise the concern, a trustworthy contact accepts that you will report the contact or decline gifts. They do not try to talk you out of it. What only looks like repair is a larger apology gift, a tearful appeal, or an explanation of why telling anyone is unnecessary.",
   "boundary_respect_check": "After you decline a gift, a favor or a private conversation, does the person keep treating you the same? Or does warmth drop, or does a hint about what they know appear? The change in manner is more informative than any one request.",
-  "psychological_mechanism": "Need and fear can narrow attention and make a way out look attractive. Money pressure can turn an offer into relief, belief can turn a request into loyalty, and pride can make recognition seem earned. Embarrassment often pushes people to keep a secret, and the longer it stays hidden the more weight it gains, which can strengthen a hold on them.",
+  "psychological_mechanism": "Need and fear can narrow attention and make a way out look attractive. Money pressure can turn an offer into relief. Belief can turn a request into loyalty. Pride can make recognition seem earned. Embarrassment often pushes people to keep a secret. The longer it stays hidden, the more weight it gains, which can strengthen a hold on them.",
   "possible_impact_on_receiver": "Many describe a slow slide in which each step felt small and reasonable at the time. Looking back, they feel shame and a sense they should have known better, which often keeps them from asking for help. Some describe fear about their job, legal standing or reputation once they see the whole picture.",
   "response_options": {
    "soft_clarification": "Say the plain question out loud: 'Why are you interested in this about me?' A friend can answer. Someone with an agenda often avoids it.",
@@ -378,7 +378,7 @@
   "safety_note": "Watch for any hint that private information, images or a past mistake could be exposed unless you cooperate. Watch also for requests that keep growing, and for demands for secrecy. Do not deal with it alone. A lawyer, your workplace's security contact, or a trusted person can help you decide what to disclose and when.",
   "misuse_warning": [
    "Using the four letters as a checklist to suspect a coworker, partner or friend turns a teaching tool into a way of accusing people. They may simply have worries and beliefs.",
-   "If you apply the label to every case of someone cooperating with a competitor or foreign party, you hide the many other reasons people do so."
+   "Applying the label to every case of cooperating with a competitor or foreign party hides many other reasons for it."
   ],
   "how_to_distinguish_from_related": "Honey Trapping is one route to the compromise lever, using a staged relationship. Agent of Influence Operations is the end state where a public figure carries another party's message. MICE names the motives that may have led there. PSYOP Message Framing and Strategic Deception work on audiences and adversaries at scale. MICE is about one person's needs and how they were used.",
   "core_meaning": "Being pulled into helping an outside party through pressure on one of four common motives: money, ideology, coercion or compromise, and ego."
@@ -386,7 +386,7 @@
  "PSYOP Message Framing": {
   "short_definition": "Messages built on psychological principles to steer how a population sees legitimacy, inevitability, loyalty or hopelessness, and therefore how it acts.",
   "expanded_definition": "PSYOP, short for psychological operations, is the military term for communication aimed at changing how groups think and act. Framing means choosing an angle that makes a message seem natural. The angle might say who is legitimate, what is coming anyway, who is us and who is them, or whether resisting is pointless. The techniques overlap heavily with ordinary advertising and campaigns, so a particular frame tells you very little about who sent it or why.",
-  "plain_language_summary": "Some messages are built to make you feel that something is already decided, that resistance is pointless, or that a group is on your side or against you. Recognizing the angle helps you decide for yourself.",
+  "plain_language_summary": "Some messages are built to make you feel that something is already decided, or that resistance is pointless. Others try to make you feel a group is on your side or against you. Spotting the angle helps you decide for yourself.",
   "why_this_matters": "Messages built around futility or inevitability leave people seeing their own resignation as simple realism. When a frame seems to be your own conclusion, you are less likely to question where it came from or whether other options exist.",
   "what_it_is": [
    "A set of message angles used in military and political communication. They often make resistance, doubt or leaving seem pointless or disloyal.",
@@ -458,7 +458,7 @@
    "Options that were once discussed vanish from conversation.",
    "The same sources keep supplying the same angle, whatever happens in the news."
   ],
-  "repair_check": "When a frame is challenged, a straightforward sender names themselves, supplies the evidence, and revises the claim if it was overstated. A louder repeat of the message, a change of name, or a claim that questioning proves you are a target only looks like a response.",
+  "repair_check": "When a frame is challenged, a straightforward sender names themselves and supplies the evidence. They revise the claim if it was overstated. A louder repeat of the message only looks like a response. So does a change of name, or a claim that questioning proves you are a target.",
   "boundary_respect_check": "Try putting the message aside for a day and talking with someone with a different view. Does the message still seem like your own conclusion? And does the source tolerate your distance, or press harder? The answer shows how much you were choosing.",
   "psychological_mechanism": "A conclusion is accepted more readily when it arrives with a feeling, is repeated often, and seems widely shared. Messages of inevitability make effort look pointless, and messages of belonging make doubt look like betrayal. When they turn up in many places, they start to read as background fact and not as a claim.",
   "possible_impact_on_receiver": "Listeners report feeling worn down, resigned, or unusually angry at one group without knowing why. Some notice later that they had stopped voting, organizing or talking to neighbors who disagreed. Others distrust all information once they see how they were pulled in, and that can be as disabling as the original frame.",

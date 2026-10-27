@@ -287,7 +287,7 @@
       "Accusing real people of being bots or paid accounts can be a way to dismiss them. It can also pull a private person into a pile-on.",
       "Declaring a network fake from a profile photo alone is a guess that often lands on innocent people."
     ],
-    "how_to_distinguish_from_related": "Algorithmic Manipulation uses real posts and changes their order. Here the voices themselves are made up. Parasocial Manipulation Engineering centers on a bond with one visible figure or character, but these networks present as many separate peers. AI-Driven Social Engineering uses a faked identity to get one target to act, while a persona network stays as a lasting presence in a community."
+    "how_to_distinguish_from_related": "Algorithmic Manipulation uses real posts and changes their order. Here the voices themselves are made up. Parasocial Manipulation Engineering centers on a bond with one visible figure or character. These networks present as many separate peers. AI-Driven Social Engineering uses a faked identity to get one target to act. A persona network stays as a lasting presence in a community."
   },
   "Context Poisoning": {
     "short_definition": "Planting misleading or tampered material in shared information sources, or in AI training data, so that later readers and tools inherit the error.",
@@ -480,12 +480,12 @@
       "Telling a fan their feelings are 'just parasocial' can shame them for ordinary attachment.",
       "Labeling every creator's warmth as engineered ignores the many who are simply sincere."
     ],
-    "how_to_distinguish_from_related": "Synthetic Persona Networks use many fake identities to seem like a crowd. This tactic needs just one visible figure or character to become a friend in your mind. Dark Patterns rely on how a screen is laid out, while this relies on felt affection. AI-Driven Social Engineering impersonates a person you already trust to trigger one action, but here the closeness is built slowly with a stranger, character or creator."
+    "how_to_distinguish_from_related": "Synthetic Persona Networks use many fake identities to seem like a crowd. This tactic needs just one visible figure or character to become a friend in your mind. Dark Patterns rely on how a screen is laid out, while this relies on felt affection. AI-Driven Social Engineering impersonates a person you already trust to trigger one action. Here the closeness is built slowly with a stranger, character or creator."
   },
   "Immersive Manipulation (VR/AR)": {
     "short_definition": "Using virtual or augmented reality experiences to make staged scenarios seem real enough to shape someone's fears, beliefs or attachments.",
     "core_meaning": "Using virtual or augmented reality experiences to make staged scenarios seem real enough to shape someone's fears, beliefs or attachments.",
-    "expanded_definition": "Virtual and augmented reality surround a person with a scene the body reacts to as if it were real. The heart speeds up and the stomach drops. That is what makes the medium valuable for training, therapy and storytelling. The concern is a staged experience offered as evidence about how the world actually is, or built to attach someone to a position or a product. A moving simulation is not manipulation in itself.",
+    "expanded_definition": "Virtual and augmented reality surround a person with a scene the body reacts to as if it were real. The heart speeds up and the stomach drops. That is what makes the medium valuable for training, therapy and storytelling. The concern is a staged experience offered as evidence about how the world actually is. Another is one built to attach someone to a position or a product. A moving simulation is not manipulation in itself.",
     "plain_language_summary": "A headset experience can feel so real that it stays with you. A staged scene can make you scared, convinced or attached without any argument at all.",
     "why_this_matters": "An experience the body treats as real leaves something closer to a memory than an argument. Memories are much harder to revise afterwards. People may carry a staged scene around as if it had happened.",
     "what_it_is": [

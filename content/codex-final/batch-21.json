@@ -23,7 +23,7 @@
     ],
     "what_it_is_not": [
       "Someone who says 'I need distance right now' and then stays distant. Even a short line like that is an explanation, and it ends the guessing.",
-      "A person who finds every hard conversation so uncomfortable that they avoid all of them, with everyone and not only with you.",
+      "A person who finds every hard conversation so uncomfortable that they avoid all of them, with everyone in their life, you included.",
       "A friendship or romance that faded by mutual drift, where neither side chased and neither felt dropped.",
       "A pause forced by circumstances, such as a hospital stay, a lost phone, a bereavement or a posting with no signal.",
       "Going quiet yourself to stay away from someone who is unsafe. That is a sound choice and not this pattern."
@@ -85,7 +85,7 @@
       "firm_boundary": "Tell them what you need: 'If you step away again, I'd like a line saying so. If that is not possible, I will treat the silence as an ending.'",
       "disengagement": "Treat the silence as the answer you have, even though it is an incomplete one. Mute the thread, archive it, and write the closing note to yourself rather than to them.",
       "support_seeking": "Tell a friend exactly what you keep replaying and ask what they see from outside. Saying the loop out loud often shrinks it.",
-      "workplace_or_professional": "If a colleague, client or co-parent goes silent on matters you share, move that part to a written channel with dates, such as email or a shared task list. Then the work does not depend on their replies."
+      "workplace_or_professional": "If a colleague, client or co-parent goes silent on shared matters, move that part to a written channel with dates. Use email or a shared task list. Then the work does not depend on their replies."
     },
     "boundary_script": "\"When you stopped replying, I was left guessing. I'm not asking you to explain everything. I'm asking that next time you need distance, you tell me in one line, so I'm not left waiting.\"",
     "safety_sensitive": false,
@@ -174,13 +174,13 @@
       "Members stop speaking up about anything, because the last person who did became the next example.",
       "Stories about the ritual are told as jokes, while privately people admit it still stings."
     ],
-    "repair_check": "Fixing this means the practice itself changes. The activity is altered or dropped, the people it hit are asked what it was like, and nobody is told they took it the wrong way. A heartfelt speech followed by the same ritual next term is only a speech.",
+    "repair_check": "Fixing this means the practice itself changes. The activity is altered or dropped. The people it hit are asked what it was like. Nobody is told they took it the wrong way. A heartfelt speech followed by the same ritual next term is only a speech.",
     "boundary_respect_check": "Your standing is the gauge once you say a part was too much. An adjusted activity and unchanged treatment of you suggest the concern registered. A new nickname, lost assignments, or a turn as the next example suggest the objection was folded into the test.",
     "psychological_mechanism": "Public shame can make a person want to belong more, not less. The group is both the source of the pain and the place to be accepted. When pain is framed as the price of membership, people often defend it afterward, partly to avoid deciding they suffered for nothing. Each cohort that completes it can then pass it on.",
     "possible_impact_on_receiver": "People describe dread before the scheduled day, replaying the moment in their heads, and shame that lingers after the group has moved on. Some describe fierce loyalty alongside a private sense of being smaller. Others go quiet in meetings, and some feel real anger years later when they see what was done.",
     "response_options": {
       "soft_clarification": "Ask about the purpose in an even tone. 'What is this exercise meant to teach, and could we do it without everyone watching?' The answer shows whether the lesson needs the audience.",
-      "firm_boundary": "Ask a neutral person, such as a program coordinator, faculty advisor or HR contact, to sit in on the next session and see how it is run.",
+      "firm_boundary": "Ask a neutral person to sit in on the next session and see how it is run. This could be a program coordinator, faculty advisor or HR contact.",
       "disengagement": "Without announcing anything, keep a private record of dates, what was asked and who was present. Avoid sharing or forwarding images of the ritual.",
       "support_seeking": "Talk with someone who went through the same program but is no longer inside it, and compare what each of you remembers. Shared recall makes it harder to dismiss your own.",
       "workplace_or_professional": "Check the written code of conduct or the hazing and harassment policy. Then take a dated written account to HR, an ombudsperson (an independent complaints officer), a student affairs office or an advisor."
@@ -192,12 +192,12 @@
       "Calling a tough team culture a humiliation ritual erases the line between hard and degrading. Ask whether people are being made smaller before an audience, not whether the standards are high.",
       "Applying the term to one tasteless joke or one harsh review makes the word loud and the pattern invisible."
     ],
-    "how_to_distinguish_from_related": "Public Humiliation can be a single episode of embarrassing someone in front of others. Humiliation Rituals recur on a schedule, cover a whole cohort and arrive with a stated purpose. Forced Submission centers on getting an apology or confession from one person, but a ritual may ask for no words at all, only that you endure it. A Smear Campaign spreads claims about a person to others, whereas here the audience watches the act itself."
+    "how_to_distinguish_from_related": "Public Humiliation can be a single episode of embarrassing someone in front of others. Humiliation Rituals recur on a schedule, cover a whole cohort and arrive with a stated purpose. Forced Submission centers on getting an apology or confession from one person. A ritual may ask for no words at all, only that you endure it. A Smear Campaign spreads claims about a person to others, whereas here the audience watches the act itself."
   },
   "Forced Submission": {
     "short_definition": "Pressing someone to apologize, confess or comply until they give in, whether or not the facts support it.",
     "core_meaning": "Pressing someone to apologize, confess or comply until they give in, whether or not the facts support it.",
-    "expanded_definition": "Forced submission is pressure that keeps going until a person says the required words or does the required thing, whether or not they believe it. The apology, confession or signature becomes the goal, and the question of what happened drops away. It can happen in a family, a workplace, a school or a hearing. One heated demand for an apology is common after a hurt. It turns into this when the pressure outlasts every explanation and the person finally complies to make it stop.",
+    "expanded_definition": "Forced submission is pressure that keeps going until a person says the required words or does the required thing. It makes no difference whether they believe it. The apology, confession or signature becomes the goal, and the question of what happened drops away. It can happen in a family, a workplace, a school or a hearing. One heated demand for an apology is common after a hurt. It turns into this when the pressure outlasts every explanation and the person finally complies to make it stop.",
     "plain_language_summary": "Someone pushes you again and again to say sorry or admit to something, until you give in. Nobody has checked whether you did it.",
     "why_this_matters": "An apology given to end pressure still enters the record as an admission. The person then has to live with having confessed to something they do not believe they did. Coerced words can also be quoted back at them later.",
     "what_it_is": [
@@ -293,14 +293,14 @@
     "how_to_distinguish_from_related": "Humiliation Rituals diminish people before an audience whether or not words are demanded. Forced submission can happen in a private room with one person and ends with a statement. Public Humiliation is about exposure to others, but here the exchange runs until the person speaks. Ghosting as Control withholds speech altogether, while this one demands it."
   },
   "Stalking & Surveillance (Post-Separation)": {
-    "short_definition": "After a breakup, repeated watching, tracking or following of a former partner, in person or through phones and accounts, that leaves them unable to live unobserved.",
-    "core_meaning": "After a breakup, repeated watching, tracking or following of a former partner, in person or through phones and accounts, that leaves them unable to live unobserved.",
+    "short_definition": "After a breakup, repeatedly watching, tracking or following a former partner, in person or through phones and accounts, until they cannot live unobserved.",
+    "core_meaning": "After a breakup, repeatedly watching, tracking or following a former partner, in person or through phones and accounts, until they cannot live unobserved.",
     "expanded_definition": "Stalking and surveillance overlap, but they are not the same. Stalking is repeated unwanted following, contact or appearing where you are. Surveillance is the monitoring: location tracking, access to accounts, questions put to friends or relatives. Either can appear without the other. Because shared custody and mutual friends make some contact normal, a single run-in or piece of news says almost nothing. What stands out is knowledge or presence that fits no channel you chose to open.",
     "plain_language_summary": "After a relationship ends, the other person keeps turning up, keeps tracking you, or knows things about your life that you never told them.",
     "why_this_matters": "Separation is supposed to end the other person's access. When it does not, ordinary life goes on under observation. That includes where you live, who you see and what you do next, and nowhere feels fully private.",
     "what_it_is": [
       "Following or turning up. This means waiting outside a home or workplace, appearing at places you go regularly, or driving past.",
-      "Digital watching, such as location sharing left on, an unfamiliar app or tracker on a device, or shared cloud or family-plan logins that were never switched off.",
+      "Digital watching. Examples are location sharing left on, or an unfamiliar app or tracker on a device. Another is shared cloud or family-plan logins that were never switched off.",
       "Indirect watching: questions to friends, coworkers, children or relatives about where you are and who you are with.",
       "Contact that goes on after it has been declined, including messages from new numbers or accounts.",
       "Knowledge of your plans or whereabouts that cannot be traced to anything you shared.",
@@ -374,7 +374,7 @@
     ],
     "repair_check": "Distance that holds over months is the sign to look for. Contact narrows to logistics, the questions to friends stop, and nothing surfaces that they should not know. A promise to stop followed by a message from a new number is not it.",
     "boundary_respect_check": "Treat the hours and days after any limit you set as the data. A gradual silence that holds is one kind of answer. New numbers, messages through friends, anger, or more precise knowledge of your movements is a different answer. It is a reason to involve an advocate before anything else.",
-    "psychological_mechanism": "Knowing you may be watched can change behavior even when nothing visible happens, because a person begins to plan around where the other might be. Uncertainty about what is known, and how, often wears down the sense of private space. Surprises, such as being quoted something you never shared, can make the watching seem larger than any single incident.",
+    "psychological_mechanism": "Knowing you may be watched can change behavior even when nothing visible happens. A person begins to plan around where the other might be. Uncertainty about what is known, and how, often wears down the sense of private space. Surprises, such as being quoted something you never shared, can make the watching seem larger than any single incident.",
     "possible_impact_on_receiver": "People describe checking locks and parking lots, changing routes or phones, sleeping badly and flinching at new notifications. Some stop going to places they love. Others describe being told they are imagining it, and feeling more alone for it. Many describe relief when someone helps them document what is happening.",
     "response_options": {
       "soft_clarification": "Notice and note first. Write down what they knew, when, and how it could have reached them. Hold off on asking them how they know; an advocate can help you decide whether asking is safe.",
@@ -383,7 +383,7 @@
       "support_seeking": "Call a domestic violence or stalking helpline and describe what you have noticed. Advocates can help you assess risk, plan, and decide what to document, without you having to decide anything on the call.",
       "workplace_or_professional": "Let one trusted person at work, such as security or a manager, know that someone may come to the workplace uninvited. Give them a photo and the key facts. Keep a dated log of any visit or message there."
     },
-    "boundary_script": "\"For the schedule and the bills, can we keep everything in writing in one place, like email or a co-parenting app? That way neither of us has to guess what was agreed.\" Offer this through a lawyer, mediator or co-parenting app, and only after an advocate agrees.",
+    "boundary_script": "\"For the schedule and the bills, can we keep everything in writing in one place, like email or a co-parenting app? That way neither of us has to guess what was agreed.\" Offer this through a lawyer, mediator or co-parenting app. Do it only after an advocate agrees.",
     "safety_sensitive": true,
     "safety_note": "Danger signals include someone showing up where you never said you would be, threats, damaged property and knowledge of private conversations. Tracking devices are another, as is contact that rises after you set a limit or begin a new relationship. Risk can rise around a separation. Before you change numbers, devices or routes, ask a stalking or domestic violence advocate to help you plan the order. Sudden changes can be noticed.",
     "misuse_warning": [
@@ -395,7 +395,7 @@
   "Legal Abuse (Post-Separation)": {
     "short_definition": "Repeatedly using court filings, motions and hearings after a separation to drain the other person's money, time and stability.",
     "core_meaning": "Repeatedly using court filings, motions and hearings after a separation to drain the other person's money, time and stability.",
-    "expanded_definition": "Legal abuse is the repeated use of real court processes, like custody petitions, motions, contempt filings and requests for hearings, until answering them is a heavy burden in itself. Each filing may look ordinary, and a judge may see nothing wrong in any single one. Complicated separations do need several legal steps, so volume alone is weak evidence. The concern begins when settled issues return without new grounds, and the cost to one side far outweighs what is being disputed.",
+    "expanded_definition": "Legal abuse is the repeated use of real court processes. Examples are custody petitions, motions, contempt filings and requests for hearings. It goes on until answering them is a heavy burden in itself. Each filing may look ordinary, and a judge may see nothing wrong in any single one. Complicated separations do need several legal steps, so volume alone is weak evidence. The concern begins when settled issues return without new grounds. It also begins when the cost to one side far outweighs what is being disputed.",
     "plain_language_summary": "After a split, someone keeps taking the other person back to court. The filings look normal one by one, yet the cost in money and nerves becomes the harm.",
     "why_this_matters": "Each filing looks normal on its own. The cost builds in money, time and nerves, and there is no single moment anyone would call abuse. Meanwhile the person responding may risk their home, income or time with their children if a deadline is missed.",
     "what_it_is": [
@@ -471,20 +471,20 @@
       "Savings or credit are drawn down by legal costs far beyond what you planned.",
       "You agree to terms you dislike to end the filings, not because you think they are fair."
     ],
-    "repair_check": "Change would show in withdrawn or narrowed filings. It would show in a settlement that is honored without return trips to court, and in proposals made through lawyers or mediation instead of fresh papers. A friendly message arriving alongside a new motion has changed nothing.",
+    "repair_check": "Change would show in withdrawn or narrowed filings. It would show in a settlement that is honored without return trips to court. It would also show in proposals made through lawyers or mediation instead of fresh papers. A friendly message arriving alongside a new motion has changed nothing.",
     "boundary_respect_check": "Look at what follows a request to settle a matter through mediation or between lawyers. Agreement and a real drop in filings is one kind of answer. A fresh filing within weeks, or word that the request itself will be raised in court, is the other.",
     "psychological_mechanism": "A long process can wear down money, sleep and concentration. People sometimes begin to accept terms to make the process stop, even when the terms do not feel fair. Uncertainty about the next filing keeps the body on alert, and every envelope can bring the dread back. The official look of the papers can also make a person feel it must be their fault.",
     "possible_impact_on_receiver": "People describe dread over the mail, financial strain, trouble working, and a sense that the case never ends. Some give in on money or parenting time just to stop. Others describe shame about being 'in court again', and anger that every step looked lawful and so nobody saw it as harm.",
     "response_options": {
-      "soft_clarification": "Ask your lawyer or a legal aid clinic one question: 'Is this volume of filings ordinary for a case like mine?' An outside professional read helps you tell heavy litigation from a pattern.",
+      "soft_clarification": "Ask your lawyer or a legal aid clinic one question. You could say: 'Is this volume of filings ordinary for a case like mine?' An outside professional's view helps you tell heavy litigation from a pattern.",
       "firm_boundary": "Respond on time through your lawyer, in writing, keeping replies to the facts. Deadlines are where a stretched person loses the most.",
       "disengagement": "Move all talk about the case to your lawyer, and let lawyers carry the letters back and forth. Then you are not answering personal messages about the filings.",
       "support_seeking": "Seek a legal aid office, a court self-help center or a domestic violence legal advocate. Ask them to read the filings and say what they see.",
       "workplace_or_professional": "Tell one trusted manager only what you need to, such as that you have court dates. Arrange leave in advance, so a hearing does not put your job at risk."
     },
-    "boundary_script": "\"Anything about the schedule or what has changed, we can talk about directly. For the court matters, could we go through our lawyers, or a mediator, so that everything is in writing and nothing is missed?\" Raise this through your lawyer, and only after an advocate or lawyer agrees.",
+    "boundary_script": "\"Anything about the schedule or what has changed, we can talk about directly. For the court matters, could we go through our lawyers, or a mediator, so that everything is in writing and nothing is missed?\" Raise this through your lawyer. Do it only after an advocate or lawyer agrees.",
     "safety_sensitive": true,
-    "safety_note": "Concern grows when filings sit alongside threats, danger to a child, or the chance of losing your home, income or custody time at the next hearing. Courts also hear true accounts of danger, so a filing is not proof of abuse. Bring the full file to a family law attorney or legal aid advocate. Ask what limits or protections your court offers.",
+    "safety_note": "Concern grows when filings sit alongside threats or danger to a child. It also grows with the chance of losing your home, income or custody time at the next hearing. Courts also hear true accounts of danger, so a filing is not proof of abuse. Bring the full file to a family law attorney or legal aid advocate. Ask what limits or protections your court offers.",
     "misuse_warning": [
       "Calling a hard-fought custody case legal abuse can dismiss a parent with a real concern about a child's safety. Courts need to hear those.",
       "Reading a hostile lawyer's letter, or a motion you disagree with, as proof of a campaign can harden a case that might have settled."
@@ -496,7 +496,7 @@
     "core_meaning": "Passing off a trimmed or out-of-context recording as the whole thing, so it appears to prove more than the full version supports.",
     "expanded_definition": "Edited recordings are real audio or video, cut, rearranged or clipped so that they seem to show something the full version does not. The recording is usually genuine, unlike a deepfake that fabricates speech or faces, but the cut changes what it seems to prove. Trimming for length is normal, and a short clip labeled as a clip is honest. The concern is an excerpt offered as the whole, or a splice that joins words that were never said together.",
     "plain_language_summary": "A real recording that has been trimmed or stitched so it seems to show something the whole thing does not.",
-    "why_this_matters": "A recording carries the authority of evidence, so the person in it has to talk their way out of something that appears to show itself. An explanation of the missing context rarely travels as far as the clip did.",
+    "why_this_matters": "A recording carries the authority of evidence. The person in it has to talk their way out of something that appears to show itself. An explanation of the missing context rarely travels as far as the clip did.",
     "what_it_is": [
       "A genuine recording that has been cropped, trimmed, spliced or re-ordered, so the meaning shifts.",
       "A clip that starts after the provocation or ends before the reply, so the response seems to come from nowhere.",
@@ -582,17 +582,17 @@
     },
     "boundary_script": "\"Could we hear the whole recording, from before this starts to after it ends? Once we've both listened to all of it, we can talk about what was said.\"",
     "safety_sensitive": true,
-    "safety_note": "A doctored clip is not a danger by itself. It changes when it is used to pressure you: a threat to send it to your employer, family or a court unless you comply, or a clip tied to intimate content. In that case, keep the evidence, hold off on replying, and take it to a lawyer or advocate who can advise on the next step.",
+    "safety_note": "A doctored clip is not a danger by itself. It changes when it is used to pressure you. One example is a threat to send it to your employer, family or a court unless you comply. Another is a clip tied to intimate content. In that case, keep the evidence and hold off on replying. Take it to a lawyer or advocate who can advise on the next step.",
     "misuse_warning": [
       "Calling any unflattering clip edited lets you dismiss what you actually said. Check whether something you can point to is missing before accusing anyone.",
-      "Insisting that someone hand over a recording they never made, or one that no longer exists, treats a missing file as proof of bad faith."
+      "Insisting that someone hand over a recording they never made, or one that no longer exists, is a misuse. It treats a missing file as proof of bad faith."
     ],
     "how_to_distinguish_from_related": "A Smear Campaign spreads claims, true or false, about a person and may use no recording at all. An edited recording gives a claim a piece of apparent proof. Legal Abuse can bring such a clip into a court filing, whereas an edited recording is about how the clip was cut. Forced Submission demands words from you, but an edited clip can put words in your mouth without your input."
   },
   "SIM Swap / 2FA Interception": {
-    "short_definition": "Someone takes over a person's phone number or the text codes sent to it, then uses them to get into accounts, lock the person out or read messages.",
-    "core_meaning": "Someone takes over a person's phone number or the text codes sent to it, then uses them to get into accounts, lock the person out or read messages.",
-    "expanded_definition": "A SIM swap is when a phone number is moved onto a different SIM card than the owner's, so calls and texts go to someone else. 2FA interception is the wider outcome. The one-time codes that prove who you are reach another person, by a swap or by other routes. Carrier outages and glitches happen, so one odd code means little. The telltale sequence is a lost signal, then lockouts, then account changes that someone else made.",
+    "short_definition": "Someone takes over a person's phone number or its text codes, then uses them to get into accounts, lock the person out or read messages.",
+    "core_meaning": "Someone takes over a person's phone number or its text codes, then uses them to get into accounts, lock the person out or read messages.",
+    "expanded_definition": "A SIM swap is when a phone number is moved onto a SIM card that is not the owner's. Calls and texts then go to someone else. 2FA interception is the wider outcome. The one-time codes that prove who you are reach another person, by a swap or by other routes. Carrier outages and glitches happen, so one odd code means little. The telltale sequence is a lost signal, then lockouts, then account changes that someone else made.",
     "plain_language_summary": "Someone gets control of your phone number or the codes sent to it. They then use those codes to get into your accounts while you are locked out.",
     "why_this_matters": "The phone number that secures everything else becomes the way in. The lockout usually arrives before there is any way to understand what has happened. Email, banking and messaging can all be reached from a single number, so a loss can spread quickly.",
     "what_it_is": [
@@ -668,7 +668,7 @@
       "Friends report unusual messages that look as if they came from you, more than once."
     ],
     "repair_check": "Resolution looks like the carrier confirming it has reversed the change and added extra protection to the line. Each account recovers with a clean sign-in history, and no new unexplained codes appear over the following weeks. Regaining one login while the number stays exposed is only a partial fix.",
-    "boundary_respect_check": "Treat the weeks after you tighten security as the test. If codes stop arriving and sign-in histories stay clean, the change held. Lockouts that return, new-device alerts that reappear, or someone who seems to know about changes you only made privately all mean access may still be open. In that case, contact your carrier's fraud team.",
+    "boundary_respect_check": "Treat the weeks after you tighten security as the test. If codes stop arriving and sign-in histories stay clean, the change held. Access may still be open if lockouts return or new-device alerts reappear. It may also be open if someone seems to know about changes you only made privately. In that case, contact your carrier's fraud team.",
     "psychological_mechanism": "Losing the number that proves who you are can resemble losing your identity at once, since email, money and friends all hang from it. Rapid, unexplained lockouts tend to push people to act fast, and urgency makes it harder to sort real alerts from fake ones. Messages posing as 'your bank' or 'your carrier' can take advantage of that urgency.",
     "possible_impact_on_receiver": "People describe panic when the signal vanishes, then dread as accounts lock one by one. Some lose money or access to years of photos and messages. Others feel exposed in the days afterward, afraid of what was read, and distrust their own phone. When someone known to them is involved, they describe an added sense of betrayal.",
     "response_options": {
@@ -714,7 +714,7 @@
       "Images shared consensually inside a relationship, with no threat and no sharing beyond it.",
       "Adults who agreed to publish or sell their own content, such as a creator or a couple who chose to post together.",
       "An accidental send to the wrong chat that the recipient deletes at once and tells you about.",
-      "Someone tells you they came across an image of you posted by a third party, so that you can report it, with no demand attached.",
+      "Someone tells you they came across an image of you posted by a third party, so you can report it. They make no demand.",
       "A vague line like 'I have stuff on you' with no mention of images, which is a different kind of threat."
     ],
     "this_may_be_it_when": [
@@ -766,20 +766,20 @@
       "Demands shift from one thing to another, and each payment or image buys only a pause.",
       "You have started to check search results, group chats and tagged posts for your own pictures."
     ],
-    "repair_check": "Repair shows in things you can see for yourself: posts taken down, links that now fail, and threats that stop and do not come back. A promise to delete with nothing visible behind it leaves the option open. So does an apology that arrives alongside a new demand.",
+    "repair_check": "Repair shows in things you can see for yourself. Examples are posts taken down, links that now fail, and threats that stop and do not come back. A promise to delete with nothing visible behind it leaves the option open. So does an apology that arrives alongside a new demand.",
     "boundary_respect_check": "A limit on this subject is judged by the next message. One kind of reply ends the threat and is followed by a gap that holds. The other kind brings a larger demand, a deadline, or a copy sent to someone close to you. That is the point to stop replying and reach a helpline or advocate.",
-    "psychological_mechanism": "Fear of exposure works through shame and the picture of everyone you know seeing it. The threat does not need to be carried out to work, because imagining it can be enough. Secrecy deepens the hold. The longer a person handles it alone, the more complete the other party's control can appear, and each demand can look smaller than the feared exposure.",
+    "psychological_mechanism": "Fear of exposure works through shame and the picture of everyone you know seeing it. The threat does not need to be carried out to work, because imagining it can be enough. Secrecy deepens the hold. The longer a person handles it alone, the more complete the other party's control can appear. Each demand can also look smaller than the feared exposure.",
     "possible_impact_on_receiver": "People describe panic, nausea, shame, trouble sleeping and a feeling of being watched wherever they go. Some stop using social media or avoid work and school for fear of being recognized. Many describe relief once they told one person, and some describe anger at being blamed for taking the picture in the first place.",
     "response_options": {
       "soft_clarification": "Before you reply, save everything in a private place. Keep screenshots of messages, usernames, links and dates. Questions and arguments with the sender can wait until you have advice.",
       "firm_boundary": "Do not pay, send more images or negotiate. Payment or new images tend to bring further demands, not an end. Further contact with the sender can wait until an advocate has advised; do not send them the wording below.",
       "disengagement": "If the sender is someone you know, ask an advocate before blocking or going silent, since a sudden change can raise the pressure. With a stranger, blocking after saving evidence is usually fine.",
-      "support_seeking": "Tell someone you trust and contact an image-abuse helpline or advocate. StopNCII.org (adults) and Take It Down (images taken before 18, even if you are now an adult) let you flag an image so participating platforms can block it.",
-      "workplace_or_professional": "If images or threats reach your job or school, tell one trusted person early, in HR, student services or security, so it does not arrive as a surprise. Give them the links, not the images."
+      "support_seeking": "Tell someone you trust and contact an image-abuse helpline or advocate. StopNCII.org is for adults. Take It Down is for images taken before 18, even if you are now an adult. Both let you flag an image so participating platforms can block it.",
+      "workplace_or_professional": "If images or threats reach your job or school, tell one trusted person early. This could be in HR, student services or security. Then it does not arrive as a surprise. Give them the links, not the images."
     },
     "boundary_script": "\"I did not agree to these images being shared. I have saved the links, messages and dates, and I am asking for help getting them removed.\" Send this to a platform, school, employer or advocate. Never send it to the person who shared them.",
     "safety_sensitive": true,
-    "safety_note": "Take these seriously: a deadline, a demand that keeps growing, contact from several accounts, messages to your family or workplace, or threats of self-harm used to keep you quiet. If shame feels unbearable, a crisis line can help tonight. If the person shown is under 18, treat it as urgent and contact your country's child-safety or police service. Save links and screenshots, then ask an advocate about takedown options before replying.",
+    "safety_note": "Take these seriously: a deadline, a demand that keeps growing, or contact from several accounts. Also take seriously messages to your family or workplace, and threats of self-harm used to keep you quiet. If shame feels unbearable, a crisis line can help tonight. If the person shown is under 18, treat it as urgent and contact your country's child-safety or police service. Save links and screenshots, then ask an advocate about takedown options before replying.",
     "misuse_warning": [
       "Using the label for any private picture someone still has can accuse a former partner of abuse when nothing has been threatened or shared. The line is consent and use, not possession.",
       "Treating the person shown as responsible because they once took or sent the picture adds blame to someone who needs help. The picture existing is not the wrongdoing."

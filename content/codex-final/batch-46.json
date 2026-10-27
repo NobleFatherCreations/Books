@@ -169,7 +169,7 @@
       "The range of 'reasonable' answers gets narrower rather than wider as a decision approaches.",
       "You find that people you know defend a view with the same phrases yet struggle to explain why."
     ],
-    "repair_check": "Real repair would show as visibly wider coverage after the narrowing is pointed out: new voices, corrections that run as prominently as the original, and disclosure of interests. A small note on an inside page does not change the picture most people received.",
+    "repair_check": "Real repair would show as visibly wider coverage after the narrowing is pointed out. That means new voices, corrections that run as prominently as the original, and disclosure of interests. A small note on an inside page does not change the picture most people received.",
     "boundary_respect_check": "Does the source welcome a request to see the evidence and the opposing case? Openness to a hard question about its sourcing is a good sign. Defensiveness, or attacks on the person asking, suggests the picture was meant to go unquestioned.",
     "psychological_mechanism": "People usually reason from what they have been shown, and rarely notice what was left out. When every channel offers a similar set of options, agreement may look like an independent conclusion. Hearing the same thing from many sources often adds credibility, even when those sources share one origin.",
     "possible_impact_on_receiver": "Some find that confident opinions they held were built on a partial picture. Others are surprised by how differently people saw an issue, and lose trust in everything once they notice the gap. A few swing toward distrusting all information, which carries its own costs.",
@@ -192,11 +192,11 @@
   "Wedge Issue Exploitation": {
     "short_definition": "Using a heated social issue to split a group, pull attention elsewhere or fire up supporters, with no wish to settle it.",
     "core_meaning": "Using a heated social issue to split a group, pull attention elsewhere or fire up supporters, with no wish to settle it.",
-    "expanded_definition": "A wedge issue is one that sharply divides a group that mostly agrees. Wedge Issue Exploitation is the deliberate use of such an issue to break up an alliance, pull focus from something else, or fire up supporters. Many divisive issues are important and deserve real argument, so raising one proves nothing. What gives it away is an issue kept warm because the division is useful, while the underlying problem stays unaddressed.",
+    "expanded_definition": "A wedge issue is one that sharply divides a group that mostly agrees. Wedge Issue Exploitation is the deliberate use of such an issue. The aim is to break up an alliance, pull focus from something else, or fire up supporters. Many divisive issues are important and deserve real argument, so raising one proves nothing. What gives it away is an issue kept warm because the division is useful, while the underlying problem stays unaddressed.",
     "plain_language_summary": "A hot-button issue is pushed hard not to solve it, but because fighting about it splits people who would otherwise agree on other things.",
     "why_this_matters": "People end up divided along a line drawn for someone else's benefit. They argue about who they are while the things they actually share go unaddressed. Friendships and coalitions can break over a fight neither side chose.",
     "what_it_is": [
-      "A deliberate focus on an issue that cuts across a rival's supporters, so they argue with each other and not with the people who raised it.",
+      "A deliberate focus on an issue that cuts across a rival's supporters. They end up arguing with each other and not with the people who raised it.",
       "Used to change the subject: a loud fight on one topic can crowd out a quieter story about another.",
       "Often aimed at identity and emotion, such as respect, belonging or fear, more than at the details of the policy.",
       "Possible from any side and about any issue. The mechanism is the same whichever cause is at stake.",
@@ -264,10 +264,10 @@
       "Calls to compromise are repeatedly framed as betrayal.",
       "You notice you feel anger at neighbors or relatives over a topic that has not touched your life directly."
     ],
-    "repair_check": "Real movement means the issue is taken up in a way that could end it, with a concrete proposal and a hearing for the other side. A temporary calm that returns with new heat before the next vote is not progress.",
+    "repair_check": "Real movement means the issue is taken up in a way that could end it. That includes a concrete proposal and a hearing for the other side. A temporary calm that returns with new heat before the next vote is not progress.",
     "boundary_respect_check": "Can you say 'I disagree on this one but agree on that' and still be welcomed? If shared ground is acknowledged, the dispute is probably honest. If any partial agreement is treated as disloyalty, the division itself may be doing the work.",
-    "psychological_mechanism": "Strong emotions around identity and belonging often make people watch for threats and pull toward their own side. When a topic touches who someone is, a balanced position may be taken as betrayal, so people may sort into camps faster than on a practical question. Each exchange of anger can harden the sorting.",
-    "possible_impact_on_receiver": "Family dinners get strained and friendships cool. Some feel forced to pick a side on a topic they have mixed views about, and sense that real problems at home get less attention than the latest fight. Others describe exhaustion and a wish to stop discussing politics at all.",
+    "psychological_mechanism": "Strong emotions around identity and belonging often make people watch for threats and pull toward their own side. When a topic touches who someone is, a balanced position may be taken as betrayal. People may then sort into camps faster than on a practical question. Each exchange of anger can harden the sorting.",
+    "possible_impact_on_receiver": "Family dinners get strained and friendships cool. Some feel forced to pick a side on a topic they have mixed views about. They may sense that real problems at home get less attention than the latest fight. Others describe exhaustion and a wish to stop discussing politics at all.",
     "response_options": {
       "soft_clarification": "Ask the other person: 'Is there a part of this we both want fixed, even if we disagree about the rest?'",
       "firm_boundary": "Refuse to treat one issue as the test of a person's worth. Say you will talk about the specifics of the policy but not about who is good or bad.",
@@ -285,9 +285,9 @@
     "how_to_distinguish_from_related": "Overton Window Manipulation shifts what can be said at all, while a wedge issue is meant to split a group that already exists. Computational Propaganda uses bots and fake accounts to amplify such fights at scale, which a wedge strategy can do without. Reflexive Control aims to steer one specific opponent's choices, and does not set out to inflame a public."
   },
   "Computational Propaganda": {
-    "short_definition": "Using bots, fake accounts and automated tools to flood public talk with political messages that pass as real opinion at a scale no crowd could match.",
-    "core_meaning": "Using bots, fake accounts and automated tools to flood public talk with political messages that pass as real opinion at a scale no crowd could match.",
-    "expanded_definition": "Computational Propaganda is political persuasion carried out with software. It uses automated accounts, networks of fake profiles and algorithm-boosted content that pass as ordinary people talking. It differs from a single troll or a loud real user because it relies on volume and coordination that no group of individuals could produce by hand. Parties and campaigns openly coordinate messaging and use scheduling tools, so automation alone is not the sign. Attribution is technical work, and a hard-arguing account is not evidence of a network.",
+    "short_definition": "Using bots, fake accounts and automated tools to flood public talk with political messages posing as real opinion, at a scale no crowd could match.",
+    "core_meaning": "Using bots, fake accounts and automated tools to flood public talk with political messages posing as real opinion, at a scale no crowd could match.",
+    "expanded_definition": "Computational Propaganda is political persuasion carried out with software. It uses automated accounts, networks of fake profiles and algorithm-boosted content that pass as ordinary people talking. It differs from a single troll or a loud real user. It relies on volume and coordination that no group of individuals could produce by hand. Parties and campaigns openly coordinate messaging and use scheduling tools, so automation alone is not the sign. Attribution is technical work, and a hard-arguing account is not evidence of a network.",
     "plain_language_summary": "Software and fake accounts pose as crowds of ordinary people. That makes a political message look more popular and natural than it is.",
     "why_this_matters": "The sense of what most people believe shapes what any one person feels able to say aloud. Here that sense gets set by accounts that are not people. Real voices can be outnumbered, and honest users get wrongly accused of being bots.",
     "what_it_is": [
@@ -362,7 +362,7 @@
     "repair_check": "Real correction means the operator is identified, the accounts are taken down, and a public explanation says what was automated and by whom. Quiet deletion followed by the same messages from new profiles leaves the network intact.",
     "boundary_respect_check": "When you ask a suspicious account a genuine question about itself, does it engage with what you said, or fall back on stock lines? A real person can answer in their own words. Canned repetition, or silence followed by more of the same, is informative.",
     "psychological_mechanism": "People often read the number of voices saying something as a sign of what is common and safe to think. A large, steady stream of apparently independent posts can make a view feel mainstream and can make dissenters feel isolated. Seeing the same claim many times also tends to make it feel more familiar and so more plausible.",
-    "possible_impact_on_receiver": "Seeing an apparently overwhelming majority can make a person doubt their own views. Others hold back from posting, feel anger at accounts that later turn out to be fake, or grow suspicious of strangers online, honest ones included. Some start calling every opponent a bot, which damages real conversation.",
+    "possible_impact_on_receiver": "Seeing an apparently overwhelming majority can make a person doubt their own views. Others hold back from posting or feel anger at accounts that later turn out to be fake. Some grow suspicious of strangers online, honest ones included. Some start calling every opponent a bot, which damages real conversation.",
     "response_options": {
       "soft_clarification": "Before replying to a surprising account, check its profile and history. A single honest question such as 'Can you tell me more about how you came to this view?' shows whether anyone is there.",
       "firm_boundary": "Decide not to share or boost content from accounts you cannot verify as real people, however well it fits your opinions.",
