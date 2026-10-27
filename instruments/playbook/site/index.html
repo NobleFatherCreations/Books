@@ -11,7 +11,13 @@
 <meta property="og:title" content="Pattern Decoder: 310 Manipulation and Control Tactics, Explained in Plain Words">
 <meta property="og:description" content="A free guide to 310 manipulation and control tactics in plain words: what each looks like, how to tell if it fits, and what you can do. Nothing you type leaves your device.">
 <meta property="og:url" content="https://noblefathercreations.com/playbook">
-<meta name="twitter:card" content="summary">
+<meta property="og:image" content="https://noblefathercreations.com/playbook/f/og.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Pattern Decoder: put a name to what is happening">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image" content="https://noblefathercreations.com/playbook/f/og.png">
+<meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large">
 <script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "DefinedTermSet", "@id": "https://noblefathercreations.com/playbook#set", "name": "Pattern Decoder", "url": "https://noblefathercreations.com/playbook", "description": "A free guide to 310 manipulation and control tactics in plain words.", "publisher": {"@type": "Organization", "name": "Noble Father Creations", "url": "https://noblefathercreations.com"}}, {"@type": "WebApplication", "name": "Pattern Decoder", "url": "https://noblefathercreations.com/playbook", "applicationCategory": "ReferenceApplication", "operatingSystem": "Any", "isAccessibleForFree": true, "offers": {"@type": "Offer", "price": "0", "priceCurrency": "USD"}, "publisher": {"@type": "Organization", "name": "Noble Father Creations", "url": "https://noblefathercreations.com"}}]}</script>
 <meta name="referrer" content="no-referrer">
 <meta name="theme-color" content="#050507" media="(prefers-color-scheme: dark)">
@@ -263,7 +269,8 @@ if(o.sp==="roomy")r.setAttribute("data-space","roomy");if(o.mo==="reduce")r.setA
   /* tabs (segmented) */
   .seg{display:flex;flex-wrap:wrap;gap:.25rem;margin:0 0 var(--s3);padding:.25rem;background:var(--panel);border-radius:62rem;width:fit-content;max-width:100%}
   .seg a,.seg button{min-height:2.5rem;padding:0 1.125rem;display:inline-flex;align-items:center;border-radius:62rem;font:700 .9375rem/1.1 var(--sign);text-decoration:none;color:var(--fg-2)}
-  .seg a[data-jump]{padding:0 .625rem;min-width:2.5rem;justify-content:center}
+  .seg.jump{background:none;padding:0;gap:.375rem;border-radius:0;width:auto}
+  .seg.jump a{padding:0 .5rem;min-width:2.75rem;min-height:2.75rem;justify-content:center;background:var(--panel);color:var(--fg)}
   .seg [aria-current],.seg [aria-selected=true],.seg [aria-pressed=true]{background:var(--thumb);color:var(--fg);box-shadow:0 0 0 1px var(--rule)}
 
   /* fold lists */
@@ -341,7 +348,7 @@ if(o.sp==="roomy")r.setAttribute("data-space","roomy");if(o.mo==="reduce")r.setA
   .onl a{color:var(--fg);display:inline-flex;align-items:center;min-height:2.75rem}
 
   .answer{background:var(--panel);padding:var(--s3);margin:var(--s3) 0 0;max-width:46rem;border-radius:var(--r)}
-  .answer>*,.panelx>*{max-width:42rem}
+  .answer>*,.panelx>*{max-width:38rem}
   .answer .sum{font-size:1.1875rem;line-height:1.5}
   .says{display:grid;gap:.5rem}
   .says li{font-weight:700;padding-left:1.5rem;position:relative}
@@ -815,7 +822,7 @@ const P = {
   up:'<path d="M12 19V5M6 11l6-6 6 6"/>', paste:'<rect x="6" y="5" width="12" height="16"/><path d="M9 5V3h6v2"/>', volume:'<path d="M4 9v6h4l5 4V5L8 9z"/><path d="M16.5 8.5a5 5 0 0 1 0 7"/>', stop:'<rect x="6" y="6" width="12" height="12"/>',
   save:'<path d="M6 3h12v18l-6-4-6 4z"/>', saved:'<path fill="currentColor" d="M6 3h12v18l-6-4-6 4z"/>',
   tri:'<path d="M12 3 2 20h20z"/><path d="M12 10v4"/><circle cx="12" cy="17" r=".6" fill="currentColor"/>',
-  eyeoff:'<path d="M3 12s3.5-6 9-6 9 6 9 6-3.5 6-9 6-9-6-9-6z"/><circle cx="12" cy="12" r="2.6"/><path d="M4 4l16 16"/>', cmp:'<path d="M8 3v18M16 3v18M3 8h5M16 16h5"/>', exit:'<path d="M14 4h5v16h-5"/><path d="M3 12h11M9 7l-5 5 5 5"/>', search:'<circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/>', map:'<circle cx="6" cy="6" r="2"/><circle cx="18" cy="18" r="2"/><path d="M6 8v4a4 4 0 0 0 4 4h6"/><circle cx="18" cy="6" r="2"/><path d="M18 8v8"/>',
+  eyeoff:'<path d="M3 12s3.5-6 9-6 9 6 9 6-3.5 6-9 6-9-6-9-6z"/><circle cx="12" cy="12" r="2.6"/><path d="M4 4l16 16"/>', cmp:'<path d="M8 3v18M16 3v18M3 8h5M16 16h5"/>', exit:'<path d="M14 4h5v16h-5"/><path d="M3 12h11M9 7l-5 5 5 5"/>', search:'<circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/>',
 };
 const ic = (n,cls) => '<svg class="i'+(cls?' '+cls:'')+'" viewBox="0 0 24 24" aria-hidden="true">'+P[n]+'</svg>';
 
@@ -1210,7 +1217,7 @@ function viewLines(tab){
   let body="";
   if(tab==="az"){ const by={}; alpha().filter(e=>!HID.has(e.g)).forEach(e=>{ const c=/[a-z]/i.test(e.n.charAt(0))?e.n.charAt(0).toUpperCase():"#"; (by[c]=by[c]||[]).push(e); });
     const ks=Object.keys(by);
-    body='<nav class="seg" aria-label="Jump to a letter">'+ks.map(c=>'<a href="#az-'+c+'" data-jump>'+c+'</a>').join("")+'</nav>'+
+    body='<nav class="seg jump" aria-label="Jump to a letter">'+ks.map(c=>'<a href="#az-'+c+'" data-jump>'+c+'</a>').join("")+'</nav>'+
       ks.map(c=>'<h2 class="h-sec" id="az-'+c+'" style="margin:2rem 0 .5rem">'+c+'</h2>'+rows(by[c])).join(""); }
   else if(tab==="where") body=D.settings.map(s=>{ const list=E.filter(e=>!HID.has(e.g)&&(e.w||[]).includes(s.k)).sort((a,b)=>b.pop-a.pop||a.n.localeCompare(b.n));
     return '<h2 class="h-sec">'+pic(s.k)+esc(s.label)+'</h2><p class="small muted" style="margin-bottom:.75rem">'+esc(s.blurb)+' '+list.length+' tactics.</p>'+fold(list,"rows-f",6,e=>rowHTML(e)).replace('class="ul rows-f"','class="rows"'); }).join("");

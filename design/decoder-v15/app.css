@@ -236,7 +236,8 @@
   /* tabs (segmented) */
   .seg{display:flex;flex-wrap:wrap;gap:.25rem;margin:0 0 var(--s3);padding:.25rem;background:var(--panel);border-radius:62rem;width:fit-content;max-width:100%}
   .seg a,.seg button{min-height:2.5rem;padding:0 1.125rem;display:inline-flex;align-items:center;border-radius:62rem;font:700 .9375rem/1.1 var(--sign);text-decoration:none;color:var(--fg-2)}
-  .seg a[data-jump]{padding:0 .625rem;min-width:2.5rem;justify-content:center}
+  .seg.jump{background:none;padding:0;gap:.375rem;border-radius:0;width:auto}
+  .seg.jump a{padding:0 .5rem;min-width:2.75rem;min-height:2.75rem;justify-content:center;background:var(--panel);color:var(--fg)}
   .seg [aria-current],.seg [aria-selected=true],.seg [aria-pressed=true]{background:var(--thumb);color:var(--fg);box-shadow:0 0 0 1px var(--rule)}
 
   /* fold lists */
@@ -314,7 +315,7 @@
   .onl a{color:var(--fg);display:inline-flex;align-items:center;min-height:2.75rem}
 
   .answer{background:var(--panel);padding:var(--s3);margin:var(--s3) 0 0;max-width:46rem;border-radius:var(--r)}
-  .answer>*,.panelx>*{max-width:42rem}
+  .answer>*,.panelx>*{max-width:38rem}
   .answer .sum{font-size:1.1875rem;line-height:1.5}
   .says{display:grid;gap:.5rem}
   .says li{font-weight:700;padding-left:1.5rem;position:relative}

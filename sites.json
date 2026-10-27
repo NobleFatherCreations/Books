@@ -108,8 +108,13 @@
         "found": false,
         "checkedAt": "2026-08-02"
       },
-      "version": "v18",
+      "version": "v19",
       "changelog": [
+        {
+          "date": "2026-10-27",
+          "version": "v19",
+          "summary": "One scroll per tactic with a sticky four-part section index (keys 1-4, old /entry/slug/N links scroll to the section); the tabs, step bar, dock, swipe and every map or dot-track picture removed; Browse replaces the map; search field on Home; Quiet colours default with Vivid opt-in; frosted bars and grouped lists; sign bar slides away while reading down. Plain pages share the look. Findability: link-preview image, robots max-snippet, dateModified, /playbook/llms.txt. Suite 106 checks."
+        },
         {
           "date": "2026-10-27",
           "version": "v18",

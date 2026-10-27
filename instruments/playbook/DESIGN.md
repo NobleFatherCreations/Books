@@ -452,3 +452,24 @@ and **Quiet colours is the default** (the calm look the brief asks for; Vivid is
   you are, jumps), keys and deep links, the sliding sign bar, Browse rows, Quiet default and Vivid opt-in, the Home search
   field, and the top bar at 320px. Axe: no serious or critical findings (64 scans). LCP 572 to 624 ms on the 4x slowdown.
 
+### v19 final audit (2026-10-27): attacks made, and what changed
+
+Each area was attacked as an opponent would, then fixed or kept with a reason.
+- **Navigation.** Attack: the section index is not on the first screen. Kept: the answer must come first; the index becomes
+  sticky as soon as it is reached, and keys 1 to 4 work. Attack: the sign bar hiding while reading hides escape routes. Kept:
+  Leave lives in the always-sticky top bar; the sign bar returns on any scroll up. Fixed: the A to Z letter bar was a stretched pill;
+  it is now plain chips.
+- **Readability.** Fixed: the reading measure was about 75 characters; sections are now capped at 38rem (about 65). Body stays 18px,
+  labels 13px or more, secondary text at 4.5:1 or better in both themes. Frosted bars are 95 to 96 percent opaque so text never
+  ghosts through behind the Leave button.
+- **Consistency.** Fixed: the plain pages (where search visitors land first) wore the old slab look. They now share the radii, the
+  short colour pill, the frosted top bar and the quiet answer card. Fixed: the House seal overlapped text on plain pages.
+- **Presentation.** Added a 1200 by 630 link-preview image (`scripts/make-decoder-og.js`), used by every page.
+- **Findability.** Already in place from v16 and kept: descriptive titles, canonicals, `DefinedTerm`, `BreadcrumbList`, 322-address
+  sitemap, robots naming the AI crawlers, crawlable plain pages. Added: `robots` meta with `max-snippet:-1,
+  max-image-preview:large`, `og:image` and a large Twitter card, `dateModified` on every plain page, and `/playbook/llms.txt`.
+  Not added, on purpose: FAQ markup (rich results restricted and the entries are not FAQs), a root `llms.txt` (the hub is a
+  separate site), `hreflang` (one language).
+- **Known limits.** The suite runs a software browser, so real-phone feel is unmeasured; ranking and AI citation take weeks and
+  depend on outside links; both sitemaps still need submitting in Search Console and Bing Webmaster Tools by the owner.
+

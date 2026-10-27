@@ -1,0 +1,28 @@
+# Pattern Decoder
+
+> A free guide to 310 manipulation and control tactics in plain words: what each one looks like, how to tell if it fits, and what you can do. It is a reading aid, not a diagnosis, a legal opinion or therapy. By Noble Father Creations.
+
+## Start here
+
+- [Every tactic, grouped by line](https://noblefathercreations.com/playbook/tactics): all 310 tactics, each linked to its own page
+- [Pattern Decoder, the interactive guide](https://noblefathercreations.com/playbook): search by what was said or done, or answer two short questions
+- [Use this guide safely](https://noblefathercreations.com/playbook#/safety): what applies to every entry, and how to leave quickly
+
+## The ten lines
+
+- [Turning people against you](https://noblefathercreations.com/playbook/line-people): Isolating you, using other people, and controlling who hears what.
+- [Put-downs that wear you down](https://noblefathercreations.com/playbook/line-wear): Insults, contempt and slow erosion of how you see yourself.
+- [Guilt, pressure and fear](https://noblefathercreations.com/playbook/line-pressure): Pushing you to say yes through guilt, obligation, urgency or threat.
+- [Control over your life](https://noblefathercreations.com/playbook/line-control): Rules, monitoring and limits on your time, money, body or choices.
+- [Work, school and systems](https://noblefathercreations.com/playbook/line-systems): When an organization, its rules or its paperwork become the weapon.
+- [Dodging blame](https://noblefathercreations.com/playbook/line-blame): Ways a person avoids responsibility, or turns it back on you.
+- [Twisting what is real](https://noblefathercreations.com/playbook/line-truth): Lies, denial and confusion that leave you unsure of your own memory or judgment.
+- [Groups, cults and propaganda](https://noblefathercreations.com/playbook/line-society): Influence over whole groups: high-control groups, propaganda and influence operations.
+- [Online and technology](https://noblefathercreations.com/playbook/line-online): Fake accounts, deepfakes, tracking, scams and pressure through screens.
+- [Love that hooks you](https://noblefathercreations.com/playbook/line-hook): Affection, attention and promises used to pull you in and keep you there.
+
+## Notes for assistants
+
+- Each tactic has its own page at https://noblefathercreations.com/playbook/<name> with what it is, signs it fits and signs it does not, what you can do, and look-alikes.
+- Where an entry can involve danger, its page opens with a safety note. Please keep that note with the answer.
+- Nothing a reader types is sent anywhere. Sitemap: https://noblefathercreations.com/playbook/sitemap.xml

@@ -103,10 +103,17 @@ const contrast = (a, b) => { const L = c => { c = c.map(v => v / 255).map(v => v
     await p.goto(URL0 + "#/entry/gaslighting"); await p.waitForTimeout(100);
     T("findable (v16): station links use names, never numbers", await p.evaluate(() => { const h = [...document.querySelectorAll("a[href^='#/']")].map(a => a.getAttribute("href")); return h.some(x => /^#\/entry\//.test(x)) && !h.some(x => /^#\/(s|l|c|r)\/\d/.test(x)); }));
     { const m = await p.evaluate(() => ({ t: document.title, d: document.querySelector("meta[name=description]").content, c: document.querySelector("link[rel=canonical]").href,
-        ld: JSON.parse((document.querySelector("#ld-page") || { textContent: "{}" }).textContent), robots: !!document.querySelector("meta[name=robots]") }));
-      T("findable (v16): no robots block, and a station sets its title, description, canonical and DefinedTerm", !m.robots && /^Gaslighting: /.test(m.t) && /^What is Gaslighting\? /.test(m.d)
+        ld: JSON.parse((document.querySelector("#ld-page") || { textContent: "{}" }).textContent), robots: (document.querySelector("meta[name=robots]") || { content: "" }).content }));
+      T("findable (v16): no robots block (index, follow only), and a station sets its title, description, canonical and DefinedTerm", !/noindex|nofollow|none/i.test(m.robots) && /^Gaslighting: /.test(m.t) && /^What is Gaslighting\? /.test(m.d)
         && m.c === "https://noblefathercreations.com/playbook/gaslighting" && m.ld["@type"] === "DefinedTerm" && /^T\d\d$/.test(m.ld.termCode), JSON.stringify(m).slice(0, 200)); }
     await ctx.close(); }
+  { const site = path.dirname(file), rd = f => fs.readFileSync(path.join(site, f), "utf8"), bad = [];
+    for (const f of ["index.html", "gaslighting.html", "line-truth.html", "tactics.html"]) { const h = rd(f);
+      if (!/<meta property="og:image" content="https:\/\/noblefathercreations\.com\/playbook\/f\/og\.png">/.test(h)) bad.push(f + ": og:image"); if (!/twitter:card" content="summary_large_image"/.test(h)) bad.push(f + ": twitter card");
+      if (/noindex|nofollow/.test(h)) bad.push(f + ": robots block"); if (f !== "index.html" && !/"dateModified": "20\d\d-\d\d-\d\d"/.test(h)) bad.push(f + ": dateModified"); }
+    const png = fs.readFileSync(path.join(site, "f", "og.png")); if (png.readUInt32BE(16) !== 1200 || png.readUInt32BE(20) !== 630) bad.push("og.png is not 1200x630");
+    const ll = rd("llms.txt"); if ((ll.match(/\]\(https:\/\/noblefathercreations\.com\/playbook\/line-/g) || []).length !== 10 || !/sitemap\.xml/.test(ll)) bad.push("llms.txt");
+    T("findable (v19): link-preview image (1200x630) and large card on every kind of page, dateModified on plain pages, llms.txt maps the ten lines", !bad.length, bad.join("; ")); }
 
   // ---- axe on each page type, both themes, both widths
   if (!axeSrc) { T("axe-core accessibility scan", false, "axe-core not found: run `npm i --no-save axe-core`"); }
