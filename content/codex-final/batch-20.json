@@ -99,9 +99,9 @@
     "how_to_distinguish_from_related": "Ghosting-Orbiting Cycle also involves watching your online presence. But there the person has gone quiet, and the watching shows only as a view or a like. Stalking-by-Notification is loud: the signals come back at you as questions. Doxxing publishes private details such as your address to other people. Here the information is whatever the app already displays, and the questions stay between the two of you."
   },
   "Ghosting-Orbiting Cycle": {
-    "short_definition": "Going silent in direct messages while still viewing, liking or reacting to someone's posts, so they are neither in contact nor free of it.",
-    "core_meaning": "Going silent in direct messages while still viewing, liking or reacting to someone's posts, so they are neither in contact nor free of it.",
-    "expanded_definition": "Ghosting is going quiet with no explanation. Orbiting is staying in view afterwards: story views, likes, an occasional emoji reaction. It becomes a cycle when contact fades, the small signals keep arriving, and now and then a warm message returns, often just as you seem to be settling. Someone who simply drifted and never unfollowed can look the same from outside. The shape across weeks matters more than any one view, and none of it shows why anyone does it.",
+    "short_definition": "Going silent in direct messages while still viewing, liking or reacting to someone's posts. The other person is neither in contact nor free of it.",
+    "core_meaning": "Going silent in direct messages while still viewing, liking or reacting to someone's posts. The other person is neither in contact nor free of it.",
+    "expanded_definition": "Ghosting is going quiet with no explanation. Orbiting is staying in view afterwards: story views, likes, an occasional emoji reaction. It becomes a cycle when contact fades, the small signals keep arriving, and now and then a warm message returns, often just as you seem to be settling. Someone who simply drifted and never unfollowed can look the same from outside. The shape across weeks matters more than any one view. None of it shows why anyone does it.",
     "plain_language_summary": "Someone stops answering your messages but keeps watching your stories and liking posts. You can't tell whether the connection is over.",
     "why_this_matters": "You are neither in contact nor free of it. Attention keeps arriving with no reply attached, and each small sign can revive hope at exactly the point it was beginning to fade.",
     "what_it_is": [
@@ -120,7 +120,7 @@
       "A fresh follow request soon after you muted or unfollowed them."
     ],
     "what_it_is_not": [
-      "Passive scrolling by someone who simply drifted away and never got round to unfollowing, with no pattern of returns.",
+      "Passive scrolling by someone who simply drifted away and never got round to unfollowing. There is no pattern of returns.",
       "A person who said they needed space, even clumsily, and still glances at public posts.",
       "Slow or absent replies from someone who is ill, grieving or overwhelmed and has no energy to write.",
       "An app that puts familiar names at the top of lists, so a view is the algorithm and not a choice.",
@@ -174,25 +174,25 @@
       "Months later the same sequence plays: silence, views, a warm message, silence.",
       "Your choices about posting, dating or moving are shaped by whether they might be watching."
     ],
-    "repair_check": "Mending would start with a plain account of the silence, in a message that asks nothing of you, and then a clear choice: contact that continues, or a step back that includes not watching. Another warm 'hey' that never mentions the gap is the cycle turning again.",
+    "repair_check": "Mending would start with a plain account of the silence, in a message that asks nothing of you. Then comes a clear choice: contact that continues, or a step back that includes not watching. Another warm 'hey' that never mentions the gap is the cycle turning again.",
     "boundary_respect_check": "After you muted, restricted or unfollowed, what became of the views? Signals that stop with no new route opening mean the limit held. A second account, a mutual friend relaying news or a sudden message means it is being tested.",
     "psychological_mechanism": "Intermittent attention can be hard to leave: each small sign arrives unpredictably, and the next one may always be a message. Hope tends to attach to the unanswered part, and the lack of an ending leaves the mind reopening the question. Seeing the name in the viewer list can keep the connection feeling active.",
-    "possible_impact_on_receiver": "People describe checking the viewer list, rereading old messages for a clue, and feeling pulled back each time a heart appears. Some describe being unable to grieve a connection that was never formally ended, or hesitating to post, date or move on in case it counts as a reply.",
+    "possible_impact_on_receiver": "People describe checking the viewer list, rereading old messages for a clue, and feeling pulled back each time a heart appears. Some cannot grieve a connection that was never formally ended. Some hesitate to post, date or move on in case it counts as a reply.",
     "response_options": {
       "soft_clarification": "If you want a clear answer, ask once in one line: 'Do you want to stay in touch? Either answer is okay.' Treat whatever comes back, or silence, as the answer.",
       "firm_boundary": "Mute or restrict their profile quietly. That stops the viewer list from pulling at your attention, and it needs no announcement.",
       "disengagement": "Stop posting for an audience of one. A close-friends list for stories means you decide who watches, and you can use it without explaining.",
-      "support_seeking": "Tell a friend which signs you keep checking for, and ask them to remind you of the facts when you are tempted to read the silence as a message.",
-      "workplace_or_professional": "If a colleague goes silent on direct messages but reacts to everything in the group channel, ask in the channel or by email for what you need to finish the work, so it does not hang on a private thread."
+      "support_seeking": "Tell a friend which signs you keep checking for. Ask them to remind you of the facts when you are tempted to read the silence as a message.",
+      "workplace_or_professional": "If a colleague goes silent on direct messages but reacts to everything in the group channel, ask in the channel or by email for what you need to finish the work. That way it does not hang on a private thread."
     },
     "boundary_script": "\"We haven't talked in a while, and I'm not looking to argue about it. If you want to stay in touch, a direct message to me is the way to do it.\"",
     "safety_sensitive": true,
-    "safety_note": "Silence plus views is usually painful rather than dangerous. It changes if the watching extends to turning up where you are, contacting your family or friends, or messages from new accounts after you block. Anger when you move on is another sign, especially after leaving a controlling relationship. Save dated screenshots somewhere they cannot reach and show them to a stalking or domestic abuse advocate before deciding on a block.",
+    "safety_note": "Silence plus views is usually painful rather than dangerous. It changes if the watching extends to turning up where you are, contacting your family or friends, or messages from new accounts after you block. Anger when you move on is another sign, especially after leaving a controlling relationship. Save dated screenshots somewhere they cannot reach. Show them to a stalking or domestic abuse advocate before deciding on a block.",
     "misuse_warning": [
-      "A like from someone shy or avoidant is not proof of a campaign, and reading every tap as a tactic can keep you watching the list.",
+      "A like from someone shy or avoidant is not proof of a campaign. Reading every tap as a tactic can keep you watching the list.",
       "Calling someone an 'orbiter' to a shared circle can become a way to shame a person who has simply gone quiet."
     ],
-    "how_to_distinguish_from_related": "Stalking-by-Notification turns what it sees into questions and accusations, while orbiting says nothing about what it sees. Doxxing publishes private details to other people, but orbiting stays on your own public posts and reaches only you. The Ghosting-Orbiting Cycle is the one where the contact is gone but the watching, and the occasional warm return, are not."
+    "how_to_distinguish_from_related": "Stalking-by-Notification turns what it sees into questions and accusations, while orbiting says nothing about what it sees. Doxxing publishes private details to other people, but orbiting stays on your own public posts and reaches only you. With the Ghosting-Orbiting Cycle, the contact is gone but the watching, and the occasional warm return, are not."
   },
   "Brigading": {
     "short_definition": "A group converging on one person's posts, account or message at once, usually after a shared call to do so, so the volume itself overwhelms them.",

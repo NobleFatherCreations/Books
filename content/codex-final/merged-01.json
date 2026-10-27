@@ -294,9 +294,9 @@
     "how_to_distinguish_from_related": "DARVO runs a whole sequence: deny, attack, then claim to be the victim. Victim role reversal is only the last move, or only its outcome, with no denial or attack needed. Blame-Shifting points at you as the cause and does not need any claim of being hurt. The Non-Apology Apology regrets your reaction without owning the act, and may carry no claim of suffering. Minimization shrinks what happened to you, while this one swaps whose pain is the subject."
   },
   "Breadcrumbing": {
-    "short_definition": "Sending just enough sporadic attention to keep someone hopeful and available, while the contact never turns into real plans or commitment.",
-    "core_meaning": "Sending just enough sporadic attention to keep someone hopeful and available, while the contact never turns into real plans or commitment.",
-    "expanded_definition": "Breadcrumbing is small, low-cost contact that keeps a person interested without moving forward: a like, a 'thinking of you', a message after weeks of silence. Benching is a closely matching word for it, stressing the person kept in reserve while others are pursued. Anyone can be a poor texter, so one slow stretch proves nothing. The pattern is thin bursts that never become a plan and appear just as you drift away.",
+    "short_definition": "Sending just enough occasional attention to keep someone hopeful and available, while the contact never turns into real plans or commitment.",
+    "core_meaning": "Sending just enough occasional attention to keep someone hopeful and available, while the contact never turns into real plans or commitment.",
+    "expanded_definition": "Breadcrumbing is small, low-cost contact that keeps a person interested without moving forward: a like, a 'thinking of you', a message after weeks of silence. Benching is a closely matching word for it. It stresses the person kept in reserve while others are pursued. Anyone can be a poor texter, so one slow stretch proves nothing. The pattern is thin bursts that never become a plan and appear just as you drift away.",
     "plain_language_summary": "Someone sends you tiny scraps of attention now and then, enough to keep you waiting. But it never turns into a date, a plan or a real relationship.",
     "why_this_matters": "You may hold a place open for a relationship that never arrives, on the strength of contact that costs almost nothing to send. Time, other opportunities and your sense of what you are worth can quietly drain away.",
     "what_it_is": [
@@ -304,7 +304,7 @@
       "Warm words with no follow-through: 'we should get dinner sometime' that never gets a date.",
       "Bursts of attention that come after long silences, often when you have gone quiet.",
       "An arrangement where you do the work of arranging meetings, and plans fall through or go unanswered.",
-      "A status that is never stated: you are kept available as an option while the other person is free to pursue other things."
+      "A status that is never stated. You are kept available as an option, while the other person is free to pursue other things."
     ],
     "what_it_sounds_like": [
       "\"Hey stranger\" after six weeks of nothing.",
@@ -339,7 +339,7 @@
     ],
     "innocent_or_ordinary_possibilities": [
       "Many people are poor at keeping in touch and treat everyone the same way.",
-      "Someone coming out of a bad relationship may be unsure about moving forward but still enjoy your company.",
+      "Someone coming out of a bad relationship may be unsure about moving forward, yet still enjoy your company.",
       "Messaging apps make it easy to tap a reaction without meaning anything beyond 'I saw this'."
     ],
     "common_false_positives": [
@@ -379,15 +379,15 @@
       "firm_boundary": "Tell them what you need: 'I'm looking for someone who makes plans. If that's not you right now, I'd rather know.' Then act on the answer you get.",
       "disengagement": "Stop replying to low-effort pings that carry no invitation. Put the energy into people who meet you halfway, and notice who that is.",
       "support_seeking": "Show a friend the thread, or screenshots of the dates and gaps, and ask what they would expect from someone who was truly interested.",
-      "workplace_or_professional": "If a colleague or mentor keeps promising a project, introduction or promotion in passing, ask for a date and put the commitment in writing by email."
+      "workplace_or_professional": "If a colleague or mentor keeps promising a project, introduction or promotion in passing, ask for a date. Then put the commitment in writing by email."
     },
     "boundary_script": "\"I enjoy hearing from you, but a message every few weeks isn't enough for me. If you want to see me, pick a day this week. If you don't, that's okay, and I'd prefer you tell me.\"",
     "safety_sensitive": false,
     "safety_note": "Breadcrumbing is not usually a physical-safety concern. It deserves more care if the person controls something you depend on, such as your job, immigration sponsorship or housing. It does too if their attention comes with pressure for secrecy or sexual contact. Then do not rely on their promises; get any commitment written down and talk to someone outside the situation.",
     "misuse_warning": [
-      "Calling every slow replier a breadcrumber can make you read ordinary busyness as contempt and discourage honest, awkward people.",
+      "Calling every slow replier a breadcrumber can lead you to read ordinary busyness as contempt. It can also discourage honest, awkward people.",
       "Using the word to describe someone who told you plainly they were casual puts a harm on them that they never promised to prevent."
     ],
-    "how_to_distinguish_from_related": "Future Faking paints a detailed, specific future to keep you invested; breadcrumbing offers almost no picture at all, only small contact. Hoovering follows a break or an exit and tries to pull you back; breadcrumbing runs while you are still hovering. Next to the intensity of Love Bombing, this is the opposite: very thin attention, never a surge of it."
+    "how_to_distinguish_from_related": "Future Faking paints a detailed, specific future to keep you invested. Breadcrumbing offers almost no picture at all, only small contact. Hoovering follows a break or an exit and tries to pull you back. Breadcrumbing runs while you are still hovering. Next to the intensity of Love Bombing, it is the opposite: very thin attention, never a surge of it."
   }
 }

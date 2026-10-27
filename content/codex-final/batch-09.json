@@ -94,15 +94,15 @@
     "how_to_distinguish_from_related": "Emotional Invalidation rules your feelings inadmissible as such. This one points at the feeling to disqualify what you said about a particular issue. Contempt expresses disgust at you, and can be absent here, since the remark may come in a calm, concerned voice. Intimidation implies a cost for not complying, but this only needs the claim that you are too upset to be heard right now."
   },
   "Ambient Abuse": {
-    "short_definition": "A steady climate of tension, criticism and unpredictability in which no single moment looks serious but the whole leaves a person worn down.",
-    "core_meaning": "A steady climate of tension, criticism and unpredictability in which no single moment looks serious but the whole leaves a person worn down.",
-    "expanded_definition": "Instead of a few clear incidents, this is a background mood that a person lives inside: sighs, corrections, changeable tempers, and a sense that something will go wrong soon. Taken one at a time, each moment can be explained away. What marks it is the total effect, the constant bracing, and the way the mood seems to follow one person's moods or approval. Ordinary stressful periods can look similar for a while.",
-    "plain_language_summary": "There is no big fight to point to. It is the sighs, the sharp tone, the sense of having to guess the mood, until you are tired all the time and cannot say why.",
+    "short_definition": "A steady climate of tension, criticism and unpredictability. No single moment looks serious, but the whole leaves a person worn down.",
+    "core_meaning": "A steady climate of tension, criticism and unpredictability. No single moment looks serious, but the whole leaves a person worn down.",
+    "expanded_definition": "Instead of a few clear incidents, this is a background mood that a person lives inside: sighs, corrections, changeable tempers, and a sense that something will go wrong soon. Taken one at a time, each moment can be explained away. What marks it is the total effect and the constant bracing. The mood also seems to follow one person's moods or approval. Ordinary stressful periods can look similar for a while.",
+    "plain_language_summary": "There is no big fight to point to. It is the sighs, the sharp tone, and the need to guess the mood. You end up tired all the time and cannot say why.",
     "why_this_matters": "There is nothing to quote, so you cannot explain the exhaustion to anyone, yourself included. You stay braced without being able to say what for.",
     "what_it_is": [
       "A climate rather than an event: the effect builds from many small moments, not one that stands out.",
       "Usually built from low-level criticism, shifting moods, silence, sighing, and rules that seem to change without notice.",
-      "Often leaves the person monitoring another person's face, footsteps and tone as a way to predict the evening.",
+      "It often leaves a person watching another person's face, footsteps and tone to predict the evening.",
       "Hard to describe to outsiders because each example, told alone, sounds trivial."
     ],
     "what_it_sounds_like": [
@@ -114,7 +114,7 @@
       "Compliments that arrive only on the days when nothing went wrong."
     ],
     "what_it_is_not": [
-      "A season of money worry, illness or a new baby, when everyone in the house is snappy and the tension eases as things settle.",
+      "A season of money worry, illness or a new baby, when everyone in the house is snappy. The tension eases as things settle.",
       "A family or workplace culture of blunt speech, where criticism is frequent but applied the same to everyone and not held over anyone.",
       "A person's own anxiety making a mostly calm home feel tense, which a counselor might help sort out without blaming anyone.",
       "An argument that was loud but ended, was talked about afterward, and did not leave days of dread.",
@@ -137,7 +137,7 @@
     "innocent_or_ordinary_possibilities": [
       "People have off days and show them in sighs and short answers, without meaning to affect anyone.",
       "A shared home during a crisis often has an edgy mood for a while.",
-      "Differences in how loudly people express irritation can make one person's ordinary mood feel like the whole house's weather."
+      "People differ in how loudly they show irritation. That can turn one person's ordinary mood into the whole house's weather."
     ],
     "common_false_positives": [
       "A newborn's first months, when everyone is sleepless and curt.",
@@ -167,35 +167,35 @@
       "Your own sense of what counts as normal has shifted, and you have stopped mentioning things that once bothered you.",
       "Physical signs of strain, such as poor sleep, a tight stomach or headaches, track your time with this person."
     ],
-    "repair_check": "Real change would show in the climate itself, not in one good day: fewer sighs and sudden shifts, predictable moods, and the person noticing and naming the weather they create. A big gesture such as flowers or a trip, followed by the same tension within a week, leaves the climate in place.",
+    "repair_check": "Real change would show in the climate itself, not in one good day. Look for fewer sighs and sudden shifts, predictable moods, and the person noticing and naming the weather they create. A big gesture such as flowers or a trip, followed by the same tension within a week, leaves the climate in place.",
     "boundary_respect_check": "Try naming one small, specific thing, such as \"I tense up when you sigh like that\", and watch the following days. Does the sighing ease, or does your remark become one more thing to be tense about?",
-    "psychological_mechanism": "Living with unpredictability tends to keep a person on alert, scanning for signs of the next shift. That constant monitoring is tiring and can crowd out ordinary thinking, and when nothing definite happens there is no event to be angry about or to report. The effect may be stronger where the person depends on the other for housing, income or approval.",
+    "psychological_mechanism": "Living with unpredictability often keeps a person on alert, scanning for signs of the next shift. That constant monitoring is tiring and can crowd out ordinary thinking. When nothing definite happens, there is no event to be angry about or to report. The effect may be stronger where the person depends on the other for housing, income or approval.",
     "possible_impact_on_receiver": "People describe exhaustion they cannot explain, jumpiness around footsteps or a ringing phone, and difficulty trusting a good day to last. Many say they could not give anyone a single example, which left them feeling they were making it up. Some describe a physical relief when the other person is away.",
     "response_options": {
-      "soft_clarification": "Name one small, observable thing at a calm time: \"When there's a long silence after I ask a question, I end up on edge for the rest of the evening.\"",
+      "soft_clarification": "At a calm time, name one small, observable thing: \"When there's a long silence after I ask a question, I end up on edge for the rest of the evening.\"",
       "firm_boundary": "Say what you will no longer guess at: \"I can't keep working out your mood before I speak. If something is wrong, I'd like to hear it in words.\"",
-      "disengagement": "Spend more time in places where the mood does not follow you, and give yourself a short time each day that belongs to no one else's weather.",
-      "support_seeking": "Keep a short written record of how you feel each day for a few weeks, then share it with a counselor or a friend who can tell you whether a pattern shows.",
-      "workplace_or_professional": "If this is at work, keep dated notes of the specific remarks and mood swings, and ask a mentor, HR or an ombudsperson (an independent complaints officer) whether the culture of the team is typical."
+      "disengagement": "Spend more time in places where the mood does not follow you. Give yourself a short time each day that belongs to no one else's weather.",
+      "support_seeking": "Keep a short written record of how you feel each day for a few weeks. Then share it with a counselor or a friend who can tell you whether a pattern shows.",
+      "workplace_or_professional": "If this is at work, keep dated notes of the specific remarks and mood swings. Ask a mentor, HR or an ombudsperson (an independent complaints officer) whether the team's culture is typical."
     },
     "boundary_script": "\"I've noticed I spend my evenings trying to read your mood, and it is wearing me out. Could we agree to say it in words when something is bothering us, even something small?\"",
     "safety_sensitive": true,
-    "safety_note": "A tense atmosphere can be the background to controlling behavior, including monitoring, money limits or fear of what a mood might lead to. Watch whether you are afraid of an outburst, change your behavior to prevent one, or feel unsafe saying no. A domestic abuse advocate can help you assess this, and they do not need a dramatic incident to take it seriously.",
+    "safety_note": "A tense atmosphere can be the background to controlling behavior, including monitoring, money limits or fear of what a mood might lead to. Watch whether you are afraid of an outburst, change your behavior to prevent one, or feel unsafe saying no. A domestic abuse advocate can help you assess this. They do not need a dramatic incident to take it seriously.",
     "misuse_warning": [
-      "Describing every tense home or workplace as abusive can hide real and ordinary stress, and may leave a partner or coworker accused over a mood they do not know they are creating.",
+      "Calling every tense home or workplace abusive can hide real, ordinary stress. It may also leave a partner or coworker accused over a mood they do not know they are creating.",
       "Because nothing specific can be pointed to, the label is easy to apply from your feelings alone. It describes what you live in, and does not tell you what anyone meant."
     ],
     "how_to_distinguish_from_related": "Contempt is a visible, specific expression of disgust, while this is an undercurrent with no single expression to point to. Intimidation implies a consequence for non-compliance, but here nothing is threatened outright. Emotional Invalidation answers your feelings when you state them. This mood is felt even when nothing is said."
   },
   "Ambient Sexual Threat": {
-    "short_definition": "A sexually charged or menacing atmosphere around a person, kept alive through repeated small signals, so they stay on guard with nothing definite to report.",
-    "core_meaning": "A sexually charged or menacing atmosphere around a person, kept alive through repeated small signals, so they stay on guard with nothing definite to report.",
-    "expanded_definition": "This describes a climate rather than a single act: remarks about your body, lingering looks, jokes with a sexual edge, someone appearing near you more often than seems accidental. Any one of these can be explained as clumsiness or humor. The pattern is in the total effect, where a person begins to rearrange their route, schedule or clothing around someone. It does not show what anyone intended, only what the surroundings feel like to the person in them.",
+    "short_definition": "A sexually charged or menacing atmosphere around a person, kept alive by repeated small signals. The person stays on guard with nothing definite to report.",
+    "core_meaning": "A sexually charged or menacing atmosphere around a person, kept alive by repeated small signals. The person stays on guard with nothing definite to report.",
+    "expanded_definition": "This describes a climate rather than a single act: remarks about your body, lingering looks, jokes with a sexual edge, someone appearing near you more often than seems accidental. Any one of these can be explained as clumsiness or humor. The pattern is in the total effect. A person begins to rearrange their route, schedule or clothing around someone. It does not show what anyone intended, only what the person living in those surroundings experiences.",
     "plain_language_summary": "Nothing happens that you could report, yet you are always aware of one person. You change where you go, when you leave and who comes with you.",
-    "why_this_matters": "You may reorganize your movements, schedule and attention around one person while holding nothing concrete enough to report, or even to explain to a friend.",
+    "why_this_matters": "You may reorganize your movements, schedule and attention around one person. Meanwhile you hold nothing concrete enough to report, or even to explain to a friend.",
     "what_it_is": [
-      "A repeated set of small signals, such as comments on your appearance, jokes with a sexual edge, or proximity, that add up to unease.",
-      "Different from a single act in that each piece is easy to deny or dismiss, and the effect lives in the repetition.",
+      "A repeated set of small signals that add up to unease, such as comments on your appearance, jokes with a sexual edge, or staying close to you.",
+      "This differs from a single act, because each piece is easy to deny or dismiss. The effect lives in the repetition.",
       "Seen at work, in schools, in shared housing, in congregations, and in families and friend groups.",
       "Often leaves a person planning around it: taking another stairwell, bringing a friend, avoiding a room."
     ],
@@ -210,8 +210,8 @@
     "what_it_is_not": [
       "A single clumsy compliment or off-color joke that the person took back as soon as it was pointed out.",
       "A friendly colleague who greets everyone warmly and has no pattern of focusing on you.",
-      "A culture of bawdy humor shared evenly by everyone who takes part, where nobody is uncomfortable and anyone could opt out.",
-      "Your own feeling of unease with someone whose behavior has not changed and who has done nothing you can describe, which is worth taking seriously but does not prove a pattern.",
+      "A culture of bawdy humor shared evenly by everyone who takes part. Nobody is uncomfortable, and anyone could opt out.",
+      "Your own unease with someone whose behavior has not changed and who has done nothing you can describe. That is worth taking seriously, but it does not prove a pattern.",
       "A partner or date whose sexual remarks are welcomed and reciprocal."
     ],
     "this_may_be_it_when": [
@@ -261,23 +261,23 @@
       "You find yourself telling friends small, odd details because each one on its own is embarrassing to repeat.",
       "A sense of being watched stays with you after the person has left the room."
     ],
-    "repair_check": "Change would mean the signals stop completely and stay stopped, with no testing of how far you will go along. An apology paired with fresh jokes, or with \"I thought we were joking around\", has not touched the underlying pattern, since the effect on you stays the same.",
+    "repair_check": "Change would mean the signals stop completely and stay stopped, with no testing of how far you will go along. An apology paired with fresh jokes, or with \"I thought we were joking around\", leaves the pattern untouched. The effect on you stays the same.",
     "boundary_respect_check": "Once you have asked for the remarks or the looks to stop, watch what the following weeks hold. A person who respects it simply stops and does not make it awkward. Distance followed by sudden coldness, or the same behavior returning in a new form, answers the question the other way.",
-    "psychological_mechanism": "When a situation is ambiguous, a person tends to scan it for danger and to act on that scan before they can prove anything. A background of small signals keeps that scanning switched on, and the lack of a clear event makes it hard to justify the strain, even to oneself. Wondering whether you are overreacting can add to it.",
-    "possible_impact_on_receiver": "People describe taking longer routes, leaving early, dressing to draw less attention, and feeling embarrassed that they cannot explain it. Some talk about doubting their own read, and about the tiredness of staying watchful in places that should be ordinary. Others describe anger at having to plan their day around another person's presence.",
+    "psychological_mechanism": "When a situation is ambiguous, a person tends to scan it for danger and to act on that scan before they can prove anything. A background of small signals keeps that scanning switched on. The lack of a clear event makes the strain hard to justify, even to oneself. Wondering whether you are overreacting can add to it.",
+    "possible_impact_on_receiver": "People describe taking longer routes, leaving early, dressing to draw less attention, and feeling embarrassed that they cannot explain it. Some talk about doubting their own sense of what is happening, and about the tiredness of staying watchful in places that should be ordinary. Others describe anger at having to plan their day around another person's presence.",
     "response_options": {
       "soft_clarification": "If you feel safe, say one thing plainly and briefly: \"Comments about my body make me uncomfortable.\" You do not need to argue the point.",
-      "firm_boundary": "If you feel safe, state it once without softening, and write down the date and the words you used: \"I do not want comments about my appearance. Please stop.\"",
+      "firm_boundary": "If you feel safe, state it once without softening, then write down the date and the words you used: \"I do not want comments about my appearance. Please stop.\"",
       "disengagement": "Where you can, avoid being alone with them, bring a colleague or friend, and use routes and times that keep other people around.",
-      "support_seeking": "Tell someone you trust what you have noticed, even if it sounds small, and ask them to keep a record with you of dates and what was said.",
-      "workplace_or_professional": "Write down each incident with date, place, words and witnesses, and bring the record to HR, a union rep, a school office or an ombudsperson (an independent complaints officer), as a pattern rather than separate incidents."
+      "support_seeking": "Tell someone you trust what you have noticed, even if it sounds small. Ask them to keep a record with you of dates and what was said.",
+      "workplace_or_professional": "Write down each incident with date, place, words and witnesses. Bring the record to HR, a union rep, a school office or an ombudsperson (an independent complaints officer), and present it as a pattern rather than separate incidents."
     },
     "boundary_script": "\"Please stop commenting on my appearance. I would like to keep our conversations about the work.\" If you do not feel safe, skip it and keep a record.",
     "safety_sensitive": true,
-    "safety_note": "Signals that raise concern are the person learning your schedule, turning up where you are, or touching you without agreement. Others are their having power over you, or reacting to a refusal with anger. Keep dated records, tell someone you trust where you are going, and contact a sexual assault or domestic violence advocate or the police if you feel in immediate danger.",
+    "safety_note": "Signs that raise concern include the person learning your schedule, turning up where you are, or touching you without agreement. Others are their having power over you, or reacting to a refusal with anger. Keep dated records, and tell someone you trust where you are going. If you feel in immediate danger, contact a sexual assault or domestic violence advocate or the police.",
     "misuse_warning": [
       "Reading a pattern into a single awkward remark can wrongly mark a person as a threat. The label needs repetition and a continued focus on one person.",
-      "Your discomfort is real information, but it does not show what the other person means, and a report is best made on specific dated behaviors, not on a verdict about their character."
+      "Your discomfort is real information, but it does not show what the other person means. A report is best made on specific dated behaviors, not on a verdict about their character."
     ],
     "how_to_distinguish_from_related": "Intimidation carries an implied consequence for non-compliance, and this one stays suggestive and deniable. Contempt is disgust toward you, whereas here the signals are sexual or watchful in character and may be wrapped in friendliness. Emotional Invalidation answers your feelings once you voice them. This is attention aimed at you that makes you feel watched before you say anything."
   },

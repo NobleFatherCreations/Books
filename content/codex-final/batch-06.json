@@ -94,13 +94,13 @@
     "how_to_distinguish_from_related": "Compared with Love Bombing, which front-loads affection and need never cool, this has real distance in it. Hoovering comes after a split or a long gap, when someone reappears with promises. Breadcrumbing is thin, steady scraps with no warm phase at all. Push-pull has both: real stretches of closeness, then real distance, again and again."
   },
   "Intermittent Reinforcement": {
-    "short_definition": "Handing out affection, praise or kindness unpredictably and rarely, so that the few good moments hold a person more tightly than steady warmth would.",
-    "core_meaning": "Handing out affection, praise or kindness unpredictably and rarely, so that the few good moments hold a person more tightly than steady warmth would.",
-    "expanded_definition": "The name comes from learning research on reward schedules, where rewards that arrive on an unpredictable timetable tend to produce persistent effort. In a relationship, it describes long stretches of criticism, indifference or flat routine broken by occasional real warmth or praise. Every relationship has good and bad days, so the pattern is judged by ratio and timing: how rare the good moments are, how much you do to earn them, and how hard they are to predict.",
-    "plain_language_summary": "Kindness shows up only now and then, with no way of knowing when, so you keep working for the next bit and it becomes hard to leave.",
-    "why_this_matters": "Effort goes up while the returns go down. The rarity of the good moments is what makes them feel worth waiting for, so the loop can feed itself, and you may end up measuring the whole relationship by its best hour.",
+    "short_definition": "Giving out affection, praise or kindness rarely and at unpredictable times. The few good moments then hold a person tighter than steady warmth would.",
+    "core_meaning": "Giving out affection, praise or kindness rarely and at unpredictable times. The few good moments then hold a person tighter than steady warmth would.",
+    "expanded_definition": "The name comes from learning research on reward schedules. Rewards that arrive at unpredictable times often produce steady effort. In a relationship, it means long stretches of criticism, indifference or flat routine, broken by occasional real warmth or praise. Every relationship has good and bad days. So the pattern is judged by ratio and timing: how rare the good moments are, how much you do to earn them, and how hard they are to predict.",
+    "plain_language_summary": "Kindness shows up only now and then, and you never know when. So you keep working for the next bit, and it becomes hard to leave.",
+    "why_this_matters": "Effort goes up while the returns go down. The rarity of the good moments is what makes them seem worth waiting for. So the loop can feed itself, and you may end up judging the whole relationship by its best hour.",
     "what_it_is": [
-      "A relationship where approval or tenderness arrives on no schedule you can learn, while criticism or neglect fills the gaps.",
+      "A relationship where approval or tenderness comes on no schedule you can learn. Criticism or neglect fills the gaps.",
       "Rewards that are real but small in number, such as a compliment, a surprise visit, or a night when they are fully attentive.",
       "A rising effort on your side: more chores, more patience, more worry about getting it right.",
       "A pattern that can occur at home, at work, in friendships, and in families."
@@ -122,7 +122,7 @@
     ],
     "this_may_be_it_when": [
       "You cannot guess which of your actions earns the good moment, or whether any of them do.",
-      "The warm episodes are far outnumbered by cold or critical ones, and you still describe the relationship by the warm ones.",
+      "Warm episodes are far outnumbered by cold or critical ones, yet you still describe the relationship by the warm ones.",
       "You find yourself doing more and more, for rewards that stay the same size or shrink.",
       "Praise tends to come when you are on the edge of leaving, going quiet, or giving up.",
       "You feel a rush of relief and gratitude at small kindnesses that would barely register elsewhere."
@@ -137,7 +137,7 @@
     "innocent_or_ordinary_possibilities": [
       "Some people simply express warmth rarely and unevenly, and feel more than they show.",
       "Stress or low mood can flatten someone's expression of care for a season.",
-      "Workplaces with overloaded managers often hand out praise at random, which feels like a pattern but is only disorganization."
+      "Workplaces with overloaded managers often hand out praise at random. That looks like a pattern but is only disorganization."
     ],
     "common_false_positives": [
       "A friend whose attention is strong when you meet and thin between meetings, which suits both of you.",
@@ -157,7 +157,7 @@
       "Your life outside the relationship stays full and steady, with your own friends and goals."
     ],
     "more_concerning_if": [
-      "The long gaps are filled with criticism and comparison, not just neutrality.",
+      "The long gaps are filled with criticism and comparison, rather than neutrality.",
       "Warmth returns reliably when you threaten to leave, then fades once you stay.",
       "You have started to doubt that you deserve more than the occasional good day."
     ],
@@ -169,32 +169,32 @@
     ],
     "repair_check": "Look at whether the good treatment spreads out. Real change makes kindness frequent and ordinary, something you can count on a Tuesday. A bigger gesture after your complaint, with the gaps just as long between, is the same schedule at higher volume.",
     "boundary_respect_check": "Tell them what regular warmth would look like for you, and see what the next month holds. Are the good moments still rare and arriving as rewards, or do they turn into a daily baseline you no longer have to earn?",
-    "psychological_mechanism": "Learning research has long found that rewards arriving unpredictably can keep behavior going longer than rewards that come every time. In a relationship, this may mean that uncertainty about when warmth will come keeps attention and effort fixed on the other person. The rare good moments may feel much larger against the background of the gaps, which can make leaving feel like giving up the one thing worth having.",
-    "possible_impact_on_receiver": "People describe a kind of hunger for the next warm moment, replaying old kind words, and pushing their own needs aside to stay in the other person's favor. Some say they feel grateful for crumbs, then ashamed of being grateful. Others describe trouble recognizing steady kindness from other people, because it seems flat beside the highs.",
+    "psychological_mechanism": "Learning research has long found that rewards arriving unpredictably can keep behavior going longer than rewards that come every time. In a relationship, not knowing when warmth will come may keep your attention and effort fixed on the other person. The rare good moments may seem much larger against the gaps. That can make leaving look like giving up the one thing worth having.",
+    "possible_impact_on_receiver": "People describe a kind of hunger for the next warm moment. They replay old kind words and push their own needs aside to stay in the other person's favor. Some say they feel grateful for crumbs, then ashamed of being grateful. Others find it hard to recognize steady kindness from other people, because it seems flat beside the highs.",
     "response_options": {
       "soft_clarification": "Say what helps in plain terms: 'When you tell me what I did well, I feel like I can relax. Could we try noticing the small things as they happen?'",
       "firm_boundary": "Decide what level of regular care you need and say it: 'I won't keep working for rare praise. I need basic kindness as the normal state, not a prize.'",
       "disengagement": "Stop trying to earn the next warm moment. Keep your effort level the same for a month and see what is offered without it.",
-      "support_seeking": "Share the ratio with someone neutral, for example by writing down a month of days marked warm, neutral or cold, and show a counselor or friend the tally.",
-      "workplace_or_professional": "If a manager's praise comes only now and then, ask for regular check-ins with specific criteria, and keep your own record of completed work to measure against."
+      "support_seeking": "Share the ratio with someone neutral. For example, write down a month of days marked warm, neutral or cold, then show the tally to a counselor or friend.",
+      "workplace_or_professional": "If a manager's praise comes only now and then, ask for regular check-ins with specific criteria. Keep your own record of completed work to measure against."
     },
     "boundary_script": "\"I've noticed I only hear good things from you once in a while, and I work very hard for those moments. I need steadier warmth, even on ordinary days. If that isn't something you can offer, I'll need to rethink how much I put in.\"",
     "safety_sensitive": false,
     "safety_note": "By itself this is a painful emotional pattern, not a physical danger. Take it more seriously if the gaps are filled with threats or the warm moments come only after a scare. It matters more, too, if you are tied to the person by money, housing or children. Then keep a record of the cycle. Speak to a counselor or advocate who can help you plan your next steps while you still have your own income and contacts.",
     "misuse_warning": [
-      "Using the term to describe any uneven mood in a partner can make you read ordinary moodiness as a campaign.",
+      "Using the term for any uneven mood in a partner can lead you to read ordinary moodiness as a campaign.",
       "Calling someone's occasional kindness 'just a reward schedule' can dismiss warmth that was real."
     ],
     "how_to_distinguish_from_related": "Compared with Love Bombing, a heavy early flood of affection, the affection here is scarce and unpredictable. Conditional Love states the terms, such as 'I'll be warm if you obey', while this pattern never says what earns the reward. Negging mixes in insults that wear down confidence. Push-Pull swings in regular cycles of closeness and distance; this one is mostly lean, with rare warm bursts."
   },
   "Trauma Bonding": {
-    "short_definition": "A strong attachment that forms through cycles of hurt followed by comfort from the same person, so that fear and closeness become tangled together.",
-    "core_meaning": "A strong attachment that forms through cycles of hurt followed by comfort from the same person, so that fear and closeness become tangled together.",
-    "expanded_definition": "Trauma bonding describes an attachment that grows in a relationship where harm and relief come from the same source. After a frightening or painful episode, the person who caused it is also the one who apologizes, soothes or becomes tender, and that comfort can feel unusually intense. Ordinary couples fight and make up, so a single quarrel is not this. The pattern is a repeating cycle in which the closeness after the pain is taken as proof of how deep the bond is.",
-    "plain_language_summary": "You feel most attached to the person right after they hurt you, because the same person who caused the pain is the one who comforts you.",
-    "why_this_matters": "Relief and harm come from the same person, so your strongest feeling of closeness can arrive just after the worst treatment, and then becomes a reason to stay. Knowing this can help you tell the strength of a feeling from the safety of a relationship.",
+    "short_definition": "A strong attachment that grows through cycles of hurt, then comfort from the same person. Fear and closeness become tangled together.",
+    "core_meaning": "A strong attachment that grows through cycles of hurt, then comfort from the same person. Fear and closeness become tangled together.",
+    "expanded_definition": "Trauma bonding is an attachment that grows in a relationship where harm and relief come from the same source. After a frightening or painful episode, the person who caused it is also the one who apologizes, soothes or becomes tender. That comfort can feel unusually intense. Ordinary couples fight and make up, so a single quarrel is not this. The pattern is a repeating cycle, where the closeness after the pain is taken as proof of how deep the bond is.",
+    "plain_language_summary": "You feel most attached to the person right after they hurt you. The same person who caused the pain is the one who comforts you.",
+    "why_this_matters": "Relief and harm come from the same person. So your strongest feeling of closeness can arrive just after the worst treatment, and then become a reason to stay. Knowing this can help you tell the strength of a feeling from the safety of a relationship.",
     "what_it_is": [
-      "A cycle in which a hurtful episode is followed by apology, tenderness, gifts or a heartfelt reunion from the person who caused it.",
+      "A cycle where a hurtful episode is followed by apology, tenderness, gifts or a heartfelt reunion from the person who caused it.",
       "A bond that feels stronger after the worst episodes than it did before them.",
       "A relationship where the comforter and the source of fear are one person, so there is nowhere else to turn for relief.",
       "A shared sense that 'what we go through together proves our love', which makes the harm part of the story of the bond."
@@ -208,9 +208,9 @@
       "A friend asking why you stay, and your sense that they could not understand the part after the fight."
     ],
     "what_it_is_not": [
-      "Two people bonded by shared hardship from outside, such as caring for a sick child or surviving a disaster, where neither is the source of the pain.",
+      "Two people bonded by shared hardship from outside, such as caring for a sick child or surviving a disaster. Neither is the source of the pain.",
       "A couple who quarrel loudly, apologize honestly and change something afterwards, so the same fight does not repeat.",
-      "Ordinary attachment to someone you love who has hurt you once, and who has since taken full responsibility.",
+      "Ordinary attachment to someone you love who hurt you once and has since taken full responsibility.",
       "The strong loyalty of family members who have been through difficult years together, with no one inflicting the harm.",
       "A person's long-standing attachment style, which may make partings painful without anyone causing the pain."
     ],
@@ -223,7 +223,7 @@
     ],
     "this_may_not_be_it_when": [
       "The hard moments are honestly acknowledged and the behavior changes afterwards.",
-      "Comfort and support come from several people, not only from the one involved in the conflict.",
+      "Comfort and support come from several people besides the one involved in the conflict.",
       "The hurtful incidents were few, real repair followed, and months have passed without a repeat.",
       "Your feelings of closeness are steady and do not spike after conflict.",
       "You feel free to leave a conversation or a room without being afraid of what follows."
@@ -231,7 +231,7 @@
     "innocent_or_ordinary_possibilities": [
       "Many people feel unusually close after an emotional reconciliation, even in healthy relationships, because strong feelings are being shared.",
       "Grief and shared loss can bring people together in a way that feels intense and is not harmful.",
-      "Staying through a hard stretch can come from loyalty, love and practical limits such as money or children, not only from a bond to the harm."
+      "Staying through a hard stretch can come from loyalty, love and practical limits such as money or children. It does not have to come from a bond to the harm."
     ],
     "common_false_positives": [
       "A couple in counseling who feel raw and close after an honest session about a real problem.",
@@ -261,32 +261,32 @@
       "You have left or tried to leave more than once and returned during a warm period.",
       "Your idea of what counts as a normal bad day has shifted over time."
     ],
-    "repair_check": "Real change here is dull and visible: the harmful episodes stop altogether, and closeness no longer depends on a crisis first. Intense reconciliation scenes that follow each new incident, with the underlying behavior unchanged, are the cycle itself and not the end of it.",
-    "boundary_respect_check": "Consider what the apology is asked to do. When you say you need the harmful behavior to stop, is the answer a different way of acting, or another emotional reunion that leaves you grateful and quiet? The second keeps the loop closed.",
-    "psychological_mechanism": "Fear and distress can heighten the need for comfort, and if comfort is available from only one person, attachment to them may deepen. Relief after a threat can feel especially strong and can be mistaken for love. Cut off from other sources of support, a person may find it harder to see the cycle, and the strength of the feeling may seem to prove the relationship is right.",
-    "possible_impact_on_receiver": "Reported experiences include being torn between dread and longing, being unable to explain to others why you stay, and shame about missing the person who hurt you. Some say they felt addicted to the reconciliation. Many describe a long period after leaving when the pull stayed strong, which surprised them and which they took, wrongly, as a sign that leaving was a mistake.",
+    "repair_check": "Real change here is dull and visible. The harmful episodes stop altogether, and closeness no longer depends on a crisis first. Intense reconciliation scenes after each new incident, with the behavior underneath unchanged, are the cycle itself and not the end of it.",
+    "boundary_respect_check": "Consider what the apology is asked to do. When you say you need the harmful behavior to stop, is the answer a different way of acting? Or is it another emotional reunion that leaves you grateful and quiet? The second keeps the loop closed.",
+    "psychological_mechanism": "Fear and distress can heighten the need for comfort. If comfort is available from only one person, attachment to them may deepen. Relief after a threat can feel especially strong and can be mistaken for love. Cut off from other support, a person may find it harder to see the cycle. The strength of the feeling may even seem to prove the relationship is right.",
+    "possible_impact_on_receiver": "Reported experiences include being torn between dread and longing, being unable to explain to others why you stay, and shame about missing the person who hurt you. Some say they felt addicted to the reconciliation. Many describe a long period after leaving when the pull stayed strong. This surprised them, and they took it, wrongly, as a sign that leaving was a mistake.",
     "response_options": {
       "soft_clarification": "If it is safe to speak, name the cycle in one sentence: 'I notice we are closest right after we have hurt each other. I want closeness without the hurt first.'",
-      "firm_boundary": "Decide privately, with an advocate and not with the other person, what you would do if it happened again. Announcing a deadline or a consequence to someone who may react badly can raise the risk, so keep that plan to yourself and the people helping you.",
+      "firm_boundary": "Decide privately, with an advocate and not with the other person, what you would do if it happened again. Announcing a deadline or a consequence to someone who may react badly can raise the risk. Keep that plan to yourself and the people helping you.",
       "disengagement": "Plan any exit with care: gather documents, pick a safe place to go, and tell someone beforehand. Expect the pull to be strongest in the first weeks.",
-      "support_seeking": "Talk on your own, not as a couple, to a counselor or advocate trained in relationship harm, and keep up contact with at least one person outside the relationship who knows the whole story.",
-      "workplace_or_professional": "If a boss, teacher or mentor alternates harsh treatment with warmth and you feel tied to them, speak to HR, an ombudsperson (an independent complaints officer) or a mentor elsewhere before the next cycle."
+      "support_seeking": "Talk on your own, not as a couple, to a counselor or advocate trained in relationship harm. Also keep up contact with at least one person outside the relationship who knows the whole story.",
+      "workplace_or_professional": "If a boss, teacher or mentor alternates harsh treatment with warmth and you feel tied to them, speak to HR, an ombudsperson (an independent complaints officer) or a mentor elsewhere. Do this before the next cycle."
     },
     "boundary_script": "\"I know you're sorry, and I can tell how much you mean it right now. What I need is for the apology to be followed by something different. Can we pause here for tonight? I'd like some quiet time to think about how these cycles go.\"",
     "safety_sensitive": true,
-    "safety_note": "This pattern can accompany physical violence, threats, stalking, and control over money or contact, and the days around leaving are often the riskiest. Watch for escalation, strangulation, threats to kill or to harm children or pets, and weapons. Ask a domestic violence advocate to help you build a leaving plan, including where your documents, a spare phone and a go-bag will be kept.",
+    "safety_note": "This pattern can come with physical violence, threats, stalking, and control over money or contact. The days around leaving are often the riskiest. Watch for escalation, strangulation, threats to kill or to harm children or pets, and weapons. Ask a domestic violence advocate to help you build a leaving plan, including where your documents, a spare phone and a go-bag will be kept.",
     "misuse_warning": [
-      "Telling someone in a hard relationship that they are 'just trauma bonded' can dismiss their real love, real reasons and practical constraints, and push them away.",
+      "Telling someone in a hard relationship that they are 'just trauma bonded' can dismiss their real love, real reasons and practical constraints. It can also push them away.",
       "Using the term for any intense make-up after a quarrel mislabels ordinary couple life as something sinister."
     ],
     "how_to_distinguish_from_related": "Relief Bait is the move itself: kindness placed right after harm to reset what you will tolerate. Trauma bonding is the attachment that can result when this is repeated. Intermittent Reinforcement concerns the unpredictable timing of rewards, whether or not pain precedes them. Conditional Love sets out terms; here the terms are never stated, and the bond is felt as love."
   },
   "Relief Bait": {
-    "short_definition": "A burst of kindness placed right after hurtful treatment, so that relief takes the place of an honest reckoning with what happened.",
-    "core_meaning": "A burst of kindness placed right after hurtful treatment, so that relief takes the place of an honest reckoning with what happened.",
-    "expanded_definition": "Relief bait is the sweetness that follows a harsh moment: the gift, the soft voice, the sudden tenderness after contempt or a cold shutdown. Genuine apologies also bring kindness, so the key is what is missing. In this pattern the kindness arrives instead of naming the harm, the harm repeats, and the relief makes the next episode a little easier to absorb. One kind gesture after a quarrel proves nothing; the repeating order of hurt, then sweetness, then hurt does.",
-    "plain_language_summary": "Something hurtful happens, and soon afterward comes unusual kindness that never talks about what happened, so you feel relieved and let it go.",
-    "why_this_matters": "Each round of kindness resets what you will put up with, so the level of treatment you accept can drop without you noticing it move. You also lose the chance to have the original harm discussed.",
+    "short_definition": "A burst of kindness placed right after hurtful treatment, so that relief replaces an honest look at what happened.",
+    "core_meaning": "A burst of kindness placed right after hurtful treatment, so that relief replaces an honest look at what happened.",
+    "expanded_definition": "Relief bait is the sweetness that follows a harsh moment: the gift, the soft voice, the sudden tenderness after contempt or a cold shutdown. Genuine apologies also bring kindness, so the key is what is missing. In this pattern the kindness arrives instead of naming the harm. The harm repeats, and the relief makes the next episode a little easier to absorb. One kind gesture after a quarrel proves nothing. The repeating order of hurt, then sweetness, then hurt does.",
+    "plain_language_summary": "Something hurtful happens. Soon afterward comes unusual kindness that never talks about what happened, so you feel relieved and let it go.",
+    "why_this_matters": "Each round of kindness resets what you will put up with. The level of treatment you accept can drop without you noticing it move. You also lose the chance to have the original harm discussed.",
     "what_it_is": [
       "Warmth, gifts or affection that arrive within hours or a day of a hurtful act, without any acknowledgment of it.",
       "Kindness that is out of step with the way the person usually treats you, so it feels like sudden mercy.",
@@ -304,7 +304,7 @@
     "what_it_is_not": [
       "A sincere apology that names what was done, explains what will change, and comes with a gift or a kind act as an addition.",
       "A couple who often comfort each other after tension and do so with open acknowledgment of what was said.",
-      "A person who is warm by nature and offers kindness as a gesture of care at many different times, not only after hurting you.",
+      "A person who is warm by nature and shows kindness as care at many different times, including times when they have not hurt you.",
       "A move to lighten the mood after a minor disagreement that both of you consider settled.",
       "Reaching out after an argument because they cannot bear the distance, followed by a talk the next day."
     ],
@@ -355,32 +355,32 @@
       "Gifts and gestures pile up while the issues behind them stay unresolved.",
       "You find it hard to remember what the original fight was about, only how good the making-up felt."
     ],
-    "repair_check": "The kindness itself tells you little, and what it is attached to tells you more. When there is change, the incident is named, in words, by them, and the behavior stops. Where only the flowers, the dinner or the soft tone appear and the hurtful act gets repeated, the gift has stood in for the repair.",
+    "repair_check": "The kindness itself tells you little. What it is attached to tells you more. When there is change, the incident is named, in words, by them, and the behavior stops. Where only the flowers, the dinner or the soft tone appear and the hurtful act is repeated, the gift has stood in for the repair.",
     "boundary_respect_check": "After you ask them to talk about the hurtful moment before any treat or gesture, what happens? Do they sit with the topic, or does the warmth become more insistent, turning your request into the thing that spoils a nice day?",
-    "psychological_mechanism": "Relief after distress can feel stronger than steady comfort would, and a person may link the relief to whoever provides it. When kindness comes straight after the harm, it can blur the sense that the two events belong together, and it can make raising the harm feel mean. Repeated rounds tend to raise what feels tolerable, because the bad moments are always followed by good ones.",
-    "possible_impact_on_receiver": "Common accounts include guilt about staying upset when the other person is being so nice, losing track of how often it has happened, and not knowing whether to trust the gifts. Some say they began to flinch at kindness, waiting for what it covered. Others could not explain to friends what was wrong, since each good moment looked so generous from outside.",
+    "psychological_mechanism": "Relief after distress can feel stronger than steady comfort would, and a person may link the relief to whoever provides it. Kindness that comes straight after the harm can blur the sense that the two events belong together. It can also make raising the harm feel mean. Repeated rounds tend to raise what feels tolerable, because the bad moments are always followed by good ones.",
+    "possible_impact_on_receiver": "Common accounts include guilt about staying upset when the other person is being so nice, losing track of how often it has happened, and not knowing whether to trust the gifts. Some say they began to flinch at kindness, waiting for what it covered. Others could not explain to friends what was wrong, because each good moment looked so generous from outside.",
     "response_options": {
       "soft_clarification": "Thank them for the gesture and name the missing step: 'That was kind. I'd still like to talk about what you said on Monday before we move on.'",
       "firm_boundary": "Put the order in plain terms: 'Please don't answer a hurtful moment with a gift. I'd rather you tell me what you did, and we go from there.'",
       "disengagement": "Take the gift or gesture if you want it, but keep the conversation about the incident marked as unfinished. Make a private note of what was said, and talk it over with a counselor or friend before the next conversation.",
       "support_seeking": "Write down the last three incidents and what followed each one. Show the list to a counselor or trusted friend and ask whether the order looks as odd to them as it does to you.",
-      "workplace_or_professional": "If a manager follows harsh criticism with praise or perks, ask for the criticism in writing with specifics, and keep your own record of both."
+      "workplace_or_professional": "If a manager follows harsh criticism with praise or perks, ask for the criticism in writing with specifics. Keep your own record of both."
     },
     "boundary_script": "\"I appreciate the dinner. But it doesn't fix what you said to me earlier, and I don't want the nice evening to be where that gets dropped. Can we talk about it first? Then I'll enjoy the dinner.\"",
     "safety_sensitive": true,
-    "safety_note": "Kindness that regularly follows intimidation, shoving, destroyed property or threats can be part of a controlling cycle in which things get worse over time. Watch for fear of their moods, harm that is getting more frequent, and apologies that come with pressure not to tell anyone. A domestic violence advocate can help you judge the risk and plan around it, starting with a written list of the incidents and their dates.",
+    "safety_note": "Kindness that regularly follows intimidation, shoving, destroyed property or threats can be part of a controlling cycle in which things get worse over time. Watch for fear of their moods, harm that is getting more frequent, and apologies that come with pressure not to tell anyone. A domestic violence advocate can help you judge the risk and plan around it. A good start is a written list of the incidents and their dates.",
     "misuse_warning": [
-      "Treating every apology gift as bait can leave you unable to accept sincere repair, and punishes people who say sorry with actions.",
-      "Telling a partner that their kindness is 'just relief bait' during a fight hands them no way to be forgiven, and can end a conversation that might have worked."
+      "Treating every apology gift as bait can leave you unable to accept sincere repair. It also punishes people who say sorry with actions.",
+      "Telling a partner that their kindness is 'just relief bait' during a fight gives them no way to be forgiven. It can end a conversation that might have worked."
     ],
-    "how_to_distinguish_from_related": "Apology Without Repair says sorry in words and changes nothing; relief bait often skips words and uses warmth. Intermittent Reinforcement is about rare, unpredictable rewards, whereas here the reward comes at a predictable moment, just after hurt. Trauma Bonding is the attachment that may grow over many cycles; relief bait is one move inside the cycle. Hoovering pulls you back after you have left, while this happens inside the relationship."
+    "how_to_distinguish_from_related": "Apology Without Repair says sorry in words and changes nothing. Relief bait often skips words and uses warmth. Intermittent Reinforcement is about rare, unpredictable rewards. Here the reward comes at a predictable moment, just after hurt. Trauma Bonding is the attachment that may grow over many cycles. Relief bait is one move inside the cycle. Hoovering pulls you back after you have left, while this happens inside the relationship."
   },
   "Idealize-Devalue-Discard Cycle": {
-    "short_definition": "A three-stage arc in which someone is first placed on a pedestal, then steadily criticized and diminished, and finally dropped.",
-    "core_meaning": "A three-stage arc in which someone is first placed on a pedestal, then steadily criticized and diminished, and finally dropped.",
-    "expanded_definition": "This describes a whole relationship arc: a dazzling start in which you feel uniquely seen, a gradual turn in which the same qualities are criticized, and an ending that can feel abrupt or cold. Many relationships cool from early infatuation, and that alone is not this. What marks it is a turn that is sharp and out of proportion to anything you did, the criticism targets what was praised before, and people who knew the person describe the same arc with others.",
-    "plain_language_summary": "At first you are treated as perfect, then slowly as a disappointment, and then you are cast aside, as if the person you were praised for being no longer exists.",
-    "why_this_matters": "You measure the ending against the extraordinary beginning and conclude you must have caused the decline, which is also the conclusion that keeps you trying to earn the beginning back. It can be hard to grieve a relationship that changed shape so completely.",
+    "short_definition": "A three-stage arc. Someone is first placed on a pedestal, then steadily criticized and put down, and finally dropped.",
+    "core_meaning": "A three-stage arc. Someone is first placed on a pedestal, then steadily criticized and put down, and finally dropped.",
+    "expanded_definition": "This describes a whole relationship arc. It starts with a dazzling stretch in which you feel uniquely seen. Then comes a gradual turn in which the same qualities are criticized. It ends in a way that can feel abrupt or cold. Many relationships cool from early infatuation, and that alone is not this. What marks it is a turn that is sharp and out of proportion to anything you did. The criticism targets what was praised before, and people who knew the person describe the same arc with others.",
+    "plain_language_summary": "At first you are treated as perfect, then slowly as a disappointment. Then you are cast aside, as if the person you were praised for being no longer exists.",
+    "why_this_matters": "You measure the ending against the extraordinary beginning and conclude you must have caused the decline. That same conclusion keeps you trying to earn the beginning back. It can be hard to grieve a relationship that changed shape so completely.",
     "what_it_is": [
       "An opening stretch of intense admiration, fast closeness and big statements about how special you are.",
       "A middle phase in which the same traits that were praised become faults, and comparisons or small cruelties appear.",
@@ -417,9 +417,9 @@
       "The ending came with a conversation, even a hard one."
     ],
     "innocent_or_ordinary_possibilities": [
-      "People often idealize a new partner and see them more realistically over time, which can feel like loss without being a tactic.",
+      "People often idealize a new partner and later see them more realistically. That can bring a sense of loss without being a tactic.",
       "A person who is anxious about commitment may pull away once things get serious.",
-      "Early excitement can fade when people discover real differences, and the ending can be clumsy rather than cruel."
+      "Early excitement can fade when people discover real differences. The ending can be clumsy rather than cruel."
     ],
     "common_false_positives": [
       "A whirlwind romance that cooled into a more ordinary one and then ended by mutual agreement.",
@@ -449,22 +449,22 @@
       "Your confidence drops as the criticism grows, and you hold on to memories of the start.",
       "After the end, you replay the beginning and wonder what you did to lose it."
     ],
-    "repair_check": "Real change would show in how they talk about the whole arc: recognizing that the early praise was larger than any person could live up to and that the criticism was out of proportion. A return to warmth with a fresh round of praise starts the first stage again.",
-    "boundary_respect_check": "Ask them to speak about specific behavior instead of general character. Notice whether they can name what happened and keep that frame, or whether the criticism widens into your whole personality and the praise from the start is quoted back as evidence of how you fell.",
-    "psychological_mechanism": "Being idealized can feel intoxicating, and a person may build part of their sense of self on it. When treatment then turns, the contrast with the early warmth tends to make people search for what they did wrong and try to recover the start. Because the beginning was real to them, they may remain hopeful long after the relationship has changed.",
-    "possible_impact_on_receiver": "People describe whiplash, grief for a version of the relationship that may never have been stable, and doubting their own judgment about who to trust. Some say they felt discarded as if they were an object. Others describe an urge to explain themselves to the other person, long after contact had ended, in order to restore the early view.",
+    "repair_check": "Real change would show in how they talk about the whole arc. They would recognize that the early praise was larger than any person could live up to, and that the criticism was out of proportion. A return to warmth with a fresh round of praise starts the first stage again.",
+    "boundary_respect_check": "Ask them to speak about specific behavior instead of general character. Notice whether they can name what happened and keep that frame. Or does the criticism widen into your whole personality, with the praise from the start quoted back as evidence of how you fell?",
+    "psychological_mechanism": "Being idealized can feel intoxicating, and a person may build part of their sense of self on it. When treatment then turns, the contrast with the early warmth often sends people searching for what they did wrong. They try to recover the start. Because the beginning was real to them, they may remain hopeful long after the relationship has changed.",
+    "possible_impact_on_receiver": "People describe whiplash, grief for a version of the relationship that may never have been stable, and doubting their own judgment about who to trust. Some say they felt discarded as if they were an object. Others describe an urge to explain themselves to the other person long after contact had ended, to restore the early view.",
     "response_options": {
       "soft_clarification": "Ask about the change directly: 'You used to say you loved how driven I am. Now it sounds like a flaw. What changed for you?'",
       "firm_boundary": "Refuse the rewrite: 'I won't agree that I am a different person from the one you praised. If there is a problem with something I did, tell me what it was.'",
       "disengagement": "Resist the urge to win the early version back. Stop auditioning, keep your own routine, and let distance show whether the respect is still there.",
-      "support_seeking": "Tell a friend the whole arc in order, including the early praise and the later criticism, and ask them what they noticed at each stage. Grief counseling can also help with the loss of the idealized start.",
-      "workplace_or_professional": "If a boss or mentor praises you extravagantly and then freezes you out, keep dated records of your work and their feedback, and talk to HR or a mentor outside the relationship."
+      "support_seeking": "Tell a friend the whole arc in order, including the early praise and the later criticism. Ask them what they noticed at each stage. Grief counseling can also help with the loss of the idealized start.",
+      "workplace_or_professional": "If a boss or mentor praises you extravagantly and then freezes you out, keep dated records of your work and their feedback. Talk to HR or a mentor outside the relationship."
     },
     "boundary_script": "\"I was happy when you thought so highly of me, and I'm not the same person you're describing now. If you're unhappy with something I did, tell me what it was. I won't accept being told I was never who you thought I was.\"",
     "safety_sensitive": false,
     "safety_note": "The arc itself is an emotional harm, not a physical one. It becomes more serious if the discard comes with a smear campaign, stalking, threats, or sudden loss of housing or income because you shared a home or business. If that begins, keep dated copies of messages, lock down your accounts, and talk to a lawyer or a domestic abuse advocate about protecting your housing and finances.",
     "misuse_warning": [
-      "Applying the label to anyone who ended a relationship after an intense beginning treats ordinary heartbreak as proof of a pattern.",
+      "Using the label for anyone who ended a relationship after an intense beginning treats ordinary heartbreak as proof of a pattern.",
       "Describing a former partner in these terms to friends can become a smear of its own, built from one side of the story."
     ],
     "how_to_distinguish_from_related": "Love Bombing covers only the first stage, the overwhelming early affection, and can happen without the later criticism. Hoovering comes after the ending, when the person reappears to pull you back. Negging is a steady stream of backhanded put-downs that can occur at any point. The cycle is the whole three-part arc, from the pedestal through the decline to the drop."

@@ -2178,7 +2178,7 @@
   {
    "name": "Intermittent Reinforcement",
    "cat": "Attachment & Affection Control",
-   "what": "Handing out affection, praise or kindness unpredictably and rarely, so that the few good moments hold a person more tightly than steady warmth would.",
+   "what": "Giving out affection, praise or kindness rarely and at unpredictable times. The few good moments then hold a person tighter than steady warmth would.",
    "looks": [
     "Long stretches of criticism or indifference punctuated by occasional, intense warmth.",
     "The target works harder and harder for rarer and rarer good moments."
@@ -2199,7 +2199,7 @@
     "Silence when you do well, and a thank-you only when you stay late or give up something you wanted.",
     "\"I do love you. You just don't see it.\""
    ],
-   "why": "Effort goes up while the returns go down. The rarity of the good moments is what makes them feel worth waiting for, so the loop can feed itself, and you may end up measuring the whole relationship by its best hour."
+   "why": "Effort goes up while the returns go down. The rarity of the good moments is what makes them seem worth waiting for. So the loop can feed itself, and you may end up judging the whole relationship by its best hour."
   },
   {
    "name": "Breadcrumbing",
@@ -2207,7 +2207,7 @@
    "merged": [
     "Benching"
    ],
-   "what": "Sending just enough sporadic attention to keep someone hopeful and available, while the contact never turns into real plans or commitment.",
+   "what": "Sending just enough occasional attention to keep someone hopeful and available, while the contact never turns into real plans or commitment.",
    "looks": [
     "Occasional low-effort messages ('hey stranger', a like, an emoji) after long silence, never converting to plans.",
     "Warmth spikes whenever the target seems to be moving on."
@@ -2238,15 +2238,15 @@
   {
    "name": "Trauma Bonding",
    "cat": "Attachment & Affection Control",
-   "what": "A strong attachment that forms through cycles of hurt followed by comfort from the same person, so that fear and closeness become tangled together.",
+   "what": "A strong attachment that grows through cycles of hurt, then comfort from the same person. Fear and closeness become tangled together.",
    "looks": [
     "Intense reconciliations after intense harm, described as proof of how deep the connection is.",
     "Feeling most attached right after the worst episodes."
    ],
    "nots": [
-    "Two people bonded by shared hardship from outside, such as caring for a sick child or surviving a disaster, where neither is the source of the pain.",
+    "Two people bonded by shared hardship from outside, such as caring for a sick child or surviving a disaster. Neither is the source of the pain.",
     "A couple who quarrel loudly, apologize honestly and change something afterwards, so the same fight does not repeat.",
-    "Ordinary attachment to someone you love who has hurt you once, and who has since taken full responsibility.",
+    "Ordinary attachment to someone you love who hurt you once and has since taken full responsibility.",
     "The strong loyalty of family members who have been through difficult years together, with no one inflicting the harm.",
     "A person's long-standing attachment style, which may make partings painful without anyone causing the pain."
    ],
@@ -2259,12 +2259,12 @@
     "\"If I didn't love you this much, I wouldn't get this upset.\"",
     "A friend asking why you stay, and your sense that they could not understand the part after the fight."
    ],
-   "why": "Relief and harm come from the same person, so your strongest feeling of closeness can arrive just after the worst treatment, and then becomes a reason to stay. Knowing this can help you tell the strength of a feeling from the safety of a relationship."
+   "why": "Relief and harm come from the same person. So your strongest feeling of closeness can arrive just after the worst treatment, and then become a reason to stay. Knowing this can help you tell the strength of a feeling from the safety of a relationship."
   },
   {
    "name": "Relief Bait",
    "cat": "Attachment & Affection Control",
-   "what": "A burst of kindness placed right after hurtful treatment, so that relief takes the place of an honest reckoning with what happened.",
+   "what": "A burst of kindness placed right after hurtful treatment, so that relief replaces an honest look at what happened.",
    "looks": [
     "Cruelty followed within hours by uncharacteristic sweetness, gifts, or tenderness — then the cycle repeats.",
     "The 'good moments' cluster suspiciously right after the bad ones."
@@ -2272,7 +2272,7 @@
    "nots": [
     "A sincere apology that names what was done, explains what will change, and comes with a gift or a kind act as an addition.",
     "A couple who often comfort each other after tension and do so with open acknowledgment of what was said.",
-    "A person who is warm by nature and offers kindness as a gesture of care at many different times, not only after hurting you.",
+    "A person who is warm by nature and shows kindness as care at many different times, including times when they have not hurt you.",
     "A move to lighten the mood after a minor disagreement that both of you consider settled.",
     "Reaching out after an argument because they cannot bear the distance, followed by a talk the next day."
    ],
@@ -2285,12 +2285,12 @@
     "A gentle back rub, a joke, and \"See? We're fine.\"",
     "A sweet message at 9 p.m. after a harsh one at noon, with no reference to it."
    ],
-   "why": "Each round of kindness resets what you will put up with, so the level of treatment you accept can drop without you noticing it move. You also lose the chance to have the original harm discussed."
+   "why": "Each round of kindness resets what you will put up with. The level of treatment you accept can drop without you noticing it move. You also lose the chance to have the original harm discussed."
   },
   {
    "name": "Dr. Jekyll/Mr. Hyde",
    "cat": "Attack & Erosion",
-   "what": "Showing one warm, admired face to the world and another harsh one to a particular person, which leaves nobody else seeing the treatment that person receives.",
+   "what": "Showing one warm, admired face to the world and another harsh one to a particular person. Nobody else sees how that person is treated.",
    "looks": [
     "Message history swings between two unrecognizably different voices.",
     "Witnesses see only the charming version; the target has screenshots of the other."
@@ -2313,18 +2313,18 @@
     "Warm texts to your family, curt and critical ones to you.",
     "Affectionate posts and public compliments that rise on the days the private mood is worst."
    ],
-   "why": "You have no witnesses. The version other people know makes your account of the other version sound implausible, including to yourself, and anyone you might turn to has only seen the public one."
+   "why": "You have no witnesses. The version other people know makes your account of the other version sound unlikely, even to yourself. Anyone you might turn to has only seen the public one."
   },
   {
    "name": "Ambient Abuse",
    "cat": "Attack & Erosion",
-   "what": "A steady climate of tension, criticism and unpredictability in which no single moment looks serious but the whole leaves a person worn down.",
+   "what": "A steady climate of tension, criticism and unpredictability. No single moment looks serious, but the whole leaves a person worn down.",
    "looks": [
     "No individual line is extreme, yet reading the whole thread feels like walking on eggshells.",
     "Constant low-grade correction, sighing disapproval, and conditional moods."
    ],
    "nots": [
-    "A season of money worry, illness or a new baby, when everyone in the house is snappy and the tension eases as things settle.",
+    "A season of money worry, illness or a new baby, when everyone in the house is snappy. The tension eases as things settle.",
     "A family or workplace culture of blunt speech, where criticism is frequent but applied the same to everyone and not held over anyone.",
     "A person's own anxiety making a mostly calm home feel tense, which a counselor might help sort out without blaming anyone.",
     "An argument that was loud but ended, was talked about afterward, and did not leave days of dread.",
@@ -2344,13 +2344,13 @@
   {
    "name": "Ghosting-Orbiting Cycle",
    "cat": "Digital",
-   "what": "Going silent in direct messages while still viewing, liking or reacting to someone's posts, so they are neither in contact nor free of it.",
+   "what": "Going silent in direct messages while still viewing, liking or reacting to someone's posts. The other person is neither in contact nor free of it.",
    "looks": [
     "No replies for weeks, but every story viewed within minutes.",
     "Reappearing with a small reaction whenever the target seems to be moving on."
    ],
    "nots": [
-    "Passive scrolling by someone who simply drifted away and never got round to unfollowing, with no pattern of returns.",
+    "Passive scrolling by someone who simply drifted away and never got round to unfollowing. There is no pattern of returns.",
     "A person who said they needed space, even clumsily, and still glances at public posts.",
     "Slow or absent replies from someone who is ill, grieving or overwhelmed and has no energy to write.",
     "An app that puts familiar names at the top of lists, so a view is the algorithm and not a choice.",
@@ -2370,7 +2370,7 @@
   {
    "name": "Sealioning",
    "cat": "Accountability Evasion",
-   "what": "Pressing someone, again and again and in a polite tone, to produce evidence or explanation, in a way that wears them out without moving toward understanding.",
+   "what": "Pressing someone again and again, in a polite tone, to produce evidence or explanation. It wears them out and does not move toward understanding.",
    "looks": [
     "Every point is met with 'source?' or 'prove it' rather than engagement with the substance.",
     "The questions never stop, no matter how much evidence is provided."
@@ -2399,7 +2399,7 @@
   {
    "name": "Idealize-Devalue-Discard Cycle",
    "cat": "Attachment & Affection Control",
-   "what": "A three-stage arc in which someone is first placed on a pedestal, then steadily criticized and diminished, and finally dropped.",
+   "what": "A three-stage arc. Someone is first placed on a pedestal, then steadily criticized and put down, and finally dropped.",
    "looks": [
     "An opening period of intense, almost scripted-feeling admiration, followed by a slow reversal into criticism and eventual discard.",
     "If there's a 'replacement,' they may describe an eerily similar opening phase."
@@ -2420,7 +2420,7 @@
     "\"I don't know who you are anymore.\"",
     "A final message or a block, with \"I gave you everything\" and no way to reply."
    ],
-   "why": "You measure the ending against the extraordinary beginning and conclude you must have caused the decline, which is also the conclusion that keeps you trying to earn the beginning back. It can be hard to grieve a relationship that changed shape so completely."
+   "why": "You measure the ending against the extraordinary beginning and conclude you must have caused the decline. That same conclusion keeps you trying to earn the beginning back. It can be hard to grieve a relationship that changed shape so completely."
   },
   {
    "name": "Extinction Bursts",
@@ -2434,7 +2434,7 @@
     "Hurt or panic after a surprising boundary. Most people react badly to a change in a long-standing arrangement and then settle.",
     "A person who is upset, says so once, and then adjusts over the next few weeks.",
     "Honest persistence about something urgent, such as a bill that really is due, which is not tied to your having said no.",
-    "Grief or fear in someone who is already struggling, where the intensity comes from their situation and not from the old method failing.",
+    "Grief or fear in someone who is already struggling. The intensity comes from their situation and not from the old method failing.",
     "Your own wish to find a pattern in a rough week. A bad few days after a hard talk is not yet a shape."
    ],
    "tag": "pattern",
@@ -2447,7 +2447,7 @@
     "A family group chat that fills with messages about you a day after you declined the usual favor.",
     "A coworker who used to ask once and now copies your manager after you said you could not take the extra shift."
    ],
-   "why": "The first boundary that actually works is the one that costs the most. It can teach you that holding a limit makes things worse, so giving in starts to feel like the only way to get peace again."
+   "why": "The first boundary that actually works is the one that costs the most. It can teach you that holding a limit makes things worse. Giving in then starts to feel like the only way to get peace again."
   },
   {
    "name": "Competitive Victimhood",
@@ -2479,7 +2479,7 @@
   {
    "name": "Ambient Sexual Threat",
    "cat": "Attack & Erosion",
-   "what": "A sexually charged or menacing atmosphere around a person, kept alive through repeated small signals, so they stay on guard with nothing definite to report.",
+   "what": "A sexually charged or menacing atmosphere around a person, kept alive by repeated small signals. The person stays on guard with nothing definite to report.",
    "looks": [
     "A pattern of comments, looks described secondhand, or 'jokes' that consistently leave you uneasy, across many separate incidents.",
     "You find yourself managing your schedule or location around this person without being able to say exactly why."
@@ -2487,8 +2487,8 @@
    "nots": [
     "A single clumsy compliment or off-color joke that the person took back as soon as it was pointed out.",
     "A friendly colleague who greets everyone warmly and has no pattern of focusing on you.",
-    "A culture of bawdy humor shared evenly by everyone who takes part, where nobody is uncomfortable and anyone could opt out.",
-    "Your own feeling of unease with someone whose behavior has not changed and who has done nothing you can describe, which is worth taking seriously but does not prove a pattern.",
+    "A culture of bawdy humor shared evenly by everyone who takes part. Nobody is uncomfortable, and anyone could opt out.",
+    "Your own unease with someone whose behavior has not changed and who has done nothing you can describe. That is worth taking seriously, but it does not prove a pattern.",
     "A partner or date whose sexual remarks are welcomed and reciprocal."
    ],
    "tag": "pattern",
@@ -2500,7 +2500,7 @@
     "A look from across the room, held a beat too long, on more days than not.",
     "\"I always know where you are.\" said with a smile."
    ],
-   "why": "You may reorganize your movements, schedule and attention around one person while holding nothing concrete enough to report, or even to explain to a friend."
+   "why": "You may reorganize your movements, schedule and attention around one person. Meanwhile you hold nothing concrete enough to report, or even to explain to a friend."
   },
   {
    "name": "\"Polite Hostile\" Environments",
@@ -17814,16 +17814,16 @@
    "branch": "pattern",
    "category": "Attachment & Affection Control",
    "detectability_note": "This tool cannot detect this from a single line. It only becomes visible as a shape across a whole conversation over time (rhythm, cycles, timing) — repeated context is required. It is never scored and never raises the index on its own.",
-   "core_meaning": "Handing out affection, praise or kindness unpredictably and rarely, so that the few good moments hold a person more tightly than steady warmth would.",
+   "core_meaning": "Giving out affection, praise or kindness rarely and at unpredictable times. The few good moments then hold a person tighter than steady warmth would.",
    "aftermath_state": false,
    "forensic_only": false,
    "absorbs": [],
-   "short_definition": "Handing out affection, praise or kindness unpredictably and rarely, so that the few good moments hold a person more tightly than steady warmth would.",
-   "expanded_definition": "The name comes from learning research on reward schedules, where rewards that arrive on an unpredictable timetable tend to produce persistent effort. In a relationship, it describes long stretches of criticism, indifference or flat routine broken by occasional real warmth or praise. Every relationship has good and bad days, so the pattern is judged by ratio and timing: how rare the good moments are, how much you do to earn them, and how hard they are to predict.",
-   "plain_language_summary": "Kindness shows up only now and then, with no way of knowing when, so you keep working for the next bit and it becomes hard to leave.",
-   "why_this_matters": "Effort goes up while the returns go down. The rarity of the good moments is what makes them feel worth waiting for, so the loop can feed itself, and you may end up measuring the whole relationship by its best hour.",
+   "short_definition": "Giving out affection, praise or kindness rarely and at unpredictable times. The few good moments then hold a person tighter than steady warmth would.",
+   "expanded_definition": "The name comes from learning research on reward schedules. Rewards that arrive at unpredictable times often produce steady effort. In a relationship, it means long stretches of criticism, indifference or flat routine, broken by occasional real warmth or praise. Every relationship has good and bad days. So the pattern is judged by ratio and timing: how rare the good moments are, how much you do to earn them, and how hard they are to predict.",
+   "plain_language_summary": "Kindness shows up only now and then, and you never know when. So you keep working for the next bit, and it becomes hard to leave.",
+   "why_this_matters": "Effort goes up while the returns go down. The rarity of the good moments is what makes them seem worth waiting for. So the loop can feed itself, and you may end up judging the whole relationship by its best hour.",
    "what_it_is": [
-    "A relationship where approval or tenderness arrives on no schedule you can learn, while criticism or neglect fills the gaps.",
+    "A relationship where approval or tenderness comes on no schedule you can learn. Criticism or neglect fills the gaps.",
     "Rewards that are real but small in number, such as a compliment, a surprise visit, or a night when they are fully attentive.",
     "A rising effort on your side: more chores, more patience, more worry about getting it right.",
     "A pattern that can occur at home, at work, in friendships, and in families."
@@ -17845,7 +17845,7 @@
    ],
    "this_may_be_it_when": [
     "You cannot guess which of your actions earns the good moment, or whether any of them do.",
-    "The warm episodes are far outnumbered by cold or critical ones, and you still describe the relationship by the warm ones.",
+    "Warm episodes are far outnumbered by cold or critical ones, yet you still describe the relationship by the warm ones.",
     "You find yourself doing more and more, for rewards that stay the same size or shrink.",
     "Praise tends to come when you are on the edge of leaving, going quiet, or giving up.",
     "You feel a rush of relief and gratitude at small kindnesses that would barely register elsewhere."
@@ -17860,7 +17860,7 @@
    "innocent_or_ordinary_possibilities": [
     "Some people simply express warmth rarely and unevenly, and feel more than they show.",
     "Stress or low mood can flatten someone's expression of care for a season.",
-    "Workplaces with overloaded managers often hand out praise at random, which feels like a pattern but is only disorganization."
+    "Workplaces with overloaded managers often hand out praise at random. That looks like a pattern but is only disorganization."
    ],
    "common_false_positives": [
     "A friend whose attention is strong when you meet and thin between meetings, which suits both of you.",
@@ -17880,7 +17880,7 @@
     "Your life outside the relationship stays full and steady, with your own friends and goals."
    ],
    "more_concerning_if": [
-    "The long gaps are filled with criticism and comparison, not just neutrality.",
+    "The long gaps are filled with criticism and comparison, rather than neutrality.",
     "Warmth returns reliably when you threaten to leave, then fades once you stay.",
     "You have started to doubt that you deserve more than the occasional good day."
    ],
@@ -17892,20 +17892,20 @@
    ],
    "repair_check": "Look at whether the good treatment spreads out. Real change makes kindness frequent and ordinary, something you can count on a Tuesday. A bigger gesture after your complaint, with the gaps just as long between, is the same schedule at higher volume.",
    "boundary_respect_check": "Tell them what regular warmth would look like for you, and see what the next month holds. Are the good moments still rare and arriving as rewards, or do they turn into a daily baseline you no longer have to earn?",
-   "psychological_mechanism": "Learning research has long found that rewards arriving unpredictably can keep behavior going longer than rewards that come every time. In a relationship, this may mean that uncertainty about when warmth will come keeps attention and effort fixed on the other person. The rare good moments may feel much larger against the background of the gaps, which can make leaving feel like giving up the one thing worth having.",
-   "possible_impact_on_receiver": "People describe a kind of hunger for the next warm moment, replaying old kind words, and pushing their own needs aside to stay in the other person's favor. Some say they feel grateful for crumbs, then ashamed of being grateful. Others describe trouble recognizing steady kindness from other people, because it seems flat beside the highs.",
+   "psychological_mechanism": "Learning research has long found that rewards arriving unpredictably can keep behavior going longer than rewards that come every time. In a relationship, not knowing when warmth will come may keep your attention and effort fixed on the other person. The rare good moments may seem much larger against the gaps. That can make leaving look like giving up the one thing worth having.",
+   "possible_impact_on_receiver": "People describe a kind of hunger for the next warm moment. They replay old kind words and push their own needs aside to stay in the other person's favor. Some say they feel grateful for crumbs, then ashamed of being grateful. Others find it hard to recognize steady kindness from other people, because it seems flat beside the highs.",
    "response_options": {
     "soft_clarification": "Say what helps in plain terms: 'When you tell me what I did well, I feel like I can relax. Could we try noticing the small things as they happen?'",
     "firm_boundary": "Decide what level of regular care you need and say it: 'I won't keep working for rare praise. I need basic kindness as the normal state, not a prize.'",
     "disengagement": "Stop trying to earn the next warm moment. Keep your effort level the same for a month and see what is offered without it.",
-    "support_seeking": "Share the ratio with someone neutral, for example by writing down a month of days marked warm, neutral or cold, and show a counselor or friend the tally.",
-    "workplace_or_professional": "If a manager's praise comes only now and then, ask for regular check-ins with specific criteria, and keep your own record of completed work to measure against."
+    "support_seeking": "Share the ratio with someone neutral. For example, write down a month of days marked warm, neutral or cold, then show the tally to a counselor or friend.",
+    "workplace_or_professional": "If a manager's praise comes only now and then, ask for regular check-ins with specific criteria. Keep your own record of completed work to measure against."
    },
    "boundary_script": "\"I've noticed I only hear good things from you once in a while, and I work very hard for those moments. I need steadier warmth, even on ordinary days. If that isn't something you can offer, I'll need to rethink how much I put in.\"",
    "safety_note": "By itself this is a painful emotional pattern, not a physical danger. Take it more seriously if the gaps are filled with threats or the warm moments come only after a scare. It matters more, too, if you are tied to the person by money, housing or children. Then keep a record of the cycle. Speak to a counselor or advocate who can help you plan your next steps while you still have your own income and contacts.",
    "safety_sensitive": false,
    "misuse_warning": [
-    "Using the term to describe any uneven mood in a partner can make you read ordinary moodiness as a campaign.",
+    "Using the term for any uneven mood in a partner can lead you to read ordinary moodiness as a campaign.",
     "Calling someone's occasional kindness 'just a reward schedule' can dismiss warmth that was real."
    ],
    "related_tactics": [
@@ -17933,14 +17933,14 @@
    "branch": "pattern",
    "category": "Attachment & Affection Control",
    "detectability_note": "This tool cannot detect this from a single line. It only becomes visible as a shape across a whole conversation over time (rhythm, cycles, timing) — repeated context is required. It is never scored and never raises the index on its own.",
-   "core_meaning": "Sending just enough sporadic attention to keep someone hopeful and available, while the contact never turns into real plans or commitment.",
+   "core_meaning": "Sending just enough occasional attention to keep someone hopeful and available, while the contact never turns into real plans or commitment.",
    "aftermath_state": false,
    "forensic_only": false,
    "absorbs": [
     "Benching"
    ],
-   "short_definition": "Sending just enough sporadic attention to keep someone hopeful and available, while the contact never turns into real plans or commitment.",
-   "expanded_definition": "Breadcrumbing is small, low-cost contact that keeps a person interested without moving forward: a like, a 'thinking of you', a message after weeks of silence. Benching is a closely matching word for it, stressing the person kept in reserve while others are pursued. Anyone can be a poor texter, so one slow stretch proves nothing. The pattern is thin bursts that never become a plan and appear just as you drift away.",
+   "short_definition": "Sending just enough occasional attention to keep someone hopeful and available, while the contact never turns into real plans or commitment.",
+   "expanded_definition": "Breadcrumbing is small, low-cost contact that keeps a person interested without moving forward: a like, a 'thinking of you', a message after weeks of silence. Benching is a closely matching word for it. It stresses the person kept in reserve while others are pursued. Anyone can be a poor texter, so one slow stretch proves nothing. The pattern is thin bursts that never become a plan and appear just as you drift away.",
    "plain_language_summary": "Someone sends you tiny scraps of attention now and then, enough to keep you waiting. But it never turns into a date, a plan or a real relationship.",
    "why_this_matters": "You may hold a place open for a relationship that never arrives, on the strength of contact that costs almost nothing to send. Time, other opportunities and your sense of what you are worth can quietly drain away.",
    "what_it_is": [
@@ -17948,7 +17948,7 @@
     "Warm words with no follow-through: 'we should get dinner sometime' that never gets a date.",
     "Bursts of attention that come after long silences, often when you have gone quiet.",
     "An arrangement where you do the work of arranging meetings, and plans fall through or go unanswered.",
-    "A status that is never stated: you are kept available as an option while the other person is free to pursue other things."
+    "A status that is never stated. You are kept available as an option, while the other person is free to pursue other things."
    ],
    "what_it_sounds_like": [
     "\"Hey stranger\" after six weeks of nothing.",
@@ -17983,7 +17983,7 @@
    ],
    "innocent_or_ordinary_possibilities": [
     "Many people are poor at keeping in touch and treat everyone the same way.",
-    "Someone coming out of a bad relationship may be unsure about moving forward but still enjoy your company.",
+    "Someone coming out of a bad relationship may be unsure about moving forward, yet still enjoy your company.",
     "Messaging apps make it easy to tap a reaction without meaning anything beyond 'I saw this'."
    ],
    "common_false_positives": [
@@ -18023,13 +18023,13 @@
     "firm_boundary": "Tell them what you need: 'I'm looking for someone who makes plans. If that's not you right now, I'd rather know.' Then act on the answer you get.",
     "disengagement": "Stop replying to low-effort pings that carry no invitation. Put the energy into people who meet you halfway, and notice who that is.",
     "support_seeking": "Show a friend the thread, or screenshots of the dates and gaps, and ask what they would expect from someone who was truly interested.",
-    "workplace_or_professional": "If a colleague or mentor keeps promising a project, introduction or promotion in passing, ask for a date and put the commitment in writing by email."
+    "workplace_or_professional": "If a colleague or mentor keeps promising a project, introduction or promotion in passing, ask for a date. Then put the commitment in writing by email."
    },
    "boundary_script": "\"I enjoy hearing from you, but a message every few weeks isn't enough for me. If you want to see me, pick a day this week. If you don't, that's okay, and I'd prefer you tell me.\"",
    "safety_note": "Breadcrumbing is not usually a physical-safety concern. It deserves more care if the person controls something you depend on, such as your job, immigration sponsorship or housing. It does too if their attention comes with pressure for secrecy or sexual contact. Then do not rely on their promises; get any commitment written down and talk to someone outside the situation.",
    "safety_sensitive": false,
    "misuse_warning": [
-    "Calling every slow replier a breadcrumber can make you read ordinary busyness as contempt and discourage honest, awkward people.",
+    "Calling every slow replier a breadcrumber can lead you to read ordinary busyness as contempt. It can also discourage honest, awkward people.",
     "Using the word to describe someone who told you plainly they were casual puts a harm on them that they never promised to prevent."
    ],
    "related_tactics": [
@@ -18042,7 +18042,7 @@
     "Premature Exclusivity",
     "Confirmation Bias Exploitation"
    ],
-   "how_to_distinguish_from_related": "Future Faking paints a detailed, specific future to keep you invested; breadcrumbing offers almost no picture at all, only small contact. Hoovering follows a break or an exit and tries to pull you back; breadcrumbing runs while you are still hovering. Next to the intensity of Love Bombing, this is the opposite: very thin attention, never a surge of it.",
+   "how_to_distinguish_from_related": "Future Faking paints a detailed, specific future to keep you invested. Breadcrumbing offers almost no picture at all, only small contact. Hoovering follows a break or an exit and tries to pull you back. Breadcrumbing runs while you are still hovering. Next to the intensity of Love Bombing, it is the opposite: very thin attention, never a surge of it.",
    "detection_notes": "Not matched line-by-line. This requires repeated context or a recognizable sequence across a long enough thread to mean anything — a single message is never sufficient. Never scored.",
    "codex_maturity": "mature",
    "human_review_flags": [
@@ -18060,16 +18060,16 @@
    "branch": "pattern",
    "category": "Attachment & Affection Control",
    "detectability_note": "This tool cannot detect this from a single line. It only becomes visible as a shape across a whole conversation over time (rhythm, cycles, timing) — repeated context is required. It is never scored and never raises the index on its own.",
-   "core_meaning": "A strong attachment that forms through cycles of hurt followed by comfort from the same person, so that fear and closeness become tangled together.",
+   "core_meaning": "A strong attachment that grows through cycles of hurt, then comfort from the same person. Fear and closeness become tangled together.",
    "aftermath_state": false,
    "forensic_only": false,
    "absorbs": [],
-   "short_definition": "A strong attachment that forms through cycles of hurt followed by comfort from the same person, so that fear and closeness become tangled together.",
-   "expanded_definition": "Trauma bonding describes an attachment that grows in a relationship where harm and relief come from the same source. After a frightening or painful episode, the person who caused it is also the one who apologizes, soothes or becomes tender, and that comfort can feel unusually intense. Ordinary couples fight and make up, so a single quarrel is not this. The pattern is a repeating cycle in which the closeness after the pain is taken as proof of how deep the bond is.",
-   "plain_language_summary": "You feel most attached to the person right after they hurt you, because the same person who caused the pain is the one who comforts you.",
-   "why_this_matters": "Relief and harm come from the same person, so your strongest feeling of closeness can arrive just after the worst treatment, and then becomes a reason to stay. Knowing this can help you tell the strength of a feeling from the safety of a relationship.",
+   "short_definition": "A strong attachment that grows through cycles of hurt, then comfort from the same person. Fear and closeness become tangled together.",
+   "expanded_definition": "Trauma bonding is an attachment that grows in a relationship where harm and relief come from the same source. After a frightening or painful episode, the person who caused it is also the one who apologizes, soothes or becomes tender. That comfort can feel unusually intense. Ordinary couples fight and make up, so a single quarrel is not this. The pattern is a repeating cycle, where the closeness after the pain is taken as proof of how deep the bond is.",
+   "plain_language_summary": "You feel most attached to the person right after they hurt you. The same person who caused the pain is the one who comforts you.",
+   "why_this_matters": "Relief and harm come from the same person. So your strongest feeling of closeness can arrive just after the worst treatment, and then become a reason to stay. Knowing this can help you tell the strength of a feeling from the safety of a relationship.",
    "what_it_is": [
-    "A cycle in which a hurtful episode is followed by apology, tenderness, gifts or a heartfelt reunion from the person who caused it.",
+    "A cycle where a hurtful episode is followed by apology, tenderness, gifts or a heartfelt reunion from the person who caused it.",
     "A bond that feels stronger after the worst episodes than it did before them.",
     "A relationship where the comforter and the source of fear are one person, so there is nowhere else to turn for relief.",
     "A shared sense that 'what we go through together proves our love', which makes the harm part of the story of the bond."
@@ -18083,9 +18083,9 @@
     "A friend asking why you stay, and your sense that they could not understand the part after the fight."
    ],
    "what_it_is_not": [
-    "Two people bonded by shared hardship from outside, such as caring for a sick child or surviving a disaster, where neither is the source of the pain.",
+    "Two people bonded by shared hardship from outside, such as caring for a sick child or surviving a disaster. Neither is the source of the pain.",
     "A couple who quarrel loudly, apologize honestly and change something afterwards, so the same fight does not repeat.",
-    "Ordinary attachment to someone you love who has hurt you once, and who has since taken full responsibility.",
+    "Ordinary attachment to someone you love who hurt you once and has since taken full responsibility.",
     "The strong loyalty of family members who have been through difficult years together, with no one inflicting the harm.",
     "A person's long-standing attachment style, which may make partings painful without anyone causing the pain."
    ],
@@ -18098,7 +18098,7 @@
    ],
    "this_may_not_be_it_when": [
     "The hard moments are honestly acknowledged and the behavior changes afterwards.",
-    "Comfort and support come from several people, not only from the one involved in the conflict.",
+    "Comfort and support come from several people besides the one involved in the conflict.",
     "The hurtful incidents were few, real repair followed, and months have passed without a repeat.",
     "Your feelings of closeness are steady and do not spike after conflict.",
     "You feel free to leave a conversation or a room without being afraid of what follows."
@@ -18106,7 +18106,7 @@
    "innocent_or_ordinary_possibilities": [
     "Many people feel unusually close after an emotional reconciliation, even in healthy relationships, because strong feelings are being shared.",
     "Grief and shared loss can bring people together in a way that feels intense and is not harmful.",
-    "Staying through a hard stretch can come from loyalty, love and practical limits such as money or children, not only from a bond to the harm."
+    "Staying through a hard stretch can come from loyalty, love and practical limits such as money or children. It does not have to come from a bond to the harm."
    ],
    "common_false_positives": [
     "A couple in counseling who feel raw and close after an honest session about a real problem.",
@@ -18136,22 +18136,22 @@
     "You have left or tried to leave more than once and returned during a warm period.",
     "Your idea of what counts as a normal bad day has shifted over time."
    ],
-   "repair_check": "Real change here is dull and visible: the harmful episodes stop altogether, and closeness no longer depends on a crisis first. Intense reconciliation scenes that follow each new incident, with the underlying behavior unchanged, are the cycle itself and not the end of it.",
-   "boundary_respect_check": "Consider what the apology is asked to do. When you say you need the harmful behavior to stop, is the answer a different way of acting, or another emotional reunion that leaves you grateful and quiet? The second keeps the loop closed.",
-   "psychological_mechanism": "Fear and distress can heighten the need for comfort, and if comfort is available from only one person, attachment to them may deepen. Relief after a threat can feel especially strong and can be mistaken for love. Cut off from other sources of support, a person may find it harder to see the cycle, and the strength of the feeling may seem to prove the relationship is right.",
-   "possible_impact_on_receiver": "Reported experiences include being torn between dread and longing, being unable to explain to others why you stay, and shame about missing the person who hurt you. Some say they felt addicted to the reconciliation. Many describe a long period after leaving when the pull stayed strong, which surprised them and which they took, wrongly, as a sign that leaving was a mistake.",
+   "repair_check": "Real change here is dull and visible. The harmful episodes stop altogether, and closeness no longer depends on a crisis first. Intense reconciliation scenes after each new incident, with the behavior underneath unchanged, are the cycle itself and not the end of it.",
+   "boundary_respect_check": "Consider what the apology is asked to do. When you say you need the harmful behavior to stop, is the answer a different way of acting? Or is it another emotional reunion that leaves you grateful and quiet? The second keeps the loop closed.",
+   "psychological_mechanism": "Fear and distress can heighten the need for comfort. If comfort is available from only one person, attachment to them may deepen. Relief after a threat can feel especially strong and can be mistaken for love. Cut off from other support, a person may find it harder to see the cycle. The strength of the feeling may even seem to prove the relationship is right.",
+   "possible_impact_on_receiver": "Reported experiences include being torn between dread and longing, being unable to explain to others why you stay, and shame about missing the person who hurt you. Some say they felt addicted to the reconciliation. Many describe a long period after leaving when the pull stayed strong. This surprised them, and they took it, wrongly, as a sign that leaving was a mistake.",
    "response_options": {
     "soft_clarification": "If it is safe to speak, name the cycle in one sentence: 'I notice we are closest right after we have hurt each other. I want closeness without the hurt first.'",
-    "firm_boundary": "Decide privately, with an advocate and not with the other person, what you would do if it happened again. Announcing a deadline or a consequence to someone who may react badly can raise the risk, so keep that plan to yourself and the people helping you.",
+    "firm_boundary": "Decide privately, with an advocate and not with the other person, what you would do if it happened again. Announcing a deadline or a consequence to someone who may react badly can raise the risk. Keep that plan to yourself and the people helping you.",
     "disengagement": "Plan any exit with care: gather documents, pick a safe place to go, and tell someone beforehand. Expect the pull to be strongest in the first weeks.",
-    "support_seeking": "Talk on your own, not as a couple, to a counselor or advocate trained in relationship harm, and keep up contact with at least one person outside the relationship who knows the whole story.",
-    "workplace_or_professional": "If a boss, teacher or mentor alternates harsh treatment with warmth and you feel tied to them, speak to HR, an ombudsperson (an independent complaints officer) or a mentor elsewhere before the next cycle."
+    "support_seeking": "Talk on your own, not as a couple, to a counselor or advocate trained in relationship harm. Also keep up contact with at least one person outside the relationship who knows the whole story.",
+    "workplace_or_professional": "If a boss, teacher or mentor alternates harsh treatment with warmth and you feel tied to them, speak to HR, an ombudsperson (an independent complaints officer) or a mentor elsewhere. Do this before the next cycle."
    },
    "boundary_script": "\"I know you're sorry, and I can tell how much you mean it right now. What I need is for the apology to be followed by something different. Can we pause here for tonight? I'd like some quiet time to think about how these cycles go.\"",
-   "safety_note": "This pattern can accompany physical violence, threats, stalking, and control over money or contact, and the days around leaving are often the riskiest. Watch for escalation, strangulation, threats to kill or to harm children or pets, and weapons. Ask a domestic violence advocate to help you build a leaving plan, including where your documents, a spare phone and a go-bag will be kept.",
+   "safety_note": "This pattern can come with physical violence, threats, stalking, and control over money or contact. The days around leaving are often the riskiest. Watch for escalation, strangulation, threats to kill or to harm children or pets, and weapons. Ask a domestic violence advocate to help you build a leaving plan, including where your documents, a spare phone and a go-bag will be kept.",
    "safety_sensitive": true,
    "misuse_warning": [
-    "Telling someone in a hard relationship that they are 'just trauma bonded' can dismiss their real love, real reasons and practical constraints, and push them away.",
+    "Telling someone in a hard relationship that they are 'just trauma bonded' can dismiss their real love, real reasons and practical constraints. It can also push them away.",
     "Using the term for any intense make-up after a quarrel mislabels ordinary couple life as something sinister."
    ],
    "related_tactics": [
@@ -18180,14 +18180,14 @@
    "branch": "pattern",
    "category": "Attachment & Affection Control",
    "detectability_note": "This tool cannot detect this from a single line. It only becomes visible as a shape across a whole conversation over time (rhythm, cycles, timing) — repeated context is required. It is never scored and never raises the index on its own.",
-   "core_meaning": "A burst of kindness placed right after hurtful treatment, so that relief takes the place of an honest reckoning with what happened.",
+   "core_meaning": "A burst of kindness placed right after hurtful treatment, so that relief replaces an honest look at what happened.",
    "aftermath_state": false,
    "forensic_only": false,
    "absorbs": [],
-   "short_definition": "A burst of kindness placed right after hurtful treatment, so that relief takes the place of an honest reckoning with what happened.",
-   "expanded_definition": "Relief bait is the sweetness that follows a harsh moment: the gift, the soft voice, the sudden tenderness after contempt or a cold shutdown. Genuine apologies also bring kindness, so the key is what is missing. In this pattern the kindness arrives instead of naming the harm, the harm repeats, and the relief makes the next episode a little easier to absorb. One kind gesture after a quarrel proves nothing; the repeating order of hurt, then sweetness, then hurt does.",
-   "plain_language_summary": "Something hurtful happens, and soon afterward comes unusual kindness that never talks about what happened, so you feel relieved and let it go.",
-   "why_this_matters": "Each round of kindness resets what you will put up with, so the level of treatment you accept can drop without you noticing it move. You also lose the chance to have the original harm discussed.",
+   "short_definition": "A burst of kindness placed right after hurtful treatment, so that relief replaces an honest look at what happened.",
+   "expanded_definition": "Relief bait is the sweetness that follows a harsh moment: the gift, the soft voice, the sudden tenderness after contempt or a cold shutdown. Genuine apologies also bring kindness, so the key is what is missing. In this pattern the kindness arrives instead of naming the harm. The harm repeats, and the relief makes the next episode a little easier to absorb. One kind gesture after a quarrel proves nothing. The repeating order of hurt, then sweetness, then hurt does.",
+   "plain_language_summary": "Something hurtful happens. Soon afterward comes unusual kindness that never talks about what happened, so you feel relieved and let it go.",
+   "why_this_matters": "Each round of kindness resets what you will put up with. The level of treatment you accept can drop without you noticing it move. You also lose the chance to have the original harm discussed.",
    "what_it_is": [
     "Warmth, gifts or affection that arrive within hours or a day of a hurtful act, without any acknowledgment of it.",
     "Kindness that is out of step with the way the person usually treats you, so it feels like sudden mercy.",
@@ -18205,7 +18205,7 @@
    "what_it_is_not": [
     "A sincere apology that names what was done, explains what will change, and comes with a gift or a kind act as an addition.",
     "A couple who often comfort each other after tension and do so with open acknowledgment of what was said.",
-    "A person who is warm by nature and offers kindness as a gesture of care at many different times, not only after hurting you.",
+    "A person who is warm by nature and shows kindness as care at many different times, including times when they have not hurt you.",
     "A move to lighten the mood after a minor disagreement that both of you consider settled.",
     "Reaching out after an argument because they cannot bear the distance, followed by a talk the next day."
    ],
@@ -18256,23 +18256,23 @@
     "Gifts and gestures pile up while the issues behind them stay unresolved.",
     "You find it hard to remember what the original fight was about, only how good the making-up felt."
    ],
-   "repair_check": "The kindness itself tells you little, and what it is attached to tells you more. When there is change, the incident is named, in words, by them, and the behavior stops. Where only the flowers, the dinner or the soft tone appear and the hurtful act gets repeated, the gift has stood in for the repair.",
+   "repair_check": "The kindness itself tells you little. What it is attached to tells you more. When there is change, the incident is named, in words, by them, and the behavior stops. Where only the flowers, the dinner or the soft tone appear and the hurtful act is repeated, the gift has stood in for the repair.",
    "boundary_respect_check": "After you ask them to talk about the hurtful moment before any treat or gesture, what happens? Do they sit with the topic, or does the warmth become more insistent, turning your request into the thing that spoils a nice day?",
-   "psychological_mechanism": "Relief after distress can feel stronger than steady comfort would, and a person may link the relief to whoever provides it. When kindness comes straight after the harm, it can blur the sense that the two events belong together, and it can make raising the harm feel mean. Repeated rounds tend to raise what feels tolerable, because the bad moments are always followed by good ones.",
-   "possible_impact_on_receiver": "Common accounts include guilt about staying upset when the other person is being so nice, losing track of how often it has happened, and not knowing whether to trust the gifts. Some say they began to flinch at kindness, waiting for what it covered. Others could not explain to friends what was wrong, since each good moment looked so generous from outside.",
+   "psychological_mechanism": "Relief after distress can feel stronger than steady comfort would, and a person may link the relief to whoever provides it. Kindness that comes straight after the harm can blur the sense that the two events belong together. It can also make raising the harm feel mean. Repeated rounds tend to raise what feels tolerable, because the bad moments are always followed by good ones.",
+   "possible_impact_on_receiver": "Common accounts include guilt about staying upset when the other person is being so nice, losing track of how often it has happened, and not knowing whether to trust the gifts. Some say they began to flinch at kindness, waiting for what it covered. Others could not explain to friends what was wrong, because each good moment looked so generous from outside.",
    "response_options": {
     "soft_clarification": "Thank them for the gesture and name the missing step: 'That was kind. I'd still like to talk about what you said on Monday before we move on.'",
     "firm_boundary": "Put the order in plain terms: 'Please don't answer a hurtful moment with a gift. I'd rather you tell me what you did, and we go from there.'",
     "disengagement": "Take the gift or gesture if you want it, but keep the conversation about the incident marked as unfinished. Make a private note of what was said, and talk it over with a counselor or friend before the next conversation.",
     "support_seeking": "Write down the last three incidents and what followed each one. Show the list to a counselor or trusted friend and ask whether the order looks as odd to them as it does to you.",
-    "workplace_or_professional": "If a manager follows harsh criticism with praise or perks, ask for the criticism in writing with specifics, and keep your own record of both."
+    "workplace_or_professional": "If a manager follows harsh criticism with praise or perks, ask for the criticism in writing with specifics. Keep your own record of both."
    },
    "boundary_script": "\"I appreciate the dinner. But it doesn't fix what you said to me earlier, and I don't want the nice evening to be where that gets dropped. Can we talk about it first? Then I'll enjoy the dinner.\"",
-   "safety_note": "Kindness that regularly follows intimidation, shoving, destroyed property or threats can be part of a controlling cycle in which things get worse over time. Watch for fear of their moods, harm that is getting more frequent, and apologies that come with pressure not to tell anyone. A domestic violence advocate can help you judge the risk and plan around it, starting with a written list of the incidents and their dates.",
+   "safety_note": "Kindness that regularly follows intimidation, shoving, destroyed property or threats can be part of a controlling cycle in which things get worse over time. Watch for fear of their moods, harm that is getting more frequent, and apologies that come with pressure not to tell anyone. A domestic violence advocate can help you judge the risk and plan around it. A good start is a written list of the incidents and their dates.",
    "safety_sensitive": true,
    "misuse_warning": [
-    "Treating every apology gift as bait can leave you unable to accept sincere repair, and punishes people who say sorry with actions.",
-    "Telling a partner that their kindness is 'just relief bait' during a fight hands them no way to be forgiven, and can end a conversation that might have worked."
+    "Treating every apology gift as bait can leave you unable to accept sincere repair. It also punishes people who say sorry with actions.",
+    "Telling a partner that their kindness is 'just relief bait' during a fight gives them no way to be forgiven. It can end a conversation that might have worked."
    ],
    "related_tactics": [
     "Love Bombing",
@@ -18282,7 +18282,7 @@
     "Future Faking",
     "Negging"
    ],
-   "how_to_distinguish_from_related": "Apology Without Repair says sorry in words and changes nothing; relief bait often skips words and uses warmth. Intermittent Reinforcement is about rare, unpredictable rewards, whereas here the reward comes at a predictable moment, just after hurt. Trauma Bonding is the attachment that may grow over many cycles; relief bait is one move inside the cycle. Hoovering pulls you back after you have left, while this happens inside the relationship.",
+   "how_to_distinguish_from_related": "Apology Without Repair says sorry in words and changes nothing. Relief bait often skips words and uses warmth. Intermittent Reinforcement is about rare, unpredictable rewards. Here the reward comes at a predictable moment, just after hurt. Trauma Bonding is the attachment that may grow over many cycles. Relief bait is one move inside the cycle. Hoovering pulls you back after you have left, while this happens inside the relationship.",
    "detection_notes": "Not matched line-by-line. This requires repeated context or a recognizable sequence across a long enough thread to mean anything — a single message is never sufficient. Never scored.",
    "codex_maturity": "mature",
    "human_review_flags": [
@@ -18300,22 +18300,22 @@
    "branch": "pattern",
    "category": "Attack & Erosion",
    "detectability_note": "This tool cannot detect this from a single line. It only becomes visible as a shape across a whole conversation over time (rhythm, cycles, timing) — repeated context is required. It is never scored and never raises the index on its own.",
-   "core_meaning": "Showing one warm, admired face to the world and another harsh one to a particular person, which leaves nobody else seeing the treatment that person receives.",
+   "core_meaning": "Showing one warm, admired face to the world and another harsh one to a particular person. Nobody else sees how that person is treated.",
    "aftermath_state": false,
    "forensic_only": false,
    "absorbs": [
     "Performative Public Affection"
    ],
-   "short_definition": "Showing one warm, admired face to the world and another harsh one to a particular person, which leaves nobody else seeing the treatment that person receives.",
-   "expanded_definition": "The name comes from a well-known story about one man with two opposite selves. In everyday life it describes a split between behavior in front of others and behavior alone with one person. When the public side is mostly warmth on show, it gets called performative public affection. Everyone is a little different in public and private, so that alone means little. It deserves a closer look when the private side is harsh, the public side is admired, and the gap leaves the receiving person with no one who would believe them. The pattern does not show what anyone meant by it.",
+   "short_definition": "Showing one warm, admired face to the world and another harsh one to a particular person. Nobody else sees how that person is treated.",
+   "expanded_definition": "The name comes from a well-known story about one man with two opposite selves. In everyday life it describes a split between how someone acts in front of others and how they act alone with one person. When the public side is mostly warmth on show, it gets called performative public affection. Everyone is a little different in public and private, so that alone means little. It deserves a closer look when the private side is harsh and the public side is admired. The gap then leaves the receiving person with no one who would believe them. The pattern does not show what anyone meant by it.",
    "plain_language_summary": "Everyone outside the home sees a kind, attentive person. Alone with you, they are cold, controlling or cruel. Because no one else sees it, you wonder who will believe you.",
-   "why_this_matters": "You have no witnesses. The version other people know makes your account of the other version sound implausible, including to yourself, and anyone you might turn to has only seen the public one.",
+   "why_this_matters": "You have no witnesses. The version other people know makes your account of the other version sound unlikely, even to yourself. Anyone you might turn to has only seen the public one.",
    "what_it_is": [
     "A sharp gap between conduct in front of others and conduct in private, aimed at one person or a small circle.",
-    "Affection or attentiveness that rises when an audience is present, and is described by others as helpful, funny, generous, reliable.",
+    "Affection or attentiveness that rises when an audience is present. Others describe the person as helpful, funny, generous, reliable.",
     "Harder to name when good phases between the harsh ones feel like proof that the harsh phases were a mistake.",
     "Seen in couples, parents and children, bosses and employees, and religious or community leaders.",
-    "An effect created by the gap itself: the more admired the public side, the less likely the private side is to be believed."
+    "An effect created by the gap itself. The more admired the public side, the less likely the private side is to be believed."
    ],
    "what_it_sounds_like": [
     "A friend says, \"But he's so lovely whenever I see him. Are you sure?\"",
@@ -18382,23 +18382,23 @@
     "Your sense of which version is real keeps flipping with the weather in the house.",
     "You have started to keep your own record of events because nobody else holds one."
    ],
-   "repair_check": "Change would look like the harsh side no longer needing a hiding place: they treat you the same when unobserved, do not object when you speak to others about what happened, and stop asking you to keep the private version private. A kinder week with the public face intact shows only a pleasant phase.",
+   "repair_check": "Change would look like the harsh side no longer needing a hiding place. They treat you the same when unobserved, do not object when you speak to others about what happened, and stop asking you to keep the private version private. A kinder week with the public face intact shows only a pleasant phase.",
    "boundary_respect_check": "Notice whether your request is honored when nobody is watching. A boundary kept only in front of guests and dropped at home tells you what it is worth. Compare early weeks with later ones: do the private behaviors continue, even once the public manner has softened?",
-   "psychological_mechanism": "When most people see only the pleasant version, a person on the receiving end can start weighing their own account against everyone else's, and tends to lose. Good phases may feed hope that the harsh phases were not real, while the private ones leave no proof. Doubt about what happened, and about who would listen, can keep a person quiet.",
+   "psychological_mechanism": "When most people see only the pleasant version, a person on the receiving end can start weighing their own account against everyone else's, and tends to lose. Good phases may feed hope that the harsh phases were not real. The private ones leave no proof. Doubt about what happened, and about who would listen, can keep a person quiet.",
    "possible_impact_on_receiver": "People describe isolation that feels odd because they are surrounded by people who admire the other person. Some report rehearsing their account for years without telling it, and feeling an odd guilt for describing someone others like. Others say they came to dread praise of the person, and found it hardest to be congratulated for having such a partner.",
    "response_options": {
     "soft_clarification": "Say what you notice without arguing about character: 'You were gentle with my sister today, and this morning you spoke to me very differently. I'd like to understand that.'",
     "firm_boundary": "Ask for a short break rather than a verdict on the person: 'Could we take twenty minutes and try again when it is calmer?'",
-    "disengagement": "Stop trying to prove the private side to people who like the public one, and keep your own dated notes where the other person cannot read them.",
-    "support_seeking": "Tell one person who can listen without trying to fix or defend, such as a counselor, a domestic abuse advocate, or a friend outside the shared circle.",
-    "workplace_or_professional": "At work, write down dates, words and witnesses, and bring the record to HR or an ombudsperson (an independent complaints officer), since a charming manner in meetings will not show up on its own."
+    "disengagement": "Stop trying to prove the private side to people who like the public one. Keep your own dated notes where the other person cannot read them.",
+    "support_seeking": "Tell one person who can listen without trying to fix or defend. That could be a counselor, a domestic abuse advocate, or a friend outside the shared circle.",
+    "workplace_or_professional": "At work, write down dates, words and witnesses. Bring the record to HR or an ombudsperson (an independent complaints officer), since a charming manner in meetings will not show up on its own."
    },
    "boundary_script": "\"I'd like us to speak to each other at home the way we do in front of other people. I'm not asking you to agree about the past, only about how we talk from here.\"",
-   "safety_note": "A split like this can sit alongside controlling behavior, threats, or physical harm that stays hidden from outsiders. Warning signs are fear of what happens after guests go home, being told you would not be believed, or having your phone, money or contacts checked. Tell a domestic abuse advocate first, and keep your records somewhere private and out of the home.",
+   "safety_note": "A split like this can sit alongside controlling behavior, threats, or physical harm that stays hidden from outsiders. Warning signs are fear of what happens after guests go home, being told you would not be believed, or having your phone, money or contacts checked. Tell a domestic abuse advocate first. Keep your records somewhere private and out of the home.",
    "safety_sensitive": true,
    "misuse_warning": [
-    "Calling a person a Jekyll and Hyde because they were short with you after a hard day makes ordinary mood shifts into a case against their character. The label needs a sustained gap, not a bad evening.",
-    "Using it to tell friends that a well-liked person is secretly cruel, on the basis of your side alone, can spread a verdict that the evidence cannot yet support."
+    "Calling a person a Jekyll and Hyde because they were short with you after a hard day turns ordinary mood shifts into a case against their character. The label needs a sustained gap, not a bad evening.",
+    "Using it to tell friends that a well-liked person is secretly cruel, based on your side alone, can spread a verdict the evidence cannot yet support."
    ],
    "related_tactics": [
     "Contempt",
@@ -18429,18 +18429,18 @@
    "branch": "pattern",
    "category": "Attack & Erosion",
    "detectability_note": "This tool cannot detect this from a single line. It only becomes visible as a shape across a whole conversation over time (rhythm, cycles, timing) — repeated context is required. It is never scored and never raises the index on its own.",
-   "core_meaning": "A steady climate of tension, criticism and unpredictability in which no single moment looks serious but the whole leaves a person worn down.",
+   "core_meaning": "A steady climate of tension, criticism and unpredictability. No single moment looks serious, but the whole leaves a person worn down.",
    "aftermath_state": false,
    "forensic_only": false,
    "absorbs": [],
-   "short_definition": "A steady climate of tension, criticism and unpredictability in which no single moment looks serious but the whole leaves a person worn down.",
-   "expanded_definition": "Instead of a few clear incidents, this is a background mood that a person lives inside: sighs, corrections, changeable tempers, and a sense that something will go wrong soon. Taken one at a time, each moment can be explained away. What marks it is the total effect, the constant bracing, and the way the mood seems to follow one person's moods or approval. Ordinary stressful periods can look similar for a while.",
-   "plain_language_summary": "There is no big fight to point to. It is the sighs, the sharp tone, the sense of having to guess the mood, until you are tired all the time and cannot say why.",
+   "short_definition": "A steady climate of tension, criticism and unpredictability. No single moment looks serious, but the whole leaves a person worn down.",
+   "expanded_definition": "Instead of a few clear incidents, this is a background mood that a person lives inside: sighs, corrections, changeable tempers, and a sense that something will go wrong soon. Taken one at a time, each moment can be explained away. What marks it is the total effect and the constant bracing. The mood also seems to follow one person's moods or approval. Ordinary stressful periods can look similar for a while.",
+   "plain_language_summary": "There is no big fight to point to. It is the sighs, the sharp tone, and the need to guess the mood. You end up tired all the time and cannot say why.",
    "why_this_matters": "There is nothing to quote, so you cannot explain the exhaustion to anyone, yourself included. You stay braced without being able to say what for.",
    "what_it_is": [
     "A climate rather than an event: the effect builds from many small moments, not one that stands out.",
     "Usually built from low-level criticism, shifting moods, silence, sighing, and rules that seem to change without notice.",
-    "Often leaves the person monitoring another person's face, footsteps and tone as a way to predict the evening.",
+    "It often leaves a person watching another person's face, footsteps and tone to predict the evening.",
     "Hard to describe to outsiders because each example, told alone, sounds trivial."
    ],
    "what_it_sounds_like": [
@@ -18452,7 +18452,7 @@
     "Compliments that arrive only on the days when nothing went wrong."
    ],
    "what_it_is_not": [
-    "A season of money worry, illness or a new baby, when everyone in the house is snappy and the tension eases as things settle.",
+    "A season of money worry, illness or a new baby, when everyone in the house is snappy. The tension eases as things settle.",
     "A family or workplace culture of blunt speech, where criticism is frequent but applied the same to everyone and not held over anyone.",
     "A person's own anxiety making a mostly calm home feel tense, which a counselor might help sort out without blaming anyone.",
     "An argument that was loud but ended, was talked about afterward, and did not leave days of dread.",
@@ -18475,7 +18475,7 @@
    "innocent_or_ordinary_possibilities": [
     "People have off days and show them in sighs and short answers, without meaning to affect anyone.",
     "A shared home during a crisis often has an edgy mood for a while.",
-    "Differences in how loudly people express irritation can make one person's ordinary mood feel like the whole house's weather."
+    "People differ in how loudly they show irritation. That can turn one person's ordinary mood into the whole house's weather."
    ],
    "common_false_positives": [
     "A newborn's first months, when everyone is sleepless and curt.",
@@ -18505,22 +18505,22 @@
     "Your own sense of what counts as normal has shifted, and you have stopped mentioning things that once bothered you.",
     "Physical signs of strain, such as poor sleep, a tight stomach or headaches, track your time with this person."
    ],
-   "repair_check": "Real change would show in the climate itself, not in one good day: fewer sighs and sudden shifts, predictable moods, and the person noticing and naming the weather they create. A big gesture such as flowers or a trip, followed by the same tension within a week, leaves the climate in place.",
+   "repair_check": "Real change would show in the climate itself, not in one good day. Look for fewer sighs and sudden shifts, predictable moods, and the person noticing and naming the weather they create. A big gesture such as flowers or a trip, followed by the same tension within a week, leaves the climate in place.",
    "boundary_respect_check": "Try naming one small, specific thing, such as \"I tense up when you sigh like that\", and watch the following days. Does the sighing ease, or does your remark become one more thing to be tense about?",
-   "psychological_mechanism": "Living with unpredictability tends to keep a person on alert, scanning for signs of the next shift. That constant monitoring is tiring and can crowd out ordinary thinking, and when nothing definite happens there is no event to be angry about or to report. The effect may be stronger where the person depends on the other for housing, income or approval.",
+   "psychological_mechanism": "Living with unpredictability often keeps a person on alert, scanning for signs of the next shift. That constant monitoring is tiring and can crowd out ordinary thinking. When nothing definite happens, there is no event to be angry about or to report. The effect may be stronger where the person depends on the other for housing, income or approval.",
    "possible_impact_on_receiver": "People describe exhaustion they cannot explain, jumpiness around footsteps or a ringing phone, and difficulty trusting a good day to last. Many say they could not give anyone a single example, which left them feeling they were making it up. Some describe a physical relief when the other person is away.",
    "response_options": {
-    "soft_clarification": "Name one small, observable thing at a calm time: \"When there's a long silence after I ask a question, I end up on edge for the rest of the evening.\"",
+    "soft_clarification": "At a calm time, name one small, observable thing: \"When there's a long silence after I ask a question, I end up on edge for the rest of the evening.\"",
     "firm_boundary": "Say what you will no longer guess at: \"I can't keep working out your mood before I speak. If something is wrong, I'd like to hear it in words.\"",
-    "disengagement": "Spend more time in places where the mood does not follow you, and give yourself a short time each day that belongs to no one else's weather.",
-    "support_seeking": "Keep a short written record of how you feel each day for a few weeks, then share it with a counselor or a friend who can tell you whether a pattern shows.",
-    "workplace_or_professional": "If this is at work, keep dated notes of the specific remarks and mood swings, and ask a mentor, HR or an ombudsperson (an independent complaints officer) whether the culture of the team is typical."
+    "disengagement": "Spend more time in places where the mood does not follow you. Give yourself a short time each day that belongs to no one else's weather.",
+    "support_seeking": "Keep a short written record of how you feel each day for a few weeks. Then share it with a counselor or a friend who can tell you whether a pattern shows.",
+    "workplace_or_professional": "If this is at work, keep dated notes of the specific remarks and mood swings. Ask a mentor, HR or an ombudsperson (an independent complaints officer) whether the team's culture is typical."
    },
    "boundary_script": "\"I've noticed I spend my evenings trying to read your mood, and it is wearing me out. Could we agree to say it in words when something is bothering us, even something small?\"",
-   "safety_note": "A tense atmosphere can be the background to controlling behavior, including monitoring, money limits or fear of what a mood might lead to. Watch whether you are afraid of an outburst, change your behavior to prevent one, or feel unsafe saying no. A domestic abuse advocate can help you assess this, and they do not need a dramatic incident to take it seriously.",
+   "safety_note": "A tense atmosphere can be the background to controlling behavior, including monitoring, money limits or fear of what a mood might lead to. Watch whether you are afraid of an outburst, change your behavior to prevent one, or feel unsafe saying no. A domestic abuse advocate can help you assess this. They do not need a dramatic incident to take it seriously.",
    "safety_sensitive": true,
    "misuse_warning": [
-    "Describing every tense home or workplace as abusive can hide real and ordinary stress, and may leave a partner or coworker accused over a mood they do not know they are creating.",
+    "Calling every tense home or workplace abusive can hide real, ordinary stress. It may also leave a partner or coworker accused over a mood they do not know they are creating.",
     "Because nothing specific can be pointed to, the label is easy to apply from your feelings alone. It describes what you live in, and does not tell you what anyone meant."
    ],
    "related_tactics": [
@@ -18549,12 +18549,12 @@
    "branch": "pattern",
    "category": "Digital",
    "detectability_note": "This tool cannot detect this from a single line. It only becomes visible as a shape across a whole conversation over time (rhythm, cycles, timing) — repeated context is required. It is never scored and never raises the index on its own.",
-   "core_meaning": "Going silent in direct messages while still viewing, liking or reacting to someone's posts, so they are neither in contact nor free of it.",
+   "core_meaning": "Going silent in direct messages while still viewing, liking or reacting to someone's posts. The other person is neither in contact nor free of it.",
    "aftermath_state": false,
    "forensic_only": false,
    "absorbs": [],
-   "short_definition": "Going silent in direct messages while still viewing, liking or reacting to someone's posts, so they are neither in contact nor free of it.",
-   "expanded_definition": "Ghosting is going quiet with no explanation. Orbiting is staying in view afterwards: story views, likes, an occasional emoji reaction. It becomes a cycle when contact fades, the small signals keep arriving, and now and then a warm message returns, often just as you seem to be settling. Someone who simply drifted and never unfollowed can look the same from outside. The shape across weeks matters more than any one view, and none of it shows why anyone does it.",
+   "short_definition": "Going silent in direct messages while still viewing, liking or reacting to someone's posts. The other person is neither in contact nor free of it.",
+   "expanded_definition": "Ghosting is going quiet with no explanation. Orbiting is staying in view afterwards: story views, likes, an occasional emoji reaction. It becomes a cycle when contact fades, the small signals keep arriving, and now and then a warm message returns, often just as you seem to be settling. Someone who simply drifted and never unfollowed can look the same from outside. The shape across weeks matters more than any one view. None of it shows why anyone does it.",
    "plain_language_summary": "Someone stops answering your messages but keeps watching your stories and liking posts. You can't tell whether the connection is over.",
    "why_this_matters": "You are neither in contact nor free of it. Attention keeps arriving with no reply attached, and each small sign can revive hope at exactly the point it was beginning to fade.",
    "what_it_is": [
@@ -18573,7 +18573,7 @@
     "A fresh follow request soon after you muted or unfollowed them."
    ],
    "what_it_is_not": [
-    "Passive scrolling by someone who simply drifted away and never got round to unfollowing, with no pattern of returns.",
+    "Passive scrolling by someone who simply drifted away and never got round to unfollowing. There is no pattern of returns.",
     "A person who said they needed space, even clumsily, and still glances at public posts.",
     "Slow or absent replies from someone who is ill, grieving or overwhelmed and has no energy to write.",
     "An app that puts familiar names at the top of lists, so a view is the algorithm and not a choice.",
@@ -18627,22 +18627,22 @@
     "Months later the same sequence plays: silence, views, a warm message, silence.",
     "Your choices about posting, dating or moving are shaped by whether they might be watching."
    ],
-   "repair_check": "Mending would start with a plain account of the silence, in a message that asks nothing of you, and then a clear choice: contact that continues, or a step back that includes not watching. Another warm 'hey' that never mentions the gap is the cycle turning again.",
+   "repair_check": "Mending would start with a plain account of the silence, in a message that asks nothing of you. Then comes a clear choice: contact that continues, or a step back that includes not watching. Another warm 'hey' that never mentions the gap is the cycle turning again.",
    "boundary_respect_check": "After you muted, restricted or unfollowed, what became of the views? Signals that stop with no new route opening mean the limit held. A second account, a mutual friend relaying news or a sudden message means it is being tested.",
    "psychological_mechanism": "Intermittent attention can be hard to leave: each small sign arrives unpredictably, and the next one may always be a message. Hope tends to attach to the unanswered part, and the lack of an ending leaves the mind reopening the question. Seeing the name in the viewer list can keep the connection feeling active.",
-   "possible_impact_on_receiver": "People describe checking the viewer list, rereading old messages for a clue, and feeling pulled back each time a heart appears. Some describe being unable to grieve a connection that was never formally ended, or hesitating to post, date or move on in case it counts as a reply.",
+   "possible_impact_on_receiver": "People describe checking the viewer list, rereading old messages for a clue, and feeling pulled back each time a heart appears. Some cannot grieve a connection that was never formally ended. Some hesitate to post, date or move on in case it counts as a reply.",
    "response_options": {
     "soft_clarification": "If you want a clear answer, ask once in one line: 'Do you want to stay in touch? Either answer is okay.' Treat whatever comes back, or silence, as the answer.",
     "firm_boundary": "Mute or restrict their profile quietly. That stops the viewer list from pulling at your attention, and it needs no announcement.",
     "disengagement": "Stop posting for an audience of one. A close-friends list for stories means you decide who watches, and you can use it without explaining.",
-    "support_seeking": "Tell a friend which signs you keep checking for, and ask them to remind you of the facts when you are tempted to read the silence as a message.",
-    "workplace_or_professional": "If a colleague goes silent on direct messages but reacts to everything in the group channel, ask in the channel or by email for what you need to finish the work, so it does not hang on a private thread."
+    "support_seeking": "Tell a friend which signs you keep checking for. Ask them to remind you of the facts when you are tempted to read the silence as a message.",
+    "workplace_or_professional": "If a colleague goes silent on direct messages but reacts to everything in the group channel, ask in the channel or by email for what you need to finish the work. That way it does not hang on a private thread."
    },
    "boundary_script": "\"We haven't talked in a while, and I'm not looking to argue about it. If you want to stay in touch, a direct message to me is the way to do it.\"",
-   "safety_note": "Silence plus views is usually painful rather than dangerous. It changes if the watching extends to turning up where you are, contacting your family or friends, or messages from new accounts after you block. Anger when you move on is another sign, especially after leaving a controlling relationship. Save dated screenshots somewhere they cannot reach and show them to a stalking or domestic abuse advocate before deciding on a block.",
+   "safety_note": "Silence plus views is usually painful rather than dangerous. It changes if the watching extends to turning up where you are, contacting your family or friends, or messages from new accounts after you block. Anger when you move on is another sign, especially after leaving a controlling relationship. Save dated screenshots somewhere they cannot reach. Show them to a stalking or domestic abuse advocate before deciding on a block.",
    "safety_sensitive": true,
    "misuse_warning": [
-    "A like from someone shy or avoidant is not proof of a campaign, and reading every tap as a tactic can keep you watching the list.",
+    "A like from someone shy or avoidant is not proof of a campaign. Reading every tap as a tactic can keep you watching the list.",
     "Calling someone an 'orbiter' to a shared circle can become a way to shame a person who has simply gone quiet."
    ],
    "related_tactics": [
@@ -18653,7 +18653,7 @@
     "Sock Puppets",
     "Coordinated Reporting"
    ],
-   "how_to_distinguish_from_related": "Stalking-by-Notification turns what it sees into questions and accusations, while orbiting says nothing about what it sees. Doxxing publishes private details to other people, but orbiting stays on your own public posts and reaches only you. The Ghosting-Orbiting Cycle is the one where the contact is gone but the watching, and the occasional warm return, are not.",
+   "how_to_distinguish_from_related": "Stalking-by-Notification turns what it sees into questions and accusations, while orbiting says nothing about what it sees. Doxxing publishes private details to other people, but orbiting stays on your own public posts and reaches only you. With the Ghosting-Orbiting Cycle, the contact is gone but the watching, and the occasional warm return, are not.",
    "detection_notes": "Not matched line-by-line. This requires repeated context or a recognizable sequence across a long enough thread to mean anything — a single message is never sufficient. Never scored.",
    "codex_maturity": "mature",
    "human_review_flags": [
@@ -18671,12 +18671,12 @@
    "branch": "pattern",
    "category": "Accountability Evasion",
    "detectability_note": "This tool cannot detect this from a single line. It only becomes visible as a shape across a whole conversation over time (rhythm, cycles, timing) — repeated context is required. It is never scored and never raises the index on its own.",
-   "core_meaning": "Pressing someone, again and again and in a polite tone, to produce evidence or explanation, in a way that wears them out without moving toward understanding.",
+   "core_meaning": "Pressing someone again and again, in a polite tone, to produce evidence or explanation. It wears them out and does not move toward understanding.",
    "aftermath_state": false,
    "forensic_only": false,
    "absorbs": [],
-   "short_definition": "Pressing someone, again and again and in a polite tone, to produce evidence or explanation, in a way that wears them out without moving toward understanding.",
-   "expanded_definition": "Sealioning is a run of courteous-sounding requests for sources, definitions and explanations that keeps going no matter what is supplied. It is mostly seen online, in replies and comment threads, where the person answering never agreed to a debate. Each request alone is reasonable, which is what makes it hard to refuse. The pattern is in the shape: every answer produces a new request, the asker never states a view of their own, and the person answering spends hours. This does not show what the asker wants.",
+   "short_definition": "Pressing someone again and again, in a polite tone, to produce evidence or explanation. It wears them out and does not move toward understanding.",
+   "expanded_definition": "Sealioning is a run of courteous-sounding requests for sources, definitions and explanations that keeps going no matter what is supplied. It is mostly seen online, in replies and comment threads, where the person answering never agreed to a debate. Each request alone is reasonable, which is what makes it hard to refuse. The pattern is in the shape. Every answer produces a new request, the asker never states a view of their own, and the person answering spends hours. This does not show what the asker wants.",
    "plain_language_summary": "Someone politely asks you to prove and explain, again and again. Nothing you give is ever enough, until you are too tired to keep going.",
    "why_this_matters": "Your energy goes into finding sources and proving points rather than being heard. The point you set out to make often gets dropped, not because it was answered but because you ran out of stamina.",
    "what_it_is": [
@@ -18751,19 +18751,19 @@
     "Hours that used to go elsewhere are eaten by answering, and you feel behind.",
     "You notice you spend more time proving points than making them."
    ],
-   "repair_check": "Repair here is the asker changing the shape of the exchange: stating a position, naming what would count as enough, or stopping when a question has been answered. A cheerful 'fair enough' followed by a fresh round of questions the next day leaves the loop exactly where it was.",
+   "repair_check": "Repair here is the asker changing the shape of the exchange: stating a position, naming what would count as enough, or stopping when a question has been answered. If a cheerful 'fair enough' is followed by a fresh round of questions the next day, the loop is exactly where it was.",
    "boundary_respect_check": "Tell them once that you have answered what you will, then see whether the questions stop or turn into comments on your refusal. A person who accepts the limit goes quiet; one who tests it asks why you are afraid to continue.",
    "psychological_mechanism": "Asking for evidence carries social authority, so refusing can look like having nothing to offer. Each answer also costs time and attention, while each question costs almost nothing, which tilts the exchange. A calm tone can make any frustration look like the real problem. Over time a person may give up their point just to end the cost.",
    "possible_impact_on_receiver": "People describe exhaustion, a sense of being on trial for something they only mentioned, and anxiety about posting. Some withdraw from the topic or the platform. Others say they began doubting their own knowledge even when they had good sources.",
    "response_options": {
-    "soft_clarification": "Ask the one question that sorts it out: 'What would count as enough for you here?' A real answer helps you both; a shrug or a new demand tells you something.",
+    "soft_clarification": "Ask the one question that sorts it out: 'What would count as enough for you here?' A real answer helps you both. A shrug or a new demand tells you something.",
     "firm_boundary": "Set your limit on the exchange: 'I've given you two sources and my reasoning. I'm not going to keep going.' Then actually stop replying.",
     "disengagement": "Mute, block, or leave the thread. You owe no one an unlimited supply of proof, and leaving is not a concession.",
     "support_seeking": "Show the thread to someone neutral and ask whether the questions looked fair. If it is on a platform, use its reporting tools or ask a moderator to step in.",
-    "workplace_or_professional": "In a work channel, move requests for evidence to one agreed place, such as a short document or a meeting, and ask a manager to set limits on how often and by whom."
+    "workplace_or_professional": "In a work channel, move requests for evidence to one agreed place, such as a short document or a meeting. Ask a manager to set limits on how often and by whom."
    },
    "boundary_script": "\"I've shared my sources and explained my reasoning, and I'm happy to leave it there. If you want to carry on, tell me what you think and what would change your mind. Otherwise I'm stepping out of this thread.\"",
-   "safety_note": "By itself this drains time and nerves; it is not a danger. That changes when the questions follow you to personal details, such as your address, employer, family or private messages, or arrive in organized waves of accounts. Then save dated screenshots, report to the platform, and tighten the privacy settings on your accounts.",
+   "safety_note": "By itself this drains time and nerves. It is not a danger. That changes when the questions follow you to personal details, such as your address, employer, family or private messages, or arrive in organized waves of accounts. Then save dated screenshots, report to the platform, and tighten the privacy settings on your accounts.",
    "safety_sensitive": false,
    "misuse_warning": [
     "Calling every request for evidence 'sealioning' lets people dodge fair scrutiny. Asking for sources on a public claim is ordinary, and journalists and scientists do it as a duty.",
@@ -18794,14 +18794,14 @@
    "branch": "pattern",
    "category": "Attachment & Affection Control",
    "detectability_note": "This tool cannot detect this from a single line. It only becomes visible as a shape across a whole conversation over time (rhythm, cycles, timing) — repeated context is required. It is never scored and never raises the index on its own.",
-   "core_meaning": "A three-stage arc in which someone is first placed on a pedestal, then steadily criticized and diminished, and finally dropped.",
+   "core_meaning": "A three-stage arc. Someone is first placed on a pedestal, then steadily criticized and put down, and finally dropped.",
    "aftermath_state": false,
    "forensic_only": false,
    "absorbs": [],
-   "short_definition": "A three-stage arc in which someone is first placed on a pedestal, then steadily criticized and diminished, and finally dropped.",
-   "expanded_definition": "This describes a whole relationship arc: a dazzling start in which you feel uniquely seen, a gradual turn in which the same qualities are criticized, and an ending that can feel abrupt or cold. Many relationships cool from early infatuation, and that alone is not this. What marks it is a turn that is sharp and out of proportion to anything you did, the criticism targets what was praised before, and people who knew the person describe the same arc with others.",
-   "plain_language_summary": "At first you are treated as perfect, then slowly as a disappointment, and then you are cast aside, as if the person you were praised for being no longer exists.",
-   "why_this_matters": "You measure the ending against the extraordinary beginning and conclude you must have caused the decline, which is also the conclusion that keeps you trying to earn the beginning back. It can be hard to grieve a relationship that changed shape so completely.",
+   "short_definition": "A three-stage arc. Someone is first placed on a pedestal, then steadily criticized and put down, and finally dropped.",
+   "expanded_definition": "This describes a whole relationship arc. It starts with a dazzling stretch in which you feel uniquely seen. Then comes a gradual turn in which the same qualities are criticized. It ends in a way that can feel abrupt or cold. Many relationships cool from early infatuation, and that alone is not this. What marks it is a turn that is sharp and out of proportion to anything you did. The criticism targets what was praised before, and people who knew the person describe the same arc with others.",
+   "plain_language_summary": "At first you are treated as perfect, then slowly as a disappointment. Then you are cast aside, as if the person you were praised for being no longer exists.",
+   "why_this_matters": "You measure the ending against the extraordinary beginning and conclude you must have caused the decline. That same conclusion keeps you trying to earn the beginning back. It can be hard to grieve a relationship that changed shape so completely.",
    "what_it_is": [
     "An opening stretch of intense admiration, fast closeness and big statements about how special you are.",
     "A middle phase in which the same traits that were praised become faults, and comparisons or small cruelties appear.",
@@ -18838,9 +18838,9 @@
     "The ending came with a conversation, even a hard one."
    ],
    "innocent_or_ordinary_possibilities": [
-    "People often idealize a new partner and see them more realistically over time, which can feel like loss without being a tactic.",
+    "People often idealize a new partner and later see them more realistically. That can bring a sense of loss without being a tactic.",
     "A person who is anxious about commitment may pull away once things get serious.",
-    "Early excitement can fade when people discover real differences, and the ending can be clumsy rather than cruel."
+    "Early excitement can fade when people discover real differences. The ending can be clumsy rather than cruel."
    ],
    "common_false_positives": [
     "A whirlwind romance that cooled into a more ordinary one and then ended by mutual agreement.",
@@ -18870,22 +18870,22 @@
     "Your confidence drops as the criticism grows, and you hold on to memories of the start.",
     "After the end, you replay the beginning and wonder what you did to lose it."
    ],
-   "repair_check": "Real change would show in how they talk about the whole arc: recognizing that the early praise was larger than any person could live up to and that the criticism was out of proportion. A return to warmth with a fresh round of praise starts the first stage again.",
-   "boundary_respect_check": "Ask them to speak about specific behavior instead of general character. Notice whether they can name what happened and keep that frame, or whether the criticism widens into your whole personality and the praise from the start is quoted back as evidence of how you fell.",
-   "psychological_mechanism": "Being idealized can feel intoxicating, and a person may build part of their sense of self on it. When treatment then turns, the contrast with the early warmth tends to make people search for what they did wrong and try to recover the start. Because the beginning was real to them, they may remain hopeful long after the relationship has changed.",
-   "possible_impact_on_receiver": "People describe whiplash, grief for a version of the relationship that may never have been stable, and doubting their own judgment about who to trust. Some say they felt discarded as if they were an object. Others describe an urge to explain themselves to the other person, long after contact had ended, in order to restore the early view.",
+   "repair_check": "Real change would show in how they talk about the whole arc. They would recognize that the early praise was larger than any person could live up to, and that the criticism was out of proportion. A return to warmth with a fresh round of praise starts the first stage again.",
+   "boundary_respect_check": "Ask them to speak about specific behavior instead of general character. Notice whether they can name what happened and keep that frame. Or does the criticism widen into your whole personality, with the praise from the start quoted back as evidence of how you fell?",
+   "psychological_mechanism": "Being idealized can feel intoxicating, and a person may build part of their sense of self on it. When treatment then turns, the contrast with the early warmth often sends people searching for what they did wrong. They try to recover the start. Because the beginning was real to them, they may remain hopeful long after the relationship has changed.",
+   "possible_impact_on_receiver": "People describe whiplash, grief for a version of the relationship that may never have been stable, and doubting their own judgment about who to trust. Some say they felt discarded as if they were an object. Others describe an urge to explain themselves to the other person long after contact had ended, to restore the early view.",
    "response_options": {
     "soft_clarification": "Ask about the change directly: 'You used to say you loved how driven I am. Now it sounds like a flaw. What changed for you?'",
     "firm_boundary": "Refuse the rewrite: 'I won't agree that I am a different person from the one you praised. If there is a problem with something I did, tell me what it was.'",
     "disengagement": "Resist the urge to win the early version back. Stop auditioning, keep your own routine, and let distance show whether the respect is still there.",
-    "support_seeking": "Tell a friend the whole arc in order, including the early praise and the later criticism, and ask them what they noticed at each stage. Grief counseling can also help with the loss of the idealized start.",
-    "workplace_or_professional": "If a boss or mentor praises you extravagantly and then freezes you out, keep dated records of your work and their feedback, and talk to HR or a mentor outside the relationship."
+    "support_seeking": "Tell a friend the whole arc in order, including the early praise and the later criticism. Ask them what they noticed at each stage. Grief counseling can also help with the loss of the idealized start.",
+    "workplace_or_professional": "If a boss or mentor praises you extravagantly and then freezes you out, keep dated records of your work and their feedback. Talk to HR or a mentor outside the relationship."
    },
    "boundary_script": "\"I was happy when you thought so highly of me, and I'm not the same person you're describing now. If you're unhappy with something I did, tell me what it was. I won't accept being told I was never who you thought I was.\"",
    "safety_note": "The arc itself is an emotional harm, not a physical one. It becomes more serious if the discard comes with a smear campaign, stalking, threats, or sudden loss of housing or income because you shared a home or business. If that begins, keep dated copies of messages, lock down your accounts, and talk to a lawyer or a domestic abuse advocate about protecting your housing and finances.",
    "safety_sensitive": false,
    "misuse_warning": [
-    "Applying the label to anyone who ended a relationship after an intense beginning treats ordinary heartbreak as proof of a pattern.",
+    "Using the label for anyone who ended a relationship after an intense beginning treats ordinary heartbreak as proof of a pattern.",
     "Describing a former partner in these terms to friends can become a smear of its own, built from one side of the story."
    ],
    "related_tactics": [
@@ -18920,10 +18920,10 @@
    "short_definition": "A sudden, sharper surge of a pressure tactic right after it stops working, as the person tries harder to get the old result back.",
    "expanded_definition": "The term comes from behavior science: when a habit that used to pay off stops paying off, it often gets louder before it fades. In relationships, this can look like more messages, more anger or bigger promises right after you hold a limit for the first time. A spike after a new boundary can come from hurt or shock and does not show what anyone meant. It becomes a pattern when each limit you hold is met with something heavier than before.",
    "plain_language_summary": "You hold a limit for the first time, and things suddenly get worse, not better. The pressure that used to work gets turned up because it stopped working.",
-   "why_this_matters": "The first boundary that actually works is the one that costs the most. It can teach you that holding a limit makes things worse, so giving in starts to feel like the only way to get peace again.",
+   "why_this_matters": "The first boundary that actually works is the one that costs the most. It can teach you that holding a limit makes things worse. Giving in then starts to feel like the only way to get peace again.",
    "what_it_is": [
     "A jump in volume, frequency or intensity that begins right after you refuse or hold a line, not before.",
-    "The same method as before, only louder: forty messages instead of four, or a longer silent treatment, or a bigger display of hurt.",
+    "The same method as before, only louder: forty messages instead of four, a longer silent treatment, or a bigger display of hurt.",
     "Sometimes a brand-new method appears, such as guilt where there had been anger, once the old one stops working.",
     "A shape that is only visible in time order: what happened, what you did differently, and what came next."
    ],
@@ -18940,7 +18940,7 @@
     "Hurt or panic after a surprising boundary. Most people react badly to a change in a long-standing arrangement and then settle.",
     "A person who is upset, says so once, and then adjusts over the next few weeks.",
     "Honest persistence about something urgent, such as a bill that really is due, which is not tied to your having said no.",
-    "Grief or fear in someone who is already struggling, where the intensity comes from their situation and not from the old method failing.",
+    "Grief or fear in someone who is already struggling. The intensity comes from their situation and not from the old method failing.",
     "Your own wish to find a pattern in a rough week. A bad few days after a hard talk is not yet a shape."
    ],
    "this_may_be_it_when": [
@@ -18992,17 +18992,17 @@
    ],
    "repair_check": "Once you have named the surge, watch what happens to the limit itself. Repair looks like the surge ending while the boundary stays in place, and an acknowledgment that the escalation was too much. A calm week bought by your quietly dropping the limit is a return of the old arrangement.",
    "boundary_respect_check": "Compare the first refusal with the fourth. When a limit is respected, the answer to it gets quieter each time, even if the disappointment remains. When the answer keeps getting louder, the limit is being treated as a problem to be overcome.",
-   "psychological_mechanism": "When a behavior has paid off before, it tends to be repeated harder before it is dropped. On the receiving end, relief when the surge stops can strengthen the habit of yielding. Escalation also tends to feel like proof that you were wrong to refuse, since the discomfort arrives immediately and the benefit of the limit arrives later.",
+   "psychological_mechanism": "When a behavior has paid off before, it tends to be repeated harder before it is dropped. On the receiving end, relief when the surge stops can strengthen the habit of yielding. Escalation can look like proof that you were wrong to refuse. The discomfort arrives right away, and the benefit of the limit comes later.",
    "possible_impact_on_receiver": "People describe doubting a boundary that was reasonable, replaying the moment before the surge, and feeling guilty for the fallout. Some describe giving in just to end the noise, and then feeling angry at themselves. Others say that naming this shape gave them the nerve to hold the second limit.",
    "response_options": {
     "soft_clarification": "Describe the sequence once, without blame: 'I noticed that after I said no, the messages went from a few a day to dozens. Can we talk about what is going on?'",
     "firm_boundary": "Hold the same limit and shorten your replies. Repeating one calm sentence is enough: 'My answer is the same as yesterday.'",
     "disengagement": "Mute the thread and answer only at set times, such as once in the evening. Let the volume pass without chasing it.",
-    "support_seeking": "Tell a friend before you hold the limit, so someone knows what to expect and can check in the day after, when the surge tends to peak.",
+    "support_seeking": "Tell a friend before you hold the limit, so someone knows what to expect. They can check in the day after, when the surge tends to peak.",
     "workplace_or_professional": "Keep every message after your refusal and reply in writing with one line. If the pressure keeps rising, give the thread to a manager or HR."
    },
    "boundary_script": "\"My answer has not changed, and I understand you are upset. I will reply to messages once this evening. Please do not call again before then.\"",
-   "safety_note": "A surge after a boundary is not dangerous in every case. It becomes a safety matter if it includes threats, turning up at your home or work, tracking you, or contact with your kids or employer. Keep dated copies, and talk to a domestic violence advocate or someone you trust before you decide how to proceed.",
+   "safety_note": "A surge after a boundary is not dangerous in every case. It becomes a safety matter if it includes threats, turning up at your home or work, tracking you, or contact with your kids or employer. Keep dated copies. Talk to a domestic violence advocate or someone you trust before you decide how to proceed.",
    "safety_sensitive": false,
    "misuse_warning": [
     "Calling a person's hurt reaction an 'extinction burst' can dismiss real feelings about a change that did affect them.",
@@ -19038,14 +19038,14 @@
    "forensic_only": false,
    "absorbs": [],
    "short_definition": "Meeting someone's hurt with a bigger hurt of your own, so the conversation ends up about whose pain is worse.",
-   "expanded_definition": "Competitive Victimhood is a way of answering pain with pain. One person says something hurt, and the reply is a story that tops it: my week was worse, my childhood was worse, I have it harder. The first concern is never answered. It needs no cruelty to work, only the sense that speaking up costs more than it is worth. People under strain sometimes reach for their own troubles, so a single reply of this kind proves nothing. What counts is reliability: it happens whatever you raised.",
+   "expanded_definition": "Competitive Victimhood is a way of answering pain with pain. One person says something hurt, and the reply is a story that tops it: my week was worse, my childhood was worse, I have it harder. The first concern is never answered. It needs no cruelty to work. It only needs the sense that speaking up costs more than it is worth. People under strain sometimes reach for their own troubles, so a single reply of this kind proves nothing. What counts is how reliably it happens, whatever you raised.",
    "plain_language_summary": "You say something hurt, and the other person answers with something that hurt them more, so your problem never gets looked at.",
    "why_this_matters": "Your own pain never gets a hearing. Rather than enter a contest you cannot win, you may stop raising things at all, and the relationship goes on with nothing said.",
    "what_it_is": [
     "A reply to hurt that moves the spotlight onto the responder's own, usually larger, trouble.",
     "A kind of ranking in which whoever has suffered most gets to decide the topic.",
     "Can run between two close people or between groups, where each side treats its own history of harm as canceling the other's complaint.",
-    "Different from sharing a similar experience to connect, because here the story is used to end the topic and not to open it.",
+    "This is different from sharing a similar experience to connect. Here the story is used to end the topic and not to open it.",
     "Often leaves the person who spoke up feeling petty for mentioning something so 'small'."
    ],
    "what_it_sounds_like": [
@@ -19118,15 +19118,15 @@
    "response_options": {
     "soft_clarification": "Ask for a turn before the topic changes: 'I know you've had a hard time too. Can I finish what I was saying first?'",
     "firm_boundary": "State the rule you need: 'I'm not asking whose pain is bigger. I'd like my concern heard on its own terms before we talk about yours.'",
-    "disengagement": "If every attempt turns into a ranking, stop offering the tender subjects to this person for now and take them to people who can hold them.",
-    "support_seeking": "Choose one friend or counselor who lets you finish, and practice saying the whole thing there, so you know what it sounds like when a hurt is heard.",
-    "workplace_or_professional": "In a team setting, ask the facilitator to give each person a fixed stretch of uninterrupted time, so one grievance is not outweighed by the next."
+    "disengagement": "If every attempt turns into a ranking, stop offering the tender subjects to this person for now. Take them to people who can hold them.",
+    "support_seeking": "Choose one friend or counselor who lets you finish. Practice saying the whole thing there, so you know what it sounds like when a hurt is heard.",
+    "workplace_or_professional": "In a team setting, ask the facilitator to give each person a fixed stretch of uninterrupted time. Then one grievance is not outweighed by the next."
    },
    "boundary_script": "\"I can tell this has been heavy for you, and I do care about it. Right now I need ten minutes where we stay with what happened to me. Then it's your turn, and I'll listen properly.\"",
    "safety_note": "Having your pain outbid is a painful habit in conversation, not a danger signal. It becomes more serious if bringing up your pain draws anger, punishment or threats. It also does if you are being pushed to hide a problem that touches your safety, health or money. Then a first step is to tell one trusted person outside the relationship what you have not been able to say here.",
    "safety_sensitive": false,
    "misuse_warning": [
-    "Wanting to be heard before a hardship is shared is fair, but treating every mention of someone else's suffering as a ploy can silence people who are in real trouble.",
+    "Wanting to be heard before a hardship is shared is fair. But treating every mention of someone else's suffering as a ploy can silence people who are in real trouble.",
     "The label is easy to turn on a person who is grieving, ill or in crisis. Their need for support is not competition."
    ],
    "related_tactics": [
@@ -19154,17 +19154,17 @@
    "branch": "pattern",
    "category": "Attack & Erosion",
    "detectability_note": "This tool cannot detect this from a single line. It only becomes visible as a shape across a whole conversation over time (rhythm, cycles, timing) — repeated context is required. It is never scored and never raises the index on its own.",
-   "core_meaning": "A sexually charged or menacing atmosphere around a person, kept alive through repeated small signals, so they stay on guard with nothing definite to report.",
+   "core_meaning": "A sexually charged or menacing atmosphere around a person, kept alive by repeated small signals. The person stays on guard with nothing definite to report.",
    "aftermath_state": false,
    "forensic_only": false,
    "absorbs": [],
-   "short_definition": "A sexually charged or menacing atmosphere around a person, kept alive through repeated small signals, so they stay on guard with nothing definite to report.",
-   "expanded_definition": "This describes a climate rather than a single act: remarks about your body, lingering looks, jokes with a sexual edge, someone appearing near you more often than seems accidental. Any one of these can be explained as clumsiness or humor. The pattern is in the total effect, where a person begins to rearrange their route, schedule or clothing around someone. It does not show what anyone intended, only what the surroundings feel like to the person in them.",
+   "short_definition": "A sexually charged or menacing atmosphere around a person, kept alive by repeated small signals. The person stays on guard with nothing definite to report.",
+   "expanded_definition": "This describes a climate rather than a single act: remarks about your body, lingering looks, jokes with a sexual edge, someone appearing near you more often than seems accidental. Any one of these can be explained as clumsiness or humor. The pattern is in the total effect. A person begins to rearrange their route, schedule or clothing around someone. It does not show what anyone intended, only what the person living in those surroundings experiences.",
    "plain_language_summary": "Nothing happens that you could report, yet you are always aware of one person. You change where you go, when you leave and who comes with you.",
-   "why_this_matters": "You may reorganize your movements, schedule and attention around one person while holding nothing concrete enough to report, or even to explain to a friend.",
+   "why_this_matters": "You may reorganize your movements, schedule and attention around one person. Meanwhile you hold nothing concrete enough to report, or even to explain to a friend.",
    "what_it_is": [
-    "A repeated set of small signals, such as comments on your appearance, jokes with a sexual edge, or proximity, that add up to unease.",
-    "Different from a single act in that each piece is easy to deny or dismiss, and the effect lives in the repetition.",
+    "A repeated set of small signals that add up to unease, such as comments on your appearance, jokes with a sexual edge, or staying close to you.",
+    "This differs from a single act, because each piece is easy to deny or dismiss. The effect lives in the repetition.",
     "Seen at work, in schools, in shared housing, in congregations, and in families and friend groups.",
     "Often leaves a person planning around it: taking another stairwell, bringing a friend, avoiding a room."
    ],
@@ -19179,8 +19179,8 @@
    "what_it_is_not": [
     "A single clumsy compliment or off-color joke that the person took back as soon as it was pointed out.",
     "A friendly colleague who greets everyone warmly and has no pattern of focusing on you.",
-    "A culture of bawdy humor shared evenly by everyone who takes part, where nobody is uncomfortable and anyone could opt out.",
-    "Your own feeling of unease with someone whose behavior has not changed and who has done nothing you can describe, which is worth taking seriously but does not prove a pattern.",
+    "A culture of bawdy humor shared evenly by everyone who takes part. Nobody is uncomfortable, and anyone could opt out.",
+    "Your own unease with someone whose behavior has not changed and who has done nothing you can describe. That is worth taking seriously, but it does not prove a pattern.",
     "A partner or date whose sexual remarks are welcomed and reciprocal."
    ],
    "this_may_be_it_when": [
@@ -19230,23 +19230,23 @@
     "You find yourself telling friends small, odd details because each one on its own is embarrassing to repeat.",
     "A sense of being watched stays with you after the person has left the room."
    ],
-   "repair_check": "Change would mean the signals stop completely and stay stopped, with no testing of how far you will go along. An apology paired with fresh jokes, or with \"I thought we were joking around\", has not touched the underlying pattern, since the effect on you stays the same.",
+   "repair_check": "Change would mean the signals stop completely and stay stopped, with no testing of how far you will go along. An apology paired with fresh jokes, or with \"I thought we were joking around\", leaves the pattern untouched. The effect on you stays the same.",
    "boundary_respect_check": "Once you have asked for the remarks or the looks to stop, watch what the following weeks hold. A person who respects it simply stops and does not make it awkward. Distance followed by sudden coldness, or the same behavior returning in a new form, answers the question the other way.",
-   "psychological_mechanism": "When a situation is ambiguous, a person tends to scan it for danger and to act on that scan before they can prove anything. A background of small signals keeps that scanning switched on, and the lack of a clear event makes it hard to justify the strain, even to oneself. Wondering whether you are overreacting can add to it.",
-   "possible_impact_on_receiver": "People describe taking longer routes, leaving early, dressing to draw less attention, and feeling embarrassed that they cannot explain it. Some talk about doubting their own read, and about the tiredness of staying watchful in places that should be ordinary. Others describe anger at having to plan their day around another person's presence.",
+   "psychological_mechanism": "When a situation is ambiguous, a person tends to scan it for danger and to act on that scan before they can prove anything. A background of small signals keeps that scanning switched on. The lack of a clear event makes the strain hard to justify, even to oneself. Wondering whether you are overreacting can add to it.",
+   "possible_impact_on_receiver": "People describe taking longer routes, leaving early, dressing to draw less attention, and feeling embarrassed that they cannot explain it. Some talk about doubting their own sense of what is happening, and about the tiredness of staying watchful in places that should be ordinary. Others describe anger at having to plan their day around another person's presence.",
    "response_options": {
     "soft_clarification": "If you feel safe, say one thing plainly and briefly: \"Comments about my body make me uncomfortable.\" You do not need to argue the point.",
-    "firm_boundary": "If you feel safe, state it once without softening, and write down the date and the words you used: \"I do not want comments about my appearance. Please stop.\"",
+    "firm_boundary": "If you feel safe, state it once without softening, then write down the date and the words you used: \"I do not want comments about my appearance. Please stop.\"",
     "disengagement": "Where you can, avoid being alone with them, bring a colleague or friend, and use routes and times that keep other people around.",
-    "support_seeking": "Tell someone you trust what you have noticed, even if it sounds small, and ask them to keep a record with you of dates and what was said.",
-    "workplace_or_professional": "Write down each incident with date, place, words and witnesses, and bring the record to HR, a union rep, a school office or an ombudsperson (an independent complaints officer), as a pattern rather than separate incidents."
+    "support_seeking": "Tell someone you trust what you have noticed, even if it sounds small. Ask them to keep a record with you of dates and what was said.",
+    "workplace_or_professional": "Write down each incident with date, place, words and witnesses. Bring the record to HR, a union rep, a school office or an ombudsperson (an independent complaints officer), and present it as a pattern rather than separate incidents."
    },
    "boundary_script": "\"Please stop commenting on my appearance. I would like to keep our conversations about the work.\" If you do not feel safe, skip it and keep a record.",
-   "safety_note": "Signals that raise concern are the person learning your schedule, turning up where you are, or touching you without agreement. Others are their having power over you, or reacting to a refusal with anger. Keep dated records, tell someone you trust where you are going, and contact a sexual assault or domestic violence advocate or the police if you feel in immediate danger.",
+   "safety_note": "Signs that raise concern include the person learning your schedule, turning up where you are, or touching you without agreement. Others are their having power over you, or reacting to a refusal with anger. Keep dated records, and tell someone you trust where you are going. If you feel in immediate danger, contact a sexual assault or domestic violence advocate or the police.",
    "safety_sensitive": true,
    "misuse_warning": [
     "Reading a pattern into a single awkward remark can wrongly mark a person as a threat. The label needs repetition and a continued focus on one person.",
-    "Your discomfort is real information, but it does not show what the other person means, and a report is best made on specific dated behaviors, not on a verdict about their character."
+    "Your discomfort is real information, but it does not show what the other person means. A report is best made on specific dated behaviors, not on a verdict about their character."
    ],
    "related_tactics": [
     "Contempt",
