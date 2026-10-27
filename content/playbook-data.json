@@ -5932,7 +5932,7 @@
    "name": "Weaponized Tears",
    "tag": "reference",
    "cat": "Guilt & Obligation Leverage",
-   "what": "Crying that begins as someone is held to account, after which comforting the crying person replaces the original concern.",
+   "what": "Someone cries just as they are asked to answer for something, and then comforting them takes the place of the original concern.",
    "sounds": [
     "I can't believe you'd say that to me.",
     "Look what you've done. Now I can't even breathe.",
@@ -5950,7 +5950,7 @@
     "A person who, after crying, can still hear and respond to the concern.",
     "A family or cultural style in which emotion is shown openly in every disagreement, whoever raised it."
    ],
-   "why": "The conversation reverses: whoever raised the harm ends up providing comfort, and the original concern is never returned to. After enough rounds, raising anything starts to feel cruel."
+   "why": "The conversation flips. The person who raised the harm ends up giving comfort, and the original concern never comes back. After enough rounds, bringing anything up starts to seem cruel."
   },
   {
    "name": "Obligation Installation",
@@ -5967,7 +5967,7 @@
     "You're the one person who knows what I went through. Don't make me regret telling you."
    ],
    "nots": [
-    "Confiding in someone is how intimacy works, and mutual disclosure that is never used as leverage is not this. Many relationship expectations go unstated and are still reasonable.",
+    "Confiding in someone is how closeness grows. Sharing that goes both ways and is never used to pressure you is not this. Many expectations in a relationship go unstated and are still reasonable.",
     "A friend who asks you to keep a confidence and then lets you say no to unrelated favors.",
     "Reasonable shared norms such as telling a partner when you'll be late or keeping their private health news private.",
     "Someone who later says 'I never made it clear I expected that, and I'm sorry', and talks it over.",
@@ -5977,7 +5977,7 @@
    "absorbs": [
     "Covert Contracts"
    ],
-   "why": "Loyalty stops being something freely given and becomes a debt owed for having been trusted, and terms you never agreed to can then be enforced as though you had."
+   "why": "Loyalty stops being something you give freely. It becomes a debt for having been trusted, and terms you never agreed to can then be enforced as though you had."
   },
   {
    "name": "Weaponized Generosity",
@@ -5994,7 +5994,7 @@
     "I don't want anything for it, but I won't forget this."
    ],
    "nots": [
-    "Openly transactional giving: 'I'll lend you the car if you drop me at the airport.' Both sides know the terms and either can say no.",
+    "Openly trade-based giving, like 'I'll lend you the car if you drop me at the airport.' Both sides know the terms, and either can say no.",
     "A person who is directly honest about wanting something in return and accepts a 'no' without consequence.",
     "Reciprocal favors between friends who both understand and welcome the give-and-take.",
     "Generosity that the giver never brings up again, whatever you do.",
@@ -6007,7 +6007,7 @@
    "name": "Guilt Legacy",
    "tag": "reference",
    "cat": "Guilt & Obligation Leverage",
-   "what": "Treating a debt from before you were born, a family sacrifice or an ancestor's hardship as something you personally owe and must repay by complying.",
+   "what": "Treating a debt from before you were born, like a family sacrifice or an ancestor's hardship, as yours to repay by doing what is asked.",
    "sounds": [
     "After everything this family went through to get you here, this is how you repay it?",
     "Your grandmother crossed an ocean so you could have choices. You will not waste them on that.",
@@ -6018,20 +6018,20 @@
     "You owe us this."
    ],
    "nots": [
-    "Family and cultural values around duty and reciprocity are held freely by many people who endorse them, and a parent recounting real history is sharing context and not collecting a debt.",
+    "Many people hold family and cultural values around duty and reciprocity freely, and agree with them. A parent who recounts real history is sharing background, not collecting a debt.",
     "Choosing, as an adult, to support your parents because you want to honor what they gave.",
-    "A relative asking for help during a real crisis, such as an illness, and explaining how the family has always pulled together.",
-    "Cultural norms about duty that differ from your own and are applied evenly, without being held over one specific choice.",
+    "A relative who asks for help during a real crisis, such as an illness, and explains how the family has always pulled together.",
+    "Cultural norms about duty that differ from your own, applied evenly to everyone, and not held over one specific choice.",
     "Parents voicing hurt or fear about your decision while accepting that it is yours.",
     "Family storytelling at holidays, where the past is told for its own sake."
    ],
-   "why": "Repayment is expected for a debt incurred before you could have consented to it, and declining reads as a betrayal not of one relationship but of a whole family line."
+   "why": "Repayment is expected for a debt taken on before you could have agreed to it. Saying no is treated as a betrayal of a whole family line, and not of one relationship only."
   },
   {
    "name": "Manufactured Intimacy",
    "tag": "reference",
    "cat": "Attachment & Affection Control",
-   "what": "Creating the feeling of deep closeness fast, through early confessions and painful disclosures, before the two people have any shared history to support it.",
+   "what": "Creating deep closeness fast, through early confessions and painful sharing, before the two people have any shared history to support it.",
    "sounds": [
     "I've never told anyone this, but I feel like I can tell you.",
     "It's strange. I feel like I've known you my whole life.",
@@ -6043,20 +6043,20 @@
     "I opened up to you, and you're holding back. That hurts."
    ],
    "nots": [
-    "Some people are simply open by temperament and tell strangers their life story without wanting anything in return.",
+    "Some people are open by nature and tell strangers their life story without wanting anything in return.",
     "A crisis, a shared emergency or a long night on a retreat can bring people close quickly and honestly.",
-    "Early disclosure can be someone testing whether you can be trusted with it, which is a risk they are taking rather than one they are creating.",
+    "Early sharing can be someone testing whether you can be trusted with it. That is a risk they take themselves, and not one they create for you.",
     "Someone still living inside a recent loss will talk about it because it is present, not to speed anything up.",
-    "Two people who both open up at the same pace and both enjoy it are building closeness together, not having it manufactured.",
+    "Two people who open up at the same pace, and both enjoy it, are building closeness together. It is not being manufactured.",
     "Counseling, peer support and recovery groups invite fast, deep sharing in a structure with agreed limits."
    ],
-   "why": "Closeness and duty arrive before any track record can justify them. You can end up trusting at a depth your knowledge of the person cannot support, and stepping back later can feel like abandoning someone in crisis."
+   "why": "Closeness and duty arrive before any track record can justify them. You can end up trusting at a depth your knowledge of the person cannot support. Stepping back later may bring guilt, as if you were abandoning someone in crisis."
   },
   {
    "name": "Manufactured Destiny",
    "tag": "reference",
    "cat": "Attachment & Affection Control",
-   "what": "Presenting a relationship as fated or cosmically arranged so that doubting it, slowing it down or leaving it feels like going against destiny.",
+   "what": "Presenting a relationship as fated or cosmically arranged, so that doubting it, slowing it down or leaving it is treated as going against destiny.",
    "sounds": [
     "We were meant to find each other. This isn't a coincidence.",
     "The universe doesn't hand out connections like this twice.",
@@ -6067,20 +6067,20 @@
     "We have been through too many signs for this to be an accident."
    ],
    "nots": [
-    "Two people who sincerely feel something remarkable has happened between them, and both say so in their own words.",
-    "Romantic or spiritual language that is part of someone's culture, faith or personality, used in the same way with everyone they love.",
-    "A person who truly believes in fate, who talks about meaning and timing in many parts of life and is not threatened by your doubts.",
+    "Two people who sincerely sense that something remarkable has happened between them, and both say so in their own words.",
+    "Romantic or spiritual language that is part of someone's culture, faith or personality, and that they use in the same way with everyone they love.",
+    "A person who truly believes in fate and talks about meaning and timing in many parts of life. Your doubts do not threaten them.",
     "Looking back on a good relationship and calling it lucky or meant to be, after the fact.",
     "A grand gesture or sentimental line in the first flush of romance that is not repeated when you hesitate.",
     "Hope for a future together, expressed without making your doubts a problem to be fixed."
    ],
-   "why": "Leaving stops feeling like ending a relationship and starts feeling like defying something larger, which raises the cost of an otherwise ordinary decision to go. Doubt gets treated as a flaw in you rather than as information."
+   "why": "Leaving stops being the end of a relationship and becomes defying something larger. That raises the cost of an otherwise ordinary decision to go. Doubt gets treated as a flaw in you and not as information."
   },
   {
    "name": "Mirroring-on-Demand",
    "tag": "reference",
    "cat": "Attachment & Affection Control",
-   "what": "Quickly taking on your interests, opinions and way of speaking so that you feel unusually understood and matched, whether or not the match is real.",
+   "what": "Quickly copying your interests, opinions and way of speaking so you feel unusually understood, whether or not the match is real.",
    "sounds": [
     "No way, that's my favorite too! I can't believe it.",
     "I've always felt exactly like that about my family.",
@@ -6091,20 +6091,20 @@
     "I've never met anyone I agree with on everything until now."
    ],
    "nots": [
-    "Real compatibility, especially between people who met through a shared interest, produces genuine excitement at how much overlaps.",
+    "Real compatibility, especially between people who met through a shared interest, brings genuine excitement at how much overlaps.",
     "An agreeable, accommodating style is not strategic reflection. Some people avoid conflict with everyone.",
     "Normal rapport, where people unconsciously pick up each other's gestures and speech rhythms in a good conversation.",
     "Being nervous and wanting to be liked on a first date, so you both agree more than you will later.",
     "A person who really is changing their mind because of what you said, openly, and can tell you why.",
-    "The distinction lies in whether the shared enthusiasms have any independent history behind them, or appear complete the moment they are mentioned."
+    "The difference is whether the shared enthusiasms have any history of their own behind them, or appear complete the moment they are mentioned."
    ],
-   "why": "A sense of rare alignment forms with a reflection rather than a person. What is later found to be missing was never actually there to lose, and you may come to doubt your own judgment about who you fell for."
+   "why": "A sense of rare alignment forms around a reflection, not a person. What is later found to be missing was never actually there to lose. You may come to doubt your own judgment about who you fell for."
   },
   {
    "name": "The Rescue Hook",
    "tag": "reference",
    "cat": "Attachment & Affection Control",
-   "what": "Showing need that seems helpless, so that you step in, take over tasks or feelings without being asked, and your effort is treated as devotion.",
+   "what": "Showing need that seems helpless, so you step in and take over tasks or feelings without being asked, and your effort is treated as devotion.",
    "sounds": [
     "I just don't know how I'm going to manage this. (sighing, and looking at you)",
     "I'd ask you, but I know you're busy. I'll figure it out somehow.",
@@ -6115,20 +6115,20 @@
     "Don't worry about me. I'll just have a bad week."
    ],
    "nots": [
-    "People genuinely struggle with specific skills, and someone raised without a task ever modeled to them has real rather than performed difficulty.",
+    "People do struggle with specific skills. Someone raised without a task ever being shown to them has real difficulty, not performed difficulty.",
     "An uneven division of tasks along the lines of who is better at what is normal in most households.",
     "A person going through illness, grief, a new baby or job loss who truly needs help for a while and says so plainly.",
     "A direct request such as 'Could you help me with this on Saturday?', which you can accept or decline.",
     "Someone who is slow to ask for help because they find it hard, and thanks you without expecting it again.",
     "The pattern is need that appears reliably rather than help that is asked for plainly."
    ],
-   "why": "Substantial labor is given without ever having been asked for, so there is nothing to point at as an imposition and no clear moment at which it could have been declined. You can end up exhausted, with no way to name how it began."
+   "why": "You give a lot of work without ever being asked, so there is nothing to point at as an imposition. There is no clear moment when you could have declined. You can end up exhausted, with no way to name how it began."
   },
   {
    "name": "Emotional Parasitism",
    "tag": "reference",
    "cat": "Attachment & Affection Control",
-   "what": "A steady, one-way arrangement in which one person's feelings take most of the attention and care while the other is left drained, with little given back.",
+   "what": "A steady, one-way arrangement where one person's feelings get most of the attention and care, and the other is left drained with little given back.",
    "sounds": [
     "Anyway, enough about you. Let me tell you what happened with my sister.",
     "You're so good at this. Nobody listens like you do.",
@@ -6139,20 +6139,20 @@
     "You're the only one I can tell all of this to."
    ],
    "nots": [
-    "A friend going through a genuinely hard stretch needs more for a while, and reciprocity resuming once things stabilize is ordinary.",
+    "A friend going through a genuinely hard stretch needs more for a while. It is ordinary for giving to even out again once things settle.",
     "Someone with their own significant unmet needs may be unable rather than unwilling to give back.",
     "What distinguishes the pattern is an imbalance that is stable across years rather than weeks.",
-    "A caring role you chose, such as supporting a sick relative or a person in recovery, where the imbalance is understood and agreed.",
+    "A caring role you chose, such as supporting a sick relative or a person in recovery, where both sides understand and agree to the imbalance.",
     "A therapist, counselor or helper who is paid for a one-sided relationship.",
     "Different needs for talk: a more expressive friend who talks more, yet shows up for you in other ways."
    ],
-   "why": "Depletion accumulates so gradually that it registers as a personal failing, such as tiredness or low tolerance, rather than as the arithmetic of a relationship that never balances. You may blame yourself for running out of patience."
+   "why": "The drain builds so slowly that it looks like a personal failing, such as tiredness or low patience. It is really the arithmetic of a relationship that never balances. You may blame yourself for running out of patience."
   },
   {
    "name": "Information Control",
    "tag": "reference",
    "cat": "Control & Domination",
-   "what": "Narrowing what someone reads, hears and learns, and who they talk to, so that one person's account becomes the main version of events available to them.",
+   "what": "Narrowing what someone reads, hears and learns, and who they talk to, so one person's account becomes the main version of events they have.",
    "sounds": [
     "You don't need to read that, it's all lies.",
     "Your sister doesn't understand our situation. Don't tell her about this.",
@@ -6167,16 +6167,16 @@
     "Someone who is simply uninformed and has no outside views to pass on, so is filtering nothing.",
     "Limits on what young children watch or read, which loosen as the child grows.",
     "A confidentiality rule at work that is disclosed to everyone, such as not discussing client files.",
-    "Taking over paperwork at your request, like a partner who handles the mail while you recover from surgery and hands it back when you ask.",
+    "Taking over paperwork because you asked, like a partner who handles the mail while you recover from surgery. They hand it back when you ask.",
     "A friend who disagrees with an article you shared and says why."
    ],
-   "why": "A second opinion never reaches you, so a single account of events is all you have to reason with, and your doubts about it have nothing to be checked against."
+   "why": "A second opinion never reaches you. A single account is all you have to reason with, and your doubts about it have nothing to be checked against."
   },
   {
    "name": "Device Access Demands",
    "tag": "reference",
    "cat": "Control & Domination",
-   "what": "Insisting on passwords, an unlocked phone or account logins as proof of trust, so that having a private space is read as a sign of hiding something.",
+   "what": "Insisting on passwords, an unlocked phone or account logins as proof of trust, so that having a private space is read as hiding something.",
    "sounds": [
     "If you have nothing to hide, you won't mind me looking.",
     "Unlock it. Now.",
@@ -6187,10 +6187,10 @@
     "I just need to check that you're being safe online."
    ],
    "nots": [
-    "A mutually agreed, revocable arrangement, such as managing a young child's tablet or sharing a family account that either person can leave.",
+    "An arrangement both people agreed to and can end, such as managing a young child's tablet or sharing a family account that either person can leave.",
     "A disclosed institutional requirement applied to everyone, such as monitored work accounts with the policy in writing.",
     "A streaming login, shared calendar or photo library that you both set up and either of you can end.",
-    "A one-off, like handing over a phone to show a specific message, with permission asked and the scope limited to that message.",
+    "A one-off, like handing over a phone to show one specific message, where permission is asked and the scope stays limited to that message.",
     "Sharing a phone code with a trusted person while traveling, which you choose and undo."
    ],
    "why": "Once saying no looks like guilt, privacy has to be defended instead of assumed. People can lose the ordinary sense that their messages, searches and private thoughts belong to them."
@@ -6199,7 +6199,7 @@
    "name": "Enforcing Trivial Demands",
    "tag": "reference",
    "cat": "Control & Domination",
-   "what": "Insisting on exact compliance with small, pointless-seeming rules, with a seriousness out of proportion to the stakes, until going along becomes routine.",
+   "what": "Insisting on exact compliance with small, pointless-looking rules, treated far more seriously than the stakes deserve, until going along becomes routine.",
    "sounds": [
     "No, the cups go handle-out. I've told you.",
     "Do it again. Properly.",
@@ -6210,7 +6210,7 @@
     "I said the lid faces left."
    ],
    "nots": [
-    "A personal preference about how things are done, explained and flexible, which is ordinary fussiness and nothing more.",
+    "A personal preference about how things are done that is explained and flexible. That is ordinary fussiness and nothing more.",
     "A rule with a function the person hasn't been told, like the food-safety order in a kitchen or a lab's labeling system.",
     "High standards in a craft or role the person cares about, applied to themselves as much as to you.",
     "A routine that helps someone with sensory needs or anxiety, which they explain and which is open to adjustment.",
@@ -36527,14 +36527,14 @@
    "branch": "reference",
    "category": "Guilt & Obligation Leverage",
    "detectability_note": "This tool cannot establish this from pasted text at all. It is included for literacy only, so you can learn to recognize the concept — not as something this tool detects, scores, or flags.",
-   "core_meaning": "Crying that begins as someone is held to account, after which comforting the crying person replaces the original concern.",
+   "core_meaning": "Someone cries just as they are asked to answer for something, and then comforting them takes the place of the original concern.",
    "aftermath_state": false,
    "forensic_only": false,
    "absorbs": [],
-   "short_definition": "Crying that begins as someone is held to account, after which comforting the crying person replaces the original concern.",
+   "short_definition": "Someone cries just as they are asked to answer for something, and then comforting them takes the place of the original concern.",
    "expanded_definition": "Weaponized Tears is a name for the moment accountability stops because someone is crying. You start to explain what hurt you. Tears begin, the topic changes to comfort, and the original concern is not returned to. Crying is human, and many people cry when criticized, which says nothing about their motives. The pattern is in what follows the tears: the conversation reverses, and it keeps doing so across many attempts. What the exchange shows is a sequence; it cannot tell you what anyone felt.",
-   "plain_language_summary": "You try to raise a problem, the other person cries, and you end up comforting them while the problem goes unmentioned, again and again.",
-   "why_this_matters": "The conversation reverses: whoever raised the harm ends up providing comfort, and the original concern is never returned to. After enough rounds, raising anything starts to feel cruel.",
+   "plain_language_summary": "You try to raise a problem and the other person cries. You end up comforting them, and the problem goes unmentioned, again and again.",
+   "why_this_matters": "The conversation flips. The person who raised the harm ends up giving comfort, and the original concern never comes back. After enough rounds, bringing anything up starts to seem cruel.",
    "what_it_is": [
     "Tears that arrive at the point where a concern is being stated or someone is asked to answer for something.",
     "A swap of roles in which the person who spoke up becomes the comforter and the topic is left behind.",
@@ -36608,17 +36608,17 @@
    ],
    "repair_check": "Watch for a return visit. When someone is working on this, they ask to come back to your concern after the tears, and then do. A big apology for crying, with the subject still untouched a week later, leaves things unchanged.",
    "boundary_respect_check": "Say you will wait until they are ready, and see what follows. Do they say when? Do they then meet you there? A respected request produces a conversation scheduled and held; a disrespected one produces more tears and a sense that you ought to be sorry.",
-   "psychological_mechanism": "Most of us feel a strong pull to comfort someone who is crying, and that pull can override the reason we raised the subject. When the topic is dropped and the distress ends, the sequence is quietly rewarded for both people, which can make raising problems feel more and more costly. The tears themselves need not be insincere for the sequence to take hold.",
+   "psychological_mechanism": "Most of us feel a strong pull to comfort someone who is crying. That pull can push aside the reason we raised the subject. When the topic is dropped and the distress ends, both people are quietly rewarded, and raising problems can start to cost more and more. The tears do not have to be fake for this to happen.",
    "possible_impact_on_receiver": "Swallowing complaints to avoid causing tears, then feeling guilt and resentment together, is how some tell it. You may come to feel that your concerns are cruel by nature, or that you are too harsh. Over time small issues stay unaddressed, and a growing list of things never said builds up.",
    "response_options": {
     "soft_clarification": "Give space without dropping the subject: 'I can see this is hard. Let's take ten minutes and then come back to it.'",
     "firm_boundary": "Keep the topic alive across the tears: 'I'm not angry, and I do need us to finish this conversation. I'll wait.'",
-    "disengagement": "If tears begin, you can sit quietly, hand over a tissue, and leave the concern for a time you agree on, instead of carrying on in the middle of distress.",
+    "disengagement": "If tears start, you can sit quietly and hand over a tissue. Leave the concern for a time you both agree on, instead of pushing on in the middle of distress.",
     "support_seeking": "Talk to someone who knows you both, or a counselor, about what you notice in the timing. They can help you check that you are not misreading real distress.",
     "workplace_or_professional": "At work, put the concern in an email or meeting note afterward, so it exists on paper whether or not the conversation stalled."
    },
    "boundary_script": "\"I can see you're upset, and I'm not trying to make it worse. Let's pause now and pick this up tomorrow evening, because it still matters to me.\"",
-   "safety_note": "Tears alone are not a danger signal. Pay attention if crying is followed by threats, by accusations that you are harming them, or by promises of self-injury unless you drop the matter. In that case take it to a counselor or crisis service and decide with them how to respond; a one-on-one debate is the wrong place for it.",
+   "safety_note": "Tears alone are not a danger signal. Pay attention if crying is followed by threats, by accusations that you are harming them, or by promises of self-injury unless you drop the matter. In that case, take it to a counselor or crisis service and decide with them how to respond. A one-on-one debate is the wrong place for it.",
    "safety_sensitive": false,
    "misuse_warning": [
     "Treating someone's real tears as a trick is cruel and can silence people who cry easily or are in distress.",
@@ -36632,7 +36632,7 @@
     "Martyrdom Display",
     "Duty Scripts"
    ],
-   "how_to_distinguish_from_related": "Pity Plays perform helplessness or victimhood in general, while Weaponized Tears is tied to the moment a concern is raised and crying takes its place. Guilt-Tripping tries to make a refusal feel wrong; tears can follow a concern with no refusal at all. Martyrdom Display lists sacrifices and needs no tears.",
+   "how_to_distinguish_from_related": "Pity Plays act out helplessness or victimhood in general. Weaponized Tears is tied to the moment a concern is raised, when crying takes its place. Guilt-Tripping tries to make a refusal feel wrong, but tears can follow a concern with no refusal at all. Martyrdom Display lists sacrifices and needs no tears.",
    "detection_notes": "Not matched or scored by this tool. Pasted text cannot establish this concept — included in the Field Guide purely as a literacy reference.",
    "codex_maturity": "mature",
    "human_review_flags": [
@@ -36654,13 +36654,13 @@
    "short_definition": "Handing someone a secret, a sacrifice or a rule they never agreed to, then treating their loyalty as a debt they must pay.",
    "expanded_definition": "Obligation Installation turns closeness into a ledger. A person is told something heavy: a secret, a sacrifice made for them, a private history. Or they are assumed to have agreed to rules nobody said aloud. Later, loyalty is described as what they owe for being trusted, and breaking an unspoken rule is treated as betrayal. Confiding is how intimacy works, so a single disclosure proves nothing. It becomes this when the old trust or the unspoken rule returns as a claim just as you try to disagree or step away.",
    "plain_language_summary": "Someone gives you a secret or a sacrifice, or expects things they never told you about, and later says you owe them for it.",
-   "why_this_matters": "Loyalty stops being something freely given and becomes a debt owed for having been trusted, and terms you never agreed to can then be enforced as though you had.",
+   "why_this_matters": "Loyalty stops being something you give freely. It becomes a debt for having been trusted, and terms you never agreed to can then be enforced as though you had.",
    "what_it_is": [
-    "Gives the listener the role of keeper of a secret, a hardship story or a sacrifice, framed as a mark of special trust.",
+    "Makes the listener the keeper of a secret, a hardship story or a sacrifice, and presents this as a sign of special trust.",
     "Often arrives early in a relationship, when sharing feels like a gift and nobody is counting.",
     "Includes unspoken rules, assumed to have been accepted by staying, that are named only when broken.",
     "The debt is not stated as money. It is stated as loyalty, availability or silence.",
-    "Differs from ordinary confiding by what happens later: the disclosure comes back as a reason you cannot say no."
+    "This differs from ordinary confiding in what happens later. The disclosure comes back as a reason you cannot say no."
    ],
    "what_it_sounds_like": [
     "I've never told anyone this. You're the only one I trust.",
@@ -36672,7 +36672,7 @@
     "You're the one person who knows what I went through. Don't make me regret telling you."
    ],
    "what_it_is_not": [
-    "Confiding in someone is how intimacy works, and mutual disclosure that is never used as leverage is not this. Many relationship expectations go unstated and are still reasonable.",
+    "Confiding in someone is how closeness grows. Sharing that goes both ways and is never used to pressure you is not this. Many expectations in a relationship go unstated and are still reasonable.",
     "A friend who asks you to keep a confidence and then lets you say no to unrelated favors.",
     "Reasonable shared norms such as telling a partner when you'll be late or keeping their private health news private.",
     "Someone who later says 'I never made it clear I expected that, and I'm sorry', and talks it over.",
@@ -36727,22 +36727,22 @@
     "You keep a mental list of what is expected, and it keeps getting longer."
    ],
    "repair_check": "Unwritten rules become written ones. Someone working on this tells you openly what they expect, asks whether you agree and accepts a no. A promise to 'never bring it up again' that returns the next time you disagree has not changed the pattern.",
-   "boundary_respect_check": "Ask whether you are allowed to put the secret down. If you say 'I'd rather not be the only one who knows this', does the person find another source of support, or is that taken as proof that you cannot be trusted? The answer shows how the boundary landed.",
-   "psychological_mechanism": "Being trusted with something personal creates real feelings of closeness and responsibility, and most people want to honor them. When that trust is later cited as a reason to comply, disagreeing can seem to betray the person and not just answer the request. Rules never stated are hard to challenge, because there was no moment to say no.",
+   "boundary_respect_check": "Ask whether you are allowed to put the secret down. Say 'I'd rather not be the only one who knows this'. Does the person find another source of support, or take it as proof that you cannot be trusted? The answer shows how the boundary landed.",
+   "psychological_mechanism": "Being trusted with something personal creates real closeness and a sense of responsibility, and most people want to honor that. When the trust is later named as a reason to comply, disagreeing may look like a betrayal of the person, and more than a reply to a request. Rules never stated are hard to challenge, because there was no moment to say no.",
    "possible_impact_on_receiver": "Feeling trapped by what you know, along with guilt about wanting out, is how some describe it. Some report holding back opinions or avoiding the person whose secret they carry. Others say they could not tell where friendship ended and obligation began, and told almost nobody about it.",
    "response_options": {
     "soft_clarification": "Ask for the expectation to be said aloud: 'I didn't know that was a rule between us. Can you tell me what you were counting on?'",
     "firm_boundary": "Decline the debt while keeping the secret: 'I'll keep what you told me private, and that is separate from whether I can do this.'",
-    "disengagement": "If a confidence is raised whenever you disagree, you can stop being the one who receives new ones and keep conversations to everyday things.",
-    "support_seeking": "Without giving away the secret itself, describe the dynamic to a counselor, who can help you tell loyalty from leverage.",
-    "workplace_or_professional": "At work, ask for expectations to be written into a role description or team agreement, so duties are not discovered only after they have been missed."
+    "disengagement": "If a confidence is brought up whenever you disagree, you can stop being the one who receives new ones. Keep conversations to everyday things.",
+    "support_seeking": "Describe the dynamic to a counselor without giving away the secret itself. They can help you tell loyalty from pressure.",
+    "workplace_or_professional": "At work, ask for expectations to be written into a role description or team agreement. Then duties are not discovered only after they have been missed."
    },
    "boundary_script": "\"I'm honored that you told me that, and I will keep it private. It doesn't mean I owe you a yes on this. Can we talk through what you expect, so I don't find out by getting it wrong?\"",
-   "safety_note": "Pay attention if what you hold is used to scare you: a hint that the secret could be told, or that someone could come to harm if you step away. That moves this into threat territory. Keep a private note of what was said and when, and take it to an advocate or lawyer before responding, especially if the secret involves money, immigration status or safety.",
+   "safety_note": "Pay attention if what you hold is used to scare you, such as a hint that the secret could be told, or that someone could come to harm if you step away. That moves this into threat territory. Keep a private note of what was said and when. Take it to an advocate or lawyer before responding, especially if the secret involves money, immigration status or safety.",
    "safety_sensitive": false,
    "misuse_warning": [
     "Being asked to keep a confidence is not an installed obligation. The label fits when it is later used against your choices.",
-    "Do not apply it to someone who feels hurt that you did not tell them something. They may be reacting to closeness and not to leverage."
+    "Do not apply it to someone who is hurt that you did not tell them something. They may be reacting out of closeness and not trying to hold something over you."
    ],
    "related_tactics": [
     "Guilt-Tripping",
@@ -36752,7 +36752,7 @@
     "Martyrdom Display",
     "Duty Scripts"
    ],
-   "how_to_distinguish_from_related": "Duty Scripts cite a role ('a good son would'), while here the hold comes from something you were told or assumed to have agreed to. Emotional Blackmail makes the relationship itself depend on your yes; Obligation Installation works earlier, setting up the debt before any request. Guilt-Tripping acts on a refusal in the moment, where this lays groundwork for it.",
+   "how_to_distinguish_from_related": "Duty Scripts cite a role ('a good son would'). Here the hold comes from something you were told, or assumed you had agreed to. Emotional Blackmail makes the relationship itself depend on your yes. Obligation Installation works earlier, setting up the debt before any request. Guilt-Tripping acts on a refusal in the moment, while this lays the groundwork for one.",
    "detection_notes": "Not matched or scored by this tool. Pasted text cannot establish this concept — included in the Field Guide purely as a literacy reference.",
    "codex_maturity": "mature",
    "human_review_flags": [
@@ -36774,8 +36774,8 @@
     "Loan-Sharking Gifts"
    ],
    "short_definition": "Giving gifts, favors or help in a way that leaves the receiver in debt, so the giving can be turned into leverage for a later request.",
-   "expanded_definition": "Weaponized generosity is giving that later works as a debt. A gift, favor or loan arrives, often unasked and sometimes in front of others, and is later cited as the reason you should say yes to something else. Some people call these loan-sharking gifts. The kindness looks like honest kindness at the moment it is given. A pattern shows afterwards, when the gift is invoked for a separate demand and warmth drops when you decline.",
-   "plain_language_summary": "Someone does you a favor or gives you something, and later uses it as a reason you must say yes to something else, and treats a no as ingratitude.",
+   "expanded_definition": "Weaponized generosity is giving that later works as a debt. A gift, favor or loan arrives, often unasked and sometimes in front of others. Later it is named as the reason you should say yes to something else. Some people call these loan-sharking gifts. At the moment it is given, the kindness looks like honest kindness. What gives it away comes afterwards, when the gift is brought up for a separate demand and the warmth drops if you decline.",
+   "plain_language_summary": "Someone does you a favor or gives you something. Later they use it as a reason you must say yes to something else, and they treat a no as ingratitude.",
    "why_this_matters": "Accepting a kindness can turn out to have been entering a deal whose price is set later, by someone else, for something unrelated. Witnesses who saw only the giving also raise the cost of saying no.",
    "what_it_is": [
     "Gifts, favors, loans or help that arrive unasked and are remembered in detail by the giver.",
@@ -36794,7 +36794,7 @@
     "I don't want anything for it, but I won't forget this."
    ],
    "what_it_is_not": [
-    "Openly transactional giving: 'I'll lend you the car if you drop me at the airport.' Both sides know the terms and either can say no.",
+    "Openly trade-based giving, like 'I'll lend you the car if you drop me at the airport.' Both sides know the terms, and either can say no.",
     "A person who is directly honest about wanting something in return and accepts a 'no' without consequence.",
     "Reciprocal favors between friends who both understand and welcome the give-and-take.",
     "Generosity that the giver never brings up again, whatever you do.",
@@ -36851,16 +36851,16 @@
    "repair_check": "Watch what happens to the debt itself. They state that nothing is owed for what was given and stop citing it. The next gift, if there is one, comes without an ask attached. A fresh gift offered right after you complained is more of the same pattern.",
    "boundary_respect_check": "Think about what they did the last time you declined. If the help continued as before, the gift was a gift. If it ceased and the favor was mentioned, you have your answer about whether the request was ever really optional.",
    "psychological_mechanism": "Many people feel a strong pull to return favors, and that pull can be used when the giving is unasked or public. Because the gift came first, saying no may seem like cheating someone who was kind to you. Witnesses raise that cost, since refusing means looking ungrateful in front of people who saw only the kindness.",
-   "possible_impact_on_receiver": "Some say they felt trapped by their own gratitude, went back over what they had received to work out what they owed, and turned down help they needed. Some feel foolish for not seeing it earlier. Some grow wary of kindness in general, which can cost them real support from honest people.",
+   "possible_impact_on_receiver": "Some say they felt trapped by their own gratitude. Some went back over what they had received to work out what they owed, and some turned down help they needed. Some feel foolish for not seeing it earlier. Some grow wary of kindness in general, which can cost them real support from honest people.",
    "response_options": {
     "soft_clarification": "Separate the gift from the request: 'I'm grateful for what you did, and I'd like to answer this request on its own. It's a no for me.'",
     "firm_boundary": "Decline to treat the favor as a debt: 'I appreciate it. I can't treat it as something that decides my answer here.'",
-    "disengagement": "Decline further gifts and favors that arrive unasked, politely, and pay for your own costs where you can, so nothing is left outstanding.",
+    "disengagement": "Politely decline further gifts and favors that arrive unasked. Pay for your own costs where you can, so nothing is left outstanding.",
     "support_seeking": "List what you were given and what was later asked for, and show it to someone with no stake in it. Ask if the exchange looks fair to them.",
-    "workplace_or_professional": "At work, thank a colleague or boss for favors, and keep any request to do something in return in writing, so that what was agreed is on record."
+    "workplace_or_professional": "At work, thank a colleague or boss for favors. Keep any request to do something in return in writing, so what was agreed is on record."
    },
    "boundary_script": "\"Your help with that was kind. I want to keep it separate from this decision, and my answer to this is no. If it's the cost that matters to you, tell me the amount and I'll pay it back.\"",
-   "safety_note": "A favor with strings is pressure on your choice, not a danger by itself. It changes if the debt touches where you live, your income or your immigration status, because then refusing puts a roof or livelihood at risk. If what you owe is tied to housing, work or legal status, speak to legal aid or a tenants' or migrant advocate before agreeing to or repaying anything.",
+   "safety_note": "A favor with strings is pressure on your choice, and not a danger by itself. That changes if the debt touches where you live, your income or your immigration status, because then refusing puts a roof or livelihood at risk. If what you owe is tied to housing, work or legal status, speak to legal aid or a tenants' or migrant advocate before agreeing to or repaying anything.",
    "safety_sensitive": false,
    "misuse_warning": [
     "Treating every kind act as a hidden trap can make you refuse honest help, and punish people for generosity. The tell is what is demanded later, not the gift.",
@@ -36874,7 +36874,7 @@
     "Martyrdom Display",
     "Duty Scripts"
    ],
-   "how_to_distinguish_from_related": "Demand for Gratitude asks for thanks as payment for help, while this tactic treats the gift as a debt to be redeemed with a different, unrelated action. Guilt-Tripping works on your conscience after a refusal, without any gift. Pity Plays seek sympathy by displaying helplessness, whereas this one builds an obligation out of something the giver actually handed over.",
+   "how_to_distinguish_from_related": "Demand for Gratitude asks for thanks as payment for help. This tactic treats the gift as a debt to be paid back with a different, unrelated action. Guilt-Tripping works on your conscience after a refusal, without any gift. Pity Plays seek sympathy by showing helplessness, while this one builds an obligation out of something the giver actually handed over.",
    "detection_notes": "Not matched or scored by this tool. Pasted text cannot establish this concept — included in the Field Guide purely as a literacy reference.",
    "codex_maturity": "mature",
    "human_review_flags": [
@@ -36889,14 +36889,14 @@
    "branch": "reference",
    "category": "Guilt & Obligation Leverage",
    "detectability_note": "This tool cannot establish this from pasted text at all. It is included for literacy only, so you can learn to recognize the concept — not as something this tool detects, scores, or flags.",
-   "core_meaning": "Treating a debt from before you were born, a family sacrifice or an ancestor's hardship as something you personally owe and must repay by complying.",
+   "core_meaning": "Treating a debt from before you were born, like a family sacrifice or an ancestor's hardship, as yours to repay by doing what is asked.",
    "aftermath_state": false,
    "forensic_only": false,
    "absorbs": [],
-   "short_definition": "Treating a debt from before you were born, a family sacrifice or an ancestor's hardship as something you personally owe and must repay by complying.",
-   "expanded_definition": "Guilt Legacy asks you to repay what you never borrowed. A parent's sacrifice, a grandparent's journey or a family's hardship is raised as a debt, and compliance with a present demand, such as a marriage, a career, money or where you live, is the payment. Many families hold real values of duty and gratitude, and sharing history is often loving. The pattern appears when the history is cited mainly to settle a current disagreement, and declining is cast as betraying the family line and not just one person.",
+   "short_definition": "Treating a debt from before you were born, like a family sacrifice or an ancestor's hardship, as yours to repay by doing what is asked.",
+   "expanded_definition": "Guilt Legacy asks you to repay what you never borrowed. A parent's sacrifice, a grandparent's journey or a family's hardship is raised as a debt. Going along with a present demand, such as a marriage, a career, money or where you live, is the payment. Many families hold real values of duty and gratitude, and sharing history is often loving. It becomes a pattern when the history is used mainly to settle a current disagreement, and saying no is treated as betraying the whole family line, as well as one person.",
    "plain_language_summary": "A family's past hardship is used as a bill for you, so saying no to something now feels like betraying everyone who came before.",
-   "why_this_matters": "Repayment is expected for a debt incurred before you could have consented to it, and declining reads as a betrayal not of one relationship but of a whole family line.",
+   "why_this_matters": "Repayment is expected for a debt taken on before you could have agreed to it. Saying no is treated as a betrayal of a whole family line, and not of one relationship only.",
    "what_it_is": [
     "Reaches past the people in the room, invoking parents, grandparents or ancestors who cannot be asked.",
     "Treats sacrifices made for the family as a loan to the next generation, with no agreed terms.",
@@ -36914,10 +36914,10 @@
     "You owe us this."
    ],
    "what_it_is_not": [
-    "Family and cultural values around duty and reciprocity are held freely by many people who endorse them, and a parent recounting real history is sharing context and not collecting a debt.",
+    "Many people hold family and cultural values around duty and reciprocity freely, and agree with them. A parent who recounts real history is sharing background, not collecting a debt.",
     "Choosing, as an adult, to support your parents because you want to honor what they gave.",
-    "A relative asking for help during a real crisis, such as an illness, and explaining how the family has always pulled together.",
-    "Cultural norms about duty that differ from your own and are applied evenly, without being held over one specific choice.",
+    "A relative who asks for help during a real crisis, such as an illness, and explains how the family has always pulled together.",
+    "Cultural norms about duty that differ from your own, applied evenly to everyone, and not held over one specific choice.",
     "Parents voicing hurt or fear about your decision while accepting that it is yours.",
     "Family storytelling at holidays, where the past is told for its own sake."
    ],
@@ -36929,7 +36929,7 @@
     "Other relatives who see it differently are described as disloyal or forgetful."
    ],
    "this_may_not_be_it_when": [
-    "The history comes up in many conversations, as story, and not only in disputes.",
+    "The history comes up in many conversations as a story, and in disputes too.",
     "You are free to decline and they respond with sadness and not with talk of betrayal.",
     "The expectation is the same for siblings and cousins and is openly discussed by everyone.",
     "You hold the value yourself and chose it.",
@@ -36955,11 +36955,11 @@
    "less_concerning_if": [
     "The history is shared freely and does not arrive with a request attached.",
     "Your family can disagree openly and remain close.",
-    "Similar duties apply to everyone and not only to you."
+    "Similar duties apply to everyone, you included."
    ],
    "more_concerning_if": [
     "The demand involves marriage, money, housing, immigration status or contact with other people.",
-    "Consequences are hinted at for ignoring it: being cut off, disowned or shamed in front of the community.",
+    "Consequences are hinted at for ignoring it, such as being cut off, disowned or shamed in front of the community.",
     "The debt grows each time you try to meet it."
    ],
    "pattern_over_time_signs": [
@@ -36968,22 +36968,22 @@
     "You keep your plans private, so that nobody can call them a betrayal.",
     "Relatives who once stayed neutral start reciting the same story."
    ],
-   "repair_check": "Change would show in how the history is used. Someone who shifts tells the family story with no demand attached, accepts that the debt was never yours to sign and treats a no as a decision, not a betrayal. A heartfelt talk about sacrifice that ends in the same request leaves things where they were.",
+   "repair_check": "Change would show in how the history is used. Someone who shifts tells the family story with no demand attached. They accept that the debt was never yours to sign, and treat a no as a decision, not a betrayal. A heartfelt talk about sacrifice that ends in the same request leaves things where they were.",
    "boundary_respect_check": "Notice what your decision costs you. If you say you honor your family and have decided anyway, and relatives accept it with sadness but warmth, the boundary is being respected. If the family history comes out again, with new speakers, it is not.",
-   "psychological_mechanism": "Gratitude and loyalty to family are deep and early, and a debt framed as inherited can touch both. Since the people who sacrificed cannot be asked what they would want, the claim is hard to test, and doubting it can seem disrespectful. Several relatives repeating the same story can make a personal choice look like everyone's business.",
+   "psychological_mechanism": "Gratitude and loyalty to family run deep and start early, and a debt described as inherited can touch both. The people who sacrificed cannot be asked what they would want, so the claim is hard to test, and doubting it may look disrespectful. Several relatives repeating the same story can turn a personal choice into everyone's business.",
    "possible_impact_on_receiver": "Many describe a heavy sense of owing, and being unable to enjoy their own achievements without guilt. Some hide plans from the family or make major choices to avoid disappointing people who are no longer alive. A few report a loneliness of being valued for what they repay more than for who they are.",
    "response_options": {
     "soft_clarification": "Acknowledge the history without accepting the debt: 'I know how much was given up for this family, and I'm grateful. I still need to think about this decision for myself.'",
     "firm_boundary": "Hold to one point with every relative: 'I respect what happened before me, and this decision is mine to make.' You do not have to defend your gratitude each time.",
-    "disengagement": "When a long story about the family's sacrifices begins, you can listen politely, say 'thank you for telling me', and leave the decision for another day.",
-    "support_seeking": "Speak with someone who knows both your culture and the pressure, such as a trusted relative, a community elder who respects your choices or a counselor with that background.",
-    "workplace_or_professional": "If a professional decision such as a transfer or job offer is being pressured by family, ask a mentor or career adviser to help you weigh it outside the family conversation."
+    "disengagement": "When a long story about the family's sacrifices begins, you can listen politely and say 'thank you for telling me'. Then leave the decision for another day.",
+    "support_seeking": "Speak with someone who knows both your culture and the pressure. This could be a trusted relative, a community elder who respects your choices or a counselor with that background.",
+    "workplace_or_professional": "If family is pressuring a professional decision, such as a transfer or job offer, ask a mentor or career adviser to help you weigh it outside the family conversation."
    },
    "boundary_script": "\"I know what this family gave up, and I am grateful for it. Being grateful is not the same as owing this decision. Let me tell you what I'm thinking, and please hear me out.\"",
-   "safety_note": "Family guilt over sacrifices is painful but is not by itself a danger. Concern rises when pressure moves from words to control: documents held, money taken or contact limited. A marriage or a move arranged without your agreement, or talk of what will happen if you refuse, also count. If so, do not argue it out alone; reach a domestic violence or forced-marriage helpline, or an advocate familiar with your community, and plan privately.",
+   "safety_note": "Family guilt over sacrifices is painful, but it is not by itself a danger. Concern rises when pressure moves from words to control, such as documents held, money taken or contact limited. A marriage or a move arranged without your agreement, or talk of what will happen if you refuse, also count. If so, do not argue it out alone. Reach a domestic violence or forced-marriage helpline, or an advocate familiar with your community, and plan privately.",
    "safety_sensitive": false,
    "misuse_warning": [
-    "Family duty is a real value in many cultures. Calling a loving, ordinary expectation 'guilt legacy' can dismiss a culture you may need to understand.",
+    "Family duty is a real value in many cultures. Calling a loving, ordinary expectation 'guilt legacy' can brush off a culture you may need to understand.",
     "The label describes how a debt is used, so it should not be applied to a parent simply because they mention their past."
    ],
    "related_tactics": [
@@ -36994,7 +36994,7 @@
     "Martyrdom Display",
     "Duty Scripts"
    ],
-   "how_to_distinguish_from_related": "Duty Scripts invoke a role in the present ('a good son would'); Guilt Legacy invokes a past sacrifice made before you could agree. Guilt-Tripping pressures a refusal in the moment, while this arrives with a long history behind it. Martyrdom Display advertises one person's own sacrifices; here the sacrifices belong to the family line, often people absent from the room.",
+   "how_to_distinguish_from_related": "Duty Scripts invoke a role in the present ('a good son would'). Guilt Legacy invokes a past sacrifice made before you could agree. Guilt-Tripping pressures a refusal in the moment, while this arrives with a long history behind it. Martyrdom Display advertises one person's own sacrifices. Here the sacrifices belong to the family line, often people absent from the room.",
    "detection_notes": "Not matched or scored by this tool. Pasted text cannot establish this concept — included in the Field Guide purely as a literacy reference.",
    "codex_maturity": "mature",
    "human_review_flags": [
@@ -37009,22 +37009,22 @@
    "branch": "reference",
    "category": "Attachment & Affection Control",
    "detectability_note": "This tool cannot establish this from pasted text at all. It is included for literacy only, so you can learn to recognize the concept — not as something this tool detects, scores, or flags.",
-   "core_meaning": "Creating the feeling of deep closeness fast, through early confessions and painful disclosures, before the two people have any shared history to support it.",
+   "core_meaning": "Creating deep closeness fast, through early confessions and painful sharing, before the two people have any shared history to support it.",
    "aftermath_state": false,
    "forensic_only": false,
    "absorbs": [
     "Premature Vulnerability"
    ],
-   "short_definition": "Creating the feeling of deep closeness fast, through early confessions and painful disclosures, before the two people have any shared history to support it.",
+   "short_definition": "Creating deep closeness fast, through early confessions and painful sharing, before the two people have any shared history to support it.",
    "expanded_definition": "Manufactured intimacy is closeness produced by pace instead of time. People call it premature vulnerability when the early sharing is painful. Secrets, painful stories and lines like 'you get me' arrive in the first days or weeks, so the bond feels years old. Sharing pain early is not wrong, and many real bonds start that way. What stands out is closeness running well ahead of what you know, with an unspoken expectation that you will comfort, match it, or stay.",
    "plain_language_summary": "Someone shares deep things, even serious pain, very fast. You end up feeling close to, and responsible for, a person you barely know.",
-   "why_this_matters": "Closeness and duty arrive before any track record can justify them. You can end up trusting at a depth your knowledge of the person cannot support, and stepping back later can feel like abandoning someone in crisis.",
+   "why_this_matters": "Closeness and duty arrive before any track record can justify them. You can end up trusting at a depth your knowledge of the person cannot support. Stepping back later may bring guilt, as if you were abandoning someone in crisis.",
    "what_it_is": [
-    "Confiding that moves faster than the relationship's age, so a two-week acquaintance carries the weight of a ten-year friendship.",
+    "Confiding that runs ahead of how long you have known each other, so a two-week acquaintance carries the weight of a ten-year friendship.",
     "Special status handed out early: you are told you are the first or only person trusted with something.",
-    "Heavy personal pain, such as trauma, loss or betrayal, shared in the first meetings, with an expectation of comfort, attention or commitment in return.",
+    "Heavy personal pain, such as trauma, loss or betrayal, is shared in the first meetings. Comfort, attention or commitment is expected in return.",
     "A feeling of being known that comes from the other person's stories, not from watching how they act over months.",
-    "Closeness that is hard to slow down, because slowing down feels like rejecting a gift or abandoning someone who is hurting."
+    "Closeness that is hard to slow down, because slowing down looks like rejecting a gift, or abandoning someone who is hurting."
    ],
    "what_it_sounds_like": [
     "I've never told anyone this, but I feel like I can tell you.",
@@ -37037,11 +37037,11 @@
     "I opened up to you, and you're holding back. That hurts."
    ],
    "what_it_is_not": [
-    "Some people are simply open by temperament and tell strangers their life story without wanting anything in return.",
+    "Some people are open by nature and tell strangers their life story without wanting anything in return.",
     "A crisis, a shared emergency or a long night on a retreat can bring people close quickly and honestly.",
-    "Early disclosure can be someone testing whether you can be trusted with it, which is a risk they are taking rather than one they are creating.",
+    "Early sharing can be someone testing whether you can be trusted with it. That is a risk they take themselves, and not one they create for you.",
     "Someone still living inside a recent loss will talk about it because it is present, not to speed anything up.",
-    "Two people who both open up at the same pace and both enjoy it are building closeness together, not having it manufactured.",
+    "Two people who open up at the same pace, and both enjoy it, are building closeness together. It is not being manufactured.",
     "Counseling, peer support and recovery groups invite fast, deep sharing in a structure with agreed limits."
    ],
    "this_may_be_it_when": [
@@ -37083,9 +37083,9 @@
     "You can still keep other friendships and routines without anyone minding."
    ],
    "more_concerning_if": [
-    "Early confiding is followed by requests for money, secrecy, favors or time that you would not have agreed to a month before.",
+    "Early confiding is followed by requests for money, secrecy, favors or time. A month earlier, you would not have agreed to them.",
     "Each time you try to slow things down, a new confession or emotional crisis arrives.",
-    "You are told that you are responsible for their safety, or statements about harming themselves are used to keep you close."
+    "You are told that you are responsible for their safety. Or statements about harming themselves are used to keep you close."
    ],
    "pattern_over_time_signs": [
     "The same fast depth appears with each new person they meet, and earlier close friends have quietly dropped away.",
@@ -37095,21 +37095,21 @@
    ],
    "repair_check": "Watch the speed once you have said it aloud. Someone ready to let closeness build will lean on other people too and stop asking you to match their depth. A warm apology soon followed by another round of rapid confiding leaves the pace exactly where it was.",
    "boundary_respect_check": "Notice how you feel after asking for more time. If the conversation stays kind and the relationship carries on at a calmer speed, that is a good sign. If you find yourself justifying the request, or comforting them for being slowed, it has been turned into a wound.",
-   "psychological_mechanism": "Being handed a secret reads as a mark of status, and most of us want to answer trust with trust. Shared disclosure also produces a familiarity that normally comes from time, and a strong pull to comfort someone who is hurting. When these arrive early, the usual step of watching someone across several months can get skipped, and stepping back feels like abandoning them.",
+   "psychological_mechanism": "Being handed a secret is taken as a sign of status, and most of us want to answer trust with trust. Shared disclosure also creates a familiarity that normally comes from time, plus a strong pull to comfort someone who is hurting. When these arrive early, the usual step of watching someone across several months can get skipped. Stepping back then brings guilt, as if you were abandoning them.",
    "possible_impact_on_receiver": "Many accounts move from feeling honored, to overwhelmed, to guilty about being overwhelmed. Some gave up sleep, time and other relationships to stay reachable, then felt disoriented to find the person less known than it seemed. Others doubted their own judgment afterwards for trusting so fast, or found it hard to open up to anyone.",
    "response_options": {
     "soft_clarification": "Name the pace without blaming: 'I like talking with you, and I'm also someone who needs more time to trust. Can we go a bit slower?'",
     "firm_boundary": "Say what you cannot be: 'I can't be the only support you have. I care, and I think you deserve a counselor or friends who can give you more.'",
-    "disengagement": "Let messages and meetings settle to the rate that matches how long you have actually known each other, and end calls warmly at the time you said you would.",
-    "support_seeking": "Describe the first few weeks to a friend who knows you well and ask whether the speed seems as fast to them as it does in hindsight.",
-    "workplace_or_professional": "If a colleague or client confides heavy pain, point them toward an employee assistance program, a counselor or HR, and keep your own disclosures to a level you would accept a manager reading."
+    "disengagement": "Let messages and meetings settle to a rate that matches how long you have actually known each other. End calls warmly at the time you said you would.",
+    "support_seeking": "Describe the first few weeks to a friend who knows you well. Ask whether the speed seems as fast to them as it does in hindsight.",
+    "workplace_or_professional": "If a colleague or client confides heavy pain, point them toward an employee assistance program, a counselor or HR. Keep your own sharing to a level you would accept a manager reading."
    },
    "boundary_script": "\"Trusting me with this means something, and I'm sorry you went through it. I'm still getting to know you, so I'd like this to grow over time instead of all at once. That is about my pace, and it isn't a no. Who else could support you too?\"",
-   "safety_note": "Fast closeness alone is not a danger sign. Take it more seriously when it comes with pressure to hide the relationship, to give money or housing, or when you are told you are responsible for someone's life. If someone says they may hurt themselves, do not carry that alone: contact a crisis line or emergency services for them, and tell a trusted person.",
+   "safety_note": "Fast closeness alone is not a danger sign. Take it more seriously when it comes with pressure to hide the relationship, or to give money or housing, or when you are told you are responsible for someone's life. If someone says they may hurt themselves, do not carry that alone. Contact a crisis line or emergency services for them, and tell a trusted person.",
    "safety_sensitive": true,
    "misuse_warning": [
-    "Treating every quick friendship, open-hearted new partner or person sharing grief as manufactured can punish people for being warm. The label needs a mismatch between closeness and evidence, not just speed.",
-    "Using the term to avoid ever supporting someone in real crisis turns a pattern name into permission to dismiss."
+    "Treating every quick friendship, open-hearted new partner or person sharing grief as manufactured can punish people for being warm. The label needs closeness that outruns the evidence for it, and speed alone is not enough.",
+    "If you use the term to avoid ever supporting someone in real crisis, a name for a pattern becomes permission to dismiss them."
    ],
    "related_tactics": [
     "Love Bombing",
@@ -37119,7 +37119,7 @@
     "Future Faking",
     "Negging"
    ],
-   "how_to_distinguish_from_related": "Love Bombing is marked by praise, gifts and affection; this tactic can run on confiding and pain alone, with hardly a compliment. Exclusive Meaning asserts that only one person truly understands you, a line that may show up after weeks of closeness. Future Faking borrows from tomorrow with promises, while manufactured intimacy borrows from the present by speeding it up.",
+   "how_to_distinguish_from_related": "Love Bombing is marked by praise, gifts and affection. This tactic can run on confiding and pain alone, with hardly a compliment. Exclusive Meaning asserts that only one person truly understands you, a line that may show up after weeks of closeness. Future Faking borrows from tomorrow with promises, while manufactured intimacy borrows from the present by speeding it up.",
    "detection_notes": "Not matched or scored by this tool. Pasted text cannot establish this concept — included in the Field Guide purely as a literacy reference.",
    "codex_maturity": "mature",
    "human_review_flags": [
@@ -37135,20 +37135,20 @@
    "branch": "reference",
    "category": "Attachment & Affection Control",
    "detectability_note": "This tool cannot establish this from pasted text at all. It is included for literacy only, so you can learn to recognize the concept — not as something this tool detects, scores, or flags.",
-   "core_meaning": "Presenting a relationship as fated or cosmically arranged so that doubting it, slowing it down or leaving it feels like going against destiny.",
+   "core_meaning": "Presenting a relationship as fated or cosmically arranged, so that doubting it, slowing it down or leaving it is treated as going against destiny.",
    "aftermath_state": false,
    "forensic_only": false,
    "absorbs": [],
-   "short_definition": "Presenting a relationship as fated or cosmically arranged so that doubting it, slowing it down or leaving it feels like going against destiny.",
-   "expanded_definition": "Manufactured destiny is the use of fate language, such as 'we were meant to meet', 'the universe brought us together' or 'you are my one', to raise the stakes of an ordinary choice. Saying such things once, in love, is common and carries little weight. It becomes a pattern when the fated story arrives very early, grows louder when you hesitate, and turns your doubt into a mistake against something larger than either of you.",
-   "plain_language_summary": "Someone tells you the two of you are meant to be, and each time you hesitate that story is used to make stepping back feel like a mistake you can't undo.",
-   "why_this_matters": "Leaving stops feeling like ending a relationship and starts feeling like defying something larger, which raises the cost of an otherwise ordinary decision to go. Doubt gets treated as a flaw in you rather than as information.",
+   "short_definition": "Presenting a relationship as fated or cosmically arranged, so that doubting it, slowing it down or leaving it is treated as going against destiny.",
+   "expanded_definition": "Manufactured destiny is the use of fate language, such as 'we were meant to meet', 'the universe brought us together' or 'you are my one', to raise the stakes of an ordinary choice. Saying such things once, in love, is common and carries little weight. It becomes a pattern when the fated story arrives very early and grows louder when you hesitate. Your doubt is then treated as a mistake against something larger than either of you.",
+   "plain_language_summary": "Someone tells you the two of you are meant to be. Each time you hesitate, they use that story to make stepping back look like a mistake you can't undo.",
+   "why_this_matters": "Leaving stops being the end of a relationship and becomes defying something larger. That raises the cost of an otherwise ordinary decision to go. Doubt gets treated as a flaw in you and not as information.",
    "what_it_is": [
     "The relationship described as arranged by fate, the universe, God or a past life, so it is more than a choice two people made.",
     "A story told early, when there has not been time to learn whether the match is as rare as claimed.",
     "Hesitation recast as fear, resistance or a failure to see what is plainly written.",
     "The grand language can be sincere, so the sign is in how it is used when you are unsure, not in the words alone.",
-    "A cost placed on exit: the idea that no one else will ever fit, so walking away would be wasting something irreplaceable."
+    "A cost placed on leaving: the idea that no one else will ever fit, so walking away would waste something irreplaceable."
    ],
    "what_it_sounds_like": [
     "We were meant to find each other. This isn't a coincidence.",
@@ -37160,9 +37160,9 @@
     "We have been through too many signs for this to be an accident."
    ],
    "what_it_is_not": [
-    "Two people who sincerely feel something remarkable has happened between them, and both say so in their own words.",
-    "Romantic or spiritual language that is part of someone's culture, faith or personality, used in the same way with everyone they love.",
-    "A person who truly believes in fate, who talks about meaning and timing in many parts of life and is not threatened by your doubts.",
+    "Two people who sincerely sense that something remarkable has happened between them, and both say so in their own words.",
+    "Romantic or spiritual language that is part of someone's culture, faith or personality, and that they use in the same way with everyone they love.",
+    "A person who truly believes in fate and talks about meaning and timing in many parts of life. Your doubts do not threaten them.",
     "Looking back on a good relationship and calling it lucky or meant to be, after the fact.",
     "A grand gesture or sentimental line in the first flush of romance that is not repeated when you hesitate.",
     "Hope for a future together, expressed without making your doubts a problem to be fixed."
@@ -37213,25 +37213,25 @@
    "pattern_over_time_signs": [
     "You notice the fate story comes back every time the two of you hit a hard stretch.",
     "Disagreements get settled by 'we are meant to be together, so this will pass' rather than by talking.",
-    "You begin to defend the relationship to others in destiny terms, because ordinary reasons no longer seem to be enough.",
+    "You begin to defend the relationship to others in terms of destiny, because ordinary reasons no longer seem enough.",
     "Your own wishes for your life shrink as the shared story becomes bigger."
    ],
-   "repair_check": "Listen for ordinary language to take over: 'you're allowed to be unsure, and I'll stop using fate to answer your questions.' If a new sign, dream or omen turns up a week later, the pressure has only changed costume.",
-   "boundary_respect_check": "Ask yourself if you could say 'I don't believe it's fate, and I'd like to decide this as an ordinary choice' and still be safe, liked and listened to. If that sentence is welcomed or argued with kindly, the belief is theirs to hold. If it starts a fight about your faith in the relationship, it was functioning as leverage.",
+   "repair_check": "Listen for ordinary language to take over, such as 'you're allowed to be unsure, and I'll stop using fate to answer your questions.' If a new sign, dream or omen turns up a week later, the pressure has only changed costume.",
+   "boundary_respect_check": "Ask yourself if you could say 'I don't believe it's fate, and I'd like to decide this as an ordinary choice' and still be safe, liked and listened to. If that sentence is welcomed, or argued with kindly, the belief is theirs to hold. If it starts a fight about your faith in the relationship, the belief was working as a lever against you.",
    "psychological_mechanism": "A choice that feels like fate can seem to carry no personal responsibility and an impossible price for reversal. People also tend to resist actions that might waste something they have been told is rare. Framing a relationship as destined can make the ordinary tools of weighing, comparing and slowing down feel disloyal rather than sensible.",
-   "possible_impact_on_receiver": "Reported experiences include feeling trapped by something beautiful, guilty for doubting, and unable to explain to friends why leaving felt so large. Some stayed longer than they wanted because the story made the choice seem not theirs to make, and some grieved the idea itself once the relationship ended.",
+   "possible_impact_on_receiver": "Reported experiences include being trapped by something beautiful, guilty for doubting, and unable to explain to friends why leaving felt so large. Some stayed longer than they wanted because the story made the choice seem not theirs to make. Some grieved the idea itself once the relationship ended.",
    "response_options": {
     "soft_clarification": "Separate the feeling from the decision: 'I can feel this is special to you. I still need to make my choices by what I see, not by what was written for us.'",
     "firm_boundary": "State that the decision is yours and ordinary: 'I'm not going to treat leaving as defying fate. If I need time, I'm taking it.'",
-    "disengagement": "When the conversation shifts to signs and destiny, move it to practical terms or end it for the day, and come back to the facts later.",
-    "support_seeking": "Ask someone who has known you a long time to hear the story as you tell it and say what they would have advised a friend in the same position.",
-    "workplace_or_professional": "If this appears in a mentoring or coaching setting, such as a leader saying you were 'meant' to join, ask for the role, the pay and the exit terms in writing."
+    "disengagement": "When the conversation shifts to signs and destiny, move it to practical terms or end it for the day. Come back to the facts later.",
+    "support_seeking": "Ask someone who has known you a long time to hear the story as you tell it. Ask what they would have advised a friend in the same position.",
+    "workplace_or_professional": "If this shows up in a mentoring or coaching setting, such as a leader saying you were 'meant' to join, ask for the role, the pay and the exit terms in writing."
    },
    "boundary_script": "\"Fated is how it feels to you. I'm treating it as a regular decision that I'm allowed to think about, and slow down, and change my mind on. Please don't use destiny to answer when I say I'm not sure.\"",
    "safety_note": "Fate talk by itself is not a danger signal. Be more careful if leaving is met with threats, or you are told you or others will be harmed or cursed for going. The same is true if decisions about money, housing or contact are taken out of your hands. Then speak to a domestic abuse advocate or someone you trust before you make any announcement.",
    "safety_sensitive": false,
    "misuse_warning": [
-    "Calling every romantic or spiritual declaration manipulative can shame people for sincere feeling. The pattern is in how the story is used against hesitation.",
+    "Calling every romantic or spiritual declaration manipulative can shame people for sincere feeling. What matters is how the story is used against hesitation.",
     "Using the label about someone's religious belief in providence confuses their faith with a tactic."
    ],
    "related_tactics": [
@@ -37242,7 +37242,7 @@
     "Future Faking",
     "Negging"
    ],
-   "how_to_distinguish_from_related": "Attention, gifts and praise are the flood of Love Bombing, which needs no talk of fate. Exclusive Meaning is a claim about your bond with one person, uniquely understood, while destiny is a claim about the relationship's cosmic standing. Future Faking promises particular events to come; this tactic says the future is already settled and your hesitation cannot alter it.",
+   "how_to_distinguish_from_related": "Love Bombing is a flood of attention, gifts and praise, and needs no talk of fate. Exclusive Meaning is a claim about your bond with one person who understands you uniquely. Destiny is a claim about the relationship's cosmic standing. Future Faking promises particular events to come. This tactic says the future is already settled and your hesitation cannot change it.",
    "detection_notes": "Not matched or scored by this tool. Pasted text cannot establish this concept — included in the Field Guide purely as a literacy reference.",
    "codex_maturity": "mature",
    "human_review_flags": [
@@ -37257,14 +37257,14 @@
    "branch": "reference",
    "category": "Attachment & Affection Control",
    "detectability_note": "This tool cannot establish this from pasted text at all. It is included for literacy only, so you can learn to recognize the concept — not as something this tool detects, scores, or flags.",
-   "core_meaning": "Quickly taking on your interests, opinions and way of speaking so that you feel unusually understood and matched, whether or not the match is real.",
+   "core_meaning": "Quickly copying your interests, opinions and way of speaking so you feel unusually understood, whether or not the match is real.",
    "aftermath_state": false,
    "forensic_only": false,
    "absorbs": [],
-   "short_definition": "Quickly taking on your interests, opinions and way of speaking so that you feel unusually understood and matched, whether or not the match is real.",
-   "expanded_definition": "Mirroring-on-demand is the habit of reflecting back what you have just revealed: your taste in music, your politics, your childhood wound, your phrases. Everyone mirrors a little, and rapport usually involves it. The pattern is different in scale and speed. Every interest you mention turns out to be theirs, nothing they say disagrees with you, and the match seems to move when your account of yourself moves. The feeling of rare compatibility rests on a reflection.",
-   "plain_language_summary": "A person seems to share everything you like and believe, and it feels like a perfect match, but the sameness changes shape depending on what you tell them.",
-   "why_this_matters": "A sense of rare alignment forms with a reflection rather than a person. What is later found to be missing was never actually there to lose, and you may come to doubt your own judgment about who you fell for.",
+   "short_definition": "Quickly copying your interests, opinions and way of speaking so you feel unusually understood, whether or not the match is real.",
+   "expanded_definition": "Mirroring-on-demand is the habit of reflecting back what you have just revealed: your taste in music, your politics, your childhood wound, your phrases. Everyone mirrors a little, and rapport usually involves it. The difference here is scale and speed. Every interest you mention turns out to be theirs, nothing they say disagrees with you, and the match seems to move when your account of yourself moves. The feeling of rare compatibility rests on a reflection.",
+   "plain_language_summary": "A person seems to share everything you like and believe, so you sense a perfect match. The sameness changes shape depending on what you tell them.",
+   "why_this_matters": "A sense of rare alignment forms around a reflection, not a person. What is later found to be missing was never actually there to lose. You may come to doubt your own judgment about who you fell for.",
    "what_it_is": [
     "Echoing your tastes, values and stories back so closely that you feel you have found a twin.",
     "Adjusting to whatever you say next: if you shift your view, theirs shifts with you.",
@@ -37282,12 +37282,12 @@
     "I've never met anyone I agree with on everything until now."
    ],
    "what_it_is_not": [
-    "Real compatibility, especially between people who met through a shared interest, produces genuine excitement at how much overlaps.",
+    "Real compatibility, especially between people who met through a shared interest, brings genuine excitement at how much overlaps.",
     "An agreeable, accommodating style is not strategic reflection. Some people avoid conflict with everyone.",
     "Normal rapport, where people unconsciously pick up each other's gestures and speech rhythms in a good conversation.",
     "Being nervous and wanting to be liked on a first date, so you both agree more than you will later.",
     "A person who really is changing their mind because of what you said, openly, and can tell you why.",
-    "The distinction lies in whether the shared enthusiasms have any independent history behind them, or appear complete the moment they are mentioned."
+    "The difference is whether the shared enthusiasms have any history of their own behind them, or appear complete the moment they are mentioned."
    ],
    "this_may_be_it_when": [
     "Their stated interests have no earlier trace: no old posts, belongings, stories or friends who recognize them.",
@@ -37340,20 +37340,20 @@
    ],
    "repair_check": "After you name it, listen for a first disagreement, offered calmly and early. Someone willing to be known will tell you something you did not expect to hear about what they like. A fresh round of 'we're so alike' with new details adapted to what you just said is the pattern continuing.",
    "boundary_respect_check": "Try offering a mild, honest disagreement and see what follows. Can they hold a different view and still be warm? Or does the closeness drop off, or do they swing back to agreeing? Your own comfort in disagreeing is as much of an answer as their reaction.",
-   "psychological_mechanism": "We lean toward those who seem similar to us, and similarity is easily mistaken for being understood. A person who reflects you efficiently supplies that impression without any of the shared history behind it. Because the reflection follows what you reveal, it seems to confirm that you are special, when it may only confirm that you were heard and echoed.",
-   "possible_impact_on_receiver": "An early rush of being understood is common in accounts, followed by confusion once the person's own tastes appear or contradict the match. Some felt foolish, some mourned someone partly invented, and others doubted their instincts because the similarity had been so convincing. A few found they had been quietly editing their own views to protect the match.",
+   "psychological_mechanism": "We lean toward people who seem similar to us, and similarity is easily mistaken for being understood. A person who reflects you well gives that impression without any of the shared history behind it. Because the reflection follows what you reveal, it seems to confirm you are special. It may only confirm that you were heard and echoed.",
+   "possible_impact_on_receiver": "Accounts often describe an early rush of being understood. Confusion follows once the person's own tastes appear or contradict the match. Some felt foolish, some mourned someone partly invented, and others doubted their instincts because the similarity had been so convincing. A few found they had been quietly editing their own views to protect the match.",
    "response_options": {
     "soft_clarification": "Invite a real difference: 'We seem to agree on a lot. Tell me something you like that I probably wouldn't.'",
-    "firm_boundary": "Hold your own opinion without softening it: 'I actually don't see it that way, and I'd like to be able to disagree without it being a problem.'",
+    "firm_boundary": "Keep your own opinion and say it plainly: 'I actually don't see it that way, and I'd like to be able to disagree without it being a problem.'",
     "disengagement": "Slow your sharing. Keep conversations to things you can verify, and step back until their own preferences show up on their own.",
     "support_seeking": "Ask a friend who has met them in a different setting whether the person you describe sounds like the person they saw.",
-    "workplace_or_professional": "In professional settings, notice colleagues who agree with everyone, and weigh decisions on documented work rather than on rapport."
+    "workplace_or_professional": "In professional settings, notice colleagues who agree with everyone. Base decisions on documented work and not on rapport."
    },
    "boundary_script": "\"I like how much we seem to have in common. I also want to know the parts we don't, and I'd rather hear a real disagreement than a perfect match. Can you tell me something you think I'd disagree with?\"",
    "safety_note": "Being mirrored is rarely dangerous in itself. It deserves more care when the match is built to gain access to money, your home, your children or private information. It also does when you learn that the person has been presenting different identities. In that case, stop sharing sensitive details and check their identity with a trusted friend or, for online contacts, the platform's reporting tools.",
    "safety_sensitive": false,
    "misuse_warning": [
-    "Calling every agreeable person a mirror can mislabel shyness or politeness as strategy. Many people agree easily without any plan.",
+    "Not every agreeable person is a mirror. Shyness or politeness can be mislabeled as strategy, and many people agree easily without any plan.",
     "Using the label to dismiss genuine shared interests can punish someone for a real connection."
    ],
    "related_tactics": [
@@ -37364,7 +37364,7 @@
     "Future Faking",
     "Negging"
    ],
-   "how_to_distinguish_from_related": "Praise and affection are what Love Bombing delivers, whereas a mirror may flatter you not at all and simply seem to be you. Exclusive Meaning states outright that you are understood like no one else; mirroring lets you draw that conclusion yourself. Negging lowers your confidence with backhanded compliments, and mirroring does the opposite, by making you feel perfectly matched.",
+   "how_to_distinguish_from_related": "Love Bombing delivers praise and affection. A mirror may not flatter you at all and simply seems to be you. Exclusive Meaning states outright that you are understood like no one else, while mirroring lets you draw that conclusion yourself. Negging lowers your confidence with backhanded compliments. Mirroring does the opposite, by leaving you sure you are perfectly matched.",
    "detection_notes": "Not matched or scored by this tool. Pasted text cannot establish this concept — included in the Field Guide purely as a literacy reference.",
    "codex_maturity": "mature",
    "human_review_flags": [
@@ -37379,18 +37379,18 @@
    "branch": "reference",
    "category": "Attachment & Affection Control",
    "detectability_note": "This tool cannot establish this from pasted text at all. It is included for literacy only, so you can learn to recognize the concept — not as something this tool detects, scores, or flags.",
-   "core_meaning": "Showing need that seems helpless, so that you step in, take over tasks or feelings without being asked, and your effort is treated as devotion.",
+   "core_meaning": "Showing need that seems helpless, so you step in and take over tasks or feelings without being asked, and your effort is treated as devotion.",
    "aftermath_state": false,
    "forensic_only": false,
    "absorbs": [],
-   "short_definition": "Showing need that seems helpless, so that you step in, take over tasks or feelings without being asked, and your effort is treated as devotion.",
+   "short_definition": "Showing need that seems helpless, so you step in and take over tasks or feelings without being asked, and your effort is treated as devotion.",
    "expanded_definition": "The rescue hook is a pattern where need is shown rather than stated. The person sighs over the bill, the broken appliance or the hard day, and you step in because they obviously cannot cope. No request is made, so there is nothing to decline. Over time you become the one who manages logistics or feelings, and it is called love. A single bad week proves nothing. What marks the pattern is need that appears reliably around you, with help expected and never asked for.",
-   "plain_language_summary": "Someone seems unable to cope, you step in without being asked, and over time you are doing a large share of their life while it is called caring.",
-   "why_this_matters": "Substantial labor is given without ever having been asked for, so there is nothing to point at as an imposition and no clear moment at which it could have been declined. You can end up exhausted, with no way to name how it began.",
+   "plain_language_summary": "Someone seems unable to cope, and you step in without being asked. Over time you do a large share of their life, and it is called caring.",
+   "why_this_matters": "You give a lot of work without ever being asked, so there is nothing to point at as an imposition. There is no clear moment when you could have declined. You can end up exhausted, with no way to name how it began.",
    "what_it_is": [
     "Need that is shown through sighs, hints and visible struggle rather than requested outright.",
     "Help that arrives because you volunteer, so it feels like your own choice and not something drawn out of you.",
-    "Tasks, decisions or emotional steadiness gradually shifting onto you until you are managing their life as well as yours.",
+    "Tasks, decisions or emotional steadiness slowly shift onto you, until you are managing their life as well as yours.",
     "Gratitude that carries a weight: the relationship is described as depending on your continuing to help.",
     "Struggle that appears in front of you and eases when you are not there or when someone else is."
    ],
@@ -37404,7 +37404,7 @@
     "Don't worry about me. I'll just have a bad week."
    ],
    "what_it_is_not": [
-    "People genuinely struggle with specific skills, and someone raised without a task ever modeled to them has real rather than performed difficulty.",
+    "People do struggle with specific skills. Someone raised without a task ever being shown to them has real difficulty, not performed difficulty.",
     "An uneven division of tasks along the lines of who is better at what is normal in most households.",
     "A person going through illness, grief, a new baby or job loss who truly needs help for a while and says so plainly.",
     "A direct request such as 'Could you help me with this on Saturday?', which you can accept or decline.",
@@ -37427,7 +37427,7 @@
    ],
    "innocent_or_ordinary_possibilities": [
     "Genuine skill gaps and situational struggles are common and do not require strategic intent.",
-    "Depression, anxiety, neurodivergence or illness can make everyday tasks truly hard, and visible struggle may be the best the person can manage.",
+    "Depression, anxiety, neurodivergence or illness can make everyday tasks truly hard. Visible struggle may be the best the person can manage.",
     "Some people were taught never to ask directly, so they hint instead.",
     "People naturally divide labor based on real differences in ability or interest."
    ],
@@ -37462,21 +37462,21 @@
    ],
    "repair_check": "Look for needs that start arriving as plain requests you can answer yes or no to. Repair also includes tackling tasks themselves, even clumsily. A warm thank-you, then the same sighing helplessness a week later, means the setup is still running.",
    "boundary_respect_check": "Decline one thing, kindly, and see what happens next. Do they ask someone else, work it out, or accept the delay? Or does the day turn into a crisis that makes your refusal look cruel? The reaction to one small 'not today' tells you more than any speech.",
-   "psychological_mechanism": "Seeing someone who seems unable to cope pulls many of us toward helping, and stepping in unprompted feels like a free choice. Since help was never requested, refusing later looks like abandoning someone instead of declining a favor. Responsibility drifts to the helper and comfort to the other person, without either of them deciding it.",
-   "possible_impact_on_receiver": "People describe tiredness, resentment they feel guilty about, and the sense of being needed more than known. Some say they lost track of their own plans and friendships, and found it hard to explain what was wrong because they had volunteered every time. Others describe relief when they realized that they could offer help without being the only source of it.",
+   "psychological_mechanism": "Seeing someone who seems unable to cope pulls many of us toward helping, and stepping in unprompted looks like a free choice. Since help was never requested, refusing later looks like abandoning someone instead of declining a favor. Responsibility drifts to the helper and comfort to the other person, without either of them deciding it.",
+   "possible_impact_on_receiver": "Common accounts include tiredness, resentment that brings guilt, and a sense of being needed more than known. Some say they lost track of their own plans and friendships. They found it hard to explain what was wrong because they had volunteered every time. Others describe relief when they realized they could offer help without being the only source of it.",
    "response_options": {
     "soft_clarification": "Ask for requests, not hints: 'When something's hard, can you tell me what you'd like from me? I'm happy to say yes or no.'",
     "firm_boundary": "Set a limit on a specific task: 'I won't take over your bills any more, but I'll sit with you while you sort them out this once.'",
     "disengagement": "Stop anticipating. Let a smaller problem sit for a day before responding, and notice what they do in the gap.",
-    "support_seeking": "List what you currently do for them on paper and show it to a friend or counselor, asking whether it looks like a fair share.",
-    "workplace_or_professional": "At work, redirect repeated requests to the proper channel, such as a manager or a help desk, and keep a record of what you covered."
+    "support_seeking": "Write down what you currently do for them and show the list to a friend or counselor. Ask whether it looks like a fair share.",
+    "workplace_or_professional": "At work, send repeated requests to the proper channel, such as a manager or a help desk. Keep a record of what you covered."
    },
    "boundary_script": "\"I care about you, and I can see this is hard. I can't be the one who fixes everything. Tell me what you'd like from me and I'll tell you honestly whether I can do it. I'll also help you find someone else who can.\"",
-   "safety_note": "This pattern is mostly about workload and guilt, not danger. Take more care if stepping back leads to threats, self-harm statements, anger or the loss of housing or income you rely on. If someone says they might hurt themselves, contact local emergency services or a crisis line for them and for yourself, rather than carrying that alone.",
+   "safety_note": "This pattern is mostly about workload and guilt, and not danger. Take more care if stepping back leads to threats, self-harm statements, anger or the loss of housing or income you rely on. If someone says they might hurt themselves, contact local emergency services or a crisis line for them and for yourself. Do not carry that alone.",
    "safety_sensitive": false,
    "misuse_warning": [
     "Labeling everyone who needs help as a hook can leave truly struggling people without support. Illness, disability and hard seasons are not tactics.",
-    "Using the label to justify walking away from someone with real needs, without any attempt to talk, treats a pattern as a verdict."
+    "If you use the label to walk away from someone with real needs, without trying to talk first, you treat a pattern as a verdict."
    ],
    "related_tactics": [
     "Love Bombing",
@@ -37501,16 +37501,16 @@
    "branch": "reference",
    "category": "Attachment & Affection Control",
    "detectability_note": "This tool cannot establish this from pasted text at all. It is included for literacy only, so you can learn to recognize the concept — not as something this tool detects, scores, or flags.",
-   "core_meaning": "A steady, one-way arrangement in which one person's feelings take most of the attention and care while the other is left drained, with little given back.",
+   "core_meaning": "A steady, one-way arrangement where one person's feelings get most of the attention and care, and the other is left drained with little given back.",
    "aftermath_state": false,
    "forensic_only": false,
    "absorbs": [],
-   "short_definition": "A steady, one-way arrangement in which one person's feelings take most of the attention and care while the other is left drained, with little given back.",
-   "expanded_definition": "Emotional parasitism describes a relationship in which one person reliably receives comfort, attention and emotional work, and the other reliably provides it, over a long period. Every friendship has uneven weeks, and a friend in crisis may take much more than they give. The pattern is the imbalance that does not even out: conversations circle back to one person's difficulties, your concerns get little follow-up, and you leave feeling emptied while they seem lifted.",
-   "plain_language_summary": "You give most of the listening, comfort and energy, they give little back, and over months or years you are tired in a way that rest does not fix.",
-   "why_this_matters": "Depletion accumulates so gradually that it registers as a personal failing, such as tiredness or low tolerance, rather than as the arithmetic of a relationship that never balances. You may blame yourself for running out of patience.",
+   "short_definition": "A steady, one-way arrangement where one person's feelings get most of the attention and care, and the other is left drained with little given back.",
+   "expanded_definition": "Emotional parasitism describes a relationship where, over a long period, one person reliably receives comfort, attention and emotional work, and the other reliably gives it. Every friendship has uneven weeks, and a friend in crisis may take much more than they give. The pattern is an imbalance that does not even out. Conversations circle back to one person's difficulties, your concerns get little follow-up, and you leave drained while they seem lifted.",
+   "plain_language_summary": "You give most of the listening, comfort and energy, and they give little back. Over months or years you grow tired in a way that rest does not fix.",
+   "why_this_matters": "The drain builds so slowly that it looks like a personal failing, such as tiredness or low patience. It is really the arithmetic of a relationship that never balances. You may blame yourself for running out of patience.",
    "what_it_is": [
-    "A lasting imbalance where one person is nearly always the giver and the other nearly always the receiver of emotional support.",
+    "A lasting imbalance where one person is nearly always the giver of emotional support and the other nearly always the receiver.",
     "Conversations that return to the same person's crises, with your news getting a sentence or two.",
     "A pattern that holds across years rather than weeks, whatever else is happening in either life.",
     "A cost to the giver that builds slowly: tiredness, dread before calls, a sense of being used up.",
@@ -37526,10 +37526,10 @@
     "You're the only one I can tell all of this to."
    ],
    "what_it_is_not": [
-    "A friend going through a genuinely hard stretch needs more for a while, and reciprocity resuming once things stabilize is ordinary.",
+    "A friend going through a genuinely hard stretch needs more for a while. It is ordinary for giving to even out again once things settle.",
     "Someone with their own significant unmet needs may be unable rather than unwilling to give back.",
     "What distinguishes the pattern is an imbalance that is stable across years rather than weeks.",
-    "A caring role you chose, such as supporting a sick relative or a person in recovery, where the imbalance is understood and agreed.",
+    "A caring role you chose, such as supporting a sick relative or a person in recovery, where both sides understand and agree to the imbalance.",
     "A therapist, counselor or helper who is paid for a one-sided relationship.",
     "Different needs for talk: a more expressive friend who talks more, yet shows up for you in other ways."
    ],
@@ -37587,18 +37587,18 @@
    "psychological_mechanism": "Giving support is rewarding, and the person receiving it may come to depend on one source without noticing what it costs. If the giver also finds it hard to ask for anything, the arrangement settles into place with nobody choosing it. Because tiredness builds slowly, it reads as a personal flaw rather than the result of a lopsided deal.",
    "possible_impact_on_receiver": "People describe dread before calls, a feeling of being used up, and guilt about the dread. Some say they started to believe they were bad at friendship, or that their own problems were too small to mention. Others describe relief and anger on seeing the long-run balance written down, and difficulty knowing how to change a relationship of many years.",
    "response_options": {
-    "soft_clarification": "Say what you would like once, kindly: 'I'd love to hear about you, and I also need some time for what's going on with me. Can we share the time?'",
+    "soft_clarification": "Say once, kindly, what you would like: 'I'd love to hear about you, and I also need some time for what's going on with me. Can we share the time?'",
     "firm_boundary": "Put a limit on the format: 'I can talk for twenty minutes tonight. After that I need to rest.'",
     "disengagement": "Reduce how often you reach out first, and let contact settle at a level that doesn't cost you. Notice what they do with the space.",
-    "support_seeking": "Spend time with people who ask about you, and consider a counselor to help you practice asking for what you need without apology.",
-    "workplace_or_professional": "At work, redirect repeated emotional venting to an appropriate channel, such as a mentor or employee assistance program, and keep your own workload visible."
+    "support_seeking": "Spend time with people who ask about you. Consider a counselor to help you practice asking for what you need without apology.",
+    "workplace_or_professional": "At work, send repeated emotional venting to a suitable channel, such as a mentor or employee assistance program. Keep your own workload visible."
    },
    "boundary_script": "\"I care about you, and I've noticed that most of our time goes to your side of things. I need a bit of space for mine as well. Could we try taking turns, so I'm not worn out by the end?\"",
    "safety_note": "A lopsided friendship is draining but not usually dangerous. That changes if stepping back brings threats, self-harm statements, harassment or demands for money or housing. Then pause contact where you can and keep a record of what was said. Speak to a counselor, advice service or crisis line for a plan that keeps you both safe.",
    "safety_sensitive": false,
    "misuse_warning": [
     "Calling a friend in a hard season a parasite can abandon someone who truly needs you. The pattern requires a stable imbalance over a long period.",
-    "Using the term as a character label for someone with greater needs, such as an unwell relative, turns a description of a relationship into a verdict on a person."
+    "Do not use the term as a character label for someone with greater needs, like an unwell relative. That turns a description of a relationship into a verdict on a person."
    ],
    "related_tactics": [
     "Love Bombing",
@@ -37608,7 +37608,7 @@
     "Future Faking",
     "Negging"
    ],
-   "how_to_distinguish_from_related": "Premature Vulnerability is an early burst of heavy disclosure that creates a duty, while parasitism is a long-run imbalance that can exist in a relationship of many years. The Rescue Hook draws you into practical tasks through visible helplessness, whereas parasitism is about emotional attention. Warmth poured on at the start is the opposite of this slow drain, and belongs to Love Bombing.",
+   "how_to_distinguish_from_related": "Premature Vulnerability is an early burst of heavy disclosure that creates a duty. Parasitism is a long-run imbalance that can exist in a relationship of many years. The Rescue Hook draws you into practical tasks through visible helplessness, while parasitism is about emotional attention. Warmth poured on at the start is the opposite of this slow drain, and belongs to Love Bombing.",
    "detection_notes": "Not matched or scored by this tool. Pasted text cannot establish this concept — included in the Field Guide purely as a literacy reference.",
    "codex_maturity": "mature",
    "human_review_flags": [
@@ -37623,18 +37623,18 @@
    "branch": "reference",
    "category": "Control & Domination",
    "detectability_note": "This tool cannot establish this from pasted text at all. It is included for literacy only, so you can learn to recognize the concept — not as something this tool detects, scores, or flags.",
-   "core_meaning": "Narrowing what someone reads, hears and learns, and who they talk to, so that one person's account becomes the main version of events available to them.",
+   "core_meaning": "Narrowing what someone reads, hears and learns, and who they talk to, so one person's account becomes the main version of events they have.",
    "aftermath_state": false,
    "forensic_only": false,
    "absorbs": [],
-   "short_definition": "Narrowing what someone reads, hears and learns, and who they talk to, so that one person's account becomes the main version of events available to them.",
+   "short_definition": "Narrowing what someone reads, hears and learns, and who they talk to, so one person's account becomes the main version of events they have.",
    "expanded_definition": "Information Control is the filtering of what reaches someone: which news, advice, people and records they see, and whose account of events counts. It can look like advising against sources, holding the mail or the accounts, answering for the person, or reacting sharply whenever outside information appears. It is close to Isolation, but the focus is the flow of facts and the story, not who you may see. Warning about a bad source is ordinary. What marks it is outside views being shut off again and again, leaving the person little way to check anything for themselves.",
-   "plain_language_summary": "One person decides what you get to read, hear and know, so their version of events is the only one you have to think with.",
-   "why_this_matters": "A second opinion never reaches you, so a single account of events is all you have to reason with, and your doubts about it have nothing to be checked against.",
+   "plain_language_summary": "One person decides what you get to read, hear and know. Their version of events is then the only one you have to think with.",
+   "why_this_matters": "A second opinion never reaches you. A single account is all you have to reason with, and your doubts about it have nothing to be checked against.",
    "what_it_is": [
-    "Steering away from particular sources, such as a doctor, a relative, a news site or a support group, and offering a replacement that comes from the same person.",
+    "Steering you away from certain sources, such as a doctor, a relative, a news site or a support group. A replacement is offered that comes from the same person.",
     "Handling the flow: opening the mail, holding the passwords, speaking for you on calls, or sitting in on appointments.",
-    "Labeling outsiders as unreliable or hostile in advance, so what they say is discounted before you hear it.",
+    "Calling outsiders unreliable or hostile in advance, so what they say is dismissed before you hear it.",
     "Reacting with anger, hurt or mockery whenever you bring in something from elsewhere.",
     "Occurring in couples, families, workplaces and groups where a leader decides what members may read."
    ],
@@ -37652,7 +37652,7 @@
     "Someone who is simply uninformed and has no outside views to pass on, so is filtering nothing.",
     "Limits on what young children watch or read, which loosen as the child grows.",
     "A confidentiality rule at work that is disclosed to everyone, such as not discussing client files.",
-    "Taking over paperwork at your request, like a partner who handles the mail while you recover from surgery and hands it back when you ask.",
+    "Taking over paperwork because you asked, like a partner who handles the mail while you recover from surgery. They hand it back when you ask.",
     "A friend who disagrees with an article you shared and says why."
    ],
    "this_may_be_it_when": [
@@ -37702,23 +37702,23 @@
     "You hesitate before sharing anything you find with this person.",
     "Your picture of your own finances, health or family comes mostly from one voice."
    ],
-   "repair_check": "What comes back to you is the measure: passwords handed over, post opened by you, calls you make alone, outside sources discussed without a sneer. An apology while the same person still answers the phone for you leaves the channel as it was.",
+   "repair_check": "Look at what comes back to you: passwords handed over, post opened by you, calls you make alone, and outside sources discussed without a sneer. An apology changes little if the same person still answers the phone for you.",
    "boundary_respect_check": "Ask yourself a plain question after you request something: was it simply handed to you, and could you talk about it afterwards? If the conversation turns to why you needed to look, the request is being treated as the problem.",
-   "psychological_mechanism": "A person's sense of what is true leans heavily on cross-checking with others. When one source supplies most of the facts and discounts the rest in advance, the cross-check weakens, and the person may come to treat that source as the only reliable one. The more they depend on it for housing, money or belonging, the harder it can be to test its version.",
-   "possible_impact_on_receiver": "Many are oddly unsure what is happening in their own finances, health or family, lean on one voice for facts, and feel guilty for wanting to look something up. Some find later that what they were told was incomplete, and grieve the lost time. Others feel foggy or isolated even when surrounded by people.",
+   "psychological_mechanism": "A person's sense of what is true leans heavily on cross-checking with others. When one source supplies most of the facts and dismisses the rest in advance, the cross-check weakens. The person may come to treat that source as the only reliable one. The more they depend on it for housing, money or belonging, the harder it can be to test its version.",
+   "possible_impact_on_receiver": "Many are oddly unsure what is happening in their own finances, health or family. They lean on one voice for facts and feel guilty for wanting to look something up. Some find later that what they were told was incomplete, and grieve the lost time. Others feel foggy or isolated even when surrounded by people.",
    "response_options": {
-    "soft_clarification": "Ask for the information itself, calmly: 'Can you forward me that letter so I can read it too?' Their answer shows whether sharing is possible.",
-    "firm_boundary": "If past reactions suggest it is safe, state a plain need once: 'I'd like to read the letter myself.' If not, skip it; an advocate can help you reach your statements and mail another way.",
-    "disengagement": "Stop explaining where you got a piece of information. You can read, call or ask someone in your own time and keep what you learn to yourself until you know what to do with it.",
-    "support_seeking": "Check one or two facts you were given with an outside source you trust, like your own doctor, a bank, a library or a friend who knew you before, and compare.",
+    "soft_clarification": "Calmly ask for the information itself: 'Can you forward me that letter so I can read it too?' Their answer shows whether sharing is possible.",
+    "firm_boundary": "If past reactions suggest it is safe, say one plain need: 'I'd like to read the letter myself.' If not, skip it. An advocate can help you reach your statements and mail another way.",
+    "disengagement": "Stop explaining where you got a piece of information. You can read, call or ask someone in your own time. Keep what you learn to yourself until you know what to do with it.",
+    "support_seeking": "Check one or two facts you were given with an outside source you trust, and compare. This could be your own doctor, a bank, a library or a friend who knew you before.",
     "workplace_or_professional": "In an organization, ask for the policy or notice in writing, and ask who else has seen it. Written records give you something to check against if information is withheld."
    },
    "boundary_script": "\"Could you send me a copy so I can read it myself? After that, I want to hear what you think of it.\" Skip this if asking has gone badly before.",
-   "safety_note": "Control over information turns serious when it covers your phone, mail, identity documents, medical care or money, or when asking for them brings anger or threats. Keep a list of key numbers and copies of key documents somewhere only you can reach, such as a trusted friend's home. Ask a domestic abuse advocate about safe ways to rebuild your own access.",
+   "safety_note": "Control over information turns serious when it covers your phone, mail, identity documents, medical care or money. It is also serious when asking for them brings anger or threats. Keep a list of key numbers and copies of key documents somewhere only you can reach, such as a trusted friend's home. Ask a domestic abuse advocate about safe ways to rebuild your own access.",
    "safety_sensitive": true,
    "misuse_warning": [
     "Labeling a person who recommends one source over another as 'controlling' mistakes an opinion for a block. The question is whether you can go and look.",
-    "Applying it to a clinic, school or company that keeps things confidential assumes control where there is only a duty of privacy."
+    "Do not apply it to a clinic, school or company that keeps things confidential. That is a duty of privacy, and not control."
    ],
    "related_tactics": [
     "Isolation",
@@ -37728,7 +37728,7 @@
     "Infantilization",
     "\"I Know Best\" Paternalism"
    ],
-   "how_to_distinguish_from_related": "Isolation works on your relationships and who you may see, while Information Control works on what you may know, and can operate with you in a room full of people. Monitoring & Surveillance watches what you do; here the focus is what reaches you. \"I Know Best\" Paternalism overrides your choices openly, whereas this one narrows what you have to choose from.",
+   "how_to_distinguish_from_related": "Isolation works on your relationships and who you may see. Information Control works on what you may know, and can operate with you in a room full of people. Monitoring & Surveillance watches what you do, while here the focus is what reaches you. \"I Know Best\" Paternalism overrides your choices openly. This one narrows what you have to choose from.",
    "detection_notes": "Not matched or scored by this tool. Pasted text cannot establish this concept — included in the Field Guide purely as a literacy reference.",
    "codex_maturity": "mature",
    "human_review_flags": [
@@ -37744,13 +37744,13 @@
    "branch": "reference",
    "category": "Control & Domination",
    "detectability_note": "This tool cannot establish this from pasted text at all. It is included for literacy only, so you can learn to recognize the concept — not as something this tool detects, scores, or flags.",
-   "core_meaning": "Insisting on passwords, an unlocked phone or account logins as proof of trust, so that having a private space is read as a sign of hiding something.",
+   "core_meaning": "Insisting on passwords, an unlocked phone or account logins as proof of trust, so that having a private space is read as hiding something.",
    "aftermath_state": false,
    "forensic_only": false,
    "absorbs": [],
-   "short_definition": "Insisting on passwords, an unlocked phone or account logins as proof of trust, so that having a private space is read as a sign of hiding something.",
-   "expanded_definition": "Device Access Demands means requiring someone to hand over passwords, unlock their phone on request, or share logins to email, messages and social accounts. The demand is usually offered as reassurance, safety or the price of trust, or backed by an institution's authority. Sharing that both people chose, and can end, is a different thing; couples, families and workplaces do share some access. What marks it is access that is required rather than offered, a scope that keeps growing, and a refusal read as proof of concealment.",
-   "plain_language_summary": "You are expected to hand over your phone or passwords whenever asked, and saying no is treated as if it proves you have something to hide.",
+   "short_definition": "Insisting on passwords, an unlocked phone or account logins as proof of trust, so that having a private space is read as hiding something.",
+   "expanded_definition": "Device Access Demands means requiring someone to hand over passwords, unlock their phone on request, or share logins to email, messages and social accounts. The demand is usually offered as reassurance, safety or the price of trust, or backed by an institution's authority. Sharing that both people chose, and can end, is different, and couples, families and workplaces do share some access. What marks it is access that is required rather than offered, a scope that keeps growing, and a refusal read as proof of concealment.",
+   "plain_language_summary": "You are expected to hand over your phone or passwords whenever asked. Saying no is treated as proof that you have something to hide.",
    "why_this_matters": "Once saying no looks like guilt, privacy has to be defended instead of assumed. People can lose the ordinary sense that their messages, searches and private thoughts belong to them.",
    "what_it_is": [
     "A request to see, unlock or log in to a phone, email, social accounts or cloud storage, often on demand and at any time.",
@@ -37769,10 +37769,10 @@
     "I just need to check that you're being safe online."
    ],
    "what_it_is_not": [
-    "A mutually agreed, revocable arrangement, such as managing a young child's tablet or sharing a family account that either person can leave.",
+    "An arrangement both people agreed to and can end, such as managing a young child's tablet or sharing a family account that either person can leave.",
     "A disclosed institutional requirement applied to everyone, such as monitored work accounts with the policy in writing.",
     "A streaming login, shared calendar or photo library that you both set up and either of you can end.",
-    "A one-off, like handing over a phone to show a specific message, with permission asked and the scope limited to that message.",
+    "A one-off, like handing over a phone to show one specific message, where permission is asked and the scope stays limited to that message.",
     "Sharing a phone code with a trusted person while traveling, which you choose and undo."
    ],
    "this_may_be_it_when": [
@@ -37790,7 +37790,7 @@
     "The device is a child's and the access matches the child's age."
    ],
    "innocent_or_ordinary_possibilities": [
-    "Someone who has been cheated on, or who worries a great deal about safety, may ask for reassurance clumsily, and may let it go once the fear has been talked through.",
+    "Someone who has been cheated on, or who worries a great deal about safety, may ask for reassurance clumsily. They may let it go once the fear has been talked through.",
     "Couples who grew up sharing everything may treat a shared phone as natural.",
     "Some workplaces, schools and clubs require monitored accounts and say so up front."
    ],
@@ -37825,21 +37825,21 @@
    ],
    "repair_check": "Repair means the access ends because you asked, and the phone stays yours afterwards. Pay attention to whether they let you change passcodes, stop asking, and cope with their own unease without a check. A promise to 'only look sometimes' keeps the demand alive.",
    "boundary_respect_check": "Ask yourself what happens when you simply keep the phone locked. Is there a conversation about the worry underneath, or a growing case that you are hiding something? Respect for privacy can sit beside the other person feeling uneasy; it does not require you to prove innocence.",
-   "psychological_mechanism": "Refusal gets recast as evidence, so a person who keeps privacy can look guilty just by keeping it. Over time, people may start to get ahead of the checks by deleting, avoiding or editing what they say, which shrinks their private life to what would survive being seen. Being observed can also make it harder to think, speak or confide freely.",
+   "psychological_mechanism": "Refusal gets recast as evidence, so a person who keeps privacy can look guilty just by keeping it. As time goes on, people may start to get ahead of the checks by deleting, avoiding or editing what they say. Their private life shrinks to what would survive being seen. Being observed can also make it harder to think, speak or confide freely.",
    "possible_impact_on_receiver": "Self-censorship creeps in: rewording texts, avoiding friends, feeling watched even when the phone is out of sight. Some feel ashamed for objecting and wonder whether they really do have something to hide. Others describe exhaustion from managing what might be read, and drifting away from people who were once easy to talk to.",
    "response_options": {
     "soft_clarification": "Ask about the worry underneath rather than defending the phone: 'You sound frightened of something. Can you tell me what, and we can see what would help?'",
     "firm_boundary": "Offer what you will share, in terms of one item: 'I'll show you the photo you asked about. I'm not going to unlock the whole phone.' If you expect anger, choose a calm moment or talk to an advocate first.",
     "disengagement": "If a demand starts mid-argument, say you'll talk about it later and move on to another task. Keep your phone with you and use a code only you know.",
-    "support_seeking": "Use someone else's phone or a library computer to talk to a friend, helpline or advocate about the demands, in case your own device is being read.",
-    "workplace_or_professional": "If an employer asks about a personal phone, ask which written policy requires it, and check with HR or a union before handing over anything beyond work accounts."
+    "support_seeking": "Use someone else's phone or a library computer to talk to a friend, helpline or advocate about the demands. Do this in case your own device is being read.",
+    "workplace_or_professional": "If an employer asks about a personal phone, ask which written policy requires it. Check with HR or a union before handing over anything beyond work accounts."
    },
-   "boundary_script": "\"I can tell you're worried, and I want to talk about that. What would help you feel more settled right now? I'd rather tell you things than have my phone checked.\" Try it only if a calm reaction is likely, and otherwise speak with an advocate first.",
-   "safety_note": "Access demands can sit alongside stalking, or threats about what will be done with whatever is found. Warning signs: the other person knows things you never told them, apps you did not install, or fear of what happens if you change a passcode. Contact a domestic abuse advocate from a device they cannot reach, and ask how to check your phone safely for tracking software.",
+   "boundary_script": "\"I can tell you're worried, and I want to talk about that. What would help you feel more settled right now? I'd rather tell you things than have my phone checked.\" Try it only if a calm reaction is likely. Otherwise, speak with an advocate first.",
+   "safety_note": "Access demands can sit alongside stalking, or threats about what will be done with whatever is found. Warning signs include the other person knowing things you never told them, apps you did not install, or fear of what happens if you change a passcode. Contact a domestic abuse advocate from a device they cannot reach, and ask how to check your phone safely for tracking software.",
    "safety_sensitive": true,
    "misuse_warning": [
-    "Treating a parent's age-appropriate checks on a child's device, or a partner's one-off 'show me that text', as this pattern overlooks consent and scope.",
-    "The label can be used to avoid accountability after someone has actually broken a trust, when a mutual conversation about rebuilding it would be fairer."
+    "A parent's age-appropriate checks on a child's device, or a partner's one-off 'show me that text', are not this pattern. Treating them as if they were overlooks consent and scope.",
+    "The label can be used to avoid accountability after someone has actually broken a trust. A mutual conversation about rebuilding that trust would be fairer."
    ],
    "related_tactics": [
     "Isolation",
@@ -37849,7 +37849,7 @@
     "Infantilization",
     "\"I Know Best\" Paternalism"
    ],
-   "how_to_distinguish_from_related": "Monitoring & Surveillance covers any constant accounting of your day, whereas Device Access Demands is the specific act of getting into your phone and accounts. Location Tracking follows where you are; a device demand reveals what you say and to whom. Behavior Control sets rules about what you do; a device demand is one way those rules get checked.",
+   "how_to_distinguish_from_related": "Monitoring & Surveillance covers any constant accounting of your day. Device Access Demands is the specific act of getting into your phone and accounts. Location Tracking follows where you are, while a device demand reveals what you say and to whom. Behavior Control sets rules about what you do, and a device demand is one way those rules get checked.",
    "detection_notes": "Not matched or scored by this tool. Pasted text cannot establish this concept — included in the Field Guide purely as a literacy reference.",
    "codex_maturity": "mature",
    "human_review_flags": [
@@ -37865,16 +37865,16 @@
    "branch": "reference",
    "category": "Control & Domination",
    "detectability_note": "This tool cannot establish this from pasted text at all. It is included for literacy only, so you can learn to recognize the concept — not as something this tool detects, scores, or flags.",
-   "core_meaning": "Insisting on exact compliance with small, pointless-seeming rules, with a seriousness out of proportion to the stakes, until going along becomes routine.",
+   "core_meaning": "Insisting on exact compliance with small, pointless-looking rules, treated far more seriously than the stakes deserve, until going along becomes routine.",
    "aftermath_state": false,
    "forensic_only": false,
    "absorbs": [],
-   "short_definition": "Insisting on exact compliance with small, pointless-seeming rules, with a seriousness out of proportion to the stakes, until going along becomes routine.",
-   "expanded_definition": "Enforcing Trivial Demands means holding people to small rules with no clear purpose, such as which way the towels hang, the order of a morning routine or the exact words of a greeting, and reacting strongly when they are missed. One fussy preference means little, and many rules have a reason not everyone knows. What marks it is rules that multiply, a reaction far bigger than the stakes, and no reason given, or a reason that keeps changing. Over time, complying becomes the default.",
+   "short_definition": "Insisting on exact compliance with small, pointless-looking rules, treated far more seriously than the stakes deserve, until going along becomes routine.",
+   "expanded_definition": "Enforcing Trivial Demands means holding people to small rules with no clear purpose, such as which way the towels hang, the order of a morning routine or the exact words of a greeting. Strong reactions follow when they are missed. One fussy preference means little, and many rules have a reason not everyone knows. What marks it is rules that multiply, a reaction far bigger than the stakes, and no reason given, or a reason that keeps changing. Over time, complying becomes the default.",
    "plain_language_summary": "Petty rules with no point are enforced as if they mattered enormously, and you learn to follow them to keep the peace.",
    "why_this_matters": "When going along with petty rules becomes automatic, going along with big ones can feel like the same small step. The person also loses the ability to tell what truly matters to the other and what is just upkeep.",
    "what_it_is": [
-    "Rules about details with no visible purpose: how the dishwasher is stacked, how a bed is made, where the keys hang, the order of a morning routine.",
+    "Rules about details with no visible purpose, such as how the dishwasher is stacked, how a bed is made, where the keys hang or the order of a morning routine.",
     "Enforced with weight, such as sighs, a lecture, silence or a redo, that doesn't fit the thing that was missed.",
     "Rules that tend to multiply or move, so a person who gets one right finds another waiting.",
     "Reasons that are absent, or that shift when questioned.",
@@ -37890,7 +37890,7 @@
     "I said the lid faces left."
    ],
    "what_it_is_not": [
-    "A personal preference about how things are done, explained and flexible, which is ordinary fussiness and nothing more.",
+    "A personal preference about how things are done that is explained and flexible. That is ordinary fussiness and nothing more.",
     "A rule with a function the person hasn't been told, like the food-safety order in a kitchen or a lab's labeling system.",
     "High standards in a craft or role the person cares about, applied to themselves as much as to you.",
     "A routine that helps someone with sensory needs or anxiety, which they explain and which is open to adjustment.",
@@ -37912,12 +37912,12 @@
     "The rule came from a shared decision."
    ],
    "innocent_or_ordinary_possibilities": [
-    "Many people have strong habits about order that matter far more to them than they sensibly should, and are easily satisfied.",
+    "Many people have strong habits about order that matter more to them than is sensible. They are easily satisfied.",
     "Stress makes some people tighten their grip on small things when bigger things feel out of control.",
     "A rule may come from childhood or an earlier job, and not occur to them as needing explanation."
    ],
    "common_false_positives": [
-    "A roommate who cares intensely about how knives are washed, and listens when you explain you can't always manage.",
+    "A roommate who cares a great deal about how knives are washed, and who listens when you explain that you can't always manage.",
     "A coach whose warm-up order seems arbitrary but ties to injury prevention.",
     "A partner with an exacting way of folding laundry who happily lets you do it your way when asked."
    ],
@@ -37947,21 +37947,21 @@
    ],
    "repair_check": "Something has shifted when a rule is dropped or explained and the strong reaction does not simply move on to the next small thing. Watch what happens to the list: does it shrink, and can you do things your own way without a penalty? A single apology while the rules stay does not change the day-to-day.",
    "boundary_respect_check": "Compare two responses. One person lets you load the dishwasher your way and may say it isn't how they would do it. Another has you redo it, or finds a new rule once the old one lapses. The first leaves your way of doing things alone; the second keeps the structure.",
-   "psychological_mechanism": "Small repeated compliance can build a habit that no longer needs thought. When pushing back on something petty brings a big reaction and giving in brings calm, people may learn to choose calm, and the habit can carry over to larger requests. Missing reasons can also leave a person anxious, trying to guess what the rules are.",
-   "possible_impact_on_receiver": "People describe tiredness from constant vigilance, feeling like a child or a new employee in their own home, and doubting their own sense of what is reasonable. Some feel shame at having obeyed rules they could not defend. Others notice that they now defer on bigger things as well, and cannot say when that began.",
+   "psychological_mechanism": "Small repeated compliance can build a habit that needs no thought. Pushing back on something petty brings a big reaction, and giving in brings calm. People may learn to choose calm, and the habit can carry over to larger requests. Missing reasons can also leave a person anxious, trying to guess what the rules are.",
+   "possible_impact_on_receiver": "Reports include tiredness from constant vigilance, a sense of being a child or a new employee in their own home, and doubt about what is reasonable. Some feel shame at having obeyed rules they could not defend. Others notice that they now defer on bigger things as well, and cannot say when that began.",
    "response_options": {
-    "soft_clarification": "Ask what the rule is for in a curious tone: 'Help me understand why the cups go that way, so I can get it right.' A reason or a shrug will both tell you something.",
+    "soft_clarification": "Ask what the rule is for, in a curious tone: 'Help me understand why the cups go that way, so I can get it right.' A reason or a shrug will both tell you something.",
     "firm_boundary": "Say plainly that you will do this task your way: 'I'll load the dishwasher, and I'll do it how I do it.' Keep your tone level and your reasons short. If you expect anger, pick a calmer moment or skip this one.",
     "disengagement": "Pick one or two rules that cost you nothing and let others pass without comment, so your energy goes to the ones that matter. Choosing what to follow is different from giving in to all of it.",
     "support_seeking": "List the rules you follow in a typical week and show the list to someone outside the home or team. Their reaction to the length of it can help you see what has become normal.",
     "workplace_or_professional": "For petty procedures from a manager, ask for them in the written process and note who else has to follow them. If you are singled out, keep dated examples for HR or a union representative."
    },
    "boundary_script": "\"Getting this right matters to me. Can you tell me what the rule is for? If there's no particular reason, let me try it this other way and see how that goes.\"",
-   "safety_note": "Petty rules become a safety issue when missing one brings shouting, threats, damage to your things, or the loss of food, sleep, money or a place to live. Rules about who you contact or what you wear deserve attention too. If the reaction to a small slip frightens you, tell someone outside the home and ask a domestic abuse advocate how to think through next steps.",
+   "safety_note": "Petty rules become a safety issue when missing one brings shouting, threats, damage to your things, or the loss of food, sleep, money or a place to live. Rules about who you contact or what you wear deserve attention too. If the reaction to a small slip frightens you, tell someone outside the home. Ask a domestic abuse advocate how to think through next steps.",
    "safety_sensitive": true,
    "misuse_warning": [
     "Calling a strong preference 'trivial demands' can dismiss someone with real sensory or safety reasons they find hard to explain. Ask for the reason before judging.",
-    "A single fussy request, or a house rule you simply dislike, is not the pattern; the label needs rules that multiply and reactions out of proportion."
+    "A single fussy request, or a house rule you simply dislike, is not the pattern. The label needs rules that multiply and reactions out of proportion."
    ],
    "related_tactics": [
     "Isolation",
@@ -37971,7 +37971,7 @@
     "Infantilization",
     "\"I Know Best\" Paternalism"
    ],
-   "how_to_distinguish_from_related": "Behavior Control sets rules about big areas, such as clothing, movement and friends, while this one is about small, purposeless details and the weight put on them. Infantilization treats you as unable to manage your affairs, which can include picky rules but is about capacity. \"I Know Best\" Paternalism has a stated reason, 'for your own good'; trivial demands often have none.",
+   "how_to_distinguish_from_related": "Behavior Control sets rules about big areas, such as clothing, movement and friends. This one is about small, purposeless details and the weight put on them. Infantilization treats you as unable to manage your affairs, which can include picky rules but is about capacity. \"I Know Best\" Paternalism has a stated reason, 'for your own good', while trivial demands often have none.",
    "detection_notes": "Not matched or scored by this tool. Pasted text cannot establish this concept — included in the Field Guide purely as a literacy reference.",
    "codex_maturity": "mature",
    "human_review_flags": [

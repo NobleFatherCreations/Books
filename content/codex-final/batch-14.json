@@ -97,15 +97,15 @@
     "how_to_distinguish_from_related": "Isolation cuts you off from other people so you depend on one person. Punishment of Boundaries answers one particular no, whoever it concerned. Behavior Control sets rules in advance about what you may do. Punishment of Boundaries arrives afterwards, once you have acted on your own. Monitoring & Surveillance asks for constant accounting. Here the other person may ask nothing until you decline something."
   },
   "Information Control": {
-    "short_definition": "Narrowing what someone reads, hears and learns, and who they talk to, so that one person's account becomes the main version of events available to them.",
-    "core_meaning": "Narrowing what someone reads, hears and learns, and who they talk to, so that one person's account becomes the main version of events available to them.",
+    "short_definition": "Narrowing what someone reads, hears and learns, and who they talk to, so one person's account becomes the main version of events they have.",
+    "core_meaning": "Narrowing what someone reads, hears and learns, and who they talk to, so one person's account becomes the main version of events they have.",
     "expanded_definition": "Information Control is the filtering of what reaches someone: which news, advice, people and records they see, and whose account of events counts. It can look like advising against sources, holding the mail or the accounts, answering for the person, or reacting sharply whenever outside information appears. It is close to Isolation, but the focus is the flow of facts and the story, not who you may see. Warning about a bad source is ordinary. What marks it is outside views being shut off again and again, leaving the person little way to check anything for themselves.",
-    "plain_language_summary": "One person decides what you get to read, hear and know, so their version of events is the only one you have to think with.",
-    "why_this_matters": "A second opinion never reaches you, so a single account of events is all you have to reason with, and your doubts about it have nothing to be checked against.",
+    "plain_language_summary": "One person decides what you get to read, hear and know. Their version of events is then the only one you have to think with.",
+    "why_this_matters": "A second opinion never reaches you. A single account is all you have to reason with, and your doubts about it have nothing to be checked against.",
     "what_it_is": [
-      "Steering away from particular sources, such as a doctor, a relative, a news site or a support group, and offering a replacement that comes from the same person.",
+      "Steering you away from certain sources, such as a doctor, a relative, a news site or a support group. A replacement is offered that comes from the same person.",
       "Handling the flow: opening the mail, holding the passwords, speaking for you on calls, or sitting in on appointments.",
-      "Labeling outsiders as unreliable or hostile in advance, so what they say is discounted before you hear it.",
+      "Calling outsiders unreliable or hostile in advance, so what they say is dismissed before you hear it.",
       "Reacting with anger, hurt or mockery whenever you bring in something from elsewhere.",
       "Occurring in couples, families, workplaces and groups where a leader decides what members may read."
     ],
@@ -123,7 +123,7 @@
       "Someone who is simply uninformed and has no outside views to pass on, so is filtering nothing.",
       "Limits on what young children watch or read, which loosen as the child grows.",
       "A confidentiality rule at work that is disclosed to everyone, such as not discussing client files.",
-      "Taking over paperwork at your request, like a partner who handles the mail while you recover from surgery and hands it back when you ask.",
+      "Taking over paperwork because you asked, like a partner who handles the mail while you recover from surgery. They hand it back when you ask.",
       "A friend who disagrees with an article you shared and says why."
     ],
     "this_may_be_it_when": [
@@ -173,31 +173,31 @@
       "You hesitate before sharing anything you find with this person.",
       "Your picture of your own finances, health or family comes mostly from one voice."
     ],
-    "repair_check": "What comes back to you is the measure: passwords handed over, post opened by you, calls you make alone, outside sources discussed without a sneer. An apology while the same person still answers the phone for you leaves the channel as it was.",
+    "repair_check": "Look at what comes back to you: passwords handed over, post opened by you, calls you make alone, and outside sources discussed without a sneer. An apology changes little if the same person still answers the phone for you.",
     "boundary_respect_check": "Ask yourself a plain question after you request something: was it simply handed to you, and could you talk about it afterwards? If the conversation turns to why you needed to look, the request is being treated as the problem.",
-    "psychological_mechanism": "A person's sense of what is true leans heavily on cross-checking with others. When one source supplies most of the facts and discounts the rest in advance, the cross-check weakens, and the person may come to treat that source as the only reliable one. The more they depend on it for housing, money or belonging, the harder it can be to test its version.",
-    "possible_impact_on_receiver": "Many are oddly unsure what is happening in their own finances, health or family, lean on one voice for facts, and feel guilty for wanting to look something up. Some find later that what they were told was incomplete, and grieve the lost time. Others feel foggy or isolated even when surrounded by people.",
+    "psychological_mechanism": "A person's sense of what is true leans heavily on cross-checking with others. When one source supplies most of the facts and dismisses the rest in advance, the cross-check weakens. The person may come to treat that source as the only reliable one. The more they depend on it for housing, money or belonging, the harder it can be to test its version.",
+    "possible_impact_on_receiver": "Many are oddly unsure what is happening in their own finances, health or family. They lean on one voice for facts and feel guilty for wanting to look something up. Some find later that what they were told was incomplete, and grieve the lost time. Others feel foggy or isolated even when surrounded by people.",
     "response_options": {
-      "soft_clarification": "Ask for the information itself, calmly: 'Can you forward me that letter so I can read it too?' Their answer shows whether sharing is possible.",
-      "firm_boundary": "If past reactions suggest it is safe, state a plain need once: 'I'd like to read the letter myself.' If not, skip it; an advocate can help you reach your statements and mail another way.",
-      "disengagement": "Stop explaining where you got a piece of information. You can read, call or ask someone in your own time and keep what you learn to yourself until you know what to do with it.",
-      "support_seeking": "Check one or two facts you were given with an outside source you trust, like your own doctor, a bank, a library or a friend who knew you before, and compare.",
+      "soft_clarification": "Calmly ask for the information itself: 'Can you forward me that letter so I can read it too?' Their answer shows whether sharing is possible.",
+      "firm_boundary": "If past reactions suggest it is safe, say one plain need: 'I'd like to read the letter myself.' If not, skip it. An advocate can help you reach your statements and mail another way.",
+      "disengagement": "Stop explaining where you got a piece of information. You can read, call or ask someone in your own time. Keep what you learn to yourself until you know what to do with it.",
+      "support_seeking": "Check one or two facts you were given with an outside source you trust, and compare. This could be your own doctor, a bank, a library or a friend who knew you before.",
       "workplace_or_professional": "In an organization, ask for the policy or notice in writing, and ask who else has seen it. Written records give you something to check against if information is withheld."
     },
     "boundary_script": "\"Could you send me a copy so I can read it myself? After that, I want to hear what you think of it.\" Skip this if asking has gone badly before.",
     "safety_sensitive": true,
-    "safety_note": "Control over information turns serious when it covers your phone, mail, identity documents, medical care or money, or when asking for them brings anger or threats. Keep a list of key numbers and copies of key documents somewhere only you can reach, such as a trusted friend's home. Ask a domestic abuse advocate about safe ways to rebuild your own access.",
+    "safety_note": "Control over information turns serious when it covers your phone, mail, identity documents, medical care or money. It is also serious when asking for them brings anger or threats. Keep a list of key numbers and copies of key documents somewhere only you can reach, such as a trusted friend's home. Ask a domestic abuse advocate about safe ways to rebuild your own access.",
     "misuse_warning": [
       "Labeling a person who recommends one source over another as 'controlling' mistakes an opinion for a block. The question is whether you can go and look.",
-      "Applying it to a clinic, school or company that keeps things confidential assumes control where there is only a duty of privacy."
+      "Do not apply it to a clinic, school or company that keeps things confidential. That is a duty of privacy, and not control."
     ],
-    "how_to_distinguish_from_related": "Isolation works on your relationships and who you may see, while Information Control works on what you may know, and can operate with you in a room full of people. Monitoring & Surveillance watches what you do; here the focus is what reaches you. \"I Know Best\" Paternalism overrides your choices openly, whereas this one narrows what you have to choose from."
+    "how_to_distinguish_from_related": "Isolation works on your relationships and who you may see. Information Control works on what you may know, and can operate with you in a room full of people. Monitoring & Surveillance watches what you do, while here the focus is what reaches you. \"I Know Best\" Paternalism overrides your choices openly. This one narrows what you have to choose from."
   },
   "Device Access Demands": {
-    "short_definition": "Insisting on passwords, an unlocked phone or account logins as proof of trust, so that having a private space is read as a sign of hiding something.",
-    "core_meaning": "Insisting on passwords, an unlocked phone or account logins as proof of trust, so that having a private space is read as a sign of hiding something.",
-    "expanded_definition": "Device Access Demands means requiring someone to hand over passwords, unlock their phone on request, or share logins to email, messages and social accounts. The demand is usually offered as reassurance, safety or the price of trust, or backed by an institution's authority. Sharing that both people chose, and can end, is a different thing; couples, families and workplaces do share some access. What marks it is access that is required rather than offered, a scope that keeps growing, and a refusal read as proof of concealment.",
-    "plain_language_summary": "You are expected to hand over your phone or passwords whenever asked, and saying no is treated as if it proves you have something to hide.",
+    "short_definition": "Insisting on passwords, an unlocked phone or account logins as proof of trust, so that having a private space is read as hiding something.",
+    "core_meaning": "Insisting on passwords, an unlocked phone or account logins as proof of trust, so that having a private space is read as hiding something.",
+    "expanded_definition": "Device Access Demands means requiring someone to hand over passwords, unlock their phone on request, or share logins to email, messages and social accounts. The demand is usually offered as reassurance, safety or the price of trust, or backed by an institution's authority. Sharing that both people chose, and can end, is different, and couples, families and workplaces do share some access. What marks it is access that is required rather than offered, a scope that keeps growing, and a refusal read as proof of concealment.",
+    "plain_language_summary": "You are expected to hand over your phone or passwords whenever asked. Saying no is treated as proof that you have something to hide.",
     "why_this_matters": "Once saying no looks like guilt, privacy has to be defended instead of assumed. People can lose the ordinary sense that their messages, searches and private thoughts belong to them.",
     "what_it_is": [
       "A request to see, unlock or log in to a phone, email, social accounts or cloud storage, often on demand and at any time.",
@@ -216,10 +216,10 @@
       "I just need to check that you're being safe online."
     ],
     "what_it_is_not": [
-      "A mutually agreed, revocable arrangement, such as managing a young child's tablet or sharing a family account that either person can leave.",
+      "An arrangement both people agreed to and can end, such as managing a young child's tablet or sharing a family account that either person can leave.",
       "A disclosed institutional requirement applied to everyone, such as monitored work accounts with the policy in writing.",
       "A streaming login, shared calendar or photo library that you both set up and either of you can end.",
-      "A one-off, like handing over a phone to show a specific message, with permission asked and the scope limited to that message.",
+      "A one-off, like handing over a phone to show one specific message, where permission is asked and the scope stays limited to that message.",
       "Sharing a phone code with a trusted person while traveling, which you choose and undo."
     ],
     "this_may_be_it_when": [
@@ -237,7 +237,7 @@
       "The device is a child's and the access matches the child's age."
     ],
     "innocent_or_ordinary_possibilities": [
-      "Someone who has been cheated on, or who worries a great deal about safety, may ask for reassurance clumsily, and may let it go once the fear has been talked through.",
+      "Someone who has been cheated on, or who worries a great deal about safety, may ask for reassurance clumsily. They may let it go once the fear has been talked through.",
       "Couples who grew up sharing everything may treat a shared phone as natural.",
       "Some workplaces, schools and clubs require monitored accounts and say so up front."
     ],
@@ -272,32 +272,32 @@
     ],
     "repair_check": "Repair means the access ends because you asked, and the phone stays yours afterwards. Pay attention to whether they let you change passcodes, stop asking, and cope with their own unease without a check. A promise to 'only look sometimes' keeps the demand alive.",
     "boundary_respect_check": "Ask yourself what happens when you simply keep the phone locked. Is there a conversation about the worry underneath, or a growing case that you are hiding something? Respect for privacy can sit beside the other person feeling uneasy; it does not require you to prove innocence.",
-    "psychological_mechanism": "Refusal gets recast as evidence, so a person who keeps privacy can look guilty just by keeping it. Over time, people may start to get ahead of the checks by deleting, avoiding or editing what they say, which shrinks their private life to what would survive being seen. Being observed can also make it harder to think, speak or confide freely.",
+    "psychological_mechanism": "Refusal gets recast as evidence, so a person who keeps privacy can look guilty just by keeping it. As time goes on, people may start to get ahead of the checks by deleting, avoiding or editing what they say. Their private life shrinks to what would survive being seen. Being observed can also make it harder to think, speak or confide freely.",
     "possible_impact_on_receiver": "Self-censorship creeps in: rewording texts, avoiding friends, feeling watched even when the phone is out of sight. Some feel ashamed for objecting and wonder whether they really do have something to hide. Others describe exhaustion from managing what might be read, and drifting away from people who were once easy to talk to.",
     "response_options": {
       "soft_clarification": "Ask about the worry underneath rather than defending the phone: 'You sound frightened of something. Can you tell me what, and we can see what would help?'",
       "firm_boundary": "Offer what you will share, in terms of one item: 'I'll show you the photo you asked about. I'm not going to unlock the whole phone.' If you expect anger, choose a calm moment or talk to an advocate first.",
       "disengagement": "If a demand starts mid-argument, say you'll talk about it later and move on to another task. Keep your phone with you and use a code only you know.",
-      "support_seeking": "Use someone else's phone or a library computer to talk to a friend, helpline or advocate about the demands, in case your own device is being read.",
-      "workplace_or_professional": "If an employer asks about a personal phone, ask which written policy requires it, and check with HR or a union before handing over anything beyond work accounts."
+      "support_seeking": "Use someone else's phone or a library computer to talk to a friend, helpline or advocate about the demands. Do this in case your own device is being read.",
+      "workplace_or_professional": "If an employer asks about a personal phone, ask which written policy requires it. Check with HR or a union before handing over anything beyond work accounts."
     },
-    "boundary_script": "\"I can tell you're worried, and I want to talk about that. What would help you feel more settled right now? I'd rather tell you things than have my phone checked.\" Try it only if a calm reaction is likely, and otherwise speak with an advocate first.",
+    "boundary_script": "\"I can tell you're worried, and I want to talk about that. What would help you feel more settled right now? I'd rather tell you things than have my phone checked.\" Try it only if a calm reaction is likely. Otherwise, speak with an advocate first.",
     "safety_sensitive": true,
-    "safety_note": "Access demands can sit alongside stalking, or threats about what will be done with whatever is found. Warning signs: the other person knows things you never told them, apps you did not install, or fear of what happens if you change a passcode. Contact a domestic abuse advocate from a device they cannot reach, and ask how to check your phone safely for tracking software.",
+    "safety_note": "Access demands can sit alongside stalking, or threats about what will be done with whatever is found. Warning signs include the other person knowing things you never told them, apps you did not install, or fear of what happens if you change a passcode. Contact a domestic abuse advocate from a device they cannot reach, and ask how to check your phone safely for tracking software.",
     "misuse_warning": [
-      "Treating a parent's age-appropriate checks on a child's device, or a partner's one-off 'show me that text', as this pattern overlooks consent and scope.",
-      "The label can be used to avoid accountability after someone has actually broken a trust, when a mutual conversation about rebuilding it would be fairer."
+      "A parent's age-appropriate checks on a child's device, or a partner's one-off 'show me that text', are not this pattern. Treating them as if they were overlooks consent and scope.",
+      "The label can be used to avoid accountability after someone has actually broken a trust. A mutual conversation about rebuilding that trust would be fairer."
     ],
-    "how_to_distinguish_from_related": "Monitoring & Surveillance covers any constant accounting of your day, whereas Device Access Demands is the specific act of getting into your phone and accounts. Location Tracking follows where you are; a device demand reveals what you say and to whom. Behavior Control sets rules about what you do; a device demand is one way those rules get checked."
+    "how_to_distinguish_from_related": "Monitoring & Surveillance covers any constant accounting of your day. Device Access Demands is the specific act of getting into your phone and accounts. Location Tracking follows where you are, while a device demand reveals what you say and to whom. Behavior Control sets rules about what you do, and a device demand is one way those rules get checked."
   },
   "Enforcing Trivial Demands": {
-    "short_definition": "Insisting on exact compliance with small, pointless-seeming rules, with a seriousness out of proportion to the stakes, until going along becomes routine.",
-    "core_meaning": "Insisting on exact compliance with small, pointless-seeming rules, with a seriousness out of proportion to the stakes, until going along becomes routine.",
-    "expanded_definition": "Enforcing Trivial Demands means holding people to small rules with no clear purpose, such as which way the towels hang, the order of a morning routine or the exact words of a greeting, and reacting strongly when they are missed. One fussy preference means little, and many rules have a reason not everyone knows. What marks it is rules that multiply, a reaction far bigger than the stakes, and no reason given, or a reason that keeps changing. Over time, complying becomes the default.",
+    "short_definition": "Insisting on exact compliance with small, pointless-looking rules, treated far more seriously than the stakes deserve, until going along becomes routine.",
+    "core_meaning": "Insisting on exact compliance with small, pointless-looking rules, treated far more seriously than the stakes deserve, until going along becomes routine.",
+    "expanded_definition": "Enforcing Trivial Demands means holding people to small rules with no clear purpose, such as which way the towels hang, the order of a morning routine or the exact words of a greeting. Strong reactions follow when they are missed. One fussy preference means little, and many rules have a reason not everyone knows. What marks it is rules that multiply, a reaction far bigger than the stakes, and no reason given, or a reason that keeps changing. Over time, complying becomes the default.",
     "plain_language_summary": "Petty rules with no point are enforced as if they mattered enormously, and you learn to follow them to keep the peace.",
     "why_this_matters": "When going along with petty rules becomes automatic, going along with big ones can feel like the same small step. The person also loses the ability to tell what truly matters to the other and what is just upkeep.",
     "what_it_is": [
-      "Rules about details with no visible purpose: how the dishwasher is stacked, how a bed is made, where the keys hang, the order of a morning routine.",
+      "Rules about details with no visible purpose, such as how the dishwasher is stacked, how a bed is made, where the keys hang or the order of a morning routine.",
       "Enforced with weight, such as sighs, a lecture, silence or a redo, that doesn't fit the thing that was missed.",
       "Rules that tend to multiply or move, so a person who gets one right finds another waiting.",
       "Reasons that are absent, or that shift when questioned.",
@@ -313,7 +313,7 @@
       "I said the lid faces left."
     ],
     "what_it_is_not": [
-      "A personal preference about how things are done, explained and flexible, which is ordinary fussiness and nothing more.",
+      "A personal preference about how things are done that is explained and flexible. That is ordinary fussiness and nothing more.",
       "A rule with a function the person hasn't been told, like the food-safety order in a kitchen or a lab's labeling system.",
       "High standards in a craft or role the person cares about, applied to themselves as much as to you.",
       "A routine that helps someone with sensory needs or anxiety, which they explain and which is open to adjustment.",
@@ -335,12 +335,12 @@
       "The rule came from a shared decision."
     ],
     "innocent_or_ordinary_possibilities": [
-      "Many people have strong habits about order that matter far more to them than they sensibly should, and are easily satisfied.",
+      "Many people have strong habits about order that matter more to them than is sensible. They are easily satisfied.",
       "Stress makes some people tighten their grip on small things when bigger things feel out of control.",
       "A rule may come from childhood or an earlier job, and not occur to them as needing explanation."
     ],
     "common_false_positives": [
-      "A roommate who cares intensely about how knives are washed, and listens when you explain you can't always manage.",
+      "A roommate who cares a great deal about how knives are washed, and who listens when you explain that you can't always manage.",
       "A coach whose warm-up order seems arbitrary but ties to injury prevention.",
       "A partner with an exacting way of folding laundry who happily lets you do it your way when asked."
     ],
@@ -370,10 +370,10 @@
     ],
     "repair_check": "Something has shifted when a rule is dropped or explained and the strong reaction does not simply move on to the next small thing. Watch what happens to the list: does it shrink, and can you do things your own way without a penalty? A single apology while the rules stay does not change the day-to-day.",
     "boundary_respect_check": "Compare two responses. One person lets you load the dishwasher your way and may say it isn't how they would do it. Another has you redo it, or finds a new rule once the old one lapses. The first leaves your way of doing things alone; the second keeps the structure.",
-    "psychological_mechanism": "Small repeated compliance can build a habit that no longer needs thought. When pushing back on something petty brings a big reaction and giving in brings calm, people may learn to choose calm, and the habit can carry over to larger requests. Missing reasons can also leave a person anxious, trying to guess what the rules are.",
-    "possible_impact_on_receiver": "People describe tiredness from constant vigilance, feeling like a child or a new employee in their own home, and doubting their own sense of what is reasonable. Some feel shame at having obeyed rules they could not defend. Others notice that they now defer on bigger things as well, and cannot say when that began.",
+    "psychological_mechanism": "Small repeated compliance can build a habit that needs no thought. Pushing back on something petty brings a big reaction, and giving in brings calm. People may learn to choose calm, and the habit can carry over to larger requests. Missing reasons can also leave a person anxious, trying to guess what the rules are.",
+    "possible_impact_on_receiver": "Reports include tiredness from constant vigilance, a sense of being a child or a new employee in their own home, and doubt about what is reasonable. Some feel shame at having obeyed rules they could not defend. Others notice that they now defer on bigger things as well, and cannot say when that began.",
     "response_options": {
-      "soft_clarification": "Ask what the rule is for in a curious tone: 'Help me understand why the cups go that way, so I can get it right.' A reason or a shrug will both tell you something.",
+      "soft_clarification": "Ask what the rule is for, in a curious tone: 'Help me understand why the cups go that way, so I can get it right.' A reason or a shrug will both tell you something.",
       "firm_boundary": "Say plainly that you will do this task your way: 'I'll load the dishwasher, and I'll do it how I do it.' Keep your tone level and your reasons short. If you expect anger, pick a calmer moment or skip this one.",
       "disengagement": "Pick one or two rules that cost you nothing and let others pass without comment, so your energy goes to the ones that matter. Choosing what to follow is different from giving in to all of it.",
       "support_seeking": "List the rules you follow in a typical week and show the list to someone outside the home or team. Their reaction to the length of it can help you see what has become normal.",
@@ -381,12 +381,12 @@
     },
     "boundary_script": "\"Getting this right matters to me. Can you tell me what the rule is for? If there's no particular reason, let me try it this other way and see how that goes.\"",
     "safety_sensitive": true,
-    "safety_note": "Petty rules become a safety issue when missing one brings shouting, threats, damage to your things, or the loss of food, sleep, money or a place to live. Rules about who you contact or what you wear deserve attention too. If the reaction to a small slip frightens you, tell someone outside the home and ask a domestic abuse advocate how to think through next steps.",
+    "safety_note": "Petty rules become a safety issue when missing one brings shouting, threats, damage to your things, or the loss of food, sleep, money or a place to live. Rules about who you contact or what you wear deserve attention too. If the reaction to a small slip frightens you, tell someone outside the home. Ask a domestic abuse advocate how to think through next steps.",
     "misuse_warning": [
       "Calling a strong preference 'trivial demands' can dismiss someone with real sensory or safety reasons they find hard to explain. Ask for the reason before judging.",
-      "A single fussy request, or a house rule you simply dislike, is not the pattern; the label needs rules that multiply and reactions out of proportion."
+      "A single fussy request, or a house rule you simply dislike, is not the pattern. The label needs rules that multiply and reactions out of proportion."
     ],
-    "how_to_distinguish_from_related": "Behavior Control sets rules about big areas, such as clothing, movement and friends, while this one is about small, purposeless details and the weight put on them. Infantilization treats you as unable to manage your affairs, which can include picky rules but is about capacity. \"I Know Best\" Paternalism has a stated reason, 'for your own good'; trivial demands often have none."
+    "how_to_distinguish_from_related": "Behavior Control sets rules about big areas, such as clothing, movement and friends. This one is about small, purposeless details and the weight put on them. Infantilization treats you as unable to manage your affairs, which can include picky rules but is about capacity. \"I Know Best\" Paternalism has a stated reason, 'for your own good', while trivial demands often have none."
   },
   "Boundary Testing": {
     "short_definition": "Crossing a stated or implied limit in small steps, where each step that goes unchallenged is followed by a slightly bigger one.",
