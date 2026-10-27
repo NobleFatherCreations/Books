@@ -99,17 +99,17 @@
     "how_to_distinguish_from_related": "Fawning is appeasing a person who feels threatening, as a way of staying safe, and it can happen in a single tense moment. Identity erosion is the long-term residue: the likes, limits and friends that went missing. Self-Gaslighting Induction is the habit of doubting your own memory and perception, whereas here what has faded is knowing what you want. Identity Hooking has someone claim your achievements as theirs, which this does not require."
   },
   "Public Humiliation": {
-    "short_definition": "Embarrassing or belittling a person in front of others, or putting their private matters on show, so the audience adds to the sting.",
-    "core_meaning": "Embarrassing or belittling a person in front of others, or putting their private matters on show, so the audience adds to the sting.",
-    "expanded_definition": "Public humiliation is a correction, joke, revealed secret, story or post aimed at one person where others can see or hear it. When a secret or private detail is revealed, it often goes by the name public exposure. Feedback given in company is sometimes unavoidable, so context matters. It raises concern when the audience seems to be part of the point, when the same words would be gentler in private, and when it keeps landing on one person.",
-    "plain_language_summary": "You are put down, corrected, laughed at or have something private shown to others, in a way that would have been handled differently one on one. The audience is what makes it hurt.",
-    "why_this_matters": "An audience makes the injury durable in a way private criticism is not: everyone present carries a version of it afterwards, including the person it was about. It cannot be taken back privately later, and it can change how the group treats you.",
+    "short_definition": "Someone embarrasses or puts down a person in front of others, or puts private matters on show, so the audience adds to the sting.",
+    "core_meaning": "Someone embarrasses or puts down a person in front of others, or puts private matters on show, so the audience adds to the sting.",
+    "expanded_definition": "Public humiliation is a correction, joke, revealed secret, story or post aimed at one person where others can see or hear it. When a secret or private detail is revealed, it often goes by the name public exposure. Feedback given in company is sometimes unavoidable, so context matters. It raises concern when the audience seems to be part of the point. It also raises concern when the same words would be gentler in private, or when it keeps landing on one person.",
+    "plain_language_summary": "You are put down, corrected or laughed at, or something private is shown to others, in a way that would have been handled differently one on one. The audience is what makes it hurt.",
+    "why_this_matters": "An audience makes the injury last in a way private criticism does not. Everyone present carries a version of it afterwards, including the person it was about. It cannot be taken back privately later, and it can change how the group treats you.",
     "what_it_is": [
       "Criticism, ridicule or private information put on show where other people can see or hear it.",
-      "Forms include a correction in a meeting, a story told against you at dinner, a group message quoting your private words, or a post that names you.",
-      "More lasting than a private remark, because witnesses remember it and the person singled out remembers them remembering.",
+      "It can be a correction in a meeting, a story told against you at dinner, a group message quoting your private words, or a post that names you.",
+      "It lasts longer than a private remark, because witnesses remember it and the person singled out remembers them remembering.",
       "Seen in workplaces, classrooms, families, friend groups and online.",
-      "Sometimes the venue is the one with the largest audience, such as an all-staff call or a holiday table, when a quiet word was available."
+      "Sometimes the chosen venue has the largest audience, such as an all-staff call or a holiday table, even though a quiet word was possible."
     ],
     "what_it_sounds_like": [
       "\"Let me show everyone how it should have been done.\"",
@@ -121,11 +121,11 @@
       "\"Since we're all here, we might as well go through your review.\""
     ],
     "what_it_is_not": [
-      "Necessary, time-sensitive feedback that has to be given where others happen to be, such as a safety problem in a room full of people.",
-      "Settings where feedback is normal and applied evenly to everybody, such as a design critique, which humiliate nobody.",
-      "An awkward moment that was only poor timing, or carelessness with something private, such as an offhand mention at a party.",
+      "Feedback that is needed at once and has to be given where others happen to be, such as a safety problem in a room full of people.",
+      "Settings where feedback is normal and given evenly to everybody, such as a design critique. These humiliate nobody.",
+      "An awkward moment that came from poor timing, or from carelessness with something private, such as an offhand mention at a party.",
       "A public award or roast that the person agreed to and enjoys.",
-      "Information that is public for a real, disclosed reason, such as a published result or a minuted decision.",
+      "Information that is public for a real, stated reason, such as a published result or a decision recorded in meeting minutes.",
       "A story told with affection that the person is happy to have told, and might tell themselves."
     ],
     "this_may_be_it_when": [
@@ -175,34 +175,34 @@
       "Other people start to treat you as the butt of the joke, taking their cue from the way you are treated.",
       "You speak less in groups, and your contributions are noticed less."
     ],
-    "repair_check": "Meaningful change would show in public as well as in private: the person corrects you, if they must, in a way that does not expose you, and speaks up for you when others laugh. Apologizing in a private message while repeating the behavior in front of others leaves the audience part unchanged.",
+    "repair_check": "Meaningful change would show in public as well as in private. The person corrects you, if they must, in a way that does not expose you, and speaks up for you when others laugh. Apologizing in a private message while repeating the behavior in front of others leaves the audience part unchanged.",
     "boundary_respect_check": "Ask for correction to happen one on one, then see what the next group setting brings. Is your request kept when other people are present, which is the moment it matters most? Or does the next public remark show it was put aside?",
-    "psychological_mechanism": "People are highly attuned to how their group sees them, and being lowered in front of others is a hit to standing, not only to feelings. Witnesses add to it by laughing, going quiet or looking away. A person may begin to expect it, and the dread alone can change how they speak and act around others.",
+    "psychological_mechanism": "People are highly attuned to how their group sees them. Being lowered in front of others hurts their standing as well as their feelings. Witnesses add to it by laughing, going quiet or looking away. A person may begin to expect it, and the dread alone can change how they speak and act around others.",
     "possible_impact_on_receiver": "People describe heat in the face, loss of words, replaying the moment for days, and avoiding the people who saw it. Some say the worst part was a bystander's silence. Many talk about shrinking in later meetings, and about checking whether anyone still remembers.",
     "response_options": {
       "soft_clarification": "Ask for privacy next time, in a matter-of-fact tone: \"If there's a problem with my work, I'd find it easier to hear it one on one.\"",
       "firm_boundary": "Name it lightly, in the moment if you can: \"That was hard to hear in front of everyone. Could we pick it up later, just the two of us?\"",
-      "disengagement": "Leave the room, the chat or the table for a few minutes without explanation, and return only when the subject has moved on.",
+      "disengagement": "Leave the room, the chat or the table for a few minutes without explanation. Return only when the subject has moved on.",
       "support_seeking": "Talk to someone who was there, and ask what they saw and heard. Knowing that a witness found it unfair can lift the doubt you carry.",
-      "workplace_or_professional": "Write down the date, the setting, the words used and who was present, then take the record to HR, a union rep, or a manager one level up."
+      "workplace_or_professional": "Write down the date, the setting, the words used and who was present. Then take the record to HR, a union rep, or a manager one level up."
     },
     "boundary_script": "\"I'm glad to hear your feedback on my work. I'd just like to have it in private, not in front of the team.\"",
     "safety_sensitive": true,
-    "safety_note": "Humiliation is mostly about standing and dignity, but it can sit alongside danger. Watch for intimate images or private details shared without consent, or hints that something will be revealed unless you comply. Exposure that follows you from the household into work or online spaces is another sign. Save dated screenshots, and ask a legal aid service or an advocate who handles image-based or domestic abuse about next steps before replying.",
+    "safety_note": "Humiliation is mostly about standing and dignity, but it can sit alongside danger. Watch for intimate images or private details shared without consent, or hints that something will be revealed unless you comply. Exposure that follows you from the household into work or online spaces is another sign. Save dated screenshots. Before replying, ask a legal aid service or an advocate who handles image-based or domestic abuse about next steps.",
     "misuse_warning": [
       "Calling a fair, public correction humiliation can let real problems with performance go unaddressed. The label fits when the audience is the point, not when the venue is.",
-      "Telling a group that someone humiliated you, as a way to turn people against them, can become a humiliation of its own."
+      "If you tell a group that someone humiliated you as a way to turn people against them, that can become a humiliation of its own."
     ],
-    "how_to_distinguish_from_related": "Shame Installation works on your sense of being fundamentally inadequate and can happen in private, whereas this relies on witnesses. A Smear Campaign spreads distorted claims about you to build a reputation over time; public humiliation is a moment played to the people in the room or the group chat. Humiliation Rituals dress the degradation as initiation or discipline and say the pain proves it is working."
+    "how_to_distinguish_from_related": "Shame Installation works on your sense of being deeply inadequate and can happen in private, whereas public humiliation relies on witnesses. A Smear Campaign spreads distorted claims about you to build a reputation over time. Public humiliation is a moment played to the people in the room or the group chat. Humiliation Rituals dress the degradation as initiation or discipline and say the pain proves it is working."
   },
   "Setting Up to Fail": {
-    "short_definition": "Giving someone a task or a standard they are unlikely to meet under the conditions provided, then treating the shortfall as proof of their inadequacy.",
-    "core_meaning": "Giving someone a task or a standard they are unlikely to meet under the conditions provided, then treating the shortfall as proof of their inadequacy.",
-    "expanded_definition": "Being set up to fail takes two shapes: one assignment with the odds stacked, such as a deadline too short, a budget too small or information held back, and a standing bar kept out of reach by vague, shifting or contradictory criteria. The second shape is often called impossible metrics. Hard tasks are normal. The pattern shows when requests for what is needed are brushed aside, the finish line moves, and the miss is later cited as a fact about you.",
-    "plain_language_summary": "You get a job or a target that few people could meet with what you were given, and when you fall short, the blame lands on you and not on the set-up.",
-    "why_this_matters": "Conditions disappear from the account and only the outcome remains, so a predictable failure becomes durable evidence about the person who was handed it. Effort rises while the record of misses grows, and that record can be quoted in reviews and decisions about you long after the conditions are forgotten.",
+    "short_definition": "Giving someone a task or standard they are unlikely to meet with what they are given, then treating the miss as proof that they are inadequate.",
+    "core_meaning": "Giving someone a task or standard they are unlikely to meet with what they are given, then treating the miss as proof that they are inadequate.",
+    "expanded_definition": "Being set up to fail takes two shapes. One is a single assignment with the odds stacked, such as a deadline too short, a budget too small or information held back. The other is a standing bar kept out of reach by vague, shifting or contradictory criteria, often called impossible metrics. Hard tasks are normal. Look for requests for what is needed being brushed aside, a finish line that moves, and the miss later cited as a fact about you.",
+    "plain_language_summary": "You get a job or a target that few people could meet with what you were given. When you fall short, the blame lands on you and not on the set-up.",
+    "why_this_matters": "Conditions disappear from the account and only the outcome remains. A predictable failure then becomes lasting evidence about the person who was handed it. Effort rises while the record of misses grows. That record can be quoted in reviews and decisions about you long after the conditions are forgotten.",
     "what_it_is": [
-      "A single task whose conditions make success unlikely: an impossible timeline, a thin budget, no access to people or data.",
+      "A single task whose conditions make success unlikely, such as an impossible timeline, a thin budget, or no access to people or data.",
       "A standing target whose criteria, such as 'be more strategic', are vague enough to be reread after the fact.",
       "A number that rises just as you approach it, or a new condition added when you meet the old one.",
       "Contradictory demands, like cutting costs and doubling quality with the same team and hours.",
@@ -220,9 +220,9 @@
       "\"Remember the Henderson project? That's why I can't trust you with this.\""
     ],
     "what_it_is_not": [
-      "Hard tasks with real constraints, which are ordinary work, and resources that are unavailable to everyone rather than withheld from you.",
+      "Hard tasks with real constraints, which are ordinary work, and resources that nobody has, rather than ones withheld from you.",
       "Something that turned out harder than anyone anticipated, with nobody having arranged it.",
-      "A stretch goal or pilot framed openly as aspirational, with a fallback in place, so a miss is understood to be fine.",
+      "A stretch goal or pilot that is openly described as aspirational and has a fallback in place, so a miss is understood to be fine.",
       "A demanding bar that others in your role have met under the same conditions, or that you have cleared before.",
       "Clumsy delegation by someone who underestimated the task and revises the plan when told.",
       "Hard but specific performance management, with written criteria and support."
@@ -276,25 +276,25 @@
       "You work longer hours each quarter for results that are no better received.",
       "Colleagues or family members remember the failure but not its conditions."
     ],
-    "repair_check": "Repair starts with the retelling and the bar. A person who has noticed this goes back to the people who heard you failed, corrects the account to include the deadline and missing staff, and gives the next assignment the resources it needs or a pass line written down. Praise for effort that leaves the record unchanged is a different thing.",
+    "repair_check": "Repair starts with the retelling and the bar. A person who has noticed this goes back to the people who heard you failed. They correct the account to include the deadline and missing staff, and give the next assignment the resources it needs or a pass line written down. Praise for effort that leaves the record unchanged is a different thing.",
     "boundary_respect_check": "Watch the next request you send. Ask in writing for what the task needs, or for the definition of done. A yes, a partial yes with a reason, or a clear no that is noted in the plan means you were taken seriously. A cheerful 'you'll manage' with no reply is another answer.",
-    "psychological_mechanism": "Failure tends to be read as information about the person, and the conditions that produced it fade from memory faster than the outcome. If whoever set the task also describes the result, that account can become the accepted one. When a standard cannot be reached, effort stops translating into success, and people often turn the blame inward because the standard was presented as reasonable.",
-    "possible_impact_on_receiver": "People describe replaying the project to find what they should have done, working longer for less sense of achievement, and dreading review days and the next hand-off. Some start to believe they are bad at jobs they once did well, or stop volunteering ideas. Others say that writing down the original conditions brought a grim relief, because the failure looked different on paper.",
+    "psychological_mechanism": "Failure is often read as information about the person, and the conditions that produced it fade from memory faster than the outcome. If whoever set the task also describes the result, that account can become the accepted one. When a standard cannot be reached, effort stops turning into success. People often turn the blame inward because the standard was presented as reasonable.",
+    "possible_impact_on_receiver": "Some replay the project to find what they should have done, work longer for less sense of achievement, and dread review days and the next hand-off. Others start to believe they are bad at jobs they once did well, or stop volunteering ideas. Still others say that writing down the original conditions brought a grim relief, because the failure looked different on paper.",
     "response_options": {
       "soft_clarification": "Ask about the gap before starting: \"This needs three people and I have one, with two weeks. What would you like me to put first?\"",
       "firm_boundary": "Put your concerns on record: \"I'll start, and I want it noted that without the client data this deadline is not realistic.\"",
-      "disengagement": "Offer the version of the task that can be done and be plain about what is left out, rather than quietly absorbing the shortfall with unpaid overtime.",
+      "disengagement": "Offer the version of the task that can be done, and be plain about what is left out. Do not quietly absorb the shortfall with unpaid overtime.",
       "support_seeking": "Walk a mentor or friend outside the project through the brief, deadline and resources, and ask whether they would have seen it as doable. Compare targets with peers in the same role.",
       "workplace_or_professional": "Send a short written summary after the assignment conversation: scope, deadline, resources, what you asked for. Keep it for any review, and ask HR or a union representative how your targets compare with your peers'."
     },
     "boundary_script": "\"I want this to go well, so I'm saying now that I can't finish it by Friday without the sales figures. Could we agree what counts as done, in writing, and when I can have the figures?\"",
     "safety_sensitive": false,
-    "safety_note": "This is rarely a physical danger, but the record of misses can feed probation, dismissal, or job decisions that affect an immigration status or housing tied to the job. Keep the written brief, your flags and the outcome together, and ask a union representative, employment lawyer or legal aid service for advice before attending a disciplinary meeting alone.",
+    "safety_note": "This is rarely a physical danger, but the record of misses can feed probation, dismissal, or job decisions that affect an immigration status or housing tied to the job. Keep the written brief, your flags and the outcome together. Ask a union representative, employment lawyer or legal aid service for advice before attending a disciplinary meeting alone.",
     "misuse_warning": [
       "Calling every hard assignment a set-up can stop you learning from a failure that was partly yours. Ask whether the conditions were the same for others.",
       "Treating a manager's vague wording as proof of a plan against you ignores that vagueness is often just an unfinished idea. Ask for specifics in writing first."
     ],
-    "how_to_distinguish_from_related": "Comparative Devaluation holds you up against other people; here the comparison is to a target nobody has met, or to unnamed peers who 'manage'. Shame Installation turns a failure into a judgment about who you are, whereas this tactic supplies the failures that judgment can feed on. Intimidation threatens consequences; here nothing is threatened, and the record carries the consequence."
+    "how_to_distinguish_from_related": "Comparative Devaluation holds you up against other people. Here the comparison is to a target nobody has met, or to unnamed peers who 'manage'. Shame Installation turns a failure into a judgment about who you are, whereas this tactic supplies the failures that judgment can feed on. Intimidation threatens consequences. Here nothing is threatened, and the record carries the consequence."
   },
   "Financial Control": {
     "short_definition": "Holding back what someone can reach, see or earn, or using money and assets to pressure them, so they end up depending on one person.",

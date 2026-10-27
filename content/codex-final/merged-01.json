@@ -196,14 +196,14 @@
     "how_to_distinguish_from_related": "Denial says it did not happen. Minimization says it did, and was nothing. Tone Policing leaves the size alone and objects to how you said it. Blame-Shifting accepts the event and its size but puts the cause on you. Gaslighting disputes whether you remember correctly, whereas minimization lets the memory stand and shrinks what it means."
   },
   "Victim Role Reversal": {
-    "short_definition": "Presenting oneself as the injured party when asked to answer for harm, so that sympathy and comforting move away from the person who was actually hurt.",
-    "core_meaning": "Presenting oneself as the injured party when asked to answer for harm, so that sympathy and comforting move away from the person who was actually hurt.",
-    "expanded_definition": "Victim role reversal happens when someone asked to account for a harm answers by describing their own suffering, and the person harmed ends up comforting them or apologizing. It is also called a role reversal trap. The hurt they describe may be real. The pattern is in the effect: a talk about what was done to you becomes a talk about how awful this is for them. One tearful reaction proves little. Repetition is what matters.",
+    "short_definition": "Someone presents themselves as the injured party when asked to answer for harm, so comfort and sympathy move away from the person who was actually hurt.",
+    "core_meaning": "Someone presents themselves as the injured party when asked to answer for harm, so comfort and sympathy move away from the person who was actually hurt.",
+    "expanded_definition": "Victim role reversal happens when someone asked to account for a harm answers by describing their own suffering. The person harmed then ends up comforting them or apologizing. It is also called a role reversal trap. The hurt they describe may be real. What marks it is the effect: a talk about what was done to you turns into a talk about how awful this is for them. One tearful reaction proves little. Repetition is what matters.",
     "plain_language_summary": "After hurting you, they become the hurt one. You, and maybe others, end up caring for them while what happened to you is dropped.",
-    "why_this_matters": "Sympathy that should have gone to the person harmed goes elsewhere, and the person harmed ends up soothing and apologizing. Onlookers form an impression that is very hard to correct later, and the person harmed may start doubting whether they have the right to be upset.",
+    "why_this_matters": "Sympathy that should have gone to the person harmed goes elsewhere. That person ends up soothing and apologizing. Onlookers form an impression that is very hard to correct later, and the person harmed may start to doubt they have the right to be upset.",
     "what_it_is": [
       "A swap in who is treated as wounded, usually after someone is told how their behavior landed.",
-      "Often delivered to an audience such as family, a friend group, a team or a congregation, not just to the person harmed.",
+      "Often aimed at an audience, such as family, a friend group, a team or a congregation, as well as at the person harmed.",
       "The distress may be sincere. What defines the pattern is that it takes over the space where the other person's injury should be heard.",
       "Ends in a trade: the person harmed reassures, defends themselves, or goes quiet to avoid causing more pain.",
       "Can be built from several smaller moves, such as tears, a speech about how hard things are, or a plea for patience."
@@ -221,7 +221,7 @@
     "what_it_is_not": [
       "Two people who were both hurt in the same conflict, each with a fair claim to be heard.",
       "Someone overcome by guilt who cries or goes quiet but still hears you out and acknowledges what they did.",
-      "A person who is also going through something painful and separate, such as a loss, an illness or a job crisis, and says so without using it to close the topic.",
+      "A person who is going through something painful and separate, such as a loss, an illness or a job crisis. They say so without using it to close the topic.",
       "Mutual reassurance after a conflict, which is a normal part of making up when the harm has been named first.",
       "A person who is overwhelmed, steps away briefly and returns to deal with what happened."
     ],
@@ -273,22 +273,22 @@
       "Over months, a long list of things you stopped mentioning to avoid hurting them.",
       "You find yourself explaining to others that you were not attacking, before they have said anything."
     ],
-    "repair_check": "Genuine repair starts with the original harm being named by them, in specific terms, before their own distress is brought in, and with the person harmed no longer asked to carry their feelings. Warm words about how sorry they are that you are upset do not do this.",
+    "repair_check": "Genuine repair starts with them naming the original harm in specific terms, before they bring in their own distress. It also means the person harmed is no longer asked to carry their feelings. Warm words about how sorry they are that you are upset do not do this.",
     "boundary_respect_check": "Ask yourself whether, once you said you needed to finish your point, you were allowed to. Notice if their sadness deepens until you stop, or if they can sit with discomfort while you speak. The first leaves your point unheard; the second does not.",
-    "psychological_mechanism": "Most people are quick to comfort someone who is visibly distressed, and slow to keep pressing a point while they do. When a person shows suffering at the moment of accountability, that habit can pull attention away from the harm. Onlookers who only hear the distressed version tend to settle on it, and a person who was harmed may feel guilty for causing visible pain.",
-    "possible_impact_on_receiver": "Accounts often mention guilt at having 'made them cry', hesitation to bring anything up again, and anger or confusion at being cast as the aggressor. Some recall ending up the soother, others the one whose version nobody asked for. Over time a few pull back from friends or family who only heard one side.",
+    "psychological_mechanism": "Most people are quick to comfort someone who is visibly distressed, and slow to keep pressing a point while that distress shows. When someone shows suffering at the moment of accountability, that habit can pull attention away from the harm. Onlookers who only hear the distressed version often settle on it. A person who was harmed may feel guilty for causing visible pain.",
+    "possible_impact_on_receiver": "Accounts often mention guilt at having 'made them cry', hesitation to bring anything up again, and anger or confusion at being cast as the aggressor. Some recall ending up as the soother, others as the one whose version nobody asked for. Over time a few pull back from friends or family who only heard one side.",
     "response_options": {
       "soft_clarification": "Acknowledge the pain and keep your point: 'I can see this is really hard for you. I still need to finish telling you what happened to me.'",
       "firm_boundary": "Decline the comforting role gently, for now: 'I do care that you're hurting. Can we first go through what happened, and then I'll listen?'",
       "disengagement": "If the tears or accusations take over, ask for a pause: 'Let's stop for today and come back to this tomorrow, when we've both slept.'",
-      "support_seeking": "Tell your account to someone before the other version spreads, and ask them to hear the whole thing before saying anything about the other person.",
-      "workplace_or_professional": "At work, write down what happened with dates before meeting a manager or HR, and ask for a process that lets both accounts be recorded separately."
+      "support_seeking": "Tell your account to someone before the other version spreads. Ask them to hear the whole thing before saying anything about the other person.",
+      "workplace_or_professional": "At work, write down what happened, with dates, before you meet a manager or HR. Ask for a process that records both accounts separately."
     },
     "boundary_script": "\"I'm sorry you're hurting, and I want to hear about it later. Right now I need you to hear what happened from my side first. After that, I will listen as long as you need.\"",
     "safety_sensitive": true,
-    "safety_note": "This pattern alone is not a physical-safety concern. It changes when the person who is 'hurt' also says they will harm themselves if you pull back. It also changes when they spread the story to cut you off from friends, or use it to shape custody or workplace decisions. Keep a dated record of what was said and who heard it, and contact a crisis line about any self-harm statement, or a legal aid service about custody or work.",
+    "safety_note": "This pattern alone is not a physical-safety concern. It changes if the person who is 'hurt' also says they will harm themselves when you pull back. It also changes if they spread the story to cut you off from friends, or use it to shape custody or workplace decisions. Keep a dated record of what was said and who heard it. Contact a crisis line about any self-harm statement, or a legal aid service about custody or work.",
     "misuse_warning": [
-      "Calling every upset reaction 'victim reversal' can make you deaf to someone who really is hurt, including in a conflict where both of you hurt each other.",
+      "If you call every upset reaction 'victim reversal', you may stop hearing someone who really is hurt. That includes conflicts where both of you hurt each other.",
       "Saying it to a person in tears, in the middle of the argument, tends to turn a description into an accusation."
     ],
     "how_to_distinguish_from_related": "DARVO runs a whole sequence: deny, attack, then claim to be the victim. Victim role reversal is only the last move, or only its outcome, with no denial or attack needed. Blame-Shifting points at you as the cause and does not need any claim of being hurt. The Non-Apology Apology regrets your reaction without owning the act, and may carry no claim of suffering. Minimization shrinks what happened to you, while this one swaps whose pain is the subject."

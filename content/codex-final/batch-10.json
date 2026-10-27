@@ -1,16 +1,16 @@
 {
   "Labeling as Identity Warfare": {
-    "short_definition": "Pinning a fixed defect label on a person, such as 'the difficult one', until others read everything they do through it.",
-    "core_meaning": "Pinning a fixed defect label on a person, such as 'the difficult one', until others read everything they do through it.",
-    "expanded_definition": "This is what happens when one description, such as 'the difficult one', 'the unstable one' or 'the troublemaker', gets attached to a person and then travels. It turns up in team meetings, family group chats, school files and case notes. After that the label does the interpreting: a calm question reads as hostility, and a good week reads as a mask. One unkind nickname is not this. The pattern appears when the description spreads past whoever coined it and nothing you do can count against it.",
-    "plain_language_summary": "Someone gets a one-line description like 'the difficult one', and from then on everything they do, good or bad, is taken as proof of it.",
-    "why_this_matters": "Once a label sticks, ordinary behavior is read as confirming it, so nothing you do can count as evidence against it. You may start managing how you appear instead of simply acting, and people who never met you can arrive already holding the verdict.",
+    "short_definition": "Others pin a fixed defect label on a person, such as 'the difficult one', until everything that person does is read through it.",
+    "core_meaning": "Others pin a fixed defect label on a person, such as 'the difficult one', until everything that person does is read through it.",
+    "expanded_definition": "This is what happens when one description, such as 'the difficult one', 'the unstable one' or 'the troublemaker', gets attached to a person and then travels. It turns up in team meetings, family group chats, school files and case notes. After that, the label does the interpreting. A calm question reads as hostility, and a good week reads as a mask. One unkind nickname is not this. The pattern appears when the description spreads past whoever coined it and nothing you do can count against it.",
+    "plain_language_summary": "Someone gets a one-line description like 'the difficult one'. From then on, everything they do, good or bad, is taken as proof of it.",
+    "why_this_matters": "Once a label sticks, ordinary behavior is read as confirming it, so nothing you do can count as evidence against it. You may start managing how you appear instead of simply acting. People who never met you can arrive already holding the verdict.",
     "what_it_is": [
       "A single phrase, such as 'the sensitive one' or 'the flaky one', standing in for a whole person.",
       "Passed along: repeated to new coworkers, relatives, teachers or officials until it arrives before you do.",
       "Self-sealing: calm behavior is called putting on an act, and upset is called proof.",
-      "Sometimes written down in an email, a performance file, a school note or a case record, which gives it weight it never earned.",
-      "Different from feedback on one behavior, which names what happened and leaves you room to act differently next time."
+      "Sometimes it is written down in an email, a performance file, a school note or a case record, which gives it weight it never earned.",
+      "It is different from feedback on one behavior, which names what happened and leaves you room to act differently next time."
     ],
     "what_it_sounds_like": [
       "Oh, that's just Dana being Dana.",
@@ -44,7 +44,7 @@
     ],
     "innocent_or_ordinary_possibilities": [
       "Busy people compress others into a word or two to remember who is who, without any plan to pin anyone down.",
-      "One rough first meeting can set an impression through ordinary memory habits, with nobody working to keep it there.",
+      "One rough first meeting can set an impression through ordinary habits of memory. Nobody has to be working to keep it there.",
       "Someone repeating a colleague's word without checking it may not know it is unfair."
     ],
     "common_false_positives": [
@@ -76,7 +76,7 @@
       "You begin to use the label about yourself in jokes."
     ],
     "repair_check": "Repair here shows in how you are introduced and recorded. Someone who takes it seriously retracts the label to the people who heard it, corrects the file or note, and starts describing specific events. A private 'I didn't mean it like that' while the nickname keeps circulating leaves the label standing.",
-    "boundary_respect_check": "After you object, listen for whether the word drops out of what people say about you, or whether you are now also described as touchy about labels. The next description of you is the answer: is it about something you did?",
+    "boundary_respect_check": "After you object, listen for whether the word drops out of what people say about you, or whether you are now also described as touchy about labels. The next description of you is the answer. Is it about something you did?",
     "psychological_mechanism": "A label hands people a ready-made lens, and once they hold it they tend to notice what fits and pass over what does not. People can also treat someone according to the expectation, which may draw out the very behavior expected. The person labeled can begin to watch themselves through the same lens, so the label comes to feel like their own judgment.",
     "possible_impact_on_receiver": "People describe a tiring watchfulness: choosing words so as not to fit the description, then finding that the caution is read against them. Some start to wonder whether the label is true. Others describe anger at being introduced as a summary, and a pull to withdraw from groups where the word circulates.",
     "response_options": {
@@ -84,28 +84,28 @@
       "firm_boundary": "Decline the shorthand: 'Please describe what I did, not what I am. I'm glad to talk about the behavior.'",
       "disengagement": "Stop auditioning against the label. Do the work or join the event without adjusting your manner to disprove a word.",
       "support_seeking": "Ask someone who has seen you in several settings to describe you in their own words, then set that beside the label.",
-      "workplace_or_professional": "Ask in writing that feedback name specific events, request to see anything filed about you, and add your own dated account beside it."
+      "workplace_or_professional": "Ask in writing that feedback name specific events. Request to see anything filed about you, and add your own dated account beside it."
     },
     "boundary_script": "\"I'd like feedback about specific things I did, with examples. One word for me as a person gives me nothing I can change, so I'm asking that we leave it out of how I'm described.\"",
     "safety_sensitive": false,
-    "safety_note": "This pattern is not usually a danger in itself. It changes when the label reaches records that decide custody, housing, employment or care, or travels with threats or isolation. Then keep copies of whatever is written about you and take them to a legal aid office, union representative or advocate before replying in writing.",
+    "safety_note": "This pattern is not usually a danger in itself. It changes when the label reaches records that decide custody, housing, employment or care, or travels with threats or isolation. Then keep copies of whatever is written about you. Take them to a legal aid office, union representative or advocate before replying in writing.",
     "misuse_warning": [
       "Calling an accurate, earned description a 'label' can become a way to dodge feedback you need. Check whether it names real events.",
       "Reading every nickname as warfare turns teasing and shorthand into accusation. The concern is the fixed, spreading kind that nothing can disprove."
     ],
-    "how_to_distinguish_from_related": "Contempt is scorn shown in the moment through face and voice, while a label can be delivered flatly, even in a file, and outlasts the moment. Name-Calling Disguised as Humor needs a joke and a laugh; a label is often said gravely. Shame Installation works inward, on how you judge yourself. Labeling works outward, on how other people see and treat you."
+    "how_to_distinguish_from_related": "Contempt is scorn shown in the moment through face and voice. A label can be delivered flatly, even in a file, and it outlasts the moment. Name-Calling Disguised as Humor needs a joke and a laugh, while a label is often said gravely. Shame Installation works inward, on how you judge yourself. Labeling works outward, on how other people see and treat you."
   },
   "Rage as Control": {
-    "short_definition": "Explosive anger that, whatever lies behind it, reliably ends a disagreement because the people around it learn to give way.",
-    "core_meaning": "Explosive anger that, whatever lies behind it, reliably ends a disagreement because the people around it learn to give way.",
-    "expanded_definition": "The focus is what an outburst does, not what is going on inside the person. Shouting, slamming a door, hitting a table, or going rigid and cold with fury can all close a conversation. The people nearby learn to calm things down first, and whatever raised the issue gets dropped. One blow-up under strain is common. The pattern shows when outbursts arrive as you push back, the topic does not return afterwards, and your world shrinks around avoiding the next one.",
+    "short_definition": "Explosive anger that reliably ends a disagreement, whatever lies behind it, because the people nearby learn to give way.",
+    "core_meaning": "Explosive anger that reliably ends a disagreement, whatever lies behind it, because the people nearby learn to give way.",
+    "expanded_definition": "The focus is what an outburst does, not what is going on inside the person. Shouting, slamming a door, hitting a table, or going rigid and cold with fury can all close a conversation. The people nearby learn to calm things down first, and whatever raised the issue gets dropped. One blow-up under strain is common. Look for outbursts that arrive when you push back, a topic that never returns afterwards, and a world that shrinks around avoiding the next one.",
     "plain_language_summary": "After enough blow-ups, you stop raising things that might set one off, so the anger ends up deciding what can be talked about.",
-    "why_this_matters": "People around an outburst learn to put calming things down ahead of whatever started it, so topics stop being raised long before anyone decides to stop raising them. Over time one person's temper quietly sets the limits of a household or workplace.",
+    "why_this_matters": "People around an outburst learn to put calming things down ahead of whatever started it. Topics stop being raised long before anyone decides to stop raising them. Over time one person's temper quietly sets the limits of a household or workplace.",
     "what_it_is": [
       "An outburst whose effect is to close the topic: raised voices, objects hit or thrown, a face gone hard, a sudden cold fury.",
       "Judged by its effect, not its sincerity. It can be fully felt and still work as a stop sign.",
-      "Followed by an aftermath that takes over: you comfort, apologize or tidy up, and the original issue never comes back.",
-      "Sometimes aimed at objects or the room rather than at you, yet it still teaches everyone to step carefully.",
+      "It is followed by an aftermath that takes over. You comfort, apologize or tidy up, and the original issue never comes back.",
+      "Sometimes it is aimed at objects or the room rather than at you, yet it still teaches everyone to step carefully.",
       "Different from ordinary anger in what comes after. Ordinary anger gets heard, and then the conversation resumes."
     ],
     "what_it_sounds_like": [
@@ -118,7 +118,7 @@
       "Everyone going quiet at the sound of keys in the door."
     ],
     "what_it_is_not": [
-      "Proportionate anger at something truly upsetting that is voiced, heard, and followed by a conversation that can still change the outcome.",
+      "Fitting anger at something truly upsetting, which is voiced, heard, and followed by a conversation that can still change the outcome.",
       "Someone working on regulating anger who slips, owns it the same day, and uses an agreed break afterwards.",
       "One blow-up during a crisis such as a bereavement, acknowledged afterwards.",
       "A family or friend group where everyone raises their voice and everyone carries on with the topic.",
@@ -145,7 +145,7 @@
     ],
     "common_false_positives": [
       "Two siblings who yell at each other and then laugh about it.",
-      "A stage manager shouting during a live-show emergency, where the tone belongs to the moment and nobody gives way to it afterwards.",
+      "A stage manager shouting during a live-show emergency. The tone belongs to the moment, and nobody gives way to it afterwards.",
       "A tired parent who snaps once over a spilled drink, apologizes, and cleans up with the child."
     ],
     "discernment_questions": [
@@ -164,7 +164,7 @@
     "more_concerning_if": [
       "Objects are thrown or hit, your way out of a room is blocked, or there is any touching in anger.",
       "Anger comes with threats, taking your phone, keys or money, or remarks about what could happen to you.",
-      "You have started to be afraid, not just uncomfortable."
+      "You have started to be afraid, which goes beyond feeling uncomfortable."
     ],
     "pattern_over_time_signs": [
       "A list of unsayable subjects grows quietly.",
@@ -180,27 +180,27 @@
       "soft_clarification": "Pick a calm moment, away from the last blow-up: 'I've noticed I stop mentioning things when your voice goes up. Can we find a way to talk about hard things that works for both of us?'",
       "firm_boundary": "Only if it feels safe, name what you need in a few words: 'I can't think while I'm being shouted at. Can we pick this up in an hour?'",
       "disengagement": "Lower the stakes without announcing anything: go to another room for a glass of water or a phone call, and let the topic wait. Keep your phone and keys within reach.",
-      "support_seeking": "Tell one person outside the home exactly what happens, in order, and agree a code word that means you want them to call or come over. A domestic violence advocate can talk through options in confidence.",
-      "workplace_or_professional": "At work, write down dates, words and who was present, and take it to HR or a manager above them, describing the effect on the work rather than the person's character."
+      "support_seeking": "Tell one person outside the home exactly what happens, in order. Agree a code word that means you want them to call or come over. A domestic violence advocate can talk through options in confidence.",
+      "workplace_or_professional": "At work, write down dates, words and who was present. Take it to HR or a manager above them, and describe the effect on the work rather than the person's character."
     },
     "boundary_script": "\"Once voices are raised I can't do this well, though I do want to talk about it. Could we take twenty minutes and then pick it up again?\" Skip it if the temperature is already rising.",
     "safety_sensitive": true,
-    "safety_note": "Anger that makes you afraid is a safety question, not only a communication one. Warning signs include thrown or broken objects, blocked doorways, grabbing, threats, being followed from room to room, and damage to your belongings. If you see them, keep a phone charged and papers where you can reach them, and call a domestic violence hotline or advocate to plan privately. If a rage turns physical, or you fear it will within minutes, leave if you can and call emergency services from wherever you are safe.",
+    "safety_note": "Anger that makes you afraid is a safety question as well as a communication one. Warning signs include thrown or broken objects, blocked doorways, grabbing, threats, being followed from room to room, and damage to your belongings. If you see them, keep a phone charged and papers where you can reach them. Call a domestic violence hotline or advocate to plan privately. If a rage turns physical, or you fear it will within minutes, leave if you can and call emergency services from wherever you are safe.",
     "misuse_warning": [
       "Calling any anger 'control' can silence honest frustration, including your own. The words fit anger whose result is a closed topic and a wary household, not every raised voice.",
       "Describing someone as 'raging' to others to win support in a dispute turns the label into a weapon. Describe what happened, with dates."
     ],
-    "how_to_distinguish_from_related": "Intimidation carries a spoken or implied consequence for not complying; rage can carry none, and its force comes from fear of the next outburst. Contempt is cold and aimed at your worth, while rage is hot and aimed at the exchange. Emotional Invalidation tells you your feelings are wrong; rage often makes them impossible to voice at all, because the topic itself disappears."
+    "how_to_distinguish_from_related": "Intimidation carries a spoken or implied consequence for not complying. Rage can carry none, and its force comes from fear of the next outburst. Contempt is cold and aimed at your worth, while rage is hot and aimed at the exchange. Emotional Invalidation tells you your feelings are wrong. Rage often makes them impossible to voice at all, because the topic itself disappears."
   },
   "Credit Theft": {
-    "short_definition": "Presenting another person's work, idea or effort as one's own, or letting the credit drift away from the person who produced it.",
-    "core_meaning": "Presenting another person's work, idea or effort as one's own, or letting the credit drift away from the person who produced it.",
-    "expanded_definition": "Credit theft covers a range. At one end, a finished piece of work is shown to an audience under another name. At the other, credit leaks slowly: an idea you raised is repeated in a later meeting by someone else, thanks are given in private, and by the time it reaches decision-makers its source is forgotten. One slip is common and often fixed once pointed out. The pattern is the same person's contributions repeatedly ending up under someone else's name.",
-    "plain_language_summary": "Your work or idea is shown as someone else's, once or over and over, until the people who matter no longer know it was yours.",
-    "why_this_matters": "Work continues while recognition accrues elsewhere, and by the time the pattern is visible the original attribution is hard to prove. Pay, promotion, references and your own sense of competence can all follow the credit rather than the work.",
+    "short_definition": "Someone presents another person's work, idea or effort as their own, or lets the credit drift away from the person who made it.",
+    "core_meaning": "Someone presents another person's work, idea or effort as their own, or lets the credit drift away from the person who made it.",
+    "expanded_definition": "Credit theft covers a range. At one end, a finished piece of work is shown to an audience under another name. At the other, credit leaks slowly. An idea you raised is repeated in a later meeting by someone else, thanks are given in private, and by the time it reaches decision-makers its source is forgotten. One slip is common and often fixed once pointed out. The pattern is the same person's contributions repeatedly ending up under someone else's name.",
+    "plain_language_summary": "Your work or idea is shown as someone else's, once or over and over. In the end, the people who matter no longer know it was yours.",
+    "why_this_matters": "Work continues while recognition builds up elsewhere, and by the time the pattern is visible the original attribution is hard to prove. Pay, promotion, references and your own sense of competence can all follow the credit rather than the work.",
     "what_it_is": [
       "A slide deck, piece of code, draft, research finding or idea shown to a bigger audience under another name.",
-      "A slower form, where a suggestion is restated later with no name attached and the credit is absorbed by whoever is speaking.",
+      "A slower form, where a suggestion is restated later with no name attached and the credit goes to whoever is speaking.",
       "Aimed at the people who decide things: senior meetings, funding panels, clients, byline lists.",
       "Helped by informality. Ideas shared in hallways, chats and calls leave no record to point to.",
       "Includes leaving a name off an author list, a patent, a credits page or a release note."
@@ -269,38 +269,38 @@
       "Opportunities that follow visible work, like being asked to present, go to someone else.",
       "You stop sharing early ideas in rooms where they may be picked up."
     ],
-    "repair_check": "Repair for credit can be measured: a correction sent to the same people who saw the wrong version, your name restored on the file or list, and the next project crediting you without being asked. A warm private thank-you with the public record unchanged repairs nothing.",
+    "repair_check": "Repair for credit can be measured. A correction is sent to the same people who saw the wrong version, your name is restored on the file or list, and the next project credits you without being asked. A warm private thank-you with the public record unchanged repairs nothing.",
     "boundary_respect_check": "After asking for your name on the work, watch the very next piece. Is the name there before you have to ask again? Or have you become the person who is difficult about credit?",
-    "psychological_mechanism": "Credit tends to go to whoever stands visibly behind the work in front of decision-makers. When an idea travels by informal routes, memory of its source is thin, and listeners often attach it to the person presenting. Each repetition makes the new attribution feel more settled, and challenging it later can feel petty even when it is accurate.",
+    "psychological_mechanism": "Credit often goes to whoever stands visibly behind the work in front of decision-makers. When an idea travels by informal routes, memory of its source is thin, and listeners often attach it to the person presenting. Each repetition makes the new attribution seem more settled, and challenging it later can seem petty even when it is accurate.",
     "possible_impact_on_receiver": "People describe a specific kind of anger: the work was real and the reward went elsewhere. Some stop sharing ideas early or start documenting everything. Others doubt whether the idea was that good, or whether they are petty for caring. Careers can stall because the evidence of contribution sits on someone else's record.",
     "response_options": {
       "soft_clarification": "Assume a slip and ask: 'I noticed my name isn't on the slide for the analysis I wrote. Can we add it before it goes out?'",
       "firm_boundary": "Name the fact and the fix: 'This section is my work, drafted on the third. I'd like it credited to me in the circulated version.'",
-      "disengagement": "Share early ideas in writing, by email with a date and to the group, instead of in hallway talk or live calls where nothing is recorded.",
-      "support_seeking": "Ask a colleague who saw the original work to confirm in writing when it was first shown, and talk to a mentor outside your reporting line about how to raise it.",
+      "disengagement": "Share early ideas in writing, by email with a date and to the group, rather than in hallway talk or live calls where nothing is recorded.",
+      "support_seeking": "Ask a colleague who saw the original work to confirm in writing when it was first shown. Talk to a mentor outside your reporting line about how to raise it.",
       "workplace_or_professional": "Keep dated drafts and sent messages. Raise it with your manager first. If the reporting line is the problem, HR, a union, or an ombudsperson (an independent complaints officer) can look at the record."
     },
     "boundary_script": "\"The record needs to be right. I wrote this proposal and sent the first draft on the twelfth, so please credit it to me when it goes to the director's list.\"",
     "safety_sensitive": false,
-    "safety_note": "Credit theft rarely endangers you physically. It becomes more serious when it is tied to job security, a visa or sponsorship that depends on your employer, a degree, or retaliation after you speak. Gather dated proof of your own authorship, without copying confidential material before checking policy, and speak to an employment lawyer, union representative or student ombudsperson before escalating inside the organization.",
+    "safety_note": "Credit theft rarely endangers you physically. It becomes more serious when it is tied to job security, a visa or sponsorship that depends on your employer, a degree, or retaliation after you speak. Gather dated proof of your own authorship, without copying confidential material before checking policy. Speak to an employment lawyer, union representative or student ombudsperson before escalating inside the organization.",
     "misuse_warning": [
       "Claiming theft whenever a project's credit is less than you hoped can hurt a colleague who gave you a fair share. Check the record first.",
       "Posting a screenshot of a missing name as a public accusation can turn a fixable oversight into a feud. Ask for the correction first."
     ],
-    "how_to_distinguish_from_related": "Comparative Devaluation measures you unfavorably against other people; credit theft needs no comparison, because it moves the work itself. Emotional Invalidation is what you may hear when you raise it ('you're being petty'), but it is a separate act from the taking. Shame Installation attacks your adequacy as a person. Credit theft leaves your adequacy alone and takes the evidence of it."
+    "how_to_distinguish_from_related": "Comparative Devaluation measures you unfavorably against other people. Credit theft needs no comparison, because it moves the work itself. Emotional Invalidation is what you may hear when you raise it ('you're being petty'), but it is a separate act from the taking. Shame Installation attacks your adequacy as a person. Credit theft leaves your adequacy alone and takes the evidence of it."
   },
   "Sabotaging Success": {
-    "short_definition": "A run of setbacks, such as a canceled ride, a lost message or a sudden crisis, that keeps landing just as someone is about to advance.",
-    "core_meaning": "A run of setbacks, such as a canceled ride, a lost message or a sudden crisis, that keeps landing just as someone is about to advance.",
+    "short_definition": "Setbacks such as a canceled ride, a lost message or a sudden crisis keep landing just as someone is about to move ahead.",
+    "core_meaning": "Setbacks such as a canceled ride, a lost message or a sudden crisis keep landing just as someone is about to move ahead.",
     "expanded_definition": "Here, delays and obstacles keep arriving just before something important to you: an exam, an interview, a launch, a course, a move. Each event looks ordinary alone, like a forgotten ride, a message that was not passed on, or a crisis that needs you tonight. What makes it a pattern is the timing and the repetition, and that the same person is near the trouble. Looking back across months can reveal a link no single event showed. It cannot tell you why anyone did it.",
     "plain_language_summary": "Things keep going wrong just before your big moments, and when you look back, the same person is close to the problem each time.",
-    "why_this_matters": "Progress keeps stalling for reasons that each look like bad luck, so you start doubting your own competence rather than the timing. Over months, chances to earn, learn or move out can quietly pass, which matters most where you depend on one person for money or a home.",
+    "why_this_matters": "Progress keeps stalling for reasons that each look like bad luck, so you start doubting your own competence rather than the timing. Over months, chances to earn, learn or move out can quietly pass. This matters most where you depend on one person for money or a home.",
     "what_it_is": [
-      "Setbacks that cluster near a milestone: the night before an exam, the morning of an interview, a week before a deadline.",
-      "Events that are each deniable alone, such as an empty fuel tank, a vanished charger, a forgotten message or a family crisis.",
+      "Setbacks that cluster near a milestone, such as the night before an exam, the morning of an interview, or a week before a deadline.",
+      "Events that are each easy to deny alone, such as an empty fuel tank, a vanished charger, a forgotten message or a family crisis.",
       "Help that was reliable at other times, like childcare, rides or a quiet house, withdrawn exactly when it counts.",
       "Emotional versions: a fight started the evening before a presentation, or bad news delivered late at night.",
-      "Sometimes discouragement in place of obstacles, such as 'Are you sure you want to?' repeated each time you apply or enroll."
+      "Sometimes discouragement takes the place of obstacles, such as 'Are you sure you want to?' repeated each time you apply or enroll."
     ],
     "what_it_sounds_like": [
       "I know your exam's tomorrow, but I really need to talk about us tonight.",
@@ -331,7 +331,7 @@
       "They put in effort at the key moment, with rides, cover for childcare, or a quiet house.",
       "Their own plans suffer from the same mishaps at the same rate.",
       "The reason for each event holds up when you check it. A bus strike is a bus strike.",
-      "When you say a date is crucial, they rearrange things."
+      "When you say a date is very important, they rearrange things."
     ],
     "innocent_or_ordinary_possibilities": [
       "Families and workplaces run at a steady rate of mishaps, and important days are simply the ones you notice.",
@@ -340,7 +340,7 @@
     ],
     "common_false_positives": [
       "Missing the train on interview day because a signal fault delayed everyone.",
-      "A friend who is poor at logistics and forgets all arrangements, not just the important ones.",
+      "A friend who is poor at logistics and forgets every arrangement, including the unimportant ones.",
       "A partner who cannot cover childcare because their shift changed, and who tries to find a replacement."
     ],
     "discernment_questions": [
@@ -356,7 +356,7 @@
       "They answer 'this date matters' by changing their plans."
     ],
     "more_concerning_if": [
-      "The obstacles target things that would make you more independent: a job, a qualification, savings, a license, a move.",
+      "The obstacles aim at things that would make you more independent, such as a job, a qualification, savings, a license or a move.",
       "Money, transport, identity documents or your phone are involved.",
       "Doubts about you are voiced to others, so that help dries up before you ask for it."
     ],
@@ -364,27 +364,27 @@
       "You stop announcing plans in advance because trouble seems to follow.",
       "A list of abandoned courses, applications and offers grows, each with its own good reason.",
       "You rate your own ability lower, though results in other areas have been fine.",
-      "You feel a flicker of dread, not just excitement, when something good is about to happen."
+      "You feel a flicker of dread as well as excitement when something good is about to happen."
     ],
     "repair_check": "Repair shows in what happens before the next milestone. Someone engaging with this asks which dates matter, protects them, and checks in afterwards. A heartfelt apology after you missed the chance, followed by the same last-minute trouble next time, addresses only the last event.",
     "boundary_respect_check": "Tell them in advance that a particular date matters, then see what that week looks like. Do they ask what you need? Or does a fresh emergency appear, and does the talk turn to why you are making a fuss about the date?",
-    "psychological_mechanism": "Repeated disruption near goals can teach a person to link ambition with trouble and anxiety. Because each event has an ordinary explanation, the cost tends to be absorbed as a personal failing: not ready enough, not organized enough. Where someone also depends on the other person for money, a ride or a home, they may scale plans down in advance to protect the peace.",
+    "psychological_mechanism": "Repeated disruption near goals can teach a person to link ambition with trouble and anxiety. Each event has an ordinary explanation, so the cost is often taken as a personal failing: not ready enough, not organized enough. Where someone also depends on the other person for money, a ride or a home, they may scale plans down in advance to protect the peace.",
     "possible_impact_on_receiver": "People describe the tiredness of preparing twice, once for the milestone and once for the interference. Some stop telling anyone their plans. Others came to believe they were bad at finishing things, and only saw the timing when they lined events up on a calendar. Hope can start to feel risky, and good news can arrive with dread.",
     "response_options": {
       "soft_clarification": "Say what the date means, early and plainly: 'The fourteenth is my exam. What would help me protect that evening? I'm asking for practical backup.'",
       "firm_boundary": "State the need, not the pattern: 'I need Wednesday evening free so I can prepare. Please don't plan anything for it.'",
-      "disengagement": "Keep key plans and papers out of the line of disruption: tell fewer people the date, keep copies of documents elsewhere, and line up backup transport with a friend.",
+      "disengagement": "Keep key plans and papers out of the line of disruption. Tell fewer people the date, keep copies of documents elsewhere, and line up backup transport with a friend.",
       "support_seeking": "Show a trusted friend your calendar of milestones and setbacks side by side and ask what they see. A counselor or advocate can help you judge whether the timing is more than chance.",
-      "workplace_or_professional": "At work or school, tell a supervisor or advisor about key dates early and ask in writing for flexibility, such as a later start or a deadline extension, so outside trouble can be absorbed."
+      "workplace_or_professional": "At work or school, tell a supervisor or advisor about key dates early. Ask in writing for flexibility, such as a later start or a deadline extension, so outside trouble can be absorbed."
     },
     "boundary_script": "\"This course matters a lot to me, and my first assessment is next Tuesday. I'd like to talk about how we can keep that evening free, and what you can take on so I can study.\"",
     "safety_sensitive": true,
-    "safety_note": "Sabotage becomes a safety matter when it hits your independence: your job, qualification, savings, ID documents, phone or transport. It also does when it comes with threats or checking on where you go. Keep copies of key papers and a little money with someone you trust, and call a domestic abuse or financial-abuse service to talk it through confidentially before changing anything visibly.",
+    "safety_note": "Sabotage becomes a safety matter when it hits your independence: your job, qualification, savings, ID documents, phone or transport. It also does when it comes with threats or checking on where you go. Keep copies of key papers and a little money with someone you trust. Before changing anything visibly, call a domestic abuse or financial-abuse service to talk it through confidentially.",
     "misuse_warning": [
       "Reading every canceled plan as sabotage turns real bad luck and honest busyness into an accusation. A timeline kept over months is the evidence, not one bad week.",
       "Telling someone they are sabotaging you before you have checked the pattern can end a conversation they would have joined. Start by describing the dates."
     ],
-    "how_to_distinguish_from_related": "Setting Up to Fail hands you a task built to be lost; here the task is sound and the road to it keeps getting blocked from outside. Impossible Metrics keeps the bar out of reach, while this leaves the bar fine and the timing bad. Intimidation puts a threat on the table; sabotaging success arrives as ordinary bad timing, with nothing threatened."
+    "how_to_distinguish_from_related": "Setting Up to Fail hands you a task built to be lost. Here the task is sound and the road to it keeps getting blocked from outside. Impossible Metrics keeps the bar out of reach, while this leaves the bar fine and the timing bad. Intimidation puts a threat on the table. Sabotaging success arrives as ordinary bad timing, with nothing threatened."
   },
   "Scapegoating": {
     "short_definition": "Placing blame for a shared, systemic or leadership failure on one individual, who then absorbs the consequences while the cause stays in place.",

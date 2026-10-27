@@ -282,8 +282,8 @@
     "how_to_distinguish_from_related": "Intimidation carries an implied consequence for non-compliance, and this one stays suggestive and deniable. Contempt is disgust toward you, whereas here the signals are sexual or watchful in character and may be wrapped in friendliness. Emotional Invalidation answers your feelings once you voice them. This is attention aimed at you that makes you feel watched before you say anything."
   },
   "Sarcasm as Weapon": {
-    "short_definition": "Using a mocking tone to deliver real criticism or contempt, so that any objection can be answered with \"it was a joke.\"",
-    "core_meaning": "Using a mocking tone to deliver real criticism or contempt, so that any objection can be answered with \"it was a joke.\"",
+    "short_definition": "Mocking someone to deliver real criticism or contempt, so that any objection can be brushed off with \"it was a joke.\"",
+    "core_meaning": "Mocking someone to deliver real criticism or contempt, so that any objection can be brushed off with \"it was a joke.\"",
     "expanded_definition": "Sarcasm says the opposite of what is meant, usually with a tone that signals it. Used as a weapon, the real message is a criticism, and the tone gives the speaker a way out if challenged. Plenty of sarcasm is harmless, and many friendships run on it. The difference is who it lands on, how often, and what happens when someone says it stung. Strip off the tone, and the sentence is a plain insult.",
     "plain_language_summary": "It sounds like a joke, but the message is a put-down. When you say it hurt, you are told you cannot take a joke.",
     "why_this_matters": "Criticism lands in full while objecting to it means arguing about a joke, so the hurt has nowhere to go.",
@@ -302,7 +302,7 @@
       "\"Thanks for the help. Really, I could not have done it without you ruining it.\""
     ],
     "what_it_is_not": [
-      "Mutual, affectionate teasing that both people enjoy is not this, and a generally sarcastic style applied evenly to everyone has no particular target.",
+      "Mutual, affectionate teasing that both people enjoy is not this. A generally sarcastic style applied evenly to everyone has no particular target either.",
       "One sharp remark in a bad moment, acknowledged and not repeated, is friction rather than a pattern.",
       "Dry humor in a team that roasts everyone, including the boss, and where anyone can say it is too much and be heard.",
       "Sarcasm directed at an idea or a situation, such as a broken printer, rather than at a person.",
@@ -355,23 +355,23 @@
       "Others have begun to join in the remarks about you, taking their cue from the tone.",
       "You go quiet in groups where this person is present."
     ],
-    "repair_check": "Raise one kind of remark and see whether it is still made. If that subject is simply left alone, and they can accept that something that felt like a joke to them did not feel like one to you, that is change. A promise to be more careful, followed by the same jokes with a wink, is not.",
+    "repair_check": "Raise one kind of remark and see whether it is still made. If that subject is left alone, and they can accept that something that felt like a joke to them did not feel like one to you, that is change. A promise to be more careful, followed by the same jokes with a wink, is not.",
     "boundary_respect_check": "Say once, calmly, that a certain joke does not work for you, then watch the weeks that follow. Is the topic dropped without a comment? Or does it turn into a running joke about how you cannot take a joke?",
-    "psychological_mechanism": "Because the words are literally positive, a person has to decode the insult before reacting, and then pay the extra price of looking humorless if they object. That small gap can make people laugh along and swallow the sting. Repeated over time, the jabs can start to sound like an accurate view of oneself, particularly when others laugh too.",
+    "psychological_mechanism": "Because the words are literally positive, a person has to decode the insult before reacting. Then they pay the extra price of looking humorless if they object. That small gap can lead people to laugh along and swallow the sting. Repeated over time, the jabs can start to sound like an accurate view of oneself, particularly when others laugh too.",
     "possible_impact_on_receiver": "People describe laughing along while feeling a small drop in the stomach, rehearsing comebacks afterward, and wondering whether they really are too sensitive. Some say they went quiet in groups to avoid being the next punchline. A long-delayed realization that they had not enjoyed the joking for years is common.",
     "response_options": {
       "soft_clarification": "Ask for the plain version: \"If you mean that I did that badly, can you just tell me directly?\"",
       "firm_boundary": "Mark the topic as closed without joining the joke: \"I'm not laughing at that one. Please leave it.\"",
       "disengagement": "Do not play along or counter with your own jab. A flat \"hm\" and a change of subject takes the audience out of it.",
-      "support_seeking": "Ask a friend who sees you with this person whether the jokes sound affectionate to them, and listen to what they say about the tone.",
+      "support_seeking": "Ask a friend who sees you with this person whether the jokes sound affectionate to them. Listen to what they say about the tone.",
       "workplace_or_professional": "At work, note down the remark, the date and who heard it. If it continues, ask your manager to address the tone of the team, naming the behavior and not the person."
     },
     "boundary_script": "\"That joke is about something that actually bothers me, so it doesn't land as funny. Please drop it.\"",
     "safety_sensitive": false,
-    "safety_note": "Sarcasm is not a safety signal in itself. It deserves more attention if it is paired with threats, with monitoring, or with a fear of how the person will react if you object. In that case, a counselor or domestic abuse advocate can help you assess it. If it is a boss or colleague, a workplace ombudsperson (an independent complaints officer) can help.",
+    "safety_note": "Sarcasm is not a safety signal in itself. It deserves more attention if it comes with threats, with monitoring, or with a fear of how the person will react if you object. In that case, a counselor or domestic abuse advocate can help you assess it. If it is a boss or colleague, a workplace ombudsperson (an independent complaints officer) can help.",
     "misuse_warning": [
       "Calling every dry remark a weapon can shut down humor in friendships where teasing is a loved way of connecting.",
-      "Quoting a sarcastic line out of context to prove someone is cruel may drop the tone and history that made it a joke between the two of them."
+      "If you quote a sarcastic line out of context to prove someone is cruel, you may drop the tone and history that made it a joke between the two of them."
     ],
     "how_to_distinguish_from_related": "Contempt is an open expression of disgust and needs no joke as cover. Shame Installation goes after your basic adequacy, where sarcasm can sting over something small. Emotional Invalidation rules your feelings out of bounds. Sarcasm instead says the opposite of what is meant, often as mock praise, and the tone is the whole vehicle."
   }
