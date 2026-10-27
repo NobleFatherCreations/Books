@@ -66,7 +66,7 @@ function full(e){
    glance, not from someone who knows how: the scrambling key is in this page, and the hashes are of public names. Turning
    saving off deletes the entry. Nothing here records when anything was read. */
 const store=(()=>{
-  const KEY="ui-state", XK=[110,102,33,154,60,81], SHORT={breath:"b",theme:"th",size:"sz",space:"sp",motion:"mo",leave:"lv",hap:"hp"};
+  const KEY="ui-state", XK=[110,102,33,154,60,81], SHORT={breath:"b",theme:"th",size:"sz",space:"sp",motion:"mo",leave:"lv",hap:"hp",color:"co"};
   let mem={}, ok=false, on=false, legacy=0, frozen=false;
   try{ localStorage.setItem("__t","1"); localStorage.removeItem("__t"); ok=true; }catch(e){}
   const fnv=t=>{ let h=2166136261; for(let i=0;i<t.length;i++){ h^=t.charCodeAt(i); h=Math.imul(h,16777619)>>>0; } return h.toString(36); };
@@ -560,6 +560,7 @@ function viewSettings(){
     '<fieldset><legend>Saving on this device</legend>'+ch("save",store.saving?"on":"off",[["off","Off (private)"],["on","On"]])+
       '<p class="help">'+(store.saving?'Saved tactics, recent reading and these settings are kept on this device in a scrambled entry. Scrambled is not secret: someone who knows how could read which tactics you saved and which lines you rested. Page addresses and the tab title now show tactic names, and your browser history keeps them. A private window is safer. Turning saving off deletes all of it.':'Nothing is written to this device. Addresses use numbers instead of tactic names, and the tab shows only the guide\'s name.')+'</p></fieldset>'+
     '<fieldset><legend>Colours</legend>'+ch("theme",PREF.theme,[["auto","Match my phone"],["night","Night"],["day","Day"]])+'</fieldset>'+
+    '<fieldset><legend>Colour strength</legend>'+ch("color",PREF.color,[["vivid","Vivid"],["quiet","Quiet"]])+'<p class="help">Quiet keeps colour to small marks. It is easier on the eyes at night and draws less attention on a shared screen.</p></fieldset>'+
     '<fieldset><legend>Text size</legend>'+ch("size",PREF.size,[["m","Standard"],["l","Larger"],["xl","Largest"]])+'</fieldset>'+
     '<fieldset><legend>Line spacing</legend>'+ch("space",PREF.space,[["normal","Standard"],["roomy","Roomier"]])+'</fieldset>'+
     '<fieldset><legend>Motion</legend>'+ch("motion",PREF.motion,[["auto","Match my phone"],["reduce","Reduce"]])+'<p class="help">Nothing moves on its own either way. Reduce also removes the short slides when you tap.</p></fieldset>'+
@@ -570,13 +571,14 @@ function viewSettings(){
     '<fieldset><legend>The Leave button goes to</legend>'+ch("leave",store.get("leave","weather"),[["weather","A weather search"],["wiki","Wikipedia"],["blank","A blank page"]])+'<p class="help">It needs a connection; without one it shows a blank page. No web page can promise to leave no trace in your browser, so a private browsing window is safer still.</p></fieldset>'+
     '</form></div>';
 }
-const PREF={theme:"auto",size:"m",space:"normal",motion:"auto"};
+const PREF={theme:"auto",size:"m",space:"normal",motion:"auto",color:"vivid"};
 function loadPrefs(){ Object.keys(PREF).forEach(k=>{ const v=store.get(k,null); if(v) PREF[k]=v; }); applyPrefs(); }
 function applyPrefs(){ const r=document.documentElement;
   PREF.theme==="auto"?r.removeAttribute("data-theme"):r.setAttribute("data-theme",PREF.theme);
   PREF.size==="m"?r.removeAttribute("data-size"):r.setAttribute("data-size",PREF.size);
   PREF.space==="roomy"?r.setAttribute("data-space","roomy"):r.removeAttribute("data-space");
-  PREF.motion==="reduce"?r.setAttribute("data-motion","reduce"):r.removeAttribute("data-motion"); }
+  PREF.motion==="reduce"?r.setAttribute("data-motion","reduce"):r.removeAttribute("data-motion");
+  PREF.color==="quiet"?r.setAttribute("data-color","quiet"):r.removeAttribute("data-color"); }
 const motionOK = () => PREF.motion!=="reduce" && !matchMedia("(prefers-reduced-motion: reduce)").matches;
 
 /* ---------- home ---------- */

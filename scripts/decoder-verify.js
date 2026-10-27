@@ -443,6 +443,25 @@ const contrast = (a, b) => { const L = c => { c = c.map(v => v / 255).map(v => v
     await p.goto(URL0 + "#/entry/gaslighting"); await p.waitForTimeout(250); await p.click("[data-save]"); await p.waitForTimeout(80);
     T("saving a station gives the bookmark a short pop", await p.evaluate(() => !!document.querySelector("[data-save] svg.pop") || matchMedia("(prefers-reduced-motion: reduce)").matches)); await ctx.close(); }
 
+  // ---- colour and depth: each line's colour is its identity
+  { const ctx = await ctxFor(390, 844, "dark"); const p = await open(ctx, "#/"); await p.waitForTimeout(300);
+    const h = await p.evaluate(() => { const rows = [...document.querySelectorAll(".home .lrow")]; const cols = rows.map(r => getComputedStyle(r).backgroundColor);
+      return { n: rows.length, distinct: new Set(cols).size, solid: cols.every(c => c !== "rgba(0, 0, 0, 0)"), stripe: /gradient/.test(getComputedStyle(document.querySelector(".top"), "::before").backgroundImage), glow: /radial-gradient/.test(getComputedStyle(document.body).backgroundImage) }; });
+    T("Home: the ten lines are ten distinct solid colour tiles", h.n === 10 && h.distinct === 10 && h.solid, JSON.stringify(h));
+    T("a ten-colour stripe runs under the top bar, and a soft glow sits behind the Home headline", h.stripe && h.glow, JSON.stringify(h));
+    await p.goto(URL0 + "#/entry/emotional-blackmail"); await p.waitForTimeout(300);
+    const s = await p.evaluate(() => ({ lc: getComputedStyle(document.querySelector(".sname .b")).backgroundColor, tab: getComputedStyle(document.querySelector("[role=tab][aria-selected=true]")).backgroundColor, bar: getComputedStyle(document.querySelector(".sname"), "::before").backgroundColor, ans: getComputedStyle(document.querySelector(".answer")).borderTopColor, wash: /radial-gradient/.test(getComputedStyle(document.body).backgroundImage) }));
+    T("station: the selected step, the sign bar and the answer's top edge all take the line's colour, with a wash behind the title", s.tab === s.lc && s.bar === s.lc && s.ans === s.lc && s.wash, JSON.stringify(s));
+    await p.goto(URL0 + "#/line/pressure"); await p.waitForTimeout(300);
+    T("line page: the header is a block of the line's colour", await p.evaluate(() => { const l = getComputedStyle(document.querySelector(".lhead")).backgroundColor, b = getComputedStyle(document.querySelector(".lhead")).color; return l !== "rgba(0, 0, 0, 0)" && l !== b; }));
+    await ctx.close(); }
+
+  { const ctx = await ctxFor(390, 844, "dark"); const p = await open(ctx, "#/settings"); await p.click("label:has(input[name=color][value=quiet])"); await p.waitForTimeout(150);
+    await p.goto(URL0 + "#/"); await p.waitForTimeout(300);
+    const q = await p.evaluate(() => ({ attr: document.documentElement.getAttribute("data-color"), tile: getComputedStyle(document.querySelector(".home .lrow")).backgroundColor, panel: getComputedStyle(document.documentElement).getPropertyValue("--panel").trim(), glow: getComputedStyle(document.body).backgroundImage, stripe: getComputedStyle(document.querySelector(".top"), "::before").display }));
+    T("Quiet colours: tiles go back to small marks, the glow and the stripe are off", q.attr === "quiet" && q.glow === "none" && q.stripe === "none", JSON.stringify(q));
+    await ctx.close(); }
+
   // ---- review round: rested lines stay out everywhere, honest saving copy, Leave keeps nothing, no referrer
   { const ctx = await ctxFor(390, 844, "dark"); const p = await open(ctx, "#/settings"); await p.click("label:has(input[name=save][value=on])"); await p.waitForTimeout(150);
     const copy = await p.evaluate(() => document.querySelector("[data-settings]").textContent);

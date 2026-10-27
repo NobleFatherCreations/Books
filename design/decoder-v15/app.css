@@ -635,12 +635,31 @@
   body[data-page=station] .answer{background:linear-gradient(180deg,color-mix(in srgb,var(--lc) 13%,var(--panel)),var(--panel) 70%);border-top:.25rem solid var(--lc)}
   body[data-page=station] .tabs [role=tab][aria-selected=true]{background:var(--lc);color:var(--bullet-ink)}
   body[data-page=station] .tabs [role=tab][aria-selected=true] .no{background:var(--bullet-ink);color:var(--lc)}
-  .panel,.notice,.blade:not(.pri):not(.quiet),.opt,.row{background-image:linear-gradient(180deg,var(--lift),transparent 55%)}
+  .panel,.notice,.blade:not(.pri):not(.quiet),.opt{background-image:linear-gradient(180deg,var(--lift),transparent 55%)}
   .view[data-g] .lhead{align-items:center;gap:var(--s2);padding:var(--s3);margin-inline:calc(var(--s2)*-1);background-color:var(--lc);background-image:linear-gradient(135deg,var(--lc),color-mix(in srgb,var(--lc) 92%,var(--bullet-ink)));color:var(--bullet-ink)}
   .view[data-g] .lhead .h-page,.view[data-g] .lhead .lede{color:var(--bullet-ink)}
   .view[data-g] .lhead .b,.view[data-g] .lhead .emb.plate{background:var(--bullet-ink);color:var(--lc);margin:0}
   .view[data-g] .lhead .emb.plate{width:2.5rem;height:2.5rem;flex:none}
   .view[data-g] .lhead .emb.plate svg{width:1.5rem;height:1.5rem}
+}
+
+/* Quiet colours: the line colours shrink back to small marks (a bullet, a left edge), for a calmer look or a shared screen. */
+@layer pages{
+  :root[data-color=quiet] body[data-page]{background-image:none}
+  :root[data-color=quiet] .top::before{display:none}
+  :root[data-color=quiet] .net path{filter:none}
+  :root[data-color=quiet] .home .lrow{background:var(--panel);color:var(--fg);box-shadow:inset .375rem 0 0 var(--lc)}
+  :root[data-color=quiet] .home .lrow b,:root[data-color=quiet] .home .lrow .n,:root[data-color=quiet] .home .lrow .emb{color:var(--fg)}
+  :root[data-color=quiet] .home .lrow small{color:var(--fg-2)}
+  :root[data-color=quiet] .home .lrow .b{background:var(--lc);color:var(--bullet-ink)}
+  :root[data-color=quiet] .view[data-g] .lhead{background:none;color:var(--fg);padding-inline:0;margin-inline:0}
+  :root[data-color=quiet] .view[data-g] .lhead .h-page{color:var(--fg)}
+  :root[data-color=quiet] .view[data-g] .lhead .lede{color:var(--fg-2)}
+  :root[data-color=quiet] .view[data-g] .lhead .b,:root[data-color=quiet] .view[data-g] .lhead .emb.plate{background:var(--lc);color:var(--bullet-ink)}
+  :root[data-color=quiet] body[data-page=station] .sname::before{height:.5rem;box-shadow:none}
+  :root[data-color=quiet] body[data-page=station] .answer{background:var(--panel);border-top:0}
+  :root[data-color=quiet] body[data-page=station] .tabs [role=tab][aria-selected=true]{background:var(--blade);color:var(--blade-ink)}
+  :root[data-color=quiet] body[data-page=station] .tabs [role=tab][aria-selected=true] .no{background:var(--blade-ink);color:var(--blade)}
 }
 
 /* The shared House seal. On a phone it rests at the end of the page, above the sign bar, so it never floats over the text;
