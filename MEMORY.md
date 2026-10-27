@@ -1,9 +1,11 @@
 # MEMORY — read this first, every session
 
-> **v19 CANDIDATE (2026-10-27, later, NOT deployed):** the owner asked for single scroll, no tabs/clutter, no "tracks with
-> circles", Apple feel. Built from this source: one scroll per station with a sticky section index, Browse replaces the map,
-> Quiet default, frosted bars. Suite 105/105, axe clean. Deploying it is a production write: needs the owner's go-ahead, then bump
-> `sites.json` (version v19 + changelog) in the same commit; the page already says v19. Details: DESIGN.md "v19 addendum".
+> **v19 IS LIVE (2026-10-27, deploy 6ae0da00e86b4d164b8a4f3f; replaced v18 6ae0a61aff2b9cdb5d09a3c4).** Owner asked for single scroll,
+> no tabs/clutter, no "tracks with circles", Apple feel, then a final design + SEO audit and "make it live". Repo and live are
+> byte-identical (`node scripts/verify-deployed.mjs playbook`). Suite 106 checks (`node scripts/decoder-verify.js
+> instruments/playbook/site/index.html`). Read DESIGN.md "v19 addendum" and "v19 final audit". Deploy method: Netlify MCP
+> `deploy-site` for site 8b3d5fdf-49e5-46eb-bb53-97d69039a44e, then run the returned npx command from a staging copy of
+> `instruments/playbook/site/`. Still open: Help Q2 wording, the 13 gates, real-device check, Search Console/Bing sitemap submission.
 > **START HERE (latest, 2026-10-27).** Pattern Decoder **v18 is LIVE** (deploy 6ae0a61aff2b9cdb5d09a3c4); repo and live are
 > byte-identical (`node scripts/verify-deployed.mjs playbook hub` in Books). The source is `Books/design/decoder-v15/` +
 > `Books/design/decoder_pages.py`, built by `python3 design/build-decoder-v15.py` into the publish directory
@@ -4801,4 +4803,7 @@ Owner asked for ten phone upgrades, a final combing of every tactic for accuracy
   differs from live (v18) until deployed. JS 95 to 81 KB, CSS 51 to 42 KB.
 - **Open for the owner:** Help Q2 wording; the 13 gates; whether to deploy v19. A phone check on a real device (the suite
   uses a software browser) is still worth doing, especially the sliding sign bar and the sticky index with the on-screen keyboard.
+- **Final audit and deploy (same day).** Steelman audit of layout, navigation, readability, presentation and findability; fixes:
+  A to Z chips, 38rem measure, opaque frosted bars, plain pages restyled to match (and House seal overlap fixed), OG image
+  (`scripts/make-decoder-og.js`), robots max-snippet, dateModified, `/playbook/llms.txt`. Deployed as v19; verified live.
 
