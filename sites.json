@@ -99,8 +99,13 @@
         "found": false,
         "checkedAt": "2026-08-02"
       },
-      "version": "v14",
+      "version": "v15",
       "changelog": [
+        {
+          "date": "2026-10-27",
+          "version": "v15",
+          "summary": "v15, a full redesign. The guide is now laid out like a metro sign system: ten coloured, lettered lines, 310 stations, 'change here for' interchanges and 109 routes. Every entry opens with the answer, then four short steps. Private by default (one scrambled storage entry only when saving is turned on), a Leave button on every page, rest-a-line, station codes with search by code, a one-page printable station card, keys 1-4 and step links. Ten phone upgrades: back to top, a slim step bar, Paste in search, keyboard-aware bar, a Text size button, read-aloud with on-device voices only, opt-in tap buzz, a one-time swipe hint, touch-feel CSS and a save pop. Vivid line colours with a Quiet colours setting. Every entry re-read for plain, human wording: 4,101 of 18,819 passages changed, mean reading grade 8.7 to 7.8, sentences over 24 words 2,573 to 138, no dashes, one study description corrected and two unsupported jargon labels removed. Built by design/build-decoder-v15.py behind a byte-for-byte gate that reads all 310 entries back from the finished page; 104 automated checks including axe WCAG 2.2 AA, contrast, reflow, keyboard, reduced motion and timing against v14."
+        },
         {
           "date": "2026-10-24",
           "version": "v14",
