@@ -1,11 +1,40 @@
 # Findability plan: search engines + AI assistants (2026-11-08)
 
-Status: **PLAN ONLY. Nothing built, nothing deployed.** Waiting on the owner's answers (bottom of file).
+Status: **PLAN ONLY. Nothing built, nothing deployed.** Owner answered 2026-11-08; see §0, which overrides the rest where they differ.
 
 Goal: anyone asking Google, Bing, ChatGPT, Claude, Perplexity or Gemini about manipulation, coercive
 control, workplace coercion, elder abuse, leaving, repair, etc. lands on the free book/chapter that answers it.
 
 ---
+
+## 0. Owner decisions (2026-11-08) — these override anything below
+
+- **Round 1 = six books only, "fully tagged as much as possible":** The Sovereign Divine Feminine, Playground Protectors,
+  The Festie Bible, The Festie Codex (wook), The Fractal, The Fracture. Every other book waits for round 2, after
+  these six are fully done.
+- **Homepage: later**, as part of a navigation redesign. Not in round 1. (The 15 MB problem stays open until then.)
+- **Analytics: allowed** ("allow full analytics"). Which tool still to confirm (children's book makes cookie-based tools a
+  legal problem). The books' own "no tracking" wording must be updated wherever a book gains analytics, so it stays true.
+- **Safety books (round 2): full findability, plus a reader-facing toggle** ("discreet mode") — e.g. neutral tab title and
+  no history entries while on. Crawlers always see the real titles, so the toggle costs no findability.
+- **License:** free forever, credit to Shae Stovell, books updated over time. Exact licence still to confirm.
+  JSON-LD will carry `isAccessibleForFree: true`, `author`/`copyrightHolder` Shae Stovell, `dateModified`, `version`.
+
+### Round-1 order (by how each book stores its text, measured 2026-11-08)
+
+| # | Book | Structure | Work |
+|---|---|---|---|
+| 1 | **The Fracture** | Static HTML, 3.4 MB, 21 clean sections with ids (`ep0`…), 88k words, 195 sources | Pilot: chapter pages split from sections, `<cite>`, `citation` JSON-LD. Simplest clean split. |
+| 2 | **Sovereign Divine Feminine** | Static, 4.5 MB, 70 sections, 414 ids; no meta description | Same splitter as Fracture. |
+| 3 | **Playground Protectors** | Static, 4.2 MB, 242 sections, **no `<h1>`**, no meta description | Same splitter; add the h1; `audience` schema for kids + grown-ups; gamification untouched. |
+| 4 | **The Fractal** | JS data (`CHAPTERS`, `DATA`), 7.7 MB, ~1.3k words visible to crawlers | Own generator from the JS data. |
+| 5 | **The Festie Bible** | Entirely JS (`FESTIE_DATA`, `SCENARIO_INDEX`, `RESOURCES`), 176 words visible | Own generator: one page per guide/scenario. |
+| 6 | **The Festie Codex** | Static, **14.1 MB, text starts at 11.7 MB, last heading at 14.1 MB** (1 MB under Google's cut-off), 683 sections | Biggest; chapter pages also fix the size risk. Last so the splitter is proven first. |
+
+Every one of the six gets: title/description/canonical/OG/Twitter card, og.png cover card, `Book` + `Chapter` +
+`BreadcrumbList` JSON-LD, heading ids, per-chapter plain pages, contents page, per-book sitemap (added to robots.txt and
+root sitemap), `<noscript>` contents in the app, cross-links to related books and Decoder tactic pages, llms.txt entry,
+version bump + on-page update note. Then verify-seo, Playwright 375/1440, deploy (owner go-ahead), verify-deployed.
 
 ## 1. What the audit found (measured 2026-11-08, not assumed)
 

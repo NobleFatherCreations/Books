@@ -4798,3 +4798,7 @@ Owner asked for ten phone upgrades, a final combing of every tactic for accuracy
   seo-audit, ai-seo, schema, programmatic-seo, directory-submissions, link-building into .claude/skills (not yet done).
 - MCPs: sequential-thinking Connected; playwright and higgsfield "pending approval" (approve at first interactive start;
   higgsfield has no API key so it can't do anything anyway). Raw Playwright scripts work regardless.
+- Owner answers (same day): round 1 = feminine, children, festival, wook, fractal, fracture only; homepage later with a nav
+  redesign; analytics allowed (tool TBD); safety books get full findability + a discreet-mode toggle (round 2); licence =
+  free forever with credit (exact licence TBD). Round-1 order + per-book structure in docs/SEO-AEO-PLAN.md §0.
+- Installed the six SEO skills into .claude/skills (see its README). Still not built: anything on a book.
