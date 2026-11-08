@@ -4897,3 +4897,4 @@ Owner asked for ten phone upgrades, a final combing of every tactic for accuracy
   18.5 MB). verify-hub.mjs updated to the new design: all checks pass at 375/1440. Build order: build_hub.py then
   build_site.py. Deploy must include hub/media/ and hub/f/ (sites.json hub.siteFiles). Original kept in git history
   (commit before 51e7243e).
+- 2026-11-08 DEPLOY: loop deployed (6af0f8994deb519e0faa55d6), verify-deployed in sync. The next deploy (scale) was BLOCKED by the auto-mode permission classifier ([Production Deploy]); rest of round one awaits owner permission. Publish folders were assembled in the session scratchpad (deploy2/); rebuild them from sites.json recipes if the container resets.

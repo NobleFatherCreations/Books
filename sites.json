@@ -668,8 +668,10 @@
       ],
       "repoPath": "library/loop/index.html",
       "section": "library",
-      "pendingDeploy": {
-        "note": "Repo is AHEAD of live. It names the faith book 'The Sacred Divide' (renamed 2026-09-27; live on /faith since 2026-09-28); live still says 'The Coercive Control Codex' in this book's menu. Only that text differs, 2 lines in the menu. Needs the owner's explicit go-ahead to deploy (single-file site, id b9405b37-a71c-4c55-bbd2-a3043963b457). Menu label fix (2026-11-08: Sacred Divide subtitle, Decoder 310 tactics, The Listening Room) is in the repo only; it ships with this site's own next round."
+      "lastDeploy": {
+        "date": "2026-11-08",
+        "deployId": "6af0f8994deb519e0faa55d6",
+        "note": "Sacred Divide name + menu label fixes; verify-deployed in sync."
       }
     },
     {
