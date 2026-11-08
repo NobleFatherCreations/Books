@@ -51,6 +51,7 @@ NOTICE_HTML = f"""<section class="fx-notice" id="notice" style="max-width:40rem;
 <p style="margin:0 0 12px"><b>Not advice.</b> Nothing here is legal, medical, psychological, financial or religious advice, or a diagnosis of anyone. If you are in danger, contact emergency services.</p>
 <p style="margin:0 0 12px"><b>Corrections.</b> If you find a factual error, write to <a href="mailto:{CONTACT}" style="color:#E5A93C">{CONTACT}</a> and it will be reviewed and corrected.</p>
 <p style="margin:0">{S.LICENSE_LINE} <a href="/fractal/contents" style="color:#E5A93C">Read it chapter by chapter</a>.</p>
+{{CHAPTER_LINKS}}
 </section>"""
 
 
@@ -164,7 +165,11 @@ def patch_index(h, chs):
     if "v4 &middot; November 8, 2026" not in h:
         h = h.replace(anchor, anchor + "          " + entry + "\n", 1)
     i = h.find('<div id="nf-chrome"')
-    h = h[:i] + NOTICE_HTML + "\n" + h[i:]
+    links = "".join(f'<li><a href="/{BOOK["slug"]}/{c["slug"]}" style="color:inherit">{S.esc(c["title"])}</a></li>'
+                    for c in chs if (BOOK["slug"] != "festival" or c["eyebrow"].startswith("Guide for")))
+    block = (f'<h3 style="font-size:1rem;margin:16px 0 8px;color:inherit">Every {"guide" if BOOK["slug"] == "festival" else "chapter"}</h3>'
+             f'<ul style="margin:0;padding-left:1.2em;columns:16rem;column-gap:24px">{links}</ul>')
+    h = h[:i] + NOTICE_HTML.replace("{CHAPTER_LINKS}", block) + "\n" + h[i:]
     return h
 
 

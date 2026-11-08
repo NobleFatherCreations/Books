@@ -46,6 +46,7 @@ NOTICE_HTML = f"""<section id="notice" style="max-width:44rem;margin:48px auto 1
 <p style="margin:0 0 12px">Twenty-one field guides for awareness and harm reduction, written by festies, for festies. They are not medical, legal or mental-health advice, and they diagnose no one. Scenarios are illustrative, not accounts of real, identifiable people. In immediate danger, contact emergency services; in crisis, call or text 988.</p>
 <p style="margin:0 0 12px">Every guide and scenario also has its own page: <a href="/festival/contents" style="color:#E8C879">read them guide by guide</a>. Corrections and feedback: <a href="mailto:{CONTACT}" style="color:#E8C879">{CONTACT}</a>.</p>
 <p style="margin:0">{S.LICENSE_LINE}</p>
+{{CHAPTER_LINKS}}
 </section>"""
 
 
@@ -152,7 +153,11 @@ def patch_index(h, chs, d):
                r'clip:rect(0 0 0 0);white-space:nowrap">The Festie Bible: Twenty-One Field Guides to Psychological Safety '
                r'in the Festival World</h1>', h, count=1)
     i = h.find('<div id="nf-chrome"')
-    h = h[:i] + NOTICE_HTML + "\n" + h[i:]
+    links = "".join(f'<li><a href="/{BOOK["slug"]}/{c["slug"]}" style="color:inherit">{S.esc(c["title"])}</a></li>'
+                    for c in chs if (BOOK["slug"] != "festival" or c["eyebrow"].startswith("Guide for")))
+    block = (f'<h3 style="font-size:1rem;margin:16px 0 8px;color:inherit">Every {"guide" if BOOK["slug"] == "festival" else "chapter"}</h3>'
+             f'<ul style="margin:0;padding-left:1.2em;columns:16rem;column-gap:24px">{links}</ul>')
+    h = h[:i] + NOTICE_HTML.replace("{CHAPTER_LINKS}", block) + "\n" + h[i:]
     return h
 
 
