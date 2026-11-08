@@ -1,5 +1,11 @@
 # MEMORY — read this first, every session
 
+> **v19 IS LIVE (2026-10-27, deploy 6ae0da00e86b4d164b8a4f3f; replaced v18 6ae0a61aff2b9cdb5d09a3c4).** Owner asked for single scroll,
+> no tabs/clutter, no "tracks with circles", Apple feel, then a final design + SEO audit and "make it live". Repo and live are
+> byte-identical (`node scripts/verify-deployed.mjs playbook`). Suite 106 checks (`node scripts/decoder-verify.js
+> instruments/playbook/site/index.html`). Read DESIGN.md "v19 addendum" and "v19 final audit". Deploy method: Netlify MCP
+> `deploy-site` for site 8b3d5fdf-49e5-46eb-bb53-97d69039a44e, then run the returned npx command from a staging copy of
+> `instruments/playbook/site/`. Still open: Help Q2 wording, the 13 gates, real-device check, Search Console/Bing sitemap submission.
 > **START HERE (latest, 2026-10-27).** Pattern Decoder **v18 is LIVE** (deploy 6ae0a61aff2b9cdb5d09a3c4); repo and live are
 > byte-identical (`node scripts/verify-deployed.mjs playbook hub` in Books). The source is `Books/design/decoder-v15/` +
 > `Books/design/decoder_pages.py`, built by `python3 design/build-decoder-v15.py` into the publish directory
@@ -4783,6 +4789,24 @@ Owner asked for ten phone upgrades, a final combing of every tactic for accuracy
   Sequential Thinking at user scope on every start (idempotent; tested fresh, repeated, and outside a repo: Connected).
   A server registered by a hook is live from the next start or resume of that chat; the environment Setup script line is
   still the only way to have it in the very first turn of every new chat.
+
+## 2026-10-27 (v19 candidate) — one scroll, no map, Apple manner
+
+- **Ask:** "add the single scroll and any other upgrade; remove clutter and tabs; replace the tracks with small circles with an
+  easier system; Apple feel; act as a senior design expert." Planning used Sequential Thinking (connected in this session) and
+  the apple-design and ponytail skills. A pasted plan from another chat (React tooling, Festival tokens, red-free exit, 12px
+  labels, "Kinetic Deck") was not followed: it contradicts CLAUDE.md and DECODER-V18-PASTE-CHECK.md; its context files were never
+  added to the repo.
+- **Done (source, not live):** `design/decoder-v15/{app.js,app.css,shell.html}`, `design/build-decoder-v15.py`
+  (`home_html`, version v19, update note), `design/decoder_pages.py` (one line of copy), `scripts/decoder-verify.js`
+  (105 checks), `instruments/playbook/DESIGN.md` (v19 addendum). The built `instruments/playbook/site/` was rebuilt, so it now
+  differs from live (v18) until deployed. JS 95 to 81 KB, CSS 51 to 42 KB.
+- **Open for the owner:** Help Q2 wording; the 13 gates; whether to deploy v19. A phone check on a real device (the suite
+  uses a software browser) is still worth doing, especially the sliding sign bar and the sticky index with the on-screen keyboard.
+- **Final audit and deploy (same day).** Steelman audit of layout, navigation, readability, presentation and findability; fixes:
+  A to Z chips, 38rem measure, opaque frosted bars, plain pages restyled to match (and House seal overlap fixed), OG image
+  (`scripts/make-decoder-og.js`), robots max-snippet, dateModified, `/playbook/llms.txt`. Deployed as v19; verified live.
+
 
 ## 2026-11-08 — Findability plan for every book (plan only, nothing built or deployed)
 

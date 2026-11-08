@@ -31,9 +31,10 @@ import decoder_pages as pages  # noqa: E402  (plain per-tactic pages, v16)
 _spec = importlib.util.spec_from_file_location("v10", os.path.join(HERE, "build-decoder-v10.py"))
 v10 = importlib.util.module_from_spec(_spec); _spec.loader.exec_module(v10)
 
-VERSION = "v18"
+VERSION = "v19"
 DATE = "2026-10-27"
 UPDATES = [
+    "<strong>One scroll, no map (v19).</strong> Each tactic is now one page you scroll down, with a slim index at the top that jumps to its four parts: Is this it?, Understand, What to do and Go deeper. The four tabs, the step bar and the swipe are gone. The map of dots and lines is gone too: Browse lists the ten lines and every tactic in plain rows, and search sits on the first page. Colour is quieter to begin with (Vivid is in Settings), the top and bottom bars are frosted so the page slides under them, and the bottom bar slides away while you read down and returns when you scroll up.",
     "<strong>More room to read on a phone (v18).</strong> While you read down a tactic, only the slim step bar stays at the bottom of the screen; scroll up and the four buttons and Back to top come back. Share and Print now sit under More, two look-alikes compare one above the other on a phone, the daytime look uses the same warm gold as the night one, and a stray quote mark in a few comparisons is fixed.",
     "<strong>A new night look (v17).</strong> The guide is now matte black with a warm gold for the thing to press. Safety notes are red now, so they stand apart from everything else on the page, and the green Leave button is where it always was.",
     "<strong>Every tactic has its own page (v16).</strong> Each of the tactics now has a plain page with its own address, like noblefathercreations.com/playbook/gaslighting, so you can find it from a search engine and share a link that opens straight to it. The page address and the tab now always show what you are reading. If someone else could see this device, a private window is the safest way to read.",
@@ -188,61 +189,33 @@ def order_columns(keys, by, entries):
     return best
 
 
-def _inter(s1, s2):
-    (x1, y1, x2, y2), (x3, y3, x4, y4) = s1, s2
-    d = (x2 - x1) * (y4 - y3) - (y2 - y1) * (x4 - x3)
-    if abs(d) < 1e-9: return None
-    t = ((x3 - x1) * (y4 - y3) - (y3 - y1) * (x4 - x3)) / d
-    u = ((x3 - x1) * (y2 - y1) - (y3 - y1) * (x2 - x1)) / d
-    return (x1 + t * (x2 - x1), y1 + t * (y2 - y1)) if 0.02 < t < 0.98 and 0.02 < u < 0.98 else None
-
-
-def network_thumb(lines):
-    """The ten lines as a small octilinear diagram: a picture of the network that opens the map. Static, drawn at build time."""
-    n = len(lines); ys = [16 + i * 13.2 for i in range(n)]; perm = [(i * 3 + 2) % n for i in range(n)]
-    paths, diag = [], []
-    for i, l in enumerate(lines):
-        y0, y1 = ys[i], ys[perm[i]]; a = 92 + (i % 5) * 20; b = a + abs(y1 - y0)
-        paths.append('<path data-g="%s" d="M34 %.1fH%dL%.1f %.1fH326"/><circle class="e" data-g="%s" cx="34" cy="%.1f" r="4.2"/><circle class="e" data-g="%s" cx="326" cy="%.1f" r="4.2"/>' % (l["k"], y0, a, b, y1, l["k"], y0, l["k"], y1))
-        diag.append((a, y0, b, y1))
-    rings = []
-    for i in range(n):
-        for j in range(i + 1, n):
-            p = _inter(diag[i], diag[j])
-            if p: rings.append('<circle class="x" cx="%.1f" cy="%.1f" r="3.4"/>' % p)
-    return ('<a class="net" href="#/map" aria-label="Open the map. This small picture is only a sketch of the ten lines, not the real map">'
-            '<svg viewBox="0 0 340 150" aria-hidden="true" focusable="false">%s%s</svg></a>') % ("".join(paths), "".join(rings))
-
-
 def home_html(lines, count):
     """Home is written into the page at build time, so it paints before any script runs.
     app.js re-uses this exact markup when the reader comes back to it."""
     ic = lambda d: '<svg class="i" viewBox="0 0 24 24" aria-hidden="true">' + d + '</svg>'
     blade = lambda href, cls, icon, t, s: ('<a class="blade%s" href="%s"><span class="pict">%s</span><span class="bt"><b>%s</b><small>%s</small></span>'
                                             '<span class="ar" aria-hidden="true">%s</span></a>') % (cls, href, ic(icon), t, s, ic('<path d="M5 12h14M13 6l6 6-6 6"/>'))
-    rows = "".join('<li><a class="lrow" data-g="%s" href="#/line/%s"><span class="b" data-g="%s">%s</span><span class="lt"><b>%s</b><small>%s</small></span><span class="emb" data-g="%s" aria-hidden="true"><svg viewBox="0 0 24 24">%s</svg></span><span class="n">%d</span></a></li>'
-                   % (l["k"], l["k"], l["k"], l["letter"], l["label"], l["blurb"], l["k"], l["emb"], len(l["order"])) for l in lines)
+    rows = "".join('<li><a class="lrow" data-g="%s" href="#/line/%s"><span class="b" data-g="%s">%s</span><span class="lt"><b>%s</b><small>%s</small></span><span class="n">%d</span><svg class="i chev" viewBox="0 0 24 24" aria-hidden="true"><path d="m9 6 6 6-6 6"/></svg></a></li>'
+                   % (l["k"], l["k"], l["k"], l["letter"], l["label"], l["blurb"], len(l["order"])) for l in lines)
     return ('<div class="view home" id="home-src">'
             '<section class="concourse" aria-labelledby="home-h">'
             '<h1 id="home-h" class="h-page">Put a name to what is happening.</h1>'
             '<p class="lede">%d manipulation and control tactics, in plain words: how to tell if one fits, and what you can do.</p>'
-            '<div class="blades">%s%s%s%s</div>'
-            '<div id="continue"></div>%s'
+            '<div class="blades">%s%s%s</div>'
+            '<div id="continue"></div>'
             '</section>'
-            '<section class="lines-ix" aria-labelledby="lines-h"><h2 id="lines-h" class="k">The ten lines</h2><button type="button" class="linkbtn colortoggle" data-colortoggle>Make the colours quieter</button>'
+            '<section class="lines-ix" aria-labelledby="lines-h"><h2 id="lines-h" class="k">Or browse the ten lines</h2>'
             '<p class="small muted">Each line is one kind of tactic. Every tactic is a station on its line.</p>'
-            '<ol class="lrows">%s</ol>'
-            '<p class="more-links"><a href="#/lines/az">All %d, A to Z</a><a href="#/lines/where">By where it happens</a><a href="#/lines/common">The most common</a><a href="#/routes">Patterns seen together</a></p>'
+            '<ol class="lrows glist">%s</ol>'
+            '<p class="more-links"><a href="#/lines/az">All %d, A to Z</a><a href="#/lines">More ways to browse</a></p>'
             '</section></div>') % (
         count,
         blade("#/help", " pri", '<circle cx="12" cy="12" r="9"/><path d="M9.5 9a2.5 2.5 0 1 1 3.5 2.3c-.7.3-1 .9-1 1.7v.5"/><circle cx="12" cy="17" r=".6" fill="currentColor"/>',
               "Help me figure it out", "Answer two short questions"),
-        blade("#/search", "", '<circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/>', "I know what to look for", "Search by what was said or done"),
-        blade("#/map", "", '<circle cx="6" cy="6" r="2"/><circle cx="18" cy="18" r="2"/><path d="M6 8v4a4 4 0 0 0 4 4h6"/><circle cx="18" cy="6" r="2"/><path d="M18 8v8"/>',
-              "See all %d on the map" % count, "Ten lines, one for each kind"),
+        '<a class="sfield sflink" href="#/search">%s<span>Search by what was said or done</span></a>' % ic('<circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/>'),
         blade("#/safety", " safe quiet", '<path d="M12 3 2 20h20z"/><path d="M12 10v4"/><circle cx="12" cy="17" r=".6" fill="currentColor"/>',
               "If you are not safe, read this first", "What to do, and how to leave quickly"),
-        network_thumb(lines), rows, count)
+        rows, count)
 
 
 # ----------------------------------------------------------------------------------------------------------------------
@@ -325,7 +298,7 @@ def gate_output(entries, html, expected=EXPECTED):
         for k in ("s", "g", "w", "sub", "kw", "sens", "abs", "rel", "pop", "kind"):
             if _digest(g.get(k)) != _digest(e[k]): bad.append(f"{e['n']}: field {k} differs from its source")
         if e["g"] not in blocks or e["n"] not in blocks[e["g"]]: bad.append(f"{e['n']}: not in its line's data block")
-    homes = re.findall(r'class="n">(\d+)</span></a></li>', html.split('id="lines-h"')[1].split("</ol>")[0]) if 'id="lines-h"' in html else []
+    homes = re.findall(r'class="n">(\d+)</span>', html.split('id="lines-h"')[1].split("</ol>")[0]) if 'id="lines-h"' in html else []
     if sum(map(int, homes)) != expected: bad.append(f"Home's line index adds up to {sum(map(int, homes))}, expected {expected}")
     if "{{" in html: bad.append("an unfilled placeholder is left in the page")
     if len(re.findall(r"@font-face", html)) != 3: bad.append("the three embedded fonts are not all present")
