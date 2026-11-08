@@ -222,7 +222,7 @@ def promote(frag, rules):
 
 
 SMALL = {"a", "an", "and", "as", "at", "but", "by", "for", "in", "of", "on", "or", "the", "to", "vs", "with"}
-KEEP_UPPER = {"DARVO", "FOG", "AI", "OS", "NFC", "DV", "HR", "ID", "II", "III", "IV", "VI", "VII", "VIII", "IX", "XI", "XII"}
+KEEP_UPPER = {"DARVO", "FOG", "AI", "OS", "NFC", "DV", "HR", "ID", "PLUR", "RV", "DJ", "DJS", "MDMA", "LSD", "DMT", "GHB", "ER", "EMS", "GPS", "SMS", "LGBTQ", "II", "III", "IV", "VI", "VII", "VIII", "IX", "XI", "XII"}
 
 
 def title_case(s):
@@ -230,7 +230,10 @@ def title_case(s):
     s = re.sub(r"\s+", " ", s).strip()
     letters = [c for c in s if c.isalpha()]
     if not letters or sum(c.isupper() for c in letters) / len(letters) < 0.8:
-        return s
+        # already mixed case: only lower the joining words of Title Case ("Bill Of Rights" -> "Bill of Rights")
+        ws = s.split(" ")
+        return " ".join(w.lower() if i and w in ("And", "Of", "The", "In", "On", "To", "For", "A", "An", "Or", "With", "At", "By")
+                        and not ws[i - 1].endswith((":", "—")) else w for i, w in enumerate(ws))
     out = []
     for i, w in enumerate(s.split(" ")):
         core = re.sub(r"[^A-Za-z]", "", w)
@@ -239,7 +242,7 @@ def title_case(s):
         elif i and core.lower() in SMALL and not out[-1].endswith((":", "—", "→")):
             out.append(w.lower())
         else:
-            out.append(re.sub(r"[A-Za-z][A-Za-z’']*", lambda m: m.group(0) if m.group(0) in KEEP_UPPER
+            out.append(re.sub(r"[A-Za-z][A-Za-z’'*]*", lambda m: m.group(0) if m.group(0) in KEEP_UPPER
                               else m.group(0)[0].upper() + m.group(0)[1:].lower(), w))
     res = " ".join(out).replace("- ", "-") if "SELF- " in s else " ".join(out)
     return re.sub(r"-(And|Or|Of|The|In|To|A|An)-", lambda m: "-" + m.group(1).lower() + "-", res)
