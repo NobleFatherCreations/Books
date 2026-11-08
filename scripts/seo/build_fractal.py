@@ -141,6 +141,11 @@ def build(h):
         body = S.link_terms(body, terms, limit=6)
         c["html"], c["heads"] = body, heads
         if c["kind"] == "sector":
+            sec = c["src"]
+            imp = sec["impulse"][0].lower() + sec["impulse"][1:]
+            c["plain"] = (f"The Fractal's chapter on {sec['short'].lower()}: how one manipulation cycle captures {imp.rstrip('.')}, "
+                          "traced through 30 techniques, from love bombing to learned helplessness, at the personal, "
+                          "institutional and societal scale.")
             cand = f"Manipulation in {c['src']['short']}: 30 Techniques"
             c["seo_title"] = S.fit_title(cand if len(cand) <= 65 else f"Manipulation in {c['src']['short']}", "The Fractal")
             c["desc"] = S.clip(f"How love bombing, gaslighting and 28 more manipulation techniques run through "

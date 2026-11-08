@@ -10,6 +10,8 @@ class H(http.server.SimpleHTTPRequestHandler):
         p = path.split("?")[0].split("#")[0].strip("/")
         if p == "": return str(ROOT / "hub/catalogue-redesign.html")
         if p in ("robots.txt", "sitemap.xml", "llms.txt"): return str(ROOT / "hub" / p)
+        if "/" not in p and (ROOT / "hub" / (p + ".html")).exists(): return str(ROOT / "hub" / (p + ".html"))
+        if "/" not in p and (ROOT / "hub" / p).is_file(): return str(ROOT / "hub" / p)
         parts = p.split("/")
         base = MAP.get(parts[0], ROOT / "library" / parts[0])
         rest = "/".join(parts[1:])

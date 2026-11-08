@@ -4879,3 +4879,12 @@ Owner asked for ten phone upgrades, a final combing of every tactic for accuracy
   After deploy: verify-deployed, then `python3 scripts/seo/indexnow.py hub fracture ...`.
 - Off-site (owner, human-in-the-loop): docs/OFFSITE-PLAN.md. Owner offered "In plain words" answer lines per
   chapter (new writing) — awaiting yes. Decoder parked until owner's update. Homepage redesign later.
+- 2026-11-08 (latest): owner approved #2 "In plain words" + #4 "Also known as" on every chapter page. Data lives in
+  content/seo/<book>.json (only new words on chapter pages; fidelity.py skips classes aka/plain/kid-say/byline/notice).
+  Festie Bible plain = its own "What's Actually Happening"; Fractal sectors' plain built from its Controls/Captured fields.
+  Playground Protectors pages now use the BOOK'S OWN mission markup + stylesheet (library/children/book.css, pictures in
+  img/), Shaela speech-bubble for plain words, grown-ups' terms line, ages 5+ in data; small label colours deepened for
+  WCAG on those pages only. New /topics page (hub/topics.html, 126 terms → chapters across books), linked from every
+  chapter footer, llms.txt, root sitemap and the homepage v16 note. Design-review fixes applied (contents blurbs,
+  counts, measure, hover, collapsible TOC, curly quotes, footer/crumbs). Fonts: headings swap, body face
+  font-display:optional + preload → CLS 0–0.02, LCP ~0.5s on throttled mobile. All gates pass. Still NOT deployed.

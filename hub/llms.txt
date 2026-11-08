@@ -7,7 +7,7 @@ Every book below has a contents page and one plain HTML page per chapter, so you
 ## Books with chapter pages
 
 - [The Sacred Divide](https://noblefathercreations.com/faith): A free, sourced record of how institutional power works inside 34 religious traditions, each held to the same standard: leadership, money, disclosure, what leaving costs, and 30 control techniques graded with evidence. Contents: https://noblefathercreations.com/faith
-- [Playground Protectors](https://noblefathercreations.com/children): A free illustrated book for kids about tricky people: 28 missions that teach children to spot manipulation ("that didn't happen", guilt trips, secrets, exclusion), with Power-Ups to say and do, and notes for the grown-ups reading along. Contents: https://noblefathercreations.com/children/contents
+- [Playground Protectors](https://noblefathercreations.com/children): A free illustrated book for kids ages 5 and up about tricky people: 28 missions that teach children to spot manipulation ("that didn't happen", guilt trips, secrets, exclusion), with Power-Ups to say and do, and notes for the grown-ups reading along. Contents: https://noblefathercreations.com/children/contents
 - [The Sovereign Divine Feminine](https://noblefathercreations.com/feminine): A free field guide to psychological manipulation for women: 42 chapters naming the tactics (DARVO, fog, credibility theft, the digital leash, post-separation control) with counter-moves, safety planning and identity repair. Contents: https://noblefathercreations.com/feminine/contents
 - [The Fractal](https://noblefathercreations.com/fractal): A free book on one manipulation cycle that runs at every scale: thirty techniques, from love bombing to learned helplessness, traced through religion, politics, healthcare, housing and 22 more parts of life, in a person, an institution and a civilization. Contents: https://noblefathercreations.com/fractal/contents
 - [The Fracture](https://noblefathercreations.com/fracture): A free twelve-episode reading edition on where roughly $50 trillion went over 43 years: who received it, the 30 pipelines and six loops that move it, and what changes at every scale. 195 public-record sources. Contents: https://noblefathercreations.com/fracture/contents
@@ -54,34 +54,34 @@ Every book below has a contents page and one plain HTML page per chapter, so you
 ## Playground Protectors: chapters
 
 - [A note for grown-ups & kids reading together](https://noblefathercreations.com/children/a-note-for-grown-ups-and-kids-reading-together)
-- [The Memory Mixer-Upper](https://noblefathercreations.com/children/the-memory-mixer-upper)
-- [The Blame Game](https://noblefathercreations.com/children/the-blame-game)
-- [The Guilt Gripper](https://noblefathercreations.com/children/the-guilt-gripper)
-- [The Super-Fast Best Friend](https://noblefathercreations.com/children/the-super-fast-best-friend)
-- [The Silent Freeze-Out](https://noblefathercreations.com/children/the-silent-freeze-out)
-- [The Whisper Game](https://noblefathercreations.com/children/the-whisper-game)
-- [The Hot-and-Cold Game](https://noblefathercreations.com/children/the-hot-and-cold-game)
-- [The Jealousy Juggler](https://noblefathercreations.com/children/the-jealousy-juggler)
-- [The Comparison Trap](https://noblefathercreations.com/children/the-comparison-trap)
-- [The Drama Creator](https://noblefathercreations.com/children/the-drama-creator)
-- [The Peer Pressure Pusher](https://noblefathercreations.com/children/the-peer-pressure-pusher)
-- [The Body Copycat](https://noblefathercreations.com/children/the-body-copycat)
-- [The Compliment Stealer](https://noblefathercreations.com/children/the-compliment-stealer)
-- [The Secret Whisperer](https://noblefathercreations.com/children/the-secret-whisperer)
-- [The Fear Spreader](https://noblefathercreations.com/children/the-fear-spreader)
-- [The Group-Up](https://noblefathercreations.com/children/the-group-up)
-- [The Best Friend Trap](https://noblefathercreations.com/children/the-best-friend-trap)
-- [The Tricky Player’s Playbook](https://noblefathercreations.com/children/the-tricky-players-playbook)
-- [The Unfair Clubhouse](https://noblefathercreations.com/children/the-unfair-clubhouse)
-- [The Internet Ghost](https://noblefathercreations.com/children/the-internet-ghost)
-- [The Social Media Maze](https://noblefathercreations.com/children/the-social-media-maze)
-- [The Mean Voice in Your Head](https://noblefathercreations.com/children/the-mean-voice-in-your-head)
-- [The Protector’s Power-Ups](https://noblefathercreations.com/children/the-protectors-power-ups)
-- [The Power of Forgiveness](https://noblefathercreations.com/children/the-power-of-forgiveness)
-- [The Friendship Architect](https://noblefathercreations.com/children/the-friendship-architect)
-- [Quiet Heroes](https://noblefathercreations.com/children/quiet-heroes)
-- [The Kindness Chain Reaction](https://noblefathercreations.com/children/the-kindness-chain-reaction)
-- [The Final Level](https://noblefathercreations.com/children/the-final-level)
+- [THE MEMORY MIXER-UPPER](https://noblefathercreations.com/children/the-memory-mixer-upper)
+- [THE BLAME GAME](https://noblefathercreations.com/children/the-blame-game)
+- [THE GUILT GRIPPER](https://noblefathercreations.com/children/the-guilt-gripper)
+- [THE SUPER-FAST BEST FRIEND](https://noblefathercreations.com/children/the-super-fast-best-friend)
+- [THE SILENT FREEZE-OUT](https://noblefathercreations.com/children/the-silent-freeze-out)
+- [THE WHISPER GAME](https://noblefathercreations.com/children/the-whisper-game)
+- [THE HOT-AND-COLD GAME](https://noblefathercreations.com/children/the-hot-and-cold-game)
+- [THE JEALOUSY JUGGLER](https://noblefathercreations.com/children/the-jealousy-juggler)
+- [THE COMPARISON TRAP](https://noblefathercreations.com/children/the-comparison-trap)
+- [THE DRAMA CREATOR](https://noblefathercreations.com/children/the-drama-creator)
+- [THE PEER PRESSURE PUSHER](https://noblefathercreations.com/children/the-peer-pressure-pusher)
+- [THE BODY COPYCAT](https://noblefathercreations.com/children/the-body-copycat)
+- [THE COMPLIMENT STEALER](https://noblefathercreations.com/children/the-compliment-stealer)
+- [THE SECRET WHISPERER](https://noblefathercreations.com/children/the-secret-whisperer)
+- [THE FEAR SPREADER](https://noblefathercreations.com/children/the-fear-spreader)
+- [THE GROUP-UP](https://noblefathercreations.com/children/the-group-up)
+- [THE BEST FRIEND TRAP](https://noblefathercreations.com/children/the-best-friend-trap)
+- [THE TRICKY PLAYER’S PLAYBOOK](https://noblefathercreations.com/children/the-tricky-players-playbook)
+- [THE UNFAIR CLUBHOUSE](https://noblefathercreations.com/children/the-unfair-clubhouse)
+- [THE INTERNET GHOST](https://noblefathercreations.com/children/the-internet-ghost)
+- [THE SOCIAL MEDIA MAZE](https://noblefathercreations.com/children/the-social-media-maze)
+- [THE MEAN VOICE IN YOUR HEAD](https://noblefathercreations.com/children/the-mean-voice-in-your-head)
+- [THE PROTECTOR’S POWER-UPS](https://noblefathercreations.com/children/the-protectors-power-ups)
+- [THE POWER OF FORGIVENESS](https://noblefathercreations.com/children/the-power-of-forgiveness)
+- [THE FRIENDSHIP ARCHITECT](https://noblefathercreations.com/children/the-friendship-architect)
+- [QUIET HEROES](https://noblefathercreations.com/children/quiet-heroes)
+- [THE KINDNESS CHAIN REACTION](https://noblefathercreations.com/children/the-kindness-chain-reaction)
+- [THE FINAL LEVEL](https://noblefathercreations.com/children/the-final-level)
 - [The Power-Up Master Guide](https://noblefathercreations.com/children/the-power-up-master-guide)
 - [The Trickster’s Glossary](https://noblefathercreations.com/children/the-tricksters-glossary)
 - [The Feeling Words Index](https://noblefathercreations.com/children/the-feeling-words-index)
@@ -301,4 +301,5 @@ Every book below has a contents page and one plain HTML page per chapter, so you
 ## Optional
 
 - [Home](https://noblefathercreations.com/): the whole catalogue
+- [Topics](https://noblefathercreations.com/topics): every term (gaslighting, DARVO, coercive control, harm reduction...) with the chapters that cover it
 - Corrections and contact: dapperdadnfc@gmail.com

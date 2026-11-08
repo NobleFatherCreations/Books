@@ -79,6 +79,7 @@ def build(h):
                 + (f"<h2>Sentences to carry</h2><ul>{sentences}</ul>" if sentences else "")
                 + f"<h2>The {len(g['scenarios'])} scenarios</h2><ol>{sc_list}</ol>")
         order.append(dict(slug=gslug, title=f"{g['acronym']}: {g['edition']}", eyebrow=f"Guide for {role_tc.lower()}",
+                          aka=[f"festival safety for {g['role'].lower()}", f"{g['role'].lower()} at festivals"],
                           lede=g["intro"], movement=mv, html=body,
                           seo_title=S.fit_title(f"Festival Safety Guide for {role_tc}", "The Festie Bible"),
                           desc=S.clip(f"A free festival safety guide for {g['role'].lower()}: {g['intro']} "
@@ -102,8 +103,12 @@ def build(h):
                       f'<a href="/festival#/{g["slug"]}/{i + 1}">Open this scenario in the book</a></p>')
             body = S.link_terms(body, terms, limit=4)
             clinical = (s.get("clinical") or "").split("/")[0].strip()
+            # In plain words = the book's own "What's Actually Happening", first two sentences; aka = its clinical names
+            happen = re.split(r"(?<=[.!?])\s+", s.get("happening") or "")
+            plain_words = " ".join(happen[:2]).strip()
+            aka_terms = [x.strip() for x in re.split(r"\s*[/+]\s*", s.get("clinical") or "") if x.strip()]
             seo = f"“{hk}”: {clinical}" if clinical else hk
-            order.append(dict(slug=f"{g['slug']}-{S.slugify(hk, 44)}", title=hk,
+            order.append(dict(slug=f"{g['slug']}-{S.slugify(hk, 44)}", title=hk, plain=plain_words or None, aka=aka_terms or None,
                               eyebrow=f"{g['acronym']} · {S.title_case(s['section'])} · {i + 1} of {len(g['scenarios'])}",
                               lede=s["archetype"], movement=mv, html=body,
                               seo_title=S.fit_title(seo, "Festie Bible"),

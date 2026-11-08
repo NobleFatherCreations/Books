@@ -98,7 +98,8 @@
       "hub/llms.txt",
       "hub/og.png",
       "hub/robots.txt",
-      "hub/sitemap.xml"
+      "hub/sitemap.xml",
+      "hub/topics.html"
     ],
     "pendingDeploy": {
       "note": "Repo is AHEAD of live: v16 findability round built 2026-11-08, awaiting owner go-ahead to deploy."

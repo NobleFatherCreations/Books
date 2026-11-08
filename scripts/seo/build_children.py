@@ -26,8 +26,8 @@ BOOK = {
                     "manipulation (\"that didn't happen\", guilt trips, secrets, exclusion), with Power-Ups to say and "
                     "do, and notes for the grown-ups reading along."),
     "index_title": "Playground Protectors: Free Kids' Book on Tricky People (Ages 5+)",
-    "index_desc": ("A free illustrated book for kids 5 and up: 28 missions to spot tricky people and manipulation, "
-                   "with Power-Ups to say and do, plus notes for parents and teachers."),
+    "index_desc": ("A free illustrated book for kids 5+: 28 missions to spot tricky people and manipulation, "
+                   "with Power-Ups to say and do, and notes for parents and teachers."),
     "genre": ["Children's literature", "Social-emotional learning", "Child safety"],
     "about": ["Child safety", "Manipulation", "Bullying", "Friendship", "Gaslighting", "Peer pressure",
               "Boundaries", "Social-emotional learning", "Online safety"],

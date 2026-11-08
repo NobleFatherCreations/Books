@@ -171,7 +171,8 @@ def export_fonts(book_html, out_dir, families):
         buf = io.BytesIO()
         f.save(buf)
         (out_dir / name).write_bytes(buf.getvalue())
-        css.append(f"@font-face{{font-family:'{fam}';font-weight:{w};font-style:{st};font-display:swap;"
+        disp = "optional" if len(families) > 1 and fam == families[1] else "swap"   # body face never reflows text (CLS); headings swap
+        css.append(f"@font-face{{font-family:'{fam}';font-weight:{w};font-style:{st};font-display:{disp};"
                    f"src:url({rel}/{name}) format('woff2')}}")
     return "\n".join(css)
 
@@ -534,6 +535,7 @@ def frame(book, parts, *, title, desc, url, ld, body, image_alt):
             "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1, viewport-fit=cover\">\n"
             + head_tags(book, title, desc, url, f"{DOMAIN}/{book['slug']}/og.png", image_alt)
             + f'<meta name="theme-color" content="{book["theme"]["bg"]}">\n'
+            + parts.get("preload", "") + "\n"
             + f"<style>{parts['fonts']}\n{css}</style>\n{house_css}\n"
             + f'<script type="application/ld+json">{ld_json(ld)}</script>\n</head>\n<body>\n'
             + '<a class="cskip" href="#text">Skip to the text</a>\n'
@@ -543,7 +545,7 @@ def frame(book, parts, *, title, desc, url, ld, body, image_alt):
             + f'\n<footer class="foot"><p>{LICENSE_LINE}</p>'
             + f'<p>{book["notice_short"]} <a href="{book["notice_href"]}">Read the full notice</a>.</p>'
             + f'<nav aria-label="More"><a href="/{book["slug"]}/contents">Every chapter</a>'
-            + f'<a href="/{book["slug"]}">The full book</a><a href="/">Noble Father Creations</a></nav></footer>\n'
+            + f'<a href="/{book["slug"]}">The full book</a><a href="/topics">All topics</a><a href="/">Noble Father Creations</a></nav></footer>\n'
             + house_html + "\n" + house_js + "\n" + parts["beacon"] + "\n</body>\n</html>\n")
 
 
@@ -695,6 +697,13 @@ def write_book(book, index_html, chs, out_dir, related=None, extra_pages=()):
     out_dir = Path(out_dir)
     parts = {"house": house_parts(index_html), "beacon": beacon(index_html),
              "fonts": export_fonts(index_html, out_dir / "f", book["fonts"])}
+    # preload the upright display + body faces: text never reflows when the real fonts arrive (CLS)
+    pre = []
+    for fam in book["fonts"][:2]:
+        hit = sorted(x.name for x in (out_dir / "f").glob(f"{slugify(fam)}-*-normal.woff2"))
+        if hit:
+            pre.append(f'<link rel="preload" href="/{book["slug"]}/f/{hit[0]}" as="font" type="font/woff2" crossorigin>')
+    parts["preload"] = "\n".join(pre)
     extra = load_extra(book["slug"])
     for c in chs:
         e = extra.get(c["slug"], {})

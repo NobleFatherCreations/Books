@@ -54,7 +54,7 @@ PAGE_FOOT = (f'<aside data-seo-block style="max-width:44rem;margin:48px auto 120
              f'<time datetime="{S.TODAY}">{S.TODAY_HUMAN}</time> · Free to read</p><p style="margin:0 0 8px">{BOOK["notice_short"]} '
              f'<a href="/faith#notice" style="color:#C9A35B">Full notice</a>.</p><p style="margin:0">{S.LICENSE_LINE}</p></aside>')
 TAG = re.compile(r'[ \t]*<(?:meta|link)\b[^>]*\bdata-seo\b[^>]*>\n?|[ \t]*<script type="application/ld\+json" data-seo>.*?</script>\n?|'
-                 r'\n?<(section|aside) id="notice" data-seo-block.*?</\1>|\n?<aside data-seo-block.*?</aside>', re.S)
+                 r'\n?<(section|aside) id="notice" data-seo-block.*?</\1>|\n?<aside data-seo-block.*?</aside>|<p data-seo-block[^>]*>.*?</p>', re.S)
 
 
 def head_block(title, desc, url, ld, og_type):
@@ -86,7 +86,9 @@ def main():
         name = BeautifulSoup(h[:h.find("</h1>") + 5], "html.parser").find("h1").get_text(" ", strip=True)
         chs.append({"slug": p.stem, "title": name, "file": p})
     burl = f"{S.DOMAIN}/faith"
+    extra = S.load_extra("faith")
     for i, c in enumerate(chs):
+        aka = extra.get(c["slug"], {}).get("aka") or []
         h = TAG.sub("", S.read(c["file"]))
         url = f"{burl}/{c['slug']}"
         title = S.fit_title(f"{c['title']}: How Institutional Power Works", BOOK["title"])
@@ -100,11 +102,15 @@ def main():
              "about": {"@type": "Thing", "name": c["title"]}, "mainEntity": {"@id": url + "#chapter"}},
             {"@type": "Chapter", "@id": url + "#chapter", "name": c["title"], "position": i + 1, "url": url,
              "isPartOf": {"@id": burl + "#book"}, "author": {"@id": S.PERSON["@id"]}, "license": S.LICENSE_URL,
-             "isAccessibleForFree": True, "inLanguage": "en", "about": {"@type": "Thing", "name": c["title"]}},
+             "isAccessibleForFree": True, "inLanguage": "en", "about": {"@type": "Thing", "name": c["title"]},
+             **({"alternateName": aka, "keywords": ", ".join(aka)} if aka else {})},
             dict(S.crumbs_ld(crumbs), **{"@id": url + "#crumbs"}), S.book_node(BOOK), S.PERSON, S.ORG]}
         h = set_title_desc(h, title, desc)
         h = h.replace("</head>", head_block(title, desc, url, ld, "article") + "</head>", 1)
         h = heading_ids(h)
+        if aka:
+            h = re.sub(r"(<h1[^>]*>.*?</h1>)", lambda m: m.group(1) + '<p data-seo-block style="margin:8px 0 16px;font-size:.875rem;'
+                       'line-height:1.5;color:#BCB1A0">Also known as: ' + S.esc(", ".join(aka)) + "</p>", h, count=1, flags=re.S)
         i_nf = h.find('<div id="nf-chrome"')
         h = h[:i_nf] + PAGE_FOOT + "\n" + h[i_nf:]
         S.write(c["file"], h)
