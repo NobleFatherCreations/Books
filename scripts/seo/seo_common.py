@@ -193,12 +193,77 @@ def clean_fragment(frag, id_map=None, book_slug="", page_ids=None, drop_selector
     return str(soup)
 
 
+def promote(frag, rules):
+    """Turn a book's styled labels into real structure before cleaning.
+    rules: [(css selector, 'h2'|'h3'|'h4'|'strong'|'blockquote'|'drop')]."""
+    soup = BeautifulSoup(frag, "html.parser")
+    for sel, to in rules:
+        for el in soup.select(sel):
+            if to == "drop":
+                el.decompose()
+                continue
+            txt = " — ".join(x for x in (s.strip() for s in el.stripped_strings) if x)
+            if to == "strong":
+                new = soup.new_tag("p")
+                b = soup.new_tag("strong")
+                b.string = el.get_text(" ", strip=True)
+                new.append(b)
+            elif to == "blockquote":
+                new = soup.new_tag("blockquote")
+                for ch in list(el.children):
+                    new.append(ch.extract())
+            else:
+                new = soup.new_tag(to)
+                new.string = re.sub(r"^[^\w“\"(]+", "", re.sub(r"\s+", " ", txt)).strip()
+                if el.get("id"):
+                    new["id"] = el["id"]
+            el.replace_with(new)
+    return str(soup)
+
+
+SMALL = {"a", "an", "and", "as", "at", "but", "by", "for", "in", "of", "on", "or", "the", "to", "vs", "with"}
+KEEP_UPPER = {"DARVO", "FOG", "AI", "OS", "NFC", "DV", "HR", "ID", "II", "III", "IV", "VI", "VII", "VIII", "IX", "XI", "XII"}
+
+
+def title_case(s):
+    """'THE HARM LADDER: REPAIR, LIMIT, EXIT' -> 'The Harm Ladder: Repair, Limit, Exit' (only if the source is all caps)."""
+    s = re.sub(r"\s+", " ", s).strip()
+    letters = [c for c in s if c.isalpha()]
+    if not letters or sum(c.isupper() for c in letters) / len(letters) < 0.8:
+        return s
+    out = []
+    for i, w in enumerate(s.split(" ")):
+        core = re.sub(r"[^A-Za-z]", "", w)
+        if core in KEEP_UPPER:
+            out.append(w)
+        elif i and core.lower() in SMALL and not out[-1].endswith((":", "—", "→")):
+            out.append(w.lower())
+        else:
+            out.append(re.sub(r"[A-Za-z][A-Za-z’']*", lambda m: m.group(0)[0].upper() + m.group(0)[1:].lower(), w, count=1)
+                       if w[:1].isalpha() or w[:1] in "“\"(" else w.capitalize())
+    return " ".join(out).replace("- ", "-") if "SELF- " in s else " ".join(out)
+
+
+def collect_until(start, is_stop):
+    """start element + following siblings until one satisfies is_stop (exclusive)."""
+    parts, n = [], start.next_sibling
+    while n is not None:
+        if getattr(n, "name", None) and is_stop(n):
+            break
+        parts.append(str(n))
+        n = n.next_sibling
+    return "".join(parts)
+
+
 def give_heading_ids(frag, prefix=""):
     """Every h2-h4 gets a stable, unique, readable id (AI citations can point at the exact block)."""
     soup = BeautifulSoup(frag, "html.parser")
     seen = set(e["id"] for e in soup.find_all(id=True))
     out = []
     for h in soup.find_all(["h2", "h3", "h4"]):
+        first = next(iter(h.strings), None)
+        if first is not None and re.match(r"^[^\w“\"(]+", first):
+            first.replace_with(re.sub(r"^[^\w“\"(]+", "", first))
         if not h.get("id"):
             base = (prefix + "-" if prefix else "") + slugify(h.get_text(), 50)
             i, cand = 2, base
@@ -313,9 +378,9 @@ a:hover{color:var(--fg)}
 a:focus-visible,button:focus-visible{outline:2px solid var(--acc);outline-offset:3px;border-radius:4px}
 .skip{position:absolute;left:-9999px}.skip:focus{left:16px;top:16px;z-index:9;background:var(--panel);padding:8px 16px}
 .bar{display:flex;align-items:center;justify-content:space-between;gap:16px;max-width:42rem;margin:0 auto;padding:16px 16px 0}
-.bar .bk{font:600 1rem/1.3 var(--disp);color:var(--fg);text-decoration:none;min-height:44px;display:inline-flex;align-items:center}
+.bar .bk{font:600 1rem/1.3 var(--disp);color:var(--fg);text-decoration:none;min-height:44px;display:inline-flex;align-items:center;min-width:0}
 .bar .open{display:inline-flex;align-items:center;min-height:44px;padding:0 16px;border-radius:999px;background:var(--acc);color:var(--acc-ink);
-text-decoration:none;font:600 .9375rem/1 var(--disp);transition:opacity .2s ease}.bar .open:hover{opacity:.88}
+text-decoration:none;font:600 .9375rem/1 var(--disp);transition:opacity .2s ease;white-space:nowrap;flex:none}.bar .open:hover{opacity:.88}
 main{max-width:42rem;margin:0 auto;padding:24px 16px 48px}
 .crumbs{font-size:.9375rem;color:var(--fg2);margin:0 0 32px}.crumbs ol{list-style:none;margin:0;padding:0;display:flex;flex-wrap:wrap;gap:0 8px}
 .crumbs li+li::before{content:"›";margin-right:8px;color:var(--fg2)}.crumbs a{color:var(--fg2)}
@@ -346,7 +411,7 @@ article hr{border:0;border-top:1px solid var(--line);margin:40px 0}
 .rel{margin:64px 0 0;padding:32px 0 0;border-top:1px solid var(--line)}.rel h2{font:600 1.25rem/1.3 var(--disp);margin:0 0 8px}
 .foot{max-width:42rem;margin:0 auto;padding:32px 16px 112px;color:var(--fg2);font-size:.9375rem;line-height:1.6;border-top:1px solid var(--line)}
 .foot p{margin:0 0 12px}.foot nav{display:flex;flex-wrap:wrap;gap:0 24px}.foot nav a{min-height:44px;display:inline-flex;align-items:center}
-@media (max-width:480px){.pn{grid-template-columns:1fr}.pn .nx{grid-column:1}}
+@media (max-width:480px){.pn{grid-template-columns:1fr}.pn .nx{grid-column:1}.bar .bk{font-size:.9375rem}.bar .open{padding:0 14px}}
 @media (prefers-reduced-motion:reduce){*{transition:none!important;animation:none!important}}
 @media print{.bar,.pn,.foot nav,#nf-chrome{display:none}}
 """
@@ -493,7 +558,7 @@ def contents_page(book, parts, chs):
         if c.get("movement") and c["movement"] != last_mv:
             if rows:
                 rows += "</ul>"
-            rows += f'<h2 class="mv">{esc(c["movement"])}</h2><ul class="list">'
+            rows += f'<h2 class="mv" id="{slugify(c["movement"], 60)}">{esc(c["movement"])}</h2><ul class="list">'
             last_mv = c["movement"]
         elif not rows:
             rows = '<ul class="list">'

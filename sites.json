@@ -329,8 +329,13 @@
         "found": false,
         "checkedAt": "2026-08-02"
       },
-      "version": "v5",
+      "version": "v6",
       "changelog": [
+        {
+          "date": "2026-11-08",
+          "version": "v6",
+          "summary": "Every chapter, the 30-Minute Rescue and Appendices B and C now have their own findable pages (46 + contents); share card, structured data, sitemap; copyright template placeholder replaced with the free licence (CC BY-NC-ND 4.0); old children's-book title corrected; 5 double-escaped ampersands and a broken Appendix B sentence fixed."
+        },
         {
           "date": "2026-09-01",
           "version": "v5",
@@ -347,8 +352,11 @@
           "summary": "Baseline entry - version tracking starts here; earlier history not reconstructed."
         }
       ],
-      "repoPath": "library/feminine/index.html",
-      "section": "library"
+      "repoPath": "library/feminine/",
+      "section": "library",
+      "pendingDeploy": {
+        "note": "Repo is AHEAD of live: v6 findability round built 2026-11-08, awaiting owner go-ahead to deploy."
+      }
     },
     {
       "codename": "playground",
