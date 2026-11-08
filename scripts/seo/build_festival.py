@@ -108,6 +108,15 @@ def build(h):
                               seo_title=S.fit_title(seo, "Festie Bible"),
                               desc=S.clip(f"{s['archetype']} ({clinical or s['section'].title()}), for {g['role'].lower()} "
                                           f"at festivals: {S.first_sentences(s['who'], 100)}", 158)))
+    seen = {}
+    for c in order:                              # the same hook in two guides: say whose guide it is
+        seen.setdefault(c["seo_title"], []).append(c)
+    for title, cs in seen.items():
+        if len(cs) > 1:
+            for c in cs:
+                who = c["movement"].split(" · ")[1].replace(" Edition", "")
+                full = f"{c['seo_title'].split(' · ')[0]} ({who})"
+                c["seo_title"] = full if len(full) <= 65 else S.fit_title(f"“{c['title']}” ({who})", "Festie Bible")
     for c in order:
         c["html"], c["heads"] = S.give_heading_ids(c["html"])
     slugs = [c["slug"] for c in order]

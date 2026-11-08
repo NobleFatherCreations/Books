@@ -31,6 +31,7 @@ LICENSE_NAME = "CC BY-NC-ND 4.0"
 LICENSE_LINE = ("&copy; 2026 Shae Stovell &middot; Free forever. Share it freely with credit, under "
                 f'<a href="{LICENSE_URL}" rel="license">{LICENSE_NAME}</a> (no selling, no edited copies).')
 TODAY = _dt.date.today().isoformat()
+TODAY_HUMAN = _dt.date.today().strftime("%B %-d, %Y")
 
 PERSON = {"@type": "Person", "@id": DOMAIN + "/#shae", "name": AUTHOR, "alternateName": "Dapper Dad", "url": DOMAIN + "/",
           "sameAs": ["https://www.tiktok.com/@noblefathercreatorsource"], "worksFor": {"@id": DOMAIN + "/#org"}}
@@ -95,17 +96,15 @@ def write(p, s):
 
 # ---------------------------------------------------------------- pieces lifted from the book
 def house_parts(book_html):
-    """THE HOUSE / Catalogue drawer exactly as the book carries it: (css, html, js)."""
+    """THE HOUSE / Catalogue drawer exactly as the book carries it: (css, html, js).
+    Takes only the #nf-chrome element itself (balanced) and the one script that drives it, never
+    whatever happens to sit between them (in the Festie Bible that is the whole app and its data)."""
     css = re.search(r'<style id="nf-chrome-css">.*?</style>', book_html, re.S).group(0)
     i = book_html.find('<div id="nf-chrome"')
-    m = None
-    for mm in re.finditer(r"<script[^>]*>.*?</script>", book_html[i:], re.S):
-        if "nf-" in mm.group(0):
-            m = mm
-            break
-    chrome = book_html[i:i + m.start()]
-    js = m.group(0)
-    chrome = chrome.replace(' class="nf-here"', "").replace('aria-current="page"', "")
+    el = BeautifulSoup(book_html[i:i + 300000], "html.parser").find(id="nf-chrome")
+    chrome = str(el).replace(' class="nf-here"', "").replace('aria-current="page"', "")
+    js = next(m.group(0) for m in re.finditer(r"<script[^>]*>.*?</script>", book_html, re.S)
+              if "nf-seal" in m.group(0) and "nf-panel" in m.group(0))
     return css, chrome, js
 
 
@@ -222,7 +221,7 @@ def promote(frag, rules):
 
 
 SMALL = {"a", "an", "and", "as", "at", "but", "by", "for", "in", "of", "on", "or", "the", "to", "vs", "with"}
-KEEP_UPPER = {"DARVO", "FOG", "AI", "OS", "NFC", "DV", "HR", "ID", "PLUR", "RV", "DJ", "DJS", "MDMA", "LSD", "DMT", "GHB", "ER", "EMS", "GPS", "SMS", "LGBTQ", "II", "III", "IV", "VI", "VII", "VIII", "IX", "XI", "XII"}
+KEEP_UPPER = {"NGO", "BIPOC", "USA", "UK", "CEO", "DARVO", "FOG", "AI", "OS", "NFC", "DV", "HR", "ID", "PLUR", "RV", "DJ", "DJS", "MDMA", "LSD", "DMT", "GHB", "ER", "EMS", "GPS", "SMS", "LGBTQ", "II", "III", "IV", "VI", "VII", "VIII", "IX", "XI", "XII"}
 
 
 def title_case(s):
@@ -264,6 +263,13 @@ def give_heading_ids(frag, prefix=""):
     soup = BeautifulSoup(frag, "html.parser")
     seen = set(e["id"] for e in soup.find_all(id=True))
     out = []
+    prev = 1                                    # the page's own <h1>; never skip a level below it
+    for h in soup.find_all(["h2", "h3", "h4", "h5", "h6"]):
+        lvl = int(h.name[1])
+        if lvl > prev + 1:
+            h.name = f"h{prev + 1}"
+            lvl = prev + 1
+        prev = lvl
     for h in soup.find_all(["h2", "h3", "h4"]):
         first = next(iter(h.strings), None)
         if first is not None and re.match(r"^[^\w“\"(]+", first):
@@ -390,7 +396,8 @@ main{max-width:42rem;margin:0 auto;padding:24px 16px 48px}
 .crumbs li+li::before{content:"›";margin-right:8px;color:var(--fg2)}.crumbs a{color:var(--fg2)}
 .eyebrow{font:600 .875rem/1.4 var(--disp);letter-spacing:.08em;text-transform:uppercase;color:var(--acc);margin:0 0 8px}
 h1{font:600 clamp(2.25rem,1.4rem + 3.6vw,3.5rem)/1.08 var(--disp);letter-spacing:-.01em;margin:0 0 16px;text-wrap:balance}
-.lede{font-size:1.25rem;line-height:1.55;color:var(--fg2);margin:0 0 24px}
+.lede{font-size:1.25rem;line-height:1.55;color:var(--fg2);margin:0 0 16px}
+.byline{font-size:.9375rem;color:var(--fg2);margin:0 0 24px}
 .notice{font-size:.9375rem;line-height:1.5;color:var(--fg2);border-left:2px solid var(--acc);padding:4px 0 4px 16px;margin:0 0 40px}
 article h2{font:600 1.75rem/1.2 var(--disp);margin:56px 0 16px;scroll-margin-top:24px;text-wrap:balance}
 article h3{font:600 1.3125rem/1.3 var(--disp);margin:40px 0 8px;scroll-margin-top:24px}
@@ -495,6 +502,10 @@ def frame(book, parts, *, title, desc, url, ld, body, image_alt):
 
 
 # ---------------------------------------------------------------- chapter + contents pages
+BYLINE = (f'<p class="byline">By <a href="/" rel="author">Shae Stovell</a> · Updated <time datetime="{TODAY}">{TODAY_HUMAN}</time>'
+          ' · Free to read</p>\n')
+
+
 def chapter_page(book, parts, chs, i, related):
     c = chs[i]
     url = f"{DOMAIN}/{book['slug']}/{c['slug']}"
@@ -537,6 +548,7 @@ def chapter_page(book, parts, chs, i, related):
             + (f'<p class="eyebrow">{esc(c["eyebrow"])}</p>' if c.get("eyebrow") else "")
             + f'<h1 id="top">{esc(plain(c["title"]))}</h1>\n'
             + (f'<p class="lede">{esc(plain(c["lede"]))}</p>' if c.get("lede") else "")
+            + BYLINE
             + f'<p class="notice">{book["notice_short"]} <a href="{book["notice_href"]}">Full notice</a>.</p>\n'
             + toc + f'<article>\n{c["html"]}\n</article>\n'
             + (f'<section class="srcs" aria-labelledby="src-h"><h2 id="src-h">Sources for this chapter</h2>{c["sources_html"]}</section>' if c.get("sources_html") else "")
@@ -572,7 +584,7 @@ def contents_page(book, parts, chs):
     body = (f'<main id="text"><nav class="crumbs" aria-label="Breadcrumb"><ol><li><a href="/">Noble Father Creations</a></li>'
             f'<li><a href="/{book["slug"]}">{esc(book["title"])}</a></li><li aria-current="page">Contents</li></ol></nav>'
             f'<p class="eyebrow">Free to read · {len(chs)} {book.get("unit", "chapters")}</p><h1 id="top">{esc(book["title"])}</h1>'
-            f'<p class="lede">{esc(book["description"])}</p>'
+            f'<p class="lede">{esc(book["description"])}</p>{BYLINE}'
             f'<p class="notice">{book["notice_short"]} <a href="{book["notice_href"]}">Full notice</a>.</p>{rows}</main>')
     return frame(book, parts, title=title, desc=desc, url=url, ld=ld, body=body,
                  image_alt=f"{book['title']} by {AUTHOR}, free to read")

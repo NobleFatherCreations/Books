@@ -50,7 +50,8 @@ NOTICE_INDEX = f"""<section id="notice" data-seo-block style="max-width:44rem;ma
 <p style="margin:0">{S.LICENSE_LINE}</p>
 </section>"""
 PAGE_FOOT = (f'<aside data-seo-block style="max-width:44rem;margin:48px auto 120px;padding:24px 16px 0;border-top:1px solid #2E2624;'
-             f'color:#BCB1A0;font:400 .9375rem/1.6 \'Newsreader\',Georgia,serif"><p style="margin:0 0 8px">{BOOK["notice_short"]} '
+             f'color:#BCB1A0;font:400 .9375rem/1.6 \'Newsreader\',Georgia,serif"><p style="margin:0 0 8px">By Shae Stovell · Updated '
+             f'<time datetime="{S.TODAY}">{S.TODAY_HUMAN}</time> · Free to read</p><p style="margin:0 0 8px">{BOOK["notice_short"]} '
              f'<a href="/faith#notice" style="color:#C9A35B">Full notice</a>.</p><p style="margin:0">{S.LICENSE_LINE}</p></aside>')
 TAG = re.compile(r'[ \t]*<(?:meta|link)\b[^>]*\bdata-seo\b[^>]*>\n?|[ \t]*<script type="application/ld\+json" data-seo>.*?</script>\n?|'
                  r'\n?<(section|aside) id="notice" data-seo-block.*?</\1>|\n?<aside data-seo-block.*?</aside>', re.S)

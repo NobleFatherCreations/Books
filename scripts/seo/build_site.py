@@ -24,7 +24,7 @@ HUB = S.ROOT / "hub"
 BOOKS_WITH_PAGES = ["faith", "children", "feminine", "fractal", "fracture", "wook", "festival"]
 AI_BOTS = ["GPTBot", "OAI-SearchBot", "ChatGPT-User", "ClaudeBot", "Claude-SearchBot", "Claude-User", "PerplexityBot",
            "Perplexity-User", "Google-Extended", "Applebot", "Applebot-Extended", "Amazonbot", "DuckAssistBot",
-           "meta-externalagent", "MistralAI-User", "CCBot", "Bingbot", "Googlebot"]
+           "meta-externalagent", "meta-webindexer", "meta-externalfetcher", "MistralAI-User", "CCBot", "Bingbot", "Googlebot"]
 
 
 def robots():

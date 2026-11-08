@@ -159,7 +159,7 @@ Every book below has a contents page and one plain HTML page per chapter, so you
 - [Housing & Real Estate](https://noblefathercreations.com/fractal/housing-and-real-estate)
 - [Sports & Athletics](https://noblefathercreations.com/fractal/sports-and-athletics)
 - [Science & Academia](https://noblefathercreations.com/fractal/science-and-academia)
-- [Non-Profit / Ngo Industry](https://noblefathercreations.com/fractal/nonprofits-and-ngo-industry)
+- [Non-Profit / NGO Industry](https://noblefathercreations.com/fractal/nonprofits-and-ngo-industry)
 - [Beauty, Fashion & Body Image](https://noblefathercreations.com/fractal/beauty-fashion-and-body-image)
 - [Aging, Death & End-of-Life](https://noblefathercreations.com/fractal/aging-death-and-end-of-life)
 - [Energy, Environment & Natural Resources](https://noblefathercreations.com/fractal/energy-environment-and-natural-resources)
