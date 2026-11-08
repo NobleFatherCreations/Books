@@ -4848,3 +4848,4 @@ Owner asked for ten phone upgrades, a final combing of every tactic for accuracy
 - SEO tools found (not installed, owner to choose): SearchFit SEO plugin (free, Anthropic Knowledge Work catalog, runs
   locally), search-visibility-kit (GSC + IndexNow, after GSC exists), Ahrefs/Semrush connectors (paid; Ahrefs has AI
   citation tracking).
+- Owner (2026-11-08): a new Pattern Decoder update is coming; park Decoder work until after the round-1 books.

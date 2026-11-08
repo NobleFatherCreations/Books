@@ -12,6 +12,8 @@ control, workplace coercion, elder abuse, leaving, repair, etc. lands on the fre
 - **Round 1 = six books only, "fully tagged as much as possible":** The Sovereign Divine Feminine, Playground Protectors,
   The Festie Bible, The Festie Codex (wook), The Fractal, The Fracture. Every other book waits for round 2, after
   these six are fully done.
+- **Pattern Decoder: owner has a new update coming.** Park all Decoder work (including cross-link targets and any
+  SEO changes) until after the round-1 books; do not touch `design/decoder-v15/` or `instruments/playbook/` meanwhile.
 - **Homepage: later**, as part of a navigation redesign. Not in round 1. (The 15 MB problem stays open until then.)
 - **Analytics: cookieless only** (owner: "choose the safest option that allows as much findability as possible").
   Keep the existing Cloudflare Web Analytics beacon; add Google Search Console + Bing Webmaster Tools, verified by DNS
