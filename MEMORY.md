@@ -4831,3 +4831,14 @@ Owner asked for ten phone upgrades, a final combing of every tactic for accuracy
   match the licence; "nothing leaves this domain" analytics wording is inaccurate; Fracture/Fractal name real people ->
   legal notice on every chapter page, no names in metadata, claim-sourcing check before deploy; harm-reduction
   disclaimers follow onto every chapter page. Table in docs/SEO-AEO-PLAN.md §0. Next: build Fracture pilot locally.
+
+## 2026-10-27 — Sacred Divide v5 LIVE (owner said "Do 1-6 and post live")
+- Deployed to `thenobledivide` (Netlify deploy `6ae0f04b48836258511ef096`), served at `noblefathercreations.com/faith`. 35 pages + `codex` + `favicon.ico` (both unchanged from v4) + 34 PDFs (4,541 pages, US Letter, en-US, PDF/UA-1). 71 of 71 live files byte-identical to the repo on both hosts. Same design as v4; v5 text, PDFs, stamp and Updates list. `sites.json` faith = v5.
+- How to redo it: regenerate md (`python3 scripts/sacred-divide-export-md.py`), rebuild PDFs (`scripts/sacred-divide-v5-build-all.py`), `scripts/sacred-divide-v5-manifest.py`, run the site build command in `sites.json` faith.buildCommand, copy `library/faith/*.html` + the live `codex.html`/`favicon.ico` + `pdf/<id>.pdf` (from `library/_undeployed/sacred-divide-v5/<id>-expanded.pdf`) into one folder, get the command from Netlify MCP `deploy-site` and run it from that folder. The site script needs `fonttools` and `brotli` (`pip install`) in a fresh container.
+- Release-day Parsi verdict check done 27 Oct: no verdict reported. Re-check at the next release.
+- Reader feedback received (Sophia, via DM): letters Y/P/N/? in the disclosure ledger should be plain words; comparisons that group a whole belief system can mislead when the institutions are independent; the volume of material is overwhelming for a first-time reader. Planned, not done: plain labels, a scope box per page, a short summary at the top, layered reading. Layout mockups for a one-scroll, family-compare site: artifact `DWiSPuFXrGZ27wfDoCKYvc`; Figma file `wxw3FcF0X4MHcACljgWlLU`.
+- Netlify caution from earlier: an account credit cap once skipped deploys; this one went through in a single deploy.
+
+## 2026-11-08 — Merged the two live branches
+
+- Decoder v19 (`claude/intelligent-turing-9z46ea`) merged normally. Sacred Divide v5 branch has UNRELATED history (a separate copy of the whole repo, older elsewhere, would delete the Decoder, Festie scripts, etc.), so only its faith paths were brought over: library/faith, library/_undeployed/sacred-divide-v5, content/sacred-divide, docs/sacred-divide-v5, scripts/sacred-divide-{site,pdf-v5,export-md,v5-manifest}.py, the faith entry in sites.json, and its v5 memory entry (above). Never merge that branch whole.

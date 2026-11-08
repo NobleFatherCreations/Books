@@ -334,7 +334,7 @@ def build_html(rid):
     colophon = ('<div class="front colophon"><h1 id="colophon">Colophon</h1><p>Set in EB Garamond (SIL Open Font License), regular, italic and bold, with true small capitals and old-style figures in text and lining tabular figures in tables. '
                 'Laid out with Paged.js in Chromium from the same Markdown that feeds the website. US Letter, single-sided, tagged for accessibility and checked against PDF/UA-1 with veraPDF. '
                 f'Built {date.today().isoformat()}. Text checked {e(meta.get("checked", ""))}.</p><p>Palette: ink, oxblood, gold, cream, rule. Seven type sizes. Rules of 0.4 pt and 2 pt only.</p></div>')
-    doc = f"""<!doctype html><html lang="en-GB"><head><meta charset="utf-8"><title>{e(name)} — The Sacred Divide</title>
+    doc = f"""<!doctype html><html lang="en-US"><head><meta charset="utf-8"><title>{e(name)} — The Sacred Divide</title>
 <meta name="author" content="Noble Father Creations"><meta name="subject" content="{e(name)}: the full record">
 <link rel="stylesheet" href="sacred-divide-v5.css">
 <script>
@@ -374,10 +374,10 @@ def accessibility_pass(path, title):
     """Document-level PDF/UA hygiene: language, title display, XMP with the PDF/UA id, and a /Contents string on every link."""
     import pikepdf
     with pikepdf.open(path, allow_overwriting_input=True) as pdf:
-        pdf.Root.Lang = pikepdf.String('en-GB')
+        pdf.Root.Lang = pikepdf.String('en-US')
         pdf.Root.ViewerPreferences = pikepdf.Dictionary(DisplayDocTitle=True)
         with pdf.open_metadata(set_pikepdf_as_editor=False) as m:
-            m['dc:title'] = title; m['dc:creator'] = ['Noble Father Creations']; m['dc:language'] = ['en-GB']
+            m['dc:title'] = title; m['dc:creator'] = ['Noble Father Creations']; m['dc:language'] = ['en-US']
             m['{http://www.aiim.org/pdfua/ns/id/}part'] = '1'
         n = 0
         for i, page in enumerate(pdf.pages):

@@ -38,7 +38,7 @@ BOOK = sys.argv[1] if len(sys.argv) > 1 else os.path.join(ROOT, 'library/_undepl
 CONTENT = os.path.join(ROOT, 'content/sacred-divide')
 OUT = os.path.join(CONTENT, 'religions')
 CHECKED = '2026-09-27'
-VERSION = 'v4'
+VERSION = 'v5'
 
 # ---------------------------------------------------------------- families (order = cycle order)
 FAMILIES = [
