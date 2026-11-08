@@ -339,7 +339,7 @@ html,body{margin:0;width:1200px;height:630px;overflow:hidden;background:%(bg)s;c
 background:radial-gradient(120%% 90%% at 85%% 0%%,%(glow)s 0%%,transparent 60%%),%(bg)s;border-bottom:12px solid %(acc)s}
 .k{font:600 24px/1.2 %(disp)s;letter-spacing:.14em;text-transform:uppercase;color:%(acc)s}
 h1{font:600 %(size)spx/1.02 %(disp)s;margin:0;letter-spacing:-.01em;max-width:1000px}
-p{font:400 34px/1.3 %(body)s;margin:20px 0 0;color:%(fg2)s;max-width:960px}
+p{font:400 34px/1.3 %(body)s;margin:32px 0 0;color:%(fg2)s;max-width:960px}
 .f{display:flex;justify-content:space-between;font:600 24px/1.2 %(disp)s;color:%(fg2)s}.f b{color:%(acc)s;font-weight:600}
 </style></head><body><div class="c"><div class="k">%(kicker)s</div><div><h1>%(title)s</h1><p>%(sub)s</p></div>
 <div class="f"><span>by Shae Stovell &middot; Noble Father Creations</span><b>noblefathercreations.com/%(slug)s</b></div></div></body></html>"""

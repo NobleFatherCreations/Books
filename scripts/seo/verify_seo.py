@@ -20,6 +20,8 @@ ROOT = Path(__file__).resolve().parents[2]
 DOMAIN = "https://noblefathercreations.com"
 OK_EXTERNAL_SCRIPT = "static.cloudflareinsights.com/beacon.min.js"
 GOOGLE_HTML_LIMIT = 15 * 1024 * 1024
+# pages assembled into the publish folder at deploy time (sites.json deployDir), not stored in it
+DEPLOY_ASSEMBLED = {"faith": {"codex"}}
 
 
 def text_words(soup):
@@ -136,7 +138,7 @@ def check_page(book, f, known, problems, stats, publish_dir=None):
 def check_book(book, publish_dir=None):
     d = publish_dir or ROOT / "library" / book
     pages = sorted(p for p in d.rglob("*.html") if "/f/" not in p.as_posix() and "/.netlify/" not in p.as_posix())
-    known = {p.relative_to(d).with_suffix("").as_posix() for p in pages}
+    known = {p.relative_to(d).with_suffix("").as_posix() for p in pages} | DEPLOY_ASSEMBLED.get(book, set())
     problems, stats = [], []
     for f in pages:
         check_page(book, f, known, problems, stats, d)
@@ -145,7 +147,7 @@ def check_book(book, publish_dir=None):
         problems.append(f"{book}: no sitemap.xml")
     else:
         locs = [e.text for e in ET.parse(sm).getroot().iter("{http://www.sitemaps.org/schemas/sitemap/0.9}loc")]
-        want = {f"{DOMAIN}/{book}"} | {f"{DOMAIN}/{book}/{k}" for k in known if k != "index"}
+        want = {f"{DOMAIN}/{book}"} | {f"{DOMAIN}/{book}/{k}" for k in known if k != "index" and k not in DEPLOY_ASSEMBLED.get(book, set())}
         if set(locs) != want:
             problems.append(f"{book}: sitemap mismatch; missing {sorted(want - set(locs))[:5]} extra {sorted(set(locs) - want)[:5]}")
     if not (d / "og.png").exists():
