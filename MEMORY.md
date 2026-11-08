@@ -4842,3 +4842,9 @@ Owner asked for ten phone upgrades, a final combing of every tactic for accuracy
 ## 2026-11-08 — Merged the two live branches
 
 - Decoder v19 (`claude/intelligent-turing-9z46ea`) merged normally. Sacred Divide v5 branch has UNRELATED history (a separate copy of the whole repo, older elsewhere, would delete the Decoder, Festie scripts, etc.), so only its faith paths were brought over: library/faith, library/_undeployed/sacred-divide-v5, content/sacred-divide, docs/sacred-divide-v5, scripts/sacred-divide-{site,pdf-v5,export-md,v5-manifest}.py, the faith entry in sites.json, and its v5 memory entry (above). Never merge that branch whole.
+- Legal audit of all 17 sites: docs/LEGAL-AUDIT-2026-11-08.md. Gaps: Fractal has no legal notice; At Will has no
+  not-legal-advice line; The Root has no not-therapy/crisis note; Slow Take, Festie Bible, Feminine need one-line
+  disclaimers; Playground Protectors could add Childhelp; Suno plan/rights for music still an open owner decision.
+- SEO tools found (not installed, owner to choose): SearchFit SEO plugin (free, Anthropic Knowledge Work catalog, runs
+  locally), search-visibility-kit (GSC + IndexNow, after GSC exists), Ahrefs/Semrush connectors (paid; Ahrefs has AI
+  citation tracking).
