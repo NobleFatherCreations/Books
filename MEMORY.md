@@ -4888,3 +4888,12 @@ Owner asked for ten phone upgrades, a final combing of every tactic for accuracy
   chapter footer, llms.txt, root sitemap and the homepage v16 note. Design-review fixes applied (contents blurbs,
   counts, measure, hover, collapsible TOC, curly quotes, footer/crumbs). Fonts: headings swap, body face
   font-display:optional + preload → CLS 0–0.02, LCP ~0.5s on throttled mobile. All gates pass. Still NOT deployed.
+- 2026-11-08 (homepage v17, built, NOT deployed): owner chose intro-as-background, books first with an Art button to
+  /portals, and a simple "Start here" chooser. scripts/seo/build_hub.py (idempotent) moved all media out of the HTML:
+  21.34 MB -> 0.18 MB (song 9 MB -> /media/now-playing.mp3, preload none, plays on tap; intro 2.8 MB -> 0.64 MB
+  /media/intro.mp4 + poster; 30 pictures -> WebP at display size; 6 fonts -> subset WOFF2 in /f/). Gate, tour and intro
+  lock removed (tour kept in DOM as inert); sections now start-here, library, instruments, music, workshop, guide,
+  manifesto, maker, support; phone menu row; stale card facts fixed. First book link now ~100 KB into the file (was
+  18.5 MB). verify-hub.mjs updated to the new design: all checks pass at 375/1440. Build order: build_hub.py then
+  build_site.py. Deploy must include hub/media/ and hub/f/ (sites.json hub.siteFiles). Original kept in git history
+  (commit before 51e7243e).
