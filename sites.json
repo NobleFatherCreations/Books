@@ -540,8 +540,13 @@
         "found": false,
         "checkedAt": "2026-08-02"
       },
-      "version": "v5",
+      "version": "v6",
       "changelog": [
+        {
+          "date": "2026-11-08",
+          "version": "v6",
+          "summary": "Every episode now has its own findable page (13 pages + contents), with search titles and descriptions, share card, structured data (Book, Chapter, sources as citations), sitemap, free licence (CC BY-NC-ND 4.0) and corrected analytics wording."
+        },
         {
           "date": "2026-09-01",
           "version": "v5",
@@ -563,8 +568,11 @@
           "summary": "Baseline entry - version tracking starts here; earlier history not reconstructed."
         }
       ],
-      "repoPath": "library/fracture/index.html",
-      "section": "library"
+      "repoPath": "library/fracture/",
+      "section": "library",
+      "pendingDeploy": {
+        "note": "Repo is AHEAD of live: v6 findability round built 2026-11-08, awaiting owner go-ahead to deploy."
+      }
     },
     {
       "codename": null,
