@@ -4850,3 +4850,32 @@ Owner asked for ten phone upgrades, a final combing of every tactic for accuracy
   citation tracking).
 - Owner (2026-11-08): a new Pattern Decoder update is coming; park Decoder work until after the round-1 books.
 - Owner (later): round 1 = 7 books (adds Sacred Divide); CC BY-NC-ND; one-line notice + link per chapter page; menu label fixes (Sacred Divide count, Decoder 349->310, The Music vs The Listening Room); free-wins audit + all relevant skills before deploy.
+
+## 2026-11-08 (later) — Round 1 findability BUILT for 7 books + hub (NOT deployed; awaiting owner go-ahead)
+
+- Books: fracture v6 (13 pages), feminine v6 (46), children v6 (35), wook v15 (64), fractal v4 (34), festival v11 (291),
+  faith v6 (34 tagged in place) + hub v16. Each: chapter pages `<slug>.html` (served /<book>/<slug>), contents.html,
+  sitemap.xml, og.png, fonts as subset woff2 under /<book>/f/, data-seo head block + JSON-LD on the book's own page,
+  CC BY-NC-ND 4.0 licence line, one-line notice linking the full notice, visible byline + updated date, version bump +
+  on-page update note + sites.json changelog. sites.json repoPath for the 6 split books is now the FOLDER.
+- Builders: `scripts/seo/build_<book>.py` (idempotent; rerun any time), shared `seo_common.py`, `build_site.py`
+  (robots.txt with 9 sitemaps, llms.txt, hub head/og, root sitemap), `build_faith.py` MUST run after
+  sacred-divide-site.py (chained in sites.json buildCommand).
+- Gates (all pass): `verify_seo.py <books>` (findability), `fidelity.py <book> <orig>` (every page text block verbatim
+  in the book: 30,000+ blocks, 0 misses), `audit_onpage.py`, `validate_schema.py <schemaorg jsonld>` (0 invalid),
+  `a11y.js` (axe clean on new pages), `perf.js` (LCP ~0.3s, CLS<0.1 on throttled mobile), `shoot.js`.
+  Local preview: `python3 scripts/seo/serve.py 8765` mirrors live paths.
+- Fixed along the way: Feminine live page showed "Copyright (c) [Year] [Author Name]" placeholder, 5 double-escaped
+  "&amp;", a broken Appendix B sentence, old children's title; Fractal got its first legal notice; Fracture notice
+  got a corrections address (dapperdadnfc@gmail.com, already public on the Festie Bible); Festie Bible got a
+  not-advice line; menu labels fixed in 53 files (Sacred Divide subtitle, Decoder 310, The Listening Room).
+- Bug caught in audit: Festie Bible chapter pages first carried the whole app (1 MB each) because the menu copy took
+  everything between #nf-chrome and its script; house_parts now takes the element only (41 KB pages).
+- Known, not changed: Sacred Divide pages' own a11y issues (contrast, heading order) are identical on live (generator
+  design); its 34 heading skips left alone. Book index pages themselves stay heavy (Fracture 3.3 MB, Codex 14.1 MB)
+  but chapter pages are the fast landing pages.
+- Deploy notes: 6 split books become multi-file Netlify sites (folder deploy); faith deploy dir also needs pdf/ +
+  codex.html per sites.json; hub needs index + _redirects + robots + sitemap + llms.txt + og.png + IndexNow key file.
+  After deploy: verify-deployed, then `python3 scripts/seo/indexnow.py hub fracture ...`.
+- Off-site (owner, human-in-the-loop): docs/OFFSITE-PLAN.md. Owner offered "In plain words" answer lines per
+  chapter (new writing) — awaiting yes. Decoder parked until owner's update. Homepage redesign later.
