@@ -19,7 +19,7 @@ import seo_common as S
 OUT = S.ROOT / "library/fractal"
 CONTACT = "dapperdadnfc@gmail.com"
 BOOK = {
-    "slug": "fractal", "title": "The Fractal", "version": "v4",
+    "slug": "fractal", "contents_eyebrow": "Free to read · 8 essays and 26 sectors", "title": "The Fractal", "version": "v4",
     "fonts": ["Fraunces", "Spectral"],
     "theme": {"scheme": "dark", "bg": "#0A0B11", "fg": "#E7E5EE", "fg2": "#A9AAC0", "panel": "#141625",
               "line": "#1F2236", "glow": "#2a1d3d", "acc": "#E5A93C", "accink": "#0A0B11",

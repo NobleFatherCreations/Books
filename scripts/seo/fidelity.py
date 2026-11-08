@@ -34,6 +34,8 @@ for p in sorted(pages):
     if not art: continue
     for el in art.find_all(["p", "li", "blockquote", "td", "dd"]):
         if el.find(["p", "li"]) or "nav" in (el.get("class") or []): continue
+        ADDED = {"aka", "plain", "kid-say", "byline", "notice"}       # owner-approved additions, not book text
+        if any(ADDED & set(x.get("class") or []) for x in [el] + list(el.parents) if hasattr(x, "get")): continue
         t = el.get_text("")
         lead = el.find(["strong", "b"], recursive=False)
         if lead is not None and t.strip().startswith(lead.get_text().strip()):

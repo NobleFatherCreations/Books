@@ -15,9 +15,9 @@ from bs4 import BeautifulSoup
 
 OUT = S.ROOT / "library/feminine"
 BOOK = {
-    "slug": "feminine", "title": "The Sovereign Divine Feminine", "version": "v6",
+    "slug": "feminine", "contents_eyebrow": "Free to read · 42 chapters, the Preface, the Rescue and the Archive", "title": "The Sovereign Divine Feminine", "version": "v6",
     "fonts": ["Fraunces", "Cormorant Garamond"],
-    "theme": {"scheme": "dark", "bg": "#140E1C", "fg": "#F8F3EB", "fg2": "#D9CDE6", "panel": "#1C1428",
+    "theme": {"fs": "1.375rem", "scheme": "dark", "bg": "#140E1C", "fg": "#F8F3EB", "fg2": "#D9CDE6", "panel": "#1C1428",
               "line": "#33264A", "glow": "#3a1f3f", "acc": "#F0CC83", "accink": "#140E1C",
               "disp": "'Fraunces',Georgia,serif", "body": "'Cormorant Garamond',Georgia,serif"},
     "description": ("A free field guide to psychological manipulation for women: 42 chapters naming the tactics "
@@ -99,7 +99,7 @@ def build_chapters(h):
         mission = BeautifulSoup(c["raw"], "html.parser").select_one(".card-concept p:not(.c-tag)")
         c["lede"] = mission.get_text(" ", strip=True) if mission else None
         what = f"{c['eyebrow']}: " if c["eyebrow"].startswith("Chapter") else ""
-        c["desc"] = S.clip(f"{what}{c['lede'] or S.first_sentences(body, 150)} Free from The Sovereign Divine Feminine.", 158)
+        c["desc"] = S.clip(f"{what}{c['lede'] or S.first_sentences(body, 150)}", 158)
         if len(c["desc"]) < 70:
             c["desc"] = S.clip(c["desc"] + " " + S.first_sentences(body, 120), 158)
         c["seo_title"] = c["title"]

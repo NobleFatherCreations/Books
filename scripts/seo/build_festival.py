@@ -16,7 +16,7 @@ import seo_common as S
 OUT = S.ROOT / "library/festival"
 CONTACT = "dapperdadnfc@gmail.com"
 BOOK = {
-    "slug": "festival", "title": "The Festie Bible", "version": "v11",
+    "slug": "festival", "contents_eyebrow": "Free to read · 21 guides and 270 scenarios", "title": "The Festie Bible", "version": "v11",
     "fonts": ["Fraunces", "Hanken Grotesk"],
     "theme": {"scheme": "dark", "bg": "#141019", "fg": "#ECE4D6", "fg2": "#BCB1A0", "panel": "#1B1522",
               "line": "#2C2236", "glow": "#3a2028", "acc": "#E8C879", "accink": "#141019",

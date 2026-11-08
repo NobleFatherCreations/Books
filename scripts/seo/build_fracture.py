@@ -15,9 +15,9 @@ from bs4 import BeautifulSoup
 
 OUT = S.ROOT / "library/fracture"
 BOOK = {
-    "slug": "fracture", "title": "The Fracture", "version": "v6",
+    "slug": "fracture", "contents_eyebrow": "Free to read · 12 episodes and a companion story", "title": "The Fracture", "version": "v6",
     "fonts": ["Fraunces", "Crimson Text"],
-    "theme": {"scheme": "dark", "bg": "#05060B", "fg": "#ECE6D9", "fg2": "#B6AF9E", "panel": "#0E1322",
+    "theme": {"fs": "1.25rem", "scheme": "dark", "bg": "#05060B", "fg": "#ECE6D9", "fg2": "#B6AF9E", "panel": "#0E1322",
               "line": "#1B2132", "glow": "#2a1418", "acc": "#E6C570", "accink": "#05060B",
               "disp": "'Fraunces',Georgia,serif", "body": "'Crimson Text',Georgia,serif"},
     "description": ("A free twelve-episode reading edition on where roughly $50 trillion went over 43 years: who "

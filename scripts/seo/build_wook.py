@@ -15,7 +15,7 @@ from bs4 import BeautifulSoup
 
 OUT = S.ROOT / "library/wook"
 BOOK = {
-    "slug": "wook", "title": "The Festie Codex", "version": "v15",
+    "slug": "wook", "contents_eyebrow": "Free to read · 33 chapters, the opening essays and the appendices", "title": "The Festie Codex", "version": "v15",
     "alternateName": "The Festie Codex: A Field Manual for Spotting Wooks in Sheep's Clothing",
     "fonts": ["Fraunces", "Bricolage Grotesque"],
     "theme": {"scheme": "dark", "bg": "#0D0918", "fg": "#F4EDDA", "fg2": "#CFC6E6", "panel": "#17122B",

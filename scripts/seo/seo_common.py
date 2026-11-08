@@ -51,6 +51,19 @@ def plain(s):
     return re.sub(r"\s+", " ", html.unescape(t)).strip()
 
 
+def smart(s):
+    """Typographic quotes for visible titles (never for JSON-LD)."""
+    s = re.sub(r"(\w)'(\w)", "\\1\u2019\\2", s)
+    s = re.sub(r"(^|[\s(\[])'", "\\1\u2018", s).replace("'", "\u2019")
+    s = re.sub(r'(^|[\s(\[])"', "\\1\u201c", s).replace('"', "\u201d")
+    return s
+
+
+def first_para(h):
+    p = BeautifulSoup(h or "", "html.parser").find("p")
+    return p.get_text(" ") if p else (h or "")
+
+
 def slugify(s, maxlen=70):
     s = plain(s).lower().replace("&", " and ").replace("’", "").replace("'", "")
     s = re.sub(r"[^a-z0-9]+", "-", s).strip("-")
@@ -403,18 +416,18 @@ def make_og(book, out_dir, kicker, sub):
 # ---------------------------------------------------------------- page frame
 PAGE_CSS = """
 :root{color-scheme:%(scheme)s;--bg:%(bg)s;--fg:%(fg)s;--fg2:%(fg2)s;--panel:%(panel)s;--line:%(line)s;--acc:%(acc)s;--acc-ink:%(accink)s;
---disp:%(disp)s;--body:%(body)s}
+--disp:%(disp)s;--body:%(body)s;--fs:%(fs)s}
 *{box-sizing:border-box}
 html{-webkit-text-size-adjust:100%%;text-size-adjust:100%%}
-body{margin:0;background:var(--bg);color:var(--fg);font:400 1.125rem/1.7 var(--body);overflow-x:hidden}
+body{margin:0;background:var(--bg);color:var(--fg);font:400 var(--fs)/1.7 var(--body);overflow-x:hidden}
 a{color:var(--acc);text-underline-offset:.18em;text-decoration-thickness:1px;transition:color .2s ease}
 a:hover{color:var(--fg)}
 a:focus-visible,button:focus-visible{outline:2px solid var(--acc);outline-offset:3px;border-radius:4px}
-.skip{position:absolute;left:-9999px}.skip:focus{left:16px;top:16px;z-index:9;background:var(--panel);padding:8px 16px}
-.bar{display:flex;align-items:center;justify-content:space-between;gap:16px;max-width:42rem;margin:0 auto;padding:16px 16px 0}
-.bar .bk{font:600 1rem/1.3 var(--disp);color:var(--fg);text-decoration:none;min-height:44px;display:inline-flex;align-items:center;min-width:0}
-.bar .open{display:inline-flex;align-items:center;min-height:44px;padding:0 16px;border-radius:999px;background:var(--acc);color:var(--acc-ink);
-text-decoration:none;font:600 .9375rem/1 var(--disp);transition:opacity .2s ease;white-space:nowrap;flex:none}.bar .open:hover{opacity:.88}
+.cskip{position:absolute;left:-9999px}.cskip:focus{left:16px;top:16px;z-index:9;background:var(--panel);padding:8px 16px}
+.cbar{display:flex;align-items:center;justify-content:space-between;gap:16px;max-width:42rem;margin:0 auto;padding:16px 16px 0}
+.cbar .bk{font:600 1rem/1.3 var(--disp);color:var(--fg);text-decoration:none;min-height:44px;display:inline-flex;align-items:center;min-width:0}
+.cbar .open{display:inline-flex;align-items:center;min-height:44px;padding:0 16px;border-radius:999px;background:var(--acc);color:var(--acc-ink);
+text-decoration:none;font:600 .9375rem/1 var(--disp);transition:opacity .2s ease;white-space:nowrap;flex:none}.cbar .open:hover{opacity:.88}
 main{max-width:42rem;margin:0 auto;padding:24px 16px 48px}
 .crumbs{font-size:.9375rem;color:var(--fg2);margin:0 0 32px}.crumbs ol{list-style:none;margin:0;padding:0;display:flex;flex-wrap:wrap;gap:0 8px}
 .crumbs li+li::before{content:"›";margin-right:8px;color:var(--fg2)}.crumbs a{color:var(--fg2)}
@@ -435,7 +448,14 @@ article hr{border:0;border-top:1px solid var(--line);margin:40px 0}
 .srcs ol{font-size:1rem;line-height:1.55;padding-left:1.6em}.srcs li{margin:0 0 12px}.srcs cite{font-style:normal}
 .toc{margin:0 0 40px;padding:16px 24px;background:var(--panel);border-radius:8px;font-size:1rem}
 .toc h2{font:600 .875rem/1.4 var(--disp);letter-spacing:.08em;text-transform:uppercase;margin:0 0 8px;color:var(--fg2)}
-.toc ol{margin:0;padding-left:1.2em}.toc li{margin:4px 0}
+.toc ol{margin:8px 0 0;padding-left:1.2em}.toc li{margin:4px 0}
+.toc a{color:var(--fg);text-decoration:none}.toc a:hover{color:var(--acc);text-decoration:underline}
+.toc summary{font:600 .875rem/1.4 var(--disp);letter-spacing:.08em;text-transform:uppercase;color:var(--fg2);cursor:pointer;min-height:44px;display:flex;align-items:center}
+.list a b,.cbar .bk{transition:color .2s ease}.list a:hover b,.list a:focus-visible b,.cbar .bk:hover{color:var(--acc)}
+.aka{font-size:.875rem;line-height:1.5;color:var(--fg2);margin:-8px 0 16px}
+.plain{margin:0 0 24px;padding:16px 24px;border-radius:8px;background:var(--panel);border-left:3px solid var(--acc)}
+.plain h2{font:600 .875rem/1.4 var(--disp);letter-spacing:.08em;text-transform:uppercase;color:var(--acc);margin:0 0 8px}
+.plain p{margin:0}
 .pn{display:grid;grid-template-columns:1fr 1fr;gap:16px;margin:64px 0 0}
 .pn a{display:block;padding:16px;background:var(--panel);border-radius:8px;text-decoration:none;color:var(--fg);min-height:44px;transition:background-color .2s ease}
 .pn a:hover{background:var(--line)}.pn small{display:block;color:var(--fg2);font-size:.875rem}.pn b{font:600 1.0625rem/1.3 var(--disp)}.pn .nx{text-align:right;grid-column:2}
@@ -444,11 +464,12 @@ article hr{border:0;border-top:1px solid var(--line);margin:40px 0}
 .list b{display:block;font:600 1.125rem/1.3 var(--disp)}.list small{display:block;color:var(--fg2);font-size:1rem;line-height:1.5;margin-top:4px}
 .mv{font:600 .875rem/1.4 var(--disp);letter-spacing:.08em;text-transform:uppercase;color:var(--acc);margin:48px 0 8px}
 .rel{margin:64px 0 0;padding:32px 0 0;border-top:1px solid var(--line)}.rel h2{font:600 1.25rem/1.3 var(--disp);margin:0 0 8px}
-.foot{max-width:42rem;margin:0 auto;padding:32px 16px 112px;color:var(--fg2);font-size:.9375rem;line-height:1.6;border-top:1px solid var(--line)}
+.foot{max-width:calc(42rem - 32px);margin:0 auto;padding:32px 0 112px;color:var(--fg2);font-size:.9375rem;line-height:1.6;border-top:1px solid var(--line)}
 .foot p{margin:0 0 12px}.foot nav{display:flex;flex-wrap:wrap;gap:0 24px}.foot nav a{min-height:44px;display:inline-flex;align-items:center}
-@media (max-width:480px){.pn{grid-template-columns:1fr}.pn .nx{grid-column:1}.bar .bk{font-size:.9375rem}.bar .open{padding:0 14px}}
+@media (max-width:42rem){.foot{margin:0 16px}}
+@media (max-width:480px){.crumbs li[aria-current]{display:none}.pn{grid-template-columns:1fr}.pn .nx{grid-column:1}.cbar .bk{font-size:.9375rem}.cbar .open{padding:0 14px}}
 @media (prefers-reduced-motion:reduce){*{transition:none!important;animation:none!important}}
-@media print{.bar,.pn,.foot nav,#nf-chrome{display:none}}
+@media print{.cbar,.pn,.foot nav,#nf-chrome{display:none}}
 """
 
 
@@ -506,6 +527,7 @@ def crumbs_ld(items):
 
 def frame(book, parts, *, title, desc, url, ld, body, image_alt):
     css_vars = dict(book["theme"])
+    css_vars.setdefault("fs", "1.125rem")
     css = PAGE_CSS % css_vars
     house_css, house_html, house_js = parts["house"]
     return ("<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n"
@@ -514,8 +536,8 @@ def frame(book, parts, *, title, desc, url, ld, body, image_alt):
             + f'<meta name="theme-color" content="{book["theme"]["bg"]}">\n'
             + f"<style>{parts['fonts']}\n{css}</style>\n{house_css}\n"
             + f'<script type="application/ld+json">{ld_json(ld)}</script>\n</head>\n<body>\n'
-            + '<a class="skip" href="#text">Skip to the text</a>\n'
-            + f'<header class="bar"><a class="bk" href="/{book["slug"]}/contents">{esc(book["title"])}</a>'
+            + '<a class="cskip" href="#text">Skip to the text</a>\n'
+            + f'<header class="cbar"><a class="bk" href="/{book["slug"]}/contents">{esc(book["title"])}</a>'
             + f'<a class="open" href="/{book["slug"]}">Open the full book</a></header>\n'
             + body
             + f'\n<footer class="foot"><p>{LICENSE_LINE}</p>'
@@ -535,7 +557,7 @@ def chapter_page(book, parts, chs, i, related):
     url = f"{DOMAIN}/{book['slug']}/{c['slug']}"
     burl = f"{DOMAIN}/{book['slug']}"
     title = fit_title(c.get("seo_title") or plain(c["title"]), book["title"])
-    desc = c.get("desc") or first_sentences(c.get("lede") or c["html"])
+    desc = clip(c["plain"], 158) if c.get("plain") else (c.get("desc") or first_sentences(c.get("lede") or c["html"]))
     crumbs = [("Noble Father Creations", DOMAIN + "/"), (book["title"], burl), (plain(c["title"]), url)]
     ld = {"@context": "https://schema.org", "@graph": [
         {"@type": "WebPage", "@id": url, "url": url, "name": title, "description": desc, "inLanguage": "en",
@@ -545,21 +567,26 @@ def chapter_page(book, parts, chs, i, related):
         {"@type": "Chapter", "@id": url + "#chapter", "name": plain(c["title"]), "position": i + 1, "url": url,
          "isPartOf": {"@id": burl + "#book"}, "author": {"@id": PERSON["@id"]}, "license": LICENSE_URL,
          "isAccessibleForFree": True, "inLanguage": "en", "description": desc,
-         **({"citation": c["citations"]} if c.get("citations") else {})},
+         **({"citation": c["citations"]} if c.get("citations") else {}),
+         **({"alternateName": c["aka"], "keywords": ", ".join(c["aka"])} if c.get("aka") else {}),
+         **({"abstract": c["plain"]} if c.get("plain") else {})},
         dict(crumbs_ld(crumbs), **{"@id": url + "#crumbs"}),
         book_node(book), PERSON, ORG]}
     toc = ""
     if len(c.get("heads", [])) >= 4:
-        toc = ('<nav class="toc" aria-labelledby="toc-h"><h2 id="toc-h">On this page</h2><ol>'
-               + "".join(f'<li><a href="#{hid}">{esc(t)}</a></li>' for lvl, hid, t in c["heads"] if lvl == "h2" or len([x for x in c["heads"] if x[0] == "h2"]) < 3 and lvl == "h3")
-               + "</ol></nav>")
+        few_h2 = len([x for x in c["heads"] if x[0] == "h2"]) < 3
+        items = [f'<li><a href="#{hid}">{esc(smart(t))}</a></li>' for lvl, hid, t in c["heads"] if lvl == "h2" or (few_h2 and lvl == "h3")]
+        if len(items) >= 8:
+            toc = f'<details class="toc"><summary>On this page ({len(items)})</summary><ol>{"".join(items)}</ol></details>'
+        else:
+            toc = f'<nav class="toc" aria-labelledby="toc-h"><h2 id="toc-h">On this page</h2><ol>{"".join(items)}</ol></nav>'
     pn = '<nav class="pn" aria-label="Chapters">'
     if i > 0:
         p = chs[i - 1]
-        pn += f'<a href="/{book["slug"]}/{p["slug"]}" rel="prev"><small>Previous</small><b>{esc(plain(p["title"]))}</b></a>'
+        pn += f'<a href="/{book["slug"]}/{p["slug"]}" rel="prev"><small>Previous</small><b>{esc(smart(plain(p["title"])))}</b></a>'
     if i < len(chs) - 1:
         n = chs[i + 1]
-        pn += f'<a class="nx" href="/{book["slug"]}/{n["slug"]}" rel="next"><small>Next</small><b>{esc(plain(n["title"]))}</b></a>'
+        pn += f'<a class="nx" href="/{book["slug"]}/{n["slug"]}" rel="next"><small>Next</small><b>{esc(smart(plain(n["title"])))}</b></a>'
     pn += "</nav>"
     rel = ""
     if related:
@@ -568,11 +595,13 @@ def chapter_page(book, parts, chs, i, related):
                + "</ul></aside>")
     body = (f'<main id="text"><nav class="crumbs" aria-label="Breadcrumb"><ol>'
             + "".join(f'<li><a href="{u.replace(DOMAIN, "") or "/"}">{esc(n)}</a></li>' for n, u in crumbs[:-1])
-            + f'<li aria-current="page">{esc(plain(c["title"]))}</li></ol></nav>\n'
+            + f'<li aria-current="page">{esc(smart(plain(c["title"])))}</li></ol></nav>\n'
             + (f'<p class="eyebrow">{esc(c["eyebrow"])}</p>' if c.get("eyebrow") else "")
-            + f'<h1 id="top">{esc(plain(c["title"]))}</h1>\n'
-            + (f'<p class="lede">{esc(plain(c["lede"]))}</p>' if c.get("lede") else "")
+            + f'<h1 id="top">{esc(smart(plain(c["title"])))}</h1>\n'
+            + (f'<p class="aka">Also known as: {esc(", ".join(c["aka"]))}</p>' if c.get("aka") else "")
+            + (f'<p class="lede">{esc(smart(plain(c["lede"])))}</p>' if c.get("lede") else "")
             + BYLINE
+            + (f'<section class="plain" aria-labelledby="plain-h"><h2 id="plain-h">In plain words</h2><p>{esc(c["plain"])}</p></section>' if c.get("plain") else "")
             + f'<p class="notice">{book["notice_short"]} <a href="{book["notice_href"]}">Full notice</a>.</p>\n'
             + toc + f'<article>\n{c["html"]}\n</article>\n'
             + (f'<section class="srcs" aria-labelledby="src-h"><h2 id="src-h">Sources for this chapter</h2>{c["sources_html"]}</section>' if c.get("sources_html") else "")
@@ -602,12 +631,12 @@ def contents_page(book, parts, chs):
             last_mv = c["movement"]
         elif not rows:
             rows = '<ul class="list">'
-        rows += (f'<li><a href="/{book["slug"]}/{c["slug"]}"><b>{esc((c.get("eyebrow") + " · ") if c.get("eyebrow") and not c.get("movement") else "")}{esc(plain(c["title"]))}</b>'
-                 f'<small>{esc(clip(c.get("lede") or c.get("desc") or c["html"], 170))}</small></a></li>')
+        rows += (f'<li><a href="/{book["slug"]}/{c["slug"]}"><b>{esc((c.get("eyebrow") + " · ") if c.get("eyebrow") and not c.get("movement") else "")}{esc(smart(plain(c["title"])))}</b>'
+                 f'<small>{esc(clip(c.get("plain") or c.get("blurb") or c.get("lede") or first_para(c["html"]), 170))}</small></a></li>')
     rows += "</ul>"
     body = (f'<main id="text"><nav class="crumbs" aria-label="Breadcrumb"><ol><li><a href="/">Noble Father Creations</a></li>'
             f'<li><a href="/{book["slug"]}">{esc(book["title"])}</a></li><li aria-current="page">Contents</li></ol></nav>'
-            f'<p class="eyebrow">Free to read · {len(chs)} {book.get("unit", "chapters")}</p><h1 id="top">{esc(book["title"])}</h1>'
+            f'<p class="eyebrow">{esc(book.get("contents_eyebrow") or f"Free to read · {len(chs)} " + book.get("unit", "sections"))}</p><h1 id="top">{esc(book["title"])}</h1>'
             f'<p class="lede">{esc(book["description"])}</p>{BYLINE}'
             f'<p class="notice">{book["notice_short"]} <a href="{book["notice_href"]}">Full notice</a>.</p>{rows}</main>')
     return frame(book, parts, title=title, desc=desc, url=url, ld=ld, body=body,
@@ -654,11 +683,23 @@ def inject_index(book, index_html, chs):
     return h
 
 
+def load_extra(slug):
+    """content/seo/<book>.json: {page-slug: {"plain": "two plain sentences", "aka": ["standard term", ...]}}.
+    The only NEW words on chapter pages (owner-approved 2026-11-08); everything else is the book's own text."""
+    f = ROOT / "content" / "seo" / f"{slug}.json"
+    return json.loads(f.read_text(encoding="utf-8")) if f.exists() else {}
+
+
 def write_book(book, index_html, chs, out_dir, related=None, extra_pages=()):
     """Write chapter pages, contents, sitemap; returns list of written page names."""
     out_dir = Path(out_dir)
     parts = {"house": house_parts(index_html), "beacon": beacon(index_html),
              "fonts": export_fonts(index_html, out_dir / "f", book["fonts"])}
+    extra = load_extra(book["slug"])
+    for c in chs:
+        e = extra.get(c["slug"], {})
+        c.setdefault("plain", e.get("plain"))
+        c.setdefault("aka", e.get("aka"))
     names = []
     for i, c in enumerate(chs):
         write(out_dir / f"{c['slug']}.html", chapter_page(book, parts, chs, i, related or []))
