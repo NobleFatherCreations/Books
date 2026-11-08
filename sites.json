@@ -524,8 +524,13 @@
         "found": false,
         "checkedAt": "2026-08-02"
       },
-      "version": "v3",
+      "version": "v4",
       "changelog": [
+        {
+          "date": "2026-11-08",
+          "version": "v4",
+          "summary": "Every essay and all 26 finished sectors now have their own findable pages (34 + contents), rendered from the book's own text; share card, structured data, sitemap; first Editorial & Legal Notice with a corrections address; free licence (CC BY-NC-ND 4.0)."
+        },
         {
           "date": "2026-09-01",
           "version": "v3",
@@ -542,8 +547,11 @@
           "summary": "Baseline entry - version tracking starts here; earlier history not reconstructed."
         }
       ],
-      "repoPath": "library/fractal/index.html",
-      "section": "library"
+      "repoPath": "library/fractal/",
+      "section": "library",
+      "pendingDeploy": {
+        "note": "Repo is AHEAD of live: v4 findability round built 2026-11-08, awaiting owner go-ahead to deploy."
+      }
     },
     {
       "codename": "allfracture",

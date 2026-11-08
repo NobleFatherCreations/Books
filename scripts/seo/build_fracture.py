@@ -97,9 +97,14 @@ def patch_index(h, chs):
            f'{S.LICENSE_LINE} <a href="/fracture/contents">Read it episode by episode</a>.</p>')
     h = re.sub(r'\n?<p class="foot-lic".*?</p>', "", h, flags=re.S)
     h = h.replace('<p class="foot-mark">The Fracture</p>', '<p class="foot-mark">The Fracture</p>\n  ' + lic, 1)
+    reply = ("Any individual or entity named may submit written response for consideration in companion materials.")
+    contact = (reply + ' Corrections and responses: <a href="mailto:dapperdadnfc@gmail.com">dapperdadnfc@gmail.com</a>.')
+    if "dapperdadnfc@gmail.com" not in h:
+        assert reply in h, "fracture: right-of-reply sentence not found"
+        h = h.replace(reply, contact, 1)
     entry = ('<p><b>v6 &middot; November 8, 2026.</b> Every episode now also has its own page, so a search or an '
              'AI assistant can point you straight to it. Added the free licence (credit required, no selling) and '
-             'clearer wording about the anonymous visit counter.</p>')
+             'clearer wording about the anonymous visit counter, and a corrections address in the legal notice.</p>')
     if "v6 &middot; November 8, 2026" not in h:
         h = h.replace('<h2>Updates</h2>\n', '<h2>Updates</h2>\n  ' + entry + "\n", 1)
     return h
