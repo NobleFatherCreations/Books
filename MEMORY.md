@@ -4849,3 +4849,4 @@ Owner asked for ten phone upgrades, a final combing of every tactic for accuracy
   locally), search-visibility-kit (GSC + IndexNow, after GSC exists), Ahrefs/Semrush connectors (paid; Ahrefs has AI
   citation tracking).
 - Owner (2026-11-08): a new Pattern Decoder update is coming; park Decoder work until after the round-1 books.
+- Owner (later): round 1 = 7 books (adds Sacred Divide); CC BY-NC-ND; one-line notice + link per chapter page; menu label fixes (Sacred Divide count, Decoder 349->310, The Music vs The Listening Room); free-wins audit + all relevant skills before deploy.

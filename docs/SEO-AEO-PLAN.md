@@ -25,6 +25,22 @@ control, workplace coercion, elder abuse, leaving, repair, etc. lands on the fre
   copies; the owner's site stays the one current version. JSON-LD will carry `license`
   (https://creativecommons.org/licenses/by-nc-nd/4.0/), `isAccessibleForFree: true`, `author`/`copyrightHolder` Shae Stovell, `dateModified`, `version`.
 
+
+### Owner update (2026-11-08, later) — supersedes the round-1 list above
+
+- **Round 1 = seven books:** The Sacred Divide, Playground Protectors, The Sovereign Divine Feminine, The Fractal,
+  The Fracture, The Festie Codex (wook), The Festie Bible. Everything else after; Decoder after that (owner update coming).
+- **Licence:** CC BY-NC-ND 4.0 (free; credit required; no selling; no edited copies).
+- **Disclaimers:** not repeated in full. Each chapter page gets ONE short line linking to the full notice at the top of
+  the book (e.g. "Commentary drawn from public records; not legal, medical or financial advice. Full notice →").
+  Reason: readers from search land mid-book and never see the top; a link alone isn't seen either.
+- **Cross-links:** verified — all 17 sites link to all 16 others through the shared menu (THE HOUSE). Labels to fix in
+  all 16–17 files that carry the shared menu: Sacred Divide "25 traditions, 750 entries" (v5 has 34 traditions),
+  Pattern Decoder "349 tactics" (310), "The Music" vs its real name "The Listening Room". Old name "Coercive Control
+  Codex": gone from the repo; still live on loop + scale until their pending deploy.
+- **Before any deploy:** a full free-wins audit of the finished SEO work, and every *relevant* installed skill run on it
+  (list and results recorded per book).
+
 ### Legal check of the six (2026-11-08) — handled inside each book's round
 
 | Book | Finding | Handling |
