@@ -13,12 +13,30 @@ control, workplace coercion, elder abuse, leaving, repair, etc. lands on the fre
   The Festie Bible, The Festie Codex (wook), The Fractal, The Fracture. Every other book waits for round 2, after
   these six are fully done.
 - **Homepage: later**, as part of a navigation redesign. Not in round 1. (The 15 MB problem stays open until then.)
-- **Analytics: allowed** ("allow full analytics"). Which tool still to confirm (children's book makes cookie-based tools a
-  legal problem). The books' own "no tracking" wording must be updated wherever a book gains analytics, so it stays true.
+- **Analytics: cookieless only** (owner: "choose the safest option that allows as much findability as possible").
+  Keep the existing Cloudflare Web Analytics beacon; add Google Search Console + Bing Webmaster Tools, verified by DNS
+  (no page code). Analytics has no effect on findability, so nothing is lost. No Google Analytics: cookies on a
+  children's book = COPPA exposure, and EU readers would need a consent banner.
 - **Safety books (round 2): full findability, plus a reader-facing toggle** ("discreet mode") — e.g. neutral tab title and
   no history entries while on. Crawlers always see the real titles, so the toggle costs no findability.
-- **License:** free forever, credit to Shae Stovell, books updated over time. Exact licence still to confirm.
-  JSON-LD will carry `isAccessibleForFree: true`, `author`/`copyrightHolder` Shae Stovell, `dateModified`, `version`.
+- **License: CC BY-NC-ND 4.0** (owner: "choose whichever is best"). Free to share with credit, no selling, no edited
+  copies; the owner's site stays the one current version. JSON-LD will carry `license`
+  (https://creativecommons.org/licenses/by-nc-nd/4.0/), `isAccessibleForFree: true`, `author`/`copyrightHolder` Shae Stovell, `dateModified`, `version`.
+
+### Legal check of the six (2026-11-08) — handled inside each book's round
+
+| Book | Finding | Handling |
+|---|---|---|
+| all six | Footers say **"All rights reserved"** (feminine, children, festival, wook) or nothing; that would contradict a CC licence in the JSON-LD. | Visible footer becomes "© 2026 Shae Stovell · Free to share under CC BY-NC-ND 4.0", matching the JSON-LD. One line per book. |
+| feminine, children, fracture | Update notes say Cloudflare analytics sends "nothing that leaves this domain". It does go to Cloudflare. | Reword truthfully: "anonymous visit counts via Cloudflare: no cookies, no personal data." |
+| **The Fracture** | Names real people and companies ("The Ownership Class: Every Name"); has an Editorial & Legal Notice. Findability multiplies defamation exposure. | (a) The legal notice goes on **every** chapter page, not just the front; (b) no named individual in any title, description, OG card or JSON-LD; only the book's neutral chapter titles; (c) before deploy, list every claim about a named person and check it has a source in the 195 citations. Unsourced ones go to the owner. |
+| **The Fractal** | Mentions allegations and defamation. | Same three steps as Fracture. |
+| **Festie Codex, Festie Bible** | Drug harm-reduction content (dosage, DanceSafe, drug checking), disclaimers at the top. Legal, and allowed by Google's policies as harm reduction. | Disclaimer ("not medical/legal advice") carried onto every chapter page that touches drugs or safety. Wook names "alleged" people twice: check before boosting. |
+| **Playground Protectors** | Children's site. Uses localStorage/sessionStorage (stays on the device, never sent anywhere) + the cookieless beacon. No forms, no collection. | COPPA-safe as is; no cookies or third-party scripts ever added. Schema `audience` = children + parents. |
+| feminine | "not legal advice" disclaimer, a medication dosage mention. | Disclaimer carried onto the chapter pages it covers. |
+
+General rule from this: **when a book is split into chapter pages, every notice or disclaimer that applied to the whole
+book must appear on each page it covers**, because a search result drops readers straight into the middle.
 
 ### Round-1 order (by how each book stores its text, measured 2026-11-08)
 

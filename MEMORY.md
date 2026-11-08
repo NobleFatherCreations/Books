@@ -4802,3 +4802,8 @@ Owner asked for ten phone upgrades, a final combing of every tactic for accuracy
   redesign; analytics allowed (tool TBD); safety books get full findability + a discreet-mode toggle (round 2); licence =
   free forever with credit (exact licence TBD). Round-1 order + per-book structure in docs/SEO-AEO-PLAN.md §0.
 - Installed the six SEO skills into .claude/skills (see its README). Still not built: anything on a book.
+- Final owner calls: analytics = cookieless only (Cloudflare beacon + Search Console/Bing by DNS; no GA, COPPA on the
+  children's book); licence = CC BY-NC-ND 4.0. Legal scan of the six done: "All rights reserved" footers must change to
+  match the licence; "nothing leaves this domain" analytics wording is inaccurate; Fracture/Fractal name real people ->
+  legal notice on every chapter page, no names in metadata, claim-sourcing check before deploy; harm-reduction
+  disclaimers follow onto every chapter page. Table in docs/SEO-AEO-PLAN.md §0. Next: build Fracture pilot locally.
