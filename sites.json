@@ -10,8 +10,13 @@
     "deploySource": "cli",
     "localSource": "hub/catalogue-redesign.html",
     "localSourceNote": "This is the first verified live deploy of the redesigned 'collected works' hub. A 2026-08-02 review package claimed the catalogue hub redesign was already deployed, but it did NOT byte-match live content at the time -- treat this 2026-08-05 deploy as the true first release.",
-    "version": "v15",
+    "version": "v16",
     "changelog": [
+      {
+        "date": "2026-11-08",
+        "version": "v16",
+        "summary": "Homepage head: canonical, share card (og.png), WebSite + Organization + ItemList structured data, clearer title/description; menu label fixes; robots.txt lists all nine sitemaps and names more AI crawlers; new llms.txt map of the library."
+      },
       {
         "date": "2026-10-27",
         "version": "v15",
@@ -89,9 +94,14 @@
       }
     ],
     "siteFiles": [
+      "hub/llms.txt",
+      "hub/og.png",
       "hub/robots.txt",
       "hub/sitemap.xml"
-    ]
+    ],
+    "pendingDeploy": {
+      "note": "Repo is AHEAD of live: v16 findability round built 2026-11-08, awaiting owner go-ahead to deploy."
+    }
   },
   "projects": [
     {
@@ -313,7 +323,10 @@
         }
       ],
       "section": "instruments",
-      "repoPath": "instruments/shadowroot/index.html"
+      "repoPath": "instruments/shadowroot/index.html",
+      "pendingDeploy": {
+        "note": "Repo is AHEAD of live. Menu label fix (2026-11-08: Sacred Divide subtitle, Decoder 310 tactics, The Listening Room) is in the repo only; it ships with this site's own next round."
+      }
     },
     {
       "codename": "sovereign",
@@ -646,8 +659,7 @@
       "repoPath": "library/loop/index.html",
       "section": "library",
       "pendingDeploy": {
-        "since": "2026-10-24",
-        "note": "Repo is AHEAD of live. It names the faith book 'The Sacred Divide' (renamed 2026-09-27; live on /faith since 2026-09-28); live still says 'The Coercive Control Codex' in this book's menu. Only that text differs, 2 lines in the menu. Needs the owner's explicit go-ahead to deploy (single-file site, id b9405b37-a71c-4c55-bbd2-a3043963b457)."
+        "note": "Repo is AHEAD of live. It names the faith book 'The Sacred Divide' (renamed 2026-09-27; live on /faith since 2026-09-28); live still says 'The Coercive Control Codex' in this book's menu. Only that text differs, 2 lines in the menu. Needs the owner's explicit go-ahead to deploy (single-file site, id b9405b37-a71c-4c55-bbd2-a3043963b457). Menu label fix (2026-11-08: Sacred Divide subtitle, Decoder 310 tactics, The Listening Room) is in the repo only; it ships with this site's own next round."
       }
     },
     {
@@ -690,8 +702,7 @@
       "repoPath": "library/scale/index.html",
       "section": "library",
       "pendingDeploy": {
-        "since": "2026-10-24",
-        "note": "Repo is AHEAD of live. It names the faith book 'The Sacred Divide' (renamed 2026-09-27; live on /faith since 2026-09-28); live still says 'The Coercive Control Codex' in this book's menu and in two sentences. Only that text differs, 2 lines in the menu plus 4 in body text. Needs the owner's explicit go-ahead to deploy (single-file site, id 27ab9f53-5850-4fb1-8bed-6513b33ee11f)."
+        "note": "Repo is AHEAD of live. It names the faith book 'The Sacred Divide' (renamed 2026-09-27; live on /faith since 2026-09-28); live still says 'The Coercive Control Codex' in this book's menu and in two sentences. Only that text differs, 2 lines in the menu plus 4 in body text. Needs the owner's explicit go-ahead to deploy (single-file site, id 27ab9f53-5850-4fb1-8bed-6513b33ee11f). Menu label fix (2026-11-08: Sacred Divide subtitle, Decoder 310 tactics, The Listening Room) is in the repo only; it ships with this site's own next round."
       }
     },
     {
@@ -794,7 +805,10 @@
         }
       ],
       "section": "instruments",
-      "repoPath": "instruments/music/index.html"
+      "repoPath": "instruments/music/index.html",
+      "pendingDeploy": {
+        "note": "Repo is AHEAD of live. Menu label fix (2026-11-08: Sacred Divide subtitle, Decoder 310 tactics, The Listening Room) is in the repo only; it ships with this site's own next round."
+      }
     },
     {
       "codename": "festie+bible",
@@ -916,7 +930,10 @@
         }
       ],
       "section": "library",
-      "netlifyUrl": "https://noble-the-long-after.netlify.app/"
+      "netlifyUrl": "https://noble-the-long-after.netlify.app/",
+      "pendingDeploy": {
+        "note": "Repo is AHEAD of live. Menu label fix (2026-11-08: Sacred Divide subtitle, Decoder 310 tactics, The Listening Room) is in the repo only; it ships with this site's own next round."
+      }
     },
     {
       "codename": null,
@@ -957,7 +974,10 @@
         }
       ],
       "section": "library",
-      "netlifyUrl": "https://noble-the-silence.netlify.app/"
+      "netlifyUrl": "https://noble-the-silence.netlify.app/",
+      "pendingDeploy": {
+        "note": "Repo is AHEAD of live. Menu label fix (2026-11-08: Sacred Divide subtitle, Decoder 310 tactics, The Listening Room) is in the repo only; it ships with this site's own next round."
+      }
     },
     {
       "codename": null,
@@ -998,7 +1018,10 @@
         }
       ],
       "section": "library",
-      "netlifyUrl": "https://noble-at-will.netlify.app/"
+      "netlifyUrl": "https://noble-at-will.netlify.app/",
+      "pendingDeploy": {
+        "note": "Repo is AHEAD of live. Menu label fix (2026-11-08: Sacred Divide subtitle, Decoder 310 tactics, The Listening Room) is in the repo only; it ships with this site's own next round."
+      }
     },
     {
       "codename": null,
@@ -1039,7 +1062,10 @@
         }
       ],
       "section": "library",
-      "netlifyUrl": "https://noble-the-repair.netlify.app/"
+      "netlifyUrl": "https://noble-the-repair.netlify.app/",
+      "pendingDeploy": {
+        "note": "Repo is AHEAD of live. Menu label fix (2026-11-08: Sacred Divide subtitle, Decoder 310 tactics, The Listening Room) is in the repo only; it ships with this site's own next round."
+      }
     },
     {
       "codename": null,
@@ -1080,7 +1106,10 @@
         }
       ],
       "section": "library",
-      "netlifyUrl": "https://noble-the-slow-take.netlify.app/"
+      "netlifyUrl": "https://noble-the-slow-take.netlify.app/",
+      "pendingDeploy": {
+        "note": "Repo is AHEAD of live. Menu label fix (2026-11-08: Sacred Divide subtitle, Decoder 310 tactics, The Listening Room) is in the repo only; it ships with this site's own next round."
+      }
     }
   ],
   "craftBusiness": [
