@@ -113,6 +113,20 @@ def beacon(book_html):
     return m.group(0) if m else ""
 
 
+_CHARS = {}
+
+
+def _book_chars(book_html):
+    key = id(book_html)
+    if key not in _CHARS:
+        txt = html.unescape(re.sub(r"<[^>]+>", " ", re.sub(r"<(style|script)[\s\S]*?</\1>", " ", book_html)))
+        data = " ".join(re.findall(r'"(?:[^"\\]|\\.){1,4000}"', book_html))   # text held in JS/JSON data too
+        cs = {ord(c) for c in txt + html.unescape(data)}
+        cs |= set(range(0x20, 0x7F)) | set(range(0xA0, 0x100)) | set(range(0x2010, 0x2070)) | set(range(0x2190, 0x2200)) | {0x2122, 0x20AC, 0x2605, 0x2606, 0x2713, 0x2714, 0x2715, 0x2726}
+        _CHARS[key] = cs
+    return _CHARS[key]
+
+
 def export_fonts(book_html, out_dir, families):
     """Write the book's own embedded faces for `families` to out_dir as woff2.
     Returns @font-face CSS pointing at /<book>/f/... (absolute)."""
@@ -130,6 +144,16 @@ def export_fonts(book_html, out_dir, families):
         data = base64.b64decode(re.search(r"base64,([A-Za-z0-9+/=]+)", block).group(1))
         name = f"{slugify(fam)}-{slugify(w)}-{st}.woff2"
         f = TTFont(io.BytesIO(data))
+        # keep only the characters this book can show (its own text + printable ASCII + common punctuation):
+        # same letterforms, a fraction of the bytes
+        from fontTools import subset as _subset
+        opts = _subset.Options()
+        opts.layout_features = ["*"]
+        opts.name_IDs = ["*"]
+        opts.notdef_outline = True
+        sub = _subset.Subsetter(opts)
+        sub.populate(unicodes=_book_chars(book_html))
+        sub.subset(f)
         f.flavor = "woff2"
         buf = io.BytesIO()
         f.save(buf)

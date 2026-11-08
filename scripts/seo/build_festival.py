@@ -23,7 +23,7 @@ BOOK = {
               "disp": "'Fraunces',Georgia,serif", "body": "'Hanken Grotesk',system-ui,sans-serif"},
     "description": ("Twenty-one free field guides to psychological safety at festivals, one for each corner of the scene: "
                     "women, men, first-timers, sober, LGBTQ+, BIPOC, disabled, artists, vendors, crew, harm reduction and "
-                    "more. 270 real-feeling scenarios with the tells, what is happening, and what to say."),
+                    "more. 270 scenarios with the tells, what is happening, and what to say."),
     "index_title": "The Festie Bible: 21 Free Festival Safety Guides",
     "index_desc": ("Twenty-one free festival safety guides: women, first-timers, sober, LGBTQ+, artists, vendors, crew and "
                    "more. 270 scenarios, the tells, and what to say."),
