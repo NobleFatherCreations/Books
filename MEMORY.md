@@ -4783,3 +4783,18 @@ Owner asked for ten phone upgrades, a final combing of every tactic for accuracy
   Sequential Thinking at user scope on every start (idempotent; tested fresh, repeated, and outside a repo: Connected).
   A server registered by a hook is live from the next start or resume of that chat; the environment Setup script line is
   still the only way to have it in the very first turn of every new chat.
+
+## 2026-11-08 — Findability plan for every book (plan only, nothing built or deployed)
+
+- Owner asked for maximum findability (search + AI) across all books, designed start to finish before any change.
+  Plan: `docs/SEO-AEO-PLAN.md`. Waiting on 4 owner answers listed at its bottom.
+- Audit facts: 9 of 17 sites serve ~200 words to non-JS crawlers (text lives in JS: shared MOVEMENTS/CH/BODIES engine in
+  loop, scale, longafter, silence, atwill, repair, slowtake; fractal CHAPTERS; festival unknown). Every book is one URL.
+  Hub is 21.3 MB, its <h1> and book links start after 18.5 MB, past Googlebot's 15 MB cut-off (21.2 MB is base64 images).
+- Session-start drift: live playbook = v19 (`claude/intelligent-turing-9z46ea`), live faith = v5
+  (`claude/sacred-divide-v5-redesign`), neither merged here; deploying either from this branch would regress live.
+  loop/scale have 9/27-byte pending edits.
+- Inspected coreyhaines31/marketingskills @96798cf (MIT, markdown only, no hooks/scripts/telemetry); proposed installing
+  seo-audit, ai-seo, schema, programmatic-seo, directory-submissions, link-building into .claude/skills (not yet done).
+- MCPs: sequential-thinking Connected; playwright and higgsfield "pending approval" (approve at first interactive start;
+  higgsfield has no API key so it can't do anything anyway). Raw Playwright scripts work regardless.
