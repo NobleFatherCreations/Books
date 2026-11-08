@@ -10,8 +10,13 @@
     "deploySource": "cli",
     "localSource": "hub/catalogue-redesign.html",
     "localSourceNote": "This is the first verified live deploy of the redesigned 'collected works' hub. A 2026-08-02 review package claimed the catalogue hub redesign was already deployed, but it did NOT byte-match live content at the time -- treat this 2026-08-05 deploy as the true first release.",
-    "version": "v16",
+    "version": "v17",
     "changelog": [
+      {
+        "date": "2026-11-08",
+        "version": "v17",
+        "summary": "Homepage HTML 21.3 MB -> 0.18 MB: song, intro video (recompressed), pictures (WebP at display size) and fonts (subset WOFF2) moved to /media and /f on the hub site; intro plays in the hero background (no lock, no gate, no tour, no autoplay sound); Start here chooser; books first; Art door opens /portals; phone menu; card facts updated (Festie Bible 21/270, Festie Codex 33, Sacred Divide 34, The Listening Room)."
+      },
       {
         "date": "2026-11-08",
         "version": "v16",
@@ -95,15 +100,18 @@
     ],
     "siteFiles": [
       "hub/3b85ef6f77878fe76e9845021f786fce.txt",
+      "hub/f/",
       "hub/llms.txt",
+      "hub/media/",
       "hub/og.png",
       "hub/robots.txt",
       "hub/sitemap.xml",
       "hub/topics.html"
     ],
     "pendingDeploy": {
-      "note": "Repo is AHEAD of live: v16 findability round built 2026-11-08, awaiting owner go-ahead to deploy."
-    }
+      "note": "Repo is AHEAD of live: v16 + v17 homepage rounds built 2026-11-08, awaiting owner go-ahead to deploy."
+    },
+    "buildCommand": "python3 scripts/seo/build_hub.py && python3 scripts/seo/build_site.py"
   },
   "projects": [
     {

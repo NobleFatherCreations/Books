@@ -12,6 +12,7 @@ class H(http.server.SimpleHTTPRequestHandler):
         if p in ("robots.txt", "sitemap.xml", "llms.txt"): return str(ROOT / "hub" / p)
         if "/" not in p and (ROOT / "hub" / (p + ".html")).exists(): return str(ROOT / "hub" / (p + ".html"))
         if "/" not in p and (ROOT / "hub" / p).is_file(): return str(ROOT / "hub" / p)
+        if p.split("/")[0] in ("media", "f") and (ROOT / "hub" / p).is_file(): return str(ROOT / "hub" / p)
         parts = p.split("/")
         base = MAP.get(parts[0], ROOT / "library" / parts[0])
         rest = "/".join(parts[1:])
