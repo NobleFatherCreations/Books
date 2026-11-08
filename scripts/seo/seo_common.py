@@ -214,7 +214,7 @@ def promote(frag, rules):
                     new.append(ch.extract())
             else:
                 new = soup.new_tag(to)
-                new.string = re.sub(r"^[^\w“\"(]+", "", re.sub(r"\s+", " ", txt)).strip()
+                new.string = title_case(re.sub(r"^[^\w“\"(]+", "", re.sub(r"\s+", " ", txt)).strip())
                 if el.get("id"):
                     new["id"] = el["id"]
             el.replace_with(new)
@@ -239,9 +239,10 @@ def title_case(s):
         elif i and core.lower() in SMALL and not out[-1].endswith((":", "—", "→")):
             out.append(w.lower())
         else:
-            out.append(re.sub(r"[A-Za-z][A-Za-z’']*", lambda m: m.group(0)[0].upper() + m.group(0)[1:].lower(), w, count=1)
-                       if w[:1].isalpha() or w[:1] in "“\"(" else w.capitalize())
-    return " ".join(out).replace("- ", "-") if "SELF- " in s else " ".join(out)
+            out.append(re.sub(r"[A-Za-z][A-Za-z’']*", lambda m: m.group(0) if m.group(0) in KEEP_UPPER
+                              else m.group(0)[0].upper() + m.group(0)[1:].lower(), w))
+    res = " ".join(out).replace("- ", "-") if "SELF- " in s else " ".join(out)
+    return re.sub(r"-(And|Or|Of|The|In|To|A|An)-", lambda m: "-" + m.group(1).lower() + "-", res)
 
 
 def collect_until(start, is_stop):
