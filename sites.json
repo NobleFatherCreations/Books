@@ -803,8 +803,13 @@
         "found": false,
         "checkedAt": "2026-08-10"
       },
-      "version": "v10",
+      "version": "v11",
       "changelog": [
+        {
+          "date": "2026-11-08",
+          "version": "v11",
+          "summary": "All 21 guides and 270 scenarios now have their own findable pages (291 + contents), each titled with the scenario's plain clinical name; share card, structured data, sitemap; a real page heading for the app; not-advice line, corrections address and free licence (CC BY-NC-ND 4.0) replace 'All rights reserved'; v11 entry in the book's own changelog."
+        },
         {
           "date": "2026-09-17",
           "version": "v10",
@@ -856,10 +861,13 @@
           "summary": "First build. All 12 guides (G.R.O.V.E./B.A.S.S./R.A.V.E./P.R.I.D.E./C.R.E.A.T.E./S.O.U.N.D./M.A.R.K.E.T./H.O.L.D./C.A.R.E./L.E.A.D./E.V.E.N.T./S.A.F.E.), 149 scenario pages, extracted and rebuilt with a real logo (the source PDF's brand mark rendered at ~10% opacity -- fixed), reading-progress bar, in-guide contents drawer, and a persistent crisis-resource strip."
         }
       ],
-      "repoPath": "library/festival/index.html",
+      "repoPath": "library/festival/",
       "section": "library",
       "liveVersion": "v10",
-      "liveVerifiedAt": "2026-09-17"
+      "liveVerifiedAt": "2026-09-17",
+      "pendingDeploy": {
+        "note": "Repo is AHEAD of live: v11 findability round built 2026-11-08, awaiting owner go-ahead to deploy."
+      }
     },
     {
       "codename": null,

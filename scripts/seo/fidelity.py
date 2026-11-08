@@ -33,11 +33,12 @@ for p in sorted(pages):
     art = BeautifulSoup(p.read_text(encoding="utf-8"), "html.parser").select_one("article")
     if not art: continue
     for el in art.find_all(["p", "li", "blockquote", "td", "dd"]):
-        if el.find(["p", "li"]): continue
+        if el.find(["p", "li"]) or "nav" in (el.get("class") or []): continue
         t = el.get_text("")
         lead = el.find(["strong", "b"], recursive=False)
         if lead is not None and t.strip().startswith(lead.get_text().strip()):
             t = t.strip()[len(lead.get_text().strip()):]   # a book label set in bold before the text
+        t = t.strip().strip("“”")                       # quote marks a book's renderer wraps around a line
         if len(t.strip()) < 12: continue
         checked += 1
         if norm(t) not in corpus:
