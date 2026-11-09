@@ -4959,3 +4959,8 @@ scratchpad/deploy2/hub refreshed. Still awaiting the owner's "deploy the homepag
   fractal-entertainment url to finalUrl, re-run verify-deployed, ping IndexNow.
 - Next ideas, not done: link /fractal/entertainment-and-culture (Fractal chapter) to the deep dive; link unresolved combo
   tactic names (Gaslighting, DARVO, FOG...) to Decoder v20 pattern pages via content/decoder-v20 alias data.
+- 2026-11-09 (end of thread): everything from this thread is in the repo. START HERE for Fractal²: content/fractal2/HANDOFF.md,
+  then content/fractal2/FABLE-PROMPT.md (prompt for the final intro prose + single-page scroll experience at /fractal2).
+  Owner words + verbatim scripts in content/fractal2/owner-source/ (A Spiritual Lens script, B War Map, C inner techniques
+  17-30 / Cage & Intent / Practice, D Enlighten transcript, E owner messages). Direction changed to /fractal2 (featured on
+  homepage). ENT site is public on its Netlify address only; confirm with owner before any change or deploy.
