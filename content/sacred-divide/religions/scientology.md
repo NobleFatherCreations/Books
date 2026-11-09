@@ -4,7 +4,7 @@ title: "Scientology"
 family: "New movements & the spiritual marketplace"
 family_id: new-movements
 family_members: [scientology, new-age, unification-church]
-version: v4
+version: v5
 checked: 2026-10-03
 sections_filled: 27/27
 missing: []

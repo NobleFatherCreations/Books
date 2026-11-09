@@ -1,5 +1,11 @@
 # MEMORY — read this first, every session
 
+> **v19 IS LIVE (2026-10-27, deploy 6ae0da00e86b4d164b8a4f3f; replaced v18 6ae0a61aff2b9cdb5d09a3c4).** Owner asked for single scroll,
+> no tabs/clutter, no "tracks with circles", Apple feel, then a final design + SEO audit and "make it live". Repo and live are
+> byte-identical (`node scripts/verify-deployed.mjs playbook`). Suite 106 checks (`node scripts/decoder-verify.js
+> instruments/playbook/site/index.html`). Read DESIGN.md "v19 addendum" and "v19 final audit". Deploy method: Netlify MCP
+> `deploy-site` for site 8b3d5fdf-49e5-46eb-bb53-97d69039a44e, then run the returned npx command from a staging copy of
+> `instruments/playbook/site/`. Still open: Help Q2 wording, the 13 gates, real-device check, Search Console/Bing sitemap submission.
 > **START HERE (latest, 2026-10-27).** Pattern Decoder **v18 is LIVE** (deploy 6ae0a61aff2b9cdb5d09a3c4); repo and live are
 > byte-identical (`node scripts/verify-deployed.mjs playbook hub` in Books). The source is `Books/design/decoder-v15/` +
 > `Books/design/decoder_pages.py`, built by `python3 design/build-decoder-v15.py` into the publish directory
@@ -4783,6 +4789,147 @@ Owner asked for ten phone upgrades, a final combing of every tactic for accuracy
   Sequential Thinking at user scope on every start (idempotent; tested fresh, repeated, and outside a repo: Connected).
   A server registered by a hook is live from the next start or resume of that chat; the environment Setup script line is
   still the only way to have it in the very first turn of every new chat.
+
+## 2026-10-27 (v19 candidate) — one scroll, no map, Apple manner
+
+- **Ask:** "add the single scroll and any other upgrade; remove clutter and tabs; replace the tracks with small circles with an
+  easier system; Apple feel; act as a senior design expert." Planning used Sequential Thinking (connected in this session) and
+  the apple-design and ponytail skills. A pasted plan from another chat (React tooling, Festival tokens, red-free exit, 12px
+  labels, "Kinetic Deck") was not followed: it contradicts CLAUDE.md and DECODER-V18-PASTE-CHECK.md; its context files were never
+  added to the repo.
+- **Done (source, not live):** `design/decoder-v15/{app.js,app.css,shell.html}`, `design/build-decoder-v15.py`
+  (`home_html`, version v19, update note), `design/decoder_pages.py` (one line of copy), `scripts/decoder-verify.js`
+  (105 checks), `instruments/playbook/DESIGN.md` (v19 addendum). The built `instruments/playbook/site/` was rebuilt, so it now
+  differs from live (v18) until deployed. JS 95 to 81 KB, CSS 51 to 42 KB.
+- **Open for the owner:** Help Q2 wording; the 13 gates; whether to deploy v19. A phone check on a real device (the suite
+  uses a software browser) is still worth doing, especially the sliding sign bar and the sticky index with the on-screen keyboard.
+- **Final audit and deploy (same day).** Steelman audit of layout, navigation, readability, presentation and findability; fixes:
+  A to Z chips, 38rem measure, opaque frosted bars, plain pages restyled to match (and House seal overlap fixed), OG image
+  (`scripts/make-decoder-og.js`), robots max-snippet, dateModified, `/playbook/llms.txt`. Deployed as v19; verified live.
+
+
+## 2026-11-08 — Findability plan for every book (plan only, nothing built or deployed)
+
+- Owner asked for maximum findability (search + AI) across all books, designed start to finish before any change.
+  Plan: `docs/SEO-AEO-PLAN.md`. Waiting on 4 owner answers listed at its bottom.
+- Audit facts: 9 of 17 sites serve ~200 words to non-JS crawlers (text lives in JS: shared MOVEMENTS/CH/BODIES engine in
+  loop, scale, longafter, silence, atwill, repair, slowtake; fractal CHAPTERS; festival unknown). Every book is one URL.
+  Hub is 21.3 MB, its <h1> and book links start after 18.5 MB, past Googlebot's 15 MB cut-off (21.2 MB is base64 images).
+- Session-start drift: live playbook = v19 (`claude/intelligent-turing-9z46ea`), live faith = v5
+  (`claude/sacred-divide-v5-redesign`), neither merged here; deploying either from this branch would regress live.
+  loop/scale have 9/27-byte pending edits.
+- Inspected coreyhaines31/marketingskills @96798cf (MIT, markdown only, no hooks/scripts/telemetry); proposed installing
+  seo-audit, ai-seo, schema, programmatic-seo, directory-submissions, link-building into .claude/skills (not yet done).
+- MCPs: sequential-thinking Connected; playwright and higgsfield "pending approval" (approve at first interactive start;
+  higgsfield has no API key so it can't do anything anyway). Raw Playwright scripts work regardless.
+- Owner answers (same day): round 1 = feminine, children, festival, wook, fractal, fracture only; homepage later with a nav
+  redesign; analytics allowed (tool TBD); safety books get full findability + a discreet-mode toggle (round 2); licence =
+  free forever with credit (exact licence TBD). Round-1 order + per-book structure in docs/SEO-AEO-PLAN.md §0.
+- Installed the six SEO skills into .claude/skills (see its README). Still not built: anything on a book.
+- Final owner calls: analytics = cookieless only (Cloudflare beacon + Search Console/Bing by DNS; no GA, COPPA on the
+  children's book); licence = CC BY-NC-ND 4.0. Legal scan of the six done: "All rights reserved" footers must change to
+  match the licence; "nothing leaves this domain" analytics wording is inaccurate; Fracture/Fractal name real people ->
+  legal notice on every chapter page, no names in metadata, claim-sourcing check before deploy; harm-reduction
+  disclaimers follow onto every chapter page. Table in docs/SEO-AEO-PLAN.md §0. Next: build Fracture pilot locally.
+
+## 2026-10-27 — Sacred Divide v5 LIVE (owner said "Do 1-6 and post live")
+- Deployed to `thenobledivide` (Netlify deploy `6ae0f04b48836258511ef096`), served at `noblefathercreations.com/faith`. 35 pages + `codex` + `favicon.ico` (both unchanged from v4) + 34 PDFs (4,541 pages, US Letter, en-US, PDF/UA-1). 71 of 71 live files byte-identical to the repo on both hosts. Same design as v4; v5 text, PDFs, stamp and Updates list. `sites.json` faith = v5.
+- How to redo it: regenerate md (`python3 scripts/sacred-divide-export-md.py`), rebuild PDFs (`scripts/sacred-divide-v5-build-all.py`), `scripts/sacred-divide-v5-manifest.py`, run the site build command in `sites.json` faith.buildCommand, copy `library/faith/*.html` + the live `codex.html`/`favicon.ico` + `pdf/<id>.pdf` (from `library/_undeployed/sacred-divide-v5/<id>-expanded.pdf`) into one folder, get the command from Netlify MCP `deploy-site` and run it from that folder. The site script needs `fonttools` and `brotli` (`pip install`) in a fresh container.
+- Release-day Parsi verdict check done 27 Oct: no verdict reported. Re-check at the next release.
+- Reader feedback received (Sophia, via DM): letters Y/P/N/? in the disclosure ledger should be plain words; comparisons that group a whole belief system can mislead when the institutions are independent; the volume of material is overwhelming for a first-time reader. Planned, not done: plain labels, a scope box per page, a short summary at the top, layered reading. Layout mockups for a one-scroll, family-compare site: artifact `DWiSPuFXrGZ27wfDoCKYvc`; Figma file `wxw3FcF0X4MHcACljgWlLU`.
+- Netlify caution from earlier: an account credit cap once skipped deploys; this one went through in a single deploy.
+
+## 2026-11-08 — Merged the two live branches
+
+- Decoder v19 (`claude/intelligent-turing-9z46ea`) merged normally. Sacred Divide v5 branch has UNRELATED history (a separate copy of the whole repo, older elsewhere, would delete the Decoder, Festie scripts, etc.), so only its faith paths were brought over: library/faith, library/_undeployed/sacred-divide-v5, content/sacred-divide, docs/sacred-divide-v5, scripts/sacred-divide-{site,pdf-v5,export-md,v5-manifest}.py, the faith entry in sites.json, and its v5 memory entry (above). Never merge that branch whole.
+- Legal audit of all 17 sites: docs/LEGAL-AUDIT-2026-11-08.md. Gaps: Fractal has no legal notice; At Will has no
+  not-legal-advice line; The Root has no not-therapy/crisis note; Slow Take, Festie Bible, Feminine need one-line
+  disclaimers; Playground Protectors could add Childhelp; Suno plan/rights for music still an open owner decision.
+- SEO tools found (not installed, owner to choose): SearchFit SEO plugin (free, Anthropic Knowledge Work catalog, runs
+  locally), search-visibility-kit (GSC + IndexNow, after GSC exists), Ahrefs/Semrush connectors (paid; Ahrefs has AI
+  citation tracking).
+- Owner (2026-11-08): a new Pattern Decoder update is coming; park Decoder work until after the round-1 books.
+- Owner (later): round 1 = 7 books (adds Sacred Divide); CC BY-NC-ND; one-line notice + link per chapter page; menu label fixes (Sacred Divide count, Decoder 349->310, The Music vs The Listening Room); free-wins audit + all relevant skills before deploy.
+
+## 2026-11-08 (later) — Round 1 findability BUILT for 7 books + hub (NOT deployed; awaiting owner go-ahead)
+
+- Books: fracture v6 (13 pages), feminine v6 (46), children v6 (35), wook v15 (64), fractal v4 (34), festival v11 (291),
+  faith v6 (34 tagged in place) + hub v16. Each: chapter pages `<slug>.html` (served /<book>/<slug>), contents.html,
+  sitemap.xml, og.png, fonts as subset woff2 under /<book>/f/, data-seo head block + JSON-LD on the book's own page,
+  CC BY-NC-ND 4.0 licence line, one-line notice linking the full notice, visible byline + updated date, version bump +
+  on-page update note + sites.json changelog. sites.json repoPath for the 6 split books is now the FOLDER.
+- Builders: `scripts/seo/build_<book>.py` (idempotent; rerun any time), shared `seo_common.py`, `build_site.py`
+  (robots.txt with 9 sitemaps, llms.txt, hub head/og, root sitemap), `build_faith.py` MUST run after
+  sacred-divide-site.py (chained in sites.json buildCommand).
+- Gates (all pass): `verify_seo.py <books>` (findability), `fidelity.py <book> <orig>` (every page text block verbatim
+  in the book: 30,000+ blocks, 0 misses), `audit_onpage.py`, `validate_schema.py <schemaorg jsonld>` (0 invalid),
+  `a11y.js` (axe clean on new pages), `perf.js` (LCP ~0.3s, CLS<0.1 on throttled mobile), `shoot.js`.
+  Local preview: `python3 scripts/seo/serve.py 8765` mirrors live paths.
+- Fixed along the way: Feminine live page showed "Copyright (c) [Year] [Author Name]" placeholder, 5 double-escaped
+  "&amp;", a broken Appendix B sentence, old children's title; Fractal got its first legal notice; Fracture notice
+  got a corrections address (dapperdadnfc@gmail.com, already public on the Festie Bible); Festie Bible got a
+  not-advice line; menu labels fixed in 53 files (Sacred Divide subtitle, Decoder 310, The Listening Room).
+- Bug caught in audit: Festie Bible chapter pages first carried the whole app (1 MB each) because the menu copy took
+  everything between #nf-chrome and its script; house_parts now takes the element only (41 KB pages).
+- Known, not changed: Sacred Divide pages' own a11y issues (contrast, heading order) are identical on live (generator
+  design); its 34 heading skips left alone. Book index pages themselves stay heavy (Fracture 3.3 MB, Codex 14.1 MB)
+  but chapter pages are the fast landing pages.
+- Deploy notes: 6 split books become multi-file Netlify sites (folder deploy); faith deploy dir also needs pdf/ +
+  codex.html per sites.json; hub needs index + _redirects + robots + sitemap + llms.txt + og.png + IndexNow key file.
+  After deploy: verify-deployed, then `python3 scripts/seo/indexnow.py hub fracture ...`.
+- Off-site (owner, human-in-the-loop): docs/OFFSITE-PLAN.md. Owner offered "In plain words" answer lines per
+  chapter (new writing) — awaiting yes. Decoder parked until owner's update. Homepage redesign later.
+- 2026-11-08 (latest): owner approved #2 "In plain words" + #4 "Also known as" on every chapter page. Data lives in
+  content/seo/<book>.json (only new words on chapter pages; fidelity.py skips classes aka/plain/kid-say/byline/notice).
+  Festie Bible plain = its own "What's Actually Happening"; Fractal sectors' plain built from its Controls/Captured fields.
+  Playground Protectors pages now use the BOOK'S OWN mission markup + stylesheet (library/children/book.css, pictures in
+  img/), Shaela speech-bubble for plain words, grown-ups' terms line, ages 5+ in data; small label colours deepened for
+  WCAG on those pages only. New /topics page (hub/topics.html, 126 terms → chapters across books), linked from every
+  chapter footer, llms.txt, root sitemap and the homepage v16 note. Design-review fixes applied (contents blurbs,
+  counts, measure, hover, collapsible TOC, curly quotes, footer/crumbs). Fonts: headings swap, body face
+  font-display:optional + preload → CLS 0–0.02, LCP ~0.5s on throttled mobile. All gates pass. Still NOT deployed.
+- 2026-11-08 (homepage v17, built, NOT deployed): owner chose intro-as-background, books first with an Art button to
+  /portals, and a simple "Start here" chooser. scripts/seo/build_hub.py (idempotent) moved all media out of the HTML:
+  21.34 MB -> 0.18 MB (song 9 MB -> /media/now-playing.mp3, preload none, plays on tap; intro 2.8 MB -> 0.64 MB
+  /media/intro.mp4 + poster; 30 pictures -> WebP at display size; 6 fonts -> subset WOFF2 in /f/). Gate, tour and intro
+  lock removed (tour kept in DOM as inert); sections now start-here, library, instruments, music, workshop, guide,
+  manifesto, maker, support; phone menu row; stale card facts fixed. First book link now ~100 KB into the file (was
+  18.5 MB). verify-hub.mjs updated to the new design: all checks pass at 375/1440. Build order: build_hub.py then
+  build_site.py. Deploy must include hub/media/ and hub/f/ (sites.json hub.siteFiles). Original kept in git history
+  (commit before 51e7243e).
+- 2026-11-08 DEPLOY: loop deployed (6af0f8994deb519e0faa55d6), verify-deployed in sync. The next deploy (scale) was BLOCKED by the auto-mode permission classifier ([Production Deploy]); rest of round one awaits owner permission. Publish folders were assembled in the session scratchpad (deploy2/); rebuild them from sites.json recipes if the container resets.
+- 2026-11-09 DEPLOYED round 1 (owner: 'just get them live'): fracture 6af11ac8, feminine 6af11b07, children 6af11b31, fractal 6af11b5c, festival 6af11b8a, wook 6af11bc4, faith 6af11c02 — verify-deployed: 7/7 in sync (530 pages). Owner was upset Loop went live without clear agreement (it carried the name fix); Weighing left pending. Homepage deploy BLOCKED by permission classifier and not in owner's seven: awaiting 'Deploy the homepage'. Until then robots/llms/topics/IndexNow key are not live; IndexNow not pinged.
+
+## 2026-11-09 — homepage v17 polish from the design-skills review (NOT deployed)
+Review (apple-design, emil-design-eng, impeccable critique, ux-heuristics, refactoring-ui, find/review-animations,
+better-accessibility, web-perf) found 14 items; all applied in `scripts/seo/build_hub.py` (START_CSS + HERO_JS + NAV_JS, idempotent):
+hero headline was stuck at 38% opacity on phones (scroll-timeline started mid-way) → now 1; hero stat links were invisible
+but focusable (script ran before the list existed) → DOMContentLoaded; pill menu now highlights the current section
+(aria-current) and scrolls it into view; header condenses past the hero with a solid backdrop; edge fades follow the swipe;
+"Start here" pill is the one brass primary; press feedback; focus rings no longer clipped; jump links land below the
+sticky header (scroll-margin var); music button now says Play/Pause truthfully; Start here opens one answer at a time
+(native details name=), animates open where supported, flatter nesting; safe-area insets for seal/music/footer.
+Checks: verify-hub all ok (375+1440), axe TOTAL {}, LCP 1.6s/CLS 0.013 throttled, reduced motion ok.
+Before/after check: `node scripts/seo/hub-polish-check.mjs <dir>` (needs hub/_before.html). Deploy folder
+scratchpad/deploy2/hub refreshed. Still awaiting the owner's "deploy the homepage".
+- 2026-11-09 later: owner said "Deploy the homepage". Deployed hub (6af1238b) from scratchpad/deploy2/hub; verify-deployed
+  hub in sync; /, robots, sitemap, llms.txt, topics, og.png, key file, media, fonts all 200. IndexNow: curl works
+  (python UA was 403'd; added UA) but bulk submit returned SiteVerificationNotCompleted — retry later. Added
+  docs/AI-QUICKSTART.md (+ pointer in CLAUDE.md) so a fresh AI gets state + commands in one page.
+- 2026-11-09: IndexNow — api.indexnow.org kept answering SiteVerificationNotCompleted; www.bing.com/indexnow accepted all
+  554 URLs (HTTP 200). Owner verified Search Console (DNS TXT at SiteGround) and imported into Bing Webmaster.
+- 2026-11-09: Decoder v20 BUILT, NOT DEPLOYED. Owner's Playbook_Update_Package (content/decoder-v20/, owner confirmed the
+  mieee repo is theirs) applied by design/decoder_v20.py on top of v19: 335 singles + 32 patterns kept at their old
+  addresses (367 pages), 103 redirects in site/_redirects, combos remapped, stage + T-number, "Where this comes up in
+  the books" from existing book links, /playbook/patterns, licence + author. "It can sound like" lines for the 110 new
+  tactics were drafted by a subagent (content/decoder-v20/sounds_like.json) — owner should skim. OWNER RULE: never
+  change names or wording in the books (children's and Festie Bible use their own audience names); connectors only,
+  ask before touching book writing. An interrupted book rebuild was fully reverted; books = live.
+- 2026-11-09 (late): Decoder v20 DEPLOYED (6af18f94) after a design-skills review (impeccable, refactoring-ui,
+  emil-design-eng; bugs: faux italic, code-line spacing, dangling commas, prev/next leading, doubled rules — all fixed;
+  upgrades: quieter pattern box below the main action, book mentions grouped by book, arrows, brand mark, custom bullets,
+  light-mode panels, chips, compact section rail). Live verified: 380 files identical, 301s work. Bing IndexNow pinged
+  (indexnow.py now posts to www.bing.com/indexnow). docs/AI-QUICKSTART.md rewritten as the full hand-off for a new chat.
 
 ## 2026-11-09 — Fractal sector sites: ENT prototype built (NOT deployed)
 

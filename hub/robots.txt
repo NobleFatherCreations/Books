@@ -1,8 +1,9 @@
-# Noble Father Creations. Every page is open to search engines and AI assistants (owner decision, 2026-10-27).
+# Noble Father Creations. Every page is open to search engines and AI assistants (owner decision, 2026-10-27;
+# reaffirmed 2026-11-08: these free books should be findable everywhere).
 User-agent: *
 Allow: /
 
-# AI crawlers and assistants, named so the invitation is explicit.
+# Search engines and AI assistants, named so the invitation is explicit.
 User-agent: GPTBot
 User-agent: OAI-SearchBot
 User-agent: ChatGPT-User
@@ -12,9 +13,27 @@ User-agent: Claude-User
 User-agent: PerplexityBot
 User-agent: Perplexity-User
 User-agent: Google-Extended
+User-agent: Applebot
 User-agent: Applebot-Extended
+User-agent: Amazonbot
+User-agent: DuckAssistBot
+User-agent: meta-externalagent
+User-agent: meta-webindexer
+User-agent: meta-externalfetcher
+User-agent: MistralAI-User
 User-agent: CCBot
+User-agent: Bingbot
+User-agent: Googlebot
 Allow: /
+
+# A plain map of the library for AI assistants: https://noblefathercreations.com/llms.txt
 
 Sitemap: https://noblefathercreations.com/sitemap.xml
 Sitemap: https://noblefathercreations.com/playbook/sitemap.xml
+Sitemap: https://noblefathercreations.com/faith/sitemap.xml
+Sitemap: https://noblefathercreations.com/children/sitemap.xml
+Sitemap: https://noblefathercreations.com/feminine/sitemap.xml
+Sitemap: https://noblefathercreations.com/fractal/sitemap.xml
+Sitemap: https://noblefathercreations.com/fracture/sitemap.xml
+Sitemap: https://noblefathercreations.com/wook/sitemap.xml
+Sitemap: https://noblefathercreations.com/festival/sitemap.xml

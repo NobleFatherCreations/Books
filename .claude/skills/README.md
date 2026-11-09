@@ -13,3 +13,10 @@ available automatically in any future session, no install step.
 | `ponytail-help` | `/ponytail-help` | Quick reference for all ponytail commands. |
 | `ponytail-debt` | `/ponytail-debt` | Harvests `ponytail:` comments left in code into a debt ledger. |
 | `ponytail-gain` | `/ponytail-gain` | Shows ponytail's benchmarked impact (less code, cost, time). |
+
+## SEO / AI-findability skills (added 2026-11-08)
+
+`seo-audit`, `ai-seo`, `schema`, `programmatic-seo`, `directory-submissions`, `link-building` — copied from
+coreyhaines31/marketingskills @96798cf (MIT, licence in `seo-audit/LICENSE-marketingskills`). Inspected first:
+plain markdown + reference docs + one CSV template; no hooks, scripts, daemons or telemetry. Same source as
+`site-architecture`. Used by `docs/SEO-AEO-PLAN.md`.

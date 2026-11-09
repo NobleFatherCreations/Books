@@ -4,7 +4,7 @@ title: "Indigenous / Folk / Ancestral Religions"
 family: "Indigenous & folk"
 family_id: indigenous-family
 family_members: [indigenous]
-version: v4
+version: v5
 checked: 2026-10-03
 sections_filled: 27/27
 missing: []

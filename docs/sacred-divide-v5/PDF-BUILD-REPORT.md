@@ -1,6 +1,6 @@
 # PDF build report
 
-Built 2026-10-13 04:26 UTC. Pages with a foot more than 15% empty are layout slack the design pass will reduce; "nearly blank" pages (more than 85% empty) are listed by number.
+Built 2026-10-27 18:35 UTC. Pages with a foot more than 15% empty are layout slack the design pass will reduce; "nearly blank" pages (more than 85% empty) are listed by number.
 
 | Volume | Pages | Pages >15% empty | Nearly blank pages | Type sizes in scale | Palette | PDF/UA-1 | KB |
 |---|---|---|---|---|---|---|---|
