@@ -18,7 +18,7 @@ Together they should feel like one world: the intro is the door, and the sector 
 
 ## A. The intro: writing, experience, voice
 
-**The writing.** Reimagine `content/fractal2/intro-v4.md` into the most powerful writing in this project. Write it only after you have absorbed everything listed under "Read everything first". The intro must:
+**The writing.** Reimagine `content/fractal2/intro-v4.md` into the most powerful writing in this project. Write it only after you have absorbed everything listed under "Read first". The intro must:
 
 - **Convey the full scope of what was already done.** *The Fractal* maps:
   - 8 stages and 30 techniques;
