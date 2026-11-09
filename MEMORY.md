@@ -4946,3 +4946,16 @@ scratchpad/deploy2/hub refreshed. Still awaiting the owner's "deploy the homepag
   "FOG" have no entry of that exact name in the 335 list); they render as plain text, listed in build/audit.md.
 - Not done: preview deploy and the hub proxy rule (needs owner go-ahead); Decoder "Seen in these combos" links
   (needs alias_map.json / LIVE_ENTRY_CHANGES.csv, not in this session); sites.json entry (add at first deploy).
+- 2026-11-09 (later): ENT sector restyled to the PDFs' field-guide look (Caveat Brush headings, Atkinson Hyperlegible body,
+  Spline Sans Mono labels, yellow highlighter, hand-drawn boxes; dark variant for dark-mode phones; highlighter sweep,
+  cover doodle draw-in, paper lift on cards, marker progress bar; all off under reduced motion). verify 16/16 incl. axe
+  light + dark. Merged origin/claude/fervent-cori-gu2uzi first (hub v17, Decoder v20 were live and ahead of this branch).
+- DEPLOYED the sector site: new Netlify site `fractal-entertainment` (194814a7-0e80-4b68-b314-0c07911af55a), deploy
+  6af1aefc6c9586bcb9b0274c; verify-deployed fractal-entertainment: 173 files identical. Live at
+  https://fractal-entertainment.netlify.app/fractal/entertainment (bare address 301s there; trailing slash 301 is relative).
+- NOT deployed: the hub (homepage) carrying the two proxy lines (hub/catalogue-redesign._redirects) and the sector sitemap
+  line in robots.txt (scripts/seo/build_site.py FRACTAL_SECTORS). Blocked by the permission classifier; needs the owner's
+  explicit "deploy the homepage". sites.json hub.pendingDeploy records it. After it ships: switch sites.json
+  fractal-entertainment url to finalUrl, re-run verify-deployed, ping IndexNow.
+- Next ideas, not done: link /fractal/entertainment-and-culture (Fractal chapter) to the deep dive; link unresolved combo
+  tactic names (Gaslighting, DARVO, FOG...) to Decoder v20 pattern pages via content/decoder-v20 alias data.

@@ -1,4 +1,8 @@
 (function(){
+document.querySelectorAll('.name-line strong').forEach(function(e){e.classList.add('hl')});
+var marks=document.querySelectorAll('.hl,.doodle');
+if('IntersectionObserver' in window){var mo=new IntersectionObserver(function(es){es.forEach(function(e){if(e.isIntersecting){e.target.classList.add('on');mo.unobserve(e.target)}})},{rootMargin:'0px 0px -12% 0px'});
+marks.forEach(function(m){mo.observe(m)})}else{marks.forEach(function(m){m.classList.add('on')})}
 var lv=document.getElementById('leave');
 if(lv){lv.addEventListener('click',function(){document.title='Weather';document.body.style.visibility='hidden';
 location.replace(navigator.onLine?'https://www.google.com/search?q=weather':'about:blank')});

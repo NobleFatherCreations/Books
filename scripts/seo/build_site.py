@@ -21,6 +21,7 @@ sys.path.insert(0, str(Path(__file__).resolve().parent))
 import seo_common as S
 
 HUB = S.ROOT / "hub"
+FRACTAL_SECTORS = ["entertainment"]   # Fractal sector sites (design/fractal-sector), each its own Netlify site
 BOOKS_WITH_PAGES = ["faith", "children", "feminine", "fractal", "fracture", "wook", "festival"]
 AI_BOTS = ["GPTBot", "OAI-SearchBot", "ChatGPT-User", "ClaudeBot", "Claude-SearchBot", "Claude-User", "PerplexityBot",
            "Perplexity-User", "Google-Extended", "Applebot", "Applebot-Extended", "Amazonbot", "DuckAssistBot",
@@ -29,6 +30,7 @@ AI_BOTS = ["GPTBot", "OAI-SearchBot", "ChatGPT-User", "ClaudeBot", "Claude-Searc
 
 def robots():
     maps = [f"{S.DOMAIN}/sitemap.xml", f"{S.DOMAIN}/playbook/sitemap.xml"] + [f"{S.DOMAIN}/{b}/sitemap.xml" for b in BOOKS_WITH_PAGES]
+    maps += [f"{S.DOMAIN}/fractal/{x}/sitemap.xml" for x in FRACTAL_SECTORS]
     txt = ("# Noble Father Creations. Every page is open to search engines and AI assistants (owner decision, 2026-10-27;\n"
            "# reaffirmed 2026-11-08: these free books should be findable everywhere).\n"
            "User-agent: *\nAllow: /\n\n"

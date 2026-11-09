@@ -84,12 +84,12 @@ T("no external requests except the sanctioned analytics beacon", !external.filte
 const sample = [base, `${base}/stage-control`, `${base}/a-z`, `${base}/standards`, ...pages.filter(u => u.includes("/family-")).slice(0, 2),
   `${base}/the-debt-prison`, `${base}/grooming`, `${base}/the-room`, `${base}/pavlovian-conditioning`];
 let axeBad = [], ov375 = [], stuck = [];
-for (const [vw, rm] of [[375, "no-preference"], [375, "reduce"], [1440, "reduce"]]) {
-  const c = await browser.newContext({ viewport: { width: vw, height: 800 }, reducedMotion: rm });
+for (const [vw, rm, cs] of [[375, "no-preference", "light"], [375, "no-preference", "dark"], [375, "reduce", "light"], [1440, "reduce", "dark"]]) {
+  const c = await browser.newContext({ viewport: { width: vw, height: 800 }, reducedMotion: rm, colorScheme: cs });
   const q = await c.newPage(); q.on("pageerror", e => errs.push(e.message));
   for (const u of sample) {
     await q.goto(O + u, { waitUntil: "load" });
-    if (await q.evaluate(() => document.documentElement.scrollWidth > innerWidth + 1)) ov375.push(`${vw}/${rm} ${u}`);
+    if (await q.evaluate(() => document.documentElement.scrollWidth > innerWidth + 1)) ov375.push(`${vw}/${rm}/${cs} ${u}`);
     await q.evaluate(() => window.scrollTo(0, document.body.scrollHeight)); await q.waitForTimeout(150);
     const z = await q.evaluate(() => [...document.querySelectorAll("main *")].filter(e => getComputedStyle(e).opacity === "0" && e.offsetHeight > 0).length);
     if (z) stuck.push(`${u}: ${z}`);
@@ -97,14 +97,14 @@ for (const [vw, rm] of [[375, "no-preference"], [375, "reduce"], [1440, "reduce"
       await q.addScriptTag({ content: axeSrc });
       const v = await q.evaluate(() => axe.run(document, { runOnly: { type: "tag", values: ["wcag2a", "wcag2aa", "wcag21aa", "wcag22aa", "best-practice"] } })
         .then(r => r.violations.filter(x => ["serious", "critical"].includes(x.impact)).map(x => `${x.id}(${x.nodes.length}) ${x.nodes[0].target.join(" ")}`)));
-      v.forEach(x => axeBad.push(`${u}: ${x}`));
+      v.forEach(x => axeBad.push(`${cs} ${u}: ${x}`));
     }
   }
   await c.close();
 }
 T("no horizontal overflow at 375 (both motion settings) and 1440 reduced", !ov375.length, ov375.slice(0, 5).join(" | "));
 T("nothing stuck invisible after scrolling", !stuck.length, stuck.slice(0, 5).join(" | "));
-T(axeSrc ? `axe: no serious or critical violations (${sample.length} pages at 375)` : "axe-core missing (npm i --no-save axe-core)", axeSrc && !axeBad.length, axeBad.slice(0, 6).join(" | "));
+T(axeSrc ? `axe: no serious or critical violations (${sample.length} pages at 375, light and dark)` : "axe-core missing (npm i --no-save axe-core)", axeSrc && !axeBad.length, axeBad.slice(0, 6).join(" | "));
 await browser.close(); srv.close();
 
 let fail = 0; for (const r of results) { if (!r.ok) fail++; console.log(`${r.ok ? "PASS" : "FAIL"}  ${r.name}${r.ok || !r.detail ? "" : "\n      " + r.detail}`); }

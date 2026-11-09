@@ -37,3 +37,4 @@ Sitemap: https://noblefathercreations.com/fractal/sitemap.xml
 Sitemap: https://noblefathercreations.com/fracture/sitemap.xml
 Sitemap: https://noblefathercreations.com/wook/sitemap.xml
 Sitemap: https://noblefathercreations.com/festival/sitemap.xml
+Sitemap: https://noblefathercreations.com/fractal/entertainment/sitemap.xml

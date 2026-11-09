@@ -113,6 +113,10 @@
       "id": "6af1238b68fb202899c80068",
       "date": "2026-11-09",
       "verified": "verify-deployed: in sync"
+    },
+    "pendingDeploy": {
+      "since": "2026-11-09",
+      "note": "Repo is ahead of live by two lines only: the /fractal/entertainment proxy rules in hub/catalogue-redesign._redirects and one Sitemap line in hub/robots.txt. The page itself is unchanged. Deploy blocked by the permission classifier; awaiting the owner's 'deploy the homepage'. Staging recipe: index.html + _redirects + hub.siteFiles."
     }
   },
   "projects": [
@@ -1143,6 +1147,30 @@
       "pendingDeploy": {
         "note": "Repo is AHEAD of live. Menu label fix (2026-11-08: Sacred Divide subtitle, Decoder 310 tactics, The Listening Room) is in the repo only; it ships with this site's own next round."
       }
+    },
+    {
+      "codename": "fractal-ent",
+      "slug": "fractal-entertainment",
+      "title": "The Fractal: Entertainment & Music Industry",
+      "tagline": "Sector deep dive: 335 tactics at three altitudes, 153 patterns",
+      "url": "https://fractal-entertainment.netlify.app/fractal/entertainment",
+      "finalUrl": "https://noblefathercreations.com/fractal/entertainment",
+      "urlNote": "Served from the sector's own Netlify address until the hub deploy carrying the /fractal/entertainment proxy rule ships; then switch url to finalUrl.",
+      "netlifySite": "fractal-entertainment",
+      "netlifySiteId": "194814a7-0e80-4b68-b314-0c07911af55a",
+      "deploySource": "cli (via @netlify/mcp deploy-site), from a staging copy of library/fractal/sectors/ent/site",
+      "hasGitRepo": false,
+      "repoPath": "library/fractal/sectors/ent/site/fractal/entertainment",
+      "buildRecipe": "design/fractal-sector/run.sh ent (ingest + audit, build, social cards, verify 16 checks); publish dir library/fractal/sectors/ent/site",
+      "section": "library",
+      "version": "v1",
+      "changelog": [
+        {
+          "date": "2026-11-09",
+          "version": "v1",
+          "summary": "First edition online in the field-guide look of the sector PDFs: 335 tactics across eight stages, 153 patterns in ten families, the ten that matter most, sector standards and an A to Z. Deploy 6af1aefc6c9586bcb9b0274c."
+        }
+      ]
     }
   ],
   "craftBusiness": [

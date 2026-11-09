@@ -10,228 +10,269 @@
 <meta property="og:title" content="Divide and Conquer: Signs in the Music Industry · The Fractal"><meta property="og:description" content="Divide and Conquer: Divide and Conquer is the sequence where natural allies are kept apart by a party that controls the information flowing between them…">
 <meta property="og:url" content="https://noblefathercreations.com/fractal/entertainment/divide-and-conquer"><meta property="og:image" content="https://noblefathercreations.com/fractal/entertainment/og/family-social-warfare.png">
 <meta name="twitter:card" content="summary_large_image">
-<meta name="theme-color" content="#0A0B11">
-<link rel="preload" href="/fractal/entertainment/f/spectral-400.woff2" as="font" type="font/woff2" crossorigin>
-<link rel="preload" href="/fractal/entertainment/f/bricolage.woff2" as="font" type="font/woff2" crossorigin>
-<style>@font-face{font-family:"Bricolage";src:url(/fractal/entertainment/f/bricolage.woff2) format("woff2");font-weight:400 800;font-display:swap}
-@font-face{font-family:"Spectral";src:url(/fractal/entertainment/f/spectral-400.woff2) format("woff2");font-weight:400;font-display:swap}
-@font-face{font-family:"Spectral";src:url(/fractal/entertainment/f/spectral-400i.woff2) format("woff2");font-weight:400;font-style:italic;font-display:swap}
-@font-face{font-family:"Spectral";src:url(/fractal/entertainment/f/spectral-600.woff2) format("woff2");font-weight:600;font-display:swap}
-@font-face{font-family:"Spectral";src:url(/fractal/entertainment/f/spectral-600i.woff2) format("woff2");font-weight:600;font-style:italic;font-display:swap}
-@font-face{font-family:"Plex Mono";src:url(/fractal/entertainment/f/plexmono-500.woff2) format("woff2");font-weight:500;font-display:swap}
-/* Tokens are The Fractal's own (library/fractal/index.html): void/ink, eight stage colours, three altitude colours. */
+<link rel="preload" href="/fractal/entertainment/f/atkinson-400-normal.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/fractal/entertainment/f/caveat-brush.woff2" as="font" type="font/woff2" crossorigin>
+<meta name="theme-color" content="#FBF5E8" media="(prefers-color-scheme: light)"><meta name="theme-color" content="#1A1815" media="(prefers-color-scheme: dark)">
+<script>document.documentElement.className+=' js'</script>
+<style>@font-face{font-family:"Caveat Brush";src:url(/fractal/entertainment/f/caveat-brush.woff2) format("woff2");font-display:swap}
+@font-face{font-family:"Caveat";src:url(/fractal/entertainment/f/caveat.woff2) format("woff2");font-weight:400 700;font-display:swap}
+@font-face{font-family:"Atkinson";src:url(/fractal/entertainment/f/atkinson-400-normal.woff2) format("woff2");font-weight:400;font-display:swap}
+@font-face{font-family:"Atkinson";src:url(/fractal/entertainment/f/atkinson-400-italic.woff2) format("woff2");font-weight:400;font-style:italic;font-display:swap}
+@font-face{font-family:"Atkinson";src:url(/fractal/entertainment/f/atkinson-700-normal.woff2) format("woff2");font-weight:700;font-display:swap}
+@font-face{font-family:"Spline Mono";src:url(/fractal/entertainment/f/spline-mono-500.woff2) format("woff2");font-weight:500;font-display:swap}
+/* The field-guide look of the sector PDFs: cream paper, marker headings, yellow highlighter, hand-drawn boxes. */
 :root{
-  --void:#0A0B11;--void2:#0F1019;--ink:#141625;--ink2:#1B1E30;
-  --line:rgba(150,160,200,.16);--line2:rgba(150,160,200,.10);
-  --fg:#E7E5EE;--fg-dim:#A9AAC0;--fg-faint:#8A8CA6;
-  --s1:#E5A93C;--s2:#DE7E5A;--s3:#CB5F7E;--s4:#9B5FB0;--s5:#7383D6;--s6:#2E9C8E;--s7:#8A9BAE;--s8:#B98A4A;
-  --lv-ind:#E7B24A;--lv-inst:#6FA8DC;--lv-civ:#B58BE0;
-  --accent:#E5A93C;--safe:#FF8A7A;
-  --disp:"Bricolage",system-ui,sans-serif;--serif:"Spectral",Georgia,serif;--mono:"Plex Mono",ui-monospace,monospace;
-  --measure:38rem;--ease:cubic-bezier(.2,.7,.2,1);
+  --paper:#FBF5E8;--paper2:#F4ECDA;--card:#FFFDF7;--ink:#1D1B17;--ink2:#3A362F;--dim:#5C564B;--faint:#6E6759;
+  --rule:#1D1B17;--hair:rgba(29,27,23,.16);
+  --hl:#FFE45C;--hl-soft:#FFF4B0;--pink:#F7A8C8;--teal:#9EE3D4;--blue:#B9D3F5;
+  --safe-bg:#F6EBDD;--safe-ink:#8A2B17;--legal:#1F4E86;
+  --lv-ind:#C99A06;--lv-inst:#2F6FB3;--lv-civ:#7B4FB8;
+  --hand:"Caveat Brush","Caveat",cursive;--script:"Caveat",cursive;--body:"Atkinson",system-ui,sans-serif;--mono:"Spline Mono",ui-monospace,monospace;
+  --measure:38rem;--ease:cubic-bezier(.2,.7,.2,1);--sketch:255px 12px 225px 12px/12px 225px 12px 255px;
   /* names the shared House drawer reads */
-  --bg:var(--void);--mut:var(--fg-dim);--sans:var(--disp);--accent-grad:#F2C46A;--accent-ink:#1A1206;
-  --edge-hi:rgba(255,255,255,.08);--glow-1:rgba(229,169,60,.25);--va:var(--fg)
+  --bg:var(--paper);--mut:var(--dim);--sans:var(--body);--serif:var(--body);--accent:#E0A500;--accent-grad:#FFE45C;--accent-ink:#1D1B17;
+  --edge-hi:rgba(255,255,255,.4);--glow-1:rgba(255,228,92,.35);--va:var(--ink);--line2:var(--hair);
+  color-scheme:light
 }
+@media (prefers-color-scheme:dark){:root{
+  --paper:#1A1815;--paper2:#22201B;--card:#24211C;--ink:#EFE8D8;--ink2:#DCD4C2;--dim:#B5AD9C;--faint:#9C9483;
+  --rule:#EFE8D8;--hair:rgba(239,232,216,.18);--hl:#E8C930;--hl-soft:rgba(255,228,92,.16);
+  --safe-bg:#2E2119;--safe-ink:#FF9F84;--legal:#9CC4F0;--lv-ind:#F0C445;--lv-inst:#7FB3EE;--lv-civ:#C3A3F0;
+  --accent:#FFE45C;--accent-ink:#1D1B17;--va:var(--ink);color-scheme:dark
+}}
 *{box-sizing:border-box}
-html{-webkit-text-size-adjust:100%;scroll-padding-top:80px}
-body{margin:0;background:var(--void);color:var(--fg);font:400 1.125rem/1.7 var(--serif);
-  font-variant-numeric:oldstyle-nums;text-rendering:optimizeLegibility;-webkit-font-smoothing:antialiased}
-a{color:var(--fg);text-decoration-color:rgba(229,169,60,.55);text-underline-offset:.18em;text-decoration-thickness:1px;
-  transition:color .2s var(--ease),text-decoration-color .2s var(--ease)}
-a:hover{color:var(--accent);text-decoration-color:var(--accent)}
-:focus-visible{outline:2px solid var(--accent);outline-offset:3px;border-radius:2px}
-h1,h2,h3{font-family:var(--disp);font-weight:700;line-height:1.1;letter-spacing:-.01em;margin:0;text-wrap:balance}
+html{-webkit-text-size-adjust:100%;scroll-padding-top:88px}
+@media (prefers-reduced-motion:no-preference){html{scroll-behavior:smooth}}
+body{margin:0;background:var(--paper);color:var(--ink);font:400 1.125rem/1.7 var(--body);-webkit-font-smoothing:antialiased}
+a{color:var(--ink);text-decoration:underline;text-decoration-color:var(--hl);text-decoration-thickness:.18em;text-underline-offset:.12em;
+  transition:background-color .2s var(--ease),text-decoration-color .2s var(--ease)}
+a:hover{background:var(--hl-soft);text-decoration-color:var(--ink)}
+:focus-visible{outline:3px solid var(--ink);outline-offset:3px;border-radius:4px}
+h1,h2,h3{margin:0;text-wrap:balance}
+h1,.hand{font-family:var(--hand);font-weight:400;letter-spacing:.005em;line-height:1.02}
+h2{font:700 1.5rem/1.2 var(--body)}
+h3{font:700 1.125rem/1.3 var(--body)}
 p{margin:0 0 1em}
-.skip{position:absolute;left:-999px;top:8px;background:var(--accent);color:#111;padding:8px 16px;z-index:999}
+.skip{position:absolute;left:-999px;top:8px;background:var(--hl);color:#1D1B17;padding:8px 16px;z-index:999}
 .skip:focus{left:16px}
 
+/* highlighter: a marker stroke behind the bottom of the words; it sweeps in when seen (site.js adds .on) */
+.hl{background:linear-gradient(transparent 52%,var(--hl) 52%,var(--hl) 92%,transparent 92%) no-repeat 0 0/100% 100%;
+  box-decoration-break:clone;-webkit-box-decoration-break:clone;padding:0 .08em}
+.js .hl{background-size:0 100%;transition:background-size .9s var(--ease) .1s}
+.js .hl.on{background-size:100% 100%}
+@media (prefers-color-scheme:dark){.hl{background-image:linear-gradient(transparent 58%,rgba(232,201,48,.55) 58%,rgba(232,201,48,.55) 92%,transparent 92%)}}
+
 /* chrome */
-.progress{position:fixed;inset:0 0 auto;height:3px;z-index:60;pointer-events:none}
-.progress span{display:block;height:100%;width:0;background:var(--accent);transform-origin:left}
-.top{position:sticky;top:0;z-index:50;display:flex;align-items:center;justify-content:space-between;gap:16px;
-  padding:12px 24px;background:rgba(10,11,17,.86);backdrop-filter:blur(10px);-webkit-backdrop-filter:blur(10px);
-  box-shadow:0 1px 0 var(--line2)}
-.mark{display:flex;flex-direction:column;text-decoration:none;line-height:1.15;min-height:44px;justify-content:center}
-.mk-a{font:500 .75rem/1.2 var(--mono);letter-spacing:.16em;text-transform:uppercase;color:var(--accent)}
-.mk-b{font:700 1rem/1.25 var(--disp);color:var(--fg)}
-.leave{display:inline-flex;align-items:center;gap:8px;min-height:44px;padding:0 16px;border:1px solid var(--line);
-  border-radius:999px;background:var(--ink);color:var(--fg);font:600 .9375rem var(--disp);cursor:pointer;
-  transition:background .2s var(--ease),border-color .2s var(--ease)}
-.leave:hover{background:var(--ink2);border-color:var(--fg-dim)}
-.crumbs{max-width:72rem;margin:0 auto;padding:16px 24px 0;font:500 .8125rem/1.6 var(--mono);color:var(--fg-faint);letter-spacing:.02em}
-.crumbs a{color:var(--fg-dim);text-decoration:none}.crumbs a:hover{color:var(--accent)}
+.progress{position:fixed;inset:0 0 auto;height:6px;z-index:60;pointer-events:none}
+.progress span{display:block;height:100%;width:0;background:var(--hl);border-radius:0 6px 6px 0}
+.top{position:sticky;top:0;z-index:50;display:flex;align-items:center;justify-content:space-between;gap:16px;padding:8px 24px;
+  background:color-mix(in srgb,var(--paper) 90%,transparent);backdrop-filter:blur(8px);-webkit-backdrop-filter:blur(8px);border-bottom:2px solid var(--rule)}
+.mark{display:flex;gap:12px;text-decoration:none;min-height:48px;align-items:center}
+.mark:hover{background:none}
+.mk-a{font:500 .6875rem/1.2 var(--mono);letter-spacing:.16em;text-transform:uppercase;color:var(--dim)}
+.mk-b{font:400 1.5rem/1 var(--hand)}
+.leave{display:inline-flex;align-items:center;gap:8px;min-height:44px;padding:0 16px;border:2px solid var(--rule);border-radius:var(--sketch);
+  background:var(--card);color:var(--ink);font:700 .9375rem var(--body);cursor:pointer;box-shadow:2px 2px 0 var(--rule);
+  transition:transform .2s var(--ease),box-shadow .2s var(--ease)}
+.leave:hover{transform:translate(-1px,-1px);box-shadow:3px 3px 0 var(--rule)}
+.leave:active{transform:translate(1px,1px);box-shadow:1px 1px 0 var(--rule)}
+.crumbs{max-width:72rem;margin:0 auto;padding:16px 24px 0;font:500 .75rem/1.7 var(--mono);color:var(--faint);letter-spacing:.04em}
+.crumbs a{color:var(--dim);text-decoration:none}.crumbs a:hover{background:var(--hl-soft)}
 main{max-width:72rem;margin:0 auto;padding:0 24px}
-.label,.kicker{font:500 .75rem/1.4 var(--mono);letter-spacing:.16em;text-transform:uppercase;color:color-mix(in srgb,var(--c,var(--accent)) 70%,#fff);margin:0 0 16px}
-.kicker a{color:inherit;text-decoration:none}.kicker a:hover{text-decoration:underline}
-.lede{font-size:1.25rem;line-height:1.55;color:var(--fg-dim);max-width:var(--measure);margin:24px 0 0}
-.note{font-size:.9375rem;color:var(--fg-faint);max-width:var(--measure)}
+.label,.kicker{font:500 .75rem/1.5 var(--mono);letter-spacing:.16em;text-transform:uppercase;color:var(--dim);margin:0 0 16px}
+.kicker a{color:inherit}
+.lede{font-size:1.25rem;line-height:1.6;color:var(--ink2);max-width:var(--measure);margin:24px 0 0}
+.script{font:500 1.75rem/1.25 var(--script);color:var(--ink2);max-width:36rem;margin:16px 0 0}
+.note{font-size:.9375rem;color:var(--faint);max-width:var(--measure)}
+
+/* hand-drawn box */
+.door,.stg,.fam,.card,.cue,.lv,.state,.esc,.pn a,.chain{background:var(--card);border:2px solid var(--rule);border-radius:var(--sketch)}
+.lift{transition:transform .25s var(--ease),box-shadow .25s var(--ease)}
+.lift:hover{transform:translate(-2px,-3px) rotate(-.4deg);box-shadow:4px 5px 0 var(--rule);background:var(--card)}
 
 /* home */
-.cover{padding:96px 0 64px;max-width:56rem}
-.cover h1{font-size:clamp(2.75rem,8vw,5.5rem);font-weight:800;letter-spacing:-.03em;line-height:.98}
-.book{margin-top:24px;font:500 .8125rem var(--mono);color:var(--fg-faint);letter-spacing:.04em}
-.book cite{font-style:normal;color:var(--fg-dim)}
-.doors{display:grid;gap:16px;grid-template-columns:repeat(auto-fit,minmax(16rem,1fr));margin:0 0 96px}
-.door{display:block;padding:24px;background:var(--ink);border:1px solid var(--line2);border-radius:8px;text-decoration:none;
-  transition:transform .25s var(--ease),border-color .25s var(--ease),background .25s var(--ease)}
-.door:hover{transform:translateY(-2px);border-color:rgba(229,169,60,.5);background:var(--ink2);color:var(--fg)}
-.dn{display:block;font:500 .75rem var(--mono);color:var(--accent);letter-spacing:.16em;margin-bottom:24px}
-.door b{display:block;font:700 1.375rem/1.2 var(--disp);margin-bottom:8px}
-.door small{display:block;font-size:1rem;line-height:1.5;color:var(--fg-dim)}
+.cover{position:relative;padding:72px 0 56px;max-width:60rem}
+.cover h1{font-size:clamp(3.25rem,10vw,6.5rem)}
+.book{margin-top:24px;font:500 .75rem var(--mono);color:var(--faint);letter-spacing:.06em;text-transform:uppercase}
+.book cite{font-style:normal;color:var(--ink)}
+.doodle{position:absolute;right:-180px;bottom:40px;width:220px;height:auto;color:var(--rule)}
+.doodle .ln{fill:none;stroke:currentColor;stroke-width:2.5;stroke-linecap:round}
+.js .doodle .ln{stroke-dasharray:400;stroke-dashoffset:400;transition:stroke-dashoffset 1.4s var(--ease) .3s}
+.js .doodle.on .ln{stroke-dashoffset:0}
+.doodle .nd{stroke:currentColor;stroke-width:2.5}
+.js .doodle .nd{transform-box:fill-box;transform-origin:center;transform:scale(.6);opacity:.001;transition:transform .5s var(--ease),opacity .4s}
+.js .doodle.on .nd{transform:none;opacity:1}
+.js .doodle.on .nd.b{transition-delay:.6s}.js .doodle.on .nd.c{transition-delay:1.1s}
+.doors{display:grid;gap:24px;grid-template-columns:repeat(auto-fit,minmax(16rem,1fr));margin:0 0 96px}
+.door{display:block;padding:24px;text-decoration:none}
+.dn{display:inline-flex;align-items:center;justify-content:center;width:36px;height:36px;border:2px solid var(--rule);border-radius:50%;
+  font:500 .8125rem var(--mono);margin-bottom:16px;background:var(--hl);color:#1D1B17}
+.door b{display:block;font:400 1.875rem/1.05 var(--hand);margin-bottom:8px}
+.door small{display:block;font-size:1rem;line-height:1.5;color:var(--ink2)}
 .band{padding:0 0 96px}
-.band h2{font-size:clamp(1.75rem,4vw,2.5rem);margin-bottom:32px;max-width:40rem}
-.band.small{max-width:var(--measure);color:var(--fg-dim)}
-.top10{list-style:none;margin:0 0 24px;padding:0;display:grid;gap:0;max-width:52rem}
-.top10 li{display:grid;grid-template-columns:3.5rem 1fr;gap:16px;padding:24px 0;box-shadow:inset 0 -1px 0 var(--line2)}
-.rk{font:800 2rem/1 var(--disp);color:var(--accent);opacity:.9}
-.top10 h3{font-size:1.375rem;margin:0 0 8px}.top10 h3 a{text-decoration:none}.top10 h3 a:hover{text-decoration:underline}
-.top10 p{margin:0;color:var(--fg-dim);font-size:1.0625rem;line-height:1.55}
-.stages,.fams{list-style:none;margin:0;padding:0;display:grid;gap:16px;grid-template-columns:repeat(auto-fill,minmax(15.5rem,1fr))}
-.stg,.fam{position:relative;display:flex;flex-direction:column;height:100%;padding:24px 24px 24px 28px;background:var(--ink);
-  border-radius:8px;text-decoration:none;border:1px solid var(--line2);transition:transform .25s var(--ease),background .25s var(--ease)}
-.stg::before{content:"";position:absolute;left:0;top:16px;bottom:16px;width:3px;border-radius:0 3px 3px 0;background:var(--c)}
-.stg:hover,.fam:hover{transform:translateY(-2px);background:var(--ink2);color:var(--fg)}
-.stg .n,.fam .n{font:500 .75rem var(--mono);letter-spacing:.16em;color:color-mix(in srgb,var(--c,var(--accent)) 62%,#fff);margin-bottom:16px}
-.stg b,.fam b{font:700 1.25rem/1.2 var(--disp);margin-bottom:8px}
-.stg small{font-size:.9375rem;line-height:1.5;color:var(--fg-dim);margin-bottom:16px}
-.ct{margin-top:auto;font:500 .75rem var(--mono);color:var(--fg-faint);letter-spacing:.06em}
+.band h2{font:400 clamp(2.25rem,5vw,3.25rem)/1.05 var(--hand);margin-bottom:32px;max-width:44rem}
+.band.small{max-width:var(--measure);color:var(--ink2)}
+.top10{list-style:none;margin:0 0 24px;padding:0;max-width:54rem}
+.top10 li{display:grid;grid-template-columns:3rem 1fr;gap:16px;padding:24px 0;border-bottom:1.5px dashed var(--hair)}
+.rk{display:flex;align-items:center;justify-content:center;width:40px;height:44px;background:var(--hl);color:#1D1B17;font:400 1.75rem/1 var(--hand);border-radius:4px 10px 6px 12px}
+.top10 h3{font:400 1.875rem/1.1 var(--hand);margin:0 0 8px}
+.top10 h3 a{text-decoration:none}.top10 h3 a:hover{background:var(--hl-soft)}
+.top10 p{margin:0;color:var(--ink2);font-size:1.0625rem;line-height:1.55}
+.stages,.fams{list-style:none;margin:0;padding:0;display:grid;gap:24px;grid-template-columns:repeat(auto-fill,minmax(15rem,1fr))}
+.stg,.fam{display:flex;flex-direction:column;height:100%;padding:24px;text-decoration:none}
+.stg .n,.fam .n{display:inline-flex;align-items:center;justify-content:center;align-self:flex-start;min-width:32px;height:32px;padding:0 8px;
+  border:2px solid var(--rule);border-radius:999px;font:500 .8125rem var(--mono);margin-bottom:16px;background:var(--c,var(--hl));color:#1D1B17}
+.stg b,.fam b{font:400 1.875rem/1.05 var(--hand);margin-bottom:8px}
+.stg small{font-size:.9375rem;line-height:1.5;color:var(--ink2);margin-bottom:16px}
+.ct{margin-top:auto;font:500 .75rem var(--mono);color:var(--faint);letter-spacing:.06em;text-transform:uppercase}
+/* the eight stages of the Fractal, as soft marker colours */
+.c1{--c:#FFE45C}.c2{--c:#FFC59A}.c3{--c:#F7A8C8}.c4{--c:#D4B8F0}.c5{--c:#B9D3F5}.c6{--c:#9EE3D4}.c7{--c:#D9D4C7}.c8{--c:#E9C99A}
 
 /* page heads */
-.phead{padding:64px 0 48px;max-width:52rem}
-.phead h1{font-size:clamp(2.25rem,6vw,4rem);font-weight:800;letter-spacing:-.025em}
-.sub{font:italic 400 1.25rem var(--serif);color:var(--fg-dim);margin:8px 0 0}
-.state{margin:32px 0 0;padding:16px 16px 16px 20px;max-width:var(--measure);background:var(--ink);border-radius:8px;
-  font-size:.9375rem;line-height:1.55;color:var(--fg-dim);box-shadow:inset 3px 0 0 var(--fg-faint)}
-.state span{display:block;font:500 .75rem var(--mono);letter-spacing:.14em;text-transform:uppercase;color:var(--fg);margin-bottom:4px}
-.state-expert_reviewed,.state-sources_verified{box-shadow:inset 3px 0 0 var(--s6)}
+.phead{padding:56px 0 40px;max-width:54rem}
+.phead h1{font-size:clamp(2.75rem,8vw,5rem)}
+.sub{font:500 1.625rem/1.25 var(--script);color:var(--ink2);margin:8px 0 0}
+.state{margin:32px 0 0;padding:16px 20px;max-width:var(--measure);font-size:.9375rem;line-height:1.55;color:var(--ink2)}
+.state span{display:block;font:500 .6875rem var(--mono);letter-spacing:.14em;text-transform:uppercase;color:var(--ink);margin-bottom:4px}
+.state-expert_reviewed,.state-sources_verified{background:color-mix(in srgb,var(--teal) 30%,var(--card))}
+.chain{margin:24px 0 0;padding:12px 16px;max-width:var(--measure);font-size:.9375rem;line-height:1.9}
+.chain .ar{color:var(--faint);margin:0 4px}.chain a{display:inline-block;max-width:100%;line-height:1.5}
 .chips{display:flex;flex-wrap:wrap;gap:8px;margin-top:32px}
-.chips a{font:500 .8125rem/1 var(--disp);padding:8px 12px;border:1px solid var(--line);border-radius:999px;text-decoration:none;color:var(--fg-dim);min-height:32px;display:inline-flex;align-items:center}
-.chips a:hover{border-color:var(--c);color:var(--fg)}
+.chips a{font:700 .8125rem/1 var(--body);padding:8px 12px;border:1.5px solid var(--rule);border-radius:999px;text-decoration:none;min-height:36px;display:inline-flex;align-items:center;background:var(--card)}
+.chips a:hover{background:var(--c,var(--hl));color:#1D1B17}
 
 /* prose */
 .prose{max-width:var(--measure)}
-.prose p,.prose li{hyphens:auto}
-.prose ul,.prose ol{padding-left:1.25em;margin:0 0 1em}.prose li{margin:0 0 .5em}.prose li::marker{color:var(--fg-faint)}
-.prose strong{font-weight:600;color:#F3F1F8}
-p.first::first-letter{float:left;font:800 4.1em/.8 var(--disp);color:var(--accent);padding:.08em .1em 0 0}
-.caution{margin:24px 0;padding:16px 20px;background:var(--ink);border-radius:8px;font-size:1rem;color:var(--fg-dim)}
-.tg{display:inline-block;vertical-align:.12em;margin:0 2px;padding:1px 8px;border-radius:999px;font:500 .6875rem/1.6 var(--mono);
-  letter-spacing:.04em;white-space:nowrap;color:var(--fg-dim);border:1px solid var(--line);cursor:help}
-.tg-legal{color:#9CC4EA;border-color:rgba(111,168,220,.4)}
-.tg-review,.tg-source{color:#F2C46A;border-color:rgba(229,169,60,.45)}
-.tg-pattern,.tg-composite{color:var(--fg-dim)}
-.slot{font-family:var(--mono);font-size:.875em;color:var(--accent);background:rgba(229,169,60,.1);padding:0 4px;border-radius:3px}
-.held{color:var(--fg-faint)}
+.prose ul,.prose ol{padding-left:1.25em;margin:0 0 1em}.prose li{margin:0 0 .5em}.prose li::marker{color:var(--faint)}
+.prose strong{font-weight:700}
+p.first::first-letter{float:left;font:400 4em/.85 var(--hand);padding:.04em .08em 0 0}
+.caution{margin:24px 0;padding:16px 20px;border-left:4px solid var(--rule);background:var(--paper2);font-size:1rem}
+.tg{display:inline-block;vertical-align:.1em;margin:0 2px;padding:0 8px;border-radius:999px;font:500 .6875rem/1.7 var(--mono);
+  letter-spacing:.02em;white-space:nowrap;color:var(--dim);border:1.5px solid var(--hair);background:var(--card);cursor:help}
+.tg-legal{color:var(--legal);border-color:color-mix(in srgb,var(--legal) 45%,transparent)}
+.tg-review,.tg-source{color:var(--ink);background:var(--hl-soft);border-color:color-mix(in srgb,#C99A06 60%,transparent)}
+.slot{font-family:var(--mono);font-size:.875em;background:var(--hl-soft);border-bottom:2px dashed var(--ink2);padding:0 4px}
+.held{color:var(--faint)}
 
 /* stage page */
-.tacs{display:grid;gap:0;padding-bottom:48px}
-.tac{padding:48px 0;box-shadow:inset 0 1px 0 var(--line2);scroll-margin-top:80px}
-.tac:target h2 a{color:var(--c)}
-.tno{font:500 .75rem var(--mono);letter-spacing:.14em;text-transform:uppercase;color:color-mix(in srgb,var(--c) 62%,#fff);margin:0 0 8px}
-.tac h2{font-size:clamp(1.5rem,3.4vw,2rem);margin-bottom:16px}.tac h2 a{text-decoration:none}
+.tacs{padding-bottom:48px}
+.tac{padding:48px 0;border-top:1.5px dashed var(--hair);scroll-margin-top:88px}
+.tac:target{background:linear-gradient(90deg,var(--hl-soft),transparent 70%)}
+.tno{display:inline-flex;align-items:center;gap:8px;font:500 .75rem var(--mono);letter-spacing:.12em;text-transform:uppercase;color:var(--dim);margin:0 0 8px}
+.tno b{display:inline-flex;align-items:center;justify-content:center;min-width:40px;height:28px;padding:0 8px;border:1.5px solid var(--rule);border-radius:999px;background:var(--c);color:#1D1B17;font-weight:500}
+.tac h2{font:400 clamp(2rem,4.5vw,2.75rem)/1.05 var(--hand);margin-bottom:16px}.tac h2 a{text-decoration:none}.tac h2 a:hover{background:none}
 .def{font-size:1.25rem;line-height:1.5}
-.aka{font-size:.9375rem;color:var(--fg-faint);max-width:var(--measure)}
+.aka{font-size:.9375rem;color:var(--faint);max-width:var(--measure)}
 .levels{display:grid;gap:16px;margin:24px 0;grid-template-columns:repeat(auto-fit,minmax(16rem,1fr))}
-.lv{padding:16px 20px;background:var(--ink);border-radius:8px;box-shadow:inset 3px 0 0 var(--lc)}
+.lv{padding:16px 20px}
 .lv .prose p{font-size:1rem;line-height:1.6;margin:0}
-.lvn{display:block;font:500 .6875rem var(--mono);letter-spacing:.16em;text-transform:uppercase;color:var(--lc);margin:0 0 8px}
+.lvn{display:flex;align-items:center;gap:8px;font:700 .9375rem/1.2 var(--body);margin:0 0 8px;color:var(--ink)}
+.lvn svg{flex:none;color:var(--lc)}
 .lv-ind{--lc:var(--lv-ind)}.lv-inst{--lc:var(--lv-inst)}.lv-civ{--lc:var(--lv-civ)}
 .levels.big{grid-template-columns:1fr;max-width:var(--measure)}
 .levels.big .lv{padding:24px}.levels.big .lv .prose p{font-size:1.0625rem;margin:0 0 .8em}
-.seen{font-size:1rem;color:var(--fg-dim);max-width:var(--measure);margin:16px 0 0}
-.seen span{display:block;font:500 .6875rem var(--mono);letter-spacing:.14em;text-transform:uppercase;color:var(--fg-faint);margin-bottom:4px}
+.seen{font-size:1rem;color:var(--ink2);max-width:var(--measure);margin:16px 0 0}
+.seen span{display:block;font:500 .6875rem var(--mono);letter-spacing:.14em;text-transform:uppercase;color:var(--faint);margin-bottom:4px}
 .seen a{margin-right:12px;white-space:nowrap}
 
 /* combo page */
 .combo-grid{display:grid;gap:48px;grid-template-columns:1fr}
-.combo-body>section{padding:48px 0 0}
-.combo-body h2{font-size:clamp(1.5rem,3vw,1.875rem);margin:0 0 24px;max-width:var(--measure)}
-.toc{font:500 .875rem/1.5 var(--disp)}
-.toc summary{font:500 .75rem var(--mono);letter-spacing:.14em;text-transform:uppercase;color:var(--fg-dim);cursor:pointer;min-height:48px;display:flex;align-items:center;justify-content:space-between;gap:8px;padding:0 16px;border:1px solid var(--line);border-radius:8px;list-style:none}
+.combo-body>section{padding:56px 0 0}
+.combo-body h2{font:400 clamp(2rem,4vw,2.5rem)/1.05 var(--hand);margin:0 0 24px;max-width:var(--measure)}
+.toc{font:700 .875rem/1.5 var(--body)}
+.toc summary{font:500 .75rem var(--mono);letter-spacing:.14em;text-transform:uppercase;color:var(--dim);cursor:pointer;min-height:48px;display:flex;
+  align-items:center;justify-content:space-between;gap:8px;padding:0 16px;border:2px solid var(--rule);border-radius:var(--sketch);background:var(--card);list-style:none}
 .toc summary::-webkit-details-marker{display:none}
-.toc summary::after{content:"+";font:400 1.25rem var(--disp);color:var(--accent)}
+.toc summary::after{content:"+";font:400 1.5rem var(--hand)}
 .toc details[open] summary::after{content:"\2212"}
 .toc details[open] ol{margin-top:12px}
-.toc ol{list-style:none;margin:0;padding:0}.toc li a{display:block;padding:6px 0 6px 12px;color:var(--fg-dim);text-decoration:none;box-shadow:inset 1px 0 0 var(--line)}
-.toc li a:hover,.toc li a.on{color:var(--fg);box-shadow:inset 2px 0 0 var(--accent)}
-.safety{max-width:var(--measure);margin:0 0 16px;padding:24px;border-radius:8px;background:rgba(255,138,122,.08);
-  box-shadow:inset 0 0 0 1px rgba(255,138,122,.45)}
-.safety-h{display:flex;align-items:center;gap:8px;font:600 .875rem var(--disp);letter-spacing:.06em;text-transform:uppercase;color:var(--safe);margin:0 0 12px}
-.safety .prose p{font-size:1.0625rem;margin:0;hyphens:manual}
-.lede,.state,.def{hyphens:manual}
+.toc ol{list-style:none;margin:0;padding:0}
+.toc li a{display:block;padding:6px 0 6px 14px;color:var(--ink2);text-decoration:none;border-left:2px solid var(--hair)}
+.toc li a:hover{background:var(--hl-soft)}
+.toc li a.on{color:var(--ink);border-left:4px solid var(--hl);padding-left:12px;background:var(--hl-soft)}
+.safety{max-width:var(--measure);margin:0 0 16px;padding:24px;background:var(--safe-bg);border:2px solid var(--rule);border-radius:var(--sketch);box-shadow:4px 4px 0 var(--rule)}
+.safety-h{display:flex;align-items:center;gap:8px;font:400 1.625rem/1.1 var(--hand);color:var(--safe-ink);margin:0 0 12px}
+.safety .prose p{font-size:1.0625rem;margin:0}
 .scene p{font-size:1.1875rem;line-height:1.75}
-.name-line{max-width:var(--measure);margin:48px 0 0;padding:32px 0;font:800 clamp(1.75rem,4vw,2.5rem)/1.15 var(--disp);
-  letter-spacing:-.02em;box-shadow:inset 0 1px 0 var(--line),inset 0 -1px 0 var(--line)}
-.name-line strong{color:var(--accent);font-weight:800}
+.name-line{max-width:var(--measure);margin:56px 0 0;padding:24px 0 0;border-top:2px solid var(--rule);font:400 clamp(2.5rem,6vw,3.5rem)/1.05 var(--hand)}
+.name-line strong{font-weight:400}
 .cues{display:grid;gap:16px;grid-template-columns:repeat(auto-fit,minmax(16rem,1fr))}
-.cue{padding:24px;background:var(--ink);border-radius:8px;border:1px solid var(--line2)}
-.cue h3{font:700 1.0625rem/1.3 var(--disp);margin:0 0 12px;color:var(--accent)}
+.cue{padding:20px 24px;background:var(--hl-soft);border-color:color-mix(in srgb,var(--rule) 70%,transparent)}
+.cue h3{font:700 1rem/1.3 var(--body);margin:0 0 8px}
 .cue .prose p{font-size:1rem;line-height:1.55;margin:0 0 8px}
 .escs{display:grid;gap:12px;max-width:var(--measure)}
-.esc{padding:16px 20px;border-radius:8px;background:var(--ink);box-shadow:inset 3px 0 0 var(--fg-faint)}
+.esc{padding:16px 20px}
 .esc p{margin:0;font-size:1.0625rem}
-.esc-h{font:600 .8125rem var(--mono)!important;letter-spacing:.08em;margin-bottom:8px!important;color:var(--fg)}
-.esc-high{box-shadow:inset 3px 0 0 var(--s2)}.esc-urgent{box-shadow:inset 3px 0 0 var(--safe);background:rgba(255,138,122,.06)}
-.esc-moderate{box-shadow:inset 3px 0 0 var(--s1)}
-.reflect{max-width:var(--measure);margin:64px 0 0;padding:0;font:italic 400 clamp(1.375rem,3vw,1.75rem)/1.4 var(--serif);color:var(--fg)}
-.reflect::before{content:"";display:block;width:48px;height:2px;background:var(--accent);margin-bottom:24px}
+.esc-h{font:500 .75rem var(--mono)!important;letter-spacing:.1em;text-transform:uppercase;margin-bottom:8px!important}
+.esc-moderate{background:color-mix(in srgb,var(--hl) 22%,var(--card))}
+.esc-high{background:color-mix(in srgb,#FFC59A 35%,var(--card))}
+.esc-urgent{background:var(--safe-bg);box-shadow:4px 4px 0 var(--rule)}
+.esc-urgent .esc-h{color:var(--safe-ink)}
+.reflect{max-width:var(--measure);margin:72px 0 0;padding:0;font:500 clamp(1.875rem,4vw,2.375rem)/1.25 var(--script);color:var(--ink)}
+.reflect::before{content:"";display:block;width:64px;height:10px;background:var(--hl);border-radius:2px 8px 3px 9px;margin-bottom:16px}
 .aside-sec{max-width:var(--measure)}
-.aside-sec h2{font-size:1.25rem!important}
+.aside-sec h2{font-size:2rem!important}
 .plain{padding-left:1.25em;margin:0}.plain li{margin:0 0 8px}
-.legend p{font-size:.9375rem;line-height:2;color:var(--fg-dim)}
+.legend p{font-size:.9375rem;line-height:2.1;color:var(--ink2)}
 
 /* family + lists */
 .intro{margin-bottom:48px}
-.cards{list-style:none;margin:0 0 48px;padding:0;display:grid;gap:16px;grid-template-columns:repeat(auto-fill,minmax(18rem,1fr))}
-.card{display:flex;flex-direction:column;height:100%;padding:24px;background:var(--ink);border:1px solid var(--line2);border-radius:8px;
-  text-decoration:none;transition:transform .25s var(--ease),border-color .25s var(--ease)}
-.card:hover{transform:translateY(-2px);border-color:rgba(229,169,60,.5);color:var(--fg)}
-.card b{font:700 1.25rem/1.2 var(--disp);margin-bottom:8px}.card small{font-size:1rem;line-height:1.5;color:var(--fg-dim);margin-bottom:16px}
-.meta{margin-top:auto;font:500 .75rem var(--mono);color:var(--fg-faint);letter-spacing:.06em}
+.cards{list-style:none;margin:0 0 48px;padding:0;display:grid;gap:24px;grid-template-columns:repeat(auto-fill,minmax(18rem,1fr))}
+.card{display:flex;flex-direction:column;height:100%;padding:24px;text-decoration:none}
+.card b{font:400 1.875rem/1.05 var(--hand);margin-bottom:8px}.card small{font-size:1rem;line-height:1.5;color:var(--ink2);margin-bottom:16px}
+.meta{margin-top:auto;font:500 .6875rem var(--mono);color:var(--faint);letter-spacing:.08em;text-transform:uppercase}
 .pn{display:grid;grid-template-columns:1fr 1fr;gap:16px;margin:48px 0 96px}
-.pn a{display:block;padding:16px 20px;background:var(--ink);border-radius:8px;text-decoration:none;min-height:44px}
-.pn small{display:block;font:500 .6875rem var(--mono);letter-spacing:.14em;text-transform:uppercase;color:var(--fg-faint)}
-.pn b{font:700 1.0625rem var(--disp)}.pn .nx{text-align:right}
-.std section{padding:0 0 48px}.std h2{font-size:1.5rem;margin-bottom:16px}
+.pn a{display:block;padding:16px 20px;text-decoration:none;min-height:44px}
+.pn small{display:block;font:500 .6875rem var(--mono);letter-spacing:.14em;text-transform:uppercase;color:var(--faint)}
+.pn b{font:400 1.625rem/1.1 var(--hand)}.pn .nx{text-align:right}
+.std section{padding:0 0 48px}.std h2{font:400 2.25rem/1.05 var(--hand);margin-bottom:16px}
 .filter{display:flex;flex-direction:column;gap:8px;margin-top:32px;max-width:28rem}
-.filter span{font:500 .75rem var(--mono);letter-spacing:.14em;text-transform:uppercase;color:var(--fg-faint)}
-.filter input{font:400 1.125rem var(--disp);padding:12px 16px;background:var(--ink);color:var(--fg);border:1px solid var(--line);border-radius:8px;min-height:48px}
-.filter input:focus{border-color:var(--accent);outline:none}
+.filter span{font:500 .75rem var(--mono);letter-spacing:.14em;text-transform:uppercase;color:var(--dim)}
+.filter input{font:400 1.125rem var(--body);padding:12px 16px;background:var(--card);color:var(--ink);border:2px solid var(--rule);border-radius:var(--sketch);min-height:52px}
+.filter input:focus{outline:none;box-shadow:3px 3px 0 var(--rule);background:var(--hl-soft)}
 .az{list-style:none;margin:0 0 96px;padding:0;columns:2 22rem;column-gap:48px}
-.az li{break-inside:avoid;padding:8px 0;box-shadow:inset 0 -1px 0 var(--line2)}
-.az a{font:600 1rem/1.35 var(--disp);text-decoration:none}.az span{display:block;font:500 .6875rem var(--mono);color:var(--fg-faint);letter-spacing:.06em}
+.az li{break-inside:avoid;padding:8px 0;border-bottom:1.5px dashed var(--hair)}
+.az a{font:700 1rem/1.35 var(--body);text-decoration:none}.az span{display:block;font:500 .6875rem var(--mono);color:var(--faint);letter-spacing:.06em;text-transform:uppercase}
 
-.foot{max-width:72rem;margin:96px auto 0;padding:48px 24px 120px;box-shadow:inset 0 1px 0 var(--line2);color:var(--fg-faint);font-size:.9375rem}
+.foot{max-width:72rem;margin:96px auto 0;padding:40px 24px 120px;border-top:2px solid var(--rule);color:var(--dim);font-size:.9375rem}
 .foot nav{display:flex;flex-wrap:wrap;gap:0 24px;margin-bottom:16px}
-.foot nav a{min-height:44px;display:inline-flex;align-items:center;font:600 .9375rem var(--disp);color:var(--fg-dim);text-decoration:none}
-.foot p{max-width:var(--measure)}.fine{font:500 .75rem var(--mono);letter-spacing:.04em}
+.foot nav a{min-height:44px;display:inline-flex;align-items:center;font:700 .9375rem var(--body)}
+.foot p{max-width:var(--measure)}.fine{font:500 .6875rem var(--mono);letter-spacing:.06em;text-transform:uppercase}
+
+/* updates (patch notes) */
+.updates{max-width:var(--measure);padding:0 0 48px}
+.updates h2{font:400 2rem/1.05 var(--hand);margin-bottom:8px}
+.badge{display:inline-block;font:500 .75rem var(--mono);background:var(--hl);color:#1D1B17;padding:2px 8px;border-radius:4px;margin-bottom:12px}
+.updates ul{padding-left:1.25em;margin:0;font-size:1rem;color:var(--ink2)}
 
 /* social cards (og.mjs) */
-.ogb{margin:0;width:1200px;height:630px;overflow:hidden}
-.og{position:relative;width:1200px;height:630px;padding:80px;display:flex;flex-direction:column;justify-content:center;
-  background:radial-gradient(900px 500px at 85% 20%,color-mix(in srgb,var(--c) 22%,transparent),transparent 70%),var(--void)}
-.og h1{font-size:96px;font-weight:800;letter-spacing:-.03em;line-height:.98;max-width:1000px}
-.og .kicker{font-size:22px}.ogs{font:400 30px var(--serif);color:var(--fg-dim);margin:24px 0 0}
-.ogf{position:absolute;left:80px;bottom:56px;font:500 20px var(--mono);color:var(--fg-faint);letter-spacing:.06em}
+.ogb{margin:0;width:1200px;height:630px;overflow:hidden;background:#FBF5E8;color:#1D1B17}
+.og{position:relative;width:1200px;height:630px;padding:72px 80px;display:flex;flex-direction:column;justify-content:center}
+.og h1{font-size:112px;line-height:.98;max-width:900px;color:#1D1B17}
+.og h1 span{background:linear-gradient(transparent 55%,#FFE45C 55%,#FFE45C 92%,transparent 92%);box-decoration-break:clone;-webkit-box-decoration-break:clone}
+.og .kicker{font-size:22px;color:#5C564B}.ogs{font:500 40px var(--script);color:#3A362F;margin:24px 0 0}
+.ogf{position:absolute;left:80px;bottom:48px;font:500 20px var(--mono);color:#6E6759;letter-spacing:.06em}
+.og .doodle{right:80px;bottom:72px;width:240px;color:#1D1B17}
 
-@media (max-width:63.99rem){.combo-grid{gap:24px}}
 @media (min-width:64rem){
   .combo-grid{grid-template-columns:13rem minmax(0,1fr)}
-  .toc summary{border:0;padding:0;justify-content:flex-start}.toc summary::after{display:none}
-  .toc details{position:sticky;top:96px}
-  .toc details:not([open]) summary{pointer-events:none}
+  .toc details{position:sticky;top:104px}
+  .toc summary{border:0;padding:0;background:none;justify-content:flex-start;pointer-events:none}.toc summary::after{display:none}
 }
+@media (max-width:63.99rem){.combo-grid{gap:24px}}
+@media (max-width:80rem){.cover .doodle{position:static;display:block;width:180px;margin:32px 0 0 auto}}
 @media (max-width:40rem){
   body{font-size:1.0625rem}
   .top{padding:8px 16px}.crumbs,main{padding-left:16px;padding-right:16px}
-  .cover{padding:56px 0 48px}.phead{padding:40px 0 32px}
-  .leave span{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0)}
-  .leave{padding:0 12px}
+  .mk-a{display:none}
+  .cover{padding:48px 0 40px}.phead{padding:40px 0 32px}
+  .leave span{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0)}.leave{padding:0 12px}
   .pn{grid-template-columns:1fr}.pn .nx{text-align:left}
-  .top10 li{grid-template-columns:2.5rem 1fr}.rk{font-size:1.5rem}
+  .top10 li{grid-template-columns:2.75rem 1fr;gap:12px}
 }
-@media (prefers-reduced-motion:reduce){*,*::before,*::after{transition:none!important;animation:none!important;scroll-behavior:auto!important}}
+@media (prefers-reduced-motion:reduce){*,*::before,*::after{transition:none!important;animation:none!important}
+  .js .hl{background-size:100% 100%}.js .doodle .ln{stroke-dashoffset:0}.js .doodle .nd{transform:none;opacity:1}}
 @media print{.top,.progress,.toc,.foot nav,#nf-chrome,.leave{display:none}body{background:#fff;color:#000}}
 </style>
 <script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "Article", "headline": "Divide and Conquer in the music industry", "name": "Divide and Conquer in the music industry", "description": "Divide and Conquer: Divide and Conquer is the sequence where natural allies are kept apart by a party that controls the information flowing between them…", "url": "https://noblefathercreations.com/fractal/entertainment/divide-and-conquer", "inLanguage": "en", "dateModified": "2026-11-09", "author": {"@type": "Person", "name": "Shae Stovell"}, "publisher": {"@type": "Organization", "name": "Noble Father Creations", "url": "https://noblefathercreations.com"}, "isPartOf": {"@type": "CollectionPage", "name": "The Fractal: Entertainment & Music Industry", "url": "https://noblefathercreations.com/fractal/entertainment"}, "articleSection": "Social Warfare", "wordCount": 2635, "about": [{"@type": "DefinedTerm", "name": "Triangulation", "url": "https://noblefathercreations.com/fractal/entertainment/stage-isolate#triangulation"}, {"@type": "DefinedTerm", "name": "Smear Campaigns", "url": "https://noblefathercreations.com/fractal/entertainment/stage-isolate#smear-campaigns"}, {"@type": "DefinedTerm", "name": "Splitting", "url": "https://noblefathercreations.com/fractal/entertainment/stage-confuse#splitting"}, {"@type": "DefinedTerm", "name": "Priming", "url": "https://noblefathercreations.com/fractal/entertainment/stage-confuse#priming"}, {"@type": "DefinedTerm", "name": "Comparative Devaluation", "url": "https://noblefathercreations.com/fractal/entertainment/stage-devalue#comparative-devaluation"}, {"@type": "DefinedTerm", "name": "Selective Information Sharing", "url": "https://noblefathercreations.com/fractal/entertainment/stage-isolate#compartmentalization"}], "identifier": "C090"}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "The Fractal", "item": "https://noblefathercreations.com/fractal"}, {"@type": "ListItem", "position": 2, "name": "Entertainment & Music Industry", "item": "https://noblefathercreations.com/fractal/entertainment"}, {"@type": "ListItem", "position": 3, "name": "Social Warfare", "item": "https://noblefathercreations.com/fractal/entertainment/family-social-warfare"}, {"@type": "ListItem", "position": 4, "name": "Divide and Conquer", "item": "https://noblefathercreations.com/fractal/entertainment/divide-and-conquer"}]}]}</script>
@@ -240,7 +281,7 @@ p.first::first-letter{float:left;font:800 4.1em/.8 var(--disp);color:var(--accen
 <a class="skip" href="#main">Skip to the text</a>
 <div class="progress" aria-hidden="true"><span></span></div>
 <header class="top">
-  <a class="mark" href="/fractal"><span class="mk-a">The Fractal</span><span class="mk-b">Entertainment &amp; Music Industry</span></a>
+  <a class="mark" href="/fractal"><span class="mk-b">The Fractal</span><span class="mk-a">Entertainment &amp; Music Industry</span></a>
   <button class="leave" id="leave" type="button" aria-label="Leave this site now"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M14 4h5v16h-5M10 8l-4 4 4 4M6 12h10"/></svg><span>Leave</span></button>
 </header>
 <nav class="crumbs" aria-label="You are here"><a href="/fractal">The Fractal</a> <span aria-hidden="true">/</span> <a href="/fractal/entertainment">Entertainment &amp; Music Industry</a> <span aria-hidden="true">/</span> <a href="/fractal/entertainment/family-social-warfare">Social Warfare</a> <span aria-hidden="true">/</span> <span aria-current="page">Divide and Conquer</span></nav>
@@ -249,8 +290,9 @@ p.first::first-letter{float:left;font:800 4.1em/.8 var(--disp);color:var(--accen
 <article class="combo">
 <header class="phead">
   <p class="kicker"><a href="/fractal/entertainment/family-social-warfare">Social Warfare</a> · 7 tactics combined</p>
-  <h1>Divide and Conquer</h1>
+  <h1><span class="hl">Divide and Conquer</span></h1>
   <p class="sub">in the music and entertainment industry</p>
+  <p class="chain" aria-label="The tactics in this pattern, in order"><a href="/fractal/entertainment/stage-isolate#triangulation">Triangulation</a><span class="ar" aria-hidden="true">→</span><a href="/fractal/entertainment/stage-isolate#smear-campaigns">Smear Campaigns</a><span class="ar" aria-hidden="true">→</span>Information Control<span class="ar" aria-hidden="true">→</span><a href="/fractal/entertainment/stage-confuse#splitting">Splitting</a><span class="ar" aria-hidden="true">→</span><a href="/fractal/entertainment/stage-confuse#priming">Priming</a><span class="ar" aria-hidden="true">→</span><a href="/fractal/entertainment/stage-devalue#comparative-devaluation">Comparative Devaluation</a><span class="ar" aria-hidden="true">→</span><a href="/fractal/entertainment/stage-isolate#compartmentalization">Selective Information Sharing</a></p>
   <p class="state state-unreviewed"><span>Unreviewed draft</span> Written with care, not yet checked by an industry expert. Labels in the text show which points are still being checked. <a href="#labels">What the labels mean</a></p>
 </header>
 <div class="combo-grid">
@@ -284,10 +326,10 @@ p.first::first-letter{float:left;font:800 4.1em/.8 var(--disp);color:var(--accen
 <p>Priming prepares every future contact. When the groups finally meet, they will bring the expectation with them, and a neutral sentence will land as a hostile one. Comparative Devaluation raises the cost of reconciling, because each group has been quietly told that its own side is the honorable one, and joining the other would feel like a downgrade.</p>
 <p>Selective Information Sharing is the last and the structural step, because it is what keeps the whole arrangement stable if suspicion fades. Even if the groups talk, the numbers will not match, and the mismatch will look like a lie by the other side instead of two edits by the same author. That is also the source of plausible deniability: every document is accurate.</p>
 <p>The key conversion point is the postponed joint meeting. What would weaken the sequence: sharing both packets; a meeting with a neutral chair and a common agenda; and one person from each group willing to say, &quot;Let&#x27;s compare.&quot;</p></div></section>
-<section id="levels"><h2>One pattern, three altitudes</h2><div class="levels big"><div class="lv lv-ind"><h3 class="lvn">Individual</h3><div class="prose" data-src><p>The intermediary may begin to feel complicit and resentful at the same time, aware of the mismatch and uncertain whether it is their place to name it. Over time, the person may become the keeper of unspoken knowledge, carrying a picture neither group can see.</p>
-<p>Players and crew may start to attribute ordinary delays to the other group&#x27;s bad faith. Those who hold doubts may stay silent, because raising them can sound disloyal.</p></div></div><div class="lv lv-inst"><h3 class="lvn">Institutional</h3><div class="prose" data-src><p>Performing-arts organizations are structured in separate bargaining and communication groups: musicians, stagehands, administrative staff and management often have different representatives, schedules and documents <span class="tg tg-pattern" title="Widely reported in the industry; not a claim about any one company.">Common pattern</span>. Where the information given to each group differs in emphasis, the differences can function as a divide without any single false statement <span class="tg tg-composite" title="A made-up example built from common situations. No real person is described.">Composite</span>.</p>
+<section id="levels"><h2>One pattern, three altitudes</h2><div class="levels big"><div class="lv lv-ind"><h3 class="lvn"><svg width="20" height="20" viewBox="0 0 20 20" aria-hidden="true"><circle cx="10" cy="10" r="5" fill="currentColor"/></svg>Individual</h3><div class="prose" data-src><p>The intermediary may begin to feel complicit and resentful at the same time, aware of the mismatch and uncertain whether it is their place to name it. Over time, the person may become the keeper of unspoken knowledge, carrying a picture neither group can see.</p>
+<p>Players and crew may start to attribute ordinary delays to the other group&#x27;s bad faith. Those who hold doubts may stay silent, because raising them can sound disloyal.</p></div></div><div class="lv lv-inst"><h3 class="lvn"><svg width="20" height="20" viewBox="0 0 20 20" aria-hidden="true"><circle cx="10" cy="10" r="8" fill="none" stroke="currentColor" stroke-width="2"/><circle cx="10" cy="10" r="3.5" fill="currentColor"/></svg>Institutional</h3><div class="prose" data-src><p>Performing-arts organizations are structured in separate bargaining and communication groups: musicians, stagehands, administrative staff and management often have different representatives, schedules and documents <span class="tg tg-pattern" title="Widely reported in the industry; not a claim about any one company.">Common pattern</span>. Where the information given to each group differs in emphasis, the differences can function as a divide without any single false statement <span class="tg tg-composite" title="A made-up example built from common situations. No real person is described.">Composite</span>.</p>
 <p>Where negotiations proceed in parallel tracks, with limited joint sessions, each group may see only the part of the proposal that affects it <span class="tg tg-pattern" title="Widely reported in the industry; not a claim about any one company.">Common pattern</span>. Whether this reflects design or the practical complexity of running several negotiations at once would require additional evidence.</p>
-<p>Tailored briefings are ordinary; the concern lies in distortion of the other group, delayed joint conversation, and persistence across negotiations.</p></div></div><div class="lv lv-civ"><h3 class="lvn">Civilizational</h3><div class="prose" data-src><p>The myth is that groups with different jobs have different interests, and that artists and technicians belong in separate worlds. It is reinforced by the language of professional respect: stay in your lane, let the experts handle it.</p>
+<p>Tailored briefings are ordinary; the concern lies in distortion of the other group, delayed joint conversation, and persistence across negotiations.</p></div></div><div class="lv lv-civ"><h3 class="lvn"><svg width="20" height="20" viewBox="0 0 20 20" aria-hidden="true"><circle cx="10" cy="10" r="9" fill="none" stroke="currentColor" stroke-width="1.6"/><circle cx="10" cy="10" r="5.5" fill="none" stroke="currentColor" stroke-width="1.6"/><circle cx="10" cy="10" r="2.2" fill="currentColor"/></svg>Civilizational</h3><div class="prose" data-src><p>The myth is that groups with different jobs have different interests, and that artists and technicians belong in separate worlds. It is reinforced by the language of professional respect: stay in your lane, let the experts handle it.</p>
 <p>The value being exploited is trust in the people who tell us how others feel. Most of us accept secondhand accounts of groups we rarely see. The public story is that management kept everyone informed. The private loss is that two groups who shared the same hall never discovered how much they shared.</p></div></div></div></section>
 <section id="what-you-might-notice"><h2>What you might notice</h2><div class="prose" data-src><ol><li>Two groups with related interests receive different documents about the same decision.</li><li>Each document describes the other group in cautious but unflattering terms.</li><li>A joint meeting is postponed more than once with no firm date.</li><li>Questions about the other group are answered by one office, not by the group itself.</li><li>Both groups report the same hub person as their main source.</li><li>Each group expects hostility before any direct contact has occurred.</li><li>Figures or dates differ between the two sets of materials without explanation.</li><li>Praise for one group is routinely paired with criticism of the other.</li><li>Requests to share documents are met with confidentiality or &quot;not ready&quot; responses.</li><li>Participants describe the other group&#x27;s &quot;attitude&quot; using the same phrases.</li><li>Meetings are scheduled separately, back to back, with no overlap in attendance.</li></ol></div></section>
 <section id="spot-it"><h2>Spot it</h2><div class="cues" data-src><div class="cue"><h3>SPOT IT — The Two-Packet Test</h3><div class="prose" data-src><p>Ask: &quot;If I laid both groups&#x27; documents next to each other, would they describe the same proposal the same way?&quot;</p><p>Concern rises if: figures, dates or framing differ, and nobody has explained why.</p></div></div><div class="cue"><h3>SPOT IT — The Hub Test</h3><div class="prose" data-src><p>Ask: &quot;Do messages between us only travel through one person?&quot;</p><p>Concern rises if: attempts to talk directly are discouraged or postponed.</p></div></div><div class="cue"><h3>SPOT IT — The Pre-Judgment Test</h3><div class="prose" data-src><p>Ask: &quot;What did I expect the other group to say before I met them, and where did that expectation come from?&quot;</p><p>Concern rises if: it came from a single source that benefits from our separation.</p></div></div><div class="cue"><h3>SPOT IT — The Compliment Test</h3><div class="prose" data-src><p>Ask: &quot;When someone praises my group, do they also say something about the other?&quot;</p><p>Concern rises if: the praise always arrives with a comparison.</p></div></div></div></section>
@@ -320,6 +362,10 @@ p.first::first-letter{float:left;font:800 4.1em/.8 var(--disp);color:var(--accen
   <p class="fine">The Fractal · Shae Stovell · Noble Father Creations · updated 2026-11-09</p>
 </footer>
 <script>(function(){
+document.querySelectorAll('.name-line strong').forEach(function(e){e.classList.add('hl')});
+var marks=document.querySelectorAll('.hl,.doodle');
+if('IntersectionObserver' in window){var mo=new IntersectionObserver(function(es){es.forEach(function(e){if(e.isIntersecting){e.target.classList.add('on');mo.unobserve(e.target)}})},{rootMargin:'0px 0px -12% 0px'});
+marks.forEach(function(m){mo.observe(m)})}else{marks.forEach(function(m){m.classList.add('on')})}
 var lv=document.getElementById('leave');
 if(lv){lv.addEventListener('click',function(){document.title='Weather';document.body.style.visibility='hidden';
 location.replace(navigator.onLine?'https://www.google.com/search?q=weather':'about:blank')});
@@ -434,7 +480,7 @@ none.hidden=shown>0})}
 <div class="nf-scrim" aria-hidden="true"></div>
 <nav class="nf-panel" id="nf-panel" aria-label="The Catalogue" aria-hidden="true">
 <div class="nf-panel-head"><div><div class="nf-eyebrow">Noble Father Creations</div><h2 class="nf-panel-title">The Catalogue</h2></div><button class="nf-close" type="button" aria-label="Close the Catalogue">&#10005;</button></div>
-<ul class="nf-toc"><li class="nf-row" style="--nf-i:0"><a href="https://noblefathercreations.com/loop"><span class="nf-dot" style="--va:#6E93B5" aria-hidden="true"></span><span class="nf-num">I</span><span class="nf-vol">The Loop</span><span class="nf-desc">The machine that learns you</span></a></li><li class="nf-row" style="--nf-i:1"><a href="https://noblefathercreations.com/press"><span class="nf-dot" style="--va:#E8C879" aria-hidden="true"></span><span class="nf-num">II</span><span class="nf-vol">The Press</span><span class="nf-desc">Real wax, a voice inside</span></a></li><li class="nf-row" style="--nf-i:2"><a href="https://noblefathercreations.com/portals"><span class="nf-dot" style="--va:#7FD9D4" aria-hidden="true"></span><span class="nf-num">III</span><span class="nf-vol">The Portals</span><span class="nf-desc">Strontium glow, no battery</span></a></li><li class="nf-row" style="--nf-i:3"><a href="https://noblefathercreations.com/shadowroot"><span class="nf-dot" style="--va:#D9964A" aria-hidden="true"></span><span class="nf-num">IV</span><span class="nf-vol">The Root</span><span class="nf-desc">A shadow work practice</span></a></li><li class="nf-row" style="--nf-i:4"><a href="https://noblefathercreations.com/scale"><span class="nf-dot" style="--va:#9B8FA8" aria-hidden="true"></span><span class="nf-num">V</span><span class="nf-vol">The Weighing</span><span class="nf-desc">How to be right about people</span></a></li><li class="nf-row" style="--nf-i:5"><a href="https://noblefathercreations.com/faith"><span class="nf-dot" style="--va:#C29A52" aria-hidden="true"></span><span class="nf-num">VI</span><span class="nf-vol">The Sacred Divide</span><span class="nf-desc">25 traditions, 750 entries</span></a></li><li class="nf-row" style="--nf-i:6"><a href="https://noblefathercreations.com/fractal"><span class="nf-dot" style="--va:#E5A93C" aria-hidden="true"></span><span class="nf-num">VII</span><span class="nf-vol">The Fractal</span><span class="nf-desc">One pattern runs the world</span></a></li><li class="nf-row" style="--nf-i:7"><a href="https://noblefathercreations.com/fracture"><span class="nf-dot" style="--va:#C9A35B" aria-hidden="true"></span><span class="nf-num">VIII</span><span class="nf-vol">The Fracture</span><span class="nf-desc">The reading edition</span></a></li><li class="nf-row" style="--nf-i:8"><a href="https://noblefathercreations.com/feminine"><span class="nf-dot" style="--va:#C85F7E" aria-hidden="true"></span><span class="nf-num">IX</span><span class="nf-vol">The Sovereign Divine Feminine</span><span class="nf-desc">A field guide</span></a></li><li class="nf-row" style="--nf-i:9"><a href="https://noblefathercreations.com/children"><span class="nf-dot" style="--va:#FFC23D" aria-hidden="true"></span><span class="nf-num">X</span><span class="nf-vol">Playground Protectors</span><span class="nf-desc">Shaela&#8217;s guide for brave kids</span></a></li><li class="nf-row" style="--nf-i:10"><a href="https://noblefathercreations.com/wook"><span class="nf-dot" style="--va:#D8FF3D" aria-hidden="true"></span><span class="nf-num">XI</span><span class="nf-vol">The Festie Codex</span><span class="nf-desc">The gate &mdash; attendee&#8217;s cut</span></a></li><li class="nf-row nf-here" style="--nf-i:11"><a href="#" aria-current="page"><span class="nf-dot" style="--va:#8A8071" aria-hidden="true"></span><span class="nf-num">XII</span><span class="nf-vol">The Pattern Decoder<span class="nf-here-dot" aria-hidden="true"></span></span><span class="nf-desc">310 tactics, decoded</span></a></li><li class="nf-row" style="--nf-i:12"><a href="https://noblefathercreations.com/music"><span class="nf-dot" style="--va:#C9A24A" aria-hidden="true"></span><span class="nf-num">XIII</span><span class="nf-vol">The Music</span><span class="nf-desc">Free to stream</span></a></li><li class="nf-row" style="--nf-i:13"><a href="https://noblefathercreations.com/festival"><span class="nf-dot" style="--va:#E8C879" aria-hidden="true"></span><span class="nf-num">XIV</span><span class="nf-vol">The Festie Bible</span><span class="nf-desc">Twelve guides for the festival world</span></a></li><li class="nf-row" style="--nf-i:14"><a href="https://noblefathercreations.com/resin"><span class="nf-dot" style="--va:#7FD6C2" aria-hidden="true"></span><span class="nf-num">XV</span><span class="nf-vol">The Casting</span><span class="nf-desc">Eco-resin, hand-painted</span></a></li><li class="nf-row" style="--nf-i:15"><a href="https://noblefathercreations.com/longafter"><span class="nf-dot" style="--va:#D9846A" aria-hidden="true"></span><span class="nf-num">XVI</span><span class="nf-vol">The Long After</span><span class="nf-desc">What happens once you&#8217;ve left</span></a></li><li class="nf-row" style="--nf-i:16"><a href="https://noblefathercreations.com/silence"><span class="nf-dot" style="--va:#93A7B8" aria-hidden="true"></span><span class="nf-num">XVII</span><span class="nf-vol">The Silence</span><span class="nf-desc">For men nobody thought to ask</span></a></li><li class="nf-row" style="--nf-i:17"><a href="https://noblefathercreations.com/atwill"><span class="nf-dot" style="--va:#C98A2E" aria-hidden="true"></span><span class="nf-num">XVIII</span><span class="nf-vol">At Will</span><span class="nf-desc">The coercive workplace</span></a></li><li class="nf-row" style="--nf-i:18"><a href="https://noblefathercreations.com/repair"><span class="nf-dot" style="--va:#A8474F" aria-hidden="true"></span><span class="nf-num">XIX</span><span class="nf-vol">The Repair</span><span class="nf-desc">For the person on the other side of it</span></a></li><li class="nf-row" style="--nf-i:19"><a href="https://noblefathercreations.com/slowtake"><span class="nf-dot" style="--va:#B99A3F" aria-hidden="true"></span><span class="nf-num">XX</span><span class="nf-vol">The Slow Take</span><span class="nf-desc">Coercion in later life</span></a></li></ul>
+<ul class="nf-toc"><li class="nf-row" style="--nf-i:0"><a href="https://noblefathercreations.com/loop"><span class="nf-dot" style="--va:#6E93B5" aria-hidden="true"></span><span class="nf-num">I</span><span class="nf-vol">The Loop</span><span class="nf-desc">The machine that learns you</span></a></li><li class="nf-row" style="--nf-i:1"><a href="https://noblefathercreations.com/press"><span class="nf-dot" style="--va:#E8C879" aria-hidden="true"></span><span class="nf-num">II</span><span class="nf-vol">The Press</span><span class="nf-desc">Real wax, a voice inside</span></a></li><li class="nf-row" style="--nf-i:2"><a href="https://noblefathercreations.com/portals"><span class="nf-dot" style="--va:#7FD9D4" aria-hidden="true"></span><span class="nf-num">III</span><span class="nf-vol">The Portals</span><span class="nf-desc">Strontium glow, no battery</span></a></li><li class="nf-row" style="--nf-i:3"><a href="https://noblefathercreations.com/shadowroot"><span class="nf-dot" style="--va:#D9964A" aria-hidden="true"></span><span class="nf-num">IV</span><span class="nf-vol">The Root</span><span class="nf-desc">A shadow work practice</span></a></li><li class="nf-row" style="--nf-i:4"><a href="https://noblefathercreations.com/scale"><span class="nf-dot" style="--va:#9B8FA8" aria-hidden="true"></span><span class="nf-num">V</span><span class="nf-vol">The Weighing</span><span class="nf-desc">How to be right about people</span></a></li><li class="nf-row" style="--nf-i:5"><a href="https://noblefathercreations.com/faith"><span class="nf-dot" style="--va:#C29A52" aria-hidden="true"></span><span class="nf-num">VI</span><span class="nf-vol">The Sacred Divide</span><span class="nf-desc">Honor the faith, name the machinery</span></a></li><li class="nf-row" style="--nf-i:6"><a href="https://noblefathercreations.com/fractal"><span class="nf-dot" style="--va:#E5A93C" aria-hidden="true"></span><span class="nf-num">VII</span><span class="nf-vol">The Fractal</span><span class="nf-desc">One pattern runs the world</span></a></li><li class="nf-row" style="--nf-i:7"><a href="https://noblefathercreations.com/fracture"><span class="nf-dot" style="--va:#C9A35B" aria-hidden="true"></span><span class="nf-num">VIII</span><span class="nf-vol">The Fracture</span><span class="nf-desc">The reading edition</span></a></li><li class="nf-row" style="--nf-i:8"><a href="https://noblefathercreations.com/feminine"><span class="nf-dot" style="--va:#C85F7E" aria-hidden="true"></span><span class="nf-num">IX</span><span class="nf-vol">The Sovereign Divine Feminine</span><span class="nf-desc">A field guide</span></a></li><li class="nf-row" style="--nf-i:9"><a href="https://noblefathercreations.com/children"><span class="nf-dot" style="--va:#FFC23D" aria-hidden="true"></span><span class="nf-num">X</span><span class="nf-vol">Playground Protectors</span><span class="nf-desc">Shaela&#8217;s guide for brave kids</span></a></li><li class="nf-row" style="--nf-i:10"><a href="https://noblefathercreations.com/wook"><span class="nf-dot" style="--va:#D8FF3D" aria-hidden="true"></span><span class="nf-num">XI</span><span class="nf-vol">The Festie Codex</span><span class="nf-desc">The gate &mdash; attendee&#8217;s cut</span></a></li><li class="nf-row nf-here" style="--nf-i:11"><a href="#" aria-current="page"><span class="nf-dot" style="--va:#8A8071" aria-hidden="true"></span><span class="nf-num">XII</span><span class="nf-vol">The Pattern Decoder<span class="nf-here-dot" aria-hidden="true"></span></span><span class="nf-desc">310 tactics, decoded</span></a></li><li class="nf-row" style="--nf-i:12"><a href="https://noblefathercreations.com/music"><span class="nf-dot" style="--va:#C9A24A" aria-hidden="true"></span><span class="nf-num">XIII</span><span class="nf-vol">The Listening Room</span><span class="nf-desc">Free to stream</span></a></li><li class="nf-row" style="--nf-i:13"><a href="https://noblefathercreations.com/festival"><span class="nf-dot" style="--va:#E8C879" aria-hidden="true"></span><span class="nf-num">XIV</span><span class="nf-vol">The Festie Bible</span><span class="nf-desc">Twelve guides for the festival world</span></a></li><li class="nf-row" style="--nf-i:14"><a href="https://noblefathercreations.com/resin"><span class="nf-dot" style="--va:#7FD6C2" aria-hidden="true"></span><span class="nf-num">XV</span><span class="nf-vol">The Casting</span><span class="nf-desc">Eco-resin, hand-painted</span></a></li><li class="nf-row" style="--nf-i:15"><a href="https://noblefathercreations.com/longafter"><span class="nf-dot" style="--va:#D9846A" aria-hidden="true"></span><span class="nf-num">XVI</span><span class="nf-vol">The Long After</span><span class="nf-desc">What happens once you&#8217;ve left</span></a></li><li class="nf-row" style="--nf-i:16"><a href="https://noblefathercreations.com/silence"><span class="nf-dot" style="--va:#93A7B8" aria-hidden="true"></span><span class="nf-num">XVII</span><span class="nf-vol">The Silence</span><span class="nf-desc">For men nobody thought to ask</span></a></li><li class="nf-row" style="--nf-i:17"><a href="https://noblefathercreations.com/atwill"><span class="nf-dot" style="--va:#C98A2E" aria-hidden="true"></span><span class="nf-num">XVIII</span><span class="nf-vol">At Will</span><span class="nf-desc">The coercive workplace</span></a></li><li class="nf-row" style="--nf-i:18"><a href="https://noblefathercreations.com/repair"><span class="nf-dot" style="--va:#A8474F" aria-hidden="true"></span><span class="nf-num">XIX</span><span class="nf-vol">The Repair</span><span class="nf-desc">For the person on the other side of it</span></a></li><li class="nf-row" style="--nf-i:19"><a href="https://noblefathercreations.com/slowtake"><span class="nf-dot" style="--va:#B99A3F" aria-hidden="true"></span><span class="nf-num">XX</span><span class="nf-vol">The Slow Take</span><span class="nf-desc">Coercion in later life</span></a></li></ul>
 <div class="nf-panel-foot">Bound by hand in the study &mdash; twenty volumes &amp; counting.</div>
 </nav>
 </div>
