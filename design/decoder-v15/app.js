@@ -379,7 +379,7 @@ function viewStation(e,stepArg){
         x.slice(0,6).map(r=>'<div class="xrow">'+rowHTML(r)+'<a class="cmp" href="'+cpH(e,r)+'" aria-label="Compare '+esc(e.n)+' with '+esc(r.n)+'">Compare</a></div>').join("")+'</div>'+
         (xAll.length>x.length?'<p class="small muted" style="margin-top:.75rem">'+(xAll.length-x.length)+(xAll.length-x.length===1?' look-alike is':' look-alikes are')+' on lines you rested. <a href="#/settings">Settings</a> shows them again.</p>':'')+'</section>':'')+
       '<section class="facts"><dl>'+(w.length?'<div><dt>Where it happens</dt><dd>'+w.map(esc).join(", ")+'</dd></div>':'')+
-        (pats.length?'<div><dt>Seen in '+pats.length+(pats.length===1?' pattern':' patterns')+'</dt><dd>'+pats.slice(0,3).map(r=>'<a href="'+rtH(r)+'">'+H(r.n)+'</a>').join(", ")+'</dd></div>':'')+'</dl></section></aside>'+
+        (pats.length?'<div><dt>Seen in '+pats.length+(pats.length===1?' pattern':' patterns')+'</dt><dd>'+'<span class="chips">'+pats.slice(0,3).map(r=>'<a href="'+rtH(r)+'">'+H(r.n)+'</a>').join("")+'</span>'+'</dd></div>':'')+'</dl></section></aside>'+
     '<nav class="pn" aria-label="Along the '+esc(lineName(l))+'">'+(prev?'<a href="'+stH(prev)+'" data-vt data-pg="prev"><span class="arr">'+ic("prev")+'</span><span class="pt"><small>Previous in this line</small><b>'+H(prev.n)+'</b></span></a>':'<span></span>')+
       (next?'<a class="nx" href="'+stH(next)+'" data-vt data-pg="next"><span class="pt"><small>Next in this line</small><b>'+H(next.n)+'</b></span><span class="arr">'+ic("next")+'</span></a>':'')+'</nav>'+
     '<div class="printfoot" aria-hidden="true">A reading aid, not a diagnosis, a legal opinion or therapy. If you are in danger, contact emergency services.</div>'+

@@ -88,7 +88,7 @@ CSS = """
 :root{--bg:#050507;--panel:#0E0E12;--panel-2:#17171D;--rule:#25252D;--rule-hi:#383842;--fg:#F2F0EA;--fg-2:#A8A69E;--fg-3:#8B8982;
 --blade:#E5C158;--blade-ink:#050507;--bullet-ink:#050507;--amber:#FF6B5E;--amber-fill:#F04438;--amber-fill-ink:#050507;--exit:#00B864;--exit-ink:#04140B;
 --sign:'Overpass',system-ui,sans-serif;--read:'Atkinson Next','Atkinson Hyperlegible',system-ui,sans-serif;color-scheme:dark}
-@media (prefers-color-scheme:light){:root{--bg:#FBFAF7;--panel:#F3F1EB;--panel-2:#E8E5DC;--rule:#DAD6CB;--rule-hi:#BDB8AA;--fg:#14161A;--fg-2:#4B5159;--fg-3:#5C636B;
+@media (prefers-color-scheme:light){:root{--bg:#FBFAF7;--panel:#F1EEE6;--panel-2:#E6E2D7;--rule:#DAD6CB;--rule-hi:#BDB8AA;--fg:#14161A;--fg-2:#4B5159;--fg-3:#5C636B;
 --blade:#E5C158;--blade-ink:#14161A;--blade-edge:#9A7414;--bullet-ink:#FFFFFF;--amber:#B42318;--exit:#007A40;--exit-ink:#FFFFFF;color-scheme:light}%DAY%}
 *{box-sizing:border-box}html{-webkit-text-size-adjust:100%}
 body{margin:0;background:var(--bg);color:var(--fg);font:400 1.125rem/1.6 var(--read);overflow-wrap:break-word}
@@ -110,7 +110,7 @@ h2{font:800 1.375rem/1.2 var(--sign);letter-spacing:-.01em;margin:0 0 12px}
 .warn{margin:0 0 32px;background:var(--panel);border-radius:14px;overflow:hidden}.warn h2{display:flex;gap:8px;align-items:center;margin:0;padding:10px 16px;background:var(--amber-fill);color:var(--amber-fill-ink);font-size:1rem}
 .warn .body{padding:16px}.warn p{margin:0 0 12px}.warn p:last-child{margin:0}
 .answer{background:var(--panel);padding:24px;border-radius:14px;margin:0 0 24px}.answer p{margin:0 0 12px}
-.says{list-style:none;padding:0;margin:0}.says li{padding:8px 0 8px 32px;position:relative;font-style:italic}
+.says{list-style:none;padding:0;margin:0}.says li{padding:8px 0 8px 32px;position:relative;font-style:normal;font-weight:700}
 .says li:not(.nq)::before{content:"\\201C";position:absolute;left:0;top:6px;font:800 2rem/1 var(--sign);color:var(--lc,var(--fg-2));font-style:normal}
 .k{font:800 1.0625rem/1.2 var(--sign);margin:20px 0 4px}
 .also{color:var(--fg-2);font-size:1rem;margin:12px 0 0}
@@ -118,7 +118,7 @@ h2{font:800 1.375rem/1.2 var(--sign);letter-spacing:-.01em;margin:0 0 12px}
 .go small{display:block;font:400 .9375rem/1.4 var(--read);margin-top:4px}
 .blk{padding:32px 0 0;margin:32px 0 0;box-shadow:inset 0 1px 0 var(--rule)}.blk p{margin:0 0 12px}.blk ul{margin:0;padding-left:1.25em}.blk li{margin:0 0 8px}
 .blk h3{font:800 1.0625rem/1.25 var(--sign);margin:20px 0 4px}
-blockquote{margin:0;padding:16px 20px;border-radius:14px;background:var(--panel);font-style:italic;box-shadow:inset 3px 0 0 var(--lc,var(--fg-2))}
+blockquote{margin:0;padding:16px 20px;border-radius:14px;background:var(--panel);font-style:normal;font-weight:700;box-shadow:inset 3px 0 0 var(--lc,var(--fg-2))}
 .rows{display:grid;gap:0}.row{display:flex;gap:12px;align-items:flex-start;padding:14px 0;text-decoration:none;box-shadow:inset 0 -1px 0 var(--rule);min-height:44px}
 .row b{display:block;font:800 1.0625rem/1.25 var(--sign)}.row small{display:block;color:var(--fg-2);font-size:1rem;line-height:1.45;margin-top:2px}
 .row .code{flex:none;font:700 .8125rem/28px var(--sign);color:var(--fg-2);min-width:2.75rem}
@@ -132,6 +132,19 @@ blockquote{margin:0;padding:16px 20px;border-radius:14px;background:var(--panel)
 %LINES%
 body{position:relative}body .nf-seal{animation:none!important;position:absolute!important;bottom:1.5rem!important;top:auto!important;width:48px;height:48px}
 @media print{.top,.go,.foot nav,#nf-chrome{display:none}}
+.onl{margin:16px 0 4px}.meta{display:flex;flex-wrap:wrap;gap:4px 20px;margin:0 0 32px;font:700 .8125rem/1.4 var(--sign);letter-spacing:.06em;text-transform:uppercase;color:var(--fg-2)}
+.blk .bref ul:not(.says)>li{padding-left:0;margin:0}.blk .bref ul:not(.says)>li::before{display:none}
+.pattern{margin:0 0 48px;padding:24px 0 0;box-shadow:inset 0 1px 0 var(--rule)}.pattern h2{font-size:1.125rem}.pattern p{color:var(--fg-2);margin:0 0 8px}.pattern .row{padding:12px 0}.pattern .row small{font-size:.9375rem}
+.bref{margin:24px 0 0}.bref .bk{font:700 .8125rem/1.3 var(--sign);letter-spacing:.06em;text-transform:uppercase;color:var(--fg-2);margin:0 0 4px}.bref ul{list-style:none;padding:0;margin:0}.bref li{margin:0;padding:0}.bref li::before{display:none}
+.bref a{display:flex;align-items:center;min-height:44px;font:700 1rem/1.3 var(--sign);text-decoration:none;box-shadow:inset 0 -1px 0 var(--rule)}.bref a:hover{text-decoration:underline}
+.rows>.row:last-child{box-shadow:none}
+.pn a{display:flex;flex-direction:column;gap:4px;padding:16px 20px;box-shadow:inset 0 0 0 1px var(--rule)}.pn a:hover{background:var(--panel-2)}.pn .nx{align-items:flex-end}.pn .pa{font:800 1.25rem/1 var(--sign);color:var(--fg-2)}.pn b{display:block;margin-top:4px}
+.crumbs{font:600 .8125rem/1.4 var(--sign);letter-spacing:.04em;text-transform:uppercase;margin:0 0 16px}.crumbs a{text-decoration:none;color:var(--fg-2)}.crumbs a:hover{color:var(--fg);text-decoration:underline}
+.brand{gap:8px}.brand img{border-radius:50%}
+.blk ul:not(.says){list-style:none;padding:0}.blk ul:not(.says)>li{position:relative;padding-left:20px;margin:0 0 12px}.blk ul:not(.says)>li::before{content:"";position:absolute;left:2px;top:.62em;width:7px;height:7px;border-radius:50%;background:var(--fg-3)}
+.go{position:relative;padding-right:56px;transition:transform .16s ease-out,filter .2s ease}.go::after{content:"\\2192";position:absolute;right:20px;top:50%;transform:translateY(-50%);font:800 1.25rem/1 var(--sign)}
+@media (hover:hover){.go:hover{filter:brightness(1.04)}.row:hover b{text-decoration:underline;text-underline-offset:.2em}}@media (prefers-reduced-motion:no-preference){.go:active{transform:scale(.98)}}
+.row .code{font-variant-numeric:tabular-nums;letter-spacing:.04em}
 """
 
 LEAVE_JS = ("<script>document.getElementById('leave').addEventListener('click',function(){document.title='Weather';"
@@ -160,7 +173,7 @@ def frame(title, desc, url, ld, body, house, beacon, extra_head=""):
             "<link rel=\"icon\" href=\"/playbook/f/icon.webp\">\n%s"
             "<link rel=\"preload\" href=\"/playbook/f/overpass-var.woff2\" as=\"font\" type=\"font/woff2\" crossorigin>\n"
             "<style>%s</style>\n<script type=\"application/ld+json\">%s</script>\n</head>\n<body>\n"
-            "<header class=\"top\"><a class=\"brand\" href=\"/playbook\">Pattern Decoder</a>"
+            "<header class=\"top\"><a class=\"brand\" href=\"/playbook\"><img src=\"/playbook/f/icon.webp\" alt=\"\" width=\"28\" height=\"28\">Pattern Decoder</a>"
             "<button class=\"leave\" id=\"leave\" type=\"button\" aria-label=\"Leave this site now\">"
             "<svg width=\"20\" height=\"20\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" aria-hidden=\"true\"><path d=\"M14 4h5v16h-5M10 8l-4 4 4 4M6 12h10\"/></svg>Leave</button></header>\n"
             "%s\n"
@@ -216,7 +229,7 @@ def tactic_page(e, l, si, by, line_of, house, beacon):
                    for k, h in RESP if (f.get("response_options") or {}).get(k))
     script = re.sub(r"^Verification script[^:]*:\s*", "", str(f.get("boundary_script") or ""), flags=re.I)
     other = (f.get("this_may_not_be_it_when") or []) + (f.get("less_concerning_if") or [])
-    ptsec = (('<section class="answer" aria-labelledby="pt"><h2 id="pt">A pattern, not a single move</h2><p>%s is %s.%s</p>%s</section>') % (
+    ptsec = (('<section class="pattern" aria-labelledby="pt"><h2 id="pt">A pattern, not a single move</h2><p>%s is %s.%s</p>%s</section>') % (
             H(n), PT_LABEL.get(pt["type"], "a pattern"),
             (" It is made of these tactics" + (", usually in this order:" if pt["seq"] else ":")) if pt["made_of"] else " The tactics below can lead to it.",
             '<div class="rows">%s</div>' % "".join('<a class="row" href="/playbook/%s" data-g="%s">%s<span><b>%s</b><small>%s</small></span></a>' % (
@@ -226,15 +239,15 @@ def tactic_page(e, l, si, by, line_of, house, beacon):
         '<main class="view" data-g="%s"><article aria-labelledby="h">' % l["k"] +
         '<nav class="crumbs" aria-label="You are here"><a href="/playbook">Pattern Decoder</a> \u203a <a href="/playbook/line-%s">%s</a></nav>' % (l["k"], esc(l["label"])) +
         '<header><div class="sign">%s<div><h1 id="h">%s</h1>%s</div></div>' % (bullet(l), H(n), '<p class="sub">%s</p>' % H(e["sub"]) if e["sub"] else "") +
-        '<p class="onl">Station %d of %d on the %s line. Code %s%s</p></header>' % (si + 1, len(order), esc(l["label"]), code(l, si + 1),
-            (" \u00b7 Stage: %s \u00b7 Standard tactic %s" % (esc(e["std"]["stage"]), esc(e["std"]["t"]))) if e.get("std", {}).get("t") else ("&nbsp;\u00b7 Pattern" if pt else "")) +
+        '<p class="onl">Station %d of %d on the %s line.</p><p class="meta"><span>Code %s</span>%s</p></header>' % (si + 1, len(order), esc(l["label"]), code(l, si + 1),
+            "".join("<span>%s</span>" % x for x in (["Stage: " + esc(e["std"]["stage"]), "Standard tactic " + esc(e["std"]["t"])] if e.get("std", {}).get("t") else (["Pattern"] if pt else [])))) +
         ('<section class="warn" role="note" aria-labelledby="w"><h2 id="w"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M12 3 2 20h20z"/><path d="M12 10v4"/><circle cx="12" cy="17" r=".6" fill="currentColor"/></svg>Safety first</h2><div class="body">%s</div></section>' % prose(f["safety_note"]) if e["sens"] else "") +
         '<section class="answer" aria-label="In short"><h2>What is %s?</h2>%s%s%s</section>' % (
             H(n), prose(f["plain_language_summary"]),
             ('<h3 class="k">It can sound like</h3><ul class="says">%s</ul>' % "".join(say_li(x) for x in says[:3])) if says else "",
             ('<p class="also">Also called %s</p>' % ", ".join(H(a) for a in e["abs"])) if e["abs"] else "") +
-        ptsec +
         '<a class="go" href="/playbook#/entry/%s">Check it step by step in the guide<small>Tick what fits, compare look-alikes and save it, all on your own device.</small></a>' % s +
+        ptsec +
         sec("Signs it might be this", ul(f.get("this_may_be_it_when"))) +
         sec("Signs it is probably something else", ul(other)) +
         sec("Questions to ask yourself", ul(f.get("discernment_questions"))) +
@@ -252,13 +265,14 @@ def tactic_page(e, l, si, by, line_of, house, beacon):
                 '<a class="row" href="/playbook/%s" data-g="%s">%s<span><b>%s</b><small>%s</small></span></a>' % (
                     r["s"], r["g"], bullet(line_of[r["g"]], "sm"), H(r["n"]), H(clip(r["f"]["short_definition"], 120))) for r in rel[:8]) if rel else "")) +
         (sec("Where this comes up in the books",
-             "<p>These free books from Noble Father Creations look at %s in a real setting.</p><ul>%s</ul>" % (H(n), "".join(
-                 '<li><a href="%s">%s</a> <small>(%s)</small></li>' % (u, H(t), esc(b)) for b, t, u in BOOKREFS.get(s, [])[:10])))
+             "<p>These free books from Noble Father Creations look at %s in a real setting.</p>%s" % (H(n), "".join(
+                 '<div class="bref"><p class="bk">%s</p><ul>%s</ul></div>' % (esc(bk), "".join('<li><a href="%s">%s</a></li>' % (u, H(t)) for b, t, u in BOOKREFS.get(s, [])[:10] if b == bk))
+                 for bk in dict.fromkeys(b for b, t, u in BOOKREFS.get(s, [])[:10]))))
          if BOOKREFS.get(s) else "") +
         '<nav class="pn" aria-label="Along the %s line">%s%s</nav>' % (
             esc(l["label"]),
-            '<a href="/playbook/%s"><small>Previous station</small><b>%s</b></a>' % (prev["s"], H(prev["n"])) if prev else "<span></span>",
-            '<a class="nx" href="/playbook/%s"><small>Next station</small><b>%s</b></a>' % (nxt["s"], H(nxt["n"])) if nxt else "") +
+            '<a href="/playbook/%s"><span class="pa" aria-hidden="true">\u2190</span><small>Previous station</small><b>%s</b></a>' % (prev["s"], H(prev["n"])) if prev else "<span></span>",
+            '<a class="nx" href="/playbook/%s"><span class="pa" aria-hidden="true">\u2192</span><small>Next station</small><b>%s</b></a>' % (nxt["s"], H(nxt["n"])) if nxt else "") +
         "</article></main>")
     ld = {"@context": "https://schema.org", "@graph": [
         {"@type": "DefinedTerm", "@id": url + "#term", "name": n, "url": url, "termCode": code(l, si + 1).replace(" ", ""),

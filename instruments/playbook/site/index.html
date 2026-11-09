@@ -69,7 +69,7 @@ if(o.sp==="roomy")r.setAttribute("data-space","roomy");if(o.mo==="reduce")r.setA
   }
   @media (prefers-color-scheme: light){:root:not([data-theme=night]){
     color-scheme:light;
-    --bg:#FBFAF7;--panel:#F3F1EB;--panel-2:#E8E5DC;--rule:#DAD6CB;--rule-hi:#BDB8AA;
+    --bg:#FBFAF7;--panel:#F1EEE6;--panel-2:#E6E2D7;--rule:#DAD6CB;--rule-hi:#BDB8AA;
     --fg:#14161A;--fg-2:#4B5159;--fg-3:#5C636B;
     --blade:#E5C158;--blade-ink:#14161A;--bullet-ink:#FFFFFF;--gold-line:#9A7414;--blade-edge:#9A7414;
     --glow-a:rgba(106,63,224,.20);--glow-b:rgba(31,85,214,.17);--glow-c:rgba(194,49,111,.12);--lift:rgba(255,255,255,.6);
@@ -79,7 +79,7 @@ if(o.sp==="roomy")r.setAttribute("data-space","roomy");if(o.mo==="reduce")r.setA
   }}
   :root[data-theme=day]{
     color-scheme:light;
-    --bg:#FBFAF7;--panel:#F3F1EB;--panel-2:#E8E5DC;--rule:#DAD6CB;--rule-hi:#BDB8AA;
+    --bg:#FBFAF7;--panel:#F1EEE6;--panel-2:#E6E2D7;--rule:#DAD6CB;--rule-hi:#BDB8AA;
     --fg:#14161A;--fg-2:#4B5159;--fg-3:#5C636B;
     --blade:#E5C158;--blade-ink:#14161A;--bullet-ink:#FFFFFF;--gold-line:#9A7414;--blade-edge:#9A7414;
     --glow-a:rgba(106,63,224,.20);--glow-b:rgba(31,85,214,.17);--glow-c:rgba(194,49,111,.12);--lift:rgba(255,255,255,.6);
@@ -626,6 +626,12 @@ body{position:relative}
 body .nf-seal{animation:none!important;position:absolute!important;bottom:calc(4.25rem + env(safe-area-inset-bottom) + 1rem)!important;top:auto!important;width:48px;height:48px}
 @media (min-width:56.25em){body .nf-seal{bottom:1.5rem!important}}
 
+/* v20 polish (design review 2026-11-09) */
+.facts .chips{display:flex;flex-wrap:wrap;gap:8px}
+.facts .chips a{display:inline-flex;align-items:center;min-height:2.75rem;padding:0 12px;border-radius:62rem;background:var(--panel);box-shadow:inset 0 0 0 1px var(--rim,var(--rule));text-decoration:none;font:700 .875rem/1.2 var(--sign)}
+@media (min-width:56.25em){.secnav button{flex:0 0 auto;padding:0 1rem}.secnav{gap:.25rem;max-width:46rem}}
+.side .xrow .cmp{font:700 .875rem/1 var(--sign);text-decoration:none;padding:0 12px;border-radius:62rem;box-shadow:inset 0 0 0 1px var(--rule-hi)}
+
 </style>
 </head>
 <body>
@@ -1160,7 +1166,7 @@ function viewStation(e,stepArg){
         x.slice(0,6).map(r=>'<div class="xrow">'+rowHTML(r)+'<a class="cmp" href="'+cpH(e,r)+'" aria-label="Compare '+esc(e.n)+' with '+esc(r.n)+'">Compare</a></div>').join("")+'</div>'+
         (xAll.length>x.length?'<p class="small muted" style="margin-top:.75rem">'+(xAll.length-x.length)+(xAll.length-x.length===1?' look-alike is':' look-alikes are')+' on lines you rested. <a href="#/settings">Settings</a> shows them again.</p>':'')+'</section>':'')+
       '<section class="facts"><dl>'+(w.length?'<div><dt>Where it happens</dt><dd>'+w.map(esc).join(", ")+'</dd></div>':'')+
-        (pats.length?'<div><dt>Seen in '+pats.length+(pats.length===1?' pattern':' patterns')+'</dt><dd>'+pats.slice(0,3).map(r=>'<a href="'+rtH(r)+'">'+H(r.n)+'</a>').join(", ")+'</dd></div>':'')+'</dl></section></aside>'+
+        (pats.length?'<div><dt>Seen in '+pats.length+(pats.length===1?' pattern':' patterns')+'</dt><dd>'+'<span class="chips">'+pats.slice(0,3).map(r=>'<a href="'+rtH(r)+'">'+H(r.n)+'</a>').join("")+'</span>'+'</dd></div>':'')+'</dl></section></aside>'+
     '<nav class="pn" aria-label="Along the '+esc(lineName(l))+'">'+(prev?'<a href="'+stH(prev)+'" data-vt data-pg="prev"><span class="arr">'+ic("prev")+'</span><span class="pt"><small>Previous in this line</small><b>'+H(prev.n)+'</b></span></a>':'<span></span>')+
       (next?'<a class="nx" href="'+stH(next)+'" data-vt data-pg="next"><span class="pt"><small>Next in this line</small><b>'+H(next.n)+'</b></span><span class="arr">'+ic("next")+'</span></a>':'')+'</nav>'+
     '<div class="printfoot" aria-hidden="true">A reading aid, not a diagnosis, a legal opinion or therapy. If you are in danger, contact emergency services.</div>'+
