@@ -149,28 +149,9 @@ Reimagine the views and paths. Possibilities to consider, not a checklist:
 - Plan redirects from the old prototype addresses, including `fractal-entertainment.netlify.app/fractal/entertainment`, which is currently public.
 - Record the architecture in `content/fractal2/ARCHITECTURE.md`.
 
-## Read everything first
+## Read first
 
-1. `content/fractal2/HANDOFF.md`.
-2. `content/fractal2/owner-source/E-owner-messages-this-thread.md`: **the owner's own words. When anything conflicts, these win.**
-3. The scripts in `content/fractal2/owner-source/`:
-   - the Spiritual Lens;
-   - the War Map;
-   - the inner techniques, the Cage & Intent and the Practice;
-   - Enlighten.
-4. `intro-v4.md`, `mission-draft.md`, `docs/FRACTAL2-STORY-BLUEPRINT.md`, `docs/FRACTAL-SERIES-INDEX.md`.
-5. The published Fractal in `library/fractal/`.
-6. `content/fractal/ent/`:
-   - the tactic book (335);
-   - the combo index;
-   - the top 10;
-   - all 153 combo scripts, the 10 family intros and the sector standards;
-   - the audit, the review queue and the review states.
-7. The ENT prototype and its generator.
-8. `content/decoder-v20/` and `instruments/playbook/site/`.
-9. `CLAUDE.md`, `sites.json`, `hub/`, and the end of `MEMORY.md`.
-
-Before you plan, write a half-page "What I understood" note so the owner can catch a misreading.
+Follow `content/fractal2/READ-FIRST.md`: read Tier 1 in full before planning, use Tier 2 when the work needs it, and skip the rest. The owner's own words (`content/fractal2/owner-source/E-owner-messages-this-thread.md`) win every conflict. Write a half-page "What I understood" note before you plan, so the owner can catch a misreading.
 
 ## Your tools
 
