@@ -377,8 +377,10 @@
       ],
       "repoPath": "library/feminine/",
       "section": "library",
-      "pendingDeploy": {
-        "note": "Repo is AHEAD of live: v6 findability round built 2026-11-08, awaiting owner go-ahead to deploy."
+      "lastDeploy": {
+        "date": "2026-11-09",
+        "deployId": "6af11b070c386018bd5ced31",
+        "note": "Round 1 findability; verify-deployed in sync (all pages)."
       }
     },
     {
@@ -420,8 +422,10 @@
       ],
       "repoPath": "library/children/",
       "section": "library",
-      "pendingDeploy": {
-        "note": "Repo is AHEAD of live: v6 findability round built 2026-11-08, awaiting owner go-ahead to deploy."
+      "lastDeploy": {
+        "date": "2026-11-09",
+        "deployId": "6af11b3153b8c9ec0981cfe5",
+        "note": "Round 1 findability; verify-deployed in sync (all pages)."
       }
     },
     {
@@ -525,12 +529,14 @@
       "repoPath": "library/wook/",
       "section": "library",
       "deployNote": "Not a git deploy despite gitRepo being set. The Netlify MCP connector issues a one-shot proxy command run from library/wook/, which uploads the directory and builds it in Netlify's system. Verified 2026-09-15.",
-      "liveVersion": "v14",
+      "liveVersion": "v15",
       "liveVerifiedAt": "2026-09-19",
       "liveVerifiedNote": "Deployed via netlify-deploy-services-updater deploy-site + the returned one-shot proxy command, run from library/wook/. Live bytes (md5, 71a7871f...) confirmed identical to library/wook/index.html, both directly against the Netlify site URL and through the noblefathercreations.com/wook proxy path (200, 14,119,027 bytes all three). v14 patch note text and the rewritten Chapter 32 Save (the 'THEY FEEL SAFER THAN THEY ARE' line) both confirmed present on the live page. This field records what is actually live; 'version' records what has been built.",
       "reviewInProgress": "Full chapter-by-chapter review under content/wook-audits/wook-full-review-plan.md complete, including pass D2. v10 deployed 2026-09-15; see changelog.",
-      "pendingDeploy": {
-        "note": "Repo is AHEAD of live: v15 findability round built 2026-11-08, awaiting owner go-ahead to deploy."
+      "lastDeploy": {
+        "date": "2026-11-09",
+        "deployId": "6af11bc4c1816776b885dc9f",
+        "note": "Round 1 findability; verify-deployed in sync (all pages)."
       }
     },
     {
@@ -572,8 +578,10 @@
       ],
       "repoPath": "library/fractal/",
       "section": "library",
-      "pendingDeploy": {
-        "note": "Repo is AHEAD of live: v4 findability round built 2026-11-08, awaiting owner go-ahead to deploy."
+      "lastDeploy": {
+        "date": "2026-11-09",
+        "deployId": "6af11b5c1255ca0f56129311",
+        "note": "Round 1 findability; verify-deployed in sync (all pages)."
       }
     },
     {
@@ -625,8 +633,10 @@
       ],
       "repoPath": "library/fracture/",
       "section": "library",
-      "pendingDeploy": {
-        "note": "Repo is AHEAD of live: v6 findability round built 2026-11-08, awaiting owner go-ahead to deploy."
+      "lastDeploy": {
+        "date": "2026-11-09",
+        "deployId": "6af11ac8ecb9ca19341af288",
+        "note": "Round 1 findability; verify-deployed in sync (all pages)."
       }
     },
     {
@@ -775,8 +785,10 @@
         "file": "library/_undeployed/sacred-divide-v4-candidate.html",
         "note": "Never shipped. Superseded 2026-09-28 by the one-page-per-tradition redesign. Carried over from its owner decisions: the anonymous Cloudflare visit counter, and truthful privacy wording. Not carried over: the on-device section saver (the redesign keeps its state in the URL instead of storage)."
       },
-      "pendingDeploy": {
-        "note": "Repo is AHEAD of live: v6 findability round built 2026-11-08, awaiting owner go-ahead to deploy."
+      "lastDeploy": {
+        "date": "2026-11-09",
+        "deployId": "6af11c02233ad861dc5cea34",
+        "note": "Round 1 findability; verify-deployed in sync (all pages)."
       }
     },
     {
@@ -897,10 +909,12 @@
       ],
       "repoPath": "library/festival/",
       "section": "library",
-      "liveVersion": "v10",
+      "liveVersion": "v11",
       "liveVerifiedAt": "2026-09-17",
-      "pendingDeploy": {
-        "note": "Repo is AHEAD of live: v11 findability round built 2026-11-08, awaiting owner go-ahead to deploy."
+      "lastDeploy": {
+        "date": "2026-11-09",
+        "deployId": "6af11b8a64d52a983cca7517",
+        "note": "Round 1 findability; verify-deployed in sync (all pages)."
       }
     },
     {
