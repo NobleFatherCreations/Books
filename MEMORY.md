@@ -4916,3 +4916,12 @@ scratchpad/deploy2/hub refreshed. Still awaiting the owner's "deploy the homepag
   hub in sync; /, robots, sitemap, llms.txt, topics, og.png, key file, media, fonts all 200. IndexNow: curl works
   (python UA was 403'd; added UA) but bulk submit returned SiteVerificationNotCompleted — retry later. Added
   docs/AI-QUICKSTART.md (+ pointer in CLAUDE.md) so a fresh AI gets state + commands in one page.
+- 2026-11-09: IndexNow — api.indexnow.org kept answering SiteVerificationNotCompleted; www.bing.com/indexnow accepted all
+  554 URLs (HTTP 200). Owner verified Search Console (DNS TXT at SiteGround) and imported into Bing Webmaster.
+- 2026-11-09: Decoder v20 BUILT, NOT DEPLOYED. Owner's Playbook_Update_Package (content/decoder-v20/, owner confirmed the
+  mieee repo is theirs) applied by design/decoder_v20.py on top of v19: 335 singles + 32 patterns kept at their old
+  addresses (367 pages), 103 redirects in site/_redirects, combos remapped, stage + T-number, "Where this comes up in
+  the books" from existing book links, /playbook/patterns, licence + author. "It can sound like" lines for the 110 new
+  tactics were drafted by a subagent (content/decoder-v20/sounds_like.json) — owner should skim. OWNER RULE: never
+  change names or wording in the books (children's and Festie Bible use their own audience names); connectors only,
+  ask before touching book writing. An interrupted book rebuild was fully reverted; books = live.

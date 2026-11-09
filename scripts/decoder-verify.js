@@ -48,9 +48,9 @@ const contrast = (a, b) => { const L = c => { c = c.map(v => v / 255).map(v => v
   const probe = await open(await ctxFor(390, 844), "#/");
   const stations = await probe.evaluate(() => E.map(e => ({ s: e.s, n: e.n, sens: e.sens, i: e.i })));
   await probe.context().close();
-  T("310 stations present", stations.length === 310, String(stations.length));
+  T("367 stations present", stations.length === 367, String(stations.length));
   const sens = stations.filter(s => s.sens).length;
-  T("105 safety-sensitive stations", sens === 105, String(sens));
+  T("147 safety-sensitive stations", sens === 147, String(sens));
   const pick = QUICK ? stations.filter((_, i) => i % 6 === 0) : stations;
   for (const [w, h, label] of [[390, 844, "phone 390"], [1440, 900, "desktop 1440"]]) {
     const ctx = await ctxFor(w, h); const p = await open(ctx, "#/"); const bad = [];

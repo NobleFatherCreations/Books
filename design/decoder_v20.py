@@ -24,7 +24,8 @@ BOOKS = {"fracture": "The Fracture", "feminine": "The Sovereign Divine Feminine"
          "loop": "The Loop", "scale": "The Weighing"}
 STAGES = {"IDEALIZE": "Idealize", "HOOK": "Hook", "DEVALUE": "Devalue", "CONFUSE": "Confuse", "ISOLATE": "Isolate",
           "CONTROL": "Control", "DISCARD": "Discard", "REPLACE": "Replace"}
-SENSITIVE = re.compile(r"emergenc|danger|police|crisis|violen|threat|self-harm|suicid|trafficking|child protection|safeguarding", re.I)
+SENSITIVE = re.compile(r"immediate danger|in danger|emergency services|police|trafficking|forced lab|self-harm|suicid|child protection|safeguarding|violence|abuse|threat", re.I)
+CALM = re.compile(r"mostly about|usually|rarely|not a physical|not in itself|on its own|by itself|not a safety|not normally|seldom", re.I)
 
 
 def slug(s):
@@ -97,7 +98,7 @@ def transform(entries, recipes, aliases, narrow, common):
                 f["plain_language_summary"] = sentences(fields["expanded_definition"], 2)
                 f["what_it_sounds_like"] = sounds.get(n, [])
                 e = {"n": n, "s": "", "g": th, "w": [], "sub": "", "kw": [], "pop": 0, "abs": [], "rel": [],
-                     "sens": bool(SENSITIVE.search(fields.get("safety_note", ""))),
+                     "sens": bool(SENSITIVE.search(fields.get("safety_note", ""))) and not CALM.search(re.split(r"(?<=[.!?])\s", fields.get("safety_note", ""))[0]),
                      "kind": "verify" if str(fields.get("boundary_script", "")).lower().startswith("verification") else "say",
                      "f": {k: f[k] for k in f}, "new": True}
                 if th == "systems": e["w"] = ["work"]

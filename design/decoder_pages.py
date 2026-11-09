@@ -216,23 +216,24 @@ def tactic_page(e, l, si, by, line_of, house, beacon):
                    for k, h in RESP if (f.get("response_options") or {}).get(k))
     script = re.sub(r"^Verification script[^:]*:\s*", "", str(f.get("boundary_script") or ""), flags=re.I)
     other = (f.get("this_may_not_be_it_when") or []) + (f.get("less_concerning_if") or [])
+    ptsec = (('<section class="answer" aria-labelledby="pt"><h2 id="pt">A pattern, not a single move</h2><p>%s is %s.%s</p>%s</section>') % (
+            H(n), PT_LABEL.get(pt["type"], "a pattern"),
+            (" It is made of these tactics" + (", usually in this order:" if pt["seq"] else ":")) if pt["made_of"] else " The tactics below can lead to it.",
+            '<div class="rows">%s</div>' % "".join('<a class="row" href="/playbook/%s" data-g="%s">%s<span><b>%s</b><small>%s</small></span></a>' % (
+                by[m]["s"], by[m]["g"], bullet(line_of[by[m]["g"]], "sm"), H(m), H(clip(by[m]["f"]["short_definition"], 120)))
+                for m in (pt["made_of"] or e["rel"]) if m in by)) if pt else "")
     body = (
         '<main class="view" data-g="%s"><article aria-labelledby="h">' % l["k"] +
         '<nav class="crumbs" aria-label="You are here"><a href="/playbook">Pattern Decoder</a> \u203a <a href="/playbook/line-%s">%s</a></nav>' % (l["k"], esc(l["label"])) +
         '<header><div class="sign">%s<div><h1 id="h">%s</h1>%s</div></div>' % (bullet(l), H(n), '<p class="sub">%s</p>' % H(e["sub"]) if e["sub"] else "") +
         '<p class="onl">Station %d of %d on the %s line. Code %s%s</p></header>' % (si + 1, len(order), esc(l["label"]), code(l, si + 1),
-            (" \u00b7 Stage: %s \u00b7 Standard tactic %s" % (esc(e["std"]["stage"]), esc(e["std"]["t"]))) if e.get("std", {}).get("t") else (" \u00b7 Pattern" if pt else "")) +
-        (('<section class="answer" aria-labelledby="pt"><h2 id="pt">A pattern, not a single move</h2><p>%s is %s.%s</p>%s</section>') % (
-            H(n), PT_LABEL.get(pt["type"], "a pattern"),
-            (" It is made of these tactics" + (", usually in this order:" if pt["seq"] else ":")) if pt["made_of"] else " The tactics below can lead to it.",
-            '<div class="rows">%s</div>' % "".join('<a class="row" href="/playbook/%s" data-g="%s">%s<span><b>%s</b><small>%s</small></span></a>' % (
-                by[m]["s"], by[m]["g"], bullet(line_of[by[m]["g"]], "sm"), H(m), H(clip(by[m]["f"]["short_definition"], 120)))
-                for m in (pt["made_of"] or e["rel"]) if m in by)) if pt else "") +
+            (" \u00b7 Stage: %s \u00b7 Standard tactic %s" % (esc(e["std"]["stage"]), esc(e["std"]["t"]))) if e.get("std", {}).get("t") else ("&nbsp;\u00b7 Pattern" if pt else "")) +
         ('<section class="warn" role="note" aria-labelledby="w"><h2 id="w"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M12 3 2 20h20z"/><path d="M12 10v4"/><circle cx="12" cy="17" r=".6" fill="currentColor"/></svg>Safety first</h2><div class="body">%s</div></section>' % prose(f["safety_note"]) if e["sens"] else "") +
         '<section class="answer" aria-label="In short"><h2>What is %s?</h2>%s%s%s</section>' % (
             H(n), prose(f["plain_language_summary"]),
             ('<h3 class="k">It can sound like</h3><ul class="says">%s</ul>' % "".join(say_li(x) for x in says[:3])) if says else "",
             ('<p class="also">Also called %s</p>' % ", ".join(H(a) for a in e["abs"])) if e["abs"] else "") +
+        ptsec +
         '<a class="go" href="/playbook#/entry/%s">Check it step by step in the guide<small>Tick what fits, compare look-alikes and save it, all on your own device.</small></a>' % s +
         sec("Signs it might be this", ul(f.get("this_may_be_it_when"))) +
         sec("Signs it is probably something else", ul(other)) +
