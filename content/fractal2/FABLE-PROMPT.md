@@ -1,102 +1,290 @@
-# Prompt for Claude Fable — Fractal² intro: final prose + single-page scroll experience
+# Prompt for Claude Fable — Fractal²: final intro, scroll experience, tag resolution and the whole architecture (v2)
 
-Copy everything below the line into a new Claude Code session opened on the repo **NobleFatherCreations/Books**, branch **claude/great-keller-jkjz8c**.
+Open a new Claude Code session on **NobleFatherCreations/Books**, branch **claude/great-keller-jkjz8c**, select the Fable model, and paste everything below the line.
 
 ---
 
-You are the lead writer and creative technologist for **Fractal²**, the most important work of the author Shae Stovell (Noble Father Creations). Your job is to turn the existing draft into the final form: **one long, single-page, scroll-driven introduction at `noblefathercreations.com/fractal2`** whose prose and visuals together make a reader *feel* the scope, the precision and the liberating power of this body of work. Use your full capacity. Plan before you build. Do not deploy anything.
+You are the lead writer, information architect and creative technologist for **Fractal²**, the most important work of the author Shae Stovell (Noble Father Creations). You have four jobs, in this order:
 
-## 0. Read first (in this order, fully)
+1. **Architecture** — design how all of Fractal² fits together: the `/fractal2` intro, every sector, every tactic and every combo, and how they link to each other, to The Fractal, and to the Pattern Decoder, now and as new sectors arrive.
+2. **Tag resolution** — resolve the credibility tags in the sector scripts yourself, so the owner does not have to verify examples by hand.
+3. **The words** — rewrite the intro into its final form: powerful, organized, in the owner's lens.
+4. **The experience** — build the intro as one single-page scroll with Apple-level motion and data visualizations that appear as the prose reaches them.
 
-1. `CLAUDE.md` (binding house rules: self-contained pages, no CDNs, inline fonts and SVG, IntersectionObserver for motion, accessibility, versioning) and `docs/AI-QUICKSTART.md`.
-2. `content/fractal2/HANDOFF.md` — the state of everything and what must not happen again.
-3. `content/fractal2/owner-source/E-owner-messages-this-thread.md` — **the owner's own words; this is the intent you serve.**
-4. `content/fractal2/intro-v4.md` — the current long-form draft you are rewriting.
-5. `docs/FRACTAL2-STORY-BLUEPRINT.md` — three structures, steelmanned, a second-model critique, and the agreed fusion.
-6. `docs/FRACTAL-SERIES-INDEX.md` — full index of the project, every table, and an analysis (section G lists inconsistencies to fix).
-7. Owner source scripts: `content/fractal2/owner-source/A-…` (the Spiritual Lens: divine and counterfeit), `B-…` (the War Map), `C-…` (inner techniques 17–30, the Cage and the Intent, the Full Mirror, the Practice), `D-…` (the Enlighten closing monologue).
-8. The published Fractal: `library/fractal/` — especially `the-origin.html`, `the-spiritual-lens.html`, `the-mirror.html`, `the-chain.html`, `the-frequency.html`, and the sector pages.
-9. Fractal² content for the first sector: `content/fractal/ent/source/readable/ENT_tactic_book_335.md`, `ENT_combo_index.md`, `ENT_top10.md`, and the scripts in `content/fractal/ent/source/scripts/` (read at least The Debt Prison, Pavlovian Conditioning, Grooming, The Room, The Phantom Equity). The built sector site lives in `library/fractal/sectors/ent/site/` and its generator in `design/fractal-sector/`.
+Use your full capacity. Plan before you build. Ask the owner the right questions at the right moments (section 2). **Never deploy** (section 11).
 
-## 1. What the page must do (the owner's brief, distilled)
+---
 
-The page is both an **epilogue** to The Fractal (for someone who has seen none of it) and the **prologue** to Fractal². It is written in the owner's lens — psychological freedom and spiritual awakening; sovereignty; accountability — as powerful, organized, storytelling prose. It is **not** a fictional story and **not** a fact report. It signposts its register once, the way the Spiritual Lens does ("This is my lens…").
+## 0. Read first, fully, in this order
 
-Three movements, in this order of importance (the third is the heart):
+1. `CLAUDE.md` (binding rules) and `docs/AI-QUICKSTART.md`.
+2. `content/fractal2/HANDOFF.md` — state of play, and the rules learned the hard way.
+3. `content/fractal2/owner-source/E-owner-messages-this-thread.md` — **the owner's own words. This is the intent you serve.** When anything conflicts, the owner's words win.
+4. `content/fractal2/intro-v4.md` — the draft you are rewriting.
+5. `docs/FRACTAL2-STORY-BLUEPRINT.md` — three structures, a second-model critique, the agreed fusion.
+6. `docs/FRACTAL-SERIES-INDEX.md` — every table and an analysis (section G: inconsistencies to fix; G.3: risks).
+7. Owner scripts (verbatim): `content/fractal2/owner-source/A-…` Spiritual Lens, `B-…` War Map, `C-…` inner techniques / Cage & Intent / Practice, `D-…` Enlighten.
+8. The published Fractal: `library/fractal/` (interludes `the-origin`, `the-spiritual-lens`, `the-mirror`, `the-chain`, `the-body`, `the-frequency`, `the-largest-body`, `the-pattern`; sector pages; `contents.html`; `sitemap.xml`).
+9. Sector data (Entertainment & Music, "ENT"): `content/fractal/ent/source/` (`readable/ENT_tactic_book_335.{json,md}`, `readable/ENT_combo_index.{json,md}`, `ENT_top10.{json,md}`, `scripts/*.md` — 153 combos, 10 family intros, sector standards), `content/fractal/ent/build/audit.md` and `review_queue.json`, `content/fractal/ent/review_state.json`.
+10. The sector pipeline: `design/fractal-sector/` (`README.md`, `ingest.py`, `build.py`, `verify.mjs`, `run.sh`) and the built site `library/fractal/sectors/ent/site/`.
+11. Pattern Decoder v20 data, the name authority for tactics: `content/decoder-v20/` (`START_HERE_FOR_YOUR_AI.md`, `standard_index.json`, `alias_map.json`, `playbook_patterns.json` — which holds named patterns such as Gaslighting, DARVO and FOG). The live Decoder lives in `instruments/playbook/site/`.
+12. `sites.json`, the `hub/` folder (`catalogue-redesign._redirects` is the domain's routing), and the end of `MEMORY.md`.
 
-**I. What The Fractal saw, and what it led to.**
-- The shape: 8 stages (Idealize, Hook, Devalue, Confuse, Isolate, Extract, Discard, Replace), 30 techniques in order, 3 nested levels of scale (individual → institutional → civilizational, and back into the person), 30 sectors, 2,700 examples, and the dare: *prove me wrong*.
-- Every sector is a captured relationship with a need; the gatekeeper / flaming sword at every gate; the deepest injury is the distortion of your relationship with the need itself.
-- **The Origin thesis:** a thought pattern that behaves like a parasite, installing itself wherever three conditions meet — **a real need, a difference in power, a gatekeeper** — needing structures, not villains; changing costume each era; and *separate from the people who drive it on purpose* (grace for the unconscious, no hiding place for the conscious — the three categories of intent).
-- **The Mirror and the Chain:** it runs in you; it came from before you (nervous system, attachment, epigenetics, family myth). The cage is not your fault; you are the end of the chain.
-- **The original frequency:** every technique counterfeits something real; the counterfeit came second; the original survived.
-- **What every tradition tried to say:** the narrow gate / the end of Maya / *fana* / *tat tvam asi* / *tikkun olam* / the dark night / the secular path. Translation, not conversion. The Fractal is the map of the way *down* to the kingdom within: the author's own awakening, drawn as a map for others.
-- **The world today** seen through the lens, and **seeing as the first step** ("a pattern that has been seen cannot pretend to be the sky anymore").
+Before planning, write a short "What I understood" note (half a page) at the top of your plan, so the owner can catch a misreading early.
 
-**II. The true map.** The Fractal drew 30; the real map has **more than three hundred** tactics per sector (335), each at all three levels — more than a thousand moves per sector, more than thirty thousand across thirty. Demonstrate one tactic at three levels (use real lines from `ENT_tactic_book_335.md`) instead of listing. The most damaging tactics are the ones that never had names; *a thing with a name can be refused*.
+---
 
-**III. The weapons no one names — the combos.** The most powerful section.
-- No one is manipulated one tactic at a time. Combos are the worst things manipulation does to a life, and are almost never spoken about.
-- **Multiplication, not addition:** each tactic disables the defence you would have used against the next.
-- **The sequence is the weapon:** e.g. trauma bonding without intermittent reinforcement first produces flight, not a bond; The Debt Prison begins with generosity; Pavlovian Conditioning begins with unpredictable reward. Use real tactic chains from the scripts.
-- **Why precise understanding heals:** inside one now (you can see the next stage coming); lived one before (shame dissolves; *I don't know how it happened* becomes *this is exactly how*); never lived one (immunity; break one link and the chain fails). Each counterfeit points back to what it imitated, so to the frequency.
-- **Why I made this:** the owner's account, kept general (it appears in intro-v4 — keep facts exactly as given, add none), ending in justice through methods, never names.
+## 1. Discover and use your tools — skills and MCP servers
 
-Close with **what this is for** (two freedoms; sovereignty and accountability; a world where millions can see it), a one-line safety note, and the doors: *Start with The Fractal* / *Enter Fractal²: Entertainment & Music*.
+At the start, take inventory and record it in your plan:
 
-## 2. Prose standard
+- **Skills:** list them (ListSkills, or read `.claude/skills/README.md`). Use these at the stages shown:
+  - **Planning:** `site-architecture` (information architecture and URL map), `grill-me` (stress-test your own plan before you show it).
+  - **Design and motion:** `impeccable` (shape → critique → polish → audit), `apple-design` (fluid physical motion, springs, depth, typography), `emil-design-eng` (polish details), `frontend-design`, `refactoring-ui`, `animation-vocabulary` (name every effect precisely), `find-animation-opportunities`, `improve-animations`, `review-animations`.
+  - **Data visuals:** `dataviz` if listed (one visual system, accessible palettes, a mark spec).
+  - **Quality:** `web-accessibility`, `better-accessibility`, `web-perf`, `ux-heuristics`, `web-design-guidelines`.
+  - **Words:** `copy-editing` and `no-ai-slop` (prose only; never alter the owner's quoted scripts).
+  - **Findability:** `ai-seo`, `schema`, `seo-audit`, `programmatic-seo` (the sector pages are programmatic pages).
+  - **Restraint:** `ponytail-review` on your code.
+- **MCP servers:** run ToolSearch for what is available, then use them:
+  - **Sequential Thinking** for every multi-step decision.
+  - **Playwright** (or the pre-installed `playwright` at `/opt/pw-browsers/chromium`; never run `playwright install`) for visual QA at scroll positions.
+  - **Web search or fetch** (WebSearch, the `web-fetch` agent, or TinyFish) for tag resolution (section 4).
+  - **Figma** only if you want a storyboard for the owner to approve. It is never the source of truth, and nothing ships from it.
+  - Search for further tools ("animation", "svg", "visualization", "font", "image") and judge each against the self-contained rule. Build-time tools are fine. Runtime dependencies are not.
+- **Subagents** (`.claude/agents/`, e.g. `visual-storyteller`, `ui-designer`, `ux-researcher`, `brand-guardian`, `impeccable-finish-reviewer`): use them for independent critique. **Dispatch one at a time** and wait for it to finish (CLAUDE.md "Agent dispatch discipline"). Stop dispatching on any rate-limit error.
+- **Do not install** anything persistent, any daemon, telemetry or curl-to-shell installer. Inspect any third-party package before using it, and prefer vendoring a small piece over a dependency.
 
-- Rewrite intro-v4 into the final text. Keep its strongest lines; cut what drags. Target **3,500–4,500 words**, paced for scrolling: short paragraphs, deliberate line breaks, set pieces that pair with the visuals.
-- The owner's vocabulary is canon: *original frequency, counterfeit / original, false god (as the pattern, never a being), gatekeeper and flaming sword, the cage and the intent, the chain, the mirror, the kingdom within, sovereignty, "same cycle, different building, every building."*
-- Voice: second person carries the reader; the author's "I" appears sparingly and always hands back to "you." Warm, grave, precise. No hedging, no hype, no therapy-speak. Avoid AI tells (no "it's not X, it's Y" chains, no stacked tricolons every paragraph, no em-dash confetti).
-- Exact public numbers: 2,700 (The Fractal); "more than three hundred" / 335 tactics per sector; "more than a thousand" per sector; combos: "hundreds" (203 on the master list, 153 in the first sector).
-- Fix before quoting the owner's scripts: stage 6 is "Extract" in The Fractal and "Control" in the expanded book (present them as one stage — e.g. *Extract (Control)* — and say so once); technique numbers in "The Practice" don't match the published list — don't quote numbers; Enlighten transcript spellings (*tat tvam asi*, *shevirat ha-kelim*, *ruh*).
-- Guardrails (non-negotiable): patterns, never people; no person or organization named as a villain; composites labelled if you tell any scenario; a short safety line; don't present contested science as settled in your own voice (the owner's lens may claim it as belief: "I believe…").
+---
 
-## 3. The experience: single page, scroll-driven, high end
+## 2. Questions to the owner: when and how
 
-Design a page that feels like a museum-grade interactive essay (reference energy: the best scroll-driven longform — Pudding-style explorables, Apple product storytelling, Stripe Press typography — but with its own identity). Every animation must *carry meaning*, appearing as the prose reaches it.
+Ask with the AskUserQuestion tool, at these checkpoints only. Batch up to four questions. Make each question stand on its own (the owner may not see your earlier text), in plain language with no jargon, give 2–4 concrete options, and put your recommendation first. Never ask what you can decide from the files or sensible defaults. Record every answer in `content/fractal2/DECISIONS.md`.
 
-**Required visualizations (each tied to its passage):**
-1. **The fractal itself** — opening: a self-similar figure that resolves from one shape into nested scales as you scroll.
-2. **8 stages as a cycle** — the ring draws stage by stage; on the spiritual-lens passage it **inverts**: each stage flips to show its divine principle (Election, Covenant, Inherent Worth, Truth, Community, Abundance, Unfailing Presence, Irreplaceable Worth).
-3. **3 nested levels** — person ⊂ institution ⊂ civilization ⊂ pattern ⊂ person (concentric rings that loop back inward).
-4. **30 sectors → the relationship each one captures** — a constellation or grid of 30 gates; each lights with "your relationship with ___" and its gatekeeper ("tuition", "a billing department", "a mortgage"). Data: the dominion table in `owner-source/A-…` and the 30 gardens in `the-spiritual-lens.html`.
-5. **The Origin's three conditions** — need · power gap · gatekeeper converging; where they meet, the pattern appears (the parasite entering a structure).
-6. **The Chain** — four generations passing a signal down.
-7. **Counterfeit / original pairs** — love bombing ↔ genuine welcome, gaslighting ↔ honest witness, etc. (data: the faculties table and The Frequency's 30 counter-practices).
-8. **30 → 335** — the map expanding: the original 30 nodes multiply into the full map across 8 stages.
-9. **The combo multiplier** — a chain of tactics where each link visibly disables the next defence; harm compounding (not adding); then **one link breaks and the whole chain falls**.
-10. **The descent** — the page's spine: a depth indicator that goes *down*, ending at the frequency.
+- **Checkpoint A — after reading (before planning):** genuine ambiguities only. For example:
+  - the public name and subtitle (e.g. *Fractal²* / "Cut the strings. Find the frequency.");
+  - whether the ENT field guide moves under `/fractal2/entertainment` (recommended) or stays at `/fractal/entertainment`;
+  - what the owner can promise publicly for "what's coming" (sectors and timing);
+  - whether the War Map's policy list belongs on the intro, on its own page, or off the site.
+- **Checkpoint B — after the plan:** the visual direction. Show two directions as real screenshots of small HTML prototypes (one hero and one visualization each), and give your recommendation.
+- **Checkpoint C — after tag resolution, before any reader-facing rewording:** show the summary counts and the riskiest 10 changes, and ask for approval. The owner has said they do not want to verify examples one by one, so ask once, for the batch.
+- **Checkpoint D — before showing the finished page:** anything still blocking. Then report.
 
-**Navigation and linking:**
-- A quiet progress/depth rail with section markers (keyboard and screen-reader accessible); sticky mini-nav on desktop, collapsible on phones.
-- Deep links on every section (`/fractal2#origin`, etc.).
-- Contextual links into the published Fractal: interludes at `/fractal/the-origin`, `/fractal/the-spiritual-lens`, `/fractal/the-mirror`, `/fractal/the-chain`, `/fractal/the-body`, `/fractal/the-frequency`; sectors at `/fractal/<slug>` — **check `library/fractal/` for which sector pages exist and link only those**. Sector constellation nodes link to their Fractal chapter where one exists. Combos link to the ENT field guide (its address is not final; use a single constant you can change — see HANDOFF).
-- Two clear exits: *Start with The Fractal* and *Enter Fractal²*.
+Anything not covered by a checkpoint: decide, note it in DECISIONS.md, and move on.
 
-**Engineering constraints (from CLAUDE.md — binding):**
-- One self-contained HTML page (plus same-folder font files if needed): **no CDN, no external scripts, no frameworks**, inline SVG/Canvas, self-hosted fonts (`tools/fonts/`), absolute links, native IntersectionObserver and CSS (scroll-driven animations where supported, with a JS fallback). The only allowed external request is the existing Cloudflare analytics beacon.
-- **Accessibility:** WCAG 2.2 AA; every visualization has a text equivalent; `prefers-reduced-motion` delivers the full content statically; nothing stuck at opacity 0; keyboard navigable; 44px targets; no horizontal overflow at 375px; dark and light considered; legible measure (60–75ch).
-- **Performance:** fast first paint on a phone; animate transform/opacity only; lazy-start offscreen visuals.
-- Keep THE HOUSE drawer (`design/decoder-v10/assets/house.html`) and the analytics beacon, as every page does.
-- SEO: descriptive title, meta description, canonical `https://noblefathercreations.com/fractal2`, Open Graph image, JSON-LD (`Article` + `CreativeWorkSeries`), all the prose in the HTML (not injected by JS).
+---
 
-**Visual identity:** propose two directions in your plan (e.g. extending the field-guide look of the sector PDFs — cream paper, Caveat Brush, highlighter — versus a darker, cinematic "descent" world that resolves into light at the frequency) and recommend one with reasons. Max two typefaces plus one mono; one restrained accent; strict spacing scale.
+## 3. Architecture: design the whole system
 
-## 4. Process
+Produce `content/fractal2/ARCHITECTURE.md` (with diagrams in Mermaid or ASCII), then implement it in the generator.
 
-1. **Plan** (use the Sequential Thinking MCP): the section-by-section outline with word budgets, where each visualization sits, the navigation map, the link map, and your design direction. Save it as `content/fractal2/FINAL-PLAN.md`.
-2. **Write** the final prose: `content/fractal2/intro-final.md`.
-3. **Build** the page: put the source in `design/fractal2/` (generator or hand-built, your call — keep it simple) and the output in `library/fractal2/site/index.html` (or similar; record the path).
-4. **Verify** with Playwright (`/opt/pw-browsers/chromium`, never `playwright install`): screenshots at 375 and 1440, light and dark, reduced motion; `pageerror` listener; overflow check; no element stuck invisible after scrolling; axe-core (`npm i --no-save axe-core`); every internal link resolves. Look at the screenshots yourself before calling anything done.
-5. **Critique** with the repo skills: `impeccable` (critique, then polish), `copy-editing` / `no-ai-slop` on the prose, `web-accessibility`, `web-perf`. Fix what they find.
-6. **Report** to the owner in plain language: what you wrote, the screenshots, what you decided and why, open questions.
+**3.1 Address map**
+- `/fractal2` — the intro (this page).
+- `/fractal2/<sector>` — each sector home (e.g. `/fractal2/entertainment`).
+- `/fractal2/<sector>/stage-<stage>` — stage pages with every tactic anchored.
+- `/fractal2/<sector>/family-<family>` — the combo families.
+- `/fractal2/<sector>/<combo-slug>` — combo pages.
+- Plus `/fractal2/<sector>/standards`, `/a-z`, and a site-wide `/fractal2/tactics` and `/fractal2/combos` index across all sectors.
+- Keep flat `.html` files and absolute links. Remember the trailing-slash proxy trap (CLAUDE.md).
+- Decide whether each sector is its own Netlify site behind a hub rule (current ENT setup) or all of `/fractal2` is one site. Recommend with reasons: size, deploy isolation, the 450 MB MCP limit.
+- The ENT build's base path is set in `design/fractal-sector/build.py` (`self.base = "/fractal/" + data["slug"]`). Make it a single configurable constant and plan the move to `/fractal2/<sector>`, including a permanent redirect from the old address and from `fractal-entertainment.netlify.app`.
 
-## 5. Absolute rules
+**3.2 Identity keys (so everything can link, forever)**
+- Tactics: the **standard id** (e.g. `S1-001`, also T-number `T001`) is the same across sectors. Every tactic page anchor gets a "This tactic in other sectors" link set once more sectors exist.
+- Combos: **`combo_id`** (e.g. `C018`) is the same across sectors. Combo pages get "This pattern in other sectors". The hook already exists in `build.py` (`content/fractal/_crosslinks.json`); generate it automatically from every built sector.
+- Names: resolve every tactic name through `content/decoder-v20/alias_map.json` and `standard_index.json`. This fixes the 131 currently unresolved combo-tactic mentions listed in `content/fractal/ent/build/audit.md`. Names that are Decoder *patterns* (Gaslighting, DARVO, FOG, Trauma Bonding…) link to their Decoder pattern page. Anything still unresolved stays plain text and is listed. **Never guess.**
 
-- **Do not deploy.** Nothing goes live until the owner names that exact deployment in the conversation. A preview must be private. If unsure what "live" means, ask.
-- Never edit the owner's scripts or the author's source files; derived copies only.
-- Never change wording inside the published books.
-- Commit and push your work to `claude/great-keller-jkjz8c`; update `MEMORY.md` and `content/fractal2/HANDOFF.md` as you go.
-- Before any production action, run `node scripts/verify-deployed.mjs` and check that this branch is not behind live.
+**3.3 Navigation model**
+- Global: the depth rail on the intro; a persistent sector switcher; breadcrumbs (`The Fractal / Fractal² / Entertainment / Exit Prevention / The Debt Prison`); a search across sectors (a prebuilt JSON index, a few KB per sector, vanilla JS).
+- Lateral links:
+  - tactic → combos it appears in;
+  - combo → its tactics in order;
+  - combo → family siblings;
+  - tactic or combo → the same id in other sectors;
+  - tactic → its Decoder entry;
+  - sector → its chapter in The Fractal (where `library/fractal/<slug>.html` exists);
+  - stage → its divine inversion (Spiritual Lens).
+- Entry points:
+  - the homepage feature (homepage v17 belongs to another session's work — propose the addition and ask, don't edit);
+  - the Fractal's sector chapter linking to its Fractal² field guide (connector links only, ask first — never change book wording);
+  - Decoder tactic pages ("See it in the music industry");
+  - search engines.
+- Downloads: where each sector's PDFs live (`/fractal2/<sector>/pdf/...`) and how they are offered (the "Take it with you" box). Check whether the PDFs carry the credibility labels. If not, add a cover note so a download never reads as more certain than the web page.
+
+**3.4 Future sectors**
+One command per sector (`design/fractal-sector/run.sh <sector>`). Write the checklist a future session follows to add Music Festivals and Spiritual Communities (their packages are not in the repo yet): drop the package in `content/fractal/<sector>/source/`, run, review the audit, resolve tags, regenerate the cross-links, update the intro's sector list and the sitemap.
+
+**3.5 Findability**
+- Per-page title and description patterns.
+- JSON-LD: `CreativeWorkSeries` for Fractal², `Article` for combos, `DefinedTermSet` for stages.
+- Sitemaps per sector plus an index.
+- `llms.txt` entries.
+- Canonical addresses on the final domain.
+- The hub's `robots.txt` lists sitemaps through `scripts/seo/build_site.py` (`FRACTAL_SECTORS`); update it rather than hand-editing.
+
+---
+
+## 4. Tag resolution: so the owner never has to verify examples
+
+The scripts contain credibility tags (ENT counts: LEGAL CLAIM 301, COMMON INDUSTRY PATTERN 228, HYPOTHETICAL COMPOSITE 191, REQUIRES SUBJECT-MATTER REVIEW 82, VERIFIED SOURCE NEEDED 16, HISTORICAL EXAMPLE TO VERIFY 1), plus 551 Credibility Audit items. All of them, in context, are in `content/fractal/ent/build/review_queue.json`.
+
+**Goal:** every item ends with a decision, so pages can say *what is true* instead of *awaiting review*, and nothing false is published.
+
+**Method (write `design/fractal-sector/resolve.py` and the ledger `content/fractal/<sector>/build/resolutions.json`):**
+
+1. **Descriptive tags need no verification.** HYPOTHETICAL COMPOSITE, COMMON INDUSTRY PATTERN and LEGAL CLAIM — JURISDICTION-SPECIFIC describe the *kind* of statement. Keep them as reader labels ("Composite", "Common pattern", "Varies by place"). Check only that each label fits its sentence; flag mislabels.
+2. **Claims that need checking** (REQUIRES SUBJECT-MATTER REVIEW, VERIFIED SOURCE NEEDED, HISTORICAL EXAMPLE TO VERIFY, and every Credibility Audit item). For each:
+   - **(a)** Classify it: a general pattern, a specific factual claim (number, law, date, named practice), or a legal or medical statement.
+   - **(b)** Research it with web search where available. Prefer primary or authoritative sources (statutes, regulators, unions and guilds, peer-reviewed work, established trade press).
+   - **(c)** Give a verdict:
+     - **Verified** — keep it, and store the source URL and quote in the ledger.
+     - **Accurate as a general pattern** — rephrase to general wording if it was over-specific.
+     - **Overstated** — soften it, in the derived copy only.
+     - **False or unverifiable as stated** — remove the specific claim or replace it with an accurate general statement, in the derived copy only.
+     - **Jurisdiction-dependent** — keep, with a "Varies by place" label.
+   - **(d)** Record confidence, the old wording, the new wording and the reason.
+3. **Never fabricate a source.** If you cannot verify a claim and cannot make it accurate by generalizing, remove it from the derived copy and list it.
+4. **Never edit the author's source files.** All changes live in a derived layer that `build.py` applies, keeping the word-count round trip honest: verify against source minus recorded changes.
+5. **Safety content is never weakened.** Safety notes, escalation triggers and safer response language: correct errors, never remove routes to help.
+6. Set each combo's `review_state` (`unreviewed` → `ai_resolved` → owner-approved `sources_verified`; extend the states and labels in `build.py`). Reader banner wording follows the state, e.g. "Checked against public sources, [date]." Get the owner's approval of that wording at checkpoint C.
+7. **Fix the defects the audit already found:**
+   - C144's index undercount;
+   - the 131 unresolved names (via the alias map);
+   - stage 6 named "Extract" in The Fractal and "Control" in the expanded book (present it as one stage);
+   - technique numbers in the owner's "Practice" script that don't match the published list (don't quote numbers).
+
+Run this for ENT now; build it so every future sector gets the same pass automatically.
+
+---
+
+## 5. The words: the final intro
+
+Rewrite `intro-v4.md` into `content/fractal2/intro-final.md`. Read intro-v4, the blueprint and the owner's messages first.
+
+- **Register:** powerful, organized writing in the owner's lens (psychological freedom and spiritual awakening, sovereignty, accountability). Not a fictional story, not a fact report. Signpost the lens once, the way the Spiritual Lens interlude does.
+- **Movements:**
+  - **I. What The Fractal saw, and what it led to:**
+    - the shape: 8 stages, 30 techniques, 3 nested levels, 30 sectors, 2,700 examples, the dare;
+    - every need has a gate, and the distortion of your relationship with the need;
+    - the **Origin**: a thought pattern and parasite that installs wherever a real need, a power gap and a gatekeeper meet, needing structures, not villains, and *separate from those who drive it on purpose* (the three categories of intent);
+    - the Mirror and the Chain;
+    - the original frequency;
+    - what every tradition tried to say (translation, not conversion; the way *down* to the kingdom within; the author's awakening drawn as a map for others);
+    - the world today; seeing as the first step.
+  - **II. The true map:** more than three hundred tactics per sector at three levels. Show one tactic at all three levels using real lines.
+  - **III. The weapons no one names (the heart):**
+    - combos multiply harm, because each tactic disables the defence against the next;
+    - the **sequence is the weapon** (use real tactic chains from the scripts);
+    - why precise understanding heals: inside one now, lived one before, never lived one;
+    - each counterfeit points back to what it imitated;
+    - "Why I made this", with the owner's facts exactly as given, none added.
+  - **Close:** what this is for; a one-line safety note; the two doors.
+- **Length and pacing:** 3,500–4,500 words, paced for scroll. Short paragraphs, set pieces that pair with visuals, one idea per screen at key moments.
+- **Canon vocabulary:** original frequency; counterfeit / original; false god (the pattern, never a being); gatekeeper and flaming sword; the cage and the intent; the chain; the mirror; the kingdom within; sovereignty; "same cycle, different building, every building".
+- **Voice:** second person carries the reader. The author's "I" is rare and hands back to "you". Grave, warm, precise. No AI tells: no stacked "it's not X, it's Y", no tricolon every paragraph, no em-dash confetti.
+- **Exact numbers:** 2,700; "more than three hundred" (335) per sector; "more than a thousand" per sector; combos "hundreds" (203 master, 153 in the first sector).
+- **Guardrails:**
+  - patterns, never people;
+  - no named villains;
+  - label any scenario as a composite;
+  - a short safety line;
+  - contested science phrased as the owner's belief, not fact;
+  - for "The Body Knows" and the War Map policy list, follow the owner's checkpoint A answer.
+
+---
+
+## 6. The experience: Apple-level single-page scroll
+
+**Quality bar — hold yourself to it explicitly:**
+- 60 fps on a mid-range phone. Animate only `transform` and `opacity` (and SVG stroke offsets). No layout thrash. CLS near 0. LCP under 2 seconds on throttled mobile.
+- Motion that feels physical:
+  - spring or bespoke cubic-bezier easing; no linear;
+  - interruptible, and scroll-linked where the meaning is progression;
+  - time-based where the meaning is a reveal;
+  - durations 200–900 ms;
+  - staggers that read as cause and effect.
+- Restraint: one hero moment per movement; everything else quiet. Every animation must *mean* something. Name each effect with `animation-vocabulary`.
+- Typography: a dramatic scale, a 60–75ch measure, optical sizing, real typographic quotes and dashes; maximum two families plus one mono.
+- Visual system: one accent; a strict spacing scale; consistent mark specs across all visualizations (`dataviz` / `refactoring-ui`).
+- Choose one of two visual directions at checkpoint B. For example:
+  - (1) an evolution of the sector field-guide look (cream paper, brush headings, highlighter) — continuity with the PDFs;
+  - (2) a cinematic "descent": a dark world that grows lighter as the reader goes down, resolving into warm light at the frequency.
+
+**Required visualizations**, each anchored to its passage, each with a full text equivalent:
+1. **The fractal** resolving from one shape into nested scales (opening).
+2. **The 8-stage ring** drawing itself, then **inverting** into the divine principles (Election, Covenant, Inherent Worth, Truth, Community, Abundance, Unfailing Presence, Irreplaceable Worth).
+3. **Nested levels**: person ⊂ institution ⊂ civilization ⊂ pattern ⊂ person.
+4. **30 gates**: each sector lights with "your relationship with ___" and its gatekeeper. Data: the dominion table in `A-…` and the 30 gardens in `the-spiritual-lens.html`. Nodes link to existing Fractal chapters.
+5. **The Origin's three conditions** (need · power gap · gatekeeper) converging, and the pattern appearing where they meet.
+6. **The Chain**: four generations passing the signal down.
+7. **Counterfeit ↔ original pairs** (faculties table; The Frequency's 30 counter-practices).
+8. **30 → 335**: the map multiplying across the 8 stages.
+9. **The combo multiplier**: links that each disable the next defence; harm compounding, not adding; then one link breaks and the whole chain falls.
+10. **The descent**: a depth rail and progress spine that ends at the frequency.
+
+**Engineering (binding, from CLAUDE.md):**
+- One self-contained page plus same-folder fonts if needed. No CDN, no frameworks, no external scripts.
+- Inline SVG, or Canvas where SVG is too heavy. Self-hosted fonts from `tools/fonts/` (subset to woff2).
+- CSS scroll-driven animations where supported, with an IntersectionObserver fallback.
+- The only external request is the existing Cloudflare beacon. Keep THE HOUSE drawer (`design/decoder-v10/assets/house.html`).
+- Prose lives in the HTML, not injected by JS.
+- **Reduced motion delivers everything statically.** Nothing is ever stuck invisible. Full keyboard and screen-reader paths (each visualization has a text alternative or table). WCAG 2.2 AA in light and dark. 44px targets. No horizontal overflow at 375px.
+- Section deep links (`/fractal2#origin`, …), a quiet progress rail with labelled markers, a collapsible mini-nav on phones, and an "updates" section with the version badge (CLAUDE.md "Patch notes & versioning").
+- SEO: title, description, canonical `https://noblefathercreations.com/fractal2`, OG image (render it with Playwright), JSON-LD.
+
+---
+
+## 7. Process and deliverables
+
+1. Inventory tools and skills (section 1). Write the "What I understood" note. **Checkpoint A.**
+2. `content/fractal2/FINAL-PLAN.md` (Sequential Thinking): outline and word budgets, a visualization storyboard (what appears at which line), interactions, the link map, a performance budget, and risks. Stress-test it with `grill-me`. Build two direction prototypes. **Checkpoint B.**
+3. `content/fractal2/ARCHITECTURE.md` + generator changes (base path, cross-links, alias resolution, search index, downloads), verified on ENT.
+4. Tag resolution for ENT (section 4). **Checkpoint C.** Then apply it and rebuild ENT.
+5. `content/fractal2/intro-final.md`. Run `copy-editing` and `no-ai-slop` over it.
+6. Build the page: source in `design/fractal2/`, output in `library/fractal2/site/` (record the paths in `sites.json` as an undeployed project, `pendingDeploy`).
+7. **Verify** (write `design/fractal2/verify.mjs`, modelled on `design/fractal-sector/verify.mjs`):
+   - Playwright screenshots at 375 and 1440, light and dark, reduced motion, and at every visualization's scroll position;
+   - `pageerror`, overflow and opacity-stuck checks;
+   - axe-core (`npm i --no-save axe-core`);
+   - every internal link resolves;
+   - a long-task and frame-timing sample while scrolling;
+   - ENT `run.sh` still passes, word-count round trip adjusted for recorded resolutions.
+
+   **Look at your screenshots before you claim anything works.**
+8. Critique passes: `impeccable` critique → polish; `review-animations`; `web-accessibility`; `web-perf`; one independent subagent review (`impeccable-finish-reviewer` or `visual-storyteller`). Fix what they find.
+9. **Checkpoint D.** Report to the owner in plain language:
+   - what you built, with screenshots;
+   - the tag-resolution summary;
+   - the architecture in one diagram;
+   - what is ready to deploy and exactly what deploying would change (in plain words, including routing);
+   - the open questions.
+
+---
+
+## 8. Definition of done
+
+- The intro reads as the owner's most powerful work, organized and in their lens.
+- All ten visualizations work, mean something, and degrade gracefully.
+- Navigation links every tactic, combo, sector, Fractal chapter and Decoder entry by id, with nothing guessed.
+- Every tag in ENT has a recorded decision, nothing false remains in reader text, and safety content is intact.
+- All checks pass, screenshots have been reviewed, and nothing is deployed.
+
+## 9. Things that are already decided (don't reopen)
+
+- Everything lives on noblefathercreations.com; no new domains. Sector pages carry receipts and labels; the intro is the storyteller register.
+- Tactics go on stage pages with anchors, not one thin page each. Combos are the pages built to rank.
+- No Figma, Canva or Adobe in the build; no site frameworks; Python stdlib generator and Playwright checks.
+- Production cues (`[SPEAK]`, `[HARD CUT]`) and the Credibility Audit never appear on reader pages. Internal ids are never shown to readers. Safety notes always come first.
+
+## 10. Context you must not lose
+
+- The ENT field guide is currently public at `fractal-entertainment.netlify.app/fractal/entertainment` (not linked or submitted anywhere). It was deployed further than the owner intended. Treat its future address as part of your architecture, and confirm it at checkpoint A.
+- Hub routing for `/fractal/entertainment` is committed but not deployed (`sites.json` → `hub.pendingDeploy`). Do not deploy it. Replace it with the `/fractal2` routing in your plan.
+
+## 11. Absolute rules
+
+- **Do not deploy anything.** The owner names each deployment in the conversation; a preview must be private. If "live" is ambiguous, ask.
+- Before any production action, fetch all branches and run `node scripts/verify-deployed.mjs`. Another chat's work may be live and ahead of this branch.
+- Never edit the owner's scripts or source files. Never change wording inside published books (connector links only, ask first).
+- Patterns, never people. A short safety line on every page.
+- Commit and push to `claude/great-keller-jkjz8c` as you go. Update `MEMORY.md`, `content/fractal2/HANDOFF.md` and `DECISIONS.md`.
