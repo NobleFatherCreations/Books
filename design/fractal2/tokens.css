@@ -1,0 +1,74 @@
+/* Fractal² shared design tokens and base. Used by the intro (design/fractal2/build_intro.py) and by every
+   sector site (design/fractal-sector/build.py). One language: "Deep field".
+   Dark first. One accent (gold = the original, the signal, the thing you can act on). Two typefaces.
+   8px grid. Stage hues are data ink only (small marks), never decoration.
+   /F/ is replaced at build time with the absolute font directory. */
+@font-face{font-family:"Newsreader";src:url("/F/newsreader.woff2") format("woff2");font-weight:200 800;font-style:normal;font-display:swap}
+@font-face{font-family:"Newsreader";src:url("/F/newsreader-italic.woff2") format("woff2");font-weight:200 800;font-style:italic;font-display:swap}
+@font-face{font-family:"Hanken Grotesk";src:url("/F/hanken.woff2") format("woff2");font-weight:100 900;font-style:normal;font-display:swap}
+
+:root{
+  color-scheme:dark light;
+  /* surface */
+  --bg:#0B0C0F; --bg-1:#111319; --bg-2:#191C24; --line:#2B2F3A; --line-2:#3A3F4D;
+  /* ink */
+  --ink:#EEE9DE; --ink-2:#B9B4A8; --ink-3:#8D897F;
+  /* the one accent */
+  --gold:#E9B949; --gold-2:#F4D58A; --on-gold:#0B0C0F; --gold-wash:rgba(233,185,73,.12);
+  /* function, not decoration */
+  --warn:#F2906F; --warn-wash:rgba(242,144,111,.12);
+  /* the eight stages: warmth cooling into distance */
+  --s1:#F2C14E; --s2:#F09A3E; --s3:#E8683F; --s4:#D9486A; --s5:#B061B4; --s6:#7B83E0; --s7:#58A3D6; --s8:#8FB3C2;
+  /* type */
+  --serif:"Newsreader","Iowan Old Style","Palatino Linotype",Georgia,serif;
+  --sans:"Hanken Grotesk",system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;
+  --t-display:clamp(2.75rem,1.2rem + 7.6vw,6.5rem);
+  --t-h1:clamp(2.25rem,1.4rem + 4.2vw,4.25rem);
+  --t-h2:clamp(1.625rem,1.25rem + 1.9vw,2.5rem);
+  --t-h3:clamp(1.25rem,1.15rem + .5vw,1.5rem);
+  --t-lede:clamp(1.1875rem,1.1rem + .45vw,1.4375rem);
+  --t-body:1.1875rem; --t-ui:.9375rem; --t-small:.8125rem; --t-micro:.6875rem;
+  --measure:38rem;
+  /* space: 8px grid */
+  --1:.5rem; --2:1rem; --3:1.5rem; --4:2rem; --6:3rem; --8:4rem; --12:6rem; --16:8rem;
+  --gutter:clamp(1.25rem,5vw,3rem);
+  --r:10px; --r-2:16px;
+  /* motion */
+  --ease:cubic-bezier(.16,1,.3,1); --ease-io:cubic-bezier(.65,0,.35,1);
+  --d1:.2s; --d2:.32s; --d3:.7s;
+}
+@media (prefers-color-scheme:light){
+  :root{
+    --bg:#F5F0E6; --bg-1:#FBF8F2; --bg-2:#ECE5D7; --line:#D6CDBD; --line-2:#BDB29F;
+    --ink:#16171B; --ink-2:#45443F; --ink-3:#66645D;
+    --gold:#8A5E00; --gold-2:#6E4B00; --on-gold:#FFFDF8; --gold-wash:rgba(160,112,0,.11);
+    --warn:#A53A1E; --warn-wash:rgba(165,58,30,.09);
+    --s1:#8C6200; --s2:#A85A00; --s3:#B5421C; --s4:#B02A4E; --s5:#8A3F8E; --s6:#4A52B8; --s7:#256FA3; --s8:#44707F;
+  }
+}
+
+*,*::before,*::after{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%;text-size-adjust:100%;scroll-padding-top:5rem}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:var(--serif);font-size:var(--t-body);line-height:1.6;
+  font-optical-sizing:auto;-webkit-font-smoothing:antialiased;text-rendering:optimizeLegibility;overflow-wrap:break-word}
+h1,h2,h3,h4{font-family:var(--serif);font-weight:500;line-height:1.08;letter-spacing:-.018em;margin:0;text-wrap:balance}
+h1{font-size:var(--t-h1)} h2{font-size:var(--t-h2);line-height:1.12} h3{font-size:var(--t-h3);line-height:1.2;letter-spacing:-.01em}
+p{margin:0 0 var(--3);text-wrap:pretty}
+a{color:inherit;text-decoration-line:underline;text-decoration-thickness:1px;text-underline-offset:.2em;text-decoration-color:var(--gold);
+  transition:color var(--d1) var(--ease),text-decoration-color var(--d1) var(--ease)}
+a:hover{color:var(--gold)}
+:focus-visible{outline:2px solid var(--gold);outline-offset:3px;border-radius:4px}
+::selection{background:var(--gold);color:var(--on-gold)}
+strong,b{font-weight:650}
+button,input,select{font:inherit;color:inherit}
+img,svg,canvas{max-width:100%}
+.ui{font-family:var(--sans);font-size:var(--t-ui);line-height:1.45}
+.kicker{font-family:var(--sans);font-size:var(--t-micro);font-weight:600;letter-spacing:.16em;text-transform:uppercase;color:var(--ink-2);margin:0 0 var(--2)}
+.num{font-family:var(--sans);font-variant-numeric:tabular-nums lining-nums}
+.vh{position:absolute!important;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);clip-path:inset(50%);white-space:nowrap}
+.skip{position:absolute;left:var(--2);top:-4rem;z-index:100;background:var(--gold);color:var(--on-gold);padding:var(--1) var(--2);border-radius:var(--r);
+  font-family:var(--sans);font-size:var(--t-ui);text-decoration:none;transition:top var(--d1) var(--ease)}
+.skip:focus{top:var(--2)}
+@media (prefers-reduced-motion:reduce){
+  *,*::before,*::after{animation-duration:.001ms!important;animation-iteration-count:1!important;transition-duration:.001ms!important;scroll-behavior:auto!important}
+}
