@@ -12,5 +12,5 @@ for b in sys.argv[1:]:
     sm = ROOT / ("hub/sitemap.xml" if b == "hub" else f"library/{b}/sitemap.xml")
     urls += [e.text for e in ET.parse(sm).getroot().iter("{http://www.sitemaps.org/schemas/sitemap/0.9}loc")]
 body = json.dumps({"host": "noblefathercreations.com", "key": KEY, "keyLocation": f"https://noblefathercreations.com/{KEY}.txt", "urlList": urls[:10000]}).encode()
-req = urllib.request.Request("https://api.indexnow.org/indexnow", data=body, headers={"Content-Type": "application/json; charset=utf-8", "User-Agent": "noblefathercreations-indexnow/1.0"})
+req = urllib.request.Request("https://www.bing.com/indexnow", data=body, headers={"Content-Type": "application/json; charset=utf-8", "User-Agent": "noblefathercreations-indexnow/1.0"})
 print(len(urls), "urls ->", urllib.request.urlopen(req, timeout=30).status)

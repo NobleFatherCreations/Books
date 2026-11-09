@@ -4925,3 +4925,8 @@ scratchpad/deploy2/hub refreshed. Still awaiting the owner's "deploy the homepag
   tactics were drafted by a subagent (content/decoder-v20/sounds_like.json) — owner should skim. OWNER RULE: never
   change names or wording in the books (children's and Festie Bible use their own audience names); connectors only,
   ask before touching book writing. An interrupted book rebuild was fully reverted; books = live.
+- 2026-11-09 (late): Decoder v20 DEPLOYED (6af18f94) after a design-skills review (impeccable, refactoring-ui,
+  emil-design-eng; bugs: faux italic, code-line spacing, dangling commas, prev/next leading, doubled rules — all fixed;
+  upgrades: quieter pattern box below the main action, book mentions grouped by book, arrows, brand mark, custom bullets,
+  light-mode panels, chips, compact section rail). Live verified: 380 files identical, 301s work. Bing IndexNow pinged
+  (indexnow.py now posts to www.bing.com/indexnow). docs/AI-QUICKSTART.md rewritten as the full hand-off for a new chat.
