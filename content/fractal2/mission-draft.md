@@ -45,3 +45,38 @@ This is recognition and safe routing, never a playbook. Patterns describe situat
 - Fractal² per sector: 335 tactics × 3 altitudes = 1,005 examples; patterns from the master list that fit the sector (ENT: 153 of 203).
 - Across 30 sectors: about 30,000 tactic examples, plus several thousand pattern scripts.
 - Avoid in public copy: "documented points" (most examples are labelled composites), "not found anywhere in clinical literature", "what professors assign". Unverified claims weaken everything else.
+
+---
+
+# DRAFT 2 (2026-11-09), grounded in the five interludes and the owner's own account
+
+Sources read: The Origin, The Spiritual Lens, The Mirror, The Chain (epigenetics), The Frequency (library/fractal/*.html).
+"Why I made this" uses only facts the owner gave; owner to edit.
+
+## Fractal²
+*Cut the strings. Find the frequency.*
+
+The Fractal proved one thing. The cycle that tried to break you in one relationship is the same cycle running in your school, your church, your job, your bank, your country. Thirty techniques. Thirty sectors. Three levels. The same pattern in every building. [Start with The Fractal →](/fractal)
+
+It also found something underneath. Every technique is a counterfeit of something real. Love bombing counterfeits welcome. Gaslighting counterfeits honest witness. Trauma bonding counterfeits attachment. The machine cannot create; it can only corrupt what was already alive in you. The original is still there. The Fractal called it the frequency.
+
+Fractal² is the second half of that work: taking the machine apart, piece by piece, until nothing stands between any of us and the frequency we were born with.
+
+Each sector gets its own field guide: 335 tactics at three altitudes, and the patterns where they combine, told as stories and then taken apart. The order the tactics run in. Why that order works on a nervous system. How to know if you are inside it. What breaks the chain.
+
+Every string someone holds over another person is made of something: a debt, a secret, a fear, a promise, a door only they can open. Fractal² names what each string is made of, so it can be cut.
+
+### Why I made this
+I have been on the receiving end of these techniques at their highest level, more than once, and each time it cost me more than I can measure. The most recent time, people tried to take everything from me and from someone I love, and they did it for money. My healing meant forgiving the people who tried to destroy my mind and my heart. Forgiveness freed me. It did not stop the tools. Those still work on someone else tonight.
+
+So this is my justice. I will not expose them. I will expose what they used — every technique, in every sector, in plain words — to the whole world, until none of it works on anyone again and no one who relies on it can feel safe in the shadows.
+
+### What this is for
+Freedom, in two senses: the psychological freedom of naming what was done to you, and the spiritual freedom of hearing your own signal again. True sovereignty means no one else holds your strings. True accountability means the tools stop working, so no one can hide behind them.
+
+Most of the machine runs without malice, passed down through institutions, families and bodies. Some people run it on purpose, for gain, at someone else's expense. This work offers grace to the first, and no hiding place to the second.
+
+It names patterns, never people. It is recognition and safe routing, never a playbook. Anyone in danger is pointed to real help first.
+
+### What's coming
+Now: Entertainment & Music. Next: Music Festivals and Spiritual Communities. Then every remaining sector, until all thirty have their own field guide. [owner's timeline]
