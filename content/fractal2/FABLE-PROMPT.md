@@ -254,6 +254,36 @@ Look at the screenshots yourself before claiming anything works.
 - Keep `MEMORY.md`, `HANDOFF.md` and a `DECISIONS.md` current.
 - Register the builds in `sites.json` as undeployed (`pendingDeploy`).
 
+## Delegate what doesn't need you (cost discipline)
+
+You are the most capable and most expensive model in this project. Spend your effort on judgment, taste and synthesis, and hand execution to cheaper models wherever a clear spec makes that safe.
+
+**Keep these yourself:**
+- the reading and the "What I understood" note;
+- the final intro writing;
+- the creative direction and design system;
+- the navigation design;
+- the tag-resolution policy and the genuinely ambiguous claims;
+- the rubrics;
+- the owner questions;
+- the final acceptance review.
+
+**Hand off the rest** through self-contained work packets that a model starting cold can finish without asking:
+- **Opus:** complex implementation from your specs (visual choreography, the generator refactor, verify extensions, fixes).
+- **Sonnet:** bulk first-pass claim research, QA screenshot runs, UI strings, narration markup, docs.
+- **Haiku:** mechanical transforms and checks.
+
+Use subagents with a model override (`model: "opus"` / `"sonnet"` / `"haiku"`), one at a time, and stop on any rate-limit error. Or write the packets for separate sessions.
+
+**Write these hand-off files:**
+- `content/fractal2/DESIGN-SPEC.md`: tokens, type, motion language (curves, durations, staggers), and a storyboard for each visualization with acceptance criteria.
+- `content/fractal2/NAV-SPEC.md`: the navigation design.
+- `content/fractal2/TAG-POLICY.md`: verdict rules, worked examples, and when to escalate back to you.
+- `content/fractal2/RUBRICS.md`: the rubrics.
+- `content/fractal2/work-packets/NN-*.md`, one per packet, each with its goal, inputs (repo paths), output paths, done criteria, the tests to run, and "escalate if…".
+
+Build one hero visualization yourself first, to set the bar the delegated work must match. Review every packet's output against its criteria and the rubrics before accepting it.
+
 ## When to ask the owner
 
 Use AskUserQuestion. Each question must:
