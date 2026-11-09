@@ -357,11 +357,17 @@ def decoder_terms():
     for f in sorted(site.glob("*.html")):
         if f.name in ("index.html", "tactics.html") or f.name.startswith("line-"):
             continue
-        t = re.search(r"<title>(.*?):", read(f))
+        page = read(f)
+        t = re.search(r"<title>(.*?):", page)
         if t:
-            name = html.unescape(t.group(1)).strip()
-            if len(name) >= 6 and " " in name or len(name) >= 10:
-                out.append((name, f"/playbook/{f.stem}"))
+            full = html.unescape(t.group(1)).strip()
+            also = re.search(r'<p class="also">Also called (.*?)</p>', page)
+            cands = [full] + [x.strip() for x in full.split(" / ")]
+            if also:
+                cands += [html.unescape(re.sub(r"<[^>]+>", "", x)).strip() for x in also.group(1).split(", ")]
+            for name in dict.fromkeys(re.sub(r"\s*\(.*?\)\s*", " ", c).strip() for c in cands):
+                if len(name) >= 6 and " " in name or len(name) >= 10:
+                    out.append((name, f"/playbook/{f.stem}"))
     out.sort(key=lambda x: -len(x[0]))
     return out
 

@@ -1,0 +1,336 @@
+single_no,standard_id,name,stage,family,definition,sources,new,combo_uses,also_called
+T001,S1-001,Love Bombing,IDEALIZE,intimate-family,Overwhelming attention designed to flood bonding signals and bypass discernment.,EDU MEDIA NF COMBOS,,10,
+T002,S1-002,Manufactured Destiny,IDEALIZE,intimate-family,Creating a sense of fated connection to bypass critical evaluation.,EDU NF COMBOS,,3,
+T003,S1-003,Manufactured Intimacy,IDEALIZE,intimate-family,Engineering synthetic closeness before trust is earned.,EDU MEDIA NF COMBOS,,7,Weaponized AI Empathy
+T004,S1-004,Forced Teaming,IDEALIZE,general,"""We"" language used to create false alliance before trust exists.",EDU MEDIA NF COMBOS,,4,Alignment Framing; Pseudo-Mutual Identity
+T005,S1-005,Premature Vulnerability / Trauma Dumping,IDEALIZE,intimate-family,Deep disclosures too early to create obligation and recruit caretaking.,EDU MEDIA COMBOS,,3,Premature Vulnerability; Selective Vulnerability
+T006,S1-007,The Rescue Hook,IDEALIZE,intimate-family,Subtle helplessness designed to recruit your caretaker identity.,EDU NF COMBOS,,3,
+T007,S1-008,Pedestal Ploy / The Exception Script,IDEALIZE,intimate-family,Elevating you above peers as an isolation primer.,EDU MEDIA NF COMBOS,,4,Pedestal Ploy; Social Elevation; The Exception Script; The Exception Script (Recycled)
+T008,S1-009,Emotional Flooding,IDEALIZE,general,Overwhelming intensity so the nervous system confuses urgency with trust.,EDU MEDIA NF COMBOS,,4,Intensity as Intimacy
+T009,S1-010,Exclusive Meaning,IDEALIZE,intimate-family,Framing the connection as rare or elite so leaving feels like losing something sacred.,EDU MEDIA NF COMBOS,,4,Exclusive Access; Privileged Access Framing
+T010,S1-011,Loan-Sharking Gifts,IDEALIZE,general,Unsolicited generosity designed to create invisible debt.,EDU MEDIA NF COMBOS,,5,Free Adoption; Gift Economy; Weaponized Generosity
+T011,S1-012,Weaponized Generosity in Public,IDEALIZE,general,Grand gestures witnessed by others to build reputation and create invisible obligation.,EDU MEDIA COMBOS,,2,
+T012,S1-013,Performative Public Affection / Dr. Jekyll and Mr. Hyde,IDEALIZE,general,"Wonderful in public, different in private, making disclosure unbelievable.",EDU MEDIA NF COMBOS,,10,Charm Offensive; Dr. Jekyll / Mr. Hyde; Dr. Jekyll/Mr. Hyde; Performative Public Affection; Public Praise / Private Punishment
+T013,S1-014,Mirroring-on-Demand,IDEALIZE,intimate-family,Matching your values to create artificial alignment.,EDU MEDIA NF COMBOS,,1,Mirroring; Rapport Hijacking
+T014,S1-015,Credential-Costuming,IDEALIZE,general,Faked or inflated authority used to project power.,EDU MEDIA NF COMBOS,,1,
+T015,S1-017,Catfishing,IDEALIZE,online,A false representation designed to hook you before you see reality.,EDU MEDIA NF COMBOS,,2,Identity Performances
+T016,S1-018,Social Engineering,IDEALIZE,online,Manipulating you into giving information by sounding credible or caring.,EDU MEDIA NF,,2,AI-Driven Social Engineering (Automated)
+T017,S1-019,"""We're Family"" Erasure",IDEALIZE,general,Family framing used to dissolve professional boundaries.,EDU NF COMBOS,,5,
+T018,S1-020,Golden Child Elevation,IDEALIZE,intimate-family,"One person in a family or group is held up as the standard, praised and excused, and their example is used to measure everyone else.",NF COMBOS,,1,
+T019,S1-021,Tokenism,IDEALIZE,institutional,"One member of a group is given a visible seat or title and expected to stand for everyone like them, while their views are rarely asked for.",NF COMBOS,,3,Recruitment Without Preparation; Representational Tokenism
+T020,S1-022,Performative Allyship / False Solidarity,IDEALIZE,institutional,"Public support or shared values are declared, but nothing done in private backs them up when support would cost something.",NF,,1,
+T021,M-008,Premature Trust Extraction,IDEALIZE,general,Pressuring the target to share before earning the right to hold it.,MEDIA,,1,
+T022,M-009,Identity Auditing,IDEALIZE,general,Mapping the target's vulnerabilities for strategic use.,MEDIA COMBOS,,1,Vulnerability Identification
+T023,M-013,Rescuer Positioning,IDEALIZE,general,Presenting as the answer to the target's confusion or fear.,MEDIA COMBOS,,1,Leadership Arrival Narrative
+T024,M-023,Pacing and Leading,IDEALIZE,general,"First matching the target's rhythm, then shifting it toward dependency.",MEDIA,,1,
+T025,S1-024,Performative Reception,IDEALIZE,institutional,"A concern is received with warmth, speed and sympathy, but nothing that follows changes what happened.",COMBOS,yes,6,Institutional Intake Performance; Procedural Legitimation; Responsive Performance; Responsive Velocity; Sympathetic Intake
+T026,S1-025,Target Selection,IDEALIZE,general,"One person is singled out for special attention because they look most isolated, most eager or most useful, and the attention feels like being chosen.",COMBOS,yes,2,Talent Identification and Institutional Capture
+T027,S1-026,Gatekeeper Grooming,IDEALIZE,general,"The people around a target, such as parents, colleagues or an institution, are won over first, so that later access goes unquestioned and concerns are not believed.",new,yes,1,Grooming the Environment
+T028,S2-001,Future Faking,HOOK,general,Promises of a future that secure present compliance with no guarantee of delivery.,EDU MEDIA NF COMBOS,,6,Paper Deferral
+T029,S2-002,Identity Hooking,HOOK,general,Binding your self-worth to their system so leaving feels like losing yourself.,EDU MEDIA NF COMBOS,,12,Identity Installation; Social Identity Threat
+T030,S2-003,Premature Exclusivity,HOOK,intimate-family,Pushing for commitment before evaluation is possible.,EDU MEDIA NF,,1,
+T031,S2-004,Commitment Traps / Foot-in-the-Door,HOOK,general,Small agreements that escalate into obligations.,EDU MEDIA NF COMBOS,,8,Commitment Traps; Escalation Testing; Foot-in-the-Door; Gradual Escalation; Graduated Compliance
+T032,S2-005,Manufactured Urgency,HOOK,general,"""Decide now"" pressure to bypass discernment.",EDU MEDIA NF COMBOS,,3,Commitment Before Verification; Compressed Window; Pressure to Sign; Urgency Manufacturing
+T033,S2-006,Manufactured Scarcity,HOOK,general,"""This is your only chance"" framing to trigger fear of loss.",EDU MEDIA NF COMBOS,,3,FOMO Lock; Manufactured Oversubscription
+T034,S2-008,Obligation Hooks,HOOK,general,"Installing a sense of ""owing"" that makes saying no feel like moral failure.",EDU NF COMBOS,,7,Obligation Installation; Social Debt Invocation
+T035,S2-009,Favor Debt,HOOK,general,Tracking generosity on an invisible ledger to cash in later.,EDU MEDIA NF COMBOS,,3,Emotional Debt Accumulation; Obligation Layering; Reciprocity Activation
+T036,S2-011,Duty Scripts,HOOK,general,Cultural obligations framed as identity requirements.,EDU MEDIA NF COMBOS,,8,
+T037,S2-012,Sunk Cost Exploitation,HOOK,general,Making you focus on what you've invested rather than what you're getting.,EDU MEDIA NF COMBOS,,9,
+T038,S2-013,Confirmation Bias Exploitation,HOOK,general,"Leveraging your tendency to focus on evidence that confirms the ""good version.""",EDU MEDIA NF,,1,
+T039,S2-014,Halo Effect Exploitation,HOOK,general,One positive trait used to override pattern recognition.,EDU MEDIA NF,,1,
+T040,S2-016,Hoovering / Relief Bait,HOOK,intimate-family,"Pulling you back after distance through charm, apology, or promises.",EDU MEDIA NF COMBOS,,9,Hoovering; Hoovering (Post-Discard); Hoovering (Replacement Phase); Periodic Reinforcement of the Ideal; Relief Bait; Zombieing
+T041,S2-017,Obligation Contracts,HOOK,general,Unspoken debts enforced through shame.,EDU MEDIA NF COMBOS,,6,Covert Contract; Covert Contracts
+T042,S2-018,Golden Bars,HOOK,general,"Privileges that come with strings of compliance, making the cage feel like a gift.",EDU MEDIA NF COMBOS,,5,
+T043,S2-020,Financial Enmeshment,HOOK,intimate-family,Tangling finances to make separation catastrophic.,EDU MEDIA COMBOS,,6,
+T044,S2-021,Financial Dependence by Design,HOOK,general,Structuring finances so you cannot leave.,EDU MEDIA NF COMBOS,,8,
+T045,S2-022,Platform Migration,HOOK,online,Moving communication off-record to reduce accountability.,EDU MEDIA NF,,1,
+T046,S2-023,Bread-crumbing,HOOK,intimate-family,"Just enough to keep you striving, never enough to satisfy.",EDU MEDIA NF COMBOS,,2,Benching; Breadcrumbing; Cushioning; Hope as a Leash
+T047,S2-025,Boundary Testing,HOOK,general,Small violations to gauge tolerance before escalating.,EDU MEDIA NF COMBOS,,3,Boundary Testing (Disguised)
+T048,S2-027,"""Sacred Duty"" Manipulation / Mission Framing",HOOK,general,Framing participation as spiritual or moral obligation.,EDU MEDIA NF COMBOS,,3,"""Sacred Duty"" Manipulation; Mission Declaration; Mission Framing; Spiritual Abuse/Sacred Manipulation; Spiritual Coercion"
+T049,S2-029,Martyrdom Display,HOOK,general,"Effort and self-denial are made visible through sighs, lists of sacrifices and ""don't mind me"", so others feel they must make up for it.",NF COMBOS,,1,
+T050,S2-030,Demand for Gratitude,HOOK,general,"Help is turned into something that must be repaid in visible thanks, and any complaint is answered with what you were given.",NF COMBOS,,5,
+T051,S2-031,Door-in-the-Face,HOOK,general,"A large request you are expected to refuse comes first, so the smaller request that follows feels like a fair compromise.",NF,,1,
+T052,S2-032,Anchoring,HOOK,general,"The first number, price or standard you hear becomes the reference point, so everything after it is judged against it.",NF COMBOS,,3,
+T053,S2-033,Bait and Switch,HOOK,general,"An attractive offer gets your commitment, and what you actually receive is worse, changed or missing once leaving has become costly.",MEDIA NF COMBOS,,1,Lowball Technique; Terms Modification
+T054,S2-036,Agent of Influence Operations,HOOK,propaganda,"A credible voice promotes another party's interests without disclosing the connection, so you take their view as independent.",NF,,1,
+T055,S2-038,Mystical Manipulation,HOOK,cult,"Experiences presented to you as spontaneous, divine or fated were in fact arranged in advance.",NF,,1,
+T056,S2-039,Charismatic Authority Dependence,HOOK,cult,"Answers, permission and meaning all come from one leader, so doubting the leader feels like losing your footing.",NF COMBOS,,2,Charismatic Authority
+T057,S2-041,Parasocial Manipulation Engineering,HOOK,online,A one-way sense of closeness with someone you follow is cultivated and then used to sell to you or move you.,NF,,1,
+T058,S2-044,Algorithmic Targeting of Vulnerable Populations,HOOK,online,"Advertising and recommendation systems sort people by what they search, buy and watch, and aim offers at those least able to resist them.",NF COMBOS,,1,Algorithmic Profiling; Demographic Patterning
+T059,S2-046,Emotional Parasitism,HOOK,intimate-family,"Over a long time one person reliably receives care, attention and support from you, and little or nothing comes back.",MEDIA NF COMBOS,,5,Emotional Labor Extraction
+T060,M-041,Vulnerability Weaponization,HOOK,general,Using shared fears or wounds as leverage.,MEDIA,,1,Weaponized Intimacy
+T061,M-046,Shared Secret Binding,HOOK,general,Creating complicity that makes leaving feel like betrayal.,MEDIA COMBOS,,3,Complicity Implication; Mutual Exposure Framing
+T062,M-048,Grooming Through Praise,HOOK,general,Selectively praising behaviors that serve the manipulator.,MEDIA,,1,
+T063,M-050,Anchoring to Peak Moments,HOOK,general,Referencing past highs to maintain present attachment.,MEDIA,,1,
+T064,M-066,Loyalty Testing,HOOK,general,"Creating scenarios to test allegiance, then punishing failure.",MEDIA COMBOS,,1,Punishment of Disloyalty
+T065,M-069,Crisis Bonding,HOOK,general,Manufacturing or escalating crises to bond through shared urgency.,MEDIA,,1,
+T066,M-071,Bait Disclosure,HOOK,general,"Pretending to reveal information to draw the target in, then weaponizing their reaction.",MEDIA,,1,
+T067,S2-047,Authority Worship,HOOK,general,"Rank, title or position is presented as beyond question, so deferring feels like a virtue and asking why feels like disrespect.",COMBOS,yes,2,
+T068,S2-048,Buried Consent,HOOK,online,"Agreement is collected through long, vague or scattered terms that no ordinary person can realistically read, then treated as full and informed consent.",COMBOS,yes,3,Buried Consent Disclosure; Consent Theater; Disaggregated Consent; Standard-Term Camouflage
+T069,S2-049,Deniable Authorization,HOOK,institutional,"Permission is given only in conversation or by hint, never in writing, so it can later be denied.",COMBOS,yes,1,Verbal Authorization
+T070,S2-050,Gamified Compulsion,HOOK,online,"Streaks, badges, levels and progress bars make stopping feel like losing something already earned.",COMBOS,yes,1,Progress Gamification; Streak Architecture
+T071,S2-052,Reputation Braiding,HOOK,general,"Your name is tied in public to the other party early, before any concern exists, so later criticism of them would damage you too.",COMBOS,yes,1,Public Association
+T072,S2-053,Pocketing,HOOK,intimate-family,"You are kept apart from the other person's friends, family and public life, so the relationship exists only in private, with no witnesses. (Informal term from dating culture; no peer-reviewed research was found.)",new,yes,1,Stashing
+T073,S2-054,Forced Continuity,HOOK,online,A free or low-cost start turns into ongoing payment or commitment without a clear moment where you choose to continue.,new,yes,1,
+T074,S2-055,That's-Not-All,HOOK,general,"Before you can answer an offer, extras are added or the price is lowered, so you decide on the sweetened version without time to weigh the original.",new,yes,1,
+T075,S2-056,Disrupt-Then-Reframe,HOOK,general,"An odd or confusing phrase briefly throws you off, and a reassuring reframe arrives in the same breath, so you accept the framing before you have regrouped.",new,yes,1,
+T076,S2-057,Legitimizing Paltry Contributions,HOOK,general,"A request is framed so that even the smallest contribution counts (""even a little helps""), which makes saying no at all feel unreasonable.",new,yes,1,
+T077,S2-058,Persistent Nagging,HOOK,online,"The same request or prompt keeps coming back, with no way to make it stop, until giving in is easier than saying no again.",new,yes,1,
+T078,S3-001,Intermittent Reinforcement / Push-Pull,DEVALUE,general,Unpredictable reward that creates addiction-like striving.,EDU MEDIA NF COMBOS,,14,Emotional Bait-and-Switch; Intermittent Availability; Intermittent Reinforcement; Occasional Indulgences; Proximity Control; Push-Pull; Push-Pull / Rubberbanding; Push-Pull Cycling; Variable Ratio Reinforcement; Variable Reward Scheduling
+T079,S3-002,Shame Installation,DEVALUE,general,"Moving you from ""I did something wrong"" to ""I am something wrong.""",EDU MEDIA NF COMBOS,,16,Shame Cycling
+T080,S3-003,Labeling as Identity Warfare,DEVALUE,general,"Words like ""difficult"" or ""problem child"" used to replace identity with a defect.",EDU MEDIA NF COMBOS,,10,Condition-Identity Fusion; Deficit Framing; Institutional Language Framing; Labeling; Name Erosion; Program Naming; Strength Invisibility
+T081,S3-004,Withholding / Silent Treatment,DEVALUE,intimate-family,"Removing attention, resources, or approval as punishment.",EDU MEDIA NF COMBOS,,6,Attention Starvation; Emotional Withholding; Love Withdrawal; Punishment by Withdrawal; Silent Treatment; Withholding
+T082,S3-005,Moving Goalposts,DEVALUE,general,"Standards that shift so you never arrive at ""good enough.""",EDU MEDIA NF COMBOS,,11,Milestone Migration; Moving the Goalpost; Standards Shifting
+T083,S3-006,Baiting,DEVALUE,general,Provoking a reaction to weaponize as evidence of your instability.,EDU MEDIA NF COMBOS,,5,Reactive Abuse Provocation
+T084,S3-007,Tone Policing,DEVALUE,general,Redirecting from your concern to your delivery.,EDU MEDIA NF COMBOS,,10,"""You're Too Emotional""; Clinical Tone Policing; Frame Assassination"
+T085,S3-008,Emotional Invalidation,DEVALUE,general,Dismissing your feelings as irrelevant or excessive.,EDU MEDIA NF COMBOS,,2,Covert Invalidation; Delegitimizing Emotion
+T086,S3-010,Contempt,DEVALUE,general,Superiority and disgust used to erode self-worth.,EDU MEDIA NF COMBOS,,3,Curiosity Dismissal; Intellectual Belittling; Microexpressions of Contempt; Projected Disgust
+T087,S3-011,Double Binds,DEVALUE,general,Contradictory demands where you lose either way.,EDU MEDIA NF COMBOS,,4,Contradictory Expectations; Double Bind Installation; Paradoxical Injunctions
+T088,S3-012,Negging,DEVALUE,general,Backhanded compliments that lower self-esteem and increase approval-seeking.,EDU MEDIA NF COMBOS,,5,Backhanded Compliments; Body Shaming (Covert)
+T089,S3-013,Comparative Devaluation,DEVALUE,general,Phantom comparisons to make your experience seem like a personal failing.,EDU MEDIA NF COMBOS,,12,Averages as Benchmarks; Comparison Architecture; Comparison Weaponization; Positional Scoring; Ranking Architecture; Real-Time Visibility
+T090,S3-014,Name-Calling Disguised as Humor,DEVALUE,general,Insults wrapped in jokes.,EDU MEDIA NF COMBOS,,2,Humor as Weapon; Sarcasm as Weapon
+T091,S3-015,Time Theft,DEVALUE,general,Wasting your time as a devaluation signal.,EDU MEDIA NF COMBOS,,1,
+T092,S3-016,Strategic Apathy / Weaponized Indifference,DEVALUE,general,Indifference to your concerns signaling they don't deserve engagement.,EDU MEDIA NF COMBOS,,2,Strategic Apathy; Weaponized Indifference
+T093,S3-017,Weaponized Incompetence,DEVALUE,institutional,Performing tasks poorly so you stop asking.,EDU MEDIA NF COMBOS,,1,
+T094,S3-019,Minimization,DEVALUE,general,"""It's not that bad"" used to dismiss real harm.",EDU MEDIA NF COMBOS,,6,Effort Minimization; False Conclusion from Normal Labs; Gaslighting by Minimization; Medical Gaslighting; Trivializing
+T095,S3-021,Credit Theft,DEVALUE,institutional,Your work presented by someone else as their own.,EDU MEDIA NF COMBOS,,4,Idea Theft in Real Time
+T096,S3-022,Credit Laundering,DEVALUE,institutional,Your contribution passed through a chain until authorship disappears.,EDU MEDIA NF,,1,
+T097,S3-023,Impossible Metrics,DEVALUE,institutional,"Standards designed to be unachievable, then you're blamed for failing.",EDU MEDIA NF COMBOS,,6,Expectation Inflation; Impossible Standards; Perfectionism Installation; Setting Up to Fail
+T098,S3-024,Scapegoating,DEVALUE,general,Blaming one person for systemic failure.,EDU MEDIA NF COMBOS,,6,Sacrificial Repositioning
+T099,S3-026,Punishment of Boundaries,DEVALUE,general,Saying no gets you labeled as defiant.,EDU MEDIA NF COMBOS,,10,Punishment of Voice
+T100,S3-027,Conditional Love,DEVALUE,general,Making warmth contingent on compliance.,MEDIA NF COMBOS,,29,Conditional Approval; Conditional Worth; Love as Performance Metric; Struggle Prohibition
+T101,S3-028,Objectification,DEVALUE,general,"You are related to as something with a use, such as your body, labor, status or money, rather than as a person with your own aims.",NF COMBOS,,2,Body Commodification
+T102,S3-029,Dehumanization,DEVALUE,general,"What makes a person particular, their history, feelings and name, is stripped away, so harm to them stops registering as harm.",NF COMBOS,,1,
+T103,S3-031,Performance Framework Manipulation,DEVALUE,institutional,The measures used to judge people end up tracking deference and fit more than the quality of their work.,NF,,1,
+T104,S3-033,Dispensing of Existence,DEVALUE,cult,"The group decides who counts as worthy or fully real, and people outside it, or who leave it, are treated as if they do not matter.",NF,,1,
+T105,M-117,Emotional Contamination,DEVALUE,general,Ruining positive states through sudden intrusion.,MEDIA,,1,
+T106,S3-034,"""You've Changed""",DEVALUE,general,"Your growth, new views or new limits are described as losing your true self, so changing feels like betraying the people around you.",COMBOS,yes,1,
+T107,S3-035,Cultural Penalty,DEVALUE,institutional,"Speech, work or knowledge that differs from one dominant style is marked as wrong or lesser, whatever its substance.",COMBOS,yes,2,Knowledge Hierarchy Enforcement; Training Data Bias
+T108,S3-037,Exoticization,DEVALUE,general,"A culture or identity is shown only as costume, festival or novelty, never as ordinary, present and complex.",COMBOS,yes,1,
+T109,S3-038,Experience Erasure,DEVALUE,institutional,"Real experience, skill or history is declared not to count because it lacks the system's own credential, format or record.",COMBOS,yes,1,Status Reset; Theoretical Displacement
+T110,S3-040,Stigma Marking,DEVALUE,institutional,"A person's need, status or condition is made visible to others through separate lines, labels, colors, rooms or lists.",COMBOS,yes,1,Architectural Stigma; Categorical Visibility; Peer Witnessing
+T111,S3-041,Unwritten Rules,DEVALUE,institutional,"Success depends on expectations nobody states, and people who did not arrive already knowing them are judged as failing.",COMBOS,yes,1,Hidden Curriculum Exposure
+T112,S4-001,Frame Control / False Framing,CONFUSE,general,"Controlling what the conversation is ""about"" so your truth can't survive.",EDU NF COMBOS,,6,Community Reframing; False Framing; Frame Control; PSYOP Message Framing; Problem Identification (Selective)
+T113,S4-003,Credibility Theft,CONFUSE,general,Undermining your reliability as a witness to your own experience.,EDU MEDIA NF COMBOS,,3,Competence Undermining; Source Poisoning
+T114,S4-005,Projection,CONFUSE,general,Attributing their own behavior to you.,EDU MEDIA NF COMBOS,,1,
+T115,S4-007,Role Reversal Traps,CONFUSE,general,The harmer becomes the victim and the harmed apologizes.,EDU MEDIA NF COMBOS,,6,Reputational Threat Conversion; Role Reversal via Therapy Language; Victim Role Reversal
+T116,S4-008,Weaponized Therapy-Speak,CONFUSE,general,Therapeutic language used to pathologize and avoid accountability.,EDU MEDIA NF COMBOS,,3,Identity Diminishment via Pathologizing; Pseudo-Insight as Shutdown; Sanity Framing; Therapeutic Manipulation/Pathological Framing; Weaponized Therapy Language
+T117,S4-009,Authority Hijack,CONFUSE,general,Positioning themselves as the expert on your experience.,EDU MEDIA NF COMBOS,,2,Credential Asymmetry Deployment
+T118,S4-010,Accountability Evasion via Diagnosis / Trash-Can Diagnosis,CONFUSE,general,"Replacing ""we failed you"" with ""you have a condition.""",EDU NF COMBOS,,3,Accountability Evasion via Diagnosis; Diagnostic Deflection; Trash-Can Diagnosis
+T119,S4-014,Preemptive Accusation / Complaint Weaponization,CONFUSE,general,Accusing you first to inoculate against your complaint.,EDU NF COMBOS,,5,Complaint Weaponization; Preemptive Accusation
+T120,S4-015,Deflection,CONFUSE,general,Redirecting away from the issue.,EDU MEDIA NF COMBOS,,3,Diverting; Gaslighting by Deflection; Rapid Topic Switching; Topic Shifting; Topic Switching
+T121,S4-016,Word Salad,CONFUSE,general,"Circular, confusing language designed to exhaust understanding.",EDU MEDIA NF COMBOS,,1,
+T122,S4-017,Whataboutism,CONFUSE,general,Countering your concern with an unrelated grievance.,EDU NF COMBOS,,1,
+T123,S4-019,False Equivalence,CONFUSE,general,"""Both sides"" flattening of asymmetric harm.",EDU MEDIA NF COMBOS,,1,Conflict Reframing; File Equalization; Procedural Symmetry
+T124,S4-020,Non-Apology Apologies,CONFUSE,general,"""I'm sorry you feel that way"" — performing remorse with zero accountability.",EDU MEDIA NF COMBOS,,2,Faux Apology; Non-Apology Apology
+T125,S4-022,Contradiction Stacking,CONFUSE,general,Denying and justifying the same behavior simultaneously.,EDU MEDIA NF COMBOS,,1,Reality Layering
+T126,S4-023,Semantic Traps,CONFUSE,general,"""You're twisting my words"" used to derail into language debates.",EDU NF COMBOS,,1,
+T127,S4-024,Gotcha Framing,CONFUSE,general,Forcing a false confession from your own words.,EDU NF,,1,
+T128,S4-025,False Dilemma,CONFUSE,general,Collapsing complex choices into a binary.,EDU NF COMBOS,,2,Binary Choice Construction
+T129,S4-026,False Authority,CONFUSE,general,"""I'm just being objective"" used to position subjective opinion as neutral truth.",EDU NF COMBOS,,1,
+T130,S4-027,False Consensus / Social Proof Pressure,CONFUSE,general,"""Everyone agrees"" used to override your perception.",EDU MEDIA NF COMBOS,,15,Early Endorsement Seeding; False Consensus; Gaslighting by Consensus; Normative Messaging; Petition Legitimation; Phantom Endorsement; Phantom Lead; Pluralistic Ignorance Installation; Social Pressure Layering; Social Proof; Social Proof Amplification; Social Proof Engineering; Social Proof Pressure
+T131,S4-028,Normalization / Overton Window Manipulation,CONFUSE,general,Making abnormal conditions seem standard.,EDU NF COMBOS,,9,Cycle Perpetuation; Gap Normalization; Institutional Dependency Normalization; Normalization; Overton Window Manipulation; Window Shifting
+T132,S4-029,Counterfeit Calm,CONFUSE,general,Performed composure designed to make your emotion look irrational.,EDU MEDIA NF COMBOS,,2,
+T133,S4-030,Splitting,CONFUSE,intimate-family,Dividing into all-good and all-bad with no nuance.,EDU MEDIA NF COMBOS,,2,Splitting (Induced)
+T134,S4-032,Malicious Compliance,CONFUSE,general,Following the rule to the letter in a way designed to cause harm.,EDU NF COMBOS,,1,
+T135,S4-033,Ambient Abuse / Atmosphere Control,CONFUSE,general,Pervasive tension without any single identifiable act.,EDU MEDIA NF COMBOS,,6,Ambient Abuse; Erosion Through Accumulation
+T136,S4-034,Thought-Stopping Clichés,CONFUSE,general,Phrases that shut down critical thinking.,EDU NF COMBOS,,3,"""That's Just How It Is"""
+T137,S4-035,Loaded Language,CONFUSE,general,Words that carry judgment without evidence.,EDU NF COMBOS,,2,
+T138,S4-037,Stonewalling,CONFUSE,intimate-family,"Complete refusal to engage, respond, or resolve.",EDU,,1,
+T139,S4-039,Priming / Narrative Seeding,CONFUSE,general,Planting early stories to pre-frame future conflict.,MEDIA NF COMBOS,,9,Institutional Contamination; Narrative Injection; Narrative Seeding; Priming
+T140,S4-040,Toxic Positivity / Weaponized Optimism,CONFUSE,general,"Relentless positivity is required, so naming a problem or a painful feeling is treated as the problem.",EDU NF,,1,Spiritual Bypassing
+T141,S4-041,Reverse Psychology,CONFUSE,general,"The opposite of what is wanted is said or forbidden, so pushing back leads you to the choice that was wanted all along.",NF,,1,
+T142,S4-042,Cognitive Overload,CONFUSE,general,Complexity created to prevent accountability.,MEDIA NF COMBOS,,6,Complexity Saturation; Complexity Shield; Dilution Disguise; Drip Pricing; Fee Diffusion; Financial Obfuscation; Overcomplication; Sneaking; Strategic Confusion; Structural Layering; Waterfall Opacity
+T143,S4-043,Individualization of Systemic Issues,CONFUSE,institutional,"A shared, structural problem is treated as one person's private shortcoming, so the fix offered is always about changing that person.",NF COMBOS,,3,Deficit Attribution
+T144,S4-044,Diffusion of Responsibility,CONFUSE,institutional,"Each person in a chain does a small part and points to the next, so in the end no one is responsible for the outcome.",NF COMBOS,,9,"""Just Following Orders""; Accountability Diffusion; Accountability Fragmentation; Authority Displacement; Jurisdictional Displacement; Responsibility Displacement"
+T145,S4-045,Willful Blindness as Complicity,CONFUSE,institutional,"Strong signs of harm are in front of a person or organization, and they choose not to look, ask or act.",NF COMBOS,,3,Active Danger Preservation; Successor Enablement; Systemic Neglect Documentation
+T146,S4-046,Blame-Shifting,CONFUSE,general,"Responsibility for what someone did is moved onto you, someone else or circumstances (""look what you made me do"").",NF,,1,Blame Reversal
+T147,S4-048,Kafka Trapping,CONFUSE,general,"Denying an accusation is taken as proof of it, so every response confirms the charge.",NF COMBOS,,1,
+T148,S4-050,Feigned Ignorance,CONFUSE,general,"Not knowing is performed, through blank looks, repeated questions or ""I didn't realize"", so the burden of explaining or doing stays with you.",NF,,1,
+T149,S4-051,Countering,CONFUSE,general,"Whatever you say happened is met with a flat ""no, it didn't"" or ""that's not what happened"", before anything is checked.",EDU MEDIA NF COMBOS,,2,Denial; Selective Memory
+T150,S4-052,Exaggeration,CONFUSE,general,"Claims are inflated with always, never and everyone, so a small issue is answered as though it were huge, or your point is restated as an extreme you never said.",NF,,1,
+T151,S4-053,Burden of Proof Shifting / Sealioning,CONFUSE,general,"Raising a concern turns into a trial in which you must prove every detail, while the other side has to prove nothing.",EDU NF COMBOS,,2,Burden of Proof Shifting; Sealioning
+T152,S4-054,Gish Gallop / Firehose of Falsehood,CONFUSE,general,"Many claims arrive at once, in a conversation or across many channels, faster than any of them can be checked, so silence looks like defeat.",NF COMBOS,,3,AI-Driven Narrative Hijacking; Firehose of Falsehood; Gish Gallop; Memory Flooding
+T153,S4-055,Limited Hangout,CONFUSE,general,Admitting small wrongs to appear honest while concealing larger patterns.,MEDIA NF,,1,Confession as Control; Selective Accountability
+T154,S4-056,Pseudo-Profundity / Intellectual Intimidation,CONFUSE,general,Statements that sound deep or technical but say little are used to make questions feel naive.,NF COMBOS,,1,Complexity-as-Authority
+T155,S4-057,Semantic Erosion / Meaning Dilution,CONFUSE,general,Changing the meaning of words to prevent critique from landing.,MEDIA NF COMBOS,,1,Redefining Terms
+T156,S4-058,Dog Whistling / Coded Signaling,CONFUSE,propaganda,"A message has an ordinary surface for most listeners and a second meaning for an intended group, so its author can deny the second meaning.",NF,,1,
+T157,S4-059,Revisionist History,CONFUSE,general,Retelling events with key details changed.,MEDIA NF COMBOS,,5,Memory Manipulation; Narrative Editing; Record Inversion; Retconning; Retroactive Recharacterization
+T158,S4-061,Repetition as Truth,CONFUSE,propaganda,"A claim is repeated so often that it starts to feel true, because familiar statements are easier to believe.",EDU NF COMBOS,,13,Reputation Laundering
+T159,S4-063,Meta-Gaslighting,CONFUSE,general,Saying you are being gaslit is itself treated as proof that you are unstable or the one distorting things.,NF COMBOS,,1,
+T160,S4-065,Lying by Omission / Gaslighting by Omission,CONFUSE,general,The lie living in what's left out.,MEDIA NF COMBOS,,2,Gaslighting by Omission; Information Drip; Lying by Omission; Strategic Incompleteness
+T161,S4-066,Half-Truth Framing,CONFUSE,general,"Each sentence is true, but they are chosen and arranged to leave a false overall impression.",NF COMBOS,,2,Selective Disclosure; Selective Truth Weaponization
+T162,S4-067,Information Laundering,CONFUSE,propaganda,A claim from a weak or anonymous source is passed through more credible outlets until its origin is lost and it reads as established.,NF,,1,
+T163,S4-070,Astroturfing / Sock Puppets,CONFUSE,propaganda,"Support that looks like it comes from many independent people (reviews, comments, accounts or crowds) is staged, paid for or run through fake personas.",EDU NF COMBOS,,4,Astroturfing; Sock Puppets; Synthetic Persona Networks
+T164,S4-073,False Flag Operations,CONFUSE,propaganda,"An act is arranged to look like the work of someone else, so blame and reaction fall on them.",NF,,1,
+T165,S4-077,Strategic Leaking,CONFUSE,propaganda,A disclosure presented as an accident or a breach in fact serves the person who released it.,NF COMBOS,,1,Complaint Leaking
+T166,S4-079,Cyber Manipulation Operations (CMOs),CONFUSE,online,"Systems or accounts are broken into to change, plant or delete information, not only to steal it.",NF,,1,
+T167,S4-080,Context Poisoning,CONFUSE,online,"False, skewed or booby-trapped content is placed where people or AI tools will pick it up as background fact.",NF,,1,
+T168,S4-081,Immersive Manipulation (VR/AR),CONFUSE,online,A virtual or augmented scene is used to produce strong body-level reactions that steer choices.,NF,,1,
+T169,M-145,Pseudo-Logic,CONFUSE,general,Superficially rational arguments on false premises.,MEDIA NF COMBOS,,2,Circular Arguments; Circular Logic
+T170,M-147,Emotional Sequencing,CONFUSE,general,Rapidly shifting between emotions to destabilize.,MEDIA,,1,Emotional Non Sequiturs; Erratic Emotional Behavior
+T171,M-159,Perspecticide,CONFUSE,general,The destruction of the target's ability to hold their own point of view.,MEDIA,,1,
+T172,S4-083,Abstraction Escalation,CONFUSE,institutional,"A question about one specific harm is answered with broad statements about values, mission or culture, so the event itself is never named.",COMBOS,yes,1,Values Broadcasting
+T173,S4-084,Agent Erasure,CONFUSE,institutional,"Accounts of what happened leave out who did it (""mistakes were made"", ""the decision was taken""), so no one is answerable.",COMBOS,yes,1,
+T174,S4-085,Captive Expertise,CONFUSE,institutional,"An outside expert is chosen or briefed so their findings support a decision already made, and their credentials are then used to end debate.",COMBOS,yes,2,Expert Procurement
+T175,S4-087,Done-Deal Framing,CONFUSE,institutional,"A decision is announced as already final and inevitable, so objecting feels pointless before anyone has been asked.",COMBOS,yes,1,Authority Presentation
+T176,S4-089,Language Laundering,CONFUSE,institutional,"Cuts, losses or harms are described in soft, technical or upbeat words, so they sound like improvements.",COMBOS,yes,2,Language Inflation
+T177,S4-090,Metric Masking,CONFUSE,institutional,"Averages, color codes and summary figures stand in for what happened to particular people, so overall numbers look fine while specific harm disappears.",COMBOS,yes,2,Aggregate Reporting Substitution; Decontextualized Measurement; Visual Simplification
+T178,S4-091,Moral Disengagement,CONFUSE,general,"Harmful acts are described in ways that make them feel acceptable: necessary, someone else's decision, or deserved by the people they hurt.",COMBOS,yes,1,
+T179,S4-092,Policy as Proof,CONFUSE,institutional,"The existence of a written policy is offered as proof that a problem is handled, in place of evidence that the policy works.",COMBOS,yes,2,Policy Adequacy Defense
+T180,S4-093,Retroactive Justification,CONFUSE,general,"Reasons for a decision appear only after it was made and challenged, and are presented as if they were the reasons all along.",COMBOS,yes,3,Retroactive Repositioning
+T181,S4-094,Self-Fulfilling Prediction,CONFUSE,institutional,"A prediction about a person shapes how they are treated, and the outcome that treatment produces is then cited as proof the prediction was right.",COMBOS,yes,2,Confirmation Feedback Loop; Self-Fulfilling Degradation
+T182,S4-095,Solution Theater,CONFUSE,institutional,"A visible purchase, program, support service or announcement is presented as the fix, while the cause of the problem stays untouched.",COMBOS,yes,2,Support Theater; Vendor Solution Adoption
+T183,S4-096,Victim Blaming,CONFUSE,general,"The harmed person is held partly or wholly responsible for what was done to them, through questions or remarks about their choices instead of the other person's actions.",new,yes,1,
+T184,S4-097,Just Asking Questions,CONFUSE,general,"Accusations or false claims are put as questions, so the claim spreads while the speaker can say they only asked.",new,yes,1,
+T185,S4-098,Motte-and-Bailey,CONFUSE,general,"A bold claim is made, and when it is challenged the speaker retreats to a modest version anyone would accept, then returns to the bold claim once the challenge passes.",new,yes,1,
+T186,S5-001,Isolation,ISOLATE,general,Cutting off support to increase dependence.,EDU MEDIA NF COMBOS,,14,Cultural/Spiritual Isolation; Digital Isolation
+T187,S5-002,Triangulation,ISOLATE,general,Using a third party to destabilize and avoid direct accountability.,EDU MEDIA NF COMBOS,,11,Central Positioning; Jealousy Manufacturing; Mirror Operation; Triangulation (Positive); Triangulation (Weaponized)
+T188,S5-003,Smear Campaigns,ISOLATE,general,Spreading distorted information to preemptively damage credibility.,EDU MEDIA NF COMBOS,,13,Reputation Poisoning; Reputation Warfare; Reputation Warfare (Post-Separation); Smear Campaign; Smear Campaign (Preemptive); Smear Campaign (Reactive); Untraceable Seeding
+T189,S5-004,Flying Monkeys / Proxy Recruitment,ISOLATE,general,Enlisting others to pressure or monitor on behalf of the authority.,EDU MEDIA NF COMBOS,,7,Flying Monkeys; Parental Amplification; Peer Pressure Weaponization; Proxy Control; Proxy Recruitment
+T190,S5-005,Plausible Deniability,ISOLATE,general,"Harm is done in a way that leaves no clear trace back to its source, so the person cannot point to who did it or show that it was meant.",EDU MEDIA NF COMBOS,,12,Narrative Severance; Strategic Dissolution
+T191,S5-006,Ostracism,ISOLATE,general,Deliberate exclusion as punishment.,EDU NF COMBOS,,4,Access Removal
+T192,S5-007,Silent Coalitions,ISOLATE,general,Covert group exclusion where the target is made to blame themselves.,EDU MEDIA NF COMBOS,,3,Ambient Exclusion; Silent Coalition Building
+T193,S5-008,Ambiguity as Weapon / Strategic Ambiguity,ISOLATE,general,"Wording, rules, threats or exclusion are kept vague enough that you cannot point to what happened, so you end up doubting or blaming yourself.",EDU NF COMBOS,,5,Ambiguity as Weapon; Community Confusion Exploitation; Confidentiality Uncertainty; Strategic Ambiguity
+T194,S5-010,Interruption Patterns,ISOLATE,general,Systematically silencing specific voices.,EDU NF,,1,
+T195,S5-012,Pile-Ons / Brigading,ISOLATE,online,Coordinated group attack against one person.,EDU NF COMBOS,,6,Audience Activation; Brigading; Pile-Ons; Pressure Accumulation
+T196,S5-013,"""Polite Hostile"" Environments",ISOLATE,institutional,Appearing respectful while systematically punishing truth-telling.,EDU NF,,1,
+T197,S5-014,Gatekeeping,ISOLATE,institutional,"Controlling access to resources, relationships, or opportunities.",EDU MEDIA NF COMBOS,,4,Access Control; Access Gatekeeping; Financial Filtration; ID Gatekeeping; Institutional Verification Monopoly; Legal Gatekeeping; Standardized Assessment Gatekeeping
+T198,S5-015,Stochastic Harassment Direction,ISOLATE,online,"A public figure keeps pointing an audience at a person in hostile terms, so some listeners harass them, while the speaker can say they asked for nothing.",NF,,1,
+T199,S5-017,Divide and Conquer,ISOLATE,general,"People who could support each other are kept apart or set against each other, through rumors, rivalry, a divisive issue or separate versions of the story.",MEDIA NF COMBOS,,3,Ally Poisoning; Defensive Withdrawal Induction; Manufactured Conflict; Momentum Collapse; Reentry Disruption; Wedge Issue Exploitation
+T200,S5-018,Compartmentalization,ISOLATE,general,"Each person is told something true but only their own slice, so no one can put the whole picture together.",NF COMBOS,,3,Confidential Disclosure Seeding; Selective Information Sharing
+T201,S5-019,Echo Chamber Construction,ISOLATE,propaganda,The circle around you is arranged so the same views keep coming back and outside voices are kept out or discredited.,NF,,1,
+T202,M-167,Social Mapping,ISOLATE,general,Identifying the target's relationships and developing a strategy for each.,MEDIA,,1,
+T203,M-176,Support System Exhaustion,ISOLATE,general,Directing the target to the same resources until they burn out.,MEDIA COMBOS,,1,Victim Redirection
+T204,M-182,Identity-Based Isolation,ISOLATE,general,Leveraging marginalized identity to enforce silence.,MEDIA COMBOS,,1,Language Barriers as Isolation
+T205,S5-021,Contribution Erasure,ISOLATE,general,"A person's or group's presence, contributions or history are left out of what is taught, shown or remembered, so absence starts to look like irrelevance.",COMBOS,yes,3,Curricular Absence; Legacy Erasure; Predecessor Erasure
+T206,S5-022,Front-Person Exposure,ISOLATE,institutional,"One person is made the public face of a decision many people shared, so they take the reaction alone.",COMBOS,yes,1,Visibility Inversion
+T207,S5-023,Incident Siloing,ISOLATE,institutional,"Each complaint is handled and closed on its own, in its own office or site, so no one is placed to see that the cases form a pattern.",COMBOS,yes,1,Campus-Level Containment; Case Closure Protocol; Cross-Campus Blindness
+T208,S5-024,Participation Penalty,ISOLATE,institutional,"Taking part, asking for help or speaking up exposes a person to new risk, so staying away becomes the safer choice.",COMBOS,yes,1,Engagement-Exposure Equation
+T209,S5-025,Reputation Hijacking,ISOLATE,online,"Someone takes control of how you are presented in public, speaking for you or reshaping your image, so your own account no longer reaches people first.",MEDIA,yes,1,
+T210,S6-005,Ritualized Exhaustion,CONTROL,institutional,Forced routines designed to reduce resistance through depletion.,EDU NF COMBOS,,4,Induced Debility
+T211,S6-007,Guilt-Tripping,CONTROL,general,Using guilt to override boundaries.,EDU MEDIA NF COMBOS,,8,Confirmshaming; Guilt Induction; Guilt Installation
+T212,S6-011,Paper-Trail Traps,CONTROL,institutional,"Documentation created to build a case, not to support.",EDU MEDIA NF COMBOS,,8,Asymmetric Curation; Institutional Citation; Pattern Seeding; Preemptive Documentation; Selective Record-Keeping; Weaponized Documentation
+T213,S6-013,HR Shielding,CONTROL,institutional,"Using policy and process to protect the system, not the person.",EDU MEDIA NF COMBOS,,4,Dutiful Reporting; Firewall Function
+T214,S6-014,Process Exhaustion,CONTROL,institutional,Bureaucratic loops designed to drain your will.,EDU MEDIA NF COMBOS,,10,Documentation Extraction; Exhaustion Yield; Form Gatekeeping; Internal Exhaustion Prerequisite; Paper Terrorism; Procedural Embedding; Sludge
+T215,S6-015,Vague Allegations with High Consequences,CONTROL,institutional,Undefined charges attached to real punishment.,EDU NF COMBOS,,2,Vague Allegations
+T216,S6-016,Confidentiality as Weapon,CONTROL,institutional,"""We can't tell you"" used to prevent defense.",EDU MEDIA NF COMBOS,,8,Confidentiality Binding; Confidentiality Weaponization; Opacity Shield; Privacy Weaponization
+T217,S6-018,Resource Sabotage / Sabotaging Success,CONTROL,institutional,Removing what you need to succeed.,EDU NF COMBOS,,3,Resource Consequence; Resource Sabotage; Sabotaging Success
+T218,S6-019,Administrative Escalation,CONTROL,institutional,Issues becoming formal processes as punishment for speaking up.,EDU MEDIA NF COMBOS,,5,Intervention Cascade; PIP Weaponization; Professional Degradation
+T219,S6-020,"""Managed Out"" Through Exhaustion",CONTROL,institutional,"Slowly draining you until you leave ""voluntarily.""",EDU MEDIA NF COMBOS,,2,Discard by Degradation; Self-Exile Completion
+T220,S6-021,Legal / Administrative Threats,CONTROL,institutional,Using the threat of process to intimidate.,EDU NF COMBOS,,5,
+T221,S6-022,False Reports,CONTROL,institutional,Fabricated complaints to create institutional jeopardy.,EDU NF COMBOS,,4,Phantom Complaint Injection
+T222,S6-024,Location Tracking,CONTROL,general,Monitoring physical presence as a control mechanism.,EDU MEDIA NF COMBOS,,4,Stalking & Surveillance (Post-Separation); Stalking (Covert); Stalking (Overt)
+T223,S6-025,Device Access Demands,CONTROL,online,Forced surrender of personal technology and privacy.,EDU NF COMBOS,,3,
+T224,S6-026,Account Control,CONTROL,online,"Someone else controls your accounts, phone number or digital identity, by demanding access or by taking it.",EDU NF COMBOS,,3,Account Takeover; SIM Swap / 2FA Interception
+T225,S6-027,Response-Time Policing,CONTROL,online,Punishment for not being available fast enough.,EDU NF COMBOS,,2,
+T226,S6-030,Moral Licensing / Strategic Philanthropy,CONTROL,general,"Using a ""good"" identity as immunity from accountability.",EDU MEDIA NF COMBOS,,3,Moral Licensing; Strategic Benevolence; Strategic Benevolence / Strategic Philanthropy; Strategic Philanthropy; Virtue Signaling as Shield
+T227,S6-031,Moral Framing,CONTROL,general,Recasting your resistance as a character failing.,EDU NF COMBOS,,3,"Moral Reframing; The ""Good Mother"" Frame"
+T228,S6-032,Financial Control,CONTROL,general,Restricting access to resources to enforce compliance.,EDU MEDIA NF COMBOS,,2,Economic Abuse; Economic Coercion; Financial Isolation
+T229,S6-033,Sexual Coercion,CONTROL,intimate-family,Using power to override consent.,EDU MEDIA NF COMBOS,,1,Sexual Leverage
+T230,S6-034,Reproductive Coercion,CONTROL,intimate-family,Controlling reproductive choices through institutional pressure.,EDU NF,,1,
+T231,S6-035,Extinction Bursts,CONTROL,intimate-family,Dramatic escalation when control methods stop working.,EDU MEDIA NF COMBOS,,2,Extinction Burst
+T232,S6-038,Negative Reinforcement Traps,CONTROL,general,"Applying pressure until compliance, then removing it — training that compliance equals relief.",EDU NF COMBOS,,3,Fear-Then-Relief
+T233,S6-039,Phobia Indoctrination / Catastrophizing,CONTROL,general,Exaggerating consequences to extract compliance.,EDU NF COMBOS,,6,Catastrophizing as Control; Phobia Indoctrination
+T234,S6-040,Strategic Chaos / Crisis Manufacturing,CONTROL,general,Constant emergencies preventing strategic thinking.,EDU COMBOS,,3,Strategic Chaos
+T235,S6-042,Time Control,CONTROL,institutional,Dictating how every hour is spent to prevent autonomous thought.,EDU MEDIA,,1,
+T236,S6-043,Sleep Deprivation,CONTROL,institutional,Disrupting rest to reduce cognitive and emotional resistance.,EDU MEDIA,,1,
+T237,S6-044,Narrative Monopoly,CONTROL,institutional,Controlling the dominant story so alternative accounts can't gain traction.,EDU MEDIA COMBOS,,1,Narrative Capture
+T238,S6-045,Mobility Control,CONTROL,institutional,Restricting physical movement to enforce submission.,EDU MEDIA,,1,
+T239,S6-046,Body Autonomy Violations,CONTROL,institutional,Controlling the physical body under institutional justification.,EDU MEDIA,,1,
+T240,S6-047,Role Assignment,CONTROL,institutional,Assigning fixed identities that dictate expectation and treatment.,EDU MEDIA COMBOS,,3,Identification as Identity Assignment; Identity Narrowing; Role Confinement
+T241,S6-048,Forced Dependency,CONTROL,general,Eliminating the ability to function outside the system.,EDU MEDIA NF COMBOS,,5,Dependency Engineering; Dependency Installation; Device Dependency; Ecosystem Embedding
+T242,S6-051,Silence as Policy,CONTROL,institutional,Making certain topics undiscussable through emotional consequence.,EDU MEDIA NF COMBOS,,2,Challenge Suppression; Organizational Silence Engineering; Permanent Silencing
+T243,S6-054,Children as Leverage,CONTROL,intimate-family,Using children's wellbeing as a tool of control over adults.,EDU MEDIA COMBOS,,2,Children as Collateral Consequence
+T244,S6-056,Micromanagement,CONTROL,general,Controlling minute details to erode autonomous function.,EDU MEDIA NF COMBOS,,3,Algorithmic Management; Autonomy Displacement; Pattern Recognition as Evaluation; Teacher Displacement
+T245,S6-057,Performance Monitoring,CONTROL,institutional,Constant evaluation that installs hypervigilance.,EDU MEDIA COMBOS,,1,Compliance Infrastructure
+T246,S6-058,Controlled Communication,CONTROL,institutional,"Dictating how, when, and whether you may speak.",EDU MEDIA COMBOS,,2,Communication Chain Restriction; Constraining Verbal Expression; Vocal Regulation
+T247,S6-060,Rage as Regulation,CONTROL,general,Using anger or its threat to control the environment.,EDU MEDIA NF,,1,Disproportionate Reactivity; Rage as Control
+T248,S6-061,Fear Installation,CONTROL,general,Creating persistent dread through unpredictable consequences.,EDU MEDIA COMBOS,,1,Anxiety Induction
+T249,S6-063,Managed Perception,CONTROL,institutional,Controlling how the system appears to outsiders.,EDU MEDIA COMBOS,,1,Crisis-Triggered Repair
+T250,S6-067,Omnipresence / Demonstrating Omnipotence,CONTROL,institutional,"The sense that the system is always watching, always present, always ahead of you.",EDU MEDIA NF COMBOS,,8,Demonstrating Omnipotence; Omnipresence; Stalking-by-Notification
+T251,S6-068,Punishment by Proxy,CONTROL,intimate-family,"After a conflict between two people, trouble arrives for a third person the target cares about.",NF COMBOS,,3,
+T252,S6-069,Emotional Blackmail,CONTROL,general,"A request is tied to the relationship: do this, or the closeness, approval or safety you rely on will be withdrawn.",NF COMBOS,,5,Conditional Safety; Emotional Blackmail via Implicit Consequence; Revocation Threat
+T253,S6-070,Intimidation,CONTROL,general,"Danger is communicated without being stated outright: through words, posture, size, closeness or what is done in front of you.",EDU MEDIA NF COMBOS,,4,Form Intimidation; Implied Threat; Nonverbal Dominance; Postural Dominance; Spatial Invasion; Threats of Harm; Withdrawal Pressure
+T254,S6-071,Concern Trolling / Shame-as-Governance,CONTROL,general,"Control or criticism is wrapped in the language of worry, so objecting makes you look ungrateful for the care.",EDU MEDIA NF COMBOS,,6,Concern Masking; Concern Trolling; Shame-as-Governance; Shame-as-Governance Disguised as Advice
+T255,S6-072,Ultimatums,CONTROL,general,"A demand is paired with a loss and a deadline, leaving no room to discuss either.",NF,,1,
+T256,S6-073,Loyalty Binds,CONTROL,general,"Speaking about a problem is framed as betraying the family, group or cause, so loyalty requires silence.",NF COMBOS,,2,
+T257,S6-074,Ambient Sexual Threat,CONTROL,general,"Remarks about your body, sexual jokes and unwanted closeness create a climate in which you feel at risk, without any single act that is easy to report.",NF,,1,
+T258,S6-075,Overcorrection Demands,CONTROL,general,"After a small mistake, the response demanded, such as apologies, rituals or self-punishment, is far out of scale.",EDU NF COMBOS,,3,Forced Submission
+T259,S6-076,Blackmail / Leverage Exploitation,CONTROL,general,"A demand comes with a threat to expose something about you, or an old secret or debt is kept in reserve as leverage.",NF COMBOS,,2,Selective Deployment
+T260,S6-077,Moral Outrage as Weapon,CONTROL,general,Public outrage is directed at a person in a way that skips any check of what they actually did.,NF,,1,
+T261,S6-078,Emotional Hostage-Taking,CONTROL,general,"One person's distress rises and falls with your choices, so you end up managing their state instead of making your own decisions.",NF COMBOS,,2,
+T262,S6-079,"""I Know Best"" Paternalism / Velvet Glove Control",CONTROL,general,"Another adult decides what is good for you and acts on it, overriding your own choices as being for your own good.",NF COMBOS,,1,"""I Know Best"" Paternalism; Using Privilege; Velvet Glove Control"
+T263,S6-080,Interrogation,CONTROL,general,"Questions come in a rapid, repeated, accusing stream, so answering feels like a trial rather than a conversation.",NF,,1,
+T264,S6-081,Moving-in-Silence,CONTROL,general,"Something large that will change your life is decided and arranged without you, and you learn about it when it is done.",NF,,1,
+T265,S6-082,Enforcing Trivial Demands,CONTROL,general,"Small rules with no clear purpose are enforced strictly, so obedience itself becomes the point.",NF COMBOS,,4,
+T266,S6-084,Choice Restriction,CONTROL,general,"Your realistic options are narrowed through money, access, information or framing until only the wanted choice remains, while you are told the choice is yours.",EDU MEDIA NF COMBOS,,3,Bounded Choice; Coercive Framing; Institutional Adoption; Reflexive Control; Token Autonomy; Token Autonomy / Coercive Framing
+T267,S6-085,Pseudo-Consultation,CONTROL,institutional,"A consultation, survey or listening session happens in form, but the decision was already made and does not change.",NF COMBOS,,8,Pre-Decision Concealment; Process Performance; Structural Dilution
+T268,S6-086,Weaponized Inclusion / Strategic Containment,CONTROL,institutional,"Critics are invited inside, onto a committee or into a process, where their energy is absorbed and their voice contained.",NF COMBOS,,3,Critique Absorption; Dissent Absorption; Inclusion Capture
+T269,S6-088,Controlled Opposition,CONTROL,propaganda,Resistance that looks independent is quietly guided or set up by the party it opposes.,NF COMBOS,,2,
+T270,S6-089,Manufactured Consent,CONTROL,propaganda,"Agreement that looks freely given rests on a narrowed picture, on pressure, or on silence counted as a yes.",NF COMBOS,,4,Consent Fabrication; Democratic Validation; Mutual Agreement Fabrication; Silence Harvesting
+T271,S6-093,Sacred Science,CONTROL,cult,"The group's founding ideas are placed beyond evidence or question, so doubting them is treated as a flaw in the doubter.",NF,,1,
+T272,S6-094,Doctrine Over Person,CONTROL,cult,"A member's own experience is never allowed to count against the doctrine; when they clash, the person is wrong.",NF,,1,
+T273,S6-096,Forced Confession / Self-Criticism Rituals,CONTROL,cult,"Members must regularly confess faults or criticize themselves before others, and what they say is kept and can be used later.",NF,,1,
+T274,S6-098,Algorithmic Manipulation,CONTROL,online,"Feeds and recommendation lists decide what you see first and most often, steering attention and mood in ways you cannot see.",NF,,1,Epistemic Coercion via AI
+T275,S6-099,Biometric Exploitation,CONTROL,online,"Signals of how you feel, read from your face, voice or body by cameras, microphones and wearables, are used to influence you.",NF,,1,
+T276,M-199,Institutional Capture,CONTROL,general,"Influence is gained over the bodies meant to provide oversight, or outside structures are lined up to enforce, so the place you would turn to for help is already on their side.",EDU MEDIA,,1,System Recruitment
+T277,S6-101,Arbitrary Authority,CONTROL,general,"Decisions follow no stated rule, so nothing you do reliably changes the outcome.",COMBOS,yes,2,Effort-Outcome Mismatch; Uncontrollable Outcomes
+T278,S6-102,Black-Box Decisions,CONTROL,online,"Consequential decisions come from a system whose workings cannot be seen, explained or meaningfully questioned.",COMBOS,yes,1,High-Stakes Consequence; Invisibility of the Mechanism
+T279,S6-103,Celebration as Cover,CONTROL,institutional,"Overwork, self-funding or sacrifice is praised in public as dedication, so the shortage that required it is never fixed.",COMBOS,yes,2,Celebration Capture; Celebration as Extraction Cover
+T280,S6-104,Closed-Loop Appeals,CONTROL,institutional,"Challenging a decision sends you back to the same people, rules or system that made it.",COMBOS,yes,1,Appeal Circularity
+T281,S6-105,Collective Punishment,CONTROL,general,"A whole group is punished for something one person did, or for something no one is named for, so the group turns its pressure inward.",COMBOS,yes,1,Collective Consequence; Incident Identification Without Individual Accountability
+T282,S6-107,Data Harvesting,CONTROL,online,"Detailed information about behavior, location, feelings or performance is collected continuously and built into a profile, far beyond what the service needs.",COMBOS,yes,4,Ambient Data Collection; Data Accumulation; Data Point Extraction; Profile Construction
+T283,S6-108,Data Onward Sharing,CONTROL,online,"Information collected for one purpose is passed, sold or shown to others, often described as anonymized, without the person's real knowledge.",COMBOS,yes,2,De-identification Laundering; Non-Consensual Distribution; Secondary Market Exploitation
+T284,S6-109,Development Subordination,CONTROL,institutional,"A person's own learning, health or future is ranked below their usefulness to the system, and that ranking is presented as opportunity.",COMBOS,yes,1,Academic Subordination
+T285,S6-111,Initiative Churn,CONTROL,institutional,"New programs are launched one after another, so activity looks like progress while none runs long enough to be judged.",COMBOS,yes,1,Implementation Interruption; Initiative Proliferation
+T286,S6-112,Labor Extraction,CONTROL,institutional,"Work, time, care or personal money beyond what was agreed or paid is expected and uncounted, often because the role has grown too big or because stopping would hurt the people you serve.",COMBOS,yes,4,Administrative Displacement; Compassion Exploitation; Invisibility of Clinical Labor; Performance Extraction; Personal Subsidy Extraction; Ratio Exploitation; Role Inflation; Role Overload
+T287,S6-113,Liability Reframing,CONTROL,institutional,"A duty to protect or repair is handed to legal or risk management and treated as exposure to limit, then declared expired, out of scope or not owed.",COMBOS,yes,2,Legal Authority Transfer; Obligation Erasure
+T288,S6-114,Metric-Mission Substitution,CONTROL,institutional,"The numbers chosen to measure a purpose quietly replace the purpose, and people are judged on the numbers.",COMBOS,yes,3,Engagement-Learning Conflation; Metric Installation; Metric Substitution
+T289,S6-115,Motivation Displacement,CONTROL,institutional,"Points, scores and rewards replace a person's own reasons for doing something, so they stop when the reward stops.",COMBOS,yes,3,Intrinsic Motivation Displacement; Intrinsic-Extrinsic Displacement; Joy Extinction
+T290,S6-116,Predictive Tracking,CONTROL,institutional,"People are routed into tracks, groups or labels on the strength of a prediction, and the track then limits what they are offered and can become.",COMBOS,yes,2,Automatic Sorting; Intervention Channeling; Track Solidification
+T291,S6-119,Strategic Delay,CONTROL,institutional,"Responses, records or decisions are slowed until deadlines pass, evidence fades or the person gives up.",COMBOS,yes,4,Access Delay; Recommendation Deferral; Timeline Elongation; Timeline Exploitation
+T292,S6-120,Strategic Timing,CONTROL,general,"Damaging information or sudden pressure arrives just before an important moment, leaving no time to check or respond.",COMBOS,yes,1,
+T293,S6-121,Structural Underfunding,CONTROL,institutional,"The service meant to help is kept too small, too thinly staffed or too run-down to work, and its failure is treated as nobody's fault.",COMBOS,yes,3,Capacity Dilution; Environmental Degradation
+T294,S6-122,Harm to Pets or Property,CONTROL,intimate-family,"Belongings are destroyed, or a pet is harmed or threatened, as a warning of what could happen next. (Treat as a safety risk: contact local emergency or domestic violence services.)",new,yes,1,
+T295,S6-123,Coerced Debt,CONTROL,intimate-family,"Loans, credit or bills are taken out in your name, or you are pressured into them, without real consent, so you carry debt for someone else's control.",new,yes,1,
+T296,S6-124,Debt Bondage,CONTROL,institutional,"Fees for travel, housing, training or recruitment are charged against future earnings and keep growing, so you must keep working to pay a debt that never clears.",new,yes,1,
+T297,S6-125,Document Confiscation,CONTROL,institutional,"Passports, identity papers, visas or certificates are taken ""for safekeeping"", so leaving, travelling or proving who you are depends on someone else.",new,yes,1,
+T298,S6-126,Status Threats,CONTROL,general,"Your visa, residency, enrollment or legal status is used as a threat: comply, or you or your family could be reported, removed or deported. (Route to independent legal advice and support services.)",new,yes,1,
+T299,S6-127,Enmeshment,CONTROL,intimate-family,"The line between two people's feelings, choices and identities is dissolved, so your moods, decisions and successes are treated as belonging to someone else. (A family-systems concept.)",new,yes,1,
+T300,S7-002,Apologies Without Repair,DISCARD,intimate-family,Performed remorse with no change.,EDU MEDIA NF COMBOS,,1,Accountability Mimicry; Apology Without Repair
+T301,S7-003,Pity Plays,DISCARD,intimate-family,Performing victimhood to prevent accountability.,EDU NF COMBOS,,5,Strategic Self-Deprecation; Strategic Self-Deprecation / Performed Humility; Strategic Vulnerability; Strategic Vulnerability / Weaponized Tears; Weaponized Tears
+T302,S7-004,Forced Forgiveness / Weaponized Forgiveness,DISCARD,intimate-family,"""Move on"" before harm is processed.",EDU MEDIA NF COMBOS,,3,Forced Forgiveness; Weaponized Forgiveness
+T303,S7-005,Competitive Victimhood,DISCARD,intimate-family,Responding to your pain with their bigger pain.,EDU NF,,1,
+T304,S7-007,Aftercare Control,DISCARD,intimate-family,"""That was for your good"" reframing harm as help.",EDU NF COMBOS,,1,
+T305,S7-009,Legal Abuse,DISCARD,institutional,"Lawsuits, court filings and legal processes are used to drain, punish or silence someone, for example after they leave or speak out. (Route to qualified legal advice.)",EDU MEDIA NF,,2,Legal Abuse (Post-Separation); SLAPP; Silencing Litigation
+T306,S7-011,Humiliation Rituals,DISCARD,general,Degradation disguised as development.,EDU NF,,1,Degradation
+T307,S7-012,Public Exposure,DISCARD,general,Being singled out for shaming.,EDU NF COMBOS,,3,Public Humiliation; Public Identification; Public Shaming
+T308,S7-015,Ghosting as Control,DISCARD,intimate-family,Disappearing without closure.,EDU MEDIA NF,,1,Ghost Discard; Ghosting-Orbiting Cycle
+T309,S7-020,Sudden Devaluation,DISCARD,institutional,An abrupt shift from investment to disposal.,EDU MEDIA COMBOS,,1,Disposability Architecture
+T310,S7-021,Replacement Display,DISCARD,institutional,Publicly showcasing your replacement to signal your disposability.,EDU MEDIA,,1,
+T311,S7-023,Blame Discard,DISCARD,general,Framing the discard as the target's fault.,EDU MEDIA,,1,
+T312,S7-024,Managed Exit,DISCARD,institutional,Orchestrating the departure to maximize the system's control over the narrative.,EDU MEDIA COMBOS,,1,Voluntary Narrative Installation
+T313,S7-033,Manufactured Closure,DISCARD,institutional,"The matter is declared resolved or closed by the side that caused it, without the harmed person agreeing and without the harm being named.",COMBOS,yes,4,Closure Manufacture; Quiet Resolution; Resolution Without Acknowledgment; Unilateral Resolution
+T314,S7-034,Paid Silence,DISCARD,institutional,"Money, a reference, a role or another benefit is offered in exchange for not speaking about what happened.",COMBOS,yes,2,Positive Reference Leverage; Silence Incentivization
+T315,S7-035,Punitive Transfer,DISCARD,institutional,"After raising a concern, the person is moved to a different place, team, class or role, presented as routine.",COMBOS,yes,1,Geographic Displacement
+T316,S7-036,Record Erasure,DISCARD,institutional,"Records, files or evidence of what happened are deleted, lost or sealed, so the event can later be denied.",COMBOS,yes,2,Document Destruction; Institutional Memory Erasure
+T317,S7-037,Uncorrected Record,DISCARD,online,"The accusation is public, loud and lasting, while any correction is quiet or missing, so the first version stays.",COMBOS,yes,3,Correction Invisibility; Permanent Digital Residue
+T318,S7-038,Values-Fit Pretext,DISCARD,institutional,"A person's results or questions are redescribed as a mismatch with the group's values or culture, which becomes the reason they have to go.",COMBOS,yes,1,Values Misalignment Manufacturing
+T319,S7-039,Visible Impunity,DISCARD,institutional,"The person reported faces no visible consequence, which tells everyone watching that reporting does not work.",COMBOS,yes,2,Visible Non-Consequence
+T320,S7-041,Swatting,DISCARD,online,"A false emergency report brings an armed or emergency response to someone's home or school, using the authorities as a weapon. (Treat as an emergency safety risk.)",new,yes,1,
+T321,S8-001,Orbiting,REPLACE,institutional,Watching from a distance to maintain psychological presence after discard.,EDU MEDIA,,2,
+T322,S8-009,Infantilization,REPLACE,intimate-family,Treating competent people as incapable to maintain dependence.,EDU NF COMBOS,,3,Helper-Helpless Dynamic
+T323,S8-010,Parentification,REPLACE,intimate-family,Forcing someone into a caretaker role that reverses the natural hierarchy.,EDU NF COMBOS,,1,
+T324,S8-011,Emotional Blackmail via Self-Harm Threats,REPLACE,intimate-family,Threatening collapse to prevent departure or boundaries.,EDU NF COMBOS,,2,Self-Harm Threats as Leverage
+T325,S8-012,Health Sabotage,REPLACE,intimate-family,Interfering with wellbeing to maintain dependence or instability.,EDU NF COMBOS,,1,
+T326,S8-014,Coordinated Reporting,REPLACE,online,Attempting to remove your voice.,EDU NF COMBOS,,3,
+T327,S8-015,Context Collapse,REPLACE,online,Communications stripped of context to change meaning.,EDU MEDIA NF COMBOS,,6,Context Collapse Exploitation; Context Elimination; Context Stripping; Evidence Traps; Moment Extraction
+T328,S8-016,Doxxing,REPLACE,online,Publishing private information to intimidate.,EDU NF COMBOS,,4,
+T329,S8-018,Forged Screenshots / Edited Evidence,REPLACE,online,Fabricated or altered evidence presented as proof.,EDU NF COMBOS,,3,Deepfake Video/Audio; Deepfakes; Edited Recordings; Fabricated Evidence; Forged Screenshots
+T330,S8-020,Guilt Legacy,REPLACE,intimate-family,Inherited obligation used across generations.,EDU NF COMBOS,,6,
+T331,S8-021,Maternal Gatekeeping,REPLACE,intimate-family,Positioning oneself as the authority over your development to undermine confidence.,EDU NF,,1,
+T332,S8-029,Smart-Home Coercion,REPLACE,intimate-family,"Connected home devices such as cameras, locks, thermostats and speakers are used to monitor, unsettle or control someone living there.",EDU NF COMBOS,,1,
+T333,S8-031,AI Voice Cloning,REPLACE,online,"Software produces speech that sounds like a specific real person, used to deceive the people who know that voice.",EDU NF COMBOS,,2,
+T334,S8-033,Intimate Image Abuse,REPLACE,online,"Real or fabricated intimate images of a person are shared, threatened or used against them without consent. (Treat as an emergency: tell a trusted adult and contact the platform and police or specialist services.)",EDU NF COMBOS,,1,Deepfake / AI Voice / SIM Swap / Intimate Image Abuse / Smart-Home Coercion
+T335,S8-035,Accountability Reset,REPLACE,institutional,"A change of leader, name or program is treated as a fresh start, so earlier promises and failures no longer count against anyone.",COMBOS,yes,1,

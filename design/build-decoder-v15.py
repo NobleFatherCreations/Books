@@ -27,13 +27,15 @@ A15 = os.path.join(V15, "assets")
 A10 = os.path.join(HERE, "decoder-v10", "assets")
 sys.path.insert(0, HERE)
 import decoder_pages as pages  # noqa: E402  (plain per-tactic pages, v16)
+import decoder_v20  # noqa: E402  (standard list of 335, v20)
 
 _spec = importlib.util.spec_from_file_location("v10", os.path.join(HERE, "build-decoder-v10.py"))
 v10 = importlib.util.module_from_spec(_spec); _spec.loader.exec_module(v10)
 
-VERSION = "v19"
-DATE = "2026-10-27"
+VERSION = "v20"
+DATE = "2026-11-09"
 UPDATES = [
+    "<strong>The standard list (v20).</strong> The guide now holds 335 single tactics, one entry for each distinct move, with 110 new ones added. Where two entries described the same move they are now one, under its standard name, and every old name still finds it in search and at its old address. Gaslighting, DARVO, FOG, Trauma Bonding and the other big names are now marked as patterns, each showing the single tactics it is made of, and they keep their pages. Every tactic now shows its stage (Idealize to Replace) and its standard number, and lists the chapters in the books where it comes up.",
     "<strong>One scroll, no map (v19).</strong> Each tactic is now one page you scroll down, with a slim index at the top that jumps to its four parts: Is this it?, Understand, What to do and Go deeper. The four tabs, the step bar and the swipe are gone. The map of dots and lines is gone too: Browse lists the ten lines and every tactic in plain rows, and search sits on the first page. Colour is quieter to begin with (Vivid is in Settings), the top and bottom bars are frosted so the page slides under them, and the bottom bar slides away while you read down and returns when you scroll up.",
     "<strong>More room to read on a phone (v18).</strong> While you read down a tactic, only the slim step bar stays at the bottom of the screen; scroll up and the four buttons and Back to top come back. Share and Print now sit under More, two look-alikes compare one above the other on a phone, the daytime look uses the same warm gold as the night one, and a stray quote mark in a few comparisons is fixed.",
     "<strong>A new night look (v17).</strong> The guide is now matte black with a warm gold for the thing to press. Safety notes are red now, so they stand apart from everything else on the page, and the green Leave button is where it always was.",
@@ -223,7 +225,7 @@ def home_html(lines, count):
 # validator, and then reads the finished HTML back and compares every entry byte for byte with the source it came from.
 # `--selftest` proves the gate really rejects bad input.
 # ----------------------------------------------------------------------------------------------------------------------
-EXPECTED = 310
+EXPECTED = 367   # v20: 335 single tactics + 32 patterns
 PLACEHOLDER = re.compile(r"\{\{|\}\}|\bTODO\b|\bTBD\b|\bFIXME\b|\bXXX\b|lorem ipsum|#REPLACE|data-here|�|[\x00-\x08\x0b\x0c\x0e-\x1f]", re.I)
 TERMINAL = re.compile(r"[.!?”’\"')\]]\s*$")
 PROSE_FIELDS = ["short_definition", "plain_language_summary", "expanded_definition", "why_this_matters", "safety_note"]
@@ -347,6 +349,9 @@ def main():
     a = ap.parse_args()
     if a.draft: a.out = os.path.join(ROOT, "instruments", "playbook", "_undeployed", "v15", "draft.html")
     entries, by, recipes, aliases, narrow, feelings, feeling_groups, stop, common = assemble()
+    entries, by, recipes, aliases, narrow, common, redirects = decoder_v20.transform(entries, recipes, aliases, narrow, common)
+    nsingle = sum(1 for e in entries if "pt" not in e)
+    pages.BOOKREFS = decoder_v20.book_mentions(redirects)
 
     groups = [(k, l, b) for k, l, b in v10.GROUPS if any(e["g"] == k for e in entries)]
     keys = order_columns([k for k, _, _ in groups], by, entries)
@@ -392,18 +397,18 @@ def main():
             .replace("{{FONTS}}", fonts)
             .replace("{{CSS}}", read(V15, "app.css").replace("/*@@LINES@@*/", line_css))
             .replace("{{LOGO}}", read(A10, "brand-logo.txt"))
-            .replace("{{LDSET}}", pages.ld_set(len(entries)))
-            .replace("{{CRAWL}}", pages.crawl_links(lines, len(entries)))
-            .replace("{{COUNT}}", str(len(entries)))
-            .replace("{{HOME}}", home_html(lines, len(entries)))
+            .replace("{{LDSET}}", pages.ld_set(nsingle))
+            .replace("{{CRAWL}}", pages.crawl_links(lines, nsingle))
+            .replace("{{COUNT}}", str(nsingle))
+            .replace("{{HOME}}", home_html(lines, nsingle))
             .replace("{{INDEX}}", js_json(payload))
             .replace("{{JS}}", read(V15, "app.js"))
             .replace("{{BLOCKS}}", blocks)
             .replace("{{HOUSE}}", read(A10, "house.html"))
             .replace("{{BEACON}}", read(A10, "beacon.html")))
     if a.selftest:
-        sys.exit(selftest(entries, recipes, html))
-    problems = run_gate(entries, recipes, html, with_validator=not a.draft)
+        sys.exit(selftest(entries, recipes, html))  # note: expects EXPECTED
+    problems = run_gate(entries, recipes, html, expected=len(entries), with_validator=not a.draft)
     if problems:
         print(f"PRE-COMPILE GATE FAILED ({len(problems)} problems). Nothing was written.")
         for x in problems[:25]: print("  -", x)
@@ -422,7 +427,9 @@ def main():
         text_of = lambda t: re.sub(r"<(style|script)\b.*?</\1>", "", t, flags=re.S)   # CSS and JS braces are not placeholders
         bad = [n for n, t in written.items() if n != "index.html" and (PLACEHOLDER.search(text_of(t)) or "noindex" in t)]
         bad += [e["n"] for e in entries if e["s"] + ".html" not in written]
-        if bad or len(urls) != len(entries) + len(lines) + 2:
+        with open(os.path.join(site, "_redirects"), "w", encoding="utf-8") as fh:
+            fh.write(decoder_v20.redirects_file(redirects))
+        if bad or len(urls) != len(entries) + len(lines) + 3:
             print("PLAIN PAGES FAILED:", bad[:10], len(urls)); sys.exit(1)
         print(f"plain pages: {len(written) - 1} written ({len(entries)} tactics, {len(lines)} lines, 1 index), sitemap {len(urls)} addresses")
     print("pre-compile gate: all", len(entries), "entries checked and read back from the page, byte for byte")
