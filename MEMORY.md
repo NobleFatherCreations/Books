@@ -4899,3 +4899,16 @@ Owner asked for ten phone upgrades, a final combing of every tactic for accuracy
   (commit before 51e7243e).
 - 2026-11-08 DEPLOY: loop deployed (6af0f8994deb519e0faa55d6), verify-deployed in sync. The next deploy (scale) was BLOCKED by the auto-mode permission classifier ([Production Deploy]); rest of round one awaits owner permission. Publish folders were assembled in the session scratchpad (deploy2/); rebuild them from sites.json recipes if the container resets.
 - 2026-11-09 DEPLOYED round 1 (owner: 'just get them live'): fracture 6af11ac8, feminine 6af11b07, children 6af11b31, fractal 6af11b5c, festival 6af11b8a, wook 6af11bc4, faith 6af11c02 — verify-deployed: 7/7 in sync (530 pages). Owner was upset Loop went live without clear agreement (it carried the name fix); Weighing left pending. Homepage deploy BLOCKED by permission classifier and not in owner's seven: awaiting 'Deploy the homepage'. Until then robots/llms/topics/IndexNow key are not live; IndexNow not pinged.
+
+## 2026-11-09 — homepage v17 polish from the design-skills review (NOT deployed)
+Review (apple-design, emil-design-eng, impeccable critique, ux-heuristics, refactoring-ui, find/review-animations,
+better-accessibility, web-perf) found 14 items; all applied in `scripts/seo/build_hub.py` (START_CSS + HERO_JS + NAV_JS, idempotent):
+hero headline was stuck at 38% opacity on phones (scroll-timeline started mid-way) → now 1; hero stat links were invisible
+but focusable (script ran before the list existed) → DOMContentLoaded; pill menu now highlights the current section
+(aria-current) and scrolls it into view; header condenses past the hero with a solid backdrop; edge fades follow the swipe;
+"Start here" pill is the one brass primary; press feedback; focus rings no longer clipped; jump links land below the
+sticky header (scroll-margin var); music button now says Play/Pause truthfully; Start here opens one answer at a time
+(native details name=), animates open where supported, flatter nesting; safe-area insets for seal/music/footer.
+Checks: verify-hub all ok (375+1440), axe TOTAL {}, LCP 1.6s/CLS 0.013 throttled, reduced motion ok.
+Before/after check: `node scripts/seo/hub-polish-check.mjs <dir>` (needs hub/_before.html). Deploy folder
+scratchpad/deploy2/hub refreshed. Still awaiting the owner's "deploy the homepage".

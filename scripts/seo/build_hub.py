@@ -166,6 +166,31 @@ START_HERE = [
                                                    ("music", "The Listening Room", "Free music to sit with")])]),
 ]
 
+OLD_HERO_JS = ('<script>(function(){var c=document.querySelector(".st-colophon");if(c)c.classList.add("nf-cl-in");'
+               'var v=document.querySelector(".st-hero-video");if(v&&matchMedia("(prefers-reduced-motion: reduce)").matches){v.removeAttribute("autoplay");v.pause();}})();</script>')
+# runs after parsing: the colophon list sits below this script, so querying it immediately found nothing
+HERO_JS = ('<script>addEventListener("DOMContentLoaded",function(){var c=document.querySelector(".st-colophon");if(c)c.classList.add("nf-cl-in");'
+           'var v=document.querySelector(".st-hero-video");if(v&&matchMedia("(prefers-reduced-motion: reduce)").matches){v.removeAttribute("autoplay");v.pause();}});</script>')
+
+# phone-nav polish (design review 2026-11-09): active pill, condensed header, edge fades, music state, one-open accordions
+NAV_JS = """<script id="v17-js">(function(){
+var nav=document.querySelector('.masthead .topnav'),mh=document.querySelector('.masthead'),rm=matchMedia('(prefers-reduced-motion: reduce)');
+var a=document.getElementById('npAudio'),m=document.getElementById('npToggle');
+if(a&&m){var sync=function(){var on=!a.paused;m.dataset.playing=on;m.removeAttribute('aria-pressed');m.setAttribute('aria-label',on?'Pause background music':'Play background music')};
+a.addEventListener('play',sync);a.addEventListener('pause',sync);m.addEventListener('click',function(){setTimeout(sync,0)});sync();}
+document.querySelectorAll('.st-start details').forEach(function(d){d.addEventListener('toggle',function(){if(!d.open)return;
+var t=d.firstElementChild.getBoundingClientRect().top;if(t<mh.offsetHeight)d.scrollIntoView({block:'start',behavior:rm.matches?'auto':'smooth'})})});
+if(!nav||!('IntersectionObserver' in window))return;var links={};
+nav.querySelectorAll('a[href^="#"]').forEach(function(l){links[l.getAttribute('href').slice(1)]=l});
+function edges(){nav.dataset.start=nav.scrollLeft<4;nav.dataset.end=nav.scrollLeft+nav.clientWidth>=nav.scrollWidth-4}
+function setActive(id){for(var k in links)links[k].removeAttribute('aria-current');var l=links[id];if(!l)return;l.setAttribute('aria-current','location');
+if(nav.scrollWidth>nav.clientWidth){var x=l.getBoundingClientRect().left-nav.getBoundingClientRect().left+nav.scrollLeft;
+nav.scrollTo({left:x-(nav.clientWidth-l.offsetWidth)/2,behavior:rm.matches?'auto':'smooth'})}}
+var io=new IntersectionObserver(function(es){es.forEach(function(e){if(e.isIntersecting)setActive(e.target.id)})},{rootMargin:'-45% 0px -50% 0px'});
+document.querySelectorAll('main section[id], .st-hero').forEach(function(s){io.observe(s)});
+var hero=document.querySelector('.st-hero');if(hero)new IntersectionObserver(function(es){mh.classList.toggle('is-condensed',!es[0].isIntersecting)},{rootMargin:'-120px 0px 0px 0px'}).observe(hero);
+nav.addEventListener('scroll',edges,{passive:true});addEventListener('resize',edges);edges();})();</script>"""
+
 START_CSS = """
 .st-start{padding:72px 0 24px}.st-start .wrap{max-width:860px}
 .st-start h2{font-family:var(--display);font-weight:500;font-size:clamp(28px,4vw,40px);line-height:1.15;margin:8px 0 8px;color:var(--bone)}
@@ -207,6 +232,51 @@ transition:filter .2s ease}.st-lib-art a:hover{filter:brightness(1.08)}
 .masthead .topnav::-webkit-scrollbar{display:none}
 .masthead .topnav a{flex:none;min-height:44px;display:inline-flex;align-items:center;padding:0 12px;border:1px solid var(--line);border-radius:999px;font-size:.66rem}
 }
+
+/* ---- design review 2026-11-09 ---- */
+:root{--mast-h:68px}@media (max-width:899px){:root{--mast-h:112px}}
+main section[id]{scroll-margin-top:var(--mast-h)}
+@media (prefers-reduced-motion:no-preference){@supports (animation-timeline:view()){
+.st-hero-plate,.st-hero-glow,.st-hero-beam,.st-hero-motes,.st-hero-inner{animation-timeline:scroll(root);animation-range:0 100vh}}}
+.st-colophon a{min-height:44px;justify-content:center}
+.masthead .topnav a{transition:color .2s ease,border-color .2s ease,background-color .2s ease,transform .12s ease-out;-webkit-tap-highlight-color:transparent}
+.masthead .topnav a[aria-current]{color:var(--brass-bright);border-color:rgba(201,163,91,.6);background:rgba(201,163,91,.12)}
+@media (hover:none){.masthead .topnav a:hover:not([aria-current]){color:var(--bone-dim)}}
+.masthead .topnav a:active{transform:scale(.96)}
+.masthead .topnav a:focus-visible{outline-offset:-3px}
+.st-start summary,.st-start .st-help a,.st-lib-art a{-webkit-tap-highlight-color:transparent}
+.st-start summary{transition:background-color .15s ease}.st-start summary:active{background:rgba(201,163,91,.08)}
+.st-start .st-help a:active,.st-lib-art a:active{transform:scale(.98);transition-duration:.1s}
+.st-start details{scroll-margin-top:calc(var(--mast-h) + 8px)}
+.st-start details details{margin:0 20px;border:0;border-top:1px solid var(--line);border-radius:0;background:transparent}
+.st-start details details[open]{border-color:var(--line)}
+.st-start details details summary{padding:12px 0}
+.st-start details details .st-help{padding:0 0 16px}
+@supports (interpolate-size:allow-keywords){.st-start{interpolate-size:allow-keywords}
+.st-start details::details-content{block-size:0;overflow:clip;opacity:0;transition:block-size .25s cubic-bezier(.23,1,.32,1),opacity .2s ease,content-visibility .25s allow-discrete}
+.st-start details[open]::details-content{block-size:auto;opacity:1}}
+.nf-mute.nf-mute[data-playing="false"] .nf-mute-on-icon{display:none}.nf-mute.nf-mute[data-playing="false"] .nf-mute-off-icon{display:block}
+.nf-mute.nf-mute[data-playing="true"] .nf-mute-on-icon{display:block}.nf-mute.nf-mute[data-playing="true"] .nf-mute-off-icon{display:none}
+.nf-seal.nf-seal{right:calc(18px + env(safe-area-inset-right));bottom:calc(18px + env(safe-area-inset-bottom))}
+.nf-mute.nf-mute{left:calc(18px + env(safe-area-inset-left));bottom:calc(18px + env(safe-area-inset-bottom))}
+.masthead .bar{padding-left:max(var(--gutter,20px),env(safe-area-inset-left));padding-right:max(var(--gutter,20px),env(safe-area-inset-right))}
+.footer{padding-bottom:calc(88px + env(safe-area-inset-bottom))}
+@media (max-width:899px){
+.masthead .topnav a{font-size:.75rem;letter-spacing:.08em;padding:0 14px}
+.masthead .topnav a[href="#start-here"]{background:var(--brass);border-color:var(--brass);color:#141019}
+.masthead .topnav{--l:0px;--r:32px;-webkit-mask-image:linear-gradient(90deg,transparent,#000 var(--l),#000 calc(100% - var(--r)),transparent);mask-image:linear-gradient(90deg,transparent,#000 var(--l),#000 calc(100% - var(--r)),transparent)}
+.masthead .topnav[data-start=false]{--l:24px}.masthead .topnav[data-end=true]{--r:0px}
+.masthead{transition:background-color .25s ease}
+.masthead .bar{transition:padding .25s cubic-bezier(.23,1,.32,1)}
+.masthead .nm>span{display:block;max-height:16px;overflow:hidden;transition:opacity .2s ease,max-height .25s cubic-bezier(.23,1,.32,1)}
+.masthead.is-condensed{background:rgba(14,10,20,.86)}
+.masthead.is-condensed .bar{padding-top:8px}
+.masthead.is-condensed .nm>span{opacity:0;max-height:0}}
+@media (prefers-reduced-motion:reduce){
+.masthead,.masthead .bar,.masthead .nm>span{transition:none}
+.masthead .topnav a{transition:color .2s ease,border-color .2s ease,background-color .2s ease}
+.masthead .topnav a:active,.st-start .st-help a:active,.st-lib-art a:active{transform:none}
+.st-start details::details-content{transition:opacity .15s ease}}
 """
 
 
@@ -214,14 +284,14 @@ def start_here_html():
     def books(lst):
         return "<ul>" + "".join(f'<li><a href="/{s}"><b>{S.esc(t)}</b><span>{S.esc(d)}</span></a></li>' for s, t, d in lst) + "</ul>"
     out = []
-    for situation, branches in START_HERE:
+    for i, (situation, branches) in enumerate(START_HERE):
         inner = ""
         if len(branches) == 1 and branches[0][0] is None:
             inner = f'<div class="st-help"><p class="st-help-k">These may help</p>{books(branches[0][1])}</div>'
         else:
-            inner = "".join(f'<details><summary>{S.esc(sub)}</summary><div class="st-help"><p class="st-help-k">These may help</p>'
+            inner = "".join(f'<details name="st-sub-{i}"><summary>{S.esc(sub)}</summary><div class="st-help"><p class="st-help-k">These may help</p>'
                             f'{books(lst)}</div></details>' for sub, lst in branches) + '<div style="height:14px"></div>'
-        out.append(f"<details><summary>{S.esc(situation)}</summary>{inner}</details>")
+        out.append(f"<details name=\"st-top\"><summary>{S.esc(situation)}</summary>{inner}</details>")
     return ('<section class="st-start" id="start-here" aria-labelledby="start-h"><div class="wrap">'
             '<p class="st-kicker">Start here</p><h2 id="start-h">What brings you here?</h2>'
             '<p class="st-start-lede">Pick what fits. A few free books open up that may help, and you can narrow it down from there.</p>'
@@ -242,8 +312,7 @@ FACTS = [
 def restructure(h):
     # intro overlay -> hero background video
     h = re.sub(r'<div[^>]*id="heroIntro"[^>]*>.*?</div>\s*<script>\s*\(function\(\)\{\s*var overlay = document\.getElementById\(\'heroIntro\'\);.*?</script>',
-               '<script>(function(){var c=document.querySelector(".st-colophon");if(c)c.classList.add("nf-cl-in");'
-               'var v=document.querySelector(".st-hero-video");if(v&&matchMedia("(prefers-reduced-motion: reduce)").matches){v.removeAttribute("autoplay");v.pause();}})();</script>',
+               HERO_JS,
                h, count=1, flags=re.S)
     if 'class="st-hero-video"' not in h:
         h = h.replace('<span class="st-hero-glow"></span>',
@@ -301,6 +370,9 @@ def restructure(h):
         h = h[:m.start()] + v17 + h[m.start():]
     for a, b in FACTS:
         h = h.replace(a, b)
+    h = h.replace(OLD_HERO_JS, HERO_JS)
+    h = re.sub(r'<script id="v17-js">.*?</script>\n?', "", h, flags=re.S)
+    h = h.replace("</body>", NAV_JS + "\n</body>", 1)
     h = re.sub(r'<style id="v17-css">.*?</style>\n?', "", h, flags=re.S)
     h = h.replace("</head>", f"<style id=\"v17-css\">{START_CSS}</style>\n</head>", 1)
     return h
