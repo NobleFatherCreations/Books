@@ -108,10 +108,12 @@
       "hub/sitemap.xml",
       "hub/topics.html"
     ],
-    "pendingDeploy": {
-      "note": "Repo is AHEAD of live: v16 + v17 homepage rounds built 2026-11-08, awaiting owner go-ahead to deploy."
-    },
-    "buildCommand": "python3 scripts/seo/build_hub.py && python3 scripts/seo/build_site.py"
+    "buildCommand": "python3 scripts/seo/build_hub.py && python3 scripts/seo/build_site.py",
+    "lastDeploy": {
+      "id": "6af1238b68fb202899c80068",
+      "date": "2026-11-09",
+      "verified": "verify-deployed: in sync"
+    }
   },
   "projects": [
     {

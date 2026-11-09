@@ -53,12 +53,10 @@ New writing lives ONLY in `content/seo/<book>.json` (`plain`, `aka`). Site-wide:
   byte-identical to the repo. Deploy IDs are in `sites.json` → `lastDeploy`.
 - **Also live:** The Loop (only a name/menu-label fix). It went live without the owner's clear agreement; they were
   unhappy. The Weighing was left pending on purpose.
-- **NOT live:** the homepage (v16 head + v17 redesign), and with it `robots.txt`, root `sitemap.xml`, `llms.txt`,
-  `/topics`, `og.png`, the IndexNow key file. The permission classifier blocked it and the owner hasn't approved it.
-  IndexNow has NOT been pinged.
-- In progress at hand-off: a design-skills review of the v17 homepage (apple-design, emil-design-eng, impeccable,
-  ux-heuristics, refactoring-ui, find-animation-opportunities, better-accessibility, web-perf). Its fixes were not yet
-  applied.
+- **Live since 2026-11-09 (deploy 6af1238b, owner-approved):** the homepage v17 with the design-review fixes, `robots.txt`,
+  root `sitemap.xml`, `llms.txt`, `/topics`, `og.png`, the IndexNow key file. IndexNow: first submission returned
+  SiteVerificationNotCompleted (key just seen); resend with `scripts/seo/indexnow.py`.
+- The design-skills review of the homepage was applied (14 fixes, commit 4f800b90) before the deploy.
 
 ## 4. How to audit (commands)
 

@@ -4912,3 +4912,7 @@ sticky header (scroll-margin var); music button now says Play/Pause truthfully; 
 Checks: verify-hub all ok (375+1440), axe TOTAL {}, LCP 1.6s/CLS 0.013 throttled, reduced motion ok.
 Before/after check: `node scripts/seo/hub-polish-check.mjs <dir>` (needs hub/_before.html). Deploy folder
 scratchpad/deploy2/hub refreshed. Still awaiting the owner's "deploy the homepage".
+- 2026-11-09 later: owner said "Deploy the homepage". Deployed hub (6af1238b) from scratchpad/deploy2/hub; verify-deployed
+  hub in sync; /, robots, sitemap, llms.txt, topics, og.png, key file, media, fonts all 200. IndexNow: curl works
+  (python UA was 403'd; added UA) but bulk submit returned SiteVerificationNotCompleted — retry later. Added
+  docs/AI-QUICKSTART.md (+ pointer in CLAUDE.md) so a fresh AI gets state + commands in one page.
