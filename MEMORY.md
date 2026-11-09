@@ -4783,3 +4783,19 @@ Owner asked for ten phone upgrades, a final combing of every tactic for accuracy
   Sequential Thinking at user scope on every start (idempotent; tested fresh, repeated, and outside a repo: Connected).
   A server registered by a hook is live from the next start or resume of that chat; the environment Setup script line is
   still the only way to have it in the very first turn of every new chat.
+
+## 2026-11-09 — Fractal sector sites: ENT prototype built (NOT deployed)
+
+- Decision (owner): every sector of The Fractal becomes its own site-like section on the main domain,
+  `noblefathercreations.com/fractal/<slug>`, one Netlify deploy per sector, all built by one generator. No new domains.
+- Pipeline: `design/fractal-sector/` (README there). `run.sh ent` = ingest + audit, build, social cards, verify;
+  174 pages in about 25 s, 16/16 checks (exact author word-count round trip on all 153 combos, safety notes first,
+  axe, 375/1440, reduced motion, no external requests besides the beacon).
+- Author package stored verbatim in `content/fractal/ent/source/` (scripts from ENT_COMPLETE.zip + readable JSON/MD +
+  top 10). Never edit it. `review_state.json` (owner) drives labels and the production gate.
+- Audit findings (ENT): 0 structural failures. [X]/[Y] in C073 and C169 are reader fill-in blanks inside Safer
+  Response Language, not defects (rendered as visible blanks). C144: the author's index misses 2 REQUIRES SUBJECT-MATTER
+  REVIEW tags inside compound tags. 131 combo tactic names do not resolve (e.g. "Gaslighting", "Information Control",
+  "FOG" have no entry of that exact name in the 335 list); they render as plain text, listed in build/audit.md.
+- Not done: preview deploy and the hub proxy rule (needs owner go-ahead); Decoder "Seen in these combos" links
+  (needs alias_map.json / LIVE_ENTRY_CHANGES.csv, not in this session); sites.json entry (add at first deploy).
