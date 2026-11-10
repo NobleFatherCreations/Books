@@ -74,3 +74,12 @@ python3 design/fractal2/serve.py 8802        # http://127.0.0.1:8802/fractal2  a
 
 1. "Pause, save everything to a repo and memory… give me a summary… in a Md file" → this file.
 2. "Work solely on the image… being fully fixed and beautifully rendered, and then stop until further notice." The image: the completed original in the middle; outer rings in colours that match the original, so it looks like one image zoomed out; the eight stages named once; tactics spaced evenly around every ring; "this will be the entire series logo". Reference images the owner attached are described in `design/fractal2/art/README.md`.
+
+## H. Value-and-impact assessment (2026-11-10, after the logo)
+
+The owner asked for analysis only, before any writing: what the original Fractal can do, what Fractal² can do, missed opportunities, how the spiritual lens compares to the traditions, and a conclusion on value and impact, delivered as a PDF. "From THAT perspective we will rewrite the intro one last time."
+
+- **Report:** `library/fractal2/review/Fractal2-Value-and-Impact.pdf` (25 pages). Source: `design/fractal2/reports/value-and-impact.html`; render with `node design/fractal2/reports/render_pdf.mjs <in.html> <out.pdf> "<footer title>"`.
+- **The owner's message, word for word:** `content/fractal2/owner-source/G-owner-message-2026-11-10-value-and-impact-brief.md` (includes the pasted audit of draft 4 and other AI material; the owner said some of the audit was wrong).
+- **Not done, on purpose:** the intro has NOT been rewritten. The next step is the owner's reaction to the report, then one last rewrite of `content/fractal2/intro-final.md` from section 11 of the report ("the ground the final intro should stand on").
+- **Key conclusions to carry into the rewrite:** the original's invention is a transfer of a literacy people already have; a list of tactics explains the past, a sequence predicts the future; "not their names, their methods" has a tested parallel in security practice (kill chain, ATT&CK); the false-positive check and safety apparatus are the most valuable quiet parts; say "documented across", never "proved"; do not claim immunity or that a map ends the cycle; tradition line should read "every tradition has a word for the covering and a word for what is under it" (maya belongs to the Hindu line, avidya and Mara to the Buddhist; pair fana with baqa).

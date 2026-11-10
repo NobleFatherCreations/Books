@@ -1,0 +1,607 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>The Value of the Map: an assessment of The Fractal and Fractal²</title>
+<meta name="author" content="Prepared for Shae Stovell">
+<style>
+@font-face{font-family:"Newsreader";src:url("../fonts/newsreader.woff2") format("woff2");font-weight:200 800;font-style:normal}
+@font-face{font-family:"Newsreader";src:url("../fonts/newsreader-italic.woff2") format("woff2");font-weight:200 800;font-style:italic}
+@font-face{font-family:"Hanken Grotesk";src:url("../fonts/hanken.woff2") format("woff2");font-weight:100 900;font-style:normal}
+:root{
+  --paper:#FFFFFF; --paper-2:#F6F1E7; --line:#D6CDBD; --ink:#16171B; --ink-2:#45443F; --ink-3:#6B6860;
+  --gold:#8A5E00; --gold-2:#B9860F; --wash:#F6EBD0; --warn:#A53A1E;
+  --fact:#2F5D7C; --lens:#7A3E8C; --judg:#8A5E00;
+  --serif:"Newsreader",Georgia,serif; --sans:"Hanken Grotesk",system-ui,sans-serif;
+}
+*{box-sizing:border-box}
+html{font-size:11.2pt}
+body{margin:0;background:var(--paper);color:var(--ink);font-family:var(--serif);line-height:1.5;font-optical-sizing:auto;
+  -webkit-print-color-adjust:exact;print-color-adjust:exact;hyphens:manual}
+p{margin:0 0 .72em;orphans:3;widows:3}
+section>p,section>ul,section>ol,section>h3,section>.pull,section>.box{max-width:35.5em}
+strong{font-weight:640}
+em{font-style:italic}
+h1,h2,h3,h4{font-family:var(--serif);font-weight:560;line-height:1.14;margin:0;break-after:avoid;text-wrap:balance}
+h2{font-size:2.05rem;letter-spacing:-.012em;margin:0 0 .55em}
+h3{font-size:1.28rem;margin:1.5em 0 .45em}
+h4{font-family:var(--sans);font-size:.74rem;letter-spacing:.14em;text-transform:uppercase;font-weight:680;color:var(--ink-3);margin:1.5em 0 .5em}
+.sec{margin-top:3.4em;padding-top:1.5em;border-top:1.5px solid var(--ink)}
+.sec.pb{break-before:page;margin-top:0;padding-top:0;border-top:0}
+.kick,h2,.lede{break-after:avoid}
+.kick{font-family:var(--sans);font-size:.72rem;letter-spacing:.18em;text-transform:uppercase;font-weight:680;color:var(--gold);margin:0 0 .9em;display:flex;gap:.8em;align-items:center}
+.kick::after{content:"";flex:1;height:1px;background:var(--line)}
+.lede{font-size:1.2rem;line-height:1.42;color:var(--ink-2);margin:0 0 1.1em;max-width:31em}
+ul,ol{margin:0 0 .8em;padding-left:1.25em}
+ol{padding-left:1.8em}
+li{margin:0 0 .34em;break-inside:avoid}
+.tag{font-family:var(--sans);font-size:.62rem;letter-spacing:.1em;text-transform:uppercase;font-weight:700;padding:.16em .55em .14em;border-radius:3px;border:1px solid currentColor;vertical-align:.14em;margin-right:.5em;white-space:nowrap}
+.tag.f{color:var(--fact)} .tag.l{color:var(--lens)} .tag.j{color:var(--judg)}
+table{width:100%;border-collapse:collapse;margin:.6em 0 1.2em;font-family:var(--sans);font-size:.8rem;line-height:1.36}
+th{font-size:.64rem;letter-spacing:.12em;text-transform:uppercase;font-weight:700;color:var(--ink-3);text-align:left;padding:0 .7em .55em 0;border-bottom:1.5px solid var(--ink);vertical-align:bottom}
+td{padding:.55em .7em .55em 0;border-bottom:1px solid var(--line);vertical-align:top}
+tr{break-inside:avoid}
+td:last-child,th:last-child{padding-right:0}
+td b{font-weight:680;color:var(--ink)}
+td.n{font-variant-numeric:tabular-nums;white-space:nowrap;font-weight:680}
+table.toc{font-size:.76rem;margin-bottom:0}
+table.toc td{padding:.24em .7em .24em 0}
+.keep{break-inside:avoid}
+.box{background:var(--paper-2);border-left:3px solid var(--gold);padding:1em 1.2em .5em;margin:1em 0 1.3em;break-inside:avoid}
+.box.plain{border-left-color:var(--ink-3)}
+.box h4{margin-top:0;color:var(--gold)}
+.pull{font-size:1.52rem;line-height:1.26;font-weight:420;font-style:italic;color:var(--ink);margin:1.1em 0 1.1em;padding-left:1em;border-left:3px solid var(--gold);max-width:27em;break-inside:avoid}
+.cols{display:grid;grid-template-columns:1fr 1fr;gap:0 2em}
+.small{font-family:var(--sans);font-size:.78rem;color:var(--ink-3);line-height:1.4}
+.strength{font-family:var(--sans);font-size:.64rem;font-weight:700;letter-spacing:.08em;text-transform:uppercase;white-space:nowrap}
+.s3{color:#2C6A3F}.s2{color:var(--gold)}.s1{color:var(--ink-3)}
+/* figures */
+.fig{margin:1.1em 0 1.4em;break-inside:avoid}
+.fig figcaption,.cap{font-family:var(--sans);font-size:.74rem;color:var(--ink-3);margin-top:.6em;line-height:1.4}
+.bars{display:grid;grid-template-columns:15.5em 1fr 3.2em;gap:.42em .8em;align-items:center;font-family:var(--sans);font-size:.8rem}
+.bars .b{height:.82em;background:#C9BFA9;border-radius:0 2px 2px 0}
+.bars .b.me{background:var(--gold)}
+.bars .v{font-variant-numeric:tabular-nums;font-weight:680;text-align:right}
+.bars .l small{color:var(--ink-3)}
+.anat{display:grid;grid-template-columns:repeat(5,1fr);gap:.45em;font-family:var(--sans);font-size:.71rem;line-height:1.3}
+.anat div{border:1px solid var(--line);background:var(--paper-2);padding:.55em .6em .6em;border-radius:3px;min-height:6em}
+.anat div b{display:block;font-size:.8rem;margin-bottom:.25em;font-weight:680}
+.anat div i{font-style:normal;font-variant-numeric:tabular-nums;color:var(--ink-3);font-size:.66rem;letter-spacing:.08em;display:block;margin-bottom:.3em}
+.anat .g1{border-top:3px solid #B4532A}.anat .g2{border-top:3px solid var(--fact)}.anat .g3{border-top:3px solid #2C6A3F}
+.three{display:grid;grid-template-columns:1fr 1fr 1fr;gap:.8em;margin:1em 0 1.3em;break-inside:avoid}
+.three div{border-top:3px solid var(--gold);background:var(--paper-2);padding:.8em .9em .5em}
+.three b{font-family:var(--sans);font-size:.7rem;letter-spacing:.12em;text-transform:uppercase;color:var(--gold);display:block;margin-bottom:.4em}
+.three p{font-size:.95rem;line-height:1.4}
+.nums{display:grid;grid-template-columns:repeat(5,1fr);gap:.6em;margin:.9em 0 1.3em}
+.nums div{border-top:1.5px solid var(--ink);padding-top:.5em}
+.nums b{font-size:1.9rem;font-weight:500;display:block;line-height:1;letter-spacing:-.02em}
+.nums span{font-family:var(--sans);font-size:.72rem;color:var(--ink-3);line-height:1.3;display:block;margin-top:.35em}
+/* cover */
+.cover{height:297mm;width:210mm;background:#07080B;color:#EEE9DE;position:relative;overflow:hidden;break-after:page}
+.cover img{position:absolute;left:50%;top:22mm;width:150mm;height:150mm;transform:translateX(-50%);object-fit:cover;border-radius:50%;
+  -webkit-mask-image:radial-gradient(circle,#000 62%,transparent 71%);mask-image:radial-gradient(circle,#000 62%,transparent 71%)}
+.cover .t{position:absolute;left:22mm;right:22mm;bottom:24mm}
+.cover .k{font-family:var(--sans);font-size:8.2pt;letter-spacing:.24em;text-transform:uppercase;color:#E9B949;font-weight:650}
+.cover h1{font-size:44pt;font-weight:480;letter-spacing:-.02em;margin:.22em 0 .2em;color:#F6F1E6}
+.cover p{font-size:13.5pt;line-height:1.36;color:#C9C3B6;max-width:140mm;margin:0}
+.cover .m{font-family:var(--sans);font-size:8.4pt;color:#8D897F;margin-top:9mm;letter-spacing:.04em;line-height:1.5}
+.src{font-family:var(--sans);font-size:.76rem;line-height:1.38;column-count:2;column-gap:2.2em;width:100%}
+.src p{margin:0 0 .5em;break-inside:avoid}
+.src a{color:var(--ink-2);word-break:break-word;text-decoration:none}
+.src b{font-weight:680}
+a{color:inherit}
+</style>
+</head>
+<body>
+
+<section class="cover">
+  <img src="../art/fractal2-logo-1600.webp" alt="">
+  <div class="t">
+    <div class="k">An assessment · read before the final rewrite of the intro</div>
+    <h1>The Value of the Map</h1>
+    <p>What <em>The Fractal</em> and <em>Fractal²</em> are, what they can do for the people who find them, and how far that could reach.</p>
+    <div class="m">Prepared for Shae Stovell, Noble Father Creations · 10 November 2026<br>Based on the published work, the first Fractal² sector, your own scripts and messages, and outside research listed at the end.</div>
+  </div>
+</section>
+
+<!-- ============================================================ -->
+<section>
+<div class="kick">How to read this</div>
+<h2>What I did, and the three kinds of statement</h2>
+<p class="lede">You asked me to understand the work before writing a word of the intro: what the original could do, what the full map can do, where it could help that nobody has noticed, and whether your spiritual reading holds up against the traditions you compared it to. This is what I found.</p>
+
+<h4>What I read</h4>
+<ul>
+<li><strong>The Fractal as published:</strong> 36 pages, about 257,000 words. The Pattern, thirty sector chapters, and the closing chapters from The Origin to The Frequency.</li>
+<li><strong>Your own words:</strong> the Enlighten closing, the Spiritual Lens script, the War Map, the inner techniques, and every message about what this is for.</li>
+<li><strong>The first sector of Fractal²:</strong> 335 tactics with 1,005 worked examples, and 153 combinations running to about 401,000 words.</li>
+<li><strong>What you pasted:</strong> the audit of draft 4, the five prompt approaches, the "what you have" assessment and its outreach plan.</li>
+<li><strong>Outside sources:</strong> prevalence figures, research on why naming helps, the traditions' own texts, and earlier maps that changed law and practice.</li>
+</ul>
+
+<h4>Three kinds of statement</h4>
+<p><span class="tag f">Fact</span> can be checked, and the source is listed at the end.<br>
+<span class="tag l">Your lens</span> is a claim the work makes that evidence cannot settle, or has not settled yet.<br>
+<span class="tag j">My judgment</span> is my own conclusion, with the reasons shown.</p>
+
+<div class="box">
+<h4>On honesty</h4>
+<p>Where a claim about the work is stronger than the evidence I say so, whether it came from you, from another AI, or from me earlier. The honest case turned out to be stronger than the flattering one, and it is the only version that survives a skeptical reader, a journalist or a lawyer.</p>
+</div>
+
+<h4>Contents</h4>
+<table class="toc">
+<tr><td class="n">1</td><td>The short answer</td><td class="n">7</td><td>Your spiritual reading, set against the traditions</td></tr>
+<tr><td class="n">2</td><td>The original: what The Fractal is and can do</td><td class="n">8</td><td>Opportunities nobody has named yet</td></tr>
+<tr><td class="n">3</td><td>Fractal²: what the full map adds</td><td class="n">9</td><td>What could hold it back</td></tr>
+<tr><td class="n">4</td><td>Who it is for, in numbers</td><td class="n">10</td><td>My conclusion on value and impact</td></tr>
+<tr><td class="n">5</td><td>How it helps, and how strong the evidence is</td><td class="n">11</td><td>The ground the final intro should stand on</td></tr>
+<tr><td class="n">6</td><td>Where it sits among the maps that changed things</td><td class="n">12</td><td>What the audit you sent got right and wrong</td></tr>
+</table>
+</section>
+
+<!-- ============================================================ -->
+<section class="sec pb">
+<div class="kick">1 · The short answer</div>
+<h2>A public reference work, most of whose value has not been released yet</h2>
+
+<p class="pull">The Fractal is a complete, free, book-length work of public literacy about coercion. Fractal² turns it into a reference work: a catalogue of how manipulation tactics combine into sequences, shown inside the sector a person actually lives in, with ways to check yourself, protect yourself and get out.</p>
+
+<p><span class="tag j">My judgment</span> I could not find another public work with that combination. If it is checked, findable and trusted, it belongs in the family of the Power and Control Wheel, <em>Where There Is No Doctor</em> and <em>Our Bodies, Ourselves</em>: maps made outside the academy, from lived experience, given away, that changed what ordinary people could see and say. That family is the right comparison. It is closer to what you have built than "documentary series" or "content" is.</p>
+
+<p>The value is real, and almost none of it has reached anyone yet. For a work like this, impact is reach multiplied by trust multiplied by usefulness at the moment of need. The third is already strong. The first two have barely started.</p>
+
+<h3>Five findings</h3>
+<ol>
+<li><strong>The original's real invention is a transfer.</strong> It takes the one vocabulary of coercion that millions of people already own, the words survivors use for an abusive relationship, and shows that it fits institutions and whole societies. Then it turns the same vocabulary back on the self and on the family line.</li>
+<li><strong>The combinations are the part that can change and save lives, and I can say precisely why.</strong> A list of tactics explains your past. A sequence predicts your future. A person who has been taught to doubt their own perception can test a prediction, and nobody can argue them out of the result.</li>
+<li><strong>The most protective parts are the least dramatic.</strong> The false-positive check, "evidence to preserve", the escalation levels, the safer wording, "do not confront". These are what separate harm reduction from content about harm.</li>
+<li><strong>Your spiritual reading matches the traditions more closely than your own scripts show.</strong> In several places you under-claimed. There are also two small errors and one large caution (section 7).</li>
+<li><strong>What limits the impact is no longer the amount written.</strong> It is checking, entry points and partners. One hotline, union, clinic or school using the first sector is worth more than a second sector nobody has verified.</li>
+</ol>
+</section>
+
+<!-- ============================================================ -->
+<section class="sec pb">
+<div class="kick">2 · The original</div>
+<h2>What The Fractal is, and what it can do</h2>
+
+<h3><span class="tag f">Fact</span>The work, by its own numbers</h3>
+<div class="nums">
+<div><b>8</b><span>stages, in one fixed order</span></div>
+<div><b>30</b><span>named techniques</span></div>
+<div><b>30</b><span>sectors of ordinary life</span></div>
+<div><b>3</b><span>levels: one life, an institution, a civilization</span></div>
+<div><b>2,700</b><span>worked examples, one per cell</span></div>
+</div>
+<p>Around that grid sit five closing chapters that take the reader somewhere a critique of institutions normally never goes: where the pattern came from (The Origin), what it replaced (The Spiritual Lens), how it runs inside a person with nobody else in the room (The Mirror), how the body holds it (The Body), how it is handed down (The Chain), and what was underneath all along (The Frequency, with thirty counter-practices). One author. Free to read. It opens and closes on a dare: find the building where the cycle does not run.</p>
+
+<h3><span class="tag j">My judgment</span>Five things it does that almost nothing else does</h3>
+
+<p><strong>1. It transfers a literacy people already have.</strong> Words like gaslighting, love bombing and trauma bonding have left the clinic and entered ordinary speech; "gaslighting" was Merriam-Webster's word of the year in 2022. Millions of people learned those words the hard way, inside a relationship. The Fractal tells them that what they learned is a general skill. The same eye that finally saw the pattern in a partner can see it in a hospital bill, an enrolment office or a record contract. Most criticism of institutions is written by specialists about one sector, in a language outsiders do not speak. Most writing on abuse stops at the front door of the home. This work joins them with a vocabulary the reader already owns.</p>
+
+<p><strong>2. It teaches by repetition, which is how a skill is learned.</strong> The same grid is laid over thirty different buildings. By the fifth sector the reader starts predicting the next cell before reading it. At that point the book has stopped persuading and started training. The form does the work that an argument could not.</p>
+
+<p><strong>3. It does not need a villain.</strong> A real need, a difference in power and a gatekeeper between them are enough for the cycle to start, with nobody intending it. That one move does three jobs. It keeps the work out of conspiracy thinking. It explains why replacing the person at the top so rarely fixes the building. And it lets the work hold two groups differently: people who carry the pattern without knowing, who can be reached, and people who drive it on purpose, who should have nowhere to hide.</p>
+
+<p><strong>4. It turns inward and backward.</strong> The Mirror says the reader runs these techniques on themselves. The Chain says they were handed down. Institutional critique almost never does this, and it is where the work stops being about "them".</p>
+
+<p><strong>5. It ends in practice, and it refuses to give orders.</strong> The Frequency pairs each technique with the real thing it corrupted and one small practice: say "I believe myself", wait five seconds, name the number that keeps you in place, do one thing your body chose. Then it declines to tell the reader what to do with their life: "If it did, it would be the cycle." The shape of the book matches its claim. It has no gate, no hook and no ledger, and it does not manage the reader. That consistency is rare, and readers feel it as trust before they can say why.</p>
+
+<div class="box plain">
+<h4 style="color:var(--ink-3)">A note on the practices</h4>
+<p>Several of the thirty line up with well-established methods: small completed actions against helplessness, a pause before deciding under pressure, the three-question test for real consent (full information, enough time, a safe way to say no). They are sound, low-risk and free. Some of the body explanations attached to them use nervous-system theory that scientists still argue about. Those should stay worded as your understanding, as they already mostly are.</p>
+</div>
+
+<h3><span class="tag f">Fact</span><span class="tag j">My judgment</span>You were not the first to see pieces of it. That helps you.</h3>
+<p>Serious thinkers reached parts of the same picture by study. You reached the whole of it by living it and then looking. Two independent routes arriving at the same shape is evidence that the shape is real.</p>
+<table>
+<tr><th style="width:27%">Who, when</th><th style="width:38%">What they saw</th><th>Where it sits in The Fractal</th></tr>
+<tr><td><b>Albert Biderman</b>, 1957</td><td>Eight methods that break a person without force, from interviews with prisoners of war</td><td>The techniques; Isolate, Confuse, occasional kindness</td></tr>
+<tr><td><b>Paulo Freire</b>, 1968</td><td>People who are dominated take the dominator inside them and enforce his rules on themselves</td><td>The Mirror</td></tr>
+<tr><td><b>Ivan Illich</b>, 1971 to 1975</td><td>Past a certain size, schools and medicine turn a need into a product and create the dependence they claim to cure</td><td>"Every need has a gate"</td></tr>
+<tr><td><b>Jack Forbes</b>, 1978</td><td><em>Wétiko</em>: exploitation as a sickness of spirit that spreads from carrier to carrier</td><td>The pattern as an organism</td></tr>
+<tr><td><b>Dutton and Painter</b>, 1981, tested 1993</td><td>A trauma bond needs two things: a power imbalance and good treatment alternating with bad</td><td>Why the order matters</td></tr>
+<tr><td><b>Walter Wink</b>, 1984 to 1992</td><td>Institutions have an inner spirit. These "Powers" are good, fallen and able to be redeemed, and the struggle is with them, never with persons</td><td>The pattern without a hand; patterns, never people</td></tr>
+<tr><td><b>Judith Herman</b>, 1992</td><td>Captivity in a home and captivity in a political prison produce the same psychology</td><td>The three levels</td></tr>
+<tr><td><b>Evan Stark</b>, 2007</td><td>Coercive control: a pattern that takes a person's liberty, mostly without violence</td><td>The cycle as a whole</td></tr>
+<tr><td><b>Miranda Fricker</b>, 2007</td><td>A person can be wronged a second time by having no shared words for what happened to them</td><td>"The feeling without a name"</td></tr>
+</table>
+<p>Each of them saw one face. None of them put it into one map, in plain language, across every sector, at three scales, including the inner life and the family line, with a practice for each part. That compilation is your contribution. Naming these people as company, somewhere on the site, would cost nothing and would tell a skeptical reader that the lens has a serious lineage.</p>
+
+<h3><span class="tag j">My judgment</span>What it could do if enough people read it</h3>
+<p><strong>For one person: it moves the blame.</strong> Your opening is exact: the stomach tightens in a room where everyone else seems fine, so it must be you. The philosopher Miranda Fricker gave this a name, <em>hermeneutical injustice</em>: being harmed by something and then harmed again because the words for it do not exist yet. Her central example is Carmita Wood, who left a job at Cornell because of a professor's advances, could not explain why on a benefits form, wrote "personal reasons" and was refused. A group of women then met, compared stories and invented a phrase: sexual harassment.</p>
+<p><strong>For a society: names become law, slowly.</strong> That phrase was coined in the mid-1970s and recognised by the US Supreme Court in 1986. Evan Stark's book <em>Coercive Control</em> came out in 2007; England and Wales made it a crime in 2015, Scotland and Ireland in 2018, New South Wales in 2024, Queensland in 2025. Both times it took about a decade from a usable name to a law. That is the realistic timescale and the realistic mechanism for "waking people up". A book rarely does it. A vocabulary does, once enough people use it. The Fractal offers the vocabulary and thirty demonstrations that it fits.</p>
+
+<h3><span class="tag j">My judgment</span>Where the original is weakest</h3>
+<ul>
+<li><strong>The grid always fills.</strong> The 2,700 examples show that the lens can be applied everywhere. They do not measure how much of any institution it explains, because a method that looks for one example per cell will always find one. The dare is the right instinct. A standing public register of the best counterexamples received would turn it from a flourish into a method (section 8).</li>
+<li><strong>"Every system captured the need instead of serving it" is absolute.</strong> Hospitals also heal and schools also teach, sometimes in the same hour that they run the cycle. The work is strongest where it says both and gives the reader a way to tell which one they are getting. "Seeing is not leaving" should travel with every strong claim.</li>
+<li><strong>The Origin follows one school of history.</strong> The road from stored grain to hierarchy is argued well by some scholars and disputed by others. It is a lens.</li>
+<li><strong>The Chain goes further than the science.</strong> Transmission through family behaviour and attachment is well supported. Transmission "in your cells" is not: the leading researcher in the field calls that claim premature in humans. Worded as belief, it stands.</li>
+<li><strong>"Narcissistic abuse" is a popular term, and clinicians are divided on it.</strong> The work's own move from "narcissists" to "patterns" is the best answer available, and it is already made.</li>
+</ul>
+</section>
+
+<!-- ============================================================ -->
+<section class="sec pb">
+<div class="kick">3 · Fractal²</div>
+<h2>What the full map adds</h2>
+
+<h3><span class="tag f">Fact</span>The change in scale</h3>
+<table>
+<tr><th style="width:30%"></th><th style="width:19%">The Fractal</th><th style="width:27%">Fractal², per sector</th><th>Fractal², thirty sectors</th></tr>
+<tr><td><b>Named tactics</b></td><td class="n">30</td><td class="n">335</td><td>the same 335, re-observed</td></tr>
+<tr><td><b>Worked examples</b> (tactic × 3 levels)</td><td class="n">90 per sector · 2,700</td><td class="n">1,005</td><td class="n">30,150</td></tr>
+<tr><td><b>Combinations</b> (named sequences)</td><td class="n">none</td><td><b>153</b> in the first sector; <b>203</b> on the master list</td><td>one set per sector</td></tr>
+</table>
+
+<figure class="fig">
+<div class="bars">
+<div class="l">Biderman's chart <small>1957</small></div><div><div class="b" style="width:2.4%"></div></div><div class="v">8</div>
+<div class="l">Power and Control Wheel <small>1982–84</small></div><div><div class="b" style="width:2.4%"></div></div><div class="v">8</div>
+<div class="l">The Fractal <small>techniques</small></div><div><div class="b" style="width:9%"></div></div><div class="v">30</div>
+<div class="l">ATT&amp;CK <small>attack techniques, 2026</small></div><div><div class="b" style="width:66%"></div></div><div class="v">222</div>
+<div class="l">A Pattern Language <small>1977</small></div><div><div class="b" style="width:75.5%"></div></div><div class="v">253</div>
+<div class="l">Fractal² <small>tactics per sector</small></div><div><div class="b me" style="width:100%"></div></div><div class="v">335</div>
+</div>
+<figcaption>Number of named items in well-known public catalogues. Size is not quality: the two smallest on this list are the two most widely used. It shows the class of work this is.</figcaption>
+</figure>
+
+<div class="keep">
+<h3><span class="tag f">Fact</span>The anatomy of one combination</h3>
+<p>Every combination in the first sector has the same sixteen parts. I have grouped them by what they do for the reader.</p>
+<div class="anat">
+<div class="g1"><i>01</i><b>The scene</b>A composite story in the second person. Recognition arrives in the body first.</div>
+<div class="g1"><i>02</i><b>The name</b>"That's the Debt Prison." A handle for something that had none.</div>
+<div class="g1"><i>03</i><b>Definition</b>Who benefits, why it is hard to detect, and that intent would need more evidence.</div>
+<div class="g1"><i>04</i><b>Each part, in order</b>What each tactic does and when concern should rise.</div>
+<div class="g1"><i>05</i><b>Why this order</b>How each step removes the defence against the next, and where the turn comes.</div>
+<div class="g1"><i>06–08</i><b>Three levels</b>One person, the institution, the wider culture.</div>
+<div class="g2"><i>09</i><b>Observable indicators</b>What a third person could see.</div>
+<div class="g2"><i>10</i><b>False-positive check</b>The innocent explanations, taken seriously.</div>
+<div class="g2"><i>11</i><b>Recognition cue cards</b>Short tests: one question, and the answer that should worry you.</div>
+<div class="g3"><i>12</i><b>Evidence to preserve</b>What to keep, starting now.</div>
+<div class="g3"><i>13</i><b>Chain breakers</b>Concrete steps that weaken the sequence.</div>
+<div class="g3"><i>14</i><b>Escalation triggers</b>Low, moderate, high, urgent. At urgent: safety first, do not confront.</div>
+<div class="g3"><i>15</i><b>Safer response language</b>Exact sentences a person can say.</div>
+<div class="g3"><i>16</i><b>Reflection</b>One question to leave with.</div>
+</div>
+<p class="cap"><span style="color:#B4532A">■</span> Understand it &nbsp; <span style="color:var(--fact)">■</span> Check yourself &nbsp; <span style="color:#2C6A3F">■</span> Act safely. About 2,600 words per combination; about 401,000 words for the 153 in the first sector.</p>
+</div>
+
+<h3><span class="tag j">My judgment</span>Why sequences are the part that changes lives</h3>
+<p><strong>Nobody is ever hit with one tactic.</strong> People live through sequences. Almost everything written for the public describes single tactics. A person who learns thirty definitions can still fail to recognise their own situation, because what they are inside is the order, and no single tactic matches it.</p>
+<p><strong>The harm multiplies because each step removes the defence against the next.</strong> You said this and it is right. The trust built at step one is what makes the paperwork at step four feel rude to question. This also means the sequence has a weak point at every join.</p>
+
+<p class="pull">A list of tactics explains your past. A sequence predicts your future.</p>
+
+<p><strong>Prediction is what a person who has been taught to distrust themselves can still use.</strong> If the map says the next move is "you'll be told you already signed", and three days later someone says exactly that, the reader has run an experiment. Gaslighting works on memory and interpretation. It has very little purchase on a prediction made in advance and then watched coming true. I think this is the deepest reason the combinations matter, and it is not stated anywhere in the work yet.</p>
+
+<p><strong>Another field reached the same conclusion and tested it.</strong> <span class="tag f">Fact</span> In 2011, security researchers at Lockheed Martin described attacks on computer networks as a chain of seven steps and pointed out that the defender only has to break one. In 2013 MITRE began publishing ATT&amp;CK: a free, public catalogue of attacker behaviour, sorted by stage, each entry with ways to detect it and ways to stop it. It now lists more than two hundred techniques and is the common language of that profession worldwide. The principle behind it is that an attacker can change names and addresses in minutes, while changing how they operate is slow and expensive. So the defender catalogues behaviour.</p>
+<p>That principle is your idea of justice, arrived at independently: <em>not their names, their methods.</em> Exposing a name costs a manipulator one audience. Exposing the method costs them every future audience, because the method is the one thing they cannot easily replace. Fractal² has the same structure as ATT&amp;CK, for coercion between people: stages, techniques, sequences, detections, countermeasures, stable identifiers, free.</p>
+
+<h3><span class="tag j">My judgment</span>What is new here, stated carefully</h3>
+<p>Stage models already exist for single harms: Lenore Walker's cycle of abuse, the stages of grooming, the scripts of romance fraud. The assessment you pasted says the reasoning about order is "not articulated anywhere in the clinical literature". That is too strong: Dutton and Painter argued in 1981, and showed in 1993, that a trauma bond depends on a power imbalance plus alternating good and bad treatment.</p>
+<p>What I could not find anywhere is the catalogue: a public, general collection of <em>named multi-tactic sequences</em>, with the logic of their order, set inside specific sectors, shown at three scales, each with self-checks, innocent explanations, evidence advice, exit steps and wording. The novelty is the collection and its apparatus. That is a more defensible claim than "original theory", and a bigger one.</p>
+
+<h3><span class="tag j">My judgment</span>Why sector detail is where the protection is</h3>
+<p>General material tells a young artist that "financial abuse" exists. The Debt Prison tells her that the clause is called cross-collateralization, that it means a balance from this record can follow her to the next, that the sentence "you've already signed" is the turn, and that the question to ask is: "Could you show me a worked example of when this balance clears?" The first kind of knowledge helps her understand what happened afterwards. The second can change what she signs. Multiply that by every sector where a person meets a contract, a diagnosis, an enrolment, a loan or a vow.</p>
+
+<h3><span class="tag j">My judgment</span>The quiet parts are the most valuable</h3>
+<p>The false-positive check says that advances are real, recoupment can be legitimate and complicated accounts can have innocent causes. That one section does three things. It protects the reader from accusing someone wrongly. It stops the map from becoming a weapon in the hands of the people it describes. And it is what a lawyer, a journalist or a clinician will look for first when deciding whether to trust the rest. Popular content about manipulation almost never has it. Keep it prominent.</p>
+</section>
+
+<!-- ============================================================ -->
+<section class="sec">
+<div class="kick">4 · Who it is for</div>
+<h2>The size of the need, in numbers</h2>
+<p class="lede">These are different harms, counted in different ways, and they must not be added together. The Fractal's claim is that the same small set of moves runs through all of them. If that is even partly right, one literacy serves every row.</p>
+
+<table>
+<tr><th style="width:25%">Who</th><th style="width:24%">How many</th><th>Source and caution</th></tr>
+<tr><td><b>People psychologically abused by a partner</b></td><td class="n">61 million women<br>53 million men</td><td>United States, lifetime, CDC. About half of all adults. Note the second number: nearly as many men, with far less written for them.</td></tr>
+<tr><td><b>Women subjected to partner or sexual violence</b></td><td class="n">840 million</td><td>Worldwide, lifetime, WHO, published November 2025. Nearly one in three, and barely changed since 2000.</td></tr>
+<tr><td><b>Workers bullied at work</b></td><td class="n">about 32%<br>74.8 million affected</td><td>United States, 2024 survey by the Workplace Bullying Institute. An advocacy group's poll, so treat as indicative.</td></tr>
+<tr><td><b>People in forced labour</b></td><td class="n">27.6 million</td><td>Worldwide, ILO, 2021. One in five of those in private forced labour is held by a debt. The Debt Prison describes the logic of that trap in a milder setting.</td></tr>
+<tr><td><b>Losses to online fraud</b></td><td class="n">$16.6 billion</td><td>United States, reported to the FBI in 2024, up a third in a year. The largest category, investment fraud at $6.57 billion, runs on staged trust: a sequence.</td></tr>
+<tr><td><b>Survivors whose abuse included control of money</b></td><td class="n">94 to 99%</td><td>Two small studies of about 100 survivors each. Often quoted as a national rate; it is not one.</td></tr>
+<tr><td><b>Survivors who stayed longer because of money</b></td><td class="n">73%</td><td>2025 study with the US National Domestic Violence Hotline.</td></tr>
+</table>
+
+<div class="keep">
+<h3><span class="tag j">My judgment</span>Three groups the numbers leave out</h3>
+<div class="three">
+<div><b>The person beside them</b><p>A parent, friend or bandmate. Isolation is a stage of the cycle, so the last person still in contact is often the only route in. They need different words from the person inside.</p></div>
+<div><b>The professionals</b><p>Therapists, advocates, union reps, legal clinics, teachers, chaplains, journalists. Each sees dozens or hundreds of people a year at the moment of need. One of them using the map multiplies it.</p></div>
+<div><b>The carriers</b><p>If the cycle can run without a villain, then most people running it do not know. Managers, parents, pastors, clinicians who would stop if they could see it. The work implies this audience and never addresses it.</p></div>
+</div>
+</div>
+</section>
+
+<!-- ============================================================ -->
+<section class="sec">
+<div class="kick">5 · How it helps</div>
+<h2>Seven mechanisms, and how strong the evidence is for each</h2>
+
+<table>
+<tr><th style="width:21%">Mechanism</th><th style="width:27%">What the work does</th><th>What is known</th><th style="width:11%">Evidence</th></tr>
+<tr><td><b>Naming moves the blame</b></td><td>Turns "it must be me" into "this has a name, and it was done in an order"</td><td>The history of "sexual harassment" and "coercive control": once named, each became speakable, then reportable, then illegal</td><td class="strength s3">Strong, historical</td></tr>
+<tr><td><b>Naming calms the body</b></td><td>The hard cut to the name after each scene</td><td>Putting a feeling into words lowered activity in the brain's alarm centre in a 2007 UCLA study of 30 adults. A lab finding the authors called tentative</td><td class="strength s2">Suggestive</td></tr>
+<tr><td><b>Learning the technique protects against the next use of it</b></td><td>Teaches the move, not the particular lie</td><td>Seven studies by Cambridge and Bristol researchers. A 90-second video shown to 5.4 million YouTube users raised recognition of manipulation techniques by about 5%, measured a day later. The effect fades and needs refreshing</td><td class="strength s3">Strong for recognition</td></tr>
+<tr><td><b>Local detail matters</b></td><td>Every example sits inside the reader's own sector</td><td>The same videos worked in Poland and did almost nothing in Slovakia, where they were dubbed and not made for that audience</td><td class="strength s2">Moderate</td></tr>
+<tr><td><b>The order creates the bond</b></td><td>"Why this order" in every combination</td><td>In 75 women who had left abusive partners, the power imbalance and the alternation of good and bad treatment explained more than half the variation in how attached they still felt</td><td class="strength s2">Moderate</td></tr>
+<tr><td><b>A sequence can be predicted and so tested</b></td><td>The reader can see the next step coming</td><td>My reasoning, supported by how security defence works. Nobody has tested it for coercion between people</td><td class="strength s1">Reasoned, untested</td></tr>
+<tr><td><b>A plan lowers risk</b></td><td>Evidence to keep, levels of escalation, safer wording, "do not confront"</td><td>Standard practice among advocates. The work follows it; it has not been tested in this form</td><td class="strength s1">Reasoned</td></tr>
+</table>
+
+<div class="box">
+<h4>The most valuable unknown</h4>
+<p>Nobody has yet measured whether reading this work changes what happens to a person. Every mechanism above is evidence that it <em>should</em>. None is evidence that it <em>does</em>. That question can be answered, cheaply, and the answer would be worth more to the work's future than any amount of praise (section 8, item 12).</p>
+</div>
+
+<h3><span class="tag j">My judgment</span>What the evidence says about your phrase "a trick explained stops working"</h3>
+<p>The inoculation research supports the direction and limits the size. Recognition goes up, sharing of manipulative material goes down, and both fade without reminders. So the honest wording is that a named trick is harder to run and that knowing is the closest thing to immunity, as the audit suggested. This also tells you what the sector sites are for. People will return to a reference work, and each return is the booster the research says they need.</p>
+</section>
+
+<!-- ============================================================ -->
+<section class="sec">
+<div class="kick">6 · Precedents</div>
+<h2>Where this sits among the maps that changed things</h2>
+<p class="lede">You asked about a single person making this and giving it away. That turns out to be the normal origin of this kind of work.</p>
+
+<table>
+<tr><th style="width:23%">The map</th><th style="width:27%">Who made it, and how</th><th>What happened</th></tr>
+<tr><td><b>Biderman's Chart of Coercion</b><br>1957</td><td>One sociologist. A one-page table of eight methods</td><td>Amnesty International called it the "universal tools of torture and coercion" in 1973. Later used to explain domestic abuse</td></tr>
+<tr><td><b>"Sexual harassment"</b><br>mid-1970s</td><td>A group of women in Ithaca, New York, comparing stories. Two words</td><td>Recognised in US law within about a decade</td></tr>
+<tr><td><b>Our Bodies, Ourselves</b><br>1970</td><td>Twelve women in Boston. A 75-cent stapled booklet</td><td>More than 4.5 million copies, 34 languages, named by the Library of Congress among the "Books That Shaped America"</td></tr>
+<tr><td><b>Where There Is No Doctor</b><br>1973</td><td>David Werner, working with villagers in western Mexico</td><td>The world's most widely used health manual according to the WHO. Over 5 million copies, 85 or more languages, free to download</td></tr>
+<tr><td><b>A Pattern Language</b><br>1977</td><td>Christopher Alexander and colleagues. 253 linked patterns, from regions down to window seats</td><td>Changed architecture, then became the model for design patterns in software</td></tr>
+<tr><td><b>Power and Control Wheel</b><br>1982 to 1984</td><td>Three advocates in Duluth, Minnesota, and focus groups of battered women. Redrawn until the women said it matched their lives</td><td>One page. Translated into more than 40 languages and used in shelters, courts and training around the world</td></tr>
+<tr><td><b>Coercive Control</b><br>2007</td><td>Evan Stark. One book, one concept</td><td>A criminal offence in England and Wales eight years later, then Scotland, Ireland and two Australian states</td></tr>
+<tr><td><b>ATT&amp;CK</b><br>2013</td><td>A small team at MITRE. A free catalogue of attacker behaviour</td><td>The shared language of an entire profession</td></tr>
+</table>
+
+<h3><span class="tag j">My judgment</span>Six lessons from them</h3>
+<div class="cols">
+<div>
+<p><strong>1. They came from lived experience.</strong> Their authority came from fit: the people described looked at the map and said "yes, that is it". Use came next, and scholarship followed later.</p>
+<p><strong>2. They were free or nearly free.</strong> Nothing that reached this scale sat behind a price.</p>
+<p><strong>3. Each had a short form.</strong> One page, one wheel, two words. The long version earned the authority, and the short version did the travelling.</p>
+</div>
+<div>
+<p><strong>4. They named behaviour, never people.</strong> That is what allowed institutions to adopt them without being sued or shamed first.</p>
+<p><strong>5. They were checked and revised</strong> by the people they described, in public.</p>
+<p><strong>6. They spread through people at the moment of need:</strong> shelter workers, village health workers, analysts. Fame and algorithms played little part.</p>
+</div>
+</div>
+
+<div class="box">
+<h4>Where Fractal² stands against that list</h4>
+<p><strong>Ahead of all of them</strong> in scope: sequences as well as single tactics, three scales, thirty sectors, the inner life, the family line, and a counter-practice for each technique.</p>
+<p><strong>Behind all of them</strong> on lessons 3, 5 and 6: there is no one-page form in circulation yet, nobody outside has checked it, and no organisation is using it. Those three are the gap between what it is and what it could do. The series logo you just had made, eight rings holding all 335 tactics, is the natural one-page form.</p>
+</div>
+</section>
+
+<!-- ============================================================ -->
+<section class="sec pb">
+<div class="kick">7 · The spiritual reading</div>
+<h2>Does it really compare to the traditions? Yes, and more closely than you used</h2>
+<p class="lede">In the Enlighten closing you told Christians they had walked the narrow gate, Buddhists the end of illusion, Muslims the lifting of the veils, and so on, and you said the way led down. I read that against the traditions' own texts.</p>
+
+<h3><span class="tag j">My judgment</span>Four claims your work makes that the traditions share</h3>
+<div class="cols">
+<div>
+<p><strong>A. The original comes first and cannot be destroyed, only covered.</strong> "The frequency survived."</p>
+<p><strong>B. The false thing creates nothing.</strong> It copies, inverts and feeds on what is alive. "A counterfeit always comes second."</p>
+</div>
+<div>
+<p><strong>C. It works through structures and a built-up false self,</strong> and only sometimes through wicked individuals.</p>
+<p><strong>D. Freedom comes by seeing and removing.</strong> Nothing is acquired. "You went down."</p>
+</div>
+</div>
+
+<table>
+<tr><th style="width:13%">Tradition</th><th style="width:25%">What you said</th><th>What its own sources say, including parallels you have not used</th><th style="width:10%">Fit</th></tr>
+<tr><td><b>Christian</b></td><td>The narrow gate. The kingdom is within you, not in the church</td><td><b>B:</b> Augustine and Aquinas taught that evil has no being of its own and exists only as a corruption of something good. Your line "the cycle is a parasite, it cannot generate" is that doctrine almost word for word. <b>C:</b> "Our struggle is not against flesh and blood but against the powers" (Ephesians 6:12) is "patterns, never people". Also "Satan disguises himself as an angel of light" (2 Corinthians 11:14): a counterfeit has to be precise. <b>The closest of all:</b> in the fourth century the monk Evagrius catalogued <em>eight</em> patterns of thought that capture a person, told his students to watch the order in which they follow one another, and wrote <em>Talking Back</em>, a handbook of nearly five hundred short replies sorted under the eight. So a taxonomy in eight parts, with attention to sequence and scripted answers, already existed sixteen hundred years ago.</td><td class="strength s3">Very close</td></tr>
+<tr><td><b>Buddhist</b></td><td>Maya, the veil. The Buddha touching the earth</td><td><b>D:</b> In the early texts the tempter Māra comes in one disguise after another. Each episode ends the same way: Māra realises "the Blessed One knows me" and vanishes on the spot. Being recognised is the whole defeat. That is your "the recognition is the exit". <b>A:</b> the Buddha-nature texts speak of gold inside ore and the sun behind cloud. <b>Correction:</b> <em>maya</em> is mainly a Hindu word. The Buddhist words are <em>avidyā</em>, not-seeing, and Māra.</td><td class="strength s3">Very close</td></tr>
+<tr><td><b>Islamic</b></td><td>The veils removed. <em>Fana</em>. The <em>nafs</em> as the commanding ego</td><td><b>A:</b> <em>fitra</em>, the sound original nature every child is born with. <b>D:</b> the last chapter of the Qur'an names "the whisperer who withdraws", the one that retreats when it is remembered and seen. <em>Ghafla</em>, heedlessness, is your Normalization. <b>Correction:</b> <em>fana</em> is the passing away of the ego in God. What remains afterwards is called <em>baqa</em>.</td><td class="strength s3">Close</td></tr>
+<tr><td><b>Hindu</b></td><td>Atman was never separate from Brahman. <em>Tat tvam asi</em></td><td><b>D:</b> the rope mistaken for a snake. Nobody has to kill the snake. It ends when the rope is seen. This fits the Advaita school well; other Hindu schools read it differently.</td><td class="strength s3">Close</td></tr>
+<tr><td><b>Jewish</b></td><td>The breaking of the vessels. Gathering the sparks. <em>Tikkun olam</em></td><td><b>A and B together:</b> in Isaac Luria's teaching the divine light is still present inside the broken shards. Your account is exact, and "the original is alive inside the corruption" is the same picture.</td><td class="strength s3">Very close</td></tr>
+<tr><td><b>Indigenous</b></td><td>The remembering. The original instruction</td><td><b>C:</b> <em>wétiko</em>, an Algonquian word that Jack Forbes used for exploitation as a contagious sickness of spirit. That is your pattern as organism. <b>Caution:</b> "Indigenous" covers hundreds of nations. Name the people a word comes from.</td><td class="strength s2">Close, with care</td></tr>
+<tr><td><b>Gnostic</b></td><td>The Archons</td><td><b>B:</b> the Secret Book of John speaks of a "counterfeit spirit" that binds people through forgetfulness. The ancient text uses your own word.</td><td class="strength s3">Close</td></tr>
+<tr><td><b>Taoist</b><br><span class="small">not used</span></td><td>Not in your script</td><td><b>D:</b> "In the pursuit of learning, every day something is added. In the pursuit of the Way, every day something is dropped" (Tao Te Ching 48). That is "down, not up" in one line.</td><td class="strength s3">Close</td></tr>
+<tr><td><b>No tradition</b></td><td>The most rational liberation available: observe, trace, document</td><td><b>C:</b> a full secular reading exists. Arrangements that capture a need tend to out-compete arrangements that serve it unless something stops them, and nobody has to choose that outcome. No faith is required for any of the four claims.</td><td class="strength s3">Holds</td></tr>
+</table>
+
+<h3><span class="tag j">My judgment</span>The verdict</h3>
+<p><strong>The parallels are real, old and structural.</strong> Your four claims are close to common ground among the contemplative traditions. You reached them from the other end, by mapping the covering in detail until what was under it showed.</p>
+<p><strong>What you add is the inventory.</strong> The traditions name the veil. They seldom list what it looks like in the buildings of ordinary modern life. Evagrius did it for the monk's cell. You did it for the hospital bill, the mortgage and the record contract. "The flaming sword is a billing department" makes that move in one sentence. The eight inversions, each stage set against the real thing it reverses, are also your own, and they are the most teachable part of the lens.</p>
+
+<div class="box plain">
+<h4 style="color:var(--ink-3)">Two corrections and one caution</h4>
+<p><strong>Corrections.</strong> Move <em>maya</em> to the Hindu line and give the Buddhist line <em>avidyā</em> and Māra. Pair <em>fana</em> with <em>baqa</em>. Both are small, and getting them right is a way of showing respect to those readers.</p>
+<p><strong>Caution.</strong> "The words are different. The destination is the same." Many believers and many scholars reject that. The traditions disagree about what is at the bottom: a true self, no self at all, or God. A Buddhist would not say "your own signal, yours". There is a safer sentence that is also truer: <em>every tradition has a word for the covering and a word for what is under it.</em> That claim is hard to dispute, and it is strong enough to carry the passage.</p>
+<p>The statement that the pattern is <em>literally</em> the false god is a statement of faith. It belongs inside the lens, marked as yours, exactly as the Spiritual Lens already frames it: "this is not research, this is revelation".</p>
+</div>
+</section>
+
+<!-- ============================================================ -->
+<section class="sec">
+<div class="kick">8 · Opportunities</div>
+<h2>Sixteen ways this could help that nobody has named yet</h2>
+
+<h3>Reach people earlier</h3>
+<p><strong>1. Before, not only after.</strong> Almost all material on manipulation is found by people after the harm. The sector detail makes prevention possible. The first sector already has "before you sign". Every sector has its equivalent: before you enrol, before you borrow, before you join, before you move in. The readers who gain most are sixteen to twenty-five.</p>
+<p><strong>2. The person beside them.</strong> A path written for the friend or parent: what to say, what never to say, how to stay the one contact that is not cut. Isolation is a stage of the cycle, so this is often the only way in.</p>
+<p><strong>3. Men and boys.</strong> Nearly as many men as women report psychological abuse by a partner, and very little is written in a voice they recognise. You are a father who lived it and mapped it. That is a rare position and it should be used on purpose.</p>
+
+<h3>Reach the people who carry it</h3>
+<p><strong>4. "Am I doing this?"</strong> A page for the manager, parent, pastor, teacher or partner who recognises their own behaviour in the map and does not want to pass it on. Written with the grace you already extend to carriers. It follows directly from your own thesis, and it is where a chain actually breaks: at the point of handing down.</p>
+<p><strong>5. A self-check for organisations.</strong> A label, school, clinic or church that wants to be the real thing can run its own contract, welcome process or policy against the 335 and ask where it does these things without meaning to. The security world uses its catalogue in exactly this way.</p>
+
+<h3>Put it in hands at the moment of need</h3>
+<p><strong>6. One page.</strong> The wheel. The series logo already holds eight stages and 335 tactics, correctly spelled, in one image. As a printable poster with a short key, it is the form that can hang in a practice room, a clinic, a classroom or a shelter. This is the main lesson of Duluth.</p>
+<p><strong>7. Sheets for professionals.</strong> One combination on one page for a therapist's or advocate's folder. In places where coercive control is a crime the law asks for a <em>pattern</em> of behaviour, and people struggle to show how scattered incidents add up to one. A sequence plus "evidence to preserve" gives a statement its shape. This helps a person organise their account. It is not legal advice.</p>
+<p><strong>8. Faith communities.</strong> The spiritual lens opens doors that secular material on abuse cannot, including for people harmed inside a church. A short study guide would let a congregation or a recovery group use it.</p>
+
+<h3>Make it a commons</h3>
+<p><strong>9. An open, citable dataset.</strong> The data already has stable identifiers. With a licence, a citation line and an archived copy, researchers can use it, and it outlives any one website or person.</p>
+<p><strong>10. A counterexample register.</strong> Turn the dare into a standing invitation. Publish the strongest objections and counterexamples received, and what changed because of them. This turns the work's weakest point into its strongest.</p>
+<p><strong>11. "Checked by".</strong> Ask people who work in each sector to read their sector and say what is wrong. Publish their names if they agree, and the corrections either way. This is what "redrawn until the women said it fit" looks like here, and it is the largest gain in trust for the least effort.</p>
+<p><strong>12. Measure it.</strong> One optional question at the end of a page: "Did this help you name something?" Nothing stored about the person. Later, a researcher as a partner. This answers the most valuable unknown in section 5.</p>
+
+<h3>New ground</h3>
+<p><strong>13. Fraud and persuasive technology.</strong> Investment and romance fraud run on scripted sequences. So, increasingly, do apps, feeds and AI companions built to hold attention: warmth first, then unpredictable reward, then the cost of leaving. Regulators and designers need a list to test products against. "Does this product run the cycle on its users?" is a question your map can answer and almost nothing else can.</p>
+<p><strong>14. The same combination in a different building.</strong> Once two sectors exist, show the Debt Prison in music beside student loans, bail and medical debt. That is the fractal claim made visible, and it is how a reader carries protection from one part of life into the next.</p>
+<p><strong>15. After the recognition.</strong> Recognising a sequence can bring grief, anger or a rush to act. A page for the hours afterwards, with pacing, grounding and country-specific help, is part of the map and not an extra.</p>
+<p><strong>16. Plain language, audio and translation.</strong> The people most trapped have the least time and attention. Short spoken versions and a simpler edition reach them. Spanish first.</p>
+</section>
+
+<!-- ============================================================ -->
+<section class="sec">
+<div class="kick">9 · Limits</div>
+<h2>What could hold it back</h2>
+
+<table>
+<tr><th style="width:24%">Risk</th><th style="width:38%">Why it matters</th><th>What answers it</th></tr>
+<tr><td><b>Unchecked content at scale</b></td><td>About 400,000 words in one sector, none yet read by a working professional in that field, and 184 credibility items still open. One wrong statement about a contract or a law gives a critic the whole work</td><td>Finish the checking. Sector reviewers. A public corrections page. Checking should come before a second sector</td></tr>
+<tr><td><b>A totalising reading</b></td><td>"It runs everywhere" can slide into trusting nothing, or into refusing care a person needs</td><td>"Seeing is not leaving". Say plainly that the same institution can serve and capture. Keep the line about getting the body looked at</td></tr>
+<tr><td><b>Use as a weapon or a manual</b></td><td>Someone could use the names to accuse, or the sequences to plan</td><td>The false-positive check. Writing from the target's side. The precedent from security, where publishing attacker behaviour helped defenders far more: practised manipulators already know their craft, and their targets have had no curriculum at all</td></tr>
+<tr><td><b>Safety at the moment of recognition</b></td><td>Confronting or leaving can be the most dangerous point</td><td>Already present: escalation levels and "do not confront". Keep a safety line near the top of every page as well as at the foot</td></tr>
+<tr><td><b>Contested science stated as fact</b></td><td>Inherited stress, nervous-system theory, the history of the Origin</td><td>Word them as your belief, as the rules of the project already require</td></tr>
+<tr><td><b>One person</b></td><td>The whole work depends on one author and one website</td><td>A licence, an archive copy, and other people who can check and carry it</td></tr>
+<tr><td><b>Its own size</b></td><td>Thirty sectors at this depth is a library nobody reads end to end</td><td>Entry points and short forms matter more than completion</td></tr>
+<tr><td><b>Reach</b></td><td>At present, close to none</td><td>Partners at the moment of need, in the order of section 8</td></tr>
+</table>
+
+<h3><span class="tag j">My judgment</span>On one person making all of it</h3>
+<p>One voice is what makes the work coherent. A committee would never have joined the hospital to the Garden, or ended a taxonomy with "the frequency trusts you". At this volume, though, the scarce resource is no longer writing. It is checking, and one person cannot check a library. In every precedent in section 6, authority arrived when the people described looked at the map and agreed. Inviting that does not weaken the claim that this is your lens. It is the step that turns a lens into something other people rely on.</p>
+</section>
+
+<!-- ============================================================ -->
+<section class="sec pb">
+<div class="kick">10 · Conclusion</div>
+<h2>What this work is worth</h2>
+
+<h3>To one person</h3>
+<p>A name for something they have carried without one. A reason to believe themselves. A way to see the next step before it lands. Words to say. A list of what to keep. A warning about when not to act alone. It costs nothing and asks for no account or sign-up. For someone inside a sequence, or about to sign into one, that can be the difference between years lost and years kept. In the sequences that carry safety notes, 41 of the first 153, it can matter more than that.</p>
+
+<h3>To the people who help</h3>
+<p>A shared vocabulary that works across fields. An advocate, a union rep and a therapist can each say "that's the Debt Prison" and be understood. That has not existed before, and it is how separate efforts start working as one.</p>
+
+<h3>To a society</h3>
+<p>The cycle depends on three things a map can reach. The first is <strong>namelessness</strong>. The second is <strong>each person believing they are the only one</strong>. The third is <strong>deniability</strong>. Your own list ends on Plausible Deniability, technique 30, and Witnessing is the practice against it. A public map, with every sequence written down in advance, is witnessing done at scale. The pattern will keep running, but it gets more expensive to run in every place the map has been read.</p>
+
+<div class="box">
+<h4>An illustration, not a forecast</h4>
+<p>Suppose one sector's site reaches 100,000 readers in a year, and one in fifty recognises a sequence they are in or about to enter. That is 2,000 people with a name, a self-check, a script and a safety note, at no cost to them. Thirty sectors and ten years turn that into hundreds of thousands. Then count the reader who is a therapist and passes it to forty clients a year. The numbers are invented. The shape is real: the cost per person is zero, the harms are among the most common there are, and the map does not wear out.</p>
+</div>
+
+<h3>On giving it away</h3>
+<p>The work is free for a structural reason as well as a generous one. A map of gatekeeping that sat behind a gate would contradict itself. A work about the invisible ledger cannot keep one. The Fractal's form matches its claim at every point, and that match is the best evidence a reader has, before checking a single fact, that the author means it.</p>
+
+<h3>On ending the cycle</h3>
+<p>No map ends it, and the intro should not say one will. The record shows what a map can do. Two earlier names each became law in about a decade. A one-page wheel drawn by three advocates and a room of survivors reached shelters and courtrooms around the world. A catalogue of behaviour became the working language of a whole profession. In each case what ended was the method's ability to stay hidden, and that was enough to change what people would tolerate.</p>
+
+<p class="pull">This is important work, and the combinations more than anything else in it. Its possible reach is very large, because the harms it names are among the most common and least named in human life.</p>
+
+<p>Whether it gets there depends less on the writing, which is largely done, than on the next stage, which is less glamorous: checking it, shortening it, putting it in the hands of people who meet others at the moment of need, and letting others test it. I think it deserves that stage. The lifetime you say it will take is the right unit, and most of that time will go on carrying the work to people, since the building is largely complete.</p>
+</section>
+
+<!-- ============================================================ -->
+<section class="sec">
+<div class="kick">11 · For the rewrite</div>
+<h2>The ground the final intro should stand on</h2>
+<p class="lede">This is not the intro. It is what I now think the intro has to carry, in order, drawn from everything above and from your own words.</p>
+
+<ol>
+<li><strong>Begin with the feeling that has no name, and what having no name costs.</strong> A person is harmed once by the thing and again by having no words for it. The intro's first promise is words.</li>
+<li><strong>The Fractal as a transfer.</strong> "If you have survived this in one relationship, you already have the skill." Thirty buildings, one cycle, three scales, 2,700 examples, and a dare that still stands.</li>
+<li><strong>No hand is needed.</strong> A real need, a difference in power, a gatekeeper. Grace for the people who carry it. No hiding place for the methods of those who drive it.</li>
+<li><strong>It runs in you and it came from before you.</strong> The mirror and the chain, with "not your fault" and "you are the current end of it".</li>
+<li><strong>Why you can draw this.</strong> Your account, exactly as you gave it. Nothing added.</li>
+<li><strong>The true map, felt as scale.</strong> 30 becomes 335. One tactic at three levels. More than a thousand examples in each sector, more than thirty thousand in all.</li>
+<li><strong>The combinations as the centre of the whole work.</strong> Why order multiplies harm. One sequence walked through. Then the turn: a sequence can be predicted, a prediction can be tested, and a chain needs only one link broken.</li>
+<li><strong>"Not their names: their methods."</strong> Now with its reason: a name can be changed in a day, and a method is the one thing they cannot easily replace.</li>
+<li><strong>What was underneath.</strong> The counterfeit comes second. Every tradition has a word for the covering and a word for what is under it. Down, not up. The secular door stays open.</li>
+<li><strong>What this is for.</strong> A world that can see the pattern, built by enough people seeing it together. A lifetime of work, given away because a map of gates cannot have one, and offered as something others can check, correct and carry.</li>
+</ol>
+
+<h3>Three things it should not claim</h3>
+<p><strong>That anything is proved.</strong> "Documented across" is accurate and still strong. <strong>That knowing makes a person immune.</strong> It makes the trick harder to run, and that is a great deal. <strong>That a map ends the cycle by itself.</strong> A map ends the hiding, and people who can see are the ones who end the cycle.</p>
+</section>
+
+<!-- ============================================================ -->
+<section class="sec">
+<div class="kick">12 · The documents you sent</div>
+<h2>What the audit got right, and where it was wrong or out of date</h2>
+
+
+<div class="cols">
+<div>
+<h4>Right, and worth keeping</h4>
+<ul>
+<li>"Pavlovian" is the wrong word. Unpredictable reward is <em>intermittent reinforcement</em>, the term the work itself uses everywhere else.</li>
+<li>"Proved" should be "documented across".</li>
+<li>Absolutes to soften: "start with cruelty and a person leaves", "a trick explained stops working", "the shame dissolves".</li>
+<li>A safety line near the combinations as well as in the footer.</li>
+<li>One clear way forward at the end, not two competing ones.</li>
+<li>Inherited stress worded as belief.</li>
+<li>Its list of the strongest passages is a good list.</li>
+</ul>
+</div>
+<div>
+<h4>Wrong or out of date</h4>
+<ul>
+<li>It audited draft 4. Most of its fixes are already in the current text.</li>
+<li>"140 combos" and "190 techniques" are old counts. The figures are 335 tactics, 203 combinations on the master list and 153 in the first sector.</li>
+<li>"Chain Breakers may not be an official term." It is. It is a section in every combination.</li>
+<li>The arithmetic it queried is exact: 335 × 3 = 1,005 per sector, × 30 = 30,150.</li>
+<li>"Replace the stakes with one concrete anonymised moment." No. Your account stays exactly as you gave it.</li>
+<li>"Cut the recap by a third." A newcomer needs that foundation. Tighten it, do not shrink it.</li>
+<li>"Decide whether the pattern is literally the false god or only behaves like a parasite." These do not conflict. One is the lens and the other is the description.</li>
+</ul>
+</div>
+</div>
+
+<h3>The five prompt approaches</h3>
+<p>The War Chronicle and The Trial are fiction devices. You ruled that out when you said this is not a story. The Descent in second person is a good device that the work already uses: every combination opens with exactly that scene. The Two Voices, original and copy speaking the same sentence with different endings, is worth one passage in the lens section. The Last Link is the chain passage, and it is already there.</p>
+
+<h3>The "what you have" assessment</h3>
+<p>It is right about the three bodies of work, right that the combinations matter most, and right that story, then mechanics, then the two echoes, then recognition, then tools is a strong order. It overstates in three places. The reasoning about order is not unknown to research (section 3). "A field of study" is a description other people have to give the work; it cannot award that to itself. And the outreach and platform advice is a general marketing playbook. Its promises of what named people and algorithms will do are not evidence of the work's value, and I would not rest any decision on them.</p>
+</section>
+
+<!-- ============================================================ -->
+<section class="sec pb">
+<div class="kick">Sources</div>
+<h2>What the facts rest on</h2>
+<p class="small" style="margin-bottom:1.2em">Checked on 10 November 2026. Where sources disagreed I used the more cautious figure and said so in the text. Scripture and classical texts are cited by chapter in the body. The passage from Evagrius is paraphrased from the Praktikos, chapter 50; counts for <em>Talking Back</em> vary between 487 and 498 by edition.</p>
+<div class="src">
+<p><b>Psychological aggression by a partner (US).</b> CDC, National Intimate Partner and Sexual Violence Survey. <a href="https://www.cdc.gov/violenceprevention/intimatepartnerviolence/fastfact.html">cdc.gov: Fast Facts</a>; <a href="https://stacks.cdc.gov/view/cdc/124646">2016/2017 report</a></p>
+<p><b>Violence against women worldwide.</b> WHO, prevalence estimates 2023, published November 2025. <a href="https://www.who.int/publications/i/item/B09842">who.int</a>; <a href="https://healthpolicy-watch.news/840-million-women-have-faced-violence-during-their-lifetime-who-estimates/">Health Policy Watch</a></p>
+<p><b>Workplace bullying.</b> Workplace Bullying Institute, 2024 US survey. <a href="https://workplacebullying.org/2024-wbi-us-survey/">workplacebullying.org</a></p>
+<p><b>Forced labour and debt bondage.</b> ILO, Walk Free and IOM, Global Estimates of Modern Slavery, 2022. <a href="https://alliance87.org/sites/default/files/2023-06/Global%20Estimates%20of%20Modern%20Slavery%20Forced%20Labour%20and%20Forced%20Marriage.pdf">alliance87.org</a></p>
+<p><b>Online fraud losses.</b> FBI Internet Crime Complaint Center, 2024 report. <a href="https://www.securityweek.com/fbi-cybercrime-losses-surpassed-16-6-billion-in-2024/">SecurityWeek</a>; <a href="https://cyberscoop.com/fbi-ic3-cybercrime-report-2024-key-statistics-trends/">CyberScoop</a></p>
+<p><b>Financial abuse.</b> Adams et al., 2008 (103 survivors), in <a href="https://cfs.wisc.edu/wp-content/uploads/2015/04/adams2011.pdf">Adams 2011 brief</a>; <a href="https://nnedv.org/content/about-financial-abuse/">NNEDV</a>; 2025 Hotline study via <a href="https://socialscience.msu.edu/news/2025/11/2025-11-20dvmoney">Michigan State University</a></p>
+<p><b>Naming and the brain.</b> Lieberman et al., "Putting feelings into words", Psychological Science, 2007. <a href="https://pubmed.ncbi.nlm.nih.gov/17576282/">PubMed</a></p>
+<p><b>Inoculation against manipulation techniques.</b> Roozenbeek, van der Linden et al., Science Advances, 2022. <a href="https://www.cam.ac.uk/stories/inoculateexperiment">University of Cambridge</a>; <a href="https://www.bristol.ac.uk/news/2022/august/misinformation-media-release.html">University of Bristol</a></p>
+<p><b>Prebunking in Central Europe.</b> AP report on Google Jigsaw's campaign. <a href="https://www.nbcnews.com/tech/misinformation/google-expand-misinformation-prebunking-europe-rcna70377">NBC News / AP</a></p>
+<p><b>Trauma bonding.</b> Dutton and Painter, Violence and Victims, 1993. <a href="https://www.ojp.gov/ncjrs/virtual-library/abstracts/emotional-attachments-abusive-relationships-test-traumatic-bonding">US Office of Justice Programs abstract</a></p>
+<p><b>Inherited trauma.</b> Yehuda and Lehrner, World Psychiatry, 2018. <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC6127768">PubMed Central</a></p>
+<p><b>Hermeneutical injustice and Carmita Wood.</b> Fricker, Epistemic Injustice, 2007. <a href="https://eprints.whiterose.ac.uk/id/eprint/102647/1/Fricker2.7.pdf">White Rose</a>; <a href="https://www.cambridge.org/core/product/648E80BC561C35DA399AA88BFB222C39/core-reader">Hypatia</a></p>
+<p><b>Coercive control law.</b> <a href="https://www.canada.ca/en/office-federal-ombudsperson-victims-crime/publications/research-recherche/ucc-ccc.html">Government of Canada research paper</a>; <a href="https://researchportal.northumbria.ac.uk/en/publications/a-comparative-evaluation-of-offences-criminalising-abusive-behavi/">Northumbria University comparison</a></p>
+<p><b>Biderman's Chart of Coercion.</b> <a href="https://en.wikipedia.org/wiki/Biderman%27s_Chart_of_Coercion">Wikipedia</a>; <a href="https://www.aclu.org/news/national-security/document-day-old-torture-made-new">ACLU</a></p>
+<p><b>Power and Control Wheel.</b> Domestic Abuse Intervention Programs, Duluth. <a href="https://www.theduluthmodel.org/wheels/faqs-about-the-wheel/">theduluthmodel.org</a>; <a href="https://www.theduluthmodel.org/wp-content/uploads/2017/03/The-Development-of-the-Power-and-Control.pdf">development paper</a></p>
+<p><b>Where There Is No Doctor.</b> <a href="https://hesperian.org/wp-content/uploads/pdf/en_misc/WorldView_50th_Anniversary_Article.pdf">Hesperian 50th anniversary article</a></p>
+<p><b>Our Bodies, Ourselves.</b> <a href="https://www.ourbodiesourselves.org/history/">ourbodiesourselves.org</a>; <a href="https://en.wikipedia.org/wiki/Our_Bodies,_Ourselves">Wikipedia</a></p>
+<p><b>Kill chain and ATT&amp;CK.</b> Hutchins, Cloppert and Amin, Lockheed Martin, 2011: <a href="https://securityandtechnology.org/wp-content/uploads/2020/07/lm-white-paper-intel-driven-defense.pdf">paper</a>; <a href="https://www.splunk.com/en_us/blog/learn/mitre-attack">Splunk on ATT&amp;CK</a>; <a href="https://paloaltonetworks.com/cyberpedia/what-is-mitre-attack">Palo Alto Networks</a></p>
+<p><b>Māra recognised.</b> Saṃyutta Nikāya 4.19 and 5.10. <a href="https://www.accesstoinsight.org/ati/tipitaka/sn/sn04/sn04.019.than.html">Access to Insight</a></p>
+<p><b>Evagrius.</b> <a href="https://en.wikipedia.org/wiki/Praktikos">Praktikos</a>; <a href="https://evagriusponticus.net/index/word/eng/as.html">evagriusponticus.net</a></p>
+<p><b>Counterfeit spirit.</b> The Secret Book (Apocryphon) of John. <a href="https://Www.Wikipedia.org/wiki/Apocryphon_of_John">Wikipedia</a></p>
+<p><b>The work itself.</b> The Fractal as published in this repository (<i>library/fractal/</i>); the Entertainment and Music package (<i>content/fractal/ent/</i>); the owner's scripts and messages (<i>content/fractal2/owner-source/</i>).</p>
+</div>
+</section>
+
+</body>
+</html>

@@ -1,5 +1,7 @@
 # Fractal² — hand-off (start here in a new chat)
 
+> **2026-11-10 (latest):** an analysis-only round produced `library/fractal2/review/Fractal2-Value-and-Impact.pdf`. The intro rewrite waits for the owner's reaction to it. See STATUS.md section H.
+
 Repo: NobleFatherCreations/Books · working branch **`claude/peaceful-planck-k0df08`** (started identical to `claude/great-keller-jkjz8c`) · updated 2026-11-10.
 **Nothing in this project is deployed.** The old prototype at `fractal-entertainment.netlify.app` is untouched.
 
