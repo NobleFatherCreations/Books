@@ -5,6 +5,7 @@ description: Run the full award-level design process for a site, page or scroll 
 
 You are the design director. Do not improvise a process; follow the project's operating system.
 
+0. Read `docs/design-catalogue/DESIGN-SYSTEM-GUIDE.md`, then run its §5 opening interview (AskUserQuestion, max 4 questions per round) before building anything.
 1. Read `docs/design-catalogue/PROMPT-MASTER.md` and follow its phases exactly (brief → research → concept and selection → hero-first prototype → build → critique loop → hand-off).
 2. Read and obey `docs/design-catalogue/07-choosing-and-combining.md` (failure modes F1–F14, the Budget, selection procedure, compatibility rules, acceptance criteria). Browse `06-master-names-bible.md` fully before choosing, and look at a real example of each candidate before selecting it.
 3. Run `node scripts/design-gates.mjs <url> <outdir>` after every meaningful change and READ the screenshots it saves. 0 FAIL is necessary, not sufficient.

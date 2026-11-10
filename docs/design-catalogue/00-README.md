@@ -15,6 +15,8 @@ A master vocabulary of visual design, interaction and experience choices, so a b
 | `06-master-names-bible.md` | **Start here for "what exists".** 56 categories of pure names: site genres, section types, hero types, nav, scroll techniques, page transitions, text effects, cursor and hover effects, 3D/shader effects, backgrounds, motion vocabulary, cinematic techniques, data-viz forms, design laws, dark patterns, tools, inspiration sources, 2025–26 emerging items |
 | `07-choosing-and-combining.md` | **The intelligence layer.** Why outputs burn out (failure modes F1–F14), the Budget (1 lead, 1 signature, ≤3 feature effects), selection procedure, compatibility rules, composing and pacing, recipes, anti-cliché list, acceptance criteria |
 | `PROMPT-MASTER.md` | The reusable prompt to start any design session (phases, tools, hard rules). Also invokable as the `/design-director` skill |
+| `DESIGN-SYSTEM-GUIDE.md` | **Give this to another AI (and read it yourself).** How the whole system works, the steelman and objections, the opening interview question bank, the operating script, and what the owner must do |
+| `COVERAGE-TEMPLATE.md` | One row per category of the names bible; the AI must mark every row USE / REJECTED / N/A so nothing is silently skipped |
 | `05-techniques.md` | Concrete web techniques (CSS, JS, SVG, canvas, WebGL, fonts, media) with a self-containment rating for this repo |
 
 Every item has an ID (`S-12`, `T-07`, `M-31`). Cite IDs in your design-direction document so choices are traceable.
