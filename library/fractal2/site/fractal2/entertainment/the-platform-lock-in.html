@@ -390,10 +390,10 @@ section{scroll-margin-top:calc(var(--top) + var(--3))}
 
 /* ---- stubs, paths, map ---- */
 .stage-strip{list-style:none;margin:var(--3) 0;padding:0;display:grid;gap:var(--1)}
-.stage-strip a{display:grid;grid-template-columns:2.5rem 1fr;gap:0 var(--2);padding:var(--2);border:1px solid var(--line);border-left:2px solid var(--c);
+.stage-strip>li>a{display:grid;grid-template-columns:2.5rem 1fr;gap:0 var(--2);padding:var(--2);border:1px solid var(--line);border-left:2px solid var(--c);
   border-radius:var(--r);text-decoration:none;font-family:var(--sans);font-size:var(--t-ui)}
-.stage-strip a:hover{border-color:var(--gold);border-left-color:var(--c)}
-.stage-strip small{grid-column:2;color:var(--ink-2)}
+.stage-strip>li>a:hover{border-color:var(--gold);border-left-color:var(--c)}
+.stage-strip>li>a small{grid-column:2;color:var(--ink-2)}
 .big-list li{font-size:1.125rem;padding:var(--1) 0;border-bottom:1px solid var(--line)}
 .rk-s{font-family:var(--sans);font-size:var(--t-small);color:var(--ink-3)}
 .groups{display:grid;grid-template-columns:repeat(auto-fill,minmax(min(100%,18rem),1fr));gap:var(--3)}
@@ -497,6 +497,86 @@ th{font-size:var(--t-small);color:var(--ink-2);font-weight:600}
 .og h1{font-size:88px;font-weight:400;letter-spacing:-.03em;line-height:1}
 .ogs{font-family:var(--sans);font-size:28px;color:var(--ink-2);margin-top:32px}
 .ogf{font-family:var(--sans);font-size:20px;color:var(--gold);margin-top:auto}
+
+/* ---- what are you noticing ---- */
+.nt-step{margin-top:var(--6)}
+.nt-step h2{display:flex;gap:var(--2);align-items:baseline;font-size:var(--t-h3)}
+.nt-step h2 .num{font-size:var(--t-small);color:var(--gold);font-weight:700;border:1px solid var(--line-2);border-radius:999px;min-width:1.75rem;height:1.75rem;display:inline-flex;align-items:center;justify-content:center;flex:0 0 auto}
+.nt .chips{margin:var(--2) 0 var(--3)}
+button.chip{min-height:44px;padding:0 var(--2);background:transparent;color:var(--ink);cursor:pointer;margin:0;font-size:var(--t-ui);font-weight:500;transition:border-color var(--d1) var(--ease),background var(--d1) var(--ease)}
+button.chip:hover{border-color:var(--gold)}
+button.chip[aria-pressed="true"]{background:var(--gold);border-color:var(--gold);color:var(--on-gold)}
+.nt-list{list-style:none;margin:var(--2) 0;padding:0;max-width:var(--measure)}
+.nt-list li{border-bottom:1px solid var(--line)}
+.nt-list label{display:flex;gap:var(--2);align-items:flex-start;padding:var(--2) 0;min-height:44px;cursor:pointer;font-size:1.0625rem;line-height:1.45}
+.nt-list input{flex:0 0 auto;width:1.375rem;height:1.375rem;margin:.2rem 0 0;accent-color:var(--gold)}
+.nt-caveat{max-width:var(--measure);border-left:2px solid var(--gold);padding-left:var(--2);color:var(--ink-2)}
+.nt-res{list-style:none;margin:var(--3) 0;padding:0;display:grid;gap:var(--2);grid-template-columns:repeat(auto-fill,minmax(min(100%,19rem),1fr))}
+.nt-res li{border:1px solid var(--line);border-radius:var(--r);padding:var(--2);background:var(--bg-1)}
+.nt-res li.meta{border:0;background:none;padding:0}
+.nt-n{font-size:1.25rem;margin:0 0 4px}
+.nt-res p{margin:0 0 4px}
+.tg-warn{border-color:var(--warn);color:var(--warn)}
+
+/* ---- reader paths ---- */
+.stage-strip.open>li{border:1px solid var(--line);border-left:2px solid var(--c);border-radius:var(--r);font-family:var(--sans);font-size:var(--t-ui)}
+.stage-strip.open summary{display:grid;grid-template-columns:2.5rem 1fr;gap:0 var(--2);padding:var(--2);cursor:pointer;min-height:44px;list-style:none}
+.stage-strip.open summary::-webkit-details-marker{display:none}
+.stage-strip.open summary small{grid-column:2;color:var(--ink-2)}
+.stage-strip.open details[open] summary{border-bottom:1px solid var(--line)}
+.stage-strip.open summary:hover b{color:var(--gold)}
+.st-open{padding:var(--2) var(--3) var(--3)}
+.st-open a{font-size:1.0625rem}
+.st-open p{margin:0 0 var(--1)}
+.nx-h{font-size:var(--t-micro);font-weight:700;letter-spacing:.14em;text-transform:uppercase;color:var(--ink-3);margin-top:var(--2)!important}
+.st-open ul li{padding:4px 0}
+.w-g{border-bottom:1px solid var(--line);max-width:var(--measure)}
+.w-g summary{display:flex;justify-content:space-between;gap:var(--2);align-items:center;min-height:52px;cursor:pointer;font-family:var(--sans)}
+.w-g summary:hover b{color:var(--gold)}
+.w-list{list-style:none;margin:0 0 var(--3);padding:0}
+.w-list>li{padding:var(--2) 0;border-top:1px solid var(--line)}
+.w-n{font-size:1.1875rem;margin:0 0 var(--1)}
+.w-list ul{margin:0;padding-left:1.25rem;color:var(--ink-2);font-size:1.0625rem}
+.s-cards{list-style:none;margin:var(--3) 0;padding:0;display:grid;gap:var(--2);grid-template-columns:repeat(auto-fill,minmax(min(100%,24rem),1fr))}
+.s-card{border:1px solid var(--line);border-radius:var(--r);padding:var(--3);background:var(--bg-1)}
+.s-card h3{font-size:1.375rem;margin-bottom:4px}
+.s-tests{margin:var(--2) 0;padding-left:1.1rem;font-size:1.0625rem;line-height:1.45}
+.s-tests li{margin-bottom:var(--1)}
+.s-say{margin:0;border-left:2px solid var(--gold);padding-left:var(--2);font-size:1.0625rem}
+.lnk{background:none;border:0;padding:0;color:var(--gold);font:inherit;font-size:var(--t-small);text-decoration:underline;cursor:pointer;min-height:24px}
+
+/* ---- the living map ---- */
+.mapw{margin:var(--4) 0 var(--6)}
+.map-ctl{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,16rem),1fr));gap:var(--2);max-width:44rem;margin-bottom:var(--3)}
+.map-ctl select{width:100%;min-height:44px;background:var(--bg-1);border:1px solid var(--line-2);border-radius:var(--r);padding:0 var(--2);font-family:var(--sans);font-size:var(--t-ui)}
+.map-grid{display:grid;gap:var(--4);grid-template-columns:minmax(0,1fr)}
+@media (min-width:64rem){.map-grid{grid-template-columns:minmax(0,1.25fr) minmax(18rem,.75fr);align-items:start}.map-side{position:sticky;top:5.5rem}}
+.map-fig{margin:0}
+#map{display:block;width:100%;height:auto;max-width:46rem;margin:0 auto;touch-action:manipulation;cursor:pointer;border-radius:50%}
+#map:focus-visible{outline-offset:-2px}
+.mt{fill:var(--c);opacity:.8;transition:opacity var(--d2) var(--ease)}
+.mt.s1{--c:var(--s1)}.mt.s2{--c:var(--s2)}.mt.s3{--c:var(--s3)}.mt.s4{--c:var(--s4)}.mt.s5{--c:var(--s5)}.mt.s6{--c:var(--s6)}.mt.s7{--c:var(--s7)}.mt.s8{--c:var(--s8)}
+.mc{fill:var(--ink-2);opacity:.75;transition:opacity var(--d2) var(--ease),fill var(--d2) var(--ease)}
+#map.sel .mt,#map.sel .mc{opacity:.16}
+#map.sel .mt.on{opacity:1}
+#map.sel .mc.on{opacity:1;fill:var(--gold)}
+.ml{font-family:var(--sans);font-size:22px;font-weight:700;fill:var(--ink-3)}
+.mp{fill:none;stroke:var(--gold);stroke-width:2.5;stroke-linejoin:round;stroke-linecap:round}
+.mp0{stroke:var(--gold);stroke-width:1.2;opacity:.45;stroke-dasharray:4 6}
+.mn circle{fill:var(--bg);stroke:var(--gold);stroke-width:2}
+.mn text{font-family:var(--sans);font-size:19px;font-weight:700;fill:var(--ink)}
+.mn.cur circle{fill:var(--gold)}.mn.cur text{fill:var(--on-gold)}
+.map-panel{border:1px solid var(--line);border-radius:var(--r);background:var(--bg-1);padding:var(--3);min-height:8rem}
+.map-panel h2{font-size:1.5rem;margin-bottom:var(--1)}
+.map-panel .kicker{display:flex;align-items:center;gap:6px}
+.map-seq{margin:var(--2) 0;padding-left:1.5rem;font-family:var(--sans);font-size:var(--t-ui)}
+.map-seq li{padding:5px 0}
+.map-seq li.cur{color:var(--gold);font-weight:600}
+ul.map-seq{list-style:none;padding-left:0}
+.map-btn{display:flex;flex-wrap:wrap;gap:var(--1);margin:var(--2) 0 0}
+.map-legend{list-style:none;margin:var(--3) 0 0;padding:0;display:grid;grid-template-columns:repeat(auto-fill,minmax(9rem,1fr));gap:4px var(--2);color:var(--ink-2)}
+.map-legend li{display:flex;align-items:center;gap:6px}
+@media (prefers-reduced-motion:reduce){.mt,.mc{transition:none}}
 </style>
 <script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "Article", "headline": "The Platform Lock-In in the music and entertainment industry", "name": "The Platform Lock-In in the music and entertainment industry", "description": "The Platform Lock-In: The Platform Lock-In is the sequence where a free or low-cost tool becomes the infrastructure of an artist's career, so that data…", "url": "https://noblefathercreations.com/fractal2/entertainment/the-platform-lock-in", "inLanguage": "en", "dateModified": "2026-11-10", "author": {"@type": "Person", "name": "Shae Stovell"}, "publisher": {"@type": "Organization", "name": "Noble Father Creations", "url": "https://noblefathercreations.com"}, "isPartOf": {"@type": "CollectionPage", "name": "Fractal²: Entertainment & Music Industry", "url": "https://noblefathercreations.com/fractal2/entertainment"}, "articleSection": "Digital & Technological", "wordCount": 2615, "about": [{"@type": "DefinedTerm", "name": "Free Adoption", "url": "https://noblefathercreations.com/fractal2/entertainment/tactic/loan-sharking-gifts"}, {"@type": "DefinedTerm", "name": "Ecosystem Embedding", "url": "https://noblefathercreations.com/fractal2/entertainment/tactic/forced-dependency"}, {"@type": "DefinedTerm", "name": "Data Accumulation", "url": "https://noblefathercreations.com/fractal2/entertainment/tactic/data-harvesting"}, {"@type": "DefinedTerm", "name": "Terms Modification", "url": "https://noblefathercreations.com/fractal2/entertainment/tactic/bait-and-switch"}, {"@type": "DefinedTerm", "name": "Institutional Dependency Normalization", "url": "https://noblefathercreations.com/fractal2/entertainment/tactic/normalization-overton-window-manipulation"}]}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Fractal²", "item": "https://noblefathercreations.com/fractal2"}, {"@type": "ListItem", "position": 2, "name": "Entertainment & Music", "item": "https://noblefathercreations.com/fractal2/entertainment"}, {"@type": "ListItem", "position": 3, "name": "Digital & Technological", "item": "https://noblefathercreations.com/fractal2/entertainment/family-digital-and-technological"}, {"@type": "ListItem", "position": 4, "name": "The Platform Lock-In", "item": "https://noblefathercreations.com/fractal2/entertainment/the-platform-lock-in"}]}]}</script>
 </head>

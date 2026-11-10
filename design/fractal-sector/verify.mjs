@@ -223,6 +223,40 @@ const typePages = [base, `${base}/start`, `${base}/patterns`, `${base}/tactics`,
   await c.close();
 }
 T(`every page type at 375: no horizontal overflow, nothing at opacity 0 after load (${typePages.length} views)`, !typeBad.length, typeBad.slice(0, 5).join(" | "));
+// ---- packet 02: what are you noticing, reader paths, the living map ----
+{ const nb = [];
+  for (const [w, h] of [[1440, 900], [375, 812]]) {
+    const c = await browser.newContext({ viewport: { width: w, height: h }, hasTouch: w < 600, isMobile: w < 600 }); const q = await c.newPage(); q.on("pageerror", e => errs.push(e.message));
+    const reqs = []; q.on("request", r => { if (!r.url().startsWith(O) && !/cloudflareinsights/.test(r.url()) && !r.url().startsWith("data:")) reqs.push(r.url()); });
+    await q.goto(`${O}${base}/notice`, { waitUntil: "load" }); await q.waitForTimeout(150);
+    await q.click("button.chip"); await q.waitForTimeout(60);
+    const shown = await q.locator("#nt-list input").count(); if (!shown) nb.push(`notice ${w}: no signs after choosing an area`);
+    for (let i = 0; i < 2; i++) { await q.locator("#nt-list input").nth(i).click(); await q.waitForTimeout(60); }
+    const res = await q.evaluate(() => ({ n: document.querySelectorAll("#nt-res li a[href$='#quick']").length, cav: document.querySelector(".nt-caveat").textContent.length, st: { l: localStorage.length, s: sessionStorage.length, c: document.cookie }, q: location.search }));
+    if (!res.n) nb.push(`notice ${w}: ticking signs produced no patterns`); if (res.cav < 80) nb.push("notice: caveat missing");
+    if (res.st.l || res.st.s || res.st.c || res.q) nb.push(`notice ${w}: reader input was stored or put in the URL ${JSON.stringify(res)}`);
+    if (reqs.length) nb.push(`notice ${w}: request left the page ${reqs[0]}`);
+    await q.goto(`${O}${base}/map`, { waitUntil: "load" }); await q.waitForTimeout(150);
+    await q.selectOption("#map-c", { index: 5 }); await q.waitForTimeout(200);
+    const m1 = await q.evaluate(() => ({ path: document.querySelectorAll("#map-path .mn").length, items: document.querySelectorAll("#map-panel .map-seq li").length, link: !!document.querySelector("#map-panel h2 a[href]"), live: document.getElementById("map-panel").getAttribute("aria-live") }));
+    if (!m1.path || !m1.items || !m1.link || m1.live !== "polite") nb.push(`map ${w}: choosing a pattern did not draw its sequence ${JSON.stringify(m1)}`);
+    await q.focus("#map-panel [data-a='next']"); await q.keyboard.press("Enter"); await q.waitForTimeout(80);
+    const m2 = await q.evaluate(() => ({ cur: document.querySelectorAll("#map-panel .map-seq li.cur").length, step: (document.getElementById("map-step") || {}).textContent || "", focus: document.activeElement.getAttribute("data-a") }));
+    if (m2.cur !== 1 || !/Step 1 of/.test(m2.step) || m2.focus !== "next") nb.push(`map ${w}: keyboard stepping failed ${JSON.stringify(m2)}`);
+    await q.selectOption("#map-t", { index: 3 }); await q.waitForTimeout(120);
+    const m3 = await q.evaluate(() => document.querySelectorAll("#map .mt.on").length === 1 && !!document.querySelector("#map-panel h2 a"));
+    if (!m3) nb.push(`map ${w}: choosing a tactic failed`);
+    const box = await q.locator("#map").boundingBox(); await q.mouse.click(box.x + box.width / 2, box.y + box.height * 0.035); await q.waitForTimeout(120);
+    if (!(await q.evaluate(() => document.querySelector("#map").classList.contains("sel")))) nb.push(`map ${w}: pointer selection on the ring failed`);
+    for (const u of ["in-it-now", "worried-about-someone", "before-you-sign"]) { await q.goto(`${O}${base}/${u}`, { waitUntil: "load" });
+      const r = await q.evaluate(() => ({ safety: /emergency services/.test(document.querySelector("main").textContent), confront: /\bconfront (them|him|her|the person)\b(?! yourself)/i.test(document.querySelector("main").textContent) && !/do not confront/i.test(document.querySelector("main").textContent), links: document.querySelectorAll("main a[href]").length }));
+      if (!r.safety || r.confront || r.links < 10) nb.push(`${u} ${w}: ${JSON.stringify(r)}`); }
+    await c.close(); }
+  const noJs2 = await browser.newContext({ viewport: { width: 375, height: 812 }, javaScriptEnabled: false }); const nj2 = await noJs2.newPage();
+  await nj2.goto(`${O}${base}/notice`, { waitUntil: "load" }); if (!(await nj2.evaluate(() => document.querySelectorAll("#nt-fallback a").length >= 8 && document.getElementById("nt").hidden))) nb.push("notice without JS: no fallback list");
+  await nj2.goto(`${O}${base}/map`, { waitUntil: "load" }); if (!(await nj2.evaluate(() => document.querySelectorAll("#map circle").length > 400 && document.querySelectorAll("table tbody tr").length > 20 && document.getElementById("map-ctl").hidden))) nb.push("map without JS: static figure or tables missing");
+  T("what are you noticing: signs lead to patterns, nothing stored or sent, caveat shown; map: pointer, lists and keyboard all select, text tables present; paths: safety line, no advice to confront; all with a no-JS fallback", !nb.length, nb.slice(0, 5).join(" | "));
+}
 T("no page errors in the sample and behaviour runs", !errs.length, errs.slice(0, 3).join(" | "));
 await browser.close(); srv.close();
 

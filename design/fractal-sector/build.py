@@ -17,8 +17,8 @@ import sys
 
 from lib import CONFIG, RESERVED, S, Ctx, clip, fam_name, first_sentence
 from pages_combo import combo_page
-from pages_index import (az_page, family_page, home, in_it_now_page, map_page, method_page, notice_page, patterns_page,
-                         sign_page, start_page, tactics_page, take_page, worried_page)
+from pages_index import az_page, family_page, home, method_page, patterns_page, start_page, tactics_page, take_page
+from pages_paths import in_it_now_page, map_page, notice_page, sign_page, worried_page
 from pages_tactic import stage_page, tactic_page
 
 
