@@ -21,6 +21,14 @@ Before designing, **actually invoke** these with the Skill tool and apply what t
 - `better-accessibility`, `web-perf` — last.
 Use `ToolSearch` to find MCP tools. Use Playwright (it is pre-installed; never run `playwright install`). Use the Figma, Canva or image tools only for mood boards or storyboards if they help. They are never the source of truth. If a tool is unavailable, say so in your notes and carry on; do not silently skip it.
 
+## 1b. Phase 0 — Research and references (before Phase A)
+
+Do not design from memory. Spend real effort here:
+1. Open at least 8 reference pages with Playwright (use `WebSearch`/`WebFetch`/TinyFish to find them: Stripe Press, Apple product pages, Pudding, NYT/Guardian scrollytelling, Locomotive, Active Theory-style kinetic type) and take screenshots at 390 and 1440. Read them as images. Write what each one does that this project does not (type scale, depth, motion timing, how text and figure share a screen).
+2. Read the source of two or three of them (CSS scroll-driven animation, `animation-timeline`, view transitions, sticky stages, canvas/WebGL, variable fonts). Note the exact techniques and values.
+3. Check `tools/` for vendored references. Any library you want (a scroll or animation library, a shader helper) may be used only if it can be copied in as a local file with a permissive licence, with no network requests. State the licence and size, and ask the owner before adding anything heavy.
+4. Write `content/fractal2/REFERENCES.md` with the screenshots' paths, the techniques chosen and why. Phase A must cite it.
+
 ## 2. The standard (what "world class" means here)
 
 Reference quality: press.stripe.com, Apple product pages, the best Pudding / NYT / Pitchfork scrollytelling, Locomotive-style kinetic type. Concretely:
