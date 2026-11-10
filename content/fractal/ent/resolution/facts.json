@@ -1,5 +1,73 @@
 [
  {
+  "id": "F001",
+  "topic": "recoupment and cross-collateralization of advances and costs",
+  "statement": "In recording agreements, advances and certain categories of cost are commonly recouped from the artist's royalties before royalties become payable, and UK government-backed guidance asks labels to state in the contract which categories of cost are recoupable. A parliamentary committee reported that some legacy deals can still be recouping against old production and distribution costs. Cross-collateralization (recouping across agreements) was not supported by an acceptable source in this run and is not covered.",
+  "scope": "general; terms vary by contract and country",
+  "sources": [
+   {
+    "url": "https://www.gov.uk/guidance/uk-voluntary-code-of-good-practice-on-transparency-in-music-streaming.",
+    "title": "UK Voluntary Code of Good Practice on Transparency in Music Streaming",
+    "publisher": "UK Intellectual Property Office (GOV.UK)",
+    "published": "2024-01",
+    "accessed": "2026-11-10",
+    "quote": "how royalties will be calculated including any categories of recoupable costs"
+   },
+   {
+    "url": "https://www.gov.uk/guidance/uk-voluntary-code-of-good-practice-on-transparency-in-music-streaming.",
+    "title": "UK Voluntary Code of Good Practice on Transparency in Music Streaming - GOV.UK",
+    "publisher": "UK Intellectual Property Office (GOV.UK)",
+    "published": "2024-01",
+    "accessed": "2026-11-10",
+    "quote": "any advances are to be recouped before royalties become payable"
+   },
+   {
+    "url": "https://www.wired-gov.net/wg/news.nsf/print/MPs+call+for+a+complete+reset+of+music+streaming+to+fairly+reward+performers+and+creators+15072021150500",
+    "title": "MPs call for a 'complete reset' of music streaming (DCMS Committee release)",
+    "publisher": "UK Parliament, Digital, Culture, Media and Sport Committee (via Wired-Gov)",
+    "published": "2021-07-15",
+    "accessed": "2026-11-10",
+    "quote": "Many labels do not write off debts meaning that deals signed decades ago can still recoup against initial production and distribution costs."
+   }
+  ],
+  "confidence": "medium",
+  "notes": "Statement limited to recoupment; cross-collateralization only described by law-firm blogs and glossaries, which were not used. Named label statements in the release not carried into the page."
+ },
+ {
+  "id": "F007",
+  "topic": "minors in entertainment: work permits, chaperones, studio teachers, guardian-held earnings",
+  "statement": "Jurisdictions regulate children working in entertainment through permits or licences, supervision by approved chaperones or studio teachers, and parent or guardian involvement; the rules differ by place. Rules on holding a minor's earnings in trust were not confirmed from a fetched official page in this run.",
+  "scope": "general; varies by country and state",
+  "sources": [
+   {
+    "url": "https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/401345/Child_performance_and_activities_licensing_legislation_in_England_-_departmental_advice_-_final.pdf",
+    "title": "Child performance and activities licensing legislation in England: departmental advice",
+    "publisher": "UK Department for Education (GOV.UK)",
+    "published": "",
+    "accessed": "2026-11-10",
+    "quote": "Chaperones must be approved by the local authority that has granted the relevant licence to the child"
+   },
+   {
+    "url": "https://dol.alaska.gov/lss/forms/workpermitent-info.pdf",
+    "title": "Entertainment Work Permits (information sheet)",
+    "publisher": "Alaska Department of Labor and Workforce Development",
+    "published": "2025-01",
+    "accessed": "2026-11-10",
+    "quote": "There are times when a minor under the age of 16 must be supervised by an approved studio teacher."
+   },
+   {
+    "url": "https://www.dir.ca.gov/dlse/entertainment-work-permit.htm",
+    "title": "Entertainment Work Permit for Minors",
+    "publisher": "California Department of Industrial Relations, Labor Commissioner's Office",
+    "published": "",
+    "accessed": "2026-11-10",
+    "quote": "All minors working in the entertainment industry in California must register"
+   }
+  ],
+  "confidence": "high",
+  "notes": "Three jurisdictions show a pattern, not a universal rule. The U.S. DOL and Camden pages returned 403 and are not cited."
+ },
+ {
   "id": "F010",
   "topic": "music chart rules on bundles, bulk purchases and chart methodology changes",
   "statement": "Chart compilers publish rules that bar purchases or streams made other than as genuine consumer transactions, and they revise their methodology on bundles: the UK Official Charts Company's album rules list prohibited activity and allow removal of irregular transactions, and in 2020 Billboard changed how albums sold with merchandise or tickets are counted.",
@@ -24,6 +92,32 @@
   ],
   "confidence": "high",
   "notes": "Cited a rule change announced by a compiler, via the UK compiler's news report; no named artist cited."
+ },
+ {
+  "id": "F011",
+  "topic": "radio promotion, payola and promotional incentives",
+  "statement": "Paying for radio airplay without disclosure is restricted by US federal law (1960) and state laws; regulators and a state attorney general have pursued record-industry payments to radio, including through independent promoters, contest giveaways and other incentives. Reporting of airplay figures was not itself researched beyond the fact that airplay feeds charts.",
+  "scope": "general; US-focused; rules differ by country",
+  "sources": [
+   {
+    "url": "https://www.nbcnews.com/news/amp/wbna8700936",
+    "title": "Sony BMG Music settles Spitzer's payola probe",
+    "publisher": "NBC News (Associated Press)",
+    "published": "2005-07-25",
+    "accessed": "2026-11-10",
+    "quote": "A 1960 federal law and related state laws bar record companies from offering undisclosed financial incentives in exchange for airplay."
+   },
+   {
+    "url": "https://www.rollingstone.com/music/music-news/sony-ponies-up-for-payola-94599/",
+    "title": "Sony Ponies Up for Payola",
+    "publisher": "Rolling Stone",
+    "published": "2005-07-25",
+    "accessed": "2026-11-10",
+    "quote": "payola, the practice of paying radio stations for airplay of their artists"
+   }
+  ],
+  "confidence": "medium",
+  "notes": "Established press reporting on a state attorney general investigation. The FCC page could not be fetched in this run (403), so the FCC sponsorship-identification rule is not cited. No named party carried into page text."
  },
  {
   "id": "F012",

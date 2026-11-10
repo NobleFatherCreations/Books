@@ -109,7 +109,7 @@ Many scripts lean on the same few dozen industry facts. Research by **topic**, n
 
 ## 10. What the reader sees after resolution
 
-- Combo banner, replacing "Unreviewed draft": **"Checked against published sources on <date>."** followed by the counts for that page ("3 points have a source, 1 was reworded, the scene is a composite") and: **"Not yet reviewed by a working industry professional."** Both sentences always appear together.
+- Combo banner, replacing "Unreviewed draft": **"The claims on this page were checked on <date>."** followed by the counts for that page ("3 points have a source, 1 was reworded, the scene is a composite") and: **"Not yet reviewed by a working industry professional."** Both sentences always appear together.
 - In the text: `Composite`, `Common pattern`, `Varies by place` unchanged; `Depends on the terms`; `Ask a qualified person`; `Source checked` (links to "Sources for this page" at the foot, which lists the fact statements and their sources).
 - `method` page: the sector totals from `SUMMARY.md`, and the full fact base as a readable list.
 - A combo's `review_state` gains the value `sources_checked`. `expert_reviewed` stays reserved for a named human reviewer.
