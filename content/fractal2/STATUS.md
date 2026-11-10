@@ -1,0 +1,74 @@
+# Fractal² — status for the owner and for any AI picking this up
+
+**Date:** 2026-11-10 · **Repo:** `NobleFatherCreations/Books` · **Branch:** `claude/peaceful-planck-k0df08` (everything below is committed and pushed there)
+**Deployed:** nothing. The old public prototype (`fractal-entertainment.netlify.app`), the homepage and every published book are untouched.
+
+This file is written to be handed to another AI. Paths are relative to the repo root. Read this, then `content/fractal2/HANDOFF.md`, then the owner's own words in `content/fractal2/owner-source/E-…` and `F-…` (they win every conflict).
+
+---
+
+## A. Fully done (built, tested, committed)
+
+| # | What | Where | Evidence |
+|---|---|---|---|
+| A1 | **"What I understood" note** and the owner's answers saved word for word | `content/fractal2/WHAT-I-UNDERSTOOD.md`, `owner-source/F-owner-answers-2026-11-09-build-session.md` | — |
+| A2 | **Shared design system** ("Deep field"): colours, two typefaces (Newsreader, Hanken Grotesk, self-hosted), spacing, motion, light and dark | `design/fractal2/tokens.css`, `fonts/`, `content/fractal2/DESIGN-SPEC.md` | used by both builds |
+| A3 | **Intro page engine**: one fixed stage, one field of 30,151 points, 20 figures driven by scroll, phone and desktop layouts, reduced-motion and no-JavaScript fallbacks, WebGL with Canvas fallback | `design/fractal2/intro.js`, `intro.css`, `build_intro.py` → `library/fractal2/site/fractal2.html` | `node design/fractal2/verify_intro.mjs` → **31 of 31 passed** (run after the first zoom-out change) |
+| A4 | **Narration kit**: spoken script generated from the page text (12 takes, about 42 min), plain recording guide, tool that syncs the owner's recording to the page and writes captions (self-tested), player in the page (never autoplays), silent placeholder track | `content/fractal2/narration-script.md`, `RECORDING-GUIDE.md`, `design/fractal2/sync_audio.py`, `library/fractal2/site/fractal2/_a/au/` | player covered by the 31 checks |
+| A5 | **Sector site generator v2** and the **Entertainment & Music site: 518 pages**. Home with six "where are you right now" doors and a mini-map; the ten that matter most with score bars; all 153 patterns with filter, sort and narrow; 335 tactic pages; 8 stage chapters; 10 family pages; each pattern in three reading modes over the same words (two-minute, sequence stepper, full); method page; take-it-with-you page; A to Z; search; sector switcher (all thirty sectors); breadcrumbs; quick exit; THE HOUSE drawer; version note | `design/fractal-sector/` → `library/fractal2/site/fractal2/entertainment/` | `design/fractal-sector/run.sh ent`; see section D for the latest count |
+| A6 | **"What are you noticing?"** (private, in-page, nothing stored or sent), **three reader paths** (in it now, worried about someone, before you sign), **the living map** (pointer, lists and keyboard; text tables beneath) | `design/fractal-sector/pages_paths.py`, `notice.js`, `map.js` | covered by a dedicated check |
+| A7 | **Connections by id, none guessed**: 335 of 335 tactics link to their Pattern Decoder page; every stage links to The Spiritual Lens and The Frequency anchors; sector links to its Fractal chapter; intro links to the Origin, Mirror, Chain, Spiritual Lens and Frequency pages | `content/fractal/ent/build/links.json` | check "every /playbook and /fractal link (15,608) points at a file and anchor in this repo" |
+| A8 | **Base path is configurable** (`/fractal2` comes from one file); redirect plan from the old prototype addresses; hub rules written out (not applied) | `content/fractal2/sectors.json`, `library/fractal2/redirects/` | — |
+| A9 | **Known defects handled**: stage 6 shown as "Extract · Control"; C144 tag count taken from the script; the Practice numbering and Enlighten spelling errors are not quoted anywhere on the new pages (owner files untouched) | `NAV-SPEC.md` §13, `audit.md` | — |
+| A10 | **Docs**: architecture, decisions log (D1–D17), navigation spec, tag policy, rubrics with the director's own scores, three work packets, hand-off, MEMORY entry, `sites.json` registration as undeployed | `content/fractal2/*.md`, `MEMORY.md`, `sites.json` | — |
+
+## B. Very close to done (works; one named step left)
+
+| # | What | State | The one step left |
+|---|---|---|---|
+| B1 | **Intro text** (`content/fractal2/intro-final.md`): 11 parts, about 4,700 words; name line "The closer you look, the more there is"; Part VI is exactly the owner's account and is locked by a test (`owner-account.txt`) | Written and revised once by the director | Owner reads it; independent writing review (`work-packets/04-independent-review.md`) not yet run |
+| B2 | **Zoom-out figure** in the intro: the original Fractal artwork at the centre, 335 tactic names in rings around it | First version built and working on phone and desktop | Being replaced by the finished logo image (section C1) |
+| B3 | **Credibility tag resolution** (ENT): tool, policy and ledger; **1,186 of 1,370 items decided** (718 labels kept; 407 no change; 23 conditional; 23 softened; 8 kept with a fetched source; 2 generalised; 5 safety sentences from the author's own notes added; 0 removed). Pages show the result: honest banner, resolved labels, sources list. Method page shows the totals | Applied in the build | **184 items still open** (118 "sector accuracy" notes, 64 review/source lines, 2 pattern lines). 11 of 45 research topics have sources. The research worker stopped on a usage limit. To finish: follow `work-packets/03-…md` from `content/fractal/ent/resolution/` (ledger entries with `"by": "pending"`), then `resolve.py ent check --final`, `summary`, rebuild. Then the owner approves the 5 added safety sentences and the rewordings once (`resolution/SUMMARY.md`) |
+| B4 | **Review material for the owner** | Zoom-out still and sector screenshots exist in `library/fractal2/review/`; a phone scroll recording exists from before the zoom change | Re-record phone and desktop (`node design/fractal2/record.mjs <dir> phone|desktop`) after the logo is in |
+| B5 | **Owner report** in plain language with the 22-item "next" list and recommended order | Drafted: `content/fractal2/OWNER-REPORT.md` | Update numbers when B3 and B4 are finished |
+
+## C. Not done
+
+| # | What | Notes |
+|---|---|---|
+| C1 | **The series logo / ring map image** (owner request, in progress now): one polished image with the completed original at the centre, outer rings in the original's colours, the eight stages named once, every tactic evenly spaced around the rings | After it is finished: use it in the intro's zoom figure and adapt it as the sector site's map (owner asked "if possible") |
+| C2 | **Independent review** against the rubrics (writing, experience, navigation) and a second iteration | Packet written; not dispatched |
+| C3 | **Test on a real phone** | Only headless browser tests so far. Needs a private preview link (a deploy: owner's decision) |
+| C4 | **PDFs in "take it with you"** | `ENT_combo_book.pdf` (39 MB) is in the owner's Drive, not in the repo; labels inside not checked. The page currently explains printing |
+| C5 | **Owner decisions still open** | name line; "Extract · Control"; shared same-site files for fonts, audio and search data (decision D9); private preview link; approval of tag changes; whether to redirect the public prototype |
+| C6 | Everything on the "next" list in `OWNER-REPORT.md` §6 (posting plan, legal pass, crisis resources, share kit, clips, translations, and so on) | Not started by design |
+
+## D. Test results on record
+
+- Intro: **31 of 31** (`node design/fractal2/verify_intro.mjs`).
+- Sector site: last full run **26 of 27**; the single miss was social-card images wiped by a rebuild, since fixed. A fresh run on the current build was started when this file was written; its result is appended below when it finishes.
+- Author word-count round trip: exact on all 153 pattern pages, plus only the changes logged in the ledger.
+
+## E. How to run
+
+```
+python3 design/fractal2/build_intro.py && node design/fractal2/verify_intro.mjs
+npm i --no-save axe-core && design/fractal-sector/run.sh ent
+python3 design/fractal-sector/resolve.py ent check|summary|decisions      # never run "classify" again: it would reset pending work
+python3 design/fractal2/serve.py 8802        # http://127.0.0.1:8802/fractal2  and  /fractal2/entertainment
+```
+
+## F. Rules that bind any AI working here
+
+1. Deploy nothing unless the owner names it in the current conversation. A preview must be private.
+2. Never edit `content/fractal/*/source/` or `content/fractal2/owner-source/`. Never change wording inside published books. Never touch the homepage without asking.
+3. Part VI of the intro is the owner's account, exactly. Add nothing.
+4. Patterns, never people. Every scene is labelled a composite. A safety line on every page. No page claims expert review.
+5. One background worker at a time; on a usage-limit error stop, save, and continue directly.
+6. Commit and push after every meaningful step.
+7. Text lives in `intro-final.md`; design values in `tokens.css`; interface lines in `design/fractal-sector/strings.json`. Keep them easy to change: the owner will give feedback.
+
+## G. What the owner asked for most recently (2026-11-10)
+
+1. "Pause, save everything to a repo and memory… give me a summary… in a Md file" → this file.
+2. "Work solely on the image… being fully fixed and beautifully rendered, and then stop until further notice." The image: the completed original in the middle; outer rings in colours that match the original, so it looks like one image zoomed out; the eight stages named once; tactics spaced evenly around every ring; "this will be the entire series logo". Reference images the owner attached are described in `design/fractal2/art/README.md`.

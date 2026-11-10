@@ -3,6 +3,8 @@
 Repo: NobleFatherCreations/Books · working branch **`claude/peaceful-planck-k0df08`** (started identical to `claude/great-keller-jkjz8c`) · updated 2026-11-10.
 **Nothing in this project is deployed.** The old prototype at `fractal-entertainment.netlify.app` is untouched.
 
+**Fastest way in: read `content/fractal2/STATUS.md` (2026-11-10). It lists what is done, nearly done and not done.**
+
 ## Read in this order
 
 1. This file.
