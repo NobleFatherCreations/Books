@@ -182,9 +182,9 @@
   S.zoom = { n: N, sp: .5, stops: [0, .42, 1],
     keys: function () {
       var bigW = 1.9, bigH = L.P ? 2.05 : 1.5, bigY = L.P ? .05 : 0;
-      return [mk(N, function (i, o) { if (!i) return you(o, 0, 0, 5, 0); var core = pK[i] >= 0; if (core) { gridPos(i, o); o.a = .85; o.c = 1 + techStage[pK[i]]; } else { gridPos(i, o); o.y = (H(i, 21) * 2 - 1) * .6; o.a = 0; } o.s = 1.9; }),
-        mk(N, function (i, o) { if (!i) return you(o, 0, 0, 5, 0); if (pS[i] === ENT) { var gg = panelPos(i, 0, bigY, bigW, bigH, o); o.a = .92; o.s = 2.1; o.c = 1 + gg; o.d = H(i, 22) * .9; } else if (pK[i] >= 0) { gridPos(i, o); o.a = .07; o.s = 1.6; } else { var t = tile(pS[i]); o.x = t.x; o.y = t.y; o.a = 0; } }),
-        tilesKey(.82, 1)];
+      return [function () { return mk(N, function (i, o) { if (!i) return you(o, 0, 0, 5, 0); var core = pK[i] >= 0; if (core) { gridPos(i, o); o.a = .85; o.c = 1 + techStage[pK[i]]; } else { gridPos(i, o); o.y = (H(i, 21) * 2 - 1) * .6; o.a = 0; } o.s = 1.9; }); },
+        function () { return mk(N, function (i, o) { if (!i) return you(o, 0, 0, 5, 0); if (pS[i] === ENT) { var gg = panelPos(i, 0, bigY, bigW, bigH, o); o.a = .92; o.s = 2.1; o.c = 1 + gg; o.d = H(i, 22) * .9; } else if (pK[i] >= 0) { gridPos(i, o); o.a = .07; o.s = 1.6; } else { var t = tile(pS[i]); o.x = t.x; o.y = t.y; o.a = 0; } }); },
+        function () { return tilesKey(.82, 1); }];
     },
     labels: function () {
       var y = L.P ? 1.5 : -.92;
@@ -198,7 +198,7 @@
       return [mk(2701, base(0)), mk(2701, base(1))];
     },
     labels: function () { return [{ h: 'in one life', x: .34, y: -LV[0], a: .05 }, { h: 'inside an institution', x: .42, y: -LV[1], a: .38 }, { h: 'across a culture', x: .38, y: -LV[2], a: .7 }]; } };
-  S.names = { n: N, sp: .82, keys: function () { return [tilesKey(.2, 0), tilesKey(.8, 0, 1)]; } };
+  S.names = { n: N, sp: .82, keys: function () { return [function () { return tilesKey(.2, 0); }, function () { return tilesKey(.8, 0, 1); }]; } };
   S.witness = { n: 1, gain: 1, keys: function () { return [mk(1, function (i, o) { you(o, 0, 0, 8, .9); })]; } };
   S.threshold = { n: 1, gain: 1, keys: function () { return [mk(1, function (i, o) { you(o, 0, 0, 6, .55, COLD); })]; } };
   function beadPos(b, o) {
@@ -298,7 +298,7 @@
       function k(lit) { return mk(N, function (i, o) { if (!i) return you(o, 0, 0, 5, 0); var s = pS[i], t = tile(s); if (s === ENT) { var gg = panelPos(i, t.x, t.y, t.W, t.H, o); o.a = lit ? .92 : .2; o.c = lit ? 1 + gg : INK; o.s = 1.4; o.d = H(i, 42); return; }
         if (pK[i] < 0) { o.x = t.x; o.y = t.y; o.a = 0; return; }
         var f = (pC[i] + H(i, 43)) / 90 * 4, e = f | 0, q = f - e, hw = t.W / 2, hh = t.H / 2; o.x = t.x + (e === 0 ? -hw + q * t.W : e === 1 ? hw : e === 2 ? hw - q * t.W : -hw); o.y = t.y + (e === 0 ? -hh : e === 1 ? -hh + q * t.H : e === 2 ? hh : hh - q * t.H); o.a = .3; o.s = 1.4; }); }
-      return [k(0), k(1)];
+      return [function () { return k(0); }, function () { return k(1); }];
     },
     labels: function () {
       var t = tile(ENT), out = [{ h: 'Entertainment &amp; Music', c: 'gold tiny', x: t.x, y: t.y - t.H / 2 - .05, a: .3 }, { h: '1 of 30 mapped at full resolution', c: 'cap', x: 0, y: L.P ? 1.5 : .985, a: .6 }];
@@ -325,12 +325,18 @@
   function setScene(name, now) {
     if (name === sceneName || !S[name]) return;
     var sc = S[name];
-    if (!sc._k || sc._P !== L.P) { sc._k = sc.keys(); sc._P = L.P; }
+    ensureKeys(sc);
     holdN = Math.max(activeN, holdN); holdUntil = now + 2600;
     scene = sc; sceneName = name; activeN = Math.max(sc.n, holdN); lastP = -1; dirty = true;
     buildLabels(sc);
-    for (var nm in S) if (S[nm] !== sc && S[nm]._k && S[nm].n > 6000) S[nm]._k = null;     /* keep memory flat on phones */
   }
+  function ensureKeys(sc, oneOnly) {      /* heavy formations are thunks: built one per idle slice ahead of time, or here if the reader gets there first */
+    if (!sc._k || sc._P !== L.P) { sc._k = sc.keys(); sc._P = L.P; }
+    for (var i = 0; i < sc._k.length; i++) if (typeof sc._k[i] === 'function') { sc._k[i] = sc._k[i](); if (oneOnly) return true; }
+    return false;
+  }
+  var HEAVY = ['zoom', 'names', 'atlas', 'sequence', 'break'], idle = window.requestIdleCallback || function (f) { return setTimeout(f, 120); };
+  function prebuild() { for (var i = 0; i < HEAVY.length; i++) { var sc = S[HEAVY[i]]; if (sc && ensureKeys(sc, true)) { idle(prebuild); return; } } }
   function targets(p) {
     var ks = scene._k, st = scene.stops || [0, 1], seg = 0, t = 0, A, B;
     if (ks.length === 1) { A = B = ks[0]; }
@@ -389,7 +395,7 @@
     if (gl) gl.viewport(0, 0, w, h);
     readPalette(); layoutDOM();
     for (var nm in S) if (S[nm]._P !== L.P) S[nm]._k = null;
-    if (scene) { scene._k = scene._k || scene.keys(); scene._P = L.P; buildLabels(scene); }
+    if (scene) { ensureKeys(scene); buildLabels(scene); }
     dirty = true;
   }
   var C = { cx: 0, cy: 0, u: 100 }, gain = 1, ambNow = 0, holdAmt = 0, focusAmt = 0;
@@ -431,7 +437,7 @@
   }
 
   /* ---------- the page: scenes, figures, steps ---------- */
-  var scenes = [], figs = {}, prog_el = doc.getElementById('prog'), docH = 1;
+  var scenes = [], figs = {}, prog_el = doc.getElementById('prog'), docH = 1, liveFig = null;
   function layoutDOM() {
     var sy = window.scrollY;
     scenes = [].map.call(doc.querySelectorAll('[data-scene]'), function (el) { return { name: el.getAttribute('data-scene'), top: el.getBoundingClientRect().top + sy }; });
@@ -448,6 +454,8 @@
     var sy = window.scrollY, vh = L.h, mid = sy + vh * .55, idx = 0, i;
     for (i = 0; i < scenes.length; i++) if (scenes[i].top <= mid) idx = i; else break;
     var name = scenes.length ? scenes[idx].name : 'signal', f = figs[name], p = 0, inFig = false, isHold = false;
+    if (liveFig && liveFig !== f) { for (i = 0; i < liveFig.steps.length; i++) liveFig.steps[i].classList.remove('on'); liveFig.on = -1; }
+    liveFig = f || null;
     if (f) {
       if (f.steps.length) {
         var y = sy + vh * (L.P ? .78 : .46), n = f.steps.length, tailW = (S[name] && S[name].tail) || 0;
@@ -500,6 +508,7 @@
     var onq = function () { RM = rmq.matches; root.classList.toggle('rm', RM); layoutDOM(); dirty = true; };
     if (rmq.addEventListener) { rmq.addEventListener('change', onq); lightq.addEventListener('change', function () { readPalette(); dirty = true; }); }
     requestAnimationFrame(frame);
+    setTimeout(function () { idle(prebuild); }, 1200);
   }
   try { boot(); } catch (e) { root.classList.remove('live'); cv.style.display = 'none'; LB.style.display = 'none'; if (window.console) console.error(e); }
   window.F2stage = { state: function () { return { scene: sceneName, p: lastP, activeN: activeN, gl: !!gl, gain: gain }; }, cost: function (reset) { var o = { n: cost.n, avg: cost.n ? cost.sum / cost.n : 0, max: cost.max }; if (reset) cost = { n: 0, sum: 0, max: 0 }; return o; } };
@@ -546,7 +555,7 @@
     au.addEventListener('play', function () { pl.classList.add('playing'); play.setAttribute('aria-label', 'Pause narration'); });
     au.addEventListener('pause', function () { pl.classList.remove('playing'); play.setAttribute('aria-label', 'Play narration'); });
     au.addEventListener('error', function () { if (au.src) { failed = true; cap.textContent = 'The narration could not be loaded. The text on the page is complete.'; play.disabled = true; } });
-    rateB.addEventListener('click', function () { ri = (ri + 1) % rates.length; au.playbackRate = rates[ri]; rateB.textContent = rates[ri] + '×'; rateB.setAttribute('aria-label', 'Playback speed, ' + rates[ri] + ' times'); });
+    rateB.addEventListener('click', function () { ri = (ri + 1) % rates.length; au.playbackRate = rates[ri]; rateB.textContent = rates[ri] + '×'; });
     mute.addEventListener('click', function () { au.muted = !au.muted; mute.setAttribute('aria-pressed', au.muted ? 'true' : 'false'); });
     function setFollow(v) { following = v; follow.setAttribute('aria-pressed', v ? 'true' : 'false'); }
     follow.addEventListener('click', function () { setFollow(!following); if (following) show(curU, true); });

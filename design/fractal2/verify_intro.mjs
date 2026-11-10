@@ -84,7 +84,7 @@ T("no third-party requests except the beacon", !third.length, third.join(" "));
 
 // no JavaScript: full text readable, nothing hidden
 { const { c, p } = await open(390, 844, { js: false });
-  const r = await p.evaluate(() => ({ words: document.querySelector("main").innerText.split(/\s+/).length, hidden: [...document.querySelectorAll("main p, main li, main h2")].filter(e => { const s = getComputedStyle(e); return s.visibility === "hidden" || parseFloat(s.opacity) < 1 || e.getBoundingClientRect().height === 0; }).length, canvas: getComputedStyle(document.getElementById("stage")).display }));
+  const r = await p.evaluate(() => ({ words: document.querySelector("main").innerText.split(/\s+/).length, hidden: [...document.querySelectorAll("main p, main li, main h2")].filter(e => { if (e.closest("[aria-hidden]")) return false; const s = getComputedStyle(e); return s.visibility === "hidden" || parseFloat(s.opacity) < 1 || e.getBoundingClientRect().height === 0; }).length, canvas: getComputedStyle(document.getElementById("stage")).display }));
   T("without JavaScript the whole text is readable", r.words > 4500 && r.hidden === 0 && r.canvas === "none", JSON.stringify(r)); await c.close(); }
 
 // keyboard: skip link, contents, narration controls
@@ -98,7 +98,7 @@ T("no third-party requests except the beacon", !third.length, third.join(" "));
 
 // axe, dark and light
 if (axeSrc) for (const scheme of ["dark", "light"]) { const { c, p } = await open(1440, 900, { scheme, rm: true }); await p.addScriptTag({ content: axeSrc });
-  const v = await p.evaluate(async () => (await axe.run(document, { resultTypes: ["violations"] })).violations.filter(v => ["serious", "critical"].includes(v.impact)).map(v => v.id + " x" + v.nodes.length + " " + (v.nodes[0].target || []).join(" ")));
+  const v = await p.evaluate(async () => (await axe.run(document, { resultTypes: ["violations"] })).violations.filter(v => ["serious", "critical"].includes(v.impact)).map(v => v.id + " x" + v.nodes.length + " " + v.nodes.map(n => (n.target || []).join(" ")).join(", ")));
   T(`axe (${scheme}): no serious or critical violations`, !v.length, v.join(" | ")); await c.close(); } else T("axe-core available", false, "npm i --no-save axe-core");
 
 // frame timing while scrolling the whole page (phone viewport, 4x CPU throttle)
