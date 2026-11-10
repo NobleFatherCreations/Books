@@ -19,7 +19,7 @@ import sys
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[2]
-VERDICTS = {"keep-label", "keep-conditional", "keep-cited", "generalize", "soften", "remove", "no-change", "escalate"}
+VERDICTS = {"keep-label", "keep-conditional", "keep-cited", "generalize", "soften", "remove", "surface", "no-change", "escalate"}
 REWRITES = {"generalize", "soften", "remove"}
 PROTECTED = {"Safety Note (read first)", "Escalation Triggers — Specific", "Safer Response Language", "Chain Breakers", "Evidence To Preserve — Additions"}
 SCENE = {"Cold Open", "The Name"}
@@ -140,6 +140,11 @@ def load(sector):
     return ledger, facts
 
 
+def appends_of(e):
+    """verdict "surface": the author's own audit sentence is added to a section of the page: [(section, sentence)]."""
+    return [(a["section"], a["text"]) for a in e.get("append", [])] if e.get("verdict") == "surface" else []
+
+
 def patches_of(e):
     """A ledger entry may carry one rewrite (before/after) or several ("patches": [{section, before, after}])."""
     if e.get("patches"):
@@ -176,6 +181,8 @@ def check(sector, strict=True):
                 bad.append("q%d: rewrite in protected section %s without escalation" % (e["q"], sec))
             if before not in combos[e["combo_id"]]["sections"].get(sec, ""):
                 bad.append("q%d: 'before' text not found in %s / %s" % (e["q"], e["combo_id"], sec))
+        if v == "surface" and not (appends_of(e) and e.get("escalated")):
+            bad.append("q%d: surface needs an append and the director's decision" % e["q"])
         if v in REWRITES and not patches_of(e):
             bad.append("q%d: %s with nothing to apply" % (e["q"], v))
     for fid, f in facts.items():
@@ -229,6 +236,11 @@ def apply_ledger(data, sector):
             if ok:
                 c["sections"][sec] = new
                 delta[e["combo_id"]] += wc(after) - wc(before)
+        for sec, text in appends_of(e):
+            if c["sections"].get(sec) and text not in c["sections"][sec]:
+                c["sections"][sec] = c["sections"][sec].rstrip() + "\n\n" + text
+                delta[e["combo_id"]] += wc(text)
+                d["added"] = d.get("added", 0) + 1
         if v == "keep-cited":
             d["cited"] += 1
         elif v in ("generalize", "soften"):
@@ -264,7 +276,7 @@ def summary(sector):
     out = ["# %s — tag resolution summary" % sector.upper(), "", "Generated %s by `design/fractal-sector/resolve.py`. Policy: `content/fractal2/TAG-POLICY.md`." % datetime.date.today().isoformat(), "",
            "| Verdict | Items |", "|---|---|"] + ["| %s | %d |" % (k, v) for k, v in sorted(cnt.items(), key=lambda x: -x[1])] + ["", "Total: %d queue items. Fact base: %d topics, %d with at least one source, %d with none." % (
                len(ledger), len(facts), sum(1 for f in facts.values() if f.get("sources")), sum(1 for f in facts.values() if not f.get("sources"))), ""]
-    for title, pick in [("High-risk changes (owner approves each)", lambda e: e.get("risk") == "high"), ("Removals", lambda e: e.get("verdict") == "remove"),
+    for title, pick in [("High-risk changes (owner approves each)", lambda e: e.get("risk") == "high" and e.get("verdict") not in ("no-change", "keep-label")), ("Removals", lambda e: e.get("verdict") == "remove"),
                         ("Rewordings (medium risk)", lambda e: e.get("verdict") in ("generalize", "soften") and e.get("risk") != "high")]:
         rows = [e for e in ledger if pick(e)]
         out += ["## %s (%d)" % (title, len(rows)), ""]
@@ -272,6 +284,8 @@ def summary(sector):
             out += ["- **%s · %s** (%s, q%d): %s" % (e["combo_id"], e["section"], e["verdict"], e["q"], e.get("reason", ""))]
             for sec, b, a in patches_of(e):
                 out += ["  - before: %s" % b.replace("\n", " ")[:400], "  - after: %s" % (a.replace("\n", " ")[:400] or "(removed)")]
+            for sec, t in appends_of(e):
+                out += ["  - added to \"%s\": %s" % (sec, t)]
         out.append("")
     out += ["## Topics with no reliable source", ""] + ["- %s: %s" % (f["id"], f["topic"]) for f in facts.values() if not f.get("sources")] + [""]
     (rdir / "SUMMARY.md").write_text("\n".join(out))

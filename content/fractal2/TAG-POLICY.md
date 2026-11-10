@@ -26,6 +26,7 @@
 | `generalize` | A specific claim could not be supported as worded; replaced by the general statement the sources do support | Reworded sentence, label **Source checked** if cited, otherwise **Common pattern** |
 | `soften` | Wording implied intent, certainty or universality the text cannot show; replaced by the softer wording | Reworded sentence, no new label |
 | `remove` | The claim is false or cannot be supported in any form, and the section still makes sense without it | Sentence gone; ledger keeps it |
+| `surface` | The author's own audit note contains a safety line or an over-reading test that the page lacks; that sentence is added, word for word, to the named section (director's decision only; always high risk) | The added sentence |
 | `no-change` | An audit note that needs no change to the page (already handled, or advisory to the author) | Nothing |
 | `escalate` | Needs the directing session's judgment (section 8) | Nothing until decided |
 

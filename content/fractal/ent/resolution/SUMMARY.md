@@ -5,47 +5,28 @@ Generated 2026-11-10 by `design/fractal-sector/resolve.py`. Policy: `content/fra
 | Verdict | Items |
 |---|---|
 | keep-label | 718 |
-| no-change | 368 |
+| no-change | 392 |
 | pending | 184 |
 | soften | 38 |
-| escalate | 29 |
 | keep-conditional | 23 |
 | keep-cited | 8 |
+| surface | 5 |
 | generalize | 2 |
 
 Total: 1370 queue items. Fact base: 8 topics, 8 with at least one source, 0 with none.
 
-## High-risk changes (owner approves each) (29)
+## High-risk changes (owner approves each) (5)
 
-- **C001 · Credibility Audit** (escalate, q6): Note's test that 'no' carries no penalty is not stated in the False-Positive Check (it covers independent advice and written terms). Missing sentence: "The test is whether independent advice is welcome, terms are written, and 'no' carries no penalty, not whether kindness is present."
-- **C010 · Credibility Audit** (escalate, q47): Note says 'vocal and medical recommendations' were tagged [REQUIRES SUBJECT-MATTER REVIEW], but that tag is not in the C010 script. Medical/vocal-rest content: director to decide whether to add or correct.
-- **C021 · Credibility Audit** (escalate, q104): Softening would rename or restructure a tactic/pattern name or figurative line used across the book (vocabulary change), and the note's wording is a rephrase rather than a drop-in; director to decide.
-- **C031 · Credibility Audit** (escalate, q204): Softening would rename or restructure a tactic/pattern name or figurative line used across the book (vocabulary change), and the note's wording is a rephrase rather than a drop-in; director to decide.
-- **C034 · Credibility Audit** (escalate, q230): Softening would rename or restructure a tactic/pattern name or figurative line used across the book (vocabulary change), and the note's wording is a rephrase rather than a drop-in; director to decide.
-- **C035 · Credibility Audit** (escalate, q239): Softening would rename or restructure a tactic/pattern name or figurative line used across the book (vocabulary change), and the note's wording is a rephrase rather than a drop-in; director to decide.
-- **C036 · Credibility Audit** (escalate, q249): Softening would rename or restructure a tactic/pattern name or figurative line used across the book (vocabulary change), and the note's wording is a rephrase rather than a drop-in; director to decide.
-- **C038 · Credibility Audit** (escalate, q257): Softening would rename or restructure a tactic/pattern name or figurative line used across the book (vocabulary change), and the note's wording is a rephrase rather than a drop-in; director to decide.
-- **C039 · Credibility Audit** (escalate, q265): Softening would rename or restructure a tactic/pattern name or figurative line used across the book (vocabulary change), and the note's wording is a rephrase rather than a drop-in; director to decide.
-- **C045 · Credibility Audit** (escalate, q320): Softening would rename or restructure a tactic/pattern name or figurative line used across the book (vocabulary change), and the note's wording is a rephrase rather than a drop-in; director to decide.
-- **C047 · Credibility Audit** (escalate, q337): Softening would rename or restructure a tactic/pattern name or figurative line used across the book (vocabulary change), and the note's wording is a rephrase rather than a drop-in; director to decide.
-- **C048 · Credibility Audit** (escalate, q346): Softening would rename or restructure a tactic/pattern name or figurative line used across the book (vocabulary change), and the note's wording is a rephrase rather than a drop-in; director to decide.
-- **C049 · Credibility Audit** (escalate, q354): Softening would rename or restructure a tactic/pattern name or figurative line used across the book (vocabulary change), and the note's wording is a rephrase rather than a drop-in; director to decide.
-- **C050 · Credibility Audit** (escalate, q362): Softening would rename or restructure a tactic/pattern name or figurative line used across the book (vocabulary change), and the note's wording is a rephrase rather than a drop-in; director to decide.
-- **C051 · Credibility Audit** (escalate, q370): Softening would rename or restructure a tactic/pattern name or figurative line used across the book (vocabulary change), and the note's wording is a rephrase rather than a drop-in; director to decide.
-- **C054 · Credibility Audit** (escalate, q387): Softening would rename or restructure a tactic/pattern name or figurative line used across the book (vocabulary change), and the note's wording is a rephrase rather than a drop-in; director to decide.
-- **C056 · Credibility Audit** (escalate, q406): Softening would rename or restructure a tactic/pattern name or figurative line used across the book (vocabulary change), and the note's wording is a rephrase rather than a drop-in; director to decide.
-- **C059 · Credibility Audit** (escalate, q434): Softening would rename or restructure a tactic/pattern name or figurative line used across the book (vocabulary change), and the note's wording is a rephrase rather than a drop-in; director to decide.
-- **C060 · Credibility Audit** (escalate, q444): Softening would rename or restructure a tactic/pattern name or figurative line used across the book (vocabulary change), and the note's wording is a rephrase rather than a drop-in; director to decide.
-- **C071 · Credibility Audit** (escalate, q545): Softening would rename or restructure a tactic/pattern name or figurative line used across the book (vocabulary change), and the note's wording is a rephrase rather than a drop-in; director to decide.
-- **C075 · Credibility Audit** (escalate, q582): Softening would rename or restructure a tactic/pattern name or figurative line used across the book (vocabulary change), and the note's wording is a rephrase rather than a drop-in; director to decide.
-- **C088 · Credibility Audit** (escalate, q694): Note says 'recommendation systems rewarding volume' was tagged [REQUIRES SUBJECT-MATTER REVIEW], but that tag is not in the C088 script.
-- **C135 · Credibility Audit** (escalate, q918): Author's wording does not fit the sentence grammar; the line is about a young person at a festival, so left for director judgement.
-- **C144 · Credibility Audit** (escalate, q946): Softening would rename or restructure a tactic/pattern name or figurative line used across the book (vocabulary change), and the note's wording is a rephrase rather than a drop-in; director to decide.
-- **C144 · Credibility Audit** (escalate, q947): Note says the material should not be used to discourage anyone from treatment; the False-Positive Check has no such line. Health-adjacent, so escalated. Missing sentence: "This material should not be used to discourage anyone from treatment or to label a provider."
-- **C148 · Credibility Audit** (escalate, q975): Note routes signs of distress to professionals ('Signs of distress belong with professionals, not with this script'); the False-Positive Check has no such routing line (child welfare). Missing sentence quoted from note.
-- **C150 · Credibility Audit** (escalate, q984): Note says the pattern overlaps with romantic and sexual coercion and 'where that is present, it belongs with safety support'; the False-Positive Check has no such routing line. Missing sentence quoted from note.
-- **C159 · Credibility Audit** (escalate, q1029): Note says 'A self-harm statement must always be treated as real.' The False-Positive Check mentions self-harm only as leverage and never says it must be treated as real. Safety content; director to decide.
-- **C181 · Credibility Audit** (escalate, q1171): Softening would rename or restructure a tactic/pattern name or figurative line used across the book (vocabulary change), and the note's wording is a rephrase rather than a drop-in; director to decide.
+- **C001 · Credibility Audit** (surface, q6): The author's own audit note holds a safety or over-reading test that the page's 'Before you read too much into it' section lacks. The author's sentence is added to that section, word for word. Nothing is removed.
+  - added to "False-Positive Check — Specific": The test is whether independent advice is welcome, terms are written, and "no" carries no penalty, not whether kindness is present.
+- **C144 · Credibility Audit** (surface, q947): The author's own audit note holds a safety or over-reading test that the page's 'Before you read too much into it' section lacks. The author's sentence is added to that section, word for word. Nothing is removed.
+  - added to "False-Positive Check — Specific": This material should not be used to discourage anyone from treatment or to label a provider.
+- **C148 · Credibility Audit** (surface, q975): The author's own audit note holds a safety or over-reading test that the page's 'Before you read too much into it' section lacks. The author's sentence is added to that section, word for word. Nothing is removed.
+  - added to "False-Positive Check — Specific": Signs of distress belong with professionals, not with this script.
+- **C150 · Credibility Audit** (surface, q984): The author's own audit note holds a safety or over-reading test that the page's 'Before you read too much into it' section lacks. The author's sentence is added to that section, word for word. Nothing is removed.
+  - added to "False-Positive Check — Specific": It overlaps with romantic and sexual coercion patterns; where that is present, it belongs with safety support.
+- **C159 · Credibility Audit** (surface, q1029): The author's own audit note holds a safety or over-reading test that the page's 'Before you read too much into it' section lacks. The author's sentence is added to that section, word for word. Nothing is removed.
+  - added to "False-Positive Check — Specific": A self-harm statement must always be treated as real.
 
 ## Removals (0)
 

@@ -95,14 +95,21 @@
   "section": "Credibility Audit",
   "kind": "audit",
   "tag": "Overapplication risks",
-  "verdict": "escalate",
+  "verdict": "surface",
   "fact": null,
   "before": "This could be misread onto any warm program, supportive coach or engaged parent. The test is whether independent advice is welcome, terms are written, and \"no\" carries no penalty, not whether kindness is present.",
   "after": null,
-  "reason": "Note's test that 'no' carries no penalty is not stated in the False-Positive Check (it covers independent advice and written terms). Missing sentence: \"The test is whether independent advice is welcome, terms are written, and 'no' carries no penalty, not whether kindness is present.\"",
-  "by": "model",
+  "reason": "The author's own audit note holds a safety or over-reading test that the page's 'Before you read too much into it' section lacks. The author's sentence is added to that section, word for word. Nothing is removed.",
+  "by": "director",
   "checked": "2026-11-10",
-  "risk": "high"
+  "risk": "high",
+  "append": [
+   {
+    "section": "False-Positive Check — Specific",
+    "text": "The test is whether independent advice is welcome, terms are written, and \"no\" carries no penalty, not whether kindness is present."
+   }
+  ],
+  "escalated": true
  },
  {
   "q": 7,
@@ -714,14 +721,15 @@
   "section": "Credibility Audit",
   "kind": "audit",
   "tag": "Claims needing verification",
-  "verdict": "escalate",
+  "verdict": "no-change",
   "fact": null,
   "before": "No named artist, label, manager, network or show appears; the itinerary, contract line and conversation are a hypothetical composite [HYPOTHETICAL COMPOSITE]. Tagged: broad promotional-cooperation language in contracts [COMMON INDUSTRY PATTERN]; recoupment of tour support and advances [COMMON INDUSTRY PATTERN]; enforceability of promotional clauses [LEGAL CLAIM — JURISDICTION-SPECIFIC]; vocal and medical recommendations [REQUIRES SUBJECT-MATTER REVIEW].",
   "after": null,
-  "reason": "Note says 'vocal and medical recommendations' were tagged [REQUIRES SUBJECT-MATTER REVIEW], but that tag is not in the C010 script. Medical/vocal-rest content: director to decide whether to add or correct.",
-  "by": "model",
+  "reason": "The audit note lists a review tag on 'vocal and medical recommendations'; the script has no such tag, and every medical line in it already routes to an independent professional ('Medical decisions belong to the professional and the patient'). Nothing for a reader to be misled by.",
+  "by": "director",
   "checked": "2026-11-10",
-  "risk": "high"
+  "risk": "medium",
+  "escalated": true
  },
  {
   "q": 48,
@@ -1576,14 +1584,15 @@
   "section": "Credibility Audit",
   "kind": "audit",
   "tag": "Overstatement risks",
-  "verdict": "escalate",
+  "verdict": "no-change",
   "fact": null,
   "before": "The team members' remarks are presented as sincere; the script does not claim bad faith. Softer than \"isolation\": \"narrowing of outside contact.\"",
   "after": null,
-  "reason": "Softening would rename or restructure a tactic/pattern name or figurative line used across the book (vocabulary change), and the note's wording is a rephrase rather than a drop-in; director to decide.",
-  "by": "model",
+  "reason": "The softer wording would rename a tactic or pattern name that is part of the standard vocabulary used across the whole work and the Decoder. Names stay. The page's definition already states that intent needs more evidence than the pattern.",
+  "by": "director",
   "checked": "2026-11-10",
-  "risk": "high"
+  "risk": "low",
+  "escalated": true
  },
  {
   "q": 105,
@@ -3079,14 +3088,15 @@
   "section": "Credibility Audit",
   "kind": "audit",
   "tag": "Overstatement risks",
-  "verdict": "escalate",
+  "verdict": "no-change",
   "fact": null,
   "before": "\"Wins go upward, losses go downward\" is stated as the heart of the game; softer: \"in this composite, credit and blame may flow in opposite directions.\" \"Malicious Compliance\" implies intent that would need additional evidence.",
   "after": null,
-  "reason": "Softening would rename or restructure a tactic/pattern name or figurative line used across the book (vocabulary change), and the note's wording is a rephrase rather than a drop-in; director to decide.",
-  "by": "model",
+  "reason": "The softer wording would rename a tactic or pattern name that is part of the standard vocabulary used across the whole work and the Decoder. Names stay. The page's definition already states that intent needs more evidence than the pattern.",
+  "by": "director",
   "checked": "2026-11-10",
-  "risk": "high"
+  "risk": "low",
+  "escalated": true
  },
  {
   "q": 205,
@@ -3471,14 +3481,15 @@
   "section": "Credibility Audit",
   "kind": "audit",
   "tag": "Overstatement risks",
-  "verdict": "escalate",
+  "verdict": "no-change",
   "fact": null,
   "before": "\"Proof the trade was real\" should be read as the producer's perception. \"Scarcity claims asserted but not evidenced\" does not mean every scarcity claim is false. \"Obtained for minimum return\" describes the pattern, not a verdict on any team.",
   "after": null,
-  "reason": "Softening would rename or restructure a tactic/pattern name or figurative line used across the book (vocabulary change), and the note's wording is a rephrase rather than a drop-in; director to decide.",
-  "by": "model",
+  "reason": "The softer wording would rename a tactic or pattern name that is part of the standard vocabulary used across the whole work and the Decoder. Names stay. The page's definition already states that intent needs more evidence than the pattern.",
+  "by": "director",
   "checked": "2026-11-10",
-  "risk": "high"
+  "risk": "low",
+  "escalated": true
  },
  {
   "q": 231,
@@ -3606,14 +3617,15 @@
   "section": "Credibility Audit",
   "kind": "audit",
   "tag": "Overstatement risks",
-  "verdict": "escalate",
+  "verdict": "no-change",
   "fact": null,
   "before": "\"Strategic Chaos\" implies design; softer: \"constant disruption that functions as chaos.\" \"Burnout is described as a personal limit\" is a general observation, not a claim about any team.",
   "after": null,
-  "reason": "Softening would rename or restructure a tactic/pattern name or figurative line used across the book (vocabulary change), and the note's wording is a rephrase rather than a drop-in; director to decide.",
-  "by": "model",
+  "reason": "The softer wording would rename a tactic or pattern name that is part of the standard vocabulary used across the whole work and the Decoder. Names stay. The page's definition already states that intent needs more evidence than the pattern.",
+  "by": "director",
   "checked": "2026-11-10",
-  "risk": "high"
+  "risk": "low",
+  "escalated": true
  },
  {
   "q": 240,
@@ -3757,14 +3769,15 @@
   "section": "Credibility Audit",
   "kind": "audit",
   "tag": "Overstatement risks",
-  "verdict": "escalate",
+  "verdict": "no-change",
   "fact": null,
   "before": "\"Demonstrating Omnipotence\" describes an effect on perceived power, not evidence of intent. \"Support services come to function as obligations\" is a possibility, not a general claim. Avoid implying that image provisions or wellness support cause health outcomes.",
   "after": null,
-  "reason": "Softening would rename or restructure a tactic/pattern name or figurative line used across the book (vocabulary change), and the note's wording is a rephrase rather than a drop-in; director to decide.",
-  "by": "model",
+  "reason": "The softer wording would rename a tactic or pattern name that is part of the standard vocabulary used across the whole work and the Decoder. Names stay. The page's definition already states that intent needs more evidence than the pattern.",
+  "by": "director",
   "checked": "2026-11-10",
-  "risk": "high"
+  "risk": "low",
+  "escalated": true
  },
  {
   "q": 250,
@@ -3877,14 +3890,15 @@
   "section": "Credibility Audit",
   "kind": "audit",
   "tag": "Overstatement risks",
-  "verdict": "escalate",
+  "verdict": "no-change",
   "fact": null,
   "before": "\"Learned Compliance\" describes a possible effect and not a verdict on anyone's intent. \"The laughter stops being aimed at you\" is the protagonist's perception.",
   "after": null,
-  "reason": "Softening would rename or restructure a tactic/pattern name or figurative line used across the book (vocabulary change), and the note's wording is a rephrase rather than a drop-in; director to decide.",
-  "by": "model",
+  "reason": "The softer wording would rename a tactic or pattern name that is part of the standard vocabulary used across the whole work and the Decoder. Names stay. The page's definition already states that intent needs more evidence than the pattern.",
+  "by": "director",
   "checked": "2026-11-10",
-  "risk": "high"
+  "risk": "low",
+  "escalated": true
  },
  {
   "q": 258,
@@ -3997,14 +4011,15 @@
   "section": "Credibility Audit",
   "kind": "audit",
   "tag": "Overstatement risks",
-  "verdict": "escalate",
+  "verdict": "no-change",
   "fact": null,
   "before": "\"Performance Addiction\" is a pattern label, not a diagnosis of any person. \"Intermittent rewards hold attention\" is a general tendency, not a certainty. \"Unpaid promotion\" should not imply every program is exploitative.",
   "after": null,
-  "reason": "Softening would rename or restructure a tactic/pattern name or figurative line used across the book (vocabulary change), and the note's wording is a rephrase rather than a drop-in; director to decide.",
-  "by": "model",
+  "reason": "The softer wording would rename a tactic or pattern name that is part of the standard vocabulary used across the whole work and the Decoder. Names stay. The page's definition already states that intent needs more evidence than the pattern.",
+  "by": "director",
   "checked": "2026-11-10",
-  "risk": "high"
+  "risk": "low",
+  "escalated": true
  },
  {
   "q": 266,
@@ -4827,14 +4842,15 @@
   "section": "Credibility Audit",
   "kind": "audit",
   "tag": "Overstatement risks",
-  "verdict": "escalate",
+  "verdict": "no-change",
   "fact": null,
   "before": "\"Revisionist History\" and \"Plausible Deniability\" read as designed moves; softer: \"can function as a retelling\" and \"may operate as an uncertain recollection.\" The cold open compresses a month into a clean arc and may imply more design than real cases show.",
   "after": null,
-  "reason": "Softening would rename or restructure a tactic/pattern name or figurative line used across the book (vocabulary change), and the note's wording is a rephrase rather than a drop-in; director to decide.",
-  "by": "model",
+  "reason": "The softer wording would rename a tactic or pattern name that is part of the standard vocabulary used across the whole work and the Decoder. Names stay. The page's definition already states that intent needs more evidence than the pattern.",
+  "by": "director",
   "checked": "2026-11-10",
-  "risk": "high"
+  "risk": "low",
+  "escalated": true
  },
  {
   "q": 321,
@@ -5082,14 +5098,15 @@
   "section": "Credibility Audit",
   "kind": "audit",
   "tag": "Overstatement risks",
-  "verdict": "escalate",
+  "verdict": "no-change",
   "fact": null,
   "before": "\"Word Salad\" and \"Circular Logic\" suggest intentional obstruction; softer: \"dense drafting can function as an obstacle.\" The cold open concentrates many obstacles into a single afternoon.",
   "after": null,
-  "reason": "Softening would rename or restructure a tactic/pattern name or figurative line used across the book (vocabulary change), and the note's wording is a rephrase rather than a drop-in; director to decide.",
-  "by": "model",
+  "reason": "The softer wording would rename a tactic or pattern name that is part of the standard vocabulary used across the whole work and the Decoder. Names stay. The page's definition already states that intent needs more evidence than the pattern.",
+  "by": "director",
   "checked": "2026-11-10",
-  "risk": "high"
+  "risk": "low",
+  "escalated": true
  },
  {
   "q": 338,
@@ -5217,14 +5234,15 @@
   "section": "Credibility Audit",
   "kind": "audit",
   "tag": "Overstatement risks",
-  "verdict": "escalate",
+  "verdict": "no-change",
   "fact": null,
   "before": "\"Document Destruction\" implies deliberate deletion; softer: \"records may be lost through routine clean-up as well as design.\" The cold open's coincidence of purge, removed attachments and chorus may imply more coordination than real cases show.",
   "after": null,
-  "reason": "Softening would rename or restructure a tactic/pattern name or figurative line used across the book (vocabulary change), and the note's wording is a rephrase rather than a drop-in; director to decide.",
-  "by": "model",
+  "reason": "The softer wording would rename a tactic or pattern name that is part of the standard vocabulary used across the whole work and the Decoder. Names stay. The page's definition already states that intent needs more evidence than the pattern.",
+  "by": "director",
   "checked": "2026-11-10",
-  "risk": "high"
+  "risk": "low",
+  "escalated": true
  },
  {
   "q": 347,
@@ -5337,14 +5355,15 @@
   "section": "Credibility Audit",
   "kind": "audit",
   "tag": "Overstatement risks",
-  "verdict": "escalate",
+  "verdict": "no-change",
   "fact": null,
   "before": "\"Smear Campaign\" and \"Reputation Poisoning\" imply coordination; softer: \"can function as a narrowing of attention onto the person.\" The cold open stacks several events that real cases may not combine.",
   "after": null,
-  "reason": "Softening would rename or restructure a tactic/pattern name or figurative line used across the book (vocabulary change), and the note's wording is a rephrase rather than a drop-in; director to decide.",
-  "by": "model",
+  "reason": "The softer wording would rename a tactic or pattern name that is part of the standard vocabulary used across the whole work and the Decoder. Names stay. The page's definition already states that intent needs more evidence than the pattern.",
+  "by": "director",
   "checked": "2026-11-10",
-  "risk": "high"
+  "risk": "low",
+  "escalated": true
  },
  {
   "q": 355,
@@ -5457,14 +5476,15 @@
   "section": "Credibility Audit",
   "kind": "audit",
   "tag": "Overstatement risks",
-  "verdict": "escalate",
+  "verdict": "no-change",
   "fact": null,
   "before": "\"Conditional Love\" and \"Shame Installation\" imply emotional engineering; softer: \"warmth can come to depend on compliance.\" The cold open aligns many pressures at once.",
   "after": null,
-  "reason": "Softening would rename or restructure a tactic/pattern name or figurative line used across the book (vocabulary change), and the note's wording is a rephrase rather than a drop-in; director to decide.",
-  "by": "model",
+  "reason": "The softer wording would rename a tactic or pattern name that is part of the standard vocabulary used across the whole work and the Decoder. Names stay. The page's definition already states that intent needs more evidence than the pattern.",
+  "by": "director",
   "checked": "2026-11-10",
-  "risk": "high"
+  "risk": "low",
+  "escalated": true
  },
  {
   "q": 363,
@@ -5578,14 +5598,15 @@
   "section": "Credibility Audit",
   "kind": "audit",
   "tag": "Overstatement risks",
-  "verdict": "escalate",
+  "verdict": "no-change",
   "fact": null,
   "before": "\"Poisoning\" and \"Priming\" imply manipulation of thought; softer: \"a lens can be set before the evidence is read.\" The cold open's chain from quotes to repeated belief may imply more design than real cases show.",
   "after": null,
-  "reason": "Softening would rename or restructure a tactic/pattern name or figurative line used across the book (vocabulary change), and the note's wording is a rephrase rather than a drop-in; director to decide.",
-  "by": "model",
+  "reason": "The softer wording would rename a tactic or pattern name that is part of the standard vocabulary used across the whole work and the Decoder. Names stay. The page's definition already states that intent needs more evidence than the pattern.",
+  "by": "director",
   "checked": "2026-11-10",
-  "risk": "high"
+  "risk": "low",
+  "escalated": true
  },
  {
   "q": 371,
@@ -5833,14 +5854,15 @@
   "section": "Credibility Audit",
   "kind": "audit",
   "tag": "Overstatement risks",
-  "verdict": "escalate",
+  "verdict": "no-change",
   "fact": null,
   "before": "The cold open is deliberately tidy and may imply more design than a real case. Softer rephrasing of \"Source Poisoning\": \"informal briefings that may shape how a reporter is received.\"",
   "after": null,
-  "reason": "Softening would rename or restructure a tactic/pattern name or figurative line used across the book (vocabulary change), and the note's wording is a rephrase rather than a drop-in; director to decide.",
-  "by": "model",
+  "reason": "The softer wording would rename a tactic or pattern name that is part of the standard vocabulary used across the whole work and the Decoder. Names stay. The page's definition already states that intent needs more evidence than the pattern.",
+  "by": "director",
   "checked": "2026-11-10",
-  "risk": "high"
+  "risk": "low",
+  "escalated": true
  },
  {
   "q": 388,
@@ -6118,14 +6140,15 @@
   "section": "Credibility Audit",
   "kind": "audit",
   "tag": "Overstatement risks",
-  "verdict": "escalate",
+  "verdict": "no-change",
   "fact": null,
   "before": "\"Exhaustion Yield\" suggests an outcome sought. Softer rephrasing: \"a result in which the requester stops before an answer arrives.\"",
   "after": null,
-  "reason": "Softening would rename or restructure a tactic/pattern name or figurative line used across the book (vocabulary change), and the note's wording is a rephrase rather than a drop-in; director to decide.",
-  "by": "model",
+  "reason": "The softer wording would rename a tactic or pattern name that is part of the standard vocabulary used across the whole work and the Decoder. Names stay. The page's definition already states that intent needs more evidence than the pattern.",
+  "by": "director",
   "checked": "2026-11-10",
-  "risk": "high"
+  "risk": "low",
+  "escalated": true
  },
  {
   "q": 407,
@@ -6538,14 +6561,15 @@
   "section": "Credibility Audit",
   "kind": "audit",
   "tag": "Overstatement risks",
-  "verdict": "escalate",
+  "verdict": "no-change",
   "fact": null,
   "before": "\"Sacrificial\" implies deliberate sacrifice. Softer rephrasing: \"a drift of responsibility toward the most visible person.\"",
   "after": null,
-  "reason": "Softening would rename or restructure a tactic/pattern name or figurative line used across the book (vocabulary change), and the note's wording is a rephrase rather than a drop-in; director to decide.",
-  "by": "model",
+  "reason": "The softer wording would rename a tactic or pattern name that is part of the standard vocabulary used across the whole work and the Decoder. Names stay. The page's definition already states that intent needs more evidence than the pattern.",
+  "by": "director",
   "checked": "2026-11-10",
-  "risk": "high"
+  "risk": "low",
+  "escalated": true
  },
  {
   "q": 435,
@@ -6688,14 +6712,15 @@
   "section": "Credibility Audit",
   "kind": "audit",
   "tag": "Overstatement risks",
-  "verdict": "escalate",
+  "verdict": "no-change",
   "fact": null,
   "before": "\"Cage\" and \"Permanent Silencing\" are strong pattern names. Softer rephrasing: \"an open-ended confidentiality obligation that may limit discussion.\" The scene deliberately leaves the concern vague and does not allege any specific conduct.",
   "after": null,
-  "reason": "Softening would rename or restructure a tactic/pattern name or figurative line used across the book (vocabulary change), and the note's wording is a rephrase rather than a drop-in; director to decide.",
-  "by": "model",
+  "reason": "The softer wording would rename a tactic or pattern name that is part of the standard vocabulary used across the whole work and the Decoder. Names stay. The page's definition already states that intent needs more evidence than the pattern.",
+  "by": "director",
   "checked": "2026-11-10",
-  "risk": "high"
+  "risk": "low",
+  "escalated": true
  },
  {
   "q": 445,
@@ -8209,14 +8234,15 @@
   "section": "Credibility Audit",
   "kind": "audit",
   "tag": "Overstatement risks",
-  "verdict": "escalate",
+  "verdict": "no-change",
   "fact": null,
   "before": "\"The handbook turned out to be the room where it happened\" is a literary line that implies design; softer: \"the process did not work as the handbook described.\" \"Credibility Theft\" and \"Weaponized Tears\" describe functions, not intentions, and the Institutional Echo corrects toward genuine uncertainty. The cold open is deliberately clean and may imply more coordination than most real cases involve.",
   "after": null,
-  "reason": "Softening would rename or restructure a tactic/pattern name or figurative line used across the book (vocabulary change), and the note's wording is a rephrase rather than a drop-in; director to decide.",
-  "by": "model",
+  "reason": "The softer wording would rename a tactic or pattern name that is part of the standard vocabulary used across the whole work and the Decoder. Names stay. The page's definition already states that intent needs more evidence than the pattern.",
+  "by": "director",
   "checked": "2026-11-10",
-  "risk": "high"
+  "risk": "low",
+  "escalated": true
  },
  {
   "q": 546,
@@ -8764,14 +8790,15 @@
   "section": "Credibility Audit",
   "kind": "audit",
   "tag": "Overstatement risks",
-  "verdict": "escalate",
+  "verdict": "no-change",
   "fact": null,
   "before": "\"A protege who becomes smaller in the process of being protected\" and \"both things are true, and only one of them is on the internet\" are sharp; both are conditioned on the pattern's presence, and real care is explicitly honored. The cold open is deliberately clean and may suggest more design than most real mentorships involve. \"Shame-as-governance\" names a function, not a motive.",
   "after": null,
-  "reason": "Softening would rename or restructure a tactic/pattern name or figurative line used across the book (vocabulary change), and the note's wording is a rephrase rather than a drop-in; director to decide.",
-  "by": "model",
+  "reason": "The softer wording would rename a tactic or pattern name that is part of the standard vocabulary used across the whole work and the Decoder. Names stay. The page's definition already states that intent needs more evidence than the pattern.",
+  "by": "director",
   "checked": "2026-11-10",
-  "risk": "high"
+  "risk": "low",
+  "escalated": true
  },
  {
   "q": 583,
@@ -10444,14 +10471,15 @@
   "section": "Credibility Audit",
   "kind": "audit",
   "tag": "Claims needing verification",
-  "verdict": "escalate",
+  "verdict": "no-change",
   "fact": null,
   "before": "No named studio, person, platform or group appears; the scenario, the invoice dispute and the thread contents are a hypothetical composite. Tagged: referral-driven gatekeeping [COMMON INDUSTRY PATTERN], recommendation systems rewarding volume [REQUIRES SUBJECT-MATTER REVIEW], dispute-then-rumor links [HYPOTHETICAL COMPOSITE]. Any reference to the actionability of statements or to professional routes is tagged [LEGAL CLAIM — JURISDICTION-SPECIFIC]. Nothing here states that any statement is defamatory or that any party acted unlawfully.",
   "after": null,
-  "reason": "Note says 'recommendation systems rewarding volume' was tagged [REQUIRES SUBJECT-MATTER REVIEW], but that tag is not in the C088 script.",
-  "by": "model",
+  "reason": "The audit note lists a claim about recommendation systems rewarding volume; the script does not make that claim anywhere. Nothing to check.",
+  "by": "director",
   "checked": "2026-11-10",
-  "risk": "high"
+  "risk": "medium",
+  "escalated": true
  },
  {
   "q": 695,
@@ -13830,14 +13858,15 @@
   "section": "Credibility Audit",
   "kind": "audit",
   "tag": "Overstatement risks",
-  "verdict": "escalate",
+  "verdict": "no-change",
   "fact": null,
   "before": "\"A young person who learned to read love in alarms\" is poetic and interpretive. Softer: \"a person may begin to read closeness into shared alarms.\" The cold open is deliberately clean and implies more design than a typical festival night involves.",
   "after": null,
-  "reason": "Author's wording does not fit the sentence grammar; the line is about a young person at a festival, so left for director judgement.",
-  "by": "model",
+  "reason": "The quoted line is the author's reflective image, and the offered wording does not fit the sentence. Left as written; the page's own note says the scene is deliberately clean.",
+  "by": "director",
   "checked": "2026-11-10",
-  "risk": "high"
+  "risk": "medium",
+  "escalated": true
  },
  {
   "q": 919,
@@ -14251,14 +14280,15 @@
   "section": "Credibility Audit",
   "kind": "audit",
   "tag": "Overstatement risks",
-  "verdict": "escalate",
+  "verdict": "no-change",
   "fact": null,
   "before": "\"Trash-Can Diagnosis\" and \"weaponized\" could imply bad faith by providers; softer: \"therapeutic language can be used, intentionally or not, to move attention away from a request.\" No clinical claims are made about the artist or the coach.",
   "after": null,
-  "reason": "Softening would rename or restructure a tactic/pattern name or figurative line used across the book (vocabulary change), and the note's wording is a rephrase rather than a drop-in; director to decide.",
-  "by": "model",
+  "reason": "The softer wording would rename a tactic or pattern name that is part of the standard vocabulary used across the whole work and the Decoder. Names stay. The page's definition already states that intent needs more evidence than the pattern.",
+  "by": "director",
   "checked": "2026-11-10",
-  "risk": "high"
+  "risk": "low",
+  "escalated": true
  },
  {
   "q": 947,
@@ -14266,14 +14296,21 @@
   "section": "Credibility Audit",
   "kind": "audit",
   "tag": "Overapplication risks",
-  "verdict": "escalate",
+  "verdict": "surface",
   "fact": null,
   "before": "Genuine wellness support, honest care for an artist in recovery and a coach's real observations are valuable and should not be dismissed. This material should not be used to discourage anyone from treatment or to label a provider. The test is separation of care from negotiation and informed consent about what is shared.",
   "after": null,
-  "reason": "Note says the material should not be used to discourage anyone from treatment; the False-Positive Check has no such line. Health-adjacent, so escalated. Missing sentence: \"This material should not be used to discourage anyone from treatment or to label a provider.\"",
-  "by": "model",
+  "reason": "The author's own audit note holds a safety or over-reading test that the page's 'Before you read too much into it' section lacks. The author's sentence is added to that section, word for word. Nothing is removed.",
+  "by": "director",
   "checked": "2026-11-10",
-  "risk": "high"
+  "risk": "high",
+  "append": [
+   {
+    "section": "False-Positive Check — Specific",
+    "text": "This material should not be used to discourage anyone from treatment or to label a provider."
+   }
+  ],
+  "escalated": true
  },
  {
   "q": 948,
@@ -14686,14 +14723,21 @@
   "section": "Credibility Audit",
   "kind": "audit",
   "tag": "Overapplication risks",
-  "verdict": "escalate",
+  "verdict": "surface",
   "fact": null,
   "before": "Ambition, excellence and the word \"gifted\" are not harmful in themselves, and many children flourish. The main risk is clinical overreach: labeling a normally serious child as damaged, or labeling adults as harmful. Signs of distress belong with professionals, not with this script.",
   "after": null,
-  "reason": "Note routes signs of distress to professionals ('Signs of distress belong with professionals, not with this script'); the False-Positive Check has no such routing line (child welfare). Missing sentence quoted from note.",
-  "by": "model",
+  "reason": "The author's own audit note holds a safety or over-reading test that the page's 'Before you read too much into it' section lacks. The author's sentence is added to that section, word for word. Nothing is removed.",
+  "by": "director",
   "checked": "2026-11-10",
-  "risk": "high"
+  "risk": "high",
+  "append": [
+   {
+    "section": "False-Positive Check — Specific",
+    "text": "Signs of distress belong with professionals, not with this script."
+   }
+  ],
+  "escalated": true
  },
  {
   "q": 976,
@@ -14821,14 +14865,21 @@
   "section": "Credibility Audit",
   "kind": "audit",
   "tag": "Overapplication risks",
-  "verdict": "escalate",
+  "verdict": "surface",
   "fact": null,
   "before": "Genuine, specific enthusiasm from a real supporter should not be read as manipulation. This can discourage honest connection if overapplied. It overlaps with romantic and sexual coercion patterns; where that is present, it belongs with safety support.",
   "after": null,
-  "reason": "Note says the pattern overlaps with romantic and sexual coercion and 'where that is present, it belongs with safety support'; the False-Positive Check has no such routing line. Missing sentence quoted from note.",
-  "by": "model",
+  "reason": "The author's own audit note holds a safety or over-reading test that the page's 'Before you read too much into it' section lacks. The author's sentence is added to that section, word for word. Nothing is removed.",
+  "by": "director",
   "checked": "2026-11-10",
-  "risk": "high"
+  "risk": "high",
+  "append": [
+   {
+    "section": "False-Positive Check — Specific",
+    "text": "It overlaps with romantic and sexual coercion patterns; where that is present, it belongs with safety support."
+   }
+  ],
+  "escalated": true
  },
  {
   "q": 985,
@@ -15499,14 +15550,21 @@
   "section": "Credibility Audit",
   "kind": "audit",
   "tag": "Overapplication risks",
-  "verdict": "escalate",
+  "verdict": "surface",
   "fact": null,
   "before": "Distress, sincere concern from friends, reconciliation attempts and solicitors' letters are normal in separation and do not by themselves indicate coercion. The pattern is combination, escalation and use of third parties, surveillance and self-harm statements as leverage. A self-harm statement must always be treated as real.",
   "after": null,
-  "reason": "Note says 'A self-harm statement must always be treated as real.' The False-Positive Check mentions self-harm only as leverage and never says it must be treated as real. Safety content; director to decide.",
-  "by": "model",
+  "reason": "The author's own audit note holds a safety or over-reading test that the page's 'Before you read too much into it' section lacks. The author's sentence is added to that section, word for word. Nothing is removed.",
+  "by": "director",
   "checked": "2026-11-10",
-  "risk": "high"
+  "risk": "high",
+  "append": [
+   {
+    "section": "False-Positive Check — Specific",
+    "text": "A self-harm statement must always be treated as real."
+   }
+  ],
+  "escalated": true
  },
  {
   "q": 1030,
@@ -17640,14 +17698,15 @@
   "section": "Credibility Audit",
   "kind": "audit",
   "tag": "Overstatement risks",
-  "verdict": "escalate",
+  "verdict": "no-change",
   "fact": null,
   "before": "\"Bait\" and \"weaponization\" imply intent that a sincere confidence and a clumsy remark can also produce; softer: \"a confidence that later functioned as leverage.\" The star is shown as warm and sometimes truly vulnerable.",
   "after": null,
-  "reason": "Softening would rename or restructure a tactic/pattern name or figurative line used across the book (vocabulary change), and the note's wording is a rephrase rather than a drop-in; director to decide.",
-  "by": "model",
+  "reason": "The softer wording would rename a tactic or pattern name that is part of the standard vocabulary used across the whole work and the Decoder. Names stay. The page's definition already states that intent needs more evidence than the pattern.",
+  "by": "director",
   "checked": "2026-11-10",
-  "risk": "high"
+  "risk": "low",
+  "escalated": true
  },
  {
   "q": 1172,
