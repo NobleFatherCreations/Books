@@ -60,66 +60,136 @@ class Metrics:
 
 
 # ---------- layout ----------
-def layout(names_by_stage, M, MT, R=1000.0):
-    """Find the largest letter size at which all eight rings fit inside radius R. Returns rows with every name placed."""
-    RC = 182.0                       # core radius
-    TRACK, TTRACK = 0.015, 0.14
+RC = 182.0                           # core radius, in units where the disc radius is 1000
+TRACK, TTRACK = 0.015, 0.14
 
-    def build(f):
-        lh, tsize = f * 1.5, f * 2.55
-        tlh = tsize * 1.22
+
+def spread(names, widths, radii, caps, k, tw, s):
+    """Share one stage's names between its k rows (the last row holds the title) and space them with equal gaps.
+    -> (rows, smallest gap). Keeps the author's order, filling from the title row inward."""
+    mingap = s * 1.7
+    need = sum(widths) + mingap * len(names)
+    rows, i, acc_cap, acc_w, worst = [], 0, 0.0, 0.0, 1e9
+    order = list(range(k - 1, -1, -1))
+    for idx, j in enumerate(order):
+        acc_cap += caps[j]
+        target = need * acc_cap / sum(caps)
+        row = []
+        while i < len(names) and (acc_w + (widths[i] + mingap) / 2 <= target or idx == len(order) - 1):
+            row.append(i); acc_w += widths[i] + mingap; i += 1
+        rr, is_title = radii[j], j == k - 1
+        wsum = sum(widths[x] for x in row)
+        gap = (caps[j] - wsum) / max(1, len(row) + (1 if is_title else 0))
+        if row:
+            worst = min(worst, gap)
+        # angle 0 is the top, clockwise. A title row starts just right of the title; the others are staggered.
+        a = (tw / 2 + gap) / rr if is_title else ((gap / 2) / rr if j % 2 else -(widths[row[0]] / 2) / rr if row else 0)
+        items = []
+        for x in row:
+            items.append({"t": names[x], "a": (a + widths[x] / 2 / rr) % TAU, "w": widths[x]})
+            a += (widths[x] + gap) / rr
+        rows.append({"r": rr, "items": items, "gap": gap, "title": is_title, "f": s})
+    return rows, worst
+
+
+def layout(names_by_stage, M, MT, R=1000.0, grow=2.2):
+    """All eight rings inside radius R. Each stage takes the fewest rows that hold it, then its letters are enlarged
+    until those rows are full, so no ring is left with empty space. Returns rows with every name placed."""
+
+    def stage(g, names, r_in, f, s, k):
+        lh, tsize = s * 1.5, f * 2.55
+        tlh = max(tsize * 1.22, lh)
+        widths = [M.width(n, s, TRACK) for n in names]
+        tw = MT.width(STAGES[g].upper(), tsize, TTRACK) + f * 7.0             # title plus its ornaments and air
+        radii = [r_in + f * 0.55 + j * lh + lh / 2 for j in range(k - 1)]
+        r_title = r_in + f * 0.55 + (k - 1) * lh + tlh / 2
+        radii.append(r_title)
+        caps = [TAU * x for x in radii[:-1]] + [TAU * r_title - tw]
+        if min(caps) <= 0 or sum(caps) < sum(widths) + s * 1.7 * len(names):
+            return None
+        rows, worst = spread(names, widths, radii, caps, k, tw, s)
+        if worst < s * 1.2:
+            return None
+        return rows, r_title, tsize, tlh, tw
+
+    def build(f, extra):
         rows, bands, r = [], [], RC + f * 1.0
         for g, names in enumerate(names_by_stage):
-            r_in = r
-            widths = [M.width(n, f, TRACK) for n in names]
-            total = sum(widths)
-            mingap = f * 1.7
-            tw = MT.width(STAGES[g].upper(), tsize, TTRACK) + f * 7.0          # title plus its ornaments and air
-            k = 1
-            while True:                                                           # fewest rows that hold the stage
-                radii = [r_in + f * 0.55 + j * lh + lh / 2 for j in range(k - 1)]
-                r_title = r_in + f * 0.55 + (k - 1) * lh + tlh / 2
-                caps = [TAU * x for x in radii] + [TAU * r_title - tw]
-                if sum(caps) >= total + mingap * len(names) and all(c > 0 for c in caps):
-                    break
+            r_in, k = r, 1
+            while stage(g, names, r_in, f, f, k) is None:                        # fewest rows that hold the stage
                 k += 1
-            radii.append(r_title)
-            # share the names between the rows in proportion to what each row can hold, keeping the author's order
-            need = total + mingap * len(names)
-            out_rows, i, acc_cap, acc_w = [], 0, 0.0, 0.0
-            order = list(range(k - 1, -1, -1))                                    # fill from the title row inward
-            for idx, j in enumerate(order):
-                acc_cap += caps[j]
-                target = need * acc_cap / sum(caps)
-                row = []
-                while i < len(names) and (acc_w + (widths[i] + mingap) / 2 <= target or idx == len(order) - 1):
-                    row.append(i); acc_w += widths[i] + mingap; i += 1
-                out_rows.append((j, row))
-            for j, row in out_rows:
-                rr, is_title = radii[j], j == k - 1
-                arc = caps[j]
-                wsum = sum(widths[x] for x in row)
-                gap = (arc - wsum) / max(1, len(row) + (1 if is_title else 0))
-                # angle 0 is the top, clockwise. A title row starts just right of the title; others are staggered.
-                a = (tw / 2 + gap) / rr if is_title else ((gap / 2) / rr if j % 2 else -(widths[row[0]] / 2) / rr if row else 0)
-                items = []
-                for x in row:
-                    c = a + widths[x] / 2 / rr
-                    items.append({"t": names[x], "a": c % TAU, "w": widths[x]})
-                    a += (widths[x] + gap) / rr
-                rows.append({"g": g, "r": rr, "items": items, "gap": gap, "title": is_title, "f": f})
+            k += extra[g]
+            lo, hi = f, f * grow                                                 # then the largest letters those rows hold
+            for _ in range(22):
+                mid = (lo + hi) / 2
+                if stage(g, names, r_in, f, mid, k) is None:
+                    hi = mid
+                else:
+                    lo = mid
+            srows, r_title, tsize, tlh, tw = stage(g, names, r_in, f, lo, k)
+            for row in srows:
+                row["g"] = g
+            rows += srows
             r = r_title + tlh / 2 + f * 0.5
-            bands.append({"g": g, "r0": r_in - f * 1.0 if g == 0 else r_in, "r1": r, "r_title": r_title, "tsize": tsize, "tw": tw})
+            bands.append({"g": g, "r0": r_in - f * 1.0 if g == 0 else r_in, "r1": r, "r_title": r_title, "tsize": tsize, "tw": tw, "f": lo})
         return {"f": f, "rows": rows, "bands": bands, "R": r, "RC": RC, "track": TRACK, "ttrack": TTRACK}
 
-    lo, hi = 4.0, 40.0
-    for _ in range(40):
+    def solve(extra):
+        lo, hi = 4.0, 40.0
+        for _ in range(40):
+            mid = (lo + hi) / 2
+            if build(mid, extra)["R"] > R:
+                hi = mid
+            else:
+                lo = mid
+        return build(lo, extra)
+
+    # give the ring with the smallest letters one more row for as long as that makes the smallest letters larger
+    extra = [0] * len(names_by_stage)
+    best = solve(extra)
+    for _ in range(6):
+        small = min(best["bands"], key=lambda b: b["f"])
+        trial = extra[:]; trial[small["g"]] += 1
+        cand = solve(trial)
+        if min(b["f"] for b in cand["bands"]) <= small["f"] * 1.02:
+            break
+        extra, best = trial, cand
+    return best
+
+
+def layout_original(names_by_stage, M, MT, R=1000.0):
+    """The original Fractal: eight equal rings, one line of lettering in each. The stage name sits at the top of its ring
+    and its techniques follow it round at one letter size, with the same gap between every two neighbours."""
+    band = (R - RC - 12.0) / 8
+    track = 0.03
+
+    def build(s):
+        ts = s * 1.34
+        u = s * 0.5                                                              # unit for ornaments
+        rows, bands, worst = [], [], 1e9
+        for g, names in enumerate(names_by_stage):
+            r0 = RC + 12.0 + band * g
+            r = r0 + band / 2
+            widths = [M.width(n, s, track) for n in names]
+            tw = MT.width(STAGES[g].upper(), ts, TTRACK) + u * 7.0
+            gap = (TAU * r - tw - sum(widths)) / (len(names) + 1)
+            worst = min(worst, gap / s)
+            a, items = (tw / 2 + gap) / r, []
+            for n, w in zip(names, widths):
+                items.append({"t": n, "a": (a + w / 2 / r) % TAU, "w": w})
+                a += (w + gap) / r
+            rows.append({"g": g, "r": r, "items": items, "gap": gap, "title": True, "f": s})
+            bands.append({"g": g, "r0": RC if g == 0 else r0, "r1": r0 + band, "r_title": r, "tsize": ts, "tw": tw, "f": s})
+        return {"f": u, "rows": rows, "bands": bands, "R": R, "RC": RC, "track": track, "ttrack": TTRACK, "leaders": True}, worst
+
+    lo, hi = 10.0, band * 0.40                                                   # letters no taller than the ring allows
+    for _ in range(30):
         mid = (lo + hi) / 2
-        if build(mid)["R"] > R:
+        if build(mid)[1] < 2.2:                                                  # keep at least 2.2 letter-heights between neighbours
             hi = mid
         else:
             lo = mid
-    return build(lo)
+    return build(lo)[0]
 
 
 # ---------- drawing ----------
@@ -147,7 +217,7 @@ def esc(t):
     return t.replace("&", "&amp;").replace("<", "&lt;").replace(">", "&gt;").replace('"', "&quot;")
 
 
-def draw(L, fonts, size=4096, caption=True, seed=7, names=True):
+def draw(L, fonts, size=4096, caption=True, seed=7, names=True, core="Fractal2", cap=None):
     S = size
     cx, cy = S / 2, S * 0.487
     k = S * 0.437 / 1000.0                       # map units -> pixels (disc radius is 1000 units)
@@ -159,7 +229,8 @@ def draw(L, fonts, size=4096, caption=True, seed=7, names=True):
     A("<defs><style>")
     for fam, b64, wt, st in fonts:
         A(f'@font-face{{font-family:"{fam}";src:url(data:font/ttf;base64,{b64}) format("truetype");font-weight:{wt};font-style:{st}}}')
-    A(f'.n{{font-family:"FL";font-weight:600;font-size:{f:.2f}px;letter-spacing:{L["track"]}em;fill:{CREAM};paint-order:stroke;stroke:#140b08;stroke-opacity:.5;stroke-width:{f * .13:.2f}px;stroke-linejoin:round}}')
+    A(f'.n{{font-family:"FL";font-weight:700;letter-spacing:{L["track"]}em;fill:{CREAM};paint-order:stroke;stroke:#140b08;stroke-opacity:.55;stroke-linejoin:round}}')
+    A(f'.nb{{font-family:"FL";font-weight:700;letter-spacing:{L["track"]}em;fill:#fbf3df;stroke:#fbf3df;stroke-linejoin:round}}')
     A(f'.t{{font-family:"FL";font-weight:700;letter-spacing:{L["ttrack"]}em;fill:#fdf1cf;paint-order:stroke;stroke:#140b08;stroke-opacity:.45;stroke-width:{f * .16:.2f}px;stroke-linejoin:round}}')
     A(f'.c{{font-family:"FL";font-weight:600;fill:#fdf3d8}}.cap{{font-family:"FL";font-style:italic;font-weight:500;fill:#ead9ae}}')
     A("</style>")
@@ -252,14 +323,19 @@ def draw(L, fonts, size=4096, caption=True, seed=7, names=True):
     place = []
     for i, row in enumerate(L["rows"] if names else []):
         r = row["r"] * k
-        lift = row["f"] * k * 0.30
+        fs = row["f"] * k
         n = len(row["items"])
         for j, it in enumerate(row["items"]):
             top = it["a"] < math.pi / 2 or it["a"] > 3 * math.pi / 2
             href = f"r{i}a" if top else f"r{i}b"
+            lift = fs * 0.30
             off = (r - lift) * ((it["a"] + math.pi) % TAU) if top else (r + lift) * ((TAU - it["a"]) % TAU)
-            A(f'<text class="n" text-anchor="middle"><textPath href="#{href}" xlink:href="#{href}" startOffset="{off:.2f}">{esc(it["t"])}</textPath></text>')
-            place.append({"t": it["t"], "g": row["g"], "a": round(it["a"], 5), "r": round(row["r"], 2)})
+            tp = f'<textPath href="#{href}" xlink:href="#{href}" startOffset="{off:.2f}">{esc(it["t"])}</textPath></text>'
+            A(f'<text class="n" font-size="{fs:.2f}px" stroke-width="{fs * .16:.2f}" text-anchor="middle">{tp}')      # soft dark edge
+            A(f'<text class="nb" font-size="{fs:.2f}px" stroke-width="{fs * .034:.2f}" text-anchor="middle">{tp}')    # the letter, a touch heavier than the bold cut
+            place.append({"t": it["t"], "g": row["g"], "a": round(it["a"], 5), "r": round(row["r"], 2), "f": round(row["f"], 2)})
+            if L.get("leaders"):
+                continue
             # a small gold point in the middle of the space before the next name
             nxt = row["items"][(j + 1) % n]
             if n > 1 or row["title"]:
@@ -268,7 +344,25 @@ def draw(L, fonts, size=4096, caption=True, seed=7, names=True):
                 span = (nxt["a"] - it["a"]) % TAU
                 mid = (it["a"] + (it["w"] / 2 / row["r"] + (span - it["w"] / 2 / row["r"] - nxt["w"] / 2 / row["r"]) / 2)) % TAU
                 x, y = P(cx, cy, r, mid)
-                A(f'<circle cx="{x:.2f}" cy="{y:.2f}" r="{f * .075:.2f}" fill="{GOLD}" opacity=".85"/>')
+                A(f'<circle cx="{x:.2f}" cy="{y:.2f}" r="{fs * .075:.2f}" fill="{GOLD}" opacity=".85"/>')
+        if L.get("leaders"):
+            # the original: a fine gold line and a light in every space, so each ring reads as one unbroken circle
+            b = L["bands"][row["g"]]
+            half = (b["tw"] - L["f"] * 7.0) / 2 / row["r"] + L["f"] * 3.6 / row["r"]          # title and its side ornaments
+            spans = [(-half, half)] + [(it["a"] - it["w"] / 2 / row["r"], it["a"] + it["w"] / 2 / row["r"]) for it in row["items"]]
+            m = row["f"] * 0.85 / row["r"]
+            for q in range(len(spans)):
+                a0 = spans[q][1] + m
+                a1 = (spans[(q + 1) % len(spans)][0] - m) if q + 1 < len(spans) else (TAU - half - m)
+                if a1 - a0 <= 0:
+                    continue
+                mid = (a0 + a1) / 2
+                if (a1 - a0) * row["r"] > row["f"] * 2.4:
+                    for (p0, p1) in ((a0, mid - row["f"] * 0.55 / row["r"]), (mid + row["f"] * 0.55 / row["r"], a1)):
+                        x0, y0 = P(cx, cy, r, p0); x1, y1 = P(cx, cy, r, p1)
+                        A(f'<path d="M{x0:.2f} {y0:.2f}A{r:.2f} {r:.2f} 0 {1 if p1 - p0 > math.pi else 0} 1 {x1:.2f} {y1:.2f}" stroke="{GOLD}" stroke-width="{fs * .035:.2f}" fill="none" opacity=".55"/>')
+                x, y = P(cx, cy, r, mid)
+                A(f'<circle cx="{x:.2f}" cy="{y:.2f}" r="{fs * .28:.2f}" fill="{GOLD}" opacity=".45" filter="url(#glow)"/><circle cx="{x:.2f}" cy="{y:.2f}" r="{fs * .1:.2f}" fill="#fff6d6"/>')
     for g, b in enumerate(L["bands"]):
         r, ts = b["r_title"] * k, b["tsize"] * k
         lift = ts * 0.33
@@ -290,36 +384,73 @@ def draw(L, fonts, size=4096, caption=True, seed=7, names=True):
     A(f'<circle cx="{cx:.1f}" cy="{cy:.1f}" r="{RC * .985:.2f}" fill="none" stroke="#fff6d2" stroke-width="{RC * .012:.2f}" opacity=".9"/>')
     A(f'<circle cx="{cx:.1f}" cy="{cy:.1f}" r="{RC * .868:.2f}" fill="none" stroke="#fff6d2" stroke-width="{RC * .010:.2f}" opacity=".75"/>')
     A(f'<circle cx="{cx:.1f}" cy="{cy:.1f}" r="{RC * .80:.2f}" fill="none" stroke="#f0c35f" stroke-width="{RC * .006:.2f}" opacity=".5"/>')
-    cs = RC * 0.40
-    title = f'<text class="c" x="{cx - cs * .06:.1f}" y="{cy + cs * .30:.1f}" font-size="{cs:.1f}px" text-anchor="middle" letter-spacing=".01em">Fractal<tspan font-size="{cs * .58:.1f}px" dy="{-cs * .40:.1f}" dx="{cs * .03:.1f}" fill="{GOLD}">2</tspan></text>'
+    if core == "Fractal2":
+        cs = RC * 0.40
+        title = f'<text class="c" x="{cx - cs * .06:.1f}" y="{cy + cs * .30:.1f}" font-size="{cs:.1f}px" text-anchor="middle" letter-spacing=".01em">Fractal<tspan font-size="{cs * .58:.1f}px" dy="{-cs * .40:.1f}" dx="{cs * .03:.1f}" fill="{GOLD}">2</tspan></text>'
+    else:                                                                     # two lines: a small first word over the name
+        w1, w2 = core.split(" ", 1)
+        cs = RC * 0.40
+        title = (f'<text class="c" x="{cx:.1f}" y="{cy - cs * .42:.1f}" font-size="{cs * .46:.1f}px" text-anchor="middle" letter-spacing=".22em" fill="{GOLD}" style="fill:{GOLD}">{esc(w1.upper())}</text>'
+                 f'<text class="c" x="{cx:.1f}" y="{cy + cs * .52:.1f}" font-size="{cs:.1f}px" text-anchor="middle" letter-spacing=".01em">{esc(w2)}</text>')
     A(title.replace('class="c"', 'class="c" filter="url(#glow2)" opacity=".5"'))
     A(title)
     if caption:
         n_tac = sum(len(r["items"]) for r in L["rows"])
-        A(f'<text class="cap" x="{cx:.1f}" y="{S * .962:.1f}" font-size="{S * .0165:.1f}px" text-anchor="middle" letter-spacing=".04em">{"8 Stages. %d Tactics. One Cycle." % n_tac if names else "8 Stages. One Cycle."}</text>')
+        A(f'<text class="cap" x="{cx:.1f}" y="{S * .962:.1f}" font-size="{S * .0165:.1f}px" text-anchor="middle" letter-spacing=".04em">{cap or ("8 Stages. %d Tactics. One Cycle." % n_tac if names else "8 Stages. One Cycle.")}</text>')
     A(f'<rect width="{S}" height="{S}" fill="url(#vig)"/>')
     A("</svg>")
     return "".join(o), place
+
+
+def original_names():
+    """The thirty techniques of The Fractal, by stage, read from the published chapter (so every word matches the book)."""
+    import html as H, re
+    h = (ROOT / "library/fractal/the-pattern.html").read_text(encoding="utf-8")
+    h = re.sub(r"(?s)<(script|style|svg)\b.*?</\1>", "", h)
+    text = H.unescape(re.sub(r"<[^>]+>", "\n", h))
+    out, cur = [[] for _ in STAGES], None
+    for line in (x.strip() for x in text.split("\n")):
+        m = re.match(r"Stage:\s*(\w+)\s*[—-]", line)
+        if m and m.group(1) in STAGES:
+            cur = STAGES.index(m.group(1)); continue
+        m = re.match(r"(\d\d)\s*·\s*(.+)$", line)
+        if m and cur is not None and m.group(2) not in out[cur] and sum(map(len, out)) < 30:
+            out[cur].append(m.group(2).strip())
+    assert [len(x) for x in out] == [2, 2, 4, 5, 6, 7, 2, 2], [len(x) for x in out]
+    return out
 
 
 def main():
     size = int(sys.argv[sys.argv.index("--size") + 1]) if "--size" in sys.argv else 4096
     sec = json.loads((ROOT / "content/fractal/ent/build/sector.json").read_text())
     names = [[t["name"] for t in sec["tactics"] if t["stage"] == s] for s in sec["stages"]]
-    alltext = "".join(n for st in names for n in st) + "".join(s.upper() for s in STAGES) + "Fractal2 8 Stages. 0123456789 Tactics. One Cycle."
+    orig = original_names()
+    alltext = "".join(n for st in names + orig for n in st) + "".join(s.upper() for s in STAGES) + "Fractal2 THE The 8 Stages. 0123456789 Tactics. Techniques. One Cycle."
     f600, b600 = static_font(False, 600, alltext)
     f700, b700 = static_font(False, 700, alltext)
     fi, bi = static_font(True, 500, alltext)
-    L = layout(names, Metrics(f600), Metrics(f700))
-    svg, place = draw(L, [("FL", b600, 600, "normal"), ("FL", b700, 700, "normal"), ("FL", bi, 500, "italic")], size)
+    fonts = [("FL", b600, 600, "normal"), ("FL", b700, 700, "normal"), ("FL", bi, 500, "italic")]
+    M7 = Metrics(f700)
+
+    # the series logo: all 335 tactics
+    L = layout(names, M7, M7)
+    svg, place = draw(L, fonts, size)
     (ART / "fractal2-logo.svg").write_text(svg)
-    emblem, _ = draw(L, [("FL", b600, 600, "normal"), ("FL", b700, 700, "normal"), ("FL", bi, 500, "italic")], size, names=False)
+    emblem, _ = draw(L, fonts, size, names=False)
     (ART / "fractal2-emblem.svg").write_text(emblem)        # the same rings without the small names, for small sizes
-    (ART / "fractal2-logo.json").write_text(json.dumps({"R": 1000, "core": L["RC"], "letter": round(L["f"], 3),
-        "bands": [{"stage": STAGES[b["g"]], "r0": round(b["r0"], 2), "r1": round(b["r1"], 2)} for b in L["bands"]], "names": place}, ensure_ascii=False, separators=(",", ":")))
-    print("letter size %.2f units (%.1f px at %d); rows %d; names placed %d; rings end at %.1f" % (
-        L["f"], L["f"] * size * 0.437 / 1000, size, len(L["rows"]), len(place), L["R"]))
-    print("rows per stage:", [sum(1 for r in L["rows"] if r["g"] == g) for g in range(8)], "names per stage:", [sum(len(r["items"]) for r in L["rows"] if r["g"] == g) for g in range(8)])
+    (ART / "fractal2-logo.json").write_text(json.dumps({"R": 1000, "core": L["RC"],
+        "bands": [{"stage": STAGES[b["g"]], "r0": round(b["r0"], 2), "r1": round(b["r1"], 2), "letter": round(b["f"], 2)} for b in L["bands"]], "names": place}, ensure_ascii=False, separators=(",", ":")))
+    print("logo: base letter %.2f units; rows %d; names placed %d; rings end at %.1f" % (L["f"], len(L["rows"]), len(place), L["R"]))
+    print("  rows per stage:", [sum(1 for r in L["rows"] if r["g"] == g) for g in range(8)], "names per stage:", [sum(len(r["items"]) for r in L["rows"] if r["g"] == g) for g in range(8)])
+    print("  letter size per stage (units, px at %d):" % size, [(round(b["f"], 1), round(b["f"] * size * 0.437 / 1000, 1)) for b in L["bands"]])
+
+    # the original: eight stages, thirty techniques, in the same colours, so one can open into the other
+    LO = layout_original(orig, M7, M7)
+    for core, cap, out in (("The Fractal", "8 Stages. 30 Techniques. One Cycle.", "fractal-original.svg"),
+                           ("Fractal2", "8 Stages. 30 Techniques. One Cycle.", "fractal-original-f2.svg")):
+        svg, place = draw(LO, fonts, size, core=core, cap=cap)
+        (ART / out).write_text(svg)
+    print("original: letter %.1f units (%.1f px at %d); names placed %d" % (LO["rows"][0]["f"], LO["rows"][0]["f"] * size * 0.437 / 1000, size, len(place)))
 
 
 if __name__ == "__main__":
