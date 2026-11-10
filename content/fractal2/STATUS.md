@@ -22,6 +22,8 @@ This file is written to be handed to another AI. Paths are relative to the repo 
 | A9 | **Known defects handled**: stage 6 shown as "Extract · Control"; C144 tag count taken from the script; the Practice numbering and Enlighten spelling errors are not quoted anywhere on the new pages (owner files untouched) | `NAV-SPEC.md` §13, `audit.md` | — |
 | A10 | **Docs**: architecture, decisions log (D1–D17), navigation spec, tag policy, rubrics with the director's own scores, three work packets, hand-off, MEMORY entry, `sites.json` registration as undeployed | `content/fractal2/*.md`, `MEMORY.md`, `sites.json` | — |
 
+| A11 | **The series logo**: a gold core named Fractal², eight rings in the original artwork's colours, each stage named once, all 335 tactics evenly spaced and upright, drawn from data so every word is spelled correctly. Plus an emblem without the small names for small sizes | `design/fractal2/logo.py`, `logo_render.mjs`; `design/fractal2/art/fractal2-logo.svg`, `fractal2-emblem.svg`, `fractal2-logo-1600.webp`, `fractal2-logo.json`; renders in `library/fractal2/review/` | looked at full size, top, side and bottom |
+
 ## B. Very close to done (works; one named step left)
 
 | # | What | State | The one step left |
@@ -36,7 +38,7 @@ This file is written to be handed to another AI. Paths are relative to the repo 
 
 | # | What | Notes |
 |---|---|---|
-| C1 | **The series logo / ring map image** (owner request, in progress now): one polished image with the completed original at the centre, outer rings in the original's colours, the eight stages named once, every tactic evenly spaced around the rings | After it is finished: use it in the intro's zoom figure and adapt it as the sector site's map (owner asked "if possible") |
+| C1 | **Put the finished logo to work** (the logo itself is done: see A11). Use it in the intro's zoom figure in place of the first version (B2), and adapt it as the sector site's interactive map (owner asked "if possible"). `design/fractal2/art/fractal2-logo.json` already holds the angle and radius of every tactic name for that | Not started: the owner asked to stop after the image |
 | C2 | **Independent review** against the rubrics (writing, experience, navigation) and a second iteration | Packet written; not dispatched |
 | C3 | **Test on a real phone** | Only headless browser tests so far. Needs a private preview link (a deploy: owner's decision) |
 | C4 | **PDFs in "take it with you"** | `ENT_combo_book.pdf` (39 MB) is in the owner's Drive, not in the repo; labels inside not checked. The page currently explains printing |
@@ -46,7 +48,7 @@ This file is written to be handed to another AI. Paths are relative to the repo 
 ## D. Test results on record
 
 - Intro: **31 of 31** (`node design/fractal2/verify_intro.mjs`).
-- Sector site: last full run **26 of 27**; the single miss was social-card images wiped by a rebuild, since fixed. A fresh run on the current build was started when this file was written; its result is appended below when it finishes.
+- Sector site: **27 of 27** on the current build, with the tag ledger applied (`node design/fractal-sector/verify.mjs ent`, 2026-11-10).
 - Author word-count round trip: exact on all 153 pattern pages, plus only the changes logged in the ledger.
 
 ## E. How to run
