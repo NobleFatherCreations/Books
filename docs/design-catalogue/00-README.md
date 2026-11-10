@@ -12,6 +12,7 @@ A master vocabulary of visual design, interaction and experience choices, so a b
 | `02-foundations.md` | Layout, grids, type, colour, imagery, illustration, icons, surfaces and effects, density, theming |
 | `03-motion-interaction-navigation.md` | Motion principles and techniques, scroll storytelling, interaction models, gestures, navigation, components, feedback, sound and haptics |
 | `04-experience-content-quality.md` | Mental models, emotional tone, content and voice, onboarding, search, forms, errors, trauma-informed and safety design, accessibility, performance, evaluation |
+| `06-master-names-bible.md` | **Start here for "what exists".** 56 categories of pure names: site genres, section types, hero types, nav, scroll techniques, page transitions, text effects, cursor and hover effects, 3D/shader effects, backgrounds, motion vocabulary, cinematic techniques, data-viz forms, design laws, dark patterns, tools, inspiration sources, 2025–26 emerging items |
 | `05-techniques.md` | Concrete web techniques (CSS, JS, SVG, canvas, WebGL, fonts, media) with a self-containment rating for this repo |
 
 Every item has an ID (`S-12`, `T-07`, `M-31`). Cite IDs in your design-direction document so choices are traceable.
