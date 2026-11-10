@@ -292,6 +292,32 @@ def summary(sector):
     print("wrote", rdir / "SUMMARY.md")
 
 
+def decisions(sector):
+    """Apply the director's recorded decisions (resolution/director-decisions.json) to the ledger."""
+    base, qf, sf, rdir = paths(sector)
+    dec = json.loads((rdir / "director-decisions.json").read_text())
+    ledger = json.loads((rdir / "ledger.json").read_text())
+    by = {e["q"]: e for e in ledger}
+    n = 0
+    for q in dec.get("keep_as_written", {}).get("q", []):
+        e = by[q]
+        if e.get("verdict") in REWRITES:
+            e.update(verdict="no-change", by="director", escalated=True, risk="low", reason=dec["keep_as_written"]["reason"], proposed={"after": e.get("after"), "patches": e.get("patches")})
+            e["after"] = None
+            e.pop("patches", None)
+            n += 1
+    for it in dec.get("drop_patch", {}).get("items", []):
+        e = by[it["q"]]
+        if e.get("patches"):
+            keep = [p for p in e["patches"] if p["before"] != it["before"]]
+            if len(keep) != len(e["patches"]):
+                e["patches"] = keep
+                e["reason"] = (e.get("reason", "") + " " + dec["drop_patch"]["reason"]).strip()
+                n += 1
+    (rdir / "ledger.json").write_text(json.dumps(ledger, indent=1, ensure_ascii=False))
+    print("director decisions applied:", n)
+
+
 if __name__ == "__main__":
     a = sys.argv[1:]
     sector, step = (a[0] if a else "ent"), (a[1] if len(a) > 1 else "classify")
@@ -301,3 +327,5 @@ if __name__ == "__main__":
         sys.exit(0 if check(sector, strict="--final" in a) else 1)
     elif step == "summary":
         summary(sector)
+    elif step == "decisions":
+        decisions(sector)

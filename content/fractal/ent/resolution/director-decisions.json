@@ -1,0 +1,11 @@
+{
+ "_about": "Director's review of the first model pass (2026-11-10). Applied to ledger.json by design/fractal-sector/resolve.py ent decisions, after the research worker has finished writing the ledger.",
+ "keep_as_written": {
+  "reason": "A figurative or aphoristic line in an explanatory section. It describes the pattern, makes no claim about a person and no checkable claim of fact, and the softer wording would change the author's meaning or flatten it. Left as written.",
+  "q": [27, 34, 143, 292, 507, 746, 783, 817, 845, 865, 875, 1044, 1152, 1310, 1367]
+ },
+ "drop_patch": {
+  "reason": "First of two rewordings is a figurative line and is left as written; the second (a claim about what a person will do) is softened as the author proposed.",
+  "items": [{"q": 886, "before": "the verdict arrives before the artist has finished breathing out"}]
+ }
+}
