@@ -93,3 +93,6 @@ The owner asked for analysis only, before any writing: what the original Fractal
 - **Finding:** the published Fractal holds 26 sector chapters. Technology, Dating, Surveillance and Child Welfare are on the thirty-sector list (`content/fractal2/sectors.json`) but have no page in `library/fractal/`. The public number 2,700 assumes thirty.
 - **Plan to read everything and extend the report:** `content/fractal2/work-packets/05-library-review.md`. New conversation, same repository. Not started.
 
+
+## J. Posted 2026-11-10
+Labels closed (8 open, original label visible), softenings and safety sentences approved by the owner, intro and Entertainment site deployed over the old prototype site: https://fractal-entertainment.netlify.app/fractal2 . Homepage proxy (noblefathercreations.com/fractal2) still waits for "deploy the homepage". See MEMORY.md for details.
