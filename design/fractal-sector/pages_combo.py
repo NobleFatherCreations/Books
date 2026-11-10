@@ -139,7 +139,8 @@ def combo_page(cx, c):
         else:
             inner = src(md(Sx[key], st))
         cls = ' class="way-out"' if key in WAY_OUT else ""
-        parts.append('<section id="%s"%s%s><h2>%s</h2>%s</section>' % (sid, cls, ma, esc(head), inner))
+        chip = (' <span class="tg tg-composite" title="%s">Composite</span>' % esc(S("scene_composite_tip"))) if key == "Cold Open" else ""
+        parts.append('<section id="%s"%s%s><h2>%s%s</h2>%s</section>' % (sid, cls, ma, esc(head), chip, inner))
         toc.append((sid, head, modes))
     body_html = "\n".join(parts)
 
@@ -164,6 +165,20 @@ def combo_page(cx, c):
         '<a class="nx" href="%s"><small>%s</small><b>%s</b></a>' % (cx.combo_url(nxt), esc(S("next_family")), esc(cx.combos[nxt]["name"])) if nxt else "<span></span>")
     modes = "".join('<button type="button" data-mode="%s" aria-pressed="%s">%s</button>' % (m, "true" if m == F else "false", esc(S(k)))
                     for m, k in ((Q, "mode_quick"), (SQ, "mode_seq"), (F, "mode_full")))
+    info = cx.res.get(c["combo_id"])
+    if info and info["resolved"] and not info["pending"]:
+        bits = [S(k, n=info[f]) for f, k in (("cited", "res_cited"), ("reworded", "res_reworded"), ("removed", "res_removed"), ("conditional", "res_cond")) if info[f]]
+        state_html = '<p class="state state-checked ui"><span class="chip">%s</span> %s %s <strong>%s</strong> <a href="#labels">%s</a></p>' % (
+            esc(S("state_checked_name")), esc(S("state_checked", date=cx.date)), esc(" ".join(bits) + (" " if bits else "") + S("res_scene")), esc(S("state_no_expert")), esc(S("labels_h")))
+        pending_legend = ""
+    else:
+        state_html = '<p class="state state-%s ui"><span class="chip">%s</span> %s <a href="#labels">%s</a></p>' % (st, STATE_NAME[st], esc(S("state_in_progress") if info and info["resolved"] else STATE_NOTE[st]), esc(S("labels_h")))
+        pending_legend = '<span class="tg tg-review">%s</span> and <span class="tg tg-source">%s</span> show where checking stands.' % (TAG_LABEL[("review", st)][0], TAG_LABEL[("source", st)][0])
+    fl = [cx.facts[f] for f in (info["facts"] if info else []) if f in cx.facts]
+    sources_html = ('<section id="sources" class="aside-sec sources"><h2>%s</h2><ul class="plain">%s</ul><p class="ui meta">%s</p></section>' % (
+        esc(S("sources_h")), "".join('<li><p>%s</p><p class="ui meta">%s</p></li>' % (esc(f["statement"]), " · ".join(
+            '<a href="%s" rel="noopener">%s</a> (%s)' % (esc(x["url"]), esc(x["title"]), esc(x["publisher"])) for x in f["sources"])) for f in fl),
+        esc(S("sources_note")))) if fl else ""
     body = f"""
 <article class="combo" id="combo" data-mode="full" data-step="{esc(S('step_of', n='{n}', total='{total}'))}" data-prev="{esc(S('prev'))}" data-next="{esc(S('next'))}" data-play="{esc(S('play'))}" data-pause="{esc(S('pause'))}" data-mode-seq="{esc(S('mode_seq'))}">
 <header class="phead">
@@ -172,7 +187,7 @@ def combo_page(cx, c):
   <p class="sub">{esc(cx.ph.get('in_industry', ''))}</p>
   {chain_html(cx, c)}
   <p class="times ui">{esc(S('min_quick', n=der['quick_min']))} · {esc(S('min_full', n=der['full_min']))}</p>
-  <p class="state state-{st} ui"><span class="chip">{STATE_NAME[st]}</span> {esc(STATE_NOTE[st])} <a href="#labels">{esc(S('labels_h'))}</a></p>
+  {state_html}
 </header>
 <div class="modes" role="group" aria-label="{esc(S('mode_label'))}">{modes}</div>
 <p class="print-only print-safety">{esc(S('safety_line'))}<br>{esc(S('print_from', url=CONFIG['origin'] + cx.u(c['slug']), date=cx.date))}</p>
@@ -184,11 +199,15 @@ def combo_page(cx, c):
 {cross_html}
 {shared_html}
 <section class="aside-sec"><h2>{esc(S('more_in', family=fam))}</h2><ul class="plain">{''.join('<li>%s</li>' % cx.combo_link(k) for k in sib)}</ul></section>
+{sources_html}
 <section id="labels" class="aside-sec legend"><h2>{esc(S('labels_h'))}</h2>
 <p><span class="tg tg-composite">Composite</span> a made-up example built from common situations; no real person is described.
 <span class="tg tg-pattern">Common pattern</span> widely reported in the industry, not a claim about any one company.
 <span class="tg tg-legal">Varies by place</span> law and contract practice differ by country and state.
-<span class="tg tg-review">{TAG_LABEL[('review', st)][0]}</span> and <span class="tg tg-source">{TAG_LABEL[('source', st)][0]}</span> show where checking stands.
+<span class="tg tg-cond">{esc(S('lab_cond'))}</span> {esc(S('lab_cond_tip'))}
+<span class="tg tg-cond">{esc(S('lab_qual'))}</span> {esc(S('lab_qual_tip'))}
+<span class="tg tg-cited">{esc(S('lab_cited'))}</span> {esc(S('lab_cited_tip'))}
+{pending_legend}
 <span class="slot">[X]</span> marks a blank for you to fill in.</p></section>
 {pn}
 </div></div>

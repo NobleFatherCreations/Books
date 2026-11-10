@@ -201,7 +201,7 @@ section{scroll-margin-top:calc(var(--top) + var(--3))}
 
 /* ---- stage band ---- */
 .stage-band{list-style:none;margin:var(--3) 0 0;padding:0;display:flex;gap:2px;font-family:var(--sans)}
-.stage-band li{flex:var(--g) 1 0;min-width:0}
+.stage-band li{flex:var(--g) 1 0;min-width:5.25rem}
 .stage-band a{display:flex;flex-direction:column;gap:4px;padding:var(--2) var(--1) var(--2) 0;text-decoration:none;min-height:44px;border-radius:2px;
   transition:color var(--d1) var(--ease)}
 .sb-rule{display:block;height:2px;background:var(--c);margin-bottom:var(--1)}
@@ -577,6 +577,26 @@ ul.map-seq{list-style:none;padding-left:0}
 .map-legend{list-style:none;margin:var(--3) 0 0;padding:0;display:grid;grid-template-columns:repeat(auto-fill,minmax(9rem,1fr));gap:4px var(--2);color:var(--ink-2)}
 .map-legend li{display:flex;align-items:center;gap:6px}
 @media (prefers-reduced-motion:reduce){.mt,.mc{transition:none}}
+
+/* ---- cover figure: the sector's map, small ---- */
+.cover-map{display:none}
+@media (min-width:72rem){
+  .cover{max-width:none;display:grid;grid-template-columns:minmax(0,1fr) 17rem;align-items:center;gap:0}
+  .cover-t{max-width:56rem}
+  .cover-map{display:block;justify-self:end;width:17rem;border-radius:50%;transition:transform var(--d3) var(--ease)}
+  .cover-map svg{display:block;width:100%;height:auto}
+  .cover-map:hover{transform:scale(1.03)}
+  .cover-map .mt{opacity:.9}.cover-map .mc{opacity:.55}
+}
+
+/* ---- resolved credibility labels and sources ---- */
+.tg-cond{border-color:var(--line-2);color:var(--ink-2)}
+a.tg-cited{border-color:var(--gold);color:var(--gold);text-decoration:none}
+a.tg-cited:hover{background:var(--gold-wash)}
+h2 .tg{vertical-align:middle;margin-left:var(--1)}
+.state-checked .chip{border-color:var(--gold);color:var(--gold)}
+.sources li{padding:var(--2) 0;border-bottom:1px solid var(--line)}
+.sources li p{margin:0 0 4px}
 </style>
 <script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "Article", "headline": "The Halo Shield in the music and entertainment industry", "name": "The Halo Shield in the music and entertainment industry", "description": "The Halo Shield: The Halo Shield is the sequence where a genuinely admired public image absorbs scrutiny, so that when a harm or discrepancy surfaces the…", "url": "https://noblefathercreations.com/fractal2/entertainment/the-halo-shield", "inLanguage": "en", "dateModified": "2026-11-10", "author": {"@type": "Person", "name": "Shae Stovell"}, "publisher": {"@type": "Organization", "name": "Noble Father Creations", "url": "https://noblefathercreations.com"}, "isPartOf": {"@type": "CollectionPage", "name": "Fractal²: Entertainment & Music Industry", "url": "https://noblefathercreations.com/fractal2/entertainment"}, "articleSection": "Accountability Evasion", "wordCount": 2758, "about": [{"@type": "DefinedTerm", "name": "Halo Effect Exploitation", "url": "https://noblefathercreations.com/fractal2/entertainment/tactic/halo-effect-exploitation"}, {"@type": "DefinedTerm", "name": "Confirmation Bias Exploitation", "url": "https://noblefathercreations.com/fractal2/entertainment/tactic/confirmation-bias-exploitation"}, {"@type": "DefinedTerm", "name": "Performative Allyship / False Solidarity", "url": "https://noblefathercreations.com/fractal2/entertainment/tactic/performative-allyship-false-solidarity"}, {"@type": "DefinedTerm", "name": "Moral Licensing / Strategic Philanthropy", "url": "https://noblefathercreations.com/fractal2/entertainment/tactic/moral-licensing-strategic-philanthropy"}, {"@type": "DefinedTerm", "name": "Blame-Shifting", "url": "https://noblefathercreations.com/fractal2/entertainment/tactic/blame-shifting"}]}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Fractal²", "item": "https://noblefathercreations.com/fractal2"}, {"@type": "ListItem", "position": 2, "name": "Entertainment & Music", "item": "https://noblefathercreations.com/fractal2/entertainment"}, {"@type": "ListItem", "position": 3, "name": "Accountability Evasion", "item": "https://noblefathercreations.com/fractal2/entertainment/family-accountability-evasion"}, {"@type": "ListItem", "position": 4, "name": "The Halo Shield", "item": "https://noblefathercreations.com/fractal2/entertainment/the-halo-shield"}]}]}</script>
 </head>
@@ -602,14 +622,14 @@ ul.map-seq{list-style:none;padding-left:0}
   <p class="sub">in the music and entertainment industry</p>
   <ol class="chain" aria-label="The tactics in this pattern, in order"><li><span class="sd" style="--c:var(--s2)" aria-hidden="true"></span><a href="/fractal2/entertainment/tactic/halo-effect-exploitation">Halo Effect Exploitation</a><span class="ch-s">stage 2</span></li><li><span class="sd" style="--c:var(--s2)" aria-hidden="true"></span><a href="/fractal2/entertainment/tactic/confirmation-bias-exploitation">Confirmation Bias Exploitation</a><span class="ch-s">stage 2</span></li><li><span class="sd" style="--c:var(--s1)" aria-hidden="true"></span><a href="/fractal2/entertainment/tactic/performative-allyship-false-solidarity">Performative Allyship / False Solidarity</a><span class="ch-s">stage 1</span></li><li><span class="sd" style="--c:var(--s6)" aria-hidden="true"></span><a href="/fractal2/entertainment/tactic/moral-licensing-strategic-philanthropy">Moral Licensing / Strategic Philanthropy</a><span class="ch-s">stage 6</span></li><li><span class="sd" style="--c:var(--s4)" aria-hidden="true"></span><a href="/fractal2/entertainment/tactic/blame-shifting">Blame-Shifting</a><span class="ch-s">stage 4</span></li></ol>
   <p class="times ui">Quick read 5 min · full pattern 13 min</p>
-  <p class="state state-unreviewed ui"><span class="chip">Unreviewed draft</span> Written with care, not yet checked by an industry expert. Labels in the text show which points are still being checked. <a href="#labels">What the labels mean</a></p>
+  <p class="state state-unreviewed ui"><span class="chip">Unreviewed draft</span> Source checking is in progress for this page. Labels in the text show which points are still being checked. <a href="#labels">What the labels mean</a></p>
 </header>
 <div class="modes" role="group" aria-label="Reading mode"><button type="button" data-mode="quick" aria-pressed="false">Quick read</button><button type="button" data-mode="seq" aria-pressed="false">The sequence</button><button type="button" data-mode="full" aria-pressed="true">Full pattern</button></div>
 <p class="print-only print-safety">If anyone is in danger, contact emergency services. If a child is involved, contact child protection.<br>Printed from https://noblefathercreations.com/fractal2/entertainment/the-halo-shield · updated 2026-11-10</p>
 <div class="combo-grid">
 <aside class="toc"><details open><summary>On this page</summary><ol><li data-m="full"><a href="#the-scene">The scene</a></li><li data-m="quick full"><a href="#what-it-is">What it is</a></li><li data-m="quick seq full"><a href="#the-tactics-in-order">The tactics, in order</a></li><li data-m="seq full"><a href="#why-this-order">Why this order</a></li><li data-m="full"><a href="#levels">One pattern, three altitudes</a></li><li data-m="full"><a href="#what-you-might-notice">What you might notice</a></li><li data-m="quick full"><a href="#spot-it">Spot it</a></li><li data-m="full"><a href="#before-you-read-too-much-into-it">Before you read too much into it</a></li><li data-m="full"><a href="#what-to-keep">What to keep</a></li><li data-m="quick full"><a href="#what-breaks-the-chain">What breaks the chain</a></li><li data-m="quick full"><a href="#when-to-get-help-and-where">When to get help, and where</a></li><li data-m="quick full"><a href="#words-you-could-use">Words you could use</a></li><li><a href="#tactics">The tactics in it</a></li></ol></details></aside>
 <div class="combo-body">
-<section id="the-scene" data-m="full"><h2>The scene</h2><div class="prose scene" data-src><p class="first">You&#x27;re a volunteer coordinator, thirty-five, and for six years you have run the people side of the benefit concert for a star everyone loves. You do it for expenses and a lanyard. You do it because the cause is real, and because once a year you get to stand backstage at a gala and watch a very famous person be kind.</p>
+<section id="the-scene" data-m="full"><h2>The scene <span class="tg tg-composite" title="A made-up example built from common situations. No real person is described.">Composite</span></h2><div class="prose scene" data-src><p class="first">You&#x27;re a volunteer coordinator, thirty-five, and for six years you have run the people side of the benefit concert for a star everyone loves. You do it for expenses and a lanyard. You do it because the cause is real, and because once a year you get to stand backstage at a gala and watch a very famous person be kind.</p>
 <p>And she is kind. That is the first thing to understand, because nothing that follows works unless it is true. You have seen her learn the names of forty volunteers by the second hour. You have seen her slip a cheque into an envelope for a stagehand&#x27;s family and ask you not to mention it. Tonight, at the gala, she walks the whole length of the green room and thanks the catering staff individually. A man from the cause cries during her speech.</p>
 <p>The program is on every seat. Heavy paper, her photograph on the cover, and on the inside back page a thank-you panel and a donation report: a clean table of what the evening raised over the years, what she personally pledged, and what the cause received. You helped proofread it.</p>
 <p>You also noticed something in it, in the spring. The figure the host announced from the stage in the first half did not match the figure in the &quot;distributed to the cause&quot; column. The gap was not enormous. It could have been timing, or fees, or a pledge counted before it was paid. You asked Marcus, the operations associate who built the report, and he said he would look. You asked once more, politely, in writing. Then he stopped answering, and in the autumn he left, and nobody told you why.</p>
@@ -650,10 +670,14 @@ ul.map-seq{list-style:none;padding-left:0}
 
 <section class="aside-sec"><h2>Patterns that share its tactics</h2><ul class="plain"><li><a href="/fractal2/entertainment/the-performative-ally">The Performative Ally</a> <span class="meta">1 shared</span></li><li><a href="/fractal2/entertainment/the-weaponized-gift-economy">The Weaponized Gift Economy</a> <span class="meta">1 shared</span></li></ul></section>
 <section class="aside-sec"><h2>More in Accountability Evasion</h2><ul class="plain"><li><a href="/fractal2/entertainment/the-blame-reversal-engine">The Blame Reversal Engine</a></li><li><a href="/fractal2/entertainment/the-investigation-theater">The Investigation Theater</a></li><li><a href="/fractal2/entertainment/the-circular-referral-loop">The Circular Referral Loop</a></li><li><a href="/fractal2/entertainment/the-paper-trail-fabrication">The Paper Trail Fabrication</a></li><li><a href="/fractal2/entertainment/the-policy-shield">The Policy Shield</a></li><li><a href="/fractal2/entertainment/the-scapegoat-funnel">The Scapegoat Funnel</a></li></ul></section>
+
 <section id="labels" class="aside-sec legend"><h2>What the labels mean</h2>
 <p><span class="tg tg-composite">Composite</span> a made-up example built from common situations; no real person is described.
 <span class="tg tg-pattern">Common pattern</span> widely reported in the industry, not a claim about any one company.
 <span class="tg tg-legal">Varies by place</span> law and contract practice differ by country and state.
+<span class="tg tg-cond">Depends on the terms</span> The outcome turns on the written terms and on independent advice. No general claim is made.
+<span class="tg tg-cond">Ask a qualified person</span> A legal, health or safety question for someone qualified where you live.
+<span class="tg tg-cited">Source checked</span> Checked against a published source, listed at the foot of the page.
 <span class="tg tg-review">Awaiting expert review</span> and <span class="tg tg-source">Source being checked</span> show where checking stands.
 <span class="slot">[X]</span> marks a blank for you to fill in.</p></section>
 <nav class="pn" aria-label="Accountability Evasion"><a href="/fractal2/entertainment/the-economics-obfuscation-layer"><small>Previous in this family</small><b>The Economics Obfuscation Layer</b></a><a class="nx" href="/fractal2/entertainment/the-wall"><small>Next in this family</small><b>The Wall</b></a></nav>

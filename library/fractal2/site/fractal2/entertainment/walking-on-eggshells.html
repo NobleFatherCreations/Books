@@ -201,7 +201,7 @@ section{scroll-margin-top:calc(var(--top) + var(--3))}
 
 /* ---- stage band ---- */
 .stage-band{list-style:none;margin:var(--3) 0 0;padding:0;display:flex;gap:2px;font-family:var(--sans)}
-.stage-band li{flex:var(--g) 1 0;min-width:0}
+.stage-band li{flex:var(--g) 1 0;min-width:5.25rem}
 .stage-band a{display:flex;flex-direction:column;gap:4px;padding:var(--2) var(--1) var(--2) 0;text-decoration:none;min-height:44px;border-radius:2px;
   transition:color var(--d1) var(--ease)}
 .sb-rule{display:block;height:2px;background:var(--c);margin-bottom:var(--1)}
@@ -577,6 +577,26 @@ ul.map-seq{list-style:none;padding-left:0}
 .map-legend{list-style:none;margin:var(--3) 0 0;padding:0;display:grid;grid-template-columns:repeat(auto-fill,minmax(9rem,1fr));gap:4px var(--2);color:var(--ink-2)}
 .map-legend li{display:flex;align-items:center;gap:6px}
 @media (prefers-reduced-motion:reduce){.mt,.mc{transition:none}}
+
+/* ---- cover figure: the sector's map, small ---- */
+.cover-map{display:none}
+@media (min-width:72rem){
+  .cover{max-width:none;display:grid;grid-template-columns:minmax(0,1fr) 17rem;align-items:center;gap:0}
+  .cover-t{max-width:56rem}
+  .cover-map{display:block;justify-self:end;width:17rem;border-radius:50%;transition:transform var(--d3) var(--ease)}
+  .cover-map svg{display:block;width:100%;height:auto}
+  .cover-map:hover{transform:scale(1.03)}
+  .cover-map .mt{opacity:.9}.cover-map .mc{opacity:.55}
+}
+
+/* ---- resolved credibility labels and sources ---- */
+.tg-cond{border-color:var(--line-2);color:var(--ink-2)}
+a.tg-cited{border-color:var(--gold);color:var(--gold);text-decoration:none}
+a.tg-cited:hover{background:var(--gold-wash)}
+h2 .tg{vertical-align:middle;margin-left:var(--1)}
+.state-checked .chip{border-color:var(--gold);color:var(--gold)}
+.sources li{padding:var(--2) 0;border-bottom:1px solid var(--line)}
+.sources li p{margin:0 0 4px}
 </style>
 <script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "Article", "headline": "Walking on Eggshells in the music and entertainment industry", "name": "Walking on Eggshells in the music and entertainment industry", "description": "Walking on Eggshells: Walking on Eggshells is the sequence where an unpredictable atmosphere trains the people around it to monitor and manage one person's…", "url": "https://noblefathercreations.com/fractal2/entertainment/walking-on-eggshells", "inLanguage": "en", "dateModified": "2026-11-10", "author": {"@type": "Person", "name": "Shae Stovell"}, "publisher": {"@type": "Organization", "name": "Noble Father Creations", "url": "https://noblefathercreations.com"}, "isPartOf": {"@type": "CollectionPage", "name": "Fractal²: Entertainment & Music Industry", "url": "https://noblefathercreations.com/fractal2/entertainment"}, "articleSection": "Conditioning & Behavioral Shaping", "wordCount": 2529, "about": [{"@type": "DefinedTerm", "name": "Ambient Abuse", "url": "https://noblefathercreations.com/fractal2/entertainment/tactic/ambient-abuse-atmosphere-control"}, {"@type": "DefinedTerm", "name": "Intermittent Reinforcement", "url": "https://noblefathercreations.com/fractal2/entertainment/tactic/intermittent-reinforcement-push-pull"}, {"@type": "DefinedTerm", "name": "Baiting", "url": "https://noblefathercreations.com/fractal2/entertainment/tactic/baiting"}, {"@type": "DefinedTerm", "name": "Punishment of Boundaries", "url": "https://noblefathercreations.com/fractal2/entertainment/tactic/punishment-of-boundaries"}, {"@type": "DefinedTerm", "name": "Push-Pull", "url": "https://noblefathercreations.com/fractal2/entertainment/tactic/intermittent-reinforcement-push-pull"}, {"@type": "DefinedTerm", "name": "Dr. Jekyll/Mr. Hyde", "url": "https://noblefathercreations.com/fractal2/entertainment/tactic/performative-public-affection-dr-jekyll-and-mr-hyde"}]}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Fractal²", "item": "https://noblefathercreations.com/fractal2"}, {"@type": "ListItem", "position": 2, "name": "Entertainment & Music", "item": "https://noblefathercreations.com/fractal2/entertainment"}, {"@type": "ListItem", "position": 3, "name": "Conditioning & Behavioral Shaping", "item": "https://noblefathercreations.com/fractal2/entertainment/family-conditioning-and-behavioral-shaping"}, {"@type": "ListItem", "position": 4, "name": "Walking on Eggshells", "item": "https://noblefathercreations.com/fractal2/entertainment/walking-on-eggshells"}]}]}</script>
 </head>
@@ -602,14 +622,14 @@ ul.map-seq{list-style:none;padding-left:0}
   <p class="sub">in the music and entertainment industry</p>
   <ol class="chain" aria-label="The tactics in this pattern, in order"><li><span class="sd" style="--c:var(--s4)" aria-hidden="true"></span><a href="/fractal2/entertainment/tactic/ambient-abuse-atmosphere-control">Ambient Abuse</a><span class="ch-s">stage 4</span></li><li><span class="sd" style="--c:var(--s3)" aria-hidden="true"></span><a href="/fractal2/entertainment/tactic/intermittent-reinforcement-push-pull">Intermittent Reinforcement</a><span class="ch-s">stage 3</span></li><li><span class="sd" style="--c:var(--s3)" aria-hidden="true"></span><a href="/fractal2/entertainment/tactic/baiting">Baiting</a><span class="ch-s">stage 3</span></li><li><span class="sd" style="--c:var(--s3)" aria-hidden="true"></span><a href="/fractal2/entertainment/tactic/punishment-of-boundaries">Punishment of Boundaries</a><span class="ch-s">stage 3</span></li><li><span class="sd" style="--c:var(--s3)" aria-hidden="true"></span><a href="/fractal2/entertainment/tactic/intermittent-reinforcement-push-pull">Push-Pull</a><span class="ch-s">stage 3</span></li><li><span class="sd" style="--c:var(--s1)" aria-hidden="true"></span><a href="/fractal2/entertainment/tactic/performative-public-affection-dr-jekyll-and-mr-hyde">Dr. Jekyll/Mr. Hyde</a><span class="ch-s">stage 1</span></li></ol>
   <p class="times ui">Quick read 5 min · full pattern 12 min</p>
-  <p class="state state-unreviewed ui"><span class="chip">Unreviewed draft</span> Written with care, not yet checked by an industry expert. Labels in the text show which points are still being checked. <a href="#labels">What the labels mean</a></p>
+  <p class="state state-unreviewed ui"><span class="chip">Unreviewed draft</span> Source checking is in progress for this page. Labels in the text show which points are still being checked. <a href="#labels">What the labels mean</a></p>
 </header>
 <div class="modes" role="group" aria-label="Reading mode"><button type="button" data-mode="quick" aria-pressed="false">Quick read</button><button type="button" data-mode="seq" aria-pressed="false">The sequence</button><button type="button" data-mode="full" aria-pressed="true">Full pattern</button></div>
 <p class="print-only print-safety">If anyone is in danger, contact emergency services. If a child is involved, contact child protection.<br>Printed from https://noblefathercreations.com/fractal2/entertainment/walking-on-eggshells · updated 2026-11-10</p>
 <div class="combo-grid">
 <aside class="toc"><details open><summary>On this page</summary><ol><li data-m="full"><a href="#the-scene">The scene</a></li><li data-m="quick full"><a href="#what-it-is">What it is</a></li><li data-m="quick seq full"><a href="#the-tactics-in-order">The tactics, in order</a></li><li data-m="seq full"><a href="#why-this-order">Why this order</a></li><li data-m="full"><a href="#levels">One pattern, three altitudes</a></li><li data-m="full"><a href="#what-you-might-notice">What you might notice</a></li><li data-m="quick full"><a href="#spot-it">Spot it</a></li><li data-m="full"><a href="#before-you-read-too-much-into-it">Before you read too much into it</a></li><li data-m="full"><a href="#what-to-keep">What to keep</a></li><li data-m="quick full"><a href="#what-breaks-the-chain">What breaks the chain</a></li><li data-m="quick full"><a href="#when-to-get-help-and-where">When to get help, and where</a></li><li data-m="quick full"><a href="#words-you-could-use">Words you could use</a></li><li><a href="#tactics">The tactics in it</a></li></ol></details></aside>
 <div class="combo-body">
-<section id="the-scene" data-m="full"><h2>The scene</h2><div class="prose scene" data-src><p class="first">You&#x27;re a road manager, forty-two, and your real job on this tour is weather. The itinerary says you run logistics for a headliner and a crew of thirty. In practice you forecast one person&#x27;s mood, and you have become very good at it.</p>
+<section id="the-scene" data-m="full"><h2>The scene <span class="tg tg-composite" title="A made-up example built from common situations. No real person is described.">Composite</span></h2><div class="prose scene" data-src><p class="first">You&#x27;re a road manager, forty-two, and your real job on this tour is weather. The itinerary says you run logistics for a headliner and a crew of thirty. In practice you forecast one person&#x27;s mood, and you have become very good at it.</p>
 <p>You do it from the seat by the bus door, with a coffee going cold in the cupholder, reading the day before it arrives. How did the last show end? Who left the dressing room first? Did the headliner say your name warmly at breakfast, or just &quot;morning&quot;? Were the sunglasses on indoors? You are not a fearful person. You have driven a tour through a blizzard. But you have learned that the mood arrives before the person does, and your job is to be there first.</p>
 <p>The run-of-show sits in a binder in your lap. It is a normal document: load-in, soundcheck, meet-and-greet, doors, set, load-out. Except that, in your own pencil, in the margins, are small annotations only you can read. A circle means a good day. A square means be careful. A triangle means do not bring up the merch numbers. A tiny exclamation point beside the soundcheck line means the headliner is likely to question every decision in front of the band. Over three months the pencil has grown into a system, and you have started to dread an unmarked page, because it means you do not know.</p>
 <p>Tonight is a venue production office with a flickering fluorescent tube and a whiteboard of curfews. The headliner arrives early and says, kindly, &quot;You&#x27;re the only one who gets it, you know that?&quot; and for twenty minutes you are the most important person in the building. You feel the sting of gratitude behind your eyes. You are given a task: find a vegan caterer at four o&#x27;clock for a show that starts at eight.</p>
@@ -648,10 +668,14 @@ ul.map-seq{list-style:none;padding-left:0}
 
 <section class="aside-sec"><h2>Patterns that share its tactics</h2><ul class="plain"><li><a href="/fractal2/entertainment/learned-silence">Learned Silence</a> <span class="meta">3 shared</span></li><li><a href="/fractal2/entertainment/the-compliance-engine">The Compliance Engine</a> <span class="meta">2 shared</span></li><li><a href="/fractal2/entertainment/the-loyalty-test">The Loyalty Test</a> <span class="meta">2 shared</span></li><li><a href="/fractal2/entertainment/concern-masking">Concern Masking</a> <span class="meta">1 shared</span></li><li><a href="/fractal2/entertainment/grooming">Grooming</a> <span class="meta">1 shared</span></li><li><a href="/fractal2/entertainment/obedience-training">Obedience Training</a> <span class="meta">1 shared</span></li></ul></section>
 <section class="aside-sec"><h2>More in Conditioning &amp; Behavioral Shaping</h2><ul class="plain"><li><a href="/fractal2/entertainment/pavlovian-conditioning">Pavlovian Conditioning</a></li><li><a href="/fractal2/entertainment/obedience-training">Obedience Training</a></li><li><a href="/fractal2/entertainment/the-frog-in-boiling-water">The Frog in Boiling Water</a></li><li><a href="/fractal2/entertainment/learned-silence">Learned Silence</a></li><li><a href="/fractal2/entertainment/the-impossible-standard">The Impossible Standard</a></li><li><a href="/fractal2/entertainment/the-rigged-game">The Rigged Game</a></li></ul></section>
+
 <section id="labels" class="aside-sec legend"><h2>What the labels mean</h2>
 <p><span class="tg tg-composite">Composite</span> a made-up example built from common situations; no real person is described.
 <span class="tg tg-pattern">Common pattern</span> widely reported in the industry, not a claim about any one company.
 <span class="tg tg-legal">Varies by place</span> law and contract practice differ by country and state.
+<span class="tg tg-cond">Depends on the terms</span> The outcome turns on the written terms and on independent advice. No general claim is made.
+<span class="tg tg-cond">Ask a qualified person</span> A legal, health or safety question for someone qualified where you live.
+<span class="tg tg-cited">Source checked</span> Checked against a published source, listed at the foot of the page.
 <span class="tg tg-review">Awaiting expert review</span> and <span class="tg tg-source">Source being checked</span> show where checking stands.
 <span class="slot">[X]</span> marks a blank for you to fill in.</p></section>
 <nav class="pn" aria-label="Conditioning &amp; Behavioral Shaping"><a href="/fractal2/entertainment/obedience-training"><small>Previous in this family</small><b>Obedience Training</b></a><a class="nx" href="/fractal2/entertainment/the-frog-in-boiling-water"><small>Next in this family</small><b>The Frog in Boiling Water</b></a></nav>

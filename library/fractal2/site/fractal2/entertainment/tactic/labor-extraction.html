@@ -201,7 +201,7 @@ section{scroll-margin-top:calc(var(--top) + var(--3))}
 
 /* ---- stage band ---- */
 .stage-band{list-style:none;margin:var(--3) 0 0;padding:0;display:flex;gap:2px;font-family:var(--sans)}
-.stage-band li{flex:var(--g) 1 0;min-width:0}
+.stage-band li{flex:var(--g) 1 0;min-width:5.25rem}
 .stage-band a{display:flex;flex-direction:column;gap:4px;padding:var(--2) var(--1) var(--2) 0;text-decoration:none;min-height:44px;border-radius:2px;
   transition:color var(--d1) var(--ease)}
 .sb-rule{display:block;height:2px;background:var(--c);margin-bottom:var(--1)}
@@ -577,6 +577,26 @@ ul.map-seq{list-style:none;padding-left:0}
 .map-legend{list-style:none;margin:var(--3) 0 0;padding:0;display:grid;grid-template-columns:repeat(auto-fill,minmax(9rem,1fr));gap:4px var(--2);color:var(--ink-2)}
 .map-legend li{display:flex;align-items:center;gap:6px}
 @media (prefers-reduced-motion:reduce){.mt,.mc{transition:none}}
+
+/* ---- cover figure: the sector's map, small ---- */
+.cover-map{display:none}
+@media (min-width:72rem){
+  .cover{max-width:none;display:grid;grid-template-columns:minmax(0,1fr) 17rem;align-items:center;gap:0}
+  .cover-t{max-width:56rem}
+  .cover-map{display:block;justify-self:end;width:17rem;border-radius:50%;transition:transform var(--d3) var(--ease)}
+  .cover-map svg{display:block;width:100%;height:auto}
+  .cover-map:hover{transform:scale(1.03)}
+  .cover-map .mt{opacity:.9}.cover-map .mc{opacity:.55}
+}
+
+/* ---- resolved credibility labels and sources ---- */
+.tg-cond{border-color:var(--line-2);color:var(--ink-2)}
+a.tg-cited{border-color:var(--gold);color:var(--gold);text-decoration:none}
+a.tg-cited:hover{background:var(--gold-wash)}
+h2 .tg{vertical-align:middle;margin-left:var(--1)}
+.state-checked .chip{border-color:var(--gold);color:var(--gold)}
+.sources li{padding:var(--2) 0;border-bottom:1px solid var(--line)}
+.sources li p{margin:0 0 4px}
 </style>
 <script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "DefinedTerm", "headline": "Labor Extraction", "name": "Labor Extraction", "description": "Labor Extraction: Work, time, care or personal money beyond what was agreed or paid is expected and uncounted, often because the role has grown too big or…", "url": "https://noblefathercreations.com/fractal2/entertainment/tactic/labor-extraction", "inLanguage": "en", "dateModified": "2026-11-10", "author": {"@type": "Person", "name": "Shae Stovell"}, "publisher": {"@type": "Organization", "name": "Noble Father Creations", "url": "https://noblefathercreations.com"}, "isPartOf": {"@type": "CollectionPage", "name": "Fractal²: Entertainment & Music Industry", "url": "https://noblefathercreations.com/fractal2/entertainment"}, "termCode": "S6-112", "inDefinedTermSet": "https://noblefathercreations.com/fractal2/entertainment/stage-control"}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Fractal²", "item": "https://noblefathercreations.com/fractal2"}, {"@type": "ListItem", "position": 2, "name": "Entertainment & Music", "item": "https://noblefathercreations.com/fractal2/entertainment"}, {"@type": "ListItem", "position": 3, "name": "All tactics", "item": "https://noblefathercreations.com/fractal2/entertainment/tactics"}, {"@type": "ListItem", "position": 4, "name": "Extract · Control", "item": "https://noblefathercreations.com/fractal2/entertainment/stage-control"}, {"@type": "ListItem", "position": 5, "name": "Labor Extraction", "item": "https://noblefathercreations.com/fractal2/entertainment/tactic/labor-extraction"}]}]}</script>
 </head>

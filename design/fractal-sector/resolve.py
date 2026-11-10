@@ -188,22 +188,46 @@ def check(sector, strict=True):
     return not bad
 
 
+def _key(t):
+    return re.sub(r"\s+", " ", re.sub(r"\[[^\[\]\n]{1,120}\]", " ", t)).strip()
+
+
+def _swap_block(text, before, fn):
+    """Find the block of `text` that is `before` (ignoring bracket tokens and spacing) and replace it with fn(block)."""
+    if before in text:
+        return text.replace(before, fn(before), 1), True
+    k = _key(before)
+    if not k:
+        return text, False
+    for b in blocks(text):
+        if _key(b) == k or (len(k) > 40 and k in _key(b)):
+            return text.replace(b, fn(b), 1), True
+    return text, False
+
+
 def apply_ledger(data, sector):
-    """Called by build.py. Rewrites section text in memory; returns ({combo_id: word delta}, per-combo resolution info)."""
+    """Called by the build. Rewrites section text in memory and swaps resolved tags for reader labels.
+    Returns ({combo_id: word delta}, {combo_id: counts + fact ids + pending}, facts)."""
     ledger, facts = load(sector)
     combos = {c["combo_id"]: c for c in data["combos"]}
     delta, info = collections.Counter(), {}
     wc = lambda s: len(re.findall(r"\S+", re.sub(r"\[[^\[\]\n]{1,120}\]", " ", s)))
+    blank = lambda: {"cited": 0, "reworded": 0, "removed": 0, "conditional": 0, "pending": 0, "resolved": 0, "facts": []}
     for e in ledger:
         c = combos.get(e["combo_id"])
-        if not c or not e.get("verdict"):
+        if not c:
             continue
-        d = info.setdefault(e["combo_id"], {"cited": 0, "reworded": 0, "removed": 0, "conditional": 0, "pending": 0, "facts": [], "labels": {}})
-        v = e["verdict"]
+        d = info.setdefault(e["combo_id"], blank())
+        v = e.get("verdict")
+        if not v or v == "escalate":
+            d["pending"] += 1
+            continue
+        d["resolved"] += 1
         for sec, before, after in patches_of(e):
             txt = c["sections"].get(sec, "")
-            if before in txt:
-                c["sections"][sec] = txt.replace(before, after, 1)
+            new, ok = _swap_block(txt, before, lambda b, a=after, bf=before: b.replace(bf, a, 1) if bf in b else a)
+            if ok:
+                c["sections"][sec] = new
                 delta[e["combo_id"]] += wc(after) - wc(before)
         if v == "keep-cited":
             d["cited"] += 1
@@ -213,16 +237,23 @@ def apply_ledger(data, sector):
             d["removed"] += 1
         elif v == "keep-conditional":
             d["conditional"] += 1
-        if e.get("fact") and e["fact"] in facts and e["fact"] not in d["facts"]:
-            d["facts"].append(e["fact"])
+        fact = e.get("fact") if e.get("fact") in facts and facts[e["fact"]].get("sources") else None
+        if fact and fact not in d["facts"]:
+            d["facts"].append(fact)
         if e["kind"] in ("review", "source") and e.get("before"):
-            lab = {"keep-conditional": e.get("label", "Depends on the terms"), "keep-cited": "Source checked"}.get(v)
-            if v == "generalize" and e.get("fact"):
-                lab = "Source checked"
-            d["labels"][(e["section"], (e.get("after") if v in REWRITES else e["before"]) or "")[:2] + ("",)] = lab
-    for e in ledger:
-        if not e.get("verdict") and e["combo_id"] in combos:
-            info.setdefault(e["combo_id"], {"cited": 0, "reworded": 0, "removed": 0, "conditional": 0, "pending": 0, "facts": [], "labels": {}})["pending"] += 1
+            raw = "[%s]" % e["tag"]
+            if v == "keep-conditional":
+                tok = "[~%s:%s]" % ("q" if e.get("label") == "Ask a qualified person" else "c", e.get("label", "Depends on the terms"))
+            elif fact and v in ("keep-cited", "generalize"):
+                tok = "[~s:%s]" % fact
+            else:
+                tok = ""
+            target = e["after"] if (v in REWRITES and e.get("after")) else e["before"]
+            sec = e.get("patch_section", e["section"])
+            txt = c["sections"].get(sec, "")
+            new, ok = _swap_block(txt, target, lambda b, raw=raw, tok=tok: b.replace(raw, tok, 1))
+            if ok:
+                c["sections"][sec] = new
     return dict(delta), info, facts
 
 

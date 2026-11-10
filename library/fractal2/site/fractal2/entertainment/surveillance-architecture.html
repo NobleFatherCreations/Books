@@ -201,7 +201,7 @@ section{scroll-margin-top:calc(var(--top) + var(--3))}
 
 /* ---- stage band ---- */
 .stage-band{list-style:none;margin:var(--3) 0 0;padding:0;display:flex;gap:2px;font-family:var(--sans)}
-.stage-band li{flex:var(--g) 1 0;min-width:0}
+.stage-band li{flex:var(--g) 1 0;min-width:5.25rem}
 .stage-band a{display:flex;flex-direction:column;gap:4px;padding:var(--2) var(--1) var(--2) 0;text-decoration:none;min-height:44px;border-radius:2px;
   transition:color var(--d1) var(--ease)}
 .sb-rule{display:block;height:2px;background:var(--c);margin-bottom:var(--1)}
@@ -577,6 +577,26 @@ ul.map-seq{list-style:none;padding-left:0}
 .map-legend{list-style:none;margin:var(--3) 0 0;padding:0;display:grid;grid-template-columns:repeat(auto-fill,minmax(9rem,1fr));gap:4px var(--2);color:var(--ink-2)}
 .map-legend li{display:flex;align-items:center;gap:6px}
 @media (prefers-reduced-motion:reduce){.mt,.mc{transition:none}}
+
+/* ---- cover figure: the sector's map, small ---- */
+.cover-map{display:none}
+@media (min-width:72rem){
+  .cover{max-width:none;display:grid;grid-template-columns:minmax(0,1fr) 17rem;align-items:center;gap:0}
+  .cover-t{max-width:56rem}
+  .cover-map{display:block;justify-self:end;width:17rem;border-radius:50%;transition:transform var(--d3) var(--ease)}
+  .cover-map svg{display:block;width:100%;height:auto}
+  .cover-map:hover{transform:scale(1.03)}
+  .cover-map .mt{opacity:.9}.cover-map .mc{opacity:.55}
+}
+
+/* ---- resolved credibility labels and sources ---- */
+.tg-cond{border-color:var(--line-2);color:var(--ink-2)}
+a.tg-cited{border-color:var(--gold);color:var(--gold);text-decoration:none}
+a.tg-cited:hover{background:var(--gold-wash)}
+h2 .tg{vertical-align:middle;margin-left:var(--1)}
+.state-checked .chip{border-color:var(--gold);color:var(--gold)}
+.sources li{padding:var(--2) 0;border-bottom:1px solid var(--line)}
+.sources li p{margin:0 0 4px}
 </style>
 <script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "Article", "headline": "Surveillance Architecture in the music and entertainment industry", "name": "Surveillance Architecture in the music and entertainment industry", "description": "Surveillance Architecture: Surveillance Architecture is the sequence where private speech is captured under a vague disclosure, mined for vulnerabilities and…", "url": "https://noblefathercreations.com/fractal2/entertainment/surveillance-architecture", "inLanguage": "en", "dateModified": "2026-11-10", "author": {"@type": "Person", "name": "Shae Stovell"}, "publisher": {"@type": "Organization", "name": "Noble Father Creations", "url": "https://noblefathercreations.com"}, "isPartOf": {"@type": "CollectionPage", "name": "Fractal²: Entertainment & Music Industry", "url": "https://noblefathercreations.com/fractal2/entertainment"}, "articleSection": "Digital & Technological", "wordCount": 2752, "about": [{"@type": "DefinedTerm", "name": "Buried Consent Disclosure", "url": "https://noblefathercreations.com/fractal2/entertainment/tactic/buried-consent"}, {"@type": "DefinedTerm", "name": "Data Harvesting", "url": "https://noblefathercreations.com/fractal2/entertainment/tactic/data-harvesting"}, {"@type": "DefinedTerm", "name": "Non-Consensual Distribution", "url": "https://noblefathercreations.com/fractal2/entertainment/tactic/data-onward-sharing"}, {"@type": "DefinedTerm", "name": "Selective Deployment", "url": "https://noblefathercreations.com/fractal2/entertainment/tactic/blackmail-leverage-exploitation"}]}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Fractal²", "item": "https://noblefathercreations.com/fractal2"}, {"@type": "ListItem", "position": 2, "name": "Entertainment & Music", "item": "https://noblefathercreations.com/fractal2/entertainment"}, {"@type": "ListItem", "position": 3, "name": "Digital & Technological", "item": "https://noblefathercreations.com/fractal2/entertainment/family-digital-and-technological"}, {"@type": "ListItem", "position": 4, "name": "Surveillance Architecture", "item": "https://noblefathercreations.com/fractal2/entertainment/surveillance-architecture"}]}]}</script>
 </head>
@@ -602,14 +622,14 @@ ul.map-seq{list-style:none;padding-left:0}
   <p class="sub">in the music and entertainment industry</p>
   <ol class="chain" aria-label="The tactics in this pattern, in order"><li><span class="sd" style="--c:var(--s2)" aria-hidden="true"></span><a href="/fractal2/entertainment/tactic/buried-consent">Buried Consent Disclosure</a><span class="ch-s">stage 2</span></li><li><span class="sd sd-o" aria-hidden="true"></span>Covert Recording</li><li><span class="sd" style="--c:var(--s6)" aria-hidden="true"></span><a href="/fractal2/entertainment/tactic/data-harvesting">Data Harvesting</a><span class="ch-s">stage 6</span></li><li><span class="sd" style="--c:var(--s6)" aria-hidden="true"></span><a href="/fractal2/entertainment/tactic/data-onward-sharing">Non-Consensual Distribution</a><span class="ch-s">stage 6</span></li><li><span class="sd" style="--c:var(--s6)" aria-hidden="true"></span><a href="/fractal2/entertainment/tactic/blackmail-leverage-exploitation">Selective Deployment</a><span class="ch-s">stage 6</span></li><li><span class="sd sd-o" aria-hidden="true"></span><a href="/playbook/group-consolidation">Chilling Effect</a><span class="ch-s">Pattern Decoder</span></li></ol>
   <p class="times ui">Quick read 5 min · full pattern 13 min</p>
-  <p class="state state-unreviewed ui"><span class="chip">Unreviewed draft</span> Written with care, not yet checked by an industry expert. Labels in the text show which points are still being checked. <a href="#labels">What the labels mean</a></p>
+  <p class="state state-unreviewed ui"><span class="chip">Unreviewed draft</span> Source checking is in progress for this page. Labels in the text show which points are still being checked. <a href="#labels">What the labels mean</a></p>
 </header>
 <div class="modes" role="group" aria-label="Reading mode"><button type="button" data-mode="quick" aria-pressed="false">Quick read</button><button type="button" data-mode="seq" aria-pressed="false">The sequence</button><button type="button" data-mode="full" aria-pressed="true">Full pattern</button></div>
 <p class="print-only print-safety">If anyone is in danger, contact emergency services. If a child is involved, contact child protection.<br>Printed from https://noblefathercreations.com/fractal2/entertainment/surveillance-architecture · updated 2026-11-10</p>
 <div class="combo-grid">
 <aside class="toc"><details open><summary>On this page</summary><ol><li data-m="full"><a href="#the-scene">The scene</a></li><li data-m="quick full"><a href="#what-it-is">What it is</a></li><li data-m="quick seq full"><a href="#the-tactics-in-order">The tactics, in order</a></li><li data-m="seq full"><a href="#why-this-order">Why this order</a></li><li data-m="full"><a href="#levels">One pattern, three altitudes</a></li><li data-m="full"><a href="#what-you-might-notice">What you might notice</a></li><li data-m="quick full"><a href="#spot-it">Spot it</a></li><li data-m="full"><a href="#before-you-read-too-much-into-it">Before you read too much into it</a></li><li data-m="full"><a href="#what-to-keep">What to keep</a></li><li data-m="quick full"><a href="#what-breaks-the-chain">What breaks the chain</a></li><li data-m="quick full"><a href="#when-to-get-help-and-where">When to get help, and where</a></li><li data-m="quick full"><a href="#words-you-could-use">Words you could use</a></li><li><a href="#tactics">The tactics in it</a></li></ol></details></aside>
 <div class="combo-body">
-<section id="the-scene" data-m="full"><h2>The scene</h2><div class="prose scene" data-src><p class="first">You&#x27;re a crossover baritone, thirty-seven years old, with a voice that sits between opera and the kind of record people put on at dinner, and you have just signed with a label that is, by every account, the humane one. Its brochure says <em>artist care</em> in a warm serif. Its president, in the signing meeting, said that the industry used to eat its singers and that her company was built to stop that.</p>
+<section id="the-scene" data-m="full"><h2>The scene <span class="tg tg-composite" title="A made-up example built from common situations. No real person is described.">Composite</span></h2><div class="prose scene" data-src><p class="first">You&#x27;re a crossover baritone, thirty-seven years old, with a voice that sits between opera and the kind of record people put on at dinner, and you have just signed with a label that is, by every account, the humane one. Its brochure says <em>artist care</em> in a warm serif. Its president, in the signing meeting, said that the industry used to eat its singers and that her company was built to stop that.</p>
 <p>The artist-care program is the part you liked best. Every artist on the roster is enrolled. There is a welcome packet, a thick one, with a wellness guide, a list of counsellors, a page on vocal rest. You sign a stack of forms at the end of a long day in the label&#x27;s office with the champagne still cooling, and you initial on the lines the assistant has flagged with small yellow tabs. There are nineteen tabs. Somewhere in the stack, in the eleventh section under <em>Program Administration</em>, is a paragraph of two sentences about calls being recorded &quot;for quality, training and care purposes&quot; and stored &quot;within label systems.&quot; You do not read it. Nobody reads that paragraph.</p>
 <p>The check-ins begin in October. Every Thursday you sit on the edge of the bed in whichever hotel you are in this week, laptop open, and a kind, unhurried care coordinator asks how the throat is, how the sleep is, how the tour is landing. You find, to your surprise, that you talk. You say that the pre-show anxiety is worse than you&#x27;ve admitted to your manager. You say that you resent the producer who cut your favorite song and that the tenor on the bill is cold to you. You say, once, late in a long road, that you sometimes wonder whether you&#x27;re doing this because you love it or because you can&#x27;t imagine being anyone else. She says that is a very human thing. She is lovely.</p>
 <p>In March there is a label dinner in a private room at a restaurant in a city you won&#x27;t remember. The executive beside you is warm, tall, easy. You are on your second glass. The conversation turns to the new single, and the executive laughs and says, kindly, &quot;Well, you know, you&#x27;re allowed to resent the cuts. But the tenor&#x27;s going to be fine without your approval.&quot;</p>
@@ -650,10 +670,14 @@ ul.map-seq{list-style:none;padding-left:0}
 
 <section class="aside-sec"><h2>Patterns that share its tactics</h2><ul class="plain"><li><a href="/fractal2/entertainment/the-algorithmic-sorting-machine">The Algorithmic Sorting Machine</a> <span class="meta">1 shared</span></li><li><a href="/fractal2/entertainment/the-economics-obfuscation-layer">The Economics Obfuscation Layer</a> <span class="meta">1 shared</span></li><li><a href="/fractal2/entertainment/the-platform-lock-in">The Platform Lock-In</a> <span class="meta">1 shared</span></li></ul></section>
 <section class="aside-sec"><h2>More in Digital &amp; Technological</h2><ul class="plain"><li><a href="/fractal2/entertainment/helicopter-surveillance">Helicopter Surveillance</a></li><li><a href="/fractal2/entertainment/digital-identity-destruction">Digital Identity Destruction</a></li><li><a href="/fractal2/entertainment/online-reputation-annihilation">Online Reputation Annihilation</a></li><li><a href="/fractal2/entertainment/the-algorithmic-sorting-machine">The Algorithmic Sorting Machine</a></li><li><a href="/fractal2/entertainment/the-gamification-trap">The Gamification Trap</a></li><li><a href="/fractal2/entertainment/the-platform-lock-in">The Platform Lock-In</a></li></ul></section>
+
 <section id="labels" class="aside-sec legend"><h2>What the labels mean</h2>
 <p><span class="tg tg-composite">Composite</span> a made-up example built from common situations; no real person is described.
 <span class="tg tg-pattern">Common pattern</span> widely reported in the industry, not a claim about any one company.
 <span class="tg tg-legal">Varies by place</span> law and contract practice differ by country and state.
+<span class="tg tg-cond">Depends on the terms</span> The outcome turns on the written terms and on independent advice. No general claim is made.
+<span class="tg tg-cond">Ask a qualified person</span> A legal, health or safety question for someone qualified where you live.
+<span class="tg tg-cited">Source checked</span> Checked against a published source, listed at the foot of the page.
 <span class="tg tg-review">Awaiting expert review</span> and <span class="tg tg-source">Source being checked</span> show where checking stands.
 <span class="slot">[X]</span> marks a blank for you to fill in.</p></section>
 <nav class="pn" aria-label="Digital &amp; Technological"><a href="/fractal2/entertainment/the-platform-lock-in"><small>Previous in this family</small><b>The Platform Lock-In</b></a><a class="nx" href="/fractal2/entertainment/the-long-con"><small>Next in this family</small><b>The Long Con</b></a></nav>

@@ -201,7 +201,7 @@ section{scroll-margin-top:calc(var(--top) + var(--3))}
 
 /* ---- stage band ---- */
 .stage-band{list-style:none;margin:var(--3) 0 0;padding:0;display:flex;gap:2px;font-family:var(--sans)}
-.stage-band li{flex:var(--g) 1 0;min-width:0}
+.stage-band li{flex:var(--g) 1 0;min-width:5.25rem}
 .stage-band a{display:flex;flex-direction:column;gap:4px;padding:var(--2) var(--1) var(--2) 0;text-decoration:none;min-height:44px;border-radius:2px;
   transition:color var(--d1) var(--ease)}
 .sb-rule{display:block;height:2px;background:var(--c);margin-bottom:var(--1)}
@@ -577,6 +577,26 @@ ul.map-seq{list-style:none;padding-left:0}
 .map-legend{list-style:none;margin:var(--3) 0 0;padding:0;display:grid;grid-template-columns:repeat(auto-fill,minmax(9rem,1fr));gap:4px var(--2);color:var(--ink-2)}
 .map-legend li{display:flex;align-items:center;gap:6px}
 @media (prefers-reduced-motion:reduce){.mt,.mc{transition:none}}
+
+/* ---- cover figure: the sector's map, small ---- */
+.cover-map{display:none}
+@media (min-width:72rem){
+  .cover{max-width:none;display:grid;grid-template-columns:minmax(0,1fr) 17rem;align-items:center;gap:0}
+  .cover-t{max-width:56rem}
+  .cover-map{display:block;justify-self:end;width:17rem;border-radius:50%;transition:transform var(--d3) var(--ease)}
+  .cover-map svg{display:block;width:100%;height:auto}
+  .cover-map:hover{transform:scale(1.03)}
+  .cover-map .mt{opacity:.9}.cover-map .mc{opacity:.55}
+}
+
+/* ---- resolved credibility labels and sources ---- */
+.tg-cond{border-color:var(--line-2);color:var(--ink-2)}
+a.tg-cited{border-color:var(--gold);color:var(--gold);text-decoration:none}
+a.tg-cited:hover{background:var(--gold-wash)}
+h2 .tg{vertical-align:middle;margin-left:var(--1)}
+.state-checked .chip{border-color:var(--gold);color:var(--gold)}
+.sources li{padding:var(--2) 0;border-bottom:1px solid var(--line)}
+.sources li p{margin:0 0 4px}
 </style>
 <script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "Article", "headline": "The Digital Hostage in the music and entertainment industry", "name": "The Digital Hostage in the music and entertainment industry", "description": "The Digital Hostage: The Digital Hostage is the sequence where online closeness is built until an intimate image becomes leverage, private details are…", "url": "https://noblefathercreations.com/fractal2/entertainment/the-digital-hostage", "inLanguage": "en", "dateModified": "2026-11-10", "author": {"@type": "Person", "name": "Shae Stovell"}, "publisher": {"@type": "Organization", "name": "Noble Father Creations", "url": "https://noblefathercreations.com"}, "isPartOf": {"@type": "CollectionPage", "name": "Fractal²: Entertainment & Music Industry", "url": "https://noblefathercreations.com/fractal2/entertainment"}, "articleSection": "Digital & Technological", "wordCount": 2610, "about": [{"@type": "DefinedTerm", "name": "Manufactured Intimacy", "url": "https://noblefathercreations.com/fractal2/entertainment/tactic/manufactured-intimacy"}, {"@type": "DefinedTerm", "name": "Doxxing", "url": "https://noblefathercreations.com/fractal2/entertainment/tactic/doxxing"}, {"@type": "DefinedTerm", "name": "Swatting", "url": "https://noblefathercreations.com/fractal2/entertainment/tactic/swatting"}]}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Fractal²", "item": "https://noblefathercreations.com/fractal2"}, {"@type": "ListItem", "position": 2, "name": "Entertainment & Music", "item": "https://noblefathercreations.com/fractal2/entertainment"}, {"@type": "ListItem", "position": 3, "name": "Digital & Technological", "item": "https://noblefathercreations.com/fractal2/entertainment/family-digital-and-technological"}, {"@type": "ListItem", "position": 4, "name": "The Digital Hostage", "item": "https://noblefathercreations.com/fractal2/entertainment/the-digital-hostage"}]}]}</script>
 </head>
@@ -602,7 +622,7 @@ ul.map-seq{list-style:none;padding-left:0}
   <p class="sub">in the music and entertainment industry</p>
   <ol class="chain" aria-label="The tactics in this pattern, in order"><li><span class="sd" style="--c:var(--s1)" aria-hidden="true"></span><a href="/fractal2/entertainment/tactic/manufactured-intimacy">Manufactured Intimacy</a><span class="ch-s">stage 1</span></li><li><span class="sd sd-o" aria-hidden="true"></span>Sextortion</li><li><span class="sd" style="--c:var(--s8)" aria-hidden="true"></span><a href="/fractal2/entertainment/tactic/doxxing">Doxxing</a><span class="ch-s">stage 8</span></li><li><span class="sd" style="--c:var(--s7)" aria-hidden="true"></span><a href="/fractal2/entertainment/tactic/swatting">Swatting</a><span class="ch-s">stage 7</span></li><li><span class="sd sd-o" aria-hidden="true"></span>Need Concealment</li></ol>
   <p class="times ui">Quick read 5 min · full pattern 12 min</p>
-  <p class="state state-unreviewed ui"><span class="chip">Unreviewed draft</span> Written with care, not yet checked by an industry expert. Labels in the text show which points are still being checked. <a href="#labels">What the labels mean</a></p>
+  <p class="state state-unreviewed ui"><span class="chip">Unreviewed draft</span> Source checking is in progress for this page. Labels in the text show which points are still being checked. <a href="#labels">What the labels mean</a></p>
 </header>
 <div class="modes" role="group" aria-label="Reading mode"><button type="button" data-mode="quick" aria-pressed="false">Quick read</button><button type="button" data-mode="seq" aria-pressed="false">The sequence</button><button type="button" data-mode="full" aria-pressed="true">Full pattern</button></div>
 <p class="print-only print-safety">If anyone is in danger, contact emergency services. If a child is involved, contact child protection.<br>Printed from https://noblefathercreations.com/fractal2/entertainment/the-digital-hostage · updated 2026-11-10</p>
@@ -610,7 +630,7 @@ ul.map-seq{list-style:none;padding-left:0}
 <aside class="toc"><details open><summary>On this page</summary><ol><li data-m="full"><a href="#the-scene">The scene</a></li><li data-m="quick full"><a href="#what-it-is">What it is</a></li><li data-m="quick seq full"><a href="#the-tactics-in-order">The tactics, in order</a></li><li data-m="seq full"><a href="#why-this-order">Why this order</a></li><li data-m="full"><a href="#levels">One pattern, three altitudes</a></li><li data-m="full"><a href="#what-you-might-notice">What you might notice</a></li><li data-m="quick full"><a href="#spot-it">Spot it</a></li><li data-m="full"><a href="#before-you-read-too-much-into-it">Before you read too much into it</a></li><li data-m="full"><a href="#what-to-keep">What to keep</a></li><li data-m="quick full"><a href="#what-breaks-the-chain">What breaks the chain</a></li><li data-m="quick full"><a href="#when-to-get-help-and-where">When to get help, and where</a></li><li data-m="quick full"><a href="#words-you-could-use">Words you could use</a></li><li><a href="#tactics">The tactics in it</a></li></ol></details></aside>
 <div class="combo-body">
 <aside class="safety" id="safety" role="note" aria-labelledby="safety-h" data-m="quick seq full"><p class="safety-h" id="safety-h"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M12 9v4M12 17h.01"/><path d="M10.3 3.9 1.8 18a2 2 0 0 0 1.7 3h17a2 2 0 0 0 1.7-3L13.7 3.9a2 2 0 0 0-3.4 0z"/></svg> Read this first</p><div class="prose" data-src><p>This script describes online sexual extortion and threats. If you are being threatened, or an emergency response has arrived at your door, contact local emergency services first. Do not pay. Do not send anything more. Do not delete the messages. Tell a trusted adult, and report the account to the platform and to the police or a specialist online-safety or victim-support service. If the person affected is under eighteen, a parent, guardian, teacher or the appropriate child-protection authority must be told as soon as possible; many specialist services deal with this and treat it as a crime committed against the young person, not by them. Being tricked or pressured is not your fault. Which services exist is jurisdiction-specific. <span class="tg tg-legal" title="Law and contract practice differ by country and state. Get local advice.">Varies by place</span></p></div></aside>
-<section id="the-scene" data-m="full"><h2>The scene</h2><div class="prose scene" data-src><p class="first">You&#x27;re a ukulele player, nineteen years old, in your second year at a university four hours from home, and twice a week you stream from your dorm room. You play covers and the occasional song you wrote on the bus. Nobody famous is watching. About ninety people turn up on a good night, and some of them have names you know by heart.</p>
+<section id="the-scene" data-m="full"><h2>The scene <span class="tg tg-composite" title="A made-up example built from common situations. No real person is described.">Composite</span></h2><div class="prose scene" data-src><p class="first">You&#x27;re a ukulele player, nineteen years old, in your second year at a university four hours from home, and twice a week you stream from your dorm room. You play covers and the occasional song you wrote on the bus. Nobody famous is watching. About ninety people turn up on a good night, and some of them have names you know by heart.</p>
 <p>One of them is called Wren. He was there in your first month. He types the first comment of every stream, the same two words, <em>good evening</em>, and he remembers what you said last time. He asked how your exam went. He knew your sister&#x27;s name because you mentioned her once. When you played the song you wrote about your grandmother, he was the only one who wrote, <em>that was beautiful, thank you for trusting us with it.</em> You did not tell your friends how much that sentence mattered, because it sounded silly.</p>
 <p>After a stream, he sends a message, and then another. Over the following weeks, the conversations move off the chat and onto a private messaging app. He says he works in music, &quot;mostly behind the scenes.&quot; He says he can hear something in you. He says there is a casting call for a short series, and that he can help you stand out, and he sends a form that looks professional. He says he is not like other people in your chat. He tells you he is lonely too. He asks you not to share the form with the others yet, because it would not be fair to them.</p>
 <p>You have not been this seen in a long time. You tell him about the room, the roommate, the thing with your father. At night he says, <em>you&#x27;re the only person I talk to like this.</em></p>
@@ -647,10 +667,14 @@ ul.map-seq{list-style:none;padding-left:0}
 
 <section class="aside-sec"><h2>Patterns that share its tactics</h2><ul class="plain"><li><a href="/fractal2/entertainment/digital-identity-destruction">Digital Identity Destruction</a> <span class="meta">1 shared</span></li><li><a href="/fractal2/entertainment/grooming">Grooming</a> <span class="meta">1 shared</span></li><li><a href="/fractal2/entertainment/online-reputation-annihilation">Online Reputation Annihilation</a> <span class="meta">1 shared</span></li><li><a href="/fractal2/entertainment/social-death">Social Death</a> <span class="meta">1 shared</span></li><li><a href="/fractal2/entertainment/the-false-safe-harbor">The False Safe Harbor</a> <span class="meta">1 shared</span></li><li><a href="/fractal2/entertainment/the-long-con">The Long Con</a> <span class="meta">1 shared</span></li></ul></section>
 <section class="aside-sec"><h2>More in Digital &amp; Technological</h2><ul class="plain"><li><a href="/fractal2/entertainment/helicopter-surveillance">Helicopter Surveillance</a></li><li><a href="/fractal2/entertainment/digital-identity-destruction">Digital Identity Destruction</a></li><li><a href="/fractal2/entertainment/online-reputation-annihilation">Online Reputation Annihilation</a></li><li><a href="/fractal2/entertainment/the-algorithmic-sorting-machine">The Algorithmic Sorting Machine</a></li><li><a href="/fractal2/entertainment/the-gamification-trap">The Gamification Trap</a></li><li><a href="/fractal2/entertainment/the-platform-lock-in">The Platform Lock-In</a></li></ul></section>
+
 <section id="labels" class="aside-sec legend"><h2>What the labels mean</h2>
 <p><span class="tg tg-composite">Composite</span> a made-up example built from common situations; no real person is described.
 <span class="tg tg-pattern">Common pattern</span> widely reported in the industry, not a claim about any one company.
 <span class="tg tg-legal">Varies by place</span> law and contract practice differ by country and state.
+<span class="tg tg-cond">Depends on the terms</span> The outcome turns on the written terms and on independent advice. No general claim is made.
+<span class="tg tg-cond">Ask a qualified person</span> A legal, health or safety question for someone qualified where you live.
+<span class="tg tg-cited">Source checked</span> Checked against a published source, listed at the foot of the page.
 <span class="tg tg-review">Awaiting expert review</span> and <span class="tg tg-source">Source being checked</span> show where checking stands.
 <span class="slot">[X]</span> marks a blank for you to fill in.</p></section>
 <nav class="pn" aria-label="Digital &amp; Technological"><a href="/fractal2/entertainment/the-synthetic-storm"><small>Previous in this family</small><b>The Synthetic Storm</b></a><span></span></nav>

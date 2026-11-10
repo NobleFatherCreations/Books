@@ -63,8 +63,13 @@ def home(cx):
     browse_html = "".join('<li><a class="card" href="%s"><span class="num card-n">%02d</span><b>%s</b><small>%s</small></a></li>' % (
         cx.u(p), i + 1, esc(S(k)), esc(dd)) for i, (p, k, dd) in enumerate(browse))
     line = cx.ph.get("cover_line", "").format(tactics=nt, patterns=npat)
+    from pages_paths import map_layout          # the same layout as the map page, drawn small as the cover figure
+    pos, _arcs, cpos, _fl = map_layout(cx)
+    mini = ''.join('<circle class="mt s%d" cx="%.0f" cy="%.0f" r="5"/>' % (cx.stage_no(t["stage"]), pos[t["single_no"]][0], pos[t["single_no"]][1]) for t in d["tactics"]) + \
+           ''.join('<circle class="mc" cx="%.0f" cy="%.0f" r="6"/>' % cpos[k] for k in cpos)
     body = f"""
 <section class="cover">
+  <div class="cover-t">
   <p class="kicker">{esc(S('site'))} · Sector {cx.me['n']:02d}</p>
   <h1 class="display">{esc(cx.title)}</h1>
   <p class="lede">{esc(line)}</p>
@@ -73,6 +78,8 @@ def home(cx):
     <div><dt>patterns</dt><dd class="num">{npat}</dd></div>
     <div><dt>levels</dt><dd class="num">3</dd></div>
   </dl>
+  </div>
+  <a class="cover-map" href="{cx.u('map')}" aria-label="{esc(S('browse_map'))}: {esc(S('browse_map_d'))}"><svg viewBox="0 0 1000 1000" aria-hidden="true" focusable="false">{mini}</svg></a>
 </section>
 <section class="band" aria-labelledby="doors-h">
   <h2 id="doors-h">{esc(S('home_doors_h'))}</h2>

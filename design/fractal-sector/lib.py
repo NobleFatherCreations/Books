@@ -84,7 +84,7 @@ def clip(s, n=158):
 
 def plain(s):
     """Derived snippets (cards, descriptions, structured data): no cues, no credibility tags."""
-    s = BRACKET.sub(lambda m: "" if m.group(1) in ("SPEAK", "HARD CUT") or all(p.strip() in TAG_KIND for p in m.group(1).split(";")) else m.group(0), s or "")
+    s = BRACKET.sub(lambda m: "" if m.group(1) in ("SPEAK", "HARD CUT") or m.group(1).startswith("~") or all(p.strip() in TAG_KIND for p in m.group(1).split(";")) else m.group(0), s or "")
     return re.sub(r"\s{2,}", " ", s.replace("**", "")).strip()
 
 
@@ -119,6 +119,8 @@ class Ctx:
         self.ti = self.ph.get("title_industry", self.title)
         self.target = target
         self.allowed = PUBLISH_STATES[target]
+        import resolve                                               # the derived layer: ledger rewrites + resolved labels
+        self.res_delta, self.res, self.facts = resolve.apply_ledger(self.d, sector)
         self.combos = {c["combo_id"]: c for c in self.d["combos"]}
         self.live = {k for k, c in self.combos.items() if c["review_state"] in self.allowed}
         self.tactics = {t["single_no"]: t for t in self.d["tactics"]}
@@ -175,6 +177,12 @@ def inline(s, state="unreviewed"):
         parts = [p.strip() for p in tok.split(";")]
         if tok in ("SPEAK", "HARD CUT"):
             pass
+        elif tok.startswith("~"):                      # a tag the resolution ledger has settled
+            kind, _, val = tok[1:].partition(":")
+            if kind == "s":
+                out.append('<a class="tg tg-cited" href="#sources" title="%s">%s</a>' % (esc(S("lab_cited_tip")), esc(S("lab_cited"))))
+            else:
+                out.append('<span class="tg tg-cond" title="%s">%s</span>' % (esc(S("lab_qual_tip" if kind == "q" else "lab_cond_tip")), esc(val)))
         elif all(p in TAG_KIND for p in parts):
             for p in parts:
                 k = TAG_KIND[p]

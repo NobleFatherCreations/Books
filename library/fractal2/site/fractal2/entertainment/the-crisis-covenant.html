@@ -201,7 +201,7 @@ section{scroll-margin-top:calc(var(--top) + var(--3))}
 
 /* ---- stage band ---- */
 .stage-band{list-style:none;margin:var(--3) 0 0;padding:0;display:flex;gap:2px;font-family:var(--sans)}
-.stage-band li{flex:var(--g) 1 0;min-width:0}
+.stage-band li{flex:var(--g) 1 0;min-width:5.25rem}
 .stage-band a{display:flex;flex-direction:column;gap:4px;padding:var(--2) var(--1) var(--2) 0;text-decoration:none;min-height:44px;border-radius:2px;
   transition:color var(--d1) var(--ease)}
 .sb-rule{display:block;height:2px;background:var(--c);margin-bottom:var(--1)}
@@ -577,6 +577,26 @@ ul.map-seq{list-style:none;padding-left:0}
 .map-legend{list-style:none;margin:var(--3) 0 0;padding:0;display:grid;grid-template-columns:repeat(auto-fill,minmax(9rem,1fr));gap:4px var(--2);color:var(--ink-2)}
 .map-legend li{display:flex;align-items:center;gap:6px}
 @media (prefers-reduced-motion:reduce){.mt,.mc{transition:none}}
+
+/* ---- cover figure: the sector's map, small ---- */
+.cover-map{display:none}
+@media (min-width:72rem){
+  .cover{max-width:none;display:grid;grid-template-columns:minmax(0,1fr) 17rem;align-items:center;gap:0}
+  .cover-t{max-width:56rem}
+  .cover-map{display:block;justify-self:end;width:17rem;border-radius:50%;transition:transform var(--d3) var(--ease)}
+  .cover-map svg{display:block;width:100%;height:auto}
+  .cover-map:hover{transform:scale(1.03)}
+  .cover-map .mt{opacity:.9}.cover-map .mc{opacity:.55}
+}
+
+/* ---- resolved credibility labels and sources ---- */
+.tg-cond{border-color:var(--line-2);color:var(--ink-2)}
+a.tg-cited{border-color:var(--gold);color:var(--gold);text-decoration:none}
+a.tg-cited:hover{background:var(--gold-wash)}
+h2 .tg{vertical-align:middle;margin-left:var(--1)}
+.state-checked .chip{border-color:var(--gold);color:var(--gold)}
+.sources li{padding:var(--2) 0;border-bottom:1px solid var(--line)}
+.sources li p{margin:0 0 4px}
 </style>
 <script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "Article", "headline": "The Crisis Covenant in the music and entertainment industry", "name": "The Crisis Covenant in the music and entertainment industry", "description": "The Crisis Covenant: The Crisis Covenant is the sequence where a crisis, real or inflated, bonds people through shared urgency, \"we\" language seals an…", "url": "https://noblefathercreations.com/fractal2/entertainment/the-crisis-covenant", "inLanguage": "en", "dateModified": "2026-11-10", "author": {"@type": "Person", "name": "Shae Stovell"}, "publisher": {"@type": "Organization", "name": "Noble Father Creations", "url": "https://noblefathercreations.com"}, "isPartOf": {"@type": "CollectionPage", "name": "Fractal²: Entertainment & Music Industry", "url": "https://noblefathercreations.com/fractal2/entertainment"}, "articleSection": "Capture & Attachment", "wordCount": 2580, "about": [{"@type": "DefinedTerm", "name": "Crisis Bonding", "url": "https://noblefathercreations.com/fractal2/entertainment/tactic/crisis-bonding"}, {"@type": "DefinedTerm", "name": "Forced Teaming", "url": "https://noblefathercreations.com/fractal2/entertainment/tactic/forced-teaming"}, {"@type": "DefinedTerm", "name": "Shared Secret Binding", "url": "https://noblefathercreations.com/fractal2/entertainment/tactic/shared-secret-binding"}, {"@type": "DefinedTerm", "name": "Loyalty Binds", "url": "https://noblefathercreations.com/fractal2/entertainment/tactic/loyalty-binds"}]}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Fractal²", "item": "https://noblefathercreations.com/fractal2"}, {"@type": "ListItem", "position": 2, "name": "Entertainment & Music", "item": "https://noblefathercreations.com/fractal2/entertainment"}, {"@type": "ListItem", "position": 3, "name": "Capture & Attachment", "item": "https://noblefathercreations.com/fractal2/entertainment/family-capture-and-attachment"}, {"@type": "ListItem", "position": 4, "name": "The Crisis Covenant", "item": "https://noblefathercreations.com/fractal2/entertainment/the-crisis-covenant"}]}]}</script>
 </head>
@@ -602,14 +622,14 @@ ul.map-seq{list-style:none;padding-left:0}
   <p class="sub">in the music and entertainment industry</p>
   <ol class="chain" aria-label="The tactics in this pattern, in order"><li><span class="sd" style="--c:var(--s2)" aria-hidden="true"></span><a href="/fractal2/entertainment/tactic/crisis-bonding">Crisis Bonding</a><span class="ch-s">stage 2</span></li><li><span class="sd" style="--c:var(--s1)" aria-hidden="true"></span><a href="/fractal2/entertainment/tactic/forced-teaming">Forced Teaming</a><span class="ch-s">stage 1</span></li><li><span class="sd" style="--c:var(--s2)" aria-hidden="true"></span><a href="/fractal2/entertainment/tactic/shared-secret-binding">Shared Secret Binding</a><span class="ch-s">stage 2</span></li><li><span class="sd" style="--c:var(--s6)" aria-hidden="true"></span><a href="/fractal2/entertainment/tactic/loyalty-binds">Loyalty Binds</a><span class="ch-s">stage 6</span></li><li><span class="sd sd-o" aria-hidden="true"></span>Exit Prevention</li></ol>
   <p class="times ui">Quick read 5 min · full pattern 12 min</p>
-  <p class="state state-unreviewed ui"><span class="chip">Unreviewed draft</span> Written with care, not yet checked by an industry expert. Labels in the text show which points are still being checked. <a href="#labels">What the labels mean</a></p>
+  <p class="state state-unreviewed ui"><span class="chip">Unreviewed draft</span> Source checking is in progress for this page. Labels in the text show which points are still being checked. <a href="#labels">What the labels mean</a></p>
 </header>
 <div class="modes" role="group" aria-label="Reading mode"><button type="button" data-mode="quick" aria-pressed="false">Quick read</button><button type="button" data-mode="seq" aria-pressed="false">The sequence</button><button type="button" data-mode="full" aria-pressed="true">Full pattern</button></div>
 <p class="print-only print-safety">If anyone is in danger, contact emergency services. If a child is involved, contact child protection.<br>Printed from https://noblefathercreations.com/fractal2/entertainment/the-crisis-covenant · updated 2026-11-10</p>
 <div class="combo-grid">
 <aside class="toc"><details open><summary>On this page</summary><ol><li data-m="full"><a href="#the-scene">The scene</a></li><li data-m="quick full"><a href="#what-it-is">What it is</a></li><li data-m="quick seq full"><a href="#the-tactics-in-order">The tactics, in order</a></li><li data-m="seq full"><a href="#why-this-order">Why this order</a></li><li data-m="full"><a href="#levels">One pattern, three altitudes</a></li><li data-m="full"><a href="#what-you-might-notice">What you might notice</a></li><li data-m="quick full"><a href="#spot-it">Spot it</a></li><li data-m="full"><a href="#before-you-read-too-much-into-it">Before you read too much into it</a></li><li data-m="full"><a href="#what-to-keep">What to keep</a></li><li data-m="quick full"><a href="#what-breaks-the-chain">What breaks the chain</a></li><li data-m="quick full"><a href="#when-to-get-help-and-where">When to get help, and where</a></li><li data-m="quick full"><a href="#words-you-could-use">Words you could use</a></li><li><a href="#tactics">The tactics in it</a></li></ol></details></aside>
 <div class="combo-body">
-<section id="the-scene" data-m="full"><h2>The scene</h2><div class="prose scene" data-src><p class="first">You&#x27;re a pressing-plant coordinator, forty-four, and for nine years you have been the person a small indie label calls when a record has to exist by Friday. You book the plant, chase the test pressings, argue with the jacket printer, and know which stage of a vinyl run is going to go wrong before it does. The label&#x27;s owner is the sort of boss people describe as a believer. He once sold a guitar to pay a mastering bill. You like him. That is the problem you will not be able to explain later.</p>
+<section id="the-scene" data-m="full"><h2>The scene <span class="tg tg-composite" title="A made-up example built from common situations. No real person is described.">Composite</span></h2><div class="prose scene" data-src><p class="first">You&#x27;re a pressing-plant coordinator, forty-four, and for nine years you have been the person a small indie label calls when a record has to exist by Friday. You book the plant, chase the test pressings, argue with the jacket printer, and know which stage of a vinyl run is going to go wrong before it does. The label&#x27;s owner is the sort of boss people describe as a believer. He once sold a guitar to pay a mastering bill. You like him. That is the problem you will not be able to explain later.</p>
 <p>On Monday, six days before the biggest release of the label&#x27;s life, he calls you down to the basement office. It&#x27;s a small room with a leaking pipe, a shelf of unsold test pressings, and a whiteboard covered in release dates. He has not shaved. He closes the door.</p>
 <p>&quot;I need to tell you something I haven&#x27;t told anybody,&quot; he says. The distributor&#x27;s advance has been delayed. A pressing invoice is overdue. Payroll is two weeks away and the account is short. &quot;If this release lands, we are fine. If it doesn&#x27;t, there is no label.&quot; He looks at you as if he is asking for a hand on a rope. &quot;I can&#x27;t do it without you.&quot;</p>
 <p>You feel it before you can think it: the warmth of being trusted with the truth. You stay until nine. By the end of the night you are drawing up a schedule on his whiteboard, working out which suppliers can wait, which can&#x27;t, and which friends can lend a van.</p>
@@ -647,10 +667,14 @@ ul.map-seq{list-style:none;padding-left:0}
 
 <section class="aside-sec"><h2>Patterns that share its tactics</h2><ul class="plain"><li><a href="/fractal2/entertainment/manufactured-crisis-bonding">Manufactured Crisis Bonding</a> <span class="meta">1 shared</span></li><li><a href="/fractal2/entertainment/the-loyalty-trap">The Loyalty Trap</a> <span class="meta">1 shared</span></li><li><a href="/fractal2/entertainment/the-phantom-equity">The Phantom Equity</a> <span class="meta">1 shared</span></li><li><a href="/fractal2/entertainment/the-reputation-hostage">The Reputation Hostage</a> <span class="meta">1 shared</span></li></ul></section>
 <section class="aside-sec"><h2>More in Capture &amp; Attachment</h2><ul class="plain"><li><a href="/fractal2/entertainment/grooming">Grooming</a></li><li><a href="/fractal2/entertainment/the-trauma-bond-engine">The Trauma Bond Engine</a></li><li><a href="/fractal2/entertainment/the-savior-trap">The Savior Trap</a></li><li><a href="/fractal2/entertainment/the-compliment-trap">The Compliment Trap</a></li><li><a href="/fractal2/entertainment/bait-and-switch">Bait and Switch</a></li><li><a href="/fractal2/entertainment/emotional-debt-spiral">Emotional Debt Spiral</a></li></ul></section>
+
 <section id="labels" class="aside-sec legend"><h2>What the labels mean</h2>
 <p><span class="tg tg-composite">Composite</span> a made-up example built from common situations; no real person is described.
 <span class="tg tg-pattern">Common pattern</span> widely reported in the industry, not a claim about any one company.
 <span class="tg tg-legal">Varies by place</span> law and contract practice differ by country and state.
+<span class="tg tg-cond">Depends on the terms</span> The outcome turns on the written terms and on independent advice. No general claim is made.
+<span class="tg tg-cond">Ask a qualified person</span> A legal, health or safety question for someone qualified where you live.
+<span class="tg tg-cited">Source checked</span> Checked against a published source, listed at the foot of the page.
 <span class="tg tg-review">Awaiting expert review</span> and <span class="tg tg-source">Source being checked</span> show where checking stands.
 <span class="slot">[X]</span> marks a blank for you to fill in.</p></section>
 <nav class="pn" aria-label="Capture &amp; Attachment"><a href="/fractal2/entertainment/the-bench"><small>Previous in this family</small><b>The Bench</b></a><a class="nx" href="/fractal2/entertainment/the-soft-sell"><small>Next in this family</small><b>The Soft Sell</b></a></nav>

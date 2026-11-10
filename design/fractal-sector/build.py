@@ -153,7 +153,7 @@ def main(sector, target, base):
         "version": cx.version, "pages": len(pages), "combos_live": len(cx.live), "combos_held": len(cx.combos) - len(cx.live),
         "og": og, "og_src": str((work / "build" / sector / "og-src").relative_to(ROOT)),
         "groups": groups, "reserved": RESERVED,
-        "expect": {c["slug"]: {"words": c["reader_words"], "safety": c["has_safety_note"]}
+        "expect": {c["slug"]: {"words": c["reader_words"] + cx.res_delta.get(c["combo_id"], 0), "safety": c["has_safety_note"]}
                    for c in cx.d["combos"] if c["combo_id"] in cx.live}}, indent=1))
     print("built %d pages (%d combos live, %d held back) -> %s" % (len(pages), len(cx.live), len(cx.combos) - len(cx.live), sector_dir))
     if missing:
