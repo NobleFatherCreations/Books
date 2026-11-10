@@ -156,6 +156,7 @@ def sign_page(cx):
 {'<p class="s-say"><span class="meta ui">%s</span> %s</p>' % (esc(S('sign_say')), esc(ph[0])) if ph else ''}</li>""")
     body = f"""<header class="phead"><p class="kicker">{esc(S('sign_k'))}</p><h1>{esc(S('sign_h'))}</h1>
 <p class="lede">{esc(S('sign_lede'))}</p></header>
+{safety_box()}
 <section><h2>{esc(S('patterns_n', n=len(ks)))}</h2><p class="ui meta">{esc(S('sign_note'))}</p><ol class="s-cards">{''.join(cards)}</ol></section>
 <div class="prose-ui">{standards_html(cx, ['Universal Evidence To Preserve'], 'h2')}</div>"""
     desc = clip("About to sign something %s? The patterns that live in contracts and money, two tests for each, words you could use, and what to keep." % cx.ph.get("in_industry", ""))

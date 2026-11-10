@@ -1,0 +1,697 @@
+[
+ {
+  "id": "F001",
+  "topic": "recoupment and cross-collateralization of advances and costs",
+  "items": [
+   15,
+   50,
+   303,
+   373,
+   476,
+   787,
+   789,
+   796,
+   797,
+   800,
+   808,
+   1055,
+   1105
+  ]
+ },
+ {
+  "id": "F002",
+  "topic": "approval rights over name, image and styling in recording agreements",
+  "items": [
+   99,
+   106,
+   251,
+   285,
+   417,
+   584,
+   750,
+   751,
+   832,
+   839,
+   848,
+   891,
+   899,
+   1046,
+   1075,
+   1117,
+   1125,
+   1327
+  ]
+ },
+ {
+  "id": "F003",
+  "topic": "delivery standards and acceptance in recording agreements ('commercially satisfactory')",
+  "items": [
+   88,
+   109,
+   116,
+   869,
+   870
+  ]
+ },
+ {
+  "id": "F004",
+  "topic": "work-for-hire, session releases and confidentiality in session and employment paperwork",
+  "items": [
+   129,
+   135,
+   774,
+   1156,
+   1164,
+   1257
+  ]
+ },
+ {
+  "id": "F005",
+  "topic": "split sheets, songwriting credits and registration of works",
+  "items": [
+   29,
+   43,
+   226,
+   232,
+   259,
+   398,
+   408,
+   566,
+   573,
+   774,
+   903,
+   910,
+   1189,
+   1257
+  ]
+ },
+ {
+  "id": "F006",
+  "topic": "confidentiality and non-disparagement terms in exit and settlement agreements",
+  "items": [
+   135,
+   382,
+   446,
+   498,
+   504,
+   509,
+   519,
+   566,
+   679,
+   742,
+   748,
+   762,
+   1038,
+   1139,
+   1145,
+   1272,
+   1277
+  ]
+ },
+ {
+  "id": "F007",
+  "topic": "minors in entertainment: work permits, chaperones, studio teachers, guardian-held earnings",
+  "items": [
+   7,
+   446,
+   480,
+   488,
+   787,
+   789,
+   796,
+   821,
+   823,
+   829,
+   861,
+   867,
+   952,
+   958,
+   967,
+   976,
+   1262,
+   1267,
+   1294,
+   1369
+  ]
+ },
+ {
+  "id": "F008",
+  "topic": "royalty statements, audit rights and objection windows",
+  "items": [
+   399,
+   408,
+   436,
+   548,
+   559,
+   644,
+   762,
+   778,
+   785,
+   787,
+   796,
+   797,
+   943,
+   1105,
+   1139,
+   1145,
+   1248,
+   1320
+  ]
+ },
+ {
+  "id": "F009",
+  "topic": "collective management organizations and royalty / residual claims procedures",
+  "items": [
+   289,
+   294,
+   408,
+   537,
+   568,
+   573,
+   679,
+   778
+  ]
+ },
+ {
+  "id": "F010",
+  "topic": "music chart rules on bundles, bulk purchases and chart methodology changes",
+  "items": [
+   7,
+   312,
+   519,
+   718,
+   720,
+   721,
+   728,
+   869,
+   870,
+   877,
+   882,
+   1075,
+   1306,
+   1312
+  ]
+ },
+ {
+  "id": "F011",
+  "topic": "radio promotion, payola and promotional incentives",
+  "items": [
+   155,
+   307,
+   312,
+   850
+  ]
+ },
+ {
+  "id": "F012",
+  "topic": "streaming manipulation: purchased streams, followers and reviews",
+  "items": [
+   1225
+  ]
+ },
+ {
+  "id": "F013",
+  "topic": "impersonation of scouts, A&R, managers and music-industry advance-fee scams",
+  "items": [
+   36,
+   206,
+   584,
+   832,
+   839,
+   985,
+   1088,
+   1094,
+   1117,
+   1119,
+   1125,
+   1135
+  ]
+ },
+ {
+  "id": "F014",
+  "topic": "long-running online investment and romance fraud",
+  "items": [
+   1085,
+   1127,
+   1128,
+   1135
+  ]
+ },
+ {
+  "id": "F015",
+  "topic": "synthetic voice and likeness: deepfakes, voice cloning and performer contracts",
+  "items": [
+   417,
+   832,
+   839,
+   1075,
+   1243,
+   1248
+  ]
+ },
+ {
+  "id": "F016",
+  "topic": "touring crew hours, rest, driver fatigue and per-diem",
+  "items": [
+   58,
+   276,
+   466,
+   547,
+   635,
+   717,
+   920,
+   1267
+  ]
+ },
+ {
+  "id": "F017",
+  "topic": "tour settlement sheets, merch fees and venue merchandise cuts",
+  "items": [
+   167,
+   174,
+   504,
+   509,
+   762,
+   938,
+   1085,
+   1115,
+   1207
+  ]
+ },
+ {
+  "id": "F018",
+  "topic": "union and guild coverage and complaint procedures for musicians and performers",
+  "items": [
+   15,
+   58,
+   276,
+   294,
+   456,
+   466,
+   488,
+   509,
+   540,
+   547,
+   616,
+   635,
+   653,
+   661,
+   708,
+   717,
+   1012,
+   1277,
+   1312
+  ]
+ },
+ {
+  "id": "F019",
+  "topic": "employer duties on incident reporting and workplace safety for performers and crew",
+  "items": [
+   184,
+   427,
+   450,
+   456,
+   547,
+   811,
+   952,
+   1248,
+   1267,
+   1297,
+   1303
+  ]
+ },
+ {
+  "id": "F020",
+  "topic": "employee access to personnel records and performance improvement plans",
+  "items": [
+   382,
+   389,
+   417,
+   560,
+   717,
+   764,
+   766,
+   774,
+   811,
+   819,
+   1183,
+   1303
+  ]
+ },
+ {
+  "id": "F021",
+  "topic": "workplace complaint handling, investigation independence and retaliation",
+  "items": [
+   164,
+   312,
+   382,
+   398,
+   476,
+   488,
+   540,
+   547,
+   607,
+   616,
+   635,
+   644,
+   700,
+   708,
+   732,
+   738,
+   811,
+   847,
+   1135,
+   1198,
+   1272,
+   1306,
+   1312
+  ]
+ },
+ {
+  "id": "F022",
+  "topic": "platform recommendation systems, genre metadata and artist profile fields",
+  "items": [
+   588,
+   589,
+   636,
+   750,
+   751,
+   778,
+   848,
+   850,
+   857,
+   869,
+   870,
+   877,
+   882,
+   903,
+   910
+  ]
+ },
+ {
+  "id": "F023",
+  "topic": "fan apps, gamification, streaks and notification design",
+  "items": [
+   267,
+   858,
+   861,
+   867,
+   882
+  ]
+ },
+ {
+  "id": "F024",
+  "topic": "distributor and aggregator terms, fee changes and data portability",
+  "items": [
+   289,
+   408,
+   750,
+   751,
+   762,
+   778,
+   797,
+   800,
+   808,
+   832,
+   839,
+   850,
+   857,
+   869,
+   870,
+   877,
+   1046,
+   1094,
+   1221,
+   1223,
+   1286,
+   1320
+  ]
+ },
+ {
+  "id": "F025",
+  "topic": "location tracking, check-in apps and monitoring of artists and crew",
+  "items": [
+   750,
+   751,
+   821,
+   823,
+   829,
+   858,
+   952,
+   967,
+   988,
+   1064,
+   1248,
+   1262,
+   1267
+  ]
+ },
+ {
+  "id": "F026",
+  "topic": "wellness providers, occupational health and confidentiality of clinical notes",
+  "items": [
+   155,
+   251,
+   285,
+   303,
+   456,
+   488,
+   578,
+   588,
+   589,
+   595,
+   821,
+   823,
+   943,
+   948,
+   952,
+   1064,
+   1075,
+   1262,
+   1267,
+   1297,
+   1303
+  ]
+ },
+ {
+  "id": "F027",
+  "topic": "free labor, unpaid work, exposure and volunteer in-kind contributions in the arts",
+  "items": [
+   22,
+   267,
+   522,
+   528,
+   670,
+   688,
+   697,
+   756,
+   861,
+   867,
+   998,
+   1004,
+   1064,
+   1145,
+   1156,
+   1164,
+   1173
+  ]
+ },
+ {
+  "id": "F028",
+  "topic": "management commission, conflicts of interest and power of attorney",
+  "items": [
+   7,
+   537,
+   559,
+   566,
+   588,
+   589,
+   595,
+   661,
+   778,
+   785,
+   988,
+   994,
+   1105,
+   1127,
+   1135,
+   1306
+  ]
+ },
+ {
+  "id": "F029",
+  "topic": "viral clips, platform harassment reports and reputation harm",
+  "items": [
+   625,
+   638,
+   644,
+   847,
+   1094,
+   1239,
+   1243,
+   1358
+  ]
+ },
+ {
+  "id": "F030",
+  "topic": "placement fees, document retention and recruitment of entertainment workers at sea or abroad",
+  "items": [
+   1330,
+   1339
+  ]
+ },
+ {
+  "id": "F031",
+  "topic": "subscription trials, cancellation and dark patterns in booking and distribution services",
+  "items": [
+   1348
+  ]
+ },
+ {
+  "id": "F032",
+  "topic": "writing camps, co-writes and mentorship norms",
+  "items": [
+   29,
+   43,
+   88,
+   223,
+   259,
+   480,
+   578,
+   584,
+   891,
+   899,
+   929,
+   1004,
+   1145
+  ]
+ },
+ {
+  "id": "F033",
+  "topic": "equity, ownership stakes and founder pools in imprints",
+  "items": [
+   903,
+   914,
+   1085
+  ]
+ },
+ {
+  "id": "F034",
+  "topic": "name and group-asset ownership in bands and ensembles",
+  "items": [
+   15,
+   97,
+   125,
+   498,
+   742,
+   1030,
+   1286
+  ]
+ },
+ {
+  "id": "F035",
+  "topic": "freelancer payment recovery and invoicing norms",
+  "items": [
+   22,
+   167,
+   389,
+   697,
+   819
+  ]
+ },
+ {
+  "id": "F036",
+  "topic": "game and media audio contracts, buyouts and credit language",
+  "items": [
+   189,
+   195,
+   625,
+   670,
+   1046,
+   1164
+  ]
+ },
+ {
+  "id": "F037",
+  "topic": "live-streaming, fan chat and image-abuse reporting for young performers",
+  "items": [
+   1363,
+   1369
+  ]
+ },
+ {
+  "id": "F038",
+  "topic": "cancellation, late-cancellation and insurance terms in performance agreements",
+  "items": [
+   215,
+   436
+  ]
+ },
+ {
+  "id": "F039",
+  "topic": "charitable giving, gala pledges and reporting of donations",
+  "items": [
+   998,
+   1004,
+   1055,
+   1145
+  ]
+ },
+ {
+  "id": "F040",
+  "topic": "competition, ranking and benchmark displays for performers",
+  "items": [
+   29,
+   206,
+   241,
+   878,
+   882,
+   888,
+   958
+  ]
+ },
+ {
+  "id": "F041",
+  "topic": "venue licensing, renewals and inspections",
+  "items": [
+   607
+  ]
+ },
+ {
+  "id": "F042",
+  "topic": "booking, exclusivity and non-solicitation clauses for touring ensembles",
+  "items": [
+   106,
+   125,
+   145,
+   584,
+   644,
+   985,
+   1020,
+   1154
+  ]
+ },
+ {
+  "id": "F043",
+  "topic": "variable-ratio and unpredictable reward schedules in behaviour and attention",
+  "items": [
+   1174
+  ]
+ },
+ {
+  "id": "F044",
+  "topic": "independent legal representation and written terms as a negotiating condition",
+  "items": [
+   10
+  ]
+ },
+ {
+  "id": "F045",
+  "topic": "claims about what is 'standard' or 'how it works in the industry' in music deals",
+  "items": [
+   775,
+   1225,
+   1156
+  ]
+ }
+]
