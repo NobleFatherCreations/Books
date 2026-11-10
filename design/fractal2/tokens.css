@@ -36,6 +36,9 @@
   /* motion */
   --ease:cubic-bezier(.16,1,.3,1); --ease-io:cubic-bezier(.65,0,.35,1);
   --d1:.2s; --d2:.32s; --d3:.7s;
+  /* names THE HOUSE drawer (design/decoder-v10/assets/house.html) expects from its host page */
+  --accent:var(--gold); --accent-ink:var(--on-gold); --accent-grad:var(--gold-2); --glow-1:rgba(233,185,73,.35);
+  --line2:var(--line-2); --mut:var(--ink-2); --edge-hi:rgba(255,255,255,.06); --mono:var(--sans);
 }
 @media (prefers-color-scheme:light){
   :root{

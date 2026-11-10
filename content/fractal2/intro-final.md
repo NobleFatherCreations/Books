@@ -545,8 +545,13 @@ You are not afraid of this room anymore. You can stay, or you can leave. And whe
 
 **The map begins here.**
 
-**Enter the first sector: the Entertainment & Music Industry.** Three hundred and thirty-five tactics at three levels. One hundred and fifty-three combinations, each with its signs, its tests and its way out. If you do not know where to start, start with the ten that matter most.
+**The first sector is the Entertainment & Music Industry.** Three hundred and thirty-five tactics at three levels. One hundred and fifty-three combinations, each with its signs, its tests and its way out.
+
+<!--cta:/fractal2/entertainment | Enter the first sector-->
+<!--cta2:/fractal2/entertainment/start | Or start with the ten that matter most-->
 
 **New to all of this?** *The Fractal* is where it started: eight stages, thirty techniques, thirty sectors.
+
+<!--cta2:/fractal | Read The Fractal-->
 
 *This work names patterns, never people. It is for recognition and for finding safe help. It is never a playbook, a diagnosis or a verdict. The scenes in it are composites. If you or anyone you know is in danger, reach real help first: emergency services, a crisis line, or child protection if a child is involved.*
