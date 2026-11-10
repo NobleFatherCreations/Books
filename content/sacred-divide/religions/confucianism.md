@@ -4,7 +4,7 @@ title: "Confucianism"
 family: "East Asian"
 family_id: east-asian
 family_members: [taoism, confucianism, shinto]
-version: v4
+version: v5
 checked: 2026-10-03
 sections_filled: 27/27
 missing: []

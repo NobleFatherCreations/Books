@@ -10,8 +10,18 @@
     "deploySource": "cli",
     "localSource": "hub/catalogue-redesign.html",
     "localSourceNote": "This is the first verified live deploy of the redesigned 'collected works' hub. A 2026-08-02 review package claimed the catalogue hub redesign was already deployed, but it did NOT byte-match live content at the time -- treat this 2026-08-05 deploy as the true first release.",
-    "version": "v15",
+    "version": "v17",
     "changelog": [
+      {
+        "date": "2026-11-08",
+        "version": "v17",
+        "summary": "Homepage HTML 21.3 MB -> 0.18 MB: song, intro video (recompressed), pictures (WebP at display size) and fonts (subset WOFF2) moved to /media and /f on the hub site; intro plays in the hero background (no lock, no gate, no tour, no autoplay sound); Start here chooser; books first; Art door opens /portals; phone menu; card facts updated (Festie Bible 21/270, Festie Codex 33, Sacred Divide 34, The Listening Room)."
+      },
+      {
+        "date": "2026-11-08",
+        "version": "v16",
+        "summary": "Homepage head: canonical, share card (og.png), WebSite + Organization + ItemList structured data, clearer title/description; menu label fixes; robots.txt lists all nine sitemaps and names more AI crawlers; new llms.txt map of the library."
+      },
       {
         "date": "2026-10-27",
         "version": "v15",
@@ -89,9 +99,25 @@
       }
     ],
     "siteFiles": [
+      "hub/3b85ef6f77878fe76e9845021f786fce.txt",
+      "hub/f/",
+      "hub/llms.txt",
+      "hub/media/",
+      "hub/og.png",
       "hub/robots.txt",
-      "hub/sitemap.xml"
-    ]
+      "hub/sitemap.xml",
+      "hub/topics.html"
+    ],
+    "buildCommand": "python3 scripts/seo/build_hub.py && python3 scripts/seo/build_site.py",
+    "lastDeploy": {
+      "id": "6af1238b68fb202899c80068",
+      "date": "2026-11-09",
+      "verified": "verify-deployed: in sync"
+    },
+    "pendingDeploy": {
+      "since": "2026-11-09",
+      "note": "Repo is ahead of live by two lines only: the /fractal/entertainment proxy rules in hub/catalogue-redesign._redirects and one Sitemap line in hub/robots.txt. The page itself is unchanged. Deploy blocked by the permission classifier; awaiting the owner's 'deploy the homepage'. Staging recipe: index.html + _redirects + hub.siteFiles."
+    }
   },
   "projects": [
     {
@@ -108,8 +134,18 @@
         "found": false,
         "checkedAt": "2026-08-02"
       },
-      "version": "v18",
+      "version": "v20",
       "changelog": [
+        {
+          "date": "2026-11-09",
+          "version": "v20",
+          "summary": "The standard list: 335 single tactics (110 new), duplicates merged under standard names, Gaslighting, DARVO, FOG, Trauma Bonding and 28 more kept as patterns on their own pages with what they are made of; stage and standard number on every tactic; each tactic lists the book chapters that mention it; Patterns page; every old address redirects; licence and author on every page."
+        },
+        {
+          "date": "2026-10-27",
+          "version": "v19",
+          "summary": "One scroll per tactic with a sticky four-part section index (keys 1-4, old /entry/slug/N links scroll to the section); the tabs, step bar, dock, swipe and every map or dot-track picture removed; Browse replaces the map; search field on Home; Quiet colours default with Vivid opt-in; frosted bars and grouped lists; sign bar slides away while reading down. Plain pages share the look. Findability: link-preview image, robots max-snippet, dateModified, /playbook/llms.txt. Suite 106 checks."
+        },
         {
           "date": "2026-10-27",
           "version": "v18",
@@ -210,12 +246,12 @@
       "repoPath": "instruments/playbook/site",
       "dataSource": "content/playbook-data.json",
       "lastDeploy": {
-        "date": "2026-10-27",
-        "version": "v18",
-        "deployId": "6ae0a61aff2b9cdb5d09a3c4",
-        "method": "netlify MCP deploy-site -> npx @netlify/mcp from a staging copy of instruments/playbook/site (324 files, 15 MB)",
-        "verified": "verify-deployed: 322 files identical to live; live Playwright 390: reading mode, compare stack, no stray quotes, day champagne, no page errors; suite 112/112",
-        "replaced": "v17 deploy 6ae09db8439c5c4311f80851"
+        "date": "2026-11-09",
+        "version": "v20",
+        "deployId": "6af18f945eb27bb2b5d54b14",
+        "method": "netlify MCP deploy-site from a staging copy of instruments/playbook/site (384 files, 19 MB)",
+        "verified": "verify-deployed: 380 files identical to live; 301s for old addresses checked live; suite 105/106 (timing check, same on v19); axe clean",
+        "replaced": "v19 deploy 6ae0da00e86b4d164b8a4f3f"
       },
       "openItems": [
         {
@@ -308,7 +344,10 @@
         }
       ],
       "section": "instruments",
-      "repoPath": "instruments/shadowroot/index.html"
+      "repoPath": "instruments/shadowroot/index.html",
+      "pendingDeploy": {
+        "note": "Repo is AHEAD of live. Menu label fix (2026-11-08: Sacred Divide subtitle, Decoder 310 tactics, The Listening Room) is in the repo only; it ships with this site's own next round."
+      }
     },
     {
       "codename": "sovereign",
@@ -324,8 +363,13 @@
         "found": false,
         "checkedAt": "2026-08-02"
       },
-      "version": "v5",
+      "version": "v6",
       "changelog": [
+        {
+          "date": "2026-11-08",
+          "version": "v6",
+          "summary": "Every chapter, the 30-Minute Rescue and Appendices B and C now have their own findable pages (46 + contents); share card, structured data, sitemap; copyright template placeholder replaced with the free licence (CC BY-NC-ND 4.0); old children's-book title corrected; 5 double-escaped ampersands and a broken Appendix B sentence fixed."
+        },
         {
           "date": "2026-09-01",
           "version": "v5",
@@ -342,8 +386,13 @@
           "summary": "Baseline entry - version tracking starts here; earlier history not reconstructed."
         }
       ],
-      "repoPath": "library/feminine/index.html",
-      "section": "library"
+      "repoPath": "library/feminine/",
+      "section": "library",
+      "lastDeploy": {
+        "date": "2026-11-09",
+        "deployId": "6af11b070c386018bd5ced31",
+        "note": "Round 1 findability; verify-deployed in sync (all pages)."
+      }
     },
     {
       "codename": "playground",
@@ -359,8 +408,13 @@
         "found": false,
         "checkedAt": "2026-08-02"
       },
-      "version": "v5",
+      "version": "v6",
       "changelog": [
+        {
+          "date": "2026-11-08",
+          "version": "v6",
+          "summary": "All 28 missions plus the grown-ups' note, Power-Up guide, glossary, feelings index, cheat sheets, pledge and resources now have their own findable pages (35 + contents), titled with each mission's plain-language trick; share card, structured data (audience: kids and grown-ups), sitemap; a real page heading for the cover; free licence (CC BY-NC-ND 4.0) replaces 'All rights reserved'; clearer analytics wording."
+        },
         {
           "date": "2026-09-01",
           "version": "v5",
@@ -377,8 +431,13 @@
           "summary": "Baseline entry - version tracking starts here; earlier history not reconstructed."
         }
       ],
-      "repoPath": "library/children/index.html",
-      "section": "library"
+      "repoPath": "library/children/",
+      "section": "library",
+      "lastDeploy": {
+        "date": "2026-11-09",
+        "deployId": "6af11b3153b8c9ec0981cfe5",
+        "note": "Round 1 findability; verify-deployed in sync (all pages)."
+      }
     },
     {
       "codename": "festie+codex",
@@ -395,8 +454,13 @@
         "found": false,
         "checkedAt": "2026-08-02"
       },
-      "version": "v14",
+      "version": "v15",
       "changelog": [
+        {
+          "date": "2026-11-08",
+          "version": "v15",
+          "summary": "All 33 chapters, the opening essays, the author's confession and 22 appendices (including the Good Samaritan guide, harm-reduction organisations and the pre-event checklist) now have their own findable pages (64 + contents), with track names as real headings; share card, structured data, sitemap; free licence (CC BY-NC-ND 4.0) replaces 'All rights reserved'."
+        },
         {
           "date": "2026-09-19",
           "version": "v14",
@@ -473,13 +537,18 @@
           "summary": "Baseline entry - version tracking starts here; earlier history not reconstructed."
         }
       ],
-      "repoPath": "library/wook/index.html",
+      "repoPath": "library/wook/",
       "section": "library",
       "deployNote": "Not a git deploy despite gitRepo being set. The Netlify MCP connector issues a one-shot proxy command run from library/wook/, which uploads the directory and builds it in Netlify's system. Verified 2026-09-15.",
-      "liveVersion": "v14",
+      "liveVersion": "v15",
       "liveVerifiedAt": "2026-09-19",
       "liveVerifiedNote": "Deployed via netlify-deploy-services-updater deploy-site + the returned one-shot proxy command, run from library/wook/. Live bytes (md5, 71a7871f...) confirmed identical to library/wook/index.html, both directly against the Netlify site URL and through the noblefathercreations.com/wook proxy path (200, 14,119,027 bytes all three). v14 patch note text and the rewritten Chapter 32 Save (the 'THEY FEEL SAFER THAN THEY ARE' line) both confirmed present on the live page. This field records what is actually live; 'version' records what has been built.",
-      "reviewInProgress": "Full chapter-by-chapter review under content/wook-audits/wook-full-review-plan.md complete, including pass D2. v10 deployed 2026-09-15; see changelog."
+      "reviewInProgress": "Full chapter-by-chapter review under content/wook-audits/wook-full-review-plan.md complete, including pass D2. v10 deployed 2026-09-15; see changelog.",
+      "lastDeploy": {
+        "date": "2026-11-09",
+        "deployId": "6af11bc4c1816776b885dc9f",
+        "note": "Round 1 findability; verify-deployed in sync (all pages)."
+      }
     },
     {
       "codename": "fractal",
@@ -495,8 +564,13 @@
         "found": false,
         "checkedAt": "2026-08-02"
       },
-      "version": "v3",
+      "version": "v4",
       "changelog": [
+        {
+          "date": "2026-11-08",
+          "version": "v4",
+          "summary": "Every essay and all 26 finished sectors now have their own findable pages (34 + contents), rendered from the book's own text; share card, structured data, sitemap; first Editorial & Legal Notice with a corrections address; free licence (CC BY-NC-ND 4.0)."
+        },
         {
           "date": "2026-09-01",
           "version": "v3",
@@ -513,8 +587,13 @@
           "summary": "Baseline entry - version tracking starts here; earlier history not reconstructed."
         }
       ],
-      "repoPath": "library/fractal/index.html",
-      "section": "library"
+      "repoPath": "library/fractal/",
+      "section": "library",
+      "lastDeploy": {
+        "date": "2026-11-09",
+        "deployId": "6af11b5c1255ca0f56129311",
+        "note": "Round 1 findability; verify-deployed in sync (all pages)."
+      }
     },
     {
       "codename": "allfracture",
@@ -535,8 +614,13 @@
         "found": false,
         "checkedAt": "2026-08-02"
       },
-      "version": "v5",
+      "version": "v6",
       "changelog": [
+        {
+          "date": "2026-11-08",
+          "version": "v6",
+          "summary": "Every episode now has its own findable page (13 pages + contents), with search titles and descriptions, share card, structured data (Book, Chapter, sources as citations), sitemap, free licence (CC BY-NC-ND 4.0) and corrected analytics wording."
+        },
         {
           "date": "2026-09-01",
           "version": "v5",
@@ -558,8 +642,13 @@
           "summary": "Baseline entry - version tracking starts here; earlier history not reconstructed."
         }
       ],
-      "repoPath": "library/fracture/index.html",
-      "section": "library"
+      "repoPath": "library/fracture/",
+      "section": "library",
+      "lastDeploy": {
+        "date": "2026-11-09",
+        "deployId": "6af11ac8ecb9ca19341af288",
+        "note": "Round 1 findability; verify-deployed in sync (all pages)."
+      }
     },
     {
       "codename": null,
@@ -600,9 +689,10 @@
       ],
       "repoPath": "library/loop/index.html",
       "section": "library",
-      "pendingDeploy": {
-        "since": "2026-10-24",
-        "note": "Repo is AHEAD of live. It names the faith book 'The Sacred Divide' (renamed 2026-09-27; live on /faith since 2026-09-28); live still says 'The Coercive Control Codex' in this book's menu. Only that text differs, 2 lines in the menu. Needs the owner's explicit go-ahead to deploy (single-file site, id b9405b37-a71c-4c55-bbd2-a3043963b457)."
+      "lastDeploy": {
+        "date": "2026-11-08",
+        "deployId": "6af0f8994deb519e0faa55d6",
+        "note": "Sacred Divide name + menu label fixes; verify-deployed in sync."
       }
     },
     {
@@ -645,8 +735,7 @@
       "repoPath": "library/scale/index.html",
       "section": "library",
       "pendingDeploy": {
-        "since": "2026-10-24",
-        "note": "Repo is AHEAD of live. It names the faith book 'The Sacred Divide' (renamed 2026-09-27; live on /faith since 2026-09-28); live still says 'The Coercive Control Codex' in this book's menu and in two sentences. Only that text differs, 2 lines in the menu plus 4 in body text. Needs the owner's explicit go-ahead to deploy (single-file site, id 27ab9f53-5850-4fb1-8bed-6513b33ee11f)."
+        "note": "Repo is AHEAD of live. It names the faith book 'The Sacred Divide' (renamed 2026-09-27; live on /faith since 2026-09-28); live still says 'The Coercive Control Codex' in this book's menu and in two sentences. Only that text differs, 2 lines in the menu plus 4 in body text. Needs the owner's explicit go-ahead to deploy (single-file site, id 27ab9f53-5850-4fb1-8bed-6513b33ee11f). Menu label fix (2026-11-08: Sacred Divide subtitle, Decoder 310 tactics, The Listening Room) is in the repo only; it ships with this site's own next round."
       }
     },
     {
@@ -661,11 +750,21 @@
       "hasGitRepo": false,
       "houseTabLeak": {
         "found": false,
-        "checkedAt": "2026-09-28",
-        "note": "v4 carries the shared Catalogue drawer installed from scripts/nf-install-chrome.py. Generated pages scanned before deploy: no HTML comments, no build notes, no placeholders."
+        "checkedAt": "2026-10-27",
+        "note": "v5 pages generated by scripts/sacred-divide-site.py --live and scanned before deploy: no HTML comments, no build notes, no placeholders, no old help-line numbers, no external requests except the intended anonymous Cloudflare visit counter."
       },
-      "version": "v4",
+      "version": "v6",
       "changelog": [
+        {
+          "date": "2026-11-08",
+          "version": "v6",
+          "summary": "All 34 tradition pages and the front page now carry search titles and descriptions, share card, structured data (Book, Chapter, breadcrumbs) and a sitemap; a notice on what the record is and is not, with a corrections address; free licence (CC BY-NC-ND 4.0) on every page. No tradition text changed."
+        },
+        {
+          "date": "2026-10-27",
+          "version": "v5",
+          "summary": "Every page fact-checked again against its sources: facts, dates, counts and grades corrected on all 34 pages (about 7,770 logged edits), each page listing its own corrections in \"What changed on this page\". Help-line details corrected (Faith to Faithless now shows its verified freephone number and opening hours). Seven traditions (Ahmadiyya, Anglicanism, Dawoodi Bohra, Oriental Orthodoxy, Plymouth Brethren, Soka Gakkai, Unification Church) now give each of the 30 techniques its own entry with a note on its grade. Wording that assumed belief in God changed for traditions that do not teach one. New PDFs, one per tradition, matching the pages: US Letter, 4,541 pages in total, larger type, contents and reading guide, tagged for screen readers (PDF/UA-1). Parsi Supreme Court note re-checked 27 October 2026, no verdict reported. Page design unchanged from v4."
+        },
         {
           "date": "2026-09-29",
           "version": "v4",
@@ -690,12 +789,17 @@
       "repoPath": "library/faith/",
       "section": "library",
       "repoPathConflict": "RESOLVED 2026-09-28: v4 replaced the old single-file lineage. library/faith/ now holds the live build (index + 34 tradition pages); the PDFs are build output, regenerated by scripts/sacred-divide-pdf.py --all and scripts/sacred-divide-pdf-expanded.py --all.",
-      "buildCommand": "python3 scripts/sacred-divide-site.py --base /faith/ --pdf-base /faith/pdf/ --pdf-flat --ext \"\" --live --out library/faith",
-      "deployDir": "library/faith/*.html; pdf/<id>.pdf = library/_undeployed/sacred-divide-pdf/expanded/<id>-expanded.pdf (one PDF edition only, with the reader narration); codex.html = library/_undeployed/sacred-divide-v4-factchecked.html with HTML comments stripped (the reference edition, at /faith/codex)",
+      "buildCommand": "python3 scripts/sacred-divide-site.py --base /faith/ --pdf-base /faith/pdf/ --pdf-flat --ext \"\" --live --out library/faith && python3 scripts/seo/build_faith.py",
+      "deployDir": "library/faith/*.html; pdf/<id>.pdf = library/_undeployed/sacred-divide-v5/<id>-expanded.pdf (one PDF edition, the full record); codex.html = library/_undeployed/sacred-divide-v4-factchecked.html with HTML comments stripped (the reference edition, at /faith/codex); favicon.ico unchanged from v4",
       "supersededRelease": {
         "version": "v4-candidate (single file)",
         "file": "library/_undeployed/sacred-divide-v4-candidate.html",
         "note": "Never shipped. Superseded 2026-09-28 by the one-page-per-tradition redesign. Carried over from its owner decisions: the anonymous Cloudflare visit counter, and truthful privacy wording. Not carried over: the on-device section saver (the redesign keeps its state in the URL instead of storage)."
+      },
+      "lastDeploy": {
+        "date": "2026-11-09",
+        "deployId": "6af11c02233ad861dc5cea34",
+        "note": "Round 1 findability; verify-deployed in sync (all pages)."
       }
     },
     {
@@ -736,7 +840,10 @@
         }
       ],
       "section": "instruments",
-      "repoPath": "instruments/music/index.html"
+      "repoPath": "instruments/music/index.html",
+      "pendingDeploy": {
+        "note": "Repo is AHEAD of live. Menu label fix (2026-11-08: Sacred Divide subtitle, Decoder 310 tactics, The Listening Room) is in the repo only; it ships with this site's own next round."
+      }
     },
     {
       "codename": "festie+bible",
@@ -753,8 +860,13 @@
         "found": false,
         "checkedAt": "2026-08-10"
       },
-      "version": "v10",
+      "version": "v11",
       "changelog": [
+        {
+          "date": "2026-11-08",
+          "version": "v11",
+          "summary": "All 21 guides and 270 scenarios now have their own findable pages (291 + contents), each titled with the scenario's plain clinical name; share card, structured data, sitemap; a real page heading for the app; not-advice line, corrections address and free licence (CC BY-NC-ND 4.0) replace 'All rights reserved'; v11 entry in the book's own changelog."
+        },
         {
           "date": "2026-09-17",
           "version": "v10",
@@ -806,10 +918,15 @@
           "summary": "First build. All 12 guides (G.R.O.V.E./B.A.S.S./R.A.V.E./P.R.I.D.E./C.R.E.A.T.E./S.O.U.N.D./M.A.R.K.E.T./H.O.L.D./C.A.R.E./L.E.A.D./E.V.E.N.T./S.A.F.E.), 149 scenario pages, extracted and rebuilt with a real logo (the source PDF's brand mark rendered at ~10% opacity -- fixed), reading-progress bar, in-guide contents drawer, and a persistent crisis-resource strip."
         }
       ],
-      "repoPath": "library/festival/index.html",
+      "repoPath": "library/festival/",
       "section": "library",
-      "liveVersion": "v10",
-      "liveVerifiedAt": "2026-09-17"
+      "liveVersion": "v11",
+      "liveVerifiedAt": "2026-09-17",
+      "lastDeploy": {
+        "date": "2026-11-09",
+        "deployId": "6af11b8a64d52a983cca7517",
+        "note": "Round 1 findability; verify-deployed in sync (all pages)."
+      }
     },
     {
       "codename": null,
@@ -850,7 +967,10 @@
         }
       ],
       "section": "library",
-      "netlifyUrl": "https://noble-the-long-after.netlify.app/"
+      "netlifyUrl": "https://noble-the-long-after.netlify.app/",
+      "pendingDeploy": {
+        "note": "Repo is AHEAD of live. Menu label fix (2026-11-08: Sacred Divide subtitle, Decoder 310 tactics, The Listening Room) is in the repo only; it ships with this site's own next round."
+      }
     },
     {
       "codename": null,
@@ -891,7 +1011,10 @@
         }
       ],
       "section": "library",
-      "netlifyUrl": "https://noble-the-silence.netlify.app/"
+      "netlifyUrl": "https://noble-the-silence.netlify.app/",
+      "pendingDeploy": {
+        "note": "Repo is AHEAD of live. Menu label fix (2026-11-08: Sacred Divide subtitle, Decoder 310 tactics, The Listening Room) is in the repo only; it ships with this site's own next round."
+      }
     },
     {
       "codename": null,
@@ -932,7 +1055,10 @@
         }
       ],
       "section": "library",
-      "netlifyUrl": "https://noble-at-will.netlify.app/"
+      "netlifyUrl": "https://noble-at-will.netlify.app/",
+      "pendingDeploy": {
+        "note": "Repo is AHEAD of live. Menu label fix (2026-11-08: Sacred Divide subtitle, Decoder 310 tactics, The Listening Room) is in the repo only; it ships with this site's own next round."
+      }
     },
     {
       "codename": null,
@@ -973,7 +1099,10 @@
         }
       ],
       "section": "library",
-      "netlifyUrl": "https://noble-the-repair.netlify.app/"
+      "netlifyUrl": "https://noble-the-repair.netlify.app/",
+      "pendingDeploy": {
+        "note": "Repo is AHEAD of live. Menu label fix (2026-11-08: Sacred Divide subtitle, Decoder 310 tactics, The Listening Room) is in the repo only; it ships with this site's own next round."
+      }
     },
     {
       "codename": null,
@@ -1014,7 +1143,34 @@
         }
       ],
       "section": "library",
-      "netlifyUrl": "https://noble-the-slow-take.netlify.app/"
+      "netlifyUrl": "https://noble-the-slow-take.netlify.app/",
+      "pendingDeploy": {
+        "note": "Repo is AHEAD of live. Menu label fix (2026-11-08: Sacred Divide subtitle, Decoder 310 tactics, The Listening Room) is in the repo only; it ships with this site's own next round."
+      }
+    },
+    {
+      "codename": "fractal-ent",
+      "slug": "fractal-entertainment",
+      "title": "The Fractal: Entertainment & Music Industry",
+      "tagline": "Sector deep dive: 335 tactics at three altitudes, 153 patterns",
+      "url": "https://fractal-entertainment.netlify.app/fractal/entertainment",
+      "finalUrl": "https://noblefathercreations.com/fractal/entertainment",
+      "urlNote": "Served from the sector's own Netlify address until the hub deploy carrying the /fractal/entertainment proxy rule ships; then switch url to finalUrl.",
+      "netlifySite": "fractal-entertainment",
+      "netlifySiteId": "194814a7-0e80-4b68-b314-0c07911af55a",
+      "deploySource": "cli (via @netlify/mcp deploy-site), from a staging copy of library/fractal/sectors/ent/site",
+      "hasGitRepo": false,
+      "repoPath": "library/fractal/sectors/ent/site/fractal/entertainment",
+      "buildRecipe": "design/fractal-sector/run.sh ent (ingest + audit, build, social cards, verify 16 checks); publish dir library/fractal/sectors/ent/site",
+      "section": "library",
+      "version": "v1",
+      "changelog": [
+        {
+          "date": "2026-11-09",
+          "version": "v1",
+          "summary": "First edition online in the field-guide look of the sector PDFs: 335 tactics across eight stages, 153 patterns in ten families, the ten that matter most, sector standards and an A to Z. Deploy 6af1aefc6c9586bcb9b0274c."
+        }
+      ]
     }
   ],
   "craftBusiness": [
@@ -1182,6 +1338,49 @@
       "intendedUrl": "https://noblefathercreations.com/faith (same Netlify site as 'faith': thenobledivide)",
       "status": "NOW LIVE as the faith book, v4 (deployed 2026-09-28 from library/faith/; every one of its 35 pages is byte-identical to live as of 2026-10-24). library/_undeployed/* holds earlier candidates, kept as history.",
       "description": "Retitled from 'The Coercive Control Codex' to 'The Sacred Divide.' Three-register redesign for tactic entries (how it appears / the defense / the counter), parchment + dark theme, no leak present in this version at all."
+    },
+    {
+      "codename": "fractal2-intro",
+      "title": "Fractal² — the introduction",
+      "localSource": "library/fractal2/site/fractal2.html",
+      "repoPath": "library/fractal2/site",
+      "intendedUrl": "https://noblefathercreations.com/fractal2",
+      "pendingDeploy": true,
+      "status": "BUILT, NOT DEPLOYED (2026-11-10). No Netlify site exists for it yet. Needs the owner's explicit go-ahead, a new Netlify site publishing library/fractal2/site, and two hub proxy rules (library/fractal2/redirects/HUB-RULES.txt).",
+      "buildRecipe": "python3 design/fractal2/build_intro.py; node design/fractal2/verify_intro.mjs. Text: content/fractal2/intro-final.md.",
+      "description": "One scroll-driven page: the summary of The Fractal, the true map (335 tactics per sector), the combinations, and the way into the sector sites. Narration player with a silent placeholder until the owner's recording exists.",
+      "version": "v1",
+      "changelog": [
+        {
+          "date": "2026-11-10",
+          "version": "v1",
+          "summary": "First edition of the introduction (not yet published)."
+        }
+      ]
+    },
+    {
+      "codename": "fractal2-ent",
+      "title": "Fractal² — Entertainment & Music Industry",
+      "localSource": "library/fractal2/site/fractal2/entertainment.html",
+      "repoPath": "library/fractal2/site/fractal2/entertainment",
+      "intendedUrl": "https://noblefathercreations.com/fractal2/entertainment",
+      "pendingDeploy": true,
+      "status": "BUILT, NOT DEPLOYED (2026-11-10). Replaces the public prototype 'fractal-entertainment' (v1) once the owner says so; old addresses are mapped in library/fractal2/redirects/old-prototype._redirects (not deployed).",
+      "buildRecipe": "design/fractal-sector/run.sh ent (ingest, derive, build, social cards, verify). Navigation: content/fractal2/NAV-SPEC.md. Tag resolution: design/fractal-sector/resolve.py.",
+      "description": "The first sector at full resolution: 335 tactics (a page each), 153 combinations with three reading modes, paths by reader, filterable patterns, search, sector switcher.",
+      "version": "v2",
+      "changelog": [
+        {
+          "date": "2026-11-10",
+          "version": "v2",
+          "summary": "Moved to Fractal² with new ways in: start by where you are, filter all 153 patterns, read any pattern in two minutes, and a page for every tactic (not yet published)."
+        },
+        {
+          "date": "2026-11-09",
+          "version": "v1",
+          "summary": "First edition (the public prototype at fractal-entertainment.netlify.app)."
+        }
+      ]
     }
   ],
   "unmappedNetlifySites": [],

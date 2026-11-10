@@ -1,0 +1,336 @@
+[
+ {
+  "id": "F001",
+  "topic": "recoupment and cross-collateralization of advances and costs",
+  "statement": "In recording agreements, advances and certain categories of cost are commonly recouped from the artist's royalties before royalties become payable, and UK government-backed guidance asks labels to state in the contract which categories of cost are recoupable. A parliamentary committee reported that some legacy deals can still be recouping against old production and distribution costs. Cross-collateralization (recouping across agreements) was not supported by an acceptable source in this run and is not covered.",
+  "scope": "general; terms vary by contract and country",
+  "sources": [
+   {
+    "url": "https://www.gov.uk/guidance/uk-voluntary-code-of-good-practice-on-transparency-in-music-streaming.",
+    "title": "UK Voluntary Code of Good Practice on Transparency in Music Streaming",
+    "publisher": "UK Intellectual Property Office (GOV.UK)",
+    "published": "2024-01",
+    "accessed": "2026-11-10",
+    "quote": "how royalties will be calculated including any categories of recoupable costs"
+   },
+   {
+    "url": "https://www.gov.uk/guidance/uk-voluntary-code-of-good-practice-on-transparency-in-music-streaming.",
+    "title": "UK Voluntary Code of Good Practice on Transparency in Music Streaming - GOV.UK",
+    "publisher": "UK Intellectual Property Office (GOV.UK)",
+    "published": "2024-01",
+    "accessed": "2026-11-10",
+    "quote": "any advances are to be recouped before royalties become payable"
+   },
+   {
+    "url": "https://www.wired-gov.net/wg/news.nsf/print/MPs+call+for+a+complete+reset+of+music+streaming+to+fairly+reward+performers+and+creators+15072021150500",
+    "title": "MPs call for a 'complete reset' of music streaming (DCMS Committee release)",
+    "publisher": "UK Parliament, Digital, Culture, Media and Sport Committee (via Wired-Gov)",
+    "published": "2021-07-15",
+    "accessed": "2026-11-10",
+    "quote": "Many labels do not write off debts meaning that deals signed decades ago can still recoup against initial production and distribution costs."
+   }
+  ],
+  "confidence": "medium",
+  "notes": "Statement limited to recoupment; cross-collateralization only described by law-firm blogs and glossaries, which were not used. Named label statements in the release not carried into the page."
+ },
+ {
+  "id": "F002",
+  "topic": "approval rights over name, image and styling in recording agreements",
+  "statement": "Recording agreements commonly deal with how a label may use an artist's name, likeness and biography, and with who approves creative and marketing decisions. Labels generally expect the last say on marketing and what goes to market, while artists can often negotiate approval or consultation rights over particular uses, so whether a given clause covers later artistic directions depends on its wording.",
+  "scope": "general; terms vary by contract and country",
+  "sources": [
+   {
+    "url": "https://artslaw.com.au/wp-content/uploads/2024/06/09_Recording_Agreement_Factsheet.pdf",
+    "title": "Recording Agreement Fact Sheet",
+    "publisher": "Arts Law Centre of Australia",
+    "published": "",
+    "accessed": "2026-11-10",
+    "quote": "it is often possible to negotiate quite nuanced approvals and consultation rights in favour of the Artist."
+   },
+   {
+    "url": "https://artslaw.com.au/wp-content/uploads/2024/06/09_Recording_Agreement_Factsheet.pdf",
+    "title": "Recording Agreement Fact Sheet (artistic control section)",
+    "publisher": "Arts Law Centre of Australia",
+    "published": "",
+    "accessed": "2026-11-10",
+    "quote": "the issue of who has creative control over what is recorded and whether it’s acceptable to take to market, is usually very closely negotiated."
+   }
+  ],
+  "confidence": "medium",
+  "notes": "Source is an Australian legal-centre fact sheet; no regulator or union page on image approval was reachable. The sentence 'those clauses can be read to cover directions the artist later wants to take' is not itself sourced."
+ },
+ {
+  "id": "F003",
+  "topic": "delivery standards and acceptance in recording agreements ('commercially satisfactory')",
+  "statement": "Recording agreements commonly make delivery depend on the label's acceptance of the recordings. A practitioner source describes 'commercially satisfactory' as the most common delivery standard and 'technically satisfactory' as a rarer, artist-friendly alternative; a legal-centre fact sheet notes labels may specify minimums such as 'acceptable' commercial quality. Whether the standard or the decision-maker is defined varies by contract.",
+  "scope": "general; terms vary by contract and country",
+  "sources": [
+   {
+    "url": "https://benmclane.com/delivery.htm",
+    "title": "Music and entertainment law: delivery",
+    "publisher": "McLane and Wong (entertainment law practice)",
+    "published": "",
+    "accessed": "2026-11-10",
+    "quote": "The most common standard is that the artist must deliver commercially satisfactory recordings."
+   },
+   {
+    "url": "https://benmclane.com/delivery.htm",
+    "title": "Music and entertainment law: delivery",
+    "publisher": "McLane and Wong (entertainment law practice)",
+    "published": "",
+    "accessed": "2026-11-10",
+    "quote": "The better - but more rare - standard for an artist is known as delivering technically satisfactory recordings."
+   },
+   {
+    "url": "https://artslaw.com.au/wp-content/uploads/2024/06/09_Recording_Agreement_Factsheet.pdf",
+    "title": "Recording Agreement Fact Sheet",
+    "publisher": "Arts Law Centre of Australia",
+    "published": "",
+    "accessed": "2026-11-10",
+    "quote": "The label may also specify some minimums for what must be delivered, in terms of playing length, “acceptable” commercial quality etc."
+   }
+  ],
+  "confidence": "medium",
+  "notes": "Supports that the wording exists and is negotiated; does not establish how often the standard is left undefined, so 'cannot be tested' is the script's inference."
+ },
+ {
+  "id": "F007",
+  "topic": "minors in entertainment: work permits, chaperones, studio teachers, guardian-held earnings",
+  "statement": "Jurisdictions regulate children working in entertainment through permits or licences, supervision by approved chaperones or studio teachers, and parent or guardian involvement; the rules differ by place. Rules on holding a minor's earnings in trust were not confirmed from a fetched official page in this run.",
+  "scope": "general; varies by country and state",
+  "sources": [
+   {
+    "url": "https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/401345/Child_performance_and_activities_licensing_legislation_in_England_-_departmental_advice_-_final.pdf",
+    "title": "Child performance and activities licensing legislation in England: departmental advice",
+    "publisher": "UK Department for Education (GOV.UK)",
+    "published": "",
+    "accessed": "2026-11-10",
+    "quote": "Chaperones must be approved by the local authority that has granted the relevant licence to the child"
+   },
+   {
+    "url": "https://dol.alaska.gov/lss/forms/workpermitent-info.pdf",
+    "title": "Entertainment Work Permits (information sheet)",
+    "publisher": "Alaska Department of Labor and Workforce Development",
+    "published": "2025-01",
+    "accessed": "2026-11-10",
+    "quote": "There are times when a minor under the age of 16 must be supervised by an approved studio teacher."
+   },
+   {
+    "url": "https://www.dir.ca.gov/dlse/entertainment-work-permit.htm",
+    "title": "Entertainment Work Permit for Minors",
+    "publisher": "California Department of Industrial Relations, Labor Commissioner's Office",
+    "published": "",
+    "accessed": "2026-11-10",
+    "quote": "All minors working in the entertainment industry in California must register"
+   }
+  ],
+  "confidence": "high",
+  "notes": "Three jurisdictions show a pattern, not a universal rule. The U.S. DOL and Camden pages returned 403 and are not cited."
+ },
+ {
+  "id": "F008",
+  "topic": "royalty statements, audit rights and objection windows",
+  "statement": "Recording agreements commonly give the artist a right to inspect the label's books to check royalty statements, and the contract may set a time limit for objecting to a statement, often described as one year after it is sent, after which the accounting can become final. The UK voluntary code says recipients of royalty reports, including music makers, should have a contractual right to audit according to the agreed terms. Specific periods vary by contract and place.",
+  "scope": "general; terms vary by contract and country",
+  "sources": [
+   {
+    "url": "https://www.gov.uk/guidance/uk-voluntary-code-of-good-practice-on-transparency-in-music-streaming",
+    "title": "UK Voluntary Code of Good Practice on Transparency in Music Streaming",
+    "publisher": "UK Intellectual Property Office (GOV.UK)",
+    "published": "2024-01-31",
+    "accessed": "2026-11-10",
+    "quote": "Recipient Parties (including Music Makers) should have a contractual right to audit financial information (including royalty accounting) related to streaming"
+   },
+   {
+    "url": "https://artslaw.com.au/wp-content/uploads/2024/06/09_Recording_Agreement_Factsheet.pdf",
+    "title": "Recording Agreement Fact Sheet",
+    "publisher": "Arts Law Centre of Australia",
+    "published": "",
+    "accessed": "2026-11-10",
+    "quote": "The Artist must have a right to inspect the books of the label to make sure the royalty statements are correct."
+   },
+   {
+    "url": "https://benmclane.com/royalties.htm",
+    "title": "Music and entertainment law: royalties",
+    "publisher": "McLane and Wong (entertainment law practice)",
+    "published": "",
+    "accessed": "2026-11-10",
+    "quote": "The objection period is generally stated as being one year after the statement is sent to the artist."
+   }
+  ],
+  "confidence": "medium",
+  "notes": "Objection-period detail rests on a practitioner (law firm) explainer plus an Australian legal-centre fact sheet, not a regulator; audit-right statement rests on the UK IPO code. A court decision on incontestability clauses was found but concerns a named band, so it is not cited."
+ },
+ {
+  "id": "F010",
+  "topic": "music chart rules on bundles, bulk purchases and chart methodology changes",
+  "statement": "Chart compilers publish rules that bar purchases or streams made other than as genuine consumer transactions, and they revise their methodology on bundles: the UK Official Charts Company's album rules list prohibited activity and allow removal of irregular transactions, and in 2020 Billboard changed how albums sold with merchandise or tickets are counted.",
+  "scope": "general; rules differ by compiler and country and change over time",
+  "sources": [
+   {
+    "url": "https://www.officialcharts.com/sites/default/files/legacy_images/media/663227/official-uk-album-chart-rules-january-2023.pdf",
+    "title": "Official UK Album Chart Rules (January 2023)",
+    "publisher": "Official Charts Company",
+    "published": "2023-01",
+    "accessed": "2026-11-10",
+    "quote": "purchasing albums or causing albums to be purchased or streamed other than as a genuine consumer transaction"
+   },
+   {
+    "url": "https://officialcharts.com/chart-news/billboard-announces-new-chart-rules-putting-an-end-to-ticket-and-merch-bundles__30209",
+    "title": "Billboard announces new chart rules, putting an end to ticket and merch bundles | Official Charts",
+    "publisher": "Official Charts Company (news report on Billboard rule change)",
+    "published": "2020-07-14",
+    "accessed": "2026-11-10",
+    "quote": "Bundles where the album is included as part of a \"baked-in, single price option\" will no longer be counted towards the charts."
+   },
+   {
+    "url": "https://officialcharts.com/chart-news/billboard-announces-new-chart-rules-putting-an-end-to-ticket-and-merch-bundles__30209",
+    "title": "Billboard announces new chart rules, putting an end to ticket and merch bundles | Official Charts",
+    "publisher": "Official Charts Company (news report on Billboard rule change)",
+    "published": "2020-07-14",
+    "accessed": "2026-11-10",
+    "quote": "the charts \"do not reflect the conscious purchasing intentions of consumers\""
+   }
+  ],
+  "confidence": "high",
+  "notes": "Cited a rule change announced by a compiler, via the UK compiler's news report; no named artist cited."
+ },
+ {
+  "id": "F011",
+  "topic": "radio promotion, payola and promotional incentives",
+  "statement": "Paying for radio airplay without disclosure is restricted by US federal law (1960) and state laws; regulators and a state attorney general have pursued record-industry payments to radio, including through independent promoters, contest giveaways and other incentives. Reporting of airplay figures was not itself researched beyond the fact that airplay feeds charts.",
+  "scope": "general; US-focused; rules differ by country",
+  "sources": [
+   {
+    "url": "https://www.nbcnews.com/news/amp/wbna8700936",
+    "title": "Sony BMG Music settles Spitzer's payola probe",
+    "publisher": "NBC News (Associated Press)",
+    "published": "2005-07-25",
+    "accessed": "2026-11-10",
+    "quote": "A 1960 federal law and related state laws bar record companies from offering undisclosed financial incentives in exchange for airplay."
+   },
+   {
+    "url": "https://www.rollingstone.com/music/music-news/sony-ponies-up-for-payola-94599/",
+    "title": "Sony Ponies Up for Payola",
+    "publisher": "Rolling Stone",
+    "published": "2005-07-25",
+    "accessed": "2026-11-10",
+    "quote": "payola, the practice of paying radio stations for airplay of their artists"
+   }
+  ],
+  "confidence": "medium",
+  "notes": "Established press reporting on a state attorney general investigation. The FCC page could not be fetched in this run (403), so the FCC sponsorship-identification rule is not cited. No named party carried into page text."
+ },
+ {
+  "id": "F012",
+  "topic": "streaming manipulation: purchased streams, followers and reviews",
+  "statement": "Artificially inflated streams, including streams bought from third-party services or generated by bots and scripts, are recognised as a problem by streaming platforms, which state that such streams dilute the royalty pool and that paid stream-guarantee services violate their terms. The wider category of purchased followers and reviews is not covered by these sources.",
+  "scope": "general; platform policies differ and change",
+  "sources": [
+   {
+    "url": "https://artists.spotify.com/artificial-streaming",
+    "title": "Artificial Streaming - Spotify for Artists",
+    "publisher": "Spotify for Artists",
+    "published": "",
+    "accessed": "2026-11-10",
+    "quote": "artificial streams dilute the royalty pool, shifting revenue from legitimate artists to bad actors."
+   },
+   {
+    "url": "https://support.spotify.com/us/artists/article/third-party-services-that-guarantee-streams/",
+    "title": "Artificial streaming and paid 3rd-party services that guarantee streams - Spotify",
+    "publisher": "Spotify Support",
+    "published": "",
+    "accessed": "2026-11-10",
+    "quote": "3rd-party promotional services that advertise streams in return for payment violate our terms & conditions"
+   },
+   {
+    "url": "https://www.hypebot.com/fbi-issues-urgent-warning-cybercriminals-are-targeting-musicians",
+    "title": "FBI Issues Warning: Cybercriminals Are Targeting Musicians",
+    "publisher": "Hypebot (trade press, reporting on an FBI warning)",
+    "published": "",
+    "accessed": "2026-11-10",
+    "quote": "Scammers are using AI-generated songs and automated bot networks to manipulate streaming numbers"
+   }
+  ],
+  "confidence": "high",
+  "notes": "Platform documentation counts as a source for how the platform treats the practice; extent of fraud not asserted. Purchased followers and reviews not separately sourced, so statement scope is streams only."
+ },
+ {
+  "id": "F013",
+  "topic": "impersonation of scouts, A&R, managers and music-industry advance-fee scams",
+  "statement": "Impersonation of label executives and scouts, and advance-fee or fake-contract approaches to artists, are described by an industry body and by trade press reporting on an FBI warning as an existing risk for emerging artists. These approaches are typically made through social media or email.",
+  "scope": "general; no figure or named case relied on",
+  "sources": [
+   {
+    "url": "https://americansongwriter.com/american-songwriter-op-ed-shutting-down-fraudsters-who-prey-on-artists-hopes-and-dreams",
+    "title": "American Songwriter OP-ED by RIAA President & COO Michele Ballantyne: Shutting Down Fraudsters Who Prey on Artists' Hopes and Dreams",
+    "publisher": "American Songwriter (op-ed by the RIAA)",
+    "published": "2025-07-01",
+    "accessed": "2026-11-10",
+    "quote": "scammers pretending to be label executives and dangling false promises of a record deal to bait young artists"
+   },
+   {
+    "url": "https://www.hypebot.com/fbi-issues-urgent-warning-cybercriminals-are-targeting-musicians",
+    "title": "FBI Issues Warning: Cybercriminals Are Targeting Musicians",
+    "publisher": "Hypebot (trade press, reporting on an FBI warning)",
+    "published": "",
+    "accessed": "2026-11-10",
+    "quote": "Industry professionals reported being contacted for fake record label contracts, collaborations, or promotional opportunities designed to steal sensitive data or \"advance fees.\""
+   }
+  ],
+  "confidence": "medium",
+  "notes": "The primary FBI notice was not retrieved; the trade-press report is cited as reporting it. Named cases in the op-ed deliberately not used."
+ },
+ {
+  "id": "F014",
+  "topic": "long-running online investment and romance fraud",
+  "statement": "Government agencies describe investment frauds in which a person met online builds trust over weeks or months and then directs the victim to a fake trading website or app that displays growing returns, with withdrawals blocked by demands for further fees.",
+  "scope": "general; scheme details vary",
+  "sources": [
+   {
+    "url": "https://www.ic3.gov/PSA/2022/PSA221003",
+    "title": "Internet Crime Complaint Center (IC3) | Cryptocurrency Investment Schemes",
+    "publisher": "FBI Internet Crime Complaint Center (IC3)",
+    "published": "2022-10-03",
+    "accessed": "2026-11-10",
+    "quote": "The fake websites/apps allow the victims to track their investments and give the impression they are growing exponentially."
+   },
+   {
+    "url": "https://www.cftc.gov/LearnAndProtect/AdvisoriesAndArticles/CustomerAdvisory_RomanceScam.html",
+    "title": "Customer Advisory: Avoid Forex, Precious Metals, and Digital Asset Romance Scams | CFTC",
+    "publisher": "U.S. Commodity Futures Trading Commission",
+    "published": "",
+    "accessed": "2026-11-10",
+    "quote": "even if the relationship has been building for weeks or months"
+   }
+  ],
+  "confidence": "high",
+  "notes": "Regulator and law-enforcement advisories."
+ },
+ {
+  "id": "F015",
+  "topic": "synthetic voice and likeness: deepfakes, voice cloning and performer contracts",
+  "statement": "Voice cloning and AI-generated impersonation of individuals are a recognised concern: a US federal regulator described fraudsters using AI tools to impersonate individuals, and at least one US state has extended its personal-rights law to protect voice from AI misuse. How performer contracts treat voice and likeness varies; guild contract terms were not confirmed from a fetched page (the SAG-AFTRA site returned 403).",
+  "scope": "general; US-focused; laws and contracts vary",
+  "sources": [
+   {
+    "url": "https://therecord.media/ftc-crack-down-ai-impersonation",
+    "title": "FTC wants to crack down on AI impersonation of individuals | The Record from Recorded Future News",
+    "publisher": "The Record (Recorded Future News), quoting the US Federal Trade Commission",
+    "published": "",
+    "accessed": "2026-11-10",
+    "quote": "Fraudsters are using AI tools to impersonate individuals with eerie precision and at a much wider scale"
+   },
+   {
+    "url": "https://www.rollingstone.com/music/music-news/elvis-act-tennessee-signed-ai-impersonation-1234992395",
+    "title": "Elvis Act Signed Into Tennessee Law to Protect Musicians From AI",
+    "publisher": "Rolling Stone",
+    "published": "2024-03",
+    "accessed": "2026-11-10",
+    "quote": "protect musicians from unauthorized artificial intelligence deep fakes and voice clones"
+   }
+  ],
+  "confidence": "medium",
+  "notes": "Contract-clause variation (q832 second sentence) remains conditional, not sourced."
+ }
+]

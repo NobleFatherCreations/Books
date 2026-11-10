@@ -1,5 +1,7 @@
 # Noble Father Creations — Standing Rules
 
+**Short on context? Read `docs/AI-QUICKSTART.md` first** — current live state and the exact commands, in one page.
+
 **Read `MEMORY.md` first, every session** — it's the actual cross-session
 memory in this environment (a fresh container has no access to anything
 outside this repo, so plugin-based memory tools don't carry over between

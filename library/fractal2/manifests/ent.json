@@ -1,0 +1,1194 @@
+{
+ "sector": "ENT",
+ "slug": "entertainment",
+ "target": "preview",
+ "root": "/fractal2",
+ "base": "/fractal2/entertainment",
+ "built": "2026-11-10",
+ "version": "v2",
+ "pages": 518,
+ "combos_live": 153,
+ "combos_held": 0,
+ "og": [
+  "home",
+  "stage-idealize",
+  "stage-hook",
+  "stage-devalue",
+  "stage-confuse",
+  "stage-isolate",
+  "stage-control",
+  "stage-discard",
+  "stage-replace",
+  "family-capture-and-attachment",
+  "family-exit-prevention-and-entrapment",
+  "family-conditioning-and-behavioral-shaping",
+  "family-reality-distortion-and-perception-control",
+  "family-accountability-evasion",
+  "family-social-warfare",
+  "family-institutional-and-systemic",
+  "family-digital-and-technological",
+  "family-identity-and-psychological-destruction",
+  "family-specialized-exploitation"
+ ],
+ "og_src": "library/fractal2/build/ent/og-src",
+ "groups": {
+  "core": [
+   "",
+   "start",
+   "patterns",
+   "tactics",
+   "method",
+   "take-it-with-you",
+   "a-z",
+   "notice",
+   "in-it-now",
+   "worried-about-someone",
+   "before-you-sign",
+   "map"
+  ],
+  "stages": [
+   "stage-idealize",
+   "stage-hook",
+   "stage-devalue",
+   "stage-confuse",
+   "stage-isolate",
+   "stage-control",
+   "stage-discard",
+   "stage-replace"
+  ],
+  "families": [
+   "family-capture-and-attachment",
+   "family-exit-prevention-and-entrapment",
+   "family-conditioning-and-behavioral-shaping",
+   "family-reality-distortion-and-perception-control",
+   "family-accountability-evasion",
+   "family-social-warfare",
+   "family-institutional-and-systemic",
+   "family-digital-and-technological",
+   "family-identity-and-psychological-destruction",
+   "family-specialized-exploitation"
+  ],
+  "tactics": [
+   "tactic/love-bombing",
+   "tactic/manufactured-destiny",
+   "tactic/manufactured-intimacy",
+   "tactic/forced-teaming",
+   "tactic/premature-vulnerability-trauma-dumping",
+   "tactic/the-rescue-hook",
+   "tactic/pedestal-ploy-the-exception-script",
+   "tactic/emotional-flooding",
+   "tactic/exclusive-meaning",
+   "tactic/loan-sharking-gifts",
+   "tactic/weaponized-generosity-in-public",
+   "tactic/performative-public-affection-dr-jekyll-and-mr-hyde",
+   "tactic/mirroring-on-demand",
+   "tactic/credential-costuming",
+   "tactic/catfishing",
+   "tactic/social-engineering",
+   "tactic/were-family-erasure",
+   "tactic/golden-child-elevation",
+   "tactic/tokenism",
+   "tactic/performative-allyship-false-solidarity",
+   "tactic/premature-trust-extraction",
+   "tactic/identity-auditing",
+   "tactic/rescuer-positioning",
+   "tactic/pacing-and-leading",
+   "tactic/performative-reception",
+   "tactic/target-selection",
+   "tactic/gatekeeper-grooming",
+   "tactic/future-faking",
+   "tactic/identity-hooking",
+   "tactic/premature-exclusivity",
+   "tactic/commitment-traps-foot-in-the-door",
+   "tactic/manufactured-urgency",
+   "tactic/manufactured-scarcity",
+   "tactic/obligation-hooks",
+   "tactic/favor-debt",
+   "tactic/duty-scripts",
+   "tactic/sunk-cost-exploitation",
+   "tactic/confirmation-bias-exploitation",
+   "tactic/halo-effect-exploitation",
+   "tactic/hoovering-relief-bait",
+   "tactic/obligation-contracts",
+   "tactic/golden-bars",
+   "tactic/financial-enmeshment",
+   "tactic/financial-dependence-by-design",
+   "tactic/platform-migration",
+   "tactic/bread-crumbing",
+   "tactic/boundary-testing",
+   "tactic/sacred-duty-manipulation-mission-framing",
+   "tactic/martyrdom-display",
+   "tactic/demand-for-gratitude",
+   "tactic/door-in-the-face",
+   "tactic/anchoring",
+   "tactic/bait-and-switch",
+   "tactic/agent-of-influence-operations",
+   "tactic/mystical-manipulation",
+   "tactic/charismatic-authority-dependence",
+   "tactic/parasocial-manipulation-engineering",
+   "tactic/algorithmic-targeting-of-vulnerable-populations",
+   "tactic/emotional-parasitism",
+   "tactic/vulnerability-weaponization",
+   "tactic/shared-secret-binding",
+   "tactic/grooming-through-praise",
+   "tactic/anchoring-to-peak-moments",
+   "tactic/loyalty-testing",
+   "tactic/crisis-bonding",
+   "tactic/bait-disclosure",
+   "tactic/authority-worship",
+   "tactic/buried-consent",
+   "tactic/deniable-authorization",
+   "tactic/gamified-compulsion",
+   "tactic/reputation-braiding",
+   "tactic/pocketing",
+   "tactic/forced-continuity",
+   "tactic/thats-not-all",
+   "tactic/disrupt-then-reframe",
+   "tactic/legitimizing-paltry-contributions",
+   "tactic/persistent-nagging",
+   "tactic/intermittent-reinforcement-push-pull",
+   "tactic/shame-installation",
+   "tactic/labeling-as-identity-warfare",
+   "tactic/withholding-silent-treatment",
+   "tactic/moving-goalposts",
+   "tactic/baiting",
+   "tactic/tone-policing",
+   "tactic/emotional-invalidation",
+   "tactic/contempt",
+   "tactic/double-binds",
+   "tactic/negging",
+   "tactic/comparative-devaluation",
+   "tactic/name-calling-disguised-as-humor",
+   "tactic/time-theft",
+   "tactic/strategic-apathy-weaponized-indifference",
+   "tactic/weaponized-incompetence",
+   "tactic/minimization",
+   "tactic/credit-theft",
+   "tactic/credit-laundering",
+   "tactic/impossible-metrics",
+   "tactic/scapegoating",
+   "tactic/punishment-of-boundaries",
+   "tactic/conditional-love",
+   "tactic/objectification",
+   "tactic/dehumanization",
+   "tactic/performance-framework-manipulation",
+   "tactic/dispensing-of-existence",
+   "tactic/emotional-contamination",
+   "tactic/youve-changed",
+   "tactic/cultural-penalty",
+   "tactic/exoticization",
+   "tactic/experience-erasure",
+   "tactic/stigma-marking",
+   "tactic/unwritten-rules",
+   "tactic/frame-control-false-framing",
+   "tactic/credibility-theft",
+   "tactic/projection",
+   "tactic/role-reversal-traps",
+   "tactic/weaponized-therapy-speak",
+   "tactic/authority-hijack",
+   "tactic/accountability-evasion-via-diagnosis-trash-can-diagnosis",
+   "tactic/preemptive-accusation-complaint-weaponization",
+   "tactic/deflection",
+   "tactic/word-salad",
+   "tactic/whataboutism",
+   "tactic/false-equivalence",
+   "tactic/non-apology-apologies",
+   "tactic/contradiction-stacking",
+   "tactic/semantic-traps",
+   "tactic/gotcha-framing",
+   "tactic/false-dilemma",
+   "tactic/false-authority",
+   "tactic/false-consensus-social-proof-pressure",
+   "tactic/normalization-overton-window-manipulation",
+   "tactic/counterfeit-calm",
+   "tactic/splitting",
+   "tactic/malicious-compliance",
+   "tactic/ambient-abuse-atmosphere-control",
+   "tactic/thought-stopping-clich-s",
+   "tactic/loaded-language",
+   "tactic/stonewalling",
+   "tactic/priming-narrative-seeding",
+   "tactic/toxic-positivity-weaponized-optimism",
+   "tactic/reverse-psychology",
+   "tactic/cognitive-overload",
+   "tactic/individualization-of-systemic-issues",
+   "tactic/diffusion-of-responsibility",
+   "tactic/willful-blindness-as-complicity",
+   "tactic/blame-shifting",
+   "tactic/kafka-trapping",
+   "tactic/feigned-ignorance",
+   "tactic/countering",
+   "tactic/exaggeration",
+   "tactic/burden-of-proof-shifting-sealioning",
+   "tactic/gish-gallop-firehose-of-falsehood",
+   "tactic/limited-hangout",
+   "tactic/pseudo-profundity-intellectual-intimidation",
+   "tactic/semantic-erosion-meaning-dilution",
+   "tactic/dog-whistling-coded-signaling",
+   "tactic/revisionist-history",
+   "tactic/repetition-as-truth",
+   "tactic/meta-gaslighting",
+   "tactic/lying-by-omission-gaslighting-by-omission",
+   "tactic/half-truth-framing",
+   "tactic/information-laundering",
+   "tactic/astroturfing-sock-puppets",
+   "tactic/false-flag-operations",
+   "tactic/strategic-leaking",
+   "tactic/cyber-manipulation-operations-cmos",
+   "tactic/context-poisoning",
+   "tactic/immersive-manipulation-vr-ar",
+   "tactic/pseudo-logic",
+   "tactic/emotional-sequencing",
+   "tactic/perspecticide",
+   "tactic/abstraction-escalation",
+   "tactic/agent-erasure",
+   "tactic/captive-expertise",
+   "tactic/done-deal-framing",
+   "tactic/language-laundering",
+   "tactic/metric-masking",
+   "tactic/moral-disengagement",
+   "tactic/policy-as-proof",
+   "tactic/retroactive-justification",
+   "tactic/self-fulfilling-prediction",
+   "tactic/solution-theater",
+   "tactic/victim-blaming",
+   "tactic/just-asking-questions",
+   "tactic/motte-and-bailey",
+   "tactic/isolation",
+   "tactic/triangulation",
+   "tactic/smear-campaigns",
+   "tactic/flying-monkeys-proxy-recruitment",
+   "tactic/plausible-deniability",
+   "tactic/ostracism",
+   "tactic/silent-coalitions",
+   "tactic/ambiguity-as-weapon-strategic-ambiguity",
+   "tactic/interruption-patterns",
+   "tactic/pile-ons-brigading",
+   "tactic/polite-hostile-environments",
+   "tactic/gatekeeping",
+   "tactic/stochastic-harassment-direction",
+   "tactic/divide-and-conquer",
+   "tactic/compartmentalization",
+   "tactic/echo-chamber-construction",
+   "tactic/social-mapping",
+   "tactic/support-system-exhaustion",
+   "tactic/identity-based-isolation",
+   "tactic/contribution-erasure",
+   "tactic/front-person-exposure",
+   "tactic/incident-siloing",
+   "tactic/participation-penalty",
+   "tactic/reputation-hijacking",
+   "tactic/ritualized-exhaustion",
+   "tactic/guilt-tripping",
+   "tactic/paper-trail-traps",
+   "tactic/hr-shielding",
+   "tactic/process-exhaustion",
+   "tactic/vague-allegations-with-high-consequences",
+   "tactic/confidentiality-as-weapon",
+   "tactic/resource-sabotage-sabotaging-success",
+   "tactic/administrative-escalation",
+   "tactic/managed-out-through-exhaustion",
+   "tactic/legal-administrative-threats",
+   "tactic/false-reports",
+   "tactic/location-tracking",
+   "tactic/device-access-demands",
+   "tactic/account-control",
+   "tactic/response-time-policing",
+   "tactic/moral-licensing-strategic-philanthropy",
+   "tactic/moral-framing",
+   "tactic/financial-control",
+   "tactic/sexual-coercion",
+   "tactic/reproductive-coercion",
+   "tactic/extinction-bursts",
+   "tactic/negative-reinforcement-traps",
+   "tactic/phobia-indoctrination-catastrophizing",
+   "tactic/strategic-chaos-crisis-manufacturing",
+   "tactic/time-control",
+   "tactic/sleep-deprivation",
+   "tactic/narrative-monopoly",
+   "tactic/mobility-control",
+   "tactic/body-autonomy-violations",
+   "tactic/role-assignment",
+   "tactic/forced-dependency",
+   "tactic/silence-as-policy",
+   "tactic/children-as-leverage",
+   "tactic/micromanagement",
+   "tactic/performance-monitoring",
+   "tactic/controlled-communication",
+   "tactic/rage-as-regulation",
+   "tactic/fear-installation",
+   "tactic/managed-perception",
+   "tactic/omnipresence-demonstrating-omnipotence",
+   "tactic/punishment-by-proxy",
+   "tactic/emotional-blackmail",
+   "tactic/intimidation",
+   "tactic/concern-trolling-shame-as-governance",
+   "tactic/ultimatums",
+   "tactic/loyalty-binds",
+   "tactic/ambient-sexual-threat",
+   "tactic/overcorrection-demands",
+   "tactic/blackmail-leverage-exploitation",
+   "tactic/moral-outrage-as-weapon",
+   "tactic/emotional-hostage-taking",
+   "tactic/i-know-best-paternalism-velvet-glove-control",
+   "tactic/interrogation",
+   "tactic/moving-in-silence",
+   "tactic/enforcing-trivial-demands",
+   "tactic/choice-restriction",
+   "tactic/pseudo-consultation",
+   "tactic/weaponized-inclusion-strategic-containment",
+   "tactic/controlled-opposition",
+   "tactic/manufactured-consent",
+   "tactic/sacred-science",
+   "tactic/doctrine-over-person",
+   "tactic/forced-confession-self-criticism-rituals",
+   "tactic/algorithmic-manipulation",
+   "tactic/biometric-exploitation",
+   "tactic/institutional-capture",
+   "tactic/arbitrary-authority",
+   "tactic/black-box-decisions",
+   "tactic/celebration-as-cover",
+   "tactic/closed-loop-appeals",
+   "tactic/collective-punishment",
+   "tactic/data-harvesting",
+   "tactic/data-onward-sharing",
+   "tactic/development-subordination",
+   "tactic/initiative-churn",
+   "tactic/labor-extraction",
+   "tactic/liability-reframing",
+   "tactic/metric-mission-substitution",
+   "tactic/motivation-displacement",
+   "tactic/predictive-tracking",
+   "tactic/strategic-delay",
+   "tactic/strategic-timing",
+   "tactic/structural-underfunding",
+   "tactic/harm-to-pets-or-property",
+   "tactic/coerced-debt",
+   "tactic/debt-bondage",
+   "tactic/document-confiscation",
+   "tactic/status-threats",
+   "tactic/enmeshment",
+   "tactic/apologies-without-repair",
+   "tactic/pity-plays",
+   "tactic/forced-forgiveness-weaponized-forgiveness",
+   "tactic/competitive-victimhood",
+   "tactic/aftercare-control",
+   "tactic/legal-abuse",
+   "tactic/humiliation-rituals",
+   "tactic/public-exposure",
+   "tactic/ghosting-as-control",
+   "tactic/sudden-devaluation",
+   "tactic/replacement-display",
+   "tactic/blame-discard",
+   "tactic/managed-exit",
+   "tactic/manufactured-closure",
+   "tactic/paid-silence",
+   "tactic/punitive-transfer",
+   "tactic/record-erasure",
+   "tactic/uncorrected-record",
+   "tactic/values-fit-pretext",
+   "tactic/visible-impunity",
+   "tactic/swatting",
+   "tactic/orbiting",
+   "tactic/infantilization",
+   "tactic/parentification",
+   "tactic/emotional-blackmail-via-self-harm-threats",
+   "tactic/health-sabotage",
+   "tactic/coordinated-reporting",
+   "tactic/context-collapse",
+   "tactic/doxxing",
+   "tactic/forged-screenshots-edited-evidence",
+   "tactic/guilt-legacy",
+   "tactic/maternal-gatekeeping",
+   "tactic/smart-home-coercion",
+   "tactic/ai-voice-cloning",
+   "tactic/intimate-image-abuse",
+   "tactic/accountability-reset"
+  ],
+  "combos": [
+   "grooming",
+   "the-trauma-bond-engine",
+   "the-savior-trap",
+   "the-compliment-trap",
+   "bait-and-switch",
+   "emotional-debt-spiral",
+   "the-gratitude-prison",
+   "the-false-safe-harbor",
+   "exit-prevention-architecture",
+   "the-golden-cage",
+   "golden-handcuffs",
+   "the-obligation-web",
+   "the-dependency-web",
+   "forced-dependency",
+   "the-debt-prison",
+   "the-loyalty-trap",
+   "the-guilt-anchor",
+   "the-identity-lock",
+   "the-sunk-cost-prison",
+   "the-bridge-burner",
+   "the-hostage-scenario",
+   "pavlovian-conditioning",
+   "obedience-training",
+   "walking-on-eggshells",
+   "the-frog-in-boiling-water",
+   "learned-silence",
+   "the-impossible-standard",
+   "the-rigged-game",
+   "the-loyalty-test",
+   "the-approval-addiction",
+   "performance-extraction",
+   "the-burnout-machine",
+   "the-compliance-engine",
+   "the-compliance-cascade",
+   "the-reward-maze",
+   "the-normalization-engine",
+   "the-silence-training",
+   "the-learned-helplessness-machine",
+   "the-perfectionism-trap",
+   "the-obedience-ladder",
+   "the-gaslighting-machine",
+   "reality-replacement",
+   "the-confusion-protocol",
+   "the-memory-hole",
+   "the-false-narrative",
+   "the-double-bind-trap",
+   "perspective-poisoning",
+   "the-meaning-hijack",
+   "the-blame-reversal-engine",
+   "the-investigation-theater",
+   "the-circular-referral-loop",
+   "the-paper-trail-fabrication",
+   "the-policy-shield",
+   "the-scapegoat-funnel",
+   "the-confidentiality-cage",
+   "the-apology-substitute",
+   "the-collective-punishment-deflector",
+   "the-whistleblower-inversion",
+   "the-statute-of-limitations-exploit",
+   "the-both-sides-equalizer",
+   "the-nda-silencer",
+   "the-voluntary-departure-rewrite",
+   "the-isolated-incident-quarantine",
+   "the-expert-validation-shield",
+   "the-darvo-cascade",
+   "the-accountability-firewall",
+   "the-accountability-black-hole",
+   "concern-masking",
+   "velvet-glove-control",
+   "the-velvet-threat",
+   "the-isolation-campaign",
+   "the-reputation-assassination",
+   "the-flying-monkey-network",
+   "the-pile-on-engine",
+   "the-social-proof-trap",
+   "the-triangulation-web",
+   "the-public-shaming-ritual",
+   "the-alliance-fracture",
+   "social-currency-manipulation",
+   "character-assassination",
+   "social-death",
+   "divide-and-conquer",
+   "manufactured-consensus",
+   "mobbing",
+   "the-smear-and-replace",
+   "the-data-weaponization-system",
+   "the-hierarchy-enforcement-engine",
+   "the-resource-extraction-pipeline",
+   "coercive-control",
+   "bureaucratic-violence",
+   "professional-destruction",
+   "knowledge-weaponization",
+   "the-total-institution",
+   "systemic-entrapment",
+   "the-paper-trail-ambush",
+   "helicopter-surveillance",
+   "digital-identity-destruction",
+   "online-reputation-annihilation",
+   "the-algorithmic-sorting-machine",
+   "the-gamification-trap",
+   "the-platform-lock-in",
+   "the-comparison-engine",
+   "psychological-identity-theft",
+   "competence-undermining",
+   "manufactured-crisis-bonding",
+   "the-identity-replacement-program",
+   "the-scapegoat-machine",
+   "weaponized-therapy-language",
+   "the-student-athlete-extraction",
+   "the-parent-silencer",
+   "the-gifted-child-weaponization",
+   "the-exception-script",
+   "the-competitive-isolation-grid",
+   "the-performative-ally",
+   "the-double-life-manager",
+   "the-benevolent-dictator",
+   "the-gauntlet",
+   "the-cult-of-personality",
+   "the-recursive-trap",
+   "the-weaponized-gift-economy",
+   "the-wellness-trap",
+   "surveillance-architecture",
+   "the-phantom-equity",
+   "the-allocation-scarcity-engine",
+   "the-economics-obfuscation-layer",
+   "the-reputation-hostage",
+   "the-mirror-hook",
+   "the-long-con",
+   "the-halo-shield",
+   "the-bench",
+   "the-big-ask",
+   "the-praise-leash",
+   "the-mood-weather",
+   "the-unwinnable-conversation",
+   "the-perspective-eraser",
+   "the-wall",
+   "the-positivity-muzzle",
+   "the-information-laundromat",
+   "the-coded-crowd",
+   "the-synthetic-storm",
+   "the-erased-contributor",
+   "the-body-under-rule",
+   "the-room",
+   "the-afterlife",
+   "the-public-breaking",
+   "the-clinical-brush-off",
+   "the-captured-referee",
+   "the-crisis-covenant",
+   "the-body-audit",
+   "the-paper-cage",
+   "the-soft-sell",
+   "the-deniable-accusation",
+   "the-digital-hostage"
+  ]
+ },
+ "reserved": [
+  "start",
+  "patterns",
+  "tactics",
+  "map",
+  "notice",
+  "in-it-now",
+  "worried-about-someone",
+  "before-you-sign",
+  "method",
+  "take-it-with-you",
+  "a-z",
+  "tactic",
+  "og",
+  "sitemap"
+ ],
+ "expect": {
+  "grooming": {
+   "words": 2664,
+   "safety": true
+  },
+  "the-trauma-bond-engine": {
+   "words": 2545,
+   "safety": true
+  },
+  "the-savior-trap": {
+   "words": 2404,
+   "safety": false
+  },
+  "the-compliment-trap": {
+   "words": 2325,
+   "safety": false
+  },
+  "bait-and-switch": {
+   "words": 2246,
+   "safety": false
+  },
+  "emotional-debt-spiral": {
+   "words": 2245,
+   "safety": false
+  },
+  "the-gratitude-prison": {
+   "words": 2335,
+   "safety": false
+  },
+  "the-false-safe-harbor": {
+   "words": 2427,
+   "safety": true
+  },
+  "exit-prevention-architecture": {
+   "words": 2761,
+   "safety": true
+  },
+  "the-golden-cage": {
+   "words": 2179,
+   "safety": false
+  },
+  "golden-handcuffs": {
+   "words": 2122,
+   "safety": false
+  },
+  "the-obligation-web": {
+   "words": 2211,
+   "safety": false
+  },
+  "the-dependency-web": {
+   "words": 2464,
+   "safety": true
+  },
+  "forced-dependency": {
+   "words": 2302,
+   "safety": true
+  },
+  "the-debt-prison": {
+   "words": 2134,
+   "safety": false
+  },
+  "the-loyalty-trap": {
+   "words": 2792,
+   "safety": false
+  },
+  "the-guilt-anchor": {
+   "words": 2727,
+   "safety": false
+  },
+  "the-identity-lock": {
+   "words": 2674,
+   "safety": false
+  },
+  "the-sunk-cost-prison": {
+   "words": 2652,
+   "safety": false
+  },
+  "the-bridge-burner": {
+   "words": 2756,
+   "safety": false
+  },
+  "the-hostage-scenario": {
+   "words": 2757,
+   "safety": true
+  },
+  "pavlovian-conditioning": {
+   "words": 2484,
+   "safety": false
+  },
+  "obedience-training": {
+   "words": 2531,
+   "safety": false
+  },
+  "walking-on-eggshells": {
+   "words": 2529,
+   "safety": false
+  },
+  "the-frog-in-boiling-water": {
+   "words": 2403,
+   "safety": false
+  },
+  "learned-silence": {
+   "words": 2497,
+   "safety": true
+  },
+  "the-impossible-standard": {
+   "words": 2233,
+   "safety": false
+  },
+  "the-rigged-game": {
+   "words": 2340,
+   "safety": false
+  },
+  "the-loyalty-test": {
+   "words": 2573,
+   "safety": false
+  },
+  "the-approval-addiction": {
+   "words": 2657,
+   "safety": false
+  },
+  "performance-extraction": {
+   "words": 2519,
+   "safety": false
+  },
+  "the-burnout-machine": {
+   "words": 2491,
+   "safety": false
+  },
+  "the-compliance-engine": {
+   "words": 2631,
+   "safety": true
+  },
+  "the-compliance-cascade": {
+   "words": 2296,
+   "safety": false
+  },
+  "the-reward-maze": {
+   "words": 2434,
+   "safety": true
+  },
+  "the-normalization-engine": {
+   "words": 2735,
+   "safety": true
+  },
+  "the-silence-training": {
+   "words": 2685,
+   "safety": true
+  },
+  "the-learned-helplessness-machine": {
+   "words": 2653,
+   "safety": false
+  },
+  "the-perfectionism-trap": {
+   "words": 2688,
+   "safety": false
+  },
+  "the-obedience-ladder": {
+   "words": 2780,
+   "safety": false
+  },
+  "the-gaslighting-machine": {
+   "words": 2587,
+   "safety": false
+  },
+  "reality-replacement": {
+   "words": 2288,
+   "safety": false
+  },
+  "the-confusion-protocol": {
+   "words": 2403,
+   "safety": false
+  },
+  "the-memory-hole": {
+   "words": 2245,
+   "safety": false
+  },
+  "the-false-narrative": {
+   "words": 2269,
+   "safety": false
+  },
+  "the-double-bind-trap": {
+   "words": 2293,
+   "safety": false
+  },
+  "perspective-poisoning": {
+   "words": 2292,
+   "safety": false
+  },
+  "the-meaning-hijack": {
+   "words": 2194,
+   "safety": false
+  },
+  "the-blame-reversal-engine": {
+   "words": 2803,
+   "safety": false
+  },
+  "the-investigation-theater": {
+   "words": 2677,
+   "safety": false
+  },
+  "the-circular-referral-loop": {
+   "words": 2577,
+   "safety": false
+  },
+  "the-paper-trail-fabrication": {
+   "words": 2562,
+   "safety": false
+  },
+  "the-policy-shield": {
+   "words": 2663,
+   "safety": true
+  },
+  "the-scapegoat-funnel": {
+   "words": 2516,
+   "safety": false
+  },
+  "the-confidentiality-cage": {
+   "words": 2768,
+   "safety": true
+  },
+  "the-apology-substitute": {
+   "words": 2774,
+   "safety": true
+  },
+  "the-collective-punishment-deflector": {
+   "words": 2818,
+   "safety": false
+  },
+  "the-whistleblower-inversion": {
+   "words": 2647,
+   "safety": false
+  },
+  "the-statute-of-limitations-exploit": {
+   "words": 2699,
+   "safety": true
+  },
+  "the-both-sides-equalizer": {
+   "words": 2721,
+   "safety": false
+  },
+  "the-nda-silencer": {
+   "words": 2713,
+   "safety": true
+  },
+  "the-voluntary-departure-rewrite": {
+   "words": 2589,
+   "safety": false
+  },
+  "the-isolated-incident-quarantine": {
+   "words": 2749,
+   "safety": true
+  },
+  "the-expert-validation-shield": {
+   "words": 2600,
+   "safety": false
+  },
+  "the-darvo-cascade": {
+   "words": 3797,
+   "safety": false
+  },
+  "the-accountability-firewall": {
+   "words": 3582,
+   "safety": false
+  },
+  "the-accountability-black-hole": {
+   "words": 3471,
+   "safety": false
+  },
+  "concern-masking": {
+   "words": 3318,
+   "safety": false
+  },
+  "velvet-glove-control": {
+   "words": 3359,
+   "safety": false
+  },
+  "the-velvet-threat": {
+   "words": 3608,
+   "safety": true
+  },
+  "the-isolation-campaign": {
+   "words": 2731,
+   "safety": false
+  },
+  "the-reputation-assassination": {
+   "words": 2593,
+   "safety": false
+  },
+  "the-flying-monkey-network": {
+   "words": 2593,
+   "safety": false
+  },
+  "the-pile-on-engine": {
+   "words": 2781,
+   "safety": true
+  },
+  "the-social-proof-trap": {
+   "words": 2738,
+   "safety": false
+  },
+  "the-triangulation-web": {
+   "words": 2552,
+   "safety": false
+  },
+  "the-public-shaming-ritual": {
+   "words": 2495,
+   "safety": false
+  },
+  "the-alliance-fracture": {
+   "words": 2500,
+   "safety": false
+  },
+  "social-currency-manipulation": {
+   "words": 2398,
+   "safety": false
+  },
+  "character-assassination": {
+   "words": 2739,
+   "safety": false
+  },
+  "social-death": {
+   "words": 2747,
+   "safety": true
+  },
+  "divide-and-conquer": {
+   "words": 2635,
+   "safety": false
+  },
+  "manufactured-consensus": {
+   "words": 2604,
+   "safety": false
+  },
+  "mobbing": {
+   "words": 2686,
+   "safety": false
+  },
+  "the-smear-and-replace": {
+   "words": 2703,
+   "safety": false
+  },
+  "the-data-weaponization-system": {
+   "words": 2734,
+   "safety": false
+  },
+  "the-hierarchy-enforcement-engine": {
+   "words": 2759,
+   "safety": true
+  },
+  "the-resource-extraction-pipeline": {
+   "words": 2619,
+   "safety": false
+  },
+  "coercive-control": {
+   "words": 2728,
+   "safety": true
+  },
+  "bureaucratic-violence": {
+   "words": 2533,
+   "safety": false
+  },
+  "professional-destruction": {
+   "words": 2697,
+   "safety": false
+  },
+  "knowledge-weaponization": {
+   "words": 2644,
+   "safety": false
+  },
+  "the-total-institution": {
+   "words": 2617,
+   "safety": true
+  },
+  "systemic-entrapment": {
+   "words": 2503,
+   "safety": false
+  },
+  "the-paper-trail-ambush": {
+   "words": 2589,
+   "safety": false
+  },
+  "helicopter-surveillance": {
+   "words": 2742,
+   "safety": true
+  },
+  "digital-identity-destruction": {
+   "words": 2620,
+   "safety": true
+  },
+  "online-reputation-annihilation": {
+   "words": 2594,
+   "safety": true
+  },
+  "the-algorithmic-sorting-machine": {
+   "words": 2499,
+   "safety": false
+  },
+  "the-gamification-trap": {
+   "words": 2611,
+   "safety": true
+  },
+  "the-platform-lock-in": {
+   "words": 2615,
+   "safety": false
+  },
+  "the-comparison-engine": {
+   "words": 2677,
+   "safety": false
+  },
+  "psychological-identity-theft": {
+   "words": 2702,
+   "safety": false
+  },
+  "competence-undermining": {
+   "words": 2712,
+   "safety": false
+  },
+  "manufactured-crisis-bonding": {
+   "words": 2592,
+   "safety": false
+  },
+  "the-identity-replacement-program": {
+   "words": 2811,
+   "safety": false
+  },
+  "the-scapegoat-machine": {
+   "words": 2592,
+   "safety": false
+  },
+  "weaponized-therapy-language": {
+   "words": 2666,
+   "safety": true
+  },
+  "the-student-athlete-extraction": {
+   "words": 2718,
+   "safety": true
+  },
+  "the-parent-silencer": {
+   "words": 2608,
+   "safety": true
+  },
+  "the-gifted-child-weaponization": {
+   "words": 2559,
+   "safety": true
+  },
+  "the-exception-script": {
+   "words": 2434,
+   "safety": false
+  },
+  "the-competitive-isolation-grid": {
+   "words": 2335,
+   "safety": false
+  },
+  "the-performative-ally": {
+   "words": 2408,
+   "safety": false
+  },
+  "the-double-life-manager": {
+   "words": 2767,
+   "safety": false
+  },
+  "the-benevolent-dictator": {
+   "words": 2414,
+   "safety": false
+  },
+  "the-gauntlet": {
+   "words": 2748,
+   "safety": true
+  },
+  "the-cult-of-personality": {
+   "words": 2307,
+   "safety": false
+  },
+  "the-recursive-trap": {
+   "words": 2355,
+   "safety": false
+  },
+  "the-weaponized-gift-economy": {
+   "words": 2253,
+   "safety": false
+  },
+  "the-wellness-trap": {
+   "words": 2389,
+   "safety": true
+  },
+  "surveillance-architecture": {
+   "words": 2752,
+   "safety": false
+  },
+  "the-phantom-equity": {
+   "words": 2819,
+   "safety": false
+  },
+  "the-allocation-scarcity-engine": {
+   "words": 2799,
+   "safety": false
+  },
+  "the-economics-obfuscation-layer": {
+   "words": 2693,
+   "safety": false
+  },
+  "the-reputation-hostage": {
+   "words": 2661,
+   "safety": false
+  },
+  "the-mirror-hook": {
+   "words": 2669,
+   "safety": false
+  },
+  "the-long-con": {
+   "words": 2759,
+   "safety": false
+  },
+  "the-halo-shield": {
+   "words": 2758,
+   "safety": false
+  },
+  "the-bench": {
+   "words": 2603,
+   "safety": false
+  },
+  "the-big-ask": {
+   "words": 2524,
+   "safety": false
+  },
+  "the-praise-leash": {
+   "words": 2633,
+   "safety": false
+  },
+  "the-mood-weather": {
+   "words": 2664,
+   "safety": false
+  },
+  "the-unwinnable-conversation": {
+   "words": 2767,
+   "safety": false
+  },
+  "the-perspective-eraser": {
+   "words": 2732,
+   "safety": false
+  },
+  "the-wall": {
+   "words": 2686,
+   "safety": false
+  },
+  "the-positivity-muzzle": {
+   "words": 2625,
+   "safety": false
+  },
+  "the-information-laundromat": {
+   "words": 2757,
+   "safety": false
+  },
+  "the-coded-crowd": {
+   "words": 3624,
+   "safety": true
+  },
+  "the-synthetic-storm": {
+   "words": 2728,
+   "safety": false
+  },
+  "the-erased-contributor": {
+   "words": 2895,
+   "safety": false
+  },
+  "the-body-under-rule": {
+   "words": 2940,
+   "safety": true
+  },
+  "the-room": {
+   "words": 2877,
+   "safety": true
+  },
+  "the-afterlife": {
+   "words": 2808,
+   "safety": true
+  },
+  "the-public-breaking": {
+   "words": 2511,
+   "safety": false
+  },
+  "the-clinical-brush-off": {
+   "words": 2413,
+   "safety": false
+  },
+  "the-captured-referee": {
+   "words": 2468,
+   "safety": false
+  },
+  "the-crisis-covenant": {
+   "words": 2580,
+   "safety": false
+  },
+  "the-body-audit": {
+   "words": 2694,
+   "safety": true
+  },
+  "the-paper-cage": {
+   "words": 2638,
+   "safety": true
+  },
+  "the-soft-sell": {
+   "words": 2507,
+   "safety": false
+  },
+  "the-deniable-accusation": {
+   "words": 2452,
+   "safety": false
+  },
+  "the-digital-hostage": {
+   "words": 2610,
+   "safety": true
+  }
+ }
+}

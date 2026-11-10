@@ -1,0 +1,644 @@
+{
+ "sector": "ENT",
+ "target": "preview",
+ "base": "/fractal/entertainment",
+ "built": "2026-11-09",
+ "pages": 174,
+ "combos_live": 153,
+ "combos_held": 0,
+ "og": [
+  "home",
+  "stage-idealize",
+  "stage-hook",
+  "stage-devalue",
+  "stage-confuse",
+  "stage-isolate",
+  "stage-control",
+  "stage-discard",
+  "stage-replace",
+  "family-capture-and-attachment",
+  "family-exit-prevention-and-entrapment",
+  "family-conditioning-and-behavioral-shaping",
+  "family-reality-distortion-and-perception-control",
+  "family-accountability-evasion",
+  "family-social-warfare",
+  "family-institutional-and-systemic",
+  "family-digital-and-technological",
+  "family-identity-and-psychological-destruction",
+  "family-specialized-exploitation"
+ ],
+ "expect": {
+  "grooming": {
+   "words": 2643,
+   "safety": true
+  },
+  "the-trauma-bond-engine": {
+   "words": 2545,
+   "safety": true
+  },
+  "the-savior-trap": {
+   "words": 2404,
+   "safety": false
+  },
+  "the-compliment-trap": {
+   "words": 2325,
+   "safety": false
+  },
+  "bait-and-switch": {
+   "words": 2246,
+   "safety": false
+  },
+  "emotional-debt-spiral": {
+   "words": 2245,
+   "safety": false
+  },
+  "the-gratitude-prison": {
+   "words": 2335,
+   "safety": false
+  },
+  "the-false-safe-harbor": {
+   "words": 2427,
+   "safety": true
+  },
+  "exit-prevention-architecture": {
+   "words": 2761,
+   "safety": true
+  },
+  "the-golden-cage": {
+   "words": 2179,
+   "safety": false
+  },
+  "golden-handcuffs": {
+   "words": 2122,
+   "safety": false
+  },
+  "the-obligation-web": {
+   "words": 2211,
+   "safety": false
+  },
+  "the-dependency-web": {
+   "words": 2464,
+   "safety": true
+  },
+  "forced-dependency": {
+   "words": 2302,
+   "safety": true
+  },
+  "the-debt-prison": {
+   "words": 2134,
+   "safety": false
+  },
+  "the-loyalty-trap": {
+   "words": 2792,
+   "safety": false
+  },
+  "the-guilt-anchor": {
+   "words": 2727,
+   "safety": false
+  },
+  "the-identity-lock": {
+   "words": 2674,
+   "safety": false
+  },
+  "the-sunk-cost-prison": {
+   "words": 2652,
+   "safety": false
+  },
+  "the-bridge-burner": {
+   "words": 2756,
+   "safety": false
+  },
+  "the-hostage-scenario": {
+   "words": 2757,
+   "safety": true
+  },
+  "pavlovian-conditioning": {
+   "words": 2484,
+   "safety": false
+  },
+  "obedience-training": {
+   "words": 2531,
+   "safety": false
+  },
+  "walking-on-eggshells": {
+   "words": 2529,
+   "safety": false
+  },
+  "the-frog-in-boiling-water": {
+   "words": 2403,
+   "safety": false
+  },
+  "learned-silence": {
+   "words": 2497,
+   "safety": true
+  },
+  "the-impossible-standard": {
+   "words": 2228,
+   "safety": false
+  },
+  "the-rigged-game": {
+   "words": 2340,
+   "safety": false
+  },
+  "the-loyalty-test": {
+   "words": 2573,
+   "safety": false
+  },
+  "the-approval-addiction": {
+   "words": 2658,
+   "safety": false
+  },
+  "performance-extraction": {
+   "words": 2519,
+   "safety": false
+  },
+  "the-burnout-machine": {
+   "words": 2491,
+   "safety": false
+  },
+  "the-compliance-engine": {
+   "words": 2631,
+   "safety": true
+  },
+  "the-compliance-cascade": {
+   "words": 2296,
+   "safety": false
+  },
+  "the-reward-maze": {
+   "words": 2434,
+   "safety": true
+  },
+  "the-normalization-engine": {
+   "words": 2733,
+   "safety": true
+  },
+  "the-silence-training": {
+   "words": 2684,
+   "safety": true
+  },
+  "the-learned-helplessness-machine": {
+   "words": 2653,
+   "safety": false
+  },
+  "the-perfectionism-trap": {
+   "words": 2686,
+   "safety": false
+  },
+  "the-obedience-ladder": {
+   "words": 2780,
+   "safety": false
+  },
+  "the-gaslighting-machine": {
+   "words": 2587,
+   "safety": false
+  },
+  "reality-replacement": {
+   "words": 2288,
+   "safety": false
+  },
+  "the-confusion-protocol": {
+   "words": 2403,
+   "safety": false
+  },
+  "the-memory-hole": {
+   "words": 2245,
+   "safety": false
+  },
+  "the-false-narrative": {
+   "words": 2269,
+   "safety": false
+  },
+  "the-double-bind-trap": {
+   "words": 2293,
+   "safety": false
+  },
+  "perspective-poisoning": {
+   "words": 2292,
+   "safety": false
+  },
+  "the-meaning-hijack": {
+   "words": 2194,
+   "safety": false
+  },
+  "the-blame-reversal-engine": {
+   "words": 2803,
+   "safety": false
+  },
+  "the-investigation-theater": {
+   "words": 2677,
+   "safety": false
+  },
+  "the-circular-referral-loop": {
+   "words": 2577,
+   "safety": false
+  },
+  "the-paper-trail-fabrication": {
+   "words": 2562,
+   "safety": false
+  },
+  "the-policy-shield": {
+   "words": 2663,
+   "safety": true
+  },
+  "the-scapegoat-funnel": {
+   "words": 2516,
+   "safety": false
+  },
+  "the-confidentiality-cage": {
+   "words": 2768,
+   "safety": true
+  },
+  "the-apology-substitute": {
+   "words": 2774,
+   "safety": true
+  },
+  "the-collective-punishment-deflector": {
+   "words": 2818,
+   "safety": false
+  },
+  "the-whistleblower-inversion": {
+   "words": 2647,
+   "safety": false
+  },
+  "the-statute-of-limitations-exploit": {
+   "words": 2699,
+   "safety": true
+  },
+  "the-both-sides-equalizer": {
+   "words": 2721,
+   "safety": false
+  },
+  "the-nda-silencer": {
+   "words": 2713,
+   "safety": true
+  },
+  "the-voluntary-departure-rewrite": {
+   "words": 2589,
+   "safety": false
+  },
+  "the-isolated-incident-quarantine": {
+   "words": 2749,
+   "safety": true
+  },
+  "the-expert-validation-shield": {
+   "words": 2600,
+   "safety": false
+  },
+  "the-darvo-cascade": {
+   "words": 3797,
+   "safety": false
+  },
+  "the-accountability-firewall": {
+   "words": 3582,
+   "safety": false
+  },
+  "the-accountability-black-hole": {
+   "words": 3471,
+   "safety": false
+  },
+  "concern-masking": {
+   "words": 3318,
+   "safety": false
+  },
+  "velvet-glove-control": {
+   "words": 3359,
+   "safety": false
+  },
+  "the-velvet-threat": {
+   "words": 3608,
+   "safety": true
+  },
+  "the-isolation-campaign": {
+   "words": 2731,
+   "safety": false
+  },
+  "the-reputation-assassination": {
+   "words": 2593,
+   "safety": false
+  },
+  "the-flying-monkey-network": {
+   "words": 2593,
+   "safety": false
+  },
+  "the-pile-on-engine": {
+   "words": 2781,
+   "safety": true
+  },
+  "the-social-proof-trap": {
+   "words": 2738,
+   "safety": false
+  },
+  "the-triangulation-web": {
+   "words": 2552,
+   "safety": false
+  },
+  "the-public-shaming-ritual": {
+   "words": 2495,
+   "safety": false
+  },
+  "the-alliance-fracture": {
+   "words": 2500,
+   "safety": false
+  },
+  "social-currency-manipulation": {
+   "words": 2398,
+   "safety": false
+  },
+  "character-assassination": {
+   "words": 2739,
+   "safety": false
+  },
+  "social-death": {
+   "words": 2747,
+   "safety": true
+  },
+  "divide-and-conquer": {
+   "words": 2635,
+   "safety": false
+  },
+  "manufactured-consensus": {
+   "words": 2603,
+   "safety": false
+  },
+  "mobbing": {
+   "words": 2686,
+   "safety": false
+  },
+  "the-smear-and-replace": {
+   "words": 2703,
+   "safety": false
+  },
+  "the-data-weaponization-system": {
+   "words": 2734,
+   "safety": false
+  },
+  "the-hierarchy-enforcement-engine": {
+   "words": 2759,
+   "safety": true
+  },
+  "the-resource-extraction-pipeline": {
+   "words": 2619,
+   "safety": false
+  },
+  "coercive-control": {
+   "words": 2728,
+   "safety": true
+  },
+  "bureaucratic-violence": {
+   "words": 2533,
+   "safety": false
+  },
+  "professional-destruction": {
+   "words": 2694,
+   "safety": false
+  },
+  "knowledge-weaponization": {
+   "words": 2644,
+   "safety": false
+  },
+  "the-total-institution": {
+   "words": 2616,
+   "safety": true
+  },
+  "systemic-entrapment": {
+   "words": 2503,
+   "safety": false
+  },
+  "the-paper-trail-ambush": {
+   "words": 2589,
+   "safety": false
+  },
+  "helicopter-surveillance": {
+   "words": 2742,
+   "safety": true
+  },
+  "digital-identity-destruction": {
+   "words": 2619,
+   "safety": true
+  },
+  "online-reputation-annihilation": {
+   "words": 2594,
+   "safety": true
+  },
+  "the-algorithmic-sorting-machine": {
+   "words": 2499,
+   "safety": false
+  },
+  "the-gamification-trap": {
+   "words": 2611,
+   "safety": true
+  },
+  "the-platform-lock-in": {
+   "words": 2615,
+   "safety": false
+  },
+  "the-comparison-engine": {
+   "words": 2672,
+   "safety": false
+  },
+  "psychological-identity-theft": {
+   "words": 2702,
+   "safety": false
+  },
+  "competence-undermining": {
+   "words": 2710,
+   "safety": false
+  },
+  "manufactured-crisis-bonding": {
+   "words": 2592,
+   "safety": false
+  },
+  "the-identity-replacement-program": {
+   "words": 2808,
+   "safety": false
+  },
+  "the-scapegoat-machine": {
+   "words": 2592,
+   "safety": false
+  },
+  "weaponized-therapy-language": {
+   "words": 2650,
+   "safety": true
+  },
+  "the-student-athlete-extraction": {
+   "words": 2718,
+   "safety": true
+  },
+  "the-parent-silencer": {
+   "words": 2608,
+   "safety": true
+  },
+  "the-gifted-child-weaponization": {
+   "words": 2549,
+   "safety": true
+  },
+  "the-exception-script": {
+   "words": 2417,
+   "safety": false
+  },
+  "the-competitive-isolation-grid": {
+   "words": 2335,
+   "safety": false
+  },
+  "the-performative-ally": {
+   "words": 2408,
+   "safety": false
+  },
+  "the-double-life-manager": {
+   "words": 2768,
+   "safety": false
+  },
+  "the-benevolent-dictator": {
+   "words": 2412,
+   "safety": false
+  },
+  "the-gauntlet": {
+   "words": 2739,
+   "safety": true
+  },
+  "the-cult-of-personality": {
+   "words": 2306,
+   "safety": false
+  },
+  "the-recursive-trap": {
+   "words": 2355,
+   "safety": false
+  },
+  "the-weaponized-gift-economy": {
+   "words": 2253,
+   "safety": false
+  },
+  "the-wellness-trap": {
+   "words": 2388,
+   "safety": true
+  },
+  "surveillance-architecture": {
+   "words": 2752,
+   "safety": false
+  },
+  "the-phantom-equity": {
+   "words": 2819,
+   "safety": false
+  },
+  "the-allocation-scarcity-engine": {
+   "words": 2799,
+   "safety": false
+  },
+  "the-economics-obfuscation-layer": {
+   "words": 2693,
+   "safety": false
+  },
+  "the-reputation-hostage": {
+   "words": 2660,
+   "safety": false
+  },
+  "the-mirror-hook": {
+   "words": 2667,
+   "safety": false
+  },
+  "the-long-con": {
+   "words": 2759,
+   "safety": false
+  },
+  "the-halo-shield": {
+   "words": 2758,
+   "safety": false
+  },
+  "the-bench": {
+   "words": 2603,
+   "safety": false
+  },
+  "the-big-ask": {
+   "words": 2524,
+   "safety": false
+  },
+  "the-praise-leash": {
+   "words": 2633,
+   "safety": false
+  },
+  "the-mood-weather": {
+   "words": 2662,
+   "safety": false
+  },
+  "the-unwinnable-conversation": {
+   "words": 2763,
+   "safety": false
+  },
+  "the-perspective-eraser": {
+   "words": 2732,
+   "safety": false
+  },
+  "the-wall": {
+   "words": 2686,
+   "safety": false
+  },
+  "the-positivity-muzzle": {
+   "words": 2624,
+   "safety": false
+  },
+  "the-information-laundromat": {
+   "words": 2760,
+   "safety": false
+  },
+  "the-coded-crowd": {
+   "words": 3621,
+   "safety": true
+  },
+  "the-synthetic-storm": {
+   "words": 2728,
+   "safety": false
+  },
+  "the-erased-contributor": {
+   "words": 2895,
+   "safety": false
+  },
+  "the-body-under-rule": {
+   "words": 2940,
+   "safety": true
+  },
+  "the-room": {
+   "words": 2877,
+   "safety": true
+  },
+  "the-afterlife": {
+   "words": 2808,
+   "safety": true
+  },
+  "the-public-breaking": {
+   "words": 2511,
+   "safety": false
+  },
+  "the-clinical-brush-off": {
+   "words": 2413,
+   "safety": false
+  },
+  "the-captured-referee": {
+   "words": 2468,
+   "safety": false
+  },
+  "the-crisis-covenant": {
+   "words": 2580,
+   "safety": false
+  },
+  "the-body-audit": {
+   "words": 2694,
+   "safety": true
+  },
+  "the-paper-cage": {
+   "words": 2638,
+   "safety": true
+  },
+  "the-soft-sell": {
+   "words": 2506,
+   "safety": false
+  },
+  "the-deniable-accusation": {
+   "words": 2452,
+   "safety": false
+  },
+  "the-digital-hostage": {
+   "words": 2610,
+   "safety": true
+  }
+ }
+}
