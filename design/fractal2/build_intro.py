@@ -116,6 +116,7 @@ def parse(md):
 
 def build_body(toks):
     out, toc, n = [], [], 0
+    units = []
     scene_open = sec_open = False
     hero_done = False
     figs = []
@@ -126,9 +127,10 @@ def build_body(toks):
             out.append("</div>")
             scene_open = False
 
-    def nid():
+    def nid(kind="p", text=""):
         nonlocal n
         n += 1
+        units.append({"n": n, "kind": kind, "text": re.sub(r"\s+", " ", re.sub(r"[*]", "", text)).strip()})
         return n
 
     i = 0
@@ -151,8 +153,8 @@ def build_body(toks):
   <div class="hero-in">
     <p class="kicker">Noble Father Creations · Shae Stovell</p>
     <h1 class="title">{inline(v).replace("²", '<sup>2</sup>')}</h1>
-    <p class="tagline" data-n="{nid()}">{inline(tag)}</p>
-    <p class="lens" data-n="{nid()}">{inline(lens)}</p>
+    <p class="tagline" data-n="{nid('title', v + '. ' + tag)}">{inline(tag)}</p>
+    <p class="lens" data-n="{nid('lens', lens)}">{inline(lens)}</p>
   </div>
   <p class="cue" aria-hidden="true"><span>Scroll</span><i></i></p>
 </section>''')
@@ -167,14 +169,14 @@ def build_body(toks):
             sid = "part-" + rn.lower() if rn else re.sub(r"[^a-z]+", "-", v.lower())
             toc.append((sid, rn, title))
             out.append(f'<section class="ch" id="{sid}" aria-labelledby="{sid}-h">')
-            out.append(f'<div class="col"><p class="rn" aria-hidden="true">{rn}</p><h2 id="{sid}-h" data-n="{nid()}"><span class="vh">Part {rn}: </span>{inline(title)}</h2></div>')
+            out.append(f'<div class="col"><p class="rn" aria-hidden="true">{rn}</p><h2 id="{sid}-h" data-n="{nid('h2', 'Part ' + rn + '. ' + title)}"><span class="vh">Part {rn}: </span>{inline(title)}</h2></div>')
             sec_open = True
         elif k == "scene":
             close_scene()
             out.append(f'<div class="sn" data-scene="{v}">')
             scene_open = True
         elif k == "h3":
-            out.append(f'<div class="col"><h3 data-n="{nid()}">{inline(v)}</h3></div>')
+            out.append(f'<div class="col"><h3 data-n="{nid('h3', v)}">{inline(v)}</h3></div>')
         elif k == "p":
             lines = v
             cls = ""
@@ -186,10 +188,11 @@ def build_body(toks):
                 cls = ' class="strike"'
             elif len(lines) > 1:
                 cls = ' class="lines"'
-            out.append(f'<div class="col"><p{cls} data-n="{nid()}">{txt}</p></div>')
+            kind = "short" if cls in (' class="aside"', ' class="strike"') else "p"
+            out.append(f'<div class="col"><p{cls} data-n="{nid(kind, " / ".join(lines) if len(lines) > 1 else whole)}">{txt}</p></div>')
         elif k == "fig":
             f = v
-            steps = "".join(f'<li class="step" data-n="{nid()}"><p>{inline(s)}</p></li>' for s in f["steps"])
+            steps = "".join(f'<li class="step" data-n="{nid("step", s)}"><p>{inline(s)}</p></li>' for s in f["steps"])
             hold = f["hold"] if f["hold"] else (1.0 if f["steps"] else 1.6)
             figs.append(f["name"])
             out.append(f'''<figure class="fig{' has-steps' if f['steps'] else ''}" data-fig="{f['name']}" style="--hold:{hold};--n:{len(f['steps'])}" aria-label="Figure: {esc(f['name'])}">
@@ -204,7 +207,7 @@ def build_body(toks):
     close_scene()
     if sec_open:
         out.append("</section>")
-    return "\n".join(out), toc, n, figs
+    return "\n".join(out), toc, units, figs
 
 
 def data_blob():
@@ -219,9 +222,78 @@ def data_blob():
             "originals": ["Chosen", "Covenant", "Inherent worth", "Truth", "Community", "Abundance", "Unfailing presence", "Irreplaceable worth"]}
 
 
+ROMAN_WORD = {"I": "one", "II": "two", "III": "three", "IV": "four", "V": "five", "VI": "six", "VII": "seven", "VIII": "eight", "IX": "nine", "X": "ten", "XI": "eleven", "XII": "twelve"}
+PAUSE = {"title": 3.0, "lens": 2.5, "h2": 2.5, "h3": 2.0, "short": 1.6, "step": 1.2, "p": 0.9}
+WPM = 138.0
+
+
+def spoken(u, edits):
+    """The spoken edit of one unit: the page text with the few changes a voice needs."""
+    t = u["text"]
+    if t in edits:
+        return edits[t]
+    t = t.replace("Fractal²", "Fractal Squared").replace("A&R", "A and R").replace(" / ", " ")
+    m = re.match(r"Part ([IVX]+)\. (.*)", t)
+    if u["kind"] == "h2" and m:
+        t = "Part %s. %s." % (ROMAN_WORD[m.group(1)], m.group(2))
+    if u["kind"] in ("h3",) and not t.endswith((".", "?", "!")):
+        t += "."
+    return t
+
+
+def narration(units):
+    """Writes the narration script (for the owner to read aloud) and a placeholder timing file for the player."""
+    ep = ROOT / "content/fractal2/narration-edits.json"
+    edits = json.loads(ep.read_text()) if ep.exists() else {}
+    t, sync, takes, cur = 2.0, [], [], None
+    for u in units:
+        sp = spoken(u, edits)
+        if u["kind"] in ("title", "h2"):
+            cur = {"title": sp.rstrip("."), "lines": [], "start": t, "words": 0}
+            takes.append(cur)
+            if u["kind"] == "h2":
+                t += 2.0
+        sync.append({"n": u["n"], "t": round(t, 2)})
+        w = len(sp.split())
+        dur = w / WPM * 60.0
+        cur["lines"].append((u, sp))
+        cur["words"] += w
+        t += dur + PAUSE[u["kind"]]
+        cur["end"] = t
+    total = t + 2.0
+    mark = {"title": "[pause 3]", "lens": "[pause 2] [breath]", "h2": "[pause 2] [breath]", "h3": "[pause 2]", "short": "[pause 1.5]", "step": "[pause 1]", "p": "[breath]"}
+    fmt = lambda x: "%d:%02d" % (x // 60, x % 60)
+    out = ["# Fractal² — narration script", "",
+           "> Generated from `content/fractal2/intro-final.md` by `design/fractal2/build_intro.py`. Do not edit this file by hand: change the page text, or add a spoken wording to `content/fractal2/narration-edits.json` (page sentence → how to say it), and rebuild.", "",
+           "**How to read the marks.** `[breath]` a natural breath, about one second. `[pause 2]` hold that many seconds of silence. A line on its own is said on its own. The small numbers at the left are for the editor (they tie each line to the page); do not read them.", "",
+           "**Pace.** About %d words a minute: slower than conversation. Whole piece about %s at that pace. Record one take per part (file names are given in the recording guide). If you stumble, pause, and start that sentence again; do not restart the part." % (WPM, fmt(total)), "",
+           "**Section VI is yours.** Say it plainly, at your own speed. Nothing in it is to be added to or performed.", ""]
+    for i, tk in enumerate(takes):
+        out += ["---", "", "## Take %02d — %s" % (i, tk["title"]), "", "*About %s · %d words · starts at %s in the full piece*" % (fmt(tk["end"] - tk["start"]), tk["words"], fmt(tk["start"])), ""]
+        for u, sp in tk["lines"]:
+            if u["kind"] == "h2":
+                out += ["`%03d` **%s** %s" % (u["n"], sp, mark["h2"]), ""]
+            elif u["kind"] == "h3":
+                out += ["`%03d` **%s** %s" % (u["n"], sp, mark["h3"]), ""]
+            else:
+                out += ["`%03d` %s %s" % (u["n"], sp, mark[u["kind"]]), ""]
+    (ROOT / "content/fractal2/narration-script.md").write_text("\n".join(out))
+    au = SITE / BASE.strip("/") / "_a/au"
+    au.mkdir(parents=True, exist_ok=True)
+    real = au / "intro.sync.recorded.json"       # written by design/fractal2/sync_audio.py once the owner's recording exists
+    if not real.exists():
+        (au / "intro.sync.json").write_text(json.dumps({"placeholder": True, "duration": round(total, 1),
+            "note": "Placeholder: a silent timing track. The author's recorded voice will replace it. Press play to be led through the page at reading pace.",
+            "units": sync}, separators=(",", ":")))
+        (au / "PLACEHOLDER-DURATION.txt").write_text("%.1f\n" % total)
+    return total
+
+
 def main():
     md = (ROOT / "content/fractal2/intro-final.md").read_text()
-    body, toc, n, figs = build_body(parse(md))
+    body, toc, units, figs = build_body(parse(md))
+    n = len(units)
+    narration(units)
     fdir = BASE + "/_a/f/"
     css = (HERE / "tokens.css").read_text().replace("/F/", fdir) + "\n" + (HERE / "intro.css").read_text()
     js = (HERE / "intro.js").read_text()

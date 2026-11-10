@@ -116,3 +116,52 @@
 ## Warnings
 
 - C144: index says 0x [REQUIRES SUBJECT-MATTER REVIEW], file has 2
+
+## Navigation data (derive.py)
+
+- Unresolved tactic names in combos before: 131 occurrences; now linked: 106 (alias map to a sector tactic page, or a Decoder pattern page); still plain text: 25.
+- Still unresolved (no exact alias, or the alias points to a standard id with no sector tactic and no Decoder page):
+
+  - Need Concealment (3x)
+  - Exit Prevention (2x)
+  - Investigative Inversion (1x)
+  - Trigger Identification (1x)
+  - External Trigger Escalation (1x)
+  - Surveillance Activation (1x)
+  - Delayed Recognition Architecture (1x)
+  - Trigger Cataloging (1x)
+  - Internalized Surveillance (1x)
+  - Love Bombing (Redirected) (1x)
+  - Switching Cost Inflation (1x)
+  - Permanent Insufficiency Installation (1x)
+  - Strategic Chaos (Maintained) (1x)
+  - Covert Recording (1x)
+  - Exit Forfeiture (1x)
+  - Obligation Enforcement (1x)
+  - Metacommunicative Abuse (1x)
+  - Confusion as Control (1x)
+  - Collapse of Narrative Continuity (1x)
+  - Post-Separation Abuse (1x)
+  - Legacy Contamination (1x)
+  - Sextortion (1x)
+
+- Decoder links for tactics: 335 of 335
+- Fractal chapter: /fractal/entertainment-and-culture; stage anchors found: Idealize lens/frequency, Hook lens/frequency, Devalue lens/frequency, Confuse lens/frequency, Isolate lens/frequency, Control lens/frequency, Discard lens/frequency, Replace lens/frequency
+
+- Settings coverage (combos per setting):
+
+  - Signing & contracts: 44
+  - Money, royalties & accounting: 46
+  - Touring & crew: 42
+  - Festivals & venues: 40
+  - Management & labels: 57
+  - Credit & authorship: 37
+  - Reputation & online: 44
+  - Complaints, NDAs & retaliation: 45
+  - Young performers & families: 14
+  - Health, body & safety: 31
+  - Group & belonging: 48
+  - Fans & volunteers: 8
+  - combos with no setting: 0
+
+- C144: the combo page uses the tag counts from the script file (the file has 2 [REQUIRES SUBJECT-MATTER REVIEW]; the author's index says 0). The warning above stays until the index is corrected.

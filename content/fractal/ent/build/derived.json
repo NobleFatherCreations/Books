@@ -1,0 +1,10475 @@
+{
+ "stage_display": {
+  "IDEALIZE": "Idealize",
+  "HOOK": "Hook",
+  "DEVALUE": "Devalue",
+  "CONFUSE": "Confuse",
+  "ISOLATE": "Isolate",
+  "CONTROL": "Extract · Control",
+  "DISCARD": "Discard",
+  "REPLACE": "Replace"
+ },
+ "settings": [
+  {
+   "key": "signing",
+   "label": "Signing & contracts",
+   "n": 44
+  },
+  {
+   "key": "money",
+   "label": "Money, royalties & accounting",
+   "n": 46
+  },
+  {
+   "key": "touring",
+   "label": "Touring & crew",
+   "n": 42
+  },
+  {
+   "key": "venues",
+   "label": "Festivals & venues",
+   "n": 40
+  },
+  {
+   "key": "management",
+   "label": "Management & labels",
+   "n": 57
+  },
+  {
+   "key": "credit",
+   "label": "Credit & authorship",
+   "n": 37
+  },
+  {
+   "key": "reputation",
+   "label": "Reputation & online",
+   "n": 44
+  },
+  {
+   "key": "complaints",
+   "label": "Complaints, NDAs & retaliation",
+   "n": 45
+  },
+  {
+   "key": "young",
+   "label": "Young performers & families",
+   "n": 14
+  },
+  {
+   "key": "health",
+   "label": "Health, body & safety",
+   "n": 31
+  },
+  {
+   "key": "group",
+   "label": "Group & belonging",
+   "n": 48
+  },
+  {
+   "key": "fans",
+   "label": "Fans & volunteers",
+   "n": 8
+  }
+ ],
+ "no_setting": [],
+ "combos": {
+  "C001": {
+   "settings": [
+    "money",
+    "young"
+   ],
+   "shared": [
+    {
+     "combo_id": "C011",
+     "n": 4
+    },
+    {
+     "combo_id": "C139",
+     "n": 4
+    },
+    {
+     "combo_id": "C033",
+     "n": 3
+    },
+    {
+     "combo_id": "C160",
+     "n": 3
+    },
+    {
+     "combo_id": "C021",
+     "n": 3
+    },
+    {
+     "combo_id": "C039",
+     "n": 3
+    }
+   ],
+   "quick_words": 1100,
+   "quick_min": 5,
+   "full_min": 13
+  },
+  "C003": {
+   "settings": [
+    "signing",
+    "touring",
+    "management",
+    "health"
+   ],
+   "shared": [
+    {
+     "combo_id": "C025",
+     "n": 3
+    },
+    {
+     "combo_id": "C001",
+     "n": 2
+    },
+    {
+     "combo_id": "C034",
+     "n": 2
+    },
+    {
+     "combo_id": "C033",
+     "n": 2
+    },
+    {
+     "combo_id": "C036",
+     "n": 2
+    },
+    {
+     "combo_id": "C007",
+     "n": 2
+    }
+   ],
+   "quick_words": 1027,
+   "quick_min": 5,
+   "full_min": 12
+  },
+  "C005": {
+   "settings": [
+    "money",
+    "credit"
+   ],
+   "shared": [
+    {
+     "combo_id": "C020",
+     "n": 3
+    },
+    {
+     "combo_id": "C009",
+     "n": 2
+    },
+    {
+     "combo_id": "C035",
+     "n": 2
+    },
+    {
+     "combo_id": "C015",
+     "n": 2
+    },
+    {
+     "combo_id": "C162",
+     "n": 2
+    },
+    {
+     "combo_id": "C087",
+     "n": 1
+    }
+   ],
+   "quick_words": 888,
+   "quick_min": 5,
+   "full_min": 11
+  },
+  "C007": {
+   "settings": [
+    "credit"
+   ],
+   "shared": [
+    {
+     "combo_id": "C033",
+     "n": 4
+    },
+    {
+     "combo_id": "C133",
+     "n": 2
+    },
+    {
+     "combo_id": "C001",
+     "n": 2
+    },
+    {
+     "combo_id": "C025",
+     "n": 2
+    },
+    {
+     "combo_id": "C034",
+     "n": 2
+    },
+    {
+     "combo_id": "C201",
+     "n": 2
+    }
+   ],
+   "quick_words": 837,
+   "quick_min": 4,
+   "full_min": 11
+  },
+  "C008": {
+   "settings": [
+    "signing",
+    "money",
+    "venues"
+   ],
+   "shared": [
+    {
+     "combo_id": "C022",
+     "n": 4
+    },
+    {
+     "combo_id": "C034",
+     "n": 3
+    },
+    {
+     "combo_id": "C028",
+     "n": 2
+    },
+    {
+     "combo_id": "C169",
+     "n": 2
+    },
+    {
+     "combo_id": "C012",
+     "n": 1
+    },
+    {
+     "combo_id": "C014",
+     "n": 1
+    }
+   ],
+   "quick_words": 817,
+   "quick_min": 4,
+   "full_min": 11
+  },
+  "C009": {
+   "settings": [
+    "money",
+    "management",
+    "credit"
+   ],
+   "shared": [
+    {
+     "combo_id": "C015",
+     "n": 4
+    },
+    {
+     "combo_id": "C162",
+     "n": 4
+    },
+    {
+     "combo_id": "C010",
+     "n": 3
+    },
+    {
+     "combo_id": "C087",
+     "n": 2
+    },
+    {
+     "combo_id": "C020",
+     "n": 2
+    },
+    {
+     "combo_id": "C024",
+     "n": 2
+    }
+   ],
+   "quick_words": 860,
+   "quick_min": 4,
+   "full_min": 11
+  },
+  "C010": {
+   "settings": [
+    "touring",
+    "management",
+    "health",
+    "group"
+   ],
+   "shared": [
+    {
+     "combo_id": "C009",
+     "n": 3
+    },
+    {
+     "combo_id": "C015",
+     "n": 3
+    },
+    {
+     "combo_id": "C162",
+     "n": 3
+    },
+    {
+     "combo_id": "C018",
+     "n": 2
+    },
+    {
+     "combo_id": "C019",
+     "n": 2
+    },
+    {
+     "combo_id": "C029",
+     "n": 1
+    }
+   ],
+   "quick_words": 899,
+   "quick_min": 5,
+   "full_min": 11
+  },
+  "C011": {
+   "settings": [
+    "touring",
+    "group"
+   ],
+   "shared": [
+    {
+     "combo_id": "C001",
+     "n": 4
+    },
+    {
+     "combo_id": "C160",
+     "n": 3
+    },
+    {
+     "combo_id": "C139",
+     "n": 3
+    },
+    {
+     "combo_id": "C152",
+     "n": 2
+    },
+    {
+     "combo_id": "C016",
+     "n": 2
+    },
+    {
+     "combo_id": "C150",
+     "n": 2
+    }
+   ],
+   "quick_words": 1001,
+   "quick_min": 5,
+   "full_min": 12
+  },
+  "C012": {
+   "settings": [
+    "signing",
+    "money",
+    "touring",
+    "management",
+    "health",
+    "group"
+   ],
+   "shared": [
+    {
+     "combo_id": "C013",
+     "n": 4
+    },
+    {
+     "combo_id": "C017",
+     "n": 3
+    },
+    {
+     "combo_id": "C014",
+     "n": 3
+    },
+    {
+     "combo_id": "C112",
+     "n": 3
+    },
+    {
+     "combo_id": "C018",
+     "n": 3
+    },
+    {
+     "combo_id": "C016",
+     "n": 2
+    }
+   ],
+   "quick_words": 1274,
+   "quick_min": 6,
+   "full_min": 13
+  },
+  "C013": {
+   "settings": [
+    "signing",
+    "touring",
+    "venues",
+    "health",
+    "group"
+   ],
+   "shared": [
+    {
+     "combo_id": "C012",
+     "n": 4
+    },
+    {
+     "combo_id": "C014",
+     "n": 4
+    },
+    {
+     "combo_id": "C017",
+     "n": 3
+    },
+    {
+     "combo_id": "C018",
+     "n": 3
+    },
+    {
+     "combo_id": "C034",
+     "n": 2
+    },
+    {
+     "combo_id": "C112",
+     "n": 2
+    }
+   ],
+   "quick_words": 842,
+   "quick_min": 4,
+   "full_min": 10
+  },
+  "C014": {
+   "settings": [
+    "signing",
+    "money",
+    "management",
+    "credit"
+   ],
+   "shared": [
+    {
+     "combo_id": "C013",
+     "n": 4
+    },
+    {
+     "combo_id": "C012",
+     "n": 3
+    },
+    {
+     "combo_id": "C017",
+     "n": 2
+    },
+    {
+     "combo_id": "C001",
+     "n": 2
+    },
+    {
+     "combo_id": "C034",
+     "n": 2
+    },
+    {
+     "combo_id": "C112",
+     "n": 2
+    }
+   ],
+   "quick_words": 790,
+   "quick_min": 4,
+   "full_min": 10
+  },
+  "C015": {
+   "settings": [
+    "signing",
+    "money",
+    "management",
+    "group"
+   ],
+   "shared": [
+    {
+     "combo_id": "C009",
+     "n": 4
+    },
+    {
+     "combo_id": "C010",
+     "n": 3
+    },
+    {
+     "combo_id": "C087",
+     "n": 2
+    },
+    {
+     "combo_id": "C018",
+     "n": 2
+    },
+    {
+     "combo_id": "C020",
+     "n": 2
+    },
+    {
+     "combo_id": "C019",
+     "n": 2
+    }
+   ],
+   "quick_words": 892,
+   "quick_min": 5,
+   "full_min": 11
+  },
+  "C016": {
+   "settings": [
+    "signing",
+    "young"
+   ],
+   "shared": [
+    {
+     "combo_id": "C017",
+     "n": 3
+    },
+    {
+     "combo_id": "C111",
+     "n": 3
+    },
+    {
+     "combo_id": "C012",
+     "n": 2
+    },
+    {
+     "combo_id": "C014",
+     "n": 2
+    },
+    {
+     "combo_id": "C001",
+     "n": 2
+    },
+    {
+     "combo_id": "C112",
+     "n": 2
+    }
+   ],
+   "quick_words": 1054,
+   "quick_min": 5,
+   "full_min": 12
+  },
+  "C017": {
+   "settings": [
+    "money",
+    "touring",
+    "health"
+   ],
+   "shared": [
+    {
+     "combo_id": "C012",
+     "n": 3
+    },
+    {
+     "combo_id": "C112",
+     "n": 3
+    },
+    {
+     "combo_id": "C016",
+     "n": 3
+    },
+    {
+     "combo_id": "C013",
+     "n": 3
+    },
+    {
+     "combo_id": "C014",
+     "n": 2
+    },
+    {
+     "combo_id": "C018",
+     "n": 2
+    }
+   ],
+   "quick_words": 1011,
+   "quick_min": 5,
+   "full_min": 11
+  },
+  "C018": {
+   "settings": [
+    "money"
+   ],
+   "shared": [
+    {
+     "combo_id": "C012",
+     "n": 3
+    },
+    {
+     "combo_id": "C013",
+     "n": 3
+    },
+    {
+     "combo_id": "C017",
+     "n": 2
+    },
+    {
+     "combo_id": "C014",
+     "n": 2
+    },
+    {
+     "combo_id": "C112",
+     "n": 2
+    },
+    {
+     "combo_id": "C016",
+     "n": 2
+    }
+   ],
+   "quick_words": 796,
+   "quick_min": 4,
+   "full_min": 10
+  },
+  "C019": {
+   "settings": [
+    "management",
+    "complaints",
+    "group"
+   ],
+   "shared": [
+    {
+     "combo_id": "C160",
+     "n": 2
+    },
+    {
+     "combo_id": "C018",
+     "n": 2
+    },
+    {
+     "combo_id": "C011",
+     "n": 2
+    },
+    {
+     "combo_id": "C010",
+     "n": 2
+    },
+    {
+     "combo_id": "C015",
+     "n": 2
+    },
+    {
+     "combo_id": "C009",
+     "n": 1
+    }
+   ],
+   "quick_words": 1196,
+   "quick_min": 6,
+   "full_min": 13
+  },
+  "C020": {
+   "settings": [
+    "credit",
+    "young",
+    "group"
+   ],
+   "shared": [
+    {
+     "combo_id": "C005",
+     "n": 3
+    },
+    {
+     "combo_id": "C009",
+     "n": 2
+    },
+    {
+     "combo_id": "C035",
+     "n": 2
+    },
+    {
+     "combo_id": "C024",
+     "n": 2
+    },
+    {
+     "combo_id": "C015",
+     "n": 2
+    },
+    {
+     "combo_id": "C162",
+     "n": 2
+    }
+   ],
+   "quick_words": 1108,
+   "quick_min": 6,
+   "full_min": 13
+  },
+  "C021": {
+   "settings": [
+    "signing",
+    "credit",
+    "reputation"
+   ],
+   "shared": [
+    {
+     "combo_id": "C001",
+     "n": 3
+    },
+    {
+     "combo_id": "C139",
+     "n": 3
+    },
+    {
+     "combo_id": "C014",
+     "n": 2
+    },
+    {
+     "combo_id": "C131",
+     "n": 2
+    },
+    {
+     "combo_id": "C033",
+     "n": 2
+    },
+    {
+     "combo_id": "C152",
+     "n": 2
+    }
+   ],
+   "quick_words": 1075,
+   "quick_min": 5,
+   "full_min": 13
+  },
+  "C022": {
+   "settings": [
+    "signing",
+    "money",
+    "management"
+   ],
+   "shared": [
+    {
+     "combo_id": "C008",
+     "n": 4
+    },
+    {
+     "combo_id": "C034",
+     "n": 3
+    },
+    {
+     "combo_id": "C028",
+     "n": 2
+    },
+    {
+     "combo_id": "C169",
+     "n": 2
+    },
+    {
+     "combo_id": "C012",
+     "n": 1
+    },
+    {
+     "combo_id": "C014",
+     "n": 1
+    }
+   ],
+   "quick_words": 1065,
+   "quick_min": 5,
+   "full_min": 13
+  },
+  "C023": {
+   "settings": [
+    "touring",
+    "venues",
+    "reputation",
+    "group"
+   ],
+   "shared": [
+    {
+     "combo_id": "C090",
+     "n": 2
+    },
+    {
+     "combo_id": "C152",
+     "n": 2
+    },
+    {
+     "combo_id": "C159",
+     "n": 2
+    },
+    {
+     "combo_id": "C088",
+     "n": 1
+    },
+    {
+     "combo_id": "C105",
+     "n": 1
+    },
+    {
+     "combo_id": "C012",
+     "n": 1
+    }
+   ],
+   "quick_words": 1075,
+   "quick_min": 5,
+   "full_min": 13
+  },
+  "C024": {
+   "settings": [
+    "signing",
+    "credit",
+    "young",
+    "health"
+   ],
+   "shared": [
+    {
+     "combo_id": "C009",
+     "n": 2
+    },
+    {
+     "combo_id": "C020",
+     "n": 2
+    },
+    {
+     "combo_id": "C105",
+     "n": 1
+    },
+    {
+     "combo_id": "C087",
+     "n": 1
+    },
+    {
+     "combo_id": "C035",
+     "n": 1
+    },
+    {
+     "combo_id": "C018",
+     "n": 1
+    }
+   ],
+   "quick_words": 1216,
+   "quick_min": 6,
+   "full_min": 13
+  },
+  "C025": {
+   "settings": [
+    "money",
+    "touring"
+   ],
+   "shared": [
+    {
+     "combo_id": "C036",
+     "n": 3
+    },
+    {
+     "combo_id": "C003",
+     "n": 3
+    },
+    {
+     "combo_id": "C001",
+     "n": 2
+    },
+    {
+     "combo_id": "C034",
+     "n": 2
+    },
+    {
+     "combo_id": "C033",
+     "n": 2
+    },
+    {
+     "combo_id": "C007",
+     "n": 2
+    }
+   ],
+   "quick_words": 983,
+   "quick_min": 5,
+   "full_min": 12
+  },
+  "C026": {
+   "settings": [
+    "signing",
+    "management",
+    "group"
+   ],
+   "shared": [
+    {
+     "combo_id": "C036",
+     "n": 3
+    },
+    {
+     "combo_id": "C032",
+     "n": 2
+    },
+    {
+     "combo_id": "C029",
+     "n": 1
+    },
+    {
+     "combo_id": "C025",
+     "n": 1
+    },
+    {
+     "combo_id": "C010",
+     "n": 1
+    },
+    {
+     "combo_id": "C030",
+     "n": 1
+    }
+   ],
+   "quick_words": 1009,
+   "quick_min": 5,
+   "full_min": 12
+  },
+  "C027": {
+   "settings": [
+    "touring",
+    "venues"
+   ],
+   "shared": [
+    {
+     "combo_id": "C029",
+     "n": 3
+    },
+    {
+     "combo_id": "C036",
+     "n": 2
+    },
+    {
+     "combo_id": "C032",
+     "n": 2
+    },
+    {
+     "combo_id": "C075",
+     "n": 1
+    },
+    {
+     "combo_id": "C001",
+     "n": 1
+    },
+    {
+     "combo_id": "C026",
+     "n": 1
+    }
+   ],
+   "quick_words": 1017,
+   "quick_min": 5,
+   "full_min": 12
+  },
+  "C028": {
+   "settings": [
+    "money",
+    "touring"
+   ],
+   "shared": [
+    {
+     "combo_id": "C008",
+     "n": 2
+    },
+    {
+     "combo_id": "C038",
+     "n": 2
+    },
+    {
+     "combo_id": "C040",
+     "n": 2
+    },
+    {
+     "combo_id": "C044",
+     "n": 2
+    },
+    {
+     "combo_id": "C022",
+     "n": 2
+    },
+    {
+     "combo_id": "C012",
+     "n": 1
+    }
+   ],
+   "quick_words": 948,
+   "quick_min": 5,
+   "full_min": 11
+  },
+  "C029": {
+   "settings": [
+    "touring",
+    "complaints",
+    "health",
+    "group"
+   ],
+   "shared": [
+    {
+     "combo_id": "C027",
+     "n": 3
+    },
+    {
+     "combo_id": "C032",
+     "n": 2
+    },
+    {
+     "combo_id": "C075",
+     "n": 1
+    },
+    {
+     "combo_id": "C026",
+     "n": 1
+    },
+    {
+     "combo_id": "C054",
+     "n": 1
+    },
+    {
+     "combo_id": "C198",
+     "n": 1
+    }
+   ],
+   "quick_words": 1069,
+   "quick_min": 5,
+   "full_min": 12
+  },
+  "C030": {
+   "settings": [
+    "credit"
+   ],
+   "shared": [
+    {
+     "combo_id": "C050",
+     "n": 4
+    },
+    {
+     "combo_id": "C043",
+     "n": 4
+    },
+    {
+     "combo_id": "C031",
+     "n": 4
+    },
+    {
+     "combo_id": "C034",
+     "n": 2
+    },
+    {
+     "combo_id": "C033",
+     "n": 2
+    },
+    {
+     "combo_id": "C035",
+     "n": 2
+    }
+   ],
+   "quick_words": 902,
+   "quick_min": 5,
+   "full_min": 11
+  },
+  "C031": {
+   "settings": [
+    "signing",
+    "management",
+    "credit"
+   ],
+   "shared": [
+    {
+     "combo_id": "C030",
+     "n": 4
+    },
+    {
+     "combo_id": "C050",
+     "n": 3
+    },
+    {
+     "combo_id": "C043",
+     "n": 3
+    },
+    {
+     "combo_id": "C133",
+     "n": 2
+    },
+    {
+     "combo_id": "C108",
+     "n": 2
+    },
+    {
+     "combo_id": "C035",
+     "n": 2
+    }
+   ],
+   "quick_words": 941,
+   "quick_min": 5,
+   "full_min": 11
+  },
+  "C032": {
+   "settings": [
+    "signing",
+    "venues",
+    "group"
+   ],
+   "shared": [
+    {
+     "combo_id": "C036",
+     "n": 3
+    },
+    {
+     "combo_id": "C029",
+     "n": 2
+    },
+    {
+     "combo_id": "C026",
+     "n": 2
+    },
+    {
+     "combo_id": "C027",
+     "n": 2
+    },
+    {
+     "combo_id": "C014",
+     "n": 1
+    },
+    {
+     "combo_id": "C001",
+     "n": 1
+    }
+   ],
+   "quick_words": 994,
+   "quick_min": 5,
+   "full_min": 12
+  },
+  "C033": {
+   "settings": [
+    "credit",
+    "reputation",
+    "group"
+   ],
+   "shared": [
+    {
+     "combo_id": "C007",
+     "n": 4
+    },
+    {
+     "combo_id": "C001",
+     "n": 3
+    },
+    {
+     "combo_id": "C139",
+     "n": 3
+    },
+    {
+     "combo_id": "C039",
+     "n": 3
+    },
+    {
+     "combo_id": "C014",
+     "n": 2
+    },
+    {
+     "combo_id": "C025",
+     "n": 2
+    }
+   ],
+   "quick_words": 1010,
+   "quick_min": 5,
+   "full_min": 13
+  },
+  "C034": {
+   "settings": [
+    "money",
+    "credit"
+   ],
+   "shared": [
+    {
+     "combo_id": "C008",
+     "n": 3
+    },
+    {
+     "combo_id": "C039",
+     "n": 3
+    },
+    {
+     "combo_id": "C022",
+     "n": 3
+    },
+    {
+     "combo_id": "C014",
+     "n": 2
+    },
+    {
+     "combo_id": "C001",
+     "n": 2
+    },
+    {
+     "combo_id": "C025",
+     "n": 2
+    }
+   ],
+   "quick_words": 958,
+   "quick_min": 5,
+   "full_min": 12
+  },
+  "C035": {
+   "settings": [
+    "reputation",
+    "health"
+   ],
+   "shared": [
+    {
+     "combo_id": "C020",
+     "n": 2
+    },
+    {
+     "combo_id": "C030",
+     "n": 2
+    },
+    {
+     "combo_id": "C043",
+     "n": 2
+    },
+    {
+     "combo_id": "C031",
+     "n": 2
+    },
+    {
+     "combo_id": "C005",
+     "n": 2
+    },
+    {
+     "combo_id": "C008",
+     "n": 1
+    }
+   ],
+   "quick_words": 941,
+   "quick_min": 5,
+   "full_min": 12
+  },
+  "C036": {
+   "settings": [
+    "management",
+    "reputation",
+    "health"
+   ],
+   "shared": [
+    {
+     "combo_id": "C026",
+     "n": 3
+    },
+    {
+     "combo_id": "C025",
+     "n": 3
+    },
+    {
+     "combo_id": "C032",
+     "n": 3
+    },
+    {
+     "combo_id": "C001",
+     "n": 2
+    },
+    {
+     "combo_id": "C034",
+     "n": 2
+    },
+    {
+     "combo_id": "C033",
+     "n": 2
+    }
+   ],
+   "quick_words": 1061,
+   "quick_min": 5,
+   "full_min": 12
+  },
+  "C038": {
+   "settings": [
+    "credit"
+   ],
+   "shared": [
+    {
+     "combo_id": "C044",
+     "n": 3
+    },
+    {
+     "combo_id": "C028",
+     "n": 2
+    },
+    {
+     "combo_id": "C040",
+     "n": 2
+    },
+    {
+     "combo_id": "C008",
+     "n": 1
+    },
+    {
+     "combo_id": "C087",
+     "n": 1
+    },
+    {
+     "combo_id": "C178",
+     "n": 1
+    }
+   ],
+   "quick_words": 812,
+   "quick_min": 4,
+   "full_min": 11
+  },
+  "C039": {
+   "settings": [
+    "fans"
+   ],
+   "shared": [
+    {
+     "combo_id": "C001",
+     "n": 3
+    },
+    {
+     "combo_id": "C034",
+     "n": 3
+    },
+    {
+     "combo_id": "C033",
+     "n": 3
+    },
+    {
+     "combo_id": "C014",
+     "n": 2
+    },
+    {
+     "combo_id": "C025",
+     "n": 2
+    },
+    {
+     "combo_id": "C036",
+     "n": 2
+    }
+   ],
+   "quick_words": 962,
+   "quick_min": 5,
+   "full_min": 12
+  },
+  "C040": {
+   "settings": [
+    "touring",
+    "health"
+   ],
+   "shared": [
+    {
+     "combo_id": "C051",
+     "n": 3
+    },
+    {
+     "combo_id": "C093",
+     "n": 2
+    },
+    {
+     "combo_id": "C046",
+     "n": 2
+    },
+    {
+     "combo_id": "C178",
+     "n": 2
+    },
+    {
+     "combo_id": "C038",
+     "n": 2
+    },
+    {
+     "combo_id": "C049",
+     "n": 2
+    }
+   ],
+   "quick_words": 1209,
+   "quick_min": 6,
+   "full_min": 13
+  },
+  "C041": {
+   "settings": [
+    "management",
+    "reputation",
+    "health"
+   ],
+   "shared": [
+    {
+     "combo_id": "C029",
+     "n": 1
+    },
+    {
+     "combo_id": "C093",
+     "n": 1
+    },
+    {
+     "combo_id": "C026",
+     "n": 1
+    },
+    {
+     "combo_id": "C051",
+     "n": 1
+    },
+    {
+     "combo_id": "C046",
+     "n": 1
+    },
+    {
+     "combo_id": "C170",
+     "n": 1
+    }
+   ],
+   "quick_words": 1194,
+   "quick_min": 6,
+   "full_min": 13
+  },
+  "C042": {
+   "settings": [
+    "money",
+    "credit",
+    "complaints"
+   ],
+   "shared": [
+    {
+     "combo_id": "C106",
+     "n": 1
+    },
+    {
+     "combo_id": "C112",
+     "n": 1
+    },
+    {
+     "combo_id": "C074",
+     "n": 1
+    },
+    {
+     "combo_id": "C056",
+     "n": 1
+    },
+    {
+     "combo_id": "C198",
+     "n": 1
+    },
+    {
+     "combo_id": "C018",
+     "n": 1
+    }
+   ],
+   "quick_words": 1074,
+   "quick_min": 5,
+   "full_min": 13
+  },
+  "C043": {
+   "settings": [
+    "management",
+    "credit"
+   ],
+   "shared": [
+    {
+     "combo_id": "C030",
+     "n": 4
+    },
+    {
+     "combo_id": "C050",
+     "n": 3
+    },
+    {
+     "combo_id": "C031",
+     "n": 3
+    },
+    {
+     "combo_id": "C133",
+     "n": 2
+    },
+    {
+     "combo_id": "C034",
+     "n": 2
+    },
+    {
+     "combo_id": "C033",
+     "n": 2
+    }
+   ],
+   "quick_words": 1048,
+   "quick_min": 5,
+   "full_min": 13
+  },
+  "C044": {
+   "settings": [
+    "management",
+    "reputation",
+    "complaints"
+   ],
+   "shared": [
+    {
+     "combo_id": "C038",
+     "n": 3
+    },
+    {
+     "combo_id": "C028",
+     "n": 2
+    },
+    {
+     "combo_id": "C040",
+     "n": 2
+    },
+    {
+     "combo_id": "C008",
+     "n": 1
+    },
+    {
+     "combo_id": "C087",
+     "n": 1
+    },
+    {
+     "combo_id": "C112",
+     "n": 1
+    }
+   ],
+   "quick_words": 1144,
+   "quick_min": 6,
+   "full_min": 13
+  },
+  "C045": {
+   "settings": [
+    "signing",
+    "credit",
+    "fans"
+   ],
+   "shared": [
+    {
+     "combo_id": "C046",
+     "n": 2
+    },
+    {
+     "combo_id": "C048",
+     "n": 2
+    },
+    {
+     "combo_id": "C088",
+     "n": 1
+    },
+    {
+     "combo_id": "C075",
+     "n": 1
+    },
+    {
+     "combo_id": "C117",
+     "n": 1
+    },
+    {
+     "combo_id": "C093",
+     "n": 1
+    }
+   ],
+   "quick_words": 962,
+   "quick_min": 5,
+   "full_min": 12
+  },
+  "C046": {
+   "settings": [
+    "management",
+    "credit"
+   ],
+   "shared": [
+    {
+     "combo_id": "C048",
+     "n": 3
+    },
+    {
+     "combo_id": "C093",
+     "n": 2
+    },
+    {
+     "combo_id": "C051",
+     "n": 2
+    },
+    {
+     "combo_id": "C049",
+     "n": 2
+    },
+    {
+     "combo_id": "C045",
+     "n": 2
+    },
+    {
+     "combo_id": "C052",
+     "n": 2
+    }
+   ],
+   "quick_words": 870,
+   "quick_min": 4,
+   "full_min": 11
+  },
+  "C047": {
+   "settings": [
+    "signing",
+    "money",
+    "credit",
+    "complaints"
+   ],
+   "shared": [
+    {
+     "combo_id": "C169",
+     "n": 2
+    },
+    {
+     "combo_id": "C008",
+     "n": 1
+    },
+    {
+     "combo_id": "C034",
+     "n": 1
+    },
+    {
+     "combo_id": "C073",
+     "n": 1
+    },
+    {
+     "combo_id": "C035",
+     "n": 1
+    },
+    {
+     "combo_id": "C050",
+     "n": 1
+    }
+   ],
+   "quick_words": 893,
+   "quick_min": 5,
+   "full_min": 11
+  },
+  "C048": {
+   "settings": [
+    "money",
+    "complaints"
+   ],
+   "shared": [
+    {
+     "combo_id": "C046",
+     "n": 3
+    },
+    {
+     "combo_id": "C093",
+     "n": 2
+    },
+    {
+     "combo_id": "C051",
+     "n": 2
+    },
+    {
+     "combo_id": "C049",
+     "n": 2
+    },
+    {
+     "combo_id": "C045",
+     "n": 2
+    },
+    {
+     "combo_id": "C052",
+     "n": 2
+    }
+   ],
+   "quick_words": 874,
+   "quick_min": 4,
+   "full_min": 11
+  },
+  "C049": {
+   "settings": [
+    "reputation",
+    "complaints",
+    "group"
+   ],
+   "shared": [
+    {
+     "combo_id": "C051",
+     "n": 3
+    },
+    {
+     "combo_id": "C052",
+     "n": 3
+    },
+    {
+     "combo_id": "C088",
+     "n": 2
+    },
+    {
+     "combo_id": "C093",
+     "n": 2
+    },
+    {
+     "combo_id": "C119",
+     "n": 2
+    },
+    {
+     "combo_id": "C046",
+     "n": 2
+    }
+   ],
+   "quick_words": 856,
+   "quick_min": 4,
+   "full_min": 11
+  },
+  "C050": {
+   "settings": [
+    "signing",
+    "venues",
+    "management"
+   ],
+   "shared": [
+    {
+     "combo_id": "C030",
+     "n": 4
+    },
+    {
+     "combo_id": "C043",
+     "n": 3
+    },
+    {
+     "combo_id": "C031",
+     "n": 3
+    },
+    {
+     "combo_id": "C034",
+     "n": 2
+    },
+    {
+     "combo_id": "C033",
+     "n": 2
+    },
+    {
+     "combo_id": "C139",
+     "n": 2
+    }
+   ],
+   "quick_words": 849,
+   "quick_min": 4,
+   "full_min": 11
+  },
+  "C051": {
+   "settings": [
+    "reputation"
+   ],
+   "shared": [
+    {
+     "combo_id": "C093",
+     "n": 3
+    },
+    {
+     "combo_id": "C049",
+     "n": 3
+    },
+    {
+     "combo_id": "C052",
+     "n": 3
+    },
+    {
+     "combo_id": "C040",
+     "n": 3
+    },
+    {
+     "combo_id": "C088",
+     "n": 2
+    },
+    {
+     "combo_id": "C046",
+     "n": 2
+    }
+   ],
+   "quick_words": 860,
+   "quick_min": 4,
+   "full_min": 11
+  },
+  "C052": {
+   "settings": [
+    "signing",
+    "money",
+    "group"
+   ],
+   "shared": [
+    {
+     "combo_id": "C051",
+     "n": 3
+    },
+    {
+     "combo_id": "C049",
+     "n": 3
+    },
+    {
+     "combo_id": "C093",
+     "n": 2
+    },
+    {
+     "combo_id": "C046",
+     "n": 2
+    },
+    {
+     "combo_id": "C081",
+     "n": 2
+    },
+    {
+     "combo_id": "C048",
+     "n": 2
+    }
+   ],
+   "quick_words": 852,
+   "quick_min": 4,
+   "full_min": 10
+  },
+  "C054": {
+   "settings": [
+    "money",
+    "management",
+    "complaints"
+   ],
+   "shared": [
+    {
+     "combo_id": "C198",
+     "n": 2
+    },
+    {
+     "combo_id": "C057",
+     "n": 2
+    },
+    {
+     "combo_id": "C144",
+     "n": 2
+    },
+    {
+     "combo_id": "C106",
+     "n": 1
+    },
+    {
+     "combo_id": "C088",
+     "n": 1
+    },
+    {
+     "combo_id": "C075",
+     "n": 1
+    }
+   ],
+   "quick_words": 1101,
+   "quick_min": 6,
+   "full_min": 13
+  },
+  "C055": {
+   "settings": [
+    "management",
+    "complaints"
+   ],
+   "shared": [
+    {
+     "combo_id": "C056",
+     "n": 2
+    },
+    {
+     "combo_id": "C106",
+     "n": 1
+    },
+    {
+     "combo_id": "C065",
+     "n": 1
+    },
+    {
+     "combo_id": "C074",
+     "n": 1
+    },
+    {
+     "combo_id": "C086",
+     "n": 1
+    },
+    {
+     "combo_id": "C061",
+     "n": 1
+    }
+   ],
+   "quick_words": 985,
+   "quick_min": 5,
+   "full_min": 13
+  },
+  "C056": {
+   "settings": [
+    "money",
+    "management",
+    "credit",
+    "reputation"
+   ],
+   "shared": [
+    {
+     "combo_id": "C058",
+     "n": 3
+    },
+    {
+     "combo_id": "C112",
+     "n": 2
+    },
+    {
+     "combo_id": "C074",
+     "n": 2
+    },
+    {
+     "combo_id": "C055",
+     "n": 2
+    },
+    {
+     "combo_id": "C064",
+     "n": 2
+    },
+    {
+     "combo_id": "C106",
+     "n": 1
+    }
+   ],
+   "quick_words": 982,
+   "quick_min": 5,
+   "full_min": 12
+  },
+  "C057": {
+   "settings": [
+    "management",
+    "complaints"
+   ],
+   "shared": [
+    {
+     "combo_id": "C054",
+     "n": 2
+    },
+    {
+     "combo_id": "C106",
+     "n": 1
+    },
+    {
+     "combo_id": "C046",
+     "n": 1
+    },
+    {
+     "combo_id": "C074",
+     "n": 1
+    },
+    {
+     "combo_id": "C056",
+     "n": 1
+    },
+    {
+     "combo_id": "C045",
+     "n": 1
+    }
+   ],
+   "quick_words": 928,
+   "quick_min": 5,
+   "full_min": 12
+  },
+  "C058": {
+   "settings": [
+    "touring",
+    "venues",
+    "complaints"
+   ],
+   "shared": [
+    {
+     "combo_id": "C056",
+     "n": 3
+    },
+    {
+     "combo_id": "C112",
+     "n": 2
+    },
+    {
+     "combo_id": "C074",
+     "n": 2
+    },
+    {
+     "combo_id": "C061",
+     "n": 2
+    },
+    {
+     "combo_id": "C064",
+     "n": 2
+    },
+    {
+     "combo_id": "C106",
+     "n": 1
+    }
+   ],
+   "quick_words": 1063,
+   "quick_min": 5,
+   "full_min": 13
+  },
+  "C059": {
+   "settings": [
+    "venues",
+    "reputation"
+   ],
+   "shared": [
+    {
+     "combo_id": "C094",
+     "n": 2
+    },
+    {
+     "combo_id": "C143",
+     "n": 2
+    },
+    {
+     "combo_id": "C075",
+     "n": 1
+    },
+    {
+     "combo_id": "C119",
+     "n": 1
+    },
+    {
+     "combo_id": "C108",
+     "n": 1
+    },
+    {
+     "combo_id": "C074",
+     "n": 1
+    }
+   ],
+   "quick_words": 921,
+   "quick_min": 5,
+   "full_min": 12
+  },
+  "C060": {
+   "settings": [
+    "touring",
+    "complaints",
+    "young"
+   ],
+   "shared": [
+    {
+     "combo_id": "C065",
+     "n": 2
+    },
+    {
+     "combo_id": "C074",
+     "n": 2
+    },
+    {
+     "combo_id": "C101",
+     "n": 2
+    },
+    {
+     "combo_id": "C106",
+     "n": 1
+    },
+    {
+     "combo_id": "C086",
+     "n": 1
+    },
+    {
+     "combo_id": "C061",
+     "n": 1
+    }
+   ],
+   "quick_words": 1130,
+   "quick_min": 6,
+   "full_min": 13
+  },
+  "C061": {
+   "settings": [
+    "touring",
+    "complaints",
+    "health",
+    "group"
+   ],
+   "shared": [
+    {
+     "combo_id": "C058",
+     "n": 2
+    },
+    {
+     "combo_id": "C065",
+     "n": 1
+    },
+    {
+     "combo_id": "C056",
+     "n": 1
+    },
+    {
+     "combo_id": "C060",
+     "n": 1
+    },
+    {
+     "combo_id": "C055",
+     "n": 1
+    },
+    {
+     "combo_id": "C064",
+     "n": 1
+    }
+   ],
+   "quick_words": 1138,
+   "quick_min": 6,
+   "full_min": 13
+  },
+  "C062": {
+   "settings": [
+    "money",
+    "touring",
+    "venues",
+    "group"
+   ],
+   "shared": [
+    {
+     "combo_id": "C128",
+     "n": 1
+    },
+    {
+     "combo_id": "C081",
+     "n": 1
+    },
+    {
+     "combo_id": "C159",
+     "n": 1
+    },
+    {
+     "combo_id": "C055",
+     "n": 1
+    },
+    {
+     "combo_id": "C085",
+     "n": 1
+    },
+    {
+     "combo_id": "C083",
+     "n": 1
+    }
+   ],
+   "quick_words": 1070,
+   "quick_min": 5,
+   "full_min": 13
+  },
+  "C063": {
+   "settings": [
+    "money",
+    "management",
+    "complaints"
+   ],
+   "shared": [
+    {
+     "combo_id": "C106",
+     "n": 2
+    },
+    {
+     "combo_id": "C108",
+     "n": 1
+    },
+    {
+     "combo_id": "C112",
+     "n": 1
+    },
+    {
+     "combo_id": "C074",
+     "n": 1
+    },
+    {
+     "combo_id": "C056",
+     "n": 1
+    },
+    {
+     "combo_id": "C018",
+     "n": 1
+    }
+   ],
+   "quick_words": 1008,
+   "quick_min": 5,
+   "full_min": 13
+  },
+  "C064": {
+   "settings": [
+    "complaints",
+    "young"
+   ],
+   "shared": [
+    {
+     "combo_id": "C056",
+     "n": 2
+    },
+    {
+     "combo_id": "C058",
+     "n": 2
+    },
+    {
+     "combo_id": "C112",
+     "n": 1
+    },
+    {
+     "combo_id": "C074",
+     "n": 1
+    },
+    {
+     "combo_id": "C073",
+     "n": 1
+    },
+    {
+     "combo_id": "C061",
+     "n": 1
+    }
+   ],
+   "quick_words": 1073,
+   "quick_min": 5,
+   "full_min": 13
+  },
+  "C065": {
+   "settings": [
+    "signing",
+    "management",
+    "credit",
+    "complaints"
+   ],
+   "shared": [
+    {
+     "combo_id": "C060",
+     "n": 2
+    },
+    {
+     "combo_id": "C106",
+     "n": 1
+    },
+    {
+     "combo_id": "C074",
+     "n": 1
+    },
+    {
+     "combo_id": "C086",
+     "n": 1
+    },
+    {
+     "combo_id": "C061",
+     "n": 1
+    },
+    {
+     "combo_id": "C070",
+     "n": 1
+    }
+   ],
+   "quick_words": 1008,
+   "quick_min": 5,
+   "full_min": 13
+  },
+  "C066": {
+   "settings": [
+    "money",
+    "touring",
+    "credit",
+    "complaints"
+   ],
+   "shared": [
+    {
+     "combo_id": "C105",
+     "n": 1
+    },
+    {
+     "combo_id": "C065",
+     "n": 1
+    },
+    {
+     "combo_id": "C073",
+     "n": 1
+    },
+    {
+     "combo_id": "C071",
+     "n": 1
+    },
+    {
+     "combo_id": "C070",
+     "n": 1
+    },
+    {
+     "combo_id": "C048",
+     "n": 1
+    }
+   ],
+   "quick_words": 1103,
+   "quick_min": 6,
+   "full_min": 13
+  },
+  "C067": {
+   "settings": [
+    "signing",
+    "management",
+    "credit",
+    "reputation",
+    "complaints"
+   ],
+   "shared": [
+    {
+     "combo_id": "C047",
+     "n": 1
+    },
+    {
+     "combo_id": "C032",
+     "n": 1
+    },
+    {
+     "combo_id": "C052",
+     "n": 1
+    },
+    {
+     "combo_id": "C147",
+     "n": 1
+    },
+    {
+     "combo_id": "C172",
+     "n": 1
+    },
+    {
+     "combo_id": "C078",
+     "n": 1
+    }
+   ],
+   "quick_words": 984,
+   "quick_min": 5,
+   "full_min": 12
+  },
+  "C069": {
+   "settings": [
+    "venues",
+    "complaints",
+    "young",
+    "health",
+    "fans"
+   ],
+   "shared": [
+    {
+     "combo_id": "C112",
+     "n": 1
+    },
+    {
+     "combo_id": "C074",
+     "n": 1
+    },
+    {
+     "combo_id": "C073",
+     "n": 1
+    },
+    {
+     "combo_id": "C199",
+     "n": 1
+    },
+    {
+     "combo_id": "C056",
+     "n": 1
+    },
+    {
+     "combo_id": "C098",
+     "n": 1
+    }
+   ],
+   "quick_words": 1084,
+   "quick_min": 5,
+   "full_min": 13
+  },
+  "C070": {
+   "settings": [
+    "money",
+    "management",
+    "group"
+   ],
+   "shared": [
+    {
+     "combo_id": "C106",
+     "n": 1
+    },
+    {
+     "combo_id": "C109",
+     "n": 1
+    },
+    {
+     "combo_id": "C065",
+     "n": 1
+    },
+    {
+     "combo_id": "C074",
+     "n": 1
+    },
+    {
+     "combo_id": "C157",
+     "n": 1
+    },
+    {
+     "combo_id": "C199",
+     "n": 1
+    }
+   ],
+   "quick_words": 1032,
+   "quick_min": 5,
+   "full_min": 12
+  },
+  "C071": {
+   "settings": [
+    "touring",
+    "venues",
+    "complaints"
+   ],
+   "shared": [
+    {
+     "combo_id": "C161",
+     "n": 2
+    },
+    {
+     "combo_id": "C088",
+     "n": 1
+    },
+    {
+     "combo_id": "C073",
+     "n": 1
+    },
+    {
+     "combo_id": "C054",
+     "n": 1
+    },
+    {
+     "combo_id": "C066",
+     "n": 1
+    },
+    {
+     "combo_id": "C113",
+     "n": 1
+    }
+   ],
+   "quick_words": 1507,
+   "quick_min": 7,
+   "full_min": 18
+  },
+  "C073": {
+   "settings": [
+    "signing",
+    "money",
+    "management"
+   ],
+   "shared": [
+    {
+     "combo_id": "C109",
+     "n": 1
+    },
+    {
+     "combo_id": "C112",
+     "n": 1
+    },
+    {
+     "combo_id": "C074",
+     "n": 1
+    },
+    {
+     "combo_id": "C056",
+     "n": 1
+    },
+    {
+     "combo_id": "C047",
+     "n": 1
+    },
+    {
+     "combo_id": "C071",
+     "n": 1
+    }
+   ],
+   "quick_words": 1411,
+   "quick_min": 7,
+   "full_min": 17
+  },
+  "C074": {
+   "settings": [
+    "money",
+    "credit"
+   ],
+   "shared": [
+    {
+     "combo_id": "C106",
+     "n": 4
+    },
+    {
+     "combo_id": "C112",
+     "n": 2
+    },
+    {
+     "combo_id": "C056",
+     "n": 2
+    },
+    {
+     "combo_id": "C060",
+     "n": 2
+    },
+    {
+     "combo_id": "C058",
+     "n": 2
+    },
+    {
+     "combo_id": "C075",
+     "n": 1
+    }
+   ],
+   "quick_words": 1409,
+   "quick_min": 7,
+   "full_min": 16
+  },
+  "C075": {
+   "settings": [
+    "management",
+    "reputation",
+    "group"
+   ],
+   "shared": [
+    {
+     "combo_id": "C077",
+     "n": 4
+    },
+    {
+     "combo_id": "C155",
+     "n": 2
+    },
+    {
+     "combo_id": "C153",
+     "n": 2
+    },
+    {
+     "combo_id": "C144",
+     "n": 2
+    },
+    {
+     "combo_id": "C029",
+     "n": 1
+    },
+    {
+     "combo_id": "C074",
+     "n": 1
+    }
+   ],
+   "quick_words": 1263,
+   "quick_min": 6,
+   "full_min": 16
+  },
+  "C077": {
+   "settings": [
+    "management"
+   ],
+   "shared": [
+    {
+     "combo_id": "C075",
+     "n": 4
+    },
+    {
+     "combo_id": "C155",
+     "n": 2
+    },
+    {
+     "combo_id": "C153",
+     "n": 2
+    },
+    {
+     "combo_id": "C078",
+     "n": 2
+    },
+    {
+     "combo_id": "C144",
+     "n": 2
+    },
+    {
+     "combo_id": "C029",
+     "n": 1
+    }
+   ],
+   "quick_words": 1281,
+   "quick_min": 6,
+   "full_min": 16
+  },
+  "C078": {
+   "settings": [
+    "signing",
+    "touring",
+    "venues",
+    "complaints"
+   ],
+   "shared": [
+    {
+     "combo_id": "C159",
+     "n": 2
+    },
+    {
+     "combo_id": "C077",
+     "n": 2
+    },
+    {
+     "combo_id": "C106",
+     "n": 1
+    },
+    {
+     "combo_id": "C075",
+     "n": 1
+    },
+    {
+     "combo_id": "C116",
+     "n": 1
+    },
+    {
+     "combo_id": "C029",
+     "n": 1
+    }
+   ],
+   "quick_words": 1486,
+   "quick_min": 7,
+   "full_min": 17
+  },
+  "C079": {
+   "settings": [
+    "touring",
+    "venues",
+    "group"
+   ],
+   "shared": [
+    {
+     "combo_id": "C094",
+     "n": 2
+    },
+    {
+     "combo_id": "C089",
+     "n": 2
+    },
+    {
+     "combo_id": "C088",
+     "n": 1
+    },
+    {
+     "combo_id": "C090",
+     "n": 1
+    },
+    {
+     "combo_id": "C093",
+     "n": 1
+    },
+    {
+     "combo_id": "C051",
+     "n": 1
+    }
+   ],
+   "quick_words": 1034,
+   "quick_min": 5,
+   "full_min": 13
+  },
+  "C080": {
+   "settings": [
+    "signing",
+    "credit",
+    "reputation"
+   ],
+   "shared": [
+    {
+     "combo_id": "C088",
+     "n": 2
+    },
+    {
+     "combo_id": "C090",
+     "n": 2
+    },
+    {
+     "combo_id": "C093",
+     "n": 2
+    },
+    {
+     "combo_id": "C051",
+     "n": 2
+    },
+    {
+     "combo_id": "C049",
+     "n": 2
+    },
+    {
+     "combo_id": "C081",
+     "n": 2
+    }
+   ],
+   "quick_words": 922,
+   "quick_min": 5,
+   "full_min": 12
+  },
+  "C081": {
+   "settings": [
+    "touring",
+    "complaints"
+   ],
+   "shared": [
+    {
+     "combo_id": "C051",
+     "n": 2
+    },
+    {
+     "combo_id": "C049",
+     "n": 2
+    },
+    {
+     "combo_id": "C052",
+     "n": 2
+    },
+    {
+     "combo_id": "C080",
+     "n": 2
+    },
+    {
+     "combo_id": "C075",
+     "n": 1
+    },
+    {
+     "combo_id": "C093",
+     "n": 1
+    }
+   ],
+   "quick_words": 915,
+   "quick_min": 5,
+   "full_min": 12
+  },
+  "C082": {
+   "settings": [
+    "venues",
+    "reputation"
+   ],
+   "shared": [
+    {
+     "combo_id": "C117",
+     "n": 1
+    },
+    {
+     "combo_id": "C093",
+     "n": 1
+    },
+    {
+     "combo_id": "C119",
+     "n": 1
+    },
+    {
+     "combo_id": "C051",
+     "n": 1
+    },
+    {
+     "combo_id": "C046",
+     "n": 1
+    },
+    {
+     "combo_id": "C089",
+     "n": 1
+    }
+   ],
+   "quick_words": 1137,
+   "quick_min": 6,
+   "full_min": 13
+  },
+  "C083": {
+   "settings": [
+    "money",
+    "venues",
+    "complaints",
+    "group"
+   ],
+   "shared": [
+    {
+     "combo_id": "C093",
+     "n": 1
+    },
+    {
+     "combo_id": "C051",
+     "n": 1
+    },
+    {
+     "combo_id": "C046",
+     "n": 1
+    },
+    {
+     "combo_id": "C065",
+     "n": 1
+    },
+    {
+     "combo_id": "C170",
+     "n": 1
+    },
+    {
+     "combo_id": "C062",
+     "n": 1
+    }
+   ],
+   "quick_words": 1021,
+   "quick_min": 5,
+   "full_min": 13
+  },
+  "C084": {
+   "settings": [
+    "management"
+   ],
+   "shared": [
+    {
+     "combo_id": "C090",
+     "n": 2
+    },
+    {
+     "combo_id": "C051",
+     "n": 1
+    },
+    {
+     "combo_id": "C086",
+     "n": 1
+    },
+    {
+     "combo_id": "C177",
+     "n": 1
+    },
+    {
+     "combo_id": "C023",
+     "n": 1
+    },
+    {
+     "combo_id": "C152",
+     "n": 1
+    }
+   ],
+   "quick_words": 897,
+   "quick_min": 5,
+   "full_min": 12
+  },
+  "C085": {
+   "settings": [
+    "management",
+    "group"
+   ],
+   "shared": [
+    {
+     "combo_id": "C189",
+     "n": 2
+    },
+    {
+     "combo_id": "C094",
+     "n": 1
+    },
+    {
+     "combo_id": "C119",
+     "n": 1
+    },
+    {
+     "combo_id": "C062",
+     "n": 1
+    },
+    {
+     "combo_id": "C082",
+     "n": 1
+    },
+    {
+     "combo_id": "C197",
+     "n": 1
+    }
+   ],
+   "quick_words": 894,
+   "quick_min": 5,
+   "full_min": 12
+  },
+  "C086": {
+   "settings": [
+    "signing",
+    "management",
+    "complaints",
+    "group"
+   ],
+   "shared": [
+    {
+     "combo_id": "C106",
+     "n": 1
+    },
+    {
+     "combo_id": "C065",
+     "n": 1
+    },
+    {
+     "combo_id": "C074",
+     "n": 1
+    },
+    {
+     "combo_id": "C170",
+     "n": 1
+    },
+    {
+     "combo_id": "C060",
+     "n": 1
+    },
+    {
+     "combo_id": "C150",
+     "n": 1
+    }
+   ],
+   "quick_words": 894,
+   "quick_min": 5,
+   "full_min": 12
+  },
+  "C087": {
+   "settings": [
+    "venues",
+    "group"
+   ],
+   "shared": [
+    {
+     "combo_id": "C009",
+     "n": 2
+    },
+    {
+     "combo_id": "C015",
+     "n": 2
+    },
+    {
+     "combo_id": "C008",
+     "n": 1
+    },
+    {
+     "combo_id": "C105",
+     "n": 1
+    },
+    {
+     "combo_id": "C033",
+     "n": 1
+    },
+    {
+     "combo_id": "C178",
+     "n": 1
+    }
+   ],
+   "quick_words": 847,
+   "quick_min": 4,
+   "full_min": 11
+  },
+  "C088": {
+   "settings": [
+    "venues",
+    "reputation"
+   ],
+   "shared": [
+    {
+     "combo_id": "C090",
+     "n": 2
+    },
+    {
+     "combo_id": "C093",
+     "n": 2
+    },
+    {
+     "combo_id": "C119",
+     "n": 2
+    },
+    {
+     "combo_id": "C051",
+     "n": 2
+    },
+    {
+     "combo_id": "C108",
+     "n": 2
+    },
+    {
+     "combo_id": "C049",
+     "n": 2
+    }
+   ],
+   "quick_words": 1088,
+   "quick_min": 5,
+   "full_min": 13
+  },
+  "C089": {
+   "settings": [
+    "touring",
+    "reputation",
+    "complaints",
+    "group"
+   ],
+   "shared": [
+    {
+     "combo_id": "C094",
+     "n": 3
+    },
+    {
+     "combo_id": "C119",
+     "n": 3
+    },
+    {
+     "combo_id": "C117",
+     "n": 2
+    },
+    {
+     "combo_id": "C079",
+     "n": 2
+    },
+    {
+     "combo_id": "C143",
+     "n": 2
+    },
+    {
+     "combo_id": "C088",
+     "n": 1
+    }
+   ],
+   "quick_words": 1235,
+   "quick_min": 6,
+   "full_min": 13
+  },
+  "C090": {
+   "settings": [
+    "signing",
+    "touring",
+    "venues",
+    "management",
+    "complaints"
+   ],
+   "shared": [
+    {
+     "combo_id": "C088",
+     "n": 2
+    },
+    {
+     "combo_id": "C023",
+     "n": 2
+    },
+    {
+     "combo_id": "C152",
+     "n": 2
+    },
+    {
+     "combo_id": "C080",
+     "n": 2
+    },
+    {
+     "combo_id": "C096",
+     "n": 2
+    },
+    {
+     "combo_id": "C084",
+     "n": 2
+    }
+   ],
+   "quick_words": 1065,
+   "quick_min": 5,
+   "full_min": 12
+  },
+  "C093": {
+   "settings": [
+    "money",
+    "management",
+    "reputation",
+    "group"
+   ],
+   "shared": [
+    {
+     "combo_id": "C119",
+     "n": 3
+    },
+    {
+     "combo_id": "C051",
+     "n": 3
+    },
+    {
+     "combo_id": "C088",
+     "n": 2
+    },
+    {
+     "combo_id": "C117",
+     "n": 2
+    },
+    {
+     "combo_id": "C046",
+     "n": 2
+    },
+    {
+     "combo_id": "C049",
+     "n": 2
+    }
+   ],
+   "quick_words": 1025,
+   "quick_min": 5,
+   "full_min": 12
+  },
+  "C094": {
+   "settings": [
+    "touring",
+    "complaints",
+    "group"
+   ],
+   "shared": [
+    {
+     "combo_id": "C143",
+     "n": 4
+    },
+    {
+     "combo_id": "C119",
+     "n": 3
+    },
+    {
+     "combo_id": "C089",
+     "n": 3
+    },
+    {
+     "combo_id": "C108",
+     "n": 2
+    },
+    {
+     "combo_id": "C079",
+     "n": 2
+    },
+    {
+     "combo_id": "C059",
+     "n": 2
+    }
+   ],
+   "quick_words": 987,
+   "quick_min": 5,
+   "full_min": 13
+  },
+  "C096": {
+   "settings": [
+    "management",
+    "reputation",
+    "group"
+   ],
+   "shared": [
+    {
+     "combo_id": "C090",
+     "n": 2
+    },
+    {
+     "combo_id": "C007",
+     "n": 2
+    },
+    {
+     "combo_id": "C088",
+     "n": 1
+    },
+    {
+     "combo_id": "C133",
+     "n": 1
+    },
+    {
+     "combo_id": "C094",
+     "n": 1
+    },
+    {
+     "combo_id": "C119",
+     "n": 1
+    }
+   ],
+   "quick_words": 1024,
+   "quick_min": 5,
+   "full_min": 13
+  },
+  "C098": {
+   "settings": [
+    "management",
+    "reputation"
+   ],
+   "shared": [
+    {
+     "combo_id": "C133",
+     "n": 2
+    },
+    {
+     "combo_id": "C090",
+     "n": 1
+    },
+    {
+     "combo_id": "C017",
+     "n": 1
+    },
+    {
+     "combo_id": "C120",
+     "n": 1
+    },
+    {
+     "combo_id": "C201",
+     "n": 1
+    },
+    {
+     "combo_id": "C128",
+     "n": 1
+    }
+   ],
+   "quick_words": 1220,
+   "quick_min": 6,
+   "full_min": 13
+  },
+  "C101": {
+   "settings": [
+    "touring",
+    "complaints",
+    "health"
+   ],
+   "shared": [
+    {
+     "combo_id": "C060",
+     "n": 2
+    },
+    {
+     "combo_id": "C074",
+     "n": 1
+    },
+    {
+     "combo_id": "C148",
+     "n": 1
+    },
+    {
+     "combo_id": "C147",
+     "n": 1
+    },
+    {
+     "combo_id": "C064",
+     "n": 1
+    },
+    {
+     "combo_id": "C146",
+     "n": 1
+    }
+   ],
+   "quick_words": 1157,
+   "quick_min": 6,
+   "full_min": 13
+  },
+  "C102": {
+   "settings": [
+    "money",
+    "venues",
+    "fans"
+   ],
+   "shared": [
+    {
+     "combo_id": "C035",
+     "n": 1
+    },
+    {
+     "combo_id": "C038",
+     "n": 1
+    },
+    {
+     "combo_id": "C028",
+     "n": 1
+    },
+    {
+     "combo_id": "C187",
+     "n": 1
+    },
+    {
+     "combo_id": "C040",
+     "n": 1
+    },
+    {
+     "combo_id": "C044",
+     "n": 1
+    }
+   ],
+   "quick_words": 1039,
+   "quick_min": 5,
+   "full_min": 12
+  },
+  "C105": {
+   "settings": [
+    "signing",
+    "touring",
+    "management",
+    "health"
+   ],
+   "shared": [
+    {
+     "combo_id": "C116",
+     "n": 2
+    },
+    {
+     "combo_id": "C111",
+     "n": 2
+    },
+    {
+     "combo_id": "C017",
+     "n": 1
+    },
+    {
+     "combo_id": "C001",
+     "n": 1
+    },
+    {
+     "combo_id": "C135",
+     "n": 1
+    },
+    {
+     "combo_id": "C087",
+     "n": 1
+    }
+   ],
+   "quick_words": 1257,
+   "quick_min": 6,
+   "full_min": 13
+  },
+  "C106": {
+   "settings": [
+    "signing",
+    "venues",
+    "complaints"
+   ],
+   "shared": [
+    {
+     "combo_id": "C074",
+     "n": 4
+    },
+    {
+     "combo_id": "C112",
+     "n": 2
+    },
+    {
+     "combo_id": "C113",
+     "n": 2
+    },
+    {
+     "combo_id": "C063",
+     "n": 2
+    },
+    {
+     "combo_id": "C108",
+     "n": 1
+    },
+    {
+     "combo_id": "C065",
+     "n": 1
+    }
+   ],
+   "quick_words": 1035,
+   "quick_min": 5,
+   "full_min": 12
+  },
+  "C108": {
+   "settings": [
+    "management",
+    "credit",
+    "reputation",
+    "group"
+   ],
+   "shared": [
+    {
+     "combo_id": "C143",
+     "n": 3
+    },
+    {
+     "combo_id": "C088",
+     "n": 2
+    },
+    {
+     "combo_id": "C094",
+     "n": 2
+    },
+    {
+     "combo_id": "C031",
+     "n": 2
+    },
+    {
+     "combo_id": "C106",
+     "n": 1
+    },
+    {
+     "combo_id": "C133",
+     "n": 1
+    }
+   ],
+   "quick_words": 1129,
+   "quick_min": 6,
+   "full_min": 13
+  },
+  "C109": {
+   "settings": [
+    "money"
+   ],
+   "shared": [
+    {
+     "combo_id": "C073",
+     "n": 1
+    },
+    {
+     "combo_id": "C070",
+     "n": 1
+    }
+   ],
+   "quick_words": 1076,
+   "quick_min": 5,
+   "full_min": 13
+  },
+  "C111": {
+   "settings": [
+    "touring",
+    "management",
+    "young"
+   ],
+   "shared": [
+    {
+     "combo_id": "C112",
+     "n": 3
+    },
+    {
+     "combo_id": "C160",
+     "n": 3
+    },
+    {
+     "combo_id": "C016",
+     "n": 3
+    },
+    {
+     "combo_id": "C105",
+     "n": 2
+    },
+    {
+     "combo_id": "C012",
+     "n": 2
+    },
+    {
+     "combo_id": "C017",
+     "n": 2
+    }
+   ],
+   "quick_words": 1151,
+   "quick_min": 6,
+   "full_min": 12
+  },
+  "C112": {
+   "settings": [
+    "signing",
+    "management",
+    "complaints",
+    "group"
+   ],
+   "shared": [
+    {
+     "combo_id": "C012",
+     "n": 3
+    },
+    {
+     "combo_id": "C017",
+     "n": 3
+    },
+    {
+     "combo_id": "C111",
+     "n": 3
+    },
+    {
+     "combo_id": "C106",
+     "n": 2
+    },
+    {
+     "combo_id": "C014",
+     "n": 2
+    },
+    {
+     "combo_id": "C074",
+     "n": 2
+    }
+   ],
+   "quick_words": 976,
+   "quick_min": 5,
+   "full_min": 12
+  },
+  "C113": {
+   "settings": [
+    "venues",
+    "complaints"
+   ],
+   "shared": [
+    {
+     "combo_id": "C106",
+     "n": 2
+    },
+    {
+     "combo_id": "C088",
+     "n": 1
+    },
+    {
+     "combo_id": "C090",
+     "n": 1
+    },
+    {
+     "combo_id": "C093",
+     "n": 1
+    },
+    {
+     "combo_id": "C051",
+     "n": 1
+    },
+    {
+     "combo_id": "C074",
+     "n": 1
+    }
+   ],
+   "quick_words": 983,
+   "quick_min": 5,
+   "full_min": 12
+  },
+  "C116": {
+   "settings": [
+    "management",
+    "health"
+   ],
+   "shared": [
+    {
+     "combo_id": "C105",
+     "n": 2
+    },
+    {
+     "combo_id": "C196",
+     "n": 1
+    },
+    {
+     "combo_id": "C157",
+     "n": 1
+    },
+    {
+     "combo_id": "C036",
+     "n": 1
+    },
+    {
+     "combo_id": "C160",
+     "n": 1
+    },
+    {
+     "combo_id": "C159",
+     "n": 1
+    }
+   ],
+   "quick_words": 1147,
+   "quick_min": 6,
+   "full_min": 13
+  },
+  "C117": {
+   "settings": [
+    "credit",
+    "reputation",
+    "group"
+   ],
+   "shared": [
+    {
+     "combo_id": "C119",
+     "n": 4
+    },
+    {
+     "combo_id": "C093",
+     "n": 2
+    },
+    {
+     "combo_id": "C089",
+     "n": 2
+    },
+    {
+     "combo_id": "C088",
+     "n": 1
+    },
+    {
+     "combo_id": "C051",
+     "n": 1
+    },
+    {
+     "combo_id": "C046",
+     "n": 1
+    }
+   ],
+   "quick_words": 1196,
+   "quick_min": 6,
+   "full_min": 12
+  },
+  "C119": {
+   "settings": [
+    "reputation"
+   ],
+   "shared": [
+    {
+     "combo_id": "C117",
+     "n": 4
+    },
+    {
+     "combo_id": "C093",
+     "n": 3
+    },
+    {
+     "combo_id": "C094",
+     "n": 3
+    },
+    {
+     "combo_id": "C089",
+     "n": 3
+    },
+    {
+     "combo_id": "C088",
+     "n": 2
+    },
+    {
+     "combo_id": "C049",
+     "n": 2
+    }
+   ],
+   "quick_words": 1105,
+   "quick_min": 6,
+   "full_min": 12
+  },
+  "C120": {
+   "settings": [
+    "reputation"
+   ],
+   "shared": [
+    {
+     "combo_id": "C168",
+     "n": 1
+    },
+    {
+     "combo_id": "C098",
+     "n": 1
+    },
+    {
+     "combo_id": "C124",
+     "n": 1
+    }
+   ],
+   "quick_words": 1023,
+   "quick_min": 5,
+   "full_min": 12
+  },
+  "C122": {
+   "settings": [
+    "money",
+    "reputation",
+    "young",
+    "fans"
+   ],
+   "shared": [
+    {
+     "combo_id": "C001",
+     "n": 1
+    },
+    {
+     "combo_id": "C025",
+     "n": 1
+    },
+    {
+     "combo_id": "C034",
+     "n": 1
+    },
+    {
+     "combo_id": "C033",
+     "n": 1
+    },
+    {
+     "combo_id": "C128",
+     "n": 1
+    },
+    {
+     "combo_id": "C036",
+     "n": 1
+    }
+   ],
+   "quick_words": 1136,
+   "quick_min": 6,
+   "full_min": 12
+  },
+  "C124": {
+   "settings": [
+    "signing",
+    "management",
+    "reputation"
+   ],
+   "shared": [
+    {
+     "combo_id": "C009",
+     "n": 1
+    },
+    {
+     "combo_id": "C168",
+     "n": 1
+    },
+    {
+     "combo_id": "C120",
+     "n": 1
+    },
+    {
+     "combo_id": "C038",
+     "n": 1
+    },
+    {
+     "combo_id": "C016",
+     "n": 1
+    },
+    {
+     "combo_id": "C028",
+     "n": 1
+    }
+   ],
+   "quick_words": 1017,
+   "quick_min": 5,
+   "full_min": 12
+  },
+  "C128": {
+   "settings": [
+    "venues",
+    "reputation",
+    "young",
+    "fans"
+   ],
+   "shared": [
+    {
+     "combo_id": "C133",
+     "n": 1
+    },
+    {
+     "combo_id": "C090",
+     "n": 1
+    },
+    {
+     "combo_id": "C201",
+     "n": 1
+    },
+    {
+     "combo_id": "C062",
+     "n": 1
+    },
+    {
+     "combo_id": "C152",
+     "n": 1
+    },
+    {
+     "combo_id": "C007",
+     "n": 1
+    }
+   ],
+   "quick_words": 1066,
+   "quick_min": 5,
+   "full_min": 13
+  },
+  "C131": {
+   "settings": [
+    "signing",
+    "management",
+    "reputation"
+   ],
+   "shared": [
+    {
+     "combo_id": "C033",
+     "n": 2
+    },
+    {
+     "combo_id": "C021",
+     "n": 2
+    },
+    {
+     "combo_id": "C139",
+     "n": 2
+    },
+    {
+     "combo_id": "C143",
+     "n": 2
+    },
+    {
+     "combo_id": "C144",
+     "n": 2
+    },
+    {
+     "combo_id": "C088",
+     "n": 1
+    }
+   ],
+   "quick_words": 1069,
+   "quick_min": 5,
+   "full_min": 13
+  },
+  "C133": {
+   "settings": [
+    "venues",
+    "management",
+    "credit"
+   ],
+   "shared": [
+    {
+     "combo_id": "C201",
+     "n": 2
+    },
+    {
+     "combo_id": "C007",
+     "n": 2
+    },
+    {
+     "combo_id": "C098",
+     "n": 2
+    },
+    {
+     "combo_id": "C043",
+     "n": 2
+    },
+    {
+     "combo_id": "C031",
+     "n": 2
+    },
+    {
+     "combo_id": "C090",
+     "n": 1
+    }
+   ],
+   "quick_words": 1172,
+   "quick_min": 6,
+   "full_min": 13
+  },
+  "C135": {
+   "settings": [
+    "touring",
+    "venues",
+    "health",
+    "group"
+   ],
+   "shared": [
+    {
+     "combo_id": "C105",
+     "n": 1
+    },
+    {
+     "combo_id": "C017",
+     "n": 1
+    },
+    {
+     "combo_id": "C001",
+     "n": 1
+    },
+    {
+     "combo_id": "C112",
+     "n": 1
+    },
+    {
+     "combo_id": "C023",
+     "n": 1
+    },
+    {
+     "combo_id": "C035",
+     "n": 1
+    }
+   ],
+   "quick_words": 989,
+   "quick_min": 5,
+   "full_min": 12
+  },
+  "C139": {
+   "settings": [
+    "venues",
+    "management",
+    "group"
+   ],
+   "shared": [
+    {
+     "combo_id": "C001",
+     "n": 4
+    },
+    {
+     "combo_id": "C160",
+     "n": 4
+    },
+    {
+     "combo_id": "C033",
+     "n": 3
+    },
+    {
+     "combo_id": "C011",
+     "n": 3
+    },
+    {
+     "combo_id": "C021",
+     "n": 3
+    },
+    {
+     "combo_id": "C014",
+     "n": 2
+    }
+   ],
+   "quick_words": 1185,
+   "quick_min": 6,
+   "full_min": 13
+  },
+  "C143": {
+   "settings": [
+    "touring",
+    "complaints",
+    "group"
+   ],
+   "shared": [
+    {
+     "combo_id": "C094",
+     "n": 4
+    },
+    {
+     "combo_id": "C108",
+     "n": 3
+    },
+    {
+     "combo_id": "C088",
+     "n": 2
+    },
+    {
+     "combo_id": "C119",
+     "n": 2
+    },
+    {
+     "combo_id": "C131",
+     "n": 2
+    },
+    {
+     "combo_id": "C089",
+     "n": 2
+    }
+   ],
+   "quick_words": 1076,
+   "quick_min": 5,
+   "full_min": 12
+  },
+  "C144": {
+   "settings": [
+    "signing",
+    "management",
+    "credit",
+    "health"
+   ],
+   "shared": [
+    {
+     "combo_id": "C163",
+     "n": 3
+    },
+    {
+     "combo_id": "C075",
+     "n": 2
+    },
+    {
+     "combo_id": "C131",
+     "n": 2
+    },
+    {
+     "combo_id": "C054",
+     "n": 2
+    },
+    {
+     "combo_id": "C198",
+     "n": 2
+    },
+    {
+     "combo_id": "C184",
+     "n": 2
+    }
+   ],
+   "quick_words": 1114,
+   "quick_min": 6,
+   "full_min": 13
+  },
+  "C146": {
+   "settings": [
+    "venues",
+    "young",
+    "health"
+   ],
+   "shared": [
+    {
+     "combo_id": "C086",
+     "n": 1
+    },
+    {
+     "combo_id": "C201",
+     "n": 1
+    },
+    {
+     "combo_id": "C035",
+     "n": 1
+    },
+    {
+     "combo_id": "C148",
+     "n": 1
+    },
+    {
+     "combo_id": "C101",
+     "n": 1
+    },
+    {
+     "combo_id": "C102",
+     "n": 1
+    }
+   ],
+   "quick_words": 1142,
+   "quick_min": 6,
+   "full_min": 13
+  },
+  "C147": {
+   "settings": [
+    "signing",
+    "complaints",
+    "young"
+   ],
+   "shared": [
+    {
+     "combo_id": "C047",
+     "n": 1
+    },
+    {
+     "combo_id": "C081",
+     "n": 1
+    },
+    {
+     "combo_id": "C101",
+     "n": 1
+    },
+    {
+     "combo_id": "C024",
+     "n": 1
+    },
+    {
+     "combo_id": "C052",
+     "n": 1
+    },
+    {
+     "combo_id": "C193",
+     "n": 1
+    }
+   ],
+   "quick_words": 1113,
+   "quick_min": 6,
+   "full_min": 12
+  },
+  "C148": {
+   "settings": [
+    "venues",
+    "management",
+    "young"
+   ],
+   "shared": [
+    {
+     "combo_id": "C030",
+     "n": 2
+    },
+    {
+     "combo_id": "C043",
+     "n": 2
+    },
+    {
+     "combo_id": "C133",
+     "n": 1
+    },
+    {
+     "combo_id": "C014",
+     "n": 1
+    },
+    {
+     "combo_id": "C001",
+     "n": 1
+    },
+    {
+     "combo_id": "C025",
+     "n": 1
+    }
+   ],
+   "quick_words": 1060,
+   "quick_min": 5,
+   "full_min": 12
+  },
+  "C150": {
+   "settings": [
+    "signing",
+    "management",
+    "reputation"
+   ],
+   "shared": [
+    {
+     "combo_id": "C160",
+     "n": 3
+    },
+    {
+     "combo_id": "C001",
+     "n": 2
+    },
+    {
+     "combo_id": "C034",
+     "n": 2
+    },
+    {
+     "combo_id": "C152",
+     "n": 2
+    },
+    {
+     "combo_id": "C007",
+     "n": 2
+    },
+    {
+     "combo_id": "C011",
+     "n": 2
+    }
+   ],
+   "quick_words": 888,
+   "quick_min": 5,
+   "full_min": 11
+  },
+  "C152": {
+   "settings": [
+    "management",
+    "group"
+   ],
+   "shared": [
+    {
+     "combo_id": "C090",
+     "n": 2
+    },
+    {
+     "combo_id": "C001",
+     "n": 2
+    },
+    {
+     "combo_id": "C034",
+     "n": 2
+    },
+    {
+     "combo_id": "C023",
+     "n": 2
+    },
+    {
+     "combo_id": "C007",
+     "n": 2
+    },
+    {
+     "combo_id": "C150",
+     "n": 2
+    }
+   ],
+   "quick_words": 859,
+   "quick_min": 4,
+   "full_min": 11
+  },
+  "C153": {
+   "settings": [
+    "money",
+    "venues",
+    "reputation",
+    "group"
+   ],
+   "shared": [
+    {
+     "combo_id": "C075",
+     "n": 2
+    },
+    {
+     "combo_id": "C157",
+     "n": 2
+    },
+    {
+     "combo_id": "C163",
+     "n": 2
+    },
+    {
+     "combo_id": "C077",
+     "n": 2
+    },
+    {
+     "combo_id": "C106",
+     "n": 1
+    },
+    {
+     "combo_id": "C088",
+     "n": 1
+    }
+   ],
+   "quick_words": 961,
+   "quick_min": 5,
+   "full_min": 11
+  },
+  "C155": {
+   "settings": [
+    "touring",
+    "venues",
+    "management",
+    "reputation",
+    "group"
+   ],
+   "shared": [
+    {
+     "combo_id": "C075",
+     "n": 2
+    },
+    {
+     "combo_id": "C077",
+     "n": 2
+    },
+    {
+     "combo_id": "C090",
+     "n": 1
+    },
+    {
+     "combo_id": "C074",
+     "n": 1
+    },
+    {
+     "combo_id": "C157",
+     "n": 1
+    },
+    {
+     "combo_id": "C081",
+     "n": 1
+    }
+   ],
+   "quick_words": 1107,
+   "quick_min": 6,
+   "full_min": 13
+  },
+  "C157": {
+   "settings": [
+    "venues",
+    "group"
+   ],
+   "shared": [
+    {
+     "combo_id": "C036",
+     "n": 2
+    },
+    {
+     "combo_id": "C160",
+     "n": 2
+    },
+    {
+     "combo_id": "C013",
+     "n": 2
+    },
+    {
+     "combo_id": "C153",
+     "n": 2
+    },
+    {
+     "combo_id": "C106",
+     "n": 1
+    },
+    {
+     "combo_id": "C133",
+     "n": 1
+    }
+   ],
+   "quick_words": 946,
+   "quick_min": 5,
+   "full_min": 11
+  },
+  "C159": {
+   "settings": [
+    "venues",
+    "complaints",
+    "health",
+    "group"
+   ],
+   "shared": [
+    {
+     "combo_id": "C023",
+     "n": 2
+    },
+    {
+     "combo_id": "C078",
+     "n": 2
+    },
+    {
+     "combo_id": "C106",
+     "n": 1
+    },
+    {
+     "combo_id": "C088",
+     "n": 1
+    },
+    {
+     "combo_id": "C105",
+     "n": 1
+    },
+    {
+     "combo_id": "C090",
+     "n": 1
+    }
+   ],
+   "quick_words": 1155,
+   "quick_min": 6,
+   "full_min": 13
+  },
+  "C160": {
+   "settings": [
+    "touring",
+    "complaints",
+    "group"
+   ],
+   "shared": [
+    {
+     "combo_id": "C139",
+     "n": 4
+    },
+    {
+     "combo_id": "C001",
+     "n": 3
+    },
+    {
+     "combo_id": "C150",
+     "n": 3
+    },
+    {
+     "combo_id": "C011",
+     "n": 3
+    },
+    {
+     "combo_id": "C111",
+     "n": 3
+    },
+    {
+     "combo_id": "C014",
+     "n": 2
+    }
+   ],
+   "quick_words": 955,
+   "quick_min": 5,
+   "full_min": 11
+  },
+  "C161": {
+   "settings": [
+    "signing",
+    "touring",
+    "credit",
+    "complaints"
+   ],
+   "shared": [
+    {
+     "combo_id": "C071",
+     "n": 2
+    },
+    {
+     "combo_id": "C073",
+     "n": 1
+    },
+    {
+     "combo_id": "C050",
+     "n": 1
+    },
+    {
+     "combo_id": "C030",
+     "n": 1
+    },
+    {
+     "combo_id": "C066",
+     "n": 1
+    },
+    {
+     "combo_id": "C113",
+     "n": 1
+    }
+   ],
+   "quick_words": 910,
+   "quick_min": 5,
+   "full_min": 11
+  },
+  "C162": {
+   "settings": [
+    "signing",
+    "money",
+    "venues",
+    "group"
+   ],
+   "shared": [
+    {
+     "combo_id": "C009",
+     "n": 4
+    },
+    {
+     "combo_id": "C010",
+     "n": 3
+    },
+    {
+     "combo_id": "C020",
+     "n": 2
+    },
+    {
+     "combo_id": "C015",
+     "n": 2
+    },
+    {
+     "combo_id": "C005",
+     "n": 2
+    },
+    {
+     "combo_id": "C012",
+     "n": 1
+    }
+   ],
+   "quick_words": 820,
+   "quick_min": 4,
+   "full_min": 11
+  },
+  "C163": {
+   "settings": [
+    "touring",
+    "management",
+    "health"
+   ],
+   "shared": [
+    {
+     "combo_id": "C144",
+     "n": 3
+    },
+    {
+     "combo_id": "C153",
+     "n": 2
+    },
+    {
+     "combo_id": "C106",
+     "n": 1
+    },
+    {
+     "combo_id": "C075",
+     "n": 1
+    },
+    {
+     "combo_id": "C131",
+     "n": 1
+    },
+    {
+     "combo_id": "C074",
+     "n": 1
+    }
+   ],
+   "quick_words": 920,
+   "quick_min": 5,
+   "full_min": 11
+  },
+  "C168": {
+   "settings": [
+    "signing",
+    "management",
+    "health"
+   ],
+   "shared": [
+    {
+     "combo_id": "C120",
+     "n": 1
+    },
+    {
+     "combo_id": "C171",
+     "n": 1
+    },
+    {
+     "combo_id": "C124",
+     "n": 1
+    }
+   ],
+   "quick_words": 1052,
+   "quick_min": 5,
+   "full_min": 13
+  },
+  "C169": {
+   "settings": [
+    "money",
+    "management",
+    "credit"
+   ],
+   "shared": [
+    {
+     "combo_id": "C008",
+     "n": 2
+    },
+    {
+     "combo_id": "C034",
+     "n": 2
+    },
+    {
+     "combo_id": "C047",
+     "n": 2
+    },
+    {
+     "combo_id": "C022",
+     "n": 2
+    },
+    {
+     "combo_id": "C135",
+     "n": 1
+    },
+    {
+     "combo_id": "C035",
+     "n": 1
+    }
+   ],
+   "quick_words": 1052,
+   "quick_min": 5,
+   "full_min": 13
+  },
+  "C170": {
+   "settings": [
+    "signing",
+    "money",
+    "management",
+    "reputation",
+    "group"
+   ],
+   "shared": [
+    {
+     "combo_id": "C093",
+     "n": 1
+    },
+    {
+     "combo_id": "C034",
+     "n": 1
+    },
+    {
+     "combo_id": "C051",
+     "n": 1
+    },
+    {
+     "combo_id": "C046",
+     "n": 1
+    },
+    {
+     "combo_id": "C086",
+     "n": 1
+    },
+    {
+     "combo_id": "C152",
+     "n": 1
+    }
+   ],
+   "quick_words": 1149,
+   "quick_min": 6,
+   "full_min": 13
+  },
+  "C171": {
+   "settings": [
+    "signing",
+    "money",
+    "reputation"
+   ],
+   "shared": [
+    {
+     "combo_id": "C168",
+     "n": 1
+    },
+    {
+     "combo_id": "C047",
+     "n": 1
+    },
+    {
+     "combo_id": "C169",
+     "n": 1
+    }
+   ],
+   "quick_words": 1063,
+   "quick_min": 5,
+   "full_min": 13
+  },
+  "C172": {
+   "settings": [
+    "money",
+    "venues",
+    "reputation"
+   ],
+   "shared": [
+    {
+     "combo_id": "C200",
+     "n": 1
+    },
+    {
+     "combo_id": "C066",
+     "n": 1
+    },
+    {
+     "combo_id": "C064",
+     "n": 1
+    },
+    {
+     "combo_id": "C067",
+     "n": 1
+    }
+   ],
+   "quick_words": 1044,
+   "quick_min": 5,
+   "full_min": 13
+  },
+  "C173": {
+   "settings": [
+    "signing",
+    "reputation"
+   ],
+   "shared": [
+    {
+     "combo_id": "C008",
+     "n": 1
+    },
+    {
+     "combo_id": "C014",
+     "n": 1
+    },
+    {
+     "combo_id": "C001",
+     "n": 1
+    },
+    {
+     "combo_id": "C131",
+     "n": 1
+    },
+    {
+     "combo_id": "C033",
+     "n": 1
+    },
+    {
+     "combo_id": "C160",
+     "n": 1
+    }
+   ],
+   "quick_words": 1033,
+   "quick_min": 5,
+   "full_min": 13
+  },
+  "C174": {
+   "settings": [
+    "money",
+    "credit",
+    "reputation",
+    "health"
+   ],
+   "shared": [
+    {
+     "combo_id": "C001",
+     "n": 1
+    },
+    {
+     "combo_id": "C170",
+     "n": 1
+    },
+    {
+     "combo_id": "C206",
+     "n": 1
+    },
+    {
+     "combo_id": "C011",
+     "n": 1
+    },
+    {
+     "combo_id": "C032",
+     "n": 1
+    }
+   ],
+   "quick_words": 1081,
+   "quick_min": 5,
+   "full_min": 13
+  },
+  "C176": {
+   "settings": [
+    "venues",
+    "reputation",
+    "complaints",
+    "fans"
+   ],
+   "shared": [
+    {
+     "combo_id": "C153",
+     "n": 1
+    },
+    {
+     "combo_id": "C162",
+     "n": 1
+    }
+   ],
+   "quick_words": 1046,
+   "quick_min": 5,
+   "full_min": 13
+  },
+  "C177": {
+   "settings": [
+    "touring",
+    "credit",
+    "group"
+   ],
+   "shared": [
+    {
+     "combo_id": "C090",
+     "n": 1
+    },
+    {
+     "combo_id": "C034",
+     "n": 1
+    },
+    {
+     "combo_id": "C023",
+     "n": 1
+    },
+    {
+     "combo_id": "C152",
+     "n": 1
+    },
+    {
+     "combo_id": "C084",
+     "n": 1
+    }
+   ],
+   "quick_words": 975,
+   "quick_min": 5,
+   "full_min": 12
+  },
+  "C178": {
+   "settings": [
+    "signing",
+    "credit"
+   ],
+   "shared": [
+    {
+     "combo_id": "C040",
+     "n": 2
+    },
+    {
+     "combo_id": "C008",
+     "n": 1
+    },
+    {
+     "combo_id": "C051",
+     "n": 1
+    },
+    {
+     "combo_id": "C087",
+     "n": 1
+    },
+    {
+     "combo_id": "C038",
+     "n": 1
+    },
+    {
+     "combo_id": "C028",
+     "n": 1
+    }
+   ],
+   "quick_words": 905,
+   "quick_min": 5,
+   "full_min": 12
+  },
+  "C181": {
+   "settings": [
+    "signing",
+    "touring",
+    "reputation"
+   ],
+   "shared": [
+    {
+     "combo_id": "C025",
+     "n": 1
+    },
+    {
+     "combo_id": "C016",
+     "n": 1
+    },
+    {
+     "combo_id": "C005",
+     "n": 1
+    }
+   ],
+   "quick_words": 937,
+   "quick_min": 5,
+   "full_min": 12
+  },
+  "C182": {
+   "settings": [
+    "signing",
+    "touring",
+    "credit"
+   ],
+   "shared": [],
+   "quick_words": 952,
+   "quick_min": 5,
+   "full_min": 13
+  },
+  "C183": {
+   "settings": [
+    "money",
+    "management",
+    "health",
+    "group"
+   ],
+   "shared": [
+    {
+     "combo_id": "C075",
+     "n": 1
+    },
+    {
+     "combo_id": "C029",
+     "n": 1
+    },
+    {
+     "combo_id": "C046",
+     "n": 1
+    },
+    {
+     "combo_id": "C054",
+     "n": 1
+    },
+    {
+     "combo_id": "C198",
+     "n": 1
+    },
+    {
+     "combo_id": "C047",
+     "n": 1
+    }
+   ],
+   "quick_words": 1159,
+   "quick_min": 6,
+   "full_min": 13
+  },
+  "C184": {
+   "settings": [
+    "money",
+    "management",
+    "complaints",
+    "health"
+   ],
+   "shared": [
+    {
+     "combo_id": "C144",
+     "n": 2
+    },
+    {
+     "combo_id": "C075",
+     "n": 1
+    },
+    {
+     "combo_id": "C029",
+     "n": 1
+    },
+    {
+     "combo_id": "C054",
+     "n": 1
+    },
+    {
+     "combo_id": "C198",
+     "n": 1
+    },
+    {
+     "combo_id": "C183",
+     "n": 1
+    }
+   ],
+   "quick_words": 1039,
+   "quick_min": 5,
+   "full_min": 13
+  },
+  "C185": {
+   "settings": [
+    "money",
+    "touring",
+    "complaints"
+   ],
+   "shared": [],
+   "quick_words": 1107,
+   "quick_min": 6,
+   "full_min": 13
+  },
+  "C186": {
+   "settings": [
+    "signing",
+    "money",
+    "touring",
+    "group"
+   ],
+   "shared": [
+    {
+     "combo_id": "C144",
+     "n": 1
+    }
+   ],
+   "quick_words": 955,
+   "quick_min": 5,
+   "full_min": 12
+  },
+  "C187": {
+   "settings": [
+    "credit",
+    "reputation",
+    "group"
+   ],
+   "shared": [
+    {
+     "combo_id": "C093",
+     "n": 2
+    },
+    {
+     "combo_id": "C040",
+     "n": 2
+    },
+    {
+     "combo_id": "C117",
+     "n": 1
+    },
+    {
+     "combo_id": "C119",
+     "n": 1
+    },
+    {
+     "combo_id": "C051",
+     "n": 1
+    },
+    {
+     "combo_id": "C046",
+     "n": 1
+    }
+   ],
+   "quick_words": 1071,
+   "quick_min": 5,
+   "full_min": 13
+  },
+  "C189": {
+   "settings": [
+    "reputation",
+    "group",
+    "fans"
+   ],
+   "shared": [
+    {
+     "combo_id": "C085",
+     "n": 2
+    },
+    {
+     "combo_id": "C094",
+     "n": 1
+    },
+    {
+     "combo_id": "C119",
+     "n": 1
+    },
+    {
+     "combo_id": "C082",
+     "n": 1
+    },
+    {
+     "combo_id": "C059",
+     "n": 1
+    },
+    {
+     "combo_id": "C143",
+     "n": 1
+    }
+   ],
+   "quick_words": 1519,
+   "quick_min": 7,
+   "full_min": 17
+  },
+  "C190": {
+   "settings": [
+    "reputation",
+    "complaints"
+   ],
+   "shared": [
+    {
+     "combo_id": "C117",
+     "n": 1
+    },
+    {
+     "combo_id": "C046",
+     "n": 1
+    },
+    {
+     "combo_id": "C183",
+     "n": 1
+    }
+   ],
+   "quick_words": 1017,
+   "quick_min": 5,
+   "full_min": 13
+  },
+  "C191": {
+   "settings": [
+    "money",
+    "credit",
+    "reputation",
+    "group"
+   ],
+   "shared": [
+    {
+     "combo_id": "C133",
+     "n": 1
+    },
+    {
+     "combo_id": "C108",
+     "n": 1
+    },
+    {
+     "combo_id": "C031",
+     "n": 1
+    }
+   ],
+   "quick_words": 1089,
+   "quick_min": 5,
+   "full_min": 14
+  },
+  "C192": {
+   "settings": [
+    "touring",
+    "venues",
+    "health"
+   ],
+   "shared": [
+    {
+     "combo_id": "C105",
+     "n": 1
+    },
+    {
+     "combo_id": "C035",
+     "n": 1
+    },
+    {
+     "combo_id": "C111",
+     "n": 1
+    }
+   ],
+   "quick_words": 1206,
+   "quick_min": 6,
+   "full_min": 14
+  },
+  "C193": {
+   "settings": [
+    "health"
+   ],
+   "shared": [
+    {
+     "combo_id": "C081",
+     "n": 1
+    },
+    {
+     "combo_id": "C024",
+     "n": 1
+    },
+    {
+     "combo_id": "C147",
+     "n": 1
+    }
+   ],
+   "quick_words": 1101,
+   "quick_min": 6,
+   "full_min": 14
+  },
+  "C196": {
+   "settings": [
+    "money",
+    "venues",
+    "complaints",
+    "health"
+   ],
+   "shared": [
+    {
+     "combo_id": "C105",
+     "n": 1
+    },
+    {
+     "combo_id": "C117",
+     "n": 1
+    },
+    {
+     "combo_id": "C116",
+     "n": 1
+    },
+    {
+     "combo_id": "C205",
+     "n": 1
+    }
+   ],
+   "quick_words": 1148,
+   "quick_min": 6,
+   "full_min": 13
+  },
+  "C197": {
+   "settings": [
+    "touring",
+    "credit",
+    "complaints"
+   ],
+   "shared": [
+    {
+     "combo_id": "C026",
+     "n": 1
+    },
+    {
+     "combo_id": "C030",
+     "n": 1
+    },
+    {
+     "combo_id": "C085",
+     "n": 1
+    },
+    {
+     "combo_id": "C041",
+     "n": 1
+    }
+   ],
+   "quick_words": 958,
+   "quick_min": 5,
+   "full_min": 12
+  },
+  "C198": {
+   "settings": [
+    "venues",
+    "health"
+   ],
+   "shared": [
+    {
+     "combo_id": "C054",
+     "n": 2
+    },
+    {
+     "combo_id": "C144",
+     "n": 2
+    },
+    {
+     "combo_id": "C075",
+     "n": 1
+    },
+    {
+     "combo_id": "C029",
+     "n": 1
+    },
+    {
+     "combo_id": "C028",
+     "n": 1
+    },
+    {
+     "combo_id": "C045",
+     "n": 1
+    }
+   ],
+   "quick_words": 858,
+   "quick_min": 4,
+   "full_min": 11
+  },
+  "C199": {
+   "settings": [
+    "signing",
+    "venues",
+    "management",
+    "complaints"
+   ],
+   "shared": [
+    {
+     "combo_id": "C070",
+     "n": 1
+    },
+    {
+     "combo_id": "C055",
+     "n": 1
+    },
+    {
+     "combo_id": "C069",
+     "n": 1
+    }
+   ],
+   "quick_words": 937,
+   "quick_min": 5,
+   "full_min": 12
+  },
+  "C200": {
+   "settings": [
+    "money",
+    "management",
+    "credit",
+    "complaints",
+    "group"
+   ],
+   "shared": [
+    {
+     "combo_id": "C135",
+     "n": 1
+    },
+    {
+     "combo_id": "C019",
+     "n": 1
+    },
+    {
+     "combo_id": "C169",
+     "n": 1
+    },
+    {
+     "combo_id": "C172",
+     "n": 1
+    }
+   ],
+   "quick_words": 977,
+   "quick_min": 5,
+   "full_min": 12
+  },
+  "C201": {
+   "settings": [
+    "venues",
+    "health"
+   ],
+   "shared": [
+    {
+     "combo_id": "C133",
+     "n": 2
+    },
+    {
+     "combo_id": "C033",
+     "n": 2
+    },
+    {
+     "combo_id": "C007",
+     "n": 2
+    },
+    {
+     "combo_id": "C043",
+     "n": 2
+    },
+    {
+     "combo_id": "C090",
+     "n": 1
+    },
+    {
+     "combo_id": "C131",
+     "n": 1
+    }
+   ],
+   "quick_words": 1041,
+   "quick_min": 5,
+   "full_min": 13
+  },
+  "C202": {
+   "settings": [
+    "money",
+    "touring",
+    "management"
+   ],
+   "shared": [
+    {
+     "combo_id": "C105",
+     "n": 1
+    },
+    {
+     "combo_id": "C017",
+     "n": 1
+    },
+    {
+     "combo_id": "C001",
+     "n": 1
+    },
+    {
+     "combo_id": "C135",
+     "n": 1
+    },
+    {
+     "combo_id": "C112",
+     "n": 1
+    },
+    {
+     "combo_id": "C023",
+     "n": 1
+    }
+   ],
+   "quick_words": 1038,
+   "quick_min": 5,
+   "full_min": 12
+  },
+  "C203": {
+   "settings": [
+    "signing",
+    "money",
+    "touring"
+   ],
+   "shared": [
+    {
+     "combo_id": "C008",
+     "n": 1
+    },
+    {
+     "combo_id": "C012",
+     "n": 1
+    },
+    {
+     "combo_id": "C014",
+     "n": 1
+    },
+    {
+     "combo_id": "C034",
+     "n": 1
+    },
+    {
+     "combo_id": "C018",
+     "n": 1
+    },
+    {
+     "combo_id": "C028",
+     "n": 1
+    }
+   ],
+   "quick_words": 927,
+   "quick_min": 5,
+   "full_min": 12
+  },
+  "C205": {
+   "settings": [
+    "venues",
+    "reputation",
+    "complaints"
+   ],
+   "shared": [
+    {
+     "combo_id": "C196",
+     "n": 1
+    }
+   ],
+   "quick_words": 871,
+   "quick_min": 4,
+   "full_min": 12
+  },
+  "C206": {
+   "settings": [
+    "reputation",
+    "young",
+    "health"
+   ],
+   "shared": [
+    {
+     "combo_id": "C117",
+     "n": 1
+    },
+    {
+     "combo_id": "C001",
+     "n": 1
+    },
+    {
+     "combo_id": "C119",
+     "n": 1
+    },
+    {
+     "combo_id": "C089",
+     "n": 1
+    },
+    {
+     "combo_id": "C011",
+     "n": 1
+    },
+    {
+     "combo_id": "C174",
+     "n": 1
+    }
+   ],
+   "quick_words": 1033,
+   "quick_min": 5,
+   "full_min": 12
+  }
+ },
+ "tactic_uses": {
+  "T001": [
+   {
+    "combo_id": "C001",
+    "pos": 1,
+    "of": 7
+   },
+   {
+    "combo_id": "C160",
+    "pos": 2,
+    "of": 9
+   },
+   {
+    "combo_id": "C150",
+    "pos": 1,
+    "of": 6
+   },
+   {
+    "combo_id": "C011",
+    "pos": 1,
+    "of": 6
+   },
+   {
+    "combo_id": "C139",
+    "pos": 1,
+    "of": 10
+   }
+  ],
+  "T047": [
+   {
+    "combo_id": "C001",
+    "pos": 2,
+    "of": 7
+   },
+   {
+    "combo_id": "C028",
+    "pos": 1,
+    "of": 6
+   }
+  ],
+  "T003": [
+   {
+    "combo_id": "C001",
+    "pos": 3,
+    "of": 7
+   },
+   {
+    "combo_id": "C206",
+    "pos": 1,
+    "of": 5
+   },
+   {
+    "combo_id": "C011",
+    "pos": 2,
+    "of": 6
+   },
+   {
+    "combo_id": "C174",
+    "pos": 3,
+    "of": 6
+   }
+  ],
+  "T078": [
+   {
+    "combo_id": "C001",
+    "pos": 4,
+    "of": 7
+   },
+   {
+    "combo_id": "C025",
+    "pos": 1,
+    "of": 5
+   },
+   {
+    "combo_id": "C034",
+    "pos": 4,
+    "of": 7
+   },
+   {
+    "combo_id": "C033",
+    "pos": 2,
+    "of": 6
+   },
+   {
+    "combo_id": "C036",
+    "pos": 4,
+    "of": 8
+   },
+   {
+    "combo_id": "C007",
+    "pos": 4,
+    "of": 5
+   },
+   {
+    "combo_id": "C122",
+    "pos": 1,
+    "of": 6
+   },
+   {
+    "combo_id": "C039",
+    "pos": 2,
+    "of": 7
+   },
+   {
+    "combo_id": "C039",
+    "pos": 3,
+    "of": 7
+   },
+   {
+    "combo_id": "C003",
+    "pos": 1,
+    "of": 7
+   },
+   {
+    "combo_id": "C003",
+    "pos": 4,
+    "of": 7
+   },
+   {
+    "combo_id": "C027",
+    "pos": 2,
+    "of": 6
+   },
+   {
+    "combo_id": "C027",
+    "pos": 5,
+    "of": 6
+   }
+  ],
+  "T186": [
+   {
+    "combo_id": "C105",
+    "pos": 4,
+    "of": 9
+   },
+   {
+    "combo_id": "C017",
+    "pos": 2,
+    "of": 7
+   },
+   {
+    "combo_id": "C001",
+    "pos": 5,
+    "of": 7
+   },
+   {
+    "combo_id": "C135",
+    "pos": 5,
+    "of": 5
+   },
+   {
+    "combo_id": "C112",
+    "pos": 2,
+    "of": 8
+   },
+   {
+    "combo_id": "C023",
+    "pos": 1,
+    "of": 6
+   },
+   {
+    "combo_id": "C152",
+    "pos": 5,
+    "of": 6
+   },
+   {
+    "combo_id": "C016",
+    "pos": 3,
+    "of": 8
+   },
+   {
+    "combo_id": "C011",
+    "pos": 4,
+    "of": 6
+   },
+   {
+    "combo_id": "C021",
+    "pos": 6,
+    "of": 6
+   },
+   {
+    "combo_id": "C139",
+    "pos": 3,
+    "of": 10
+   },
+   {
+    "combo_id": "C202",
+    "pos": 4,
+    "of": 5
+   },
+   {
+    "combo_id": "C111",
+    "pos": 8,
+    "of": 11
+   }
+  ],
+  "T029": [
+   {
+    "combo_id": "C014",
+    "pos": 5,
+    "of": 5
+   },
+   {
+    "combo_id": "C001",
+    "pos": 6,
+    "of": 7
+   },
+   {
+    "combo_id": "C131",
+    "pos": 1,
+    "of": 6
+   },
+   {
+    "combo_id": "C033",
+    "pos": 6,
+    "of": 6
+   },
+   {
+    "combo_id": "C160",
+    "pos": 3,
+    "of": 9
+   },
+   {
+    "combo_id": "C016",
+    "pos": 5,
+    "of": 8
+   },
+   {
+    "combo_id": "C021",
+    "pos": 1,
+    "of": 6
+   },
+   {
+    "combo_id": "C021",
+    "pos": 4,
+    "of": 6
+   },
+   {
+    "combo_id": "C139",
+    "pos": 2,
+    "of": 10
+   },
+   {
+    "combo_id": "C173",
+    "pos": 6,
+    "of": 6
+   },
+   {
+    "combo_id": "C039",
+    "pos": 7,
+    "of": 7
+   }
+  ],
+  "T100": [
+   {
+    "combo_id": "C014",
+    "pos": 4,
+    "of": 5
+   },
+   {
+    "combo_id": "C001",
+    "pos": 7,
+    "of": 7
+   },
+   {
+    "combo_id": "C025",
+    "pos": 4,
+    "of": 5
+   },
+   {
+    "combo_id": "C034",
+    "pos": 5,
+    "of": 7
+   },
+   {
+    "combo_id": "C033",
+    "pos": 1,
+    "of": 6
+   },
+   {
+    "combo_id": "C157",
+    "pos": 4,
+    "of": 7
+   },
+   {
+    "combo_id": "C152",
+    "pos": 6,
+    "of": 6
+   },
+   {
+    "combo_id": "C036",
+    "pos": 5,
+    "of": 8
+   },
+   {
+    "combo_id": "C007",
+    "pos": 5,
+    "of": 5
+   },
+   {
+    "combo_id": "C160",
+    "pos": 9,
+    "of": 9
+   },
+   {
+    "combo_id": "C050",
+    "pos": 6,
+    "of": 6
+   },
+   {
+    "combo_id": "C150",
+    "pos": 5,
+    "of": 6
+   },
+   {
+    "combo_id": "C011",
+    "pos": 6,
+    "of": 6
+   },
+   {
+    "combo_id": "C148",
+    "pos": 3,
+    "of": 6
+   },
+   {
+    "combo_id": "C013",
+    "pos": 6,
+    "of": 6
+   },
+   {
+    "combo_id": "C021",
+    "pos": 5,
+    "of": 6
+   },
+   {
+    "combo_id": "C139",
+    "pos": 8,
+    "of": 10
+   },
+   {
+    "combo_id": "C030",
+    "pos": 6,
+    "of": 6
+   },
+   {
+    "combo_id": "C032",
+    "pos": 6,
+    "of": 7
+   },
+   {
+    "combo_id": "C019",
+    "pos": 5,
+    "of": 6
+   },
+   {
+    "combo_id": "C043",
+    "pos": 2,
+    "of": 7
+   },
+   {
+    "combo_id": "C039",
+    "pos": 4,
+    "of": 7
+   },
+   {
+    "combo_id": "C003",
+    "pos": 7,
+    "of": 7
+   }
+  ],
+  "T040": [
+   {
+    "combo_id": "C012",
+    "pos": 8,
+    "of": 9
+   },
+   {
+    "combo_id": "C025",
+    "pos": 3,
+    "of": 5
+   },
+   {
+    "combo_id": "C023",
+    "pos": 6,
+    "of": 6
+   },
+   {
+    "combo_id": "C159",
+    "pos": 2,
+    "of": 8
+   },
+   {
+    "combo_id": "C003",
+    "pos": 3,
+    "of": 7
+   },
+   {
+    "combo_id": "C003",
+    "pos": 6,
+    "of": 7
+   }
+  ],
+  "T006": [
+   {
+    "combo_id": "C005",
+    "pos": 1,
+    "of": 6
+   }
+  ],
+  "T005": [
+   {
+    "combo_id": "C173",
+    "pos": 3,
+    "of": 6
+   },
+   {
+    "combo_id": "C005",
+    "pos": 2,
+    "of": 6
+   }
+  ],
+  "T059": [
+   {
+    "combo_id": "C016",
+    "pos": 7,
+    "of": 8
+   },
+   {
+    "combo_id": "C181",
+    "pos": 2,
+    "of": 5
+   },
+   {
+    "combo_id": "C005",
+    "pos": 3,
+    "of": 6
+   }
+  ],
+  "T034": [
+   {
+    "combo_id": "C009",
+    "pos": 3,
+    "of": 6
+   },
+   {
+    "combo_id": "C087",
+    "pos": 5,
+    "of": 6
+   },
+   {
+    "combo_id": "C020",
+    "pos": 2,
+    "of": 6
+   },
+   {
+    "combo_id": "C015",
+    "pos": 1,
+    "of": 8
+   },
+   {
+    "combo_id": "C015",
+    "pos": 2,
+    "of": 8
+   },
+   {
+    "combo_id": "C005",
+    "pos": 4,
+    "of": 6
+   },
+   {
+    "combo_id": "C162",
+    "pos": 5,
+    "of": 7
+   }
+  ],
+  "T211": [
+   {
+    "combo_id": "C009",
+    "pos": 5,
+    "of": 6
+   },
+   {
+    "combo_id": "C035",
+    "pos": 5,
+    "of": 7
+   },
+   {
+    "combo_id": "C020",
+    "pos": 1,
+    "of": 6
+   },
+   {
+    "combo_id": "C024",
+    "pos": 4,
+    "of": 6
+   },
+   {
+    "combo_id": "C005",
+    "pos": 5,
+    "of": 6
+   },
+   {
+    "combo_id": "C162",
+    "pos": 6,
+    "of": 7
+   }
+  ],
+  "T036": [
+   {
+    "combo_id": "C035",
+    "pos": 4,
+    "of": 7
+   },
+   {
+    "combo_id": "C020",
+    "pos": 6,
+    "of": 6
+   },
+   {
+    "combo_id": "C032",
+    "pos": 3,
+    "of": 7
+   },
+   {
+    "combo_id": "C015",
+    "pos": 6,
+    "of": 8
+   },
+   {
+    "combo_id": "C005",
+    "pos": 6,
+    "of": 6
+   }
+  ],
+  "T007": [
+   {
+    "combo_id": "C087",
+    "pos": 2,
+    "of": 6
+   },
+   {
+    "combo_id": "C033",
+    "pos": 3,
+    "of": 6
+   },
+   {
+    "combo_id": "C007",
+    "pos": 1,
+    "of": 5
+   },
+   {
+    "combo_id": "C096",
+    "pos": 5,
+    "of": 6
+   }
+  ],
+  "T088": [
+   {
+    "combo_id": "C133",
+    "pos": 3,
+    "of": 7
+   },
+   {
+    "combo_id": "C033",
+    "pos": 4,
+    "of": 6
+   },
+   {
+    "combo_id": "C201",
+    "pos": 1,
+    "of": 5
+   },
+   {
+    "combo_id": "C007",
+    "pos": 2,
+    "of": 5
+   }
+  ],
+  "T089": [
+   {
+    "combo_id": "C133",
+    "pos": 7,
+    "of": 7
+   },
+   {
+    "combo_id": "C090",
+    "pos": 6,
+    "of": 7
+   },
+   {
+    "combo_id": "C201",
+    "pos": 2,
+    "of": 5
+   },
+   {
+    "combo_id": "C128",
+    "pos": 1,
+    "of": 6
+   },
+   {
+    "combo_id": "C128",
+    "pos": 2,
+    "of": 6
+   },
+   {
+    "combo_id": "C128",
+    "pos": 3,
+    "of": 6
+   },
+   {
+    "combo_id": "C152",
+    "pos": 2,
+    "of": 6
+   },
+   {
+    "combo_id": "C007",
+    "pos": 3,
+    "of": 5
+   },
+   {
+    "combo_id": "C098",
+    "pos": 3,
+    "of": 6
+   },
+   {
+    "combo_id": "C150",
+    "pos": 6,
+    "of": 6
+   },
+   {
+    "combo_id": "C043",
+    "pos": 3,
+    "of": 7
+   },
+   {
+    "combo_id": "C096",
+    "pos": 6,
+    "of": 6
+   }
+  ],
+  "T015": [
+   {
+    "combo_id": "C008",
+    "pos": 1,
+    "of": 5
+   },
+   {
+    "combo_id": "C173",
+    "pos": 1,
+    "of": 6
+   }
+  ],
+  "T028": [
+   {
+    "combo_id": "C008",
+    "pos": 2,
+    "of": 5
+   },
+   {
+    "combo_id": "C034",
+    "pos": 1,
+    "of": 7
+   },
+   {
+    "combo_id": "C150",
+    "pos": 4,
+    "of": 6
+   },
+   {
+    "combo_id": "C169",
+    "pos": 2,
+    "of": 6
+   },
+   {
+    "combo_id": "C022",
+    "pos": 3,
+    "of": 6
+   }
+  ],
+  "T082": [
+   {
+    "combo_id": "C008",
+    "pos": 3,
+    "of": 5
+   },
+   {
+    "combo_id": "C034",
+    "pos": 7,
+    "of": 7
+   },
+   {
+    "combo_id": "C035",
+    "pos": 3,
+    "of": 7
+   },
+   {
+    "combo_id": "C047",
+    "pos": 5,
+    "of": 6
+   },
+   {
+    "combo_id": "C050",
+    "pos": 2,
+    "of": 6
+   },
+   {
+    "combo_id": "C030",
+    "pos": 2,
+    "of": 6
+   },
+   {
+    "combo_id": "C043",
+    "pos": 4,
+    "of": 7
+   },
+   {
+    "combo_id": "C169",
+    "pos": 4,
+    "of": 6
+   },
+   {
+    "combo_id": "C039",
+    "pos": 5,
+    "of": 7
+   },
+   {
+    "combo_id": "C031",
+    "pos": 2,
+    "of": 7
+   },
+   {
+    "combo_id": "C022",
+    "pos": 4,
+    "of": 6
+   }
+  ],
+  "T031": [
+   {
+    "combo_id": "C008",
+    "pos": 4,
+    "of": 5
+   },
+   {
+    "combo_id": "C087",
+    "pos": 4,
+    "of": 6
+   },
+   {
+    "combo_id": "C178",
+    "pos": 3,
+    "of": 5
+   },
+   {
+    "combo_id": "C038",
+    "pos": 1,
+    "of": 6
+   },
+   {
+    "combo_id": "C038",
+    "pos": 2,
+    "of": 6
+   },
+   {
+    "combo_id": "C028",
+    "pos": 4,
+    "of": 6
+   },
+   {
+    "combo_id": "C040",
+    "pos": 1,
+    "of": 7
+   },
+   {
+    "combo_id": "C044",
+    "pos": 1,
+    "of": 7
+   },
+   {
+    "combo_id": "C044",
+    "pos": 3,
+    "of": 7
+   },
+   {
+    "combo_id": "C022",
+    "pos": 2,
+    "of": 6
+   }
+  ],
+  "T037": [
+   {
+    "combo_id": "C008",
+    "pos": 5,
+    "of": 5
+   },
+   {
+    "combo_id": "C012",
+    "pos": 1,
+    "of": 9
+   },
+   {
+    "combo_id": "C014",
+    "pos": 3,
+    "of": 5
+   },
+   {
+    "combo_id": "C034",
+    "pos": 2,
+    "of": 7
+   },
+   {
+    "combo_id": "C018",
+    "pos": 3,
+    "of": 6
+   },
+   {
+    "combo_id": "C028",
+    "pos": 5,
+    "of": 6
+   },
+   {
+    "combo_id": "C013",
+    "pos": 4,
+    "of": 6
+   },
+   {
+    "combo_id": "C203",
+    "pos": 6,
+    "of": 6
+   },
+   {
+    "combo_id": "C022",
+    "pos": 1,
+    "of": 6
+   }
+  ],
+  "T010": [
+   {
+    "combo_id": "C009",
+    "pos": 1,
+    "of": 6
+   },
+   {
+    "combo_id": "C010",
+    "pos": 1,
+    "of": 6
+   },
+   {
+    "combo_id": "C124",
+    "pos": 1,
+    "of": 6
+   },
+   {
+    "combo_id": "C162",
+    "pos": 1,
+    "of": 7
+   }
+  ],
+  "T035": [
+   {
+    "combo_id": "C009",
+    "pos": 2,
+    "of": 6
+   },
+   {
+    "combo_id": "C087",
+    "pos": 3,
+    "of": 6
+   },
+   {
+    "combo_id": "C015",
+    "pos": 4,
+    "of": 8
+   }
+  ],
+  "T050": [
+   {
+    "combo_id": "C009",
+    "pos": 4,
+    "of": 6
+   },
+   {
+    "combo_id": "C010",
+    "pos": 2,
+    "of": 6
+   },
+   {
+    "combo_id": "C015",
+    "pos": 8,
+    "of": 8
+   },
+   {
+    "combo_id": "C162",
+    "pos": 4,
+    "of": 7
+   }
+  ],
+  "T041": [
+   {
+    "combo_id": "C009",
+    "pos": 6,
+    "of": 6
+   },
+   {
+    "combo_id": "C018",
+    "pos": 4,
+    "of": 6
+   },
+   {
+    "combo_id": "C010",
+    "pos": 5,
+    "of": 6
+   },
+   {
+    "combo_id": "C024",
+    "pos": 6,
+    "of": 6
+   },
+   {
+    "combo_id": "C019",
+    "pos": 4,
+    "of": 6
+   },
+   {
+    "combo_id": "C015",
+    "pos": 3,
+    "of": 8
+   }
+  ],
+  "T011": [
+   {
+    "combo_id": "C010",
+    "pos": 3,
+    "of": 6
+   },
+   {
+    "combo_id": "C162",
+    "pos": 2,
+    "of": 7
+   }
+  ],
+  "T330": [
+   {
+    "combo_id": "C018",
+    "pos": 5,
+    "of": 6
+   },
+   {
+    "combo_id": "C010",
+    "pos": 4,
+    "of": 6
+   },
+   {
+    "combo_id": "C019",
+    "pos": 3,
+    "of": 6
+   },
+   {
+    "combo_id": "C015",
+    "pos": 5,
+    "of": 8
+   }
+  ],
+  "T099": [
+   {
+    "combo_id": "C029",
+    "pos": 1,
+    "of": 7
+   },
+   {
+    "combo_id": "C026",
+    "pos": 4,
+    "of": 6
+   },
+   {
+    "combo_id": "C036",
+    "pos": 7,
+    "of": 8
+   },
+   {
+    "combo_id": "C010",
+    "pos": 6,
+    "of": 6
+   },
+   {
+    "combo_id": "C032",
+    "pos": 7,
+    "of": 7
+   },
+   {
+    "combo_id": "C041",
+    "pos": 1,
+    "of": 7
+   },
+   {
+    "combo_id": "C027",
+    "pos": 4,
+    "of": 6
+   }
+  ],
+  "T017": [
+   {
+    "combo_id": "C160",
+    "pos": 5,
+    "of": 9
+   },
+   {
+    "combo_id": "C016",
+    "pos": 8,
+    "of": 8
+   },
+   {
+    "combo_id": "C011",
+    "pos": 3,
+    "of": 6
+   },
+   {
+    "combo_id": "C019",
+    "pos": 2,
+    "of": 6
+   },
+   {
+    "combo_id": "C111",
+    "pos": 6,
+    "of": 11
+   }
+  ],
+  "T042": [
+   {
+    "combo_id": "C012",
+    "pos": 2,
+    "of": 9
+   },
+   {
+    "combo_id": "C017",
+    "pos": 4,
+    "of": 7
+   },
+   {
+    "combo_id": "C014",
+    "pos": 1,
+    "of": 5
+   },
+   {
+    "combo_id": "C112",
+    "pos": 6,
+    "of": 8
+   },
+   {
+    "combo_id": "C013",
+    "pos": 1,
+    "of": 6
+   }
+  ],
+  "T043": [
+   {
+    "combo_id": "C012",
+    "pos": 3,
+    "of": 9
+   },
+   {
+    "combo_id": "C017",
+    "pos": 1,
+    "of": 7
+   },
+   {
+    "combo_id": "C018",
+    "pos": 1,
+    "of": 6
+   },
+   {
+    "combo_id": "C016",
+    "pos": 1,
+    "of": 8
+   },
+   {
+    "combo_id": "C013",
+    "pos": 2,
+    "of": 6
+   },
+   {
+    "combo_id": "C162",
+    "pos": 7,
+    "of": 7
+   }
+  ],
+  "T044": [
+   {
+    "combo_id": "C012",
+    "pos": 4,
+    "of": 9
+   },
+   {
+    "combo_id": "C017",
+    "pos": 5,
+    "of": 7
+   },
+   {
+    "combo_id": "C014",
+    "pos": 2,
+    "of": 5
+   },
+   {
+    "combo_id": "C112",
+    "pos": 1,
+    "of": 8
+   },
+   {
+    "combo_id": "C018",
+    "pos": 2,
+    "of": 6
+   },
+   {
+    "combo_id": "C016",
+    "pos": 2,
+    "of": 8
+   },
+   {
+    "combo_id": "C013",
+    "pos": 3,
+    "of": 6
+   },
+   {
+    "combo_id": "C111",
+    "pos": 7,
+    "of": 11
+   }
+  ],
+  "T233": [
+   {
+    "combo_id": "C012",
+    "pos": 5,
+    "of": 9
+   },
+   {
+    "combo_id": "C012",
+    "pos": 7,
+    "of": 9
+   },
+   {
+    "combo_id": "C112",
+    "pos": 5,
+    "of": 8
+   },
+   {
+    "combo_id": "C160",
+    "pos": 7,
+    "of": 9
+   },
+   {
+    "combo_id": "C139",
+    "pos": 6,
+    "of": 10
+   },
+   {
+    "combo_id": "C111",
+    "pos": 9,
+    "of": 11
+   }
+  ],
+  "T324": [
+   {
+    "combo_id": "C012",
+    "pos": 9,
+    "of": 9
+   }
+  ],
+  "T012": [
+   {
+    "combo_id": "C075",
+    "pos": 5,
+    "of": 5
+   },
+   {
+    "combo_id": "C157",
+    "pos": 2,
+    "of": 7
+   },
+   {
+    "combo_id": "C155",
+    "pos": 1,
+    "of": 6
+   },
+   {
+    "combo_id": "C155",
+    "pos": 4,
+    "of": 6
+   },
+   {
+    "combo_id": "C013",
+    "pos": 5,
+    "of": 6
+   },
+   {
+    "combo_id": "C153",
+    "pos": 2,
+    "of": 7
+   },
+   {
+    "combo_id": "C077",
+    "pos": 3,
+    "of": 6
+   },
+   {
+    "combo_id": "C027",
+    "pos": 6,
+    "of": 6
+   }
+  ],
+  "T241": [
+   {
+    "combo_id": "C016",
+    "pos": 6,
+    "of": 8
+   },
+   {
+    "combo_id": "C124",
+    "pos": 2,
+    "of": 6
+   },
+   {
+    "combo_id": "C084",
+    "pos": 6,
+    "of": 6
+   }
+  ],
+  "T217": [
+   {
+    "combo_id": "C133",
+    "pos": 5,
+    "of": 7
+   },
+   {
+    "combo_id": "C017",
+    "pos": 3,
+    "of": 7
+   },
+   {
+    "combo_id": "C098",
+    "pos": 4,
+    "of": 6
+   }
+  ],
+  "T325": [
+   {
+    "combo_id": "C017",
+    "pos": 7,
+    "of": 7
+   }
+  ],
+  "T214": [
+   {
+    "combo_id": "C106",
+    "pos": 1,
+    "of": 8
+   },
+   {
+    "combo_id": "C106",
+    "pos": 2,
+    "of": 8
+   },
+   {
+    "combo_id": "C112",
+    "pos": 7,
+    "of": 8
+   },
+   {
+    "combo_id": "C074",
+    "pos": 3,
+    "of": 7
+   },
+   {
+    "combo_id": "C056",
+    "pos": 3,
+    "of": 6
+   },
+   {
+    "combo_id": "C056",
+    "pos": 6,
+    "of": 6
+   },
+   {
+    "combo_id": "C018",
+    "pos": 6,
+    "of": 6
+   },
+   {
+    "combo_id": "C042",
+    "pos": 3,
+    "of": 7
+   },
+   {
+    "combo_id": "C058",
+    "pos": 2,
+    "of": 6
+   },
+   {
+    "combo_id": "C058",
+    "pos": 4,
+    "of": 6
+   },
+   {
+    "combo_id": "C063",
+    "pos": 1,
+    "of": 6
+   }
+  ],
+  "T004": [
+   {
+    "combo_id": "C135",
+    "pos": 2,
+    "of": 5
+   },
+   {
+    "combo_id": "C200",
+    "pos": 2,
+    "of": 5
+   },
+   {
+    "combo_id": "C019",
+    "pos": 1,
+    "of": 6
+   },
+   {
+    "combo_id": "C169",
+    "pos": 1,
+    "of": 6
+   }
+  ],
+  "T064": [
+   {
+    "combo_id": "C019",
+    "pos": 6,
+    "of": 6
+   }
+  ],
+  "T049": [
+   {
+    "combo_id": "C020",
+    "pos": 3,
+    "of": 6
+   }
+  ],
+  "T261": [
+   {
+    "combo_id": "C020",
+    "pos": 4,
+    "of": 6
+   },
+   {
+    "combo_id": "C024",
+    "pos": 1,
+    "of": 6
+   }
+  ],
+  "T080": [
+   {
+    "combo_id": "C088",
+    "pos": 3,
+    "of": 6
+   },
+   {
+    "combo_id": "C108",
+    "pos": 8,
+    "of": 8
+   },
+   {
+    "combo_id": "C131",
+    "pos": 3,
+    "of": 6
+   },
+   {
+    "combo_id": "C021",
+    "pos": 2,
+    "of": 6
+   },
+   {
+    "combo_id": "C143",
+    "pos": 2,
+    "of": 8
+   },
+   {
+    "combo_id": "C144",
+    "pos": 2,
+    "of": 7
+   }
+  ],
+  "T106": [
+   {
+    "combo_id": "C021",
+    "pos": 3,
+    "of": 6
+   }
+  ],
+  "T188": [
+   {
+    "combo_id": "C088",
+    "pos": 1,
+    "of": 6
+   },
+   {
+    "combo_id": "C090",
+    "pos": 2,
+    "of": 7
+   },
+   {
+    "combo_id": "C094",
+    "pos": 4,
+    "of": 7
+   },
+   {
+    "combo_id": "C119",
+    "pos": 1,
+    "of": 9
+   },
+   {
+    "combo_id": "C108",
+    "pos": 3,
+    "of": 8
+   },
+   {
+    "combo_id": "C108",
+    "pos": 6,
+    "of": 8
+   },
+   {
+    "combo_id": "C089",
+    "pos": 2,
+    "of": 8
+   },
+   {
+    "combo_id": "C089",
+    "pos": 4,
+    "of": 8
+   },
+   {
+    "combo_id": "C023",
+    "pos": 2,
+    "of": 6
+   },
+   {
+    "combo_id": "C023",
+    "pos": 3,
+    "of": 6
+   },
+   {
+    "combo_id": "C049",
+    "pos": 2,
+    "of": 7
+   },
+   {
+    "combo_id": "C049",
+    "pos": 3,
+    "of": 7
+   },
+   {
+    "combo_id": "C159",
+    "pos": 3,
+    "of": 8
+   },
+   {
+    "combo_id": "C080",
+    "pos": 2,
+    "of": 6
+   },
+   {
+    "combo_id": "C143",
+    "pos": 5,
+    "of": 8
+   },
+   {
+    "combo_id": "C096",
+    "pos": 1,
+    "of": 6
+   },
+   {
+    "combo_id": "C096",
+    "pos": 2,
+    "of": 6
+   }
+  ],
+  "T187": [
+   {
+    "combo_id": "C090",
+    "pos": 1,
+    "of": 7
+   },
+   {
+    "combo_id": "C177",
+    "pos": 3,
+    "of": 5
+   },
+   {
+    "combo_id": "C023",
+    "pos": 4,
+    "of": 6
+   },
+   {
+    "combo_id": "C152",
+    "pos": 1,
+    "of": 6
+   },
+   {
+    "combo_id": "C084",
+    "pos": 4,
+    "of": 6
+   },
+   {
+    "combo_id": "C084",
+    "pos": 5,
+    "of": 6
+   }
+  ],
+  "T253": [
+   {
+    "combo_id": "C081",
+    "pos": 6,
+    "of": 6
+   },
+   {
+    "combo_id": "C024",
+    "pos": 2,
+    "of": 6
+   },
+   {
+    "combo_id": "C147",
+    "pos": 2,
+    "of": 6
+   },
+   {
+    "combo_id": "C193",
+    "pos": 1,
+    "of": 4
+   }
+  ],
+  "T252": [
+   {
+    "combo_id": "C105",
+    "pos": 7,
+    "of": 9
+   },
+   {
+    "combo_id": "C087",
+    "pos": 6,
+    "of": 6
+   },
+   {
+    "combo_id": "C159",
+    "pos": 8,
+    "of": 8
+   },
+   {
+    "combo_id": "C024",
+    "pos": 5,
+    "of": 6
+   }
+  ],
+  "T232": [
+   {
+    "combo_id": "C026",
+    "pos": 5,
+    "of": 6
+   },
+   {
+    "combo_id": "C025",
+    "pos": 2,
+    "of": 5
+   },
+   {
+    "combo_id": "C036",
+    "pos": 3,
+    "of": 8
+   }
+  ],
+  "T081": [
+   {
+    "combo_id": "C025",
+    "pos": 5,
+    "of": 5
+   },
+   {
+    "combo_id": "C181",
+    "pos": 5,
+    "of": 5
+   }
+  ],
+  "T265": [
+   {
+    "combo_id": "C026",
+    "pos": 1,
+    "of": 6
+   },
+   {
+    "combo_id": "C036",
+    "pos": 2,
+    "of": 8
+   },
+   {
+    "combo_id": "C032",
+    "pos": 5,
+    "of": 7
+   },
+   {
+    "combo_id": "C111",
+    "pos": 11,
+    "of": 11
+   }
+  ],
+  "T258": [
+   {
+    "combo_id": "C026",
+    "pos": 3,
+    "of": 6
+   },
+   {
+    "combo_id": "C030",
+    "pos": 5,
+    "of": 6
+   },
+   {
+    "combo_id": "C197",
+    "pos": 2,
+    "of": 5
+   }
+  ],
+  "T135": [
+   {
+    "combo_id": "C029",
+    "pos": 4,
+    "of": 7
+   },
+   {
+    "combo_id": "C028",
+    "pos": 6,
+    "of": 6
+   },
+   {
+    "combo_id": "C078",
+    "pos": 1,
+    "of": 6
+   },
+   {
+    "combo_id": "C027",
+    "pos": 1,
+    "of": 6
+   }
+  ],
+  "T083": [
+   {
+    "combo_id": "C029",
+    "pos": 5,
+    "of": 7
+   },
+   {
+    "combo_id": "C032",
+    "pos": 4,
+    "of": 7
+   },
+   {
+    "combo_id": "C027",
+    "pos": 3,
+    "of": 6
+   }
+  ],
+  "T131": [
+   {
+    "combo_id": "C038",
+    "pos": 4,
+    "of": 6
+   },
+   {
+    "combo_id": "C028",
+    "pos": 2,
+    "of": 6
+   },
+   {
+    "combo_id": "C187",
+    "pos": 6,
+    "of": 7
+   },
+   {
+    "combo_id": "C040",
+    "pos": 7,
+    "of": 7
+   },
+   {
+    "combo_id": "C044",
+    "pos": 6,
+    "of": 7
+   },
+   {
+    "combo_id": "C124",
+    "pos": 6,
+    "of": 6
+   },
+   {
+    "combo_id": "C102",
+    "pos": 2,
+    "of": 6
+   },
+   {
+    "combo_id": "C102",
+    "pos": 6,
+    "of": 6
+   }
+  ],
+  "T094": [
+   {
+    "combo_id": "C198",
+    "pos": 1,
+    "of": 4
+   },
+   {
+    "combo_id": "C028",
+    "pos": 3,
+    "of": 6
+   },
+   {
+    "combo_id": "C045",
+    "pos": 3,
+    "of": 6
+   },
+   {
+    "combo_id": "C042",
+    "pos": 5,
+    "of": 7
+   }
+  ],
+  "T084": [
+   {
+    "combo_id": "C075",
+    "pos": 3,
+    "of": 5
+   },
+   {
+    "combo_id": "C029",
+    "pos": 6,
+    "of": 7
+   },
+   {
+    "combo_id": "C054",
+    "pos": 3,
+    "of": 6
+   },
+   {
+    "combo_id": "C198",
+    "pos": 2,
+    "of": 4
+   },
+   {
+    "combo_id": "C184",
+    "pos": 4,
+    "of": 5
+   },
+   {
+    "combo_id": "C183",
+    "pos": 5,
+    "of": 7
+   },
+   {
+    "combo_id": "C077",
+    "pos": 5,
+    "of": 6
+   },
+   {
+    "combo_id": "C144",
+    "pos": 6,
+    "of": 7
+   }
+  ],
+  "T231": [
+   {
+    "combo_id": "C029",
+    "pos": 7,
+    "of": 7
+   },
+   {
+    "combo_id": "C159",
+    "pos": 1,
+    "of": 8
+   }
+  ],
+  "T087": [
+   {
+    "combo_id": "C050",
+    "pos": 1,
+    "of": 6
+   },
+   {
+    "combo_id": "C030",
+    "pos": 1,
+    "of": 6
+   },
+   {
+    "combo_id": "C161",
+    "pos": 1,
+    "of": 6
+   },
+   {
+    "combo_id": "C031",
+    "pos": 3,
+    "of": 7
+   }
+  ],
+  "T097": [
+   {
+    "combo_id": "C133",
+    "pos": 6,
+    "of": 7
+   },
+   {
+    "combo_id": "C035",
+    "pos": 2,
+    "of": 7
+   },
+   {
+    "combo_id": "C148",
+    "pos": 2,
+    "of": 6
+   },
+   {
+    "combo_id": "C148",
+    "pos": 4,
+    "of": 6
+   },
+   {
+    "combo_id": "C030",
+    "pos": 3,
+    "of": 6
+   },
+   {
+    "combo_id": "C043",
+    "pos": 1,
+    "of": 7
+   },
+   {
+    "combo_id": "C031",
+    "pos": 1,
+    "of": 7
+   }
+  ],
+  "T079": [
+   {
+    "combo_id": "C131",
+    "pos": 4,
+    "of": 6
+   },
+   {
+    "combo_id": "C033",
+    "pos": 5,
+    "of": 6
+   },
+   {
+    "combo_id": "C201",
+    "pos": 4,
+    "of": 5
+   },
+   {
+    "combo_id": "C050",
+    "pos": 4,
+    "of": 6
+   },
+   {
+    "combo_id": "C139",
+    "pos": 7,
+    "of": 10
+   },
+   {
+    "combo_id": "C030",
+    "pos": 4,
+    "of": 6
+   },
+   {
+    "combo_id": "C043",
+    "pos": 5,
+    "of": 7
+   },
+   {
+    "combo_id": "C031",
+    "pos": 6,
+    "of": 7
+   },
+   {
+    "combo_id": "C143",
+    "pos": 7,
+    "of": 8
+   },
+   {
+    "combo_id": "C163",
+    "pos": 3,
+    "of": 6
+   },
+   {
+    "combo_id": "C144",
+    "pos": 5,
+    "of": 7
+   }
+  ],
+  "T098": [
+   {
+    "combo_id": "C094",
+    "pos": 6,
+    "of": 7
+   },
+   {
+    "combo_id": "C108",
+    "pos": 2,
+    "of": 8
+   },
+   {
+    "combo_id": "C031",
+    "pos": 4,
+    "of": 7
+   },
+   {
+    "combo_id": "C059",
+    "pos": 6,
+    "of": 6
+   },
+   {
+    "combo_id": "C143",
+    "pos": 1,
+    "of": 8
+   }
+  ],
+  "T095": [
+   {
+    "combo_id": "C133",
+    "pos": 1,
+    "of": 7
+   },
+   {
+    "combo_id": "C108",
+    "pos": 1,
+    "of": 8
+   },
+   {
+    "combo_id": "C191",
+    "pos": 2,
+    "of": 6
+   },
+   {
+    "combo_id": "C031",
+    "pos": 5,
+    "of": 7
+   }
+  ],
+  "T134": [
+   {
+    "combo_id": "C031",
+    "pos": 7,
+    "of": 7
+   }
+  ],
+  "T032": [
+   {
+    "combo_id": "C170",
+    "pos": 3,
+    "of": 6
+   },
+   {
+    "combo_id": "C170",
+    "pos": 5,
+    "of": 6
+   },
+   {
+    "combo_id": "C174",
+    "pos": 6,
+    "of": 6
+   },
+   {
+    "combo_id": "C032",
+    "pos": 1,
+    "of": 7
+   }
+  ],
+  "T128": [
+   {
+    "combo_id": "C032",
+    "pos": 2,
+    "of": 7
+   },
+   {
+    "combo_id": "C067",
+    "pos": 2,
+    "of": 6
+   }
+  ],
+  "T046": [
+   {
+    "combo_id": "C034",
+    "pos": 3,
+    "of": 7
+   },
+   {
+    "combo_id": "C177",
+    "pos": 1,
+    "of": 5
+   }
+  ],
+  "T033": [
+   {
+    "combo_id": "C034",
+    "pos": 6,
+    "of": 7
+   },
+   {
+    "combo_id": "C170",
+    "pos": 2,
+    "of": 6
+   },
+   {
+    "combo_id": "C170",
+    "pos": 6,
+    "of": 6
+   },
+   {
+    "combo_id": "C152",
+    "pos": 3,
+    "of": 6
+   }
+  ],
+  "T210": [
+   {
+    "combo_id": "C105",
+    "pos": 8,
+    "of": 9
+   },
+   {
+    "combo_id": "C192",
+    "pos": 6,
+    "of": 6
+   },
+   {
+    "combo_id": "C035",
+    "pos": 1,
+    "of": 7
+   },
+   {
+    "combo_id": "C111",
+    "pos": 5,
+    "of": 11
+   }
+  ],
+  "T286": [
+   {
+    "combo_id": "C035",
+    "pos": 6,
+    "of": 7
+   },
+   {
+    "combo_id": "C102",
+    "pos": 3,
+    "of": 6
+   },
+   {
+    "combo_id": "C102",
+    "pos": 4,
+    "of": 6
+   },
+   {
+    "combo_id": "C146",
+    "pos": 3,
+    "of": 6
+   }
+  ],
+  "T234": [
+   {
+    "combo_id": "C135",
+    "pos": 1,
+    "of": 5
+   },
+   {
+    "combo_id": "C035",
+    "pos": 7,
+    "of": 7
+   }
+  ],
+  "T250": [
+   {
+    "combo_id": "C116",
+    "pos": 2,
+    "of": 5
+   },
+   {
+    "combo_id": "C116",
+    "pos": 5,
+    "of": 5
+   },
+   {
+    "combo_id": "C157",
+    "pos": 6,
+    "of": 7
+   },
+   {
+    "combo_id": "C036",
+    "pos": 8,
+    "of": 8
+   },
+   {
+    "combo_id": "C160",
+    "pos": 8,
+    "of": 9
+   },
+   {
+    "combo_id": "C159",
+    "pos": 4,
+    "of": 8
+   },
+   {
+    "combo_id": "C111",
+    "pos": 10,
+    "of": 11
+   },
+   {
+    "combo_id": "C078",
+    "pos": 5,
+    "of": 6
+   }
+  ],
+  "T067": [
+   {
+    "combo_id": "C038",
+    "pos": 5,
+    "of": 6
+   },
+   {
+    "combo_id": "C044",
+    "pos": 2,
+    "of": 7
+   }
+  ],
+  "T158": [
+   {
+    "combo_id": "C088",
+    "pos": 4,
+    "of": 6
+   },
+   {
+    "combo_id": "C117",
+    "pos": 7,
+    "of": 9
+   },
+   {
+    "combo_id": "C093",
+    "pos": 7,
+    "of": 7
+   },
+   {
+    "combo_id": "C119",
+    "pos": 6,
+    "of": 9
+   },
+   {
+    "combo_id": "C051",
+    "pos": 5,
+    "of": 7
+   },
+   {
+    "combo_id": "C046",
+    "pos": 2,
+    "of": 6
+   },
+   {
+    "combo_id": "C049",
+    "pos": 6,
+    "of": 7
+   },
+   {
+    "combo_id": "C045",
+    "pos": 6,
+    "of": 6
+   },
+   {
+    "combo_id": "C052",
+    "pos": 4,
+    "of": 6
+   },
+   {
+    "combo_id": "C048",
+    "pos": 6,
+    "of": 6
+   },
+   {
+    "combo_id": "C040",
+    "pos": 2,
+    "of": 7
+   },
+   {
+    "combo_id": "C153",
+    "pos": 3,
+    "of": 7
+   }
+  ],
+  "T130": [
+   {
+    "combo_id": "C093",
+    "pos": 1,
+    "of": 7
+   },
+   {
+    "combo_id": "C093",
+    "pos": 2,
+    "of": 7
+   },
+   {
+    "combo_id": "C051",
+    "pos": 6,
+    "of": 7
+   },
+   {
+    "combo_id": "C046",
+    "pos": 3,
+    "of": 6
+   },
+   {
+    "combo_id": "C170",
+    "pos": 4,
+    "of": 6
+   },
+   {
+    "combo_id": "C049",
+    "pos": 4,
+    "of": 7
+   },
+   {
+    "combo_id": "C081",
+    "pos": 3,
+    "of": 6
+   },
+   {
+    "combo_id": "C187",
+    "pos": 5,
+    "of": 7
+   },
+   {
+    "combo_id": "C052",
+    "pos": 5,
+    "of": 6
+   },
+   {
+    "combo_id": "C048",
+    "pos": 3,
+    "of": 6
+   },
+   {
+    "combo_id": "C040",
+    "pos": 3,
+    "of": 7
+   },
+   {
+    "combo_id": "C082",
+    "pos": 4,
+    "of": 6
+   },
+   {
+    "combo_id": "C080",
+    "pos": 5,
+    "of": 6
+   },
+   {
+    "combo_id": "C041",
+    "pos": 4,
+    "of": 7
+   },
+   {
+    "combo_id": "C083",
+    "pos": 2,
+    "of": 6
+   },
+   {
+    "combo_id": "C083",
+    "pos": 4,
+    "of": 6
+   }
+  ],
+  "T136": [
+   {
+    "combo_id": "C160",
+    "pos": 6,
+    "of": 9
+   },
+   {
+    "combo_id": "C040",
+    "pos": 4,
+    "of": 7
+   }
+  ],
+  "T052": [
+   {
+    "combo_id": "C051",
+    "pos": 1,
+    "of": 7
+   },
+   {
+    "combo_id": "C178",
+    "pos": 2,
+    "of": 5
+   },
+   {
+    "combo_id": "C040",
+    "pos": 5,
+    "of": 7
+   }
+  ],
+  "T307": [
+   {
+    "combo_id": "C197",
+    "pos": 3,
+    "of": 5
+   },
+   {
+    "combo_id": "C085",
+    "pos": 1,
+    "of": 6
+   },
+   {
+    "combo_id": "C041",
+    "pos": 2,
+    "of": 7
+   }
+  ],
+  "T248": [
+   {
+    "combo_id": "C041",
+    "pos": 5,
+    "of": 7
+   }
+  ],
+  "T277": [
+   {
+    "combo_id": "C042",
+    "pos": 1,
+    "of": 7
+   },
+   {
+    "combo_id": "C042",
+    "pos": 2,
+    "of": 7
+   }
+  ],
+  "T144": [
+   {
+    "combo_id": "C112",
+    "pos": 8,
+    "of": 8
+   },
+   {
+    "combo_id": "C074",
+    "pos": 1,
+    "of": 7
+   },
+   {
+    "combo_id": "C073",
+    "pos": 8,
+    "of": 8
+   },
+   {
+    "combo_id": "C056",
+    "pos": 2,
+    "of": 6
+   },
+   {
+    "combo_id": "C056",
+    "pos": 5,
+    "of": 6
+   },
+   {
+    "combo_id": "C069",
+    "pos": 6,
+    "of": 6
+   },
+   {
+    "combo_id": "C044",
+    "pos": 4,
+    "of": 7
+   },
+   {
+    "combo_id": "C044",
+    "pos": 7,
+    "of": 7
+   },
+   {
+    "combo_id": "C058",
+    "pos": 3,
+    "of": 6
+   },
+   {
+    "combo_id": "C064",
+    "pos": 5,
+    "of": 6
+   }
+  ],
+  "T178": [
+   {
+    "combo_id": "C044",
+    "pos": 5,
+    "of": 7
+   }
+  ],
+  "T157": [
+   {
+    "combo_id": "C046",
+    "pos": 1,
+    "of": 6
+   },
+   {
+    "combo_id": "C054",
+    "pos": 6,
+    "of": 6
+   },
+   {
+    "combo_id": "C045",
+    "pos": 2,
+    "of": 6
+   },
+   {
+    "combo_id": "C048",
+    "pos": 1,
+    "of": 6
+   },
+   {
+    "combo_id": "C057",
+    "pos": 2,
+    "of": 6
+   }
+  ],
+  "T190": [
+   {
+    "combo_id": "C075",
+    "pos": 2,
+    "of": 5
+   },
+   {
+    "combo_id": "C074",
+    "pos": 2,
+    "of": 7
+   },
+   {
+    "combo_id": "C155",
+    "pos": 3,
+    "of": 6
+   },
+   {
+    "combo_id": "C081",
+    "pos": 4,
+    "of": 6
+   },
+   {
+    "combo_id": "C045",
+    "pos": 5,
+    "of": 6
+   },
+   {
+    "combo_id": "C080",
+    "pos": 6,
+    "of": 6
+   },
+   {
+    "combo_id": "C059",
+    "pos": 5,
+    "of": 6
+   },
+   {
+    "combo_id": "C078",
+    "pos": 2,
+    "of": 6
+   },
+   {
+    "combo_id": "C077",
+    "pos": 2,
+    "of": 6
+   }
+  ],
+  "T152": [
+   {
+    "combo_id": "C046",
+    "pos": 6,
+    "of": 6
+   },
+   {
+    "combo_id": "C190",
+    "pos": 1,
+    "of": 4
+   },
+   {
+    "combo_id": "C183",
+    "pos": 2,
+    "of": 7
+   }
+  ],
+  "T121": [
+   {
+    "combo_id": "C047",
+    "pos": 1,
+    "of": 6
+   }
+  ],
+  "T169": [
+   {
+    "combo_id": "C047",
+    "pos": 2,
+    "of": 6
+   },
+   {
+    "combo_id": "C183",
+    "pos": 1,
+    "of": 7
+   }
+  ],
+  "T193": [
+   {
+    "combo_id": "C047",
+    "pos": 3,
+    "of": 6
+   },
+   {
+    "combo_id": "C052",
+    "pos": 1,
+    "of": 6
+   },
+   {
+    "combo_id": "C147",
+    "pos": 4,
+    "of": 6
+   },
+   {
+    "combo_id": "C078",
+    "pos": 6,
+    "of": 6
+   },
+   {
+    "combo_id": "C067",
+    "pos": 5,
+    "of": 6
+   }
+  ],
+  "T142": [
+   {
+    "combo_id": "C047",
+    "pos": 4,
+    "of": 6
+   },
+   {
+    "combo_id": "C171",
+    "pos": 1,
+    "of": 6
+   },
+   {
+    "combo_id": "C171",
+    "pos": 2,
+    "of": 6
+   },
+   {
+    "combo_id": "C171",
+    "pos": 4,
+    "of": 6
+   },
+   {
+    "combo_id": "C169",
+    "pos": 3,
+    "of": 6
+   },
+   {
+    "combo_id": "C169",
+    "pos": 5,
+    "of": 6
+   }
+  ],
+  "T120": [
+   {
+    "combo_id": "C073",
+    "pos": 1,
+    "of": 8
+   },
+   {
+    "combo_id": "C047",
+    "pos": 6,
+    "of": 6
+   }
+  ],
+  "T316": [
+   {
+    "combo_id": "C048",
+    "pos": 5,
+    "of": 6
+   },
+   {
+    "combo_id": "C066",
+    "pos": 6,
+    "of": 6
+   }
+  ],
+  "T112": [
+   {
+    "combo_id": "C051",
+    "pos": 2,
+    "of": 7
+   },
+   {
+    "combo_id": "C049",
+    "pos": 1,
+    "of": 7
+   },
+   {
+    "combo_id": "C081",
+    "pos": 5,
+    "of": 6
+   },
+   {
+    "combo_id": "C052",
+    "pos": 3,
+    "of": 6
+   }
+  ],
+  "T161": [
+   {
+    "combo_id": "C051",
+    "pos": 3,
+    "of": 7
+   },
+   {
+    "combo_id": "C084",
+    "pos": 2,
+    "of": 6
+   }
+  ],
+  "T139": [
+   {
+    "combo_id": "C088",
+    "pos": 6,
+    "of": 6
+   },
+   {
+    "combo_id": "C090",
+    "pos": 5,
+    "of": 7
+   },
+   {
+    "combo_id": "C093",
+    "pos": 6,
+    "of": 7
+   },
+   {
+    "combo_id": "C051",
+    "pos": 7,
+    "of": 7
+   },
+   {
+    "combo_id": "C079",
+    "pos": 4,
+    "of": 6
+   },
+   {
+    "combo_id": "C113",
+    "pos": 5,
+    "of": 7
+   },
+   {
+    "combo_id": "C080",
+    "pos": 3,
+    "of": 6
+   }
+  ],
+  "T155": [
+   {
+    "combo_id": "C052",
+    "pos": 2,
+    "of": 6
+   }
+  ],
+  "T212": [
+   {
+    "combo_id": "C106",
+    "pos": 7,
+    "of": 8
+   },
+   {
+    "combo_id": "C074",
+    "pos": 7,
+    "of": 7
+   },
+   {
+    "combo_id": "C054",
+    "pos": 2,
+    "of": 6
+   },
+   {
+    "combo_id": "C113",
+    "pos": 1,
+    "of": 7
+   },
+   {
+    "combo_id": "C057",
+    "pos": 3,
+    "of": 6
+   },
+   {
+    "combo_id": "C057",
+    "pos": 4,
+    "of": 6
+   },
+   {
+    "combo_id": "C057",
+    "pos": 6,
+    "of": 6
+   }
+  ],
+  "T118": [
+   {
+    "combo_id": "C054",
+    "pos": 4,
+    "of": 6
+   },
+   {
+    "combo_id": "C198",
+    "pos": 3,
+    "of": 4
+   },
+   {
+    "combo_id": "C144",
+    "pos": 3,
+    "of": 7
+   }
+  ],
+  "T113": [
+   {
+    "combo_id": "C088",
+    "pos": 2,
+    "of": 6
+   },
+   {
+    "combo_id": "C054",
+    "pos": 5,
+    "of": 6
+   },
+   {
+    "combo_id": "C071",
+    "pos": 7,
+    "of": 7
+   }
+  ],
+  "T025": [
+   {
+    "combo_id": "C061",
+    "pos": 1,
+    "of": 6
+   },
+   {
+    "combo_id": "C056",
+    "pos": 1,
+    "of": 6
+   },
+   {
+    "combo_id": "C055",
+    "pos": 1,
+    "of": 6
+   },
+   {
+    "combo_id": "C058",
+    "pos": 1,
+    "of": 6
+   },
+   {
+    "combo_id": "C064",
+    "pos": 2,
+    "of": 6
+   }
+  ],
+  "T291": [
+   {
+    "combo_id": "C056",
+    "pos": 4,
+    "of": 6
+   },
+   {
+    "combo_id": "C055",
+    "pos": 2,
+    "of": 6
+   },
+   {
+    "combo_id": "C057",
+    "pos": 5,
+    "of": 6
+   }
+  ],
+  "T216": [
+   {
+    "combo_id": "C106",
+    "pos": 5,
+    "of": 8
+   },
+   {
+    "combo_id": "C065",
+    "pos": 5,
+    "of": 6
+   },
+   {
+    "combo_id": "C074",
+    "pos": 5,
+    "of": 7
+   },
+   {
+    "combo_id": "C086",
+    "pos": 4,
+    "of": 6
+   },
+   {
+    "combo_id": "C060",
+    "pos": 3,
+    "of": 6
+   },
+   {
+    "combo_id": "C055",
+    "pos": 4,
+    "of": 6
+   }
+  ],
+  "T319": [
+   {
+    "combo_id": "C199",
+    "pos": 5,
+    "of": 5
+   },
+   {
+    "combo_id": "C055",
+    "pos": 5,
+    "of": 6
+   }
+  ],
+  "T180": [
+   {
+    "combo_id": "C062",
+    "pos": 6,
+    "of": 6
+   },
+   {
+    "combo_id": "C055",
+    "pos": 6,
+    "of": 6
+   },
+   {
+    "combo_id": "C083",
+    "pos": 6,
+    "of": 6
+   }
+  ],
+  "T293": [
+   {
+    "combo_id": "C058",
+    "pos": 5,
+    "of": 6
+   },
+   {
+    "combo_id": "C102",
+    "pos": 1,
+    "of": 6
+   }
+  ],
+  "T313": [
+   {
+    "combo_id": "C065",
+    "pos": 6,
+    "of": 6
+   },
+   {
+    "combo_id": "C061",
+    "pos": 6,
+    "of": 6
+   },
+   {
+    "combo_id": "C060",
+    "pos": 5,
+    "of": 6
+   },
+   {
+    "combo_id": "C058",
+    "pos": 6,
+    "of": 6
+   }
+  ],
+  "T048": [
+   {
+    "combo_id": "C059",
+    "pos": 1,
+    "of": 6
+   }
+  ],
+  "T069": [
+   {
+    "combo_id": "C059",
+    "pos": 2,
+    "of": 6
+   }
+  ],
+  "T206": [
+   {
+    "combo_id": "C059",
+    "pos": 3,
+    "of": 6
+   }
+  ],
+  "T195": [
+   {
+    "combo_id": "C094",
+    "pos": 1,
+    "of": 7
+   },
+   {
+    "combo_id": "C119",
+    "pos": 7,
+    "of": 9
+   },
+   {
+    "combo_id": "C119",
+    "pos": 9,
+    "of": 9
+   },
+   {
+    "combo_id": "C189",
+    "pos": 4,
+    "of": 6
+   },
+   {
+    "combo_id": "C085",
+    "pos": 3,
+    "of": 6
+   },
+   {
+    "combo_id": "C059",
+    "pos": 4,
+    "of": 6
+   },
+   {
+    "combo_id": "C143",
+    "pos": 4,
+    "of": 8
+   }
+  ],
+  "T213": [
+   {
+    "combo_id": "C074",
+    "pos": 4,
+    "of": 7
+   },
+   {
+    "combo_id": "C060",
+    "pos": 1,
+    "of": 6
+   },
+   {
+    "combo_id": "C101",
+    "pos": 6,
+    "of": 6
+   }
+  ],
+  "T287": [
+   {
+    "combo_id": "C060",
+    "pos": 2,
+    "of": 6
+   },
+   {
+    "combo_id": "C064",
+    "pos": 4,
+    "of": 6
+   }
+  ],
+  "T242": [
+   {
+    "combo_id": "C060",
+    "pos": 6,
+    "of": 6
+   },
+   {
+    "combo_id": "C101",
+    "pos": 3,
+    "of": 6
+   }
+  ],
+  "T172": [
+   {
+    "combo_id": "C061",
+    "pos": 2,
+    "of": 6
+   },
+   {
+    "combo_id": "C061",
+    "pos": 3,
+    "of": 6
+   }
+  ],
+  "T173": [
+   {
+    "combo_id": "C061",
+    "pos": 4,
+    "of": 6
+   }
+  ],
+  "T203": [
+   {
+    "combo_id": "C061",
+    "pos": 5,
+    "of": 6
+   }
+  ],
+  "T281": [
+   {
+    "combo_id": "C062",
+    "pos": 1,
+    "of": 6
+   },
+   {
+    "combo_id": "C062",
+    "pos": 2,
+    "of": 6
+   }
+  ],
+  "T189": [
+   {
+    "combo_id": "C062",
+    "pos": 3,
+    "of": 6
+   },
+   {
+    "combo_id": "C128",
+    "pos": 4,
+    "of": 6
+   },
+   {
+    "combo_id": "C081",
+    "pos": 2,
+    "of": 6
+   },
+   {
+    "combo_id": "C159",
+    "pos": 5,
+    "of": 8
+   }
+  ],
+  "T227": [
+   {
+    "combo_id": "C062",
+    "pos": 4,
+    "of": 6
+   },
+   {
+    "combo_id": "C085",
+    "pos": 2,
+    "of": 6
+   }
+  ],
+  "T221": [
+   {
+    "combo_id": "C113",
+    "pos": 2,
+    "of": 7
+   },
+   {
+    "combo_id": "C063",
+    "pos": 4,
+    "of": 6
+   }
+  ],
+  "T218": [
+   {
+    "combo_id": "C106",
+    "pos": 3,
+    "of": 8
+   },
+   {
+    "combo_id": "C108",
+    "pos": 5,
+    "of": 8
+   },
+   {
+    "combo_id": "C108",
+    "pos": 7,
+    "of": 8
+   },
+   {
+    "combo_id": "C063",
+    "pos": 5,
+    "of": 6
+   }
+  ],
+  "T315": [
+   {
+    "combo_id": "C063",
+    "pos": 6,
+    "of": 6
+   }
+  ],
+  "T197": [
+   {
+    "combo_id": "C101",
+    "pos": 2,
+    "of": 6
+   },
+   {
+    "combo_id": "C147",
+    "pos": 1,
+    "of": 6
+   },
+   {
+    "combo_id": "C064",
+    "pos": 3,
+    "of": 6
+   }
+  ],
+  "T145": [
+   {
+    "combo_id": "C066",
+    "pos": 1,
+    "of": 6
+   },
+   {
+    "combo_id": "C172",
+    "pos": 6,
+    "of": 6
+   },
+   {
+    "combo_id": "C064",
+    "pos": 6,
+    "of": 6
+   }
+  ],
+  "T123": [
+   {
+    "combo_id": "C065",
+    "pos": 1,
+    "of": 6
+   },
+   {
+    "combo_id": "C065",
+    "pos": 2,
+    "of": 6
+   },
+   {
+    "combo_id": "C065",
+    "pos": 4,
+    "of": 6
+   }
+  ],
+  "T270": [
+   {
+    "combo_id": "C065",
+    "pos": 3,
+    "of": 6
+   },
+   {
+    "combo_id": "C070",
+    "pos": 6,
+    "of": 6
+   },
+   {
+    "combo_id": "C066",
+    "pos": 5,
+    "of": 6
+   },
+   {
+    "combo_id": "C083",
+    "pos": 3,
+    "of": 6
+   }
+  ],
+  "T249": [
+   {
+    "combo_id": "C066",
+    "pos": 2,
+    "of": 6
+   }
+  ],
+  "T115": [
+   {
+    "combo_id": "C073",
+    "pos": 6,
+    "of": 8
+   },
+   {
+    "combo_id": "C071",
+    "pos": 2,
+    "of": 7
+   },
+   {
+    "combo_id": "C066",
+    "pos": 3,
+    "of": 6
+   },
+   {
+    "combo_id": "C161",
+    "pos": 3,
+    "of": 6
+   }
+  ],
+  "T228": [
+   {
+    "combo_id": "C105",
+    "pos": 3,
+    "of": 9
+   },
+   {
+    "combo_id": "C066",
+    "pos": 4,
+    "of": 6
+   }
+  ],
+  "T318": [
+   {
+    "combo_id": "C067",
+    "pos": 1,
+    "of": 6
+   }
+  ],
+  "T314": [
+   {
+    "combo_id": "C172",
+    "pos": 4,
+    "of": 6
+   },
+   {
+    "combo_id": "C067",
+    "pos": 3,
+    "of": 6
+   }
+  ],
+  "T312": [
+   {
+    "combo_id": "C067",
+    "pos": 4,
+    "of": 6
+   }
+  ],
+  "T205": [
+   {
+    "combo_id": "C067",
+    "pos": 6,
+    "of": 6
+   }
+  ],
+  "T207": [
+   {
+    "combo_id": "C069",
+    "pos": 1,
+    "of": 6
+   },
+   {
+    "combo_id": "C069",
+    "pos": 2,
+    "of": 6
+   },
+   {
+    "combo_id": "C069",
+    "pos": 3,
+    "of": 6
+   }
+  ],
+  "T177": [
+   {
+    "combo_id": "C098",
+    "pos": 1,
+    "of": 6
+   },
+   {
+    "combo_id": "C098",
+    "pos": 2,
+    "of": 6
+   },
+   {
+    "combo_id": "C069",
+    "pos": 4,
+    "of": 6
+   }
+  ],
+  "T179": [
+   {
+    "combo_id": "C199",
+    "pos": 4,
+    "of": 5
+   },
+   {
+    "combo_id": "C069",
+    "pos": 5,
+    "of": 6
+   }
+  ],
+  "T267": [
+   {
+    "combo_id": "C106",
+    "pos": 8,
+    "of": 8
+   },
+   {
+    "combo_id": "C074",
+    "pos": 6,
+    "of": 7
+   },
+   {
+    "combo_id": "C157",
+    "pos": 7,
+    "of": 7
+   },
+   {
+    "combo_id": "C070",
+    "pos": 1,
+    "of": 6
+   },
+   {
+    "combo_id": "C070",
+    "pos": 3,
+    "of": 6
+   },
+   {
+    "combo_id": "C153",
+    "pos": 6,
+    "of": 7
+   },
+   {
+    "combo_id": "C163",
+    "pos": 4,
+    "of": 6
+   }
+  ],
+  "T174": [
+   {
+    "combo_id": "C199",
+    "pos": 3,
+    "of": 5
+   },
+   {
+    "combo_id": "C070",
+    "pos": 2,
+    "of": 6
+   }
+  ],
+  "T117": [
+   {
+    "combo_id": "C109",
+    "pos": 6,
+    "of": 7
+   },
+   {
+    "combo_id": "C070",
+    "pos": 4,
+    "of": 6
+   }
+  ],
+  "T176": [
+   {
+    "combo_id": "C070",
+    "pos": 5,
+    "of": 6
+   }
+  ],
+  "T119": [
+   {
+    "combo_id": "C071",
+    "pos": 3,
+    "of": 7
+   },
+   {
+    "combo_id": "C071",
+    "pos": 4,
+    "of": 7
+   },
+   {
+    "combo_id": "C113",
+    "pos": 3,
+    "of": 7
+   },
+   {
+    "combo_id": "C113",
+    "pos": 4,
+    "of": 7
+   },
+   {
+    "combo_id": "C161",
+    "pos": 2,
+    "of": 6
+   }
+  ],
+  "T301": [
+   {
+    "combo_id": "C071",
+    "pos": 5,
+    "of": 7
+   },
+   {
+    "combo_id": "C071",
+    "pos": 6,
+    "of": 7
+   }
+  ],
+  "T122": [
+   {
+    "combo_id": "C073",
+    "pos": 2,
+    "of": 8
+   }
+  ],
+  "T114": [
+   {
+    "combo_id": "C073",
+    "pos": 3,
+    "of": 8
+   }
+  ],
+  "T125": [
+   {
+    "combo_id": "C073",
+    "pos": 4,
+    "of": 8
+   }
+  ],
+  "T124": [
+   {
+    "combo_id": "C073",
+    "pos": 5,
+    "of": 8
+   }
+  ],
+  "T151": [
+   {
+    "combo_id": "C109",
+    "pos": 7,
+    "of": 7
+   },
+   {
+    "combo_id": "C073",
+    "pos": 7,
+    "of": 8
+   }
+  ],
+  "T254": [
+   {
+    "combo_id": "C075",
+    "pos": 1,
+    "of": 5
+   },
+   {
+    "combo_id": "C075",
+    "pos": 4,
+    "of": 5
+   },
+   {
+    "combo_id": "C153",
+    "pos": 4,
+    "of": 7
+   },
+   {
+    "combo_id": "C163",
+    "pos": 5,
+    "of": 6
+   },
+   {
+    "combo_id": "C077",
+    "pos": 4,
+    "of": 6
+   },
+   {
+    "combo_id": "C077",
+    "pos": 6,
+    "of": 6
+   },
+   {
+    "combo_id": "C144",
+    "pos": 4,
+    "of": 7
+   }
+  ],
+  "T132": [
+   {
+    "combo_id": "C078",
+    "pos": 3,
+    "of": 6
+   },
+   {
+    "combo_id": "C077",
+    "pos": 1,
+    "of": 6
+   }
+  ],
+  "T220": [
+   {
+    "combo_id": "C106",
+    "pos": 4,
+    "of": 8
+   },
+   {
+    "combo_id": "C112",
+    "pos": 4,
+    "of": 8
+   },
+   {
+    "combo_id": "C159",
+    "pos": 7,
+    "of": 8
+   },
+   {
+    "combo_id": "C078",
+    "pos": 4,
+    "of": 6
+   }
+  ],
+  "T192": [
+   {
+    "combo_id": "C094",
+    "pos": 3,
+    "of": 7
+   },
+   {
+    "combo_id": "C089",
+    "pos": 3,
+    "of": 8
+   },
+   {
+    "combo_id": "C079",
+    "pos": 2,
+    "of": 6
+   },
+   {
+    "combo_id": "C079",
+    "pos": 5,
+    "of": 6
+   }
+  ],
+  "T191": [
+   {
+    "combo_id": "C094",
+    "pos": 2,
+    "of": 7
+   },
+   {
+    "combo_id": "C089",
+    "pos": 1,
+    "of": 8
+   },
+   {
+    "combo_id": "C079",
+    "pos": 3,
+    "of": 6
+   },
+   {
+    "combo_id": "C143",
+    "pos": 6,
+    "of": 8
+   }
+  ],
+  "T219": [
+   {
+    "combo_id": "C108",
+    "pos": 4,
+    "of": 8
+   },
+   {
+    "combo_id": "C079",
+    "pos": 6,
+    "of": 6
+   }
+  ],
+  "T292": [
+   {
+    "combo_id": "C080",
+    "pos": 1,
+    "of": 6
+   }
+  ],
+  "T165": [
+   {
+    "combo_id": "C081",
+    "pos": 1,
+    "of": 6
+   }
+  ],
+  "T327": [
+   {
+    "combo_id": "C117",
+    "pos": 8,
+    "of": 9
+   },
+   {
+    "combo_id": "C119",
+    "pos": 4,
+    "of": 9
+   },
+   {
+    "combo_id": "C089",
+    "pos": 7,
+    "of": 8
+   },
+   {
+    "combo_id": "C082",
+    "pos": 1,
+    "of": 6
+   },
+   {
+    "combo_id": "C082",
+    "pos": 2,
+    "of": 6
+   }
+  ],
+  "T317": [
+   {
+    "combo_id": "C189",
+    "pos": 6,
+    "of": 6
+   },
+   {
+    "combo_id": "C082",
+    "pos": 6,
+    "of": 6
+   },
+   {
+    "combo_id": "C085",
+    "pos": 5,
+    "of": 6
+   }
+  ],
+  "T175": [
+   {
+    "combo_id": "C083",
+    "pos": 1,
+    "of": 6
+   }
+  ],
+  "T200": [
+   {
+    "combo_id": "C090",
+    "pos": 7,
+    "of": 7
+   },
+   {
+    "combo_id": "C155",
+    "pos": 2,
+    "of": 6
+   },
+   {
+    "combo_id": "C084",
+    "pos": 1,
+    "of": 6
+   }
+  ],
+  "T199": [
+   {
+    "combo_id": "C086",
+    "pos": 5,
+    "of": 6
+   },
+   {
+    "combo_id": "C086",
+    "pos": 6,
+    "of": 6
+   },
+   {
+    "combo_id": "C084",
+    "pos": 3,
+    "of": 6
+   }
+  ],
+  "T026": [
+   {
+    "combo_id": "C086",
+    "pos": 1,
+    "of": 6
+   },
+   {
+    "combo_id": "C146",
+    "pos": 1,
+    "of": 6
+   }
+  ],
+  "T009": [
+   {
+    "combo_id": "C086",
+    "pos": 2,
+    "of": 6
+   },
+   {
+    "combo_id": "C170",
+    "pos": 1,
+    "of": 6
+   },
+   {
+    "combo_id": "C150",
+    "pos": 2,
+    "of": 6
+   }
+  ],
+  "T022": [
+   {
+    "combo_id": "C087",
+    "pos": 1,
+    "of": 6
+   }
+  ],
+  "T328": [
+   {
+    "combo_id": "C117",
+    "pos": 1,
+    "of": 9
+   },
+   {
+    "combo_id": "C119",
+    "pos": 5,
+    "of": 9
+   },
+   {
+    "combo_id": "C089",
+    "pos": 6,
+    "of": 8
+   },
+   {
+    "combo_id": "C206",
+    "pos": 3,
+    "of": 5
+   }
+  ],
+  "T133": [
+   {
+    "combo_id": "C090",
+    "pos": 4,
+    "of": 7
+   }
+  ],
+  "T163": [
+   {
+    "combo_id": "C117",
+    "pos": 9,
+    "of": 9
+   },
+   {
+    "combo_id": "C093",
+    "pos": 4,
+    "of": 7
+   },
+   {
+    "combo_id": "C119",
+    "pos": 2,
+    "of": 9
+   },
+   {
+    "combo_id": "C187",
+    "pos": 3,
+    "of": 7
+   }
+  ],
+  "T326": [
+   {
+    "combo_id": "C093",
+    "pos": 5,
+    "of": 7
+   },
+   {
+    "combo_id": "C094",
+    "pos": 7,
+    "of": 7
+   },
+   {
+    "combo_id": "C119",
+    "pos": 3,
+    "of": 9
+   }
+  ],
+  "T237": [
+   {
+    "combo_id": "C098",
+    "pos": 5,
+    "of": 6
+   }
+  ],
+  "T181": [
+   {
+    "combo_id": "C120",
+    "pos": 4,
+    "of": 6
+   },
+   {
+    "combo_id": "C098",
+    "pos": 6,
+    "of": 6
+   }
+  ],
+  "T246": [
+   {
+    "combo_id": "C101",
+    "pos": 1,
+    "of": 6
+   }
+  ],
+  "T240": [
+   {
+    "combo_id": "C148",
+    "pos": 1,
+    "of": 6
+   },
+   {
+    "combo_id": "C101",
+    "pos": 4,
+    "of": 6
+   },
+   {
+    "combo_id": "C146",
+    "pos": 4,
+    "of": 6
+   }
+  ],
+  "T279": [
+   {
+    "combo_id": "C102",
+    "pos": 5,
+    "of": 6
+   }
+  ],
+  "T222": [
+   {
+    "combo_id": "C105",
+    "pos": 5,
+    "of": 9
+   },
+   {
+    "combo_id": "C116",
+    "pos": 1,
+    "of": 5
+   },
+   {
+    "combo_id": "C196",
+    "pos": 1,
+    "of": 5
+   }
+  ],
+  "T223": [
+   {
+    "combo_id": "C105",
+    "pos": 6,
+    "of": 9
+   },
+   {
+    "combo_id": "C116",
+    "pos": 4,
+    "of": 5
+   }
+  ],
+  "T229": [
+   {
+    "combo_id": "C105",
+    "pos": 9,
+    "of": 9
+   }
+  ],
+  "T215": [
+   {
+    "combo_id": "C106",
+    "pos": 6,
+    "of": 8
+   },
+   {
+    "combo_id": "C113",
+    "pos": 7,
+    "of": 7
+   }
+  ],
+  "T129": [
+   {
+    "combo_id": "C109",
+    "pos": 2,
+    "of": 7
+   }
+  ],
+  "T014": [
+   {
+    "combo_id": "C109",
+    "pos": 3,
+    "of": 7
+   }
+  ],
+  "T160": [
+   {
+    "combo_id": "C109",
+    "pos": 4,
+    "of": 7
+   },
+   {
+    "combo_id": "C109",
+    "pos": 5,
+    "of": 7
+   }
+  ],
+  "T149": [
+   {
+    "combo_id": "C113",
+    "pos": 6,
+    "of": 7
+   }
+  ],
+  "T225": [
+   {
+    "combo_id": "C116",
+    "pos": 3,
+    "of": 5
+   }
+  ],
+  "T329": [
+   {
+    "combo_id": "C117",
+    "pos": 2,
+    "of": 9
+   },
+   {
+    "combo_id": "C117",
+    "pos": 4,
+    "of": 9
+   },
+   {
+    "combo_id": "C190",
+    "pos": 2,
+    "of": 4
+   }
+  ],
+  "T333": [
+   {
+    "combo_id": "C117",
+    "pos": 3,
+    "of": 9
+   }
+  ],
+  "T224": [
+   {
+    "combo_id": "C117",
+    "pos": 5,
+    "of": 9
+   },
+   {
+    "combo_id": "C196",
+    "pos": 2,
+    "of": 5
+   }
+  ],
+  "T334": [
+   {
+    "combo_id": "C117",
+    "pos": 6,
+    "of": 9
+   }
+  ],
+  "T282": [
+   {
+    "combo_id": "C168",
+    "pos": 3,
+    "of": 6
+   },
+   {
+    "combo_id": "C120",
+    "pos": 1,
+    "of": 6
+   },
+   {
+    "combo_id": "C124",
+    "pos": 3,
+    "of": 6
+   }
+  ],
+  "T058": [
+   {
+    "combo_id": "C120",
+    "pos": 2,
+    "of": 6
+   },
+   {
+    "combo_id": "C120",
+    "pos": 6,
+    "of": 6
+   }
+  ],
+  "T290": [
+   {
+    "combo_id": "C120",
+    "pos": 3,
+    "of": 6
+   },
+   {
+    "combo_id": "C120",
+    "pos": 5,
+    "of": 6
+   }
+  ],
+  "T070": [
+   {
+    "combo_id": "C122",
+    "pos": 2,
+    "of": 6
+   },
+   {
+    "combo_id": "C122",
+    "pos": 3,
+    "of": 6
+   }
+  ],
+  "T289": [
+   {
+    "combo_id": "C128",
+    "pos": 5,
+    "of": 6
+   },
+   {
+    "combo_id": "C122",
+    "pos": 4,
+    "of": 6
+   },
+   {
+    "combo_id": "C148",
+    "pos": 6,
+    "of": 6
+   }
+  ],
+  "T288": [
+   {
+    "combo_id": "C122",
+    "pos": 5,
+    "of": 6
+   }
+  ],
+  "T053": [
+   {
+    "combo_id": "C124",
+    "pos": 5,
+    "of": 6
+   }
+  ],
+  "T102": [
+   {
+    "combo_id": "C131",
+    "pos": 5,
+    "of": 6
+   }
+  ],
+  "T322": [
+   {
+    "combo_id": "C133",
+    "pos": 2,
+    "of": 7
+   },
+   {
+    "combo_id": "C157",
+    "pos": 5,
+    "of": 7
+   }
+  ],
+  "T093": [
+   {
+    "combo_id": "C133",
+    "pos": 4,
+    "of": 7
+   }
+  ],
+  "T008": [
+   {
+    "combo_id": "C135",
+    "pos": 4,
+    "of": 5
+   }
+  ],
+  "T137": [
+   {
+    "combo_id": "C139",
+    "pos": 5,
+    "of": 10
+   }
+  ],
+  "T116": [
+   {
+    "combo_id": "C184",
+    "pos": 3,
+    "of": 5
+   },
+   {
+    "combo_id": "C163",
+    "pos": 1,
+    "of": 6
+   },
+   {
+    "combo_id": "C144",
+    "pos": 1,
+    "of": 7
+   }
+  ],
+  "T302": [
+   {
+    "combo_id": "C186",
+    "pos": 3,
+    "of": 4
+   },
+   {
+    "combo_id": "C144",
+    "pos": 7,
+    "of": 7
+   }
+  ],
+  "T284": [
+   {
+    "combo_id": "C146",
+    "pos": 2,
+    "of": 6
+   }
+  ],
+  "T101": [
+   {
+    "combo_id": "C201",
+    "pos": 3,
+    "of": 5
+   },
+   {
+    "combo_id": "C146",
+    "pos": 5,
+    "of": 6
+   }
+  ],
+  "T309": [
+   {
+    "combo_id": "C146",
+    "pos": 6,
+    "of": 6
+   }
+  ],
+  "T204": [
+   {
+    "combo_id": "C147",
+    "pos": 3,
+    "of": 6
+   }
+  ],
+  "T208": [
+   {
+    "combo_id": "C147",
+    "pos": 5,
+    "of": 6
+   }
+  ],
+  "T243": [
+   {
+    "combo_id": "C147",
+    "pos": 6,
+    "of": 6
+   }
+  ],
+  "T002": [
+   {
+    "combo_id": "C160",
+    "pos": 4,
+    "of": 9
+   },
+   {
+    "combo_id": "C150",
+    "pos": 3,
+    "of": 6
+   }
+  ],
+  "T226": [
+   {
+    "combo_id": "C176",
+    "pos": 4,
+    "of": 5
+   },
+   {
+    "combo_id": "C153",
+    "pos": 1,
+    "of": 7
+   },
+   {
+    "combo_id": "C153",
+    "pos": 7,
+    "of": 7
+   },
+   {
+    "combo_id": "C162",
+    "pos": 3,
+    "of": 7
+   }
+  ],
+  "T019": [
+   {
+    "combo_id": "C153",
+    "pos": 5,
+    "of": 7
+   }
+  ],
+  "T262": [
+   {
+    "combo_id": "C157",
+    "pos": 1,
+    "of": 7
+   },
+   {
+    "combo_id": "C157",
+    "pos": 3,
+    "of": 7
+   }
+  ],
+  "T251": [
+   {
+    "combo_id": "C159",
+    "pos": 6,
+    "of": 8
+   }
+  ],
+  "T056": [
+   {
+    "combo_id": "C160",
+    "pos": 1,
+    "of": 9
+   }
+  ],
+  "T159": [
+   {
+    "combo_id": "C161",
+    "pos": 4,
+    "of": 6
+   }
+  ],
+  "T126": [
+   {
+    "combo_id": "C161",
+    "pos": 5,
+    "of": 6
+   }
+  ],
+  "T147": [
+   {
+    "combo_id": "C161",
+    "pos": 6,
+    "of": 6
+   }
+  ],
+  "T143": [
+   {
+    "combo_id": "C163",
+    "pos": 6,
+    "of": 6
+   }
+  ],
+  "T068": [
+   {
+    "combo_id": "C168",
+    "pos": 1,
+    "of": 6
+   },
+   {
+    "combo_id": "C171",
+    "pos": 3,
+    "of": 6
+   },
+   {
+    "combo_id": "C171",
+    "pos": 6,
+    "of": 6
+   }
+  ],
+  "T283": [
+   {
+    "combo_id": "C168",
+    "pos": 4,
+    "of": 6
+   }
+  ],
+  "T259": [
+   {
+    "combo_id": "C168",
+    "pos": 5,
+    "of": 6
+   }
+  ],
+  "T154": [
+   {
+    "combo_id": "C171",
+    "pos": 5,
+    "of": 6
+   }
+  ],
+  "T071": [
+   {
+    "combo_id": "C172",
+    "pos": 1,
+    "of": 6
+   },
+   {
+    "combo_id": "C172",
+    "pos": 2,
+    "of": 6
+   }
+  ],
+  "T061": [
+   {
+    "combo_id": "C200",
+    "pos": 3,
+    "of": 5
+   },
+   {
+    "combo_id": "C172",
+    "pos": 3,
+    "of": 6
+   },
+   {
+    "combo_id": "C172",
+    "pos": 5,
+    "of": 6
+   }
+  ],
+  "T024": [
+   {
+    "combo_id": "C173",
+    "pos": 2,
+    "of": 6
+   }
+  ],
+  "T021": [
+   {
+    "combo_id": "C173",
+    "pos": 4,
+    "of": 6
+   }
+  ],
+  "T030": [
+   {
+    "combo_id": "C173",
+    "pos": 5,
+    "of": 6
+   }
+  ],
+  "T202": [
+   {
+    "combo_id": "C174",
+    "pos": 1,
+    "of": 6
+   }
+  ],
+  "T016": [
+   {
+    "combo_id": "C174",
+    "pos": 2,
+    "of": 6
+   }
+  ],
+  "T045": [
+   {
+    "combo_id": "C174",
+    "pos": 4,
+    "of": 6
+   }
+  ],
+  "T039": [
+   {
+    "combo_id": "C176",
+    "pos": 1,
+    "of": 5
+   }
+  ],
+  "T038": [
+   {
+    "combo_id": "C176",
+    "pos": 2,
+    "of": 5
+   }
+  ],
+  "T020": [
+   {
+    "combo_id": "C176",
+    "pos": 3,
+    "of": 5
+   }
+  ],
+  "T146": [
+   {
+    "combo_id": "C176",
+    "pos": 5,
+    "of": 5
+   }
+  ],
+  "T063": [
+   {
+    "combo_id": "C177",
+    "pos": 2,
+    "of": 5
+   }
+  ],
+  "T310": [
+   {
+    "combo_id": "C177",
+    "pos": 4,
+    "of": 5
+   }
+  ],
+  "T321": [
+   {
+    "combo_id": "C177",
+    "pos": 5,
+    "of": 5
+   }
+  ],
+  "T051": [
+   {
+    "combo_id": "C178",
+    "pos": 1,
+    "of": 5
+   }
+  ],
+  "T255": [
+   {
+    "combo_id": "C178",
+    "pos": 4,
+    "of": 5
+   }
+  ],
+  "T062": [
+   {
+    "combo_id": "C181",
+    "pos": 1,
+    "of": 5
+   }
+  ],
+  "T066": [
+   {
+    "combo_id": "C181",
+    "pos": 3,
+    "of": 5
+   }
+  ],
+  "T060": [
+   {
+    "combo_id": "C181",
+    "pos": 4,
+    "of": 5
+   }
+  ],
+  "T247": [
+   {
+    "combo_id": "C182",
+    "pos": 1,
+    "of": 4
+   }
+  ],
+  "T105": [
+   {
+    "combo_id": "C182",
+    "pos": 2,
+    "of": 4
+   }
+  ],
+  "T170": [
+   {
+    "combo_id": "C182",
+    "pos": 3,
+    "of": 4
+   }
+  ],
+  "T150": [
+   {
+    "combo_id": "C183",
+    "pos": 3,
+    "of": 7
+   }
+  ],
+  "T127": [
+   {
+    "combo_id": "C183",
+    "pos": 4,
+    "of": 7
+   }
+  ],
+  "T171": [
+   {
+    "combo_id": "C184",
+    "pos": 2,
+    "of": 5
+   }
+  ],
+  "T138": [
+   {
+    "combo_id": "C185",
+    "pos": 1,
+    "of": 6
+   }
+  ],
+  "T148": [
+   {
+    "combo_id": "C185",
+    "pos": 2,
+    "of": 6
+   }
+  ],
+  "T141": [
+   {
+    "combo_id": "C185",
+    "pos": 3,
+    "of": 6
+   }
+  ],
+  "T153": [
+   {
+    "combo_id": "C185",
+    "pos": 4,
+    "of": 6
+   }
+  ],
+  "T303": [
+   {
+    "combo_id": "C185",
+    "pos": 6,
+    "of": 6
+   }
+  ],
+  "T140": [
+   {
+    "combo_id": "C186",
+    "pos": 1,
+    "of": 4
+   }
+  ],
+  "T090": [
+   {
+    "combo_id": "C186",
+    "pos": 2,
+    "of": 4
+   }
+  ],
+  "T167": [
+   {
+    "combo_id": "C187",
+    "pos": 1,
+    "of": 7
+   }
+  ],
+  "T162": [
+   {
+    "combo_id": "C187",
+    "pos": 2,
+    "of": 7
+   }
+  ],
+  "T156": [
+   {
+    "combo_id": "C189",
+    "pos": 1,
+    "of": 6
+   }
+  ],
+  "T198": [
+   {
+    "combo_id": "C189",
+    "pos": 2,
+    "of": 6
+   }
+  ],
+  "T260": [
+   {
+    "combo_id": "C189",
+    "pos": 3,
+    "of": 6
+   }
+  ],
+  "T209": [
+   {
+    "combo_id": "C189",
+    "pos": 5,
+    "of": 6
+   }
+  ],
+  "T166": [
+   {
+    "combo_id": "C190",
+    "pos": 3,
+    "of": 4
+   }
+  ],
+  "T168": [
+   {
+    "combo_id": "C190",
+    "pos": 4,
+    "of": 4
+   }
+  ],
+  "T194": [
+   {
+    "combo_id": "C191",
+    "pos": 1,
+    "of": 6
+   }
+  ],
+  "T096": [
+   {
+    "combo_id": "C191",
+    "pos": 3,
+    "of": 6
+   }
+  ],
+  "T196": [
+   {
+    "combo_id": "C191",
+    "pos": 4,
+    "of": 6
+   }
+  ],
+  "T103": [
+   {
+    "combo_id": "C191",
+    "pos": 6,
+    "of": 6
+   }
+  ],
+  "T235": [
+   {
+    "combo_id": "C192",
+    "pos": 1,
+    "of": 6
+   }
+  ],
+  "T236": [
+   {
+    "combo_id": "C192",
+    "pos": 2,
+    "of": 6
+   }
+  ],
+  "T238": [
+   {
+    "combo_id": "C192",
+    "pos": 3,
+    "of": 6
+   }
+  ],
+  "T239": [
+   {
+    "combo_id": "C192",
+    "pos": 4,
+    "of": 6
+   }
+  ],
+  "T266": [
+   {
+    "combo_id": "C192",
+    "pos": 5,
+    "of": 6
+   }
+  ],
+  "T263": [
+   {
+    "combo_id": "C193",
+    "pos": 2,
+    "of": 4
+   }
+  ],
+  "T257": [
+   {
+    "combo_id": "C193",
+    "pos": 3,
+    "of": 4
+   }
+  ],
+  "T305": [
+   {
+    "combo_id": "C196",
+    "pos": 3,
+    "of": 5
+   },
+   {
+    "combo_id": "C205",
+    "pos": 4,
+    "of": 4
+   }
+  ],
+  "T306": [
+   {
+    "combo_id": "C197",
+    "pos": 1,
+    "of": 5
+   }
+  ],
+  "T276": [
+   {
+    "combo_id": "C199",
+    "pos": 1,
+    "of": 5
+   }
+  ],
+  "T269": [
+   {
+    "combo_id": "C199",
+    "pos": 2,
+    "of": 5
+   }
+  ],
+  "T065": [
+   {
+    "combo_id": "C200",
+    "pos": 1,
+    "of": 5
+   }
+  ],
+  "T256": [
+   {
+    "combo_id": "C200",
+    "pos": 4,
+    "of": 5
+   }
+  ],
+  "T296": [
+   {
+    "combo_id": "C202",
+    "pos": 1,
+    "of": 5
+   }
+  ],
+  "T297": [
+   {
+    "combo_id": "C202",
+    "pos": 2,
+    "of": 5
+   }
+  ],
+  "T298": [
+   {
+    "combo_id": "C202",
+    "pos": 3,
+    "of": 5
+   }
+  ],
+  "T076": [
+   {
+    "combo_id": "C203",
+    "pos": 1,
+    "of": 6
+   }
+  ],
+  "T074": [
+   {
+    "combo_id": "C203",
+    "pos": 2,
+    "of": 6
+   }
+  ],
+  "T075": [
+   {
+    "combo_id": "C203",
+    "pos": 3,
+    "of": 6
+   }
+  ],
+  "T073": [
+   {
+    "combo_id": "C203",
+    "pos": 4,
+    "of": 6
+   }
+  ],
+  "T077": [
+   {
+    "combo_id": "C203",
+    "pos": 5,
+    "of": 6
+   }
+  ],
+  "T184": [
+   {
+    "combo_id": "C205",
+    "pos": 1,
+    "of": 4
+   }
+  ],
+  "T185": [
+   {
+    "combo_id": "C205",
+    "pos": 2,
+    "of": 4
+   }
+  ],
+  "T183": [
+   {
+    "combo_id": "C205",
+    "pos": 3,
+    "of": 4
+   }
+  ],
+  "T320": [
+   {
+    "combo_id": "C206",
+    "pos": 4,
+    "of": 5
+   }
+  ],
+  "T013": [],
+  "T018": [],
+  "T023": [],
+  "T027": [],
+  "T054": [],
+  "T055": [],
+  "T057": [],
+  "T072": [],
+  "T085": [],
+  "T086": [],
+  "T091": [],
+  "T092": [],
+  "T104": [],
+  "T107": [],
+  "T108": [],
+  "T109": [],
+  "T110": [],
+  "T111": [],
+  "T164": [],
+  "T182": [],
+  "T201": [],
+  "T230": [],
+  "T244": [],
+  "T245": [],
+  "T264": [],
+  "T268": [],
+  "T271": [],
+  "T272": [],
+  "T273": [],
+  "T274": [],
+  "T275": [],
+  "T278": [],
+  "T280": [],
+  "T285": [],
+  "T294": [],
+  "T295": [],
+  "T299": [],
+  "T300": [],
+  "T304": [],
+  "T308": [],
+  "T311": [],
+  "T323": [],
+  "T331": [],
+  "T332": [],
+  "T335": []
+ },
+ "map": {
+  "top_tactics": [
+   {
+    "single_no": "T100",
+    "n": 23
+   },
+   {
+    "single_no": "T188",
+    "n": 17
+   },
+   {
+    "single_no": "T130",
+    "n": 16
+   },
+   {
+    "single_no": "T078",
+    "n": 13
+   },
+   {
+    "single_no": "T186",
+    "n": 13
+   },
+   {
+    "single_no": "T089",
+    "n": 12
+   },
+   {
+    "single_no": "T158",
+    "n": 12
+   },
+   {
+    "single_no": "T029",
+    "n": 11
+   },
+   {
+    "single_no": "T082",
+    "n": 11
+   },
+   {
+    "single_no": "T214",
+    "n": 11
+   },
+   {
+    "single_no": "T079",
+    "n": 11
+   },
+   {
+    "single_no": "T031",
+    "n": 10
+   },
+   {
+    "single_no": "T144",
+    "n": 10
+   },
+   {
+    "single_no": "T190",
+    "n": 9
+   },
+   {
+    "single_no": "T037",
+    "n": 9
+   }
+  ],
+  "pairs": [
+   {
+    "a": "T043",
+    "b": "T044",
+    "combos": [
+     "C012",
+     "C018",
+     "C016",
+     "C013"
+    ]
+   },
+   {
+    "a": "T078",
+    "b": "T100",
+    "combos": [
+     "C034",
+     "C036",
+     "C007",
+     "C039"
+    ]
+   },
+   {
+    "a": "T158",
+    "b": "T130",
+    "combos": [
+     "C051",
+     "C046",
+     "C052",
+     "C040"
+    ]
+   },
+   {
+    "a": "T044",
+    "b": "T186",
+    "combos": [
+     "C112",
+     "C016",
+     "C111"
+    ]
+   },
+   {
+    "a": "T044",
+    "b": "T037",
+    "combos": [
+     "C014",
+     "C018",
+     "C013"
+    ]
+   },
+   {
+    "a": "T188",
+    "b": "T188",
+    "combos": [
+     "C023",
+     "C049",
+     "C096"
+    ]
+   },
+   {
+    "a": "T163",
+    "b": "T326",
+    "combos": [
+     "C093",
+     "C119"
+    ]
+   },
+   {
+    "a": "T142",
+    "b": "T082",
+    "combos": [
+     "C047",
+     "C169"
+    ]
+   },
+   {
+    "a": "T031",
+    "b": "T037",
+    "combos": [
+     "C008",
+     "C028"
+    ]
+   },
+   {
+    "a": "T100",
+    "b": "T089",
+    "combos": [
+     "C150",
+     "C043"
+    ]
+   },
+   {
+    "a": "T144",
+    "b": "T214",
+    "combos": [
+     "C056",
+     "C058"
+    ]
+   },
+   {
+    "a": "T087",
+    "b": "T082",
+    "combos": [
+     "C050",
+     "C030"
+    ]
+   },
+   {
+    "a": "T130",
+    "b": "T190",
+    "combos": [
+     "C081",
+     "C080"
+    ]
+   },
+   {
+    "a": "T028",
+    "b": "T082",
+    "combos": [
+     "C008",
+     "C022"
+    ]
+   },
+   {
+    "a": "T042",
+    "b": "T044",
+    "combos": [
+     "C017",
+     "C014"
+    ]
+   },
+   {
+    "a": "T042",
+    "b": "T043",
+    "combos": [
+     "C012",
+     "C013"
+    ]
+   },
+   {
+    "a": "T330",
+    "b": "T041",
+    "combos": [
+     "C010",
+     "C019"
+    ]
+   },
+   {
+    "a": "T040",
+    "b": "T100",
+    "combos": [
+     "C025",
+     "C003"
+    ]
+   },
+   {
+    "a": "T029",
+    "b": "T100",
+    "combos": [
+     "C001",
+     "C021"
+    ]
+   },
+   {
+    "a": "T097",
+    "b": "T100",
+    "combos": [
+     "C148",
+     "C043"
+    ]
+   },
+   {
+    "a": "T097",
+    "b": "T082",
+    "combos": [
+     "C035",
+     "C031"
+    ]
+   },
+   {
+    "a": "T001",
+    "b": "T029",
+    "combos": [
+     "C160",
+     "C139"
+    ]
+   },
+   {
+    "a": "T088",
+    "b": "T089",
+    "combos": [
+     "C201",
+     "C007"
+    ]
+   },
+   {
+    "a": "T034",
+    "b": "T211",
+    "combos": [
+     "C005",
+     "C162"
+    ]
+   },
+   {
+    "a": "T007",
+    "b": "T088",
+    "combos": [
+     "C033",
+     "C007"
+    ]
+   },
+   {
+    "a": "T233",
+    "b": "T250",
+    "combos": [
+     "C160",
+     "C111"
+    ]
+   },
+   {
+    "a": "T190",
+    "b": "T012",
+    "combos": [
+     "C155",
+     "C077"
+    ]
+   },
+   {
+    "a": "T119",
+    "b": "T119",
+    "combos": [
+     "C071",
+     "C113"
+    ]
+   },
+   {
+    "a": "T214",
+    "b": "T144",
+    "combos": [
+     "C112",
+     "C058"
+    ]
+   },
+   {
+    "a": "T192",
+    "b": "T188",
+    "combos": [
+     "C094",
+     "C089"
+    ]
+   },
+   {
+    "a": "T084",
+    "b": "T118",
+    "combos": [
+     "C054",
+     "C198"
+    ]
+   },
+   {
+    "a": "T084",
+    "b": "T254",
+    "combos": [
+     "C075",
+     "C077"
+    ]
+   }
+  ]
+ }
+}

@@ -1,0 +1,7431 @@
+{
+ "tactics": {
+  "S1-001": {
+   "decoder": "/playbook/love-bombing"
+  },
+  "S1-002": {
+   "decoder": "/playbook/manufactured-destiny"
+  },
+  "S1-003": {
+   "decoder": "/playbook/manufactured-intimacy"
+  },
+  "S1-004": {
+   "decoder": "/playbook/forced-teaming"
+  },
+  "S1-005": {
+   "decoder": "/playbook/premature-vulnerability-trauma-dumping"
+  },
+  "S1-007": {
+   "decoder": "/playbook/the-rescue-hook"
+  },
+  "S1-008": {
+   "decoder": "/playbook/pedestal-ploy-the-exception-script"
+  },
+  "S1-009": {
+   "decoder": "/playbook/emotional-flooding"
+  },
+  "S1-010": {
+   "decoder": "/playbook/exclusive-meaning"
+  },
+  "S1-011": {
+   "decoder": "/playbook/loan-sharking-gifts"
+  },
+  "S1-012": {
+   "decoder": "/playbook/weaponized-generosity-in-public"
+  },
+  "S1-013": {
+   "decoder": "/playbook/performative-public-affection-dr-jekyll-and-mr-hyde"
+  },
+  "S1-014": {
+   "decoder": "/playbook/mirroring-on-demand"
+  },
+  "S1-015": {
+   "decoder": "/playbook/credential-costuming"
+  },
+  "S1-017": {
+   "decoder": "/playbook/catfishing"
+  },
+  "S1-018": {
+   "decoder": "/playbook/social-engineering"
+  },
+  "S1-019": {
+   "decoder": "/playbook/we-re-family-erasure"
+  },
+  "S1-020": {
+   "decoder": "/playbook/golden-child-elevation"
+  },
+  "S1-021": {
+   "decoder": "/playbook/tokenism"
+  },
+  "S1-022": {
+   "decoder": "/playbook/performative-allyship-false-solidarity"
+  },
+  "M-008": {
+   "decoder": "/playbook/premature-trust-extraction"
+  },
+  "M-009": {
+   "decoder": "/playbook/identity-auditing"
+  },
+  "M-013": {
+   "decoder": "/playbook/rescuer-positioning"
+  },
+  "M-023": {
+   "decoder": "/playbook/pacing-and-leading"
+  },
+  "S1-024": {
+   "decoder": "/playbook/performative-reception"
+  },
+  "S1-025": {
+   "decoder": "/playbook/target-selection"
+  },
+  "S1-026": {
+   "decoder": "/playbook/gatekeeper-grooming"
+  },
+  "S2-001": {
+   "decoder": "/playbook/future-faking"
+  },
+  "S2-002": {
+   "decoder": "/playbook/identity-hooking"
+  },
+  "S2-003": {
+   "decoder": "/playbook/premature-exclusivity"
+  },
+  "S2-004": {
+   "decoder": "/playbook/commitment-traps-foot-in-the-door"
+  },
+  "S2-005": {
+   "decoder": "/playbook/manufactured-urgency"
+  },
+  "S2-006": {
+   "decoder": "/playbook/manufactured-scarcity"
+  },
+  "S2-008": {
+   "decoder": "/playbook/obligation-hooks"
+  },
+  "S2-009": {
+   "decoder": "/playbook/favor-debt"
+  },
+  "S2-011": {
+   "decoder": "/playbook/duty-scripts"
+  },
+  "S2-012": {
+   "decoder": "/playbook/sunk-cost-exploitation"
+  },
+  "S2-013": {
+   "decoder": "/playbook/confirmation-bias-exploitation"
+  },
+  "S2-014": {
+   "decoder": "/playbook/halo-effect-exploitation"
+  },
+  "S2-016": {
+   "decoder": "/playbook/hoovering-relief-bait"
+  },
+  "S2-017": {
+   "decoder": "/playbook/obligation-contracts"
+  },
+  "S2-018": {
+   "decoder": "/playbook/golden-bars"
+  },
+  "S2-020": {
+   "decoder": "/playbook/financial-enmeshment"
+  },
+  "S2-021": {
+   "decoder": "/playbook/financial-dependence-by-design"
+  },
+  "S2-022": {
+   "decoder": "/playbook/platform-migration"
+  },
+  "S2-023": {
+   "decoder": "/playbook/bread-crumbing"
+  },
+  "S2-025": {
+   "decoder": "/playbook/boundary-testing"
+  },
+  "S2-027": {
+   "decoder": "/playbook/sacred-duty-manipulation-mission-framing"
+  },
+  "S2-029": {
+   "decoder": "/playbook/martyrdom-display"
+  },
+  "S2-030": {
+   "decoder": "/playbook/demand-for-gratitude"
+  },
+  "S2-031": {
+   "decoder": "/playbook/door-in-the-face"
+  },
+  "S2-032": {
+   "decoder": "/playbook/anchoring"
+  },
+  "S2-033": {
+   "decoder": "/playbook/bait-and-switch"
+  },
+  "S2-036": {
+   "decoder": "/playbook/agent-of-influence-operations"
+  },
+  "S2-038": {
+   "decoder": "/playbook/mystical-manipulation"
+  },
+  "S2-039": {
+   "decoder": "/playbook/charismatic-authority-dependence"
+  },
+  "S2-041": {
+   "decoder": "/playbook/parasocial-manipulation-engineering"
+  },
+  "S2-044": {
+   "decoder": "/playbook/algorithmic-targeting-of-vulnerable-populations"
+  },
+  "S2-046": {
+   "decoder": "/playbook/emotional-parasitism"
+  },
+  "M-041": {
+   "decoder": "/playbook/vulnerability-weaponization"
+  },
+  "M-046": {
+   "decoder": "/playbook/shared-secret-binding"
+  },
+  "M-048": {
+   "decoder": "/playbook/grooming-through-praise"
+  },
+  "M-050": {
+   "decoder": "/playbook/anchoring-to-peak-moments"
+  },
+  "M-066": {
+   "decoder": "/playbook/loyalty-testing"
+  },
+  "M-069": {
+   "decoder": "/playbook/crisis-bonding"
+  },
+  "M-071": {
+   "decoder": "/playbook/bait-disclosure"
+  },
+  "S2-047": {
+   "decoder": "/playbook/authority-worship"
+  },
+  "S2-048": {
+   "decoder": "/playbook/buried-consent"
+  },
+  "S2-049": {
+   "decoder": "/playbook/deniable-authorization"
+  },
+  "S2-050": {
+   "decoder": "/playbook/gamified-compulsion"
+  },
+  "S2-052": {
+   "decoder": "/playbook/reputation-braiding"
+  },
+  "S2-053": {
+   "decoder": "/playbook/pocketing"
+  },
+  "S2-054": {
+   "decoder": "/playbook/forced-continuity"
+  },
+  "S2-055": {
+   "decoder": "/playbook/that-s-not-all"
+  },
+  "S2-056": {
+   "decoder": "/playbook/disrupt-then-reframe"
+  },
+  "S2-057": {
+   "decoder": "/playbook/legitimizing-paltry-contributions"
+  },
+  "S2-058": {
+   "decoder": "/playbook/persistent-nagging"
+  },
+  "S3-001": {
+   "decoder": "/playbook/intermittent-reinforcement-push-pull"
+  },
+  "S3-002": {
+   "decoder": "/playbook/shame-installation"
+  },
+  "S3-003": {
+   "decoder": "/playbook/labeling-as-identity-warfare"
+  },
+  "S3-004": {
+   "decoder": "/playbook/withholding-silent-treatment"
+  },
+  "S3-005": {
+   "decoder": "/playbook/moving-goalposts"
+  },
+  "S3-006": {
+   "decoder": "/playbook/baiting"
+  },
+  "S3-007": {
+   "decoder": "/playbook/tone-policing"
+  },
+  "S3-008": {
+   "decoder": "/playbook/emotional-invalidation"
+  },
+  "S3-010": {
+   "decoder": "/playbook/contempt"
+  },
+  "S3-011": {
+   "decoder": "/playbook/double-binds"
+  },
+  "S3-012": {
+   "decoder": "/playbook/negging"
+  },
+  "S3-013": {
+   "decoder": "/playbook/comparative-devaluation"
+  },
+  "S3-014": {
+   "decoder": "/playbook/name-calling-disguised-as-humor"
+  },
+  "S3-015": {
+   "decoder": "/playbook/time-theft"
+  },
+  "S3-016": {
+   "decoder": "/playbook/strategic-apathy-weaponized-indifference"
+  },
+  "S3-017": {
+   "decoder": "/playbook/weaponized-incompetence"
+  },
+  "S3-019": {
+   "decoder": "/playbook/minimization"
+  },
+  "S3-021": {
+   "decoder": "/playbook/credit-theft"
+  },
+  "S3-022": {
+   "decoder": "/playbook/credit-laundering"
+  },
+  "S3-023": {
+   "decoder": "/playbook/impossible-metrics"
+  },
+  "S3-024": {
+   "decoder": "/playbook/scapegoating"
+  },
+  "S3-026": {
+   "decoder": "/playbook/punishment-of-boundaries"
+  },
+  "S3-027": {
+   "decoder": "/playbook/conditional-love"
+  },
+  "S3-028": {
+   "decoder": "/playbook/objectification"
+  },
+  "S3-029": {
+   "decoder": "/playbook/dehumanization"
+  },
+  "S3-031": {
+   "decoder": "/playbook/performance-framework-manipulation"
+  },
+  "S3-033": {
+   "decoder": "/playbook/dispensing-of-existence"
+  },
+  "M-117": {
+   "decoder": "/playbook/emotional-contamination"
+  },
+  "S3-034": {
+   "decoder": "/playbook/you-ve-changed"
+  },
+  "S3-035": {
+   "decoder": "/playbook/cultural-penalty"
+  },
+  "S3-037": {
+   "decoder": "/playbook/exoticization"
+  },
+  "S3-038": {
+   "decoder": "/playbook/experience-erasure"
+  },
+  "S3-040": {
+   "decoder": "/playbook/stigma-marking"
+  },
+  "S3-041": {
+   "decoder": "/playbook/unwritten-rules"
+  },
+  "S4-001": {
+   "decoder": "/playbook/frame-control-false-framing"
+  },
+  "S4-003": {
+   "decoder": "/playbook/credibility-theft"
+  },
+  "S4-005": {
+   "decoder": "/playbook/projection"
+  },
+  "S4-007": {
+   "decoder": "/playbook/role-reversal-traps"
+  },
+  "S4-008": {
+   "decoder": "/playbook/weaponized-therapy-speak"
+  },
+  "S4-009": {
+   "decoder": "/playbook/authority-hijack"
+  },
+  "S4-010": {
+   "decoder": "/playbook/accountability-evasion-via-diagnosis-trash-can-diagnosis"
+  },
+  "S4-014": {
+   "decoder": "/playbook/preemptive-accusation-complaint-weaponization"
+  },
+  "S4-015": {
+   "decoder": "/playbook/deflection"
+  },
+  "S4-016": {
+   "decoder": "/playbook/word-salad"
+  },
+  "S4-017": {
+   "decoder": "/playbook/whataboutism"
+  },
+  "S4-019": {
+   "decoder": "/playbook/false-equivalence"
+  },
+  "S4-020": {
+   "decoder": "/playbook/non-apology-apologies"
+  },
+  "S4-022": {
+   "decoder": "/playbook/contradiction-stacking"
+  },
+  "S4-023": {
+   "decoder": "/playbook/semantic-traps"
+  },
+  "S4-024": {
+   "decoder": "/playbook/gotcha-framing"
+  },
+  "S4-025": {
+   "decoder": "/playbook/false-dilemma"
+  },
+  "S4-026": {
+   "decoder": "/playbook/false-authority"
+  },
+  "S4-027": {
+   "decoder": "/playbook/false-consensus-social-proof-pressure"
+  },
+  "S4-028": {
+   "decoder": "/playbook/normalization-overton-window-manipulation"
+  },
+  "S4-029": {
+   "decoder": "/playbook/counterfeit-calm"
+  },
+  "S4-030": {
+   "decoder": "/playbook/splitting"
+  },
+  "S4-032": {
+   "decoder": "/playbook/malicious-compliance"
+  },
+  "S4-033": {
+   "decoder": "/playbook/ambient-abuse-atmosphere-control"
+  },
+  "S4-034": {
+   "decoder": "/playbook/thought-stopping-clich-s"
+  },
+  "S4-035": {
+   "decoder": "/playbook/loaded-language"
+  },
+  "S4-037": {
+   "decoder": "/playbook/stonewalling"
+  },
+  "S4-039": {
+   "decoder": "/playbook/priming-narrative-seeding"
+  },
+  "S4-040": {
+   "decoder": "/playbook/toxic-positivity-weaponized-optimism"
+  },
+  "S4-041": {
+   "decoder": "/playbook/reverse-psychology"
+  },
+  "S4-042": {
+   "decoder": "/playbook/cognitive-overload"
+  },
+  "S4-043": {
+   "decoder": "/playbook/individualization-of-systemic-issues"
+  },
+  "S4-044": {
+   "decoder": "/playbook/diffusion-of-responsibility"
+  },
+  "S4-045": {
+   "decoder": "/playbook/willful-blindness-as-complicity"
+  },
+  "S4-046": {
+   "decoder": "/playbook/blame-shifting"
+  },
+  "S4-048": {
+   "decoder": "/playbook/kafka-trapping"
+  },
+  "S4-050": {
+   "decoder": "/playbook/feigned-ignorance"
+  },
+  "S4-051": {
+   "decoder": "/playbook/countering"
+  },
+  "S4-052": {
+   "decoder": "/playbook/exaggeration"
+  },
+  "S4-053": {
+   "decoder": "/playbook/burden-of-proof-shifting-sealioning"
+  },
+  "S4-054": {
+   "decoder": "/playbook/gish-gallop-firehose-of-falsehood"
+  },
+  "S4-055": {
+   "decoder": "/playbook/limited-hangout"
+  },
+  "S4-056": {
+   "decoder": "/playbook/pseudo-profundity-intellectual-intimidation"
+  },
+  "S4-057": {
+   "decoder": "/playbook/semantic-erosion-meaning-dilution"
+  },
+  "S4-058": {
+   "decoder": "/playbook/dog-whistling-coded-signaling"
+  },
+  "S4-059": {
+   "decoder": "/playbook/revisionist-history"
+  },
+  "S4-061": {
+   "decoder": "/playbook/repetition-as-truth"
+  },
+  "S4-063": {
+   "decoder": "/playbook/meta-gaslighting"
+  },
+  "S4-065": {
+   "decoder": "/playbook/lying-by-omission-gaslighting-by-omission"
+  },
+  "S4-066": {
+   "decoder": "/playbook/half-truth-framing"
+  },
+  "S4-067": {
+   "decoder": "/playbook/information-laundering"
+  },
+  "S4-070": {
+   "decoder": "/playbook/astroturfing-sock-puppets"
+  },
+  "S4-073": {
+   "decoder": "/playbook/false-flag-operations"
+  },
+  "S4-077": {
+   "decoder": "/playbook/strategic-leaking"
+  },
+  "S4-079": {
+   "decoder": "/playbook/cyber-manipulation-operations-cmos"
+  },
+  "S4-080": {
+   "decoder": "/playbook/context-poisoning"
+  },
+  "S4-081": {
+   "decoder": "/playbook/immersive-manipulation-vr-ar"
+  },
+  "M-145": {
+   "decoder": "/playbook/pseudo-logic"
+  },
+  "M-147": {
+   "decoder": "/playbook/emotional-sequencing"
+  },
+  "M-159": {
+   "decoder": "/playbook/perspecticide"
+  },
+  "S4-083": {
+   "decoder": "/playbook/abstraction-escalation"
+  },
+  "S4-084": {
+   "decoder": "/playbook/agent-erasure"
+  },
+  "S4-085": {
+   "decoder": "/playbook/captive-expertise"
+  },
+  "S4-087": {
+   "decoder": "/playbook/done-deal-framing"
+  },
+  "S4-089": {
+   "decoder": "/playbook/language-laundering"
+  },
+  "S4-090": {
+   "decoder": "/playbook/metric-masking"
+  },
+  "S4-091": {
+   "decoder": "/playbook/moral-disengagement"
+  },
+  "S4-092": {
+   "decoder": "/playbook/policy-as-proof"
+  },
+  "S4-093": {
+   "decoder": "/playbook/retroactive-justification"
+  },
+  "S4-094": {
+   "decoder": "/playbook/self-fulfilling-prediction"
+  },
+  "S4-095": {
+   "decoder": "/playbook/solution-theater"
+  },
+  "S4-096": {
+   "decoder": "/playbook/victim-blaming"
+  },
+  "S4-097": {
+   "decoder": "/playbook/just-asking-questions"
+  },
+  "S4-098": {
+   "decoder": "/playbook/motte-and-bailey"
+  },
+  "S5-001": {
+   "decoder": "/playbook/isolation"
+  },
+  "S5-002": {
+   "decoder": "/playbook/triangulation"
+  },
+  "S5-003": {
+   "decoder": "/playbook/smear-campaigns"
+  },
+  "S5-004": {
+   "decoder": "/playbook/flying-monkeys-proxy-recruitment"
+  },
+  "S5-005": {
+   "decoder": "/playbook/plausible-deniability"
+  },
+  "S5-006": {
+   "decoder": "/playbook/ostracism"
+  },
+  "S5-007": {
+   "decoder": "/playbook/silent-coalitions"
+  },
+  "S5-008": {
+   "decoder": "/playbook/ambiguity-as-weapon-strategic-ambiguity"
+  },
+  "S5-010": {
+   "decoder": "/playbook/interruption-patterns"
+  },
+  "S5-012": {
+   "decoder": "/playbook/pile-ons-brigading"
+  },
+  "S5-013": {
+   "decoder": "/playbook/polite-hostile-environments"
+  },
+  "S5-014": {
+   "decoder": "/playbook/gatekeeping"
+  },
+  "S5-015": {
+   "decoder": "/playbook/stochastic-harassment-direction"
+  },
+  "S5-017": {
+   "decoder": "/playbook/divide-and-conquer"
+  },
+  "S5-018": {
+   "decoder": "/playbook/compartmentalization"
+  },
+  "S5-019": {
+   "decoder": "/playbook/echo-chamber-construction"
+  },
+  "M-167": {
+   "decoder": "/playbook/social-mapping"
+  },
+  "M-176": {
+   "decoder": "/playbook/support-system-exhaustion"
+  },
+  "M-182": {
+   "decoder": "/playbook/identity-based-isolation"
+  },
+  "S5-021": {
+   "decoder": "/playbook/contribution-erasure"
+  },
+  "S5-022": {
+   "decoder": "/playbook/front-person-exposure"
+  },
+  "S5-023": {
+   "decoder": "/playbook/incident-siloing"
+  },
+  "S5-024": {
+   "decoder": "/playbook/participation-penalty"
+  },
+  "S5-025": {
+   "decoder": "/playbook/reputation-hijacking"
+  },
+  "S6-005": {
+   "decoder": "/playbook/ritualized-exhaustion"
+  },
+  "S6-007": {
+   "decoder": "/playbook/guilt-tripping"
+  },
+  "S6-011": {
+   "decoder": "/playbook/paper-trail-traps"
+  },
+  "S6-013": {
+   "decoder": "/playbook/hr-shielding"
+  },
+  "S6-014": {
+   "decoder": "/playbook/process-exhaustion"
+  },
+  "S6-015": {
+   "decoder": "/playbook/vague-allegations-with-high-consequences"
+  },
+  "S6-016": {
+   "decoder": "/playbook/confidentiality-as-weapon"
+  },
+  "S6-018": {
+   "decoder": "/playbook/resource-sabotage-sabotaging-success"
+  },
+  "S6-019": {
+   "decoder": "/playbook/administrative-escalation"
+  },
+  "S6-020": {
+   "decoder": "/playbook/managed-out-through-exhaustion"
+  },
+  "S6-021": {
+   "decoder": "/playbook/legal-administrative-threats"
+  },
+  "S6-022": {
+   "decoder": "/playbook/false-reports"
+  },
+  "S6-024": {
+   "decoder": "/playbook/location-tracking"
+  },
+  "S6-025": {
+   "decoder": "/playbook/device-access-demands"
+  },
+  "S6-026": {
+   "decoder": "/playbook/account-control"
+  },
+  "S6-027": {
+   "decoder": "/playbook/response-time-policing"
+  },
+  "S6-030": {
+   "decoder": "/playbook/moral-licensing-strategic-philanthropy"
+  },
+  "S6-031": {
+   "decoder": "/playbook/moral-framing"
+  },
+  "S6-032": {
+   "decoder": "/playbook/financial-control"
+  },
+  "S6-033": {
+   "decoder": "/playbook/sexual-coercion"
+  },
+  "S6-034": {
+   "decoder": "/playbook/reproductive-coercion"
+  },
+  "S6-035": {
+   "decoder": "/playbook/extinction-bursts"
+  },
+  "S6-038": {
+   "decoder": "/playbook/negative-reinforcement-traps"
+  },
+  "S6-039": {
+   "decoder": "/playbook/phobia-indoctrination-catastrophizing"
+  },
+  "S6-040": {
+   "decoder": "/playbook/strategic-chaos-crisis-manufacturing"
+  },
+  "S6-042": {
+   "decoder": "/playbook/time-control"
+  },
+  "S6-043": {
+   "decoder": "/playbook/sleep-deprivation"
+  },
+  "S6-044": {
+   "decoder": "/playbook/narrative-monopoly"
+  },
+  "S6-045": {
+   "decoder": "/playbook/mobility-control"
+  },
+  "S6-046": {
+   "decoder": "/playbook/body-autonomy-violations"
+  },
+  "S6-047": {
+   "decoder": "/playbook/role-assignment"
+  },
+  "S6-048": {
+   "decoder": "/playbook/forced-dependency"
+  },
+  "S6-051": {
+   "decoder": "/playbook/silence-as-policy"
+  },
+  "S6-054": {
+   "decoder": "/playbook/children-as-leverage"
+  },
+  "S6-056": {
+   "decoder": "/playbook/micromanagement"
+  },
+  "S6-057": {
+   "decoder": "/playbook/performance-monitoring"
+  },
+  "S6-058": {
+   "decoder": "/playbook/controlled-communication"
+  },
+  "S6-060": {
+   "decoder": "/playbook/rage-as-regulation"
+  },
+  "S6-061": {
+   "decoder": "/playbook/fear-installation"
+  },
+  "S6-063": {
+   "decoder": "/playbook/managed-perception"
+  },
+  "S6-067": {
+   "decoder": "/playbook/omnipresence-demonstrating-omnipotence"
+  },
+  "S6-068": {
+   "decoder": "/playbook/punishment-by-proxy"
+  },
+  "S6-069": {
+   "decoder": "/playbook/emotional-blackmail"
+  },
+  "S6-070": {
+   "decoder": "/playbook/intimidation"
+  },
+  "S6-071": {
+   "decoder": "/playbook/concern-trolling-shame-as-governance"
+  },
+  "S6-072": {
+   "decoder": "/playbook/ultimatums"
+  },
+  "S6-073": {
+   "decoder": "/playbook/loyalty-binds"
+  },
+  "S6-074": {
+   "decoder": "/playbook/ambient-sexual-threat"
+  },
+  "S6-075": {
+   "decoder": "/playbook/overcorrection-demands"
+  },
+  "S6-076": {
+   "decoder": "/playbook/blackmail-leverage-exploitation"
+  },
+  "S6-077": {
+   "decoder": "/playbook/moral-outrage-as-weapon"
+  },
+  "S6-078": {
+   "decoder": "/playbook/emotional-hostage-taking"
+  },
+  "S6-079": {
+   "decoder": "/playbook/i-know-best-paternalism-velvet-glove-control"
+  },
+  "S6-080": {
+   "decoder": "/playbook/interrogation"
+  },
+  "S6-081": {
+   "decoder": "/playbook/moving-in-silence"
+  },
+  "S6-082": {
+   "decoder": "/playbook/enforcing-trivial-demands"
+  },
+  "S6-084": {
+   "decoder": "/playbook/choice-restriction"
+  },
+  "S6-085": {
+   "decoder": "/playbook/pseudo-consultation"
+  },
+  "S6-086": {
+   "decoder": "/playbook/weaponized-inclusion-strategic-containment"
+  },
+  "S6-088": {
+   "decoder": "/playbook/controlled-opposition"
+  },
+  "S6-089": {
+   "decoder": "/playbook/manufactured-consent"
+  },
+  "S6-093": {
+   "decoder": "/playbook/sacred-science"
+  },
+  "S6-094": {
+   "decoder": "/playbook/doctrine-over-person"
+  },
+  "S6-096": {
+   "decoder": "/playbook/forced-confession-self-criticism-rituals"
+  },
+  "S6-098": {
+   "decoder": "/playbook/algorithmic-manipulation"
+  },
+  "S6-099": {
+   "decoder": "/playbook/biometric-exploitation"
+  },
+  "M-199": {
+   "decoder": "/playbook/institutional-capture"
+  },
+  "S6-101": {
+   "decoder": "/playbook/arbitrary-authority"
+  },
+  "S6-102": {
+   "decoder": "/playbook/black-box-decisions"
+  },
+  "S6-103": {
+   "decoder": "/playbook/celebration-as-cover"
+  },
+  "S6-104": {
+   "decoder": "/playbook/closed-loop-appeals"
+  },
+  "S6-105": {
+   "decoder": "/playbook/collective-punishment"
+  },
+  "S6-107": {
+   "decoder": "/playbook/data-harvesting"
+  },
+  "S6-108": {
+   "decoder": "/playbook/data-onward-sharing"
+  },
+  "S6-109": {
+   "decoder": "/playbook/development-subordination"
+  },
+  "S6-111": {
+   "decoder": "/playbook/initiative-churn"
+  },
+  "S6-112": {
+   "decoder": "/playbook/labor-extraction"
+  },
+  "S6-113": {
+   "decoder": "/playbook/liability-reframing"
+  },
+  "S6-114": {
+   "decoder": "/playbook/metric-mission-substitution"
+  },
+  "S6-115": {
+   "decoder": "/playbook/motivation-displacement"
+  },
+  "S6-116": {
+   "decoder": "/playbook/predictive-tracking"
+  },
+  "S6-119": {
+   "decoder": "/playbook/strategic-delay"
+  },
+  "S6-120": {
+   "decoder": "/playbook/strategic-timing"
+  },
+  "S6-121": {
+   "decoder": "/playbook/structural-underfunding"
+  },
+  "S6-122": {
+   "decoder": "/playbook/harm-to-pets-or-property"
+  },
+  "S6-123": {
+   "decoder": "/playbook/coerced-debt"
+  },
+  "S6-124": {
+   "decoder": "/playbook/debt-bondage"
+  },
+  "S6-125": {
+   "decoder": "/playbook/document-confiscation"
+  },
+  "S6-126": {
+   "decoder": "/playbook/status-threats"
+  },
+  "S6-127": {
+   "decoder": "/playbook/enmeshment"
+  },
+  "S7-002": {
+   "decoder": "/playbook/apologies-without-repair"
+  },
+  "S7-003": {
+   "decoder": "/playbook/pity-plays"
+  },
+  "S7-004": {
+   "decoder": "/playbook/forced-forgiveness-weaponized-forgiveness"
+  },
+  "S7-005": {
+   "decoder": "/playbook/competitive-victimhood"
+  },
+  "S7-007": {
+   "decoder": "/playbook/aftercare-control"
+  },
+  "S7-009": {
+   "decoder": "/playbook/legal-abuse"
+  },
+  "S7-011": {
+   "decoder": "/playbook/humiliation-rituals"
+  },
+  "S7-012": {
+   "decoder": "/playbook/public-exposure"
+  },
+  "S7-015": {
+   "decoder": "/playbook/ghosting-as-control"
+  },
+  "S7-020": {
+   "decoder": "/playbook/sudden-devaluation"
+  },
+  "S7-021": {
+   "decoder": "/playbook/replacement-display"
+  },
+  "S7-023": {
+   "decoder": "/playbook/blame-discard"
+  },
+  "S7-024": {
+   "decoder": "/playbook/managed-exit"
+  },
+  "S7-033": {
+   "decoder": "/playbook/manufactured-closure"
+  },
+  "S7-034": {
+   "decoder": "/playbook/paid-silence"
+  },
+  "S7-035": {
+   "decoder": "/playbook/punitive-transfer"
+  },
+  "S7-036": {
+   "decoder": "/playbook/record-erasure"
+  },
+  "S7-037": {
+   "decoder": "/playbook/uncorrected-record"
+  },
+  "S7-038": {
+   "decoder": "/playbook/values-fit-pretext"
+  },
+  "S7-039": {
+   "decoder": "/playbook/visible-impunity"
+  },
+  "S7-041": {
+   "decoder": "/playbook/swatting"
+  },
+  "S8-001": {
+   "decoder": "/playbook/orbiting"
+  },
+  "S8-009": {
+   "decoder": "/playbook/infantilization"
+  },
+  "S8-010": {
+   "decoder": "/playbook/parentification"
+  },
+  "S8-011": {
+   "decoder": "/playbook/emotional-blackmail-via-self-harm-threats"
+  },
+  "S8-012": {
+   "decoder": "/playbook/health-sabotage"
+  },
+  "S8-014": {
+   "decoder": "/playbook/coordinated-reporting"
+  },
+  "S8-015": {
+   "decoder": "/playbook/context-collapse"
+  },
+  "S8-016": {
+   "decoder": "/playbook/doxxing"
+  },
+  "S8-018": {
+   "decoder": "/playbook/forged-screenshots-edited-evidence"
+  },
+  "S8-020": {
+   "decoder": "/playbook/guilt-legacy"
+  },
+  "S8-021": {
+   "decoder": "/playbook/maternal-gatekeeping"
+  },
+  "S8-029": {
+   "decoder": "/playbook/smart-home-coercion"
+  },
+  "S8-031": {
+   "decoder": "/playbook/ai-voice-cloning"
+  },
+  "S8-033": {
+   "decoder": "/playbook/intimate-image-abuse"
+  },
+  "S8-035": {
+   "decoder": "/playbook/accountability-reset"
+  }
+ },
+ "chains": {
+  "C001": [
+   {
+    "name": "Love Bombing",
+    "single_no": "T001",
+    "via": "reverse_index",
+    "pattern": null
+   },
+   {
+    "name": "Boundary Testing",
+    "single_no": "T047",
+    "via": "reverse_index",
+    "pattern": null
+   },
+   {
+    "name": "Manufactured Intimacy",
+    "single_no": "T003",
+    "via": "reverse_index",
+    "pattern": null
+   },
+   {
+    "name": "Intermittent Reinforcement",
+    "single_no": "T078",
+    "via": "exact_name",
+    "pattern": null
+   },
+   {
+    "name": "Isolation",
+    "single_no": "T186",
+    "via": "reverse_index",
+    "pattern": null
+   },
+   {
+    "name": "Identity Hooking",
+    "single_no": "T029",
+    "via": "reverse_index",
+    "pattern": null
+   },
+   {
+    "name": "Conditional Love",
+    "single_no": "T100",
+    "via": "reverse_index",
+    "pattern": null
+   }
+  ],
+  "C003": [
+   {
+    "name": "Intermittent Reinforcement",
+    "single_no": "T078",
+    "via": "exact_name",
+    "pattern": null
+   },
+   {
+    "name": "Trauma Bonding",
+    "single_no": null,
+    "via": "playbook_pattern",
+    "pattern": {
+     "name": "Trauma Bonding",
+     "url": "/playbook/trauma-bonding"
+    }
+   },
+   {
+    "name": "Relief Bait",
+    "single_no": "T040",
+    "via": "exact_name",
+    "pattern": null
+   },
+   {
+    "name": "Push-Pull",
+    "single_no": "T078",
+    "via": "exact_name",
+    "pattern": null
+   },
+   {
+    "name": "FOG",
+    "single_no": null,
+    "via": "playbook_pattern",
+    "pattern": {
+     "name": "FOG (Fear, Obligation, Guilt)",
+     "url": "/playbook/fog"
+    }
+   },
+   {
+    "name": "Hoovering",
+    "single_no": "T040",
+    "via": "exact_name",
+    "pattern": null
+   },
+   {
+    "name": "Conditional Love",
+    "single_no": "T100",
+    "via": "reverse_index",
+    "pattern": null
+   }
+  ],
+  "C005": [
+   {
+    "name": "The Rescue Hook",
+    "single_no": "T006",
+    "via": "reverse_index",
+    "pattern": null
+   },
+   {
+    "name": "Premature Vulnerability",
+    "single_no": "T005",
+    "via": "exact_name",
+    "pattern": null
+   },
+   {
+    "name": "Emotional Parasitism",
+    "single_no": "T059",
+    "via": "reverse_index",
+    "pattern": null
+   },
+   {
+    "name": "Obligation Installation",
+    "single_no": "T034",
+    "via": "exact_name",
+    "pattern": null
+   },
+   {
+    "name": "Guilt-Tripping",
+    "single_no": "T211",
+    "via": "reverse_index",
+    "pattern": null
+   },
+   {
+    "name": "Duty Scripts",
+    "single_no": "T036",
+    "via": "reverse_index",
+    "pattern": null
+   }
+  ],
+  "C007": [
+   {
+    "name": "Pedestal Ploy",
+    "single_no": "T007",
+    "via": "exact_name",
+    "pattern": null
+   },
+   {
+    "name": "Negging",
+    "single_no": "T088",
+    "via": "reverse_index",
+    "pattern": null
+   },
+   {
+    "name": "Comparative Devaluation",
+    "single_no": "T089",
+    "via": "reverse_index",
+    "pattern": null
+   },
+   {
+    "name": "Intermittent Reinforcement",
+    "single_no": "T078",
+    "via": "exact_name",
+    "pattern": null
+   },
+   {
+    "name": "Conditional Love",
+    "single_no": "T100",
+    "via": "reverse_index",
+    "pattern": null
+   }
+  ],
+  "C008": [
+   {
+    "name": "Catfishing",
+    "single_no": "T015",
+    "via": "reverse_index",
+    "pattern": null
+   },
+   {
+    "name": "Future Faking",
+    "single_no": "T028",
+    "via": "reverse_index",
+    "pattern": null
+   },
+   {
+    "name": "Moving Goalposts",
+    "single_no": "T082",
+    "via": "reverse_index",
+    "pattern": null
+   },
+   {
+    "name": "Commitment Traps",
+    "single_no": "T031",
+    "via": "exact_name",
+    "pattern": null
+   },
+   {
+    "name": "Sunk Cost Exploitation",
+    "single_no": "T037",
+    "via": "reverse_index",
+    "pattern": null
+   }
+  ],
+  "C009": [
+   {
+    "name": "Loan-Sharking Gifts",
+    "single_no": "T010",
+    "via": "reverse_index",
+    "pattern": null
+   },
+   {
+    "name": "Favor Debt",
+    "single_no": "T035",
+    "via": "reverse_index",
+    "pattern": null
+   },
+   {
+    "name": "Obligation Hooks",
+    "single_no": "T034",
+    "via": "reverse_index",
+    "pattern": null
+   },
+   {
+    "name": "Demand for Gratitude",
+    "single_no": "T050",
+    "via": "reverse_index",
+    "pattern": null
+   },
+   {
+    "name": "Guilt-Tripping",
+    "single_no": "T211",
+    "via": "reverse_index",
+    "pattern": null
+   },
+   {
+    "name": "Obligation Contracts",
+    "single_no": "T041",
+    "via": "reverse_index",
+    "pattern": null
+   }
+  ],
+  "C010": [
+   {
+    "name": "Loan-Sharking Gifts",
+    "single_no": "T010",
+    "via": "reverse_index",
+    "pattern": null
+   },
+   {
+    "name": "Demand for Gratitude",
+    "single_no": "T050",
+    "via": "reverse_index",
+    "pattern": null
+   },
+   {
+    "name": "Weaponized Generosity in Public",
+    "single_no": "T011",
+    "via": "reverse_index",
+    "pattern": null
+   },
+   {
+    "name": "Guilt Legacy",
+    "single_no": "T330",
+    "via": "reverse_index",
+    "pattern": null
+   },
+   {
+    "name": "Obligation Contracts",
+    "single_no": "T041",
+    "via": "reverse_index",
+    "pattern": null
+   },
+   {
+    "name": "Punishment of Boundaries",
+    "single_no": "T099",
+    "via": "reverse_index",
+    "pattern": null
+   }
+  ],
+  "C011": [
+   {
+    "name": "Love Bombing",
+    "single_no": "T001",
+    "via": "reverse_index",
+    "pattern": null
+   },
+   {
+    "name": "Manufactured Intimacy",
+    "single_no": "T003",
+    "via": "reverse_index",
+    "pattern": null
+   },
+   {
+    "name": "We're Family\" Erasure",
+    "single_no": "T017",
+    "via": "exact_name",
+    "pattern": null
+   },
+   {
+    "name": "Isolation",
+    "single_no": "T186",
+    "via": "reverse_index",
+    "pattern": null
+   },
+   {
+    "name": "FOG",
+    "single_no": null,
+    "via": "playbook_pattern",
+    "pattern": {
+     "name": "FOG (Fear, Obligation, Guilt)",
+     "url": "/playbook/fog"
+    }
+   },
+   {
+    "name": "Conditional Love",
+    "single_no": "T100",
+    "via": "reverse_index",
+    "pattern": null
+   }
+  ],
+  "C012": [
+   {
+    "name": "Sunk Cost Exploitation",
+    "single_no": "T037",
+    "via": "reverse_index",
+    "pattern": null
+   },
+   {
+    "name": "Golden Bars",
+    "single_no": "T042",
+    "via": "reverse_index",
+    "pattern": null
+   },
+   {
+    "name": "Financial Enmeshment",
+    "single_no": "T043",
+    "via": "reverse_index",
+    "pattern": null
+   },
+   {
+    "name": "Financial Dependence by Design",
+    "single_no": "T044",
+    "via": "reverse_index",
+    "pattern": null
+   },
+   {
+    "name": "Catastrophizing as Control",
+    "single_no": "T233",
+    "via": "exact_name",
+    "pattern": null
+   },
+   {
+    "name": "FOG",
+    "single_no": null,
+    "via": "playbook_pattern",
+    "pattern": {
+     "name": "FOG (Fear, Obligation, Guilt)",
+     "url": "/playbook/fog"
+    }
+   },
+   {
+    "name": "Phobia Indoctrination",
+    "single_no": "T233",
+    "via": "exact_name",
+    "pattern": null
+   },
+   {
+    "name": "Hoovering",
+    "single_no": "T040",
+    "via": "exact_name",
+    "pattern": null
+   },
+   {
+    "name": "Emotional Blackmail via Self-Harm Threats",
+    "single_no": "T324",
+    "via": "reverse_index",
+    "pattern": null
+   }
+  ],
+  "C013": [
+   {
+    "name": "Golden Bars",
+    "single_no": "T042",
+    "via": "reverse_index",
+    "pattern": null
+   },
+   {
+    "name": "Financial Enmeshment",
+    "single_no": "T043",
+    "via": "reverse_index",
+    "pattern": null
+   },
+   {
+    "name": "Financial Dependence by Design",
+    "single_no": "T044",
+    "via": "reverse_index",
+    "pattern": null
+   },
+   {
+    "name": "Sunk Cost Exploitation",
+    "single_no": "T037",
+    "via": "reverse_index",
+    "pattern": null
+   },
+   {
+    "name": "Performative Public Affection",
+    "single_no": "T012",
+    "via": "exact_name",
+    "pattern": null
+   },
+   {
+    "name": "Conditional Love",
+    "single_no": "T100",
+    "via": "reverse_index",
+    "pattern": null
+   }
+  ],
+  "C014": [
+   {
+    "name": "Golden Bars",
+    "single_no": "T042",
+    "via": "reverse_index",
+    "pattern": null
+   },
+   {
+    "name": "Financial Dependence by Design",
+    "single_no": "T044",
+    "via": "reverse_index",
+    "pattern": null
+   },
+   {
+    "name": "Sunk Cost Exploitation",
+    "single_no": "T037",
+    "via": "reverse_index",
+    "pattern": null
+   },
+   {
+    "name": "Conditional Love",
+    "single_no": "T100",
+    "via": "reverse_index",
+    "pattern": null
+   },
+   {
+    "name": "Identity Hooking",
+    "single_no": "T029",
+    "via": "reverse_index",
+    "pattern": null
+   }
+  ],
+  "C015": [
+   {
+    "name": "Obligation Installation",
+    "single_no": "T034",
+    "via": "reverse_index",
+    "pattern": null
+   },
+   {
+    "name": "Obligation Hooks",
+    "single_no": "T034",
+    "via": "reverse_index",
+    "pattern": null
+   },
+   {
+    "name": "Obligation Contracts",
+    "single_no": "T041",
+    "via": "reverse_index",
+    "pattern": null
+   },
+   {
+    "name": "Favor Debt",
+    "single_no": "T035",
+    "via": "reverse_index",
+    "pattern": null
+   },
+   {
+    "name": "Guilt Legacy",
+    "single_no": "T330",
+    "via": "reverse_index",
+    "pattern": null
+   },
+   {
+    "name": "Duty Scripts",
+    "single_no": "T036",
+    "via": "reverse_index",
+    "pattern": null
+   },
+   {
+    "name": "FOG",
+    "single_no": null,
+    "via": "playbook_pattern",
+    "pattern": {
+     "name": "FOG (Fear, Obligation, Guilt)",
+     "url": "/playbook/fog"
+    }
+   },
+   {
+    "name": "Demand for Gratitude",
+    "single_no": "T050",
+    "via": "reverse_index",
+    "pattern": null
+   }
+  ],
+  "C016": [
+   {
+    "name": "Financial Enmeshment",
+    "single_no": "T043",
+    "via": "reverse_index",
+    "pattern": null
+   },
+   {
+    "name": "Financial Dependence by Design",
+    "single_no": "T044",
+    "via": "reverse_index",
+    "pattern": null
+   },
+   {
+    "name": "Isolation",
+    "single_no": "T186",
+    "via": "reverse_index",
+    "pattern": null
+   },
+   {
+    "name": "Information Control",
+    "single_no": null,
+    "via": "playbook_pattern",
+    "pattern": {
+     "name": "Information Control",
+     "url": "/playbook/information-control"
+    }
+   },
+   {
+    "name": "Identity Hooking",
+    "single_no": "T029",
+    "via": "reverse_index",
+    "pattern": null
+   },
+   {
+    "name": "Forced Dependency",
+    "single_no": "T241",
+    "via": "reverse_index",
+    "pattern": null
+   },
+   {
+    "name": "Emotional Parasitism",
+    "single_no": "T059",
+    "via": "reverse_index",
+    "pattern": null
+   },
+   {
+    "name": "We're Family\" Erasure",
+    "single_no": "T017",
+    "via": "exact_name",
+    "pattern": null
+   }
+  ],
+  "C017": [
+   {
+    "name": "Financial Enmeshment",
+    "single_no": "T043",
+    "via": "reverse_index",
+    "pattern": null
+   },
+   {
+    "name": "Isolation",
+    "single_no": "T186",
+    "via": "reverse_index",
+    "pattern": null
+   },
+   {
+    "name": "Resource Sabotage",
+    "single_no": "T217",
+    "via": "exact_name",
+    "pattern": null
+   },
+   {
+    "name": "Golden Bars",
+    "single_no": "T042",
+    "via": "reverse_index",
+    "pattern": null
+   },
+   {
+    "name": "Financial Dependence by Design",
+    "single_no": "T044",
+    "via": "reverse_index",
+    "pattern": null
+   },
+   {
+    "name": "Information Control",
+    "single_no": null,
+    "via": "playbook_pattern",
+    "pattern": {
+     "name": "Information Control",
+     "url": "/playbook/information-control"
+    }
+   },
+   {
+    "name": "Health Sabotage",
+    "single_no": "T325",
+    "via": "reverse_index",
+    "pattern": null
+   }
+  ],
+  "C018": [
+   {
+    "name": "Financial Enmeshment",
+    "single_no": "T043",
+    "via": "reverse_index",
+    "pattern": null
+   },
+   {
+    "name": "Financial Dependence by Design",
+    "single_no": "T044",
+    "via": "reverse_index",
+    "pattern": null
+   },
+   {
+    "name": "Sunk Cost Exploitation",
+    "single_no": "T037",
+    "via": "reverse_index",
+    "pattern": null
+   },
+   {
+    "name": "Obligation Contracts",
+    "single_no": "T041",
+    "via": "reverse_index",
+    "pattern": null
+   },
+   {
+    "name": "Guilt Legacy",
+    "single_no": "T330",
+    "via": "reverse_index",
+    "pattern": null
+   },
+   {
+    "name": "Process Exhaustion",
+    "single_no": "T214",
+    "via": "reverse_index",
+    "pattern": null
+   }
+  ],
+  "C019": [
+   {
+    "name": "Forced Teaming",
+    "single_no": "T004",
+    "via": "reverse_index",
+    "pattern": null
+   },
+   {
+    "name": "We're Family\" Erasure",
+    "single_no": "T017",
+    "via": "exact_name",
+    "pattern": null
+   },
+   {
+    "name": "Guilt Legacy",
+    "single_no": "T330",
+    "via": "reverse_index",
+    "pattern": null
+   },
+   {
+    "name": "Obligation Contracts",
+    "single_no": "T041",
+    "via": "reverse_index",
+    "pattern": null
+   },
+   {
+    "name": "Conditional Love",
+    "single_no": "T100",
+    "via": "reverse_index",
+    "pattern": null
+   },
+   {
+    "name": "Punishment of Disloyalty",
+    "single_no": "T064",
+    "via": "exact_name",
+    "pattern": null
+   }
+  ],
+  "C020": [
+   {
+    "name": "Guilt-Tripping",
+    "single_no": "T211",
+    "via": "reverse_index",
+    "pattern": null
+   },
+   {
+    "name": "Obligation Hooks",
+    "single_no": "T034",
+    "via": "reverse_index",
+    "pattern": null
+   },
+   {
+    "name": "Martyrdom Display",
+    "single_no": "T049",
+    "via": "reverse_index",
+    "pattern": null
+   },
+   {
+    "name": "Emotional Hostage-Taking",
+    "single_no": "T261",
+    "via": "reverse_index",
+    "pattern": null
+   },
+   {
+    "name": "FOG",
+    "single_no": null,
+    "via": "playbook_pattern",
+    "pattern": {
+     "name": "FOG (Fear, Obligation, Guilt)",
+     "url": "/playbook/fog"
+    }
+   },
+   {
+    "name": "Duty Scripts",
+    "single_no": "T036",
+    "via": "reverse_index",
+    "pattern": null
+   }
+  ],
+  "C021": [
+   {
+    "name": "Identity Hooking",
+    "single_no": "T029",
+    "via": "reverse_index",
+    "pattern": null
+   },
+   {
+    "name": "Labeling",
+    "single_no": "T080",
+    "via": "exact_name",
+    "pattern": null
+   },
+   {
+    "name": "You've Changed",
+    "single_no": "T106",
+    "via": "exact_name",
+    "pattern": null
+   },
+   {
+    "name": "Social Identity Threat",
+    "single_no": "T029",
+    "via": "reverse_index",
+    "pattern": null
+   },
+   {
+    "name": "Conditional Love",
+    "single_no": "T100",
+    "via": "reverse_index",
+    "pattern": null
+   },
+   {
+    "name": "Isolation",
+    "single_no": "T186",
+    "via": "reverse_index",
+    "pattern": null
+   }
+  ],
+  "C022": [
+   {
+    "name": "Sunk Cost Exploitation",
+    "single_no": "T037",
+    "via": "reverse_index",
+    "pattern": null
+   },
+   {
+    "name": "Commitment Traps",
+    "single_no": "T031",
+    "via": "exact_name",
+    "pattern": null
+   },
+   {
+    "name": "Future Faking",
+    "single_no": "T028",
+    "via": "reverse_index",
+    "pattern": null
+   },
+   {
+    "name": "Moving Goalposts",
+    "single_no": "T082",
+    "via": "reverse_index",
+    "pattern": null
+   },
+   {
+    "name": "FOG",
+    "single_no": null,
+    "via": "playbook_pattern",
+    "pattern": {
+     "name": "FOG (Fear, Obligation, Guilt)",
+     "url": "/playbook/fog"
+    }
+   },
+   {
+    "name": "Learned Helplessness",
+    "single_no": null,
+    "via": "playbook_pattern",
+    "pattern": {
+     "name": "Learned Helplessness Installation",
+     "url": "/playbook/learned-helplessness"
+    }
+   }
+  ],
+  "C023": [
+   {
+    "name": "Isolation",
+    "single_no": "T186",
+    "via": "reverse_index",
+    "pattern": null
+   },
+   {
+    "name": "Reputation Poisoning",
+    "single_no": "T188",
+    "via": "exact_name",
+    "pattern": null
+   },
+   {
+    "name": "Smear Campaign",
+    "single_no": "T188",
+    "via": "exact_name",
+    "pattern": null
+   },
+   {
+    "name": "Triangulation",
+    "single_no": "T187",
+    "via": "reverse_index",
+    "pattern": null
+   },
+   {
+    "name": "FOG",
+    "single_no": null,
+    "via": "playbook_pattern",
+    "pattern": {
+     "name": "FOG (Fear, Obligation, Guilt)",
+     "url": "/playbook/fog"
+    }
+   },
+   {
+    "name": "Hoovering",
+    "single_no": "T040",
+    "via": "exact_name",
+    "pattern": null
+   }
+  ],
+  "C024": [
+   {
+    "name": "Emotional Hostage-Taking",
+    "single_no": "T261",
+    "via": "reverse_index",
+    "pattern": null
+   },
+   {
+    "name": "Threats of Harm",
+    "single_no": "T253",
+    "via": "exact_name",
+    "pattern": null
+   },
+   {
+    "name": "FOG",
+    "single_no": null,
+    "via": "playbook_pattern",
+    "pattern": {
+     "name": "FOG (Fear, Obligation, Guilt)",
+     "url": "/playbook/fog"
+    }
+   },
+   {
+    "name": "Guilt-Tripping",
+    "single_no": "T211",
+    "via": "reverse_index",
+    "pattern": null
+   },
+   {
+    "name": "Conditional Safety",
+    "single_no": "T252",
+    "via": "exact_name",
+    "pattern": null
+   },
+   {
+    "name": "Obligation Contracts",
+    "single_no": "T041",
+    "via": "reverse_index",
+    "pattern": null
+   }
+  ],
+  "C025": [
+   {
+    "name": "Intermittent Reinforcement",
+    "single_no": "T078",
+    "via": "exact_name",
+    "pattern": null
+   },
+   {
+    "name": "Negative Reinforcement Traps",
+    "single_no": "T232",
+    "via": "reverse_index",
+    "pattern": null
+   },
+   {
+    "name": "Relief Bait",
+    "single_no": "T040",
+    "via": "exact_name",
+    "pattern": null
+   },
+   {
+    "name": "Conditional Love",
+    "single_no": "T100",
+    "via": "reverse_index",
+    "pattern": null
+   },
+   {
+    "name": "Withholding",
+    "single_no": "T081",
+    "via": "exact_name",
+    "pattern": null
+   }
+  ],
+  "C026": [
+   {
+    "name": "Enforcing Trivial Demands",
+    "single_no": "T265",
+    "via": "reverse_index",
+    "pattern": null
+   },
+   {
+    "name": "Behavior Control",
+    "single_no": null,
+    "via": "playbook_pattern",
+    "pattern": {
+     "name": "Behavior Control",
+     "url": "/playbook/behavior-control"
+    }
+   },
+   {
+    "name": "Overcorrection Demands",
+    "single_no": "T258",
+    "via": "reverse_index",
+    "pattern": null
+   },
+   {
+    "name": "Punishment of Boundaries",
+    "single_no": "T099",
+    "via": "reverse_index",
+    "pattern": null
+   },
+   {
+    "name": "Negative Reinforcement Traps",
+    "single_no": "T232",
+    "via": "reverse_index",
+    "pattern": null
+   },
+   {
+    "name": "Group Consolidation",
+    "single_no": null,
+    "via": "playbook_pattern",
+    "pattern": {
+     "name": "Group Consolidation / Chilling Effect",
+     "url": "/playbook/group-consolidation"
+    }
+   }
+  ],
+  "C027": [
+   {
+    "name": "Ambient Abuse",
+    "single_no": "T135",
+    "via": "exact_name",
+    "pattern": null
+   },
+   {
+    "name": "Intermittent Reinforcement",
+    "single_no": "T078",
+    "via": "exact_name",
+    "pattern": null
+   },
+   {
+    "name": "Baiting",
+    "single_no": "T083",
+    "via": "reverse_index",
+    "pattern": null
+   },
+   {
+    "name": "Punishment of Boundaries",
+    "single_no": "T099",
+    "via": "reverse_index",
+    "pattern": null
+   },
+   {
+    "name": "Push-Pull",
+    "single_no": "T078",
+    "via": "exact_name",
+    "pattern": null
+   },
+   {
+    "name": "Dr. Jekyll/Mr. Hyde",
+    "single_no": "T012",
+    "via": "alias_map",
+    "pattern": null
+   }
+  ],
+  "C028": [
+   {
+    "name": "Boundary Testing",
+    "single_no": "T047",
+    "via": "reverse_index",
+    "pattern": null
+   },
+   {
+    "name": "Normalization",
+    "single_no": "T131",
+    "via": "exact_name",
+    "pattern": null
+   },
+   {
+    "name": "Minimization",
+    "single_no": "T094",
+    "via": "reverse_index",
+    "pattern": null
+   },
+   {
+    "name": "Commitment Traps",
+    "single_no": "T031",
+    "via": "exact_name",
+    "pattern": null
+   },
+   {
+    "name": "Sunk Cost Exploitation",
+    "single_no": "T037",
+    "via": "reverse_index",
+    "pattern": null
+   },
+   {
+    "name": "Ambient Abuse",
+    "single_no": "T135",
+    "via": "exact_name",
+    "pattern": null
+   }
+  ],
+  "C029": [
+   {
+    "name": "Punishment of Boundaries",
+    "single_no": "T099",
+    "via": "reverse_index",
+    "pattern": null
+   },
+   {
+    "name": "Group Consolidation",
+    "single_no": null,
+    "via": "playbook_pattern",
+    "pattern": {
+     "name": "Group Consolidation / Chilling Effect",
+     "url": "/playbook/group-consolidation"
+    }
+   },
+   {
+    "name": "Pre-Punishment",
+    "single_no": null,
+    "via": "playbook_pattern",
+    "pattern": {
+     "name": "Pre-Punishment",
+     "url": "/playbook/pre-punishment"
+    }
+   },
+   {
+    "name": "Ambient Abuse",
+    "single_no": "T135",
+    "via": "exact_name",
+    "pattern": null
+   },
+   {
+    "name": "Baiting",
+    "single_no": "T083",
+    "via": "reverse_index",
+    "pattern": null
+   },
+   {
+    "name": "Tone Policing",
+    "single_no": "T084",
+    "via": "reverse_index",
+    "pattern": null
+   },
+   {
+    "name": "Extinction Bursts",
+    "single_no": "T231",
+    "via": "reverse_index",
+    "pattern": null
+   }
+  ],
+  "C030": [
+   {
+    "name": "Double Binds",
+    "single_no": "T087",
+    "via": "reverse_index",
+    "pattern": null
+   },
+   {
+    "name": "Moving Goalposts",
+    "single_no": "T082",
+    "via": "reverse_index",
+    "pattern": null
+   },
+   {
+    "name": "Impossible Metrics",
+    "single_no": "T097",
+    "via": "reverse_index",
+    "pattern": null
+   },
+   {
+    "name": "Shame Installation",
+    "single_no": "T079",
+    "via": "reverse_index",
+    "pattern": null
+   },
+   {
+    "name": "Overcorrection Demands",
+    "single_no": "T258",
+    "via": "reverse_index",
+    "pattern": null
+   },
+   {
+    "name": "Conditional Love",
+    "single_no": "T100",
+    "via": "reverse_index",
+    "pattern": null
+   }
+  ],
+  "C031": [
+   {
+    "name": "Impossible Metrics",
+    "single_no": "T097",
+    "via": "reverse_index",
+    "pattern": null
+   },
+   {
+    "name": "Moving Goalposts",
+    "single_no": "T082",
+    "via": "reverse_index",
+    "pattern": null
+   },
+   {
+    "name": "Double Binds",
+    "single_no": "T087",
+    "via": "reverse_index",
+    "pattern": null
+   },
+   {
+    "name": "Scapegoating",
+    "single_no": "T098",
+    "via": "reverse_index",
+    "pattern": null
+   },
+   {
+    "name": "Credit Theft",
+    "single_no": "T095",
+    "via": "reverse_index",
+    "pattern": null
+   },
+   {
+    "name": "Shame Installation",
+    "single_no": "T079",
+    "via": "reverse_index",
+    "pattern": null
+   },
+   {
+    "name": "Malicious Compliance",
+    "single_no": "T134",
+    "via": "reverse_index",
+    "pattern": null
+   }
+  ],
+  "C032": [
+   {
+    "name": "Manufactured Urgency",
+    "single_no": "T032",
+    "via": "reverse_index",
+    "pattern": null
+   },
+   {
+    "name": "False Dilemma",
+    "single_no": "T128",
+    "via": "reverse_index",
+    "pattern": null
+   },
+   {
+    "name": "Duty Scripts",
+    "single_no": "T036",
+    "via": "reverse_index",
+    "pattern": null
+   },
+   {
+    "name": "Baiting",
+    "single_no": "T083",
+    "via": "reverse_index",
+    "pattern": null
+   },
+   {
+    "name": "Enforcing Trivial Demands",
+    "single_no": "T265",
+    "via": "reverse_index",
+    "pattern": null
+   },
+   {
+    "name": "Conditional Love",
+    "single_no": "T100",
+    "via": "reverse_index",
+    "pattern": null
+   },
+   {
+    "name": "Punishment of Boundaries",
+    "single_no": "T099",
+    "via": "reverse_index",
+    "pattern": null
+   }
+  ],
+  "C033": [
+   {
+    "name": "Conditional Love",
+    "single_no": "T100",
+    "via": "reverse_index",
+    "pattern": null
+   },
+   {
+    "name": "Intermittent Reinforcement",
+    "single_no": "T078",
+    "via": "exact_name",
+    "pattern": null
+   },
+   {
+    "name": "Pedestal Ploy",
+    "single_no": "T007",
+    "via": "exact_name",
+    "pattern": null
+   },
+   {
+    "name": "Negging",
+    "single_no": "T088",
+    "via": "reverse_index",
+    "pattern": null
+   },
+   {
+    "name": "Shame Installation",
+    "single_no": "T079",
+    "via": "reverse_index",
+    "pattern": null
+   },
+   {
+    "name": "Identity Hooking",
+    "single_no": "T029",
+    "via": "reverse_index",
+    "pattern": null
+   }
+  ],
+  "C034": [
+   {
+    "name": "Future Faking",
+    "single_no": "T028",
+    "via": "reverse_index",
+    "pattern": null
+   },
+   {
+    "name": "Sunk Cost Exploitation",
+    "single_no": "T037",
+    "via": "reverse_index",
+    "pattern": null
+   },
+   {
+    "name": "Bread-crumbing",
+    "single_no": "T046",
+    "via": "reverse_index",
+    "pattern": null
+   },
+   {
+    "name": "Intermittent Reinforcement",
+    "single_no": "T078",
+    "via": "exact_name",
+    "pattern": null
+   },
+   {
+    "name": "Conditional Love",
+    "single_no": "T100",
+    "via": "reverse_index",
+    "pattern": null
+   },
+   {
+    "name": "Manufactured Scarcity",
+    "single_no": "T033",
+    "via": "reverse_index",
+    "pattern": null
+   },
+   {
+    "name": "Moving Goalposts",
+    "single_no": "T082",
+    "via": "reverse_index",
+    "pattern": null
+   }
+  ],
+  "C035": [
+   {
+    "name": "Ritualized Exhaustion",
+    "single_no": "T210",
+    "via": "reverse_index",
+    "pattern": null
+   },
+   {
+    "name": "Impossible Metrics",
+    "single_no": "T097",
+    "via": "reverse_index",
+    "pattern": null
+   },
+   {
+    "name": "Moving Goalposts",
+    "single_no": "T082",
+    "via": "reverse_index",
+    "pattern": null
+   },
+   {
+    "name": "Duty Scripts",
+    "single_no": "T036",
+    "via": "reverse_index",
+    "pattern": null
+   },
+   {
+    "name": "Guilt-Tripping",
+    "single_no": "T211",
+    "via": "reverse_index",
+    "pattern": null
+   },
+   {
+    "name": "Performance Extraction",
+    "single_no": "T286",
+    "via": "exact_name",
+    "pattern": null
+   },
+   {
+    "name": "Strategic Chaos",
+    "single_no": "T234",
+    "via": "exact_name",
+    "pattern": null
+   }
+  ],
+  "C036": [
+   {
+    "name": "Behavior Control",
+    "single_no": null,
+    "via": "playbook_pattern",
+    "pattern": {
+     "name": "Behavior Control",
+     "url": "/playbook/behavior-control"
+    }
+   },
+   {
+    "name": "Enforcing Trivial Demands",
+    "single_no": "T265",
+    "via": "reverse_index",
+    "pattern": null
+   },
+   {
+    "name": "Negative Reinforcement Traps",
+    "single_no": "T232",
+    "via": "reverse_index",
+    "pattern": null
+   },
+   {
+    "name": "Intermittent Reinforcement",
+    "single_no": "T078",
+    "via": "exact_name",
+    "pattern": null
+   },
+   {
+    "name": "Conditional Love",
+    "single_no": "T100",
+    "via": "reverse_index",
+    "pattern": null
+   },
+   {
+    "name": "Group Consolidation",
+    "single_no": null,
+    "via": "playbook_pattern",
+    "pattern": {
+     "name": "Group Consolidation / Chilling Effect",
+     "url": "/playbook/group-consolidation"
+    }
+   },
+   {
+    "name": "Punishment of Boundaries",
+    "single_no": "T099",
+    "via": "reverse_index",
+    "pattern": null
+   },
+   {
+    "name": "Demonstrating Omnipotence",
+    "single_no": "T250",
+    "via": "exact_name",
+    "pattern": null
+   }
+  ],
+  "C038": [
+   {
+    "name": "Foot-in-the-Door",
+    "single_no": "T031",
+    "via": "exact_name",
+    "pattern": null
+   },
+   {
+    "name": "Graduated Compliance",
+    "single_no": "T031",
+    "via": "exact_name",
+    "pattern": null
+   },
+   {
+    "name": "Reward/Punishment Cycling",
+    "single_no": null,
+    "via": "playbook_pattern",
+    "pattern": {
+     "name": "Behavioral Conditioning",
+     "url": "/playbook/the-good-woman-program"
+    }
+   },
+   {
+    "name": "Normalization",
+    "single_no": "T131",
+    "via": "exact_name",
+    "pattern": null
+   },
+   {
+    "name": "Authority Worship",
+    "single_no": "T067",
+    "via": "reverse_index",
+    "pattern": null
+   },
+   {
+    "name": "Learned Compliance",
+    "single_no": null,
+    "via": "playbook_pattern",
+    "pattern": {
+     "name": "Internalized Conditioning",
+     "url": "/playbook/internalized-conditioning"
+    }
+   }
+  ],
+  "C039": [
+   {
+    "name": "Token Economy",
+    "single_no": null,
+    "via": "playbook_pattern",
+    "pattern": {
+     "name": "Behavioral Conditioning",
+     "url": "/playbook/the-good-woman-program"
+    }
+   },
+   {
+    "name": "Intermittent Reinforcement",
+    "single_no": "T078",
+    "via": "exact_name",
+    "pattern": null
+   },
+   {
+    "name": "Variable Ratio Reinforcement",
+    "single_no": "T078",
+    "via": "exact_name",
+    "pattern": null
+   },
+   {
+    "name": "Conditional Worth",
+    "single_no": "T100",
+    "via": "exact_name",
+    "pattern": null
+   },
+   {
+    "name": "Moving Goalposts",
+    "single_no": "T082",
+    "via": "reverse_index",
+    "pattern": null
+   },
+   {
+    "name": "Performance Addiction",
+    "single_no": null,
+    "via": "playbook_pattern",
+    "pattern": {
+     "name": "Approval Addiction Cultivation",
+     "url": "/playbook/approval-addiction-cultivation"
+    }
+   },
+   {
+    "name": "Identity Hooking",
+    "single_no": "T029",
+    "via": "reverse_index",
+    "pattern": null
+   }
+  ],
+  "C040": [
+   {
+    "name": "Gradual Escalation",
+    "single_no": "T031",
+    "via": "exact_name",
+    "pattern": null
+   },
+   {
+    "name": "Repetition as Truth",
+    "single_no": "T158",
+    "via": "reverse_index",
+    "pattern": null
+   },
+   {
+    "name": "Social Proof",
+    "single_no": "T130",
+    "via": "exact_name",
+    "pattern": null
+   },
+   {
+    "name": "That's Just How It Is",
+    "single_no": "T136",
+    "via": "exact_name",
+    "pattern": null
+   },
+   {
+    "name": "Anchoring",
+    "single_no": "T052",
+    "via": "reverse_index",
+    "pattern": null
+   },
+   {
+    "name": "Gaslighting",
+    "single_no": null,
+    "via": "playbook_pattern",
+    "pattern": {
+     "name": "Gaslighting",
+     "url": "/playbook/gaslighting"
+    }
+   },
+   {
+    "name": "Window Shifting",
+    "single_no": "T131",
+    "via": "exact_name",
+    "pattern": null
+   }
+  ],
+  "C041": [
+   {
+    "name": "Punishment of Voice",
+    "single_no": "T099",
+    "via": "exact_name",
+    "pattern": null
+   },
+   {
+    "name": "Public Shaming",
+    "single_no": "T307",
+    "via": "exact_name",
+    "pattern": null
+   },
+   {
+    "name": "Reward of Compliance",
+    "single_no": null,
+    "via": "playbook_pattern",
+    "pattern": {
+     "name": "Behavioral Conditioning",
+     "url": "/playbook/the-good-woman-program"
+    }
+   },
+   {
+    "name": "Social Proof",
+    "single_no": "T130",
+    "via": "exact_name",
+    "pattern": null
+   },
+   {
+    "name": "Fear Installation",
+    "single_no": "T248",
+    "via": "reverse_index",
+    "pattern": null
+   },
+   {
+    "name": "Self-Censorship",
+    "single_no": null,
+    "via": "playbook_pattern",
+    "pattern": {
+     "name": "Silence Installation",
+     "url": "/playbook/silence-installation"
+    }
+   },
+   {
+    "name": "Chilling Effect",
+    "single_no": null,
+    "via": "playbook_pattern",
+    "pattern": {
+     "name": "Group Consolidation / Chilling Effect",
+     "url": "/playbook/group-consolidation"
+    }
+   }
+  ],
+  "C042": [
+   {
+    "name": "Arbitrary Authority",
+    "single_no": "T277",
+    "via": "reverse_index",
+    "pattern": null
+   },
+   {
+    "name": "Uncontrollable Outcomes",
+    "single_no": "T277",
+    "via": "reverse_index",
+    "pattern": null
+   },
+   {
+    "name": "Process Exhaustion",
+    "single_no": "T214",
+    "via": "reverse_index",
+    "pattern": null
+   },
+   {
+    "name": "Gaslighting",
+    "single_no": null,
+    "via": "playbook_pattern",
+    "pattern": {
+     "name": "Gaslighting",
+     "url": "/playbook/gaslighting"
+    }
+   },
+   {
+    "name": "Minimization",
+    "single_no": "T094",
+    "via": "reverse_index",
+    "pattern": null
+   },
+   {
+    "name": "Learned Helplessness",
+    "single_no": null,
+    "via": "playbook_pattern",
+    "pattern": {
+     "name": "Learned Helplessness Installation",
+     "url": "/playbook/learned-helplessness"
+    }
+   },
+   {
+    "name": "Apathy Installation",
+    "single_no": null,
+    "via": "playbook_pattern",
+    "pattern": {
+     "name": "Learned Helplessness Installation",
+     "url": "/playbook/learned-helplessness"
+    }
+   }
+  ],
+  "C043": [
+   {
+    "name": "Impossible Standards",
+    "single_no": "T097",
+    "via": "exact_name",
+    "pattern": null
+   },
+   {
+    "name": "Conditional Worth",
+    "single_no": "T100",
+    "via": "exact_name",
+    "pattern": null
+   },
+   {
+    "name": "Comparative Devaluation",
+    "single_no": "T089",
+    "via": "reverse_index",
+    "pattern": null
+   },
+   {
+    "name": "Moving Goalposts",
+    "single_no": "T082",
+    "via": "reverse_index",
+    "pattern": null
+   },
+   {
+    "name": "Shame Cycling",
+    "single_no": "T079",
+    "via": "exact_name",
+    "pattern": null
+   },
+   {
+    "name": "Internalized Critic",
+    "single_no": null,
+    "via": "playbook_pattern",
+    "pattern": {
+     "name": "Internalized Conditioning",
+     "url": "/playbook/internalized-conditioning"
+    }
+   },
+   {
+    "name": "Performance Addiction",
+    "single_no": null,
+    "via": "playbook_pattern",
+    "pattern": {
+     "name": "Approval Addiction Cultivation",
+     "url": "/playbook/approval-addiction-cultivation"
+    }
+   }
+  ],
+  "C044": [
+   {
+    "name": "Foot-in-the-Door",
+    "single_no": "T031",
+    "via": "exact_name",
+    "pattern": null
+   },
+   {
+    "name": "Authority Worship",
+    "single_no": "T067",
+    "via": "reverse_index",
+    "pattern": null
+   },
+   {
+    "name": "Graduated Compliance",
+    "single_no": "T031",
+    "via": "exact_name",
+    "pattern": null
+   },
+   {
+    "name": "Diffusion of Responsibility",
+    "single_no": "T144",
+    "via": "reverse_index",
+    "pattern": null
+   },
+   {
+    "name": "Moral Disengagement",
+    "single_no": "T178",
+    "via": "reverse_index",
+    "pattern": null
+   },
+   {
+    "name": "Normalization",
+    "single_no": "T131",
+    "via": "exact_name",
+    "pattern": null
+   },
+   {
+    "name": "Just Following Orders",
+    "single_no": "T144",
+    "via": "reverse_index",
+    "pattern": null
+   }
+  ],
+  "C045": [
+   {
+    "name": "Gaslighting",
+    "single_no": null,
+    "via": "playbook_pattern",
+    "pattern": {
+     "name": "Gaslighting",
+     "url": "/playbook/gaslighting"
+    }
+   },
+   {
+    "name": "Revisionist History",
+    "single_no": "T157",
+    "via": "reverse_index",
+    "pattern": null
+   },
+   {
+    "name": "Minimization",
+    "single_no": "T094",
+    "via": "reverse_index",
+    "pattern": null
+   },
+   {
+    "name": "DARVO",
+    "single_no": null,
+    "via": "playbook_pattern",
+    "pattern": {
+     "name": "DARVO (Deny, Attack, Reverse Victim & Offender)",
+     "url": "/playbook/darvo"
+    }
+   },
+   {
+    "name": "Plausible Deniability",
+    "single_no": "T190",
+    "via": "reverse_index",
+    "pattern": null
+   },
+   {
+    "name": "Repetition as Truth",
+    "single_no": "T158",
+    "via": "reverse_index",
+    "pattern": null
+   }
+  ],
+  "C046": [
+   {
+    "name": "Revisionist History",
+    "single_no": "T157",
+    "via": "reverse_index",
+    "pattern": null
+   },
+   {
+    "name": "Repetition as Truth",
+    "single_no": "T158",
+    "via": "reverse_index",
+    "pattern": null
+   },
+   {
+    "name": "Social Proof",
+    "single_no": "T130",
+    "via": "exact_name",
+    "pattern": null
+   },
+   {
+    "name": "Information Control",
+    "single_no": null,
+    "via": "playbook_pattern",
+    "pattern": {
+     "name": "Information Control",
+     "url": "/playbook/information-control"
+    }
+   },
+   {
+    "name": "Gaslighting",
+    "single_no": null,
+    "via": "playbook_pattern",
+    "pattern": {
+     "name": "Gaslighting",
+     "url": "/playbook/gaslighting"
+    }
+   },
+   {
+    "name": "Memory Flooding",
+    "single_no": "T152",
+    "via": "exact_name",
+    "pattern": null
+   }
+  ],
+  "C047": [
+   {
+    "name": "Word Salad",
+    "single_no": "T121",
+    "via": "reverse_index",
+    "pattern": null
+   },
+   {
+    "name": "Circular Logic",
+    "single_no": "T169",
+    "via": "exact_name",
+    "pattern": null
+   },
+   {
+    "name": "Strategic Ambiguity",
+    "single_no": "T193",
+    "via": "exact_name",
+    "pattern": null
+   },
+   {
+    "name": "Cognitive Overload",
+    "single_no": "T142",
+    "via": "reverse_index",
+    "pattern": null
+   },
+   {
+    "name": "Moving Goalposts",
+    "single_no": "T082",
+    "via": "reverse_index",
+    "pattern": null
+   },
+   {
+    "name": "Topic Switching",
+    "single_no": "T120",
+    "via": "exact_name",
+    "pattern": null
+   }
+  ],
+  "C048": [
+   {
+    "name": "Revisionist History",
+    "single_no": "T157",
+    "via": "reverse_index",
+    "pattern": null
+   },
+   {
+    "name": "Information Control",
+    "single_no": null,
+    "via": "playbook_pattern",
+    "pattern": {
+     "name": "Information Control",
+     "url": "/playbook/information-control"
+    }
+   },
+   {
+    "name": "Social Proof",
+    "single_no": "T130",
+    "via": "exact_name",
+    "pattern": null
+   },
+   {
+    "name": "Gaslighting",
+    "single_no": null,
+    "via": "playbook_pattern",
+    "pattern": {
+     "name": "Gaslighting",
+     "url": "/playbook/gaslighting"
+    }
+   },
+   {
+    "name": "Document Destruction",
+    "single_no": "T316",
+    "via": "exact_name",
+    "pattern": null
+   },
+   {
+    "name": "Repetition as Truth",
+    "single_no": "T158",
+    "via": "reverse_index",
+    "pattern": null
+   }
+  ],
+  "C049": [
+   {
+    "name": "False Framing",
+    "single_no": "T112",
+    "via": "exact_name",
+    "pattern": null
+   },
+   {
+    "name": "Smear Campaign",
+    "single_no": "T188",
+    "via": "exact_name",
+    "pattern": null
+   },
+   {
+    "name": "Reputation Poisoning",
+    "single_no": "T188",
+    "via": "exact_name",
+    "pattern": null
+   },
+   {
+    "name": "Social Proof",
+    "single_no": "T130",
+    "via": "exact_name",
+    "pattern": null
+   },
+   {
+    "name": "Gaslighting",
+    "single_no": null,
+    "via": "playbook_pattern",
+    "pattern": {
+     "name": "Gaslighting",
+     "url": "/playbook/gaslighting"
+    }
+   },
+   {
+    "name": "Repetition as Truth",
+    "single_no": "T158",
+    "via": "reverse_index",
+    "pattern": null
+   },
+   {
+    "name": "Information Control",
+    "single_no": null,
+    "via": "playbook_pattern",
+    "pattern": {
+     "name": "Information Control",
+     "url": "/playbook/information-control"
+    }
+   }
+  ],
+  "C050": [
+   {
+    "name": "Double Binds",
+    "single_no": "T087",
+    "via": "reverse_index",
+    "pattern": null
+   },
+   {
+    "name": "Moving Goalposts",
+    "single_no": "T082",
+    "via": "reverse_index",
+    "pattern": null
+   },
+   {
+    "name": "Gaslighting",
+    "single_no": null,
+    "via": "playbook_pattern",
+    "pattern": {
+     "name": "Gaslighting",
+     "url": "/playbook/gaslighting"
+    }
+   },
+   {
+    "name": "Shame Installation",
+    "single_no": "T079",
+    "via": "reverse_index",
+    "pattern": null
+   },
+   {
+    "name": "DARVO",
+    "single_no": null,
+    "via": "playbook_pattern",
+    "pattern": {
+     "name": "DARVO (Deny, Attack, Reverse Victim & Offender)",
+     "url": "/playbook/darvo"
+    }
+   },
+   {
+    "name": "Conditional Love",
+    "single_no": "T100",
+    "via": "reverse_index",
+    "pattern": null
+   }
+  ],
+  "C051": [
+   {
+    "name": "Anchoring",
+    "single_no": "T052",
+    "via": "reverse_index",
+    "pattern": null
+   },
+   {
+    "name": "False Framing",
+    "single_no": "T112",
+    "via": "exact_name",
+    "pattern": null
+   },
+   {
+    "name": "Selective Disclosure",
+    "single_no": "T161",
+    "via": "exact_name",
+    "pattern": null
+   },
+   {
+    "name": "Information Control",
+    "single_no": null,
+    "via": "playbook_pattern",
+    "pattern": {
+     "name": "Information Control",
+     "url": "/playbook/information-control"
+    }
+   },
+   {
+    "name": "Repetition as Truth",
+    "single_no": "T158",
+    "via": "reverse_index",
+    "pattern": null
+   },
+   {
+    "name": "Social Proof",
+    "single_no": "T130",
+    "via": "exact_name",
+    "pattern": null
+   },
+   {
+    "name": "Priming",
+    "single_no": "T139",
+    "via": "exact_name",
+    "pattern": null
+   }
+  ],
+  "C052": [
+   {
+    "name": "Strategic Ambiguity",
+    "single_no": "T193",
+    "via": "exact_name",
+    "pattern": null
+   },
+   {
+    "name": "Redefining Terms",
+    "single_no": "T155",
+    "via": "exact_name",
+    "pattern": null
+   },
+   {
+    "name": "False Framing",
+    "single_no": "T112",
+    "via": "exact_name",
+    "pattern": null
+   },
+   {
+    "name": "Repetition as Truth",
+    "single_no": "T158",
+    "via": "reverse_index",
+    "pattern": null
+   },
+   {
+    "name": "Social Proof",
+    "single_no": "T130",
+    "via": "exact_name",
+    "pattern": null
+   },
+   {
+    "name": "Information Control",
+    "single_no": null,
+    "via": "playbook_pattern",
+    "pattern": {
+     "name": "Information Control",
+     "url": "/playbook/information-control"
+    }
+   }
+  ],
+  "C054": [
+   {
+    "name": "DARVO",
+    "single_no": null,
+    "via": "playbook_pattern",
+    "pattern": {
+     "name": "DARVO (Deny, Attack, Reverse Victim & Offender)",
+     "url": "/playbook/darvo"
+    }
+   },
+   {
+    "name": "Preemptive Documentation",
+    "single_no": "T212",
+    "via": "exact_name",
+    "pattern": null
+   },
+   {
+    "name": "Tone Policing",
+    "single_no": "T084",
+    "via": "reverse_index",
+    "pattern": null
+   },
+   {
+    "name": "Diagnostic Deflection",
+    "single_no": "T118",
+    "via": "exact_name",
+    "pattern": null
+   },
+   {
+    "name": "Source Poisoning",
+    "single_no": "T113",
+    "via": "exact_name",
+    "pattern": null
+   },
+   {
+    "name": "Record Inversion",
+    "single_no": "T157",
+    "via": "exact_name",
+    "pattern": null
+   }
+  ],
+  "C055": [
+   {
+    "name": "Performative Reception",
+    "single_no": "T025",
+    "via": "reverse_index",
+    "pattern": null
+   },
+   {
+    "name": "Strategic Delay",
+    "single_no": "T291",
+    "via": "reverse_index",
+    "pattern": null
+   },
+   {
+    "name": "Investigative Inversion",
+    "single_no": null,
+    "via": "unresolved",
+    "pattern": null
+   },
+   {
+    "name": "Opacity Shield",
+    "single_no": "T216",
+    "via": "exact_name",
+    "pattern": null
+   },
+   {
+    "name": "Visible Non-Consequence",
+    "single_no": "T319",
+    "via": "exact_name",
+    "pattern": null
+   },
+   {
+    "name": "Retroactive Repositioning",
+    "single_no": "T180",
+    "via": "exact_name",
+    "pattern": null
+   }
+  ],
+  "C056": [
+   {
+    "name": "Sympathetic Intake",
+    "single_no": "T025",
+    "via": "exact_name",
+    "pattern": null
+   },
+   {
+    "name": "Authority Displacement",
+    "single_no": "T144",
+    "via": "exact_name",
+    "pattern": null
+   },
+   {
+    "name": "Procedural Embedding",
+    "single_no": "T214",
+    "via": "exact_name",
+    "pattern": null
+   },
+   {
+    "name": "Timeline Exploitation",
+    "single_no": "T291",
+    "via": "exact_name",
+    "pattern": null
+   },
+   {
+    "name": "Accountability Diffusion",
+    "single_no": "T144",
+    "via": "exact_name",
+    "pattern": null
+   },
+   {
+    "name": "Exhaustion Yield",
+    "single_no": "T214",
+    "via": "exact_name",
+    "pattern": null
+   }
+  ],
+  "C057": [
+   {
+    "name": "Trigger Identification",
+    "single_no": null,
+    "via": "unresolved",
+    "pattern": null
+   },
+   {
+    "name": "Retroactive Recharacterization",
+    "single_no": "T157",
+    "via": "exact_name",
+    "pattern": null
+   },
+   {
+    "name": "Pattern Seeding",
+    "single_no": "T212",
+    "via": "exact_name",
+    "pattern": null
+   },
+   {
+    "name": "Asymmetric Curation",
+    "single_no": "T212",
+    "via": "exact_name",
+    "pattern": null
+   },
+   {
+    "name": "Access Delay",
+    "single_no": "T291",
+    "via": "exact_name",
+    "pattern": null
+   },
+   {
+    "name": "Institutional Citation",
+    "single_no": "T212",
+    "via": "exact_name",
+    "pattern": null
+   }
+  ],
+  "C058": [
+   {
+    "name": "Procedural Legitimation",
+    "single_no": "T025",
+    "via": "exact_name",
+    "pattern": null
+   },
+   {
+    "name": "Form Gatekeeping",
+    "single_no": "T214",
+    "via": "exact_name",
+    "pattern": null
+   },
+   {
+    "name": "Jurisdictional Displacement",
+    "single_no": "T144",
+    "via": "exact_name",
+    "pattern": null
+   },
+   {
+    "name": "Documentation Extraction",
+    "single_no": "T214",
+    "via": "exact_name",
+    "pattern": null
+   },
+   {
+    "name": "Capacity Dilution",
+    "single_no": "T293",
+    "via": "exact_name",
+    "pattern": null
+   },
+   {
+    "name": "Unilateral Resolution",
+    "single_no": "T313",
+    "via": "exact_name",
+    "pattern": null
+   }
+  ],
+  "C059": [
+   {
+    "name": "Mission Framing",
+    "single_no": "T048",
+    "via": "exact_name",
+    "pattern": null
+   },
+   {
+    "name": "Verbal Authorization",
+    "single_no": "T069",
+    "via": "exact_name",
+    "pattern": null
+   },
+   {
+    "name": "Visibility Inversion",
+    "single_no": "T206",
+    "via": "exact_name",
+    "pattern": null
+   },
+   {
+    "name": "Pressure Accumulation",
+    "single_no": "T195",
+    "via": "exact_name",
+    "pattern": null
+   },
+   {
+    "name": "Narrative Severance",
+    "single_no": "T190",
+    "via": "exact_name",
+    "pattern": null
+   },
+   {
+    "name": "Sacrificial Repositioning",
+    "single_no": "T098",
+    "via": "exact_name",
+    "pattern": null
+   }
+  ],
+  "C060": [
+   {
+    "name": "Dutiful Reporting",
+    "single_no": "T213",
+    "via": "exact_name",
+    "pattern": null
+   },
+   {
+    "name": "Legal Authority Transfer",
+    "single_no": "T287",
+    "via": "exact_name",
+    "pattern": null
+   },
+   {
+    "name": "Confidentiality Weaponization",
+    "single_no": "T216",
+    "via": "exact_name",
+    "pattern": null
+   },
+   {
+    "name": "Access Severance",
+    "single_no": null,
+    "via": "playbook_pattern",
+    "pattern": {
+     "name": "Information Control",
+     "url": "/playbook/information-control"
+    }
+   },
+   {
+    "name": "Quiet Resolution",
+    "single_no": "T313",
+    "via": "exact_name",
+    "pattern": null
+   },
+   {
+    "name": "Permanent Silencing",
+    "single_no": "T242",
+    "via": "exact_name",
+    "pattern": null
+   }
+  ],
+  "C061": [
+   {
+    "name": "Responsive Velocity",
+    "single_no": "T025",
+    "via": "exact_name",
+    "pattern": null
+   },
+   {
+    "name": "Values Broadcasting",
+    "single_no": "T172",
+    "via": "reverse_index",
+    "pattern": null
+   },
+   {
+    "name": "Abstraction Escalation",
+    "single_no": "T172",
+    "via": "reverse_index",
+    "pattern": null
+   },
+   {
+    "name": "Agent Erasure",
+    "single_no": "T173",
+    "via": "reverse_index",
+    "pattern": null
+   },
+   {
+    "name": "Victim Redirection",
+    "single_no": "T203",
+    "via": "exact_name",
+    "pattern": null
+   },
+   {
+    "name": "Resolution Without Acknowledgment",
+    "single_no": "T313",
+    "via": "exact_name",
+    "pattern": null
+   }
+  ],
+  "C062": [
+   {
+    "name": "Incident Identification Without Individual Accountability",
+    "single_no": "T281",
+    "via": "exact_name",
+    "pattern": null
+   },
+   {
+    "name": "Collective Consequence",
+    "single_no": "T281",
+    "via": "exact_name",
+    "pattern": null
+   },
+   {
+    "name": "Peer Pressure Weaponization",
+    "single_no": "T189",
+    "via": "exact_name",
+    "pattern": null
+   },
+   {
+    "name": "Moral Reframing",
+    "single_no": "T227",
+    "via": "exact_name",
+    "pattern": null
+   },
+   {
+    "name": "Silence Installation",
+    "single_no": null,
+    "via": "playbook_pattern",
+    "pattern": {
+     "name": "Silence Installation",
+     "url": "/playbook/silence-installation"
+    }
+   },
+   {
+    "name": "Retroactive Justification",
+    "single_no": "T180",
+    "via": "reverse_index",
+    "pattern": null
+   }
+  ],
+  "C063": [
+   {
+    "name": "Internal Exhaustion Prerequisite",
+    "single_no": "T214",
+    "via": "exact_name",
+    "pattern": null
+   },
+   {
+    "name": "External Trigger Escalation",
+    "single_no": null,
+    "via": "unresolved",
+    "pattern": null
+   },
+   {
+    "name": "Surveillance Activation",
+    "single_no": null,
+    "via": "unresolved",
+    "pattern": null
+   },
+   {
+    "name": "Phantom Complaint Injection",
+    "single_no": "T221",
+    "via": "exact_name",
+    "pattern": null
+   },
+   {
+    "name": "Professional Degradation",
+    "single_no": "T218",
+    "via": "exact_name",
+    "pattern": null
+   },
+   {
+    "name": "Geographic Displacement",
+    "single_no": "T315",
+    "via": "exact_name",
+    "pattern": null
+   }
+  ],
+  "C064": [
+   {
+    "name": "Delayed Recognition Architecture",
+    "single_no": null,
+    "via": "unresolved",
+    "pattern": null
+   },
+   {
+    "name": "Institutional Intake Performance",
+    "single_no": "T025",
+    "via": "exact_name",
+    "pattern": null
+   },
+   {
+    "name": "Legal Gatekeeping",
+    "single_no": "T197",
+    "via": "exact_name",
+    "pattern": null
+   },
+   {
+    "name": "Obligation Erasure",
+    "single_no": "T287",
+    "via": "exact_name",
+    "pattern": null
+   },
+   {
+    "name": "Responsibility Displacement",
+    "single_no": "T144",
+    "via": "exact_name",
+    "pattern": null
+   },
+   {
+    "name": "Active Danger Preservation",
+    "single_no": "T145",
+    "via": "exact_name",
+    "pattern": null
+   }
+  ],
+  "C065": [
+   {
+    "name": "Conflict Reframing",
+    "single_no": "T123",
+    "via": "exact_name",
+    "pattern": null
+   },
+   {
+    "name": "Procedural Symmetry",
+    "single_no": "T123",
+    "via": "exact_name",
+    "pattern": null
+   },
+   {
+    "name": "Mutual Agreement Fabrication",
+    "single_no": "T270",
+    "via": "exact_name",
+    "pattern": null
+   },
+   {
+    "name": "File Equalization",
+    "single_no": "T123",
+    "via": "exact_name",
+    "pattern": null
+   },
+   {
+    "name": "Privacy Weaponization",
+    "single_no": "T216",
+    "via": "exact_name",
+    "pattern": null
+   },
+   {
+    "name": "Closure Manufacture",
+    "single_no": "T313",
+    "via": "exact_name",
+    "pattern": null
+   }
+  ],
+  "C066": [
+   {
+    "name": "Systemic Neglect Documentation",
+    "single_no": "T145",
+    "via": "exact_name",
+    "pattern": null
+   },
+   {
+    "name": "Crisis-Triggered Repair",
+    "single_no": "T249",
+    "via": "exact_name",
+    "pattern": null
+   },
+   {
+    "name": "Reputational Threat Conversion",
+    "single_no": "T115",
+    "via": "exact_name",
+    "pattern": null
+   },
+   {
+    "name": "Economic Coercion",
+    "single_no": "T228",
+    "via": "exact_name",
+    "pattern": null
+   },
+   {
+    "name": "Consent Fabrication",
+    "single_no": "T270",
+    "via": "exact_name",
+    "pattern": null
+   },
+   {
+    "name": "Institutional Memory Erasure",
+    "single_no": "T316",
+    "via": "exact_name",
+    "pattern": null
+   }
+  ],
+  "C067": [
+   {
+    "name": "Values Misalignment Manufacturing",
+    "single_no": "T318",
+    "via": "exact_name",
+    "pattern": null
+   },
+   {
+    "name": "Binary Choice Construction",
+    "single_no": "T128",
+    "via": "exact_name",
+    "pattern": null
+   },
+   {
+    "name": "Positive Reference Leverage",
+    "single_no": "T314",
+    "via": "exact_name",
+    "pattern": null
+   },
+   {
+    "name": "Voluntary Narrative Installation",
+    "single_no": "T312",
+    "via": "exact_name",
+    "pattern": null
+   },
+   {
+    "name": "Community Confusion Exploitation",
+    "single_no": "T193",
+    "via": "exact_name",
+    "pattern": null
+   },
+   {
+    "name": "Legacy Erasure",
+    "single_no": "T205",
+    "via": "exact_name",
+    "pattern": null
+   }
+  ],
+  "C069": [
+   {
+    "name": "Campus-Level Containment",
+    "single_no": "T207",
+    "via": "exact_name",
+    "pattern": null
+   },
+   {
+    "name": "Case Closure Protocol",
+    "single_no": "T207",
+    "via": "exact_name",
+    "pattern": null
+   },
+   {
+    "name": "Cross-Campus Blindness",
+    "single_no": "T207",
+    "via": "exact_name",
+    "pattern": null
+   },
+   {
+    "name": "Aggregate Reporting Substitution",
+    "single_no": "T177",
+    "via": "exact_name",
+    "pattern": null
+   },
+   {
+    "name": "Policy Adequacy Defense",
+    "single_no": "T179",
+    "via": "exact_name",
+    "pattern": null
+   },
+   {
+    "name": "Accountability Fragmentation",
+    "single_no": "T144",
+    "via": "exact_name",
+    "pattern": null
+   }
+  ],
+  "C070": [
+   {
+    "name": "Pre-Decision Concealment",
+    "single_no": "T267",
+    "via": "exact_name",
+    "pattern": null
+   },
+   {
+    "name": "Expert Procurement",
+    "single_no": "T174",
+    "via": "exact_name",
+    "pattern": null
+   },
+   {
+    "name": "Process Performance",
+    "single_no": "T267",
+    "via": "exact_name",
+    "pattern": null
+   },
+   {
+    "name": "Credential Asymmetry Deployment",
+    "single_no": "T117",
+    "via": "exact_name",
+    "pattern": null
+   },
+   {
+    "name": "Language Laundering",
+    "single_no": "T176",
+    "via": "reverse_index",
+    "pattern": null
+   },
+   {
+    "name": "Democratic Validation",
+    "single_no": "T270",
+    "via": "exact_name",
+    "pattern": null
+   }
+  ],
+  "C071": [
+   {
+    "name": "DARVO",
+    "single_no": null,
+    "via": "playbook_pattern",
+    "pattern": {
+     "name": "DARVO (Deny, Attack, Reverse Victim & Offender)",
+     "url": "/playbook/darvo"
+    }
+   },
+   {
+    "name": "Role Reversal Traps",
+    "single_no": "T115",
+    "via": "reverse_index",
+    "pattern": null
+   },
+   {
+    "name": "Preemptive Accusation",
+    "single_no": "T119",
+    "via": "exact_name",
+    "pattern": null
+   },
+   {
+    "name": "Complaint Weaponization",
+    "single_no": "T119",
+    "via": "exact_name",
+    "pattern": null
+   },
+   {
+    "name": "Pity Plays",
+    "single_no": "T301",
+    "via": "reverse_index",
+    "pattern": null
+   },
+   {
+    "name": "Weaponized Tears",
+    "single_no": "T301",
+    "via": "reverse_index",
+    "pattern": null
+   },
+   {
+    "name": "Credibility Theft",
+    "single_no": "T113",
+    "via": "reverse_index",
+    "pattern": null
+   }
+  ],
+  "C073": [
+   {
+    "name": "Deflection",
+    "single_no": "T120",
+    "via": "reverse_index",
+    "pattern": null
+   },
+   {
+    "name": "Whataboutism",
+    "single_no": "T122",
+    "via": "reverse_index",
+    "pattern": null
+   },
+   {
+    "name": "Projection",
+    "single_no": "T114",
+    "via": "reverse_index",
+    "pattern": null
+   },
+   {
+    "name": "Contradiction Stacking",
+    "single_no": "T125",
+    "via": "reverse_index",
+    "pattern": null
+   },
+   {
+    "name": "Non-Apology Apology",
+    "single_no": "T124",
+    "via": "exact_name",
+    "pattern": null
+   },
+   {
+    "name": "Role Reversal Traps",
+    "single_no": "T115",
+    "via": "reverse_index",
+    "pattern": null
+   },
+   {
+    "name": "Burden of Proof Shifting",
+    "single_no": "T151",
+    "via": "exact_name",
+    "pattern": null
+   },
+   {
+    "name": "Diffusion of Responsibility",
+    "single_no": "T144",
+    "via": "reverse_index",
+    "pattern": null
+   }
+  ],
+  "C074": [
+   {
+    "name": "Diffusion of Responsibility",
+    "single_no": "T144",
+    "via": "reverse_index",
+    "pattern": null
+   },
+   {
+    "name": "Plausible Deniability",
+    "single_no": "T190",
+    "via": "reverse_index",
+    "pattern": null
+   },
+   {
+    "name": "Process Exhaustion",
+    "single_no": "T214",
+    "via": "reverse_index",
+    "pattern": null
+   },
+   {
+    "name": "HR Shielding",
+    "single_no": "T213",
+    "via": "reverse_index",
+    "pattern": null
+   },
+   {
+    "name": "Confidentiality as Weapon",
+    "single_no": "T216",
+    "via": "reverse_index",
+    "pattern": null
+   },
+   {
+    "name": "Pseudo-Consultation",
+    "single_no": "T267",
+    "via": "reverse_index",
+    "pattern": null
+   },
+   {
+    "name": "Paper-Trail Traps",
+    "single_no": "T212",
+    "via": "reverse_index",
+    "pattern": null
+   }
+  ],
+  "C075": [
+   {
+    "name": "Concern Trolling",
+    "single_no": "T254",
+    "via": "exact_name",
+    "pattern": null
+   },
+   {
+    "name": "Plausible Deniability",
+    "single_no": "T190",
+    "via": "reverse_index",
+    "pattern": null
+   },
+   {
+    "name": "Tone Policing",
+    "single_no": "T084",
+    "via": "reverse_index",
+    "pattern": null
+   },
+   {
+    "name": "Shame-as-Governance Disguised as Advice",
+    "single_no": "T254",
+    "via": "exact_name",
+    "pattern": null
+   },
+   {
+    "name": "Performative Public Affection",
+    "single_no": "T012",
+    "via": "exact_name",
+    "pattern": null
+   }
+  ],
+  "C077": [
+   {
+    "name": "Counterfeit Calm",
+    "single_no": "T132",
+    "via": "reverse_index",
+    "pattern": null
+   },
+   {
+    "name": "Plausible Deniability",
+    "single_no": "T190",
+    "via": "reverse_index",
+    "pattern": null
+   },
+   {
+    "name": "Performative Public Affection",
+    "single_no": "T012",
+    "via": "exact_name",
+    "pattern": null
+   },
+   {
+    "name": "Concern Masking",
+    "single_no": "T254",
+    "via": "exact_name",
+    "pattern": null
+   },
+   {
+    "name": "Clinical Tone Policing",
+    "single_no": "T084",
+    "via": "exact_name",
+    "pattern": null
+   },
+   {
+    "name": "Shame-as-Governance Disguised as Advice",
+    "single_no": "T254",
+    "via": "exact_name",
+    "pattern": null
+   }
+  ],
+  "C078": [
+   {
+    "name": "Ambient Abuse",
+    "single_no": "T135",
+    "via": "exact_name",
+    "pattern": null
+   },
+   {
+    "name": "Plausible Deniability",
+    "single_no": "T190",
+    "via": "reverse_index",
+    "pattern": null
+   },
+   {
+    "name": "Counterfeit Calm",
+    "single_no": "T132",
+    "via": "reverse_index",
+    "pattern": null
+   },
+   {
+    "name": "Legal/Administrative Threats",
+    "single_no": "T220",
+    "via": "alias_map",
+    "pattern": null
+   },
+   {
+    "name": "Demonstrating Omnipotence",
+    "single_no": "T250",
+    "via": "exact_name",
+    "pattern": null
+   },
+   {
+    "name": "Ambiguity as Weapon",
+    "single_no": "T193",
+    "via": "exact_name",
+    "pattern": null
+   }
+  ],
+  "C079": [
+   {
+    "name": "Trigger Cataloging",
+    "single_no": null,
+    "via": "unresolved",
+    "pattern": null
+   },
+   {
+    "name": "Silent Coalition Building",
+    "single_no": "T192",
+    "via": "exact_name",
+    "pattern": null
+   },
+   {
+    "name": "Access Removal",
+    "single_no": "T191",
+    "via": "exact_name",
+    "pattern": null
+   },
+   {
+    "name": "Narrative Injection",
+    "single_no": "T139",
+    "via": "exact_name",
+    "pattern": null
+   },
+   {
+    "name": "Ambient Exclusion",
+    "single_no": "T192",
+    "via": "exact_name",
+    "pattern": null
+   },
+   {
+    "name": "Self-Exile Completion",
+    "single_no": "T219",
+    "via": "exact_name",
+    "pattern": null
+   }
+  ],
+  "C080": [
+   {
+    "name": "Strategic Timing",
+    "single_no": "T292",
+    "via": "reverse_index",
+    "pattern": null
+   },
+   {
+    "name": "Untraceable Seeding",
+    "single_no": "T188",
+    "via": "exact_name",
+    "pattern": null
+   },
+   {
+    "name": "Institutional Contamination",
+    "single_no": "T139",
+    "via": "exact_name",
+    "pattern": null
+   },
+   {
+    "name": "Narrative Mutation",
+    "single_no": null,
+    "via": "playbook_pattern",
+    "pattern": {
+     "name": "Information Cascades",
+     "url": "/playbook/information-cascades"
+    }
+   },
+   {
+    "name": "Social Proof Amplification",
+    "single_no": "T130",
+    "via": "exact_name",
+    "pattern": null
+   },
+   {
+    "name": "Strategic Dissolution",
+    "single_no": "T190",
+    "via": "exact_name",
+    "pattern": null
+   }
+  ],
+  "C081": [
+   {
+    "name": "Complaint Leaking",
+    "single_no": "T165",
+    "via": "exact_name",
+    "pattern": null
+   },
+   {
+    "name": "Proxy Recruitment",
+    "single_no": "T189",
+    "via": "exact_name",
+    "pattern": null
+   },
+   {
+    "name": "Social Pressure Layering",
+    "single_no": "T130",
+    "via": "exact_name",
+    "pattern": null
+   },
+   {
+    "name": "Plausible Deniability",
+    "single_no": "T190",
+    "via": "reverse_index",
+    "pattern": null
+   },
+   {
+    "name": "Community Reframing",
+    "single_no": "T112",
+    "via": "exact_name",
+    "pattern": null
+   },
+   {
+    "name": "Withdrawal Pressure",
+    "single_no": "T253",
+    "via": "exact_name",
+    "pattern": null
+   }
+  ],
+  "C082": [
+   {
+    "name": "Moment Extraction",
+    "single_no": "T327",
+    "via": "exact_name",
+    "pattern": null
+   },
+   {
+    "name": "Context Elimination",
+    "single_no": "T327",
+    "via": "exact_name",
+    "pattern": null
+   },
+   {
+    "name": "Platform Amplification",
+    "single_no": null,
+    "via": "playbook_pattern",
+    "pattern": {
+     "name": "Information Cascades",
+     "url": "/playbook/information-cascades"
+    }
+   },
+   {
+    "name": "Petition Legitimation",
+    "single_no": "T130",
+    "via": "exact_name",
+    "pattern": null
+   },
+   {
+    "name": "Institutional Paralysis",
+    "single_no": null,
+    "via": "playbook_pattern",
+    "pattern": {
+     "name": "Institutional Betrayal",
+     "url": "/playbook/institutional-betrayal"
+    }
+   },
+   {
+    "name": "Permanent Digital Residue",
+    "single_no": "T317",
+    "via": "exact_name",
+    "pattern": null
+   }
+  ],
+  "C083": [
+   {
+    "name": "Authority Presentation",
+    "single_no": "T175",
+    "via": "exact_name",
+    "pattern": null
+   },
+   {
+    "name": "Early Endorsement Seeding",
+    "single_no": "T130",
+    "via": "exact_name",
+    "pattern": null
+   },
+   {
+    "name": "Silence Harvesting",
+    "single_no": "T270",
+    "via": "exact_name",
+    "pattern": null
+   },
+   {
+    "name": "Pluralistic Ignorance Installation",
+    "single_no": "T130",
+    "via": "exact_name",
+    "pattern": null
+   },
+   {
+    "name": "Compliance Cascade",
+    "single_no": null,
+    "via": "playbook_pattern",
+    "pattern": {
+     "name": "Information Cascades",
+     "url": "/playbook/information-cascades"
+    }
+   },
+   {
+    "name": "Retroactive Justification",
+    "single_no": "T180",
+    "via": "reverse_index",
+    "pattern": null
+   }
+  ],
+  "C084": [
+   {
+    "name": "Confidential Disclosure Seeding",
+    "single_no": "T200",
+    "via": "exact_name",
+    "pattern": null
+   },
+   {
+    "name": "Selective Truth Weaponization",
+    "single_no": "T161",
+    "via": "exact_name",
+    "pattern": null
+   },
+   {
+    "name": "Defensive Withdrawal Induction",
+    "single_no": "T199",
+    "via": "exact_name",
+    "pattern": null
+   },
+   {
+    "name": "Mirror Operation",
+    "single_no": "T187",
+    "via": "exact_name",
+    "pattern": null
+   },
+   {
+    "name": "Central Positioning",
+    "single_no": "T187",
+    "via": "exact_name",
+    "pattern": null
+   },
+   {
+    "name": "Dependency Installation",
+    "single_no": "T241",
+    "via": "exact_name",
+    "pattern": null
+   }
+  ],
+  "C085": [
+   {
+    "name": "Public Identification",
+    "single_no": "T307",
+    "via": "exact_name",
+    "pattern": null
+   },
+   {
+    "name": "Moral Framing",
+    "single_no": "T227",
+    "via": "reverse_index",
+    "pattern": null
+   },
+   {
+    "name": "Audience Activation",
+    "single_no": "T195",
+    "via": "exact_name",
+    "pattern": null
+   },
+   {
+    "name": "Social License Generation",
+    "single_no": null,
+    "via": "playbook_pattern",
+    "pattern": {
+     "name": "Group Consolidation / Chilling Effect",
+     "url": "/playbook/group-consolidation"
+    }
+   },
+   {
+    "name": "Correction Invisibility",
+    "single_no": "T317",
+    "via": "exact_name",
+    "pattern": null
+   },
+   {
+    "name": "Internalized Surveillance",
+    "single_no": null,
+    "via": "unresolved",
+    "pattern": null
+   }
+  ],
+  "C086": [
+   {
+    "name": "Target Selection",
+    "single_no": "T026",
+    "via": "reverse_index",
+    "pattern": null
+   },
+   {
+    "name": "Exclusive Access",
+    "single_no": "T009",
+    "via": "exact_name",
+    "pattern": null
+   },
+   {
+    "name": "Information Asymmetry",
+    "single_no": null,
+    "via": "playbook_pattern",
+    "pattern": {
+     "name": "Information Control",
+     "url": "/playbook/information-control"
+    }
+   },
+   {
+    "name": "Confidentiality Binding",
+    "single_no": "T216",
+    "via": "exact_name",
+    "pattern": null
+   },
+   {
+    "name": "Reentry Disruption",
+    "single_no": "T199",
+    "via": "exact_name",
+    "pattern": null
+   },
+   {
+    "name": "Momentum Collapse",
+    "single_no": "T199",
+    "via": "exact_name",
+    "pattern": null
+   }
+  ],
+  "C087": [
+   {
+    "name": "Vulnerability Identification",
+    "single_no": "T022",
+    "via": "exact_name",
+    "pattern": null
+   },
+   {
+    "name": "Social Elevation",
+    "single_no": "T007",
+    "via": "exact_name",
+    "pattern": null
+   },
+   {
+    "name": "Reciprocity Activation",
+    "single_no": "T035",
+    "via": "exact_name",
+    "pattern": null
+   },
+   {
+    "name": "Escalation Testing",
+    "single_no": "T031",
+    "via": "exact_name",
+    "pattern": null
+   },
+   {
+    "name": "Social Debt Invocation",
+    "single_no": "T034",
+    "via": "exact_name",
+    "pattern": null
+   },
+   {
+    "name": "Revocation Threat",
+    "single_no": "T252",
+    "via": "exact_name",
+    "pattern": null
+   }
+  ],
+  "C088": [
+   {
+    "name": "Smear Campaigns",
+    "single_no": "T188",
+    "via": "reverse_index",
+    "pattern": null
+   },
+   {
+    "name": "Credibility Theft",
+    "single_no": "T113",
+    "via": "reverse_index",
+    "pattern": null
+   },
+   {
+    "name": "Labeling as Identity Warfare",
+    "single_no": "T080",
+    "via": "reverse_index",
+    "pattern": null
+   },
+   {
+    "name": "Reputation Laundering",
+    "single_no": "T158",
+    "via": "exact_name",
+    "pattern": null
+   },
+   {
+    "name": "Information Cascades",
+    "single_no": null,
+    "via": "playbook_pattern",
+    "pattern": {
+     "name": "Information Cascades",
+     "url": "/playbook/information-cascades"
+    }
+   },
+   {
+    "name": "Priming",
+    "single_no": "T139",
+    "via": "exact_name",
+    "pattern": null
+   }
+  ],
+  "C089": [
+   {
+    "name": "Ostracism",
+    "single_no": "T191",
+    "via": "reverse_index",
+    "pattern": null
+   },
+   {
+    "name": "Smear Campaigns",
+    "single_no": "T188",
+    "via": "reverse_index",
+    "pattern": null
+   },
+   {
+    "name": "Silent Coalitions",
+    "single_no": "T192",
+    "via": "reverse_index",
+    "pattern": null
+   },
+   {
+    "name": "Reputation Warfare",
+    "single_no": "T188",
+    "via": "reverse_index",
+    "pattern": null
+   },
+   {
+    "name": "Information Cascades",
+    "single_no": null,
+    "via": "playbook_pattern",
+    "pattern": {
+     "name": "Information Cascades",
+     "url": "/playbook/information-cascades"
+    }
+   },
+   {
+    "name": "Doxxing",
+    "single_no": "T328",
+    "via": "reverse_index",
+    "pattern": null
+   },
+   {
+    "name": "Context Collapse",
+    "single_no": "T327",
+    "via": "reverse_index",
+    "pattern": null
+   },
+   {
+    "name": "Group Consolidation",
+    "single_no": null,
+    "via": "playbook_pattern",
+    "pattern": {
+     "name": "Group Consolidation / Chilling Effect",
+     "url": "/playbook/group-consolidation"
+    }
+   }
+  ],
+  "C090": [
+   {
+    "name": "Triangulation",
+    "single_no": "T187",
+    "via": "reverse_index",
+    "pattern": null
+   },
+   {
+    "name": "Smear Campaigns",
+    "single_no": "T188",
+    "via": "reverse_index",
+    "pattern": null
+   },
+   {
+    "name": "Information Control",
+    "single_no": null,
+    "via": "playbook_pattern",
+    "pattern": {
+     "name": "Information Control",
+     "url": "/playbook/information-control"
+    }
+   },
+   {
+    "name": "Splitting",
+    "single_no": "T133",
+    "via": "reverse_index",
+    "pattern": null
+   },
+   {
+    "name": "Priming",
+    "single_no": "T139",
+    "via": "exact_name",
+    "pattern": null
+   },
+   {
+    "name": "Comparative Devaluation",
+    "single_no": "T089",
+    "via": "reverse_index",
+    "pattern": null
+   },
+   {
+    "name": "Selective Information Sharing",
+    "single_no": "T200",
+    "via": "exact_name",
+    "pattern": null
+   }
+  ],
+  "C093": [
+   {
+    "name": "False Consensus",
+    "single_no": "T130",
+    "via": "exact_name",
+    "pattern": null
+   },
+   {
+    "name": "Social Proof Pressure",
+    "single_no": "T130",
+    "via": "exact_name",
+    "pattern": null
+   },
+   {
+    "name": "Information Cascades",
+    "single_no": null,
+    "via": "playbook_pattern",
+    "pattern": {
+     "name": "Information Cascades",
+     "url": "/playbook/information-cascades"
+    }
+   },
+   {
+    "name": "Sock Puppets",
+    "single_no": "T163",
+    "via": "exact_name",
+    "pattern": null
+   },
+   {
+    "name": "Coordinated Reporting",
+    "single_no": "T326",
+    "via": "reverse_index",
+    "pattern": null
+   },
+   {
+    "name": "Priming",
+    "single_no": "T139",
+    "via": "exact_name",
+    "pattern": null
+   },
+   {
+    "name": "Reputation Laundering",
+    "single_no": "T158",
+    "via": "exact_name",
+    "pattern": null
+   }
+  ],
+  "C094": [
+   {
+    "name": "Pile-Ons",
+    "single_no": "T195",
+    "via": "exact_name",
+    "pattern": null
+   },
+   {
+    "name": "Ostracism",
+    "single_no": "T191",
+    "via": "reverse_index",
+    "pattern": null
+   },
+   {
+    "name": "Silent Coalitions",
+    "single_no": "T192",
+    "via": "reverse_index",
+    "pattern": null
+   },
+   {
+    "name": "Smear Campaigns",
+    "single_no": "T188",
+    "via": "reverse_index",
+    "pattern": null
+   },
+   {
+    "name": "Group Consolidation",
+    "single_no": null,
+    "via": "playbook_pattern",
+    "pattern": {
+     "name": "Group Consolidation / Chilling Effect",
+     "url": "/playbook/group-consolidation"
+    }
+   },
+   {
+    "name": "Scapegoating",
+    "single_no": "T098",
+    "via": "reverse_index",
+    "pattern": null
+   },
+   {
+    "name": "Coordinated Reporting",
+    "single_no": "T326",
+    "via": "reverse_index",
+    "pattern": null
+   }
+  ],
+  "C096": [
+   {
+    "name": "Smear Campaigns",
+    "single_no": "T188",
+    "via": "reverse_index",
+    "pattern": null
+   },
+   {
+    "name": "Reputation Warfare",
+    "single_no": "T188",
+    "via": "reverse_index",
+    "pattern": null
+   },
+   {
+    "name": "Idealize-Devalue-Discard",
+    "single_no": null,
+    "via": "playbook_pattern",
+    "pattern": {
+     "name": "Idealize-Devalue-Discard Cycle",
+     "url": "/playbook/idealize-devalue-discard-cycle"
+    }
+   },
+   {
+    "name": "Love Bombing (Redirected)",
+    "single_no": null,
+    "via": "unresolved",
+    "pattern": null
+   },
+   {
+    "name": "The Exception Script (Recycled)",
+    "single_no": "T007",
+    "via": "exact_name",
+    "pattern": null
+   },
+   {
+    "name": "Comparative Devaluation",
+    "single_no": "T089",
+    "via": "reverse_index",
+    "pattern": null
+   }
+  ],
+  "C098": [
+   {
+    "name": "Decontextualized Measurement",
+    "single_no": "T177",
+    "via": "exact_name",
+    "pattern": null
+   },
+   {
+    "name": "Visual Simplification",
+    "single_no": "T177",
+    "via": "exact_name",
+    "pattern": null
+   },
+   {
+    "name": "Comparison Architecture",
+    "single_no": "T089",
+    "via": "exact_name",
+    "pattern": null
+   },
+   {
+    "name": "Resource Consequence",
+    "single_no": "T217",
+    "via": "exact_name",
+    "pattern": null
+   },
+   {
+    "name": "Narrative Capture",
+    "single_no": "T237",
+    "via": "exact_name",
+    "pattern": null
+   },
+   {
+    "name": "Self-Fulfilling Degradation",
+    "single_no": "T181",
+    "via": "exact_name",
+    "pattern": null
+   }
+  ],
+  "C101": [
+   {
+    "name": "Communication Chain Restriction",
+    "single_no": "T246",
+    "via": "exact_name",
+    "pattern": null
+   },
+   {
+    "name": "Access Gatekeeping",
+    "single_no": "T197",
+    "via": "exact_name",
+    "pattern": null
+   },
+   {
+    "name": "Challenge Suppression",
+    "single_no": "T242",
+    "via": "exact_name",
+    "pattern": null
+   },
+   {
+    "name": "Role Confinement",
+    "single_no": "T240",
+    "via": "exact_name",
+    "pattern": null
+   },
+   {
+    "name": "Internalization",
+    "single_no": null,
+    "via": "playbook_pattern",
+    "pattern": {
+     "name": "Internalized Conditioning",
+     "url": "/playbook/internalized-conditioning"
+    }
+   },
+   {
+    "name": "Firewall Function",
+    "single_no": "T213",
+    "via": "exact_name",
+    "pattern": null
+   }
+  ],
+  "C102": [
+   {
+    "name": "Structural Underfunding",
+    "single_no": "T293",
+    "via": "reverse_index",
+    "pattern": null
+   },
+   {
+    "name": "Gap Normalization",
+    "single_no": "T131",
+    "via": "exact_name",
+    "pattern": null
+   },
+   {
+    "name": "Personal Subsidy Extraction",
+    "single_no": "T286",
+    "via": "reverse_index",
+    "pattern": null
+   },
+   {
+    "name": "Labor Extraction",
+    "single_no": "T286",
+    "via": "reverse_index",
+    "pattern": null
+   },
+   {
+    "name": "Celebration Capture",
+    "single_no": "T279",
+    "via": "exact_name",
+    "pattern": null
+   },
+   {
+    "name": "Cycle Perpetuation",
+    "single_no": "T131",
+    "via": "exact_name",
+    "pattern": null
+   }
+  ],
+  "C105": [
+   {
+    "name": "Behavior Control",
+    "single_no": null,
+    "via": "playbook_pattern",
+    "pattern": {
+     "name": "Behavior Control",
+     "url": "/playbook/behavior-control"
+    }
+   },
+   {
+    "name": "Information Control",
+    "single_no": null,
+    "via": "playbook_pattern",
+    "pattern": {
+     "name": "Information Control",
+     "url": "/playbook/information-control"
+    }
+   },
+   {
+    "name": "Financial Control",
+    "single_no": "T228",
+    "via": "reverse_index",
+    "pattern": null
+   },
+   {
+    "name": "Isolation",
+    "single_no": "T186",
+    "via": "reverse_index",
+    "pattern": null
+   },
+   {
+    "name": "Location Tracking",
+    "single_no": "T222",
+    "via": "reverse_index",
+    "pattern": null
+   },
+   {
+    "name": "Device Access Demands",
+    "single_no": "T223",
+    "via": "reverse_index",
+    "pattern": null
+   },
+   {
+    "name": "Emotional Blackmail",
+    "single_no": "T252",
+    "via": "reverse_index",
+    "pattern": null
+   },
+   {
+    "name": "Ritualized Exhaustion",
+    "single_no": "T210",
+    "via": "reverse_index",
+    "pattern": null
+   },
+   {
+    "name": "Sexual Coercion",
+    "single_no": "T229",
+    "via": "reverse_index",
+    "pattern": null
+   }
+  ],
+  "C106": [
+   {
+    "name": "Process Exhaustion",
+    "single_no": "T214",
+    "via": "reverse_index",
+    "pattern": null
+   },
+   {
+    "name": "Paper Terrorism",
+    "single_no": "T214",
+    "via": "reverse_index",
+    "pattern": null
+   },
+   {
+    "name": "Administrative Escalation",
+    "single_no": "T218",
+    "via": "reverse_index",
+    "pattern": null
+   },
+   {
+    "name": "Legal/Administrative Threats",
+    "single_no": "T220",
+    "via": "alias_map",
+    "pattern": null
+   },
+   {
+    "name": "Confidentiality as Weapon",
+    "single_no": "T216",
+    "via": "reverse_index",
+    "pattern": null
+   },
+   {
+    "name": "Vague Allegations",
+    "single_no": "T215",
+    "via": "exact_name",
+    "pattern": null
+   },
+   {
+    "name": "Paper-Trail Traps",
+    "single_no": "T212",
+    "via": "reverse_index",
+    "pattern": null
+   },
+   {
+    "name": "Pseudo-Consultation",
+    "single_no": "T267",
+    "via": "reverse_index",
+    "pattern": null
+   }
+  ],
+  "C108": [
+   {
+    "name": "Credit Theft",
+    "single_no": "T095",
+    "via": "reverse_index",
+    "pattern": null
+   },
+   {
+    "name": "Scapegoating",
+    "single_no": "T098",
+    "via": "reverse_index",
+    "pattern": null
+   },
+   {
+    "name": "Smear Campaigns",
+    "single_no": "T188",
+    "via": "reverse_index",
+    "pattern": null
+   },
+   {
+    "name": "Managed Out Through Exhaustion",
+    "single_no": "T219",
+    "via": "alias_map",
+    "pattern": null
+   },
+   {
+    "name": "PIP Weaponization",
+    "single_no": "T218",
+    "via": "reverse_index",
+    "pattern": null
+   },
+   {
+    "name": "Reputation Warfare",
+    "single_no": "T188",
+    "via": "reverse_index",
+    "pattern": null
+   },
+   {
+    "name": "Administrative Escalation",
+    "single_no": "T218",
+    "via": "reverse_index",
+    "pattern": null
+   },
+   {
+    "name": "Labeling as Identity Warfare",
+    "single_no": "T080",
+    "via": "reverse_index",
+    "pattern": null
+   }
+  ],
+  "C109": [
+   {
+    "name": "Information Control",
+    "single_no": null,
+    "via": "playbook_pattern",
+    "pattern": {
+     "name": "Information Control",
+     "url": "/playbook/information-control"
+    }
+   },
+   {
+    "name": "False Authority",
+    "single_no": "T129",
+    "via": "reverse_index",
+    "pattern": null
+   },
+   {
+    "name": "Credential-Costuming",
+    "single_no": "T014",
+    "via": "reverse_index",
+    "pattern": null
+   },
+   {
+    "name": "Gaslighting by Omission",
+    "single_no": "T160",
+    "via": "exact_name",
+    "pattern": null
+   },
+   {
+    "name": "Strategic Incompleteness",
+    "single_no": "T160",
+    "via": "exact_name",
+    "pattern": null
+   },
+   {
+    "name": "Authority Hijack",
+    "single_no": "T117",
+    "via": "reverse_index",
+    "pattern": null
+   },
+   {
+    "name": "Sealioning",
+    "single_no": "T151",
+    "via": "exact_name",
+    "pattern": null
+   }
+  ],
+  "C111": [
+   {
+    "name": "Behavior Control",
+    "single_no": null,
+    "via": "playbook_pattern",
+    "pattern": {
+     "name": "Behavior Control",
+     "url": "/playbook/behavior-control"
+    }
+   },
+   {
+    "name": "Information Control",
+    "single_no": null,
+    "via": "playbook_pattern",
+    "pattern": {
+     "name": "Information Control",
+     "url": "/playbook/information-control"
+    }
+   },
+   {
+    "name": "Thought Control",
+    "single_no": null,
+    "via": "playbook_pattern",
+    "pattern": {
+     "name": "Thought Control",
+     "url": "/playbook/thought-control"
+    }
+   },
+   {
+    "name": "Emotion Control",
+    "single_no": null,
+    "via": "playbook_pattern",
+    "pattern": {
+     "name": "Emotion Control",
+     "url": "/playbook/emotion-control"
+    }
+   },
+   {
+    "name": "Ritualized Exhaustion",
+    "single_no": "T210",
+    "via": "reverse_index",
+    "pattern": null
+   },
+   {
+    "name": "We're Family\" Erasure",
+    "single_no": "T017",
+    "via": "exact_name",
+    "pattern": null
+   },
+   {
+    "name": "Financial Dependence by Design",
+    "single_no": "T044",
+    "via": "reverse_index",
+    "pattern": null
+   },
+   {
+    "name": "Isolation",
+    "single_no": "T186",
+    "via": "reverse_index",
+    "pattern": null
+   },
+   {
+    "name": "Phobia Indoctrination",
+    "single_no": "T233",
+    "via": "exact_name",
+    "pattern": null
+   },
+   {
+    "name": "Demonstrating Omnipotence",
+    "single_no": "T250",
+    "via": "exact_name",
+    "pattern": null
+   },
+   {
+    "name": "Enforcing Trivial Demands",
+    "single_no": "T265",
+    "via": "reverse_index",
+    "pattern": null
+   }
+  ],
+  "C112": [
+   {
+    "name": "Financial Dependence by Design",
+    "single_no": "T044",
+    "via": "reverse_index",
+    "pattern": null
+   },
+   {
+    "name": "Isolation",
+    "single_no": "T186",
+    "via": "reverse_index",
+    "pattern": null
+   },
+   {
+    "name": "Information Control",
+    "single_no": null,
+    "via": "playbook_pattern",
+    "pattern": {
+     "name": "Information Control",
+     "url": "/playbook/information-control"
+    }
+   },
+   {
+    "name": "Legal/Administrative Threats",
+    "single_no": "T220",
+    "via": "alias_map",
+    "pattern": null
+   },
+   {
+    "name": "Phobia Indoctrination",
+    "single_no": "T233",
+    "via": "exact_name",
+    "pattern": null
+   },
+   {
+    "name": "Golden Bars",
+    "single_no": "T042",
+    "via": "reverse_index",
+    "pattern": null
+   },
+   {
+    "name": "Process Exhaustion",
+    "single_no": "T214",
+    "via": "reverse_index",
+    "pattern": null
+   },
+   {
+    "name": "Diffusion of Responsibility",
+    "single_no": "T144",
+    "via": "reverse_index",
+    "pattern": null
+   }
+  ],
+  "C113": [
+   {
+    "name": "Paper-Trail Traps",
+    "single_no": "T212",
+    "via": "reverse_index",
+    "pattern": null
+   },
+   {
+    "name": "False Reports",
+    "single_no": "T221",
+    "via": "reverse_index",
+    "pattern": null
+   },
+   {
+    "name": "Complaint Weaponization",
+    "single_no": "T119",
+    "via": "exact_name",
+    "pattern": null
+   },
+   {
+    "name": "Preemptive Accusation",
+    "single_no": "T119",
+    "via": "exact_name",
+    "pattern": null
+   },
+   {
+    "name": "Priming",
+    "single_no": "T139",
+    "via": "exact_name",
+    "pattern": null
+   },
+   {
+    "name": "Selective Memory",
+    "single_no": "T149",
+    "via": "exact_name",
+    "pattern": null
+   },
+   {
+    "name": "Vague Allegations",
+    "single_no": "T215",
+    "via": "exact_name",
+    "pattern": null
+   }
+  ],
+  "C116": [
+   {
+    "name": "Location Tracking",
+    "single_no": "T222",
+    "via": "reverse_index",
+    "pattern": null
+   },
+   {
+    "name": "Stalking-by-Notification",
+    "single_no": "T250",
+    "via": "exact_name",
+    "pattern": null
+   },
+   {
+    "name": "Response-Time Policing",
+    "single_no": "T225",
+    "via": "reverse_index",
+    "pattern": null
+   },
+   {
+    "name": "Device Access Demands",
+    "single_no": "T223",
+    "via": "reverse_index",
+    "pattern": null
+   },
+   {
+    "name": "Demonstrating Omnipotence",
+    "single_no": "T250",
+    "via": "exact_name",
+    "pattern": null
+   }
+  ],
+  "C117": [
+   {
+    "name": "Doxxing",
+    "single_no": "T328",
+    "via": "reverse_index",
+    "pattern": null
+   },
+   {
+    "name": "Deepfake Video/Audio",
+    "single_no": "T329",
+    "via": "alias_map",
+    "pattern": null
+   },
+   {
+    "name": "AI Voice Cloning",
+    "single_no": "T333",
+    "via": "reverse_index",
+    "pattern": null
+   },
+   {
+    "name": "Forged Screenshots",
+    "single_no": "T329",
+    "via": "exact_name",
+    "pattern": null
+   },
+   {
+    "name": "Account Takeover",
+    "single_no": "T224",
+    "via": "exact_name",
+    "pattern": null
+   },
+   {
+    "name": "Intimate Image Abuse",
+    "single_no": "T334",
+    "via": "reverse_index",
+    "pattern": null
+   },
+   {
+    "name": "Reputation Laundering",
+    "single_no": "T158",
+    "via": "exact_name",
+    "pattern": null
+   },
+   {
+    "name": "Context Collapse",
+    "single_no": "T327",
+    "via": "reverse_index",
+    "pattern": null
+   },
+   {
+    "name": "Sock Puppets",
+    "single_no": "T163",
+    "via": "exact_name",
+    "pattern": null
+   }
+  ],
+  "C119": [
+   {
+    "name": "Smear Campaigns",
+    "single_no": "T188",
+    "via": "reverse_index",
+    "pattern": null
+   },
+   {
+    "name": "Sock Puppets",
+    "single_no": "T163",
+    "via": "exact_name",
+    "pattern": null
+   },
+   {
+    "name": "Coordinated Reporting",
+    "single_no": "T326",
+    "via": "reverse_index",
+    "pattern": null
+   },
+   {
+    "name": "Context Collapse",
+    "single_no": "T327",
+    "via": "reverse_index",
+    "pattern": null
+   },
+   {
+    "name": "Doxxing",
+    "single_no": "T328",
+    "via": "reverse_index",
+    "pattern": null
+   },
+   {
+    "name": "Reputation Laundering",
+    "single_no": "T158",
+    "via": "exact_name",
+    "pattern": null
+   },
+   {
+    "name": "Pile-Ons",
+    "single_no": "T195",
+    "via": "exact_name",
+    "pattern": null
+   },
+   {
+    "name": "Information Cascades",
+    "single_no": null,
+    "via": "playbook_pattern",
+    "pattern": {
+     "name": "Information Cascades",
+     "url": "/playbook/information-cascades"
+    }
+   },
+   {
+    "name": "Brigading",
+    "single_no": "T195",
+    "via": "exact_name",
+    "pattern": null
+   }
+  ],
+  "C120": [
+   {
+    "name": "Data Point Extraction",
+    "single_no": "T282",
+    "via": "exact_name",
+    "pattern": null
+   },
+   {
+    "name": "Algorithmic Profiling",
+    "single_no": "T058",
+    "via": "exact_name",
+    "pattern": null
+   },
+   {
+    "name": "Intervention Channeling",
+    "single_no": "T290",
+    "via": "exact_name",
+    "pattern": null
+   },
+   {
+    "name": "Confirmation Feedback Loop",
+    "single_no": "T181",
+    "via": "exact_name",
+    "pattern": null
+   },
+   {
+    "name": "Track Solidification",
+    "single_no": "T290",
+    "via": "exact_name",
+    "pattern": null
+   },
+   {
+    "name": "Demographic Patterning",
+    "single_no": "T058",
+    "via": "exact_name",
+    "pattern": null
+   }
+  ],
+  "C122": [
+   {
+    "name": "Variable Reward Scheduling",
+    "single_no": "T078",
+    "via": "exact_name",
+    "pattern": null
+   },
+   {
+    "name": "Streak Architecture",
+    "single_no": "T070",
+    "via": "exact_name",
+    "pattern": null
+   },
+   {
+    "name": "Progress Gamification",
+    "single_no": "T070",
+    "via": "exact_name",
+    "pattern": null
+   },
+   {
+    "name": "Intrinsic Motivation Displacement",
+    "single_no": "T289",
+    "via": "exact_name",
+    "pattern": null
+   },
+   {
+    "name": "Engagement-Learning Conflation",
+    "single_no": "T288",
+    "via": "exact_name",
+    "pattern": null
+   },
+   {
+    "name": "A/B Tested Behavioral Engineering",
+    "single_no": null,
+    "via": "playbook_pattern",
+    "pattern": {
+     "name": "Dark Patterns (AI-Adaptive)",
+     "url": "/playbook/dark-patterns-ai-adaptive"
+    }
+   }
+  ],
+  "C124": [
+   {
+    "name": "Free Adoption",
+    "single_no": "T010",
+    "via": "exact_name",
+    "pattern": null
+   },
+   {
+    "name": "Ecosystem Embedding",
+    "single_no": "T241",
+    "via": "exact_name",
+    "pattern": null
+   },
+   {
+    "name": "Data Accumulation",
+    "single_no": "T282",
+    "via": "exact_name",
+    "pattern": null
+   },
+   {
+    "name": "Switching Cost Inflation",
+    "single_no": null,
+    "via": "unresolved",
+    "pattern": null
+   },
+   {
+    "name": "Terms Modification",
+    "single_no": "T053",
+    "via": "exact_name",
+    "pattern": null
+   },
+   {
+    "name": "Institutional Dependency Normalization",
+    "single_no": "T131",
+    "via": "exact_name",
+    "pattern": null
+   }
+  ],
+  "C128": [
+   {
+    "name": "Positional Scoring",
+    "single_no": "T089",
+    "via": "exact_name",
+    "pattern": null
+   },
+   {
+    "name": "Real-Time Visibility",
+    "single_no": "T089",
+    "via": "exact_name",
+    "pattern": null
+   },
+   {
+    "name": "Averages as Benchmarks",
+    "single_no": "T089",
+    "via": "exact_name",
+    "pattern": null
+   },
+   {
+    "name": "Parental Amplification",
+    "single_no": "T189",
+    "via": "exact_name",
+    "pattern": null
+   },
+   {
+    "name": "Intrinsic-Extrinsic Displacement",
+    "single_no": "T289",
+    "via": "exact_name",
+    "pattern": null
+   },
+   {
+    "name": "Permanent Insufficiency Installation",
+    "single_no": null,
+    "via": "unresolved",
+    "pattern": null
+   }
+  ],
+  "C131": [
+   {
+    "name": "Identity Hooking",
+    "single_no": "T029",
+    "via": "reverse_index",
+    "pattern": null
+   },
+   {
+    "name": "Identity Erosion",
+    "single_no": null,
+    "via": "playbook_pattern",
+    "pattern": {
+     "name": "Identity Erosion",
+     "url": "/playbook/identity-erosion"
+    }
+   },
+   {
+    "name": "Labeling as Identity Warfare",
+    "single_no": "T080",
+    "via": "reverse_index",
+    "pattern": null
+   },
+   {
+    "name": "Shame Installation",
+    "single_no": "T079",
+    "via": "reverse_index",
+    "pattern": null
+   },
+   {
+    "name": "Dehumanization",
+    "single_no": "T102",
+    "via": "reverse_index",
+    "pattern": null
+   },
+   {
+    "name": "Internalized Conditioning",
+    "single_no": null,
+    "via": "playbook_pattern",
+    "pattern": {
+     "name": "Internalized Conditioning",
+     "url": "/playbook/internalized-conditioning"
+    }
+   }
+  ],
+  "C133": [
+   {
+    "name": "Credit Theft",
+    "single_no": "T095",
+    "via": "reverse_index",
+    "pattern": null
+   },
+   {
+    "name": "Infantilization",
+    "single_no": "T322",
+    "via": "reverse_index",
+    "pattern": null
+   },
+   {
+    "name": "Negging",
+    "single_no": "T088",
+    "via": "reverse_index",
+    "pattern": null
+   },
+   {
+    "name": "Weaponized Incompetence",
+    "single_no": "T093",
+    "via": "reverse_index",
+    "pattern": null
+   },
+   {
+    "name": "Sabotaging Success",
+    "single_no": "T217",
+    "via": "exact_name",
+    "pattern": null
+   },
+   {
+    "name": "Impossible Metrics",
+    "single_no": "T097",
+    "via": "reverse_index",
+    "pattern": null
+   },
+   {
+    "name": "Comparative Devaluation",
+    "single_no": "T089",
+    "via": "reverse_index",
+    "pattern": null
+   }
+  ],
+  "C135": [
+   {
+    "name": "Strategic Chaos/Crisis Manufacturing",
+    "single_no": "T234",
+    "via": "alias_map",
+    "pattern": null
+   },
+   {
+    "name": "Forced Teaming",
+    "single_no": "T004",
+    "via": "reverse_index",
+    "pattern": null
+   },
+   {
+    "name": "Trauma Bonding",
+    "single_no": null,
+    "via": "playbook_pattern",
+    "pattern": {
+     "name": "Trauma Bonding",
+     "url": "/playbook/trauma-bonding"
+    }
+   },
+   {
+    "name": "Emotional Flooding",
+    "single_no": "T008",
+    "via": "reverse_index",
+    "pattern": null
+   },
+   {
+    "name": "Isolation",
+    "single_no": "T186",
+    "via": "reverse_index",
+    "pattern": null
+   }
+  ],
+  "C139": [
+   {
+    "name": "Love Bombing",
+    "single_no": "T001",
+    "via": "reverse_index",
+    "pattern": null
+   },
+   {
+    "name": "Identity Hooking",
+    "single_no": "T029",
+    "via": "reverse_index",
+    "pattern": null
+   },
+   {
+    "name": "Isolation",
+    "single_no": "T186",
+    "via": "reverse_index",
+    "pattern": null
+   },
+   {
+    "name": "Thought Control",
+    "single_no": null,
+    "via": "playbook_pattern",
+    "pattern": {
+     "name": "Thought Control",
+     "url": "/playbook/thought-control"
+    }
+   },
+   {
+    "name": "Loaded Language",
+    "single_no": "T137",
+    "via": "reverse_index",
+    "pattern": null
+   },
+   {
+    "name": "Phobia Indoctrination",
+    "single_no": "T233",
+    "via": "exact_name",
+    "pattern": null
+   },
+   {
+    "name": "Shame Installation",
+    "single_no": "T079",
+    "via": "reverse_index",
+    "pattern": null
+   },
+   {
+    "name": "Conditional Love",
+    "single_no": "T100",
+    "via": "reverse_index",
+    "pattern": null
+   },
+   {
+    "name": "Identity Erosion",
+    "single_no": null,
+    "via": "playbook_pattern",
+    "pattern": {
+     "name": "Identity Erosion",
+     "url": "/playbook/identity-erosion"
+    }
+   },
+   {
+    "name": "Internalized Conditioning",
+    "single_no": null,
+    "via": "playbook_pattern",
+    "pattern": {
+     "name": "Internalized Conditioning",
+     "url": "/playbook/internalized-conditioning"
+    }
+   }
+  ],
+  "C143": [
+   {
+    "name": "Scapegoating",
+    "single_no": "T098",
+    "via": "reverse_index",
+    "pattern": null
+   },
+   {
+    "name": "Labeling as Identity Warfare",
+    "single_no": "T080",
+    "via": "reverse_index",
+    "pattern": null
+   },
+   {
+    "name": "Group Consolidation",
+    "single_no": null,
+    "via": "playbook_pattern",
+    "pattern": {
+     "name": "Group Consolidation / Chilling Effect",
+     "url": "/playbook/group-consolidation"
+    }
+   },
+   {
+    "name": "Pile-Ons",
+    "single_no": "T195",
+    "via": "exact_name",
+    "pattern": null
+   },
+   {
+    "name": "Smear Campaigns",
+    "single_no": "T188",
+    "via": "reverse_index",
+    "pattern": null
+   },
+   {
+    "name": "Ostracism",
+    "single_no": "T191",
+    "via": "reverse_index",
+    "pattern": null
+   },
+   {
+    "name": "Shame Installation",
+    "single_no": "T079",
+    "via": "reverse_index",
+    "pattern": null
+   },
+   {
+    "name": "Internalized Conditioning",
+    "single_no": null,
+    "via": "playbook_pattern",
+    "pattern": {
+     "name": "Internalized Conditioning",
+     "url": "/playbook/internalized-conditioning"
+    }
+   }
+  ],
+  "C144": [
+   {
+    "name": "Therapeutic Manipulation/Pathological Framing",
+    "single_no": "T116",
+    "via": "alias_map",
+    "pattern": null
+   },
+   {
+    "name": "Labeling as Identity Warfare",
+    "single_no": "T080",
+    "via": "reverse_index",
+    "pattern": null
+   },
+   {
+    "name": "Trash-Can Diagnosis",
+    "single_no": "T118",
+    "via": "exact_name",
+    "pattern": null
+   },
+   {
+    "name": "Concern Trolling",
+    "single_no": "T254",
+    "via": "exact_name",
+    "pattern": null
+   },
+   {
+    "name": "Shame Installation",
+    "single_no": "T079",
+    "via": "reverse_index",
+    "pattern": null
+   },
+   {
+    "name": "Tone Policing",
+    "single_no": "T084",
+    "via": "reverse_index",
+    "pattern": null
+   },
+   {
+    "name": "Forced Forgiveness",
+    "single_no": "T302",
+    "via": "exact_name",
+    "pattern": null
+   }
+  ],
+  "C146": [
+   {
+    "name": "Talent Identification and Institutional Capture",
+    "single_no": "T026",
+    "via": "exact_name",
+    "pattern": null
+   },
+   {
+    "name": "Academic Subordination",
+    "single_no": "T284",
+    "via": "exact_name",
+    "pattern": null
+   },
+   {
+    "name": "Labor Extraction",
+    "single_no": "T286",
+    "via": "reverse_index",
+    "pattern": null
+   },
+   {
+    "name": "Identity Narrowing",
+    "single_no": "T240",
+    "via": "exact_name",
+    "pattern": null
+   },
+   {
+    "name": "Body Commodification",
+    "single_no": "T101",
+    "via": "exact_name",
+    "pattern": null
+   },
+   {
+    "name": "Disposability Architecture",
+    "single_no": "T309",
+    "via": "exact_name",
+    "pattern": null
+   }
+  ],
+  "C147": [
+   {
+    "name": "ID Gatekeeping",
+    "single_no": "T197",
+    "via": "exact_name",
+    "pattern": null
+   },
+   {
+    "name": "Form Intimidation",
+    "single_no": "T253",
+    "via": "exact_name",
+    "pattern": null
+   },
+   {
+    "name": "Language Barriers as Isolation",
+    "single_no": "T204",
+    "via": "exact_name",
+    "pattern": null
+   },
+   {
+    "name": "Confidentiality Uncertainty",
+    "single_no": "T193",
+    "via": "exact_name",
+    "pattern": null
+   },
+   {
+    "name": "Engagement-Exposure Equation",
+    "single_no": "T208",
+    "via": "exact_name",
+    "pattern": null
+   },
+   {
+    "name": "Children as Collateral Consequence",
+    "single_no": "T243",
+    "via": "exact_name",
+    "pattern": null
+   }
+  ],
+  "C148": [
+   {
+    "name": "Identification as Identity Assignment",
+    "single_no": "T240",
+    "via": "exact_name",
+    "pattern": null
+   },
+   {
+    "name": "Expectation Inflation",
+    "single_no": "T097",
+    "via": "exact_name",
+    "pattern": null
+   },
+   {
+    "name": "Struggle Prohibition",
+    "single_no": "T100",
+    "via": "exact_name",
+    "pattern": null
+   },
+   {
+    "name": "Perfectionism Installation",
+    "single_no": "T097",
+    "via": "exact_name",
+    "pattern": null
+   },
+   {
+    "name": "Risk Aversion",
+    "single_no": null,
+    "via": "playbook_pattern",
+    "pattern": {
+     "name": "Pre-Punishment",
+     "url": "/playbook/pre-punishment"
+    }
+   },
+   {
+    "name": "Joy Extinction",
+    "single_no": "T289",
+    "via": "exact_name",
+    "pattern": null
+   }
+  ],
+  "C150": [
+   {
+    "name": "Love Bombing",
+    "single_no": "T001",
+    "via": "reverse_index",
+    "pattern": null
+   },
+   {
+    "name": "Exclusive Meaning",
+    "single_no": "T009",
+    "via": "reverse_index",
+    "pattern": null
+   },
+   {
+    "name": "Manufactured Destiny",
+    "single_no": "T002",
+    "via": "reverse_index",
+    "pattern": null
+   },
+   {
+    "name": "Future Faking",
+    "single_no": "T028",
+    "via": "reverse_index",
+    "pattern": null
+   },
+   {
+    "name": "Conditional Love",
+    "single_no": "T100",
+    "via": "reverse_index",
+    "pattern": null
+   },
+   {
+    "name": "Comparative Devaluation",
+    "single_no": "T089",
+    "via": "reverse_index",
+    "pattern": null
+   }
+  ],
+  "C152": [
+   {
+    "name": "Triangulation",
+    "single_no": "T187",
+    "via": "reverse_index",
+    "pattern": null
+   },
+   {
+    "name": "Comparative Devaluation",
+    "single_no": "T089",
+    "via": "reverse_index",
+    "pattern": null
+   },
+   {
+    "name": "Manufactured Scarcity",
+    "single_no": "T033",
+    "via": "reverse_index",
+    "pattern": null
+   },
+   {
+    "name": "Information Control",
+    "single_no": null,
+    "via": "playbook_pattern",
+    "pattern": {
+     "name": "Information Control",
+     "url": "/playbook/information-control"
+    }
+   },
+   {
+    "name": "Isolation",
+    "single_no": "T186",
+    "via": "reverse_index",
+    "pattern": null
+   },
+   {
+    "name": "Conditional Love",
+    "single_no": "T100",
+    "via": "reverse_index",
+    "pattern": null
+   }
+  ],
+  "C153": [
+   {
+    "name": "Virtue Signaling as Shield",
+    "single_no": "T226",
+    "via": "exact_name",
+    "pattern": null
+   },
+   {
+    "name": "Performative Public Affection",
+    "single_no": "T012",
+    "via": "exact_name",
+    "pattern": null
+   },
+   {
+    "name": "Reputation Laundering",
+    "single_no": "T158",
+    "via": "exact_name",
+    "pattern": null
+   },
+   {
+    "name": "Concern Trolling",
+    "single_no": "T254",
+    "via": "exact_name",
+    "pattern": null
+   },
+   {
+    "name": "Tokenism",
+    "single_no": "T019",
+    "via": "reverse_index",
+    "pattern": null
+   },
+   {
+    "name": "Pseudo-Consultation",
+    "single_no": "T267",
+    "via": "reverse_index",
+    "pattern": null
+   },
+   {
+    "name": "Strategic Philanthropy",
+    "single_no": "T226",
+    "via": "exact_name",
+    "pattern": null
+   }
+  ],
+  "C155": [
+   {
+    "name": "Dr. Jekyll/Mr. Hyde",
+    "single_no": "T012",
+    "via": "alias_map",
+    "pattern": null
+   },
+   {
+    "name": "Compartmentalization",
+    "single_no": "T200",
+    "via": "reverse_index",
+    "pattern": null
+   },
+   {
+    "name": "Plausible Deniability",
+    "single_no": "T190",
+    "via": "reverse_index",
+    "pattern": null
+   },
+   {
+    "name": "Performative Public Affection",
+    "single_no": "T012",
+    "via": "exact_name",
+    "pattern": null
+   },
+   {
+    "name": "Gaslighting",
+    "single_no": null,
+    "via": "playbook_pattern",
+    "pattern": {
+     "name": "Gaslighting",
+     "url": "/playbook/gaslighting"
+    }
+   },
+   {
+    "name": "Information Control",
+    "single_no": null,
+    "via": "playbook_pattern",
+    "pattern": {
+     "name": "Information Control",
+     "url": "/playbook/information-control"
+    }
+   }
+  ],
+  "C157": [
+   {
+    "name": "Velvet Glove Control",
+    "single_no": "T262",
+    "via": "exact_name",
+    "pattern": null
+   },
+   {
+    "name": "Performative Public Affection",
+    "single_no": "T012",
+    "via": "exact_name",
+    "pattern": null
+   },
+   {
+    "name": "I Know Best\" Paternalism",
+    "single_no": "T262",
+    "via": "exact_name",
+    "pattern": null
+   },
+   {
+    "name": "Conditional Love",
+    "single_no": "T100",
+    "via": "reverse_index",
+    "pattern": null
+   },
+   {
+    "name": "Infantilization",
+    "single_no": "T322",
+    "via": "reverse_index",
+    "pattern": null
+   },
+   {
+    "name": "Demonstrating Omnipotence",
+    "single_no": "T250",
+    "via": "exact_name",
+    "pattern": null
+   },
+   {
+    "name": "Pseudo-Consultation",
+    "single_no": "T267",
+    "via": "reverse_index",
+    "pattern": null
+   }
+  ],
+  "C159": [
+   {
+    "name": "Extinction Bursts",
+    "single_no": "T231",
+    "via": "reverse_index",
+    "pattern": null
+   },
+   {
+    "name": "Hoovering",
+    "single_no": "T040",
+    "via": "exact_name",
+    "pattern": null
+   },
+   {
+    "name": "Smear Campaigns",
+    "single_no": "T188",
+    "via": "reverse_index",
+    "pattern": null
+   },
+   {
+    "name": "Stalking-by-Notification",
+    "single_no": "T250",
+    "via": "exact_name",
+    "pattern": null
+   },
+   {
+    "name": "Flying Monkeys",
+    "single_no": "T189",
+    "via": "exact_name",
+    "pattern": null
+   },
+   {
+    "name": "Punishment by Proxy",
+    "single_no": "T251",
+    "via": "reverse_index",
+    "pattern": null
+   },
+   {
+    "name": "Legal/Administrative Threats",
+    "single_no": "T220",
+    "via": "alias_map",
+    "pattern": null
+   },
+   {
+    "name": "Emotional Blackmail",
+    "single_no": "T252",
+    "via": "reverse_index",
+    "pattern": null
+   }
+  ],
+  "C160": [
+   {
+    "name": "Charismatic Authority",
+    "single_no": "T056",
+    "via": "exact_name",
+    "pattern": null
+   },
+   {
+    "name": "Love Bombing",
+    "single_no": "T001",
+    "via": "reverse_index",
+    "pattern": null
+   },
+   {
+    "name": "Identity Hooking",
+    "single_no": "T029",
+    "via": "reverse_index",
+    "pattern": null
+   },
+   {
+    "name": "Manufactured Destiny",
+    "single_no": "T002",
+    "via": "reverse_index",
+    "pattern": null
+   },
+   {
+    "name": "We're Family\" Erasure",
+    "single_no": "T017",
+    "via": "exact_name",
+    "pattern": null
+   },
+   {
+    "name": "Thought-Stopping Clichés",
+    "single_no": "T136",
+    "via": "reverse_index",
+    "pattern": null
+   },
+   {
+    "name": "Phobia Indoctrination",
+    "single_no": "T233",
+    "via": "exact_name",
+    "pattern": null
+   },
+   {
+    "name": "Demonstrating Omnipotence",
+    "single_no": "T250",
+    "via": "exact_name",
+    "pattern": null
+   },
+   {
+    "name": "Conditional Love",
+    "single_no": "T100",
+    "via": "reverse_index",
+    "pattern": null
+   }
+  ],
+  "C161": [
+   {
+    "name": "Double Binds",
+    "single_no": "T087",
+    "via": "reverse_index",
+    "pattern": null
+   },
+   {
+    "name": "Complaint Weaponization",
+    "single_no": "T119",
+    "via": "exact_name",
+    "pattern": null
+   },
+   {
+    "name": "Role Reversal Traps",
+    "single_no": "T115",
+    "via": "reverse_index",
+    "pattern": null
+   },
+   {
+    "name": "Meta-Gaslighting",
+    "single_no": "T159",
+    "via": "reverse_index",
+    "pattern": null
+   },
+   {
+    "name": "Semantic Traps",
+    "single_no": "T126",
+    "via": "reverse_index",
+    "pattern": null
+   },
+   {
+    "name": "Kafka Trapping",
+    "single_no": "T147",
+    "via": "reverse_index",
+    "pattern": null
+   }
+  ],
+  "C162": [
+   {
+    "name": "Loan-Sharking Gifts",
+    "single_no": "T010",
+    "via": "reverse_index",
+    "pattern": null
+   },
+   {
+    "name": "Weaponized Generosity in Public",
+    "single_no": "T011",
+    "via": "reverse_index",
+    "pattern": null
+   },
+   {
+    "name": "Strategic Philanthropy",
+    "single_no": "T226",
+    "via": "exact_name",
+    "pattern": null
+   },
+   {
+    "name": "Demand for Gratitude",
+    "single_no": "T050",
+    "via": "reverse_index",
+    "pattern": null
+   },
+   {
+    "name": "Obligation Hooks",
+    "single_no": "T034",
+    "via": "reverse_index",
+    "pattern": null
+   },
+   {
+    "name": "Guilt-Tripping",
+    "single_no": "T211",
+    "via": "reverse_index",
+    "pattern": null
+   },
+   {
+    "name": "Financial Enmeshment",
+    "single_no": "T043",
+    "via": "reverse_index",
+    "pattern": null
+   }
+  ],
+  "C163": [
+   {
+    "name": "Therapeutic Manipulation/Pathological Framing",
+    "single_no": "T116",
+    "via": "alias_map",
+    "pattern": null
+   },
+   {
+    "name": "Strategic Chaos (Maintained)",
+    "single_no": null,
+    "via": "unresolved",
+    "pattern": null
+   },
+   {
+    "name": "Shame Installation",
+    "single_no": "T079",
+    "via": "reverse_index",
+    "pattern": null
+   },
+   {
+    "name": "Pseudo-Consultation",
+    "single_no": "T267",
+    "via": "reverse_index",
+    "pattern": null
+   },
+   {
+    "name": "Concern Trolling",
+    "single_no": "T254",
+    "via": "exact_name",
+    "pattern": null
+   },
+   {
+    "name": "Individualization of Systemic Issues",
+    "single_no": "T143",
+    "via": "reverse_index",
+    "pattern": null
+   }
+  ],
+  "C168": [
+   {
+    "name": "Buried Consent Disclosure",
+    "single_no": "T068",
+    "via": "exact_name",
+    "pattern": null
+   },
+   {
+    "name": "Covert Recording",
+    "single_no": null,
+    "via": "unresolved",
+    "pattern": null
+   },
+   {
+    "name": "Data Harvesting",
+    "single_no": "T282",
+    "via": "reverse_index",
+    "pattern": null
+   },
+   {
+    "name": "Non-Consensual Distribution",
+    "single_no": "T283",
+    "via": "exact_name",
+    "pattern": null
+   },
+   {
+    "name": "Selective Deployment",
+    "single_no": "T259",
+    "via": "exact_name",
+    "pattern": null
+   },
+   {
+    "name": "Chilling Effect",
+    "single_no": null,
+    "via": "playbook_pattern",
+    "pattern": {
+     "name": "Group Consolidation / Chilling Effect",
+     "url": "/playbook/group-consolidation"
+    }
+   }
+  ],
+  "C169": [
+   {
+    "name": "Alignment Framing",
+    "single_no": "T004",
+    "via": "exact_name",
+    "pattern": null
+   },
+   {
+    "name": "Paper Deferral",
+    "single_no": "T028",
+    "via": "exact_name",
+    "pattern": null
+   },
+   {
+    "name": "Complexity Shield",
+    "single_no": "T142",
+    "via": "exact_name",
+    "pattern": null
+   },
+   {
+    "name": "Milestone Migration",
+    "single_no": "T082",
+    "via": "exact_name",
+    "pattern": null
+   },
+   {
+    "name": "Dilution Disguise",
+    "single_no": "T142",
+    "via": "exact_name",
+    "pattern": null
+   },
+   {
+    "name": "Exit Forfeiture",
+    "single_no": null,
+    "via": "unresolved",
+    "pattern": null
+   }
+  ],
+  "C170": [
+   {
+    "name": "Privileged Access Framing",
+    "single_no": "T009",
+    "via": "exact_name",
+    "pattern": null
+   },
+   {
+    "name": "Manufactured Oversubscription",
+    "single_no": "T033",
+    "via": "exact_name",
+    "pattern": null
+   },
+   {
+    "name": "Compressed Window",
+    "single_no": "T032",
+    "via": "exact_name",
+    "pattern": null
+   },
+   {
+    "name": "Phantom Lead",
+    "single_no": "T130",
+    "via": "exact_name",
+    "pattern": null
+   },
+   {
+    "name": "Commitment Before Verification",
+    "single_no": "T032",
+    "via": "exact_name",
+    "pattern": null
+   },
+   {
+    "name": "FOMO Lock",
+    "single_no": "T033",
+    "via": "exact_name",
+    "pattern": null
+   }
+  ],
+  "C171": [
+   {
+    "name": "Structural Layering",
+    "single_no": "T142",
+    "via": "exact_name",
+    "pattern": null
+   },
+   {
+    "name": "Fee Diffusion",
+    "single_no": "T142",
+    "via": "exact_name",
+    "pattern": null
+   },
+   {
+    "name": "Standard-Term Camouflage",
+    "single_no": "T068",
+    "via": "exact_name",
+    "pattern": null
+   },
+   {
+    "name": "Waterfall Opacity",
+    "single_no": "T142",
+    "via": "exact_name",
+    "pattern": null
+   },
+   {
+    "name": "Complexity-as-Authority",
+    "single_no": "T154",
+    "via": "exact_name",
+    "pattern": null
+   },
+   {
+    "name": "Disaggregated Consent",
+    "single_no": "T068",
+    "via": "exact_name",
+    "pattern": null
+   }
+  ],
+  "C172": [
+   {
+    "name": "Public Association",
+    "single_no": "T071",
+    "via": "reverse_index",
+    "pattern": null
+   },
+   {
+    "name": "Reputation Braiding",
+    "single_no": "T071",
+    "via": "reverse_index",
+    "pattern": null
+   },
+   {
+    "name": "Mutual Exposure Framing",
+    "single_no": "T061",
+    "via": "exact_name",
+    "pattern": null
+   },
+   {
+    "name": "Silence Incentivization",
+    "single_no": "T314",
+    "via": "exact_name",
+    "pattern": null
+   },
+   {
+    "name": "Complicity Implication",
+    "single_no": "T061",
+    "via": "exact_name",
+    "pattern": null
+   },
+   {
+    "name": "Successor Enablement",
+    "single_no": "T145",
+    "via": "exact_name",
+    "pattern": null
+   }
+  ],
+  "C173": [
+   {
+    "name": "Catfishing",
+    "single_no": "T015",
+    "via": "reverse_index",
+    "pattern": null
+   },
+   {
+    "name": "Pacing and Leading",
+    "single_no": "T024",
+    "via": "reverse_index",
+    "pattern": null
+   },
+   {
+    "name": "Premature Vulnerability / Trauma Dumping",
+    "single_no": "T005",
+    "via": "reverse_index",
+    "pattern": null
+   },
+   {
+    "name": "Premature Trust Extraction",
+    "single_no": "T021",
+    "via": "reverse_index",
+    "pattern": null
+   },
+   {
+    "name": "Premature Exclusivity",
+    "single_no": "T030",
+    "via": "reverse_index",
+    "pattern": null
+   },
+   {
+    "name": "Identity Hooking",
+    "single_no": "T029",
+    "via": "reverse_index",
+    "pattern": null
+   }
+  ],
+  "C174": [
+   {
+    "name": "Social Mapping",
+    "single_no": "T202",
+    "via": "reverse_index",
+    "pattern": null
+   },
+   {
+    "name": "Social Engineering",
+    "single_no": "T016",
+    "via": "reverse_index",
+    "pattern": null
+   },
+   {
+    "name": "Manufactured Intimacy",
+    "single_no": "T003",
+    "via": "reverse_index",
+    "pattern": null
+   },
+   {
+    "name": "Platform Migration",
+    "single_no": "T045",
+    "via": "reverse_index",
+    "pattern": null
+   },
+   {
+    "name": "Pig Butchering (Long-Con Digital Fraud)",
+    "single_no": null,
+    "via": "playbook_pattern",
+    "pattern": {
+     "name": "Pig Butchering (Long-Con Digital Fraud)",
+     "url": "/playbook/pig-butchering-long-con-digital-fraud"
+    }
+   },
+   {
+    "name": "Manufactured Urgency",
+    "single_no": "T032",
+    "via": "reverse_index",
+    "pattern": null
+   }
+  ],
+  "C176": [
+   {
+    "name": "Halo Effect Exploitation",
+    "single_no": "T039",
+    "via": "reverse_index",
+    "pattern": null
+   },
+   {
+    "name": "Confirmation Bias Exploitation",
+    "single_no": "T038",
+    "via": "reverse_index",
+    "pattern": null
+   },
+   {
+    "name": "Performative Allyship / False Solidarity",
+    "single_no": "T020",
+    "via": "reverse_index",
+    "pattern": null
+   },
+   {
+    "name": "Moral Licensing / Strategic Philanthropy",
+    "single_no": "T226",
+    "via": "reverse_index",
+    "pattern": null
+   },
+   {
+    "name": "Blame-Shifting",
+    "single_no": "T146",
+    "via": "reverse_index",
+    "pattern": null
+   }
+  ],
+  "C177": [
+   {
+    "name": "Bread-crumbing",
+    "single_no": "T046",
+    "via": "reverse_index",
+    "pattern": null
+   },
+   {
+    "name": "Anchoring to Peak Moments",
+    "single_no": "T063",
+    "via": "reverse_index",
+    "pattern": null
+   },
+   {
+    "name": "Triangulation",
+    "single_no": "T187",
+    "via": "reverse_index",
+    "pattern": null
+   },
+   {
+    "name": "Replacement Display",
+    "single_no": "T310",
+    "via": "reverse_index",
+    "pattern": null
+   },
+   {
+    "name": "Orbiting",
+    "single_no": "T321",
+    "via": "reverse_index",
+    "pattern": null
+   }
+  ],
+  "C178": [
+   {
+    "name": "Door-in-the-Face",
+    "single_no": "T051",
+    "via": "reverse_index",
+    "pattern": null
+   },
+   {
+    "name": "Anchoring",
+    "single_no": "T052",
+    "via": "reverse_index",
+    "pattern": null
+   },
+   {
+    "name": "Commitment Traps / Foot-in-the-Door",
+    "single_no": "T031",
+    "via": "reverse_index",
+    "pattern": null
+   },
+   {
+    "name": "Ultimatums",
+    "single_no": "T255",
+    "via": "reverse_index",
+    "pattern": null
+   },
+   {
+    "name": "Obligation Enforcement",
+    "single_no": null,
+    "via": "unresolved",
+    "pattern": null
+   }
+  ],
+  "C181": [
+   {
+    "name": "Grooming Through Praise",
+    "single_no": "T062",
+    "via": "reverse_index",
+    "pattern": null
+   },
+   {
+    "name": "Emotional Parasitism",
+    "single_no": "T059",
+    "via": "reverse_index",
+    "pattern": null
+   },
+   {
+    "name": "Bait Disclosure",
+    "single_no": "T066",
+    "via": "reverse_index",
+    "pattern": null
+   },
+   {
+    "name": "Vulnerability Weaponization",
+    "single_no": "T060",
+    "via": "reverse_index",
+    "pattern": null
+   },
+   {
+    "name": "Withholding / Silent Treatment",
+    "single_no": "T081",
+    "via": "reverse_index",
+    "pattern": null
+   }
+  ],
+  "C182": [
+   {
+    "name": "Rage as Regulation",
+    "single_no": "T247",
+    "via": "reverse_index",
+    "pattern": null
+   },
+   {
+    "name": "Emotional Contamination",
+    "single_no": "T105",
+    "via": "reverse_index",
+    "pattern": null
+   },
+   {
+    "name": "Emotional Sequencing",
+    "single_no": "T170",
+    "via": "reverse_index",
+    "pattern": null
+   },
+   {
+    "name": "Fawning",
+    "single_no": null,
+    "via": "playbook_pattern",
+    "pattern": {
+     "name": "Fawning",
+     "url": "/playbook/fawning"
+    }
+   }
+  ],
+  "C183": [
+   {
+    "name": "Pseudo-Logic",
+    "single_no": "T169",
+    "via": "reverse_index",
+    "pattern": null
+   },
+   {
+    "name": "Gish Gallop / Firehose of Falsehood",
+    "single_no": "T152",
+    "via": "reverse_index",
+    "pattern": null
+   },
+   {
+    "name": "Exaggeration",
+    "single_no": "T150",
+    "via": "reverse_index",
+    "pattern": null
+   },
+   {
+    "name": "Gotcha Framing",
+    "single_no": "T127",
+    "via": "reverse_index",
+    "pattern": null
+   },
+   {
+    "name": "Tone Policing",
+    "single_no": "T084",
+    "via": "reverse_index",
+    "pattern": null
+   },
+   {
+    "name": "Metacommunicative Abuse",
+    "single_no": null,
+    "via": "unresolved",
+    "pattern": null
+   },
+   {
+    "name": "Confusion as Control",
+    "single_no": null,
+    "via": "unresolved",
+    "pattern": null
+   }
+  ],
+  "C184": [
+   {
+    "name": "Gaslighting",
+    "single_no": null,
+    "via": "playbook_pattern",
+    "pattern": {
+     "name": "Gaslighting",
+     "url": "/playbook/gaslighting"
+    }
+   },
+   {
+    "name": "Perspecticide",
+    "single_no": "T171",
+    "via": "reverse_index",
+    "pattern": null
+   },
+   {
+    "name": "Weaponized Therapy-Speak",
+    "single_no": "T116",
+    "via": "reverse_index",
+    "pattern": null
+   },
+   {
+    "name": "Tone Policing",
+    "single_no": "T084",
+    "via": "reverse_index",
+    "pattern": null
+   },
+   {
+    "name": "Collapse of Narrative Continuity",
+    "single_no": null,
+    "via": "unresolved",
+    "pattern": null
+   }
+  ],
+  "C185": [
+   {
+    "name": "Stonewalling",
+    "single_no": "T138",
+    "via": "reverse_index",
+    "pattern": null
+   },
+   {
+    "name": "Feigned Ignorance",
+    "single_no": "T148",
+    "via": "reverse_index",
+    "pattern": null
+   },
+   {
+    "name": "Reverse Psychology",
+    "single_no": "T141",
+    "via": "reverse_index",
+    "pattern": null
+   },
+   {
+    "name": "Limited Hangout",
+    "single_no": "T153",
+    "via": "reverse_index",
+    "pattern": null
+   },
+   {
+    "name": "Lying",
+    "single_no": null,
+    "via": "playbook_pattern",
+    "pattern": {
+     "name": "Lying",
+     "url": "/playbook/lying"
+    }
+   },
+   {
+    "name": "Competitive Victimhood",
+    "single_no": "T303",
+    "via": "reverse_index",
+    "pattern": null
+   }
+  ],
+  "C186": [
+   {
+    "name": "Toxic Positivity / Weaponized Optimism",
+    "single_no": "T140",
+    "via": "reverse_index",
+    "pattern": null
+   },
+   {
+    "name": "Name-Calling Disguised as Humor",
+    "single_no": "T090",
+    "via": "reverse_index",
+    "pattern": null
+   },
+   {
+    "name": "Forced Forgiveness / Weaponized Forgiveness",
+    "single_no": "T302",
+    "via": "reverse_index",
+    "pattern": null
+   },
+   {
+    "name": "Silence Installation",
+    "single_no": null,
+    "via": "playbook_pattern",
+    "pattern": {
+     "name": "Silence Installation",
+     "url": "/playbook/silence-installation"
+    }
+   }
+  ],
+  "C187": [
+   {
+    "name": "Context Poisoning",
+    "single_no": "T167",
+    "via": "reverse_index",
+    "pattern": null
+   },
+   {
+    "name": "Information Laundering",
+    "single_no": "T162",
+    "via": "reverse_index",
+    "pattern": null
+   },
+   {
+    "name": "Astroturfing / Sock Puppets",
+    "single_no": "T163",
+    "via": "reverse_index",
+    "pattern": null
+   },
+   {
+    "name": "Computational Propaganda",
+    "single_no": null,
+    "via": "playbook_pattern",
+    "pattern": {
+     "name": "Computational Propaganda",
+     "url": "/playbook/computational-propaganda"
+    }
+   },
+   {
+    "name": "False Consensus / Social Proof Pressure",
+    "single_no": "T130",
+    "via": "reverse_index",
+    "pattern": null
+   },
+   {
+    "name": "Normalization / Overton Window Manipulation",
+    "single_no": "T131",
+    "via": "reverse_index",
+    "pattern": null
+   },
+   {
+    "name": "Post-Truth Epistemic Manipulation",
+    "single_no": null,
+    "via": "playbook_pattern",
+    "pattern": {
+     "name": "Post-Truth Epistemic Manipulation",
+     "url": "/playbook/post-truth-epistemic-manipulation"
+    }
+   }
+  ],
+  "C189": [
+   {
+    "name": "Dog Whistling / Coded Signaling",
+    "single_no": "T156",
+    "via": "reverse_index",
+    "pattern": null
+   },
+   {
+    "name": "Stochastic Harassment Direction",
+    "single_no": "T198",
+    "via": "reverse_index",
+    "pattern": null
+   },
+   {
+    "name": "Moral Outrage as Weapon",
+    "single_no": "T260",
+    "via": "reverse_index",
+    "pattern": null
+   },
+   {
+    "name": "Pile-Ons / Brigading",
+    "single_no": "T195",
+    "via": "reverse_index",
+    "pattern": null
+   },
+   {
+    "name": "Reputation Hijacking",
+    "single_no": "T209",
+    "via": "reverse_index",
+    "pattern": null
+   },
+   {
+    "name": "Uncorrected Record",
+    "single_no": "T317",
+    "via": "reverse_index",
+    "pattern": null
+   }
+  ],
+  "C190": [
+   {
+    "name": "Gish Gallop / Firehose of Falsehood",
+    "single_no": "T152",
+    "via": "reverse_index",
+    "pattern": null
+   },
+   {
+    "name": "Forged Screenshots / Edited Evidence",
+    "single_no": "T329",
+    "via": "reverse_index",
+    "pattern": null
+   },
+   {
+    "name": "Cyber Manipulation Operations (CMOs)",
+    "single_no": "T166",
+    "via": "reverse_index",
+    "pattern": null
+   },
+   {
+    "name": "Immersive Manipulation (VR/AR)",
+    "single_no": "T168",
+    "via": "reverse_index",
+    "pattern": null
+   }
+  ],
+  "C191": [
+   {
+    "name": "Interruption Patterns",
+    "single_no": "T194",
+    "via": "reverse_index",
+    "pattern": null
+   },
+   {
+    "name": "Credit Theft",
+    "single_no": "T095",
+    "via": "reverse_index",
+    "pattern": null
+   },
+   {
+    "name": "Credit Laundering",
+    "single_no": "T096",
+    "via": "reverse_index",
+    "pattern": null
+   },
+   {
+    "name": "Polite Hostile\" Environments",
+    "single_no": "T196",
+    "via": "exact_name",
+    "pattern": null
+   },
+   {
+    "name": "Mobbing",
+    "single_no": null,
+    "via": "playbook_pattern",
+    "pattern": {
+     "name": "Mobbing",
+     "url": "/playbook/mobbing"
+    }
+   },
+   {
+    "name": "Performance Framework Manipulation",
+    "single_no": "T103",
+    "via": "reverse_index",
+    "pattern": null
+   }
+  ],
+  "C192": [
+   {
+    "name": "Time Control",
+    "single_no": "T235",
+    "via": "reverse_index",
+    "pattern": null
+   },
+   {
+    "name": "Sleep Deprivation",
+    "single_no": "T236",
+    "via": "reverse_index",
+    "pattern": null
+   },
+   {
+    "name": "Mobility Control",
+    "single_no": "T238",
+    "via": "reverse_index",
+    "pattern": null
+   },
+   {
+    "name": "Body Autonomy Violations",
+    "single_no": "T239",
+    "via": "reverse_index",
+    "pattern": null
+   },
+   {
+    "name": "Choice Restriction",
+    "single_no": "T266",
+    "via": "reverse_index",
+    "pattern": null
+   },
+   {
+    "name": "Ritualized Exhaustion",
+    "single_no": "T210",
+    "via": "reverse_index",
+    "pattern": null
+   }
+  ],
+  "C193": [
+   {
+    "name": "Intimidation",
+    "single_no": "T253",
+    "via": "reverse_index",
+    "pattern": null
+   },
+   {
+    "name": "Interrogation",
+    "single_no": "T263",
+    "via": "reverse_index",
+    "pattern": null
+   },
+   {
+    "name": "Ambient Sexual Threat",
+    "single_no": "T257",
+    "via": "reverse_index",
+    "pattern": null
+   },
+   {
+    "name": "Fawning",
+    "single_no": null,
+    "via": "playbook_pattern",
+    "pattern": {
+     "name": "Fawning",
+     "url": "/playbook/fawning"
+    }
+   }
+  ],
+  "C196": [
+   {
+    "name": "Location Tracking",
+    "single_no": "T222",
+    "via": "reverse_index",
+    "pattern": null
+   },
+   {
+    "name": "Account Control",
+    "single_no": "T224",
+    "via": "reverse_index",
+    "pattern": null
+   },
+   {
+    "name": "Legal Abuse",
+    "single_no": "T305",
+    "via": "reverse_index",
+    "pattern": null
+   },
+   {
+    "name": "Post-Separation Abuse",
+    "single_no": null,
+    "via": "unresolved",
+    "pattern": null
+   },
+   {
+    "name": "Legacy Contamination",
+    "single_no": null,
+    "via": "unresolved",
+    "pattern": null
+   }
+  ],
+  "C197": [
+   {
+    "name": "Humiliation Rituals",
+    "single_no": "T306",
+    "via": "reverse_index",
+    "pattern": null
+   },
+   {
+    "name": "Overcorrection Demands",
+    "single_no": "T258",
+    "via": "reverse_index",
+    "pattern": null
+   },
+   {
+    "name": "Public Exposure",
+    "single_no": "T307",
+    "via": "reverse_index",
+    "pattern": null
+   },
+   {
+    "name": "Group Consolidation / Chilling Effect",
+    "single_no": null,
+    "via": "playbook_pattern",
+    "pattern": {
+     "name": "Group Consolidation / Chilling Effect",
+     "url": "/playbook/group-consolidation"
+    }
+   },
+   {
+    "name": "Silence Installation",
+    "single_no": null,
+    "via": "playbook_pattern",
+    "pattern": {
+     "name": "Silence Installation",
+     "url": "/playbook/silence-installation"
+    }
+   }
+  ],
+  "C198": [
+   {
+    "name": "Minimization",
+    "single_no": "T094",
+    "via": "reverse_index",
+    "pattern": null
+   },
+   {
+    "name": "Tone Policing",
+    "single_no": "T084",
+    "via": "reverse_index",
+    "pattern": null
+   },
+   {
+    "name": "Accountability Evasion via Diagnosis / Trash-Can Diagnosis",
+    "single_no": "T118",
+    "via": "reverse_index",
+    "pattern": null
+   },
+   {
+    "name": "Need Concealment",
+    "single_no": null,
+    "via": "unresolved",
+    "pattern": null
+   }
+  ],
+  "C199": [
+   {
+    "name": "Institutional Capture",
+    "single_no": "T276",
+    "via": "reverse_index",
+    "pattern": null
+   },
+   {
+    "name": "Controlled Opposition",
+    "single_no": "T269",
+    "via": "reverse_index",
+    "pattern": null
+   },
+   {
+    "name": "Captive Expertise",
+    "single_no": "T174",
+    "via": "reverse_index",
+    "pattern": null
+   },
+   {
+    "name": "Policy as Proof",
+    "single_no": "T179",
+    "via": "reverse_index",
+    "pattern": null
+   },
+   {
+    "name": "Visible Impunity",
+    "single_no": "T319",
+    "via": "reverse_index",
+    "pattern": null
+   }
+  ],
+  "C200": [
+   {
+    "name": "Crisis Bonding",
+    "single_no": "T065",
+    "via": "reverse_index",
+    "pattern": null
+   },
+   {
+    "name": "Forced Teaming",
+    "single_no": "T004",
+    "via": "reverse_index",
+    "pattern": null
+   },
+   {
+    "name": "Shared Secret Binding",
+    "single_no": "T061",
+    "via": "reverse_index",
+    "pattern": null
+   },
+   {
+    "name": "Loyalty Binds",
+    "single_no": "T256",
+    "via": "reverse_index",
+    "pattern": null
+   },
+   {
+    "name": "Exit Prevention",
+    "single_no": null,
+    "via": "unresolved",
+    "pattern": null
+   }
+  ],
+  "C201": [
+   {
+    "name": "Negging",
+    "single_no": "T088",
+    "via": "reverse_index",
+    "pattern": null
+   },
+   {
+    "name": "Comparative Devaluation",
+    "single_no": "T089",
+    "via": "reverse_index",
+    "pattern": null
+   },
+   {
+    "name": "Objectification",
+    "single_no": "T101",
+    "via": "reverse_index",
+    "pattern": null
+   },
+   {
+    "name": "Shame Installation",
+    "single_no": "T079",
+    "via": "reverse_index",
+    "pattern": null
+   },
+   {
+    "name": "Need Concealment",
+    "single_no": null,
+    "via": "unresolved",
+    "pattern": null
+   }
+  ],
+  "C202": [
+   {
+    "name": "Debt Bondage",
+    "single_no": "T296",
+    "via": "reverse_index",
+    "pattern": null
+   },
+   {
+    "name": "Document Confiscation",
+    "single_no": "T297",
+    "via": "reverse_index",
+    "pattern": null
+   },
+   {
+    "name": "Status Threats",
+    "single_no": "T298",
+    "via": "reverse_index",
+    "pattern": null
+   },
+   {
+    "name": "Isolation",
+    "single_no": "T186",
+    "via": "reverse_index",
+    "pattern": null
+   },
+   {
+    "name": "Exit Prevention",
+    "single_no": null,
+    "via": "unresolved",
+    "pattern": null
+   }
+  ],
+  "C203": [
+   {
+    "name": "Legitimizing Paltry Contributions",
+    "single_no": "T076",
+    "via": "reverse_index",
+    "pattern": null
+   },
+   {
+    "name": "That's-Not-All",
+    "single_no": "T074",
+    "via": "reverse_index",
+    "pattern": null
+   },
+   {
+    "name": "Disrupt-Then-Reframe",
+    "single_no": "T075",
+    "via": "reverse_index",
+    "pattern": null
+   },
+   {
+    "name": "Forced Continuity",
+    "single_no": "T073",
+    "via": "reverse_index",
+    "pattern": null
+   },
+   {
+    "name": "Persistent Nagging",
+    "single_no": "T077",
+    "via": "reverse_index",
+    "pattern": null
+   },
+   {
+    "name": "Sunk Cost Exploitation",
+    "single_no": "T037",
+    "via": "reverse_index",
+    "pattern": null
+   }
+  ],
+  "C205": [
+   {
+    "name": "Just Asking Questions",
+    "single_no": "T184",
+    "via": "reverse_index",
+    "pattern": null
+   },
+   {
+    "name": "Motte-and-Bailey",
+    "single_no": "T185",
+    "via": "reverse_index",
+    "pattern": null
+   },
+   {
+    "name": "Victim Blaming",
+    "single_no": "T183",
+    "via": "reverse_index",
+    "pattern": null
+   },
+   {
+    "name": "Legal Abuse",
+    "single_no": "T305",
+    "via": "reverse_index",
+    "pattern": null
+   }
+  ],
+  "C206": [
+   {
+    "name": "Manufactured Intimacy",
+    "single_no": "T003",
+    "via": "reverse_index",
+    "pattern": null
+   },
+   {
+    "name": "Sextortion",
+    "single_no": null,
+    "via": "unresolved",
+    "pattern": null
+   },
+   {
+    "name": "Doxxing",
+    "single_no": "T328",
+    "via": "reverse_index",
+    "pattern": null
+   },
+   {
+    "name": "Swatting",
+    "single_no": "T320",
+    "via": "reverse_index",
+    "pattern": null
+   },
+   {
+    "name": "Need Concealment",
+    "single_no": null,
+    "via": "unresolved",
+    "pattern": null
+   }
+  ]
+ },
+ "fractal": {
+  "chapter": "/fractal/entertainment-and-culture",
+  "stages": {
+   "IDEALIZE": {
+    "lens": "/fractal/the-spiritual-lens#stage-idealize-divine-principle-election",
+    "frequency": "/fractal/the-frequency#stage-idealize-what-existed-before-the-system"
+   },
+   "HOOK": {
+    "lens": "/fractal/the-spiritual-lens#stage-hook-divine-principle-covenant",
+    "frequency": "/fractal/the-frequency#stage-hook-what-existed-before-the-system-created"
+   },
+   "DEVALUE": {
+    "lens": "/fractal/the-spiritual-lens#stage-devalue-divine-principle-inherent-worth",
+    "frequency": "/fractal/the-frequency#stage-devalue-what-existed-before-the-system"
+   },
+   "CONFUSE": {
+    "lens": "/fractal/the-spiritual-lens#stage-confuse-divine-principle-truth",
+    "frequency": "/fractal/the-frequency#stage-confuse-what-existed-before-the-system"
+   },
+   "ISOLATE": {
+    "lens": "/fractal/the-spiritual-lens#stage-isolate-divine-principle-community",
+    "frequency": "/fractal/the-frequency#stage-isolate-what-existed-before-the-system"
+   },
+   "CONTROL": {
+    "lens": "/fractal/the-spiritual-lens#stage-extract-divine-principle-abundance",
+    "frequency": "/fractal/the-frequency#stage-extract-what-existed-before-the-system-took"
+   },
+   "DISCARD": {
+    "lens": "/fractal/the-spiritual-lens#stage-discard-divine-principle-unfailing-presence",
+    "frequency": "/fractal/the-frequency#stage-discard-what-existed-before-the-system"
+   },
+   "REPLACE": {
+    "lens": "/fractal/the-spiritual-lens#stage-replace-divine-principle-irreplaceable-worth",
+    "frequency": "/fractal/the-frequency#stage-replace-what-existed-before-the-system"
+   }
+  }
+ },
+ "unresolved_before": 131,
+ "now_linked": 106,
+ "still_unresolved": {
+  "Need Concealment": 3,
+  "Exit Prevention": 2,
+  "Investigative Inversion": 1,
+  "Trigger Identification": 1,
+  "External Trigger Escalation": 1,
+  "Surveillance Activation": 1,
+  "Delayed Recognition Architecture": 1,
+  "Trigger Cataloging": 1,
+  "Internalized Surveillance": 1,
+  "Love Bombing (Redirected)": 1,
+  "Switching Cost Inflation": 1,
+  "Permanent Insufficiency Installation": 1,
+  "Strategic Chaos (Maintained)": 1,
+  "Covert Recording": 1,
+  "Exit Forfeiture": 1,
+  "Obligation Enforcement": 1,
+  "Metacommunicative Abuse": 1,
+  "Confusion as Control": 1,
+  "Collapse of Narrative Continuity": 1,
+  "Post-Separation Abuse": 1,
+  "Legacy Contamination": 1,
+  "Sextortion": 1
+ }
+}

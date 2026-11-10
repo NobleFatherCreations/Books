@@ -1085,9 +1085,10 @@ html.live .ch [data-n].nq-on{color:var(--ink)}
     return { name: name, p: p, inFig: inFig, hold: inFig && isHold, sy: sy };
   }
 
-  var last = 0, started = false;
+  var last = 0, started = false, cost = { n: 0, sum: 0, max: 0 };
   function frame(now) {
     requestAnimationFrame(frame);
+    var t0 = performance.now();
     var t = now / 1000, dt = Math.min(.05, t - last || .016); last = t;
     var st = readScroll();
     if (st.name !== sceneName) setScene(st.name, now);
@@ -1104,6 +1105,7 @@ html.live .ch [data-n].nq-on{color:var(--ink)}
     ambNow += (((scene.amb === undefined ? .004 : scene.amb)) - ambNow) * k;
     draw(t); updateLabels(st.p, st.inFig);
     if (prog_el) prog_el.style.transform = 'scaleX(' + clamp(st.sy / docH).toFixed(4) + ')';
+    var c1 = performance.now() - t0; cost.n++; cost.sum += c1; if (c1 > cost.max) cost.max = c1;
   }
 
   function boot() {
@@ -1119,7 +1121,7 @@ html.live .ch [data-n].nq-on{color:var(--ink)}
     requestAnimationFrame(frame);
   }
   try { boot(); } catch (e) { root.classList.remove('live'); cv.style.display = 'none'; LB.style.display = 'none'; if (window.console) console.error(e); }
-  window.F2stage = { state: function () { return { scene: sceneName, p: lastP, activeN: activeN, gl: !!gl, gain: gain }; } };
+  window.F2stage = { state: function () { return { scene: sceneName, p: lastP, activeN: activeN, gl: !!gl, gain: gain }; }, cost: function (reset) { var o = { n: cost.n, avg: cost.n ? cost.sum / cost.n : 0, max: cost.max }; if (reset) cost = { n: 0, sum: 0, max: 0 }; return o; } };
 
   /* ---------- contents, quick exit ---------- */
   var tocB = doc.getElementById('toc-b'), toc = doc.getElementById('toc');
