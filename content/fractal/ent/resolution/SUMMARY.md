@@ -5,15 +5,15 @@ Generated 2026-11-10 by `design/fractal-sector/resolve.py`. Policy: `content/fra
 | Verdict | Items |
 |---|---|
 | keep-label | 718 |
-| no-change | 392 |
+| no-change | 407 |
 | pending | 184 |
-| soften | 38 |
 | keep-conditional | 23 |
+| soften | 23 |
 | keep-cited | 8 |
 | surface | 5 |
 | generalize | 2 |
 
-Total: 1370 queue items. Fact base: 8 topics, 8 with at least one source, 0 with none.
+Total: 1370 queue items. Fact base: 11 topics, 11 with at least one source, 0 with none.
 
 ## High-risk changes (owner approves each) (5)
 
@@ -31,17 +31,8 @@ Total: 1370 queue items. Fact base: 8 topics, 8 with at least one source, 0 with
 ## Removals (0)
 
 
-## Rewordings (medium risk) (40)
+## Rewordings (medium risk) (25)
 
-- **C007 · Credibility Audit** (soften, q27): Explanatory-section line stated intent, certainty or universality as fact; note names the problem and gives only a partial wording, so the smallest change is derived for director review.
-  - before: Negging comes second because it is cheap and deniable.
-  - after: Negging comes second because it costs little and can be defended as banter.
-- **C008 · Credibility Audit** (soften, q34): Explanatory-section line stated intent, certainty or universality as fact; note names the problem and gives only a partial wording, so the smallest change is derived for director review.
-  - before: Sunk Cost Exploitation closes the loop and supplies deniability.
-  - after: Sunk Cost Exploitation closes the loop, and the result can be hard to attribute to any one decision.
-- **C025 · Credibility Audit** (soften, q143): Explanatory-section line stated intent, certainty or universality as fact; softened using the author's own wording from the audit note.
-  - before: The content is irrelevant; the reflex is the product.
-  - after: The content may matter less than the reflex it produces.
 - **C030 · False-Positive Check — Specific** (soften, q189): Norm stated as fact with no source; policy example 6.
   - before: A reasonable number of rounds is standard practice
   - after: A reasonable number of revision rounds is an ordinary part of the work
@@ -54,48 +45,22 @@ Total: 1370 queue items. Fact base: 8 topics, 8 with at least one source, 0 with
 - **C041 · Credibility Audit** (soften, q283): Explanatory-section line stated intent, certainty or universality as fact; softened using the author's own wording from the audit note.
   - before: a group of people who each believe they are the only one holding something back
   - after: a group of people who may each believe they are the only one holding something back
-- **C042 · Credibility Audit** (soften, q292): Explanatory-section line stated intent, certainty or universality as fact; softened using the author's own wording from the audit note.
-  - before: Arbitrary Authority has to come first because the machine needs no author.
-  - after: Arbitrary Authority has to come first because the machine can function without a visible author.
 - **C043 · Credibility Audit** (soften, q301): Explanatory-section line stated intent, certainty or universality as fact; softened using the author's own wording from the audit note.
   - before: is a young singer who now believes that the worth of her voice is the number of tries she has left
   - after: is a young singer who may come to feel that the worth of her voice is the number of tries she has left
-- **C066 · Credibility Audit** (soften, q507): Explanatory-section line stated intent, certainty or universality as fact; note names the problem and gives only a partial wording, so the smallest change is derived for director review.
-  - before: dignity here meant the removal of the only people who could say what happened
-  - after: the clause had the effect of limiting what anyone can say
 - **C093 · Verbal Breakdown** (soften, q718): F010 shows compilers prohibit and remove irregular transactions but does not show the pattern is the general case; stated as a conditional.
   - before: Sales, spins and listener data are submitted or flagged in concentrated bursts, and the bodies that compile the figures receive material shaped to produce a result.
   - after: Where sales, spins or listener data are submitted or flagged in concentrated bursts, the bodies that compile the figures may receive material shaped to produce a result.
-- **C096 · Credibility Audit** (soften, q746): Explanatory-section line stated intent, certainty or universality as fact; softened using the author's own wording from the audit note.
-  - before: and the replacement is the real mechanism of the pattern
-  - after: and the replacement may show that the same treatment follows the system and not the individual
 - **C108 · Credibility Audit** (soften, q772): Explanatory-section line stated intent, certainty or universality as fact; note names the problem and gives only a partial wording, so the smallest change is derived for director review.
   - before: A plan with no named events cannot be answered, and a plan that cannot be answered cannot be passed.
   - after: A plan with no named events is hard to answer, and a plan that is hard to answer is hard to pass.
-- **C109 · Credibility Audit** (soften, q783): Explanatory-section line stated intent, certainty or universality as fact; softened using the author's own wording from the audit note.
-  - before: works like a fence
-  - after: can function as a barrier
 - **C111 · Credibility Audit** (soften, q794): Explanatory-section line stated intent, certainty or universality as fact; softened using the author's own wording from the audit note.
   - before: This functions by teaching that the system cannot be influenced.
   - after: This can function as teaching that the system cannot be influenced.
-- **C113 · Credibility Audit** (soften, q817): Explanatory-section line stated intent, certainty or universality as fact; softened using the author's own wording from the audit note.
-  - before: a record can be built against you and be completely tidy
-  - after: a record can be late, partial and still look orderly
 - **C117 · Credibility Audit** (soften, q837): Explanatory-section line stated intent, certainty or universality as fact; softened using the author's own wording from the audit note.
   - before: a crowd that grew from nothing
   - after: a crowd that may be partly manufactured
-- **C119 · Credibility Audit** (soften, q845): Explanatory-section line stated intent, certainty or universality as fact; softened using the author's own wording from the audit note.
-  - before: and whose work no longer matters
-  - after: and whose work may stop being read
-- **C122 · Credibility Audit** (soften, q865): Explanatory-section line stated intent, certainty or universality as fact; note names the problem and gives only a partial wording, so the smallest change is derived for director review.
-  - before: holding up the machinery of someone else's brand
-  - after: who may carry much of the community's daily work for someone else's brand
-- **C124 · Credibility Audit** (soften, q875): Explanatory-section line stated intent, certainty or universality as fact; softened using the author's own wording from the audit note.
-  - before: an artist who traded one gatekeeper for another
-  - after: an artist who may now depend on a new kind of gatekeeper
-- **C128 · Credibility Audit** (soften, q886): Author's own softer wording applied to two vivid lines in Why This Order.
-  - before: the verdict arrives before the artist has finished breathing out
-  - after: a result may reach the performer before they have formed their own view
+- **C128 · Credibility Audit** (soften, q886): Author's own softer wording applied to two vivid lines in Why This Order. First of two rewordings is a figurative line and is left as written; the second (a claim about what a person will do) is softened as the author proposed.
   - before: the person administers it themselves
   - after: the person may begin to apply the frame to themselves
 - **C133 · Credibility Audit** (soften, q908): Explanatory-section line stated intent, certainty or universality as fact; softened using the author's own wording from the audit note.
@@ -113,9 +78,6 @@ Total: 1370 queue items. Fact base: 8 topics, 8 with at least one source, 0 with
 - **C160 · Credibility Audit** (soften, q1036): Explanatory-section line stated intent, certainty or universality as fact; softened using the author's own wording from the audit note.
   - before: because the star never has to enforce anything
   - after: because the star may not need to enforce anything
-- **C161 · Credibility Audit** (soften, q1044): Explanatory-section line stated intent, certainty or universality as fact; note names the problem and gives only a partial wording, so the smallest change is derived for director review.
-  - before: the process no longer exists to resolve the problem, but to demonstrate the person's relationship to it
-  - after: the process can operate as though it no longer existed to resolve the problem and existed instead to demonstrate the person's relationship to it
 - **C163 · Credibility Audit** (soften, q1062): Explanatory-section line stated intent, certainty or universality as fact; softened using the author's own wording from the audit note.
   - before: and the wellness program has become the system's answer to its own conditions
   - after: and the wellness program can function as the system's answer to its own conditions
@@ -128,9 +90,6 @@ Total: 1370 queue items. Fact base: 8 topics, 8 with at least one source, 0 with
 - **C173 · Credibility Audit** (soften, q1123): Explanatory-section line stated intent, certainty or universality as fact; softened using the author's own wording from the audit note.
   - before: What is being gathered is a map of leverage
   - after: What is being gathered can function as a map of leverage
-- **C177 · Credibility Audit** (soften, q1152): Explanatory-section line stated intent, certainty or universality as fact; softened using the author's own wording from the audit note.
-  - before: Orbiting is what keeps the bench warm.
-  - after: Orbiting is what lets the connection continue without bookings.
 - **C182 · Credibility Audit** (soften, q1181): Explanatory-section line stated intent, certainty or universality as fact; note names the problem and gives only a partial wording, so the smallest change is derived for director review.
   - before: This functions by training the others to please before any reaction occurs, so the anger rarely has to be used again.
   - after: This can work by the room coming to please before any reaction occurs, so the anger may rarely need to be used again.
@@ -146,15 +105,9 @@ Total: 1370 queue items. Fact base: 8 topics, 8 with at least one source, 0 with
 - **C189 · Credibility Audit** (soften, q1237): Explanatory-section line stated intent, certainty or universality as fact; softened using the author's own wording from the audit note.
   - before: so that the effect is a statistical certainty while
   - after: so that the effect is very likely among a large audience while
-- **C199 · Credibility Audit** (soften, q1310): Explanatory-section line stated intent, certainty or universality as fact; softened using the author's own wording from the audit note.
-  - before: that the referee is wearing the home team's colors
-  - after: that the referee may appear aligned with the home team
 - **C203 · Credibility Audit** (soften, q1346): Explanatory-section line stated intent, certainty or universality as fact; softened using the author's own wording from the audit note.
   - before: This functions by wearing down resolve
   - after: This can function by wearing down resolve
-- **C206 · Credibility Audit** (soften, q1367): Explanatory-section line stated intent, certainty or universality as fact; softened using the author's own wording from the audit note.
-  - before: so that shame becomes the lock
-  - after: so that shame can feel like a lock
 
 ## Topics with no reliable source
 

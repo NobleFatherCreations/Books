@@ -417,16 +417,21 @@
   "section": "Credibility Audit",
   "kind": "audit",
   "tag": "Overstatement risks",
-  "verdict": "soften",
+  "verdict": "no-change",
   "fact": null,
   "before": "Negging comes second because it is cheap and deniable.",
-  "after": "Negging comes second because it costs little and can be defended as banter.",
-  "reason": "Explanatory-section line stated intent, certainty or universality as fact; note names the problem and gives only a partial wording, so the smallest change is derived for director review.",
-  "by": "model",
+  "after": null,
+  "reason": "A figurative or aphoristic line in an explanatory section. It describes the pattern, makes no claim about a person and no checkable claim of fact, and the softer wording would change the author's meaning or flatten it. Left as written.",
+  "by": "director",
   "checked": "2026-11-10",
-  "risk": "medium",
+  "risk": "low",
   "patch_section": "Why This Order",
-  "wording": "derived"
+  "wording": "derived",
+  "escalated": true,
+  "proposed": {
+   "after": "Negging comes second because it costs little and can be defended as banter.",
+   "patches": null
+  }
  },
  {
   "q": 28,
@@ -524,16 +529,21 @@
   "section": "Credibility Audit",
   "kind": "audit",
   "tag": "Overstatement risks",
-  "verdict": "soften",
+  "verdict": "no-change",
   "fact": null,
   "before": "Sunk Cost Exploitation closes the loop and supplies deniability.",
-  "after": "Sunk Cost Exploitation closes the loop, and the result can be hard to attribute to any one decision.",
-  "reason": "Explanatory-section line stated intent, certainty or universality as fact; note names the problem and gives only a partial wording, so the smallest change is derived for director review.",
-  "by": "model",
+  "after": null,
+  "reason": "A figurative or aphoristic line in an explanatory section. It describes the pattern, makes no claim about a person and no checkable claim of fact, and the softer wording would change the author's meaning or flatten it. Left as written.",
+  "by": "director",
   "checked": "2026-11-10",
-  "risk": "medium",
+  "risk": "low",
   "patch_section": "Why This Order",
-  "wording": "derived"
+  "wording": "derived",
+  "escalated": true,
+  "proposed": {
+   "after": "Sunk Cost Exploitation closes the loop, and the result can be hard to attribute to any one decision.",
+   "patches": null
+  }
  },
  {
   "q": 35,
@@ -2170,15 +2180,20 @@
   "section": "Credibility Audit",
   "kind": "audit",
   "tag": "Overstatement risks",
-  "verdict": "soften",
+  "verdict": "no-change",
   "fact": null,
   "before": "The content is irrelevant; the reflex is the product.",
-  "after": "The content may matter less than the reflex it produces.",
-  "reason": "Explanatory-section line stated intent, certainty or universality as fact; softened using the author's own wording from the audit note.",
-  "by": "model",
+  "after": null,
+  "reason": "A figurative or aphoristic line in an explanatory section. It describes the pattern, makes no claim about a person and no checkable claim of fact, and the softer wording would change the author's meaning or flatten it. Left as written.",
+  "by": "director",
   "checked": "2026-11-10",
-  "risk": "medium",
-  "patch_section": "Why This Order"
+  "risk": "low",
+  "patch_section": "Why This Order",
+  "escalated": true,
+  "proposed": {
+   "after": "The content may matter less than the reflex it produces.",
+   "patches": null
+  }
  },
  {
   "q": 144,
@@ -4420,15 +4435,20 @@
   "section": "Credibility Audit",
   "kind": "audit",
   "tag": "Overstatement risks",
-  "verdict": "soften",
+  "verdict": "no-change",
   "fact": null,
   "before": "Arbitrary Authority has to come first because the machine needs no author.",
-  "after": "Arbitrary Authority has to come first because the machine can function without a visible author.",
-  "reason": "Explanatory-section line stated intent, certainty or universality as fact; softened using the author's own wording from the audit note.",
-  "by": "model",
+  "after": null,
+  "reason": "A figurative or aphoristic line in an explanatory section. It describes the pattern, makes no claim about a person and no checkable claim of fact, and the softer wording would change the author's meaning or flatten it. Left as written.",
+  "by": "director",
   "checked": "2026-11-10",
-  "risk": "medium",
-  "patch_section": "Why This Order"
+  "risk": "low",
+  "patch_section": "Why This Order",
+  "escalated": true,
+  "proposed": {
+   "after": "Arbitrary Authority has to come first because the machine can function without a visible author.",
+   "patches": null
+  }
  },
  {
   "q": 293,
@@ -7660,16 +7680,21 @@
   "section": "Credibility Audit",
   "kind": "audit",
   "tag": "Overstatement risks",
-  "verdict": "soften",
+  "verdict": "no-change",
   "fact": null,
   "before": "dignity here meant the removal of the only people who could say what happened",
-  "after": "the clause had the effect of limiting what anyone can say",
-  "reason": "Explanatory-section line stated intent, certainty or universality as fact; note names the problem and gives only a partial wording, so the smallest change is derived for director review.",
-  "by": "model",
+  "after": null,
+  "reason": "A figurative or aphoristic line in an explanatory section. It describes the pattern, makes no claim about a person and no checkable claim of fact, and the softer wording would change the author's meaning or flatten it. Left as written.",
+  "by": "director",
   "checked": "2026-11-10",
-  "risk": "medium",
+  "risk": "low",
   "patch_section": "Civilizational Echo",
-  "wording": "derived"
+  "wording": "derived",
+  "escalated": true,
+  "proposed": {
+   "after": "the clause had the effect of limiting what anyone can say",
+   "patches": null
+  }
  },
  {
   "q": 508,
@@ -11254,15 +11279,20 @@
   "section": "Credibility Audit",
   "kind": "audit",
   "tag": "Overstatement risks",
-  "verdict": "soften",
+  "verdict": "no-change",
   "fact": null,
   "before": "and the replacement is the real mechanism of the pattern",
-  "after": "and the replacement may show that the same treatment follows the system and not the individual",
-  "reason": "Explanatory-section line stated intent, certainty or universality as fact; softened using the author's own wording from the audit note.",
-  "by": "model",
+  "after": null,
+  "reason": "A figurative or aphoristic line in an explanatory section. It describes the pattern, makes no claim about a person and no checkable claim of fact, and the softer wording would change the author's meaning or flatten it. Left as written.",
+  "by": "director",
   "checked": "2026-11-10",
-  "risk": "medium",
-  "patch_section": "Why This Order"
+  "risk": "low",
+  "patch_section": "Why This Order",
+  "escalated": true,
+  "proposed": {
+   "after": "and the replacement may show that the same treatment follows the system and not the individual",
+   "patches": null
+  }
  },
  {
   "q": 747,
@@ -11812,15 +11842,20 @@
   "section": "Credibility Audit",
   "kind": "audit",
   "tag": "Overstatement risks",
-  "verdict": "soften",
+  "verdict": "no-change",
   "fact": null,
   "before": "works like a fence",
-  "after": "can function as a barrier",
-  "reason": "Explanatory-section line stated intent, certainty or universality as fact; softened using the author's own wording from the audit note.",
-  "by": "model",
+  "after": null,
+  "reason": "A figurative or aphoristic line in an explanatory section. It describes the pattern, makes no claim about a person and no checkable claim of fact, and the softer wording would change the author's meaning or flatten it. Left as written.",
+  "by": "director",
   "checked": "2026-11-10",
-  "risk": "medium",
-  "patch_section": "Civilizational Echo"
+  "risk": "low",
+  "patch_section": "Civilizational Echo",
+  "escalated": true,
+  "proposed": {
+   "after": "can function as a barrier",
+   "patches": null
+  }
  },
  {
   "q": 784,
@@ -12324,15 +12359,20 @@
   "section": "Credibility Audit",
   "kind": "audit",
   "tag": "Overstatement risks",
-  "verdict": "soften",
+  "verdict": "no-change",
   "fact": null,
   "before": "a record can be built against you and be completely tidy",
-  "after": "a record can be late, partial and still look orderly",
-  "reason": "Explanatory-section line stated intent, certainty or universality as fact; softened using the author's own wording from the audit note.",
-  "by": "model",
+  "after": null,
+  "reason": "A figurative or aphoristic line in an explanatory section. It describes the pattern, makes no claim about a person and no checkable claim of fact, and the softer wording would change the author's meaning or flatten it. Left as written.",
+  "by": "director",
   "checked": "2026-11-10",
-  "risk": "medium",
-  "patch_section": "Civilizational Echo"
+  "risk": "low",
+  "patch_section": "Civilizational Echo",
+  "escalated": true,
+  "proposed": {
+   "after": "a record can be late, partial and still look orderly",
+   "patches": null
+  }
  },
  {
   "q": 818,
@@ -12746,15 +12786,20 @@
   "section": "Credibility Audit",
   "kind": "audit",
   "tag": "Overstatement risks",
-  "verdict": "soften",
+  "verdict": "no-change",
   "fact": null,
   "before": "and whose work no longer matters",
-  "after": "and whose work may stop being read",
-  "reason": "Explanatory-section line stated intent, certainty or universality as fact; softened using the author's own wording from the audit note.",
-  "by": "model",
+  "after": null,
+  "reason": "A figurative or aphoristic line in an explanatory section. It describes the pattern, makes no claim about a person and no checkable claim of fact, and the softer wording would change the author's meaning or flatten it. Left as written.",
+  "by": "director",
   "checked": "2026-11-10",
-  "risk": "medium",
-  "patch_section": "Civilizational Echo"
+  "risk": "low",
+  "patch_section": "Civilizational Echo",
+  "escalated": true,
+  "proposed": {
+   "after": "and whose work may stop being read",
+   "patches": null
+  }
  },
  {
   "q": 846,
@@ -13047,16 +13092,21 @@
   "section": "Credibility Audit",
   "kind": "audit",
   "tag": "Overstatement risks",
-  "verdict": "soften",
+  "verdict": "no-change",
   "fact": null,
   "before": "holding up the machinery of someone else's brand",
-  "after": "who may carry much of the community's daily work for someone else's brand",
-  "reason": "Explanatory-section line stated intent, certainty or universality as fact; note names the problem and gives only a partial wording, so the smallest change is derived for director review.",
-  "by": "model",
+  "after": null,
+  "reason": "A figurative or aphoristic line in an explanatory section. It describes the pattern, makes no claim about a person and no checkable claim of fact, and the softer wording would change the author's meaning or flatten it. Left as written.",
+  "by": "director",
   "checked": "2026-11-10",
-  "risk": "medium",
+  "risk": "low",
   "patch_section": "Civilizational Echo",
-  "wording": "derived"
+  "wording": "derived",
+  "escalated": true,
+  "proposed": {
+   "after": "who may carry much of the community's daily work for someone else's brand",
+   "patches": null
+  }
  },
  {
   "q": 866,
@@ -13199,15 +13249,20 @@
   "section": "Credibility Audit",
   "kind": "audit",
   "tag": "Overstatement risks",
-  "verdict": "soften",
+  "verdict": "no-change",
   "fact": null,
   "before": "an artist who traded one gatekeeper for another",
-  "after": "an artist who may now depend on a new kind of gatekeeper",
-  "reason": "Explanatory-section line stated intent, certainty or universality as fact; softened using the author's own wording from the audit note.",
-  "by": "model",
+  "after": null,
+  "reason": "A figurative or aphoristic line in an explanatory section. It describes the pattern, makes no claim about a person and no checkable claim of fact, and the softer wording would change the author's meaning or flatten it. Left as written.",
+  "by": "director",
   "checked": "2026-11-10",
-  "risk": "medium",
-  "patch_section": "Civilizational Echo"
+  "risk": "low",
+  "patch_section": "Civilizational Echo",
+  "escalated": true,
+  "proposed": {
+   "after": "an artist who may now depend on a new kind of gatekeeper",
+   "patches": null
+  }
  },
  {
   "q": 876,
@@ -13369,16 +13424,11 @@
   "fact": null,
   "before": "\"The verdict arrives before the artist has finished breathing out\" and \"the person administers it themselves\" are vivid. Softer: \"a result may reach the performer before they have formed their own view\" and \"the person may begin to apply the frame to themselves.\" The cold open is deliberately clean and may imply more design than a real format involves.",
   "after": null,
-  "reason": "Author's own softer wording applied to two vivid lines in Why This Order.",
+  "reason": "Author's own softer wording applied to two vivid lines in Why This Order. First of two rewordings is a figurative line and is left as written; the second (a claim about what a person will do) is softened as the author proposed.",
   "by": "model",
   "checked": "2026-11-10",
   "risk": "medium",
   "patches": [
-   {
-    "section": "Why This Order",
-    "before": "the verdict arrives before the artist has finished breathing out",
-    "after": "a result may reach the performer before they have formed their own view"
-   },
    {
     "section": "Why This Order",
     "before": "the person administers it themselves",
@@ -15783,16 +15833,21 @@
   "section": "Credibility Audit",
   "kind": "audit",
   "tag": "Overstatement risks",
-  "verdict": "soften",
+  "verdict": "no-change",
   "fact": null,
   "before": "the process no longer exists to resolve the problem, but to demonstrate the person's relationship to it",
-  "after": "the process can operate as though it no longer existed to resolve the problem and existed instead to demonstrate the person's relationship to it",
-  "reason": "Explanatory-section line stated intent, certainty or universality as fact; note names the problem and gives only a partial wording, so the smallest change is derived for director review.",
-  "by": "model",
+  "after": null,
+  "reason": "A figurative or aphoristic line in an explanatory section. It describes the pattern, makes no claim about a person and no checkable claim of fact, and the softer wording would change the author's meaning or flatten it. Left as written.",
+  "by": "director",
   "checked": "2026-11-10",
-  "risk": "medium",
+  "risk": "low",
   "patch_section": "Why This Order",
-  "wording": "derived"
+  "wording": "derived",
+  "escalated": true,
+  "proposed": {
+   "after": "the process can operate as though it no longer existed to resolve the problem and existed instead to demonstrate the person's relationship to it",
+   "patches": null
+  }
  },
  {
   "q": 1045,
@@ -17412,15 +17467,20 @@
   "section": "Credibility Audit",
   "kind": "audit",
   "tag": "Overstatement risks",
-  "verdict": "soften",
+  "verdict": "no-change",
   "fact": null,
   "before": "Orbiting is what keeps the bench warm.",
-  "after": "Orbiting is what lets the connection continue without bookings.",
-  "reason": "Explanatory-section line stated intent, certainty or universality as fact; softened using the author's own wording from the audit note.",
-  "by": "model",
+  "after": null,
+  "reason": "A figurative or aphoristic line in an explanatory section. It describes the pattern, makes no claim about a person and no checkable claim of fact, and the softer wording would change the author's meaning or flatten it. Left as written.",
+  "by": "director",
   "checked": "2026-11-10",
-  "risk": "medium",
-  "patch_section": "Why This Order"
+  "risk": "low",
+  "patch_section": "Why This Order",
+  "escalated": true,
+  "proposed": {
+   "after": "Orbiting is what lets the connection continue without bookings.",
+   "patches": null
+  }
  },
  {
   "q": 1153,
@@ -19790,15 +19850,20 @@
   "section": "Credibility Audit",
   "kind": "audit",
   "tag": "Overstatement risks",
-  "verdict": "soften",
+  "verdict": "no-change",
   "fact": null,
   "before": "that the referee is wearing the home team's colors",
-  "after": "that the referee may appear aligned with the home team",
-  "reason": "Explanatory-section line stated intent, certainty or universality as fact; softened using the author's own wording from the audit note.",
-  "by": "model",
+  "after": null,
+  "reason": "A figurative or aphoristic line in an explanatory section. It describes the pattern, makes no claim about a person and no checkable claim of fact, and the softer wording would change the author's meaning or flatten it. Left as written.",
+  "by": "director",
   "checked": "2026-11-10",
-  "risk": "medium",
-  "patch_section": "Civilizational Echo"
+  "risk": "low",
+  "patch_section": "Civilizational Echo",
+  "escalated": true,
+  "proposed": {
+   "after": "that the referee may appear aligned with the home team",
+   "patches": null
+  }
  },
  {
   "q": 1311,
@@ -20648,15 +20713,20 @@
   "section": "Credibility Audit",
   "kind": "audit",
   "tag": "Overstatement risks",
-  "verdict": "soften",
+  "verdict": "no-change",
   "fact": null,
   "before": "so that shame becomes the lock",
-  "after": "so that shame can feel like a lock",
-  "reason": "Explanatory-section line stated intent, certainty or universality as fact; softened using the author's own wording from the audit note.",
-  "by": "model",
+  "after": null,
+  "reason": "A figurative or aphoristic line in an explanatory section. It describes the pattern, makes no claim about a person and no checkable claim of fact, and the softer wording would change the author's meaning or flatten it. Left as written.",
+  "by": "director",
   "checked": "2026-11-10",
-  "risk": "medium",
-  "patch_section": "Verbal Breakdown"
+  "risk": "low",
+  "patch_section": "Verbal Breakdown",
+  "escalated": true,
+  "proposed": {
+   "after": "so that shame can feel like a lock",
+   "patches": null
+  }
  },
  {
   "q": 1368,

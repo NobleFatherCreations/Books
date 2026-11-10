@@ -34,6 +34,66 @@
   "notes": "Statement limited to recoupment; cross-collateralization only described by law-firm blogs and glossaries, which were not used. Named label statements in the release not carried into the page."
  },
  {
+  "id": "F002",
+  "topic": "approval rights over name, image and styling in recording agreements",
+  "statement": "Recording agreements commonly deal with how a label may use an artist's name, likeness and biography, and with who approves creative and marketing decisions. Labels generally expect the last say on marketing and what goes to market, while artists can often negotiate approval or consultation rights over particular uses, so whether a given clause covers later artistic directions depends on its wording.",
+  "scope": "general; terms vary by contract and country",
+  "sources": [
+   {
+    "url": "https://artslaw.com.au/wp-content/uploads/2024/06/09_Recording_Agreement_Factsheet.pdf",
+    "title": "Recording Agreement Fact Sheet",
+    "publisher": "Arts Law Centre of Australia",
+    "published": "",
+    "accessed": "2026-11-10",
+    "quote": "it is often possible to negotiate quite nuanced approvals and consultation rights in favour of the Artist."
+   },
+   {
+    "url": "https://artslaw.com.au/wp-content/uploads/2024/06/09_Recording_Agreement_Factsheet.pdf",
+    "title": "Recording Agreement Fact Sheet (artistic control section)",
+    "publisher": "Arts Law Centre of Australia",
+    "published": "",
+    "accessed": "2026-11-10",
+    "quote": "the issue of who has creative control over what is recorded and whether it’s acceptable to take to market, is usually very closely negotiated."
+   }
+  ],
+  "confidence": "medium",
+  "notes": "Source is an Australian legal-centre fact sheet; no regulator or union page on image approval was reachable. The sentence 'those clauses can be read to cover directions the artist later wants to take' is not itself sourced."
+ },
+ {
+  "id": "F003",
+  "topic": "delivery standards and acceptance in recording agreements ('commercially satisfactory')",
+  "statement": "Recording agreements commonly make delivery depend on the label's acceptance of the recordings. A practitioner source describes 'commercially satisfactory' as the most common delivery standard and 'technically satisfactory' as a rarer, artist-friendly alternative; a legal-centre fact sheet notes labels may specify minimums such as 'acceptable' commercial quality. Whether the standard or the decision-maker is defined varies by contract.",
+  "scope": "general; terms vary by contract and country",
+  "sources": [
+   {
+    "url": "https://benmclane.com/delivery.htm",
+    "title": "Music and entertainment law: delivery",
+    "publisher": "McLane and Wong (entertainment law practice)",
+    "published": "",
+    "accessed": "2026-11-10",
+    "quote": "The most common standard is that the artist must deliver commercially satisfactory recordings."
+   },
+   {
+    "url": "https://benmclane.com/delivery.htm",
+    "title": "Music and entertainment law: delivery",
+    "publisher": "McLane and Wong (entertainment law practice)",
+    "published": "",
+    "accessed": "2026-11-10",
+    "quote": "The better - but more rare - standard for an artist is known as delivering technically satisfactory recordings."
+   },
+   {
+    "url": "https://artslaw.com.au/wp-content/uploads/2024/06/09_Recording_Agreement_Factsheet.pdf",
+    "title": "Recording Agreement Fact Sheet",
+    "publisher": "Arts Law Centre of Australia",
+    "published": "",
+    "accessed": "2026-11-10",
+    "quote": "The label may also specify some minimums for what must be delivered, in terms of playing length, “acceptable” commercial quality etc."
+   }
+  ],
+  "confidence": "medium",
+  "notes": "Supports that the wording exists and is negotiated; does not establish how often the standard is left undefined, so 'cannot be tested' is the script's inference."
+ },
+ {
   "id": "F007",
   "topic": "minors in entertainment: work permits, chaperones, studio teachers, guardian-held earnings",
   "statement": "Jurisdictions regulate children working in entertainment through permits or licences, supervision by approved chaperones or studio teachers, and parent or guardian involvement; the rules differ by place. Rules on holding a minor's earnings in trust were not confirmed from a fetched official page in this run.",
@@ -66,6 +126,40 @@
   ],
   "confidence": "high",
   "notes": "Three jurisdictions show a pattern, not a universal rule. The U.S. DOL and Camden pages returned 403 and are not cited."
+ },
+ {
+  "id": "F008",
+  "topic": "royalty statements, audit rights and objection windows",
+  "statement": "Recording agreements commonly give the artist a right to inspect the label's books to check royalty statements, and the contract may set a time limit for objecting to a statement, often described as one year after it is sent, after which the accounting can become final. The UK voluntary code says recipients of royalty reports, including music makers, should have a contractual right to audit according to the agreed terms. Specific periods vary by contract and place.",
+  "scope": "general; terms vary by contract and country",
+  "sources": [
+   {
+    "url": "https://www.gov.uk/guidance/uk-voluntary-code-of-good-practice-on-transparency-in-music-streaming",
+    "title": "UK Voluntary Code of Good Practice on Transparency in Music Streaming",
+    "publisher": "UK Intellectual Property Office (GOV.UK)",
+    "published": "2024-01-31",
+    "accessed": "2026-11-10",
+    "quote": "Recipient Parties (including Music Makers) should have a contractual right to audit financial information (including royalty accounting) related to streaming"
+   },
+   {
+    "url": "https://artslaw.com.au/wp-content/uploads/2024/06/09_Recording_Agreement_Factsheet.pdf",
+    "title": "Recording Agreement Fact Sheet",
+    "publisher": "Arts Law Centre of Australia",
+    "published": "",
+    "accessed": "2026-11-10",
+    "quote": "The Artist must have a right to inspect the books of the label to make sure the royalty statements are correct."
+   },
+   {
+    "url": "https://benmclane.com/royalties.htm",
+    "title": "Music and entertainment law: royalties",
+    "publisher": "McLane and Wong (entertainment law practice)",
+    "published": "",
+    "accessed": "2026-11-10",
+    "quote": "The objection period is generally stated as being one year after the statement is sent to the artist."
+   }
+  ],
+  "confidence": "medium",
+  "notes": "Objection-period detail rests on a practitioner (law firm) explainer plus an Australian legal-centre fact sheet, not a regulator; audit-right statement rests on the UK IPO code. A court decision on incontestability clauses was found but concerns a named band, so it is not cited."
  },
  {
   "id": "F010",

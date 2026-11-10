@@ -70,7 +70,7 @@ def home(cx):
     body = f"""
 <section class="cover">
   <div class="cover-t">
-  <p class="kicker">{esc(S('site'))} · Sector {cx.me['n']:02d}</p>
+  <p class="kicker">{esc(S('site'))} · Sector {cx.me['n']:02d} of {len(cx.reg['sectors'])}</p>
   <h1 class="display">{esc(cx.title)}</h1>
   <p class="lede">{esc(line)}</p>
   <dl class="figures">
