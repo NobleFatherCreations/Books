@@ -4,6 +4,12 @@ Newest first. Each entry: what was decided, why, and how to change it.
 
 ## 2026-11-10
 
+**D17. The zoom figure is built on the owner's own artwork** (owner request, 2026-11-10: "zoom out from the original, showing the much larger techniques within outer rings, showing the expansion scale in the main image"). The cover image of *The Fractal* (from `library/fractal/index.html`, unchanged, `design/fractal2/art/`) fills the view, draws back to the centre, and the 335 tactic names of one sector are set around it as rings in the same eight stages. A still is kept at `library/fractal2/review/fractal2-zoom-out.jpg`. Change ring size or lettering in `mandalaRows()` in `design/fractal2/intro.js`.
+
+**D16. Rewordings from the tag check are reviewed by the director before they apply.** Of 40 proposed, 15 were figurative lines and stay as the author wrote them; the rule is now in TAG-POLICY §4. Five safety sentences from the author's own audit notes are added to their pages (verdict `surface`), for the owner's approval.
+
+**D15. Research workers: one at a time, and their output is never trusted unread.** Both the Opus and Sonnet workers hit usage limits mid-task; each was resumed after its reset. Every hand-back is re-run through the test suites and read before it is accepted.
+
 **D14. Stale agent discipline.** A sector-build worker (Opus) hit the 5-hour usage limit twice. Per CLAUDE.md, nothing else was dispatched in parallel; the directing session continued the remaining work itself and resumes workers one at a time after the reset.
 
 **D13. THE HOUSE drawer is excluded from this project's accessibility scan.** axe reports one issue inside the shared drawer button (its visible "NF" differs from its label). It is a site-wide component used on every page and is not edited here. Listed for the owner under "next".
