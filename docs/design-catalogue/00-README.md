@@ -17,6 +17,8 @@ A master vocabulary of visual design, interaction and experience choices, so a b
 | `PROMPT-MASTER.md` | The reusable prompt to start any design session (phases, tools, hard rules). Also invokable as the `/design-director` skill |
 | `DESIGN-SYSTEM-GUIDE.md` | **Give this to another AI (and read it yourself).** How the whole system works, the steelman and objections, the opening interview question bank, the operating script, and what the owner must do |
 | `COVERAGE-TEMPLATE.md` | One row per category of the names bible; the AI must mark every row USE / REJECTED / N/A so nothing is silently skipped |
+| `09-award-winners-data.md` | **Raw data:** verified Awwwards Site of the Year winners 2017–2025, 2024–25 scores, and component profiles of the winners with evidence labels (what each was actually made of), recurring patterns, and a research queue for what is still missing |
+| `10-system-gaps-and-improvements.md` | The ten biggest weaknesses of this design system and how to fix them, in suggested order |
 | `05-techniques.md` | Concrete web techniques (CSS, JS, SVG, canvas, WebGL, fonts, media) with a self-containment rating for this repo |
 
 Every item has an ID (`S-12`, `T-07`, `M-31`). Cite IDs in your design-direction document so choices are traceable.
