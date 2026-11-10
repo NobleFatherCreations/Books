@@ -13,6 +13,8 @@ A master vocabulary of visual design, interaction and experience choices, so a b
 | `03-motion-interaction-navigation.md` | Motion principles and techniques, scroll storytelling, interaction models, gestures, navigation, components, feedback, sound and haptics |
 | `04-experience-content-quality.md` | Mental models, emotional tone, content and voice, onboarding, search, forms, errors, trauma-informed and safety design, accessibility, performance, evaluation |
 | `06-master-names-bible.md` | **Start here for "what exists".** 56 categories of pure names: site genres, section types, hero types, nav, scroll techniques, page transitions, text effects, cursor and hover effects, 3D/shader effects, backgrounds, motion vocabulary, cinematic techniques, data-viz forms, design laws, dark patterns, tools, inspiration sources, 2025–26 emerging items |
+| `07-choosing-and-combining.md` | **The intelligence layer.** Why outputs burn out (failure modes F1–F14), the Budget (1 lead, 1 signature, ≤3 feature effects), selection procedure, compatibility rules, composing and pacing, recipes, anti-cliché list, acceptance criteria |
+| `PROMPT-MASTER.md` | The reusable prompt to start any design session (phases, tools, hard rules). Also invokable as the `/design-director` skill |
 | `05-techniques.md` | Concrete web techniques (CSS, JS, SVG, canvas, WebGL, fonts, media) with a self-containment rating for this repo |
 
 Every item has an ID (`S-12`, `T-07`, `M-31`). Cite IDs in your design-direction document so choices are traceable.
@@ -64,3 +66,7 @@ Rejected (with reasons):
 Constraint filter results:
 Hero-screen screenshot paths and critique notes:
 ```
+
+
+## Gates script
+`node scripts/design-gates.mjs <url> <outdir> [--profiles phone-light,desktop-dark,...] [--max 60]` screenshots every scroll step on phone and desktop (light, dark, reduced motion) and fails on figure/text collisions, text over text, page errors, external requests, overflow and reduced-motion violations; warns on tiny text, small tap targets, translucent headers, background-figure legibility, unloaded fonts and too many simultaneous animations. Always read the screenshots it saves.
