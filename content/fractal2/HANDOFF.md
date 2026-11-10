@@ -14,15 +14,16 @@ Repo: NobleFatherCreations/Books · working branch **`claude/peaceful-planck-k0d
 
 | Piece | State | Where |
 |---|---|---|
-| Intro text | Full draft v1 written; needs the independent writing review and one revision pass | `content/fractal2/intro-final.md` |
-| Intro page | Built: 20 figures, phone and desktop, narration player, reduced-motion and no-JS fallbacks | `design/fractal2/` → `library/fractal2/site/fractal2.html` |
-| Intro checks | `node design/fractal2/verify_intro.mjs` (31 checks) | see last run in the session log / rerun |
-| Narration | Script generated; recording guide written; sync tool written and self-tested; placeholder is a silent timing track | `content/fractal2/narration-script.md`, `RECORDING-GUIDE.md`, `design/fractal2/sync_audio.py` |
-| Sector site (ENT) | Generator v2 built by a worker: 518 pages (home, start, patterns, tactics, 8 stages, 10 families, 153 combos with 3 reading modes, 335 tactic pages, method, take-it-with-you, a-z, search, sector switcher). Worker reported 26/26 checks passing before its usage limit; **re-run `design/fractal-sector/run.sh ent` to confirm** | `design/fractal-sector/`, `library/fractal2/site/fractal2/entertainment/` |
-| Packet 02 (notice, 3 reader paths, living map) | Static stubs exist; interactive versions **not yet built** | NAV-SPEC §8–10 |
-| Tag resolution | Tool written; mechanical pass done: 866 of 1,370 items resolved by rule; **504 need the model step** (84 research, 141 overstatement, 141 overapplication, 128 sector accuracy, 10 note checks); ledger not yet applied to pages; reader banners not yet changed | `design/fractal-sector/resolve.py`, `content/fractal/ent/resolution/` |
-| Docs | DECISIONS, ARCHITECTURE, NAV-SPEC, TAG-POLICY, RUBRICS, work packet 01 | `content/fractal2/` |
-| Not started | DESIGN-SPEC.md write-up; rubric scoring by an independent reviewer; `sites.json` registration; screenshots + scroll recording for the owner; the owner report; the "next" list presentation; redirects review; PDFs check (not in repo; look in the owner's Drive) |
+| Intro text | Revised draft (11 parts, about 4,700 words). Part VI is locked to the owner's exact account by a test. Awaiting the independent writing review | `content/fractal2/intro-final.md`, `owner-account.txt` |
+| Intro page | Built: 20 figures from one field of points, phone and desktop, light and dark, reduced-motion and no-JS fallbacks, narration player. The zoom figure starts on The Fractal's own artwork and draws back to show 335 tactic names in rings around it (owner request) | `design/fractal2/` → `library/fractal2/site/fractal2.html` |
+| Intro checks | `node design/fractal2/verify_intro.mjs`: 31 of 31 passed before the zoom change; re-run after it (see session end) | |
+| Narration | Script generated from the page text (about 42 minutes, 12 takes); recording guide; sync tool (self-tested); silent placeholder track | `narration-script.md`, `RECORDING-GUIDE.md`, `design/fractal2/sync_audio.py` |
+| Sector site (ENT) | 518 pages. Home with six doors and a live mini-map, the ten, all patterns (filter, sort, narrow), 335 tactic pages, 8 stage chapters, 10 families, 153 patterns with three reading modes and a sequence stepper, "What are you noticing?" (private), three reader paths, the living map (SVG; pointer, lists, keyboard), method, take-it-with-you, A to Z, search, sector switcher | `design/fractal-sector/` → `library/fractal2/site/fractal2/entertainment/` |
+| Sector checks | `design/fractal-sector/run.sh ent`: 27 checks (the original 16 plus 11). Last full run 26 of 27, the one miss being social cards wiped by a rebuild (fixed); re-run to confirm | |
+| Tag resolution | Tool, policy and ledger in place. 1,186 of 1,370 items decided (866 by rule, 320 by the model, 29 escalations decided by the director). 184 still open (66 research, 118 sector accuracy): a research worker is on them. Director's review of rewordings recorded in `director-decisions.json`; **apply with `python3 design/fractal-sector/resolve.py ent decisions` once the worker has stopped writing the ledger**, then `check --final`, `summary`, rebuild | `content/fractal/ent/resolution/` |
+| Review material | Zoom-out still, sector screenshots (packet 01), phone scroll recording made before the zoom change (re-record) | `library/fractal2/review/`, `design/fractal2/record.mjs` |
+| Docs | DECISIONS, ARCHITECTURE, NAV-SPEC, DESIGN-SPEC, TAG-POLICY, RUBRICS, work packets 01, 03, 04 | `content/fractal2/` |
+| Not done yet | Independent review (packet 04) and rubric scores; fresh recordings; the owner report and the "next" list; ENT PDFs (one found in the owner's Drive: `ENT_combo_book.pdf`, 39 MB; not in the repo; labels inside not checked) | |
 
 ## How to run things
 
