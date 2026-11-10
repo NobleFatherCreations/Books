@@ -64,3 +64,16 @@ Hard fails: any original verify check weakened; a guessed link; a page that tell
 ## Scores
 
 *(appended as reviews happen)*
+
+### Director's scores — 2026-11-10 (before the independent review)
+
+**A. Writing** — A1 3 · A2 4 · A3 3 · A4 4 · A5 4 · A6 3 · A7 4 · A8 4 · A9 3 · A10 3 · A11 3 · A12 4.
+Honest weak points: Part IV (mirror and chain) is the thinnest section and leans on lists; Part IX names eight traditions in one long paragraph and could breathe; a few "That is X" sentence closers repeat; Part X's future passage is one paragraph where the owner asked for a picture of how change comes.
+
+**B. Experience** — B1 4 · B2 3 · B3 4 · B4 3 (measured under 4× throttle: 2.2 ms average, 21.7 ms worst, before the zoom artwork was added; not yet measured on a real phone) · B5 3 · B6 4 · B7 3 · B8 3 · B9 4 · B10 3 (player built; no real voice yet) · B11 3 (same-site shared files, D9) · B12 4.
+Honest weak points: the door figure is the least distinctive; on a phone the roster names sit over the chains; labels on the zoom figure need a real-device check; narration follow has only been exercised with the silent track.
+
+**C. Navigation** — C1 3 · C2 4 · C3 4 · C4 4 · C5 4 · C6 4 · C7 3 · C8 4 · C9 4 · C10 4 · C11 3 · C12 4.
+Honest weak points: the map's ring is dense on a phone (it works through the lists more than by touch); reader-path pages are long; "Sector 12" on the cover means nothing to a newcomer.
+
+No hard fails found by the director. Independent scores follow below when the review is run.
