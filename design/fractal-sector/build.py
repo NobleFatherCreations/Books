@@ -97,12 +97,19 @@ def main(sector, target, base):
     rootdir = pub / cx.root.strip("/")
     sector_dir = rootdir / cx.slug
     # clean only what this generator owns for this sector
+    og_keep = CONFIG["work"] / "build" / sector / "og-keep"       # social cards are slow to render: keep them across rebuilds
+    if (sector_dir / "og").exists():
+        if og_keep.exists():
+            shutil.rmtree(og_keep)
+        shutil.move(str(sector_dir / "og"), str(og_keep))
     if sector_dir.exists():
         shutil.rmtree(sector_dir)
     for f in (rootdir / (cx.slug + ".html"), rootdir / "_a/d" / (sector + "-search.json")):
         if f.exists():
             f.unlink()
     (sector_dir / "tactic").mkdir(parents=True)
+    if og_keep.exists():
+        shutil.move(str(og_keep), str(sector_dir / "og"))
 
     pages = {"": home(cx), "start": start_page(cx), "patterns": patterns_page(cx), "tactics": tactics_page(cx),
              "method": method_page(cx), "take-it-with-you": take_page(cx), "a-z": az_page(cx),

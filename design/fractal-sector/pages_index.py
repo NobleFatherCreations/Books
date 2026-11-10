@@ -245,6 +245,19 @@ def method_page(cx):
     lab_html = "".join('<li><span class="tg tg-%s">%s</span> %s <span class="meta num">%s</span></li>' % (
         k, esc(l), esc(e), esc("%d in the text" % kinds.get(k, 0))) for k, (l, e) in lab)
     st_html = ", ".join("%s: %d" % (STATE_NAME[k], states.get(k, 0)) for k in STATE_NAME)
+    tot = collections.Counter()
+    for info in cx.res.values():
+        for k2 in ("cited", "reworded", "removed", "conditional", "pending", "resolved"):
+            tot[k2] += info.get(k2, 0)
+        tot["added"] += info.get("added", 0)
+    done_pages = sum(1 for k2 in cx.live if cx.res.get(k2) and cx.res[k2]["resolved"] and not cx.res[k2]["pending"])
+    facts = [f for f in cx.facts.values() if f.get("sources")]
+    fact_html = "".join('<li><p><b>%s.</b> %s</p><p class="ui meta">%s</p></li>' % (esc(f["topic"][:1].upper() + f["topic"][1:]), esc(f["statement"]), " · ".join(
+        '<a href="%s" rel="noopener">%s</a> (%s)' % (esc(x["url"]), esc(x["title"]), esc(x["publisher"])) for x in f["sources"])) for f in facts)
+    checking_html = ('<section id="checking"><h2>%s</h2><p>%s</p><p class="ui">%s</p>%s</section>' % (
+        esc(S("method_check_h")), esc(S("method_check")),
+        esc(S("method_check_n", resolved=tot["resolved"], pending=tot["pending"], cited=tot["cited"], reworded=tot["reworded"], removed=tot["removed"], added=tot["added"], pages=done_pages, total=len(cx.live))),
+        ('<h3>%s</h3><ul class="plain sources">%s</ul>' % (esc(S("method_facts_h")), fact_html)) if facts else "")) if cx.res else ""
     body = f"""<header class="phead"><p class="kicker">{esc(S('method_k'))}</p><h1>{esc(S('method_h'))}</h1>
 <p class="lede">{esc(S('method_lede'))}</p></header>
 <div class="prose-ui">
@@ -253,6 +266,7 @@ def method_page(cx):
 <section id="fit"><h2>{esc(S('method_fit_h'))}</h2><p><b>{esc(S('f_fit_a'))}</b> ({sum(c['tier'] == 'A' for c in d['combos'])}) and <b>{esc(S('f_fit_b'))}</b> ({sum(c['tier'] == 'B' for c in d['combos'])}). {esc(S('f_fit_note'))}</p></section>
 <section id="labels"><h2>{esc(S('labels_h'))}</h2><p>{esc(S('method_labels'))}</p><ul class="plain legend-list ui">{lab_html}</ul>
 <p class="ui meta">{esc(S('method_states'))} {esc(st_html)}.</p></section>
+{checking_html}
 <section id="standards"><h2>{esc(S('method_std_h'))}</h2><p>{esc(S('method_std'))}</p>{standards_html(cx)}</section>
 <section id="cite"><h2>{esc(S('method_cite_h'))}</h2><p class="cite ui">{esc(S('author'))}. {cx.date[:4]}. <i>{esc(cx.title)}</i>. {esc(S('site'))}, {esc(S('publisher'))}. {CONFIG['origin']}{cx.u()}</p></section>
 <section id="licence"><h2>{esc(S('method_licence_h'))}</h2><p>{esc(S('method_licence'))}</p></section>
