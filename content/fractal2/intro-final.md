@@ -270,15 +270,11 @@ Now every one of them does. And a thing with a name can be refused.
 
 <!--scene:witness-->
 
-You do not map a machine at this resolution from the outside.
-
 I have experienced manipulation techniques at the highest level, and they have cost me much, several times in my life. The most recent, in the recent past, attempted to take everything from me and from someone I loved.
 
 My healing journey involved forgiving the people who tried to destroy my mind and my heart for money.
 
-Justice is something else. Justice comes from breaking every tool they have, so that none of them ever works on anyone again by the time I am done. And from letting the truth of who they are be seen by everyone they care about. Not by exposing them myself. By exposing their tactics to the entire world, so they can never again hide in the shadows and think they are safe.
-
-That is all I will say about my own life. The rest of this page is about what I built from it, and what it found.
+Justice comes from breaking every tool they have, so that none of them ever works on anyone again by the time I am done. And from letting the truth of who they are be seen by everyone they care about. Not by exposing them myself. By exposing their tactics to the entire world, so they can never again hide in the shadows and think they are safe.
 
 ---
 
@@ -295,6 +291,10 @@ This is the most important thing I have ever mapped. Almost no one speaks about 
 The manipulation that takes years from a life, that takes savings and careers and marriages and minds, never arrives as a single move. It arrives as a combination: several tactics, run together, in a deliberate order, each one preparing the ground for the one that follows.
 
 This is the antagonist of the whole work. Every sector I have mapped, every technique at every level, was leading to this: the compound form. I believe it is the greatest harm one human life can be made to carry, and it has stayed almost entirely unnamed.
+
+You have seen what it leaves behind, even if you never had a word for it. The friend who came back from a job, a marriage, a congregation, a contract, and was not the same person. The one who used to be quick, and now checks every sentence before saying it. The one who cannot tell you where the money went, or the years.
+
+Nothing struck them. Something was assembled around them, one reasonable piece at a time.
 
 Fractal² names it. There are two hundred and three of these compound systems on the master list so far. One hundred and fifty-three of them are at work in the first sector alone.
 
@@ -326,7 +326,7 @@ By the time the extraction begins, every door you would have used to leave has a
 
 <!--fig:multiply | You are a point at the centre of a ring of five open doors: your guard, your way out, your worth, your certainty, your witnesses. As each tactic lands, one door closes. When the last one closes, the ring is a wall.-->
 
-That is why people who survive these systems so often say the same five words. *I don't know how it happened.*
+That is why people who survive these systems so often say the same six words. *I don't know how it happened.*
 
 They are not confused. They are describing, precisely, how it was built to feel.
 

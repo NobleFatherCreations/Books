@@ -4,7 +4,7 @@
 
 **How to read the marks.** `[breath]` a natural breath, about one second. `[pause 2]` hold that many seconds of silence. A line on its own is said on its own. The small numbers at the left are for the editor (they tie each line to the page); do not read them.
 
-**Pace.** About 138 words a minute: slower than conversation. Whole piece about 41:43 at that pace. Record one take per part (file names are given in the recording guide). If you stumble, pause, and start that sentence again; do not restart the part.
+**Pace.** About 138 words a minute: slower than conversation. Whole piece about 41:59 at that pace. Record one take per part (file names are given in the recording guide). If you stumble, pause, and start that sentence again; do not restart the part.
 
 **Section VI is yours.** Say it plainly, at your own speed. Nothing in it is to be added to or performed.
 
@@ -240,37 +240,37 @@
 
 ## Take 06 — Part six. Why I can draw this
 
-*About 1:23 · 172 words · starts at 17:29 in the full piece*
+*About 1:03 · 130 words · starts at 17:29 in the full piece*
 
 `097` **Part six. Why I can draw this.** [pause 2] [breath]
 
-`098` You do not map a machine at this resolution from the outside. [breath]
+`098` I have experienced manipulation techniques at the highest level, and they have cost me much, several times in my life. The most recent, in the recent past, attempted to take everything from me and from someone I loved. [breath]
 
-`099` I have experienced manipulation techniques at the highest level, and they have cost me much, several times in my life. The most recent, in the recent past, attempted to take everything from me and from someone I loved. [breath]
+`099` My healing journey involved forgiving the people who tried to destroy my mind and my heart for money. [breath]
 
-`100` My healing journey involved forgiving the people who tried to destroy my mind and my heart for money. [breath]
-
-`101` Justice is something else. Justice comes from breaking every tool they have, so that none of them ever works on anyone again by the time I am done. And from letting the truth of who they are be seen by everyone they care about. Not by exposing them myself. By exposing their tactics to the entire world, so they can never again hide in the shadows and think they are safe. [breath]
-
-`102` That is all I will say about my own life. The rest of this page is about what I built from it, and what it found. [breath]
+`100` Justice comes from breaking every tool they have, so that none of them ever works on anyone again by the time I am done. And from letting the truth of who they are be seen by everyone they care about. Not by exposing them myself. By exposing their tactics to the entire world, so they can never again hide in the shadows and think they are safe. [breath]
 
 ---
 
 ## Take 07 — Part seven. The sequence
 
-*About 10:35 · 1340 words · starts at 18:53 in the full piece*
+*About 11:10 · 1418 words · starts at 18:33 in the full piece*
 
-`103` **Part seven. The sequence.** [pause 2] [breath]
+`101` **Part seven. The sequence.** [pause 2] [breath]
 
-`104` A note before you go further. This section describes, closely, how people are trapped. If you are inside something like this right now, do not confront anyone on the strength of a page. Tell one person who stands outside it. If you or anyone else is in danger, reach emergency services first. If a child is involved, child protection. [breath]
+`102` A note before you go further. This section describes, closely, how people are trapped. If you are inside something like this right now, do not confront anyone on the strength of a page. Tell one person who stands outside it. If you or anyone else is in danger, reach emergency services first. If a child is involved, child protection. [breath]
 
-`105` This is the most important thing I have ever mapped. Almost no one speaks about it. [breath]
+`103` This is the most important thing I have ever mapped. Almost no one speaks about it. [breath]
 
-`106` No one is manipulated one tactic at a time. [pause 1.5]
+`104` No one is manipulated one tactic at a time. [pause 1.5]
 
-`107` The manipulation that takes years from a life, that takes savings and careers and marriages and minds, never arrives as a single move. It arrives as a combination: several tactics, run together, in a deliberate order, each one preparing the ground for the one that follows. [breath]
+`105` The manipulation that takes years from a life, that takes savings and careers and marriages and minds, never arrives as a single move. It arrives as a combination: several tactics, run together, in a deliberate order, each one preparing the ground for the one that follows. [breath]
 
-`108` This is the antagonist of the whole work. Every sector I have mapped, every technique at every level, was leading to this: the compound form. I believe it is the greatest harm one human life can be made to carry, and it has stayed almost entirely unnamed. [breath]
+`106` This is the antagonist of the whole work. Every sector I have mapped, every technique at every level, was leading to this: the compound form. I believe it is the greatest harm one human life can be made to carry, and it has stayed almost entirely unnamed. [breath]
+
+`107` You have seen what it leaves behind, even if you never had a word for it. The friend who came back from a job, a marriage, a congregation, a contract, and was not the same person. The one who used to be quick, and now checks every sentence before saying it. The one who cannot tell you where the money went, or the years. [breath]
+
+`108` Nothing struck them. Something was assembled around them, one reasonable piece at a time. [breath]
 
 `109` Fractal Squared names it. There are two hundred and three of these compound systems on the master list so far. One hundred and fifty-three of them are at work in the first sector alone. [breath]
 
@@ -296,7 +296,7 @@
 
 `120` By the time the extraction begins, every door you would have used to leave has already been closed. One at a time. And each closing felt reasonable when it happened. [pause 1]
 
-`121` That is why people who survive these systems so often say the same five words. I don't know how it happened. [breath]
+`121` That is why people who survive these systems so often say the same six words. I don't know how it happened. [breath]
 
 `122` They are not confused. They are describing, precisely, how it was built to feel. [breath]
 
@@ -356,7 +356,7 @@
 
 ## Take 08 — Part eight. What it was built from
 
-*About 3:48 · 467 words · starts at 29:28 in the full piece*
+*About 3:48 · 467 words · starts at 29:44 in the full piece*
 
 `149` **Part eight. What it was built from.** [pause 2] [breath]
 
@@ -406,7 +406,7 @@
 
 ## Take 09 — Part nine. Down
 
-*About 3:15 · 404 words · starts at 33:17 in the full piece*
+*About 3:15 · 404 words · starts at 33:33 in the full piece*
 
 `171` **Part nine. Down.** [pause 2] [breath]
 
@@ -444,7 +444,7 @@
 
 ## Take 10 — Part ten. What this is for
 
-*About 3:26 · 433 words · starts at 36:32 in the full piece*
+*About 3:26 · 433 words · starts at 36:48 in the full piece*
 
 `187` **Part ten. What this is for.** [pause 2] [breath]
 
@@ -480,7 +480,7 @@
 
 ## Take 11 — Part eleven. The door
 
-*About 1:42 · 207 words · starts at 39:59 in the full piece*
+*About 1:42 · 207 words · starts at 40:14 in the full piece*
 
 `202` **Part eleven. The door.** [pause 2] [breath]
 

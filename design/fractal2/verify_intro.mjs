@@ -27,8 +27,9 @@ T("updates section with version badge", /id="updates"/.test(html) && /class="bad
 T("title, description (<=160), canonical, og:image", /<title>[^<]+/.test(html) && ((html.match(/name="description" content="([^"]*)/) || [])[1] || "").length <= 160 && html.includes('rel="canonical"') && html.includes("og:image"));
 try { JSON.parse(html.match(/<script type="application\/ld\+json">([\s\S]*?)<\/script>/)[1]); T("structured data parses", true); } catch (e) { T("structured data parses", false, String(e)); }
 // the owner's account: Section VI must contain only the sentences on file
-const vi = md.split("## VI. Why I can draw this")[1].split("## VII.")[0].replace(/<!--[\s\S]*?-->/g, "").replace(/---/g, "").trim().split(/\n\s*\n/).map(s => s.trim()).filter(Boolean);
-T("owner's account is the six approved paragraphs", vi.length === 5 || vi.length === 6, String(vi.length));
+const vi = md.split("## VI. Why I can draw this")[1].split("## VII.")[0].replace(/<!--[\s\S]*?-->/g, "").replace(/---/g, "").trim();
+const approved = fs.readFileSync(path.join(ROOT, "content/fractal2/owner-account.txt"), "utf8").trim();
+T("Part VI is word for word the owner's approved account (content/fractal2/owner-account.txt)", vi === approved, "Part VI differs from the approved text");
 const figsMd = [...md.matchAll(/<!--fig:(\w+)[^|]*\|\s*([^>]+?)-->/g)].filter(m => m[1] !== "NAME");
 const figsHtml = [...html.matchAll(/<figure class="fig[^"]*" data-fig="(\w+)"[\s\S]*?<figcaption class="alt">([\s\S]*?)<\/figcaption>/g)];
 T(`every figure has a text equivalent (${figsHtml.length})`, figsHtml.length === figsMd.length && figsHtml.every(m => m[2].replace(/<[^>]+>/g, "").trim().length > 60));
