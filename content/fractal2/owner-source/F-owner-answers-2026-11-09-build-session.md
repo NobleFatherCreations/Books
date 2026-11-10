@@ -16,3 +16,6 @@
 
 ## 5. The one change to the prompt (opening message of the session)
 "The only modification to this script I have provided is that for any hard constraints it lists - you are allowed to ask me questions on if they can change based on a suggestion you have on how something could be better that you come up with without it, and what the difference would be"
+
+## 6. On stopping to ask (sent while the build was running)
+"As long as we can easily adjust the script of the intro based on feedback , and tweak any design choices you make after you outline both the script and idea - then no need to stop until your done with what your doing"

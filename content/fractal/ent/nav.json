@@ -1,0 +1,79 @@
+{
+ "_about": "Sector navigation config for ENT (input to design/fractal-sector/derive.py). Settings are explicit rules: a pattern belongs to a setting when one of the author's front-matter tags is listed under that setting, exactly. No judgment about any person is encoded here: every keyword is a place, a document, a role or an activity. Owner to review.",
+ "_review": "owner",
+ "short_title": "Entertainment & Music",
+ "phrases": {
+  "industry": "the music and entertainment industry",
+  "in_industry": "in the music and entertainment industry",
+  "cover_line": "How manipulation works in music and entertainment: {tactics} tactics at three levels, {patterns} patterns where they combine, and a way out of each.",
+  "people": "artists, writers, crew and the people who care about them"
+ },
+ "settings": [
+  {"key": "signing", "label": "Signing & contracts", "tags": [
+   "recording-agreement", "contract-clauses", "option-exercise", "option-period", "renewal", "exclusivity", "show-contract",
+   "booking-contract", "radius-clause", "contradictory-terms", "amendment", "definitions", "redefined-terms", "producer-agreement",
+   "verbal-promise", "leaving-member-clause", "signatory", "cancellation-penalty", "negotiation", "delivery-commitment",
+   "post-term", "co-publishing", "licence-renewal", "mutual-agreement", "separation-agreement", "session-release", "charter",
+   "employment", "representation", "licensing", "unsigned-artist", "new-signing", "discovery", "scouting", "pitch"]},
+  {"key": "money", "label": "Money, royalties & accounting", "tags": [
+   "recoupment", "royalties", "accounting", "debt", "advance", "cross-collateralization", "royalty-statement", "audit",
+   "unrecouped-balance", "draw", "commission", "tour-pnl", "tour-settlement", "deductions", "per-diem", "unpaid-labor",
+   "unpaid-work", "invoicing", "session-hours", "pay-to-play", "performance-fees", "enrollment-fees", "residuals",
+   "royalty-accounting", "royalty-rate", "net", "recoupable", "bonus-schedule", "merch", "pay-rates", "credit-and-pay",
+   "distribution-rules", "tour-accounting", "bundled-sales", "sunk-cost", "self-funded", "ownership", "claim-portal",
+   "favors", "escalating-favors", "free-studio-time", "reciprocity", "perks", "scope-creep", "settlement", "publishing"]},
+  {"key": "touring", "label": "Touring & crew", "tags": [
+   "crew", "touring", "tour", "touring-company", "touring-revue", "regional-tour", "road-manager", "run-of-show", "itinerary",
+   "soundcheck", "driver-hours", "production", "production-office", "rigging", "lighting", "sound-engineer",
+   "stage-management", "support-act", "set-slot", "company-housing", "housing", "reunion-tour", "schedule", "scheduling",
+   "dancer", "choreographer", "rehearsal", "music-video"]},
+  {"key": "venues", "label": "Festivals & venues", "tags": [
+   "festival", "venue", "promoter", "booking", "booking-agents", "residency", "showcase", "nightlife", "guest-list", "dj",
+   "headliner", "theater", "pit-band", "orchestra", "ensemble", "chorus", "studio-owner"]},
+  {"key": "management", "label": "Management & labels", "tags": [
+   "management", "manager", "label", "label-staff", "indie-label", "imprint", "roster", "a-and-r", "label-support",
+   "label-control", "label-culture", "artist-development", "distributor", "talent-management", "business-affairs",
+   "publisher", "radio-promotion", "promotion", "debut-album", "debut-single", "shelved-album", "catalog", "estate",
+   "heritage", "intern", "junior-staff", "assistant", "collective-management", "consultant-report", "board-vote", "governance",
+   "data-room", "briefing-packets", "quarterly-review", "scorecard", "performance-review", "performance-memo", "one-on-one-notes",
+   "personnel-file", "reassignment", "workplace", "all-hands", "producer", "producer-performer", "independent-artist"]},
+  {"key": "credit", "label": "Credit & authorship", "tags": [
+   "credit", "credits", "songwriting", "songwriter", "split-sheet", "credit-sheet", "co-write", "topliner", "songwriter-credit",
+   "metadata", "registration", "liner-notes", "session-notes", "session-log", "take-counts", "beatmaker", "placement", "sync",
+   "library-music", "composer", "arranger", "writing-camp", "hook-singer", "session-player", "session-musicians",
+   "session-vocalist", "vocalist", "session", "recording", "mixing", "engineer", "revisions", "delivery-standard", "music-supervisor",
+   "solo-project", "creative-change", "legacy", "anniversary"]},
+  {"key": "reputation", "label": "Reputation & online", "tags": [
+   "reputation", "social-media", "online-harassment", "rumor", "gossip", "impersonation", "reviews", "press-release",
+   "public-statement", "publicity", "publicist", "press-packet", "viral-clip", "leaked-chat", "leaked-messages", "petition",
+   "selective-quotes", "persona", "brand", "image-approval", "metrics", "streaming-data", "charts", "dashboards", "posting",
+   "content-calendar", "spokesperson", "public-praise", "credibility", "professional-standing", "referrals", "reference-letter",
+   "small-industry", "support-tickets", "spin-reports", "exposure", "curation", "reception", "image-provision", "indie-pop"]},
+  {"key": "complaints", "label": "Complaints, NDAs & retaliation", "tags": [
+   "complaint", "complaints", "nda", "confidentiality", "retaliation", "whistleblower", "reporting", "incident-form",
+   "incident-reporting", "safety-report", "confidential-complaint", "counter-complaint", "complaint-reversal",
+   "review-committee", "findings-letter", "blacklisting", "termination", "mediation", "union", "dissent", "speaking-up",
+   "accountability", "blame", "scapegoating", "delayed-disclosure", "intake", "expired-window", "survivors",
+   "witnessed-misconduct", "minutes", "records", "retention", "shared-drive", "deflection", "tone-policing", "soft-threat",
+   "voluntary-departure", "close-out", "acknowledgment", "band-dispute", "closure", "language-access", "interpreter",
+   "information-control", "information-asymmetry", "proxies", "intermediary", "messages", "ambiguity"]},
+  {"key": "young", "label": "Young performers & families", "tags": [
+   "minors", "child-performers", "minor-performer", "teen-creator", "guardian-consent", "guardian-trust", "parent-manager",
+   "family-band", "studio-teacher", "child-welfare", "safeguarding", "family", "sibling-leverage", "development-weekend"]},
+  {"key": "health", "label": "Health, body & safety", "tags": [
+   "safety", "injury", "vocal-health", "hearing-health", "medical-rest", "healthcare", "wellness", "wellness-voucher",
+   "burnout", "fatigue", "mental-health", "nutritionist", "regimen", "stage-safety", "stunt-performer", "welfare",
+   "hypervigilance", "recovery", "crisis-routing", "availability", "responsiveness", "perfectionism", "wardrobe", "consent",
+   "voice"]},
+  {"key": "group", "label": "Group & belonging", "tags": [
+   "belonging", "loyalty", "gratitude", "family-language", "family-culture", "group-chat", "collective", "girl-group",
+   "band-meeting", "band-split", "leaving-member", "departure", "isolation", "ostracism", "exclusion", "group-punishment",
+   "peer-pressure", "group-targeting", "identity", "mentorship", "mentor", "protege", "values-statement", "coalition",
+   "social-proof", "members", "bandleader", "guilt", "duty", "exit", "exit-blocking", "replacement", "dependency", "rescue",
+   "validation", "nostalgia", "partner", "artist", "artists", "approval", "suggestions", "autonomy", "calm-control",
+   "decisions", "self-censorship", "normalization", "baseline-shift", "conditioning", "small-concessions", "shaming",
+   "performance-board", "feedback", "scarcity", "tracking", "label-culture"]},
+  {"key": "fans", "label": "Fans & volunteers", "tags": [
+   "volunteers", "fan-club", "street-team", "unpaid-promotion", "leaderboard", "points"]}
+ ]
+}

@@ -5,8 +5,10 @@ the Enlighten transcript, the Cage and the Intent, and the published interludes.
 Status: for the owner's review. Not deployed.
 
 Build notes (invisible to readers):
-- Lines of the form <!--scene:NAME--> mark where a visualization takes over the stage. The build reads them.
-- Lines of the form <!--alt:NAME ... --> hold the text equivalent of that visualization.
+- <!--scene:NAME--> sets which visualization is on the stage from that point on.
+- <!--fig:NAME | hold=N | text--> places that scene's figure (N screens of scroll) and holds its text equivalent.
+- <!--steps--> ... <!--/steps--> wraps lines that step through the figure that follows them.
+- <!--more:URL | label--> is a connector link to a published page (only pages that exist).
 - Section VI is the owner's own account. It holds only what the owner wrote in message 4. Nothing is added.
 -->
 
@@ -48,6 +50,7 @@ A fractal is a pattern that repeats at every scale. A fern's leaf is a small fer
 
 The cycle that runs inside a manipulative relationship is that kind of shape. It has eight stages, and they arrive in order.
 
+<!--steps-->
 **Idealize.** You are seen, chosen, flooded with warmth.
 **Hook.** You commit, and leaving begins to cost something.
 **Devalue.** The warmth cools, and your worth becomes a thing you have to earn back.
@@ -56,8 +59,9 @@ The cycle that runs inside a manipulative relationship is that kind of shape. It
 **Extract.** What you have is taken: time, money, labor, body, belief.
 **Discard.** You are dropped when there is nothing left to take.
 **Replace.** Someone new is in your seat before it is cold.
+<!--/steps-->
 
-<!--alt:cycle Eight stages arranged in a ring, lighting one after another: Idealize, Hook, Devalue, Confuse, Isolate, Extract, Discard, Replace. After Replace the ring begins again at Idealize.-->
+<!--fig:cycle | Eight stages arranged in a ring, lighting one after another: Idealize, Hook, Devalue, Confuse, Isolate, Extract, Discard, Replace. After Replace the ring begins again at Idealize.-->
 
 Thirty techniques carry a person through those eight stages, from the love bombing at the door to the plausible deniability on the way out. I mapped all thirty, in the order they run.
 
@@ -65,13 +69,15 @@ Thirty techniques carry a person through those eight stages, from the love bombi
 
 Then I showed every one of them at three levels of scale.
 
+<!--steps-->
 **In one life:** the partner, the parent, the boss. The pattern wearing a human face.
 **Inside an institution:** the church, the school, the hospital, the company. The pattern wearing a logo.
 **Across a civilization:** the economy, the culture, the law. The pattern wearing the sky.
 
 The levels do not sit side by side. They nest. The person lives inside the institution. The institution lives inside the civilization. The civilization lives inside the pattern. And the pattern lives inside the person.
+<!--/steps-->
 
-<!--alt:levels Three rings, one inside the next: a single life at the centre, the institution around it, the civilization around that. Then the same three rings appear again, very small, inside the centre point: the pattern inside the person.-->
+<!--fig:levels | Three rings, one inside the next: a single life at the centre, the institution around it, the civilization around that. Then the same three rings appear again, very small, inside the centre point: the pattern inside the person.-->
 
 That is why you could never find the edge of it. You were looking for something above you. It was around you, and through you, and in you, all at once.
 
@@ -87,7 +93,7 @@ And at the end of it, a dare: prove me wrong. Find the building where the cycle 
 
 I am still waiting.
 
-<!--alt:count 2,700 points of light, one for every example in The Fractal, arranged in thirty columns: one column for each sector, ninety points in each.-->
+<!--fig:count hold=1.6 | 2,700 points of light, one for every example in The Fractal, arranged in thirty columns: one column for each sector, ninety points in each.-->
 
 ### Every need has a gate
 
@@ -105,7 +111,7 @@ Religion, and your relationship with the divine. Education, and your relationshi
 
 From the hospital that receives you at birth to the industry that bills you at death, there is no part of a human life it has left unoccupied.
 
-<!--alt:gates Thirty gates in a ring around a single point, which is you. Each gate carries a sector and the relationship it captures: Religion, the divine. Politics, power. Media, reality. Education, your own mind. Healthcare, your own body. Finance, survival. Technology, attention and identity. Family, love. The legal system, freedom. Corporate life, your labor. The military, your sovereignty. Entertainment, being seen. Wellness, your wound. Food, nourishment. Housing, rest. Sports, your physical self. Science, truth and inquiry. Nonprofits, compassion. Beauty, self-acceptance. Dating, intimacy. Surveillance, privacy and autonomy. Child welfare, innocence. Aging and death, mortality. Energy and environment, the living earth. Transportation, movement and access. Mental health, your inner world. Pharmaceuticals, what enters your body. Insurance, risk and safety. Incarceration, confinement. Immigration, belonging and displacement.-->
+<!--fig:gates hold=4.2 | Thirty gates in a ring around a single point, which is you. Each gate carries a sector and the relationship it captures: Religion, the divine. Politics, power. Media, reality. Education, your own mind. Healthcare, your own body. Finance, survival. Technology, attention and identity. Family, love. The legal system, freedom. Corporate life, your labor. The military, your sovereignty. Entertainment, being seen. Wellness, your wound. Food, nourishment. Housing, rest. Sports, your physical self. Science, truth and inquiry. Nonprofits, compassion. Beauty, self-acceptance. Dating, intimacy. Surveillance, privacy and autonomy. Child welfare, innocence. Aging and death, mortality. Energy and environment, the living earth. Transportation, movement and access. Mental health, your inner world. Pharmaceuticals, what enters your body. Insurance, risk and safety. Incarceration, confinement. Immigration, belonging and displacement.-->
 
 And every gate works the same way. The original was free. The counterfeit adds one thing the original never had: a condition.
 
@@ -131,11 +137,13 @@ The cycle does not need a villain.
 
 It behaves like a thought pattern with a life of its own. A parasite. It enters any structure where three conditions meet.
 
+<!--steps-->
 **A real need.**
 **A difference in power.**
 **A gatekeeper standing between the two.**
+<!--/steps-->
 
-<!--alt:origin Three conditions drawn as three circles: a real need, a difference in power, a gatekeeper between them. Where all three overlap, the eight-stage ring appears on its own. No hand places it there.-->
+<!--fig:origin | Three conditions drawn as three circles: a real need, a difference in power, a gatekeeper between them. Where all three overlap, the eight-stage ring appears on its own. No hand places it there.-->
 
 Wherever those three meet, the pattern installs itself and runs. Nobody has to plan it. Nobody has to coordinate it. The hospital was never instructed by the school. Both run the cycle because both meet the conditions.
 
@@ -144,6 +152,8 @@ It replicates, the way a virus replicates, by turning its host's resources into 
 It has no center. There is no one to confront, because it lives in the design. The compassionate doctor walks into the billing system, and the billing system extracts through the compassionate doctor's hands.
 
 **The pattern does not need bad people. It needs structures.** That is why replacing the person at the top never fixed the building.
+
+<!--more:/fractal/the-origin | The full argument: The Origin, in The Fractal-->
 
 ### The carriers and the drivers
 
@@ -171,11 +181,17 @@ The cycle does not only run on you. It runs in you.
 
 It was installed before you had words: through the grade, the mirror, the paycheck, the parent who learned it from their own parent. You run its techniques on yourself at three in the morning, when no institution is in the room.
 
+<!--steps-->
 The self-gaslighting that feels like humility.
 The self-isolation that feels like introversion.
 The self-devaluation that feels like being realistic.
+<!--/steps-->
+
+<!--fig:mirror hold=1.2 | The ring of eight stages, which stood around you, draws inward until it is a small ring turning inside a single point: you.-->
 
 All thirty techniques have an inward form. I mapped those too, because the pattern's most reliable agent has always been the one who lives in your own head and speaks in your own voice.
+
+<!--more:/fractal/the-mirror | All thirty inward forms: The Mirror, in The Fractal-->
 
 <!--scene:chain-->
 
@@ -183,11 +199,13 @@ And it came from further back than you.
 
 I believe it travels down a chain. Through the nervous system you were handed. Through the kind of attachment you learned in your first years. Through the stories your family told about what was normal. And through the body itself: I believe the survival responses of people you never met are still carried in your chemistry. Your great-grandmother was processed by a system. Her body adapted. Her adaptation became your inheritance.
 
-<!--alt:chain A chain of links running back through four generations: a great-grandmother, a grandmother, a mother, and you. You are the last link. Beyond you the chain is undrawn.-->
+<!--fig:chain hold=1.8 | A chain of links running back through four generations: a great-grandmother, a grandmother, a mother, and you. You are the last link. Beyond you the chain is undrawn.-->
 
 You did not start the chain. You did not build the cage. None of it is your fault.
 
 And you are the current end of the chain. The one place where it is either handed on, or stopped.
+
+<!--more:/fractal/the-chain | How it is handed down, and how it stops: The Chain, in The Fractal-->
 
 ---
 
@@ -209,17 +227,21 @@ That is what the small ² stands for. *The Fractal*, turned on itself. The fract
 
 More than a thousand examples for one sector. And there are thirty sectors.
 
-<!--alt:zoom The thirty points of one sector's column swell and divide until there are 335, arranged in eight bands for the eight stages. Then every one of the thirty columns does the same, and the 2,700 points become more than 30,000.-->
+<!--fig:zoom hold=3.4 | The thirty points of one sector's column swell and divide until there are 335, arranged in eight bands for the eight stages. Then every one of the thirty columns does the same, and the 2,700 points become more than 30,000.-->
 
 <!--scene:altitudes-->
 
 Watch what three levels of scale does to a single tactic. Take love bombing, in the music industry.
 
+<!--steps-->
 **In one life.** An A&R scout finds your demo and messages you every night for a week. Voice notes. Studio invitations. *You're the one I've been waiting for.* All of it before a single term is on the table, so that doubt starts to feel like ingratitude.
 
 **Inside an institution.** The label's courtship visit is a choreographed flood: the whole team in the room, your song on the speakers, a tour of the plaque wall. Warmth so total that asking to see the draft feels rude.
 
 **Across a culture.** The discovery myth says the moment someone important notices you is the moment your life begins. So a flood of praise reads as fate arriving, and never as a negotiation starting.
+<!--/steps-->
+
+<!--fig:altitudes | One tactic shown at three heights: a point in one life, a point inside an institution, a point across a culture, one above the other.-->
 
 One tactic. Three altitudes. Now multiply by three hundred and thirty-five. Then by every world a human being moves through.
 
@@ -227,6 +249,7 @@ One tactic. Three altitudes. Now multiply by three hundred and thirty-five. Then
 
 Most people can name five manipulation tactics. Perhaps ten. The ones that do the most damage are the ones most people have never heard named.
 
+<!--steps-->
 The gift that quietly becomes a debt.
 The deadline invented at the moment of signing.
 The warmth that tracks how compliant you have been.
@@ -237,6 +260,9 @@ The "standard" that was never standard.
 Each of them has worked on millions of people for one reason. It had no name.
 
 Now every one of them does. And a thing with a name can be refused.
+<!--/steps-->
+
+<!--fig:names hold=1.0 | The whole field of more than thirty thousand points, grey and unnamed. Then, a few at a time, they turn gold: named.-->
 
 ---
 
@@ -278,7 +304,7 @@ They have names now.
 
 The Debt Prison. The Golden Cage. The Trauma Bond Engine. The Gaslighting Machine. The Phantom Equity. The Memory Hole. The Halo Shield. The Confidentiality Cage. The Frog in Boiling Water. Learned Silence. Walking on Eggshells. Social Death. The Room.
 
-<!--alt:roster The names of the combinations rise one after another out of the dark, until the screen holds dozens of them.-->
+<!--fig:roster hold=2.2 | The names of the combinations rise one after another out of the dark, until the screen holds dozens of them.-->
 
 ### Why the combination is worse than the sum
 
@@ -288,6 +314,7 @@ A single tactic can be survived. A single tactic can even be spotted. Love bombi
 
 A combination does something no single tactic can do. It does not add harm. It multiplies it, because each tactic disables the very defence you would have used against the next.
 
+<!--steps-->
 The warmth lowers your guard, so you do not read the terms.
 The hook makes leaving expensive, so you stay when the warmth cools.
 The devaluation makes you hungry for approval, so you work harder for the people withholding it.
@@ -295,8 +322,9 @@ The confusion takes your certainty, so you cannot trust your own alarm.
 The isolation removes your witnesses, so no one can tell you what they saw.
 
 By the time the extraction begins, every door you would have used to leave has already been closed. One at a time. And each closing felt reasonable when it happened.
+<!--/steps-->
 
-<!--alt:multiply You are a point at the centre of a ring of six open doors: your caution, your options, your self-worth, your certainty, your witnesses, your strength. As each tactic lands, one door closes. When the last one closes, the ring is a wall.-->
+<!--fig:multiply | You are a point at the centre of a ring of five open doors: your guard, your way out, your worth, your certainty, your witnesses. As each tactic lands, one door closes. When the last one closes, the ring is a wall.-->
 
 That is why people who survive these systems so often say the same five words. *I don't know how it happened.*
 
@@ -318,6 +346,7 @@ An advance lands in your account. It is a number you once said out loud only as 
 
 Now watch it again, and this time watch the order.
 
+<!--steps-->
 **One. Financial Enmeshment.** The advance, the recording costs, the video, the tour support and the marketing are written into a single schedule. Every cost and every stream of income is woven into one ledger. More lines than anyone can hold in their head.
 
 **Two. Financial Dependence by Design.** You build a life on the advance. The royalties come slowly, or not at all. You can no longer step away from the relationship that pays for the life.
@@ -329,8 +358,9 @@ Now watch it again, and this time watch the order.
 **Five. Guilt Legacy.** *All the people who believed in you.* Asking for a statement begins to feel like ingratitude.
 
 **Six. Process Exhaustion.** Accounting sends you to business affairs. Business affairs sends you to accounting. The portal wants a password that has expired. Days become weeks, and you stop asking.
+<!--/steps-->
 
-<!--alt:sequence Six links join into a chain, one at a time, in the order the tactics arrive: Financial Enmeshment, Financial Dependence by Design, Sunk Cost Exploitation, Obligation Contracts, Guilt Legacy, Process Exhaustion. With each link a counter climbs faster than the link before it. Then one link is named and broken, and the whole chain falls slack.-->
+<!--fig:sequence | Six links join into a chain, one at a time, in the order the tactics arrive: Financial Enmeshment, Financial Dependence by Design, Sunk Cost Exploitation, Obligation Contracts, Guilt Legacy, Process Exhaustion. With each link a counter climbs faster than the link before it. Then one link is named and broken, and the whole chain falls slack.-->
 
 Every one of those six steps can be defended on its own. Advances are real. Recoupment can be fair. Accounting can be honestly complicated. Whether anyone intended the cell would take more evidence than the pattern itself. That is exactly why it is so hard to see. In sequence, six defensible steps build a room with no door, and the person inside it is told that the confusion is her own.
 
@@ -345,6 +375,8 @@ Now look at that sequence one more time, because the thing that makes it devasta
 It depends on its order. Every link needs the one before it. The guilt needs the debt. The debt needs the dependence. The exhaustion only works on someone who has already been taught that asking is ungrateful.
 
 So you do not have to defeat all six. You have to break one.
+
+<!--fig:break hold=2.2 | The six-link chain again. The fourth link turns gold and opens. The weight that had gathered around the chain drifts away, and the links fall slack.-->
 
 A single independent reading of the schedule, before signing. A single statement you can reproduce line by line. A single plain question, *when could this balance clear*, asked in writing and kept. Break one link, and the chain is no longer a chain.
 
@@ -376,6 +408,7 @@ Love bombing is a counterfeit of genuine welcome. Gaslighting, of honest witness
 
 And the eight stages themselves, as I see them through my own faith, are eight sacred things run backwards.
 
+<!--steps-->
 **Idealize** counterfeits being chosen: known and wanted before you performed anything.
 **Hook** counterfeits covenant: a commitment made for your flourishing, in place of one built so that leaving costs more than staying.
 **Devalue** counterfeits inherent worth: the worth that was yours because you exist.
@@ -384,8 +417,11 @@ And the eight stages themselves, as I see them through my own faith, are eight s
 **Extract** counterfeits abundance: giving as overflow, where the counterfeit takes from what you cannot afford to lose.
 **Discard** counterfeits unfailing presence: *I will never leave you.*
 **Replace** counterfeits irreplaceable worth: the shepherd who leaves the ninety-nine for the one.
+<!--/steps-->
 
-<!--alt:inversion Eight stages in a column, each turning over to show the original it counterfeits. Idealize turns to Chosen. Hook turns to Covenant. Devalue turns to Inherent worth. Confuse turns to Truth. Isolate turns to Community. Extract turns to Abundance. Discard turns to Unfailing presence. Replace turns to Irreplaceable worth.-->
+<!--fig:inversion | Eight stages in a column, each turning over to show the original it counterfeits. Idealize turns to Chosen. Hook turns to Covenant. Devalue turns to Inherent worth. Confuse turns to Truth. Isolate turns to Community. Extract turns to Abundance. Discard turns to Unfailing presence. Replace turns to Irreplaceable worth.-->
+
+<!--more:/fractal/the-spiritual-lens | The eight inversions in full: The Spiritual Lens, in The Fractal-->
 
 You do not have to share my faith to follow this. Put it in any language you like. The claim is simple, and I hold it with my whole life: a counterfeit always comes second. The welcome existed before the love bombing. The witness existed before the gaslight. The pattern cannot create a single thing. It can only take what was already alive in you and turn it against you.
 
@@ -397,6 +433,8 @@ Which means the original is still there.
 
 Under the cortisol, under the shutdown, under every year of being told that your body was wrong, I believe there is a signal that was broadcasting before any system touched you. I call it the **original frequency**.
 
+<!--fig:frequency hold=1.3 | A single gold point, sending out slow rings, like a signal that never stopped broadcasting.-->
+
 It is the part of you that knew something was wrong in that room, when everyone else seemed fine. The feeling in your gut that you were taught to call anxiety. The tiredness that sleep does not fix, which may be your body's honest report that more is being taken from you than is being returned. The loneliness in a full room, which may be your spirit recognizing that counterfeit belonging is not belonging.
 
 Listen to those signals. And have them looked at, too, by someone who listens back. A body can carry more than one truth at once.
@@ -404,6 +442,8 @@ Listen to those signals. And have them looked at, too, by someone who listens ba
 You did not lose the frequency. You were taught to stop listening to it.
 
 It was buried. It was never destroyed.
+
+<!--more:/fractal/the-frequency | The thirty originals, one for every technique: The Frequency, in The Fractal-->
 
 ---
 
@@ -421,13 +461,15 @@ What my work adds is the map of the way there. And the way there does not go up.
 
 You do not arrive by ascending. You do not transcend the body or rise above being human. You go down.
 
+<!--steps-->
 Down through the sectors.
 Down through the techniques.
 Down through the mirror.
 Down through the body.
 Down through the chain, and the generations behind it.
+<!--/steps-->
 
-<!--alt:descent The points of the map rise and fall away above you, layer after layer, as the page descends: the sectors, the techniques, the mirror, the body, the chain. At the bottom there is a single steady light.-->
+<!--fig:descent | The points of the map rise and fall away above you, layer after layer, as the page descends: the sectors, the techniques, the mirror, the body, the chain. At the bottom there is a single steady light.-->
 
 <!--scene:ground-->
 
@@ -463,6 +505,8 @@ But none of it can be built by people who cannot see what is in the way.
 
 That comes first. Before the building, the seeing. A pattern that has been seen can no longer pretend to be the sky. It becomes only a pattern: something with edges, something you can step outside of, refuse, interrupt, and stop handing down. Every person who sees it stops feeding it. And when enough of us can see it, we can come together and build what comes after it.
 
+<!--fig:horizon hold=1.8 | One light. Then another beside it, and another, spreading outward until the dark is full of them.-->
+
 That is what this work is for. To show what is in the way, to everyone, so that all of us can build.
 
 ### A lifetime of work
@@ -477,7 +521,7 @@ The first sector is finished and open below. Twenty-nine more will follow it.
 
 To do this the way it needs to be done will take a lifetime, and I intend to give it one. Because the aim is nothing smaller than this: to bring manipulation, and the eight-stage cycle underneath it, out of the shadows for good. Wherever it exists. Whenever it appears. For everyone.
 
-<!--alt:atlas Thirty sectors drawn as thirty regions of one map. One is lit: Entertainment and Music. The other twenty-nine are outlined and waiting.-->
+<!--fig:atlas hold=1.8 | Thirty sectors drawn as thirty regions of one map. One is lit: Entertainment and Music. The other twenty-nine are outlined and waiting.-->
 
 ---
 
@@ -490,6 +534,8 @@ Go back, now, to the room where this began.
 The room where everyone else seemed fine. Nothing in it has changed. The same people. The same warmth. The same small tightening in your stomach.
 
 Only now you know what the tightening is. It was never your weakness. It was the one part of you that could not be fooled, still doing its work.
+
+<!--fig:door hold=1.5 | A doorway drawn in points of light. It opens, and light spills through it across the floor.-->
 
 You are not afraid of this room anymore. You can stay, or you can leave. And when you go, you leave the door open behind you, for whoever comes next.
 
