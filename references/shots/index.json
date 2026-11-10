@@ -1,0 +1,446 @@
+{
+ "care-public-service/gov-uk": {
+  "url": "https://www.gov.uk/",
+  "ok": [
+   "phone-0",
+   "phone-1",
+   "phone-2",
+   "desktop-0",
+   "desktop-1",
+   "desktop-2"
+  ],
+  "err": null
+ },
+ "care-public-service/govuk-design-system": {
+  "url": "https://design-system.service.gov.uk/",
+  "ok": [
+   "phone-0",
+   "phone-1",
+   "phone-2",
+   "desktop-0",
+   "desktop-1",
+   "desktop-2"
+  ],
+  "err": null
+ },
+ "care-public-service/nhs": {
+  "url": "https://www.nhs.uk/",
+  "ok": [
+   "phone-0",
+   "phone-1",
+   "phone-2",
+   "desktop-0",
+   "desktop-1",
+   "desktop-2"
+  ],
+  "err": null
+ },
+ "care-public-service/the-hotline": {
+  "url": "https://www.thehotline.org/",
+  "ok": [
+   "phone-0",
+   "phone-1",
+   "phone-2",
+   "desktop-0",
+   "desktop-1",
+   "desktop-2"
+  ],
+  "err": null
+ },
+ "care-public-service/womens-aid": {
+  "url": "https://www.womensaid.org.uk/",
+  "ok": [
+   "phone-0",
+   "phone-1",
+   "phone-2",
+   "desktop-0",
+   "desktop-1",
+   "desktop-2"
+  ],
+  "err": null
+ },
+ "care-public-service/chayn": {
+  "url": "https://www.chayn.co/",
+  "ok": [
+   "phone-0",
+   "phone-1",
+   "phone-2",
+   "desktop-0",
+   "desktop-1",
+   "desktop-2"
+  ],
+  "err": null
+ },
+ "care-public-service/calm": {
+  "url": "https://www.calm.com/",
+  "ok": [
+   "phone-0",
+   "phone-1",
+   "phone-2",
+   "desktop-0",
+   "desktop-1",
+   "desktop-2"
+  ],
+  "err": null
+ },
+ "care-public-service/headspace": {
+  "url": "https://www.headspace.com/",
+  "ok": [
+   "phone-0",
+   "phone-1",
+   "phone-2",
+   "desktop-0",
+   "desktop-1",
+   "desktop-2"
+  ],
+  "err": null
+ },
+ "tools-product/linear": {
+  "url": "https://linear.app/",
+  "ok": [
+   "phone-0",
+   "phone-1",
+   "phone-2",
+   "desktop-0",
+   "desktop-1",
+   "desktop-2"
+  ],
+  "err": null
+ },
+ "tools-product/stripe": {
+  "url": "https://stripe.com/",
+  "ok": [
+   "phone-0",
+   "phone-1",
+   "phone-2",
+   "desktop-0",
+   "desktop-1",
+   "desktop-2"
+  ],
+  "err": null
+ },
+ "tools-product/vercel": {
+  "url": "https://vercel.com/",
+  "ok": [
+   "phone-0",
+   "phone-1",
+   "phone-2",
+   "desktop-0",
+   "desktop-1",
+   "desktop-2"
+  ],
+  "err": null
+ },
+ "tools-product/raycast": {
+  "url": "https://www.raycast.com/",
+  "ok": [
+   "phone-0",
+   "phone-1",
+   "phone-2",
+   "desktop-0",
+   "desktop-1",
+   "desktop-2"
+  ],
+  "err": null
+ },
+ "tools-product/notion": {
+  "url": "https://www.notion.com/",
+  "ok": [
+   "phone-0",
+   "phone-1",
+   "phone-2",
+   "desktop-0",
+   "desktop-1",
+   "desktop-2"
+  ],
+  "err": null
+ },
+ "tools-product/framer": {
+  "url": "https://www.framer.com/",
+  "ok": [
+   "phone-0",
+   "phone-1",
+   "phone-2",
+   "desktop-0",
+   "desktop-1",
+   "desktop-2"
+  ],
+  "err": null
+ },
+ "tools-product/arc": {
+  "url": "https://arc.net/",
+  "ok": [
+   "phone-0",
+   "phone-1",
+   "phone-2",
+   "desktop-0",
+   "desktop-1",
+   "desktop-2"
+  ],
+  "err": null
+ },
+ "reading-first/aeon": {
+  "url": "https://aeon.co/essays",
+  "ok": [
+   "phone-0",
+   "phone-1",
+   "phone-2",
+   "desktop-0",
+   "desktop-1",
+   "desktop-2"
+  ],
+  "err": null
+ },
+ "reading-first/marginalian": {
+  "url": "https://www.themarginalian.org/",
+  "ok": [
+   "phone-0",
+   "phone-1",
+   "phone-2",
+   "desktop-0",
+   "desktop-1",
+   "desktop-2"
+  ],
+  "err": null
+ },
+ "reading-first/quanta": {
+  "url": "https://www.quantamagazine.org/",
+  "ok": [
+   "phone-0",
+   "phone-1",
+   "phone-2",
+   "desktop-0",
+   "desktop-1",
+   "desktop-2"
+  ],
+  "err": null
+ },
+ "reading-first/stripe-press": {
+  "url": "https://press.stripe.com/",
+  "ok": [
+   "phone-0",
+   "phone-1",
+   "phone-2",
+   "desktop-0",
+   "desktop-1",
+   "desktop-2"
+  ],
+  "err": null
+ },
+ "reading-first/the-pudding": {
+  "url": "https://pudding.cool/",
+  "ok": [
+   "phone-0",
+   "phone-1",
+   "phone-2",
+   "desktop-0",
+   "desktop-1",
+   "desktop-2"
+  ],
+  "err": null
+ },
+ "reading-first/works-in-progress": {
+  "url": "https://worksinprogress.co/",
+  "ok": [
+   "phone-0",
+   "phone-1",
+   "phone-2",
+   "desktop-0",
+   "desktop-1",
+   "desktop-2"
+  ],
+  "err": null
+ },
+ "reading-first/wait-but-why": {
+  "url": "https://waitbutwhy.com/",
+  "ok": [
+   "phone-0",
+   "phone-1",
+   "phone-2",
+   "desktop-0",
+   "desktop-1",
+   "desktop-2"
+  ],
+  "err": null
+ },
+ "reading-first/standard-ebooks": {
+  "url": "https://standardebooks.org/ebooks",
+  "ok": [
+   "phone-0",
+   "phone-1",
+   "phone-2",
+   "desktop-0",
+   "desktop-1",
+   "desktop-2"
+  ],
+  "err": null
+ },
+ "reading-first/practical-typography": {
+  "url": "https://practicaltypography.com/",
+  "ok": [
+   "phone-0",
+   "phone-1",
+   "phone-2",
+   "desktop-0",
+   "desktop-1",
+   "desktop-2"
+  ],
+  "err": null
+ },
+ "reading-first/gwern": {
+  "url": "https://gwern.net/about",
+  "ok": [
+   "phone-0",
+   "phone-1",
+   "phone-2",
+   "desktop-0",
+   "desktop-1",
+   "desktop-2"
+  ],
+  "err": null
+ },
+ "reading-first/tufte-css": {
+  "url": "https://edwardtufte.github.io/tufte-css/",
+  "ok": [
+   "phone-0",
+   "phone-1",
+   "phone-2",
+   "desktop-0",
+   "desktop-1",
+   "desktop-2"
+  ],
+  "err": null
+ },
+ "reading-first/ciechanowski": {
+  "url": "https://ciechanow.ski/",
+  "ok": [
+   "phone-0",
+   "phone-1",
+   "phone-2",
+   "desktop-0",
+   "desktop-1",
+   "desktop-2"
+  ],
+  "err": null
+ },
+ "showcase-story/lando-norris": {
+  "url": "https://landonorris.com/",
+  "ok": [
+   "phone-0",
+   "phone-1",
+   "phone-2",
+   "desktop-0",
+   "desktop-1",
+   "desktop-2"
+  ],
+  "err": null
+ },
+ "showcase-story/messenger-abeto": {
+  "url": "https://messenger.abeto.co/",
+  "ok": [
+   "phone-0",
+   "phone-1",
+   "phone-2",
+   "desktop-0",
+   "desktop-1",
+   "desktop-2"
+  ],
+  "err": null
+ },
+ "showcase-story/igloo-inc": {
+  "url": "https://www.igloo.inc/",
+  "ok": [
+   "phone-0",
+   "phone-1",
+   "phone-2",
+   "desktop-0",
+   "desktop-1",
+   "desktop-2"
+  ],
+  "err": null
+ },
+ "showcase-story/lusion": {
+  "url": "https://lusion.co/",
+  "ok": [
+   "phone-0",
+   "phone-1",
+   "phone-2",
+   "desktop-0",
+   "desktop-1",
+   "desktop-2"
+  ],
+  "err": null
+ },
+ "showcase-story/noomo-agency": {
+  "url": "https://noomoagency.com/",
+  "ok": [
+   "phone-0",
+   "phone-1",
+   "phone-2",
+   "desktop-0",
+   "desktop-1",
+   "desktop-2"
+  ],
+  "err": null
+ },
+ "showcase-story/bruno-simon": {
+  "url": "https://bruno-simon.com/",
+  "ok": [
+   "phone-0",
+   "phone-1",
+   "phone-2",
+   "desktop-0",
+   "desktop-1",
+   "desktop-2"
+  ],
+  "err": null
+ },
+ "showcase-story/mana-yerba-mate": {
+  "url": "https://en.manayerbamate.com/",
+  "ok": [
+   "phone-0",
+   "phone-1",
+   "phone-2",
+   "desktop-0",
+   "desktop-1",
+   "desktop-2"
+  ],
+  "err": null
+ },
+ "showcase-story/persepolis-getty": {
+  "url": "https://persepolis.getty.edu/",
+  "ok": [
+   "phone-0",
+   "phone-1",
+   "phone-2",
+   "desktop-0",
+   "desktop-1",
+   "desktop-2"
+  ],
+  "err": null
+ },
+ "showcase-story/active-theory": {
+  "url": "https://activetheory.net/",
+  "ok": [
+   "phone-0",
+   "phone-1",
+   "phone-2",
+   "desktop-0",
+   "desktop-1",
+   "desktop-2"
+  ],
+  "err": null
+ },
+ "showcase-story/pangram-pangram": {
+  "url": "https://pangrampangram.com/",
+  "ok": [
+   "phone-0",
+   "phone-1",
+   "phone-2",
+   "desktop-0",
+   "desktop-1",
+   "desktop-2"
+  ],
+  "err": null
+ }
+}

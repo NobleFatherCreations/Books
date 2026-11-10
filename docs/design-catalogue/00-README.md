@@ -19,6 +19,12 @@ A master vocabulary of visual design, interaction and experience choices, so a b
 | `COVERAGE-TEMPLATE.md` | One row per category of the names bible; the AI must mark every row USE / REJECTED / N/A so nothing is silently skipped |
 | `09-award-winners-data.md` | **Raw data:** verified Awwwards Site of the Year winners 2017–2025, 2024–25 scores, and component profiles of the winners with evidence labels (what each was actually made of), recurring patterns, and a research queue for what is still missing |
 | `10-system-gaps-and-improvements.md` | The ten biggest weaknesses of this design system and how to fix them, in suggested order |
+| `11-free-resources-directory.md` | Free fonts, images, 3D, audio, libraries (with verified licences), MCP servers and skills, testing and learning resources |
+| `12-system-v2-improvements.md` | What was built for each of the ten gaps and how to run it; library-policy options; iOS plan; security, rollback, retrospective |
+| `13-html-books-playbook.md` | Everything specific to the owner's HTML books: constraints, 24 components, per-book design seeds, book gates, paste-ready prompt |
+| `recipes.html` | 13 tested, dependency-free technique recipes |
+| `templates/` | OWNER-TASTE, DESIGN-STATE, ASSET-REGISTER, PHONE-CHECK, SCORECARD |
+| `bundle/` | Compiled bundle (5 documents + all-in-one + zip), built by `scripts/build-design-bundle.py` |
 | `05-techniques.md` | Concrete web techniques (CSS, JS, SVG, canvas, WebGL, fonts, media) with a self-containment rating for this repo |
 
 Every item has an ID (`S-12`, `T-07`, `M-31`). Cite IDs in your design-direction document so choices are traceable.

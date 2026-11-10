@@ -1,0 +1,62 @@
+{
+  "_about": "Benchmark sets by job type. Compare new work ONLY within the matching set (award winners are the wrong model for reading, care or tools: see docs/design-catalogue). Add sites with a one-line why. Re-capture quarterly: node scripts/capture-references.mjs",
+  "sets": {
+    "showcase-story": {
+      "use_for": "scroll stories, launches, portfolios, brand worlds (spectacle, motion, 3D). Weak on accessibility: take craft, not structure.",
+      "sites": [
+        {"slug": "lando-norris", "url": "https://landonorris.com/", "why": "Awwwards SOTY 2025; motion-as-personality, Webflow + WebGL"},
+        {"slug": "messenger-abeto", "url": "https://messenger.abeto.co/", "why": "Awwwards SOTY 2025; playable world, handmade illustrative style"},
+        {"slug": "igloo-inc", "url": "https://www.igloo.inc/", "why": "Awwwards SOTY 2024; WebGL UI, procedural ice, particle footer"},
+        {"slug": "lusion", "url": "https://lusion.co/", "why": "studio of SOTY 2023; buttery motion, 3D storytelling"},
+        {"slug": "noomo-agency", "url": "https://noomoagency.com/", "why": "SOTY 2023; upward scroll, pixels+glass identity"},
+        {"slug": "bruno-simon", "url": "https://bruno-simon.com/", "why": "SOTY 2019; drivable physics portfolio, details"},
+        {"slug": "mana-yerba-mate", "url": "https://en.manayerbamate.com/", "why": "SOTY 2023; per-product universes, commerce under play"},
+        {"slug": "persepolis-getty", "url": "https://persepolis.getty.edu/", "why": "SOTY 2022; seamless preloader, video-to-WebGL, accuracy"},
+        {"slug": "active-theory", "url": "https://activetheory.net/", "why": "multi-time SOTY studio"},
+        {"slug": "pangram-pangram", "url": "https://pangrampangram.com/", "why": "SOTY 2021 (Locomotive); type foundry as showcase"}
+      ]
+    },
+    "reading-first": {
+      "use_for": "long-form reading, essays, books: measure, rhythm, restraint, wayfinding. THE benchmark for html books.",
+      "sites": [
+        {"slug": "aeon", "url": "https://aeon.co/essays", "why": "reading comfort, measure, progress, restrained imagery"},
+        {"slug": "marginalian", "url": "https://www.themarginalian.org/", "why": "single-column literary reading, resource-hub feel"},
+        {"slug": "quanta", "url": "https://www.quantamagazine.org/", "why": "science long-reads with figures and illustration"},
+        {"slug": "stripe-press", "url": "https://press.stripe.com/", "why": "book as designed object; per-book identity; cover moment"},
+        {"slug": "the-pudding", "url": "https://pudding.cool/", "why": "data scrollytelling that stays readable"},
+        {"slug": "works-in-progress", "url": "https://worksinprogress.co/", "why": "essay typography, issue structure"},
+        {"slug": "wait-but-why", "url": "https://waitbutwhy.com/", "why": "explanatory hand-drawn figures, huge single-page arguments"},
+        {"slug": "standard-ebooks", "url": "https://standardebooks.org/ebooks", "why": "best-in-class book typography conventions, public-domain books"},
+        {"slug": "practical-typography", "url": "https://practicaltypography.com/", "why": "a typography book as a website; plain, perfect rhythm"},
+        {"slug": "gwern", "url": "https://gwern.net/about", "why": "sidenotes, link popups, extreme reading features (study, do not copy density)"},
+        {"slug": "tufte-css", "url": "https://edwardtufte.github.io/tufte-css/", "why": "sidenotes/marginalia grammar for web books"},
+        {"slug": "ciechanowski", "url": "https://ciechanow.ski/", "why": "explorable explanations embedded in a long read"}
+      ]
+    },
+    "tools-product": {
+      "use_for": "lookup tools, apps, instruments (the Pattern Decoder): density, speed, navigation, command palette.",
+      "sites": [
+        {"slug": "linear", "url": "https://linear.app/", "why": "dark product craft, thin borders, tight grids"},
+        {"slug": "stripe", "url": "https://stripe.com/", "why": "animated gradient hero, precise layout, docs excellence"},
+        {"slug": "vercel", "url": "https://vercel.com/", "why": "black/white, grid lines, developer-credible"},
+        {"slug": "raycast", "url": "https://www.raycast.com/", "why": "keyboard-first, command palette idiom"},
+        {"slug": "notion", "url": "https://www.notion.com/", "why": "warm minimal, illustration, friendly"},
+        {"slug": "framer", "url": "https://www.framer.com/", "why": "contemporary landing grammar, motion"},
+        {"slug": "arc", "url": "https://arc.net/", "why": "playful personality in product marketing"}
+      ]
+    },
+    "care-public-service": {
+      "use_for": "safety, care, crisis, public-service content: clarity, calm, quick exit, plain language. Overrides spectacle.",
+      "sites": [
+        {"slug": "gov-uk", "url": "https://www.gov.uk/", "why": "accessibility benchmark, plain language, one thing per page"},
+        {"slug": "govuk-design-system", "url": "https://design-system.service.gov.uk/", "why": "tested components, patterns incl. 'exit this page' (study)"},
+        {"slug": "nhs", "url": "https://www.nhs.uk/", "why": "health clarity and tone"},
+        {"slug": "the-hotline", "url": "https://www.thehotline.org/", "why": "domestic-violence service: quick exit, neutral calm"},
+        {"slug": "womens-aid", "url": "https://www.womensaid.org.uk/", "why": "abuse support: quick exit pattern, discreet design"},
+        {"slug": "chayn", "url": "https://www.chayn.co/", "why": "trauma-informed design practitioners; open resources"},
+        {"slug": "calm", "url": "https://www.calm.com/", "why": "soft tone, slow motion (watch contrast)"},
+        {"slug": "headspace", "url": "https://www.headspace.com/", "why": "friendly illustration, reassurance"}
+      ]
+    }
+  }
+}

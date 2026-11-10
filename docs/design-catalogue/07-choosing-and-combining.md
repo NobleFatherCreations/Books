@@ -79,7 +79,7 @@ Every finished design has exactly:
 
 **Structural clashes (never both as co-leads):** brutalism × glass; ornament × technical; maximalism × minimalism; playful illustration × solemn subject; skeuomorphic realism × flat; neon × calm.
 
-**Layering order of authority** (when they conflict, higher wins): 1 safety and accessibility → 2 reader state and content → 3 concept → 4 lead style → 5 signature move → 6 decoration.
+**Layering order of authority** (when they conflict, higher wins): 0 the owner's standing rules and each book's own stance (`CLAUDE.md`, `BOOKS.md`: e.g. no progress UI in Loop, no warmth that reads as absolution in The Repair) → 1 safety and accessibility → 2 reader state and content → 3 concept → 4 lead style → 5 signature move → 6 decoration.
 
 **Type × style:** serifs with high contrast suit editorial/cinematic/luxury; neutral grotesques suit Swiss/product; mono suits technical/brutalist; rounded sans suits calm/playful; avoid decorative display faces beyond one headline role. Max 2 families; one expressive, one workhorse.
 

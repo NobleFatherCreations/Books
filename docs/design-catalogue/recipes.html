@@ -1,0 +1,155 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Design recipes</title>
+<style>
+:root{--bg:#0f0f12;--fg:#ececef;--mut:#9a9aa6;--ac:#e5c158;--line:#2a2a31}
+@media (prefers-color-scheme:light){:root{--bg:#f6f4ef;--fg:#18181b;--mut:#5b5b66;--ac:#8a6a10;--line:#d9d5c9}}
+body{margin:0;background:var(--bg);color:var(--fg);font:17px/1.55 system-ui,-apple-system,"Segoe UI",sans-serif}
+main{max-width:980px;margin:0 auto;padding:24px 16px 80px}
+h1{font-size:clamp(28px,6vw,44px);letter-spacing:-.02em;margin:.2em 0}
+p.lead{color:var(--mut);max-width:62ch}
+section{border-top:1px solid var(--line);padding:28px 0}
+h2{font-size:20px;margin:0 0 4px}
+.meta{color:var(--mut);font-size:14px;margin:0 0 12px}
+iframe{width:100%;height:260px;border:1px solid var(--line);border-radius:12px;background:#fff;display:block}
+details{margin-top:10px}summary{cursor:pointer;color:var(--ac)}
+pre{overflow:auto;background:rgba(127,127,127,.12);padding:12px;border-radius:10px;font-size:13px;line-height:1.45;max-height:340px}
+</style></head><body><main>
+<h1>Design recipes</h1>
+<p class="lead">Working, dependency-free code for techniques that top-tier sites use. Each demo runs in an isolated frame; open "code" to copy it. Self-contained: no libraries, no network. Each respects <code>prefers-reduced-motion</code> where it moves. Adapt, do not paste blindly: check against the Budget in 07 and test on a real phone.</p>
+<div id="out"></div>
+
+<template class="recipe" data-title="1. Spring easing with CSS linear()" data-note="Native spring-like overshoot, no library. Used for presses, sheets, reveals.">
+<style>body{display:grid;place-items:center;height:100vh;margin:0;font:16px system-ui;background:#f4f1ea}
+:root{--spring:linear(0,.4 7%,.8 14%,1.02 22%,1.06 28%,1.03 36%,1 50%,.995 70%,1)}
+button{font:inherit;padding:14px 22px;border:0;border-radius:14px;background:#1d1d1f;color:#fff;transition:transform .55s var(--spring)}
+button:active{transform:scale(.92)} .card{margin-top:18px;padding:16px 20px;background:#fff;border-radius:16px;box-shadow:0 8px 30px #0002;transform:translateY(30px) scale(.96);opacity:0;transition:transform .7s var(--spring),opacity .3s}
+.card.on{transform:none;opacity:1}
+@media (prefers-reduced-motion:reduce){*{transition-duration:.01ms!important}}</style>
+<div><button id=b>Press me</button><div class=card id=c>Springs settle; they do not slide linearly.</div></div>
+<script>b.onclick=()=>c.classList.toggle('on')</script>
+</template>
+
+<template class="recipe" data-title="2. Scroll-driven reveal (CSS only, with fallback)" data-note="animation-timeline: view() animates as the element crosses the viewport; falls back to visible content.">
+<style>body{margin:0;font:18px system-ui;background:#101014;color:#eee}.s{height:70vh;display:grid;place-items:center;padding:20px}
+.r{max-width:26ch;font-size:28px;line-height:1.2}
+@supports (animation-timeline:view()){.r{animation:in linear both;animation-timeline:view();animation-range:entry 0% cover 35%}
+@keyframes in{from{opacity:0;transform:translateY(40px)}to{opacity:1;transform:none}}}
+@media (prefers-reduced-motion:reduce){.r{animation:none}}</style>
+<div class=s><p class=r>Scroll inside this frame.</p></div><div class=s><p class=r>Each block eases in as it enters.</p></div><div class=s><p class=r>No JavaScript. Safari support varies: test.</p></div>
+</template>
+
+<template class="recipe" data-title="3. Film grain that actually renders (SVG feTurbulence)" data-note="Fixes the broken data-URI grain from earlier AI output. One inline SVG filter, fixed overlay, non-interactive.">
+<style>body{margin:0;height:100vh;background:linear-gradient(135deg,#243b55,#141e30);color:#fff;font:700 38px system-ui;display:grid;place-items:center}
+.grain{position:fixed;inset:0;pointer-events:none;opacity:.22;mix-blend-mode:overlay}</style>
+<div>Grain, once.</div>
+<svg class=grain width="100%" height="100%" aria-hidden="true"><filter id="n"><feTurbulence type="fractalNoise" baseFrequency=".8" numOctaves="3" stitchTiles="stitch"/><feColorMatrix type="saturate" values="0"/></filter><rect width="100%" height="100%" filter="url(#n)"/></svg>
+</template>
+
+<template class="recipe" data-title="4. Animated mesh gradient (CSS @property)" data-note="Layered radial gradients with animatable custom properties. Cheap alternative to a WebGL shader gradient.">
+<style>@property --a{syntax:'<angle>';inherits:false;initial-value:0deg}
+body{margin:0;height:100vh;display:grid;place-items:center;font:700 34px system-ui;color:#fff;
+background:radial-gradient(60% 60% at calc(30% + 20%*sin(var(--a))) 30%,#ff7a59 0,transparent 60%),radial-gradient(55% 55% at 75% calc(70% + 15%*cos(var(--a))),#5b6cff 0,transparent 60%),#12121a;animation:spin 14s linear infinite}
+@keyframes spin{to{--a:360deg}}@media (prefers-reduced-motion:reduce){body{animation:none}}</style>
+<div>Mesh, drifting.</div>
+</template>
+
+<template class="recipe" data-title="5. Text to particles (specks with mass)" data-note="Samples a word's pixels into points that spring back to place and flee the pointer. Cap the count; pause offscreen.">
+<style>body{margin:0;background:#0b0b0f}canvas{display:block;width:100vw;height:100vh;touch-action:none}</style><canvas id=c></canvas>
+<script>
+const cv=c,ctx=cv.getContext('2d'),dpr=Math.min(2,devicePixelRatio||1);let W,H,P=[],m={x:-9,y:-9};
+function build(word){W=cv.width=Math.max(2,Math.round(innerWidth*dpr));H=cv.height=Math.max(2,Math.round(innerHeight*dpr));ctx.clearRect(0,0,W,H);ctx.fillStyle='#fff';ctx.font=`800 ${Math.min(W/4.2,H*.5)}px system-ui,sans-serif`;ctx.textAlign='center';ctx.textBaseline='middle';ctx.fillText(word,W/2,H/2);
+const d=ctx.getImageData(0,0,W,H).data,step=Math.round(7*dpr);P=[];for(let y=0;y<H;y+=step)for(let x=0;x<W;x+=step)if(d[(y*W+x)*4+3]>128)P.push({x:Math.random()*W,y:Math.random()*H,hx:x,hy:y,vx:0,vy:0});if(P.length>6000)P=P.filter((_,i)=>i%2==0)}
+build('FRACTAL');onresize=()=>build('FRACTAL');addEventListener('load',()=>build('FRACTAL'));
+cv.onpointermove=e=>{m.x=e.clientX*dpr;m.y=e.clientY*dpr};cv.onpointerleave=()=>m.x=-9e3;
+const rm=matchMedia('(prefers-reduced-motion:reduce)').matches;
+(function t(){ctx.fillStyle='rgba(11,11,15,.35)';ctx.fillRect(0,0,W,H);ctx.fillStyle='#e5c158';
+for(const p of P){const dx=m.x-p.x,dy=m.y-p.y,d2=dx*dx+dy*dy,R=120*dpr;if(d2<R*R&&!rm){const f=(1-Math.sqrt(d2)/R)*6;p.vx-=dx/Math.sqrt(d2||1)*f;p.vy-=dy/Math.sqrt(d2||1)*f}
+p.vx+=(p.hx-p.x)*.06;p.vy+=(p.hy-p.y)*.06;p.vx*=.82;p.vy*=.82;p.x+=p.vx;p.y+=p.vy;ctx.fillRect(p.x,p.y,2*dpr,2*dpr)}requestAnimationFrame(t)})();
+</script>
+</template>
+
+<template class="recipe" data-title="6. Flow-field particles (generative texture)" data-note="Noise-driven trails for a living background. Keep it quiet; lower opacity behind text.">
+<style>body{margin:0;background:#0d1117}canvas{display:block;width:100vw;height:100vh}</style><canvas id=c></canvas>
+<script>
+const cv=c,x=cv.getContext('2d');cv.width=Math.max(300,innerWidth);cv.height=Math.max(150,innerHeight);x.fillStyle='#0d1117';x.fillRect(0,0,cv.width,cv.height);
+const N=420,P=[...Array(N)].map(()=>({x:Math.random()*cv.width,y:Math.random()*cv.height}));
+const f=(a,b)=>Math.sin(a*.004+Math.cos(b*.003)*2)+Math.cos(b*.005-Math.sin(a*.002)*2); // cheap smooth field
+const rm=matchMedia('(prefers-reduced-motion:reduce)').matches;
+function step(){if(innerWidth>0&&(cv.width!==innerWidth||cv.height!==innerHeight)){cv.width=innerWidth;cv.height=innerHeight;x.fillStyle='#0d1117';x.fillRect(0,0,cv.width,cv.height)}x.fillStyle='rgba(13,17,23,.04)';x.fillRect(0,0,cv.width,cv.height);x.strokeStyle='rgba(120,190,255,.55)';x.lineWidth=1;
+for(const p of P){const a=f(p.x,p.y)*Math.PI;x.beginPath();x.moveTo(p.x,p.y);p.x+=Math.cos(a)*1.4;p.y+=Math.sin(a)*1.4;x.lineTo(p.x,p.y);x.stroke();if(p.x<0||p.y<0||p.x>cv.width||p.y>cv.height){p.x=Math.random()*cv.width;p.y=Math.random()*cv.height}}
+if(!rm)requestAnimationFrame(step)}step();
+</script>
+</template>
+
+<template class="recipe" data-title="7. Gooey metaballs with an SVG filter (no WebGL)" data-note="Blur + contrast on alpha merges shapes. Great for blobs and menus; keep shapes few.">
+<style>body{margin:0;height:100vh;background:#fdf2e9;display:grid;place-items:center}
+.g{filter:url(#goo);position:relative;width:240px;height:160px}.b{position:absolute;border-radius:50%;background:#e34f26;animation:m 5s ease-in-out infinite alternate}
+.b:nth-child(1){width:90px;height:90px;left:20px;top:30px}.b:nth-child(2){width:70px;height:70px;left:110px;top:20px;animation-delay:-1.5s}.b:nth-child(3){width:60px;height:60px;left:80px;top:80px;animation-delay:-3s}
+@keyframes m{to{transform:translate(50px,20px) scale(1.2)}}@media (prefers-reduced-motion:reduce){.b{animation:none}}</style>
+<svg width="0" height="0" aria-hidden="true"><filter id="goo"><feGaussianBlur in="SourceGraphic" stdDeviation="10"/><feColorMatrix values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 20 -9"/></filter></svg>
+<div class=g><div class=b></div><div class=b></div><div class=b></div></div>
+</template>
+
+<template class="recipe" data-title="8. Text scramble reveal (cheap, DOM-light)" data-note="Swaps characters for a few frames per letter. For headings only; never body text.">
+<style>body{margin:0;height:100vh;display:grid;place-items:center;background:#0c0c0c;color:#9fe870;font:700 28px ui-monospace,Menlo,monospace}</style>
+<div id=t aria-label="Pattern decoded">&nbsp;</div><script>
+const el=t,final='PATTERN, DECODED',chars='!<>-_\\/[]{}=+*^?#';const rm=matchMedia('(prefers-reduced-motion:reduce)').matches;
+if(rm)el.textContent=final;else{let f=0;(function s(){let o='';for(let i=0;i<final.length;i++)o+=f>i*2+6?final[i]:(final[i]===' '?' ':chars[Math.random()*chars.length|0]);el.textContent=o;if(f++<final.length*2+8)requestAnimationFrame(s)})()}
+</script>
+</template>
+
+<template class="recipe" data-title="9. Magnetic button + hover-only guard" data-note="Desktop pointer effect, gated so touch devices never see a half-working hover state.">
+<style>body{margin:0;height:100vh;display:grid;place-items:center;background:#f2efe9;font:16px system-ui}
+button{padding:16px 26px;border:0;border-radius:999px;background:#111;color:#fff;font:inherit;transition:transform .25s cubic-bezier(.2,.8,.2,1)}</style>
+<button id=b>Begin</button><script>
+if(matchMedia('(hover:hover) and (pointer:fine)').matches&&!matchMedia('(prefers-reduced-motion:reduce)').matches){
+ addEventListener('pointermove',e=>{const r=b.getBoundingClientRect(),cx=r.left+r.width/2,cy=r.top+r.height/2,dx=e.clientX-cx,dy=e.clientY-cy,d=Math.hypot(dx,dy);
+ b.style.transform=d<110?`translate(${dx*.25}px,${dy*.25}px)`:'none'})}
+</script>
+</template>
+
+<template class="recipe" data-title="10. Quick Exit (safety pattern)" data-note="Fixed, always visible, replaces history so Back does not return; Esc pressed twice also exits. Use on any sensitive page.">
+<style>body{margin:0;font:17px system-ui;padding:20px}#qe{position:fixed;top:12px;right:12px;z-index:99;background:#b3261e;color:#fff;border:2px solid #fff;border-radius:999px;padding:10px 16px;font:700 14px system-ui;cursor:pointer;box-shadow:0 2px 10px #0004}</style>
+<button id=qe aria-label="Quick exit: leave this site now">Quick exit</button><p>Press the button, or press Escape twice.</p><script>
+function leave(){try{document.body.innerHTML=''}catch(e){} location.replace('about:blank')}
+qe.onclick=leave;let last=0;addEventListener('keydown',e=>{if(e.key==='Escape'){const n=Date.now();if(n-last<600)leave();last=n}});
+</script>
+</template>
+
+<template class="recipe" data-title="11. Infinite marquee (pause on reduced motion)" data-note="Pure CSS ticker. Duplicate content once; translate by -50%.">
+<style>body{margin:0;height:100vh;display:grid;align-items:center;background:#111;color:#fff;font:800 clamp(36px,9vw,80px)/1 system-ui;overflow:hidden}
+.m{display:flex;width:max-content;animation:s 14s linear infinite}.m span{padding-right:.6em}@keyframes s{to{transform:translateX(-50%)}}
+@media (prefers-reduced-motion:reduce){.m{animation:none}}</style>
+<div class=m><span>PATTERNS, NOT PEOPLE —</span><span>PATTERNS, NOT PEOPLE —</span><span>PATTERNS, NOT PEOPLE —</span><span>PATTERNS, NOT PEOPLE —</span></div>
+</template>
+
+<template class="recipe" data-title="12. Ring / orbit diagram generated from data (SVG)" data-note="Names laid out evenly around concentric rings, from an array. Data-driven figures never misspell.">
+<style>body{margin:0;background:#0f1115;display:grid;place-items:center;height:100vh}svg{width:min(92vmin,520px);height:auto}text{font:600 9px system-ui;fill:#cfd3dc}</style>
+<svg viewBox="-260 -260 520 520" id=s role="img" aria-label="Eight rings of techniques"></svg><script>
+const rings=[['Idealize',8],['Hook',10],['Devalue',12],['Confuse',14]],ns='http://www.w3.org/2000/svg';const cols=['#e5c158','#e0783b','#d65a7a','#8a6be0'];
+rings.forEach(([name,n],ri)=>{const r=70+ri*45;const c=document.createElementNS(ns,'circle');c.setAttribute('r',r);c.setAttribute('fill','none');c.setAttribute('stroke',cols[ri]);c.setAttribute('stroke-opacity','.7');s.append(c);
+for(let i=0;i<n;i++){const a=i/n*Math.PI*2-Math.PI/2,t=document.createElementNS(ns,'text');t.setAttribute('x',Math.cos(a)*r);t.setAttribute('y',Math.sin(a)*r);t.setAttribute('text-anchor','middle');t.setAttribute('dominant-baseline','middle');t.setAttribute('transform',`rotate(${a*180/Math.PI+(Math.cos(a)<0?180:0)} ${Math.cos(a)*r} ${Math.sin(a)*r})`);t.textContent=`${name} ${i+1}`;s.append(t)}});
+</script>
+</template>
+
+<template class="recipe" data-title="13. Reduced-motion and reduced-transparency pattern" data-note="Design the reduced version, not just 'off'. Replace movement with a short fade or an instant state.">
+<style>body{margin:0;height:100vh;display:grid;place-items:center;font:17px system-ui;background:#eef}
+.p{padding:22px 26px;border-radius:18px;background:rgba(255,255,255,.55);backdrop-filter:blur(14px);animation:float 3s ease-in-out infinite alternate}
+@keyframes float{to{transform:translateY(-14px)}}
+@media (prefers-reduced-motion:reduce){.p{animation:none}}
+@media (prefers-reduced-transparency:reduce){.p{background:#fff;backdrop-filter:none}}</style>
+<div class=p>Open your OS accessibility settings and toggle reduce motion / transparency.</div>
+</template>
+
+<script>
+const out=document.getElementById('out');
+document.querySelectorAll('template.recipe').forEach((s)=>{
+ const code=s.innerHTML.trim(), sec=document.createElement('section');
+ const doc='<!doctype html><meta charset=utf-8><meta name=viewport content="width=device-width,initial-scale=1">'+code;
+ sec.innerHTML='<h2></h2><p class=meta></p><iframe sandbox="allow-scripts" loading=lazy title=""></iframe><details><summary>code</summary><pre></pre></details>';
+ sec.querySelector('h2').textContent=s.dataset.title; sec.querySelector('.meta').textContent=s.dataset.note;
+ const f=sec.querySelector('iframe'); f.title=s.dataset.title; f.srcdoc=doc; sec.querySelector('pre').textContent=code; out.append(sec);
+});
+</script>
+</main></body></html>
