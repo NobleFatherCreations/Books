@@ -72,7 +72,7 @@ def classify(sector):
     old = {}
     lf = rdir / "ledger.json"
     if lf.exists():                                        # keep decisions already made by the model or the director
-        old = {e["q"]: e for e in json.loads(lf.read_text()) if e.get("by", "rule") != "rule"}
+        old = {e["q"]: e for e in json.loads(lf.read_text()) if e.get("by", "rule") not in ("rule", "pending")}
     today = datetime.date.today().isoformat()
     ledger, todo, used = [], [], set()
     for q, it in enumerate(queue):

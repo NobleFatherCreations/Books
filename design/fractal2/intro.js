@@ -123,7 +123,7 @@
         mk(2701, function (i, o) { if (!i) return you(o, 0, 0, 5, 0); gridPos(i, o); o.s = 1.9; o.a = .88; o.c = 1 + techStage[pK[i]]; o.d = pS[i] / 29; })];
     },
     labels: function () {
-      return [{ h: '0', c: 'big', x: 0, y: L.P ? -1.2 : -.87, a: .03, f: function (p, el) { var t = Math.round(2700 * ss(p * 1.08)).toLocaleString('en-US'); if (el.firstChild.nodeValue !== t) el.firstChild.nodeValue = t; } },
+      return [{ h: '0', c: 'big', x: 0, y: L.P ? -1.2 : -.87, a: .03, f: function (p, el) { var v = Math.round(2700 * ss(p * 1.08)), t = v < 1000 ? String(v) : ((v / 1000) | 0) + ',' + ('00' + v % 1000).slice(-3); if (el.firstChild.nodeValue !== t) el.firstChild.nodeValue = t; } },
         { h: 'examples · 30 sectors × 30 techniques × 3 levels', c: 'cap', x: 0, y: L.P ? 1.08 : .8, a: .5 }];
     } };
   function gateXY(i, o) {
@@ -494,7 +494,7 @@
     ambNow += (((scene.amb === undefined ? .004 : scene.amb)) - ambNow) * k;
     draw(t); updateLabels(st.p, st.inFig);
     if (prog_el) prog_el.style.transform = 'scaleX(' + clamp(st.sy / docH).toFixed(4) + ')';
-    var c1 = performance.now() - t0; cost.n++; cost.sum += c1; if (c1 > cost.max) cost.max = c1;
+    var c1 = performance.now() - t0; cost.n++; cost.sum += c1; if (c1 > cost.max) { cost.max = c1; cost.at = sceneName + '@' + st.p.toFixed(2); }
   }
 
   function boot() {
@@ -511,7 +511,7 @@
     setTimeout(function () { idle(prebuild); }, 1200);
   }
   try { boot(); } catch (e) { root.classList.remove('live'); cv.style.display = 'none'; LB.style.display = 'none'; if (window.console) console.error(e); }
-  window.F2stage = { state: function () { return { scene: sceneName, p: lastP, activeN: activeN, gl: !!gl, gain: gain }; }, cost: function (reset) { var o = { n: cost.n, avg: cost.n ? cost.sum / cost.n : 0, max: cost.max }; if (reset) cost = { n: 0, sum: 0, max: 0 }; return o; } };
+  window.F2stage = { state: function () { return { scene: sceneName, p: lastP, activeN: activeN, gl: !!gl, gain: gain }; }, cost: function (reset) { var o = { n: cost.n, avg: cost.n ? cost.sum / cost.n : 0, max: cost.max, at: cost.at }; if (reset) cost = { n: 0, sum: 0, max: 0 }; return o; } };
 
   /* ---------- contents, quick exit ---------- */
   var tocB = doc.getElementById('toc-b'), toc = doc.getElementById('toc');

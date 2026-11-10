@@ -4964,3 +4964,11 @@ scratchpad/deploy2/hub refreshed. Still awaiting the owner's "deploy the homepag
   Owner words + verbatim scripts in content/fractal2/owner-source/ (A Spiritual Lens script, B War Map, C inner techniques
   17-30 / Cage & Intent / Practice, D Enlighten transcript, E owner messages). Direction changed to /fractal2 (featured on
   homepage). ENT site is public on its Netlify address only; confirm with owner before any change or deploy.
+
+## 2026-11-10 — Fractal² build session (branch `claude/peaceful-planck-k0df08`)
+
+- **Start with `content/fractal2/HANDOFF.md`.** It has the state table, the run commands and the open owner questions.
+- Built, **not deployed**: the Fractal² intro (`library/fractal2/site/fractal2.html`, from `content/fractal2/intro-final.md` via `design/fractal2/`) and the Entertainment & Music sector site v2 (518 pages under `library/fractal2/site/fractal2/entertainment/`, generator in `design/fractal-sector/`). Registered in `sites.json` → `undeployedRedesigns` with `pendingDeploy: true`.
+- Owner answers this session are verbatim in `content/fractal2/owner-source/F-…`: name left to me (chosen: "The closer you look, the more there is"); the intro may be any length; say the work is a lifetime's; no policy list, describe the future instead; decide on a voice clone after recording; no need to pause for approval mid-build if text and design stay adjustable; **save progress before limits hit**.
+- Lessons: (1) Opus workers hit a 5-hour usage limit twice in one session; commit and push before and after every dispatch, and be ready to finish a worker's job directly. (2) `Number.toLocaleString` costs about 50 ms on first use on a throttled phone: never call it inside an animation frame. (3) The shared THE HOUSE drawer needs CSS variables from its host page (`--accent`, `--accent-ink`, `--accent-grad`, `--glow-1`, `--line2`, `--mut`, `--edge-hi`, `--mono`, `--serif`, `--sans`, `--bg`, `--ink`); `design/fractal2/tokens.css` aliases them. (4) axe flags the drawer's own button (label mismatch); it is a site-wide component, not fixed here.
+- The public prototype `fractal-entertainment.netlify.app` is unchanged. Its redirect plan to `/fractal2` is written, not applied.
