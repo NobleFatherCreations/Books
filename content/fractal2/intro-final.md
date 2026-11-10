@@ -227,7 +227,9 @@ That is what the small ² stands for. *The Fractal*, turned on itself. The fract
 
 More than a thousand examples for one sector. And there are thirty sectors.
 
-<!--fig:zoom hold=3.4 | The thirty points of one sector's column swell and divide until there are 335, arranged in eight bands for the eight stages. Then every one of the thirty columns does the same, and the 2,700 points become more than 30,000.-->
+The closer I looked, the further back I had to stand to hold what I found.
+
+<!--fig:zoom hold=5 | The original image of The Fractal fills the view: eight rings for the eight stages, thirty techniques written on them. It draws back until it is a small disc at the centre. Around it, ring after ring of new names appears, in the same eight stages: the 335 tactics of one sector, more than ten times what the original held. Then that whole disc draws back too, and becomes one of thirty.-->
 
 <!--scene:altitudes-->
 

@@ -4,7 +4,7 @@
 
 **How to read the marks.** `[breath]` a natural breath, about one second. `[pause 2]` hold that many seconds of silence. A line on its own is said on its own. The small numbers at the left are for the editor (they tie each line to the page); do not read them.
 
-**Pace.** About 138 words a minute: slower than conversation. Whole piece about 41:59 at that pace. Record one take per part (file names are given in the recording guide). If you stumble, pause, and start that sentence again; do not restart the part.
+**Pace.** About 138 words a minute: slower than conversation. Whole piece about 42:06 at that pace. Record one take per part (file names are given in the recording guide). If you stumble, pause, and start that sentence again; do not restart the part.
 
 **Section VI is yours.** Say it plainly, at your own speed. Nothing in it is to be added to or performed.
 
@@ -190,7 +190,7 @@
 
 ## Take 05 — Part five. The closer you look
 
-*About 3:26 · 413 words · starts at 14:02 in the full piece*
+*About 3:34 · 429 words · starts at 14:02 in the full piece*
 
 `075` **Part five. The closer you look.** [pause 2] [breath]
 
@@ -208,294 +208,296 @@
 
 `082` More than a thousand examples for one sector. And there are thirty sectors. [breath]
 
-`083` Watch what three levels of scale does to a single tactic. Take love bombing, in the music industry. [breath]
+`083` The closer I looked, the further back I had to stand to hold what I found. [breath]
 
-`084` In one life. An A and R scout finds your demo and messages you every night for a week. Voice notes. Studio invitations. You're the one I've been waiting for. All of it before a single term is on the table, so that doubt starts to feel like ingratitude. [pause 1]
+`084` Watch what three levels of scale does to a single tactic. Take love bombing, in the music industry. [breath]
 
-`085` Inside an institution. The label's courtship visit is a choreographed flood: the whole team in the room, your song on the speakers, a tour of the plaque wall. Warmth so total that asking to see the draft feels rude. [pause 1]
+`085` In one life. An A and R scout finds your demo and messages you every night for a week. Voice notes. Studio invitations. You're the one I've been waiting for. All of it before a single term is on the table, so that doubt starts to feel like ingratitude. [pause 1]
 
-`086` Across a culture. The discovery myth says the moment someone important notices you is the moment your life begins. So a flood of praise reads as fate arriving, and never as a negotiation starting. [pause 1]
+`086` Inside an institution. The label's courtship visit is a choreographed flood: the whole team in the room, your song on the speakers, a tour of the plaque wall. Warmth so total that asking to see the draft feels rude. [pause 1]
 
-`087` One tactic. Three altitudes. Now multiply by three hundred and thirty-five. Then by every world a human being moves through. [breath]
+`087` Across a culture. The discovery myth says the moment someone important notices you is the moment your life begins. So a flood of praise reads as fate arriving, and never as a negotiation starting. [pause 1]
 
-`088` Most people can name five manipulation tactics. Perhaps ten. The ones that do the most damage are the ones most people have never heard named. [breath]
+`088` One tactic. Three altitudes. Now multiply by three hundred and thirty-five. Then by every world a human being moves through. [breath]
 
-`089` The gift that quietly becomes a debt. [pause 1]
+`089` Most people can name five manipulation tactics. Perhaps ten. The ones that do the most damage are the ones most people have never heard named. [breath]
 
-`090` The deadline invented at the moment of signing. [pause 1]
+`090` The gift that quietly becomes a debt. [pause 1]
 
-`091` The warmth that tracks how compliant you have been. [pause 1]
+`091` The deadline invented at the moment of signing. [pause 1]
 
-`092` The friendly question that is really a test. [pause 1]
+`092` The warmth that tracks how compliant you have been. [pause 1]
 
-`093` The confidentiality that stops you from asking anyone else. [pause 1]
+`093` The friendly question that is really a test. [pause 1]
 
-`094` The "standard" that was never standard. [pause 1]
+`094` The confidentiality that stops you from asking anyone else. [pause 1]
 
-`095` Each of them has worked on millions of people for one reason. It had no name. [pause 1]
+`095` The "standard" that was never standard. [pause 1]
 
-`096` Now every one of them does. And a thing with a name can be refused. [pause 1]
+`096` Each of them has worked on millions of people for one reason. It had no name. [pause 1]
+
+`097` Now every one of them does. And a thing with a name can be refused. [pause 1]
 
 ---
 
 ## Take 06 — Part six. Why I can draw this
 
-*About 1:03 · 130 words · starts at 17:29 in the full piece*
+*About 1:03 · 130 words · starts at 17:37 in the full piece*
 
-`097` **Part six. Why I can draw this.** [pause 2] [breath]
+`098` **Part six. Why I can draw this.** [pause 2] [breath]
 
-`098` I have experienced manipulation techniques at the highest level, and they have cost me much, several times in my life. The most recent, in the recent past, attempted to take everything from me and from someone I loved. [breath]
+`099` I have experienced manipulation techniques at the highest level, and they have cost me much, several times in my life. The most recent, in the recent past, attempted to take everything from me and from someone I loved. [breath]
 
-`099` My healing journey involved forgiving the people who tried to destroy my mind and my heart for money. [breath]
+`100` My healing journey involved forgiving the people who tried to destroy my mind and my heart for money. [breath]
 
-`100` Justice comes from breaking every tool they have, so that none of them ever works on anyone again by the time I am done. And from letting the truth of who they are be seen by everyone they care about. Not by exposing them myself. By exposing their tactics to the entire world, so they can never again hide in the shadows and think they are safe. [breath]
+`101` Justice comes from breaking every tool they have, so that none of them ever works on anyone again by the time I am done. And from letting the truth of who they are be seen by everyone they care about. Not by exposing them myself. By exposing their tactics to the entire world, so they can never again hide in the shadows and think they are safe. [breath]
 
 ---
 
 ## Take 07 — Part seven. The sequence
 
-*About 11:10 · 1418 words · starts at 18:33 in the full piece*
+*About 11:10 · 1418 words · starts at 18:41 in the full piece*
 
-`101` **Part seven. The sequence.** [pause 2] [breath]
+`102` **Part seven. The sequence.** [pause 2] [breath]
 
-`102` A note before you go further. This section describes, closely, how people are trapped. If you are inside something like this right now, do not confront anyone on the strength of a page. Tell one person who stands outside it. If you or anyone else is in danger, reach emergency services first. If a child is involved, child protection. [breath]
+`103` A note before you go further. This section describes, closely, how people are trapped. If you are inside something like this right now, do not confront anyone on the strength of a page. Tell one person who stands outside it. If you or anyone else is in danger, reach emergency services first. If a child is involved, child protection. [breath]
 
-`103` This is the most important thing I have ever mapped. Almost no one speaks about it. [breath]
+`104` This is the most important thing I have ever mapped. Almost no one speaks about it. [breath]
 
-`104` No one is manipulated one tactic at a time. [pause 1.5]
+`105` No one is manipulated one tactic at a time. [pause 1.5]
 
-`105` The manipulation that takes years from a life, that takes savings and careers and marriages and minds, never arrives as a single move. It arrives as a combination: several tactics, run together, in a deliberate order, each one preparing the ground for the one that follows. [breath]
+`106` The manipulation that takes years from a life, that takes savings and careers and marriages and minds, never arrives as a single move. It arrives as a combination: several tactics, run together, in a deliberate order, each one preparing the ground for the one that follows. [breath]
 
-`106` This is the antagonist of the whole work. Every sector I have mapped, every technique at every level, was leading to this: the compound form. I believe it is the greatest harm one human life can be made to carry, and it has stayed almost entirely unnamed. [breath]
+`107` This is the antagonist of the whole work. Every sector I have mapped, every technique at every level, was leading to this: the compound form. I believe it is the greatest harm one human life can be made to carry, and it has stayed almost entirely unnamed. [breath]
 
-`107` You have seen what it leaves behind, even if you never had a word for it. The friend who came back from a job, a marriage, a congregation, a contract, and was not the same person. The one who used to be quick, and now checks every sentence before saying it. The one who cannot tell you where the money went, or the years. [breath]
+`108` You have seen what it leaves behind, even if you never had a word for it. The friend who came back from a job, a marriage, a congregation, a contract, and was not the same person. The one who used to be quick, and now checks every sentence before saying it. The one who cannot tell you where the money went, or the years. [breath]
 
-`108` Nothing struck them. Something was assembled around them, one reasonable piece at a time. [breath]
+`109` Nothing struck them. Something was assembled around them, one reasonable piece at a time. [breath]
 
-`109` Fractal Squared names it. There are two hundred and three of these compound systems on the master list so far. One hundred and fifty-three of them are at work in the first sector alone. [breath]
+`110` Fractal Squared names it. There are two hundred and three of these compound systems on the master list so far. One hundred and fifty-three of them are at work in the first sector alone. [breath]
 
-`110` They have names now. [breath]
+`111` They have names now. [breath]
 
-`111` The Debt Prison. The Golden Cage. The Trauma Bond Engine. The Gaslighting Machine. The Phantom Equity. The Memory Hole. The Halo Shield. The Confidentiality Cage. The Frog in Boiling Water. Learned Silence. Walking on Eggshells. Social Death. The Room. [breath]
+`112` The Debt Prison. The Golden Cage. The Trauma Bond Engine. The Gaslighting Machine. The Phantom Equity. The Memory Hole. The Halo Shield. The Confidentiality Cage. The Frog in Boiling Water. Learned Silence. Walking on Eggshells. Social Death. The Room. [breath]
 
-`112` **Why the combination is worse than the sum.** [pause 2]
+`113` **Why the combination is worse than the sum.** [pause 2]
 
-`113` A single tactic can be survived. A single tactic can even be spotted. Love bombing on its own is only intensity, and many people learn to slow down when warmth arrives too fast. One gaslit memory can be checked against a friend's. One unfair contract can be read by a lawyer. [breath]
+`114` A single tactic can be survived. A single tactic can even be spotted. Love bombing on its own is only intensity, and many people learn to slow down when warmth arrives too fast. One gaslit memory can be checked against a friend's. One unfair contract can be read by a lawyer. [breath]
 
-`114` A combination does something no single tactic can do. It does not add harm. It multiplies it, because each tactic disables the very defence you would have used against the next. [breath]
+`115` A combination does something no single tactic can do. It does not add harm. It multiplies it, because each tactic disables the very defence you would have used against the next. [breath]
 
-`115` The warmth lowers your guard, so you do not read the terms. [pause 1]
+`116` The warmth lowers your guard, so you do not read the terms. [pause 1]
 
-`116` The hook makes leaving expensive, so you stay when the warmth cools. [pause 1]
+`117` The hook makes leaving expensive, so you stay when the warmth cools. [pause 1]
 
-`117` The devaluation makes you hungry for approval, so you work harder for the people withholding it. [pause 1]
+`118` The devaluation makes you hungry for approval, so you work harder for the people withholding it. [pause 1]
 
-`118` The confusion takes your certainty, so you cannot trust your own alarm. [pause 1]
+`119` The confusion takes your certainty, so you cannot trust your own alarm. [pause 1]
 
-`119` The isolation removes your witnesses, so no one can tell you what they saw. [pause 1]
+`120` The isolation removes your witnesses, so no one can tell you what they saw. [pause 1]
 
-`120` By the time the extraction begins, every door you would have used to leave has already been closed. One at a time. And each closing felt reasonable when it happened. [pause 1]
+`121` By the time the extraction begins, every door you would have used to leave has already been closed. One at a time. And each closing felt reasonable when it happened. [pause 1]
 
-`121` That is why people who survive these systems so often say the same six words. I don't know how it happened. [breath]
+`122` That is why people who survive these systems so often say the same six words. I don't know how it happened. [breath]
 
-`122` They are not confused. They are describing, precisely, how it was built to feel. [breath]
+`123` They are not confused. They are describing, precisely, how it was built to feel. [breath]
 
-`123` **Why the order is the weapon.** [pause 2]
+`124` **Why the order is the weapon.** [pause 2]
 
-`124` The order is not decoration. The order is the mechanism. [breath]
+`125` The order is not decoration. The order is the mechanism. [breath]
 
-`125` Begin with cruelty, and a person leaves. Begin with kindness that comes and goes without reason, then cruelty, then relief, and the same person bonds to the hand that is hurting them. The steps are identical. Only the order changed. The order is what turns harm into attachment. [breath]
+`126` Begin with cruelty, and a person leaves. Begin with kindness that comes and goes without reason, then cruelty, then relief, and the same person bonds to the hand that is hurting them. The steps are identical. Only the order changed. The order is what turns harm into attachment. [breath]
 
-`126` Here is one of them, slowed down. It is a composite, built from common situations. No real person or company is described. [breath]
+`127` Here is one of them, slowed down. It is a composite, built from common situations. No real person or company is described. [breath]
 
-`127` The Debt Prison does not begin with debt. It begins with the best news of your life. [breath]
+`128` The Debt Prison does not begin with debt. It begins with the best news of your life. [breath]
 
-`128` An advance lands in your account. It is a number you once said out loud only as a joke. For the first time, you do not check your balance before buying groceries. You call your mother. Someone at the label puts a warm hand on your shoulder and says, enjoy it, you earned it. [breath]
+`129` An advance lands in your account. It is a number you once said out loud only as a joke. For the first time, you do not check your balance before buying groceries. You call your mother. Someone at the label puts a warm hand on your shoulder and says, enjoy it, you earned it. [breath]
 
-`129` Now watch it again, and this time watch the order. [breath]
+`130` Now watch it again, and this time watch the order. [breath]
 
-`130` One. Financial Enmeshment. The advance, the recording costs, the video, the tour support and the marketing are written into a single schedule. Every cost and every stream of income is woven into one ledger. More lines than anyone can hold in their head. [pause 1]
+`131` One. Financial Enmeshment. The advance, the recording costs, the video, the tour support and the marketing are written into a single schedule. Every cost and every stream of income is woven into one ledger. More lines than anyone can hold in their head. [pause 1]
 
-`131` Two. Financial Dependence by Design. You build a life on the advance. The royalties come slowly, or not at all. You can no longer step away from the relationship that pays for the life. [pause 1]
+`132` Two. Financial Dependence by Design. You build a life on the advance. The royalties come slowly, or not at all. You can no longer step away from the relationship that pays for the life. [pause 1]
 
-`132` Three. Sunk Cost Exploitation. The sessions, the video, the weekends other people gave up for you. Every question you ask is answered with how much has already been spent. [pause 1]
+`133` Three. Sunk Cost Exploitation. The sessions, the video, the weekends other people gave up for you. Every question you ask is answered with how much has already been spent. [pause 1]
 
-`133` Four. Obligation Contracts. A clause on page nineteen lets the balance follow you from this record to the next, and to the one after that. You are told, pleasantly, that it is a technicality. You are told that you have already signed. [pause 1]
+`134` Four. Obligation Contracts. A clause on page nineteen lets the balance follow you from this record to the next, and to the one after that. You are told, pleasantly, that it is a technicality. You are told that you have already signed. [pause 1]
 
-`134` Five. Guilt Legacy. All the people who believed in you. Asking for a statement begins to feel like ingratitude. [pause 1]
+`135` Five. Guilt Legacy. All the people who believed in you. Asking for a statement begins to feel like ingratitude. [pause 1]
 
-`135` Six. Process Exhaustion. Accounting sends you to business affairs. Business affairs sends you to accounting. The portal wants a password that has expired. Days become weeks, and you stop asking. [pause 1]
+`136` Six. Process Exhaustion. Accounting sends you to business affairs. Business affairs sends you to accounting. The portal wants a password that has expired. Days become weeks, and you stop asking. [pause 1]
 
-`136` Every one of those six steps can be defended on its own. Advances are real. Recoupment can be fair. Accounting can be honestly complicated. Whether anyone intended the cell would take more evidence than the pattern itself. That is exactly why it is so hard to see. In sequence, six defensible steps build a room with no door, and the person inside it is told that the confusion is her own. [breath]
+`137` Every one of those six steps can be defended on its own. Advances are real. Recoupment can be fair. Accounting can be honestly complicated. Whether anyone intended the cell would take more evidence than the pattern itself. That is exactly why it is so hard to see. In sequence, six defensible steps build a room with no door, and the person inside it is told that the confusion is her own. [breath]
 
-`137` She sits in an apartment she could never have imagined, among the boxes, and realizes she no longer knows whether the number that was the best news of her life was a gift, a loan, or a sentence. [breath]
+`138` She sits in an apartment she could never have imagined, among the boxes, and realizes she no longer knows whether the number that was the best news of her life was a gift, a loan, or a sentence. [breath]
 
-`138` **The key is the same shape as the lock.** [pause 2]
+`139` **The key is the same shape as the lock.** [pause 2]
 
-`139` Now look at that sequence one more time, because the thing that makes it devastating is the thing that makes it breakable. [breath]
+`140` Now look at that sequence one more time, because the thing that makes it devastating is the thing that makes it breakable. [breath]
 
-`140` It depends on its order. Every link needs the one before it. The guilt needs the debt. The debt needs the dependence. The exhaustion only works on someone who has already been taught that asking is ungrateful. [breath]
+`141` It depends on its order. Every link needs the one before it. The guilt needs the debt. The debt needs the dependence. The exhaustion only works on someone who has already been taught that asking is ungrateful. [breath]
 
-`141` So you do not have to defeat all six. You have to break one. [breath]
+`142` So you do not have to defeat all six. You have to break one. [breath]
 
-`142` A single independent reading of the schedule, before signing. A single statement you can reproduce line by line. A single plain question, when could this balance clear, asked in writing and kept. Break one link, and the chain is no longer a chain. [breath]
+`143` A single independent reading of the schedule, before signing. A single statement you can reproduce line by line. A single plain question, when could this balance clear, asked in writing and kept. Break one link, and the chain is no longer a chain. [breath]
 
-`143` That is the reason every combination in Fractal Squared is laid out the same way. First the scene, the way it feels from inside. Then the name. Then the tactics, in order. Then why that order works on a human being. Then how it echoes up through institutions and across a culture. Then the signs you can observe, the tests you can run on your own situation, what to keep, the words you can use, when to get help, and what breaks the chain. [breath]
+`144` That is the reason every combination in Fractal Squared is laid out the same way. First the scene, the way it feels from inside. Then the name. Then the tactics, in order. Then why that order works on a human being. Then how it echoes up through institutions and across a culture. Then the signs you can observe, the tests you can run on your own situation, what to keep, the words you can use, when to get help, and what breaks the chain. [breath]
 
-`144` And that layout does three things nothing else has done. [breath]
+`145` And that layout does three things nothing else has done. [breath]
 
-`145` If you are inside one now, recognition is the first light in a dark room. You can see which stage you are in. That means you can see what comes next. That means it can no longer arrive as a surprise. [breath]
+`146` If you are inside one now, recognition is the first light in a dark room. You can see which stage you are in. That means you can see what comes next. That means it can no longer arrive as a surprise. [breath]
 
-`146` If you lived one years ago, the map gives you back your sanity. I don't know how it happened becomes this is how it happened, step by step, and it would have worked on anyone. The shame begins to lift, because shame lives in the belief that you should have seen it coming, and the map shows you it was built so that you could not. That is the moment many people can finally grieve. [breath]
+`147` If you lived one years ago, the map gives you back your sanity. I don't know how it happened becomes this is how it happened, step by step, and it would have worked on anyone. The shame begins to lift, because shame lives in the belief that you should have seen it coming, and the map shows you it was built so that you could not. That is the moment many people can finally grieve. [breath]
 
-`147` If you have never lived one, this is the closest thing to immunity that exists. A trick that has been explained stops working. A sequence you can name is a sequence you can interrupt. [breath]
+`148` If you have never lived one, this is the closest thing to immunity that exists. A trick that has been explained stops working. A sequence you can name is a sequence you can interrupt. [breath]
 
-`148` The worst thing manipulation can do to a human life, understood exactly, is also the way out of it. [breath]
+`149` The worst thing manipulation can do to a human life, understood exactly, is also the way out of it. [breath]
 
 ---
 
 ## Take 08 — Part eight. What it was built from
 
-*About 3:48 · 467 words · starts at 29:44 in the full piece*
+*About 3:48 · 467 words · starts at 29:52 in the full piece*
 
-`149` **Part eight. What it was built from.** [pause 2] [breath]
+`150` **Part eight. What it was built from.** [pause 2] [breath]
 
-`150` Here is what the combinations gave away, once I had taken enough of them apart. [breath]
+`151` Here is what the combinations gave away, once I had taken enough of them apart. [breath]
 
-`151` Every piece was copied from something real. [breath]
+`152` Every piece was copied from something real. [breath]
 
-`152` The flood of warmth was imitating what it is to be truly seen. The debt was imitating generosity. The bond was imitating love. Nothing in the entire machine was original to it. [breath]
+`153` The flood of warmth was imitating what it is to be truly seen. The debt was imitating generosity. The bond was imitating love. Nothing in the entire machine was original to it. [breath]
 
-`153` Love bombing is a counterfeit of genuine welcome. Gaslighting, of honest witness. Intermittent reinforcement, of steady presence. Trauma bonding, of real attachment. Isolation, of sacred solitude. Financial control, of shared provision. [breath]
+`154` Love bombing is a counterfeit of genuine welcome. Gaslighting, of honest witness. Intermittent reinforcement, of steady presence. Trauma bonding, of real attachment. Isolation, of sacred solitude. Financial control, of shared provision. [breath]
 
-`154` And the eight stages themselves, as I see them through my own faith, are eight sacred things run backwards. [breath]
+`155` And the eight stages themselves, as I see them through my own faith, are eight sacred things run backwards. [breath]
 
-`155` Idealize counterfeits being chosen: known and wanted before you performed anything. [pause 1]
+`156` Idealize counterfeits being chosen: known and wanted before you performed anything. [pause 1]
 
-`156` Hook counterfeits covenant: a commitment made for your flourishing, in place of one built so that leaving costs more than staying. [pause 1]
+`157` Hook counterfeits covenant: a commitment made for your flourishing, in place of one built so that leaving costs more than staying. [pause 1]
 
-`157` Devalue counterfeits inherent worth: the worth that was yours because you exist. [pause 1]
+`158` Devalue counterfeits inherent worth: the worth that was yours because you exist. [pause 1]
 
-`158` Confuse counterfeits truth: the still, small knowing that needs no one's permission. [pause 1]
+`159` Confuse counterfeits truth: the still, small knowing that needs no one's permission. [pause 1]
 
-`159` Isolate counterfeits community: a body with many members, none of them disposable. [pause 1]
+`160` Isolate counterfeits community: a body with many members, none of them disposable. [pause 1]
 
-`160` Extract counterfeits abundance: giving as overflow, where the counterfeit takes from what you cannot afford to lose. [pause 1]
+`161` Extract counterfeits abundance: giving as overflow, where the counterfeit takes from what you cannot afford to lose. [pause 1]
 
-`161` Discard counterfeits unfailing presence: I will never leave you. [pause 1]
+`162` Discard counterfeits unfailing presence: I will never leave you. [pause 1]
 
-`162` Replace counterfeits irreplaceable worth: the shepherd who leaves the ninety-nine for the one. [pause 1]
+`163` Replace counterfeits irreplaceable worth: the shepherd who leaves the ninety-nine for the one. [pause 1]
 
-`163` You do not have to share my faith to follow this. Put it in any language you like. The claim is simple, and I hold it with my whole life: a counterfeit always comes second. The welcome existed before the love bombing. The witness existed before the gaslight. The pattern cannot create a single thing. It can only take what was already alive in you and turn it against you. [breath]
+`164` You do not have to share my faith to follow this. Put it in any language you like. The claim is simple, and I hold it with my whole life: a counterfeit always comes second. The welcome existed before the love bombing. The witness existed before the gaslight. The pattern cannot create a single thing. It can only take what was already alive in you and turn it against you. [breath]
 
-`164` It worked on you because it was built out of the best things in you. [breath]
+`165` It worked on you because it was built out of the best things in you. [breath]
 
-`165` Which means the original is still there. [breath]
+`166` Which means the original is still there. [breath]
 
-`166` Under the cortisol, under the shutdown, under every year of being told that your body was wrong, I believe there is a signal that was broadcasting before any system touched you. I call it the original frequency. [breath]
+`167` Under the cortisol, under the shutdown, under every year of being told that your body was wrong, I believe there is a signal that was broadcasting before any system touched you. I call it the original frequency. [breath]
 
-`167` It is the part of you that knew something was wrong in that room, when everyone else seemed fine. The feeling in your gut that you were taught to call anxiety. The tiredness that sleep does not fix, which may be your body's honest report that more is being taken from you than is being returned. The loneliness in a full room, which may be your spirit recognizing that counterfeit belonging is not belonging. [breath]
+`168` It is the part of you that knew something was wrong in that room, when everyone else seemed fine. The feeling in your gut that you were taught to call anxiety. The tiredness that sleep does not fix, which may be your body's honest report that more is being taken from you than is being returned. The loneliness in a full room, which may be your spirit recognizing that counterfeit belonging is not belonging. [breath]
 
-`168` Listen to those signals. And have them looked at, too, by someone who listens back. A body can carry more than one truth at once. [breath]
+`169` Listen to those signals. And have them looked at, too, by someone who listens back. A body can carry more than one truth at once. [breath]
 
-`169` You did not lose the frequency. You were taught to stop listening to it. [breath]
+`170` You did not lose the frequency. You were taught to stop listening to it. [breath]
 
-`170` It was buried. It was never destroyed. [breath]
+`171` It was buried. It was never destroyed. [breath]
 
 ---
 
 ## Take 09 — Part nine. Down
 
-*About 3:15 · 404 words · starts at 33:33 in the full piece*
+*About 3:15 · 404 words · starts at 33:40 in the full piece*
 
-`171` **Part nine. Down.** [pause 2] [breath]
+`172` **Part nine. Down.** [pause 2] [breath]
 
-`172` For thousands of years, people have tried to put this into words. I am not a scholar of any of these traditions. I can only tell you what I hear in them. [breath]
+`173` For thousands of years, people have tried to put this into words. I am not a scholar of any of these traditions. I can only tell you what I hear in them. [breath]
 
-`173` The Christian calls it the narrow gate, and the kingdom that was always within you. The Buddhist calls it the end of illusion: the veil lifting from a self that was constructed and never born. The Sufi speaks of the veils between the self and God being removed, one by one. The Hindu says tat tvam asi, thou art that: you were never the role, the case, the body or the institution. Many Indigenous teachings speak of remembering, of returning to the original instruction that the land and the body always knew. The Jewish mystic speaks of vessels that shattered, and of sparks of light held in the shards, waiting to be gathered. The mystic without a tradition calls it the dark night of the soul, and the dawn after it. And the person who wants no part of the word spiritual calls it deprogramming, or healing, or finally seeing clearly: a pattern identified, traced to its origin, found in one's own body, and followed down to the signal under the noise. [breath]
+`174` The Christian calls it the narrow gate, and the kingdom that was always within you. The Buddhist calls it the end of illusion: the veil lifting from a self that was constructed and never born. The Sufi speaks of the veils between the self and God being removed, one by one. The Hindu says tat tvam asi, thou art that: you were never the role, the case, the body or the institution. Many Indigenous teachings speak of remembering, of returning to the original instruction that the land and the body always knew. The Jewish mystic speaks of vessels that shattered, and of sparks of light held in the shards, waiting to be gathered. The mystic without a tradition calls it the dark night of the soul, and the dawn after it. And the person who wants no part of the word spiritual calls it deprogramming, or healing, or finally seeing clearly: a pattern identified, traced to its origin, found in one's own body, and followed down to the signal under the noise. [breath]
 
-`174` The words are different. The destination is the same. [breath]
+`175` The words are different. The destination is the same. [breath]
 
-`175` What my work adds is the map of the way there. And the way there does not go up. [breath]
+`176` What my work adds is the map of the way there. And the way there does not go up. [breath]
 
-`176` You do not arrive by ascending. You do not transcend the body or rise above being human. You go down. [breath]
+`177` You do not arrive by ascending. You do not transcend the body or rise above being human. You go down. [breath]
 
-`177` Down through the sectors. [pause 1]
+`178` Down through the sectors. [pause 1]
 
-`178` Down through the techniques. [pause 1]
+`179` Down through the techniques. [pause 1]
 
-`179` Down through the mirror. [pause 1]
+`180` Down through the mirror. [pause 1]
 
-`180` Down through the body. [pause 1]
+`181` Down through the body. [pause 1]
 
-`181` Down through the chain, and the generations behind it. [pause 1]
+`182` Down through the chain, and the generations behind it. [pause 1]
 
-`182` And at the bottom, beneath every layer of capture, beneath every lie that was installed as truth, you find what was never captured at all. [breath]
+`183` And at the bottom, beneath every layer of capture, beneath every lie that was installed as truth, you find what was never captured at all. [breath]
 
-`183` It is not above you. It is not in the next life. It is in you, where it was before the first system, before the first technique, before the first link in the chain. Pulsing quietly. Waiting for you to stop climbing and start listening. [breath]
+`184` It is not above you. It is not in the next life. It is in you, where it was before the first system, before the first technique, before the first link in the chain. Pulsing quietly. Waiting for you to stop climbing and start listening. [breath]
 
-`184` Your own signal. Uncaptured. Unmediated. Unmonetized. Yours. [breath]
+`185` Your own signal. Uncaptured. Unmediated. Unmonetized. Yours. [breath]
 
-`185` The path that every prophet and mystic described, broken into stages, techniques and levels, so that it can be walked on purpose and no longer only stumbled into by accident. [breath]
+`186` The path that every prophet and mystic described, broken into stages, techniques and levels, so that it can be walked on purpose and no longer only stumbled into by accident. [breath]
 
-`186` I walked it without a map. I drew this one so that you would not have to. [breath]
+`187` I walked it without a map. I drew this one so that you would not have to. [breath]
 
 ---
 
 ## Take 10 — Part ten. What this is for
 
-*About 3:26 · 433 words · starts at 36:48 in the full piece*
+*About 3:26 · 433 words · starts at 36:56 in the full piece*
 
-`187` **Part ten. What this is for.** [pause 2] [breath]
+`188` **Part ten. What this is for.** [pause 2] [breath]
 
-`188` Freedom, in two senses. [breath]
+`189` Freedom, in two senses. [breath]
 
-`189` The psychological freedom of naming what was done to you, so the fog lifts and your own perception comes back to you. [breath]
+`190` The psychological freedom of naming what was done to you, so the fog lifts and your own perception comes back to you. [breath]
 
-`190` And the spiritual freedom of hearing your own signal again, under everything the counterfeit laid on top of it. [breath]
+`191` And the spiritual freedom of hearing your own signal again, under everything the counterfeit laid on top of it. [breath]
 
-`191` True sovereignty is when no one holds your strings, including the ones you did not know you were carrying. True accountability is when the tools stop working, so that no one can hide behind them again. [breath]
+`192` True sovereignty is when no one holds your strings, including the ones you did not know you were carrying. True accountability is when the tools stop working, so that no one can hide behind them again. [breath]
 
-`192` Imagine a generation that recognizes the love bomb by the second message. A workplace where we're a family here is heard for what it is. A congregation that can tell a covenant from a hook. An artist who asks to see the numbers, and is not afraid to ask. A child who grows up holding the map instead of the wound. A chain that ends with you. [breath]
+`193` Imagine a generation that recognizes the love bomb by the second message. A workplace where we're a family here is heard for what it is. A congregation that can tell a covenant from a hook. An artist who asks to see the numbers, and is not afraid to ask. A child who grows up holding the map instead of the wound. A chain that ends with you. [breath]
 
-`193` I believe a world without this cycle can be built. Structures the pattern cannot enter: where no gatekeeper stands between a human being and what a human being needs. I do not think it will come by tearing down buildings. It will come the way the pattern itself spread, one person and one structure at a time, running in the other direction. [breath]
+`194` I believe a world without this cycle can be built. Structures the pattern cannot enter: where no gatekeeper stands between a human being and what a human being needs. I do not think it will come by tearing down buildings. It will come the way the pattern itself spread, one person and one structure at a time, running in the other direction. [breath]
 
-`194` But none of it can be built by people who cannot see what is in the way. [breath]
+`195` But none of it can be built by people who cannot see what is in the way. [breath]
 
-`195` That comes first. Before the building, the seeing. A pattern that has been seen can no longer pretend to be the sky. It becomes only a pattern: something with edges, something you can step outside of, refuse, interrupt, and stop handing down. Every person who sees it stops feeding it. And when enough of us can see it, we can come together and build what comes after it. [breath]
+`196` That comes first. Before the building, the seeing. A pattern that has been seen can no longer pretend to be the sky. It becomes only a pattern: something with edges, something you can step outside of, refuse, interrupt, and stop handing down. Every person who sees it stops feeding it. And when enough of us can see it, we can come together and build what comes after it. [breath]
 
-`196` That is what this work is for. To show what is in the way, to everyone, so that all of us can build. [breath]
+`197` That is what this work is for. To show what is in the way, to everyone, so that all of us can build. [breath]
 
-`197` **A lifetime of work.** [pause 2]
+`198` **A lifetime of work.** [pause 2]
 
-`198` The Fractal proved the machine is real. Fractal Squared takes it apart. [breath]
+`199` The Fractal proved the machine is real. Fractal Squared takes it apart. [breath]
 
-`199` Every sector. Every tactic, at every level. Every combination, in its exact order, with the way out of it written beside it. Free, in plain words, for anyone. [breath]
+`200` Every sector. Every tactic, at every level. Every combination, in its exact order, with the way out of it written beside it. Free, in plain words, for anyone. [breath]
 
-`200` The first sector is finished and open below. Twenty-nine more will follow it. [breath]
+`201` The first sector is finished and open below. Twenty-nine more will follow it. [breath]
 
-`201` To do this the way it needs to be done will take a lifetime, and I intend to give it one. Because the aim is nothing smaller than this: to bring manipulation, and the eight-stage cycle underneath it, out of the shadows for good. Wherever it exists. Whenever it appears. For everyone. [breath]
+`202` To do this the way it needs to be done will take a lifetime, and I intend to give it one. Because the aim is nothing smaller than this: to bring manipulation, and the eight-stage cycle underneath it, out of the shadows for good. Wherever it exists. Whenever it appears. For everyone. [breath]
 
 ---
 
 ## Take 11 — Part eleven. The door
 
-*About 1:42 · 207 words · starts at 40:14 in the full piece*
+*About 1:42 · 207 words · starts at 40:22 in the full piece*
 
-`202` **Part eleven. The door.** [pause 2] [breath]
+`203` **Part eleven. The door.** [pause 2] [breath]
 
-`203` Go back, now, to the room where this began. [breath]
+`204` Go back, now, to the room where this began. [breath]
 
-`204` The room where everyone else seemed fine. Nothing in it has changed. The same people. The same warmth. The same small tightening in your stomach. [breath]
+`205` The room where everyone else seemed fine. Nothing in it has changed. The same people. The same warmth. The same small tightening in your stomach. [breath]
 
-`205` Only now you know what the tightening is. It was never your weakness. It was the one part of you that could not be fooled, still doing its work. [breath]
+`206` Only now you know what the tightening is. It was never your weakness. It was the one part of you that could not be fooled, still doing its work. [breath]
 
-`206` You are not afraid of this room anymore. You can stay, or you can leave. And when you go, you leave the door open behind you, for whoever comes next. [breath]
+`207` You are not afraid of this room anymore. You can stay, or you can leave. And when you go, you leave the door open behind you, for whoever comes next. [breath]
 
-`207` The map begins here. [pause 1.5]
+`208` The map begins here. [pause 1.5]
 
-`208` The first sector is the Entertainment & Music Industry. Three hundred and thirty-five tactics at three levels. One hundred and fifty-three combinations, each with its signs, its tests and its way out. [breath]
+`209` The first sector is the Entertainment & Music Industry. Three hundred and thirty-five tactics at three levels. One hundred and fifty-three combinations, each with its signs, its tests and its way out. [breath]
 
-`209` New to all of this? The Fractal is where it started: eight stages, thirty techniques, thirty sectors. [breath]
+`210` New to all of this? The Fractal is where it started: eight stages, thirty techniques, thirty sectors. [breath]
 
-`210` This work names patterns, never people. It is for recognition and for finding safe help. It is never a playbook, a diagnosis or a verdict. The scenes in it are composites. If you or anyone you know is in danger, reach real help first: emergency services, a crisis line, or child protection if a child is involved. [breath]
+`211` This work names patterns, never people. It is for recognition and for finding safe help. It is never a playbook, a diagnosis or a verdict. The scenes in it are composites. If you or anyone you know is in danger, reach real help first: emergency services, a crisis line, or child protection if a child is involved. [breath]

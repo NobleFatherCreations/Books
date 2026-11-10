@@ -216,7 +216,9 @@ def data_blob():
     stage_no = {t["single_no"]: t["stage_no"] for t in sec["tactics"]}
     combos = [[c["name"], [stage_no.get(t["single_no"], 0) if t.get("single_no") else 0 for t in c["tactics"]]] for c in sec["combos"]]
     counts = [sum(1 for t in sec["tactics"] if t["stage"] == s) for s in sec["stages"]]
-    return {"sectors": [[s["name"], s["relationship"], 1 if s["built"] else 0] for s in reg["sectors"]],
+    return {"art": BASE + "/_a/img/the-fractal.webp",
+            "tactics": [[t["name"] for t in sec["tactics"] if t["stage"] == s] for s in sec["stages"]],
+            "sectors": [[s["name"], s["relationship"], 1 if s["built"] else 0] for s in reg["sectors"]],
             "combos": combos, "stageCounts": counts, "techCounts": [2, 2, 4, 5, 6, 7, 2, 2],
             "stages": ["Idealize", "Hook", "Devalue", "Confuse", "Isolate", "Extract", "Discard", "Replace"],
             "originals": ["Chosen", "Covenant", "Inherent worth", "Truth", "Community", "Abundance", "Unfailing presence", "Irreplaceable worth"]}
@@ -386,6 +388,10 @@ def main():
     f.mkdir(parents=True, exist_ok=True)
     for p in (HERE / "fonts").iterdir():
         shutil.copy2(p, f / p.name)
+    img = SITE / BASE.strip("/") / "_a/img"
+    img.mkdir(parents=True, exist_ok=True)
+    for p in (HERE / "art").glob("*.webp"):
+        shutil.copy2(p, img / p.name)
     words = len(re.sub(r"<[^>]+>", " ", body).split())
     print("built %s  (%d KB, %d narration units, %d figures, ~%d words)" % (SITE / (BASE.strip('/') + '.html'), len(page) // 1024, n, len(figs), words))
 

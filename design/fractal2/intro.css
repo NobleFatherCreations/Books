@@ -121,11 +121,28 @@ html:not(.js) .cue{display:none}
 .lb{position:absolute;left:0;top:0;opacity:0;transition:opacity .45s var(--ease);will-change:transform,opacity;white-space:nowrap;
   font-family:var(--sans);font-size:var(--t-micro);font-weight:600;letter-spacing:.14em;text-transform:uppercase;color:var(--ink-2);text-align:center}
 .lb.on{opacity:1}
+.lb.big .sub{max-width:16rem;margin-left:auto;margin-right:auto}
 .lb.big{font-family:var(--serif);font-weight:400;font-size:clamp(2.5rem,9vw,5.5rem);letter-spacing:-.03em;text-transform:none;color:var(--ink);line-height:1;font-variant-numeric:tabular-nums lining-nums}
 .lb.mid{font-family:var(--serif);font-weight:400;font-size:clamp(1.5rem,4.6vw,2.5rem);letter-spacing:-.02em;text-transform:none;color:var(--ink);line-height:1.1}
 .lb.nm{font-family:var(--serif);font-style:italic;font-weight:400;font-size:clamp(1.0625rem,2.6vw,1.5rem);letter-spacing:-.005em;text-transform:none;color:var(--ink)}
 .lb.cap{font-size:var(--t-small);letter-spacing:.02em;text-transform:none;font-weight:500;color:var(--ink-2);white-space:normal;width:min(20rem,78vw);line-height:1.4}
 .lb.gold{color:var(--gold)}
+/* the zoom figure: the original artwork and the rings of the full map */
+.lb.art,.lb.mand{transform-origin:0 0;transition:opacity .5s var(--ease);will-change:transform,opacity}
+.lb.art{width:calc(860px * 960 / 1720);height:860px}
+.lb.art img{display:block;width:100%;height:100%;
+  -webkit-mask-image:radial-gradient(ellipse 78.5% 43.8% at 50% 47.3%,#000 86%,transparent 100%),linear-gradient(90deg,transparent 0,#000 16%,#000 84%,transparent 100%);
+  mask-image:radial-gradient(ellipse 78.5% 43.8% at 50% 47.3%,#000 86%,transparent 100%),linear-gradient(90deg,transparent 0,#000 16%,#000 84%,transparent 100%);
+  -webkit-mask-composite:source-in;mask-composite:intersect}
+.lb.mand{will-change:transform,opacity;text-transform:none;letter-spacing:0}
+.lb.mand svg{display:block;width:100%;height:100%;overflow:visible}
+.zg{opacity:0;transition:opacity .25s linear}
+.zl{fill:none;stroke:var(--zc);stroke-width:1.6;opacity:.55}
+.zt{font-family:var(--sans);font-weight:700;letter-spacing:.16em;fill:var(--zc)}
+.zn{font-family:var(--sans);font-weight:500;fill:var(--ink);opacity:.86}
+.zs1{--zc:var(--s1)}.zs2{--zc:var(--s2)}.zs3{--zc:var(--s3)}.zs4{--zc:var(--s4)}.zs5{--zc:var(--s5)}.zs6{--zc:var(--s6)}.zs7{--zc:var(--s7)}.zs8{--zc:var(--s8)}
+circle.zs8{stroke:var(--s8)}
+html.rm .zg{transition:none}
 .lb.tiny{font-size:.5625rem;letter-spacing:.08em}
 .lb.dim{color:var(--ink-3)}
 .lb.shut{color:var(--ink-3);text-decoration:line-through;text-decoration-color:var(--warn)}

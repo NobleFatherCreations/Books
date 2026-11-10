@@ -179,18 +179,73 @@
   function tilesKey(alpha, col, gold) {
     return mk(N, function (i, o) { if (!i) return you(o, 0, 0, 5, 0); var t = tile(pS[i]), gg = panelPos(i, t.x, t.y, t.W, t.H, o); o.s = 1.35; o.a = alpha; o.c = gold ? GOLD : col ? 1 + gg : INK; o.d = gold ? H(i, 20) : pS[i] / 29 * .6 + H(i, 20) * .35; });
   }
-  S.zoom = { n: N, sp: .5, stops: [0, .42, 1],
+  /* The zoom figure. The published artwork of The Fractal (8 stages, 30 techniques) fills the view, then draws back
+     until it is a disc at the centre, and the 335 tactics of one sector form new rings around it, in the same eight
+     stages, at one constant letter size. Then that whole disc draws back and becomes one of thirty. */
+  var ART = { asp: 960 / 1720, cy: .4726, ring: .395 }, MAND = { R0: .375, R: 1 }, ZA = .2, ZB = .6;
+  function mandalaRows() {
+    var names = D.tactics, CW = .47;
+    function build(f) {
+      var rows = [], r = MAND.R0, g, i2;
+      for (g = 0; g < 8; g++) {
+        rows.push({ g: g, line: r });
+        r += f * 1.5; rows.push({ g: g, title: 1, r: r, f: f * 1.25, txt: (D.stages[g] + ' · ' + names[g].length).toUpperCase() }); r += f * 1.35;
+        var cur = [], len = 0, cap = function (rr) { return 2 * Math.PI * rr / (f * CW) * .95; };
+        for (i2 = 0; i2 < names[g].length; i2++) { var nm = names[g][i2]; if (cur.length && len + nm.length + 3 > cap(r)) { rows.push({ g: g, r: r, f: f, txt: cur.join(' · '), full: 1 }); r += f * 1.3; cur = []; len = 0; } cur.push(nm); len += nm.length + 3; }
+        if (cur.length) {      /* a short last row is completed with a dotted leader, so every ring closes */
+          var pad = Math.max(0, Math.floor((cap(r) - len) / 4)), lead = new Array(pad + 1).join(' ·');
+          rows.push({ g: g, r: r, f: f, txt: lead.split('').reverse().join('') + '  ' + cur.join(' · ') + '  ' + lead, full: 1 }); r += f * 1.3; }
+        r += f * .35;
+      }
+      return { rows: rows, R: r };
+    }
+    var lo = .008, hi = .06, k2, best;
+    for (k2 = 0; k2 < 18; k2++) { var mid = (lo + hi) / 2; best = build(mid); if (best.R > MAND.R) hi = mid; else lo = mid; }
+    return build(lo);
+  }
+  function mandalaSVG() {
+    var m = mandalaRows(), K = 1000, defs = '', body = '', g = -1, esc = function (t) { return t.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/"/g, '&quot;'); };
+    m.rows.forEach(function (row, k2) {
+      if (row.g !== g) { if (g >= 0) body += '</g>'; g = row.g; body += '<g class="zg zs' + (g + 1) + '" data-g="' + g + '">'; }
+      if (row.line !== undefined) { body += '<circle class="zl" r="' + (row.line * K).toFixed(1) + '"/>'; return; }
+      var r = row.r * K, id = 'zr' + k2;
+      defs += '<path id="' + id + '" d="M0 ' + r.toFixed(1) + 'A' + r.toFixed(1) + ' ' + r.toFixed(1) + ' 0 1 1 .5 ' + r.toFixed(1) + '"/>';
+      body += '<text class="' + (row.title ? 'zt' : 'zn') + '" font-size="' + (row.f * K).toFixed(2) + '"><textPath href="#' + id + '" startOffset="50%" text-anchor="middle"' +
+        (row.full ? ' textLength="' + (2 * Math.PI * r * .955).toFixed(0) + '" lengthAdjust="spacing"' : '') + '>' + esc(row.txt) + '</textPath></text>';
+    });
+    var V = MAND.R * K * 1.02;
+    return '<svg viewBox="' + (-V) + ' ' + (-V) + ' ' + (2 * V) + ' ' + (2 * V) + '" aria-hidden="true" focusable="false"><defs>' + defs + '</defs>' + body + '</g><circle class="zl zs8" r="' + (m.R * K).toFixed(1) + '"/></svg>';
+  }
+  function zoomPhase(p) {        /* a: artwork full -> disc (0..1); c: whole disc -> one tile of thirty (0..1) */
+    return { a: ss((p - ZA * .35) / (ZA * 1.3)), b: clamp((p - ZA * .9) / (ZB - ZA * .9 - .06)), c: ss((p - ZB) / (1 - ZB) * 1.25) };
+  }
+  S.zoom = { n: N, sp: .5, stops: [0, ZB, 1], rmP: ZB - .02,
     keys: function () {
-      var bigW = 1.9, bigH = L.P ? 2.05 : 1.5, bigY = L.P ? .05 : 0;
-      return [function () { return mk(N, function (i, o) { if (!i) return you(o, 0, 0, 5, 0); var core = pK[i] >= 0; if (core) { gridPos(i, o); o.a = .85; o.c = 1 + techStage[pK[i]]; } else { gridPos(i, o); o.y = (H(i, 21) * 2 - 1) * .6; o.a = 0; } o.s = 1.9; }); },
-        function () { return mk(N, function (i, o) { if (!i) return you(o, 0, 0, 5, 0); if (pS[i] === ENT) { var gg = panelPos(i, 0, bigY, bigW, bigH, o); o.a = .92; o.s = 2.1; o.c = 1 + gg; o.d = H(i, 22) * .9; } else if (pK[i] >= 0) { gridPos(i, o); o.a = .07; o.s = 1.6; } else { var t = tile(pS[i]); o.x = t.x; o.y = t.y; o.a = 0; } }); },
-        function () { return tilesKey(.82, 1); }];
+      function hidden(i, o) { if (!i) return you(o, 0, 0, 5, 0); var t = tile(pS[i]); o.x = t.x; o.y = t.y; o.a = 0; o.s = 1.3; }
+      return [function () { return mk(N, hidden); }, function () { return mk(N, hidden); }, function () { return tilesKey(.82, 1); }];
     },
     labels: function () {
-      var y = L.P ? 1.5 : -.92;
-      return [{ h: '30<span class="sub">techniques, the backbone</span>', c: 'big', x: 0, y: y, a: 0, b: .1 },
-        { h: '335<span class="sub">tactics in one sector, each at three levels</span>', c: 'big gold', x: 0, y: y, a: .14, b: .5 },
-        { h: '30,000+<span class="sub">examples when all thirty sectors are mapped</span>', c: 'big', x: 0, y: L.P ? 1.56 : -.985, a: .66, b: 9 }];
+      var y = L.P ? 1.56 : -.1, lx = L.P ? 0 : -1.62, hA = L.P ? 2.95 : 1.9, hB = MAND.R0 * .97 / ART.ring, V = MAND.R * 1.02, t = tile(ENT);
+      function place(el, wpx, hpx, ox, oy, sc, cxs, cys) {     /* fixed box, moved and scaled only by transform: no layout while scrolling */
+        el.style.transform = 'translate(' + (C.cx + cxs * C.u - ox * sc).toFixed(1) + 'px,' + (C.cy + cys * C.u - oy * sc).toFixed(1) + 'px) scale(' + sc.toFixed(4) + ')';
+      }
+      return [
+        { raw: 1, c: 'art', h: '<img src="' + D.art + '" alt="" width="960" height="1720" decoding="async">', f: function (p, el, on) {
+          var z = zoomPhase(p), hs = (hA + (hB - hA) * z.a) * (1 - z.c * .87), Hpx = 860, sc = hs * C.u / Hpx;
+          place(el, Hpx * ART.asp, Hpx, Hpx * ART.asp / 2, Hpx * ART.cy, sc, t.x * z.c, t.y * z.c);
+          var o = on ? String(1 - ss((z.c - .55) / .45)) : '0'; if (el._o !== o) { el._o = o; el.style.opacity = o; } } },
+        { raw: 1, c: 'mand', h: mandalaSVG(), f: function (p, el, on) {
+          var z = zoomPhase(p), base = el._u || 0, i2, gs;
+          if (!base || (Math.abs(C.u - base) > .6 && Math.abs(C.u - (el._lu || 0)) < .05)) { base = el._u = C.u; el.style.width = el.style.height = (2 * V * base).toFixed(1) + 'px'; }
+          el._lu = C.u;
+          var sc = C.u / base * (1 - z.c * .87), half = V * base;
+          place(el, 0, 0, half, half, sc, t.x * z.c, t.y * z.c);
+          var o = on && z.b > 0 ? String(1 - ss((z.c - .55) / .45)) : '0'; if (el._o !== o) { el._o = o; el.style.opacity = o; }
+          gs = el._g || (el._g = [].slice.call(el.querySelectorAll('.zg')));
+          for (i2 = 0; i2 < gs.length; i2++) { var v = RM ? 1 : clamp(z.b * 9.2 - i2); v = (Math.round(v * 20) / 20).toString(); if (gs[i2]._o !== v) { gs[i2]._o = v; gs[i2].style.opacity = v; } } } },
+        { h: '30<span class="sub">techniques in eight stages: The Fractal</span>', c: 'big', x: lx, y: y, a: .01, b: ZA * .9 },
+        { h: '335<span class="sub">tactics in one sector, in the same eight stages</span>', c: 'big gold', x: lx, y: y, a: ZA * 1.6, b: ZB + .03 },
+        { h: '30,000+<span class="sub">examples when all thirty sectors are mapped</span>', c: 'big', x: lx, y: y, a: ZB + .16, b: 9 }];
     } };
   S.altitudes = { n: 2701, sp: 2 / 3,
     keys: function () {
@@ -426,8 +481,9 @@
   }
   function updateLabels(p, inFig) {
     for (var i = 0; i < labels.length; i++) {
-      var lb = labels[i], sp = lb.sp, on = (inFig || (!L.P && p >= 1 && sp.b === undefined)) && p >= sp.a && p < (sp.b === undefined ? 9 : sp.b);
+      var lb = labels[i], sp = lb.sp, on = !sp.raw && (inFig || (!L.P && p >= 1 && sp.b === undefined)) && p >= sp.a && p < (sp.b === undefined ? 9 : sp.b);
       if (RM) on = inFig && (sp.b === undefined || sp.b > 1);
+      if (sp.raw) { sp.f(p, lb.el, RM ? inFig : (inFig || (!L.P && p > 0 && p < 1))); continue; }
       var yy = sp.yf ? sp.yf(p) : sp.y, x = Math.round(C.cx + sp.x * C.u), y = Math.round(C.cy + yy * C.u);
       if (sp.yf && (yy < -1.35 || yy > 1.5)) on = false;
       if (sp.f) sp.f(p, lb.el);
@@ -469,7 +525,7 @@
         p = clamp((sy + vh * .5 - f.top) / Math.max(1, f.h - vh * .4)); isHold = true;
         inFig = sy + vh * .72 > f.top && sy + vh * .82 < f.top + f.h;
       }
-      if (RM) p = sy + vh * .9 > f.top ? 1 : 0;
+      if (RM) p = sy + vh * .9 > f.top ? (S[name] && S[name].rmP !== undefined ? S[name].rmP : 1) : 0;
     }
     return { name: name, p: p, inFig: inFig, hold: inFig && isHold, sy: sy };
   }

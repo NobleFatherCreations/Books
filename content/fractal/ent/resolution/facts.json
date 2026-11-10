@@ -88,6 +88,14 @@
     "published": "2020-07-14",
     "accessed": "2026-11-10",
     "quote": "Bundles where the album is included as part of a \"baked-in, single price option\" will no longer be counted towards the charts."
+   },
+   {
+    "url": "https://officialcharts.com/chart-news/billboard-announces-new-chart-rules-putting-an-end-to-ticket-and-merch-bundles__30209",
+    "title": "Billboard announces new chart rules, putting an end to ticket and merch bundles | Official Charts",
+    "publisher": "Official Charts Company (news report on Billboard rule change)",
+    "published": "2020-07-14",
+    "accessed": "2026-11-10",
+    "quote": "the charts \"do not reflect the conscious purchasing intentions of consumers\""
    }
   ],
   "confidence": "high",
@@ -204,5 +212,31 @@
   ],
   "confidence": "high",
   "notes": "Regulator and law-enforcement advisories."
+ },
+ {
+  "id": "F015",
+  "topic": "synthetic voice and likeness: deepfakes, voice cloning and performer contracts",
+  "statement": "Voice cloning and AI-generated impersonation of individuals are a recognised concern: a US federal regulator described fraudsters using AI tools to impersonate individuals, and at least one US state has extended its personal-rights law to protect voice from AI misuse. How performer contracts treat voice and likeness varies; guild contract terms were not confirmed from a fetched page (the SAG-AFTRA site returned 403).",
+  "scope": "general; US-focused; laws and contracts vary",
+  "sources": [
+   {
+    "url": "https://therecord.media/ftc-crack-down-ai-impersonation",
+    "title": "FTC wants to crack down on AI impersonation of individuals | The Record from Recorded Future News",
+    "publisher": "The Record (Recorded Future News), quoting the US Federal Trade Commission",
+    "published": "",
+    "accessed": "2026-11-10",
+    "quote": "Fraudsters are using AI tools to impersonate individuals with eerie precision and at a much wider scale"
+   },
+   {
+    "url": "https://www.rollingstone.com/music/music-news/elvis-act-tennessee-signed-ai-impersonation-1234992395",
+    "title": "Elvis Act Signed Into Tennessee Law to Protect Musicians From AI",
+    "publisher": "Rolling Stone",
+    "published": "2024-03",
+    "accessed": "2026-11-10",
+    "quote": "protect musicians from unauthorized artificial intelligence deep fakes and voice clones"
+   }
+  ],
+  "confidence": "medium",
+  "notes": "Contract-clause variation (q832 second sentence) remains conditional, not sourced."
  }
 ]
