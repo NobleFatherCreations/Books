@@ -4,14 +4,14 @@ Generated 2026-11-10 by `design/fractal-sector/resolve.py`. Policy: `content/fra
 
 | Verdict | Items |
 |---|---|
-| keep-label | 718 |
-| no-change | 407 |
-| pending | 184 |
-| keep-conditional | 23 |
-| soften | 23 |
-| keep-cited | 8 |
+| keep-label | 719 |
+| no-change | 525 |
+| keep-conditional | 66 |
+| soften | 33 |
+| keep-cited | 11 |
+| escalate | 8 |
 | surface | 5 |
-| generalize | 2 |
+| generalize | 3 |
 
 Total: 1370 queue items. Fact base: 11 topics, 11 with at least one source, 0 with none.
 
@@ -31,8 +31,11 @@ Total: 1370 queue items. Fact base: 11 topics, 11 with at least one source, 0 wi
 ## Removals (0)
 
 
-## Rewordings (medium risk) (25)
+## Rewordings (medium risk) (36)
 
+- **C022 · Institutional Echo** (generalize, q109): F003 supports the 'commercially satisfactory' standard and that it may be undefined; 'cannot be tested' was an inference, so it now says 'can be hard to test'.
+  - before: the artist's compliance cannot be tested
+  - after: the artist's compliance can be hard to test
 - **C030 · False-Positive Check — Specific** (soften, q189): Norm stated as fact with no source; policy example 6.
   - before: A reasonable number of rounds is standard practice
   - after: A reasonable number of revision rounds is an ordinary part of the work
@@ -48,6 +51,15 @@ Total: 1370 queue items. Fact base: 11 topics, 11 with at least one source, 0 wi
 - **C043 · Credibility Audit** (soften, q301): Explanatory-section line stated intent, certainty or universality as fact; softened using the author's own wording from the audit note.
   - before: is a young singer who now believes that the worth of her voice is the number of tries she has left
   - after: is a young singer who may come to feel that the worth of her voice is the number of tries she has left
+- **C061 · Institutional Echo** (soften, q450): Universal 'often ... no single office owns' reduced to 'can'.
+  - before: Incident handling often sits across production, safety coordination, insurance, legal and publicity, so no single office owns the question of what happened
+  - after: Incident handling can sit across production, safety coordination, insurance, legal and publicity, so that no single office clearly owns the question of what happened
+- **C071 · Institutional Echo** (soften, q540): Stated as certain; now 'can'.
+  - before: makes that pull easier to follow
+  - after: can make that pull easier to follow
+- **C082 · Verbal Breakdown** (soften, q636): Timing claim stated as always true; now 'can'.
+  - before: carry the clip from a small audience to a very large one within hours
+  - after: can carry the clip from a small audience to a very large one within hours
 - **C093 · Verbal Breakdown** (soften, q718): F010 shows compilers prohibit and remove irregular transactions but does not show the pattern is the general case; stated as a conditional.
   - before: Sales, spins and listener data are submitted or flagged in concentrated bursts, and the bodies that compile the figures receive material shaped to produce a result.
   - after: Where sales, spins or listener data are submitted or flagged in concentrated bursts, the bodies that compile the figures may receive material shaped to produce a result.
@@ -57,9 +69,21 @@ Total: 1370 queue items. Fact base: 11 topics, 11 with at least one source, 0 wi
 - **C111 · Credibility Audit** (soften, q794): Explanatory-section line stated intent, certainty or universality as fact; softened using the author's own wording from the audit note.
   - before: This functions by teaching that the system cannot be influenced.
   - after: This can function as teaching that the system cannot be influenced.
+- **C112 · Institutional Echo** (soften, q800): Stated as certain; now 'can'.
+  - before: make the cost of leaving hard to estimate
+  - after: can make the cost of leaving hard to estimate
+- **C116 · Institutional Echo** (soften, q821): Norm stated as fact with no source; softened.
+  - before: some form of check-in is ordinary practice on the road
+  - after: some form of check-in can be an ordinary part of touring
+- **C116 · Institutional Echo** (soften, q823): Frequency claim ('often', 'rarely') with no source; softened.
+  - before: Consent terms for such apps are often long, and who holds the data, and for how long, is rarely explained
+  - after: Consent terms for such apps can be long, and who holds the data, and for how long, is not always explained
 - **C117 · Credibility Audit** (soften, q837): Explanatory-section line stated intent, certainty or universality as fact; softened using the author's own wording from the audit note.
   - before: a crowd that grew from nothing
   - after: a crowd that may be partly manufactured
+- **C124 · Institutional Echo** (soften, q869): Practice stated as common with no source; softened.
+  - before: commonly reserve the right to change fees or features with notice, and acceptance by continued use is a common structure
+  - after: can reserve the right to change fees or features with notice, and acceptance by continued use can be the structure
 - **C128 · Credibility Audit** (soften, q886): Author's own softer wording applied to two vivid lines in Why This Order. First of two rewordings is a figurative line and is left as written; the second (a claim about what a person will do) is softened as the author proposed.
   - before: the person administers it themselves
   - after: the person may begin to apply the frame to themselves
@@ -87,6 +111,9 @@ Total: 1370 queue items. Fact base: 11 topics, 11 with at least one source, 0 wi
 - **C173 · Institutional Echo** (generalize, q1117): F013 supports label-executive/scout impersonation and fake-contract approaches; curators and managers not sourced.
   - before: Impersonation of scouts, curators and managers is a recognized risk for emerging artists
   - after: Impersonation of label executives and scouts is a recognized risk for emerging artists
+- **C173 · Institutional Echo** (soften, q1119): Norm stated as fact with no source; softened to an expectation.
+  - before: first-look arrangements are usually written, signed by an identifiable entity, and given a term
+  - after: first-look arrangements would normally be expected to be written, signed by an identifiable entity, and given a term
 - **C173 · Credibility Audit** (soften, q1123): Explanatory-section line stated intent, certainty or universality as fact; softened using the author's own wording from the audit note.
   - before: What is being gathered is a map of leverage
   - after: What is being gathered can function as a map of leverage
@@ -96,6 +123,9 @@ Total: 1370 queue items. Fact base: 11 topics, 11 with at least one source, 0 wi
 - **C183 · Credibility Audit** (soften, q1192): Explanatory-section line stated intent, certainty or universality as fact; softened using the author's own wording from the audit note.
   - before: Nobody can check a dozen dated claims while a face waits for an answer
   - after: It can be hard to check a dozen dated claims live while a face waits for an answer
+- **C185 · False-Positive Check — Specific** (soften, q1207): Flat practice claim in a false-positive check; softened to 'can'.
+  - before: Accounts teams batch payments, and settlement sheets are finalized after the tour
+  - after: Accounts teams can batch payments, and settlement sheets can be finalized after the tour
 - **C186 · Credibility Audit** (soften, q1219): Explanatory-section line stated intent, certainty or universality as fact; softened using the author's own wording from the audit note.
   - before: teaches the whole group what happens
   - after: may teach the whole group what happens
@@ -105,6 +135,9 @@ Total: 1370 queue items. Fact base: 11 topics, 11 with at least one source, 0 wi
 - **C189 · Credibility Audit** (soften, q1237): Explanatory-section line stated intent, certainty or universality as fact; softened using the author's own wording from the audit note.
   - before: so that the effect is a statistical certainty while
   - after: so that the effect is very likely among a large audience while
+- **C202 · Why This Order** (soften, q1330): Frequency claim with no source; softened.
+  - before: A placement fee deducted from wages is common in international work
+  - after: A placement fee deducted from wages can be presented as ordinary in international work
 - **C203 · Credibility Audit** (soften, q1346): Explanatory-section line stated intent, certainty or universality as fact; softened using the author's own wording from the audit note.
   - before: This functions by wearing down resolve
   - after: This can function by wearing down resolve

@@ -109,7 +109,8 @@
     "text": "The test is whether independent advice is welcome, terms are written, and \"no\" carries no penalty, not whether kindness is present."
    }
   ],
-  "escalated": true
+  "escalated": true,
+  "owner_approved": "2026-11-10"
  },
  {
   "q": 7,
@@ -117,14 +118,15 @@
   "section": "Credibility Audit",
   "kind": "audit",
   "tag": "Sector accuracy check",
-  "verdict": null,
-  "fact": null,
+  "verdict": "no-change",
+  "fact": "F007",
   "before": "a sector insider should verify (a) how development weekends are structured and priced; (b) whether bundling content, music and brand work is typical; (c) how guardians sign and how a minor's earnings are held locally; (d) retainer and enrollment payment terminology; (e) work-permit and chaperone requirements at events; (f) whether \"weekend rates\" are common; (g) which child-safety bodies a family should contact locally.",
   "after": null,
-  "reason": "",
-  "by": "pending",
+  "reason": "Advisory list for the author, not a claim made on the page. Its lettered points are illustrative scene or workplace details in a labelled composite. Terms of art it touches are covered by fact F007.",
+  "by": "model",
   "checked": "2026-11-10",
-  "risk": "low"
+  "risk": "low",
+  "owner_approved": "2026-11-10"
  },
  {
   "q": 8,
@@ -237,14 +239,15 @@
   "section": "Credibility Audit",
   "kind": "audit",
   "tag": "Sector accuracy check",
-  "verdict": null,
-  "fact": null,
+  "verdict": "no-change",
+  "fact": "F001",
   "before": "a sector insider should verify (a) the typical structure of reunion tour offers and memos; (b) how group-name and leaving-member provisions are drafted; (c) how tour costs are recouped against member shares; (d) whether independent counsel is normal in reunion negotiations; (e) health and rest terms in tour contracts; (f) union or guild involvement.",
   "after": null,
-  "reason": "",
-  "by": "pending",
+  "reason": "Advisory list for the author, not a claim made on the page. Its lettered points are illustrative scene or workplace details in a labelled composite. Terms of art it touches are covered by fact F001.",
+  "by": "model",
   "checked": "2026-11-10",
-  "risk": "low"
+  "risk": "low",
+  "owner_approved": "2026-11-10"
  },
  {
   "q": 16,
@@ -342,14 +345,15 @@
   "section": "Credibility Audit",
   "kind": "audit",
   "tag": "Sector accuracy check",
-  "verdict": null,
+  "verdict": "no-change",
   "fact": null,
   "before": "a sector insider should verify (a) how engineers are normally hired and paid on rescue jobs; (b) day-rate and invoicing norms; (c) who pays when a label holds funds; (d) how hours are logged in practice; (e) credit practices for engineers and mixers; (f) how freelancers recover unpaid fees locally.",
   "after": null,
-  "reason": "",
-  "by": "pending",
+  "reason": "Advisory list for the author, not a claim made on the page. Its lettered points are illustrative scene or workplace details in a labelled composite.",
+  "by": "model",
   "checked": "2026-11-10",
-  "risk": "low"
+  "risk": "low",
+  "owner_approved": "2026-11-10"
  },
  {
   "q": 23,
@@ -454,14 +458,15 @@
   "section": "Credibility Audit",
   "kind": "audit",
   "tag": "Sector accuracy check",
-  "verdict": null,
+  "verdict": "no-change",
   "fact": null,
   "before": "a sector insider should verify (a) how writing camps are structured and credited; (b) whether daily rankings exist in practice; (c) the timing of split sheets; (d) how topliner contributions are credited; (e) who tracks credit and registration; (f) the role of assistants in credit sheets.",
   "after": null,
-  "reason": "",
-  "by": "pending",
+  "reason": "Advisory list for the author, not a claim made on the page. Its lettered points are illustrative scene or workplace details in a labelled composite.",
+  "by": "model",
   "checked": "2026-11-10",
-  "risk": "low"
+  "risk": "low",
+  "owner_approved": "2026-11-10"
  },
  {
   "q": 30,
@@ -566,14 +571,15 @@
   "section": "Credibility Audit",
   "kind": "audit",
   "tag": "Sector accuracy check",
-  "verdict": null,
+  "verdict": "no-change",
   "fact": null,
   "before": "a sector insider should verify (a) how showcases are structured and priced; (b) how attendees are invited and verified; (c) what \"executive access\" means in practice; (d) fee escalation; (e) refund and cancellation norms; (f) the difference between showcases and performance-for-pay engagements.",
   "after": null,
-  "reason": "",
-  "by": "pending",
+  "reason": "Advisory list for the author, not a claim made on the page. Its lettered points are illustrative scene or workplace details in a labelled composite.",
+  "by": "model",
   "checked": "2026-11-10",
-  "risk": "low"
+  "risk": "low",
+  "owner_approved": "2026-11-10"
  },
  {
   "q": 37,
@@ -671,14 +677,15 @@
   "section": "Credibility Audit",
   "kind": "audit",
   "tag": "Sector accuracy check",
-  "verdict": null,
+  "verdict": "no-change",
   "fact": null,
   "before": "a sector insider should verify (a) how informal studio time is normally treated in co-writes; (b) whether session hours are recorded against writer shares; (c) the timing of split sheets and agreements; (d) common mentorship arrangements; (e) how emerging writers typically secure independent advice; (f) registration practices for co-written works.",
   "after": null,
-  "reason": "",
-  "by": "pending",
+  "reason": "Advisory list for the author, not a claim made on the page. Its lettered points are illustrative scene or workplace details in a labelled composite.",
+  "by": "model",
   "checked": "2026-11-10",
-  "risk": "low"
+  "risk": "low",
+  "owner_approved": "2026-11-10"
  },
  {
   "q": 44,
@@ -777,14 +784,15 @@
   "section": "Credibility Audit",
   "kind": "audit",
   "tag": "Sector accuracy check",
-  "verdict": null,
-  "fact": null,
+  "verdict": "no-change",
+  "fact": "F001",
   "before": "a sector insider should verify (a) how promotional appearances are scheduled and approved; (b) the wording of promotional-cooperation clauses; (c) tour support recoupment; (d) who sees itinerary updates; (e) how vocal-rest decisions are made on tour; (f) guest-list and perks practices.",
   "after": null,
-  "reason": "",
-  "by": "pending",
+  "reason": "Advisory list for the author, not a claim made on the page. Its lettered points are illustrative scene or workplace details in a labelled composite. Terms of art it touches are covered by fact F001.",
+  "by": "model",
   "checked": "2026-11-10",
-  "risk": "low"
+  "risk": "low",
+  "owner_approved": "2026-11-10"
  },
  {
   "q": 51,
@@ -897,14 +905,15 @@
   "section": "Credibility Audit",
   "kind": "audit",
   "tag": "Sector accuracy check",
-  "verdict": null,
+  "verdict": "no-change",
   "fact": null,
   "before": "a sector insider should verify (a) how company housing rosters and emergency contacts are handled; (b) the role of the dance captain; (c) union or guild coverage for touring dancers; (d) per-diem and housing norms; (e) return-travel arrangements; (f) typical rehearsal practices.",
   "after": null,
-  "reason": "",
-  "by": "pending",
+  "reason": "Advisory list for the author, not a claim made on the page. Its lettered points are illustrative scene or workplace details in a labelled composite.",
+  "by": "model",
   "checked": "2026-11-10",
-  "risk": "low"
+  "risk": "low",
+  "owner_approved": "2026-11-10"
  },
  {
   "q": 59,
@@ -1354,14 +1363,15 @@
   "section": "Credibility Audit",
   "kind": "audit",
   "tag": "Sector accuracy check",
-  "verdict": null,
+  "verdict": "no-change",
   "fact": null,
   "before": "An insider should verify: whether roster handbooks with family pledges sit beside recording agreements at small labels; how roster group chats are used; typical option and delivery phrasing in a first indie deal; whether discretionary promotion can quietly drop after a departure; whether holiday gatherings at the owner's home are a recognized label ritual; and whether independent counsel is usually consulted before indie signings.",
   "after": null,
-  "reason": "",
-  "by": "pending",
+  "reason": "Advisory list for the author, not a claim made on the page. Its lettered points are illustrative scene or workplace details in a labelled composite.",
+  "by": "model",
   "checked": "2026-11-10",
-  "risk": "low"
+  "risk": "low",
+  "owner_approved": "2026-11-10"
  },
  {
   "q": 89,
@@ -1489,14 +1499,15 @@
   "section": "Credibility Audit",
   "kind": "audit",
   "tag": "Sector accuracy check",
-  "verdict": null,
+  "verdict": "no-change",
   "fact": null,
   "before": "An insider should verify: how family bands typically hold income and name rights; whether departing-member clauses commonly give the leader discretion over notice; how \"recordings made during membership\" language is typically drafted; whether draws from a leader-held account are common; and how solo projects by band members are usually handled.",
   "after": null,
-  "reason": "",
-  "by": "pending",
+  "reason": "Advisory list for the author, not a claim made on the page. Its lettered points are illustrative scene or workplace details in a labelled composite.",
+  "by": "model",
   "checked": "2026-11-10",
-  "risk": "low"
+  "risk": "low",
+  "owner_approved": "2026-11-10"
  },
  {
   "q": 98,
@@ -1519,14 +1530,15 @@
   "section": "Institutional Echo",
   "kind": "review",
   "tag": "REQUIRES SUBJECT-MATTER REVIEW",
-  "verdict": null,
-  "fact": null,
+  "verdict": "keep-cited",
+  "fact": "F002",
   "before": "[SPEAK] Labels and management teams can operationalize this pattern as ordinary brand management. Where recording agreements give the label approval over name, image, styling and visual identity associated with releases, those clauses can be read to cover directions the artist later wants to take [COMMON INDUSTRY PATTERN] [REQUIRES SUBJECT-MATTER REVIEW]. Where marketing decks reduce an artist to a few tonal labels, the descriptors can harden into approval criteria [HYPOTHETICAL COMPOSITE]. Where a team speaks of an artist in the third person, the persona can be treated as an asset rather than as a person's evolving work [HYPOTHETICAL COMPOSITE].",
   "after": null,
-  "reason": "",
-  "by": "pending",
+  "reason": "F002: whether a clause covers later directions depends on its wording.",
+  "by": "model",
   "checked": "2026-11-10",
-  "risk": "low"
+  "risk": "low",
+  "owner_approved": "2026-11-10"
  },
  {
   "q": 100,
@@ -1625,14 +1637,15 @@
   "section": "Credibility Audit",
   "kind": "audit",
   "tag": "Sector accuracy check",
-  "verdict": null,
+  "verdict": "no-change",
   "fact": null,
   "before": "An insider should verify: how image and approval clauses are typically phrased; whether label brand strategy meetings use persona decks and tone grids; how often approval has been granted for artistic pivots; how outside collaborators are handled under exclusivity; and whether stylist and assistant roles typically report to the label or the artist.",
   "after": null,
-  "reason": "",
-  "by": "pending",
+  "reason": "Advisory list for the author, not a claim made on the page. Its lettered points are illustrative scene or workplace details in a labelled composite.",
+  "by": "model",
   "checked": "2026-11-10",
-  "risk": "low"
+  "risk": "low",
+  "owner_approved": "2026-11-10"
  },
  {
   "q": 107,
@@ -1670,14 +1683,17 @@
   "section": "Institutional Echo",
   "kind": "review",
   "tag": "REQUIRES SUBJECT-MATTER REVIEW",
-  "verdict": null,
-  "fact": null,
-  "before": "[SPEAK] Development deals, delivery commitments and option periods can operationalize this pattern without any plan. Where delivery clauses use terms such as \"commercially satisfactory\" without defining the standard or the decision-maker, the artist's compliance cannot be tested [COMMON INDUSTRY PATTERN] [REQUIRES SUBJECT-MATTER REVIEW]. Where A&R staff change during a project, new priorities can reset the target [HYPOTHETICAL COMPOSITE]. Where the label's discretion to extend dates is one-sided, the artist's uncertainty can continue for years [HYPOTHETICAL COMPOSITE].",
-  "after": null,
-  "reason": "",
-  "by": "pending",
+  "verdict": "generalize",
+  "fact": "F003",
+  "before": "the artist's compliance cannot be tested",
+  "after": "the artist's compliance can be hard to test",
+  "reason": "F003 supports the 'commercially satisfactory' standard and that it may be undefined; 'cannot be tested' was an inference, so it now says 'can be hard to test'.",
+  "by": "model",
   "checked": "2026-11-10",
-  "risk": "low"
+  "risk": "medium",
+  "owner_approved": "2026-11-10",
+  "patch_section": "Institutional Echo",
+  "wording": "derived"
  },
  {
   "q": 110,
@@ -1775,14 +1791,15 @@
   "section": "Credibility Audit",
   "kind": "audit",
   "tag": "Sector accuracy check",
-  "verdict": null,
-  "fact": null,
+  "verdict": "no-change",
+  "fact": "F003",
   "before": "An insider should verify: whether \"commercially satisfactory\" or similar wording appears in delivery clauses; how acceptance and extension are typically handled; whether A&R staff changes commonly reset creative direction; how self-funded records are treated within an advance; and whether artists can usually ask for release of recordings if acceptance is withheld.",
   "after": null,
-  "reason": "",
-  "by": "pending",
+  "reason": "Advisory list for the author, not a claim made on the page. Its lettered points are illustrative scene or workplace details in a labelled composite. Terms of art it touches are covered by fact F003.",
+  "by": "model",
   "checked": "2026-11-10",
-  "risk": "low"
+  "risk": "low",
+  "owner_approved": "2026-11-10"
  },
  {
   "q": 117,
@@ -1970,14 +1987,16 @@
   "section": "Institutional Echo",
   "kind": "review",
   "tag": "REQUIRES SUBJECT-MATTER REVIEW",
-  "verdict": null,
+  "verdict": "keep-conditional",
   "fact": null,
   "before": "[SPEAK] Labels, studios and management companies can operationalize this pattern when employment, housing and artistic relationships overlap. Where a company employs the relatives of artists and players, the employee's job can become a lever in unrelated business discussions [HYPOTHETICAL COMPOSITE]. Where session releases and employment letters include broad confidentiality and work-for-hire language, they can be presented as routine at the moment of greatest pressure [COMMON INDUSTRY PATTERN] [REQUIRES SUBJECT-MATTER REVIEW]. Where studios are private and closed, the only witnesses to a remark may be employees of the same company [HYPOTHETICAL COMPOSITE].",
   "after": null,
-  "reason": "",
-  "by": "pending",
+  "reason": "Sentence already states an outcome as depending on conditions (can / may / varies); makes no flat factual claim.",
+  "by": "model",
   "checked": "2026-11-10",
-  "risk": "low"
+  "risk": "low",
+  "owner_approved": "2026-11-10",
+  "label": "Depends on the terms"
  },
  {
   "q": 130,
@@ -2060,14 +2079,15 @@
   "section": "Credibility Audit",
   "kind": "audit",
   "tag": "Sector accuracy check",
-  "verdict": null,
+  "verdict": "no-change",
   "fact": null,
   "before": "An insider should verify: whether session releases commonly contain work-for-hire and confidentiality language; how relatives of artists and players come to be employed by labels; whether drivers and staff commonly sign confidentiality letters; whether studios are typically closed to staff outside sessions; and which safety and legal-aid resources exist for session players in the relevant jurisdiction.",
   "after": null,
-  "reason": "",
-  "by": "pending",
+  "reason": "Advisory list for the author, not a claim made on the page. Its lettered points are illustrative scene or workplace details in a labelled composite.",
+  "by": "model",
   "checked": "2026-11-10",
-  "risk": "low"
+  "risk": "low",
+  "owner_approved": "2026-11-10"
  },
  {
   "q": 136,
@@ -2366,14 +2386,15 @@
   "section": "Credibility Audit",
   "kind": "audit",
   "tag": "Sector accuracy check",
-  "verdict": null,
+  "verdict": "no-change",
   "fact": null,
   "before": "An insider should verify how promotional availability clauses are worded; how roster group chats operate; whether a label would review a signed artist's fan replies; how often radio visits are scheduled very early; and how vocal rest is normally handled in a promotion cycle.",
   "after": null,
-  "reason": "",
-  "by": "pending",
+  "reason": "Advisory list for the author, not a claim made on the page. Its lettered points are illustrative scene or workplace details in a labelled composite.",
+  "by": "model",
   "checked": "2026-11-10",
-  "risk": "low"
+  "risk": "low",
+  "owner_approved": "2026-11-10"
  },
  {
   "q": 156,
@@ -2501,14 +2522,15 @@
   "section": "Credibility Audit",
   "kind": "audit",
   "tag": "Sector accuracy check",
-  "verdict": null,
+  "verdict": "no-change",
   "fact": null,
   "before": "An insider should verify what a road manager's duties are; how run-of-shows are formatted and who sees them; how crew complaints are routed on tour; whether a binder with private annotations is plausible; and how last-minute catering is typically sourced.",
   "after": null,
-  "reason": "",
-  "by": "pending",
+  "reason": "Advisory list for the author, not a claim made on the page. Its lettered points are illustrative scene or workplace details in a labelled composite.",
+  "by": "model",
   "checked": "2026-11-10",
-  "risk": "low"
+  "risk": "low",
+  "owner_approved": "2026-11-10"
  },
  {
   "q": 165,
@@ -2546,14 +2568,16 @@
   "section": "Institutional Echo",
   "kind": "review",
   "tag": "REQUIRES SUBJECT-MATTER REVIEW",
-  "verdict": null,
+  "verdict": "keep-conditional",
   "fact": null,
   "before": "[SPEAK] Tours often work with flexible scope and day-rate or percentage arrangements, which makes incremental change easy [COMMON INDUSTRY PATTERN]. Where settlement sheets are produced by one party and signed nightly, new deduction lines can enter without a renegotiation [HYPOTHETICAL COMPOSITE]. Merch deals with venues and artists can involve fees and splits whose terms are specific to each arrangement [REQUIRES SUBJECT-MATTER REVIEW]. Whether an employee or contractor relationship exists, and what protections apply, is jurisdiction-specific [LEGAL CLAIM — JURISDICTION-SPECIFIC].",
   "after": null,
-  "reason": "",
-  "by": "pending",
+  "reason": "Sentence already states an outcome as depending on conditions (can / may / varies); makes no flat factual claim.",
+  "by": "model",
   "checked": "2026-11-10",
-  "risk": "low"
+  "risk": "low",
+  "owner_approved": "2026-11-10",
+  "label": "Depends on the terms"
  },
  {
   "q": 168,
@@ -2651,14 +2675,15 @@
   "section": "Credibility Audit",
   "kind": "audit",
   "tag": "Sector accuracy check",
-  "verdict": null,
+  "verdict": "no-change",
   "fact": null,
   "before": "An insider should verify how merch settlements are laid out; typical merch fee and card processing lines; whether a nightly signed sheet is plausible; who counts a support act's stock; and what a regional tour's merch role usually includes.",
   "after": null,
-  "reason": "",
-  "by": "pending",
+  "reason": "Advisory list for the author, not a claim made on the page. Its lettered points are illustrative scene or workplace details in a labelled composite.",
+  "by": "model",
   "checked": "2026-11-10",
-  "risk": "low"
+  "risk": "low",
+  "owner_approved": "2026-11-10"
  },
  {
   "q": 175,
@@ -2801,14 +2826,15 @@
   "section": "Credibility Audit",
   "kind": "audit",
   "tag": "Sector accuracy check",
-  "verdict": null,
+  "verdict": "no-change",
   "fact": null,
   "before": "An insider should verify how crew group chats are run; who owns stage-safety concerns on a tour; what reporting routes exist; whether a production manager would pin such a memo; and how cable runs across risers are typically reviewed.",
   "after": null,
-  "reason": "",
-  "by": "pending",
+  "reason": "Advisory list for the author, not a claim made on the page. Its lettered points are illustrative scene or workplace details in a labelled composite.",
+  "by": "model",
   "checked": "2026-11-10",
-  "risk": "low"
+  "risk": "low",
+  "owner_approved": "2026-11-10"
  },
  {
   "q": 185,
@@ -2885,7 +2911,8 @@
   "checked": "2026-11-10",
   "risk": "medium",
   "patch_section": "False-Positive Check — Specific",
-  "wording": "derived"
+  "wording": "derived",
+  "owner_approved": "2026-11-10"
  },
  {
   "q": 190,
@@ -2968,14 +2995,15 @@
   "section": "Credibility Audit",
   "kind": "audit",
   "tag": "Sector accuracy check",
-  "verdict": null,
+  "verdict": "no-change",
   "fact": null,
   "before": "An insider should verify how library and sync agencies pass notes; whether revision rounds are typically capped; how satisfaction clauses are worded; common cue lengths and naming; and who the composer usually corresponds with.",
   "after": null,
-  "reason": "",
-  "by": "pending",
+  "reason": "Advisory list for the author, not a claim made on the page. Its lettered points are illustrative scene or workplace details in a labelled composite.",
+  "by": "model",
   "checked": "2026-11-10",
-  "risk": "low"
+  "risk": "low",
+  "owner_approved": "2026-11-10"
  },
  {
   "q": 196,
@@ -3269,14 +3297,15 @@
   "section": "Credibility Audit",
   "kind": "audit",
   "tag": "Sector accuracy check",
-  "verdict": null,
+  "verdict": "no-change",
   "fact": null,
   "before": "An insider should verify whether penalty memos are usually attached to or separate from show agreements; how late-cancellation tiers are expressed; whether cancellation insurance commonly covers artist emergencies and who holds it; who decides same-day timing between tour manager, production desk and promoter; and whether delayed starts and shortened sets are routinely available on arena nights.",
   "after": null,
-  "reason": "",
-  "by": "pending",
+  "reason": "Advisory list for the author, not a claim made on the page. Its lettered points are illustrative scene or workplace details in a labelled composite.",
+  "by": "model",
   "checked": "2026-11-10",
-  "risk": "low"
+  "risk": "low",
+  "owner_approved": "2026-11-10"
  },
  {
   "q": 216,
@@ -3368,7 +3397,8 @@
   "checked": "2026-11-10",
   "risk": "medium",
   "patch_section": "Why This Order",
-  "wording": "derived"
+  "wording": "derived",
+  "owner_approved": "2026-11-10"
  },
  {
   "q": 222,
@@ -3391,14 +3421,15 @@
   "section": "Credibility Audit",
   "kind": "audit",
   "tag": "Sector accuracy check",
-  "verdict": null,
+  "verdict": "no-change",
   "fact": null,
   "before": "An insider should verify whether shared annotated session notes are seen by label contacts and vocalists' managers; how arranging credits and fees are typically handled; whether reference letters are commonly promised informally; how commonly mentors forbid outside work; and how string arrangers are credited on pop records.",
   "after": null,
-  "reason": "",
-  "by": "pending",
+  "reason": "Advisory list for the author, not a claim made on the page. Its lettered points are illustrative scene or workplace details in a labelled composite.",
+  "by": "model",
   "checked": "2026-11-10",
-  "risk": "low"
+  "risk": "low",
+  "owner_approved": "2026-11-10"
  },
  {
   "q": 224,
@@ -3436,14 +3467,16 @@
   "section": "Institutional Echo",
   "kind": "review",
   "tag": "REQUIRES SUBJECT-MATTER REVIEW",
-  "verdict": null,
+  "verdict": "keep-conditional",
   "fact": null,
   "before": "Verbal credit promises, \"additional production\" listings, and registration decisions made by the artist's team can produce credits that look generous and carry little ownership or income [REQUIRES SUBJECT-MATTER REVIEW]. How a beat is registered, and who is listed on it, affects who is paid later; the specific rules are jurisdiction-specific [LEGAL CLAIM — JURISDICTION-SPECIFIC]. In many cases the team is stretched, the budget really is tight, and no one is cynical. Intent would require additional evidence: whether other producers describe the same terms, and whether paperwork was ever completed.",
   "after": null,
-  "reason": "",
-  "by": "pending",
+  "reason": "Sentence already states an outcome as depending on conditions (can / may / varies); makes no flat factual claim.",
+  "by": "model",
   "checked": "2026-11-10",
-  "risk": "low"
+  "risk": "low",
+  "owner_approved": "2026-11-10",
+  "label": "Depends on the terms"
  },
  {
   "q": 227,
@@ -3527,14 +3560,15 @@
   "section": "Credibility Audit",
   "kind": "audit",
   "tag": "Sector accuracy check",
-  "verdict": null,
+  "verdict": "no-change",
   "fact": null,
   "before": "An insider should verify how \"additional production\" credits are used and what they usually mean for ownership; how split sheets are normally timed; who registers a beat and when; how artist teams typically handle producers without representation; and whether the stems-before-terms sequence is common.",
   "after": null,
-  "reason": "",
-  "by": "pending",
+  "reason": "Advisory list for the author, not a claim made on the page. Its lettered points are illustrative scene or workplace details in a labelled composite.",
+  "by": "model",
   "checked": "2026-11-10",
-  "risk": "low"
+  "risk": "low",
+  "owner_approved": "2026-11-10"
  },
  {
   "q": 233,
@@ -3663,14 +3697,15 @@
   "section": "Credibility Audit",
   "kind": "audit",
   "tag": "Sector accuracy check",
-  "verdict": null,
+  "verdict": "no-change",
   "fact": null,
   "before": "An insider should verify whether content calendars are typically built by artists or teams; whether posting is commonly a contractual deliverable; how benchmark messages are usually phrased; how often release dates shift; what creative-time share is typical in a promotion cycle; and how platform changes are communicated.",
   "after": null,
-  "reason": "",
-  "by": "pending",
+  "reason": "Advisory list for the author, not a claim made on the page. Its lettered points are illustrative scene or workplace details in a labelled composite.",
+  "by": "model",
   "checked": "2026-11-10",
-  "risk": "low"
+  "risk": "low",
+  "owner_approved": "2026-11-10"
  },
  {
   "q": 242,
@@ -3815,14 +3850,15 @@
   "section": "Credibility Audit",
   "kind": "audit",
   "tag": "Sector accuracy check",
-  "verdict": null,
-  "fact": null,
+  "verdict": "no-change",
+  "fact": "F002",
   "before": "An insider should verify how image provisions are usually worded; whether labels commonly employ nutritionists or trainers; whether weigh-ins before shoots occur; how approval rights work for wardrobe; and how health data is handled in artist-development programs.",
   "after": null,
-  "reason": "",
-  "by": "pending",
+  "reason": "Advisory list for the author, not a claim made on the page. Its lettered points are illustrative scene or workplace details in a labelled composite. Terms of art it touches are covered by fact F002.",
+  "by": "model",
   "checked": "2026-11-10",
-  "risk": "low"
+  "risk": "low",
+  "owner_approved": "2026-11-10"
  },
  {
   "q": 252,
@@ -3936,14 +3972,15 @@
   "section": "Credibility Audit",
   "kind": "audit",
   "tag": "Sector accuracy check",
-  "verdict": null,
+  "verdict": "no-change",
   "fact": null,
   "before": "An insider should verify how split sheets are timed and filled; whether pencil percentages occur; who typically coordinates label-arranged co-writes; how phones and posting restrictions are used; and whether signed sheets are usually revisable.",
   "after": null,
-  "reason": "",
-  "by": "pending",
+  "reason": "Advisory list for the author, not a claim made on the page. Its lettered points are illustrative scene or workplace details in a labelled composite.",
+  "by": "model",
   "checked": "2026-11-10",
-  "risk": "low"
+  "risk": "low",
+  "owner_approved": "2026-11-10"
  },
  {
   "q": 260,
@@ -4057,14 +4094,15 @@
   "section": "Credibility Audit",
   "kind": "audit",
   "tag": "Sector accuracy check",
-  "verdict": null,
+  "verdict": "no-change",
   "fact": null,
   "before": "An insider should verify how street teams are run and by whom; typical reward types; whether recruiting multipliers are common; how fan data and content are handled; whether volunteers are given any written terms; and how teen fans are managed in official servers.",
   "after": null,
-  "reason": "",
-  "by": "pending",
+  "reason": "Advisory list for the author, not a claim made on the page. Its lettered points are illustrative scene or workplace details in a labelled composite.",
+  "by": "model",
   "checked": "2026-11-10",
-  "risk": "low"
+  "risk": "low",
+  "owner_approved": "2026-11-10"
  },
  {
   "q": 268,
@@ -4170,7 +4208,8 @@
   "by": "model",
   "checked": "2026-11-10",
   "risk": "medium",
-  "patch_section": "Why This Order"
+  "patch_section": "Why This Order",
+  "owner_approved": "2026-11-10"
  },
  {
   "q": 275,
@@ -4193,14 +4232,15 @@
   "section": "Credibility Audit",
   "kind": "audit",
   "tag": "Sector accuracy check",
-  "verdict": null,
+  "verdict": "no-change",
   "fact": null,
   "before": "An insider should verify: driver rest and hotel provision on tours of this size; who sets departure times; whether logs are paper or electronic and who reviews them; band bus versus crew coach arrangements; the \"late roll\" and \"adjusted departure\" wording; how venue overruns propagate into next-day departures; and how union coverage differs by region.",
   "after": null,
-  "reason": "",
-  "by": "pending",
+  "reason": "Advisory list for the author, not a claim made on the page. Its lettered points are illustrative scene or workplace details in a labelled composite.",
+  "by": "model",
   "checked": "2026-11-10",
-  "risk": "low"
+  "risk": "low",
+  "owner_approved": "2026-11-10"
  },
  {
   "q": 277,
@@ -4307,7 +4347,8 @@
   "by": "model",
   "checked": "2026-11-10",
   "risk": "medium",
-  "patch_section": "Civilizational Echo"
+  "patch_section": "Civilizational Echo",
+  "owner_approved": "2026-11-10"
  },
  {
   "q": 284,
@@ -4330,14 +4371,15 @@
   "section": "Credibility Audit",
   "kind": "audit",
   "tag": "Sector accuracy check",
-  "verdict": null,
+  "verdict": "no-change",
   "fact": null,
   "before": "An insider should verify: how retreats and \"online presence\" sessions are run; whether social guidelines commonly require pre-approval; how spotlight and feature rewards are allocated; how roster departures are announced; the \"parting ways\" wording; the role of social media teams and managers in approving posts; and what mental-health and wellness resources labels actually provide.",
   "after": null,
-  "reason": "",
-  "by": "pending",
+  "reason": "Advisory list for the author, not a claim made on the page. Its lettered points are illustrative scene or workplace details in a labelled composite.",
+  "by": "model",
   "checked": "2026-11-10",
-  "risk": "low"
+  "risk": "low",
+  "owner_approved": "2026-11-10"
  },
  {
   "q": 286,
@@ -4390,14 +4432,16 @@
   "section": "Institutional Echo",
   "kind": "source",
   "tag": "VERIFIED SOURCE NEEDED",
-  "verdict": null,
+  "verdict": "keep-conditional",
   "fact": null,
   "before": "[SPEAK] Royalty and residual administration in this sector is often fragmented across payors, administrators, collection bodies and portals, with claims moving between departments [COMMON INDUSTRY PATTERN]. Ticket systems that close and reopen cases, templated replies, and policy documents that cross-reference one another can produce long loops without any individual intending it [HYPOTHETICAL COMPOSITE]. Eligibility rules, documentation requirements and time limits differ by agreement and by place [LEGAL CLAIM — JURISDICTION-SPECIFIC], and any claim about how claims are in fact handled should be checked [VERIFIED SOURCE NEEDED]. The honest reading in most cases is that these bodies are under-resourced, that records of older sessions really are incomplete, and that staff are applying rules they did not write. Intent would require additional evidence, such as consistent timing across many claimants, contradictory explanations, or requirements that appear only after submission.",
   "after": null,
-  "reason": "",
-  "by": "pending",
+  "reason": "Legal or medical routing: the sentence says the answer depends on place or sends the reader to a qualified person.",
+  "by": "model",
   "checked": "2026-11-10",
-  "risk": "low"
+  "risk": "low",
+  "owner_approved": "2026-11-10",
+  "label": "Ask a qualified person"
  },
  {
   "q": 290,
@@ -4471,14 +4515,15 @@
   "section": "Credibility Audit",
   "kind": "audit",
   "tag": "Sector accuracy check",
-  "verdict": null,
+  "verdict": "no-change",
   "fact": null,
   "before": "An insider should verify: how residual and royalty claims are filed and tracked; whether payor references are really required for older sessions; typical reply times; the roles of unions, collection bodies and administrators; how tickets are opened, closed and reopened; and what recourse exists when a payor or studio no longer exists.",
   "after": null,
-  "reason": "",
-  "by": "pending",
+  "reason": "Advisory list for the author, not a claim made on the page. Its lettered points are illustrative scene or workplace details in a labelled composite.",
+  "by": "model",
   "checked": "2026-11-10",
-  "risk": "low"
+  "risk": "low",
+  "owner_approved": "2026-11-10"
  },
  {
   "q": 295,
@@ -4584,7 +4629,8 @@
   "by": "model",
   "checked": "2026-11-10",
   "risk": "medium",
-  "patch_section": "Civilizational Echo"
+  "patch_section": "Civilizational Echo",
+  "owner_approved": "2026-11-10"
  },
  {
   "q": 302,
@@ -4607,14 +4653,15 @@
   "section": "Credibility Audit",
   "kind": "audit",
   "tag": "Sector accuracy check",
-  "verdict": null,
-  "fact": null,
+  "verdict": "no-change",
+  "fact": "F001",
   "before": "An insider should verify: how takes are logged and annotated; whether numeric reference scores are ever used on vocals; what a plausible take range is for a lead vocal; how comping works; how studio time interacts with budget and recoupment; and what vocal-health practices are normal in long sessions.",
   "after": null,
-  "reason": "",
-  "by": "pending",
+  "reason": "Advisory list for the author, not a claim made on the page. Its lettered points are illustrative scene or workplace details in a labelled composite. Terms of art it touches are covered by fact F001.",
+  "by": "model",
   "checked": "2026-11-10",
-  "risk": "low"
+  "risk": "low",
+  "owner_approved": "2026-11-10"
  },
  {
   "q": 304,
@@ -4742,14 +4789,15 @@
   "section": "Credibility Audit",
   "kind": "audit",
   "tag": "Sector accuracy check",
-  "verdict": null,
+  "verdict": "no-change",
   "fact": null,
   "before": "An insider should verify: how spin reports are compiled and from which sources; what field promoters send; how projections are labeled; who reviews the report; the \"week in spins\" wording; the roles of the head of promotion, VP of marketing and A&R; and what compliance or reporting channels labels have for junior staff.",
   "after": null,
-  "reason": "",
-  "by": "pending",
+  "reason": "Advisory list for the author, not a claim made on the page. Its lettered points are illustrative scene or workplace details in a labelled composite.",
+  "by": "model",
   "checked": "2026-11-10",
-  "risk": "low"
+  "risk": "low",
+  "owner_approved": "2026-11-10"
  },
  {
   "q": 313,
@@ -5799,14 +5847,16 @@
   "section": "Institutional Echo",
   "kind": "review",
   "tag": "REQUIRES SUBJECT-MATTER REVIEW",
-  "verdict": null,
+  "verdict": "keep-conditional",
   "fact": null,
   "before": "Personnel files and \"interim reviews\" in loosely organized offices may be created informally, and the date a document was made is often not visible to the person it concerns [REQUIRES SUBJECT-MATTER REVIEW]. Confidentiality language in onboarding paperwork can discourage a reporter from speaking to peers [LEGAL CLAIM — JURISDICTION-SPECIFIC]. The honest reading is that many offices are chaotic, and a manager who feels attacked may react badly without any plan. Intent would require additional evidence: the sequence of dates, whether the criticism existed before the complaint, and whether others received the same treatment.",
   "after": null,
-  "reason": "",
-  "by": "pending",
+  "reason": "Sentence already states an outcome as depending on conditions (can / may / varies); makes no flat factual claim.",
+  "by": "model",
   "checked": "2026-11-10",
-  "risk": "low"
+  "risk": "low",
+  "owner_approved": "2026-11-10",
+  "label": "Depends on the terms"
  },
  {
   "q": 383,
@@ -5905,14 +5955,15 @@
   "section": "Credibility Audit",
   "kind": "audit",
   "tag": "Sector accuracy check",
-  "verdict": null,
+  "verdict": "no-change",
   "fact": null,
   "before": "An insider should verify: whether small management offices commonly lack HR; how payment trackers and session-fee processes work; how \"interim reviews\" are used for assistants; whether a business partner is a plausible recipient of a payment question; and how references are typically given.",
   "after": null,
-  "reason": "",
-  "by": "pending",
+  "reason": "Advisory list for the author, not a claim made on the page. Its lettered points are illustrative scene or workplace details in a labelled composite.",
+  "by": "model",
   "checked": "2026-11-10",
-  "risk": "low"
+  "risk": "low",
+  "owner_approved": "2026-11-10"
  },
  {
   "q": 390,
@@ -6040,14 +6091,15 @@
   "section": "Credibility Audit",
   "kind": "audit",
   "tag": "Sector accuracy check",
-  "verdict": null,
+  "verdict": "no-change",
   "fact": null,
   "before": "An insider should verify: who typically handles artist complaints at labels; whether a committee with an external member is plausible; how credit sheets and registrations flow to publishers and platforms; the usual wording of closure letters; and how confidentiality is applied in artist reviews.",
   "after": null,
-  "reason": "",
-  "by": "pending",
+  "reason": "Advisory list for the author, not a claim made on the page. Its lettered points are illustrative scene or workplace details in a labelled composite.",
+  "by": "model",
   "checked": "2026-11-10",
-  "risk": "low"
+  "risk": "low",
+  "owner_approved": "2026-11-10"
  },
  {
   "q": 399,
@@ -6055,14 +6107,15 @@
   "section": "Why This Order",
   "kind": "review",
   "tag": "REQUIRES SUBJECT-MATTER REVIEW",
-  "verdict": null,
-  "fact": null,
+  "verdict": "keep-cited",
+  "fact": "F008",
   "before": "Timeline Exploitation is the lever that turns delay into outcome. Reconciliation cycles, objection periods and audit windows may be limited by contract, and in a loop of ten-day replies a requester can pass through several without noticing [REQUIRES SUBJECT-MATTER REVIEW]. This is the key conversion point of the sequence: the moment waiting stops being neutral.",
   "after": null,
-  "reason": "",
-  "by": "pending",
+  "reason": "F008: audit rights and objection windows are set by contract.",
+  "by": "model",
   "checked": "2026-11-10",
-  "risk": "low"
+  "risk": "low",
+  "owner_approved": "2026-11-10"
  },
  {
   "q": 400,
@@ -6191,14 +6244,15 @@
   "section": "Credibility Audit",
   "kind": "audit",
   "tag": "Sector accuracy check",
-  "verdict": null,
-  "fact": null,
+  "verdict": "no-change",
+  "fact": "F008",
   "before": "An insider should verify: how recordings, works and income flow between label, publisher and distributor; how ISRC and ISWC identifiers are used in queries; whether support tiers can reconcile across parties; the usual form of statement and objection windows; and whether collective management bodies can confirm registration.",
   "after": null,
-  "reason": "",
-  "by": "pending",
+  "reason": "Advisory list for the author, not a claim made on the page. Its lettered points are illustrative scene or workplace details in a labelled composite. Terms of art it touches are covered by fact F008.",
+  "by": "model",
   "checked": "2026-11-10",
-  "risk": "low"
+  "risk": "low",
+  "owner_approved": "2026-11-10"
  },
  {
   "q": 409,
@@ -6326,14 +6380,15 @@
   "section": "Credibility Audit",
   "kind": "audit",
   "tag": "Sector accuracy check",
-  "verdict": null,
-  "fact": null,
+  "verdict": "no-change",
+  "fact": "F015",
   "before": "An insider should verify: how likeness approvals work before paid campaigns; how one-on-one notes are kept at labels; whether people teams hold manager notes; typical references in marketing roles; and how decisions are cited in termination letters.",
   "after": null,
-  "reason": "",
-  "by": "pending",
+  "reason": "Advisory list for the author, not a claim made on the page. Its lettered points are illustrative scene or workplace details in a labelled composite. Terms of art it touches are covered by fact F015.",
+  "by": "model",
   "checked": "2026-11-10",
-  "risk": "low"
+  "risk": "low",
+  "owner_approved": "2026-11-10"
  },
  {
   "q": 418,
@@ -6476,14 +6531,15 @@
   "section": "Credibility Audit",
   "kind": "audit",
   "tag": "Sector accuracy check",
-  "verdict": null,
+  "verdict": "no-change",
   "fact": null,
   "before": "An insider should verify: how venue and production safety reports are split in practice; who may submit an observation card; whether a stagehand has stop-work authority; how rigging points are identified; and what an inspection involves. Do not treat the details of the rigging as technical guidance.",
   "after": null,
-  "reason": "",
-  "by": "pending",
+  "reason": "Advisory list for the author, not a claim made on the page. Its lettered points are illustrative scene or workplace details in a labelled composite.",
+  "by": "model",
   "checked": "2026-11-10",
-  "risk": "low"
+  "risk": "low",
+  "owner_approved": "2026-11-10"
  },
  {
   "q": 428,
@@ -6612,14 +6668,15 @@
   "section": "Credibility Audit",
   "kind": "audit",
   "tag": "Sector accuracy check",
-  "verdict": null,
+  "verdict": "no-change",
   "fact": null,
   "before": "An insider should verify: how cancellation statements are approved; whether a spokesperson typically has written sign-off; how legal and artist teams are informed; how organizations post during a crisis; and typical terms in festival communications roles.",
   "after": null,
-  "reason": "",
-  "by": "pending",
+  "reason": "Advisory list for the author, not a claim made on the page. Its lettered points are illustrative scene or workplace details in a labelled composite.",
+  "by": "model",
   "checked": "2026-11-10",
-  "risk": "low"
+  "risk": "low",
+  "owner_approved": "2026-11-10"
  },
  {
   "q": 437,
@@ -6763,14 +6820,15 @@
   "section": "Credibility Audit",
   "kind": "audit",
   "tag": "Sector accuracy check",
-  "verdict": null,
-  "fact": null,
+  "verdict": "no-change",
+  "fact": "F007",
   "before": "An insider should verify: the role and reporting duties of a studio teacher on music video sets; how welfare reports are routed; what a work-permit authority does; the usual form and scope of crew confidentiality acknowledgements; and who typically drafts them.",
   "after": null,
-  "reason": "",
-  "by": "pending",
+  "reason": "Advisory list for the author, not a claim made on the page. Its lettered points are illustrative scene or workplace details in a labelled composite. Terms of art it touches are covered by fact F007.",
+  "by": "model",
   "checked": "2026-11-10",
-  "risk": "low"
+  "risk": "low",
+  "owner_approved": "2026-11-10"
  },
  {
   "q": 447,
@@ -6823,14 +6881,17 @@
   "section": "Institutional Echo",
   "kind": "review",
   "tag": "REQUIRES SUBJECT-MATTER REVIEW",
-  "verdict": null,
+  "verdict": "soften",
   "fact": null,
-  "before": "Incident handling often sits across production, safety coordination, insurance, legal and publicity, so no single office owns the question of what happened [REQUIRES SUBJECT-MATTER REVIEW]. Duties to report or review injuries vary by jurisdiction and by whether the person is an employee or a contractor [LEGAL CLAIM — JURISDICTION-SPECIFIC].",
-  "after": null,
-  "reason": "",
-  "by": "pending",
+  "before": "Incident handling often sits across production, safety coordination, insurance, legal and publicity, so no single office owns the question of what happened",
+  "after": "Incident handling can sit across production, safety coordination, insurance, legal and publicity, so that no single office clearly owns the question of what happened",
+  "reason": "Universal 'often ... no single office owns' reduced to 'can'.",
+  "by": "model",
   "checked": "2026-11-10",
-  "risk": "low"
+  "risk": "medium",
+  "owner_approved": "2026-11-10",
+  "patch_section": "Institutional Echo",
+  "wording": "derived"
  },
  {
   "q": 451,
@@ -6913,14 +6974,15 @@
   "section": "Credibility Audit",
   "kind": "audit",
   "tag": "Sector accuracy check",
-  "verdict": null,
+  "verdict": "no-change",
   "fact": null,
   "before": "An insider should verify: how stunt coordinators, safety coordinators and production insurers divide incident review on a music video; whether performers are typically employees or contractors on such shoots; what incident-report access a performer normally has; how common wellness or assistance vouchers are after set injuries; and how union or guild representation changes the process.",
   "after": null,
-  "reason": "",
-  "by": "pending",
+  "reason": "Advisory list for the author, not a claim made on the page. Its lettered points are illustrative scene or workplace details in a labelled composite.",
+  "by": "model",
   "checked": "2026-11-10",
-  "risk": "low"
+  "risk": "low",
+  "owner_approved": "2026-11-10"
  },
  {
   "q": 457,
@@ -7063,14 +7125,15 @@
   "section": "Credibility Audit",
   "kind": "audit",
   "tag": "Sector accuracy check",
-  "verdict": null,
+  "verdict": "no-change",
   "fact": null,
   "before": "An insider should verify: how per-diem is administered across chorus and crew; whether collective deductions are contractually permitted; how bus calls and load-out are managed; the authority of stage and tour managers in discipline; and whether union or guild terms govern deductions.",
   "after": null,
-  "reason": "",
-  "by": "pending",
+  "reason": "Advisory list for the author, not a claim made on the page. Its lettered points are illustrative scene or workplace details in a labelled composite.",
+  "by": "model",
   "checked": "2026-11-10",
-  "risk": "low"
+  "risk": "low",
+  "owner_approved": "2026-11-10"
  },
  {
   "q": 467,
@@ -7214,14 +7277,15 @@
   "section": "Credibility Audit",
   "kind": "audit",
   "tag": "Sector accuracy check",
-  "verdict": null,
-  "fact": null,
+  "verdict": "no-change",
+  "fact": "F001",
   "before": "An insider should verify: how royalty accounting errors are routed internally; whether recoupment account mapping is a realistic error type; how label ethics lines and compliance offices operate; whether regional operations centers exist for royalty teams; how access refreshes occur; and the usual structure of performance ratings in finance operations.",
   "after": null,
-  "reason": "",
-  "by": "pending",
+  "reason": "Advisory list for the author, not a claim made on the page. Its lettered points are illustrative scene or workplace details in a labelled composite. Terms of art it touches are covered by fact F001.",
+  "by": "model",
   "checked": "2026-11-10",
-  "risk": "low"
+  "risk": "low",
+  "owner_approved": "2026-11-10"
  },
  {
   "q": 477,
@@ -7274,14 +7338,16 @@
   "section": "Institutional Echo",
   "kind": "review",
   "tag": "REQUIRES SUBJECT-MATTER REVIEW",
-  "verdict": null,
+  "verdict": "keep-conditional",
   "fact": null,
   "before": "[SPEAK] Youth performance programs, talent development weekends and fan-facing events often rely on informal supervision, rotating chaperones and trust in respected mentors, which can leave few written safeguards [COMMON INDUSTRY PATTERN]. Law firms and advocacy intakes often screen for time limits early, since those limits are central to whether a claim can proceed [REQUIRES SUBJECT-MATTER REVIEW]. Time limits for claims related to harm in childhood differ widely by place and may be extended, paused or removed in some settings [LEGAL CLAIM — JURISDICTION-SPECIFIC].",
   "after": null,
-  "reason": "",
-  "by": "pending",
+  "reason": "Legal or medical routing: the sentence says the answer depends on place or sends the reader to a qualified person.",
+  "by": "model",
   "checked": "2026-11-10",
-  "risk": "low"
+  "risk": "low",
+  "owner_approved": "2026-11-10",
+  "label": "Ask a qualified person"
  },
  {
   "q": 481,
@@ -7394,14 +7460,15 @@
   "section": "Credibility Audit",
   "kind": "audit",
   "tag": "Sector accuracy check",
-  "verdict": null,
-  "fact": null,
+  "verdict": "no-change",
+  "fact": "F007",
   "before": "An insider should verify: how youth development programs supervise minors; whether chaperone rotation on tours is realistic; how intake forms at specialized firms are sequenced; whether notice of time limits usually comes before or after the form; how survivors' advocacy clinics are structured for entertainment clients; and how unions or guilds handle misconduct complaints about members.",
   "after": null,
-  "reason": "",
-  "by": "pending",
+  "reason": "Advisory list for the author, not a claim made on the page. Its lettered points are illustrative scene or workplace details in a labelled composite. Terms of art it touches are covered by fact F007.",
+  "by": "model",
   "checked": "2026-11-10",
-  "risk": "low"
+  "risk": "low",
+  "owner_approved": "2026-11-10"
  },
  {
   "q": 489,
@@ -7545,14 +7612,15 @@
   "section": "Credibility Audit",
   "kind": "audit",
   "tag": "Sector accuracy check",
-  "verdict": null,
+  "verdict": "no-change",
   "fact": null,
   "before": "An insider should verify: whether band management offices commonly arrange mediation; how release and credit forms are handled by labels; whether conduct agreements are typical in band settings; how leaving-member clauses interact with them; and what confidentiality terms are usual in band mediation.",
   "after": null,
-  "reason": "",
-  "by": "pending",
+  "reason": "Advisory list for the author, not a claim made on the page. Its lettered points are illustrative scene or workplace details in a labelled composite.",
+  "by": "model",
   "checked": "2026-11-10",
-  "risk": "low"
+  "risk": "low",
+  "owner_approved": "2026-11-10"
  },
  {
   "q": 499,
@@ -7635,14 +7703,16 @@
   "section": "Institutional Echo",
   "kind": "review",
   "tag": "REQUIRES SUBJECT-MATTER REVIEW",
-  "verdict": null,
+  "verdict": "keep-conditional",
   "fact": null,
   "before": "Settlement discussions often begin after public pressure, and a confidentiality term is frequently a condition of payment [COMMON INDUSTRY PATTERN]. A reader who sees the cover letter's phrase \"taken care of\" and the clause's phrase \"any and all\" can fairly ask whether care and silence were designed together, though intent would require additional evidence [REQUIRES SUBJECT-MATTER REVIEW].",
   "after": null,
-  "reason": "",
-  "by": "pending",
+  "reason": "Sentence already states an outcome as depending on conditions (can / may / varies); makes no flat factual claim.",
+  "by": "model",
   "checked": "2026-11-10",
-  "risk": "low"
+  "risk": "low",
+  "owner_approved": "2026-11-10",
+  "label": "Depends on the terms"
  },
  {
   "q": 505,
@@ -7717,14 +7787,15 @@
   "section": "Credibility Audit",
   "kind": "audit",
   "tag": "Sector accuracy check",
-  "verdict": null,
+  "verdict": "no-change",
   "fact": null,
   "before": "An insider should verify: how common exit NDAs are for session and backing performers; whether the \"Mutual Release and Confidentiality Agreement\" format matches practice; how breach penalties are expressed; how agents advise performers on these terms; the usual deadlines on settlement offers; and how unions or guilds treat confidentiality for touring musicians.",
   "after": null,
-  "reason": "",
-  "by": "pending",
+  "reason": "Advisory list for the author, not a claim made on the page. Its lettered points are illustrative scene or workplace details in a labelled composite.",
+  "by": "model",
   "checked": "2026-11-10",
-  "risk": "low"
+  "risk": "low",
+  "owner_approved": "2026-11-10"
  },
  {
   "q": 510,
@@ -7868,14 +7939,15 @@
   "section": "Credibility Audit",
   "kind": "audit",
   "tag": "Sector accuracy check",
-  "verdict": null,
+  "verdict": "no-change",
   "fact": null,
   "before": "An insider should verify: whether artist-development roles at labels commonly sit between artists and business affairs; how plans and separation agreements are paired; whether reference letters appear as exhibits; how programs are chartered or budgeted; how labels announce senior departures; and how non-disparagement is typically worded.",
   "after": null,
-  "reason": "",
-  "by": "pending",
+  "reason": "Advisory list for the author, not a claim made on the page. Its lettered points are illustrative scene or workplace details in a labelled composite.",
+  "by": "model",
   "checked": "2026-11-10",
-  "risk": "low"
+  "risk": "low",
+  "owner_approved": "2026-11-10"
  },
  {
   "q": 520,
@@ -7913,14 +7985,16 @@
   "section": "Institutional Echo",
   "kind": "review",
   "tag": "REQUIRES SUBJECT-MATTER REVIEW",
-  "verdict": null,
+  "verdict": "keep-conditional",
   "fact": null,
   "before": "[SPEAK] Brands that run events across regions, through subcontracted crews and rotating volunteers can produce this pattern without design. Where each edition has its own site manager and close-out, information stays local by default [COMMON INDUSTRY PATTERN]. Where crew conduct sits with a production company under its own contracts, a festival's safeguarding process may not see it [HYPOTHETICAL COMPOSITE]. Where leadership reviews a rate per attendee rather than case linkage, a falling number can signal low reporting as easily as low incidence [REQUIRES SUBJECT-MATTER REVIEW].",
   "after": null,
-  "reason": "",
-  "by": "pending",
+  "reason": "Sentence already states an outcome as depending on conditions (can / may / varies); makes no flat factual claim.",
+  "by": "model",
   "checked": "2026-11-10",
-  "risk": "low"
+  "risk": "low",
+  "owner_approved": "2026-11-10",
+  "label": "Depends on the terms"
  },
  {
   "q": 523,
@@ -8003,14 +8077,15 @@
   "section": "Credibility Audit",
   "kind": "audit",
   "tag": "Sector accuracy check",
-  "verdict": null,
+  "verdict": "no-change",
   "fact": null,
   "before": "An insider should verify: how regional editions of a touring brand share safeguarding information; the role of subcontracted crews; how welfare tents and volunteer coordinators log concerns; how close-out meetings and annual reviews work; and what central reporting exists.",
   "after": null,
-  "reason": "",
-  "by": "pending",
+  "reason": "Advisory list for the author, not a claim made on the page. Its lettered points are illustrative scene or workplace details in a labelled composite.",
+  "by": "model",
   "checked": "2026-11-10",
-  "risk": "low"
+  "risk": "low",
+  "owner_approved": "2026-11-10"
  },
  {
   "q": 529,
@@ -8139,14 +8214,15 @@
   "section": "Credibility Audit",
   "kind": "audit",
   "tag": "Sector accuracy check",
-  "verdict": null,
+  "verdict": "no-change",
   "fact": null,
   "before": "An insider should verify: how collective management bodies commission external reviews; how general meetings and voting are run; whether session performance on scoring dates is commonly under-reported in distribution data; the usual notice and proxy arrangements; how distribution categories are typically defined; and what supervisory oversight exists in different regions.",
   "after": null,
-  "reason": "",
-  "by": "pending",
+  "reason": "Advisory list for the author, not a claim made on the page. Its lettered points are illustrative scene or workplace details in a labelled composite.",
+  "by": "model",
   "checked": "2026-11-10",
-  "risk": "low"
+  "risk": "low",
+  "owner_approved": "2026-11-10"
  },
  {
   "q": 538,
@@ -8184,14 +8260,17 @@
   "section": "Institutional Echo",
   "kind": "review",
   "tag": "REQUIRES SUBJECT-MATTER REVIEW",
-  "verdict": null,
+  "verdict": "soften",
   "fact": null,
-  "before": "Handbook language that routes concerns to the general manager or company manager, with no independent reviewer or external route, makes that pull easier to follow [REQUIRES SUBJECT-MATTER REVIEW]. \"Both sides\" processes, in which a report and a counter-complaint are handled together by the same people, can produce the cascade even where no one intended it [HYPOTHETICAL COMPOSITE]. Short-contract and freelance staffing means a reporter may have no tenure, no union representative on site and no realistic way to wait out a process [COMMON INDUSTRY PATTERN].",
-  "after": null,
-  "reason": "",
-  "by": "pending",
+  "before": "makes that pull easier to follow",
+  "after": "can make that pull easier to follow",
+  "reason": "Stated as certain; now 'can'.",
+  "by": "model",
   "checked": "2026-11-10",
-  "risk": "low"
+  "risk": "medium",
+  "owner_approved": "2026-11-10",
+  "patch_section": "Institutional Echo",
+  "wording": "derived"
  },
  {
   "q": 541,
@@ -8290,14 +8369,15 @@
   "section": "Credibility Audit",
   "kind": "audit",
   "tag": "Sector accuracy check",
-  "verdict": null,
+  "verdict": "no-change",
   "fact": null,
   "before": "An insider should verify: whether company managers and general managers are the usual first recipients of crew complaints in a producing theater; how overtime and turnaround rules are tracked on sheets; whether handbooks in small productions name an external reviewer; whether stage managers have union coverage on the relevant kind of production; the usual form of a counter-complaint letter; how a producer who finances a show sits relative to the theater's own management; and the realistic timelines of workplace processes in short-run theater.",
   "after": null,
-  "reason": "",
-  "by": "pending",
+  "reason": "Advisory list for the author, not a claim made on the page. Its lettered points are illustrative scene or workplace details in a labelled composite.",
+  "by": "model",
   "checked": "2026-11-10",
-  "risk": "low"
+  "risk": "low",
+  "owner_approved": "2026-11-10"
  },
  {
   "q": 548,
@@ -8305,14 +8385,16 @@
   "section": "Verbal Breakdown",
   "kind": "review",
   "tag": "REQUIRES SUBJECT-MATTER REVIEW",
-  "verdict": null,
+  "verdict": "keep-conditional",
   "fact": null,
   "before": "7. **Burden of Proof Shifting** — \"Your side would need to show where the deduction doesn't apply.\" This functions by placing the evidentiary load on the one who does not hold the records, which is nearly impossible without access to them. Concern rises when the documents needed to show the answer are held by the party that is asking for the proof. [REQUIRES SUBJECT-MATTER REVIEW]",
   "after": null,
-  "reason": "",
-  "by": "pending",
+  "reason": "Sentence already states an outcome as depending on conditions (can / may / varies); makes no flat factual claim.",
+  "by": "model",
   "checked": "2026-11-10",
-  "risk": "low"
+  "risk": "low",
+  "owner_approved": "2026-11-10",
+  "label": "Depends on the terms"
  },
  {
   "q": 549,
@@ -8470,14 +8552,15 @@
   "section": "Credibility Audit",
   "kind": "audit",
   "tag": "Sector accuracy check",
-  "verdict": null,
-  "fact": null,
+  "verdict": "no-change",
+  "fact": "F008",
   "before": "An insider should verify: how business affairs, royalty accounting and finance typically divide responsibility for a statement; whether rate schedules and amendments commonly conflict or use precedence language; the usual form of a business affairs reply letter; whether packaging or other deductions are commonly applied and how they appear on statements; typical audit and objection windows in recording agreements; how artist counsel normally attends such meetings; and whether delivery dates are tracked in a way that could be cited in a dispute.",
   "after": null,
-  "reason": "",
-  "by": "pending",
+  "reason": "Advisory list for the author, not a claim made on the page. Its lettered points are illustrative scene or workplace details in a labelled composite. Terms of art it touches are covered by fact F008.",
+  "by": "model",
   "checked": "2026-11-10",
-  "risk": "low"
+  "risk": "low",
+  "owner_approved": "2026-11-10"
  },
  {
   "q": 560,
@@ -8485,14 +8568,16 @@
   "section": "Verbal Breakdown",
   "kind": "review",
   "tag": "REQUIRES SUBJECT-MATTER REVIEW",
-  "verdict": null,
+  "verdict": "keep-conditional",
   "fact": null,
   "before": "4. **HR Shielding** — The letter from the publisher's legal department describes the matter as \"reviewed with all relevant parties on multiple occasions,\" placing the organization's procedural record between the writer and any person. This functions by moving the dispute out of the hands of people who could resolve it and into the hands of people whose role is to protect the organization. Concern rises when the response to a credit question changes author from a person who knows the song to a function that manages risk. [REQUIRES SUBJECT-MATTER REVIEW]",
   "after": null,
-  "reason": "",
-  "by": "pending",
+  "reason": "Sentence already states an outcome as depending on conditions (can / may / varies); makes no flat factual claim.",
+  "by": "model",
   "checked": "2026-11-10",
-  "risk": "low"
+  "risk": "low",
+  "owner_approved": "2026-11-10",
+  "label": "Depends on the terms"
  },
  {
   "q": 561,
@@ -8575,14 +8660,16 @@
   "section": "Institutional Echo",
   "kind": "review",
   "tag": "REQUIRES SUBJECT-MATTER REVIEW",
-  "verdict": null,
+  "verdict": "keep-conditional",
   "fact": null,
   "before": "Ticket-based support systems can confirm that a request was logged without confirming that a decision was made [HYPOTHETICAL COMPOSITE]. Where no one role is accountable for resolving a conflict between a writer's split sheet and a registered record, the conflict can circulate indefinitely [HYPOTHETICAL COMPOSITE]. Confidentiality terms in agreements and in organizational policy may restrict what a body can share about who submitted data [REQUIRES SUBJECT-MATTER REVIEW].",
   "after": null,
-  "reason": "",
-  "by": "pending",
+  "reason": "Sentence already states an outcome as depending on conditions (can / may / varies); makes no flat factual claim.",
+  "by": "model",
   "checked": "2026-11-10",
-  "risk": "low"
+  "risk": "low",
+  "owner_approved": "2026-11-10",
+  "label": "Depends on the terms"
  },
  {
   "q": 567,
@@ -8680,14 +8767,15 @@
   "section": "Credibility Audit",
   "kind": "audit",
   "tag": "Sector accuracy check",
-  "verdict": null,
+  "verdict": "no-change",
   "fact": null,
   "before": "An insider should verify: how registrations flow between publisher, label and rights organization; whether labels submit data on behalf of publishers in the way described; how rights organizations handle share disputes and who may submit changes; what a writer-facing dispute channel looks like; whether publisher legal departments commonly send letters of this kind; how split sheets relate to registered shares; and how long corrections typically take to propagate.",
   "after": null,
-  "reason": "",
-  "by": "pending",
+  "reason": "Advisory list for the author, not a claim made on the page. Its lettered points are illustrative scene or workplace details in a labelled composite.",
+  "by": "model",
   "checked": "2026-11-10",
-  "risk": "low"
+  "risk": "low",
+  "owner_approved": "2026-11-10"
  },
  {
   "q": 574,
@@ -8755,14 +8843,16 @@
   "section": "Institutional Echo",
   "kind": "review",
   "tag": "REQUIRES SUBJECT-MATTER REVIEW",
-  "verdict": null,
+  "verdict": "keep-conditional",
   "fact": null,
   "before": "Where the same person acts as mentor, creative gatekeeper and employer, there is no independent place to check whether advice is serving the artist [HYPOTHETICAL COMPOSITE]. Public praise posts, press quotes and shared-stage moments can function as marketing for the imprint as well as support for the artist, and the two may be hard to separate [HYPOTHETICAL COMPOSITE]. Wellness language in artist development can be used in good faith or as a lever [REQUIRES SUBJECT-MATTER REVIEW].",
   "after": null,
-  "reason": "",
-  "by": "pending",
+  "reason": "Sentence already states an outcome as depending on conditions (can / may / varies); makes no flat factual claim.",
+  "by": "model",
   "checked": "2026-11-10",
-  "risk": "low"
+  "risk": "low",
+  "owner_approved": "2026-11-10",
+  "label": "Depends on the terms"
  },
  {
   "q": 579,
@@ -8846,14 +8936,15 @@
   "section": "Credibility Audit",
   "kind": "audit",
   "tag": "Sector accuracy check",
-  "verdict": null,
+  "verdict": "no-change",
   "fact": null,
   "before": "An insider should verify: how artist-run imprints typically structure mentoring and approvals; whether voice notes are a common channel for feedback; the usual blurring of mentor, label head and employer; how public praise posts relate to imprint marketing; how shared-stage moments are used in showcases and festivals; the usual wording of \"concern\" and \"edge\" in creative notes; and whether agreements with imprints commonly contain approval or exclusivity terms.",
   "after": null,
-  "reason": "",
-  "by": "pending",
+  "reason": "Advisory list for the author, not a claim made on the page. Its lettered points are illustrative scene or workplace details in a labelled composite.",
+  "by": "model",
   "checked": "2026-11-10",
-  "risk": "low"
+  "risk": "low",
+  "owner_approved": "2026-11-10"
  },
  {
   "q": 585,
@@ -8906,14 +8997,16 @@
   "section": "Institutional Echo",
   "kind": "review",
   "tag": "REQUIRES SUBJECT-MATTER REVIEW",
-  "verdict": null,
+  "verdict": "keep-conditional",
   "fact": null,
   "before": "Weekly \"notes\" emails and recommendations framed as options can be a perfectly professional way of working, and also a perfect record of choices narrowed one at a time [HYPOTHETICAL COMPOSITE]. Where commission and compensation are tied to the artist's activity, there may be a financial reason for a manager to prefer certain choices, whether or not that influences advice [REQUIRES SUBJECT-MATTER REVIEW]. Wellness and image language in artist development can be used in good faith or as a lever [REQUIRES SUBJECT-MATTER REVIEW].",
   "after": null,
-  "reason": "",
-  "by": "pending",
+  "reason": "Sentence already states an outcome as depending on conditions (can / may / varies); makes no flat factual claim.",
+  "by": "model",
   "checked": "2026-11-10",
-  "risk": "low"
+  "risk": "low",
+  "owner_approved": "2026-11-10",
+  "label": "Depends on the terms"
  },
  {
   "q": 589,
@@ -8921,14 +9014,16 @@
   "section": "Institutional Echo",
   "kind": "review",
   "tag": "REQUIRES SUBJECT-MATTER REVIEW",
-  "verdict": null,
+  "verdict": "keep-conditional",
   "fact": null,
   "before": "Weekly \"notes\" emails and recommendations framed as options can be a perfectly professional way of working, and also a perfect record of choices narrowed one at a time [HYPOTHETICAL COMPOSITE]. Where commission and compensation are tied to the artist's activity, there may be a financial reason for a manager to prefer certain choices, whether or not that influences advice [REQUIRES SUBJECT-MATTER REVIEW]. Wellness and image language in artist development can be used in good faith or as a lever [REQUIRES SUBJECT-MATTER REVIEW].",
   "after": null,
-  "reason": "",
-  "by": "pending",
+  "reason": "Sentence already states an outcome as depending on conditions (can / may / varies); makes no flat factual claim.",
+  "by": "model",
   "checked": "2026-11-10",
-  "risk": "low"
+  "risk": "low",
+  "owner_approved": "2026-11-10",
+  "label": "Depends on the terms"
  },
  {
   "q": 590,
@@ -9011,14 +9106,15 @@
   "section": "Credibility Audit",
   "kind": "audit",
   "tag": "Sector accuracy check",
-  "verdict": null,
+  "verdict": "no-change",
   "fact": null,
   "before": "An insider should verify: whether weekly notes emails are a common management practice; typical scope of a manager's authority to decline or defer offers; how commission relates to the choices described; whether a manager also acting as label contact or adviser is common; how artist-manager public praise is used in press; the usual practice for calendar control; and how wellness language is used in artist management.",
   "after": null,
-  "reason": "",
-  "by": "pending",
+  "reason": "Advisory list for the author, not a claim made on the page. Its lettered points are illustrative scene or workplace details in a labelled composite.",
+  "by": "model",
   "checked": "2026-11-10",
-  "risk": "low"
+  "risk": "low",
+  "owner_approved": "2026-11-10"
  },
  {
   "q": 596,
@@ -9191,14 +9287,15 @@
   "section": "Credibility Audit",
   "kind": "audit",
   "tag": "Sector accuracy check",
-  "verdict": null,
+  "verdict": "no-change",
   "fact": null,
   "before": "An insider should verify: how licence renewals and inspections work for small venues and who typically handles them; whether complaints from staff can affect a renewal; how safety concerns are normally raised and to whom; whether sound engineers are usually employees or contractors; how rotas and desk assignments are changed; whether policy lines about contacting external parties are common; and how realistic it is for an owner to be in contact with licensing staff during a renewal period.",
   "after": null,
-  "reason": "",
-  "by": "pending",
+  "reason": "Advisory list for the author, not a claim made on the page. Its lettered points are illustrative scene or workplace details in a labelled composite.",
+  "by": "model",
   "checked": "2026-11-10",
-  "risk": "low"
+  "risk": "low",
+  "owner_approved": "2026-11-10"
  },
  {
   "q": 608,
@@ -9326,14 +9423,15 @@
   "section": "Credibility Audit",
   "kind": "audit",
   "tag": "Sector accuracy check",
-  "verdict": null,
+  "verdict": "no-change",
   "fact": null,
   "before": "An insider should verify whether pit ensembles commonly run coverage and deps through group chats; how contractors circulate call lists; how \"consensus\" is recorded in band meetings; what grievance routes exist for freelance players; how subs are booked; and what recourse a union or guild offers for informal exclusion.",
   "after": null,
-  "reason": "",
-  "by": "pending",
+  "reason": "Advisory list for the author, not a claim made on the page. Its lettered points are illustrative scene or workplace details in a labelled composite.",
+  "by": "model",
   "checked": "2026-11-10",
-  "risk": "low"
+  "risk": "low",
+  "owner_approved": "2026-11-10"
  },
  {
   "q": 617,
@@ -9461,14 +9559,15 @@
   "section": "Credibility Audit",
   "kind": "audit",
   "tag": "Sector accuracy check",
-  "verdict": null,
+  "verdict": "no-change",
   "fact": null,
   "before": "An insider should verify how supervisors vet agents; whether calendar-invite notes are used this way; how late concerns about clearance are raised; how shortlists are managed; what recourse trade associations provide for reputation harm; and whether defamation-type claims in this setting are jurisdiction-specific.",
   "after": null,
-  "reason": "",
-  "by": "pending",
+  "reason": "Advisory list for the author, not a claim made on the page. Its lettered points are illustrative scene or workplace details in a labelled composite.",
+  "by": "model",
   "checked": "2026-11-10",
-  "risk": "low"
+  "risk": "low",
+  "owner_approved": "2026-11-10"
  },
  {
   "q": 626,
@@ -9611,14 +9710,15 @@
   "section": "Credibility Audit",
   "kind": "audit",
   "tag": "Sector accuracy check",
-  "verdict": null,
+  "verdict": "no-change",
   "fact": null,
   "before": "An insider should verify how complaint intake is handled on touring productions; who typically has access to a submission; whether \"do not discuss with colleagues\" language appears in templates; how crew hiring overlaps with review bodies; and what union or regulator routes exist for hours-and-pay complaints.",
   "after": null,
-  "reason": "",
-  "by": "pending",
+  "reason": "Advisory list for the author, not a claim made on the page. Its lettered points are illustrative scene or workplace details in a labelled composite.",
+  "by": "model",
   "checked": "2026-11-10",
-  "risk": "low"
+  "risk": "low",
+  "owner_approved": "2026-11-10"
  },
  {
   "q": 636,
@@ -9626,14 +9726,17 @@
   "section": "Verbal Breakdown",
   "kind": "pattern",
   "tag": "COMMON INDUSTRY PATTERN",
-  "verdict": null,
+  "verdict": "soften",
   "fact": null,
-  "before": "3. **Platform Amplification** — Recommendation systems and sharing habits carry the clip from a small audience to a very large one within hours. This functions by rewarding speed and strong emotion over accuracy, so the thinnest version of the story outruns later corrections. [COMMON INDUSTRY PATTERN] Concern rises when large accounts repost without checking the source and the person in the clip cannot reach the same audience.",
-  "after": null,
-  "reason": "common-pattern line states something checkable (number, law or date)",
-  "by": "pending",
+  "before": "carry the clip from a small audience to a very large one within hours",
+  "after": "can carry the clip from a small audience to a very large one within hours",
+  "reason": "Timing claim stated as always true; now 'can'.",
+  "by": "model",
   "checked": "2026-11-10",
-  "risk": "low"
+  "risk": "medium",
+  "owner_approved": "2026-11-10",
+  "patch_section": "Verbal Breakdown",
+  "wording": "derived"
  },
  {
   "q": 637,
@@ -9656,14 +9759,16 @@
   "section": "Institutional Echo",
   "kind": "review",
   "tag": "REQUIRES SUBJECT-MATTER REVIEW",
-  "verdict": null,
+  "verdict": "keep-conditional",
   "fact": null,
   "before": "[SPEAK] Booking rooms, labels, agencies and festivals are structurally exposed to this pattern even when nobody designs it. Where a venue's social channels are run by one overstretched person, a trending clip can force a public response within hours, before anyone has watched the original [COMMON INDUSTRY PATTERN]. Where booking terms contain conduct or brand-harm provisions, a viral clip can be treated as a trigger for a pause [REQUIRES SUBJECT-MATTER REVIEW].",
   "after": null,
-  "reason": "",
-  "by": "pending",
+  "reason": "Sentence already states an outcome as depending on conditions (can / may / varies); makes no flat factual claim.",
+  "by": "model",
   "checked": "2026-11-10",
-  "risk": "low"
+  "risk": "low",
+  "owner_approved": "2026-11-10",
+  "label": "Depends on the terms"
  },
  {
   "q": 639,
@@ -9746,14 +9851,15 @@
   "section": "Credibility Audit",
   "kind": "audit",
   "tag": "Sector accuracy check",
-  "verdict": null,
+  "verdict": "no-change",
   "fact": null,
   "before": "An insider should verify how small venues handle viral complaints and who drafts statements; whether street-to-stage slots carry written conduct or brand clauses; how a booking pause is documented; whether artists usually receive a written reason when a slot is withdrawn; how editors and sponsors weigh controversy informally; what transit rules or permits apply to streaming in public spaces [LEGAL CLAIM — JURISDICTION-SPECIFIC]; and what platforms offer for targeted harassment.",
   "after": null,
-  "reason": "",
-  "by": "pending",
+  "reason": "Advisory list for the author, not a claim made on the page. Its lettered points are illustrative scene or workplace details in a labelled composite.",
+  "by": "model",
   "checked": "2026-11-10",
-  "risk": "low"
+  "risk": "low",
+  "owner_approved": "2026-11-10"
  },
  {
   "q": 645,
@@ -9881,14 +9987,15 @@
   "section": "Credibility Audit",
   "kind": "audit",
   "tag": "Sector accuracy check",
-  "verdict": null,
+  "verdict": "no-change",
   "fact": null,
   "before": "An insider should verify how working bands and show ensembles actually decide on formats and rates; whether horn sections are commonly paid per date or by flat rate; whether agencies or leaders typically keep minutes; how \"by invitation\" calls are managed; whether union or guild rules apply to such arrangements [LEGAL CLAIM — JURISDICTION-SPECIFIC]; and how bands treat a request to see figures.",
   "after": null,
-  "reason": "",
-  "by": "pending",
+  "reason": "Advisory list for the author, not a claim made on the page. Its lettered points are illustrative scene or workplace details in a labelled composite.",
+  "by": "model",
   "checked": "2026-11-10",
-  "risk": "low"
+  "risk": "low",
+  "owner_approved": "2026-11-10"
  },
  {
   "q": 654,
@@ -10001,14 +10108,15 @@
   "section": "Credibility Audit",
   "kind": "audit",
   "tag": "Sector accuracy check",
-  "verdict": null,
+  "verdict": "no-change",
   "fact": null,
   "before": "An insider should verify how managers and A&R staff typically relay feedback between artist and producer; whether producers commonly work through managers rather than directly; how commission-based roles shape incentives; whether private threads are normal; and what mediation or union routes exist for producers and artists [LEGAL CLAIM — JURISDICTION-SPECIFIC].",
   "after": null,
-  "reason": "",
-  "by": "pending",
+  "reason": "Advisory list for the author, not a claim made on the page. Its lettered points are illustrative scene or workplace details in a labelled composite.",
+  "by": "model",
   "checked": "2026-11-10",
-  "risk": "low"
+  "risk": "low",
+  "owner_approved": "2026-11-10"
  },
  {
   "q": 662,
@@ -10136,14 +10244,15 @@
   "section": "Credibility Audit",
   "kind": "audit",
   "tag": "Sector accuracy check",
-  "verdict": null,
+  "verdict": "no-change",
   "fact": null,
   "before": "An insider should verify whether weekly all-hands with status boards are common at labels; how interns are supervised and by whom; whether licensing and clearance deadlines are as consequential as depicted; whether unpaid or school-placed interns have separate channels; and how references are used in the industry [LEGAL CLAIM — JURISDICTION-SPECIFIC].",
   "after": null,
-  "reason": "",
-  "by": "pending",
+  "reason": "Advisory list for the author, not a claim made on the page. Its lettered points are illustrative scene or workplace details in a labelled composite.",
+  "by": "model",
   "checked": "2026-11-10",
-  "risk": "low"
+  "risk": "low",
+  "owner_approved": "2026-11-10"
  },
  {
   "q": 671,
@@ -10271,14 +10380,15 @@
   "section": "Credibility Audit",
   "kind": "audit",
   "tag": "Sector accuracy check",
-  "verdict": null,
+  "verdict": "no-change",
   "fact": null,
   "before": "An insider should verify how artist coalitions are organized and how counterparties typically engage them; whether data rooms and NDAs are standard in royalty-method discussions; whether agreements commonly cover the existence of meetings; how collective management bodies handle member data; and what advisory routes exist [LEGAL CLAIM — JURISDICTION-SPECIFIC].",
   "after": null,
-  "reason": "",
-  "by": "pending",
+  "reason": "Advisory list for the author, not a claim made on the page. Its lettered points are illustrative scene or workplace details in a labelled composite.",
+  "by": "model",
   "checked": "2026-11-10",
-  "risk": "low"
+  "risk": "low",
+  "owner_approved": "2026-11-10"
  },
  {
   "q": 680,
@@ -10406,14 +10516,15 @@
   "section": "Credibility Audit",
   "kind": "audit",
   "tag": "Sector accuracy check",
-  "verdict": null,
+  "verdict": "no-change",
   "fact": null,
   "before": "An insider should verify how club guest lists and VIP sections are managed and by whom; how new DJs are booked and paid; whether exposure slots are typically unpaid; how promoters speak about loyalty and rival nights; and what bodies, if any, represent DJs in the relevant jurisdiction [LEGAL CLAIM — JURISDICTION-SPECIFIC].",
   "after": null,
-  "reason": "",
-  "by": "pending",
+  "reason": "Advisory list for the author, not a claim made on the page. Its lettered points are illustrative scene or workplace details in a labelled composite.",
+  "by": "model",
   "checked": "2026-11-10",
-  "risk": "low"
+  "risk": "low",
+  "owner_approved": "2026-11-10"
  },
  {
   "q": 689,
@@ -10542,14 +10653,15 @@
   "section": "Credibility Audit",
   "kind": "audit",
   "tag": "Sector accuracy check",
-  "verdict": null,
+  "verdict": "no-change",
   "fact": null,
   "before": "An insider should verify: how referral-driven studio booking works in practice; whether regional engineer and producer group chats operate as described; typical cancellation language; common invoice and hold-slot practices; whether new-room openings commonly affect established studios; and how studio owners usually handle unpaid session balances.",
   "after": null,
-  "reason": "",
-  "by": "pending",
+  "reason": "Advisory list for the author, not a claim made on the page. Its lettered points are illustrative scene or workplace details in a labelled composite.",
+  "by": "model",
   "checked": "2026-11-10",
-  "risk": "low"
+  "risk": "low",
+  "owner_approved": "2026-11-10"
  },
  {
   "q": 698,
@@ -10587,14 +10699,16 @@
   "section": "Institutional Echo",
   "kind": "review",
   "tag": "REQUIRES SUBJECT-MATTER REVIEW",
-  "verdict": null,
+  "verdict": "keep-conditional",
   "fact": null,
   "before": "[SPEAK] Touring operates on informal networks. Hiring runs on word of mouth, and a freelancer's access to the next job often depends on being thought easy to work with [COMMON INDUSTRY PATTERN]. Where reporting channels sit within the same production structure that employs the people reported on, the reporter's identity may become known, formally or not [COMMON INDUSTRY PATTERN]. Where onboarding packets promise confidentiality without describing how it is protected, the promise may be weaker in practice than on paper [REQUIRES SUBJECT-MATTER REVIEW].",
   "after": null,
-  "reason": "",
-  "by": "pending",
+  "reason": "Sentence already states an outcome as depending on conditions (can / may / varies); makes no flat factual claim.",
+  "by": "model",
   "checked": "2026-11-10",
-  "risk": "low"
+  "risk": "low",
+  "owner_approved": "2026-11-10",
+  "label": "Depends on the terms"
  },
  {
   "q": 701,
@@ -10707,14 +10821,15 @@
   "section": "Credibility Audit",
   "kind": "audit",
   "tag": "Sector accuracy check",
-  "verdict": null,
+  "verdict": "no-change",
   "fact": null,
   "before": "An insider should verify: how tour crew chats are used and moderated; how call sheets and rosters are distributed; how onboarding packets describe reporting and confidentiality; how reporting channels are structured inside tours; how freelancers are rehired; and what support unions or guilds typically offer.",
   "after": null,
-  "reason": "",
-  "by": "pending",
+  "reason": "Advisory list for the author, not a claim made on the page. Its lettered points are illustrative scene or workplace details in a labelled composite.",
+  "by": "model",
   "checked": "2026-11-10",
-  "risk": "low"
+  "risk": "low",
+  "owner_approved": "2026-11-10"
  },
  {
   "q": 709,
@@ -10842,14 +10957,15 @@
   "section": "Credibility Audit",
   "kind": "audit",
   "tag": "Sector accuracy check",
-  "verdict": null,
+  "verdict": "no-change",
   "fact": null,
   "before": "An insider should verify: how players, crew and management communicate during negotiations; whether packets are typically separate; how \"service\" and overtime are described in documents; the role of an orchestra personnel manager; how union hall meetings run; and where venue offices sit relative to stage operations.",
   "after": null,
-  "reason": "",
-  "by": "pending",
+  "reason": "Advisory list for the author, not a claim made on the page. Its lettered points are illustrative scene or workplace details in a labelled composite.",
+  "by": "model",
   "checked": "2026-11-10",
-  "risk": "low"
+  "risk": "low",
+  "owner_approved": "2026-11-10"
  },
  {
   "q": 718,
@@ -10866,7 +10982,8 @@
   "checked": "2026-11-10",
   "risk": "medium",
   "patch_section": "Verbal Breakdown",
-  "wording": "derived"
+  "wording": "derived",
+  "owner_approved": "2026-11-10"
  },
  {
   "q": 719,
@@ -11009,14 +11126,15 @@
   "section": "Credibility Audit",
   "kind": "audit",
   "tag": "Sector accuracy check",
-  "verdict": null,
-  "fact": null,
+  "verdict": "no-change",
+  "fact": "F010",
   "before": "An insider should verify: how chart-week sales reports are structured; how bundled units are typically labeled; what compilers currently allow; how labels describe \"working\" a record; how fan and promotional accounts are typically distinguished; and how promotional spending is treated in artist accounts.",
   "after": null,
-  "reason": "",
-  "by": "pending",
+  "reason": "Advisory list for the author, not a claim made on the page. Its lettered points are illustrative scene or workplace details in a labelled composite. Terms of art it touches are covered by fact F010.",
+  "by": "model",
   "checked": "2026-11-10",
-  "risk": "low"
+  "risk": "low",
+  "owner_approved": "2026-11-10"
  },
  {
   "q": 729,
@@ -11069,14 +11187,16 @@
   "section": "Institutional Echo",
   "kind": "review",
   "tag": "REQUIRES SUBJECT-MATTER REVIEW",
-  "verdict": null,
+  "verdict": "keep-conditional",
   "fact": null,
   "before": "Where a presenting venue, a production office and a creative team share responsibility for a schedule, the pressure created by a decision may attach to whoever is most visible [COMMON INDUSTRY PATTERN]. Confidentiality around complaints protects participants and may also prevent the target from responding to specifics [REQUIRES SUBJECT-MATTER REVIEW].",
   "after": null,
-  "reason": "",
-  "by": "pending",
+  "reason": "Sentence already states an outcome as depending on conditions (can / may / varies); makes no flat factual claim.",
+  "by": "model",
   "checked": "2026-11-10",
-  "risk": "low"
+  "risk": "low",
+  "owner_approved": "2026-11-10",
+  "label": "Depends on the terms"
  },
  {
   "q": 733,
@@ -11159,14 +11279,15 @@
   "section": "Credibility Audit",
   "kind": "audit",
   "tag": "Sector accuracy check",
-  "verdict": null,
+  "verdict": "no-change",
   "fact": null,
   "before": "An insider should verify: how complaints are routed in touring productions; the role of company managers and presenting-venue liaisons; how curfew cuts are decided; whether choreographers are typically blamed for schedule changes; how rehearsal-room conduct processes work; and typical confidentiality practice.",
   "after": null,
-  "reason": "",
-  "by": "pending",
+  "reason": "Advisory list for the author, not a claim made on the page. Its lettered points are illustrative scene or workplace details in a labelled composite.",
+  "by": "model",
   "checked": "2026-11-10",
-  "risk": "low"
+  "risk": "low",
+  "owner_approved": "2026-11-10"
  },
  {
   "q": 739,
@@ -11219,14 +11340,16 @@
   "section": "Institutional Echo",
   "kind": "review",
   "tag": "REQUIRES SUBJECT-MATTER REVIEW",
-  "verdict": null,
+  "verdict": "keep-conditional",
   "fact": null,
   "before": "Where agreements restrict what a departing member may say, including non-disparagement terms, the other side of the story may be hard to tell [REQUIRES SUBJECT-MATTER REVIEW].",
   "after": null,
-  "reason": "",
-  "by": "pending",
+  "reason": "Sentence already states an outcome as depending on conditions (can / may / varies); makes no flat factual claim.",
+  "by": "model",
   "checked": "2026-11-10",
-  "risk": "low"
+  "risk": "low",
+  "owner_approved": "2026-11-10",
+  "label": "Depends on the terms"
  },
  {
   "q": 743,
@@ -11315,14 +11438,15 @@
   "section": "Credibility Audit",
   "kind": "audit",
   "tag": "Sector accuracy check",
-  "verdict": null,
+  "verdict": "no-change",
   "fact": null,
   "before": "An insider should verify: how lineup changes are announced; who typically receives informal accounts of a departure; how management handles wardrobe, locker and access after exit; the role of non-disparagement language; how welcome messages are drafted; and whether successors are typically offered the same verbal assurances.",
   "after": null,
-  "reason": "",
-  "by": "pending",
+  "reason": "Advisory list for the author, not a claim made on the page. Its lettered points are illustrative scene or workplace details in a labelled composite.",
+  "by": "model",
   "checked": "2026-11-10",
-  "risk": "low"
+  "risk": "low",
+  "owner_approved": "2026-11-10"
  },
  {
   "q": 749,
@@ -11345,14 +11469,16 @@
   "section": "Institutional Echo",
   "kind": "review",
   "tag": "REQUIRES SUBJECT-MATTER REVIEW",
-  "verdict": null,
+  "verdict": "keep-conditional",
   "fact": null,
   "before": "[SPEAK] In this sector, the same pattern can run through label marketing reviews, distributor portals, services-deal scorecards, management roundups and platform tools that produce the red-arrow view. A single \"early engagement\" threshold may decide who receives a pitch or an ad budget. [COMMON INDUSTRY PATTERN] Roster reviews may rank artists by a shared dashboard metric without noting differences in release timing, spend or genre. [REQUIRES SUBJECT-MATTER REVIEW] Comparison sets may be generated by the tool and adopted without anyone checking how they were built. The pattern can also flow in the other direction, with strong-metric artists receiving looser creative approvals while weaker-metric artists receive more reporting, more check-ins and more required content. Nobody in the chain needs to intend harm for the structure to produce it. How any platform weights its recommendations is not something this script can state. [VERIFIED SOURCE NEEDED]",
   "after": null,
-  "reason": "",
-  "by": "pending",
+  "reason": "Sentence already states an outcome as depending on conditions (can / may / varies); makes no flat factual claim.",
+  "by": "model",
   "checked": "2026-11-10",
-  "risk": "low"
+  "risk": "low",
+  "owner_approved": "2026-11-10",
+  "label": "Depends on the terms"
  },
  {
   "q": 751,
@@ -11360,14 +11486,15 @@
   "section": "Institutional Echo",
   "kind": "source",
   "tag": "VERIFIED SOURCE NEEDED",
-  "verdict": null,
+  "verdict": "escalate",
   "fact": null,
   "before": "[SPEAK] In this sector, the same pattern can run through label marketing reviews, distributor portals, services-deal scorecards, management roundups and platform tools that produce the red-arrow view. A single \"early engagement\" threshold may decide who receives a pitch or an ad budget. [COMMON INDUSTRY PATTERN] Roster reviews may rank artists by a shared dashboard metric without noting differences in release timing, spend or genre. [REQUIRES SUBJECT-MATTER REVIEW] Comparison sets may be generated by the tool and adopted without anyone checking how they were built. The pattern can also flow in the other direction, with strong-metric artists receiving looser creative approvals while weaker-metric artists receive more reporting, more check-ins and more required content. Nobody in the chain needs to intend harm for the structure to produce it. How any platform weights its recommendations is not something this script can state. [VERIFIED SOURCE NEEDED]",
   "after": null,
-  "reason": "",
-  "by": "pending",
+  "reason": "Describes how platforms or apps behave; needs a fetched source that was not gathered in this pass. The original 'Verified source needed' label stays visible on the page.",
+  "by": "model",
   "checked": "2026-11-10",
-  "risk": "low"
+  "risk": "medium",
+  "owner_approved": "2026-11-10"
  },
  {
   "q": 752,
@@ -11435,14 +11562,16 @@
   "section": "Institutional Echo",
   "kind": "review",
   "tag": "REQUIRES SUBJECT-MATTER REVIEW",
-  "verdict": null,
+  "verdict": "keep-conditional",
   "fact": null,
   "before": "[SPEAK] In community and small-scale performing arts, the same pattern can show up in season budgets that list in-kind volunteer contributions as a line item, grant applications that count donated hours as match, board packets that celebrate the person who covered the gap, and stipend lines that have not changed for years. [COMMON INDUSTRY PATTERN] Licensing, venue, insurance and equipment costs are real, and some organizations are genuinely at the edge of what they can afford. Where unpaid hours are counted as an asset in a grant or a budget, that is worth reading closely, since how volunteer value may be used in funding applications depends on the funder's rules. [REQUIRES SUBJECT-MATTER REVIEW] The organization may also depend on the same few people each season, so that the structure rests on their private resources.",
   "after": null,
-  "reason": "",
-  "by": "pending",
+  "reason": "Sentence already states an outcome as depending on conditions (can / may / varies); makes no flat factual claim.",
+  "by": "model",
   "checked": "2026-11-10",
-  "risk": "low"
+  "risk": "low",
+  "owner_approved": "2026-11-10",
+  "label": "Depends on the terms"
  },
  {
   "q": 757,
@@ -11525,14 +11654,16 @@
   "section": "Institutional Echo",
   "kind": "review",
   "tag": "REQUIRES SUBJECT-MATTER REVIEW",
-  "verdict": null,
+  "verdict": "keep-conditional",
   "fact": null,
   "before": "[SPEAK] In live entertainment, the same pattern can run through venue partner portals, insurance and compliance requests, settlement reconciliation templates, booking relationship reviews, \"partner\" feedback forms and confidentiality acknowledgments. [COMMON INDUSTRY PATTERN] Large operators often have legitimate compliance duties, and requests for documentation can be genuine. The question is whether the demand is proportionate, specific, explained and tied to a decision rule. Where consequences, notice periods and review rights are set out in a booking agreement or a code of practice, those terms matter. [LEGAL CLAIM — JURISDICTION-SPECIFIC] Some of this overlaps with the Paper-Trail Trap pattern described elsewhere in this series, in which records are built to shift blame, and the two can run together. [REQUIRES SUBJECT-MATTER REVIEW]",
   "after": null,
-  "reason": "",
-  "by": "pending",
+  "reason": "Sentence already states an outcome as depending on conditions (can / may / varies); makes no flat factual claim.",
+  "by": "model",
   "checked": "2026-11-10",
-  "risk": "low"
+  "risk": "low",
+  "owner_approved": "2026-11-10",
+  "label": "Depends on the terms"
  },
  {
   "q": 763,
@@ -11555,14 +11686,16 @@
   "section": "Verbal Breakdown",
   "kind": "review",
   "tag": "REQUIRES SUBJECT-MATTER REVIEW",
-  "verdict": null,
+  "verdict": "keep-conditional",
   "fact": null,
   "before": "5. **PIP Weaponization** — A Performance Improvement Plan arrives with vague categories, no dated examples, an unmeasurable standard and a short window. This functions by turning a support tool into a documented basis for separation, with a signature line making the target an apparent participant. Concern rises when concerns cannot be tied to named events and earlier reviews or credits go unmentioned. [REQUIRES SUBJECT-MATTER REVIEW]",
   "after": null,
-  "reason": "",
-  "by": "pending",
+  "reason": "Sentence already states an outcome as depending on conditions (can / may / varies); makes no flat factual claim.",
+  "by": "model",
   "checked": "2026-11-10",
-  "risk": "low"
+  "risk": "low",
+  "owner_approved": "2026-11-10",
+  "label": "Depends on the terms"
  },
  {
   "q": 765,
@@ -11585,14 +11718,16 @@
   "section": "Institutional Echo",
   "kind": "review",
   "tag": "REQUIRES SUBJECT-MATTER REVIEW",
-  "verdict": null,
+  "verdict": "keep-conditional",
   "fact": null,
   "before": "[SPEAK] Label structures can produce this pattern without anyone designing it. Credit in a studio hierarchy often flows upward by default, with junior contribution recorded as \"additional\" [COMMON INDUSTRY PATTERN]. Performance plans can blur the line between support and a paper trail before separation [REQUIRES SUBJECT-MATTER REVIEW]. Informal reference networks in a small industry mean a hallway remark can outweigh a formal file [COMMON INDUSTRY PATTERN].",
   "after": null,
-  "reason": "",
-  "by": "pending",
+  "reason": "Sentence already states an outcome as depending on conditions (can / may / varies); makes no flat factual claim.",
+  "by": "model",
   "checked": "2026-11-10",
-  "risk": "low"
+  "risk": "low",
+  "owner_approved": "2026-11-10",
+  "label": "Depends on the terms"
  },
  {
   "q": 767,
@@ -11684,7 +11819,8 @@
   "checked": "2026-11-10",
   "risk": "medium",
   "patch_section": "Why This Order",
-  "wording": "derived"
+  "wording": "derived",
+  "owner_approved": "2026-11-10"
  },
  {
   "q": 773,
@@ -11707,14 +11843,15 @@
   "section": "Credibility Audit",
   "kind": "audit",
   "tag": "Sector accuracy check",
-  "verdict": null,
+  "verdict": "no-change",
   "fact": null,
   "before": "A sector insider should verify: how \"produced by,\" \"additional production\" and \"executive producer\" credits are assigned for staff roles; whether staff producers' work falls under employment or work-for-hire terms; how performance plans are used in label HR; how session logs and project files are retained; how informal reference checking works between labels and managements; and whether the all-hands and credit-sheet sequence is realistic.",
   "after": null,
-  "reason": "",
-  "by": "pending",
+  "reason": "Advisory list for the author, not a claim made on the page. Its lettered points are illustrative scene or workplace details in a labelled composite.",
+  "by": "model",
   "checked": "2026-11-10",
-  "risk": "low"
+  "risk": "low",
+  "owner_approved": "2026-11-10"
  },
  {
   "q": 775,
@@ -11722,14 +11859,15 @@
   "section": "Verbal Breakdown",
   "kind": "pattern",
   "tag": "COMMON INDUSTRY PATTERN",
-  "verdict": null,
+  "verdict": "keep-label",
   "fact": null,
   "before": "2. **False Authority** — Claims are delivered as settled because of who is making them, not what supports them, as with \"this is how it works in the industry.\" This functions by replacing evidence with standing. Concern rises when a factual claim about rates, terms or structure is offered without a document and the question for one is treated as impertinent. [COMMON INDUSTRY PATTERN]",
   "after": null,
-  "reason": "common-pattern line states something checkable (number, law or date)",
-  "by": "pending",
+  "reason": "Describes a verbal move; asserts no number, law or date.",
+  "by": "model",
   "checked": "2026-11-10",
-  "risk": "low"
+  "risk": "low",
+  "owner_approved": "2026-11-10"
  },
  {
   "q": 776,
@@ -11767,14 +11905,16 @@
   "section": "Institutional Echo",
   "kind": "review",
   "tag": "REQUIRES SUBJECT-MATTER REVIEW",
-  "verdict": null,
+  "verdict": "keep-conditional",
   "fact": null,
   "before": "[SPEAK] Music-business structures can reward opacity without any single bad actor. Royalty chains involving labels, publishers, administrators, distributors and collection bodies are layered, and statements are often summarized for clients rather than reproduced in full [COMMON INDUSTRY PATTERN]. Business managers and attorneys frequently hold power of attorney or payment authority, which concentrates information in one office [COMMON INDUSTRY PATTERN]. Professional titles and certifications vary in meaning and scope, and clients may not know which ones are regulated and for what [REQUIRES SUBJECT-MATTER REVIEW]. A recommendation chain, such as a lawyer recommending an accountant who recommends a manager, can make independence hard to judge [HYPOTHETICAL COMPOSITE].",
   "after": null,
-  "reason": "",
-  "by": "pending",
+  "reason": "Sentence already states an outcome as depending on conditions (can / may / varies); makes no flat factual claim.",
+  "by": "model",
   "checked": "2026-11-10",
-  "risk": "low"
+  "risk": "low",
+  "owner_approved": "2026-11-10",
+  "label": "Depends on the terms"
  },
  {
   "q": 779,
@@ -11878,14 +12018,15 @@
   "section": "Credibility Audit",
   "kind": "audit",
   "tag": "Sector accuracy check",
-  "verdict": null,
+  "verdict": "no-change",
   "fact": null,
   "before": "A sector insider should verify: how business-manager statements typically summarize royalty flows; what documents a client can normally request; whether power of attorney is common; what credentials a business manager would typically hold and what they cover; how royalty waterfalls and administration layers are described; and whether the described walk-through offer is realistic.",
   "after": null,
-  "reason": "",
-  "by": "pending",
+  "reason": "Advisory list for the author, not a claim made on the page. Its lettered points are illustrative scene or workplace details in a labelled composite.",
+  "by": "model",
   "checked": "2026-11-10",
-  "risk": "low"
+  "risk": "low",
+  "owner_approved": "2026-11-10"
  },
  {
   "q": 786,
@@ -12021,7 +12162,8 @@
   "by": "model",
   "checked": "2026-11-10",
   "risk": "medium",
-  "patch_section": "Verbal Breakdown"
+  "patch_section": "Verbal Breakdown",
+  "owner_approved": "2026-11-10"
  },
  {
   "q": 795,
@@ -12044,14 +12186,15 @@
   "section": "Credibility Audit",
   "kind": "audit",
   "tag": "Sector accuracy check",
-  "verdict": null,
-  "fact": null,
+  "verdict": "no-change",
+  "fact": "F001",
   "before": "A sector insider should verify: how trainee dormitory contracts handle costs and recoupment; whether phone collection and supervised calls are common; the role of counselors and journals; how guardians typically receive financial statements; typical daily schedules; and exit terms for trainees under eighteen.",
   "after": null,
-  "reason": "",
-  "by": "pending",
+  "reason": "Advisory list for the author, not a claim made on the page. Its lettered points are illustrative scene or workplace details in a labelled composite. Terms of art it touches are covered by fact F001, F007.",
+  "by": "model",
   "checked": "2026-11-10",
-  "risk": "low"
+  "risk": "low",
+  "owner_approved": "2026-11-10"
  },
  {
   "q": 797,
@@ -12104,14 +12247,17 @@
   "section": "Institutional Echo",
   "kind": "review",
   "tag": "REQUIRES SUBJECT-MATTER REVIEW",
-  "verdict": null,
+  "verdict": "soften",
   "fact": null,
-  "before": "[SPEAK] Services and distribution structures can embed these dynamics without a villain. Advances recouped against future revenue make cash flow dependent on the company [COMMON INDUSTRY PATTERN]. Termination fees, notice periods and schedules held outside the main document make the cost of leaving hard to estimate [REQUIRES SUBJECT-MATTER REVIEW]. Portals that show a balance without breakdown, or allow documents only on request, reduce the information available to the artist [HYPOTHETICAL COMPOSITE]. Support rotation and shared inboxes can produce diffusion of responsibility as a side effect of scale [COMMON INDUSTRY PATTERN].",
-  "after": null,
-  "reason": "",
-  "by": "pending",
+  "before": "make the cost of leaving hard to estimate",
+  "after": "can make the cost of leaving hard to estimate",
+  "reason": "Stated as certain; now 'can'.",
+  "by": "model",
   "checked": "2026-11-10",
-  "risk": "low"
+  "risk": "medium",
+  "owner_approved": "2026-11-10",
+  "patch_section": "Institutional Echo",
+  "wording": "derived"
  },
  {
   "q": 801,
@@ -12224,14 +12370,15 @@
   "section": "Credibility Audit",
   "kind": "audit",
   "tag": "Sector accuracy check",
-  "verdict": null,
-  "fact": null,
+  "verdict": "no-change",
+  "fact": "F001",
   "before": "A sector insider should verify: how services and distribution agreements describe early termination fees; whether schedules are normally attached to the main document; how portals show balances and documents; typical notice periods; whether advances are commonly recouped through services revenue; and whether account-manager rotation is realistic.",
   "after": null,
-  "reason": "",
-  "by": "pending",
+  "reason": "Advisory list for the author, not a claim made on the page. Its lettered points are illustrative scene or workplace details in a labelled composite. Terms of art it touches are covered by fact F001.",
+  "by": "model",
   "checked": "2026-11-10",
-  "risk": "low"
+  "risk": "low",
+  "owner_approved": "2026-11-10"
  },
  {
   "q": 809,
@@ -12269,14 +12416,16 @@
   "section": "Institutional Echo",
   "kind": "review",
   "tag": "REQUIRES SUBJECT-MATTER REVIEW",
-  "verdict": null,
+  "verdict": "keep-conditional",
   "fact": null,
   "before": "[SPEAK] Small studios and labels often run on informal management, with personnel records kept by the owner and without a neutral process [COMMON INDUSTRY PATTERN]. Concern files, complaint logs and incident templates can be created without the knowledge of the person they concern [REQUIRES SUBJECT-MATTER REVIEW]. Outside HR consultants may be brought in only at the point of decision, receiving a file as given [HYPOTHETICAL COMPOSITE]. Whether and when an employee has a right to see their own personnel file or to respond to it varies by place. [LEGAL CLAIM — JURISDICTION-SPECIFIC]",
   "after": null,
-  "reason": "",
-  "by": "pending",
+  "reason": "Sentence already states an outcome as depending on conditions (can / may / varies); makes no flat factual claim.",
+  "by": "model",
   "checked": "2026-11-10",
-  "risk": "low"
+  "risk": "low",
+  "owner_approved": "2026-11-10",
+  "label": "Depends on the terms"
  },
  {
   "q": 812,
@@ -12395,14 +12544,15 @@
   "section": "Credibility Audit",
   "kind": "audit",
   "tag": "Sector accuracy check",
-  "verdict": null,
+  "verdict": "no-change",
   "fact": null,
   "before": "A sector insider should verify: how small studios keep personnel records; whether outside HR consultants are commonly used; how studio managers handle bookings, invoices and keys; how freelance engineers are hired and handed over; and whether suspension from client-facing duties is a realistic first step.",
   "after": null,
-  "reason": "",
-  "by": "pending",
+  "reason": "Advisory list for the author, not a claim made on the page. Its lettered points are illustrative scene or workplace details in a labelled composite.",
+  "by": "model",
   "checked": "2026-11-10",
-  "risk": "low"
+  "risk": "low",
+  "owner_approved": "2026-11-10"
  },
  {
   "q": 820,
@@ -12425,14 +12575,17 @@
   "section": "Institutional Echo",
   "kind": "review",
   "tag": "REQUIRES SUBJECT-MATTER REVIEW",
-  "verdict": null,
+  "verdict": "soften",
   "fact": null,
-  "before": "[SPEAK] Where artist management, touring and label teams use shared-location tools, wellness check-in apps, and tour-phone programs, the same architecture can operate at scale [COMMON INDUSTRY PATTERN]. Safety justifications for tracking minors, travelling dancers and touring crew are often sincere, and some form of check-in is ordinary practice on the road [REQUIRES SUBJECT-MATTER REVIEW]. Concern arises when monitoring scope expands beyond the original reason, when data is retained after a tour ends, and when response-time figures become a feature of performance conversations or are shared with third parties such as agents or label staff [HYPOTHETICAL COMPOSITE]. Consent terms for such apps are often long, and who holds the data, and for how long, is rarely explained [VERIFIED SOURCE NEEDED]. Whether any given arrangement is lawful, and what consent is required, is jurisdiction-specific [LEGAL CLAIM — JURISDICTION-SPECIFIC].",
-  "after": null,
-  "reason": "",
-  "by": "pending",
+  "before": "some form of check-in is ordinary practice on the road",
+  "after": "some form of check-in can be an ordinary part of touring",
+  "reason": "Norm stated as fact with no source; softened.",
+  "by": "model",
   "checked": "2026-11-10",
-  "risk": "low"
+  "risk": "medium",
+  "owner_approved": "2026-11-10",
+  "patch_section": "Institutional Echo",
+  "wording": "derived"
  },
  {
   "q": 822,
@@ -12455,14 +12608,17 @@
   "section": "Institutional Echo",
   "kind": "source",
   "tag": "VERIFIED SOURCE NEEDED",
-  "verdict": null,
+  "verdict": "soften",
   "fact": null,
-  "before": "[SPEAK] Where artist management, touring and label teams use shared-location tools, wellness check-in apps, and tour-phone programs, the same architecture can operate at scale [COMMON INDUSTRY PATTERN]. Safety justifications for tracking minors, travelling dancers and touring crew are often sincere, and some form of check-in is ordinary practice on the road [REQUIRES SUBJECT-MATTER REVIEW]. Concern arises when monitoring scope expands beyond the original reason, when data is retained after a tour ends, and when response-time figures become a feature of performance conversations or are shared with third parties such as agents or label staff [HYPOTHETICAL COMPOSITE]. Consent terms for such apps are often long, and who holds the data, and for how long, is rarely explained [VERIFIED SOURCE NEEDED]. Whether any given arrangement is lawful, and what consent is required, is jurisdiction-specific [LEGAL CLAIM — JURISDICTION-SPECIFIC].",
-  "after": null,
-  "reason": "",
-  "by": "pending",
+  "before": "Consent terms for such apps are often long, and who holds the data, and for how long, is rarely explained",
+  "after": "Consent terms for such apps can be long, and who holds the data, and for how long, is not always explained",
+  "reason": "Frequency claim ('often', 'rarely') with no source; softened.",
+  "by": "model",
   "checked": "2026-11-10",
-  "risk": "low"
+  "risk": "medium",
+  "owner_approved": "2026-11-10",
+  "patch_section": "Institutional Echo",
+  "wording": "derived"
  },
  {
   "q": 824,
@@ -12545,14 +12701,15 @@
   "section": "Credibility Audit",
   "kind": "audit",
   "tag": "Sector accuracy check",
-  "verdict": null,
-  "fact": null,
+  "verdict": "no-change",
+  "fact": "F007",
   "before": "An insider should verify: whether managers commonly use shared-location or check-in apps with adult artists; how tour-safety protocols treat minors versus adults; whether response-time metrics appear in management reporting; how passcode or cloud-access requests are framed on the road; and what data-retention practices tour-phone programs typically follow.",
   "after": null,
-  "reason": "",
-  "by": "pending",
+  "reason": "Advisory list for the author, not a claim made on the page. Its lettered points are illustrative scene or workplace details in a labelled composite. Terms of art it touches are covered by fact F007.",
+  "by": "model",
   "checked": "2026-11-10",
-  "risk": "low"
+  "risk": "low",
+  "owner_approved": "2026-11-10"
  },
  {
   "q": 830,
@@ -12590,14 +12747,15 @@
   "section": "Institutional Echo",
   "kind": "review",
   "tag": "REQUIRES SUBJECT-MATTER REVIEW",
-  "verdict": null,
-  "fact": null,
+  "verdict": "keep-cited",
+  "fact": "F015",
   "before": "[SPEAK] Platforms, distributors and booking systems can operationalize this pattern without intending to. Report forms that require a URL and a category but offer no route to a person can leave impersonation victims in an automated loop [COMMON INDUSTRY PATTERN]. Likeness and voice clauses in performer contracts vary widely in what they permit a counterparty to synthesize or reuse [REQUIRES SUBJECT-MATTER REVIEW]. Verification systems often rely on account control, so an account takeover can pass for authenticity [HYPOTHETICAL COMPOSITE]. Clients with brand-safety policies may pause work on an allegation before authenticity is determined [HYPOTHETICAL COMPOSITE]. Most of this is overloaded support, not malice; intent would require additional evidence.",
   "after": null,
-  "reason": "",
-  "by": "pending",
+  "reason": "F015: how performer contracts treat voice and likeness varies.",
+  "by": "model",
   "checked": "2026-11-10",
-  "risk": "low"
+  "risk": "low",
+  "owner_approved": "2026-11-10"
  },
  {
   "q": 833,
@@ -12673,7 +12831,8 @@
   "by": "model",
   "checked": "2026-11-10",
   "risk": "medium",
-  "patch_section": "Why This Order"
+  "patch_section": "Why This Order",
+  "owner_approved": "2026-11-10"
  },
  {
   "q": 838,
@@ -12696,14 +12855,15 @@
   "section": "Credibility Audit",
   "kind": "audit",
   "tag": "Sector accuracy check",
-  "verdict": null,
-  "fact": null,
+  "verdict": "no-change",
+  "fact": "F013",
   "before": "An insider should verify: how voice and likeness clauses read in session, voice-acting and audiobook contracts; how distributors and platforms handle impersonation claims and account recovery; what clients' brand-safety processes typically require; how provenance is established for audio; and what trusted attestors are practical for session work.",
   "after": null,
-  "reason": "",
-  "by": "pending",
+  "reason": "Advisory list for the author, not a claim made on the page. Its lettered points are illustrative scene or workplace details in a labelled composite. Terms of art it touches are covered by fact F013, F015.",
+  "by": "model",
   "checked": "2026-11-10",
-  "risk": "low"
+  "risk": "low",
+  "owner_approved": "2026-11-10"
  },
  {
   "q": 840,
@@ -12822,14 +12982,15 @@
   "section": "Credibility Audit",
   "kind": "audit",
   "tag": "Sector accuracy check",
-  "verdict": null,
+  "verdict": "no-change",
   "fact": null,
   "before": "An insider should verify: how freelance critics work with outlets and newsletter platforms; how mass-report and appeal processes operate; how editors treat complaints and pauses; the role of fan communities and publicists; and whether reports to editors or sponsors typically follow such surges.",
   "after": null,
-  "reason": "",
-  "by": "pending",
+  "reason": "Advisory list for the author, not a claim made on the page. Its lettered points are illustrative scene or workplace details in a labelled composite.",
+  "by": "model",
   "checked": "2026-11-10",
-  "risk": "low"
+  "risk": "low",
+  "owner_approved": "2026-11-10"
  },
  {
   "q": 848,
@@ -12837,14 +12998,15 @@
   "section": "Definition",
   "kind": "source",
   "tag": "VERIFIED SOURCE NEEDED",
-  "verdict": null,
+  "verdict": "escalate",
   "fact": null,
   "before": "The Algorithmic Sorting Machine is the sequence where a platform's historical data about an artist is used to predict who will like their work and then to deliver the work only to those people, so that the prediction creates the evidence that confirms it, using Data Point Extraction, Algorithmic Profiling, Intervention Channeling, Confirmation Feedback Loop, Track Solidification and Demographic Patterning to convert an artist's trust that recommendation systems assess potential rather than lock it in into the loss of an open, undetermined future trajectory. It exploits the fact that streaming, playlisting and promotion tools sort music and audiences by past behavior. It is hard to detect because each step looks like neutral personalization, and because the system's inner workings are rarely visible to artists. What can be lost is the ability to reinvent, to be heard by new listeners, and the career that depends on that. How these systems operate in detail needs verification. [VERIFIED SOURCE NEEDED]",
   "after": null,
-  "reason": "",
-  "by": "pending",
+  "reason": "Describes how platforms or apps behave; needs a fetched source that was not gathered in this pass. The original 'Verified source needed' label stays visible on the page.",
+  "by": "model",
   "checked": "2026-11-10",
-  "risk": "low"
+  "risk": "medium",
+  "owner_approved": "2026-11-10"
  },
  {
   "q": 849,
@@ -12867,14 +13029,15 @@
   "section": "Institutional Echo",
   "kind": "source",
   "tag": "VERIFIED SOURCE NEEDED",
-  "verdict": null,
+  "verdict": "escalate",
   "fact": null,
   "before": "[SPEAK] Streaming platforms, distributors, playlist pitch tools and radio-promotion systems commonly use past listening and metadata to categorize artists and audiences [COMMON INDUSTRY PATTERN]. Genre fields in artist profiles may combine metadata supplied by the artist or distributor with inferences from listening data, and how much weight each carries differs across services [VERIFIED SOURCE NEEDED]. Pitch tools may pre-fill or limit options based on previous releases [HYPOTHETICAL COMPOSITE]. Labels and managers often use dashboard metrics to judge whether to invest in a project [COMMON INDUSTRY PATTERN]. Whether any given platform deliberately restricts reinvention is unknown, and intent would require additional evidence; the same effects can follow from neutral optimization.",
   "after": null,
-  "reason": "",
-  "by": "pending",
+  "reason": "Describes how platforms or apps behave; needs a fetched source that was not gathered in this pass. The original 'Verified source needed' label stays visible on the page.",
+  "by": "model",
   "checked": "2026-11-10",
-  "risk": "low"
+  "risk": "medium",
+  "owner_approved": "2026-11-10"
  },
  {
   "q": 851,
@@ -12972,14 +13135,15 @@
   "section": "Credibility Audit",
   "kind": "audit",
   "tag": "Sector accuracy check",
-  "verdict": null,
+  "verdict": "no-change",
   "fact": null,
   "before": "An insider should verify: how genre fields are determined and whether artists can change them; how distributor pitch tools pre-fill options; how skip behavior is treated in recommendation; how A&R and managers use dashboards; and what routes exist for correcting a profile.",
   "after": null,
-  "reason": "",
-  "by": "pending",
+  "reason": "Advisory list for the author, not a claim made on the page. Its lettered points are illustrative scene or workplace details in a labelled composite.",
+  "by": "model",
   "checked": "2026-11-10",
-  "risk": "low"
+  "risk": "low",
+  "owner_approved": "2026-11-10"
  },
  {
   "q": 858,
@@ -12987,14 +13151,15 @@
   "section": "Verbal Breakdown",
   "kind": "source",
   "tag": "VERIFIED SOURCE NEEDED",
-  "verdict": null,
+  "verdict": "escalate",
   "fact": null,
   "before": "6. **A/B Tested Behavioral Engineering** — Prompts, timings, colors and reward sizes tuned through experiments to maximize time in the app. This functions by optimizing the mechanics for retention, whatever the effect on the user. Concern rises when changes appear to target drop-off moments, or when nobody can say what is measured. [VERIFIED SOURCE NEEDED]",
   "after": null,
-  "reason": "",
-  "by": "pending",
+  "reason": "Describes how platforms or apps behave; needs a fetched source that was not gathered in this pass. The original 'Verified source needed' label stays visible on the page.",
+  "by": "model",
   "checked": "2026-11-10",
-  "risk": "low"
+  "risk": "medium",
+  "owner_approved": "2026-11-10"
  },
  {
   "q": 859,
@@ -13032,14 +13197,15 @@
   "section": "Institutional Echo",
   "kind": "source",
   "tag": "VERIFIED SOURCE NEEDED",
-  "verdict": null,
+  "verdict": "escalate",
   "fact": null,
   "before": "[SPEAK] Artist fan apps, official communities and rewards programs commonly use points, ranks and streaks to encourage posting and returning [COMMON INDUSTRY PATTERN]. Volunteer moderator and ambassador programs can supply free community labor under the language of honor and early access [COMMON INDUSTRY PATTERN]. Reward schedules, notification timing and leaderboard design may be adjusted through experiments to increase time on platform, though how a given app does this needs verification [VERIFIED SOURCE NEEDED]. Terms for minors, consent from guardians and data collected on young users vary and are jurisdiction-specific [LEGAL CLAIM — JURISDICTION-SPECIFIC]. Most of this is ordinary community building, and intent would require additional evidence.",
   "after": null,
-  "reason": "",
-  "by": "pending",
+  "reason": "Describes how platforms or apps behave; needs a fetched source that was not gathered in this pass. The original 'Verified source needed' label stays visible on the page.",
+  "by": "model",
   "checked": "2026-11-10",
-  "risk": "low"
+  "risk": "medium",
+  "owner_approved": "2026-11-10"
  },
  {
   "q": 862,
@@ -13129,14 +13295,15 @@
   "section": "Credibility Audit",
   "kind": "audit",
   "tag": "Sector accuracy check",
-  "verdict": null,
-  "fact": null,
+  "verdict": "no-change",
+  "fact": "F007",
   "before": "An insider should verify: how official fan apps structure points, ranks and moderator roles; whether moderators are typically unpaid; how guardian consent works for minors; what notification practices are common; and how community teams select and remove volunteers.",
   "after": null,
-  "reason": "",
-  "by": "pending",
+  "reason": "Advisory list for the author, not a claim made on the page. Its lettered points are illustrative scene or workplace details in a labelled composite. Terms of art it touches are covered by fact F007.",
+  "by": "model",
   "checked": "2026-11-10",
-  "risk": "low"
+  "risk": "low",
+  "owner_approved": "2026-11-10"
  },
  {
   "q": 868,
@@ -13159,14 +13326,17 @@
   "section": "Institutional Echo",
   "kind": "review",
   "tag": "REQUIRES SUBJECT-MATTER REVIEW",
-  "verdict": null,
+  "verdict": "soften",
   "fact": null,
-  "before": "[SPEAK] Distributors, aggregators and artist-services platforms commonly bundle distribution with analytics, link tools, pitch tools and payout features [COMMON INDUSTRY PATTERN]. Terms of service for such platforms commonly reserve the right to change fees or features with notice, and acceptance by continued use is a common structure [REQUIRES SUBJECT-MATTER REVIEW]. Release identifiers, play counts and playlist placements may not transfer cleanly between services, though how each service handles migration differs [VERIFIED SOURCE NEEDED]. Agents, managers and curators often ask for platform dashboards as standard evidence of performance [HYPOTHETICAL COMPOSITE]. Much of this is technical reality and convenience, and intent would require additional evidence; the enforceability of any term is jurisdiction-specific [LEGAL CLAIM — JURISDICTION-SPECIFIC].",
-  "after": null,
-  "reason": "",
-  "by": "pending",
+  "before": "commonly reserve the right to change fees or features with notice, and acceptance by continued use is a common structure",
+  "after": "can reserve the right to change fees or features with notice, and acceptance by continued use can be the structure",
+  "reason": "Practice stated as common with no source; softened.",
+  "by": "model",
   "checked": "2026-11-10",
-  "risk": "low"
+  "risk": "medium",
+  "owner_approved": "2026-11-10",
+  "patch_section": "Institutional Echo",
+  "wording": "derived"
  },
  {
   "q": 870,
@@ -13174,14 +13344,15 @@
   "section": "Institutional Echo",
   "kind": "source",
   "tag": "VERIFIED SOURCE NEEDED",
-  "verdict": null,
+  "verdict": "escalate",
   "fact": null,
   "before": "[SPEAK] Distributors, aggregators and artist-services platforms commonly bundle distribution with analytics, link tools, pitch tools and payout features [COMMON INDUSTRY PATTERN]. Terms of service for such platforms commonly reserve the right to change fees or features with notice, and acceptance by continued use is a common structure [REQUIRES SUBJECT-MATTER REVIEW]. Release identifiers, play counts and playlist placements may not transfer cleanly between services, though how each service handles migration differs [VERIFIED SOURCE NEEDED]. Agents, managers and curators often ask for platform dashboards as standard evidence of performance [HYPOTHETICAL COMPOSITE]. Much of this is technical reality and convenience, and intent would require additional evidence; the enforceability of any term is jurisdiction-specific [LEGAL CLAIM — JURISDICTION-SPECIFIC].",
   "after": null,
-  "reason": "",
-  "by": "pending",
+  "reason": "Describes how platforms or apps behave; needs a fetched source that was not gathered in this pass. The original 'Verified source needed' label stays visible on the page.",
+  "by": "model",
   "checked": "2026-11-10",
-  "risk": "low"
+  "risk": "medium",
+  "owner_approved": "2026-11-10"
  },
  {
   "q": 871,
@@ -13285,14 +13456,15 @@
   "section": "Credibility Audit",
   "kind": "audit",
   "tag": "Sector accuracy check",
-  "verdict": null,
+  "verdict": "no-change",
   "fact": null,
   "before": "An insider should verify: how distributors handle release identifiers and migration; what exports are typically offered; whether pitch tools are bundled or tiered; how terms changes are communicated; whether play counts and playlist placements survive moves; and how agents and managers use dashboards as evidence.",
   "after": null,
-  "reason": "",
-  "by": "pending",
+  "reason": "Advisory list for the author, not a claim made on the page. Its lettered points are illustrative scene or workplace details in a labelled composite.",
+  "by": "model",
   "checked": "2026-11-10",
-  "risk": "low"
+  "risk": "low",
+  "owner_approved": "2026-11-10"
  },
  {
   "q": 878,
@@ -13300,14 +13472,15 @@
   "section": "Verbal Breakdown",
   "kind": "source",
   "tag": "VERIFIED SOURCE NEEDED",
-  "verdict": null,
+  "verdict": "escalate",
   "fact": null,
   "before": "3. **Averages as Benchmarks** — A field average, a \"typical finalist\" figure or a cohort median is placed beside the person's own number. This functions by making the crowd, rather than the craft, the implicit standard, and a moving one, because the average shifts as the field changes. Concern rises when the benchmark is unexplained, unsourced or always set just above where the person currently stands. [VERIFIED SOURCE NEEDED]",
   "after": null,
-  "reason": "",
-  "by": "pending",
+  "reason": "Describes how platforms or apps behave; needs a fetched source that was not gathered in this pass. The original 'Verified source needed' label stays visible on the page.",
+  "by": "model",
   "checked": "2026-11-10",
-  "risk": "low"
+  "risk": "medium",
+  "owner_approved": "2026-11-10"
  },
  {
   "q": 879,
@@ -13360,14 +13533,16 @@
   "section": "Institutional Echo",
   "kind": "review",
   "tag": "REQUIRES SUBJECT-MATTER REVIEW",
-  "verdict": null,
+  "verdict": "keep-conditional",
   "fact": null,
   "before": "[SPEAK] Talent competitions, chart tables, streaming dashboards and internal scorecards all convert creative work into relative position by default [COMMON INDUSTRY PATTERN]. Live leaderboards and refreshing percentile displays can create continuous ambient evaluation, especially when they are shown in shared spaces [HYPOTHETICAL COMPOSITE]. Averages and cohort benchmarks can appear as neutral context while functioning as an ever-moving standard [HYPOTHETICAL COMPOSITE]. Programs that share live figures with families may intend transparency, and the effect on the performer may still be amplified pressure [REQUIRES SUBJECT-MATTER REVIEW]. Performance metrics that drive the next booking, the next playlist slot or the next offer can reinforce the same logic after the show ends [COMMON INDUSTRY PATTERN].",
   "after": null,
-  "reason": "",
-  "by": "pending",
+  "reason": "Sentence already states an outcome as depending on conditions (can / may / varies); makes no flat factual claim.",
+  "by": "model",
   "checked": "2026-11-10",
-  "risk": "low"
+  "risk": "low",
+  "owner_approved": "2026-11-10",
+  "label": "Depends on the terms"
  },
  {
   "q": 883,
@@ -13434,7 +13609,8 @@
     "before": "the person administers it themselves",
     "after": "the person may begin to apply the frame to themselves"
    }
-  ]
+  ],
+  "owner_approved": "2026-11-10"
  },
  {
   "q": 887,
@@ -13502,14 +13678,16 @@
   "section": "Institutional Echo",
   "kind": "review",
   "tag": "REQUIRES SUBJECT-MATTER REVIEW",
-  "verdict": null,
+  "verdict": "keep-conditional",
   "fact": null,
   "before": "[SPEAK] Artist development, brand strategy and styling are standard parts of how recorded music is positioned [COMMON INDUSTRY PATTERN]. Persona briefs, brand decks and image or approval provisions can turn those functions into written standards for how an artist must look, sound and be described [HYPOTHETICAL COMPOSITE]. Where an agreement gives the label approval over image and the brief sorts personal qualities into approved and unapproved, the artist's character can become a compliance matter [REQUIRES SUBJECT-MATTER REVIEW]. Where co-writers, stylists and producers are selected by the label, the creative input available to the artist may narrow without any single decision to narrow it [HYPOTHETICAL COMPOSITE]. When the result underperforms, the artist is often the most visible name attached to a plan that others wrote [COMMON INDUSTRY PATTERN].",
   "after": null,
-  "reason": "",
-  "by": "pending",
+  "reason": "Sentence already states an outcome as depending on conditions (can / may / varies); makes no flat factual claim.",
+  "by": "model",
   "checked": "2026-11-10",
-  "risk": "low"
+  "risk": "low",
+  "owner_approved": "2026-11-10",
+  "label": "Depends on the terms"
  },
  {
   "q": 892,
@@ -13622,14 +13800,15 @@
   "section": "Credibility Audit",
   "kind": "audit",
   "tag": "Sector accuracy check",
-  "verdict": null,
+  "verdict": "no-change",
   "fact": null,
   "before": "An insider should verify: whether labels typically circulate written brand decks and persona briefs and who sees them; how image and approval provisions are worded and negotiated; whether stylists attend early development meetings; how co-writers are assigned; whether \"reference only\" appendices occur; how underperformance is typically explained internally; and what independent advice artists are realistically offered before accepting a brief.",
   "after": null,
-  "reason": "",
-  "by": "pending",
+  "reason": "Advisory list for the author, not a claim made on the page. Its lettered points are illustrative scene or workplace details in a labelled composite.",
+  "by": "model",
   "checked": "2026-11-10",
-  "risk": "low"
+  "risk": "low",
+  "owner_approved": "2026-11-10"
  },
  {
   "q": 900,
@@ -13682,14 +13861,16 @@
   "section": "Institutional Echo",
   "kind": "review",
   "tag": "REQUIRES SUBJECT-MATTER REVIEW",
-  "verdict": null,
+  "verdict": "keep-conditional",
   "fact": null,
   "before": "[SPEAK] Credit pages, session notes and liner-note proofs are fixed at the end of a project, often by a few people, and often under time pressure [COMMON INDUSTRY PATTERN]. Where junior roles are asked to proofread or draft the documents that decide their own credit, they may be unable to correct them without risk [HYPOTHETICAL COMPOSITE]. Where a producer's recommendation is the main path to the next job, the junior person's dependence can function as a reason not to raise credit [COMMON INDUSTRY PATTERN]. Where agreements leave credit to \"customary practice\" or to the producer's discretion, credit questions can turn on goodwill [REQUIRES SUBJECT-MATTER REVIEW]. Where reputational stakes are high, summaries of work may reduce individual contributions to \"the team\" [HYPOTHETICAL COMPOSITE].",
   "after": null,
-  "reason": "",
-  "by": "pending",
+  "reason": "Sentence already states an outcome as depending on conditions (can / may / varies); makes no flat factual claim.",
+  "by": "model",
   "checked": "2026-11-10",
-  "risk": "low"
+  "risk": "low",
+  "owner_approved": "2026-11-10",
+  "label": "Depends on the terms"
  },
  {
   "q": 904,
@@ -13765,7 +13946,8 @@
   "by": "model",
   "checked": "2026-11-10",
   "risk": "medium",
-  "patch_section": "Why This Order"
+  "patch_section": "Why This Order",
+  "owner_approved": "2026-11-10"
  },
  {
   "q": 909,
@@ -13788,14 +13970,15 @@
   "section": "Credibility Audit",
   "kind": "audit",
   "tag": "Sector accuracy check",
-  "verdict": null,
+  "verdict": "no-change",
   "fact": null,
   "before": "An insider should verify: how credits pages are drafted and approved; who proofreads them; the distinction between producer, additional producer, assistant and engineer credit; how session notes are kept and who edits them; whether \"additional production\" is a normal credit; how recommendations function in junior careers; and what documents typically record credit at delivery.",
   "after": null,
-  "reason": "",
-  "by": "pending",
+  "reason": "Advisory list for the author, not a claim made on the page. Its lettered points are illustrative scene or workplace details in a labelled composite.",
+  "by": "model",
   "checked": "2026-11-10",
-  "risk": "low"
+  "risk": "low",
+  "owner_approved": "2026-11-10"
  },
  {
   "q": 911,
@@ -13848,14 +14031,16 @@
   "section": "Institutional Echo",
   "kind": "review",
   "tag": "REQUIRES SUBJECT-MATTER REVIEW",
-  "verdict": null,
+  "verdict": "keep-conditional",
   "fact": null,
   "before": "[SPEAK] Festival and touring production runs on genuine emergencies, tight sheets and chains of command in which a manager's instruction is rarely questioned at night [COMMON INDUSTRY PATTERN]. Where emergency run sheets are written by one person and distributed to few, there may be little to confirm that an emergency occurred [HYPOTHETICAL COMPOSITE]. Where new or temporary crew are hired by the week, they may have no established peers to compare notes with [COMMON INDUSTRY PATTERN]. Where long shifts, noise and limited sleep are normal, the capacity to evaluate a sudden request may be reduced for everyone [REQUIRES SUBJECT-MATTER REVIEW]. Where loyalty to \"the show\" is valued above questions, secrecy can be mistaken for professionalism [HYPOTHETICAL COMPOSITE].",
   "after": null,
-  "reason": "",
-  "by": "pending",
+  "reason": "Sentence already states an outcome as depending on conditions (can / may / varies); makes no flat factual claim.",
+  "by": "model",
   "checked": "2026-11-10",
-  "risk": "low"
+  "risk": "low",
+  "owner_approved": "2026-11-10",
+  "label": "Depends on the terms"
  },
  {
   "q": 915,
@@ -13939,14 +14124,15 @@
   "section": "Credibility Audit",
   "kind": "audit",
   "tag": "Sector accuracy check",
-  "verdict": null,
+  "verdict": "no-change",
   "fact": null,
   "before": "An insider should verify: how emergency run sheets are written and distributed; whether insurer or promoter conditions are commonly tied to riders; how misplaced documents are handled; how new runners are onboarded and what channels they have for concerns; the typical hours and rest provisions for runners; and whether instructions to keep an issue from the wider crew occur in real production.",
   "after": null,
-  "reason": "",
-  "by": "pending",
+  "reason": "Advisory list for the author, not a claim made on the page. Its lettered points are illustrative scene or workplace details in a labelled composite.",
+  "by": "model",
   "checked": "2026-11-10",
-  "risk": "low"
+  "risk": "low",
+  "owner_approved": "2026-11-10"
  },
  {
   "q": 921,
@@ -14052,7 +14238,8 @@
   "by": "model",
   "checked": "2026-11-10",
   "risk": "medium",
-  "patch_section": "Why This Order"
+  "patch_section": "Why This Order",
+  "owner_approved": "2026-11-10"
  },
  {
   "q": 928,
@@ -14075,14 +14262,15 @@
   "section": "Credibility Audit",
   "kind": "audit",
   "tag": "Sector accuracy check",
-  "verdict": null,
+  "verdict": "no-change",
   "fact": null,
   "before": "An insider should verify how live-in writing houses are structured; whether pledges typically carry ownership language; how phone and visitor policies are described; how lease, equipment and credit ownership are documented; which house slang is benign; and what outside advisors residents typically have.",
   "after": null,
-  "reason": "",
-  "by": "pending",
+  "reason": "Advisory list for the author, not a claim made on the page. Its lettered points are illustrative scene or workplace details in a labelled composite.",
+  "by": "model",
   "checked": "2026-11-10",
-  "risk": "low"
+  "risk": "low",
+  "owner_approved": "2026-11-10"
  },
  {
   "q": 930,
@@ -14285,14 +14473,16 @@
   "section": "Institutional Echo",
   "kind": "review",
   "tag": "REQUIRES SUBJECT-MATTER REVIEW",
-  "verdict": null,
+  "verdict": "keep-conditional",
   "fact": null,
   "before": "[SPEAK] Wellness riders, label-arranged coaches and tour-based support can place a helper inside the same system that holds the artist's contract [COMMON INDUSTRY PATTERN]. Where session summaries or notes are shared with management, the artist's private statements can become part of a business record [HYPOTHETICAL COMPOSITE]. Consent forms that cover \"care coordination\" in broad terms can make it hard for an artist to know what is shared and with whom [HYPOTHETICAL COMPOSITE]. Rules on confidentiality, consent and information-sharing in care settings vary by place and profession [LEGAL CLAIM — JURISDICTION-SPECIFIC; REQUIRES SUBJECT-MATTER REVIEW].",
   "after": null,
-  "reason": "",
-  "by": "pending",
+  "reason": "Legal or medical routing: the sentence says the answer depends on place or sends the reader to a qualified person.",
+  "by": "model",
   "checked": "2026-11-10",
-  "risk": "low"
+  "risk": "low",
+  "owner_approved": "2026-11-10",
+  "label": "Ask a qualified person"
  },
  {
   "q": 944,
@@ -14360,7 +14550,8 @@
     "text": "This material should not be used to discourage anyone from treatment or to label a provider."
    }
   ],
-  "escalated": true
+  "escalated": true,
+  "owner_approved": "2026-11-10"
  },
  {
   "q": 948,
@@ -14368,14 +14559,15 @@
   "section": "Credibility Audit",
   "kind": "audit",
   "tag": "Sector accuracy check",
-  "verdict": null,
+  "verdict": "no-change",
   "fact": null,
   "before": "An insider should verify how wellness riders are typically drafted; what consent forms for care coordination usually say; whether management routinely receives summaries; how counsel attendance is normally handled in renegotiations; how label-arranged providers are engaged; and which professional bodies could review a provider's conduct.",
   "after": null,
-  "reason": "",
-  "by": "pending",
+  "reason": "Advisory list for the author, not a claim made on the page. Its lettered points are illustrative scene or workplace details in a labelled composite.",
+  "by": "model",
   "checked": "2026-11-10",
-  "risk": "low"
+  "risk": "low",
+  "owner_approved": "2026-11-10"
  },
  {
   "q": 949,
@@ -14428,14 +14620,16 @@
   "section": "Institutional Echo",
   "kind": "review",
   "tag": "REQUIRES SUBJECT-MATTER REVIEW",
-  "verdict": null,
+  "verdict": "keep-conditional",
   "fact": null,
   "before": "[SPEAK] Pipelines for young performers can produce this pattern without anyone designing it. Programs funded by visibility may rely on their most visible children [COMMON INDUSTRY PATTERN]. Contracts may include broad scheduling, media and discretionary participation language, which makes the child's schedule the program's variable [HYPOTHETICAL COMPOSITE]. Where schooling is delegated to a vendor the program selects, nobody outside it may monitor academic progress [HYPOTHETICAL COMPOSITE]. Physical assessments are valuable in many disciplines and some programs invest seriously in injury prevention [REQUIRES SUBJECT-MATTER REVIEW]; the concern is when measurement serves selection rather than care. What protections apply to child performers varies by place [LEGAL CLAIM — JURISDICTION-SPECIFIC]. Intent would require additional evidence, most usefully whether academic and health data are shared with the family and acted on, and what happens to those who leave.",
   "after": null,
-  "reason": "",
-  "by": "pending",
+  "reason": "Sentence already states an outcome as depending on conditions (can / may / varies); makes no flat factual claim.",
+  "by": "model",
   "checked": "2026-11-10",
-  "risk": "low"
+  "risk": "low",
+  "owner_approved": "2026-11-10",
+  "label": "Depends on the terms"
  },
  {
   "q": 953,
@@ -14518,14 +14712,15 @@
   "section": "Credibility Audit",
   "kind": "audit",
   "tag": "Sector accuracy check",
-  "verdict": null,
-  "fact": null,
+  "verdict": "no-change",
+  "fact": "F007",
   "before": "An insider should verify how competition circuits structure participation and readiness language; how independent study and attendance exemptions work for child performers locally; what physical assessment practices are normal in classical training; what trust, work-permit and schooling rules apply; whether departures commonly lack transition support; and how appearance fees are handled for minors.",
   "after": null,
-  "reason": "",
-  "by": "pending",
+  "reason": "Advisory list for the author, not a claim made on the page. Its lettered points are illustrative scene or workplace details in a labelled composite. Terms of art it touches are covered by fact F007.",
+  "by": "model",
   "checked": "2026-11-10",
-  "risk": "low"
+  "risk": "low",
+  "owner_approved": "2026-11-10"
  },
  {
   "q": 959,
@@ -14653,14 +14848,15 @@
   "section": "Credibility Audit",
   "kind": "audit",
   "tag": "Sector accuracy check",
-  "verdict": null,
-  "fact": null,
+  "verdict": "no-change",
+  "fact": "F007",
   "before": "An insider should verify what guardian documentation studios and programs commonly collect for minors; whether payroll or compliance genuinely requires national identification numbers; how retention policies are typically posted; whether translated forms are common; how child slots are scheduled across a release cycle; and whether \"parental involvement\" is recorded in files.",
   "after": null,
-  "reason": "",
-  "by": "pending",
+  "reason": "Advisory list for the author, not a claim made on the page. Its lettered points are illustrative scene or workplace details in a labelled composite. Terms of art it touches are covered by fact F007.",
+  "by": "model",
   "checked": "2026-11-10",
-  "risk": "low"
+  "risk": "low",
+  "owner_approved": "2026-11-10"
  },
  {
   "q": 968,
@@ -14787,7 +14983,8 @@
     "text": "Signs of distress belong with professionals, not with this script."
    }
   ],
-  "escalated": true
+  "escalated": true,
+  "owner_approved": "2026-11-10"
  },
  {
   "q": 976,
@@ -14795,14 +14992,15 @@
   "section": "Credibility Audit",
   "kind": "audit",
   "tag": "Sector accuracy check",
-  "verdict": null,
-  "fact": null,
+  "verdict": "no-change",
+  "fact": "F007",
   "before": "An insider should verify how choir schools and label development programs describe young talent; whether development plans for minors commonly include milestones and readiness reviews; whether unfinished-work clauses appear in such plans; how guardians are advised on them; and what review applies to agreements with children locally.",
   "after": null,
-  "reason": "",
-  "by": "pending",
+  "reason": "Advisory list for the author, not a claim made on the page. Its lettered points are illustrative scene or workplace details in a labelled composite. Terms of art it touches are covered by fact F007.",
+  "by": "model",
   "checked": "2026-11-10",
-  "risk": "low"
+  "risk": "low",
+  "owner_approved": "2026-11-10"
  },
  {
   "q": 977,
@@ -14929,7 +15127,8 @@
     "text": "It overlaps with romantic and sexual coercion patterns; where that is present, it belongs with safety support."
    }
   ],
-  "escalated": true
+  "escalated": true,
+  "owner_approved": "2026-11-10"
  },
  {
   "q": 985,
@@ -14937,14 +15136,15 @@
   "section": "Credibility Audit",
   "kind": "audit",
   "tag": "Sector accuracy check",
-  "verdict": null,
-  "fact": null,
+  "verdict": "no-change",
+  "fact": "F013",
   "before": "An insider should verify how labels scout through social media, how development agreements describe support and options, how often counterparty lawyers are recommended, what exclusivity is typical, how studio invitations and showcases are used, and what independent advice is common.",
   "after": null,
-  "reason": "",
-  "by": "pending",
+  "reason": "Advisory list for the author, not a claim made on the page. Its lettered points are illustrative scene or workplace details in a labelled composite. Terms of art it touches are covered by fact F013.",
+  "by": "model",
   "checked": "2026-11-10",
-  "risk": "low"
+  "risk": "low",
+  "owner_approved": "2026-11-10"
  },
  {
   "q": 986,
@@ -14982,14 +15182,16 @@
   "section": "Institutional Echo",
   "kind": "review",
   "tag": "REQUIRES SUBJECT-MATTER REVIEW",
-  "verdict": null,
+  "verdict": "keep-conditional",
   "fact": null,
   "before": "[SPEAK] Management companies and labels allocate limited resources such as singles, slots, studio time and promotion, and some prioritization among artists is unavoidable [COMMON INDUSTRY PATTERN]. Internal rosters and calendars are often confidential, which can be legitimate, yet where criteria are not communicated the effect on artists can resemble information control [HYPOTHETICAL COMPOSITE]. A single representative acting across many clients may face competing interests among them, which is often managed through disclosure [REQUIRES SUBJECT-MATTER REVIEW]. What duties a manager owes each client, and what conflicts require disclosure, varies by place [LEGAL CLAIM — JURISDICTION-SPECIFIC]. Intent would require additional evidence, most usefully whether allocation criteria exist in writing and whether artists are free to speak with each other.",
   "after": null,
-  "reason": "",
-  "by": "pending",
+  "reason": "Sentence already states an outcome as depending on conditions (can / may / varies); makes no flat factual claim.",
+  "by": "model",
   "checked": "2026-11-10",
-  "risk": "low"
+  "risk": "low",
+  "owner_approved": "2026-11-10",
+  "label": "Depends on the terms"
  },
  {
   "q": 989,
@@ -15132,14 +15334,16 @@
   "section": "Institutional Echo",
   "kind": "review",
   "tag": "REQUIRES SUBJECT-MATTER REVIEW",
-  "verdict": null,
+  "verdict": "keep-conditional",
   "fact": null,
   "before": "[SPEAK] Festivals, labels and sponsors often advertise inclusion and charitable commitments, and many do so sincerely and with real follow-through [COMMON INDUSTRY PATTERN]. Where panels and talks are unpaid or paid less than main stage performances, the gap between messaging and practice can be wide [HYPOTHETICAL COMPOSITE]. Consultation sessions with advisory-only language can leave participants with no way to see whether feedback changed anything [HYPOTHETICAL COMPOSITE]. Charitable giving may be genuine while also serving reputational ends, and both can be true [REQUIRES SUBJECT-MATTER REVIEW]. What obligations apply to unpaid work, advertising claims or charitable representations varies by place [LEGAL CLAIM — JURISDICTION-SPECIFIC]. Intent would require additional evidence, most usefully whether booking, pay and decisions match the stated values over several seasons.",
   "after": null,
-  "reason": "",
-  "by": "pending",
+  "reason": "Sentence already states an outcome as depending on conditions (can / may / varies); makes no flat factual claim.",
+  "by": "model",
   "checked": "2026-11-10",
-  "risk": "low"
+  "risk": "low",
+  "owner_approved": "2026-11-10",
+  "label": "Depends on the terms"
  },
  {
   "q": 999,
@@ -15321,7 +15525,8 @@
   "checked": "2026-11-10",
   "risk": "medium",
   "patch_section": "Why This Order",
-  "wording": "derived"
+  "wording": "derived",
+  "owner_approved": "2026-11-10"
  },
  {
   "q": 1011,
@@ -15344,14 +15549,15 @@
   "section": "Credibility Audit",
   "kind": "audit",
   "tag": "Sector accuracy check",
-  "verdict": null,
+  "verdict": "no-change",
   "fact": null,
   "before": "An insider should verify how agency calendars and delegated assistant access work, whether team channels and private threads commonly coexist, how holds and offers are assigned to junior agents, who a junior agent can realistically go to, and how union or guild coverage applies to agency staff.",
   "after": null,
-  "reason": "",
-  "by": "pending",
+  "reason": "Advisory list for the author, not a claim made on the page. Its lettered points are illustrative scene or workplace details in a labelled composite.",
+  "by": "model",
   "checked": "2026-11-10",
-  "risk": "low"
+  "risk": "low",
+  "owner_approved": "2026-11-10"
  },
  {
   "q": 1013,
@@ -15442,7 +15648,8 @@
   "by": "model",
   "checked": "2026-11-10",
   "risk": "medium",
-  "patch_section": "Why This Order"
+  "patch_section": "Why This Order",
+  "owner_approved": "2026-11-10"
  },
  {
   "q": 1019,
@@ -15614,7 +15821,8 @@
     "text": "A self-harm statement must always be treated as real."
    }
   ],
-  "escalated": true
+  "escalated": true,
+  "owner_approved": "2026-11-10"
  },
  {
   "q": 1030,
@@ -15622,14 +15830,15 @@
   "section": "Credibility Audit",
   "kind": "audit",
   "tag": "Sector accuracy check",
-  "verdict": null,
+  "verdict": "no-change",
   "fact": null,
   "before": "An insider should verify: how couple-run folk and ceilidh bands share names, domains and bookings; how village-hall and wedding bookings are made and by whom; the role of hall committees; the use of shared calendars; and how band-asset disputes are usually settled.",
   "after": null,
-  "reason": "",
-  "by": "pending",
+  "reason": "Advisory list for the author, not a claim made on the page. Its lettered points are illustrative scene or workplace details in a labelled composite.",
+  "by": "model",
   "checked": "2026-11-10",
-  "risk": "low"
+  "risk": "low",
+  "owner_approved": "2026-11-10"
  },
  {
   "q": 1031,
@@ -15720,7 +15929,8 @@
   "by": "model",
   "checked": "2026-11-10",
   "risk": "medium",
-  "patch_section": "Why This Order"
+  "patch_section": "Why This Order",
+  "owner_approved": "2026-11-10"
  },
  {
   "q": 1037,
@@ -15743,14 +15953,15 @@
   "section": "Credibility Audit",
   "kind": "audit",
   "tag": "Sector accuracy check",
-  "verdict": null,
+  "verdict": "no-change",
   "fact": null,
   "before": "An insider should verify how star-estate crews live and work, the use of retreats and confidentiality acknowledgments, typical tour video editor engagement terms, how housing and employment overlap, and whether the language of \"family\" matches real touring culture.",
   "after": null,
-  "reason": "",
-  "by": "pending",
+  "reason": "Advisory list for the author, not a claim made on the page. Its lettered points are illustrative scene or workplace details in a labelled composite.",
+  "by": "model",
   "checked": "2026-11-10",
-  "risk": "low"
+  "risk": "low",
+  "owner_approved": "2026-11-10"
  },
  {
   "q": 1039,
@@ -15870,14 +16081,15 @@
   "section": "Credibility Audit",
   "kind": "audit",
   "tag": "Sector accuracy check",
-  "verdict": null,
+  "verdict": "no-change",
   "fact": null,
   "before": "An insider should verify how music supervision clearances interact with budget approvals, who holds approval authority on a streaming production, how internal reporting portals are used, what a conduct partner role looks like, and the typical timing of picture lock.",
   "after": null,
-  "reason": "",
-  "by": "pending",
+  "reason": "Advisory list for the author, not a claim made on the page. Its lettered points are illustrative scene or workplace details in a labelled composite.",
+  "by": "model",
   "checked": "2026-11-10",
-  "risk": "low"
+  "risk": "low",
+  "owner_approved": "2026-11-10"
  },
  {
   "q": 1047,
@@ -16005,14 +16217,15 @@
   "section": "Credibility Audit",
   "kind": "audit",
   "tag": "Sector accuracy check",
-  "verdict": null,
-  "fact": null,
+  "verdict": "no-change",
+  "fact": "F001",
   "before": "An insider should verify how support items are treated in recoupment, how corporate housing and vehicles are handled in artist agreements, what acknowledgment forms typically accompany launch events, and how charity appearances are normally arranged.",
   "after": null,
-  "reason": "",
-  "by": "pending",
+  "reason": "Advisory list for the author, not a claim made on the page. Its lettered points are illustrative scene or workplace details in a labelled composite. Terms of art it touches are covered by fact F001.",
+  "by": "model",
   "checked": "2026-11-10",
-  "risk": "low"
+  "risk": "low",
+  "owner_approved": "2026-11-10"
  },
  {
   "q": 1056,
@@ -16119,7 +16332,8 @@
   "by": "model",
   "checked": "2026-11-10",
   "risk": "medium",
-  "patch_section": "Why This Order"
+  "patch_section": "Why This Order",
+  "owner_approved": "2026-11-10"
  },
  {
   "q": 1063,
@@ -16142,14 +16356,15 @@
   "section": "Credibility Audit",
   "kind": "audit",
   "tag": "Sector accuracy check",
-  "verdict": null,
+  "verdict": "no-change",
   "fact": null,
   "before": "An insider should verify how wellness partnerships are structured by labels, what is typically shared with management, how tour routing is set and changed, how stipends are paid, and the role of tour managers and managers in check-ins.",
   "after": null,
-  "reason": "",
-  "by": "pending",
+  "reason": "Advisory list for the author, not a claim made on the page. Its lettered points are illustrative scene or workplace details in a labelled composite.",
+  "by": "model",
   "checked": "2026-11-10",
-  "risk": "low"
+  "risk": "low",
+  "owner_approved": "2026-11-10"
  },
  {
   "q": 1065,
@@ -16307,14 +16522,15 @@
   "section": "Credibility Audit",
   "kind": "audit",
   "tag": "Sector accuracy check",
-  "verdict": null,
-  "fact": null,
+  "verdict": "no-change",
+  "fact": "F015",
   "before": "An insider should verify: how artist-care or wellness programs are structured at labels; whether calls are recorded and by whom; how onboarding packets bundle consent; the overlap with image-and-likeness releases and behind-the-scenes capture; and who typically has access to such data.",
   "after": null,
-  "reason": "",
-  "by": "pending",
+  "reason": "Advisory list for the author, not a claim made on the page. Its lettered points are illustrative scene or workplace details in a labelled composite. Terms of art it touches are covered by fact F015.",
+  "by": "model",
   "checked": "2026-11-10",
-  "risk": "low"
+  "risk": "low",
+  "owner_approved": "2026-11-10"
  },
  {
   "q": 1076,
@@ -16457,14 +16673,15 @@
   "section": "Credibility Audit",
   "kind": "audit",
   "tag": "Sector accuracy check",
-  "verdict": null,
+  "verdict": "no-change",
   "fact": null,
   "before": "An insider should verify whether imprints commonly offer stakes to designers, how cap-table sheets are shared in meetings, how pools are reshaped at a raise, whether \"founding contributor\" has any customary meaning, and how artwork and merch rights are normally documented.",
   "after": null,
-  "reason": "",
-  "by": "pending",
+  "reason": "Advisory list for the author, not a claim made on the page. Its lettered points are illustrative scene or workplace details in a labelled composite.",
+  "by": "model",
   "checked": "2026-11-10",
-  "risk": "low"
+  "risk": "low",
+  "owner_approved": "2026-11-10"
  },
  {
   "q": 1086,
@@ -16502,14 +16719,16 @@
   "section": "Institutional Echo",
   "kind": "review",
   "tag": "REQUIRES SUBJECT-MATTER REVIEW",
-  "verdict": null,
+  "verdict": "keep-conditional",
   "fact": null,
   "before": "\"Label-attended\" is a phrase that can mean a signed commitment to attend, an open invitation, or an aspiration, and the same wording can cover all three [REQUIRES SUBJECT-MATTER REVIEW]. Likewise, \"other interested parties\" can describe a waiting list or nobody at all.",
   "after": null,
-  "reason": "",
-  "by": "pending",
+  "reason": "Sentence already states an outcome as depending on conditions (can / may / varies); makes no flat factual claim.",
+  "by": "model",
   "checked": "2026-11-10",
-  "risk": "low"
+  "risk": "low",
+  "owner_approved": "2026-11-10",
+  "label": "Depends on the terms"
  },
  {
   "q": 1089,
@@ -16592,14 +16811,15 @@
   "section": "Credibility Audit",
   "kind": "audit",
   "tag": "Sector accuracy check",
-  "verdict": null,
+  "verdict": "no-change",
   "fact": null,
   "before": "An insider should verify: how distributors and release programs publish submission windows; whether \"label-attended\" showcases normally name attendees in writing; how refundable deposits are usually handled; whether viral-moment outreach commonly comes from verified channels; how artists typically cross-check a rep's affiliation; and what a fair fee for development services looks like.",
   "after": null,
-  "reason": "",
-  "by": "pending",
+  "reason": "Advisory list for the author, not a claim made on the page. Its lettered points are illustrative scene or workplace details in a labelled composite.",
+  "by": "model",
   "checked": "2026-11-10",
-  "risk": "low"
+  "risk": "low",
+  "owner_approved": "2026-11-10"
  },
  {
   "q": 1095,
@@ -16758,14 +16978,15 @@
   "section": "Credibility Audit",
   "kind": "audit",
   "tag": "Sector accuracy check",
-  "verdict": null,
-  "fact": null,
+  "verdict": "no-change",
+  "fact": "F001",
   "before": "An insider should verify how many separate statements a typical artist receives, whether management and legal retainers are commonly drawn against artist accounts, how administration fees and service companies are structured, how cross-collateralization is documented, and how audit windows are normally expressed.",
   "after": null,
-  "reason": "",
-  "by": "pending",
+  "reason": "Advisory list for the author, not a claim made on the page. Its lettered points are illustrative scene or workplace details in a labelled composite. Terms of art it touches are covered by fact F001.",
+  "by": "model",
   "checked": "2026-11-10",
-  "risk": "low"
+  "risk": "low",
+  "owner_approved": "2026-11-10"
  },
  {
   "q": 1106,
@@ -16887,7 +17108,8 @@
   "checked": "2026-11-10",
   "risk": "medium",
   "patch_section": "Definition",
-  "wording": "derived"
+  "wording": "derived",
+  "owner_approved": "2026-11-10"
  },
  {
   "q": 1114,
@@ -16948,7 +17170,8 @@
   "by": "model",
   "checked": "2026-11-10",
   "risk": "medium",
-  "patch_section": "Institutional Echo"
+  "patch_section": "Institutional Echo",
+  "owner_approved": "2026-11-10"
  },
  {
   "q": 1118,
@@ -16971,14 +17194,17 @@
   "section": "Institutional Echo",
   "kind": "review",
   "tag": "REQUIRES SUBJECT-MATTER REVIEW",
-  "verdict": null,
+  "verdict": "soften",
   "fact": null,
-  "before": "Informal side agreements, such as short \"understandings\" shared in chat, can create expectations without any company being named or any term given [HYPOTHETICAL COMPOSITE]. Where a real label or manager has a genuine interest, first-look arrangements are usually written, signed by an identifiable entity, and given a term [REQUIRES SUBJECT-MATTER REVIEW].",
-  "after": null,
-  "reason": "",
-  "by": "pending",
+  "before": "first-look arrangements are usually written, signed by an identifiable entity, and given a term",
+  "after": "first-look arrangements would normally be expected to be written, signed by an identifiable entity, and given a term",
+  "reason": "Norm stated as fact with no source; softened to an expectation.",
+  "by": "model",
   "checked": "2026-11-10",
-  "risk": "low"
+  "risk": "medium",
+  "owner_approved": "2026-11-10",
+  "patch_section": "Institutional Echo",
+  "wording": "derived"
  },
  {
   "q": 1120,
@@ -17039,7 +17265,8 @@
   "by": "model",
   "checked": "2026-11-10",
   "risk": "medium",
-  "patch_section": "Why This Order"
+  "patch_section": "Why This Order",
+  "owner_approved": "2026-11-10"
  },
  {
   "q": 1124,
@@ -17062,14 +17289,15 @@
   "section": "Credibility Audit",
   "kind": "audit",
   "tag": "Sector accuracy check",
-  "verdict": null,
-  "fact": null,
+  "verdict": "no-change",
+  "fact": "F013",
   "before": "An insider should verify how real scouts introduce themselves, whether first-look arrangements are normally written, how small imprints handle unannounced projects, what an artist can reasonably check about a scout, and where impersonation reports are normally filed.",
   "after": null,
-  "reason": "",
-  "by": "pending",
+  "reason": "Advisory list for the author, not a claim made on the page. Its lettered points are illustrative scene or workplace details in a labelled composite. Terms of art it touches are covered by fact F013.",
+  "by": "model",
   "checked": "2026-11-10",
-  "risk": "low"
+  "risk": "low",
+  "owner_approved": "2026-11-10"
  },
  {
   "q": 1126,
@@ -17212,14 +17440,15 @@
   "section": "Credibility Audit",
   "kind": "audit",
   "tag": "Sector accuracy check",
-  "verdict": null,
+  "verdict": "no-change",
   "fact": null,
   "before": "An insider should verify how luthiers and similar makers present work online, whether commission inquiries from abroad are common, how music royalty-share offerings are regulated, how artists are typically approached by fake producers, and which reporting channels fit this sector.",
   "after": null,
-  "reason": "",
-  "by": "pending",
+  "reason": "Advisory list for the author, not a claim made on the page. Its lettered points are illustrative scene or workplace details in a labelled composite.",
+  "by": "model",
   "checked": "2026-11-10",
-  "risk": "low"
+  "risk": "low",
+  "owner_approved": "2026-11-10"
  },
  {
   "q": 1136,
@@ -17272,14 +17501,16 @@
   "section": "Institutional Echo",
   "kind": "review",
   "tag": "REQUIRES SUBJECT-MATTER REVIEW",
-  "verdict": null,
+  "verdict": "keep-conditional",
   "fact": null,
   "before": "Statements that cite a record of giving and an \"internal review\" in the same paragraph can redirect attention from systems to individuals [COMMON INDUSTRY PATTERN]. Confidentiality terms signed by departing staff can make it hard for the person blamed to reply [REQUIRES SUBJECT-MATTER REVIEW].",
   "after": null,
-  "reason": "",
-  "by": "pending",
+  "reason": "Sentence already states an outcome as depending on conditions (can / may / varies); makes no flat factual claim.",
+  "by": "model",
   "checked": "2026-11-10",
-  "risk": "low"
+  "risk": "low",
+  "owner_approved": "2026-11-10",
+  "label": "Depends on the terms"
  },
  {
   "q": 1140,
@@ -17362,14 +17593,15 @@
   "section": "Credibility Audit",
   "kind": "audit",
   "tag": "Sector accuracy check",
-  "verdict": null,
+  "verdict": "no-change",
   "fact": null,
   "before": "An insider should verify gala program and donation report conventions; the difference between pledged, announced, collected and distributed amounts; how volunteer coordinators are engaged and what written terms they receive; who approves public statements in a star's office; whether an internal review is normally communicated to staff; and typical confidentiality terms for departing staff.",
   "after": null,
-  "reason": "",
-  "by": "pending",
+  "reason": "Advisory list for the author, not a claim made on the page. Its lettered points are illustrative scene or workplace details in a labelled composite.",
+  "by": "model",
   "checked": "2026-11-10",
-  "risk": "low"
+  "risk": "low",
+  "owner_approved": "2026-11-10"
  },
  {
   "q": 1146,
@@ -17503,14 +17735,15 @@
   "section": "Credibility Audit",
   "kind": "audit",
   "tag": "Sector accuracy check",
-  "verdict": null,
+  "verdict": "no-change",
   "fact": null,
   "before": "An insider should verify how first-call and sub lists are typically written; whether holds are usually paid, confirmed or time-limited; how production calendars are shared; how imprint signings are placed into a headliner's band; and how release notes are normally worded.",
   "after": null,
-  "reason": "",
-  "by": "pending",
+  "reason": "Advisory list for the author, not a claim made on the page. Its lettered points are illustrative scene or workplace details in a labelled composite.",
+  "by": "model",
   "checked": "2026-11-10",
-  "risk": "low"
+  "risk": "low",
+  "owner_approved": "2026-11-10"
  },
  {
   "q": 1155,
@@ -17533,14 +17766,16 @@
   "section": "Institutional Echo",
   "kind": "review",
   "tag": "REQUIRES SUBJECT-MATTER REVIEW",
-  "verdict": null,
+  "verdict": "keep-conditional",
   "fact": null,
   "before": "[SPEAK] Business affairs departments commonly open with template-based drafts that favor the publisher, and negotiation is expected to move them [COMMON INDUSTRY PATTERN]. Broad rights grants, buyouts and perpetual licenses are widely discussed in creative contracts, though their terms vary and what is \"standard\" is contested [REQUIRES SUBJECT-MATTER REVIEW]. Early-work requests framed as \"pre-production\" or \"testing\" before a signed agreement can place unpaid labor inside a negotiation [HYPOTHETICAL COMPOSITE]. Production schedules and milestone slots can create deadlines that are genuinely external to the person drafting the email [COMMON INDUSTRY PATTERN].",
   "after": null,
-  "reason": "",
-  "by": "pending",
+  "reason": "Sentence already states an outcome as depending on conditions (can / may / varies); makes no flat factual claim.",
+  "by": "model",
   "checked": "2026-11-10",
-  "risk": "low"
+  "risk": "low",
+  "owner_approved": "2026-11-10",
+  "label": "Depends on the terms"
  },
  {
   "q": 1157,
@@ -17653,14 +17888,15 @@
   "section": "Credibility Audit",
   "kind": "audit",
   "tag": "Sector accuracy check",
-  "verdict": null,
+  "verdict": "no-change",
   "fact": null,
   "before": "An insider should verify how game publishers and studios structure audio contracts; whether full buyouts and perpetual licenses are typical; how pre-production work is usually scoped and paid; how credit language such as \"customary credit\" is used; and how business affairs deadlines are tied to production milestones.",
   "after": null,
-  "reason": "",
-  "by": "pending",
+  "reason": "Advisory list for the author, not a claim made on the page. Its lettered points are illustrative scene or workplace details in a labelled composite.",
+  "by": "model",
   "checked": "2026-11-10",
-  "risk": "low"
+  "risk": "low",
+  "owner_approved": "2026-11-10"
  },
  {
   "q": 1165,
@@ -17789,14 +18025,15 @@
   "section": "Credibility Audit",
   "kind": "audit",
   "tag": "Sector accuracy check",
-  "verdict": null,
+  "verdict": "no-change",
   "fact": null,
   "before": "An insider should verify how social media managers are engaged on tour; whether weekly praise or wins documents are used; how renewals are communicated to junior staff; what hours and duties are normally written into such roles; and how emotional-support expectations are typically handled in small teams.",
   "after": null,
-  "reason": "",
-  "by": "pending",
+  "reason": "Advisory list for the author, not a claim made on the page. Its lettered points are illustrative scene or workplace details in a labelled composite.",
+  "by": "model",
   "checked": "2026-11-10",
-  "risk": "low"
+  "risk": "low",
+  "owner_approved": "2026-11-10"
  },
  {
   "q": 1174,
@@ -17804,14 +18041,15 @@
   "section": "Why This Order",
   "kind": "source",
   "tag": "VERIFIED SOURCE NEEDED",
-  "verdict": null,
+  "verdict": "escalate",
   "fact": null,
   "before": "Emotional sequencing is the hardest tactic to see because it is the one that makes sense of nothing. If anger always followed an error, it would be a rule. If kindness always followed good work, it would be feedback. Because warm and cold arrive in an order the others cannot predict, the best strategy is constant vigilance. Unpredictable reward can hold attention more tightly than a steady one. [VERIFIED SOURCE NEEDED]",
   "after": null,
-  "reason": "",
-  "by": "pending",
+  "reason": "Describes how platforms or apps behave; needs a fetched source that was not gathered in this pass. The original 'Verified source needed' label stays visible on the page.",
+  "by": "model",
   "checked": "2026-11-10",
-  "risk": "low"
+  "risk": "medium",
+  "owner_approved": "2026-11-10"
  },
  {
   "q": 1175,
@@ -17918,7 +18156,8 @@
   "checked": "2026-11-10",
   "risk": "medium",
   "patch_section": "Verbal Breakdown",
-  "wording": "derived"
+  "wording": "derived",
+  "owner_approved": "2026-11-10"
  },
  {
   "q": 1182,
@@ -17941,14 +18180,15 @@
   "section": "Credibility Audit",
   "kind": "audit",
   "tag": "Sector accuracy check",
-  "verdict": null,
+  "verdict": "no-change",
   "fact": null,
   "before": "An insider should verify how private vocal coaches are retained and paid; what cancellation terms are typical; how lesson logs are kept; who in a star's household acts as a second adult; and what contractors usually have in place of HR.",
   "after": null,
-  "reason": "",
-  "by": "pending",
+  "reason": "Advisory list for the author, not a claim made on the page. Its lettered points are illustrative scene or workplace details in a labelled composite.",
+  "by": "model",
   "checked": "2026-11-10",
-  "risk": "low"
+  "risk": "low",
+  "owner_approved": "2026-11-10"
  },
  {
   "q": 1184,
@@ -18031,14 +18271,16 @@
   "section": "False-Positive Check — Specific",
   "kind": "review",
   "tag": "REQUIRES SUBJECT-MATTER REVIEW",
-  "verdict": null,
+  "verdict": "keep-conditional",
   "fact": null,
   "before": "- **Real complexity.** Writing, arrangement, publishing and performance credits really can differ. [REQUIRES SUBJECT-MATTER REVIEW]",
   "after": null,
-  "reason": "",
-  "by": "pending",
+  "reason": "Sentence already states an outcome as depending on conditions (can / may / varies); makes no flat factual claim.",
+  "by": "model",
   "checked": "2026-11-10",
-  "risk": "low"
+  "risk": "low",
+  "owner_approved": "2026-11-10",
+  "label": "Depends on the terms"
  },
  {
   "q": 1190,
@@ -18084,7 +18326,8 @@
   "by": "model",
   "checked": "2026-11-10",
   "risk": "medium",
-  "patch_section": "Why This Order"
+  "patch_section": "Why This Order",
+  "owner_approved": "2026-11-10"
  },
  {
   "q": 1193,
@@ -18302,14 +18545,17 @@
   "section": "False-Positive Check — Specific",
   "kind": "review",
   "tag": "REQUIRES SUBJECT-MATTER REVIEW",
-  "verdict": null,
+  "verdict": "soften",
   "fact": null,
-  "before": "- **Genuine processing delay.** Accounts teams batch payments, and settlement sheets are finalized after the tour. [REQUIRES SUBJECT-MATTER REVIEW]",
-  "after": null,
-  "reason": "",
-  "by": "pending",
+  "before": "Accounts teams batch payments, and settlement sheets are finalized after the tour",
+  "after": "Accounts teams can batch payments, and settlement sheets can be finalized after the tour",
+  "reason": "Flat practice claim in a false-positive check; softened to 'can'.",
+  "by": "model",
   "checked": "2026-11-10",
-  "risk": "low"
+  "risk": "medium",
+  "owner_approved": "2026-11-10",
+  "patch_section": "False-Positive Check — Specific",
+  "wording": "derived"
  },
  {
   "q": 1208,
@@ -18490,7 +18736,8 @@
   "by": "model",
   "checked": "2026-11-10",
   "risk": "medium",
-  "patch_section": "Why This Order"
+  "patch_section": "Why This Order",
+  "owner_approved": "2026-11-10"
  },
  {
   "q": 1220,
@@ -18513,14 +18760,16 @@
   "section": "Verbal Breakdown",
   "kind": "review",
   "tag": "REQUIRES SUBJECT-MATTER REVIEW",
-  "verdict": null,
+  "verdict": "keep-conditional",
   "fact": null,
   "before": "4. **Computational Propaganda** — Automated or scripted posting that spreads the same text across forums, comments and aggregator pages. This functions by raising volume and reach faster than any person could verify. Concern rises when identical text appears across unrelated places within a short window. Whether automation is involved cannot be established from the page alone. [REQUIRES SUBJECT-MATTER REVIEW]",
   "after": null,
-  "reason": "",
-  "by": "pending",
+  "reason": "Sentence already states an outcome as depending on conditions (can / may / varies); makes no flat factual claim.",
+  "by": "model",
   "checked": "2026-11-10",
-  "risk": "low"
+  "risk": "low",
+  "owner_approved": "2026-11-10",
+  "label": "Depends on the terms"
  },
  {
   "q": 1222,
@@ -18543,14 +18792,16 @@
   "section": "Institutional Echo",
   "kind": "review",
   "tag": "REQUIRES SUBJECT-MATTER REVIEW",
-  "verdict": null,
+  "verdict": "keep-conditional",
   "fact": null,
   "before": "[SPEAK] Reference pages, review aggregators, playlist descriptions and search summaries often draw on secondary sources without checking the primary one, so a claim can circulate widely with no documented origin [COMMON INDUSTRY PATTERN]. Tools that summarize web content may repeat what is most often repeated, which favors claims that have been spread [REQUIRES SUBJECT-MATTER REVIEW].",
   "after": null,
-  "reason": "",
-  "by": "pending",
+  "reason": "Sentence already states an outcome as depending on conditions (can / may / varies); makes no flat factual claim.",
+  "by": "model",
   "checked": "2026-11-10",
-  "risk": "low"
+  "risk": "low",
+  "owner_approved": "2026-11-10",
+  "label": "Depends on the terms"
  },
  {
   "q": 1224,
@@ -18581,7 +18832,8 @@
   "by": "model",
   "checked": "2026-11-10",
   "risk": "medium",
-  "patch_section": "Institutional Echo"
+  "patch_section": "Institutional Echo",
+  "owner_approved": "2026-11-10"
  },
  {
   "q": 1226,
@@ -18762,7 +19014,8 @@
   "by": "model",
   "checked": "2026-11-10",
   "risk": "medium",
-  "patch_section": "Verbal Breakdown"
+  "patch_section": "Verbal Breakdown",
+  "owner_approved": "2026-11-10"
  },
  {
   "q": 1238,
@@ -18785,14 +19038,15 @@
   "section": "Credibility Audit",
   "kind": "audit",
   "tag": "Sector accuracy check",
-  "verdict": null,
+  "verdict": "no-change",
   "fact": null,
   "before": "an insider should verify: how story-style posts are drafted and approved by artist teams; whether fan communities commonly share coded emoji for named critics; how platform harassment reviews treat unnamed posts; how analytics show hostile traffic by source; how music commentators handle similarity claims between melodies; and what clarification or response norms exist between stars' teams and critics.",
   "after": null,
-  "reason": "",
-  "by": "pending",
+  "reason": "Advisory list for the author, not a claim made on the page. Its lettered points are illustrative scene or workplace details in a labelled composite.",
+  "by": "model",
   "checked": "2026-11-10",
-  "risk": "low"
+  "risk": "low",
+  "owner_approved": "2026-11-10"
  },
  {
   "q": 1240,
@@ -18920,14 +19174,15 @@
   "section": "Credibility Audit",
   "kind": "audit",
   "tag": "Sector accuracy check",
-  "verdict": null,
-  "fact": null,
+  "verdict": "no-change",
+  "fact": "F015",
   "before": "an insider should verify: how immersive-event incident logs are kept and who can edit them; what session telemetry records and under what consent; how audit trails appear in common production systems; how synthetic voice is detected in practice; what retention schedules typically apply; and how virtual-venue safety plans are written for motion-comfort issues.",
   "after": null,
-  "reason": "",
-  "by": "pending",
+  "reason": "Advisory list for the author, not a claim made on the page. Its lettered points are illustrative scene or workplace details in a labelled composite. Terms of art it touches are covered by fact F015.",
+  "by": "model",
   "checked": "2026-11-10",
-  "risk": "low"
+  "risk": "low",
+  "owner_approved": "2026-11-10"
  },
  {
   "q": 1249,
@@ -19055,14 +19310,15 @@
   "section": "Credibility Audit",
   "kind": "audit",
   "tag": "Sector accuracy check",
-  "verdict": null,
+  "verdict": "no-change",
   "fact": null,
   "before": "an insider should verify: how adaptation credits are recorded and registered across markets; who owns the credit sheet at each hand-off; whether adaptation is paid as work for hire or with a writer share in the relevant jurisdiction; how culture-fit rows are used in publisher reviews; how renewals work for in-house adaptation writers; and what correction routes societies provide.",
   "after": null,
-  "reason": "",
-  "by": "pending",
+  "reason": "Advisory list for the author, not a claim made on the page. Its lettered points are illustrative scene or workplace details in a labelled composite.",
+  "by": "model",
   "checked": "2026-11-10",
-  "risk": "low"
+  "risk": "low",
+  "owner_approved": "2026-11-10"
  },
  {
   "q": 1258,
@@ -19205,14 +19461,15 @@
   "section": "Credibility Audit",
   "kind": "audit",
   "tag": "Sector accuracy check",
-  "verdict": null,
-  "fact": null,
+  "verdict": "no-change",
+  "fact": "F007",
   "before": "an insider should verify: how call sheets and rest cut-offs are written in residency contracts; whether stage-door sign-out is common and for what purpose; how aerial rigging check-ins operate; who normally receives physio notes; how performer meals are arranged; and what rules apply to trainees and minors in the relevant jurisdiction.",
   "after": null,
-  "reason": "",
-  "by": "pending",
+  "reason": "Advisory list for the author, not a claim made on the page. Its lettered points are illustrative scene or workplace details in a labelled composite. Terms of art it touches are covered by fact F007.",
+  "by": "model",
   "checked": "2026-11-10",
-  "risk": "low"
+  "risk": "low",
+  "owner_approved": "2026-11-10"
  },
  {
   "q": 1268,
@@ -19280,14 +19537,16 @@
   "section": "Institutional Echo",
   "kind": "review",
   "tag": "REQUIRES SUBJECT-MATTER REVIEW",
-  "verdict": null,
+  "verdict": "keep-conditional",
   "fact": null,
   "before": "Where invitations for young musicians come through assistants and promise career access, the asker's power is unrelated to the room's stated purpose [HYPOTHETICAL COMPOSITE]. Where complaints rely on specific, provable acts, behavior that lives in tone, position and closeness is difficult to report [HYPOTHETICAL COMPOSITE]. Where confidentiality lines are broad, a guest may believe she cannot even tell a friend [REQUIRES SUBJECT-MATTER REVIEW].",
   "after": null,
-  "reason": "",
-  "by": "pending",
+  "reason": "Sentence already states an outcome as depending on conditions (can / may / varies); makes no flat factual claim.",
+  "by": "model",
   "checked": "2026-11-10",
-  "risk": "low"
+  "risk": "low",
+  "owner_approved": "2026-11-10",
+  "label": "Depends on the terms"
  },
  {
   "q": 1273,
@@ -19355,14 +19614,15 @@
   "section": "Credibility Audit",
   "kind": "audit",
   "tag": "Sector accuracy check",
-  "verdict": null,
+  "verdict": "no-change",
   "fact": null,
   "before": "an insider should verify: how phone lockers and sign-in sheets are used for unreleased material; whether invitations through assistants are typical; how sessions are staffed after hours; what support services exist for entertainment workers in the relevant jurisdiction; how confidentiality lines are worded and whether they can restrict talking to counsel or support; and what union or guild safety procedures apply.",
   "after": null,
-  "reason": "",
-  "by": "pending",
+  "reason": "Advisory list for the author, not a claim made on the page. Its lettered points are illustrative scene or workplace details in a labelled composite.",
+  "by": "model",
   "checked": "2026-11-10",
-  "risk": "low"
+  "risk": "low",
+  "owner_approved": "2026-11-10"
  },
  {
   "q": 1278,
@@ -19490,14 +19750,15 @@
   "section": "Credibility Audit",
   "kind": "audit",
   "tag": "Sector accuracy check",
-  "verdict": null,
+  "verdict": "no-change",
   "fact": null,
   "before": "An insider should verify: single-name control of plans, registrations and distributor accounts in small ensembles; how \"ensemble property\" is usually defined; how quickly exit news travels among promoters; how distributors handle disputes over account ownership; and whether family-law and entertainment advice are normally separated.",
   "after": null,
-  "reason": "",
-  "by": "pending",
+  "reason": "Advisory list for the author, not a claim made on the page. Its lettered points are illustrative scene or workplace details in a labelled composite.",
+  "by": "model",
   "checked": "2026-11-10",
-  "risk": "low"
+  "risk": "low",
+  "owner_approved": "2026-11-10"
  },
  {
   "q": 1287,
@@ -19610,14 +19871,15 @@
   "section": "Credibility Audit",
   "kind": "audit",
   "tag": "Sector accuracy check",
-  "verdict": null,
+  "verdict": "no-change",
   "fact": null,
   "before": "An insider should verify: how nightly notes are usually given and recorded; whether a wardrobe head or company manager normally reads them; call board conventions; how swings and apprentices are positioned; how call-time changes are communicated; and what welfare structures exist for under-18s on tour.",
   "after": null,
-  "reason": "",
-  "by": "pending",
+  "reason": "Advisory list for the author, not a claim made on the page. Its lettered points are illustrative scene or workplace details in a labelled composite.",
+  "by": "model",
   "checked": "2026-11-10",
-  "risk": "low"
+  "risk": "low",
+  "owner_approved": "2026-11-10"
  },
  {
   "q": 1295,
@@ -19655,14 +19917,16 @@
   "section": "Institutional Echo",
   "kind": "review",
   "tag": "REQUIRES SUBJECT-MATTER REVIEW",
-  "verdict": null,
+  "verdict": "keep-conditional",
   "fact": null,
   "before": "[SPEAK] Many orchestras and touring companies use contracted occupational-health or wellness providers, which can place the clinician in a dual position between the performer and the employer [COMMON INDUSTRY PATTERN]. Where a clinic's findings go to management, or where a closed file is a convenient outcome for scheduling, a normal-result letter can serve both patient and schedule without anyone planning it [HYPOTHETICAL COMPOSITE]. Performer injury, workload and recovery are areas where medical claims need subject-matter review [REQUIRES SUBJECT-MATTER REVIEW]. Reporting rules, confidentiality and rights to a second opinion are jurisdiction-specific [LEGAL CLAIM — JURISDICTION-SPECIFIC]. Intent would require additional evidence, because a busy clinic can be rushed and honest.",
   "after": null,
-  "reason": "",
-  "by": "pending",
+  "reason": "Legal or medical routing: the sentence says the answer depends on place or sends the reader to a qualified person.",
+  "by": "model",
   "checked": "2026-11-10",
-  "risk": "low"
+  "risk": "low",
+  "owner_approved": "2026-11-10",
+  "label": "Ask a qualified person"
  },
  {
   "q": 1298,
@@ -19745,14 +20009,15 @@
   "section": "Credibility Audit",
   "kind": "audit",
   "tag": "Sector accuracy check",
-  "verdict": null,
+  "verdict": "no-change",
   "fact": null,
   "before": "An insider should verify: how orchestras contract occupational-health providers; what information is passed to management; typical examinations for performers' hand pain; how personnel managers handle injury reports; whether players fear reputational cost; and what performing-arts health services exist locally.",
   "after": null,
-  "reason": "",
-  "by": "pending",
+  "reason": "Advisory list for the author, not a claim made on the page. Its lettered points are illustrative scene or workplace details in a labelled composite.",
+  "by": "model",
   "checked": "2026-11-10",
-  "risk": "low"
+  "risk": "low",
+  "owner_approved": "2026-11-10"
  },
  {
   "q": 1304,
@@ -19790,14 +20055,16 @@
   "section": "Institutional Echo",
   "kind": "review",
   "tag": "REQUIRES SUBJECT-MATTER REVIEW",
-  "verdict": null,
+  "verdict": "keep-conditional",
   "fact": null,
   "before": "[SPEAK] Festivals, labels and industry bodies commonly form advisory panels, charters and welfare policies as part of ordinary governance [COMMON INDUSTRY PATTERN]. Where the party under review chooses members, funds the work and reviews reports before release, the structure can produce alignment without any instruction [HYPOTHETICAL COMPOSITE]. Where consultant reports are commissioned by the organizer and cited externally as independent, the claim of independence turns on who set scope and method [REQUIRES SUBJECT-MATTER REVIEW]. Where complaints are routed through an internal liaison, there may be no way to see the whole pattern [COMMON INDUSTRY PATTERN]. This script does not claim that any real panel, body or society behaves this way. Intent would require additional evidence, because many organizers build these panels in good faith and many members are sincere.",
   "after": null,
-  "reason": "",
-  "by": "pending",
+  "reason": "Sentence already states an outcome as depending on conditions (can / may / varies); makes no flat factual claim.",
+  "by": "model",
   "checked": "2026-11-10",
-  "risk": "low"
+  "risk": "low",
+  "owner_approved": "2026-11-10",
+  "label": "Depends on the terms"
  },
  {
   "q": 1307,
@@ -19886,14 +20153,15 @@
   "section": "Credibility Audit",
   "kind": "audit",
   "tag": "Sector accuracy check",
-  "verdict": null,
+  "verdict": "no-change",
   "fact": null,
   "before": "An insider should verify: how festival welfare panels are usually appointed and funded; typical charter terms on confidentiality and reporting; whether reports go to management before release; how consultants are scoped; what independent complaint routes artists actually have; and how collective bodies and unions interact with organizers.",
   "after": null,
-  "reason": "",
-  "by": "pending",
+  "reason": "Advisory list for the author, not a claim made on the page. Its lettered points are illustrative scene or workplace details in a labelled composite.",
+  "by": "model",
   "checked": "2026-11-10",
-  "risk": "low"
+  "risk": "low",
+  "owner_approved": "2026-11-10"
  },
  {
   "q": 1313,
@@ -20006,14 +20274,15 @@
   "section": "Credibility Audit",
   "kind": "audit",
   "tag": "Sector accuracy check",
-  "verdict": null,
+  "verdict": "no-change",
   "fact": null,
   "before": "An insider should verify: how indie labels time pressing runs, advances and distributor payments; whether staff pay deferral by side letter is plausible; what coordinators typically tell artists' managers; how plants and distributors treat schedule statements; and how such secrecy requests are usually handled by staff.",
   "after": null,
-  "reason": "",
-  "by": "pending",
+  "reason": "Advisory list for the author, not a claim made on the page. Its lettered points are illustrative scene or workplace details in a labelled composite.",
+  "by": "model",
   "checked": "2026-11-10",
-  "risk": "low"
+  "risk": "low",
+  "owner_approved": "2026-11-10"
  },
  {
   "q": 1321,
@@ -20111,14 +20380,15 @@
   "section": "Credibility Audit",
   "kind": "audit",
   "tag": "Sector accuracy check",
-  "verdict": null,
+  "verdict": "no-change",
   "fact": null,
   "before": "An insider should verify: how camera-test notes and fitting sheets are formatted; whether a comparison or \"reference\" column appears in real wardrobe paperwork; how floor crews talk about fitting days; how brand-partner wardrobe arrangements interact with presenter contracts; and which welfare routes presenters realistically have.",
   "after": null,
-  "reason": "",
-  "by": "pending",
+  "reason": "Advisory list for the author, not a claim made on the page. Its lettered points are illustrative scene or workplace details in a labelled composite.",
+  "by": "model",
   "checked": "2026-11-10",
-  "risk": "low"
+  "risk": "low",
+  "owner_approved": "2026-11-10"
  },
  {
   "q": 1328,
@@ -20156,14 +20426,17 @@
   "section": "Why This Order",
   "kind": "review",
   "tag": "REQUIRES SUBJECT-MATTER REVIEW",
-  "verdict": null,
+  "verdict": "soften",
   "fact": null,
-  "before": "[SPEAK] The debt comes first because it makes the rest look reasonable. A placement fee deducted from wages is common in international work, and the person agreeing to it is making a sensible decision with the information they have [REQUIRES SUBJECT-MATTER REVIEW]. Debt creates a creditor, and a creditor has an ordinary-sounding interest in knowing where you are.",
-  "after": null,
-  "reason": "",
-  "by": "pending",
+  "before": "A placement fee deducted from wages is common in international work",
+  "after": "A placement fee deducted from wages can be presented as ordinary in international work",
+  "reason": "Frequency claim with no source; softened.",
+  "by": "model",
   "checked": "2026-11-10",
-  "risk": "low"
+  "risk": "medium",
+  "owner_approved": "2026-11-10",
+  "patch_section": "Why This Order",
+  "wording": "derived"
  },
  {
   "q": 1331,
@@ -20292,14 +20565,15 @@
   "section": "Credibility Audit",
   "kind": "audit",
   "tag": "Sector accuracy check",
-  "verdict": null,
+  "verdict": "no-change",
   "fact": null,
   "before": "An insider should verify: how placement fees and deductions are structured for entertainment crews; whether and when crew documents are held in port; how shipboard communication access works; the roles of manning and placement agencies; and which welfare services are available at sea and ashore.",
   "after": null,
-  "reason": "",
-  "by": "pending",
+  "reason": "Advisory list for the author, not a claim made on the page. Its lettered points are illustrative scene or workplace details in a labelled composite.",
+  "by": "model",
   "checked": "2026-11-10",
-  "risk": "low"
+  "risk": "low",
+  "owner_approved": "2026-11-10"
  },
  {
   "q": 1340,
@@ -20405,7 +20679,8 @@
   "by": "model",
   "checked": "2026-11-10",
   "risk": "medium",
-  "patch_section": "Verbal Breakdown"
+  "patch_section": "Verbal Breakdown",
+  "owner_approved": "2026-11-10"
  },
  {
   "q": 1347,
@@ -20578,14 +20853,15 @@
   "section": "Credibility Audit",
   "kind": "audit",
   "tag": "Sector accuracy check",
-  "verdict": null,
+  "verdict": "no-change",
   "fact": null,
   "before": "An insider should verify: how promoters and venues influence booking; how disclosures spread in local scenes; how podcasts and posts reference matters without naming people; how lawyers' demand letters are usually framed; and which support bodies realistically assist performers in disputes.",
   "after": null,
-  "reason": "",
-  "by": "pending",
+  "reason": "Advisory list for the author, not a claim made on the page. Its lettered points are illustrative scene or workplace details in a labelled composite.",
+  "by": "model",
   "checked": "2026-11-10",
-  "risk": "low"
+  "risk": "low",
+  "owner_approved": "2026-11-10"
  },
  {
   "q": 1359,
@@ -20653,14 +20929,16 @@
   "section": "Institutional Echo",
   "kind": "review",
   "tag": "REQUIRES SUBJECT-MATTER REVIEW",
-  "verdict": null,
+  "verdict": "keep-conditional",
   "fact": null,
   "before": "[SPEAK] Live-streaming, fan-chat and direct-message tools allow performers to build close relationships with audiences, and the same features allow strangers to build false trust [COMMON INDUSTRY PATTERN]. Aspiring performers are often approached with casting calls, manager offers and development opportunities that are hard to check [COMMON INDUSTRY PATTERN]. Platforms generally have reporting tools, but how fast and how well they respond varies [REQUIRES SUBJECT-MATTER REVIEW]. Police, campuses and support services vary in how they treat these reports. Many bodies offer help, but their powers are jurisdiction-specific. [LEGAL CLAIM — JURISDICTION-SPECIFIC] Most online fans and most casting calls are genuine. The pattern is distinguished by requests for secrecy, intimate material and money.",
   "after": null,
-  "reason": "",
-  "by": "pending",
+  "reason": "Sentence already states an outcome as depending on conditions (can / may / varies); makes no flat factual claim.",
+  "by": "model",
   "checked": "2026-11-10",
-  "risk": "low"
+  "risk": "low",
+  "owner_approved": "2026-11-10",
+  "label": "Depends on the terms"
  },
  {
   "q": 1364,
@@ -20749,13 +21027,14 @@
   "section": "Credibility Audit",
   "kind": "audit",
   "tag": "Sector accuracy check",
-  "verdict": null,
+  "verdict": "no-change",
   "fact": null,
   "before": "An insider should verify: how casting and manager approaches reach young streamers; what platforms offer for reporting image abuse; how campuses handle false emergency reports; how support services for young performers are organised; and how realistic the contact-list demonstration is.",
   "after": null,
-  "reason": "",
-  "by": "pending",
+  "reason": "Advisory list for the author, not a claim made on the page. Its lettered points are illustrative scene or workplace details in a labelled composite.",
+  "by": "model",
   "checked": "2026-11-10",
-  "risk": "low"
+  "risk": "low",
+  "owner_approved": "2026-11-10"
  }
 ]
