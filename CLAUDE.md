@@ -99,6 +99,8 @@ standing exception, and it earned its own top-level rules in
 
 ## Design standard
 
+**Choosing a look?** Use `docs/design-catalogue/` (master list of styles, brands, type, colour, motion, navigation, techniques, safety and accessibility, with a selection method). Choose from it by ID, record the choices, and screenshot-review before scaling.
+
 Target: press.stripe.com (typography + a title/cover moment per book),
 aeon.co (reading-progress bar, ~60–70 char measure), waitbutwhy.com /
 The Marginalian (a real chapter-index page, a resources hub). Confirm/replace

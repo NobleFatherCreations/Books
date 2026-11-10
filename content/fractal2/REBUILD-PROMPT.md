@@ -23,6 +23,8 @@ Use `ToolSearch` to find MCP tools. Use Playwright (it is pre-installed; never r
 
 ## 1b. Phase 0 — Research and references (before Phase A)
 
+0. Read `docs/design-catalogue/00-README.md` and follow its selection method. Pick from the catalogue by ID (styles, type, colour, layout, motion, navigation, imagery) and record the choices, with the rejected ones and why, in `content/fractal2/DESIGN-CHOICES.md`. Refresh the brand entries by opening live sites before relying on them.
+
 Do not design from memory. Spend real effort here:
 1. Open at least 8 reference pages with Playwright (use `WebSearch`/`WebFetch`/TinyFish to find them: Stripe Press, Apple product pages, Pudding, NYT/Guardian scrollytelling, Locomotive, Active Theory-style kinetic type) and take screenshots at 390 and 1440. Read them as images. Write what each one does that this project does not (type scale, depth, motion timing, how text and figure share a screen).
 2. Read the source of two or three of them (CSS scroll-driven animation, `animation-timeline`, view transitions, sticky stages, canvas/WebGL, variable fonts). Note the exact techniques and values.
