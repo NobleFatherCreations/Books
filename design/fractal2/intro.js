@@ -187,15 +187,14 @@
     var names = D.tactics, CW = .47;
     function build(f) {
       var rows = [], r = MAND.R0, g, i2;
-      for (g = 0; g < 8; g++) {
-        rows.push({ g: g, line: r });
-        r += f * 1.5; rows.push({ g: g, title: 1, r: r, f: f * 1.25, txt: (D.stages[g] + ' · ' + names[g].length).toUpperCase() }); r += f * 1.35;
+      for (g = 0; g < 8; g++) {          /* inside to outside: a ring line, the names, then the stage title, as on the original artwork */
+        rows.push({ g: g, line: r }); r += f * 1.05;
         var cur = [], len = 0, cap = function (rr) { return 2 * Math.PI * rr / (f * CW) * .95; };
         for (i2 = 0; i2 < names[g].length; i2++) { var nm = names[g][i2]; if (cur.length && len + nm.length + 3 > cap(r)) { rows.push({ g: g, r: r, f: f, txt: cur.join(' · '), full: 1 }); r += f * 1.3; cur = []; len = 0; } cur.push(nm); len += nm.length + 3; }
         if (cur.length) {      /* a short last row is completed with a dotted leader, so every ring closes */
           var pad = Math.max(0, Math.floor((cap(r) - len) / 4)), lead = new Array(pad + 1).join(' ·');
           rows.push({ g: g, r: r, f: f, txt: lead.split('').reverse().join('') + '  ' + cur.join(' · ') + '  ' + lead, full: 1 }); r += f * 1.3; }
-        r += f * .35;
+        r += f * .25; rows.push({ g: g, title: 1, r: r, f: f * 1.25, txt: (D.stages[g] + ' · ' + names[g].length).toUpperCase() }); r += f * .75;
       }
       return { rows: rows, R: r };
     }
