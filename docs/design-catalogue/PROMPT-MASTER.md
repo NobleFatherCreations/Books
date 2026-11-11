@@ -61,3 +61,6 @@ Read `OWNER-TASTE.md` (if present) before the interview so you only ask what is 
 - **Assets:** decide how each visual is made (code / AI tool / commissioned / typographic only) before building; design a typographic-only fallback; no asset ships without a licence row.
 - **Don't change fixed content.** Change presentation only.
 - **Report honestly.** Say what you checked, what you didn't, and what is still weak. Name the 2 screens you are least sure of.
+
+## Binding exit rule (Phase 5 and 6)
+Phase 6 may not start until `scripts/design-exit.mjs` passes on the final build (see `.claude/skills/design-director/SKILL.md` step 6 and `templates/SCORES-TEMPLATE.md`). Scores are recorded in `SCORES.md` against a hash of the exact build, using the fixed rubric and the fixed capture set. A score below 4 triggers the low-score protocol (three candidate fixes from different sources, test, choose, re-score). The owner is asked only for the direction pick (Phase 3) and for deployment; never whether to ship an unscored or low-scoring build.
