@@ -1,0 +1,219 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>Fractal² · The closer you look, the more there is</title>
+<meta name="description" content="A story about the shape that repeats in every building, and the map that takes it apart.">
+<meta name="theme-color" content="#05070d">
+<link rel="icon" href="%%BASE%%favicon.ico">
+<link rel="preload" as="font" type="font/woff2" crossorigin href="%%BASE%%fonts/cormorant.woff2">
+<link rel="preload" as="image" imagesrcset="%%BASE%%img/orig-core-m.webp 2048w, %%BASE%%img/orig-core.webp 3072w" imagesizes="(max-width:899px) 600px, 2800px">
+<style>
+@font-face{font-family:"Cormorant";src:url(%%BASE%%fonts/cormorant.woff2) format("woff2");font-weight:300 700;font-style:normal;font-display:swap}
+@font-face{font-family:"Cormorant";src:url(%%BASE%%fonts/cormorant-italic.woff2) format("woff2");font-weight:300 700;font-style:italic;font-display:swap}
+@font-face{font-family:"Source Serif";src:url(%%BASE%%fonts/sourceserif4.woff2) format("woff2");font-weight:300 700;font-style:normal;font-display:swap}
+@font-face{font-family:"Source Serif";src:url(%%BASE%%fonts/sourceserif4-italic.woff2) format("woff2");font-weight:300 700;font-style:italic;font-display:swap}
+:root{--bg:#05070d;--ink:#F3ECD9;--ink2:#CFC8B6;--line:#2A3350;--bar:56px;color-scheme:dark}
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%;font-variant-numeric:lining-nums;scroll-padding-top:calc(var(--bar) + 16px)}
+html.locked,html.locked body{overflow:hidden;height:100%;touch-action:none}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:"Source Serif",Georgia,serif;font-size:1.125rem;line-height:1.6;-webkit-font-smoothing:antialiased}
+.sr{position:absolute;left:-9999px;top:auto;width:1px;height:1px;overflow:hidden}
+.skip{position:fixed;left:-999px;top:8px;background:var(--bg);color:var(--ink);padding:10px 14px;z-index:99}.skip:focus{left:8px}
+:focus-visible{outline:2px solid var(--ink);outline-offset:3px}
+.bar{position:fixed;inset:0 0 auto 0;height:var(--bar);z-index:50;display:flex;align-items:center;justify-content:space-between;padding:0 max(16px,env(safe-area-inset-right)) 0 max(16px,env(safe-area-inset-left));background:linear-gradient(var(--bg) 55%,rgba(5,7,13,0))}
+.bar .mark{display:inline-flex;align-items:center;gap:8px;min-height:44px;color:var(--ink);text-decoration:none;font:500 1.5rem/1 "Cormorant",serif}
+.bar .mark img{width:30px;height:30px;display:block}
+.btn{min-height:44px;min-width:44px;padding:0 14px;border:1px solid rgba(243,236,217,.5);background:rgba(5,7,13,.5);color:var(--ink);font:600 .9375rem/1 "Source Serif",serif;border-radius:0;cursor:pointer;transition:transform 120ms cubic-bezier(.23,1,.32,1),background-color 160ms ease,color 160ms ease}
+.btn:active{transform:scale(.97)}
+@media (hover:hover) and (pointer:fine){.btn:hover{background:var(--ink);color:#05070d}}
+#field{position:fixed;inset:0;width:100%;height:100%;z-index:0;pointer-events:none}
+#stage{position:fixed;inset:0;z-index:1;pointer-events:none;overflow:hidden}
+#cam{position:absolute;left:0;top:0;transform-origin:50% 50%;will-change:transform,opacity;contain:layout style}
+#cam img{position:absolute;display:block;max-width:none;user-select:none}
+#cam .orig{left:0;top:0;width:100%;height:100%}
+#cam .core{left:15%;top:15%;width:70%;height:70%;opacity:0;background:center/100% 100%}
+#cam .deep{left:32.5%;top:32.5%;width:35%;height:35%;opacity:0;-webkit-mask-image:radial-gradient(closest-side,#000 80%,transparent 100%);mask-image:radial-gradient(closest-side,#000 80%,transparent 100%)}
+#cam .emb,#cam .logo{left:50%;top:50%;width:320%;height:320%;transform:translate(-50%,-50%);opacity:0}
+#cam .emb{z-index:-2}
+#cam .logo{z-index:-1;-webkit-mask-image:radial-gradient(circle closest-side at 50% 50%,#000 calc(var(--wr,0)*100%),transparent calc(var(--wr,0)*100% + 7%));mask-image:radial-gradient(circle closest-side at 50% 50%,#000 calc(var(--wr,0)*100%),transparent calc(var(--wr,0)*100% + 7%))}
+#hl{position:absolute;inset:0;width:100%;height:100%;opacity:0;visibility:hidden}
+#hl circle{fill:none}
+#veil{position:fixed;inset:0;z-index:2;pointer-events:none;opacity:1;background:radial-gradient(circle at 50% 50%,rgba(5,7,13,0) calc(var(--hr,150)*.80px),rgba(5,7,13,1) calc(var(--hr,150)*.95px))}
+#spark{position:fixed;left:50%;top:50%;width:min(70vmin,520px);height:min(70vmin,520px);margin:calc(min(70vmin,520px)/-2) 0 0 calc(min(70vmin,520px)/-2);z-index:3;pointer-events:none;opacity:0;border-radius:50%;background:radial-gradient(circle,rgba(255,255,244,1) 0,rgba(255,244,205,.95) 3%,rgba(255,226,150,.6) 9%,rgba(240,200,120,.26) 22%,rgba(240,200,120,0) 52%);animation:breathe 4.5s ease-in-out infinite}
+@keyframes breathe{0%,100%{filter:brightness(.9)}50%{filter:brightness(1.25)}}
+main{position:relative;z-index:4}
+.hero{position:relative;height:100svh;display:flex;align-items:flex-end;justify-content:center;padding-bottom:7svh}
+#begin{min-height:52px;padding:0 34px;font-size:1.125rem}
+.scene{position:relative;height:calc(100svh + var(--h) * .5svh);margin-bottom:-100svh}
+.run{position:relative;height:calc(var(--h) * .7svh)}
+.mk{position:absolute;left:0;top:0;width:1px;height:1px;pointer-events:none}.mk.end{top:auto;bottom:0}
+.say{position:sticky;top:0;height:100svh;display:flex;align-items:center;justify-content:center;padding:calc(var(--bar) + 8px) 24px 8svh;text-align:center}
+.say p{margin:0;max-width:21ch;font:500 clamp(1.9rem,7.4vw,3.1rem)/1.22 "Cormorant",serif;letter-spacing:.005em;text-shadow:0 0 34px #000,0 0 14px rgba(0,0,0,.95),0 2px 3px rgba(0,0,0,.9);text-wrap:balance}
+.say p.big{max-width:16ch;font-style:italic;font-weight:500;font-size:clamp(2.5rem,10.4vw,4.4rem);line-height:1.1}
+@media (min-width:900px){.say p{max-width:24ch;font-size:clamp(2.2rem,3.4vw,3.4rem)}.say p.big{max-width:20ch;font-size:clamp(3rem,5vw,5rem)}}
+.say .w{display:inline-block;opacity:0;will-change:opacity,transform}
+html:not(.js) .say .w{opacity:1}
+.say em{font-style:italic}
+.door{position:relative;z-index:4;margin-top:40svh;padding:12svh 24px 14svh;text-align:center;background:linear-gradient(rgba(5,7,13,0),rgba(5,7,13,.94) 22%)}
+.door .enter{display:inline-block;border-top:2px solid var(--ink);border-bottom:1px solid var(--line);padding:22px 38px;color:var(--ink);text-decoration:none;font:500 clamp(1.9rem,6vw,2.6rem)/1.1 "Cormorant",serif}
+.door .sub{margin:14px auto 0;max-width:30rem;color:var(--ink2);font-size:1rem}
+.door .atlas{list-style:none;margin:36px auto 0;padding:0;max-width:34rem;columns:2;column-gap:24px;text-align:left;font-size:.9375rem;color:var(--ink2)}
+.door .atlas li{break-inside:avoid;padding:3px 0;display:flex;gap:10px}.door .atlas .n{flex:none;opacity:.7}.door .atlas .here{color:var(--ink)}
+.door .foot{margin:36px auto 0;max-width:34rem;color:var(--ink2);font-size:.9375rem;font-style:italic}
+@media (prefers-reduced-motion:reduce){#spark{animation:none}.btn{transition:none}}
+@media (prefers-contrast:more){.say p{text-shadow:none;background:rgba(5,7,13,.9)}}
+</style>
+</head>
+<body>
+<a class="skip" href="#s1" id="skipText">Skip to the text</a>
+<a class="skip" href="#door" id="skipEnd" style="top:52px">Skip to the end</a>
+<header class="bar">
+  <a class="mark" href="#top" aria-label="Fractal squared, back to the top"><img src="%%BASE%%emblem-64.png" alt="" width="30" height="30">Fractal²</a>
+  <button class="btn" id="leave" type="button" aria-label="Leave this site now. Escape pressed twice also leaves.">Leave</button>
+</header>
+<canvas id="field" aria-hidden="true"></canvas>
+<div id="stage" role="img" aria-label="A diagram of eight rings, the original Fractal. The view begins inside its black centre, slowly pulls back until the whole circle fills the screen, then pulls back further to a larger map of 335 tactics, then plunges back through the centre into darkness, where a single light appears.">
+  <div id="cam">
+    <img class="emb" id="emb" data-src="%%BASE%%img/emblem.webp" data-srcset="%%BASE%%img/emblem-m.webp 2048w, %%BASE%%img/emblem.webp 3072w" sizes="(max-width:899px) 600px, 2800px" alt="" width="3072" height="3072" decoding="async">
+    <img class="logo" id="logo" data-src="%%BASE%%img/logo.webp" data-srcset="%%BASE%%img/logo-m.webp 2048w, %%BASE%%img/logo.webp 3072w" sizes="(max-width:899px) 600px, 2800px" alt="" width="3072" height="3072" decoding="async">
+    <img class="orig" id="orig" data-src="%%BASE%%img/orig.webp" data-srcset="%%BASE%%img/orig-m.webp 2048w, %%BASE%%img/orig.webp 3072w" sizes="(max-width:899px) 600px, 2800px" alt="" width="3072" height="3072" decoding="async">
+    <img class="deep" id="deep" data-src="%%BASE%%img/orig-deep.webp" alt="" width="3072" height="3072" decoding="async">
+    <img class="core" id="core" fetchpriority="high" src="%%BASE%%img/orig-core.webp" srcset="%%BASE%%img/orig-core-m.webp 2048w, %%BASE%%img/orig-core.webp 3072w" sizes="(max-width:899px) 600px, 2800px" alt="" width="3072" height="3072" decoding="async">
+    <svg id="hl" viewBox="0 0 1000 1000" aria-hidden="true">%%HL%%</svg>
+  </div>
+</div>
+<div id="veil" aria-hidden="true"></div>
+<div id="spark" aria-hidden="true"></div>
+<main id="top">
+  <section class="hero" id="hero"><h1 class="sr">Fractal²: the closer you look, the more there is</h1><i class="mk" data-z="4.1" data-vl="1"></i><i class="mk end" data-z="4.1" data-vl="1"></i><button class="btn" id="begin" type="button">Begin</button></section>
+%%SCENES%%
+  <section class="door" id="door">
+    <i class="mk" data-z="0.097" data-a="1"></i>
+    <a class="enter" href="/fractal2/entertainment">Enter the first sector</a>
+    <p class="sub">Entertainment &amp; Music, mapped in full: 335 tactics, 153 patterns, three ways to read each one.</p>
+    <ul class="atlas" aria-label="The thirty sectors">
+%%ATLAS%%
+    </ul>
+    <p class="foot">This work names patterns, never people. It is for recognition and for finding safe help. It is never a playbook, a diagnosis or a verdict. If you or anyone you know is in danger, reach real help first: emergency services, a crisis line, or child protection if a child is involved.</p>
+  </section>
+</main>
+<script>
+(function(){
+ var d=document,h=d.documentElement;h.classList.add('js','locked');
+ function leave(){try{d.body.innerHTML=''}catch(e){}location.replace('https://www.google.com/')}
+ d.getElementById('leave').addEventListener('click',leave);
+ var last=0;addEventListener('keydown',function(e){if(e.key==='Escape'){var n=Date.now();if(n-last<600)leave();last=n}});
+ var rm=matchMedia('(prefers-reduced-motion:reduce)').matches;
+ function $(i){return d.getElementById(i)}
+ var cam=$('cam'),core=$('core'),deep=$('deep'),emb=$('emb'),logo=$('logo'),hl=$('hl'),cv=$('field'),cx2=cv.getContext('2d'),veil=$('veil'),spark=$('spark');
+ var rings=[].slice.call(hl.querySelectorAll('g'));
+ function clamp(v,a,b){return Math.min(b,Math.max(a,v))}
+ function lerp(a,b,t){return a+(b-a)*t}
+ var W,Hh,D0,CX,CY,DPR,wide,SC=[],MK=[],MP=[],cur=null,raf=0,lastT=0;
+ var P=['z','w','g','dim','bk','sp','vl','a'];
+ /* the 2,700 points */
+ var N=2700,pts=[],gx=[],gy=[];
+ (function(){var s=7;function r(){s=(s*16807)%2147483647;return s/2147483647}for(var i=0;i<N;i++)pts.push({u:r(),v:r(),dp:.25+r()*.75,sz:.6+r()*1.1,bk:(r()*3)|0,band:Math.min(7,Math.floor(((i/30)|0)*8/90))})})();
+ var BKV=0,AX=0,AY=0,AC=100,LX=0,LY=0,GR=100,lastDraw='';
+ function layout(){
+  W=innerWidth;Hh=innerHeight;wide=W>=900;DPR=Math.min(2,devicePixelRatio||1);
+  D0=Math.min(W,Hh)/0.874;CX=W/2;CY=Hh/2;
+  cam.style.width=D0+'px';cam.style.height=D0+'px';cam.style.left=(CX-D0/2)+'px';cam.style.top=(CY-D0/2)+'px';
+  cv.width=W*DPR;cv.height=Hh*DPR;
+  veil.style.setProperty('--hr',(0.086*D0*4.1).toFixed(0));
+  var cols=wide?6:5,rows=30/cols;AC=Math.min((W-32)/(cols+0.4),(Hh-150)/(rows*1.3+0.4),D0*0.3);AX=W/2;AY=Hh/2;
+  LX=AX+(11%cols-(cols-1)/2)*AC;LY=AY+(((11/cols)|0)-(rows-1)/2)*AC*1.3;
+  var gw=Math.min(W-48,Hh*1.1),gh=Hh*0.6;GR=Math.max(gw,gh)*0.5;gx=[];gy=[];for(var i=0;i<N;i++){gx.push(CX-gw/2+gw*((i%30)+.5)/30);gy.push(CY-gh/2+gh*(((i/30)|0)+.5)/90)}
+  SC=[].slice.call(d.querySelectorAll('.scene')).map(function(el){var q=el.getBoundingClientRect();return{el:el,top:q.top+scrollY,h:q.height,ws:[].slice.call(el.querySelectorAll('.w')),on:false}});
+  var pv={z:1,w:0};
+  MK=[].slice.call(d.querySelectorAll('.mk'));
+  MP=MK.map(function(el){var q=el.getBoundingClientRect(),o={y:q.top+scrollY+q.height/2};
+   if(el.hasAttribute('data-z'))pv.z=+el.getAttribute('data-z');o.z=pv.z;
+   if(el.hasAttribute('data-w'))pv.w=+el.getAttribute('data-w');o.w=pv.w;
+   ['g','dim','bk','sp','vl','a'].forEach(function(k){o[k]=el.hasAttribute('data-'+k)?+el.getAttribute('data-'+k):0});
+   o.hl=el.hasAttribute('data-hl')?+el.getAttribute('data-hl'):-1;return o});
+ }
+ function target(y){
+  var line=y+Hh*0.5,i=0;for(var k=0;k<MP.length;k++){if(MP[k].y<=line)i=k;else break}
+  var A=MP[i],B=MP[Math.min(i+1,MP.length-1)],t=(i<MP.length-1&&B.y>A.y)?clamp((line-A.y)/(B.y-A.y),0,1):0,o={};
+  o.z=Math.exp(lerp(Math.log(A.z),Math.log(B.z),t));
+  ['w','g','dim','bk','sp','vl','a'].forEach(function(k){o[k]=lerp(A[k],B[k],t)});
+  var zA=AC*0.9/(2.797*D0);if(o.a>0.001)o.z=Math.exp(lerp(Math.log(o.z),Math.log(zA),clamp(o.a,0,1)));
+  o.hl=t<.5?A.hl:B.hl;return o;
+ }
+ function atlasDraw(c2,a){
+  var cols=wide?6:5,rows=30/cols,cell=AC,i,c,rr,x,y,RN=[.1,.2,.3,.4,.5,.6,.72,.86],col=['#8a5f22','#b8741f','#a9521c','#8a2327','#6a2a45','#3a4f8c','#4a6bb0','#6f8fd0'];
+  c2.textAlign='center';c2.textBaseline='middle';
+  for(i=0;i<30;i++){if(i===11)continue;c=i%cols;rr=(i/cols)|0;x=AX+(c-(cols-1)/2)*cell;y=AY+(rr-(rows-1)/2)*cell*1.3;
+   for(var j=0;j<8;j++){c2.beginPath();c2.arc(x,y,cell*0.46*RN[j],0,6.2832);c2.lineWidth=j===7?1.2:Math.max(1,cell*0.035);c2.strokeStyle=j===7?'rgba(244,213,138,.8)':col[j];c2.globalAlpha=a*(j===7?.8:.55);c2.stroke()}
+   c2.globalAlpha=a;c2.fillStyle='#F3ECD9';c2.font='600 '+Math.max(12,cell*0.13)+'px Cormorant,serif';c2.fillText(('0'+(i+1)).slice(-2),x,y+cell*0.72)}
+  c2.globalAlpha=a;c2.fillStyle='#F3ECD9';c2.font='700 '+Math.max(12,cell*0.13)+'px Cormorant,serif';c2.fillText('12',LX,LY+cell*0.72);
+  c2.beginPath();c2.arc(LX,LY,cell*0.5,0,6.2832);c2.strokeStyle='rgba(255,250,235,.95)';c2.lineWidth=2;c2.stroke();c2.globalAlpha=1;
+ }
+ var BC=[[201,138,43],[184,116,31],[169,82,28],[160,52,56],[130,60,100],[70,100,170],[90,130,200],[140,170,225]],WH=[220,226,245];
+ function draw(g,sy,at){
+  var key=sy.toFixed(0)+'|'+g.toFixed(3)+'|'+at.toFixed(3)+'|'+BKV.toFixed(2);if(key===lastDraw)return;lastDraw=key;
+  cx2.setTransform(DPR,0,0,DPR,0,0);cx2.clearRect(0,0,W,Hh);
+  var span=Hh*1.4,k=g>0.001,mix=clamp(g*1.5,0,1),sk=1-BKV;
+  for(var band=0;band<8;band++){for(var bk=0;bk<3;bk++){
+   var al=(0.28+0.3)*[.5,.75,1][bk]*(1+g*3.4),cc=BC[band];
+   cx2.fillStyle='rgba('+Math.round(lerp(WH[0],cc[0],mix))+','+Math.round(lerp(WH[1],cc[1],mix))+','+Math.round(lerp(WH[2],cc[2],mix))+','+Math.min(1,al)+')';
+   for(var i=0;i<N;i++){var p=pts[i];if(p.band!==band||p.bk!==bk)continue;
+    var x=p.u*W,y=((p.v*span-sy*p.dp*0.35)%span+span)%span-Hh*.2;
+    if(k){var st=clamp(g*1.6-(i%90)/90*0.6,0,1);st=st*st*(3-2*st);x=lerp(x,gx[i],st);y=lerp(y,gy[i],st)}
+    var s=p.sz*(1+g*.9)*(wide?1:1.4),f=1;if(k){var dd=Math.hypot(gx[i]-CX,gy[i]-CY);f=1-st*clamp((dd-GR*0.62)/(GR*0.38),0,1)}
+    if(f>0.02){cx2.globalAlpha=f*sk;cx2.fillRect(x,y,s,s)}}}}
+  cx2.globalAlpha=1;if(at>0.01)atlasDraw(cx2,at);
+ }
+ var envNow=0;
+ function words(){
+  var y=scrollY,env=0;
+  for(var s=0;s<SC.length;s++){var S=SC[s],span=S.h-Hh;
+   if(S.top>y+Hh*1.05||S.top+S.h<y-Hh*0.05){if(S.on){S.ws.forEach(function(w){w.style.opacity=0});S.on=false}continue}
+   var p=span>0?clamp((y-S.top)/span,0,1):0,f=1-clamp((p-0.8)/0.17,0,1),n=S.ws.length;
+   for(var i=0;i<n;i++){var st=0.1+0.38*(i/Math.max(1,n-1)),o=rm?(p>0.05?1:0):clamp((p-st)/0.07,0,1),w=S.ws[i];
+    w.style.opacity=(o*f).toFixed(3);if(!rm){w.style.transform=o<1?'translateY('+((1-o)*14).toFixed(1)+'px)':'';w.style.filter=o<1?'blur('+((1-o)*3).toFixed(1)+'px)':''}}
+   S.on=true;var e=f*clamp((p-0.04)/0.1,0,1);if(e>env)env=e}
+  return env;
+ }
+ function frame(now){
+  raf=0;var tg=target(scrollY);
+  if(!cur||rm)cur={z:tg.z,w:tg.w,g:tg.g,dim:tg.dim,bk:tg.bk,sp:tg.sp,vl:tg.vl,a:tg.a,hl:tg.hl,env:0};
+  else{var dt=Math.min(.05,(now-lastT)/1000||.016),k=1-Math.exp(-dt/.16);
+   cur.z=Math.exp(lerp(Math.log(cur.z),Math.log(tg.z),k));['w','g','dim','bk','sp','vl','a'].forEach(function(q){cur[q]=lerp(cur[q],tg[q],k)});cur.hl=tg.hl}
+  lastT=now;
+  var env=words();cur.env=rm?env:lerp(cur.env,env,1-Math.exp(-.03/0.12));
+  var z=cur.z,op=(1-0.58*cur.env)*(1-cur.dim)*(1-cur.bk);
+  var dx=cur.a*(LX-CX),dy=cur.a*(LY-CY);
+  cam.style.transform='translate('+dx.toFixed(1)+'px,'+dy.toFixed(1)+'px) scale('+z.toFixed(4)+')';cam.style.opacity=op.toFixed(3);cam.style.visibility=op<0.02?'hidden':'visible';
+  var dp=clamp((z-3.1)/0.5,0,1);deep.style.opacity=dp.toFixed(3);deep.style.visibility=dp>0?'visible':'hidden';
+  var co=clamp((z-2.75)/0.5,0,1);core.style.opacity=co.toFixed(3);core.style.visibility=co>0?'visible':'hidden';
+  var lo=clamp((1-z)/0.3,0,1);emb.style.opacity=lo.toFixed(3);emb.style.visibility=lo>0?'visible':'hidden';logo.style.opacity=lo.toFixed(3);logo.style.visibility=(lo>0&&cur.w>0.002)?'visible':'hidden';logo.style.setProperty('--wr',cur.w.toFixed(3));
+  var on=cur.hl>=0&&z<2.6;hl.style.opacity=on?1:0;hl.style.visibility=on?'visible':'hidden';rings.forEach(function(g,j){g.style.opacity=j===cur.hl?1:0});
+  veil.style.opacity=cur.vl.toFixed(3);veil.style.visibility=cur.vl>0.01?'visible':'hidden';
+  spark.style.opacity=cur.sp.toFixed(3);spark.style.transform='scale('+(0.5+0.5*cur.sp).toFixed(3)+')';
+  var zA=AC*0.9/(2.797*D0),near=clamp(1-Math.abs(Math.log(z/zA))/0.7,0,1);near*=near;
+  BKV=cur.bk;draw(cur.g,scrollY,cur.a*near);
+  var dg=Math.abs(Math.log(cur.z/tg.z))+Math.abs(cur.w-tg.w)+Math.abs(cur.g-tg.g)+Math.abs(cur.dim-tg.dim)+Math.abs(cur.bk-tg.bk)+Math.abs(cur.sp-tg.sp)+Math.abs(cur.vl-tg.vl)+Math.abs(cur.a-tg.a)+Math.abs(cur.env-env);
+  if(dg<0.004){cur.z=tg.z;['w','g','dim','bk','sp','vl','a'].forEach(function(q){cur[q]=tg[q]});cur.env=env}
+  if(!rm&&dg>=0.004)raf=requestAnimationFrame(frame);
+ }
+ function go(){if(!raf)raf=requestAnimationFrame(frame)}
+ /* locked opening: nothing scrolls until Begin */
+ function unlock(to){if(!h.classList.contains('locked'))return;h.classList.remove('locked');layout();go();if(to==='text')scrollTo({top:SC[0]?SC[0].top:innerHeight,behavior:rm?'auto':'smooth'})}
+ $('begin').addEventListener('click',function(){unlock('text')});
+ $('skipText').addEventListener('click',function(e){e.preventDefault();unlock('text');if(!h.classList.contains('locked'))scrollTo({top:SC[0].top,behavior:'auto'})});
+ $('skipEnd').addEventListener('click',function(e){e.preventDefault();unlock();$('door').scrollIntoView()});
+ addEventListener('scroll',go,{passive:true});
+ var rt=0,lw=0,lh=0;addEventListener('resize',function(){clearTimeout(rt);rt=setTimeout(function(){if(innerWidth===lw&&Math.abs(innerHeight-lh)<140)return;lw=innerWidth;lh=innerHeight;layout();go()},150)});
+ function ld(id,cb){var e=$(id);if(cb)e.addEventListener('load',cb);var ss=e.getAttribute('data-srcset');if(ss)e.srcset=ss;e.src=e.getAttribute('data-src')}
+ var late=false;function go2(){if(late)return;late=true;setTimeout(function(){ld('orig',function(){setTimeout(function(){ld('emb',function(){ld('logo',function(){ld('deep')})})},200)})},150)}
+ if(core.complete&&core.naturalWidth)go2();else{core.addEventListener('load',go2);setTimeout(go2,3500)}
+ lw=innerWidth;lh=innerHeight;scrollTo(0,0);
+ (d.fonts&&d.fonts.ready?d.fonts.ready:Promise.resolve()).then(function(){layout();go()});layout();go();
+})();
+</script>
+</body>
+</html>
