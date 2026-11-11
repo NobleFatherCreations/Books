@@ -43,3 +43,26 @@ One or two sentences per scene; each scene is a runway of scroll with the words 
 ## 7. Checks (filled in after writing)
 - **Lint:** `node scripts/story-lint.mjs content/fractal2/intro-v8.md` -> PASS (72 scenes, about 1,000 words, about 6.6 minutes of narration; all scenes 3 sentences or fewer).
 - **Fresh-reader test** (an agent that saw only the plain text): it correctly summarized the work (eight-stage cycle, 30 techniques, 30 sectors, 2,700 examples, 335 tactics, 203 combinations, a lifetime of work), the danger (the pattern unmakes trust in the world, then in your own mind, then work, savings, name, future), the key (name each step, reverse the order, see what it hides) and the invitation. Scores: voice 4, epic 4, danger 4, scope 3, pacing 4. Flags and what I did: "Fractal²" appears with no setup -> added a scene introducing it ("the Fractal, turned on itself"); "hunts people" implies intent and "never skips one" is absolute -> "wounds people", "always in order"; "Nothing that ruins a life..." universal -> "Little that ruins a life..."; "deliberate order" attributes intent -> "a particular order"; "That is how a chain is broken" promises an outcome -> "begins to loosen"; "original frequency" unexplained -> "The part of you no pattern could reach". Not changed: "I am still waiting" (the owner's own dare, kept as the owner's voice); the numbers (kept; the scope line is the point).
+
+## 8. Three audit rounds before going live (2026-11-11)
+
+Each round: fresh editor agent reads the annotated script, steelmans it, scores 11 criteria, lists weaknesses with rewrites; fixes applied; lint re-run. Snapshots of each pre-round script are kept in the session scratchpad only.
+
+| Criterion | R1 | R2 | R3 |
+|---|---|---|---|
+| Tone | 4 | 4.5 | 5 |
+| Pacing | 3 | 3.5 | 4 |
+| Flow | 4 | 3.5 | 4 |
+| Prose | 3 | 4 | 4 |
+| Voice | 3 | 4 | 5 |
+| Arc | 4 | 4 | 5 |
+| Antagonist | 3 | 4 | 4 |
+| Scope | 4 | 4.5 | 5 |
+| Spiritual | 3 | 4 | 4 |
+| Safety | 3 | 4 | 4 |
+| Scene-ability | 4 | 3.5 | 5 |
+
+Round 1 changes: varied the stage-list grammar and lengthened holds on Extract/Discard/Replace; rebuilt the scope scenes (three scales, "I looked for one place where the cycle does not run"); rebuilt the danger section (one idea per scene, antagonist as combination, reversal as the key, "seeing the sequence does not free you"); moved the safety note ahead of the spiritual layer and softened it; merged the inversion pairs into three short captions; moved "patterns, never people" earlier; varied the "Down through" refrain; added a slow camera drift across the danger and old-words sections.
+Round 2 changes: merged four repeated "read it backward" beats into two; defined "the map" before it is used; removed brochure language ("series", "the way out"); hedged absolutes ("always in order" became "in an order that repeats"; the closing line became "I believe"); merged the harm catalogue into one scene.
+Round 3 changes: shortened two dense captions; stopped personifying the antagonist ("soldiers" became "a tactic alone is only a move"); hedged two universal faith claims ("To my eye, it is a counterfeit"; "Many of the traditions I know"); "a sector" instead of "a place" in the wager; added a silent hold after the safety line.
+Final: 65 scenes, 938 words, about 6.3 minutes of narration, lint PASS, verdict from the round-3 editor: ship. Walk check: 0 page errors, no horizontal overflow at 390 and 1440. Not yet tested on a real phone.
