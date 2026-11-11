@@ -5035,3 +5035,6 @@ Three audit/steelman/fix rounds on content/fractal2/intro-v8.md (record in conte
 
 ## 2026-11-11 v8 LIVE
 After 3 story audit rounds the owner asked for a lens revision ("Why I carry it") and a live push. Deployed v8 (deploy 6af4f7fdb14e4560067953cd). Ghostwriter prompt + emotional audit: content/fractal2/design/GHOSTWRITER-PROMPT.md. Still open: real-phone test, sites.json entry + patch note, homepage proxy.
+
+## 2026-11-11 Handoff
+Next model: read docs/FABLE-HANDOFF.md (live state v8, deploy recipe, root-cause mistakes, design-system gaps, prioritized fix list). Owner is starting a new chat to have another model fix the intro and the design system.

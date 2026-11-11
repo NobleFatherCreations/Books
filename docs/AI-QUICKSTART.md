@@ -1,3 +1,5 @@
+> **Fractal² intro / design system: read `docs/FABLE-HANDOFF.md` first** (live state, rebuild+deploy commands, mistakes, fix list).
+
 # AI quickstart (read this first; ~2 minutes)
 
 Repo `NobleFatherCreations/Books`, branch `claude/fervent-cori-gu2uzi`. Rules: `CLAUDE.md`. History: end of `MEMORY.md`.
