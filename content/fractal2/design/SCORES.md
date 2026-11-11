@@ -119,6 +119,122 @@
      "status": "open"
     }
    ]
+  },
+  {
+   "round": 3,
+   "date": "2026-11-11",
+   "sha": "e5bd24e2688e5a46ed713cbfb9205194fabb230c976321cee6dabcf7a93b5487",
+   "scores": {
+    "hierarchy": 4,
+    "type": 4,
+    "space": 3,
+    "craft": 3,
+    "distinctiveness": 4,
+    "feeling": 3,
+    "phone": 3,
+    "legibility": 4,
+    "continuity": 3
+   },
+   "weaknesses": [
+    {
+     "id": "W1",
+     "text": "Phone: 335-word payoff nearly invisible (no bright text-free hold)",
+     "status": "open"
+    },
+    {
+     "id": "W2",
+     "text": "Count beat dim and grey, ghost words under dots, not centred on phone",
+     "status": "open"
+    },
+    {
+     "id": "W3",
+     "text": "Phone atlas lost at the end; caption says Figure 2 on the atlas screen",
+     "status": "open"
+    },
+    {
+     "id": "W4",
+     "text": "Letterbox bars collide with text/safety box; pure black seam; double band under phone header",
+     "status": "open"
+    },
+    {
+     "id": "W5",
+     "text": "Atlas craft: ring offset mid-flight, tiny numerals, unexplained marker, old-style figures in heading",
+     "status": "open"
+    },
+    {
+     "id": "W6",
+     "text": "Phone spacing: dead zones, small part labels, narrow measure",
+     "status": "open"
+    },
+    {
+     "id": "W7",
+     "text": "Phone hero murky, caption bold and missing subtitle, Leave loud",
+     "status": "open"
+    },
+    {
+     "id": "W8",
+     "text": "Continuity: reticle pops in heavy; art centre shifts laterally between text and text-free states",
+     "status": "open"
+    }
+   ]
+  },
+  {
+   "round": 4,
+   "date": "2026-11-11",
+   "sha": "10470bff1169358190e85b4c888bfec53797e5304de5f05b7616dbb96d341323",
+   "scores": {
+    "hierarchy": 4,
+    "type": 4,
+    "space": 3,
+    "craft": 3,
+    "distinctiveness": 4,
+    "feeling": 4,
+    "phone": 3,
+    "legibility": 4,
+    "continuity": 3
+   },
+   "weaknesses": [
+    {
+     "id": "W1",
+     "text": "Count beat dim in text-free frames; ghost words under dots; field off the ring axis",
+     "status": "open"
+    },
+    {
+     "id": "W2",
+     "text": "Hero title/byline over ring words (phone and desktop)",
+     "status": "open"
+    },
+    {
+     "id": "W3",
+     "text": "335 words unreadable on phone (texture)",
+     "status": "open"
+    },
+    {
+     "id": "W3b",
+     "text": "Phone dead voids: long text-free runways, blank screens",
+     "status": "open"
+    },
+    {
+     "id": "W4",
+     "text": "Atlas: numbers read as belonging to next row, left columns ghosted by scrim on desktop, mapped ring faint, inline phone atlas not in view at the end",
+     "status": "open"
+    },
+    {
+     "id": "W5",
+     "text": "Continuity: hard cuts text->beat (centre shift, bars, caption), phone plunge jump, misregistered inner ring",
+     "status": "open"
+    },
+    {
+     "id": "W6",
+     "text": "Craft: raster soft at deep zoom, heavy dark outlines on ring words (art), phone letterbox wastes height",
+     "status": "open"
+    },
+    {
+     "id": "W7",
+     "text": "Art dimmed to near nothing for most of the page",
+     "status": "open"
+    }
+   ]
   }
  ]
 }
@@ -133,3 +249,17 @@
 
 ## Round 2 diagnosis (what the critic and my own reading agreed on)
 Scores did not move after round 1's fixes (legibility still 2). Root cause found by looking at frames: the art brightened from the reading line, while text was still on screen above that line, so lists scrolled across fully bright rings. Contrast gates cannot see this (busy texture, not a ratio). Fix chosen: art stays dim whenever ANY text block is within 0.3 viewport of the screen (`tv`), bright only in text-free beats. Also: dots centred and brighter, atlas drawn only when the camera has arrived, label size up, scrim narrowed, bars 8svh, hero boost, caption threshold, capture set now names beats and captures phone beats.
+
+## Round 3 diagnosis
+Legibility 2 -> 4 (text-presence dimming worked), but feeling 4 -> 3 and phone stayed 3: the 1.15-viewport lookahead made the art dim for almost the whole of every beat on a short phone screen, so the awe beats (words, atlas) were dark. Trade-off to resolve, not accept. Low-score protocol, round 3: (A) shrink the lookahead to a small margin so bright holds really are bright; (B) keep dim only behind the text block via a localized scrim and light the upper half of the art on phone (text in the lower third); (C) give phone its own beat runways that are text-free and long. CHOICE: A (tiny margin, slower dim-in so it reads as a camera move) + C for the words and atlas beats, plus: dots tinted by stage colour and centred, bars only when no text is on screen and in a navy-black not #000, inline phone atlas above the sector list (replaces the ghost grid), lining numerals, legend text instead of a dot, thinner reticle, lighter Leave, hero scrim relief.
+
+## Round 4 diagnosis and low-score protocol (space 3, craft 3, phone 3, continuity 3)
+Found by reading frames: a real settle bug (the loop stopped before the text-presence dimming converged, so the art could stay stuck dim after scrolling stopped): fixed. Remaining causes and candidates (three each):
+- Phone words unreadable (W3): A) push the phone camera in during the words beat (z .31 -> .55) so words are larger; B) pan along a ring; C) accept as texture + caption. CHOICE A (cinematic, uses the existing camera).
+- Dead voids (W3b): A) scale phone beat runways to 72%; B) pin copy over the art; C) cut beats. CHOICE A.
+- Atlas (W4): A) row pitch 1.3 x cell so each number sits in its own gap; B) numbers inside glyphs; C) names on tap. CHOICE A; plus scrim-aware placement on desktop and the inline phone atlas moved above the CTA so it is in view.
+- Continuity (W5): A) asymmetric smoothing (dim in fast when text enters, release slowly when it leaves) so bars, centring and brightness ease over ~0.7 s; B) crossfade states; C) hold the camera centre constant. CHOICE A.
+- Count beat (W1): markers lit so dots are bright when text-free; hide the ghost diagram completely.
+- Hero (W2): local radial scrim on desktop too, stronger on phone, bigger byline.
+- Craft (W6): phone bars 3svh; deep-zoom softness: candidate = a 3072 px crop of the centre 35% shown only at z>3.2 (deferred unless craft stays 3); outlines are part of the owner's artwork (not changed).
+- Art dimmed (W7): phone reading level 0.35 -> 0.45 with a lighter scrim; gates re-run for contrast.

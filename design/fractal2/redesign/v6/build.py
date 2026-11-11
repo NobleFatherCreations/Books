@@ -47,8 +47,8 @@ def render(lines, key):
         if raw.startswith('*A note before'): cls = 'note-in'
         if raw.startswith('*This work names patterns'): cls = 'safe'
         out.append(f'<p{(" class=%s" % chr(34)+cls+chr(34)) if cls else ""}{A(t)}>{inline(raw)}</p>')
-        if t.startswith('Two thousand seven hundred examples'): out.append(BEAT('data-z="1.0" data-g="1" data-dim=".95"', 'data-z="1.0" data-g="1" data-dim=".95"').replace('class="beat"', 'class="beat" style="--bh:90svh"'))
-        if t.startswith('The true map has more than three hundred'): out.append(BEAT('data-z="0.31" data-rest="1" data-lit="1" data-w="0"', 'data-z="0.31" data-rest="1" data-lit="1" data-w="1"').replace('class="beat"', 'class="beat" style="--bh:150svh"'))
+        if t.startswith('Two thousand seven hundred examples'): out.append(BEAT('data-z="1.0" data-g="1" data-dim=".95" data-lit="1"', 'data-z="1.0" data-g="1" data-dim=".95" data-lit="1"').replace('class="beat"', 'class="beat" style="--bh:90svh"'))
+        if t.startswith('The true map has more than three hundred'): out.append(BEAT('data-z="0.31" data-rest="1" data-lit="1" data-w="0"', 'data-z="0.31" data-zp="0.55" data-rest="1" data-lit="1" data-w="1"').replace('class="beat"', 'class="beat" style="--bh:150svh"'))
         if t.startswith('Then I looked closer.'): out.append(BEAT('data-z="1.0" data-lit="1" data-lb="1"', 'data-z="0.31" data-rest="1" data-lit="1" data-lb="1"').replace('class="beat"', 'class="beat" style="--bh:260svh"'))
     for ln in lines:
         s = ln.rstrip()
@@ -82,7 +82,7 @@ hlr = ''.join(f'<g style="opacity:0;transition:opacity .25s"><circle cx="500" cy
 sectors = json.load(open(os.path.join(ROOT, 'content/fractal2/sectors.json')))['sectors']
 atlas, builtn = [], ''
 for s in sectors:
-    if s.get('built'): builtn = f'{s["n"]:02d}'; atlas.append(f'<li class="here"><span class="n">{s["n"]:02d}</span><span class="t">Entertainment &amp; Music ●</span></li>')
+    if s.get('built'): builtn = f'{s["n"]:02d}'; atlas.append(f'<li class="here"><span class="n">{s["n"]:02d}</span><span class="t">Entertainment &amp; Music (mapped)</span></li>')
     else: atlas.append(f'<li><span class="n">{s["n"]:02d}</span><span class="t">{html.escape(s["name"])}</span></li>')
 tpl = open(os.path.join(HERE, 'template.html'), encoding='utf-8').read()
 out = tpl.replace('%%PARTS%%', parts_html).replace('%%HL%%', hlr).replace('%%ATLAS%%', '\n'.join(atlas)).replace('%%NSECT%%', str(len(sectors))).replace('%%BUILTN%%', builtn).replace('%%BASE%%', BASE)
