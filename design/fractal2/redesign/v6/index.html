@@ -44,11 +44,14 @@ body{margin:0;background:var(--bg);color:var(--ink);font-family:"Source Serif",G
 @media (max-width:959px){.lbx{height:3svh}.beat{height:calc(var(--bh,200svh)*.72)}}
 .hud{margin:0 auto 0 8px;font:400 .8125rem/1.4 "Source Serif",Georgia,serif;color:var(--ink2);white-space:nowrap}.hud b{display:block;color:var(--ink);font-weight:500}
 @media (max-width:379px){.hud{display:none}}
-@media (max-width:959px){.btn{padding:0 12px;font-size:.875rem;border-color:rgba(236,232,220,.4)}body{font-size:1.125rem}.text{padding:calc(var(--bar) + 24px) 20px 14vh 20px}.kick,.lab{font-size:1rem;color:var(--ink)}}
+@media (max-width:959px){.hud span{display:none}.btn{padding:0 12px;font-size:.875rem;border-color:rgba(236,232,220,.4)}body{font-size:1.125rem}.text{padding:calc(var(--bar) + 24px) 20px 14vh 20px}.kick,.lab{font-size:1rem;color:var(--ink)}}
 #hl{position:absolute;inset:0;width:100%;height:100%;opacity:0;transition:opacity .5s var(--ease)}
 #hl circle{fill:none}
 .scrim{position:fixed;inset:0;z-index:2;pointer-events:none;background:linear-gradient(90deg,rgba(10,15,30,.97) 0,rgba(10,15,30,.95) 36rem,rgba(10,15,30,.6) 41rem,rgba(10,15,30,0) 50rem)}
 main{position:relative;z-index:3}
+#curtain{display:none;position:fixed;inset:0;background:var(--bg);z-index:4;pointer-events:none}
+.split #curtain{display:block}.split #field{z-index:5}.split #stage{z-index:6}.split .lbx{z-index:7}
+.split .part p,.split .part li,.split .part h2,.split .part h3{text-shadow:none}
 .text{padding:calc(var(--bar) + 24px) 24px 30vh 24px;max-width:36rem;margin:0 auto}
 .part{margin:0 0 56px}
 .part p,.part li,.part h2,.part h3{text-shadow:0 0 18px rgba(10,15,30,.95),0 0 4px rgba(10,15,30,.9)}
@@ -128,11 +131,12 @@ html:not(.js) #stage,html:not(.js) .scrim,html:not(.js) #field,html:not(.js) #pu
   <svg id="ret" viewBox="-100 -100 200 200" aria-hidden="true"><circle r="44"/><line x1="-64" y1="0" x2="-52" y2="0"/><line x1="52" y1="0" x2="64" y2="0"/><line x1="0" y1="-64" x2="0" y2="-52"/><line x1="0" y1="52" x2="0" y2="64"/></svg>
 </div>
 <div id="pulse" aria-hidden="true"></div>
+<div id="curtain" aria-hidden="true"></div>
 <div class="scrim"></div>
 <div class="lbx" id="lbt"></div><div class="lbx b" id="lbb"></div>
 <main id="top">
   <div class="text">
-    <section class="title part" data-z="3.8" data-lit="0" data-g="0" data-dim="0" data-hl="-1" data-lb="1" data-rd="-1.2">
+    <section class="title part" data-z="3.8" data-lit="0" data-g="0" data-dim="0" data-hl="-1" data-lb="1" data-rd="-1.2" data-sp="0">
       <p class="kick">Noble Father Creations<span class="kick by">Shae Stovell</span></p>
       <h1 class="word">Fractal²</h1>
       <p class="tag">The closer you look, the more there is.</p>
@@ -278,13 +282,15 @@ html:not(.js) #stage,html:not(.js) .scrim,html:not(.js) #field,html:not(.js) #pu
  var rm=matchMedia('(prefers-reduced-motion:reduce)').matches;
  var cam=d.getElementById('cam'),core=d.getElementById('core'),logo=d.getElementById('logo'),hl=d.getElementById('hl'),cv=d.getElementById('field'),cx2=cv.getContext('2d');
  var rings=[].slice.call(hl.querySelectorAll('g')),lis=[].slice.call(d.querySelectorAll('.st li'));
- var lbt=d.getElementById('lbt'),lbb=d.getElementById('lbb'),hud1=d.getElementById('hud1'),hud2=d.getElementById('hud2'),ret=d.getElementById('ret'),P=d.getElementById('pulse'),GR=100,scrim=d.querySelector('.scrim'),WA=[],emb=d.getElementById('emb'),ZR=1,CXe=0,CYe=0,CELL=100,TB=[],anchors=[].slice.call(d.querySelectorAll('[data-z]')),ys=[],W,Hh,D0,CX,CY,DPR,wide;
+ var lbt=d.getElementById('lbt'),lbb=d.getElementById('lbb'),hud1=d.getElementById('hud1'),hud2=d.getElementById('hud2'),ret=d.getElementById('ret'),P=d.getElementById('pulse'),mainEl=d.querySelector('main'),stage=d.getElementById('stage'),split=false,SH=400,ZS=1,curtain=d.getElementById('curtain'),GR=100,scrim=d.querySelector('.scrim'),WA=[],emb=d.getElementById('emb'),ZR=1,CXe=0,CYe=0,CELL=100,TB=[],anchors=[].slice.call(d.querySelectorAll('[data-z]')),ys=[],W,Hh,D0,CX,CY,DPR,wide;
  function clamp(v,a,b){return Math.min(b,Math.max(a,v))}
  function lerp(a,b,t){return a+(b-a)*t}
  function layout(){
   W=innerWidth;Hh=innerHeight;wide=W>=960||(W>=640&&W>Hh&&Hh<=560);DPR=Math.min(2,devicePixelRatio||1);
   if(wide){var tr=d.querySelector('.text').getBoundingClientRect(),tw=tr.left+tr.width+(W>=960?56:24),av=W-tw-24;AV=av;AV0=tw;D0=Math.min(av*1.18,Hh*1.0);CX=tw+av/2-D0*0.04;CY=Hh*0.5}
   else{D0=Math.min(W*0.94,Hh*0.56);CX=W/2;CY=Hh*0.32}
+  split=!wide&&W<760&&!/layout=overlay/.test(location.search);h.classList.toggle('split',split);
+  if(split){SH=Math.round(Hh*0.46);CY=(56+SH)/2;ZS=Math.min(1,(SH-56-14)/(D0*0.9))}
   var rs=0.41*D0;ret.style.width=rs+'px';ret.style.height=rs+'px';ret.style.left=(CX-rs/2)+'px';ret.style.top=(CY-rs/2)+'px';P.style.width=D0*1.3+'px';P.style.height=D0*1.3+'px';P.style.left=(CX-D0*0.65)+'px';P.style.top=(CY-D0*0.65)+'px';CELL=D0*0.30;ZR=wide?1.5:1.17;
   cam.style.width=D0+'px';cam.style.height=D0+'px';cam.style.left=(CX-D0/2)+'px';cam.style.top=(CY-D0/2)+'px';
   cv.width=W*DPR;cv.height=Hh*DPR;
@@ -307,10 +313,10 @@ html:not(.js) #stage,html:not(.js) .scrim,html:not(.js) #field,html:not(.js) #pu
   AC=wide?Math.min(D0*0.3,((W-RS-48)+(W-96-(W-RS-48))*cl)/6.4,(Hh-130)/(rows*1.3+0.4)):Math.min((W-24)/5.4,(Hh-210)/(rows*1.3+0.4));
   LX=AX+(11%cols-(cols-1)/2)*AC;LY=AY+(((11/cols)|0)-(rows-1)/2)*AC*1.3;
  }
- function atlasDraw(c2,ax,ay,cell,cols,a){
+ function atlasDraw(c2,ax,ay,cell,cols,a,live){
   var rows=30/cols,i,c,rr,x,y,RN=[.1,.2,.3,.4,.5,.6,.72,.86],col=['#8a5f22','#b8741f','#a9521c','#8a2327','#6a2a45','#3a4f8c','#4a6bb0','#6f8fd0'];
   c2.textAlign='center';c2.textBaseline='middle';
-  for(i=0;i<30;i++){if(i===11)continue;c=i%cols;rr=(i/cols)|0;x=ax+(c-(cols-1)/2)*cell;y=ay+(rr-(rows-1)/2)*cell*1.3;
+  for(i=0;i<30;i++){if(i===11&&!live)continue;c=i%cols;rr=(i/cols)|0;x=ax+(c-(cols-1)/2)*cell;y=ay+(rr-(rows-1)/2)*cell*1.3;
    for(var j=0;j<8;j++){c2.beginPath();c2.arc(x,y,cell*0.46*RN[j],0,6.2832);c2.lineWidth=j===7?1.2:Math.max(1,cell*0.035);c2.strokeStyle=j===7?'rgba(244,213,138,.8)':col[j];c2.globalAlpha=a*(j===7?.8:.55);c2.stroke()}
    c2.globalAlpha=a;c2.fillStyle='#ECE8DC';c2.font='600 '+Math.max(12,cell*0.13)+'px Cormorant,serif';c2.fillText(('0'+(i+1)).slice(-2),x,y+cell*0.72)}
   var lx=ax+(11%cols-(cols-1)/2)*cell,ly=ay+(((11/cols)|0)-(rows-1)/2)*cell*1.3;
@@ -324,7 +330,7 @@ html:not(.js) #stage,html:not(.js) .scrim,html:not(.js) #field,html:not(.js) #pu
   if(wide){cv2.style.display='none';return}
   cv2.style.display='block';var w=Math.min(W-40,420),cell=w/5.3,rows=6,h=Math.round(cell*(rows*1.3+0.6));
   cv2.style.width=w+'px';cv2.style.height=h+'px';cv2.width=w*DPR;cv2.height=h*DPR;
-  var c2=cv2.getContext('2d');c2.setTransform(DPR,0,0,DPR,0,0);c2.clearRect(0,0,w,h);atlasDraw(c2,w/2,h/2-cell*0.05,cell,5,1);
+  var c2=cv2.getContext('2d');c2.setTransform(DPR,0,0,DPR,0,0);c2.clearRect(0,0,w,h);atlasDraw(c2,w/2,h/2-cell*0.05,cell,5,1,true);
  }
  function draw(g,br,sy,at){
   var key=sy.toFixed(0)+'|'+g.toFixed(3)+'|'+br.toFixed(2)+'|'+at.toFixed(3)+'|'+AX.toFixed(0)+'|'+AY.toFixed(0)+'|'+AC.toFixed(0);if(key===lastDraw)return;lastDraw=key;
@@ -351,28 +357,29 @@ html:not(.js) #stage,html:not(.js) .scrim,html:not(.js) #field,html:not(.js) #pu
   var zt=Math.exp(lerp(Math.log(za),Math.log(zb),t)),at=lerp(v(A,'a',0),v(B,'a',0),t),lt=lerp(v(A,'lit',0),v(B,'lit',0),t);
   if(at>0.001){atlasGeom(lt);zt=Math.exp(lerp(Math.log(zt),Math.log(AC*0.9/(2.797*D0)),at))}
   if(!wide&&at>0.01){var mm=1-lt;zt=Math.exp(lerp(Math.log(zt),Math.log(0.38),clamp(at*mm,0,1)))}
-  return {z:zt,lit:lerp(v(A,'lit',0),v(B,'lit',0),t),g:lerp(v(A,'g',0),v(B,'g',0),t),dim:lerp(v(A,'dim',0),v(B,'dim',0),t),p:lerp(v(A,'p',0),v(B,'p',0),t),lb:lerp(v(A,'lb',0),v(B,'lb',0),t),w:lerp(WA[idxA],WA[idxB],t),rd:lerp(v(A,'rd',0),v(B,'rd',0),t),a:(wide?at:at*lt),araw:at,hl:t<.5?v(A,'hl',-1):v(B,'hl',-1)}
+  return {z:zt,lit:lerp(v(A,'lit',0),v(B,'lit',0),t),g:lerp(v(A,'g',0),v(B,'g',0),t),dim:lerp(v(A,'dim',0),v(B,'dim',0),t),p:lerp(v(A,'p',0),v(B,'p',0),t),lb:lerp(v(A,'lb',0),v(B,'lb',0),t),w:lerp(WA[idxA],WA[idxB],t),rd:lerp(v(A,'rd',0),v(B,'rd',0),t),sp:lerp(v(A,'sp',1),v(B,'sp',1),t),a:(wide?at:at*lt),araw:at,hl:t<.5?v(A,'hl',-1):v(B,'hl',-1)}
  }
  var cur=null,raf=0,lastT=0;
  function frame(now){
   raf=0;var tg=target(scrollY);
-  if(!cur||rm)cur={tv:0,z:tg.z,lit:tg.lit,g:tg.g,dim:tg.dim,p:tg.p,a:tg.a,lb:tg.lb,rd:tg.rd,w:tg.w,araw:tg.araw,hl:tg.hl};
+  if(!cur||rm)cur={tv:0,sp:1,z:tg.z,lit:tg.lit,g:tg.g,dim:tg.dim,p:tg.p,a:tg.a,lb:tg.lb,rd:tg.rd,sp:tg.sp,w:tg.w,araw:tg.araw,hl:tg.hl};
   else{var dt=Math.min(.05,(now-lastT)/1000||.016),k=1-Math.exp(-dt/.16);
-   cur.z=Math.exp(lerp(Math.log(cur.z),Math.log(tg.z),k));cur.lit=lerp(cur.lit,tg.lit,k);cur.g=lerp(cur.g,tg.g,k);cur.dim=lerp(cur.dim,tg.dim,k);cur.p=lerp(cur.p,tg.p,k);cur.a=lerp(cur.a,tg.a,k);cur.lb=lerp(cur.lb,tg.lb,k);cur.rd=lerp(cur.rd,tg.rd,k);cur.w=lerp(cur.w,tg.w,k);cur.araw=lerp(cur.araw||0,tg.araw,k);cur.hl=tg.hl}
+   cur.z=Math.exp(lerp(Math.log(cur.z),Math.log(tg.z),k));cur.lit=lerp(cur.lit,tg.lit,k);cur.g=lerp(cur.g,tg.g,k);cur.dim=lerp(cur.dim,tg.dim,k);cur.p=lerp(cur.p,tg.p,k);cur.a=lerp(cur.a,tg.a,k);cur.lb=lerp(cur.lb,tg.lb,k);cur.rd=lerp(cur.rd,tg.rd,k);cur.sp=lerp(cur.sp==null?1:cur.sp,tg.sp,k);cur.w=lerp(cur.w,tg.w,k);cur.araw=lerp(cur.araw||0,tg.araw,k);cur.hl=tg.hl}
   var vt=scrollY-0.04*Hh,vb=scrollY+Hh*1.02,tvT=0;for(var q=0;q<TB.length;q++){if(TB[q][1]>vt&&TB[q][0]<vb){tvT=1;break}}
   cur.tv=rm?tvT:lerp(cur.tv==null?0:cur.tv,tvT,1-Math.exp(-Math.min(.05,(now-lastT)/1000||.016)/(tvT>(cur.tv||0)?.15:.7)));
   var litE=rm?0:cur.lit*(1-cur.tv);
-  var dg=Math.abs(Math.log(cur.z/tg.z))+Math.abs(cur.g-tg.g)+Math.abs(cur.dim-tg.dim)+Math.abs(cur.lit-tg.lit)+Math.abs(cur.p-tg.p)+Math.abs(cur.a-tg.a)+Math.abs(cur.lb-tg.lb)+Math.abs(cur.tv-tvT)+Math.abs(cur.w-tg.w)+Math.abs(cur.rd-tg.rd)+Math.abs((cur.araw||0)-tg.araw);
-  if(dg<0.004){cur.z=tg.z;cur.lit=tg.lit;cur.g=tg.g;cur.dim=tg.dim;cur.p=tg.p;cur.a=tg.a;cur.lb=tg.lb;cur.rd=tg.rd;cur.w=tg.w;cur.araw=tg.araw;cur.tv=tvT}
+  var dg=Math.abs(Math.log(cur.z/tg.z))+Math.abs(cur.g-tg.g)+Math.abs(cur.dim-tg.dim)+Math.abs(cur.lit-tg.lit)+Math.abs(cur.p-tg.p)+Math.abs(cur.a-tg.a)+Math.abs(cur.lb-tg.lb)+Math.abs(cur.tv-tvT)+Math.abs(cur.w-tg.w)+Math.abs(cur.rd-tg.rd)+Math.abs(cur.sp-tg.sp)+Math.abs((cur.araw||0)-tg.araw);
+  if(dg<0.004){cur.z=tg.z;cur.lit=tg.lit;cur.g=tg.g;cur.dim=tg.dim;cur.p=tg.p;cur.a=tg.a;cur.lb=tg.lb;cur.rd=tg.rd;cur.sp=tg.sp;cur.w=tg.w;cur.araw=tg.araw;cur.tv=tvT}
   lastT=now;
-  var z=cur.z,base=wide?0.94:lerp(0.45,1,litE),op=Math.min(1,base*(1-cur.dim*0.98)*(1-cur.rd*(wide?0.6:1)));
-  var cl=Math.max(litE,wide?cur.g:0),dx0=wide?(W/2-CX)*cl:0,dy0=(Hh*0.5-CY)*cl*(wide?0:1),dx=lerp(dx0,LX-CX,cur.a),dy=lerp(dy0,LY-CY,cur.a);CXe=CX+dx;CYe=CY+dy;var tr='translate('+dx.toFixed(1)+'px,'+dy.toFixed(1)+'px) ';cam.style.transform=tr+'scale('+z.toFixed(4)+')';cam.style.opacity=op.toFixed(3);cam.style.visibility=op<0.03?'hidden':'visible';
+  var tvS=split?cur.tv*cur.sp:0,z=cur.z*(split?lerp(1,ZS,tvS):1),base=wide?0.94:lerp(0.45,1,litE),op=split?Math.min(1,1-cur.dim*0.98):Math.min(1,base*(1-cur.dim*0.98)*(1-cur.rd*(wide?0.6:1)));
+  var cl=Math.max(litE,wide?cur.g:0),dx0=wide?(W/2-CX)*cl:0,dy0=(Hh*0.5-CY)*(split?(1-tvS):cl*(wide?0:1)),dx=lerp(dx0,LX-CX,cur.a),dy=lerp(dy0,LY-CY,cur.a);CXe=CX+dx;CYe=CY+dy;var tr='translate('+dx.toFixed(1)+'px,'+dy.toFixed(1)+'px) ';cam.style.transform=tr+'scale('+z.toFixed(4)+')';cam.style.opacity=op.toFixed(3);cam.style.visibility=op<0.03?'hidden':'visible';
   var dp=clamp((z-3.1)/0.5,0,1),dpe=d.getElementById('deep');dpe.style.opacity=dp.toFixed(3);dpe.style.visibility=dp>0?'visible':'hidden';var co=clamp((z-2.75)/0.5,0,1);core.style.opacity=co.toFixed(3);core.style.visibility=co>0?'visible':'hidden';
   var lo=clamp((1-z)/0.3,0,1);emb.style.opacity=lo.toFixed(3);emb.style.visibility=lo>0?'visible':'hidden';logo.style.opacity=lo.toFixed(3);logo.style.visibility=(lo>0&&cur.w>0.002)?'visible':'hidden';logo.style.setProperty('--wr',(cur.w*1.0).toFixed(3));
   hl.style.opacity=(cur.hl>=0&&z<2.6)?1:0;hl.style.visibility=hl.style.opacity==='1'?'visible':'hidden';
   rings.forEach(function(g,j){g.style.opacity=j===cur.hl?1:0});
   lis.forEach(function(li){li.classList.toggle('on',cur.hl>=0&&+li.getAttribute('data-hl')===cur.hl)});
-  scrim.style.opacity=((1-litE)*(1-0.5*clamp(-cur.rd,0,1))).toFixed(3);
+  if(split){mainEl.style.zIndex=cur.sp<0.5?'8':'';scrim.style.opacity=((1-cur.sp)*(1-litE)*0.85).toFixed(3);var cb=Math.round(Hh-lerp(Hh,SH,tvS))+'px',cp='inset(0 0 '+cb+' 0)';stage.style.clipPath=cp;cv.style.clipPath=cp;curtain.style.clipPath=cp}
+  if(!split)scrim.style.opacity=((1-litE)*(1-0.5*clamp(-cur.rd,0,1))).toFixed(3);
   var sy='scaleY('+(cur.lb*(1-cur.tv)).toFixed(3)+')';lbt.style.transform=sy;lbb.style.transform=sy;
   var zr=cur.z/(ZR>1&&cur.z<0.9?ZR:1),h1,h2;
   if((wide?cur.a:cur.araw)>0.5){h1='Figure 3: The atlas';h2='30 sectors, 1 mapped'}else if(cur.g>0.5){h1='Figure 1b: The examples';h2='30 sectors × 90 = 2,700'}else if(lo>0.05){h1='Figure 2: Fractal²';h2=cur.w>0.4?'335 tactics, one sector':'the same eight stages'}else{h1='Figure 1: The Fractal';h2='30 techniques, eight stages'}
