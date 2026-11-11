@@ -1,0 +1,203 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>Fractal² · The closer you look, the more there is</title>
+<meta name="description" content="A map of how manipulation repeats at every scale. Redesign slice, Direction A: The Survey.">
+<style>
+@font-face{font-family:"Fraunces";src:url(fonts/fraunces.woff2) format("woff2");font-weight:100 900;font-style:normal;font-display:swap}
+@font-face{font-family:"Fraunces";src:url(fonts/fraunces-italic.woff2) format("woff2");font-weight:100 900;font-style:italic;font-display:swap}
+@font-face{font-family:"Plex Mono";src:url(fonts/plexmono-regular.woff2) format("woff2");font-weight:400;font-display:swap}
+@font-face{font-family:"Plex Mono";src:url(fonts/plexmono-medium.woff2) format("woff2");font-weight:500;font-display:swap}
+:root{
+  --bg:#EFEBE1;--bg2:#E5DFD0;--ink:#14181F;--ink2:#3A414C;--ink3:#59616D;--line:#C2BAA6;--acc:#B8361C;
+  --s0:#B98512;--s1:#C2701A;--s2:#C4492A;--s3:#B52F55;--s4:#8A3F95;--s5:#4F57B8;--s6:#2F77A8;--s7:#5E7F8F;
+  --ease:cubic-bezier(.16,1,.3,1);--bar:56px;color-scheme:light dark}
+@media (prefers-color-scheme:dark){:root:not([data-theme=light]){
+  --bg:#0E1420;--bg2:#151D2E;--ink:#ECE8DC;--ink2:#C3BFB3;--ink3:#A5A298;--line:#2C374D;--acc:#FF7A5C;
+  --s0:#F2C14E;--s1:#F09A3E;--s2:#E8683F;--s3:#D9486A;--s4:#B061B4;--s5:#7B83E0;--s6:#58A3D6;--s7:#8FB3C2}}
+:root[data-theme=dark]{
+  --bg:#0E1420;--bg2:#151D2E;--ink:#ECE8DC;--ink2:#C3BFB3;--ink3:#A5A298;--line:#2C374D;--acc:#FF7A5C;
+  --s0:#F2C14E;--s1:#F09A3E;--s2:#E8683F;--s3:#D9486A;--s4:#B061B4;--s5:#7B83E0;--s6:#58A3D6;--s7:#8FB3C2}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth;-webkit-text-size-adjust:100%}
+@media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:"Fraunces",Georgia,serif;font-optical-sizing:auto;font-size:19px;line-height:1.62;font-weight:380;text-rendering:optimizeLegibility;-webkit-font-smoothing:antialiased}
+.mono,.kick,.k{font-family:"Plex Mono",ui-monospace,Menlo,monospace;font-size:12px;font-weight:500;letter-spacing:.09em;text-transform:uppercase;color:var(--ink3)}
+.skip{position:absolute;left:-999px;top:8px;background:var(--bg);color:var(--ink);padding:10px 14px;z-index:99}.skip:focus{left:8px}
+:focus-visible{outline:2px solid var(--acc);outline-offset:3px}
+/* bar: opaque, always clear of content */
+.bar{position:fixed;inset:0 0 auto 0;height:var(--bar);z-index:50;background:var(--bg);border-bottom:1px solid var(--line);display:flex;align-items:center;gap:10px;padding:0 max(14px,env(safe-area-inset-right)) 0 max(14px,env(safe-area-inset-left))}
+.bar .mark{display:inline-flex;align-items:center;min-height:44px;font-size:22px;font-weight:400;letter-spacing:-.02em;margin-right:auto;color:var(--ink);text-decoration:none}
+.btn{min-height:44px;min-width:44px;padding:0 14px;border:1px solid var(--line);background:transparent;color:var(--ink);font:500 12px/1 "Plex Mono",monospace;letter-spacing:.09em;text-transform:uppercase;border-radius:4px;cursor:pointer}
+.btn.leave{background:var(--acc);border-color:var(--acc);color:var(--bg)}
+/* left scale ruler: the signature, always present */
+.ruler{position:fixed;left:0;top:var(--bar);bottom:0;width:8px;z-index:40;pointer-events:none;background:repeating-linear-gradient(to bottom,var(--ink3) 0 1px,transparent 1px 24px) left top/5px 100% no-repeat}
+.ruler i{position:absolute;left:0;width:8px;height:3px;background:var(--acc);top:calc(var(--rp,0)*(100% - 3px))}
+/* title plate */
+.title{min-height:100svh;display:grid;grid-template-rows:var(--bar) 1fr}
+.title .in{grid-row:2;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:10px;padding:8px 24px 36px 24px;text-align:center}
+.emblem{width:min(86vw,47svh,540px);height:auto;display:block;aspect-ratio:1/1}
+.word{font-size:clamp(58px,16vw,172px);font-weight:300;letter-spacing:-.035em;line-height:.95;margin:6px 0 0;font-variation-settings:"opsz" 144}
+.tag{font-style:italic;font-size:clamp(20px,3.2vw,28px);color:var(--ink2);margin:4px 0 8px;max-width:22ch;text-wrap:balance}
+.cue{display:inline-flex;align-items:center;gap:10px;min-height:48px;padding:0 22px;border:1.5px solid var(--acc);color:var(--acc);border-radius:4px;text-decoration:none;font:500 13px/1 "Plex Mono",monospace;letter-spacing:.1em;text-transform:uppercase}
+/* figure grammar: bands with body, ticks, hairline guides */
+.band{fill:none;stroke:var(--c);stroke-linecap:butt;transition:opacity .5s var(--ease),stroke-width .5s var(--ease)}
+.tick{stroke:var(--c);stroke-width:2.4;stroke-linecap:round;transition:opacity .5s var(--ease)}
+.s0{--c:var(--s0)}.s1{--c:var(--s1)}.s2{--c:var(--s2)}.s3{--c:var(--s3)}.s4{--c:var(--s4)}.s5{--c:var(--s5)}.s6{--c:var(--s6)}.s7{--c:var(--s7)}
+.guide{fill:none;stroke:var(--line);stroke-width:1}.cross{stroke:var(--ink3);stroke-width:1;opacity:.5}.minor{stroke:var(--ink3);stroke-width:1;opacity:.6}
+.core{fill:var(--acc)}
+.num{font:500 20px "Plex Mono",monospace;fill:var(--ink3)}
+.cname{font:400 34px "Fraunces",serif;fill:var(--ink)}.cof{font:500 16px "Plex Mono",monospace;letter-spacing:.08em;fill:var(--ink3);text-transform:uppercase}
+.zlabel{margin:0;flex:none;align-self:flex-start;font:500 15px/1.2 "Plex Mono",monospace;letter-spacing:.09em;text-transform:uppercase;color:var(--ink2)}
+@media (prefers-reduced-motion:no-preference){
+ .emblem .band{stroke-dasharray:1;stroke-dashoffset:1;animation:draw 1s var(--ease) forwards}
+ .emblem .band.s1{animation-delay:.07s}.emblem .band.s2{animation-delay:.14s}.emblem .band.s3{animation-delay:.21s}.emblem .band.s4{animation-delay:.28s}.emblem .band.s5{animation-delay:.35s}.emblem .band.s6{animation-delay:.42s}.emblem .band.s7{animation-delay:.49s}
+ .emblem .tick{opacity:0;animation:fade .5s .9s forwards}}
+@keyframes draw{to{stroke-dashoffset:0}}@keyframes fade{to{opacity:1}}
+/* reading screens: type only */
+.read{padding:calc(var(--bar) + 56px) 0 72px}
+.col{max-width:36rem;margin:0 auto;padding:0 24px 0 28px}
+.read h2{font-size:clamp(46px,9.4vw,92px);line-height:1;font-weight:300;letter-spacing:-.035em;margin:.12em 0 .5em;font-variation-settings:"opsz" 144;font-variant-numeric:lining-nums;text-wrap:balance}
+.read p{margin:0 0 1.15em}
+.read em{font-style:italic}.big{font-size:clamp(26px,4.2vw,36px);line-height:1.2;font-style:italic;margin:1.1em 0 .7em;font-weight:340;color:var(--ink)}
+/* plates: stage and text never share pixels */
+.plate{position:relative;height:calc(var(--n,3)*58svh + 100svh)}
+.plate .sticky{position:sticky;top:0;height:100svh;display:grid;grid-template-rows:var(--bar) minmax(0,1fr) auto;gap:12px;padding:0 18px calc(18px + env(safe-area-inset-bottom)) 30px}
+.plate .stage{grid-row:2;min-height:0;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:8px}
+.plate .cap{margin:0;align-self:flex-start;flex:none}
+.plate .fig{flex:1 1 0;min-height:0;height:100%;width:auto;max-width:100%;aspect-ratio:1/1;display:block}
+.plate .card{grid-row:3;background:none;border:0;border-left:2px solid var(--acc);border-radius:0;padding:4px 0 6px 16px;min-height:132px}
+.steps{list-style:none;margin:0;padding:0}.steps p{margin:0}.steps .k{margin-bottom:6px}
+.steps b{font-weight:600}
+.js .steps li{display:none}.js .steps li.on{display:block}
+html:not(.js) .plate{height:auto}html:not(.js) .plate .sticky{position:static;height:auto;padding-top:var(--bar)}html:not(.js) .plate .fig{height:auto;width:100%;max-width:520px}
+@media (min-width:960px){
+ .plate .sticky{grid-template-columns:minmax(0,35rem) minmax(0,1fr);grid-template-rows:var(--bar) minmax(0,1fr);column-gap:64px;padding:0 56px 36px 64px}
+ .plate .stage{grid-column:2;grid-row:2}
+ .plate .card{grid-column:1;grid-row:2;align-self:center;min-height:0;padding:6px 0 6px 28px;font-size:22px;line-height:1.5}
+ .plate .card .k{margin-bottom:12px}}
+/* zoom plate: one camera, the same ring at three scales */
+#zg{transform:scale(var(--zs,.92));transform-origin:0 0;will-change:transform}
+#zm{-webkit-mask-image:radial-gradient(closest-side,#000 88%,transparent 100%);mask-image:radial-gradient(closest-side,#000 88%,transparent 100%)}
+.lv{transition:opacity .7s var(--ease)}.lv:not(.on){opacity:0}.lv.on.past{opacity:.4}.lv .band,.lv .tick{transition:none}
+.cycle .band{opacity:.17}.cycle .band.on{opacity:1}.cycle .band.cur{stroke-width:40}
+.cycle .tick{opacity:.22}.cycle .tick.on{opacity:1}
+@media (prefers-reduced-motion:reduce){#zg,.band,.tick{transition:none}}
+/* door */
+.door .col{max-width:60rem}
+.door h2{max-width:14ch}
+.door .lit-wrap{margin:36px 0 28px}
+.enter{display:block;border-top:2px solid var(--acc);border-bottom:1px solid var(--line);padding:22px 0 24px;color:var(--ink);text-decoration:none}
+.enter .n{display:block;margin-bottom:8px}.enter .t{display:block;font-size:clamp(30px,6vw,52px);line-height:1.05;letter-spacing:-.02em;font-weight:320}.enter .m{display:block;margin-top:10px}
+.atlas{list-style:none;margin:0;padding:0;columns:2;column-gap:28px}
+@media (min-width:700px){.atlas{columns:4}}
+.atlas li{break-inside:avoid;padding:6px 0;font:500 12px/1.35 "Plex Mono",monospace;letter-spacing:.04em;color:var(--ink3);overflow-wrap:anywhere;display:flex;gap:10px}
+.atlas .n{color:var(--ink3);flex:none}.atlas .t{color:var(--ink2)}.atlas .here .t{color:var(--ink)}.atlas .here b{color:var(--acc);font-weight:400}
+.enter .m{color:var(--ink2)}.enter .m::before{content:"";display:inline-block;width:8px;height:8px;border-radius:50%;background:var(--acc);margin-right:8px}
+.note{padding:28px 24px 48px 32px;max-width:40rem;margin:0 auto}
+</style>
+</head>
+<body>
+<a class="skip" href="#p1">Skip to the text</a>
+<header class="bar">
+  <a class="mark" href="#top" aria-label="Fractal squared, back to the top">Fractal²</a>
+  <button class="btn" id="theme" type="button" aria-label="Switch light or dark">Dark</button>
+  <button class="btn leave" id="leave" type="button" aria-label="Leave this site now. Escape pressed twice also leaves.">Leave</button>
+</header>
+<div class="ruler" aria-hidden="true"><i></i></div>
+<main id="main">
+
+<section class="title" id="top" aria-label="Title">
+  <div class="in">
+    <p class="mono kick">Noble Father Creations · Shae Stovell</p>
+    %%EMBLEM%%
+    <h1 class="word">Fractal²</h1>
+    <p class="tag">The closer you look, the more there is.</p>
+    <a class="cue" href="#p1">Begin <span aria-hidden="true">↓</span></a>
+  </div>
+</section>
+
+<section class="read" id="p1"><div class="col">
+  <p class="kick">Part I</p>
+  <h2>The feeling without a name</h2>
+  <p>There is a feeling almost everyone knows and almost no one can name.</p>
+  <p>It is the tightening in your stomach in a room where everyone else seems fine. It is the moment your own words come out wrong and you cannot say why. It is the apology you hear yourself making for something that was done to you.</p>
+  <p>You leave the relationship that hollowed you out, and you meet the same feeling at work. You leave the job, and it is waiting at the bank, at the clinic, in the pew, on the screen in your hand at two in the morning. It follows you from building to building. And because it follows you, you reach the only conclusion that seems to fit.</p>
+  <p class="big">It must be me.</p>
+  <p><em>The Fractal</em> began as a refusal of that conclusion. It asked one question and would not let it go.</p>
+  <p class="big">What if it isn't you?</p>
+  <p>What if the thing that breaks a person inside one relationship is not a private wound at all, but a shape? And what if you keep meeting it in every building because it is the same shape in every building?</p>
+</div></section>
+
+<section class="read" id="p2"><div class="col">
+  <p class="kick">Part II</p>
+  <h2>What <em>The Fractal</em> saw</h2>
+  <p>A fractal is a pattern that repeats at every scale. A fern's leaf is a small fern. A river delta looks like the veins of the leaf beside it. Break off any piece, look closely, and you find the whole.</p>
+  <p>The cycle that runs inside a manipulative relationship is that kind of shape. It has eight stages, and they arrive in order.</p>
+</div></section>
+
+<section class="plate" id="cycle" data-n="8" style="--n:8" aria-label="The eight stages">
+  <div class="sticky">
+    <div class="stage"><p class="cap kick">Plate 1 · The cycle</p>%%CYCLE_SVG%%</div>
+    <div class="card"><ol class="steps">%%CYCLE_STEPS%%</ol></div>
+  </div>
+</section>
+
+<section class="read" id="p3"><div class="col">
+  <p>Thirty techniques carry a person through those eight stages, from the love bombing at the door to the plausible deniability on the way out. I mapped all thirty, in the order they run.</p>
+  <p>Then I showed every one of them at three levels of scale.</p>
+</div></section>
+
+<section class="plate" id="zoom" data-n="3" style="--n:3" aria-label="Three levels of scale">
+  <div class="sticky">
+    <div class="stage"><p class="cap kick">Plate 2 · The same shape at three scales</p><p id="z-name" class="zlabel" aria-live="off">three scales</p>%%ZOOM_SVG%%</div>
+    <div class="card"><ol class="steps">%%ZOOM_STEPS%%</ol></div>
+  </div>
+</section>
+
+<section class="read door" id="door"><div class="col">
+  <p class="kick">The door</p>
+  <h2>%%NSECT%% sectors. One mapped in full.</h2>
+  <p>Entertainment &amp; Music is built: 335 tactics, 153 patterns, and three ways to read each one. The others are waiting.</p>
+  %%ENTER%%
+  <ul class="atlas" aria-label="The other sectors, waiting">
+%%ATLAS%%
+  </ul>
+</div></section>
+
+</main>
+<footer class="note mono">Redesign slice, Direction A: The Survey. A prototype for review; not deployed. Part VI (the owner's account) is deliberately not part of this slice.</footer>
+<script>
+(function(){
+ var d=document,h=d.documentElement;h.classList.add('js');
+ var th=d.getElementById('theme');
+ function cur(){return h.getAttribute('data-theme')||(matchMedia('(prefers-color-scheme:dark)').matches?'dark':'light')}
+ function lab(){th.textContent=cur()==='dark'?'Light':'Dark'}
+ th.addEventListener('click',function(){h.setAttribute('data-theme',cur()==='dark'?'light':'dark');lab()});lab();
+ function leave(){try{d.body.innerHTML=''}catch(e){}location.replace('about:blank')}
+ d.getElementById('leave').addEventListener('click',leave);
+ var last=0;addEventListener('keydown',function(e){if(e.key==='Escape'){var n=Date.now();if(n-last<600)leave();last=n}});
+ var plates=[].slice.call(d.querySelectorAll('.plate')),ruler=d.querySelector('.ruler');
+ var rm=matchMedia('(prefers-reduced-motion:reduce)').matches,zg=d.getElementById('zg'),cyc=d.getElementById('cyc'),cname=d.getElementById('c-name'),cof=d.getElementById('c-of'),zm=d.getElementById('zm'),zname=d.getElementById('z-name');
+ var CYC=['Idealize','Hook','Devalue','Confuse','Isolate','Extract','Discard','Replace'],ZN=['one life','an institution','a civilization'];
+ function apply(p,s){
+  [].forEach.call(p.querySelectorAll('.steps li'),function(li,i){li.classList.toggle('on',i===s)});
+  if(p.id==='cycle'){for(var i=0;i<8;i++){[].forEach.call(cyc.querySelectorAll('.s'+i),function(e){e.classList.toggle('on',i<=s);e.classList.toggle('cur',i===s&&e.classList.contains('band'))})}
+   cname.textContent=CYC[s];cof.textContent=''}
+  if(p.id==='zoom'){[].forEach.call(zm.querySelectorAll('.lv'),function(g,i){g.classList.toggle('on',i<=s);g.classList.toggle('past',i<s)});zname.textContent=ZN[s]}
+ }
+ function update(){
+  var vh=innerHeight;
+  plates.forEach(function(p){var r=p.getBoundingClientRect(),n=+p.dataset.n,t=r.height-vh,pr=t>0?Math.min(1,Math.max(0,-r.top/t)):0,s=Math.min(n-1,Math.floor(pr*n+1e-6));
+   if(p.dataset.step!==String(s)){p.dataset.step=s;apply(p,s)}
+   if(p.id==='zoom'){var z=rm?[2.3,1.3,.92][s]:Math.exp(Math.log(2.3)+(Math.log(.92)-Math.log(2.3))*pr);zg.style.setProperty('--zs',z.toFixed(4))}});
+  var mx=h.scrollHeight-vh;ruler.style.setProperty('--rp',mx>0?Math.min(1,scrollY/mx):0)
+ }
+ var q=false;function on(){if(!q){q=true;requestAnimationFrame(function(){q=false;update()})}}
+ addEventListener('scroll',on,{passive:true});addEventListener('resize',on);update();
+})();
+</script>
+</body>
+</html>

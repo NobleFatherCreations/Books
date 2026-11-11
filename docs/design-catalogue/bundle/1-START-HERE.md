@@ -1,6 +1,6 @@
 # Design System: START HERE
 
-*Bundle generated 2026-11-10 from `docs/design-catalogue/` in the Noble Father Creations Books repository.*
+*Bundle generated 2026-11-11 from `docs/design-catalogue/` in the Noble Father Creations Books repository.*
 
 > **File names inside this bundle.** The sources refer to numbered files in the repo folder `docs/design-catalogue/`. In this bundle they live here: **00 README, 01-05, 06 names bible, 07 rules, 09 winners, 10 gaps, 11 resources, 12 v2 improvements, 13 books playbook** are sections of documents 2-5 (see each document's contents). `COVERAGE-TEMPLATE`, `templates/*` and `PROMPT-MASTER` are inside documents 1 and 3. Scripts are in `code/`. In the repository the originals are separate files and are the editable source.
 

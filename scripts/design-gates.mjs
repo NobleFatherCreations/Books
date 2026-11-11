@@ -70,7 +70,7 @@ const probe = ({ stage, phone }) => {
   const isBar = (el) => { let p = el; while (p && p !== document.body) { const c = getComputedStyle(p); if (c.position === 'fixed' || c.position === 'sticky') {
       const m = c.backgroundColor.match(/[\d.]+/g) || []; const a = m.length === 4 ? +m[3] : (c.backgroundColor === 'transparent' ? 0 : 1);
       if (a >= 0.9 || /blur/.test(c.backdropFilter || c.webkitBackdropFilter || '')) return true; } p = p.parentElement; } return false; };
-  const f = { figText: [], bleed: [], textText: [], hidden: [], header: null, tiny: [], taps: [], anims: 0, texts: [] };
+  const f = { figText: [], svgLabel: [], bleed: [], textText: [], hidden: [], header: null, tiny: [], taps: [], anims: 0, texts: [] };
   for (const t of texts) {
     const area = t.r.width * t.r.height;
     for (const g of figs) {
@@ -90,6 +90,16 @@ const probe = ({ stage, phone }) => {
     let hit = false;
     for (const la of A.lines) { for (const lb of B.lines) { const i = inter(la, lb), m = Math.min(la.width * la.height, lb.width * lb.height); if (m > 0 && i / m > 0.25) { hit = true; break; } } if (hit) break; }
     if (hit) f.textText.push(label(A.el) + '  OVER  ' + label(B.el));
+  }
+  // labels INSIDE a figure (SVG text) that cross the figure's own shapes: element-box tests cannot see these
+  for (const el of document.querySelectorAll('svg text')) {
+    const r = vis(el); if (!r || r.width < 10) continue;
+    let hits = 0; const nx = 6, ny = 3;
+    for (let ix = 0; ix < nx; ix++) for (let iy = 0; iy < ny; iy++) {
+      const x = r.left + (ix + 0.5) * r.width / nx, y = r.top + (iy + 0.5) * r.height / ny;
+      if (document.elementsFromPoint(x, y).some((e) => e !== el && e.ownerSVGElement && /^(path|line|circle|rect|polygon|polyline|ellipse)$/i.test(e.tagName) && !e.classList.contains('guide') && !e.classList.contains('cross') && !e.classList.contains('minor') && +getComputedStyle(e).opacity > 0.12)) hits++;
+    }
+    if (hits >= 3) f.svgLabel.push(label(el) + ' crosses figure shapes (' + hits + '/' + nx * ny + ' sample points)');
   }
   const hdr = [...document.querySelectorAll('header,nav,[class*=header],[class*=topbar]')].map((el) => ({ el, cs: getComputedStyle(el), r: el.getBoundingClientRect() }))
     .find((x) => (x.cs.position === 'fixed' || x.cs.position === 'sticky') && x.r.top <= 8 && x.r.height < 160 && x.r.width > vw * 0.5);
@@ -112,7 +122,8 @@ const probe = ({ stage, phone }) => {
     const cs = getComputedStyle(t.el); const fs = parseFloat(cs.fontSize);
     if (fs < (phone ? 12 : 11)) f.tiny.push(label(t.el) + ' ' + fs + 'px');
     const m = cs.color.match(/[\d.]+/g) || [0, 0, 0];
-    if (f.texts.length < 90 && t.r.width > 16) f.texts.push({ x: t.r.left, y: t.r.top, w: t.r.width, h: t.r.height, color: [+m[0], +m[1], +m[2]], fs, fw: +cs.fontWeight || 400, label: label(t.el) });
+    const underBar = hdr && (hdr.cs.position === 'fixed' || hdr.cs.position === 'sticky') && (((m0) => (m0.length === 4 ? +m0[3] : (hdr.cs.backgroundColor === 'transparent' ? 0 : 1)))(hdr.cs.backgroundColor.match(/[\d.]+/g) || []) >= 0.9) && (t.r.top + t.r.height / 2) < hdr.r.bottom && !hdr.el.contains(t.el);
+    if (!underBar && f.texts.length < 90 && t.r.width > 16) f.texts.push({ x: t.r.left, y: t.r.top, w: t.r.width, h: t.r.height, color: [+m[0], +m[1], +m[2]], fs, fw: +cs.fontWeight || 400, label: label(t.el) });
   }
   if (phone) for (const el of document.querySelectorAll('a,button,input,select,summary,[role=button]')) {
     const r = vis(el); if (r && (r.width < 40 || r.height < 40) && (el.textContent || '').trim().length) f.taps.push(label(el) + ' ' + Math.round(r.width) + 'x' + Math.round(r.height));
@@ -156,10 +167,11 @@ for (const name of PROFILES) {
   page.on('response', (r) => { if (r.status() >= 400 && !/cloudflareinsights/.test(r.url())) errors.push(r.status() + ' ' + r.url().slice(0, 100)); });
   page.on('request', (rq) => { const u = rq.url(); if (!u.startsWith(origin) && !u.startsWith('data:') && !u.startsWith('blob:') && !/cloudflareinsights/.test(u)) external.add(u.slice(0, 100)); });
   await page.goto(url, { waitUntil: 'networkidle', timeout: 60000 }).catch(() => {});
+  await page.addStyleTag({ content: 'html{scroll-behavior:auto !important}' }).catch(() => {});   // measure positions and pixels at the same instant
   await page.waitForTimeout(1200);
   if (DARKJS && name.includes('dark')) { await page.evaluate(DARKJS).catch(() => {}); await page.waitForTimeout(600); }
   const dir = path.join(out, name); fs.rmSync(dir, { recursive: true, force: true }); fs.mkdirSync(dir, { recursive: true });
-  const R = { steps: 0, bleed: {}, hidden: {}, figText: {}, textText: {}, headerThin: 0, headerOver: 0, tiny: {}, taps: {}, maxAnims: 0 };
+  const R = { steps: 0, svgLabel: {}, bleed: {}, hidden: {}, figText: {}, textText: {}, headerThin: 0, headerOver: 0, tiny: {}, taps: {}, maxAnims: 0 };
   const total = await page.evaluate(() => document.documentElement.scrollHeight);
   const vh = S.viewport.height; const n = Math.min(MAX, Math.ceil(total / (vh * STEP)));
   for (let i = 0; i < n; i++) {
@@ -170,6 +182,7 @@ for (const name of PROFILES) {
     f.figText.forEach((k) => (R.figText[k] = (R.figText[k] || 0) + 1));
     f.textText.forEach((k) => (R.textText[k] = (R.textText[k] || 0) + 1));
     f.bleed.forEach((k) => (R.bleed[k] = (R.bleed[k] || 0) + 1)); f.hidden.forEach((k) => (R.hidden[k] = (R.hidden[k] || 0) + 1));
+    f.svgLabel.forEach((k) => (R.svgLabel[k] = (R.svgLabel[k] || 0) + 1));
     f.tiny.forEach((k) => (R.tiny[k] = 1)); f.taps.forEach((k) => (R.taps[k] = 1));
     if (f.header && f.header.alpha < 0.8 && !f.header.blur && f.headerOver) R.headerThin++;
     R.headerOver += f.headerOver || 0; R.maxAnims = Math.max(R.maxAnims, f.anims);
@@ -232,6 +245,8 @@ for (const name of PROFILES) {
   const nFT = Object.keys(R.figText).length, nTT = Object.keys(R.textText).length;
   if (nFT) problems.push(['FAIL', `figure/text overlap in ${nFT} place(s)`, Object.keys(R.figText).slice(0, 6)]);
   if (nTT) problems.push(['FAIL', `text over text in ${nTT} place(s)`, Object.keys(R.textText).slice(0, 6)]);
+  const nSL = Object.keys(R.svgLabel).length;
+  if (nSL) problems.push(['FAIL', `${nSL} label(s) inside a figure cross the figure's own shapes`, Object.keys(R.svgLabel).slice(0, 4)]);
   if (end.overflow) problems.push(['FAIL', 'horizontal overflow']);
   if (errors.length) problems.push(['FAIL', 'page/console errors', errors.slice(0, 4)]);
   if (external.size) problems.push(['FAIL', 'external requests', [...external].slice(0, 4)]);
