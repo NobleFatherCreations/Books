@@ -1,0 +1,318 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>Fractal² · The closer you look, the more there is</title>
+<meta name="description" content="A seven-minute scroll film about the shape that repeats in every room, the map that takes it apart, and the one light it never reached.">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Fractal²: the closer you look, the more there is">
+<meta property="og:description" content="A seven-minute scroll film about the shape that repeats in every room, the map that takes it apart, and the one light it never reached.">
+<meta property="og:image" content="https://fractal-entertainment.netlify.app/fractal2/_a/v9/og.jpg">
+<meta property="og:image:width" content="1200"><meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="theme-color" content="#05070d">
+<link rel="icon" href="%%BASE%%favicon.ico">
+<link rel="preload" as="font" type="font/woff2" crossorigin href="%%BASE%%fonts/cormorant.woff2">
+<link rel="preload" as="image" imagesrcset="%%BASE%%img/orig-core-m.webp 2048w, %%BASE%%img/orig-core.webp 3072w" imagesizes="(max-width:899px) 600px, 2800px">
+<style>
+@font-face{font-family:"Cormorant";src:url(%%BASE%%fonts/cormorant.woff2) format("woff2");font-weight:300 700;font-style:normal;font-display:swap}
+@font-face{font-family:"Cormorant";src:url(%%BASE%%fonts/cormorant-italic.woff2) format("woff2");font-weight:300 700;font-style:italic;font-display:swap}
+@font-face{font-family:"Source Serif";src:url(%%BASE%%fonts/sourceserif4.woff2) format("woff2");font-weight:300 700;font-style:normal;font-display:swap}
+@font-face{font-family:"Source Serif";src:url(%%BASE%%fonts/sourceserif4-italic.woff2) format("woff2");font-weight:300 700;font-style:italic;font-display:swap}
+:root{--bg:#05070d;--ink:#F3ECD9;--ink2:#CFC8B6;--line:#2A3350;--bar:56px;color-scheme:dark}
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%;font-variant-numeric:lining-nums;scroll-padding-top:calc(var(--bar) + 16px)}
+html.locked,html.locked body{overflow:hidden;height:100%;touch-action:none}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:"Source Serif",Georgia,serif;font-size:1.125rem;line-height:1.6;-webkit-font-smoothing:antialiased}
+.sr{position:absolute;left:-9999px;top:auto;width:1px;height:1px;overflow:hidden}
+.skip{position:fixed;left:-999px;top:8px;background:var(--bg);color:var(--ink);padding:10px 14px;z-index:99}.skip:focus{left:8px}
+:focus-visible{outline:2px solid var(--ink);outline-offset:3px}
+.bar{position:fixed;inset:0 0 auto 0;height:var(--bar);z-index:50;display:flex;align-items:center;justify-content:space-between;padding:0 max(16px,env(safe-area-inset-right)) 0 max(16px,env(safe-area-inset-left));background:linear-gradient(var(--bg) 55%,rgba(5,7,13,0))}
+.bar .mark{display:inline-flex;align-items:center;gap:8px;min-height:44px;color:var(--ink);text-decoration:none;font:500 1.5rem/1 "Cormorant",serif}
+.bar .mark img{width:30px;height:30px;display:block}
+.btn{min-height:44px;min-width:44px;padding:0 14px;border:1px solid rgba(243,236,217,.5);background:rgba(5,7,13,.5);color:var(--ink);font:600 .9375rem/1 "Source Serif",serif;border-radius:0;cursor:pointer;transition:transform 120ms cubic-bezier(.23,1,.32,1),background-color 160ms ease,color 160ms ease}
+.btn:active{transform:scale(.97)}
+@media (hover:hover) and (pointer:fine){.btn:hover{background:var(--ink);color:#05070d}}
+#prog{position:fixed;left:0;top:0;height:2px;width:100%;z-index:51;transform-origin:0 50%;transform:scaleX(0);background:var(--ink);opacity:.5;pointer-events:none}
+.bar .ctl{display:flex;align-items:center;gap:6px}
+#play{display:none;align-items:center;gap:8px;border-color:transparent;background:none;font:italic 500 1.1875rem/1 "Cormorant",serif}
+html.open #play{display:inline-flex}
+#play svg{width:11px;height:11px;fill:currentColor;flex:none}
+#field{position:fixed;inset:0;width:100%;height:100%;z-index:0;pointer-events:none}
+#stage{position:fixed;inset:0;z-index:1;pointer-events:none;overflow:hidden}
+#cam{position:absolute;left:0;top:0;transform-origin:50% 50%;will-change:transform,opacity;contain:layout style}
+#cam img{position:absolute;display:block;max-width:none;user-select:none}
+#cam .orig{left:0;top:0;width:100%;height:100%}
+#cam .core{left:15%;top:15%;width:70%;height:70%;opacity:0;background:center/100% 100%}
+#cam .deep{left:32.5%;top:32.5%;width:35%;height:35%;opacity:0;-webkit-mask-image:radial-gradient(closest-side,#000 80%,transparent 100%);mask-image:radial-gradient(closest-side,#000 80%,transparent 100%)}
+#cam .emb,#cam .logo{left:50%;top:50%;width:320%;height:320%;transform:translate(-50%,-50%);opacity:0}
+#cam .emb{z-index:-2}
+#cam .logo{z-index:-1;-webkit-mask-image:radial-gradient(circle closest-side at 50% 50%,#000 calc(var(--wr,0)*100%),transparent calc(var(--wr,0)*100% + 7%));mask-image:radial-gradient(circle closest-side at 50% 50%,#000 calc(var(--wr,0)*100%),transparent calc(var(--wr,0)*100% + 7%))}
+#hl{position:absolute;inset:0;width:100%;height:100%;opacity:0;visibility:hidden}
+#hl circle{fill:none}
+#veil{position:fixed;inset:0;z-index:2;pointer-events:none;opacity:1;background:radial-gradient(circle at 50% 50%,rgba(5,7,13,0) calc(var(--hr,150)*.80px),rgba(5,7,13,1) calc(var(--hr,150)*.95px))}
+#fig{position:fixed;inset:0;width:100%;height:100%;z-index:2;pointer-events:none}
+#pool{position:fixed;inset:0;z-index:3;pointer-events:none;opacity:0;background:radial-gradient(ellipse 78% 36% at 50% 50%,rgba(5,7,13,.9) 0,rgba(5,7,13,.72) 42%,rgba(5,7,13,0) 100%)}
+#spark{position:fixed;left:0;top:0;width:min(96vmin,680px);height:min(96vmin,680px);margin:calc(min(96vmin,680px)/-2) 0 0 calc(min(96vmin,680px)/-2);z-index:3;pointer-events:none;opacity:0;border-radius:50%;background:radial-gradient(circle,rgba(255,255,248,1) 0,rgba(255,248,220,1) 2.2%,rgba(255,232,165,.82) 6%,rgba(246,206,128,.4) 15%,rgba(240,196,116,.16) 30%,rgba(240,196,116,0) 56%);will-change:transform,opacity}
+#spark i,#you i{position:absolute;inset:0;border-radius:50%;animation:breathe 4.5s ease-in-out infinite}
+#spark i{background:radial-gradient(circle,rgba(255,250,230,.55) 0,rgba(255,236,180,.2) 10%,rgba(255,236,180,0) 34%)}
+#you{position:fixed;left:0;top:0;width:88px;height:88px;margin:-44px 0 0 -44px;z-index:3;pointer-events:none;opacity:0;border-radius:50%;background:radial-gradient(circle,rgba(255,253,240,1) 0,rgba(255,244,205,1) 4.5%,rgba(255,224,150,.62) 9%,rgba(244,200,120,.2) 24%,rgba(244,200,120,0) 50%);will-change:transform,opacity}
+#you i{background:radial-gradient(circle,rgba(255,240,200,.5) 0,rgba(255,232,170,.14) 22%,rgba(255,232,170,0) 46%)}
+#hint{position:fixed;left:0;right:0;bottom:max(22px,env(safe-area-inset-bottom));z-index:5;text-align:center;pointer-events:none;opacity:0;transition:opacity .6s ease;font:italic 500 1.125rem/1 "Cormorant",serif;color:var(--ink);letter-spacing:.02em;text-shadow:0 0 12px #000,0 0 4px #000}
+#hint.on{opacity:1}
+#hint::after{content:"";display:block;width:1px;height:26px;margin:10px auto 0;background:linear-gradient(var(--ink2),rgba(207,200,182,0));animation:drop 2.2s cubic-bezier(.4,0,.2,1) infinite;transform-origin:top}
+@keyframes drop{0%{transform:scaleY(0);opacity:0}35%{transform:scaleY(1);opacity:1}100%{transform:scaleY(1) translateY(12px);opacity:0}}
+@keyframes breathe{0%,100%{opacity:.35;transform:scale(.92)}50%{opacity:1;transform:scale(1.08)}}
+main{position:relative;z-index:4}
+.hero{position:relative;height:100svh;display:flex;align-items:flex-end;justify-content:center;padding-bottom:7svh}
+#begin{min-height:52px;padding:0 34px;font-size:1.125rem}
+.scene{position:relative;height:calc(100svh + var(--h) * .5svh);margin-bottom:-100svh}
+.run{position:relative;height:calc(var(--h) * .7svh)}
+.mk{position:absolute;left:0;top:0;width:1px;height:1px;pointer-events:none}.mk.end{top:auto;bottom:0}.scene>.mk.end{bottom:100svh}
+.say{position:sticky;top:0;height:100svh;display:flex;align-items:center;justify-content:center;padding:calc(var(--bar) + 8px) 24px 8svh;text-align:center}
+.say p{margin:0;max-width:21ch;transform:translate3d(0,calc(var(--o,0)*var(--oy,23svh) + var(--c,0)*25svh),0);font:500 clamp(1.9rem,7.4vw,3.1rem)/1.22 "Cormorant",serif;letter-spacing:.005em;text-shadow:0 0 34px #000,0 0 14px rgba(0,0,0,.95),0 2px 3px rgba(0,0,0,.9);text-wrap:balance}
+.say p.big{max-width:16ch;font-style:italic;font-weight:500;font-size:clamp(2.5rem,10.4vw,4.4rem);line-height:1.1}
+@media (min-width:900px){.say p{max-width:24ch;max-width:calc(24ch - var(--o,0)*6ch);font-size:clamp(2.2rem,3.4vw,3.4rem);transform:translate3d(calc(var(--o,0)*-27vw),calc(var(--c,0)*27svh),0)}.say p.big{max-width:20ch;font-size:clamp(3rem,5vw,5rem)}}
+.say .w{display:inline-block;opacity:0;will-change:opacity,transform}
+html:not(.js) .say .w{opacity:1}
+.say em{font-style:italic}
+.door{position:relative;z-index:4;margin-top:150svh;padding:12svh 24px 14svh;text-align:center;background:linear-gradient(rgba(5,7,13,0),rgba(5,7,13,.97) 140px)}
+.door .enter{display:inline-block;border-top:2px solid var(--ink);border-bottom:1px solid var(--line);padding:22px 38px;color:var(--ink);text-decoration:none;font:500 clamp(1.9rem,6vw,2.6rem)/1.1 "Cormorant",serif}
+.door .sub{margin:14px auto 0;max-width:30rem;color:var(--ink2);font-size:1rem}
+.door .atlas{list-style:none;margin:36px auto 0;padding:0;max-width:34rem;columns:2;column-gap:24px;text-align:left;font-size:.9375rem;color:var(--ink2)}
+.door .atlas li{break-inside:avoid;padding:3px 0;display:flex;gap:10px}.door .atlas .n{flex:none;opacity:.7}.door .atlas .here{color:var(--ink)}
+.door .foot{margin:36px auto 0;max-width:34rem;color:var(--ink2);font-size:.9375rem;font-style:italic}
+.door .upd{margin:40px auto 0;max-width:34rem;padding-top:20px;border-top:1px solid var(--line);color:var(--ink2);font-size:.875rem;text-align:left}
+.door .upd b{display:inline-block;margin-right:10px;padding:2px 8px;border:1px solid var(--line);font-weight:600;color:var(--ink)}
+.door .upd ul{margin:10px 0 0;padding-left:18px}.door .upd li{padding:2px 0}
+@media (prefers-reduced-motion:reduce){#spark i,#you i,#hint::after{animation:none}.btn,#hint{transition:none}}
+@media (prefers-contrast:more){.say p{text-shadow:none;background:rgba(5,7,13,.9)}}
+</style>
+</head>
+<body>
+<a class="skip" href="#s1" id="skipText">Skip to the text</a>
+<a class="skip" href="#door" id="skipEnd" style="top:52px">Skip to the end</a>
+<header class="bar">
+  <a class="mark" href="#top" aria-label="Fractal squared, back to the top"><img src="%%BASE%%emblem-64.png" alt="" width="30" height="30">Fractal²</a>
+  <div class="ctl"><button class="btn" id="play" type="button" aria-pressed="false" aria-label="Play: scroll the story for me. Any touch or key pauses it."><svg viewBox="0 0 12 12" aria-hidden="true"><path id="pi" d="M2 1l9 5-9 5z"/></svg><span>Play</span></button>
+  <button class="btn" id="leave" type="button" aria-label="Leave this site now. Escape pressed twice also leaves.">Leave</button></div>
+</header>
+<div id="prog" aria-hidden="true"></div>
+<canvas id="field" aria-hidden="true"></canvas>
+<div id="stage" role="img" aria-label="A diagram of eight rings, the original Fractal. The view begins inside its black centre, slowly pulls back until the whole circle fills the screen, then pulls back further to a larger map of 335 tactics, then a single point of light is placed at its centre: one person. Lines of light show a combination of tactics winding around that person, a ring of five openings closing one at a time, and one opening again. The view then plunges back through the centre into darkness, where the same light remains and grows.">
+  <div id="cam">
+    <img class="emb" id="emb" data-src="%%BASE%%img/emblem.webp" data-srcset="%%BASE%%img/emblem-m.webp 2048w, %%BASE%%img/emblem.webp 3072w" sizes="(max-width:899px) 600px, 2800px" alt="" width="3072" height="3072" decoding="async">
+    <img class="logo" id="logo" data-src="%%BASE%%img/logo.webp" data-srcset="%%BASE%%img/logo-m.webp 2048w, %%BASE%%img/logo.webp 3072w" sizes="(max-width:899px) 600px, 2800px" alt="" width="3072" height="3072" decoding="async">
+    <img class="orig" id="orig" data-src="%%BASE%%img/orig.webp" data-srcset="%%BASE%%img/orig-m.webp 2048w, %%BASE%%img/orig.webp 3072w" sizes="(max-width:899px) 600px, 2800px" alt="" width="3072" height="3072" decoding="async">
+    <img class="deep" id="deep" data-src="%%BASE%%img/orig-deep.webp" alt="" width="3072" height="3072" decoding="async">
+    <img class="core" id="core" fetchpriority="high" src="%%BASE%%img/orig-core.webp" srcset="%%BASE%%img/orig-core-m.webp 2048w, %%BASE%%img/orig-core.webp 3072w" sizes="(max-width:899px) 600px, 2800px" alt="" width="3072" height="3072" decoding="async">
+    <svg id="hl" viewBox="0 0 1000 1000" aria-hidden="true">%%HL%%</svg>
+  </div>
+</div>
+<div id="veil" aria-hidden="true"></div>
+<canvas id="fig" aria-hidden="true"></canvas>
+<div id="pool" aria-hidden="true"></div>
+<div id="you" aria-hidden="true"><i></i></div>
+<div id="spark" aria-hidden="true"><i></i></div>
+<div id="hint" aria-hidden="true">Scroll slowly, or press Play</div>
+<main id="top">
+  <section class="hero" id="hero"><h1 class="sr">Fractal²: the closer you look, the more there is</h1><i class="mk" data-z="4.1" data-vl="1"></i><i class="mk end" data-z="4.1" data-vl="1"></i><button class="btn" id="begin" type="button">Begin</button></section>
+%%SCENES%%
+  <section class="door" id="door">
+    <i class="mk" data-z="0.097" data-a="1"></i>
+    <a class="enter" href="/fractal2/entertainment">Enter the first sector</a>
+    <p class="sub">Entertainment &amp; Music, mapped in full: 335 tactics, 153 patterns, three ways to read each one.</p>
+    <ul class="atlas" aria-label="The thirty sectors">
+%%ATLAS%%
+    </ul>
+    <p class="foot">This work names patterns, never people. It is for recognition and for finding safe help. It is never a playbook, a diagnosis or a verdict. If you or anyone you know is in danger, reach real help first: emergency services, a crisis line, or child protection if a child is involved.</p>
+    <div class="upd" id="updates"><b>v9 · 2026-11-11</b>What changed
+      <ul><li>v9: A Play button scrolls the story for you at reading pace. The story now follows one point of light, you, from the middle of the map to the end. New moving figures show how a combination closes around a person and how its order can be read backward. Words sit beside the map instead of on top of it. Smoother camera. A brighter final light and a new closing passage.</li><li>v8: Locked opening, large word-by-word captions, the fall to black and the spark.</li></ul>
+    </div>
+  </section>
+</main>
+<script>
+(function(){
+ var d=document,h=d.documentElement;h.classList.add('js','locked');
+ function leave(){try{d.body.innerHTML=''}catch(e){}location.replace('https://www.google.com/')}
+ d.getElementById('leave').addEventListener('click',leave);
+ var last=0;addEventListener('keydown',function(e){if(e.key==='Escape'){var n=Date.now();if(n-last<600)leave();last=n}});
+ var rm=matchMedia('(prefers-reduced-motion:reduce)').matches;if(rm)d.getElementById('hint').textContent='Scroll slowly';
+ function $(i){return d.getElementById(i)}
+ var cam=$('cam'),core=$('core'),deep=$('deep'),emb=$('emb'),logo=$('logo'),hl=$('hl'),cv=$('field'),cx2=cv.getContext('2d'),fg=$('fig'),fx=fg.getContext('2d'),veil=$('veil'),spark=$('spark'),you=$('you'),pool=$('pool'),hint=$('hint'),prog=$('prog'),pb=$('play'),doorY=1e9,maxY=1;
+ var rings=[].slice.call(hl.querySelectorAll('g'));
+ function clamp(v,a,b){return Math.min(b,Math.max(a,v))}
+ function lerp(a,b,t){return a+(b-a)*t}
+ function sm(t){t=clamp(t,0,1);return t*t*(3-2*t)}
+ var W,Hh,D0,CX,CY,DPR,wide,SC=[],MP=[],cur=null,raf=0,lastT=0,SX=0,SY=0,ZS=1,ACX=0,ACY=0;
+ /* K: every scroll-driven value except the camera scale z. STICKY values hold until the script changes them. */
+ var K=['w','g','dim','bk','sp','vl','a','o','c','you','th','gs','gt','web','rv','inv'],STICKY={w:1,o:1,c:1,you:1,th:1,gs:1,gt:1,web:1,rv:1,inv:1};
+ /* the 2,700 points */
+ var N=2700,pts=[],gx=[],gy=[];
+ var seed=7;function rnd(){seed=(seed*16807)%2147483647;return seed/2147483647}
+ (function(){for(var i=0;i<N;i++)pts.push({u:rnd(),v:rnd(),dp:.25+rnd()*.75,sz:.6+rnd()*1.1,bk:(rnd()*3)|0,band:Math.min(7,Math.floor(((i/30)|0)*8/90))})})();
+ /* the larger map: ring edges and ring middles as fractions of its half-width; one named combination; the 203 */
+ var RB=[.281,.30,.425,.50,.625,.677,.768,.82,.873],RM=[.29,.3625,.4625,.5625,.651,.7225,.794,.8465],TAU=6.28318;
+ var HERO=RM.map(function(f,i){return[f,-1.95+i*.66]}),WEB=[];
+ (function(){for(var i=0;i<203;i++){var s=(rnd()*4)|0,n=3+((rnd()*4)|0),a=rnd()*TAU,st=(rnd()<.5?-1:1)*(.18+rnd()*.42),t=[];for(var k=0;k<n&&s+k<8;k++)t.push([RM[s+k],a+st*k]);WEB.push(t)}})();
+ var BKV=0,AX=0,AY=0,AC=100,LX=0,LY=0,GR=100,lastDraw='';
+ function layout(){
+  W=innerWidth;Hh=innerHeight;wide=W>=900;DPR=Math.min(2,devicePixelRatio||1);
+  D0=Math.min(W,Hh)/0.874;CX=W/2;CY=Hh/2;
+  /* split layout: where the map sits when the words stand beside it (wide) or below it (narrow) */
+  if(wide){var dia=Math.min(Hh-96,W*.58);ZS=Math.min(1,dia/Math.min(W,Hh));SX=W*.69;SY=CY}
+  else{var box=Hh*.58-64;ZS=Math.min(1,box/W);SX=CX;SY=60+box/2;var db=SY+W*ZS/2;h.style.setProperty('--oy',Math.round((db+Hh-20)/2-(Hh+64-Hh*.08)/2)+'px')}
+  cam.style.width=D0+'px';cam.style.height=D0+'px';cam.style.left=(CX-D0/2)+'px';cam.style.top=(CY-D0/2)+'px';
+  cv.width=W*DPR;cv.height=Hh*DPR;fg.width=W*DPR;fg.height=Hh*DPR;
+  veil.style.setProperty('--hr',(0.086*D0*4.1).toFixed(0));
+  var cols=wide?6:5,rows=30/cols;AC=Math.min((W-32)/(cols+0.4),(Hh-150)/(rows*1.3+0.4),D0*0.3);AX=W/2;AY=Hh/2;
+  LX=AX+(11%cols-(cols-1)/2)*AC;LY=AY+(((11/cols)|0)-(rows-1)/2)*AC*1.3;
+  var gw=Math.min(W-48,Hh*1.1),gh=Hh*0.6;GR=Math.max(gw,gh)*0.5;gx=[];gy=[];for(var i=0;i<N;i++){gx.push(CX-gw/2+gw*((i%30)+.5)/30);gy.push(CY-gh/2+gh*(((i/30)|0)+.5)/90)}
+  SC=[].slice.call(d.querySelectorAll('.scene')).map(function(el){var q=el.getBoundingClientRect();return{el:el,top:q.top+scrollY,h:q.height,ws:[].slice.call(el.querySelectorAll('.w')),on:false}});
+  var pv={z:1};K.forEach(function(k){pv[k]=0});
+  MP=[].slice.call(d.querySelectorAll('.mk')).map(function(el){var q=el.getBoundingClientRect(),o={y:q.top+scrollY};
+   if(el.hasAttribute('data-z'))pv.z=+el.getAttribute('data-z');o.z=pv.z;
+   K.forEach(function(k){var has=el.hasAttribute('data-'+k),v=has?+el.getAttribute('data-'+k):0;if(STICKY[k]){if(has)pv[k]=v;o[k]=pv[k]}else o[k]=v});
+   o.hl=el.hasAttribute('data-hl')?+el.getAttribute('data-hl'):-1;return o});
+  MP.sort(function(a,b){return a.y-b.y});
+  maxY=Math.max(1,d.documentElement.scrollHeight-Hh);doorY=$('door').getBoundingClientRect().top+scrollY-Hh*.3;
+ }
+ function target(y){
+  var i=0;for(var k=0;k<MP.length;k++){if(MP[k].y<=y)i=k;else break}
+  var A=MP[i],B=MP[Math.min(i+1,MP.length-1)],t=(i<MP.length-1&&B.y>A.y)?clamp((y-A.y)/(B.y-A.y),0,1):0,o={};
+  o.z=Math.exp(lerp(Math.log(A.z),Math.log(B.z),t));
+  K.forEach(function(k){o[k]=lerp(A[k],B[k],t)});
+  var zA=AC*0.9/(2.797*D0);if(o.a>0.001)o.z=Math.exp(lerp(Math.log(o.z),Math.log(zA),clamp(o.a,0,1)));
+  o.hl=t<.5?A.hl:B.hl;return o;
+ }
+ function atlasDraw(c2,a){
+  var cols=wide?6:5,rows=30/cols,cell=AC,i,c,rr,x,y,RN=[.1,.2,.3,.4,.5,.6,.72,.86],col=['#8a5f22','#b8741f','#a9521c','#8a2327','#6a2a45','#3a4f8c','#4a6bb0','#6f8fd0'];
+  c2.textAlign='center';c2.textBaseline='middle';
+  for(i=0;i<30;i++){if(i===11)continue;c=i%cols;rr=(i/cols)|0;x=AX+(c-(cols-1)/2)*cell;y=AY+(rr-(rows-1)/2)*cell*1.3;
+   for(var j=0;j<8;j++){c2.beginPath();c2.arc(x,y,cell*0.46*RN[j],0,6.2832);c2.lineWidth=j===7?1.2:Math.max(1,cell*0.035);c2.strokeStyle=j===7?'rgba(244,213,138,.8)':col[j];c2.globalAlpha=a*(j===7?.8:.55);c2.stroke()}
+   c2.globalAlpha=a;c2.fillStyle='#F3ECD9';c2.font='600 '+Math.max(12,cell*0.13)+'px Cormorant,serif';c2.fillText(('0'+(i+1)).slice(-2),x,y+cell*0.72)}
+  c2.globalAlpha=a;c2.fillStyle='#F3ECD9';c2.font='700 '+Math.max(12,cell*0.13)+'px Cormorant,serif';c2.fillText('12',LX,LY+cell*0.72);
+  c2.beginPath();c2.arc(LX,LY,cell*0.5,0,6.2832);c2.strokeStyle='rgba(255,250,235,.95)';c2.lineWidth=2;c2.stroke();c2.globalAlpha=1;
+ }
+ var BC=[[201,138,43],[184,116,31],[169,82,28],[160,52,56],[130,60,100],[70,100,170],[90,130,200],[140,170,225]],WH=[220,226,245];
+ function draw(g,sy,at){
+  var key=sy.toFixed(0)+'|'+g.toFixed(3)+'|'+at.toFixed(3)+'|'+BKV.toFixed(2);if(key===lastDraw)return;lastDraw=key;
+  cx2.setTransform(DPR,0,0,DPR,0,0);cx2.clearRect(0,0,W,Hh);
+  var span=Hh*1.4,k=g>0.001,mix=clamp(g*1.5,0,1),sk=1-BKV;
+  for(var band=0;band<8;band++){for(var bk=0;bk<3;bk++){
+   var al=(0.28+0.3)*[.5,.75,1][bk]*(1+g*3.4),cc=BC[band];
+   cx2.fillStyle='rgba('+Math.round(lerp(WH[0],cc[0],mix))+','+Math.round(lerp(WH[1],cc[1],mix))+','+Math.round(lerp(WH[2],cc[2],mix))+','+Math.min(1,al)+')';
+   for(var i=0;i<N;i++){var p=pts[i];if(p.band!==band||p.bk!==bk)continue;
+    var x=p.u*W,y=((p.v*span-sy*p.dp*0.35)%span+span)%span-Hh*.2;
+    if(k){var st=clamp(g*1.6-(i%90)/90*0.6,0,1);st=st*st*(3-2*st);x=lerp(x,gx[i],st);y=lerp(y,gy[i],st)}
+    var s=p.sz*(1+g*.9)*(wide?1:1.4),f=1;if(k){var dd=Math.hypot(gx[i]-CX,gy[i]-CY);f=1-st*clamp((dd-GR*0.62)/(GR*0.38),0,1)}
+    if(f>0.02){cx2.globalAlpha=f*sk;cx2.fillRect(x,y,s,s)}}}}
+  cx2.globalAlpha=1;if(at>0.01)atlasDraw(cx2,at);
+ }
+ /* figures of light, drawn in the map's own coordinates so they ride the camera */
+ var INK='243,236,217',GOLD='255,236,180',figOn=false;
+ function path(c,nodes,to,steps){
+  var n=nodes.length-1,end=clamp(to,0,n),first=true;c.beginPath();
+  for(var s=0;s<=end+1e-6;s+=1/steps){var k=Math.min(n-1,Math.floor(s)),u=Math.min(1,s-k),f=lerp(nodes[k][0],nodes[k+1][0],u),a=lerp(nodes[k][1],nodes[k+1][1],u),x=ACX+Math.cos(a)*f*FU,y=ACY+Math.sin(a)*f*FU;if(first){c.moveTo(x,y);first=false}else c.lineTo(x,y)}
+  var k2=Math.min(n-1,Math.floor(end)),u2=end-k2,f2=lerp(nodes[k2][0],nodes[k2+1][0],u2),a2=lerp(nodes[k2][1],nodes[k2+1][1],u2);var hx=ACX+Math.cos(a2)*f2*FU,hy=ACY+Math.sin(a2)*f2*FU;if(!first)c.lineTo(hx,hy);return[hx,hy];
+ }
+ var FU=1;
+ function dot(c,x,y,r,a,col){c.globalAlpha=a;c.fillStyle='rgba('+col+',.22)';c.beginPath();c.arc(x,y,r*3.2,0,TAU);c.fill();c.fillStyle='rgba('+col+',1)';c.beginPath();c.arc(x,y,r,0,TAU);c.fill();c.globalAlpha=1}
+ function figures(){
+  var c=fx,th=cur.th,rv=cur.rv,gs=cur.gs,web=cur.web,inv=cur.inv,gt=cur.gt,fade=1-cur.bk;
+  var thA=clamp(th*8,0,1)*(1-clamp((rv-.93)*14,0,1)),any=(thA>0.004||gs>0.004||web>0.004||inv>0.004)&&fade>0.01;
+  if(!any){if(figOn){c.setTransform(DPR,0,0,DPR,0,0);c.clearRect(0,0,W,Hh);figOn=false}return 0}
+  figOn=true;c.setTransform(DPR,0,0,DPR,0,0);c.clearRect(0,0,W,Hh);c.lineCap='round';c.lineJoin='round';
+  FU=1.6*D0*cur.z*lerp(1,ZS,cur.o);var lw=wide?1.6:1.3,i,k;
+  /* the old words: each ring answers with its original */
+  if(inv>0.004){for(k=0;k<8&&k<inv;k++){var ia=clamp(inv-k,0,1)*fade,r0=RB[k]*FU,r1=RB[k+1]*FU;
+    c.beginPath();c.arc(ACX,ACY,(r0+r1)/2,0,TAU);c.lineWidth=Math.max(1,(r1-r0)*.92);c.strokeStyle='rgba('+GOLD+','+(.13*ia).toFixed(3)+')';c.stroke();
+    c.beginPath();c.arc(ACX,ACY,r1,0,TAU);c.lineWidth=lw;c.strokeStyle='rgba('+GOLD+','+(.9*ia).toFixed(3)+')';c.stroke()}}
+  /* the 203: every combination a thread through the rings */
+  if(web>0.004){var nW=web*203;c.lineWidth=1;c.strokeStyle='rgba('+INK+','+(.24*fade).toFixed(3)+')';
+   for(i=0;i<nW;i++){var t=WEB[i];path(c,t,(t.length-1)*clamp(nW-i,0,1),6);c.stroke()}}
+  /* the defenses: five openings around one person, closing in order */
+  if(gs>0.004){var Rg=Math.max(46,.2*FU),ga=gs*fade,shut=clamp(gt-5,0,1);c.lineWidth=lw+.9+shut*.8;
+   for(k=0;k<5;k++){var op=1-clamp(gt-k,0,1),g0=-TAU/4+k*TAU/5,g1=g0+TAU/5,hg=.3*op,hn=.3*(1-clamp(gt-((k+1)%5),0,1));
+    c.beginPath();c.arc(ACX,ACY,Rg,g0+hg,g1-hn);c.strokeStyle='rgba('+INK+','+(.92*ga).toFixed(3)+')';c.stroke();
+    if(op>0.01){var gr=c.createLinearGradient(ACX+Math.cos(g0)*Rg,ACY+Math.sin(g0)*Rg,ACX+Math.cos(g0)*Rg*2.3,ACY+Math.sin(g0)*Rg*2.3);gr.addColorStop(0,'rgba('+GOLD+','+(.75*op*ga).toFixed(3)+')');gr.addColorStop(1,'rgba('+GOLD+',0)');
+     c.beginPath();c.moveTo(ACX+Math.cos(g0)*Rg*.86,ACY+Math.sin(g0)*Rg*.86);c.lineTo(ACX+Math.cos(g0)*Rg*2.3,ACY+Math.sin(g0)*Rg*2.3);c.lineWidth=lw+.4;c.strokeStyle=gr;c.stroke();c.lineWidth=lw+.9+shut*.8}}
+   if(shut>0.01){c.beginPath();c.arc(ACX,ACY,Rg*1.16,0,TAU);c.lineWidth=lw;c.strokeStyle='rgba('+INK+','+(.5*shut*ga).toFixed(3)+')';c.stroke()}}
+  /* one combination: moves first, then the order that joins them; later read backward, link by link, home */
+  if(thA>0.004){var n=HERO.length-1,L=clamp((th-.42)/.58,0,1)*n,keep=(1-clamp(rv/.86,0,1))*n,to=Math.min(L,keep),dimF=1-.62*gs*(1-clamp(rv*12,0,1)),A=thA*dimF*fade,head=null;
+   if(to>0.001){c.lineWidth=lw+3.4;c.strokeStyle='rgba('+INK+','+(.14*A).toFixed(3)+')';path(c,HERO,to,14);c.stroke();c.lineWidth=lw+.5;c.strokeStyle='rgba('+INK+','+(.95*A).toFixed(3)+')';head=path(c,HERO,to,14);c.stroke()}
+   for(k=0;k<=n;k++){var na=clamp((th-k*.048)/.07,0,1)*(k<=keep+.02?1:clamp(1-(k-keep)*3,0,1));if(na>0.01)dot(c,ACX+Math.cos(HERO[k][1])*HERO[k][0]*FU,ACY+Math.sin(HERO[k][1])*HERO[k][0]*FU,wide?3.4:2.8,na*A,INK)}
+   if(rv>0.004&&rv<.93){var hp=rv<.86?head||[ACX+Math.cos(HERO[0][1])*HERO[0][0]*FU,ACY+Math.sin(HERO[0][1])*HERO[0][0]*FU]:null;
+    if(!hp){var u=(rv-.86)/.07,f=HERO[0][0]*(1-sm(u));hp=[ACX+Math.cos(HERO[0][1])*f*FU,ACY+Math.sin(HERO[0][1])*f*FU]}
+    dot(c,hp[0],hp[1],wide?5:4.2,fade,GOLD)}}
+  return Math.max(gs*.5,web*.45,thA*.3,clamp(inv,0,1)*.22);
+ }
+ function words(){
+  var y=scrollY,env=0;
+  for(var s=0;s<SC.length;s++){var S=SC[s],span=S.h-Hh;
+   if(S.top>y+Hh*1.05||S.top+S.h<y-Hh*0.05){if(S.on){S.ws.forEach(function(w){w.style.opacity=0});S.on=false}continue}
+   var p=span>0?clamp((y-S.top)/span,0,1):0,f=1-clamp((p-0.8)/0.17,0,1),n=S.ws.length;
+   for(var i=0;i<n;i++){var st=0.1+0.38*(i/Math.max(1,n-1)),o=rm?(p>0.05?1:0):clamp((p-st)/0.07,0,1),w=S.ws[i];
+    w.style.opacity=(o*f).toFixed(3);if(!rm){w.style.transform=o<1?'translateY('+((1-o)*14).toFixed(1)+'px)':'';w.style.filter=o<1?'blur('+((1-o)*3).toFixed(1)+'px)':''}}
+   S.on=true;var e=f*clamp((p-0.04)/0.1,0,1);if(e>env)env=e}
+  return env;
+ }
+ var lastO=-1,lastC=-1;
+ function frame(now){
+  raf=0;var tg=target(scrollY),q;
+  if(!cur||rm){cur={z:tg.z,hl:tg.hl,env:0};K.forEach(function(k){cur[k]=tg[k]})}
+  else{var dt=Math.min(.05,(now-lastT)/1000||.016),k=1-Math.exp(-dt/.16);
+   cur.z=Math.exp(lerp(Math.log(cur.z),Math.log(tg.z),k));K.forEach(function(q){cur[q]=lerp(cur[q],tg[q],k)});cur.hl=tg.hl}
+  lastT=now;
+  var env=words();cur.env=rm?env:lerp(cur.env,env,1-Math.exp(-.03/0.12));
+  var o=sm(cur.o),ov=cur.env*(1-o)*(1-cur.c);ACX=lerp(CX,SX,o);ACY=lerp(CY,SY,o);
+  if(Math.abs(cur.o-lastO)>0.002){lastO=cur.o;h.style.setProperty('--o',o.toFixed(3))}
+  if(Math.abs(cur.c-lastC)>0.002){lastC=cur.c;h.style.setProperty('--c',sm(cur.c).toFixed(3))}
+  var fd=figures(),z=cur.z*lerp(1,ZS,o),op=(1-0.3*ov)*(1-cur.dim)*(1-cur.bk)*(1-fd);
+  var dx=cur.a*(LX-CX)+(ACX-CX)*(1-cur.a),dy=cur.a*(LY-CY)+(ACY-CY)*(1-cur.a);
+  cam.style.transform='translate('+dx.toFixed(1)+'px,'+dy.toFixed(1)+'px) scale('+z.toFixed(4)+')';cam.style.opacity=op.toFixed(3);cam.style.visibility=op<0.02?'hidden':'visible';
+  var dp=clamp((z-3.1)/0.5,0,1);deep.style.opacity=dp.toFixed(3);deep.style.visibility=dp>0?'visible':'hidden';
+  var co=clamp((z-2.75)/0.5,0,1);core.style.opacity=co.toFixed(3);core.style.visibility=co>0?'visible':'hidden';
+  var lo=clamp((1-z)/0.3,0,1);emb.style.opacity=lo.toFixed(3);emb.style.visibility=lo>0?'visible':'hidden';logo.style.opacity=lo.toFixed(3);logo.style.visibility=(lo>0&&cur.w>0.002)?'visible':'hidden';logo.style.setProperty('--wr',cur.w.toFixed(3));
+  var on=cur.hl>=0&&z<2.6;hl.style.opacity=on?1:0;hl.style.visibility=on?'visible':'hidden';rings.forEach(function(g,j){g.style.opacity=j===cur.hl?1:0});
+  veil.style.opacity=cur.vl.toFixed(3);veil.style.visibility=cur.vl>0.01?'visible':'hidden';
+  pool.style.opacity=clamp(ov*2.4,0,1).toFixed(3);prog.style.transform='scaleX('+clamp(scrollY/maxY,0,1).toFixed(4)+')';
+  var px='translate('+(CX+dx).toFixed(1)+'px,'+(CY+dy).toFixed(1)+'px) ';
+  var ya=cur.you*(1-ov)*(1-.7*clamp(cur.gt-5,0,1)*cur.gs)*(1-clamp(cur.sp*2.5,0,1))*(1-cur.a);
+  you.style.opacity=ya.toFixed(3);you.style.visibility=ya>0.01?'visible':'hidden';you.style.transform=px+'scale('+(wide?1.15:1)+')';
+  spark.style.opacity=clamp(cur.sp*1.6,0,1).toFixed(3);spark.style.visibility=cur.sp>0.005?'visible':'hidden';spark.style.transform=px+'scale('+(0.12+0.88*sm(cur.sp)).toFixed(3)+')';
+  var zA=AC*0.9/(2.797*D0),near=clamp(1-Math.abs(Math.log(cur.z/zA))/0.7,0,1);near*=near;
+  BKV=cur.bk;draw(cur.g,scrollY,cur.a*near);
+  var dg=Math.abs(Math.log(cur.z/tg.z))+Math.abs(cur.env-env);K.forEach(function(q){dg+=Math.abs(cur[q]-tg[q])});
+  if(dg<0.004){cur.z=tg.z;K.forEach(function(q){cur[q]=tg[q]});cur.env=env}
+  if(!rm&&dg>=0.004)raf=requestAnimationFrame(frame);
+ }
+ function go(){if(!raf)raf=requestAnimationFrame(frame)}
+ window.__cam=function(){return cur?{z:+cur.z.toFixed(4),o:+cur.o.toFixed(2)}:null};window.__dbg=function(){var o={};for(var k in cur)o[k]=+(+cur[k]).toFixed(3);return o};
+ /* locked opening: nothing scrolls until Begin */
+ var hinted=0;
+ function unlock(to){if(!h.classList.contains('locked'))return;h.classList.remove('locked');if(!rm)h.classList.add('open');layout();go();if(to==='text'){scrollTo({top:SC[0]?SC[0].top:innerHeight,behavior:rm?'auto':'smooth'});hinted=setTimeout(function(){hint.classList.add('on')},1600)}}
+ $('begin').addEventListener('click',function(){unlock('text')});
+ $('skipText').addEventListener('click',function(e){e.preventDefault();unlock('text');if(!h.classList.contains('locked'))scrollTo({top:SC[0].top,behavior:'auto'})});
+ $('skipEnd').addEventListener('click',function(e){e.preventDefault();unlock();$('door').scrollIntoView()});
+ addEventListener('scroll',function(){go();if(hinted&&SC[0]&&scrollY>SC[0].top+Hh*.25){clearTimeout(hinted);hinted=0;hint.classList.remove('on')}},{passive:true});
+ /* Play: the page scrolls itself at reading pace (slower on long captions). Any touch, wheel or key hands it back. */
+ var playing=false,pt=0,acc=0,vs=0;
+ function setPlay(on){if(on===playing)return;playing=on;pb.setAttribute('aria-pressed',on?'true':'false');pb.querySelector('span').textContent=on?'Pause':'Play';$('pi').setAttribute('d',on?'M2 1h3v10H2zM7 1h3v10H7z':'M2 1l9 5-9 5z');if(on){pt=0;acc=0;vs=0;clearTimeout(hinted);hinted=0;hint.classList.remove('on');requestAnimationFrame(tick)}}
+ function tick(now){if(!playing)return;var y=scrollY,v=Hh*.2;
+  for(var s=0;s<SC.length;s++){var S=SC[s],span=S.h-Hh;if(y>=S.top&&y<S.top+span){v=span/Math.max(3.2,1.6+S.ws.length/3.2);break}}
+  if(pt){var dt=Math.min(.1,(now-pt)/1000);vs=vs?lerp(vs,v,1-Math.exp(-dt/.5)):v;acc+=vs*dt;var st=acc|0;if(st){acc-=st;scrollBy(0,st)}}
+  pt=now;if(y>=maxY-2||y>=doorY)return setPlay(false);requestAnimationFrame(tick)}
+ pb.addEventListener('click',function(){setPlay(!playing)});
+ ['wheel','touchstart','keydown'].forEach(function(ev){addEventListener(ev,function(e){if(playing&&!(e.target&&e.target.closest&&e.target.closest('#play')))setPlay(false)},{passive:true})});
+ var rt=0,lw=0,lh=0;addEventListener('resize',function(){clearTimeout(rt);rt=setTimeout(function(){if(innerWidth===lw&&Math.abs(innerHeight-lh)<140)return;lw=innerWidth;lh=innerHeight;layout();lastDraw='';go()},150)});
+ function ld(id,cb){var e=$(id);if(cb)e.addEventListener('load',cb);var ss=e.getAttribute('data-srcset');if(ss)e.srcset=ss;e.src=e.getAttribute('data-src')}
+ var late=false;function go2(){if(late)return;late=true;setTimeout(function(){ld('orig',function(){setTimeout(function(){ld('emb',function(){ld('logo',function(){ld('deep')})})},200)})},150)}
+ if(core.complete&&core.naturalWidth)go2();else{core.addEventListener('load',go2);setTimeout(go2,3500)}
+ lw=innerWidth;lh=innerHeight;scrollTo(0,0);
+ (d.fonts&&d.fonts.ready?d.fonts.ready:Promise.resolve()).then(function(){layout();go()});layout();go();
+})();
+</script>
+</body>
+</html>

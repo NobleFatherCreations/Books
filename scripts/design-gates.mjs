@@ -7,6 +7,7 @@
 //     --stage "css"       selector for figure/stage elements (default: canvas, figure, svg, video, img)
 //     --engine chromium   chromium | webkit | firefox (only chromium is installed in the cloud container; webkit gives real-Safari-like checks where available)
 //     --baseline DIR      compare against an approved run's screenshots (perceptual diff)
+//     --click "css"       press this first (e.g. "#begin") for pages whose scroll is locked until a button is pressed
 //     --no-motion         skip the CPU-throttled frame-time pass     --no-pixels  skip pixel analysis
 //     --dark-js "js"      run once after load in *-dark profiles for sites with their own theme toggle, e.g. --dark-js "document.querySelector('#darkbtn').click()"
 //
@@ -174,6 +175,7 @@ for (const name of PROFILES) {
   await page.goto(url, { waitUntil: 'networkidle', timeout: 60000 }).catch(() => {});
   await page.addStyleTag({ content: 'html{scroll-behavior:auto !important}' }).catch(() => {});   // measure positions and pixels at the same instant
   await page.waitForTimeout(1200);
+  if (opt('click')) { await page.click(opt('click')).catch(() => {}); await page.waitForTimeout(2000); }   // pages with a locked opening (a Begin button): press it, or the gates only ever see the first screen
   if (DARKJS && name.includes('dark')) { await page.evaluate(DARKJS).catch(() => {}); await page.waitForTimeout(600); }
   const dir = path.join(out, name); fs.rmSync(dir, { recursive: true, force: true }); fs.mkdirSync(dir, { recursive: true });
   const R = { steps: 0, svgLabel: {}, bleed: {}, hidden: {}, figText: {}, textText: {}, headerThin: 0, headerOver: 0, tiny: {}, taps: {}, maxAnims: 0 };
