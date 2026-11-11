@@ -12,9 +12,9 @@ for (const [pre, vp, mob, dpr] of [['phone', { width: 390, height: 844 }, true, 
   await p.goto(url, { waitUntil: 'networkidle' }); await p.addStyleTag({ content: 'html{scroll-behavior:auto!important}' }); await p.waitForTimeout(1500);
   const H = await p.evaluate(() => document.documentElement.scrollHeight - innerHeight);
   for (let i = 0; i < 16; i++) { await p.evaluate((v) => scrollTo(0, v), Math.round(H * i / 15)); await p.waitForTimeout(1300); await p.screenshot({ path: `${out}/${pre}-${String(i).padStart(2, '0')}.jpg`, type: 'jpeg', quality: 78 }); }
-  if (pre === 'desk') {
-    const beats = await p.evaluate(() => [...document.querySelectorAll('.beat,[data-critic-beat]')].map((e) => { const r = e.getBoundingClientRect(); return [Math.round(r.top + scrollY), Math.round(r.height)]; }));
-    for (let n = 0; n < beats.length; n++) for (let k = 0; k < 5; k++) { await p.evaluate((v) => scrollTo(0, Math.max(0, v)), Math.round(beats[n][0] - 450 + beats[n][1] * k / 4)); await p.waitForTimeout(1300); await p.screenshot({ path: `${out}/beat-${n}-${k}.jpg`, type: 'jpeg', quality: 78 }); }
+  {
+    const beats = await p.evaluate(() => [...document.querySelectorAll('.beat,[data-critic-beat]')].map((e, i) => { const r = e.getBoundingClientRect(); return [Math.round(r.top + scrollY), Math.round(r.height), e.getAttribute('data-critic-beat') || String(i)]; }));
+    for (let n = 0; n < beats.length; n++) for (let k = 0; k < 5; k++) { await p.evaluate((v) => scrollTo(0, Math.max(0, v)), Math.round(beats[n][0] - 450 + beats[n][1] * k / 4)); await p.waitForTimeout(1300); await p.screenshot({ path: `${out}/${pre}-beat-${beats[n][2]}-${k}.jpg`, type: 'jpeg', quality: 78 }); }
   }
   await ctx.close();
 }

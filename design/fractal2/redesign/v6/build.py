@@ -45,6 +45,7 @@ def render(lines, key):
         t = plain(raw); cls = ''
         if t in ('It must be me.', "What if it isn't you?", 'Nothing struck you.') or raw.startswith('**The true map has more'): cls = 'big'
         if raw.startswith('*A note before'): cls = 'note-in'
+        if raw.startswith('*This work names patterns'): cls = 'safe'
         out.append(f'<p{(" class=%s" % chr(34)+cls+chr(34)) if cls else ""}{A(t)}>{inline(raw)}</p>')
         if t.startswith('Two thousand seven hundred examples'): out.append(BEAT('data-z="1.0" data-g="1" data-dim=".95"', 'data-z="1.0" data-g="1" data-dim=".95"').replace('class="beat"', 'class="beat" style="--bh:90svh"'))
         if t.startswith('The true map has more than three hundred'): out.append(BEAT('data-z="0.31" data-rest="1" data-lit="1" data-w="0"', 'data-z="0.31" data-rest="1" data-lit="1" data-w="1"').replace('class="beat"', 'class="beat" style="--bh:150svh"'))
@@ -85,5 +86,7 @@ for s in sectors:
     else: atlas.append(f'<li><span class="n">{s["n"]:02d}</span><span class="t">{html.escape(s["name"])}</span></li>')
 tpl = open(os.path.join(HERE, 'template.html'), encoding='utf-8').read()
 out = tpl.replace('%%PARTS%%', parts_html).replace('%%HL%%', hlr).replace('%%ATLAS%%', '\n'.join(atlas)).replace('%%NSECT%%', str(len(sectors))).replace('%%BUILTN%%', builtn).replace('%%BASE%%', BASE)
+names = iter(['count', 'pullback', 'words', 'plunge', 'final'])
+out = re.sub(r'<div class="beat"', lambda m: '<div class="beat" data-critic-beat="%s"' % next(names, 'x'), out)
 open(os.path.join(HERE, 'index.html'), 'w', encoding='utf-8').write(out)
 print('wrote index.html', len(out)//1024, 'KB;', out.count('data-z='), 'anchors')
