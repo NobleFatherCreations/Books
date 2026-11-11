@@ -47,6 +47,7 @@ def render(lines, key):
         if raw.startswith('*A note before'): cls = 'note-in'
         out.append(f'<p{(" class=%s" % chr(34)+cls+chr(34)) if cls else ""}{A(t)}>{inline(raw)}</p>')
         if t.startswith('Two thousand seven hundred examples'): out.append(BEAT('data-z="1.0" data-g="1" data-dim=".95"', 'data-z="1.0" data-g="1" data-dim=".95"').replace('class="beat"', 'class="beat" style="--bh:90svh"'))
+        if t.startswith('The true map has more than three hundred'): out.append(BEAT('data-z="0.31" data-rest="1" data-lit="1" data-w="0"', 'data-z="0.31" data-rest="1" data-lit="1" data-w="1"').replace('class="beat"', 'class="beat" style="--bh:150svh"'))
         if t.startswith('Then I looked closer.'): out.append(BEAT('data-z="1.0" data-lit="1" data-lb="1"', 'data-z="0.31" data-rest="1" data-lit="1" data-lb="1"').replace('class="beat"', 'class="beat" style="--bh:260svh"'))
     for ln in lines:
         s = ln.rstrip()

@@ -41,3 +41,6 @@ Built by running the project's own process (`.claude/skills/design-director`, `d
 - "The room again" differs from the opening by glow only; meaning needs a line of new copy (owner's call).
 - No part navigation on a ~19,000 px page (skip links only).
 - Claims (335, 203, 153, 2,700) have no sources on the page; the text is fixed, so this is the owner's call.
+
+## Update (owner idea, same day): clean rings first, then the words fill in
+The owner supplied the clean "Fractal², 8 Stages. One Cycle." frame (it is `art/fractal2-emblem.svg`, same ring geometry as the full tactic map). The pull-back now reveals that clean frame ("Figure 2: Fractal², the same eight stages"); a silent beat (150svh, after "The true map has more than three hundred.") then spreads the 335 tactic words outward ring by ring from the centre (radial mask on the words layer, parameter `w`) until the rings are full; the caption then reads "335 tactics, one sector". The slow rotation of the outer map was removed so labels and words stay aligned. Gates: 0 FAIL, 0 contrast warnings after the change. Frames: `library/fractal2/review/v6/words-fill.jpg`.
