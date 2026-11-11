@@ -76,6 +76,7 @@ const probe = ({ stage, phone }) => {
     for (const g of figs) {
       if (g.el.contains(t.el) || t.el.contains(g.el)) continue;
       if (isBar(t.el)) continue;
+      if (isBar(g.el) && !isBar(t.el)) continue;   // text scrolling UNDER an opaque sticky stage is hidden, not colliding
       const i = inter(t.r, g.r);
       if (i / area > 0.12) {
         const full = g.r.width * g.r.height > vw * vh * 0.8;
@@ -118,12 +119,16 @@ const probe = ({ stage, phone }) => {
       if (o < 0.15 && !el.closest('[hidden],[aria-hidden=true],details:not([open])')) f.hidden.push(label(el));
     }
   }
+  const covers = [...document.querySelectorAll('body *')].filter((e) => { const c = getComputedStyle(e); if (c.position !== 'fixed' && c.position !== 'sticky') return false; const m = c.backgroundColor.match(/[\d.]+/g) || []; const al = m.length === 4 ? +m[3] : (c.backgroundColor === 'transparent' ? 0 : 1); return (al >= 0.9 || /blur/.test(c.backdropFilter || c.webkitBackdropFilter || '')) && e.getBoundingClientRect().height > 20; }).map((e) => ({ e, r: e.getBoundingClientRect() }));
   for (const t of texts) {
     const cs = getComputedStyle(t.el); const fs = parseFloat(cs.fontSize);
     if (fs < (phone ? 12 : 11)) f.tiny.push(label(t.el) + ' ' + fs + 'px');
     const m = cs.color.match(/[\d.]+/g) || [0, 0, 0];
-    const underBar = hdr && (hdr.cs.position === 'fixed' || hdr.cs.position === 'sticky') && (((m0) => (m0.length === 4 ? +m0[3] : (hdr.cs.backgroundColor === 'transparent' ? 0 : 1)))(hdr.cs.backgroundColor.match(/[\d.]+/g) || []) >= 0.9) && (t.r.top + t.r.height / 2) < hdr.r.bottom && !hdr.el.contains(t.el);
-    if (!underBar && f.texts.length < 90 && t.r.width > 16) f.texts.push({ x: t.r.left, y: t.r.top, w: t.r.width, h: t.r.height, color: [+m[0], +m[1], +m[2]], fs, fw: +cs.fontWeight || 400, label: label(t.el) });
+    const cx = t.r.left + t.r.width / 2, cy = t.r.top + t.r.height / 2;
+    const underBar = covers.some((c) => !c.e.contains(t.el) && cy > c.r.top && cy < c.r.bottom && cx > c.r.left && cx < c.r.right);   // text hidden under an opaque pinned element (bar, sticky stage)
+    let top = t.r.top, bot = t.r.bottom;   // measure only the visible part when an opaque pinned element covers some of the text
+    for (const c of covers) if (!c.e.contains(t.el) && cx > c.r.left && cx < c.r.right) { if (c.r.bottom > top && c.r.bottom < bot) top = c.r.bottom; if (c.r.top < bot && c.r.top > top) bot = c.r.top; }
+    if (!underBar && bot - top > 6 && f.texts.length < 90 && t.r.width > 16) f.texts.push({ x: t.r.left, y: top, w: t.r.width, h: bot - top, color: [+m[0], +m[1], +m[2]], fs, fw: +cs.fontWeight || 400, label: label(t.el) });
   }
   if (phone) for (const el of document.querySelectorAll('a,button,input,select,summary,[role=button]')) {
     const r = vis(el); if (r && (r.width < 40 || r.height < 40) && (el.textContent || '').trim().length) f.taps.push(label(el) + ' ' + Math.round(r.width) + 'x' + Math.round(r.height));
