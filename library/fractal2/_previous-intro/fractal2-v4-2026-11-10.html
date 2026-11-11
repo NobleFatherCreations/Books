@@ -1,0 +1,1393 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Fractal²: The Closer You Look, the More There Is</title>
+<meta name="description" content="The full map of manipulation: more than 300 tactics per sector at three levels, and the combinations where the order is the weapon. Start here.">
+<link rel="canonical" href="https://noblefathercreations.com/fractal2">
+<meta property="og:type" content="article"><meta property="og:site_name" content="Fractal² · Noble Father Creations">
+<meta property="og:title" content="Fractal²: The Closer You Look, the More There Is"><meta property="og:description" content="The full map of manipulation: more than 300 tactics per sector at three levels, and the combinations where the order is the weapon. Start here.">
+<meta property="og:url" content="https://noblefathercreations.com/fractal2"><meta property="og:image" content="https://noblefathercreations.com/fractal2/_a/og/intro.png">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="preload" href="/fractal2/_a/f/newsreader.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/fractal2/_a/f/hanken.woff2" as="font" type="font/woff2" crossorigin>
+<meta name="theme-color" content="#0B0C0F" media="(prefers-color-scheme: dark)"><meta name="theme-color" content="#F5F0E6" media="(prefers-color-scheme: light)">
+<script>document.documentElement.className+=' js'</script>
+<style>/* Fractal² shared design tokens and base. Used by the intro (design/fractal2/build_intro.py) and by every
+   sector site (design/fractal-sector/build.py). One language: "Deep field".
+   Dark first. One accent (gold = the original, the signal, the thing you can act on). Two typefaces.
+   8px grid. Stage hues are data ink only (small marks), never decoration.
+   /fractal2/_a/f/ is replaced at build time with the absolute font directory. */
+@font-face{font-family:"Newsreader";src:url("/fractal2/_a/f/newsreader.woff2") format("woff2");font-weight:200 800;font-style:normal;font-display:swap}
+@font-face{font-family:"Newsreader";src:url("/fractal2/_a/f/newsreader-italic.woff2") format("woff2");font-weight:200 800;font-style:italic;font-display:swap}
+@font-face{font-family:"Hanken Grotesk";src:url("/fractal2/_a/f/hanken.woff2") format("woff2");font-weight:100 900;font-style:normal;font-display:swap}
+
+:root{
+  color-scheme:dark light;
+  /* surface */
+  --bg:#0B0C0F; --bg-1:#111319; --bg-2:#191C24; --line:#2B2F3A; --line-2:#3A3F4D;
+  /* ink */
+  --ink:#EEE9DE; --ink-2:#B9B4A8; --ink-3:#8D897F;
+  /* the one accent */
+  --gold:#E9B949; --gold-2:#F4D58A; --on-gold:#0B0C0F; --gold-wash:rgba(233,185,73,.12);
+  /* function, not decoration */
+  --warn:#F2906F; --warn-wash:rgba(242,144,111,.12);
+  /* the eight stages: warmth cooling into distance */
+  --s1:#F2C14E; --s2:#F09A3E; --s3:#E8683F; --s4:#D9486A; --s5:#B061B4; --s6:#7B83E0; --s7:#58A3D6; --s8:#8FB3C2;
+  /* type */
+  --serif:"Newsreader","Iowan Old Style","Palatino Linotype",Georgia,serif;
+  --sans:"Hanken Grotesk",system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;
+  --t-display:clamp(2.75rem,1.2rem + 7.6vw,6.5rem);
+  --t-h1:clamp(2.25rem,1.4rem + 4.2vw,4.25rem);
+  --t-h2:clamp(1.625rem,1.25rem + 1.9vw,2.5rem);
+  --t-h3:clamp(1.25rem,1.15rem + .5vw,1.5rem);
+  --t-lede:clamp(1.1875rem,1.1rem + .45vw,1.4375rem);
+  --t-body:1.1875rem; --t-ui:.9375rem; --t-small:.8125rem; --t-micro:.6875rem;
+  --measure:38rem;
+  /* space: 8px grid */
+  --1:.5rem; --2:1rem; --3:1.5rem; --4:2rem; --6:3rem; --8:4rem; --12:6rem; --16:8rem;
+  --gutter:clamp(1.25rem,5vw,3rem);
+  --r:10px; --r-2:16px;
+  /* motion */
+  --ease:cubic-bezier(.16,1,.3,1); --ease-io:cubic-bezier(.65,0,.35,1);
+  --d1:.2s; --d2:.32s; --d3:.7s;
+  /* names THE HOUSE drawer (design/decoder-v10/assets/house.html) expects from its host page */
+  --accent:var(--gold); --accent-ink:var(--on-gold); --accent-grad:var(--gold-2); --glow-1:rgba(233,185,73,.35);
+  --line2:var(--line-2); --mut:var(--ink-2); --edge-hi:rgba(255,255,255,.06); --mono:var(--sans);
+}
+@media (prefers-color-scheme:light){
+  :root{
+    --bg:#F5F0E6; --bg-1:#FBF8F2; --bg-2:#ECE5D7; --line:#D6CDBD; --line-2:#BDB29F;
+    --ink:#16171B; --ink-2:#45443F; --ink-3:#66645D;
+    --gold:#8A5E00; --gold-2:#6E4B00; --on-gold:#FFFDF8; --gold-wash:rgba(160,112,0,.11);
+    --warn:#A53A1E; --warn-wash:rgba(165,58,30,.09);
+    --s1:#8C6200; --s2:#A85A00; --s3:#B5421C; --s4:#B02A4E; --s5:#8A3F8E; --s6:#4A52B8; --s7:#256FA3; --s8:#44707F;
+  }
+}
+
+*,*::before,*::after{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%;text-size-adjust:100%;scroll-padding-top:5rem}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:var(--serif);font-size:var(--t-body);line-height:1.6;
+  font-optical-sizing:auto;-webkit-font-smoothing:antialiased;text-rendering:optimizeLegibility;overflow-wrap:break-word}
+h1,h2,h3,h4{font-family:var(--serif);font-weight:500;line-height:1.08;letter-spacing:-.018em;margin:0;text-wrap:balance}
+h1{font-size:var(--t-h1)} h2{font-size:var(--t-h2);line-height:1.12} h3{font-size:var(--t-h3);line-height:1.2;letter-spacing:-.01em}
+p{margin:0 0 var(--3);text-wrap:pretty}
+a{color:inherit;text-decoration-line:underline;text-decoration-thickness:1px;text-underline-offset:.2em;text-decoration-color:var(--gold);
+  transition:color var(--d1) var(--ease),text-decoration-color var(--d1) var(--ease)}
+a:hover{color:var(--gold)}
+:focus-visible{outline:2px solid var(--gold);outline-offset:3px;border-radius:4px}
+::selection{background:var(--gold);color:var(--on-gold)}
+strong,b{font-weight:650}
+button,input,select{font:inherit;color:inherit}
+img,svg,canvas{max-width:100%}
+.ui{font-family:var(--sans);font-size:var(--t-ui);line-height:1.45}
+.kicker{font-family:var(--sans);font-size:var(--t-micro);font-weight:600;letter-spacing:.16em;text-transform:uppercase;color:var(--ink-2);margin:0 0 var(--2)}
+.num{font-family:var(--sans);font-variant-numeric:tabular-nums lining-nums}
+.vh{position:absolute!important;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);clip-path:inset(50%);white-space:nowrap}
+.skip{position:absolute;left:var(--2);top:-4rem;z-index:100;background:var(--gold);color:var(--on-gold);padding:var(--1) var(--2);border-radius:var(--r);
+  font-family:var(--sans);font-size:var(--t-ui);text-decoration:none;transition:top var(--d1) var(--ease)}
+.skip:focus{top:var(--2)}
+@media (prefers-reduced-motion:reduce){
+  *,*::before,*::after{animation-duration:.001ms!important;animation-iteration-count:1!important;transition-duration:.001ms!important;scroll-behavior:auto!important}
+}
+
+/* Fractal² intro page. Sits on tokens.css. One fixed stage (canvas) behind the text; the text scrolls over or beside it.
+   Wide screens: text in a left column, stage on the right. Narrow screens: stage full-bleed and dimmed behind prose,
+   bright during figures, with step cards riding the lower third. */
+html{scroll-behavior:auto}
+body.intro{overflow-x:clip;min-height:100vh}
+#stage{position:fixed;inset:0;width:100vw;height:100vh;height:100lvh;z-index:0;pointer-events:none;display:block}
+#labels{position:fixed;inset:0;z-index:1;pointer-events:none;overflow:hidden;contain:strict}
+html:not(.js) #stage,html:not(.js) #labels{display:none}
+main{position:relative;z-index:2}
+
+/* ---- top bar ---- */
+.bar{position:fixed;top:0;left:0;right:0;z-index:40;height:3.5rem;display:flex;align-items:center;justify-content:space-between;
+  padding:0 var(--gutter);padding-top:env(safe-area-inset-top);
+  background:linear-gradient(to bottom,var(--bg) 0%,color-mix(in srgb,var(--bg) 82%,transparent) 62%,transparent 100%)}
+.mark{font-family:var(--serif);font-size:1.25rem;font-weight:500;letter-spacing:-.01em;text-decoration:none;color:var(--ink);padding:.5rem 0}
+.mark sup,.title sup{font-size:.52em;vertical-align:.72em;line-height:0;color:var(--gold);font-weight:500;margin-left:.04em}
+.bar-r{display:flex;gap:.25rem;align-items:center}
+.bb{display:inline-flex;align-items:center;gap:.5rem;min-height:2.75rem;min-width:2.75rem;padding:0 .75rem;border:0;border-radius:999px;background:transparent;
+  font-family:var(--sans);font-size:var(--t-small);font-weight:600;letter-spacing:.04em;color:var(--ink-2);cursor:pointer;justify-content:center;
+  transition:color var(--d1) var(--ease),background var(--d1) var(--ease)}
+.bb:hover,.bb[aria-expanded="true"]{color:var(--ink);background:var(--bg-2)}
+.bb.leave{border:1px solid var(--line-2);color:var(--ink)}
+html:not(.js) .bb{display:none}
+.prog{position:absolute;left:0;right:0;top:calc(3.5rem + env(safe-area-inset-top) - 1px);height:1px;background:transparent}
+.prog i{display:block;height:1px;width:100%;background:var(--gold);transform-origin:0 50%;transform:scaleX(0)}
+@media (max-width:30rem){.bb span{position:absolute;width:1px;height:1px;overflow:hidden;clip-path:inset(50%)}.bb{padding:0}}
+
+.toc{position:fixed;z-index:39;top:calc(3.75rem + env(safe-area-inset-top));right:var(--gutter);width:min(24rem,calc(100vw - 2*var(--gutter)));
+  max-height:calc(100svh - 5rem);overflow:auto;background:var(--bg-1);border:1px solid var(--line);border-radius:var(--r-2);padding:var(--2) var(--1) var(--2)}
+.toc ol{list-style:none;margin:0;padding:0}
+.toc a{display:flex;gap:var(--2);align-items:baseline;padding:.625rem var(--2);border-radius:var(--r);text-decoration:none;font-size:1.0625rem;line-height:1.3;min-height:2.75rem}
+.toc a:hover,.toc a[aria-current="true"]{background:var(--bg-2);color:var(--ink)}
+.toc a[aria-current="true"] .num{color:var(--gold)}
+.toc .num{flex:0 0 2rem;font-size:var(--t-small);font-weight:600;color:var(--ink-3);letter-spacing:.06em}
+.toc-x{margin:var(--1) 0 0;padding-top:var(--1);border-top:1px solid var(--line);font-family:var(--sans);font-size:var(--t-ui)}
+.toc-x a{color:var(--gold)}
+
+/* ---- the text column ---- */
+.col{width:min(34rem,calc(100% - 2*var(--gutter)));margin-inline:auto}
+@media (min-width:60rem) and (min-aspect-ratio:1/1){
+  .col{width:min(33rem,41vw);margin-left:max(6vw,calc((100vw - 84rem)/2));margin-right:0}
+}
+.hero{min-height:100vh;min-height:100svh;display:flex;flex-direction:column;justify-content:flex-end;padding:6rem var(--gutter) 14vh;position:relative}
+.hero-in{max-width:34rem}
+.title{font-size:clamp(4rem,1rem + 14vw,8.5rem);font-weight:400;letter-spacing:-.035em;line-height:.95;margin:0 0 var(--3)}
+.tagline{font-size:var(--t-h2);line-height:1.15;font-style:italic;color:var(--ink);margin:0 0 var(--4);letter-spacing:-.01em;text-wrap:balance}
+.lens{font-family:var(--sans);font-size:var(--t-ui);line-height:1.55;color:var(--ink-2);max-width:30rem;margin:0}
+.lens em{font-style:normal}
+.cue{position:absolute;left:var(--gutter);bottom:4vh;margin:0;font-family:var(--sans);font-size:var(--t-micro);font-weight:600;letter-spacing:.2em;text-transform:uppercase;color:var(--ink-3);display:flex;align-items:center;gap:var(--2)}
+.cue i{display:block;width:1px;height:2.5rem;background:linear-gradient(var(--gold),transparent);transform-origin:50% 0;animation:cue 2.4s var(--ease-io) infinite}
+@keyframes cue{0%{transform:scaleY(0)}45%{transform:scaleY(1)}100%{transform:scaleY(1);opacity:0}}
+@media (min-width:60rem) and (min-aspect-ratio:1/1){
+  .hero{justify-content:center;padding-left:max(6vw,calc((100vw - 84rem)/2));padding-bottom:6rem}
+  .cue{left:max(6vw,calc((100vw - 84rem)/2))}
+}
+
+.ch{padding-top:22vh;position:relative}
+.ch:first-of-type{padding-top:10vh}
+.rn{font-family:var(--sans);font-size:var(--t-small);font-weight:600;letter-spacing:.24em;color:var(--gold);margin:0 0 var(--2)}
+.rn::after{content:"";display:inline-block;width:2.5rem;height:1px;background:var(--line-2);vertical-align:middle;margin-left:var(--2)}
+.ch h2{font-size:var(--t-h1);font-weight:400;letter-spacing:-.028em;line-height:1.02;margin-bottom:var(--6)}
+.ch h3{font-size:var(--t-h2);font-weight:400;margin:var(--12) 0 var(--4);letter-spacing:-.02em}
+.ch p{margin:0 0 var(--3)}
+.ch p.lines{line-height:1.5}
+.ch p.lines br{display:block;content:"";margin-top:.55em}
+.ch p.strike{font-size:var(--t-h3);line-height:1.25;margin:var(--4) 0}
+.ch p.strike strong{font-weight:500}
+.ch p.aside{font-size:var(--t-h3);color:var(--gold);margin:var(--4) 0}
+.sn{position:relative}
+.sn>.col:last-child>p:last-child{margin-bottom:0}
+.sn+.sn{margin-top:var(--4)}
+.more{font-family:var(--sans);font-size:var(--t-small);font-weight:600;letter-spacing:.02em;margin-top:var(--4)!important}
+.more a{color:var(--gold);text-decoration:none;display:inline-flex;gap:.5em;min-height:2.75rem;align-items:center}
+.more a span,.cta a span,.cta2 a span{transition:transform var(--d1) var(--ease)}
+.more a:hover span,.cta a:hover span,.cta2 a:hover span{transform:translateX(4px)}
+.cta,.cta2{font-family:var(--sans);margin:var(--2) 0!important}
+.cta a{display:inline-flex;align-items:center;gap:.75em;min-height:3.5rem;padding:0 1.75rem;border-radius:999px;background:var(--gold);color:var(--on-gold);
+  font-weight:700;font-size:1.0625rem;text-decoration:none;transition:transform var(--d1) var(--ease),background var(--d1) var(--ease)}
+.cta a:hover{background:var(--gold-2);color:var(--on-gold);transform:translateY(-2px)}
+.cta2 a{display:inline-flex;align-items:center;gap:.6em;min-height:2.75rem;font-weight:600;font-size:var(--t-ui);color:var(--ink);text-decoration-color:var(--gold)}
+.ch:last-of-type{padding-bottom:var(--12)}
+.ch:last-of-type p:last-of-type em{font-family:var(--sans);font-style:normal;font-size:var(--t-small);line-height:1.55;color:var(--ink-2);display:block;margin-top:var(--6);padding-top:var(--3);border-top:1px solid var(--line)}
+.updates{padding:var(--8) 0 calc(var(--16) + env(safe-area-inset-bottom));color:var(--ink-2)}
+.updates .kicker{margin-bottom:var(--2)}
+.badge{display:inline-block;font-family:var(--sans);font-size:var(--t-micro);font-weight:700;letter-spacing:.08em;border:1px solid var(--line-2);border-radius:999px;padding:.2rem .6rem;margin-right:.5rem;color:var(--ink)}
+.fine{color:var(--ink-3);font-size:var(--t-small)}
+
+/* ---- figures ---- */
+.fig{margin:var(--6) 0 0;position:relative}
+.fig-space{height:calc(var(--hold,1.6) * 100vh)}
+.steps{list-style:none;margin:0;padding:0}
+.step{min-height:92vh;min-height:92svh;display:flex;align-items:flex-start;padding:0 var(--gutter)}
+.step p{width:100%;max-width:34rem;margin:0 auto;padding:var(--2) var(--3);background:color-mix(in srgb,var(--bg-1) 94%,transparent);border:1px solid var(--line);border-radius:var(--r-2);
+  font-size:1.125rem;line-height:1.45;transition:opacity var(--d2) var(--ease),border-color var(--d2) var(--ease);position:sticky;top:62vh;top:62svh}
+.steps::after{content:"";display:block;height:calc((var(--hold,1) - 1) * 100vh + 30vh)}
+html.live .step p{opacity:0}
+html.live .step.on p{opacity:1;border-color:var(--line-2)}
+@media (min-width:60rem) and (min-aspect-ratio:1/1){
+  .step{align-items:center;padding:0;min-height:64vh}
+  .step p{position:static;margin-left:max(6vw,calc((100vw - 84rem)/2));width:min(33rem,41vw);max-width:none;background:none;border:0;border-left:1px solid var(--line-2);border-radius:0;padding:var(--1) 0 var(--1) var(--3);font-size:var(--t-lede);line-height:1.4}
+  html.live .step p{opacity:.35}
+  html.live .step.on p{border-left-color:var(--gold)}
+}
+.alt{font-family:var(--sans);font-size:var(--t-small);line-height:1.55;color:var(--ink-2);width:min(34rem,calc(100% - 2*var(--gutter)));margin:0 auto;
+  padding:var(--2) var(--3);border-left:2px solid var(--gold);background:var(--bg-1)}
+.alt-k{display:block;font-size:var(--t-micro);font-weight:700;letter-spacing:.14em;text-transform:uppercase;color:var(--ink-3);margin-bottom:.25rem}
+/* with motion on, the picture carries it and the words stay available to assistive technology */
+html.live:not(.rm) .alt{position:absolute;width:1px;height:1px;overflow:hidden;clip-path:inset(50%);white-space:nowrap;padding:0;border:0}
+/* reduced motion: every figure is a still picture with its words beside it; steps become an ordinary list */
+html.rm .step{min-height:0;padding-bottom:var(--2);align-items:flex-start}
+html.rm .step p,html:not(.js) .step p{position:static}
+html.rm .step p,html.rm.live .step p{opacity:1}
+html.rm .steps::after{height:72vh}
+html.rm .fig-space{height:72vh}
+html:not(.js) .step{min-height:0;padding-bottom:var(--2)}
+html:not(.js) .steps::after{display:none}
+html:not(.js) .fig-space{display:none}
+html:not(.js) .cue{display:none}
+
+/* ---- labels drawn over the stage ---- */
+.lb{position:absolute;left:0;top:0;opacity:0;transition:opacity .45s var(--ease);will-change:transform,opacity;white-space:nowrap;
+  font-family:var(--sans);font-size:var(--t-micro);font-weight:600;letter-spacing:.14em;text-transform:uppercase;color:var(--ink-2);text-align:center}
+.lb.on{opacity:1}
+.lb.big .sub{max-width:16rem;margin-left:auto;margin-right:auto}
+.lb.big{font-family:var(--serif);font-weight:400;font-size:clamp(2.5rem,9vw,5.5rem);letter-spacing:-.03em;text-transform:none;color:var(--ink);line-height:1;font-variant-numeric:tabular-nums lining-nums}
+.lb.mid{font-family:var(--serif);font-weight:400;font-size:clamp(1.5rem,4.6vw,2.5rem);letter-spacing:-.02em;text-transform:none;color:var(--ink);line-height:1.1}
+.lb.nm{font-family:var(--serif);font-style:italic;font-weight:400;font-size:clamp(1.0625rem,2.6vw,1.5rem);letter-spacing:-.005em;text-transform:none;color:var(--ink)}
+.lb.cap{font-size:var(--t-small);letter-spacing:.02em;text-transform:none;font-weight:500;color:var(--ink-2);white-space:normal;width:min(20rem,78vw);line-height:1.4}
+.lb.gold{color:var(--gold)}
+/* the zoom figure: the original artwork and the rings of the full map */
+.lb.art,.lb.mand{transform-origin:0 0;transition:opacity .5s var(--ease);will-change:transform,opacity}
+.lb.art{width:calc(860px * 960 / 1720);height:860px}
+.lb.art img{display:block;width:100%;height:100%;
+  -webkit-mask-image:radial-gradient(ellipse 78.5% 43.8% at 50% 47.3%,#000 86%,transparent 100%),linear-gradient(90deg,transparent 0,#000 16%,#000 84%,transparent 100%);
+  mask-image:radial-gradient(ellipse 78.5% 43.8% at 50% 47.3%,#000 86%,transparent 100%),linear-gradient(90deg,transparent 0,#000 16%,#000 84%,transparent 100%);
+  -webkit-mask-composite:source-in;mask-composite:intersect}
+.lb.mand{will-change:transform,opacity;text-transform:none;letter-spacing:0}
+.lb.mand svg{display:block;width:100%;height:100%;overflow:visible}
+.zg{opacity:0;transition:opacity .25s linear}
+.zl{fill:none;stroke:var(--zc);stroke-width:1.6;opacity:.55}
+.zt{font-family:var(--sans);font-weight:700;letter-spacing:.16em;fill:var(--zc)}
+.zn{font-family:var(--sans);font-weight:500;fill:var(--ink);opacity:.86}
+.zs1{--zc:var(--s1)}.zs2{--zc:var(--s2)}.zs3{--zc:var(--s3)}.zs4{--zc:var(--s4)}.zs5{--zc:var(--s5)}.zs6{--zc:var(--s6)}.zs7{--zc:var(--s7)}.zs8{--zc:var(--s8)}
+circle.zs8{stroke:var(--s8)}
+html.rm .zg{transition:none}
+.lb.tiny{font-size:.5625rem;letter-spacing:.08em}
+.lb.dim{color:var(--ink-3)}
+.lb.shut{color:var(--ink-3);text-decoration:line-through;text-decoration-color:var(--warn)}
+.lb .sub{display:block;font-family:var(--sans);font-size:var(--t-small);font-style:normal;font-weight:500;letter-spacing:.02em;text-transform:none;color:var(--ink-2);margin-top:.5rem;white-space:normal}
+.lb .x{display:inline-block;transition:opacity .4s var(--ease)}
+html.rm .lb{transition:none}
+
+/* ---- narration player ---- */
+.player{position:fixed;z-index:45;left:0;right:0;bottom:0;padding:0 var(--gutter) calc(.75rem + env(safe-area-inset-bottom));pointer-events:none}
+.pl-in{pointer-events:auto;max-width:44rem;margin:0 auto;display:flex;align-items:center;gap:.5rem;background:color-mix(in srgb,var(--bg-1) 96%,transparent);border:1px solid var(--line-2);border-radius:var(--r-2);padding:.5rem .625rem;font-family:var(--sans)}
+.pl-b{flex:0 0 auto;width:2.75rem;height:2.75rem;border-radius:999px;border:0;background:var(--gold);color:var(--on-gold);display:inline-flex;align-items:center;justify-content:center;cursor:pointer;font-family:var(--sans);font-size:var(--t-small);font-weight:700;
+  transition:transform var(--d1) var(--ease),background var(--d1) var(--ease)}
+.pl-b:active{transform:scale(.94)}
+.pl-b.sm{background:transparent;color:var(--ink-2);width:auto;min-width:2.75rem;padding:0 .5rem}
+.pl-b.sm:hover,.pl-b.sm[aria-pressed="true"]{color:var(--ink);background:var(--bg-2)}
+.pl-b .i-pause,.player.playing .pl-b .i-play{display:none}
+.player.playing .pl-b .i-pause{display:block}
+#pl-mute .i-off,#pl-mute[aria-pressed="true"] .i-on{display:none}
+#pl-mute[aria-pressed="true"] .i-off{display:block}
+.pl-mid{flex:1 1 auto;min-width:0}
+.pl-cap{margin:0 0 .25rem;font-size:var(--t-small);line-height:1.35;color:var(--ink);display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden;min-height:2.7em}
+.pl-row{display:flex;align-items:center;gap:.5rem}
+#pl-seek{flex:1 1 auto;min-width:0;height:1.25rem;accent-color:var(--gold);background:transparent}
+.pl-time{font-size:var(--t-micro);color:var(--ink-3);flex:0 0 auto}
+@media (max-width:34rem){#pl-follow{display:none}.pl-in{gap:.25rem}}
+body.pl-open .nf-seal{bottom:calc(6.5rem + env(safe-area-inset-bottom))}
+body.pl-open .updates{padding-bottom:calc(var(--16) + 6rem)}
+.nq{outline:1px solid transparent}
+html.live .ch [data-n].nq-on{color:var(--ink)}
+@media print{#stage,#labels,.bar,.player,.cue,.nf-seal{display:none!important}.fig-space,.steps::after{display:none}.step{min-height:0}body{background:#fff;color:#000}}
+</style>
+<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "Article", "headline": "Fractal²: The Closer You Look, the More There Is", "description": "The full map of manipulation: more than 300 tactics per sector at three levels, and the combinations where the order is the weapon. Start here.", "url": "https://noblefathercreations.com/fractal2", "inLanguage": "en", "datePublished": "2026-11-10", "dateModified": "2026-11-10", "author": {"@type": "Person", "name": "Shae Stovell", "url": "https://noblefathercreations.com"}, "publisher": {"@type": "Organization", "name": "Noble Father Creations", "url": "https://noblefathercreations.com"}, "isPartOf": {"@type": "CreativeWorkSeries", "name": "Fractal²", "url": "https://noblefathercreations.com/fractal2"}, "about": ["manipulation tactics", "coercive control", "the narcissistic abuse cycle", "recovery"]}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Noble Father Creations", "item": "https://noblefathercreations.com/"}, {"@type": "ListItem", "position": 2, "name": "Fractal²", "item": "https://noblefathercreations.com/fractal2"}]}]}</script>
+</head>
+<body class="intro">
+<a class="skip" href="#main">Skip to the text</a>
+<canvas id="stage" aria-hidden="true"></canvas>
+<div id="labels" aria-hidden="true"></div>
+<header class="bar" id="bar">
+  <a class="mark" href="/fractal2">Fractal<sup>2</sup><span class="vh"> (Fractal squared): top of the page</span></a>
+  <div class="bar-r">
+    <button class="bb" id="listen" type="button" aria-expanded="false" aria-controls="player"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 14v-2a9 9 0 0 1 18 0v2"/><path d="M21 15v2a2 2 0 0 1-2 2h-1v-6h3zM3 15v2a2 2 0 0 0 2 2h1v-6H3z"/></svg><span>Listen</span></button>
+    <button class="bb" id="toc-b" type="button" aria-expanded="false" aria-controls="toc"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h10"/></svg><span>Contents</span></button>
+    <button class="bb leave" id="leave" type="button" aria-label="Leave this site now"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M14 4h5v16h-5M10 8l-4 4 4 4M6 12h10"/></svg><span>Leave</span></button>
+  </div>
+  <div class="prog" aria-hidden="true"><i id="prog"></i></div>
+</header>
+<nav class="toc" id="toc" aria-label="Contents" hidden>
+  <ol><li><a href="#part-i"><span class="num">I</span>The feeling without a name</a></li><li><a href="#part-ii"><span class="num">II</span>What The Fractal saw</a></li><li><a href="#part-iii"><span class="num">III</span>The pattern without a hand on it</a></li><li><a href="#part-iv"><span class="num">IV</span>The mirror and the chain</a></li><li><a href="#part-v"><span class="num">V</span>The closer you look</a></li><li><a href="#part-vi"><span class="num">VI</span>Why I can draw this</a></li><li><a href="#part-vii"><span class="num">VII</span>The sequence</a></li><li><a href="#part-viii"><span class="num">VIII</span>What it was built from</a></li><li><a href="#part-ix"><span class="num">IX</span>Down</a></li><li><a href="#part-x"><span class="num">X</span>What this is for</a></li><li><a href="#part-xi"><span class="num">XI</span>The door</a></li></ol>
+  <p class="toc-x"><a href="/fractal2/entertainment">The first sector: Entertainment &amp; Music <span aria-hidden="true">→</span></a></p>
+</nav>
+<main id="main">
+<section class="hero sn" data-scene="signal" id="top">
+  <div class="hero-in">
+    <p class="kicker">Noble Father Creations · Shae Stovell</p>
+    <h1 class="title">Fractal<sup>2</sup></h1>
+    <p class="tagline" data-n="1">The closer you look, the more there is.</p>
+    <p class="lens" data-n="2"><em>What follows is my lens. It is how I came to see the world after mapping it, and I offer it as exactly that: one person&#x27;s sight, to be tested against your own life. The evidence lives in the sector work. This page tells you what it adds up to.</em></p>
+  </div>
+  <p class="cue" aria-hidden="true"><span>Scroll</span><i></i></p>
+</section>
+<section class="ch" id="part-i" aria-labelledby="part-i-h">
+<div class="col"><p class="rn" aria-hidden="true">I</p><h2 id="part-i-h" data-n="3"><span class="vh">Part I: </span>The feeling without a name</h2></div>
+<div class="sn" data-scene="room">
+<div class="col"><p data-n="4">There is a feeling almost everyone knows and almost no one can name.</p></div>
+<div class="col"><p data-n="5">It is the tightening in your stomach in a room where everyone else seems fine. It is the moment your own words come out wrong and you cannot say why. It is the apology you hear yourself making for something that was done to you.</p></div>
+<div class="col"><p data-n="6">You leave the relationship that hollowed you out, and you meet the same feeling at work. You leave the job, and it is waiting at the bank, at the clinic, in the pew, on the screen in your hand at two in the morning. It follows you from building to building. And because it follows you, you reach the only conclusion that seems to fit.</p></div>
+<div class="col"><p class="aside" data-n="7"><em>It must be me.</em></p></div>
+<div class="col"><p data-n="8"><em>The Fractal</em> began as a refusal of that conclusion. It asked one question and would not let it go.</p></div>
+<div class="col"><p data-n="9">What if it isn&#x27;t you?</p></div>
+<div class="col"><p data-n="10">What if the thing that breaks a person inside one relationship is not a private wound at all, but a shape? And what if you keep meeting it in every building because it is the same shape in every building?</p></div>
+</div>
+</section>
+<section class="ch" id="part-ii" aria-labelledby="part-ii-h">
+<div class="col"><p class="rn" aria-hidden="true">II</p><h2 id="part-ii-h" data-n="11"><span class="vh">Part II: </span>What The Fractal saw</h2></div>
+<div class="sn" data-scene="cycle">
+<div class="col"><p data-n="12">A fractal is a pattern that repeats at every scale. A fern&#x27;s leaf is a small fern. A river delta looks like the veins of the leaf beside it. Break off any piece, look closely, and you find the whole.</p></div>
+<div class="col"><p data-n="13">The cycle that runs inside a manipulative relationship is that kind of shape. It has eight stages, and they arrive in order.</p></div>
+<figure class="fig has-steps" data-fig="cycle" style="--hold:1.0;--n:8" aria-label="Figure: cycle">
+  <ol class="steps"><li class="step" data-n="14"><p><strong>Idealize.</strong> You are seen, chosen, flooded with warmth.</p></li><li class="step" data-n="15"><p><strong>Hook.</strong> You commit, and leaving begins to cost something.</p></li><li class="step" data-n="16"><p><strong>Devalue.</strong> The warmth cools, and your worth becomes a thing you have to earn back.</p></li><li class="step" data-n="17"><p><strong>Confuse.</strong> What you saw, what you heard and what you felt are put in doubt.</p></li><li class="step" data-n="18"><p><strong>Isolate.</strong> The people who could have told you what they saw are moved out of reach.</p></li><li class="step" data-n="19"><p><strong>Extract.</strong> What you have is taken: time, money, labor, body, belief.</p></li><li class="step" data-n="20"><p><strong>Discard.</strong> You are dropped when there is nothing left to take.</p></li><li class="step" data-n="21"><p><strong>Replace.</strong> Someone new is in your seat before it is cold.</p></li></ol>
+  <figcaption class="alt"><span class="alt-k">What the figure shows</span> Eight stages arranged in a ring, lighting one after another: Idealize, Hook, Devalue, Confuse, Isolate, Extract, Discard, Replace. After Replace the ring begins again at Idealize.</figcaption>
+</figure>
+<div class="col"><p data-n="22">Thirty techniques carry a person through those eight stages, from the love bombing at the door to the plausible deniability on the way out. I mapped all thirty, in the order they run.</p></div>
+</div>
+<div class="sn" data-scene="levels">
+<div class="col"><p data-n="23">Then I showed every one of them at three levels of scale.</p></div>
+<figure class="fig has-steps" data-fig="levels" style="--hold:1.0;--n:4" aria-label="Figure: levels">
+  <ol class="steps"><li class="step" data-n="24"><p><strong>In one life:</strong> the partner, the parent, the boss. The pattern wearing a human face.</p></li><li class="step" data-n="25"><p><strong>Inside an institution:</strong> the church, the school, the hospital, the company. The pattern wearing a logo.</p></li><li class="step" data-n="26"><p><strong>Across a civilization:</strong> the economy, the culture, the law. The pattern wearing the sky.</p></li><li class="step" data-n="27"><p>The levels do not sit side by side. They nest. The person lives inside the institution. The institution lives inside the civilization. The civilization lives inside the pattern. And the pattern lives inside the person.</p></li></ol>
+  <figcaption class="alt"><span class="alt-k">What the figure shows</span> Three rings, one inside the next: a single life at the centre, the institution around it, the civilization around that. Then the same three rings appear again, very small, inside the centre point: the pattern inside the person.</figcaption>
+</figure>
+<div class="col"><p data-n="28">That is why you could never find the edge of it. You were looking for something above you. It was around you, and through you, and in you, all at once.</p></div>
+</div>
+<div class="sn" data-scene="count">
+<div class="col"><p data-n="29">Then I walked that map through thirty sectors of human life, one at a time, and filmed every one.</p></div>
+<div class="col"><p data-n="30">Thirty techniques. Three levels. Thirty sectors.</p></div>
+<div class="col"><p class="strike" data-n="31"><strong>Two thousand seven hundred examples.</strong></p></div>
+<div class="col"><p data-n="32">And at the end of it, a dare: prove me wrong. Find the building where the cycle does not run.</p></div>
+<div class="col"><p data-n="33">I am still waiting.</p></div>
+<figure class="fig" data-fig="count" style="--hold:1.6;--n:0" aria-label="Figure: count">
+  <div class="fig-space" aria-hidden="true"></div>
+  <figcaption class="alt"><span class="alt-k">What the figure shows</span> 2,700 points of light, one for every example in The Fractal, arranged in thirty columns: one column for each sector, ninety points in each.</figcaption>
+</figure>
+<div class="col"><h3 data-n="34">Every need has a gate</h3></div>
+</div>
+<div class="sn" data-scene="gates">
+<div class="col"><p data-n="35">Thirty sectors did not turn out to be thirty problems. They turned out to be one pattern, standing at thirty gates.</p></div>
+<div class="col"><p data-n="36">Every sector of human life exists because of a real need. And at every one of them, something has placed itself between you and the need, and called itself necessary.</p></div>
+<div class="col"><p data-n="37">You needed nourishment, and someone put a price on what the ground grew for free. You needed healing, and you met a billing department. You needed to learn, and you were handed a loan. You needed shelter, and the cage was called a mortgage. You needed justice, and the courtroom had a price. You needed to belong somewhere, and home became a document. You needed the sacred, and someone stepped between you and God and said the way led through him. You needed love, and it arrived with conditions, where none were ever meant to exist.</p></div>
+<div class="col"><p data-n="38">So each sector is more than an industry. Each one is the capture of a relationship.</p></div>
+<div class="col"><p data-n="39">Religion, and your relationship with the divine. Education, and your relationship with your own mind. Healthcare, and your relationship with your own body. Finance, and your relationship with survival. Media, and your relationship with reality. Beauty, and your relationship with your own reflection. Family, and your relationship with love.</p></div>
+<div class="col"><p data-n="40">From the hospital that receives you at birth to the industry that bills you at death, there is no part of a human life it has left unoccupied.</p></div>
+<figure class="fig" data-fig="gates" style="--hold:4.2;--n:0" aria-label="Figure: gates">
+  <div class="fig-space" aria-hidden="true"></div>
+  <figcaption class="alt"><span class="alt-k">What the figure shows</span> Thirty gates in a ring around a single point, which is you. Each gate carries a sector and the relationship it captures: Religion, the divine. Politics, power. Media, reality. Education, your own mind. Healthcare, your own body. Finance, survival. Technology, attention and identity. Family, love. The legal system, freedom. Corporate life, your labor. The military, your sovereignty. Entertainment, being seen. Wellness, your wound. Food, nourishment. Housing, rest. Sports, your physical self. Science, truth and inquiry. Nonprofits, compassion. Beauty, self-acceptance. Dating, intimacy. Surveillance, privacy and autonomy. Child welfare, innocence. Aging and death, mortality. Energy and environment, the living earth. Transportation, movement and access. Mental health, your inner world. Pharmaceuticals, what enters your body. Insurance, risk and safety. Incarceration, confinement. Immigration, belonging and displacement.</figcaption>
+</figure>
+<div class="col"><p data-n="41">And every gate works the same way. The original was free. The counterfeit adds one thing the original never had: a condition.</p></div>
+<div class="col"><p class="lines" data-n="42"><em>You belong here, as long as you comply.</em><br><em>You are safe, as long as you don&#x27;t leave.</em><br><em>You are loved, when you produce.</em></p></div>
+<div class="col"><p data-n="43">This is the deepest injury the cycle causes. It hurts you, and then it does something worse: it bends your relationship with the thing you need, until the need itself feels dangerous. Until you flinch at help. Until you distrust the doctor, the teacher, the church, the partner, and finally yourself.</p></div>
+</div>
+</section>
+<section class="ch" id="part-iii" aria-labelledby="part-iii-h">
+<div class="col"><p class="rn" aria-hidden="true">III</p><h2 id="part-iii-h" data-n="44"><span class="vh">Part III: </span>The pattern without a hand on it</h2></div>
+<div class="sn" data-scene="origin">
+<div class="col"><p data-n="45">Then I traced it back.</p></div>
+<div class="col"><p data-n="46">Back through the algorithm and the factory. Back through the colony and the crown. Back through standing armies and written law, through the invention of money and the invention of writing, all the way to the first stored surplus, and the first hand that closed around the door to it.</p></div>
+<div class="col"><p data-n="47">What I found there changed how I understand everything else.</p></div>
+<div class="col"><p data-n="48">The cycle does not need a villain.</p></div>
+<div class="col"><p data-n="49">It behaves like a thought pattern with a life of its own. A parasite. It enters any structure where three conditions meet.</p></div>
+<figure class="fig has-steps" data-fig="origin" style="--hold:1.0;--n:3" aria-label="Figure: origin">
+  <ol class="steps"><li class="step" data-n="50"><p><strong>A real need.</strong></p></li><li class="step" data-n="51"><p><strong>A difference in power.</strong></p></li><li class="step" data-n="52"><p><strong>A gatekeeper standing between the two.</strong></p></li></ol>
+  <figcaption class="alt"><span class="alt-k">What the figure shows</span> Three conditions drawn as three circles: a real need, a difference in power, a gatekeeper between them. Where all three overlap, the eight-stage ring appears on its own. No hand places it there.</figcaption>
+</figure>
+<div class="col"><p data-n="53">Wherever those three meet, the pattern installs itself and runs. Nobody has to plan it. Nobody has to coordinate it. The hospital was never instructed by the school. Both run the cycle because both meet the conditions.</p></div>
+<div class="col"><p data-n="54">It replicates, the way a virus replicates, by turning its host&#x27;s resources into more of itself. It adapts: in one age it wore the church and the crown, in another the factory and the bank, and now it wears the platform and the feed. It feeds on what human beings bring to the gate: labor, money, attention, obedience, time. And it defends itself. Denial, reversal, confusion, the shrug that says <em>that&#x27;s just how things work</em>: these are its immune response, and they wake the moment it is in danger of being seen.</p></div>
+<div class="col"><p data-n="55">It has no center. There is no one to confront, because it lives in the design. The compassionate doctor walks into the billing system, and the billing system extracts through the compassionate doctor&#x27;s hands.</p></div>
+<div class="col"><p data-n="56"><strong>The pattern does not need bad people. It needs structures.</strong> That is why replacing the person at the top never fixed the building.</p></div>
+<div class="col"><p class="more"><a href="/fractal/the-origin">The full argument: The Origin, in The Fractal <span aria-hidden="true">→</span></a></p></div>
+<div class="col"><h3 data-n="57">The carriers and the drivers</h3></div>
+</div>
+<div class="sn" data-scene="drivers">
+<div class="col"><p data-n="58">Here the work has to be exact, because this is where it could turn into an accusation or an excuse, and it must never be either.</p></div>
+<div class="col"><p data-n="59">Most of the machine runs without malice. It runs through people who never chose it, who learned it the way they learned to speak, and who are as caught inside it as anyone they touch. The cage was here before any of us arrived. To have carried the code is no one&#x27;s guilt.</p></div>
+<div class="col"><p data-n="60">Seeing changes that. Once the pattern has been named, running it becomes a choice. Most people who see it spend the rest of their lives catching it in themselves, missing it, and catching it again. That is no failure. That is the work.</p></div>
+<div class="col"><p data-n="61">And then there are the few who find the machine and learn to drive it. They study the levers. They run the cycle on purpose, for money, for power, for control, at the cost of someone else&#x27;s mind and heart, and they keep running it after they have seen exactly what it does.</p></div>
+<div class="col"><p data-n="62">They are not the pattern&#x27;s victims. They are its drivers.</p></div>
+<div class="col"><p data-n="63">This work offers grace to everyone who carried it without knowing. It offers no hiding place to anyone who runs it on purpose.</p></div>
+</div>
+</section>
+<section class="ch" id="part-iv" aria-labelledby="part-iv-h">
+<div class="col"><p class="rn" aria-hidden="true">IV</p><h2 id="part-iv-h" data-n="64"><span class="vh">Part IV: </span>The mirror and the chain</h2></div>
+<div class="sn" data-scene="mirror">
+<div class="col"><p data-n="65">The cycle does not only run on you. It runs in you.</p></div>
+<div class="col"><p data-n="66">It was installed before you had words: through the grade, the mirror, the paycheck, the parent who learned it from their own parent. You run its techniques on yourself at three in the morning, when no institution is in the room.</p></div>
+<figure class="fig has-steps" data-fig="mirror" style="--hold:1.2;--n:3" aria-label="Figure: mirror">
+  <ol class="steps"><li class="step" data-n="67"><p>The self-gaslighting that feels like humility.</p></li><li class="step" data-n="68"><p>The self-isolation that feels like introversion.</p></li><li class="step" data-n="69"><p>The self-devaluation that feels like being realistic.</p></li></ol>
+  <figcaption class="alt"><span class="alt-k">What the figure shows</span> The ring of eight stages, which stood around you, draws inward until it is a small ring turning inside a single point: you.</figcaption>
+</figure>
+<div class="col"><p data-n="70">All thirty techniques have an inward form. I mapped those too, because the pattern&#x27;s most reliable agent has always been the one who lives in your own head and speaks in your own voice.</p></div>
+<div class="col"><p class="more"><a href="/fractal/the-mirror">All thirty inward forms: The Mirror, in The Fractal <span aria-hidden="true">→</span></a></p></div>
+</div>
+<div class="sn" data-scene="chain">
+<div class="col"><p data-n="71">And it came from further back than you.</p></div>
+<div class="col"><p data-n="72">I believe it travels down a chain. Through the nervous system you were handed. Through the kind of attachment you learned in your first years. Through the stories your family told about what was normal. And through the body itself: I believe the survival responses of people you never met are still carried in your chemistry. Your great-grandmother was processed by a system. Her body adapted. Her adaptation became your inheritance.</p></div>
+<figure class="fig" data-fig="chain" style="--hold:1.8;--n:0" aria-label="Figure: chain">
+  <div class="fig-space" aria-hidden="true"></div>
+  <figcaption class="alt"><span class="alt-k">What the figure shows</span> A chain of links running back through four generations: a great-grandmother, a grandmother, a mother, and you. You are the last link. Beyond you the chain is undrawn.</figcaption>
+</figure>
+<div class="col"><p data-n="73">You did not start the chain. You did not build the cage. None of it is your fault.</p></div>
+<div class="col"><p data-n="74">And you are the current end of the chain. The one place where it is either handed on, or stopped.</p></div>
+<div class="col"><p class="more"><a href="/fractal/the-chain">How it is handed down, and how it stops: The Chain, in The Fractal <span aria-hidden="true">→</span></a></p></div>
+</div>
+</section>
+<section class="ch" id="part-v" aria-labelledby="part-v-h">
+<div class="col"><p class="rn" aria-hidden="true">V</p><h2 id="part-v-h" data-n="75"><span class="vh">Part V: </span>The closer you look</h2></div>
+<div class="sn" data-scene="zoom">
+<div class="col"><p data-n="76">A fractal has one more property, and it is the strangest one.</p></div>
+<div class="col"><p data-n="77">Measure a coastline with a long ruler and you get one number. Measure it again with a shorter ruler, following every cove and inlet, and the coastline gets longer. Shorter again, and longer again. The closer you look, the more there is.</p></div>
+<div class="col"><p data-n="78"><em>The Fractal</em> drew thirty techniques. They were the backbone, the ones that appear in every building.</p></div>
+<div class="col"><p data-n="79">Then I looked closer.</p></div>
+<div class="col"><p class="strike" data-n="80"><strong>The true map has more than three hundred.</strong></p></div>
+<div class="col"><p data-n="81">That is what the small ² stands for. <em>The Fractal</em>, turned on itself. The fractal of <em>The Fractal</em>. The same eight stages, measured with a shorter ruler: three hundred and thirty-five distinct tactics inside a single sector, every one of them shown at all three levels of scale.</p></div>
+<div class="col"><p data-n="82">More than a thousand examples for one sector. And there are thirty sectors.</p></div>
+<div class="col"><p data-n="83">The closer I looked, the further back I had to stand to hold what I found.</p></div>
+<figure class="fig" data-fig="zoom" style="--hold:5.0;--n:0" aria-label="Figure: zoom">
+  <div class="fig-space" aria-hidden="true"></div>
+  <figcaption class="alt"><span class="alt-k">What the figure shows</span> The original image of The Fractal fills the view: eight rings for the eight stages, thirty techniques written on them. It draws back until it is a small disc at the centre. Around it, ring after ring of new names appears, in the same eight stages: the 335 tactics of one sector, more than ten times what the original held. Then that whole disc draws back too, and becomes one of thirty.</figcaption>
+</figure>
+</div>
+<div class="sn" data-scene="altitudes">
+<div class="col"><p data-n="84">Watch what three levels of scale does to a single tactic. Take love bombing, in the music industry.</p></div>
+<figure class="fig has-steps" data-fig="altitudes" style="--hold:1.0;--n:3" aria-label="Figure: altitudes">
+  <ol class="steps"><li class="step" data-n="85"><p><strong>In one life.</strong> An A&amp;R scout finds your demo and messages you every night for a week. Voice notes. Studio invitations. <em>You&#x27;re the one I&#x27;ve been waiting for.</em> All of it before a single term is on the table, so that doubt starts to feel like ingratitude.</p></li><li class="step" data-n="86"><p><strong>Inside an institution.</strong> The label&#x27;s courtship visit is a choreographed flood: the whole team in the room, your song on the speakers, a tour of the plaque wall. Warmth so total that asking to see the draft feels rude.</p></li><li class="step" data-n="87"><p><strong>Across a culture.</strong> The discovery myth says the moment someone important notices you is the moment your life begins. So a flood of praise reads as fate arriving, and never as a negotiation starting.</p></li></ol>
+  <figcaption class="alt"><span class="alt-k">What the figure shows</span> One tactic shown at three heights: a point in one life, a point inside an institution, a point across a culture, one above the other.</figcaption>
+</figure>
+<div class="col"><p data-n="88">One tactic. Three altitudes. Now multiply by three hundred and thirty-five. Then by every world a human being moves through.</p></div>
+</div>
+<div class="sn" data-scene="names">
+<div class="col"><p data-n="89">Most people can name five manipulation tactics. Perhaps ten. The ones that do the most damage are the ones most people have never heard named.</p></div>
+<figure class="fig has-steps" data-fig="names" style="--hold:1.0;--n:8" aria-label="Figure: names">
+  <ol class="steps"><li class="step" data-n="90"><p>The gift that quietly becomes a debt.</p></li><li class="step" data-n="91"><p>The deadline invented at the moment of signing.</p></li><li class="step" data-n="92"><p>The warmth that tracks how compliant you have been.</p></li><li class="step" data-n="93"><p>The friendly question that is really a test.</p></li><li class="step" data-n="94"><p>The confidentiality that stops you from asking anyone else.</p></li><li class="step" data-n="95"><p>The &quot;standard&quot; that was never standard.</p></li><li class="step" data-n="96"><p>Each of them has worked on millions of people for one reason. It had no name.</p></li><li class="step" data-n="97"><p>Now every one of them does. And a thing with a name can be refused.</p></li></ol>
+  <figcaption class="alt"><span class="alt-k">What the figure shows</span> The whole field of more than thirty thousand points, grey and unnamed. Then, a few at a time, they turn gold: named.</figcaption>
+</figure>
+</div>
+</section>
+<section class="ch" id="part-vi" aria-labelledby="part-vi-h">
+<div class="col"><p class="rn" aria-hidden="true">VI</p><h2 id="part-vi-h" data-n="98"><span class="vh">Part VI: </span>Why I can draw this</h2></div>
+<div class="sn" data-scene="witness">
+<div class="col"><p data-n="99">I have experienced manipulation techniques at the highest level, and they have cost me much, several times in my life. The most recent, in the recent past, attempted to take everything from me and from someone I loved.</p></div>
+<div class="col"><p data-n="100">My healing journey involved forgiving the people who tried to destroy my mind and my heart for money.</p></div>
+<div class="col"><p data-n="101">Justice comes from breaking every tool they have, so that none of them ever works on anyone again by the time I am done. And from letting the truth of who they are be seen by everyone they care about. Not by exposing them myself. By exposing their tactics to the entire world, so they can never again hide in the shadows and think they are safe.</p></div>
+</div>
+</section>
+<section class="ch" id="part-vii" aria-labelledby="part-vii-h">
+<div class="col"><p class="rn" aria-hidden="true">VII</p><h2 id="part-vii-h" data-n="102"><span class="vh">Part VII: </span>The sequence</h2></div>
+<div class="sn" data-scene="threshold">
+<div class="col"><p data-n="103"><em>A note before you go further. This section describes, closely, how people are trapped. If you are inside something like this right now, do not confront anyone on the strength of a page. Tell one person who stands outside it. If you or anyone else is in danger, reach emergency services first. If a child is involved, child protection.</em></p></div>
+<div class="col"><p data-n="104">This is the most important thing I have ever mapped. Almost no one speaks about it.</p></div>
+<div class="col"><p class="strike" data-n="105"><strong>No one is manipulated one tactic at a time.</strong></p></div>
+<div class="col"><p data-n="106">The manipulation that takes years from a life, that takes savings and careers and marriages and minds, never arrives as a single move. It arrives as a combination: several tactics, run together, in a deliberate order, each one preparing the ground for the one that follows.</p></div>
+<div class="col"><p data-n="107">This is the antagonist of the whole work. Every sector I have mapped, every technique at every level, was leading to this: the compound form. I believe it is the greatest harm one human life can be made to carry, and it has stayed almost entirely unnamed.</p></div>
+<div class="col"><p data-n="108">You have seen what it leaves behind, even if you never had a word for it. The friend who came back from a job, a marriage, a congregation, a contract, and was not the same person. The one who used to be quick, and now checks every sentence before saying it. The one who cannot tell you where the money went, or the years.</p></div>
+<div class="col"><p data-n="109">Nothing struck them. Something was assembled around them, one reasonable piece at a time.</p></div>
+<div class="col"><p data-n="110">Fractal² names it. There are two hundred and three of these compound systems on the master list so far. One hundred and fifty-three of them are at work in the first sector alone.</p></div>
+</div>
+<div class="sn" data-scene="roster">
+<div class="col"><p data-n="111">They have names now.</p></div>
+<div class="col"><p data-n="112">The Debt Prison. The Golden Cage. The Trauma Bond Engine. The Gaslighting Machine. The Phantom Equity. The Memory Hole. The Halo Shield. The Confidentiality Cage. The Frog in Boiling Water. Learned Silence. Walking on Eggshells. Social Death. The Room.</p></div>
+<figure class="fig" data-fig="roster" style="--hold:2.2;--n:0" aria-label="Figure: roster">
+  <div class="fig-space" aria-hidden="true"></div>
+  <figcaption class="alt"><span class="alt-k">What the figure shows</span> The names of the combinations rise one after another out of the dark, until the screen holds dozens of them.</figcaption>
+</figure>
+<div class="col"><h3 data-n="113">Why the combination is worse than the sum</h3></div>
+</div>
+<div class="sn" data-scene="multiply">
+<div class="col"><p data-n="114">A single tactic can be survived. A single tactic can even be spotted. Love bombing on its own is only intensity, and many people learn to slow down when warmth arrives too fast. One gaslit memory can be checked against a friend&#x27;s. One unfair contract can be read by a lawyer.</p></div>
+<div class="col"><p data-n="115">A combination does something no single tactic can do. It does not add harm. It multiplies it, because each tactic disables the very defence you would have used against the next.</p></div>
+<figure class="fig has-steps" data-fig="multiply" style="--hold:1.0;--n:6" aria-label="Figure: multiply">
+  <ol class="steps"><li class="step" data-n="116"><p>The warmth lowers your guard, so you do not read the terms.</p></li><li class="step" data-n="117"><p>The hook makes leaving expensive, so you stay when the warmth cools.</p></li><li class="step" data-n="118"><p>The devaluation makes you hungry for approval, so you work harder for the people withholding it.</p></li><li class="step" data-n="119"><p>The confusion takes your certainty, so you cannot trust your own alarm.</p></li><li class="step" data-n="120"><p>The isolation removes your witnesses, so no one can tell you what they saw.</p></li><li class="step" data-n="121"><p>By the time the extraction begins, every door you would have used to leave has already been closed. One at a time. And each closing felt reasonable when it happened.</p></li></ol>
+  <figcaption class="alt"><span class="alt-k">What the figure shows</span> You are a point at the centre of a ring of five open doors: your guard, your way out, your worth, your certainty, your witnesses. As each tactic lands, one door closes. When the last one closes, the ring is a wall.</figcaption>
+</figure>
+<div class="col"><p data-n="122">That is why people who survive these systems so often say the same six words. <em>I don&#x27;t know how it happened.</em></p></div>
+<div class="col"><p data-n="123">They are not confused. They are describing, precisely, how it was built to feel.</p></div>
+<div class="col"><h3 data-n="124">Why the order is the weapon</h3></div>
+</div>
+<div class="sn" data-scene="sequence">
+<div class="col"><p data-n="125">The order is not decoration. The order is the mechanism.</p></div>
+<div class="col"><p data-n="126">Begin with cruelty, and a person leaves. Begin with kindness that comes and goes without reason, then cruelty, then relief, and the same person bonds to the hand that is hurting them. The steps are identical. Only the order changed. The order is what turns harm into attachment.</p></div>
+<div class="col"><p data-n="127">Here is one of them, slowed down. It is a composite, built from common situations. No real person or company is described.</p></div>
+<div class="col"><p data-n="128"><strong>The Debt Prison</strong> does not begin with debt. It begins with the best news of your life.</p></div>
+<div class="col"><p data-n="129">An advance lands in your account. It is a number you once said out loud only as a joke. For the first time, you do not check your balance before buying groceries. You call your mother. Someone at the label puts a warm hand on your shoulder and says, <em>enjoy it, you earned it.</em></p></div>
+<div class="col"><p data-n="130">Now watch it again, and this time watch the order.</p></div>
+<figure class="fig has-steps" data-fig="sequence" style="--hold:1.0;--n:6" aria-label="Figure: sequence">
+  <ol class="steps"><li class="step" data-n="131"><p><strong>One. Financial Enmeshment.</strong> The advance, the recording costs, the video, the tour support and the marketing are written into a single schedule. Every cost and every stream of income is woven into one ledger. More lines than anyone can hold in their head.</p></li><li class="step" data-n="132"><p><strong>Two. Financial Dependence by Design.</strong> You build a life on the advance. The royalties come slowly, or not at all. You can no longer step away from the relationship that pays for the life.</p></li><li class="step" data-n="133"><p><strong>Three. Sunk Cost Exploitation.</strong> The sessions, the video, the weekends other people gave up for you. Every question you ask is answered with how much has already been spent.</p></li><li class="step" data-n="134"><p><strong>Four. Obligation Contracts.</strong> A clause on page nineteen lets the balance follow you from this record to the next, and to the one after that. You are told, pleasantly, that it is a technicality. You are told that you have already signed.</p></li><li class="step" data-n="135"><p><strong>Five. Guilt Legacy.</strong> <em>All the people who believed in you.</em> Asking for a statement begins to feel like ingratitude.</p></li><li class="step" data-n="136"><p><strong>Six. Process Exhaustion.</strong> Accounting sends you to business affairs. Business affairs sends you to accounting. The portal wants a password that has expired. Days become weeks, and you stop asking.</p></li></ol>
+  <figcaption class="alt"><span class="alt-k">What the figure shows</span> Six links join into a chain, one at a time, in the order the tactics arrive: Financial Enmeshment, Financial Dependence by Design, Sunk Cost Exploitation, Obligation Contracts, Guilt Legacy, Process Exhaustion. With each link a counter climbs faster than the link before it. Then one link is named and broken, and the whole chain falls slack.</figcaption>
+</figure>
+<div class="col"><p data-n="137">Every one of those six steps can be defended on its own. Advances are real. Recoupment can be fair. Accounting can be honestly complicated. Whether anyone intended the cell would take more evidence than the pattern itself. That is exactly why it is so hard to see. In sequence, six defensible steps build a room with no door, and the person inside it is told that the confusion is her own.</p></div>
+<div class="col"><p data-n="138">She sits in an apartment she could never have imagined, among the boxes, and realizes she no longer knows whether the number that was the best news of her life was a gift, a loan, or a sentence.</p></div>
+<div class="col"><h3 data-n="139">The key is the same shape as the lock</h3></div>
+</div>
+<div class="sn" data-scene="break">
+<div class="col"><p data-n="140">Now look at that sequence one more time, because the thing that makes it devastating is the thing that makes it breakable.</p></div>
+<div class="col"><p data-n="141">It depends on its order. Every link needs the one before it. The guilt needs the debt. The debt needs the dependence. The exhaustion only works on someone who has already been taught that asking is ungrateful.</p></div>
+<div class="col"><p data-n="142">So you do not have to defeat all six. You have to break one.</p></div>
+<figure class="fig" data-fig="break" style="--hold:2.2;--n:0" aria-label="Figure: break">
+  <div class="fig-space" aria-hidden="true"></div>
+  <figcaption class="alt"><span class="alt-k">What the figure shows</span> The six-link chain again. The fourth link turns gold and opens. The weight that had gathered around the chain drifts away, and the links fall slack.</figcaption>
+</figure>
+<div class="col"><p data-n="143">A single independent reading of the schedule, before signing. A single statement you can reproduce line by line. A single plain question, <em>when could this balance clear</em>, asked in writing and kept. Break one link, and the chain is no longer a chain.</p></div>
+<div class="col"><p data-n="144">That is the reason every combination in Fractal² is laid out the same way. First the scene, the way it feels from inside. Then the name. Then the tactics, in order. Then why that order works on a human being. Then how it echoes up through institutions and across a culture. Then the signs you can observe, the tests you can run on your own situation, what to keep, the words you can use, when to get help, and what breaks the chain.</p></div>
+<div class="col"><p data-n="145">And that layout does three things nothing else has done.</p></div>
+<div class="col"><p data-n="146"><strong>If you are inside one now</strong>, recognition is the first light in a dark room. You can see which stage you are in. That means you can see what comes next. That means it can no longer arrive as a surprise.</p></div>
+<div class="col"><p data-n="147"><strong>If you lived one years ago</strong>, the map gives you back your sanity. <em>I don&#x27;t know how it happened</em> becomes <em>this is how it happened, step by step, and it would have worked on anyone.</em> The shame begins to lift, because shame lives in the belief that you should have seen it coming, and the map shows you it was built so that you could not. That is the moment many people can finally grieve.</p></div>
+<div class="col"><p data-n="148"><strong>If you have never lived one</strong>, this is the closest thing to immunity that exists. A trick that has been explained stops working. A sequence you can name is a sequence you can interrupt.</p></div>
+<div class="col"><p data-n="149">The worst thing manipulation can do to a human life, understood exactly, is also the way out of it.</p></div>
+</div>
+</section>
+<section class="ch" id="part-viii" aria-labelledby="part-viii-h">
+<div class="col"><p class="rn" aria-hidden="true">VIII</p><h2 id="part-viii-h" data-n="150"><span class="vh">Part VIII: </span>What it was built from</h2></div>
+<div class="sn" data-scene="inversion">
+<div class="col"><p data-n="151">Here is what the combinations gave away, once I had taken enough of them apart.</p></div>
+<div class="col"><p data-n="152">Every piece was copied from something real.</p></div>
+<div class="col"><p data-n="153">The flood of warmth was imitating what it is to be truly seen. The debt was imitating generosity. The bond was imitating love. Nothing in the entire machine was original to it.</p></div>
+<div class="col"><p data-n="154">Love bombing is a counterfeit of genuine welcome. Gaslighting, of honest witness. Intermittent reinforcement, of steady presence. Trauma bonding, of real attachment. Isolation, of sacred solitude. Financial control, of shared provision.</p></div>
+<div class="col"><p data-n="155">And the eight stages themselves, as I see them through my own faith, are eight sacred things run backwards.</p></div>
+<figure class="fig has-steps" data-fig="inversion" style="--hold:1.0;--n:8" aria-label="Figure: inversion">
+  <ol class="steps"><li class="step" data-n="156"><p><strong>Idealize</strong> counterfeits being chosen: known and wanted before you performed anything.</p></li><li class="step" data-n="157"><p><strong>Hook</strong> counterfeits covenant: a commitment made for your flourishing, in place of one built so that leaving costs more than staying.</p></li><li class="step" data-n="158"><p><strong>Devalue</strong> counterfeits inherent worth: the worth that was yours because you exist.</p></li><li class="step" data-n="159"><p><strong>Confuse</strong> counterfeits truth: the still, small knowing that needs no one&#x27;s permission.</p></li><li class="step" data-n="160"><p><strong>Isolate</strong> counterfeits community: a body with many members, none of them disposable.</p></li><li class="step" data-n="161"><p><strong>Extract</strong> counterfeits abundance: giving as overflow, where the counterfeit takes from what you cannot afford to lose.</p></li><li class="step" data-n="162"><p><strong>Discard</strong> counterfeits unfailing presence: <em>I will never leave you.</em></p></li><li class="step" data-n="163"><p><strong>Replace</strong> counterfeits irreplaceable worth: the shepherd who leaves the ninety-nine for the one.</p></li></ol>
+  <figcaption class="alt"><span class="alt-k">What the figure shows</span> Eight stages in a column, each turning over to show the original it counterfeits. Idealize turns to Chosen. Hook turns to Covenant. Devalue turns to Inherent worth. Confuse turns to Truth. Isolate turns to Community. Extract turns to Abundance. Discard turns to Unfailing presence. Replace turns to Irreplaceable worth.</figcaption>
+</figure>
+<div class="col"><p class="more"><a href="/fractal/the-spiritual-lens">The eight inversions in full: The Spiritual Lens, in The Fractal <span aria-hidden="true">→</span></a></p></div>
+<div class="col"><p data-n="164">You do not have to share my faith to follow this. Put it in any language you like. The claim is simple, and I hold it with my whole life: a counterfeit always comes second. The welcome existed before the love bombing. The witness existed before the gaslight. The pattern cannot create a single thing. It can only take what was already alive in you and turn it against you.</p></div>
+<div class="col"><p data-n="165">It worked on you because it was built out of the best things in you.</p></div>
+<div class="col"><p data-n="166">Which means the original is still there.</p></div>
+</div>
+<div class="sn" data-scene="frequency">
+<div class="col"><p data-n="167">Under the cortisol, under the shutdown, under every year of being told that your body was wrong, I believe there is a signal that was broadcasting before any system touched you. I call it the <strong>original frequency</strong>.</p></div>
+<figure class="fig" data-fig="frequency" style="--hold:1.3;--n:0" aria-label="Figure: frequency">
+  <div class="fig-space" aria-hidden="true"></div>
+  <figcaption class="alt"><span class="alt-k">What the figure shows</span> A single gold point, sending out slow rings, like a signal that never stopped broadcasting.</figcaption>
+</figure>
+<div class="col"><p data-n="168">It is the part of you that knew something was wrong in that room, when everyone else seemed fine. The feeling in your gut that you were taught to call anxiety. The tiredness that sleep does not fix, which may be your body&#x27;s honest report that more is being taken from you than is being returned. The loneliness in a full room, which may be your spirit recognizing that counterfeit belonging is not belonging.</p></div>
+<div class="col"><p data-n="169">Listen to those signals. And have them looked at, too, by someone who listens back. A body can carry more than one truth at once.</p></div>
+<div class="col"><p data-n="170">You did not lose the frequency. You were taught to stop listening to it.</p></div>
+<div class="col"><p data-n="171">It was buried. It was never destroyed.</p></div>
+<div class="col"><p class="more"><a href="/fractal/the-frequency">The thirty originals, one for every technique: The Frequency, in The Fractal <span aria-hidden="true">→</span></a></p></div>
+</div>
+</section>
+<section class="ch" id="part-ix" aria-labelledby="part-ix-h">
+<div class="col"><p class="rn" aria-hidden="true">IX</p><h2 id="part-ix-h" data-n="172"><span class="vh">Part IX: </span>Down</h2></div>
+<div class="sn" data-scene="descent">
+<div class="col"><p data-n="173">For thousands of years, people have tried to put this into words. I am not a scholar of any of these traditions. I can only tell you what I hear in them.</p></div>
+<div class="col"><p data-n="174">The Christian calls it the narrow gate, and the kingdom that was always within you. The Buddhist calls it the end of illusion: the veil lifting from a self that was constructed and never born. The Sufi speaks of the veils between the self and God being removed, one by one. The Hindu says <em>tat tvam asi</em>, thou art that: you were never the role, the case, the body or the institution. Many Indigenous teachings speak of remembering, of returning to the original instruction that the land and the body always knew. The Jewish mystic speaks of vessels that shattered, and of sparks of light held in the shards, waiting to be gathered. The mystic without a tradition calls it the dark night of the soul, and the dawn after it. And the person who wants no part of the word <em>spiritual</em> calls it deprogramming, or healing, or finally seeing clearly: a pattern identified, traced to its origin, found in one&#x27;s own body, and followed down to the signal under the noise.</p></div>
+<div class="col"><p data-n="175">The words are different. The destination is the same.</p></div>
+<div class="col"><p data-n="176">What my work adds is the map of the way there. And the way there does not go up.</p></div>
+<div class="col"><p data-n="177">You do not arrive by ascending. You do not transcend the body or rise above being human. You go down.</p></div>
+<figure class="fig has-steps" data-fig="descent" style="--hold:1.0;--n:5" aria-label="Figure: descent">
+  <ol class="steps"><li class="step" data-n="178"><p>Down through the sectors.</p></li><li class="step" data-n="179"><p>Down through the techniques.</p></li><li class="step" data-n="180"><p>Down through the mirror.</p></li><li class="step" data-n="181"><p>Down through the body.</p></li><li class="step" data-n="182"><p>Down through the chain, and the generations behind it.</p></li></ol>
+  <figcaption class="alt"><span class="alt-k">What the figure shows</span> The points of the map rise and fall away above you, layer after layer, as the page descends: the sectors, the techniques, the mirror, the body, the chain. At the bottom there is a single steady light.</figcaption>
+</figure>
+</div>
+<div class="sn" data-scene="ground">
+<div class="col"><p data-n="183">And at the bottom, beneath every layer of capture, beneath every lie that was installed as truth, you find what was never captured at all.</p></div>
+<div class="col"><p data-n="184">It is not above you. It is not in the next life. It is in you, where it was before the first system, before the first technique, before the first link in the chain. Pulsing quietly. Waiting for you to stop climbing and start listening.</p></div>
+<div class="col"><p data-n="185">Your own signal. Uncaptured. Unmediated. Unmonetized. Yours.</p></div>
+<div class="col"><p data-n="186">The path that every prophet and mystic described, broken into stages, techniques and levels, so that it can be walked on purpose and no longer only stumbled into by accident.</p></div>
+<div class="col"><p data-n="187">I walked it without a map. I drew this one so that you would not have to.</p></div>
+</div>
+</section>
+<section class="ch" id="part-x" aria-labelledby="part-x-h">
+<div class="col"><p class="rn" aria-hidden="true">X</p><h2 id="part-x-h" data-n="188"><span class="vh">Part X: </span>What this is for</h2></div>
+<div class="sn" data-scene="horizon">
+<div class="col"><p data-n="189">Freedom, in two senses.</p></div>
+<div class="col"><p data-n="190">The psychological freedom of naming what was done to you, so the fog lifts and your own perception comes back to you.</p></div>
+<div class="col"><p data-n="191">And the spiritual freedom of hearing your own signal again, under everything the counterfeit laid on top of it.</p></div>
+<div class="col"><p data-n="192">True sovereignty is when no one holds your strings, including the ones you did not know you were carrying. True accountability is when the tools stop working, so that no one can hide behind them again.</p></div>
+<div class="col"><p data-n="193">Imagine a generation that recognizes the love bomb by the second message. A workplace where <em>we&#x27;re a family here</em> is heard for what it is. A congregation that can tell a covenant from a hook. An artist who asks to see the numbers, and is not afraid to ask. A child who grows up holding the map instead of the wound. A chain that ends with you.</p></div>
+<div class="col"><p data-n="194">I believe a world without this cycle can be built. Structures the pattern cannot enter: where no gatekeeper stands between a human being and what a human being needs. I do not think it will come by tearing down buildings. It will come the way the pattern itself spread, one person and one structure at a time, running in the other direction.</p></div>
+<div class="col"><p data-n="195">But none of it can be built by people who cannot see what is in the way.</p></div>
+<div class="col"><p data-n="196">That comes first. Before the building, the seeing. A pattern that has been seen can no longer pretend to be the sky. It becomes only a pattern: something with edges, something you can step outside of, refuse, interrupt, and stop handing down. Every person who sees it stops feeding it. And when enough of us can see it, we can come together and build what comes after it.</p></div>
+<figure class="fig" data-fig="horizon" style="--hold:1.8;--n:0" aria-label="Figure: horizon">
+  <div class="fig-space" aria-hidden="true"></div>
+  <figcaption class="alt"><span class="alt-k">What the figure shows</span> One light. Then another beside it, and another, spreading outward until the dark is full of them.</figcaption>
+</figure>
+<div class="col"><p data-n="197">That is what this work is for. To show what is in the way, to everyone, so that all of us can build.</p></div>
+<div class="col"><h3 data-n="198">A lifetime of work</h3></div>
+</div>
+<div class="sn" data-scene="atlas">
+<div class="col"><p data-n="199"><em>The Fractal</em> proved the machine is real. Fractal² takes it apart.</p></div>
+<div class="col"><p data-n="200">Every sector. Every tactic, at every level. Every combination, in its exact order, with the way out of it written beside it. Free, in plain words, for anyone.</p></div>
+<div class="col"><p data-n="201">The first sector is finished and open below. Twenty-nine more will follow it.</p></div>
+<div class="col"><p data-n="202">To do this the way it needs to be done will take a lifetime, and I intend to give it one. Because the aim is nothing smaller than this: to bring manipulation, and the eight-stage cycle underneath it, out of the shadows for good. Wherever it exists. Whenever it appears. For everyone.</p></div>
+<figure class="fig" data-fig="atlas" style="--hold:1.8;--n:0" aria-label="Figure: atlas">
+  <div class="fig-space" aria-hidden="true"></div>
+  <figcaption class="alt"><span class="alt-k">What the figure shows</span> Thirty sectors drawn as thirty regions of one map. One is lit: Entertainment and Music. The other twenty-nine are outlined and waiting.</figcaption>
+</figure>
+</div>
+</section>
+<section class="ch" id="part-xi" aria-labelledby="part-xi-h">
+<div class="col"><p class="rn" aria-hidden="true">XI</p><h2 id="part-xi-h" data-n="203"><span class="vh">Part XI: </span>The door</h2></div>
+<div class="sn" data-scene="door">
+<div class="col"><p data-n="204">Go back, now, to the room where this began.</p></div>
+<div class="col"><p data-n="205">The room where everyone else seemed fine. Nothing in it has changed. The same people. The same warmth. The same small tightening in your stomach.</p></div>
+<div class="col"><p data-n="206">Only now you know what the tightening is. It was never your weakness. It was the one part of you that could not be fooled, still doing its work.</p></div>
+<figure class="fig" data-fig="door" style="--hold:1.5;--n:0" aria-label="Figure: door">
+  <div class="fig-space" aria-hidden="true"></div>
+  <figcaption class="alt"><span class="alt-k">What the figure shows</span> A doorway drawn in points of light. It opens, and light spills through it across the floor.</figcaption>
+</figure>
+<div class="col"><p data-n="207">You are not afraid of this room anymore. You can stay, or you can leave. And when you go, you leave the door open behind you, for whoever comes next.</p></div>
+</div>
+<div class="sn" data-scene="enter">
+<div class="col"><p class="strike" data-n="208"><strong>The map begins here.</strong></p></div>
+<div class="col"><p data-n="209"><strong>The first sector is the Entertainment &amp; Music Industry.</strong> Three hundred and thirty-five tactics at three levels. One hundred and fifty-three combinations, each with its signs, its tests and its way out.</p></div>
+<div class="col"><p class="cta"><a href="/fractal2/entertainment">Enter the first sector <span aria-hidden="true">→</span></a></p></div>
+<div class="col"><p class="cta2"><a href="/fractal2/entertainment/start">Or start with the ten that matter most <span aria-hidden="true">→</span></a></p></div>
+<div class="col"><p data-n="210"><strong>New to all of this?</strong> <em>The Fractal</em> is where it started: eight stages, thirty techniques, thirty sectors.</p></div>
+<div class="col"><p class="cta2"><a href="/fractal">Read The Fractal <span aria-hidden="true">→</span></a></p></div>
+<div class="col"><p data-n="211"><em>This work names patterns, never people. It is for recognition and for finding safe help. It is never a playbook, a diagnosis or a verdict. The scenes in it are composites. If you or anyone you know is in danger, reach real help first: emergency services, a crisis line, or child protection if a child is involved.</em></p></div>
+</div>
+</section>
+<section class="updates" id="updates" aria-labelledby="up-h"><div class="col">
+  <h2 id="up-h" class="kicker">Updates</h2>
+  <p class="ui"><span class="badge">v1 — 2026-11-10</span> First edition of the introduction.</p>
+  <p class="ui fine">Fractal² · Shae Stovell · Noble Father Creations. Free to read and share with credit. Press Escape twice, or Leave, to exit quickly.</p>
+</div></section>
+</main>
+<section class="player" id="player" aria-label="Narration" hidden>
+  <div class="pl-in">
+    <button class="pl-b" id="pl-play" type="button" aria-label="Play narration"><svg width="20" height="20" viewBox="0 0 24 24" aria-hidden="true"><path class="i-play" d="M7 4.5v15l13-7.5z" fill="currentColor"/><path class="i-pause" d="M7 5h4v14H7zM14 5h4v14h-4z" fill="currentColor"/></svg></button>
+    <div class="pl-mid">
+      <p class="pl-cap" id="pl-cap" aria-live="off">Narration in the author's voice. Press play to begin; the page follows the voice.</p>
+      <div class="pl-row"><input id="pl-seek" type="range" min="0" max="1000" value="0" aria-label="Position in the narration"><span class="pl-time num" id="pl-time">0:00</span></div>
+    </div>
+    <button class="pl-b sm" id="pl-rate" type="button" title="Playback speed">1×</button>
+    <button class="pl-b sm" id="pl-mute" type="button" aria-pressed="false" aria-label="Mute"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M11 5 6 9H3v6h3l5 4z"/><path class="i-on" d="M15.5 8.5a5 5 0 0 1 0 7M18.5 5.5a9 9 0 0 1 0 13"/><path class="i-off" d="m16 9 5 6M21 9l-5 6"/></svg></button>
+    <button class="pl-b sm" id="pl-follow" type="button" aria-pressed="true" aria-label="Page follows the voice">Follow</button>
+    <button class="pl-b sm" id="pl-close" type="button" aria-label="Close narration"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M6 6l12 12M18 6 6 18"/></svg></button>
+  </div>
+  <audio id="pl-audio" preload="none" data-src="/fractal2/_a/au/intro.mp3" data-sync="/fractal2/_a/au/intro.sync.json"></audio>
+</section>
+<script>window.F2={"art":"/fractal2/_a/img/the-fractal.webp","tactics":[["Love Bombing","Manufactured Destiny","Manufactured Intimacy","Forced Teaming","Premature Vulnerability / Trauma Dumping","The Rescue Hook","Pedestal Ploy / The Exception Script","Emotional Flooding","Exclusive Meaning","Loan-Sharking Gifts","Weaponized Generosity in Public","Performative Public Affection / Dr. Jekyll and Mr. Hyde","Mirroring-on-Demand","Credential-Costuming","Catfishing","Social Engineering","\"We're Family\" Erasure","Golden Child Elevation","Tokenism","Performative Allyship / False Solidarity","Premature Trust Extraction","Identity Auditing","Rescuer Positioning","Pacing and Leading","Performative Reception","Target Selection","Gatekeeper Grooming"],["Future Faking","Identity Hooking","Premature Exclusivity","Commitment Traps / Foot-in-the-Door","Manufactured Urgency","Manufactured Scarcity","Obligation Hooks","Favor Debt","Duty Scripts","Sunk Cost Exploitation","Confirmation Bias Exploitation","Halo Effect Exploitation","Hoovering / Relief Bait","Obligation Contracts","Golden Bars","Financial Enmeshment","Financial Dependence by Design","Platform Migration","Bread-crumbing","Boundary Testing","\"Sacred Duty\" Manipulation / Mission Framing","Martyrdom Display","Demand for Gratitude","Door-in-the-Face","Anchoring","Bait and Switch","Agent of Influence Operations","Mystical Manipulation","Charismatic Authority Dependence","Parasocial Manipulation Engineering","Algorithmic Targeting of Vulnerable Populations","Emotional Parasitism","Vulnerability Weaponization","Shared Secret Binding","Grooming Through Praise","Anchoring to Peak Moments","Loyalty Testing","Crisis Bonding","Bait Disclosure","Authority Worship","Buried Consent","Deniable Authorization","Gamified Compulsion","Reputation Braiding","Pocketing","Forced Continuity","That's-Not-All","Disrupt-Then-Reframe","Legitimizing Paltry Contributions","Persistent Nagging"],["Intermittent Reinforcement / Push-Pull","Shame Installation","Labeling as Identity Warfare","Withholding / Silent Treatment","Moving Goalposts","Baiting","Tone Policing","Emotional Invalidation","Contempt","Double Binds","Negging","Comparative Devaluation","Name-Calling Disguised as Humor","Time Theft","Strategic Apathy / Weaponized Indifference","Weaponized Incompetence","Minimization","Credit Theft","Credit Laundering","Impossible Metrics","Scapegoating","Punishment of Boundaries","Conditional Love","Objectification","Dehumanization","Performance Framework Manipulation","Dispensing of Existence","Emotional Contamination","\"You've Changed\"","Cultural Penalty","Exoticization","Experience Erasure","Stigma Marking","Unwritten Rules"],["Frame Control / False Framing","Credibility Theft","Projection","Role Reversal Traps","Weaponized Therapy-Speak","Authority Hijack","Accountability Evasion via Diagnosis / Trash-Can Diagnosis","Preemptive Accusation / Complaint Weaponization","Deflection","Word Salad","Whataboutism","False Equivalence","Non-Apology Apologies","Contradiction Stacking","Semantic Traps","Gotcha Framing","False Dilemma","False Authority","False Consensus / Social Proof Pressure","Normalization / Overton Window Manipulation","Counterfeit Calm","Splitting","Malicious Compliance","Ambient Abuse / Atmosphere Control","Thought-Stopping Clichés","Loaded Language","Stonewalling","Priming / Narrative Seeding","Toxic Positivity / Weaponized Optimism","Reverse Psychology","Cognitive Overload","Individualization of Systemic Issues","Diffusion of Responsibility","Willful Blindness as Complicity","Blame-Shifting","Kafka Trapping","Feigned Ignorance","Countering","Exaggeration","Burden of Proof Shifting / Sealioning","Gish Gallop / Firehose of Falsehood","Limited Hangout","Pseudo-Profundity / Intellectual Intimidation","Semantic Erosion / Meaning Dilution","Dog Whistling / Coded Signaling","Revisionist History","Repetition as Truth","Meta-Gaslighting","Lying by Omission / Gaslighting by Omission","Half-Truth Framing","Information Laundering","Astroturfing / Sock Puppets","False Flag Operations","Strategic Leaking","Cyber Manipulation Operations (CMOs)","Context Poisoning","Immersive Manipulation (VR/AR)","Pseudo-Logic","Emotional Sequencing","Perspecticide","Abstraction Escalation","Agent Erasure","Captive Expertise","Done-Deal Framing","Language Laundering","Metric Masking","Moral Disengagement","Policy as Proof","Retroactive Justification","Self-Fulfilling Prediction","Solution Theater","Victim Blaming","Just Asking Questions","Motte-and-Bailey"],["Isolation","Triangulation","Smear Campaigns","Flying Monkeys / Proxy Recruitment","Plausible Deniability","Ostracism","Silent Coalitions","Ambiguity as Weapon / Strategic Ambiguity","Interruption Patterns","Pile-Ons / Brigading","\"Polite Hostile\" Environments","Gatekeeping","Stochastic Harassment Direction","Divide and Conquer","Compartmentalization","Echo Chamber Construction","Social Mapping","Support System Exhaustion","Identity-Based Isolation","Contribution Erasure","Front-Person Exposure","Incident Siloing","Participation Penalty","Reputation Hijacking"],["Ritualized Exhaustion","Guilt-Tripping","Paper-Trail Traps","HR Shielding","Process Exhaustion","Vague Allegations with High Consequences","Confidentiality as Weapon","Resource Sabotage / Sabotaging Success","Administrative Escalation","\"Managed Out\" Through Exhaustion","Legal / Administrative Threats","False Reports","Location Tracking","Device Access Demands","Account Control","Response-Time Policing","Moral Licensing / Strategic Philanthropy","Moral Framing","Financial Control","Sexual Coercion","Reproductive Coercion","Extinction Bursts","Negative Reinforcement Traps","Phobia Indoctrination / Catastrophizing","Strategic Chaos / Crisis Manufacturing","Time Control","Sleep Deprivation","Narrative Monopoly","Mobility Control","Body Autonomy Violations","Role Assignment","Forced Dependency","Silence as Policy","Children as Leverage","Micromanagement","Performance Monitoring","Controlled Communication","Rage as Regulation","Fear Installation","Managed Perception","Omnipresence / Demonstrating Omnipotence","Punishment by Proxy","Emotional Blackmail","Intimidation","Concern Trolling / Shame-as-Governance","Ultimatums","Loyalty Binds","Ambient Sexual Threat","Overcorrection Demands","Blackmail / Leverage Exploitation","Moral Outrage as Weapon","Emotional Hostage-Taking","\"I Know Best\" Paternalism / Velvet Glove Control","Interrogation","Moving-in-Silence","Enforcing Trivial Demands","Choice Restriction","Pseudo-Consultation","Weaponized Inclusion / Strategic Containment","Controlled Opposition","Manufactured Consent","Sacred Science","Doctrine Over Person","Forced Confession / Self-Criticism Rituals","Algorithmic Manipulation","Biometric Exploitation","Institutional Capture","Arbitrary Authority","Black-Box Decisions","Celebration as Cover","Closed-Loop Appeals","Collective Punishment","Data Harvesting","Data Onward Sharing","Development Subordination","Initiative Churn","Labor Extraction","Liability Reframing","Metric-Mission Substitution","Motivation Displacement","Predictive Tracking","Strategic Delay","Strategic Timing","Structural Underfunding","Harm to Pets or Property","Coerced Debt","Debt Bondage","Document Confiscation","Status Threats","Enmeshment"],["Apologies Without Repair","Pity Plays","Forced Forgiveness / Weaponized Forgiveness","Competitive Victimhood","Aftercare Control","Legal Abuse","Humiliation Rituals","Public Exposure","Ghosting as Control","Sudden Devaluation","Replacement Display","Blame Discard","Managed Exit","Manufactured Closure","Paid Silence","Punitive Transfer","Record Erasure","Uncorrected Record","Values-Fit Pretext","Visible Impunity","Swatting"],["Orbiting","Infantilization","Parentification","Emotional Blackmail via Self-Harm Threats","Health Sabotage","Coordinated Reporting","Context Collapse","Doxxing","Forged Screenshots / Edited Evidence","Guilt Legacy","Maternal Gatekeeping","Smart-Home Coercion","AI Voice Cloning","Intimate Image Abuse","Accountability Reset"]],"sectors":[["Religion","the divine",0],["Politics","power",0],["Media","reality",0],["Education","your own mind",0],["Healthcare","your own body",0],["Finance","survival",0],["Technology","attention and identity",0],["Family","love",0],["Legal System","freedom",0],["Corporate","your labor",0],["Military","your sovereignty",0],["Entertainment","being seen",1],["Wellness","your wound",0],["Food","nourishment",0],["Housing","rest",0],["Sports","your physical self",0],["Science","truth and inquiry",0],["Nonprofits","compassion",0],["Beauty","self-acceptance",0],["Dating","intimacy",0],["Surveillance","privacy and autonomy",0],["Child Welfare","innocence",0],["Aging & Death","mortality",0],["Energy & Environment","the living earth",0],["Transportation","movement and access",0],["Mental Health","your inner world",0],["Pharmaceuticals","what enters your body",0],["Insurance","risk and safety",0],["Incarceration","confinement",0],["Immigration","belonging and displacement",0]],"combos":[["Grooming",[1,2,1,3,5,2,3]],["The Trauma Bond Engine",[3,0,2,3,0,2,3]],["The Savior Trap",[1,1,2,2,6,2]],["The Compliment Trap",[1,3,3,3,3]],["Bait and Switch",[1,2,3,2,2]],["Emotional Debt Spiral",[1,2,2,2,6,2]],["The Gratitude Prison",[1,2,1,8,2,3]],["The False Safe Harbor",[1,1,1,5,0,3]],["Exit Prevention Architecture",[2,2,2,2,6,0,6,2,8]],["The Golden Cage",[2,2,2,2,1,3]],["Golden Handcuffs",[2,2,2,3,2]],["The Obligation Web",[2,2,2,2,8,2,0,2]],["The Dependency Web",[2,2,5,0,2,6,2,1]],["Forced Dependency",[2,5,6,2,2,0,8]],["The Debt Prison",[2,2,2,2,8,6]],["The Loyalty Trap",[1,1,8,2,3,2]],["The Guilt Anchor",[6,2,2,6,0,2]],["The Identity Lock",[2,3,3,2,3,5]],["The Sunk Cost Prison",[2,2,2,3,0,0]],["The Bridge Burner",[5,5,5,5,0,2]],["The Hostage Scenario",[6,6,0,6,6,2]],["Pavlovian Conditioning",[3,6,2,3,3]],["Obedience Training",[6,0,6,3,6,0]],["Walking on Eggshells",[4,3,3,3,3,0]],["The Frog in Boiling Water",[2,4,3,2,2,4]],["Learned Silence",[3,0,0,4,3,3,6]],["The Impossible Standard",[3,3,3,3,6,3]],["The Rigged Game",[3,3,3,3,3,3,4]],["The Loyalty Test",[2,4,2,3,6,3,3]],["The Approval Addiction",[3,3,1,3,3,2]],["Performance Extraction",[2,2,2,3,3,2,3]],["The Burnout Machine",[6,3,3,2,6,6,6]],["The Compliance Engine",[0,6,6,3,3,0,3,6]],["The Compliance Cascade",[2,2,0,4,2,0]],["The Reward Maze",[0,3,3,3,3,0,2]],["The Normalization Engine",[2,4,4,4,2,0,4]],["The Silence Training",[3,7,0,4,6,0,0]],["The Learned Helplessness Machine",[6,6,6,0,3,0,0]],["The Perfectionism Trap",[3,3,3,3,3,0,0]],["The Obedience Ladder",[2,2,2,4,4,4,4]],["The Gaslighting Machine",[0,4,3,0,5,4]],["Reality Replacement",[4,4,4,0,0,4]],["The Confusion Protocol",[4,4,5,4,3,4]],["The Memory Hole",[4,0,4,0,7,4]],["The False Narrative",[4,5,5,4,0,4,0]],["The Double Bind Trap",[3,3,0,3,0,3]],["Perspective Poisoning",[2,4,4,0,4,4,4]],["The Meaning Hijack",[5,4,4,4,4,0]],["The Blame Reversal Engine",[0,6,3,4,4,4]],["The Investigation Theater",[1,6,0,6,7,4]],["The Circular Referral Loop",[1,4,6,6,4,6]],["The Paper Trail Fabrication",[0,4,6,6,6,6]],["The Policy Shield",[1,6,4,6,6,7]],["The Scapegoat Funnel",[2,2,5,5,5,3]],["The Confidentiality Cage",[6,6,6,0,7,6]],["The Apology Substitute",[1,4,4,4,5,7]],["The Collective Punishment Deflector",[6,6,5,6,0,4]],["The Whistleblower Inversion",[6,0,0,6,6,7]],["The Statute of Limitations Exploit",[0,1,5,6,4,4]],["The \"Both Sides\" Equalizer",[4,4,6,4,6,7]],["The NDA Silencer",[4,6,4,6,6,7]],["The Voluntary Departure Rewrite",[7,4,7,7,5,5]],["The Isolated Incident Quarantine",[5,5,5,4,4,4]],["The Expert Validation Shield",[6,4,6,4,4,6]],["The DARVO Cascade",[0,4,4,4,7,7,4]],["The Accountability Firewall",[4,4,4,4,4,4,4,4]],["The Accountability Black Hole",[4,5,6,6,6,6,6]],["Concern Masking",[6,5,3,6,1]],["Velvet Glove Control",[4,5,1,6,3,6]],["The Velvet Threat",[4,5,4,0,6,5]],["The Isolation Campaign",[0,5,5,4,5,6]],["The Reputation Assassination",[6,5,4,0,4,5]],["The Flying Monkey Network",[4,5,4,5,4,6]],["The Pile-On Engine",[8,8,0,4,0,7]],["The Social Proof Trap",[4,4,6,4,0,4]],["The Triangulation Web",[5,4,5,5,5,6]],["The Public Shaming Ritual",[7,6,5,0,7,0]],["The Alliance Fracture",[1,1,0,6,5,5]],["Social Currency Manipulation",[1,1,2,2,2,6]],["Character Assassination",[5,4,3,4,0,4]],["Social Death",[5,5,5,5,0,8,8,0]],["Divide and Conquer",[5,5,0,4,4,3,5]],["Manufactured Consensus",[4,4,0,4,8,4,4]],["Mobbing",[5,5,5,5,0,3,8]],["The Smear-and-Replace",[5,5,0,0,1,3]],["The Data Weaponization System",[4,4,3,6,6,4]],["The Hierarchy Enforcement Engine",[6,5,6,6,0,6]],["The Resource Extraction Pipeline",[6,4,6,6,6,4]],["Coercive Control",[0,0,6,5,6,6,6,6,6]],["Bureaucratic Violence",[6,6,6,0,6,6,6,6]],["Professional Destruction",[3,3,5,0,6,5,6,3]],["Knowledge Weaponization",[0,4,1,4,4,4,4]],["The Total Institution",[0,0,0,0,6,1,2,5,6,6,6]],["Systemic Entrapment",[2,5,0,0,6,2,6,4]],["The Paper Trail Ambush",[6,6,4,4,4,4,6]],["Helicopter Surveillance",[6,6,6,6,6]],["Digital Identity Destruction",[8,0,8,8,6,8,4,8,4]],["Online Reputation Annihilation",[5,4,8,8,8,4,5,0,5]],["The Algorithmic Sorting Machine",[6,2,6,4,6,2]],["The Gamification Trap",[3,2,2,6,6,0]],["The Platform Lock-In",[1,6,6,0,2,4]],["The Comparison Engine",[3,3,3,5,6,0]],["Psychological Identity Theft",[2,0,3,3,3,0]],["Competence Undermining",[3,8,3,3,6,3,3]],["Manufactured Crisis Bonding",[0,1,0,1,5]],["The Identity Replacement Program",[1,2,5,0,4,6,3,3,0,0]],["The Scapegoat Machine",[3,3,0,5,5,5,3,0]],["Weaponized Therapy Language",[0,3,4,6,3,3,7]],["The Student Athlete Extraction",[1,6,6,6,3,7]],["The Parent Silencer",[5,6,5,5,5,6]],["The Gifted Child Weaponization",[6,3,3,3,0,6]],["The Exception Script",[1,1,1,2,3,3]],["The Competitive Isolation Grid",[5,3,2,0,5,3]],["The Performative Ally",[6,1,4,6,1,6,6]],["The Double Life Manager",[0,5,5,1,0,0]],["The Benevolent Dictator",[6,1,6,3,8,6,6]],["The Gauntlet",[6,2,5,6,5,6,0,6]],["The Cult of Personality",[2,1,2,1,1,4,6,6,3]],["The Recursive Trap",[3,4,4,4,4,4]],["The Weaponized Gift Economy",[1,1,6,2,2,6,2]],["The Wellness Trap",[0,0,3,6,6,4]],["Surveillance Architecture",[2,0,6,6,6,0]],["The Phantom Equity",[1,2,4,3,4,0]],["The Allocation Scarcity Engine",[1,2,2,4,2,2]],["The Economics Obfuscation Layer",[4,4,2,4,4,2]],["The Reputation Hostage",[2,2,2,7,2,4]],["The Mirror Hook",[1,1,1,1,2,2]],["The Long Con",[5,1,1,2,0,2]],["The Halo Shield",[2,2,1,6,4]],["The Bench",[2,2,5,7,8]],["The Big Ask",[2,2,2,6,0]],["The Praise Leash",[2,2,2,2,3]],["The Mood Weather",[6,3,4,0]],["The Unwinnable Conversation",[4,4,4,4,3,0,0]],["The Perspective Eraser",[0,4,4,3,0]],["The Wall",[4,4,4,4,0,7]],["The Positivity Muzzle",[4,3,7,0]],["The Information Laundromat",[4,4,4,0,4,4,0]],["The Coded Crowd",[4,5,6,5,5,7]],["The Synthetic Storm",[4,8,4,4]],["The Erased Contributor",[5,3,3,5,0,3]],["The Body Under Rule",[6,6,6,6,6,6]],["The Room",[6,6,6,0]],["The Afterlife",[6,6,7,0,0]],["The Public Breaking",[7,6,7,0,0]],["The Clinical Brush-Off",[3,3,4,0]],["The Captured Referee",[6,6,4,4,7]],["The Crisis Covenant",[2,1,2,6,0]],["The Body Audit",[3,3,3,3,0]],["The Paper Cage",[6,6,6,5,0]],["The Soft Sell",[2,2,2,2,2,2]],["The Deniable Accusation",[4,4,4,7]],["The Digital Hostage",[1,0,8,7,0]]],"stageCounts":[27,50,34,74,24,90,21,15],"techCounts":[2,2,4,5,6,7,2,2],"stages":["Idealize","Hook","Devalue","Confuse","Isolate","Extract","Discard","Replace"],"originals":["Chosen","Covenant","Inherent worth","Truth","Community","Abundance","Unfailing presence","Irreplaceable worth"]};</script>
+<script>/* Fractal² intro: the stage.
+   One field of points. Point 0 is "you" (the signal). Points 1..2700 are the 2,700 examples of The Fractal
+   (30 sectors x 30 techniques x 3 levels). The rest bring one sector to 1,005 (335 tactics x 3 levels) and
+   thirty sectors to 30,150. Every figure on the page is a formation of these same points.
+   Motion is a critically damped chase toward a target that the scroll position sets, so it can be interrupted
+   at any moment and never plays "at" the reader. No libraries. No storage. No network except same-site audio. */
+(function () {
+  'use strict';
+  var D = window.F2, doc = document, root = doc.documentElement, cv = doc.getElementById('stage'), LB = doc.getElementById('labels');
+  if (!cv || !D) return;
+  var rmq = matchMedia('(prefers-reduced-motion: reduce)'), RM = rmq.matches;
+  var lightq = matchMedia('(prefers-color-scheme: light)');
+  var TAU = Math.PI * 2, NS = 30, NCORE = 2700, PER = 1005, N = 1 + NS * PER;
+  function H(i, k) { var x = Math.sin(i * 127.1 + k * 311.7) * 43758.5453; return x - Math.floor(x); }
+  function clamp(x) { return x < 0 ? 0 : x > 1 ? 1 : x; }
+  function ss(x) { x = clamp(x); return x * x * (3 - 2 * x); }
+
+  /* ---------- who each point is ---------- */
+  var TC = D.techCounts, SCN = D.stageCounts, techStage = [], tacStage = [], bandFirst = [], g, k, a;
+  for (g = 0; g < 8; g++) for (k = 0; k < TC[g]; k++) techStage.push(g);
+  for (g = 0, a = 0; g < 8; g++) { bandFirst.push(a); for (k = 0; k < SCN[g]; k++) tacStage.push(g); a += SCN[g]; }
+  var NT = tacStage.length, coreM = [], restM = [], isCore = {};
+  for (k = 0; k < 30; k++) { var m0 = Math.floor((k + .5) * NT / 30); coreM.push(m0); isCore[m0] = 1; }
+  for (k = 0; k < NT; k++) if (!isCore[k]) restM.push(k);
+  var pS = new Uint8Array(N), pM = new Uint16Array(N), pL = new Uint8Array(N), pK = new Int8Array(N), pC = new Uint8Array(N);
+  (function () {
+    for (var i = 1; i < N; i++) {
+      var j = i - 1, s, q;
+      if (j < NCORE) { s = j % 30; q = (j / 30) | 0; pK[i] = (q / 3) | 0; pC[i] = q; pM[i] = coreM[(q / 3) | 0]; pL[i] = q % 3; }
+      else { var e = j - NCORE; s = e % 30; q = (e / 30) | 0; pK[i] = -1; pC[i] = 0; pM[i] = restM[((q / 3) | 0) % restM.length]; pL[i] = q % 3; }
+      pS[i] = s;
+    }
+  })();
+
+  /* ---------- palette (from the page's own tokens) ---------- */
+  var PAL = [], LIGHT = false;
+  function hex(v) { v = v.trim(); if (v.charAt(0) !== '#') return [.9, .9, .88]; if (v.length === 4) v = '#' + v[1] + v[1] + v[2] + v[2] + v[3] + v[3]; return [parseInt(v.substr(1, 2), 16) / 255, parseInt(v.substr(3, 2), 16) / 255, parseInt(v.substr(5, 2), 16) / 255]; }
+  function readPalette() {
+    var cs = getComputedStyle(root), names = ['--ink', '--s1', '--s2', '--s3', '--s4', '--s5', '--s6', '--s7', '--s8', '--gold', '--ink-3', '--warn'];
+    PAL = names.map(function (n) { return hex(cs.getPropertyValue(n)); });
+    LIGHT = lightq.matches;
+    if (!LIGHT) PAL[10] = [.48, .56, .7];
+  }
+  var INK = 0, GOLD = 9, COLD = 10, WARN = 11;
+
+  /* ---------- layout ---------- */
+  var L = { w: 1, h: 1, P: true, cx: 0, cy: 0, u: 100, dpr: 1 }, stableH = 0;
+  function measure() {
+    var w = root.clientWidth, h = window.innerHeight;
+    if (!stableH || Math.abs(h - stableH) > 140 || w !== L.w) stableH = h;
+    L.w = w; L.h = stableH; L.P = w < 960 || w / stableH < 1;
+    L.dpr = Math.min(window.devicePixelRatio || 1, 2);
+  }
+  function centre(hold) {       /* where the stage sits: beside the text on wide screens, behind it on narrow ones */
+    if (L.P) return { cx: L.w * .5, cy: L.h * .36, u: Math.min(L.w * .44, L.h * .25) };
+    var side = { cx: L.w * .71, cy: L.h * .52, u: Math.min(L.w * .25, L.h * .38) }, mid = { cx: L.w * .56, cy: L.h * .5, u: Math.min(L.w * .3, L.h * .4) };
+    return { cx: side.cx + (mid.cx - side.cx) * hold, cy: side.cy + (mid.cy - side.cy) * hold, u: side.u + (mid.u - side.u) * hold };
+  }
+
+  /* ---------- formations ---------- */
+  function mk(n, fn) {
+    var d = new Float32Array(n * 6), o = {};
+    for (var i = 0; i < n; i++) { o.x = 0; o.y = 0; o.s = 2; o.a = 0; o.c = INK; o.d = 0; fn(i, o); var b = i * 6; d[b] = o.x; d[b + 1] = o.y; d[b + 2] = o.s; d[b + 3] = o.a; d[b + 4] = o.c; d[b + 5] = o.d; }
+    return { n: n, d: d };
+  }
+  function you(o, x, y, s, a, c) { o.x = x || 0; o.y = y || 0; o.s = s || 9; o.a = a === undefined ? 1 : a; o.c = c === undefined ? GOLD : c; }
+  var GAP = .09, arc0 = [], arcSpan = [];
+  (function () { var acc = 0; for (var g = 0; g < 8; g++) { arcSpan.push(TC[g] / 30 * (TAU - 8 * GAP)); arc0.push(acc + GAP / 2); acc += arcSpan[g] + GAP; } })();
+  function ringPos(i, R, o, ox, oy) {
+    var kk = pK[i], g = techStage[kk], first = 0, j; for (j = 0; j < g; j++) first += TC[j];
+    var f = ((kk - first) + (pL[i] + H(i, 1)) / 3) / TC[g], th = -Math.PI / 2 + arc0[g] + f * arcSpan[g], r = R * (1 + (H(i, 2) - .5) * .085);
+    o.x = (ox || 0) + Math.cos(th) * r; o.y = (oy || 0) + Math.sin(th) * r; return g;
+  }
+  function gridPos(i, o) {
+    var s = pS[i], kk = pK[i], l = pL[i];
+    if (L.P) { var col = s % 15, row = (s / 15) | 0; o.x = -.96 + (col + .5) / 15 * 1.92 + (l - 1) * .026; o.y = (row ? .06 : -.94) + kk / 29 * .84; }
+    else { o.x = -1 + (s + .5) / 30 * 2 + (l - 1) * .015; o.y = -.62 + kk / 29 * 1.24; }
+  }
+  var ROWS = [], rowAcc = 0; for (g = 0; g < 8; g++) { ROWS.push(rowAcc + g * .5); rowAcc += Math.ceil(SCN[g] / 30); }
+  var ROWT = rowAcc + 3.5;
+  function panelPos(i, cx, cy, W, Hh, o) {
+    var m = pM[i], gg = tacStage[m], t = m - bandFirst[gg], r = ROWS[gg] + ((t / 30) | 0), c = t % 30;
+    o.x = cx - W / 2 + (c + .5 + (pL[i] - 1) * .28) / 30 * W; o.y = cy - Hh / 2 + (r + .5) / ROWT * Hh; return gg;
+  }
+  function tile(s) {
+    var cols = L.P ? 5 : 6, rows = L.P ? 6 : 5, y0 = L.P ? -1.22 : -.9, y1 = L.P ? 1.32 : .9, c = s % cols, r = (s / cols) | 0;
+    return { x: -1 + (c + .5) * 2 / cols, y: y0 + (r + .5) * (y1 - y0) / rows, W: 2 / cols * .8, H: (y1 - y0) / rows * .74 };
+  }
+  var LV = [.3, .58, .86];
+  function levelPos(i, o, scale) { var th = H(i, 3) * TAU, r = (LV[pL[i]] + (H(i, 4) - .5) * .05) * (scale || 1); o.x = Math.cos(th) * r; o.y = Math.sin(th) * r; }
+  var ENT = 11;
+  var debt = (function () { for (var i = 0; i < D.combos.length; i++) if (D.combos[i][0] === 'The Debt Prison') return D.combos[i][1]; return [6, 6, 2, 2, 2, 6]; })();
+  var beads = []; D.combos.forEach(function (c, ci) { c[1].forEach(function (st, t) { beads.push([ci, t, st, c[1].length]); }); });
+  var ROSTER = ['The Debt Prison', 'The Golden Cage', 'The Trauma Bond Engine', 'The Gaslighting Machine', 'The Phantom Equity', 'The Memory Hole', 'The Halo Shield', 'The Confidentiality Cage', 'The Frog in Boiling Water', 'Learned Silence', 'Walking on Eggshells', 'Social Death', 'The Room',
+    'The Loyalty Trap', 'The Burnout Machine', 'The Erased Contributor', 'The NDA Silencer', 'The Paper Cage', 'The Scapegoat Machine', 'The Long Con', 'The Wall', 'The Gratitude Prison', 'The Identity Lock', 'The Captured Referee'];
+
+  var S = {};
+  S.signal = { n: 1, gain: 1, keys: function () { return [mk(1, function (i, o) { you(o, 0, 0, 11, 1); })]; } };
+  S.room = { n: 261, amb: .05, gain: .85, keys: function () { return [mk(261, function (i, o) { if (!i) return you(o, .18, -.06, 8, .95); o.x = (H(i, 5) * 2 - 1) * 1.12; o.y = (H(i, 6) * 2 - 1) * (L.P ? 1.45 : 1); o.s = 1.6 + H(i, 7) * 1.6; o.a = .14 + H(i, 8) * .3; })]; } };
+  S.cycle = { n: 2701, sp: 7 / 8, amb: .006,
+    keys: function () {
+      return [mk(2701, function (i, o) { if (!i) return you(o, 0, 0, 6, .5); ringPos(i, .84, o); o.s = 1.9; o.a = .2; }),
+        mk(2701, function (i, o) { if (!i) return you(o, 0, 0, 6, .5); var gg = ringPos(i, .84, o); o.s = 2.1; o.a = .9; o.c = 1 + gg; o.d = gg / 7; })];
+    },
+    labels: function () {
+      var out = D.stages.map(function (nm, gi) { return { h: nm, c: 'mid', x: 0, y: -.02, a: gi / 8, b: gi === 7 ? 9 : (gi + 1) / 8 }; });
+      out.push({ h: '', c: 'dim', x: 0, y: .2, a: 0, b: 9, f: function (p, el) { var t = Math.min(8, Math.floor(p * 8) + 1) + ' of 8'; if (el.textContent !== t) el.textContent = t; } });
+      return out;
+    } };
+  S.levels = { n: 2701, sp: 2 / 3, stops: [0, .75, 1], amb: .008,
+    keys: function () {
+      return [mk(2701, function (i, o) { if (!i) return you(o, 0, 0, 7, .9); levelPos(i, o); o.s = 1.8; o.a = .16; }),
+        mk(2701, function (i, o) { if (!i) return you(o, 0, 0, 7, .9); levelPos(i, o); o.s = 2; o.a = .8; o.d = pL[i] / 2; }),
+        mk(2701, function (i, o) { if (!i) return you(o, 0, 0, 7, .9); var inn = H(i, 9) < .15; levelPos(i, o, inn ? .2 : 1); o.s = inn ? 1.5 : 2; o.a = inn ? .95 : .6; o.c = inn ? GOLD : INK; o.d = H(i, 10); })];
+    },
+    labels: function () {
+      return [{ h: 'one life', x: 0, y: -LV[0] - .08, a: .02 }, { h: 'an institution', x: 0, y: -LV[1] - .08, a: .27 }, { h: 'a civilization', x: 0, y: -LV[2] - .08, a: .52 },
+        { h: 'the pattern, inside the person', c: 'gold', x: 0, y: .44, a: .86 }];
+    } };
+  S.count = { n: 2701, sp: .72,
+    keys: function () {
+      return [mk(2701, function (i, o) { if (!i) return you(o, 0, 0, 5, 0); o.x = H(i, 11) * 2 - 1; o.y = (H(i, 12) * 2 - 1) * .9; o.s = 1.8; o.a = .14; }),
+        mk(2701, function (i, o) { if (!i) return you(o, 0, 0, 5, 0); gridPos(i, o); o.s = 1.9; o.a = .88; o.c = 1 + techStage[pK[i]]; o.d = pS[i] / 29; })];
+    },
+    labels: function () {
+      return [{ h: '0', c: 'big', x: 0, y: L.P ? -1.2 : -.87, a: .03, f: function (p, el) { var v = Math.round(2700 * ss(p * 1.08)), t = v < 1000 ? String(v) : ((v / 1000) | 0) + ',' + ('00' + v % 1000).slice(-3); if (el.firstChild.nodeValue !== t) el.firstChild.nodeValue = t; } },
+        { h: 'examples · 30 sectors × 30 techniques × 3 levels', c: 'cap', x: 0, y: L.P ? 1.08 : .8, a: .5 }];
+    } };
+  function gateXY(i, o) {
+    var s = pS[i], th = -Math.PI / 2 + s * TAU / 30, R = .8, f = (pC[i] + .5) / 90, w = .05, hh = .085, u, v;
+    if (f < .3) { u = -w; v = -hh + f / .3 * 1.4 * hh; } else if (f > .7) { u = w; v = -hh + (1 - f) / .3 * 1.4 * hh; } else { var ph = Math.PI * (f - .3) / .4; u = -w * Math.cos(ph); v = .4 * hh + w * Math.sin(ph); }
+    var c = Math.cos(th), sn = Math.sin(th); o.x = c * (R + v) - sn * u; o.y = sn * (R + v) + c * u;
+  }
+  S.gates = { n: 2701, sp: 29 / 30,
+    keys: function () {
+      return [mk(2701, function (i, o) { if (!i) return you(o, 0, 0, 9, 1); gateXY(i, o); o.s = 1.6; o.a = .28; }),
+        mk(2701, function (i, o) { if (!i) return you(o, 0, 0, 9, 1); gateXY(i, o); o.s = 1.7; o.a = .62; o.d = pS[i] / 29; })];
+    },
+    post: function (p) { var act = Math.min(29, Math.floor(p * 30)); if (p <= 0 || p >= 1) return; for (var i = 1; i < 2701; i++) if (pS[i] === act) { tA[i] = 1; tS[i] = 2.6; tC[i * 3] = PAL[GOLD][0]; tC[i * 3 + 1] = PAL[GOLD][1]; tC[i * 3 + 2] = PAL[GOLD][2]; } },
+    labels: function () {
+      return [{ h: '<span class="nmx"></span><span class="sub"></span>', c: 'mid', x: 0, y: .3, a: .001, b: 9, f: function (p, el) {
+        var act = Math.min(29, Math.floor(p * 30)), s = D.sectors[act];
+        if (el._a !== act) { el._a = act; el.firstChild.textContent = s[0]; el.lastChild.textContent = 'your relationship with ' + s[1]; }
+      } }, { h: '', c: 'dim', x: 0, y: -.26, a: .001, b: 9, f: function (p, el) { var t = ('0' + Math.min(30, Math.floor(p * 30) + 1)).slice(-2) + ' / 30'; if (el.textContent !== t) el.textContent = t; } }];
+    } };
+  var OA = [[-.5, -.36], [.5, -.36], [0, .5]], OC = [[-.2, -.12], [.2, -.12], [0, .21]];
+  function circ(i, cs, r, o) { var gq = pL[i], th = H(i, 13) * TAU, rr = r * (1 + (H(i, 14) - .5) * .07); o.x = cs[gq][0] + Math.cos(th) * rr; o.y = cs[gq][1] + Math.sin(th) * rr; }
+  function originFinal(i, o) { if (!i) return you(o, 0, 0, 5, 0); if (H(i, 15) < .24) { var gg = ringPos(i, .13, o, 0, 0); o.c = 1 + gg; o.a = 1; o.s = 1.7; } else { circ(i, OC, .42, o); o.a = .5; o.s = 1.8; } o.d = H(i, 16); }
+  S.origin = { n: 2701, sp: 2 / 3, stops: [0, .75, 1], tail: 1,
+    keys: function () {
+      return [mk(2701, function (i, o) { if (!i) return you(o, 0, 0, 5, 0); circ(i, OA, .4, o); o.s = 1.8; o.a = .18; }),
+        mk(2701, function (i, o) { if (!i) return you(o, 0, 0, 5, 0); circ(i, OA, .4, o); o.s = 2; o.a = .85; o.d = pL[i] / 2; }),
+        mk(2701, originFinal)];
+    },
+    labels: function () {
+      return [{ h: 'a real need', x: -.5, y: L.P ? -.86 : -.84, a: .02, b: .78 }, { h: 'a difference in power', x: .5, y: L.P ? -.86 : -.84, a: .27, b: .78 }, { h: 'a gatekeeper', x: 0, y: .98, a: .52, b: .78 },
+        { h: 'it installs itself', c: 'gold', x: 0, y: .7, a: .9 }];
+    } };
+  S.drivers = { n: 2701, amb: .01, keys: function () { return [mk(2701, originFinal)]; } };
+  S.mirror = { n: 2701, sp: .4,
+    keys: function () {
+      return [mk(2701, function (i, o) { if (!i) return you(o, 0, 0, 7, 1); var gg = ringPos(i, .84, o); o.c = 1 + gg; o.a = .5; o.s = 1.9; }),
+        mk(2701, function (i, o) { if (!i) return you(o, 0, 0, 8, 1); var gg = ringPos(i, .24, o); o.c = 1 + gg; o.a = .95; o.s = 1.6; o.d = H(i, 17); })];
+    } };
+  function linkPos(gq, i, o, dx, dy) {
+    var th = H(i, 18) * TAU, rr = 1 + (H(i, 19) - .5) * .16;
+    if (L.P) { o.x = Math.cos(th) * .17 * rr + (dx || 0); o.y = -.78 + gq * .52 + Math.sin(th) * .33 * rr + (dy || 0); }
+    else { o.x = -.69 + gq * .46 + Math.cos(th) * .3 * rr + (dx || 0); o.y = Math.sin(th) * .15 * rr + (dy || 0); }
+  }
+  S.chain = { n: 2701, sp: .75,
+    keys: function () {
+      function yo(o) { if (L.P) you(o, 0, .78, 8, 1); else you(o, .69, 0, 8, 1); }
+      return [mk(2701, function (i, o) { if (!i) { yo(o); o.a = .4; return; } linkPos((i - 1) % 4, i, o); o.s = 1.8; o.a = .14; }),
+        mk(2701, function (i, o) { if (!i) return yo(o); var gq = (i - 1) % 4; linkPos(gq, i, o); o.s = 2; o.a = gq === 3 ? .95 : .6; o.c = gq === 3 ? GOLD : INK; o.d = gq / 3; })];
+    },
+    labels: function () {
+      return ['great-grandmother', 'grandmother', 'mother', 'you'].map(function (t, gq) { return L.P ? { h: t, c: gq === 3 ? 'gold' : '', x: .6, y: -.78 + gq * .52, a: .05 + gq * .22 } : { h: t, c: gq === 3 ? 'gold' : '', x: -.69 + gq * .46, y: .3, a: .05 + gq * .22 }; });
+    } };
+  function tilesKey(alpha, col, gold) {
+    return mk(N, function (i, o) { if (!i) return you(o, 0, 0, 5, 0); var t = tile(pS[i]), gg = panelPos(i, t.x, t.y, t.W, t.H, o); o.s = 1.35; o.a = alpha; o.c = gold ? GOLD : col ? 1 + gg : INK; o.d = gold ? H(i, 20) : pS[i] / 29 * .6 + H(i, 20) * .35; });
+  }
+  /* The zoom figure. The published artwork of The Fractal (8 stages, 30 techniques) fills the view, then draws back
+     until it is a disc at the centre, and the 335 tactics of one sector form new rings around it, in the same eight
+     stages, at one constant letter size. Then that whole disc draws back and becomes one of thirty. */
+  var ART = { asp: 960 / 1720, cy: .4726, ring: .395 }, MAND = { R0: .375, R: 1 }, ZA = .2, ZB = .6;
+  function mandalaRows() {
+    var names = D.tactics, CW = .47;
+    function build(f) {
+      var rows = [], r = MAND.R0, g, i2;
+      for (g = 0; g < 8; g++) {          /* inside to outside: a ring line, the names, then the stage title, as on the original artwork */
+        rows.push({ g: g, line: r }); r += f * 1.05;
+        var cur = [], len = 0, cap = function (rr) { return 2 * Math.PI * rr / (f * CW) * .95; };
+        for (i2 = 0; i2 < names[g].length; i2++) { var nm = names[g][i2]; if (cur.length && len + nm.length + 3 > cap(r)) { rows.push({ g: g, r: r, f: f, txt: cur.join(' · '), full: 1 }); r += f * 1.3; cur = []; len = 0; } cur.push(nm); len += nm.length + 3; }
+        if (cur.length) {      /* a short last row is completed with a dotted leader, so every ring closes */
+          var pad = Math.max(0, Math.floor((cap(r) - len) / 4)), lead = new Array(pad + 1).join(' ·');
+          rows.push({ g: g, r: r, f: f, txt: lead.split('').reverse().join('') + '  ' + cur.join(' · ') + '  ' + lead, full: 1 }); r += f * 1.3; }
+        r += f * .25; rows.push({ g: g, title: 1, r: r, f: f * 1.25, txt: (D.stages[g] + ' · ' + names[g].length).toUpperCase() }); r += f * .75;
+      }
+      return { rows: rows, R: r };
+    }
+    var lo = .008, hi = .06, k2, best;
+    for (k2 = 0; k2 < 18; k2++) { var mid = (lo + hi) / 2; best = build(mid); if (best.R > MAND.R) hi = mid; else lo = mid; }
+    return build(lo);
+  }
+  function mandalaSVG() {
+    var m = mandalaRows(), K = 1000, defs = '', body = '', g = -1, esc = function (t) { return t.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/"/g, '&quot;'); };
+    m.rows.forEach(function (row, k2) {
+      if (row.g !== g) { if (g >= 0) body += '</g>'; g = row.g; body += '<g class="zg zs' + (g + 1) + '" data-g="' + g + '">'; }
+      if (row.line !== undefined) { body += '<circle class="zl" r="' + (row.line * K).toFixed(1) + '"/>'; return; }
+      var r = row.r * K, id = 'zr' + k2;
+      defs += '<path id="' + id + '" d="M0 ' + r.toFixed(1) + 'A' + r.toFixed(1) + ' ' + r.toFixed(1) + ' 0 1 1 .5 ' + r.toFixed(1) + '"/>';
+      body += '<text class="' + (row.title ? 'zt' : 'zn') + '" font-size="' + (row.f * K).toFixed(2) + '"><textPath href="#' + id + '" startOffset="50%" text-anchor="middle"' +
+        (row.full ? ' textLength="' + (2 * Math.PI * r * .955).toFixed(0) + '" lengthAdjust="spacing"' : '') + '>' + esc(row.txt) + '</textPath></text>';
+    });
+    var V = MAND.R * K * 1.02;
+    return '<svg viewBox="' + (-V) + ' ' + (-V) + ' ' + (2 * V) + ' ' + (2 * V) + '" aria-hidden="true" focusable="false"><defs>' + defs + '</defs>' + body + '</g><circle class="zl zs8" r="' + (m.R * K).toFixed(1) + '"/></svg>';
+  }
+  function zoomPhase(p) {        /* a: artwork full -> disc (0..1); c: whole disc -> one tile of thirty (0..1) */
+    return { a: ss((p - ZA * .35) / (ZA * 1.3)), b: clamp((p - ZA * .9) / (ZB - ZA * .9 - .06)), c: ss((p - ZB) / (1 - ZB) * 1.25) };
+  }
+  S.zoom = { n: N, sp: .5, stops: [0, ZB, 1], rmP: ZB - .02,
+    keys: function () {
+      function hidden(i, o) { if (!i) return you(o, 0, 0, 5, 0); var t = tile(pS[i]); o.x = t.x; o.y = t.y; o.a = 0; o.s = 1.3; }
+      return [function () { return mk(N, hidden); }, function () { return mk(N, hidden); }, function () { return tilesKey(.82, 1); }];
+    },
+    labels: function () {
+      var y = L.P ? 1.56 : -.1, lx = L.P ? 0 : -1.62, hA = L.P ? 2.95 : 1.9, hB = MAND.R0 * .97 / ART.ring, V = MAND.R * 1.02, t = tile(ENT);
+      function place(el, wpx, hpx, ox, oy, sc, cxs, cys) {     /* fixed box, moved and scaled only by transform: no layout while scrolling */
+        el.style.transform = 'translate(' + (C.cx + cxs * C.u - ox * sc).toFixed(1) + 'px,' + (C.cy + cys * C.u - oy * sc).toFixed(1) + 'px) scale(' + sc.toFixed(4) + ')';
+      }
+      return [
+        { raw: 1, c: 'art', h: '<img src="' + D.art + '" alt="" width="960" height="1720" decoding="async">', f: function (p, el, on) {
+          var z = zoomPhase(p), hs = (hA + (hB - hA) * z.a) * (1 - z.c * .87), Hpx = 860, sc = hs * C.u / Hpx;
+          place(el, Hpx * ART.asp, Hpx, Hpx * ART.asp / 2, Hpx * ART.cy, sc, t.x * z.c, t.y * z.c);
+          var o = on ? String(1 - ss((z.c - .55) / .45)) : '0'; if (el._o !== o) { el._o = o; el.style.opacity = o; } } },
+        { raw: 1, c: 'mand', h: mandalaSVG(), f: function (p, el, on) {
+          var z = zoomPhase(p), base = el._u || 0, i2, gs;
+          if (!base || (Math.abs(C.u - base) > .6 && Math.abs(C.u - (el._lu || 0)) < .05)) { base = el._u = C.u; el.style.width = el.style.height = (2 * V * base).toFixed(1) + 'px'; }
+          el._lu = C.u;
+          var sc = C.u / base * (1 - z.c * .87), half = V * base;
+          place(el, 0, 0, half, half, sc, t.x * z.c, t.y * z.c);
+          var o = on && z.b > 0 ? String(1 - ss((z.c - .55) / .45)) : '0'; if (el._o !== o) { el._o = o; el.style.opacity = o; }
+          gs = el._g || (el._g = [].slice.call(el.querySelectorAll('.zg')));
+          for (i2 = 0; i2 < gs.length; i2++) { var v = RM ? 1 : clamp(z.b * 9.2 - i2); v = (Math.round(v * 20) / 20).toString(); if (gs[i2]._o !== v) { gs[i2]._o = v; gs[i2].style.opacity = v; } } } },
+        { h: '30<span class="sub">techniques in eight stages: The Fractal</span>', c: 'big', x: lx, y: y, a: .01, b: ZA * .9 },
+        { h: '335<span class="sub">tactics in one sector, in the same eight stages</span>', c: 'big gold', x: lx, y: y, a: ZA * 1.6, b: ZB + .03 },
+        { h: '30,000+<span class="sub">examples when all thirty sectors are mapped</span>', c: 'big', x: lx, y: y, a: ZB + .16, b: 9 }];
+    } };
+  S.altitudes = { n: 2701, sp: 2 / 3,
+    keys: function () {
+      function base(a2) { return function (i, o) { if (!i) return you(o, 0, 0, 6, .7); if (i <= 3) { o.x = 0; o.y = -LV[i - 1]; o.s = 9; o.a = a2; o.c = GOLD; o.d = (i - 1) / 2; return; } levelPos(i, o); o.s = 1.8; o.a = .26; }; }
+      return [mk(2701, base(0)), mk(2701, base(1))];
+    },
+    labels: function () { return [{ h: 'in one life', x: .34, y: -LV[0], a: .05 }, { h: 'inside an institution', x: .42, y: -LV[1], a: .38 }, { h: 'across a culture', x: .38, y: -LV[2], a: .7 }]; } };
+  S.names = { n: N, sp: .82, keys: function () { return [function () { return tilesKey(.2, 0); }, function () { return tilesKey(.8, 0, 1); }]; } };
+  S.witness = { n: 1, gain: 1, keys: function () { return [mk(1, function (i, o) { you(o, 0, 0, 8, .9); })]; } };
+  S.threshold = { n: 1, gain: 1, keys: function () { return [mk(1, function (i, o) { you(o, 0, 0, 6, .55, COLD); })]; } };
+  function beadPos(b, o) {
+    var bd = beads[b], cols = L.P ? 9 : 17, rows = L.P ? 17 : 9, y0 = L.P ? -1.25 : -.9, y1 = L.P ? 1.4 : .9, ci = bd[0], c = ci % cols, r = (ci / cols) | 0;
+    var ch = (y1 - y0) / rows, sp = Math.min(.034, ch * .78 / bd[3]);
+    o.x = -1 + (c + .5) * 2 / cols + Math.sin(bd[1] * .9 + ci) * .008; o.y = y0 + (r + .5) * ch + (bd[1] - (bd[3] - 1) / 2) * sp;
+  }
+  S.roster = { n: 1 + beads.length, sp: .7,
+    keys: function () {
+      var nb = 1 + beads.length;
+      return [mk(nb, function (i, o) { if (!i) return you(o, 0, 0, 5, 0); beadPos(i - 1, o); o.a = 0; o.s = 2.4; }),
+        mk(nb, function (i, o) { if (!i) return you(o, 0, 0, 5, 0); var bd = beads[i - 1]; beadPos(i - 1, o); o.a = bd[2] ? .7 : .4; o.s = 2.6; o.c = bd[2] ? bd[2] : INK; o.d = H(bd[0], 23); })];
+    },
+    labels: function () {
+      var list = ROSTER.slice(0, L.P ? 13 : 24), n = list.length;
+      return list.map(function (t, i2) {
+        var x, y; if (L.P) { x = (i2 % 2 ? .06 : -.06); y = -1.18 + i2 * .205; } else { x = [-.74, 0, .74][i2 % 3]; y = -.8 + ((i2 / 3) | 0) * .23; }
+        return { h: t, c: 'nm', x: x, y: y, a: .06 + i2 / n * .8 };
+      });
+    } };
+  var DOORS = ['your guard', 'your way out', 'your worth', 'your certainty', 'your witnesses'];
+  function doorPos(i, R, open, o) {
+    var gq = (i - 1) % 5, f = (((i - 1) / 5) | 0) / 299, span = TAU / 5 - .16, th0 = -Math.PI / 2 + gq * TAU / 5, th = th0 + (f - .5) * span;
+    var x = Math.cos(th) * R, y = Math.sin(th) * R, isDoor = Math.abs(f - .5) < .24;
+    if (open && isDoor) { var hth = th0 + (.26 - .5) * span, hx = Math.cos(hth) * R, hy = Math.sin(hth) * R, vx = x - hx, vy = y - hy, ca = Math.cos(-1.25), sa = Math.sin(-1.25); x = hx + vx * ca - vy * sa; y = hy + vx * sa + vy * ca; }
+    o.x = x; o.y = y; return gq;
+  }
+  S.multiply = { n: 1501, sp: 4 / 5, stops: [0, 5 / 6, 1],
+    keys: function () {
+      var R = L.P ? .52 : .62;
+      return [mk(1501, function (i, o) { if (!i) return you(o, 0, 0, 9, 1); doorPos(i, R, 1, o); o.s = 2; o.a = .45; }),
+        mk(1501, function (i, o) { if (!i) return you(o, 0, 0, 9, 1); var gq = doorPos(i, R, 0, o); o.s = 2.2; o.a = .9; o.c = COLD; o.d = gq / 4; }),
+        mk(1501, function (i, o) { if (!i) return you(o, 0, 0, 6, .5); doorPos(i, R * .7, 0, o); o.s = 2.4; o.a = 1; o.c = WARN; o.d = H(i, 25) * .5; })];
+    },
+    labels: function () {
+      var R = L.P ? .8 : .92;
+      return DOORS.map(function (t, gq) { var th = -Math.PI / 2 + gq * TAU / 5; return { h: t, x: Math.cos(th) * R, y: Math.sin(th) * R, a: 0, b: 9, f: function (p, el) { var sh = p > (gq + .7) / 6; if (el._s !== sh) { el._s = sh; el.classList.toggle('shut', sh); } } }; });
+    } };
+  var NL = 6, LPTS = 200, NMASS = 3906, SEQN = 1 + NL * LPTS + NMASS;
+  function seqLink(i, o, shiftAxis) {
+    var gq = ((i - 1) / LPTS) | 0, th = H(i, 26) * TAU, rr = 1 + (H(i, 27) - .5) * .18, sh = shiftAxis || 0;
+    if (L.P) { o.x = -.66 + Math.cos(th) * .12 * rr; o.y = -1.02 + gq * .42 + Math.sin(th) * .26 * rr + sh * (Math.sin(th) < 0 ? -1 : 1); }
+    else { o.x = -.8 + gq * .32 + Math.cos(th) * .2 * rr + sh * (Math.cos(th) < 0 ? -1 : 1); o.y = .66 + Math.sin(th) * .1 * rr; }
+    return gq;
+  }
+  function massPos(i, o, k2) {
+    var e = i - 1 - NL * LPTS, lv = Math.floor(Math.log(e / 62 + 1) / Math.LN2), R = .1 * Math.pow(1.45, lv) * (L.P ? 1 : 1.12) * (k2 || 1), r = R * Math.sqrt(H(i, 28)), th = H(i, 29) * TAU;
+    o.x = (L.P ? .3 : 0) + Math.cos(th) * r; o.y = (L.P ? 0 : -.2) + Math.sin(th) * r; return lv;
+  }
+  function seqYou(o, a2, s2) { you(o, L.P ? .3 : 0, L.P ? 0 : -.2, s2 || 9, a2); }
+  function seqKeyB() { return mk(SEQN, function (i, o) { if (!i) return seqYou(o, .5, 7); if (i <= NL * LPTS) { var gq = seqLink(i, o); o.a = .9; o.s = 2.1; o.c = debt[gq] || INK; o.d = gq / 5; } else { var lv = massPos(i, o); o.a = .55; o.s = 2; o.c = WARN; o.d = lv / 5; } }); }
+  S.sequence = { n: SEQN, sp: 5 / 6,
+    keys: function () {
+      return [mk(SEQN, function (i, o) { if (!i) return seqYou(o, 1); if (i <= NL * LPTS) { seqLink(i, o); o.a = .1; o.s = 1.8; } else { massPos(i, o, .1); o.a = 0; o.s = 1.6; o.c = WARN; } }), seqKeyB()];
+    },
+    labels: function () {
+      var out = []; for (var gq = 0; gq < 6; gq++) out.push(L.P ? { h: String(gq + 1), c: 'dim', x: -.93, y: -1.02 + gq * .42, a: gq / 6 + .01 } : { h: String(gq + 1), c: 'dim', x: -.8 + gq * .32, y: .88, a: gq / 6 + .01 });
+      return out;
+    } };
+  S['break'] = { n: SEQN, sp: .45, stops: [0, .4, 1],
+    keys: function () {
+      return [seqKeyB(),
+        mk(SEQN, function (i, o) { if (!i) return seqYou(o, .6, 8); if (i <= NL * LPTS) { var gq = ((i - 1) / LPTS) | 0; seqLink(i, o, gq === 3 ? .07 : 0); o.a = .9; o.s = gq === 3 ? 2.5 : 2.1; o.c = gq === 3 ? GOLD : (debt[gq] || INK); o.d = H(i, 30) * .4; } else { massPos(i, o); o.a = .55; o.s = 2; o.c = WARN; } }),
+        mk(SEQN, function (i, o) { if (!i) return seqYou(o, 1, 12); if (i <= NL * LPTS) { var gq = ((i - 1) / LPTS) | 0; seqLink(i, o, gq === 3 ? .13 : 0); if (gq > 3) { if (L.P) o.y += .2 + (gq - 3) * .1; else o.x += .12 + (gq - 3) * .06; o.y += L.P ? 0 : .14; o.a = .22; } else if (gq < 3) { o.a = .35; } else { o.a = .95; o.c = GOLD; } o.s = 2; if (gq !== 3) o.c = INK; o.d = H(i, 30); } else { massPos(i, o, 3.4); o.y -= .25; o.a = 0; o.s = 1.4; o.c = WARN; o.d = H(i, 31); } })];
+    },
+    labels: function () { return [L.P ? { h: 'break one', c: 'gold', x: -.2, y: -1.02 + 3 * .42, a: .12 } : { h: 'break one', c: 'gold', x: -.8 + 3 * .32, y: .4, a: .12 }]; } };
+  function barPos(i, o) { var gq = (i - 1) % 8; o.x = (H(i, 32) * 2 - 1) * .94; o.y = (L.P ? -1.02 : -.75) + gq * (L.P ? .3 : .215) + (H(i, 33) - .5) * .03; return gq; }
+  S.inversion = { n: 2401, sp: 7 / 8,
+    keys: function () {
+      return [mk(2401, function (i, o) { if (!i) return you(o, 0, 0, 5, 0); var gq = barPos(i, o); o.c = 1 + gq; o.a = .55; o.s = 1.8; }),
+        mk(2401, function (i, o) { if (!i) return you(o, 0, 0, 5, 0); var gq = barPos(i, o); o.c = GOLD; o.a = .95; o.s = 2.1; o.d = gq / 7; })];
+    },
+    labels: function () {
+      return D.stages.map(function (t, gq) { return { h: t, c: 'nm', x: 0, y: (L.P ? -1.02 : -.75) + gq * (L.P ? .3 : .215) - (L.P ? .1 : .085), a: 0, b: 9, f: function (p, el) { var done = p > (gq + .55) / 8; if (el._s !== done) { el._s = done; el.textContent = done ? D.originals[gq] : t; el.classList.toggle('gold', done); } } }; });
+    } };
+  S.frequency = { n: 1201, fast: 1, gain: 1,
+    keys: function () { return [mk(1201, function (i, o) { if (!i) return you(o, 0, 0, 12, 1); var r = (((i - 1) % 6) + 1) / 6 * 1.05, th = H(i, 34) * TAU; o.x = Math.cos(th) * r; o.y = Math.sin(th) * r; o.c = GOLD; o.s = 2.4; o.a = .5 * (1 - r / 1.3); })]; },
+    tick: function (t) { if (RM) return; for (var i = 1; i < 1201; i++) { var f = (((i - 1) % 6) / 6 + t * .055) % 1, r = .06 + f * 1.1, th = H(i, 34) * TAU; tX[i] = Math.cos(th) * r; tY[i] = Math.sin(th) * r; tA[i] = Math.sin(Math.PI * f) * .85; } } };
+  var STRATA = ['the sectors', 'the techniques', 'the mirror', 'the body', 'the chain'], DROP = 4.25;
+  S.descent = { n: 2701, sp: 0, linear: 1,
+    keys: function () {
+      function at(off) { return function (i, o) { if (!i) return you(o, 0, DROP - off, 12, 1); var b = (i - 1) % 5; o.x = (H(i, 35) * 2 - 1); o.y = -.45 + b * .85 + (H(i, 36) - .5) * .24 - off; o.s = 2.1; o.a = .8 - b * .08; o.c = b === 0 ? 1 + techStage[pK[i]] : INK; }; }
+      return [mk(2701, at(0)), mk(2701, at(DROP))];
+    },
+    labels: function () { return STRATA.map(function (t, b) { return { h: t, x: 0, y: 0, a: 0, b: 9, yf: function (p) { return -.45 + b * .85 - .2 - p * DROP; } }; }); } };
+  S.ground = { n: 301, gain: 1, fast: 1,
+    keys: function () { return [mk(301, function (i, o) { if (!i) return you(o, 0, 0, 13, 1); var th = H(i, 37) * TAU; o.x = Math.cos(th) * .32; o.y = Math.sin(th) * .32; o.c = GOLD; o.s = 1.6; o.a = .16; })]; },
+    tick: function (t) { if (RM) return; var r = .32 + Math.sin(t * .8) * .035; for (var i = 1; i < 301; i++) { var th = H(i, 37) * TAU; tX[i] = Math.cos(th) * r; tY[i] = Math.sin(th) * r; } } };
+  function lightPos(i, o) { var th = H(i, 38) * TAU, r = Math.sqrt(H(i, 39)) * 1.3; o.x = Math.cos(th) * r; o.y = Math.sin(th) * r * (L.P ? 1.25 : .8); return r / 1.3; }
+  S.horizon = { n: 2701, sp: .82, amb: .01,
+    keys: function () {
+      return [mk(2701, function (i, o) { if (!i) return you(o, 0, 0, 12, 1); lightPos(i, o); o.a = 0; o.c = GOLD; }),
+        mk(2701, function (i, o) { if (!i) return you(o, 0, 0, 10, 1); var r = lightPos(i, o); o.a = .3 + H(i, 40) * .65; o.s = 1.6 + H(i, 41) * 2.6; o.c = GOLD; o.d = r; })];
+    } };
+  S.atlas = { n: N, sp: .5,
+    keys: function () {
+      function k(lit) { return mk(N, function (i, o) { if (!i) return you(o, 0, 0, 5, 0); var s = pS[i], t = tile(s); if (s === ENT) { var gg = panelPos(i, t.x, t.y, t.W, t.H, o); o.a = lit ? .92 : .2; o.c = lit ? 1 + gg : INK; o.s = 1.4; o.d = H(i, 42); return; }
+        if (pK[i] < 0) { o.x = t.x; o.y = t.y; o.a = 0; return; }
+        var f = (pC[i] + H(i, 43)) / 90 * 4, e = f | 0, q = f - e, hw = t.W / 2, hh = t.H / 2; o.x = t.x + (e === 0 ? -hw + q * t.W : e === 1 ? hw : e === 2 ? hw - q * t.W : -hw); o.y = t.y + (e === 0 ? -hh : e === 1 ? -hh + q * t.H : e === 2 ? hh : hh - q * t.H); o.a = .3; o.s = 1.4; }); }
+      return [function () { return k(0); }, function () { return k(1); }];
+    },
+    labels: function () {
+      var t = tile(ENT), out = [{ h: 'Entertainment &amp; Music', c: 'gold tiny', x: t.x, y: t.y - t.H / 2 - .05, a: .3 }, { h: '1 of 30 mapped at full resolution', c: 'cap', x: 0, y: L.P ? 1.5 : .985, a: .6 }];
+      if (!L.P) D.sectors.forEach(function (s, i2) { if (i2 !== ENT) { var tt = tile(i2); out.push({ h: s[0], c: 'dim tiny', x: tt.x, y: tt.y, a: .1 }); } });
+      return out;
+    } };
+  var NDOOR = 1401;
+  function doorKey(open) {
+    return mk(NDOOR, function (i, o) {
+      if (!i) return you(o, 0, .3, 9, 1);
+      var x0 = -.27, x1 = .27, y0 = -.82, y1 = .46;
+      if (i <= 500) { var f = (i - 1) / 500 * 3, e = f | 0, q = f - e; o.x = e === 0 ? x0 : e === 1 ? x0 + q * (x1 - x0) : x1; o.y = e === 0 ? y1 - q * (y1 - y0) : e === 1 ? y0 : y0 + q * (y1 - y0); o.s = 2; o.a = open ? .95 : .5; o.c = open ? GOLD : INK; o.d = H(i, 44) * .3; }
+      else if (i <= 800) { o.x = x0 + H(i, 45) * (x1 - x0); o.y = y0 + H(i, 46) * (y1 - y0); o.s = 2; o.a = open ? .5 : 0; o.c = GOLD; o.d = H(i, 47) * .5; }
+      else { var d = H(i, 48), yy = y1 + d * (L.P ? .95 : .5), hw = .27 + d * (L.P ? .75 : .9); o.x = (H(i, 49) * 2 - 1) * hw; o.y = yy; o.s = 2.2; o.a = open ? .9 * (1 - d * .7) : 0; o.c = GOLD; o.d = .25 + d * .7; }
+    });
+  }
+  S.door = { n: NDOOR, sp: .6, keys: function () { return [doorKey(0), doorKey(1)]; } };
+  S.enter = { n: NDOOR, keys: function () { return [doorKey(1)]; } };
+
+  /* ---------- simulation ---------- */
+  var cur = new Float32Array(N * 7), tX = new Float32Array(N), tY = new Float32Array(N), tS = new Float32Array(N), tA = new Float32Array(N), tC = new Float32Array(N * 3), rate = new Float32Array(N);
+  for (var ii = 0; ii < N; ii++) rate[ii] = .65 + H(ii, 50) * .8;
+  var scene = null, sceneName = '', keyP = null, activeN = 1, holdN = 0, holdUntil = 0, lastP = -1, dirty = true;
+  function setScene(name, now) {
+    if (name === sceneName || !S[name]) return;
+    var sc = S[name];
+    ensureKeys(sc);
+    holdN = Math.max(activeN, holdN); holdUntil = now + 2600;
+    scene = sc; sceneName = name; activeN = Math.max(sc.n, holdN); lastP = -1; dirty = true;
+    buildLabels(sc);
+  }
+  function ensureKeys(sc, oneOnly) {      /* heavy formations are thunks: built one per idle slice ahead of time, or here if the reader gets there first */
+    if (!sc._k || sc._P !== L.P) { sc._k = sc.keys(); sc._P = L.P; }
+    for (var i = 0; i < sc._k.length; i++) if (typeof sc._k[i] === 'function') { sc._k[i] = sc._k[i](); if (oneOnly) return true; }
+    return false;
+  }
+  var HEAVY = ['zoom', 'names', 'atlas', 'sequence', 'break'], idle = window.requestIdleCallback || function (f) { return setTimeout(f, 120); };
+  function prebuild() { for (var i = 0; i < HEAVY.length; i++) { var sc = S[HEAVY[i]]; if (sc && ensureKeys(sc, true)) { idle(prebuild); return; } } }
+  function targets(p) {
+    var ks = scene._k, st = scene.stops || [0, 1], seg = 0, t = 0, A, B;
+    if (ks.length === 1) { A = B = ks[0]; }
+    else { for (seg = 0; seg < ks.length - 2; seg++) if (p <= st[seg + 1]) break; A = ks[seg]; B = ks[seg + 1]; t = clamp((p - st[seg]) / (st[seg + 1] - st[seg])); }
+    var sp = scene.sp === undefined ? .6 : scene.sp, lin = scene.linear, n = scene.n, ad = A.d, bd = B.d, i, b, e, te, ca, cb, pa, pb;
+    for (i = 0; i < n; i++) {
+      b = i * 6;
+      te = sp >= 1 ? t : clamp((t - bd[b + 5] * sp) / (1 - sp)); e = lin ? te : te * te * (3 - 2 * te);
+      tX[i] = ad[b] + (bd[b] - ad[b]) * e; tY[i] = ad[b + 1] + (bd[b + 1] - ad[b + 1]) * e; tS[i] = ad[b + 2] + (bd[b + 2] - ad[b + 2]) * e; tA[i] = ad[b + 3] + (bd[b + 3] - ad[b + 3]) * e;
+      ca = ad[b + 4] | 0; cb = bd[b + 4] | 0; pa = PAL[ca]; pb = PAL[cb];
+      tC[i * 3] = pa[0] + (pb[0] - pa[0]) * e; tC[i * 3 + 1] = pa[1] + (pb[1] - pa[1]) * e; tC[i * 3 + 2] = pa[2] + (pb[2] - pa[2]) * e;
+    }
+    for (i = n; i < activeN; i++) tA[i] = 0;
+    if (scene.post) scene.post(p);
+  }
+  function simulate(dt, snap) {
+    var lam = snap ? 1e3 : 5.2, i, b, k2, kp, fast = scene.fast;
+    for (i = 0; i < activeN; i++) {
+      b = i * 7; k2 = lam * dt * rate[i]; if (k2 > 1) k2 = 1; kp = fast && !snap ? Math.min(1, k2 * 4) : k2;
+      if (cur[b + 6] < .004 && tA[i] > 0) { cur[b] = cur[b] + (tX[i] - cur[b]) * .85; cur[b + 1] = cur[b + 1] + (tY[i] - cur[b + 1]) * .85; }   /* invisible points do not fly across the stage */
+      cur[b] += (tX[i] - cur[b]) * kp; cur[b + 1] += (tY[i] - cur[b + 1]) * kp; cur[b + 2] += (tS[i] - cur[b + 2]) * k2;
+      cur[b + 3] += (tC[i * 3] - cur[b + 3]) * k2; cur[b + 4] += (tC[i * 3 + 1] - cur[b + 4]) * k2; cur[b + 5] += (tC[i * 3 + 2] - cur[b + 5]) * k2; cur[b + 6] += (tA[i] - cur[b + 6]) * k2;
+    }
+  }
+
+  /* ---------- drawing ---------- */
+  var gl = null, ctx2 = null, prog, buf, ibuf, U = {};
+  function initGL() {
+    try { gl = cv.getContext('webgl', { alpha: true, premultipliedAlpha: true, antialias: false, powerPreference: 'low-power' }); } catch (e) { gl = null; }
+    if (!gl) { ctx2 = cv.getContext('2d'); return; }
+    var vs = 'attribute vec2 a_p;attribute float a_s;attribute vec4 a_c;attribute float a_i;uniform vec2 u_res,u_c;uniform float u_u,u_t,u_amb,u_gain,u_px;varying vec4 v_c;' +
+      'void main(){float ph=a_i*12.9898;vec2 dr=vec2(sin(u_t*.31+ph),cos(u_t*.27+ph*1.7))*u_amb;vec2 px=u_c+(a_p+dr)*u_u;vec2 cl=px/u_res*2.-1.;gl_Position=vec4(cl.x,-cl.y,0.,1.);' +
+      'float s=a_s;if(a_i<.5)s*=1.+.2*sin(u_t*1.7);gl_PointSize=max(1.5,s*u_px);v_c=vec4(a_c.rgb,a_c.a*(a_i<.5?max(u_gain,.85):u_gain));}';
+    var fs = 'precision mediump float;varying vec4 v_c;void main(){vec2 q=gl_PointCoord-.5;float d=length(q)*2.;float a=smoothstep(1.,.25,d)*v_c.a;gl_FragColor=vec4(v_c.rgb*a,a);}';
+    function sh(t, src) { var s = gl.createShader(t); gl.shaderSource(s, src); gl.compileShader(s); return s; }
+    prog = gl.createProgram(); gl.attachShader(prog, sh(gl.VERTEX_SHADER, vs)); gl.attachShader(prog, sh(gl.FRAGMENT_SHADER, fs)); gl.linkProgram(prog);
+    if (!gl.getProgramParameter(prog, gl.LINK_STATUS)) { gl = null; ctx2 = cv.getContext('2d'); return; }
+    gl.useProgram(prog);
+    buf = gl.createBuffer(); gl.bindBuffer(gl.ARRAY_BUFFER, buf); gl.bufferData(gl.ARRAY_BUFFER, cur.byteLength, gl.DYNAMIC_DRAW);
+    var ap = gl.getAttribLocation(prog, 'a_p'), as = gl.getAttribLocation(prog, 'a_s'), ac = gl.getAttribLocation(prog, 'a_c'), ai = gl.getAttribLocation(prog, 'a_i');
+    gl.enableVertexAttribArray(ap); gl.vertexAttribPointer(ap, 2, gl.FLOAT, false, 28, 0);
+    gl.enableVertexAttribArray(as); gl.vertexAttribPointer(as, 1, gl.FLOAT, false, 28, 8);
+    gl.enableVertexAttribArray(ac); gl.vertexAttribPointer(ac, 4, gl.FLOAT, false, 28, 12);
+    var idx = new Float32Array(N); for (var i = 0; i < N; i++) idx[i] = i;
+    ibuf = gl.createBuffer(); gl.bindBuffer(gl.ARRAY_BUFFER, ibuf); gl.bufferData(gl.ARRAY_BUFFER, idx, gl.STATIC_DRAW);
+    gl.enableVertexAttribArray(ai); gl.vertexAttribPointer(ai, 1, gl.FLOAT, false, 0, 0);
+    ['u_res', 'u_c', 'u_u', 'u_t', 'u_amb', 'u_gain', 'u_px'].forEach(function (n) { U[n] = gl.getUniformLocation(prog, n); });
+    gl.enable(gl.BLEND); gl.disable(gl.DEPTH_TEST);
+    cv.addEventListener('webglcontextlost', function (e) { e.preventDefault(); gl = null; ctx2 = null; });
+    cv.addEventListener('webglcontextrestored', function () { initGL(); resize(); });
+  }
+  function resize() {
+    measure();
+    var w = Math.round(L.w * L.dpr), h = Math.round(cv.clientHeight * L.dpr);
+    if (cv.width !== w || cv.height !== h) { cv.width = w; cv.height = h; }
+    if (gl) gl.viewport(0, 0, w, h);
+    readPalette(); layoutDOM();
+    for (var nm in S) if (S[nm]._P !== L.P) S[nm]._k = null;
+    if (scene) { ensureKeys(scene); buildLabels(scene); }
+    dirty = true;
+  }
+  var C = { cx: 0, cy: 0, u: 100 }, gain = 1, ambNow = 0, holdAmt = 0, focusAmt = 0;
+  function draw(time) {
+    var px = L.dpr * Math.max(.85, Math.min(1.7, Math.sqrt(C.u / 190)));
+    if (gl) {
+      gl.clearColor(0, 0, 0, 0); gl.clear(gl.COLOR_BUFFER_BIT);
+      if (LIGHT) gl.blendFunc(gl.ONE, gl.ONE_MINUS_SRC_ALPHA); else gl.blendFunc(gl.ONE, gl.ONE);
+      gl.bindBuffer(gl.ARRAY_BUFFER, buf); gl.bufferSubData(gl.ARRAY_BUFFER, 0, cur.subarray(0, activeN * 7));
+      gl.uniform2f(U.u_res, cv.width, cv.height); gl.uniform2f(U.u_c, C.cx * L.dpr, C.cy * L.dpr); gl.uniform1f(U.u_u, C.u * L.dpr);
+      gl.uniform1f(U.u_t, RM ? 0 : time); gl.uniform1f(U.u_amb, RM ? 0 : ambNow); gl.uniform1f(U.u_gain, gain * (LIGHT ? 1.15 : 1)); gl.uniform1f(U.u_px, px);
+      gl.drawArrays(gl.POINTS, 0, activeN);
+    } else if (ctx2) {
+      ctx2.setTransform(1, 0, 0, 1, 0, 0); ctx2.clearRect(0, 0, cv.width, cv.height);
+      var step = activeN > 6000 ? 5 : 1;
+      for (var i = 0; i < activeN; i += step) { var b = i * 7, al = cur[b + 6] * gain; if (al < .02) continue; var s = Math.max(1.5, cur[b + 2] * px * .7);
+        ctx2.fillStyle = 'rgba(' + (cur[b + 3] * 255 | 0) + ',' + (cur[b + 4] * 255 | 0) + ',' + (cur[b + 5] * 255 | 0) + ',' + al.toFixed(3) + ')';
+        ctx2.fillRect((C.cx + cur[b] * C.u) * L.dpr - s / 2, (C.cy + cur[b + 1] * C.u) * L.dpr - s / 2, s, s); }
+    }
+  }
+
+  /* ---------- labels ---------- */
+  var labels = [];
+  function buildLabels(sc) {
+    LB.textContent = ''; labels = [];
+    if (!sc.labels) return;
+    sc.labels().forEach(function (sp) { var el = doc.createElement('div'); el.className = 'lb ' + (sp.c || ''); el.innerHTML = sp.h; LB.appendChild(el); labels.push({ el: el, sp: sp, on: false, x: NaN, y: NaN }); });
+  }
+  function updateLabels(p, inFig) {
+    for (var i = 0; i < labels.length; i++) {
+      var lb = labels[i], sp = lb.sp, on = !sp.raw && (inFig || (!L.P && p >= 1 && sp.b === undefined)) && p >= sp.a && p < (sp.b === undefined ? 9 : sp.b);
+      if (RM) on = inFig && (sp.b === undefined || sp.b > 1);
+      if (sp.raw) { sp.f(p, lb.el, RM ? inFig : (inFig || (!L.P && p > 0 && p < 1))); continue; }
+      var yy = sp.yf ? sp.yf(p) : sp.y, x = Math.round(C.cx + sp.x * C.u), y = Math.round(C.cy + yy * C.u);
+      if (sp.yf && (yy < -1.35 || yy > 1.5)) on = false;
+      if (sp.f) sp.f(p, lb.el);
+      if (x !== lb.x || y !== lb.y) { lb.x = x; lb.y = y; lb.el.style.transform = 'translate(' + x + 'px,' + y + 'px) translate(-50%,-50%)'; }
+      if (on !== lb.on) { lb.on = on; lb.el.classList.toggle('on', on); }
+    }
+  }
+
+  /* ---------- the page: scenes, figures, steps ---------- */
+  var scenes = [], figs = {}, prog_el = doc.getElementById('prog'), docH = 1, liveFig = null;
+  function layoutDOM() {
+    var sy = window.scrollY;
+    scenes = [].map.call(doc.querySelectorAll('[data-scene]'), function (el) { return { name: el.getAttribute('data-scene'), top: el.getBoundingClientRect().top + sy }; });
+    figs = {};
+    [].forEach.call(doc.querySelectorAll('.fig'), function (el) {
+      var r = el.getBoundingClientRect(), st = [].slice.call(el.querySelectorAll('.step'));
+      var f = { el: el, top: r.top + sy, h: r.height, steps: st, tops: st.map(function (s) { return s.getBoundingClientRect().top + sy; }), on: -2 };
+      if (st.length > 1) f.span = (f.tops[st.length - 1] - f.tops[0]) / (st.length - 1); else if (st.length === 1) f.span = st[0].getBoundingClientRect().height;
+      figs[el.getAttribute('data-fig')] = f;
+    });
+    docH = Math.max(1, doc.documentElement.scrollHeight - window.innerHeight);
+  }
+  function readScroll() {
+    var sy = window.scrollY, vh = L.h, mid = sy + vh * .55, idx = 0, i;
+    for (i = 0; i < scenes.length; i++) if (scenes[i].top <= mid) idx = i; else break;
+    var name = scenes.length ? scenes[idx].name : 'signal', f = figs[name], p = 0, inFig = false, isHold = false;
+    if (liveFig && liveFig !== f) { for (i = 0; i < liveFig.steps.length; i++) liveFig.steps[i].classList.remove('on'); liveFig.on = -1; }
+    liveFig = f || null;
+    if (f) {
+      if (f.steps.length) {
+        var y = sy + vh * (L.P ? .78 : .46), n = f.steps.length, tailW = (S[name] && S[name].tail) || 0;
+        var ps = (y - f.tops[0]) / (n * f.span), tailH = Math.max(1, f.top + f.h - (f.tops[0] + n * f.span) - vh * .25), pt = (y - f.tops[0] - n * f.span) / tailH;
+        p = (clamp(ps) * n + clamp(pt) * tailW) / (n + tailW);
+        inFig = sy + vh * (L.P ? .55 : .9) > f.tops[0] && sy + vh * .3 < f.top + f.h;
+        var on = inFig ? Math.min(n - 1, Math.floor(clamp(ps) * n + 1e-6)) : -1;
+        if (ps >= 1 && tailW) on = n - 1;
+        if (on !== f.on) { for (i = 0; i < n; i++) f.steps[i].classList.toggle('on', i === on); f.on = on; }
+      } else {
+        p = clamp((sy + vh * .5 - f.top) / Math.max(1, f.h - vh * .4)); isHold = true;
+        inFig = sy + vh * .72 > f.top && sy + vh * .82 < f.top + f.h;
+      }
+      if (RM) p = sy + vh * .9 > f.top ? (S[name] && S[name].rmP !== undefined ? S[name].rmP : 1) : 0;
+    }
+    return { name: name, p: p, inFig: inFig, hold: inFig && isHold, sy: sy };
+  }
+
+  var last = 0, started = false, cost = { n: 0, sum: 0, max: 0 };
+  function frame(now) {
+    requestAnimationFrame(frame);
+    var t0 = performance.now();
+    var t = now / 1000, dt = Math.min(.05, t - last || .016); last = t;
+    var st = readScroll();
+    if (st.name !== sceneName) setScene(st.name, now);
+    if (!scene) return;
+    if (holdN && now > holdUntil) { holdN = 0; activeN = scene.n; }
+    if (st.p !== lastP || dirty || scene.tick) { targets(st.p); if (scene.tick) scene.tick(t, st.p); lastP = st.p; dirty = false; }
+    simulate(dt, RM || !started);
+    started = true;
+    var k = RM ? 1 : Math.min(1, dt * 4.5);
+    focusAmt += ((st.inFig ? 1 : 0) - focusAmt) * k; holdAmt += ((st.hold ? 1 : 0) - holdAmt) * k;
+    var c = centre(ss(holdAmt)); C.cx += (c.cx - C.cx) * (RM ? 1 : Math.min(1, dt * 6)); C.cy += (c.cy - C.cy) * (RM ? 1 : Math.min(1, dt * 6)); C.u += (c.u - C.u) * (RM ? 1 : Math.min(1, dt * 6));
+    var flow = scene.gain !== undefined ? scene.gain : (L.P ? .2 : .72);
+    gain += ((flow + (1 - flow) * focusAmt) - gain) * k;
+    ambNow += (((scene.amb === undefined ? .004 : scene.amb)) - ambNow) * k;
+    draw(t); updateLabels(st.p, st.inFig);
+    if (prog_el) prog_el.style.transform = 'scaleX(' + clamp(st.sy / docH).toFixed(4) + ')';
+    var c1 = performance.now() - t0; cost.n++; cost.sum += c1; if (c1 > cost.max) { cost.max = c1; cost.at = sceneName + '@' + st.p.toFixed(2); }
+  }
+
+  function boot() {
+    initGL(); measure(); var c0 = centre(0); C.cx = c0.cx; C.cy = c0.cy; C.u = c0.u;
+    if (RM) root.classList.add('rm');
+    root.classList.add('live');
+    resize();
+    addEventListener('resize', resize);
+    if (window.ResizeObserver) new ResizeObserver(function () { layoutDOM(); }).observe(doc.getElementById('main'));
+    if (doc.fonts && doc.fonts.ready) doc.fonts.ready.then(layoutDOM);
+    var onq = function () { RM = rmq.matches; root.classList.toggle('rm', RM); layoutDOM(); dirty = true; };
+    if (rmq.addEventListener) { rmq.addEventListener('change', onq); lightq.addEventListener('change', function () { readPalette(); dirty = true; }); }
+    requestAnimationFrame(frame);
+    setTimeout(function () { idle(prebuild); }, 1200);
+  }
+  try { boot(); } catch (e) { root.classList.remove('live'); cv.style.display = 'none'; LB.style.display = 'none'; if (window.console) console.error(e); }
+  window.F2stage = { state: function () { return { scene: sceneName, p: lastP, activeN: activeN, gl: !!gl, gain: gain }; }, cost: function (reset) { var o = { n: cost.n, avg: cost.n ? cost.sum / cost.n : 0, max: cost.max, at: cost.at }; if (reset) cost = { n: 0, sum: 0, max: 0 }; return o; } };
+
+  /* ---------- contents, quick exit ---------- */
+  var tocB = doc.getElementById('toc-b'), toc = doc.getElementById('toc');
+  function tocSet(open) { toc.hidden = !open; tocB.setAttribute('aria-expanded', open ? 'true' : 'false'); }
+  if (tocB && toc) {
+    tocB.addEventListener('click', function () { tocSet(toc.hidden); if (!toc.hidden) { var a = toc.querySelector('a'); if (a) a.focus(); } });
+    toc.addEventListener('click', function (e) { if (e.target.closest('a')) tocSet(false); });
+    doc.addEventListener('click', function (e) { if (!toc.hidden && !e.target.closest('#toc,#toc-b')) tocSet(false); });
+    if ('IntersectionObserver' in window) {
+      var links = {}; [].forEach.call(toc.querySelectorAll('a[href^="#"]'), function (a) { links[a.getAttribute('href').slice(1)] = a; });
+      var io = new IntersectionObserver(function (es) { es.forEach(function (e) { if (e.isIntersecting) { for (var id in links) links[id].removeAttribute('aria-current'); if (links[e.target.id]) links[e.target.id].setAttribute('aria-current', 'true'); } }); }, { rootMargin: '-30% 0px -60% 0px' });
+      Object.keys(links).forEach(function (id) { var el = doc.getElementById(id); if (el) io.observe(el); });
+    }
+  }
+  var lv = doc.getElementById('leave'), escAt = 0;
+  if (lv) lv.addEventListener('click', function () { doc.title = 'Weather'; doc.body.style.visibility = 'hidden'; location.replace(navigator.onLine ? 'https://www.google.com/search?q=weather' : 'about:blank'); });
+  addEventListener('keydown', function (e) {
+    if (e.key !== 'Escape') return;
+    if (toc && !toc.hidden) { tocSet(false); tocB.focus(); return; }
+    if (doc.querySelector('#nf-chrome.nf-open')) return;
+    var n = Date.now(); if (n - escAt < 600 && lv) lv.click(); escAt = n;
+  });
+
+  /* ---------- narration: started by the reader, follows the voice, can be interrupted by any scroll ---------- */
+  var pl = doc.getElementById('player'), au = doc.getElementById('pl-audio'), listen = doc.getElementById('listen');
+  if (pl && au && listen) {
+    var cap = doc.getElementById('pl-cap'), play = doc.getElementById('pl-play'), seek = doc.getElementById('pl-seek'), tm = doc.getElementById('pl-time'), rateB = doc.getElementById('pl-rate'), mute = doc.getElementById('pl-mute'), follow = doc.getElementById('pl-follow'), closeB = doc.getElementById('pl-close');
+    var units = [], loaded = false, failed = false, curU = -1, following = true, autoScroll = 0, rates = [1, 1.25, 1.5, .85], ri = 0;
+    var fmt = function (s) { s = Math.max(0, s | 0); return ((s / 60) | 0) + ':' + ('0' + s % 60).slice(-2); };
+    function load() {
+      if (loaded || failed) return; loaded = true;
+      fetch(au.getAttribute('data-sync')).then(function (r) { if (!r.ok) throw 0; return r.json(); }).then(function (j) {
+        units = j.units || []; au.src = au.getAttribute('data-src'); au.load();
+        if (j.note) cap.textContent = j.note;
+      }).catch(function () { failed = true; cap.textContent = 'The narration is being recorded and is not here yet. The text on the page is complete.'; play.disabled = true; seek.disabled = true; });
+    }
+    function open(o) { pl.hidden = !o; doc.body.classList.toggle('pl-open', o); listen.setAttribute('aria-expanded', o ? 'true' : 'false'); if (o) { load(); play.focus(); } else { au.pause(); listen.focus(); } }
+    listen.addEventListener('click', function () { open(pl.hidden); });
+    closeB.addEventListener('click', function () { open(false); });
+    play.addEventListener('click', function () { if (au.paused) { var pr = au.play(); if (pr && pr.catch) pr.catch(function () {}); } else au.pause(); });
+    au.addEventListener('play', function () { pl.classList.add('playing'); play.setAttribute('aria-label', 'Pause narration'); });
+    au.addEventListener('pause', function () { pl.classList.remove('playing'); play.setAttribute('aria-label', 'Play narration'); });
+    au.addEventListener('error', function () { if (au.src) { failed = true; cap.textContent = 'The narration could not be loaded. The text on the page is complete.'; play.disabled = true; } });
+    rateB.addEventListener('click', function () { ri = (ri + 1) % rates.length; au.playbackRate = rates[ri]; rateB.textContent = rates[ri] + '×'; });
+    mute.addEventListener('click', function () { au.muted = !au.muted; mute.setAttribute('aria-pressed', au.muted ? 'true' : 'false'); });
+    function setFollow(v) { following = v; follow.setAttribute('aria-pressed', v ? 'true' : 'false'); }
+    follow.addEventListener('click', function () { setFollow(!following); if (following) show(curU, true); });
+    seek.addEventListener('input', function () { if (au.duration) au.currentTime = seek.value / 1000 * au.duration; });
+    ['wheel', 'touchmove', 'keydown'].forEach(function (ev) { addEventListener(ev, function (e) { if (ev === 'keydown' && !/^(Arrow|Page|Home|End| )/.test(e.key)) return; if (!au.paused && following && Date.now() > autoScroll) setFollow(false); }, { passive: true }); });
+    function show(i, force) {
+      if (i < 0 || !units[i]) return;
+      var el = doc.querySelector('[data-n="' + units[i].n + '"]'); if (!el) return;
+      var txt = el.textContent.replace(/\s+/g, ' ').trim(); cap.textContent = txt.length > 220 ? txt.slice(0, 217).replace(/\s\S*$/, '') + '…' : txt;
+      var prev = doc.querySelector('.nq-on'); if (prev) prev.classList.remove('nq-on'); el.classList.add('nq-on');
+      if (following || force) { var r = el.getBoundingClientRect(), target = window.scrollY + r.top - L.h * (el.closest('.step') && L.P ? .6 : .38); autoScroll = Date.now() + 1200; window.scrollTo({ top: target, behavior: RM ? 'auto' : 'smooth' }); }
+    }
+    au.addEventListener('timeupdate', function () {
+      var t = au.currentTime, i = curU < 0 ? 0 : curU;
+      if (units.length) { if (units[i] && units[i].t > t) i = 0; while (i + 1 < units.length && units[i + 1].t <= t) i++; if (i !== curU) { curU = i; show(i); } }
+      if (au.duration) { seek.value = Math.round(t / au.duration * 1000); tm.textContent = fmt(t) + ' / ' + fmt(au.duration); }
+    });
+  }
+})();
+</script>
+<style id="nf-seal-css">
+/* ---- nf-seal: current-generation hub catalogue drawer, replaces the legacy
+   nh-tab widget. Ported from source/projects/noble-father-festival.html
+   (structure/behavior only) and re-skinned onto this page's own design
+   tokens instead of that page's wax/plum palette, so it stays correct in
+   both light and dark theme rather than being permanently dark. ---- */
+.nf-seal{position:fixed;right:18px;bottom:18px;z-index:950;width:56px;height:56px;
+  border-radius:50%;border:none;cursor:pointer;
+  font-family:var(--serif);font-weight:600;font-size:19px;letter-spacing:.02em;
+  color:var(--accent-ink);
+  background:radial-gradient(circle at 34% 28%,var(--accent-grad),var(--accent) 62%);
+  box-shadow:inset 0 2px 3px rgba(255,255,255,.22),inset 0 -3px 5px rgba(0,0,0,.25),
+    0 0 0 3px var(--bg),0 6px 18px rgba(0,0,0,.35);
+  transition:transform 180ms cubic-bezier(.2,.7,.2,1),box-shadow 180ms cubic-bezier(.2,.7,.2,1)}
+.nf-seal:hover{transform:translateY(-2px) rotate(-4deg);
+  box-shadow:inset 0 2px 3px rgba(255,255,255,.22),inset 0 -3px 5px rgba(0,0,0,.25),
+    0 0 0 3px var(--bg),0 8px 22px rgba(0,0,0,.4),0 10px 24px -6px var(--glow-1)}
+.nf-seal:active{transform:scale(.92);transition-duration:90ms}
+.nf-seal:focus-visible{outline:2px solid var(--accent);outline-offset:3px}
+.nf-seal[aria-expanded="true"]{transform:scale(.92);opacity:0;pointer-events:none;transition-duration:140ms}
+@media (prefers-reduced-motion: no-preference){
+  .nf-seal{animation:nf-sealidle 7s ease-in-out infinite}
+  @keyframes nf-sealidle{
+    0%,100%{box-shadow:inset 0 2px 3px rgba(255,255,255,.22),inset 0 -3px 5px rgba(0,0,0,.25),0 0 0 3px var(--bg),0 6px 18px rgba(0,0,0,.35)}
+    50%{box-shadow:inset 0 2px 3px rgba(255,255,255,.22),inset 0 -3px 5px rgba(0,0,0,.25),0 0 0 3px var(--bg),0 6px 18px rgba(0,0,0,.35),0 8px 18px -6px var(--glow-1)}
+  }
+}
+.nf-scrim{position:fixed;inset:0;background:rgba(8,10,16,.55);backdrop-filter:blur(5px);
+  -webkit-backdrop-filter:blur(5px);z-index:960;opacity:0;pointer-events:none;
+  transition:opacity 140ms cubic-bezier(.2,.7,.2,1)}
+.nf-open .nf-scrim{opacity:1;pointer-events:auto;transition-duration:220ms}
+.nf-panel{position:fixed;top:0;right:0;bottom:0;width:min(408px,100vw);z-index:970;
+  display:flex;flex-direction:column;background:var(--bg);
+  box-shadow:inset 1px 0 0 var(--edge-hi),-32px 0 64px rgba(0,0,0,.35);
+  transform:translateX(103%);visibility:hidden;
+  transition:transform 160ms cubic-bezier(.5,0,.9,.6),visibility 0s 160ms}
+.nf-panel::before{content:"";position:absolute;left:0;top:0;bottom:0;width:3px;
+  background:linear-gradient(180deg,var(--accent-grad),var(--accent) 50%,var(--accent-grad));opacity:.8}
+.nf-open .nf-panel{transform:translateX(0);visibility:visible;
+  transition:transform 270ms cubic-bezier(.2,.7,.2,1),visibility 0s}
+@media(max-width:560px){
+  .nf-panel{width:100vw;transform:translateY(103%)}
+  .nf-panel::before{left:0;right:0;top:0;bottom:auto;width:auto;height:3px}
+  .nf-open .nf-panel{transform:translateY(0)}
+}
+.nf-panel-head{display:flex;align-items:flex-start;justify-content:space-between;
+  padding:26px 26px 18px;border-bottom:1px solid var(--line2)}
+.nf-eyebrow{font-family:var(--mono);font-size:10px;letter-spacing:.3em;
+  text-transform:uppercase;color:var(--accent);margin-bottom:8px}
+.nf-panel-title{font-family:var(--serif);font-size:27px;font-weight:500;color:var(--ink);line-height:1.1}
+.nf-close{background:none;border:1px solid var(--line2);color:var(--mut);
+  width:34px;height:34px;border-radius:50%;cursor:pointer;font-size:17px;line-height:1;
+  flex-shrink:0;margin-left:12px;transition:color 140ms,border-color 140ms,transform 140ms cubic-bezier(.2,.7,.2,1)}
+.nf-close:hover{color:var(--accent);border-color:var(--accent);transform:rotate(90deg)}
+.nf-close:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+.nf-toc{list-style:none;overflow-y:auto;flex:1;padding:10px 26px 18px;overscroll-behavior:contain;margin:0}
+.nf-row{border-bottom:1px solid var(--line2)}
+.nf-row a{display:grid;grid-template-columns:12px 34px 1fr auto;grid-template-rows:auto auto;
+  align-items:baseline;column-gap:9px;padding:13px 2px;text-decoration:none;
+  transition:transform 160ms cubic-bezier(.2,.7,.2,1)}
+.nf-row a:hover{transform:translateX(4px)}
+.nf-dot{grid-row:1/3;align-self:center;width:5px;height:5px;border-radius:50%;
+  background:var(--va,var(--accent));opacity:.55;box-shadow:0 2px 6px -1px var(--va,var(--accent));
+  transition:opacity 160ms,transform 160ms cubic-bezier(.2,.7,.2,1)}
+.nf-row a:hover .nf-dot{opacity:1;transform:scale(1.35)}
+.nf-row a:focus-visible{outline:2px solid var(--accent);outline-offset:-2px;border-radius:4px}
+.nf-num{grid-row:1/3;font-family:var(--mono);font-size:11px;color:var(--mut);transition:color 160ms}
+.nf-row a:hover .nf-num{color:var(--accent)}
+.nf-vol{font-family:var(--serif);font-size:16.5px;font-weight:500;color:var(--ink);transition:color 160ms}
+.nf-row a:hover .nf-vol{color:var(--accent)}
+.nf-desc{grid-column:3/5;font-size:11.5px;color:var(--mut);letter-spacing:.02em;font-family:var(--sans)}
+.nf-ext{grid-column:4;font-size:11px;color:var(--mut)}
+.nf-row.nf-here .nf-vol{color:var(--accent)}
+.nf-row.nf-here .nf-num{color:var(--accent)}
+.nf-here-dot{display:inline-block;width:7px;height:7px;border-radius:50%;margin-left:7px;
+  background:var(--accent);box-shadow:0 2px 8px -2px var(--glow-1);vertical-align:baseline}
+.nf-panel-foot{padding:14px 26px 20px;border-top:1px solid var(--line2);
+  font-family:var(--serif);font-style:italic;font-size:12.5px;color:var(--mut)}
+.nf-open .nf-row{opacity:0;transform:translateY(9px);
+  animation:nf-rise 210ms cubic-bezier(.2,.7,.2,1) both;animation-delay:calc(var(--nf-i)*20ms + 60ms)}
+@keyframes nf-rise{to{opacity:1;transform:translateY(0)}}
+@media(prefers-reduced-motion:reduce){
+  .nf-seal,.nf-seal:hover,.nf-close:hover,.nf-row a,.nf-row a:hover{transition:none;transform:none}
+  .nf-panel,.nf-open .nf-panel{transition:transform 0s,visibility 0s}
+  .nf-scrim,.nf-open .nf-scrim{transition:none}
+  .nf-open .nf-row{animation:none;opacity:1;transform:none}
+}
+</style>
+<div id="nf-chrome" class="nf-chrome" data-nf-page="playbook">
+<button class="nf-seal" type="button" aria-expanded="false" aria-controls="nf-panel" aria-label="Open the Catalogue — Noble Father Creations">NF</button>
+<div class="nf-scrim" aria-hidden="true"></div>
+<nav class="nf-panel" id="nf-panel" aria-label="The Catalogue" aria-hidden="true">
+<div class="nf-panel-head"><div><div class="nf-eyebrow">Noble Father Creations</div><h2 class="nf-panel-title">The Catalogue</h2></div><button class="nf-close" type="button" aria-label="Close the Catalogue">&#10005;</button></div>
+<ul class="nf-toc"><li class="nf-row" style="--nf-i:0"><a href="https://noblefathercreations.com/loop"><span class="nf-dot" style="--va:#6E93B5" aria-hidden="true"></span><span class="nf-num">I</span><span class="nf-vol">The Loop</span><span class="nf-desc">The machine that learns you</span></a></li><li class="nf-row" style="--nf-i:1"><a href="https://noblefathercreations.com/press"><span class="nf-dot" style="--va:#E8C879" aria-hidden="true"></span><span class="nf-num">II</span><span class="nf-vol">The Press</span><span class="nf-desc">Real wax, a voice inside</span></a></li><li class="nf-row" style="--nf-i:2"><a href="https://noblefathercreations.com/portals"><span class="nf-dot" style="--va:#7FD9D4" aria-hidden="true"></span><span class="nf-num">III</span><span class="nf-vol">The Portals</span><span class="nf-desc">Strontium glow, no battery</span></a></li><li class="nf-row" style="--nf-i:3"><a href="https://noblefathercreations.com/shadowroot"><span class="nf-dot" style="--va:#D9964A" aria-hidden="true"></span><span class="nf-num">IV</span><span class="nf-vol">The Root</span><span class="nf-desc">A shadow work practice</span></a></li><li class="nf-row" style="--nf-i:4"><a href="https://noblefathercreations.com/scale"><span class="nf-dot" style="--va:#9B8FA8" aria-hidden="true"></span><span class="nf-num">V</span><span class="nf-vol">The Weighing</span><span class="nf-desc">How to be right about people</span></a></li><li class="nf-row" style="--nf-i:5"><a href="https://noblefathercreations.com/faith"><span class="nf-dot" style="--va:#C29A52" aria-hidden="true"></span><span class="nf-num">VI</span><span class="nf-vol">The Sacred Divide</span><span class="nf-desc">Honor the faith, name the machinery</span></a></li><li class="nf-row" style="--nf-i:6"><a href="https://noblefathercreations.com/fractal"><span class="nf-dot" style="--va:#E5A93C" aria-hidden="true"></span><span class="nf-num">VII</span><span class="nf-vol">The Fractal</span><span class="nf-desc">One pattern runs the world</span></a></li><li class="nf-row" style="--nf-i:7"><a href="https://noblefathercreations.com/fracture"><span class="nf-dot" style="--va:#C9A35B" aria-hidden="true"></span><span class="nf-num">VIII</span><span class="nf-vol">The Fracture</span><span class="nf-desc">The reading edition</span></a></li><li class="nf-row" style="--nf-i:8"><a href="https://noblefathercreations.com/feminine"><span class="nf-dot" style="--va:#C85F7E" aria-hidden="true"></span><span class="nf-num">IX</span><span class="nf-vol">The Sovereign Divine Feminine</span><span class="nf-desc">A field guide</span></a></li><li class="nf-row" style="--nf-i:9"><a href="https://noblefathercreations.com/children"><span class="nf-dot" style="--va:#FFC23D" aria-hidden="true"></span><span class="nf-num">X</span><span class="nf-vol">Playground Protectors</span><span class="nf-desc">Shaela&#8217;s guide for brave kids</span></a></li><li class="nf-row" style="--nf-i:10"><a href="https://noblefathercreations.com/wook"><span class="nf-dot" style="--va:#D8FF3D" aria-hidden="true"></span><span class="nf-num">XI</span><span class="nf-vol">The Festie Codex</span><span class="nf-desc">The gate &mdash; attendee&#8217;s cut</span></a></li><li class="nf-row nf-here" style="--nf-i:11"><a href="#" aria-current="page"><span class="nf-dot" style="--va:#8A8071" aria-hidden="true"></span><span class="nf-num">XII</span><span class="nf-vol">The Pattern Decoder<span class="nf-here-dot" aria-hidden="true"></span></span><span class="nf-desc">310 tactics, decoded</span></a></li><li class="nf-row" style="--nf-i:12"><a href="https://noblefathercreations.com/music"><span class="nf-dot" style="--va:#C9A24A" aria-hidden="true"></span><span class="nf-num">XIII</span><span class="nf-vol">The Listening Room</span><span class="nf-desc">Free to stream</span></a></li><li class="nf-row" style="--nf-i:13"><a href="https://noblefathercreations.com/festival"><span class="nf-dot" style="--va:#E8C879" aria-hidden="true"></span><span class="nf-num">XIV</span><span class="nf-vol">The Festie Bible</span><span class="nf-desc">Twelve guides for the festival world</span></a></li><li class="nf-row" style="--nf-i:14"><a href="https://noblefathercreations.com/resin"><span class="nf-dot" style="--va:#7FD6C2" aria-hidden="true"></span><span class="nf-num">XV</span><span class="nf-vol">The Casting</span><span class="nf-desc">Eco-resin, hand-painted</span></a></li><li class="nf-row" style="--nf-i:15"><a href="https://noblefathercreations.com/longafter"><span class="nf-dot" style="--va:#D9846A" aria-hidden="true"></span><span class="nf-num">XVI</span><span class="nf-vol">The Long After</span><span class="nf-desc">What happens once you&#8217;ve left</span></a></li><li class="nf-row" style="--nf-i:16"><a href="https://noblefathercreations.com/silence"><span class="nf-dot" style="--va:#93A7B8" aria-hidden="true"></span><span class="nf-num">XVII</span><span class="nf-vol">The Silence</span><span class="nf-desc">For men nobody thought to ask</span></a></li><li class="nf-row" style="--nf-i:17"><a href="https://noblefathercreations.com/atwill"><span class="nf-dot" style="--va:#C98A2E" aria-hidden="true"></span><span class="nf-num">XVIII</span><span class="nf-vol">At Will</span><span class="nf-desc">The coercive workplace</span></a></li><li class="nf-row" style="--nf-i:18"><a href="https://noblefathercreations.com/repair"><span class="nf-dot" style="--va:#A8474F" aria-hidden="true"></span><span class="nf-num">XIX</span><span class="nf-vol">The Repair</span><span class="nf-desc">For the person on the other side of it</span></a></li><li class="nf-row" style="--nf-i:19"><a href="https://noblefathercreations.com/slowtake"><span class="nf-dot" style="--va:#B99A3F" aria-hidden="true"></span><span class="nf-num">XX</span><span class="nf-vol">The Slow Take</span><span class="nf-desc">Coercion in later life</span></a></li></ul>
+<div class="nf-panel-foot">Bound by hand in the study &mdash; twenty volumes &amp; counting.</div>
+</nav>
+</div>
+<script id="nf-chrome-js">
+(function(){
+  var root=document.getElementById('nf-chrome');if(!root)return;
+  var seal=root.querySelector('.nf-seal'),scrim=root.querySelector('.nf-scrim'),
+      panel=root.querySelector('.nf-panel'),close=root.querySelector('.nf-close');
+  function open(){root.classList.add('nf-open');seal.setAttribute('aria-expanded','true');
+    panel.removeAttribute('aria-hidden');close.focus({preventScroll:true})}
+  function shut(){root.classList.remove('nf-open');seal.setAttribute('aria-expanded','false');
+    panel.setAttribute('aria-hidden','true');seal.focus({preventScroll:true})}
+  seal.addEventListener('click',open);
+  close.addEventListener('click',shut);
+  scrim.addEventListener('click',shut);
+  document.addEventListener('keydown',function(e){
+    if(e.key==='Escape'&&root.classList.contains('nf-open')){shut();return}
+    if(!root.classList.contains('nf-open'))return;
+    if(e.key==='ArrowDown'||e.key==='ArrowUp'){
+      var links=[].slice.call(panel.querySelectorAll('.nf-row a'));
+      var i=links.indexOf(document.activeElement);
+      var next=e.key==='ArrowDown'?(i+1)%links.length:(i-1+links.length)%links.length;
+      links[next].focus();e.preventDefault();
+    }});
+})();
+</script>
+<script defer type='module' src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "c8d1aea530814aea8c7a92baa2accef3"}'></script>
+</body>
+</html>
