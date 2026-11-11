@@ -293,6 +293,65 @@
      "status": "open"
     }
    ]
+  },
+  {
+   "round": 6,
+   "date": "2026-11-11",
+   "sha": "27277e1a872763910e9e220bc82aa01540fa5b40e9f7aa3cb30f4441137626ff",
+   "layout": "split (phone)",
+   "scores": {
+    "hierarchy": 4,
+    "type": 4,
+    "space": 3,
+    "craft": 3,
+    "distinctiveness": 4,
+    "feeling": 3,
+    "phone": 3,
+    "legibility": 3,
+    "continuity": 3
+   },
+   "weaknesses": [
+    {
+     "id": "W1",
+     "text": "Count beat never pays off (recurring since round 2): dim dots, ghost ring, small top box on phone",
+     "status": "open"
+    },
+    {
+     "id": "W2",
+     "text": "Cover: title over ring words; art hard edge under Begin",
+     "status": "open"
+    },
+    {
+     "id": "W3",
+     "text": "Split box crops the art; hard seam shears text lines; ring words reach the first text line",
+     "status": "open"
+    },
+    {
+     "id": "W4",
+     "text": "Clean eight-ring frame small on phone; letterbox bands; centre slides sideways",
+     "status": "open"
+    },
+    {
+     "id": "W5",
+     "text": "Raster softness / dark outlines / square stars at deep zoom (properties of the supplied art renders)",
+     "status": "open"
+    },
+    {
+     "id": "W6",
+     "text": "Dead navy areas on phone",
+     "status": "open"
+    },
+    {
+     "id": "W7",
+     "text": "Safety notes quiet and small; must be the most emphatic text",
+     "status": "open"
+    },
+    {
+     "id": "W8",
+     "text": "Atlas glyphs indistinguishable; numerals small; no names",
+     "status": "open"
+    }
+   ]
   }
  ]
 }
@@ -324,3 +383,9 @@ Found by reading frames: a real settle bug (the loop stopped before the text-pre
 
 ## Round 5 diagnosis: STRUCTURAL
 Round 5 regressed (legibility 4->3, feeling 4->3) after round 4's patches. Five rounds on the overlay structure (art and text share pixels) trade legibility against awe: dimming the art fixes text and kills the awe on phone (W8), brightening it brings back collisions (W5). Patching further has no evidence of converging. Low-score protocol at the ARCHITECTURE level, three candidates: A) SPLIT phone layout: art pinned in the top ~46% of the screen at full brightness, text in its own area below, the art grows to full screen only in text-free beats; B) subtitle model (direction B comp): full-screen art, short caption cards in the lower third; C) keep overlay, add a per-paragraph solid panel. CHOICE: build A as a switchable layout (default on phone,  keeps the old one) and compare both with the same fixed rubric and the blind A/B page. B and C stay as fallbacks.
+
+## Round 6 result and stop (per the exit rule: six scored rounds)
+The split layout scored the same as the overlay layout (3 on space, craft, feeling, phone, legibility, continuity; 4 on hierarchy, type, distinctiveness). Reading the critic's evidence: the split removed the text-over-art collisions on phone but introduced a crop, a hard seam and an under-used lower screen, so the architecture change did not move the scores by itself. Both versions are on the same plateau. Exit gate: FAIL (scores below 4), as it should.
+Recurring, concrete, not yet fixed properly (these are the items most likely to move scores): (1) the count beat (named in 5 of 6 rounds); (2) safety notes styled as quiet asides; (3) seam fade and contain-not-crop for the phone art box; (4) the cover on phone; (5) atlas glyph differentiation and numeral size.
+Not fixable inside this build without a different asset: the raster softness, dark outlines and square stars are properties of the supplied artwork renders (a true vector embed or a redraw would be needed).
+OWNER DECISION needed (the only legitimate stop): see the final message of the session.
