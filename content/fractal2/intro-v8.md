@@ -25,6 +25,9 @@ It follows you from door to door, and because it follows you, you reach the only
 <!--scene 120 z=2.5:2.4-->
 But what if it is not you? {big}
 
+<!--scene 130 z=2.4-->
+I know that question, because I asked it of myself first.
+
 <!--scene 150 z=2.4:2.2-->
 What if the thing that breaks a person is not a private wound at all, but a shape? A shape that wears a different face in every house, and is the same shape in every house.
 
@@ -179,6 +182,23 @@ To my eye, it is a counterfeit, and a counterfeit can only borrow what came firs
 
 <!--scene 150 z=0.330:0.312-->
 Many of the traditions I know point toward a return, not an ascent.
+
+## Why I carry it
+
+<!--scene 150 z=0.3125-->
+For a lifetime I have practiced noticing: the way a voice changes before it asks for something, the way the same shape returns in a different house.
+
+<!--scene 150 z=0.3125-->
+That noticing saved my life. {big}
+
+<!--scene 150 z=0.3125-->
+It began as survival. It became a healing, and then something older than healing, a return to what was mine.
+
+<!--scene 150 z=0.3125-->
+So this is both a healing journey and a spiritual one, and I offer it freely.
+
+<!--scene 150 z=0.3125-->
+I want it to reach people everywhere, so that no one has to stand in that room alone, wondering if it is them.
 
 ## The work
 

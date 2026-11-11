@@ -5032,3 +5032,6 @@ scratchpad/deploy2/hub refreshed. Still awaiting the owner's "deploy the homepag
 
 ## 2026-11-11 Fractal² v8 story audit
 Three audit/steelman/fix rounds on content/fractal2/intro-v8.md (record in content/fractal2/design/STORY-DECISION.md section 8). Final 65 scenes, lint PASS, rebuilt v8 + repo copy. Live Netlify still v7 until a deploy is allowed (earlier v8 deploy was blocked by the permission classifier).
+
+## 2026-11-11 v8 LIVE
+After 3 story audit rounds the owner asked for a lens revision ("Why I carry it") and a live push. Deployed v8 (deploy 6af4f7fdb14e4560067953cd). Ghostwriter prompt + emotional audit: content/fractal2/design/GHOSTWRITER-PROMPT.md. Still open: real-phone test, sites.json entry + patch note, homepage proxy.
