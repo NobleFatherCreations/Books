@@ -50,3 +50,6 @@ Observed in the second-position phone screenshots: **Igloo Inc** shows a 3D iglo
 - Review the desktop screenshots and the third scroll position per site; add notes.
 - Re-capture Calm and Raycast desktop; capture the GOV.UK "Exit this page" component page.
 - Add sites as discovered; keep one line of "steal / avoid" per site.
+
+## scale-zoom-story (captured 2026-11-11 for the Fractal² intro; `references/shots/scale-zoom-story/`)
+Read: **Apple AirPods Pro** (concentric-ring hero, one idea per screen, huge calm headline, minimal chrome), **Stripe Press** (dark stack of spines navigated by scroll; each book its own identity), **NASA Webb** (dark hero, giant left title, small labelled facts), **NASA Eyes** (card list, flat ground for text), **The Pudding** (each story its own colour world, loud), **BBC News** (irrelevant news chrome, kept as a contrast). Blocked or empty: neal.fun deep-sea and size-of-space (Cloudflare check), Eames Powers of Ten (Cloudflare check), Scale of the Universe (language picker only). Steal: one subject per screen; titles and labelled facts as the only chrome; a physical stack you move through. Avoid: card grids and loud colour worlds for this subject.

@@ -7,122 +7,136 @@
 <meta name="description" content="The original Fractal, pulled back until the full map of 335 tactics appears. A story about the shape that repeats in every building.">
 <meta name="theme-color" content="#0A0F1E">
 <link rel="icon" href="favicon.ico">
+<link rel="preload" as="font" type="font/woff2" crossorigin href="fonts/cormorant.woff2">
 <link rel="preload" as="image" imagesrcset="img/orig-core-m.webp 2048w, img/orig-core.webp 3072w" imagesizes="(max-width:959px) 600px, 2800px">
 <style>
 @font-face{font-family:"Cormorant";src:url(fonts/cormorant.woff2) format("woff2");font-weight:300 700;font-style:normal;font-display:swap}
 @font-face{font-family:"Cormorant";src:url(fonts/cormorant-italic.woff2) format("woff2");font-weight:300 700;font-style:italic;font-display:swap}
-@font-face{font-family:"Fraunces";src:url(fonts/fraunces.woff2) format("woff2");font-weight:100 900;font-style:normal;font-display:swap}
-@font-face{font-family:"Fraunces";src:url(fonts/fraunces-italic.woff2) format("woff2");font-weight:100 900;font-style:italic;font-display:swap}
-:root{--bg:#0A0F1E;--ink:#EFE6D2;--ink2:#CBC2AE;--ink3:#A39E92;--line:#2A3350;--gold:#E9B949;--gold2:#F4D58A;--bar:56px;--ease:cubic-bezier(.16,1,.3,1);color-scheme:dark}
+@font-face{font-family:"Source Serif";src:url(fonts/sourceserif4.woff2) format("woff2");font-weight:300 700;font-style:normal;font-display:swap}
+@font-face{font-family:"Source Serif";src:url(fonts/sourceserif4-italic.woff2) format("woff2");font-weight:300 700;font-style:italic;font-display:swap}
+:root{--bg:#0A0F1E;--ink:#EFE6D2;--ink2:#CBC2AE;--ink3:#A39E92;--line:#2A3350;--gold:#ECE8DC;--gold2:#D9D5C8;--accent:#ECE8DC;--bar:56px;--ease:cubic-bezier(.16,1,.3,1);color-scheme:dark}
 *{box-sizing:border-box}
-html{-webkit-text-size-adjust:100%}
-body{margin:0;background:var(--bg);color:var(--ink);font-family:"Fraunces",Georgia,serif;font-optical-sizing:auto;font-size:19px;line-height:1.62;font-weight:380;-webkit-font-smoothing:antialiased}
-.lab,.kick{font-family:"Cormorant",Georgia,serif;font-weight:600;font-size:14px;letter-spacing:.2em;text-transform:uppercase;color:var(--gold2)}
+html{-webkit-text-size-adjust:100%;scroll-padding-top:calc(var(--bar) + 16px)}
+.part h2,.door{scroll-margin-top:calc(var(--bar) + 16px)}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:"Source Serif",Georgia,serif;font-size:1.1875rem;line-height:1.62;font-weight:400;-webkit-font-smoothing:antialiased}
+.lab,.kick{font-family:"Source Serif",Georgia,serif;font-style:italic;font-weight:400;font-size:.9375rem;letter-spacing:0;color:var(--ink2)}
+.kick.by{color:var(--ink2)}
 .skip{position:absolute;left:-999px;top:8px;background:var(--bg);color:var(--ink);padding:10px 14px;z-index:99}.skip:focus{left:8px}
 :focus-visible{outline:2px solid var(--gold);outline-offset:3px}
-.bar{position:fixed;inset:0 0 auto 0;height:var(--bar);z-index:50;background:var(--bg);border-bottom:1px solid var(--line);display:flex;align-items:center;gap:10px;padding:0 max(14px,env(safe-area-inset-right)) 0 max(14px,env(safe-area-inset-left))}
-.bar .mark{display:inline-flex;align-items:center;gap:10px;min-height:44px;margin-right:auto;color:var(--ink);text-decoration:none;font:500 24px/1 "Cormorant",serif;letter-spacing:.02em}
+.bar{position:fixed;inset:0 0 auto 0;height:var(--bar);z-index:50;background:var(--bg);border-bottom:1px solid var(--line);display:flex;align-items:center;gap:8px;padding:0 max(16px,env(safe-area-inset-right)) 0 max(16px,env(safe-area-inset-left))}
+.bar .mark{display:inline-flex;align-items:center;gap:8px;min-height:44px;margin-right:auto;color:var(--ink);text-decoration:none;font:500 24px/1 "Cormorant",serif;letter-spacing:.02em}
 .bar .mark img{width:30px;height:30px;display:block}
-.btn{min-height:44px;min-width:44px;padding:0 18px;border:1px solid var(--gold);background:var(--gold);color:#1A1405;font:700 14px/1 "Cormorant",serif;letter-spacing:.18em;text-transform:uppercase;border-radius:3px;cursor:pointer}
+.btn{min-height:44px;min-width:44px;padding:0 16px;border:1px solid var(--gold);background:transparent;color:var(--gold);font:600 .9375rem/1 "Source Serif",Georgia,serif;letter-spacing:0;border-radius:0;cursor:pointer}
 /* the camera: one fixed stage behind everything. The page scroll moves the camera, never the picture's own edges. */
 #field{position:fixed;inset:0;width:100%;height:100%;z-index:0;pointer-events:none}
-#stage{position:fixed;inset:0;z-index:1;pointer-events:none;overflow:hidden;opacity:0;transition:opacity 1.1s ease}
-.ready #stage{opacity:1}
+#stage{position:fixed;inset:0;z-index:1;pointer-events:none;overflow:hidden}
 #cam{position:absolute;left:0;top:0;transform-origin:50% 50%;will-change:transform,opacity;contain:layout style}
 #cam img{position:absolute;display:block;max-width:none;user-select:none}
 #cam .orig{left:0;top:0;width:100%;height:100%}
-#cam .core{left:15%;top:15%;width:70%;height:70%;opacity:0}
+#cam .core{left:15%;top:15%;width:70%;height:70%;opacity:0;background:url(data:image/webp;base64,UklGRv4AAABXRUJQVlA4IPIAAAAQCgCdASowADAAPtVaqEyoJSQiMdZsAQAaiWgAnTK9iESIbjIL6XhldVU4hcgaThMcidGXw8X90HaVaevd5z5w5k+KDMrhLMAHBR7ozohuX18V3BUXpri4AAD+40+jUjFWIcYfRU26B/4LArcge2aQedCT0JW7wNO8gQLyxIVieDIp1xlubGXVKQyZnMSx6O4h4S5Qs00WvnCYy3XT0CUT2Mnt6LGBalOZdpuh2npOd9Uiut8/Sl7+oJcyLPRuBVjQVobiRuBTbpCtTzFKa6Hg1vKK00YFU91LD+SYwY3m4OjJ4PODHxWM4SFqPZWWDIAAAA==) center/100% 100%}
 #cam .logo{left:50%;top:50%;width:320%;height:320%;transform:translate(-50%,-50%);opacity:0;z-index:-1}
-#pulse{position:fixed;z-index:1;pointer-events:none;border-radius:50%;background:radial-gradient(circle,rgba(255,226,150,.85) 0,rgba(233,185,73,.35) 34%,rgba(233,185,73,0) 66%);mix-blend-mode:screen;opacity:0;will-change:opacity,transform}
+#pulse{position:fixed;z-index:1;pointer-events:none;border-radius:50%;background:radial-gradient(circle,rgba(255,250,235,.8) 0,rgba(236,232,220,.3) 34%,rgba(236,232,220,0) 66%);mix-blend-mode:screen;opacity:0;will-change:opacity,transform}
+#ret{position:absolute;pointer-events:none;opacity:0;overflow:visible;transform-origin:50% 50%;will-change:transform,opacity}#ret line,#ret circle{fill:none;stroke:var(--accent);stroke-width:1;vector-effect:non-scaling-stroke}
+.lbx{position:fixed;left:0;right:0;height:11svh;background:linear-gradient(#000 calc(100% - 32px),rgba(0,0,0,0));z-index:2;pointer-events:none;top:0;transform:scaleY(0);transform-origin:top;will-change:transform}.lbx.b{top:auto;bottom:0;transform-origin:bottom;background:linear-gradient(0deg,#000 calc(100% - 32px),rgba(0,0,0,0))}
+@media (max-width:959px){.lbx{height:6svh}}
+.hud{margin:0 auto;font:400 .8125rem/1.4 "Source Serif",Georgia,serif;color:var(--ink2);white-space:nowrap}.hud b{display:block;color:var(--ink);font-weight:600}
+@media (max-width:379px){.hud{display:none}}
 #hl{position:absolute;inset:0;width:100%;height:100%;opacity:0;transition:opacity .5s var(--ease)}
 #hl circle{fill:none}
-.scrim{position:fixed;inset:0;z-index:2;pointer-events:none;background:linear-gradient(90deg,rgba(10,15,30,.9) 0,rgba(10,15,30,.84) 31rem,rgba(10,15,30,.5) 41rem,rgba(10,15,30,0) 58rem)}
+.scrim{position:fixed;inset:0;z-index:2;pointer-events:none;background:linear-gradient(90deg,rgba(10,15,30,.97) 0,rgba(10,15,30,.95) 36rem,rgba(10,15,30,.62) 44rem,rgba(10,15,30,0) 60rem)}
 main{position:relative;z-index:3}
-.text{padding:calc(var(--bar) + 20px) 22px 30vh 22px;max-width:36rem;margin:0 auto}
+.text{padding:calc(var(--bar) + 24px) 24px 30vh 24px;max-width:36rem;margin:0 auto}
 .part{margin:0 0 56px}
 .part p,.part li,.part h2,.part h3{text-shadow:0 0 18px rgba(10,15,30,.95),0 0 4px rgba(10,15,30,.9)}
 .title{min-height:calc(100svh - var(--bar) - 40px);display:flex;flex-direction:column;justify-content:center;padding-bottom:40px}
-.word{font:300 clamp(64px,19vw,150px)/1.05 "Cormorant",serif;letter-spacing:-.01em;margin:10px 0 14px;color:var(--ink)}
-.tag{font:italic 400 clamp(22px,3.4vw,30px)/1.2 "Cormorant",serif;color:var(--ink2);margin:6px 0 22px;max-width:20ch;text-wrap:balance}
-.cue{align-self:flex-start;display:inline-flex;align-items:center;gap:10px;min-height:48px;padding:0 22px;border:1.5px solid var(--gold);color:var(--gold);border-radius:3px;text-decoration:none;font:700 14px/1 "Cormorant",serif;letter-spacing:.2em;text-transform:uppercase;background:rgba(10,15,30,.88)}
+.word{font:300 clamp(64px,19vw,150px)/1.05 "Cormorant",serif;letter-spacing:-.01em;margin:8px 0 16px;color:var(--ink)}
+.tag{font:italic 400 clamp(22px,3.4vw,30px)/1.2 "Cormorant",serif;color:var(--ink2);margin:8px 0 24px;max-width:20ch;text-wrap:balance}
+.btn,.cue{transition:transform 120ms cubic-bezier(.23,1,.32,1),background-color 160ms ease,color 160ms ease}.btn:active,.cue:active{transform:scale(.97)}
+@media (hover:hover) and (pointer:fine){.btn:hover{background:var(--gold);color:#0A0F1E}}
+.cue{align-self:flex-start;display:inline-flex;align-items:center;gap:8px;min-height:48px;padding:0 24px;border:1.5px solid var(--gold);color:var(--gold);border-radius:0;text-decoration:none;font:600 1rem/1 "Source Serif",Georgia,serif;letter-spacing:0;background:rgba(10,15,30,.88)}
 .kick.by{display:block;margin-top:2px}
 .part h2{font:300 clamp(44px,8.6vw,76px)/1 "Cormorant",serif;letter-spacing:-.005em;margin:.1em 0 .5em;color:var(--ink);text-wrap:balance}
 .part p{margin:0 0 1.15em}
 .part em{font-style:italic}
 .part .big{font:italic 400 clamp(28px,4.2vw,38px)/1.2 "Cormorant",serif;margin:1.1em 0 .7em;color:var(--gold2)}
-.part .note-in{font-size:16px;color:var(--ink2);border-left:2px solid var(--gold);padding-left:14px}
+.part .note-in{font-size:16px;color:var(--ink2);border-left:2px solid var(--accent);padding-left:14px}
 .st{list-style:none;margin:1.2em 0 1.6em;padding:0}
-.st li{margin:0 0 1.15em;padding-left:16px;border-left:2px solid var(--line);transition:border-color .4s var(--ease)}
-.st li.on{border-left-color:var(--gold)}
+.st li{margin:0 0 1.15em;padding-left:16px;border-left:2px solid var(--line);transition:border-color .25s var(--ease)}
+.st li.on{border-left-color:var(--accent)}
 .st b{font-weight:600;color:var(--ink)}
 .beat{position:relative;height:var(--bh,200svh);pointer-events:none}
 .beat i{position:absolute;left:0;width:1px;height:1px}.beat i:first-child{top:0}.beat i:last-child{bottom:0}
-.door .enter{display:block;border-top:2px solid var(--gold);border-bottom:1px solid var(--line);padding:22px 0 24px;color:var(--ink);text-decoration:none;margin:30px 0 24px;background:rgba(10,15,30,.55)}
-.door .enter .t{display:block;font:300 clamp(34px,6vw,56px)/1.05 "Cormorant",serif}.door .enter .m{display:block;margin-top:10px}
-.atlas{list-style:none;margin:0;padding:0;columns:2;column-gap:26px}
-.atlas li{break-inside:avoid;padding:5px 0;font:600 14px/1.3 "Cormorant",serif;letter-spacing:.08em;text-transform:uppercase;color:var(--ink3);display:flex;gap:10px}
+.door .enter{display:block;border-top:2px solid var(--accent);border-bottom:1px solid var(--line);padding:24px 0;color:var(--ink);text-decoration:none;margin:32px 0 24px;background:rgba(10,15,30,.55)}
+.door .enter .t{display:block;font:300 clamp(34px,6vw,56px)/1.05 "Cormorant",serif}.door .enter .m{display:block;margin-top:8px}
+.atlas{list-style:none;margin:0;padding:0;columns:2;column-gap:24px}
+.atlas li{break-inside:avoid;padding:5px 0;font:400 .9375rem/1.5 "Source Serif",Georgia,serif;color:var(--ink2);display:flex;gap:10px}
 .atlas .n{flex:none}.atlas .here .t{color:var(--ink)}
-.note{position:relative;z-index:3;padding:10px 22px 48px;max-width:36rem;margin:0 auto;font:600 14px/1.5 "Cormorant",serif;letter-spacing:.12em;text-transform:uppercase;color:var(--ink3)}
+.note{position:relative;z-index:3;padding:8px 24px 48px;max-width:36rem;margin:0 auto;font:400 .875rem/1.6 "Source Serif",Georgia,serif;color:var(--ink3)}
 @media (max-width:959px){
- .scrim{background:linear-gradient(rgba(10,15,30,.5),rgba(10,15,30,.6))}
+ .title{align-items:center;text-align:center;padding-bottom:calc(6svh + 28px)}.title .cue{align-self:center}
+ .scrim{background:linear-gradient(rgba(10,15,30,.5),rgba(10,15,30,.66) 40%,rgba(10,15,30,.84))}
  .beat{--bh:170svh}
 }
-html.js:not(.ready) #pulse{opacity:.42!important}
-#pulse{transition:opacity .9s ease}
 html:not(.js) #stage,html:not(.js) .scrim,html:not(.js) #field,html:not(.js) #pulse,html:not(.js) .beat{display:none}
 .note{text-shadow:0 0 10px var(--bg),0 0 3px var(--bg)}
 @media (max-width:959px){.note{max-width:none;padding-top:44px;background:linear-gradient(rgba(10,15,30,0),rgba(10,15,30,.92) 38%)}.title{justify-content:flex-end}}
-@media (max-width:959px){.door{background:rgba(10,15,30,.84);padding:20px 18px;border-radius:4px}}
+@media (max-width:959px){.door{background:rgba(10,15,30,.84);padding:24px 16px;border-radius:4px}}
 @media (min-width:960px){
- .text{margin:0 0 0 64px;max-width:34rem;padding-top:calc(var(--bar) + 28px)}
+ .text{margin:0 0 0 64px;max-width:34rem;padding-top:calc(var(--bar) + 32px)}
  .note{margin-left:64px}
 }
 @media (min-width:640px) and (max-height:560px) and (orientation:landscape){
- body{font-size:17px}
- .text{margin:0 0 0 28px;max-width:25rem;padding:calc(var(--bar) + 12px) 0 30vh 0}
- .note{margin-left:28px}
+ body{font-size:1.0625rem}
+ .text{margin:0 0 0 32px;max-width:25rem;padding:calc(var(--bar) + 16px) 0 30vh 0}
+ .note{margin-left:32px}
  .scrim{background:linear-gradient(90deg,rgba(10,15,30,.9) 0,rgba(10,15,30,.84) 24rem,rgba(10,15,30,.5) 31rem,rgba(10,15,30,0) 44rem)}
  .word{font-size:clamp(56px,10vw,96px)}.part h2{font-size:clamp(34px,6vw,52px)}
  .title{min-height:calc(100svh - var(--bar) - 24px)}
  .door{background:none;padding:0}
  .beat{--bh:200svh}
 }
+@media (prefers-contrast:more){.scrim{background:rgba(10,15,30,.94)!important}#field{opacity:.25}.part p,.part li,.part h2{text-shadow:none}.hud,.kick,.lab{color:#ECE8DC}}
+@media (prefers-reduced-transparency:reduce){.scrim{background:rgba(10,15,30,.94)!important}}
 @media (prefers-reduced-motion:reduce){.st li,#hl{transition:none}.beat{--bh:24svh}}
 </style>
 </head>
 <body>
 <a class="skip" href="#p1">Skip to the text</a>
+<a class="skip" href="#door" style="top:44px">Skip to the end</a>
 <header class="bar">
   <a class="mark" href="#top" aria-label="Fractal squared, back to the top"><img src="emblem-64.png" alt="" width="30" height="30">Fractal²</a>
+  <div class="hud" aria-hidden="true"><b id="hud1">Figure 1: The Fractal</b><span id="hud2">30 techniques, eight stages</span></div>
   <button class="btn" id="leave" type="button" aria-label="Leave this site now. Escape pressed twice also leaves.">Leave</button>
 </header>
 <canvas id="field" aria-hidden="true"></canvas>
 <div id="stage" role="img" aria-label="The Fractal, an eight-ring diagram of thirty techniques. The view begins at its centre and slowly pulls back until the full map of 335 tactics appears around it.">
   <div id="cam">
     <img class="logo" id="logo" data-src="img/logo.webp" data-srcset="img/logo-m.webp 2048w, img/logo.webp 3072w" sizes="(max-width:959px) 600px, 2800px" alt="" width="3072" height="3072" decoding="async">
-    <img class="orig" id="orig" src="img/orig.webp" srcset="img/orig-m.webp 2048w, img/orig.webp 3072w" sizes="(max-width:959px) 600px, 2800px" alt="" width="3072" height="3072" decoding="async">
+    <img class="orig" id="orig" data-src="img/orig.webp" data-srcset="img/orig-m.webp 2048w, img/orig.webp 3072w" sizes="(max-width:959px) 600px, 2800px" alt="" width="3072" height="3072" decoding="async">
     <img class="core" id="core" fetchpriority="high" src="img/orig-core.webp" srcset="img/orig-core-m.webp 2048w, img/orig-core.webp 3072w" sizes="(max-width:959px) 600px, 2800px" alt="" width="3072" height="3072" decoding="async">
-    <svg id="hl" viewBox="0 0 1000 1000" aria-hidden="true"><g style="opacity:0;transition:opacity .5s"><circle cx="500" cy="500" r="103.5" stroke="#F4D58A" stroke-opacity=".22" stroke-width="30"/><circle cx="500" cy="500" r="103.5" stroke="#FFE9A8" stroke-opacity=".8" stroke-width="2"/></g><g style="opacity:0;transition:opacity .5s"><circle cx="500" cy="500" r="148.0" stroke="#F4D58A" stroke-opacity=".22" stroke-width="30"/><circle cx="500" cy="500" r="148.0" stroke="#FFE9A8" stroke-opacity=".8" stroke-width="2"/></g><g style="opacity:0;transition:opacity .5s"><circle cx="500" cy="500" r="190.0" stroke="#F4D58A" stroke-opacity=".22" stroke-width="30"/><circle cx="500" cy="500" r="190.0" stroke="#FFE9A8" stroke-opacity=".8" stroke-width="2"/></g><g style="opacity:0;transition:opacity .5s"><circle cx="500" cy="500" r="231.0" stroke="#F4D58A" stroke-opacity=".22" stroke-width="30"/><circle cx="500" cy="500" r="231.0" stroke="#FFE9A8" stroke-opacity=".8" stroke-width="2"/></g><g style="opacity:0;transition:opacity .5s"><circle cx="500" cy="500" r="273.5" stroke="#F4D58A" stroke-opacity=".22" stroke-width="30"/><circle cx="500" cy="500" r="273.5" stroke="#FFE9A8" stroke-opacity=".8" stroke-width="2"/></g><g style="opacity:0;transition:opacity .5s"><circle cx="500" cy="500" r="312.0" stroke="#F4D58A" stroke-opacity=".22" stroke-width="30"/><circle cx="500" cy="500" r="312.0" stroke="#FFE9A8" stroke-opacity=".8" stroke-width="2"/></g><g style="opacity:0;transition:opacity .5s"><circle cx="500" cy="500" r="356.5" stroke="#F4D58A" stroke-opacity=".22" stroke-width="30"/><circle cx="500" cy="500" r="356.5" stroke="#FFE9A8" stroke-opacity=".8" stroke-width="2"/></g><g style="opacity:0;transition:opacity .5s"><circle cx="500" cy="500" r="414.5" stroke="#F4D58A" stroke-opacity=".22" stroke-width="30"/><circle cx="500" cy="500" r="414.5" stroke="#FFE9A8" stroke-opacity=".8" stroke-width="2"/></g></svg>
+    <svg id="hl" viewBox="0 0 1000 1000" aria-hidden="true"><g style="opacity:0;transition:opacity .25s"><circle cx="500" cy="500" r="103.5" stroke="#F4F0E6" stroke-opacity=".18" stroke-width="30"/><circle cx="500" cy="500" r="103.5" stroke="#F4F0E6" stroke-opacity=".9" stroke-width="2"/></g><g style="opacity:0;transition:opacity .25s"><circle cx="500" cy="500" r="148.0" stroke="#F4F0E6" stroke-opacity=".18" stroke-width="30"/><circle cx="500" cy="500" r="148.0" stroke="#F4F0E6" stroke-opacity=".9" stroke-width="2"/></g><g style="opacity:0;transition:opacity .25s"><circle cx="500" cy="500" r="190.0" stroke="#F4F0E6" stroke-opacity=".18" stroke-width="30"/><circle cx="500" cy="500" r="190.0" stroke="#F4F0E6" stroke-opacity=".9" stroke-width="2"/></g><g style="opacity:0;transition:opacity .25s"><circle cx="500" cy="500" r="231.0" stroke="#F4F0E6" stroke-opacity=".18" stroke-width="30"/><circle cx="500" cy="500" r="231.0" stroke="#F4F0E6" stroke-opacity=".9" stroke-width="2"/></g><g style="opacity:0;transition:opacity .25s"><circle cx="500" cy="500" r="273.5" stroke="#F4F0E6" stroke-opacity=".18" stroke-width="30"/><circle cx="500" cy="500" r="273.5" stroke="#F4F0E6" stroke-opacity=".9" stroke-width="2"/></g><g style="opacity:0;transition:opacity .25s"><circle cx="500" cy="500" r="312.0" stroke="#F4F0E6" stroke-opacity=".18" stroke-width="30"/><circle cx="500" cy="500" r="312.0" stroke="#F4F0E6" stroke-opacity=".9" stroke-width="2"/></g><g style="opacity:0;transition:opacity .25s"><circle cx="500" cy="500" r="356.5" stroke="#F4F0E6" stroke-opacity=".18" stroke-width="30"/><circle cx="500" cy="500" r="356.5" stroke="#F4F0E6" stroke-opacity=".9" stroke-width="2"/></g><g style="opacity:0;transition:opacity .25s"><circle cx="500" cy="500" r="414.5" stroke="#F4F0E6" stroke-opacity=".18" stroke-width="30"/><circle cx="500" cy="500" r="414.5" stroke="#F4F0E6" stroke-opacity=".9" stroke-width="2"/></g></svg>
   </div>
+  <svg id="ret" viewBox="-100 -100 200 200" aria-hidden="true"><circle r="44"/><line x1="-64" y1="0" x2="-52" y2="0"/><line x1="52" y1="0" x2="64" y2="0"/><line x1="0" y1="-64" x2="0" y2="-52"/><line x1="0" y1="52" x2="0" y2="64"/></svg>
 </div>
 <div id="pulse" aria-hidden="true"></div>
 <div class="scrim"></div>
+<div class="lbx" id="lbt"></div><div class="lbx b" id="lbb"></div>
 <main id="top">
   <div class="text">
-    <section class="title part" data-z="3.8" data-lit="0" data-g="0" data-dim="0" data-hl="-1">
+    <section class="title part" data-z="3.8" data-lit="0" data-g="0" data-dim="0" data-hl="-1" data-lb="1">
       <p class="kick">Noble Father Creations<span class="kick by">Shae Stovell</span></p>
       <h1 class="word">Fractal²</h1>
       <p class="tag">The closer you look, the more there is.</p>
-      <a class="cue" href="#p1">Begin <span aria-hidden="true">↓</span></a>
+      <a class="cue" href="#p1">Begin</a>
     </section>
 <section class="part" id="p1"><p class="kick">Part I</p><h2>The room</h2>
-      <p data-z="3.8">There is a room, and everyone in it seems fine.</p>
+      <p data-z="3.8" data-rd="0.3">There is a room, and everyone in it seems fine.</p>
       <p>Someone laughs. The music is easy. And your stomach tightens, and you cannot say why.</p>
       <p>You say something, and it comes out wrong. Then you hear yourself apologizing. For what, you could not tell anyone.</p>
-      <p data-z="3.5">So you leave. You leave the relationship that hollowed you out, and you meet the same tightening at work. You leave the job, and it is waiting at the bank, at the clinic, in the pew, in the glow of your phone at two in the morning.</p>
+      <p data-z="3.5" data-rd="0.3">So you leave. You leave the relationship that hollowed you out, and you meet the same tightening at work. You leave the job, and it is waiting at the bank, at the clinic, in the pew, in the glow of your phone at two in the morning.</p>
       <p>It follows you from building to building. And because it follows you, you reach the only conclusion that fits.</p>
       <p class="big"><em>It must be me.</em></p>
-      <p data-z="3.1">This work began as a refusal of that sentence.</p>
+      <p data-z="3.1" data-rd="0.25">This work began as a refusal of that sentence.</p>
       <p class="big">What if it isn't you?</p>
       <p>What if the thing that breaks a person inside one relationship is not a private wound at all, but a shape? A shape you keep meeting, because it is the same shape in every building.</p>
     </section>
@@ -133,8 +147,8 @@ html:not(.js) #stage,html:not(.js) .scrim,html:not(.js) #field,html:not(.js) #pu
       <p data-z="1.1">Thirty techniques carry a person through those eight stages, from the love bombing at the door to the plausible deniability on the way out. I mapped all thirty, and showed each one at three levels of scale: inside one life, inside one institution, across a whole civilization.</p>
       <p data-z="1.0">Then I walked that map through thirty sectors of human life and documented every one.</p>
       <p data-z="1.0" data-g="0">Thirty techniques. Three levels. Thirty sectors.</p>
-      <p data-z="1.0" data-g="1" data-dim="0.88"><b>Two thousand seven hundred examples.</b></p>
-      <div class="beat" style="--bh:90svh" aria-hidden="true"><i data-z="1.0" data-g="1" data-dim=".88"></i><i data-z="1.0" data-g="1" data-dim=".88"></i></div>
+      <p data-z="1.0" data-g="1" data-dim="0.95"><b>Two thousand seven hundred examples.</b></p>
+      <div class="beat" style="--bh:90svh" aria-hidden="true"><i data-z="1.0" data-g="1" data-dim=".95"></i><i data-z="1.0" data-g="1" data-dim=".95"></i></div>
       <p data-z="1.0" data-g="0" data-dim="0">And a dare: find the building where the cycle does not run.</p>
       <p>I am still waiting.</p>
     </section>
@@ -143,7 +157,7 @@ html:not(.js) #stage,html:not(.js) .scrim,html:not(.js) #field,html:not(.js) #pu
       <p data-z="1.0">Measure a coastline with a long ruler and you get one number. Measure it again with a shorter ruler, following every cove and inlet, and the coastline gets longer. Shorter again, and longer again. The closer you look, the more there is.</p>
       <p><em>The Fractal</em> drew thirty techniques. They were the backbone, the ones that appear in every building.</p>
       <p data-z="1.0">Then I looked closer.</p>
-      <div class="beat" style="--bh:260svh" aria-hidden="true"><i data-z="1.0" data-lit="1"></i><i data-z="0.31" data-rest="1" data-lit="1"></i></div>
+      <div class="beat" style="--bh:260svh" aria-hidden="true"><i data-z="1.0" data-lit="1" data-lb="1"></i><i data-z="0.31" data-rest="1" data-lit="1" data-lb="1"></i></div>
       <p class="big" data-z="0.31" data-rest="1"><b>The true map has more than three hundred.</b></p>
       <p data-z="0.31" data-rest="1">That is what the small ² stands for. <em>The Fractal</em>, turned on itself. The same eight stages, measured with a shorter ruler: three hundred and thirty-five distinct tactics inside a single sector, every one of them shown at all three levels of scale.</p>
       <p>More than a thousand observations for that one sector. Thirty sectors. That is where more than thirty thousand comes from: observations, counted one at a time, not a multiplication.</p>
@@ -164,42 +178,44 @@ html:not(.js) #stage,html:not(.js) .scrim,html:not(.js) #field,html:not(.js) #pu
     </section>
     <section class="part" id="pv"><p class="kick">Part V</p><h2>The order is the weapon</h2>
       <p>Read it again, as a sequence. Each step took away a defense you would have used against the next one.</p>
-      <p>This is what almost no one names: nobody is manipulated one tactic at a time. It arrives as a combination, several tactics run together, in a deliberate order, each one preparing the ground for the next.</p>
+      <p data-z="0.34" data-rest="1">This is what almost no one names: nobody is manipulated one tactic at a time. It arrives as a combination, several tactics run together, in a deliberate order, each one preparing the ground for the next.</p>
       <p>Fractal² names these combinations. There are two hundred and three on the master list so far, and one hundred and fifty-three of them are at work in the first sector alone.</p>
       <p>They have names now.</p>
       <ol class="st"><li>The Debt Prison.</li><li>The Golden Cage.</li><li>The Trauma Bond Engine.</li><li>The Gaslighting Machine.</li><li>The Phantom Equity.</li><li>The Memory Hole.</li><li>The Halo Shield.</li><li>The Confidentiality Cage.</li><li>Learned Silence.</li><li>Walking on Eggshells.</li></ol>
-      <p>And here is the turn. The same shape that makes the lock is the shape of the key.</p>
+      <p data-z="0.4" data-rest="1">And here is the turn. The same shape that makes the lock is the shape of the key.</p>
       <p>Each combination has a way out, and the way out is the same move each time: see the order, name each step, and tell one person who stands outside it. Seeing is not immunity. It is a first light, and it makes the next step possible.</p>
       <p>If this page made you grieve something, that is allowed. A counselor or a crisis line is a good place to take it.</p>
     </section>
     <section class="part" id="pvi"><p class="kick">Part VI</p><h2>Why I can draw this</h2>
-      <p>I have experienced manipulation techniques at the highest level, and they have cost me much, several times in my life. The most recent, in the recent past, attempted to take everything from me and from someone I loved.</p>
+      <p data-z="0.48" data-rest="1">I have experienced manipulation techniques at the highest level, and they have cost me much, several times in my life. The most recent, in the recent past, attempted to take everything from me and from someone I loved.</p>
       <p>My healing journey involved forgiving the people who tried to destroy my mind and my heart for money.</p>
-      <p>Justice comes from breaking every tool they have, so that none of them ever works on anyone again by the time I am done. And from letting the truth of who they are be seen by everyone they care about. Not by exposing them myself. By exposing their tactics to the entire world, so they can never again hide in the shadows and think they are safe.</p>
+      <p data-z="0.6" data-rest="1">Justice comes from breaking every tool they have, so that none of them ever works on anyone again by the time I am done. And from letting the truth of who they are be seen by everyone they care about. Not by exposing them myself. By exposing their tactics to the entire world, so they can never again hide in the shadows and think they are safe.</p>
     </section>
     <section class="part" id="pvii"><p class="kick">Part VII</p><h2>Down, not up</h2>
-      <p>For thousands of years, people have tried to put this into words. I am not a scholar of any of these traditions. I can only tell you what I hear in them: that something real sits under everything laid on top of it, and that the way to it does not go up.</p>
+      <p data-z="0.6" data-rest="1">For thousands of years, people have tried to put this into words. I am not a scholar of any of these traditions. I can only tell you what I hear in them: that something real sits under everything laid on top of it, and that the way to it does not go up.</p>
       <p>You do not arrive by ascending. You go down.</p>
-      <ol class="st"><li data-z="0.31" data-rest="1">Down through the sectors.</li><li data-z="0.34" data-rest="1">Down through the techniques.</li><li data-z="0.37" data-rest="1">Down through the mirror.</li><li data-z="0.40" data-rest="1">Down through the body.</li><li data-z="0.43" data-rest="1">Down through the chain, and the generations behind it.</li></ol>
-      <div class="beat" style="--bh:300svh" aria-hidden="true"><i data-z="0.43" data-rest="1" data-lit="1" data-p="0"></i><i data-z="3.8" data-lit="1" data-p="1"></i></div>
-      <p data-z="3.8" data-p="1">And at the bottom, beneath every layer of capture, you find what was never captured at all. Your own signal. Uncaptured. Unmediated. Unmonetized. Yours.</p>
+      <ol class="st"><li data-z="0.60" data-rest="1" data-rd="0.45">Down through the sectors.</li><li data-z="0.57" data-rest="1" data-rd="0.45">Down through the techniques.</li><li data-z="0.54" data-rest="1" data-rd="0.45">Down through the mirror.</li><li data-z="0.51" data-rest="1" data-rd="0.45">Down through the body.</li><li data-z="0.48" data-rest="1" data-rd="0.45">Down through the chain, and the generations behind it.</li></ol>
+      <div aria-hidden="true" style="height:36svh"></div>
+      <div class="beat" style="--bh:300svh" aria-hidden="true"><i data-z="0.48" data-rest="1" data-lit="1" data-p="0" data-lb="1"></i><i data-z="3.8" data-lit="1" data-p="1" data-lb="1"></i></div>
+      <div aria-hidden="true" style="height:70svh"></div>
+      <p data-z="3.8" data-p="0.3" data-rd="0.9">And at the bottom, beneath every layer of capture, you find what was never captured at all. Your own signal. Uncaptured. Unmediated. Unmonetized. Yours.</p>
       <p>I walked it without a map. I drew this one so that you would not have to.</p>
     </section>
     <section class="part" id="pviii"><p class="kick">Part VIII</p><h2>The room again</h2>
-      <p data-z="3.8">Go back, now, to the room where this began.</p>
+      <p data-z="3.8" data-rd="0.35">Go back, now, to the room where this began.</p>
       <p>Nothing in it has changed. The same people. The same warmth. The same small tightening in your stomach.</p>
-      <p data-z="3.8">Only now you know what the tightening is. It was never your weakness. It was the one part of you that could not be fooled, still doing its work.</p>
-      <p>You are not afraid of this room anymore. You can stay, or you can leave. And when you go, you leave the door open behind you, for whoever comes next.</p>
-      <p data-z="3.8" data-p="0.4">I believe a world without this cycle can be built. It starts with enough of us seeing what is in the way. To do it properly will take a lifetime, and I intend to give it one.</p>
+      <p data-z="3.8" data-rd="0.45">Only now you know what the tightening is. It was never your weakness. It was the one part of you that could not be fooled, still doing its work.</p>
+      <p data-z="3.8" data-rd="0.5">You are not afraid of this room anymore. You can stay, or you can leave. And when you go, you leave the door open behind you, for whoever comes next.</p>
+      <p data-z="3.8" data-p="0.4" data-rd="0.7">I believe a world without this cycle can be built. It starts with enough of us seeing what is in the way. To do it properly will take a lifetime, and I intend to give it one.</p>
       <p><b>The map begins here.</b></p>
       <p><em>This work names patterns, never people. It is for recognition and for finding safe help. It is never a playbook, a diagnosis or a verdict. The scenes in it are composites. If you or anyone you know is in danger, reach real help first: emergency services, a crisis line, or child protection if a child is involved.</em></p>
     </section>
-    <div class="beat" aria-hidden="true"><i data-z="3.8" data-lit="1" data-p="0.4" data-a="0"></i><i data-z="0.097" data-lit="1" data-a="1"></i></div>
+    <div class="beat" aria-hidden="true"><i data-z="3.8" data-lit="1" data-p="0.4" data-a="0" data-lb="1"></i><i data-z="0.097" data-lit="1" data-a="1" data-lb="1"></i></div>
     <section class="part door" id="door">
       <p class="kick">The door</p>
       <h2 data-z="0.097" data-lit="0" data-a="1">30 sectors. One mapped in full.</h2>
       <p>Entertainment &amp; Music is built: 335 tactics, 153 patterns, and three ways to read each one. The others are waiting.</p>
-      <a class="enter" href="/fractal2/entertainment"><span class="kick" style="display:block;margin-bottom:8px">Sector 12 · enter</span><span class="t">Entertainment &amp; Music</span><span class="lab m">mapped in full</span></a>
+      <a class="enter" href="/fractal2/entertainment"><span class="kick" style="display:block;margin-bottom:8px">Sector 12</span><span class="t">Entertainment &amp; Music</span><span class="lab m">Mapped in full</span></a>
       <ul class="atlas" aria-label="The other sectors, waiting">
 <li><span class="n">01</span><span class="t">Religion</span></li>
 <li><span class="n">02</span><span class="t">Politics</span></li>
@@ -239,24 +255,26 @@ html:not(.js) #stage,html:not(.js) .scrim,html:not(.js) #field,html:not(.js) #pu
 <script>
 (function(){
  var d=document,h=d.documentElement;h.classList.add('js');
- function leave(){try{d.body.innerHTML=''}catch(e){}location.replace('about:blank')}
+ function leave(){try{d.body.innerHTML=''}catch(e){}location.replace('https://www.google.com/')}
  d.getElementById('leave').addEventListener('click',leave);
  var last=0;addEventListener('keydown',function(e){if(e.key==='Escape'){var n=Date.now();if(n-last<600)leave();last=n}});
  var core0=d.getElementById('core');function ready(){h.classList.add('ready')}
  if(core0.complete&&core0.naturalWidth)ready();else{core0.addEventListener('load',ready);core0.addEventListener('error',ready);setTimeout(ready,4000)}
- function lateLoad(){var lg=d.getElementById('logo');lg.srcset=lg.getAttribute('data-srcset');lg.src=lg.getAttribute('data-src')}
- if(d.readyState==='complete')setTimeout(lateLoad,300);else addEventListener('load',function(){setTimeout(lateLoad,300)});
+ function ld(id,cb){var e=d.getElementById(id);if(cb)e.addEventListener('load',cb);e.srcset=e.getAttribute('data-srcset');e.src=e.getAttribute('data-src')}
+ function lateLoad(){ld('orig',function(){setTimeout(function(){ld('logo')},200)})}
+ var late=false;function go2(){if(late)return;late=true;setTimeout(lateLoad,150)}
+ if(core0.complete&&core0.naturalWidth)go2();else{core0.addEventListener('load',go2);setTimeout(go2,3500)}
  var rm=matchMedia('(prefers-reduced-motion:reduce)').matches;
  var cam=d.getElementById('cam'),core=d.getElementById('core'),logo=d.getElementById('logo'),hl=d.getElementById('hl'),cv=d.getElementById('field'),cx2=cv.getContext('2d');
  var rings=[].slice.call(hl.querySelectorAll('g')),lis=[].slice.call(d.querySelectorAll('.st li'));
- var P=d.getElementById('pulse'),ZR=1,CELL=100,anchors=[].slice.call(d.querySelectorAll('[data-z]')),ys=[],W,Hh,D0,CX,CY,DPR,wide;
+ var lbt=d.getElementById('lbt'),lbb=d.getElementById('lbb'),hud1=d.getElementById('hud1'),hud2=d.getElementById('hud2'),ret=d.getElementById('ret'),P=d.getElementById('pulse'),scrim=d.querySelector('.scrim'),ZR=1,CXe=0,CYe=0,CELL=100,anchors=[].slice.call(d.querySelectorAll('[data-z]')),ys=[],W,Hh,D0,CX,CY,DPR,wide;
  function clamp(v,a,b){return Math.min(b,Math.max(a,v))}
  function lerp(a,b,t){return a+(b-a)*t}
  function layout(){
   W=innerWidth;Hh=innerHeight;wide=W>=960||(W>=640&&W>Hh&&Hh<=560);DPR=Math.min(2,devicePixelRatio||1);
   if(wide){var tr=d.querySelector('.text').getBoundingClientRect(),tw=tr.left+tr.width+(W>=960?56:24),av=W-tw-24;D0=Math.min(av*1.18,Hh*1.0);CX=tw+av/2-D0*0.04;CY=Hh*0.5}
   else{D0=Math.min(W*0.94,Hh*0.56);CX=W/2;CY=Hh*0.32}
-  P.style.width=D0*1.3+'px';P.style.height=D0*1.3+'px';P.style.left=(CX-D0*0.65)+'px';P.style.top=(CY-D0*0.65)+'px';CELL=D0*0.30;ZR=wide?1.5:1;
+  var rs=0.41*D0;ret.style.width=rs+'px';ret.style.height=rs+'px';ret.style.left=(CX-rs/2)+'px';ret.style.top=(CY-rs/2)+'px';P.style.width=D0*1.3+'px';P.style.height=D0*1.3+'px';P.style.left=(CX-D0*0.65)+'px';P.style.top=(CY-D0*0.65)+'px';CELL=D0*0.30;ZR=wide?1.5:1.17;
   cam.style.width=D0+'px';cam.style.height=D0+'px';cam.style.left=(CX-D0/2)+'px';cam.style.top=(CY-D0/2)+'px';
   cv.width=W*DPR;cv.height=Hh*DPR;
   ys=anchors.map(function(el){var r=el.getBoundingClientRect();return r.top+scrollY+r.height/2});
@@ -272,20 +290,20 @@ html:not(.js) #stage,html:not(.js) .scrim,html:not(.js) #field,html:not(.js) #pu
  function atlas(a){
   var cols=5,cell=CELL,i,c,rr,x,y,RN=[.1,.2,.3,.4,.5,.6,.72,.86],col=['#8a5f22','#b8741f','#a9521c','#8a2327','#6a2a45','#3a4f8c','#4a6bb0','#6f8fd0'];
   cx2.textAlign='center';cx2.textBaseline='middle';
-  for(i=0;i<30;i++){if(i===11)continue;c=i%cols;rr=(i/cols)|0;x=CX+(c-1)*cell;y=CY+(rr-2)*cell;
+  for(i=0;i<30;i++){if(i===11)continue;c=i%cols;rr=(i/cols)|0;x=CXe+(c-1)*cell;y=CYe+(rr-2)*cell;
    cx2.globalAlpha=a*0.85;
    for(var j=0;j<8;j++){cx2.beginPath();cx2.arc(x,y,cell*0.46*RN[j],0,6.2832);cx2.lineWidth=j===7?1.4:Math.max(1,cell*0.035);cx2.strokeStyle=j===7?'rgba(244,213,138,.8)':col[j];cx2.globalAlpha=a*(j===7?.8:.55);cx2.stroke()}
    cx2.globalAlpha=a*0.8;cx2.fillStyle='#EFE6D2';cx2.font='600 '+Math.max(11,cell*0.1)+'px Cormorant,serif';cx2.fillText(('0'+(i+1)).slice(-2),x,y+cell*0.56)}
-  cx2.globalAlpha=a;cx2.fillStyle='#F4D58A';cx2.font='700 '+Math.max(11,cell*0.1)+'px Cormorant,serif';cx2.fillText('12  ENTERTAINMENT & MUSIC',CX,CY+cell*0.56);cx2.beginPath();cx2.arc(CX,CY,cell*0.5,0,6.2832);cx2.strokeStyle='rgba(244,213,138,.9)';cx2.lineWidth=2;cx2.stroke();
+  cx2.globalAlpha=a;cx2.fillStyle='#ECE8DC';cx2.font='700 '+Math.max(11,cell*0.1)+'px Cormorant,serif';cx2.fillText('12  ENTERTAINMENT & MUSIC',CXe,CYe+cell*0.56);cx2.beginPath();cx2.arc(CXe,CYe,cell*0.5,0,6.2832);cx2.strokeStyle='rgba(255,250,235,.95)';cx2.lineWidth=2;cx2.stroke();
   cx2.globalAlpha=1;
  }
  function draw(g,br,sy,at){
-  var key=sy.toFixed(0)+'|'+g.toFixed(3)+'|'+br.toFixed(2)+'|'+at.toFixed(3);if(key===lastDraw)return;lastDraw=key;
+  var key=sy.toFixed(0)+'|'+g.toFixed(3)+'|'+br.toFixed(2)+'|'+at.toFixed(3)+'|'+CXe.toFixed(0)+'|'+CYe.toFixed(0);if(key===lastDraw)return;lastDraw=key;
   cx2.setTransform(DPR,0,0,DPR,0,0);cx2.clearRect(0,0,W,Hh);
   var span=Hh*1.4,k=g>0.001;
   for(var pass=0;pass<6;pass++){
-   var gold=pass>=3,bk=pass%3,al=(0.3+0.6*br)*[.5,.75,1][bk]*(gold?1:.8)*(1+g*1.3);
-   cx2.fillStyle=gold?'rgba(244,213,138,'+Math.min(1,al)+')':'rgba(220,226,245,'+Math.min(1,al)+')';
+   var gold=pass>=3,bk=pass%3,al=(0.3+0.6*br)*[.5,.75,1][bk]*(gold?1:.8)*(1+g*2.2);
+   cx2.fillStyle=gold?'rgba(236,232,220,'+Math.min(1,al)+')':'rgba(220,226,245,'+Math.min(1,al)+')';
    for(var i=0;i<N;i++){var p=pts[i];if(p.gold!==gold||p.bk!==bk)continue;
     var x=p.u*W,y=((p.v*span-sy*p.dp*0.35)%span+span)%span-Hh*.2;
     if(k){var st=clamp(g*1.6-(i%90)/90*0.6,0,1);st=st*st*(3-2*st);x=lerp(x,gx[i],st);y=lerp(y,gy[i],st)}
@@ -298,25 +316,31 @@ html:not(.js) #stage,html:not(.js) .scrim,html:not(.js) #field,html:not(.js) #pu
   var A=anchors[i],B=anchors[Math.min(i+1,anchors.length-1)],t=(i<anchors.length-1&&ys[i+1]>ys[i])?clamp((line-ys[i])/(ys[i+1]-ys[i]),0,1):0;
   function v(el,k,df){var s=el.getAttribute('data-'+k);return s===null?df:+s}
   var za=v(A,'z',1)*(A.hasAttribute('data-rest')?ZR:1),zb=v(B,'z',v(A,'z',1))*(B.hasAttribute('data-rest')?ZR:1);if(!B.hasAttribute('data-z'))zb=za;
-  return {z:Math.exp(lerp(Math.log(za),Math.log(zb),t)),lit:lerp(v(A,'lit',0),v(B,'lit',0),t),g:lerp(v(A,'g',0),v(B,'g',0),t),dim:lerp(v(A,'dim',0),v(B,'dim',0),t),p:lerp(v(A,'p',0),v(B,'p',0),t),a:lerp(v(A,'a',0),v(B,'a',0),t),hl:t<.5?v(A,'hl',-1):v(B,'hl',-1)}
+  return {z:Math.exp(lerp(Math.log(za),Math.log(zb),t)),lit:lerp(v(A,'lit',0),v(B,'lit',0),t),g:lerp(v(A,'g',0),v(B,'g',0),t),dim:lerp(v(A,'dim',0),v(B,'dim',0),t),p:lerp(v(A,'p',0),v(B,'p',0),t),lb:lerp(v(A,'lb',0),v(B,'lb',0),t),rd:lerp(v(A,'rd',0),v(B,'rd',0),t),a:lerp(v(A,'a',0),v(B,'a',0),t),hl:t<.5?v(A,'hl',-1):v(B,'hl',-1)}
  }
  var cur=null,raf=0,lastT=0;
  function frame(now){
   raf=0;var tg=target(scrollY);
-  if(!cur||rm)cur={z:tg.z,lit:tg.lit,g:tg.g,dim:tg.dim,p:tg.p,a:tg.a,hl:tg.hl};
+  if(!cur||rm)cur={z:tg.z,lit:tg.lit,g:tg.g,dim:tg.dim,p:tg.p,a:tg.a,lb:tg.lb,rd:tg.rd,hl:tg.hl};
   else{var dt=Math.min(.05,(now-lastT)/1000||.016),k=1-Math.exp(-dt/.16);
-   cur.z=Math.exp(lerp(Math.log(cur.z),Math.log(tg.z),k));cur.lit=lerp(cur.lit,tg.lit,k);cur.g=lerp(cur.g,tg.g,k);cur.dim=lerp(cur.dim,tg.dim,k);cur.p=lerp(cur.p,tg.p,k);cur.a=lerp(cur.a,tg.a,k);cur.hl=tg.hl}
-  var dg=Math.abs(Math.log(cur.z/tg.z))+Math.abs(cur.g-tg.g)+Math.abs(cur.dim-tg.dim)+Math.abs(cur.lit-tg.lit)+Math.abs(cur.p-tg.p)+Math.abs(cur.a-tg.a);
-  if(dg<0.004){cur.z=tg.z;cur.lit=tg.lit;cur.g=tg.g;cur.dim=tg.dim;cur.p=tg.p;cur.a=tg.a}
+   cur.z=Math.exp(lerp(Math.log(cur.z),Math.log(tg.z),k));cur.lit=lerp(cur.lit,tg.lit,k);cur.g=lerp(cur.g,tg.g,k);cur.dim=lerp(cur.dim,tg.dim,k);cur.p=lerp(cur.p,tg.p,k);cur.a=lerp(cur.a,tg.a,k);cur.lb=lerp(cur.lb,tg.lb,k);cur.rd=lerp(cur.rd,tg.rd,k);cur.hl=tg.hl}
+  var dg=Math.abs(Math.log(cur.z/tg.z))+Math.abs(cur.g-tg.g)+Math.abs(cur.dim-tg.dim)+Math.abs(cur.lit-tg.lit)+Math.abs(cur.p-tg.p)+Math.abs(cur.a-tg.a)+Math.abs(cur.lb-tg.lb);
+  if(dg<0.004){cur.z=tg.z;cur.lit=tg.lit;cur.g=tg.g;cur.dim=tg.dim;cur.p=tg.p;cur.a=tg.a;cur.lb=tg.lb;cur.rd=tg.rd}
   lastT=now;
-  var z=cur.z,base=wide?0.94:lerp(0.55,1,rm?0:cur.lit),op=base*(1-cur.dim*0.9);
-  cam.style.transform='scale('+z.toFixed(4)+')';cam.style.opacity=op.toFixed(3);
+  var z=cur.z,base=wide?0.94:lerp(0.45,1,rm?0:cur.lit),op=base*(1-cur.dim*0.9)*(1-cur.rd*(wide?0.6:1));
+  var cl=rm?0:cur.lit,dx=wide?(W/2-CX)*cl:0,dy=(Hh*0.5-CY)*cl*(wide?0:1);CXe=CX+dx;CYe=CY+dy;var tr='translate('+dx.toFixed(1)+'px,'+dy.toFixed(1)+'px) ';cam.style.transform=tr+'scale('+z.toFixed(4)+')';cam.style.opacity=op.toFixed(3);
   var co=clamp((z-2.75)/0.5,0,1);core.style.opacity=co.toFixed(3);core.style.visibility=co>0?'visible':'hidden';
   var lo=clamp((1-z)/0.3,0,1);logo.style.opacity=lo.toFixed(3);logo.style.visibility=lo>0?'visible':'hidden';
   hl.style.opacity=(cur.hl>=0&&z<2.6)?1:0;hl.style.visibility=hl.style.opacity==='1'?'visible':'hidden';
   rings.forEach(function(g,j){g.style.opacity=j===cur.hl?1:0});
   lis.forEach(function(li){li.classList.toggle('on',cur.hl>=0&&+li.getAttribute('data-hl')===cur.hl)});
-  P.style.opacity=(cur.p*0.9).toFixed(3);P.style.transform='scale('+(0.8+0.3*cur.p).toFixed(3)+')';
+  scrim.style.opacity=(1-(rm?0:cur.lit)).toFixed(3);
+  var sy='scaleY('+cur.lb.toFixed(3)+')';lbt.style.transform=sy;lbb.style.transform=sy;
+  var zr=cur.z/(ZR>1&&cur.z<0.9?ZR:1),h1,h2;
+  if(cur.a>0.5){h1='Figure 3: The atlas';h2='30 sectors, 1 mapped'}else if(cur.g>0.5){h1='Figure 1b: The examples';h2='30 sectors × 90 = 2,700'}else if(lo>0.5){h1='Figure 2: Fractal²';h2='335 tactics, one sector'}else{h1='Figure 1: The Fractal';h2='30 techniques, eight stages'}
+  if(hud1.textContent!==h1)hud1.textContent=h1;hud2.textContent=h2;
+  ret.style.transform=tr+'scale('+z.toFixed(4)+')';ret.style.opacity=clamp((z-2.0)/1.2,0,1).toFixed(3);
+  P.style.opacity=(cur.p*0.9).toFixed(3);P.style.transform=tr+'scale('+(0.8+0.3*cur.p).toFixed(3)+')';
   draw(cur.g,0.3+0.5*cur.lit-0.2*cur.a,scrollY,cur.a);
   logo.style.transform='translate(-50%,-50%) rotate('+(rm?0:(scrollY*0.0035).toFixed(3))+'deg)';
   var diff=dg<0.004?0:1;
