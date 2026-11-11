@@ -235,6 +235,64 @@
      "status": "open"
     }
    ]
+  },
+  {
+   "round": 5,
+   "date": "2026-11-11",
+   "sha": "d8a61b37f59c8b0766ddf5e71b90ae0b54fa86c07cdc933cdaf0cf27208f95c5",
+   "scores": {
+    "hierarchy": 4,
+    "type": 4,
+    "space": 3,
+    "craft": 3,
+    "distinctiveness": 4,
+    "feeling": 3,
+    "phone": 3,
+    "legibility": 3,
+    "continuity": 3
+   },
+   "weaknesses": [
+    {
+     "id": "W1",
+     "text": "Phone pulled-back figure small/mid-ease; words tiny",
+     "status": "open"
+    },
+    {
+     "id": "W2",
+     "text": "Inline atlas shows an empty ring for mapped sector 12; glyphs near-identical",
+     "status": "open"
+    },
+    {
+     "id": "W3",
+     "text": "Count beat never bright; ghost under dots",
+     "status": "open"
+    },
+    {
+     "id": "W4",
+     "text": "Phone plunge/pullback read as jumps",
+     "status": "open"
+    },
+    {
+     "id": "W5",
+     "text": "Body text over mid-brightness art (overlay structure)",
+     "status": "open"
+    },
+    {
+     "id": "W6",
+     "text": "Phone chrome heavy (two-line caption, boxed Leave, bars under header)",
+     "status": "open"
+    },
+    {
+     "id": "W7",
+     "text": "Dead zones, figure cropped at right on desktop",
+     "status": "open"
+    },
+    {
+     "id": "W8",
+     "text": "Art dimmed whenever text is on screen, so awe only in ~5 of 16 phone screens",
+     "status": "open"
+    }
+   ]
   }
  ]
 }
@@ -263,3 +321,6 @@ Found by reading frames: a real settle bug (the loop stopped before the text-pre
 - Hero (W2): local radial scrim on desktop too, stronger on phone, bigger byline.
 - Craft (W6): phone bars 3svh; deep-zoom softness: candidate = a 3072 px crop of the centre 35% shown only at z>3.2 (deferred unless craft stays 3); outlines are part of the owner's artwork (not changed).
 - Art dimmed (W7): phone reading level 0.35 -> 0.45 with a lighter scrim; gates re-run for contrast.
+
+## Round 5 diagnosis: STRUCTURAL
+Round 5 regressed (legibility 4->3, feeling 4->3) after round 4's patches. Five rounds on the overlay structure (art and text share pixels) trade legibility against awe: dimming the art fixes text and kills the awe on phone (W8), brightening it brings back collisions (W5). Patching further has no evidence of converging. Low-score protocol at the ARCHITECTURE level, three candidates: A) SPLIT phone layout: art pinned in the top ~46% of the screen at full brightness, text in its own area below, the art grows to full screen only in text-free beats; B) subtitle model (direction B comp): full-screen art, short caption cards in the lower third; C) keep overlay, add a per-paragraph solid panel. CHOICE: build A as a switchable layout (default on phone,  keeps the old one) and compare both with the same fixed rubric and the blind A/B page. B and C stay as fallbacks.
