@@ -24,8 +24,8 @@ K = [
  ('Thirty techniques. Three levels', dict(z=1.0, g=0)), ('Two thousand seven hundred examples', dict(z=1.0, g=1, dim=.88)),
  ('And a dare', dict(z=1.0, g=0, dim=0)), ('A fractal has one more property', dict(z=1.0)), ('Measure a coastline', dict(z=1.0)),
  ('Then I looked closer.', dict(z=1.0)),
- ('The true map has more than three hundred', dict(z=0.31)), ('That is what the small', dict(z=0.31)),
- ('It is a Tuesday', dict(z=0.31)), ('Go back, now', dict(z=3.8)), ('Only now you know', dict(z=3.8)),
+ ('The true map has more than three hundred', dict(z=0.31, rest=1)), ('That is what the small', dict(z=0.31, rest=1)),
+ ('It is a Tuesday', dict(z=0.31, rest=1)), ('Go back, now', dict(z=3.8)), ('Only now you know', dict(z=3.8)),
  ('And at the bottom', dict(z=3.8, p=1)), ('I believe a world', dict(z=3.8, p=0.4)),
 ]
 def A(t, extra=''):
@@ -47,7 +47,7 @@ def render(lines, key):
         if raw.startswith('*A note before'): cls = 'note-in'
         out.append(f'<p{(" class=%s" % chr(34)+cls+chr(34)) if cls else ""}{A(t)}>{inline(raw)}</p>')
         if t.startswith('Two thousand seven hundred examples'): out.append(BEAT('data-z="1.0" data-g="1" data-dim=".88"', 'data-z="1.0" data-g="1" data-dim=".88"').replace('class="beat"', 'class="beat" style="--bh:90svh"'))
-        if t.startswith('Then I looked closer.'): out.append(BEAT('data-z="1.0" data-lit="1"', 'data-z="0.31" data-lit="1"').replace('class="beat"', 'class="beat" style="--bh:260svh"'))
+        if t.startswith('Then I looked closer.'): out.append(BEAT('data-z="1.0" data-lit="1"', 'data-z="0.31" data-rest="1" data-lit="1"').replace('class="beat"', 'class="beat" style="--bh:260svh"'))
     for ln in lines:
         s = ln.rstrip()
         if s.startswith('<!--steps-->'): flush(); ins = True; steps = []; continue
@@ -55,10 +55,10 @@ def render(lines, key):
             ins = False; lis = []
             for j, st in enumerate(steps):
                 if key == 'II' and nsteps == 0 and len(steps) == 8: lis.append(f'<li data-z="{EIGHT[j]}" data-hl="{j}">{inline(st)}</li>')
-                elif key == 'VII' and nsteps == 0: lis.append(f'<li data-z="{0.31 + j*0.03:.2f}">{inline(st)}</li>')
+                elif key == 'VII' and nsteps == 0: lis.append(f'<li data-z="{0.31 + j*0.03:.2f}" data-rest="1">{inline(st)}</li>')
                 else: lis.append(f'<li>{inline(st)}</li>')
             out.append('<ol class="st">' + ''.join(lis) + '</ol>')
-            if key == 'VII' and nsteps == 0: out.append(BEAT('data-z="0.43" data-lit="1" data-p="0"', 'data-z="3.8" data-lit="1" data-p="1"').replace('class="beat"', 'class="beat" style="--bh:300svh"'))
+            if key == 'VII' and nsteps == 0: out.append(BEAT('data-z="0.43" data-rest="1" data-lit="1" data-p="0"', 'data-z="3.8" data-lit="1" data-p="1"').replace('class="beat"', 'class="beat" style="--bh:300svh"'))
             nsteps += 1; continue
         if ins:
             if s.strip(): steps.append(s.strip())
