@@ -30,6 +30,10 @@ for blk in re.split(r'\n\n+', md):
     m = re.match(r'<!--run (\d+) ?(.*?)-->', blk)
     if m:
         d = kv(m.group(2)); blocks.append(f'<div class="run" style="--h:{m.group(1)}" aria-hidden="true">{mk(d, False)}{mk(d, True)}</div>'); continue
+    m = re.match(r'<!--roll (\w+) ?(.*?)-->\n(.*)', blk, re.S)
+    if m:  # a list that passes by with the page itself (one line per item)
+        d = kv(m.group(2)); items = ''.join(f'<p>{html.escape(x.strip(), quote=False)}</p>' for x in m.group(3).strip().split('\n') if x.strip())
+        blocks.append(f'<div class="roll {m.group(1)}">{mk(d, False)}{items}{mk(d, True)}</div>'); continue
     m = re.match(r'<!--scene (\d+) ?(.*?)-->\n(.*)', blk, re.S)
     if m:
         n += 1; d = kv(m.group(2)); text = m.group(3).strip(); big = text.endswith('{big}'); text = text.replace('{big}', '').strip()

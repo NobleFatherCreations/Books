@@ -4,13 +4,14 @@
 // Scene lines look like:  <!--scene H z=a:b ...--> followed by 1-2 sentences, blank line.
 import fs from 'fs';
 const f = process.argv[2]; const raw = fs.readFileSync(f, 'utf8');
-const scenes = []; let cur = null;
+const scenes = []; const rolls = []; let cur = null;
 for (const line of raw.split('\n')) {
   if (/^<!--scene /.test(line)) { cur = { text: [] }; scenes.push(cur); continue; }
+  if (/^<!--roll /.test(line)) { cur = { text: [], roll: true }; rolls.push(cur); continue; }   // lists that scroll past: counted for banned words, not for scene limits
   if (/^<!--/.test(line) || /^#/.test(line)) { cur = null; continue; }
   if (cur && line.trim()) cur.text.push(line.trim());
 }
-const text = scenes.map((s) => s.text.join(' ')).join('\n');
+const text = scenes.map((s) => s.text.join(' ')).join('\n') + '\n' + rolls.map((s) => s.text.join('. ')).join('\n');
 const fails = [], warns = [];
 const words = text.split(/\s+/).filter(Boolean).length;
 if (words > 1300) fails.push(`too long: ${words} words (max 1300)`);

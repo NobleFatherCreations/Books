@@ -3,6 +3,7 @@
 # you the one light; th one combination (moves, then the thread); gs/gt the five defenses (shown / how many closed, 6 = sealed);
 # web the 203; rv the thread read backward; inv old words ring by ring; bk black; sp the light grown; a atlas.
 # c 1 = words drop below the center (used when the light owns the center).
+# <!--roll NAME k=a:b--> then one line per item: a list that scrolls past with the page.
 # w o c you th gs gt web rv inv HOLD their value until changed. The rest return to 0 when not written.
 
 ## The room
@@ -34,7 +35,7 @@ But what if it is not you? {big}
 I have asked it too, in rooms like that one.
 
 <!--scene 150 z=2.4:2.2-->
-What if the thing that breaks a person is not a private wound at all, but a shape? The same shape in every house, wearing a different face.
+What if the thing that breaks a person is not only a private wound, but a shape? The same shape in every house, wearing a different face.
 
 ## The shape
 
@@ -85,11 +86,52 @@ I followed each one through three scales: a single life, a house of power, a who
 
 <!--run 110 z=1.0 g=1:1 dim=.92:.92-->
 
-<!--scene 130 z=1.0 g=1:0 dim=.92:0-->
+<!--scene 130 z=1.0 g=1 dim=.92-->
 I looked for a sector where the cycle does not run.
 
-<!--scene 120 z=1.0-->
+<!--roll sectors z=1.0 g=1 dim=.92-->
+Religion
+Politics
+Media
+Education
+Healthcare
+Finance
+Technology
+Family
+Legal System
+Corporate
+Military
+Entertainment & Music
+Wellness
+Food
+Housing
+Sports
+Science
+Nonprofits
+Beauty
+Dating
+Surveillance
+Child Welfare
+Aging & Death
+Energy & Environment
+Transportation
+Mental Health
+Pharmaceuticals
+Insurance
+Incarceration
+Immigration
+
+<!--scene 120 z=1.0 g=1:0 dim=.92:.6-->
 I am still looking. {big}
+
+<!--roll in z=1.0 dim=.6:.3-->
+In myself.
+In my body.
+In my genetics.
+In my ancestry.
+In my generational chains.
+
+<!--run 40 z=1.0 dim=.3:0-->
 
 ## The closer you look
 
@@ -125,57 +167,57 @@ Three hundred and thirty-five tactics in a single sector. Thirty sectors. More t
 A tactic alone is only a move. What gives it force is the combination.
 
 <!--scene 150 z=0.316:0.32 th=.5:1-->
-A life is rarely ruined by a single move. It comes woven, in a particular order, each tactic preparing the ground for the next.
+A life is rarely undone by a single move. The moves come woven, in a particular order, each preparing the ground for the next.
 
-<!--run 50 z=0.32-->
+<!--run 40 z=0.32-->
 
-<!--scene 130 z=0.32 you=0:1 gs=0:1-->
+<!--scene 130 z=0.32:0.37 you=0:1 gs=0:1-->
 Now put one person at the center of it. {big}
 
-<!--scene 140 z=0.32-->
+<!--scene 140 z=0.37-->
 Every step removes the defense you would have used against the one that follows.
 
-<!--scene 110 z=0.32 gt=0:1-->
+<!--scene 110 z=0.37 gt=0:1-->
 Warmth makes doubt feel like ingratitude.
 
-<!--scene 110 z=0.32 gt=1:2-->
+<!--scene 110 z=0.37 gt=1:2-->
 A deadline makes a question feel like rudeness.
 
-<!--scene 130 z=0.32 gt=2:3-->
+<!--scene 130 z=0.37 gt=2:3-->
 Isolation silences the one voice that would say, this is not normal.
 
-<!--scene 150 z=0.32 gt=3:5-->
+<!--scene 150 z=0.37 gt=3:5-->
 This is how a person can be unmade: first trust in the world, then trust in their own mind, then the work, the savings, the name.
 
-<!--scene 130 z=0.32 gt=5:6-->
+<!--scene 130 z=0.37 gt=5:6-->
 Whole years dissolve into a fog that people mistake for weakness.
 
-<!--run 60 z=0.32-->
+<!--run 50 z=0.37:0.3125-->
 
-<!--scene 150 z=0.32 web=0:1-->
+<!--scene 150 z=0.3125 web=0:1-->
 Fractal squared names these combinations. Two hundred and three so far, one hundred and fifty-three in the first sector alone.
 
-<!--scene 150 z=0.32-->
+<!--scene 150 z=0.3125-->
 They have names now, and each name is a warning: the Debt Prison, the Golden Cage, the Trauma Bond Engine. They name patterns, never people.
 
-<!--scene 140 z=0.32 rv=0:.45-->
+<!--scene 140 z=0.3125 rv=0:.45-->
 But every combination runs in an order, and an order can be read backward. {big}
 
-<!--scene 150 z=0.32 rv=.45:1 web=1:.25-->
-The order that builds the trap is also its blueprint. Name each step, reverse the sequence, and see what it was built to hide.
+<!--scene 150 z=0.3125 rv=.45:1 web=1:.25-->
+The order that builds the trap is also its blueprint. Name each step, reverse the sequence, and you may see what each one was covering.
 
-<!--scene 150 z=0.32 gt=6:4 web=.25:0-->
-Seeing the sequence does not free you. It gives you a place to start.
+<!--scene 150 z=0.3125:0.37 gt=6:4 web=.25:0-->
+Seeing the sequence does not free you. It can give you a place to start.
 
-<!--run 50 z=0.32 th=1:0-->
+<!--run 40 z=0.37 th=1:0-->
 
-<!--scene 120 z=0.32 rv=1:0-->
+<!--scene 120 z=0.37 rv=1:0-->
 If you are inside one of these now, go gently.
 
-<!--scene 140 z=0.32-->
+<!--scene 140 z=0.37-->
 Tell someone outside it. If you are in danger, call emergency services first.
 
-<!--run 70 z=0.32:0.3125 gs=1:0-->
+<!--run 60 z=0.37:0.3125 gs=1:0-->
 
 ## The old words
 
@@ -253,7 +295,9 @@ Through the chain, and the generations behind it.
 <!--scene 110 z=7:12 bk=0:1-->
 Through the words themselves.
 
-<!--run 150 z=12 bk=1 sp=0:.16 c=0:1-->
+<!--run 70 z=12 bk=1-->
+
+<!--run 130 z=12 bk=1 sp=0:.16 c=0:1-->
 
 <!--scene 130 z=12 bk=1 sp=.16:.4-->
 I believe that beneath every layer of capture, something was never captured at all.
@@ -269,7 +313,7 @@ Your original frequency. {big}
 The part of you no pattern could reach: pulsing, patient, yours.
 
 <!--scene 150 z=12 bk=1 sp=.8-->
-It is the part of you that knew something was wrong in that room, when everyone else seemed fine.
+I believe it is the part of you that knew something was wrong in that room, when everyone else seemed fine.
 
 <!--scene 160 z=12 bk=1 sp=.8:1-->
 That tightening was never your weakness. It was the part of you that noticed, still doing its work.
@@ -278,5 +322,4 @@ That tightening was never your weakness. It was the part of you that noticed, st
 
 <!--run 380 z=12:0.097 bk=1:0 sp=1:0 a=0:1 you=1:0 c=1:0-->
 
-<!--scene 140 z=0.097 a=1-->
-The map begins here. {big}
+<!--run 120 z=0.097 a=1-->

@@ -396,6 +396,55 @@
      "status": "fixed-unscored (Begin removed on unlock; map capped at 93% of the short side beside words)"
     }
    ]
+  },
+  {
+   "round": 8,
+   "date": "2026-11-12",
+   "build": "v9 after round-1 fixes (commit of 04:10 UTC)",
+   "sha": "scored-build-superseded-by-v10",
+   "scores": {
+    "hierarchy": 4,
+    "type": 4,
+    "space": 3,
+    "craft": 3,
+    "distinctiveness": 4,
+    "feeling": 4,
+    "phone": 3,
+    "legibility": 4,
+    "continuity": 4
+   },
+   "weaknesses": [
+    {
+     "id": "V9-W6",
+     "text": "Static phone plateau 38-75%",
+     "status": "fixed-unscored (camera pushes in on the person, back for the 203, in again for the returning opening; pulls back through the last sections)"
+    },
+    {
+     "id": "V9-W7",
+     "text": "Spark underpowered",
+     "status": "fixed-unscored (gold rim from the opening at small scale, ring carrying the eight colours, longer black)"
+    },
+    {
+     "id": "V9-W8",
+     "text": "Ending: caption on lit tile, CTA not a button, header see-through",
+     "status": "fixed-unscored (last line and a real button live in the door; header backing)"
+    },
+    {
+     "id": "V9-W9",
+     "text": "Ring lettering competes in the first 12%",
+     "status": "fixed-unscored (wider, darker pool; art to 28% under words)"
+    },
+    {
+     "id": "V9-W10",
+     "text": "Square uniform stars; header clips map on desktop",
+     "status": "fixed-unscored (round bright tier; map clears the header)"
+    },
+    {
+     "id": "V10-OWNER",
+     "text": "Owner iPhone test: captions do not move with scroll; crash after the large map; wants sectors and inward list",
+     "status": "fixed-unverified-on-device"
+    }
+   ]
   }
  ]
 }
