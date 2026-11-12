@@ -53,10 +53,11 @@ html.open #play{display:inline-flex}
 #hl circle{fill:none}
 #veil{position:fixed;inset:0;z-index:2;pointer-events:none;opacity:1;background:radial-gradient(circle at 50% 50%,rgba(5,7,13,0) calc(var(--hr,150)*.80px),rgba(5,7,13,1) calc(var(--hr,150)*.95px))}
 #fig{position:fixed;inset:0;width:100%;height:100%;z-index:2;pointer-events:none}
-#pool{position:fixed;inset:0;z-index:3;pointer-events:none;opacity:0;background:radial-gradient(ellipse 78% 36% at 50% 50%,rgba(5,7,13,.9) 0,rgba(5,7,13,.72) 42%,rgba(5,7,13,0) 100%)}
-#spark{position:fixed;left:0;top:0;width:min(96vmin,680px);height:min(96vmin,680px);margin:calc(min(96vmin,680px)/-2) 0 0 calc(min(96vmin,680px)/-2);z-index:3;pointer-events:none;opacity:0;border-radius:50%;background:radial-gradient(circle,rgba(255,255,248,1) 0,rgba(255,248,220,1) 2.2%,rgba(255,232,165,.82) 6%,rgba(246,206,128,.4) 15%,rgba(240,196,116,.16) 30%,rgba(240,196,116,0) 56%);will-change:transform,opacity}
+#pool{position:fixed;inset:0;z-index:3;pointer-events:none;opacity:0;background:radial-gradient(ellipse 78% 36% at 50% 50%,rgba(5,7,13,.94) 0,rgba(5,7,13,.8) 46%,rgba(5,7,13,0) 100%)}
+#spark{position:fixed;left:0;top:0;width:min(96vmin,680px);height:min(96vmin,680px);margin:calc(min(96vmin,680px)/-2) 0 0 calc(min(96vmin,680px)/-2);z-index:3;pointer-events:none;opacity:0;border-radius:50%;background:radial-gradient(circle,#fffdf2 0,#fff6d8 3.4%,rgba(255,226,150,.9) 4.6%,rgba(246,204,124,.34) 9%,rgba(240,196,116,.1) 20%,rgba(240,196,116,0) 36%);will-change:transform,opacity}
+#spark::after{content:"";position:absolute;left:50%;top:50%;width:26%;height:26%;transform:translate(-50%,-50%);border-radius:50%;border:1.5px solid rgba(244,208,130,.85);box-shadow:0 0 18px rgba(244,200,120,.35),inset 0 0 18px rgba(244,200,120,.2)}
 #spark i,#you i{position:absolute;inset:0;border-radius:50%;animation:breathe 4.5s ease-in-out infinite}
-#spark i{background:radial-gradient(circle,rgba(255,250,230,.55) 0,rgba(255,236,180,.2) 10%,rgba(255,236,180,0) 34%)}
+#spark i{background:radial-gradient(circle,rgba(255,250,230,.5) 0,rgba(255,236,180,.16) 9%,rgba(255,236,180,0) 22%)}
 #you{position:fixed;left:0;top:0;width:88px;height:88px;margin:-44px 0 0 -44px;z-index:3;pointer-events:none;opacity:0;border-radius:50%;background:radial-gradient(circle,rgba(255,253,240,1) 0,rgba(255,244,205,1) 4.5%,rgba(255,224,150,.62) 9%,rgba(244,200,120,.2) 24%,rgba(244,200,120,0) 50%);will-change:transform,opacity}
 #you i{background:radial-gradient(circle,rgba(255,240,200,.5) 0,rgba(255,232,170,.14) 22%,rgba(255,232,170,0) 46%)}
 #hint{position:fixed;left:0;right:0;bottom:max(22px,env(safe-area-inset-bottom));z-index:5;text-align:center;pointer-events:none;opacity:0;transition:opacity .6s ease;font:italic 500 1.125rem/1 "Cormorant",serif;color:var(--ink);letter-spacing:.02em;text-shadow:0 0 12px #000,0 0 4px #000}
@@ -73,11 +74,11 @@ main{position:relative;z-index:4}
 .say{position:sticky;top:0;height:100svh;display:flex;align-items:center;justify-content:center;padding:calc(var(--bar) + 8px) 24px 8svh;text-align:center}
 .say p{margin:0;max-width:21ch;transform:translate3d(0,calc(var(--o,0)*var(--oy,23svh) + var(--c,0)*25svh),0);font:500 clamp(1.9rem,7.4vw,3.1rem)/1.22 "Cormorant",serif;letter-spacing:.005em;text-shadow:0 0 34px #000,0 0 14px rgba(0,0,0,.95),0 2px 3px rgba(0,0,0,.9);text-wrap:balance}
 .say p.big{max-width:16ch;font-style:italic;font-weight:500;font-size:clamp(2.5rem,10.4vw,4.4rem);line-height:1.1}
-@media (min-width:900px){.say p{max-width:24ch;max-width:calc(24ch - var(--o,0)*6ch);font-size:clamp(2.2rem,3.4vw,3.4rem);transform:translate3d(calc(var(--o,0)*-27vw),calc(var(--c,0)*27svh),0)}.say p.big{max-width:20ch;font-size:clamp(3rem,5vw,5rem)}}
+@media (min-width:900px){.say p{max-width:24ch;max-width:calc(24ch - var(--o,0)*4ch);font-size:clamp(2.2rem,3.4vw,3.4rem);transform:translate3d(calc(var(--o,0)*-27vw),calc(var(--c,0)*27svh),0)}.say p.big{max-width:20ch;font-size:clamp(3rem,5vw,5rem)}}
 .say .w{display:inline-block;opacity:0;will-change:opacity,transform}
 html:not(.js) .say .w{opacity:1}
 .say em{font-style:italic}
-.door{position:relative;z-index:4;margin-top:150svh;padding:12svh 24px 14svh;text-align:center;background:linear-gradient(rgba(5,7,13,0),rgba(5,7,13,.97) 140px)}
+.door{position:relative;z-index:4;margin-top:150svh;padding:12svh 24px 14svh;text-align:center;background:linear-gradient(rgba(5,7,13,0),#05070d 150px)}
 .door .enter{display:inline-block;border-top:2px solid var(--ink);border-bottom:1px solid var(--line);padding:22px 38px;color:var(--ink);text-decoration:none;font:500 clamp(1.9rem,6vw,2.6rem)/1.1 "Cormorant",serif}
 .door .sub{margin:14px auto 0;max-width:30rem;color:var(--ink2);font-size:1rem}
 .door .atlas{list-style:none;margin:36px auto 0;padding:0;max-width:34rem;columns:2;column-gap:24px;text-align:left;font-size:.9375rem;color:var(--ink2)}
@@ -85,6 +86,7 @@ html:not(.js) .say .w{opacity:1}
 .door .foot{margin:36px auto 0;max-width:34rem;color:var(--ink2);font-size:.9375rem;font-style:italic}
 .door .upd{margin:40px auto 0;max-width:34rem;padding-top:20px;border-top:1px solid var(--line);color:var(--ink2);font-size:.875rem;text-align:left}
 .door .upd b{display:inline-block;margin-right:10px;padding:2px 8px;border:1px solid var(--line);font-weight:600;color:var(--ink)}
+.door .upd summary{cursor:pointer;min-height:44px;display:flex;align-items:center}
 .door .upd ul{margin:10px 0 0;padding-left:18px}.door .upd li{padding:2px 0}
 @media (prefers-reduced-motion:reduce){#spark i,#you i,#hint::after{animation:none}.btn,#hint{transition:none}}
 @media (prefers-contrast:more){.say p{text-shadow:none;background:rgba(5,7,13,.9)}}
@@ -127,9 +129,9 @@ html:not(.js) .say .w{opacity:1}
 %%ATLAS%%
     </ul>
     <p class="foot">This work names patterns, never people. It is for recognition and for finding safe help. It is never a playbook, a diagnosis or a verdict. If you or anyone you know is in danger, reach real help first: emergency services, a crisis line, or child protection if a child is involved.</p>
-    <div class="upd" id="updates"><b>v9 · 2026-11-11</b>What changed
-      <ul><li>v9: A Play button scrolls the story for you at reading pace. The story now follows one point of light, you, from the middle of the map to the end. New moving figures show how a combination closes around a person and how its order can be read backward. Words sit beside the map instead of on top of it. Smoother camera. A brighter final light and a new closing passage.</li><li>v8: Locked opening, large word-by-word captions, the fall to black and the spark.</li></ul>
-    </div>
+    <details class="upd" id="updates"><summary><b>v9 · 2026-11-11</b>What changed</summary>
+      <ul><li>v9: A Play button scrolls the story for you at reading pace. The story now follows one point of light, you, from the middle of the map to the end. New moving figures show how a combination closes around a person and how its order can be read backward. Words sit beside the map instead of on top of it. Smoother camera. A clearer final light and a new closing passage.</li><li>v8: Locked opening, large word-by-word captions, the fall to black and the spark.</li></ul>
+    </details>
   </section>
 </main>
 <script>
@@ -161,8 +163,8 @@ html:not(.js) .say .w{opacity:1}
   W=innerWidth;Hh=innerHeight;wide=W>=900;DPR=Math.min(2,devicePixelRatio||1);
   D0=Math.min(W,Hh)/0.874;CX=W/2;CY=Hh/2;
   /* split layout: where the map sits when the words stand beside it (wide) or below it (narrow) */
-  if(wide){var dia=Math.min(Hh-96,W*.58);ZS=Math.min(1,dia/Math.min(W,Hh));SX=W*.69;SY=CY}
-  else{var box=Hh*.58-64;ZS=Math.min(1,box/W);SX=CX;SY=60+box/2;var db=SY+W*ZS/2;h.style.setProperty('--oy',Math.round((db+Hh-20)/2-(Hh+64-Hh*.08)/2)+'px')}
+  if(wide){var dia=Math.min(Hh-96,W*.58);ZS=Math.min(.94,dia/Math.min(W,Hh));SX=W*.69;SY=CY}
+  else{var box=Hh*.58-64;ZS=Math.min(.93,box/W);SX=CX;SY=60+box/2;var db=SY+W*ZS/2;h.style.setProperty('--oy',Math.round((db+Hh-20)/2-(Hh+64-Hh*.08)/2)+'px')}
   cam.style.width=D0+'px';cam.style.height=D0+'px';cam.style.left=(CX-D0/2)+'px';cam.style.top=(CY-D0/2)+'px';
   cv.width=W*DPR;cv.height=Hh*DPR;fg.width=W*DPR;fg.height=Hh*DPR;
   veil.style.setProperty('--hr',(0.086*D0*4.1).toFixed(0));
@@ -192,12 +194,12 @@ html:not(.js) .say .w{opacity:1}
   for(i=0;i<30;i++){if(i===11)continue;c=i%cols;rr=(i/cols)|0;x=AX+(c-(cols-1)/2)*cell;y=AY+(rr-(rows-1)/2)*cell*1.3;
    for(var j=0;j<8;j++){c2.beginPath();c2.arc(x,y,cell*0.46*RN[j],0,6.2832);c2.lineWidth=j===7?1.2:Math.max(1,cell*0.035);c2.strokeStyle=j===7?'rgba(244,213,138,.8)':col[j];c2.globalAlpha=a*(j===7?.8:.55);c2.stroke()}
    c2.globalAlpha=a;c2.fillStyle='#F3ECD9';c2.font='600 '+Math.max(12,cell*0.13)+'px Cormorant,serif';c2.fillText(('0'+(i+1)).slice(-2),x,y+cell*0.72)}
-  c2.globalAlpha=a;c2.fillStyle='#F3ECD9';c2.font='700 '+Math.max(12,cell*0.13)+'px Cormorant,serif';c2.fillText('12',LX,LY+cell*0.72);
+  c2.globalAlpha=a;c2.fillStyle='#F3ECD9';c2.font='700 '+Math.max(12,cell*0.13)+'px Cormorant,serif';c2.fillText(wide?'12 · open':'12',LX,LY+cell*0.72);
   c2.beginPath();c2.arc(LX,LY,cell*0.5,0,6.2832);c2.strokeStyle='rgba(255,250,235,.95)';c2.lineWidth=2;c2.stroke();c2.globalAlpha=1;
  }
  var BC=[[201,138,43],[184,116,31],[169,82,28],[160,52,56],[130,60,100],[70,100,170],[90,130,200],[140,170,225]],WH=[220,226,245];
  function draw(g,sy,at){
-  var key=sy.toFixed(0)+'|'+g.toFixed(3)+'|'+at.toFixed(3)+'|'+BKV.toFixed(2);if(key===lastDraw)return;lastDraw=key;
+  var key=sy.toFixed(0)+'|'+g.toFixed(3)+'|'+at.toFixed(3)+'|'+W+'|'+BKV.toFixed(2);if(key===lastDraw)return;lastDraw=key;
   cx2.setTransform(DPR,0,0,DPR,0,0);cx2.clearRect(0,0,W,Hh);
   var span=Hh*1.4,k=g>0.001,mix=clamp(g*1.5,0,1),sk=1-BKV;
   for(var band=0;band<8;band++){for(var bk=0;bk<3;bk++){
@@ -233,11 +235,11 @@ html:not(.js) .say .w{opacity:1}
   if(web>0.004){var nW=web*203;c.lineWidth=1;c.strokeStyle='rgba('+INK+','+(.24*fade).toFixed(3)+')';
    for(i=0;i<nW;i++){var t=WEB[i];path(c,t,(t.length-1)*clamp(nW-i,0,1),6);c.stroke()}}
   /* the defenses: five openings around one person, closing in order */
-  if(gs>0.004){var Rg=Math.max(46,.2*FU),ga=gs*fade,shut=clamp(gt-5,0,1);c.lineWidth=lw+.9+shut*.8;
+  if(gs>0.004){var Rg=Math.max(Math.min(W,Hh)*.2,.2*FU),ga=gs*fade,shut=clamp(gt-5,0,1);c.lineWidth=lw+.9+shut*.8;
    for(k=0;k<5;k++){var op=1-clamp(gt-k,0,1),g0=-TAU/4+k*TAU/5,g1=g0+TAU/5,hg=.3*op,hn=.3*(1-clamp(gt-((k+1)%5),0,1));
     c.beginPath();c.arc(ACX,ACY,Rg,g0+hg,g1-hn);c.strokeStyle='rgba('+INK+','+(.92*ga).toFixed(3)+')';c.stroke();
-    if(op>0.01){var gr=c.createLinearGradient(ACX+Math.cos(g0)*Rg,ACY+Math.sin(g0)*Rg,ACX+Math.cos(g0)*Rg*2.3,ACY+Math.sin(g0)*Rg*2.3);gr.addColorStop(0,'rgba('+GOLD+','+(.75*op*ga).toFixed(3)+')');gr.addColorStop(1,'rgba('+GOLD+',0)');
-     c.beginPath();c.moveTo(ACX+Math.cos(g0)*Rg*.86,ACY+Math.sin(g0)*Rg*.86);c.lineTo(ACX+Math.cos(g0)*Rg*2.3,ACY+Math.sin(g0)*Rg*2.3);c.lineWidth=lw+.4;c.strokeStyle=gr;c.stroke();c.lineWidth=lw+.9+shut*.8}}
+    if(op>0.01){var gr=c.createLinearGradient(ACX+Math.cos(g0)*Rg,ACY+Math.sin(g0)*Rg,ACX+Math.cos(g0)*Rg*1.9,ACY+Math.sin(g0)*Rg*1.9);gr.addColorStop(0,'rgba('+GOLD+','+(.75*op*ga).toFixed(3)+')');gr.addColorStop(1,'rgba('+GOLD+',0)');
+     c.beginPath();c.moveTo(ACX+Math.cos(g0)*Rg*.86,ACY+Math.sin(g0)*Rg*.86);c.lineTo(ACX+Math.cos(g0)*Rg*1.9,ACY+Math.sin(g0)*Rg*1.9);c.lineWidth=lw+.6;c.strokeStyle=gr;c.stroke();c.lineWidth=lw+.9+shut*.8}}
    if(shut>0.01){c.beginPath();c.arc(ACX,ACY,Rg*1.16,0,TAU);c.lineWidth=lw;c.strokeStyle='rgba('+INK+','+(.5*shut*ga).toFixed(3)+')';c.stroke()}}
   /* one combination: moves first, then the order that joins them; later read backward, link by link, home */
   if(thA>0.004){var n=HERO.length-1,L=clamp((th-.42)/.58,0,1)*n,keep=(1-clamp(rv/.86,0,1))*n,to=Math.min(L,keep),dimF=1-.62*gs*(1-clamp(rv*12,0,1)),A=thA*dimF*fade,head=null;
@@ -246,7 +248,7 @@ html:not(.js) .say .w{opacity:1}
    if(rv>0.004&&rv<.93){var hp=rv<.86?head||[ACX+Math.cos(HERO[0][1])*HERO[0][0]*FU,ACY+Math.sin(HERO[0][1])*HERO[0][0]*FU]:null;
     if(!hp){var u=(rv-.86)/.07,f=HERO[0][0]*(1-sm(u));hp=[ACX+Math.cos(HERO[0][1])*f*FU,ACY+Math.sin(HERO[0][1])*f*FU]}
     dot(c,hp[0],hp[1],wide?5:4.2,fade,GOLD)}}
-  return Math.max(gs*.5,web*.45,thA*.3,clamp(inv,0,1)*.22);
+  return Math.max(gs*.6,web*.45,thA*.3,clamp(inv,0,1)*.22);
  }
  function words(){
   var y=scrollY,env=0;
@@ -266,10 +268,10 @@ html:not(.js) .say .w{opacity:1}
    cur.z=Math.exp(lerp(Math.log(cur.z),Math.log(tg.z),k));K.forEach(function(q){cur[q]=lerp(cur[q],tg[q],k)});cur.hl=tg.hl}
   lastT=now;
   var env=words();cur.env=rm?env:lerp(cur.env,env,1-Math.exp(-.03/0.12));
-  var o=sm(cur.o),ov=cur.env*(1-o)*(1-cur.c);ACX=lerp(CX,SX,o);ACY=lerp(CY,SY,o);
+  var o=sm(cur.o),ov=cur.env*(1-o)*(1-cur.c)*(1-clamp(cur.a*1.5,0,1));ACX=lerp(CX,SX,o);ACY=lerp(CY,SY,o);
   if(Math.abs(cur.o-lastO)>0.002){lastO=cur.o;h.style.setProperty('--o',o.toFixed(3))}
   if(Math.abs(cur.c-lastC)>0.002){lastC=cur.c;h.style.setProperty('--c',sm(cur.c).toFixed(3))}
-  var fd=figures(),z=cur.z*lerp(1,ZS,o),op=(1-0.3*ov)*(1-cur.dim)*(1-cur.bk)*(1-fd);
+  var fd=figures(),z=cur.z*lerp(1,ZS,o),op=(1-0.66*ov)*(1-cur.dim)*(1-cur.bk)*(1-fd);
   var dx=cur.a*(LX-CX)+(ACX-CX)*(1-cur.a),dy=cur.a*(LY-CY)+(ACY-CY)*(1-cur.a);
   cam.style.transform='translate('+dx.toFixed(1)+'px,'+dy.toFixed(1)+'px) scale('+z.toFixed(4)+')';cam.style.opacity=op.toFixed(3);cam.style.visibility=op<0.02?'hidden':'visible';
   var dp=clamp((z-3.1)/0.5,0,1);deep.style.opacity=dp.toFixed(3);deep.style.visibility=dp>0?'visible':'hidden';
@@ -283,7 +285,7 @@ html:not(.js) .say .w{opacity:1}
   you.style.opacity=ya.toFixed(3);you.style.visibility=ya>0.01?'visible':'hidden';you.style.transform=px+'scale('+(wide?1.15:1)+')';
   spark.style.opacity=clamp(cur.sp*1.6,0,1).toFixed(3);spark.style.visibility=cur.sp>0.005?'visible':'hidden';spark.style.transform=px+'scale('+(0.12+0.88*sm(cur.sp)).toFixed(3)+')';
   var zA=AC*0.9/(2.797*D0),near=clamp(1-Math.abs(Math.log(cur.z/zA))/0.7,0,1);near*=near;
-  BKV=cur.bk;draw(cur.g,scrollY,cur.a*near);
+  BKV=cur.bk;draw(cur.g,scrollY,cur.a*near*(1-.82*cur.env));
   var dg=Math.abs(Math.log(cur.z/tg.z))+Math.abs(cur.env-env);K.forEach(function(q){dg+=Math.abs(cur[q]-tg[q])});
   if(dg<0.004){cur.z=tg.z;K.forEach(function(q){cur[q]=tg[q]});cur.env=env}
   if(!rm&&dg>=0.004)raf=requestAnimationFrame(frame);
@@ -292,7 +294,7 @@ html:not(.js) .say .w{opacity:1}
  window.__cam=function(){return cur?{z:+cur.z.toFixed(4),o:+cur.o.toFixed(2)}:null};window.__dbg=function(){var o={};for(var k in cur)o[k]=+(+cur[k]).toFixed(3);return o};
  /* locked opening: nothing scrolls until Begin */
  var hinted=0;
- function unlock(to){if(!h.classList.contains('locked'))return;h.classList.remove('locked');if(!rm)h.classList.add('open');layout();go();if(to==='text'){scrollTo({top:SC[0]?SC[0].top:innerHeight,behavior:rm?'auto':'smooth'});hinted=setTimeout(function(){hint.classList.add('on')},1600)}}
+ function unlock(to){if(!h.classList.contains('locked'))return;h.classList.remove('locked');if(!rm)h.classList.add('open');$('begin').style.visibility='hidden';layout();go();if(to==='text'){scrollTo({top:SC[0]?SC[0].top:innerHeight,behavior:rm?'auto':'smooth'});hinted=setTimeout(function(){hint.classList.add('on')},1600)}}
  $('begin').addEventListener('click',function(){unlock('text')});
  $('skipText').addEventListener('click',function(e){e.preventDefault();unlock('text');if(!h.classList.contains('locked'))scrollTo({top:SC[0].top,behavior:'auto'})});
  $('skipEnd').addEventListener('click',function(e){e.preventDefault();unlock();$('door').scrollIntoView()});

@@ -42,7 +42,7 @@ What if the thing that breaks a person is not a private wound at all, but a shap
 A fractal is a pattern that keeps its shape at every scale. Look into a fern, and you find a smaller fern.
 
 <!--scene 120 z=2.1:2.0-->
-The thing that wounds people is a fractal. It arrives in eight stages, in an order that repeats.
+The pattern I kept finding behaves like a fractal. It arrives in eight stages, in an order that repeats.
 
 <!--scene 100 z=2.00:1.90 hl=0-->
 **Idealize.** You are seen, chosen, flooded with warmth.
@@ -112,7 +112,7 @@ And the map did not end. It opened. {big}
 <!--run 70 z=0.3125 o=0:1-->
 
 <!--scene 130 z=0.3125-->
-I call this second map Fractal squared: the first map, turned back on itself.
+I call this second map Fractal squared: every technique on the first map, opened to show the tactics inside it.
 
 <!--scene 150 z=0.3125-->
 Three hundred and thirty-five tactics in a single sector. Thirty sectors. More than thirty thousand observations, counted one by one.
@@ -125,7 +125,7 @@ Three hundred and thirty-five tactics in a single sector. Thirty sectors. More t
 A tactic alone is only a move. What gives it force is the combination.
 
 <!--scene 150 z=0.316:0.32 th=.5:1-->
-Little that ruins a life comes one move at a time. It comes woven, in a particular order, each tactic preparing the ground for the next.
+A life is rarely ruined by a single move. It comes woven, in a particular order, each tactic preparing the ground for the next.
 
 <!--run 50 z=0.32-->
 
@@ -145,7 +145,7 @@ A deadline makes a question feel like rudeness.
 Isolation silences the one voice that would say, this is not normal.
 
 <!--scene 150 z=0.32 gt=3:5-->
-This is how a person is unmade: first trust in the world, then trust in their own mind, then the work, the savings, the name.
+This is how a person can be unmade: first trust in the world, then trust in their own mind, then the work, the savings, the name.
 
 <!--scene 130 z=0.32 gt=5:6-->
 Whole years dissolve into a fog that people mistake for weakness.
@@ -158,11 +158,8 @@ Fractal squared names these combinations. Two hundred and three so far, one hund
 <!--scene 150 z=0.32-->
 They have names now, and each name is a warning: the Debt Prison, the Golden Cage, the Trauma Bond Engine. They name patterns, never people.
 
-<!--scene 130 z=0.32-->
-They are the darkest part of the map, and the most important.
-
 <!--scene 140 z=0.32 rv=0:.45-->
-Because every combination runs in an order, and an order can be read backward. {big}
+But every combination runs in an order, and an order can be read backward. {big}
 
 <!--scene 150 z=0.32 rv=.45:1 web=1:.25-->
 The order that builds the trap is also its blueprint. Name each step, reverse the sequence, and see what it was built to hide.
@@ -204,41 +201,41 @@ The old traditions had words for it: the snare, the veil, the long captivity.
 To my eye, it is a counterfeit, and a counterfeit can only borrow what came first.
 
 <!--scene 140 z=0.3125 inv=8:0-->
-Many of the traditions I know point toward a return, not an ascent.
+Many of the traditions I know speak of coming back to yourself, not of climbing somewhere new.
 
 ## Why I carry it
 
-<!--scene 150 z=0.3125:0.318-->
+<!--scene 150 z=0.3125:0.29-->
 For a lifetime I have practiced noticing: the way a voice changes before it asks for something, the way the same shape returns in a different house.
 
-<!--scene 140 z=0.318:0.32-->
+<!--scene 140 z=0.29:0.27-->
 That noticing saved my life. {big}
 
-<!--scene 150 z=0.32-->
+<!--scene 150 z=0.27:0.245-->
 It began as survival. It became a healing, and then something older than healing: a return to what was mine.
 
-<!--scene 150 z=0.32-->
-I offer it freely, so that no one has to stand in that room alone, wondering if it is them.
+<!--scene 150 z=0.245:0.22-->
+I offer it freely, so that fewer people stand in that room alone, wondering if it is them.
 
 ## The work
 
-<!--scene 150 z=0.32:0.316-->
+<!--scene 150 z=0.22:0.2-->
 So this is the work: to name every tactic in plain words, and to lay every combination out in the order it runs.
 
-<!--scene 140 z=0.316:0.3125-->
+<!--scene 140 z=0.2:0.18-->
 For each, what it feels like, how to recognize it, and where a first step might begin.
 
-<!--scene 140 z=0.3125-->
+<!--scene 140 z=0.18:0.165-->
 Thirty sectors, one by one. It will take a lifetime, and the first is already open.
 
-<!--run 60 z=0.3125 o=1:0-->
+<!--run 60 z=0.165 o=1:0-->
 
 ## Down
 
-<!--scene 110 z=0.3125:0.5-->
+<!--scene 110 z=0.165:0.4-->
 So go down. {big}
 
-<!--scene 100 z=0.5:0.9-->
+<!--scene 100 z=0.4:0.9-->
 Through the sectors.
 
 <!--scene 100 z=0.9:1.6-->
@@ -275,7 +272,7 @@ The part of you no pattern could reach: pulsing, patient, yours.
 It is the part of you that knew something was wrong in that room, when everyone else seemed fine.
 
 <!--scene 160 z=12 bk=1 sp=.8:1-->
-That tightening was never your weakness. It was the one part of you that could not be fooled, still doing its work.
+That tightening was never your weakness. It was the part of you that noticed, still doing its work.
 
 <!--run 110 z=12 bk=1 sp=1-->
 
