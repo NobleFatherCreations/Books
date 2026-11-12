@@ -36,8 +36,8 @@ for blk in re.split(r'\n\n+', md):
         blocks.append(f'<div class="roll {m.group(1)}">{mk(d, False)}{items}{mk(d, True)}</div>'); continue
     m = re.match(r'<!--scene (\d+) ?(.*?)-->\n(.*)', blk, re.S)
     if m:
-        n += 1; d = kv(m.group(2)); text = m.group(3).strip(); big = text.endswith('{big}'); text = text.replace('{big}', '').strip()
-        blocks.append(f'<section class="scene" style="--h:{m.group(1)}"{" id=%s" % chr(34)+"s1"+chr(34) if n == 1 else ""}>{mk(d, False)}<div class="say"><p{" class=%s" % chr(34)+"big"+chr(34) if big else ""}>{wrap(text)}</p></div>{mk(d, True)}</section>')
+        n += 1; d = kv(m.group(2)); text = m.group(3).strip(); hold = '{hold}' in text; text = text.replace('{hold}', '').strip(); big = text.endswith('{big}'); text = text.replace('{big}', '').strip()
+        blocks.append(f'<section class="scene"{" data-hold" if hold else ""} style="--h:{m.group(1)}"{" id=%s" % chr(34)+"s1"+chr(34) if n == 1 else ""}>{mk(d, False)}<div class="say"><p{" class=%s" % chr(34)+"big"+chr(34) if big else ""}>{wrap(text)}</p></div>{mk(d, True)}</section>')
 FR = [.207, .296, .38, .462, .547, .624, .713, .829]
 hlr = ''.join(f'<g style="opacity:0;transition:opacity .25s"><circle cx="500" cy="500" r="{f*500:.1f}" stroke="#F4F0E6" stroke-opacity=".18" stroke-width="30"/><circle cx="500" cy="500" r="{f*500:.1f}" stroke="#F4F0E6" stroke-opacity=".9" stroke-width="2"/></g>' for f in FR)
 sectors = json.load(open(os.path.join(ROOT, 'content/fractal2/sectors.json')))['sectors']
@@ -46,6 +46,6 @@ for s in sectors:
     if s.get('built'): atlas.append(f'<li class="here"><span class="n">{s["n"]:02d}</span><span>Entertainment &amp; Music (mapped)</span></li>')
     else: atlas.append(f'<li><span class="n">{s["n"]:02d}</span><span>{html.escape(s["name"])}</span></li>')
 tpl = open(os.path.join(HERE, 'template.html'), encoding='utf-8').read()
-out = tpl.replace('%%SCENES%%', '\n  '.join(blocks)).replace('%%HL%%', hlr).replace('%%ATLAS%%', '\n'.join(atlas)).replace('%%BASE%%', BASE)
+out = tpl.replace('%%SCENES%%', '\n  '.join(blocks)).replace('%%HL%%', hlr).replace('%%ATLAS%%', '\n'.join(atlas)).replace('%%SECTORS%%', json.dumps([('Entertainment & Music' if s['name'] == 'Entertainment' else s['name']) for s in sectors], ensure_ascii=False)).replace('%%BASE%%', BASE)
 open(os.path.join(HERE, 'index.html'), 'w', encoding='utf-8').write(out)
 print('wrote index.html', len(out) // 1024, 'KB;', n, 'scenes')

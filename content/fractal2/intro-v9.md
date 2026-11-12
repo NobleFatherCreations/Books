@@ -3,7 +3,7 @@
 # you the one light; th one combination (moves, then the thread); gs/gt the five defenses (shown / how many closed, 6 = sealed);
 # web the 203; rv the thread read backward; inv old words ring by ring; bk black; sp the light grown; a atlas.
 # c 1 = words drop below the center (used when the light owns the center).
-# <!--roll NAME k=a:b--> then one line per item: a list that scrolls past with the page.
+# {hold} after a caption = it stays in place (used when something else moves around it). sec = sector names drifting past; inw = the inward list.
 # w o c you th gs gt web rv inv HOLD their value until changed. The rest return to 0 when not written.
 
 ## The room
@@ -11,14 +11,23 @@
 <!--scene 120 z=4.1:3.9 vl=1:0-->
 There is a room, and everyone in it seems fine.
 
-<!--scene 120 z=3.9:3.6-->
-Someone laughs. The music is easy. And something in your chest closes like a hand.
+<!--scene 90 z=3.9:3.747-->
+Someone laughs. The music is easy.
 
-<!--scene 130 z=3.6:3.3-->
-You say a thing and it comes out wrong. Then you hear yourself apologizing for a wrong you cannot name.
+<!--scene 90 z=3.747:3.6-->
+And something in your chest closes like a hand.
 
-<!--scene 140 z=3.3:3.0-->
-So you leave. You leave the love that emptied you, the work that hollowed you, the house of worship that asked for everything.
+<!--scene 90 z=3.6:3.4467-->
+You say a thing and it comes out wrong.
+
+<!--scene 90 z=3.4467:3.3-->
+Then you hear yourself apologizing for a wrong you cannot name.
+
+<!--scene 95 z=3.3:3.1464-->
+So you leave.
+
+<!--scene 95 z=3.1464:3-->
+You leave the love that emptied you, the work that hollowed you, the house of worship that asked for everything.
 
 <!--scene 140 z=3.0:2.8-->
 And the feeling is waiting at the bank, at the clinic, in the pew, in the blue glow of the phone at two in the morning.
@@ -34,16 +43,25 @@ But what if it is not you? {big}
 <!--scene 120 z=2.4-->
 I have asked it too, in rooms like that one.
 
-<!--scene 150 z=2.4:2.2-->
-What if the thing that breaks a person is not only a private wound, but a shape? The same shape in every house, wearing a different face.
+<!--scene 102 z=2.4:2.2978-->
+What if the thing that breaks a person is not only a private wound, but a shape?
+
+<!--scene 102 z=2.2978:2.2-->
+The same shape in every house, wearing a different face.
 
 ## The shape
 
-<!--scene 140 z=2.2:2.1-->
-A fractal is a pattern that keeps its shape at every scale. Look into a fern, and you find a smaller fern.
+<!--scene 95 z=2.2:2.1494-->
+A fractal is a pattern that keeps its shape at every scale.
 
-<!--scene 120 z=2.1:2.0-->
-The pattern I kept finding behaves like a fractal. It arrives in eight stages, in an order that repeats.
+<!--scene 95 z=2.1494:2.1-->
+Look into a fern, and you find a smaller fern.
+
+<!--scene 90 z=2.1:2.0494-->
+The pattern I kept finding behaves like a fractal.
+
+<!--scene 90 z=2.0494:2-->
+It arrives in eight stages, in an order that repeats.
 
 <!--scene 100 z=2.00:1.90 hl=0-->
 **Idealize.** You are seen, chosen, flooded with warmth.
@@ -78,68 +96,35 @@ The pattern I kept finding behaves like a fractal. It arrives in eight stages, i
 <!--scene 130 z=1.0-->
 Thirty techniques carry a person through those eight stages. Together they draw a map.
 
-<!--scene 150 z=1.0-->
-I followed each one through three scales: a single life, a house of power, a whole civilization. And through thirty sectors of human life.
+<!--scene 102 z=1.0-->
+I followed each one through three scales: a single life, a house of power, a whole civilization.
+
+<!--scene 102 z=1.0-->
+And through thirty sectors of human life.
 
 <!--scene 110 z=1.0 g=0:1 dim=0:.92-->
 **Two thousand seven hundred examples.** {big}
 
 <!--run 110 z=1.0 g=1:1 dim=.92:.92-->
 
-<!--scene 130 z=1.0 g=1 dim=.92-->
-I looked for a sector where the cycle does not run.
+<!--scene 560 z=1.0 g=1 dim=.92 sec=0:1-->
+I looked for a sector where the cycle does not run. {hold}
 
-<!--roll sectors z=1.0 g=1 dim=.92-->
-Religion
-Politics
-Media
-Education
-Healthcare
-Finance
-Technology
-Family
-Legal System
-Corporate
-Military
-Entertainment & Music
-Wellness
-Food
-Housing
-Sports
-Science
-Nonprofits
-Beauty
-Dating
-Surveillance
-Child Welfare
-Aging & Death
-Energy & Environment
-Transportation
-Mental Health
-Pharmaceuticals
-Insurance
-Incarceration
-Immigration
+<!--scene 420 z=1.0 g=1:0 dim=.92:.75 inw=0:1-->
+I am still looking. {big} {hold}
 
-<!--scene 120 z=1.0 g=1:0 dim=.92:.6-->
-I am still looking. {big}
-
-<!--roll in z=1.0 dim=.6:.3-->
-In myself.
-In my body.
-In my genetics.
-In my ancestry.
-In my generational chains.
-
-<!--run 40 z=1.0 dim=.3:0-->
+<!--run 50 z=1.0 dim=.75:0-->
 
 ## The closer you look
 
 <!--scene 130 z=1.0-->
 But a fractal keeps one more secret: the closer you look, the more there is.
 
-<!--scene 150 z=1.0:0.95-->
-Measure a coastline with a long ruler, and you get one number. Measure it again with a shorter ruler, and the coast grows.
+<!--scene 102 z=1:0.9747-->
+Measure a coastline with a long ruler, and you get one number.
+
+<!--scene 102 z=0.9747:0.95-->
+Measure it again with a shorter ruler, and the coast grows.
 
 <!--scene 120 z=0.95:0.9-->
 So I looked closer. {big}
@@ -156,18 +141,27 @@ And the map did not end. It opened. {big}
 <!--scene 130 z=0.3125-->
 I call this second map Fractal squared: every technique on the first map, opened to show the tactics inside it.
 
-<!--scene 150 z=0.3125-->
-Three hundred and thirty-five tactics in a single sector. Thirty sectors. More than thirty thousand observations, counted one by one.
+<!--scene 102 z=0.3125-->
+Three hundred and thirty-five tactics in a single sector.
+
+<!--scene 102 z=0.3125-->
+Thirty sectors. More than thirty thousand observations, counted one by one.
 
 <!--run 50 z=0.3125-->
 
 ## The danger
 
-<!--scene 140 z=0.3125:0.316 th=0:.5-->
-A tactic alone is only a move. What gives it force is the combination.
+<!--scene 95 z=0.3125:0.3142 th=0:0.25-->
+A tactic alone is only a move.
 
-<!--scene 150 z=0.316:0.32 th=.5:1-->
-A life is rarely undone by a single move. The moves come woven, in a particular order, each preparing the ground for the next.
+<!--scene 95 z=0.3142:0.316 th=0.25:0.5-->
+What gives it force is the combination.
+
+<!--scene 102 z=0.316:0.318 th=0.5:0.75-->
+A life is rarely undone by a single move.
+
+<!--scene 102 z=0.318:0.32 th=0.75:1-->
+The moves come woven, in a particular order, each preparing the ground for the next.
 
 <!--run 40 z=0.32-->
 
@@ -197,32 +191,47 @@ Whole years dissolve into a fog that people mistake for weakness.
 <!--scene 150 z=0.3125 web=0:1-->
 Fractal squared names these combinations. Two hundred and three so far, one hundred and fifty-three in the first sector alone.
 
-<!--scene 150 z=0.3125-->
-They have names now, and each name is a warning: the Debt Prison, the Golden Cage, the Trauma Bond Engine. They name patterns, never people.
+<!--scene 102 z=0.3125-->
+They have names now, and each name is a warning: the Debt Prison, the Golden Cage, the Trauma Bond Engine.
+
+<!--scene 102 z=0.3125-->
+They name patterns, never people.
 
 <!--scene 140 z=0.3125 rv=0:.45-->
 But every combination runs in an order, and an order can be read backward. {big}
 
-<!--scene 150 z=0.3125 rv=.45:1 web=1:.25-->
-The order that builds the trap is also its blueprint. Name each step, reverse the sequence, and you may see what each one was covering.
+<!--scene 102 z=0.3125 rv=0.45:0.725 web=1:0.625-->
+The order that builds the trap is also its blueprint.
 
-<!--scene 150 z=0.3125:0.37 gt=6:4 web=.25:0-->
-Seeing the sequence does not free you. It can give you a place to start.
+<!--scene 102 z=0.3125 rv=0.725:1 web=0.625:0.25-->
+Name each step, reverse the sequence, and you may see what each one was covering.
+
+<!--scene 102 z=0.3125:0.34 gt=6:5 web=0.25:0.125-->
+Seeing the sequence does not free you.
+
+<!--scene 102 z=0.34:0.37 gt=5:4 web=0.125:0-->
+It can give you a place to start.
 
 <!--run 40 z=0.37 th=1:0-->
 
 <!--scene 120 z=0.37 rv=1:0-->
 If you are inside one of these now, go gently.
 
-<!--scene 140 z=0.37-->
-Tell someone outside it. If you are in danger, call emergency services first.
+<!--scene 95 z=0.37-->
+Tell someone outside it.
+
+<!--scene 95 z=0.37-->
+If you are in danger, call emergency services first.
 
 <!--run 60 z=0.37:0.3125 gs=1:0-->
 
 ## The old words
 
-<!--scene 150 z=0.3125 gt=0-->
-I will tell you how I see it, and I offer it as one person's sight. You may hold it, or set it down.
+<!--scene 102 z=0.3125 gt=0-->
+I will tell you how I see it, and I offer it as one person's sight.
+
+<!--scene 102 z=0.3125 gt=0-->
+You may hold it, or set it down.
 
 <!--scene 130 z=0.3125-->
 To my eye, every stage of the cycle is a divine principle turned inside out.
@@ -253,8 +262,11 @@ For a lifetime I have practiced noticing: the way a voice changes before it asks
 <!--scene 140 z=0.29:0.27-->
 That noticing saved my life. {big}
 
-<!--scene 150 z=0.27:0.245-->
-It began as survival. It became a healing, and then something older than healing: a return to what was mine.
+<!--scene 102 z=0.27:0.2572-->
+It began as survival.
+
+<!--scene 102 z=0.2572:0.245-->
+It became a healing, and then something older than healing: a return to what was mine.
 
 <!--scene 150 z=0.245:0.22-->
 I offer it freely, so that fewer people stand in that room alone, wondering if it is them.
@@ -267,8 +279,11 @@ So this is the work: to name every tactic in plain words, and to lay every combi
 <!--scene 140 z=0.2:0.18-->
 For each, what it feels like, how to recognize it, and where a first step might begin.
 
-<!--scene 140 z=0.18:0.165-->
-Thirty sectors, one by one. It will take a lifetime, and the first is already open.
+<!--scene 95 z=0.18:0.1723-->
+Thirty sectors, one by one.
+
+<!--scene 95 z=0.1723:0.165-->
+It will take a lifetime, and the first is already open.
 
 <!--run 60 z=0.165 o=1:0-->
 
@@ -315,8 +330,11 @@ The part of you no pattern could reach: pulsing, patient, yours.
 <!--scene 150 z=12 bk=1 sp=.8-->
 I believe it is the part of you that knew something was wrong in that room, when everyone else seemed fine.
 
-<!--scene 160 z=12 bk=1 sp=.8:1-->
-That tightening was never your weakness. It was the part of you that noticed, still doing its work.
+<!--scene 109 z=12 bk=1 sp=0.8:0.9-->
+That tightening was never your weakness.
+
+<!--scene 109 z=12 bk=1 sp=0.9:1-->
+It was the part of you that noticed, still doing its work.
 
 <!--run 110 z=12 bk=1 sp=1-->
 
