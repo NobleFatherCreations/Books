@@ -1345,11 +1345,16 @@
       "localSource": "library/fractal2/site/fractal2.html",
       "repoPath": "library/fractal2/site",
       "intendedUrl": "https://noblefathercreations.com/fractal2",
-      "status": "LIVE v11 at fractal-entertainment.netlify.app/fractal2 (2026-11-12). The noblefathercreations.com/fractal2 proxy is NOT done: it needs the owner's words 'deploy the homepage' (library/fractal2/redirects/HUB-RULES.txt).",
+      "status": "LIVE v12 at fractal-entertainment.netlify.app/fractal2 (2026-11-12). The noblefathercreations.com/fractal2 proxy is NOT done: it needs the owner's words 'deploy the homepage' (library/fractal2/redirects/HUB-RULES.txt).",
       "buildRecipe": "python3 design/fractal2/redesign/v9/build.py /fractal2/_a/v8/ && cp design/fractal2/redesign/v9/index.html library/fractal2/site/fractal2.html && python3 design/fractal2/redesign/v9/build.py. Text and camera: content/fractal2/intro-v9.md (node scripts/story-lint.mjs must PASS). Art and fonts are unchanged since v8 and stay in _a/v8/; the share image is _a/v9/og.jpg.",
       "description": "One scroll film (about 7 minutes, 74 captions): locked black-circle opening, the original Fractal pulled back to the 335-tactic map, figures of light around one person, the fall to black and the light that remains, then the door into the first sector. Play button scrolls it at reading pace.",
-      "version": "v11",
+      "version": "v12",
       "changelog": [
+        {
+          "date": "2026-11-12",
+          "version": "v12",
+          "summary": "A new typeface for the spoken words (Instrument Serif). Film grain and a soft vignette. A light circling the opening ring. The large map turns slowly as you move. Words settle into place as they arrive."
+        },
         {
           "date": "2026-11-12",
           "version": "v11",

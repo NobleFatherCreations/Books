@@ -46,6 +46,6 @@ for s in sectors:
     if s.get('built'): atlas.append(f'<li class="here"><span class="n">{s["n"]:02d}</span><span>Entertainment &amp; Music (mapped)</span></li>')
     else: atlas.append(f'<li><span class="n">{s["n"]:02d}</span><span>{html.escape(s["name"])}</span></li>')
 tpl = open(os.path.join(HERE, 'template.html'), encoding='utf-8').read()
-out = tpl.replace('%%SCENES%%', '\n  '.join(blocks)).replace('%%HL%%', hlr).replace('%%ATLAS%%', '\n'.join(atlas)).replace('%%SECTORS%%', json.dumps([('Entertainment & Music' if s['name'] == 'Entertainment' else s['name']) for s in sectors], ensure_ascii=False)).replace('%%BASE%%', BASE)
+out = tpl.replace('%%SCENES%%', '\n  '.join(blocks)).replace('%%HL%%', hlr).replace('%%ATLAS%%', '\n'.join(atlas)).replace('%%SECTORS%%', json.dumps([('Entertainment & Music' if s['name'] == 'Entertainment' else s['name']) for s in sectors], ensure_ascii=False)).replace('%%V9%%', BASE.replace('/v8/', '/v9/') if BASE.startswith('/') else '../../../../library/fractal2/site/fractal2/_a/v9/').replace('%%BASE%%', BASE)
 open(os.path.join(HERE, 'index.html'), 'w', encoding='utf-8').write(out)
 print('wrote index.html', len(out) // 1024, 'KB;', n, 'scenes')
