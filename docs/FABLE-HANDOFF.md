@@ -25,6 +25,14 @@ v12 added Instrument Serif for captions (`_a/v9/instrument*.ttf`, family "Voice"
 - **Opening:** `#open` overlay (lettering, eight orbiting rings, pulsing) + a light circling the gold ring.
 - Owner preferences learned: wants movement everywhere, big type, no brightness flicker, lists never as scrolling lists, bold first impression. Deliver, then they test on the phone; expect several rounds.
 
+## 0d. v14 + design protocol v3 (deploy `6af58fe7d43ad699fbcbf1c9`). READ THIS BEFORE TOUCHING THE INTRO.
+The owner tested v13 and reported three new faults (captions too fast, inward lines playing twice, zoom jumping) and said, rightly, that every fix was producing new faults. They asked for the design skill to be rebuilt so that stops.
+- **The skill is now v3:** `.claude/skills/design-director/SKILL.md` (three laws, three tracks, banned mechanics). Reasoning + steelman rounds: `docs/design-catalogue/14-design-protocol-v3.md`.
+- **The gate:** `scripts/film-gate.sh <url> '#begin' content/fractal2/intro-v9.md [-- deploy command]` runs story lint + `scripts/film-check.mjs` on phone, phone reduced-motion and desktop, writes contact sheets, and only then runs the deploy. Never deploy this page any other way.
+- **Ledger:** `content/fractal2/design/REGRESSIONS.md` (every owner report and its guard). **Owner preferences:** `content/fractal2/design/OWNER-TASTE.md`.
+- **v14 mechanics:** captions are ordinary page flow (1:1 with scroll); held captions are the only pinned ones; all picture layers live in `#world` (100lvh) so the phone toolbar cannot move them; sequence keys hold their value; the light moves to the upper third while `c`=1.
+- **Known weak spot, not yet fixed:** when two captions are on screen over bright art only the one nearer the center has the dark band behind it; the other can be hard to read. No check guards canvas-text or caption contrast yet.
+
 ## 0. Current state in one screen (read this; sections 1-6 below are the v8 history)
 - **Live:** v10 (see 0a) at https://fractal-entertainment.netlify.app/fractal2 (v9 was deploy `6af53ccf49e79299a62c8f79`, 2026-11-12, on the owner's "push live"). Live file = `library/fractal2/site/fractal2.html`, verified byte-identical. Branch `claude/optimistic-clarke-86s6bg`. The noblefathercreations.com/fractal2 proxy is still NOT done (needs "deploy the homepage").
 - **What v9 is:** the v8 camera and captions, plus the original Fable intro's idea of one light (a person) that every figure is built around. Figures: one combination as a thread through the rings; five defenses closing one by one; the 203 as a web; the thread read backward; one opening returning; the eight rings lighting for the old words. Words sit BESIDE the map from the large map onward (below it on phones). A Play button scrolls at reading pace. The ending returns to the room. Record: `content/fractal2/design/DESIGN-CHOICES.md` (v9 section), `STORY-DECISION.md` section 9.

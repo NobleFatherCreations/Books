@@ -5048,3 +5048,6 @@ Owner asked: adapt the original Fable intro into the fractal-background idea, ci
 
 ## 2026-11-12 (later) Fractal² intro v10 LIVE (deploy 6af540970b3f3398b447a284) after the owner's iPhone test
 See `docs/FABLE-HANDOFF.md` section 0a. Hard lessons: (1) never put huge images under a scaled, will-change DOM parent: iOS Safari reloads then crashes; draw scaled art on one screen-sized canvas. (2) The owner's iPhone has Reduce Motion on; that mode must still be the designed experience (scroll-linked motion stays), so always test with reduced motion. (3) The owner wants text to MOVE with the scroll, and lists (sectors, inward list) to pass by one at a time. Not yet confirmed on their phone that the crash is gone.
+
+## 2026-11-12 (evening) Design protocol v3 + Fractal² v14 (deploy 6af58fe7d43ad699fbcbf1c9)
+The owner was (fairly) angry that each fix shipped new faults. Standing rule from now: `design-director` skill v3. Three laws: nothing reaches the owner that a machine could reject (`scripts/film-gate.sh`); a reported fault becomes a failing check before a fix (`REGRESSIONS.md`); ask the owner only what only they can answer (`OWNER-TASTE.md`, four-question phone card). Fix rounds add NOTHING unrequested. Deploy the intro only through the gate. See `docs/FABLE-HANDOFF.md` 0d and `docs/design-catalogue/14-design-protocol-v3.md`.
