@@ -1345,11 +1345,16 @@
       "localSource": "library/fractal2/site/fractal2.html",
       "repoPath": "library/fractal2/site",
       "intendedUrl": "https://noblefathercreations.com/fractal2",
-      "status": "LIVE v12 at fractal-entertainment.netlify.app/fractal2 (2026-11-12). The noblefathercreations.com/fractal2 proxy is NOT done: it needs the owner's words 'deploy the homepage' (library/fractal2/redirects/HUB-RULES.txt).",
+      "status": "LIVE v13 at fractal-entertainment.netlify.app/fractal2 (2026-11-12). The noblefathercreations.com/fractal2 proxy is NOT done: it needs the owner's words 'deploy the homepage' (library/fractal2/redirects/HUB-RULES.txt).",
       "buildRecipe": "python3 design/fractal2/redesign/v9/build.py /fractal2/_a/v8/ && cp design/fractal2/redesign/v9/index.html library/fractal2/site/fractal2.html && python3 design/fractal2/redesign/v9/build.py. Text and camera: content/fractal2/intro-v9.md (node scripts/story-lint.mjs must PASS). Art and fonts are unchanged since v8 and stay in _a/v8/; the share image is _a/v9/og.jpg.",
       "description": "One scroll film (about 7 minutes, 74 captions): locked black-circle opening, the original Fractal pulled back to the 335-tactic map, figures of light around one person, the fall to black and the light that remains, then the door into the first sector. Play button scrolls it at reading pace.",
-      "version": "v12",
+      "version": "v13",
       "changelog": [
+        {
+          "date": "2026-11-12",
+          "version": "v13",
+          "summary": "Circles are round again on phones. A new moving opening with its own lettering. Larger captions that cross the whole screen without the picture dimming each time. Sector names fly in and fall away toward the map. The map makes one full turn as it opens. At the light, each counterfeit turns into its original. The ending is one button."
+        },
         {
           "date": "2026-11-12",
           "version": "v12",

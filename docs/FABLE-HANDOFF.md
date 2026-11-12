@@ -15,6 +15,16 @@ Owner: still crashes before the end; the sector caption should hold still while 
 - Captions travel bottom to top at about scroll speed (`amp` in `words()`); `{hold}` in the script pins one. Scene gap is `--gap` (22svh). Most two-sentence captions were split into single sentences (92 scenes).
 - `sec` key = sector names drifting on the figure canvas; `inw` = the inward list, one line at a time.
 
+## 0c. v12 and v13 (same day), after the owner's third iPhone test
+v12 added Instrument Serif for captions (`_a/v9/instrument*.ttf`, family "Voice"), film grain + vignette (`#film`), and a first polish pass. The owner then reached the end without a crash (so the per-word-layer fix worked) and sent screenshots. v13 answers them:
+- **Ovals on the phone:** canvases were sized by CSS percentage while their pixel buffers used `innerHeight`; with the browser toolbar showing these differ and every circle stretched. Canvases now get explicit pixel sizes in `layout()` and re-layout on any resize. Never size these canvases by percentage.
+- **Captions** are larger and cross the whole screen (in at the very bottom, out at the very top; `words()`); the art no longer dims per caption; a soft dark band (`#pool`) travels with the words. `{hold}` still pins a caption.
+- **Sectors** fly in large and fall away toward the center; **inward list** in gold. **Map rotation** is exactly one turn during the pull-back, upright at the end. **Words fill** over a longer stretch (`w` continues into the first captions).
+- **At the light** the eight counterfeits turn into their originals around it (`orig` key, `PAIR` list).
+- **Ending:** no atlas grid, no sector list; one button ("Enter the map", currently to `/fractal2/entertainment`). The owner wants it to lead to a future hub page listing all sectors: that page does not exist yet.
+- **Opening:** `#open` overlay (lettering, eight orbiting rings, pulsing) + a light circling the gold ring.
+- Owner preferences learned: wants movement everywhere, big type, no brightness flicker, lists never as scrolling lists, bold first impression. Deliver, then they test on the phone; expect several rounds.
+
 ## 0. Current state in one screen (read this; sections 1-6 below are the v8 history)
 - **Live:** v10 (see 0a) at https://fractal-entertainment.netlify.app/fractal2 (v9 was deploy `6af53ccf49e79299a62c8f79`, 2026-11-12, on the owner's "push live"). Live file = `library/fractal2/site/fractal2.html`, verified byte-identical. Branch `claude/optimistic-clarke-86s6bg`. The noblefathercreations.com/fractal2 proxy is still NOT done (needs "deploy the homepage").
 - **What v9 is:** the v8 camera and captions, plus the original Fable intro's idea of one light (a person) that every figure is built around. Figures: one combination as a thread through the rings; five defenses closing one by one; the 203 as a web; the thread read backward; one opening returning; the eight rings lighting for the old words. Words sit BESIDE the map from the large map onward (below it on phones). A Play button scrolls at reading pace. The ending returns to the room. Record: `content/fractal2/design/DESIGN-CHOICES.md` (v9 section), `STORY-DECISION.md` section 9.

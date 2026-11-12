@@ -3,6 +3,7 @@
 # you the one light; th one combination (moves, then the thread); gs/gt the five defenses (shown / how many closed, 6 = sealed);
 # web the 203; rv the thread read backward; inv old words ring by ring; bk black; sp the light grown; a atlas.
 # c 1 = words drop below the center (used when the light owns the center).
+# orig = at the light, each counterfeit turns into its original (0..8, 9 = faded).
 # {hold} after a caption = it stays in place (used when something else moves around it). sec = sector names drifting past; inw = the inward list.
 # w o c you th gs gt web rv inv HOLD their value until changed. The rest return to 0 when not written.
 
@@ -110,10 +111,10 @@ And through thirty sectors of human life.
 <!--scene 560 z=1.0 g=1 dim=.92 sec=0:1-->
 I looked for a sector where the cycle does not run. {hold}
 
-<!--scene 420 z=1.0 g=1:0 dim=.92:.75 inw=0:1-->
+<!--scene 460 z=1.0 g=1:.4 dim=.92 inw=0:1-->
 I am still looking. {big} {hold}
 
-<!--run 50 z=1.0 dim=.75:0-->
+<!--run 60 z=1.0 g=.4:0 dim=.92:0-->
 
 ## The closer you look
 
@@ -134,11 +135,11 @@ So I looked closer. {big}
 <!--scene 130 z=0.3125-->
 And the map did not end. It opened. {big}
 
-<!--run 150 z=0.3125 w=0:1-->
+<!--run 230 z=0.3125 w=0:.62-->
 
-<!--run 70 z=0.3125 o=0:1-->
+<!--run 70 z=0.3125 o=0:1 w=.62:.74-->
 
-<!--scene 130 z=0.3125-->
+<!--scene 130 z=0.3125 w=.74:1-->
 I call this second map Fractal squared: every technique on the first map, opened to show the tactics inside it.
 
 <!--scene 102 z=0.3125-->
@@ -322,7 +323,9 @@ I believe that beneath every layer of capture, something was never captured at a
 <!--scene 150 z=12 bk=1 sp=1-->
 Your original frequency. {big}
 
-<!--run 90 z=12 bk=1 sp=1-->
+<!--run 420 z=12 bk=1 sp=1 orig=0:8-->
+
+<!--run 70 z=12 bk=1 sp=1 orig=8:9-->
 
 <!--scene 130 z=12 bk=1 sp=1:.8-->
 The part of you no pattern could reach: pulsing, patient, yours.
@@ -338,6 +341,6 @@ It was the part of you that noticed, still doing its work.
 
 <!--run 110 z=12 bk=1 sp=1-->
 
-<!--run 380 z=12:0.097 bk=1:0 sp=1:0 a=0:1 you=1:0 c=1:0-->
+<!--run 300 z=12:1.0 bk=1:0 sp=1:0 you=1:0 c=1:0-->
 
-<!--run 120 z=0.097 a=1-->
+<!--run 90 z=1.0-->
