@@ -1,4 +1,19 @@
-# Handoff for the next model: Fractal² intro + the design system (2026-11-11)
+# Handoff: Fractal² intro + the design system (updated 2026-11-12, v9 live)
+
+## 0. Current state in one screen (read this; sections 1-6 below are the v8 history)
+- **Live:** v9 at https://fractal-entertainment.netlify.app/fractal2 (deploy `6af53ccf49e79299a62c8f79`, 2026-11-12, on the owner's "push live"). Live file = `library/fractal2/site/fractal2.html`, verified byte-identical. Branch `claude/optimistic-clarke-86s6bg`. The noblefathercreations.com/fractal2 proxy is still NOT done (needs "deploy the homepage").
+- **What v9 is:** the v8 camera and captions, plus the original Fable intro's idea of one light (a person) that every figure is built around. Figures: one combination as a thread through the rings; five defenses closing one by one; the 203 as a web; the thread read backward; one opening returning; the eight rings lighting for the old words. Words sit BESIDE the map from the large map onward (below it on phones). A Play button scrolls at reading pace. The ending returns to the room. Record: `content/fractal2/design/DESIGN-CHOICES.md` (v9 section), `STORY-DECISION.md` section 9.
+- **Files:** script + camera cues `content/fractal2/intro-v9.md`; engine `design/fractal2/redesign/v9/template.html` + `build.py` (never edit `index.html`). Art and fonts are unchanged and stay in `_a/v8/`; share image `_a/v9/og.jpg`.
+- **Rebuild:** `python3 design/fractal2/redesign/v9/build.py /fractal2/_a/v8/ && cp design/fractal2/redesign/v9/index.html library/fractal2/site/fractal2.html && python3 design/fractal2/redesign/v9/build.py`. Staging, deploy and verify steps are unchanged (section 1, steps 3-5).
+- **Look at it the right way:** `python3 design/fractal2/serve.py 8802 &` then `node scripts/frame-walk.mjs http://127.0.0.1:8802/fractal2 <dir> --n=72 --click=#begin` and READ the sheets. Gates: `node scripts/design-gates.mjs <url> <dir> --click "#begin" --max 70 --step 0.93` (without `--click` the gates see only the opening screen and pass on nothing; that is how v8 "passed").
+- **Scores:** see `content/fractal2/design/SCORES.md` (v9 section) for the latest round and whether `design-exit.mjs` passes.
+- **Engine keys** (in the script header): `o` words beside the map, `c` words below the light, `you` the light, `th` thread, `gs`/`gt` defenses, `web` the 203, `rv` read backward, `inv` old words. These hold their value until changed.
+- **v8 bug fixed in v9:** scene end markers sat one screen late, so the camera target jumped about 60% of each move at every caption change.
+- **Open, in order:** (1) owner tests on a real iPhone: Begin, Play, the split layout, the fall to black; (2) the author's-lens lines are still not the owner's own sentences; (3) sources for the numbers; (4) homepage proxy on the owner's word; (5) the design-system changes in `docs/DESIGN-SYSTEM-FIELD-REPORT.md` (do items 1, 5, 2 first).
+
+---
+
+# (v8 history) Handoff for the next model: Fractal² intro + the design system (2026-11-11)
 
 Read this first, then `CLAUDE.md`, `MEMORY.md`, `docs/FRACTAL2-JOURNEY.md` (history), `content/fractal2/design/STORY-DECISION.md` (story audits). Branch: `claude/sleepy-maxwell-yii2ts`. Owner is a non-designer who wants an award-level, cinematic, emotional intro, and wants the design system PROVEN by running it. Do not ask them design questions; show frames and decide.
 

@@ -5038,3 +5038,10 @@ After 3 story audit rounds the owner asked for a lens revision ("Why I carry it"
 
 ## 2026-11-11 Handoff
 Next model: read docs/FABLE-HANDOFF.md (live state v8, deploy recipe, root-cause mistakes, design-system gaps, prioritized fix list). Owner is starting a new chat to have another model fix the intro and the design system.
+
+## 2026-11-12 Fractal² intro v9 LIVE (deploy 6af53ccf49e79299a62c8f79)
+Owner asked: adapt the original Fable intro into the fractal-background idea, cinematic, push live, use the design system start to finish. Done on branch `claude/optimistic-clarke-86s6bg`. Read `docs/FABLE-HANDOFF.md` section 0 first, then `docs/DESIGN-SYSTEM-FIELD-REPORT.md`.
+- v9 = v8 camera + the original intro's "one light" and figures; words beside the map; Play button; ending returns to the room. Script `content/fractal2/intro-v9.md`, engine `design/fractal2/redesign/v9/`.
+- Lessons that cost time: (1) the design gates and critic capture could not get past the locked Begin screen, so every earlier "gates pass" covered one screen; both now take a click selector. (2) Judge a scroll story from a labelled contact sheet (`scripts/frame-walk.mjs`), never from single screenshots. (3) v8's camera jumped at every caption change because end markers were one screen late; no tool caught it. (4) A background critic died on the 5-hour usage cap; one agent at a time and expect it.
+- Owner asked mid-session for "a better way to give me the zip": deliverables are sent as one zip with numbered files (0-READ-ME-FIRST, 1-OPEN-THIS..., 2-...). Do that by default for this owner; they cannot easily find files in the repo tree.
+- Not done: real-phone test; owner's own sentences for the lens lines; homepage proxy (needs "deploy the homepage").

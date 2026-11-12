@@ -352,6 +352,50 @@
      "status": "open"
     }
    ]
+  },
+  {
+   "round": 7,
+   "date": "2026-11-12",
+   "build": "v9 before critic fixes (commit 1eb301cd)",
+   "sha": "1eb301cd-pre-fix-build-not-current",
+   "scores": {
+    "hierarchy": 3,
+    "type": 3,
+    "space": 3,
+    "craft": 3,
+    "distinctiveness": 4,
+    "feeling": 3,
+    "phone": 3,
+    "legibility": 3,
+    "continuity": 3
+   },
+   "weaknesses": [
+    {
+     "id": "V9-W1",
+     "text": "Act one: captions over large readable ring lettering",
+     "status": "fixed-unscored (art now drops to 34% under words plus a darker pool; lettering kept because it is the owner's art)"
+    },
+    {
+     "id": "V9-W2",
+     "text": "Middle 40% one static composition; person figure about 95 px on phone",
+     "status": "fixed-unscored (figure radius now 20% of the short side; camera pulls back from 0.31 to 0.165 through Why and The work)"
+    },
+    {
+     "id": "V9-W3",
+     "text": "Spark a generic soft glow",
+     "status": "fixed-unscored (hard core, tight halo, one thin gold ring echoing the opening circle)"
+    },
+    {
+     "id": "V9-W4",
+     "text": "Landing: caption over atlas numerals, ghosts through the door, changelog after the peak",
+     "status": "fixed-unscored (atlas dims evenly under the line, door opaque and delayed, changelog collapsed)"
+    },
+    {
+     "id": "V9-W5",
+     "text": "Hint over Begin; big map clipped at phone edges",
+     "status": "fixed-unscored (Begin removed on unlock; map capped at 93% of the short side beside words)"
+    }
+   ]
   }
  ]
 }
@@ -389,3 +433,9 @@ The split layout scored the same as the overlay layout (3 on space, craft, feeli
 Recurring, concrete, not yet fixed properly (these are the items most likely to move scores): (1) the count beat (named in 5 of 6 rounds); (2) safety notes styled as quiet asides; (3) seam fade and contain-not-crop for the phone art box; (4) the cover on phone; (5) atlas glyph differentiation and numeral size.
 Not fixable inside this build without a different asset: the raster softness, dark outlines and square stars are properties of the supplied artwork renders (a true vector embed or a redraw would be needed).
 OWNER DECISION needed (the only legitimate stop): see the final message of the session.
+
+
+## v9 (2026-11-12): one scored round, then fixes, then deployed on the owner's instruction
+Round 7: fresh critic, 58 frames (28 phone, 28 desktop, 2 opening) + the script. Scores above; verdict "no", with five specific weaknesses. All five were fixed and re-read in frame walks (phone 72 frames, desktop 16). Nine script lines were hedged or cut on the critic's fresh-reader notes (list in `STORY-DECISION.md` section 9).
+A second critic round was dispatched on the fixed build and died on the session usage cap before reporting, so **the deployed build is NOT scored and `design-exit.mjs` fails for it** (current build sha `c9b0e7a909be`). The owner had instructed "push live" in the same message that set the task, so it was deployed; the gap is recorded here rather than hidden. Next model: run `node scripts/capture-critic-set.mjs <url> <dir> "#begin" 28`, one fresh critic with the prompt in this session's style (frame name for every claim), record the round, then `design-exit.mjs`.
+Critic suggestions deliberately NOT taken: strip lettering from the original art (it is the owner's artwork); change the owner's fixed counts or the phrases "original frequency", "I am still looking", and the descent list.

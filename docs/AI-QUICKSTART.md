@@ -1,4 +1,4 @@
-> **Fractal² intro / design system: read `docs/FABLE-HANDOFF.md` first** (live state, rebuild+deploy commands, mistakes, fix list).
+> **Fractal² intro / design system: read `docs/FABLE-HANDOFF.md` section 0 first** (v9 is live since 2026-11-12), then `docs/DESIGN-SYSTEM-FIELD-REPORT.md`.
 
 # AI quickstart (read this first; ~2 minutes)
 

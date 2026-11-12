@@ -1345,18 +1345,34 @@
       "localSource": "library/fractal2/site/fractal2.html",
       "repoPath": "library/fractal2/site",
       "intendedUrl": "https://noblefathercreations.com/fractal2",
-      "pendingDeploy": true,
-      "status": "BUILT, NOT DEPLOYED (2026-11-10). No Netlify site exists for it yet. Needs the owner's explicit go-ahead, a new Netlify site publishing library/fractal2/site, and two hub proxy rules (library/fractal2/redirects/HUB-RULES.txt).",
-      "buildRecipe": "python3 design/fractal2/build_intro.py; node design/fractal2/verify_intro.mjs. Text: content/fractal2/intro-final.md.",
-      "description": "One scroll-driven page: the summary of The Fractal, the true map (335 tactics per sector), the combinations, and the way into the sector sites. Narration player with a silent placeholder until the owner's recording exists.",
-      "version": "v1",
+      "status": "LIVE v9 at fractal-entertainment.netlify.app/fractal2 (2026-11-12). The noblefathercreations.com/fractal2 proxy is NOT done: it needs the owner's words 'deploy the homepage' (library/fractal2/redirects/HUB-RULES.txt).",
+      "buildRecipe": "python3 design/fractal2/redesign/v9/build.py /fractal2/_a/v8/ && cp design/fractal2/redesign/v9/index.html library/fractal2/site/fractal2.html && python3 design/fractal2/redesign/v9/build.py. Text and camera: content/fractal2/intro-v9.md (node scripts/story-lint.mjs must PASS). Art and fonts are unchanged since v8 and stay in _a/v8/; the share image is _a/v9/og.jpg.",
+      "description": "One scroll film (about 7 minutes, 74 captions): locked black-circle opening, the original Fractal pulled back to the 335-tactic map, figures of light around one person, the fall to black and the light that remains, then the door into the first sector. Play button scrolls it at reading pace.",
+      "version": "v9",
       "changelog": [
+        {
+          "date": "2026-11-12",
+          "version": "v9",
+          "summary": "A Play button; one point of light followed from the middle of the map to the end; moving figures for the combinations; words beside the map; smoother camera; clearer final light; new closing passage."
+        },
+        {
+          "date": "2026-11-11",
+          "version": "v8",
+          "summary": "Locked opening, large word-by-word captions, the fall to black and the spark."
+        },
         {
           "date": "2026-11-10",
           "version": "v1",
           "summary": "First edition of the introduction (not yet published)."
         }
-      ]
+      ],
+      "liveUrl": "https://fractal-entertainment.netlify.app/fractal2",
+      "netlifySiteId": "194814a7-0e80-4b68-b314-0c07911af55a",
+      "lastDeploy": {
+        "date": "2026-11-12",
+        "deployId": "6af53ccf49e79299a62c8f79",
+        "verified": "live file byte-identical to library/fractal2/site/fractal2.html"
+      }
     },
     {
       "codename": "fractal2-ent",

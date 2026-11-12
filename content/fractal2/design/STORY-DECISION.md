@@ -66,3 +66,14 @@ Round 1 changes: varied the stage-list grammar and lengthened holds on Extract/D
 Round 2 changes: merged four repeated "read it backward" beats into two; defined "the map" before it is used; removed brochure language ("series", "the way out"); hedged absolutes ("always in order" became "in an order that repeats"; the closing line became "I believe"); merged the harm catalogue into one scene.
 Round 3 changes: shortened two dense captions; stopped personifying the antagonist ("soldiers" became "a tactic alone is only a move"); hedged two universal faith claims ("To my eye, it is a counterfeit"; "Many of the traditions I know"); "a sector" instead of "a place" in the wager; added a silent hold after the safety line.
 Final: 65 scenes, 938 words, about 6.3 minutes of narration, lint PASS, verdict from the round-3 editor: ship. Walk check: 0 page errors, no horizontal overflow at 390 and 1440. Not yet tested on a real phone.
+
+
+## 9. v9 script (2026-11-12)
+Base: the v8 script after its three audit rounds. Changes and why:
+- **New beat:** "Now put one person at the center of it." It gives the light on screen its meaning and turns the combinations from a list into something happening to someone.
+- **New ending (from the original intro's closing passage, shortened):** "It is the part of you that knew something was wrong in that room, when everyone else seemed fine." / "That tightening was never your weakness. It was the part of you that noticed, still doing its work." The opening's "something in your chest closes like a hand" is now paid off; v8 never returned to the room.
+- **Merged or cut:** the fern/delta line shortened; "Why I carry it" cut from five captions to four; "That is the work." folded into the next line; "They are the darkest part of the map" cut (critic: flat).
+- **Hedged on the independent critic's fresh-reader notes:** "The thing that wounds people is a fractal" -> "The pattern I kept finding behaves like a fractal"; "is unmade" -> "can be unmade"; "so that no one has to stand" -> "so that fewer people stand" (outcome promise); "could not be fooled" -> "the part of you that noticed" (it told an anxious reader every alarm is accurate); "Fractal squared: the first map, turned back on itself" -> "every technique on the first map, opened to show the tactics inside it"; "Little that ruins a life" -> "A life is rarely ruined by a single move"; the return/ascent line made plain.
+- **Kept against the critic:** the owner's counts, "I am still looking", "original frequency", the descent list.
+- **Still not the owner's own words:** "I have asked it too, in rooms like that one", and the four "Why I carry it" captions. Swapping in the owner's sentences remains the best single improvement.
+Lint: PASS (74 scenes, 1,024 words, about 6.8 minutes).
