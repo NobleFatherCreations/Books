@@ -5051,3 +5051,13 @@ See `docs/FABLE-HANDOFF.md` section 0a. Hard lessons: (1) never put huge images 
 
 ## 2026-11-12 (evening) Design protocol v3 + Fractal² v14 (deploy 6af58fe7d43ad699fbcbf1c9)
 The owner was (fairly) angry that each fix shipped new faults. Standing rule from now: `design-director` skill v3. Three laws: nothing reaches the owner that a machine could reject (`scripts/film-gate.sh`); a reported fault becomes a failing check before a fix (`REGRESSIONS.md`); ask the owner only what only they can answer (`OWNER-TASTE.md`, four-question phone card). Fix rounds add NOTHING unrequested. Deploy the intro only through the gate. See `docs/FABLE-HANDOFF.md` 0d and `docs/design-catalogue/14-design-protocol-v3.md`.
+
+## 2026-11-13 — "Why I Wrote This" PDFs and the Book 1 audit
+
+- Owner asked for a PDF explaining the whole body of work to a friend, Von "Foil" Saunders, a psychologist in the education system, to win introductions, review, and a route for Playground Protectors into schools.
+- Delivered in `library/fractal2/review/`: `Why-I-Wrote-This.pdf` (master, 33 pp, no personal notes), `Why-I-Wrote-This-for-Foil.pdf` (36 pp: same body + letter + three asks), `The-Fractal-Book-1-Audit.pdf` (15 pp, reviewer's view). The earlier 21-page `Why-I-Wrote-The-Fractal.pdf` is superseded.
+- Build: `design/fractal2/reports/why/` (`data.py` tables, `build.py master|foil`, `render.mjs` single pass so links survive, `fields.py` adds typeable fields). Audit source: `design/fractal2/reports/fractal1-audit.body.html`.
+- All 30 originals/faculties/gates now come from the book's own tables (The Frequency, The Spiritual Lens); no invented entries.
+- **Defects found in the published Fractal, NOT fixed (owner to decide):** (1) the one-line definitions of Spiritual Bypassing and Financial Control are swapped on all 26 sector pages; (2) book says 30 sectors / 2,700 examples, 26 / 2,340 are published; (3) zero outside sources cited in any of the 34 chapters; (4) "This is by design" (x8 in The Pattern) contradicts The Origin's "no intent required"; (5) The Mirror numbers techniques differently from the sector chapters.
+- Verified counts: Entertainment sector has 153 combinations live and 335 tactics; the Fractal is 245,383 words in 34 chapters.
+- Still open from before: handoff doc for rebuilding the main site; cross-branch sync; Entertainment v3 built but not deployed.
