@@ -303,8 +303,8 @@ COMBOS.append({
          "Sincere, well meant, and it moves the problem. The problem is one person doing several people's work. The remedy offered is ten minutes and an app. Now your exhaustion is your responsibility."),
         ("Learned Helplessness", "*The third February. You don't ask.*",
          "You asked and were heard, kindly, and nothing changed, because everyone you could ask is in the middle of the same squeeze. Your body learns that asking costs energy and returns nothing. From the outside, the silence looks like coping."),
-        ("Replacement", "*A laptop on Thursdays.*",
-         "The colleague next door, one of the best, gone, and her post filled by video. The machine doesn't need any one person. It needs the function filled. That's the moment you see it was never holding on to you. It was holding on to your conscience."),
+        ("Replacement", "*A contractor on Thursdays.*",
+         "The colleague next door, one of the best, gone, and her post filled by a rotating contractor. The machine doesn't need any one person. It needs the function filled. That's the moment you see it was never holding on to you. It was holding on to your conscience."),
     ],
     "order": [
         "Here's why the sequence matters, and why the same pieces in a different order wouldn't hold anyone.",

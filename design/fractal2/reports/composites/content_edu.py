@@ -40,9 +40,10 @@ for b in blocks:
         cur = NEW[arg] = {"scenes": [], "key": arg}
         for line in body.strip().split("\n"):
             k, _, v = line.partition(": "); cur[k] = v.strip()
-        cur["chain"] = [x.strip() for x in cur["chain"].split("|")]
+        if "chain" in cur: cur["chain"] = [x.strip() for x in cur["chain"].split("|")]
     elif kind == "scene": cur["scenes"].append((arg.strip(), paras(body)))
-    elif kind in ("cost", "system"): cur[kind] = paras(body)
+    elif kind in ("cost", "system", "purpose"): cur[kind] = paras(body)
+    elif kind == "anchors": cur["anchors"] = [[x.strip() for x in l.split("|")] for l in body.strip().split("\n") if l.strip()]
     elif kind in ("tactic_moments", "beats"):
         cur[kind] = [[x.strip() for x in l.split("|")] for l in body.strip().split("\n") if l.strip()]
 
@@ -52,7 +53,7 @@ def assemble(key, **o):
     names = c["chain"]
     assert len(o["tactic_lines"]) == len(names), key
     return {
-        "key": key, "name": c["name"], "tagline": c["tagline"], "meta": c["meta"], "why": c["why"], "chain": names, "quote": c["quote"],
+        "key": key, "intro": c["intro"], "purpose": c["purpose"], "anchors": c["anchors"], "name": c["name"], "tagline": c["tagline"], "meta": c["meta"], "why": c["why"], "chain": names,
         "scenes": c["scenes"], "cost": c["cost"], "named": o["named"], "definition": o["definition"],
         "tactics": [(n, tq[n], t) for n, t in zip(names, o["tactic_lines"])],
         "order": o["order"], "system": c["system"], "institution": o["inst"], "civilization": o["civ"],
@@ -73,6 +74,7 @@ EDU = [
 ]
 _named_full = G(SH, 11)[0]
 _n, _d = _named_full.split(". ", 1)
+USED.remove(_named_full); USED.extend([_n + ".", _d])   # shown on two pages: the name, then the definition
 EDU.append(assemble("shame",
     named=_n + ".", definition=_d, tactic_lines=G(SH, 14, 19), order=G(SH, 21, 26),
     inst=G(SH, 28), civ=G(SH, 30), spot_intro=G(SH, 32)[0], tests=G(SH, 33, 35),

@@ -104,3 +104,20 @@ blockquote.q{font-size:1.3em}
 .toc li b{font-size:21pt;min-width:5.2em}
 .toc li .bdg{font-size:17pt}
 .cover .note{font-size:8pt}
+/* cold intro page */
+.intro{display:flex;flex-direction:column;justify-content:center;min-height:9.2in;padding:0 .15in}
+.intro .ik{font-family:"Atkinson",sans-serif;font-size:11pt;letter-spacing:.24em;text-transform:uppercase;font-weight:700;color:var(--ink2)}
+.intro .inum{font-family:"Caveat Brush",cursive;font-size:150pt;line-height:1;background:var(--yel);border-radius:18px;width:1.1em;text-align:center;margin:.1in 0 .35in}
+.intro .idesc{font-size:19pt;line-height:1.5;max-width:23em;margin-bottom:.7em}
+.intro .idesc2{font-size:13.5pt;line-height:1.55;color:var(--ink2);max-width:30em}
+.intro .isetting{margin-top:.5in;border-top:1.3px solid var(--line);padding-top:.16in;font-family:"Atkinson",sans-serif;font-size:10.5pt;line-height:1.6;display:flex;flex-direction:column;gap:.04in;max-width:34em}
+.brk{text-align:center;letter-spacing:.5em;color:var(--ink3);margin:.5em 0 .9em !important;font-size:.9em}
+.kk2{font-family:"Atkinson",sans-serif;font-size:.66em;letter-spacing:.16em;text-transform:uppercase;font-weight:700;color:var(--ink2);margin:1.1em 0 .4em}
+.title .chain{margin-top:.2em}
+.leadp{font-style:italic;color:var(--ink2);border-left:5px solid var(--pink);padding-left:.8em;margin-bottom:1em}
+.purpose p{line-height:1.58}
+
+.title .hd{display:flex;align-items:center;gap:.5em;margin:.25in 0 .35em}
+.title .hdt{font-family:"Atkinson",sans-serif;font-size:.7em;letter-spacing:.2em;text-transform:uppercase;font-weight:700;color:var(--ink2)}
+.title .bdg.big{font-size:2.2em;width:1.1em;height:1.2em}
+.title h2.nm{font-size:3.6em;line-height:1.02;margin:0 0 .22em}

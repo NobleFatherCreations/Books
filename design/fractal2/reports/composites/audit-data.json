@@ -1,0 +1,258 @@
+[
+ {
+  "n": 1,
+  "name": "The Trauma Bond Engine",
+  "words": 1825,
+  "scenes": 5,
+  "tactics": [
+   {
+    "tactic": "Intermittent Reinforcement",
+    "scene": "October, a church gym",
+    "phrase": "Best first step I've seen all month",
+    "pos": 1359
+   },
+   {
+    "tactic": "Trauma Bonding",
+    "scene": "October, a church gym",
+    "phrase": "The relief is the best feeling you've ever had",
+    "pos": 1788
+   },
+   {
+    "tactic": "Relief Bait",
+    "scene": "Dayton",
+    "phrase": "I don't do that for players I don't believe in",
+    "pos": 3781
+   },
+   {
+    "tactic": "Push-Pull",
+    "scene": "Orlando, then the driveway",
+    "phrase": "I've been saving you",
+    "pos": 4848
+   },
+   {
+    "tactic": "FOG",
+    "scene": "Orlando, then the driveway",
+    "phrase": "a feeling that arrives in three parts",
+    "pos": 5607
+   },
+   {
+    "tactic": "Hoovering",
+    "scene": "Nine days, then signing",
+    "phrase": "THIS is who you are",
+    "pos": 7110
+   },
+   {
+    "tactic": "Conditional Love",
+    "scene": "Nine days, then signing",
+    "phrase": "available the moment you complied",
+    "pos": 8120
+   }
+  ]
+ },
+ {
+  "n": 2,
+  "name": "The Normalization Engine",
+  "words": 1507,
+  "scenes": 5,
+  "tactics": [
+   {
+    "tactic": "Gradual Escalation",
+    "scene": "Year one",
+    "phrase": "just one more",
+    "pos": 794
+   },
+   {
+    "tactic": "Repetition as Truth",
+    "scene": "The staff room",
+    "phrase": "Teachers have always been stretched thin",
+    "pos": 1789
+   },
+   {
+    "tactic": "Social Proof",
+    "scene": "The staff room",
+    "phrase": "Fourteen teachers eat lunch in shifts",
+    "pos": 2354
+   },
+   {
+    "tactic": "\"That's Just How It Is\"",
+    "scene": "Tom\u00e1s",
+    "phrase": "That's just how it works",
+    "pos": 3850
+   },
+   {
+    "tactic": "Anchoring",
+    "scene": "Thirty-six, and the supply closet",
+    "phrase": "the number you arrived at first becomes the ruler",
+    "pos": 5384
+   },
+   {
+    "tactic": "Gaslighting",
+    "scene": "Thirty-six, and the supply closet",
+    "phrase": "You're just overwhelmed, because you're still new",
+    "pos": 5745
+   },
+   {
+    "tactic": "Window Shifting",
+    "scene": "Welcome to teaching",
+    "phrase": "the union would have walked out over this",
+    "pos": 6959
+   }
+  ]
+ },
+ {
+  "n": 3,
+  "name": "The Public Shaming Ritual",
+  "words": 1556,
+  "scenes": 6,
+  "tactics": [
+   {
+    "tactic": "Public Identification",
+    "scene": "Let's see who came prepared",
+    "phrase": "under a header that says NOT PREPARED",
+    "pos": 2491
+   },
+   {
+    "tactic": "Moral Framing",
+    "scene": "Disappointed",
+    "phrase": "I'm very disappointed. I expected more from you.",
+    "pos": 2955
+   },
+   {
+    "tactic": "Audience Activation",
+    "scene": "Disappointed",
+    "phrase": "They were made witnesses",
+    "pos": 3834
+   },
+   {
+    "tactic": "Social License Generation",
+    "scene": "Recess, and midnight",
+    "phrase": "The board gave him the word, and the word gave him permission.",
+    "pos": 4136
+   },
+   {
+    "tactic": "Correction Invisibility",
+    "scene": "Recess, and midnight",
+    "phrase": "The punishment was public. The correction is invisible.",
+    "pos": 5633
+   },
+   {
+    "tactic": "Internalized Surveillance",
+    "scene": "The checking",
+    "phrase": "It's inside your head",
+    "pos": 7119
+   }
+  ]
+ },
+ {
+  "n": 4,
+  "name": "The Paper Child",
+  "words": 1373,
+  "scenes": 4,
+  "tactics": [
+   {
+    "tactic": "Deficit Framing",
+    "scene": "Sunday night",
+    "phrase": "Describe the student's problem behaviors",
+    "pos": 109
+   },
+   {
+    "tactic": "Selective Records",
+    "scene": "Sunday night",
+    "phrase": "There was no box for the unicorn backpack",
+    "pos": 1604
+   },
+   {
+    "tactic": "Routine Referral",
+    "scene": "Monday and Tuesday",
+    "phrase": "It's the only door I've got",
+    "pos": 2320
+   },
+   {
+    "tactic": "Expert Intimidation",
+    "scene": "Thursday",
+    "phrase": "Each adult speaks for five careful minutes",
+    "pos": 4445
+   },
+   {
+    "tactic": "Manufactured Consent",
+    "scene": "Thursday",
+    "phrase": "This is how we get him help",
+    "pos": 5500
+   },
+   {
+    "tactic": "Benevolent Control",
+    "scene": "That spring, and three years later",
+    "phrase": "twenty-eight children watch him go",
+    "pos": 5901
+   },
+   {
+    "tactic": "Identity Erosion",
+    "scene": "That spring, and three years later",
+    "phrase": "I'm the behavior kid",
+    "pos": 6195
+   },
+   {
+    "tactic": "The File Arrives First",
+    "scene": "That spring, and three years later",
+    "phrase": "I read his file",
+    "pos": 6988
+   }
+  ]
+ },
+ {
+  "n": 5,
+  "name": "The Calling Trap",
+  "words": 1608,
+  "scenes": 5,
+  "tactics": [
+   {
+    "tactic": "Love Bombing",
+    "scene": "The one kid",
+    "phrase": "The kids here need someone exactly like you",
+    "pos": 1177
+   },
+   {
+    "tactic": "Weaponized Vocation",
+    "scene": "Year one, year two",
+    "phrase": "If you don't run it, those kids get nobody",
+    "pos": 2101
+   },
+   {
+    "tactic": "Gradual Escalation",
+    "scene": "Year one, year two",
+    "phrase": "Just for the spring",
+    "pos": 2506
+   },
+   {
+    "tactic": "Moving the Goalposts",
+    "scene": "The dashboard, and alone",
+    "phrase": "You're green across the board",
+    "pos": 3404
+   },
+   {
+    "tactic": "Isolation",
+    "scene": "The dashboard, and alone",
+    "phrase": "There's no other psychologist in any of your four buildings",
+    "pos": 4087
+   },
+   {
+    "tactic": "Spiritual Bypassing",
+    "scene": "Wellness Wednesday, and Jada",
+    "phrase": "You can't pour from an empty cup",
+    "pos": 5124
+   },
+   {
+    "tactic": "Learned Helplessness",
+    "scene": "The third February, and after",
+    "phrase": "This is your third February, and you don't ask",
+    "pos": 6970
+   },
+   {
+    "tactic": "Replacement",
+    "scene": "The third February, and after",
+    "phrase": "It would be a contract",
+    "pos": 8432
+   }
+  ]
+ }
+]
