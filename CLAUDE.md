@@ -2,6 +2,8 @@
 
 **Short on context? Read `docs/AI-QUICKSTART.md` first** — current live state and the exact commands, in one page.
 
+**Working on the Fractal project (Fractal, Fractal², Pattern Decoder, combinations, the explainer PDFs, the intro site)? Read `docs/FRACTAL-DIGEST.md` first.** It is a 2-minute summary of the project, the review verdict and the known defects, with a map of where everything lives. Do not read the book itself to get oriented.
+
 **Read `MEMORY.md` first, every session** — it's the actual cross-session
 memory in this environment (a fresh container has no access to anything
 outside this repo, so plugin-based memory tools don't carry over between
