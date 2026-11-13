@@ -1,0 +1,101 @@
+{
+ "date": "2026-11-13",
+ "branch": "claude/optimistic-clarke-86s6bg",
+ "owner": "Shae Stovell",
+ "read_first": [
+  "docs/handoff-2026-11-13/START-HERE.md",
+  "docs/handoff-2026-11-13/STEELMAN.md",
+  "design/fractal2/reports/why/BLUEPRINT.md",
+  "MEMORY.md",
+  "docs/FABLE-HANDOFF.md"
+ ],
+ "zip": "library/fractal2/review/Fractal-Handoff-2026-11-13.zip",
+ "deliverables": {
+  "pdf_master": {
+   "path": "library/fractal2/review/Why-I-Wrote-This.pdf",
+   "pages": 53,
+   "status": "built; needs the blueprint revision"
+  },
+  "pdf_foil": {
+   "path": "library/fractal2/review/Why-I-Wrote-This-for-Foil.pdf",
+   "pages": 56,
+   "status": "built; same body + letter + three asks"
+  },
+  "book1_audit": {
+   "path": "library/fractal2/review/The-Fractal-Book-1-Audit.pdf",
+   "pages": 15,
+   "status": "final"
+  },
+  "value_and_impact": {
+   "path": "library/fractal2/review/Fractal2-Value-and-Impact.pdf",
+   "pages": 25,
+   "status": "to be woven through the PDF (BLUEPRINT Part H)"
+  },
+  "superseded": "library/fractal2/review/Why-I-Wrote-The-Fractal.pdf"
+ },
+ "pdf_next_step": "Run BLUEPRINT.md Part G on Opus/Sonnet. First add rows for The Largest Body and The Origin history, and add design-director + no-ai-slop to its skills list.",
+ "defaults_pending_owner_confirmation": {
+  "origin_story": "verbatim content/fractal2/intro-final.md lines 271-282, test-locked",
+  "prayer": "not in body; six lines quoted in the publish-the-blueprint passage",
+  "war_map_laws": "Reference only, labelled one possible program",
+  "paper_child_and_calling_trap": "both editions",
+  "figure_check": "cite or soften school-psychologist ratio (~1:500) and referral disparity"
+ },
+ "counts": {
+  "fractal_chapters": 34,
+  "fractal_words": 245383,
+  "sectors_published": 26,
+  "sectors_framework": 30,
+  "examples_published": 2340,
+  "examples_claimed": 2700,
+  "ent_tactics": 335,
+  "ent_examples": 1005,
+  "ent_combos": 153,
+  "corp_combos": 138,
+  "combos_total": 291,
+  "decoder_entries": 310,
+  "playground_missions": 28,
+  "sacred_divide_traditions": 34
+ },
+ "book1_defects_unfixed": [
+  "Spiritual Bypassing and Financial Control one-line definitions swapped on all 26 sector pages",
+  "counts say 30/2,700 but 26/2,340 published",
+  "no outside sources in any chapter",
+  "'This is by design' x8 contradicts The Origin",
+  "Mirror numbers techniques differently",
+  "two chapter orders"
+ ],
+ "intro_site": {
+  "live": "https://fractal-entertainment.netlify.app/fractal2",
+  "intro_version": "v14",
+  "deploy": "6af58fe7d43ad699fbcbf1c9",
+  "netlify_site": "194814a7-0e80-4b68-b314-0c07911af55a",
+  "sector_site_live": "v2 (518 pages)",
+  "sector_site_built_not_deployed": "v3 skin",
+  "source": "design/fractal2/redesign/v9/",
+  "script": "content/fractal2/intro-v9.md",
+  "deploy_only_via": "scripts/film-gate.sh",
+  "open_items": [
+   "owner's own sentences for author's-lens captions",
+   "sound decision",
+   "hub page the final button leads to",
+   "real-iPhone crash confirmation",
+   "v14 not critic-scored",
+   "deploy decision for Entertainment v3",
+   "sites.json fractal2-ent / fractal-ent stale"
+  ]
+ },
+ "not_done": [
+  "handoff document for rebuilding the main site",
+  "cross-branch/repo sync (import 06-sector-rewrite brief and Decoder copyedit/flags files; fast-forward stale branches needs owner permission)",
+  "CLAUDE.md stale 'currently only wook' line; AI-QUICKSTART pointers; Decoder version (CLAUDE.md v14 vs sites.json v20)"
+ ],
+ "rules": [
+  "push only to claude/optimistic-clarke-86s6bg",
+  "nothing deployed without owner go-ahead",
+  "state skills/MCPs and token plan before starting",
+  "steelman before delivering",
+  "never invent tactics, combos, stats or quotes",
+  "never edit intro-final.md Part VI"
+ ]
+}

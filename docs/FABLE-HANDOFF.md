@@ -1,5 +1,9 @@
 # Handoff: Fractal² intro + the design system (updated 2026-11-12, v9 live)
 
+# 0e. 2026-11-13 thread handoff: READ `docs/handoff-2026-11-13/START-HERE.md` FIRST
+The "Why I Wrote This" PDFs (master 53 pp, Foil 56 pp), the Book 1 audit, the steelman and the blueprint for the final revision are described there, with every owner message verbatim (`OWNER-MESSAGES-VERBATIM.md`). Machine-readable state: `content/fractal2/thread-state-2026-11-13.json`. Zip: `library/fractal2/review/Fractal-Handoff-2026-11-13.zip`. Next: continue on the intro site (section 6 of START-HERE) and, separately, run `design/fractal2/reports/why/BLUEPRINT.md` Part G.
+
+
 ## 0a. v10, same day, after the owner's first real-iPhone test (deploy `6af540970b3f3398b447a284`)
 Owner report: captions "just appear and disappear" and do not move with the scroll; wanted the sector names to pass by at "I looked for a sector", and an inward list after "I am still looking" (self, body, genetics, ancestry, generational chains); the page kicked back to the start after the large map expanded, then crashed.
 - **Crash cause and fix:** the DOM camera put two 320%-sized images plus a CSS mask inside a `will-change` layer; on a 3x phone that is roughly 4,000 px square per layer and Safari killed the tab. The art is now drawn on ONE screen-sized canvas (`drawArt` in the template); phones load the 2048 px images and skip `orig-deep`. Do not go back to DOM images under a scaled parent.
