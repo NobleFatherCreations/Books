@@ -34,9 +34,9 @@ def parts():
 # ---------------------------------------------------------------- contents + how to read the map
 def contents(N, machine):
     groups = [("Why I wrote this", [1, 2, 3]), ("What I saw", [4, 5, 6, 7]), ("What I built to name it", [8, 9, 10]),
-              ("Why the order matters", [11, 12]), ("What was there first", [13, 14, 15]),
-              ("How change begins", [16, 17, 18, 19]), ("What these three works do", [20, 21, 22, 23, 24, 25]),
-              ("I can't do this alone", [26, 27]), ("Reference", ["R1", "R2", "R3", "R4", "R5"])]
+              ("Why the order matters", [11, 12]), ("What was there first", [13, 14, "14b", 15]),
+              ("How change begins", [16, 17, 18, "18b", 19]), ("What these three works do", [20, 21, 22, "22b", 23, 24, 25]),
+              ("I can't do this alone", [26, 27]), ("Reference", ["R1", "R2", "R3", "R4", "R5", "R6", "R7", "R8", "R9", "R10", "R11", "R12", "R13", "R14"])]
     inter = {1: "Before this page: The Trauma Bond Engine", 3: "Then: The Normalization Engine",
              7: "Then: The Public Shaming Ritual", 10: "Then: The Paper Child", 15: "Then: The Calling Trap"}
     rows = []
@@ -131,7 +131,7 @@ def ladder_plus(chunk):
 # ---------------------------------------------------------------- 10. one tactic through every work
 def one_tactic():
     return '''<div class="sec" id="one"><div class="kick">x</div><h2>One tactic through every work</h2>
-<p class="lede">Here's how the pieces fit, shown with one move: hot, then cold, then hot again.</p>
+<p class="lede">This shows how the pieces fit, using one move: hot, then cold, then hot again.</p>
 <p>The research name is <em>intermittent reinforcement</em>. Watch it move from a definition to words a ten-year-old can use.</p>
 <div class="strip">
 <div><i>1 · The Pattern Decoder</i><b>Names it</b><p>"Giving out affection, praise or kindness rarely and at unpredictable times. The few good moments then hold a person tighter than steady warmth would."</p><p class="q">It can sound like: "See, this is how it could always be, if you tried a bit harder."</p></div>
@@ -139,8 +139,8 @@ def one_tactic():
 <div><i>3 · Fractal², Entertainment</i><b>Finds the exact version</b><p><b>Person:</b> "Your manager calls you a genius one week and ignores your texts the next."</p><p><b>Institution:</b> playlist placements that arrive without explanation, keeping artists pitching.</p><p><b>Civilization:</b> the lottery logic that anyone could blow up overnight.</p></div>
 <div><i>4 · The combinations</i><b>Shows where it sits in a life</b><p>It opens The Trauma Bond Engine: "screams at you one day, hand on your shoulder the next." It appears in 9 of the 153 Entertainment combinations, usually early: on average third of six or seven moves, in the first half of the chain in 6 of 9. It softens the ground for what follows.</p></div>
 <div><i>5 · Playground Protectors</i><b>Gives a child the word</b><p>"The Hot-and-Cold Game." Week one, Furbie saves you a seat. Week two, he looks through you. Week three, he acts like nothing happened.</p><p class="q">The power-up: Steady Sunshine. "Your job is not to turn your heat up to compensate. Your job is to stay at your own steady temperature."</p></div></div>
-<p class="pull">One move. Five resolutions. From a research term to words a ten-year-old can use.</p>
-<p>That's the system. The Decoder holds the definitions. The Fractal proves the pattern crosses all thirty sectors. Fractal² applies the Decoder's tactics to one sector at three scales. The combinations put the tactics in the order a life actually meets them. Playground Protectors gets the word to a child before the move does.</p>
+<p class="pull">One move at five resolutions, from a research term to words a ten-year-old can use.</p>
+<p>The Decoder holds the definitions. The Fractal proves the pattern crosses all thirty sectors. Fractal² applies the Decoder's tactics to one sector at three scales. The combinations put the tactics in the order a life meets them. Playground Protectors gets the word to a child before the move does.</p>
 <p class="small">One honest seam: The Fractal files this move under Stage 4 (Confuse); Fractal² files it under Stage 3 (Devalue). It does both jobs. I'll make the two agree.</p></div>'''
 
 # ---------------------------------------------------------------- 11. why the order matters, opened with the strongest argument
@@ -163,7 +163,7 @@ def frequency_plus(chunk):
     sounds = "".join(f"<li>{e(l[len('It sounds like '):])}</li>" for l in s if l.startswith("It sounds like"))
     return add(chunk, f'''<h3>What it sounds like</h3><p class="small">From the last chapter of The Fractal, in my words:</p><ul class="sounds">{sounds}</ul>
 <p class="pull">You did not get here by going up. You went down.</p>
-<p>That's the shape of the whole book, and of this document. Out into the sectors. In, to the mirror and the body. Back, along the chain. Then down to the ground: the frequency. The ending isn't a summit. It's the floor under your feet, which was there before any of this.</p>
+<p>That's the shape of the whole book, and of this document. Out into the sectors. In, to the mirror and the body. Back, along the chain. Then down to the ground: the frequency. The ending is the floor under your feet, which was there before any of this.</p>
 <p>The pause is where the original impulse lives. The cycle didn't stop because you named it. But you can now catch it in the instant between the move and your response. <strong>That instant is the frequency.</strong></p>''')
 
 # ---------------------------------------------------------------- 15. your life, sector by sector
@@ -228,21 +228,16 @@ def sector_cards():
 
 # ---------------------------------------------------------------- 16. machines feed machines (school)
 def machines(intro11, connect):
-    connect = connect.replace("<h3>How the five connect</h3>", "")
+    pass
     return f'''<div class="sec" id="mach"><div class="kick">x</div><h2>Five machines, one school</h2>
 <p class="lede">You've now met all five. They all happen inside the same building. I chose a school because that's where most of us met our first machine, before we had the language to see it.</p>
 <p>The first three are from my Education scripts. The last two are composites I wrote for the people who work in schools, because the pattern runs through their hands, and on them too. Every scene is a composite. Yours may differ.</p>
-<p>Here's what I didn't see until I put them side by side. <strong>The machines feed each other.</strong> Each one hands its output to the next.</p>{connect}
-<div class="box"><h4>Slow it down, and bring someone in</h4><p>Every chain breaker in these five restores one of two things: <strong>time</strong> (a pause, a written record, a delay before signing) or <strong>a witness</strong> (someone outside the system who can see what you can't). Look back at the breakers in each interlude. "Separate the pain from the meaning" buys time. "Ask someone outside the system" brings a witness. "Meet the child before the file" does both. If there's one rule in the whole work, it's that one.</p></div>
+<p>When I put them side by side, I saw that <strong>the machines feed each other.</strong> Each one hands its output to the next.</p>{connect}
+<div class="box"><h4>Slow it down, and bring someone in</h4><p>Every chain breaker in these five restores one of two things: <strong>time</strong> (a pause, a written record, a delay before signing) or <strong>a witness</strong> (someone outside the system who can see what you can't). Look back at the breakers in each interlude. "Separate the pain from the meaning" buys time. "Ask someone outside the system" brings a witness. "Meet the child before the file" does both.</p></div>
 <div class="box plain"><h4>What separates harm reduction from content about harm</h4><p>The quiet parts. Each full combination also has a <em>false-positive check</em> (the innocent explanations, taken seriously), <em>evidence to keep</em>, <em>escalation levels</em> ending at "safety first, do not confront," and <em>safer wording</em>. Those parts protect a reader from accusing someone wrongly, stop the map becoming a weapon, and are what a clinician or lawyer will look for first. Popular content about manipulation almost never has them.</p></div>
 <h3>What the first sector's data shows</h3>
-<p>I checked two of my own claims against the 153 Entertainment combinations instead of just asserting them.</p>
-<table class="small"><tr><th>Family of combination</th><th class="n">Count</th></tr>
-<tr><td>Accountability Evasion</td><td class="n">26</td></tr><tr><td>Conditioning &amp; Behavioral Shaping</td><td class="n">24</td></tr>
-<tr><td>Exit Prevention &amp; Entrapment</td><td class="n">17</td></tr><tr><td>Social Warfare</td><td class="n">17</td></tr>
-<tr><td>Capture &amp; Attachment</td><td class="n">13</td></tr><tr><td>Institutional &amp; Systemic</td><td class="n">13</td></tr>
-<tr><td>Specialized Exploitation</td><td class="n">13</td></tr><tr><td>Reality Distortion &amp; Perception Control</td><td class="n">10</td></tr>
-<tr><td>Digital &amp; Technological</td><td class="n">10</td></tr><tr><td>Identity &amp; Psychological Destruction</td><td class="n">10</td></tr></table>
+<p>I checked two of my own claims against the 153 Entertainment combinations instead of asserting them.</p>
+<figure class="fig"><div class="bars"><div class="l">Accountability Evasion</div><div><div class="b me" style="width:100%"></div></div><div class="v">26</div><div class="l">Conditioning &amp; Behavioral Shaping</div><div><div class="b me" style="width:92%"></div></div><div class="v">24</div><div class="l">Exit Prevention &amp; Entrapment</div><div><div class="b me" style="width:65%"></div></div><div class="v">17</div><div class="l">Social Warfare</div><div><div class="b me" style="width:65%"></div></div><div class="v">17</div><div class="l">Capture &amp; Attachment</div><div><div class="b me" style="width:50%"></div></div><div class="v">13</div><div class="l">Institutional &amp; Systemic</div><div><div class="b me" style="width:50%"></div></div><div class="v">13</div><div class="l">Specialized Exploitation</div><div><div class="b me" style="width:50%"></div></div><div class="v">13</div><div class="l">Reality Distortion &amp; Perception Control</div><div><div class="b me" style="width:38%"></div></div><div class="v">10</div><div class="l">Digital &amp; Technological</div><div><div class="b me" style="width:38%"></div></div><div class="v">10</div><div class="l">Identity &amp; Psychological Destruction</div><div><div class="b me" style="width:38%"></div></div><div class="v">10</div></div><figcaption>Combinations per family, Entertainment &amp; Music (153). All ten families appear. The Corporate sector (138) is not in the repository yet, so I can't yet show whether the same mix holds there.</figcaption></figure>
 <p><strong>The turning point.</strong> Each combination names its key conversion point. In a sample of ten, seven turned at the moment the person starts running the machine on themselves: the artist who posts the inflated number, the singer who says "I'll do another" without being asked. In the other three the turn was a move by the other side ("you've already signed"). So the honest claim is: most combinations turn when the target takes over the work. That's the moment to watch for.</p></div>'''
 
 # ---------------------------------------------------------------- 18. war map, restored in the owner's words
@@ -267,9 +262,10 @@ def war_map_plus(chunk):
     f2 = f2.split("\n", 2)[2]
     keep3 = "".join(md(sect(t)) for t in ["### 1. Change the Metrics", "### 3. Change the Narratives", "### 4. Restore the Commons", "### 5. Build Intergenerational Memory", "### 6. Practice the Unmonetizable"])
     child = md(sect("### 4. Protect the Children"))
+    f1 = md(sect("### 1. Learn to Detect the Cycle in Real Time")) + md(WAR[WAR.index("### 2. Build Technique Immunity"):WAR.index("### 3. Reclaim the Original Impulse")])
     return add(chunk, f'''<h3>The war map, in full, in my words</h3>
 <p class="small">The summary above is the shape. Here is the detail I wrote for the series. The laws list sits in R4, labelled as one possible program; the map doesn't depend on it.</p>
-<div class="wm">{child}<h3>Front 2 · The building war</h3>{md(f2)}<h3>Front 3 · The civilizational war</h3>{keep3}</div>''')
+<div class="wm"><h3>Front 1 · The inner war</h3>{f1}{child}<h3>Front 2 · The building war</h3>{md(f2)}<h3>Front 3 · The civilizational war</h3>{keep3}</div>''')
 
 # ---------------------------------------------------------------- 20. who this is for
 def need():
@@ -301,7 +297,7 @@ def mechanisms():
     def meter(k): return '<span class="meter">' + "".join(f'<i class="{"on" if j < k else ""}"></i>' for j in range(3)) + "</span>"
     tr = "".join(f"<tr><td><b>{a}</b></td><td>{b}</td><td>{c}</td><td>{meter(k)}<br><span class='strength'>{s}</span></td></tr>" for a, b, c, k, s in M)
     return f'''<div class="sec" id="mech"><div class="kick">x</div><h2>How it helps, and how sure I can be</h2>
-<p class="lede">I believe this work helps people. Here's how I think it does, and how strong the evidence is for each piece. Some of it is strong. Some of it is my reasoning.</p>
+<p class="lede">I believe this work helps people. This is how I think it does, and how strong the evidence is for each piece. Some of it is strong. Some of it is my reasoning.</p>
 <table class="mech"><tr><th>How it helps</th><th>What the work does</th><th>What is known</th><th>Evidence</th></tr>{tr}</table>
 <div class="box"><h4>The most valuable unknown</h4><p>Nobody has yet measured whether reading this work changes what happens to a person. Every row above is evidence that it should. None is evidence that it does. That question can be answered cheaply, and the answer is worth more than any praise. It's one of the things I'm asking for help with.</p></div>
 <p>The research also limits my favourite phrase, "a trick explained stops working." The honest version: <strong>a named trick is harder to run, and knowing is the closest thing to immunity.</strong> Recognition fades without reminders. That's what a reference work is for. Every return visit is a booster.</p></div>'''
@@ -318,7 +314,7 @@ def precedents():
          ("2013", "ATT&amp;CK", "A small team at MITRE. A free catalogue of attacker behaviour.", "The shared language of a whole profession.")]
     tl = "".join(f'<div class="tl"><i>{y}</i><b>{n}</b><p>{w}</p><p class="out">{o}</p></div>' for y, n, w, o in T)
     return f'''<div class="sec" id="prec"><div class="kick">x</div><h2>This is how work like this has always started</h2>
-<p class="lede">One person, or a small group, making a map and giving it away. That's not unusual. It's the normal origin of this kind of work.</p>
+<p class="lede">One person, or a small group, making a map and giving it away. That is the normal origin of this kind of work.</p>
 <div class="timeline">{tl}</div>
 <h3>Six things they had in common</h3>
 <ol class="disc"><li><strong>They came from lived experience.</strong> Their authority came from fit: the people described looked at the map and said "yes, that's it." Scholarship came later.</li>
@@ -361,10 +357,10 @@ def horizon_plus(chunk):
 # ---------------------------------------------------------------- 24. what these three works do (the expanded finale)
 def worth():
     return '''<div class="sec" id="worth"><div class="kick">x</div><h2>What these three works do for people</h2>
-<p class="lede">Here's everything above, gathered into one answer.</p>
+<p class="lede">Everything above, gathered into one answer.</p>
 <div class="worth"><div><b>To one person</b><p>A name for something they've carried without one. A reason to believe themselves. A way to see the next step before it lands. Words to say. A list of what to keep. A warning about when not to act alone. It costs nothing and asks for no sign-up. For someone inside a sequence, or about to sign into one, that can be the difference between years lost and years kept.</p></div>
 <div><b>To the people who help</b><p>A shared vocabulary across fields. A school psychologist, an advocate and a union rep can each say "that's the Normalization Engine" and be understood. That hasn't existed before, and it's how separate efforts start working as one.</p></div>
-<div><b>To a society</b><p>The cycle depends on three things a map can reach: <strong>namelessness</strong>, each person believing <strong>they're the only one</strong>, and <strong>deniability</strong>. A public map, with every sequence written down in advance, is witnessing at scale. The pattern keeps running. It just gets more expensive to run everywhere the map has been read.</p></div></div>
+<div><b>To a society</b><p>The cycle depends on three things a map can reach: <strong>namelessness</strong>, each person believing <strong>they're the only one</strong>, and <strong>deniability</strong>. A public map, with every sequence written down in advance, is witnessing at scale. The pattern keeps running. It gets more expensive to run everywhere the map has been read.</p></div></div>
 <h3>Through the three levels</h3>
 <table><tr><th></th><th>The Fractal (see)</th><th>Fractal² and the Decoder (name)</th><th>The combinations (break)</th><th>The Frequency (return)</th></tr>
 <tr><td><b>A person</b></td><td>"It wasn't just me." The blame moves.</td><td>The exact name for the exact thing.</td><td>The next step, seen before it lands. The exit.</td><td>The pause. The need, met without the gate.</td></tr>
@@ -373,7 +369,7 @@ def worth():
 <figure class="fig illus"><div class="ill"><div><b>100,000</b><span>readers of one sector in a year</span></div><div class="ar">→</div><div><b>1 in 50</b><span>recognise a sequence they're in or about to enter</span></div><div class="ar">→</div><div><b>2,000</b><span>people with a name, a self-check, a script and a safety note, at no cost</span></div></div>
 <figcaption><strong>An illustration, not a forecast. The numbers are invented.</strong> The shape is real: the cost per person is zero, the harms are among the most common there are, and the map doesn't wear out. Thirty sectors and ten years turn that into hundreds of thousands. Then count the reader who is a therapist and passes it to forty clients a year.</figcaption></figure>
 <p>That's what I mean when I say these works help people. Not that they fix the world. That they put words, warnings and a way out into the hands of people who never had them, and they keep doing it for free, for as long as anyone reads.</p>
-<p>Now let me show you what I see when I imagine it actually landing.</p></div>'''
+<p>Now let me show you what I see when I imagine it landing.</p></div>'''
 
 # ---------------------------------------------------------------- 26. ask additions
 def ask_plus(chunk):
@@ -385,7 +381,18 @@ def ask_plus(chunk):
     return add(chunk, extra, before=True)
 
 # ---------------------------------------------------------------- 27. the levers, and the point
-def levers():
+def v1_body(chunk):
+    """An edition-1 section folded into another section: drop its kicker and title, keep everything else."""
+    chunk = re.sub(r'<div class="kick">.*?</div>', "", chunk, count=1, flags=re.S)
+    chunk = re.sub(r"<h2[^>]*>(.*?)</h2>", r"<h3>\1</h3>", chunk, count=1, flags=re.S)
+    return '<div class="add">' + re.sub(r'^<div class="sec[^"]*"[^>]*>', "<div>", chunk) + "</div>"
+
+def first_edition_note():
+    return '''<div class="sec" id="fe"><div class="kick">From the first edition</div><h2>The first edition's tables, kept whole</h2>
+<p class="lede">These are the tables from the first version of this document, unchanged, so nothing from it is lost.</p>
+<p>Where a cell carries a dagger (†), the first edition filled it in for me, because my own wording for it wasn't in that draft. My own words for every one now appear in the body: the thirty original impulses with their full definitions and practices in Section 14, the thirty counter-practices in the war map in Section 18, and a reclamation practice for every sector on the cards in Section 15. Where they differ, the body is right.</p></div>'''
+
+def levers(old23=""):
     L = [("Open loop", "The opening (\"what if I didn't tell you?\") and the question at the top of every movement. An unfinished question pulls you forward."),
          ("Narrative transportation", "Five full scenes in the second person. A story you're inside lowers counter-arguing."),
          ("Concrete before abstract", "The basketball coach before the theory. The body recognises first."),
@@ -407,12 +414,13 @@ def levers():
     return f'''<div class="sec" id="levers"><div class="kick">x</div><h2>You may have noticed</h2>
 <p class="lede">If you're a psychologist, you probably caught some of these. I used them on purpose, all the way through.</p>
 <table class="small lev"><tr><th>Lever</th><th>Where I used it on you</th></tr>{tr}</table>
+<h3>What I did, and why I think it's fair</h3>{v1_body(old23).replace('<h3>How this document was built to persuade you</h3>', '')}
 <p>I didn't use these to explain psychology to someone with far more formal training in it than me. I'd lose that contest.</p>
 <p>I used them to make one point.</p>
 <p class="pull">Most people who read this didn't spot the levers while they were working.</p>
 <p>They're the same kind of levers. Story before argument. Warmth before the ask. A frame that decides what counts as evidence. Small steps that feel like your own choice. In this document they were used in the open, with the limits stated first, and with nothing to lose by saying no.</p>
 <p>Now imagine them used in private. On a woman whose partner is running the cycle on her. The warmth came first. The future was painted next. The small reasonable requests came after that. Each step removed her defence against the next. She is intelligent and careful, and she doesn't see it, because nobody ever gave her the words or the map. The levers worked on her the same way they just worked on you, except nobody listed them at the end.</p>
-<p>That's the difference between persuasion and coercion. It isn't the levers. It's whether you can see them, and whether you're free to leave.</p>
+<p>The levers can be identical. What separates persuasion from coercion is whether you can see them, and whether you're free to leave.</p>
 <p><strong>That's why I wrote this.</strong> So that list exists for everyone, before they need it. Help me put it in front of them.</p></div>'''
 
 # ---------------------------------------------------------------- reference additions

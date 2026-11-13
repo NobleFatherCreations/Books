@@ -25,7 +25,7 @@ machine = re.search(r'<figure class="fig">.*?</figure>', qs, re.S).group(0)
 
 # ---- edition-2 sections, keyed by their old kicker number
 rest = body[body.index('<div class="sec" id="s1">'):]
-rest = re.sub(r'<div class="part">.*?</div>\s*', "", rest, flags=re.S)
+rest = re.sub(r'<div class="part[^"]*">.*?</div>\s*', "", rest, flags=re.S)
 rest = re.sub(r"</section>\s*$", "", rest.strip())
 OLD, cur = {}, None
 for c in re.split(r'(?=<div class="sec)', rest):
@@ -45,6 +45,16 @@ OLD = {k: OLDREF.sub(remap, v) for k, v in OLD.items()}
 def kick(chunk, n, label):
     """Replace the first kicker with the new number and label."""
     return re.sub(r'<div class="kick">[^<]*</div>', f'<div class="kick">{n} · {label}</div>', chunk, count=1)
+
+# ---- edition 1 (the first 21-page build): nothing is dropped. Sections v2 left out go back into the story; v1's own
+# versions of the tables go into an appendix at the back.
+V1 = (HERE.parent / "why-i-wrote-this.html").read_text()
+V1 = V1[V1.index("<body"):]
+v1s = {}
+for c in re.split(r'(?=<div class="sec)', V1)[1:]:
+    t = re.search(r"<h2[^>]*>(.*?)</h2>", c, re.S)
+    if t: v1s[re.sub(r"<[^>]+>", "", t.group(1))] = re.sub(r"</section>.*$", "", c, flags=re.S).replace('class="sec pb"', 'class="sec"')
+def v1(title): return v1s[title]
 
 # ---- split the old "five combinations" section into its parts
 c11 = OLD[11]
@@ -141,34 +151,47 @@ parts_html = [
     sec(10, "One move, five works", C.one_tactic(), "One tactic through every work"),
     v2_interlude(combos_v2[3]),
     P[4],
-    sec(11, "The combinations", C.order_plus(OLD[10]), "Why the order matters"),
+    sec(11, "The combinations", C.order_plus(OLD[10]) + C.v1_body(v1("Why the order matters, and how combinations help people")), "Why the order matters"),
     sec(12, "Connections", OLD[12], "What the whole map shows that no single chapter says"),
     P[5],
     sec(13, "The frequency", C.frequency_plus(OLD[8]), "Why the pattern feels familiar, and what interrupts it"),
     sec(14, "What was there first", OLD[4], "The thirty original impulses"),
+    sec("14b", "Turned inward", v1("The cage and the intent: accountability without shame"), "The cage and the intent: accountability without shame"),
     sec(15, "Your life, sector by sector", C.sector_cards(), "Your life, sector by sector"),
     v2_interlude(combos_v2[4]),
     P[6],
     sec(16, "Machines feed machines", C.machines(intro11, connect), "Five machines, one school"),
     sec(17, "The positive blueprint", OLD[13], "What a clean system looks like"),
     sec(18, "The war map", C.war_map_plus(OLD[14]), "How this turns into real change"),
+    sec("18b", "Three fractals of change", v1("The three fractals of making change"), "The three fractals of making change"),
     sec(19, "Children and schools", OLD[15], "Where the pattern starts, and where it's easiest to stop"),
     P[7],
     sec(20, "Who it is for", C.need(), "Who this is for, in numbers"),
     sec(21, "How it helps", C.mechanisms(), "How it helps, and how sure I can be"),
     sec(22, "Precedent", C.precedents(), "This is how work like this has always started"),
+    sec("22b", "What I hope this does", v1("What I hope this does"), "What I hope this does"),
     sec(23, "The horizon", C.horizon_plus(OLD[16]), "What this can become"),
     sec(24, "What it is worth", C.worth(), "What these three works do for people"),
     sec(25, "The best case", OLD[17], "The world that saw it"),
     P[8],
     sec(26, "The ask", C.ask_plus(OLD[18]), "I've mapped it. I can't carry it alone."),
-    sec(27, "One more thing", C.levers(), "You may have noticed"),
+    sec(27, "One more thing", C.levers(OLD[23]), "You may have noticed"),
     P["ref"],
     sec("R1", "Tools", OLD[19], "Trace it, interrupt it, audit your own system"),
     sec("R2", "Reading it whatever you believe", C.lenses_plus(OLD[20]), "Three lenses, one shape"),
     sec("R3", "Honest limits", C.limits_plus(OLD[21]), "What this is and is not"),
     sec("R4", "One possible program", C.laws(), "The laws list from the war map"),
     sec("R5", "From the series", C.slides_plus(OLD[22]), "The thirty inversions, and the whole map"),
+    C.first_edition_note(),
+    sec("R6", "From the first edition", v1("The eight stages, and what each one counterfeits"), "The eight stages, and what each one counterfeits (first edition)"),
+    sec("R7", "From the first edition", v1("Thirty techniques, and the real needs they imitate"), "Thirty techniques, and the real needs they imitate (first edition)"),
+    sec("R8", "From the first edition", v1("Thirty sectors: our relationship with every need"), "Thirty sectors: our relationship with every need (first edition)"),
+    sec("R9", "From the first edition", v1("One pattern at three levels"), "One pattern at three levels (first edition)"),
+    sec("R10", "From the first edition", v1("What this means for children and schools"), "What this means for children and schools (first edition)"),
+    sec("R11", "From the first edition", v1("What this is and is not"), "What this is and is not (first edition)"),
+    sec("R12", "From the first edition", v1("Three lenses, one shape"), "Three lenses, one shape (first edition)"),
+    sec("R13", "From the first edition", v1("Why these books exist"), "Why these books exist (first edition)"),
+    sec("R14", "From the first edition", v1("What I built, in numbers"), "What I built, in numbers (first edition)"),
 ]
 doc = "\n".join(parts_html)
 

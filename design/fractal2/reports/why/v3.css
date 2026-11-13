@@ -111,3 +111,5 @@ table.mech td:nth-child(1){width:19%} table.mech td:nth-child(2){width:23%} tabl
 .ill .ar{font-size:1.4rem;color:var(--gold)}
 table.lev td:first-child{width:28%}
 .fig.full img{width:100%;max-width:150mm;display:block;margin:0 auto;border-radius:50%}
+.dag{color:var(--gold);font-weight:700;margin-left:1px;font-family:var(--sans);font-size:.8em}
+.nest{display:flex;justify-content:center;margin:1em 0 .4em;break-inside:avoid}

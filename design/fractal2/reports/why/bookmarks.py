@@ -6,8 +6,8 @@ import pdfplumber
 from pypdf import PdfReader, PdfWriter
 src, dst, doc = sys.argv[1:4]
 h = open(doc).read()
-items = [("part", html.unescape(m.group(1))) if m.group(1) else ("sec", html.unescape(m.group(2)))
-         for m in re.finditer(r'<div class="part"><i>[^<]*</i><h2>([^<]*)</h2>|<a id="sec[^"]+"></a><div class="sec"[^>]*><div class="kick">[^<]*</div><h2>([^<]*)</h2>', h)]
+items = [("part", html.unescape(m.group(1))) if m.group(1) else ("sec", html.unescape(re.sub(r"<[^>]+>", "", m.group(2))))
+         for m in re.finditer(r'<div class="part"><i>[^<]*</i><h2>([^<]*)</h2>|<a id="sec[^"]+"></a>(?:(?!<h2).){0,600}?<h2[^>]*>(.*?)</h2>', h, re.S)]
 texts = []
 with pdfplumber.open(src) as pdf:
     texts = [re.sub(r"\s+", " ", p.extract_text() or "") for p in pdf.pages]
