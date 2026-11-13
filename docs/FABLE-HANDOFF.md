@@ -1,7 +1,7 @@
 # Handoff: Fractal² intro + the design system (updated 2026-11-12, v9 live)
 
 # 0e. 2026-11-13 thread handoff: READ `docs/handoff-2026-11-13/START-HERE.md` FIRST
-The "Why I Wrote This" PDFs (master 53 pp, Foil 56 pp), the Book 1 audit, the steelman and the blueprint for the final revision are described there, with every owner message verbatim (`OWNER-MESSAGES-VERBATIM.md`). Machine-readable state: `content/fractal2/thread-state-2026-11-13.json`. Zip: `library/fractal2/review/Fractal-Handoff-2026-11-13.zip`. Next: continue on the intro site (section 6 of START-HERE) and, separately, run `design/fractal2/reports/why/BLUEPRINT.md` Part G.
+The "Why I Wrote This" PDFs (master 53 pp, Foil 56 pp), the Book 1 audit, the steelman and the blueprint for the final revision are described there, with every owner message verbatim (`OWNER-MESSAGES-VERBATIM.md`). Machine-readable state: `content/fractal2/thread-state-2026-11-13.json`. Download-only zip (not in the repo; contents are): see START-HERE section 2. Also read `content/fractal2/design/FAILURE-LOG.md`, `docs/handoff-2026-11-13/MANUAL-STEPS.md`, and `docs/SYSTEM-MEMORY-PROMPT.md` (prompt that builds a whole-repo memory). Next: continue on the intro site (section 6 of START-HERE) and, separately, run `design/fractal2/reports/why/BLUEPRINT.md` Part G.
 
 
 ## 0a. v10, same day, after the owner's first real-iPhone test (deploy `6af540970b3f3398b447a284`)

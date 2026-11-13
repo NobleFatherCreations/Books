@@ -77,6 +77,7 @@ A PDF explaining the whole Fractal body of work to a friend (Von "Foil" Saunders
 | 9 | The War Map, pasted twice | Condensed to a sentence; left out the laws twice by my own choice | Steelman |
 | 10 | Pasted three combos and asked for a fourth for the psychologist, then asked for another on a different lens | Wrote both (Paper Child, Calling Trap) without having been told Foil's region, ages or main complaint; marked as assumptions, but the facts in them (staffing ratio, referral disparity) are unverified | Open |
 | 11 | "Steelman your output against everything I provided" | Not done before delivering; the owner had to request it | |
+| 12 | Handoff ask: "everything from this conversation needed for a new chat" | First zip's "OWNER-MESSAGES-VERBATIM.md" claimed to be 47 owner messages but included injected skill documents, sub-agent hand-backs and system notes; caught only when the package was audited | Fixed: rebuilt with 20 genuine owner messages plus a separate context-summary file |
 
 ### 2.3 Specific content failures
 - **No steelman before delivery.** The audit found: no sector-by-sector, level-by-level account of the good it does; the playbook (Pattern Decoder) got one sentence; Value-and-Impact not woven in; psychological levers absent across ~25 middle pages; `no-ai-slop` promised but never run; `design-director` never run.

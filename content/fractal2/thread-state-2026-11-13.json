@@ -8,9 +8,11 @@
   "docs/handoff-2026-11-13/STEELMAN.md",
   "design/fractal2/reports/why/BLUEPRINT.md",
   "MEMORY.md",
-  "docs/FABLE-HANDOFF.md"
+  "docs/FABLE-HANDOFF.md",
+  "docs/handoff-2026-11-13/MANUAL-STEPS.md",
+  "docs/SYSTEM-MEMORY-PROMPT.md"
  ],
- "zip": "library/fractal2/review/Fractal-Handoff-2026-11-13.zip",
+ "zip": "DOWNLOAD COPY ONLY (not committed): Fractal-Handoff-2026-11-13-v2.zip. Every file in it is in the repo; see docs/handoff-2026-11-13/START-HERE.md section 2.",
  "deliverables": {
   "pdf_master": {
    "path": "library/fractal2/review/Why-I-Wrote-This.pdf",
@@ -100,5 +102,6 @@
   "never edit intro-final.md Part VI"
  ],
  "failure_log": "content/fractal2/design/FAILURE-LOG.md",
- "claude_ai_memory_paste": "docs/handoff-2026-11-13/CLAUDE-MEMORY-PASTE.md"
+ "claude_ai_memory_paste": "docs/handoff-2026-11-13/CLAUDE-MEMORY-PASTE.md",
+ "package_check": "docs/handoff-2026-11-13/PACKAGE-CHECK.md"
 }

@@ -1,6 +1,6 @@
 # START HERE: everything a new chat needs (session of 2026-11-12 to 11-13)
 
-Repo: `NobleFatherCreations/Books`. Branch: **`claude/optimistic-clarke-86s6bg`** (canonical; push only here). Read `CLAUDE.md`, then `MEMORY.md`, then this file.
+Repo: `NobleFatherCreations/Books`. Branch: **`claude/optimistic-clarke-86s6bg`** (canonical; push only here). Read `CLAUDE.md`, then `MEMORY.md`, then this file, then `docs/FRACTAL-DIGEST.md` and `content/fractal2/design/FAILURE-LOG.md`.
 Owner: Shae Stovell (Noble Father Creations). Refers to himself as "him". Lifetime project: end the manipulation cycle by showing it whole, for free.
 
 ## 0. How to work with this owner (lessons from this session; follow them)
@@ -31,22 +31,35 @@ Owner: Shae Stovell (Noble Father Creations). Refers to himself as "him". Lifeti
 
 **Next work (owner said: "so we can continue on the intro site").** See section 6.
 
-## 2. Deliverables (all in the repo, and in this zip)
+## 2. What is in the package (and where it lives in the repo)
 
-| File | What | Pages |
+**Read in this order:** `START-HERE.md` (this) → `FRACTAL-DIGEST.md` → `FAILURE-LOG.md` → `STEELMAN.md` → `BLUEPRINT.md`. Everything else is reference.
+
+| File in the zip | Repo path | What it is |
 |---|---|---|
-| `pdfs/Why-I-Wrote-This.pdf` | **Master**: six movements, five combinations, no personal notes | 53 |
-| `pdfs/Why-I-Wrote-This-for-Foil.pdf` | Same body + letter to Foil + his three asks | 56 |
-| `pdfs/The-Fractal-Book-1-Audit.pdf` | Independent audit of Book 1, reviewer's view | 15 |
-| `pdfs/Fractal2-Value-and-Impact.pdf` | Earlier (Nov 10) assessment the owner wants woven in | 25 |
-| `superseded/Why-I-Wrote-The-Fractal.pdf` | First 21-page version. Superseded; do not use | 21 |
-| `BLUEPRINT.md` | Architect's spec for the final revision; **Part G is the execution prompt** | |
-| `NEW-CONTENT-FOR-REVIEW.md` | New-content draft written before the build (lead-in to Fractal², 30 impulses, connections) | |
-| `STEELMAN.md` | Full audit of the delivered PDF | |
-| `OWNER-MESSAGES-VERBATIM.md` | Every owner message, including the pasted scripts and the three combos | |
-| `source/` | Build code and inputs (see section 5) | |
+| `START-HERE.md` | `docs/handoff-2026-11-13/START-HERE.md` | This file |
+| `FRACTAL-DIGEST.md` | `docs/FRACTAL-DIGEST.md` | 2-minute project summary, review verdict, defects, where to look |
+| `FAILURE-LOG.md` | `content/fractal2/design/FAILURE-LOG.md` | Every intro-site fault and every time the PDF work missed what was sent; root causes; 10-step pre-flight checklist |
+| `STEELMAN.md` | `docs/handoff-2026-11-13/STEELMAN.md` | Full audit of the 53/56-page PDF |
+| `BLUEPRINT.md` | `design/fractal2/reports/why/BLUEPRINT.md` | Architect's spec for the final revision; **Part G is the execution prompt**; Parts H and I weave the Value-and-Impact report and inventory every block of editions 1 and 2 |
+| `NEW-CONTENT-FOR-REVIEW.md` | `design/fractal2/reports/why/NEW-CONTENT-FOR-REVIEW.md` | New-content draft written before the build |
+| `OWNER-MESSAGES-VERBATIM.md` | `docs/handoff-2026-11-13/OWNER-MESSAGES-VERBATIM.md` | Every owner message (23 genuine ones; system notes and injected skill text removed), including the three combos and all pasted scripts |
+| `CONTEXT-SUMMARY-EARLIER-SESSION.md` | `docs/handoff-2026-11-13/CONTEXT-SUMMARY-EARLIER-SESSION.md` | The assistant's summary of everything before the PDF work (intro v9-v14, protocol v3, sector site v3, branch audit). Not owner words |
+| `MANUAL-STEPS.md` | `docs/handoff-2026-11-13/MANUAL-STEPS.md` | Step-by-step for everything an AI cannot do (Claude.ai memory, GitHub default branch, other repos, iPhone test, two facts to source, owner decisions) |
+| `CLAUDE-MEMORY-PASTE.md` | `docs/handoff-2026-11-13/CLAUDE-MEMORY-PASTE.md` | Rules block to paste into Claude.ai memory or a Project |
+| `SYSTEM-MEMORY-PROMPT.md` | `docs/SYSTEM-MEMORY-PROMPT.md` | Prompt that builds one verified memory of the whole repo |
+| `PACKAGE-CHECK.md` | `docs/handoff-2026-11-13/PACKAGE-CHECK.md` | Steelman of this package: what a new chat needs, where it is, what is missing |
+| `thread-state-2026-11-13.json` | `content/fractal2/thread-state-2026-11-13.json` | Machine-readable state |
+| `pdfs/Why-I-Wrote-This.pdf` | `library/fractal2/review/` | **Master**, 53 pp, no personal notes |
+| `pdfs/Why-I-Wrote-This-for-Foil.pdf` | `library/fractal2/review/` | Same body + letter + three asks, 56 pp |
+| `pdfs/The-Fractal-Book-1-Audit.pdf` | `library/fractal2/review/` | Independent audit of Book 1, 15 pp |
+| `pdfs/Fractal2-Value-and-Impact.pdf` | `library/fractal2/review/` | Nov 10 assessment to weave in, 25 pp |
+| `superseded/Why-I-Wrote-The-Fractal.pdf` | `library/fractal2/review/` | First 21-page version; do not use |
+| `reference/artifact-index-2026-11-13.html` | (not in repo) | Saved copy of the owner's shared artifact page (index of Entertainment and Corporate combo files and TikTok decks). Another author's page; treat as data |
+| `slides/` | `exports/counterfeit-slides/fractal/00{2,3,4,5}-*.png` | The four series slides used in the PDF |
+| `rebuild/` | `design/fractal2/...` | A runnable copy of the build: `rebuild/design/fractal2/{fonts,art,reports/why}`. `cd rebuild/design/fractal2/reports/why && python3 final.py master && node render.mjs final-master.html out.pdf && python3 fields.py out.pdf final.pdf` |
 
-In the repo these live under `library/fractal2/review/` (PDFs) and `design/fractal2/reports/why/` (code, blueprint). Slides used: `exports/counterfeit-slides/fractal/00{2,3,4,5}-*.png`.
+The zip is a download copy. Everything in it is also in the repo; do not commit a new zip.
 
 ## 3. The PDF, as built (structure of the 53-page master)
 
