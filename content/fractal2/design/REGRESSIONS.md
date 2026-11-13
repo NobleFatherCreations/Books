@@ -1,4 +1,5 @@
 # REGRESSIONS: every fault the owner has reported, and the automated check that now guards it.
+See also `FAILURE-LOG.md` for failures no check can catch (not reading what was sent, answering a different question).
 Rule: a reported fault is not fixed until a check FAILS on the old behaviour and PASSES on the new. Add a row before writing the fix.
 
 | Date | Owner's words | Root cause | Guard (in `scripts/film-check.mjs` unless noted) |

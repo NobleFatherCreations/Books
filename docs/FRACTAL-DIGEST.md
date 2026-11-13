@@ -30,6 +30,7 @@ First person, short sentences. Contested science = "my belief." Never say the ma
 ## Where to look (open only what you need)
 | Need | File |
 |---|---|
+| Every failure and the pre-flight checklist | `content/fractal2/design/FAILURE-LOG.md` (read before any Fractal work) |
 | Full session state, rules, next steps | `docs/handoff-2026-11-13/START-HERE.md`, `content/fractal2/thread-state-2026-11-13.json` |
 | Full audit of Book 1 | `library/fractal2/review/The-Fractal-Book-1-Audit.pdf` (15 pp), source `design/fractal2/reports/fractal1-audit.body.html` |
 | Value, reach, evidence, predecessors, 16 unnamed uses, risks | `library/fractal2/review/Fractal2-Value-and-Impact.pdf` (25 pp), source `design/fractal2/reports/value-and-impact.html` |

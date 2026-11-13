@@ -4,6 +4,7 @@
  "owner": "Shae Stovell",
  "read_first": [
   "docs/handoff-2026-11-13/START-HERE.md",
+  "content/fractal2/design/FAILURE-LOG.md",
   "docs/handoff-2026-11-13/STEELMAN.md",
   "design/fractal2/reports/why/BLUEPRINT.md",
   "MEMORY.md",
@@ -97,5 +98,7 @@
   "steelman before delivering",
   "never invent tactics, combos, stats or quotes",
   "never edit intro-final.md Part VI"
- ]
+ ],
+ "failure_log": "content/fractal2/design/FAILURE-LOG.md",
+ "claude_ai_memory_paste": "docs/handoff-2026-11-13/CLAUDE-MEMORY-PASTE.md"
 }
