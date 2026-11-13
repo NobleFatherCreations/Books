@@ -134,3 +134,24 @@ if(cb){
   btns.forEach(function(b){b.addEventListener('click',function(){setMode(b.getAttribute('data-mode'));var m=$('.modes');if(m&&m.getBoundingClientRect().top<0)scrollTo(0,cb.offsetTop)})});
   addEventListener('hashchange',fromHash);fromHash()}
 })();
+
+/* ---- v3: the ring answers the list and the list answers the ring; lists reveal as they arrive; the home figures count up ---- */
+(function(){
+  var d=document,rm=matchMedia('(prefers-reduced-motion:reduce)').matches;
+  [].forEach.call(d.querySelectorAll('.ring'),function(ring){
+    var n=ring.querySelector('.rc-n'),l=ring.querySelector('.rc-l');if(!n)return;
+    function set(k,on){[].forEach.call(ring.querySelectorAll('[data-k="'+k+'"]'),function(e){e.classList.toggle('hi',on)});
+      var b=ring.querySelector('.rb[data-k="'+k+'"]');if(on&&b){n.textContent=('0'+k).slice(-2);l.textContent=b.getAttribute('data-n')}else{n.textContent=n.getAttribute('data-d');l.textContent=l.getAttribute('data-d')}}
+    [].forEach.call(ring.querySelectorAll('[data-k]'),function(e){var k=e.getAttribute('data-k');
+      e.addEventListener('pointerenter',function(){set(k,true)});e.addEventListener('pointerleave',function(){set(k,false)});
+      e.addEventListener('focus',function(){set(k,true)});e.addEventListener('blur',function(){set(k,false)})});
+  });
+  if('IntersectionObserver' in window&&!rm){
+    var els=d.querySelectorAll('.top-row,.prow,.cards>li,.doors>li,.tac,.t-stage,.band>h2,.stage-band>li'),vh=innerHeight;
+    var io=new IntersectionObserver(function(es){es.forEach(function(e){if(e.isIntersecting){e.target.classList.add('in');io.unobserve(e.target)}})},{rootMargin:'0px 0px -8% 0px'});
+    [].forEach.call(els,function(e){if(e.getBoundingClientRect().top>vh*.92){e.classList.add('rv');io.observe(e)}});
+    addEventListener('beforeprint',function(){[].forEach.call(d.querySelectorAll('.rv'),function(e){e.classList.add('in')})});
+  }
+  if(!rm)[].forEach.call(d.querySelectorAll('.cover .figures dd'),function(e){var to=parseInt(e.textContent,10);if(!(to>9))return;var t0=0;e.setAttribute('aria-label',e.textContent);
+    function step(t){if(!t0)t0=t;var p=Math.min(1,(t-t0)/900),q=1-Math.pow(1-p,3);e.textContent=Math.round(to*q);if(p<1)requestAnimationFrame(step)}requestAnimationFrame(step)});
+})();

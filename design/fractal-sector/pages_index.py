@@ -4,7 +4,7 @@ import re
 
 from lib import (CONFIG, S, STAGE_INFO, STATE_NAME, TAG_LABEL, V1_DATE, clip, dot, esc, fam_name, first_sentence, md,
                  plain, slugify, src, svg)
-from frame import article_ld, frame
+from frame import ring, article_ld, frame
 
 SCORES = [("likelihood", "score_likelihood"), ("harm", "score_harm"), ("hidden", "score_hidden"), ("recognition", "score_recognition")]
 
@@ -45,10 +45,10 @@ def stage_band(cx):
 
 
 def updates(cx):
-    dates = {"v2": cx.date, "v1": V1_DATE}
+    dates = {"v3": cx.date, "v2": "2026-11-10", "v1": V1_DATE}
     return ('<section class="updates" id="updates"><h2>%s</h2><p><span class="badge num">%s — %s</span></p><ul class="plain">%s</ul></section>' % (
         esc(S("updates_h")), cx.version, cx.date,
-        "".join('<li><span class="num meta">%s · %s</span> %s</li>' % (v, dates[v], esc(S(k))) for v, k in [("v2", "updates_v2"), ("v1", "updates_v1")])))
+        "".join('<li><span class="num meta">%s · %s</span> %s</li>' % (v, dates[v], esc(S(k))) for v, k in [("v3", "updates_v3"), ("v2", "updates_v2"), ("v1", "updates_v1")])))
 
 
 def home(cx):
@@ -79,7 +79,7 @@ def home(cx):
     <div><dt>levels</dt><dd class="num">3</dd></div>
   </dl>
   </div>
-  <a class="cover-map" href="{cx.u('map')}" aria-label="{esc(S('browse_map'))}: {esc(S('browse_map_d'))}"><svg viewBox="0 0 1000 1000" aria-hidden="true" focusable="false">{mini}</svg></a>
+  {ring(cx, big=True)}
 </section>
 <section class="band" aria-labelledby="doors-h">
   <h2 id="doors-h">{esc(S('home_doors_h'))}</h2>
@@ -187,7 +187,7 @@ def tactics_page(cx):
 <p class="ui meta">{dot(i + 1)}{esc(S('stage_of', n=i + 1))} · {esc(S('tactics_n', n=len(ts)))}</p>
 <p>{esc(STAGE_INFO[s])}</p><ul class="cols">{lis}</ul></section>""")
     body = f"""<header class="phead"><p class="kicker">{esc(S('tactics_k'))}</p><h1>{esc(S('tactics_h'))}</h1>
-<p class="lede">{esc(S('tactics_lede'))}</p>{stage_band(cx)}</header>{''.join(secs)}"""
+<p class="lede">{esc(S('tactics_lede'))}</p>{ring(cx)}</header>{''.join(secs)}"""
     desc = clip("All %d manipulation tactics %s, in eight stages from first approach to replacement." % (len(cx.d["tactics"]), cx.ph.get("in_industry", "")))
     return frame(cx, title="All %d Manipulation Tactics in the %s, by Stage · %s" % (len(cx.d["tactics"]), cx.ti, S("site")), desc=desc,
                  path="tactics", crumbs=H(cx) + [(S("tactics_k"), None)], body=body, ld=[article_ld(cx, S("tactics_h"), desc, "tactics", "CollectionPage")], cls="tactics")

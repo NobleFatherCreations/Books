@@ -19,11 +19,11 @@ CONFIG = {
     "assets": ROOT / "design/decoder-v10/assets",          # THE HOUSE drawer + beacon, shared with the rest of the site
     "tokens": ROOT / "design/fractal2/tokens.css",
     "fonts": ROOT / "design/fractal2/fonts",
-    "version": "v2",
+    "version": "v3",
 }
 PUBLISH_STATES = {"preview": {"unreviewed", "expert_reviewed", "sources_verified"},
                   "production": {"unreviewed", "expert_reviewed", "sources_verified"}}
-UPDATES = [("v2", "updates_v2"), ("v1", "updates_v1")]
+UPDATES = [("v3", "updates_v3"), ("v2", "updates_v2"), ("v1", "updates_v1")]
 V1_DATE = "2026-11-09"
 
 STAGE_INFO = {
@@ -235,6 +235,11 @@ def src(inner, cls=""):
 
 
 ICON = {
+    "home": '<circle cx="12" cy="12" r="9"/><circle cx="12" cy="12" r="5"/><circle cx="12" cy="12" r="1"/>',
+    "flag": '<path d="M5 21V4h11l-2 4 2 4H5"/>',
+    "layers": '<path d="M12 3 3 8l9 5 9-5-9-5Z"/><path d="m3 13 9 5 9-5"/>',
+    "dots": '<circle cx="6" cy="6" r="1.6"/><circle cx="12" cy="6" r="1.6"/><circle cx="18" cy="6" r="1.6"/><circle cx="6" cy="12" r="1.6"/><circle cx="12" cy="12" r="1.6"/><circle cx="18" cy="12" r="1.6"/><circle cx="6" cy="18" r="1.6"/><circle cx="12" cy="18" r="1.6"/><circle cx="18" cy="18" r="1.6"/>',
+    "orbit": '<circle cx="12" cy="12" r="3"/><path d="M3 12c0-2.2 4-4 9-4s9 1.800 9 4-4 4-9 4-9-1.800-9-4Z" transform="rotate(-30 12 12)"/>',
     "leave": '<path d="M14 4h5v16h-5M10 8l-4 4 4 4M6 12h10"/>',
     "arrow": '<path d="M5 12h14M13 6l6 6-6 6"/>',
     "back": '<path d="M19 12H5M11 6l-6 6 6 6"/>',

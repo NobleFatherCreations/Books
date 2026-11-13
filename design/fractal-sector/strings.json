@@ -281,5 +281,19 @@
  "method_check_h": "Where checking stands",
  "method_check": "Every label in this sector is logged with a decision: kept as a descriptive label, shown as depending on the terms, kept with a published source, reworded, or removed. The author's files are never changed; the decisions live in a separate ledger. This is a check against published sources by the project. It is not a review by a working industry professional, and no page claims one.",
  "method_check_n": "{resolved} points decided, {pending} still open. {cited} kept with a source, {reworded} reworded, {removed} removed, {added} safety lines added from the author's own notes. {pages} of {total} pattern pages are fully checked.",
- "method_facts_h": "Sources used in this sector"
+ "method_facts_h": "Sources used in this sector",
+ "nav_label": "Sections",
+ "nav_home": "Home",
+ "nav_start": "Start",
+ "nav_patterns": "Patterns",
+ "nav_tactics": "Tactics",
+ "nav_map": "Map",
+ "ring_label": "The eight stages. Choose one.",
+ "ring_item": "Stage {i} of 8: {name}, {n} tactics",
+ "ring_center_n": "8",
+ "ring_center_l": "stages",
+ "ring_tac": "{n} tactics",
+ "ring_prev": "Earlier stage",
+ "ring_next": "Next stage",
+ "updates_v3": "A new look that matches the introduction. The eight rings are now a compass on every page, there is a section bar you can always reach, each stage has its own colour, and pages move from one to the next."
 }
