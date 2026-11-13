@@ -144,6 +144,7 @@ parts_html = [
     sec(5, "Originals and inversions", OLD[3], "The thirty techniques, and what each one copies"),
     sec(6, "The sectors", OLD[5], "Thirty sectors, and our relationship to each need"),
     sec(7, "The fractal", OLD[7], "Three levels, and how the pattern passes on"),
+    sec("7b", "Back in time, out to the planet", C.origin_and_largest(), "Where it came from, and the largest body it runs on"),
     script_html("shame", chains[2]),
     P[3],
     sec(8, "The body of work", C.numbers_plus(OLD[6]), "What I built, in numbers"),

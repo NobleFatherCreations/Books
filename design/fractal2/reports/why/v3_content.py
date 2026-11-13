@@ -33,7 +33,7 @@ def parts():
 
 # ---------------------------------------------------------------- contents + how to read the map
 def contents(N, machine):
-    groups = [("Why I wrote this", [1, 2, 3]), ("What I saw", [4, 5, 6, 7]), ("What I built to name it", [8, 9, 10]),
+    groups = [("Why I wrote this", [1, 2, 3]), ("What I saw", [4, 5, 6, 7, "7b"]), ("What I built to name it", [8, 9, 10]),
               ("Why the order matters", [11, 12]), ("What was there first", [13, 14, "14b", 15]),
               ("How change begins", [16, 17, 18, "18b", 19]), ("What these three works do", [20, 21, 22, "22b", 23, 24, 25]),
               ("I can't do this alone", [26, 27]), ("Reference", ["R1", "R2", "R3", "R4", "R5", "R6", "R7", "R8", "R9", "R10", "R11", "R12", "R13", "R14"])]
@@ -462,3 +462,15 @@ def laws():
 
 def slides_plus(chunk):
     return add(chunk, '''<h3>The whole map</h3><figure class="fig full"><img src="../../art/fractal-original-1600.webp" alt="The Fractal: one pattern repeating across thirty sectors"><figcaption>The Fractal. One pattern, repeating at every scale, across all thirty sectors.</figcaption></figure>''')
+
+# ---------------------------------------------------------------- 7b. The Origin and The Largest Body (steelman: never placed)
+def origin_and_largest():
+    return '''<div class="sec" id="oralb"><div class="kick">x</div><h2>Where it came from, and the largest body it runs on</h2>
+<p class="lede">Two chapters of The Fractal widen the three levels in both directions: back in time, and out to the planet.</p>
+<h3>The Origin: ten thousand years</h3>
+<p>Halfway through the book, the reader has crossed thirteen sectors, and I wrote this for that moment:</p>
+<div class="owner"><p>Something is running inside these buildings. The same something. In every building.</p></div>
+<p>The Origin traces the cycle back through stored grain, writing, currency, law, armies, colonialism and industry, and argues that it is not human nature. In my words: "There was a time — a long time, a time that lasted hundreds of thousands of years longer than the time that has followed it — when the cycle was not the organizing principle of human life." The chapter treats the pattern as an organism, one that "does not require a host to understand it in order to host it." That is why it needs no villain.</p>
+<p class="small"><span class="tag l">My belief</span>The road from surplus to hierarchy is argued well by some historians and disputed by others. I hold The Origin as a lens, not settled history.</p>
+<h3>The Largest Body: the planet</h3>
+<p>The last chapter before the frequency runs the same eight stages on the body that holds every other body. By then the reader has seen the cycle on their own body, through the institution, across the civilization, inside themselves, and down their family line. The Largest Body shows it at one more scale: extraction from the earth, sold back as scarcity. The three levels in this document are the working minimum. The book itself goes further: self, lineage, institution, civilization and the living earth.</p></div>'''
