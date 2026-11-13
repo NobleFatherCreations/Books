@@ -254,3 +254,6 @@ What I would not use: urgency, flattery, fear, or a claim that doubt is a sympto
 2. **The prayer.** Do you want it in the PDF? It is powerful on camera. For a school psychologist I'd keep the reasoning (literacy over ignorance) and leave the prayer for the series. Your call.
 3. **"253 tactics."** Your script says the Education interlude mapped 253. The finished sectors have 335. I'd say "300+" throughout unless you want the history shown.
 4. **Your stake.** "The ones that almost broke me" is in your script. How much of your own story do you want in Movement 1: one sentence, a paragraph, or none?
+
+---
+**Built 2026-11-13.** This draft is now woven into the final PDFs by `final.py` (53 pp master, 56 pp Foil). Added after this draft: Combination 5, The Calling Trap; "The world that saw it"; the open list of persuasion levers.
