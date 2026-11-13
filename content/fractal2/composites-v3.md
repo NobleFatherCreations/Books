@@ -1,6 +1,8 @@
-# Two composites for people who work in schools (v3 drafts, for owner review)
+# Two composites for people who work in schools (v3, second draft, for owner review)
 
-Written in the same architecture as the owner's Education combo scripts: cold open, hard cut, the name, every tactic in order, why this order, institutional echo, civilizational echo, recognition cues, chain breakers, the question. Both are composites. They describe a design, not anyone's intent. No statistic is used that is not yet sourced: the staffing-ratio and referral-disparity claims from v2 are left out until they can be cited.
+Written in the architecture of the owner's Education combo scripts: cold open, hard cut, the name, every tactic in order, why this order, institutional echo, civilizational echo, recognition cues, chain breakers, the question.
+
+How they are written: the psychologist in each story is good at the job, and so is everyone around him. Nobody lies, nobody is careless, and every sentence anyone says is true. The harm comes from the order of the steps, not from a person. No statistics and no claims about the profession are used. Each cold open contains every tactic of the combination, in order; a beat map after each scene shows where.
 
 ---
 
@@ -8,39 +10,47 @@ Written in the same architecture as the owner's Education combo scripts: cold op
 
 [COLD OPEN]
 
-You meet Marcus on a Tuesday, but you met his file on Sunday night, at your kitchen table, after your own kids were asleep.
+The referral comes in on a Thursday. The form has a box near the top: *Describe the student's problem behaviors.* Mrs. Alvarez fills it in carefully, in her neat teacher print, because that is the question the form asks.
 
-Fourteen pages. Eleven office referrals since October. *Defiant. Disruptive. Refused to work. Threw a chair.* Three teachers, three handwriting styles, one story. You read it twice. By the second time you could already see him: big for nine, angry, the kind of kid who makes a room go quiet when he walks in.
+By Sunday night you have the file open at your kitchen table, after your own kids are asleep. Eleven incident reports since October. Each one has the same fields: time, location, behavior, consequence. *10:40, hallway, refused to return to class, sent to office. 1:15, classroom, threw a chair, parent called.* Every report is accurate. Every report answers the questions it was built to ask.
 
-Tuesday, he walks in with his hood up and he is small. Smaller than the file. He sits on his hands. He won't look at you for the first ten minutes, and then he does, and he is quick. Quicker than anything on those fourteen pages. He finishes the block design subtest before you've finished reading the instructions, and he grins, just once, like he forgot he wasn't supposed to.
+There's no field for the morning in November when he carried a first-grader's backpack all the way to her classroom because she was crying. Mrs. Alvarez told you about that one herself, in the hallway, smiling. It isn't in the file. There was nowhere to put it.
 
-At forty minutes he asks if you have any food.
+Mrs. Alvarez is good. Twenty-nine kids, no aide, and she has tried everything she has: the seat by her desk, the check-in chart, the call home, the break pass. The referral isn't her giving up on him. It's the one door in the building that opens toward more help.
 
-You find a granola bar in your bag. He eats half. He folds the wrapper over the other half, carefully, the way you'd wrap something that matters, and puts it in his hoodie pocket.
+Tuesday, he walks in with his hood up. Marcus. Nine. He's smaller than the file. He sits on his hands and won't look at you for the first ten minutes. Then he does, and he's quick. He finishes the block design before you've finished the instructions and grins, once, like he forgot he wasn't supposed to.
+
+At forty minutes he asks if you have any food. You find a granola bar in your bag. He eats half, folds the wrapper over the rest, carefully, and puts it in his hoodie pocket.
 
 "Who's that for?"
 
 "My sister."
 
-They've been at his aunt's since his dad left in October. October. The same month the referrals start. The baby cries at night and his aunt works early, so he's the one who gets up. He says it like it's nothing. He says it like it's his job.
+They've been at his aunt's since his dad left. In October. The same month the reports start. The baby cries at night and his aunt leaves for work at five, so he's the one who gets up. He says it like it's his job.
 
-There's no box for that on any form you have.
+You write all of it down. You put it on page six of your report, under Background, in full sentences. You do it right.
 
-Thursday is the meeting. You count the chairs: eleven adults on one side of the table. His mother comes straight from a night shift, still in her work polo, name tag on. She sits at the end. Nobody has saved her a seat in the middle.
+Thursday is the meeting. Nine adults, and every one of them is there because they care about him. The counselor. The special education teacher. The principal, who stayed late. Each of them speaks for five careful minutes. You watch his mother at the end of the table, still in her work polo from a night shift, name tag on. Forty-five minutes of percentiles and acronyms, every word of it accurate, in a language she has never had to speak. You see her getting smaller. You slow down when it's your turn. You tell them about the granola bar. People nod. It's on page six.
 
-The scores go around. Percentiles. Standard deviations. Someone says "emotional disturbance" the way you'd say "Tuesday." You try to tell them about the granola bar. It sounds small out loud. Someone nods kindly and moves to the next page.
+Then the paper goes across the table. And because it's true, because it's the truest thing anyone can say in that room, you're the one who says it, gently:
 
-Then the paper slides across the table toward her. "This is how we get him help."
+"This is how we get him help."
 
-She looks at you. Of everyone in the room, she looks at you.
+She looks at you. Of everyone in the room, she looks at you. She signs.
 
-She signs.
+And the help is real. Ms. Reyes in the resource room is wonderful with him. The plan is good. Every morning at 10:15 he gets up and walks past his classmates to the room down the hall, and every morning they watch him go.
 
-Three years later you're covering a middle school across town. Outside the office a teacher you've never met nods toward a tall boy slouched on the bench. "That's Marcus. ED kid. I read his file."
+In February a substitute asks him to sit down. He says, flat, before she's asked anything else: "I'm the behavior kid."
+
+Three years later you're covering the middle school across town. Outside the office, a teacher you've never met nods toward a tall boy slouched on the bench. "That's Marcus. He's one of our ED kids. I read his file."
+
+You want to tell her he's quick. That he folds wrappers carefully for his sister. That it's on page six. The bell rings. You have three evaluations before lunch.
 
 He hears her. He doesn't look up. He doesn't argue.
 
 He already knows what he is.
+
+And nobody in this story did anything wrong.
 
 [HARD CUT]
 
@@ -48,81 +58,118 @@ That's called The Paper Child.
 
 [VERBAL BREAKDOWN]
 
-The Paper Child is an eight-tactic combo that replaces a child with a document. Nobody in it intends harm. Every adult follows procedure. And by the end, a nine-year-old has learned to be the sentence other people wrote about him.
+The Paper Child is an eight-tactic combination that replaces a child with a document. Nobody runs it. Everyone in it is doing their job well. That's what makes it so hard to see, and why it's worth seeing.
 
-It starts with Deficit Framing — the question in the room is "What's wrong with him?" Not "What happened to him?" Not "What does he need?" The first question decides what everyone will look for. And what you look for, you find.
+It starts with Deficit Framing — *Describe the student's problem behaviors.* The first question a system asks decides what everyone will look for. Nobody chose to look only for what was wrong. The form chose, and the form was written that way because problems are what unlock support.
 
-Then Selective Records — the incidents get written down. The chair is written down. The refusal is written down. The morning he helped a younger kid find his classroom is not. Kindness doesn't generate paperwork. So the file isn't false. It's just the worst eleven minutes of five months, filed in order.
+Then Selective Records — the incident report has fields for what went wrong. Kindness doesn't generate paperwork. So the file isn't false. Every line is true. It's just the worst eleven moments of five months, filed in order, because those were the only moments with a form.
 
-Then Routine Referral — for a teacher with thirty kids and no aide, the referral form is the only pressure valve she has. She isn't trying to label him. She's trying to get through Thursday. The system gave her exactly one door that opens, and it opens toward a test.
+Then Routine Referral — for a good teacher with twenty-nine kids, the referral is the one pressure valve she has. It isn't a judgement of him. It's the only door that opens toward more adults, more time, more help. The system built one door, and it opens toward a test.
 
-Then Expert Intimidation — eleven professionals, one parent. Forty minutes of numbers she has never heard of, in a language built for the people on the other side of the table. By the time anyone asks if she has questions, she can't find one. The outnumbering does the persuading. No one has to.
+Then Expert Intimidation — nobody in that meeting intimidates anyone. Nine caring people each take five minutes. But nine to one is its own weight. Forty-five minutes of accurate language she doesn't speak, and by the time someone kindly asks if she has questions, she can't find one. The arithmetic of the table does what no one in the room intends.
 
-Then Manufactured Consent — "This is how we get him help." Every word of it is true. The services really are behind that signature. That's what makes it consent in name only: the only way to say yes to help is to say yes to the label. A choice with one door isn't a choice.
+Then Manufactured Consent — "This is how we get him help." Every word is true. That's the point. When the only way to say yes to help is to say yes to the label, the yes is real and the choice isn't. Nobody manufactured anything. The structure did.
 
-Then Benevolent Control — the help arrives, and it arrives through the category. The small-group room. The behaviour plan. The point sheet. Real support, delivered in a shape that says, every single day, *you are the kind of kid who needs this.*
+Then Benevolent Control — the help arrives, and it's good help, from good people. But it arrives through the category. The walk at 10:15 tells him every day, in front of everyone, what kind of kid he is.
 
-Then Identity Erosion — "I'm a behaviour kid." He says it to a new teacher in sixth grade, before she's asked him anything. He's stopped hoping the file is wrong. It's easier to be the thing people expect than to keep being the thing nobody writes down.
+Then Identity Erosion — "I'm the behavior kid." He says it before anyone asks. Not because anyone told him to. Because a nine-year-old is very good at learning what the adults around him believe, and the building has been teaching him, kindly, every day.
 
-And finally, The File Arrives First — every new school, every new teacher, every new adult meets the paper before they meet the boy. He is discredited in advance, by people who've never seen him do anything. And every time he acts like the file, it gets thicker. The loop tightens each time it runs.
+And finally, The File Arrives First — every new teacher meets the paper before the boy. Page six travels with it. Nobody reads page six. The label walks into every room before he does, and every time he acts like the label, the file grows. The loop tightens each time it runs.
 
 [WHY THIS ORDER]
 
 Here's why the order matters.
 
-If the framing isn't deficit-first, the record-keeping changes. A room asking "what happened to him?" writes down the move to his aunt's, the baby, the half granola bar. The file would describe a tired nine-year-old doing an adult's job at night.
+If the first question were "What happened to him?" instead of "What are his problem behaviors?", the records would change. A room asking what happened writes down October, the aunt's house, the baby at night. The file would describe a tired boy doing an adult's job in the dark.
 
-If the records weren't selective, the referral would read differently. A file that holds his quickness and his care doesn't point toward one door. It points toward a conversation.
+If the records held the backpack and the granola bar as well as the chair, the referral would point somewhere different. A file that holds a child's care and quickness doesn't point at one door. It points at a conversation.
 
-If consent came before the outnumbering — ten minutes alone with his mother, first, in plain words — she could ask the questions that the table made impossible. "What else is there?" "What happens if we wait?" "When does this get looked at again?" After forty minutes of percentiles, those questions are gone.
+If consent came before the arithmetic of the table — ten minutes alone with his mother first, plain words, the psychologist beside her — she could ask the questions the table made impossible. "What else is there?" "What happens if we wait?" "When does this get looked at again?"
 
-If help weren't locked behind the label, nobody would need him to qualify. The gate is what creates the pressure to find something wrong. Remove the gate and the whole machine slows down.
+If help weren't locked behind the label, nobody would need him to qualify. The gate is what creates the pressure to find something wrong. Not the people standing at it.
 
-And the identity erosion only installs because the file arrives first, again and again. One wrong label, once, is a bad day. A label that walks into every room before you do is a life.
+And the identity only installs because the file keeps arriving first. One label, once, with a review date, is a tool. A label that walks into every room before you do is a life.
+
+The psychologist did every right thing available at every step. The machine still ran, because it was never inside him. It was in the order of the steps.
+
+[WHY THE SYSTEM PRODUCES THIS ORDER]
+
+Nobody sat down and designed this sequence. It falls out of what the system is built to protect. A school system carrying too much need on too little money ends up optimizing for three things: rationing scarce support, being able to defend every decision if it's challenged, and counting what it delivers. Watch each step follow from those three.
+
+Deficit framing comes first because support is scarce. When there isn't enough help for every child who could use it, the system has to decide who qualifies, and the only fair-looking way to ration is proof of need. So the first question has to be "what's wrong?" The form isn't cold. It's a rationing tool.
+
+Selective records come second because documentation is built for defensibility. An incident report exists so a decision can be explained later, to a parent, a board, a hearing. It records what might be challenged. Nothing about a backpack carried to a first-grade room will ever need defending, so nothing captures it.
+
+The referral comes third because classrooms are staffed for the average child. When a child needs more than the room can give, the system doesn't add an adult to the room. It moves the child into a specialist pipeline. That's cheaper than a second adult in every classroom, and it's the only route the budget has.
+
+The full table comes fourth because the process is built for procedural safety. Every discipline has to sign off, so no one can later say a step was skipped. That protects the child's rights on paper. In the room, it produces nine to one.
+
+Consent comes fifth because consent is the legal gate. The system needs a signature to release the services. Understanding isn't the requirement. A signature is. So the process moves toward the signature, kindly, the way any process moves toward its finish line.
+
+Benevolent control comes sixth because services are funded and tracked by category. Help has to be delivered in a shape that can be counted: minutes in the resource room, goals on the plan. The walk at 10:15 is what countable help looks like from the hallway.
+
+Identity erosion comes seventh because nothing in the system measures it. There's a metric for minutes served and goals met. There's no line on any report for how a nine-year-old now describes himself. What isn't measured isn't managed, so it happens unseen.
+
+The file arrives first, last, because records are built to transfer. Continuity and liability both say the next school must have the file. A file moves easily between buildings. A child's story, the granola bar, the baby at night, doesn't fit in the transfer.
+
+Put it together and the order is simply this: each step is the cheapest defensible answer to the step before it. Ration, then document, then route, then protect, then sign, then count, then forget to measure, then transfer. None of those goals is "understand this boy." All of them are reasonable. That's why good people can run the whole machine without ever touching the controls.
 
 [INSTITUTIONAL ECHO]
 
-At the institutional level, The Paper Child is what happens when one psychologist covers four buildings.
+At the institutional level, The Paper Child is what happens when the evaluation has a deadline and the understanding doesn't.
 
-You were trained to understand children. You were trained to observe in the classroom, to talk to the family, to find the thing underneath the behaviour. The caseload doesn't leave room for that. So the job narrows, one deadline at a time, until it's mostly testing and placing. Not because anyone decided that. Because the evaluations have legal timelines and the understanding doesn't.
+A psychologist is trained to understand a child: the classroom, the family, the thing under the behavior. Then the calendar fills with evaluations that have legal timelines, and the conversations that don't have timelines are what get squeezed. Nobody decided that. Each deadline is reasonable. Together they shape the job.
 
-Funding follows eligibility. So the only door with help behind it has a label on it. The building doesn't need anyone to want labels. It just needs labels to be the only thing that unlocks a budget line.
+And in many systems, the door to extra support opens with a qualifying category. So the building doesn't need anyone to want labels. It only needs a label to be the key to the budget line. Good people then do the kindest thing available, which is to find the key.
 
 [CIVILIZATIONAL ECHO]
 
-Civilizationally, The Paper Child is a society that will pay for a diagnosis but not for a quiet place to sleep.
+Civilizationally, The Paper Child is a society that has learned to pay for a description of a problem more easily than for the conditions that would prevent it.
 
-It funds the evaluation and not the aunt's rent. It funds the behaviour plan and not the night-time help with the baby. So it keeps producing diagnoses, because diagnoses are what it buys. And then it reads its own receipts as facts about children — *look how many kids have this now* — instead of facts about the door it built.
+It can fund an evaluation more easily than the aunt's rent. It can fund a behavior plan more easily than someone to help with the baby at night. So it keeps producing descriptions, because descriptions are what it knows how to buy. Then it reads those descriptions as facts about children, instead of facts about which doors it built.
 
-Every generation of Marcuses grows up and meets the same machine again. In the hiring file. In the court report. In the case notes. The paper keeps arriving first.
+The paper doesn't stop at school. It shows up again in the job application, the court report, the case notes. Wherever a document can arrive before a person, the same machine can run.
 
 [RECOGNITION CUES + CHAIN BREAKERS]
 
-Here's how to know if you're inside The Paper Child — as the psychologist, the teacher, or the parent.
+Here's how to recognise The Paper Child, from any seat at the table. Most good practitioners already do some of these. That's why they work.
 
-The First-Good-Thing Test. Open the file. Count the pages before you find a single strength. If it's more than one, the file is describing a problem, not a child.
+The First-Good-Thing Test. Open the file. How many pages before the first strength? If it's more than one, the file describes a problem, not a child.
 
-The Verb Test. Does the file say what he *did*, or what he *is*? "Threw a chair on October 14th" is an event. "Aggressive student" is an identity. Watch for the moment events turn into adjectives.
+The Verb Test. Does the file say what he *did*, or what he *is*? "Threw a chair on October 14th" is an event. "Aggressive student" is an identity. Watch for the moment events become adjectives.
 
-The Table Count. At the meeting, who spoke most? Who spoke last? If the parent spoke last and least, the meeting was a presentation, not a decision.
+The Table Count. Who spoke most? Who spoke last? If the parent spoke last and least, it was a presentation, not a decision.
 
-The Stranger Test. If you'd met him first — the granola bar, the grin at the block design — what would you think? Write that down before you read the next file.
+The Page Six Test. Where in the report does the child's real life live? If it's below the scores, it will travel unread.
 
-Now if you're inside this — here's how to start breaking it.
+Now, here's how to start breaking it.
 
-Step one: Meet the child before the file. Even fifteen minutes. Let him introduce himself before fourteen pages do it for him.
+Step one: Meet the child before the file. Even fifteen minutes. Let him introduce himself before eleven reports do.
 
-Step two: Write what happened to him first. Put the move, the baby, the night-time job at the top of the report, above the scores. A strength before a deficit. "Did," not "is."
+Step two: Put what happened to him at the top. October, the aunt's house, the baby, the backpack. A strength before a deficit. "Did," not "is."
 
-Step three: Ten minutes alone with the parent before the meeting. Plain words. Then seat her beside you, not at the end. Ask her to speak first.
+Step three: Ten minutes alone with the parent before the meeting, in plain words. Then seat her beside you, not at the end, and let her speak first.
 
-Step four: Put a review date on every label. A category with an expiry date is a tool. A category without one is a sentence.
+Step four: Put a review date on every label. A category with an expiry date is a tool. Without one, it's a sentence.
 
-Step five: Tell the child, out loud: "This paper is about how to help you. It is not who you are."
+Step five: Say it to the child, out loud: "This paper is about how to help you. It isn't who you are."
 
 Here's your question:
 
-Whose file did you read before you met them — and what did you never find out, because the paper had already told you who they were?
+Who is the kid you still think about — and what would you want the next adult to know about them before they open the file?
+
+### Beat map (every tactic, in order, in the cold open)
+
+| # | Tactic | Where it happens in the scene |
+|---|---|---|
+| 1 | Deficit framing | The referral form's box: *Describe the student's problem behaviors* |
+| 2 | Selective records | Eleven accurate incident reports; no field for the backpack |
+| 3 | Routine referral | Mrs. Alvarez, twenty-nine kids, the one door toward more help |
+| 4 | Expert intimidation | Nine caring adults, five minutes each; the mother getting smaller |
+| 5 | Manufactured consent | "This is how we get him help," said by the psychologist because it's true |
+| 6 | Benevolent control | Ms. Reyes's good room; the walk at 10:15 past his classmates |
+| 7 | Identity erosion | "I'm the behavior kid," to the substitute |
+| 8 | The file arrives first | Three years later: "I read his file"; page six unread |
 
 ---
 
@@ -132,27 +179,33 @@ Whose file did you read before you met them — and what did you never find out,
 
 You became a school psychologist because of one kid. Everyone in this work has one.
 
-Yours was a girl in your second practicum who wouldn't speak in class for a whole year, and then, in your office, with the door closed and a box of markers between you, told you everything. You drove home that night and sat in the car outside your apartment for twenty minutes because you couldn't stop crying. You knew then. This was the thing.
+Yours was a girl in your second practicum who didn't speak in class for a whole year. Then one afternoon, in your office, door closed, a box of markers between you, she told you everything. You drove home and sat in the car outside your apartment for twenty minutes because you couldn't stop crying. You knew. This was the thing.
 
-At your first interview, the director leaned across the table and said, "The children here really need someone like you."
+At your first interview, the director had read your practicum supervisor's letter. She'd underlined parts of it. She leaned across the table and said, "The kids here need someone exactly like you."
 
-It was true. That's why it worked.
+It was true. She meant it. That's why it mattered so much.
 
-Year one, you had two buildings. In October a colleague left and wasn't replaced. "Just until we hire." By spring you had four. You learned which parking lots were closest to which side doors. You learned to eat a sandwich at red lights. You learned that your evaluations have legal deadlines and your conversations with children don't — so the conversations are what disappear.
+Your first year was the best year of your working life. Two buildings. Time to sit in classrooms. Time to call families back the same day. A counseling group for kids who'd lost a parent, eight of them, Thursdays at lunch, and by spring they were laughing in there.
 
-In March you asked for help. You'd rehearsed it in the car. The director listened. She was kind. She was tired too. She said, "I know. I know. But if you don't do it, these kids get nothing."
+In the second year a colleague went on leave and the post wasn't filled. "Just for the spring." The budget had been cut and the director had fought for it and lost. You picked up her building. Then her building became yours. Two, then three. Then, the next August, a retirement nobody replaced, and three became four. Each step was only a little more than the last one, and you'd already found a way to manage the last one.
 
-You drove home feeling selfish for asking.
+In February of that year you finally asked to drop a building. You'd rehearsed it in the car. The director listened. She was a school psychologist herself, once, and she was as stretched as you. Her eyes were wet. She said, "If you step back, those kids get nobody. I'm not saying that to guilt you. It's just true."
 
-That Wednesday an email arrived from the district office. *Wellness Wednesday! Remember: you can't pour from an empty cup. Make time for self-care this week.* You read it in the car between buildings two and three, with forty-one open cases.
+It was true. You drove home feeling selfish for asking.
 
-In May you signed a report on a girl you'd met for fifty minutes. You never saw her classroom. You never called her home. You scored, you wrote, you signed. The report was accurate. Every number in it was right.
+That spring the district rolled out a compliance dashboard. Every evaluation, every timeline, green or red. You were green across the board. The director thanked you at a staff meeting. The grief group wasn't on the dashboard. It quietly stopped meeting in March, because Thursdays at lunch were now a different building.
 
-It was also not the work you trained for. You knew it while you signed it. Your hand knew it.
+There's no other psychologist in any of your buildings. The staff meetings are for teachers. The district meeting for psychologists moved online, then to once a term, then you missed one and didn't notice it was cancelled. Everyone you see in passing seems to be managing. So you assume the problem is you. You must be slow.
 
-That night your partner asked why you were so quiet. You said you were fine. You've said that a lot.
+On a Wednesday an email arrives from the district office. Someone in HR, also stretched, wrote it sincerely. *Wellness Wednesday! You can't pour from an empty cup. Remember to make time for self-care this week.* You read it in the car between buildings two and three, laptop balanced on the steering wheel, forty-one open cases.
 
-You tell yourself it's temporary. You've been telling yourself that for three years.
+In May you write a report on a girl named Jada. You meet her for fifty minutes. You score, you write, you sign. Every number in it is right. Three weeks later, in a hallway, her teacher mentions that Jada's grandmother died in January. The grandmother raised her. It isn't in your report. Not because you missed it. Because you never had the hour in which a child tells you that.
+
+That night your son asks if you're working again. You say just for a minute. You're on the couch with the laptop until eleven. Your jaw aches in the mornings now. When your partner asks, you say you're fine. You've said that a lot.
+
+You don't ask the director again. You've asked. You were heard, kindly, and nothing changed, and some part of you has learned that asking costs more than it returns. It's temporary. You've been telling yourself that for three years.
+
+In June you hear that the psychologist in the next district left. Good at it, everyone said. Her post went to a contracted service that does evaluations by video on Thursdays. Her kids will get a face on a laptop they've never met. You sit with that in the car for a long time. The machine already has a plan for when you can't do this anymore.
 
 A friend asks why you don't leave. You hear yourself say it before you can stop it:
 
@@ -160,47 +213,75 @@ A friend asks why you don't leave. You hear yourself say it before you can stop 
 
 Your conscience has become the leash.
 
+And nobody in this story is the villain.
+
 [HARD CUT]
 
 That's called The Calling Trap.
 
 [VERBAL BREAKDOWN]
 
-The Calling Trap is an eight-tactic combo that turns a vocation into a supply. It doesn't need a bad director. It needs a good person, a real need, and a budget that won't cover both.
+The Calling Trap is an eight-tactic combination that turns a vocation into a supply. It doesn't need a bad director, a careless district or a weak psychologist. It needs a good person, a real need, and a budget that won't cover both.
 
-It starts with Love Bombing — "The children here really need someone like you." It's warm. It's specific. It's aimed at the exact reason you chose this work. The welcome isn't fake. That's the point. Real warmth bonds harder than flattery ever could.
+It starts with Love Bombing — "The kids here need someone exactly like you." Warm, specific, and aimed at the exact reason you chose this work. It isn't flattery. It's true. And true warmth bonds far harder than flattery ever could.
 
-Then Weaponized Vocation — "If you don't, these kids get nothing." Your love for the children becomes the lever. Every boundary you set now has a child's face on the other side of it. Saying no stops feeling like a work decision and starts feeling like abandonment.
+Then Weaponized Vocation — "If you step back, those kids get nobody." Said with wet eyes, by someone who means it. Your love for the children becomes the lever, without anyone pulling it. Every boundary now has a child's face on the other side of it, so saying no stops feeling like a work decision and starts feeling like abandonment.
 
-Then Gradual Escalation — two buildings, then three, then four. "Just until we hire." Each step is only a little worse than the last one, and you've already adjusted to the last one. Nobody ever asks you to accept four buildings. They ask you to accept one more, four times.
+Then Gradual Escalation — two buildings, then three, then four. "Just for the spring." Nobody ever asks you to accept four buildings. You're asked to accept one more, three times, each time by someone who fought to avoid asking.
 
-Then Moving the Goalposts — the deadlines outrank the children. The goal was helping kids. The measure becomes compliance: evaluations completed, timelines met, boxes signed. You can hit every target and still fail every child you didn't have time to see. And the targets are the only thing anyone counts.
+Then Moving the Goalposts — the goal was helping kids. The measure became timelines met. You can be green across the board and still lose the grief group. What gets counted gets protected. What doesn't, quietly stops meeting.
 
-Then Isolation — you're the only one in the district doing what you do, spread across four buildings that each think you belong to someone else. No colleague down the hall to say "this isn't normal." Without anyone to compare to, you conclude the problem is you. You must be slow. You must be bad at this.
+Then Isolation — no peer down the hall to say "this isn't normal." Without someone to compare to, the only explanation left is you. You must be slow. Isolation is what turns a staffing gap into a private failing.
 
-Then Spiritual Bypassing — the self-care email. The wellness webinar. The yoga session scheduled during your only free period. The problem is structural: one person, four people's work. The remedy offered is a bath. The bypass moves the problem from the budget into your body, and then makes your exhaustion your responsibility.
+Then Spiritual Bypassing — the self-care email. Sincere, well-meant, and it moves the problem. The problem is one person doing several people's work. The remedy offered is a bath. Now your exhaustion is your responsibility.
 
-Then Learned Helplessness — "It's temporary," year three. You've asked. You've been heard, kindly, and nothing changed. So you stop asking. Not because you've accepted it. Because your body has learned that asking costs energy and returns nothing. The silence looks like coping. It's surrender.
+Then Learned Helplessness — you stop asking. Not because you've accepted it. Because you asked and were heard, kindly, and nothing changed. Your body learned that asking costs energy and returns nothing. From the outside, the silence looks like coping.
 
-And finally, Replacement — when you finally break, burn out, or leave, the post is posted, filled, or contracted out to a testing company that sends someone on Thursdays. The children you couldn't stop worrying about get someone who's never met them. The machine replaces you in a week. It only ever needed your function. It never needed you.
+And finally, Replacement — the colleague next door, good at it, gone, and her post filled by video on Thursdays. The machine doesn't need any one person. It only needs the function filled. And somewhere in you, that's the moment you understand it was never holding on to you. It was holding on to your conscience.
 
 [WHY THIS ORDER]
 
 Here's why the sequence matters.
 
-The welcome has to come first. Guilt only works on someone who has already been told they're needed. Say "these kids get nothing without you" to a stranger, and they shrug. Say it to someone who came for the kids, and they stay until seven.
+The welcome has to come first. "Those kids get nobody without you" means nothing to a stranger. It only works on someone who has already been told, truthfully, that they are needed, and who came for the kids.
 
-If the escalation came all at once — four buildings on day one — you'd refuse. You'd see it clearly. It works because it arrives in steps, after the bond, after the vocation has been weaponized, so each step lands on someone already committed.
+If the escalation came all at once — four buildings on day one — you'd see it and say no. It works because it arrives in steps, after the bond, after the vocation has become the lever. Each step lands on someone already committed.
 
-Isolation has to come before the bypass. A psychologist with peers learns that four buildings is a staffing failure. A psychologist alone decides they're failing. Only then does the self-care email land — because now the person already believes the problem is inside them.
+The dashboard has to come before the isolation finishes. Once the measure changes, what you're praised for and what you love come apart. Then, alone, there's no one to tell you that the work you can no longer do is the work that mattered.
 
-And the helplessness comes late on purpose. It has to wait until you've asked and been refused, kindly, enough times. Kindness is what makes it stick. You can't be angry at a director who agrees with you. So you aim the anger at yourself.
+Isolation has to come before the self-care email. A psychologist with peers knows four buildings is a staffing problem. A psychologist alone already believes the problem is inside them, and the email confirms it.
+
+And the helplessness waits until you've asked and been refused, kindly, enough times. Kindness is what makes it stick. You can't be angry at a director who agrees with you. So the anger turns inward, and becomes "I'm fine."
+
+You did everything right. You stayed because you're good. That's exactly the material the machine is built from.
+
+[WHY THE SYSTEM PRODUCES THIS ORDER]
+
+Again, nobody designed this. It falls out of one goal that sits on top of every district: stay inside a fixed budget while staying legally compliant. When those two pressures meet, the one resource that never appears on a budget line is the conscience of the people doing the work. So that is the resource that gets spent, in this order.
+
+The warm welcome comes first because, in a hard-to-fill role, mission is the cheapest recruiting currency there is. A district that can't outbid its neighbours on salary can still offer meaning. It isn't a trick. It's what's left to offer.
+
+Weaponized vocation comes second because, once the budget is fixed, the only flexible resource left is the goodwill of the people already there. A salary can't stretch. A person who cares about the kids can. Every "those kids get nobody" is the budget speaking through a kind director who has no other lever.
+
+Gradual escalation comes third because leaving a vacancy unfilled is the least visible cut a system can make. No layoff. No announcement. No headline. The work simply redistributes onto whoever stays, one building at a time.
+
+The dashboard comes fourth because, under scarcity, systems protect what carries legal risk. A missed evaluation timeline can be challenged. A grief group that stops meeting can't. So the metric tracks the timeline, and everything the law doesn't require becomes the first thing to go, without anyone deciding it should.
+
+Isolation comes fifth because a specialist spread across four buildings belongs to none of them. Peer time, consultation, the district meeting, all of it is the easiest thing to cut, because none of it is legally required and none of it shows up as a missed deadline.
+
+The self-care email comes sixth because it is the cheapest possible response to burnout. A structural fix costs a salary. An individual fix costs an email. Under a fixed budget, the response will always drift toward the individual one, sincerely meant.
+
+Learned helplessness comes seventh because almost everyone in the chain is a middle layer. The director who hears the request doesn't control the budget either. So requests are absorbed, sympathetically, and nothing changes. Not out of indifference. Because the person listening has no lever. After enough of that, people stop pulling.
+
+Replacement comes last because contracting turns a salaried role, with its benefits and its permanence, into a per-evaluation cost: flexible, countable, and cheaper on paper. When the person finally can't continue, the system already has a lower-cost way to keep the compliance boxes green.
+
+So the order is the budget's order. Recruit with meaning, retain with conscience, cut by attrition, protect what's legally risky, drop what isn't, answer exhaustion as cheaply as possible, absorb the asks, and replace the function at lower cost. Every step is a reasonable answer to scarcity. Together they convert a good person's care into the system's margin. Nobody in the chain wants that. It's what the arrangement produces.
 
 [INSTITUTIONAL ECHO]
 
-At the institutional level, The Calling Trap is how a district saves a salary every year a post stays empty.
+At the institutional level, The Calling Trap is how a district keeps going every year a post stays empty.
 
-The remaining staff cover it out of conscience. And here's the cruelty inside it: the better they cope, the less urgent the hire looks. Their competence hides the gap. Their evenings fund the shortfall. The budget meeting sees the numbers — evaluations completed, deadlines met — and concludes the system is working.
+The people who remain cover it out of conscience. And here's the quiet cruelty inside it: the better they cope, the less urgent the hire looks. Their competence hides the gap. Their evenings fund the shortfall. The dashboard shows green, and the budget meeting concludes that the system is working.
 
 It is working. It's working on them.
 
@@ -208,34 +289,47 @@ It is working. It's working on them.
 
 Civilizationally, The Calling Trap is how a society underfunds care.
 
-Teachers. Nurses. Social workers. Carers. Psychologists. A society can underpay and under-staff all of them for as long as the people who care refuse to walk away from the people in front of them. The shortfall doesn't disappear. It gets paid — in their sleep, their health, their marriages, their own children's evenings.
+Teachers. Nurses. Social workers. Carers. Psychologists. A society can ask too much of all of them for as long as the people who care refuse to walk away from the person in front of them. The shortfall doesn't disappear. It's paid, in their sleep, their health, their marriages, their own children's evenings.
 
-And the story the culture tells about them — *heroes*, *angels*, *they do it for love* — is the love bombing at civilizational scale. The praise is real. It's also what keeps the bill unpaid.
+And the stories a culture tells about them — heroes, angels, they do it for love — are the love bombing at civilizational scale. The praise is sincere. It's also part of what keeps the bill unpaid.
 
 [RECOGNITION CUES + CHAIN BREAKERS]
 
-Here's how to know if you're inside The Calling Trap.
+Here's how to recognise The Calling Trap.
 
-The "Who Would They Have?" Test. If your reason for staying is guilt, name whose shortfall you're covering. It isn't yours. It's a budget decision someone else made.
+The "Who Would They Have?" Test. If guilt is your reason for staying, name whose shortfall you're covering. It's a budget decision someone else made, often someone who fought it too.
 
-The Thin-Work Test. When did you last do a case the way you were trained to? Observation, family call, the whole picture? If you can't remember, the job has been redefined without anyone telling you.
+The Grief-Group Test. What part of the work did you love most in your first year? Does it still happen? If it stopped, notice whether anyone counted it stopping.
 
-The Ratio Test. Say your caseload out loud to someone who doesn't work in schools. Watch their face. Their face is the alarm system you've had switched off.
+The Ratio Test. Say your caseload out loud to someone who doesn't work in schools. Watch their face. Their face is the alarm you've had to switch off.
 
-The Bath Test. When the response to "I have too much work" is "take care of yourself," notice which problem just got moved, and where it got moved to.
+The Bath Test. When "I have too much work" is answered with "take care of yourself," notice which problem just moved, and where it moved to.
 
-Now if you're inside this — here's how to start breaking it.
+Now, here's how to start breaking it.
 
-Step one: Say the number out loud, in writing, to the people who set it. Caseload. Buildings. Hours. Not as a complaint. As a record. Plausible deniability depends on nobody writing it down.
+Step one: Say the numbers out loud, in writing, to the people who set them. Caseload. Buildings. Hours. Not as a complaint. As a record. A shortfall that's written down can't stay invisible.
 
-Step two: Return the debt. Say it to yourself until it's true: "The shortage is real. It is not mine to pay alone."
+Step two: Return the debt. Say it until it's true: "The shortage is real. It isn't mine to pay alone."
 
-Step three: Find your peers outside your district. Compare notes. The moment you learn your caseload isn't normal, the isolation breaks, and so does the story that you're the problem.
+Step three: Find your peers, in your district or the next one. Compare notes. The moment you learn your load isn't normal, the isolation breaks, and so does the story that you're the problem.
 
-Step four: One case a month, done properly. All of it. As proof to yourself of what the work actually is.
+Step four: Protect one piece of the work you love, on the calendar, like a deadline. One case a month done the whole way. One group. Proof to yourself of what the work is.
 
-Step five: Write down what you'd do with half the caseload. That page is the argument for the hire.
+Step five: Write down what you'd do with half the caseload. That page is the argument for the hire, and it reminds you why you came.
 
 Here's your question:
 
-What are you covering for, with your own evenings, that was never yours to carry — and who taught you that leaving it uncovered would make you a bad person?
+What part of this work did you love most when you started — and when did it last get the hour it deserves?
+
+### Beat map (every tactic, in order, in the cold open)
+
+| # | Tactic | Where it happens in the scene |
+|---|---|---|
+| 1 | Love bombing | The interview: the underlined letter, "the kids here need someone exactly like you" |
+| 2 | Weaponized vocation | February: "If you step back, those kids get nobody… It's just true" |
+| 3 | Gradual escalation | "Just for the spring": two buildings, then three, then four |
+| 4 | Moving the goalposts | The compliance dashboard; green across the board; the grief group stops |
+| 5 | Isolation | No other psychologist in any building; the district meeting fades away |
+| 6 | Spiritual bypassing | The sincere Wellness Wednesday email, read in the car with forty-one open cases |
+| 7 | Learned helplessness | "You don't ask the director again"; three years of "temporary" |
+| 8 | Replacement | The colleague next door replaced by video evaluations on Thursdays |
