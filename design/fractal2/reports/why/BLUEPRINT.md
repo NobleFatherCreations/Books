@@ -150,3 +150,64 @@ Order of work:
 
 Rules: nothing is deployed. Nothing from the first draft is deleted; cut material moves to Reference. Never invent a tactic, combination, statistic or quote; if a source line is missing, leave the slot out and say so in the final table. Keep the owner's first-person voice. Keep sentences short.
 ```
+
+---
+
+## H. VALUE AND IMPACT — woven through the whole document (binding; overrides row 18 of Part C)
+
+Source: `design/fractal2/reports/value-and-impact.html` (the owner's most-wanted material). It is not one section. Each piece goes where it does the most work. Keep the Fact / Your lens / My judgment tags where a claim needs one. Rewrite in the owner's first person, but keep every caution.
+
+| Piece from the report | Goes in | How it is shown |
+|---|---|---|
+| **Five things The Fractal does that almost nothing else does** (transfers a literacy people already own; teaches by repetition; needs no villain; turns inward and backward; ends in practice and gives no orders) | Section 3 "Three units, four verbs" | Five numbered cards |
+| **"By the fifth sector the reader predicts the next cell"** | Section 7 (numbers) | Pull quote: this is why there are thirty |
+| **You were not the first: nine predecessors** (Biderman, Freire, Illich, Forbes, Dutton and Painter, Wink, Herman, Stark, Fricker) and where each sits in The Fractal | New half-page in "What you can trust here" + full table in Reference | Table, 3 columns |
+| **Fricker's idea: harmed a second time by having no words** | Section 2, as the reason naming matters | One sentence + pull |
+| **The change in scale**: 30 → 335 tactics; 2,700 → 30,150 examples; 153 combinations in sector one, 203 on the master list | Section 8 ladder | Add the real figures under each step |
+| **Why sequences change lives** — the four reasons, especially: *a list explains your past; a sequence predicts your future*, and a person taught to doubt themselves can still run the test "the map said this would come next, and it did" | Section 10, as its opening argument | Four cards; this is the strongest single idea in the report |
+| **The security parallel**: an attack is a chain, and the defender only has to break one link | Section 10, directly before the chain diagrams | One box; it explains the gold cut-marks |
+| **The quiet parts are the most valuable**: false-positive check, evidence to keep, escalation levels, safer wording, "do not confront" | Section 11, after the five combinations | Box: "what separates harm reduction from content about harm" |
+| **The size of the need** (61M women / 53M men psychologically abused by a partner, US; 840M women worldwide; ~32% of US workers bullied; 27.6M in forced labour; $16.6B fraud losses; 73% stayed longer because of money) with each source and caution, and "do not add these together" | New section before "What this can become": **Who this is for, in numbers** | Bar chart + table; then the three groups the numbers leave out |
+| **Seven mechanisms and their evidence strength** (naming moves the blame: strong; naming calms the body: suggestive; learning the technique protects: strong for recognition; local detail matters: moderate; the order creates the bond: moderate; a sequence can be predicted: reasoned, untested; a plan lowers risk: reasoned) | New section: **How it helps, and how sure we can be** | Table with a strength meter per row. Include "the most valuable unknown" |
+| **Maps that changed things** (Biderman's chart, "sexual harassment", Our Bodies Ourselves, Where There Is No Doctor, A Pattern Language, the Power and Control Wheel, Coercive Control, ATT&CK) | New section: **This is how such work has always started** | Timeline graphic, one line each: who made it, what happened |
+| **Six lessons from them** + where Fractal² is ahead (scope) and behind (no one-page form, not yet checked by outsiders, no organisation using it) | Same section; the "behind" list becomes the bridge into the call to action | Two-column ahead / behind |
+| **The traditions, with the parallels the owner hasn't used** (privation of good; Māra's disguises ending when he is seen; fitra and "the whisperer who withdraws"; the rope mistaken for a snake; light inside the shards; the counterfeit spirit; the Tao's "every day something is dropped") and the two corrections and one caution | Reference: three lenses, expanded | Table with a "fit" column |
+| **Sixteen ways this could help that nobody has named** (5 groups: reach people earlier; reach the people who carry it; put it in hands at the moment of need; make it a commons; new ground) | Section "What this can become" | Sixteen small numbered cards under the five headings. Mark which already exist (self-audit rubric = #5; this PDF's slides = toward #6) |
+| **What could hold it back** (unchecked content; totalising reading; use as a weapon; safety at recognition; contested science; one person; its own size) with what answers each | Reference: limits | Table, risk → answer |
+| **What this work is worth**: to one person, to the people who help, to a society (namelessness, isolation, deniability: a public map is *witnessing at scale*) | Section 19, immediately before "The world that saw it" | Three panels |
+| **The illustration, not a forecast** (100,000 readers, one in fifty, 2,000 people; the cost per person is zero and the map does not wear out) | Same | Small figure, clearly labelled as invented numbers |
+| **On giving it away** and **on ending the cycle**: no map ends it; what ends is the method's ability to stay hidden | Section 20, the ask | Closing paragraph before the four asks |
+
+Two rules from the report that bind the whole document: never say the map *ends* the cycle; and never state contested science as fact.
+
+## I. Inventory: every part of editions 1 and 2, and where it lives in edition 3 (nothing is cut)
+
+| Edition 1 (21 pp) / Edition 2 (53 pp) content | Edition 3 |
+|---|---|
+| Short version / why these books exist | Movement I, §2 |
+| Numbers | §7, with the report's real scale figures |
+| Three lenses + traditions table | Reference, expanded from the report |
+| 8 stages table, Genesis box, checklist | Summary in §4; full in Reference |
+| 30 techniques table (originals, faculties, practices) | Summary in §5 (slides); full in Reference; counter-practices restored to the owner's wording |
+| "Turned inward" (The Mirror) | §13, on the way down |
+| 30 sectors table, life timeline, one ordinary day, six roots | Timeline and day open §14; table in Reference; roots group the cards |
+| Three levels + four channels | §6 |
+| Frequency, body states, signals table | §13 |
+| Combination intro, six parts, who it helps | §10 |
+| Chains: Compliance Engine, Curiosity to Compliance | §10 |
+| Hook page, index, machine map | Front |
+| 30 impulse cards | §14, merged into the sector cards |
+| From the map to the life + ladder | §8 |
+| Five combinations + school diagram | §11 |
+| 15 connections + loops diagram | §12, plus the data-test results |
+| Clean systems | §15 |
+| War map + change path | §16, expanded to the owner's full text |
+| Children and schools + Playground Protectors | §17 |
+| What this can become | Now carries the sixteen ways |
+| The world that saw it + ripple | §19, after "what it is worth" |
+| The ask | §20 |
+| Tools, matrix, worksheet, self-audit | Reference |
+| Limits | Half-page up front; full in Reference with the risk table |
+| Series slides | §5 as the visual; also Reference |
+| Persuasion page | Last page, half length |
+| Foil letter and three asks | Unchanged wrapper |
