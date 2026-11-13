@@ -3,7 +3,10 @@ name: The Trauma Bond Engine
 tagline: The pain becomes the proof of love.
 meta: 7 tactics · from the Education series
 why: A coach who does believe in you, a program that does open doors, and a seven-step sequence that turns pain into proof of love. The breakdown that follows is my original script, word for word.
-intro: A point in a life: adolescence. Where it happens: a youth sports program.
+stage: Adolescence
+where: A youth sports program
+installs: a need to earn warmth from the very people who withhold it, and a belief that being hurt is how someone shows they believe in you
+carries: A pull toward people who run hot and cold, and the feeling that a warm word after a cold stretch is the truest love you know. | A habit of calling what you endured "growth," and of defending whoever put you through it. | An automatic answer, "it made me who I am," that closes the question before you can ask whether it hurt.
 chain: Intermittent Reinforcement | Trauma Bonding | Relief Bait | Push-Pull | FOG | Hoovering | Conditional Love
 
 @@ scene October, a church gym
@@ -11,7 +14,7 @@ Your school coach plays you eleven minutes on a good night. You've learned to sa
 
 Dale Mercer finds you on a Sunday in October, in a church gym that smells like floor wax and old pizza. He sits in the bleachers with a clipboard and a coffee he never drinks. When the run ends he walks down and asks who coaches you. You tell him. He says "Huh" in a way that makes your face go hot, then tells you that you have D1 potential and somebody should have said so already.
 
-Nobody had. You drive home with both hands tight on the wheel so you won't grin at the stoplights. He pushed you when no one else did. He believed in you. Years from now, trying to explain any of this, that's the part you'll keep returning to: a grown man who knew what he was looking at believed in you, when nobody else with a whistle did.
+Nobody had. You drive home with both hands tight on the wheel so you won't grin at the stoplights. He pushed you when no one else did. He believed in you. Years from now, trying to explain any of this, that's the part you'll keep returning to: A grown man who knew what he was looking at believed in you, when nobody else with a whistle did.
 
 His program is called Elevation Hoops. Four nights a week, travel on weekends, and fees that make your dad go quiet at the kitchen table before he says, "If this is what it takes, this is what it takes."
 
@@ -64,7 +67,7 @@ None of it feels like a thought. It feels like pressure, and you can't argue wit
 @@ scene Nine days, then signing
 You manage nine days. You skip a Saturday gym, then a Tuesday. You sleep, you eat dinner with your phone in another room, you laugh at something your sister says and realize you haven't laughed like that in a month. You feel like a person who lives in your own body.
 
-On the tenth day he calls. You let it ring, and he calls again, and the third time you pick up. "Haven't seen you. Wanted to check on you. Everything okay at home?" Then: "I put something together for you." It's a four-minute film of your best possessions this year, slowed down, cut to a song you mentioned once, in October, in his truck. He remembered the song. The last frame says *THIS is who you are.* You remember the hand on your shoulder at Monday's practice, the exact weight of it, and thinking: no one else would have noticed I was gone. You're back in the gym by Tuesday. It doesn't feel like being pulled. It feels like being seen.
+On the tenth day he calls. You let it ring, and he calls again, and the third time you pick up. "Haven't seen you. Wanted to check on you. Everything okay at home?" Then: "I put something together for you." It's a four-minute film of your best possessions this year, slowed down, cut to a song you mentioned once, in October, in his truck. He remembered the song. The last frame says *THIS is who you are.* You remember the hand on your shoulder at Monday's practice, the exact weight of it, and thinking: No one else would have noticed I was gone. You're back in the gym by Tuesday. It doesn't feel like being pulled. It feels like being seen.
 
 ---
 
@@ -86,7 +89,7 @@ You're not wrong. That's the problem.
 @@ cost
 Nobody in this story set out to hurt you. Mercer was coached by a man who made him play on a broken wrist, and he's passing on the only love he was ever shown. Your mother meant every word in the car. Your father paid years of fees he couldn't afford and never said so. The program did open doors, and Mercer did believe in you.
 
-So here is the bill. A game you loved at nine, which now arrives with a stomach in a fist. A knee, and a body that learned to play through everything because stopping meant disappointing him. Weekends and Jess's birthday dinners, and a hometown gone slightly strange. A college chosen by someone else's friendship. A sentence you say without thinking, which closes every question before you can ask it. And something you'll notice later, in other rooms: you're drawn to people who run hot and cold, and a warm word from someone who has been cold feels like the truest thing you know. You were taught that pain is how care sounds. You learned it so well it started to sound like your own voice.
+So here is the bill. A game you loved at nine, which now arrives with a stomach in a fist. A knee, and a body that learned to play through everything because stopping meant disappointing him. Weekends and Jess's birthday dinners, and a hometown gone slightly strange. A college chosen by someone else's friendship. A sentence you say without thinking, which closes every question before you can ask it. And something you'll notice later, in other rooms: You're drawn to people who run hot and cold, and a warm word from someone who has been cold feels like the truest thing you know. You were taught that pain is how care sounds. You learned it so well it started to sound like your own voice.
 
 @@ anchors
 Intermittent Reinforcement | Best first step I've seen all month
@@ -102,7 +105,7 @@ Intermittent Reinforcement | *The scream on Tuesday. "Best first step" on Wednes
 Trauma Bonding | *"Good." Forty seconds of relief you'd do anything for.*
 Relief Bait | *"I don't do that for players I don't believe in."*
 Push-Pull | *Six games on the bench in Orlando. Then "I've been saving you."*
-FOG | *The driveway: fear, obligation, guilt.*
+FOG | *The driveway, with fear, obligation and guilt.*
 Hoovering | *The four-minute film, cut to your song.*
 Conditional Love | *Sixteen days of cold. Then the hug in front of the team.*
 
@@ -126,7 +129,7 @@ Nobody designed this sequence either. It falls out of what a competitive youth-s
 
 **Push-pull comes fourth because playing time is the one currency the coach fully controls.** There are five places on the floor and a dozen players who want them. Sitting someone and then lifting them is how scarcity gets managed, and it keeps every player on the roster working for the next minute.
 
-**FOG comes fifth because by now leaving costs everything.** The fees, the weekends, the scholarship that might pay for college, the story the family has told relatives: each is a reason the exit has gotten heavy. Fear of wasting the talent, obligation to the people who invested, guilt for wanting out. The system didn't plant those. It simply made each of them true.
+**FOG comes fifth because by now leaving costs everything.** The fees, the weekends, the scholarship that might pay for college, the story the family has told relatives: Each is a reason the exit has gotten heavy. Fear of wasting the talent, obligation to the people who invested, guilt for wanting out. The system didn't plant those. It simply made each of them true.
 
 **Hoovering comes sixth because a departing player is expensive.** There's a roster spot, a family's fees, and a recruiting story the coach has been telling college staff. So the coach reaches back, and does it personally, because the personal gesture is what works, and because he usually means it.
 
@@ -135,20 +138,30 @@ Nobody designed this sequence either. It falls out of what a competitive youth-s
 Put it together and the order is the order a pay-to-play recruiting funnel needs: **keep them engaged, keep them attached, keep them explained, keep them competing, keep them from leaving, bring them back, and send them where the funnel ends.** Every step is a reasonable answer to a scarcity of minutes, money and scholarships. Together they turn a kid's belief in himself into the program's retention.
 
 @@ purpose
-Dr. Hale is your thesis advisor and, in a new city, the only person who feels like home. In your first meeting he calls your proposal the most original he's read in a decade. In the next he reads it aloud to the lab in a flat voice and asks the room what's wrong with it. You never know which Hale will turn up. You start waiting for his emails. When one says "good," your whole body unclenches, and you'd do almost anything to get the next.
+Kayla Brooks was in her second year of teaching when the school assigned her an instructional coach, Gwen Holloway. Gwen was the most admired teacher in the building. In their first meeting she told Kayla she had the best classroom presence she'd seen in ten years, and Kayla walked out feeling taller. In the second she took apart a lesson in front of the whole grade team and never mentioned it again. Kayla never knew which Gwen would be at her door. She began reading Gwen's face in the hallway the way you read the sky. When Gwen did say "Good," Kayla felt her chest unclench, and she would have taken on anything to hear it again.
 
-After a brutal meeting he finds you in the stairwell, voice low. "I only push the ones I believe in. Don't tell the others." He offers you a conference slot, takes it back, then gives you a bigger one. You stop seeing friends, because he books meetings at the last minute. When you mention another advisor, three things arrive at once: fear you'll never finish, a debt, because he wrote your funding letters, and guilt for even thinking it.
+After a rough observation, Gwen found her in the copy room and lowered her voice. "I'm only this hard on the teachers I believe in. I don't do this for the ones I've given up on." She gave Kayla the new reading cohort, took it back in November without explanation, then handed her the larger one in January. When Kayla mentioned applying to another school, three things hit her at once: fear that she'd never make tenure without Gwen, a sense that she owed her everything, and guilt for even thinking about leaving. The next morning there was a handwritten note on her desk and a coffee, exactly the order she'd mentioned once in September. Kayla stayed. At the spring staff meeting Gwen praised her by name, but only after Kayla agreed to chair Gwen's committee.
 
-Two days later he's at your door with a paper he says reminds him of you, and a draft of your acknowledgments. You stay. In the spring he introduces you to a committee as "my best student," but only after you agree to run his project. Later you'll see the meter: his warmth was always available the moment you complied.
+Gwen was never confused about what she was doing. She told a friend that new teachers were easy to shape if you got the temperature right.
 
-Hale knew exactly what he was doing. The coach in the story you just read may not have. From the middle, the two feel the same, and the way out is the same too: slow it down, and bring someone in.
+@@ purpose_anchors
+Intermittent Reinforcement | Kayla never knew which Gwen would be at her door
+Trauma Bonding | she would have taken on anything to hear it again
+Relief Bait | I'm only this hard on the teachers I believe in
+Push-Pull | then handed her the larger one in January
+FOG | fear that she'd never make tenure without Gwen
+Hoovering | a handwritten note on her desk and a coffee
+Conditional Love | only after Kayla agreed to chair Gwen's committee
 
 @@ combo normal
 name: The Normalization Engine
 tagline: One degree at a time, until you stop feeling the heat.
 meta: 7 tactics · from the Education series
 why: Conditions worsen by small, defensible steps while a teacher is taught, kindly, to absorb each one. By year three, a person who started out appalled has stopped noticing the heat. The breakdown that follows is my original script, word for word.
-intro: A point in a life: the first years of a career. Where it happens: a school building.
+stage: The first years of a career
+where: A school building
+installs: a need to be reasonable: to stop reacting to what once alarmed you, and to treat your own distress as the problem that needs fixing
+carries: Years spent absorbing conditions you would have refused on your first day. | Trouble saying plainly what is wrong in your own life, because you have forgotten what normal used to look like. | A dependable calm that other people read as strength and your body reads as a held breath.
 chain: Gradual Escalation | Repetition as Truth | Social Proof | "That's Just How It Is" | Anchoring | Gaslighting | Window Shifting
 
 @@ scene Year one
@@ -167,7 +180,7 @@ That night you write in a notebook, in capitals, *THIRTY-FOUR STUDENTS. NO AIDE.
 @@ scene The staff room
 After that you hear it everywhere. It's in the principal's welcome-back email, gently: *As always, we'll do our best with the resources we have.* It's what the PTA treasurer tells you at open house, smiling: "Oh, class sizes have always been like this here." There's never been enough funding. Teachers have always been stretched thin. It's always been this way.
 
-None of these people is lying. Ruth has taught twenty-two years, and it was hard when she started. Everyone who says it is being kind: here's a fact about the world, so you can stop being surprised. But the more you hear it, the less it sounds like something a person said and the more it sounds like weather. A condition, not a decision. Repeating it doesn't make it true. It makes it feel true, and feelings don't wait for analysis.
+None of these people is lying. Ruth has taught twenty-two years, and it was hard when she started. Everyone who says it is being kind: Here's a fact about the world, so you can stop being surprised. But the more you hear it, the less it sounds like something a person said and the more it sounds like weather. A condition, not a decision. Repeating it doesn't make it true. It makes it feel true, and feelings don't wait for analysis.
 
 The staff room is the hardest place for it, and the softest. Fourteen teachers eat lunch in shifts, mostly standing, and what strikes you is how calm it is. Someone is microwaving soup. Dev is doing a crossword. Ruth tells a story about a student who sneezed a retainer into a beaker, and everyone laughs. You look for a face that looks the way yours feels, and you don't find one.
 
@@ -178,7 +191,7 @@ In year two there's a boy named Tomás in your third period. He's thirteen, sits
 
 You called the counselor. The counselor said, "We know. There's a waitlist for the free lunch program. We're doing what we can." You were devastated. You bought the kid breakfast the next morning.
 
-Ms. Bell isn't cold. She has four hundred students and a list of names in her desk drawer, its corners worn soft. When you stand shaking in her doorway she puts a hand on your arm and says, "It is what it is, hon. That's just how it works." You understand later that she isn't saying it to you. She's saying it to herself, a few times a day, so she can keep walking down the hall. On the drive home you hear it in your own head. It sounds like acceptance and works like a door closing: stop investigating, this is fixed.
+Ms. Bell isn't cold. She has four hundred students and a list of names in her desk drawer, its corners worn soft. When you stand shaking in her doorway she puts a hand on your arm and says, "It is what it is, hon. That's just how it works." You understand later that she isn't saying it to you. She's saying it to herself, a few times a day, so she can keep walking down the hall. On the drive home you hear it in your own head. It sounds like acceptance and works like a door closing. *Stop investigating. This is fixed.*
 
 By the end of year two, you were buying three kids breakfast every morning. You didn't report it anymore. You just handled it. It was just... how things were. The notebook from year one has drifted to the bottom of a drawer, under the receipts.
 
@@ -270,20 +283,30 @@ Again, nobody designed this. It falls out of what a school budget has to do: **c
 The order is the budget cycle's order: **shrink slowly, explain cheaply, spread it through peers, soothe the pain, reset the baseline with every hire, and ratchet the policy.** Every step is a reasonable move for an institution under constraint. Together they train good people to absorb a harm none of them would have accepted on day one.
 
 @@ purpose
-Dennis is your principal and has been your friend for fifteen years. After you file a complaint about your roster, it grows by two the next week. "Just until we hire." Two more in October. He never says the number. At every meeting, and again at Thanksgiving in your own kitchen, he says, "You know it's always been like this here," and soon the other teachers say it for him. They stop meeting your eyes when you speak up. "It is what it is, Maya."
+When Marcus Webb, a veteran science teacher, objected in writing to a seventh class section, the assistant principal, Rick Tolliver, thanked him for his candor. The next week Marcus's roster grew by two students. The week after that, by two more. Rick never said the number out loud, and every email said "just until we hire." At meetings, and later in the hallway where others could hear, he said the same sentence: "You know it's always been like this here." Within a month, two colleagues were saying it to Marcus for him.
 
-He reminds you that your first year had thirty-four, so what's another two. When you cry in his office he tells you you're run down, it's not that bad, maybe you should talk to someone, and you start to wonder whether you're the problem. By spring there's no planning period on your schedule, and he calls it a normal schedule. When a parent asks, you repeat it.
+When Marcus raised it again, Rick shrugged kindly. "It is what it is. That's just how it works." He reminded Marcus that his first year had been worse, so this was small by comparison. When Marcus's voice shook in a one-on-one, Rick told him he seemed run down, that it wasn't that bad, that other teachers had it harder, and suggested he talk to someone. By spring Marcus's planning period was gone from his schedule, and Rick presented it at the faculty meeting as a routine adjustment, one more small change in a year of small changes.
 
-In June he tells a new hire your load is "just what the job is." You've taught like this for a year, and you can't remember what you used to find unacceptable.
+Rick kept a spreadsheet of who complained. He told a friend at the district office that the trick was to move people a degree at a time, so nobody ever feels the heat.
 
-Dennis planned every step, and he never raised his voice. The story you just read had no one like him in it. From the inside the two feel alike, because the feeling comes from the sequence. The way out is the same too: write the conditions down as if for a stranger, and say them out loud to someone new.
+@@ purpose_anchors
+Gradual Escalation | roster grew by two students
+Repetition as Truth | You know it's always been like this here
+Social Proof | two colleagues were saying it to Marcus for him
+"That's Just How It Is" | That's just how it works
+Anchoring | his first year had been worse
+Gaslighting | it wasn't that bad
+Window Shifting | presented it at the faculty meeting as a routine adjustment
 
 @@ combo shame
 name: The Public Shaming Ritual
 tagline: Five minutes on a whiteboard. A lifetime in the head.
 meta: 6 tactics · from the Education series
 why: One adult, twenty-six children and a board. A five-minute ritual that turns a missing page into a permanent habit of watching yourself. The breakdown that follows is my original script, word for word.
-intro: A point in a life: childhood, age eleven. Where it happens: a classroom.
+stage: Childhood, around age eleven
+where: A classroom
+installs: a need never to be caught unprepared: a watcher inside your head that checks your work before anyone else can
+carries: Perfectionism that never feels like readiness. | Dread of being evaluated in front of other people, decades after the moment that taught it. | Over-checking, over-preparing, and a body that tightens before every presentation, whatever the result.
 chain: Public Identification | Moral Framing | Audience Activation | Social License Generation | Correction Invisibility | Internalized Surveillance
 
 @@ scene Two houses
@@ -343,7 +366,7 @@ Before Thursday's presentation you prepare on Monday, and Tuesday, and at four i
 You don't tell anyone. You wouldn't know how to explain that five minutes in a sixth-grade classroom are still something you check for at four in the morning. It was a missing page. It's so small. And you know, in some part of you that still sits at that desk, that if you said it out loud the shame would come straight back into the room, because the whole thing was built to keep you quiet about it.
 
 @@ cost
-Mrs. Pruitt isn't the villain here either. She ran the system her whole grade team chose, and it worked as designed: homework came in, the room stayed calm, one adult managed a hundred and fifty kids a day. At the end of eighth grade you wrote her a card saying she'd taught you to be responsible, because you knew it was what she wanted to hear and, in a way, it was true. She kept it in a box. She'll never know what the board installed, because what it installed looks exactly like what she'd hoped for.
+Mrs. Pruitt isn't the villain here either. She ran the system her whole grade team chose, and it worked as designed. Homework came in, the room stayed calm, and one adult managed a hundred and fifty kids a day. At the end of eighth grade you wrote her a card saying she'd taught you to be responsible, because you knew it was what she wanted to hear and, in a way, it was true. She kept it in a box. She'll never know what the board installed, because what it installed looks exactly like what she'd hoped for.
 
 The cost shows up in units a system doesn't count. Years of checking nobody asked for. A stomach that tightens before every presentation for twenty years. A grown person who sends the same email three times and still can't feel ready. The first three seconds of every morning, spent with a hand in a front pocket. And the quieter costs: Cody, the girl in front of you, the boy at the back, who watched and learned that a missed assignment can be done to you in public, and decided never to be the one. You spent half your childhood proving you weren't the name on the board, and you're not sure you've finished.
 
@@ -389,24 +412,35 @@ Nobody designed this sequence. It falls out of what a classroom is built to do: 
 The order is the order of a classroom running efficiently: **display, explain, activate the group, let the group enforce, forget to restore, and count the compliance.** Every step is a reasonable answer to one adult, twenty-six children and no time. Together they turn a missing page into something a child carries for decades.
 
 @@ purpose
-Dr. Patel chairs your department and lives two doors down. After you disagree with her at a meeting, the next agenda opens with a slide titled OUTSTANDING REPORTS, and yours is the only name on it. She looks at you over her glasses. "I'm disappointed. I expected more from you." Twelve colleagues study their laps, each quietly checking their own list.
+At the Tuesday department meeting, Dr. Alisha Patel put a slide on the screen titled OUTSTANDING REPORTS. One name was on it: Jordan Reyes, a third-year English teacher who had challenged her grading policy the week before. Patel looked at Jordan over her glasses. "I'm disappointed, Jordan. I expected more from you." Eleven colleagues studied their laptops, each quietly checking whether their own reports were in.
 
-In the hallway afterward a colleague grins and says, "Outstanding Reports, huh?" By Friday it's a joke in the group chat. You file the report that night. The slide stays on the next agenda anyway, and no slide ever says it arrived.
+After the meeting, a colleague grinned at Jordan in the hallway and said, "Outstanding Reports, huh?" By Friday the phrase was a joke in the department group chat, and nobody stopped it, because the chair had said it first. Jordan turned the reports in that night. The slide stayed on the agenda for the next two meetings. No slide ever said the reports had arrived.
 
-After that you submit everything three days early. You reread every email nine times. You stop speaking in meetings. Patel never has to name you again. She calls it accountability, to a friend, over wine.
+After that, Jordan turned everything in three days early, reread every email nine times before sending it, and stopped speaking up in meetings. Patel never had to name her again.
 
-Patel meant it, step by step. Mrs. Pruitt in the story you just read meant none of it. The seventh-grader and the department member end up in the same place: a board inside the head, watching for the next mistake. The way out is the same too: say what happened in your own words, to someone who wasn't in the room.
+Months later Patel told a colleague over lunch that it was just accountability, and that Jordan had settled down nicely. She had done the same thing to two other teachers in her first year as chair.
+
+@@ purpose_anchors
+Public Identification | put a slide on the screen titled OUTSTANDING REPORTS
+Moral Framing | I'm disappointed, Jordan. I expected more from you.
+Audience Activation | Eleven colleagues studied their laptops
+Social License Generation | the phrase was a joke in the department group chat
+Correction Invisibility | No slide ever said the reports had arrived
+Internalized Surveillance | reread every email nine times before sending it
 
 @@ combo paper
 name: The Paper Child
-intro: A point in a life: age nine, seen through the eyes of the adult who meets him. Where it happens: a school meeting room.
+stage: Age nine, seen through the eyes of the adult who meets him
+where: A school meeting room
+installs: a belief about who you are that someone else wrote down: a need to live inside a description you never chose
+carries: A quiet expectation that people will meet the worst page of you before they meet you. | A habit of showing less of yourself, so the next label has less to hold. | A reflex of not telling your side, because you learned early that your story is not the one that travels.
 
 @@ scene Sunday night
 The referral comes in on a Thursday. Near the top of the form there's a box, and the box asks one question: *Describe the student's problem behaviors.* Mrs. Alvarez has filled it in carefully, in the neat print of someone who has written on whiteboards for twenty years. She has answered the question exactly as it was asked. That's what a form is for.
 
 By Sunday night you have the file open on your kitchen table, after your own kids are asleep, a mug of tea going cold at your elbow. MARCUS T. Grade 3. Eleven incident reports since October, each half a page with the same boxes: date, time, location, behavior, action taken, parent contacted. *10:40, hallway, refused to return to class, escorted to office. 1:15, classroom, threw chair, no injuries, parent called.* You read them in order, and somewhere around the sixth one, without meaning to, you start to see him. Big for his age. Arms crossed. The kind of kid who changes the temperature of a room.
 
-You catch yourself. You've done this work for eleven years. You know a file is a flashlight, not a floodlight: it shows where someone was asked to point it. The picture forms anyway. Eleven accurate reports in a row are very good at drawing a picture.
+You catch yourself. You've done this work for eleven years. You know a file is a flashlight, not a floodlight. It shows where someone was asked to point it. The picture forms anyway. Eleven accurate reports in a row are very good at drawing a picture.
 
 There's one thing you know that isn't in here. On Friday, by the copier, Mrs. Alvarez told you, half laughing, that back in November Marcus found a first-grader crying by the buses, picked up her enormous unicorn backpack, and walked her all the way to her classroom. Then he walked back to his own, late. You find that morning in the file. *8:52, hallway, tardy to class, verbal redirection.*
 
@@ -475,17 +509,28 @@ Identity Erosion | That spring, and three years later | "'Cause I'm bad." / "I'm
 The File Arrives First | That spring, and three years later | "That's Marcus Thomas. He's one of our ED kids. I read his file."
 
 @@ purpose
-Your ex-husband is an assistant principal in the next district. During the divorce, your son's teacher mentions he's been a little off, and your ex asks to join the conference "as a concerned dad." The first thing he asks her is what's wrong with him. He texts her after every rough day and never after a good one, so the record he builds is true and one-sided. He suggests a referral "just to be safe," the only form she's allowed to fill out.
+Sheila Marsh had a student she wanted out of her room. Devon was loud and quick, and he had corrected her in front of the class twice. At the next team meeting she described him in a single sentence: "I don't know what's wrong with that boy." From then on she wrote down every incident, the thrown chair, the walk-out, the day he talked back, and none of the days he stayed on task or helped a classmate. The file was accurate, and it only had one side. She told the assistant principal that a referral was the only way the school could get him the help he needed, and she filled out the form herself.
 
-At the meeting he arrives with a folder and a colleague "for support," and you sit across from five people who share his job title. "This is how we get him help," he says, softly, and slides the form toward you. At home he takes over the school paperwork "so you don't have to," and tells your son, kindly, that Mom doesn't understand how hard school is for kids like him.
+At the meeting she arrived with a binder and two colleagues who had agreed to back her up, and Devon's grandmother sat across from nine professionals using words she didn't know. "This is how we get him help," Sheila said gently, and slid the form across the table. His grandmother signed. Afterward Sheila became the one who checked on Devon every morning, praising how far he had come "for a kid like him" and telling him, kindly, that he was lucky she was on his side. By March he was introducing himself to substitutes as the bad kid. When he moved up to sixth grade, Sheila called his new teacher before the first day to give her a heads-up, and the file reached the new classroom before he did.
 
-Your son starts calling himself "the problem kid." When the custody hearing comes, the file is on the table before you've said a word.
+Sheila told a friend she'd been trying to get him out since October. She got her wish.
 
-Your ex built it deliberately, in order. The people in the story you just read built nothing deliberately. The boy and the mother end up in the same place either way: a document speaking first. The way out is the same too: meet the child before the file, and bring a witness to every meeting.
+@@ purpose_anchors
+Deficit Framing | I don't know what's wrong with that boy
+Selective Records | none of the days he stayed on task
+Routine Referral | a referral was the only way the school could get him the help he needed
+Expert Intimidation | nine professionals using words she didn't know
+Manufactured Consent | This is how we get him help
+Benevolent Control | telling him, kindly, that he was lucky she was on his side
+Identity Erosion | introducing himself to substitutes as the bad kid
+The File Arrives First | the file reached the new classroom before he did
 
 @@ combo calling
 name: The Calling Trap
-intro: A point in a life: the start of a vocation. Where it happens: a school district.
+stage: The start of a vocation
+where: A school district
+installs: a need to be indispensable: the belief that your worth is whatever you can carry for other people, and that resting is abandoning them
+carries: Overwork that looks like dedication, and guilt about every boundary. | A body that says "fine" while it burns. | A career spent covering for a shortfall that was never yours.
 
 @@ scene The one kid
 You became a school psychologist because of one kid. Everyone in this work has one. Yours was Lily, in your second practicum, who didn't speak in class for an entire year. You saw her on Thursdays in a room with a beanbag and a broken pencil sharpener. For weeks you just drew side by side, a box of markers between you. You talked about your dog and drew it badly, on purpose, and on the fourth Thursday she took the brown marker out of your hand and fixed its ears. On the ninth, door closed, she put the marker down and told you everything. Twenty minutes of a voice nobody in that building had heard since September. That night you sat in your car outside your apartment, crying the kind of crying that happens when you find out what you're for.
@@ -560,10 +605,18 @@ Learned Helplessness | The third February, and after | You don't ask. "Just for 
 Replacement | The third February, and after | Dana's post filled by a rotating contractor on Thursdays
 
 @@ purpose
-Marguerite is a district director, and for two years your mentor and your friend. At your first lunch she tells you you're the best hire she's made. When you hesitate over a third building she says, "If you don't, those kids get nothing," and lets it sit. It's four buildings by spring, added one at a time. She quietly changes your metrics to ones you can't reach, and praises a colleague for hitting them.
+Marguerite Dunn, an assistant principal, found the new counselor, Tess, in her first week. "You're the best hire I've made in years," she told her over lunch, and she made sure Tess heard every word. A month later, when Tess hesitated over taking the lunch-duty rotation, Marguerite said gently, "If you don't do it, those kids get nothing." The rotation became two, then a committee, then a building, each one added as "just for this term." She quietly changed the metrics Tess was evaluated on to ones she couldn't reach, and praised a colleague who did reach them.
 
-"The other psychologists gossip," she tells you. "You're better off outside that group." When you say you're exhausted, she forwards the wellness email. Each time you ask for relief she's warm, and nothing changes, until you stop asking. The one time you say you might leave, she smiles. "I can always find a contractor."
+"The other counselors gossip," she told Tess. "You're better off staying out of that group." When Tess said she was exhausted, Marguerite forwarded the district's self-care email with a heart emoji. Each time Tess asked for relief, Marguerite was warm and nothing changed, and after a while Tess stopped asking. The one time she said she might leave, Marguerite smiled. "I can always find someone."
 
-She never raises her voice. She says she's disappointed, and you feel it in your chest for a week.
+Marguerite did this to a new hire every few years. The staff called her Mom and the building a family. The people who left called it something else.
 
-Marguerite chose every step. Carol in the story you just read chose none of them, and loved you. From inside the squeeze the two feel the same, because the sequence is doing the work. The way out is the same too: find your peers, put the numbers in writing, and keep one piece of the work that's yours.
+@@ purpose_anchors
+Love Bombing | You're the best hire I've made in years
+Weaponized Vocation | If you don't do it, those kids get nothing
+Gradual Escalation | just for this term
+Moving the Goalposts | changed the metrics Tess was evaluated on
+Isolation | You're better off staying out of that group
+Spiritual Bypassing | forwarded the district's self-care email
+Learned Helplessness | after a while Tess stopped asking
+Replacement | I can always find someone

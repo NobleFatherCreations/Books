@@ -77,6 +77,16 @@ Anchor by anchor:
 | 7 | Learned Helplessness | The third February, and after | "This is your third February, and you don't ask" |
 | 8 | Replacement | The third February, and after | "It would be a contract" |
 
+On-purpose stories, same check:
+
+| Story | Tactics | All present | In order | Words |
+|---|---|---|---|---|
+| 1. The Trauma Bond Engine | 7 | yes | yes | 279 |
+| 2. The Normalization Engine | 7 | yes | yes | 222 |
+| 3. The Public Shaming Ritual | 6 | yes | yes | 197 |
+| 4. The Paper Child | 8 | yes | yes | 262 |
+| 5. The Calling Trap | 8 | yes | yes | 191 |
+
 What the trim kept: every anchor line, the 24 key lines from the owner's three scripts (checked word for word), each story's turning image, and the closing cost. What it cut: second examples of the same beat, scene-setting that repeated what an earlier line had already shown, and several explanatory sentences that told the reader what a beat meant.
 
 One structural note: the three Education stories were written in second person with the owner's own past-tense lines inside present-tense narration (for example, "You called the counselor" next to "you ask if he's okay"). That seam comes from keeping the owner's sentences verbatim. It is visible but not jarring.
@@ -159,9 +169,23 @@ What may cause friction:
 
 Recommendation: Keep. It is the most likely to make him feel seen.
 
-### The "on purpose" pages
+### The "on purpose" stories
 
-Each story now has a one-page version where a person steers the same chain deliberately: an advisor, a principal who is a friend, a department chair, an ex-husband who is an assistant principal, a district director. None of the five villains is a school psychologist. Each page ends by naming the story you just read as the unintentional version, then says the feeling is the same from inside and the way out is the same. The ex-husband page is the highest-risk one: it touches custody, and a reader who knows custody records may say "that isn't how it works." The page keeps it to what an educator could plausibly do with access he already has.
+Each chain now has a separate one-page story, told in third person and past tense so it reads nothing like the cold open. Each is a situation most educators have lived or watched happen to someone, run knowingly by one person inside a school:
+
+| Chain | The manipulator | The target | The tell that it was on purpose |
+|---|---|---|---|
+| 1. Trauma Bond Engine | Gwen Holloway, instructional coach | Kayla Brooks, second-year teacher | "New teachers were easy to shape if you got the temperature right." |
+| 2. Normalization Engine | Rick Tolliver, assistant principal | Marcus Webb, veteran science teacher | He keeps a spreadsheet of who complained and moves people "a degree at a time." |
+| 3. Public Shaming Ritual | Dr. Alisha Patel, department chair | Jordan Reyes, English teacher | She had done the same thing to two other teachers in her first year as chair. |
+| 4. Paper Child | Sheila Marsh, veteran teacher | Devon, a student, and his grandmother | "She'd been trying to get him out since October. She got her wish." |
+| 5. Calling Trap | Marguerite Dunn, assistant principal | Tess, new counselor | She does this to a new hire every few years; the staff call her Mom. |
+
+Each story follows the chain in order (checked by the build, table above) and each page ends with the same short point: nobody meant it in the story before, someone did in this one, the person in the middle feels the same either way, and the way out is the same either way. None of the five manipulators is a school psychologist, and the Paper Child's manipulator is a teacher, not a psychologist, so the friend is never asked to see his own role as the villain. The most sensitive one is chain 4: it shows a teacher steering a student toward a label. It is realistic, and it is the one a psychologist is most likely to have watched happen, which is why it is there.
+
+### The new foreshadow pages
+
+Each "Composite chain" page now says what that chain can install and how it can follow someone into adult life, without naming the chain or any tactic (the build fails if it does). The five "installs" lines: a need to earn warmth from the people who withhold it; a need to be reasonable; a need never to be caught unprepared; a belief about who you are that someone else wrote down; a need to be indispensable.
 
 ### Across all five
 
@@ -169,3 +193,4 @@ Each story now has a one-page version where a person steers the same chain delib
 2. The most likely emotional reaction is recognition, not offense, if he reads the stories in the order: the three Education stories (not his profession) first, then The Paper Child and The Calling Trap last.
 3. The sweeping sentences are the owner's, not mine: "American education was built on public shaming" and the neurochemistry language. If you want a softer first read for him, those are the two places to add "in my reading" or "in my understanding."
 4. No claim in the new prose is a statistic or a legal claim. Names, towns, and ages are invented.
+5. Punctuation and capitalization: `lint.py` checks every text block (734) for lowercase sentence starts, spacing, doubled punctuation, straight quotes, unbalanced quotes, and Title Case in every heading and label. It passes. The check was tested by seeding errors, and it caught them.

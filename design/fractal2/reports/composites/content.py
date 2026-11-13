@@ -131,7 +131,7 @@ COMBOS.append({
         "**If consent came before the arithmetic of the table, it would be a real choice.** Ten minutes alone with Denise first, in plain words, the psychologist beside her and not across from her, and she could have asked the questions the table made impossible: *What else is there? What happens if we wait? When does this get looked at again?* After forty-five minutes of percentiles, those questions are gone.",
         "**If help weren't locked behind the label, nobody would need him to qualify.** The gate is what creates the pressure to find something wrong. Not the people standing at it.",
         "**And the identity only sets because the file keeps arriving first.** One label, once, with a review date, is a tool. A label that walks into every room before you do, for years, is a life.",
-        "Notice what this means for the psychologist in the story. He did every right thing available at every step: he read the file with suspicion, wrote the strengths, slowed the meeting down, spoke to the mother directly, told the truth. The machine still ran, because it was never inside him. It was in the order of the steps.",
+        "Notice what this means for the psychologist in the story. He did every right thing available at every step. He read the file with suspicion, wrote the strengths, slowed the meeting down, spoke to the mother directly, told the truth. The machine still ran, because it was never inside him. It was in the order of the steps.",
     ],
     "system": [
         "Nobody designed this sequence. It falls out of what a school system is built to protect. A system carrying too much need on too little money ends up optimising for three reasonable things: **rationing scarce support, being able to defend every decision if it's challenged, and counting what it delivers.** Watch each step follow from those three.",
@@ -143,7 +143,7 @@ COMBOS.append({
         "**Benevolent control comes sixth because services are funded and tracked by category.** Help has to be delivered in a shape that can be counted: minutes in the resource room, goals on the plan. The walk at 10:15 is what countable help looks like from the hallway.",
         "**Identity erosion comes seventh because nothing in the system measures it.** There's a number for minutes served and goals met. There's no line on any report for how a nine-year-old now describes himself. What isn't measured isn't managed, so it happens out of sight.",
         "**The file arrives first, last, because records are built to transfer.** Continuity and liability both say the next school must have the file. A file moves easily between buildings. A boy's story doesn't fit in the transfer.",
-        "Put it together and the order is simply this: **each step is the cheapest defensible answer to the step before it.** Ration, then document, then route, then protect, then sign, then count, then fail to measure, then transfer. None of those goals is \"understand this boy.\" All of them are reasonable. That's how a building full of good people can run the whole machine without anyone touching the controls.",
+        "Put it together and the order is simply this: **Each step is the cheapest defensible answer to the step before it.** Ration, then document, then route, then protect, then sign, then count, then fail to measure, then transfer. None of those goals is \"understand this boy.\" All of them are reasonable. That's how a building full of good people can run the whole machine without anyone touching the controls.",
     ],
     "institution": [
         "At the institutional level, The Paper Child is what happens when the evaluation has a deadline and the understanding doesn't.",
@@ -322,7 +322,7 @@ COMBOS.append({
         "**Weaponized vocation comes second because, once the budget is fixed, the only flexible resource left is the goodwill of the people already there.** A salary can't stretch. A person who cares about the kids can. Every \"those kids get nobody\" is the budget speaking through a kind director who has no other lever.",
         "**Gradual escalation comes third because an unfilled vacancy is the least visible cut a system can make.** No layoff. No announcement. No headline. The work simply redistributes onto whoever stays, one building at a time.",
         "**The dashboard comes fourth because, under scarcity, systems protect what carries legal risk.** A late evaluation can be challenged. A grief group that stops meeting can't. So the metric tracks the timeline, and everything the law doesn't require becomes the first thing to go, without anyone deciding it should.",
-        "**Isolation comes fifth because a specialist spread across four buildings belongs to none of them.** Peer time, consultation, the district meeting: all of it is the easiest thing to cut, because none of it is legally required and none of it turns a row red.",
+        "**Isolation comes fifth because a specialist spread across four buildings belongs to none of them.** Peer time, consultation and the district meeting are the easiest things to cut, because none of it is legally required and none of it turns a row red.",
         "**The self-care email comes sixth because it's the cheapest possible response to burnout.** A structural fix costs a salary. An individual fix costs an email. Under a fixed budget, the response will always drift toward the individual one, sincerely meant.",
         "**Learned helplessness comes seventh because almost everyone in the chain is a middle layer.** The director who hears the request doesn't control the budget either. So requests are absorbed, sympathetically, and nothing changes. Not out of indifference. Because the person listening has no lever.",
         "**Replacement comes last because contracting turns a salaried role into a per-evaluation cost:** flexible, countable, cheaper on paper. When the person finally can't continue, the system already has a lower-cost way to keep every row green.",
@@ -330,7 +330,7 @@ COMBOS.append({
     ],
     "institution": [
         "At the institutional level, The Calling Trap is how a district keeps going every year a post stays empty.",
-        "The people who remain cover it out of conscience. And here's the quiet cruelty inside it: the better they cope, the less urgent the hire looks. Their competence hides the gap. Their evenings fund the shortfall. The dashboard shows green, and the budget meeting reasonably concludes that the system is working.",
+        "The people who remain cover it out of conscience. And here's the quiet cruelty inside it: The better they cope, the less urgent the hire looks. Their competence hides the gap. Their evenings fund the shortfall. The dashboard shows green, and the budget meeting reasonably concludes that the system is working.",
         "It is working. It's working on them.",
     ],
     "civilization": [
@@ -346,7 +346,7 @@ COMBOS.append({
     ],
     "breakers": [
         "**Say the numbers out loud, in writing, to the people who set them.** Caseload. Buildings. Hours. Not as a complaint. As a record. A shortfall that's written down can't stay invisible.",
-        "**Return the debt.** Say it until it's true: the shortage is real, and it isn't mine to pay alone.",
+        "**Return the debt.** Say it until it's true: The shortage is real, and it isn't mine to pay alone.",
         "**Find your peers,** in your district or the next one, and compare notes. The moment you learn your load isn't normal, the isolation breaks, and so does the story that you're the problem.",
         "**Protect one piece of the work you love, on the calendar, like a deadline.** One case a month done the whole way. One group. Proof to yourself of what the work is.",
         "**Write down what you'd do with half the caseload.** That page is the argument for the hire, and it reminds you why you came.",

@@ -3,49 +3,87 @@
   "n": 1,
   "name": "The Trauma Bond Engine",
   "words": 1825,
+  "purpose_words": 279,
   "scenes": 5,
   "tactics": [
    {
     "tactic": "Intermittent Reinforcement",
-    "scene": "October, a church gym",
     "phrase": "Best first step I've seen all month",
-    "pos": 1359
+    "pos": 1359,
+    "scene": "October, a church gym"
    },
    {
     "tactic": "Trauma Bonding",
-    "scene": "October, a church gym",
     "phrase": "The relief is the best feeling you've ever had",
-    "pos": 1788
+    "pos": 1788,
+    "scene": "October, a church gym"
    },
    {
     "tactic": "Relief Bait",
-    "scene": "Dayton",
     "phrase": "I don't do that for players I don't believe in",
-    "pos": 3781
+    "pos": 3781,
+    "scene": "Dayton"
    },
    {
     "tactic": "Push-Pull",
-    "scene": "Orlando, then the driveway",
     "phrase": "I've been saving you",
-    "pos": 4848
+    "pos": 4848,
+    "scene": "Orlando, then the driveway"
    },
    {
     "tactic": "FOG",
-    "scene": "Orlando, then the driveway",
     "phrase": "a feeling that arrives in three parts",
-    "pos": 5607
+    "pos": 5607,
+    "scene": "Orlando, then the driveway"
    },
    {
     "tactic": "Hoovering",
-    "scene": "Nine days, then signing",
     "phrase": "THIS is who you are",
-    "pos": 7110
+    "pos": 7110,
+    "scene": "Nine days, then signing"
    },
    {
     "tactic": "Conditional Love",
-    "scene": "Nine days, then signing",
     "phrase": "available the moment you complied",
-    "pos": 8120
+    "pos": 8120,
+    "scene": "Nine days, then signing"
+   }
+  ],
+  "purpose": [
+   {
+    "tactic": "Intermittent Reinforcement",
+    "phrase": "Kayla never knew which Gwen would be at her door",
+    "pos": 404
+   },
+   {
+    "tactic": "Trauma Bonding",
+    "phrase": "she would have taken on anything to hear it again",
+    "pos": 586
+   },
+   {
+    "tactic": "Relief Bait",
+    "phrase": "I'm only this hard on the teachers I believe in",
+    "pos": 720
+   },
+   {
+    "tactic": "Push-Pull",
+    "phrase": "then handed her the larger one in January",
+    "pos": 902
+   },
+   {
+    "tactic": "FOG",
+    "phrase": "fear that she'd never make tenure without Gwen",
+    "pos": 1024
+   },
+   {
+    "tactic": "Hoovering",
+    "phrase": "a handwritten note on her desk and a coffee",
+    "pos": 1180
+   },
+   {
+    "tactic": "Conditional Love",
+    "phrase": "only after Kayla agreed to chair Gwen's committee",
+    "pos": 1350
    }
   ]
  },
@@ -53,49 +91,87 @@
   "n": 2,
   "name": "The Normalization Engine",
   "words": 1507,
+  "purpose_words": 222,
   "scenes": 5,
   "tactics": [
    {
     "tactic": "Gradual Escalation",
-    "scene": "Year one",
     "phrase": "just one more",
-    "pos": 794
+    "pos": 794,
+    "scene": "Year one"
    },
    {
     "tactic": "Repetition as Truth",
-    "scene": "The staff room",
     "phrase": "Teachers have always been stretched thin",
-    "pos": 1789
+    "pos": 1789,
+    "scene": "The staff room"
    },
    {
     "tactic": "Social Proof",
-    "scene": "The staff room",
     "phrase": "Fourteen teachers eat lunch in shifts",
-    "pos": 2354
+    "pos": 2354,
+    "scene": "The staff room"
    },
    {
     "tactic": "\"That's Just How It Is\"",
-    "scene": "Tom\u00e1s",
     "phrase": "That's just how it works",
-    "pos": 3850
+    "pos": 3850,
+    "scene": "Tom\u00e1s"
    },
    {
     "tactic": "Anchoring",
-    "scene": "Thirty-six, and the supply closet",
     "phrase": "the number you arrived at first becomes the ruler",
-    "pos": 5384
+    "pos": 5386,
+    "scene": "Thirty-six, and the supply closet"
    },
    {
     "tactic": "Gaslighting",
-    "scene": "Thirty-six, and the supply closet",
     "phrase": "You're just overwhelmed, because you're still new",
-    "pos": 5745
+    "pos": 5747,
+    "scene": "Thirty-six, and the supply closet"
    },
    {
     "tactic": "Window Shifting",
-    "scene": "Welcome to teaching",
     "phrase": "the union would have walked out over this",
-    "pos": 6959
+    "pos": 6961,
+    "scene": "Welcome to teaching"
+   }
+  ],
+  "purpose": [
+   {
+    "tactic": "Gradual Escalation",
+    "phrase": "roster grew by two students",
+    "pos": 184
+   },
+   {
+    "tactic": "Repetition as Truth",
+    "phrase": "You know it's always been like this here",
+    "pos": 418
+   },
+   {
+    "tactic": "Social Proof",
+    "phrase": "two colleagues were saying it to Marcus for him",
+    "pos": 477
+   },
+   {
+    "tactic": "\"That's Just How It Is\"",
+    "phrase": "That's just how it works",
+    "pos": 596
+   },
+   {
+    "tactic": "Anchoring",
+    "phrase": "his first year had been worse",
+    "pos": 647
+   },
+   {
+    "tactic": "Gaslighting",
+    "phrase": "it wasn't that bad",
+    "pos": 793
+   },
+   {
+    "tactic": "Window Shifting",
+    "phrase": "presented it at the faculty meeting as a routine adjustment",
+    "pos": 954
    }
   ]
  },
@@ -103,43 +179,76 @@
   "n": 3,
   "name": "The Public Shaming Ritual",
   "words": 1556,
+  "purpose_words": 197,
   "scenes": 6,
   "tactics": [
    {
     "tactic": "Public Identification",
-    "scene": "Let's see who came prepared",
     "phrase": "under a header that says NOT PREPARED",
-    "pos": 2491
+    "pos": 2491,
+    "scene": "Let's see who came prepared"
    },
    {
     "tactic": "Moral Framing",
-    "scene": "Disappointed",
     "phrase": "I'm very disappointed. I expected more from you.",
-    "pos": 2955
+    "pos": 2955,
+    "scene": "Disappointed"
    },
    {
     "tactic": "Audience Activation",
-    "scene": "Disappointed",
     "phrase": "They were made witnesses",
-    "pos": 3834
+    "pos": 3834,
+    "scene": "Disappointed"
    },
    {
     "tactic": "Social License Generation",
-    "scene": "Recess, and midnight",
     "phrase": "The board gave him the word, and the word gave him permission.",
-    "pos": 4136
+    "pos": 4136,
+    "scene": "Recess, and midnight"
    },
    {
     "tactic": "Correction Invisibility",
-    "scene": "Recess, and midnight",
     "phrase": "The punishment was public. The correction is invisible.",
-    "pos": 5633
+    "pos": 5633,
+    "scene": "Recess, and midnight"
    },
    {
     "tactic": "Internalized Surveillance",
-    "scene": "The checking",
     "phrase": "It's inside your head",
-    "pos": 7119
+    "pos": 7119,
+    "scene": "The checking"
+   }
+  ],
+  "purpose": [
+   {
+    "tactic": "Public Identification",
+    "phrase": "put a slide on the screen titled OUTSTANDING REPORTS",
+    "pos": 52
+   },
+   {
+    "tactic": "Moral Framing",
+    "phrase": "I'm disappointed, Jordan. I expected more from you.",
+    "pos": 266
+   },
+   {
+    "tactic": "Audience Activation",
+    "phrase": "Eleven colleagues studied their laptops",
+    "pos": 319
+   },
+   {
+    "tactic": "Social License Generation",
+    "phrase": "the phrase was a joke in the department group chat",
+    "pos": 529
+   },
+   {
+    "tactic": "Correction Invisibility",
+    "phrase": "No slide ever said the reports had arrived",
+    "pos": 740
+   },
+   {
+    "tactic": "Internalized Surveillance",
+    "phrase": "reread every email nine times before sending it",
+    "pos": 842
    }
   ]
  },
@@ -147,55 +256,98 @@
   "n": 4,
   "name": "The Paper Child",
   "words": 1373,
+  "purpose_words": 262,
   "scenes": 4,
   "tactics": [
    {
     "tactic": "Deficit Framing",
-    "scene": "Sunday night",
     "phrase": "Describe the student's problem behaviors",
-    "pos": 109
+    "pos": 109,
+    "scene": "Sunday night"
    },
    {
     "tactic": "Selective Records",
-    "scene": "Sunday night",
     "phrase": "There was no box for the unicorn backpack",
-    "pos": 1604
+    "pos": 1604,
+    "scene": "Sunday night"
    },
    {
     "tactic": "Routine Referral",
-    "scene": "Monday and Tuesday",
     "phrase": "It's the only door I've got",
-    "pos": 2320
+    "pos": 2320,
+    "scene": "Monday and Tuesday"
    },
    {
     "tactic": "Expert Intimidation",
-    "scene": "Thursday",
     "phrase": "Each adult speaks for five careful minutes",
-    "pos": 4445
+    "pos": 4445,
+    "scene": "Thursday"
    },
    {
     "tactic": "Manufactured Consent",
-    "scene": "Thursday",
     "phrase": "This is how we get him help",
-    "pos": 5500
+    "pos": 5500,
+    "scene": "Thursday"
    },
    {
     "tactic": "Benevolent Control",
-    "scene": "That spring, and three years later",
     "phrase": "twenty-eight children watch him go",
-    "pos": 5901
+    "pos": 5901,
+    "scene": "That spring, and three years later"
    },
    {
     "tactic": "Identity Erosion",
-    "scene": "That spring, and three years later",
     "phrase": "I'm the behavior kid",
-    "pos": 6195
+    "pos": 6195,
+    "scene": "That spring, and three years later"
    },
    {
     "tactic": "The File Arrives First",
-    "scene": "That spring, and three years later",
     "phrase": "I read his file",
-    "pos": 6988
+    "pos": 6988,
+    "scene": "That spring, and three years later"
+   }
+  ],
+  "purpose": [
+   {
+    "tactic": "Deficit Framing",
+    "phrase": "I don't know what's wrong with that boy",
+    "pos": 201
+   },
+   {
+    "tactic": "Selective Records",
+    "phrase": "none of the days he stayed on task",
+    "pos": 347
+   },
+   {
+    "tactic": "Routine Referral",
+    "phrase": "a referral was the only way the school could get him the help he needed",
+    "pos": 492
+   },
+   {
+    "tactic": "Expert Intimidation",
+    "phrase": "nine professionals using words she didn't know",
+    "pos": 733
+   },
+   {
+    "tactic": "Manufactured Consent",
+    "phrase": "This is how we get him help",
+    "pos": 782
+   },
+   {
+    "tactic": "Benevolent Control",
+    "phrase": "telling him, kindly, that he was lucky she was on his side",
+    "pos": 1014
+   },
+   {
+    "tactic": "Identity Erosion",
+    "phrase": "introducing himself to substitutes as the bad kid",
+    "pos": 1090
+   },
+   {
+    "tactic": "The File Arrives First",
+    "phrase": "the file reached the new classroom before he did",
+    "pos": 1253
    }
   ]
  },
@@ -203,55 +355,98 @@
   "n": 5,
   "name": "The Calling Trap",
   "words": 1608,
+  "purpose_words": 191,
   "scenes": 5,
   "tactics": [
    {
     "tactic": "Love Bombing",
-    "scene": "The one kid",
     "phrase": "The kids here need someone exactly like you",
-    "pos": 1177
+    "pos": 1177,
+    "scene": "The one kid"
    },
    {
     "tactic": "Weaponized Vocation",
-    "scene": "Year one, year two",
     "phrase": "If you don't run it, those kids get nobody",
-    "pos": 2101
+    "pos": 2101,
+    "scene": "Year one, year two"
    },
    {
     "tactic": "Gradual Escalation",
-    "scene": "Year one, year two",
     "phrase": "Just for the spring",
-    "pos": 2506
+    "pos": 2506,
+    "scene": "Year one, year two"
    },
    {
     "tactic": "Moving the Goalposts",
-    "scene": "The dashboard, and alone",
     "phrase": "You're green across the board",
-    "pos": 3404
+    "pos": 3404,
+    "scene": "The dashboard, and alone"
    },
    {
     "tactic": "Isolation",
-    "scene": "The dashboard, and alone",
     "phrase": "There's no other psychologist in any of your four buildings",
-    "pos": 4087
+    "pos": 4087,
+    "scene": "The dashboard, and alone"
    },
    {
     "tactic": "Spiritual Bypassing",
-    "scene": "Wellness Wednesday, and Jada",
     "phrase": "You can't pour from an empty cup",
-    "pos": 5124
+    "pos": 5124,
+    "scene": "Wellness Wednesday, and Jada"
    },
    {
     "tactic": "Learned Helplessness",
-    "scene": "The third February, and after",
     "phrase": "This is your third February, and you don't ask",
-    "pos": 6970
+    "pos": 6970,
+    "scene": "The third February, and after"
    },
    {
     "tactic": "Replacement",
-    "scene": "The third February, and after",
     "phrase": "It would be a contract",
-    "pos": 8432
+    "pos": 8432,
+    "scene": "The third February, and after"
+   }
+  ],
+  "purpose": [
+   {
+    "tactic": "Love Bombing",
+    "phrase": "You're the best hire I've made in years",
+    "pos": 92
+   },
+   {
+    "tactic": "Weaponized Vocation",
+    "phrase": "If you don't do it, those kids get nothing",
+    "pos": 297
+   },
+   {
+    "tactic": "Gradual Escalation",
+    "phrase": "just for this term",
+    "pos": 421
+   },
+   {
+    "tactic": "Moving the Goalposts",
+    "phrase": "changed the metrics Tess was evaluated on",
+    "pos": 454
+   },
+   {
+    "tactic": "Isolation",
+    "phrase": "You're better off staying out of that group",
+    "pos": 615
+   },
+   {
+    "tactic": "Spiritual Bypassing",
+    "phrase": "forwarded the district's self-care email",
+    "pos": 706
+   },
+   {
+    "tactic": "Learned Helplessness",
+    "phrase": "after a while Tess stopped asking",
+    "pos": 845
+   },
+   {
+    "tactic": "Replacement",
+    "phrase": "I can always find someone",
+    "pos": 939
    }
   ]
  }

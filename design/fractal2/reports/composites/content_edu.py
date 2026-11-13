@@ -41,9 +41,10 @@ for b in blocks:
         for line in body.strip().split("\n"):
             k, _, v = line.partition(": "); cur[k] = v.strip()
         if "chain" in cur: cur["chain"] = [x.strip() for x in cur["chain"].split("|")]
+        cur["carries"] = [x.strip() for x in cur["carries"].split("|")]
     elif kind == "scene": cur["scenes"].append((arg.strip(), paras(body)))
     elif kind in ("cost", "system", "purpose"): cur[kind] = paras(body)
-    elif kind == "anchors": cur["anchors"] = [[x.strip() for x in l.split("|")] for l in body.strip().split("\n") if l.strip()]
+    elif kind in ("anchors", "purpose_anchors"): cur[kind] = [[x.strip() for x in l.split("|")] for l in body.strip().split("\n") if l.strip()]
     elif kind in ("tactic_moments", "beats"):
         cur[kind] = [[x.strip() for x in l.split("|")] for l in body.strip().split("\n") if l.strip()]
 
@@ -53,7 +54,8 @@ def assemble(key, **o):
     names = c["chain"]
     assert len(o["tactic_lines"]) == len(names), key
     return {
-        "key": key, "intro": c["intro"], "purpose": c["purpose"], "anchors": c["anchors"], "name": c["name"], "tagline": c["tagline"], "meta": c["meta"], "why": c["why"], "chain": names,
+        "key": key, "stage": c["stage"], "where": c["where"], "installs": c["installs"], "carries": c["carries"],
+        "purpose": c["purpose"], "purpose_anchors": c["purpose_anchors"], "anchors": c["anchors"], "name": c["name"], "tagline": c["tagline"], "meta": c["meta"], "why": c["why"], "chain": names,
         "scenes": c["scenes"], "cost": c["cost"], "named": o["named"], "definition": o["definition"],
         "tactics": [(n, tq[n], t) for n, t in zip(names, o["tactic_lines"])],
         "order": o["order"], "system": c["system"], "institution": o["inst"], "civilization": o["civ"],

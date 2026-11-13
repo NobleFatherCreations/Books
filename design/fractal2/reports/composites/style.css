@@ -121,3 +121,23 @@ blockquote.q{font-size:1.3em}
 .title .hdt{font-family:"Atkinson",sans-serif;font-size:.7em;letter-spacing:.2em;text-transform:uppercase;font-weight:700;color:var(--ink2)}
 .title .bdg.big{font-size:2.2em;width:1.1em;height:1.2em}
 .title h2.nm{font-size:3.6em;line-height:1.02;margin:0 0 .22em}
+/* foreshadow page: what this chain can install */
+.intro{justify-content:flex-start;padding-top:.15in}
+.intro .inum{font-size:96pt;margin:.08in 0 .22in}
+.intro .idesc{font-size:17pt;line-height:1.45;max-width:26em;margin-bottom:.6em}
+.intro .idesc2{font-size:12.5pt;line-height:1.5;color:var(--ink2);max-width:30em;margin-bottom:.35em}
+.intro .icarry{font-size:12pt;line-height:1.55;max-width:34em;padding-left:1.2em;margin:0 0 .3in}
+.intro .icarry li{margin-bottom:.4em}
+.intro .isetting{margin-top:.1in;gap:.06in}
+.intro .isetting b{font-weight:700;color:var(--ink2)}
+.intro .ifoot{margin-top:.28in;font-family:"Atkinson",sans-serif;font-size:9.5pt;color:var(--ink3)}
+.closep{margin-top:1em;border-top:1px solid var(--soft);padding-top:.8em;font-weight:600}
+/* foreshadow page scales with the fitter */
+.intro{min-height:0;display:block;padding:0}
+.intro .ik{font-size:.9em}
+.intro .inum{font-size:7em;margin:.15em 0 .22em}
+.intro .idesc{font-size:1.4em;margin-bottom:.6em}
+.intro .idesc2{font-size:1.02em}
+.intro .icarry{font-size:1em;margin:0 0 1.1em}
+.intro .isetting{font-size:.88em;margin-top:.4em}
+.intro .ifoot{font-size:.78em;margin-top:1.2em}
