@@ -18,13 +18,14 @@ const report = await p.evaluate((SAFETY) => {
   const res = [];
   for (const el of secs) {
     const scene = el.classList.contains('scene');
-    const lo = scene ? 1.1 : 0.98, hi = scene ? 1.32 : 1.32;
+    const lo = scene ? 0.92 : 0.9, hi = 1.32;
+    const SAF = el.classList.contains('cut') ? 0.89 : SAFETY;
     const h1 = meas(el, 1);
     let T;
     if (h1 <= 1.05) T = 1; else { const n = Math.ceil(h1); const f = h1 - (n - 1); T = f < 0.45 ? n - 1 : n; }
-    if (meas(el, lo) > T * SAFETY) T += 1;
+    if (meas(el, lo) > T * SAF) T += 1;
     let a = lo, z = hi;
-    for (let i = 0; i < 18; i++) { const m = (a + z) / 2; if (meas(el, m) <= T * SAFETY) a = m; else z = m; }
+    for (let i = 0; i < 18; i++) { const m = (a + z) / 2; if (meas(el, m) <= T * SAF) a = m; else z = m; }
     el.style.setProperty('--s', a.toFixed(3));
     res.push([el.dataset.id, T, +a.toFixed(3), +(meas(el, a) / T).toFixed(2)]);
   }

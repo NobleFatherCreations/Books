@@ -9,7 +9,7 @@
 :root{--bg:#FBF5EA;--ink:#1C1A17;--ink2:#4A453D;--ink3:#7A7266;--yel:#FFDD57;--spot:#FFF3AE;--pink:#F59BBE;--line:#1C1A17;--soft:#E6DAC4;--s:1}
 @page{size:Letter;margin:.72in .78in .82in .78in;
   @bottom-center{content:counter(page);font-family:"Atkinson",sans-serif;font-size:8pt;color:#8a8275}
-  @bottom-left{content:"Two machines, one building";font-family:"Atkinson",sans-serif;font-size:7pt;color:#a39a8b;letter-spacing:.06em}}
+  @bottom-left{content:"Five machines, one school";font-family:"Atkinson",sans-serif;font-size:7pt;color:#a39a8b;letter-spacing:.06em}}
 @page:first{@bottom-center{content:none}@bottom-left{content:none}}
 *{box-sizing:border-box}
 html{background:var(--bg);-webkit-print-color-adjust:exact;print-color-adjust:exact}
@@ -93,3 +93,14 @@ blockquote.q{font-size:1.3em}
 .title blockquote{font-size:1.28em}
 .title .small{font-size:.76em}
 .beats td.n{vertical-align:top;line-height:1.1}
+
+/* five-title cover */
+.cover{min-height:0;justify-content:flex-start;padding-top:.1in}
+.cover h1{font-size:40pt;margin-bottom:12pt}
+.cover .lede{font-size:13pt;line-height:1.48}
+.cover .lede2{font-size:10.5pt;line-height:1.5}
+.toc{margin:14pt 0 10pt}
+.toc li{font-size:11pt;margin-bottom:7pt;gap:10pt}
+.toc li b{font-size:21pt;min-width:5.2em}
+.toc li .bdg{font-size:17pt}
+.cover .note{font-size:8pt}
