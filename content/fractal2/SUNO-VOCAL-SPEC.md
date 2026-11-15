@@ -5,7 +5,7 @@ Targets, not rules. The film re-times itself from your recorded voice (word-leve
 ## 1. Tempo, key, length
 - 150 BPM, half-time feel (it will feel like 75). One bar = 1.6 s. Eight bars = 12.8 s.
 - One key throughout. Suggested: D minor, lifting to F major at the Window (9:48.8).
-- Total 448 bars = 11:56.8. Script is 1,130 words at about two words a second, plus the visual-only stretches.
+- Total 480 bars = 12:48.0. Script is 1,162 words at about two words a second, plus the visual-only stretches.
 - Suno limits the length of one generation, so plan five movements in the same tempo and key and join them (or extend). Instrumental only.
 
 ## 2. Structure
@@ -31,8 +31,10 @@ Targets, not rules. The film re-times itself from your recorded voice (word-leve
 | V-b | 353-368 | 9:23.2-9:48.8 | 10. The window, up to "let it through" | Tribal hits on a two-beat grid (each hit lifts one block). Sixteen-bar build. |
 | V-c | 369-376 | 9:48.8-10:01.6 | The light opens | DROP into the major key. The emotional peak: the widest and warmest moment, not the loudest. |
 | V-d | 377-384 | 10:01.6-10:14.4 | "My original frequency... Pulsing. Quietly. Waiting." | Strip to breath and one pad. |
-| V-e | 385-440 | 10:14.4-11:44.0 | 11. The map | Final groove, full and sure. Build to "Now the map is yours" near 11:40. Last hit at 11:44.0. |
-| Outro | 441-448 | 11:44.0-11:56.8 | Button, hub | Ring out. Also wanted: a seamless 8-bar ambient loop in the same key for the hub. |
+| V-e | 385-424 | 10:14.4-11:18.4 | 11. The map, to "wherever you meet it" | Final groove enters, full and sure. |
+| V-f | 425-456 | 11:18.4-12:09.6 | Forgiveness and justice (your locked account) | Strip to one pad and a low pulse for the forgiveness line. Build slowly and steadily under the justice paragraph; no drop. |
+| V-g | 457-472 | 12:09.6-12:35.2 | "It will take me a lifetime..." to "Now the map is yours." | Final lift. Last hit at 12:35.2. |
+| Outro | 473-480 | 12:35.2-12:48.0 | Button, hub | Ring out. Also wanted: a seamless 8-bar ambient loop in the same key for the hub. |
 
 ## 3. The four anchors (these must land on the grid in your mix)
 | Event | Word that lands | Bar | Time |
@@ -57,3 +59,28 @@ The separate files let the light follow your voice alone and the rings follow th
 - Keep the music thin between 300 Hz and 3 kHz while you speak.
 - Keep the sub (20-120 Hz) clean, mono and tied to the drums; the rings read it.
 - Real silence at 2:59.2-3:02.4 and 7:08.8-7:15.2: no reverb tails across them.
+
+## 7. Suno prompts (Instrumental ON for all; same tempo and key so they join)
+
+Master style, paste into the Style box for every movement:
+`conscious cinematic tribal future bass, 150 BPM half-time, D minor, instrumental, deep clean sub bass, organic hand drums and frame drums, wide analog pads, distant throat-sung drone, sparse and spacious, film score dynamics, no vocals, no lead melody competing with speech`
+
+Movement I, The Question (0:00-2:59):
+`[Intro] sub drone and one dark pad, no drums, vast empty space [Verse] slow heartbeat kick, single hand drum enters [Build] tribal percussion layers added one at a time, eight steps, rising tension, future bass chords swelling quietly [End] hard cut to silence`
+
+Movement II, The Mirror and the Architecture (2:59-4:29):
+`[Intro] two bars of total silence, then intimate warm pads only, no drums, close and still [Build] four-bar riser, reverse cymbal [Drop] massive future bass drop, huge supersaw chords, deep sub, tribal drums at full power, sense of enormous scale opening [Outro] settles into steady mid-energy groove`
+
+Movement III, The Inversion (4:29-6:37):
+`[Intro] stripped back, pad and sparse percussion [Verse] hypnotic steady pulse, dark, minimal, plain repeating kick and shaker, ritual feeling, ominous low strings [Bridge] six heavy low drum hits spaced apart, each one darker [End] suspended unresolved chord`
+
+Movement IV, The Descent (6:37-8:45):
+`[Intro] two-bar pull-in [Drop] heavy future bass drop then descending, pitch falling, one layer removed every two bars until nothing is left [Break] four bars of total silence [Verse] one pure sustained tone, then warm reverent pads, no drums, slow swell, sacred and human, soft pulse returning at the end`
+
+Movement V, The Window and the Map (8:45-12:48):
+`[Verse] kick returns, one new layer every two bars, stops dead [Build] tribal drum hits every two beats, sixteen-bar build, rising light [Drop] euphoric release into F major, wide warm future bass chords, the most open and tender moment, not the loudest [Break] breath and one pad [Verse] confident full groove [Bridge] strip to one pad and low pulse, slow patient build [Outro] final lift, last big hit, long ring out`
+
+Hub loop:
+`seamless 8-bar ambient loop, D minor, 75 BPM feel, warm pad, soft sub pulse, faint hand drum, calm, endless, instrumental`
+
+If a movement comes out too busy under speech, add: `minimal, leave space for spoken word, mids carved out`.

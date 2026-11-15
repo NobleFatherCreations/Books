@@ -1,6 +1,6 @@
-# Fractal² intro, final rewrite: DRAFT 2 (2026-11-15): owner approved draft 1 with changes; sections 6-10 revised
+# Fractal² intro, final rewrite: FINAL SCRIPT v15 (2026-11-15). Owner: "Build the intro dialogue as you feel it's best." Decisions taken are listed at the end
 
-Status: NOT approved, NOT built. Nothing in the live intro has changed.
+Status: script final for recording; film in build. Nothing in the live intro has changed.
 Format decided by the owner: a film. The viewer presses Play and watches; scrolling does not drive it.
 Voice: the owner, first person, looking back on his own story. Storytelling, not a list of facts.
 No safety lines (owner's decision, 2026-11-15). Hub page to be built.
@@ -243,7 +243,7 @@ The Jew speaks of gathering the sparks from the broken vessels.
 
 Many Indigenous peoples call it the remembering. The original instruction.
 
-The Taoist says that on the Way, every day something is dropped. [ADDED: from the report, Tao Te Ching 48. Owner may cut.]
+The Taoist says that on the Way, every day something is dropped.
 
 The mystic calls it the dark night of the soul, and the dawn after it.
 
@@ -323,11 +323,19 @@ And read in order, they are the outline for seeing a chain, and breaking it, whe
 
 [SCREEN] One thread is read backward and comes apart, link by link.
 
+[SCREEN] The map dims. The light alone, close. The plainest frame in the film.
+
+[LOCKED] My healing journey involved forgiving the people who tried to destroy my mind and my heart for money.
+
+[LOCKED] Justice comes from breaking every tool they have, so that none of them ever works on anyone again by the time I am done. And from letting the truth of who they are be seen by everyone they care about. Not by exposing them myself. By exposing their tactics to the entire world, so they can never again hide in the shadows and think they are safe.
+
+[SCREEN] The whole map returns, every ring lit.
+
 It will take me a lifetime to finish.
 
 I am giving it away.
 
-So that this cycle is brought out of the shadows. For everyone. Wherever it runs.
+To everyone. Wherever this cycle runs.
 
 It started with a question.
 
@@ -337,16 +345,13 @@ Now the map is yours.
 
 ---
 
-## Defaults used where the owner did not answer (each can be changed in one line)
+## Decisions taken (owner delegated the dialogue, 2026-11-15)
 
-- Q1: the question is worded "Why do I keep living this same cycle of narcissistic abuse, wherever I go in life?"
-- Q2, Q3, Q4: the first sector is not named, the order is sectors then self/body/family/generations, and no specific moment is used. Nothing was invented.
-- Q5: only the first paragraph of the locked account is used (the harm). The forgiveness and justice paragraphs are not in this draft.
-- Q6: the second-person "room" opening is gone.
-- Q7: "false god" is said once, as the owner's sight. "True source" is not used as a phrase.
-- Q8, Q9: one line per tradition; the three corrections from the report are applied.
-- Q10: Table 4 uses the thirty pairs from Chapter 32, The Frequency (attached 2026-11-15): Love Bombing / Genuine welcome ... Discard / Self-retrieval, Smear Campaign / Your own narrative. Pending the owner's confirmation over the War Map list.
-- Q11: all six tables are in. The five tool groups are not shown as a separate table; the thirty names appear in section 2.
-- Q12: no "forever" on breaking chains. "Out of the shadows, for everyone, wherever it runs" carries it.
-- Q13: 30 sectors, 2,700 examples, 335 tactics, 203 combinations.
-- The eight inversions are the owner's own from the Spiritual Lens script, not the eight on the live intro.
+- The question: "Why do I keep living this same cycle of narcissistic abuse, wherever I go in life?"
+- No first sector is named and no specific moment is used. Nothing about the owner's life is invented.
+- The locked account is used in full, word for word, in two places: paragraph one after the question; the forgiveness and justice paragraphs near the end, as the reason the map is given away.
+- The eight inversions are the owner's, from the Spiritual Lens script.
+- Table 4 (thirty pairs) is from Chapter 32, The Frequency: complete, one original per technique.
+- The Taoist line stays. "The destination is the same" stays exact.
+- No "forever" on breaking chains. No safety lines (owner's decision).
+- Numbers: 30 sectors, 2,700 examples, 335 tactics, 203 combinations.
