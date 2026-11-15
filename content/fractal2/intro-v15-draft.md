@@ -1,4 +1,4 @@
-# Fractal² intro, final rewrite: DRAFT 1 for the owner's approval (2026-11-15)
+# Fractal² intro, final rewrite: DRAFT 2 (2026-11-15): owner approved draft 1 with changes; sections 6-10 revised
 
 Status: NOT approved, NOT built. Nothing in the live intro has changed.
 Format decided by the owner: a film. The viewer presses Play and watches; scrolling does not drive it.
@@ -165,7 +165,25 @@ And every technique is a sacred faculty, inverted.
 
 "Come home." And then it charges rent. [OWNER]
 
-I call it the false god. Not a being. A pattern, sitting in a chair that was never its own.
+People have called it many things.
+
+[SCREEN, NAMES] Each name arrives from a different depth, holds, and dissolves into the next. Same position, same weight: one thing, many words.
+
+The false god.
+
+The devil.
+
+The adversary.
+
+The matrix.
+
+The machine.
+
+The system.
+
+Use the word that fits your own mouth. They all point at the same thing.
+
+Not a being. A pattern, sitting in a chair that was never its own.
 
 A counterfeit always comes second.
 
@@ -207,37 +225,77 @@ Not above me. Not beyond me. [OWNER]
 
 In me. Where it had always been. [OWNER]
 
+## 8. What the traditions call it
+
+[SCREEN] The light holds. Each tradition's name appears in small capitals, its line beneath it in the serif, then both drift into the light.
+
+Every tradition I know has tried to describe this walk.
+
+The Christian calls it the narrow gate. The kingdom within.
+
+The Buddhist calls it waking up. The end of not-seeing.
+
+The Muslim calls it the lifting of the veils.
+
+The Hindu says, Thou art that.
+
+The Jew speaks of gathering the sparks from the broken vessels.
+
+Many Indigenous peoples call it the remembering. The original instruction.
+
+The Taoist says that on the Way, every day something is dropped. [ADDED: from the report, Tao Te Ching 48. Owner may cut.]
+
+The mystic calls it the dark night of the soul, and the dawn after it.
+
+And if none of those words are yours, here is what it also is.
+
+A pattern, observed. Traced to where it began. Found in my own body. Followed down my own bloodline. Until the signal showed beneath the noise.
+
+It does not need your belief. Only your attention. [OWNER]
+
+## 9. You're right
+
+[SCREEN] Each "you're right" lands on a beat. The light pulses once with each. The pace quickens, then stops dead on the last line.
+
+If you call it awakening, you're right. [OWNER]
+
+If you call it enlightenment, you're right. [OWNER]
+
+If you call it the end of illusion, you're right. [OWNER]
+
+If you call it healing, you're right. [OWNER]
+
+If you call it deprogramming, you're right. [OWNER]
+
+If you call it liberation, you're right. [OWNER]
+
+If you call it finally seeing clearly for the first time, you're right. [OWNER]
+
+The words are different. The destination is the same. [OWNER, exact]
+
+## 10. The window
+
+[SCREEN] The thirty inversions sit over the light as dark blocks, like boards over a window. They lift away one at a time. With each one the light widens, until it fills the screen.
+
+Notice what I did not do.
+
+I did not rise above the earth. I did not ascend. I did not leave my body behind.
+
+I descended. Down through everything, into my own core.
+
+The sun did not appear.
+
+It was never gone.
+
+I only moved what had been stacked against the window, one block at a time, and let it through.
+
 My original frequency.
 
 Who I am, underneath all of it.
 
 Pulsing. Quietly. Waiting. [OWNER]
 
-## 8. The names
-
-[SCREEN] The light holds. Each name fades in beside it and out again.
-
-Religions have called this many things.
-
-The narrow gate. The kingdom within.
-
-The end of not-seeing.
-
-The lifting of the veils.
-
-Thou art that.
-
-The gathering of the sparks.
-
-The remembering. The original instruction.
-
-The dark night, and the dawn after it.
-
-And if you hold no tradition at all: a pattern observed, traced and written down, until the signal showed beneath the noise.
-
-Every tradition has a word for the covering, and a word for what is under it.
-
-## 9. The map
+## 11. The map
 
 [SCREEN] The light rises. Around it the full Fractal² map assembles, ring by ring, word by word.
 
