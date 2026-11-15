@@ -86,3 +86,61 @@ The map is the menu: thirty sectors placed around the ring in life order (birth 
 - Thirty pairs cannot all be read at film pace. The design lets the first few be read and the rest be felt, and holds the full table for two seconds.
 - Frame rate and memory on a real iPhone can only be confirmed on the owner's phone.
 - Silent until the owner decides on narration or music.
+
+---
+
+# LOCKED by the owner, 2026-11-15 (supersedes sections 1, 3 and "Known limits" above where they differ)
+
+## L1. Rendering: GPU pipeline, three tiers
+- Hand-written WebGL2 (WebGL1 fallback), zero dependencies, inlined. No Three.js, PixiJS or GSAP.
+- Passes: scene (map art, shader-drawn rings, instanced words and particles) -> bloom (three-level half-resolution chain) -> finish (light rays from the light's position, chromatic aberration scaled by camera speed and zero at rest, quarter-resolution procedural dust, 24-per-second grain, dither).
+- Rings, tick marks, mirror glass and table paths are procedural. The one light is a real light: rings brighten by distance and angle, with a travelling glint.
+- Motion: closed-form damped springs and bezier curves, all pure functions of time (seekable, reproducible).
+- Tiers: Full / Reduced (half-res effects, no depth blur, fewer particles) / Fallback (2D canvas). Context loss drops one tier and resumes at the same second.
+
+## L2. Text
+- GPU text (335 tactic words, hero lines, table words): MSDF atlas built at build time (`msdf-bmfont-xml`, to be proven with Instrument Serif in Phase 1). If it fails that proof: high-DPI dynamic glyph atlas re-rasterised per zoom band. Either way a check renders text at the deepest and widest zoom and measures edge sharpness.
+- Captions: real DOM text, positioned on whole device pixels, transforms and opacity only, no layout during playback. A check asserts zero layout shift across the film.
+
+## L3. Audio-first clock
+- Master clock = the audio element's `currentTime`, smoothed against `performance.now()` and re-locked if drift exceeds 40 ms. Until the mix exists, a silent placeholder clock of the same length drives the film.
+- Audio is pre-buffered during the "Begin here" load ring (`createMediaElementSource`, gated on can-play-through). The `AudioContext` is created and resumed inside the Play tap, which also fires the launch ripple.
+- Reactive uniforms: `uSub` (20-120 Hz), `uVoice` (300 Hz-3 kHz), `uRms`.
+  - PRIMARY source: envelopes baked offline from the stems (ffmpeg + numpy) into a small per-frame track. Reason: frames stay reproducible (golden frames, MP4 renders have no live audio), it costs no CPU on the phone, and it does not depend on iOS analyser behaviour.
+  - FALLBACK and cross-check: live `AnalyserNode` on the same graph when no baked track is present.
+  - Mapping: sub -> ring shockwave and a camera impulse capped at 0.6% zoom; voice band -> brightness of the gold light; RMS -> dust drift and glints. Smoothed (fast attack, slow release). Under Reduce Motion the camera impulse is off; the light still breathes.
+- Cue system ingests word-level timestamp JSON (Whisper format). Captions, table streams and camera peaks are keyed to word indices in the script, so the picture follows the recorded voice. A build step aligns the JSON to the script text and fails on any unmatched word.
+- Stems requested: final mix, voice only, music only (see `content/fractal2/SUNO-VOCAL-SPEC.md`).
+
+## L4. Governor and diagnostics
+- Proactive: rolling 30-second frame-time window. If it trends up, sample counts step down (ray samples, bloom levels, dust resolution, particle count) at the next shot boundary, never mid-shot. Steps back up only after a cool window.
+- Browsers expose no temperature and Safari exposes no memory figure. The governor therefore reads frame time, and the readout shows our own computed GPU allocation.
+- Hidden readout (`?hud`): fps and frame-time percentiles, active tier and every tier change with timestamp, computed GPU allocation and its peak, audio sync drift, dropped frames, context-loss events.
+
+## L5. Quality gate (before the owner sees anything)
+- Golden frames (pixelmatch) at fixed times on all three tiers; tier-to-tier continuity compared structurally, not pixel-exact.
+- WCAG contrast sampled from real pixels behind every caption and every GPU label.
+- Banding test on dark gradients (step size below a visible threshold after dither).
+- All existing regression guards, converted to time. Zero-layout-shift check. Audio drift check.
+- Skills applied during the build and recorded with what each changed: `emil-design-eng`, `apple-design`, `improve-animations`, `web-perf`, `better-accessibility`.
+- One `impeccable-finish-reviewer` critic pass at the end of each stage (owner approved).
+- MP4 preview by ffmpeg at each milestone (owner approved). No deploy without the owner's word.
+
+## L6. Polish additions
+- Haptic pulses on the three peaks and the full stop where the Vibration API exists (Android). iOS Safari has no vibration API; nothing fires there.
+- Hub idle: after the film the map settles into the hub and the shader stays alive at low power (30 fps cap, paused when hidden); gold/grey pairs can be touched and inspected on the ring.
+- Three 15-second 9:16 promo clips (The Mirror, The Fall, The Window) rendered with the previews once those scenes exist.
+
+## L7. Length
+About 12:00 (448 bars at 150 BPM), not 10.5 minutes. The earlier figure assumed a faster read than a spoken, dramatic delivery allows.
+
+## L8. Table 4 source
+The thirty technique-to-original pairs come from Chapter 32, The Frequency (attached by the owner 2026-11-15): complete, one original per technique (Discard -> Self-retrieval; Smear Campaign -> Your own narrative). Pending the owner's one-line confirmation over the War Map list.
+
+## Stages
+1. Engine, clock, cue ingestion, check harness, tier system, HUD, MSDF proof.
+2. "Begin here" and launch.
+3. Sections 1-5.
+4. Sections 6-10.
+5. Section 11, hub and idle state.
+6. Final mix in, re-time from word JSON, promo clips, gate, critic, phone card.

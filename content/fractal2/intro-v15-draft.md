@@ -345,7 +345,7 @@ Now the map is yours.
 - Q6: the second-person "room" opening is gone.
 - Q7: "false god" is said once, as the owner's sight. "True source" is not used as a phrase.
 - Q8, Q9: one line per tradition; the three corrections from the report are applied.
-- Q10: Table 4 uses the War Map list. Discard has no partner there and Smear Campaign has two. Open.
+- Q10: Table 4 uses the thirty pairs from Chapter 32, The Frequency (attached 2026-11-15): Love Bombing / Genuine welcome ... Discard / Self-retrieval, Smear Campaign / Your own narrative. Pending the owner's confirmation over the War Map list.
 - Q11: all six tables are in. The five tool groups are not shown as a separate table; the thirty names appear in section 2.
 - Q12: no "forever" on breaking chains. "Out of the shadows, for everyone, wherever it runs" carries it.
 - Q13: 30 sectors, 2,700 examples, 335 tactics, 203 combinations.
