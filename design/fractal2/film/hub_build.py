@@ -20,8 +20,8 @@ nodes, items, data = [], [], []
 for s in sectors:
     n = s['n']; st = status(n); name = OPEN[n][1] if n in OPEN else s['name']
     a = (n - 1) / 30 * 2 * math.pi; x = 500 + 410 * math.sin(a); y = 500 - 410 * math.cos(a)
-    lx = 500 + 462 * math.sin(a); ly = 500 - 462 * math.cos(a) + 9
-    nodes.append(f'<g class="nd {st}" data-i="{n - 1}"><circle class="hit" cx="{x:.1f}" cy="{y:.1f}" r="42"/><circle class="dot" cx="{x:.1f}" cy="{y:.1f}" r="{17 if st == "open" else 13}"/><text x="{lx:.1f}" y="{ly:.1f}" text-anchor="middle">{n:02d}</text></g>')
+    lx = 500 + 484 * math.sin(a); ly = 500 - 484 * math.cos(a) + 7
+    nodes.append(f'<g class="nd {st}" data-i="{n - 1}"><circle class="hit" cx="{x:.1f}" cy="{y:.1f}" r="36"/><circle class="dot" cx="{x:.1f}" cy="{y:.1f}" r="{17 if st == "open" else 13}"/><text x="{lx:.1f}" y="{ly:.1f}" text-anchor="middle">{n:02d}</text></g>')
     label = {'open': 'Open', 'next': 'Next', 'soon': 'In production'}[st]
     link = f'<a class="go" href="{OPEN[n][0]}">Enter {e(name)}</a>' if st == 'open' else f'<span class="st">{label}</span>'
     items.append(f'<li class="{st}" id="s{n}"><span class="n">{n:02d}</span><div><h3>{e(name)}</h3><p class="rel">Your relationship with {e(s["relationship"])}</p><p class="imp">Here first: {e(imp[n - 1][0].lower() + imp[n - 1][1:])}</p>{link}</div></li>')
@@ -48,8 +48,9 @@ a{{color:inherit}}
 header{{padding:56px 0 8px;text-align:center}}
 h1{{font-family:"Voice",Georgia,serif;font-weight:400;font-size:clamp(3rem,13vw,6.5rem);line-height:.98;margin:0;letter-spacing:-.01em}}
 header p{{margin:16px auto 0;max-width:30em;color:var(--ink2);font-size:1.0625rem}}
-.stage{{position:relative;max-width:min(100%,46rem);margin:24px auto 0}}
-@media (max-width:600px){{.wrap{{padding:0 10px}}.card{{width:66%}}}}
+.stage{{display:grid;grid-template-columns:1fr;gap:8px;align-items:center;max-width:34rem;margin:24px auto 0}}
+@media (max-width:600px){{.wrap{{padding:0 12px}}}}
+@media (min-width:900px){{.stage{{grid-template-columns:minmax(0,1.15fr) minmax(0,.85fr);gap:56px;max-width:66rem}}.card{{text-align:left}}}}
 .stage svg{{display:block;width:100%;height:auto;overflow:visible}}
 .orbit{{fill:none;stroke:rgba(233,194,122,.28);stroke-width:1.2}}
 .orbit.b{{stroke:rgba(243,236,217,.08);stroke-width:1}}
@@ -61,18 +62,16 @@ header p{{margin:16px auto 0;max-width:30em;color:var(--ink2);font-size:1.0625re
 .nd text{{font:400 19px/1 "Source Serif",Georgia,serif;fill:var(--ink2);letter-spacing:.06em;pointer-events:none}}
 .nd.on .dot{{fill:var(--ink);stroke:var(--ink)}}
 .nd.on text{{fill:var(--ink)}}
-.light{{fill:url(#lg);opacity:.5}}
-@keyframes breathe{{0%,100%{{opacity:.4}}50%{{opacity:.6}}}}
+.light{{fill:url(#lg)}}
+@keyframes breathe{{0%,100%{{opacity:.7}}50%{{opacity:1}}}}
 @keyframes turn{{to{{transform:rotate(360deg)}}}}
 .light{{animation:breathe 5.2s ease-in-out infinite;transform-origin:500px 500px}}
 .ticks{{transform-origin:500px 500px;animation:turn 240s linear infinite}}
 @media (prefers-reduced-motion:reduce){{.light,.ticks{{animation:none}}}}
-.card{{position:absolute;left:50%;top:50%;width:58%;transform:translate(-50%,-50%);text-align:center;pointer-events:none}}
-.card *{{pointer-events:auto}}
+.card{{text-align:center;min-height:15rem;padding:8px 4px 0}}
 .card .k{{font-size:.75rem;letter-spacing:.3em;text-transform:uppercase;color:var(--gold);margin:0}}
-.card h2{{font-family:"Voice",Georgia,serif;font-weight:400;font-size:clamp(1.7rem,6.6vw,3.2rem);line-height:1.02;margin:8px 0 10px}}
-.card{{text-shadow:0 1px 14px rgba(5,7,13,.95)}}
-.card p{{margin:0;color:var(--ink2);font-size:clamp(.9rem,3.2vw,1.0625rem);line-height:1.4}}
+.card h2{{font-family:"Voice",Georgia,serif;font-weight:400;font-size:clamp(2.4rem,9vw,4rem);line-height:1.02;margin:10px 0 12px}}
+.card p{{margin:0;color:var(--ink2);font-size:1.125rem;line-height:1.45}}
 .card p.imp{{margin-top:8px;color:var(--ink)}}
 .card .go,.card .st{{display:inline-block;margin-top:14px}}
 .go{{font-size:.8125rem;letter-spacing:.24em;text-transform:uppercase;text-decoration:none;color:#0b0d14;background:var(--gold);padding:13px 20px;border-radius:40px}}
@@ -103,7 +102,7 @@ footer a{{margin:0 12px;text-underline-offset:4px;display:inline-block;padding:1
 <p>Thirty sectors of human life. One cycle. The first sector is open, and the rest are being mapped one at a time.</p>
 </header>
 <div class="stage">
-<svg viewBox="-20 -20 1040 1040" role="group" aria-label="Thirty sectors arranged in a ring. Choose one to read what it governs and what was here first.">
+<svg viewBox="-28 -28 1056 1056" role="group" aria-label="Thirty sectors arranged in a ring. Choose one to read what it governs and what was here first.">
 <defs><radialGradient id="lg"><stop offset="0" stop-color="#FFF6E2"/><stop offset=".16" stop-color="#FFE0A6" stop-opacity=".75"/><stop offset=".5" stop-color="#E9C27A" stop-opacity=".12"/><stop offset="1" stop-color="#E9C27A" stop-opacity="0"/></radialGradient></defs>
 <circle class="orbit" cx="500" cy="500" r="410"/><circle class="orbit b" cx="500" cy="500" r="330"/><circle class="orbit b" cx="500" cy="500" r="300"/>
 <g class="ticks">{''.join(f'<line x1="500" y1="172" x2="500" y2="{184 if i % 5 else 194}" stroke="rgba(243,236,217,.22)" stroke-width="1" transform="rotate({i * 3} 500 500)"/>' for i in range(120))}</g>

@@ -5,7 +5,7 @@
 > `content/fractal2/intro-v16.md` (the owner's own script; v15 superseded), `content/fractal2/TIMING.md`, `content/fractal2/SUNO-VOCAL-SPEC.md`.
 > Source `design/fractal2/film/` (engine.js, shots.js, template.html, build.py); output `library/fractal2/site/fractal2/film.html`; local `/fractal2/film` via
 > `python3 design/fractal2/serve.py 8802`. Gate: `node scripts/film2-check.mjs http://127.0.0.1:8802/fractal2/film --upto=<seconds built>`. Preview video:
-> `node scripts/film2-render.mjs`. Built so far: engine, entry, launch, sections 1-2. NOT deployed; live site is still v14. Details in the dated entry at the end.
+> `node scripts/film2-render.mjs`. Built: the whole film (entry, launch, sections 1-11) and a first-pass hub (`hub_build.py`, `/fractal2/hub`); full gate passes. NOT deployed; live site is still v14. Details in the dated entry at the end.
 
 > **v19 IS LIVE (2026-10-27, deploy 6ae0da00e86b4d164b8a4f3f; replaced v18 6ae0a61aff2b9cdb5d09a3c4).** Owner asked for single scroll,
 > no tabs/clutter, no "tracks with circles", Apple feel, then a final design + SEO audit and "make it live". Repo and live are

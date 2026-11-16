@@ -168,7 +168,7 @@ def main():
            .replace('%%ENGINE%%', open(os.path.join(HERE, 'engine.js'), encoding='utf-8').read())
            .replace('%%SHOTS%%', open(os.path.join(HERE, 'shots.js'), encoding='utf-8').read())
            .replace('%%TEXT%%', '\n'.join(text)).replace('%%TICKS%%', ticks).replace('A %%MIN%%-minute', ('An ' if mins in (8, 11, 18) else 'A ') + str(mins) + '-minute')
-           .replace('%%HUB%%', '/fractal2/entertainment').replace('%%V8%%', A + 'v8/').replace('%%V9%%', A + 'v9/'))
+           .replace('%%HUB%%', '/fractal2/hub').replace('%%V8%%', A + 'v8/').replace('%%V9%%', A + 'v9/'))
     open(OUT, 'w', encoding='utf-8').write(out)
     json.dump({'dur': dur, 'marks': marks, 'caps': [{k: c[k] for k in ('slug', 't0', 't1', 'say', 'need', 'sec', 'text')} for c in caps], 'chapters': chapters}, open(os.path.join(HERE, 'cues.json'), 'w'), indent=1, ensure_ascii=False)
     def mmss(x): return '%d:%04.1f' % (int(x // 60), x % 60)
