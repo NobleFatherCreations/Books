@@ -5105,3 +5105,12 @@ The owner was (fairly) angry that each fix shipped new faults. Standing rule fro
 - Phones and touch screens: the ring is decorative (no tab stops, aria-hidden); the list is the route. Numerals are 12 px or more. Sectors sorted by n (1 to 30).
 - Gate `scripts/design-gates.mjs` on /fractal2/hub: clean on all five profiles. Not deployed.
 - Open: real-device check of the shader on an iPhone, owner review of the new section heading, and whether tapping a list row on phones should select it in the card.
+
+## 2026-11-16 (night): Fractal² film critic round 3 applied (session gracious-pasteur)
+- Scores for this round (before fixes) are in `content/fractal2/design/SCORES.md`; each fault and its guard is a row in `REGRESSIONS.md`.
+- Ending: "I am giving it away" lights the thirty rooms one by one and they stay lit (`S.ringl`, shader `uRingL`); every room lit at "It started with a question"; the map turns slowly; the last caption stays to the end (build.py sets its t1 past `dur`). "Enter the map" is driven by the clock (`shots.endAt`, `endState()` in engine.js), so `FILM.seek(FILM.dur)` shows it; it sits under the last line (phone) or in the caption column (desktop).
+- Captions: the dark ground (`#pool`) now arrives 0.45 s before the words. `F.COL` (0.595) is the caption column's left edge on wide screens; marker labels stay left of it; table 6 words now use the caption's place.
+- Portrait: `ZF` 0.97 on phones; chain radius 0.74; window is 3 x 10 blocks in portrait (`BLKP`); every GPU label 12 px or more (the 9 px exception is gone from the gate).
+- Section 1: stars fade in after the first lap and the camera leans after the light (parallax).
+- Hub: one status line, pair cards turn over in place, no "12 of 30" kicker, film grain and one glow, list names are buttons that update the card.
+- Gate additions: end button by seek and by playing to the end (and it opens the hub), dark ground before words, labels clear of the caption and of the map rim. Software GL takes ~20 s to leave the film page for the hub in the container; the gate waits for it.

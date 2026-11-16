@@ -90,10 +90,11 @@ print(json.dumps([int(ext(m[cy],cx)),int(ext(m[:,cx],cy))]))`, [f, String(pr.dpr
   ok(N + 'caption time on screen (0.35 s a word + 1.2 s)', shortc.length === 0, shortc.length ? shortc.map(c => c.slug).join(', ') : caps.length + ' captions');
   const over = cues.caps.filter((c, i) => i + 1 < cues.caps.length && c.t1 + (c.text.split(' ').length > 1 ? .6 : .22) > cues.caps[i + 1].t0 + .001);
   ok(N + 'one caption at a time (the last has left before the next arrives)', over.length === 0, over.length ? over.length + ' overlap, first: ' + over[0].slug : cues.caps.length + ' captions');
-  { let bad = [];
+  { let bad = []; const q = await ctx.newPage(); await q.goto(url + '?capture&nogl'); await q.waitForFunction(() => window.FILM && FILM.state().ready, null, { timeout: 90000 });   // DOM only: the 2D page is enough and cheap
     for (const c of caps) for (const dt of [.02, .12, .25]) {
-      const r = await p.evaluate(t => { FILM.seek(t); const g = [...document.querySelectorAll('.cap')].filter(e => +e.style.opacity > .02).flatMap(e => [...e.querySelectorAll('.g')].map(x => +x.style.opacity * +e.style.opacity)); const k = FILM.S.poolk == null ? 1 : FILM.S.poolk; return [Math.max(0, ...g), +document.getElementById('pool').style.opacity, k]; }, c.t0 + dt);
+      const r = await q.evaluate(t => { FILM.seek(t); const g = [...document.querySelectorAll('.cap')].filter(e => +e.style.opacity > .02).flatMap(e => [...e.querySelectorAll('.g')].map(x => +x.style.opacity * +e.style.opacity)); const k = FILM.S.poolk == null ? 1 : FILM.S.poolk; return [Math.max(0, ...g), +document.getElementById('pool').style.opacity, k]; }, c.t0 + dt);
       if (r[0] > .05 && r[1] < .97 * r[2] - .005) bad.push(`${c.slug}+${dt}: words ${r[0].toFixed(2)}, ground ${r[1].toFixed(2)}`); }
+    await q.close();
     ok(N + 'the dark ground is in place before any word shows', bad.length === 0, bad.length ? bad.length + ' moments, first: ' + bad[0] : caps.length + ' captions x 3 moments'); }
   let worst = 99, worstAt = '', inView = true;
   for (const c of caps) {
