@@ -1,5 +1,12 @@
 # MEMORY — read this first, every session
 
+> **FRACTAL² INTRO FILM IN BUILD (2026-11-16). Branch `claude/gracious-pasteur-f8krpy` (same history as optimistic-clarke; this is where work is pushed now).**
+> The intro is being rebuilt as a clock-driven film (press Play, watch; no scroll). Read `content/fractal2/design/FILM-BLUEPRINT.md` (locked spec + updates),
+> `content/fractal2/intro-v16.md` (the owner's own script; v15 superseded), `content/fractal2/TIMING.md`, `content/fractal2/SUNO-VOCAL-SPEC.md`.
+> Source `design/fractal2/film/` (engine.js, shots.js, template.html, build.py); output `library/fractal2/site/fractal2/film.html`; local `/fractal2/film` via
+> `python3 design/fractal2/serve.py 8802`. Gate: `node scripts/film2-check.mjs http://127.0.0.1:8802/fractal2/film --upto=<seconds built>`. Preview video:
+> `node scripts/film2-render.mjs`. Built so far: engine, entry, launch, sections 1-2. NOT deployed; live site is still v14. Details in the dated entry at the end.
+
 > **v19 IS LIVE (2026-10-27, deploy 6ae0da00e86b4d164b8a4f3f; replaced v18 6ae0a61aff2b9cdb5d09a3c4).** Owner asked for single scroll,
 > no tabs/clutter, no "tracks with circles", Apple feel, then a final design + SEO audit and "make it live". Repo and live are
 > byte-identical (`node scripts/verify-deployed.mjs playbook`). Suite 106 checks (`node scripts/decoder-verify.js
@@ -5070,3 +5077,12 @@ The owner was (fairly) angry that each fix shipped new faults. Standing rule fro
 - Lessons: do what was asked; open every named attachment; state skills/MCPs and token plan first; steelman before delivering; architecture on the strongest model, execution on cheaper ones.
 - (same day) Added `content/fractal2/design/FAILURE-LOG.md`: every intro-site fault and process failure, every time the PDF work did not read or produce what the owner sent (12 rows), five root causes, and a 10-step pre-flight checklist. `CLAUDE.md` now points to it after the digest. `docs/handoff-2026-11-13/CLAUDE-MEMORY-PASTE.md` is a short block for the owner to paste into Claude.ai memory (cannot be written from here).
 - (same day, later) Package audited and rebuilt: `docs/handoff-2026-11-13/` now also holds `MANUAL-STEPS.md` (steps for what an AI cannot do), `CLAUDE-MEMORY-PASTE.md`, `CONTEXT-SUMMARY-EARLIER-SESSION.md`, `PACKAGE-CHECK.md`; `docs/SYSTEM-MEMORY-PROMPT.md` is the prompt that builds a verified whole-repo memory. Found and fixed a mistake of mine: the first "verbatim owner messages" file contained injected skill text and notes; rebuilt with the 23 genuine owner messages. The old committed zip was removed from the tree (history keeps it); the new zip is download-only.
+
+
+## 2026-11-15/16: Fractal² intro becomes a film (session gracious-pasteur)
+- Owner decisions: no safety lines in the intro; film format (Play, no scroll-driving); build a hub; "Begin here" entry screen; hand-written WebGL2 pipeline with three quality tiers, zero dependencies; audio-first clock (his own Suno score + his voice, delivered at the end, synced from a word-level timestamp JSON); baked audio envelopes drive the light/rings; one critic agent pass per stage is approved; MP4 previews at each milestone; nothing deployed without his word.
+- Script: he replaced my v15 with his own wording (v16, 1,599 words, `content/fractal2/intro-v16.md`). Use his words exactly. The old "test-locked Part VI" wording does not apply to the film; he reworded it himself.
+- Table 4 (thirty technique/original pairs) comes from Chapter 32 The Frequency (Discard -> Self-retrieval; Smear Campaign -> Your own narrative). The eight stage inversions are his (Election, Covenant, Inherent worth, Truth, Community, Abundance, "I will never leave you", the one who cannot be replaced).
+- Engine facts: one clock; `FILM.seek(t)` gives the exact frame (negative t = entry screen); captions are DOM text, one sentence each; GPU text is an MSDF atlas of Instrument Serif (`voice-msdf.json`, atlas rebuilt with `MSDF_DIR=<dir with msdf-bmfont-xml> python3 design/fractal2/film/build.py` only if missing); timeline keyed to caption slugs in `shots.js`; `?hud` shows fps/tier/GPU MB; `?tier=0|1|2`, `?nogl`, `?capture`.
+- Lessons: the Begin click must not bubble to the stage tap handler; screenshots of WebGL need two animation frames; keep the pointer off the Play button in captures; iOS has no vibration API; Safari exposes no memory or temperature.
+- Still to build: sections 3-11 (tables 1-6, the mirror, the fall, the window), hub page with idle shader, real audio ingestion (faster-whisper alignment, baked envelopes), 9:16 promo clips, deploy steps (sites.json entry, on-page patch note, beacon check).
