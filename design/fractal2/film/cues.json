@@ -613,52 +613,52 @@
   {
    "slug": "you-are-loved-and",
    "t0": 412.762,
-   "t1": 418.194,
-   "say": 5.062,
-   "need": 4.7,
-   "sec": 6,
-   "text": "“You are loved. And then it extracts. ”You are safe."
-  },
-  {
-   "slug": "and-then-it-watches",
-   "t0": 418.874,
-   "t1": 424.305,
-   "say": 5.062,
-   "need": 4.7,
-   "sec": 6,
-   "text": "And then it watches. “You belong. And then it isolates."
-  },
-  {
-   "slug": "you-are-whole",
-   "t0": 424.985,
-   "t1": 427.305,
-   "say": 1.729,
-   "need": 2.25,
-   "sec": 6,
-   "text": "“You are whole."
-  },
-  {
-   "slug": "and-then-it-sells",
-   "t0": 427.985,
-   "t1": 432.395,
-   "say": 4.11,
-   "need": 4.0,
-   "sec": 6,
-   "text": "And then it sells you the missing piece."
-  },
-  {
-   "slug": "come-home-and-then",
-   "t0": 433.075,
-   "t1": 436.973,
+   "t1": 416.66,
    "say": 3.633,
    "need": 3.65,
    "sec": 6,
-   "text": "“Come home. And then it charges rent."
+   "text": "“You are loved.” And then it extracts."
+  },
+  {
+   "slug": "you-are-safe-and",
+   "t0": 417.34,
+   "t1": 421.238,
+   "say": 3.633,
+   "need": 3.65,
+   "sec": 6,
+   "text": "“You are safe.” And then it watches."
+  },
+  {
+   "slug": "you-belong-and-then",
+   "t0": 421.918,
+   "t1": 425.305,
+   "say": 3.157,
+   "need": 3.3,
+   "sec": 6,
+   "text": "“You belong.” And then it isolates."
+  },
+  {
+   "slug": "you-are-whole-and",
+   "t0": 425.985,
+   "t1": 431.929,
+   "say": 5.538,
+   "need": 5.05,
+   "sec": 6,
+   "text": "“You are whole.” And then it sells you the missing piece."
+  },
+  {
+   "slug": "come-home-and-then",
+   "t0": 432.609,
+   "t1": 436.507,
+   "say": 3.633,
+   "need": 3.65,
+   "sec": 6,
+   "text": "“Come home.” And then it charges rent."
   },
   {
    "slug": "people-have-given-it",
-   "t0": 437.653,
-   "t1": 447.686,
+   "t0": 437.187,
+   "t1": 447.22,
    "say": 9.348,
    "need": 7.85,
    "sec": 6,
@@ -666,8 +666,8 @@
   },
   {
    "slug": "use-the-word-that",
-   "t0": 448.366,
-   "t1": 452.775,
+   "t0": 447.9,
+   "t1": 452.309,
    "say": 4.11,
    "need": 4.0,
    "sec": 6,
@@ -675,8 +675,8 @@
   },
   {
    "slug": "they-all-point-at",
-   "t0": 453.455,
-   "t1": 457.354,
+   "t0": 452.989,
+   "t1": 456.887,
    "say": 3.633,
    "need": 3.65,
    "sec": 6,
@@ -684,8 +684,8 @@
   },
   {
    "slug": "it-is-not-a",
-   "t0": 458.034,
-   "t1": 461.054,
+   "t0": 457.567,
+   "t1": 460.587,
    "say": 2.681,
    "need": 2.95,
    "sec": 6,
@@ -693,8 +693,8 @@
   },
   {
    "slug": "it-is-a-pattern",
-   "t0": 461.734,
-   "t1": 468.699,
+   "t0": 461.267,
+   "t1": 468.233,
    "say": 6.49,
    "need": 5.75,
    "sec": 6,
@@ -702,8 +702,8 @@
   },
   {
    "slug": "a-counterfeit-always-comes",
-   "t0": 469.379,
-   "t1": 472.399,
+   "t0": 468.913,
+   "t1": 471.933,
    "say": 2.681,
    "need": 2.95,
    "sec": 6,
@@ -711,8 +711,8 @@
   },
   {
    "slug": "which-means-something-real",
-   "t0": 473.079,
-   "t1": 478.912,
+   "t0": 472.613,
+   "t1": 478.446,
    "say": 3.633,
    "need": 3.65,
    "sec": 6,

@@ -38,7 +38,7 @@ def groups(t):
 
 def sentences(par):
     """one caption per sentence; very short neighbours share a caption; very long sentences break at a comma"""
-    raw = [x.strip() for x in re.split(r'(?<=[.?!])(?:(?<=[.?!])"|)\s+(?=["A-Z{])', par) if x.strip()]
+    raw = [x.strip() for x in re.split(r'(?<=[.?!]")\s+|(?<=[.?!])\s+(?=["A-Z{])', par) if x.strip()]
     raw2 = []
     for x in raw:                                           # a closing quote that got separated goes back
         if x.startswith('" ') or x == '"': raw2[-1] += '"'; x = x[1:].strip()
@@ -48,6 +48,7 @@ def sentences(par):
         n = len(x.split())
         if out:
             p = out[-1]; pn = len(p.split())
+            if x.startswith('"') and not (p.startswith('"') and p.endswith('"')): out.append(x); continue
             if (pn + n <= 10 and n <= 4 and (pn <= 6 or p.count('.') > 1) and not (pn > 4 and p.count('.') == 1 and n == 1)) or (pn <= 3 and pn + n <= 8) or (p.startswith('"') and pn <= 5 and p.endswith('"') and pn + n <= 12) or x.startswith('{'):
                 out[-1] = p + ' ' + x; continue
         out.append(x)

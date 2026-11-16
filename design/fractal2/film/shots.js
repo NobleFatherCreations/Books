@@ -76,12 +76,51 @@ function hi3(t) {
   if (t >= g6.t0) return Math.min(5, Math.floor((t - g6.t0) / g6.say * 6));
   if (t >= g3.t0 + .5) return 2; if (t >= g2.t0 + 1.5) return 1; return 0;
 }
+/* sections 4 and 5: the full stop, the mirror, the great pull-back, three nested scales */
+var g4 = C('then-the-map-turned'), m1 = C('i-found-the-cycle'), m2 = D.caps[D.capId['i-found-the-cycle'] + 1], m3 = D.caps[D.capId['i-found-the-cycle'] + 2], m4 = C('handed-down-not-out'), m5 = C('i-came-to-believe'),
+  m6 = C('the-enemy-i-had'), m7 = C('and-it-had-never'), m8 = C('it-had-been-handed'), a1 = C('that-is-when-i'), a2 = C('it-was-never-only'), a5 = C('the-pattern-wears-a'), a6 = C('it-wears-the-sky'),
+  n1 = C('the-person-is-inside'), n2 = C('the-institution-is-inside'), n3 = C('the-civilization-is-inside'), n4 = C('and-the-pattern-is'), n5 = C('that-is-the-fractal');
+var STOP = g4.t0 + 3.4, PK1 = D.marks.PEAK1, PATR = 13.4, LS5 = 8.2, LR5 = 7.27;
+function lost(t) {                            // time the particles and the camera's breath lose to the full stop (closed form)
+  var A = STOP - .6, B = STOP, Cc = STOP + 1.4, Dd = STOP + 3.4;
+  if (t <= A) return 0; if (t <= B) return (t - A) * (t - A) / (2 * (B - A)); if (t <= Cc) return .3 + (t - B);
+  if (t <= Dd) return 1.7 + (t - Cc) - (t - Cc) * (t - Cc) / (2 * (Dd - Cc)); return 2.7;
+}
+function keysAt(K, t) {
+  var i; if (t <= K[0][0]) return K[0]; for (i = 1; i < K.length; i++) if (t < K[i][0]) break; if (i >= K.length) return K[K.length - 1];
+  var a = K[i - 1], b = K[i], u = (b[5] || E.film)((t - a[0]) / (b[0] - a[0]));
+  return [0, Math.exp(lerp(Math.log(a[1]), Math.log(b[1]), u)), lerp(a[2], b[2], u), lerp(a[3], b[3], u), lerp(a[4], b[4], u)];
+}
+var K45 = null, K45key = '';
+function cam45(t) {
+  var d = F.dims(), key = d.W + 'x' + d.H;
+  if (key !== K45key) {
+    var zf = ZF(), z0 = cam3(g4.t0)[1], zP = d.PORT ? .62 : .6, zI = d.PORT ? .112 : .125, zPat = zf * .8, e = a5.t0, R = -TAU;
+    K45 = [[g4.t0, z0, 0, 0, 0], [STOP, z0 * 1.04, 0, 0, 0, E.in2], [STOP + 1.3, z0 * 1.037, 0, 0, 0, E.settle], [m1.t0 + 9.5, .55, 0, 0, 0, E.film], [m2.t1, .8, 0, 0, 0, E.lin],
+      [m3.t0 + 5.6, .3, -1.5, 2.3, 0, E.film], [m6.t0, .27, -1.7, 2.6, 0, E.lin], [m6.t0 + 6.4, zf * 1.25, 0, 0, 0, E.film], [a1.t0, zf * 1.3, 0, 0, 0, E.lin],
+      [PK1 - .12, 2.4, 0, 0, 0, E.in3], [PK1 + 9.4, zf, 0, 0, R, F.spring(.66, 7.5)], [e - .1, zf * 1.02, 0, 0, R, E.lin],
+      [e + 1.5, zP, 0, 0, R, E.film], [e + 2.7, zP, 0, 0, R], [e + 4.3, zI, 0, 0, R, E.film], [a6.t0 - .1, zI, 0, 0, R], [a6.t0 + 1.9, zf, 0, 0, R, E.film], [n1.t0 - .1, zf, 0, 0, R],
+      [n1.t0 + 1.5, zI, 0, 0, R, E.film], [n2.t0 - .1, zI, 0, 0, R], [n2.t0 + 1.6, zf, 0, 0, R, E.film], [n3.t0 - .1, zf, 0, 0, R], [n3.t0 + 1.7, zPat, 0, 0, R, E.film], [n4.t0 + .2, zPat, 0, 0, R],
+      [n4.t0 + 3.85, 70, 0, 0, R, E.inExpo], [n4.t0 + 3.86, zf * 2.6, 0, 0, R, E.lin], [n5.t0 + 3.4, zf, 0, 0, R, E.out3], [n5.t1 + 8, zf * 1.05, 0, 0, R, E.lin]];
+    K45key = key;
+  }
+  return keysAt(K45, t);
+}
+var rev4 = track([[STOP + 1.39, 2], [STOP + 1.4, .1], [m1.t0 + 9, .92, E.film], [m7.t0, .92], [m7.t0 + 3, .1, E.io], [PK1 + 3.4, .1], [PK1 + 7, .92, E.out2]]);
+var front4 = track([[STOP + 1.4, 0], [STOP + 2, .7], [m1.t0 + 9, .7], [m1.t0 + 10.5, 0], [m7.t0, 0], [m7.t0 + .3, .6], [m7.t0 + 3, 0], [PK1 + 3.4, 0], [PK1 + 3.8, .8], [PK1 + 7.6, 0]]);
+var genN = track([[m3.t0 + .4, 0], [m3.t0 + 5.6, 6, E.lin]]), genA = track([[m3.t0 + .3, 0], [m3.t0 + .6, 1], [a1.t0 - 3, 1], [a1.t0, 0, E.io]]);
+function genLit(t) { var u = (t - m4.t0 - .2) / 4.6; if (u > 0 && u < 1) return lerp(6.8, -.6, E.io(u)); u = (t - m8.t0 - .1) / 3.2; if (u > 0 && u < 1) return lerp(6.8, -.6, E.io(u)); return -9; }
+var ringDim4 = track([[g4.t0, .32], [STOP - .05, .32], [STOP, 1.7], [STOP + 2.6, 1, E.out2], [m6.t0, 1], [m6.t0 + .1, .4], [a1.t0, .4], [PK1 + 4, .4], [PK1 + 8, 1, E.io]]);
+var lrev5 = track([[PK1 - .1, 0], [PK1 + 4.6, 1.06, E.out2]]), frontl5 = track([[PK1 - .1, 0], [PK1, 1], [PK1 + 4.5, 1], [PK1 + 5.4, 0]]);
+var logoA5 = track([[PK1 - .2, 0], [PK1, 1]]);
+var pat5 = track([[n3.t0 + .4, 0], [n3.t0 + 1.8, 1, E.out2], [n4.t0 + 1.2, 1], [n4.t0 + 2.6, 0], [n5.t0 + 1.2, 0], [n5.t0 + 3.2, .8, E.io]]);
+var glare = track([[n4.t0 + .6, 0], [n4.t0 + 3.85, 1, E.in3], [n5.t0 + .4, .9], [n5.t0 + 3.4, 0, E.out2]]);
 var dimK = track([[0, .78], [1.2, 1, E.io]]);
 
 function dlog(f, t) { var h = 1 / 240; return (Math.log(f(t + h)) - Math.log(f(t - h))) / (2 * h); }
 
 var S0 = { zoom: 1, rot: 0, camx: 0, camy: 0, pt: 0, orig: 0, core: 0, logo: 0, emb: 0, words: 2, reveal: 2, front: 0, title: 0, spin: 0, dim: 1, hole: .108, rings: 1, poolr: 1, poolg: 0,
-  origx: 0, origy: 0, origk: 1, ringa: 0, ringr: 10.5, ringn: 0, ringhi: -9, ringdim: 1, motes: 0, cxf: .5, light: 0, lsize: .16, lx: 0, ly: 0, orba: 0, orbr: 0, orb: 0, glint: 0, stars: 0, dust: 0, streak: 0, bloom: .7, rays: 0, ca: 0, vig: .5, grain: .045, expo: 1, fade: 1, ripx: 0, ripy: -1.6, ripr: 0, ripa: 0, poolk: 1 };
+  ls: 3.2, ring0: 0, lrev: 2, logok: 1, gen: 0, gena: 0, genlit: -9, frontl: 0, frontla: 0, patr: 0, pata: 0, gt: null, origx: 0, origy: 0, origk: 1, ringa: 0, ringr: 10.5, ringn: 0, ringhi: -9, ringdim: 1, motes: 0, cxf: .5, light: 0, lsize: .16, lx: 0, ly: 0, orba: 0, orbr: 0, orb: 0, glint: 0, stars: 0, dust: 0, streak: 0, bloom: .7, rays: 0, ca: 0, vig: .5, grain: .045, expo: 1, fade: 1, ripx: 0, ripy: -1.6, ripr: 0, ripa: 0, poolk: 1 };
 
 function Z0() { var d = F.dims(); return Math.max(.8, d.H * (1 - d.CYF) / (2.84 * d.U) * 1.08); }
 var shots = F.shots = { tau: 0, tau0: 20, rip: null };
@@ -116,16 +155,44 @@ shots.state = function (t, S) {
     if (t >= g27.t0 - .5 && t < gl1.t0) { var pu = Math.exp(-Math.max(0, t - g27.t0) * 1.4); S.ringdim = 1 + .5 * pu; S.origk = S.ringdim; }
     S._c3 = c3;
   }
+  if (t >= g4.t0) {                          // sections 4 and 5
+    var c4 = cam45(t), L = lost(t), f;
+    S._c3 = [0, c4[1], c4[2], c4[3]]; S.zoom = c4[1]; S.rot = c4[4]; S.pt = a0 + t - L; S.gt = t - L;
+    S.ringa = 1; S.ringn = 30; S.ringdim = ringDim4(t); S.ringhi = t < STOP ? hi3(t) : t < STOP + 2.4 ? -99 : -9;
+    if (t < STOP + 1.4) { S.origy = RW; S.origk = t < STOP ? (Math.min(S.ringhi, 30 - S.ringhi) < 1.15 ? 1 : S.ringdim) : S.ringdim; }
+    else { S.origy = 0; S.ring0 = 1; S.origk = 1; S.reveal = rev4(t); S.front = front4(t); }
+    S.gen = genN(t); S.gena = genA(t); S.genlit = genLit(t);
+    S._lk = t < PK1 - 5 ? lerp(1, .62, sm((t - STOP - 1.4) / 4)) : 1;
+    if (t >= m2.t0 && t < m3.t0 + .5) {       // "in my body": a heartbeat travels the rings
+      for (var hb = 0; hb < 8; hb++) for (var q2 = 0; q2 < 2; q2++) { var hu = (t - (m2.t0 + .5 + hb * 1.12 + q2 * .3)) / .95; if (hu > 0 && hu < 1) { S.patr = lerp(.12, .95, E.out2(hu)); S.pata = Math.pow(1 - hu, 2) * (q2 ? .45 : .8); } }
+    }
+    if (t >= PK1 - .2) {
+      S.logo = logoA5(t); S.emb = S.logo; S.ls = LS5; S.lrev = lrev5(t); S.frontl = S.lrev; S.frontla = frontl5(t); S.hole = S.reveal > .1 && S.reveal < 1.5 ? Math.max(.108, .95 - (S.reveal - .1) * 3) : .95; S._lk = t > PK1 + 4 ? lerp(1, .55, sm((t - PK1 - 4) / 3)) : 1;
+      var e5 = a5.t0;                         // table 2: three nested scales, lit in turn
+      if (t >= e5 && t < n4.t0) {
+        f = t < e5 + 2.9 ? 0 : t < a6.t0 ? 1 : t < n1.t0 ? 2 : t < n2.t0 ? 3 : t < n3.t0 ? 4 : 5;
+        var want = [[1, .3, .3], [1, 1, .3], [.6, .6, 1.25], [1, 1, .3], [.55, 1, 1.2], [.6, .7, 1]][f], bl = sm((t - [e5, e5 + 2.9, a6.t0, n1.t0, n2.t0, n3.t0][f]) / .9);
+        var prev = f ? [[1, .3, .3], [1, 1, .3], [.6, .6, 1.25], [1, 1, .3], [.55, 1, 1.2]][f - 1] : [1, 1, 1];
+        S.origk = lerp(prev[0], want[0], bl); S.logok = lerp(prev[1], want[1], bl); S.ringdim = lerp(prev[2], want[2], bl);
+      }
+      if (pat5(t) > 0) { S.patr = PATR; S.pata = pat5(t); }
+      var gl5 = glare(t); if (gl5 > 0) { S._glare = gl5; }
+    }
+  }
   S.motes = motesK(t);
   S.glint = glintK(t); S.stars = starsK(t); S.dust = dustK(t); S.vig = vigK(t);
-  var v = F.env(t, 'voice'), sb = F.env(t, 'sub'), breath = 1 + .05 * Math.sin(TAU * t / 5.2);
+  var v = F.env(t, 'voice'), sb = F.env(t, 'sub'), breath = 1 + .05 * Math.sin(TAU * (t >= g4.t0 ? t - lost(t) : t) / 5.2);
   S.light = lightI(t) * breath * (1 + .22 * v); S.lsize = lightS(t) * (1 + .04 * v) * push(t);
+  if (S._lk) { S.lsize *= S._lk; S.light *= lerp(1, .8, 1 - S._lk > 0 ? 1 : 0); S._lk = 0; }
+  if (S._glare) { S.light *= 1 + 1.1 * S._glare; S.lsize *= 1 + 4.2 * S._glare * S._glare; S.expo = 1 + .3 * S._glare; S.bloom = .7 + .5 * S._glare; S._glare = 0; }
+  if (t >= g4.t0) { var h4 = 1 / 120, vz4 = (Math.log(cam45(t + h4)[1]) - Math.log(cam45(t - h4)[1])) / (2 * h4); if (Math.abs(vz4) < 40) vz = vz4; else vz = 0; }
   S.rays = raysK(t) * (1 + .3 * v);
   S.zoom *= 1 + .003 * sb * rm;            // sub-bass camera impulse, capped well under 0.6%
   S.glint *= 1 + .35 * sb;
   var sp = Math.abs(vz);
   S.ca = Math.min(.0055, sp * .0016); S.streak = Math.min(.45, sp * .12);
-  S.camx = .004 * Math.sin(t * .31) + .003 * Math.sin(t * .13 + 2) ; S.camy = .004 * Math.sin(t * .23 + 1);   // handheld drift, reproducible
+  var tl = t >= g4.t0 ? t - lost(t) : t;
+  S.camx = .004 * Math.sin(tl * .31) + .003 * Math.sin(tl * .13 + 2) ; S.camy = .004 * Math.sin(tl * .23 + 1);   // handheld drift, reproducible
   S.camx /= S.zoom; S.camy /= S.zoom;
   if (S._c3) { S.camx += S._c3[2]; S.camy += S._c3[3]; S.lx = -S.camx * S.zoom; S.ly = -S.camy * S.zoom; S._c3 = null; }
   var fo = follow(t); if (fo > 0) { S.camx += Math.cos(S.orba) * S.orbr * fo; S.camy += Math.sin(S.orba) * S.orbr * fo; }
@@ -143,6 +210,7 @@ shots.draw = function (t, S) {
   function title(fx) { F.text('Fractal', x0, cy, ts, CREAM, { track: ts * .012, align: -1, fx: fx }); F.text('2', x0 + tw + w2 * .08, cy - ts * .36, s2, CREAM, { align: -1, fx: fx ? function (i, n, o, gx, gy) { fx(7, 8, o, tw / 2 + gx, gy); } : null }); }
   if (t < 0) { title(null); return; }
   if (t >= g6.t0 - .1 && t < gs.t1 + 2) section3(t, S, d);
+  if (t >= a5.t0 && t < n4.t0 + 1.5) section5(t, S, d);
   if (t < 2.4) {                           // the title breaks into points that become the stars
     var u = t / 2.2;
     title(function (i, n, o, gx) {
@@ -177,9 +245,19 @@ function section3(t, S, d) {
     F.text('examples', cx, cy + d.U * .34 + s3 * .3 + d.U * .17, d.U * .11, [.953, .925, .851, a * .8], { track: d.U * .02 });
   }
 }
-shots.need = function (t) { return t < 2.5 ? ['logo'] : t < 3.1 ? ['logo', 'orig', 'core'] : ['orig', 'core']; };
+function section5(t, S, d) {
+  var e = a5.t0, items = [[e + .5, e + 2.9, 'a human face', .887, 0], [e + 3.1, a6.t0 - .1, 'a logo', LR5, 0], [a6.t0 + .4, n1.t0 - .1, 'the sky', RW + .9, 0],
+    [n1.t0 + .3, n2.t0 - .2, 'PERSON', .887, 1], [n1.t0 + 1.2, n3.t0 - .2, 'INSTITUTION', LR5, 1], [n2.t0 + 1.2, n3.t0 - .2, 'CIVILIZATION', RW + .9, 1], [n3.t0 + .2, n4.t0 + .3, 'CIVILIZATION', RW - 1.5, 2], [n3.t0 + 1.4, n4.t0 + .3, 'PATTERN', PATR, 1]], i, it, a, p, sz;
+  for (i = 0; i < items.length; i++) {
+    it = items[i]; if (t < it[0] || t > it[1] + .5) continue; a = Math.min(1, (t - it[0]) / .45) * Math.min(1, Math.max(0, (it[1] + .5 - t) / .5));
+    p = F.w2s(0, it[3], S); if (it[3] * S.zoom * d.U < d.U * .16) continue;
+    if (it[4]) { sz = d.U * .078; F.text(it[2], p[0], it[4] === 2 ? p[1] + sz * 1.5 : Math.max(sz * 1.6, p[1] - sz * .7), sz, [1, .84, .52, a], { track: sz * .34 }); }
+    else { sz = d.U * .2; F.text(it[2], p[0], Math.max(sz * 1.3, p[1] - sz * .55), sz, [1, .93, .78, a], { fx: function (k, n, o) { o.dy = (1 - E.out3(Math.min(1, (t - it[0]) / .5))) * sz * .2; } }); }
+  }
+}
+shots.need = function (t) { return t < 2.5 ? ['logo'] : t < 3.1 ? ['logo', 'orig', 'core'] : t < g1.t0 ? ['orig', 'core'] : t < PK1 - 6 ? ['orig'] : ['orig', 'logo', 'emb']; };
 shots.boundary = function (t, dt) {         // true in the gaps between captions: the only place quality may step
   var c = D.caps, i; for (i = 0; i < c.length; i++) if (t >= c[i].t0 - .1 && t <= c[i].t0 + c[i].say + .1) return false; return true;
 };
-shots.built = gs.t1 + 2;                   // how far the picture is choreographed so far
+shots.built = n5.t1 + 2;                   // how far the picture is choreographed so far
 })();
