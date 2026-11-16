@@ -93,7 +93,7 @@ var COMMON = '#version 300 es\nprecision highp float;\n' +
 var FS_SCENE = COMMON + [
 'uniform vec2 uRes,uCtr,uCam,uLS;uniform float uUnit,uZoom,uRot,uT,uPT;',
 'uniform sampler2D tOrig,tCore,tLogo,tEmb;',
-'uniform float uOrigA,uCoreA,uLogoA,uEmbA,uWords,uReveal,uFront,uTitle,uSpin,uDim,uOrigK,uRingDim;uniform vec2 uOrigP;uniform vec4 uRing;uniform float uRing0,uLRev,uLogoK,uLH;uniform vec4 uGen;uniform vec2 uFrontL,uPat,uLineH,uLineV;uniform float uPatC;uniform vec3 uMk[9];uniform float uBk[30];uniform float uBkA,uThN,uThA;uniform vec2 uTh[8];',
+'uniform float uOrigA,uCoreA,uLogoA,uEmbA,uWords,uReveal,uFront,uTitle,uSpin,uDim,uOrigK,uRingDim;uniform vec2 uOrigP;uniform vec4 uRing;uniform float uRing0,uLRev,uLogoK,uLH;uniform vec4 uGen;uniform vec2 uFrontL,uPat,uLineH,uLineV;uniform float uPatC;uniform vec3 uMk[9];uniform float uMkR;uniform float uBk[30];uniform float uBkA,uThN,uThA;uniform vec2 uTh[8];',
 'uniform vec3 uLight;uniform vec4 uOrb;uniform float uMotes,uGlint,uStars,uDust,uStreak,uHole,uRingS,uPoolR,uPoolK;',
 'in vec2 v;out vec4 o;',
 'const float FR[8]=float[8](.207,.296,.38,.462,.547,.624,.713,.829);',
@@ -143,7 +143,7 @@ var FS_SCENE = COMMON + [
 '    float dl=length(p-L);col+=gold*g*uGlint*(uOrb.z/(1.+dl*dl*46.)+uLight.z*.05/(1.+r*r*9.));',
 '    float od=dl/(uOrb.w*px*6.);col+=vec3(1.,.93,.78)*uOrb.z*uGlint*(exp(-od*od)*1.5+.28/(1.+od*od*.9));}',
 '  if(uThA>0.){float dmin=1e9;float nd=0.;for(int i=0;i<8;i++){float fi=float(i);if(fi<=uThN){float dn=length(p-uTh[i])/(px*4.5);nd+=exp(-dn*dn);}if(i<7&&fi<uThN){vec2 ta=uTh[i],tb=mix(ta,uTh[i+1],clamp(uThN-fi,0.,1.));vec2 pa=p-ta,ba=tb-ta;float hh=clamp(dot(pa,ba)/max(dot(ba,ba),1e-6),0.,1.);dmin=min(dmin,length(pa-ba*hh));}}float dt=dmin/(px*1.7);col+=gold*(exp(-dt*dt)*1.5+exp(-dt*dt/60.)*.22+nd*1.6)*uThA;}',
-'  for(int i=0;i<9;i++){if(uMk[i].z>0.){float dm=length(q-uMk[i].xy)/.03;col+=vec3(1.,.9,.72)*uMk[i].z*(exp(-dm*dm)*1.7+.22/(1.+dm*dm*.8));}}',
+'  for(int i=0;i<9;i++){if(uMk[i].z>0.){float dm=uMkR>0.?abs(length(q-uMk[i].xy)-uMkR)/.011:length(q-uMk[i].xy)/.03;col+=vec3(1.,.9,.72)*uMk[i].z*(exp(-dm*dm)*1.7+.22/(1.+dm*dm*.8));}}',
 '  if(uLight.z>0.){vec2 dv=q-uLS;float dl=length(dv)/uLight.y;float an=atan(dv.y,dv.x);',
 '    float cor=vn(vec2(an*2.2+uPT*.07,dl*.9-uPT*.22))*.6+vn(vec2(an*5.+3.-uPT*.05,dl*2.1-uPT*.4))*.4;',
 '    float spk=pow(abs(cos(an*3.+uPT*.03)),90.)*.5+pow(abs(cos(an*2.-uPT*.021+.7)),140.)*.35;',
@@ -329,7 +329,7 @@ function render(t) {
   gl.uniform1f(u.uZoom, S.zoom); gl.uniform1f(u.uRot, S.rot); gl.uniform2f(u.uCam, S.camx, S.camy);
   gl.uniform1f(u.uT, t); gl.uniform1f(u.uPT, S.pt);
   gl.uniform2f(u.uOrigP, S.origx, S.origy); gl.uniform1f(u.uOrigK, S.origk); gl.uniform4f(u.uRing, S.ringa, S.ringr, S.ringn, S.ringhi); gl.uniform1f(u.uRingDim, S.ringdim);
-  gl.uniform1f(u.uLH, S.ls); gl.uniform1f(u.uRing0, S.ring0); gl.uniform1f(u.uLRev, S.lrev); gl.uniform1f(u.uLogoK, S.logok); gl.uniform4f(u.uGen, S.gen, S.gena, S.genlit, 0); gl.uniform2f(u.uFrontL, S.frontl, S.frontla); gl.uniform2f(u.uPat, S.patr, S.pata); gl.uniform1f(u.uPatC, S.patc); gl.uniform3fv(u.uMk, S.mk); gl.uniform1fv(u.uBk, S.bk); gl.uniform1f(u.uBkA, S.bka); gl.uniform2fv(u.uTh, S.th); gl.uniform1f(u.uThN, S.thn); gl.uniform1f(u.uThA, S.tha); gl.uniform2f(u.uLineH, S.lineh, S.lineha); gl.uniform2f(u.uLineV, S.linev, S.lineva);
+  gl.uniform1f(u.uLH, S.ls); gl.uniform1f(u.uRing0, S.ring0); gl.uniform1f(u.uLRev, S.lrev); gl.uniform1f(u.uLogoK, S.logok); gl.uniform4f(u.uGen, S.gen, S.gena, S.genlit, 0); gl.uniform2f(u.uFrontL, S.frontl, S.frontla); gl.uniform2f(u.uPat, S.patr, S.pata); gl.uniform1f(u.uPatC, S.patc); gl.uniform3fv(u.uMk, S.mk); gl.uniform1f(u.uMkR, S.mkr); gl.uniform1fv(u.uBk, S.bk); gl.uniform1f(u.uBkA, S.bka); gl.uniform2fv(u.uTh, S.th); gl.uniform1f(u.uThN, S.thn); gl.uniform1f(u.uThA, S.tha); gl.uniform2f(u.uLineH, S.lineh, S.lineha); gl.uniform2f(u.uLineV, S.linev, S.lineva);
   gl.uniform1f(u.uOrigA, S.orig); gl.uniform1f(u.uCoreA, S.core); gl.uniform1f(u.uLogoA, S.logo); gl.uniform1f(u.uEmbA, S.emb);
   gl.uniform1f(u.uWords, S.words); gl.uniform1f(u.uReveal, S.reveal); gl.uniform1f(u.uFront, S.front); gl.uniform1f(u.uTitle, S.title);
   gl.uniform1f(u.uSpin, S.spin); gl.uniform1f(u.uDim, S.dim);
