@@ -94,6 +94,64 @@ print((tx+0.05)/(bg+0.05))`, [f, ...r.slice(0, 4).map(String), String(pr.dpr)]))
   }
   ok(N + 'caption contrast (brightest pixel behind the words)', worst >= 4.5, worst.toFixed(1) + ':1 at ' + worstAt);
   ok(N + 'captions inside the screen', inView, '');
+  // ---- GPU labels (map text drawn by the engine): readable size, inside the screen, never on top of each other or of a marker
+  const capAt = (slug, f, n = 0) => { const c = cues.caps.filter(x => x.slug === slug)[n]; return c ? c.t0 + (c.t1 - c.t0) * f : null; };
+  const labelTimes = [capAt('election-becomes-idealize-covenant', .5), capAt('i-will-never-leave', .6), capAt('and-the-one-who', .6), capAt('a-pattern-observed-traced', .9), capAt('it-only-needs-your', .5),
+    capAt('i-did-not-rise', .5), capAt('the-sun-did-not', .5), capAt('like-the-debt-prison', .2), capAt('like-the-debt-prison', .5)].filter(t => t != null && t < upto);
+  let lbBad = [], lbMin = 99;
+  for (const t of labelTimes) {
+    await p.evaluate(t => FILM.seek(t), t);
+    const L = await p.evaluate(() => (FILM.rec || []).filter(r => r.a > .6 && r.soft < .5));
+    const box = r => { const x0 = r.al === 0 ? r.x - r.w / 2 : r.al < 0 ? r.x : r.x - r.w; return r.dot ? [r.x - 7, r.y - 7, r.x + 7, r.y + 7] : [x0, r.y - r.size * .72, x0 + r.w, r.y + r.size * .2]; };
+    const B = L.map(r => [box(r), r]);
+    for (const [b, r] of B) { if (r.dot) continue; const small = r.small ? 9 : 12; lbMin = Math.min(lbMin, r.size); if (r.size < small) lbBad.push(`${t.toFixed(1)} "${r.s}" ${r.size.toFixed(1)}px`);
+      if (b[0] < 2 || b[2] > pr.vp.width - 2 || b[1] < 0 || b[3] > pr.vp.height) lbBad.push(`${t.toFixed(1)} "${r.s}" off screen`); }
+    for (let i = 0; i < B.length; i++) for (let j = i + 1; j < B.length; j++) { const [a, ra] = B[i], [c, rc] = B[j]; if (ra.dot && rc.dot) continue;
+      const ov = Math.min(a[2], c[2]) - Math.max(a[0], c[0]), oh = Math.min(a[3], c[3]) - Math.max(a[1], c[1]); if (ov > 2 && oh > 2) lbBad.push(`${t.toFixed(1)} "${ra.s || 'marker'}" over "${rc.s || 'marker'}"`); }
+  }
+  ok(N + 'GPU labels: 12 px or more, on screen, not overlapping', lbBad.length === 0, lbBad.length ? lbBad.slice(0, 4).join('; ') : labelTimes.length + ' frames, smallest ' + lbMin.toFixed(1) + ' px');
+  // ---- GPU label contrast, from pixels: the same frame with and without the engine's text
+  { let worstL = 99, at = '';
+    for (const t of labelTimes) {
+      const f1 = await shot(t, 'lb-a', true); await p.evaluate(() => { FILM.opt.notext = 1; }); const f0 = await shot(t, 'lb-b', true); await p.evaluate(() => { FILM.opt.notext = 0; });
+      const L = await p.evaluate(() => (FILM.rec || []).filter(r => r.a > .6 && r.soft < .5 && !r.dot && r.s.trim()));
+      const bx = L.map(r => { const x0 = r.al === 0 ? r.x - r.w / 2 : r.al < 0 ? r.x : r.x - r.w; return [x0, r.y - r.size * .72, x0 + r.w, r.y + r.size * .2, r.size]; });
+      if (!bx.length) continue;
+      const v = JSON.parse(py(lum + `
+a=L(np.asarray(Image.open(sys.argv[1]).convert('RGB')).astype(float)); b=L(np.asarray(Image.open(sys.argv[2]).convert('RGB')).astype(float)); d=float(sys.argv[3]); out=[]
+for x0,y0,x1,y1,sz in json.loads(sys.argv[4]):
+    X0,Y0,X1,Y1=max(0,int(x0*d)),max(0,int(y0*d)),int(x1*d),int(y1*d)
+    A=a[Y0:Y1,X0:X1]; Bk=b[Y0:Y1,X0:X1]
+    if A.size<20: continue
+    m=(A-Bk)>0.03
+    if m.sum()<6: out.append([0,sz]); continue
+    tx=np.percentile(A[m],98); bg=np.percentile(Bk,95)
+    out.append([(max(tx,bg)+0.05)/(min(tx,bg)+0.05),sz])
+print(json.dumps(out))`, [f1, f0, String(pr.dpr), JSON.stringify(bx)]));
+      for (const [c, sz] of v) { const need = sz >= 24 ? 3 : 4.5; if (c / need < worstL) { worstL = c / need; at = `${t.toFixed(1)} ${c.toFixed(1)}:1 at ${sz.toFixed(0)} px`; } }
+    }
+    ok(N + 'GPU label contrast (4.5:1 under 24 px, 3:1 above)', worstL >= 1, at); }
+  // ---- the glass: real refraction inside the lens, nothing changed outside it
+  { const tg = capAt('every-technique-is-a', .78); if (tg && tg < upto) {
+      const fa = await shot(tg, 'glass-a', true); await p.evaluate(() => { FILM.opt.norefr = 1; }); const fb = await shot(tg, 'glass-b', true); await p.evaluate(() => { FILM.opt.norefr = 0; });
+      const st = await p.evaluate(() => { const d = FILM.dims(), S = FILM.S; return [d.H * d.CYF - S.lineh * d.U, S.glw * d.U, S.glass]; });
+      const r = JSON.parse(py(`
+import sys,json
+from PIL import Image
+import numpy as np
+a=np.asarray(Image.open(sys.argv[1]).convert('RGB')).astype(int); b=np.asarray(Image.open(sys.argv[2]).convert('RGB')).astype(int); d=float(sys.argv[3]); y=float(sys.argv[4])*d; w=float(sys.argv[5])*d
+D=np.abs(a-b).max(2); Y0,Y1=int(y-w)-2,int(y+w)+2
+print(json.dumps([float(D[Y0:Y1].mean()), int(np.delete(D,range(max(0,Y0),Y1),0).max())]))`, [fa, fb, String(pr.dpr), String(st[0]), String(st[1])]));
+      ok(N + 'glass refracts inside the lens only', st[2] > .5 && r[0] > 2 && r[1] <= 1, `inside mean change ${r[0].toFixed(1)}, outside max ${r[1]} (glass ${st[2].toFixed(2)})`);
+  } }
+  // ---- the window: the light must read as whole; no dark pool may cut it off at the caption gutter (desktop: words on the right)
+  if (pr.name === 'desktop') { const tw = ['the-sun-did-not', 'one-block-at-a', 'pulsing-quietly-and-waiting'].map(s => capAt(s, .5)).filter(t => t && t < upto); let worstW = 9, atW = '';
+    for (const t of tw) { const f = await shot(t, 'win', true); const lx = await p.evaluate(() => { const d = FILM.dims(); return [d.W * FILM.S.cxf + FILM.S.lx * d.U, d.H * d.CYF - FILM.S.ly * d.U]; });
+      const r = Number(py(lum + `
+im=L(np.asarray(Image.open(sys.argv[1]).convert('RGB')).astype(float)); y=int(float(sys.argv[2])); W=im.shape[1]
+band=np.convolve(im[y-40:y+40].mean(0),np.ones(15)/15,'same'); print(band[int(W*.625)]/max(band[int(W*.486)],1e-4))`, [f, String(lx[1])]));
+      if (r < worstW) { worstW = r; atW = t.toFixed(1); } }
+    if (tw.length) ok(N + 'window light reaches the caption column (no cut)', worstW >= .1, `lowest gutter ratio ${worstW.toFixed(2)} at ${atW} (a dark pool gives under 0.08)`); }
   // banding in the darkest smooth scene
   if (upto > 31) { const f = await shot(30, 'band', true); const r = py(lum + `
 im=np.asarray(Image.open(sys.argv[1]).convert('L')).astype(int); h,w=im.shape; row=im[int(h*.4)]
@@ -103,14 +161,14 @@ for i in range(1,w):
     else: run=1
 print(best/w)`, [f]); ok(N + 'no banding in the light falloff', Number(r) < .05, 'longest flat run ' + (Number(r) * 100).toFixed(1) + '% of the width'); }
   // every tier draws the same scene
-  if (pr.name === 'phone' && upto > 134) { const res = []; for (const tr of [0, 1, 2]) { const q = await ctx.newPage(); await q.goto(url + '?capture&tier=' + tr); await q.waitForFunction(() => window.FILM && FILM.state().ready, null, { timeout: 90000 }); await q.evaluate(() => { FILM.seek(133); }); await q.waitForTimeout(60); const f = `${out}/tier-${tr}.png`; await q.screenshot({ path: f }); res.push(f); await q.close(); }
+  for (const tt of [133, 412.6]) if (pr.name === 'phone' && upto > tt + 1) { const res = []; for (const tr of [0, 1, 2]) { const q = await ctx.newPage(); await q.goto(url + '?capture&tier=' + tr); await q.waitForFunction(() => window.FILM && FILM.state().ready, null, { timeout: 90000 }); await q.evaluate(tt => { FILM.seek(tt); }, tt); await q.waitForTimeout(60); const f = `${out}/tier-${tr}-${tt}.png`; await q.screenshot({ path: f }); res.push(f); await q.close(); }
     const r = py(`
 import sys
 from PIL import Image
 import numpy as np
 a=[np.asarray(Image.open(f).convert('L').resize((195,422))).astype(float) for f in sys.argv[1:]]
 def c(x,y): return float(np.corrcoef(x.ravel(),y.ravel())[0,1])
-print(min(c(a[0],a[1]),c(a[0],a[2])))`, res); ok(N + 'tiers show the same picture', Number(r) > .9, 'lowest correlation with full tier ' + Number(r).toFixed(3)); }
+print(min(c(a[0],a[1]),c(a[0],a[2])))`, res); ok(N + 'tiers show the same picture at ' + tt + ' s', Number(r) > .9, 'lowest correlation with full tier ' + Number(r).toFixed(3)); }
   { const q = await ctx.newPage(); await q.goto(url + '?capture&nogl'); await q.waitForFunction(() => window.FILM && FILM.state().ready, null, { timeout: 90000 }); await q.evaluate(() => FILM.seek(30)); await q.waitForTimeout(60); const f = `${out}/${pr.name}-nogl.png`; await q.screenshot({ path: f });
     const r = py(lum + `im=np.asarray(Image.open(sys.argv[1]).convert('RGB')).astype(float); print(float(L(im).max()))`, [f]); ok(N + 'no-WebGL fallback draws', Number(r) > .3, 'max luminance ' + Number(r).toFixed(2)); await q.close(); }
   ok(N + 'no errors', errs.length === 0, errs.slice(0, 3).join(' | '));

@@ -26,6 +26,31 @@ var RW = 10.5, SECT = D.sectors, g1 = C('so-i-went-looking'), g2 = C('i-opened-a
   gm = C('from-the-moment-you'), g27 = C('two-thousand-seven-hundred'), gl1 = C('i-looked-for-a'), gs = C('i-am-still-looking'), SIX = ['Religion', 'Politics', 'Media', 'Education', 'Medicine', 'Money'];
 var relT = []; (function () { var t = gm.t0 + .2, span = g27.t0 - .5 - t, w = [], i, sum = 0; for (i = 0; i < 30; i++) { w.push(i < 4 ? 2.6 : i < 8 ? 1.5 : 1); sum += w[i]; } for (i = 0; i < 30; i++) { var dd = w[i] / sum * span; relT.push([t, dd]); t += dd; } })();                              // end of launch: black, one light
 
+/* section 1: the light walks the same loop, lap after lap (a different room, a different face, the same ending).
+   Every lap passes through one point P. At "It must be me" it stops there; "I turned the question around" is one lap the other way;
+   at "What if it isn't me?" every lap it ever walked lights at once, and the road opens back to the centre. */
+var LAPV = [0, .09, -.07, .12, -.04, .05], LAPT = [0, .14, -.1, .2, -.16, .06], LAPS = [], ROAD0 = C('that-was-the-moment').t0 + .3, ROAD1 = c2.t0 - .5;
+(function () { var e = [9.6, cq.t0 + .8, cdr.t0 + 3.6, 44.2, 57.0, cme.t0], i; for (i = 0; i < 5; i++) LAPS.push([e[i], e[i + 1], 1]); LAPS.push([cme.t0 + 4.3, cwi.t0, -1]); })();
+function lapR() { return F.dims().PORT ? .55 : .5; }
+function lapGeo(k) { var R = lapR(), r = R * (1 + LAPV[k]), ta = LAPT[k]; return [r * Math.sin(ta), -R + r * Math.cos(ta), r, ta]; }
+function lapF(u) { u = clamp(u, 0, 1); return u - .35 * Math.sin(TAU * u) / TAU; }
+function lapPos(k, f) { var g = lapGeo(k), th = -Math.PI / 2 - g[3] + LAPS[k][2] * TAU * f; return [g[0] + g[2] * Math.cos(th), g[1] + g[2] * Math.sin(th)]; }
+function path1(t) {                           // where the one light is in section 1 (screen units from the picture centre)
+  var R = lapR(), k;
+  if (t < LAPS[0][0]) { var u = E.io((t - 3.6) / (LAPS[0][0] - 3.6)); return [0, -R * u]; }
+  for (k = 0; k < 6; k++) if (t < LAPS[k][1]) return t < LAPS[k][0] ? [0, -R] : lapPos(k, lapF((t - LAPS[k][0]) / (LAPS[k][1] - LAPS[k][0])));
+  var v = E.film((t - ROAD0) / (ROAD1 - ROAD0)); return [0, -R * (1 - v)];
+}
+function trail1(t, S) {
+  var A = S.tra = shots._tra || (shots._tra = new Float32Array(24)), B = S.trb = shots._trb || (shots._trb = new Float32Array(24)), k;
+  var see = sm((t - cwi.t0 - .1) / .5), dimm = 1 - .75 * sm((t - cme.t0 - .2) / 1.4) * (1 - sm((t - cme.t0 - 4.3) / 2)), gone = 1 - sm((t - ROAD0 - 1.2) / 4);
+  for (k = 0; k < 6; k++) {
+    var L = LAPS[k], g = lapGeo(k), f = t <= L[0] ? 0 : lapF((t - L[0]) / (L[1] - L[0])), age = Math.max(0, t - L[1]);
+    var base = (k === 5 ? .36 : .3) * (1 - .35 * sm(age / 30)) * (k < 5 ? dimm : 1);
+    A[k * 4] = g[0]; A[k * 4 + 1] = g[1]; A[k * 4 + 2] = g[2]; A[k * 4 + 3] = f > 0 ? lerp(base, .62 + .5 * Math.exp(-Math.max(0, t - cwi.t0 - .6) * 1.2), see) * gone : 0;
+    B[k * 4] = f; B[k * 4 + 1] = L[2]; B[k * 4 + 2] = t < L[1] ? 9 : 400; B[k * 4 + 3] = g[3];
+  }
+}
 /* ---------- tracks ---------- */
 var revKeys = [[c2.t0 - .2, .06], [c2.t0 + 3.2, .118, E.film], [c8.t0, .118]], zKeys = [[0, .8], [.35, .8], [3.0, 11, F.bez(.6, 0, .25, 1)], [T1, 11], [T1 + .01, 2.2], [cme.t0, 3.3, E.lin], [cwi.t0 + 2, 3.0, E.io], [c2.t0, 3.5, E.io], [c8.t0, 3.5]];
 st.forEach(function (c, i) {
@@ -56,7 +81,6 @@ var rip = track([[0, 0], [1.5, 3.4, E.outExpo]]), ripA = track([[0, .05], [1.5, 
 var vigK = track([[0, .62], [3, .5], [c2.t0, .5], [st[7].t0, .42]]);
 var motesK = track([[3, 0], [7, -.8, E.io], [cme.t0, -.8], [cme.t0 + 1.5, -.25, E.io], [cwi.t0, -.25], [cwi.t0 + .4, 0], [cwi.t0 + 1.4, 1, E.out2], [c2.t0 + 4, .7], [st[0].t0, .25, E.io], [c30.t0, .25]]);
 var follow = track([[c30.t0 - .3, 0], [c30.t0 + 2.2, .78, E.film], [cth.t0 - 1.6, .78], [cth.t0 + .6, 0, E.film]]);
-var wander = track([[T1, 0], [9, 1, E.io], [c2.t0 - 6, 1], [c2.t0 - .5, 0, E.io]]);
 var cxfK = track([[T1 - .3, 0], [9, 1, E.io]]);
 var push = track([[9, 1], [cme.t0 - 1, 1.42, E.lin], [cme.t0 + 1.4, 1], [c2.t0, 1]]);
 var ringY = track([[g1.t0 - .2, 0], [g1.t0 + 4.6, RW, E.film]]);
@@ -160,6 +184,17 @@ var YR = [0, 1, 2, 3].map(function (n) { return Cn('if-you-call-it', n); }), wd 
 var PK3 = D.marks.PEAK3, pulseT = [YR[0].t0 + YR[0].say * .78, YR[1].t0 + YR[1].say * .78, YR[2].t0 + YR[2].say * .42, YR[2].t0 + YR[2].say * .58, YR[2].t0 + YR[2].say * .74, YR[2].t0 + YR[2].say * .92, YR[3].t0 + YR[3].say * .86, ds.t0 + ds.say * .7];
 var BORD = []; (function () { var a = [], i, j, t; for (i = 0; i < 30; i++) a.push(i); for (i = 29; i > 0; i--) { j = Math.floor(h1(i * 12.9) * (i + 1)); t = a[i]; a[i] = a[j]; a[j] = t; } BORD = a; })();
 var bkOn = w1.t0 + .3, bkGo = w6.t0 + .5;
+/* the thirty blocks: each its own size and angle, a little out of line, the way things are stacked by hand */
+var BLK = []; (function () { for (var i = 0; i < 30; i++) { var c = i % 5, r = Math.floor(i / 5);
+  BLK.push([(c - 2) * .36 + (h1(i * 8.3) - .5) * .035, (r - 2.5) * .3 + (h1(i * 3.9) - .5) * .028, .18 * (.8 + .3 * h1(i * 2.3 + .4)), .15 * (.7 + .36 * h1(i * 5.7 + 1.1)), (h1(i * 6.1 + 2) - .5) * .09, h1(i * 1.9) > .5 ? 1 : -1]); } })();
+function blockAt(i, pz) {                     // where block i is when it is pz of the way into place (1 = resting against the window)
+  var b = BLK[i], l = 1 - pz, sc = 1 + .32 * l;
+  return [b[0] + b[5] * l * .09, b[1] + Math.pow(l, 1.4) * .5, b[2] * sc, b[3] * sc, b[4] + b[5] * l * .32];
+}
+function blocks(S, bk) {
+  var P = S.bkp = shots._bkp || (shots._bkp = new Float32Array(120)), Q = S.bkq = shots._bkq || (shots._bkq = new Float32Array(60)), i;
+  for (i = 0; i < 30; i++) { var g = blockAt(i, bk[i]); P[i * 4] = S.lx + g[0]; P[i * 4 + 1] = S.ly + g[1]; P[i * 4 + 2] = g[2]; P[i * 4 + 3] = g[3]; Q[i * 2] = bk[i]; Q[i * 2 + 1] = g[4]; }
+}
 function bkLeave(n) { return n < 3 ? w4.t0 + .8 + n * 1.5 : bkGo + (n - 3) / 26 * (PK3 - .15 - bkGo); }   // when the n-th block lifts
 var THR = function (seed) { var o = [], j, a0 = TAU * h1(seed * 3.3), st = (h1(seed * 7.1) - .5) * 1.5; for (j = 0; j < 8; j++) { var r = (j ? (FRr[j - 1] + FRr[j]) / 2 : .16) * LS5 / 1.0, an = a0 + j * st + (h1(seed * 1.7 + j * 5.3) - .5) * .7; o.push(Math.cos(an) * r, Math.sin(an) * r); } return o; };
 var K11 = null, K11key = '';
@@ -174,15 +209,15 @@ var dimK = track([[0, .78], [1.2, 1, E.io]]);
 
 function dlog(f, t) { var h = 1 / 240; return (Math.log(f(t + h)) - Math.log(f(t - h))) / (2 * h); }
 
-var MK0 = new Float32Array(27), BK0 = new Float32Array(30), TH0 = new Float32Array(16);
+var MK0 = new Float32Array(30), BKP0 = new Float32Array(120), BKQ0 = new Float32Array(60), TH0 = new Float32Array(16), TRA0 = new Float32Array(24), TRB0 = new Float32Array(24), LIM0 = [0, 0, 0, 0];
 function Cn(slug, n) { var k = 0; for (var i = 0; i < D.caps.length; i++) if (D.caps[i].slug === slug && k++ === n) return D.caps[i]; throw new Error('no caption ' + slug + ' #' + n); }
 var S0 = { zoom: 1, rot: 0, camx: 0, camy: 0, pt: 0, orig: 0, core: 0, logo: 0, emb: 0, words: 2, reveal: 2, front: 0, title: 0, spin: 0, dim: 1, hole: .108, rings: 1, poolr: 1, poolg: 0,
-  mkr: 0, bka: 0, thn: 0, tha: 0, patc: 0, lineh: 0, lineha: 0, linev: 0, lineva: 0, ls: 3.2, ring0: 0, lrev: 2, logok: 1, gen: 0, gena: 0, genlit: -9, frontl: 0, frontla: 0, patr: 0, pata: 0, gt: null, origx: 0, origy: 0, origk: 1, ringa: 0, ringr: 10.5, ringn: 0, ringhi: -9, ringdim: 1, motes: 0, cxf: .5, light: 0, lsize: .16, lx: 0, ly: 0, orba: 0, orbr: 0, orb: 0, glint: 0, stars: 0, dust: 0, streak: 0, bloom: .7, rays: 0, ca: 0, vig: .5, grain: .045, expo: 1, fade: 1, ripx: 0, ripy: -1.6, ripr: 0, ripa: 0, poolk: 1 };
+  mkr: 0, mkl: 0, glass: 0, glw: 0, bka: 0, thn: 0, tha: 0, patc: 0, lineh: 0, lineha: 0, linev: 0, lineva: 0, ls: 3.2, ring0: 0, lrev: 2, logok: 1, gen: 0, gena: 0, genlit: -9, frontl: 0, frontla: 0, patr: 0, pata: 0, gt: null, origx: 0, origy: 0, origk: 1, ringa: 0, ringr: 10.5, ringn: 0, ringhi: -9, ringdim: 1, motes: 0, cxf: .5, light: 0, lsize: .16, lx: 0, ly: 0, orba: 0, orbr: 0, orb: 0, glint: 0, stars: 0, dust: 0, streak: 0, bloom: .7, rays: 0, ca: 0, vig: .5, grain: .045, expo: 1, fade: 1, ripx: 0, ripy: -1.6, ripr: 0, ripa: 0, poolk: 1 };
 
 function Z0() { var d = F.dims(); return Math.max(.8, d.H * (1 - d.CYF) / (2.84 * d.U) * 1.08); }
 var shots = F.shots = { tau: 0, tau0: 20, rip: null };
 shots.state = function (t, S) {
-  var k; for (k in S0) S[k] = S0[k]; S.mk = MK0; S.bk = BK0; S.th = TH0;
+  var k; for (k in S0) S[k] = S0[k]; S.mk = MK0; S.bkp = BKP0; S.bkq = BKQ0; S.th = TH0; S.tra = TRA0; S.trb = TRB0; S.lim = LIM0;
   var rm = F.RM ? .2 : 1;
   if (t < 0) {                             // the entry screen: a living emblem, driven by wall time tau
     var a = shots.tau;
@@ -245,7 +280,7 @@ shots.state = function (t, S) {
       for (k6 = 7; k6 >= 0; k6--) if (t >= invT[k6][0]) break; if (k6 >= 0) { var u6 = (t - invT[k6][0]) / invT[k6][1]; if (u6 < 1.15) { S.patr = FRr[k6]; S.pata = u6 < .5 ? Math.min(1, u6 / .12) : lerp(1, .35, sm((u6 - .5) / .2)) * (1 - sm((u6 - 1) / .15)); S.patc = sm((u6 - .46) / .1); } }
     }
     if (t >= T4a - .3 && t < T4c + .6) {       // table 4: the mirror
-      var inPairs = t < T4b; S.lineha = Math.min(1, (t - T4a + .3) / .8) * (inPairs ? 1 : 1 - sm((t - T4b) / .5)); S.lineh = 0;
+      var inPairs = t < T4b; S.lineha = Math.min(1, (t - T4a + .3) / .8) * (inPairs ? 1 : 1 - sm((t - T4b) / .5)); S.lineh = 0; S.glass = S.lineha; S.glw = F.dims().PORT ? .085 : .075;   // the glass: a real lens of thickness glw
       S.lineva = 0; S.linev = 0; S._lk = inPairs ? .7 : lerp(.7, .3, sm((t - T4b) / .6));
     }
     for (k6 = 0; k6 < 5; k6++) {               // table 5: the promise, and then the noose
@@ -268,12 +303,12 @@ shots.state = function (t, S) {
       var dz = depth(t), ph = (dz * .55) % 1; S.patr = .05 * Math.exp(4.6 * ph) / z7; S.pata = Math.sin(Math.PI * ph) * .5 * (1 - sm((t - d4.t0) / 3)); S.patc = sm((dz - 18) / 20); S._fall = 1;
     }
     if (t >= tr0.t0) {                          // the markers left by those who walked it before
-      var mk = S.mk = shots._mk || (shots._mk = new Float32Array(27)), pr = F.dims().PORT, rr = pr ? .7 : .62, all = sm((t - sk2.t0) / 1.2);
+      var mk = S.mk = shots._mk || (shots._mk = new Float32Array(30)), pr = F.dims().PORT, rr = pr ? .7 : .62, all = sm((t - sk2.t0) / 1.2);
       for (var m7 = 0; m7 < 9; m7++) { var an7 = TAU * (m7 / 9) , on = sm((t - mkT[m7]) / .9); mk[m7 * 3] = S.lx * 0 + Math.sin(an7) * rr; mk[m7 * 3 + 1] = Math.cos(an7) * rr; mk[m7 * 3 + 2] = on * (.55 + .5 * all + .12 * Math.sin(t * 1.3 + m7)); }
     }
   }
   if (t >= YR[0].t0 - .5) {                  // section 9: you're right
-    var pr9 = F.dims().PORT, rr9 = (pr9 ? .7 : .62) * (1 - E.io((t - wd.t0) / (ds.t1 - wd.t0 + 1))), mk9 = S.mk = shots._mk || (shots._mk = new Float32Array(27)), pl = 0, pi9;
+    var pr9 = F.dims().PORT, rr9 = (pr9 ? .7 : .62) * (1 - E.io((t - wd.t0) / (ds.t1 - wd.t0 + 1))), mk9 = S.mk = shots._mk || (shots._mk = new Float32Array(30)), pl = 0, pi9;
     for (pi9 = 0; pi9 < pulseT.length; pi9++) { var up = (t - pulseT[pi9]) / 1.5; if (up > 0 && up < 1) { S.patr = lerp(.1, 2.4, E.out2(up)) / S.zoom; S.pata = Math.pow(1 - up, 1.6) * .8; S.patc = 0; pl = Math.max(pl, Math.pow(1 - up, 2)); } }
     for (var m9 = 0; m9 < 9; m9++) { var a9 = TAU * (m9 / 9); mk9[m9 * 3] = Math.sin(a9) * rr9; mk9[m9 * 3 + 1] = Math.cos(a9) * rr9; mk9[m9 * 3 + 2] = t < ds.t1 + 1 ? (.9 + .6 * pl) * (rr9 > .02 ? 1 : 0) : 0; }
     S._warm = (S._warm || 0) + .5 * pl + .5 * sm((t - wd.t0) / 8); S._lk = lsize78(t) * (1 + .12 * pl + .25 * sm((t - wd.t0) / 8));
@@ -281,18 +316,21 @@ shots.state = function (t, S) {
   if (t >= bkOn) {                            // section 10: the window
     var bk = S.bk = shots._bk || (shots._bk = new Float32Array(30)), nb10;
     for (nb10 = 0; nb10 < 30; nb10++) { var on10 = sm((t - bkOn - h1(nb10 * 4.1) * 2.2) / 1.1), off10 = sm((t - bkLeave(nb10)) / .9); bk[BORD[nb10]] = on10 * (1 - off10); }
+    blocks(S, bk);
+    var capK = sm((t - bkOn + 1.6) / 1.4) * (1 - sm((t - x1.t0 + 2.6) / 1.5));          // the light may spread under the words: the finish pass caps it there instead of a dark pool
+    S.lim = shots._lim || (shots._lim = [0, 0, 0, 0]); S.lim[0] = F.dims().PORT ? .5 : .4; S.lim[1] = F.dims().PORT ? .66 : .585; S.lim[2] = .34; S.lim[3] = capK; S.poolk = 1 - capK;
     S.bka = t < PK3 + 2 ? 1 : 0; var open = sm((t - bkGo) / (PK3 - bkGo)), fl = sm((t - PK3 + .2) / 1.6) * (1 - sm((t - mof.t1 - 1) / 5));
     S._li = 2.3 + 1.2 * open; S._st = .3; S._lk = 5.5 + 1.5 * open + 1.6 * fl * fl; S._warm = .4 * open + .9 * fl; S.expo = 1 + .08 * fl; S.bloom = .8 + .5 * open; S._rays = .9 + 1.4 * open;
     if (t >= PK3 + 2) { var cal = sm((t - PK3 - 2) / 7); S._li = lerp(2.4, 1.4, cal); S._lk = lerp(6.6, 2.1, cal); S._rays = .9; }
   }
   if (t >= x1.t0 - 1) {                       // section 11: the map, the chains, the giving
-    var c11 = cam11(t), th, lk = shots._mk || (shots._mk = new Float32Array(27)), j11;
+    var c11 = cam11(t), th, lk = shots._mk || (shots._mk = new Float32Array(30)), j11;
     S._c3 = [0, c11[1], c11[2], c11[3]]; S.zoom = c11[1]; S.rot = c11[4]; S.bka = 0; S.ls = LS5; S.ring0 = 1; S.origy = 0; S.hole = .108; S.expo = 1; S.bloom = .7;
     S.orig = 1; S.reveal = lerp(.1, .92, E.film((t - x1.t0) / 5.5)); S.front = t < x1.t0 + 6 ? .7 * sm((t - x1.t0) / .5) * (1 - sm((t - x1.t0 - 5) / 1)) : 0;
     S.logo = S.emb = t >= x3.t0 - .2 ? 1 : 0; S.lrev = lerp(0, 1.06, E.out2((t - x3.t0) / 5.5)); S.frontl = S.lrev; S.frontla = t >= x3.t0 && t < x3.t0 + 6.4 ? sm((t - x3.t0) / .4) * (1 - sm((t - x3.t0 - 5.4) / 1)) : 0;
     var fin = sm((t - z2.t0) / 5), inner = sm((t - y1.t0) / 5) * (1 - fin), md = lerp(1, 0, sm(inner * 1.6));
     S.origk = md; S.logok = md; S.ringa = t >= z2.t0 - .5 ? 1 : 0; S.ringn = 30; S.ringdim = 1.1; S.ringhi = t >= z3.t0 ? ((t - z3.t0) * 3.2) % 30 : -9; S._li = lerp(1.2, 1.5, inner); S._st = lerp(.6, .35, inner); S._lk = lerp(.75, 1.5, inner) * lerp(1, .55, fin); S._rays = .5;
-    S.mk = lk; for (j11 = 0; j11 < 27; j11++) lk[j11] = 0;
+    S.mk = lk; for (j11 = 0; j11 < 30; j11++) lk[j11] = 0;
     if (t >= x6.t0 - .2 && t < y1.t0 + 2) {     // the combinations: threads through the rings
       var seed = 1, prog = 7, al = 1;
       if (t < x7.t0) { prog = 0; al = sm((t - x6.t0) / .6); }
@@ -303,10 +341,10 @@ shots.state = function (t, S) {
       th = S.th = shots._th || (shots._th = new Float32Array(16)); var nodes = THR(seed); for (j11 = 0; j11 < 16; j11++) th[j11] = nodes[j11]; S.thn = prog; S.tha = al; shots._seed = seed;
     }
     if (t >= y2.t0 && t < z1.t0) {              // the chain: nine links around the light
-      var born = function (n) { return n < 3 ? MB[0].t0 + n * 3 : n < 6 ? MB[1].t0 + (n - 3) * 3.2 : MB[2].t0 + (n - 6) * 3.4; }, sink = E.io((t - y3.t0) / 4.5), back = E.out2((t - y6.t0 - .5) / 3), brk = sm((t - y7.t0 - 1.2) / 1.2), burst = E.out3((t - y9.t0 - 2.2) / 2.4);
+      var born = function (n) { return n < 3 ? MB[0].t0 + n * 3 : n < 6 ? MB[1].t0 + (n - 3) * 3.2 : MB[2].t0 + (n - 6) * 2.9; }, sink = E.io((t - y3.t0) / 4.5), back = E.out2((t - y6.t0 - .5) / 3), brk = sm((t - y7.t0 - 1.2) / 1.2), burst = E.out3((t - y9.t0 - 2.2) / 2.4);
       var tight = sm((t - y4.t0) / 40), pr11 = F.dims().PORT, R0 = pr11 ? .4 : .46, beat = .5 + .5 * Math.sin(t * 1.9);
-      S.mkr = lerp(.17, .1, t < y6.t0 ? Math.max(sink * .6, tight) : 1 - back * .4);
-      for (j11 = 0; j11 < 9; j11++) { var ang = TAU * j11 / 9 + t * .05, base = t < y4.t0 ? R0 * (1 - sink * .55) : t < y6.t0 ? R0 * lerp(.45, .3, tight) : R0 * lerp(.3, 1, back), rad = base + (j11 === 4 ? brk * 2.6 : 0) + (t >= y9.t0 + 2.2 ? burst * 3 : 0),
+      var base0 = t < y4.t0 ? R0 * (1 - sink * .55) : t < y6.t0 ? R0 * lerp(.45, .34, tight) : R0 * lerp(.34, 1, back); S.mkl = 1; S.mkr = base0 * TAU / 10 * .36;
+      for (j11 = 0; j11 < 10; j11++) { var ang = TAU * j11 / 10 + t * .05, base = t < y4.t0 ? R0 * (1 - sink * .55) : t < y6.t0 ? R0 * lerp(.45, .34, tight) * (1 - .05 * beat * tight) : R0 * lerp(.34, 1, back), rad = base + (j11 === 4 ? brk * 2.6 : 0) + (t >= y9.t0 + 2.2 ? burst * 3 : 0),
           on = t < y3.t0 ? sm((t - born(j11)) / 1.2) : t < y6.t0 ? lerp(1, .42 + .12 * beat, sink) : (j11 === 4 ? 1 - brk : 1) * (1 - sm((burst - .5) / .5));
         lk[j11 * 3] = Math.sin(ang) * rad; lk[j11 * 3 + 1] = Math.cos(ang) * rad; lk[j11 * 3 + 2] = on * (t < y6.t0 ? .8 : 1); }
       if (t >= y4.t0 && t < y7.t0 + 1.2) { S._lk *= lerp(1, .6, tight); S._li *= lerp(1, .68, tight); }
@@ -334,7 +372,7 @@ shots.state = function (t, S) {
   if (S._c3) { S.camx += S._c3[2]; S.camy += S._c3[3]; S.lx = -S.camx * S.zoom; S.ly = -S.camy * S.zoom; S._c3 = null; }
   if (S._lo) { S.lx += S._lo; S.ly += S._lo * .18; S._lo = 0; }
   var fo = follow(t); if (fo > 0) { S.camx += Math.cos(S.orba) * S.orbr * fo; S.camy += Math.sin(S.orba) * S.orbr * fo; }
-  var wa = wander(t); if (wa > 0) { S.lx = wa * (F.dims().PORT ? .3 : .22) * Math.sin(t * .052 + .6); S.ly = wa * .24 * Math.sin(t * .081 + 2.1); }
+  if (t >= T1 && t < c2.t0) { var p1 = path1(t); S.lx = p1[0]; S.ly = p1[1]; trail1(t, S); }
   if (!F.dims().PORT) S.cxf = lerp(.5, .31, cxfK(t));
   if (!F.dims().PORT && fo > 0) { S.zoom *= lerp(1, 1.42 / TOURZ, fo / .78); S.camx += .2 * fo; }
   return S;
@@ -410,10 +448,10 @@ function section7(t, S, d) {
   }
 }
 function section10(t, S, d) {
-  var cx = d.W * S.cxf + S.lx * d.U, cy = d.H * d.CYF - S.ly * d.U, U = d.U, i, bk = S.bk, sz = U * .043;
-  for (i = 0; i < 30; i++) { var pz = bk[i]; if (pz < .03) continue; var col = i % 5, row = Math.floor(i / 5), bx = cx + (col - 2) * .36 * U, by = cy - (row - 2.5) * .3 * U - (1 - pz) * .4 * .3 * U, lines = wrapText(PAIRS[i][1], 13), j, s = sz;
-    for (j = 0; j < lines.length; j++) s = Math.min(s, fit(lines[j], sz, .3 * U));
-    for (j = 0; j < lines.length; j++) F.text(lines[j], bx, by + s * (.35 + (j - (lines.length - 1) / 2) * 1.15), s, [.6, .63, .7, pz * .75]); }
+  var U = d.U, i, bk = S.bk, P = S.bkp, sz = Math.max(d.PORT ? 10 : 12, U * .05);
+  for (i = 0; i < 30; i++) { var pz = bk[i]; if (pz < .03) continue; var g = blockAt(i, pz), bx = d.W * S.cxf + P[i * 4] * U, by = d.H * d.CYF - P[i * 4 + 1] * U, rot = g[4], lines = wrapText(PAIRS[i][1], 13), j, s = sz * (1 + .32 * (1 - pz)), cs = Math.cos(rot), sn = Math.sin(rot);
+    for (j = 0; j < lines.length; j++) s = Math.max(d.PORT ? 9.5 : 12, Math.min(s, fit(lines[j], s, g[2] * 2 * U * (d.PORT ? .96 : .86))));
+    for (j = 0; j < lines.length; j++) { var oy = s * (.35 + (j - (lines.length - 1) / 2) * 1.15); F.text(lines[j], bx - oy * sn, by + oy * cs, s, [.96, .93, .86, Math.pow(pz, 1.5)], { rot: rot, soft: (1 - pz) * 1.5, small: d.PORT }); } }
 }
 var TNAME = ['', 'The Debt Prison', 'The Golden Cage', 'The Trauma Bond Engine'];
 function section11(t, S, d) {
@@ -423,8 +461,14 @@ function section11(t, S, d) {
 function section8(t, S, d) {
   var cx = d.W * S.cxf, cy = d.H * d.CYF, U = d.U, rr = d.PORT ? .7 : .62, i, j, a, sz = Math.max(12, U * .064);
   for (i = 0; i < 9; i++) { a = sm((t - mkT[i] - .3) / .8); if (a <= 0) continue; var an = TAU * (i / 9), mx = cx + Math.sin(an) * rr * U, my = cy - Math.cos(an) * rr * U, sd = Math.sin(an), cs = Math.cos(an), lines = wrapText(TERMS[i], 13), n = lines.length;
-    for (j = 0; j < n; j++) { var w = F.measure(lines[j], sz, sz * .12), al = sd > .2 ? -1 : sd < -.2 ? 1 : 0, lx = al < 0 ? Math.min(mx + sz, d.W - 16 - w) : al > 0 ? Math.max(mx - sz, 16 + w) : mx, ly = (al ? my + sz * .35 + (cs < -.3 ? sz * 1.1 : cs > .3 ? -sz * .9 : 0) : my - sz * 1.2 - (n - 1) * sz * 1.2) + j * sz * 1.2 - (al ? (n - 1) * sz * .6 : 0);
-      F.text(lines[j], lx, ly, sz, [1, .88, .62, a * .95], { align: al, track: sz * .12 }); } }
+    var wm = 0; for (j = 0; j < n; j++) wm = Math.max(wm, F.measure(lines[j], sz, sz * .12));
+    var al = sd > .2 ? -1 : sd < -.2 ? 1 : 0, room = al < 0 ? d.W - 16 - (mx + sz) : al > 0 ? mx - sz - 16 : 1e9, top = cs > -.3;
+    if (room < wm) al = 2;                      // no room beside the marker: the label sits above it (or below, in the lower half), never over it
+    if (F.rec) F.rec.push({ s: '', dot: 1, x: mx, y: my, size: 14, a: a, al: 0, w: 14, rot: 0, soft: 0 });
+    for (j = 0; j < n; j++) { var w = F.measure(lines[j], sz, sz * .12), lx, ly;
+      if (al === 2) { lx = clamp(mx, 16 + wm / 2, d.W - 16 - wm / 2); ly = top ? my - sz * 1.15 - (n - 1 - j) * sz * 1.2 : my + sz * 1.9 + j * sz * 1.2; }
+      else { lx = al < 0 ? Math.min(mx + sz, d.W - 16 - w) : al > 0 ? Math.max(mx - sz, 16 + w) : mx; ly = (al ? my + sz * .35 + (cs < -.3 ? sz * 1.1 : cs > .3 ? -sz * .9 : 0) : my - sz * 1.2 - (n - 1) * sz * 1.2) + j * sz * 1.2 - (al ? (n - 1) * sz * .6 : 0); }
+      F.text(lines[j], lx, ly, sz, [1, .88, .62, a * .95], { align: al === 2 ? 0 : al, track: sz * .12 }); } }
 }
 function section6(t, S, d) {
   var c = F.w2s(0, 0, S), cx = c[0], cy = c[1], U = d.U, mw = Math.min(d.W * .86, d.PORT ? d.W : d.W * .54), i, u, a, sz;
@@ -440,7 +484,7 @@ function section6(t, S, d) {
   }
   if (t < T4b) {                               // table 4: gold meets its reflection at the glass
     for (i = 29; i >= 0; i--) if (t >= pairT[i][0]) break; if (i < 0) return; u = (t - pairT[i][0]) / pairT[i][1];
-    var ap = (1 - E.out3(Math.min(1, u / .42))) * U * .42, gap = U * .13, turn = sm((u - .52) / .26), en = Math.min(1, u / .16), ex = 1 - sm((u - .86) / .14), g0 = PAIRS[i][0], g1 = PAIRS[i][1];
+    var ap = (1 - E.out3(Math.min(1, u / .42))) * U * .42, gap = U * .035, turn = sm((u - .52) / .26), en = Math.min(1, u / .16), ex = 1 - sm((u - .86) / .14), g0 = PAIRS[i][0], g1 = PAIRS[i][1];
     if (!section6.sz || section6.key !== d.W) { section6.sz = U * .2; for (var pi = 0; pi < 30; pi++) section6.sz = Math.min(section6.sz, fit(PAIRS[pi][0], U * .2, mw), fit(PAIRS[pi][1], U * .2, mw)); section6.key = d.W; }
     sz = section6.sz;
     F.text(g0, cx, cy - gap - ap, sz, [1, .84, .52, en * (1 - turn) * ex], { soft: turn * .8 });
