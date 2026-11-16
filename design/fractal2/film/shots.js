@@ -323,7 +323,7 @@ shots.state = function (t, S) {
     for (nb10 = 0; nb10 < 30; nb10++) { var on10 = sm((t - bkOn - h1(nb10 * 4.1) * 2.2) / 1.1), off10 = sm((t - bkLeave(nb10)) / .9); bk[BORD[nb10]] = on10 * (1 - off10); }
     blocks(S, bk);
     var capK = sm((t - bkOn + 1.6) / 1.4) * (1 - sm((t - x1.t0 + 2.6) / 1.5));          // the light may spread under the words: the finish pass caps it there instead of a dark pool
-    S.lim = shots._lim || (shots._lim = [0, 0, 0, 0]); S.lim[0] = F.dims().PORT ? .5 : .4; S.lim[1] = F.dims().PORT ? .66 : .585; S.lim[2] = .34; S.lim[3] = capK; S.poolk = 1 - capK;
+    S.lim = shots._lim || (shots._lim = [0, 0, 0, 0]); S.lim[0] = F.dims().PORT ? .68 : .4; S.lim[1] = F.dims().PORT ? .735 : .585; S.lim[2] = .34; S.lim[3] = capK; S.poolk = 1 - capK;
     S.bka = t < PK3 + 2 ? 1 : 0; var open = sm((t - bkGo) / (PK3 - bkGo)), fl = sm((t - PK3 + .2) / 1.6) * (1 - sm((t - mof.t1 - 1) / 5));
     S._li = 2.3 + 1.2 * open; S._st = .3; S._lk = 5.5 + 1.5 * open + 1.6 * fl * fl; S._warm = .4 * open + .9 * fl; S.expo = 1 + .08 * fl; S.bloom = .8 + .5 * open; S._rays = .9 + 1.4 * open;
     if (t >= PK3 + 2) { var cal = sm((t - PK3 - 2) / 7); S._li = lerp(2.4, 1.4, cal); S._lk = lerp(6.6, 2.1, cal); S._rays = .9; }
