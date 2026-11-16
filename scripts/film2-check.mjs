@@ -47,7 +47,7 @@ for (const pr of PROFILES) {
   const shot = async (t, name, hideCaps) => { await p.evaluate(([t, h]) => { FILM.seek(t); document.querySelectorAll('.cap').forEach(e => e.style.visibility = h ? 'hidden' : ''); }, [t, hideCaps]); await p.evaluate(() => new Promise(r => requestAnimationFrame(() => requestAnimationFrame(() => setTimeout(r, 30))))); const f = `${out}/${pr.name}-${name}.png`; await p.screenshot({ path: f }); return f; };
   const hash = f => crypto.createHash('sha1').update(fs.readFileSync(f)).digest('hex');
   // same time, same frame
-  const times = [-20, 1.2, 30, 86.5, 125, 141, 160, 192, 207, 226, 242.5, 268, 316, 336, 352, 357].filter(t => t < upto);
+  const times = [-20, 1.2, 30, 86.5, 125, 141, 160, 192, 207, 226, 242.5, 268, 316, 336, 352, 357, 388, 415, 427, 446, 460, 482, 500].filter(t => t < upto);
   let same = true, which = '';
   for (const t of times) { const fa = await shot(t, 'det-a'); await p.evaluate(() => FILM.seek(55)); await p.waitForTimeout(30); const fb = await shot(t, 'det-b');
     if (hash(fa) !== hash(fb)) { const dmax = Number(py(`

@@ -11,10 +11,10 @@ A = '/fractal2/_a/'
 BAR = 1.6
 SRC = 'content/fractal2/intro-v16.md'
 # extra silence before a caption (seconds): room for the picture to act alone
-PRE = {'why-do-i-keep': 1.6, 'it-must-be-me': 1.4, 'what-if-it-isnt': 2.2, 'i-wrote-it-down': .3, 'idealize': 1.2,
+PRE = {'you-are-loved-and': 17.0, 'why-do-i-keep': 1.6, 'it-must-be-me': 1.4, 'what-if-it-isnt': 2.2, 'i-wrote-it-down': .3, 'idealize': 1.2,
        'thirty-techniques-carried-a': 1.6, 'i-thought-i-had': 6.0, 'i-had-only-found': 1.4}
 FIRST = 4.4                                      # the launch plays before the first word
-TAIL = {2: 3.5, 3: 2.0}                          # seconds kept clear at the end of a section for picture alone
+TAIL = {2: 3.5, 3: 2.0, 6: 17.5}                          # seconds kept clear at the end of a section for picture alone
 BIG = {'why-do-i-keep', 'what-if-it-isnt', 'it-must-be-me', 'i-am-still-looking', 'my-original-frequency', 'that-is-the-fractal', 'now-the-map-is', 'it-made-me-who'}
 SPLIT = {'idealize-hook-devalue-confuse'}        # one caption per word
 MARKS = {'STOP': 'start', 'PEAK1': 'end', 'PEAK2': 'end', 'PEAK3': 'end'}
@@ -35,6 +35,13 @@ def groups(t):
             out.append(' '.join(cur)); cur = []
     if cur: out.append(' '.join(cur))
     return out
+
+def qn(gs):
+    """how many leading phrase groups belong to an opening quotation"""
+    if not gs or not gs[0].startswith('\u201c'): return 0
+    for i, g in enumerate(gs):
+        if '\u201d' in g: return i + 1
+    return 0
 
 def sentences(par):
     """one caption per sentence; very short neighbours share a caption; very long sentences break at a comma"""
@@ -137,11 +144,12 @@ def main():
     chapters = [{'n': n, 'title': titles[n], 't': round(SEC[n], 3)} for n in sorted(titles)]
     data = {
         'dur': dur, 'bar': BAR, 'marks': marks,
-        'caps': [{'t0': c['t0'], 't1': c['t1'], 'say': c['say'], 'out': c['out'], 'g': [html.escape(g, quote=False) for g in groups(c['text'])], 'big': c['big'], 'locked': c['locked'], 'long': len(c['text'].split()) > 13, 'sec': c['sec'], 'n': len(c['text'].split()), 'need': c['need'], 'slug': c['slug']} for c in caps],
+        'caps': [{'t0': c['t0'], 't1': c['t1'], 'say': c['say'], 'out': c['out'], 'g': [html.escape(g, quote=False) for g in groups(c['text'])], 'qn': qn(groups(c['text'])), 'big': c['big'], 'locked': c['locked'], 'long': len(c['text'].split()) > 13, 'sec': c['sec'], 'n': len(c['text'].split()), 'need': c['need'], 'slug': c['slug']} for c in caps],
         'capId': {}, 'chapters': chapters,
         'assets': {'orig': [A + 'v8/img/orig.webp', A + 'v8/img/orig-m.webp'], 'core': [A + 'v8/img/orig-core.webp', A + 'v8/img/orig-core-m.webp'],
                    'logo': [A + 'v8/img/logo.webp', A + 'v8/img/logo-m.webp'], 'emb': [A + 'v8/img/emblem.webp', A + 'v8/img/emblem-m.webp'], 'font': [A + 'film/voice-msdf.png']},
         'sectors': [{'name': x['name'], 'relationship': x['relationship']} for x in json.load(open(os.path.join(ROOT, 'content/fractal2/sectors.json')))['sectors']],
+        'tables': json.load(open(os.path.join(HERE, 'tables.json'))),
         'first': ['font', 'logo', 'orig', 'core'], 'later': ['emb'], 'audio': None, 'font': font(),
     }
     for i, c in enumerate(data['caps']): data['capId'].setdefault(c['slug'], i)

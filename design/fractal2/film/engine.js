@@ -93,7 +93,7 @@ var COMMON = '#version 300 es\nprecision highp float;\n' +
 var FS_SCENE = COMMON + [
 'uniform vec2 uRes,uCtr,uCam,uLS;uniform float uUnit,uZoom,uRot,uT,uPT;',
 'uniform sampler2D tOrig,tCore,tLogo,tEmb;',
-'uniform float uOrigA,uCoreA,uLogoA,uEmbA,uWords,uReveal,uFront,uTitle,uSpin,uDim,uOrigK,uRingDim;uniform vec2 uOrigP;uniform vec4 uRing;uniform float uRing0,uLRev,uLogoK,uLH;uniform vec4 uGen;uniform vec2 uFrontL,uPat;',
+'uniform float uOrigA,uCoreA,uLogoA,uEmbA,uWords,uReveal,uFront,uTitle,uSpin,uDim,uOrigK,uRingDim;uniform vec2 uOrigP;uniform vec4 uRing;uniform float uRing0,uLRev,uLogoK,uLH;uniform vec4 uGen;uniform vec2 uFrontL,uPat,uLineH,uLineV;uniform float uPatC;',
 'uniform vec3 uLight;uniform vec4 uOrb;uniform float uMotes,uGlint,uStars,uDust,uStreak,uHole,uRingS,uPoolR,uPoolK;',
 'in vec2 v;out vec4 o;',
 'const float FR[8]=float[8](.207,.296,.38,.462,.547,.624,.713,.829);',
@@ -134,7 +134,9 @@ var FS_SCENE = COMMON + [
 '  col=mix(mix(sky,vec3(.012,.014,.022),min(1.,uOrigA+uLogoA+uEmbA)),col,hole);',
 '  if(uPoolK>0.)col*=mix(1.-uPoolK,1.,smoothstep(uPoolR*.35,uPoolR,length(q)));',
 '  col*=uDim;',
-'  if(uPat.y>0.){float dP=(r-uPat.x)/(px*2.4+uPat.x*.004);col+=gold*(exp(-dP*dP)*1.+exp(-dP*dP/50.)*.2)*uPat.y;}',
+'  if(uPat.y>0.){float dP=(r-uPat.x)/(px*2.4+uPat.x*.004);col+=mix(gold,vec3(.6,.65,.76),uPatC)*(exp(-dP*dP)*1.+exp(-dP*dP/50.)*.2)*uPat.y;}',
+'  if(uLineH.y>0.){float dL=(q.y-uLineH.x)*uUnit/1.3;col+=vec3(.8,.86,1.)*(exp(-dL*dL)*.9+exp(-dL*dL/90.)*.12)*uLineH.y*smoothstep(1.9,.5,abs(q.x));}',
+'  if(uLineV.y>0.){float dL=(q.x-uLineV.x)*uUnit/1.3;col+=vec3(.8,.86,1.)*(exp(-dL*dL)*.7+exp(-dL*dL/90.)*.08)*uLineV.y*smoothstep(2.6,1.2,abs(q.y+.4));}',
 '  if(uFront>0.){float dF=(r-uReveal)/(px*2.2);col+=gold*(exp(-dF*dF)*.85+exp(-dF*dF/60.)*.16)*uFront;}',
 '  if(uGlint>0.){vec2 L=uOrb.y*vec2(cos(uOrb.x),sin(uOrb.x));float g=0.;',
 '    for(int i=0;i<8;i++){float dd=(r-FR[i]*uRingS)/(px*1.6);g+=exp(-dd*dd)+exp(-dd*dd/40.)*.22;}',
@@ -264,7 +266,7 @@ function shape(str) {                       // glyph positions in font units, ca
   return (TXT.cache[str] = { g: g, w: x });
 }
 /* text(str, x, y, sizePx, [r,g,b,a], opt): x,y in CSS px (screen). opt: align -1|0|1, soft, rot, track (px), fx(i,n,o) per glyph */
-var fxo = { dx: 0, dy: 0, a: 1, s: 1, soft: 0 };
+var fxo = { dx: 0, dy: 0, a: 1, s: 1, sy: 1, soft: 0 };
 function text(str, x, y, size, col, opt) {
   opt = opt || {};
   var sp = shape(str), k = size / FONT.size, tr = opt.track || 0, n = sp.g.length, i, g, gx, gy, w, h, o;
@@ -274,10 +276,10 @@ function text(str, x, y, size, col, opt) {
     if (TXT.n >= TXT.max) return tw;
     g = sp.g[i]; w = g[4] * k; h = g[5] * k;
     gx = x0 + g[0] * k + tr * g[6] + w / 2 - x; gy = (g[1] - FONT.base) * k + h / 2;
-    fxo.dx = 0; fxo.dy = 0; fxo.a = 1; fxo.s = 1; fxo.soft = 0; if (opt.fx) opt.fx(i, n, fxo, gx, gy);
+    fxo.dx = 0; fxo.dy = 0; fxo.a = 1; fxo.s = 1; fxo.sy = 1; fxo.soft = 0; if (opt.fx) opt.fx(i, n, fxo, gx, gy);
     if (fxo.a <= .003) continue;
     q = TXT.n * 14;
-    a[q] = (x + gx * cs - gy * sn + fxo.dx) * DPR; a[q + 1] = (y + gx * sn + gy * cs + fxo.dy) * DPR; a[q + 2] = w * fxo.s * DPR; a[q + 3] = h * fxo.s * DPR;
+    gy *= fxo.sy; a[q] = (x + gx * cs - gy * sn + fxo.dx) * DPR; a[q + 1] = (y + gx * sn + gy * cs + fxo.dy) * DPR; a[q + 2] = w * fxo.s * DPR; a[q + 3] = h * fxo.s * fxo.sy * DPR;
     a[q + 4] = g[2] / FONT.w; a[q + 5] = g[3] / FONT.h; a[q + 6] = (g[2] + g[4]) / FONT.w; a[q + 7] = (g[3] + g[5]) / FONT.h;
     a[q + 8] = col[0]; a[q + 9] = col[1]; a[q + 10] = col[2]; a[q + 11] = col[3] * fxo.a;
     a[q + 12] = (opt.soft || 0) + fxo.soft; a[q + 13] = rot;
@@ -324,7 +326,7 @@ function render(t) {
   gl.uniform1f(u.uZoom, S.zoom); gl.uniform1f(u.uRot, S.rot); gl.uniform2f(u.uCam, S.camx, S.camy);
   gl.uniform1f(u.uT, t); gl.uniform1f(u.uPT, S.pt);
   gl.uniform2f(u.uOrigP, S.origx, S.origy); gl.uniform1f(u.uOrigK, S.origk); gl.uniform4f(u.uRing, S.ringa, S.ringr, S.ringn, S.ringhi); gl.uniform1f(u.uRingDim, S.ringdim);
-  gl.uniform1f(u.uLH, S.ls); gl.uniform1f(u.uRing0, S.ring0); gl.uniform1f(u.uLRev, S.lrev); gl.uniform1f(u.uLogoK, S.logok); gl.uniform4f(u.uGen, S.gen, S.gena, S.genlit, 0); gl.uniform2f(u.uFrontL, S.frontl, S.frontla); gl.uniform2f(u.uPat, S.patr, S.pata);
+  gl.uniform1f(u.uLH, S.ls); gl.uniform1f(u.uRing0, S.ring0); gl.uniform1f(u.uLRev, S.lrev); gl.uniform1f(u.uLogoK, S.logok); gl.uniform4f(u.uGen, S.gen, S.gena, S.genlit, 0); gl.uniform2f(u.uFrontL, S.frontl, S.frontla); gl.uniform2f(u.uPat, S.patr, S.pata); gl.uniform1f(u.uPatC, S.patc); gl.uniform2f(u.uLineH, S.lineh, S.lineha); gl.uniform2f(u.uLineV, S.linev, S.lineva);
   gl.uniform1f(u.uOrigA, S.orig); gl.uniform1f(u.uCoreA, S.core); gl.uniform1f(u.uLogoA, S.logo); gl.uniform1f(u.uEmbA, S.emb);
   gl.uniform1f(u.uWords, S.words); gl.uniform1f(u.uReveal, S.reveal); gl.uniform1f(u.uFront, S.front); gl.uniform1f(u.uTitle, S.title);
   gl.uniform1f(u.uSpin, S.spin); gl.uniform1f(u.uDim, S.dim);
@@ -371,7 +373,7 @@ function fallback2d(S) {
 var CAPS = D.caps, capEl = [$('capA'), $('capB')], capCur = [-1, -1], pool = $('pool');
 function capBuild(el, c) {
   var h = '', i, g = c.g;
-  for (i = 0; i < g.length; i++) h += '<span class="g">' + g[i] + '</span>' + (i < g.length - 1 ? ' ' : '');
+  for (i = 0; i < g.length; i++) h += '<span class="g' + (c.qn ? (i < c.qn ? ' q' : ' x') : '') + '">' + g[i] + '</span>' + (i < g.length - 1 ? ' ' : '');
   el.innerHTML = h; el.className = 'cap' + (c.big ? ' big' : '') + (c.long ? ' long' : '');
   el._g = el.querySelectorAll('.g');
 }
