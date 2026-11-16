@@ -496,3 +496,10 @@ Critic suggestions deliberately NOT taken: strip lettering from the original art
 | Round 2 | 4 | 3 | 3 | 3 | 3 | 3 | 4 | 4 | 3 (not judgeable from stills) |
 Round 2 fixes applied after scoring, NOT re-scored: slow push through section 1; sweep light rides the ring gutters, dimmer; desktop tour kept clear of the caption column; caption sizes closer together with breaks that avoid ending on small words; larger footer on a darker band; launch hole widened.
 Left open: section 1 is still one light for a minute (critic: "stock lens-flare star"); ring words overlapping inside the art itself (the art is a raster; cannot be re-set here); continuity can only be judged in motion (MP4 preview).
+
+## Film sections 3-11 and hub, 2026-11-16. Critic: impeccable-finish-reviewer, from frames (one round, fixes not yet applied).
+| Hierarchy | Type | Space | Craft | Distinct | Feeling | Phone | Legibility | Continuity |
+|---|---|---|---|---|---|---|---|---|
+| 3 | 3 | 2 | 3 | 4 | 2 | 3 | 2 | 3 |
+Top fixes named: (1) 870-1050 s is one dim ring and light for about three minutes: the chain needs to be gold links at 35-40% of the width, one per named belief, and the map art lifted or removed; (2) the held table of thirty pairs is 13 px: show six at a time at 22 px or more; (3) table 3 words cross the ring and the map lettering, "becomes" is tiny, and the stage word is missing from some frames; (4) words in the fall pile on each other and run under the caption; (5) marker labels collide and are 10 px; (6) desktop: captions touch the ring at two points, the window's light is cut off near the caption column.
+Weakest section: 11, from 870 to 1050 s. Hub: a CSS gradient stands in for the map art, numerals about 6 px on phones, body face differs from the film.
