@@ -150,6 +150,7 @@ def main():
                    'logo': [A + 'v8/img/logo.webp', A + 'v8/img/logo-m.webp'], 'emb': [A + 'v8/img/emblem.webp', A + 'v8/img/emblem-m.webp'], 'font': [A + 'film/voice-msdf.png']},
         'sectors': [{'name': x['name'], 'relationship': x['relationship']} for x in json.load(open(os.path.join(ROOT, 'content/fractal2/sectors.json')))['sectors']],
         'tables': json.load(open(os.path.join(HERE, 'tables.json'))),
+        'tactics': [x['n'] for x in json.load(open(os.path.join(SITE, '_a/d/ent-search.json'))) if x['t'] == 't'],
         'first': ['font', 'logo', 'orig', 'core'], 'later': ['emb'], 'audio': None, 'font': font(),
     }
     for i, c in enumerate(data['caps']): data['capId'].setdefault(c['slug'], i)
