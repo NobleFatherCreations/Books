@@ -93,7 +93,7 @@ var COMMON = '#version 300 es\nprecision highp float;\n' +
 var FS_SCENE = COMMON + [
 'uniform vec2 uRes,uCtr,uCam,uLS;uniform float uUnit,uZoom,uRot,uT,uPT;',
 'uniform sampler2D tOrig,tCore,tLogo,tEmb;',
-'uniform float uOrigA,uCoreA,uLogoA,uEmbA,uWords,uReveal,uFront,uTitle,uSpin,uDim;',
+'uniform float uOrigA,uCoreA,uLogoA,uEmbA,uWords,uReveal,uFront,uTitle,uSpin,uDim,uOrigK,uRingDim;uniform vec2 uOrigP;uniform vec4 uRing;',
 'uniform vec3 uLight;uniform vec4 uOrb;uniform float uMotes,uGlint,uStars,uDust,uStreak,uHole,uRingS,uPoolR,uPoolK;',
 'in vec2 v;out vec4 o;',
 'const float FR[8]=float[8](.207,.296,.38,.462,.547,.624,.713,.829);',
@@ -117,18 +117,21 @@ var FS_SCENE = COMMON + [
 '    n=smoothstep(.38,.9,n);col+=mix(vec3(.018,.032,.085),vec3(.085,.055,.02),vn(dp*.7+9.))*n*uDust;}',
 '  if(uStars>0.){vec2 vel=normalize(sq+1e-5)*uStreak;float s=stars(sq*exp(.10*lz)+uCam*.1,7.,1.,vel*.6)*.55+stars(sq*exp(.22*lz)+uCam*.25,13.,5.,vel)*.8+stars(sq*exp(.40*lz)+uCam*.5,23.,9.,vel*1.6);',
 '    col+=vec3(.82,.88,1.)*s*uStars;}',
-'  float rv=smoothstep(uReveal+.012,uReveal-.012,r);float hole=max(uTitle,smoothstep(uHole*.82,uHole,r));vec3 sky=col;',
+'  float rv=smoothstep(uReveal+.012,uReveal-.012,length(p-uOrigP));float hole=max(uTitle,smoothstep(uHole*.82,uHole,length(p-uOrigP)));vec3 sky=col;float px=1./(uUnit*uZoom);vec3 gold=vec3(1.,.80,.42);',
 '  if(uEmbA>0.||uLogoA>0.){vec2 pl=p;float rl=length(pl)/3.2;',
 '    if(uEmbA>0.){vec4 a=art(tEmb,pl,3.2,uSpin)*uEmbA;col=col*(1.-a.a)+a.rgb;}',
 '    if(uLogoA>0.){float wm=smoothstep(uWords+.03,uWords-.03,rl);vec4 a=art(tLogo,pl,3.2,uSpin)*uLogoA*wm;col=col*(1.-a.a)+a.rgb;}}',
-'  if(uOrigA>0.){vec4 a=art(tOrig,p,1.,0.)*uOrigA*rv;col=col*(1.-a.a)+a.rgb;}',
-'  if(uCoreA>0.){vec4 a=art(tCore,p,.7,0.);a.a=1.;a*=uCoreA*rv*smoothstep(.7,.66,max(abs(p.x),abs(p.y)));col=col*(1.-a.a)+a.rgb;}',
+'  if(uRing.x>0.){float an=atan(p.x,p.y);float st=.20943951;float idx=floor(an/st+.5);float ii=mod(idx+30.,30.);',
+'    if(ii>.5){float ia=idx*st;vec2 pl=rot(ia)*(rot(-ia)*p-vec2(0.,uRing.y));float vis=clamp(uRing.z-ii,0.,1.);float dh=abs(ii-uRing.w);dh=min(dh,30.-dh);float hi=smoothstep(1.15,0.,dh);',
+'      vec4 a=art(tOrig,pl,1.,0.)*uRing.x*vis;a.rgb*=mix(uRingDim,1.,hi);col=col*(1.-a.a)+a.rgb;',
+'      float e=(length(pl)-.887)/(px*2.5+.025);col+=gold*exp(-e*e)*hi*vis*uRing.x*.8;}}',
+'  if(uOrigA>0.){vec4 a=art(tOrig,p-uOrigP,1.,0.)*uOrigA*rv;a.rgb*=uOrigK;col=col*(1.-a.a)+a.rgb;',
+'    if(uRing.x>0.){float dh=min(abs(uRing.w),30.-abs(uRing.w));float e=(length(p-uOrigP)-.887)/(px*2.5+.025);col+=gold*exp(-e*e)*smoothstep(1.15,0.,dh)*uRing.x*.8;}}',
+'  if(uCoreA>0.){vec4 a=art(tCore,p-uOrigP,.7,0.);a.a=1.;a*=uCoreA*rv*smoothstep(.7,.66,max(abs(p.x-uOrigP.x),abs(p.y-uOrigP.y)));col=col*(1.-a.a)+a.rgb;}',
 
 '  col=mix(mix(sky,vec3(.012,.014,.022),min(1.,uOrigA+uLogoA+uEmbA)),col,hole);',
 '  if(uPoolK>0.)col*=mix(1.-uPoolK,1.,smoothstep(uPoolR*.35,uPoolR,length(q)));',
 '  col*=uDim;',
-'  float px=1./(uUnit*uZoom);',
-'  vec3 gold=vec3(1.,.80,.42);',
 '  if(uFront>0.){float dF=(r-uReveal)/(px*2.2);col+=gold*(exp(-dF*dF)*.85+exp(-dF*dF/60.)*.16)*uFront;}',
 '  if(uGlint>0.){vec2 L=uOrb.y*vec2(cos(uOrb.x),sin(uOrb.x));float g=0.;',
 '    for(int i=0;i<8;i++){float dd=(r-FR[i]*uRingS)/(px*1.6);g+=exp(-dd*dd)+exp(-dd*dd/40.)*.22;}',
@@ -317,6 +320,7 @@ function render(t) {
   gl.uniform2f(u.uRes, cv.width, cv.height); gl.uniform2f(u.uCtr, cx, cy); gl.uniform1f(u.uUnit, unit);
   gl.uniform1f(u.uZoom, S.zoom); gl.uniform1f(u.uRot, S.rot); gl.uniform2f(u.uCam, S.camx, S.camy);
   gl.uniform1f(u.uT, t); gl.uniform1f(u.uPT, S.pt);
+  gl.uniform2f(u.uOrigP, S.origx, S.origy); gl.uniform1f(u.uOrigK, S.origk); gl.uniform4f(u.uRing, S.ringa, S.ringr, S.ringn, S.ringhi); gl.uniform1f(u.uRingDim, S.ringdim);
   gl.uniform1f(u.uOrigA, S.orig); gl.uniform1f(u.uCoreA, S.core); gl.uniform1f(u.uLogoA, S.logo); gl.uniform1f(u.uEmbA, S.emb);
   gl.uniform1f(u.uWords, S.words); gl.uniform1f(u.uReveal, S.reveal); gl.uniform1f(u.uFront, S.front); gl.uniform1f(u.uTitle, S.title);
   gl.uniform1f(u.uSpin, S.spin); gl.uniform1f(u.uDim, S.dim);
@@ -390,7 +394,7 @@ var mode = 'entry', t = 0, playing = false, lastNow = 0, tau = 0, raf = 0, dirty
 F.dur = D.dur;
 function now() { return performance.now() / 1000; }
 function frame() {
-  raf = 0; var n = now(), dt = Math.min(.1, n - lastNow); lastNow = n;
+  raf = 0; var n = now(), dt = Math.min(.5, n - lastNow); lastNow = n;
   if (mode === 'entry') { tau += dt * (RM ? .25 : 1); F.shots.tau = tau; render(-1); gov(dt); }
   else {
     if (playing) {

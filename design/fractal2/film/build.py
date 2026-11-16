@@ -140,6 +140,7 @@ def main():
         'capId': {}, 'chapters': chapters,
         'assets': {'orig': [A + 'v8/img/orig.webp', A + 'v8/img/orig-m.webp'], 'core': [A + 'v8/img/orig-core.webp', A + 'v8/img/orig-core-m.webp'],
                    'logo': [A + 'v8/img/logo.webp', A + 'v8/img/logo-m.webp'], 'emb': [A + 'v8/img/emblem.webp', A + 'v8/img/emblem-m.webp'], 'font': [A + 'film/voice-msdf.png']},
+        'sectors': [{'name': x['name'], 'relationship': x['relationship']} for x in json.load(open(os.path.join(ROOT, 'content/fractal2/sectors.json')))['sectors']],
         'first': ['font', 'logo', 'orig', 'core'], 'later': ['emb'], 'audio': None, 'font': font(),
     }
     for i, c in enumerate(data['caps']): data['capId'].setdefault(c['slug'], i)
