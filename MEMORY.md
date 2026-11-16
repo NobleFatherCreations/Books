@@ -5096,3 +5096,12 @@ The owner was (fairly) angry that each fix shipped new faults. Standing rule fro
 - Gate additions (`scripts/film2-check.mjs`): GPU labels (size, on screen, no overlap, markers as boxes; uses `FILM.rec` recorded in capture mode), GPU label contrast from pixels (`FILM.opt.notext`), refraction confined to the lens (`FILM.opt.norefr`), window light reaches the caption column (desktop), tier comparison at the glass. `FILM.opt` is a test switch only.
 - Full gate passes on the new build: 54 checks over phone, phone reduced-motion and desktop (the old 44 also passed on the previous build).
 - Still open: critic re-score of these scenes; audio ingestion; hub shader; haptics; promo clips; deploy steps; real-iPhone test. Phone block labels are 9.5-10 px (texture; documented floor 9 px in the label check).
+
+## 2026-11-16: Fractal² hub upgrade
+- `design/fractal2/film/hub_build.py` rewritten (output `library/fractal2/site/fractal2/hub.html`, 477 KB, fully self-contained, no external requests). Assets in `design/fractal2/film/hub-assets/` (map.webp is the owner's map at 1200 px; still.webp is a frame of the idle shader).
+- Owner's map sits at the centre of the ring; Voice (Instrument Serif) and Source Serif inlined as base64; film palette (#05070d, cream, one gold) and grey #BFC4D2 for inversions.
+- Idle light: hand-written WebGL1 shader behind the ring, 30 fps, pixel ratio capped at 1.5, pauses when the tab is hidden or the ring is off screen, still image when WebGL is missing, context is lost or Reduce Motion is on.
+- Thirty technique and inversion pairs (tables.json) are buttons: tap toggles, keyboard focus opens. Only wording from the builder and tables.json plus the labels "Technique", "Inversion" and the heading "Thirty techniques and their inversions".
+- Phones and touch screens: the ring is decorative (no tab stops, aria-hidden); the list is the route. Numerals are 12 px or more. Sectors sorted by n (1 to 30).
+- Gate `scripts/design-gates.mjs` on /fractal2/hub: clean on all five profiles. Not deployed.
+- Open: real-device check of the shader on an iPhone, owner review of the new section heading, and whether tapping a list row on phones should select it in the card.
