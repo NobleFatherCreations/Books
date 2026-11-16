@@ -20,16 +20,16 @@ F.env = D.env ? function (t, ch) { var a = D.env[ch], i = clamp(Math.round(t * D
 var c1 = C('it-started-with-a'), cdr = C('a-different-room-a'), cq = C('why-do-i-keep'), cme = C('it-must-be-me'), cwi = C('what-if-it-isnt'),
   c2 = C('i-wrote-it-down'), c8 = C('it-came-in-eight'), st = ['idealize', 'hook', 'devalue', 'confuse', 'isolate', 'extract', 'discard', 'replace'].map(C),
   c30 = C('thirty-techniques-carried-a'), cth = C('i-thought-i-had'), crm = C('i-had-only-found');
-var T1 = 3.3;                              // end of launch: black, one light
+var T1 = 3.3, TOURZ = 1.9;                              // end of launch: black, one light
 
 /* ---------- tracks ---------- */
-var revKeys = [[c2.t0 - .2, .06], [c2.t0 + 3.2, .118, E.film], [c8.t0, .118]], zKeys = [[0, .8], [.35, .8], [3.0, 11, F.bez(.6, 0, .25, 1)], [T1, 11], [T1 + .01, 3.5], [c8.t0, 3.5]];
+var revKeys = [[c2.t0 - .2, .06], [c2.t0 + 3.2, .118, E.film], [c8.t0, .118]], zKeys = [[0, .8], [.35, .8], [3.0, 11, F.bez(.6, 0, .25, 1)], [T1, 11], [T1 + .01, 2.2], [cme.t0, 3.3, E.lin], [cwi.t0 + 2, 3.0, E.io], [c2.t0, 3.5, E.io], [c8.t0, 3.5]];
 st.forEach(function (c, i) {
   revKeys.push([c.t0 - .05, i ? FRr[i - 1] : .118]); revKeys.push([c.t0 + 1.05, FRr[i], E.film]);
   var zt = Math.min(3.5, .92 / (FRr[i] + .05) * (i < 7 ? 1 : .98)); zKeys.push([c.t0 - .05, zKeys[zKeys.length - 1][1]]); zKeys.push([c.t0 + 1.25, Math.max(1, zt), E.weight]);
 });
 revKeys.push([c30.t0, .84]); revKeys.push([c30.t0 + 1.2, .92, E.io]);
-zKeys.push([c30.t0 - .3, 1]); zKeys.push([c30.t0 + 2.2, 1.9, E.film]); zKeys.push([cth.t0 - 1.6, 1.9]); zKeys.push([cth.t0 + .6, 1, E.film]); zKeys.push([crm.t0 - .2, 1]); zKeys.push([crm.t1 + 1.5, .34, E.film]);
+zKeys.push([c30.t0 - .3, 1]); zKeys.push([c30.t0 + 2.2, TOURZ, E.film]); zKeys.push([cth.t0 - 1.6, TOURZ]); zKeys.push([cth.t0 + .6, 1, E.film]); zKeys.push([crm.t0 - .2, 1]); zKeys.push([crm.t1 + 1.5, .34, E.film]);
 var zoom = track(zKeys, true), reveal = track(revKeys);
 var artLogo = track([[0, 1], [1.6, 1], [2.7, 0, E.in2]]);
 var spinV = track([[0, 0], [2.6, 5.2, E.in3]]);                         // extra turn during the dive
@@ -43,8 +43,9 @@ var origA = track([[c2.t0 - .3, 0], [c2.t0, 1]]);
 var frontK = track([[c2.t0 - .2, 0], [c2.t0 + .4, 1, E.out2], [st[7].t0 + 1.2, 1], [c30.t0 + 1.4, 0]]);
 var glintK = track([[0, 1], [2.4, 1], [2.7, 0], [c2.t0, 0], [c8.t0, .5, E.io], [c30.t0, .5], [c30.t0 + .6, 1.2], [cth.t0, 1.2], [crm.t1 + 2, .6]]);
 var sweepA = track([[c30.t0, 1.2], [cth.t0 - .3, 1.2 + TAU * 1.5, F.bez(.3, 0, .3, 1)]]);
-var sweepR = track([[c30.t0, .16], [cth.t0 - .3, .8, E.lin]]);
-var sweepI = track([[c30.t0 - .2, 0], [c30.t0 + .5, 1.3], [cth.t0 - .8, 1.3], [cth.t0, 0]]);
+var sweepU = track([[c30.t0, 0], [cth.t0 - .3, 1, E.lin]]);
+function sweepR(t) { var u = sweepU(t) * 7.999, k = Math.floor(u), f = sm((u - k - .72) / .28); return lerp(FRr[k], FRr[Math.min(7, k + 1)], f); }
+var sweepI = track([[c30.t0 - .2, 0], [c30.t0 + .5, .8], [cth.t0 - .8, .8], [cth.t0, 0]]);
 var raysK = track([[0, 0], [2.4, 0], [3.4, .55], [cme.t0 + 1.4, .2, E.io], [cwi.t0 + 1.6, .9, E.out2], [c2.t0 + 2, .5, E.io], [st[7].t0, .3]]);
 var poolG = track([[0, .93], [1.2, 0, E.out2]]);
 var rip = track([[0, 0], [1.5, 3.4, E.outExpo]]), ripA = track([[0, .05], [1.5, 0, E.out2]]);
@@ -53,6 +54,7 @@ var motesK = track([[3, 0], [7, -.8, E.io], [cme.t0, -.8], [cme.t0 + 1.5, -.25, 
 var follow = track([[c30.t0 - .3, 0], [c30.t0 + 2.2, .78, E.film], [cth.t0 - 1.6, .78], [cth.t0 + .6, 0, E.film]]);
 var wander = track([[T1, 0], [9, 1, E.io], [c2.t0 - 6, 1], [c2.t0 - .5, 0, E.io]]);
 var cxfK = track([[T1 - .3, 0], [9, 1, E.io]]);
+var push = track([[9, 1], [cme.t0 - 1, 1.42, E.lin], [cme.t0 + 1.4, 1], [c2.t0, 1]]);
 var dimK = track([[0, .78], [1.2, 1, E.io]]);
 
 function dlog(f, t) { var h = 1 / 240; return (Math.log(f(t + h)) - Math.log(f(t - h))) / (2 * h); }
@@ -67,7 +69,7 @@ shots.state = function (t, S) {
   var rm = F.RM ? .2 : 1;
   if (t < 0) {                             // the entry screen: a living emblem, driven by wall time tau
     var a = shots.tau;
-    S.zoom = Z0() * (1 + .012 * Math.sin(a * .21) * rm); S.logo = 1; S.words = 2; S.spin = a * .012 * rm; S.hole = .345; S.rings = 3.2; S.dim = .78;
+    S.zoom = Z0() * (1 + .012 * Math.sin(a * .21) * rm); S.logo = 1; S.words = 2; S.spin = a * .012 * rm; S.hole = .385; S.rings = 3.2; S.dim = .78;
     S.poolr = 1.7; S.poolg = .93; S.orbr = 1.216; S.orba = a * .19; S.orb = 1; S.glint = 1; S.stars = .5; S.dust = .7; S.pt = a; S.vig = .62; S.bloom = 1; S.rays = 0;
     S.light = 0;
     return S;
@@ -76,7 +78,7 @@ shots.state = function (t, S) {
   if (t < T1) z *= Z0() / .8;
   S.zoom = z; S.pt = a0 + t;
   if (t < T1) {                            // launch: the ring ripples out, the light spirals in, the camera falls into the centre
-    S.logo = artLogo(t); S.words = 2; S.hole = .345; S.rings = 3.2; S.spin = a0 * .012 * rm + spinV(t) * .05; S.dim = dimK(t);
+    S.logo = artLogo(t); S.words = 2; S.hole = .385; S.rings = 3.2; S.spin = a0 * .012 * rm + spinV(t) * .05; S.dim = dimK(t);
     S.poolr = 1.7; S.poolg = poolG(t); S.orbr = orbR(t); S.orba = a0 * .19 + orbA(t); S.orb = orbI(t);
     if (shots.rip) { S.ripx = shots.rip[0]; S.ripy = shots.rip[1]; }
     S.ripr = rip(t); S.ripa = ripA(t);
@@ -90,7 +92,7 @@ shots.state = function (t, S) {
   S.motes = motesK(t);
   S.glint = glintK(t); S.stars = starsK(t); S.dust = dustK(t); S.vig = vigK(t);
   var v = F.env(t, 'voice'), sb = F.env(t, 'sub'), breath = 1 + .05 * Math.sin(TAU * t / 5.2);
-  S.light = lightI(t) * breath * (1 + .22 * v); S.lsize = lightS(t) * (1 + .04 * v);
+  S.light = lightI(t) * breath * (1 + .22 * v); S.lsize = lightS(t) * (1 + .04 * v) * push(t);
   S.rays = raysK(t) * (1 + .3 * v);
   S.zoom *= 1 + .003 * sb * rm;            // sub-bass camera impulse, capped well under 0.6%
   S.glint *= 1 + .35 * sb;
@@ -101,6 +103,7 @@ shots.state = function (t, S) {
   var fo = follow(t); if (fo > 0) { S.camx += Math.cos(S.orba) * S.orbr * fo; S.camy += Math.sin(S.orba) * S.orbr * fo; }
   var wa = wander(t); if (wa > 0) { S.lx = wa * (F.dims().PORT ? .3 : .22) * Math.sin(t * .052 + .6); S.ly = wa * .24 * Math.sin(t * .081 + 2.1); }
   if (!F.dims().PORT) S.cxf = lerp(.5, .31, cxfK(t));
+  if (!F.dims().PORT && fo > 0) { S.zoom *= lerp(1, 1.42 / TOURZ, fo / .78); S.camx += .2 * fo; }
   return S;
 };
 

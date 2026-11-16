@@ -7,7 +7,7 @@ const from = +arg('from', 0), to = +arg('to', 60), fps = +arg('fps', 24), entry 
 const b = await chromium.launch({ args: ['--use-angle=swiftshader', '--enable-unsafe-swiftshader', '--ignore-gpu-blocklist'] });
 const p = await b.newPage({ viewport: { width: w, height: h }, deviceScaleFactor: dpr });
 await p.goto(url + '?capture'); await p.waitForFunction(() => window.FILM && FILM.state().ready, null, { timeout: 120000 }); await p.mouse.move(2, 2);
-const ff = spawn('ffmpeg', ['-y', '-loglevel', 'error', '-f', 'image2pipe', '-framerate', String(fps), '-c:v', 'mjpeg', '-i', '-', '-c:v', 'libx264', '-preset', 'medium', '-crf', '19', '-pix_fmt', 'yuv420p', '-vf', 'scale=trunc(iw/2)*2:trunc(ih/2)*2', '-movflags', '+faststart', out], { stdio: ['pipe', 'inherit', 'inherit'] });
+const ff = spawn('ffmpeg', ['-y', '-loglevel', 'error', '-f', 'image2pipe', '-framerate', String(fps), '-c:v', 'mjpeg', '-i', '-', '-c:v', 'libx264', '-preset', 'medium', '-crf', '25', '-pix_fmt', 'yuv420p', '-vf', 'scale=trunc(iw/2)*2:trunc(ih/2)*2', '-movflags', '+faststart', out], { stdio: ['pipe', 'inherit', 'inherit'] });
 const times = []; for (let i = 0; i < entry * fps; i++) times.push(-(20 + i / fps)); for (let i = 0; i <= (to - from) * fps; i++) times.push(from + i / fps);
 let n = 0; const t0 = Date.now();
 for (const t of times) {

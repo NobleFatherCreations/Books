@@ -23,12 +23,12 @@ body{font-family:"Source Serif",Georgia,serif;overscroll-behavior:none;touch-act
 #stage{position:fixed;left:0;top:0;width:100%;height:100vh;height:100svh;overflow:hidden;background:var(--bg);user-select:none;-webkit-user-select:none}
 #gl{position:absolute;left:0;top:0;display:block}
 #pool{position:absolute;left:0;right:0;top:54%;bottom:0;opacity:0;pointer-events:none;background:linear-gradient(to bottom,rgba(3,4,8,0),rgba(3,4,8,.74) 36%,rgba(3,4,8,.88))}
-.cap{position:absolute;left:50%;top:77%;width:min(90vw,30em);margin:0;text-align:center;font-family:"Voice",Georgia,serif;font-weight:400;font-size:clamp(2.1rem,9.2vw,3.4rem);line-height:1.1;letter-spacing:-.008em;color:var(--ink);opacity:0;transform:translate3d(-50%,0,0);translate:0 -50%;pointer-events:none;text-wrap:balance;text-shadow:0 1px 18px rgba(3,4,8,.9)}
+.cap{position:absolute;left:50%;top:77%;width:min(90vw,30em);margin:0;text-align:center;font-family:"Voice",Georgia,serif;font-weight:400;font-size:clamp(2rem,8.6vw,3.3rem);line-height:1.1;letter-spacing:-.008em;color:var(--ink);opacity:0;transform:translate3d(-50%,0,0);translate:0 -50%;pointer-events:none;text-wrap:balance;text-shadow:0 1px 18px rgba(3,4,8,.9)}
 .cap .g{display:inline-block;opacity:0;white-space:pre-wrap}
 .cap.big{font-size:clamp(2.7rem,12vw,4.8rem);line-height:1.02}
-.cap.long{font-size:clamp(1.7rem,7.2vw,2.7rem);line-height:1.14}
+.cap.long{font-size:clamp(1.85rem,7.8vw,3rem);line-height:1.12}
 .cap.big.long{font-size:clamp(2.3rem,10vw,4rem);line-height:1.04}
-@media (min-aspect-ratio:1/1){.cap{left:78%;top:50%;width:min(37vw,15em);text-align:left;font-size:clamp(2rem,4.3vw,4rem)}.cap.big{font-size:clamp(2.6rem,5.6vw,5.2rem)}.cap.long{font-size:clamp(1.6rem,3.1vw,2.9rem)}.cap.big.long{font-size:clamp(2.2rem,4.6vw,4.4rem)}#pool{left:52%;top:0;background:linear-gradient(to right,rgba(3,4,8,0),rgba(3,4,8,.8) 34%,rgba(3,4,8,.9))}}
+@media (min-aspect-ratio:1/1){.cap{left:78%;top:50%;width:min(37vw,15em);text-align:left;font-size:clamp(2rem,4.5vw,4.2rem)}.cap.big{font-size:clamp(2.6rem,5.6vw,5.2rem)}.cap.long{font-size:clamp(1.8rem,3.8vw,3.5rem)}.cap.big.long{font-size:clamp(2.2rem,4.6vw,4.4rem)}#pool{left:52%;top:0;background:linear-gradient(to right,rgba(3,4,8,0),rgba(3,4,8,.8) 34%,rgba(3,4,8,.9))}}
 /* entry */
 #entry{position:absolute;left:0;right:0;top:calc(var(--cy,40%) + var(--ts,80px) * .62);display:flex;flex-direction:column;align-items:center;gap:0;transition:opacity .28s ease-out;z-index:3}
 #entry .sub{margin:0;font:400 clamp(.78rem,3.2vw,.95rem)/1 "Source Serif",Georgia,serif;letter-spacing:.42em;text-indent:.42em;text-transform:uppercase;color:var(--gold)}
@@ -43,10 +43,10 @@ html.ready #begin .trk{animation:breathe 4.2s ease-in-out infinite}
 @media (hover:hover){html.ready #begin:hover{transform:scale(1.06);background:rgba(233,194,122,.10)}}
 #begin:active{transform:scale(.96)}
 #begin:focus-visible,.lnk:focus-visible,.cbtn:focus-visible{outline:2px solid var(--gold);outline-offset:4px}
-#foot{position:absolute;left:0;right:0;bottom:0;padding:110px 0 calc(14px + env(safe-area-inset-bottom));display:flex;flex-direction:column;align-items:center;background:linear-gradient(to bottom,rgba(5,7,13,0),rgba(5,7,13,.86) 55%,rgba(5,7,13,.96));transition:opacity .28s ease-out;z-index:3}
+#foot{position:absolute;left:0;right:0;bottom:0;padding:110px 0 calc(14px + env(safe-area-inset-bottom));display:flex;flex-direction:column;align-items:center;background:linear-gradient(to bottom,rgba(5,7,13,0),rgba(5,7,13,.9) 42%,rgba(5,7,13,.98) 60%);transition:opacity .28s ease-out;z-index:3}
 html[data-mode=film] #foot{opacity:0;pointer-events:none}
-#foot .meta{margin:0;font:400 1.05rem/1.4 "Voice",Georgia,serif;color:var(--ink);letter-spacing:.01em}
-.lnk{margin-top:2px;font:400 .95rem/1 "Voice",Georgia,serif;color:var(--ink);text-decoration:underline;text-decoration-color:rgba(207,200,182,.4);text-underline-offset:4px;padding:10px 12px}
+#foot .meta{margin:0;font:400 1.15rem/1.4 "Voice",Georgia,serif;color:var(--ink);letter-spacing:.01em}
+.lnk{margin-top:2px;font:400 1.125rem/1 "Voice",Georgia,serif;color:var(--ink);text-decoration:underline;text-decoration-color:rgba(207,200,182,.4);text-underline-offset:4px;padding:10px 12px}
 html[data-mode=film] #entry{opacity:0;pointer-events:none}
 @media (prefers-reduced-motion:reduce){html.ready #begin .trk{animation:none}}
 /* controls */

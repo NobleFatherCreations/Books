@@ -23,13 +23,15 @@ def slug(t):
     w = re.sub(r"[^a-z0-9 ]", '', t.lower().replace("'", '').replace('’', '')).split()
     return '-'.join(w[:4])
 
+WEAK = set('a an the and of to in or my i it that with from for at by is was on as so but its his her our your'.split())
 def groups(t):
     """phrase groups of about three words, breaking after punctuation where possible"""
     w = t.split(); out = []; cur = []
     for i, x in enumerate(w):
         cur.append(x)
         left = len(w) - i - 1
-        if (len(cur) >= 3 and (x[-1] in '.,?!:;”' or len(cur) >= 4) and left != 1) or left == 0:
+        weak = x.lower().strip('“"') in WEAK and left > 0
+        if ((len(cur) >= 3 and (x[-1] in '.,?!:;”' or len(cur) >= 4) and left != 1) and not weak) or left == 0:
             out.append(' '.join(cur)); cur = []
     if cur: out.append(' '.join(cur))
     return out

@@ -488,3 +488,11 @@ OWNER DECISION needed (the only legitimate stop): see the final message of the s
 Round 7: fresh critic, 58 frames (28 phone, 28 desktop, 2 opening) + the script. Scores above; verdict "no", with five specific weaknesses. All five were fixed and re-read in frame walks (phone 72 frames, desktop 16). Nine script lines were hedged or cut on the critic's fresh-reader notes (list in `STORY-DECISION.md` section 9).
 A second critic round was dispatched on the fixed build and died on the session usage cap before reporting, so **the deployed build is NOT scored and `design-exit.mjs` fails for it** (current build sha `c9b0e7a909be`). The owner had instructed "push live" in the same message that set the task, so it was deployed; the gap is recorded here rather than hidden. Next model: run `node scripts/capture-critic-set.mjs <url> <dir> "#begin" 28`, one fresh critic with the prompt in this session's style (frame name for every claim), record the round, then `design-exit.mjs`.
 Critic suggestions deliberately NOT taken: strip lettering from the original art (it is the owner's artwork); change the owner's fixed counts or the phrases "original frequency", "I am still looking", and the descent list.
+
+## Film milestone 1 (entry, launch, sections 1-2), 2026-11-16. Critic: impeccable-finish-reviewer, from frames.
+| | Hierarchy | Type | Space | Craft | Distinct | Feeling | Phone | Legibility | Continuity |
+|---|---|---|---|---|---|---|---|---|---|
+| Round 1 | 3 | 3 | 2 | 3 | 3 | 2 | 3 | 3 | 3 |
+| Round 2 | 4 | 3 | 3 | 3 | 3 | 3 | 4 | 4 | 3 (not judgeable from stills) |
+Round 2 fixes applied after scoring, NOT re-scored: slow push through section 1; sweep light rides the ring gutters, dimmer; desktop tour kept clear of the caption column; caption sizes closer together with breaks that avoid ending on small words; larger footer on a darker band; launch hole widened.
+Left open: section 1 is still one light for a minute (critic: "stock lens-flare star"); ring words overlapping inside the art itself (the art is a raster; cannot be re-set here); continuity can only be judged in motion (MP4 preview).
