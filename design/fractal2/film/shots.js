@@ -4,6 +4,7 @@
 'use strict';
 var F = window.FILM, D = F.data, E = F.ease, track = F.track, clamp = F.clamp, lerp = F.lerp, sm = F.sm, TAU = Math.PI * 2;
 var FRr = [.207, .296, .38, .462, .547, .624, .713, .84];
+F.COL = .595;                                  // left edge of the caption column on wide screens (template: left 78%, width 37vw)
 function C(slug) { var i = D.capId[slug]; if (i == null) throw new Error('no caption ' + slug); return D.caps[i]; }
 function h1(n) { var x = Math.sin(n * 127.1 + 311.7) * 43758.5453; return x - Math.floor(x); }
 
@@ -66,7 +67,7 @@ var orbR = track([[0, 1.216], [.3, 1.216], [2.3, 0, E.in2]]), orbI = track([[0, 
 var orbA = track([[0, 0], [2.6, 11, E.in2]]);
 var lightI = track([[1.3, 0], [2.9, .85, E.out3], [cme.t0 - .6, .85], [cme.t0 + 1.4, .34, E.io], [cwi.t0 - .2, .34], [cwi.t0 + 1.6, 1.25, E.weight], [c2.t0, 1.0, E.io], [c8.t0, .9], [st[7].t0 + 1.3, .55, E.io], [c30.t0 + 8, .5], [g1.t0, .5], [g1.t0 + 4, .8, E.io]]);
 var lightS = track([[1.3, .03], [3.2, .16, E.out3], [cq.t0 - .3, .16], [cq.t0 + 1.2, .2, E.io], [cme.t0 - .6, .2], [cme.t0 + 1.4, .085, E.io], [cwi.t0 - .2, .085], [cwi.t0 + 1.6, .2, E.weight], [c2.t0 + 3, .15, E.io], [st[7].t0 + 1.3, .085, E.io], [g1.t0, .085], [g1.t0 + 4, .11, E.io]]);
-var starsK = track([[0, .5], [2.2, 0], [cwi.t0 + .2, 0], [cwi.t0 + 5, .9, E.out2], [c8.t0, .9], [st[7].t0, .75]]);
+var starsK = track([[0, .5], [2.2, 0], [5.5, 0], [16, .38, E.io], [cme.t0, .42], [cme.t0 + 1.4, .2, E.io], [cwi.t0 + .2, .24], [cwi.t0 + 5, .9, E.out2], [c8.t0, .9], [st[7].t0, .75]]);
 var dustK = track([[0, .7], [2.4, 0], [cwi.t0 + .5, 0], [cwi.t0 + 6, .7, E.io]]);
 var origA = track([[c2.t0 - .3, 0], [c2.t0, 1]]);
 var frontK = track([[c2.t0 - .2, 0], [c2.t0 + .4, 1, E.out2], [st[7].t0 + 1.2, 1], [c30.t0 + 1.4, 0]]);
@@ -86,7 +87,7 @@ var push = track([[9, 1], [cme.t0 - 1, 1.42, E.lin], [cme.t0 + 1.4, 1], [c2.t0, 
 var ringY = track([[g1.t0 - .2, 0], [g1.t0 + 4.6, RW, E.film]]);
 var ringN = track([[g2.t0 + 1.5, 1], [g2.t0 + 2.1, 2, E.out2], [g3.t0 + .5, 2], [g3.t0 + 1.1, 3, E.out2], [g6.t0, 3], [g6.t0 + g6.say, 6, E.lin], [gk.t0 + .3, 6], [gk.t0 + 6.6, 30, E.io]]);
 var ringA = track([[g2.t0 + 1.3, 0], [g2.t0 + 1.6, 1]]);
-function ZF() { var d = F.dims(); return (d.PORT ? .84 : .9) / (RW + .9); }
+function ZF() { var d = F.dims(); return (d.PORT ? .97 : .9) / (RW + .9); }
 function cam3(t) {                            // camera: stay with the first room, pan with each door, then show the whole circle
   var zf = ZF(), a = [[g1.t0 - .2, .34, 0, 0], [g1.t0 + 4.6, .25, 0, 6.4], [g2.t0 + 1.2, .25, 0, 6.4], [g2.t0 + 3, .23, 1.2, 6.6], [g3.t0 + .4, .23, 1.2, 6.6], [g3.t0 + 2.2, .2, 2.4, 6.4], [g6.t0, .2, 2.4, 6.4], [g6.t0 + g6.say + .6, .125, 4.6, 5.2], [gk.t0 + .4, .125, 4.6, 5.2], [gk.t0 + 6.8, zf, 0, 0], [gs.t1 + 9, zf * 1.06, 0, 0]], i;
   if (t <= a[0][0]) return a[0]; for (i = 1; i < a.length; i++) if (t < a[i][0]) break; if (i >= a.length) return a[a.length - 1];
@@ -185,10 +186,11 @@ var PK3 = D.marks.PEAK3, pulseT = [YR[0].t0 + YR[0].say * .78, YR[1].t0 + YR[1].
 var BORD = []; (function () { var a = [], i, j, t; for (i = 0; i < 30; i++) a.push(i); for (i = 29; i > 0; i--) { j = Math.floor(h1(i * 12.9) * (i + 1)); t = a[i]; a[i] = a[j]; a[j] = t; } BORD = a; })();
 var bkOn = w1.t0 + .3, bkGo = w6.t0 + .5;
 /* the thirty blocks: each its own size and angle, a little out of line, the way things are stacked by hand */
-var BLK = []; (function () { for (var i = 0; i < 30; i++) { var c = i % 5, r = Math.floor(i / 5);
-  BLK.push([(c - 2) * .36 + (h1(i * 8.3) - .5) * .035, (r - 2.5) * .3 + (h1(i * 3.9) - .5) * .028, .18 * (.8 + .3 * h1(i * 2.3 + .4)), .15 * (.7 + .36 * h1(i * 5.7 + 1.1)), (h1(i * 6.1 + 2) - .5) * .09, h1(i * 1.9) > .5 ? 1 : -1]); } })();
+var BLKW = [], BLKP = []; (function () { for (var i = 0; i < 30; i++) { var c = i % 5, r = Math.floor(i / 5), c3 = i % 3, r3 = Math.floor(i / 3), jx = (h1(i * 8.3) - .5), jy = (h1(i * 3.9) - .5), ang = (h1(i * 6.1 + 2) - .5) * .09, sg = h1(i * 1.9) > .5 ? 1 : -1;
+  BLKW.push([(c - 2) * .36 + jx * .035, (r - 2.5) * .3 + jy * .028, .18 * (.8 + .3 * h1(i * 2.3 + .4)), .15 * (.7 + .36 * h1(i * 5.7 + 1.1)), ang, sg]);
+  BLKP.push([(c3 - 1) * .64 + jx * .04, (r3 - 4.5) * .262 + jy * .02, .3 * (.86 + .14 * h1(i * 2.3 + .4)), .108 * (.8 + .26 * h1(i * 5.7 + 1.1)), ang * .7, sg]); } })();   // portrait: a tall window, three across and ten high
 function blockAt(i, pz) {                     // where block i is when it is pz of the way into place (1 = resting against the window)
-  var b = BLK[i], l = 1 - pz, sc = 1 + .32 * l;
+  var b = (F.dims().PORT ? BLKP : BLKW)[i], l = 1 - pz, sc = 1 + .32 * l;
   return [b[0] + b[5] * l * .09, b[1] + Math.pow(l, 1.4) * .5, b[2] * sc, b[3] * sc, b[4] + b[5] * l * .32];
 }
 function blocks(S, bk) {
@@ -201,8 +203,11 @@ var K11 = null, K11key = '';
 function cam11(t) {
   var d = F.dims(), key = d.W + 'x' + d.H;
   if (key !== K11key) { var zf = ZF(), zI = d.PORT ? .112 : .125, R = -TAU; K11key = key;
+    var zN = zI * (d.PORT ? .84 : .7), yN = d.PORT ? -1.1 : -2.3;          // the names need the sky above the map: the map steps back and down
     K11 = [[x1.t0 - 1, 1.15, 0, 0, R], [x3.t0, 1.0, 0, 0, R, E.lin], [x3.t0 + 6, zI, 0, 0, R, E.film], [x4.t0 + .5, zI, 0, 0, R], [x4.t0 + 4.5, .5, 2.9, 2.5, R, E.film], [x5.t0 - .5, .5, 1.6, 3.5, R, E.lin], [x5.t0 + 3.5, zI, 0, 0, R, E.film],
-      [y1.t0 - .3, zI * 1.04, 0, 0, R, E.lin], [y1.t0 + 6, 1.0, 0, 0, R, E.film], [z2.t0 - .3, 1.0, 0, 0, R], [z2.t0 + 7, zf, 0, 0, R, E.film], [F.dur + 20, zf * 1.08, 0, 0, R, E.lin]]; }
+      [x8.t0 + 1, zI, 0, 0, R], [x9.t0 - .3, zN, 0, yN, R, E.film], [x10.t0 + .4, zN, 0, yN, R], [x10.t0 + 4.5, zI, 0, 0, R, E.film],
+      [y1.t0 - .3, zI * 1.04, 0, 0, R, E.lin], [y1.t0 + 6, 1.0, 0, 0, R, E.film], [z1.t0, 1.0, 0, 0, R], [z2.t0 - .3, 1.3, 0, 0, R, E.lin],
+      [z2.t0 + 7, zf, 0, 0, R, E.film], [z4.t0, zf * 1.04, 0, 0, R, E.lin], [z5.t0 + 2.5, zf * (d.PORT ? 1.34 : 1.05), 0, d.PORT ? .9 : 0, R, E.film], [F.dur + 20, zf * (d.PORT ? 1.42 : 1.08), 0, d.PORT ? 1 : 0, R, E.lin]]; }
   return keysAt(K11, t);
 }
 var dimK = track([[0, .78], [1.2, 1, E.io]]);
@@ -212,7 +217,7 @@ function dlog(f, t) { var h = 1 / 240; return (Math.log(f(t + h)) - Math.log(f(t
 var MK0 = new Float32Array(30), BKP0 = new Float32Array(120), BKQ0 = new Float32Array(60), TH0 = new Float32Array(16), TRA0 = new Float32Array(24), TRB0 = new Float32Array(24), LIM0 = [0, 0, 0, 0];
 function Cn(slug, n) { var k = 0; for (var i = 0; i < D.caps.length; i++) if (D.caps[i].slug === slug && k++ === n) return D.caps[i]; throw new Error('no caption ' + slug + ' #' + n); }
 var S0 = { zoom: 1, rot: 0, camx: 0, camy: 0, pt: 0, orig: 0, core: 0, logo: 0, emb: 0, words: 2, reveal: 2, front: 0, title: 0, spin: 0, dim: 1, hole: .108, rings: 1, poolr: 1, poolg: 0,
-  mkr: 0, mkl: 0, glass: 0, glw: 0, bka: 0, thn: 0, tha: 0, patc: 0, lineh: 0, lineha: 0, linev: 0, lineva: 0, ls: 3.2, ring0: 0, lrev: 2, logok: 1, gen: 0, gena: 0, genlit: -9, frontl: 0, frontla: 0, patr: 0, pata: 0, gt: null, origx: 0, origy: 0, origk: 1, ringa: 0, ringr: 10.5, ringn: 0, ringhi: -9, ringdim: 1, motes: 0, cxf: .5, light: 0, lsize: .16, lx: 0, ly: 0, orba: 0, orbr: 0, orb: 0, glint: 0, stars: 0, dust: 0, streak: 0, bloom: .7, rays: 0, ca: 0, vig: .5, grain: .045, expo: 1, fade: 1, ripx: 0, ripy: -1.6, ripr: 0, ripa: 0, poolk: 1 };
+  mkr: 0, mkl: 0, glass: 0, glw: 0, bka: 0, thn: 0, tha: 0, patc: 0, lineh: 0, lineha: 0, linev: 0, lineva: 0, ls: 3.2, ring0: 0, lrev: 2, logok: 1, gen: 0, gena: 0, genlit: -9, frontl: 0, frontla: 0, patr: 0, pata: 0, gt: null, origx: 0, origy: 0, origk: 1, ringa: 0, ringr: 10.5, ringn: 0, ringhi: -9, ringdim: 1, motes: 0, cxf: .5, light: 0, lsize: .16, lx: 0, ly: 0, orba: 0, orbr: 0, orb: 0, glint: 0, stars: 0, dust: 0, streak: 0, bloom: .7, rays: 0, ca: 0, vig: .5, grain: .045, expo: 1, fade: 1, ringl: 0, ripx: 0, ripy: -1.6, ripr: 0, ripa: 0, poolk: 1 };
 
 function Z0() { var d = F.dims(); return Math.max(.8, d.H * (1 - d.CYF) / (2.84 * d.U) * 1.08); }
 var shots = F.shots = { tau: 0, tau0: 20, rip: null };
@@ -329,7 +334,8 @@ shots.state = function (t, S) {
     S.orig = 1; S.reveal = lerp(.1, .92, E.film((t - x1.t0) / 5.5)); S.front = t < x1.t0 + 6 ? .7 * sm((t - x1.t0) / .5) * (1 - sm((t - x1.t0 - 5) / 1)) : 0;
     S.logo = S.emb = t >= x3.t0 - .2 ? 1 : 0; S.lrev = lerp(0, 1.06, E.out2((t - x3.t0) / 5.5)); S.frontl = S.lrev; S.frontla = t >= x3.t0 && t < x3.t0 + 6.4 ? sm((t - x3.t0) / .4) * (1 - sm((t - x3.t0 - 5.4) / 1)) : 0;
     var fin = sm((t - z2.t0) / 5), inner = sm((t - y1.t0) / 5) * (1 - fin), md = lerp(1, 0, sm(inner * 1.6));
-    S.origk = md; S.logok = md; S.ringa = t >= z2.t0 - .5 ? 1 : 0; S.ringn = 30; S.ringdim = 1.1; S.ringhi = t >= z3.t0 ? ((t - z3.t0) * 3.2) % 30 : -9; S._li = lerp(1.2, 1.5, inner); S._st = lerp(.6, .35, inner); S._lk = lerp(.75, 1.5, inner) * lerp(1, .55, fin); S._rays = .5;
+    S.origk = md; S.logok = md; S.ringa = sm((t - z2.t0 - 2.6) / 2.4);                       // the thirty arrive once the camera is far enough out to hold them S.ringn = 30; S.ringdim = 1.1; S.ringhi = t >= z3.t0 && t < z4.t0 ? ((t - z3.t0) / (z4.t0 - z3.t0)) * 30 : -9; S.ringl = t >= z3.t0 ? 30 * clamp((t - z3.t0) / (z4.t0 - z3.t0), 0, 1) : 0;
+    if (t >= z2.t0) { S.ringdim = lerp(.5, 1.1, sm((t - z2.t0) / 4)) + .25 * sm((t - z4.t0) / 3); S.rot = c11[4] - .006 * Math.max(0, t - z2.t0 - 2) * Math.max(0, t - z2.t0 - 2) / (1 + .25 * Math.max(0, t - z2.t0 - 2)); } S._li = lerp(1.2, 1.5, inner); S._st = lerp(.6, .35, inner); S._lk = lerp(.75, 1.5, inner) * lerp(1, .55, fin); S._rays = .5;
     S.mk = lk; for (j11 = 0; j11 < 30; j11++) lk[j11] = 0;
     if (t >= x6.t0 - .2 && t < y1.t0 + 2) {     // the combinations: threads through the rings
       var seed = 1, prog = 7, al = 1;
@@ -342,7 +348,7 @@ shots.state = function (t, S) {
     }
     if (t >= y2.t0 && t < z1.t0) {              // the chain: nine links around the light
       var born = function (n) { return n < 3 ? MB[0].t0 + n * 3 : n < 6 ? MB[1].t0 + (n - 3) * 3.2 : MB[2].t0 + (n - 6) * 2.9; }, sink = E.io((t - y3.t0) / 4.5), back = E.out2((t - y6.t0 - .5) / 3), brk = sm((t - y7.t0 - 1.2) / 1.2), burst = E.out3((t - y9.t0 - 2.2) / 2.4);
-      var tight = sm((t - y4.t0) / 40), pr11 = F.dims().PORT, R0 = pr11 ? .4 : .46, beat = .5 + .5 * Math.sin(t * 1.9);
+      var tight = sm((t - y4.t0) / 40), pr11 = F.dims().PORT, R0 = pr11 ? .74 : .46, beat = .5 + .5 * Math.sin(t * 1.9);
       var base0 = t < y4.t0 ? R0 * (1 - sink * .55) : t < y6.t0 ? R0 * lerp(.45, .34, tight) : R0 * lerp(.34, 1, back); S.mkl = 1; S.mkr = base0 * TAU / 10 * .36;
       for (j11 = 0; j11 < 10; j11++) { var ang = TAU * j11 / 10 + t * .05, base = t < y4.t0 ? R0 * (1 - sink * .55) : t < y6.t0 ? R0 * lerp(.45, .34, tight) * (1 - .05 * beat * tight) : R0 * lerp(.34, 1, back), rad = base + (j11 === 4 ? brk * 2.6 : 0) + (t >= y9.t0 + 2.2 ? burst * 3 : 0),
           on = t < y3.t0 ? sm((t - born(j11)) / 1.2) : t < y6.t0 ? lerp(1, .42 + .12 * beat, sink) : (j11 === 4 ? 1 - brk : 1) * (1 - sm((burst - .5) / .5));
@@ -350,7 +356,7 @@ shots.state = function (t, S) {
       if (t >= y4.t0 && t < y7.t0 + 1.2) { S._lk *= lerp(1, .6, tight); S._li *= lerp(1, .68, tight); }
       if (t >= y7.t0 + 1.2) { var gain = sm((t - y7.t0 - 1.2) / 3) * .4 + sm((t - y8.t0) / 12) * .35 + sm((t - y9.t0 - 2) / 3) * .5; S._lk *= .62 + gain * 1.1; S._li *= .7 + gain * .7; S._warm = gain * .8; }
     }
-    if (t >= z5.t0) S._warm = .5 * sm((t - z5.t0) / 2);
+    if (t >= z4.t0) S._warm = .35 * sm((t - z4.t0) / 2) + .3 * sm((t - z5.t0) / 3);
   }
   S.motes = motesK(t);
   S.glint = glintK(t); S.stars = starsK(t); S.dust = dustK(t); S.vig = vigK(t);
@@ -372,7 +378,7 @@ shots.state = function (t, S) {
   if (S._c3) { S.camx += S._c3[2]; S.camy += S._c3[3]; S.lx = -S.camx * S.zoom; S.ly = -S.camy * S.zoom; S._c3 = null; }
   if (S._lo) { S.lx += S._lo; S.ly += S._lo * .18; S._lo = 0; }
   var fo = follow(t); if (fo > 0) { S.camx += Math.cos(S.orba) * S.orbr * fo; S.camy += Math.sin(S.orba) * S.orbr * fo; }
-  if (t >= T1 && t < c2.t0) { var p1 = path1(t); S.lx = p1[0]; S.ly = p1[1]; trail1(t, S); }
+  if (t >= T1 && t < c2.t0) { var p1 = path1(t), pk = .9 * sm((t - 5) / 6) * (1 - sm((t - ROAD0) / (ROAD1 - ROAD0))); S.lx = p1[0]; S.ly = p1[1]; trail1(t, S); S.camx += p1[0] * pk / S.zoom; S.camy += p1[1] * pk / S.zoom; }   // the camera leans after the light: near stars slide, far ones barely move
   if (!F.dims().PORT) S.cxf = lerp(.5, .31, cxfK(t));
   if (!F.dims().PORT && fo > 0) { S.zoom *= lerp(1, 1.42 / TOURZ, fo / .78); S.camx += .2 * fo; }
   return S;
@@ -448,26 +454,27 @@ function section7(t, S, d) {
   }
 }
 function section10(t, S, d) {
-  var U = d.U, i, bk = S.bk, P = S.bkp, sz = Math.max(d.PORT ? 10 : 12, U * .05);
-  for (i = 0; i < 30; i++) { var pz = bk[i]; if (pz < .03) continue; var g = blockAt(i, pz), bx = d.W * S.cxf + P[i * 4] * U, by = d.H * d.CYF - P[i * 4 + 1] * U, rot = g[4], lines = wrapText(PAIRS[i][1], 13), j, s = sz * (1 + .32 * (1 - pz)), cs = Math.cos(rot), sn = Math.sin(rot);
-    for (j = 0; j < lines.length; j++) s = Math.max(d.PORT ? 9.5 : 12, Math.min(s, fit(lines[j], s, g[2] * 2 * U * (d.PORT ? .96 : .86))));
-    for (j = 0; j < lines.length; j++) { var oy = s * (.35 + (j - (lines.length - 1) / 2) * 1.15); F.text(lines[j], bx - oy * sn, by + oy * cs, s, [.96, .93, .86, Math.pow(pz, 1.5)], { rot: rot, soft: (1 - pz) * 1.5, small: d.PORT }); } }
+  var U = d.U, i, bk = S.bk, P = S.bkp, sz = Math.max(d.PORT ? 13 : 12, U * .05);
+  for (i = 0; i < 30; i++) { var pz = bk[i]; if (pz < .03) continue; var g = blockAt(i, pz), bx = d.W * S.cxf + P[i * 4] * U, by = d.H * d.CYF - P[i * 4 + 1] * U, rot = g[4], lines = wrapText(PAIRS[i][1], d.PORT ? 16 : 13), j, s = sz * (1 + .32 * (1 - pz)), cs = Math.cos(rot), sn = Math.sin(rot);
+    for (j = 0; j < lines.length; j++) s = Math.max(12, Math.min(s, fit(lines[j], s, g[2] * 2 * U * (d.PORT ? .9 : .86))));
+    for (j = 0; j < lines.length; j++) { var oy = s * (.35 + (j - (lines.length - 1) / 2) * 1.15); F.text(lines[j], bx - oy * sn, by + oy * cs, s, [.96, .93, .86, Math.pow(pz, 1.5)], { rot: rot, soft: (1 - pz) * 1.5 }); } }
 }
 var TNAME = ['', 'The Debt Prison', 'The Golden Cage', 'The Trauma Bond Engine'];
 function section11(t, S, d) {
   var q9 = Math.min(2.999, (t - x9.t0) / ((x9.say + 1) / 3)), k = 1 + Math.floor(q9), f = q9 % 1, a = sm(f / .25) * (1 - sm((f - .82) / .18)), c = F.w2s(0, LR5 * 1.0, S), sz = fit(TNAME[k], d.U * .2, d.W * .86);
-  F.text(TNAME[k], c[0], Math.max(sz * 1.3, c[1] - sz * .7), sz, [1, .88, .6, a]);
+  F.text(TNAME[k], c[0], Math.max(sz * 1.1, c[1] - sz * .75), sz, [1, .88, .6, a]);
+  if (F.rec) F.rec[F.rec.length - 1].mapTop = c[1];                     // for the gate: the name must sit above the map's outer words
 }
 function section8(t, S, d) {
   var cx = d.W * S.cxf, cy = d.H * d.CYF, U = d.U, rr = d.PORT ? .7 : .62, i, j, a, sz = Math.max(12, U * .064);
   for (i = 0; i < 9; i++) { a = sm((t - mkT[i] - .3) / .8); if (a <= 0) continue; var an = TAU * (i / 9), mx = cx + Math.sin(an) * rr * U, my = cy - Math.cos(an) * rr * U, sd = Math.sin(an), cs = Math.cos(an), lines = wrapText(TERMS[i], 13), n = lines.length;
     var wm = 0; for (j = 0; j < n; j++) wm = Math.max(wm, F.measure(lines[j], sz, sz * .12));
-    var al = sd > .2 ? -1 : sd < -.2 ? 1 : 0, room = al < 0 ? d.W - 16 - (mx + sz) : al > 0 ? mx - sz - 16 : 1e9, top = cs > -.3;
+    var RX = d.PORT ? d.W - 16 : d.W * F.COL - 24, al = sd > .2 ? -1 : sd < -.2 ? 1 : 0, room = al < 0 ? RX - (mx + sz) : al > 0 ? mx - sz - 16 : 1e9, top = cs > -.3;
     if (room < wm) al = 2;                      // no room beside the marker: the label sits above it (or below, in the lower half), never over it
     if (F.rec) F.rec.push({ s: '', dot: 1, x: mx, y: my, size: 14, a: a, al: 0, w: 14, rot: 0, soft: 0 });
     for (j = 0; j < n; j++) { var w = F.measure(lines[j], sz, sz * .12), lx, ly;
-      if (al === 2) { lx = clamp(mx, 16 + wm / 2, d.W - 16 - wm / 2); ly = top ? my - sz * 1.15 - (n - 1 - j) * sz * 1.2 : my + sz * 1.9 + j * sz * 1.2; }
-      else { lx = al < 0 ? Math.min(mx + sz, d.W - 16 - w) : al > 0 ? Math.max(mx - sz, 16 + w) : mx; ly = (al ? my + sz * .35 + (cs < -.3 ? sz * 1.1 : cs > .3 ? -sz * .9 : 0) : my - sz * 1.2 - (n - 1) * sz * 1.2) + j * sz * 1.2 - (al ? (n - 1) * sz * .6 : 0); }
+      if (al === 2) { lx = clamp(mx, 16 + wm / 2, RX - wm / 2); ly = top ? my - sz * 1.15 - (n - 1 - j) * sz * 1.2 : my + sz * 1.9 + j * sz * 1.2; }
+      else { lx = al < 0 ? Math.min(mx + sz, RX - w) : al > 0 ? Math.max(mx - sz, 16 + w) : mx; ly = (al ? my + sz * .35 + (cs < -.3 ? sz * 1.1 : cs > .3 ? -sz * .9 : 0) : my - sz * 1.2 - (n - 1) * sz * 1.2) + j * sz * 1.2 - (al ? (n - 1) * sz * .6 : 0); }
       F.text(lines[j], lx, ly, sz, [1, .88, .62, a * .95], { align: al === 2 ? 0 : al, track: sz * .12 }); } }
 }
 function section6(t, S, d) {
@@ -476,7 +483,7 @@ function section6(t, S, d) {
     for (i = 7; i >= 0; i--) if (t >= invT[i][0]) break; if (i < 0) return; u = (t - invT[i][0]) / invT[i][1]; if (u > 1.15) return;
     var flip = sm((u - .34) / .16), out = 1 - sm((u - 1) / .15), topm = cy - .887 * S.zoom * U, lh = Math.min(U * .26, (topm - 14) / 3.1), y3 = topm - lh * 2.25, en3 = Math.min(1, u / .12) * out;
     sz = Math.min(fit(INV[i][0], lh * .82, mw), lh * .82);
-    F.text(INV[i][0], cx, y3, sz, [1, .84, .52, en3 * lerp(1, .55, flip)], { fx: function (k, n, o) { o.dy = (1 - E.out3(Math.min(1, u / .2))) * sz * .25; } });
+    F.text(INV[i][0], cx, y3, sz, [1, .84, .52, en3 * lerp(1, .86, flip)], { fx: function (k, n, o) { o.dy = (1 - E.out3(Math.min(1, u / .2))) * sz * .25; } });
     F.text('becomes', cx, y3 + lh * .82, lh * .4, [.953, .925, .851, .8 * flip * out], { track: lh * .1 });
     sz = Math.min(fit(INV[i][1], lh * .9, mw), lh * .9);
     if (flip > 0) F.text(INV[i][1], cx, y3 + lh * 1.85, sz, [.86, .89, .96, flip * out], { fx: function (k, n, o) { o.sy = Math.sin(flip * Math.PI / 2); } });
@@ -499,10 +506,13 @@ function section6(t, S, d) {
   }
   if (t >= T6a + 1 && t < T6b + .8) {           // table 6: what was here first
     for (i = 29; i >= 0; i--) if (t >= impT[i][0]) break; if (i < 0) return; u = (t - impT[i][0]) / impT[i][1]; a = Math.min(1, u / .16) * Math.min(1, (1 - u) / .16); if (i === 29 && u > 1) return;
-    var s1 = U * .1, lines = wrapText(IMP[i], d.PORT ? 22 : 26), s2 = Math.min(U * .17, mw / 12), j;
-    for (j = 0; j < lines.length; j++) s2 = Math.min(s2, fit(lines[j], s2, Math.min(mw, U * 1.5)));
-    F.text(('0' + (i + 1)).slice(-2) + '  ' + SECT[i].name.toUpperCase(), cx, cy - U * .34, s1 * .8, [.72, .76, .84, a * .9], { track: s1 * .22 });
-    for (j = 0; j < lines.length; j++) F.text(lines[j], cx, cy + U * .3 + s2 * (.3 + j * 1.12), s2, [1, .86, .56, a]);
+    // the words take the caption's place (no caption speaks here): the right-hand column on wide screens, under the ring on phones
+    var s1 = U * .1, lines = wrapText(IMP[i], d.PORT ? 24 : 22), cw = d.PORT ? d.W - 40 : d.W * .37 - 24, s2 = d.PORT ? Math.min(32, d.W * .085) : Math.min(U * .17, d.W * .034), j, tx = d.PORT ? d.W / 2 : d.W * F.COL, ty, al6 = d.PORT ? 0 : -1;
+    for (j = 0; j < lines.length; j++) s2 = Math.min(s2, fit(lines[j], s2, cw));
+    ty = d.PORT ? d.H * .76 - (lines.length - 1) * s2 * .56 : d.H * .5 - (lines.length - 1) * s2 * .56;
+    var kk = Math.max(12, s1 * .8);
+    F.text(('0' + (i + 1)).slice(-2) + '  ' + SECT[i].name.toUpperCase(), tx, ty - s2 * 1.25, kk, [.75, .79, .87, a * .95], { track: kk * .28, align: al6 });
+    for (j = 0; j < lines.length; j++) F.text(lines[j], tx, ty + s2 * (.3 + j * 1.12), s2, [1, .86, .56, a], { align: al6 });
   }
 }
 function section5(t, S, d) {
@@ -519,5 +529,6 @@ shots.need = function (t) { if (t >= f1.t0 + 12 && t < x1.t0 - 3) return []; ret
 shots.boundary = function (t, dt) {         // true in the gaps between captions: the only place quality may step
   var c = D.caps, i; for (i = 0; i < c.length; i++) if (t >= c[i].t0 - .1 && t <= c[i].t0 + c[i].say + .1) return false; return true;
 };
-shots.built = D.dur;                   // how far the picture is choreographed so far
+shots.built = D.dur;
+shots.endAt = z5.t0 + 3.4;               // "Enter the map" arrives under the last line and stays to the end                   // how far the picture is choreographed so far
 })();

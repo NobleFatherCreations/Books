@@ -93,7 +93,7 @@ var COMMON = '#version 300 es\nprecision highp float;\n' +
 var FS_SCENE = COMMON + [
 'uniform vec2 uRes,uCtr,uCam,uLS;uniform float uUnit,uZoom,uRot,uT,uPT;',
 'uniform sampler2D tOrig,tCore,tLogo,tEmb;',
-'uniform float uOrigA,uCoreA,uLogoA,uEmbA,uWords,uReveal,uFront,uTitle,uSpin,uDim,uOrigK,uRingDim;uniform vec2 uOrigP;uniform vec4 uRing;uniform float uRing0,uLRev,uLogoK,uLH;uniform vec4 uGen;uniform vec2 uFrontL,uPat,uLineH,uLineV;uniform float uPatC;uniform vec3 uMk[10];uniform float uMkR,uMkL;uniform vec4 uBkP[30];uniform vec2 uBkQ[30];uniform float uBkA,uThN,uThA;uniform vec2 uTh[8];uniform vec4 uTrA[6],uTrB[6];',
+'uniform float uOrigA,uCoreA,uLogoA,uEmbA,uWords,uReveal,uFront,uTitle,uSpin,uDim,uOrigK,uRingDim;uniform vec2 uOrigP;uniform vec4 uRing;uniform float uRingL,uRing0,uLRev,uLogoK,uLH;uniform vec4 uGen;uniform vec2 uFrontL,uPat,uLineH,uLineV;uniform float uPatC;uniform vec3 uMk[10];uniform float uMkR,uMkL;uniform vec4 uBkP[30];uniform vec2 uBkQ[30];uniform float uBkA,uThN,uThA;uniform vec2 uTh[8];uniform vec4 uTrA[6],uTrB[6];',
 'uniform vec3 uLight;uniform vec4 uOrb;uniform float uMotes,uGlint,uStars,uDust,uStreak,uHole,uRingS,uPoolR,uPoolK;',
 'in vec2 v;out vec4 o;',
 'const float FR[8]=float[8](.207,.296,.38,.462,.547,.624,.713,.829);',
@@ -123,7 +123,7 @@ var FS_SCENE = COMMON + [
 '    if(uEmbA>0.){vec4 a=art(tEmb,pl,uLH,uSpin)*uEmbA*lm;a.rgb*=uLogoK;col=col*(1.-a.a)+a.rgb;}',
 '    if(uLogoA>0.){float wm=smoothstep(uWords+.03,uWords-.03,rl);vec4 a=art(tLogo,pl,uLH,uSpin)*uLogoA*wm*lm;a.rgb*=uLogoK;col=col*(1.-a.a)+a.rgb;}if(uFrontL.y>0.){float dF=(rl-uFrontL.x)*uLH/(px*2.6);col+=gold*(exp(-dF*dF)*1.1+exp(-dF*dF/70.)*.22)*uFrontL.y;}}',
 '  if(uRing.x>0.){float an=atan(p.x,p.y);float st=.20943951;float idx=floor(an/st+.5);float ii=mod(idx+30.,30.);',
-'    if(ii>.5||uRing0>.5){float ia=idx*st;vec2 pl=rot(ia)*(rot(-ia)*p-vec2(0.,uRing.y));float vis=clamp(uRing.z-ii,0.,1.);float dh=abs(ii-uRing.w);dh=min(dh,30.-dh);float hi=uRing.w<-50.?1.:uRing.w<-5.?0.:smoothstep(1.15,0.,dh);',
+'    if(ii>.5||uRing0>.5){float ia=idx*st;vec2 pl=rot(ia)*(rot(-ia)*p-vec2(0.,uRing.y));float vis=clamp(uRing.z-ii,0.,1.);float dh=abs(ii-uRing.w);dh=min(dh,30.-dh);float hi=uRing.w<-50.?1.:uRing.w<-5.?0.:smoothstep(1.15,0.,dh);hi=max(hi,clamp(uRingL-ii,0.,1.));',
 '      vec4 a=art(tOrig,pl,1.,0.)*uRing.x*vis;a.rgb*=mix(uRingDim,1.,hi);col=col*(1.-a.a)+a.rgb;',
 '      float e=(length(pl)-.887)/(px*2.5+.025);col+=gold*exp(-e*e)*hi*vis*uRing.x*.8;}}',
 '  if(uGen.y>0.){vec2 gd=vec2(-.545,.838);for(int k=6;k>=1;k--){float fk=float(k);float sc=pow(.72,fk);vec2 gc=gd*(1.-sc)/.28*1.55;float vis=clamp(uGen.x-(fk-1.),0.,1.);if(vis>0.){float hi=smoothstep(.9,0.,abs(fk-uGen.z));vec4 a=art(tOrig,p-gc,sc,0.)*uGen.y*vis;a.rgb*=.5*pow(.9,fk)+hi*.9;col=col*(1.-a.a)+a.rgb;float e=(length(p-gc)-.887*sc)/(px*2.5+.02*sc);col+=gold*exp(-e*e)*hi*vis*uGen.y*.9;}}}',
@@ -343,7 +343,7 @@ var S = F.S = {}; F.opt = {};                // F.opt: test switches for the gat
 function render(t) {
   S = F.S = F.shots.state(t, S);            // pure: t -> state
   TXT.n = 0; F.rec = F.capture ? [] : null; F.shots.draw(t, S);            // pure: pushes text for this frame
-  captions(t);
+  captions(t); endState(t);
   if (!gl) return fallback2d(S);
   keep(F.shots.need(t));
   var T = TIERS[tier], u, i, cx = cv.width * S.cxf, cy = cv.height * (1 - CYF), unit = U * DPR;
@@ -352,7 +352,7 @@ function render(t) {
   gl.uniform1f(u.uZoom, S.zoom); gl.uniform1f(u.uRot, S.rot); gl.uniform2f(u.uCam, S.camx, S.camy);
   gl.uniform1f(u.uT, t); gl.uniform1f(u.uPT, S.pt);
   gl.uniform2f(u.uOrigP, S.origx, S.origy); gl.uniform1f(u.uOrigK, S.origk); gl.uniform4f(u.uRing, S.ringa, S.ringr, S.ringn, S.ringhi); gl.uniform1f(u.uRingDim, S.ringdim);
-  gl.uniform1f(u.uLH, S.ls); gl.uniform1f(u.uRing0, S.ring0); gl.uniform1f(u.uLRev, S.lrev); gl.uniform1f(u.uLogoK, S.logok); gl.uniform4f(u.uGen, S.gen, S.gena, S.genlit, 0); gl.uniform2f(u.uFrontL, S.frontl, S.frontla); gl.uniform2f(u.uPat, S.patr, S.pata); gl.uniform1f(u.uPatC, S.patc); gl.uniform3fv(u.uMk, S.mk); gl.uniform1f(u.uMkR, S.mkr); gl.uniform1f(u.uMkL, S.mkl); gl.uniform4fv(u.uBkP, S.bkp); gl.uniform2fv(u.uBkQ, S.bkq); gl.uniform4fv(u.uTrA, S.tra); gl.uniform4fv(u.uTrB, S.trb); gl.uniform1f(u.uBkA, S.bka); gl.uniform2fv(u.uTh, S.th); gl.uniform1f(u.uThN, S.thn); gl.uniform1f(u.uThA, S.tha); gl.uniform2f(u.uLineH, S.lineh, S.lineha); gl.uniform2f(u.uLineV, S.linev, S.lineva);
+  gl.uniform1f(u.uLH, S.ls); gl.uniform1f(u.uRing0, S.ring0); gl.uniform1f(u.uRingL, S.ringl || 0); gl.uniform1f(u.uLRev, S.lrev); gl.uniform1f(u.uLogoK, S.logok); gl.uniform4f(u.uGen, S.gen, S.gena, S.genlit, 0); gl.uniform2f(u.uFrontL, S.frontl, S.frontla); gl.uniform2f(u.uPat, S.patr, S.pata); gl.uniform1f(u.uPatC, S.patc); gl.uniform3fv(u.uMk, S.mk); gl.uniform1f(u.uMkR, S.mkr); gl.uniform1f(u.uMkL, S.mkl); gl.uniform4fv(u.uBkP, S.bkp); gl.uniform2fv(u.uBkQ, S.bkq); gl.uniform4fv(u.uTrA, S.tra); gl.uniform4fv(u.uTrB, S.trb); gl.uniform1f(u.uBkA, S.bka); gl.uniform2fv(u.uTh, S.th); gl.uniform1f(u.uThN, S.thn); gl.uniform1f(u.uThA, S.tha); gl.uniform2f(u.uLineH, S.lineh, S.lineha); gl.uniform2f(u.uLineV, S.linev, S.lineva);
   gl.uniform1f(u.uOrigA, S.orig); gl.uniform1f(u.uCoreA, S.core); gl.uniform1f(u.uLogoA, S.logo); gl.uniform1f(u.uEmbA, S.emb);
   gl.uniform1f(u.uWords, S.words); gl.uniform1f(u.uReveal, S.reveal); gl.uniform1f(u.uFront, S.front); gl.uniform1f(u.uTitle, S.title);
   gl.uniform1f(u.uSpin, S.spin); gl.uniform1f(u.uDim, S.dim);
@@ -412,7 +412,8 @@ function capBuild(el, c) {
 function captions(t) {
   var i, c, slot, shown = [false, false], best = 0;
   for (i = 0; i < CAPS.length; i++) {
-    c = CAPS[i]; if (t < c.t0 - .05 || t > c.t1 + c.out) continue;
+    c = CAPS[i]; if (t < c.t0 - .45 || t > c.t1 + c.out) continue;
+    if (t < c.t0 - .05) { best = Math.max(best, sm((t - c.t0 + .45) / .38)); continue; }   // the dark ground arrives before the words, never after them
     slot = i % 2; shown[slot] = true;
     var el = capEl[slot]; if (capCur[slot] !== i) { capBuild(el, c); capCur[slot] = i; }
     var age = t - c.t0, left = c.t1 + c.out - t, o = 1, y = 0, sc = 1, n = el._g.length, k, gi, ge;
@@ -421,12 +422,19 @@ function captions(t) {
     el.style.transform = 'translate3d(-50%,' + (Math.round(y * DPR) / DPR) + 'px,0) scale(' + sc.toFixed(4) + ')';
     var per = Math.min(.5, Math.max(.16, (c.t1 - c.t0) * .5 / n));
     for (k = 0; k < n; k++) { gi = clamp((age - k * per) / .7, 0, 1); ge = E.out3(gi); var s = el._g[k].style; s.opacity = ge.toFixed(3); s.transform = 'translate3d(0,' + (Math.round((1 - ge) * 16 * DPR) / DPR) + 'px,0)'; }
-    best = Math.max(best, o * clamp(age / .5, 0, 1));
+    best = Math.max(best, o);
   }
   for (slot = 0; slot < 2; slot++) if (!shown[slot] && capCur[slot] !== -1) { capEl[slot].style.opacity = 0; capCur[slot] = -1; }
   pool.style.opacity = (best * (S.poolk == null ? 1 : S.poolk)).toFixed(3);
 }
 
+/* ---------- the end: "Enter the map" is part of the picture, a function of time like everything else ---------- */
+var door = null;
+function endState(t) {
+  if (!door) door = d.querySelector('#end .door'); var e = mode === 'film' && t >= 0 && F.shots.endAt != null ? sm((t - F.shots.endAt) / 1.2) : 0;
+  d.documentElement.classList.toggle('ended', e > 0);
+  if (door) { door.style.opacity = e.toFixed(3); door.style.transform = 'translate3d(0,' + (Math.round((1 - E.out3(e)) * 12 * DPR) / DPR) + 'px,0)'; }
+}
 /* ---------- clock ---------- */
 var mode = 'entry', t = 0, playing = false, lastNow = 0, tau = 0, raf = 0, dirty = true, audio = null;
 F.dur = D.dur;
@@ -447,7 +455,7 @@ function frame() {
 }
 function go() { if (!raf && !F.capture && !d.hidden) raf = requestAnimationFrame(frame); }
 var drift = 0;
-F.seek = function (x) { mode = x < 0 ? 'entry' : 'film'; if (x < 0) { tau = -x; F.shots.tau = tau; render(-1); } else { t = clamp(x, 0, F.dur); if (audio) try { audio.currentTime = t; } catch (e) {} render(t); progress(); } d.documentElement.setAttribute('data-mode', mode); return F.S; };
+F.seek = function (x) { mode = x < 0 ? 'entry' : 'film'; d.documentElement.setAttribute('data-mode', mode); if (x < 0) { tau = -x; F.shots.tau = tau; render(-1); } else { t = clamp(x, 0, F.dur); if (audio) try { audio.currentTime = t; } catch (e) {} render(t); progress(); } d.documentElement.setAttribute('data-mode', mode); return F.S; };
 F.time = function () { return mode === 'entry' ? -tau : t; };
 
 /* ---------- governor: frame-time window, steps between shots ---------- */
@@ -487,7 +495,7 @@ function begin() {
   if (navigator.vibrate) try { navigator.vibrate(12); } catch (e) {}
   setPlaying(true); showUI();
 }
-function ended() { d.documentElement.classList.add('ended'); wakeOff(); }
+function ended() { endState(t); wakeOff(); }
 function progress() { var p = $('bar'); if (p) p.style.transform = 'scaleX(' + (t / F.dur).toFixed(5) + ')'; }
 var uiT = 0;
 function showUI() { d.documentElement.classList.add('ui'); clearTimeout(uiT); uiT = setTimeout(function () { if (playing) d.documentElement.classList.remove('ui'); }, 2500); }

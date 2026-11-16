@@ -61,9 +61,11 @@ html[data-mode=film].ui #ctl,html[data-mode=film].paused #ctl{opacity:1;pointer-
 html[data-mode=film] #prog{opacity:1}
 #bar{position:absolute;inset:0;background:var(--gold);transform-origin:0 50%;transform:scaleX(0)}
 #prog i{position:absolute;top:-2px;width:1px;height:6px;background:rgba(243,236,217,.35)}
-#end{position:absolute;inset:0;display:none;align-items:flex-end;justify-content:center;padding-bottom:16vh;z-index:5}
+#end{position:absolute;left:0;right:0;top:calc(77% + 64px);display:none;justify-content:center;z-index:5;pointer-events:none}
 html.ended #end{display:flex}
-.door{font:400 1rem/1 "Source Serif",Georgia,serif;letter-spacing:.3em;text-indent:.3em;text-transform:uppercase;color:#0b0d14;background:var(--gold);padding:18px 30px;border-radius:40px;text-decoration:none}
+@media (min-aspect-ratio:1/1){#end{left:calc(78% - 18.5vw);right:auto;top:calc(50% + 112px);justify-content:flex-start}}
+.door{font:400 1rem/1 "Source Serif",Georgia,serif;letter-spacing:.3em;text-indent:.3em;text-transform:uppercase;color:#0b0d14;background:var(--gold);padding:18px 30px;border-radius:40px;text-decoration:none;opacity:0;pointer-events:auto;box-shadow:0 0 48px rgba(233,194,122,.28)}
+.door:focus-visible{outline:2px solid var(--ink);outline-offset:4px}
 #hud{position:absolute;left:8px;top:8px;margin:0;padding:8px 10px;font:11px/1.35 ui-monospace,Menlo,monospace;color:#9fe;background:rgba(0,0,0,.6);z-index:9;white-space:pre;pointer-events:none}
 /* the whole script as text */
 #text{position:fixed;inset:0;overflow:auto;background:var(--bg);z-index:20;display:none;padding:56px 22px 80px}

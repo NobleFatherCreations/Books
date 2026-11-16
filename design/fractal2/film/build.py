@@ -117,6 +117,7 @@ def layout(caps):
         c['out'] = .22 if c.get('one') else .6
         c['t1'] = round(nxt - .32 if c.get('one') else min(nxt - c['out'] - .08, max(c['t0'] + c['say'] + 2.2, c['t0'] + need + .4)), 3)
         c['need'] = round(need, 2)
+    caps[-1]['t1'] = round(start + 8 * BAR + 1, 3)          # the last line stays with the button to the end of the film
     return SEC, start + 8 * BAR, marks
 
 def font():

@@ -37,11 +37,11 @@ for s in sectors:
     lx = 500 + 486 * math.sin(a); ly = 500 - 486 * math.cos(a) + 14
     nodes.append(f'<g class="nd {st}" data-i="{n - 1}"><circle class="hit" cx="{x:.1f}" cy="{y:.1f}" r="36"/><circle class="dot" cx="{x:.1f}" cy="{y:.1f}" r="{18 if st == "open" else 14}"/><text x="{lx:.1f}" y="{ly:.1f}" text-anchor="middle">{n:02d}</text></g>')
     label = {'open': 'Open', 'next': 'Next', 'soon': 'In production'}[st]
-    link = f'<a class="go" href="{OPEN[n][0]}">Enter {e(name)}</a>' if st == 'open' else f'<span class="st">{label}</span>'
-    items.append(f'<li class="{st}" id="s{n}"><span class="n">{n:02d}</span><div><h3>{e(name)}</h3><p class="rel">Your relationship with {e(s["relationship"])}</p><p class="imp">Here first: {e(imp[n - 1][0].lower() + imp[n - 1][1:])}</p>{link}</div></li>')
+    link = f'<a class="go" href="{OPEN[n][0]}">Enter {e(name)}</a>' if st == 'open' else ''          # one status line for the group, not a pill per row
+    items.append(f'<li class="{st}" id="s{n}"><span class="n">{n:02d}</span><div><h3><button type="button" class="pick" data-i="{n - 1}">{e(name)}</button></h3><p class="rel">Your relationship with {e(s["relationship"])}</p><p class="imp">Here first: {e(imp[n - 1][0].lower() + imp[n - 1][1:])}</p>{link}</div></li>')
     data.append({'n': n, 'name': name, 'rel': s['relationship'], 'imp': imp[n - 1], 'st': st, 'url': OPEN[n][0] if n in OPEN else ''})
 for i, (g, x) in enumerate(pairs):
-    pr.append(f'<li><button type="button" class="pr" aria-expanded="false"><span class="pn">{i + 1:02d}</span><span class="k2">Technique</span><span class="w g">{e(g)}</span><span class="rv"><span class="in"><span class="k2">Inversion</span><span class="w x">{e(x)}</span></span></span></button></li>')
+    pr.append(f'<li><button type="button" class="pr" aria-expanded="false"><span class="pn">{i + 1:02d}</span><span class="face"><span class="w g">{e(g)}</span><span class="rv"><span class="k2">Inversion</span><span class="w x">{e(x)}</span></span></span></button></li>')
 
 CSS = r"""
 @font-face{font-family:"Voice";src:url(%%VOICE%%) format("truetype");font-weight:400;font-style:normal;font-display:swap}
@@ -60,7 +60,7 @@ header p{margin:16px auto 0;max-width:30em;color:var(--ink2)}
 @media (min-width:900px){.stage{grid-template-columns:minmax(0,1.15fr) minmax(0,.85fr);gap:56px;max-width:66rem}.card{text-align:left}}
 .fig{position:relative;width:100%;aspect-ratio:1/1}
 .fig svg{position:absolute;inset:0;display:block;width:100%;height:100%;overflow:visible}
-.fx{position:absolute;inset:0;width:100%;height:100%;display:block;pointer-events:none}
+.fx{position:absolute;inset:0;width:100%;height:100%;display:block;pointer-events:none;-webkit-mask-image:radial-gradient(closest-side,#000 78%,transparent 100%);mask-image:radial-gradient(closest-side,#000 78%,transparent 100%)}
 #fx{opacity:0;transition:opacity .3s ease-out}
 .fig.gl #fx{opacity:1}
 .fig.gl #fxs{opacity:0}
@@ -98,7 +98,7 @@ h2.sec{font-family:"Voice",Georgia,serif;font-weight:400;font-size:clamp(2rem,6v
 ul.pairs{list-style:none;margin:0;padding:0;display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:8px;align-items:start}
 @media (min-width:700px){ul.pairs{grid-template-columns:repeat(3,minmax(0,1fr));gap:16px}}
 @media (min-width:1100px){ul.pairs{grid-template-columns:repeat(5,minmax(0,1fr))}}
-.pr{display:block;width:100%;min-height:96px;text-align:left;font:inherit;color:inherit;background:transparent;border:1px solid var(--line);border-radius:16px;padding:16px;cursor:pointer;position:relative;transition:border-color .25s,background-color .25s}
+.pr{display:block;width:100%;min-height:112px;text-align:left;font:inherit;color:inherit;background:transparent;border:1px solid var(--line);border-radius:16px;padding:16px;cursor:pointer;position:relative;transition:border-color .25s,background-color .25s}
 @media (hover:hover){.pr:hover{border-color:rgba(233,194,122,.5)}}
 .pr[aria-expanded=true]{border-color:rgba(233,194,122,.6);background:rgba(233,194,122,.04)}
 .pn{position:absolute;right:16px;top:16px;font-size:.75rem;letter-spacing:.12em;color:var(--ink2)}
@@ -106,11 +106,27 @@ ul.pairs{list-style:none;margin:0;padding:0;display:grid;grid-template-columns:r
 .w{display:block;font-family:"Voice",Georgia,serif;font-size:1.5rem;line-height:1.12;overflow-wrap:anywhere}
 .w.g{color:var(--gold)}
 .w.x{color:var(--grey)}
-.rv{display:grid;grid-template-rows:0fr;opacity:0;visibility:hidden;transition:grid-template-rows .3s ease-out,opacity .3s ease-out,visibility 0s .3s}
-.rv .in{overflow:hidden;min-height:0}
-.rv .in:before{content:"";display:block;height:1px;background:var(--line);margin:16px 0}
-.pr[aria-expanded=true] .rv{grid-template-rows:1fr;opacity:1;visibility:visible;transition-delay:0s}
-@media (prefers-reduced-motion:reduce){.rv,.pr,.go{transition:none}}
+.face{display:grid;padding-right:24px}
+.face>*{grid-area:1/1;align-self:end;transition:opacity .3s ease-out,transform .3s ease-out}
+.rv{opacity:0;visibility:hidden;transform:translateY(6px);transition:opacity .3s ease-out,transform .3s ease-out,visibility 0s .3s}
+.pr[aria-expanded=true] .rv{opacity:1;visibility:visible;transform:none;transition-delay:0s}
+.pr[aria-expanded=true] .w.g{opacity:0;transform:translateY(-6px)}
+@media (prefers-reduced-motion:reduce){.rv,.pr,.go,.face>*{transition:none}}
+.status{display:flex;flex-wrap:wrap;justify-content:center;gap:8px 24px;margin:-16px auto 32px;font-size:.875rem;letter-spacing:.06em;color:var(--ink2)}
+.status span{display:inline-flex;align-items:center;gap:8px}
+.sd{display:inline-block;width:10px;height:10px;border-radius:50%;border:1.5px solid rgba(243,236,217,.4);background:#111728}
+.sd.o{background:var(--gold);border-color:var(--gold)}.sd.x{border-color:var(--gold)}
+ol.all li.next .n{color:rgba(233,194,122,.75)}
+.pick{font:inherit;color:inherit;background:none;border:0;padding:0;margin:0;text-align:left;cursor:pointer;min-height:32px;text-decoration:underline;text-decoration-color:rgba(243,236,217,.18);text-underline-offset:6px;text-decoration-thickness:1px}
+@media (hover:hover){.pick:hover{text-decoration-color:var(--gold)}}
+.pick:focus-visible{outline:2px solid var(--gold);outline-offset:4px}
+li.on .pick{color:var(--gold)}
+/* the film's world: one warm glow behind the map, and the film's grain over everything */
+body:before{content:"";position:absolute;left:50%;top:0;width:min(1400px,180vw);height:1100px;transform:translateX(-50%);background:radial-gradient(closest-side,rgba(233,194,122,.13),rgba(233,194,122,.05) 45%,rgba(5,7,13,0) 100%);pointer-events:none;z-index:-1}
+body{position:relative;isolation:isolate}
+.grain{position:fixed;inset:-50%;width:200%;height:200%;pointer-events:none;z-index:50;opacity:.07;background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='160' height='160'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.9' numOctaves='2' stitchTiles='stitch'/%3E%3CfeColorMatrix values='0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 1.4 -.2'/%3E%3C/filter%3E%3Crect width='160' height='160' filter='url(%23n)'/%3E%3C/svg%3E");animation:grain 1s steps(6) infinite}
+@keyframes grain{0%{transform:translate(0,0)}17%{transform:translate(-3%,2%)}33%{transform:translate(2%,-4%)}50%{transform:translate(-4%,-1%)}67%{transform:translate(3%,3%)}83%{transform:translate(-1%,4%)}100%{transform:translate(0,0)}}
+@media (prefers-reduced-motion:reduce){.grain{animation:none}}
 ol.all{list-style:none;margin:0;padding:0;display:grid;grid-template-columns:1fr;gap:0}
 @media (min-width:760px){ol.all{grid-template-columns:1fr 1fr;column-gap:48px}}
 ol.all li{display:flex;gap:16px;padding:24px 0;border-top:1px solid var(--line)}
@@ -126,17 +142,19 @@ footer a{margin:0 8px;text-underline-offset:4px;display:inline-flex;align-items:
 """
 
 JS = r"""
-(function(){var S=%%DATA%%,card=document.getElementById('card'),svg=document.getElementById('ring'),nd=[].slice.call(document.querySelectorAll('.nd')),cur=-1,
+(function(){var S=%%DATA%%,card=document.getElementById('card'),svg=document.getElementById('ring'),nd=[].slice.call(document.querySelectorAll('.nd')),cur=-1,lockT=0,rows=[].slice.call(document.querySelectorAll('ol.all li')),
 dec=matchMedia('(max-width:700px),(pointer:coarse)');
 function esc(s){return s.replace(/[&<>"]/g,function(c){return{'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]})}
-function show(i){if(i===cur)return;cur=i;var s=S[i];nd.forEach(function(g,k){g.classList.toggle('on',k===i);if(!dec.matches)g.setAttribute('aria-pressed',k===i?'true':'false')});
-card.innerHTML='<p class="k">'+('0'+s.n).slice(-2)+' of 30</p><h2>'+esc(s.name)+'</h2><p>Your relationship with '+esc(s.rel)+'</p><p class="imp">Here first: '+esc(s.imp.charAt(0).toLowerCase()+s.imp.slice(1))+'</p>'+(s.st==='open'?'<a class="go" href="'+s.url+'">Enter</a>':'<span class="st">'+(s.st==='next'?'Next':'In production')+'</span>')}
+function show(i){if(i===cur)return;cur=i;var s=S[i];rows.forEach(function(li,k){li.classList.toggle('on',k===i)});nd.forEach(function(g,k){g.classList.toggle('on',k===i);if(!dec.matches)g.setAttribute('aria-pressed',k===i?'true':'false')});
+card.innerHTML='<h2>'+esc(s.name)+'</h2><p>Your relationship with '+esc(s.rel)+'</p><p class="imp">Here first: '+esc(s.imp.charAt(0).toLowerCase()+s.imp.slice(1))+'</p>'+(s.st==='open'?'<a class="go" href="'+s.url+'">Enter</a>':'<span class="st">'+(s.st==='next'?'Next':'In production')+'</span>')}
 /* on phones and touch screens the ring is a picture and the list below is the route: nothing in it is tappable */
 function mode(){var d=dec.matches;svg.setAttribute('aria-hidden',d?'true':'false');if(d)svg.removeAttribute('role');else svg.setAttribute('role','group');
 nd.forEach(function(g,i){var s=S[i];if(d){g.removeAttribute('tabindex');g.removeAttribute('role');g.removeAttribute('aria-label');g.removeAttribute('aria-pressed')}else{g.setAttribute('tabindex','0');g.setAttribute('role','button');g.setAttribute('aria-pressed',i===cur?'true':'false');g.setAttribute('aria-label',s.n+'. '+s.name+'. '+(s.st==='open'?'Open':s.st==='next'?'Next':'In production'))}});if(d)show(11)}
 nd.forEach(function(g,i){var s=S[i];
-g.addEventListener('click',function(){if(!dec.matches)show(i)});g.addEventListener('mouseenter',function(){if(!dec.matches)show(i)});g.addEventListener('focus',function(){show(i)});
+g.addEventListener('click',function(){if(!dec.matches)show(i)});g.addEventListener('mouseenter',function(){if(!dec.matches&&performance.now()>lockT)show(i)});g.addEventListener('focus',function(){show(i)});
 g.addEventListener('keydown',function(e){if(e.key==='Enter'||e.key===' '){e.preventDefault();show(i);if(s.url)location.href=s.url}else if(e.key==='ArrowRight'||e.key==='ArrowDown'){e.preventDefault();nd[(i+1)%30].focus()}else if(e.key==='ArrowLeft'||e.key==='ArrowUp'){e.preventDefault();nd[(i+29)%30].focus()}})});
+[].slice.call(document.querySelectorAll('.pick')).forEach(function(b){b.addEventListener('click',function(){var i=+b.getAttribute('data-i');show(i);lockT=performance.now()+1500;
+var r=card.getBoundingClientRect();if(r.top<0||r.bottom>innerHeight)card.scrollIntoView({behavior:matchMedia('(prefers-reduced-motion:reduce)').matches?'auto':'smooth',block:'center'})})});
 show(11);mode();if(dec.addEventListener)dec.addEventListener('change',mode);
 /* the thirty pairs: tap or focus a technique to see its inversion */
 [].slice.call(document.querySelectorAll('.pr')).forEach(function(b){
@@ -187,6 +205,7 @@ page = """<!doctype html>
 <style>%%CSS%%</style>
 </head>
 <body>
+<div class="grain" aria-hidden="true"></div>
 <div class="wrap">
 <header>
 <h1>The map</h1>
@@ -212,6 +231,7 @@ page = """<!doctype html>
 </ul>
 <h2 class="sec">All thirty</h2>
 <p class="lead">Each sector governs one of your relationships. Under each one is what was here first.</p>
+%%STATUS%%
 <ol class="all">
 %%ITEMS%%
 </ol>
@@ -221,10 +241,12 @@ page = """<!doctype html>
 </body>
 </html>
 """
+on = [x for x in data if x['st'] == 'open']; nx = [x for x in data if x['st'] == 'next']; rest = 30 - len(on) - len(nx)
+STATUS = '<p class="status">' + ''.join(f'<span><i class="sd o"></i>Open: {x["n"]:02d} {e(x["name"])}</span>' for x in on) + ''.join(f'<span><i class="sd x"></i>Next: {x["n"]:02d} {e(x["name"])}</span>' for x in nx) + f'<span><i class="sd s"></i>In production: the other {rest}</span></p>'
 ticks = ''.join(f'<line x1="500" y1="172" x2="500" y2="{184 if i % 5 else 194}" stroke="rgba(243,236,217,.26)" stroke-width="1" transform="rotate({i * 3} 500 500)"/>' for i in range(120))
 js = JS.replace('%%DATA%%', json.dumps(data, ensure_ascii=False, separators=(',', ':')).replace('</', '<\\/'))
 css = CSS.replace('%%VOICE%%', VOICE).replace('%%SERIF%%', SERIF)
-for k, v in (('%%CSS%%', css), ('%%JS%%', js), ('%%FAVICON%%', FAVICON), ('%%STILL%%', STILL), ('%%MAP%%', MAP), ('%%TICKS%%', ticks), ('%%NODES%%', ''.join(nodes)), ('%%PAIRS%%', '\n'.join(pr)), ('%%ITEMS%%', ''.join(items))):
+for k, v in (('%%CSS%%', css), ('%%JS%%', js), ('%%FAVICON%%', FAVICON), ('%%STILL%%', STILL), ('%%MAP%%', MAP), ('%%TICKS%%', ticks), ('%%NODES%%', ''.join(nodes)), ('%%PAIRS%%', '\n'.join(pr)), ('%%ITEMS%%', ''.join(items)), ('%%STATUS%%', STATUS)):
     page = page.replace(k, v)
 open(OUT, 'w', encoding='utf-8').write(page)
 print('wrote hub.html', len(page) // 1024, 'KB')

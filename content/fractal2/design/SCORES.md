@@ -503,3 +503,11 @@ Left open: section 1 is still one light for a minute (critic: "stock lens-flare 
 | 3 | 3 | 2 | 3 | 4 | 2 | 3 | 2 | 3 |
 Top fixes named: (1) 870-1050 s is one dim ring and light for about three minutes: the chain needs to be gold links at 35-40% of the width, one per named belief, and the map art lifted or removed; (2) the held table of thirty pairs is 13 px: show six at a time at 22 px or more; (3) table 3 words cross the ring and the map lettering, "becomes" is tiny, and the stage word is missing from some frames; (4) words in the fall pile on each other and run under the caption; (5) marker labels collide and are 10 px; (6) desktop: captions touch the ring at two points, the window's light is cut off near the caption column.
 Weakest section: 11, from 870 to 1050 s. Hub: a CSS gradient stands in for the map art, numerals about 6 px on phones, body face differs from the film.
+
+## Film round 3 (whole film and hub), 2026-11-16. Critic: impeccable-finish-reviewer, from frames. Scores are for the build BEFORE the fixes below.
+| | Hierarchy | Type | Space | Craft | Distinct | Feeling | Phone | Legibility | Continuity |
+|---|---|---|---|---|---|---|---|---|---|
+| Sections 1-2 | 4 | 4 | 3 | 4 | 3 | 4 | 4 | 4 | 3 |
+| Sections 3-11 | 3 | 4 | 3 | 4 | 4 | 3 | 3 | 3 | 3 |
+| Hub | 3 | 4 | 3 | 3 | 3 | 2 | 4 | 4 | not judged |
+Fixed after scoring, NOT re-scored: the ending (rooms light one by one and stay lit, the whole map turns, the last line stays, "Enter the map" reachable by seek and on playback); the dark ground leads every caption; constellation labels and table 6 out of the caption's place; combination names clear of the map; portrait recomposed (ring to the screen edges, larger chain, tall three-across window, 12 px block labels); depth in section 1 (three star layers moving against the light); hub status line, in-place pair cards, no kicker, grain and glow, list rows update the card. One finding was a mid-fade moment (470.0 s), proved with frames at 471.5 and 472.5 s; the underlying cause (words before the dark ground) was fixed anyway.
