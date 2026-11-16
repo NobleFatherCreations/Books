@@ -75,6 +75,8 @@ print(json.dumps([int(ext(m[cy],cx)),int(ext(m[:,cx],cy))]))`, [f, String(pr.dpr
   const caps = cues.caps.filter(c => c.t0 < upto - 1);
   const shortc = caps.filter(c => c.t1 - c.t0 < c.need && c.text.split(' ').length > 1);
   ok(N + 'caption time on screen (0.35 s a word + 1.2 s)', shortc.length === 0, shortc.length ? shortc.map(c => c.slug).join(', ') : caps.length + ' captions');
+  const over = cues.caps.filter((c, i) => i + 1 < cues.caps.length && c.t1 + (c.text.split(' ').length > 1 ? .6 : .22) > cues.caps[i + 1].t0 + .001);
+  ok(N + 'one caption at a time (the last has left before the next arrives)', over.length === 0, over.length ? over.length + ' overlap, first: ' + over[0].slug : cues.caps.length + ' captions');
   let worst = 99, worstAt = '', inView = true;
   for (const c of caps) {
     const t = Math.min(c.t0 + 1.6, (c.t0 + c.t1) / 2 + .4);

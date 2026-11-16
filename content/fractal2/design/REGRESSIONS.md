@@ -30,3 +30,4 @@ Rule: a reported fault is not fixed until a check FAILS on the old behaviour and
 | 11-16 | own check | Begin click was swallowed by the stage tap handler (film paused at once) | `begin starts the film` |
 | 11-16 | own check | Screenshot taken before the GPU frame was presented | gate waits two animation frames |
 All earlier scroll-era rows that still apply are covered by: `round picture`, `layer budget`, `zero layout shift`, `same time gives the same frame` (nothing twice, no jumps), `caption time on screen`, `caption contrast` (the previously unguarded "too dim" fault), `no banding`.
+| 11-16 | own check of preview 01 | Outgoing caption still fading while the next arrived on top of it ("I looked for a single sector" under "I am still looking") | `one caption at a time` |

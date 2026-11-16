@@ -99,7 +99,7 @@ def layout(caps):
                 a = start + t + (0 if MARKS[c['mark']] == 'start' else say)
                 d = math.ceil(a / BAR - 1e-6) * BAR - a; t += d; marks[c['mark']] = round(a + d, 3)
             c['t0'] = round(start + t, 3); c['say'] = round(say, 3)
-            t += (say + .2) if c.get('one') else max(.35 * n + 1.4, say + .7 + min(1.0, n * .035))
+            t += (say + .2) if c.get('one') else max(.35 * n + 1.95, say + .7 + min(1.0, n * .035))
         t += TAIL.get(sec, 1.5)
         start += math.ceil(t / (4 * BAR)) * 4 * BAR
     for i, c in enumerate(caps):
@@ -107,7 +107,7 @@ def layout(caps):
         n = len(c['text'].split())
         need = .35 * n + 1.2                               # blueprint rule: minimum time on screen
         c['out'] = .22 if c.get('one') else .6
-        c['t1'] = round(nxt - .32 if c.get('one') else min(nxt - .12, max(c['t0'] + c['say'] + 2.2, c['t0'] + need + .4)), 3)
+        c['t1'] = round(nxt - .32 if c.get('one') else min(nxt - c['out'] - .08, max(c['t0'] + c['say'] + 2.2, c['t0'] + need + .4)), 3)
         c['need'] = round(need, 2)
     return SEC, start + 8 * BAR, marks
 
