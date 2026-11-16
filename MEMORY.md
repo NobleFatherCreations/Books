@@ -5094,5 +5094,5 @@ The owner was (fairly) angry that each fix shipped new faults. Standing rule fro
 - Table 4: the mirror line is a real glass lens (`uGl`, per-channel refraction on full/reduced, single index on low, drawn line in the 2D fallback).
 - Phone marker labels that do not fit beside their marker move above/below it.
 - Gate additions (`scripts/film2-check.mjs`): GPU labels (size, on screen, no overlap, markers as boxes; uses `FILM.rec` recorded in capture mode), GPU label contrast from pixels (`FILM.opt.notext`), refraction confined to the lens (`FILM.opt.norefr`), window light reaches the caption column (desktop), tier comparison at the glass. `FILM.opt` is a test switch only.
-- Full gate passes on the new build: 57 checks over phone, phone reduced-motion and desktop (the old 44 also passed on the previous build).
+- Full gate passes on the new build: 54 checks over phone, phone reduced-motion and desktop (the old 44 also passed on the previous build).
 - Still open: critic re-score of these scenes; audio ingestion; hub shader; haptics; promo clips; deploy steps; real-iPhone test. Phone block labels are 9.5-10 px (texture; documented floor 9 px in the label check).
