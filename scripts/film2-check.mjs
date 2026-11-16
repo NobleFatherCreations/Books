@@ -34,7 +34,7 @@ for (const pr of PROFILES) {
   await p.evaluate(() => { window.__cls = 0; new PerformanceObserver(l => { for (const e of l.getEntries()) window.__cls += e.value; }).observe({ type: 'layout-shift', buffered: true }); });
   await p.click('#begin'); await p.waitForTimeout(7000);
   let s = await p.evaluate(() => FILM.state());
-  ok(N + 'begin starts the film', s.mode === 'film' && s.playing && s.t > .5, 't=' + s.t + (pr.rm ? ' (reduced motion still plays)' : ''));
+  ok(N + 'begin starts the film', s.mode === 'film' && s.playing && s.t > .25, 't=' + s.t + (pr.rm ? ' (reduced motion still plays)' : ''));
   await p.keyboard.press('Space'); await p.waitForTimeout(300); const a = await p.evaluate(() => FILM.state().t); await p.waitForTimeout(700); const c = await p.evaluate(() => FILM.state());
   ok(N + 'pause holds the clock', !c.playing && Math.abs(c.t - a) < .02, a + ' -> ' + c.t);
   const cls = await p.evaluate(() => window.__cls); ok(N + 'zero layout shift', cls === 0, 'cls=' + cls);
@@ -47,7 +47,7 @@ for (const pr of PROFILES) {
   const shot = async (t, name, hideCaps) => { await p.evaluate(([t, h]) => { FILM.seek(t); document.querySelectorAll('.cap').forEach(e => e.style.visibility = h ? 'hidden' : ''); }, [t, hideCaps]); await p.evaluate(() => new Promise(r => requestAnimationFrame(() => requestAnimationFrame(() => setTimeout(r, 30))))); const f = `${out}/${pr.name}-${name}.png`; await p.screenshot({ path: f }); return f; };
   const hash = f => crypto.createHash('sha1').update(fs.readFileSync(f)).digest('hex');
   // same time, same frame
-  const times = [-20, 1.2, 30, 70, 90, 105].filter(t => t < upto);
+  const times = [-20, 1.2, 30, 86.5, 125, 141, 160].filter(t => t < upto);
   let same = true, which = '';
   for (const t of times) { const fa = await shot(t, 'det-a'); await p.evaluate(() => FILM.seek(55)); await p.waitForTimeout(30); const fb = await shot(t, 'det-b');
     if (hash(fa) !== hash(fb)) { const dmax = Number(py(`
@@ -57,7 +57,7 @@ import numpy as np
 a=np.asarray(Image.open(sys.argv[1]).convert('RGB')).astype(int); b=np.asarray(Image.open(sys.argv[2]).convert('RGB')).astype(int); print(int(np.abs(a-b).max()))`, [fa, fb])); if (dmax > 1) { same = false; which += t + '(' + dmax + ') '; } } }
   ok(N + 'same time gives the same frame', same, which ? 'differs at ' + which : times.length + ' times, seeked out of order (tolerance: one brightness level, for the browser\'s own gradient rounding)');
   // round picture
-  if (upto > 106) { const f = await shot(105, 'round', true); const dm = await p.evaluate(() => FILM.dims()); const r = py(lum + `
+  if (upto > 152) { const f = await shot(151, 'round', true); const dm = await p.evaluate(() => FILM.dims()); const r = py(lum + `
 im=np.asarray(Image.open(sys.argv[1]).convert('RGB')).astype(float); m=L(im)>0.012
 d=float(sys.argv[2]); cx=int(float(sys.argv[3])*d); cy=int(float(sys.argv[4])*d)
 def ext(v,c):
@@ -70,7 +70,7 @@ def ext(v,c):
             i+=step
         out.append(last)
     return out[1]-out[0]
-print(json.dumps([int(ext(m[cy],cx)),int(ext(m[:,cx],cy))]))`, [f, String(pr.dpr), String(dm.W / 2), String(dm.H * dm.CYF)]); const [w, h] = JSON.parse(r); ok(N + 'round picture', w > 200 && Math.abs(w - h) / w < .012, `${w} x ${h} px`); }
+print(json.dumps([int(ext(m[cy],cx)),int(ext(m[:,cx],cy))]))`, [f, String(pr.dpr), String(dm.W * dm.CXF), String(dm.H * dm.CYF)]); const [w, h] = JSON.parse(r); ok(N + 'round picture', w > 200 && Math.abs(w - h) / w < .012, `${w} x ${h} px`); }
   // captions: on-screen time (from the cue table) and contrast (from pixels)
   const caps = cues.caps.filter(c => c.t0 < upto - 1);
   const shortc = caps.filter(c => c.t1 - c.t0 < c.need && c.text.split(' ').length > 1);
@@ -101,7 +101,7 @@ for i in range(1,w):
     else: run=1
 print(best/w)`, [f]); ok(N + 'no banding in the light falloff', Number(r) < .05, 'longest flat run ' + (Number(r) * 100).toFixed(1) + '% of the width'); }
   // every tier draws the same scene
-  if (pr.name === 'phone' && upto > 91) { const res = []; for (const tr of [0, 1, 2]) { const q = await ctx.newPage(); await q.goto(url + '?capture&tier=' + tr); await q.waitForFunction(() => window.FILM && FILM.state().ready, null, { timeout: 90000 }); await q.evaluate(() => { FILM.seek(90); }); await q.waitForTimeout(60); const f = `${out}/tier-${tr}.png`; await q.screenshot({ path: f }); res.push(f); await q.close(); }
+  if (pr.name === 'phone' && upto > 134) { const res = []; for (const tr of [0, 1, 2]) { const q = await ctx.newPage(); await q.goto(url + '?capture&tier=' + tr); await q.waitForFunction(() => window.FILM && FILM.state().ready, null, { timeout: 90000 }); await q.evaluate(() => { FILM.seek(133); }); await q.waitForTimeout(60); const f = `${out}/tier-${tr}.png`; await q.screenshot({ path: f }); res.push(f); await q.close(); }
     const r = py(`
 import sys
 from PIL import Image

@@ -4,10 +4,10 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
 <title>Fractal² · Begin here</title>
-<meta name="description" content="A twelve-minute film. It started with a question, and it became a map.">
+<meta name="description" content="A %%MIN%%-minute film. It started with a question, and it became a map.">
 <meta property="og:type" content="website">
 <meta property="og:title" content="Fractal²: begin here">
-<meta property="og:description" content="A twelve-minute film. It started with a question, and it became a map.">
+<meta property="og:description" content="A %%MIN%%-minute film. It started with a question, and it became a map.">
 <meta name="theme-color" content="#05070d">
 <link rel="icon" href="%%V8%%favicon.ico">
 <link rel="preload" as="font" type="font/ttf" crossorigin href="%%V9%%instrument.ttf">
@@ -23,12 +23,12 @@ body{font-family:"Source Serif",Georgia,serif;overscroll-behavior:none;touch-act
 #stage{position:fixed;left:0;top:0;width:100%;height:100vh;height:100svh;overflow:hidden;background:var(--bg);user-select:none;-webkit-user-select:none}
 #gl{position:absolute;left:0;top:0;display:block}
 #pool{position:absolute;left:0;right:0;top:54%;bottom:0;opacity:0;pointer-events:none;background:linear-gradient(to bottom,rgba(3,4,8,0),rgba(3,4,8,.74) 36%,rgba(3,4,8,.88))}
-.cap{position:absolute;left:50%;top:76%;width:min(88vw,30em);margin:0;text-align:center;font-family:"Voice",Georgia,serif;font-weight:400;font-size:clamp(1.7rem,6.6vw,2.7rem);line-height:1.16;letter-spacing:-.005em;color:var(--ink);opacity:0;transform:translate3d(-50%,0,0);pointer-events:none;text-wrap:balance;text-shadow:0 1px 18px rgba(3,4,8,.9)}
+.cap{position:absolute;left:50%;top:77%;width:min(90vw,30em);margin:0;text-align:center;font-family:"Voice",Georgia,serif;font-weight:400;font-size:clamp(2.1rem,9.2vw,3.4rem);line-height:1.1;letter-spacing:-.008em;color:var(--ink);opacity:0;transform:translate3d(-50%,0,0);translate:0 -50%;pointer-events:none;text-wrap:balance;text-shadow:0 1px 18px rgba(3,4,8,.9)}
 .cap .g{display:inline-block;opacity:0;white-space:pre-wrap}
-.cap.big{font-size:clamp(2.3rem,9.6vw,4.4rem);line-height:1.06;top:74%}
-.cap.acct{font-size:clamp(1.22rem,4.7vw,1.9rem);line-height:1.28;width:min(90vw,32em)}
-.cap{margin-top:0;translate:0 -50%}
-@media (min-aspect-ratio:1/1){.cap{top:86%;font-size:clamp(1.7rem,3.3vw,2.9rem);width:min(74vw,30em)}.cap.big{top:85%;font-size:clamp(2.2rem,4.4vw,4rem)}.cap.acct{font-size:clamp(1.2rem,2.1vw,1.9rem);width:min(70vw,34em)}#pool{top:66%}}
+.cap.big{font-size:clamp(2.7rem,12vw,4.8rem);line-height:1.02}
+.cap.long{font-size:clamp(1.7rem,7.2vw,2.7rem);line-height:1.14}
+.cap.big.long{font-size:clamp(2.3rem,10vw,4rem);line-height:1.04}
+@media (min-aspect-ratio:1/1){.cap{left:78%;top:50%;width:min(37vw,15em);text-align:left;font-size:clamp(2rem,4.3vw,4rem)}.cap.big{font-size:clamp(2.6rem,5.6vw,5.2rem)}.cap.long{font-size:clamp(1.6rem,3.1vw,2.9rem)}.cap.big.long{font-size:clamp(2.2rem,4.6vw,4.4rem)}#pool{left:52%;top:0;background:linear-gradient(to right,rgba(3,4,8,0),rgba(3,4,8,.8) 34%,rgba(3,4,8,.9))}}
 /* entry */
 #entry{position:absolute;left:0;right:0;top:calc(var(--cy,40%) + var(--ts,80px) * .62);display:flex;flex-direction:column;align-items:center;gap:0;transition:opacity .28s ease-out;z-index:3}
 #entry .sub{margin:0;font:400 clamp(.78rem,3.2vw,.95rem)/1 "Source Serif",Georgia,serif;letter-spacing:.42em;text-indent:.42em;text-transform:uppercase;color:var(--gold)}
@@ -43,10 +43,10 @@ html.ready #begin .trk{animation:breathe 4.2s ease-in-out infinite}
 @media (hover:hover){html.ready #begin:hover{transform:scale(1.06);background:rgba(233,194,122,.10)}}
 #begin:active{transform:scale(.96)}
 #begin:focus-visible,.lnk:focus-visible,.cbtn:focus-visible{outline:2px solid var(--gold);outline-offset:4px}
-#foot{position:absolute;left:0;right:0;bottom:0;padding:64px 0 calc(14px + env(safe-area-inset-bottom));display:flex;flex-direction:column;align-items:center;background:linear-gradient(to bottom,rgba(5,7,13,0),rgba(5,7,13,.86) 55%,rgba(5,7,13,.96));transition:opacity .28s ease-out;z-index:3}
+#foot{position:absolute;left:0;right:0;bottom:0;padding:110px 0 calc(14px + env(safe-area-inset-bottom));display:flex;flex-direction:column;align-items:center;background:linear-gradient(to bottom,rgba(5,7,13,0),rgba(5,7,13,.86) 55%,rgba(5,7,13,.96));transition:opacity .28s ease-out;z-index:3}
 html[data-mode=film] #foot{opacity:0;pointer-events:none}
-#foot .meta{margin:0;font:400 .82rem/1.4 "Source Serif",Georgia,serif;color:var(--ink2);letter-spacing:.04em}
-.lnk{margin-top:2px;font:400 .8rem/1 "Source Serif",Georgia,serif;color:var(--ink2);text-decoration:underline;text-decoration-color:rgba(207,200,182,.4);text-underline-offset:4px;padding:10px 12px}
+#foot .meta{margin:0;font:400 1.05rem/1.4 "Voice",Georgia,serif;color:var(--ink);letter-spacing:.01em}
+.lnk{margin-top:2px;font:400 .95rem/1 "Voice",Georgia,serif;color:var(--ink);text-decoration:underline;text-decoration-color:rgba(207,200,182,.4);text-underline-offset:4px;padding:10px 12px}
 html[data-mode=film] #entry{opacity:0;pointer-events:none}
 @media (prefers-reduced-motion:reduce){html.ready #begin .trk{animation:none}}
 /* controls */
@@ -86,7 +86,7 @@ html.capture *{transition:none!important;animation:none!important}
     <p class="sub">Begin here</p>
     <button id="begin" type="button" aria-label="Begin the film"><svg viewBox="0 0 100 100" aria-hidden="true"><circle class="trk" cx="50" cy="50" r="45"/><circle id="ring" cx="50" cy="50" r="45"/><path class="tri" d="M42 33 L69 50 L42 67Z"/></svg></button>
   </div>
-  <div id="foot"><p class="meta">A twelve-minute film</p><a class="lnk" href="#text">Read it instead</a></div>
+  <div id="foot"><p class="meta">A %%MIN%%-minute film</p><a class="lnk" href="#text">Read it instead</a></div>
   <div id="prog" aria-hidden="true"><div id="bar"></div>%%TICKS%%</div>
   <div id="ctl">
     <button class="cbtn" id="pp" type="button" aria-label="Pause" aria-pressed="true"><svg class="pa" viewBox="0 0 24 24" aria-hidden="true"><path d="M7 5h3.4v14H7zM13.6 5H17v14h-3.4z"/></svg><svg class="pl" viewBox="0 0 24 24" aria-hidden="true"><path d="M8 5l11 7-11 7z"/></svg></button>

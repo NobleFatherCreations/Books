@@ -73,15 +73,15 @@ function layout() {
   var dpr = Math.min(window.devicePixelRatio || 1, TIERS[tier].dpr);
   if (w === W && h === H && dpr === DPR) return false;
   W = w; H = h; DPR = dpr; PORT = H > W * 1.05;
-  CYF = PORT ? .40 : .41;
-  U = PORT ? Math.min(W * .5, H * .34) : Math.min(W * .46, H * .345);
+  CYF = PORT ? .40 : .5;
+  U = PORT ? Math.min(W * .5, H * .34) : Math.min(W * .3, H * .44);
   cv.width = Math.round(W * DPR); cv.height = Math.round(H * DPR);
   cv.style.width = W + 'px'; cv.style.height = H + 'px';
   d.documentElement.style.setProperty('--u', U + 'px');
   if (gl) targets();
   return true;
 }
-F.dims = function () { return { W: W, H: H, DPR: DPR, U: U, CYF: CYF, PORT: PORT }; };
+F.dims = function () { return { W: W, H: H, DPR: DPR, U: U, CYF: CYF, PORT: PORT, CXF: (F.S && F.S.cxf) || .5 }; };
 
 /* ---------- WebGL2 ---------- */
 var gl = null, P = {}, TX = {}, RT = {}, quad, HDR = false, alloc = 0, peakAlloc = 0, ctxLost = 0;
@@ -94,7 +94,7 @@ var FS_SCENE = COMMON + [
 'uniform vec2 uRes,uCtr,uCam,uLS;uniform float uUnit,uZoom,uRot,uT,uPT;',
 'uniform sampler2D tOrig,tCore,tLogo,tEmb;',
 'uniform float uOrigA,uCoreA,uLogoA,uEmbA,uWords,uReveal,uFront,uTitle,uSpin,uDim;',
-'uniform vec3 uLight;uniform vec4 uOrb;uniform float uGlint,uStars,uDust,uStreak,uHole,uRingS,uPoolR,uPoolK;',
+'uniform vec3 uLight;uniform vec4 uOrb;uniform float uMotes,uGlint,uStars,uDust,uStreak,uHole,uRingS,uPoolR,uPoolK;',
 'in vec2 v;out vec4 o;',
 'const float FR[8]=float[8](.207,.296,.38,.462,.547,.624,.713,.829);',
 'vec4 art(sampler2D t,vec2 p,float hs,float spin){',
@@ -117,24 +117,31 @@ var FS_SCENE = COMMON + [
 '    n=smoothstep(.38,.9,n);col+=mix(vec3(.018,.032,.085),vec3(.085,.055,.02),vn(dp*.7+9.))*n*uDust;}',
 '  if(uStars>0.){vec2 vel=normalize(sq+1e-5)*uStreak;float s=stars(sq*exp(.10*lz)+uCam*.1,7.,1.,vel*.6)*.55+stars(sq*exp(.22*lz)+uCam*.25,13.,5.,vel)*.8+stars(sq*exp(.40*lz)+uCam*.5,23.,9.,vel*1.6);',
 '    col+=vec3(.82,.88,1.)*s*uStars;}',
-'  float rv=smoothstep(uReveal+.012,uReveal-.012,r);',
+'  float rv=smoothstep(uReveal+.012,uReveal-.012,r);float hole=max(uTitle,smoothstep(uHole*.82,uHole,r));vec3 sky=col;',
 '  if(uEmbA>0.||uLogoA>0.){vec2 pl=p;float rl=length(pl)/3.2;',
 '    if(uEmbA>0.){vec4 a=art(tEmb,pl,3.2,uSpin)*uEmbA;col=col*(1.-a.a)+a.rgb;}',
 '    if(uLogoA>0.){float wm=smoothstep(uWords+.03,uWords-.03,rl);vec4 a=art(tLogo,pl,3.2,uSpin)*uLogoA*wm;col=col*(1.-a.a)+a.rgb;}}',
 '  if(uOrigA>0.){vec4 a=art(tOrig,p,1.,0.)*uOrigA*rv;col=col*(1.-a.a)+a.rgb;}',
 '  if(uCoreA>0.){vec4 a=art(tCore,p,.7,0.);a.a=1.;a*=uCoreA*rv*smoothstep(.7,.66,max(abs(p.x),abs(p.y)));col=col*(1.-a.a)+a.rgb;}',
-'  float hole=smoothstep(uHole*.82,uHole,r);col=mix(vec3(.012,.014,.022),col,max(uTitle,hole));',
+
+'  col=mix(mix(sky,vec3(.012,.014,.022),min(1.,uOrigA+uLogoA+uEmbA)),col,hole);',
 '  if(uPoolK>0.)col*=mix(1.-uPoolK,1.,smoothstep(uPoolR*.35,uPoolR,length(q)));',
 '  col*=uDim;',
 '  float px=1./(uUnit*uZoom);',
 '  vec3 gold=vec3(1.,.80,.42);',
-'  if(uFront>0.){float dF=(r-uReveal)/(px*2.2);col+=gold*(exp(-dF*dF)*1.6+exp(-dF*dF/60.)*.35)*uFront;}',
+'  if(uFront>0.){float dF=(r-uReveal)/(px*2.2);col+=gold*(exp(-dF*dF)*.85+exp(-dF*dF/60.)*.16)*uFront;}',
 '  if(uGlint>0.){vec2 L=uOrb.y*vec2(cos(uOrb.x),sin(uOrb.x));float g=0.;',
 '    for(int i=0;i<8;i++){float dd=(r-FR[i]*uRingS)/(px*1.6);g+=exp(-dd*dd)+exp(-dd*dd/40.)*.22;}',
 '    float dl=length(p-L);col+=gold*g*uGlint*(uOrb.z/(1.+dl*dl*46.)+uLight.z*.05/(1.+r*r*9.));',
-'    float od=dl/(uOrb.w*px*6.);col+=vec3(1.,.93,.78)*uOrb.z*uGlint*(exp(-od*od)*2.2+.5/(1.+od*od*.6));}',
-'  if(uLight.z>0.){float dl=length(q-uLS)/uLight.y;',
-'    col+=vec3(1.,.97,.9)*uLight.z*exp(-dl*dl*7.)*2.6+vec3(1.,.82,.5)*uLight.z*(.55/pow(1.+dl*dl*1.2,1.7));}',
+'    float od=dl/(uOrb.w*px*6.);col+=vec3(1.,.93,.78)*uOrb.z*uGlint*(exp(-od*od)*1.5+.28/(1.+od*od*.9));}',
+'  if(uLight.z>0.){vec2 dv=q-uLS;float dl=length(dv)/uLight.y;float an=atan(dv.y,dv.x);',
+'    float cor=vn(vec2(an*2.2+uPT*.07,dl*.9-uPT*.22))*.6+vn(vec2(an*5.+3.-uPT*.05,dl*2.1-uPT*.4))*.4;',
+'    float spk=pow(abs(cos(an*3.+uPT*.03)),90.)*.5+pow(abs(cos(an*2.-uPT*.021+.7)),140.)*.35;',
+'    col+=vec3(1.,.97,.9)*uLight.z*exp(-dl*dl*7.)*2.6+vec3(1.,.82,.5)*uLight.z*(.55/pow(1.+dl*dl*1.2,1.7))*(.62+.76*cor)+vec3(1.,.9,.7)*uLight.z*spk/(1.+dl*dl*.5)*.5;',
+'    if(uMotes!=0.){float lr=log(length(dv)+1e-4);vec2 mp=vec2(an*2.86,lr*3.2+uPT*.085*sign(uMotes));float m=0.;',
+'      for(int i=0;i<2;i++){vec2 g=mp*(i==0?vec2(3.,2.):vec2(5.,3.1))+float(i)*7.3,id=floor(g),f=fract(g)-.5;id.x=mod(id.x,i==0?18.:29.);float n=h21(id+float(i)*3.1);',
+'        if(n>.55){vec2 off=(vec2(h21(id+1.7),h21(id+5.3))-.5)*.6;float dd=length((f-off)*vec2(1.,.55));m+=smoothstep(.07,0.,dd)*(n-.55)*2.2*(.5+.5*sin(uPT*(1.+3.*n)+n*40.));}}',
+'      col+=vec3(1.,.86,.6)*m*abs(uMotes)*smoothstep(.0,.25,length(dv))*smoothstep(2.6,.5,length(dv))*.9;}}',
 '  o=vec4(col,1.);}'].join('\n');
 var FS_BRIGHT = COMMON + 'uniform sampler2D t;uniform vec2 px;uniform float thr;in vec2 v;out vec4 o;void main(){vec3 c=(texture(t,v+px*vec2(-.5,-.5)).rgb+texture(t,v+px*vec2(.5,-.5)).rgb+texture(t,v+px*vec2(-.5,.5)).rgb+texture(t,v+px*vec2(.5,.5)).rgb)*.25;float l=max(c.r,max(c.g,c.b));o=vec4(c*smoothstep(thr,thr+.35,l),1.);}';
 var FS_DOWN = COMMON + 'uniform sampler2D t;uniform vec2 px;in vec2 v;out vec4 o;void main(){o=(texture(t,v+px*vec2(-1,-1))+texture(t,v+px*vec2(1,-1))+texture(t,v+px*vec2(-1,1))+texture(t,v+px*vec2(1,1)))*.25;}';
@@ -275,7 +282,7 @@ function text(str, x, y, size, col, opt) {
 F.text = text; F.measure = function (str, size, track) { return shape(str).w * size / FONT.size + (track || 0) * (str.length - 1); };
 function w2s(wx, wy, S) {                   // world point -> CSS px, with the frame's camera
   var x = (wx - S.camx) * S.zoom, y = (wy - S.camy) * S.zoom, c = Math.cos(S.rot), s = Math.sin(S.rot);
-  return [W / 2 + (x * c - y * s) * U, H * CYF - (x * s + y * c) * U];
+  return [W * (S.cxf || .5) + (x * c - y * s) * U, H * CYF - (x * s + y * c) * U];
 }
 F.w2s = w2s;
 function drawText() {
@@ -305,7 +312,7 @@ function render(t) {
   captions(t);
   if (!gl) return fallback2d(S);
   keep(F.shots.need(t));
-  var T = TIERS[tier], u, i, cx = cv.width / 2, cy = cv.height * (1 - CYF), unit = U * DPR;
+  var T = TIERS[tier], u, i, cx = cv.width * S.cxf, cy = cv.height * (1 - CYF), unit = U * DPR;
   pass(P.scene, RT.scene); u = P.scene.u;
   gl.uniform2f(u.uRes, cv.width, cv.height); gl.uniform2f(u.uCtr, cx, cy); gl.uniform1f(u.uUnit, unit);
   gl.uniform1f(u.uZoom, S.zoom); gl.uniform1f(u.uRot, S.rot); gl.uniform2f(u.uCam, S.camx, S.camy);
@@ -315,7 +322,7 @@ function render(t) {
   gl.uniform1f(u.uSpin, S.spin); gl.uniform1f(u.uDim, S.dim);
   gl.uniform3f(u.uLight, 0, S.lsize, S.light); gl.uniform2f(u.uLS, S.lx, S.ly);
   gl.uniform4f(u.uOrb, S.orba, S.orbr, S.orb, 1); gl.uniform1f(u.uGlint, S.glint);
-  gl.uniform1f(u.uHole, S.hole); gl.uniform1f(u.uRingS, S.rings); gl.uniform1f(u.uPoolR, S.poolr); gl.uniform1f(u.uPoolK, S.poolg);
+  gl.uniform1f(u.uMotes, S.motes); gl.uniform1f(u.uHole, S.hole); gl.uniform1f(u.uRingS, S.rings); gl.uniform1f(u.uPoolR, S.poolr); gl.uniform1f(u.uPoolK, S.poolg);
   gl.uniform1f(u.uStars, S.stars); gl.uniform1f(u.uDust, T.dust ? S.dust : 0); gl.uniform1f(u.uStreak, S.streak);
   bind(0, 'orig'); gl.uniform1i(u.tOrig, 0); bind(1, 'core'); gl.uniform1i(u.tCore, 1); bind(2, 'logo'); gl.uniform1i(u.tLogo, 2); bind(3, 'emb'); gl.uniform1i(u.tEmb, 3);
   fs();
@@ -334,17 +341,17 @@ function render(t) {
   gl.activeTexture(gl.TEXTURE0); gl.bindTexture(gl.TEXTURE_2D, RT.scene.t); gl.uniform1i(u.tS, 0);
   gl.activeTexture(gl.TEXTURE1); gl.bindTexture(gl.TEXTURE_2D, last.t); gl.uniform1i(u.tB, 1);
   gl.uniform2f(u.uRes, cv.width, cv.height); gl.uniform1f(u.uT, t); gl.uniform1f(u.uAsp, cv.width / cv.height);
-  gl.uniform2f(u.uLUV, .5 + S.lx * unit / cv.width, (cy + S.ly * unit) / cv.height);
+  gl.uniform2f(u.uLUV, S.cxf + S.lx * unit / cv.width, (cy + S.ly * unit) / cv.height);
   gl.uniform1f(u.uBloom, S.bloom); gl.uniform1f(u.uRays, S.rays); gl.uniform1i(u.uN, T.rays);
   gl.uniform1f(u.uCA, S.ca); gl.uniform1f(u.uVig, S.vig); gl.uniform1f(u.uGrain, S.grain); gl.uniform1f(u.uExpo, S.expo); gl.uniform1f(u.uFade, S.fade);
-  gl.uniform2f(u.uRipC, .5 + S.ripx * unit / cv.width, (cy + S.ripy * unit) / cv.height); gl.uniform1f(u.uRipR, S.ripr * unit / cv.height); gl.uniform1f(u.uRipA, S.ripa);
+  gl.uniform2f(u.uRipC, S.cxf + S.ripx * unit / cv.width, (cy + S.ripy * unit) / cv.height); gl.uniform1f(u.uRipR, S.ripr * unit / cv.height); gl.uniform1f(u.uRipA, S.ripa);
   fs();
 }
 /* plain 2D picture for browsers with no WebGL2: art, camera and light only */
 var c2 = null;
 function fallback2d(S) {
   if (!c2) { c2 = cv.getContext('2d'); if (!c2) return; }
-  var cx = W / 2 * DPR, cy = H * CYF * DPR, k = U * DPR * S.zoom;
+  var cx = W * S.cxf * DPR, cy = H * CYF * DPR, k = U * DPR * S.zoom;
   c2.setTransform(1, 0, 0, 1, 0, 0); c2.fillStyle = '#05070d'; c2.fillRect(0, 0, cv.width, cv.height);
   function put(key, hs, al) { var m = IMG[key]; if (!m || !m.ok || al <= .01) return; c2.globalAlpha = al * S.dim * S.fade; c2.save(); c2.translate(cx - S.camx * k, cy + S.camy * k); c2.rotate(-S.rot); c2.drawImage(m.el, -hs * k, -hs * k, 2 * hs * k, 2 * hs * k); c2.restore(); }
   put('emb', 3.2, S.emb); put('logo', 3.2, S.logo); put('orig', 1, S.orig * (S.reveal >= 1 ? 1 : 0));
@@ -357,7 +364,7 @@ var CAPS = D.caps, capEl = [$('capA'), $('capB')], capCur = [-1, -1], pool = $('
 function capBuild(el, c) {
   var h = '', i, g = c.g;
   for (i = 0; i < g.length; i++) h += '<span class="g">' + g[i] + '</span>' + (i < g.length - 1 ? ' ' : '');
-  el.innerHTML = h; el.className = 'cap' + (c.big ? ' big' : '') + (c.locked ? ' acct' : '');
+  el.innerHTML = h; el.className = 'cap' + (c.big ? ' big' : '') + (c.long ? ' long' : '');
   el._g = el.querySelectorAll('.g');
 }
 function captions(t) {

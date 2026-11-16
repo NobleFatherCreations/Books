@@ -18,3 +18,15 @@ Rule: a reported fault is not fixed until a check FAILS on the old behaviour and
 
 ## Device-only risks (no check here can see them; they go on the owner's four-question phone card)
 1. Memory pressure on iOS (reload or crash). 2. Real toolbar behaviour. 3. Frame rate while scrolling. 4. Touch scrolling feel and Play.
+
+## Film (clock-driven, 2026-11-16). Guards live in `scripts/film2-check.mjs`.
+| Date | Source | Finding | Guard |
+|---|---|---|---|
+| 11-16 | critic round 1 | Section 1 was one picture for 60 s; captions small | captions enlarged; light wanders; not automatable (critic re-score) |
+| 11-16 | critic round 1 | Entry footer and Play button sat on bright ring words | dark well widened; footer on its own band; `caption contrast` covers film captions only: entry contrast is by eye |
+| 11-16 | critic round 1 | Bloom burned the labels it announced | ring front and sweep light cut ~55%; by eye |
+| 11-16 | critic round 1 | Colour fringing 3-4 px in the launch | capped at 0.0055 of the frame |
+| 11-16 | critic round 1 | Desktop was a phone layout centred | wide screens: picture left, words right |
+| 11-16 | own check | Begin click was swallowed by the stage tap handler (film paused at once) | `begin starts the film` |
+| 11-16 | own check | Screenshot taken before the GPU frame was presented | gate waits two animation frames |
+All earlier scroll-era rows that still apply are covered by: `round picture`, `layer budget`, `zero layout shift`, `same time gives the same frame` (nothing twice, no jumps), `caption time on screen`, `caption contrast` (the previously unguarded "too dim" fault), `no banding`.

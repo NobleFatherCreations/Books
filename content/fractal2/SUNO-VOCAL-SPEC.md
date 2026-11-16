@@ -1,5 +1,7 @@
 # Suno and vocal recording spec for the Fractal² intro film (2026-11-15)
 
+> 2026-11-16: the script changed to v16 (longer). The bar numbers and times in sections 1 to 3 below are superseded by `content/fractal2/TIMING.md`. The tempo, key, prompts (section 7), recording notes and what to send still hold.
+
 Targets, not rules. The film re-times itself from your recorded voice (word-level timestamps), so the picture follows you. Only the four anchors in section 3 have to land on the beat grid.
 
 ## 1. Tempo, key, length
