@@ -334,25 +334,7 @@ print(json.dumps(out))`, [`${out}/${pr.name}-sweep.json`]));
 await b.close();
 // ---- contact sheet: every hero hold next to its plate, both viewports. A person must look: the gate fails until each frame is marked seen (CONTACT-SEEN.json, by perceptual hash)
 if (SHEET.length) { const seenF = new URL('../content/fractal2/design/CONTACT-SEEN.json', import.meta.url).pathname; fs.writeFileSync(`${out}/sheet.json`, JSON.stringify(SHEET));
-  const r = JSON.parse(py(`
-import sys,json,os
-from PIL import Image,ImageDraw
-import numpy as np
-S=json.load(open(sys.argv[1])); out=sys.argv[2]; PL=sys.argv[3]; seen=json.load(open(sys.argv[4])) if os.path.exists(sys.argv[4]) else {}
-def ah(f):
-    a=np.asarray(Image.open(f).convert('L').resize((16,16),Image.BILINEAR)).astype(float); return ''.join('1' if v else '0' for v in (a>a.mean()).ravel())
-rows=[]; res={'missing':[],'hashes':{}}
-for e in S:
-    k=e['hero']+'|'+e['prof']; h=ah(e['f']); res['hashes'][k]=h
-    if k not in seen or sum(x!=y for x,y in zip(seen[k],h))>24: res['missing'].append(k)
-    fr=Image.open(e['f']).convert('RGB'); th=360; fr=fr.resize((int(fr.width*th/fr.height),th))
-    pls=[Image.open(os.path.join(PL,p+'-m.webp')).convert('RGB').resize((th,th) if p!='shaft' else (int(th*.558),th)) for p in e['plates']]
-    w=sum(p.width for p in pls)+fr.width+30; row=Image.new('RGB',(w,th+26),(24,24,28)); x=0
-    for p in pls: row.paste(p,(x,26)); x+=p.width
-    row.paste(fr,(x+30,26)); ImageDraw.Draw(row).text((4,6),'%s  (%s, %.1f s)   plate | frame'%(e['hero'],e['prof'],e['t']),fill=(240,220,160)); rows.append(row)
-W=max(r.width for r in rows); H=sum(r.height for r in rows); sh=Image.new('RGB',(W,H),(24,24,28)); y=0
-for r in rows: sh.paste(r,(0,y)); y+=r.height
-sh.save(out,quality=86); print(json.dumps(res))`, [`${out}/sheet.json`, `${out}/contact-sheet.jpg`, new URL('../library/fractal2/site/fractal2/_a/film/plates', import.meta.url).pathname, seenF]));
+  const r = JSON.parse(execFileSync('python3', ['-I', new URL('./film2-sheet.py', import.meta.url).pathname, `${out}/sheet.json`, `${out}/contact-sheet.jpg`, new URL('../library/fractal2/site/fractal2/_a/film/plates', import.meta.url).pathname, seenF], { encoding: 'utf8' }).trim());
   if (arg('mark-seen')) { fs.writeFileSync(seenF, JSON.stringify(r.hashes, null, 1) + '\n'); r.missing = []; console.log('marked seen: ' + Object.keys(r.hashes).length + ' frames (only after looking at ' + out + '/contact-sheet.jpg)'); }
   ok('contact sheet reviewed (' + out + '/contact-sheet.jpg)', r.missing.length === 0, r.missing.length ? r.missing.length + ' frames not marked seen, first: ' + r.missing.slice(0, 3).join(', ') : SHEET.length + ' frames seen'); }
 // ---- the owner's score: one file at film time 0, as long as the film (plus a ring-out); anchors on downbeats; fitted for this clock
