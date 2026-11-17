@@ -62,7 +62,7 @@ The separate files let the light follow your voice alone and the rings follow th
 - Keep the sub (20-120 Hz) clean, mono and tied to the drums; the rings read it.
 - Real silence at 2:59.2-3:02.4 and 7:08.8-7:15.2: no reverb tails across them.
 
-## 7. Suno prompts (Instrumental ON for all; same tempo and key so they join)
+## 7. Suno prompts (superseded 2026-11-17 by `SUNO-PROMPTS-V16.md`, written for the 18:40 cut and Suno v6)
 
 Master style, paste into the Style box for every movement:
 `conscious cinematic tribal future bass, 150 BPM half-time, D minor, instrumental, deep clean sub bass, organic hand drums and frame drums, wide analog pads, distant throat-sung drone, sparse and spacious, film score dynamics, no vocals, no lead melody competing with speech`
