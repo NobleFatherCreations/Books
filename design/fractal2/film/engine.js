@@ -93,9 +93,10 @@ var COMMON = '#version 300 es\nprecision highp float;\n' +
 var FS_SCENE = COMMON + [
 'uniform vec2 uRes,uCtr,uCam,uLS;uniform float uUnit,uZoom,uRot,uT,uPT;',
 'uniform sampler2D tOrig,tCore,tLogo,tEmb;',
-'uniform float uOrigA,uCoreA,uLogoA,uEmbA,uWords,uReveal,uFront,uTitle,uSpin,uDim,uOrigK,uRingDim;uniform vec2 uOrigP;uniform vec4 uRing;uniform float uRingL,uRing0,uLRev,uLogoK,uLH;uniform vec4 uGen;uniform vec2 uFrontL,uPat,uLineH,uLineV;uniform float uPatC;uniform vec3 uMk[10];uniform float uMkR,uMkL;uniform vec4 uBkP[30];uniform vec2 uBkQ[30];uniform float uBkA,uThN,uThA;uniform vec2 uTh[8];uniform vec4 uTrA[6],uTrB[6];',
+'uniform float uOrigA,uCoreA,uLogoA,uEmbA,uWords,uReveal,uFront,uTitle,uSpin,uDim,uOrigK,uRingDim;uniform vec2 uOrigP;uniform vec4 uRing;uniform float uRingL,uRing0,uLRev,uLogoK,uLH;uniform vec4 uGen;uniform vec2 uFrontL,uPat,uLineH,uLineV;uniform float uPatC;uniform vec3 uMk[10];uniform float uMkR,uMkL;uniform float uThN,uThA;uniform vec2 uTh[8];uniform vec4 uTrA[6],uTrB[6];',
 'uniform vec3 uLight;uniform vec4 uOrb;uniform float uMotes,uGlint,uStars,uDust,uStreak,uHole,uRingS,uPoolR,uPoolK;',
-'uniform sampler2D tP0,tP1,tP2;uniform vec4 uPA0,uPA1,uPA2,uPB0,uPB1,uSeam,uSeam2,uEmbD;uniform vec2 uBd[8];uniform float uDisF,uBkT;uniform vec3 uPL;',
+'uniform sampler2D tP0,tP1,tP2;uniform vec4 uPA0,uPA1,uPA2,uPB0,uPB1,uSeam,uSeam2,uEmbD;uniform vec2 uBd[8];uniform float uDisF;uniform vec3 uPL;',
+'uniform sampler2D tH0,tH1,tW;uniform vec4 uHa[2],uHb[2],uHc[2],uHd[2],uWin,uWin2,uWin3,uWin4,uWB[30],uWQ[30];uniform vec3 uHL;float hcov=0.;',
 'in vec2 v;out vec4 o;',
 'const float FR[8]=float[8](.207,.296,.38,.462,.547,.624,.713,.829);',
 /* plates: the owner's images, lit by the film's one light and moved by its camera. g0 = centre.xy, half-size, angle; g1 = gain, lit, aspect (w/h), space (0 screen, 1 world) */
@@ -112,8 +113,20 @@ var FS_SCENE = COMMON + [
 '    vec4 a=pS(tP0,d,1.,1.,uPL.x),b=pS(tP1,d,1.,1.,uPL.y);float k,sd=dot(gl_FragCoord.xy,uSeam.xy)-uSeam.z;',
 '    if(pm==5.){int bi=bandOf(length(d));float lo=PB[bi],hi=bi>=9?.905:PB[bi+1];float loc=clamp(uDisF-max(float(bi)-1.,0.),0.,1.);k=loc>=1.?1.:loc<=0.?0.:smoothstep(.01,-.01,length(d)-mix(lo,hi,loc));}',
 '    else k=smoothstep(-1.,1.,sd);',
-'    vec3 c=mix(pLit(a.rgb,q,uPA1),pLit(b.rgb,q,uPB1)*mix(1.,smoothstep(.98,.12,rr),uPB1.w),k);col=col*(1.-uPA2.y*a.a)+c*a.a;',
+'    vec3 c=mix(pLit(a.rgb,q,uPA1),pLit(b.rgb,q,uPB1)*mix(1.,smoothstep(.98,.12,rr),uPB1.w),k);col=col*(1.-uPA2.y*a.a)+c*a.a;hcov=max(hcov,uPA2.y*a.a);',
 '    if(pm!=5.&&uSeam.w>0.){float sc=sd/uSeam2.x,sg=sd/uSeam2.y;col+=(vec3(1.,.965,.886)*exp(-sc*sc)*.85+vec3(1.,.92,.75)*exp(-sg*sg*.5)*.4)*uSeam.w*smoothstep(1.,.86,rr);}}',
+'void hero(sampler2D t,vec4 A,vec4 B,vec4 Cc,vec4 Dd,float lod,vec2 q,inout vec3 col){',     // a hero plate: screen-space, whole, at full strength. A = centre (device px, y up), half-size, angle; B = strength, aspect, mask (0 rect, 1 disc, 2 twin disc), brightness; Cc = reveal radius, grade, under, lit; Dd = map px per world unit (registration), band morph, pulse, registration blend
+'  vec2 f=gl_FragCoord.xy-A.xy;vec2 d=rot(-A.w)*f/A.z;float rr=length(d),rm=-1.;',
+'  if(Dd.x>0.){rm=length(f)/Dd.x;float rp=remap(rm);d=mix(d,d*rp/max(rr,1e-5),Dd.w);rr=length(d);}',
+'  if(B.z>.5&&rr>.95)return;if(B.z<.5&&(abs(d.x)>B.y*1.02||abs(d.y)>1.02))return;',
+'  vec2 uv=vec2(d.x/B.y,d.y-(B.z>1.5?.026:0.))*.5+.5;',
+'  float m=B.z>.5?smoothstep(.905,.885,rr):smoothstep(0.,.006,uv.x)*smoothstep(0.,.006,1.-uv.x)*smoothstep(0.,.006,uv.y)*smoothstep(0.,.006,1.-uv.y);',
+'  if(Cc.x<1.5)m*=smoothstep(Cc.x+.025,Cc.x-.025,rr);',
+'  if(Dd.y>-.5){float x=rm>=0.?rm:rr;int bi=0;for(int i=1;i<10;i++){if(x>=(rm>=0.?OB[i]:PB[i]))bi=i;}float lo=rm>=0.?OB[bi]:PB[bi],hi=bi>=9?1.2:(rm>=0.?OB[bi+1]:PB[bi+1]);float loc=clamp(Dd.y-float(bi),0.,1.);m*=loc>=1.?0.:loc<=0.?1.:smoothstep(-.008,.008,x-mix(lo,hi,loc));}',   // bands go from the centre out, showing what is under (the owner's map)
+'  if(m<=0.)return;vec3 c=textureLod(t,clamp(uv,0.,1.),lod).rgb;',
+'  c*=mix(1.,mix(1.08,.84,smoothstep(0.,.9,rr)),Cc.y)*B.w*Dd.z*max(1.,B.x)*(1.+Cc.w*litK(q));',
+'  float a=min(1.,B.x)*m;col=mix(col,c,a);hcov=max(hcov,a);}',
+'float wsd(vec2 o){float hw=uWin.z,tp=uWin.w-hw;if(o.y>tp)return length(o-vec2(0.,tp))-hw;return max(abs(o.x)-hw,-uWin.w-o.y);}',   // the window opening: an arch on a rectangle (device px from its centre)
 'vec4 art(sampler2D t,vec2 p,float hs,float spin){',
 '  float r=length(p)/hs;if(spin!=0.){float b=0.;for(int i=0;i<8;i++)b+=step(FR[i],r);float dir=mod(b,2.)<.5?1.:-1.;p=rot(spin*dir*(.55+.09*b))*p;}',
 '  vec2 uv=p/(2.*hs)+.5;vec2 e=smoothstep(vec2(0.),vec2(.004),uv)*smoothstep(vec2(0.),vec2(.004),1.-uv);',
@@ -134,11 +147,12 @@ var FS_SCENE = COMMON + [
 '    n=smoothstep(.38,.9,n);col+=mix(vec3(.018,.032,.085),vec3(.085,.055,.02),vn(dp*.7+9.))*n*uDust;}',
 '  if(uStars>0.){vec2 vel=normalize(sq+1e-5)*uStreak;float s=stars(sq*exp(.10*lz)+uCam*.1,7.,1.,vel*.6)*.55+stars(sq*exp(.22*lz)+uCam*.25,13.,5.,vel)*.8+stars(sq*exp(.40*lz)+uCam*.5,23.,9.,vel*1.6);',
 '    col+=vec3(.82,.88,1.)*s*uStars;}',
+'  if(uHb[0].x>0.&&uHc[0].z>.5)hero(tH0,uHa[0],uHb[0],uHc[0],uHd[0],uHL.x,q,col);if(uHb[1].x>0.&&uHc[1].z>.5)hero(tH1,uHa[1],uHb[1],uHc[1],uHd[1],uHL.y,q,col);',
 '  float pm=uPA2.x;',
 '  if(pm==1.){vec2 d=pD(q,p,uPA0,uPA1);vec4 a=pS(tP0,d,uPA1.z,0.,uPL.x);if(uPA2.w>0.)a.a*=smoothstep(1.,1.-uPA2.w,length(d));vec3 c=pLit(a.rgb,q,uPA1)*a.a;',      // one plate; uPA2.z > 0 adds a second, nearer copy (depth)
 '    if(uPA2.z>0.){vec4 b=pS(tP0,pD(q,p,uPB0,uPA1),uPA1.z,0.,max(uPL.x-.5,0.));c+=pLit(b.rgb,q,uPA1)*b.a*uPA2.z;}',
 '    col=col*(1.-uPA2.y*a.a)+c;}',
-'  else if(pm==3.||pm==5.)pairL(q,p,col);',
+'  else if(pm==5.)pairL(q,p,col);',
 '  float rv=smoothstep(uReveal+.012,uReveal-.012,length(p-uOrigP));float hole=max(uTitle,smoothstep(uHole*.82,uHole,length(p-uOrigP)));vec3 sky=col;float px=1./(uUnit*uZoom);vec3 gold=vec3(1.,.80,.42);',
 '  if(uEmbA>0.||uLogoA>0.){vec2 pl=p;float rl=length(pl)/uLH;',
 '    float lm=smoothstep(uLRev+.025,uLRev-.025,rl);',
@@ -155,7 +169,7 @@ var FS_SCENE = COMMON + [
 '  if(uCoreA>0.){vec4 a=art(tCore,p-uOrigP,.7,0.);a.a=1.;a*=uCoreA*rv*smoothstep(.7,.66,max(abs(p.x-uOrigP.x),abs(p.y-uOrigP.y)));col=col*(1.-a.a)+a.rgb;}',
 
 '  col=mix(mix(sky,vec3(.012,.014,.022),min(1.,uOrigA+uLogoA+uEmbA)),col,hole);',
-'  if(pm==6.)pairL(q,p,col);',
+'  if(pm==6.||pm==3.)pairL(q,p,col);',
 '  if(pm==4.){vec2 d=rot(-uPA0.w)*(p-uOrigP);',            // table 3: a ring of the map turns over (the twin plate's band, registered band for band), gold to pewter
 '    for(int i=0;i<8;i++){vec2 bd=uBd[i];if(bd.x<=0.)continue;float s=abs(cos(3.14159*clamp(bd.y,0.,1.)));vec2 ds=vec2(d.x/max(s,.03),d.y);float rs=length(ds);',
 '      float inb=smoothstep(OB[i+1]-.004,OB[i+1]+.004,rs)*smoothstep(OB[i+2]+.004,OB[i+2]-.004,rs)*step(.03,s);if(inb<=0.)continue;',
@@ -163,6 +177,7 @@ var FS_SCENE = COMMON + [
 '      vec3 c=bd.y<.5?gd:mix(f,vec3(lu),.8)*.85*uPA2.z;col=mix(col,pLit(c,q,uPA1)*(.75+.25*s),inb*bd.x);}}',
 '  if(uPoolK>0.)col*=mix(1.-uPoolK,1.,smoothstep(uPoolR*.35,uPoolR,length(q)));',
 '  col*=uDim;',
+'  if(uHb[0].x>0.&&uHc[0].z<.5)hero(tH0,uHa[0],uHb[0],uHc[0],uHd[0],uHL.x,q,col);if(uHb[1].x>0.&&uHc[1].z<.5)hero(tH1,uHa[1],uHb[1],uHc[1],uHd[1],uHL.y,q,col);',
 '  if(uPat.y>0.){float dP=(r-uPat.x)/(px*2.4+uPat.x*.004);col+=mix(gold,vec3(.6,.65,.76),uPatC)*(exp(-dP*dP)*1.+exp(-dP*dP/50.)*.2)*uPat.y;}',
 '  if(uLineH.y>0.){float dL=(q.y-uLineH.x)*uUnit/1.3;col+=vec3(.8,.86,1.)*(exp(-dL*dL)*.9+exp(-dL*dL/90.)*.12)*uLineH.y*smoothstep(1.9,.5,abs(q.x));}',
 '  if(uLineV.y>0.){float dL=(q.x-uLineV.x)*uUnit/1.3;col+=vec3(.8,.86,1.)*(exp(-dL*dL)*.7+exp(-dL*dL/90.)*.08)*uLineV.y*smoothstep(2.6,1.2,abs(q.y+.4));}',
@@ -187,18 +202,25 @@ var FS_SCENE = COMMON + [
 '      for(int i=0;i<2;i++){vec2 g=mp*(i==0?vec2(3.,2.):vec2(5.,3.1))+float(i)*7.3,id=floor(g),f=fract(g)-.5;id.x=mod(id.x,i==0?18.:29.);float n=h21(id+float(i)*3.1);',
 '        if(n>.55){vec2 off=(vec2(h21(id+1.7),h21(id+5.3))-.5)*.6;float dd=length((f-off)*vec2(1.,.55));m+=smoothstep(.07,0.,dd)*(n-.55)*2.2*(.5+.5*sin(uPT*(1.+3.*n)+n*40.));}}',
 '      col+=vec3(1.,.86,.6)*m*abs(uMotes)*smoothstep(.0,.25,length(dv))*smoothstep(2.6,.5,length(dv))*.9;}}',
-'  float bkm=0.;',
-'  if(uBkA>0.){float pq=1./uUnit;float lit=min(1.6,uLight.z);',
-'    for(int i=0;i<30;i++){vec2 Q=uBkQ[i];if(Q.x<.02)continue;vec4 B=uBkP[i];vec2 d=q-B.xy;float ext=max(B.z,B.w)*1.5+.06;if(abs(d.x)>ext||abs(d.y)>ext)continue;',
-'      d=rot(-Q.y)*d;float rr=.014;vec2 e=abs(d)-B.zw+rr;float sd=length(max(e,0.))+min(max(e.x,e.y),0.)-rr;',
-'      float fe=pq*1.3+(1.-Q.x)*.045+.0035;float cv=smoothstep(fe,-fe,sd)*Q.x*uBkA;if(cv<=0.)continue;',
-'      float gr=vn(d*vec2(38.,9.)+float(i)*7.1)*.5+vn(d*90.+float(i))*.5;',
-'      vec3 slab=vec3(.013,.014,.019)*(.85+.3*gr)+vec3(.05,.04,.028)*smoothstep(-.6,1.,d.y/B.w)*.35;',
-'      if(uBkT>0.){vec2 bo=vec2(h21(vec2(float(i),3.1)),h21(vec2(float(i),7.3)))-.5;vec3 bs=textureLod(tP2,clamp(.5+rot(bo.x*3.)*d*1.25+bo*.38,0.,1.),uPL.z).rgb;slab=mix(slab,bs*uBkT*(.75+.5*smoothstep(-.6,1.,d.y/B.w)),.92);}',   // basalt: the blocks are stone
-'      slab+=vec3(1.,.8,.5)*exp(min(sd,0.)/.009)*.10*lit*Q.x;',
-'      col=mix(col,slab,cv*.985);bkm=max(bkm,cv);}}',
-'  o=vec4(col,1.-bkm*.96);}'].join('\n');
-var FS_BRIGHT = COMMON + 'uniform sampler2D t;uniform vec2 px;uniform float thr;in vec2 v;out vec4 o;void main(){vec3 c=(texture(t,v+px*vec2(-.5,-.5)).rgb+texture(t,v+px*vec2(.5,-.5)).rgb+texture(t,v+px*vec2(-.5,.5)).rgb+texture(t,v+px*vec2(.5,.5)).rgb)*.25;float l=max(c.r,max(c.g,c.b));o=vec4(c*smoothstep(thr,thr+.35,l),1.);}';
+'  float wm=0.;',
+'  if(uWin2.x>0.){vec2 o=gl_FragCoord.xy-uWin.xy;float g=uWin3.w,so=wsd(o),inb=0.,jl=0.,gw=0.,sh=0.,hl=9.,bid=-1.,lift=0.;vec2 tp=o;',     // the window: one basalt wall, an arched opening, thirty blocks in courses
+'    if(so>0.)inb=1.;',
+'    else{float best=1e9,top=0.;vec2 bt=o;',
+'      for(int i=0;i<30;i++){vec4 Q=uWQ[i],B=uWB[i];vec2 c=(B.xy+B.zw)*.5,hz=(B.zw-B.xy)*.5-g*.5;',
+'        vec2 e0=abs(o-c)-hz;float rs=length(max(e0,0.))+min(max(e0.x,e0.y),0.);float ho=Q.x<=0.?1.:clamp(-Q.z/(2.*hz.y),0.,1.);if(ho>0.)gw+=ho*exp(-max(rs,0.)/uWin4.x);',
+'        if(Q.x<=0.)continue;vec2 lo=(o-c-Q.yz)/Q.w;vec2 e=abs(lo)-hz;float sd=length(max(e,0.))+min(max(e.x,e.y),0.);',
+'        if(Q.w>1.0005){sh=max(sh,exp(-max(sd*Q.w,0.)/(g*7.))*.65*Q.x);if(sd<0.&&wsd(c+lo)<0.&&top<.5){top=1.;lift=1.;bt=c+lo;inb=Q.x;hl=-sd;bid=float(i);}}',
+'        else if(sd<best){best=sd;if(top<.5){bt=c+lo;bid=float(i);}}}',
+'      if(top<.5){if(best<0.&&wsd(bt)<0.){inb=1.;hl=-best;}else{bid=-1.;if(best<g*1.2)jl=1.-smoothstep(g*.15,g*1.2,best);}}else sh=0.;',
+'      if(so>-g*.8)jl=max(jl,1.-smoothstep(0.,g*.8,-so));tp=bt;}',
+'    vec3 wc=vec3(1.,.906,.722);vec3 st=textureLod(tW,clamp((tp+uWin.xy-uWin3.xy)/(2.*uWin3.z)+.5,0.,1.),uHL.z).rgb;st=mix(st,vec3(dot(st,vec3(.3,.59,.11))),.55)*vec3(1.06,1.,.9)*uWin2.y*(bid>=0.?.82+.36*h21(vec2(bid,4.7)):1.);',
+'    st*=.62+.38*smoothstep(0.,g*1.4,hl);st+=wc*exp(-hl/(g*2.2))*.06*uWin2.z;',          // a cut edge, catching the light from the joints
+'    if(so>0.)st+=wc*exp(-so/uWin2.w)*.10*(.4+.6*uWin2.z);',                               // the reveal round the opening, lit from inside
+'    st+=wc*min(gw,1.4)*uWin4.y*(so>0.?.5:1.)*(1.-.8*lift);st*=1.-sh;',
+'    vec3 jc=st*.2+wc*.42*uWin2.z;',
+'    float k=uWin2.x;col=mix(col,st,inb*k);col=mix(col,jc,jl*k*(1.-inb));col=mix(col,col*(1.-sh),k*(1.-inb)*(1.-jl));wm=max(inb,jl)*k;}',
+'  o=vec4(col,1.-max(wm*.96,hcov*.9));}'].join('\n');
+var FS_BRIGHT = COMMON + 'uniform sampler2D t;uniform vec2 px;uniform float thr;in vec2 v;out vec4 o;void main(){vec4 s4=(texture(t,v+px*vec2(-.5,-.5))+texture(t,v+px*vec2(.5,-.5))+texture(t,v+px*vec2(-.5,.5))+texture(t,v+px*vec2(.5,.5)))*.25;vec3 c=s4.rgb*s4.a;float l=max(c.r,max(c.g,c.b));o=vec4(c*smoothstep(thr,thr+.35,l),1.);}';
 var FS_DOWN = COMMON + 'uniform sampler2D t;uniform vec2 px;in vec2 v;out vec4 o;void main(){o=(texture(t,v+px*vec2(-1,-1))+texture(t,v+px*vec2(1,-1))+texture(t,v+px*vec2(-1,1))+texture(t,v+px*vec2(1,1)))*.25;}';
 var FS_UP = COMMON + 'uniform sampler2D t,b;uniform vec2 px;in vec2 v;out vec4 o;void main(){vec4 s=(texture(t,v+px*vec2(-1,-1))+texture(t,v+px*vec2(1,-1))+texture(t,v+px*vec2(-1,1))+texture(t,v+px*vec2(1,1))+texture(t,v+px*vec2(0,1.5))+texture(t,v+px*vec2(0,-1.5))+texture(t,v+px*vec2(1.5,0))+texture(t,v+px*vec2(-1.5,0)))*.125;o=s+texture(b,v);}';
 var FS_FIN = COMMON + [
@@ -327,7 +349,7 @@ function shape(str) {                       // glyph positions in font units, ca
 var fxo = { dx: 0, dy: 0, a: 1, s: 1, sy: 1, soft: 0 };
 function text(str, x, y, size, col, opt) {
   opt = opt || {};
-  if (F.rec) F.rec.push({ s: str, x: x, y: y, size: size, a: col[3], al: opt.align == null ? 0 : opt.align, w: F.measure(str, size, opt.track), rot: opt.rot || 0, soft: opt.soft || 0, small: opt.small || 0 });
+  if (F.rec && !opt.shadow) F.rec.push({ s: str, x: x, y: y, size: size, a: col[3], al: opt.align == null ? 0 : opt.align, w: F.measure(str, size, opt.track), rot: opt.rot || 0, soft: opt.soft || 0, small: opt.small || 0 });
   var sp = shape(str), k = size / FONT.size, tr = opt.track || 0, n = sp.g.length, i, g, gx, gy, w, h, o;
   var tw = sp.w * k + tr * (str.length - 1), al = opt.align == null ? 0 : opt.align;
   var x0 = x - (al === 0 ? tw / 2 : al > 0 ? tw : 0), rot = opt.rot || 0, cs = Math.cos(rot), sn = Math.sin(rot), a = TXT.data, q;
@@ -401,7 +423,7 @@ function render(t) {
   gl.uniform1f(u.uZoom, S.zoom); gl.uniform1f(u.uRot, S.rot); gl.uniform2f(u.uCam, S.camx, S.camy);
   gl.uniform1f(u.uT, t); gl.uniform1f(u.uPT, S.pt);
   gl.uniform2f(u.uOrigP, S.origx, S.origy); gl.uniform1f(u.uOrigK, S.origk); gl.uniform4f(u.uRing, S.ringa, S.ringr, S.ringn, S.ringhi); gl.uniform1f(u.uRingDim, S.ringdim);
-  gl.uniform1f(u.uLH, S.ls); gl.uniform1f(u.uRing0, S.ring0); gl.uniform1f(u.uRingL, S.ringl || 0); gl.uniform1f(u.uLRev, S.lrev); gl.uniform1f(u.uLogoK, S.logok); gl.uniform4f(u.uGen, S.gen, S.gena, S.genlit, 0); gl.uniform2f(u.uFrontL, S.frontl, S.frontla); gl.uniform2f(u.uPat, S.patr, S.pata); gl.uniform1f(u.uPatC, S.patc); gl.uniform3fv(u.uMk, S.mk); gl.uniform1f(u.uMkR, S.mkr); gl.uniform1f(u.uMkL, S.mkl); gl.uniform4fv(u.uBkP, S.bkp); gl.uniform2fv(u.uBkQ, S.bkq); gl.uniform4fv(u.uTrA, S.tra); gl.uniform4fv(u.uTrB, S.trb); gl.uniform1f(u.uBkA, S.bka); gl.uniform2fv(u.uTh, S.th); gl.uniform1f(u.uThN, S.thn); gl.uniform1f(u.uThA, S.tha); gl.uniform2f(u.uLineH, S.lineh, S.lineha); gl.uniform2f(u.uLineV, S.linev, S.lineva);
+  gl.uniform1f(u.uLH, S.ls); gl.uniform1f(u.uRing0, S.ring0); gl.uniform1f(u.uRingL, S.ringl || 0); gl.uniform1f(u.uLRev, S.lrev); gl.uniform1f(u.uLogoK, S.logok); gl.uniform4f(u.uGen, S.gen, S.gena, S.genlit, 0); gl.uniform2f(u.uFrontL, S.frontl, S.frontla); gl.uniform2f(u.uPat, S.patr, S.pata); gl.uniform1f(u.uPatC, S.patc); gl.uniform3fv(u.uMk, S.mk); gl.uniform1f(u.uMkR, S.mkr); gl.uniform1f(u.uMkL, S.mkl); gl.uniform4fv(u.uTrA, S.tra); gl.uniform4fv(u.uTrB, S.trb); gl.uniform2fv(u.uTh, S.th); gl.uniform1f(u.uThN, S.thn); gl.uniform1f(u.uThA, S.tha); gl.uniform2f(u.uLineH, S.lineh, S.lineha); gl.uniform2f(u.uLineV, S.linev, S.lineva);
   gl.uniform1f(u.uOrigA, S.orig); gl.uniform1f(u.uCoreA, S.core); gl.uniform1f(u.uLogoA, S.logo); gl.uniform1f(u.uEmbA, S.emb);
   gl.uniform1f(u.uWords, S.words); gl.uniform1f(u.uReveal, S.reveal); gl.uniform1f(u.uFront, S.front); gl.uniform1f(u.uTitle, S.title);
   gl.uniform1f(u.uSpin, S.spin); gl.uniform1f(u.uDim, S.dim);
@@ -412,8 +434,9 @@ function render(t) {
   bind(0, 'orig'); gl.uniform1i(u.tOrig, 0); bind(1, 'core'); gl.uniform1i(u.tCore, 1); bind(2, 'logo'); gl.uniform1i(u.tLogo, 2); bind(3, 'emb'); gl.uniform1i(u.tEmb, 3);
   var pm = (S.pa && TX[S.pa] && !F.opt.noplate) ? S.pm : 0; if ((pm === 3 || pm === 5 || pm === 6 || pm === 4) && !TX[S.pb]) pm = 0;     // a plate draws only once its texture is on the GPU
   gl.uniform4f(u.uPA2, pm, S.pA2[1], S.pA2[2], S.pA2[3]); gl.uniform4fv(u.uPA0, S.pA0); gl.uniform4fv(u.uPA1, S.pA1); gl.uniform4fv(u.uPB0, S.pB0); gl.uniform4fv(u.uPB1, S.pB1);
-  gl.uniform4fv(u.uSeam, S.seam); gl.uniform4fv(u.uSeam2, S.seam2); gl.uniform2fv(u.uBd, S.bd); gl.uniform1f(u.uDisF, S.disf); gl.uniform1f(u.uBkT, S.pc && TX[S.pc] && !F.opt.noplate ? S.bkt : 0); gl.uniform4fv(u.uEmbD, S.embd); gl.uniform3f(u.uPL, plod(S.pa), plod(S.pb), S.pc && IMG[S.pc] && IMG[S.pc].ok ? Math.max(0, Math.log2(IMG[S.pc].el.naturalWidth * 1.25 / (U * DPR))) : 0);
+  gl.uniform4fv(u.uSeam, S.seam); gl.uniform4fv(u.uSeam2, S.seam2); gl.uniform2fv(u.uBd, S.bd); gl.uniform1f(u.uDisF, S.disf); gl.uniform4fv(u.uEmbD, S.embd); gl.uniform3f(u.uPL, plod(S.pa), plod(S.pb), S.pc && IMG[S.pc] && IMG[S.pc].ok ? Math.max(0, Math.log2(IMG[S.pc].el.naturalWidth * 1.25 / (U * DPR))) : 0);
   bind(4, S.pa); gl.uniform1i(u.tP0, 4); bind(5, S.pb); gl.uniform1i(u.tP1, 5); bind(6, S.pc); gl.uniform1i(u.tP2, 6);
+  heroU(u);
   fs();
   if (!F.opt.notext) drawText();
   // bloom
@@ -438,6 +461,29 @@ function render(t) {
   gl.uniform2f(u.uRipC, S.cxf + S.ripx * unit / cv.width, (cy + S.ripy * unit) / cv.height); gl.uniform1f(u.uRipR, S.ripr * unit / cv.height); gl.uniform1f(u.uRipA, S.ripa);
   fs();
 }
+/* hero plates (shots.js heroes(): CSS px, y down) and the window, to device px for the scene shader */
+var HU = { a: new Float32Array(8), b: new Float32Array(8), c: new Float32Array(8), d: new Float32Array(8), l: [0, 0, 0], wb: new Float32Array(120), wq: new Float32Array(120) };
+function heroOn(h) { return !!(h && h.a > 0 && TX[h.k] && !F.opt.noplate); }
+function heroU(u) {
+  var i, h, o, lw = 0;
+  for (i = 0; i < 2; i++) { h = S.hero && S.hero[i]; o = i * 4;
+    if (!heroOn(h)) { HU.b[o] = 0; HU.l[i] = 0; continue; }
+    HU.a[o] = h.x * DPR; HU.a[o + 1] = (H - h.y) * DPR; HU.a[o + 2] = h.r * DPR; HU.a[o + 3] = h.ang;
+    HU.b[o] = h.a; HU.b[o + 1] = h.asp; HU.b[o + 2] = h.disc; HU.b[o + 3] = h.dark;
+    HU.c[o] = h.rev; HU.c[o + 1] = h.grade; HU.c[o + 2] = h.under; HU.c[o + 3] = h.lit;
+    HU.d[o] = h.reg * DPR; HU.d[o + 1] = h.morph; HU.d[o + 2] = h.pulse; HU.d[o + 3] = h.regk;
+    var m = IMG[h.k]; HU.l[i] = m && m.ok ? Math.max(0, Math.log2(m.el.naturalWidth / Math.max(1, 2 * h.r * DPR * h.asp))) : 0; }
+  gl.uniform4fv(u.uHa, HU.a); gl.uniform4fv(u.uHb, HU.b); gl.uniform4fv(u.uHc, HU.c); gl.uniform4fv(u.uHd, HU.d);
+  bind(7, S.hero && S.hero[0] && S.hero[0].k); gl.uniform1i(u.tH0, 7); bind(8, S.hero && S.hero[1] && S.hero[1].k); gl.uniform1i(u.tH1, 8);
+  var w = S.win, wk = w && TX['p:basalt'] && !F.opt.noplate;
+  if (wk) { var m2 = IMG['p:basalt']; lw = Math.max(0, Math.log2(m2.el.naturalWidth / Math.max(1, 2 * w.th * DPR)));
+    gl.uniform4f(u.uWin, w.x * DPR, (H - w.y) * DPR, w.hw * DPR, w.hh * DPR); gl.uniform4f(u.uWin2, w.a, w.gain, w.joint, w.reveal * DPR);
+    gl.uniform4f(u.uWin3, w.tx * DPR, (H - w.ty) * DPR, w.th * DPR, w.gap * DPR); gl.uniform4f(u.uWin4, w.glow * DPR, w.shaft, 0, 0);
+    for (i = 0; i < 120; i++) { HU.wb[i] = w.b[i] * DPR; HU.wq[i] = (i & 3) === 1 || (i & 3) === 2 ? w.q[i] * DPR : w.q[i]; }
+    gl.uniform4fv(u.uWB, HU.wb); gl.uniform4fv(u.uWQ, HU.wq); } else gl.uniform4f(u.uWin2, 0, 0, 0, 0);
+  bind(9, 'p:basalt'); gl.uniform1i(u.tW, 9);
+  gl.uniform3f(u.uHL, HU.l[0], HU.l[1], lw);
+}
 /* plain 2D picture for browsers with no WebGL2: art, camera, plates and light only */
 var c2 = null;
 function plate2d(S, cx, cy) {
@@ -458,13 +504,23 @@ function plate2d(S, cx, cy) {
         c2.translate(x, y); c2.rotate(ang); c2.beginPath(); c2.arc(0, 0, hs * .9, 0, TAU); c2.clip(); c2.globalAlpha = Math.min(1, S.pB1[0] * (1 + S.pB1[1] * .5)) * S.fade; c2.drawImage(B.el, -hs, -hs * 1.026, 2 * hs, 2 * hs); c2.restore(); } } }
   c2.globalCompositeOperation = 'source-over'; c2.globalAlpha = 1;
 }
+function hero2d(under) {
+  for (var i = 0; i < 2; i++) { var h = S.hero && S.hero[i], m = h && IMG[h.k]; if (!h || !(h.a > 0) || !m || !m.ok || (h.under ? 1 : 0) !== under) continue;
+    var x = h.x * DPR, y = h.y * DPR, r = h.r * DPR, rv = Math.min(h.rev, .905);
+    if (h.morph > -.5) rv = Math.min(rv, .905 * (1 - clamp(h.morph / 9, 0, 1)));
+    c2.save(); c2.translate(x, y); c2.rotate(-h.ang); c2.globalAlpha = Math.min(1, h.a) * Math.min(1, h.dark) * S.fade;
+    if (h.disc) { c2.beginPath(); c2.arc(0, 0, r * rv, 0, TAU); c2.clip(); }
+    c2.drawImage(m.el, -r * h.asp, -r * (1 + (h.disc > 1.5 ? .026 : 0)), 2 * r * h.asp, 2 * r); c2.restore(); }
+  c2.globalAlpha = 1;
+}
 function fallback2d(S) {
   if (!c2) { c2 = cv.getContext('2d'); if (!c2) return; }
   var cx = W * S.cxf * DPR, cy = H * CYF * DPR, k = U * DPR * S.zoom;
   c2.setTransform(1, 0, 0, 1, 0, 0); c2.fillStyle = '#05070d'; c2.fillRect(0, 0, cv.width, cv.height);
   function put(key, hs, al) { var m = IMG[key]; if (!m || !m.ok || al <= .01) return; c2.globalAlpha = al * S.dim * S.fade; c2.save(); c2.translate(cx - S.camx * k, cy + S.camy * k); c2.rotate(-S.rot); c2.drawImage(m.el, -hs * k, -hs * k, 2 * hs * k, 2 * hs * k); c2.restore(); }
-  if (!F.opt.noplate) plate2d(S, cx, cy);
+  if (!F.opt.noplate) { hero2d(1); plate2d(S, cx, cy); }
   put('emb', S.ls, S.emb); put('logo', S.ls, S.logo); put('orig', 1, S.orig * (S.reveal >= 1 ? 1 : 0));
+  if (!F.opt.noplate) hero2d(0);
   var i2, A = S.tra, B = S.trb, ux = W * S.cxf * DPR, uy = H * CYF * DPR, uu = U * DPR;
   c2.lineWidth = 1.2 * DPR; c2.strokeStyle = 'rgb(255,209,133)';
   for (i2 = 0; i2 < 6; i2++) if (A[i2 * 4 + 3] > 0 && B[i2 * 4] > 0) { var st2 = Math.PI / 2 + B[i2 * 4 + 3], sw = TAU * B[i2 * 4] * B[i2 * 4 + 1]; c2.globalAlpha = Math.min(1, A[i2 * 4 + 3] * .9) * S.fade; c2.beginPath(); c2.arc(ux + A[i2 * 4] * uu, uy - A[i2 * 4 + 1] * uu, A[i2 * 4 + 2] * uu, st2, st2 - sw, sw > 0); c2.stroke(); }
@@ -554,7 +610,13 @@ function poolAt(t) {                          // the dark ground: before the wor
     else if (t < end) best = Math.max(best, 1 - (c.v === 'S' ? CV.out((t - c.t1) / c.out) : CV.out((t - c.t1) / c.out))); }
   return best;
 }
-F.plate = function () { return { pm: S.pm || 0, pa: S.pa, pb: S.pb, pc: S.pc, gpu: gl ? !!(S.pa && TX[S.pa]) && (!S.pb || !!TX[S.pb]) : !!(S.pa && IMG[S.pa] && IMG[S.pa].ok) }; };
+F.plate = function () {
+  var hs = (S.hero || []).filter(function (h) { return h && h.a > 0; }), r = { pm: S.pm || 0, pa: S.pa, pb: S.pb, pc: S.pc, gpu: gl ? !!(S.pa && TX[S.pa]) && (!S.pb || !!TX[S.pb]) : !!(S.pa && IMG[S.pa] && IMG[S.pa].ok), heroes: hs.map(function (h) { return h.k; }), win: !!S.win };
+  if (hs.length || S.win) { var ks = hs.map(function (h) { return h.k; }); if (S.win) ks.push('p:basalt');
+    var on = ks.every(function (k) { return gl ? !!TX[k] : !!(IMG[k] && IMG[k].ok); });
+    if (!r.pm) { r.pm = 7; r.pa = ks[0]; r.pb = ks[1] || null; r.gpu = on; } else { r.gpu = r.gpu && on; r.pb = r.pb || ks[0]; } }
+  return r; };
+F.heroGeo = function () { return { hero: (S.hero || []).map(function (h) { return h ? { k: h.k, x: h.x, y: h.y, r: h.r, ang: h.ang, a: h.a, asp: h.asp, disc: h.disc, dark: h.dark, rev: h.rev, morph: h.morph, reg: h.reg, regk: h.regk, under: h.under } : null; }), win: S.win ? { x: S.win.x, y: S.win.y, hw: S.win.hw, hh: S.win.hh, a: S.win.a, b: Array.from(S.win.b), q: Array.from(S.win.q), labels: S.win.labels || [] } : null }; };
 F.capState = function (i, t) {               // for the gate: the pure caption state at any time
   var S2 = F.shots.state(t, {}), el = capEl[i % 2], c = CAPS[i];
   if (capCur[i % 2] !== i) { capBuild(el, c); capCur[i % 2] = i; }

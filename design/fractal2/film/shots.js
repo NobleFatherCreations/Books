@@ -121,7 +121,7 @@ function cam45(t) {
   var d = F.dims(), key = d.W + 'x' + d.H;
   if (key !== K45key) {
     var zf = ZF(), z0 = cam3(g4.t0)[1], zP = d.PORT ? .62 : .6, zI = d.PORT ? .112 : .125, zPat = zf * .8, e = a5.t0, R = -TAU;
-    K45 = [[g4.t0, z0, 0, 0, 0], [STOP, z0 * 1.04, 0, 0, 0, E.in2], [STOP + 1.3, z0 * 1.037, 0, 0, 0, E.settle], [m1.t0 + 9.5, .55, 0, 0, 0, E.film], [m2.t1, .8, 0, 0, 0, E.lin],
+    K45 = [[g4.t0, z0, 0, 0, 0], [STOP, z0 * 1.04, 0, 0, 0, E.in2], [STOP + 1.3, z0 * 1.037, 0, 0, 0, E.settle], [m1.t0 + 9.5, d.PORT ? .57 : .62, 0, 0, 0, E.film], [m2.t1, .8, 0, 0, 0, E.lin],
       [m3.t0 + 5.6, .3, -1.5, 2.3, 0, E.film], [m6.t0, .27, -1.7, 2.6, 0, E.lin], [m6.t0 + 6.4, zf * 1.25, 0, 0, 0, E.film], [a1.t0, zf * 1.3, 0, 0, 0, E.lin],
       [PK1 - .12, 2.4, 0, 0, 0, E.in3], [PK1 + 9.4, zf, 0, 0, R, F.spring(.66, 7.5)], [e - .1, zf * 1.02, 0, 0, R, E.lin],
       [e + 1.5, zP, 0, 0, R, E.film], [e + 2.7, zP, 0, 0, R], [e + 4.3, zI, 0, 0, R, E.film], [a6.t0 - .1, zI, 0, 0, R], [a6.t0 + 1.9, zf, 0, 0, R, E.film], [n1.t0 - .1, zf, 0, 0, R],
@@ -149,7 +149,7 @@ var invT = []; (function () { var i; for (i = 0; i < 3; i++) invT.push([e1.t0 + 
 var PAIRS = D.tables.pairs, IMP = D.tables.impulses, T4a = t4.t0 + t4.say * .62, T4b = QL[0].t0 - .9, T4c = QL[0].t0 - .7, pairT = [];
 (function () { var w = [], sum = 0, i, t = T4a; for (i = 0; i < 30; i++) { w.push(i < 3 ? 3.4 : i < 6 ? 1.8 : 1); sum += w[i]; } for (i = 0; i < 30; i++) { var dd = w[i] / sum * (T4b - T4a); pairT.push([t, dd]); t += dd; } })();
 var NAMES = ['the false god', 'the devil', 'the adversary', 'the matrix', 'the machine', 'the system'], nameT0 = nm.t0 + nm.say * .27, nameD = nm.say * .73 / 6;
-var T6a = k2.t0 + k2.say + .5, T6b = T6a + 15.2, impT = [];
+var CX0 = k2.t0 + 7.7, T6a = Math.max(k2.t0 + k2.say + .5, CX0 + 1), T6b = Math.max(T6a + 11, C('so-i-stopped-trying').t0 - 2.4), impT = [];   // CX0: the last moment the counterfeit pair is held whole
 (function () { var w = [], sum = 0, i, t = T6a + 1.2; for (i = 0; i < 30; i++) { w.push(i < 3 ? 3.4 : i < 7 ? 1.7 : 1); sum += w[i]; } for (i = 0; i < 30; i++) { var dd = w[i] / sum * (T6b - T6a - 1.2); impT.push([t, dd]); t += dd; } })();
 var K6 = null, K6key = '';
 function cam6(t) {
@@ -185,58 +185,46 @@ var YR = [0, 1, 2, 3].map(function (n) { return Cn('if-you-call-it', n); }), wd 
 var PK3 = D.marks.PEAK3, pulseT = [YR[0].t0 + YR[0].say * .78, YR[1].t0 + YR[1].say * .78, YR[2].t0 + YR[2].say * .42, YR[2].t0 + YR[2].say * .58, YR[2].t0 + YR[2].say * .74, YR[2].t0 + YR[2].say * .92, YR[3].t0 + YR[3].say * .86, ds.t0 + ds.say * .7];
 var BORD = []; (function () { var a = [], i, j, t; for (i = 0; i < 30; i++) a.push(i); for (i = 29; i > 0; i--) { j = Math.floor(h1(i * 12.9) * (i + 1)); t = a[i]; a[i] = a[j]; a[j] = t; } BORD = a; })();
 var bkOn = w1.t0 + .3, bkGo = w6.t0 + .5;
-/* the thirty blocks: each its own size and angle, a little out of line, the way things are stacked by hand */
-var BLKW = [], BLKP = []; (function () { for (var i = 0; i < 30; i++) { var c = i % 5, r = Math.floor(i / 5), c3 = i % 3, r3 = Math.floor(i / 3), jx = (h1(i * 8.3) - .5), jy = (h1(i * 3.9) - .5), ang = (h1(i * 6.1 + 2) - .5) * .09, sg = h1(i * 1.9) > .5 ? 1 : -1;
-  BLKW.push([(c - 2) * .36 + jx * .035, (r - 2.5) * .3 + jy * .028, .18 * (.8 + .3 * h1(i * 2.3 + .4)), .15 * (.7 + .36 * h1(i * 5.7 + 1.1)), ang, sg]);
-  BLKP.push([(c3 - 1) * .64 + jx * .04, (r3 - 4.5) * .262 + jy * .02, .3 * (.86 + .14 * h1(i * 2.3 + .4)), .108 * (.8 + .26 * h1(i * 5.7 + 1.1)), ang * .7, sg]); } })();   // portrait: a tall window, three across and ten high
-function blockAt(i, pz) {                     // where block i is when it is pz of the way into place (1 = resting against the window)
-  var b = (F.dims().PORT ? BLKP : BLKW)[i], l = 1 - pz, sc = 1 + .32 * l;
-  return [b[0] + b[5] * l * .09, b[1] + Math.pow(l, 1.4) * .5, b[2] * sc, b[3] * sc, b[4] + b[5] * l * .32];
-}
-function blocks(S, bk) {
-  var P = S.bkp = shots._bkp || (shots._bkp = new Float32Array(120)), Q = S.bkq = shots._bkq || (shots._bkq = new Float32Array(60)), i;
-  for (i = 0; i < 30; i++) { var g = blockAt(i, bk[i]); P[i * 4] = S.lx + g[0]; P[i * 4 + 1] = S.ly + g[1]; P[i * 4 + 2] = g[2]; P[i * 4 + 3] = g[3]; Q[i * 2] = bk[i]; Q[i * 2 + 1] = g[4]; }
-}
-function bkLeave(n) { return n < 3 ? w4.t0 + .8 + n * 1.5 : bkGo + (n - 3) / 26 * (PK3 - .15 - bkGo); }   // when the n-th block lifts
 var THR = function (seed) { var o = [], j, a0 = TAU * h1(seed * 3.3), st = (h1(seed * 7.1) - .5) * 1.5; for (j = 0; j < 8; j++) { var r = (j ? (FRr[j - 1] + FRr[j]) / 2 : .16) * LS5 / 1.0, an = a0 + j * st + (h1(seed * 1.7 + j * 5.3) - .5) * .7; o.push(Math.cos(an) * r, Math.sin(an) * r); } return o; };
 var K11 = null, K11key = '';
 function cam11(t) {
   var d = F.dims(), key = d.W + 'x' + d.H;
   if (key !== K11key) { var zf = ZF(), zI = d.PORT ? .112 : .125, R = -TAU; K11key = key;
     var zN = zI * (d.PORT ? .84 : .7), yN = d.PORT ? -1.1 : -2.3;          // the names need the sky above the map: the map steps back and down
-    K11 = [[x1.t0 - 1, 1.15, 0, 0, R], [x3.t0, 1.0, 0, 0, R, E.lin], [x3.t0 + 6, zI, 0, 0, R, E.film], [x4.t0 + .5, zI, 0, 0, R], [x4.t0 + 4.5, .5, 2.9, 2.5, R, E.film], [x5.t0 - .5, .5, 1.6, 3.5, R, E.lin], [x5.t0 + 3.5, zI, 0, 0, R, E.film],
+    var zR = (d.PORT ? .43 * d.W : .31 * Math.min(d.W, d.H)) / (.887 * d.U);           // the map at the light twin's size, so one becomes the other ring for ring
+    K11 = [[x1.t0 - 1, zR, 0, 0, R], [x1.t0 + 2.2, zR, 0, 0, R, E.lin], [x3.t0, 1.0, 0, 0, R, E.film], [x3.t0 + 6, zI, 0, 0, R, E.film], [x4.t0 + .5, zI, 0, 0, R], [x4.t0 + 4.5, .5, 2.9, 2.5, R, E.film], [x5.t0 - .5, .5, 1.6, 3.5, R, E.lin], [x5.t0 + 3.5, zI, 0, 0, R, E.film],
       [x8.t0 + 1, zI, 0, 0, R], [x9.t0 - .3, zN, 0, yN, R, E.film], [x10.t0 + .4, zN, 0, yN, R], [x10.t0 + 4.5, zI, 0, 0, R, E.film],
-      [y1.t0 - .3, zI * 1.04, 0, 0, R, E.lin], [y1.t0 + 6, 1.0, 0, 0, R, E.film], [z1.t0, 1.0, 0, 0, R], [z2.t0 - .3, 1.3, 0, 0, R, E.lin],
-      [z2.t0 + 7, zf, 0, 0, R, E.film], [z4.t0, zf * 1.04, 0, 0, R, E.lin], [z5.t0 + 2.5, zf * (d.PORT ? 1.34 : 1.05), 0, d.PORT ? .9 : 0, R, E.film], [F.dur + 20, zf * (d.PORT ? 1.42 : 1.08), 0, d.PORT ? 1 : 0, R, E.lin]]; }
+      [y1.t0 - .3, zI * 1.04, 0, 0, R, E.lin], [y1.t0 + 6, 1.0, 0, 0, R, E.film], [z1.t0, 1.0, 0, 0, R], [z2.t0 - 4, zR, 0, 0, R, E.film], [z2.t0 + 1.6, zR, 0, 0, R, E.lin],
+      [z2.t0 + 8, zf, 0, 0, R, E.film], [z4.t0, zf * 1.04, 0, 0, R, E.lin], [z5.t0 + 2.5, zf * (d.PORT ? 1.34 : 1.05), 0, d.PORT ? .9 : 0, R, E.film], [F.dur + 20, zf * (d.PORT ? 1.42 : 1.08), 0, d.PORT ? 1 : 0, R, E.lin]]; }
   return keysAt(K11, t);
 }
 var dimK = track([[0, .78], [1.2, 1, E.io]]);
 
 function dlog(f, t) { var h = 1 / 240; return (Math.log(f(t + h)) - Math.log(f(t - h))) / (2 * h); }
 
-var MK0 = new Float32Array(30), BKP0 = new Float32Array(120), BKQ0 = new Float32Array(60), TH0 = new Float32Array(16), TRA0 = new Float32Array(24), TRB0 = new Float32Array(24), LIM0 = [0, 0, 0, 0];
+var MK0 = new Float32Array(30), TH0 = new Float32Array(16), TRA0 = new Float32Array(24), TRB0 = new Float32Array(24), LIM0 = [0, 0, 0, 0];
 function Cn(slug, n) { var k = 0; for (var i = 0; i < D.caps.length; i++) if (D.caps[i].slug === slug && k++ === n) return D.caps[i]; throw new Error('no caption ' + slug + ' #' + n); }
 var S0 = { zoom: 1, rot: 0, camx: 0, camy: 0, pt: 0, orig: 0, core: 0, logo: 0, emb: 0, words: 2, reveal: 2, front: 0, title: 0, spin: 0, dim: 1, hole: .108, rings: 1, poolr: 1, poolg: 0,
-  mkr: 0, mkl: 0, glass: 0, glw: 0, bka: 0, thn: 0, tha: 0, patc: 0, lineh: 0, lineha: 0, linev: 0, lineva: 0, ls: 3.2, ring0: 0, lrev: 2, logok: 1, gen: 0, gena: 0, genlit: -9, frontl: 0, frontla: 0, patr: 0, pata: 0, gt: null, origx: 0, origy: 0, origk: 1, ringa: 0, ringr: 10.5, ringn: 0, ringhi: -9, ringdim: 1, motes: 0, cxf: .5, light: 0, lsize: .16, lx: 0, ly: 0, orba: 0, orbr: 0, orb: 0, glint: 0, stars: 0, dust: 0, streak: 0, bloom: .7, rays: 0, ca: 0, vig: .5, grain: .045, expo: 1, fade: 1, ringl: 0, ripx: 0, ripy: -1.6, ripr: 0, ripa: 0, poolk: 1 };
+  mkr: 0, mkl: 0, glass: 0, glw: 0, thn: 0, tha: 0, patc: 0, lineh: 0, lineha: 0, linev: 0, lineva: 0, ls: 3.2, ring0: 0, lrev: 2, logok: 1, gen: 0, gena: 0, genlit: -9, frontl: 0, frontla: 0, patr: 0, pata: 0, gt: null, origx: 0, origy: 0, origk: 1, ringa: 0, ringr: 10.5, ringn: 0, ringhi: -9, ringdim: 1, motes: 0, cxf: .5, light: 0, lsize: .16, lx: 0, ly: 0, orba: 0, orbr: 0, orb: 0, glint: 0, stars: 0, dust: 0, streak: 0, bloom: .7, rays: 0, ca: 0, vig: .5, grain: .045, expo: 1, fade: 1, ringl: 0, ripx: 0, ripy: -1.6, ripr: 0, ripa: 0, poolk: 1 };
 
 function Z0() { var d = F.dims(); return Math.max(.8, d.H * (1 - d.CYF) / (2.84 * d.U) * 1.08); }
 var shots = F.shots = { tau: 0, tau0: 20, rip: null };
 shots.state = function (t, S) {
-  var k; for (k in S0) S[k] = S0[k]; S.mk = MK0; S.bkp = BKP0; S.bkq = BKQ0; S.th = TH0; S.tra = TRA0; S.trb = TRB0; S.lim = LIM0;
+  var k; for (k in S0) S[k] = S0[k]; S.mk = MK0; S.th = TH0; S.tra = TRA0; S.trb = TRB0; S.lim = LIM0;
   var rm = F.RM ? .2 : 1;
   if (t < 0) {                             // the entry screen: a living emblem, driven by wall time tau
     var a = shots.tau;
-    S.zoom = Z0() * (1 + .012 * Math.sin(a * .21) * rm); S.logo = 1; S.words = 2; S.spin = a * .012 * rm; S.hole = .385; S.rings = 3.2; S.dim = .78;
-    S.poolr = 1.7; S.poolg = .93; S.orbr = 1.216; S.orba = a * .19; S.orb = 1; S.glint = 1; S.stars = .5; S.dust = .7; S.pt = a; S.vig = .62; S.bloom = 1; S.rays = 0;
-    S.light = 0; plates(t, S);
+    S.zoom = Z0(); S.logo = 0; S.words = 2; S.hole = .385; S.rings = 3.2; S.dim = 1;
+    S.poolr = 1.7; S.poolg = 0; S.orb = 0; S.glint = 0; S.stars = .16; S.dust = 0; S.pt = a; S.vig = .55; S.bloom = .45; S.rays = 0;
+    S.light = 0; plates(t, S); heroes(t, S);
     return S;
   }
   var a0 = shots.tau0, z = zoom(t), vz = dlog(zoom, t);
   if (t < T1) z *= Z0() / .8;
   S.zoom = z; S.pt = a0 + t;
   if (t < T1) {                            // launch: the ring ripples out, the light spirals in, the camera falls into the centre
-    S.logo = artLogo(t); S.words = 2; S.hole = .385; S.rings = 3.2; S.spin = a0 * .012 * rm + spinV(t) * .05; S.dim = dimK(t);
-    S.poolr = 1.7; S.poolg = poolG(t); S.orbr = orbR(t); S.orba = a0 * .19 + orbA(t); S.orb = orbI(t);
+    S.logo = 0; S.words = 2; S.hole = .385; S.rings = 3.2; S.spin = a0 * .012 * rm + spinV(t) * .05; S.dim = dimK(t);
+    S.poolr = 1.7; S.poolg = poolG(t); S.orbr = orbR(t); S.orba = a0 * .19 + orbA(t); S.orb = 0;
     if (shots.rip) { S.ripx = shots.rip[0]; S.ripy = shots.rip[1]; }
     S.ripr = rip(t); S.ripa = ripA(t);
   } else {
@@ -315,25 +303,22 @@ shots.state = function (t, S) {
   if (t >= YR[0].t0 - .5) {                  // section 9: you're right
     var pr9 = F.dims().PORT, rr9 = (pr9 ? .7 : .62) * (1 - E.io((t - wd.t0) / (ds.t1 - wd.t0 + 1))), mk9 = S.mk = shots._mk || (shots._mk = new Float32Array(30)), pl = 0, pi9;
     for (pi9 = 0; pi9 < pulseT.length; pi9++) { var up = (t - pulseT[pi9]) / 1.5; if (up > 0 && up < 1) { S.patr = lerp(.1, 2.4, E.out2(up)) / S.zoom; S.pata = Math.pow(1 - up, 1.6) * .8; S.patc = 0; pl = Math.max(pl, Math.pow(1 - up, 2)); } }
-    for (var m9 = 0; m9 < 9; m9++) { var a9 = TAU * (m9 / 9); mk9[m9 * 3] = Math.sin(a9) * rr9; mk9[m9 * 3 + 1] = Math.cos(a9) * rr9; mk9[m9 * 3 + 2] = t < ds.t1 + 1 ? (.9 + .6 * pl) * (rr9 > .02 ? 1 : 0) : 0; }
+    for (var m9 = 0; m9 < 9; m9++) { var a9 = TAU * (m9 / 9); mk9[m9 * 3] = Math.sin(a9) * rr9; mk9[m9 * 3 + 1] = Math.cos(a9) * rr9; mk9[m9 * 3 + 2] = t < ds.t1 + 1 ? (.9 + .6 * pl) * (rr9 > .02 ? 1 : 0) * (1 - sm((t - YR[0].t0 + 1) / 2)) : 0; }
     S._warm = (S._warm || 0) + .5 * pl + .5 * sm((t - wd.t0) / 8); S._lk = lsize78(t) * (1 + .12 * pl + .25 * sm((t - wd.t0) / 8));
   }
   if (t >= bkOn) {                            // section 10: the window
-    var bk = S.bk = shots._bk || (shots._bk = new Float32Array(30)), nb10;
-    for (nb10 = 0; nb10 < 30; nb10++) { var on10 = sm((t - bkOn - h1(nb10 * 4.1) * 2.2) / 1.1), off10 = sm((t - bkLeave(nb10)) / .9); bk[BORD[nb10]] = on10 * (1 - off10); }
-    blocks(S, bk);
     var capK = sm((t - bkOn + 1.6) / 1.4) * (1 - sm((t - x1.t0 + 2.6) / 1.5));          // the light may spread under the words: the finish pass caps it there instead of a dark pool
     S.lim = shots._lim || (shots._lim = [0, 0, 0, 0]); S.lim[0] = F.dims().PORT ? .68 : .4; S.lim[1] = F.dims().PORT ? .735 : .585; S.lim[2] = .34; S.lim[3] = capK; S.poolk = 1 - capK;
-    S.bka = t < PK3 + 2 ? 1 : 0; var open = sm((t - bkGo) / (PK3 - bkGo)), fl = sm((t - PK3 + .2) / 1.6) * (1 - sm((t - mof.t1 - 1) / 5));
+    var open = sm((t - bkGo) / (PK3 - bkGo)), fl = sm((t - PK3 + .2) / 1.6) * (1 - sm((t - mof.t1 - 1) / 5));
     S._li = 2.3 + 1.2 * open; S._st = .3; S._lk = 5.5 + 1.5 * open + 1.6 * fl * fl; S._warm = .4 * open + .9 * fl; S.expo = 1 + .08 * fl; S.bloom = .8 + .5 * open; S._rays = .9 + 1.4 * open;
     if (t >= PK3 + 2) { var cal = sm((t - PK3 - 2) / 7); S._li = lerp(2.4, 1.4, cal); S._lk = lerp(6.6, 2.1, cal); S._rays = .9; }
   }
   if (t >= x1.t0 - 1) {                       // section 11: the map, the chains, the giving
     var c11 = cam11(t), th, lk = shots._mk || (shots._mk = new Float32Array(30)), j11;
-    S._c3 = [0, c11[1], c11[2], c11[3]]; S.zoom = c11[1]; S.rot = c11[4]; S.bka = 0; S.ls = LS5; S.ring0 = 1; S.origy = 0; S.hole = .108; S.expo = 1; S.bloom = .7;
-    S.orig = 1; S.reveal = lerp(.1, .92, E.film((t - x1.t0) / 5.5)); S.front = t < x1.t0 + 6 ? .7 * sm((t - x1.t0) / .5) * (1 - sm((t - x1.t0 - 5) / 1)) : 0;
+    S._c3 = [0, c11[1], c11[2], c11[3]]; S.zoom = c11[1]; S.rot = c11[4]; S.ls = LS5; S.ring0 = 1; S.origy = 0; S.hole = .108; S.expo = 1; S.bloom = .7;
+    S.orig = 1; S.reveal = .92; S.front = 0;                // the light twin becomes the map ring for ring (heroes(): the window's morph)
     S.logo = S.emb = t >= x3.t0 - .2 ? 1 : 0; S.lrev = lerp(0, 1.06, E.out2((t - x3.t0) / 5.5)); S.frontl = S.lrev; S.frontla = t >= x3.t0 && t < x3.t0 + 6.4 ? sm((t - x3.t0) / .4) * (1 - sm((t - x3.t0 - 5.4) / 1)) : 0;
-    var fin = sm((t - z2.t0) / 5), inner = sm((t - y1.t0) / 5) * (1 - fin), md = lerp(1, 0, sm(inner * 1.6));
+    var fin = sm((t - z2.t0 + 2.5) / 2), inner = sm((t - y1.t0) / 5) * (1 - fin), md = lerp(1, 0, sm(inner * 1.6));
     S.origk = md; S.logok = md; S.ringa = sm((t - z2.t0 - 2.6) / 2.4);                       // the thirty arrive once the camera is far enough out to hold them S.ringn = 30; S.ringdim = 1.1; S.ringhi = t >= z3.t0 && t < z4.t0 ? ((t - z3.t0) / (z4.t0 - z3.t0)) * 30 : -9; S.ringl = t >= z3.t0 ? 30 * clamp((t - z3.t0) / (z4.t0 - z3.t0), 0, 1) : 0;
     if (t >= z2.t0) { S.ringdim = lerp(.5, 1.1, sm((t - z2.t0) / 4)) + .25 * sm((t - z4.t0) / 3); S.rot = c11[4] - .006 * Math.max(0, t - z2.t0 - 2) * Math.max(0, t - z2.t0 - 2) / (1 + .25 * Math.max(0, t - z2.t0 - 2)); } S._li = lerp(1.2, 1.5, inner); S._st = lerp(.6, .35, inner); S._lk = lerp(.75, 1.5, inner) * lerp(1, .55, fin); S._rays = .5;
     S.mk = lk; for (j11 = 0; j11 < 30; j11++) lk[j11] = 0;
@@ -347,10 +332,10 @@ shots.state = function (t, S) {
       th = S.th = shots._th || (shots._th = new Float32Array(16)); var nodes = THR(seed); for (j11 = 0; j11 < 16; j11++) th[j11] = nodes[j11]; S.thn = prog; S.tha = al; shots._seed = seed;
     }
     if (t >= y2.t0 && t < z1.t0) {              // the chain: nine links around the light
-      var born = function (n) { return n < 3 ? MB[0].t0 + n * 3 : n < 6 ? MB[1].t0 + (n - 3) * 3.2 : MB[2].t0 + (n - 6) * 2.9; }, sink = E.io((t - y3.t0) / 4.5), back = E.out2((t - y6.t0 - .5) / 3), brk = sm((t - y7.t0 - 1.2) / 1.2), burst = E.out3((t - y9.t0 - 2.2) / 2.4);
-      var tight = sm((t - y4.t0) / 40), pr11 = F.dims().PORT, R0 = pr11 ? .74 : .46, beat = .5 + .5 * Math.sin(t * 1.9);
-      var base0 = t < y4.t0 ? R0 * (1 - sink * .55) : t < y6.t0 ? R0 * lerp(.45, .34, tight) : R0 * lerp(.34, 1, back); S.mkl = 1; S.mkr = base0 * TAU / 10 * .36;
-      for (j11 = 0; j11 < 10; j11++) { var ang = TAU * j11 / 10 + t * .05, base = t < y4.t0 ? R0 * (1 - sink * .55) : t < y6.t0 ? R0 * lerp(.45, .34, tight) * (1 - .05 * beat * tight) : R0 * lerp(.34, 1, back), rad = base + (j11 === 4 ? brk * 2.6 : 0) + (t >= y9.t0 + 2.2 ? burst * 3 : 0),
+      var born = function (n) { return n < 3 ? MB[0].t0 + n * 3 : n < 6 ? MB[1].t0 + (n - 3) * 3.2 : MB[2].t0 + (n - 6) * 2.9; }, sink = E.io((t - y3.t0) / 2), back = E.out2((t - y6.t0 - .5) / 3), brk = sm((t - y7.t0 - 1.2) / 1.2), burst = E.out3((t - y9.t0 - 2.2) / 2.4);
+      var tight = sm((t - y4.t0) / 40), pr11 = F.dims().PORT, R0 = .4 * Math.min(F.dims().W, F.dims().H) / .905 * .488 / F.dims().U, beat = .5 + .5 * Math.sin(t * 1.9);
+      var base0 = t < y4.t0 ? R0 * (1 - sink * .68) : t < y6.t0 ? R0 * lerp(.32, .26, tight) : R0 * lerp(.26, 1, back); S.mkl = 1; S.mkr = base0 * TAU / 10 * .36;
+      for (j11 = 0; j11 < 10; j11++) { var ang = TAU * j11 / 10 + t * .05, base = t < y4.t0 ? R0 * (1 - sink * .68) : t < y6.t0 ? R0 * lerp(.32, .26, tight) * (1 - .05 * beat * tight) : R0 * lerp(.26, 1, back), rad = base + (j11 === 4 ? brk * 2.6 : 0) + (t >= y9.t0 + 2.2 ? burst * 3 : 0),
           on = t < y3.t0 ? sm((t - born(j11)) / 1.2) : t < y6.t0 ? lerp(1, .42 + .12 * beat, sink) : (j11 === 4 ? 1 - brk : 1) * (1 - sm((burst - .5) / .5));
         lk[j11 * 3] = Math.sin(ang) * rad; lk[j11 * 3 + 1] = Math.cos(ang) * rad; lk[j11 * 3 + 2] = on * (t < y6.t0 ? .8 : 1); }
       if (t >= y4.t0 && t < y7.t0 + 1.2) { S._lk *= lerp(1, .6, tight); S._li *= lerp(1, .68, tight); }
@@ -381,14 +366,18 @@ shots.state = function (t, S) {
   if (t >= T1 && t < c2.t0) { var p1 = path1(t), pk = .9 * sm((t - 5) / 6) * (1 - sm((t - ROAD0) / (ROAD1 - ROAD0))); S.lx = p1[0]; S.ly = p1[1]; trail1(t, S); S.camx += p1[0] * pk / S.zoom; S.camy += p1[1] * pk / S.zoom; }   // the camera leans after the light: near stars slide, far ones barely move
   if (!F.dims().PORT) S.cxf = lerp(.5, .31, cxfK(t));
   if (!F.dims().PORT && fo > 0) { S.zoom *= lerp(1, 1.42 / TOURZ, fo / .78); S.camx += .2 * fo; }
-  plates(t, S);
+  plates(t, S); heroes(t, S);
   return S;
 };
 
 /* ---------- GPU text for this frame ---------- */
 var CREAM = [.953, .925, .851, 1];
+F.titleGeo = function () {                  // the title sits whole under the dark twin (entry); the template places "Begin here" under it
+  var d = F.dims(), P = d.PORT, sh = Math.min(d.W, d.H), r = (P ? .31 * sh : .25 * sh) / .905, ts = P ? Math.min(d.W * .205, d.H * .2) : Math.min(d.W * .205, d.H * .115);
+  return { ts: ts, cy: (P ? .40 : .32) * d.H + .905 * r + ts * .95 };
+};
 shots.draw = function (t, S) {
-  var d = F.dims(), ts = Math.min(d.W * .205, d.H * .2), cy = d.H * d.CYF + ts * .3;
+  var d = F.dims(), tg = F.titleGeo(), ts = tg.ts, cy = tg.cy;
   var tw = F.measure('Fractal', ts, ts * .012), s2 = ts * .5, w2 = F.measure('2', s2), x0 = d.W / 2 - (tw + w2 * 1.05) / 2;
   function title(fx) { F.text('Fractal', x0, cy, ts, CREAM, { track: ts * .012, align: -1, fx: fx }); F.text('2', x0 + tw + w2 * .08, cy - ts * .36, s2, CREAM, { align: -1, fx: fx ? function (i, n, o, gx, gy) { fx(7, 8, o, tw / 2 + gx, gy); } : null }); }
   if (t < 0) { title(null); return; }
@@ -454,11 +443,12 @@ function section7(t, S, d) {
       F.text(word, px, py, fit(word, U * .15, d.W * .8), [.93, .88, .78, a * .8], { fx: function (k, n, o) { if (pieces) { var e = E.out2(u); o.dx = (h1(k * 3.1 + i) - .5) * U * .9 * e; o.dy = (h1(k * 5.9 + i) - .2) * U * .5 * e; } if (dsh > 0) o.soft = -dsh; } }); }
   }
 }
-function section10(t, S, d) {
-  var U = d.U, i, bk = S.bk, P = S.bkp, sz = Math.max(d.PORT ? 13 : 12, U * .05);
-  for (i = 0; i < 30; i++) { var pz = bk[i]; if (pz < .03) continue; var g = blockAt(i, pz), bx = d.W * S.cxf + P[i * 4] * U, by = d.H * d.CYF - P[i * 4 + 1] * U, rot = g[4], lines = wrapText(PAIRS[i][1], d.PORT ? 16 : 13), j, s = sz * (1 + .32 * (1 - pz)), cs = Math.cos(rot), sn = Math.sin(rot);
-    for (j = 0; j < lines.length; j++) s = Math.max(12, Math.min(s, fit(lines[j], s, g[2] * 2 * U * (d.PORT ? .9 : .86))));
-    for (j = 0; j < lines.length; j++) { var oy = s * (.35 + (j - (lines.length - 1) / 2) * 1.15); F.text(lines[j], bx - oy * sn, by + oy * cs, s, [.96, .93, .86, Math.pow(pz, 1.5)], { rot: rot, soft: (1 - pz) * 1.5 }); } }
+function section10(t, S, d) {                 // the name of the block that is lifting, cut into its face (cream, with a dark upper edge): 16 px or more, two at most
+  var L = S.win && S.win.labels; if (!L) return; var sz0 = d.PORT ? 17 : Math.max(18, d.U * .066);
+  for (var i = 0; i < L.length; i++) { var b = L[i], lines = wrapText(b.s, d.PORT ? 12 : 14), sz = sz0 * b.sc, j;
+    for (j = 0; j < lines.length; j++) sz = Math.max(16, Math.min(sz, fit(lines[j], sz, Math.max(b.w * .9, d.PORT ? 110 : 120))));
+    for (j = 0; j < lines.length; j++) { var yy = b.y + sz * (.35 + (j - (lines.length - 1) / 2) * 1.12);
+      F.text(lines[j], b.x, yy - 1.5, sz, [0, 0, 0, b.a * .85], { shadow: 1 }); F.text(lines[j], b.x + 1, yy + .5, sz, [0, 0, 0, b.a * .5], { shadow: 1 }); F.text(lines[j], b.x, yy, sz, [.97, .92, .82, b.a]); } }
 }
 var TNAME = ['', 'The Debt Prison', 'The Golden Cage', 'The Trauma Bond Engine'];
 function section11(t, S, d) {
@@ -467,8 +457,9 @@ function section11(t, S, d) {
   if (F.rec) F.rec[F.rec.length - 1].mapTop = c[1];                     // for the gate: the name must sit above the map's outer words
 }
 function section8(t, S, d) {
-  var cx = d.W * S.cxf, cy = d.H * d.CYF, U = d.U, rr = d.PORT ? .7 : .62, i, j, a, sz = Math.max(12, U * .064);
-  for (i = 0; i < 9; i++) { a = sm((t - mkT[i] - .3) / .8); if (a <= 0) continue; var an = TAU * (i / 9), mx = cx + Math.sin(an) * rr * U, my = cy - Math.cos(an) * rr * U, sd = Math.sin(an), cs = Math.cos(an), lines = wrapText(TERMS[i], 13), n = lines.length;
+  var cx = d.W * S.cxf, cy = d.H * d.CYF, U = d.U, rr = d.PORT ? .7 : .62, i, j, a, sz = Math.max(12, U * .064), lv = 1 - sm((t - YR[0].t0 + 1) / 1.6);
+  if (lv <= 0) return;
+  for (i = 0; i < 9; i++) { a = sm((t - mkT[i] - .3) / .8) * lv; if (a <= 0) continue; var an = TAU * (i / 9), mx = cx + Math.sin(an) * rr * U, my = cy - Math.cos(an) * rr * U, sd = Math.sin(an), cs = Math.cos(an), lines = wrapText(TERMS[i], 13), n = lines.length;
     var wm = 0; for (j = 0; j < n; j++) wm = Math.max(wm, F.measure(lines[j], sz, sz * .12));
     var RX = d.PORT ? d.W - 16 : d.W * F.COL - 24, al = sd > .2 ? -1 : sd < -.2 ? 1 : 0, room = al < 0 ? RX - (mx + sz) : al > 0 ? mx - sz - 16 : 1e9, top = cs > -.3;
     if (room < wm) al = 2;                      // no room beside the marker: the label sits above it (or below, in the lower half), never over it
@@ -476,7 +467,7 @@ function section8(t, S, d) {
     for (j = 0; j < n; j++) { var w = F.measure(lines[j], sz, sz * .12), lx, ly;
       if (al === 2) { lx = clamp(mx, 16 + wm / 2, RX - wm / 2); ly = top ? my - sz * 1.15 - (n - 1 - j) * sz * 1.2 : my + sz * 1.9 + j * sz * 1.2; }
       else { lx = al < 0 ? Math.min(mx + sz, RX - w) : al > 0 ? Math.max(mx - sz, 16 + w) : mx; ly = (al ? my + sz * .35 + (cs < -.3 ? sz * 1.1 : cs > .3 ? -sz * .9 : 0) : my - sz * 1.2 - (n - 1) * sz * 1.2) + j * sz * 1.2 - (al ? (n - 1) * sz * .6 : 0); }
-      F.text(lines[j], lx, ly, sz, [1, .88, .62, .95], { align: al === 2 ? 0 : al, track: sz * .12, fx: F.wordFx(lines[j], t - mkT[i] - .3, sz, { row: j }) }); } }
+      F.text(lines[j], lx, ly, sz, [1, .88, .62, .95 * lv], { align: al === 2 ? 0 : al, track: sz * .12, fx: F.wordFx(lines[j], t - mkT[i] - .3, sz, { row: j }) }); } }
 }
 function section6(t, S, d) {
   var c = F.w2s(0, 0, S), cx = c[0], cy = c[1], U = d.U, mw = Math.min(d.W * .86, d.PORT ? d.W : d.W * .54), i, u, a, sz;
@@ -534,40 +525,45 @@ function v4(a, x, y, z, w) { a[0] = x; a[1] = y; a[2] = z; a[3] = w; }
 function win(t, a, b, c, dd) { return sm((t - a) / (b - a)) * (1 - sm((t - c) / (dd - c))); }     // fade in a..b, out c..d
 function scr(d, S) { return [(.5 - (S.cxf || .5)) * d.W / d.U, (d.CYF - .5) * d.H / d.U]; }              // screen centre, in screen units from the picture centre
 function cover(d, asp, k) { return Math.max(d.H / (2 * d.U), d.W / (2 * d.U * asp)) * k; }
-var DUST = [4, 10, 92, 99], MIR = [STOP + 1.2, STOP + 3.2, m2.t0 + .5, m2.t0 + 3], RINGS = [m3.t0 - .5, m3.t0 + 2.5, a1.t0 - 3, a1.t0 + .5], CITY = [PK1 - 1.5, PK1 + 4, i1.t0 - 1, i1.t0 + 2.5],
-  SHAFT = [PK2 - .4, PK2 + 1.2, FALL1 - 2.4, FALL1 + 1], SKY = [tr0.t0 - 1, tr0.t0 + 6, YR[0].t0 - 1, YR[0].t0 + 2.5], FREQ = [YR[0].t0 - 1, YR[0].t0 + 3, ds.t1 - 1, ds.t1 + 3],
-  SEAM4 = [g4.t0 - .3, g4.t0 + 1.2, STOP + 1.0, STOP + 1.45], BAND = [invT[0][0] - .2, T4a - .3], SEAM6 = [T4a - .3, T4c + .6], DIS = [bkOn - .5, bkOn + 2, PK3 + 2.5, PK3 + 7];
-shots.PLATES = { DUST: DUST, MIR: MIR, RINGS: RINGS, CITY: CITY, SHAFT: SHAFT, SKY: SKY, FREQ: FREQ, SEAM4: SEAM4, BAND: BAND, SEAM6: SEAM6, DIS: DIS };
+var DUST = [4, 10, 92, 99], SHAFT = [PK2 - .4, PK2 + 1.2, FALL1 - 2.4, FALL1 + 1], SEAM4 = [g4.t0 - .3, g4.t0 + 1.2, STOP + 4.4, STOP + 5.2], BAND = [invT[0][0] - .2, T4a - .3], SEAM6 = [T4a - .3, T4c + .6],
+  MIR = [STOP + 4.2, STOP + 6, m3.t0 - 1.5, m3.t0 + .5], RINGS = [m3.t0 - 1.5, m3.t0 + .5, a1.t0 - 3, a1.t0 + .5], CITY = [PK1 - 1.5, PK1 + 4, i1.t0 - 1, i1.t0 + 2.5],
+  SKY = [tr0.t0 - 1, tr0.t0 + 1.4, YR[0].t0 - 2, YR[0].t0 + .5], FREQ = [YR[0].t0 - 1, YR[0].t0 + 1.5, ds.t1 + 1.8, ds.t1 + 4.8], CENTER = [k1.t0, k1.t0 + .8, CX0 + .6, CX0 + 2.1],
+  WIN = [bkOn - .9, bkOn + .6, x1.t0 - 1, x1.t0 + 1.8], F11 = [y1.t0, y1.t0 + 2, y5.t0 - 1.2, y5.t0 + 1.3], MIR11 = [y5.t0 - 1.2, y5.t0 + 1.3, z1.t0 - .5, z1.t0 + 1.5], F8R = [z1.t0 - .3, z1.t0 + 1, z2.t0 + .6, z2.t0 + 2.7], OPEN = [-40, -30, -1, 2.9];
+shots.PLATES = { DUST: DUST, MIR: MIR, RINGS: RINGS, CITY: CITY, SHAFT: SHAFT, SKY: SKY, FREQ: FREQ, SEAM4: SEAM4, BAND: BAND, SEAM6: SEAM6, WIN: WIN, CENTER: CENTER, F11: F11, MIR11: MIR11, F8R: F8R, OPEN: OPEN };
+/* what a person must be able to see, and for how long (scripts/film2-check.mjs: recognizability, hold, strength, burn). hold = the stretch that must pass. */
+shots.HEROES = [
+  { n: 'opening', p: ['fractal-8'], role: 'hero', hold: [-30, -20] },
+  { n: 'stop split', p: ['fractal-8', 'frequency-8'], role: 'split', hold: [STOP + .1, STOP + 4.4] },
+  { n: 'mirror', p: ['mirror'], role: 'hero', hold: [MIR[1], MIR[2]] },
+  { n: 'rings', p: ['rings'], role: 'hero', hold: [RINGS[1], RINGS[1] + 9] },
+  { n: 'city', p: ['city'], role: 'hero', hold: [PK1 + 6, a5.t0 - .5] },
+  { n: 'counterfeit pair', p: ['fractal-8', 'frequency-8'], role: 'pair', hold: [k2.t0 + .4, CX0] },
+  { n: 'sky', p: ['sky'], role: 'hero', hold: [SKY[1], tr0.t0 + 9.5] },
+  { n: 'frequency circle', p: ['frequency'], role: 'hero', hold: [FREQ[1], FREQ[2]] },
+  { n: 'window wall', p: ['basalt'], role: 'stone', hold: [bkOn + .8, bkOn + 15] },
+  { n: 'original frequency', p: ['frequency-8'], role: 'hero', hold: [mof.t0 + 3.2, x1.t0 - 1.2] },
+  { n: 'section 11 dark twin', p: ['fractal-8'], role: 'hero', hold: [F11[1], F11[2]] },
+  { n: 'section 11 mirror', p: ['mirror'], role: 'hero', hold: [MIR11[1], MIR11[2]] },
+  { n: 'section 11 light twin', p: ['frequency-8'], role: 'hero', hold: [z1.t0 + 12.5, z2.t0 - 3.6] },
+  { n: 'shaft', p: ['shaft'], role: 'texture', hold: [SHAFT[1], SHAFT[2]] },
+  { n: 'dust', p: ['dust'], role: 'texture', hold: [DUST[1] + 20, DUST[2]] }
+];
 function plates(t, S) {
   var k; for (k in PL) PL[k].fill(0);
   S.pA0 = PL.A0; S.pA1 = PL.A1; S.pA2 = PL.A2; S.pB0 = PL.B0; S.pB1 = PL.B1; S.seam = PL.seam; S.seam2 = PL.seam2; S.bd = PL.bd; S.embd = PL.embd; S.pm = 0; S.pa = S.pb = S.pc = null; S.bkt = 0; S.disf = 0;
-  var d = F.dims(), sc = scr(d, S), a, h, z;
-  if (t < 0) {                                  // entry: the word rings behind the title sit at 55%, so the title reads cleanly
-    var ts = Math.min(d.W * .205, d.H * .2), tw = F.measure('Fractal', ts, ts * .012) + F.measure('2', ts * .5) * 1.05;
-    v4(PL.embd, 0, (ts * .3 - ts * .32) / -d.U, .55, tw * .65 / d.U); return;
-  }
+  var d = F.dims(), sc = scr(d, S), a, h;
+  if (t < 0) return;
   if (t < DUST[3]) {                            // section 1: dust in the dark, two depths, sliding against the walking light
     a = win(t, DUST[0], DUST[1], DUST[2], DUST[3]); if (a <= 0) return; h = cover(d, 1, 1.25); var cx = S.camx * S.zoom, cy = S.camy * S.zoom;
     S.pm = 1; S.pa = 'p:dust'; v4(PL.A0, sc[0] - cx * .35 + .004 * t, sc[1] - cy * .35, h, .004 * t); v4(PL.A1, .42 * a, 1.4, 1, 0); v4(PL.A2, 1, 0, .55, 0);
     v4(PL.B0, sc[0] - cx * .9 - .009 * t, sc[1] - cy * .9 + .003 * t, h * .75, -.006 * t + 1.7); return;
   }
-  if (t >= SEAM4[0] && t < SEAM4[3]) {          // section 4: the map turns around; its light face looks back. The twins, split by a seam of light
-    a = win(t, SEAM4[0], SEAM4[1], SEAM4[2], SEAM4[3]); h = RW * S.zoom * (d.PORT ? .58 : .6);
-    S.pm = 3; S.pa = 'p:fractal-8'; S.pb = 'p:frequency-8'; v4(PL.A0, S.lx, S.ly, h, 0); v4(PL.A1, .95 * a, .9, 1, 0); v4(PL.A2, 3, a, 0, 0); v4(PL.B1, .52 * a, .35, 1, .3);
+  if (t >= SEAM4[0] && t < SEAM4[3]) {          // section 4: the map turns around; its light face looks back. The twins at full strength, split by a seam of light, held whole for four seconds
+    a = win(t, SEAM4[0], SEAM4[1], SEAM4[2], SEAM4[3]); h = (d.PORT ? .43 * d.W : .35 * Math.min(d.W, d.H)) / .905 / d.U;
+    S.pm = 3; S.pa = 'p:fractal-8'; S.pb = 'p:frequency-8'; v4(PL.A0, S.lx, S.ly, h, 0); v4(PL.A1, a, .3, 1, 0); v4(PL.A2, 3, a, 0, 0); v4(PL.B1, a, .15, 1, 0);
     var ux = d.W * S.cxf + S.lx * d.U, sw = E.io3((t - g4.t0 - .4) / (STOP - g4.t0 - .4)), xs = ux + h * d.U * lerp(1.02, 0, sw);
-    v4(PL.seam, 1, 0, xs * d.DPR, a * sm((t - g4.t0 - .3) / .5)); v4(PL.seam2, 1.5 * d.DPR * .5 + .5, Math.max(1.5, 5 / 1024 * 2 * h * d.U * d.DPR), 0, 0); return;
-  }
-  if (t >= MIR[0] && t < MIR[3]) {              // "the way I spoke to myself": a tarnished mirror behind the map, its sheen follows the light
-    a = win(t, MIR[0], MIR[1], MIR[2], MIR[3]); h = cover(d, 1, 1.4) * (1 + .04 * Math.sin(t * .11)); z = Math.pow(S.zoom / .55, .25);
-    S.pm = 1; S.pa = 'p:mirror'; v4(PL.A0, sc[0] + .06 * Math.sin(t * .07) - S.camx * S.zoom * .3, sc[1] + .04 * Math.cos(t * .05), h * z, -.05 + .012 * (t - MIR[0])); v4(PL.A1, .9 * a, 1.6, 1, 0); return;
-  }
-  if (t >= RINGS[0] && t < RINGS[3]) {          // the generations: growth rings, the newest map at their centre
-    a = win(t, RINGS[0], RINGS[1], RINGS[2], RINGS[3]);
-    S.pm = 1; S.pa = 'p:rings'; v4(PL.A0, S.camx * .2, S.camy * .2, 5.6, .018 * (t - RINGS[0])); v4(PL.A1, .5 * a, 1.1, 1, 1); v4(PL.A2, 1, 0, 0, .15); return;
-  }
-  if (t >= CITY[0] && t < CITY[3]) {            // section 5: the far larger map the first one becomes the hub of; it moves at 0.6 of the camera
-    a = win(t, CITY[0], CITY[1], CITY[2], CITY[3]); var zf = ZF(); h = 16 * zf * Math.pow(S.zoom / zf, .6);
-    S.pm = 1; S.pa = 'p:city'; v4(PL.A0, -S.camx * Math.pow(S.zoom, .6), -S.camy * Math.pow(S.zoom, .6), h, S.rot); v4(PL.A1, .38 * a, 1.1, 1, 0); v4(PL.A2, 1, 0, 0, .15); return;
+    v4(PL.seam, 1, 0, xs * d.DPR, a * sm((t - g4.t0 - .3) / .5)); v4(PL.seam2, 1.5 * d.DPR * .5 + .5, Math.max(1.5, 5 / 1024 * 2 * h * d.U * d.DPR), 0, 0);
+    lightTo(S, d, ux, d.H * d.CYF - S.ly * d.U, h * d.U, a); return;
   }
   if (t >= BAND[0] && t < BAND[1]) {            // table 3: each ring shows its gold original, then turns over to the grey stage (the twin plate, drained)
     S.pm = 4; S.pa = 'p:fractal-8'; S.pb = 'p:frequency-8'; v4(PL.A1, 1.7, .9, 1, 1); v4(PL.A2, 4, 0, 1.25, 0); var off = 1 - sm((t - BAND[1] + .6) / .6);
@@ -582,26 +578,134 @@ function plates(t, S) {
     a = win(t, SHAFT[0], SHAFT[1], SHAFT[2], SHAFT[3]); var dz = clamp(depth(t) / 56, 0, 1); h = cover(d, .558, 1.12) * (1 + .55 * dz);
     S.pm = 1; S.pa = 'p:shaft'; v4(PL.A0, sc[0], sc[1] + h * (.04 + .1 * dz) - .05 * h, h, .05 * dz); v4(PL.A1, .87 * .78 * a, .5, .558, 0); return;
   }
-  if (t >= SKY[0] && t < SKY[3]) {              // section 8: the sky behind the markers; one of its rings carries them
-    a = win(t, SKY[0], SKY[1], SKY[2], SKY[3]); var rr = d.PORT ? .7 : .62;
-    S.pm = 1; S.pa = 'p:sky'; v4(PL.A0, -S.camx * S.zoom * .4, -S.camy * S.zoom * .4, rr / .5, .006 * (t - SKY[0])); v4(PL.A1, .3 * a, .6, 1, 0); v4(PL.A2, 1, 0, 0, .45); return;
+}
+/* ---------- hero plates: the owner's images shown whole, at full strength, in their own part of the screen (engine: uHa..uHd, tH0/tH1; the window: uWin*, uWB, uWQ, tW) ---------- */
+var HZ = [null, null], HZo = [{}, {}], DEG = Math.PI / 180;
+function Hp(i, k, x, y, r, o) {
+  var h = HZo[i]; o = o || {};
+  h.k = 'p:' + k; h.x = x; h.y = y; h.r = r; h.ang = o.ang || 0; h.a = o.a == null ? 1 : o.a; h.asp = o.asp || 1; h.disc = o.disc == null ? 1 : o.disc; h.dark = o.dark == null ? 1 : o.dark;
+  h.rev = o.rev == null ? 9 : o.rev; h.grade = o.grade || 0; h.under = o.under ? 1 : 0; h.lit = o.lit || 0; h.reg = o.reg || 0; h.regk = o.regk == null ? 1 : o.regk; h.morph = o.morph == null ? -1 : o.morph; h.pulse = o.pulse || 1;
+  HZ[i] = h.a > 0 ? h : null; return h;
+}
+function shortS(d) { return Math.min(d.W, d.H); }
+function lightTo(S, d, x, y, r, k) {          // during a hero hold the one light sits in the plate's hollow, quiet: 40% intensity, its glow inside band 1
+  if (k <= 0) return; var lx = (x - d.W * S.cxf) / d.U, ly = (d.H * d.CYF - y) / d.U;
+  S.lx = lerp(S.lx, lx, k); S.ly = lerp(S.ly, ly, k); S.lsize = lerp(S.lsize, Math.min(S.lsize, .157 * r / d.U * .42), k);
+  S.light = lerp(S.light, Math.min(.85, .4 * Math.max(S.light, 1)), k); S.rays *= 1 - .8 * k; S.bloom = lerp(S.bloom, Math.min(S.bloom, .45), k); S.motes *= 1 - k; S.glint *= 1 - k; S.expo = lerp(S.expo, 1, k);
+}
+function lightAt(S, d) { return [d.W * S.cxf + S.lx * d.U, d.H * d.CYF - S.ly * d.U]; }
+function rev8(u) { u = clamp(u, 0, 1) * 9; var i = Math.min(8, Math.floor(u)), f = u - i, P = [0, .157, .232, .322, .404, .488, .572, .645, .755, .905]; return lerp(P[i], P[i + 1], sm((f - .45) / .55)); }   // band by band, from the centre out
+/* the window: one basalt wall, an arched opening, thirty blocks dry-stacked in courses (staggered joints, the same stone cut into pieces) */
+var WG = null, WGkey = '';
+function winGeo(d) {
+  var key = d.W + 'x' + d.H; if (WGkey === key) return WG;
+  var P = d.PORT, hw = P ? .43 * d.W : .22 * d.W, hh = P ? .25 * d.H : .39 * d.H, cx = P ? .5 * d.W : .28 * d.W, cy = P ? .32 * d.H : .5 * d.H, n = P ? 8 : 6, per = P ? [4, 4, 4, 4, 4, 4, 3, 3] : [5, 5, 5, 5, 5, 5];
+  var tp = hh - hw, B = [], i, j, k, seed = P ? 7 : 3;
+  function cw(y) { return y <= tp ? hw : Math.sqrt(Math.max(0, hw * hw - (y - tp) * (y - tp))); }
+  for (k = 0; k < n; k++) { var y0 = -hh + k * 2 * hh / n, y1 = y0 + 2 * hh / n, w = cw(y0), ws = [], sum = 0;
+    for (j = 0; j < per[k]; j++) { var v = .5 + 1.15 * Math.pow(h1(seed * 13.1 + k * 7.7 + j * 3.3), 1.3); ws.push(v); sum += v; }
+    var x = -w; for (j = 0; j < per[k]; j++) { var x1 = x + ws[j] / sum * 2 * w; B.push({ x0: x, y0: y0, x1: x1, y1: y1, c: k }); x = x1; } }
+  var byW = B.map(function (b, i) { return i; }).sort(function (a, b) { return (B[b].x1 - B[b].x0) - (B[a].x1 - B[a].x0); });
+  var names = PAIRS.map(function (p) { return p[1]; }).sort(function (a, b) { return b.length - a.length; });
+  byW.forEach(function (bi, r) { B[bi].name = names[r]; });
+  var ord = B.map(function (b, i) { return i; }).sort(function (a, b) { return B[b].c - B[a].c || h1(a * 5.1 + 2) - h1(b * 5.1 + 2); });     // top course first
+  ord.forEach(function (bi, r) { B[bi].L = r < 3 ? w4.t0 + .8 + r * 1.5 : bkGo + (r - 3) / 26 * (PK3 - 1 - bkGo); });
+  WG = { hw: hw, hh: hh, cx: cx, cy: cy, B: B, gap: P ? 2.5 : 3, short: shortS(d) }; WGkey = key; return WG;
+}
+shots.winGeo = function () { return winGeo(F.dims()); };
+var WS = { b: new Float32Array(120), q: new Float32Array(120), labels: [] };
+function windowState(t, S, d) {
+  var G = winGeo(d), a = sm((t - WIN[0]) / 1.4) * (1 - sm((t - mof.t0) / 2)), i, L = [];
+  if (a <= 0) return null;
+  for (i = 0; i < 30; i++) { var b = G.B[i], u = t - b.L, o = i * 4;
+    WS.b[o] = b.x0; WS.b[o + 1] = b.y0; WS.b[o + 2] = b.x1; WS.b[o + 3] = b.y1;
+    if (u < 0) { WS.q[o] = 1; WS.q[o + 1] = 0; WS.q[o + 2] = 0; WS.q[o + 3] = 1; }
+    else if (u > 1.05) { WS.q[o] = 0; WS.q[o + 1] = 0; WS.q[o + 2] = 0; WS.q[o + 3] = 1; }
+    else { var sl = E.out2(u / .25), dr = E.in2((u - .12) / .93); WS.q[o] = 1 - sm((u - .9) / .15); WS.q[o + 1] = (h1(i * 2.7) - .5) * G.hw * .25 * dr; WS.q[o + 2] = -dr * (d.H + G.hh * 2) + .03 * G.short * .3 * sl; WS.q[o + 3] = 1 + .06 * sl; }
+    var la = sm((u + .5) / .12) * (1 - sm((u - .12) / .14));                                     // the name shows on the face of the block that is lifting, never more than two at once
+    if (la > 0) L.push({ s: b.name, i: i, a: la, x: G.cx + (b.x0 + b.x1) / 2 + WS.q[o + 1], y: G.cy - ((b.y0 + b.y1) / 2 + WS.q[o + 2]), w: (b.x1 - b.x0) * WS.q[o + 3], h: (b.y1 - b.y0) * WS.q[o + 3], sc: WS.q[o + 3] }); }
+  WS.labels = L;
+  return { a: a, gain: 1.7, joint: sm((t - WIN[0] - .2) / 1.5), reveal: .018 * G.short, x: G.cx, y: G.cy, hw: G.hw, hh: G.hh, tx: d.W / 2, ty: d.H / 2, th: Math.max(d.W, d.H) / 2, gap: G.gap, glow: .07 * G.short, shaft: .3, b: WS.b, q: WS.q, labels: L };
+}
+function heroes(t, S) {
+  HZ[0] = HZ[1] = null; S.hero = HZ; S.win = null;
+  var d = F.dims(), sh = shortS(d), a, r, k, x, y, P = d.PORT;
+  if (t < OPEN[3]) {                           // the opening: the dark twin alone on black, its gold point lit as the film's light. On play the camera falls into the hollow
+    r = (P ? .31 * sh : .25 * sh) / .905; x = d.W / 2; y = P ? .40 * d.H : .32 * d.H; var ang = -.3 * DEG * (t < 0 ? shots.tau : shots.tau0 + t);
+    if (t >= 0) { var z = E.in3(clamp((t - .25) / 2.6, 0, 1)), mv = E.io(clamp((t - .2) / 2.2, 0, 1)); x = lerp(x, d.W * S.cxf, mv); y = lerp(y, d.H * d.CYF, mv); r *= 1 + 13 * z; }
+    a = t < 0 ? 1 : 1 - sm((t - 2.2) / .7);
+    Hp(0, 'fractal-8', x, y, r, { disc: 2, ang: ang, a: a, grade: .35, lit: .25 });
+    if (t < 0) { S.light = .3; S.lsize = .157 * r / d.U * .4; S.lx = (x - d.W * S.cxf) / d.U; S.ly = (d.H * d.CYF - y) / d.U; S.rays = 0; S.bloom = .45; }
+    else { var lk = 1 - sm((t - 1.4) / 1.4); S.lx = lerp(S.lx, (x - d.W * S.cxf) / d.U, lk); S.ly = lerp(S.ly, (d.H * d.CYF - y) / d.U, lk); S.light = lerp(S.light, .3, lk); S.lsize = lerp(S.lsize, .157 * r / d.U * .4, lk); }
+    return;
   }
-  if (t >= FREQ[0] && t < FREQ[3]) {            // section 9: the light holds; a faint Frequency layer turns behind it and answers each "you're right"
-    a = win(t, FREQ[0], FREQ[1], FREQ[2], FREQ[3]); var pl = 0, pi; for (pi = 0; pi < pulseT.length; pi++) { var up = (t - pulseT[pi]) / 1.5; if (up > 0 && up < 1) pl = Math.max(pl, Math.pow(1 - up, 2)); }
-    S.pm = 1; S.pa = 'p:frequency'; v4(PL.A0, S.lx, S.ly, d.PORT ? 1.12 : 1.35, .0087 * (t - FREQ[0])); v4(PL.A1, .15 * a * (1 + .04 * pl), .25, 1, 0); v4(PL.A2, 1, 0, 0, .3); return;
+  if (t >= MIR[0] && t < MIR[3]) {             // "the way I spoke to myself": the whole mirror, its tarnished frame and all, the owner's map inside it as the reflection
+    a = win(t, MIR[0], MIR[1], MIR[2], MIR[3]); var mc = F.w2s(0, 0, S), push = 1 + .04 * clamp((t - MIR[1]) / (MIR[2] - MIR[1]), 0, 1);
+    Hp(0, 'mirror', mc[0], mc[1], (P ? .46 * d.W : .44 * d.H) * push, { disc: 0, a: .9 * a, dark: 1.9, lit: .5, under: 1 });
   }
-  if (t >= DIS[0] && t < DIS[3]) {              // section 10: as the blocks lift, the dark twin turns to the light one, band by band from the centre out
-    a = win(t, DIS[0], DIS[1], DIS[2], DIS[3]); var lifted = 0; for (k = 0; k < 30; k++) lifted += sm((t - bkLeave(k)) / .9);
-    S.pm = 5; S.pa = 'p:fractal-8'; S.pb = 'p:frequency-8'; v4(PL.A0, S.lx, S.ly, d.PORT ? 1.02 : .98, -.004 * (t - DIS[0])); v4(PL.A1, .9 * a, .8, 1, 0); v4(PL.A2, 5, a, 0, 0); v4(PL.B1, (.45 + .2 * sm((t - PK3 + 1) / 2)) * a, .4, 1, .85);
-    S.disf = lifted / 30 * 9.02;
-    if (t < PK3 + 2.2) { S.pc = 'p:basalt'; S.bkt = .5; }
+  if (t >= RINGS[0] && t < RINGS[3]) {         // the generations: the whole growth-ring disc, the newest map at its centre
+    a = win(t, RINGS[0], RINGS[1], RINGS[2], RINGS[3]); var push2 = 1 + .04 * clamp((t - RINGS[1]) / (RINGS[2] - RINGS[1]), 0, 1);
+    Hp(1, 'rings', d.W * S.cxf, d.H * d.CYF, .5 * sh * push2, { disc: 0, a: .75 * a, dark: 1.35, lit: .3, under: 1, ang: .004 * (t - RINGS[0]) });
+  }
+  if (t >= CITY[0] && t < CITY[3]) {           // section 5: the city, the far larger map, shown whole; it steps back under table 2
+    a = win(t, CITY[0], CITY[1], CITY[2], CITY[3]); var tb = win(t, a5.t0 - .5, a5.t0 + .8, n5.t0, n5.t0 + 1.5), push3 = 1 + .04 * clamp((t - CITY[1]) / (CITY[2] - CITY[1]), 0, 1);
+    Hp(0, 'city', d.W * S.cxf, d.H * d.CYF, .45 * sh * push3, { disc: 0, a: lerp(.92, .45, tb) * a, dark: 1.15, lit: .25, under: 1, ang: -.003 * (t - CITY[0]) });
+    var hide = win(t, PK1 + 1.5, PK1 + 4.5, a5.t0 - 1.5, a5.t0 + .5); S.logo *= 1 - hide; S.emb *= 1 - hide;
+  }
+  if (t >= CENTER[0] && t < CENTER[3]) {       // "A counterfeit always comes second. Which means something real was here first.": the twins side by side, held
+    var rr = (P ? .235 * d.W : .13 * d.W) / .905, xa = P ? .26 * d.W : .155 * d.W, xb = P ? .74 * d.W : .445 * d.W, yc = P ? .36 * d.H : .5 * d.H;
+    var ea = sm((t - k1.t0) / .8) * (1 - sm((t - CX0) / 1)), sa = 1 + .06 * (1 - E.out3((t - k1.t0) / 1.2));
+    var eb = sm((t - k2.t0) / .7), sb = 1 + .06 * (1 - E.out3((t - k2.t0) / 1.1)), go = E.in2(clamp((t - CX0 - .5) / 1.5, 0, 1)), xm = (xa + xb) / 2;
+    Hp(0, 'fractal-8', xa, yc, rr * sa, { disc: 2, a: ea, grade: .35, lit: .2, ang: .5 * DEG * (t - k1.t0) });
+    Hp(1, 'frequency-8', lerp(xb, xm, go), yc, rr * sb * (1 - go), { disc: 2, a: eb * (1 - sm((go - .7) / .3)), grade: .3, lit: .1, ang: -.5 * DEG * (t - k1.t0) });
+    S.dim *= 1 - sm((t - k1.t0 + 1) / 1) * (1 - sm((t - T6a + .6) / 1.2));
+    lightTo(S, d, xm, yc, rr * .7, sm((t - k1.t0 + 1) / 1) * (1 - sm((t - T6a) / 1.5)));
+  }
+  if (t >= SKY[0] && t < SKY[3]) {             // section 8: the sky, read once as itself, then quieter behind the markers
+    a = win(t, SKY[0], SKY[1], SKY[2], SKY[3]);
+    Hp(0, 'sky', d.W * S.cxf, d.H * d.CYF, .475 * sh / .905, { disc: 1, a: lerp(.78, .45, sm((t - tr0.t0 - 9.5) / 2.5)) * a, dark: 1.6, lit: .3, under: 1, ang: .006 * (t - SKY[0]) });
+  }
+  if (t >= FREQ[0] && t < FREQ[3]) {           // section 9: the frequency circle, the hero; it answers each "you're right"
+    var pl = 0, pi; for (pi = 0; pi < pulseT.length; pi++) { var up = (t - pulseT[pi]) / 1.2; if (up > 0 && up < 1) pl = Math.max(pl, Math.pow(1 - up, 2)); }
+    var ent = E.out2(clamp((t - FREQ[0]) / 2.5, 0, 1)), ex = E.in2(clamp((t - FREQ[2]) / 3, 0, 1));
+    r = (P ? .43 * d.W : .31 * sh) / .905 * lerp(1.08, 1, ent); x = P ? .5 * d.W : .28 * d.W; y = P ? .32 * d.H : .5 * d.H;
+    Hp(1, 'frequency', x, y, r, { disc: 1, a: .95 * sm((t - FREQ[0]) / .4), rev: ent < 1 ? ent * 1.02 : 9, dark: 1 - ex, pulse: 1 + .06 * pl, grade: .25, lit: .1, ang: -.5 * DEG * (t - FREQ[0]) });
+    lightTo(S, d, x, y, r, win(t, FREQ[0], FREQ[0] + 1.5, FREQ[2], FREQ[3]));
+  }
+  if (t >= WIN[0] && t < WIN[3]) {             // section 10: the window. The light original behind a wall of basalt; one block at a time, the light comes through; then it is held, and becomes the map
+    var G = winGeo(d), hold = E.io(clamp((t - mof.t0) / 3, 0, 1)), rh = (P ? .43 * d.W : .31 * sh) / .905, sx = P ? .5 * d.W : .28 * d.W, sy = P ? .32 * d.H : .5 * d.H;
+    var zr = P ? .97 : .794, regk = sm((t - x1.t0 + 4.5) / 1.5), mc2 = F.w2s(0, 0, S), mv2 = E.io(clamp((t - x1.t0 + 5) / 3.5, 0, 1));
+    x = lerp(lerp(G.cx, sx, hold), mc2[0], mv2); y = lerp(lerp(G.cy, sy, hold), mc2[1], mv2); r = lerp(G.hw * .96 / .905, rh, hold);
+    var pls = sm((t - pq.t0 - .4) / .25) * (1 - sm((t - pq.t0 - .65) / .95)), morph = t < x1.t0 - .8 ? -1 : clamp((t - x1.t0 + .8) / 2.5, 0, 1) * 9.6;
+    Hp(0, 'frequency-8', x, y, r, { disc: 2, a: sm((t - WIN[0] - 1.1) / .3), grade: .3 + .7 * hold, lit: .15, pulse: 1 + .05 * pls, reg: S.zoom * d.U, regk: regk, morph: morph, ang: .002 * (t - mof.t0) * hold });
+    S.win = windowState(t, S, d);
+    var sw = sm((t - PK3 + .25) / .3) * (1 - sm((t - PK3 - .55) / .5));                       // PEAK3: one swell, its glow kept inside band 1
+    lightTo(S, d, x, y, r, 1); S.light *= 1 + .4 * sw; S.expo = 1; S.bloom = .45;
+    if (t >= x1.t0 - 1) { S.reveal = .92; S.front = 0; }
+  }
+  if (t >= F11[0] && t < F11[3]) {             // section 11, the wound: the dark twin, the chain wrapped round its bands, then sinking into its hollow
+    a = win(t, F11[0], F11[1], F11[2], F11[3]); var lp = lightAt(S, d); r = .4 * sh / .905;
+    Hp(0, 'fractal-8', lp[0], lp[1], r, { disc: 2, a: .82 * a, grade: .35, lit: .25, ang: .3 * DEG * (t - F11[0]) });
+    lightTo(S, d, lp[0], lp[1], r, a);
+  }
+  if (t >= MIR11[0] && t < MIR11[3]) {         // "It made me who I am.": the mirror, whole, the light inside it as the reflection
+    a = win(t, MIR11[0], MIR11[1], MIR11[2], MIR11[3]); var lq = lightAt(S, d), push4 = 1 + .04 * clamp((t - MIR11[1]) / (MIR11[2] - MIR11[1]), 0, 1);
+    Hp(1, 'mirror', lq[0], lq[1], (P ? .45 * d.W : .40 * d.H) * push4, { disc: 0, a: .88 * a, dark: 1.9, lit: .45 });
+    lightTo(S, d, lq[0], lq[1], .4 * sh, a);
+  }
+  if (t >= F8R[0] && t < F8R[3]) {             // the healing, the justice: the light twin returns band by band and is held; then it becomes the map for "Now the map is yours"
+    var mc3 = F.w2s(0, 0, S), rq = (P ? .43 * d.W : .31 * sh) / .905, mv3 = E.io(clamp((t - z2.t0 + 4) / 3, 0, 1)), sx3 = P ? .5 * d.W : d.W * S.cxf, sy3 = P ? .32 * d.H : .5 * d.H;
+    x = lerp(sx3, mc3[0], mv3); y = lerp(sy3, mc3[1], mv3);
+    Hp(0, 'frequency-8', x, y, rq, { disc: 2, a: lerp(.75, 1, sm((t - z1.t0 - 12) / (C('so-they-can-never').t0 - z1.t0 - 12))) * sm((t - F8R[0]) / .5), rev: rev8((t - z1.t0) / 12), grade: .6, lit: .15,
+      reg: S.zoom * d.U, regk: sm((t - z2.t0 + 3.5) / 1.5), morph: t < z2.t0 - .5 ? -1 : clamp((t - z2.t0 + .5) / 2.6, 0, 1) * 9.6, ang: -.3 * DEG * (t - z1.t0) });
+    lightTo(S, d, x, y, rq, win(t, F8R[0], F8R[1], z2.t0 - .5, z2.t0 + 2));
   }
 }
 shots.need = function (t) {
-  var n = t >= f1.t0 + 12 && t < x1.t0 - 3 ? [] : t < 2.5 ? ['logo'] : t < 3.1 ? ['logo', 'orig', 'core'] : t < g1.t0 ? ['orig', 'core'] : t < PK1 - 6 ? ['orig'] : ['orig', 'logo', 'emb'];
+  var n = t >= f1.t0 + 12 && t < x1.t0 - 3 ? [] : t < 0 ? [] : t < 2.5 ? ['logo'] : t < 3.1 ? ['logo', 'orig', 'core'] : t < g1.t0 ? ['orig', 'core'] : t < PK1 - 6 ? ['orig'] : ['orig', 'logo', 'emb'];
   function w(r, k) { if (t >= r[0] - .5 && t < r[r.length - 1] + .5) for (var i = 1; i < arguments.length; i++) n.push(arguments[i]); }
-  w(DUST, 'p:dust'); w(SEAM4, 'p:fractal-8', 'p:frequency-8'); w(MIR, 'p:mirror'); w(RINGS, 'p:rings'); w(CITY, 'p:city'); w(BAND, 'p:fractal-8', 'p:frequency-8'); w(SEAM6, 'p:fractal-8', 'p:frequency-8');
-  w(SHAFT, 'p:shaft'); w(SKY, 'p:sky'); w(FREQ, 'p:frequency'); w(DIS, 'p:fractal-8', 'p:frequency-8', 'p:basalt');
+  w(OPEN, 'p:fractal-8'); w(DUST, 'p:dust'); w(SEAM4, 'p:fractal-8', 'p:frequency-8'); w(MIR, 'p:mirror'); w(RINGS, 'p:rings'); w(CITY, 'p:city'); w(BAND, 'p:fractal-8', 'p:frequency-8'); w(SEAM6, 'p:fractal-8', 'p:frequency-8');
+  w(CENTER, 'p:fractal-8', 'p:frequency-8'); w(SHAFT, 'p:shaft'); w(SKY, 'p:sky'); w(FREQ, 'p:frequency'); w(WIN, 'p:frequency-8', 'p:basalt'); w(F11, 'p:fractal-8'); w(MIR11, 'p:mirror'); w(F8R, 'p:frequency-8');
   return n.filter(function (k, i) { return n.indexOf(k) === i; });
 };
 shots.boundary = function (t, dt) {         // true in the gaps between captions: the only place quality may step

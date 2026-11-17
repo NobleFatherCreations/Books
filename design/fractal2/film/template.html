@@ -33,7 +33,7 @@ body{font-family:"Source Serif",Georgia,serif;overscroll-behavior:none;touch-act
 .cap.big.long{font-size:clamp(2.3rem,10vw,4rem);line-height:1.04}
 @media (min-aspect-ratio:1/1){.cap{left:78%;top:50%;width:min(37vw,15em);text-align:left;font-size:clamp(2rem,4.5vw,4.2rem)}.cap.big{font-size:clamp(2.6rem,5.6vw,5.2rem)}.cap.long{font-size:clamp(1.8rem,3.8vw,3.5rem)}.cap.big.long{font-size:clamp(2.2rem,4.6vw,4.4rem)}#pool{left:50%;top:0;background:linear-gradient(to right,rgba(3,4,8,0),rgba(3,4,8,.9) 30%,rgba(3,4,8,.95))}}
 /* entry */
-#entry{position:absolute;left:0;right:0;top:calc(var(--cy,40%) + var(--ts,80px) * .62);display:flex;flex-direction:column;align-items:center;gap:0;transition:opacity .28s ease-out;z-index:3}
+#entry{position:absolute;left:0;right:0;top:calc(var(--cy,40%) + var(--ts,80px) * .62);display:flex;flex-direction:column;align-items:center;gap:0;transition:opacity .28s ease-out;z-index:4}
 #entry .sub{margin:0;font:400 clamp(.78rem,3.2vw,.95rem)/1 "Source Serif",Georgia,serif;letter-spacing:.42em;text-indent:.42em;text-transform:uppercase;color:var(--gold)}
 #begin{margin:clamp(26px,6.5vh,64px) 0 0;width:clamp(84px,22vw,112px);height:clamp(84px,22vw,112px);padding:0;border:0;border-radius:50%;background:rgba(5,7,13,.5);color:var(--ink);cursor:pointer;position:relative;-webkit-backdrop-filter:blur(6px);backdrop-filter:blur(6px);transition:transform .25s cubic-bezier(.2,.8,.2,1),background .25s}
 #begin svg{position:absolute;inset:0;width:100%;height:100%;overflow:visible}
@@ -46,6 +46,7 @@ html.ready #begin .trk{animation:breathe 4.2s ease-in-out infinite}
 @media (hover:hover){html.ready #begin:hover{transform:scale(1.06);background:rgba(233,194,122,.10)}}
 #begin:active{transform:scale(.96)}
 #begin:focus-visible,.lnk:focus-visible,.cbtn:focus-visible{outline:2px solid var(--gold);outline-offset:4px}
+@media (min-aspect-ratio:1/1){#begin{margin-top:22px}}
 #foot{position:absolute;left:0;right:0;bottom:0;padding:110px 0 calc(14px + env(safe-area-inset-bottom));display:flex;flex-direction:column;align-items:center;background:linear-gradient(to bottom,rgba(5,7,13,0),rgba(5,7,13,.9) 42%,rgba(5,7,13,.98) 60%);transition:opacity .28s ease-out;z-index:3}
 html[data-mode=film] #foot{opacity:0;pointer-events:none}
 #foot .meta{margin:0;font:400 1.15rem/1.4 "Voice",Georgia,serif;color:var(--ink);letter-spacing:.01em}
@@ -110,7 +111,7 @@ html.capture *{transition:none!important;animation:none!important}
 <script>window.FILM_DATA=%%DATA%%;</script>
 <script>%%ENGINE%%</script>
 <script>%%SHOTS%%</script>
-<script>(function(){var F=window.FILM,d=document;function vars(){var m=F.dims(),ts=Math.min(m.W*.205,m.H*.2);d.documentElement.style.setProperty('--cy',(m.H*m.CYF)+'px');d.documentElement.style.setProperty('--ts',ts+'px')}
+<script>(function(){var F=window.FILM,d=document;function vars(){var g=F.titleGeo();d.documentElement.style.setProperty('--cy',(g.cy-g.ts*.3)+'px');d.documentElement.style.setProperty('--ts',g.ts+'px')}
 F.boot();vars();addEventListener('resize',function(){setTimeout(vars,160)});
 d.getElementById('begin').addEventListener('click',function(){var r=this.getBoundingClientRect(),m=F.dims();F.shots.rip=[(r.left+r.width/2-m.W/2)/m.U,(m.H*m.CYF-(r.top+r.height/2))/m.U]},true);})();</script>
 </body>
