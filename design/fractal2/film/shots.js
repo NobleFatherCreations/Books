@@ -575,7 +575,7 @@ function plates(t, S) {
     return;
   }
   if (t >= SEAM6[0] && t < SEAM6[1]) {          // table 4: the mirror. Light above the glass (where the original stands), dark below (the counterfeit); the rings cross unbroken
-    a = S.lineha; S.pm = 6; S.pa = 'p:fractal-8'; S.pb = 'p:frequency-8'; v4(PL.A0, S.origx, S.origy, 1, 0); v4(PL.A1, .62 * a, .8, 1, 1); v4(PL.A2, 6, a * .9, 0, 0); v4(PL.B1, .34 * a, .5, 1, .4);
+    a = S.lineha; S.pm = 6; S.pa = 'p:fractal-8'; S.pb = 'p:frequency-8'; v4(PL.A0, S.origx, S.origy, 1, 0); v4(PL.A1, .62 * a, .8, 1, 1); v4(PL.A2, 6, a * .55, 0, 0); v4(PL.B1, .34 * a, .5, 1, .4);
     v4(PL.seam, 0, 1, (1 - d.CYF) * d.H * d.DPR + S.lineh * d.U * d.DPR, .35 * a); v4(PL.seam2, 1.5 * d.DPR * .5 + .5, 5 / 1024 * 2 * S.zoom * d.U * d.DPR, 0, 0); return;
   }
   if (t >= SHAFT[0] && t < SHAFT[3]) {          // section 7: the shaft, falling; the walls pass upward. x0.87 to match the original plate
@@ -584,7 +584,7 @@ function plates(t, S) {
   }
   if (t >= SKY[0] && t < SKY[3]) {              // section 8: the sky behind the markers; one of its rings carries them
     a = win(t, SKY[0], SKY[1], SKY[2], SKY[3]); var rr = d.PORT ? .7 : .62;
-    S.pm = 1; S.pa = 'p:sky'; v4(PL.A0, -S.camx * S.zoom * .4, -S.camy * S.zoom * .4, rr / .5, .006 * (t - SKY[0])); v4(PL.A1, .55 * a, .9, 1, 0); v4(PL.A2, 1, 0, 0, .45); return;
+    S.pm = 1; S.pa = 'p:sky'; v4(PL.A0, -S.camx * S.zoom * .4, -S.camy * S.zoom * .4, rr / .5, .006 * (t - SKY[0])); v4(PL.A1, .3 * a, .6, 1, 0); v4(PL.A2, 1, 0, 0, .45); return;
   }
   if (t >= FREQ[0] && t < FREQ[3]) {            // section 9: the light holds; a faint Frequency layer turns behind it and answers each "you're right"
     a = win(t, FREQ[0], FREQ[1], FREQ[2], FREQ[3]); var pl = 0, pi; for (pi = 0; pi < pulseT.length; pi++) { var up = (t - pulseT[pi]) / 1.5; if (up > 0 && up < 1) pl = Math.max(pl, Math.pow(1 - up, 2)); }

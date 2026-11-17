@@ -95,7 +95,7 @@ var FS_SCENE = COMMON + [
 'uniform sampler2D tOrig,tCore,tLogo,tEmb;',
 'uniform float uOrigA,uCoreA,uLogoA,uEmbA,uWords,uReveal,uFront,uTitle,uSpin,uDim,uOrigK,uRingDim;uniform vec2 uOrigP;uniform vec4 uRing;uniform float uRingL,uRing0,uLRev,uLogoK,uLH;uniform vec4 uGen;uniform vec2 uFrontL,uPat,uLineH,uLineV;uniform float uPatC;uniform vec3 uMk[10];uniform float uMkR,uMkL;uniform vec4 uBkP[30];uniform vec2 uBkQ[30];uniform float uBkA,uThN,uThA;uniform vec2 uTh[8];uniform vec4 uTrA[6],uTrB[6];',
 'uniform vec3 uLight;uniform vec4 uOrb;uniform float uMotes,uGlint,uStars,uDust,uStreak,uHole,uRingS,uPoolR,uPoolK;',
-'uniform sampler2D tP0,tP1,tP2;uniform vec4 uPA0,uPA1,uPA2,uPB0,uPB1,uSeam,uSeam2,uEmbD;uniform vec2 uBd[8];uniform float uDisF,uBkT;',
+'uniform sampler2D tP0,tP1,tP2;uniform vec4 uPA0,uPA1,uPA2,uPB0,uPB1,uSeam,uSeam2,uEmbD;uniform vec2 uBd[8];uniform float uDisF,uBkT;uniform vec3 uPL;',
 'in vec2 v;out vec4 o;',
 'const float FR[8]=float[8](.207,.296,.38,.462,.547,.624,.713,.829);',
 /* plates: the owner's images, lit by the film's one light and moved by its camera. g0 = centre.xy, half-size, angle; g1 = gain, lit, aspect (w/h), space (0 screen, 1 world) */
@@ -104,10 +104,16 @@ var FS_SCENE = COMMON + [
 'int bandOf(float r){int b=0;for(int i=1;i<10;i++)if(r>=PB[i])b=i;return b;}',
 'float litK(vec2 q){vec2 dv=q-uLS;float dl=length(dv)/max(uLight.y*3.,.25);return min(uLight.z,1.6)/(1.+dl*dl);}',
 'vec2 pD(vec2 q,vec2 p,vec4 g0,vec4 g1){return rot(-g0.w)*((g1.w>.5?p:q)-g0.xy)/g0.z;}',
-'vec4 pS(sampler2D t,vec2 d,float asp,float disc){vec2 uv=vec2(d.x/asp,d.y-disc*.026)*.5+.5;',
+'vec4 pS(sampler2D t,vec2 d,float asp,float disc,float lod){vec2 uv=vec2(d.x/asp,d.y-disc*.026)*.5+.5;',
 '  float m=disc>.5?smoothstep(.905,.885,length(d)):smoothstep(0.,.03,uv.x)*smoothstep(0.,.03,1.-uv.x)*smoothstep(0.,.03,uv.y)*smoothstep(0.,.03,1.-uv.y);',
-'  return vec4(texture(t,clamp(uv,0.,1.)).rgb,m);}',
+'  return vec4(textureLod(t,clamp(uv,0.,1.),lod).rgb,m);}',
 'vec3 pLit(vec3 c,vec2 q,vec4 g1){return c*g1.x*(1.+g1.y*litK(q));}',
+'void pairL(vec2 q,vec2 p,inout vec3 col){float pm=uPA2.x;vec2 d=pD(q,p,uPA0,uPA1);float rr=length(d);if(pm==6.)d*=remap(rr)/max(rr,1e-5);',   // the twins: seam split (3; 6 registered to the map, drawn over it) or band-by-band dissolve (5)
+'    vec4 a=pS(tP0,d,1.,1.,uPL.x),b=pS(tP1,d,1.,1.,uPL.y);float k,sd=dot(gl_FragCoord.xy,uSeam.xy)-uSeam.z;',
+'    if(pm==5.){int bi=bandOf(length(d));float lo=PB[bi],hi=bi>=9?.905:PB[bi+1];float loc=clamp(uDisF-max(float(bi)-1.,0.),0.,1.);k=loc>=1.?1.:loc<=0.?0.:smoothstep(.01,-.01,length(d)-mix(lo,hi,loc));}',
+'    else k=smoothstep(-1.,1.,sd);',
+'    vec3 c=mix(pLit(a.rgb,q,uPA1),pLit(b.rgb,q,uPB1)*mix(1.,smoothstep(.98,.12,rr),uPB1.w),k);col=col*(1.-uPA2.y*a.a)+c*a.a;',
+'    if(pm!=5.&&uSeam.w>0.){float sc=sd/uSeam2.x,sg=sd/uSeam2.y;col+=(vec3(1.,.965,.886)*exp(-sc*sc)*.85+vec3(1.,.92,.75)*exp(-sg*sg*.5)*.4)*uSeam.w*smoothstep(1.,.86,rr);}}',
 'vec4 art(sampler2D t,vec2 p,float hs,float spin){',
 '  float r=length(p)/hs;if(spin!=0.){float b=0.;for(int i=0;i<8;i++)b+=step(FR[i],r);float dir=mod(b,2.)<.5?1.:-1.;p=rot(spin*dir*(.55+.09*b))*p;}',
 '  vec2 uv=p/(2.*hs)+.5;vec2 e=smoothstep(vec2(0.),vec2(.004),uv)*smoothstep(vec2(0.),vec2(.004),1.-uv);',
@@ -129,15 +135,10 @@ var FS_SCENE = COMMON + [
 '  if(uStars>0.){vec2 vel=normalize(sq+1e-5)*uStreak;float s=stars(sq*exp(.10*lz)+uCam*.1,7.,1.,vel*.6)*.55+stars(sq*exp(.22*lz)+uCam*.25,13.,5.,vel)*.8+stars(sq*exp(.40*lz)+uCam*.5,23.,9.,vel*1.6);',
 '    col+=vec3(.82,.88,1.)*s*uStars;}',
 '  float pm=uPA2.x;',
-'  if(pm==1.){vec2 d=pD(q,p,uPA0,uPA1);vec4 a=pS(tP0,d,uPA1.z,0.);if(uPA2.w>0.)a.a*=smoothstep(1.,1.-uPA2.w,length(d));vec3 c=pLit(a.rgb,q,uPA1)*a.a;',      // one plate; uPA2.z > 0 adds a second, nearer copy (depth)
-'    if(uPA2.z>0.){vec4 b=pS(tP0,pD(q,p,uPB0,uPA1),uPA1.z,0.);c+=pLit(b.rgb,q,uPA1)*b.a*uPA2.z;}',
+'  if(pm==1.){vec2 d=pD(q,p,uPA0,uPA1);vec4 a=pS(tP0,d,uPA1.z,0.,uPL.x);if(uPA2.w>0.)a.a*=smoothstep(1.,1.-uPA2.w,length(d));vec3 c=pLit(a.rgb,q,uPA1)*a.a;',      // one plate; uPA2.z > 0 adds a second, nearer copy (depth)
+'    if(uPA2.z>0.){vec4 b=pS(tP0,pD(q,p,uPB0,uPA1),uPA1.z,0.,max(uPL.x-.5,0.));c+=pLit(b.rgb,q,uPA1)*b.a*uPA2.z;}',
 '    col=col*(1.-uPA2.y*a.a)+c;}',
-'  else if(pm==3.||pm==5.||pm==6.){vec2 d=pD(q,p,uPA0,uPA1);float rr=length(d);if(pm==6.)d*=remap(rr)/max(rr,1e-5);',   // the twins: seam split (3, 6: registered to the map) or band-by-band dissolve (5)
-'    vec4 a=pS(tP0,d,1.,1.),b=pS(tP1,d,1.,1.);float k,sd=dot(gl_FragCoord.xy,uSeam.xy)-uSeam.z;',
-'    if(pm==5.){int bi=bandOf(length(d));float lo=PB[bi],hi=bi>=9?.905:PB[bi+1];float loc=clamp(uDisF-max(float(bi)-1.,0.),0.,1.);k=loc>=1.?1.:loc<=0.?0.:smoothstep(.01,-.01,length(d)-mix(lo,hi,loc));}',
-'    else k=smoothstep(-1.,1.,sd);',
-'    vec3 c=mix(pLit(a.rgb,q,uPA1),pLit(b.rgb,q,uPB1)*mix(1.,smoothstep(.98,.12,rr),uPB1.w),k);col=col*(1.-uPA2.y*a.a)+c*a.a;',
-'    if(pm!=5.&&uSeam.w>0.){float sc=sd/uSeam2.x,sg=sd/uSeam2.y;col+=(vec3(1.,.965,.886)*exp(-sc*sc)*.85+vec3(1.,.92,.75)*exp(-sg*sg*.5)*.4)*uSeam.w*smoothstep(1.,.86,rr);}}',
+'  else if(pm==3.||pm==5.)pairL(q,p,col);',
 '  float rv=smoothstep(uReveal+.012,uReveal-.012,length(p-uOrigP));float hole=max(uTitle,smoothstep(uHole*.82,uHole,length(p-uOrigP)));vec3 sky=col;float px=1./(uUnit*uZoom);vec3 gold=vec3(1.,.80,.42);',
 '  if(uEmbA>0.||uLogoA>0.){vec2 pl=p;float rl=length(pl)/uLH;',
 '    float lm=smoothstep(uLRev+.025,uLRev-.025,rl);',
@@ -154,10 +155,11 @@ var FS_SCENE = COMMON + [
 '  if(uCoreA>0.){vec4 a=art(tCore,p-uOrigP,.7,0.);a.a=1.;a*=uCoreA*rv*smoothstep(.7,.66,max(abs(p.x-uOrigP.x),abs(p.y-uOrigP.y)));col=col*(1.-a.a)+a.rgb;}',
 
 '  col=mix(mix(sky,vec3(.012,.014,.022),min(1.,uOrigA+uLogoA+uEmbA)),col,hole);',
+'  if(pm==6.)pairL(q,p,col);',
 '  if(pm==4.){vec2 d=rot(-uPA0.w)*(p-uOrigP);',            // table 3: a ring of the map turns over (the twin plate's band, registered band for band), gold to pewter
 '    for(int i=0;i<8;i++){vec2 bd=uBd[i];if(bd.x<=0.)continue;float s=abs(cos(3.14159*clamp(bd.y,0.,1.)));vec2 ds=vec2(d.x/max(s,.03),d.y);float rs=length(ds);',
 '      float inb=smoothstep(OB[i+1]-.004,OB[i+1]+.004,rs)*smoothstep(OB[i+2]+.004,OB[i+2]-.004,rs)*step(.03,s);if(inb<=0.)continue;',
-'      vec2 dt=ds*remap(rs)/max(rs,1e-5);vec3 f=pS(tP0,dt,1.,1.).rgb,g=pS(tP1,dt,1.,1.).rgb;vec3 gd=mix(f,g*vec3(1.,.8,.48),.35);float lu=dot(f,vec3(.299,.587,.114));',
+'      vec2 dt=ds*remap(rs)/max(rs,1e-5);vec3 f=pS(tP0,dt,1.,1.,uPL.x).rgb,g=pS(tP1,dt,1.,1.,uPL.y).rgb;vec3 gd=mix(f,g*vec3(1.,.8,.48),.35);float lu=dot(f,vec3(.299,.587,.114));',
 '      vec3 c=bd.y<.5?gd:mix(f,vec3(lu),.8)*.85*uPA2.z;col=mix(col,pLit(c,q,uPA1)*(.75+.25*s),inb*bd.x);}}',
 '  if(uPoolK>0.)col*=mix(1.-uPoolK,1.,smoothstep(uPoolR*.35,uPoolR,length(q)));',
 '  col*=uDim;',
@@ -192,7 +194,7 @@ var FS_SCENE = COMMON + [
 '      float fe=pq*1.3+(1.-Q.x)*.045+.0035;float cv=smoothstep(fe,-fe,sd)*Q.x*uBkA;if(cv<=0.)continue;',
 '      float gr=vn(d*vec2(38.,9.)+float(i)*7.1)*.5+vn(d*90.+float(i))*.5;',
 '      vec3 slab=vec3(.013,.014,.019)*(.85+.3*gr)+vec3(.05,.04,.028)*smoothstep(-.6,1.,d.y/B.w)*.35;',
-'      if(uBkT>0.){vec2 bo=vec2(h21(vec2(float(i),3.1)),h21(vec2(float(i),7.3)))-.5;vec3 bs=texture(tP2,clamp(.5+rot(bo.x*3.)*d*1.25+bo*.38,0.,1.)).rgb;slab=mix(slab,bs*uBkT*(.75+.5*smoothstep(-.6,1.,d.y/B.w)),.92);}',   // basalt: the blocks are stone
+'      if(uBkT>0.){vec2 bo=vec2(h21(vec2(float(i),3.1)),h21(vec2(float(i),7.3)))-.5;vec3 bs=textureLod(tP2,clamp(.5+rot(bo.x*3.)*d*1.25+bo*.38,0.,1.),uPL.z).rgb;slab=mix(slab,bs*uBkT*(.75+.5*smoothstep(-.6,1.,d.y/B.w)),.92);}',   // basalt: the blocks are stone
 '      slab+=vec3(1.,.8,.5)*exp(min(sd,0.)/.009)*.10*lit*Q.x;',
 '      col=mix(col,slab,cv*.985);bkm=max(bkm,cv);}}',
 '  o=vec4(col,1.-bkm*.96);}'].join('\n');
@@ -297,6 +299,9 @@ function keep(need) {
   for (var i = 0; i < need.length; i++) { k = need[i]; if (!TX[k]) { if (IMG[k] && IMG[k].ok) upload(k); else if (!IMG[k]) load(k); } }
 }
 var blank = null;
+function plod(k) {                            // mip level for a plate (texels per pixel): explicit, because derivatives are undefined inside the shader's loops
+  var m = IMG[k]; if (!m || !m.ok) return 0; var hs = S.pA0[2] * (S.pA1[3] > .5 ? S.zoom : 1) * U * DPR; return Math.max(0, Math.log2(m.el.naturalWidth / Math.max(1, 2 * hs)));
+}
 function bind(unit, k) {
   gl.activeTexture(gl.TEXTURE0 + unit);
   if (TX[k]) gl.bindTexture(gl.TEXTURE_2D, TX[k]);
@@ -407,7 +412,7 @@ function render(t) {
   bind(0, 'orig'); gl.uniform1i(u.tOrig, 0); bind(1, 'core'); gl.uniform1i(u.tCore, 1); bind(2, 'logo'); gl.uniform1i(u.tLogo, 2); bind(3, 'emb'); gl.uniform1i(u.tEmb, 3);
   var pm = (S.pa && TX[S.pa] && !F.opt.noplate) ? S.pm : 0; if ((pm === 3 || pm === 5 || pm === 6 || pm === 4) && !TX[S.pb]) pm = 0;     // a plate draws only once its texture is on the GPU
   gl.uniform4f(u.uPA2, pm, S.pA2[1], S.pA2[2], S.pA2[3]); gl.uniform4fv(u.uPA0, S.pA0); gl.uniform4fv(u.uPA1, S.pA1); gl.uniform4fv(u.uPB0, S.pB0); gl.uniform4fv(u.uPB1, S.pB1);
-  gl.uniform4fv(u.uSeam, S.seam); gl.uniform4fv(u.uSeam2, S.seam2); gl.uniform2fv(u.uBd, S.bd); gl.uniform1f(u.uDisF, S.disf); gl.uniform1f(u.uBkT, S.pc && TX[S.pc] && !F.opt.noplate ? S.bkt : 0); gl.uniform4fv(u.uEmbD, S.embd);
+  gl.uniform4fv(u.uSeam, S.seam); gl.uniform4fv(u.uSeam2, S.seam2); gl.uniform2fv(u.uBd, S.bd); gl.uniform1f(u.uDisF, S.disf); gl.uniform1f(u.uBkT, S.pc && TX[S.pc] && !F.opt.noplate ? S.bkt : 0); gl.uniform4fv(u.uEmbD, S.embd); gl.uniform3f(u.uPL, plod(S.pa), plod(S.pb), S.pc && IMG[S.pc] && IMG[S.pc].ok ? Math.max(0, Math.log2(IMG[S.pc].el.naturalWidth * 1.25 / (U * DPR))) : 0);
   bind(4, S.pa); gl.uniform1i(u.tP0, 4); bind(5, S.pb); gl.uniform1i(u.tP1, 5); bind(6, S.pc); gl.uniform1i(u.tP2, 6);
   fs();
   if (!F.opt.notext) drawText();
@@ -569,7 +574,7 @@ function captions(t) {
       s.transform = G.y || G.sx !== 1 ? 'translate3d(0,' + px(G.y) + 'px,0)' + (G.sx !== 1 ? ' scaleX(' + G.sx.toFixed(4) + ')' : '') : 'none'; s.filter = blurCss(G.b, 1); }
     if (el._lp) { var lp = el._lp.style; if (R.lp >= 0) { var w = el._w, toL = (W * S.cxf + S.lx * U) < el._cx, pos = toL ? lerp(w, -.4 * w, R.lp) : lerp(-.4 * w, w, R.lp); lp.opacity = '1'; lp.webkitMaskPosition = lp.maskPosition = px(pos) + 'px 0'; } else lp.opacity = '0'; }
   }
-  for (slot = 0; slot < 2; slot++) if (!shown[slot] && capCur[slot] !== -1) { capEl[slot].style.opacity = 0; capEl[slot].style.filter = 'none'; capCur[slot] = -1; }
+  for (slot = 0; slot < 2; slot++) if (!shown[slot] && capCur[slot] !== -1) { capEl[slot].innerHTML = ''; capEl[slot].removeAttribute('style'); capEl[slot].style.opacity = 0; capCur[slot] = -1; }   // emptied, so the page never depends on what was seen before
   pool.style.opacity = (poolAt(t) * (S.poolk == null ? 1 : S.poolk)).toFixed(3);
 }
 
