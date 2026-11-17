@@ -168,6 +168,14 @@ def plates():
         out['p:' + n] = pair
     return out
 
+def audio():
+    """the owner's score, fitted to this clock by fit_score.py (served next to the plates, absolute path, so /fractal2 and /fractal2/ both find it)"""
+    f = os.path.join(SITE, '_a/film/score.m4a')
+    if not os.path.exists(f): return None
+    try: d = float(subprocess.check_output(['ffprobe', '-v', 'error', '-show_entries', 'format=duration', '-of', 'csv=p=0', f]).strip())
+    except Exception: d = None
+    return {'src': A + 'film/score.m4a', 'dur': d, 'bytes': os.path.getsize(f)}
+
 def main():
     caps, titles = parse(); SEC, dur, marks = layout(caps)
     chapters = [{'n': n, 'title': titles[n], 't': round(SEC[n], 3)} for n in sorted(titles)]
@@ -180,7 +188,7 @@ def main():
         'sectors': [{'name': x['name'], 'relationship': x['relationship']} for x in json.load(open(os.path.join(ROOT, 'content/fractal2/sectors.json')))['sectors']],
         'tables': json.load(open(os.path.join(HERE, 'tables.json'))),
         'tactics': [x['n'] for x in json.load(open(os.path.join(SITE, '_a/d/ent-search.json'))) if x['t'] == 't'],
-        'first': ['font', 'logo', 'orig', 'core'], 'later': ['emb'], 'audio': None, 'font': font(),
+        'first': ['font', 'logo', 'orig', 'core'], 'later': ['emb'], 'audio': audio(), 'font': font(),
     }
     for i, c in enumerate(data['caps']): data['capId'].setdefault(c['slug'], i)
     text = []; cur = 0

@@ -47,6 +47,8 @@ html.ready #begin .trk{animation:breathe 4.2s ease-in-out infinite}
 #begin:active{transform:scale(.96)}
 #begin:focus-visible,.lnk:focus-visible,.cbtn:focus-visible{outline:2px solid var(--gold);outline-offset:4px}
 @media (min-aspect-ratio:1/1){#begin{margin-top:22px}}
+.snd{display:inline-flex;align-items:center;gap:8px;margin-top:10px;min-height:44px;padding:0 14px;border:0;background:transparent;color:var(--ink2);font:400 .85rem/1 "Source Serif",Georgia,serif;letter-spacing:.08em;cursor:pointer;border-radius:22px}
+.snd svg{width:18px;height:18px;fill:currentColor}html.mute .snd .w{opacity:0}.snd:focus-visible{outline:2px solid var(--gold);outline-offset:2px}#ctl .snd{margin-top:0}
 #foot{position:absolute;left:0;right:0;bottom:0;padding:110px 0 calc(14px + env(safe-area-inset-bottom));display:flex;flex-direction:column;align-items:center;background:linear-gradient(to bottom,rgba(5,7,13,0),rgba(5,7,13,.9) 42%,rgba(5,7,13,.98) 60%);transition:opacity .28s ease-out;z-index:3}
 html[data-mode=film] #foot{opacity:0;pointer-events:none}
 #foot .meta{margin:0;font:400 1.15rem/1.4 "Voice",Georgia,serif;color:var(--ink);letter-spacing:.01em}
@@ -91,12 +93,14 @@ html.capture *{transition:none!important;animation:none!important}
   <div id="entry">
     <p class="sub">Begin here</p>
     <button id="begin" type="button" aria-label="Begin the film"><svg viewBox="0 0 100 100" aria-hidden="true"><circle class="trk" cx="50" cy="50" r="45"/><circle id="ring" cx="50" cy="50" r="45"/><path class="tri" d="M42 33 L69 50 L42 67Z"/></svg></button>
+    <button id="snd" class="snd" type="button" aria-pressed="true"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 9h4l5-4v14l-5-4H4z"/><path class="w" d="M16 8.5a5 5 0 0 1 0 7M18.6 6a8.5 8.5 0 0 1 0 12" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg><span class="l">Sound on</span></button>
   </div>
   <div id="foot"><p class="meta">A %%MIN%%-minute film</p><a class="lnk" href="#text">Read it instead</a></div>
   <div id="prog" aria-hidden="true"><div id="bar"></div>%%TICKS%%</div>
   <div id="ctl">
     <button class="cbtn" id="pp" type="button" aria-label="Pause" aria-pressed="true"><svg class="pa" viewBox="0 0 24 24" aria-hidden="true"><path d="M7 5h3.4v14H7zM13.6 5H17v14h-3.4z"/></svg><svg class="pl" viewBox="0 0 24 24" aria-hidden="true"><path d="M8 5l11 7-11 7z"/></svg></button>
     <button class="cbtn" id="replay" type="button">Replay</button>
+    <button class="cbtn snd" id="snd2" type="button" aria-pressed="true"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 9h4l5-4v14l-5-4H4z"/><path class="w" d="M16 8.5a5 5 0 0 1 0 7M18.6 6a8.5 8.5 0 0 1 0 12" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg><span class="l">Sound on</span></button>
     <span class="sp"></span>
     <a class="cbtn" href="#text">Read</a>
     <a class="cbtn" href="%%HUB%%">Skip to the map</a>

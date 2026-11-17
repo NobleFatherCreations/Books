@@ -1,0 +1,629 @@
+{
+ "film_dur": 1120.0,
+ "sr": 48000,
+ "bar": 1.6,
+ "silences": [
+  [
+   238.4,
+   241.6
+  ],
+  [
+   552.0,
+   563.2
+  ]
+ ],
+ "cues": [
+  {
+   "cue": "cue1.wav",
+   "slot": [
+    0.0,
+    238.4
+   ],
+   "bars_slot": 149,
+   "bars_cue": 117,
+   "first_downbeat_s": 0.093,
+   "beat_period_s": 0.39998,
+   "anchor": null,
+   "edits": [
+    {
+     "kind": "repeat",
+     "bars": [
+      80,
+      87
+     ],
+     "film_s": 179.2
+    },
+    {
+     "kind": "repeat",
+     "bars": [
+      61,
+      68
+     ],
+     "film_s": 136.0
+    },
+    {
+     "kind": "repeat",
+     "bars": [
+      48,
+      55
+     ],
+     "film_s": 102.4
+    },
+    {
+     "kind": "repeat",
+     "bars": [
+      32,
+      39
+     ],
+     "film_s": 64.0
+    }
+   ],
+   "seq_runs": [
+    [
+     0,
+     39
+    ],
+    [
+     32,
+     55
+    ],
+    [
+     48,
+     68
+    ],
+    [
+     61,
+     87
+    ],
+    [
+     80,
+     116
+    ]
+   ]
+  },
+  {
+   "cue": "cue2.wav",
+   "slot": [
+    238.4,
+    518.4
+   ],
+   "bars_slot": 175,
+   "bars_cue": 124,
+   "first_downbeat_s": 0.077,
+   "beat_period_s": 0.39995,
+   "lift_bar": 58,
+   "lift_score": 4.37,
+   "anchor": {
+    "name": "PEAK1",
+    "film_s": 313.6
+   },
+   "edits": [
+    {
+     "kind": "skip",
+     "bars": [
+      0,
+      10
+     ],
+     "film_s": 238.4
+    },
+    {
+     "kind": "repeat",
+     "bars": [
+      110,
+      117
+     ],
+     "film_s": 496.0
+    },
+    {
+     "kind": "repeat",
+     "bars": [
+      98,
+      105
+     ],
+     "film_s": 451.2
+    },
+    {
+     "kind": "repeat",
+     "bars": [
+      98,
+      105
+     ],
+     "film_s": 451.2
+    },
+    {
+     "kind": "repeat",
+     "bars": [
+      90,
+      97
+     ],
+     "film_s": 412.8
+    },
+    {
+     "kind": "repeat",
+     "bars": [
+      90,
+      97
+     ],
+     "film_s": 412.8
+    },
+    {
+     "kind": "repeat",
+     "bars": [
+      75,
+      82
+     ],
+     "film_s": 379.2
+    },
+    {
+     "kind": "repeat",
+     "bars": [
+      62,
+      69
+     ],
+     "film_s": 332.8
+    },
+    {
+     "kind": "repeat",
+     "bars": [
+      62,
+      69
+     ],
+     "film_s": 332.8
+    },
+    {
+     "kind": "skip",
+     "bars": [
+      92,
+      93
+     ],
+     "film_s": 406.4
+    }
+   ],
+   "seq_runs": [
+    [
+     11,
+     69
+    ],
+    [
+     62,
+     69
+    ],
+    [
+     62,
+     82
+    ],
+    [
+     75,
+     91
+    ],
+    [
+     94,
+     97
+    ],
+    [
+     90,
+     97
+    ],
+    [
+     90,
+     105
+    ],
+    [
+     98,
+     105
+    ],
+    [
+     98,
+     117
+    ],
+    [
+     110,
+     123
+    ]
+   ]
+  },
+  {
+   "cue": "cue3.wav",
+   "slot": [
+    518.4,
+    774.4
+   ],
+   "bars_slot": 160,
+   "bars_cue": 127,
+   "first_downbeat_s": 0.049,
+   "beat_period_s": 0.39995,
+   "opening_bar": 1,
+   "lift_bar": 84,
+   "lift_score": 6.31,
+   "anchor": {
+    "name": "PEAK3",
+    "film_s": 756.8
+   },
+   "edits": [
+    {
+     "kind": "start",
+     "bars": [
+      1,
+      1
+     ],
+     "film_s": 518.4
+    },
+    {
+     "kind": "repeat",
+     "bars": [
+      74,
+      81
+     ],
+     "film_s": 740.8
+    },
+    {
+     "kind": "repeat",
+     "bars": [
+      64,
+      71
+     ],
+     "film_s": 712.0
+    },
+    {
+     "kind": "repeat",
+     "bars": [
+      56,
+      63
+     ],
+     "film_s": 683.2
+    },
+    {
+     "kind": "repeat",
+     "bars": [
+      56,
+      63
+     ],
+     "film_s": 683.2
+    },
+    {
+     "kind": "repeat",
+     "bars": [
+      48,
+      55
+     ],
+     "film_s": 657.6
+    },
+    {
+     "kind": "repeat",
+     "bars": [
+      40,
+      47
+     ],
+     "film_s": 632.0
+    },
+    {
+     "kind": "repeat",
+     "bars": [
+      25,
+      32
+     ],
+     "film_s": 595.2
+    },
+    {
+     "kind": "repeat",
+     "bars": [
+      16,
+      23
+     ],
+     "film_s": 568.0
+    },
+    {
+     "kind": "repeat",
+     "bars": [
+      4,
+      11
+     ],
+     "film_s": 536.0
+    },
+    {
+     "kind": "skip",
+     "bars": [
+      58,
+      63
+     ],
+     "film_s": 699.2
+    },
+    {
+     "kind": "skip",
+     "bars": [
+      92,
+      123
+     ],
+     "film_s": 769.6
+    }
+   ],
+   "seq_runs": [
+    [
+     1,
+     11
+    ],
+    [
+     4,
+     23
+    ],
+    [
+     16,
+     32
+    ],
+    [
+     25,
+     47
+    ],
+    [
+     40,
+     55
+    ],
+    [
+     48,
+     63
+    ],
+    [
+     56,
+     63
+    ],
+    [
+     56,
+     57
+    ],
+    [
+     64,
+     71
+    ],
+    [
+     64,
+     81
+    ],
+    [
+     74,
+     91
+    ],
+    [
+     124,
+     126
+    ]
+   ]
+  },
+  {
+   "cue": "cue4.wav",
+   "slot": [
+    774.4,
+    1120.0
+   ],
+   "bars_slot": 216,
+   "bars_cue": 123,
+   "first_downbeat_s": 1.461,
+   "beat_period_s": 0.39997,
+   "anchor": null,
+   "edits": [
+    {
+     "kind": "repeat",
+     "bars": [
+      113,
+      120
+     ],
+     "film_s": 1104.0
+    },
+    {
+     "kind": "repeat",
+     "bars": [
+      105,
+      112
+     ],
+     "film_s": 1078.4
+    },
+    {
+     "kind": "repeat",
+     "bars": [
+      96,
+      103
+     ],
+     "film_s": 1056.0
+    },
+    {
+     "kind": "repeat",
+     "bars": [
+      88,
+      95
+     ],
+     "film_s": 1030.4
+    },
+    {
+     "kind": "repeat",
+     "bars": [
+      79,
+      86
+     ],
+     "film_s": 1003.2
+    },
+    {
+     "kind": "repeat",
+     "bars": [
+      64,
+      71
+     ],
+     "film_s": 966.4
+    },
+    {
+     "kind": "repeat",
+     "bars": [
+      55,
+      62
+     ],
+     "film_s": 939.2
+    },
+    {
+     "kind": "repeat",
+     "bars": [
+      43,
+      50
+     ],
+     "film_s": 907.2
+    },
+    {
+     "kind": "repeat",
+     "bars": [
+      31,
+      38
+     ],
+     "film_s": 875.2
+    },
+    {
+     "kind": "repeat",
+     "bars": [
+      22,
+      29
+     ],
+     "film_s": 848.0
+    },
+    {
+     "kind": "repeat",
+     "bars": [
+      9,
+      16
+     ],
+     "film_s": 814.4
+    },
+    {
+     "kind": "repeat",
+     "bars": [
+      1,
+      8
+     ],
+     "film_s": 788.8
+    },
+    {
+     "kind": "skip",
+     "bars": [
+      101,
+      103
+     ],
+     "film_s": 1064.0
+    }
+   ],
+   "seq_runs": [
+    [
+     0,
+     8
+    ],
+    [
+     1,
+     16
+    ],
+    [
+     9,
+     29
+    ],
+    [
+     22,
+     38
+    ],
+    [
+     31,
+     50
+    ],
+    [
+     43,
+     62
+    ],
+    [
+     55,
+     71
+    ],
+    [
+     64,
+     86
+    ],
+    [
+     79,
+     95
+    ],
+    [
+     88,
+     103
+    ],
+    [
+     96,
+     100
+    ],
+    [
+     104,
+     112
+    ],
+    [
+     105,
+     120
+    ],
+    [
+     113,
+     122
+    ]
+   ]
+  }
+ ],
+ "anchors": [
+  {
+   "name": "PEAK1",
+   "film_s": 313.6,
+   "window_s": [
+    288.0,
+    339.20000000000005
+   ],
+   "nearest_downbeat_ms": -2.0
+  },
+  {
+   "name": "PEAK2",
+   "film_s": 518.4,
+   "window_s": [
+    518.4,
+    550.4
+   ],
+   "nearest_downbeat_ms": -2.0
+  },
+  {
+   "name": "PEAK3",
+   "film_s": 756.8,
+   "window_s": [
+    705.5999999999999,
+    774.4
+   ],
+   "nearest_downbeat_ms": -26.0
+  },
+  {
+   "name": "STOP",
+   "film_s": 238.4,
+   "cut": "hard cut; silence to 241.6 s",
+   "level_after_db": -240.0
+  }
+ ],
+ "silence_check": [
+  {
+   "span": [
+    238.4,
+    241.6
+   ],
+   "max_abs": 0.0
+  },
+  {
+   "span": [
+    552.0,
+    563.2
+   ],
+   "max_abs": 0.0
+  }
+ ],
+ "hub": {
+  "bars": 108,
+  "first_downbeat_s": 0.152,
+  "loop_s": 172.8
+ },
+ "web": {
+  "score.m4a": 22995943,
+  "hub.m4a": 2813810
+ },
+ "score_wav_s": 1126.0
+}

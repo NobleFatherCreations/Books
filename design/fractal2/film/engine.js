@@ -648,7 +648,7 @@ function endState(t) {
   if (door) { door.style.opacity = e.toFixed(3); door.style.transform = 'translate3d(0,' + (Math.round((1 - E.out3(e)) * 12 * DPR) / DPR) + 'px,0)'; }
 }
 /* ---------- clock ---------- */
-var mode = 'entry', t = 0, playing = false, lastNow = 0, tau = 0, raf = 0, dirty = true, audio = null;
+var mode = 'entry', t = 0, playing = false, lastNow = 0, tau = 0, raf = 0, dirty = true, audio = null, snd = true, resync = false, lastSync = 0;
 F.dur = D.dur;
 function now() { return performance.now() / 1000; }
 function frame() {
@@ -656,8 +656,11 @@ function frame() {
   if (mode === 'entry') { tau += dt * (RM ? .25 : 1); F.shots.tau = tau; render(-1); gov(dt); }
   else {
     if (playing) {
-      if (audio && !audio.paused) { var at = audio.currentTime; t += dt; var dr = at - t; drift = dr; if (Math.abs(dr) > .04) t = at; else t += dr * .1; }
-      else t += dt;
+      if (audio && snd && !audio.paused && audio.readyState >= 3) {        // the clock follows the score when sound is on
+        var at = audio.currentTime; t += dt; var dr = at - t; drift = dr;
+        if (resync || Math.abs(dr) > 1) { if (Math.abs(dr) > .25 && n - lastSync > 1) { try { audio.currentTime = t; } catch (e) {} lastSync = n; } resync = false; }   // a seek the score did not take: the picture leads, the score is sent after it
+        else if (Math.abs(dr) > .04) t = at; else t += dr * .1; }
+      else { t += dt; if (audio && snd && playing) resync = true; }        // still loading or stalled: the picture runs on, and the score catches up to it
       if (t >= F.dur) { t = F.dur; playing = false; ended(); }
       gov(dt);
     }
@@ -696,14 +699,14 @@ function wakeOn() { if (navigator.wakeLock) navigator.wakeLock.request('screen')
 function wakeOff() { if (wake) { try { wake.release(); } catch (e) {} wake = null; } }
 function setPlaying(on) {
   playing = on; d.documentElement.classList.toggle('paused', !on && mode === 'film');
-  if (audio) { if (on) { var p = audio.play(); if (p && p.catch) p.catch(function () {}); } else audio.pause(); }
+  if (audio) { if (on && snd) { if (Math.abs(audio.currentTime - t) > .1) try { audio.currentTime = t; } catch (e) {} var p = audio.play(); if (p && p.catch) p.catch(function () {}); } else audio.pause(); }
   if (on) { wakeOn(); lastNow = now(); go(); } else wakeOff();
   var b = $('pp'); if (b) { b.setAttribute('aria-label', on ? 'Pause' : 'Play'); b.setAttribute('aria-pressed', on ? 'true' : 'false'); }
 }
 function begin() {
   if (mode !== 'entry') return;
   F.shots.tau0 = tau; mode = 'film'; t = 0; d.documentElement.setAttribute('data-mode', 'film');
-  if (audio) { try { audio.currentTime = 0; } catch (e) {} }
+  if (audio && snd) { audio.preload = 'auto'; try { audio.currentTime = 0; } catch (e) {} }
   if (navigator.vibrate) try { navigator.vibrate(12); } catch (e) {}
   setPlaying(true); showUI();
 }
@@ -716,7 +719,7 @@ F.state = function () {
   var n = Math.min(ft.length, 600), s = 0, i, a = ft.slice(-n).sort(function (x, y) { return x - y; }); for (i = 0; i < a.length; i++) s += a[i];
   return { mode: mode, t: +F.time().toFixed(3), playing: playing, tier: TIERS[tier].name, dpr: DPR, w: W, h: H, gl: !!gl, hdr: HDR && !!TIERS[tier].hdr,
     fps: n ? +(n / s).toFixed(1) : 0, p95: n ? +(a[Math.floor(n * .95)] * 1000).toFixed(1) : 0, drops: drops, allocMB: +(alloc / 1048576).toFixed(1), peakMB: +(peakAlloc / 1048576).toFixed(1),
-    drift: +(drift * 1000).toFixed(1), ctxLost: ctxLost, tiers: tierLog, glyphs: TXT.n, caps: capCur.slice(), ready: ready };
+    drift: +(drift * 1000).toFixed(1), sound: !!(audio && snd), audioT: audio ? +audio.currentTime.toFixed(3) : null, audioDur: audio && isFinite(audio.duration) ? audio.duration : null, ctxLost: ctxLost, tiers: tierLog, glyphs: TXT.n, caps: capCur.slice(), ready: ready };
 };
 
 /* ---------- boot ---------- */
@@ -735,7 +738,12 @@ function boot() {
   function one() { left--; if (ring) ring.style.strokeDashoffset = (ring.getTotalLength ? 283 * left / need.length : 0).toFixed(1); if (left <= 0) { var fin = function () { ready = true; d.documentElement.classList.add('ready'); dirty = true; if (F.capture) render(F.time() < 0 ? -1 : t); go(); }; if (d.fonts && d.fonts.ready) Promise.all([d.fonts.load('1em Voice'), d.fonts.load('1em "Source Serif"'), d.fonts.ready]).then(fin, fin); else fin(); } }
   need.forEach(function (k) { load(k, one); });
   setTimeout(function () { D.later.forEach(function (k) { load(k); }); }, 1500);
-  if (D.audio) { audio = new Audio(); audio.preload = 'auto'; audio.src = D.audio; }
+  if (D.audio && !F.capture) { audio = new Audio(); audio.preload = 'metadata'; audio.src = D.audio.src; }      // never in ?capture: frames there are a function of the clock alone
+  var sb = $('snd');
+  function sndSet(on) { snd = on; d.documentElement.classList.toggle('mute', !on); [sb, $('snd2')].forEach(function (b) { if (b) { b.setAttribute('aria-pressed', on ? 'true' : 'false'); b.querySelector('.l').textContent = on ? 'Sound on' : 'Sound off'; } });
+    if (audio) { if (on && playing) { try { audio.currentTime = t; } catch (e) {} var p = audio.play(); if (p && p.catch) p.catch(function () {}); } else if (!on) audio.pause(); } }
+  if (!audio) { if (sb) sb.hidden = true; if ($('snd2')) $('snd2').hidden = true; snd = false; }
+  else { sb.addEventListener('click', function (e) { e.stopPropagation(); sndSet(!snd); }); $('snd2').addEventListener('click', function (e) { e.stopPropagation(); sndSet(!snd); showUI(); }); sndSet(true); }
   $('begin').addEventListener('click', function () { if (ready) begin(); });
   $('pp').addEventListener('click', function (e) { e.stopPropagation(); setPlaying(!playing); showUI(); });
   $('stage').addEventListener('click', function (e) { if (mode !== 'film' || (e.target.closest && e.target.closest('button,a'))) return; if (d.documentElement.classList.contains('ui') || !playing) { setPlaying(!playing); } showUI(); });

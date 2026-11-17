@@ -30,6 +30,31 @@ class H(http.server.SimpleHTTPRequestHandler):
         f = base / rest
         return str(f if f.is_file() else base / (rest + ".html"))
 
+    def send_head(self):                       # byte ranges, as Netlify serves them (the score is seeked by the audio element)
+        rng = self.headers.get("Range")
+        path = self.translate_path(self.path)
+        if not rng or not rng.startswith("bytes=") or not Path(path).is_file():
+            return super().send_head()
+        size = Path(path).stat().st_size; a, _, b = rng[6:].split(",")[0].partition("-")
+        a = int(a) if a else max(0, size - int(b)); b = min(size - 1, int(b)) if (b and a is not None and rng[6:].split("-")[0]) else size - 1
+        if a >= size:
+            self.send_error(416); return None
+        f = open(path, "rb"); f.seek(a); self._left = b - a + 1
+        self.send_response(206); self.send_header("Content-Type", self.guess_type(path)); self.send_header("Accept-Ranges", "bytes")
+        self.send_header("Content-Range", "bytes %d-%d/%d" % (a, b, size)); self.send_header("Content-Length", str(self._left)); self.end_headers()
+        return f
+
+    def copyfile(self, src, dst):
+        left = getattr(self, "_left", None)
+        if left is None:
+            return super().copyfile(src, dst)
+        while left > 0:
+            buf = src.read(min(65536, left))
+            if not buf:
+                break
+            dst.write(buf); left -= len(buf)
+        self._left = None
+
     def end_headers(self):
         self.send_header("Cache-Control", "no-store")
         super().end_headers()
