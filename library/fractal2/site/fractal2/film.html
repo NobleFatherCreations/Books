@@ -689,9 +689,9 @@ function render(t) {
   gl.uniform1f(u.uMotes, S.motes); gl.uniform1f(u.uHole, S.hole); gl.uniform1f(u.uRingS, S.rings); gl.uniform1f(u.uPoolR, S.poolr); gl.uniform1f(u.uPoolK, S.poolg);
   gl.uniform1f(u.uStars, S.stars); gl.uniform1f(u.uDust, T.dust ? S.dust : 0); gl.uniform1f(u.uStreak, S.streak);
   bind(0, 'orig'); gl.uniform1i(u.tOrig, 0); bind(1, 'core'); gl.uniform1i(u.tCore, 1); bind(2, 'logo'); gl.uniform1i(u.tLogo, 2); bind(3, 'emb'); gl.uniform1i(u.tEmb, 3);
-  var pm = (S.pa && TX[S.pa]) ? S.pm : 0; if ((pm === 3 || pm === 5 || pm === 6 || pm === 4) && !TX[S.pb]) pm = 0;     // a plate draws only once its texture is on the GPU
+  var pm = (S.pa && TX[S.pa] && !F.opt.noplate) ? S.pm : 0; if ((pm === 3 || pm === 5 || pm === 6 || pm === 4) && !TX[S.pb]) pm = 0;     // a plate draws only once its texture is on the GPU
   gl.uniform4f(u.uPA2, pm, S.pA2[1], S.pA2[2], S.pA2[3]); gl.uniform4fv(u.uPA0, S.pA0); gl.uniform4fv(u.uPA1, S.pA1); gl.uniform4fv(u.uPB0, S.pB0); gl.uniform4fv(u.uPB1, S.pB1);
-  gl.uniform4fv(u.uSeam, S.seam); gl.uniform4fv(u.uSeam2, S.seam2); gl.uniform2fv(u.uBd, S.bd); gl.uniform1f(u.uDisF, S.disf); gl.uniform1f(u.uBkT, S.pc && TX[S.pc] ? S.bkt : 0); gl.uniform4fv(u.uEmbD, S.embd);
+  gl.uniform4fv(u.uSeam, S.seam); gl.uniform4fv(u.uSeam2, S.seam2); gl.uniform2fv(u.uBd, S.bd); gl.uniform1f(u.uDisF, S.disf); gl.uniform1f(u.uBkT, S.pc && TX[S.pc] && !F.opt.noplate ? S.bkt : 0); gl.uniform4fv(u.uEmbD, S.embd);
   bind(4, S.pa); gl.uniform1i(u.tP0, 4); bind(5, S.pb); gl.uniform1i(u.tP1, 5); bind(6, S.pc); gl.uniform1i(u.tP2, 6);
   fs();
   if (!F.opt.notext) drawText();
@@ -742,7 +742,7 @@ function fallback2d(S) {
   var cx = W * S.cxf * DPR, cy = H * CYF * DPR, k = U * DPR * S.zoom;
   c2.setTransform(1, 0, 0, 1, 0, 0); c2.fillStyle = '#05070d'; c2.fillRect(0, 0, cv.width, cv.height);
   function put(key, hs, al) { var m = IMG[key]; if (!m || !m.ok || al <= .01) return; c2.globalAlpha = al * S.dim * S.fade; c2.save(); c2.translate(cx - S.camx * k, cy + S.camy * k); c2.rotate(-S.rot); c2.drawImage(m.el, -hs * k, -hs * k, 2 * hs * k, 2 * hs * k); c2.restore(); }
-  plate2d(S, cx, cy);
+  if (!F.opt.noplate) plate2d(S, cx, cy);
   put('emb', S.ls, S.emb); put('logo', S.ls, S.logo); put('orig', 1, S.orig * (S.reveal >= 1 ? 1 : 0));
   var i2, A = S.tra, B = S.trb, ux = W * S.cxf * DPR, uy = H * CYF * DPR, uu = U * DPR;
   c2.lineWidth = 1.2 * DPR; c2.strokeStyle = 'rgb(255,209,133)';
@@ -832,6 +832,7 @@ function poolAt(t) {                          // the dark ground: before the wor
     else if (t < end) best = Math.max(best, 1 - (c.v === 'S' ? CV.out((t - c.t1) / c.out) : CV.out((t - c.t1) / c.out))); }
   return best;
 }
+F.plate = function () { return { pm: S.pm || 0, pa: S.pa, pb: S.pb, pc: S.pc, gpu: gl ? !!(S.pa && TX[S.pa]) && (!S.pb || !!TX[S.pb]) : !!(S.pa && IMG[S.pa] && IMG[S.pa].ok) }; };
 F.capState = function (i, t) {               // for the gate: the pure caption state at any time
   var S2 = F.shots.state(t, {}), el = capEl[i % 2], c = CAPS[i];
   if (capCur[i % 2] !== i) { capBuild(el, c); capCur[i % 2] = i; }

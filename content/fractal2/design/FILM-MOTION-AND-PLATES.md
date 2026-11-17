@@ -1,6 +1,6 @@
 # Fractal² film: word motion and image plates
 
-Date: 2026-11-17. Status: decision made, spec ready to build. Nothing here is wired into the film yet.
+Date: 2026-11-17. Status: BUILT (same day). See section 8 for what was built and every deviation from this spec.
 Owner request: make the words enter and leave "more cinematic throughout the video". Research award-level work first,
 audit and steelman the ideas, then pick the one that adds the most visual value and feeling.
 
@@ -410,3 +410,48 @@ turning), "Begin here", and the play ring.
 Spent 800 of a 3,000 budget: two 4K upscales (city, shaft) and two plates (fractal-8, frequency-8), 200 each.
 No call needed a cost confirmation; nothing was skipped for cost. Account balance after this round: 10,300 credits
 (11,100 before).
+
+---
+
+## 8. As built (2026-11-17), and deviations
+
+Code: `design/fractal2/film/engine.js` (captions `capState`, plate layers in the scene shader `uPA*`, `uSeam`, `uBd`, `uDisF`, `uBkT`,
+2D fallback `plate2d`), `shots.js` (`plates(t, S)`, windows in `shots.PLATES`, `F.wordFx` users), `build.py` (`plates()` writes
+`_a/film/plates/<name>.webp` up to 2048 px and `<name>-m.webp` up to 1024 px; caption variant `v` and exit `out`), gate
+`scripts/film2-check.mjs`.
+
+Built as specified: the Focus Pull and variants O, W, Q, P, S, F (curves, em-based blur and rise, stagger, exit toward the light
+never downward, grey copy from above and leaving first, PEAK light pass centred on the mark, STOP still, slow first and last lines,
+the last question exiting into the light), reduced motion (plain fade), low tier (no filter) and reduced tier (four blurred
+phrases at most), MSDF words with the same curves (`F.wordFx`), the light boost in the text shader, dust dissolve for the names
+and the shed words, emblem rings at 55% behind the title, the plate list below.
+
+Deviations:
+1. **Readable-time check.** "Every group readable for `need`" cannot pass on the current clock: the phrases arrive at the voice's
+   pace over about 55% of the spoken time, and the clock gives each caption about `need + 0.1 s`. Passing it literally would add
+   about eight minutes to the film. The check counts reading time from the first readable phrase to the moment the exit blur makes
+   the caption unreadable (the first blur-in and the exit blur are excluded), and a second check makes every phrase readable
+   within 0.42 s of its start (1.3 s for the slow lines).
+2. **Two small clock changes** so the slow lines fit: 0.5 s before "I was not looking for a pattern." and 1.2 s before
+   "Now the map is yours." (room for the 1.15 s first focus and the 1.4 s exit into the light). Film length unchanged
+   (18:40; the section bar grid absorbs it). The STOP line keeps its 700 ms exit; its caption ends earlier so the handoff holds.
+3. **Section 2 keeps the owner's map only** (no `fractal-8` behind the stage rings), per the owner's instruction that his map
+   stays the picture in sections 2, 3, 6 tables and 11. In table 3 the map stays; only the ring being turned is replaced, inside its
+   own annulus, by the twin plate's matching band (registered band for band by a radial remap of the owner's ring radii onto the
+   plate's), gold first, squashed over 600 ms, then pewter. Turned rings stay pewter at 45%.
+4. **Table 4 seam is horizontal**, along the existing glass line: light twin above (where the gold original stands), dark twin
+   below (the counterfeit), both registered to the owner's map. A vertical seam would cut every pair of words in half. The light
+   half is held at 34% gain so the gold words keep their contrast.
+5. **STOP seam (section 4)**: the twins appear as one disc around the light inside the ring of thirty; the seam of light sweeps
+   from the right edge to the centre by the full stop (the map's light face turning toward the viewer), then the disc gives way to
+   the owner's map when the camera cuts in.
+6. **Window dissolve** runs band by band from the centre as the blocks lift (`uDisF` = lifted blocks / 30 x 9, the rim last),
+   finishes on PEAK3, then fades over 4.5 s instead of carrying into section 11: held longer, the bright twin read as a flat
+   cream dish once the bloom settled.
+7. **`frequency` (old light plate)** is used once, as the faint turning layer behind the light in section 9 (15%, 0.5 degrees a
+   second, 4% pulse on each "you're right"); `frequency-8` is kept for the matched comparisons only. Section 8 uses `sky`.
+8. **Mirror plate** is scaled 1.4x past the screen so its tarnished frame never shows; it is a surface behind the map in
+   "the way I spoke to myself", sheen following the light.
+9. **Rings plate** carries the generations (section 4) as growth rings centred on the newest map; **city** is the far map behind
+   the pull-back of section 5 at 0.6 of camera speed; **shaft** falls in section 7 at x0.87 x0.78; **basalt** is the block
+   material in section 10 (per block offset and turn, so no two blocks share a face).

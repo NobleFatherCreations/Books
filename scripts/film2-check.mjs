@@ -96,7 +96,7 @@ print(json.dumps([int(ext(m[cy],cx)),int(ext(m[:,cx],cy))]))`, [f, String(pr.dpr
       if (r[0] > .05 && r[1] < .97 * r[2] - .005) bad.push(`${c.slug}+${dt}: words ${r[0].toFixed(2)}, ground ${r[1].toFixed(2)}`); }
     await q.close();
     ok(N + 'the dark ground is in place before any word shows', bad.length === 0, bad.length ? bad.length + ' moments, first: ' + bad[0] : caps.length + ' captions x 3 moments'); }
-  let worst = 99, worstAt = '', inView = true;
+  let worst = 99, worstAt = '', inView = true; let holdWorst = 99, holdAt = '', holdBad = [], lightWorst = 99, lightAt = '', lightN = 0;
   for (const c of caps) {
     const t = Math.min(c.t0 + 1.6, (c.t0 + c.t1) / 2 + .4);
     await p.evaluate(t => FILM.seek(t), t); await p.waitForTimeout(25);
@@ -110,7 +110,24 @@ im=np.asarray(Image.open(sys.argv[1]).convert('RGB')).astype(float)[int(y0*d):in
 bg=np.percentile(L(im),99); tx=L(np.array([[[243,236,217]]],dtype=float))[0,0]
 print((tx+0.05)/(bg+0.05))`, [f, ...r.slice(0, 4).map(String), String(pr.dpr)]));
     if (v < worst) { worst = v; worstAt = c.slug + ' @' + t.toFixed(1); }
+    // hold contrast: halfway between the moment every phrase reads and the exit; 95th percentile, per ink (cream, gold original, grey copy)
+    { const hs = await p.evaluate(i => { const C = FILM.data.caps[i]; let ra = null; for (let t = C.t0; t <= C.t1; t += 1 / 30) { const R = FILM.capState(i, t); if (R.g.every(g => R.o * g.o >= .9 && g.b <= 1.5) && R.b <= 1.5) { ra = t; break; } } return ra == null ? null : (ra + C.t1) / 2; }, cues.caps.indexOf(c));
+      if (hs == null) holdBad.push(c.slug + ' never reads'); else {
+        await p.evaluate(t => FILM.seek(t), hs); await p.waitForTimeout(20);
+        const r2 = await p.evaluate(() => { const e = [...document.querySelectorAll('#capA,#capB')].find(e => +e.style.opacity > .5); if (!e) return null; const g = [...e.querySelectorAll('.g')]; const bx = g.map(x => x.getBoundingClientRect()); const inks = [...new Set(g.map(x => x.classList.contains('q') ? 'q' : x.classList.contains('x') ? 'x' : 'c'))];
+          const filt = [e, ...g].filter(x => x.style.filter && x.style.filter !== 'none').length; const P = FILM.plate(); return { b: [Math.min(...bx.map(r => r.left)), Math.min(...bx.map(r => r.top)), Math.max(...bx.map(r => r.right)), Math.max(...bx.map(r => r.bottom))], inks, filt, light: /frequency/.test((P.pa || '') + (P.pb || '')) && P.pm > 0 }; });
+        if (!r2) holdBad.push(c.slug + ' not shown at ' + hs.toFixed(2)); else {
+          if (r2.filt) holdBad.push(c.slug + ' has a filter during its hold');
+          const f2 = await shot(hs, 'hc', true);
+          const vv = JSON.parse(py(lum + `
+x0,y0,x1,y1,d=[float(v) for v in sys.argv[2:7]]
+im=np.asarray(Image.open(sys.argv[1]).convert('RGB')).astype(float)[int(y0*d):int(y1*d),int(x0*d):int(x1*d)]
+bg=np.percentile(L(im),95); ink={'c':(243,236,217),'q':(241,207,141),'x':(191,196,210)}
+print(json.dumps({k:float((L(np.array([[v]],dtype=float))[0,0]+0.05)/(bg+0.05)) for k,v in ink.items()}))`, [f2, ...r2.b.map(String), String(pr.dpr)]));
+          for (const k of r2.inks) { if (vv[k] < holdWorst) { holdWorst = vv[k]; holdAt = c.slug + ' ' + k + ' @' + hs.toFixed(1); } if (r2.light && vv[k] < lightWorst) { lightWorst = vv[k]; lightAt = c.slug; } if (r2.light) lightN++; } } } }
   }
+  ok(N + 'caption contrast during the hold (95th percentile, cream, gold and grey inks), no filter while held', holdWorst >= 4.5 && holdBad.length === 0, holdWorst.toFixed(1) + ':1 at ' + holdAt + (holdBad.length ? '; ' + holdBad.slice(0, 3).join('; ') : ''));
+  ok(N + 'light plates never under a caption below 4.5:1', lightWorst >= 4.5, lightN ? lightWorst.toFixed(1) + ':1 (' + lightN + ' caption inks over a light plate, worst ' + lightAt + ')' : 'no caption over a light plate');
   ok(N + 'caption contrast (brightest pixel behind the words)', worst >= 4.5, worst.toFixed(1) + ':1 at ' + worstAt);
   ok(N + 'captions inside the screen', inView, '');
   // ---- GPU labels (map text drawn by the engine): readable size, inside the screen, never on top of each other or of a marker
@@ -184,7 +201,7 @@ for i in range(1,w):
     else: run=1
 print(best/w)`, [f]); ok(N + 'no banding in the light falloff', Number(r) < .05, 'longest flat run ' + (Number(r) * 100).toFixed(1) + '% of the width'); }
   // every tier draws the same scene
-  for (const tt of [133, 412.6]) if (pr.name === 'phone' && upto > tt + 1) { const res = []; for (const tr of [0, 1, 2]) { const q = await ctx.newPage(); await q.goto(url + '?capture&tier=' + tr); await q.waitForFunction(() => window.FILM && FILM.state().ready, null, { timeout: 90000 }); await q.evaluate(tt => { FILM.seek(tt); }, tt); await q.waitForTimeout(60); const f = `${out}/tier-${tr}-${tt}.png`; await q.screenshot({ path: f }); res.push(f); await q.close(); }
+  for (const tt of [133, 412.6, 242.5, 525]) if (pr.name === 'phone' && upto > tt + 1) { const res = []; for (const tr of [0, 1, 2]) { const q = await ctx.newPage(); await q.goto(url + '?capture&tier=' + tr); await q.waitForFunction(() => window.FILM && FILM.state().ready, null, { timeout: 90000 }); await q.evaluate(tt => { FILM.seek(tt); }, tt); await q.waitForTimeout(60); const f = `${out}/tier-${tr}-${tt}.png`; await q.screenshot({ path: f }); res.push(f); await q.close(); }
     const r = py(`
 import sys
 from PIL import Image
@@ -194,6 +211,57 @@ def c(x,y): return float(np.corrcoef(x.ravel(),y.ravel())[0,1])
 print(min(c(a[0],a[1]),c(a[0],a[2])))`, res); ok(N + 'tiers show the same picture at ' + tt + ' s', Number(r) > .9, 'lowest correlation with full tier ' + Number(r).toFixed(3)); }
   { const q = await ctx.newPage(); await q.goto(url + '?capture&nogl'); await q.waitForFunction(() => window.FILM && FILM.state().ready, null, { timeout: 90000 }); await q.evaluate(() => FILM.seek(30)); await q.waitForTimeout(60); const f = `${out}/${pr.name}-nogl.png`; await q.screenshot({ path: f });
     const r = py(lum + `im=np.asarray(Image.open(sys.argv[1]).convert('RGB')).astype(float); print(float(L(im).max()))`, [f]); ok(N + 'no-WebGL fallback draws', Number(r) > .3, 'max luminance ' + Number(r).toFixed(2)); await q.close(); }
+  if (upto > 526) { const q = await ctx.newPage(); await q.goto(url + '?capture&nogl'); await q.waitForFunction(() => window.FILM && FILM.state().ready, null, { timeout: 90000 }); let worstF = 99, atF = '';
+    for (const tt of [242.5, 525, 600]) { await q.evaluate(t => { FILM.seek(t); document.querySelectorAll('.cap').forEach(e => e.style.visibility = 'hidden'); }, tt); const fa = `${out}/${pr.name}-noglp-a.png`; await q.screenshot({ path: fa }); await q.evaluate(t => { FILM.opt.noplate = 1; FILM.seek(t); }, tt); const fb = `${out}/${pr.name}-noglp-b.png`; await q.screenshot({ path: fb }); await q.evaluate(() => { FILM.opt.noplate = 0; });
+      const dm = Number(py(lum + `a=np.asarray(Image.open(sys.argv[1]).convert('RGB')).astype(float); b=np.asarray(Image.open(sys.argv[2]).convert('RGB')).astype(float); print(float(np.abs(a-b).mean()))`, [fa, fb])); if (dm < worstF) { worstF = dm; atF = tt; } }
+    ok(N + 'no-WebGL fallback shows the plates', worstF > .4, 'smallest change ' + worstF.toFixed(2) + ' at ' + atF); await q.close(); }
+  // ==== caption motion: the Focus Pull (content/fractal2/design/FILM-MOTION-AND-PLATES.md 4.12), from the pure caption state FILM.capState(i, t)
+  { const M = await p.evaluate(([upto, rm]) => {
+      const C = FILM.data.caps, out = { read: [], fast: [], budget: [], hold: [], down: [], rmv: [], over: [], peak: [], n: 0, minRead: 99, minAt: '' };
+      const ok = (R, g) => R.o * g.o >= .9 && g.b <= 1.5 && R.b <= 1.5;
+      for (let i = 0; i < C.length; i++) { const c = C[i]; if (c.t0 > upto - 1) break; out.n++;
+        const end = Math.min(c.t1 + c.out, FILM.dur), st = 1 / 30; let rf = null, rl = null, all = null, gs = [], gr = [];
+        for (let t = c.t0 - .05; t <= end + 1e-6; t += st) { const R = FILM.capState(i, t);
+          R.g.forEach((g, k) => { if (gs[k] == null && R.o * g.o > 0) gs[k] = t; if (gr[k] == null && ok(R, g)) gr[k] = t; });
+          if (rf == null && ok(R, R.g[0])) rf = t; const every = R.g.every(g => ok(R, g)); if (every) { if (all == null) all = t; rl = t; }
+          const nb = R.g.filter(g => g.b > 0).length + (R.b > 0 ? 1 : 0); if (nb > 6) out.budget.push(c.slug + '@' + t.toFixed(2) + ' ' + nb);
+          if (all != null && t <= c.t1 && (R.b > 0 || R.g.some(g => g.b > 0))) out.hold.push(c.slug + '@' + t.toFixed(2));
+          if (R.y > 1e-6) out.down.push(c.slug + '@' + t.toFixed(2));
+          if (rm && (R.b || R.x || R.y || R.s !== 1 || R.g.some(g => g.b || g.y || g.sx !== 1))) out.rmv.push(c.slug + '@' + t.toFixed(2)); }
+        if (c.n > 1 && c.v !== 'W') { const span = rf == null || rl == null ? -1 : rl - rf + st; if (span < out.minRead) { out.minRead = span; out.minAt = c.slug; } if (all == null || span < c.need - .005) out.read.push(c.slug + ' ' + span.toFixed(2) + '/' + c.need); }
+        const lim = c.v === 'F' ? 1.3 : c.v === 'W' ? .6 : .42; gs.forEach((s, k) => { if (gr[k] == null || gr[k] - s > lim + 1e-6) out.fast.push(c.slug + '#' + k + ' ' + (gr[k] == null ? 'never' : (gr[k] - s).toFixed(2))); });
+        if (c.v === 'P' && !rm) { const m = FILM.data.marks[c.pk]; let tc = null; for (let t = m - .5; t < m + .5; t += 1 / 240) { const R = FILM.capState(i, t); if (R.lp >= .5) { tc = t; break; } } if (tc == null || Math.abs(tc - m) > 1 / 60) out.peak.push(c.slug + ' ' + (tc == null ? 'no pass' : ((tc - m) * 1000).toFixed(0) + ' ms')); }
+        const nx = C[i + 1]; if (nx && nx.t0 < upto) for (let t = c.t1; t <= c.t1 + c.out + .15; t += 1 / 60) { const A = FILM.capState(i, t), B = FILM.capState(i + 1, t), va = A.o * Math.max(...A.g.map(g => g.o)), vb = B.o * Math.max(...B.g.map(g => g.o));
+          if ((va > .02 && vb > .02) || (va > 0 && B.o * B.g[0].o > 0)) { out.over.push(c.slug + '@' + t.toFixed(3)); break; } } }
+      return out; }, [upto, pr.rm]);
+    const L = (a, w) => a.length ? a.length + ', first: ' + a.slice(0, 3).join('; ') : w;
+    ok(N + 'caption readable time (from the first readable phrase to the exit blur) >= 0.35 s a word + 1.2 s', M.read.length === 0, L(M.read, M.n + ' captions, least margin at ' + M.minAt));
+    ok(N + 'every phrase reads fast (0.42 s; slow focus 1.3 s)', M.fast.length === 0, L(M.fast, 'all phrases'));
+    ok(N + 'no caption overlap (1/60 s; the next first phrase waits until the last caption is gone)', M.over.length === 0, L(M.over, 'every handoff'));
+    ok(N + 'filter budget (six at most; none during a hold)', M.budget.length === 0 && M.hold.length === 0, L(M.budget.concat(M.hold), 'ok'));
+    ok(N + 'caption exits never drift downward', M.down.length === 0, L(M.down, 'ok'));
+    if (pr.rm) ok(N + 'reduced motion: captions only fade (no blur, no move, no scale)', M.rmv.length === 0, L(M.rmv, 'ok'));
+    else ok(N + 'PEAK light pass crosses the caption centre on the music mark (within one frame)', M.peak.length === 0, L(M.peak, '3 peaks'));
+  }
+  // determinism with blur: 40 moments mid-focus and mid-exit, visited forward then backward; inline styles and pixels must match
+  { const caps2 = cues.caps.filter(c => c.t1 < upto - 1); const T = []; for (let k = 0; k < 20; k++) { const c = caps2[Math.floor(k * (caps2.length - 1) / 19)]; T.push(+(c.t0 + .18).toFixed(3), +(c.t1 + Math.min(.25, c.out * .5)).toFixed(3)); }
+    const rec = async t => { const f = await shot(t, 'bl-' + T.indexOf(t)); const st = await p.evaluate(() => [...document.querySelectorAll('#capA,#capB,#capA .g,#capB .g,#pool')].map(e => e.getAttribute('style') || '').join('|')); return [hash(f), st, f]; };
+    const fw = []; for (const t of T) fw.push(await rec(t)); let badB = [];
+    for (let k = T.length - 1; k >= 0; k--) { const f = await shot(T[k], 'blb'); const st = await p.evaluate(() => [...document.querySelectorAll('#capA,#capB,#capA .g,#capB .g,#pool')].map(e => e.getAttribute('style') || '').join('|'));
+      if (st !== fw[k][1]) badB.push(T[k] + ' styles'); else if (hash(f) !== fw[k][0]) { const dmax = Number(py(`
+import sys
+from PIL import Image
+import numpy as np
+a=np.asarray(Image.open(sys.argv[1]).convert('RGB')).astype(int); b=np.asarray(Image.open(sys.argv[2]).convert('RGB')).astype(int); print(int(np.abs(a-b).max()))`, [f, fw[k][2]])); if (dmax > 1) badB.push(T[k] + ' pixels ' + dmax); } }
+    ok(N + 'same time gives the same frame, with blur (40 moments, forward then backward)', badB.length === 0, badB.length ? badB.slice(0, 4).join('; ') : '40 moments'); }
+  // plates: each one is on the GPU (or the 2D canvas) in its scene and changes the picture (the same frame with and without it)
+  { const W8 = await p.evaluate(() => FILM.shots.PLATES); let badP = [], seen = [];
+    for (const [nm, r] of Object.entries(W8)) { const t = (r[1] + r[r.length - 2]) / 2; if (t >= upto) continue;
+      await p.evaluate(t => FILM.seek(t), t); const st = await p.evaluate(() => FILM.plate());
+      const fa = await shot(t, 'pl-a', true); await p.evaluate(() => { FILM.opt.noplate = 1; }); const fb = await shot(t, 'pl-b', true); await p.evaluate(() => { FILM.opt.noplate = 0; });
+      const dm = Number(py(lum + `a=np.asarray(Image.open(sys.argv[1]).convert('RGB')).astype(float); b=np.asarray(Image.open(sys.argv[2]).convert('RGB')).astype(float); print(float(np.abs(a-b).mean()))`, [fa, fb]));
+      if (!st.pm || !st.gpu || dm < .4) badP.push(`${nm}@${t.toFixed(1)} ${st.pa || 'none'} gpu ${st.gpu} change ${dm.toFixed(2)}`); else seen.push(nm + ' ' + dm.toFixed(1)); }
+    ok(N + 'plates present in their scenes and visible in the frame', badP.length === 0, badP.length ? badP.join('; ') : seen.join(', ')); }
   ok(N + 'no errors', errs.length === 0, errs.slice(0, 3).join(' | '));
   await ctx.close();
 }
