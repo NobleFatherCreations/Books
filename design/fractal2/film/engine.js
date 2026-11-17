@@ -498,7 +498,8 @@ function exitDir(S, cx, cy) {                 // unit vector toward the film lig
 function capState(i, t, em, dir) {
   var c = CAPS[i], n = c.g.length, v = c.v, R = { v: v, o: 1, b: 0, x: 0, y: 0, s: 1, br: 1, g: [], lp: -1 }, k, u, e, lowT = tier === 2;
   if (RM) {                                   // reduced motion: a plain fade, nothing moves
-    R.o = clamp((t - c.t0) / .4, 0, 1) * (1 - clamp((t - c.t1) / .3, 0, 1));
+    var pv = CAPS[i - 1], lead = clamp(c.t0 - (pv ? pv.t1 + .32 : -1), 0, .3);   // starts up to 0.3 s early (never before the last caption is gone) so the plain fade costs no reading time
+    R.o = clamp((t - c.t0 + lead) / .4, 0, 1) * (1 - clamp((t - c.t1) / .3, 0, 1));
     for (k = 0; k < n; k++) R.g.push({ o: 1, b: 0, y: 0, sx: 1 }); return R;
   }
   if (v === 'S') {                            // the STOP line: everything stops; only the words appear
@@ -541,8 +542,8 @@ function px(v) { return Math.round(v * DPR) / DPR; }
 function blurCss(b, br) { b = Math.round(b * 4) / 4; return (b > 0 ? 'blur(' + b + 'px)' : '') + (br > 1.001 ? (b > 0 ? ' ' : '') + 'brightness(' + br.toFixed(3) + ')' : '') || 'none'; }
 function poolAt(t) {                          // the dark ground: before the words, held between captions closer than 1.2 s, gone with the last word
   var i, c, best = 0;
-  for (i = 0; i < CAPS.length; i++) { c = CAPS[i]; if (t < c.t0 - .45) break; var nx = CAPS[i + 1], end = c.t1 + c.out;
-    if (t < c.t0) best = Math.max(best, sm((t - c.t0 + .45) / .38));
+  for (i = 0; i < CAPS.length; i++) { c = CAPS[i]; if (t < c.t0 - .75) break; var nx = CAPS[i + 1], end = c.t1 + c.out;
+    if (t < c.t0) best = Math.max(best, sm((t - c.t0 + (RM ? .75 : .45)) / .38));
     else if (t <= c.t1) best = 1;
     else if (nx && nx.t0 - end < 1.2 && t < nx.t0) best = 1;
     else if (t < end) best = Math.max(best, 1 - (c.v === 'S' ? CV.out((t - c.t1) / c.out) : CV.out((t - c.t1) / c.out))); }
@@ -557,7 +558,7 @@ F.capState = function (i, t) {               // for the gate: the pure caption s
 function captions(t) {
   var i, c, slot, shown = [false, false];
   for (i = 0; i < CAPS.length; i++) {
-    c = CAPS[i]; if (t < c.t0 - .05 || t > c.t1 + c.out) continue;
+    c = CAPS[i]; if (t < c.t0 - (RM ? .3 : .05) || t > c.t1 + c.out) continue;
     slot = i % 2; shown[slot] = true;
     var el = capEl[slot]; if (capCur[slot] !== i) { capBuild(el, c); capCur[slot] = i; }
     capGeo(el); var R = capState(i, t, emOf(c), exitDir(S, el._cx, el._cy)), k, st = el.style;

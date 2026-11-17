@@ -13,7 +13,7 @@ SRC = 'content/fractal2/intro-v16.md'
 # extra silence before a caption (seconds): room for the picture to act alone
 PRE = {'you-are-loved-and': 17.0, 'why-do-i-keep': 1.6, 'it-must-be-me': 1.4, 'what-if-it-isnt': 2.2, 'i-wrote-it-down': .3, 'idealize': 1.2,
        'thirty-techniques-carried-a': 1.6, 'i-thought-i-had': 6.0, 'i-had-only-found': 1.4,
-       'i-was-not-looking': .5, 'now-the-map-is': 1.2}   # the last two: room for the slow first focus and the exit into the light
+       'i-was-not-looking': .5, 'now-the-map-is': 1.2, 'you-are-whole-and': .1}   # the last two: room for the slow first focus and the exit into the light
 FIRST = 4.4                                      # the launch plays before the first word
 TAIL = {2: 3.5, 3: 2.0, 6: 17.5}                          # seconds kept clear at the end of a section for picture alone
 BIG = {'why-do-i-keep', 'what-if-it-isnt', 'it-must-be-me', 'i-am-still-looking', 'my-original-frequency', 'that-is-the-fractal', 'now-the-map-is', 'it-made-me-who'}

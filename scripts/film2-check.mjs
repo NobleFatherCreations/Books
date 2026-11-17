@@ -220,16 +220,17 @@ print(min(c(a[0],a[1]),c(a[0],a[2])))`, res); ok(N + 'tiers show the same pictur
       const C = FILM.data.caps, out = { read: [], fast: [], budget: [], hold: [], down: [], rmv: [], over: [], peak: [], n: 0, minRead: 99, minAt: '' };
       const ok = (R, g) => R.o * g.o >= .9 && g.b <= 1.5 && R.b <= 1.5;
       for (let i = 0; i < C.length; i++) { const c = C[i]; if (c.t0 > upto - 1) break; out.n++;
-        const end = Math.min(c.t1 + c.out, FILM.dur), st = 1 / 30; let rf = null, rl = null, all = null, gs = [], gr = [];
+        const end = Math.min(c.t1 + c.out, FILM.dur), st = 1 / 30, bd = c.v === 'F' ? 1.15 : c.v === 'W' ? .38 : .72; let rf = null, rl = null, all = null, gs = [], gr = [];
         for (let t = c.t0 - .05; t <= end + 1e-6; t += st) { const R = FILM.capState(i, t);
           R.g.forEach((g, k) => { if (gs[k] == null && R.o * g.o > 0) gs[k] = t; if (gr[k] == null && ok(R, g)) gr[k] = t; });
           if (rf == null && ok(R, R.g[0])) rf = t; const every = R.g.every(g => ok(R, g)); if (every) { if (all == null) all = t; rl = t; }
           const nb = R.g.filter(g => g.b > 0).length + (R.b > 0 ? 1 : 0); if (nb > 6) out.budget.push(c.slug + '@' + t.toFixed(2) + ' ' + nb);
-          if (all != null && t <= c.t1 && (R.b > 0 || R.g.some(g => g.b > 0))) out.hold.push(c.slug + '@' + t.toFixed(2));
+          const settled = gs.length === R.g.length && gs.every(s => s != null) && t >= Math.max(...gs) + bd + 1e-6;   // the hold: every phrase has finished its focus
+          if (settled && t <= c.t1 && (R.b > 0 || R.g.some(g => g.b > 0))) out.hold.push(c.slug + '@' + t.toFixed(2));
           if (R.y > 1e-6) out.down.push(c.slug + '@' + t.toFixed(2));
           if (rm && (R.b || R.x || R.y || R.s !== 1 || R.g.some(g => g.b || g.y || g.sx !== 1))) out.rmv.push(c.slug + '@' + t.toFixed(2)); }
         if (c.n > 1 && c.v !== 'W') { const span = rf == null || rl == null ? -1 : rl - rf + st; if (span < out.minRead) { out.minRead = span; out.minAt = c.slug; } if (all == null || span < c.need - .005) out.read.push(c.slug + ' ' + span.toFixed(2) + '/' + c.need); }
-        const lim = c.v === 'F' ? 1.3 : c.v === 'W' ? .6 : .42; gs.forEach((s, k) => { if (gr[k] == null || gr[k] - s > lim + 1e-6) out.fast.push(c.slug + '#' + k + ' ' + (gr[k] == null ? 'never' : (gr[k] - s).toFixed(2))); });
+        const lim = c.v === 'F' ? 1.3 : .42; if (/[OQPF]/.test(c.v) && !rm) gs.forEach((s, k) => { if (gr[k] == null || gr[k] - s > lim + 1e-6) out.fast.push(c.slug + '#' + k + ' ' + (gr[k] == null ? 'never' : (gr[k] - s).toFixed(2))); });
         if (c.v === 'P' && !rm) { const m = FILM.data.marks[c.pk]; let tc = null; for (let t = m - .5; t < m + .5; t += 1 / 240) { const R = FILM.capState(i, t); if (R.lp >= .5) { tc = t; break; } } if (tc == null || Math.abs(tc - m) > 1 / 60) out.peak.push(c.slug + ' ' + (tc == null ? 'no pass' : ((tc - m) * 1000).toFixed(0) + ' ms')); }
         const nx = C[i + 1]; if (nx && nx.t0 < upto) for (let t = c.t1; t <= c.t1 + c.out + .15; t += 1 / 60) { const A = FILM.capState(i, t), B = FILM.capState(i + 1, t), va = A.o * Math.max(...A.g.map(g => g.o)), vb = B.o * Math.max(...B.g.map(g => g.o));
           if ((va > .02 && vb > .02) || (va > 0 && B.o * B.g[0].o > 0)) { out.over.push(c.slug + '@' + t.toFixed(3)); break; } } }
