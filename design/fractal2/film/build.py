@@ -12,12 +12,23 @@ BAR = 1.6
 SRC = 'content/fractal2/intro-v16.md'
 # extra silence before a caption (seconds): room for the picture to act alone
 PRE = {'you-are-loved-and': 17.0, 'why-do-i-keep': 1.6, 'it-must-be-me': 1.4, 'what-if-it-isnt': 2.2, 'i-wrote-it-down': .3, 'idealize': 1.2,
-       'thirty-techniques-carried-a': 1.6, 'i-thought-i-had': 6.0, 'i-had-only-found': 1.4}
+       'thirty-techniques-carried-a': 1.6, 'i-thought-i-had': 6.0, 'i-had-only-found': 1.4,
+       'i-was-not-looking': .5, 'now-the-map-is': 1.2}   # the last two: room for the slow first focus and the exit into the light
 FIRST = 4.4                                      # the launch plays before the first word
 TAIL = {2: 3.5, 3: 2.0, 6: 17.5}                          # seconds kept clear at the end of a section for picture alone
 BIG = {'why-do-i-keep', 'what-if-it-isnt', 'it-must-be-me', 'i-am-still-looking', 'my-original-frequency', 'that-is-the-fractal', 'now-the-map-is', 'it-made-me-who'}
 SPLIT = {'idealize-hook-devalue-confuse'}        # one caption per word
 MARKS = {'STOP': 'start', 'PEAK1': 'end', 'PEAK2': 'end', 'PEAK3': 'end'}
+# caption motion variants (content/fractal2/design/FILM-MOTION-AND-PLATES.md section 4): O ordinary, W one word, Q quoted inversion, P peak, S stop, F first/last
+PEAKS = {'that-is-when-i': 'PEAK1', 'so-i-stopped-trying': 'PEAK2', 'one-block-at-a': 'PEAK3'}
+OUTV = {'O': .56, 'Q': .56, 'P': .56, 'W': .22, 'S': .7, 'F': .56}
+def variant(c, i, n):
+    if c.get('one'): return 'W'
+    if c['slug'] == 'then-the-map-turned': return 'S'
+    if c['slug'] in PEAKS: return 'P'
+    if i == 0 or i >= n - 2: return 'F'
+    if qn(groups(c['text'])): return 'Q'
+    return 'O'
 
 def slug(t):
     w = re.sub(r"[^a-z0-9 ]", '', t.lower().replace("'", '').replace('’', '')).split()
@@ -114,7 +125,7 @@ def layout(caps):
         nxt = caps[i + 1]['t0'] if i + 1 < len(caps) else c['t0'] + c['say'] + 3
         n = len(c['text'].split())
         need = .35 * n + 1.2                               # blueprint rule: minimum time on screen
-        c['out'] = .22 if c.get('one') else .6
+        c['v'] = variant(c, i, len(caps)); c['out'] = 1.4 if (c['v'] == 'F' and i == len(caps) - 2) else OUTV[c['v']]
         c['t1'] = round(nxt - .32 if c.get('one') else min(nxt - c['out'] - .08, max(c['t0'] + c['say'] + 2.2, c['t0'] + need + .4)), 3)
         c['need'] = round(need, 2)
     caps[-1]['t1'] = round(start + 8 * BAR + 1, 3)          # the last line stays with the button to the end of the film
@@ -162,7 +173,7 @@ def main():
     chapters = [{'n': n, 'title': titles[n], 't': round(SEC[n], 3)} for n in sorted(titles)]
     data = {
         'dur': dur, 'bar': BAR, 'marks': marks,
-        'caps': [{'t0': c['t0'], 't1': c['t1'], 'say': c['say'], 'out': c['out'], 'g': [html.escape(g, quote=False) for g in groups(c['text'])], 'qn': qn(groups(c['text'])), 'big': c['big'], 'locked': c['locked'], 'long': len(c['text'].split()) > 13, 'sec': c['sec'], 'n': len(c['text'].split()), 'need': c['need'], 'slug': c['slug']} for c in caps],
+        'caps': [{'t0': c['t0'], 't1': c['t1'], 'say': c['say'], 'out': c['out'], 'g': [html.escape(g, quote=False) for g in groups(c['text'])], 'qn': qn(groups(c['text'])), 'big': c['big'], 'locked': c['locked'], 'long': len(c['text'].split()) > 13, 'sec': c['sec'], 'n': len(c['text'].split()), 'need': c['need'], 'slug': c['slug'], 'v': c['v'], 'pk': PEAKS.get(c['slug'])} for c in caps],
         'capId': {}, 'chapters': chapters,
         'assets': {'orig': [A + 'v8/img/orig.webp', A + 'v8/img/orig-m.webp'], 'core': [A + 'v8/img/orig-core.webp', A + 'v8/img/orig-core-m.webp'],
                    'logo': [A + 'v8/img/logo.webp', A + 'v8/img/logo-m.webp'], 'emb': [A + 'v8/img/emblem.webp', A + 'v8/img/emblem-m.webp'], 'font': [A + 'film/voice-msdf.png'], **plates()},
@@ -188,7 +199,7 @@ def main():
            .replace('%%TEXT%%', '\n'.join(text)).replace('%%TICKS%%', ticks).replace('A %%MIN%%-minute', ('An ' if mins in (8, 11, 18) else 'A ') + str(mins) + '-minute')
            .replace('%%HUB%%', '/fractal2/hub').replace('%%V8%%', A + 'v8/').replace('%%V9%%', A + 'v9/'))
     open(OUT, 'w', encoding='utf-8').write(out)
-    json.dump({'dur': dur, 'marks': marks, 'caps': [{k: c[k] for k in ('slug', 't0', 't1', 'say', 'need', 'sec', 'text')} for c in caps], 'chapters': chapters}, open(os.path.join(HERE, 'cues.json'), 'w'), indent=1, ensure_ascii=False)
+    json.dump({'dur': dur, 'marks': marks, 'caps': [{k: c[k] for k in ('slug', 't0', 't1', 'say', 'need', 'sec', 'text', 'v', 'out')} for c in caps], 'chapters': chapters}, open(os.path.join(HERE, 'cues.json'), 'w'), indent=1, ensure_ascii=False)
     def mmss(x): return '%d:%04.1f' % (int(x // 60), x % 60)
     words = sum(len(c['text'].split()) for c in caps)
     print('wrote film.html %d KB; %d captions; %d words; %s (%d bars)' % (len(out) // 1024, len(caps), words, mmss(dur), round(dur / BAR)))

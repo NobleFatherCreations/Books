@@ -10,155 +10,189 @@
   {
    "slug": "it-started-with-a",
    "t0": 4.4,
-   "t1": 7.42,
+   "t1": 7.96,
    "say": 2.681,
    "need": 2.95,
    "sec": 1,
-   "text": "It started with a question."
+   "text": "It started with a question.",
+   "v": "F",
+   "out": 0.56
   },
   {
    "slug": "i-was-not-looking",
-   "t0": 8.1,
-   "t1": 11.998,
+   "t0": 8.6,
+   "t1": 12.538,
    "say": 3.633,
    "need": 3.65,
    "sec": 1,
-   "text": "I was not looking for a pattern."
+   "text": "I was not looking for a pattern.",
+   "v": "O",
+   "out": 0.56
   },
   {
    "slug": "i-was-looking-for",
-   "t0": 12.678,
-   "t1": 18.177,
+   "t0": 13.178,
+   "t1": 18.717,
    "say": 3.633,
    "need": 3.65,
    "sec": 1,
-   "text": "I was looking for a way out."
+   "text": "I was looking for a way out.",
+   "v": "O",
+   "out": 0.56
   },
   {
    "slug": "why-do-i-keep",
-   "t0": 18.857,
-   "t1": 27.356,
+   "t0": 19.357,
+   "t1": 27.896,
    "say": 7.919,
    "need": 6.8,
    "sec": 1,
-   "text": "Why do I keep living this same cycle of narcissistic abuse, wherever I go in life?"
+   "text": "Why do I keep living this same cycle of narcissistic abuse, wherever I go in life?",
+   "v": "O",
+   "out": 0.56
   },
   {
    "slug": "a-different-room-a",
-   "t0": 28.036,
-   "t1": 32.956,
+   "t0": 28.536,
+   "t1": 33.496,
    "say": 4.586,
    "need": 4.35,
    "sec": 1,
-   "text": "A different room. A different face. The same ending."
+   "text": "A different room. A different face. The same ending.",
+   "v": "O",
+   "out": 0.56
   },
   {
    "slug": "i-have-met-manipulation",
-   "t0": 33.636,
-   "t1": 42.647,
+   "t0": 34.136,
+   "t1": 43.187,
    "say": 8.395,
    "need": 7.15,
    "sec": 1,
-   "text": "I have met manipulation at its highest level, and it has cost me dearly, more than once."
+   "text": "I have met manipulation at its highest level, and it has cost me dearly, more than once.",
+   "v": "O",
+   "out": 0.56
   },
   {
    "slug": "the-most-recent-time",
-   "t0": 43.327,
-   "t1": 53.359,
+   "t0": 43.827,
+   "t1": 53.899,
    "say": 9.348,
    "need": 7.85,
    "sec": 1,
-   "text": "The most recent time, not long ago, it tried to take everything from me, and from someone I loved."
+   "text": "The most recent time, not long ago, it tried to take everything from me, and from someone I loved.",
+   "v": "O",
+   "out": 0.56
   },
   {
    "slug": "for-years-i-gave",
-   "t0": 54.039,
-   "t1": 58.96,
+   "t0": 54.539,
+   "t1": 59.5,
    "say": 4.586,
    "need": 4.35,
    "sec": 1,
-   "text": "For years I gave the only answer I had."
+   "text": "For years I gave the only answer I had.",
+   "v": "O",
+   "out": 0.56
   },
   {
    "slug": "i-said-it-so",
-   "t0": 59.64,
-   "t1": 70.05,
+   "t0": 60.14,
+   "t1": 70.59,
    "say": 8.395,
    "need": 7.15,
    "sec": 1,
-   "text": "I said it so often it stopped sounding like a thought and started sounding like the truth."
+   "text": "I said it so often it stopped sounding like a thought and started sounding like the truth.",
+   "v": "O",
+   "out": 0.56
   },
   {
    "slug": "it-must-be-me",
-   "t0": 70.73,
-   "t1": 73.4,
+   "t0": 71.23,
+   "t1": 73.94,
    "say": 2.205,
    "need": 2.6,
    "sec": 1,
-   "text": "It must be me."
+   "text": "It must be me.",
+   "v": "O",
+   "out": 0.56
   },
   {
    "slug": "then-one-day-tired",
-   "t0": 74.08,
-   "t1": 84.199,
+   "t0": 74.58,
+   "t1": 84.699,
    "say": 7.919,
    "need": 6.8,
    "sec": 1,
-   "text": "Then one day, tired in a way sleep could not fix, I turned the question around."
+   "text": "Then one day, tired in a way sleep could not fix, I turned the question around.",
+   "v": "O",
+   "out": 0.56
   },
   {
    "slug": "what-if-it-isnt",
-   "t0": 85.459,
-   "t1": 88.479,
+   "t0": 85.959,
+   "t1": 89.019,
    "say": 2.681,
    "need": 2.95,
    "sec": 1,
-   "text": "What if it isn’t me?"
+   "text": "What if it isn’t me?",
+   "v": "O",
+   "out": 0.56
   },
   {
    "slug": "that-was-the-moment",
-   "t0": 89.159,
-   "t1": 94.992,
+   "t0": 89.659,
+   "t1": 95.492,
    "say": 3.633,
    "need": 3.65,
    "sec": 1,
-   "text": "That was the moment the road opened."
+   "text": "That was the moment the road opened.",
+   "v": "O",
+   "out": 0.56
   },
   {
    "slug": "so-i-did-the",
    "t0": 96.6,
-   "t1": 103.865,
+   "t1": 103.905,
    "say": 6.49,
    "need": 5.75,
    "sec": 2,
-   "text": "So I did the one thing I have always known how to do."
+   "text": "So I did the one thing I have always known how to do.",
+   "v": "O",
+   "out": 0.56
   },
   {
    "slug": "i-wrote-it-down",
    "t0": 104.545,
-   "t1": 107.215,
+   "t1": 107.255,
    "say": 2.205,
    "need": 2.6,
    "sec": 2,
-   "text": "I wrote it down."
+   "text": "I wrote it down.",
+   "v": "O",
+   "out": 0.56
   },
   {
    "slug": "i-took-one-sector",
    "t0": 107.895,
-   "t1": 114.35,
+   "t1": 114.39,
    "say": 6.014,
    "need": 5.4,
    "sec": 2,
-   "text": "I took one sector of life and mapped the cycle inside it."
+   "text": "I took one sector of life and mapped the cycle inside it.",
+   "v": "O",
+   "out": 0.56
   },
   {
    "slug": "it-came-in-eight",
    "t0": 115.03,
-   "t1": 121.662,
+   "t1": 121.702,
    "say": 5.062,
    "need": 4.7,
    "sec": 2,
-   "text": "It came in eight stages, always in the same order."
+   "text": "It came in eight stages, always in the same order.",
+   "v": "O",
+   "out": 0.56
   },
   {
    "slug": "idealize",
@@ -167,7 +201,9 @@
    "say": 1.25,
    "need": 1.55,
    "sec": 2,
-   "text": "Idealize."
+   "text": "Idealize.",
+   "v": "W",
+   "out": 0.22
   },
   {
    "slug": "hook",
@@ -176,7 +212,9 @@
    "say": 1.25,
    "need": 1.55,
    "sec": 2,
-   "text": "Hook."
+   "text": "Hook.",
+   "v": "W",
+   "out": 0.22
   },
   {
    "slug": "devalue",
@@ -185,7 +223,9 @@
    "say": 1.25,
    "need": 1.55,
    "sec": 2,
-   "text": "Devalue."
+   "text": "Devalue.",
+   "v": "W",
+   "out": 0.22
   },
   {
    "slug": "confuse",
@@ -194,7 +234,9 @@
    "say": 1.25,
    "need": 1.55,
    "sec": 2,
-   "text": "Confuse."
+   "text": "Confuse.",
+   "v": "W",
+   "out": 0.22
   },
   {
    "slug": "isolate",
@@ -203,7 +245,9 @@
    "say": 1.25,
    "need": 1.55,
    "sec": 2,
-   "text": "Isolate."
+   "text": "Isolate.",
+   "v": "W",
+   "out": 0.22
   },
   {
    "slug": "extract",
@@ -212,7 +256,9 @@
    "say": 1.25,
    "need": 1.55,
    "sec": 2,
-   "text": "Extract."
+   "text": "Extract.",
+   "v": "W",
+   "out": 0.22
   },
   {
    "slug": "discard",
@@ -221,7 +267,9 @@
    "say": 1.25,
    "need": 1.55,
    "sec": 2,
-   "text": "Discard."
+   "text": "Discard.",
+   "v": "W",
+   "out": 0.22
   },
   {
    "slug": "replace",
@@ -230,7 +278,9 @@
    "say": 1.25,
    "need": 1.55,
    "sec": 2,
-   "text": "Replace."
+   "text": "Replace.",
+   "v": "W",
+   "out": 0.22
   },
   {
    "slug": "thirty-techniques-carried-a",
@@ -239,25 +289,31 @@
    "say": 5.538,
    "need": 5.05,
    "sec": 2,
-   "text": "Thirty techniques carried a person from each stage to the next."
+   "text": "Thirty techniques carried a person from each stage to the next.",
+   "v": "O",
+   "out": 0.56
   },
   {
    "slug": "i-thought-i-had",
    "t0": 148.165,
-   "t1": 153.597,
+   "t1": 153.637,
    "say": 5.062,
    "need": 4.7,
    "sec": 2,
-   "text": "I thought I had found the thing that hurt me."
+   "text": "I thought I had found the thing that hurt me.",
+   "v": "O",
+   "out": 0.56
   },
   {
    "slug": "i-thought-the-hunt",
    "t0": 154.277,
-   "t1": 159.064,
+   "t1": 159.104,
    "say": 3.157,
    "need": 3.3,
    "sec": 2,
-   "text": "I thought the hunt was over."
+   "text": "I thought the hunt was over.",
+   "v": "O",
+   "out": 0.56
   },
   {
    "slug": "i-had-only-found",
@@ -266,88 +322,108 @@
    "say": 5.538,
    "need": 5.05,
    "sec": 2,
-   "text": "I had only found one room in a very large house."
+   "text": "I had only found one room in a very large house.",
+   "v": "O",
+   "out": 0.56
   },
   {
    "slug": "so-i-went-looking",
    "t0": 173.4,
-   "t1": 178.832,
+   "t1": 178.872,
    "say": 5.062,
    "need": 4.7,
    "sec": 3,
-   "text": "So I went looking through the rest of the house."
+   "text": "So I went looking through the rest of the house.",
+   "v": "O",
+   "out": 0.56
   },
   {
    "slug": "i-opened-a-second",
    "t0": 179.512,
-   "t1": 184.944,
+   "t1": 184.984,
    "say": 5.062,
    "need": 4.7,
    "sec": 3,
-   "text": "I opened a second door, and the cycle was there."
+   "text": "I opened a second door, and the cycle was there.",
+   "v": "O",
+   "out": 0.56
   },
   {
    "slug": "a-third-and-it",
    "t0": 185.624,
-   "t1": 189.522,
+   "t1": 189.562,
    "say": 3.633,
    "need": 3.65,
    "sec": 3,
-   "text": "A third, and it was there too."
+   "text": "A third, and it was there too.",
+   "v": "O",
+   "out": 0.56
   },
   {
    "slug": "religion-politics-media-education",
    "t0": 190.202,
-   "t1": 193.589,
+   "t1": 193.629,
    "say": 3.157,
    "need": 3.3,
    "sec": 3,
-   "text": "Religion. Politics. Media. Education. Medicine. Money."
+   "text": "Religion. Politics. Media. Education. Medicine. Money.",
+   "v": "O",
+   "out": 0.56
   },
   {
    "slug": "i-kept-walking-until",
    "t0": 194.269,
-   "t1": 200.724,
+   "t1": 200.764,
    "say": 6.014,
    "need": 5.4,
    "sec": 3,
-   "text": "I kept walking until I had searched thirty sectors of human life,"
+   "text": "I kept walking until I had searched thirty sectors of human life,",
+   "v": "O",
+   "out": 0.56
   },
   {
    "slug": "from-the-moment-you",
    "t0": 201.404,
-   "t1": 207.347,
+   "t1": 207.387,
    "say": 5.538,
    "need": 5.05,
    "sec": 3,
-   "text": "from the moment you are born to the moment you die."
+   "text": "from the moment you are born to the moment you die.",
+   "v": "O",
+   "out": 0.56
   },
   {
    "slug": "every-one-of-them",
    "t0": 208.027,
-   "t1": 217.548,
+   "t1": 217.588,
    "say": 8.871,
    "need": 7.5,
    "sec": 3,
-   "text": "Every one of them ran the same eight stages, with the same thirty techniques, in the same order."
+   "text": "Every one of them ran the same eight stages, with the same thirty techniques, in the same order.",
+   "v": "O",
+   "out": 0.56
   },
   {
    "slug": "two-thousand-seven-hundred",
    "t0": 218.228,
-   "t1": 221.248,
+   "t1": 221.288,
    "say": 2.681,
    "need": 2.95,
    "sec": 3,
-   "text": "Two thousand seven hundred examples."
+   "text": "Two thousand seven hundred examples.",
+   "v": "O",
+   "out": 0.56
   },
   {
    "slug": "i-looked-for-a",
    "t0": 221.928,
-   "t1": 228.382,
+   "t1": 228.422,
    "say": 6.014,
    "need": 5.4,
    "sec": 3,
-   "text": "I looked for a single sector where the cycle does not run."
+   "text": "I looked for a single sector where the cycle does not run.",
+   "v": "O",
+   "out": 0.56
   },
   {
    "slug": "i-am-still-looking",
@@ -356,79 +432,97 @@
    "say": 2.205,
    "need": 2.6,
    "sec": 3,
-   "text": "I am still looking."
+   "text": "I am still looking.",
+   "v": "O",
+   "out": 0.56
   },
   {
    "slug": "then-the-map-turned",
    "t0": 238.4,
-   "t1": 243.321,
+   "t1": 243.221,
    "say": 4.586,
    "need": 4.35,
    "sec": 4,
-   "text": "Then the map turned around and looked at me."
+   "text": "Then the map turned around and looked at me.",
+   "v": "S",
+   "out": 0.7
   },
   {
    "slug": "i-found-the-cycle",
    "t0": 244.001,
-   "t1": 254.033,
+   "t1": 254.073,
    "say": 9.348,
    "need": 7.85,
    "sec": 4,
-   "text": "I found the cycle in the way I spoke to myself when no one else was in the room."
+   "text": "I found the cycle in the way I spoke to myself when no one else was in the room.",
+   "v": "O",
+   "out": 0.56
   },
   {
    "slug": "i-found-it-in",
    "t0": 254.713,
-   "t1": 262.19,
+   "t1": 262.23,
    "say": 6.967,
    "need": 6.1,
    "sec": 4,
-   "text": "I found it in my body, in the tension I had mistaken for personality."
+   "text": "I found it in my body, in the tension I had mistaken for personality.",
+   "v": "O",
+   "out": 0.56
   },
   {
    "slug": "i-found-it-in",
    "t0": 262.87,
-   "t1": 269.324,
+   "t1": 269.364,
    "say": 6.014,
    "need": 5.4,
    "sec": 4,
-   "text": "I found it in my family, and in the generations behind them,"
+   "text": "I found it in my family, and in the generations behind them,",
+   "v": "O",
+   "out": 0.56
   },
   {
    "slug": "handed-down-not-out",
    "t0": 270.004,
-   "t1": 275.436,
+   "t1": 275.476,
    "say": 5.062,
    "need": 4.7,
    "sec": 4,
-   "text": "handed down not out of malice but out of inheritance."
+   "text": "handed down not out of malice but out of inheritance.",
+   "v": "O",
+   "out": 0.56
   },
   {
    "slug": "i-came-to-believe",
    "t0": 276.116,
-   "t1": 284.104,
+   "t1": 284.144,
    "say": 7.443,
    "need": 6.45,
    "sec": 4,
-   "text": "I came to believe I was carrying things that began with people I never met."
+   "text": "I came to believe I was carrying things that began with people I never met.",
+   "v": "O",
+   "out": 0.56
   },
   {
    "slug": "the-enemy-i-had",
    "t0": 284.784,
-   "t1": 293.794,
+   "t1": 293.834,
    "say": 8.395,
    "need": 7.15,
    "sec": 4,
-   "text": "The enemy I had been chasing across the world had been walking beside me the whole time."
+   "text": "The enemy I had been chasing across the world had been walking beside me the whole time.",
+   "v": "O",
+   "out": 0.56
   },
   {
    "slug": "and-it-had-never",
    "t0": 294.474,
-   "t1": 297.861,
+   "t1": 297.901,
    "say": 3.157,
    "need": 3.3,
    "sec": 4,
-   "text": "And it had never been me."
+   "text": "And it had never been me.",
+   "v": "O",
+   "out": 0.56
   },
   {
    "slug": "it-had-been-handed",
@@ -437,97 +531,119 @@
    "say": 3.157,
    "need": 3.3,
    "sec": 4,
-   "text": "It had been handed to me."
+   "text": "It had been handed to me.",
+   "v": "O",
+   "out": 0.56
   },
   {
    "slug": "that-is-when-i",
    "t0": 309.014,
-   "t1": 313.935,
+   "t1": 313.975,
    "say": 4.586,
    "need": 4.35,
    "sec": 5,
-   "text": "That is when I understood the size of it."
+   "text": "That is when I understood the size of it.",
+   "v": "P",
+   "out": 0.56
   },
   {
    "slug": "it-was-never-only",
    "t0": 314.615,
-   "t1": 317.635,
+   "t1": 317.675,
    "say": 2.681,
    "need": 2.95,
    "sec": 5,
-   "text": "It was never only people."
+   "text": "It was never only people.",
+   "v": "O",
+   "out": 0.56
   },
   {
    "slug": "a-person-can-run",
    "t0": 318.315,
-   "t1": 326.814,
+   "t1": 326.854,
    "say": 7.919,
    "need": 6.8,
    "sec": 5,
-   "text": "A person can run this cycle, and so can a contract, a business, or an economy."
+   "text": "A person can run this cycle, and so can a contract, a business, or an economy.",
+   "v": "O",
+   "out": 0.56
   },
   {
    "slug": "no-one-has-to",
    "t0": 327.494,
-   "t1": 330.881,
+   "t1": 330.921,
    "say": 3.157,
    "need": 3.3,
    "sec": 5,
-   "text": "No one has to mean it."
+   "text": "No one has to mean it.",
+   "v": "O",
+   "out": 0.56
   },
   {
    "slug": "the-pattern-wears-a",
    "t0": 331.561,
-   "t1": 336.993,
+   "t1": 337.033,
    "say": 5.062,
    "need": 4.7,
    "sec": 5,
-   "text": "The pattern wears a human face. It wears a logo."
+   "text": "The pattern wears a human face. It wears a logo.",
+   "v": "O",
+   "out": 0.56
   },
   {
    "slug": "it-wears-the-sky",
    "t0": 337.673,
-   "t1": 340.693,
+   "t1": 340.733,
    "say": 2.681,
    "need": 2.95,
    "sec": 5,
-   "text": "It wears the sky itself."
+   "text": "It wears the sky itself.",
+   "v": "O",
+   "out": 0.56
   },
   {
    "slug": "the-person-is-inside",
    "t0": 341.373,
-   "t1": 344.76,
+   "t1": 344.8,
    "say": 3.157,
    "need": 3.3,
    "sec": 5,
-   "text": "The person is inside the institution."
+   "text": "The person is inside the institution.",
+   "v": "O",
+   "out": 0.56
   },
   {
    "slug": "the-institution-is-inside",
    "t0": 345.44,
-   "t1": 348.827,
+   "t1": 348.867,
    "say": 3.157,
    "need": 3.3,
    "sec": 5,
-   "text": "The institution is inside the civilization."
+   "text": "The institution is inside the civilization.",
+   "v": "O",
+   "out": 0.56
   },
   {
    "slug": "the-civilization-is-inside",
    "t0": 349.507,
-   "t1": 352.895,
+   "t1": 352.935,
    "say": 3.157,
    "need": 3.3,
    "sec": 5,
-   "text": "The civilization is inside the pattern."
+   "text": "The civilization is inside the pattern.",
+   "v": "O",
+   "out": 0.56
   },
   {
    "slug": "and-the-pattern-is",
    "t0": 353.575,
-   "t1": 357.473,
+   "t1": 357.513,
    "say": 3.633,
    "need": 3.65,
    "sec": 5,
-   "text": "And the pattern is inside the person."
+   "text": "And the pattern is inside the person.",
+   "v": "O",
+   "out": 0.56
   },
   {
    "slug": "that-is-the-fractal",
@@ -536,70 +652,86 @@
    "say": 2.205,
    "need": 2.6,
    "sec": 5,
-   "text": "That is the fractal."
+   "text": "That is the fractal.",
+   "v": "O",
+   "out": 0.56
   },
   {
    "slug": "i-will-tell-you",
    "t0": 365.4,
-   "t1": 373.899,
+   "t1": 373.939,
    "say": 7.919,
    "need": 6.8,
    "sec": 6,
-   "text": "I will tell you what I saw next, and I offer it as one man’s sight."
+   "text": "I will tell you what I saw next, and I offer it as one man’s sight.",
+   "v": "O",
+   "out": 0.56
   },
   {
    "slug": "the-cycle-creates-nothing",
    "t0": 374.579,
-   "t1": 378.477,
+   "t1": 378.517,
    "say": 3.633,
    "need": 3.65,
    "sec": 6,
-   "text": "The cycle creates nothing. It only copies."
+   "text": "The cycle creates nothing. It only copies.",
+   "v": "O",
+   "out": 0.56
   },
   {
    "slug": "every-stage-is-a",
    "t0": 379.157,
-   "t1": 384.589,
+   "t1": 384.629,
    "say": 5.062,
    "need": 4.7,
    "sec": 6,
-   "text": "Every stage is a divine principle, forced to run backward."
+   "text": "Every stage is a divine principle, forced to run backward.",
+   "v": "O",
+   "out": 0.56
   },
   {
    "slug": "election-becomes-idealize-covenant",
    "t0": 385.269,
-   "t1": 390.701,
+   "t1": 390.741,
    "say": 5.062,
    "need": 4.7,
    "sec": 6,
-   "text": "Election becomes Idealize. Covenant becomes Hook. Inherent worth becomes Devalue."
+   "text": "Election becomes Idealize. Covenant becomes Hook. Inherent worth becomes Devalue.",
+   "v": "O",
+   "out": 0.56
   },
   {
    "slug": "truth-becomes-confuse-community",
    "t0": 391.381,
-   "t1": 396.302,
+   "t1": 396.342,
    "say": 4.586,
    "need": 4.35,
    "sec": 6,
-   "text": "Truth becomes Confuse. Community becomes Isolate. Abundance becomes Extract."
+   "text": "Truth becomes Confuse. Community becomes Isolate. Abundance becomes Extract.",
+   "v": "O",
+   "out": 0.56
   },
   {
    "slug": "i-will-never-leave",
    "t0": 396.982,
-   "t1": 400.88,
+   "t1": 400.92,
    "say": 3.633,
    "need": 3.65,
    "sec": 6,
-   "text": "“I will never leave you” becomes Discard."
+   "text": "“I will never leave you” becomes Discard.",
+   "v": "Q",
+   "out": 0.56
   },
   {
    "slug": "and-the-one-who",
    "t0": 401.56,
-   "t1": 406.481,
+   "t1": 406.521,
    "say": 4.586,
    "need": 4.35,
    "sec": 6,
-   "text": "And the one who cannot be replaced becomes Replace."
+   "text": "And the one who cannot be replaced becomes Replace.",
+   "v": "O",
+   "out": 0.56
   },
   {
    "slug": "every-technique-is-a",
@@ -608,106 +740,130 @@
    "say": 4.586,
    "need": 4.35,
    "sec": 6,
-   "text": "Every technique is a sacred faculty, turned inside out."
+   "text": "Every technique is a sacred faculty, turned inside out.",
+   "v": "O",
+   "out": 0.56
   },
   {
    "slug": "you-are-loved-and",
    "t0": 429.762,
-   "t1": 433.66,
+   "t1": 433.7,
    "say": 3.633,
    "need": 3.65,
    "sec": 6,
-   "text": "“You are loved.” And then it extracts."
+   "text": "“You are loved.” And then it extracts.",
+   "v": "Q",
+   "out": 0.56
   },
   {
    "slug": "you-are-safe-and",
    "t0": 434.34,
-   "t1": 438.238,
+   "t1": 438.278,
    "say": 3.633,
    "need": 3.65,
    "sec": 6,
-   "text": "“You are safe.” And then it watches."
+   "text": "“You are safe.” And then it watches.",
+   "v": "Q",
+   "out": 0.56
   },
   {
    "slug": "you-belong-and-then",
    "t0": 438.918,
-   "t1": 442.305,
+   "t1": 442.345,
    "say": 3.157,
    "need": 3.3,
    "sec": 6,
-   "text": "“You belong.” And then it isolates."
+   "text": "“You belong.” And then it isolates.",
+   "v": "Q",
+   "out": 0.56
   },
   {
    "slug": "you-are-whole-and",
    "t0": 442.985,
-   "t1": 448.929,
+   "t1": 448.969,
    "say": 5.538,
    "need": 5.05,
    "sec": 6,
-   "text": "“You are whole.” And then it sells you the missing piece."
+   "text": "“You are whole.” And then it sells you the missing piece.",
+   "v": "Q",
+   "out": 0.56
   },
   {
    "slug": "come-home-and-then",
    "t0": 449.609,
-   "t1": 453.507,
+   "t1": 453.547,
    "say": 3.633,
    "need": 3.65,
    "sec": 6,
-   "text": "“Come home.” And then it charges rent."
+   "text": "“Come home.” And then it charges rent.",
+   "v": "Q",
+   "out": 0.56
   },
   {
    "slug": "people-have-given-it",
    "t0": 454.187,
-   "t1": 464.22,
+   "t1": 464.26,
    "say": 9.348,
    "need": 7.85,
    "sec": 6,
-   "text": "People have given it many names: the false god, the devil, the adversary, the matrix, the machine, the system."
+   "text": "People have given it many names: the false god, the devil, the adversary, the matrix, the machine, the system.",
+   "v": "O",
+   "out": 0.56
   },
   {
    "slug": "use-the-word-that",
    "t0": 464.9,
-   "t1": 469.309,
+   "t1": 469.349,
    "say": 4.11,
    "need": 4.0,
    "sec": 6,
-   "text": "Use the word that fits your own mouth."
+   "text": "Use the word that fits your own mouth.",
+   "v": "O",
+   "out": 0.56
   },
   {
    "slug": "they-all-point-at",
    "t0": 469.989,
-   "t1": 473.887,
+   "t1": 473.927,
    "say": 3.633,
    "need": 3.65,
    "sec": 6,
-   "text": "They all point at the same thing."
+   "text": "They all point at the same thing.",
+   "v": "O",
+   "out": 0.56
   },
   {
    "slug": "it-is-not-a",
    "t0": 474.567,
-   "t1": 477.587,
+   "t1": 477.627,
    "say": 2.681,
    "need": 2.95,
    "sec": 6,
-   "text": "It is not a being."
+   "text": "It is not a being.",
+   "v": "O",
+   "out": 0.56
   },
   {
    "slug": "it-is-a-pattern",
    "t0": 478.267,
-   "t1": 485.233,
+   "t1": 485.273,
    "say": 6.49,
    "need": 5.75,
    "sec": 6,
-   "text": "It is a pattern sitting in a chair that was never its own."
+   "text": "It is a pattern sitting in a chair that was never its own.",
+   "v": "O",
+   "out": 0.56
   },
   {
    "slug": "a-counterfeit-always-comes",
    "t0": 485.913,
-   "t1": 488.933,
+   "t1": 488.973,
    "say": 2.681,
    "need": 2.95,
    "sec": 6,
-   "text": "A counterfeit always comes second."
+   "text": "A counterfeit always comes second.",
+   "v": "O",
+   "out": 0.56
   },
   {
    "slug": "which-means-something-real",
@@ -716,97 +872,119 @@
    "say": 3.633,
    "need": 3.65,
    "sec": 6,
-   "text": "Which means something real was here first."
+   "text": "Which means something real was here first.",
+   "v": "O",
+   "out": 0.56
   },
   {
    "slug": "so-i-stopped-trying",
    "t0": 512.862,
-   "t1": 518.805,
+   "t1": 518.845,
    "say": 5.538,
    "need": 5.05,
    "sec": 7,
-   "text": "So I stopped trying to climb out, and I went down."
+   "text": "So I stopped trying to climb out, and I went down.",
+   "v": "P",
+   "out": 0.56
   },
   {
    "slug": "down-through-the-sectors",
    "t0": 519.485,
-   "t1": 523.895,
+   "t1": 523.935,
    "say": 4.11,
    "need": 4.0,
    "sec": 7,
-   "text": "Down through the sectors. Down through the techniques."
+   "text": "Down through the sectors. Down through the techniques.",
+   "v": "O",
+   "out": 0.56
   },
   {
    "slug": "down-through-the-tactics",
    "t0": 524.575,
-   "t1": 527.245,
+   "t1": 527.285,
    "say": 2.205,
    "need": 2.6,
    "sec": 7,
-   "text": "Down through the tactics."
+   "text": "Down through the tactics.",
+   "v": "O",
+   "out": 0.56
   },
   {
    "slug": "down-through-the-mirror",
    "t0": 527.925,
-   "t1": 533.356,
+   "t1": 533.396,
    "say": 5.062,
    "need": 4.7,
    "sec": 7,
-   "text": "Down through the mirror, the body, the chain, the generations."
+   "text": "Down through the mirror, the body, the chain, the generations.",
+   "v": "O",
+   "out": 0.56
   },
   {
    "slug": "all-the-way-down",
    "t0": 534.036,
-   "t1": 537.935,
+   "t1": 537.975,
    "say": 3.633,
    "need": 3.65,
    "sec": 7,
-   "text": "All the way down, into the dark."
+   "text": "All the way down, into the dark.",
+   "v": "O",
+   "out": 0.56
   },
   {
    "slug": "i-shed-it-one",
    "t0": 538.615,
-   "t1": 543.024,
+   "t1": 543.064,
    "say": 4.11,
    "need": 4.0,
    "sec": 7,
-   "text": "I shed it one inversion at a time."
+   "text": "I shed it one inversion at a time.",
+   "v": "O",
+   "out": 0.56
   },
   {
    "slug": "some-of-it-came",
    "t0": 543.704,
-   "t1": 547.091,
+   "t1": 547.131,
    "say": 3.157,
    "need": 3.3,
    "sec": 7,
-   "text": "Some of it came off easily."
+   "text": "Some of it came off easily.",
+   "v": "O",
+   "out": 0.56
   },
   {
    "slug": "some-of-it-i",
    "t0": 547.771,
-   "t1": 553.715,
+   "t1": 553.755,
    "say": 5.538,
    "need": 5.05,
    "sec": 7,
-   "text": "Some of it I had to carry out in pieces, crying."
+   "text": "Some of it I had to carry out in pieces, crying.",
+   "v": "O",
+   "out": 0.56
   },
   {
    "slug": "and-at-the-bottom",
    "t0": 554.395,
-   "t1": 562.894,
+   "t1": 562.934,
    "say": 7.919,
    "need": 6.8,
    "sec": 7,
-   "text": "And at the bottom, beneath every lie that had been installed as truth, I found it."
+   "text": "And at the bottom, beneath every lie that had been installed as truth, I found it.",
+   "v": "O",
+   "out": 0.56
   },
   {
    "slug": "not-above-me-not",
    "t0": 563.574,
-   "t1": 566.961,
+   "t1": 567.001,
    "say": 3.157,
    "need": 3.3,
    "sec": 7,
-   "text": "Not above me. Not beyond me."
+   "text": "Not above me. Not beyond me.",
+   "v": "O",
+   "out": 0.56
   },
   {
    "slug": "in-me-where-it",
@@ -815,124 +993,152 @@
    "say": 3.633,
    "need": 3.65,
    "sec": 7,
-   "text": "In me. Where it had always been."
+   "text": "In me. Where it had always been.",
+   "v": "O",
+   "out": 0.56
   },
   {
    "slug": "every-tradition-i-know",
    "t0": 576.6,
-   "t1": 582.032,
+   "t1": 582.072,
    "say": 5.062,
    "need": 4.7,
    "sec": 8,
-   "text": "Every tradition I know has tried to describe this walk."
+   "text": "Every tradition I know has tried to describe this walk.",
+   "v": "O",
+   "out": 0.56
   },
   {
    "slug": "the-ones-who-walked",
    "t0": 582.712,
-   "t1": 589.166,
+   "t1": 589.206,
    "say": 6.014,
    "need": 5.4,
    "sec": 8,
-   "text": "The ones who walked it before me left markers along the way."
+   "text": "The ones who walked it before me left markers along the way.",
+   "v": "O",
+   "out": 0.56
   },
   {
    "slug": "the-christian-calls-it",
    "t0": 589.846,
-   "t1": 595.278,
+   "t1": 595.318,
    "say": 5.062,
    "need": 4.7,
    "sec": 8,
-   "text": "The Christian calls it the narrow gate, the kingdom within."
+   "text": "The Christian calls it the narrow gate, the kingdom within.",
+   "v": "O",
+   "out": 0.56
   },
   {
    "slug": "the-buddhist-calls-it",
    "t0": 595.958,
-   "t1": 601.39,
+   "t1": 601.43,
    "say": 5.062,
    "need": 4.7,
    "sec": 8,
-   "text": "The Buddhist calls it waking up, the end of not-seeing."
+   "text": "The Buddhist calls it waking up, the end of not-seeing.",
+   "v": "O",
+   "out": 0.56
   },
   {
    "slug": "the-muslim-speaks-of",
    "t0": 602.07,
-   "t1": 610.569,
+   "t1": 610.609,
    "say": 7.919,
    "need": 6.8,
    "sec": 8,
-   "text": "The Muslim speaks of the lifting of the veils, and the Hindu says, Thou art that."
+   "text": "The Muslim speaks of the lifting of the veils, and the Hindu says, Thou art that.",
+   "v": "O",
+   "out": 0.56
   },
   {
    "slug": "the-jew-speaks-of",
    "t0": 611.249,
-   "t1": 617.192,
+   "t1": 617.232,
    "say": 5.538,
    "need": 5.05,
    "sec": 8,
-   "text": "The Jew speaks of gathering the sparks from the broken vessels."
+   "text": "The Jew speaks of gathering the sparks from the broken vessels.",
+   "v": "O",
+   "out": 0.56
   },
   {
    "slug": "many-indigenous-peoples-call",
    "t0": 617.872,
-   "t1": 623.304,
+   "t1": 623.344,
    "say": 5.062,
    "need": 4.7,
    "sec": 8,
-   "text": "Many Indigenous peoples call it the remembering, the original instruction."
+   "text": "Many Indigenous peoples call it the remembering, the original instruction.",
+   "v": "O",
+   "out": 0.56
   },
   {
    "slug": "the-taoist-says-that",
    "t0": 623.984,
-   "t1": 630.438,
+   "t1": 630.478,
    "say": 6.014,
    "need": 5.4,
    "sec": 8,
-   "text": "The Taoist says that on the Way, every day something is dropped."
+   "text": "The Taoist says that on the Way, every day something is dropped.",
+   "v": "O",
+   "out": 0.56
   },
   {
    "slug": "the-mystic-calls-it",
    "t0": 631.118,
-   "t1": 639.106,
+   "t1": 639.146,
    "say": 7.443,
    "need": 6.45,
    "sec": 8,
-   "text": "The mystic calls it the dark night of the soul, and the dawn that follows."
+   "text": "The mystic calls it the dark night of the soul, and the dawn that follows.",
+   "v": "O",
+   "out": 0.56
   },
   {
    "slug": "if-none-of-those",
    "t0": 639.786,
-   "t1": 647.263,
+   "t1": 647.303,
    "say": 6.967,
    "need": 6.1,
    "sec": 8,
-   "text": "If none of those words are yours, here is another way to say it."
+   "text": "If none of those words are yours, here is another way to say it.",
+   "v": "O",
+   "out": 0.56
   },
   {
    "slug": "a-pattern-observed-traced",
    "t0": 647.943,
-   "t1": 652.352,
+   "t1": 652.392,
    "say": 4.11,
    "need": 4.0,
    "sec": 8,
-   "text": "A pattern, observed. Traced to where it began."
+   "text": "A pattern, observed. Traced to where it began.",
+   "v": "O",
+   "out": 0.56
   },
   {
    "slug": "found-in-my-own",
    "t0": 653.032,
-   "t1": 662.554,
+   "t1": 662.594,
    "say": 8.871,
    "need": 7.5,
    "sec": 8,
-   "text": "Found in my own body and followed down my own bloodline, until the signal showed beneath the noise."
+   "text": "Found in my own body and followed down my own bloodline, until the signal showed beneath the noise.",
+   "v": "O",
+   "out": 0.56
   },
   {
    "slug": "it-does-not-need",
    "t0": 663.234,
-   "t1": 666.621,
+   "t1": 666.661,
    "say": 3.157,
    "need": 3.3,
    "sec": 8,
-   "text": "It does not need your belief."
+   "text": "It does not need your belief.",
+   "v": "O",
+   "out": 0.56
   },
   {
    "slug": "it-only-needs-your",
@@ -941,52 +1147,64 @@
    "say": 2.681,
    "need": 2.95,
    "sec": 8,
-   "text": "It only needs your attention."
+   "text": "It only needs your attention.",
+   "v": "O",
+   "out": 0.56
   },
   {
    "slug": "if-you-call-it",
    "t0": 679.0,
-   "t1": 682.898,
+   "t1": 682.938,
    "say": 3.633,
    "need": 3.65,
    "sec": 9,
-   "text": "If you call it awakening, you’re right."
+   "text": "If you call it awakening, you’re right.",
+   "v": "O",
+   "out": 0.56
   },
   {
    "slug": "if-you-call-it",
    "t0": 683.578,
-   "t1": 687.477,
+   "t1": 687.517,
    "say": 3.633,
    "need": 3.65,
    "sec": 9,
-   "text": "If you call it enlightenment, you’re right."
+   "text": "If you call it enlightenment, you’re right.",
+   "v": "O",
+   "out": 0.56
   },
   {
    "slug": "if-you-call-it",
    "t0": 688.157,
-   "t1": 695.633,
+   "t1": 695.673,
    "say": 6.967,
    "need": 6.1,
    "sec": 9,
-   "text": "If you call it the end of illusion, healing, deprogramming, or liberation, you’re right."
+   "text": "If you call it the end of illusion, healing, deprogramming, or liberation, you’re right.",
+   "v": "O",
+   "out": 0.56
   },
   {
    "slug": "if-you-call-it",
    "t0": 696.313,
-   "t1": 703.279,
+   "t1": 703.319,
    "say": 6.49,
    "need": 5.75,
    "sec": 9,
-   "text": "If you call it finally seeing clearly for the first time, you’re right."
+   "text": "If you call it finally seeing clearly for the first time, you’re right.",
+   "v": "O",
+   "out": 0.56
   },
   {
    "slug": "the-words-are-different",
    "t0": 703.959,
-   "t1": 706.629,
+   "t1": 706.669,
    "say": 2.205,
    "need": 2.6,
    "sec": 9,
-   "text": "The words are different."
+   "text": "The words are different.",
+   "v": "O",
+   "out": 0.56
   },
   {
    "slug": "the-destination-is-the",
@@ -995,88 +1213,108 @@
    "say": 2.681,
    "need": 2.95,
    "sec": 9,
-   "text": "The destination is the same."
+   "text": "The destination is the same.",
+   "v": "O",
+   "out": 0.56
   },
   {
    "slug": "notice-what-i-did",
    "t0": 717.4,
-   "t1": 720.787,
+   "t1": 720.827,
    "say": 3.157,
    "need": 3.3,
    "sec": 10,
-   "text": "Notice what I did not do."
+   "text": "Notice what I did not do.",
+   "v": "O",
+   "out": 0.56
   },
   {
    "slug": "i-did-not-rise",
    "t0": 721.467,
-   "t1": 727.921,
+   "t1": 727.961,
    "say": 6.014,
    "need": 5.4,
    "sec": 10,
-   "text": "I did not rise above the earth, and I did not ascend."
+   "text": "I did not rise above the earth, and I did not ascend.",
+   "v": "O",
+   "out": 0.56
   },
   {
    "slug": "i-did-not-leave",
    "t0": 728.601,
-   "t1": 732.5,
+   "t1": 732.54,
    "say": 3.633,
    "need": 3.65,
    "sec": 10,
-   "text": "I did not leave my body behind."
+   "text": "I did not leave my body behind.",
+   "v": "O",
+   "out": 0.56
   },
   {
    "slug": "i-descended-down-through",
    "t0": 733.18,
-   "t1": 738.612,
+   "t1": 738.652,
    "say": 5.062,
    "need": 4.7,
    "sec": 10,
-   "text": "I descended, down through everything and into my own core."
+   "text": "I descended, down through everything and into my own core.",
+   "v": "O",
+   "out": 0.56
   },
   {
    "slug": "the-sun-did-not",
    "t0": 739.292,
-   "t1": 744.724,
+   "t1": 744.764,
    "say": 5.062,
    "need": 4.7,
    "sec": 10,
-   "text": "The sun did not appear, because it was never gone."
+   "text": "The sun did not appear, because it was never gone.",
+   "v": "O",
+   "out": 0.56
   },
   {
    "slug": "i-only-moved-what",
    "t0": 745.404,
-   "t1": 751.058,
+   "t1": 751.098,
    "say": 5.062,
    "need": 4.7,
    "sec": 10,
-   "text": "I only moved what had been stacked against the window,"
+   "text": "I only moved what had been stacked against the window,",
+   "v": "O",
+   "out": 0.56
   },
   {
    "slug": "one-block-at-a",
    "t0": 751.738,
-   "t1": 757.17,
+   "t1": 757.21,
    "say": 5.062,
    "need": 4.7,
    "sec": 10,
-   "text": "one block at a time, and let the light through."
+   "text": "one block at a time, and let the light through.",
+   "v": "P",
+   "out": 0.56
   },
   {
    "slug": "my-original-frequency",
    "t0": 757.85,
-   "t1": 760.17,
+   "t1": 760.21,
    "say": 1.729,
    "need": 2.25,
    "sec": 10,
-   "text": "My original frequency."
+   "text": "My original frequency.",
+   "v": "O",
+   "out": 0.56
   },
   {
    "slug": "who-i-am-underneath",
    "t0": 760.85,
-   "t1": 764.748,
+   "t1": 764.788,
    "say": 3.633,
    "need": 3.65,
    "sec": 10,
-   "text": "Who I am underneath all of it."
+   "text": "Who I am underneath all of it.",
+   "v": "O",
+   "out": 0.56
   },
   {
    "slug": "pulsing-quietly-and-waiting",
@@ -1085,466 +1323,570 @@
    "say": 2.205,
    "need": 2.6,
    "sec": 10,
-   "text": "Pulsing quietly, and waiting."
+   "text": "Pulsing quietly, and waiting.",
+   "v": "O",
+   "out": 0.56
   },
   {
    "slug": "i-came-back-up",
    "t0": 775.0,
-   "t1": 778.898,
+   "t1": 778.938,
    "say": 3.633,
    "need": 3.65,
    "sec": 11,
-   "text": "I came back up carrying a map."
+   "text": "I came back up carrying a map.",
+   "v": "O",
+   "out": 0.56
   },
   {
    "slug": "the-first-fractal-helped",
    "t0": 779.578,
-   "t1": 782.965,
+   "t1": 783.005,
    "say": 3.157,
    "need": 3.3,
    "sec": 11,
-   "text": "The first Fractal helped people see."
+   "text": "The first Fractal helped people see.",
+   "v": "O",
+   "out": 0.56
   },
   {
    "slug": "this-one-completes-the",
    "t0": 783.645,
-   "t1": 786.665,
+   "t1": 786.705,
    "say": 2.681,
    "need": 2.95,
    "sec": 11,
-   "text": "This one completes the map."
+   "text": "This one completes the map.",
+   "v": "O",
+   "out": 0.56
   },
   {
    "slug": "every-technique-is-opened",
    "t0": 787.345,
-   "t1": 796.356,
+   "t1": 796.396,
    "say": 8.395,
    "need": 7.15,
    "sec": 11,
-   "text": "Every technique is opened to show the tactics inside it, three hundred thirty-five in a single sector."
+   "text": "Every technique is opened to show the tactics inside it, three hundred thirty-five in a single sector.",
+   "v": "O",
+   "out": 0.56
   },
   {
    "slug": "and-now-it-holds",
    "t0": 797.036,
-   "t1": 805.024,
+   "t1": 805.064,
    "say": 7.443,
    "need": 6.45,
    "sec": 11,
-   "text": "And now it holds the thing I most needed someone to show me: the combinations."
+   "text": "And now it holds the thing I most needed someone to show me: the combinations.",
+   "v": "O",
+   "out": 0.56
   },
   {
    "slug": "no-one-is-undone",
    "t0": 805.704,
-   "t1": 810.113,
+   "t1": 810.153,
    "say": 4.11,
    "need": 4.0,
    "sec": 11,
-   "text": "No one is undone by a single move."
+   "text": "No one is undone by a single move.",
+   "v": "O",
+   "out": 0.56
   },
   {
    "slug": "the-moves-arrive-in",
    "t0": 810.793,
-   "t1": 818.27,
+   "t1": 818.31,
    "say": 6.967,
    "need": 6.1,
    "sec": 11,
-   "text": "The moves arrive in order, each one stripping away the defense against the next."
+   "text": "The moves arrive in order, each one stripping away the defense against the next.",
+   "v": "O",
+   "out": 0.56
   },
   {
    "slug": "two-hundred-and-three",
    "t0": 818.95,
-   "t1": 824.382,
+   "t1": 824.422,
    "say": 5.062,
    "need": 4.7,
    "sec": 11,
-   "text": "Two hundred and three of these combinations now have names,"
+   "text": "Two hundred and three of these combinations now have names,",
+   "v": "O",
+   "out": 0.56
   },
   {
    "slug": "like-the-debt-prison",
    "t0": 825.062,
-   "t1": 831.516,
+   "t1": 831.556,
    "say": 6.014,
    "need": 5.4,
    "sec": 11,
-   "text": "like the Debt Prison, the Golden Cage, and the Trauma Bond Engine."
+   "text": "like the Debt Prison, the Golden Cage, and the Trauma Bond Engine.",
+   "v": "O",
+   "out": 0.56
   },
   {
    "slug": "together-they-are-the",
    "t0": 832.196,
-   "t1": 840.695,
+   "t1": 840.735,
    "say": 7.919,
    "need": 6.8,
    "sec": 11,
-   "text": "Together they are the map of how this cycle has marked every life it has touched."
+   "text": "Together they are the map of how this cycle has marked every life it has touched.",
+   "v": "O",
+   "out": 0.56
   },
   {
    "slug": "here-is-what-i",
    "t0": 841.375,
-   "t1": 845.273,
+   "t1": 845.313,
    "say": 3.633,
    "need": 3.65,
    "sec": 11,
-   "text": "Here is what I learned about them."
+   "text": "Here is what I learned about them.",
+   "v": "O",
+   "out": 0.56
   },
   {
    "slug": "the-greatest-harm-is",
    "t0": 845.953,
-   "t1": 851.385,
+   "t1": 851.425,
    "say": 5.062,
    "need": 4.7,
    "sec": 11,
-   "text": "The greatest harm is not the moment of the wound."
+   "text": "The greatest harm is not the moment of the wound.",
+   "v": "O",
+   "out": 0.56
   },
   {
    "slug": "it-is-what-the",
    "t0": 852.065,
-   "t1": 855.452,
+   "t1": 855.492,
    "say": 3.157,
    "need": 3.3,
    "sec": 11,
-   "text": "It is what the wound becomes."
+   "text": "It is what the wound becomes.",
+   "v": "O",
+   "out": 0.56
   },
   {
    "slug": "a-chain-is-built",
    "t0": 856.132,
-   "t1": 860.031,
+   "t1": 860.071,
    "say": 3.633,
    "need": 3.65,
    "sec": 11,
-   "text": "A chain is built to be forgotten."
+   "text": "A chain is built to be forgotten.",
+   "v": "O",
+   "out": 0.56
   },
   {
    "slug": "it-goes-in-early",
    "t0": 860.711,
-   "t1": 865.631,
+   "t1": 865.671,
    "say": 4.586,
    "need": 4.35,
    "sec": 11,
-   "text": "It goes in early, often through someone we trusted."
+   "text": "It goes in early, often through someone we trusted.",
+   "v": "O",
+   "out": 0.56
   },
   {
    "slug": "maybe-it-was-a",
    "t0": 866.311,
-   "t1": 871.232,
+   "t1": 871.272,
    "say": 4.586,
    "need": 4.35,
    "sec": 11,
-   "text": "Maybe it was a classroom, at eleven years old,"
+   "text": "Maybe it was a classroom, at eleven years old,",
+   "v": "O",
+   "out": 0.56
   },
   {
    "slug": "with-every-eye-on",
    "t0": 871.912,
-   "t1": 878.878,
+   "t1": 878.918,
    "say": 6.49,
    "need": 5.75,
    "sec": 11,
-   "text": "with every eye on you and a mistake you could not take back."
+   "text": "with every eye on you and a mistake you could not take back.",
+   "v": "O",
+   "out": 0.56
   },
   {
    "slug": "maybe-it-was-a",
    "t0": 879.558,
-   "t1": 882.945,
+   "t1": 882.985,
    "say": 3.157,
    "need": 3.3,
    "sec": 11,
-   "text": "Maybe it was a practice field,"
+   "text": "Maybe it was a practice field,",
+   "v": "O",
+   "out": 0.56
   },
   {
    "slug": "where-the-warm-word",
    "t0": 883.625,
-   "t1": 892.635,
+   "t1": 892.675,
    "say": 8.395,
    "need": 7.15,
    "sec": 11,
-   "text": "where the warm word only ever came after the cold stretch, and you learned to chase it."
+   "text": "where the warm word only ever came after the cold stretch, and you learned to chase it.",
+   "v": "O",
+   "out": 0.56
   },
   {
    "slug": "maybe-it-was-the",
    "t0": 893.315,
-   "t1": 898.236,
+   "t1": 898.276,
    "say": 4.586,
    "need": 4.35,
    "sec": 11,
-   "text": "Maybe it was the first years of a career,"
+   "text": "Maybe it was the first years of a career,",
+   "v": "O",
+   "out": 0.56
   },
   {
    "slug": "where-you-swallowed-conditions",
    "t0": 898.916,
-   "t1": 906.904,
+   "t1": 906.944,
    "say": 7.443,
    "need": 6.45,
    "sec": 11,
-   "text": "where you swallowed conditions you would have refused on day one, and called it professionalism."
+   "text": "where you swallowed conditions you would have refused on day one, and called it professionalism.",
+   "v": "O",
+   "out": 0.56
   },
   {
    "slug": "and-then-it-dissolves",
    "t0": 907.584,
-   "t1": 913.015,
+   "t1": 913.055,
    "say": 5.062,
    "need": 4.7,
    "sec": 11,
-   "text": "And then it dissolves into who you think you are."
+   "text": "And then it dissolves into who you think you are.",
+   "v": "O",
+   "out": 0.56
   },
   {
    "slug": "it-becomes-the-perfectionism",
    "t0": 913.695,
-   "t1": 918.616,
+   "t1": 918.656,
    "say": 4.586,
    "need": 4.35,
    "sec": 11,
-   "text": "It becomes the perfectionism that never feels like readiness."
+   "text": "It becomes the perfectionism that never feels like readiness.",
+   "v": "O",
+   "out": 0.56
   },
   {
    "slug": "the-watcher-in-your",
    "t0": 919.296,
-   "t1": 925.75,
+   "t1": 925.79,
    "say": 6.014,
    "need": 5.4,
    "sec": 11,
-   "text": "The watcher in your head, checking your work before anyone else can."
+   "text": "The watcher in your head, checking your work before anyone else can.",
+   "v": "O",
+   "out": 0.56
   },
   {
    "slug": "the-pull-toward-people",
    "t0": 926.43,
-   "t1": 931.351,
+   "t1": 931.391,
    "say": 4.586,
    "need": 4.35,
    "sec": 11,
-   "text": "The pull toward people who run hot and cold,"
+   "text": "The pull toward people who run hot and cold,",
+   "v": "O",
+   "out": 0.56
   },
   {
    "slug": "and-the-belief-that",
    "t0": 932.031,
-   "t1": 941.041,
+   "t1": 941.081,
    "say": 8.395,
    "need": 7.15,
    "sec": 11,
-   "text": "and the belief that a warm word after a cold silence is the truest love you know."
+   "text": "and the belief that a warm word after a cold silence is the truest love you know.",
+   "v": "O",
+   "out": 0.56
   },
   {
    "slug": "the-calm-that-other",
    "t0": 941.721,
-   "t1": 948.687,
+   "t1": 948.727,
    "say": 6.49,
    "need": 5.75,
    "sec": 11,
-   "text": "The calm that other people call strength, while your body holds its breath."
+   "text": "The calm that other people call strength, while your body holds its breath.",
+   "v": "O",
+   "out": 0.56
   },
   {
    "slug": "and-when-someone-finally",
    "t0": 949.367,
-   "t1": 957.866,
+   "t1": 957.906,
    "say": 7.919,
    "need": 6.8,
    "sec": 11,
-   "text": "And when someone finally asks if it hurt, you hear yourself answer before you can think."
+   "text": "And when someone finally asks if it hurt, you hear yourself answer before you can think.",
+   "v": "O",
+   "out": 0.56
   },
   {
    "slug": "it-made-me-who",
    "t0": 958.546,
-   "t1": 961.933,
+   "t1": 961.973,
    "say": 3.157,
    "need": 3.3,
    "sec": 11,
-   "text": "“It made me who I am.”"
+   "text": "“It made me who I am.”",
+   "v": "Q",
+   "out": 0.56
   },
   {
    "slug": "that-is-why-these",
    "t0": 962.613,
-   "t1": 967.023,
+   "t1": 967.063,
    "say": 4.11,
    "need": 4.0,
    "sec": 11,
-   "text": "That is why these chains cut so deep."
+   "text": "That is why these chains cut so deep.",
+   "v": "O",
+   "out": 0.56
   },
   {
    "slug": "they-do-not-feel",
    "t0": 967.703,
-   "t1": 973.135,
+   "t1": 973.175,
    "say": 5.062,
    "need": 4.7,
    "sec": 11,
-   "text": "They do not feel like chains. They feel like character."
+   "text": "They do not feel like chains. They feel like character.",
+   "v": "O",
+   "out": 0.56
   },
   {
    "slug": "like-loyalty-like-maturity",
    "t0": 973.815,
-   "t1": 977.202,
+   "t1": 977.242,
    "say": 3.157,
    "need": 3.3,
    "sec": 11,
-   "text": "Like loyalty. Like maturity. Like love."
+   "text": "Like loyalty. Like maturity. Like love.",
+   "v": "O",
+   "out": 0.56
   },
   {
    "slug": "but-this-is-also",
    "t0": 977.882,
-   "t1": 982.291,
+   "t1": 982.331,
    "say": 4.11,
    "need": 4.0,
    "sec": 11,
-   "text": "But this is also where the hope is."
+   "text": "But this is also where the hope is.",
+   "v": "O",
+   "out": 0.56
   },
   {
    "slug": "the-chains-that-bind",
    "t0": 982.971,
-   "t1": 990.448,
+   "t1": 990.488,
    "say": 6.967,
    "need": 6.1,
    "sec": 11,
-   "text": "The chains that bind us most tightly are the ones built into us earliest,"
+   "text": "The chains that bind us most tightly are the ones built into us earliest,",
+   "v": "O",
+   "out": 0.56
   },
   {
    "slug": "which-means-they-hold",
    "t0": 991.128,
-   "t1": 995.537,
+   "t1": 995.577,
    "say": 4.11,
    "need": 4.0,
    "sec": 11,
-   "text": "which means they hold the most of us."
+   "text": "which means they hold the most of us.",
+   "v": "O",
+   "out": 0.56
   },
   {
    "slug": "when-one-of-them",
    "t0": 996.217,
-   "t1": 1002.672,
+   "t1": 1002.712,
    "say": 6.014,
    "need": 5.4,
    "sec": 11,
-   "text": "When one of them breaks, we do not just lose a burden."
+   "text": "When one of them breaks, we do not just lose a burden.",
+   "v": "O",
+   "out": 0.56
   },
   {
    "slug": "we-win-back-everything",
    "t0": 1003.352,
-   "t1": 1007.761,
+   "t1": 1007.801,
    "say": 4.11,
    "need": 4.0,
    "sec": 11,
-   "text": "We win back everything it was holding hostage."
+   "text": "We win back everything it was holding hostage.",
+   "v": "O",
+   "out": 0.56
   },
   {
    "slug": "our-instincts-our-warmth",
    "t0": 1008.441,
-   "t1": 1011.111,
+   "t1": 1011.151,
    "say": 2.205,
    "need": 2.6,
    "sec": 11,
-   "text": "Our instincts. Our warmth."
+   "text": "Our instincts. Our warmth.",
+   "v": "O",
+   "out": 0.56
   },
   {
    "slug": "our-ability-to-say",
    "t0": 1011.791,
-   "t1": 1016.201,
+   "t1": 1016.241,
    "say": 4.11,
    "need": 4.0,
    "sec": 11,
-   "text": "Our ability to say plainly what is wrong."
+   "text": "Our ability to say plainly what is wrong.",
+   "v": "O",
+   "out": 0.56
   },
   {
    "slug": "the-part-of-us",
    "t0": 1016.881,
-   "t1": 1022.313,
+   "t1": 1022.353,
    "say": 5.062,
    "need": 4.7,
    "sec": 11,
-   "text": "The part of us that was never broken, only waiting."
+   "text": "The part of us that was never broken, only waiting.",
+   "v": "O",
+   "out": 0.56
   },
   {
    "slug": "the-heaviest-chain-once",
    "t0": 1022.993,
-   "t1": 1029.447,
+   "t1": 1029.487,
    "say": 6.014,
    "need": 5.4,
    "sec": 11,
-   "text": "The heaviest chain, once seen and broken, gives back the most freedom."
+   "text": "The heaviest chain, once seen and broken, gives back the most freedom.",
+   "v": "O",
+   "out": 0.56
   },
   {
    "slug": "my-healing-journey-meant",
    "t0": 1030.127,
-   "t1": 1039.648,
+   "t1": 1039.688,
    "say": 8.871,
    "need": 7.5,
    "sec": 11,
-   "text": "My healing journey meant forgiving the people who tried to destroy my mind and my heart for money."
+   "text": "My healing journey meant forgiving the people who tried to destroy my mind and my heart for money.",
+   "v": "O",
+   "out": 0.56
   },
   {
    "slug": "justice-to-me-comes",
    "t0": 1040.328,
-   "t1": 1045.76,
+   "t1": 1045.8,
    "say": 5.062,
    "need": 4.7,
    "sec": 11,
-   "text": "Justice, to me, comes from breaking every tool they have,"
+   "text": "Justice, to me, comes from breaking every tool they have,",
+   "v": "O",
+   "out": 0.56
   },
   {
    "slug": "so-that-none-of",
    "t0": 1046.44,
-   "t1": 1054.939,
+   "t1": 1054.979,
    "say": 7.919,
    "need": 6.8,
    "sec": 11,
-   "text": "so that none of them ever works on anyone again by the time I am done."
+   "text": "so that none of them ever works on anyone again by the time I am done.",
+   "v": "O",
+   "out": 0.56
   },
   {
    "slug": "it-comes-from-letting",
    "t0": 1055.619,
-   "t1": 1064.63,
+   "t1": 1064.67,
    "say": 8.395,
    "need": 7.15,
    "sec": 11,
-   "text": "It comes from letting the truth of who they are be seen by everyone they care about."
+   "text": "It comes from letting the truth of who they are be seen by everyone they care about.",
+   "v": "O",
+   "out": 0.56
   },
   {
    "slug": "not-by-exposing-them",
    "t0": 1065.31,
-   "t1": 1072.786,
+   "t1": 1072.826,
    "say": 6.967,
    "need": 6.1,
    "sec": 11,
-   "text": "Not by exposing them myself, but by exposing their tactics to the entire world,"
+   "text": "Not by exposing them myself, but by exposing their tactics to the entire world,",
+   "v": "O",
+   "out": 0.56
   },
   {
    "slug": "so-they-can-never",
    "t0": 1073.466,
-   "t1": 1079.92,
+   "t1": 1079.96,
    "say": 6.014,
    "need": 5.4,
    "sec": 11,
-   "text": "so they can never again hide in the shadows and feel safe."
+   "text": "so they can never again hide in the shadows and feel safe.",
+   "v": "O",
+   "out": 0.56
   },
   {
    "slug": "it-will-take-me",
    "t0": 1080.6,
-   "t1": 1085.01,
+   "t1": 1085.05,
    "say": 4.11,
    "need": 4.0,
    "sec": 11,
-   "text": "It will take me a lifetime to finish."
+   "text": "It will take me a lifetime to finish.",
+   "v": "O",
+   "out": 0.56
   },
   {
    "slug": "i-am-giving-it",
    "t0": 1085.69,
-   "t1": 1091.633,
+   "t1": 1091.673,
    "say": 5.538,
    "need": 5.05,
    "sec": 11,
-   "text": "I am giving it away to everyone, wherever this cycle runs."
+   "text": "I am giving it away to everyone, wherever this cycle runs.",
+   "v": "O",
+   "out": 0.56
   },
   {
    "slug": "it-started-with-a",
    "t0": 1092.313,
-   "t1": 1095.333,
+   "t1": 1095.733,
    "say": 2.681,
    "need": 2.95,
    "sec": 11,
-   "text": "It started with a question."
+   "text": "It started with a question.",
+   "v": "F",
+   "out": 1.4
   },
   {
    "slug": "now-the-map-is",
-   "t0": 1096.013,
+   "t0": 1097.213,
    "t1": 1121.0,
    "say": 2.681,
    "need": 2.95,
    "sec": 11,
-   "text": "Now the map is yours."
+   "text": "Now the map is yours.",
+   "v": "F",
+   "out": 0.56
   }
  ],
  "chapters": [

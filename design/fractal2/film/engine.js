@@ -129,7 +129,7 @@ var FS_SCENE = COMMON + [
 '  if(uStars>0.){vec2 vel=normalize(sq+1e-5)*uStreak;float s=stars(sq*exp(.10*lz)+uCam*.1,7.,1.,vel*.6)*.55+stars(sq*exp(.22*lz)+uCam*.25,13.,5.,vel)*.8+stars(sq*exp(.40*lz)+uCam*.5,23.,9.,vel*1.6);',
 '    col+=vec3(.82,.88,1.)*s*uStars;}',
 '  float pm=uPA2.x;',
-'  if(pm==1.){vec2 d=pD(q,p,uPA0,uPA1);vec4 a=pS(tP0,d,uPA1.z,0.);vec3 c=pLit(a.rgb,q,uPA1)*a.a;',      // one plate; uPA2.z > 0 adds a second, nearer copy (depth)
+'  if(pm==1.){vec2 d=pD(q,p,uPA0,uPA1);vec4 a=pS(tP0,d,uPA1.z,0.);if(uPA2.w>0.)a.a*=smoothstep(1.,1.-uPA2.w,length(d));vec3 c=pLit(a.rgb,q,uPA1)*a.a;',      // one plate; uPA2.z > 0 adds a second, nearer copy (depth)
 '    if(uPA2.z>0.){vec4 b=pS(tP0,pD(q,p,uPB0,uPA1),uPA1.z,0.);c+=pLit(b.rgb,q,uPA1)*b.a*uPA2.z;}',
 '    col=col*(1.-uPA2.y*a.a)+c;}',
 '  else if(pm==3.||pm==5.||pm==6.){vec2 d=pD(q,p,uPA0,uPA1);float rr=length(d);if(pm==6.)d*=remap(rr)/max(rr,1e-5);',   // the twins: seam split (3, 6: registered to the map) or band-by-band dissolve (5)
@@ -224,7 +224,7 @@ var FS_FIN = COMMON + [
 '  float dth=(h21(gl_FragCoord.xy+3.1)+h21(gl_FragCoord.xy+7.7)-1.)/255.;',
 '  o=vec4(max(c+dth,0.),1.);}'].join('\n');
 var VS_TXT = '#version 300 es\nin vec2 a;in vec4 iR;in vec4 iU;in vec4 iC;in vec2 iX;uniform vec2 uRes;out vec2 v;out vec4 c;out float soft;void main(){vec2 q=a*.5+.5;vec2 lp=(q-.5)*iR.zw;float cs=cos(iX.y),sn=sin(iX.y);lp=vec2(lp.x*cs-lp.y*sn,lp.x*sn+lp.y*cs);vec2 p=iR.xy+lp;v=mix(iU.xy,iU.zw,q);c=iC;soft=iX.x;gl_Position=vec4(p/uRes*2.-1.,0.,1.);gl_Position.y=-gl_Position.y;}';
-var FS_TXT = '#version 300 es\nprecision highp float;uniform sampler2D t;uniform float uRange;in vec2 v;in vec4 c;in float soft;out vec4 o;float med(vec3 s){return max(min(s.r,s.g),min(max(s.r,s.g),s.b));}void main(){vec3 s=texture(t,v).rgb;float sd=med(s)-.5;vec2 ts=vec2(textureSize(t,0));float spr=max(.5*dot(vec2(uRange)/ts,1./fwidth(v)),1.);float a=clamp(sd*spr/(1.+soft*spr*.9)+.5,0.,1.);a*=1./(1.+soft*1.4);o=vec4(c.rgb*c.a*a,c.a*a);}';
+var FS_TXT = '#version 300 es\nprecision highp float;uniform sampler2D t;uniform float uRange,uLR,uLB;uniform vec2 uLP;in vec2 v;in vec4 c;in float soft;out vec4 o;float med(vec3 s){return max(min(s.r,s.g),min(max(s.r,s.g),s.b));}float h(vec2 p){vec3 q=fract(vec3(p.xyx)*.1031);q+=dot(q,q.yzx+33.33);return fract((q.x+q.y)*q.z);}void main(){float sf=max(soft,0.),dis=max(-soft,0.);vec3 s=texture(t,v).rgb;float sd=med(s)-.5;vec2 ts=vec2(textureSize(t,0));float spr=max(.5*dot(vec2(uRange)/ts,1./fwidth(v)),1.);float a=clamp(sd*spr/(1.+sf*spr*.9)+.5,0.,1.);a*=1./(1.+sf*1.4);vec3 col=c.rgb;if(dis>0.){float n=h(floor(gl_FragCoord.xy/2.))*.7+h(floor(gl_FragCoord.xy/7.))*.3;float e=n-dis;a*=smoothstep(0.,.06,e);col+=vec3(1.,.85,.6)*smoothstep(.12,0.,e)*.8;}col*=1.+uLB*smoothstep(1.4,0.,length(gl_FragCoord.xy-uLP)/uLR);o=vec4(col*c.a*a,c.a*a);}';
 
 function sh(type, src) { var s = gl.createShader(type); gl.shaderSource(s, src); gl.compileShader(s); if (!gl.getShaderParameter(s, gl.COMPILE_STATUS)) throw new Error(gl.getShaderInfoLog(s) + '\n' + src.split('\n').slice(0, 4).join('\n')); return s; }
 function prog(vs, fs, attribs) {
@@ -330,13 +330,13 @@ function text(str, x, y, size, col, opt) {
     if (TXT.n >= TXT.max) return tw;
     g = sp.g[i]; w = g[4] * k; h = g[5] * k;
     gx = x0 + g[0] * k + tr * g[6] + w / 2 - x; gy = (g[1] - FONT.base) * k + h / 2;
-    fxo.dx = 0; fxo.dy = 0; fxo.a = 1; fxo.s = 1; fxo.sy = 1; fxo.soft = 0; if (opt.fx) opt.fx(i, n, fxo, gx, gy);
+    fxo.dx = 0; fxo.dy = 0; fxo.a = 1; fxo.s = 1; fxo.sy = 1; fxo.soft = 0; if (opt.fx) opt.fx(i, n, fxo, gx, gy, g[6]);
     if (fxo.a <= .003) continue;
     q = TXT.n * 14;
     gy *= fxo.sy; a[q] = (x + gx * cs - gy * sn + fxo.dx) * DPR; a[q + 1] = (y + gx * sn + gy * cs + fxo.dy) * DPR; a[q + 2] = w * fxo.s * DPR; a[q + 3] = h * fxo.s * fxo.sy * DPR;
     a[q + 4] = g[2] / FONT.w; a[q + 5] = g[3] / FONT.h; a[q + 6] = (g[2] + g[4]) / FONT.w; a[q + 7] = (g[3] + g[5]) / FONT.h;
     a[q + 8] = col[0]; a[q + 9] = col[1]; a[q + 10] = col[2]; a[q + 11] = col[3] * fxo.a;
-    a[q + 12] = (opt.soft || 0) + fxo.soft; a[q + 13] = rot;
+    a[q + 12] = fxo.soft < 0 ? fxo.soft : (opt.soft || 0) + fxo.soft; a[q + 13] = rot;
     TXT.n++;
   }
   return tw;
@@ -347,9 +347,25 @@ function w2s(wx, wy, S) {                   // world point -> CSS px, with the f
   return [W * (S.cxf || .5) + (x * c - y * s) * U, H * CYF - (x * s + y * c) * U];
 }
 F.w2s = w2s;
+/* in-picture words move like the captions (spec 4.11): per word, fade 520 ms, focus 720 ms (soft edge as the blur), rise 0.30 em with a small settle;
+   60 ms between words, 140 ms between rows. exit 560 ms: soft and up, toward the light. kind 'copy' = the grey counterfeit (from above, flat curve, no settle).
+   dust > 0: the word dissolves to dust instead (0..1). Reduced motion: opacity only. */
+F.wordFx = function (str, age, sz, o) {
+  o = o || {}; var row = o.row || 0, left = o.left == null ? 9 : o.left, copy = o.kind === 'copy', dust = o.dust || 0, CVc = F.curves;
+  return function (i, n, fx, gx, gy, ci) {
+    var w = 0; for (var j = 0; j < ci; j++) if (str.charCodeAt(j) === 32) w++;
+    var u = age - row * .14 - w * .06, e = left < .56 ? CVc.out(1 - left / .56) : 0;
+    if (RM) { fx.a = clamp(u / .4, 0, 1) * clamp(left / .3, 0, 1); return; }
+    if (copy) { var cp = CVc.copy(u / .42); fx.a = cp; fx.soft = 1 - cp; fx.dy = -.30 * sz * (1 - cp); }
+    else { var f9 = CVc.focus(u / .9); fx.a = CVc.fade(u / .52); fx.soft = 1 - CVc.focus(u / .72); fx.dy = .30 * sz * (1 - f9); fx.s = 1 + .035 * (1 - f9); }
+    if (e > 0) { fx.a *= 1 - e; fx.soft += .6 * e; fx.dy -= .14 * sz * e; }
+    if (dust > 0) { fx.soft = -Math.max(.001, dust); }
+  };
+};
 function drawText() {
   if (!TXT.n || !TX.font) return;
   gl.useProgram(P.txt.p); gl.uniform2f(P.txt.u.uRes, cv.width, cv.height); gl.uniform1f(P.txt.u.uRange, FONT.range);
+  gl.uniform2f(P.txt.u.uLP, (W * S.cxf + S.lx * U) * DPR, (H * (1 - CYF) + S.ly * U) * DPR); gl.uniform1f(P.txt.u.uLR, Math.max(.3, S.lsize * 3) * U * DPR); gl.uniform1f(P.txt.u.uLB, tier < 2 ? .12 * Math.min(1, S.light) : 0);   // words nearest the one light are a little brighter
   gl.activeTexture(gl.TEXTURE0); gl.bindTexture(gl.TEXTURE_2D, TX.font); gl.uniform1i(P.txt.u.t, 0);
   gl.enable(gl.BLEND); gl.blendFuncSeparate(gl.ONE, gl.ONE_MINUS_SRC_ALPHA, gl.ZERO, gl.ONE);
   gl.bindBuffer(gl.ARRAY_BUFFER, quad); gl.enableVertexAttribArray(0); gl.vertexAttribPointer(0, 2, gl.FLOAT, false, 0, 0); gl.vertexAttribDivisor(0, 0);
@@ -425,7 +441,7 @@ function plate2d(S, cx, cy) {
   if (g1[3] > .5) { var w = w2s(g0[0], g0[1], S); x = w[0] * DPR; y = w[1] * DPR; hs = g0[2] * S.zoom * uu; ang = -S.rot - g0[3]; }
   else { x = cx + g0[0] * uu; y = cy - g0[1] * uu; hs = g0[2] * uu; ang = -g0[3]; }
   var asp = disc ? 1 : g1[2], al = Math.min(1, g1[0] * (1 + g1[1] * .5)) * S.fade;
-  function img(m, a, clip) { c2.save(); c2.translate(x, y); c2.rotate(ang); c2.globalAlpha = a; if (clip) clip(); else if (disc) { c2.beginPath(); c2.arc(0, 0, hs * .9, 0, TAU); c2.clip(); }
+  function img(m, a, clip) { c2.save(); c2.translate(x, y); c2.rotate(ang); c2.globalAlpha = a; if (clip) clip(); else if (disc || S.pA2[3] > 0) { c2.beginPath(); c2.arc(0, 0, hs * (disc ? .9 : .92), 0, TAU); c2.clip(); }
     c2.drawImage(m.el, -hs * asp, -hs * (1 + (disc ? .026 : 0)), 2 * hs * asp, 2 * hs); c2.restore(); }
   c2.globalCompositeOperation = S.pA2[1] > .5 ? 'source-over' : 'lighter';
   if (pm === 1) img(A, al);
@@ -452,31 +468,107 @@ function fallback2d(S) {
   c2.globalAlpha = 1;
 }
 
-/* ---------- captions: real text, transforms and opacity only ---------- */
+/* ---------- captions: real text; transform, opacity and filter only. The Focus Pull (FILM-MOTION-AND-PLATES.md section 4):
+   every caption comes into focus phrase by phrase and leaves by going out of focus, drifting a few pixels toward the one light.
+   capState(i, t) is pure: the same time always gives the same styles. ---------- */
 var CAPS = D.caps, capEl = [$('capA'), $('capB')], capCur = [-1, -1], pool = $('pool');
-function capBuild(el, c) {
-  var h = '', i, g = c.g;
-  for (i = 0; i < g.length; i++) h += '<span class="g' + (c.qn ? (i < c.qn ? ' q' : ' x') : '') + '">' + g[i] + '</span>' + (i < g.length - 1 ? ' ' : '');
-  el.innerHTML = h; el.className = 'cap' + (c.big ? ' big' : '') + (c.long ? ' long' : '');
-  el._g = el.querySelectorAll('.g');
+var CV = F.curves = { focus: bez(.16, 1, .3, 1), fade: bez(.33, 0, .2, 1), out: bez(.5, 0, .75, 0), copy: bez(.45, 0, .55, 1), sweep: bez(.45, 0, .55, 1) };
+var capM = null, emCache = {};
+function capClass(c) { return 'cap' + (c.big ? ' big' : '') + (c.long ? ' long' : ''); }
+function emOf(c) {                            // the caption's font size in px, for this layout (read once, cached)
+  var key = capClass(c) + W + 'x' + H; if (emCache[key]) return emCache[key];
+  if (!capM) { capM = d.createElement('p'); capM.id = 'capM'; capM.setAttribute('aria-hidden', 'true'); capM.style.visibility = 'hidden'; capM.textContent = 'M'; $('stage').appendChild(capM); }
+  capM.className = capClass(c); return (emCache[key] = parseFloat(getComputedStyle(capM).fontSize) || 40);
 }
+function capBuild(el, c) {
+  var h = '', i, g = c.g, sp = '';
+  for (i = 0; i < g.length; i++) { var cl = c.qn ? (i < c.qn ? ' q' : ' x') : ''; h += '<span class="g' + cl + '">' + g[i] + '</span>' + (i < g.length - 1 ? ' ' : ''); sp += '<span class="h">' + g[i] + '</span>' + (i < g.length - 1 ? ' ' : ''); }
+  if (c.v === 'P') h += '<span class="lp" aria-hidden="true">' + sp + '</span>';     // the PEAK light pass: a lit copy under a moving mask
+  el.innerHTML = h; el.className = capClass(c);
+  el._g = el.querySelectorAll('.g'); el._lp = el.querySelector('.lp'); el._key = '';
+}
+function capGeo(el) {                         // caption centre and width, in CSS px (layout only, no transforms); cached per layout
+  var k = W + 'x' + H; if (el._key !== k) { el._key = k; el._cx = el.offsetLeft; el._cy = el.offsetTop; el._w = el.offsetWidth; } return el;
+}
+function exitDir(S, cx, cy) {                 // unit vector toward the film light, never downward; straight up when there is no light
+  if (!(S.light > .01)) return [0, -1];
+  var lx = W * S.cxf + S.lx * U - cx, ly = H * CYF - S.ly * U - cy; if (ly > 0) ly = 0; var l = Math.sqrt(lx * lx + ly * ly);
+  return l < 1 ? [0, -1] : [lx / l, ly / l];
+}
+function capState(i, t, em, dir) {
+  var c = CAPS[i], n = c.g.length, v = c.v, R = { v: v, o: 1, b: 0, x: 0, y: 0, s: 1, br: 1, g: [], lp: -1 }, k, u, e, lowT = tier === 2;
+  if (RM) {                                   // reduced motion: a plain fade, nothing moves
+    R.o = clamp((t - c.t0) / .4, 0, 1) * (1 - clamp((t - c.t1) / .3, 0, 1));
+    for (k = 0; k < n; k++) R.g.push({ o: 1, b: 0, y: 0, sx: 1 }); return R;
+  }
+  if (v === 'S') {                            // the STOP line: everything stops; only the words appear
+    R.o = clamp((t - c.t0) / .9, 0, 1) * (1 - CV.out((t - c.t1) / c.out));
+    for (k = 0; k < n; k++) R.g.push({ o: 1, b: 0, y: 0, sx: 1 }); return R;
+  }
+  var stag = clamp(.55 * c.say / n, .12, .42) * (v === 'P' ? 1.3 : v === 'F' ? 1.5 : 1), qn = v === 'Q' ? c.qn : n, gs = 0;
+  if (v === 'Q' && qn < n) gs = c.t0 + (qn - 1) * stag + capReady(em, 'O') + .22;   // the grey copy arrives after the gold original reads
+  for (k = 0; k < n; k++) {
+    var G = { o: 1, b: 0, y: 0, sx: 1 };
+    if (k >= qn) { u = (t - gs - (k - qn) * stag) / .42; var cp = CV.copy(u); G.o = cp; G.b = .10 * em * (1 - cp); G.y = -.30 * em * (1 - cp); }
+    else {
+      u = t - c.t0 - k * stag;
+      if (v === 'W') { G.o = CV.fade(u / .3); G.b = .12 * em * (1 - CV.focus(u / .38)); G.y = .18 * em * (1 - CV.focus(u / .48)); }
+      else if (v === 'F') { G.o = CV.fade(u / .8); G.b = .22 * em * (1 - CV.focus(u / 1.15)); G.y = .30 * em * (1 - CV.focus(u / 1.3)); }
+      else { var f9 = CV.focus(u / .9); G.o = CV.fade(u / .52); G.b = .16 * em * (1 - CV.focus(u / .72)); G.y = .30 * em * (1 - f9); G.sx = 1 + .035 * (1 - f9); }
+    }
+    if (v === 'Q' && k >= qn && t > c.t1 - .12) G.o *= 1 - CV.out((t - c.t1 + .12) / c.out);   // the copy leaves first; the original is the last thing seen
+    R.g.push(G);
+  }
+  e = CV.out((t - c.t1) / c.out);
+  if (v === 'W') R.o = 1 - e;
+  else if (e > 0) {
+    R.o = 1 - e; R.s = 1 - .015 * e; var dd = .14 * em * e; R.x = dir[0] * dd; R.y = dir[1] * dd;
+    if (v === 'F' && c.out > 1) { R.b = .30 * em * e; R.br = 1 + .35 * e; } else R.b = .10 * em * e;   // the last question exits into the light
+  }
+  if (v === 'P' && !lowT && D.marks[c.pk] != null) { u = (t - D.marks[c.pk] + .45) / .9; if (u > 0 && u < 1) R.lp = CV.sweep(u); }
+  var cap = lowT ? 0 : tier === 1 ? 4 : 6, nb = 0;           // filter budget: at most six blurred spans (four on the reduced tier, none on low)
+  for (k = 0; k < n; k++) { var gg = R.g[k]; if (gg.b > .124) { if (nb < cap) nb++; else gg.b = 0; } }
+  if (lowT) { R.b = 0; R.br = 1; }
+  return R;
+}
+var readyC = {};
+function capReady(em, v) {                    // seconds from a group's start until it reads (blur at or under 1.5 px, opacity at or above 0.9)
+  var key = v + em; if (readyC[key] != null) return readyC[key];
+  for (var s = 0; s < 3; s += .005) { var b = v === 'F' ? .22 * em * (1 - CV.focus(s / 1.15)) : .16 * em * (1 - CV.focus(s / .72)), o = v === 'F' ? CV.fade(s / .8) : CV.fade(s / .52); if (b <= 1.5 && o >= .9) break; }
+  return (readyC[key] = s);
+}
+function px(v) { return Math.round(v * DPR) / DPR; }
+function blurCss(b, br) { b = Math.round(b * 4) / 4; return (b > 0 ? 'blur(' + b + 'px)' : '') + (br > 1.001 ? (b > 0 ? ' ' : '') + 'brightness(' + br.toFixed(3) + ')' : '') || 'none'; }
+function poolAt(t) {                          // the dark ground: before the words, held between captions closer than 1.2 s, gone with the last word
+  var i, c, best = 0;
+  for (i = 0; i < CAPS.length; i++) { c = CAPS[i]; if (t < c.t0 - .45) break; var nx = CAPS[i + 1], end = c.t1 + c.out;
+    if (t < c.t0) best = Math.max(best, sm((t - c.t0 + .45) / .38));
+    else if (t <= c.t1) best = 1;
+    else if (nx && nx.t0 - end < 1.2 && t < nx.t0) best = 1;
+    else if (t < end) best = Math.max(best, 1 - (c.v === 'S' ? CV.out((t - c.t1) / c.out) : CV.out((t - c.t1) / c.out))); }
+  return best;
+}
+F.capState = function (i, t) {               // for the gate: the pure caption state at any time
+  var S2 = F.shots.state(t, {}), el = capEl[i % 2], c = CAPS[i];
+  if (capCur[i % 2] !== i) { capBuild(el, c); capCur[i % 2] = i; }
+  capGeo(el); var R = capState(i, t, emOf(c), exitDir(S2, el._cx, el._cy)); R.em = emOf(c); R.ready = capReady(emOf(c), c.v === 'F' ? 'F' : 'O'); return R;
+};
 function captions(t) {
-  var i, c, slot, shown = [false, false], best = 0;
+  var i, c, slot, shown = [false, false];
   for (i = 0; i < CAPS.length; i++) {
-    c = CAPS[i]; if (t < c.t0 - .45 || t > c.t1 + c.out) continue;
-    if (t < c.t0 - .05) { best = Math.max(best, sm((t - c.t0 + .45) / .38)); continue; }   // the dark ground arrives before the words, never after them
+    c = CAPS[i]; if (t < c.t0 - .05 || t > c.t1 + c.out) continue;
     slot = i % 2; shown[slot] = true;
     var el = capEl[slot]; if (capCur[slot] !== i) { capBuild(el, c); capCur[slot] = i; }
-    var age = t - c.t0, left = c.t1 + c.out - t, o = 1, y = 0, sc = 1, n = el._g.length, k, gi, ge;
-    if (left < c.out) { var e = 1 - left / c.out; e = E.in2(e); o = 1 - e; y = -34 * e; sc = 1 - .05 * e; }
-    el.style.opacity = o.toFixed(3);
-    el.style.transform = 'translate3d(-50%,' + (Math.round(y * DPR) / DPR) + 'px,0) scale(' + sc.toFixed(4) + ')';
-    var per = Math.min(.5, Math.max(.16, (c.t1 - c.t0) * .5 / n));
-    for (k = 0; k < n; k++) { gi = clamp((age - k * per) / .7, 0, 1); ge = E.out3(gi); var s = el._g[k].style; s.opacity = ge.toFixed(3); s.transform = 'translate3d(0,' + (Math.round((1 - ge) * 16 * DPR) / DPR) + 'px,0)'; }
-    best = Math.max(best, o);
+    capGeo(el); var R = capState(i, t, emOf(c), exitDir(S, el._cx, el._cy)), k, st = el.style;
+    st.opacity = R.o.toFixed(3);
+    st.transform = 'translate3d(calc(-50% + ' + px(R.x) + 'px),' + px(R.y) + 'px,0)' + (R.s !== 1 ? ' scale(' + R.s.toFixed(4) + ')' : '');
+    st.filter = blurCss(R.b, R.br);
+    for (k = 0; k < el._g.length; k++) { var G = R.g[k], s = el._g[k].style; s.opacity = G.o.toFixed(3);
+      s.transform = G.y || G.sx !== 1 ? 'translate3d(0,' + px(G.y) + 'px,0)' + (G.sx !== 1 ? ' scaleX(' + G.sx.toFixed(4) + ')' : '') : 'none'; s.filter = blurCss(G.b, 1); }
+    if (el._lp) { var lp = el._lp.style; if (R.lp >= 0) { var w = el._w, toL = (W * S.cxf + S.lx * U) < el._cx, pos = toL ? lerp(w, -.4 * w, R.lp) : lerp(-.4 * w, w, R.lp); lp.opacity = '1'; lp.webkitMaskPosition = lp.maskPosition = px(pos) + 'px 0'; } else lp.opacity = '0'; }
   }
-  for (slot = 0; slot < 2; slot++) if (!shown[slot] && capCur[slot] !== -1) { capEl[slot].style.opacity = 0; capCur[slot] = -1; }
-  pool.style.opacity = (best * (S.poolk == null ? 1 : S.poolk)).toFixed(3);
+  for (slot = 0; slot < 2; slot++) if (!shown[slot] && capCur[slot] !== -1) { capEl[slot].style.opacity = 0; capEl[slot].style.filter = 'none'; capCur[slot] = -1; }
+  pool.style.opacity = (poolAt(t) * (S.poolk == null ? 1 : S.poolk)).toFixed(3);
 }
 
 /* ---------- the end: "Enter the map" is part of the picture, a function of time like everything else ---------- */

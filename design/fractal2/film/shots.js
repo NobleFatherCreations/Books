@@ -450,8 +450,8 @@ function section7(t, S, d) {
   }
   if (t >= sh1.t0 - .3) {                      // shedding: the inversions lift off, one at a time; the last come away in pieces
     for (i = 0; i < 30; i++) { var t0 = sh1.t0 + i * (bt.t0 - 2.4 - sh1.t0) / 30, u = (t - t0) / 2.6; if (u <= 0 || u >= 1) continue;
-      var word = PAIRS[i][1], px = cx + (h1(i * 7.7) - .5) * U * (d.PORT ? .9 : 1.3), py = cy + U * .5 - E.out2(u) * U * 1.25, pieces = t0 >= sh3.t0 - .6 ? 1 : 0; a = Math.min(1, u / .2) * (1 - sm((u - .5) / .5));
-      F.text(word, px, py, fit(word, U * .15, d.W * .8), [.93, .88, .78, a * .8], { soft: u * .9, fx: pieces ? function (k, n, o) { var e = E.out2(u); o.dx = (h1(k * 3.1 + i) - .5) * U * .9 * e; o.dy = (h1(k * 5.9 + i) - .2) * U * .5 * e; } : null }); }
+      var word = PAIRS[i][1], px = cx + (h1(i * 7.7) - .5) * U * (d.PORT ? .9 : 1.3), py = cy + U * .5 - E.out2(u) * U * 1.25, pieces = t0 >= sh3.t0 - .6 ? 1 : 0, dsh = sm((u - .42) / .5); a = Math.min(1, u / .2) * (dsh >= 1 ? 0 : 1);
+      F.text(word, px, py, fit(word, U * .15, d.W * .8), [.93, .88, .78, a * .8], { fx: function (k, n, o) { if (pieces) { var e = E.out2(u); o.dx = (h1(k * 3.1 + i) - .5) * U * .9 * e; o.dy = (h1(k * 5.9 + i) - .2) * U * .5 * e; } if (dsh > 0) o.soft = -dsh; } }); }
   }
 }
 function section10(t, S, d) {
@@ -463,7 +463,7 @@ function section10(t, S, d) {
 var TNAME = ['', 'The Debt Prison', 'The Golden Cage', 'The Trauma Bond Engine'];
 function section11(t, S, d) {
   var q9 = Math.min(2.999, (t - x9.t0) / ((x9.say + 1) / 3)), k = 1 + Math.floor(q9), f = q9 % 1, a = sm(f / .25) * (1 - sm((f - .82) / .18)), c = F.w2s(0, LR5 * 1.0, S), sz = fit(TNAME[k], d.U * .2, d.W * .86);
-  F.text(TNAME[k], c[0], Math.max(sz * 1.1, c[1] - sz * .75), sz, [1, .88, .6, a]);
+  var len = (x9.say + 1) / 3; F.text(TNAME[k], c[0], Math.max(sz * 1.1, c[1] - sz * .75), sz, [1, .88, .6, 1], { fx: F.wordFx(TNAME[k], f * len, sz, { left: (1 - f) * len - .1 }) });
   if (F.rec) F.rec[F.rec.length - 1].mapTop = c[1];                     // for the gate: the name must sit above the map's outer words
 }
 function section8(t, S, d) {
@@ -476,7 +476,7 @@ function section8(t, S, d) {
     for (j = 0; j < n; j++) { var w = F.measure(lines[j], sz, sz * .12), lx, ly;
       if (al === 2) { lx = clamp(mx, 16 + wm / 2, RX - wm / 2); ly = top ? my - sz * 1.15 - (n - 1 - j) * sz * 1.2 : my + sz * 1.9 + j * sz * 1.2; }
       else { lx = al < 0 ? Math.min(mx + sz, RX - w) : al > 0 ? Math.max(mx - sz, 16 + w) : mx; ly = (al ? my + sz * .35 + (cs < -.3 ? sz * 1.1 : cs > .3 ? -sz * .9 : 0) : my - sz * 1.2 - (n - 1) * sz * 1.2) + j * sz * 1.2 - (al ? (n - 1) * sz * .6 : 0); }
-      F.text(lines[j], lx, ly, sz, [1, .88, .62, a * .95], { align: al === 2 ? 0 : al, track: sz * .12 }); } }
+      F.text(lines[j], lx, ly, sz, [1, .88, .62, .95], { align: al === 2 ? 0 : al, track: sz * .12, fx: F.wordFx(lines[j], t - mkT[i] - .3, sz, { row: j }) }); } }
 }
 function section6(t, S, d) {
   var c = F.w2s(0, 0, S), cx = c[0], cy = c[1], U = d.U, mw = Math.min(d.W * .86, d.PORT ? d.W : d.W * .54), i, u, a, sz;
@@ -484,10 +484,11 @@ function section6(t, S, d) {
     for (i = 7; i >= 0; i--) if (t >= invT[i][0]) break; if (i < 0) return; u = (t - invT[i][0]) / invT[i][1]; if (u > 1.15) return;
     var flip = sm((u - .34) / .16), out = 1 - sm((u - 1) / .15), topm = cy - .887 * S.zoom * U, lh = Math.min(U * .26, (topm - 14) / 3.1), y3 = topm - lh * 2.25, en3 = Math.min(1, u / .12) * out;
     sz = Math.min(fit(INV[i][0], lh * .82, mw), lh * .82);
-    F.text(INV[i][0], cx, y3, sz, [1, .84, .52, en3 * lerp(1, .86, flip)], { fx: function (k, n, o) { o.dy = (1 - E.out3(Math.min(1, u / .2))) * sz * .25; } });
+    var left3 = invT[i][0] + invT[i][1] * 1.15 - t;
+    F.text(INV[i][0], cx, y3, sz, [1, .84, .52, lerp(1, .86, flip)], { fx: F.wordFx(INV[i][0], t - invT[i][0], sz, { left: left3 }) });
     F.text('becomes', cx, y3 + lh * .82, lh * .4, [.953, .925, .851, .8 * flip * out], { track: lh * .1 });
     sz = Math.min(fit(INV[i][1], lh * .9, mw), lh * .9);
-    if (flip > 0) F.text(INV[i][1], cx, y3 + lh * 1.85, sz, [.86, .89, .96, flip * out], { fx: function (k, n, o) { o.sy = Math.sin(flip * Math.PI / 2); } });
+    if (flip > 0) { var cf = F.wordFx(INV[i][1], t - invT[i][0] - .34 * invT[i][1], sz, { left: left3, kind: 'copy' }); F.text(INV[i][1], cx, y3 + lh * 1.85, sz, [.86, .89, .96, Math.min(1, flip * 1.4)], { fx: function (k, n, o, gx, gy, ci) { cf(k, n, o, gx, gy, ci); o.sy = Math.sin(flip * Math.PI / 2); } }); }
     return;
   }
   if (t < T4b) {                               // table 4: gold meets its reflection at the glass
@@ -501,8 +502,8 @@ function section6(t, S, d) {
     return;
   }
   if (t >= nameT0 - .2 && t < nm.t1 + .8) {     // the names: one place, one size, each melting into the next
-    for (i = 0; i < 6; i++) { u = (t - nameT0 - i * nameD) / nameD; if (u < -.02 || u > (i === 5 ? 2.2 : 1.02)) continue; a = sm(u / .2) * (i === 5 ? 1 - sm((u - 1.5) / .7) : 1 - sm((u - .82) / .2));
-      sz = fit(NAMES[i], U * .3, mw); F.text(NAMES[i], cx, cy - U * .62, sz, [GREY[0], GREY[1], GREY[2], a], { soft: (1 - a) * 1.2 }); }
+    for (i = 0; i < 6; i++) { u = (t - nameT0 - i * nameD) / nameD; if (u < -.02 || u > (i === 5 ? 2.2 : 1.02)) continue; var dn = i === 5 ? sm((u - 1.5) / .7) : sm((u - .8) / .22);   // each name dissolves to dust as the next forms in its place
+      sz = fit(NAMES[i], U * .3, mw); F.text(NAMES[i], cx, cy - U * .62, sz, [GREY[0], GREY[1], GREY[2], dn >= 1 ? 0 : 1], { fx: F.wordFx(NAMES[i], u * nameD, sz, { dust: dn }) }); }
     return;
   }
   if (t >= T6a + 1 && t < T6b + .8) {           // table 6: what was here first
@@ -513,7 +514,8 @@ function section6(t, S, d) {
     ty = d.PORT ? d.H * .76 - (lines.length - 1) * s2 * .56 : d.H * .5 - (lines.length - 1) * s2 * .56;
     var kk = Math.max(12, s1 * .8);
     F.text(('0' + (i + 1)).slice(-2) + '  ' + SECT[i].name.toUpperCase(), tx, ty - s2 * 1.25, kk, [.75, .79, .87, a * .95], { track: kk * .28, align: al6 });
-    for (j = 0; j < lines.length; j++) F.text(lines[j], tx, ty + s2 * (.3 + j * 1.12), s2, [1, .86, .56, a], { align: al6 });
+    var slow6 = impT[i][1] > 1.2;
+    for (j = 0; j < lines.length; j++) F.text(lines[j], tx, ty + s2 * (.3 + j * 1.12), s2, [1, .86, .56, slow6 ? 1 : a], { align: al6, fx: slow6 ? F.wordFx(lines[j], t - impT[i][0], s2, { row: j, left: impT[i][0] + impT[i][1] - t }) : null });
   }
 }
 function section5(t, S, d) {
@@ -522,8 +524,8 @@ function section5(t, S, d) {
   for (i = 0; i < items.length; i++) {
     it = items[i]; if (t < it[0] || t > it[1] + .5) continue; a = Math.min(1, (t - it[0]) / .45) * Math.min(1, Math.max(0, (it[1] + .5 - t) / .5));
     p = F.w2s(0, it[3], S); if (it[3] * S.zoom * d.U < d.U * .16) continue;
-    if (it[4]) { sz = d.U * .078; F.text(it[2], p[0], it[4] === 2 ? p[1] + sz * 1.5 : Math.max(sz * 1.6, p[1] - sz * .7), sz, [1, .84, .52, a], { track: sz * .34 }); }
-    else { sz = d.U * .2; F.text(it[2], p[0], Math.max(sz * 1.3, p[1] - sz * .55), sz, [1, .93, .78, a], { fx: function (k, n, o) { o.dy = (1 - E.out3(Math.min(1, (t - it[0]) / .5))) * sz * .2; } }); }
+    if (it[4]) { sz = d.U * .078; F.text(it[2], p[0], it[4] === 2 ? p[1] + sz * 1.5 : Math.max(sz * 1.6, p[1] - sz * .7), sz, [1, .84, .52, 1], { track: sz * .34, fx: F.wordFx(it[2], t - it[0], sz, { left: it[1] + .5 - t }) }); }
+    else { sz = d.U * .2; F.text(it[2], p[0], Math.max(sz * 1.3, p[1] - sz * .55), sz, [1, .93, .78, 1], { fx: F.wordFx(it[2], t - it[0], sz, { left: it[1] + .5 - t }) }); }
   }
 }
 /* ---------- plates: the owner's images, lit by the one light, moved by the camera (engine: uPA*, uSeam, uBd, uDisF, uBkT) ---------- */
@@ -561,11 +563,11 @@ function plates(t, S) {
   }
   if (t >= RINGS[0] && t < RINGS[3]) {          // the generations: growth rings, the newest map at their centre
     a = win(t, RINGS[0], RINGS[1], RINGS[2], RINGS[3]);
-    S.pm = 1; S.pa = 'p:rings'; v4(PL.A0, S.camx * .2, S.camy * .2, 5.6, .018 * (t - RINGS[0])); v4(PL.A1, .5 * a, 1.1, 1, 1); return;
+    S.pm = 1; S.pa = 'p:rings'; v4(PL.A0, S.camx * .2, S.camy * .2, 5.6, .018 * (t - RINGS[0])); v4(PL.A1, .5 * a, 1.1, 1, 1); v4(PL.A2, 1, 0, 0, .15); return;
   }
   if (t >= CITY[0] && t < CITY[3]) {            // section 5: the far larger map the first one becomes the hub of; it moves at 0.6 of the camera
     a = win(t, CITY[0], CITY[1], CITY[2], CITY[3]); var zf = ZF(); h = 16 * zf * Math.pow(S.zoom / zf, .6);
-    S.pm = 1; S.pa = 'p:city'; v4(PL.A0, -S.camx * Math.pow(S.zoom, .6), -S.camy * Math.pow(S.zoom, .6), h, S.rot); v4(PL.A1, .38 * a, 1.1, 1, 0); return;
+    S.pm = 1; S.pa = 'p:city'; v4(PL.A0, -S.camx * Math.pow(S.zoom, .6), -S.camy * Math.pow(S.zoom, .6), h, S.rot); v4(PL.A1, .38 * a, 1.1, 1, 0); v4(PL.A2, 1, 0, 0, .15); return;
   }
   if (t >= BAND[0] && t < BAND[1]) {            // table 3: each ring shows its gold original, then turns over to the grey stage (the twin plate, drained)
     S.pm = 4; S.pa = 'p:fractal-8'; S.pb = 'p:frequency-8'; v4(PL.A1, 1.7, .9, 1, 1); v4(PL.A2, 4, 0, 1.25, 0); var off = 1 - sm((t - BAND[1] + .6) / .6);
@@ -582,11 +584,11 @@ function plates(t, S) {
   }
   if (t >= SKY[0] && t < SKY[3]) {              // section 8: the sky behind the markers; one of its rings carries them
     a = win(t, SKY[0], SKY[1], SKY[2], SKY[3]); var rr = d.PORT ? .7 : .62;
-    S.pm = 1; S.pa = 'p:sky'; v4(PL.A0, -S.camx * S.zoom * .4, -S.camy * S.zoom * .4, rr / .56, .006 * (t - SKY[0])); v4(PL.A1, .55 * a, .9, 1, 0); return;
+    S.pm = 1; S.pa = 'p:sky'; v4(PL.A0, -S.camx * S.zoom * .4, -S.camy * S.zoom * .4, rr / .5, .006 * (t - SKY[0])); v4(PL.A1, .55 * a, .9, 1, 0); v4(PL.A2, 1, 0, 0, .45); return;
   }
   if (t >= FREQ[0] && t < FREQ[3]) {            // section 9: the light holds; a faint Frequency layer turns behind it and answers each "you're right"
     a = win(t, FREQ[0], FREQ[1], FREQ[2], FREQ[3]); var pl = 0, pi; for (pi = 0; pi < pulseT.length; pi++) { var up = (t - pulseT[pi]) / 1.5; if (up > 0 && up < 1) pl = Math.max(pl, Math.pow(1 - up, 2)); }
-    S.pm = 1; S.pa = 'p:frequency'; v4(PL.A0, S.lx, S.ly, d.PORT ? 1.12 : 1.35, .0087 * (t - FREQ[0])); v4(PL.A1, .15 * a * (1 + .04 * pl), .25, 1, 0); return;
+    S.pm = 1; S.pa = 'p:frequency'; v4(PL.A0, S.lx, S.ly, d.PORT ? 1.12 : 1.35, .0087 * (t - FREQ[0])); v4(PL.A1, .15 * a * (1 + .04 * pl), .25, 1, 0); v4(PL.A2, 1, 0, 0, .3); return;
   }
   if (t >= DIS[0] && t < DIS[3]) {              // section 10: as the blocks lift, the dark twin turns to the light one, band by band from the centre out
     a = win(t, DIS[0], DIS[1], DIS[2], DIS[3]); var lifted = 0; for (k = 0; k < 30; k++) lifted += sm((t - bkLeave(k)) / .9);
