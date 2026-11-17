@@ -455,3 +455,60 @@ Deviations:
 9. **Rings plate** carries the generations (section 4) as growth rings centred on the newest map; **city** is the far map behind
    the pull-back of section 5 at 0.6 of camera speed; **shaft** falls in section 7 at x0.87 x0.78; **basalt** is the block
    material in section 10 (per block offset and turn, so no two blocks share a face).
+
+---
+
+## 9. As built (2026-11-17, round 5): the audit's fix spec (AUDIT-2026-11-17.md)
+
+Supersedes section 8 wherever they differ. The bar is now that a person can see each plate as itself, measured on real frames.
+
+**Hero plate layer.** `engine.js` `hero()` in the scene shader, two slots (`uHa..uHd`, textures `tH0`/`tH1`), placed in screen
+pixels by `shots.js` `heroes(t, S)`: centre, half-size, angle, strength, mask (rect, disc, twin disc), brightness, radial reveal,
+radial grade, under or over the owner's map, map registration (`reg`, blended by `regk`) and a band-by-band morph that uncovers
+the map underneath. Plates and the window stone write a bloom mask (scene alpha), and the bright pass honours it, so a plate never
+blooms and the light's glow stays inside it. During every hero hold `lightTo()` puts the one light in the plate's hollow at 40%
+intensity with its glow inside band 1. 2D fallback: `hero2d()`. Test switches unchanged (`FILM.opt.noplate` turns heroes and the
+window off too). `FILM.heroGeo()` reports the geometry the gate warps the plates to; `FILM.shots.HEROES` lists each scene's role
+and hold.
+
+Where (film seconds on the current clock; anchors by caption):
+| Scene | Plate | Layout | Strength |
+|---|---|---|---|
+| Entry | fractal-8 alone on black, gold point lit as the light | phone 0.62 short side at (0.5 W, 0.40 H); desktop 0.50 short side at (0.5 W, 0.32 H) | 1.0 |
+| Launch 0-3 s | the camera falls into the hollow; the gold point becomes section 1's light | | |
+| STOP split 238.4-247 | fractal-8 / frequency-8, seam sweep, held 4.4 s | 0.86 W phone, 0.70 short side desktop, at the light | 1.0 both |
+| Mirror 246-262 | whole mirror, frame and all; the map inside at about 0.55 of its width | 0.92 W / 0.88 H | 0.9 (x1.9 brightness: the plate is near black) |
+| Rings 261-309 | whole disc, newest map small at its centre for 8 s before the generations and the camera move | 1.0 short side | 0.75 |
+| City 312-368 | whole city; the logo layers and the thirty rooms step back for the hold; 0.45 under table 2 | 0.9 short side | 1.0 |
+| Counterfeit pair 486-499 | fractal-8, then frequency-8 beside it, held to 497.4; table 6 starts at 498.4 and runs to 510.5 | desktop 0.26 W each at 0.155/0.445 W; phone 0.47 W each at 0.26/0.74 W, 0.36 H | 1.0 |
+| Sky 576-681 | read once at 0.78 for 9.5 s, then 0.45 behind the markers | 0.95 short side | |
+| Frequency circle 678-717 | radial reveal, pulse on each "you're right", darkens to black | desktop 0.62 short side at 0.28 W; phone 0.86 W at 0.32 H | 0.95 |
+| Window 717-777 | see below | | |
+| Section 11 841-960 | fractal-8 centred on the light, chain on its band 4/5 hairline, sinking into the hollow on "dissolves" | 0.80 short side | 0.82 |
+| Section 11 958-1031 | mirror, whole, the light inside it | 0.80 H / 0.90 W | 0.88 |
+| Section 11 1030-1083 | frequency-8 returns band by band over 12 s, full by "so they can never again hide"; then becomes the map ring for ring as the camera pulls back for the thirty rooms | as the window hold | 0.75 to 1.0 |
+
+**The window.** One basalt wall (the plate at cover scale, gain 1.7, partly desaturated) with an arched opening (desktop 0.44 W x 0.78 H at
+0.28 W; phone 0.86 W x 0.50 H at 0.32 H) and a lit reveal. Thirty blocks dry-stacked in courses (6 x 5 desktop, 8 courses of 4/3 on
+phones), widths 0.5x to 1.65x, every block sampling the same stone at its own place. Warm light shows in every joint from 717 s.
+Blocks lift top course first (three during "I descended", then 27 from "I only moved" to PEAK3 minus 1 s): each one's name shows on
+its face 0.5 s (cream, a dark upper edge, 16 px or more, two at most at once), it slides toward the camera and falls out of frame,
+its hole shows frequency-8 and spills light onto the stone. The wall dissolves on "My original frequency."; frequency-8 moves to
+the stage and is held, graded and pulsing once on "Pulsing"; at 773-777 it moves onto the owner's map, registers ring for ring
+and its bands open from the centre out, so the light original becomes the map.
+
+Deviations from the audit:
+1. Desktop entry disc 0.50 short side (not 0.62) so the title, Begin and the footer fit in 900 px.
+2. Engraved names are cream with a dark edge (not dark ink): dark ink on dark basalt cannot reach 4.5:1.
+3. The light twin's desktop stage is 0.28 W (not 0.30 W) so its rim sits left of the caption gutter the old window-light check measures.
+4. Section 11: frequency-8 is held to "It will take me a lifetime" (1080.6 s), not 1095 s, so the kept ending (the rooms lighting one by one) stays.
+5. Fractal-8 in section 11 at 0.82 (not 0.70), to clear the effective-strength check (0.75).
+6. Recognizability is measured at 256 px across the plate's own footprint (cropped), not across the whole screen, with a 1 px blur
+   before Sobel; at screen scale a 180 px plate on a phone is about 55 px and thin rings alias. Stone is measured at full resolution.
+7. The opening was kept as specified (fractal-8 alone): on stills it reads better than the old emblem (title whole, nothing behind it).
+
+**Score.** `design/fractal2/film/fit_score.py` (see `design/fractal2/film/score/FIT-REPORT.md`). Web copy
+`/fractal2/_a/film/score.m4a` (AAC 160 kbps, 23 MB), absolute path like the plates, streamed by an `<audio>` element; never loaded in
+`?capture`. The clock follows the audio while sound is on and the audio is playing; when the score stalls or misses a seek the picture
+runs on and the score is sent after it. Sound toggle on the entry and in the controls (on by default). Hub: an optional loop
+(`/fractal2/_a/film/hub.m4a`, 2.8 MB), off by default, loaded only when turned on.

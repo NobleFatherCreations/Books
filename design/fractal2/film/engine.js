@@ -178,7 +178,7 @@ var FS_SCENE = COMMON + [
 '  if(uPoolK>0.)col*=mix(1.-uPoolK,1.,smoothstep(uPoolR*.35,uPoolR,length(q)));',
 '  col*=uDim;',
 '  if(uHb[0].x>0.&&uHc[0].z<.5)hero(tH0,uHa[0],uHb[0],uHc[0],uHd[0],uHL.x,q,col);if(uHb[1].x>0.&&uHc[1].z<.5)hero(tH1,uHa[1],uHb[1],uHc[1],uHd[1],uHL.y,q,col);',
-'  if(uPat.y>0.){float dP=(r-uPat.x)/(px*2.4+uPat.x*.004);col+=mix(gold,vec3(.6,.65,.76),uPatC)*(exp(-dP*dP)*1.+exp(-dP*dP/50.)*.2)*uPat.y;}',
+'  if(uPat.y>0.){float dP=(r-uPat.x)/(px*2.4+uPat.x*.004);col+=mix(gold,vec3(.6,.65,.76),uPatC)*(exp(-dP*dP)*1.+exp(-dP*dP/50.)*.2)*uPat.y*(1.-.6*hcov);}',
 '  if(uLineH.y>0.){float dL=(q.y-uLineH.x)*uUnit/1.3;col+=vec3(.8,.86,1.)*(exp(-dL*dL)*.9+exp(-dL*dL/90.)*.12)*uLineH.y*smoothstep(1.9,.5,abs(q.x));}',
 '  if(uLineV.y>0.){float dL=(q.x-uLineV.x)*uUnit/1.3;col+=vec3(.8,.86,1.)*(exp(-dL*dL)*.7+exp(-dL*dL/90.)*.08)*uLineV.y*smoothstep(2.6,1.2,abs(q.y+.4));}',
 '  if(uFront>0.){float dF=(r-uReveal)/(px*2.2);col+=gold*(exp(-dF*dF)*.85+exp(-dF*dF/60.)*.16)*uFront;}',
@@ -191,7 +191,7 @@ var FS_SCENE = COMMON + [
 '    if(uMkL>0.){vec2 tg=normalize(vec2(-uMk[i].y,uMk[i].x)+1e-5);float al=dot(mq,tg);float ll=uMkR*(od<.5?1.:1.55);vec2 sp=mq-tg*clamp(al,-ll,ll);',
 '      dm=od<.5?abs(length(sp)-uMkR*.62)/(.006+uMkR*.07):max(length(sp)-uMkR*.05,0.)/(.006+uMkR*.07);}',
 '    else dm=uMkR>0.?abs(length(mq)-uMkR)/.011:length(mq)/.03;',
-'    col+=vec3(1.,.9,.72)*uMk[i].z*(exp(-dm*dm)*1.7+.22/(1.+dm*dm*.8))*(uMkL>0.?.62:1.);}}',
+'    col+=vec3(1.,.9,.72)*uMk[i].z*(exp(-dm*dm)*1.7+.22/(1.+dm*dm*.8))*(uMkL>0.?.62*(1.-.55*hcov):1.);}}',
 '  for(int i=0;i<6;i++){vec4 A=uTrA[i];if(A.w>0.){vec4 B=uTrB[i];vec2 dc=q-A.xy;float da=abs(length(dc)-A.z)*uUnit;float an=(atan(dc.y,dc.x)+1.5707963+B.w)/6.2831853;float u=B.y>0.?fract(an+1.):fract(1.-an);',
 '    float on=step(u,B.x)*smoothstep(0.,.004,B.x);float hd=exp(-(B.x-u)*B.z);col+=vec3(1.,.82,.52)*on*A.w*(.55+hd*1.2)*(exp(-da*da/1.4)*.55+exp(-da*da/40.)*.09);}}',
 '  if(uLight.z>0.){vec2 dv=q-uLS;float dl=length(dv)/uLight.y;float an=atan(dv.y,dv.x);',
@@ -616,7 +616,10 @@ F.plate = function () {
     var on = ks.every(function (k) { return gl ? !!TX[k] : !!(IMG[k] && IMG[k].ok); });
     if (!r.pm) { r.pm = 7; r.pa = ks[0]; r.pb = ks[1] || null; r.gpu = on; } else { r.gpu = r.gpu && on; r.pb = r.pb || ks[0]; } }
   return r; };
-F.heroGeo = function () { return { hero: (S.hero || []).map(function (h) { return h ? { k: h.k, x: h.x, y: h.y, r: h.r, ang: h.ang, a: h.a, asp: h.asp, disc: h.disc, dark: h.dark, rev: h.rev, morph: h.morph, reg: h.reg, regk: h.regk, under: h.under } : null; }), win: S.win ? { x: S.win.x, y: S.win.y, hw: S.win.hw, hh: S.win.hh, a: S.win.a, b: Array.from(S.win.b), q: Array.from(S.win.q), labels: S.win.labels || [] } : null }; };
+F.heroGeo = function () {
+  var pl = null; if ((S.pm === 1 || S.pm === 3) && S.pa) { var A0 = S.pA0, A1 = S.pA1, w = A1[3] > .5; var c = w ? w2s(A0[0], A0[1], S) : [W * S.cxf + A0[0] * U, H * CYF - A0[1] * U];
+    pl = { pm: S.pm, pa: S.pa, pb: S.pb, x: c[0], y: c[1], r: A0[2] * U * (w ? S.zoom : 1), ang: A0[3] + (w ? -S.rot : 0), asp: S.pm === 3 ? 1 : A1[2], disc: S.pm === 3 ? 2 : 0, a: A1[0], seam: S.seam[2] / DPR }; }
+  return { pl: pl, hero: (S.hero || []).map(function (h) { return h ? { k: h.k, x: h.x, y: h.y, r: h.r, ang: h.ang, a: h.a, asp: h.asp, disc: h.disc, dark: h.dark, rev: h.rev, morph: h.morph, reg: h.reg, regk: h.regk, under: h.under } : null; }), win: S.win ? { x: S.win.x, y: S.win.y, hw: S.win.hw, hh: S.win.hh, a: S.win.a, b: Array.from(S.win.b), q: Array.from(S.win.q), labels: S.win.labels || [] } : null }; };
 F.capState = function (i, t) {               // for the gate: the pure caption state at any time
   var S2 = F.shots.state(t, {}), el = capEl[i % 2], c = CAPS[i];
   if (capCur[i % 2] !== i) { capBuild(el, c); capCur[i % 2] = i; }

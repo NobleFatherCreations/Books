@@ -122,7 +122,7 @@ function cam45(t) {
   if (key !== K45key) {
     var zf = ZF(), z0 = cam3(g4.t0)[1], zP = d.PORT ? .62 : .6, zI = d.PORT ? .112 : .125, zPat = zf * .8, e = a5.t0, R = -TAU;
     K45 = [[g4.t0, z0, 0, 0, 0], [STOP, z0 * 1.04, 0, 0, 0, E.in2], [STOP + 1.3, z0 * 1.037, 0, 0, 0, E.settle], [m1.t0 + 9.5, d.PORT ? .57 : .62, 0, 0, 0, E.film], [m2.t1, .8, 0, 0, 0, E.lin],
-      [m3.t0 + 5.6, .3, -1.5, 2.3, 0, E.film], [m6.t0, .27, -1.7, 2.6, 0, E.lin], [m6.t0 + 6.4, zf * 1.25, 0, 0, 0, E.film], [a1.t0, zf * 1.3, 0, 0, 0, E.lin],
+      [m3.t0 + 1.5, .3, 0, 0, 0, E.film], [m3.t0 + 9.5, .3, 0, 0, 0], [m3.t0 + 13.6, .3, -1.5, 2.3, 0, E.film],    // the growth rings held whole, the newest map small at their centre, before the generations come [m6.t0, .27, -1.7, 2.6, 0, E.lin], [m6.t0 + 6.4, zf * 1.25, 0, 0, 0, E.film], [a1.t0, zf * 1.3, 0, 0, 0, E.lin],
       [PK1 - .12, 2.4, 0, 0, 0, E.in3], [PK1 + 9.4, zf, 0, 0, R, F.spring(.66, 7.5)], [e - .1, zf * 1.02, 0, 0, R, E.lin],
       [e + 1.5, zP, 0, 0, R, E.film], [e + 2.7, zP, 0, 0, R], [e + 4.3, zI, 0, 0, R, E.film], [a6.t0 - .1, zI, 0, 0, R], [a6.t0 + 1.9, zf, 0, 0, R, E.film], [n1.t0 - .1, zf, 0, 0, R],
       [n1.t0 + 1.5, zI, 0, 0, R, E.film], [n2.t0 - .1, zI, 0, 0, R], [n2.t0 + 1.6, zf, 0, 0, R, E.film], [n3.t0 - .1, zf, 0, 0, R], [n3.t0 + 1.7, zPat, 0, 0, R, E.film], [n4.t0 + .2, zPat, 0, 0, R],
@@ -133,8 +133,8 @@ function cam45(t) {
 }
 var rev4 = track([[STOP + 1.39, 2], [STOP + 1.4, .1], [m1.t0 + 9, .92, E.film], [m7.t0, .92], [m7.t0 + 3, .1, E.io], [PK1 + 3.4, .1], [PK1 + 7, .92, E.out2]]);
 var front4 = track([[STOP + 1.4, 0], [STOP + 2, .7], [m1.t0 + 9, .7], [m1.t0 + 10.5, 0], [m7.t0, 0], [m7.t0 + .3, .6], [m7.t0 + 3, 0], [PK1 + 3.4, 0], [PK1 + 3.8, .8], [PK1 + 7.6, 0]]);
-var genN = track([[m3.t0 + .4, 0], [m3.t0 + 5.6, 6, E.lin]]), genA = track([[m3.t0 + .3, 0], [m3.t0 + .6, 1], [a1.t0 - 3, 1], [a1.t0, 0, E.io]]);
-function genLit(t) { var u = (t - m4.t0 - .2) / 4.6; if (u > 0 && u < 1) return lerp(6.8, -.6, E.io(u)); u = (t - m8.t0 - .1) / 3.2; if (u > 0 && u < 1) return lerp(6.8, -.6, E.io(u)); return -9; }
+var genN = track([[m3.t0 + 9.4, 0], [m3.t0 + 13.6, 6, E.lin]]), genA = track([[m3.t0 + 9.3, 0], [m3.t0 + 9.6, 1], [a1.t0 - 3, 1], [a1.t0, 0, E.io]]);
+function genLit(t) { var u = (t - m4.t0 - 3.4) / 4.6; if (u > 0 && u < 1) return lerp(6.8, -.6, E.io(u)); u = (t - m8.t0 - .1) / 3.2; if (u > 0 && u < 1) return lerp(6.8, -.6, E.io(u)); return -9; }
 var ringDim4 = track([[g4.t0, .32], [STOP - .05, .32], [STOP, 1.7], [STOP + 2.6, 1, E.out2], [m6.t0, 1], [m6.t0 + .1, .4], [a1.t0, .4], [PK1 + 4, .4], [PK1 + 8, 1, E.io]]);
 var lrev5 = track([[PK1 - .1, 0], [PK1 + 4.6, 1.06, E.out2]]), frontl5 = track([[PK1 - .1, 0], [PK1, 1], [PK1 + 4.5, 1], [PK1 + 5.4, 0]]);
 var logoA5 = track([[PK1 - .2, 0], [PK1, 1]]);
@@ -649,8 +649,8 @@ function heroes(t, S) {
   }
   if (t >= CITY[0] && t < CITY[3]) {           // section 5: the city, the far larger map, shown whole; it steps back under table 2
     a = win(t, CITY[0], CITY[1], CITY[2], CITY[3]); var tb = win(t, a5.t0 - .5, a5.t0 + .8, n5.t0, n5.t0 + 1.5), push3 = 1 + .04 * clamp((t - CITY[1]) / (CITY[2] - CITY[1]), 0, 1);
-    Hp(0, 'city', d.W * S.cxf, d.H * d.CYF, .45 * sh * push3, { disc: 0, a: lerp(.92, .45, tb) * a, dark: 1.15, lit: .25, under: 1, ang: -.003 * (t - CITY[0]) });
-    var hide = win(t, PK1 + 1.5, PK1 + 4.5, a5.t0 - 1.5, a5.t0 + .5); S.logo *= 1 - hide; S.emb *= 1 - hide;
+    Hp(0, 'city', d.W * S.cxf, d.H * d.CYF, .45 * sh * push3, { disc: 0, a: lerp(1, .45, tb) * a, dark: 1.3, lit: .25, under: 1, ang: -.003 * (t - CITY[0]) });
+    var hide = win(t, PK1 + 1.5, PK1 + 4.5, a5.t0 - 1.5, a5.t0 + .5); S.logo *= 1 - hide; S.emb *= 1 - hide; S.ringa *= 1 - .9 * hide;
   }
   if (t >= CENTER[0] && t < CENTER[3]) {       // "A counterfeit always comes second. Which means something real was here first.": the twins side by side, held
     var rr = (P ? .235 * d.W : .13 * d.W) / .905, xa = P ? .26 * d.W : .155 * d.W, xb = P ? .74 * d.W : .445 * d.W, yc = P ? .36 * d.H : .5 * d.H;
@@ -663,6 +663,7 @@ function heroes(t, S) {
   }
   if (t >= SKY[0] && t < SKY[3]) {             // section 8: the sky, read once as itself, then quieter behind the markers
     a = win(t, SKY[0], SKY[1], SKY[2], SKY[3]);
+    lightTo(S, d, d.W * S.cxf + S.lx * d.U, d.H * d.CYF - S.ly * d.U, .475 * sh / .905, win(t, SKY[0], SKY[1], tr0.t0 + 9.5, tr0.t0 + 12));
     Hp(0, 'sky', d.W * S.cxf, d.H * d.CYF, .475 * sh / .905, { disc: 1, a: lerp(.78, .45, sm((t - tr0.t0 - 9.5) / 2.5)) * a, dark: 1.6, lit: .3, under: 1, ang: .006 * (t - SKY[0]) });
   }
   if (t >= FREQ[0] && t < FREQ[3]) {           // section 9: the frequency circle, the hero; it answers each "you're right"
