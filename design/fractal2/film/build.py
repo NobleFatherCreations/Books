@@ -140,6 +140,23 @@ def font():
         json.dump(compact, open(js, 'w'), separators=(',', ':'))
     return json.load(open(js))
 
+PLATES = ['dust', 'mirror', 'rings', 'city', 'shaft', 'sky', 'basalt', 'fractal-8', 'frequency-8', 'frequency']
+def plates():
+    """web copies of the owner's plates (masters stay in design/fractal2/film/plates): desktop up to 2048 px, phone/reduced up to 1024 px.
+    Rebuilt only when the master is newer. Returns the assets entries (key 'p:<name>')."""
+    from PIL import Image
+    src = os.path.join(HERE, 'plates'); dst = os.path.join(SITE, '_a/film/plates'); os.makedirs(dst, exist_ok=True); out = {}
+    for n in PLATES:
+        m = os.path.join(src, n + '.png'); pair = []
+        for suf, cap, q in (('', 2048, 80), ('-m', 1024, 78)):
+            f = os.path.join(dst, n + suf + '.webp'); pair.append(A + 'film/plates/' + n + suf + '.webp')
+            if os.path.exists(f) and os.path.getmtime(f) >= os.path.getmtime(m): continue
+            im = Image.open(m).convert('RGB'); k = min(1.0, cap / max(im.size))
+            if k < 1: im = im.resize((round(im.width * k), round(im.height * k)), Image.LANCZOS)
+            im.save(f, 'WEBP', quality=q, method=6)
+        out['p:' + n] = pair
+    return out
+
 def main():
     caps, titles = parse(); SEC, dur, marks = layout(caps)
     chapters = [{'n': n, 'title': titles[n], 't': round(SEC[n], 3)} for n in sorted(titles)]
@@ -148,7 +165,7 @@ def main():
         'caps': [{'t0': c['t0'], 't1': c['t1'], 'say': c['say'], 'out': c['out'], 'g': [html.escape(g, quote=False) for g in groups(c['text'])], 'qn': qn(groups(c['text'])), 'big': c['big'], 'locked': c['locked'], 'long': len(c['text'].split()) > 13, 'sec': c['sec'], 'n': len(c['text'].split()), 'need': c['need'], 'slug': c['slug']} for c in caps],
         'capId': {}, 'chapters': chapters,
         'assets': {'orig': [A + 'v8/img/orig.webp', A + 'v8/img/orig-m.webp'], 'core': [A + 'v8/img/orig-core.webp', A + 'v8/img/orig-core-m.webp'],
-                   'logo': [A + 'v8/img/logo.webp', A + 'v8/img/logo-m.webp'], 'emb': [A + 'v8/img/emblem.webp', A + 'v8/img/emblem-m.webp'], 'font': [A + 'film/voice-msdf.png']},
+                   'logo': [A + 'v8/img/logo.webp', A + 'v8/img/logo-m.webp'], 'emb': [A + 'v8/img/emblem.webp', A + 'v8/img/emblem-m.webp'], 'font': [A + 'film/voice-msdf.png'], **plates()},
         'sectors': [{'name': x['name'], 'relationship': x['relationship']} for x in json.load(open(os.path.join(ROOT, 'content/fractal2/sectors.json')))['sectors']],
         'tables': json.load(open(os.path.join(HERE, 'tables.json'))),
         'tactics': [x['n'] for x in json.load(open(os.path.join(SITE, '_a/d/ent-search.json'))) if x['t'] == 't'],

@@ -228,7 +228,7 @@ shots.state = function (t, S) {
     var a = shots.tau;
     S.zoom = Z0() * (1 + .012 * Math.sin(a * .21) * rm); S.logo = 1; S.words = 2; S.spin = a * .012 * rm; S.hole = .385; S.rings = 3.2; S.dim = .78;
     S.poolr = 1.7; S.poolg = .93; S.orbr = 1.216; S.orba = a * .19; S.orb = 1; S.glint = 1; S.stars = .5; S.dust = .7; S.pt = a; S.vig = .62; S.bloom = 1; S.rays = 0;
-    S.light = 0;
+    S.light = 0; plates(t, S);
     return S;
   }
   var a0 = shots.tau0, z = zoom(t), vz = dlog(zoom, t);
@@ -381,6 +381,7 @@ shots.state = function (t, S) {
   if (t >= T1 && t < c2.t0) { var p1 = path1(t), pk = .9 * sm((t - 5) / 6) * (1 - sm((t - ROAD0) / (ROAD1 - ROAD0))); S.lx = p1[0]; S.ly = p1[1]; trail1(t, S); S.camx += p1[0] * pk / S.zoom; S.camy += p1[1] * pk / S.zoom; }   // the camera leans after the light: near stars slide, far ones barely move
   if (!F.dims().PORT) S.cxf = lerp(.5, .31, cxfK(t));
   if (!F.dims().PORT && fo > 0) { S.zoom *= lerp(1, 1.42 / TOURZ, fo / .78); S.camx += .2 * fo; }
+  plates(t, S);
   return S;
 };
 
@@ -525,7 +526,82 @@ function section5(t, S, d) {
     else { sz = d.U * .2; F.text(it[2], p[0], Math.max(sz * 1.3, p[1] - sz * .55), sz, [1, .93, .78, a], { fx: function (k, n, o) { o.dy = (1 - E.out3(Math.min(1, (t - it[0]) / .5))) * sz * .2; } }); }
   }
 }
-shots.need = function (t) { if (t >= f1.t0 + 12 && t < x1.t0 - 3) return []; return t < 2.5 ? ['logo'] : t < 3.1 ? ['logo', 'orig', 'core'] : t < g1.t0 ? ['orig', 'core'] : t < PK1 - 6 ? ['orig'] : ['orig', 'logo', 'emb']; };
+/* ---------- plates: the owner's images, lit by the one light, moved by the camera (engine: uPA*, uSeam, uBd, uDisF, uBkT) ---------- */
+var PL = { A0: new Float32Array(4), A1: new Float32Array(4), A2: new Float32Array(4), B0: new Float32Array(4), B1: new Float32Array(4), seam: new Float32Array(4), seam2: new Float32Array(4), bd: new Float32Array(16), embd: new Float32Array(4) };
+function v4(a, x, y, z, w) { a[0] = x; a[1] = y; a[2] = z; a[3] = w; }
+function win(t, a, b, c, dd) { return sm((t - a) / (b - a)) * (1 - sm((t - c) / (dd - c))); }     // fade in a..b, out c..d
+function scr(d, S) { return [(.5 - (S.cxf || .5)) * d.W / d.U, (d.CYF - .5) * d.H / d.U]; }              // screen centre, in screen units from the picture centre
+function cover(d, asp, k) { return Math.max(d.H / (2 * d.U), d.W / (2 * d.U * asp)) * k; }
+var DUST = [4, 10, 92, 99], MIR = [STOP + 1.2, STOP + 3.2, m2.t0 + .5, m2.t0 + 3], RINGS = [m3.t0 - .5, m3.t0 + 2.5, a1.t0 - 3, a1.t0 + .5], CITY = [PK1 - 1.5, PK1 + 4, i1.t0 - 1, i1.t0 + 2.5],
+  SHAFT = [PK2 - .4, PK2 + 1.2, FALL1 - 2.4, FALL1 + 1], SKY = [tr0.t0 - 1, tr0.t0 + 6, YR[0].t0 - 1, YR[0].t0 + 2.5], FREQ = [YR[0].t0 - 1, YR[0].t0 + 3, ds.t1 - 1, ds.t1 + 3],
+  SEAM4 = [g4.t0 - .3, g4.t0 + 1.2, STOP + 1.0, STOP + 1.45], BAND = [invT[0][0] - .2, T4a - .3], SEAM6 = [T4a - .3, T4c + .6], DIS = [bkOn - .5, bkOn + 2, PK3 + 2.5, PK3 + 7];
+shots.PLATES = { DUST: DUST, MIR: MIR, RINGS: RINGS, CITY: CITY, SHAFT: SHAFT, SKY: SKY, FREQ: FREQ, SEAM4: SEAM4, BAND: BAND, SEAM6: SEAM6, DIS: DIS };
+function plates(t, S) {
+  var k; for (k in PL) PL[k].fill(0);
+  S.pA0 = PL.A0; S.pA1 = PL.A1; S.pA2 = PL.A2; S.pB0 = PL.B0; S.pB1 = PL.B1; S.seam = PL.seam; S.seam2 = PL.seam2; S.bd = PL.bd; S.embd = PL.embd; S.pm = 0; S.pa = S.pb = S.pc = null; S.bkt = 0; S.disf = 0;
+  var d = F.dims(), sc = scr(d, S), a, h, z;
+  if (t < 0) {                                  // entry: the word rings behind the title sit at 55%, so the title reads cleanly
+    var ts = Math.min(d.W * .205, d.H * .2), tw = F.measure('Fractal', ts, ts * .012) + F.measure('2', ts * .5) * 1.05;
+    v4(PL.embd, 0, (ts * .3 - ts * .32) / -d.U, .55, tw * .65 / d.U); return;
+  }
+  if (t < DUST[3]) {                            // section 1: dust in the dark, two depths, sliding against the walking light
+    a = win(t, DUST[0], DUST[1], DUST[2], DUST[3]); if (a <= 0) return; h = cover(d, 1, 1.25); var cx = S.camx * S.zoom, cy = S.camy * S.zoom;
+    S.pm = 1; S.pa = 'p:dust'; v4(PL.A0, sc[0] - cx * .35 + .004 * t, sc[1] - cy * .35, h, .004 * t); v4(PL.A1, .42 * a, 1.4, 1, 0); v4(PL.A2, 1, 0, .55, 0);
+    v4(PL.B0, sc[0] - cx * .9 - .009 * t, sc[1] - cy * .9 + .003 * t, h * .75, -.006 * t + 1.7); return;
+  }
+  if (t >= SEAM4[0] && t < SEAM4[3]) {          // section 4: the map turns around; its light face looks back. The twins, split by a seam of light
+    a = win(t, SEAM4[0], SEAM4[1], SEAM4[2], SEAM4[3]); h = RW * S.zoom * (d.PORT ? .58 : .6);
+    S.pm = 3; S.pa = 'p:fractal-8'; S.pb = 'p:frequency-8'; v4(PL.A0, S.lx, S.ly, h, 0); v4(PL.A1, .95 * a, .9, 1, 0); v4(PL.A2, 3, a, 0, 0); v4(PL.B1, .52 * a, .35, 1, .3);
+    var ux = d.W * S.cxf + S.lx * d.U, sw = E.io3((t - g4.t0 - .4) / (STOP - g4.t0 - .4)), xs = ux + h * d.U * lerp(1.02, 0, sw);
+    v4(PL.seam, 1, 0, xs * d.DPR, a * sm((t - g4.t0 - .3) / .5)); v4(PL.seam2, 1.5 * d.DPR * .5 + .5, Math.max(1.5, 5 / 1024 * 2 * h * d.U * d.DPR), 0, 0); return;
+  }
+  if (t >= MIR[0] && t < MIR[3]) {              // "the way I spoke to myself": a tarnished mirror behind the map, its sheen follows the light
+    a = win(t, MIR[0], MIR[1], MIR[2], MIR[3]); h = cover(d, 1, 1.4) * (1 + .04 * Math.sin(t * .11)); z = Math.pow(S.zoom / .55, .25);
+    S.pm = 1; S.pa = 'p:mirror'; v4(PL.A0, sc[0] + .06 * Math.sin(t * .07) - S.camx * S.zoom * .3, sc[1] + .04 * Math.cos(t * .05), h * z, -.05 + .012 * (t - MIR[0])); v4(PL.A1, .9 * a, 1.6, 1, 0); return;
+  }
+  if (t >= RINGS[0] && t < RINGS[3]) {          // the generations: growth rings, the newest map at their centre
+    a = win(t, RINGS[0], RINGS[1], RINGS[2], RINGS[3]);
+    S.pm = 1; S.pa = 'p:rings'; v4(PL.A0, S.camx * .2, S.camy * .2, 5.6, .018 * (t - RINGS[0])); v4(PL.A1, .5 * a, 1.1, 1, 1); return;
+  }
+  if (t >= CITY[0] && t < CITY[3]) {            // section 5: the far larger map the first one becomes the hub of; it moves at 0.6 of the camera
+    a = win(t, CITY[0], CITY[1], CITY[2], CITY[3]); var zf = ZF(); h = 16 * zf * Math.pow(S.zoom / zf, .6);
+    S.pm = 1; S.pa = 'p:city'; v4(PL.A0, -S.camx * Math.pow(S.zoom, .6), -S.camy * Math.pow(S.zoom, .6), h, S.rot); v4(PL.A1, .38 * a, 1.1, 1, 0); return;
+  }
+  if (t >= BAND[0] && t < BAND[1]) {            // table 3: each ring shows its gold original, then turns over to the grey stage (the twin plate, drained)
+    S.pm = 4; S.pa = 'p:fractal-8'; S.pb = 'p:frequency-8'; v4(PL.A1, 1.7, .9, 1, 1); v4(PL.A2, 4, 0, 1.25, 0); var off = 1 - sm((t - BAND[1] + .6) / .6);
+    for (k = 0; k < 8; k++) { var u = (t - invT[k][0]) / invT[k][1]; if (u <= 0) continue; PL.bd[k * 2] = Math.min(1, u / .12) * (u < 1 ? .92 : lerp(.92, .45, sm((u - 1) / .15))) * off; PL.bd[k * 2 + 1] = (t - (invT[k][0] + .42 * invT[k][1])) / .6 + .5; }
+    return;
+  }
+  if (t >= SEAM6[0] && t < SEAM6[1]) {          // table 4: the mirror. Light above the glass (where the original stands), dark below (the counterfeit); the rings cross unbroken
+    a = S.lineha; S.pm = 6; S.pa = 'p:fractal-8'; S.pb = 'p:frequency-8'; v4(PL.A0, S.origx, S.origy, 1, 0); v4(PL.A1, .62 * a, .8, 1, 1); v4(PL.A2, 6, a * .9, 0, 0); v4(PL.B1, .34 * a, .5, 1, .4);
+    v4(PL.seam, 0, 1, (1 - d.CYF) * d.H * d.DPR + S.lineh * d.U * d.DPR, .35 * a); v4(PL.seam2, 1.5 * d.DPR * .5 + .5, 5 / 1024 * 2 * S.zoom * d.U * d.DPR, 0, 0); return;
+  }
+  if (t >= SHAFT[0] && t < SHAFT[3]) {          // section 7: the shaft, falling; the walls pass upward. x0.87 to match the original plate
+    a = win(t, SHAFT[0], SHAFT[1], SHAFT[2], SHAFT[3]); var dz = clamp(depth(t) / 56, 0, 1); h = cover(d, .558, 1.12) * (1 + .55 * dz);
+    S.pm = 1; S.pa = 'p:shaft'; v4(PL.A0, sc[0], sc[1] + h * (.04 + .1 * dz) - .05 * h, h, .05 * dz); v4(PL.A1, .87 * .78 * a, .5, .558, 0); return;
+  }
+  if (t >= SKY[0] && t < SKY[3]) {              // section 8: the sky behind the markers; one of its rings carries them
+    a = win(t, SKY[0], SKY[1], SKY[2], SKY[3]); var rr = d.PORT ? .7 : .62;
+    S.pm = 1; S.pa = 'p:sky'; v4(PL.A0, -S.camx * S.zoom * .4, -S.camy * S.zoom * .4, rr / .56, .006 * (t - SKY[0])); v4(PL.A1, .55 * a, .9, 1, 0); return;
+  }
+  if (t >= FREQ[0] && t < FREQ[3]) {            // section 9: the light holds; a faint Frequency layer turns behind it and answers each "you're right"
+    a = win(t, FREQ[0], FREQ[1], FREQ[2], FREQ[3]); var pl = 0, pi; for (pi = 0; pi < pulseT.length; pi++) { var up = (t - pulseT[pi]) / 1.5; if (up > 0 && up < 1) pl = Math.max(pl, Math.pow(1 - up, 2)); }
+    S.pm = 1; S.pa = 'p:frequency'; v4(PL.A0, S.lx, S.ly, d.PORT ? 1.12 : 1.35, .0087 * (t - FREQ[0])); v4(PL.A1, .15 * a * (1 + .04 * pl), .25, 1, 0); return;
+  }
+  if (t >= DIS[0] && t < DIS[3]) {              // section 10: as the blocks lift, the dark twin turns to the light one, band by band from the centre out
+    a = win(t, DIS[0], DIS[1], DIS[2], DIS[3]); var lifted = 0; for (k = 0; k < 30; k++) lifted += sm((t - bkLeave(k)) / .9);
+    S.pm = 5; S.pa = 'p:fractal-8'; S.pb = 'p:frequency-8'; v4(PL.A0, S.lx, S.ly, d.PORT ? 1.02 : .98, -.004 * (t - DIS[0])); v4(PL.A1, .9 * a, .8, 1, 0); v4(PL.A2, 5, a, 0, 0); v4(PL.B1, (.45 + .2 * sm((t - PK3 + 1) / 2)) * a, .4, 1, .85);
+    S.disf = lifted / 30 * 9.02;
+    if (t < PK3 + 2.2) { S.pc = 'p:basalt'; S.bkt = .5; }
+  }
+}
+shots.need = function (t) {
+  var n = t >= f1.t0 + 12 && t < x1.t0 - 3 ? [] : t < 2.5 ? ['logo'] : t < 3.1 ? ['logo', 'orig', 'core'] : t < g1.t0 ? ['orig', 'core'] : t < PK1 - 6 ? ['orig'] : ['orig', 'logo', 'emb'];
+  function w(r, k) { if (t >= r[0] - .5 && t < r[r.length - 1] + .5) for (var i = 1; i < arguments.length; i++) n.push(arguments[i]); }
+  w(DUST, 'p:dust'); w(SEAM4, 'p:fractal-8', 'p:frequency-8'); w(MIR, 'p:mirror'); w(RINGS, 'p:rings'); w(CITY, 'p:city'); w(BAND, 'p:fractal-8', 'p:frequency-8'); w(SEAM6, 'p:fractal-8', 'p:frequency-8');
+  w(SHAFT, 'p:shaft'); w(SKY, 'p:sky'); w(FREQ, 'p:frequency'); w(DIS, 'p:fractal-8', 'p:frequency-8', 'p:basalt');
+  return n.filter(function (k, i) { return n.indexOf(k) === i; });
+};
 shots.boundary = function (t, dt) {         // true in the gaps between captions: the only place quality may step
   var c = D.caps, i; for (i = 0; i < c.length; i++) if (t >= c[i].t0 - .1 && t <= c[i].t0 + c[i].say + .1) return false; return true;
 };
