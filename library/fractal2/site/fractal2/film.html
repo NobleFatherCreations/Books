@@ -1179,7 +1179,7 @@ function cam45(t) {
   var d = F.dims(), key = d.W + 'x' + d.H;
   if (key !== K45key) {
     var zf = ZF(), z0 = cam3(g4.t0)[1], zP = d.PORT ? .62 : .6, zI = d.PORT ? .112 : .125, zPat = zf * .8, e = a5.t0, R = -TAU;
-    K45 = [[g4.t0, z0, 0, 0, 0], [STOP, z0 * 1.04, 0, 0, 0, E.in2], [STOP + 1.3, z0 * 1.037, 0, 0, 0, E.settle], [m1.t0 + 9.5, d.PORT ? .57 : .62, 0, 0, 0, E.film], [m2.t1, .8, 0, 0, 0, E.lin],
+    K45 = [[g4.t0, z0, 0, 0, 0], [STOP, z0 * 1.04, 0, 0, 0, E.in2], [STOP + 1.3, z0 * 1.037, 0, 0, 0, E.settle], [m1.t0 + 9.5, d.PORT ? .48 : .62, 0, 0, 0, E.film], [m2.t1, .8, 0, 0, 0, E.lin],
       [m3.t0 + 1.5, .3, 0, 0, 0, E.film], [m3.t0 + 9.5, .3, 0, 0, 0], [m3.t0 + 13.6, .3, -1.5, 2.3, 0, E.film],    // the growth rings held whole, the newest map small at their centre, before the generations come [m6.t0, .27, -1.7, 2.6, 0, E.lin], [m6.t0 + 6.4, zf * 1.25, 0, 0, 0, E.film], [a1.t0, zf * 1.3, 0, 0, 0, E.lin],
       [PK1 - .12, 2.4, 0, 0, 0, E.in3], [PK1 + 9.4, zf, 0, 0, R, F.spring(.66, 7.5)], [e - .1, zf * 1.02, 0, 0, R, E.lin],
       [e + 1.5, zP, 0, 0, R, E.film], [e + 2.7, zP, 0, 0, R], [e + 4.3, zI, 0, 0, R, E.film], [a6.t0 - .1, zI, 0, 0, R], [a6.t0 + 1.9, zf, 0, 0, R, E.film], [n1.t0 - .1, zf, 0, 0, R],
@@ -1585,7 +1585,7 @@ function scr(d, S) { return [(.5 - (S.cxf || .5)) * d.W / d.U, (d.CYF - .5) * d.
 function cover(d, asp, k) { return Math.max(d.H / (2 * d.U), d.W / (2 * d.U * asp)) * k; }
 var DUST = [4, 10, 92, 99], SHAFT = [PK2 - .4, PK2 + 1.2, FALL1 - 2.4, FALL1 + 1], SEAM4 = [g4.t0 - .3, g4.t0 + 1.2, STOP + 4.4, STOP + 5.2], BAND = [invT[0][0] - .2, T4a - .3], SEAM6 = [T4a - .3, T4c + .6],
   MIR = [STOP + 4.2, STOP + 6, m3.t0 - 1.5, m3.t0 + .5], RINGS = [m3.t0 - 1.5, m3.t0 + .5, a1.t0 - 3, a1.t0 + .5], CITY = [PK1 - 1.5, PK1 + 4, i1.t0 - 1, i1.t0 + 2.5],
-  SKY = [tr0.t0 - 1, tr0.t0 + 1.4, YR[0].t0 - 2, YR[0].t0 + .5], FREQ = [YR[0].t0 - 1, YR[0].t0 + 1.5, ds.t1 + 1.8, ds.t1 + 4.8], CENTER = [k1.t0, k1.t0 + .8, CX0 + .6, CX0 + 2.1],
+  SKY = [im.t0 - .5, im.t0 + 2.5, YR[0].t0 - 2, YR[0].t0 + .5], FREQ = [YR[0].t0 - 1, YR[0].t0 + 1.5, ds.t1 + 1.8, ds.t1 + 4.8], CENTER = [k1.t0, k1.t0 + .8, CX0 + .6, CX0 + 2.1],
   WIN = [bkOn - .9, bkOn + .6, x1.t0 - 1, x1.t0 + 1.8], F11 = [y1.t0, y1.t0 + 2, y5.t0 - 1.2, y5.t0 + 1.3], MIR11 = [y5.t0 - 1.2, y5.t0 + 1.3, z1.t0 - .5, z1.t0 + 1.5], F8R = [z1.t0 - .3, z1.t0 + 1, z2.t0 + .6, z2.t0 + 2.7], OPEN = [-40, -30, -1, 2.9];
 shots.PLATES = { DUST: DUST, MIR: MIR, RINGS: RINGS, CITY: CITY, SHAFT: SHAFT, SKY: SKY, FREQ: FREQ, SEAM4: SEAM4, BAND: BAND, SEAM6: SEAM6, WIN: WIN, CENTER: CENTER, F11: F11, MIR11: MIR11, F8R: F8R, OPEN: OPEN };
 /* what a person must be able to see, and for how long (scripts/film2-check.mjs: recognizability, hold, strength, burn). hold = the stretch that must pass. */
@@ -1596,10 +1596,10 @@ shots.HEROES = [
   { n: 'rings', p: ['rings'], role: 'hero', hold: [RINGS[1], RINGS[1] + 9] },
   { n: 'city', p: ['city'], role: 'hero', hold: [PK1 + 6, a5.t0 - .5] },
   { n: 'counterfeit pair', p: ['fractal-8', 'frequency-8'], role: 'pair', hold: [k2.t0 + .4, CX0] },
-  { n: 'sky', p: ['sky'], role: 'hero', hold: [SKY[1], tr0.t0 + 9.5] },
+  { n: 'sky', p: ['sky'], role: 'hero', hold: [tr0.t0 + 1.4, tr0.t0 + 9.5] },
   { n: 'frequency circle', p: ['frequency'], role: 'hero', hold: [FREQ[1], FREQ[2]] },
   { n: 'window wall', p: ['basalt'], role: 'stone', hold: [bkOn + .8, bkOn + 15] },
-  { n: 'original frequency', p: ['frequency-8'], role: 'hero', hold: [mof.t0 + 3.2, x1.t0 - 1.2] },
+  { n: 'original frequency', p: ['frequency-8'], role: 'hero', hold: [mof.t0 + 3.2, x1.t0 - 5] },
   { n: 'section 11 dark twin', p: ['fractal-8'], role: 'hero', hold: [F11[1], F11[2]] },
   { n: 'section 11 mirror', p: ['mirror'], role: 'hero', hold: [MIR11[1], MIR11[2]] },
   { n: 'section 11 light twin', p: ['frequency-8'], role: 'hero', hold: [z1.t0 + 12.5, z2.t0 - 3.6] },
@@ -1699,15 +1699,15 @@ function heroes(t, S) {
   }
   if (t >= MIR[0] && t < MIR[3]) {             // "the way I spoke to myself": the whole mirror, its tarnished frame and all, the owner's map inside it as the reflection
     a = win(t, MIR[0], MIR[1], MIR[2], MIR[3]); var mc = F.w2s(0, 0, S), push = 1 + .04 * clamp((t - MIR[1]) / (MIR[2] - MIR[1]), 0, 1);
-    Hp(0, 'mirror', mc[0], mc[1], (P ? .46 * d.W : .44 * d.H) * push, { disc: 0, a: .9 * a, dark: 1.9, lit: .5, under: 1 });
+    Hp(0, 'mirror', mc[0], mc[1] - (P ? .035 * d.H : 0), (P ? .43 * d.W : .44 * d.H) * push, { disc: 0, a: a, dark: 1.9, lit: .5, under: 1 });
   }
   if (t >= RINGS[0] && t < RINGS[3]) {         // the generations: the whole growth-ring disc, the newest map at its centre
     a = win(t, RINGS[0], RINGS[1], RINGS[2], RINGS[3]); var push2 = 1 + .04 * clamp((t - RINGS[1]) / (RINGS[2] - RINGS[1]), 0, 1);
-    Hp(1, 'rings', d.W * S.cxf, d.H * d.CYF, .5 * sh * push2, { disc: 0, a: .75 * a, dark: 1.35, lit: .3, under: 1, ang: .004 * (t - RINGS[0]) });
+    Hp(1, 'rings', d.W * S.cxf, d.H * d.CYF, .5 * sh * push2, { disc: 0, a: .88 * a, dark: 1.35, lit: .3, under: 1, ang: .004 * (t - RINGS[0]) });
   }
   if (t >= CITY[0] && t < CITY[3]) {           // section 5: the city, the far larger map, shown whole; it steps back under table 2
     a = win(t, CITY[0], CITY[1], CITY[2], CITY[3]); var tb = win(t, a5.t0 - .5, a5.t0 + .8, n5.t0, n5.t0 + 1.5), push3 = 1 + .04 * clamp((t - CITY[1]) / (CITY[2] - CITY[1]), 0, 1);
-    Hp(0, 'city', d.W * S.cxf, d.H * d.CYF, .45 * sh * push3, { disc: 0, a: lerp(1, .45, tb) * a, dark: 1.3, lit: .25, under: 1, ang: -.003 * (t - CITY[0]) });
+    Hp(0, 'city', d.W * S.cxf, d.H * (d.CYF - (P ? .035 : 0)), (P ? .43 : .45) * sh * push3, { disc: 0, a: lerp(1, .45, tb) * a, dark: 1.3, lit: .25, under: 1, ang: -.003 * (t - CITY[0]) });
     var hide = win(t, PK1 + 1.5, PK1 + 4.5, a5.t0 - 1.5, a5.t0 + .5); S.logo *= 1 - hide; S.emb *= 1 - hide; S.ringa *= 1 - .9 * hide;
   }
   if (t >= CENTER[0] && t < CENTER[3]) {       // "A counterfeit always comes second. Which means something real was here first.": the twins side by side, held
@@ -1721,8 +1721,8 @@ function heroes(t, S) {
   }
   if (t >= SKY[0] && t < SKY[3]) {             // section 8: the sky, read once as itself, then quieter behind the markers
     a = win(t, SKY[0], SKY[1], SKY[2], SKY[3]);
-    lightTo(S, d, d.W * S.cxf + S.lx * d.U, d.H * d.CYF - S.ly * d.U, .475 * sh / .905, win(t, SKY[0], SKY[1], tr0.t0 + 9.5, tr0.t0 + 12));
-    Hp(0, 'sky', d.W * S.cxf, d.H * d.CYF, .475 * sh / .905, { disc: 1, a: lerp(.78, .45, sm((t - tr0.t0 - 9.5) / 2.5)) * a, dark: 1.6, lit: .3, under: 1, ang: .006 * (t - SKY[0]) });
+    lightTo(S, d, d.W * S.cxf + S.lx * d.U, d.H * d.CYF - S.ly * d.U, .475 * sh / .905, win(t, tr0.t0 - 1, tr0.t0 + 1.4, tr0.t0 + 9.5, tr0.t0 + 12));
+    Hp(0, 'sky', d.W * S.cxf, d.H * d.CYF, .475 * sh / .905, { disc: 1, a: lerp(lerp(.32, .78, sm((t - tr0.t0 + 1) / 2.4)), .45, sm((t - tr0.t0 - 9.5) / 2.5)) * a, dark: 1.6, lit: .3, under: 1, ang: .006 * (t - SKY[0]) });
   }
   if (t >= FREQ[0] && t < FREQ[3]) {           // section 9: the frequency circle, the hero; it answers each "you're right"
     var pl = 0, pi; for (pi = 0; pi < pulseT.length; pi++) { var up = (t - pulseT[pi]) / 1.2; if (up > 0 && up < 1) pl = Math.max(pl, Math.pow(1 - up, 2)); }

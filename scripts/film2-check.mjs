@@ -8,9 +8,10 @@ const out = arg('out') || '/tmp/film2-check'; fs.mkdirSync(out, { recursive: tru
 const cues = JSON.parse(fs.readFileSync(new URL('../design/fractal2/film/cues.json', import.meta.url)));
 const upto = Number(arg('upto') || cues.dur);
 const GL = ['--use-angle=swiftshader', '--enable-unsafe-swiftshader', '--ignore-gpu-blocklist'];
+const PDPR = Number(arg('dpr') || 2);       // --dpr=1 keeps the gate cheap (every pixel check scales with dpr)
 const PROFILES = [
-  { name: 'phone', vp: { width: 390, height: 844 }, dpr: 2, rm: false },
-  { name: 'phone-rm', vp: { width: 390, height: 844 }, dpr: 2, rm: true },
+  { name: 'phone', vp: { width: 390, height: 844 }, dpr: PDPR, rm: false },
+  { name: 'phone-rm', vp: { width: 390, height: 844 }, dpr: PDPR, rm: true },
   { name: 'desktop', vp: { width: 1440, height: 900 }, dpr: 1, rm: false }
 ];
 let fail = 0; const rows = []; const SHEET = [];
@@ -24,7 +25,7 @@ def L(a):
     a=a/255.0; a=np.where(a<=0.03928,a/12.92,((a+0.055)/1.055)**2.4); return 0.2126*a[...,0]+0.7152*a[...,1]+0.0722*a[...,2]
 `;
 const b = await chromium.launch({ args: GL });
-for (const pr of PROFILES) {
+for (const pr of PROFILES.filter(q => !arg('profile') || arg('profile').split(',').includes(q.name))) {     // --profile=phone,desktop runs those only
   const ctx = await b.newContext({ viewport: pr.vp, deviceScaleFactor: pr.dpr, reducedMotion: pr.rm ? 'reduce' : 'no-preference' });
   const p = await ctx.newPage(); const errs = [];
   p.on('pageerror', e => errs.push(String(e))); p.on('console', m => { if (m.type() === 'error') errs.push(m.text()); });
@@ -271,11 +272,16 @@ a=np.asarray(Image.open(sys.argv[1]).convert('RGB')).astype(int); b=np.asarray(I
     const HE = (await p.evaluate(() => FILM.shots.HEROES)).filter(h => h.hold[0] < upto); const frames = [], sj = []; let fi = 0;
     for (const h of HE) { for (let t = h.hold[0]; t <= Math.min(h.hold[1], upto) + 1e-6; t += .5) { const tt = +t.toFixed(3); const f = await shotC(tt, 'v' + fi++);
         frames.push({ f, t: tt, hero: h.n, role: h.role, plates: h.p, geo: await p.evaluate(() => FILM.heroGeo()), caps: h.role === 'stone' ? await capBoxes() : [] }); }
-      if (h.role === 'hero' || h.role === 'pair') { const tm = +((h.hold[0] + Math.min(h.hold[1], upto)) / 2).toFixed(3); const f = await shotC(tm, 'sa' + sj.length); const geo = await p.evaluate(() => FILM.heroGeo());
-        await p.evaluate(() => { FILM.opt.noplate = 1; }); const f0 = await shotC(tm, 'sb' + sj.length); await p.evaluate(() => { FILM.opt.noplate = 0; }); sj.push({ hero: h.n, plates: h.p, f, f0, geo, t: tm }); } }
-    fs.writeFileSync(`${out}/${pr.name}-vis-jobs.json`, JSON.stringify({ frames, strength: sj }));
+      if (h.role === 'hero' || h.role === 'pair') { const tm = +((h.hold[0] + Math.min(h.hold[1], upto)) / 2).toFixed(3);
+        sj.push({ hero: h.n, res: await p.evaluate(([tm, ps]) => { FILM.seek(tm); const S = FILM.S, d = FILM.dims(), G = FILM.heroGeo(), out = [];
+          for (const k of ps) { const h = G.hero.find(x => x && x.k === 'p:' + k); if (!h) { out.push({ k, s: 0 }); continue; }
+            let cov = 0; if (h.under && S.orig > 0) { const mr = .887 * S.zoom * d.U, c = FILM.w2s(0, 0, S), n = 40; let inn = 0, tot = 0;     // the owner's map drawn over an under-plate covers part of it
+              for (let i = 0; i < n; i++) for (let j = 0; j < n; j++) { const u = (i + .5) / n * 2 - 1, v = (j + .5) / n * 2 - 1; if (h.disc && u * u + v * v > .82) continue; tot++; const x = h.x + u * h.r * (h.disc ? 1 : h.asp), y = h.y + v * h.r; if (Math.hypot(x - c[0], y - c[1]) < mr) inn++; } cov = inn / Math.max(1, tot) * Math.min(1, S.origk || 1); }
+            out.push({ k: h.k, s: +(Math.min(1, h.a) * Math.min(1, h.dark) * Math.min(1, (h.rev > 1.5 ? 1 : h.rev / .905) ** 2) * (1 - cov)).toFixed(3) }); }
+          return out; }, [tm, h.p]) }); } }
+    fs.writeFileSync(`${out}/${pr.name}-vis-jobs.json`, JSON.stringify({ frames }));
     execFileSync('python3', ['-I', new URL('./film2-plates.py', import.meta.url).pathname, `${out}/${pr.name}-vis-jobs.json`, `${out}/${pr.name}-vis.json`]);
-    const R = JSON.parse(fs.readFileSync(`${out}/${pr.name}-vis.json`)); const NEED = { hero: 8, pair: 7, split: 4, stone: 10, texture: 4 };
+    const R = JSON.parse(fs.readFileSync(`${out}/${pr.name}-vis.json`)); R.strength = sj; const NEED = { hero: 8, pair: 7, split: 4, stone: 10, texture: 4 };
     const byH = {}; R.frames.forEach((r, i) => { const fr = frames[i]; r.role = fr.role; r.pass = r.ok && (r.role === 'texture' || r.role === 'stone' || (r.plates || []).every(q => q.inview >= .9)); (byH[r.hero] = byH[r.hero] || []).push(r); });
     let recog = [], hold = [], view = [], burn = [], lightPos = [], ledger = {};
     for (const h of HE) { const a = byH[h.n] || []; let run = 0, best = 0, secs = 0; for (const r of a) { if (r.pass) { run++; secs += .5; best = Math.max(best, run); } else run = 0; }
@@ -293,7 +299,7 @@ a=np.asarray(Image.open(sys.argv[1]).convert('RGB')).astype(int); b=np.asarray(I
     ok(N + 'no burned plate (<= 10% of a hero footprint at luminance 0.95)', burn.length === 0, burn.slice(0, 3).join('; ') || 'all hero frames');
     ok(N + 'light plates clear of the caption ' + (pr.name === 'desktop' ? 'column (disc edge left of 0.595 W)' : 'band (disc bottom above 0.56 H)'), lightPos.length === 0, lightPos.slice(0, 3).join('; ') || 'all light-plate holds');
     const weak = R.strength.flatMap(s => s.res.map(q => [s.hero, q])).filter(([h, q]) => q.s < .75);
-    ok(N + 'effective strength at mid-hold >= 0.75 (the change the plate makes, against the bare plate)', weak.length === 0, weak.map(([h, q]) => `${h} ${q.k} ${q.s}`).join('; ') || R.strength.map(s => s.hero + ' ' + s.res.map(q => q.s).join('/')).join(', '));
+    ok(N + 'effective strength at mid-hold >= 0.75 (opacity x brightness cap x reveal x the part not covered by the map, from the shader inputs)', weak.length === 0, weak.map(([h, q]) => `${h} ${q.k} ${q.s}`).join('; ') || R.strength.map(s => s.hero + ' ' + s.res.map(q => q.s).join('/')).join(', '));
     const L7 = Object.entries(ledger).map(([k, v]) => k + ' ' + v.toFixed(1) + ' s').join(', ');
     console.log(N + 'owner image ledger (seconds recognizable): ' + L7);
     ok(N + 'owner image ledger: every plate seen, basalt read as stone for 10 s', ['fractal-8', 'frequency-8', 'frequency', 'city', 'mirror', 'rings', 'sky', 'shaft', 'dust'].every(k => (ledger[k] || 0) > 0 || HE.every(h => !h.p.includes(k))) && (upto < 760 || (ledger.basalt || 0) >= 10), L7);
