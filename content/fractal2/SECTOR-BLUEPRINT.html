@@ -139,9 +139,9 @@ ol.dec p{color:var(--ink2);font-size:.95rem}
 
 <div class="wrap">
   <header class="read">
-    <p class="eyebrow">Fractal² · sector sites · plan v2 · nothing built</p>
+    <p class="eyebrow">Fractal² · sector sites · plan v3 · nothing built</p>
     <h1 style="margin-top:14px">Sector blueprint</h1>
-    <p class="lede">How every sector site gets rebuilt: how people read the 335 tactics at three scales, how they link out to the general entries in Pattern Decoder, and how they find their way through the patterns. v2 comes out of rounds of audit and steelman: data checks, phone screenshots of today's build, an independent critic, a second critic on the revision, and a final verdict on every idea. Each round's findings are on this page.</p>
+    <p class="lede">How every sector site gets rebuilt: how people read the 335 tactics at three scales, how they link out to the general entries in Pattern Decoder, and how they find their way through the patterns. This version comes out of five rounds of audit and steelman: data checks, phone screenshots of today's build, an independent critic on v1, a second critic on v2, and a verdict on every idea. Each round's findings are on this page.</p>
     <nav class="toc" aria-label="Sections">
       <a href="#rounds">1 Audit rounds</a><a href="#model">2 The model</a><a href="#tree">3 Page map</a><a href="#frame">4 Frame</a><a href="#tpl">5 Templates</a><a href="#decoder">6 Pattern Decoder</a><a href="#combos">7 Patterns</a><a href="#visual">8 Visual rules</a><a href="#steel">9 Steelman</a><a href="#build">10 Build order</a><a href="#dec">11 Your calls</a>
     </nav>
@@ -167,8 +167,8 @@ ol.dec p{color:var(--ink2);font-size:.95rem}
         <tr><td>1 · Data</td><td>Measured example lengths, situation coverage and category overlap in <code>sector.json</code> and <code>derived.json</code></td><td>Dropped the tabbed zoom on tactic pages: 82 words don't need hiding. Situation pages got an order, since "Management &amp; labels" holds 57 of the 153 patterns. Shared tactics on category pages now count from 2+ patterns, which gives every category 8 or more.</td></tr>
         <tr><td>2 · Today's build on a phone</td><td>Screenshots of the tactic page, pattern page, library and home at 390 px</td><td>Kept what works: the bottom tab bar, the top bar (Sectors · Search · Leave), all three examples stacked, the chain listed with stage names, quick/sequence/full, Leave using <code>location.replace</code>, filters using <code>replaceState</code>, and the print stylesheet. Found three faults: the library runs to 49 screens, a stage ring takes a full screen on every tactic page, and the floating NF button sits over reading text.</td></tr>
         <tr><td>3 · Independent critic</td><td>A separate reviewer read v1 cold and walked each reader's path on a phone</td><td>17 findings: 14 accepted, 3 changed (section 9). The biggest: the sector home no longer opens on a 335-mark ring; numbers now mean chain steps only; the 8×3 atlas grid is cut; library filters drop from 7 to 3; card rings become words; the pattern chain becomes a numbered list; every page gets an orientation line.</td></tr>
-        <tr><td>4 · Second critic on v2</td><td>A fresh reviewer read v2 cold, with v1's critique withheld</td><td>See section 9, round 4.</td></tr>
-        <tr><td>5 · Steelman</td><td>For every idea: the strongest case for it, the strongest case against, a verdict</td><td>Section 9. Five ideas cut, eight changed, the rest kept.</td></tr>
+        <tr><td>4 · Second critic on v2</td><td>A fresh reviewer read v2 cold, with v1's critique withheld</td><td>12 findings: 10 accepted, 2 corrected (section 9). Biggest: the number rule is restated so it can be checked; computed sentences get rules and approval; the layout gates are built before the visual comps; the tab bar becomes Home · Now · Patterns · Tactics · House; honest no-JavaScript fallbacks; a synthetic second sector tests the generator early.</td></tr>
+        <tr><td>5 · Steelman</td><td>For every idea: the strongest case for it, the strongest case against, a verdict</td><td>Section 9. Six ideas cut, eleven changed, the rest kept.</td></tr>
       </tbody>
     </table></div>
   </section>
@@ -195,10 +195,10 @@ ol.dec p{color:var(--ink2);font-size:.95rem}
       <h2 id="tree-h">Every page in a sector</h2>
       <p class="sub">Nine page types, down from twelve in v1. Tactic and pattern addresses don't change.</p>
     </header>
-<pre class="tree"><b>/fractal2/&lt;sector&gt;</b>                        Home: safety line, four doors, where is it happening, ten to read first, browse
+<pre class="tree"><b>/fractal2/&lt;sector&gt;</b>                        Home: safety line, four doors, where is it happening, ten to read first, browse, switch sector
 │
 ├── /in/&lt;situation&gt;                     <em>NEW</em> 12 · start here (3–5), moves that recur here (≤10), the rest by category
-├── /in-it-now · /worried-about-someone · /notice      <i>kept · reader paths</i>
+├── /in-it-now · /worried-about-someone · /notice      <i>kept · in-it-now also holds the private-browsing advice</i>
 │
 ├── <b>/tactics</b>                             All 335: eight stage rows with counts, then A–Z <i>(absorbs /a-z)</i>
 │   ├── /tactics/&lt;stage&gt;                 8 · name, definition and pattern count for each move <i>(replaces /stage-&lt;stage&gt;, 301)</i>
@@ -211,7 +211,9 @@ ol.dec p{color:var(--ink2);font-size:.95rem}
 │
 └── /method · /take-it-with-you · /map           <i>reference; map kept but out of the tab bar until sector 2</i>
 
-<i>Per sector: 1 + 12 + 3 + 1 + 8 + 3 + 335 + 1 + 10 + 153 + 3 = 530 pages. The three scale pages are noindex, so search engines see about 527 pages per sector.</i></pre>
+<i>Per sector: 1 + 12 + 3 + 1 + 8 + 3 + 335 + 1 + 10 + 153 + 3 = 530 pages. The three scale pages are noindex, so search engines see about 527 per sector.
+Search is a dialog, not a page; without JavaScript it falls back to the A–Z lists. 301s: /start → home, /before-you-sign → /in/signing, /a-z → /tactics#a-z,
+/stage-&lt;stage&gt; → /tactics/&lt;stage&gt;, /family-&lt;category&gt; → /patterns/&lt;category&gt;.</i></pre>
   </section>
 
   <section id="frame" aria-labelledby="frame-h">
@@ -222,36 +224,36 @@ ol.dec p{color:var(--ink2);font-size:.95rem}
     </header>
     <div class="two">
       <div class="box"><h4>Phone</h4><ul>
-        <li><b>Top:</b> Fractal² · Sectors · Search · <b>Leave</b>. Leave is at least 44 px, always top right, never in a menu, and uses <code>location.replace</code> (kept).</li>
-        <li><b>Bottom tab bar:</b> Home · Situations · Patterns · Tactics · House. Map leaves the bar. THE HOUSE moves into the bar as its fifth slot, so it never floats over text again.</li>
+        <li><b>Top:</b> Fractal² (to the hub) · Search · <b>Leave</b>. Leave is at least 44 px, always top right, never in a menu, and uses <code>location.replace</code> (kept). Switching sector moves to the sector home and the footer: it's rare, and it took a third "home" button off the bar.</li>
+        <li><b>Bottom tab bar:</b> Home · <b>Now</b> (in-it-now) · Patterns · Tactics · House. The most urgent path is always one tap away; situations live on Home. THE HOUSE slot only opens the shared drawer, whose markup stays unchanged (decision D13), so it never floats over text again. Without JavaScript the slot is a link to the House list in the footer. On desktop the same five sit in the top bar. At 200% text the labels drop to icons with accessible names.</li>
         <li><b>Breadcrumb:</b> one link to the parent ("‹ Hook"). The full trail shows from 768 px up.</li>
-        <li><b>Where am I:</b> the current tab is lit, and a section label sits above every title ("Tactic · Hook", "Pattern · Exit Prevention · 4 of 17").</li></ul></div>
+        <li><b>Where am I:</b> the current tab is lit, and a section label sits above every title ("Tactic · Hook", "Pattern · Exit Prevention").</li></ul></div>
       <div class="box"><h4>Every page stands alone</h4><ul>
         <li>One orientation line under every title: "One of 335 moves people use to control others in music and entertainment." There's a quiet link to "If it's happening now".</li>
         <li>Title tag: "Obligation Contracts: how it's used in the music industry". Breadcrumb and term markup.</li>
         <li>The safety line in the footer of every page, verbatim (kept).</li>
-        <li>Filters use <code>replaceState</code>, so taps leave no history trail on a watched phone (kept). The safety page explains private browsing and clearing history.</li></ul></div>
+        <li>Filters use <code>replaceState</code>, so taps leave no history trail on a watched phone (kept). The in-it-now page explains private browsing and clearing history.</li></ul></div>
     </div>
   </section>
 
   <section id="tpl" aria-labelledby="tpl-h">
     <header>
       <p class="eyebrow">5 · Templates</p>
-      <h2 id="tpl-h">The page types, in order of importance</h2>
-      <p class="sub">Sketches show order and weight at phone width, not the visual design. Rule for every page: numbers mean chain steps and nothing else. Stages are shown by name and color.</p>
+      <h2 id="tpl-h">Six templates, in order of importance</h2>
+      <p class="sub">Sketches show order and weight at phone width, not the visual design. The number rule for every page: a badged numeral always means a chain step. Every other number is a count with its noun ("57 patterns", "5-minute read"). Stages are never numbered.</p>
     </header>
     <div class="tpls">
 
       <article class="tpl">
         <div class="txt"><p class="addr">/fractal2/&lt;sector&gt;/tactic/&lt;tactic&gt; · 335</p><h3>Tactic page</h3>
-          <ol><li>Section label "Tactic · Hook" (stage by name and color), name, the orientation line, definition, also called.</li><li><b>At every size.</b> All three examples stacked, always visible, under plain labels: <i>One person</i>, <i>An organization</i>, <i>The whole industry</i>. The author's terms (Individual, Institutional, Civilizational) sit small beside them. A three-step scale mark is the visual signature. Each has an anchor (<code>#institutional</code>), and each label links to its scale page. On desktop they sit side by side.</li><li><b>The general guide.</b> One card: "Signs, questions to ask yourself, what you can do and words you could use are in Pattern Decoder, a separate site. Your back button returns here."</li><li><b>Used in these patterns.</b> Each as "step 4 of 6 in The Debt Prison", grouped by category. If none: "Not part of a mapped pattern in this sector yet."</li><li><b>Near it.</b> Previous and next in its stage, and moves that share its patterns. Later: "Also in: Corporate".</li></ol>
+          <ol><li>Section label "Tactic · Hook" (stage by name and color), name, the orientation line, then one safety line with a link to "If it's happening now". Then the definition and also called. Search visitors land here more than anywhere, so the safety line goes here as well as on pattern pages.</li><li><b>At every size.</b> All three examples stacked, always visible, under plain labels: <i>One person</i>, <i>An organization</i>, <i>The whole industry</i>. The author's terms (Individual, Institutional, Civilizational) sit small beside them. A three-step scale mark is the visual signature. Each has an anchor (<code>#institutional</code>), and each label links to its scale page. On desktop they sit side by side.</li><li><b>The general guide</b>, right after the examples. One card: "Signs, questions to ask yourself, what you can do and words you could use are in Pattern Decoder, a separate site. Your back button returns here."</li><li><b>Used in these patterns.</b> Each as "step 4 of 6 in The Debt Prison", grouped by category. If none: "Not part of a mapped pattern in this sector."</li><li><b>Near it.</b> Previous and next in its stage, and moves that share its patterns. Later: "Also in: Corporate".</li></ol>
           <p class="io"><b>Cut from today's page:</b> the full-screen stage ring. <b>Moved up:</b> the Pattern Decoder link, from the last block to the second.</p></div>
         <div class="wf"><svg viewBox="0 0 260 440" role="img" aria-label="Phone sketch of the tactic page: section label, title, orientation line, three stacked example cards with scale marks, a Pattern Decoder card, a list of patterns.">
           <rect x="1" y="1" width="258" height="438" rx="14" fill="#05070d" stroke="#232b45"/>
           <text x="16" y="26" font-size="8" fill="#e07b39">TACTIC · HOOK</text>
           <text x="16" y="46" font-size="15" fill="#F3ECD9" font-family="Georgia">Obligation Contracts</text>
           <text x="16" y="60" font-size="7" fill="#8D93A6">One of 335 moves used in music and entertainment</text>
-          <rect x="16" y="68" width="180" height="5" rx="2" fill="#2a3350"/>
+          <text x="16" y="72" font-size="6.5" fill="#E8A07A">If it's happening now ›</text>
           <g transform="translate(16,84)"><rect width="228" height="56" rx="6" fill="#0b0f1a" stroke="#232b45"/><circle cx="12" cy="13" r="2.5" fill="#E9C27A"/><circle cx="20" cy="13" r="2.5" fill="#3a4466"/><circle cx="28" cy="13" r="2.5" fill="#3a4466"/><text x="38" y="16" font-size="8" fill="#F3ECD9">One person</text><text x="180" y="16" font-size="6" fill="#8D93A6">Individual</text><rect x="12" y="26" width="200" height="4" rx="2" fill="#3a4466"/><rect x="12" y="35" width="190" height="4" rx="2" fill="#3a4466"/><rect x="12" y="44" width="120" height="4" rx="2" fill="#3a4466"/></g>
           <g transform="translate(16,146)"><rect width="228" height="56" rx="6" fill="#0b0f1a" stroke="#232b45"/><circle cx="12" cy="13" r="2.5" fill="#E9C27A"/><circle cx="20" cy="13" r="2.5" fill="#E9C27A"/><circle cx="28" cy="13" r="2.5" fill="#3a4466"/><text x="38" y="16" font-size="8" fill="#F3ECD9">An organization</text><text x="172" y="16" font-size="6" fill="#8D93A6">Institutional</text><rect x="12" y="26" width="200" height="4" rx="2" fill="#3a4466"/><rect x="12" y="35" width="170" height="4" rx="2" fill="#3a4466"/><rect x="12" y="44" width="90" height="4" rx="2" fill="#3a4466"/></g>
           <g transform="translate(16,208)"><rect width="228" height="56" rx="6" fill="#0b0f1a" stroke="#232b45"/><circle cx="12" cy="13" r="2.5" fill="#E9C27A"/><circle cx="20" cy="13" r="2.5" fill="#E9C27A"/><circle cx="28" cy="13" r="2.5" fill="#E9C27A"/><text x="38" y="16" font-size="8" fill="#F3ECD9">The whole industry</text><text x="164" y="16" font-size="6" fill="#8D93A6">Civilizational</text><rect x="12" y="26" width="196" height="4" rx="2" fill="#3a4466"/><rect x="12" y="35" width="150" height="4" rx="2" fill="#3a4466"/></g>
@@ -265,12 +267,12 @@ ol.dec p{color:var(--ink2);font-size:.95rem}
 
       <article class="tpl">
         <div class="txt"><p class="addr">/fractal2/&lt;sector&gt;/&lt;pattern&gt; · 153</p><h3>Pattern page</h3>
-          <ol><li>Safety note first, in every mode (kept).</li><li>Section label "Pattern · Exit Prevention · 4 of 17", with previous and next in the category right there. Each category becomes a line you can walk.</li><li><b>The moves, in order.</b> A numbered list is the main control. Each step shows its number, name, stage name and color, the one-line definition, and a link. Umbrella names say "general pattern · Pattern Decoder, separate site". Any link still unmapped is plain text, labeled.</li><li>The ring with the path drawn on it, as an illustration beside the list. Screen readers skip it, and it has no tap targets of its own.</li><li>Quick read · The sequence · Full (kept).</li><li>After the text: next in this category, patterns that share its moves, and the method's label meanings.</li></ol>
-          <p class="io"><b>Tactic links carry</b> <code>#from-the-debt-prison</code>, so the tactic page can show "← back to The Debt Prison". Without JavaScript, nothing breaks.</p></div>
+          <ol><li>Safety note first, in every mode (kept).</li><li>Section label "Pattern · Exit Prevention", with "‹ previous" and "next ›" in the category beside it, each at least 44 px. They follow the category page's own order (ten to read first, then shortest). Each category becomes a line you can walk.</li><li><b>The moves, in order.</b> A numbered list is the main control. Each step shows its number, name, stage name and color, the one-line definition, and a link. Umbrella names say "general pattern · Pattern Decoder, separate site". Any link still unmapped is plain text, labeled.</li><li>The ring with the path drawn on it, as an illustration: below the list on phones, beside it on desktop. Screen readers skip it, and it has no tap targets of its own.</li><li>Quick read · The sequence · Full (kept).</li><li>After the text: next in this category, patterns that share its moves, and the method's label meanings.</li></ol>
+          <p class="io"><b>Back to the pattern:</b> when a reader arrives at a tactic page from a pattern on this site, a "← back to The Debt Prison" chip appears. It reads the referrer, so shared links stay clean. Without JavaScript the browser's back button does the same.</p></div>
         <div class="wf"><svg viewBox="0 0 260 360" role="img" aria-label="Sketch of the pattern page: safety note, section label with previous and next, numbered list of steps with stage names, small ring illustration, mode switch.">
           <rect x="1" y="1" width="258" height="358" rx="14" fill="#05070d" stroke="#232b45"/>
           <rect x="16" y="16" width="228" height="20" rx="4" fill="rgba(232,160,122,.12)" stroke="#E8A07A"/><text x="24" y="29" font-size="7" fill="#E8A07A">SAFETY NOTE · first, always</text>
-          <text x="16" y="52" font-size="7" fill="#8D93A6">PATTERN · EXIT PREVENTION · 4 OF 17   ‹ ›</text>
+          <text x="16" y="52" font-size="7" fill="#8D93A6">PATTERN · EXIT PREVENTION   ‹ PREVIOUS · NEXT ›</text>
           <text x="16" y="72" font-size="15" fill="#F3ECD9" font-family="Georgia">The Debt Prison</text>
           <g font-size="8">
             <text x="16" y="98" fill="#E9C27A">1</text><text x="30" y="98" fill="#F3ECD9">Financial Enmeshment</text><text x="180" y="98" fill="#e07b39">Hook</text><rect x="30" y="103" width="150" height="3" rx="1.5" fill="#2a3350"/>
@@ -288,7 +290,7 @@ ol.dec p{color:var(--ink2);font-size:.95rem}
 
       <article class="tpl">
         <div class="txt"><p class="addr">/fractal2/&lt;sector&gt; · 1</p><h3>Sector home</h3>
-          <ol><li>Safety line. One sentence on what this site is.</li><li><b>Four doors:</b> It's happening to me now · I'm worried about someone · I'm about to sign something · I've noticed things and I'm not sure.</li><li><b>Where is it happening?</b> The 12 situations as a plain list with counts.</li><li><b>Ten to read first</b> (kept, with score bars).</li><li><b>Browse:</b> Tactics (335 moves) · Patterns (153, how moves combine).</li><li>The ring as a picture at the end, with a link to the map.</li></ol>
+          <ol><li>Safety line. One sentence on what this site is.</li><li><b>Four doors:</b> It's happening to me now · I'm worried about someone · a sector door (for Entertainment: I'm about to sign something) · I've noticed things and I'm not sure. The sector door and its words are data in <code>nav.json</code>, not template code.</li><li><b>Where is it happening?</b> The 12 situations as a plain list with counts.</li><li><b>Ten to read first</b> (kept). The score bars show the author's own 1–5 judgment scores (likelihood, harm, how hidden, how recognized), labeled as judgments, not statistics.</li><li><b>Browse:</b> Tactics (335 moves) · Patterns (153, how moves combine).</li><li>Switch sector. The eight-part stage ring (no tactic marks) with a link to the map.</li></ol>
           <p class="io"><b>Cut from v1:</b> the ring of 335 marks as the first screen (under 3 px per mark, nothing a reader can tap or read), and the separate /start page.</p></div>
         <div class="wf"><svg viewBox="0 0 260 300" role="img" aria-label="Sketch of the sector home: safety line, title, four door rows, situation list, ten to read first.">
           <rect x="1" y="1" width="258" height="298" rx="14" fill="#05070d" stroke="#232b45"/>
@@ -303,7 +305,7 @@ ol.dec p{color:var(--ink2);font-size:.95rem}
 
       <article class="tpl">
         <div class="txt"><p class="addr">/fractal2/&lt;sector&gt;/in/&lt;situation&gt; · 12</p><h3>Situation page</h3><p>For a reader who knows where it's happening but not what to call it.</p>
-          <ol><li>One paragraph on the situation. Written words are needed for the two smallest (Fans &amp; volunteers, 8 patterns; Young performers &amp; families, 14) so they aren't thin.</li><li><b>Start here:</b> 3–5 patterns: the ten to read first that live here, then the shortest quick reads.</li><li><b>Moves that recur here:</b> up to 10 tactics.</li><li>Everything else grouped by category, each group a native <code>&lt;details&gt;</code> with its count.</li></ol>
+          <ol><li>One paragraph on the situation, for all twelve. I draft them from the patterns they hold; you approve them. Each sector brings its own twelve.</li><li><b>Start here:</b> 3–5 patterns: the ten to read first that live here, then the shortest quick reads.</li><li><b>Moves that show up more here:</b> up to 10 tactics, ranked by how much more often they appear in this situation than across the sector, so stage 6's 90 tactics don't fill every list.</li><li>Everything else grouped by category, each group a native <code>&lt;details&gt;</code> with its count.</li></ol>
           <p class="io"><b>Today's "before you sign" path</b> becomes <code>/in/signing</code> with its tests and words (301 from the old address).</p></div>
         <div class="wf"><svg viewBox="0 0 260 220" role="img" aria-label="Sketch of a situation page: intro, start here list, recurring move chips, collapsed category groups.">
           <rect x="1" y="1" width="258" height="218" rx="14" fill="#05070d" stroke="#232b45"/>
@@ -318,7 +320,7 @@ ol.dec p{color:var(--ink2);font-size:.95rem}
       <article class="tpl">
         <div class="txt"><p class="addr">/fractal2/&lt;sector&gt;/patterns · 1 and /patterns/&lt;category&gt; · 10</p><h3>Pattern library and categories</h3>
           <p><b>Library.</b> It opens on the ten categories as doors: plain name, count, one line, two titles. That replaces the 49-screen list. Below that, "All 153, A–Z" with three filters: Situation, Category and Read time (under 5 minutes or longer). If a filter shows zero results, "clear filters" is always there. Without JavaScript the category and situation pages do the filtering.</p>
-          <p><b>Category page.</b> The author's introduction. A flat 8-part stage bar with one sentence worked out from the data ("Most of these begin at Hook and end at Extract · Control"). Up to 8 tactics shared by 2+ of its patterns. Then the patterns: ten-to-read-first ones first, then shortest, each card in words: "6 moves · begins with Financial Enmeshment · 5-min quick read · safety note".</p>
+          <p><b>Category page.</b> The author's introduction. A flat 8-part stage bar with one sentence worked out from the data ("Most of these begin at Hook."). Rules for every computed sentence: stage names come only from the spine; "most" is used only above half, otherwise "they begin at different stages"; every sentence template goes through your approval. Up to 8 tactics shared by 2+ of its patterns. Then the patterns: ten-to-read-first ones first, then shortest, each card in words: "6 moves · begins with Financial Enmeshment · 5-min quick read · safety note".</p>
           <p class="io"><b>Cut:</b> the mini chain rings on cards and the heat ring on category pages.</p></div>
         <div class="wf"><svg viewBox="0 0 260 230" role="img" aria-label="Sketch of the pattern library: ten category door rows with counts, then an A to Z list with three filters.">
           <rect x="1" y="1" width="258" height="228" rx="14" fill="#05070d" stroke="#232b45"/>
@@ -377,15 +379,16 @@ ol.dec p{color:var(--ink2);font-size:.95rem}
   <section id="combos" aria-labelledby="combos-h">
     <header>
       <p class="eyebrow">7 · Finding a pattern</p>
-      <h2 id="combos-h">Five readers, five paths, no more than two taps</h2>
+      <h2 id="combos-h">Seven readers, seven paths</h2>
     </header>
     <div class="tbl"><table class="t">
       <thead><tr><th>A reader knows…</th><th>Path from the sector home</th><th>Taps</th></tr></thead>
       <tbody>
-        <tr><td>Nothing yet, and it's happening now</td><td>"It's happening to me now" → in-it-now</td><td>1</td></tr>
+        <tr><td>Nothing yet, and it's happening now</td><td>"Now" in the tab bar, from any page</td><td>1</td></tr>
         <tr><td>Where it's happening</td><td>"Where is it happening?" → situation page → a start-here pattern</td><td>2</td></tr>
         <tr><td>What kind of harm it is</td><td>Patterns tab → category door</td><td>2</td></tr>
         <tr><td>A move they've already named</td><td>Search → tactic page → "used in these patterns"</td><td>2–3</td></tr>
+        <tr><td>They're about to sign something</td><td>The sector door → <code>/in/signing</code>: tests and words to ask with</td><td>1</td></tr>
         <tr><td>Only what they've noticed</td><td>"I've noticed things" → notice: tick signs in the author's words</td><td>1–2</td></tr>
         <tr><td>One pattern and wants the next</td><td>Pattern page "4 of 17 · next ›" walks the category</td><td>1</td></tr>
       </tbody>
@@ -396,16 +399,20 @@ ol.dec p{color:var(--ink2);font-size:.95rem}
     <header>
       <p class="eyebrow">8 · Visual rules</p>
       <h2 id="visual-h">What "visually optimized" means here, so it can be checked</h2>
-      <p class="sub">The look is chosen in step 5 by comps. These rules hold whatever look wins, and each one is a gate.</p>
+      <p class="sub">The look is chosen in step 6 by comps. These rules hold whatever look wins, and each one is a gate.</p>
     </header>
     <div class="finds">
       <div class="find"><h4>Reading first</h4><p>A 3,000-word pattern is the main event. Body text 18–19 px on phones, about 62–68 characters per line, contrast of 4.5:1 or more measured on rendered pixels. Two typefaces at most.</p></div>
       <div class="find"><h4>Color is data, never decoration</h4><p>The eight stage colors from your artwork appear only beside a stage name, so color-blind readers lose nothing. There's one accent, for actions.</p></div>
-      <div class="find"><h4>One number system</h4><p>Numbers mean chain steps, nothing else. Stage order shows as position on the ring and the order of the list.</p></div>
-      <div class="find"><h4>No specks</h4><p>No graphic with marks smaller than 6 px or labels under 12 px. The ring appears only where it's big enough to read: home footer, pattern page illustration, map.</p></div>
+      <div class="find"><h4>One number system</h4><p>A badged numeral is always a chain step. Any other number carries its noun. Stages are never numbered. The gate reads markup classes, not digits.</p></div>
+      <div class="find"><h4>No specks</h4><p>No graphic with marks smaller than 6 px or labels under 12 px. Tactic marks on the ring appear only on the map. Elsewhere the ring is its eight stage segments.</p></div>
       <div class="find"><h4>Nothing floats over text</h4><p>Fixed bars reserve their space. THE HOUSE moves into the tab bar. A gate fails any overlap between fixed elements and text at 375, 390 and 1440 px.</p></div>
-      <div class="find"><h4>Page length budgets</h4><p>Any page longer than 25 phone screens fails, except full patterns and scale pages, which have jump lists. Today's library is 49.</p></div>
+      <div class="find"><h4>Page length budgets</h4><p>At 100% text, any page over 25 phone screens fails, except full patterns and scale pages, which have jump lists. The A–Z lists (153 patterns, 335 tactics) sit behind letter jump links. Today's library is 49 screens.</p></div>
       <div class="find"><h4>Large text holds</h4><p>At 200% text size on 390 px, nothing clips or overlaps and chips wrap cleanly.</p></div>
+      <div class="find"><h4>First screen per template</h4><p>At 390 × 664 (after the bars): home shows the safety line and all four doors; tactic shows the label, name, safety line, definition and the start of the first example; pattern shows the safety note, title and step 1.</p></div>
+      <div class="find"><h4>Type, grid and targets</h4><p>A type scale of six steps at most, the 8 px grid from the house rules, visible focus everywhere, and 44 px targets for every control, not only Leave.</p></div>
+      <div class="find"><h4>Both grounds, every mode</h4><p>Stage colors at 3:1 or better as marks and 4.5:1 where used as text, on both the light and dark grounds. Follows the system color scheme; forced colors keep every label.</p></div>
+      <div class="find"><h4>Weight and print</h4><p>Fonts load once from the shared folder (decision D9), not inlined into all 530 pages. A budget per page type. Patterns print as the quick read plus safety note and steps, with addresses shown.</p></div>
       <div class="find"><h4>Calm motion</h4><p>Motion only to show change (mode switch, filter results). Nothing autoplays. Reduced motion shows the same page without movement.</p></div>
     </div>
   </section>
@@ -433,24 +440,28 @@ ol.dec p{color:var(--ink2);font-size:.95rem}
         <tr><td>Plain scale labels</td><td>"Civilizational" means nothing to most readers</td><td>Departs from the author's terms</td><td style="color:var(--ok)">Keep. "One person / An organization / The whole industry", with the author's term beside each.</td></tr>
         <tr><td>Pattern Decoder link second on tactic pages</td><td>Practical help, one tap away, without copying</td><td>Leaves the site; Pattern Decoder doesn't link back</td><td style="color:var(--ok)">Keep, labeled as a separate site; the back button returns.</td></tr>
         <tr><td>One standard-ID spine; build fails on a missing link</td><td>Nothing guessed; scales to 30 sectors</td><td>Unmapped names stay plain text until someone maps them</td><td style="color:var(--ok)">Keep. That's the honest state.</td></tr>
-        <tr><td>Category as a line you can walk (4 of 17)</td><td>Readers never get lost between related patterns</td><td>Some categories are long (26)</td><td style="color:var(--ok)">Keep. Previous and next are enough at any length.</td></tr>
+        <tr><td>Category as a line you can walk (previous · next)</td><td>Readers never get lost between related patterns</td><td>Some categories are long (26)</td><td style="color:var(--ok)">Keep. Previous and next are enough at any length.</td></tr>
         <tr><td>Stable tactic and pattern addresses</td><td>Shared links and search results keep working</td><td>Flat root folder stays mixed</td><td style="color:var(--ok)">Keep. Everything else moves under its section with 301s.</td></tr>
-        <tr><td>THE HOUSE inside the tab bar</td><td>Never covers text again</td><td>Changes where the House sits on sector pages</td><td style="color:var(--gold)">Change, with your yes (decision 4).</td></tr>
+        <tr><td>THE HOUSE inside the tab bar</td><td>Never covers text again</td><td>Changes where the House sits on sector pages</td><td style="color:var(--gold)">Change: a slot that opens the shared drawer unchanged (D13), with your yes (decision 4).</td></tr>
+        <tr><td>"Situations" as a tab</td><td>The main way in, always reachable</td><td>No index page behind it; it repeats Home; the urgent path wasn't in the bar</td><td style="color:var(--warn)">Cut. The tab becomes "Now".</td></tr>
+        <tr><td>Sectors in the top bar</td><td>Fast switching</td><td>Rarely used; a third "home" target crowding Leave</td><td style="color:var(--gold)">Change. Switching lives on the sector home and in the footer.</td></tr>
+        <tr><td>Fragment for "back to the pattern"</td><td>Works without storage</td><td>Pollutes shared links; clashes with the scale anchors</td><td style="color:var(--gold)">Change. Read the same-site referrer.</td></tr>
+        <tr><td>Computed sentences on category and situation pages</td><td>Real insight from the data, no new prose</td><td>Can overstate ("most"), or let stage 6's size skew every list</td><td style="color:var(--gold)">Change. Strict wording rules, over-representation ranking, your approval of each template.</td></tr>
       </tbody>
     </table></div>
-    <div id="round4" class="box"><h4>Round 4: second critic on v2</h4><p>Pending.</p></div>
+    <div id="round4" class="box"><h4>Round 4: second critic on v2</h4><p>Ten findings accepted and built into this version: the number rule restated, computed-sentence rules, gates before comps, the tab bar, THE HOUSE under D13, honest no-JavaScript fallbacks, the home ring reduced to stages, all twelve situation intros drafted for approval, a synthetic second sector, and the tactic page's safety line and clean back chip. Also fixed: the step count, the readers table and the 301 list. Two corrected: "Extract · Control" is the stage's decided display name (D6), not an error, though stage names must still come only from the spine; and the ten-to-read-first scores do have a source, the author's own 1–5 judgments, now stated on the page.</p></div>
   </section>
 
   <section id="build" aria-labelledby="build-h">
     <header>
       <p class="eyebrow">10 · Build order</p>
-      <h2 id="build-h">Eleven steps, in order</h2>
+      <h2 id="build-h">Thirteen steps, in order</h2>
       <p class="sub">Filled circles are where I stop and show you. One agent at a time, per the project rules. Pattern Decoder is never edited.</p>
     </header>
     <div class="phases">
       <div class="ph owner" data-n="0"><h3>Lock the brief</h3><p>Failure-log pre-flight. Your answers to section 11. The brief-to-output table everything gets checked against.</p>
         <div class="kit"><div><h5>Skills</h5><p><code>/grill-me</code></p></div><div><h5>Servers and tools</h5><p><code>sequential-thinking</code>; AskUserQuestion</p></div><div><h5>Agents</h5><p>none</p></div></div>
-        <p class="exit"><b>Exit:</b> decisions written to <code>content/fractal2/DECISIONS.md</code>.</p></div>
+        <p class="exit"><b>Exit:</b> decisions appended to <code>content/fractal2/DECISIONS.md</code> (after D17).</p></div>
       <div class="ph" data-n="1"><h3>Audit content and code</h3><p>Re-verify every number on this page. A keep/rewrite list for <code>design/fractal-sector/</code>, since much of it carries over (frame, Leave, search, safety-first, the word-count check).</p>
         <div class="kit"><div><h5>Skills</h5><p><code>ponytail-audit</code>, <code>code-review</code></p></div><div><h5>Servers and tools</h5><p>Python over the sector data and the Pattern Decoder index</p></div><div><h5>Agents</h5><p><code>architect-review</code></p></div></div>
         <p class="exit"><b>Exit:</b> <code>AUDIT.md</code>, every number sourced.</p></div>
@@ -461,30 +472,33 @@ ol.dec p{color:var(--ink2);font-size:.95rem}
       <div class="ph" data-n="3"><h3>Freeze the architecture</h3><p>Page tree, redirects, frame, linking rules and the two-tap table become <code>SECTOR-IA.md</code>, which replaces navigation spec v1. A tree test with the five readers.</p>
         <div class="kit"><div><h5>Skills</h5><p><code>site-architecture</code>, <code>programmatic-seo</code>, <code>schema</code>, <code>ux-heuristics</code></p></div><div><h5>Servers and tools</h5><p>Redirect generator in the build</p></div><div><h5>Agents</h5><p><code>ux-researcher</code></p></div></div>
         <p class="exit"><b>Exit:</b> every old address has a 301; every reader path is two taps on paper.</p></div>
-      <div class="ph owner" data-n="4"><h3>Clickable wireframes</h3><p>The six templates in gray, at 390 and 1440, with real Entertainment content. Each reader's path clicked through, and checked at 200% text.</p>
+      <div class="ph owner" data-n="4"><h3>Clickable wireframes</h3><p>The six templates in gray, at 390 and 1440, with real Entertainment content and first drafts of the interface words (copy length changes layout, so it comes early). Each reader's path clicked through, and checked at 200% text.</p>
         <div class="kit"><div><h5>Skills</h5><p><code>prototype</code>, <code>ux-heuristics</code>, <code>better-accessibility</code></p></div><div><h5>Servers and tools</h5><p>Figma (wireframes, plus a FigJam flow of the paths) or a Design artifact; Playwright clicks the paths</p></div><div><h5>Agents</h5><p><code>mobile-developer</code></p></div></div>
         <p class="ownerflag">You review the wireframes before any visual design.</p>
         <p class="exit"><b>Exit:</b> two-tap reach measured on the prototype.</p></div>
-      <div class="ph owner" data-n="5"><h3>Visual direction</h3><p>One look or two, against the film and hub. Three comps of the tactic and pattern pages, checked against the section 8 rules.</p>
+      <div class="ph" data-n="5"><h3>Build the gates first</h3><p>Write the new checks before any visual work, so the comps are judged by them: two-tap reach, first screen per template, page length budgets, fixed-over-text overlap, 200% text, the number rule (by markup class), targets of 44 px, stage-color contrast on both grounds, weight per page type.</p>
+        <div class="kit"><div><h5>Skills</h5><p><code>design-director</code> (every reported fault becomes a failing check), <code>web-accessibility</code></p></div><div><h5>Servers and tools</h5><p><code>design-gates.mjs</code>, <code>verify.mjs</code>, Playwright</p></div><div><h5>Agents</h5><p><code>test-writer-fixer</code></p></div></div>
+        <p class="exit"><b>Exit:</b> each gate fails on today's build where the audit found faults (the 49-screen library, the floating button), proving it works.</p></div>
+      <div class="ph owner" data-n="6"><h3>Visual direction</h3><p>One look or two, against the film and hub. Three comps of the tactic and pattern pages, checked against the section 8 rules.</p>
         <div class="kit"><div><h5>Skills</h5><p><code>design-director</code>, <code>frontend-design</code>, <code>refactoring-ui</code>, <code>dataviz</code> (stage bar, ring), <code>emil-design-eng</code></p></div><div><h5>Servers and tools</h5><p><code>docs/design-catalogue/</code>; <code>design-gates.mjs</code>; Playwright at 375, 390, 1440</p></div><div><h5>Agents</h5><p><code>brand-guardian</code>, <code>ui-designer</code></p></div></div>
         <p class="ownerflag">You choose one direction.</p>
         <p class="exit"><b>Exit:</b> 0 gate failures on the chosen comp.</p></div>
-      <div class="ph" data-n="6"><h3>Rebuild the generator</h3><p>Static HTML from the spine first, so every page reads in full with no JavaScript. Then the frame, with THE HOUSE in the bar, the beacon and the version note.</p>
+      <div class="ph" data-n="7"><h3>Rebuild the generator</h3><p>Static HTML from the spine first, so every page reads in full with no JavaScript. Then the frame, with THE HOUSE in the bar, the beacon and the version note.</p>
         <div class="kit"><div><h5>Skills</h5><p><code>ponytail</code>, <code>impeccable</code>, <code>web-design-guidelines</code></p></div><div><h5>Servers and tools</h5><p><code>serve.py 8802</code></p></div><div><h5>Agents</h5><p><code>frontend-developer</code></p></div></div>
         <p class="exit"><b>Exit:</b> 530 pages in one command.</p></div>
-      <div class="ph" data-n="7"><h3>The interactive pieces</h3><p>Library filters, the back-to-pattern chip, the quick/sequence/full switch, the notice tool, search. Each works by keyboard and screen reader, and without JavaScript.</p>
+      <div class="ph" data-n="8"><h3>The interactive pieces</h3><p>Library filters, the back-to-pattern chip, the quick/sequence/full switch, the notice tool, search. Each works by keyboard and screen reader. Honest fallbacks without JavaScript: search goes to the A–Z lists, the notice tool becomes a plain list of signs by situation, category and situation pages do the filtering, and the read-time filter has none. Then a synthetic second sector (Entertainment data with every string renamed) runs through the generator to flush out anything music-specific early.</p>
         <div class="kit"><div><h5>Skills</h5><p><code>emil-design-eng</code>, <code>review-animations</code>, <code>web-perf</code></p></div><div><h5>Servers and tools</h5><p>Playwright</p></div><div><h5>Agents</h5><p><code>code-reviewer</code></p></div></div>
-        <p class="exit"><b>Exit:</b> keyboard, screen reader, reduced motion and no-JavaScript runs pass.</p></div>
-      <div class="ph" data-n="8"><h3>Checks that play it like a person</h3><p>New gates: two-tap reach per reader, page length budgets, fixed-over-text overlap, 200% text, one number system, no orphans, links by ID only, Pattern Decoder targets exist, safety note first, exact author word count, redirects. Then a contact sheet that I actually look at.</p>
+        <p class="exit"><b>Exit:</b> keyboard, screen reader, reduced motion and no-JavaScript runs pass; the synthetic sector builds with no code changes.</p></div>
+      <div class="ph" data-n="9"><h3>Checks that play it like a person</h3><p>Every gate from step 5, plus the content checks: no orphans, links by ID only, Pattern Decoder targets and anchors exist, safety line first on pattern and tactic pages, exact author word count, redirects. Then a contact sheet that I actually look at.</p>
         <div class="kit"><div><h5>Skills</h5><p><code>web-accessibility</code>, <code>better-accessibility</code>, <code>seo-audit</code>, <code>schema</code>, <code>security-review</code></p></div><div><h5>Servers and tools</h5><p><code>verify.mjs</code>, <code>design-gates.mjs</code>, axe</p></div><div><h5>Agents</h5><p><code>impeccable-finish-reviewer</code>, <code>security-auditor</code></p></div></div>
         <p class="exit"><b>Exit:</b> 0 failures.</p></div>
-      <div class="ph owner" data-n="9"><h3>Interface words</h3><p>Only the short interface lines: subtitles, doors, card lines, the Pattern Decoder card. The author's text is never touched.</p>
+      <div class="ph owner" data-n="10"><h3>Interface words</h3><p>Polish the interface lines drafted in step 4 (subtitles, doors, card lines, situation intros, computed-sentence templates, plain category names) and run the layout gates again. The author's text is never touched.</p>
         <div class="kit"><div><h5>Skills</h5><p><code>copy-editing</code>, <code>no-ai-slop</code></p></div><div><h5>Servers and tools</h5><p><code>strings.json</code></p></div><div><h5>Agents</h5><p>none</p></div></div>
         <p class="ownerflag">You approve the new lines.</p></div>
-      <div class="ph owner" data-n="10"><h3>Second sector and your phone</h3><p>The same build on Corporate once its package is in the repo. No code specific to one sector. Then your real-iPhone check.</p>
+      <div class="ph owner" data-n="11"><h3>Your phone, then Corporate</h3><p>Your real-iPhone check on Entertainment. Corporate runs through the same build whenever its package is in the repo. Entertainment's release doesn't wait for it.</p>
         <div class="kit"><div><h5>Skills</h5><p><code>design-director</code> critic round</p></div><div><h5>Servers and tools</h5><p>Playwright; a preview link</p></div><div><h5>Agents</h5><p><code>mobile-developer</code></p></div></div>
-        <p class="ownerflag">Needs: the Corporate package; your phone check.</p></div>
-      <div class="ph owner" data-n="11"><h3>Release</h3><p>Version and changelog in <code>sites.json</code> and on the page, in the same commit. Redirects, sitemaps, the hub proxy lines. Deploy only on your word; check live byte for byte.</p>
+        <p class="ownerflag">Needs: your phone check. Corporate needs its package.</p></div>
+      <div class="ph owner" data-n="12"><h3>Release</h3><p>Version and changelog in <code>sites.json</code> and on the page, in the same commit. Redirects, sitemaps, the hub proxy lines. Deploy only on your word; check live byte for byte.</p>
         <div class="kit"><div><h5>Skills</h5><p><code>seo-audit</code></p></div><div><h5>Servers and tools</h5><p>Netlify, <code>verify-deployed.mjs</code>, IndexNow</p></div><div><h5>Agents</h5><p>none</p></div></div>
         <p class="ownerflag">You say deploy.</p></div>
     </div>
@@ -493,16 +507,17 @@ ol.dec p{color:var(--ink2);font-size:.95rem}
   <section id="dec" aria-labelledby="dec-h">
     <header>
       <p class="eyebrow">11 · Your calls</p>
-      <h2 id="dec-h">Seven decisions before step 1</h2>
+      <h2 id="dec-h">Eight decisions before step 1</h2>
       <p class="sub">Pattern Decoder is settled: separate, unchanged, linked to. If you don't answer one of these, I'll use the recommendation and say so.</p>
     </header>
     <ol class="dec">
-      <li><h3>One look or two?</h3><p>Film and hub are dark and gold; the sector is light cream.</p><p class="rec"><b>Recommend:</b> one family, with a calmer reading ground for long text. Settled by comps in step 5.</p></li>
+      <li><h3>One look or two?</h3><p>Film and hub are dark and gold; the sector is light cream.</p><p class="rec"><b>Recommend:</b> one family, with a calmer reading ground for long text. Settled by comps in step 6.</p></li>
       <li><h3>Keep "tactics" and "patterns" as the words?</h3><p>With a plain subtitle under each.</p><p class="rec"><b>Recommend:</b> keep. They match your books, Pattern Decoder and what people search for.</p></li>
       <li><h3>Plain scale labels?</h3><p>"One person / An organization / The whole industry", with Individual, Institutional and Civilizational beside them.</p><p class="rec"><b>Recommend:</b> yes.</p></li>
-      <li><h3>THE HOUSE in the tab bar on sector pages?</h3><p>Today it floats and covers reading text on phones.</p><p class="rec"><b>Recommend:</b> yes, as the fifth slot in the bar.</p></li>
-      <li><h3>Situation pages, with two short written intros?</h3><p>Fans &amp; volunteers and Young performers &amp; families have too few patterns to stand alone without one.</p><p class="rec"><b>Recommend:</b> yes. I draft the intros; you approve them.</p></li>
+      <li><h3>THE HOUSE as a tab-bar slot on sector pages?</h3><p>Today it floats and covers reading text on phones. The slot opens the same shared drawer, unchanged.</p><p class="rec"><b>Recommend:</b> yes, as the fifth slot in the bar.</p></li>
+      <li><h3>Situation pages, each with a short intro?</h3><p>Twelve paragraphs per sector, drafted from the patterns each one holds.</p><p class="rec"><b>Recommend:</b> yes. I draft them; you approve them.</p></li>
       <li><h3>Rename the <code>family-</code> addresses to <code>/patterns/&lt;category&gt;</code>?</h3><p class="rec"><b>Recommend:</b> yes, with 301s.</p></li>
+      <li><h3>Plain category names in navigation?</h3><p>"Exit Prevention" instead of "Exit Prevention &amp; Entrapment Composites". The author's full name stays on the category page.</p><p class="rec"><b>Recommend:</b> yes, a list of ten for you to approve.</p></li>
       <li><h3>The 22 unmapped chain names (25 links)</h3><p>Need Concealment, Exit Prevention, Sextortion, Post-Separation Abuse and 18 more.</p><p class="rec"><b>Recommend:</b> I draft a mapping; you or the author confirm it.</p></li>
     </ol>
   </section>
