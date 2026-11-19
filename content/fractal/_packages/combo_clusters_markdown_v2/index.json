@@ -1,0 +1,5154 @@
+[
+ {
+  "id": "CORP_00_SECTOR_STANDARDS",
+  "sector": "CORP",
+  "file": "CORP/CORP_00_SECTOR_STANDARDS.md",
+  "type": "standards"
+ },
+ {
+  "id": "CORP-C001",
+  "sector": "CORP",
+  "file": "CORP/CORP_C001_grooming.md",
+  "type": "combo",
+  "title": "Grooming",
+  "category": "CAT01",
+  "tactics": [
+   "Love Bombing",
+   "Boundary Testing",
+   "Manufactured Intimacy",
+   "Intermittent Reinforcement",
+   "Isolation",
+   "Identity Hooking",
+   "Conditional Love"
+  ],
+  "standard": "v3"
+ },
+ {
+  "id": "CORP-C004",
+  "sector": "CORP",
+  "file": "CORP/CORP_C004_the-soulmate-fabrication.md",
+  "type": "combo",
+  "title": "The Soulmate Fabrication",
+  "category": "CAT01",
+  "tactics": [
+   "Manufactured Destiny",
+   "Mirroring-on-Demand",
+   "Exclusive Meaning",
+   "Love Bombing",
+   "Manufactured Intimacy",
+   "Future Faking",
+   "Identity Hooking"
+  ],
+  "standard": "v3"
+ },
+ {
+  "id": "CORP-C005",
+  "sector": "CORP",
+  "file": "CORP/CORP_C005_the-savior-trap.md",
+  "type": "combo",
+  "title": "The Savior Trap",
+  "category": "CAT01",
+  "tactics": [
+   "The Rescue Hook",
+   "Premature Vulnerability",
+   "Emotional Parasitism",
+   "Obligation Installation",
+   "Guilt-Tripping",
+   "Duty Scripts"
+  ],
+  "standard": "v3"
+ },
+ {
+  "id": "CORP-C006",
+  "sector": "CORP",
+  "file": "CORP/CORP_C006_the-care-trap.md",
+  "type": "combo",
+  "title": "The Care Trap",
+  "category": "CAT01",
+  "tactics": [
+   "Manufactured Intimacy",
+   "The Rescue Hook",
+   "Emotional Parasitism",
+   "Obligation Installation",
+   "Conditional Love"
+  ],
+  "standard": "v3"
+ },
+ {
+  "id": "CORP-C007",
+  "sector": "CORP",
+  "file": "CORP/CORP_C007_the-compliment-trap.md",
+  "type": "combo",
+  "title": "The Compliment Trap",
+  "category": "CAT01",
+  "tactics": [
+   "Pedestal Ploy",
+   "Negging",
+   "Comparative Devaluation",
+   "Intermittent Reinforcement",
+   "Conditional Love"
+  ],
+  "standard": "v3"
+ },
+ {
+  "id": "CORP-C008",
+  "sector": "CORP",
+  "file": "CORP/CORP_C008_bait-and-switch.md",
+  "type": "combo",
+  "title": "Bait and Switch",
+  "category": "CAT01",
+  "tactics": [
+   "Catfishing",
+   "Future Faking",
+   "Moving Goalposts",
+   "Commitment Traps",
+   "Sunk Cost Exploitation"
+  ],
+  "standard": "v3"
+ },
+ {
+  "id": "CORP-C009",
+  "sector": "CORP",
+  "file": "CORP/CORP_C009_emotional-debt-spiral.md",
+  "type": "combo",
+  "title": "Emotional Debt Spiral",
+  "category": "CAT01",
+  "tactics": [
+   "Loan-Sharking Gifts",
+   "Favor Debt",
+   "Obligation Hooks",
+   "Demand for Gratitude",
+   "Guilt-Tripping",
+   "Obligation Contracts"
+  ],
+  "standard": "v3"
+ },
+ {
+  "id": "CORP-C010",
+  "sector": "CORP",
+  "file": "CORP/CORP_C010_the-gratitude-prison.md",
+  "type": "combo",
+  "title": "The Gratitude Prison",
+  "category": "CAT01",
+  "tactics": [
+   "Loan-Sharking Gifts",
+   "Demand for Gratitude",
+   "Weaponized Generosity in Public",
+   "Guilt Legacy",
+   "Obligation Contracts",
+   "Punishment of Boundaries"
+  ],
+  "standard": "v3"
+ },
+ {
+  "id": "CORP-C012",
+  "sector": "CORP",
+  "file": "CORP/CORP_C012_exit-prevention-architecture.md",
+  "type": "combo",
+  "title": "Exit Prevention Architecture",
+  "category": "CAT02",
+  "tactics": [
+   "Sunk Cost Exploitation",
+   "Golden Bars",
+   "Financial Enmeshment",
+   "Financial Dependence by Design",
+   "Catastrophizing as Control",
+   "FOG",
+   "Phobia Indoctrination",
+   "Hoovering",
+   "Emotional Blackmail via Self-Harm Threats"
+  ],
+  "standard": "v3"
+ },
+ {
+  "id": "CORP-C013",
+  "sector": "CORP",
+  "file": "CORP/CORP_C013_the-golden-cage.md",
+  "type": "combo",
+  "title": "The Golden Cage",
+  "category": "CAT02",
+  "tactics": [
+   "Golden Bars",
+   "Financial Enmeshment",
+   "Financial Dependence by Design",
+   "Sunk Cost Exploitation",
+   "Performative Public Affection",
+   "Conditional Love"
+  ],
+  "standard": "v3"
+ },
+ {
+  "id": "CORP-C014",
+  "sector": "CORP",
+  "file": "CORP/CORP_C014_golden-handcuffs.md",
+  "type": "combo",
+  "title": "Golden Handcuffs",
+  "category": "CAT02",
+  "tactics": [
+   "Golden Bars",
+   "Financial Dependence by Design",
+   "Sunk Cost Exploitation",
+   "Conditional Love",
+   "Identity Hooking"
+  ],
+  "standard": "v3"
+ },
+ {
+  "id": "CORP-C015",
+  "sector": "CORP",
+  "file": "CORP/CORP_C015_the-obligation-web.md",
+  "type": "combo",
+  "title": "The Obligation Web",
+  "category": "CAT02",
+  "tactics": [
+   "Obligation Installation",
+   "Obligation Hooks",
+   "Obligation Contracts",
+   "Favor Debt",
+   "Guilt Legacy",
+   "Duty Scripts",
+   "FOG",
+   "Demand for Gratitude"
+  ],
+  "standard": "v3"
+ },
+ {
+  "id": "CORP-C016",
+  "sector": "CORP",
+  "file": "CORP/CORP_C016_the-dependency-web.md",
+  "type": "combo",
+  "title": "The Dependency Web",
+  "category": "CAT02",
+  "tactics": [
+   "Financial Enmeshment",
+   "Financial Dependence by Design",
+   "Isolation",
+   "Information Control",
+   "Identity Hooking",
+   "Forced Dependency",
+   "Emotional Parasitism",
+   "\"We're Family\" Erasure"
+  ],
+  "standard": "v3"
+ },
+ {
+  "id": "CORP-C017",
+  "sector": "CORP",
+  "file": "CORP/CORP_C017_forced-dependency.md",
+  "type": "combo",
+  "title": "Forced Dependency",
+  "category": "CAT02",
+  "tactics": [
+   "Financial Enmeshment",
+   "Isolation",
+   "Resource Sabotage",
+   "Golden Bars",
+   "Financial Dependence by Design",
+   "Information Control",
+   "Health Sabotage"
+  ],
+  "standard": "v3"
+ },
+ {
+  "id": "CORP-C018",
+  "sector": "CORP",
+  "file": "CORP/CORP_C018_the-debt-prison.md",
+  "type": "combo",
+  "title": "The Debt Prison",
+  "category": "CAT02",
+  "tactics": [
+   "Financial Enmeshment",
+   "Financial Dependence by Design",
+   "Sunk Cost Exploitation",
+   "Obligation Contracts",
+   "Guilt Legacy",
+   "Process Exhaustion"
+  ],
+  "standard": "v3"
+ },
+ {
+  "id": "CORP-C019",
+  "sector": "CORP",
+  "file": "CORP/CORP_C019_the-loyalty-trap.md",
+  "type": "combo",
+  "title": "The Loyalty Trap",
+  "category": "CAT02",
+  "tactics": [
+   "Forced Teaming",
+   "\"We're Family\" Erasure",
+   "Guilt Legacy",
+   "Obligation Contracts",
+   "Conditional Love",
+   "Punishment of Disloyalty"
+  ],
+  "standard": "v3"
+ },
+ {
+  "id": "CORP-C020",
+  "sector": "CORP",
+  "file": "CORP/CORP_C020_the-guilt-anchor.md",
+  "type": "combo",
+  "title": "The Guilt Anchor",
+  "category": "CAT02",
+  "tactics": [
+   "Guilt-Tripping",
+   "Obligation Hooks",
+   "Martyrdom Display",
+   "Emotional Hostage-Taking",
+   "FOG",
+   "Duty Scripts"
+  ],
+  "standard": "v3"
+ },
+ {
+  "id": "CORP-C021",
+  "sector": "CORP",
+  "file": "CORP/CORP_C021_the-identity-lock.md",
+  "type": "combo",
+  "title": "The Identity Lock",
+  "category": "CAT02",
+  "tactics": [
+   "Identity Hooking",
+   "Labeling",
+   "\"You've Changed\"",
+   "Social Identity Threat",
+   "Conditional Love",
+   "Isolation"
+  ],
+  "standard": "v3"
+ },
+ {
+  "id": "CORP-C022",
+  "sector": "CORP",
+  "file": "CORP/CORP_C022_the-sunk-cost-prison.md",
+  "type": "combo",
+  "title": "The Sunk Cost Prison",
+  "category": "CAT02",
+  "tactics": [
+   "Sunk Cost Exploitation",
+   "Commitment Traps",
+   "Future Faking",
+   "Moving Goalposts",
+   "FOG",
+   "Learned Helplessness"
+  ],
+  "standard": "v3"
+ },
+ {
+  "id": "CORP-C023",
+  "sector": "CORP",
+  "file": "CORP/CORP_C023_the-bridge-burner.md",
+  "type": "combo",
+  "title": "The Bridge Burner",
+  "category": "CAT02",
+  "tactics": [
+   "Isolation",
+   "Reputation Poisoning",
+   "Smear Campaign",
+   "Triangulation",
+   "FOG",
+   "Hoovering"
+  ],
+  "standard": "v3"
+ },
+ {
+  "id": "CORP-C026",
+  "sector": "CORP",
+  "file": "CORP/CORP_C026_obedience-training.md",
+  "type": "combo",
+  "title": "Obedience Training",
+  "category": "CAT03",
+  "tactics": [
+   "Enforcing Trivial Demands",
+   "Behavior Control",
+   "Overcorrection Demands",
+   "Punishment of Boundaries",
+   "Negative Reinforcement Traps",
+   "Group Consolidation"
+  ],
+  "standard": "v3"
+ },
+ {
+  "id": "CORP-C027",
+  "sector": "CORP",
+  "file": "CORP/CORP_C027_walking-on-eggshells.md",
+  "type": "combo",
+  "title": "Walking on Eggshells",
+  "category": "CAT03",
+  "tactics": [
+   "Ambient Abuse",
+   "Intermittent Reinforcement",
+   "Baiting",
+   "Punishment of Boundaries",
+   "Push-Pull",
+   "Dr. Jekyll/Mr. Hyde"
+  ],
+  "standard": "v3"
+ },
+ {
+  "id": "CORP-C028",
+  "sector": "CORP",
+  "file": "CORP/CORP_C028_the-frog-in-boiling-water.md",
+  "type": "combo",
+  "title": "The Frog in Boiling Water",
+  "category": "CAT03",
+  "tactics": [
+   "Boundary Testing",
+   "Normalization",
+   "Minimization",
+   "Commitment Traps",
+   "Sunk Cost Exploitation",
+   "Ambient Abuse"
+  ],
+  "standard": "v3"
+ },
+ {
+  "id": "CORP-C029",
+  "sector": "CORP",
+  "file": "CORP/CORP_C029_learned-silence.md",
+  "type": "combo",
+  "title": "Learned Silence",
+  "category": "CAT03",
+  "tactics": [
+   "Punishment of Boundaries",
+   "Group Consolidation",
+   "Pre-Punishment",
+   "Ambient Abuse",
+   "Baiting",
+   "Tone Policing",
+   "Extinction Bursts"
+  ],
+  "standard": "v3"
+ },
+ {
+  "id": "CORP-C030",
+  "sector": "CORP",
+  "file": "CORP/CORP_C030_the-impossible-standard.md",
+  "type": "combo",
+  "title": "The Impossible Standard",
+  "category": "CAT03",
+  "tactics": [
+   "Double Binds",
+   "Moving Goalposts",
+   "Impossible Metrics",
+   "Shame Installation",
+   "Overcorrection Demands",
+   "Conditional Love"
+  ],
+  "standard": "v3"
+ },
+ {
+  "id": "CORP-C031",
+  "sector": "CORP",
+  "file": "CORP/CORP_C031_the-rigged-game.md",
+  "type": "combo",
+  "title": "The Rigged Game",
+  "category": "CAT03",
+  "tactics": [
+   "Impossible Metrics",
+   "Moving Goalposts",
+   "Double Binds",
+   "Scapegoating",
+   "Credit Theft",
+   "Shame Installation",
+   "Malicious Compliance"
+  ],
+  "standard": "v3"
+ },
+ {
+  "id": "CORP-C032",
+  "sector": "CORP",
+  "file": "CORP/CORP_C032_the-loyalty-test.md",
+  "type": "combo",
+  "title": "The Loyalty Test",
+  "category": "CAT03",
+  "tactics": [
+   "Manufactured Urgency",
+   "False Dilemma",
+   "Duty Scripts",
+   "Baiting",
+   "Enforcing Trivial Demands",
+   "Conditional Love",
+   "Punishment of Boundaries"
+  ],
+  "standard": "v3"
+ },
+ {
+  "id": "CORP-C033",
+  "sector": "CORP",
+  "file": "CORP/CORP_C033_the-approval-addiction.md",
+  "type": "combo",
+  "title": "The Approval Addiction",
+  "category": "CAT03",
+  "tactics": [
+   "Conditional Love",
+   "Intermittent Reinforcement",
+   "Pedestal Ploy",
+   "Negging",
+   "Shame Installation",
+   "Identity Hooking"
+  ],
+  "standard": "v3"
+ },
+ {
+  "id": "CORP-C034",
+  "sector": "CORP",
+  "file": "CORP/CORP_C034_performance-extraction.md",
+  "type": "combo",
+  "title": "Performance Extraction",
+  "category": "CAT03",
+  "tactics": [
+   "Future Faking",
+   "Sunk Cost Exploitation",
+   "Bread-crumbing",
+   "Intermittent Reinforcement",
+   "Conditional Love",
+   "Manufactured Scarcity",
+   "Moving Goalposts"
+  ],
+  "standard": "v3"
+ },
+ {
+  "id": "CORP-C035",
+  "sector": "CORP",
+  "file": "CORP/CORP_C035_the-burnout-machine.md",
+  "type": "combo",
+  "title": "The Burnout Machine",
+  "category": "CAT03",
+  "tactics": [
+   "Ritualized Exhaustion",
+   "Impossible Metrics",
+   "Moving Goalposts",
+   "Duty Scripts",
+   "Guilt-Tripping",
+   "Performance Extraction",
+   "Strategic Chaos"
+  ],
+  "standard": "v3"
+ },
+ {
+  "id": "CORP-C038",
+  "sector": "CORP",
+  "file": "CORP/CORP_C038_the-compliance-cascade.md",
+  "type": "combo",
+  "title": "The Compliance Cascade",
+  "category": "CAT03",
+  "tactics": [
+   "Foot-in-the-Door",
+   "Graduated Compliance",
+   "Reward/Punishment Cycling",
+   "Normalization",
+   "Authority Worship",
+   "Learned Compliance"
+  ],
+  "standard": "v3"
+ },
+ {
+  "id": "CORP-C039",
+  "sector": "CORP",
+  "file": "CORP/CORP_C039_the-reward-maze.md",
+  "type": "combo",
+  "title": "The Reward Maze",
+  "category": "CAT03",
+  "tactics": [
+   "Token Economy",
+   "Intermittent Reinforcement",
+   "Variable Ratio Reinforcement",
+   "Conditional Worth",
+   "Moving Goalposts",
+   "Performance Addiction",
+   "Identity Hooking"
+  ],
+  "standard": "v3"
+ },
+ {
+  "id": "CORP-C040",
+  "sector": "CORP",
+  "file": "CORP/CORP_C040_the-normalization-engine.md",
+  "type": "combo",
+  "title": "The Normalization Engine",
+  "category": "CAT03",
+  "tactics": [
+   "Gradual Escalation",
+   "Repetition as Truth",
+   "Social Proof",
+   "\"That's Just How It Is\"",
+   "Anchoring",
+   "Gaslighting",
+   "Window Shifting"
+  ],
+  "standard": "v3"
+ },
+ {
+  "id": "CORP-C041",
+  "sector": "CORP",
+  "file": "CORP/CORP_C041_the-silence-training.md",
+  "type": "combo",
+  "title": "The Silence Training",
+  "category": "CAT03",
+  "tactics": [
+   "Punishment of Voice",
+   "Public Shaming",
+   "Reward of Compliance",
+   "Social Proof",
+   "Fear Installation",
+   "Self-Censorship",
+   "Chilling Effect"
+  ],
+  "standard": "v3"
+ },
+ {
+  "id": "CORP-C042",
+  "sector": "CORP",
+  "file": "CORP/CORP_C042_the-learned-helplessness-machine.md",
+  "type": "combo",
+  "title": "The Learned Helplessness Machine",
+  "category": "CAT03",
+  "tactics": [
+   "Arbitrary Authority",
+   "Uncontrollable Outcomes",
+   "Process Exhaustion",
+   "Gaslighting",
+   "Minimization",
+   "Learned Helplessness",
+   "Apathy Installation"
+  ],
+  "standard": "v3"
+ },
+ {
+  "id": "CORP-C044",
+  "sector": "CORP",
+  "file": "CORP/CORP_C044_the-obedience-ladder.md",
+  "type": "combo",
+  "title": "The Obedience Ladder",
+  "category": "CAT03",
+  "tactics": [
+   "Foot-in-the-Door",
+   "Authority Worship",
+   "Graduated Compliance",
+   "Diffusion of Responsibility",
+   "Moral Disengagement",
+   "Normalization",
+   "\"Just Following Orders\""
+  ],
+  "standard": "v3"
+ },
+ {
+  "id": "CORP-C045",
+  "sector": "CORP",
+  "file": "CORP/CORP_C045_the-gaslighting-machine.md",
+  "type": "combo",
+  "title": "The Gaslighting Machine",
+  "category": "CAT04",
+  "tactics": [
+   "Gaslighting",
+   "Revisionist History",
+   "Minimization",
+   "DARVO",
+   "Plausible Deniability",
+   "Repetition as Truth"
+  ],
+  "standard": "v3"
+ },
+ {
+  "id": "CORP-C046",
+  "sector": "CORP",
+  "file": "CORP/CORP_C046_reality-replacement.md",
+  "type": "combo",
+  "title": "Reality Replacement",
+  "category": "CAT04",
+  "tactics": [
+   "Revisionist History",
+   "Repetition as Truth",
+   "Social Proof",
+   "Information Control",
+   "Gaslighting",
+   "Memory Flooding"
+  ],
+  "standard": "v3"
+ },
+ {
+  "id": "CORP-C047",
+  "sector": "CORP",
+  "file": "CORP/CORP_C047_the-confusion-protocol.md",
+  "type": "combo",
+  "title": "The Confusion Protocol",
+  "category": "CAT04",
+  "tactics": [
+   "Word Salad",
+   "Circular Logic",
+   "Strategic Ambiguity",
+   "Cognitive Overload",
+   "Moving Goalposts",
+   "Topic Switching"
+  ],
+  "standard": "v3"
+ },
+ {
+  "id": "CORP-C048",
+  "sector": "CORP",
+  "file": "CORP/CORP_C048_the-memory-hole.md",
+  "type": "combo",
+  "title": "The Memory Hole",
+  "category": "CAT04",
+  "tactics": [
+   "Revisionist History",
+   "Information Control",
+   "Social Proof",
+   "Gaslighting",
+   "Document Destruction",
+   "Repetition as Truth"
+  ],
+  "standard": "v3"
+ },
+ {
+  "id": "CORP-C049",
+  "sector": "CORP",
+  "file": "CORP/CORP_C049_the-false-narrative.md",
+  "type": "combo",
+  "title": "The False Narrative",
+  "category": "CAT04",
+  "tactics": [
+   "False Framing",
+   "Smear Campaign",
+   "Reputation Poisoning",
+   "Social Proof",
+   "Gaslighting",
+   "Repetition as Truth",
+   "Information Control"
+  ],
+  "standard": "v3"
+ },
+ {
+  "id": "CORP-C050",
+  "sector": "CORP",
+  "file": "CORP/CORP_C050_the-double-bind-trap.md",
+  "type": "combo",
+  "title": "The Double Bind Trap",
+  "category": "CAT04",
+  "tactics": [
+   "Double Binds",
+   "Moving Goalposts",
+   "Gaslighting",
+   "Shame Installation",
+   "DARVO",
+   "Conditional Love"
+  ],
+  "standard": "v3"
+ },
+ {
+  "id": "CORP-C051",
+  "sector": "CORP",
+  "file": "CORP/CORP_C051_perspective-poisoning.md",
+  "type": "combo",
+  "title": "Perspective Poisoning",
+  "category": "CAT04",
+  "tactics": [
+   "Anchoring",
+   "False Framing",
+   "Selective Disclosure",
+   "Information Control",
+   "Repetition as Truth",
+   "Social Proof",
+   "Priming"
+  ],
+  "standard": "v3"
+ },
+ {
+  "id": "CORP-C052",
+  "sector": "CORP",
+  "file": "CORP/CORP_C052_the-meaning-hijack.md",
+  "type": "combo",
+  "title": "The Meaning Hijack",
+  "category": "CAT04",
+  "tactics": [
+   "Strategic Ambiguity",
+   "Redefining Terms",
+   "False Framing",
+   "Repetition as Truth",
+   "Social Proof",
+   "Information Control"
+  ],
+  "standard": "v3"
+ },
+ {
+  "id": "CORP-C053",
+  "sector": "CORP",
+  "file": "CORP/CORP_C053_the-distortion-field.md",
+  "type": "combo",
+  "title": "The Distortion Field",
+  "category": "CAT04",
+  "tactics": [
+   "Gaslighting",
+   "Reality Replacement",
+   "Repetition as Truth",
+   "Social Proof",
+   "Information Control",
+   "Ambient Abuse",
+   "Cognitive Overload",
+   "Dr. Jekyll/Mr. Hyde"
+  ],
+  "standard": "v3"
+ },
+ {
+  "id": "CORP-C054",
+  "sector": "CORP",
+  "file": "CORP/CORP_C054_the-blame-reversal-engine.md",
+  "type": "combo",
+  "title": "The Blame Reversal Engine",
+  "category": "CAT05",
+  "tactics": [
+   "DARVO",
+   "Preemptive Documentation",
+   "Tone Policing",
+   "Diagnostic Deflection",
+   "Source Poisoning",
+   "Record Inversion"
+  ],
+  "standard": "v3"
+ },
+ {
+  "id": "CORP-C055",
+  "sector": "CORP",
+  "file": "CORP/CORP_C055_the-investigation-theater.md",
+  "type": "combo",
+  "title": "The Investigation Theater",
+  "category": "CAT05",
+  "tactics": [
+   "Performative Reception",
+   "Strategic Delay",
+   "Investigative Inversion",
+   "Opacity Shield",
+   "Visible Non-Consequence",
+   "Retroactive Repositioning"
+  ],
+  "standard": "v3"
+ },
+ {
+  "id": "CORP-C056",
+  "sector": "CORP",
+  "file": "CORP/CORP_C056_the-circular-referral-loop.md",
+  "type": "combo",
+  "title": "The Circular Referral Loop",
+  "category": "CAT05",
+  "tactics": [
+   "Sympathetic Intake",
+   "Authority Displacement",
+   "Procedural Embedding",
+   "Timeline Exploitation",
+   "Accountability Diffusion",
+   "Exhaustion Yield"
+  ],
+  "standard": "v3"
+ },
+ {
+  "id": "CORP-C057",
+  "sector": "CORP",
+  "file": "CORP/CORP_C057_the-paper-trail-fabrication.md",
+  "type": "combo",
+  "title": "The Paper Trail Fabrication",
+  "category": "CAT05",
+  "tactics": [
+   "Trigger Identification",
+   "Retroactive Recharacterization",
+   "Pattern Seeding",
+   "Asymmetric Curation",
+   "Access Delay",
+   "Institutional Citation"
+  ],
+  "standard": "v3"
+ },
+ {
+  "id": "CORP-C058",
+  "sector": "CORP",
+  "file": "CORP/CORP_C058_the-policy-shield.md",
+  "type": "combo",
+  "title": "The Policy Shield",
+  "category": "CAT05",
+  "tactics": [
+   "Procedural Legitimation",
+   "Form Gatekeeping",
+   "Jurisdictional Displacement",
+   "Documentation Extraction",
+   "Capacity Dilution",
+   "Unilateral Resolution"
+  ],
+  "standard": "v3"
+ },
+ {
+  "id": "CORP-C059",
+  "sector": "CORP",
+  "file": "CORP/CORP_C059_the-scapegoat-funnel.md",
+  "type": "combo",
+  "title": "The Scapegoat Funnel",
+  "category": "CAT05",
+  "tactics": [
+   "Mission Framing",
+   "Verbal Authorization",
+   "Visibility Inversion",
+   "Pressure Accumulation",
+   "Narrative Severance",
+   "Sacrificial Repositioning"
+  ],
+  "standard": "v3"
+ },
+ {
+  "id": "CORP-C060",
+  "sector": "CORP",
+  "file": "CORP/CORP_C060_the-confidentiality-cage.md",
+  "type": "combo",
+  "title": "The Confidentiality Cage",
+  "category": "CAT05",
+  "tactics": [
+   "Dutiful Reporting",
+   "Legal Authority Transfer",
+   "Confidentiality Weaponization",
+   "Access Severance",
+   "Quiet Resolution",
+   "Permanent Silencing"
+  ],
+  "standard": "v3"
+ },
+ {
+  "id": "CORP-C061",
+  "sector": "CORP",
+  "file": "CORP/CORP_C061_the-apology-substitute.md",
+  "type": "combo",
+  "title": "The Apology Substitute",
+  "category": "CAT05",
+  "tactics": [
+   "Responsive Velocity",
+   "Values Broadcasting",
+   "Abstraction Escalation",
+   "Agent Erasure",
+   "Victim Redirection",
+   "Resolution Without Acknowledgment"
+  ],
+  "standard": "v3"
+ },
+ {
+  "id": "CORP-C063",
+  "sector": "CORP",
+  "file": "CORP/CORP_C063_the-whistleblower-inversion.md",
+  "type": "combo",
+  "title": "The Whistleblower Inversion",
+  "category": "CAT05",
+  "tactics": [
+   "Internal Exhaustion Prerequisite",
+   "External Trigger Escalation",
+   "Surveillance Activation",
+   "Phantom Complaint Injection",
+   "Professional Degradation",
+   "Geographic Displacement"
+  ],
+  "standard": "v3"
+ },
+ {
+  "id": "CORP-C065",
+  "sector": "CORP",
+  "file": "CORP/CORP_C065_the-both-sides-equalizer.md",
+  "type": "combo",
+  "title": "The \"Both Sides\" Equalizer",
+  "category": "CAT05",
+  "tactics": [
+   "Conflict Reframing",
+   "Procedural Symmetry",
+   "Mutual Agreement Fabrication",
+   "File Equalization",
+   "Privacy Weaponization",
+   "Closure Manufacture"
+  ],
+  "standard": "v3"
+ },
+ {
+  "id": "CORP-C066",
+  "sector": "CORP",
+  "file": "CORP/CORP_C066_the-nda-silencer.md",
+  "type": "combo",
+  "title": "The NDA Silencer",
+  "category": "CAT05",
+  "tactics": [
+   "Systemic Neglect Documentation",
+   "Crisis-Triggered Repair",
+   "Reputational Threat Conversion",
+   "Economic Coercion",
+   "Consent Fabrication",
+   "Institutional Memory Erasure"
+  ],
+  "standard": "v3"
+ },
+ {
+  "id": "CORP-C067",
+  "sector": "CORP",
+  "file": "CORP/CORP_C067_the-voluntary-departure-rewrite.md",
+  "type": "combo",
+  "title": "The Voluntary Departure Rewrite",
+  "category": "CAT05",
+  "tactics": [
+   "Values Misalignment Manufacturing",
+   "Binary Choice Construction",
+   "Positive Reference Leverage",
+   "Voluntary Narrative Installation",
+   "Community Confusion Exploitation",
+   "Legacy Erasure"
+  ],
+  "standard": "v3"
+ },
+ {
+  "id": "CORP-C068",
+  "sector": "CORP",
+  "file": "CORP/CORP_C068_the-committee-burial.md",
+  "type": "combo",
+  "title": "The Committee Burial",
+  "category": "CAT05",
+  "tactics": [
+   "Responsive Performance",
+   "Inclusion Capture",
+   "Structural Dilution",
+   "Timeline Elongation",
+   "Complexity Saturation",
+   "Recommendation Deferral"
+  ],
+  "standard": "v3"
+ },
+ {
+  "id": "CORP-C069",
+  "sector": "CORP",
+  "file": "CORP/CORP_C069_the-isolated-incident-quarantine.md",
+  "type": "combo",
+  "title": "The Isolated Incident Quarantine",
+  "category": "CAT05",
+  "tactics": [
+   "Campus-Level Containment",
+   "Case Closure Protocol",
+   "Cross-Campus Blindness",
+   "Aggregate Reporting Substitution",
+   "Policy Adequacy Defense",
+   "Accountability Fragmentation"
+  ],
+  "standard": "v3"
+ },
+ {
+  "id": "CORP-C070",
+  "sector": "CORP",
+  "file": "CORP/CORP_C070_the-expert-validation-shield.md",
+  "type": "combo",
+  "title": "The Expert Validation Shield",
+  "category": "CAT05",
+  "tactics": [
+   "Pre-Decision Concealment",
+   "Expert Procurement",
+   "Process Performance",
+   "Credential Asymmetry Deployment",
+   "Language Laundering",
+   "Democratic Validation"
+  ],
+  "standard": "v3"
+ },
+ {
+  "id": "CORP-C071",
+  "sector": "CORP",
+  "file": "CORP/CORP_C071_the-darvo-cascade.md",
+  "type": "combo",
+  "title": "The DARVO Cascade",
+  "category": "CAT05",
+  "tactics": [
+   "DARVO",
+   "Role Reversal Traps",
+   "Preemptive Accusation",
+   "Complaint Weaponization",
+   "Pity Plays",
+   "Weaponized Tears",
+   "Credibility Theft"
+  ],
+  "standard": "v3"
+ },
+ {
+  "id": "CORP-C072",
+  "sector": "CORP",
+  "file": "CORP/CORP_C072_emotional-laundering.md",
+  "type": "combo",
+  "title": "Emotional Laundering",
+  "category": "CAT05",
+  "tactics": [
+   "Non-Apology Apology",
+   "Pity Plays",
+   "Aftercare Control",
+   "Forced Forgiveness",
+   "Apology Without Repair",
+   "Relief Bait"
+  ],
+  "standard": "v3"
+ },
+ {
+  "id": "CORP-C073",
+  "sector": "CORP",
+  "file": "CORP/CORP_C073_the-accountability-firewall.md",
+  "type": "combo",
+  "title": "The Accountability Firewall",
+  "category": "CAT05",
+  "tactics": [
+   "Deflection",
+   "Whataboutism",
+   "Projection",
+   "Contradiction Stacking",
+   "Non-Apology Apology",
+   "Role Reversal Traps",
+   "Burden of Proof Shifting",
+   "Diffusion of Responsibility"
+  ],
+  "standard": "v3"
+ },
+ {
+  "id": "CORP-C074",
+  "sector": "CORP",
+  "file": "CORP/CORP_C074_the-accountability-black-hole.md",
+  "type": "combo",
+  "title": "The Accountability Black Hole",
+  "category": "CAT05",
+  "tactics": [
+   "Diffusion of Responsibility",
+   "Plausible Deniability",
+   "Process Exhaustion",
+   "HR Shielding",
+   "Confidentiality as Weapon",
+   "Pseudo-Consultation",
+   "Paper-Trail Traps"
+  ],
+  "standard": "v3"
+ },
+ {
+  "id": "CORP-C075",
+  "sector": "CORP",
+  "file": "CORP/CORP_C075_concern-masking.md",
+  "type": "combo",
+  "title": "Concern Masking",
+  "category": "CAT05",
+  "tactics": [
+   "Concern Trolling",
+   "Plausible Deniability",
+   "Tone Policing",
+   "Shame-as-Governance Disguised as Advice",
+   "Performative Public Affection"
+  ],
+  "standard": "v3"
+ },
+ {
+  "id": "CORP-C076",
+  "sector": "CORP",
+  "file": "CORP/CORP_C076_weaponized-vulnerability.md",
+  "type": "combo",
+  "title": "Weaponized Vulnerability",
+  "category": "CAT05",
+  "tactics": [
+   "Strategic Vulnerability",
+   "Pity Plays",
+   "Premature Vulnerability",
+   "Role Reversal Traps",
+   "Strategic Self-Deprecation",
+   "Emotional Blackmail via Implicit Consequence"
+  ],
+  "standard": "v3"
+ },
+ {
+  "id": "CORP-C077",
+  "sector": "CORP",
+  "file": "CORP/CORP_C077_velvet-glove-control.md",
+  "type": "combo",
+  "title": "Velvet Glove Control",
+  "category": "CAT05",
+  "tactics": [
+   "Counterfeit Calm",
+   "Plausible Deniability",
+   "Performative Public Affection",
+   "Concern Masking",
+   "Clinical Tone Policing",
+   "Shame-as-Governance Disguised as Advice"
+  ],
+  "standard": "v3"
+ },
+ {
+  "id": "CORP-C078",
+  "sector": "CORP",
+  "file": "CORP/CORP_C078_the-velvet-threat.md",
+  "type": "combo",
+  "title": "The Velvet Threat",
+  "category": "CAT05",
+  "tactics": [
+   "Ambient Abuse",
+   "Plausible Deniability",
+   "Counterfeit Calm",
+   "Legal/Administrative Threats",
+   "Demonstrating Omnipotence",
+   "Ambiguity as Weapon"
+  ],
+  "standard": "v3"
+ },
+ {
+  "id": "CORP-C079",
+  "sector": "CORP",
+  "file": "CORP/CORP_C079_the-isolation-campaign.md",
+  "type": "combo",
+  "title": "The Isolation Campaign",
+  "category": "CAT06",
+  "tactics": [
+   "Trigger Cataloging",
+   "Silent Coalition Building",
+   "Access Removal",
+   "Narrative Injection",
+   "Ambient Exclusion",
+   "Self-Exile Completion"
+  ],
+  "standard": "v3"
+ },
+ {
+  "id": "CORP-C080",
+  "sector": "CORP",
+  "file": "CORP/CORP_C080_the-reputation-assassination.md",
+  "type": "combo",
+  "title": "The Reputation Assassination",
+  "category": "CAT06",
+  "tactics": [
+   "Strategic Timing",
+   "Untraceable Seeding",
+   "Institutional Contamination",
+   "Narrative Mutation",
+   "Social Proof Amplification",
+   "Strategic Dissolution"
+  ],
+  "standard": "v3"
+ },
+ {
+  "id": "CORP-C081",
+  "sector": "CORP",
+  "file": "CORP/CORP_C081_the-flying-monkey-network.md",
+  "type": "combo",
+  "title": "The Flying Monkey Network",
+  "category": "CAT06",
+  "tactics": [
+   "Complaint Leaking",
+   "Proxy Recruitment",
+   "Social Pressure Layering",
+   "Plausible Deniability",
+   "Community Reframing",
+   "Withdrawal Pressure"
+  ],
+  "standard": "v3"
+ },
+ {
+  "id": "CORP-C083",
+  "sector": "CORP",
+  "file": "CORP/CORP_C083_the-social-proof-trap.md",
+  "type": "combo",
+  "title": "The Social Proof Trap",
+  "category": "CAT06",
+  "tactics": [
+   "Authority Presentation",
+   "Early Endorsement Seeding",
+   "Silence Harvesting",
+   "Pluralistic Ignorance Installation",
+   "Compliance Cascade",
+   "Retroactive Justification"
+  ],
+  "standard": "v3"
+ },
+ {
+  "id": "CORP-C084",
+  "sector": "CORP",
+  "file": "CORP/CORP_C084_the-triangulation-web.md",
+  "type": "combo",
+  "title": "The Triangulation Web",
+  "category": "CAT06",
+  "tactics": [
+   "Confidential Disclosure Seeding",
+   "Selective Truth Weaponization",
+   "Defensive Withdrawal Induction",
+   "Mirror Operation",
+   "Central Positioning",
+   "Dependency Installation"
+  ],
+  "standard": "v3"
+ },
+ {
+  "id": "CORP-C086",
+  "sector": "CORP",
+  "file": "CORP/CORP_C086_the-alliance-fracture.md",
+  "type": "combo",
+  "title": "The Alliance Fracture",
+  "category": "CAT06",
+  "tactics": [
+   "Target Selection",
+   "Exclusive Access",
+   "Information Asymmetry",
+   "Confidentiality Binding",
+   "Reentry Disruption",
+   "Momentum Collapse"
+  ],
+  "standard": "v3"
+ },
+ {
+  "id": "CORP-C087",
+  "sector": "CORP",
+  "file": "CORP/CORP_C087_social-currency-manipulation.md",
+  "type": "combo",
+  "title": "Social Currency Manipulation",
+  "category": "CAT06",
+  "tactics": [
+   "Vulnerability Identification",
+   "Social Elevation",
+   "Reciprocity Activation",
+   "Escalation Testing",
+   "Social Debt Invocation",
+   "Revocation Threat"
+  ],
+  "standard": "v3"
+ },
+ {
+  "id": "CORP-C088",
+  "sector": "CORP",
+  "file": "CORP/CORP_C088_character-assassination.md",
+  "type": "combo",
+  "title": "Character Assassination",
+  "category": "CAT06",
+  "tactics": [
+   "Smear Campaigns",
+   "Credibility Theft",
+   "Labeling as Identity Warfare",
+   "Reputation Laundering",
+   "Information Cascades",
+   "Priming"
+  ],
+  "standard": "v3"
+ },
+ {
+  "id": "CORP-C089",
+  "sector": "CORP",
+  "file": "CORP/CORP_C089_social-death.md",
+  "type": "combo",
+  "title": "Social Death",
+  "category": "CAT06",
+  "tactics": [
+   "Ostracism",
+   "Smear Campaigns",
+   "Silent Coalitions",
+   "Reputation Warfare",
+   "Information Cascades",
+   "Doxxing",
+   "Context Collapse",
+   "Group Consolidation"
+  ],
+  "standard": "v3"
+ },
+ {
+  "id": "CORP-C090",
+  "sector": "CORP",
+  "file": "CORP/CORP_C090_divide-and-conquer.md",
+  "type": "combo",
+  "title": "Divide and Conquer",
+  "category": "CAT06",
+  "tactics": [
+   "Triangulation",
+   "Smear Campaigns",
+   "Information Control",
+   "Splitting",
+   "Priming",
+   "Comparative Devaluation",
+   "Selective Information Sharing"
+  ],
+  "standard": "v3"
+ },
+ {
+  "id": "CORP-C091",
+  "sector": "CORP",
+  "file": "CORP/CORP_C091_social-puppeteering.md",
+  "type": "combo",
+  "title": "Social Puppeteering",
+  "category": "CAT06",
+  "tactics": [
+   "Triangulation",
+   "Flying Monkeys",
+   "Proxy Recruitment",
+   "Information Cascades",
+   "Plausible Deniability",
+   "Concern Trolling",
+   "Priming"
+  ],
+  "standard": "v3"
+ },
+ {
+  "id": "CORP-C092",
+  "sector": "CORP",
+  "file": "CORP/CORP_C092_emotional-ventriloquism.md",
+  "type": "combo",
+  "title": "Emotional Ventriloquism",
+  "category": "CAT06",
+  "tactics": [
+   "Flying Monkeys",
+   "Proxy Recruitment",
+   "Triangulation",
+   "Priming",
+   "Plausible Deniability"
+  ],
+  "standard": "v3"
+ },
+ {
+  "id": "CORP-C093",
+  "sector": "CORP",
+  "file": "CORP/CORP_C093_manufactured-consensus.md",
+  "type": "combo",
+  "title": "Manufactured Consensus",
+  "category": "CAT06",
+  "tactics": [
+   "False Consensus",
+   "Social Proof Pressure",
+   "Information Cascades",
+   "Sock Puppets",
+   "Coordinated Reporting",
+   "Priming",
+   "Reputation Laundering"
+  ],
+  "standard": "v3"
+ },
+ {
+  "id": "CORP-C094",
+  "sector": "CORP",
+  "file": "CORP/CORP_C094_mobbing.md",
+  "type": "combo",
+  "title": "Mobbing",
+  "category": "CAT06",
+  "tactics": [
+   "Pile-Ons",
+   "Ostracism",
+   "Silent Coalitions",
+   "Smear Campaigns",
+   "Group Consolidation",
+   "Scapegoating",
+   "Coordinated Reporting"
+  ],
+  "standard": "v3"
+ },
+ {
+  "id": "CORP-C095",
+  "sector": "CORP",
+  "file": "CORP/CORP_C095_the-proxy-war.md",
+  "type": "combo",
+  "title": "The Proxy War",
+  "category": "CAT06",
+  "tactics": [
+   "Flying Monkeys",
+   "Proxy Recruitment",
+   "Punishment by Proxy",
+   "Triangulation",
+   "Smear Campaigns",
+   "Plausible Deniability"
+  ],
+  "standard": "v3"
+ },
+ {
+  "id": "CORP-C096",
+  "sector": "CORP",
+  "file": "CORP/CORP_C096_the-smear-and-replace.md",
+  "type": "combo",
+  "title": "The Smear-and-Replace",
+  "category": "CAT06",
+  "tactics": [
+   "Smear Campaigns",
+   "Reputation Warfare",
+   "Idealize-Devalue-Discard",
+   "Love Bombing (Redirected)",
+   "The Exception Script (Recycled)",
+   "Comparative Devaluation"
+  ],
+  "standard": "v3"
+ },
+ {
+  "id": "CORP-C097",
+  "sector": "CORP",
+  "file": "CORP/CORP_C097_the-mission-drift-machine.md",
+  "type": "combo",
+  "title": "The Mission Drift Machine",
+  "category": "CAT07",
+  "tactics": [
+   "Mission Declaration",
+   "Metric Installation",
+   "Compliance Infrastructure",
+   "Autonomy Displacement",
+   "Metric-Mission Substitution",
+   "Dissent Absorption"
+  ],
+  "standard": "v3"
+ },
+ {
+  "id": "CORP-C100",
+  "sector": "CORP",
+  "file": "CORP/CORP_C100_the-innovation-theater.md",
+  "type": "combo",
+  "title": "The Innovation Theater",
+  "category": "CAT07",
+  "tactics": [
+   "Problem Identification (Selective)",
+   "Vendor Solution Adoption",
+   "Language Inflation",
+   "Metric Substitution",
+   "Teacher Displacement",
+   "Critique Absorption"
+  ],
+  "standard": "v3"
+ },
+ {
+  "id": "CORP-C101",
+  "sector": "CORP",
+  "file": "CORP/CORP_C101_the-hierarchy-enforcement-engine.md",
+  "type": "combo",
+  "title": "The Hierarchy Enforcement Engine",
+  "category": "CAT07",
+  "tactics": [
+   "Communication Chain Restriction",
+   "Access Gatekeeping",
+   "Challenge Suppression",
+   "Role Confinement",
+   "Internalization",
+   "Firewall Function"
+  ],
+  "standard": "v3"
+ },
+ {
+  "id": "CORP-C102",
+  "sector": "CORP",
+  "file": "CORP/CORP_C102_the-resource-extraction-pipeline.md",
+  "type": "combo",
+  "title": "The Resource Extraction Pipeline",
+  "category": "CAT07",
+  "tactics": [
+   "Structural Underfunding",
+   "Gap Normalization",
+   "Personal Subsidy Extraction",
+   "Labor Extraction",
+   "Celebration Capture",
+   "Cycle Perpetuation"
+  ],
+  "standard": "v3"
+ },
+ {
+  "id": "CORP-C104",
+  "sector": "CORP",
+  "file": "CORP/CORP_C104_the-revolving-door-trap.md",
+  "type": "combo",
+  "title": "The Revolving Door Trap",
+  "category": "CAT07",
+  "tactics": [
+   "Leadership Arrival Narrative",
+   "Initiative Proliferation",
+   "Predecessor Erasure",
+   "Implementation Interruption",
+   "Teacher Insulation",
+   "Accountability Reset"
+  ],
+  "standard": "v3"
+ },
+ {
+  "id": "CORP-C107",
+  "sector": "CORP",
+  "file": "CORP/CORP_C107_institutional-capture.md",
+  "type": "combo",
+  "title": "Institutional Capture",
+  "category": "CAT07",
+  "tactics": [
+   "HR Shielding",
+   "Paper-Trail Traps",
+   "Complaint Weaponization",
+   "Process Exhaustion",
+   "Confidentiality as Weapon",
+   "Controlled Opposition",
+   "Pseudo-Consultation",
+   "Diffusion of Responsibility"
+  ],
+  "standard": "v3"
+ },
+ {
+  "id": "CORP-C108",
+  "sector": "CORP",
+  "file": "CORP/CORP_C108_professional-destruction.md",
+  "type": "combo",
+  "title": "Professional Destruction",
+  "category": "CAT07",
+  "tactics": [
+   "Credit Theft",
+   "Scapegoating",
+   "Smear Campaigns",
+   "Managed Out Through Exhaustion",
+   "PIP Weaponization",
+   "Reputation Warfare",
+   "Administrative Escalation",
+   "Labeling as Identity Warfare"
+  ],
+  "standard": "v3"
+ },
+ {
+  "id": "CORP-C109",
+  "sector": "CORP",
+  "file": "CORP/CORP_C109_knowledge-weaponization.md",
+  "type": "combo",
+  "title": "Knowledge Weaponization",
+  "category": "CAT07",
+  "tactics": [
+   "Information Control",
+   "False Authority",
+   "Credential-Costuming",
+   "Gaslighting by Omission",
+   "Strategic Incompleteness",
+   "Authority Hijack",
+   "Sealioning"
+  ],
+  "standard": "v3"
+ },
+ {
+  "id": "CORP-C113",
+  "sector": "CORP",
+  "file": "CORP/CORP_C113_the-paper-trail-ambush.md",
+  "type": "combo",
+  "title": "The Paper Trail Ambush",
+  "category": "CAT07",
+  "tactics": [
+   "Paper-Trail Traps",
+   "False Reports",
+   "Complaint Weaponization",
+   "Preemptive Accusation",
+   "Priming",
+   "Selective Memory",
+   "Vague Allegations"
+  ],
+  "standard": "v3"
+ },
+ {
+  "id": "CORP-C124",
+  "sector": "CORP",
+  "file": "CORP/CORP_C124_the-platform-lock-in.md",
+  "type": "combo",
+  "title": "The Platform Lock-In",
+  "category": "CAT08",
+  "tactics": [
+   "Free Adoption",
+   "Ecosystem Embedding",
+   "Data Accumulation",
+   "Switching Cost Inflation",
+   "Terms Modification",
+   "Institutional Dependency Normalization"
+  ],
+  "standard": "v3"
+ },
+ {
+  "id": "CORP-C133",
+  "sector": "CORP",
+  "file": "CORP/CORP_C133_competence-undermining.md",
+  "type": "combo",
+  "title": "Competence Undermining",
+  "category": "CAT09",
+  "tactics": [
+   "Credit Theft",
+   "Infantilization",
+   "Negging",
+   "Weaponized Incompetence",
+   "Sabotaging Success",
+   "Impossible Metrics",
+   "Comparative Devaluation"
+  ],
+  "standard": "v3"
+ },
+ {
+  "id": "CORP-C135",
+  "sector": "CORP",
+  "file": "CORP/CORP_C135_manufactured-crisis-bonding.md",
+  "type": "combo",
+  "title": "Manufactured Crisis Bonding",
+  "category": "CAT09",
+  "tactics": [
+   "Strategic Chaos/Crisis Manufacturing",
+   "Forced Teaming",
+   "Trauma Bonding",
+   "Emotional Flooding",
+   "Isolation"
+  ],
+  "standard": "v3"
+ },
+ {
+  "id": "CORP-C137",
+  "sector": "CORP",
+  "file": "CORP/CORP_C137_death-by-a-thousand-cuts.md",
+  "type": "combo",
+  "title": "Death by a Thousand Cuts",
+  "category": "CAT09",
+  "tactics": [
+   "Ambient Abuse",
+   "Boundary Testing",
+   "Minimization",
+   "Negging",
+   "Name-Calling Disguised as Humor",
+   "Tone Policing",
+   "Emotional Invalidation",
+   "Strategic Apathy",
+   "Time Theft",
+   "Contempt"
+  ],
+  "standard": "v3"
+ },
+ {
+  "id": "CORP-C141",
+  "sector": "CORP",
+  "file": "CORP/CORP_C141_spiritual-moral-hijacking.md",
+  "type": "combo",
+  "title": "Spiritual/Moral Hijacking",
+  "category": "CAT09",
+  "tactics": [
+   "Spiritual Abuse/Sacred Manipulation",
+   "Duty Scripts",
+   "Guilt Legacy",
+   "Shame Installation",
+   "Thought Control",
+   "Phobia Indoctrination",
+   "Conditional Love"
+  ],
+  "standard": "v3"
+ },
+ {
+  "id": "CORP-C143",
+  "sector": "CORP",
+  "file": "CORP/CORP_C143_the-scapegoat-machine.md",
+  "type": "combo",
+  "title": "The Scapegoat Machine",
+  "category": "CAT09",
+  "tactics": [
+   "Scapegoating",
+   "Labeling as Identity Warfare",
+   "Group Consolidation",
+   "Pile-Ons",
+   "Smear Campaigns",
+   "Ostracism",
+   "Shame Installation",
+   "Internalized Conditioning"
+  ],
+  "standard": "v3"
+ },
+ {
+  "id": "CORP-C144",
+  "sector": "CORP",
+  "file": "CORP/CORP_C144_weaponized-therapy-language.md",
+  "type": "combo",
+  "title": "Weaponized Therapy Language",
+  "category": "CAT09",
+  "tactics": [
+   "Therapeutic Manipulation/Pathological Framing",
+   "Labeling as Identity Warfare",
+   "Trash-Can Diagnosis",
+   "Concern Trolling",
+   "Shame Installation",
+   "Tone Policing",
+   "Forced Forgiveness"
+  ],
+  "standard": "v3"
+ },
+ {
+  "id": "CORP-C150",
+  "sector": "CORP",
+  "file": "CORP/CORP_C150_the-exception-script.md",
+  "type": "combo",
+  "title": "The Exception Script",
+  "category": "CAT10",
+  "tactics": [
+   "Love Bombing",
+   "Exclusive Meaning",
+   "Manufactured Destiny",
+   "Future Faking",
+   "Conditional Love",
+   "Comparative Devaluation"
+  ],
+  "standard": "v3"
+ },
+ {
+  "id": "CORP-C152",
+  "sector": "CORP",
+  "file": "CORP/CORP_C152_the-competitive-isolation-grid.md",
+  "type": "combo",
+  "title": "The Competitive Isolation Grid",
+  "category": "CAT10",
+  "tactics": [
+   "Triangulation",
+   "Comparative Devaluation",
+   "Manufactured Scarcity",
+   "Information Control",
+   "Isolation",
+   "Conditional Love"
+  ],
+  "standard": "v3"
+ },
+ {
+  "id": "CORP-C153",
+  "sector": "CORP",
+  "file": "CORP/CORP_C153_the-performative-ally.md",
+  "type": "combo",
+  "title": "The Performative Ally",
+  "category": "CAT10",
+  "tactics": [
+   "Virtue Signaling as Shield",
+   "Performative Public Affection",
+   "Reputation Laundering",
+   "Concern Trolling",
+   "Tokenism",
+   "Pseudo-Consultation",
+   "Strategic Philanthropy"
+  ],
+  "standard": "v3"
+ },
+ {
+  "id": "CORP-C155",
+  "sector": "CORP",
+  "file": "CORP/CORP_C155_the-double-life-manager.md",
+  "type": "combo",
+  "title": "The Double Life Manager",
+  "category": "CAT10",
+  "tactics": [
+   "Dr. Jekyll/Mr. Hyde",
+   "Compartmentalization",
+   "Plausible Deniability",
+   "Performative Public Affection",
+   "Gaslighting",
+   "Information Control"
+  ],
+  "standard": "v3"
+ },
+ {
+  "id": "CORP-C157",
+  "sector": "CORP",
+  "file": "CORP/CORP_C157_the-benevolent-dictator.md",
+  "type": "combo",
+  "title": "The Benevolent Dictator",
+  "category": "CAT10",
+  "tactics": [
+   "Velvet Glove Control",
+   "Performative Public Affection",
+   "\"I Know Best\" Paternalism",
+   "Conditional Love",
+   "Infantilization",
+   "Demonstrating Omnipotence",
+   "Pseudo-Consultation"
+  ],
+  "standard": "v3"
+ },
+ {
+  "id": "CORP-C160",
+  "sector": "CORP",
+  "file": "CORP/CORP_C160_the-cult-of-personality.md",
+  "type": "combo",
+  "title": "The Cult of Personality",
+  "category": "CAT10",
+  "tactics": [
+   "Charismatic Authority",
+   "Love Bombing",
+   "Identity Hooking",
+   "Manufactured Destiny",
+   "\"We're Family\" Erasure",
+   "Thought-Stopping Clichés",
+   "Phobia Indoctrination",
+   "Demonstrating Omnipotence",
+   "Conditional Love"
+  ],
+  "standard": "v3"
+ },
+ {
+  "id": "CORP-C161",
+  "sector": "CORP",
+  "file": "CORP/CORP_C161_the-recursive-trap.md",
+  "type": "combo",
+  "title": "The Recursive Trap",
+  "category": "CAT10",
+  "tactics": [
+   "Double Binds",
+   "Complaint Weaponization",
+   "Role Reversal Traps",
+   "Meta-Gaslighting",
+   "Semantic Traps",
+   "Kafka Trapping"
+  ],
+  "standard": "v3"
+ },
+ {
+  "id": "CORP-C162",
+  "sector": "CORP",
+  "file": "CORP/CORP_C162_the-weaponized-gift-economy.md",
+  "type": "combo",
+  "title": "The Weaponized Gift Economy",
+  "category": "CAT10",
+  "tactics": [
+   "Loan-Sharking Gifts",
+   "Weaponized Generosity in Public",
+   "Strategic Philanthropy",
+   "Demand for Gratitude",
+   "Obligation Hooks",
+   "Guilt-Tripping",
+   "Financial Enmeshment"
+  ],
+  "standard": "v3"
+ },
+ {
+  "id": "CORP-C163",
+  "sector": "CORP",
+  "file": "CORP/CORP_C163_the-wellness-trap.md",
+  "type": "combo",
+  "title": "The Wellness Trap",
+  "category": "CAT10",
+  "tactics": [
+   "Therapeutic Manipulation/Pathological Framing",
+   "Strategic Chaos (Maintained)",
+   "Shame Installation",
+   "Pseudo-Consultation",
+   "Concern Trolling",
+   "Individualization of Systemic Issues"
+  ],
+  "standard": "v3"
+ },
+ {
+  "id": "CORP-C168",
+  "sector": "CORP",
+  "file": "CORP/CORP_C168_surveillance-architecture.md",
+  "type": "combo",
+  "title": "Surveillance Architecture",
+  "category": "CAT08",
+  "tactics": [
+   "Buried Consent Disclosure",
+   "Covert Recording",
+   "Data Harvesting",
+   "Non-Consensual Distribution",
+   "Selective Deployment",
+   "Chilling Effect"
+  ],
+  "standard": "v3"
+ },
+ {
+  "id": "CORP-C169",
+  "sector": "CORP",
+  "file": "CORP/CORP_C169_the-phantom-equity.md",
+  "type": "combo",
+  "title": "The Phantom Equity",
+  "category": "CAT02",
+  "tactics": [
+   "Alignment Framing",
+   "Paper Deferral",
+   "Complexity Shield",
+   "Milestone Migration",
+   "Dilution Disguise",
+   "Exit Forfeiture"
+  ],
+  "standard": "v3"
+ },
+ {
+  "id": "CORP-C170",
+  "sector": "CORP",
+  "file": "CORP/CORP_C170_the-allocation-scarcity-engine.md",
+  "type": "combo",
+  "title": "The Allocation Scarcity Engine",
+  "category": "CAT01",
+  "tactics": [
+   "Privileged Access Framing",
+   "Manufactured Oversubscription",
+   "Compressed Window",
+   "Phantom Lead",
+   "Commitment Before Verification",
+   "FOMO Lock"
+  ],
+  "standard": "v3"
+ },
+ {
+  "id": "CORP-C171",
+  "sector": "CORP",
+  "file": "CORP/CORP_C171_the-economics-obfuscation-layer.md",
+  "type": "combo",
+  "title": "The Economics Obfuscation Layer",
+  "category": "CAT05",
+  "tactics": [
+   "Structural Layering",
+   "Fee Diffusion",
+   "Standard-Term Camouflage",
+   "Waterfall Opacity",
+   "Complexity-as-Authority",
+   "Disaggregated Consent"
+  ],
+  "standard": "v3"
+ },
+ {
+  "id": "CORP-C172",
+  "sector": "CORP",
+  "file": "CORP/CORP_C172_the-reputation-hostage.md",
+  "type": "combo",
+  "title": "The Reputation Hostage",
+  "category": "CAT02",
+  "tactics": [
+   "Public Association",
+   "Reputation Braiding",
+   "Mutual Exposure Framing",
+   "Silence Incentivization",
+   "Complicity Implication",
+   "Successor Enablement"
+  ],
+  "standard": "v3"
+ },
+ {
+  "id": "CORP-C173",
+  "sector": "CORP",
+  "file": "CORP/CORP_C173_the-mirror-hook.md",
+  "type": "combo",
+  "title": "The Mirror Hook",
+  "category": "CAT01",
+  "tactics": [
+   "Catfishing",
+   "Pacing and Leading",
+   "Premature Vulnerability / Trauma Dumping",
+   "Premature Trust Extraction",
+   "Premature Exclusivity",
+   "Identity Hooking"
+  ],
+  "standard": "v3"
+ },
+ {
+  "id": "CORP-C174",
+  "sector": "CORP",
+  "file": "CORP/CORP_C174_the-long-con.md",
+  "type": "combo",
+  "title": "The Long Con",
+  "category": "CAT08",
+  "tactics": [
+   "Social Mapping",
+   "Social Engineering",
+   "Manufactured Intimacy",
+   "Platform Migration",
+   "Pig Butchering (Long-Con Digital Fraud)",
+   "Manufactured Urgency"
+  ],
+  "standard": "v3"
+ },
+ {
+  "id": "CORP-C176",
+  "sector": "CORP",
+  "file": "CORP/CORP_C176_the-halo-shield.md",
+  "type": "combo",
+  "title": "The Halo Shield",
+  "category": "CAT05",
+  "tactics": [
+   "Halo Effect Exploitation",
+   "Confirmation Bias Exploitation",
+   "Performative Allyship / False Solidarity",
+   "Moral Licensing / Strategic Philanthropy",
+   "Blame-Shifting"
+  ],
+  "standard": "v3"
+ },
+ {
+  "id": "CORP-C177",
+  "sector": "CORP",
+  "file": "CORP/CORP_C177_the-bench.md",
+  "type": "combo",
+  "title": "The Bench",
+  "category": "CAT01",
+  "tactics": [
+   "Bread-crumbing",
+   "Anchoring to Peak Moments",
+   "Triangulation",
+   "Replacement Display",
+   "Orbiting"
+  ],
+  "standard": "v3"
+ },
+ {
+  "id": "CORP-C178",
+  "sector": "CORP",
+  "file": "CORP/CORP_C178_the-big-ask.md",
+  "type": "combo",
+  "title": "The Big Ask",
+  "category": "CAT03",
+  "tactics": [
+   "Door-in-the-Face",
+   "Anchoring",
+   "Commitment Traps / Foot-in-the-Door",
+   "Ultimatums",
+   "Obligation Enforcement"
+  ],
+  "standard": "v3"
+ },
+ {
+  "id": "CORP-C181",
+  "sector": "CORP",
+  "file": "CORP/CORP_C181_the-praise-leash.md",
+  "type": "combo",
+  "title": "The Praise Leash",
+  "category": "CAT03",
+  "tactics": [
+   "Grooming Through Praise",
+   "Emotional Parasitism",
+   "Bait Disclosure",
+   "Vulnerability Weaponization",
+   "Withholding / Silent Treatment"
+  ],
+  "standard": "v3"
+ },
+ {
+  "id": "CORP-C182",
+  "sector": "CORP",
+  "file": "CORP/CORP_C182_the-mood-weather.md",
+  "type": "combo",
+  "title": "The Mood Weather",
+  "category": "CAT03",
+  "tactics": [
+   "Rage as Regulation",
+   "Emotional Contamination",
+   "Emotional Sequencing",
+   "Fawning"
+  ],
+  "standard": "v3"
+ },
+ {
+  "id": "CORP-C183",
+  "sector": "CORP",
+  "file": "CORP/CORP_C183_the-unwinnable-conversation.md",
+  "type": "combo",
+  "title": "The Unwinnable Conversation",
+  "category": "CAT04",
+  "tactics": [
+   "Pseudo-Logic",
+   "Gish Gallop / Firehose of Falsehood",
+   "Exaggeration",
+   "Gotcha Framing",
+   "Tone Policing",
+   "Metacommunicative Abuse",
+   "Confusion as Control"
+  ],
+  "standard": "v3"
+ },
+ {
+  "id": "CORP-C184",
+  "sector": "CORP",
+  "file": "CORP/CORP_C184_the-perspective-eraser.md",
+  "type": "combo",
+  "title": "The Perspective Eraser",
+  "category": "CAT09",
+  "tactics": [
+   "Gaslighting",
+   "Perspecticide",
+   "Weaponized Therapy-Speak",
+   "Tone Policing",
+   "Collapse of Narrative Continuity"
+  ],
+  "standard": "v3"
+ },
+ {
+  "id": "CORP-C185",
+  "sector": "CORP",
+  "file": "CORP/CORP_C185_the-wall.md",
+  "type": "combo",
+  "title": "The Wall",
+  "category": "CAT05",
+  "tactics": [
+   "Stonewalling",
+   "Feigned Ignorance",
+   "Reverse Psychology",
+   "Limited Hangout",
+   "Lying",
+   "Competitive Victimhood"
+  ],
+  "standard": "v3"
+ },
+ {
+  "id": "CORP-C186",
+  "sector": "CORP",
+  "file": "CORP/CORP_C186_the-positivity-muzzle.md",
+  "type": "combo",
+  "title": "The Positivity Muzzle",
+  "category": "CAT03",
+  "tactics": [
+   "Toxic Positivity / Weaponized Optimism",
+   "Name-Calling Disguised as Humor",
+   "Forced Forgiveness / Weaponized Forgiveness",
+   "Silence Installation"
+  ],
+  "standard": "v3"
+ },
+ {
+  "id": "CORP-C187",
+  "sector": "CORP",
+  "file": "CORP/CORP_C187_the-information-laundromat.md",
+  "type": "combo",
+  "title": "The Information Laundromat",
+  "category": "CAT04",
+  "tactics": [
+   "Context Poisoning",
+   "Information Laundering",
+   "Astroturfing / Sock Puppets",
+   "Computational Propaganda",
+   "False Consensus / Social Proof Pressure",
+   "Normalization / Overton Window Manipulation",
+   "Post-Truth Epistemic Manipulation"
+  ],
+  "standard": "v3"
+ },
+ {
+  "id": "CORP-C188",
+  "sector": "CORP",
+  "file": "CORP/CORP_C188_the-fog-of-war.md",
+  "type": "combo",
+  "title": "The Fog of War",
+  "category": "CAT04",
+  "tactics": [
+   "Strategic Deception (Denial & Deception / D&D)",
+   "False Flag Operations",
+   "Frame Control / False Framing",
+   "Choice Restriction",
+   "Divide and Conquer",
+   "Echo Chamber Construction"
+  ],
+  "standard": "v3"
+ },
+ {
+  "id": "CORP-C190",
+  "sector": "CORP",
+  "file": "CORP/CORP_C190_the-synthetic-storm.md",
+  "type": "combo",
+  "title": "The Synthetic Storm",
+  "category": "CAT08",
+  "tactics": [
+   "Gish Gallop / Firehose of Falsehood",
+   "Forged Screenshots / Edited Evidence",
+   "Cyber Manipulation Operations (CMOs)",
+   "Immersive Manipulation (VR/AR)"
+  ],
+  "standard": "v3"
+ },
+ {
+  "id": "CORP-C191",
+  "sector": "CORP",
+  "file": "CORP/CORP_C191_the-erased-contributor.md",
+  "type": "combo",
+  "title": "The Erased Contributor",
+  "category": "CAT07",
+  "tactics": [
+   "Interruption Patterns",
+   "Credit Theft",
+   "Credit Laundering",
+   "\"Polite Hostile\" Environments",
+   "Mobbing",
+   "Performance Framework Manipulation"
+  ],
+  "standard": "v3"
+ },
+ {
+  "id": "CORP-C193",
+  "sector": "CORP",
+  "file": "CORP/CORP_C193_the-room.md",
+  "type": "combo",
+  "title": "The Room",
+  "category": "CAT03",
+  "tactics": [
+   "Intimidation",
+   "Interrogation",
+   "Ambient Sexual Threat",
+   "Fawning"
+  ],
+  "standard": "v3"
+ },
+ {
+  "id": "CORP-C194",
+  "sector": "CORP",
+  "file": "CORP/CORP_C194_the-family-verdict.md",
+  "type": "combo",
+  "title": "The Family Verdict",
+  "category": "CAT10",
+  "tactics": [
+   "Moving-in-Silence",
+   "Maternal Gatekeeping",
+   "Moral Framing",
+   "Reproductive Coercion",
+   "Children as Leverage",
+   "Guilt Legacy"
+  ],
+  "standard": "v3"
+ },
+ {
+  "id": "CORP-C195",
+  "sector": "CORP",
+  "file": "CORP/CORP_C195_the-disappearing-act.md",
+  "type": "combo",
+  "title": "The Disappearing Act",
+  "category": "CAT09",
+  "tactics": [
+   "Blame Discard",
+   "Ghosting as Control",
+   "Strategic Apathy / Weaponized Indifference",
+   "Orbiting",
+   "Attachment Disruption"
+  ],
+  "standard": "v3"
+ },
+ {
+  "id": "CORP-C196",
+  "sector": "CORP",
+  "file": "CORP/CORP_C196_the-afterlife.md",
+  "type": "combo",
+  "title": "The Afterlife",
+  "category": "CAT02",
+  "tactics": [
+   "Location Tracking",
+   "Account Control",
+   "Legal Abuse",
+   "Post-Separation Abuse",
+   "Legacy Contamination"
+  ],
+  "standard": "v3"
+ },
+ {
+  "id": "CORP-C197",
+  "sector": "CORP",
+  "file": "CORP/CORP_C197_the-public-breaking.md",
+  "type": "combo",
+  "title": "The Public Breaking",
+  "category": "CAT06",
+  "tactics": [
+   "Humiliation Rituals",
+   "Overcorrection Demands",
+   "Public Exposure",
+   "Group Consolidation / Chilling Effect",
+   "Silence Installation"
+  ],
+  "standard": "v3"
+ },
+ {
+  "id": "CORP-C199",
+  "sector": "CORP",
+  "file": "CORP/CORP_C199_the-captured-referee.md",
+  "type": "combo",
+  "title": "The Captured Referee",
+  "category": "CAT07",
+  "tactics": [
+   "Institutional Capture",
+   "Controlled Opposition",
+   "Captive Expertise",
+   "Policy as Proof",
+   "Visible Impunity"
+  ],
+  "standard": "v3"
+ },
+ {
+  "id": "CORP-C200",
+  "sector": "CORP",
+  "file": "CORP/CORP_C200_the-crisis-covenant.md",
+  "type": "combo",
+  "title": "The Crisis Covenant",
+  "category": "CAT01",
+  "tactics": [
+   "Crisis Bonding",
+   "Forced Teaming",
+   "Shared Secret Binding",
+   "Loyalty Binds",
+   "Exit Prevention"
+  ],
+  "standard": "v3"
+ },
+ {
+  "id": "CORP-C203",
+  "sector": "CORP",
+  "file": "CORP/CORP_C203_the-soft-sell.md",
+  "type": "combo",
+  "title": "The Soft Sell",
+  "category": "CAT01",
+  "tactics": [
+   "Legitimizing Paltry Contributions",
+   "That's-Not-All",
+   "Disrupt-Then-Reframe",
+   "Forced Continuity",
+   "Persistent Nagging",
+   "Sunk Cost Exploitation"
+  ],
+  "standard": "v3"
+ },
+ {
+  "id": "CORP-C205",
+  "sector": "CORP",
+  "file": "CORP/CORP_C205_the-deniable-accusation.md",
+  "type": "combo",
+  "title": "The Deniable Accusation",
+  "category": "CAT05",
+  "tactics": [
+   "Just Asking Questions",
+   "Motte-and-Bailey",
+   "Victim Blaming",
+   "Legal Abuse"
+  ],
+  "standard": "v3"
+ },
+ {
+  "id": "CORP_CAT01_intro",
+  "sector": "CORP",
+  "file": "CORP/CORP_CAT01_intro.md",
+  "type": "category_intro"
+ },
+ {
+  "id": "CORP_CAT02_intro",
+  "sector": "CORP",
+  "file": "CORP/CORP_CAT02_intro.md",
+  "type": "category_intro"
+ },
+ {
+  "id": "CORP_CAT03_intro",
+  "sector": "CORP",
+  "file": "CORP/CORP_CAT03_intro.md",
+  "type": "category_intro"
+ },
+ {
+  "id": "CORP_CAT04_intro",
+  "sector": "CORP",
+  "file": "CORP/CORP_CAT04_intro.md",
+  "type": "category_intro"
+ },
+ {
+  "id": "CORP_CAT05_intro",
+  "sector": "CORP",
+  "file": "CORP/CORP_CAT05_intro.md",
+  "type": "category_intro"
+ },
+ {
+  "id": "CORP_CAT06_intro",
+  "sector": "CORP",
+  "file": "CORP/CORP_CAT06_intro.md",
+  "type": "category_intro"
+ },
+ {
+  "id": "CORP_CAT07_intro",
+  "sector": "CORP",
+  "file": "CORP/CORP_CAT07_intro.md",
+  "type": "category_intro"
+ },
+ {
+  "id": "CORP_CAT08_intro",
+  "sector": "CORP",
+  "file": "CORP/CORP_CAT08_intro.md",
+  "type": "category_intro"
+ },
+ {
+  "id": "CORP_CAT09_intro",
+  "sector": "CORP",
+  "file": "CORP/CORP_CAT09_intro.md",
+  "type": "category_intro"
+ },
+ {
+  "id": "CORP_CAT10_intro",
+  "sector": "CORP",
+  "file": "CORP/CORP_CAT10_intro.md",
+  "type": "category_intro"
+ },
+ {
+  "id": "ENT_00_SECTOR_STANDARDS",
+  "sector": "ENT",
+  "file": "ENT/ENT_00_SECTOR_STANDARDS.md",
+  "type": "standards"
+ },
+ {
+  "id": "ENT-C001",
+  "sector": "ENT",
+  "file": "ENT/ENT_C001_grooming.md",
+  "type": "combo",
+  "title": "Grooming",
+  "category": "CAT01",
+  "tactics": [
+   "Love Bombing",
+   "Boundary Testing",
+   "Manufactured Intimacy",
+   "Intermittent Reinforcement",
+   "Isolation",
+   "Identity Hooking",
+   "Conditional Love"
+  ],
+  "standard": "v2"
+ },
+ {
+  "id": "ENT-C003",
+  "sector": "ENT",
+  "file": "ENT/ENT_C003_the-trauma-bond-engine.md",
+  "type": "combo",
+  "title": "The Trauma Bond Engine",
+  "category": "CAT01",
+  "tactics": [
+   "Intermittent Reinforcement",
+   "Trauma Bonding",
+   "Relief Bait",
+   "Push-Pull",
+   "FOG",
+   "Hoovering",
+   "Conditional Love"
+  ],
+  "standard": "v2"
+ },
+ {
+  "id": "ENT-C005",
+  "sector": "ENT",
+  "file": "ENT/ENT_C005_the-savior-trap.md",
+  "type": "combo",
+  "title": "The Savior Trap",
+  "category": "CAT01",
+  "tactics": [
+   "The Rescue Hook",
+   "Premature Vulnerability",
+   "Emotional Parasitism",
+   "Obligation Installation",
+   "Guilt-Tripping",
+   "Duty Scripts"
+  ],
+  "standard": "v2"
+ },
+ {
+  "id": "ENT-C007",
+  "sector": "ENT",
+  "file": "ENT/ENT_C007_the-compliment-trap.md",
+  "type": "combo",
+  "title": "The Compliment Trap",
+  "category": "CAT01",
+  "tactics": [
+   "Pedestal Ploy",
+   "Negging",
+   "Comparative Devaluation",
+   "Intermittent Reinforcement",
+   "Conditional Love"
+  ],
+  "standard": "v2"
+ },
+ {
+  "id": "ENT-C008",
+  "sector": "ENT",
+  "file": "ENT/ENT_C008_bait-and-switch.md",
+  "type": "combo",
+  "title": "Bait and Switch",
+  "category": "CAT01",
+  "tactics": [
+   "Catfishing",
+   "Future Faking",
+   "Moving Goalposts",
+   "Commitment Traps",
+   "Sunk Cost Exploitation"
+  ],
+  "standard": "v2"
+ },
+ {
+  "id": "ENT-C009",
+  "sector": "ENT",
+  "file": "ENT/ENT_C009_emotional-debt-spiral.md",
+  "type": "combo",
+  "title": "Emotional Debt Spiral",
+  "category": "CAT01",
+  "tactics": [
+   "Loan-Sharking Gifts",
+   "Favor Debt",
+   "Obligation Hooks",
+   "Demand for Gratitude",
+   "Guilt-Tripping",
+   "Obligation Contracts"
+  ],
+  "standard": "v2"
+ },
+ {
+  "id": "ENT-C010",
+  "sector": "ENT",
+  "file": "ENT/ENT_C010_the-gratitude-prison.md",
+  "type": "combo",
+  "title": "The Gratitude Prison",
+  "category": "CAT01",
+  "tactics": [
+   "Loan-Sharking Gifts",
+   "Demand for Gratitude",
+   "Weaponized Generosity in Public",
+   "Guilt Legacy",
+   "Obligation Contracts",
+   "Punishment of Boundaries"
+  ],
+  "standard": "v2"
+ },
+ {
+  "id": "ENT-C011",
+  "sector": "ENT",
+  "file": "ENT/ENT_C011_the-false-safe-harbor.md",
+  "type": "combo",
+  "title": "The False Safe Harbor",
+  "category": "CAT01",
+  "tactics": [
+   "Love Bombing",
+   "Manufactured Intimacy",
+   "\"We're Family\" Erasure",
+   "Isolation",
+   "FOG",
+   "Conditional Love"
+  ],
+  "standard": "v2"
+ },
+ {
+  "id": "ENT-C012",
+  "sector": "ENT",
+  "file": "ENT/ENT_C012_exit-prevention-architecture.md",
+  "type": "combo",
+  "title": "Exit Prevention Architecture",
+  "category": "CAT02",
+  "tactics": [
+   "Sunk Cost Exploitation",
+   "Golden Bars",
+   "Financial Enmeshment",
+   "Financial Dependence by Design",
+   "Catastrophizing as Control",
+   "FOG",
+   "Phobia Indoctrination",
+   "Hoovering",
+   "Emotional Blackmail via Self-Harm Threats"
+  ],
+  "standard": "v2"
+ },
+ {
+  "id": "ENT-C013",
+  "sector": "ENT",
+  "file": "ENT/ENT_C013_the-golden-cage.md",
+  "type": "combo",
+  "title": "The Golden Cage",
+  "category": "CAT02",
+  "tactics": [
+   "Golden Bars",
+   "Financial Enmeshment",
+   "Financial Dependence by Design",
+   "Sunk Cost Exploitation",
+   "Performative Public Affection",
+   "Conditional Love"
+  ],
+  "standard": "v2"
+ },
+ {
+  "id": "ENT-C014",
+  "sector": "ENT",
+  "file": "ENT/ENT_C014_golden-handcuffs.md",
+  "type": "combo",
+  "title": "Golden Handcuffs",
+  "category": "CAT02",
+  "tactics": [
+   "Golden Bars",
+   "Financial Dependence by Design",
+   "Sunk Cost Exploitation",
+   "Conditional Love",
+   "Identity Hooking"
+  ],
+  "standard": "v2"
+ },
+ {
+  "id": "ENT-C015",
+  "sector": "ENT",
+  "file": "ENT/ENT_C015_the-obligation-web.md",
+  "type": "combo",
+  "title": "The Obligation Web",
+  "category": "CAT02",
+  "tactics": [
+   "Obligation Installation",
+   "Obligation Hooks",
+   "Obligation Contracts",
+   "Favor Debt",
+   "Guilt Legacy",
+   "Duty Scripts",
+   "FOG",
+   "Demand for Gratitude"
+  ],
+  "standard": "v2"
+ },
+ {
+  "id": "ENT-C016",
+  "sector": "ENT",
+  "file": "ENT/ENT_C016_the-dependency-web.md",
+  "type": "combo",
+  "title": "The Dependency Web",
+  "category": "CAT02",
+  "tactics": [
+   "Financial Enmeshment",
+   "Financial Dependence by Design",
+   "Isolation",
+   "Information Control",
+   "Identity Hooking",
+   "Forced Dependency",
+   "Emotional Parasitism",
+   "\"We're Family\" Erasure"
+  ],
+  "standard": "v2"
+ },
+ {
+  "id": "ENT-C017",
+  "sector": "ENT",
+  "file": "ENT/ENT_C017_forced-dependency.md",
+  "type": "combo",
+  "title": "Forced Dependency",
+  "category": "CAT02",
+  "tactics": [
+   "Financial Enmeshment",
+   "Isolation",
+   "Resource Sabotage",
+   "Golden Bars",
+   "Financial Dependence by Design",
+   "Information Control",
+   "Health Sabotage"
+  ],
+  "standard": "v2"
+ },
+ {
+  "id": "ENT-C018",
+  "sector": "ENT",
+  "file": "ENT/ENT_C018_the-debt-prison.md",
+  "type": "combo",
+  "title": "The Debt Prison",
+  "category": "CAT02",
+  "tactics": [
+   "Financial Enmeshment",
+   "Financial Dependence by Design",
+   "Sunk Cost Exploitation",
+   "Obligation Contracts",
+   "Guilt Legacy",
+   "Process Exhaustion"
+  ],
+  "standard": "v2"
+ },
+ {
+  "id": "ENT-C019",
+  "sector": "ENT",
+  "file": "ENT/ENT_C019_the-loyalty-trap.md",
+  "type": "combo",
+  "title": "The Loyalty Trap",
+  "category": "CAT02",
+  "tactics": [
+   "Forced Teaming",
+   "\"We're Family\" Erasure",
+   "Guilt Legacy",
+   "Obligation Contracts",
+   "Conditional Love",
+   "Punishment of Disloyalty"
+  ],
+  "standard": "v2"
+ },
+ {
+  "id": "ENT-C020",
+  "sector": "ENT",
+  "file": "ENT/ENT_C020_the-guilt-anchor.md",
+  "type": "combo",
+  "title": "The Guilt Anchor",
+  "category": "CAT02",
+  "tactics": [
+   "Guilt-Tripping",
+   "Obligation Hooks",
+   "Martyrdom Display",
+   "Emotional Hostage-Taking",
+   "FOG",
+   "Duty Scripts"
+  ],
+  "standard": "v2"
+ },
+ {
+  "id": "ENT-C021",
+  "sector": "ENT",
+  "file": "ENT/ENT_C021_the-identity-lock.md",
+  "type": "combo",
+  "title": "The Identity Lock",
+  "category": "CAT02",
+  "tactics": [
+   "Identity Hooking",
+   "Labeling",
+   "\"You've Changed\"",
+   "Social Identity Threat",
+   "Conditional Love",
+   "Isolation"
+  ],
+  "standard": "v2"
+ },
+ {
+  "id": "ENT-C022",
+  "sector": "ENT",
+  "file": "ENT/ENT_C022_the-sunk-cost-prison.md",
+  "type": "combo",
+  "title": "The Sunk Cost Prison",
+  "category": "CAT02",
+  "tactics": [
+   "Sunk Cost Exploitation",
+   "Commitment Traps",
+   "Future Faking",
+   "Moving Goalposts",
+   "FOG",
+   "Learned Helplessness"
+  ],
+  "standard": "v2"
+ },
+ {
+  "id": "ENT-C023",
+  "sector": "ENT",
+  "file": "ENT/ENT_C023_the-bridge-burner.md",
+  "type": "combo",
+  "title": "The Bridge Burner",
+  "category": "CAT02",
+  "tactics": [
+   "Isolation",
+   "Reputation Poisoning",
+   "Smear Campaign",
+   "Triangulation",
+   "FOG",
+   "Hoovering"
+  ],
+  "standard": "v2"
+ },
+ {
+  "id": "ENT-C024",
+  "sector": "ENT",
+  "file": "ENT/ENT_C024_the-hostage-scenario.md",
+  "type": "combo",
+  "title": "The Hostage Scenario",
+  "category": "CAT02",
+  "tactics": [
+   "Emotional Hostage-Taking",
+   "Threats of Harm",
+   "FOG",
+   "Guilt-Tripping",
+   "Conditional Safety",
+   "Obligation Contracts"
+  ],
+  "standard": "v2"
+ },
+ {
+  "id": "ENT-C025",
+  "sector": "ENT",
+  "file": "ENT/ENT_C025_pavlovian-conditioning.md",
+  "type": "combo",
+  "title": "Pavlovian Conditioning",
+  "category": "CAT03",
+  "tactics": [
+   "Intermittent Reinforcement",
+   "Negative Reinforcement Traps",
+   "Relief Bait",
+   "Conditional Love",
+   "Withholding"
+  ],
+  "standard": "v2"
+ },
+ {
+  "id": "ENT-C026",
+  "sector": "ENT",
+  "file": "ENT/ENT_C026_obedience-training.md",
+  "type": "combo",
+  "title": "Obedience Training",
+  "category": "CAT03",
+  "tactics": [
+   "Enforcing Trivial Demands",
+   "Behavior Control",
+   "Overcorrection Demands",
+   "Punishment of Boundaries",
+   "Negative Reinforcement Traps",
+   "Group Consolidation"
+  ],
+  "standard": "v2"
+ },
+ {
+  "id": "ENT-C027",
+  "sector": "ENT",
+  "file": "ENT/ENT_C027_walking-on-eggshells.md",
+  "type": "combo",
+  "title": "Walking on Eggshells",
+  "category": "CAT03",
+  "tactics": [
+   "Ambient Abuse",
+   "Intermittent Reinforcement",
+   "Baiting",
+   "Punishment of Boundaries",
+   "Push-Pull",
+   "Dr. Jekyll/Mr. Hyde"
+  ],
+  "standard": "v2"
+ },
+ {
+  "id": "ENT-C028",
+  "sector": "ENT",
+  "file": "ENT/ENT_C028_the-frog-in-boiling-water.md",
+  "type": "combo",
+  "title": "The Frog in Boiling Water",
+  "category": "CAT03",
+  "tactics": [
+   "Boundary Testing",
+   "Normalization",
+   "Minimization",
+   "Commitment Traps",
+   "Sunk Cost Exploitation",
+   "Ambient Abuse"
+  ],
+  "standard": "v2"
+ },
+ {
+  "id": "ENT-C029",
+  "sector": "ENT",
+  "file": "ENT/ENT_C029_learned-silence.md",
+  "type": "combo",
+  "title": "Learned Silence",
+  "category": "CAT03",
+  "tactics": [
+   "Punishment of Boundaries",
+   "Group Consolidation",
+   "Pre-Punishment",
+   "Ambient Abuse",
+   "Baiting",
+   "Tone Policing",
+   "Extinction Bursts"
+  ],
+  "standard": "v2"
+ },
+ {
+  "id": "ENT-C030",
+  "sector": "ENT",
+  "file": "ENT/ENT_C030_the-impossible-standard.md",
+  "type": "combo",
+  "title": "The Impossible Standard",
+  "category": "CAT03",
+  "tactics": [
+   "Double Binds",
+   "Moving Goalposts",
+   "Impossible Metrics",
+   "Shame Installation",
+   "Overcorrection Demands",
+   "Conditional Love"
+  ],
+  "standard": "v2"
+ },
+ {
+  "id": "ENT-C031",
+  "sector": "ENT",
+  "file": "ENT/ENT_C031_the-rigged-game.md",
+  "type": "combo",
+  "title": "The Rigged Game",
+  "category": "CAT03",
+  "tactics": [
+   "Impossible Metrics",
+   "Moving Goalposts",
+   "Double Binds",
+   "Scapegoating",
+   "Credit Theft",
+   "Shame Installation",
+   "Malicious Compliance"
+  ],
+  "standard": "v2"
+ },
+ {
+  "id": "ENT-C032",
+  "sector": "ENT",
+  "file": "ENT/ENT_C032_the-loyalty-test.md",
+  "type": "combo",
+  "title": "The Loyalty Test",
+  "category": "CAT03",
+  "tactics": [
+   "Manufactured Urgency",
+   "False Dilemma",
+   "Duty Scripts",
+   "Baiting",
+   "Enforcing Trivial Demands",
+   "Conditional Love",
+   "Punishment of Boundaries"
+  ],
+  "standard": "v2"
+ },
+ {
+  "id": "ENT-C033",
+  "sector": "ENT",
+  "file": "ENT/ENT_C033_the-approval-addiction.md",
+  "type": "combo",
+  "title": "The Approval Addiction",
+  "category": "CAT03",
+  "tactics": [
+   "Conditional Love",
+   "Intermittent Reinforcement",
+   "Pedestal Ploy",
+   "Negging",
+   "Shame Installation",
+   "Identity Hooking"
+  ],
+  "standard": "v2"
+ },
+ {
+  "id": "ENT-C034",
+  "sector": "ENT",
+  "file": "ENT/ENT_C034_performance-extraction.md",
+  "type": "combo",
+  "title": "Performance Extraction",
+  "category": "CAT03",
+  "tactics": [
+   "Future Faking",
+   "Sunk Cost Exploitation",
+   "Bread-crumbing",
+   "Intermittent Reinforcement",
+   "Conditional Love",
+   "Manufactured Scarcity",
+   "Moving Goalposts"
+  ],
+  "standard": "v2"
+ },
+ {
+  "id": "ENT-C035",
+  "sector": "ENT",
+  "file": "ENT/ENT_C035_the-burnout-machine.md",
+  "type": "combo",
+  "title": "The Burnout Machine",
+  "category": "CAT03",
+  "tactics": [
+   "Ritualized Exhaustion",
+   "Impossible Metrics",
+   "Moving Goalposts",
+   "Duty Scripts",
+   "Guilt-Tripping",
+   "Performance Extraction",
+   "Strategic Chaos"
+  ],
+  "standard": "v2"
+ },
+ {
+  "id": "ENT-C036",
+  "sector": "ENT",
+  "file": "ENT/ENT_C036_the-compliance-engine.md",
+  "type": "combo",
+  "title": "The Compliance Engine",
+  "category": "CAT03",
+  "tactics": [
+   "Behavior Control",
+   "Enforcing Trivial Demands",
+   "Negative Reinforcement Traps",
+   "Intermittent Reinforcement",
+   "Conditional Love",
+   "Group Consolidation",
+   "Punishment of Boundaries",
+   "Demonstrating Omnipotence"
+  ],
+  "standard": "v2"
+ },
+ {
+  "id": "ENT-C038",
+  "sector": "ENT",
+  "file": "ENT/ENT_C038_the-compliance-cascade.md",
+  "type": "combo",
+  "title": "The Compliance Cascade",
+  "category": "CAT03",
+  "tactics": [
+   "Foot-in-the-Door",
+   "Graduated Compliance",
+   "Reward/Punishment Cycling",
+   "Normalization",
+   "Authority Worship",
+   "Learned Compliance"
+  ],
+  "standard": "v2"
+ },
+ {
+  "id": "ENT-C039",
+  "sector": "ENT",
+  "file": "ENT/ENT_C039_the-reward-maze.md",
+  "type": "combo",
+  "title": "The Reward Maze",
+  "category": "CAT03",
+  "tactics": [
+   "Token Economy",
+   "Intermittent Reinforcement",
+   "Variable Ratio Reinforcement",
+   "Conditional Worth",
+   "Moving Goalposts",
+   "Performance Addiction",
+   "Identity Hooking"
+  ],
+  "standard": "v2"
+ },
+ {
+  "id": "ENT-C040",
+  "sector": "ENT",
+  "file": "ENT/ENT_C040_the-normalization-engine.md",
+  "type": "combo",
+  "title": "The Normalization Engine",
+  "category": "CAT03",
+  "tactics": [
+   "Gradual Escalation",
+   "Repetition as Truth",
+   "Social Proof",
+   "\"That's Just How It Is\"",
+   "Anchoring",
+   "Gaslighting",
+   "Window Shifting"
+  ],
+  "standard": "v2"
+ },
+ {
+  "id": "ENT-C041",
+  "sector": "ENT",
+  "file": "ENT/ENT_C041_the-silence-training.md",
+  "type": "combo",
+  "title": "The Silence Training",
+  "category": "CAT03",
+  "tactics": [
+   "Punishment of Voice",
+   "Public Shaming",
+   "Reward of Compliance",
+   "Social Proof",
+   "Fear Installation",
+   "Self-Censorship",
+   "Chilling Effect"
+  ],
+  "standard": "v2"
+ },
+ {
+  "id": "ENT-C042",
+  "sector": "ENT",
+  "file": "ENT/ENT_C042_the-learned-helplessness-machine.md",
+  "type": "combo",
+  "title": "The Learned Helplessness Machine",
+  "category": "CAT03",
+  "tactics": [
+   "Arbitrary Authority",
+   "Uncontrollable Outcomes",
+   "Process Exhaustion",
+   "Gaslighting",
+   "Minimization",
+   "Learned Helplessness",
+   "Apathy Installation"
+  ],
+  "standard": "v2"
+ },
+ {
+  "id": "ENT-C043",
+  "sector": "ENT",
+  "file": "ENT/ENT_C043_the-perfectionism-trap.md",
+  "type": "combo",
+  "title": "The Perfectionism Trap",
+  "category": "CAT03",
+  "tactics": [
+   "Impossible Standards",
+   "Conditional Worth",
+   "Comparative Devaluation",
+   "Moving Goalposts",
+   "Shame Cycling",
+   "Internalized Critic",
+   "Performance Addiction"
+  ],
+  "standard": "v2"
+ },
+ {
+  "id": "ENT-C044",
+  "sector": "ENT",
+  "file": "ENT/ENT_C044_the-obedience-ladder.md",
+  "type": "combo",
+  "title": "The Obedience Ladder",
+  "category": "CAT03",
+  "tactics": [
+   "Foot-in-the-Door",
+   "Authority Worship",
+   "Graduated Compliance",
+   "Diffusion of Responsibility",
+   "Moral Disengagement",
+   "Normalization",
+   "\"Just Following Orders\""
+  ],
+  "standard": "v2"
+ },
+ {
+  "id": "ENT-C045",
+  "sector": "ENT",
+  "file": "ENT/ENT_C045_the-gaslighting-machine.md",
+  "type": "combo",
+  "title": "The Gaslighting Machine",
+  "category": "CAT04",
+  "tactics": [
+   "Gaslighting",
+   "Revisionist History",
+   "Minimization",
+   "DARVO",
+   "Plausible Deniability",
+   "Repetition as Truth"
+  ],
+  "standard": "v2"
+ },
+ {
+  "id": "ENT-C046",
+  "sector": "ENT",
+  "file": "ENT/ENT_C046_reality-replacement.md",
+  "type": "combo",
+  "title": "Reality Replacement",
+  "category": "CAT04",
+  "tactics": [
+   "Revisionist History",
+   "Repetition as Truth",
+   "Social Proof",
+   "Information Control",
+   "Gaslighting",
+   "Memory Flooding"
+  ],
+  "standard": "v2"
+ },
+ {
+  "id": "ENT-C047",
+  "sector": "ENT",
+  "file": "ENT/ENT_C047_the-confusion-protocol.md",
+  "type": "combo",
+  "title": "The Confusion Protocol",
+  "category": "CAT04",
+  "tactics": [
+   "Word Salad",
+   "Circular Logic",
+   "Strategic Ambiguity",
+   "Cognitive Overload",
+   "Moving Goalposts",
+   "Topic Switching"
+  ],
+  "standard": "v2"
+ },
+ {
+  "id": "ENT-C048",
+  "sector": "ENT",
+  "file": "ENT/ENT_C048_the-memory-hole.md",
+  "type": "combo",
+  "title": "The Memory Hole",
+  "category": "CAT04",
+  "tactics": [
+   "Revisionist History",
+   "Information Control",
+   "Social Proof",
+   "Gaslighting",
+   "Document Destruction",
+   "Repetition as Truth"
+  ],
+  "standard": "v2"
+ },
+ {
+  "id": "ENT-C049",
+  "sector": "ENT",
+  "file": "ENT/ENT_C049_the-false-narrative.md",
+  "type": "combo",
+  "title": "The False Narrative",
+  "category": "CAT04",
+  "tactics": [
+   "False Framing",
+   "Smear Campaign",
+   "Reputation Poisoning",
+   "Social Proof",
+   "Gaslighting",
+   "Repetition as Truth",
+   "Information Control"
+  ],
+  "standard": "v2"
+ },
+ {
+  "id": "ENT-C050",
+  "sector": "ENT",
+  "file": "ENT/ENT_C050_the-double-bind-trap.md",
+  "type": "combo",
+  "title": "The Double Bind Trap",
+  "category": "CAT04",
+  "tactics": [
+   "Double Binds",
+   "Moving Goalposts",
+   "Gaslighting",
+   "Shame Installation",
+   "DARVO",
+   "Conditional Love"
+  ],
+  "standard": "v2"
+ },
+ {
+  "id": "ENT-C051",
+  "sector": "ENT",
+  "file": "ENT/ENT_C051_perspective-poisoning.md",
+  "type": "combo",
+  "title": "Perspective Poisoning",
+  "category": "CAT04",
+  "tactics": [
+   "Anchoring",
+   "False Framing",
+   "Selective Disclosure",
+   "Information Control",
+   "Repetition as Truth",
+   "Social Proof",
+   "Priming"
+  ],
+  "standard": "v2"
+ },
+ {
+  "id": "ENT-C052",
+  "sector": "ENT",
+  "file": "ENT/ENT_C052_the-meaning-hijack.md",
+  "type": "combo",
+  "title": "The Meaning Hijack",
+  "category": "CAT04",
+  "tactics": [
+   "Strategic Ambiguity",
+   "Redefining Terms",
+   "False Framing",
+   "Repetition as Truth",
+   "Social Proof",
+   "Information Control"
+  ],
+  "standard": "v2"
+ },
+ {
+  "id": "ENT-C054",
+  "sector": "ENT",
+  "file": "ENT/ENT_C054_the-blame-reversal-engine.md",
+  "type": "combo",
+  "title": "The Blame Reversal Engine",
+  "category": "CAT05",
+  "tactics": [
+   "DARVO",
+   "Preemptive Documentation",
+   "Tone Policing",
+   "Diagnostic Deflection",
+   "Source Poisoning",
+   "Record Inversion"
+  ],
+  "standard": "v2"
+ },
+ {
+  "id": "ENT-C055",
+  "sector": "ENT",
+  "file": "ENT/ENT_C055_the-investigation-theater.md",
+  "type": "combo",
+  "title": "The Investigation Theater",
+  "category": "CAT05",
+  "tactics": [
+   "Performative Reception",
+   "Strategic Delay",
+   "Investigative Inversion",
+   "Opacity Shield",
+   "Visible Non-Consequence",
+   "Retroactive Repositioning"
+  ],
+  "standard": "v2"
+ },
+ {
+  "id": "ENT-C056",
+  "sector": "ENT",
+  "file": "ENT/ENT_C056_the-circular-referral-loop.md",
+  "type": "combo",
+  "title": "The Circular Referral Loop",
+  "category": "CAT05",
+  "tactics": [
+   "Sympathetic Intake",
+   "Authority Displacement",
+   "Procedural Embedding",
+   "Timeline Exploitation",
+   "Accountability Diffusion",
+   "Exhaustion Yield"
+  ],
+  "standard": "v2"
+ },
+ {
+  "id": "ENT-C057",
+  "sector": "ENT",
+  "file": "ENT/ENT_C057_the-paper-trail-fabrication.md",
+  "type": "combo",
+  "title": "The Paper Trail Fabrication",
+  "category": "CAT05",
+  "tactics": [
+   "Trigger Identification",
+   "Retroactive Recharacterization",
+   "Pattern Seeding",
+   "Asymmetric Curation",
+   "Access Delay",
+   "Institutional Citation"
+  ],
+  "standard": "v2"
+ },
+ {
+  "id": "ENT-C058",
+  "sector": "ENT",
+  "file": "ENT/ENT_C058_the-policy-shield.md",
+  "type": "combo",
+  "title": "The Policy Shield",
+  "category": "CAT05",
+  "tactics": [
+   "Procedural Legitimation",
+   "Form Gatekeeping",
+   "Jurisdictional Displacement",
+   "Documentation Extraction",
+   "Capacity Dilution",
+   "Unilateral Resolution"
+  ],
+  "standard": "v2"
+ },
+ {
+  "id": "ENT-C059",
+  "sector": "ENT",
+  "file": "ENT/ENT_C059_the-scapegoat-funnel.md",
+  "type": "combo",
+  "title": "The Scapegoat Funnel",
+  "category": "CAT05",
+  "tactics": [
+   "Mission Framing",
+   "Verbal Authorization",
+   "Visibility Inversion",
+   "Pressure Accumulation",
+   "Narrative Severance",
+   "Sacrificial Repositioning"
+  ],
+  "standard": "v2"
+ },
+ {
+  "id": "ENT-C060",
+  "sector": "ENT",
+  "file": "ENT/ENT_C060_the-confidentiality-cage.md",
+  "type": "combo",
+  "title": "The Confidentiality Cage",
+  "category": "CAT05",
+  "tactics": [
+   "Dutiful Reporting",
+   "Legal Authority Transfer",
+   "Confidentiality Weaponization",
+   "Access Severance",
+   "Quiet Resolution",
+   "Permanent Silencing"
+  ],
+  "standard": "v2"
+ },
+ {
+  "id": "ENT-C061",
+  "sector": "ENT",
+  "file": "ENT/ENT_C061_the-apology-substitute.md",
+  "type": "combo",
+  "title": "The Apology Substitute",
+  "category": "CAT05",
+  "tactics": [
+   "Responsive Velocity",
+   "Values Broadcasting",
+   "Abstraction Escalation",
+   "Agent Erasure",
+   "Victim Redirection",
+   "Resolution Without Acknowledgment"
+  ],
+  "standard": "v2"
+ },
+ {
+  "id": "ENT-C062",
+  "sector": "ENT",
+  "file": "ENT/ENT_C062_the-collective-punishment-deflector.md",
+  "type": "combo",
+  "title": "The Collective Punishment Deflector",
+  "category": "CAT05",
+  "tactics": [
+   "Incident Identification Without Individual Accountability",
+   "Collective Consequence",
+   "Peer Pressure Weaponization",
+   "Moral Reframing",
+   "Silence Installation",
+   "Retroactive Justification"
+  ],
+  "standard": "v2"
+ },
+ {
+  "id": "ENT-C063",
+  "sector": "ENT",
+  "file": "ENT/ENT_C063_the-whistleblower-inversion.md",
+  "type": "combo",
+  "title": "The Whistleblower Inversion",
+  "category": "CAT05",
+  "tactics": [
+   "Internal Exhaustion Prerequisite",
+   "External Trigger Escalation",
+   "Surveillance Activation",
+   "Phantom Complaint Injection",
+   "Professional Degradation",
+   "Geographic Displacement"
+  ],
+  "standard": "v2"
+ },
+ {
+  "id": "ENT-C064",
+  "sector": "ENT",
+  "file": "ENT/ENT_C064_the-statute-of-limitations-exploit.md",
+  "type": "combo",
+  "title": "The Statute of Limitations Exploit",
+  "category": "CAT05",
+  "tactics": [
+   "Delayed Recognition Architecture",
+   "Institutional Intake Performance",
+   "Legal Gatekeeping",
+   "Obligation Erasure",
+   "Responsibility Displacement",
+   "Active Danger Preservation"
+  ],
+  "standard": "v2"
+ },
+ {
+  "id": "ENT-C065",
+  "sector": "ENT",
+  "file": "ENT/ENT_C065_the-both-sides-equalizer.md",
+  "type": "combo",
+  "title": "The \"Both Sides\" Equalizer",
+  "category": "CAT05",
+  "tactics": [
+   "Conflict Reframing",
+   "Procedural Symmetry",
+   "Mutual Agreement Fabrication",
+   "File Equalization",
+   "Privacy Weaponization",
+   "Closure Manufacture"
+  ],
+  "standard": "v2"
+ },
+ {
+  "id": "ENT-C066",
+  "sector": "ENT",
+  "file": "ENT/ENT_C066_the-nda-silencer.md",
+  "type": "combo",
+  "title": "The NDA Silencer",
+  "category": "CAT05",
+  "tactics": [
+   "Systemic Neglect Documentation",
+   "Crisis-Triggered Repair",
+   "Reputational Threat Conversion",
+   "Economic Coercion",
+   "Consent Fabrication",
+   "Institutional Memory Erasure"
+  ],
+  "standard": "v2"
+ },
+ {
+  "id": "ENT-C067",
+  "sector": "ENT",
+  "file": "ENT/ENT_C067_the-voluntary-departure-rewrite.md",
+  "type": "combo",
+  "title": "The Voluntary Departure Rewrite",
+  "category": "CAT05",
+  "tactics": [
+   "Values Misalignment Manufacturing",
+   "Binary Choice Construction",
+   "Positive Reference Leverage",
+   "Voluntary Narrative Installation",
+   "Community Confusion Exploitation",
+   "Legacy Erasure"
+  ],
+  "standard": "v2"
+ },
+ {
+  "id": "ENT-C069",
+  "sector": "ENT",
+  "file": "ENT/ENT_C069_the-isolated-incident-quarantine.md",
+  "type": "combo",
+  "title": "The Isolated Incident Quarantine",
+  "category": "CAT05",
+  "tactics": [
+   "Campus-Level Containment",
+   "Case Closure Protocol",
+   "Cross-Campus Blindness",
+   "Aggregate Reporting Substitution",
+   "Policy Adequacy Defense",
+   "Accountability Fragmentation"
+  ],
+  "standard": "v2"
+ },
+ {
+  "id": "ENT-C070",
+  "sector": "ENT",
+  "file": "ENT/ENT_C070_the-expert-validation-shield.md",
+  "type": "combo",
+  "title": "The Expert Validation Shield",
+  "category": "CAT05",
+  "tactics": [
+   "Pre-Decision Concealment",
+   "Expert Procurement",
+   "Process Performance",
+   "Credential Asymmetry Deployment",
+   "Language Laundering",
+   "Democratic Validation"
+  ],
+  "standard": "v2"
+ },
+ {
+  "id": "ENT-C071",
+  "sector": "ENT",
+  "file": "ENT/ENT_C071_the-darvo-cascade.md",
+  "type": "combo",
+  "title": "The DARVO Cascade",
+  "category": "CAT05",
+  "tactics": [
+   "DARVO",
+   "Role Reversal Traps",
+   "Preemptive Accusation",
+   "Complaint Weaponization",
+   "Pity Plays",
+   "Weaponized Tears",
+   "Credibility Theft"
+  ],
+  "standard": "v2"
+ },
+ {
+  "id": "ENT-C073",
+  "sector": "ENT",
+  "file": "ENT/ENT_C073_the-accountability-firewall.md",
+  "type": "combo",
+  "title": "The Accountability Firewall",
+  "category": "CAT05",
+  "tactics": [
+   "Deflection",
+   "Whataboutism",
+   "Projection",
+   "Contradiction Stacking",
+   "Non-Apology Apology",
+   "Role Reversal Traps",
+   "Burden of Proof Shifting",
+   "Diffusion of Responsibility"
+  ],
+  "standard": "v2"
+ },
+ {
+  "id": "ENT-C074",
+  "sector": "ENT",
+  "file": "ENT/ENT_C074_the-accountability-black-hole.md",
+  "type": "combo",
+  "title": "The Accountability Black Hole",
+  "category": "CAT05",
+  "tactics": [
+   "Diffusion of Responsibility",
+   "Plausible Deniability",
+   "Process Exhaustion",
+   "HR Shielding",
+   "Confidentiality as Weapon",
+   "Pseudo-Consultation",
+   "Paper-Trail Traps"
+  ],
+  "standard": "v2"
+ },
+ {
+  "id": "ENT-C075",
+  "sector": "ENT",
+  "file": "ENT/ENT_C075_concern-masking.md",
+  "type": "combo",
+  "title": "Concern Masking",
+  "category": "CAT05",
+  "tactics": [
+   "Concern Trolling",
+   "Plausible Deniability",
+   "Tone Policing",
+   "Shame-as-Governance Disguised as Advice",
+   "Performative Public Affection"
+  ],
+  "standard": "v2"
+ },
+ {
+  "id": "ENT-C077",
+  "sector": "ENT",
+  "file": "ENT/ENT_C077_velvet-glove-control.md",
+  "type": "combo",
+  "title": "Velvet Glove Control",
+  "category": "CAT05",
+  "tactics": [
+   "Counterfeit Calm",
+   "Plausible Deniability",
+   "Performative Public Affection",
+   "Concern Masking",
+   "Clinical Tone Policing",
+   "Shame-as-Governance Disguised as Advice"
+  ],
+  "standard": "v2"
+ },
+ {
+  "id": "ENT-C078",
+  "sector": "ENT",
+  "file": "ENT/ENT_C078_the-velvet-threat.md",
+  "type": "combo",
+  "title": "The Velvet Threat",
+  "category": "CAT05",
+  "tactics": [
+   "Ambient Abuse",
+   "Plausible Deniability",
+   "Counterfeit Calm",
+   "Legal/Administrative Threats",
+   "Demonstrating Omnipotence",
+   "Ambiguity as Weapon"
+  ],
+  "standard": "v2"
+ },
+ {
+  "id": "ENT-C079",
+  "sector": "ENT",
+  "file": "ENT/ENT_C079_the-isolation-campaign.md",
+  "type": "combo",
+  "title": "The Isolation Campaign",
+  "category": "CAT06",
+  "tactics": [
+   "Trigger Cataloging",
+   "Silent Coalition Building",
+   "Access Removal",
+   "Narrative Injection",
+   "Ambient Exclusion",
+   "Self-Exile Completion"
+  ],
+  "standard": "v2"
+ },
+ {
+  "id": "ENT-C080",
+  "sector": "ENT",
+  "file": "ENT/ENT_C080_the-reputation-assassination.md",
+  "type": "combo",
+  "title": "The Reputation Assassination",
+  "category": "CAT06",
+  "tactics": [
+   "Strategic Timing",
+   "Untraceable Seeding",
+   "Institutional Contamination",
+   "Narrative Mutation",
+   "Social Proof Amplification",
+   "Strategic Dissolution"
+  ],
+  "standard": "v2"
+ },
+ {
+  "id": "ENT-C081",
+  "sector": "ENT",
+  "file": "ENT/ENT_C081_the-flying-monkey-network.md",
+  "type": "combo",
+  "title": "The Flying Monkey Network",
+  "category": "CAT06",
+  "tactics": [
+   "Complaint Leaking",
+   "Proxy Recruitment",
+   "Social Pressure Layering",
+   "Plausible Deniability",
+   "Community Reframing",
+   "Withdrawal Pressure"
+  ],
+  "standard": "v2"
+ },
+ {
+  "id": "ENT-C082",
+  "sector": "ENT",
+  "file": "ENT/ENT_C082_the-pile-on-engine.md",
+  "type": "combo",
+  "title": "The Pile-On Engine",
+  "category": "CAT06",
+  "tactics": [
+   "Moment Extraction",
+   "Context Elimination",
+   "Platform Amplification",
+   "Petition Legitimation",
+   "Institutional Paralysis",
+   "Permanent Digital Residue"
+  ],
+  "standard": "v2"
+ },
+ {
+  "id": "ENT-C083",
+  "sector": "ENT",
+  "file": "ENT/ENT_C083_the-social-proof-trap.md",
+  "type": "combo",
+  "title": "The Social Proof Trap",
+  "category": "CAT06",
+  "tactics": [
+   "Authority Presentation",
+   "Early Endorsement Seeding",
+   "Silence Harvesting",
+   "Pluralistic Ignorance Installation",
+   "Compliance Cascade",
+   "Retroactive Justification"
+  ],
+  "standard": "v2"
+ },
+ {
+  "id": "ENT-C084",
+  "sector": "ENT",
+  "file": "ENT/ENT_C084_the-triangulation-web.md",
+  "type": "combo",
+  "title": "The Triangulation Web",
+  "category": "CAT06",
+  "tactics": [
+   "Confidential Disclosure Seeding",
+   "Selective Truth Weaponization",
+   "Defensive Withdrawal Induction",
+   "Mirror Operation",
+   "Central Positioning",
+   "Dependency Installation"
+  ],
+  "standard": "v2"
+ },
+ {
+  "id": "ENT-C085",
+  "sector": "ENT",
+  "file": "ENT/ENT_C085_the-public-shaming-ritual.md",
+  "type": "combo",
+  "title": "The Public Shaming Ritual",
+  "category": "CAT06",
+  "tactics": [
+   "Public Identification",
+   "Moral Framing",
+   "Audience Activation",
+   "Social License Generation",
+   "Correction Invisibility",
+   "Internalized Surveillance"
+  ],
+  "standard": "v2"
+ },
+ {
+  "id": "ENT-C086",
+  "sector": "ENT",
+  "file": "ENT/ENT_C086_the-alliance-fracture.md",
+  "type": "combo",
+  "title": "The Alliance Fracture",
+  "category": "CAT06",
+  "tactics": [
+   "Target Selection",
+   "Exclusive Access",
+   "Information Asymmetry",
+   "Confidentiality Binding",
+   "Reentry Disruption",
+   "Momentum Collapse"
+  ],
+  "standard": "v2"
+ },
+ {
+  "id": "ENT-C087",
+  "sector": "ENT",
+  "file": "ENT/ENT_C087_social-currency-manipulation.md",
+  "type": "combo",
+  "title": "Social Currency Manipulation",
+  "category": "CAT06",
+  "tactics": [
+   "Vulnerability Identification",
+   "Social Elevation",
+   "Reciprocity Activation",
+   "Escalation Testing",
+   "Social Debt Invocation",
+   "Revocation Threat"
+  ],
+  "standard": "v2"
+ },
+ {
+  "id": "ENT-C088",
+  "sector": "ENT",
+  "file": "ENT/ENT_C088_character-assassination.md",
+  "type": "combo",
+  "title": "Character Assassination",
+  "category": "CAT06",
+  "tactics": [
+   "Smear Campaigns",
+   "Credibility Theft",
+   "Labeling as Identity Warfare",
+   "Reputation Laundering",
+   "Information Cascades",
+   "Priming"
+  ],
+  "standard": "v2"
+ },
+ {
+  "id": "ENT-C089",
+  "sector": "ENT",
+  "file": "ENT/ENT_C089_social-death.md",
+  "type": "combo",
+  "title": "Social Death",
+  "category": "CAT06",
+  "tactics": [
+   "Ostracism",
+   "Smear Campaigns",
+   "Silent Coalitions",
+   "Reputation Warfare",
+   "Information Cascades",
+   "Doxxing",
+   "Context Collapse",
+   "Group Consolidation"
+  ],
+  "standard": "v2"
+ },
+ {
+  "id": "ENT-C090",
+  "sector": "ENT",
+  "file": "ENT/ENT_C090_divide-and-conquer.md",
+  "type": "combo",
+  "title": "Divide and Conquer",
+  "category": "CAT06",
+  "tactics": [
+   "Triangulation",
+   "Smear Campaigns",
+   "Information Control",
+   "Splitting",
+   "Priming",
+   "Comparative Devaluation",
+   "Selective Information Sharing"
+  ],
+  "standard": "v2"
+ },
+ {
+  "id": "ENT-C093",
+  "sector": "ENT",
+  "file": "ENT/ENT_C093_manufactured-consensus.md",
+  "type": "combo",
+  "title": "Manufactured Consensus",
+  "category": "CAT06",
+  "tactics": [
+   "False Consensus",
+   "Social Proof Pressure",
+   "Information Cascades",
+   "Sock Puppets",
+   "Coordinated Reporting",
+   "Priming",
+   "Reputation Laundering"
+  ],
+  "standard": "v2"
+ },
+ {
+  "id": "ENT-C094",
+  "sector": "ENT",
+  "file": "ENT/ENT_C094_mobbing.md",
+  "type": "combo",
+  "title": "Mobbing",
+  "category": "CAT06",
+  "tactics": [
+   "Pile-Ons",
+   "Ostracism",
+   "Silent Coalitions",
+   "Smear Campaigns",
+   "Group Consolidation",
+   "Scapegoating",
+   "Coordinated Reporting"
+  ],
+  "standard": "v2"
+ },
+ {
+  "id": "ENT-C096",
+  "sector": "ENT",
+  "file": "ENT/ENT_C096_the-smear-and-replace.md",
+  "type": "combo",
+  "title": "The Smear-and-Replace",
+  "category": "CAT06",
+  "tactics": [
+   "Smear Campaigns",
+   "Reputation Warfare",
+   "Idealize-Devalue-Discard",
+   "Love Bombing (Redirected)",
+   "The Exception Script (Recycled)",
+   "Comparative Devaluation"
+  ],
+  "standard": "v2"
+ },
+ {
+  "id": "ENT-C098",
+  "sector": "ENT",
+  "file": "ENT/ENT_C098_the-data-weaponization-system.md",
+  "type": "combo",
+  "title": "The Data Weaponization System",
+  "category": "CAT07",
+  "tactics": [
+   "Decontextualized Measurement",
+   "Visual Simplification",
+   "Comparison Architecture",
+   "Resource Consequence",
+   "Narrative Capture",
+   "Self-Fulfilling Degradation"
+  ],
+  "standard": "v2"
+ },
+ {
+  "id": "ENT-C101",
+  "sector": "ENT",
+  "file": "ENT/ENT_C101_the-hierarchy-enforcement-engine.md",
+  "type": "combo",
+  "title": "The Hierarchy Enforcement Engine",
+  "category": "CAT07",
+  "tactics": [
+   "Communication Chain Restriction",
+   "Access Gatekeeping",
+   "Challenge Suppression",
+   "Role Confinement",
+   "Internalization",
+   "Firewall Function"
+  ],
+  "standard": "v2"
+ },
+ {
+  "id": "ENT-C102",
+  "sector": "ENT",
+  "file": "ENT/ENT_C102_the-resource-extraction-pipeline.md",
+  "type": "combo",
+  "title": "The Resource Extraction Pipeline",
+  "category": "CAT07",
+  "tactics": [
+   "Structural Underfunding",
+   "Gap Normalization",
+   "Personal Subsidy Extraction",
+   "Labor Extraction",
+   "Celebration Capture",
+   "Cycle Perpetuation"
+  ],
+  "standard": "v2"
+ },
+ {
+  "id": "ENT-C105",
+  "sector": "ENT",
+  "file": "ENT/ENT_C105_coercive-control.md",
+  "type": "combo",
+  "title": "Coercive Control",
+  "category": "CAT07",
+  "tactics": [
+   "Behavior Control",
+   "Information Control",
+   "Financial Control",
+   "Isolation",
+   "Location Tracking",
+   "Device Access Demands",
+   "Emotional Blackmail",
+   "Ritualized Exhaustion",
+   "Sexual Coercion"
+  ],
+  "standard": "v2"
+ },
+ {
+  "id": "ENT-C106",
+  "sector": "ENT",
+  "file": "ENT/ENT_C106_bureaucratic-violence.md",
+  "type": "combo",
+  "title": "Bureaucratic Violence",
+  "category": "CAT07",
+  "tactics": [
+   "Process Exhaustion",
+   "Paper Terrorism",
+   "Administrative Escalation",
+   "Legal/Administrative Threats",
+   "Confidentiality as Weapon",
+   "Vague Allegations",
+   "Paper-Trail Traps",
+   "Pseudo-Consultation"
+  ],
+  "standard": "v2"
+ },
+ {
+  "id": "ENT-C108",
+  "sector": "ENT",
+  "file": "ENT/ENT_C108_professional-destruction.md",
+  "type": "combo",
+  "title": "Professional Destruction",
+  "category": "CAT07",
+  "tactics": [
+   "Credit Theft",
+   "Scapegoating",
+   "Smear Campaigns",
+   "Managed Out Through Exhaustion",
+   "PIP Weaponization",
+   "Reputation Warfare",
+   "Administrative Escalation",
+   "Labeling as Identity Warfare"
+  ],
+  "standard": "v2"
+ },
+ {
+  "id": "ENT-C109",
+  "sector": "ENT",
+  "file": "ENT/ENT_C109_knowledge-weaponization.md",
+  "type": "combo",
+  "title": "Knowledge Weaponization",
+  "category": "CAT07",
+  "tactics": [
+   "Information Control",
+   "False Authority",
+   "Credential-Costuming",
+   "Gaslighting by Omission",
+   "Strategic Incompleteness",
+   "Authority Hijack",
+   "Sealioning"
+  ],
+  "standard": "v2"
+ },
+ {
+  "id": "ENT-C111",
+  "sector": "ENT",
+  "file": "ENT/ENT_C111_the-total-institution.md",
+  "type": "combo",
+  "title": "The Total Institution",
+  "category": "CAT07",
+  "tactics": [
+   "Behavior Control",
+   "Information Control",
+   "Thought Control",
+   "Emotion Control",
+   "Ritualized Exhaustion",
+   "\"We're Family\" Erasure",
+   "Financial Dependence by Design",
+   "Isolation",
+   "Phobia Indoctrination",
+   "Demonstrating Omnipotence",
+   "Enforcing Trivial Demands"
+  ],
+  "standard": "v2"
+ },
+ {
+  "id": "ENT-C112",
+  "sector": "ENT",
+  "file": "ENT/ENT_C112_systemic-entrapment.md",
+  "type": "combo",
+  "title": "Systemic Entrapment",
+  "category": "CAT07",
+  "tactics": [
+   "Financial Dependence by Design",
+   "Isolation",
+   "Information Control",
+   "Legal/Administrative Threats",
+   "Phobia Indoctrination",
+   "Golden Bars",
+   "Process Exhaustion",
+   "Diffusion of Responsibility"
+  ],
+  "standard": "v2"
+ },
+ {
+  "id": "ENT-C113",
+  "sector": "ENT",
+  "file": "ENT/ENT_C113_the-paper-trail-ambush.md",
+  "type": "combo",
+  "title": "The Paper Trail Ambush",
+  "category": "CAT07",
+  "tactics": [
+   "Paper-Trail Traps",
+   "False Reports",
+   "Complaint Weaponization",
+   "Preemptive Accusation",
+   "Priming",
+   "Selective Memory",
+   "Vague Allegations"
+  ],
+  "standard": "v3"
+ },
+ {
+  "id": "ENT-C116",
+  "sector": "ENT",
+  "file": "ENT/ENT_C116_helicopter-surveillance.md",
+  "type": "combo",
+  "title": "Helicopter Surveillance",
+  "category": "CAT08",
+  "tactics": [
+   "Location Tracking",
+   "Stalking-by-Notification",
+   "Response-Time Policing",
+   "Device Access Demands",
+   "Demonstrating Omnipotence"
+  ],
+  "standard": "v2"
+ },
+ {
+  "id": "ENT-C117",
+  "sector": "ENT",
+  "file": "ENT/ENT_C117_digital-identity-destruction.md",
+  "type": "combo",
+  "title": "Digital Identity Destruction",
+  "category": "CAT08",
+  "tactics": [
+   "Doxxing",
+   "Deepfake Video/Audio",
+   "AI Voice Cloning",
+   "Forged Screenshots",
+   "Account Takeover",
+   "Intimate Image Abuse",
+   "Reputation Laundering",
+   "Context Collapse",
+   "Sock Puppets"
+  ],
+  "standard": "v2"
+ },
+ {
+  "id": "ENT-C119",
+  "sector": "ENT",
+  "file": "ENT/ENT_C119_online-reputation-annihilation.md",
+  "type": "combo",
+  "title": "Online Reputation Annihilation",
+  "category": "CAT08",
+  "tactics": [
+   "Smear Campaigns",
+   "Sock Puppets",
+   "Coordinated Reporting",
+   "Context Collapse",
+   "Doxxing",
+   "Reputation Laundering",
+   "Pile-Ons",
+   "Information Cascades",
+   "Brigading"
+  ],
+  "standard": "v2"
+ },
+ {
+  "id": "ENT-C120",
+  "sector": "ENT",
+  "file": "ENT/ENT_C120_the-algorithmic-sorting-machine.md",
+  "type": "combo",
+  "title": "The Algorithmic Sorting Machine",
+  "category": "CAT08",
+  "tactics": [
+   "Data Point Extraction",
+   "Algorithmic Profiling",
+   "Intervention Channeling",
+   "Confirmation Feedback Loop",
+   "Track Solidification",
+   "Demographic Patterning"
+  ],
+  "standard": "v2"
+ },
+ {
+  "id": "ENT-C122",
+  "sector": "ENT",
+  "file": "ENT/ENT_C122_the-gamification-trap.md",
+  "type": "combo",
+  "title": "The Gamification Trap",
+  "category": "CAT08",
+  "tactics": [
+   "Variable Reward Scheduling",
+   "Streak Architecture",
+   "Progress Gamification",
+   "Intrinsic Motivation Displacement",
+   "Engagement-Learning Conflation",
+   "A/B Tested Behavioral Engineering"
+  ],
+  "standard": "v2"
+ },
+ {
+  "id": "ENT-C124",
+  "sector": "ENT",
+  "file": "ENT/ENT_C124_the-platform-lock-in.md",
+  "type": "combo",
+  "title": "The Platform Lock-In",
+  "category": "CAT08",
+  "tactics": [
+   "Free Adoption",
+   "Ecosystem Embedding",
+   "Data Accumulation",
+   "Switching Cost Inflation",
+   "Terms Modification",
+   "Institutional Dependency Normalization"
+  ],
+  "standard": "v2"
+ },
+ {
+  "id": "ENT-C128",
+  "sector": "ENT",
+  "file": "ENT/ENT_C128_the-comparison-engine.md",
+  "type": "combo",
+  "title": "The Comparison Engine",
+  "category": "CAT09",
+  "tactics": [
+   "Positional Scoring",
+   "Real-Time Visibility",
+   "Averages as Benchmarks",
+   "Parental Amplification",
+   "Intrinsic-Extrinsic Displacement",
+   "Permanent Insufficiency Installation"
+  ],
+  "standard": "v2"
+ },
+ {
+  "id": "ENT-C131",
+  "sector": "ENT",
+  "file": "ENT/ENT_C131_psychological-identity-theft.md",
+  "type": "combo",
+  "title": "Psychological Identity Theft",
+  "category": "CAT09",
+  "tactics": [
+   "Identity Hooking",
+   "Identity Erosion",
+   "Labeling as Identity Warfare",
+   "Shame Installation",
+   "Dehumanization",
+   "Internalized Conditioning"
+  ],
+  "standard": "v2"
+ },
+ {
+  "id": "ENT-C133",
+  "sector": "ENT",
+  "file": "ENT/ENT_C133_competence-undermining.md",
+  "type": "combo",
+  "title": "Competence Undermining",
+  "category": "CAT09",
+  "tactics": [
+   "Credit Theft",
+   "Infantilization",
+   "Negging",
+   "Weaponized Incompetence",
+   "Sabotaging Success",
+   "Impossible Metrics",
+   "Comparative Devaluation"
+  ],
+  "standard": "v2"
+ },
+ {
+  "id": "ENT-C135",
+  "sector": "ENT",
+  "file": "ENT/ENT_C135_manufactured-crisis-bonding.md",
+  "type": "combo",
+  "title": "Manufactured Crisis Bonding",
+  "category": "CAT09",
+  "tactics": [
+   "Strategic Chaos/Crisis Manufacturing",
+   "Forced Teaming",
+   "Trauma Bonding",
+   "Emotional Flooding",
+   "Isolation"
+  ],
+  "standard": "v2"
+ },
+ {
+  "id": "ENT-C139",
+  "sector": "ENT",
+  "file": "ENT/ENT_C139_the-identity-replacement-program.md",
+  "type": "combo",
+  "title": "The Identity Replacement Program",
+  "category": "CAT09",
+  "tactics": [
+   "Love Bombing",
+   "Identity Hooking",
+   "Isolation",
+   "Thought Control",
+   "Loaded Language",
+   "Phobia Indoctrination",
+   "Shame Installation",
+   "Conditional Love",
+   "Identity Erosion",
+   "Internalized Conditioning"
+  ],
+  "standard": "v2"
+ },
+ {
+  "id": "ENT-C143",
+  "sector": "ENT",
+  "file": "ENT/ENT_C143_the-scapegoat-machine.md",
+  "type": "combo",
+  "title": "The Scapegoat Machine",
+  "category": "CAT09",
+  "tactics": [
+   "Scapegoating",
+   "Labeling as Identity Warfare",
+   "Group Consolidation",
+   "Pile-Ons",
+   "Smear Campaigns",
+   "Ostracism",
+   "Shame Installation",
+   "Internalized Conditioning"
+  ],
+  "standard": "v2"
+ },
+ {
+  "id": "ENT-C144",
+  "sector": "ENT",
+  "file": "ENT/ENT_C144_weaponized-therapy-language.md",
+  "type": "combo",
+  "title": "Weaponized Therapy Language",
+  "category": "CAT09",
+  "tactics": [
+   "Therapeutic Manipulation/Pathological Framing",
+   "Labeling as Identity Warfare",
+   "Trash-Can Diagnosis",
+   "Concern Trolling",
+   "Shame Installation",
+   "Tone Policing",
+   "Forced Forgiveness"
+  ],
+  "standard": "v2"
+ },
+ {
+  "id": "ENT-C146",
+  "sector": "ENT",
+  "file": "ENT/ENT_C146_the-student-athlete-extraction.md",
+  "type": "combo",
+  "title": "The Student Athlete Extraction",
+  "category": "CAT10",
+  "tactics": [
+   "Talent Identification and Institutional Capture",
+   "Academic Subordination",
+   "Labor Extraction",
+   "Identity Narrowing",
+   "Body Commodification",
+   "Disposability Architecture"
+  ],
+  "standard": "v2"
+ },
+ {
+  "id": "ENT-C147",
+  "sector": "ENT",
+  "file": "ENT/ENT_C147_the-parent-silencer.md",
+  "type": "combo",
+  "title": "The Parent Silencer",
+  "category": "CAT10",
+  "tactics": [
+   "ID Gatekeeping",
+   "Form Intimidation",
+   "Language Barriers as Isolation",
+   "Confidentiality Uncertainty",
+   "Engagement-Exposure Equation",
+   "Children as Collateral Consequence"
+  ],
+  "standard": "v2"
+ },
+ {
+  "id": "ENT-C148",
+  "sector": "ENT",
+  "file": "ENT/ENT_C148_the-gifted-child-weaponization.md",
+  "type": "combo",
+  "title": "The Gifted Child Weaponization",
+  "category": "CAT10",
+  "tactics": [
+   "Identification as Identity Assignment",
+   "Expectation Inflation",
+   "Struggle Prohibition",
+   "Perfectionism Installation",
+   "Risk Aversion",
+   "Joy Extinction"
+  ],
+  "standard": "v2"
+ },
+ {
+  "id": "ENT-C150",
+  "sector": "ENT",
+  "file": "ENT/ENT_C150_the-exception-script.md",
+  "type": "combo",
+  "title": "The Exception Script",
+  "category": "CAT10",
+  "tactics": [
+   "Love Bombing",
+   "Exclusive Meaning",
+   "Manufactured Destiny",
+   "Future Faking",
+   "Conditional Love",
+   "Comparative Devaluation"
+  ],
+  "standard": "v2"
+ },
+ {
+  "id": "ENT-C152",
+  "sector": "ENT",
+  "file": "ENT/ENT_C152_the-competitive-isolation-grid.md",
+  "type": "combo",
+  "title": "The Competitive Isolation Grid",
+  "category": "CAT10",
+  "tactics": [
+   "Triangulation",
+   "Comparative Devaluation",
+   "Manufactured Scarcity",
+   "Information Control",
+   "Isolation",
+   "Conditional Love"
+  ],
+  "standard": "v2"
+ },
+ {
+  "id": "ENT-C153",
+  "sector": "ENT",
+  "file": "ENT/ENT_C153_the-performative-ally.md",
+  "type": "combo",
+  "title": "The Performative Ally",
+  "category": "CAT10",
+  "tactics": [
+   "Virtue Signaling as Shield",
+   "Performative Public Affection",
+   "Reputation Laundering",
+   "Concern Trolling",
+   "Tokenism",
+   "Pseudo-Consultation",
+   "Strategic Philanthropy"
+  ],
+  "standard": "v2"
+ },
+ {
+  "id": "ENT-C155",
+  "sector": "ENT",
+  "file": "ENT/ENT_C155_the-double-life-manager.md",
+  "type": "combo",
+  "title": "The Double Life Manager",
+  "category": "CAT10",
+  "tactics": [
+   "Dr. Jekyll/Mr. Hyde",
+   "Compartmentalization",
+   "Plausible Deniability",
+   "Performative Public Affection",
+   "Gaslighting",
+   "Information Control"
+  ],
+  "standard": "v2"
+ },
+ {
+  "id": "ENT-C157",
+  "sector": "ENT",
+  "file": "ENT/ENT_C157_the-benevolent-dictator.md",
+  "type": "combo",
+  "title": "The Benevolent Dictator",
+  "category": "CAT10",
+  "tactics": [
+   "Velvet Glove Control",
+   "Performative Public Affection",
+   "\"I Know Best\" Paternalism",
+   "Conditional Love",
+   "Infantilization",
+   "Demonstrating Omnipotence",
+   "Pseudo-Consultation"
+  ],
+  "standard": "v2"
+ },
+ {
+  "id": "ENT-C159",
+  "sector": "ENT",
+  "file": "ENT/ENT_C159_the-gauntlet.md",
+  "type": "combo",
+  "title": "The Gauntlet",
+  "category": "CAT10",
+  "tactics": [
+   "Extinction Bursts",
+   "Hoovering",
+   "Smear Campaigns",
+   "Stalking-by-Notification",
+   "Flying Monkeys",
+   "Punishment by Proxy",
+   "Legal/Administrative Threats",
+   "Emotional Blackmail"
+  ],
+  "standard": "v2"
+ },
+ {
+  "id": "ENT-C160",
+  "sector": "ENT",
+  "file": "ENT/ENT_C160_the-cult-of-personality.md",
+  "type": "combo",
+  "title": "The Cult of Personality",
+  "category": "CAT10",
+  "tactics": [
+   "Charismatic Authority",
+   "Love Bombing",
+   "Identity Hooking",
+   "Manufactured Destiny",
+   "\"We're Family\" Erasure",
+   "Thought-Stopping Clichés",
+   "Phobia Indoctrination",
+   "Demonstrating Omnipotence",
+   "Conditional Love"
+  ],
+  "standard": "v2"
+ },
+ {
+  "id": "ENT-C161",
+  "sector": "ENT",
+  "file": "ENT/ENT_C161_the-recursive-trap.md",
+  "type": "combo",
+  "title": "The Recursive Trap",
+  "category": "CAT10",
+  "tactics": [
+   "Double Binds",
+   "Complaint Weaponization",
+   "Role Reversal Traps",
+   "Meta-Gaslighting",
+   "Semantic Traps",
+   "Kafka Trapping"
+  ],
+  "standard": "v2"
+ },
+ {
+  "id": "ENT-C162",
+  "sector": "ENT",
+  "file": "ENT/ENT_C162_the-weaponized-gift-economy.md",
+  "type": "combo",
+  "title": "The Weaponized Gift Economy",
+  "category": "CAT10",
+  "tactics": [
+   "Loan-Sharking Gifts",
+   "Weaponized Generosity in Public",
+   "Strategic Philanthropy",
+   "Demand for Gratitude",
+   "Obligation Hooks",
+   "Guilt-Tripping",
+   "Financial Enmeshment"
+  ],
+  "standard": "v2"
+ },
+ {
+  "id": "ENT-C163",
+  "sector": "ENT",
+  "file": "ENT/ENT_C163_the-wellness-trap.md",
+  "type": "combo",
+  "title": "The Wellness Trap",
+  "category": "CAT10",
+  "tactics": [
+   "Therapeutic Manipulation/Pathological Framing",
+   "Strategic Chaos (Maintained)",
+   "Shame Installation",
+   "Pseudo-Consultation",
+   "Concern Trolling",
+   "Individualization of Systemic Issues"
+  ],
+  "standard": "v2"
+ },
+ {
+  "id": "ENT-C168",
+  "sector": "ENT",
+  "file": "ENT/ENT_C168_surveillance-architecture.md",
+  "type": "combo",
+  "title": "Surveillance Architecture",
+  "category": "CAT08",
+  "tactics": [
+   "Buried Consent Disclosure",
+   "Covert Recording",
+   "Data Harvesting",
+   "Non-Consensual Distribution",
+   "Selective Deployment",
+   "Chilling Effect"
+  ],
+  "standard": "v2"
+ },
+ {
+  "id": "ENT-C169",
+  "sector": "ENT",
+  "file": "ENT/ENT_C169_the-phantom-equity.md",
+  "type": "combo",
+  "title": "The Phantom Equity",
+  "category": "CAT02",
+  "tactics": [
+   "Alignment Framing",
+   "Paper Deferral",
+   "Complexity Shield",
+   "Milestone Migration",
+   "Dilution Disguise",
+   "Exit Forfeiture"
+  ],
+  "standard": "v2"
+ },
+ {
+  "id": "ENT-C170",
+  "sector": "ENT",
+  "file": "ENT/ENT_C170_the-allocation-scarcity-engine.md",
+  "type": "combo",
+  "title": "The Allocation Scarcity Engine",
+  "category": "CAT01",
+  "tactics": [
+   "Privileged Access Framing",
+   "Manufactured Oversubscription",
+   "Compressed Window",
+   "Phantom Lead",
+   "Commitment Before Verification",
+   "FOMO Lock"
+  ],
+  "standard": "v2"
+ },
+ {
+  "id": "ENT-C171",
+  "sector": "ENT",
+  "file": "ENT/ENT_C171_the-economics-obfuscation-layer.md",
+  "type": "combo",
+  "title": "The Economics Obfuscation Layer",
+  "category": "CAT05",
+  "tactics": [
+   "Structural Layering",
+   "Fee Diffusion",
+   "Standard-Term Camouflage",
+   "Waterfall Opacity",
+   "Complexity-as-Authority",
+   "Disaggregated Consent"
+  ],
+  "standard": "v2"
+ },
+ {
+  "id": "ENT-C172",
+  "sector": "ENT",
+  "file": "ENT/ENT_C172_the-reputation-hostage.md",
+  "type": "combo",
+  "title": "The Reputation Hostage",
+  "category": "CAT02",
+  "tactics": [
+   "Public Association",
+   "Reputation Braiding",
+   "Mutual Exposure Framing",
+   "Silence Incentivization",
+   "Complicity Implication",
+   "Successor Enablement"
+  ],
+  "standard": "v2"
+ },
+ {
+  "id": "ENT-C173",
+  "sector": "ENT",
+  "file": "ENT/ENT_C173_the-mirror-hook.md",
+  "type": "combo",
+  "title": "The Mirror Hook",
+  "category": "CAT01",
+  "tactics": [
+   "Catfishing",
+   "Pacing and Leading",
+   "Premature Vulnerability / Trauma Dumping",
+   "Premature Trust Extraction",
+   "Premature Exclusivity",
+   "Identity Hooking"
+  ],
+  "standard": "v2"
+ },
+ {
+  "id": "ENT-C174",
+  "sector": "ENT",
+  "file": "ENT/ENT_C174_the-long-con.md",
+  "type": "combo",
+  "title": "The Long Con",
+  "category": "CAT08",
+  "tactics": [
+   "Social Mapping",
+   "Social Engineering",
+   "Manufactured Intimacy",
+   "Platform Migration",
+   "Pig Butchering (Long-Con Digital Fraud)",
+   "Manufactured Urgency"
+  ],
+  "standard": "v2"
+ },
+ {
+  "id": "ENT-C176",
+  "sector": "ENT",
+  "file": "ENT/ENT_C176_the-halo-shield.md",
+  "type": "combo",
+  "title": "The Halo Shield",
+  "category": "CAT05",
+  "tactics": [
+   "Halo Effect Exploitation",
+   "Confirmation Bias Exploitation",
+   "Performative Allyship / False Solidarity",
+   "Moral Licensing / Strategic Philanthropy",
+   "Blame-Shifting"
+  ],
+  "standard": "v2"
+ },
+ {
+  "id": "ENT-C177",
+  "sector": "ENT",
+  "file": "ENT/ENT_C177_the-bench.md",
+  "type": "combo",
+  "title": "The Bench",
+  "category": "CAT01",
+  "tactics": [
+   "Bread-crumbing",
+   "Anchoring to Peak Moments",
+   "Triangulation",
+   "Replacement Display",
+   "Orbiting"
+  ],
+  "standard": "v2"
+ },
+ {
+  "id": "ENT-C178",
+  "sector": "ENT",
+  "file": "ENT/ENT_C178_the-big-ask.md",
+  "type": "combo",
+  "title": "The Big Ask",
+  "category": "CAT03",
+  "tactics": [
+   "Door-in-the-Face",
+   "Anchoring",
+   "Commitment Traps / Foot-in-the-Door",
+   "Ultimatums",
+   "Obligation Enforcement"
+  ],
+  "standard": "v2"
+ },
+ {
+  "id": "ENT-C181",
+  "sector": "ENT",
+  "file": "ENT/ENT_C181_the-praise-leash.md",
+  "type": "combo",
+  "title": "The Praise Leash",
+  "category": "CAT03",
+  "tactics": [
+   "Grooming Through Praise",
+   "Emotional Parasitism",
+   "Bait Disclosure",
+   "Vulnerability Weaponization",
+   "Withholding / Silent Treatment"
+  ],
+  "standard": "v2"
+ },
+ {
+  "id": "ENT-C182",
+  "sector": "ENT",
+  "file": "ENT/ENT_C182_the-mood-weather.md",
+  "type": "combo",
+  "title": "The Mood Weather",
+  "category": "CAT03",
+  "tactics": [
+   "Rage as Regulation",
+   "Emotional Contamination",
+   "Emotional Sequencing",
+   "Fawning"
+  ],
+  "standard": "v2"
+ },
+ {
+  "id": "ENT-C183",
+  "sector": "ENT",
+  "file": "ENT/ENT_C183_the-unwinnable-conversation.md",
+  "type": "combo",
+  "title": "The Unwinnable Conversation",
+  "category": "CAT04",
+  "tactics": [
+   "Pseudo-Logic",
+   "Gish Gallop / Firehose of Falsehood",
+   "Exaggeration",
+   "Gotcha Framing",
+   "Tone Policing",
+   "Metacommunicative Abuse",
+   "Confusion as Control"
+  ],
+  "standard": "v2"
+ },
+ {
+  "id": "ENT-C184",
+  "sector": "ENT",
+  "file": "ENT/ENT_C184_the-perspective-eraser.md",
+  "type": "combo",
+  "title": "The Perspective Eraser",
+  "category": "CAT09",
+  "tactics": [
+   "Gaslighting",
+   "Perspecticide",
+   "Weaponized Therapy-Speak",
+   "Tone Policing",
+   "Collapse of Narrative Continuity"
+  ],
+  "standard": "v2"
+ },
+ {
+  "id": "ENT-C185",
+  "sector": "ENT",
+  "file": "ENT/ENT_C185_the-wall.md",
+  "type": "combo",
+  "title": "The Wall",
+  "category": "CAT05",
+  "tactics": [
+   "Stonewalling",
+   "Feigned Ignorance",
+   "Reverse Psychology",
+   "Limited Hangout",
+   "Lying",
+   "Competitive Victimhood"
+  ],
+  "standard": "v2"
+ },
+ {
+  "id": "ENT-C186",
+  "sector": "ENT",
+  "file": "ENT/ENT_C186_the-positivity-muzzle.md",
+  "type": "combo",
+  "title": "The Positivity Muzzle",
+  "category": "CAT03",
+  "tactics": [
+   "Toxic Positivity / Weaponized Optimism",
+   "Name-Calling Disguised as Humor",
+   "Forced Forgiveness / Weaponized Forgiveness",
+   "Silence Installation"
+  ],
+  "standard": "v2"
+ },
+ {
+  "id": "ENT-C187",
+  "sector": "ENT",
+  "file": "ENT/ENT_C187_the-information-laundromat.md",
+  "type": "combo",
+  "title": "The Information Laundromat",
+  "category": "CAT04",
+  "tactics": [
+   "Context Poisoning",
+   "Information Laundering",
+   "Astroturfing / Sock Puppets",
+   "Computational Propaganda",
+   "False Consensus / Social Proof Pressure",
+   "Normalization / Overton Window Manipulation",
+   "Post-Truth Epistemic Manipulation"
+  ],
+  "standard": "v2"
+ },
+ {
+  "id": "ENT-C189",
+  "sector": "ENT",
+  "file": "ENT/ENT_C189_the-coded-crowd.md",
+  "type": "combo",
+  "title": "The Coded Crowd",
+  "category": "CAT06",
+  "tactics": [
+   "Dog Whistling / Coded Signaling",
+   "Stochastic Harassment Direction",
+   "Moral Outrage as Weapon",
+   "Pile-Ons / Brigading",
+   "Reputation Hijacking",
+   "Uncorrected Record"
+  ],
+  "standard": "v2"
+ },
+ {
+  "id": "ENT-C190",
+  "sector": "ENT",
+  "file": "ENT/ENT_C190_the-synthetic-storm.md",
+  "type": "combo",
+  "title": "The Synthetic Storm",
+  "category": "CAT08",
+  "tactics": [
+   "Gish Gallop / Firehose of Falsehood",
+   "Forged Screenshots / Edited Evidence",
+   "Cyber Manipulation Operations (CMOs)",
+   "Immersive Manipulation (VR/AR)"
+  ],
+  "standard": "v2"
+ },
+ {
+  "id": "ENT-C191",
+  "sector": "ENT",
+  "file": "ENT/ENT_C191_the-erased-contributor.md",
+  "type": "combo",
+  "title": "The Erased Contributor",
+  "category": "CAT07",
+  "tactics": [
+   "Interruption Patterns",
+   "Credit Theft",
+   "Credit Laundering",
+   "\"Polite Hostile\" Environments",
+   "Mobbing",
+   "Performance Framework Manipulation"
+  ],
+  "standard": "v2"
+ },
+ {
+  "id": "ENT-C192",
+  "sector": "ENT",
+  "file": "ENT/ENT_C192_the-body-under-rule.md",
+  "type": "combo",
+  "title": "The Body Under Rule",
+  "category": "CAT07",
+  "tactics": [
+   "Time Control",
+   "Sleep Deprivation",
+   "Mobility Control",
+   "Body Autonomy Violations",
+   "Choice Restriction",
+   "Ritualized Exhaustion"
+  ],
+  "standard": "v2"
+ },
+ {
+  "id": "ENT-C193",
+  "sector": "ENT",
+  "file": "ENT/ENT_C193_the-room.md",
+  "type": "combo",
+  "title": "The Room",
+  "category": "CAT03",
+  "tactics": [
+   "Intimidation",
+   "Interrogation",
+   "Ambient Sexual Threat",
+   "Fawning"
+  ],
+  "standard": "v2"
+ },
+ {
+  "id": "ENT-C196",
+  "sector": "ENT",
+  "file": "ENT/ENT_C196_the-afterlife.md",
+  "type": "combo",
+  "title": "The Afterlife",
+  "category": "CAT02",
+  "tactics": [
+   "Location Tracking",
+   "Account Control",
+   "Legal Abuse",
+   "Post-Separation Abuse",
+   "Legacy Contamination"
+  ],
+  "standard": "v2"
+ },
+ {
+  "id": "ENT-C197",
+  "sector": "ENT",
+  "file": "ENT/ENT_C197_the-public-breaking.md",
+  "type": "combo",
+  "title": "The Public Breaking",
+  "category": "CAT06",
+  "tactics": [
+   "Humiliation Rituals",
+   "Overcorrection Demands",
+   "Public Exposure",
+   "Group Consolidation / Chilling Effect",
+   "Silence Installation"
+  ],
+  "standard": "v2"
+ },
+ {
+  "id": "ENT-C198",
+  "sector": "ENT",
+  "file": "ENT/ENT_C198_the-clinical-brush-off.md",
+  "type": "combo",
+  "title": "The Clinical Brush-Off",
+  "category": "CAT09",
+  "tactics": [
+   "Minimization",
+   "Tone Policing",
+   "Accountability Evasion via Diagnosis / Trash-Can Diagnosis",
+   "Need Concealment"
+  ],
+  "standard": "v2"
+ },
+ {
+  "id": "ENT-C199",
+  "sector": "ENT",
+  "file": "ENT/ENT_C199_the-captured-referee.md",
+  "type": "combo",
+  "title": "The Captured Referee",
+  "category": "CAT07",
+  "tactics": [
+   "Institutional Capture",
+   "Controlled Opposition",
+   "Captive Expertise",
+   "Policy as Proof",
+   "Visible Impunity"
+  ],
+  "standard": "v2"
+ },
+ {
+  "id": "ENT-C200",
+  "sector": "ENT",
+  "file": "ENT/ENT_C200_the-crisis-covenant.md",
+  "type": "combo",
+  "title": "The Crisis Covenant",
+  "category": "CAT01",
+  "tactics": [
+   "Crisis Bonding",
+   "Forced Teaming",
+   "Shared Secret Binding",
+   "Loyalty Binds",
+   "Exit Prevention"
+  ],
+  "standard": "v2"
+ },
+ {
+  "id": "ENT-C201",
+  "sector": "ENT",
+  "file": "ENT/ENT_C201_the-body-audit.md",
+  "type": "combo",
+  "title": "The Body Audit",
+  "category": "CAT09",
+  "tactics": [
+   "Negging",
+   "Comparative Devaluation",
+   "Objectification",
+   "Shame Installation",
+   "Need Concealment"
+  ],
+  "standard": "v2"
+ },
+ {
+  "id": "ENT-C202",
+  "sector": "ENT",
+  "file": "ENT/ENT_C202_the-paper-cage.md",
+  "type": "combo",
+  "title": "The Paper Cage",
+  "category": "CAT02",
+  "tactics": [
+   "Debt Bondage",
+   "Document Confiscation",
+   "Status Threats",
+   "Isolation",
+   "Exit Prevention"
+  ],
+  "standard": "v2"
+ },
+ {
+  "id": "ENT-C203",
+  "sector": "ENT",
+  "file": "ENT/ENT_C203_the-soft-sell.md",
+  "type": "combo",
+  "title": "The Soft Sell",
+  "category": "CAT01",
+  "tactics": [
+   "Legitimizing Paltry Contributions",
+   "That's-Not-All",
+   "Disrupt-Then-Reframe",
+   "Forced Continuity",
+   "Persistent Nagging",
+   "Sunk Cost Exploitation"
+  ],
+  "standard": "v2"
+ },
+ {
+  "id": "ENT-C205",
+  "sector": "ENT",
+  "file": "ENT/ENT_C205_the-deniable-accusation.md",
+  "type": "combo",
+  "title": "The Deniable Accusation",
+  "category": "CAT05",
+  "tactics": [
+   "Just Asking Questions",
+   "Motte-and-Bailey",
+   "Victim Blaming",
+   "Legal Abuse"
+  ],
+  "standard": "v2"
+ },
+ {
+  "id": "ENT-C206",
+  "sector": "ENT",
+  "file": "ENT/ENT_C206_the-digital-hostage.md",
+  "type": "combo",
+  "title": "The Digital Hostage",
+  "category": "CAT08",
+  "tactics": [
+   "Manufactured Intimacy",
+   "Sextortion",
+   "Doxxing",
+   "Swatting",
+   "Need Concealment"
+  ],
+  "standard": "v2"
+ },
+ {
+  "id": "ENT_CAT01_intro",
+  "sector": "ENT",
+  "file": "ENT/ENT_CAT01_intro.md",
+  "type": "category_intro"
+ },
+ {
+  "id": "ENT_CAT02_intro",
+  "sector": "ENT",
+  "file": "ENT/ENT_CAT02_intro.md",
+  "type": "category_intro"
+ },
+ {
+  "id": "ENT_CAT03_intro",
+  "sector": "ENT",
+  "file": "ENT/ENT_CAT03_intro.md",
+  "type": "category_intro"
+ },
+ {
+  "id": "ENT_CAT04_intro",
+  "sector": "ENT",
+  "file": "ENT/ENT_CAT04_intro.md",
+  "type": "category_intro"
+ },
+ {
+  "id": "ENT_CAT05_intro",
+  "sector": "ENT",
+  "file": "ENT/ENT_CAT05_intro.md",
+  "type": "category_intro"
+ },
+ {
+  "id": "ENT_CAT06_intro",
+  "sector": "ENT",
+  "file": "ENT/ENT_CAT06_intro.md",
+  "type": "category_intro"
+ },
+ {
+  "id": "ENT_CAT07_intro",
+  "sector": "ENT",
+  "file": "ENT/ENT_CAT07_intro.md",
+  "type": "category_intro"
+ },
+ {
+  "id": "ENT_CAT08_intro",
+  "sector": "ENT",
+  "file": "ENT/ENT_CAT08_intro.md",
+  "type": "category_intro"
+ },
+ {
+  "id": "ENT_CAT09_intro",
+  "sector": "ENT",
+  "file": "ENT/ENT_CAT09_intro.md",
+  "type": "category_intro"
+ },
+ {
+  "id": "ENT_CAT10_intro",
+  "sector": "ENT",
+  "file": "ENT/ENT_CAT10_intro.md",
+  "type": "category_intro"
+ }
+]

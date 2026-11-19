@@ -1,0 +1,363 @@
+<title>Combo Library</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Instrument+Serif&family=Source+Serif+4:opsz,wght@8..60,300..600&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<style>
+/* Layout: one reading column for the argument; wide figures (axes, page tree, wireframes, phase ladder) break out to full width. Single dark look on purpose: the Fractal² film and hub palette. */
+:root{
+  --bg:#05070d; --panel:#0b0f1a; --panel2:#0f1424; --line:#232b45; --ink:#F3ECD9; --ink2:#C9C2B0; --mute:#8D93A6;
+  --gold:#E9C27A; --gold-dim:rgba(233,194,122,.13); --grey:#BFC4D2; --warn:#E8A07A; --ok:#9FCB9A;
+  --s1:#d9a441; --s2:#e07b39; --s3:#d24b4b; --s4:#b04a8c; --s5:#7b5bc4; --s6:#4a72c4; --s7:#3f9bb0; --s8:#5aa77a;
+  --display:"Instrument Serif",Georgia,serif; --body:"Source Serif 4",Georgia,serif; --mono:"IBM Plex Mono",ui-monospace,Menlo,monospace;
+  color-scheme:dark;
+}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:var(--body);font-size:17px;line-height:1.6;-webkit-font-smoothing:antialiased}
+.wrap{max-width:72rem;margin:0 auto;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));padding-block:56px 112px}
+.read{max-width:42rem}
+h1,h2,h3,h4{font-family:var(--display);font-weight:400;text-wrap:balance;margin:0}
+h1{font-size:clamp(3rem,9vw,5.5rem);line-height:.95;letter-spacing:-.01em}
+h2{font-size:clamp(2rem,5vw,2.9rem);line-height:1.05}
+h3{font-size:1.55rem;line-height:1.15}
+h4{font-size:1.2rem;line-height:1.2}
+p{margin:0}
+ul,ol{margin:0;padding-left:1.2em}
+li+li{margin-top:4px}
+.lede{color:var(--ink2);font-size:1.15rem;margin-top:20px}
+.eyebrow{font-family:var(--mono);font-size:.72rem;letter-spacing:.14em;text-transform:uppercase;color:var(--gold)}
+code,.mono{font-family:var(--mono);font-size:.82em;color:var(--ink2);overflow-wrap:anywhere}
+a{color:var(--gold)}
+:focus-visible{outline:2px solid var(--gold);outline-offset:3px}
+section{margin-top:96px;display:flex;flex-direction:column;gap:28px}
+section>*{min-width:0}
+section>header{display:flex;flex-direction:column;gap:10px;max-width:44rem}
+.sub{color:var(--mute)}
+.note{color:var(--mute);font-size:.92rem}
+.toc{display:flex;flex-wrap:wrap;gap:8px 18px;margin-top:28px;font-family:var(--mono);font-size:.78rem}
+.toc a{color:var(--ink2);text-decoration:none;border-bottom:1px solid var(--line)}
+.toc a:hover{color:var(--gold);border-color:var(--gold)}
+
+/* numbers */
+.nums{display:grid;grid-template-columns:repeat(auto-fit,minmax(9rem,1fr));gap:1px;background:var(--line);border:1px solid var(--line);border-radius:6px;overflow:hidden}
+.num{background:var(--bg);padding:16px}
+.num b{display:block;font-family:var(--display);font-weight:400;font-size:2.4rem;line-height:1;font-variant-numeric:tabular-nums}
+.num span{display:block;font-size:.85rem;color:var(--mute);margin-top:6px}
+
+/* findings */
+.finds{display:grid;grid-template-columns:1fr;gap:12px}
+@media(min-width:820px){.finds{grid-template-columns:1fr 1fr}}
+.find{border:1px solid var(--line);border-radius:6px;padding:16px 18px;display:flex;flex-direction:column;gap:6px;background:var(--panel)}
+.find .tag{font-family:var(--mono);font-size:.68rem;letter-spacing:.1em;text-transform:uppercase}
+.find.keep .tag{color:var(--ok)} .find.fix .tag{color:var(--warn)}
+.find p{color:var(--ink2);font-size:.95rem}
+.find .ev{font-family:var(--mono);font-size:.72rem;color:var(--mute)}
+
+/* the three layers */
+.layers{display:flex;flex-direction:column;gap:0;border:1px solid var(--line);border-radius:8px;overflow:hidden}
+.layer{display:grid;grid-template-columns:1fr;gap:12px;padding:20px;border-top:1px solid var(--line)}
+.layer:first-child{border-top:0}
+@media(min-width:820px){.layer{grid-template-columns:13rem minmax(0,1fr) 15rem;gap:24px;align-items:start}}
+.layer .lname{display:flex;flex-direction:column;gap:4px}
+.layer .lname small{font-family:var(--mono);font-size:.72rem;color:var(--mute)}
+.layer p{color:var(--ink2);font-size:.96rem}
+.layer .addr{font-family:var(--mono);font-size:.78rem;color:var(--gold);overflow-wrap:anywhere}
+.layer.decoder{background:linear-gradient(90deg,rgba(191,196,210,.06),transparent)}
+.layer.tactic{background:linear-gradient(90deg,var(--gold-dim),transparent)}
+.joint{font-family:var(--mono);font-size:.74rem;color:var(--mute);padding:8px 20px;background:var(--panel2);border-top:1px solid var(--line)}
+.joint b{color:var(--ink2);font-weight:500}
+
+/* matrix: stage x scale */
+.mx{overflow-x:auto;border:1px solid var(--line);border-radius:6px}
+.mx table{border-collapse:collapse;width:100%;min-width:44rem;font-size:.85rem}
+.mx th,.mx td{padding:10px 12px;border-bottom:1px solid var(--line);border-left:1px solid var(--line);text-align:left;vertical-align:top}
+.mx th{font-family:var(--mono);font-weight:400;font-size:.7rem;letter-spacing:.08em;text-transform:uppercase;color:var(--mute)}
+.mx td{color:var(--ink2)}
+.mx tr:last-child td{border-bottom:0}
+.mx .st{white-space:nowrap;color:var(--ink)}
+.dot{display:inline-block;width:9px;height:9px;border-radius:50%;margin-right:8px;vertical-align:0}
+.cnt{font-family:var(--mono);font-variant-numeric:tabular-nums;color:var(--mute);font-size:.75rem}
+
+/* tree */
+pre.tree{margin:0;padding:20px;background:var(--panel);border:1px solid var(--line);border-radius:6px;overflow-x:auto;font-family:var(--mono);font-size:.78rem;line-height:1.7;color:var(--ink2)}
+pre.tree b{color:var(--gold);font-weight:500}
+pre.tree i{color:var(--mute);font-style:normal}
+pre.tree em{color:var(--grey);font-style:normal}
+
+/* templates */
+.tpls{display:flex;flex-direction:column;gap:20px}
+.tpl{border:1px solid var(--line);border-radius:8px;display:grid;grid-template-columns:1fr;overflow:hidden}
+@media(min-width:900px){.tpl{grid-template-columns:minmax(0,1fr) minmax(0,1fr)}}
+.tpl .txt{padding:20px;display:flex;flex-direction:column;gap:10px}
+.tpl .txt .addr{font-family:var(--mono);font-size:.76rem;color:var(--gold);overflow-wrap:anywhere}
+.tpl .txt p{color:var(--ink2);font-size:.95rem}
+.tpl .txt ol{color:var(--ink2);font-size:.92rem}
+.tpl .txt .io{font-family:var(--mono);font-size:.72rem;color:var(--mute);line-height:1.6}
+.tpl .txt .io b{color:var(--ink2);font-weight:500}
+.wf{background:var(--panel);border-top:1px solid var(--line);padding:20px;display:flex;justify-content:center;align-items:flex-start}
+@media(min-width:900px){.wf{border-top:0;border-left:1px solid var(--line)}}
+.wf svg{width:100%;max-width:30rem;height:auto}
+.wf svg text{font-family:"IBM Plex Mono",monospace}
+
+/* rules table */
+.tbl{max-width:100%;min-width:0;overflow-x:auto;border:1px solid var(--line);border-radius:6px}
+table.t{border-collapse:collapse;width:100%;min-width:42rem;font-size:.9rem}
+table.t th,table.t td{text-align:left;padding:12px 14px;border-bottom:1px solid var(--line);vertical-align:top}
+table.t th{font-family:var(--mono);font-weight:400;font-size:.7rem;letter-spacing:.1em;text-transform:uppercase;color:var(--mute)}
+table.t tr:last-child td{border-bottom:0}
+table.t td{color:var(--ink2)} table.t td:first-child{color:var(--ink)}
+
+/* phases */
+.phases{display:flex;flex-direction:column;border-left:1px solid var(--line);margin-left:10px}
+.ph{position:relative;padding:0 0 36px 30px;display:flex;flex-direction:column;gap:10px}
+.ph:last-child{padding-bottom:0}
+.ph::before{content:attr(data-n);position:absolute;left:-15px;top:0;width:29px;height:29px;border-radius:50%;background:var(--bg);border:1px solid var(--gold);color:var(--gold);font-family:var(--mono);font-size:.72rem;display:flex;align-items:center;justify-content:center}
+.ph.owner::before{background:var(--gold);color:var(--bg)}
+.ph h3{font-size:1.45rem;padding-top:1px}
+.ph>p{color:var(--ink2);font-size:.96rem;max-width:46rem}
+.kit{display:grid;grid-template-columns:1fr;gap:8px}
+@media(min-width:820px){.kit{grid-template-columns:repeat(3,minmax(0,1fr))}}
+.kit div{border:1px solid var(--line);border-radius:4px;padding:10px 12px;background:var(--panel)}
+.kit h5{margin:0 0 6px;font-family:var(--mono);font-weight:400;font-size:.66rem;letter-spacing:.12em;text-transform:uppercase;color:var(--mute)}
+.kit p{font-size:.86rem;color:var(--ink2);line-height:1.5}
+.kit code{font-size:.78rem;color:var(--ink)}
+.exit{font-family:var(--mono);font-size:.74rem;color:var(--ok)}
+.exit b{font-weight:500}
+.ownerflag{font-family:var(--mono);font-size:.74rem;color:var(--gold)}
+
+/* decisions */
+ol.dec{list-style:none;margin:0;padding:0;display:flex;flex-direction:column;gap:12px}
+ol.dec li{border:1px solid var(--line);border-left:3px solid var(--warn);border-radius:4px;padding:16px 18px;display:flex;flex-direction:column;gap:6px;background:var(--panel);margin:0}
+ol.dec h3{font-size:1.3rem}
+ol.dec p{color:var(--ink2);font-size:.95rem}
+.rec{font-family:var(--mono);font-size:.76rem;color:var(--mute)}
+.rec b{color:var(--gold);font-weight:500}
+.two{display:grid;grid-template-columns:1fr;gap:16px}
+@media(min-width:820px){.two{grid-template-columns:1fr 1fr}}
+.box{border:1px solid var(--line);border-radius:6px;padding:18px;background:var(--panel);display:flex;flex-direction:column;gap:8px}
+.box p,.box li{color:var(--ink2);font-size:.94rem}
+</style>
+
+<div class="wrap">
+  <header class="read">
+    <p class="eyebrow">Fractal² · sector sites · combos only · architecture, nothing built</p>
+    <h1 style="margin-top:14px">The combo library</h1>
+    <p class="lede">The sector sites, rebuilt to show combos only, each as its full text. It's designed from your package (153 Entertainment combos, 138 Corporate) and audited three ways before this version: measurements of every file, a render of real combos on a phone, and an independent critic who tested the draft against the real text. Five of the critic's points changed the design, and all five were checked against the files.</p>
+    <nav class="toc" aria-label="Sections">
+      <a href="#pkg">1 Your package</a><a href="#audit">2 Audit</a><a href="#map">3 Site map</a><a href="#combo">4 Combo page</a><a href="#find">5 Finding a combo</a><a href="#frame">6 Frame</a><a href="#parse">7 Reading the files</a><a href="#visual">8 Visual rules</a><a href="#steps">9 Build steps</a><a href="#dec">10 Your calls</a>
+    </nav>
+  </header>
+
+  <section id="pkg" aria-labelledby="pkg-h">
+    <header><p class="eyebrow">1 · Your package</p><h2 id="pkg-h">What the site has to show</h2><p class="sub">Measured from <code>combo_clusters_markdown_v2</code>.</p></header>
+    <div class="nums">
+      <div class="num"><b>153 · 138</b><span>combos in Entertainment and in Corporate</span></div>
+      <div class="num"><b>16 · 20</b><span>sections per combo; Corporate adds Before the Story, Why the System Produces This Order, On Purpose, Where Each Tactic Happened</span></div>
+      <div class="num"><b>22 · 32</b><span>phone screens for a typical full combo (median 3,479 and 4,620 words)</span></div>
+      <div class="num"><b>10</b><span>categories, with the same names in both sectors, each with your ~450-word introduction</span></div>
+      <div class="num"><b>120</b><span>combos in both sectors: same name and tactics, a different story</span></div>
+      <div class="num"><b>41 · 8</b><span>combos that open with "Safety Note (read first)"</span></div>
+    </div>
+    <div class="finds">
+      <div class="find keep"><span class="tag">Holds</span><h4>Every Entertainment address stays</h4><p>All 153 combo slugs match today's pages, so shared links keep working.</p></div>
+      <div class="find keep"><span class="tag">Holds</span><h4>The files are very regular</h4><p>Every combo has cue cards with an Ask and a Concern line (1,239 cards), three escalation lines, everyday comparisons in blockquotes, and a Sector Standards reference. None has links, sub-headings or raw HTML.</p></div>
+      <div class="find fix"><span class="tag">Changes</span><h4>This is a new edition</h4><p>Entertainment's text has been rewritten. The Emotional Debt Spiral opening went from 554 to 750 words and is about half new, so it replaces today's text in full. The old review labels no longer match it.</p></div>
+      <div class="find fix"><span class="tag">Changes</span><h4>The stories withhold the name</h4><p>"You won't be told what this chain is called, or what is inside it, until the story ends" appears in 139 files. The design respects that everywhere.</p></div>
+    </div>
+  </section>
+
+  <section id="audit" aria-labelledby="audit-h">
+    <header><p class="eyebrow">2 · Audit</p><h2 id="audit-h">What the checks changed</h2></header>
+    <div class="tbl"><table class="t">
+      <thead><tr><th>Draft idea</th><th>Finding</th><th>Final design</th></tr></thead>
+      <tbody>
+        <tr><td>Show the chain at the top of each combo</td><td>Takes a full phone screen and pushes the safety note down. It also gives away what 139 stories are written to withhold.</td><td>Title, then safety note, then one meta line. The chain appears where you put it: Verbal Breakdown.</td></tr>
+        <tr><td>Cards show the definition and chain</td><td>The definition's first sentence is a median of 62 words, and both spoil the story.</td><td>Cards show the title, category, tactic count, read time and safety mark. Tactic names show only when someone searches for one.</td></tr>
+        <tr><td>Plain A–Z list</td><td>119 of 153 titles start with "The", so 78% would land under T.</td><td>Sort and jump letters ignore a leading "The"; titles display unchanged.</td></tr>
+        <tr><td>Group labels in the text ("The story", "What to do"…)</td><td>Invented framing. "On Purpose" is a second story. Evidence sits among the noticing sections, so the groups can't stay in your order.</td><td>Cut. Contents and jump links use your headings word for word.</td></tr>
+        <tr><td>Many special components</td><td>Some would misread the files. Why This Order ends with a closing paragraph after the last comparison in all 291 combos. Cue-card lines are joined by single line breaks.</td><td>Three special treatments only: cue cards, escalation and safer-language quotes. Everything else is typography. Each pattern gets a parser test.</td></tr>
+        <tr><td>Labels like "In everyday life", "Composite story", "Before you read too much into it"</td><td>Words you didn't write.</td><td>Your headings only. Any navigation line goes in one strings file you approve.</td></tr>
+        <tr><td>Top bar, sticky chip, jump row and bottom bar on combo pages</td><td>Four layers on a 390 px screen.</td><td>One fixed layer on combo pages: the top bar with Contents. The bottom bar is hidden there.</td></tr>
+        <tr><td>Escalation as a weighted ladder</td><td>Invites relabeling; the Standards define four levels and combos use three transitions.</td><td>Your three lines verbatim, with an inline link to the Standards' tier definitions.</td></tr>
+        <tr><td>"Sector Standards" as a link away</td><td>Sends a frightened reader off their place.</td><td>Each of the three fixed references opens the matching Standards section in place, with a link to the full page.</td></tr>
+        <tr><td>"This combo in Corporate"</td><td>Suggests the same text; it's the same tactics with a different story.</td><td>One line at the end, in words you approve (for example "Same tactics, different story: Corporate").</td></tr>
+        <tr><td>Categories with a full intro above the list</td><td>About three phone screens before the first combo.</td><td>First paragraph, then "Read the full introduction" (your full text, expandable), then the list.</td></tr>
+      </tbody>
+    </table></div>
+  </section>
+
+  <section id="map" aria-labelledby="map-h">
+    <header><p class="eyebrow">3 · Site map</p><h2 id="map-h">Five page types per sector</h2></header>
+<pre class="tree"><b>/fractal2/&lt;sector&gt;</b>                         Sector home: categories as doors, all combos, search
+├── <b>/combos</b>                                All combos, A–Z (ignoring "The"), search, three filters
+│   └── /combos/&lt;category&gt;                 10 categories: your introduction, then its combos in your order
+├── <b>/&lt;combo&gt;</b>                                every combo, full text <i>(Entertainment addresses unchanged)</i>
+└── <b>/standards</b>                             Sector Standards, your six sections with anchors
+
+<i>Entertainment: 1 + 1 + 10 + 153 + 1 = 166 pages.  Corporate (/fractal2/corporate): 1 + 1 + 10 + 138 + 1 = 151 pages.</i>
+<i>Paused for now: tactic, stage and map pages and the reader paths. Their prototype addresses 301 to the sector home.</i></pre>
+  </section>
+
+  <section id="combo" aria-labelledby="combo-h">
+    <header><p class="eyebrow">4 · The combo page</p><h2 id="combo-h">The main event: a 22–32 screen read</h2><p class="sub">Your text in your order with your headings. The design's job is to make it easy to start, easy to find your place, and easy to reach the parts you need fast.</p></header>
+    <article class="tpl">
+      <div class="txt">
+        <h3>Top to bottom</h3>
+        <ol>
+          <li><b>Section label:</b> "Entertainment &amp; Music · Capture &amp; Attachment".</li>
+          <li><b>Title:</b> the combo name from your front matter. The <code>C009:</code> and sector suffix in the file's heading move into the label.</li>
+          <li><b>Safety Note (read first)</b>, when present, directly under the title in a calm, clearly bounded panel. Nothing comes between them.</li>
+          <li><b>One meta line:</b> "6 tactics · 14-minute read". Counts only.</li>
+          <li><b>Jump row</b>, one line that scrolls sideways, in your headings: Recognition Cue Cards · Chain Breakers · Escalation Triggers · Safer Response Language. A frightened reader reaches the practical sections in one tap, inside the full text.</li>
+          <li><b>All sections in your order.</b> Each opens with your heading and generous space above it.</li>
+          <li><b>At the end:</b> previous and next in this category; one line to the same combo in the other sector (where it exists); the category's other combos; the Sector Disclaimer, verbatim.</li>
+        </ol>
+        <p class="io"><b>Contents:</b> on desktop, a quiet left rail of your headings with the current one lit. On phones, the Contents button in the top bar opens a sheet of the same headings (native <code>&lt;details&gt;</code>, so it works without JavaScript). A thin reading-progress line sits under the bar.</p>
+      </div>
+      <div class="wf"><svg viewBox="0 0 260 470" role="img" aria-label="Phone sketch of a combo page first screen: top bar with Contents, Search, House and Leave; section label; title; safety note panel; meta line; jump row; then the Cold Open heading and story text.">
+        <rect x="1" y="1" width="258" height="468" rx="14" fill="#05070d" stroke="#232b45"/>
+        <rect x="1" y="1" width="258" height="34" rx="14" fill="#0b0f1a"/><text x="14" y="23" font-size="9" fill="#F3ECD9" font-family="Georgia">Fractal²</text>
+        <g font-size="7" fill="#C9C2B0"><text x="96" y="22">Contents</text><text x="140" y="22">Search</text><text x="176" y="22">House</text></g><rect x="206" y="11" width="44" height="16" rx="8" fill="none" stroke="#E8A07A"/><text x="216" y="22" font-size="7" fill="#E8A07A">Leave</text>
+        <rect x="1" y="35" width="90" height="2" fill="#E9C27A"/>
+        <text x="16" y="58" font-size="7" fill="#8D93A6">ENTERTAINMENT &amp; MUSIC · CAPTURE &amp; ATTACHMENT</text>
+        <text x="16" y="82" font-size="17" fill="#F3ECD9" font-family="Georgia">Emotional Debt Spiral</text>
+        <rect x="16" y="94" width="228" height="62" rx="6" fill="rgba(232,160,122,.08)" stroke="#E8A07A"/>
+        <text x="26" y="110" font-size="7" fill="#E8A07A">SAFETY NOTE (READ FIRST)</text><rect x="26" y="118" width="200" height="4" rx="2" fill="#5a4a44"/><rect x="26" y="127" width="190" height="4" rx="2" fill="#5a4a44"/><rect x="26" y="136" width="150" height="4" rx="2" fill="#5a4a44"/>
+        <text x="16" y="174" font-size="7.5" fill="#8D93A6">6 tactics · 14-minute read</text>
+        <g font-size="6.5" fill="#C9C2B0"><rect x="16" y="184" width="80" height="16" rx="8" fill="none" stroke="#232b45"/><text x="22" y="195">Recognition Cue Cards</text><rect x="100" y="184" width="62" height="16" rx="8" fill="none" stroke="#232b45"/><text x="106" y="195">Chain Breakers</text><rect x="166" y="184" width="90" height="16" rx="8" fill="none" stroke="#232b45"/><text x="172" y="195">Escalation Triggers ›</text></g>
+        <text x="16" y="236" font-size="12" fill="#F3ECD9" font-family="Georgia">Cold Open</text>
+        <g fill="#3a4466"><rect x="16" y="248" width="226" height="5" rx="2"/><rect x="16" y="259" width="220" height="5" rx="2"/><rect x="16" y="270" width="228" height="5" rx="2"/><rect x="16" y="281" width="200" height="5" rx="2"/><rect x="16" y="298" width="224" height="5" rx="2"/><rect x="16" y="309" width="216" height="5" rx="2"/><rect x="16" y="320" width="226" height="5" rx="2"/><rect x="16" y="331" width="120" height="5" rx="2"/><rect x="16" y="348" width="222" height="5" rx="2"/><rect x="16" y="359" width="228" height="5" rx="2"/><rect x="16" y="370" width="190" height="5" rx="2"/></g>
+        <text x="16" y="400" font-size="7" fill="#8D93A6" font-style="italic">Tab so far lol — 31 hours…  (a text message, set in italic)</text>
+        <text x="16" y="452" font-size="6.5" fill="#5A6382">no bottom bar on combo pages: one fixed layer only</text>
+      </svg></div>
+    </article>
+    <header style="margin-top:8px"><h3>How each section is set</h3><p class="sub">Three sections get a special treatment. Everything else is careful typography of exactly what you wrote.</p></header>
+    <div class="tbl"><table class="t">
+      <thead><tr><th>Section</th><th>Treatment</th></tr></thead>
+      <tbody>
+        <tr><td><b>Recognition Cue Cards</b></td><td><b>Special.</b> One card per "SPOT IT — The … Test", with its Ask line and its Concern line kept as two separate lines.</td></tr>
+        <tr><td><b>Escalation Triggers — Specific</b></td><td><b>Special.</b> Your three lines (LOW → MODERATE, MODERATE → HIGH, HIGH → URGENT) as three bounded rows with the labels verbatim. "Tier definitions…" opens the Standards' tiers in place.</td></tr>
+        <tr><td><b>Safer Response Language</b></td><td><b>Special.</b> Each line as a quote, with a copy button when JavaScript is on.</td></tr>
+        <tr><td>Before the Story</td><td>Body text. "A point in a life." and "Where it happens." set as small run-in heads.</td></tr>
+        <tr><td>Cold Open</td><td>Body size, no box, a generous measure. Italic text messages keep their italic.</td></tr>
+        <tr><td>The Name · Definition</td><td>The Name set large, as the reveal the story builds to. Definition as body text.</td></tr>
+        <tr><td>Verbal Breakdown</td><td>Your numbered list. The numbers are chain steps, the only badged numbers on the site. Bold tactic names lead each step.</td></tr>
+        <tr><td>Why This Order (and Why the System Produces This Order)</td><td>Each bold-led paragraph, then its blockquote indented beneath with no added label. The closing paragraph after the last quote stands alone at full width.</td></tr>
+        <tr><td>On Purpose</td><td>Body text, as written.</td></tr>
+        <tr><td>Individual Level · Institutional Echo · Civilizational Echo</td><td>Body text under your headings.</td></tr>
+        <tr><td>Observable Indicators</td><td>Your numbered list, set tight with a narrow number column.</td></tr>
+        <tr><td>Evidence To Preserve — Additions</td><td>Plain bullets, nothing tickable. The fixed line "Plus the Universal Evidence list…" opens that Standards section in place.</td></tr>
+        <tr><td>False-Positive Check — Specific</td><td>Intro paragraph, bold-led items, "Other lookalikes:" and "Concern strengthens when:" kept exactly. The fixed line opens the Standards' explanations in place.</td></tr>
+        <tr><td>Chain Breakers</td><td>Bullets, each opening with its bold instruction.</td></tr>
+        <tr><td>Where Each Tactic Happened</td><td>A table on desktop. On phones, one stacked row per step with the step number kept visible.</td></tr>
+        <tr><td>Reflection</td><td>The closing question, set large, with space around it.</td></tr>
+      </tbody>
+    </table></div>
+  </section>
+
+  <section id="find" aria-labelledby="find-h">
+    <header><p class="eyebrow">5 · Finding a combo</p><h2 id="find-h">Home, categories, all combos, search</h2></header>
+    <div class="tpls">
+      <article class="tpl">
+        <div class="txt"><p class="addr">/fractal2/&lt;sector&gt;</p><h3>Sector home</h3><ol><li>Sector title and one approved line on what's here.</li><li>The ten categories as doors, in your CAT01–CAT10 order. Each shows the short name, the count, and two or three of its combo titles, so the door is described in your own words.</li><li>All combos, Search, and the switch to the other sector.</li></ol></div>
+        <div class="wf"><svg viewBox="0 0 260 250" role="img" aria-label="Sketch of the sector home: title, then category door rows each with a count and example combo titles.">
+          <rect x="1" y="1" width="258" height="248" rx="14" fill="#05070d" stroke="#232b45"/>
+          <text x="16" y="34" font-size="15" fill="#F3ECD9" font-family="Georgia">Entertainment &amp; Music</text><rect x="16" y="44" width="180" height="4" rx="2" fill="#2a3350"/>
+          <g transform="translate(16,60)"><rect width="228" height="40" rx="5" fill="#0b0f1a" stroke="#232b45"/><text x="10" y="16" font-size="9" fill="#F3ECD9" font-family="Georgia">Capture &amp; Attachment</text><text x="200" y="16" font-size="7" fill="#8D93A6">13</text><text x="10" y="30" font-size="6.5" fill="#8D93A6">Grooming · The Savior Trap · Emotional Debt Spiral</text></g>
+          <g transform="translate(16,106)"><rect width="228" height="40" rx="5" fill="#0b0f1a" stroke="#232b45"/><text x="10" y="16" font-size="9" fill="#F3ECD9" font-family="Georgia">Exit Prevention &amp; Entrapment</text><text x="200" y="16" font-size="7" fill="#8D93A6">17</text><text x="10" y="30" font-size="6.5" fill="#8D93A6">The Debt Prison · Golden Handcuffs · …</text></g>
+          <g transform="translate(16,152)"><rect width="228" height="40" rx="5" fill="#0b0f1a" stroke="#232b45"/><text x="10" y="16" font-size="9" fill="#F3ECD9" font-family="Georgia">Conditioning &amp; Behavioral Shaping</text><text x="200" y="16" font-size="7" fill="#8D93A6">24</text><text x="10" y="30" font-size="6.5" fill="#8D93A6">…</text></g>
+          <text x="16" y="216" font-size="7" fill="#8D93A6">… 7 more · All 153 combos · Search · Switch to Corporate</text>
+        </svg></div>
+      </article>
+      <article class="tpl">
+        <div class="txt"><p class="addr">/fractal2/&lt;sector&gt;/combos/&lt;category&gt; · 10</p><h3>Category page</h3><ol><li>Your full category name.</li><li>The first paragraph of your introduction, then "Read the full introduction", which expands to the rest of your text.</li><li>The combos in your ID order, as cards: title · "6 tactics · 14-minute read" · safety mark.</li><li>Previous and next category.</li></ol></div>
+        <div class="wf"><svg viewBox="0 0 260 220" role="img" aria-label="Sketch of a category page: name, first paragraph, a read-more line, then compact combo cards.">
+          <rect x="1" y="1" width="258" height="218" rx="14" fill="#05070d" stroke="#232b45"/>
+          <text x="16" y="30" font-size="12" fill="#F3ECD9" font-family="Georgia">Capture &amp; Attachment Composites</text>
+          <g fill="#2a3350"><rect x="16" y="42" width="226" height="4" rx="2"/><rect x="16" y="51" width="220" height="4" rx="2"/><rect x="16" y="60" width="160" height="4" rx="2"/></g>
+          <text x="16" y="78" font-size="7" fill="#E9C27A">▸ Read the full introduction</text>
+          <g font-size="9" fill="#F3ECD9" font-family="Georgia"><text x="16" y="104">Grooming</text><text x="16" y="138">The Trauma Bond Engine</text><text x="16" y="172">The Savior Trap</text></g>
+          <g font-size="6.5" fill="#8D93A6"><text x="16" y="116">7 tactics · 15-minute read · <tspan fill="#E8A07A">safety note</tspan></text><text x="16" y="150">6 tactics · 14-minute read</text><text x="16" y="184">6 tactics · 13-minute read</text></g>
+        </svg></div>
+      </article>
+      <article class="tpl">
+        <div class="txt"><p class="addr">/fractal2/&lt;sector&gt;/combos</p><h3>All combos and search</h3><p>Every combo, A–Z with "The" ignored for sorting, and letter jump links. Three filters: Category, Has a safety note, Length (under 15 minutes / longer). Filter taps leave no history trail.</p><p><b>Search</b> looks at plain words a reader might use, not only names: the title, Definition, Observable Indicators, the cue cards' Ask lines, tactic names and tags. So "studio time", "credit" or "Gaslighting" all find the right combos. A hit shows why it matched ("uses Gaslighting", or the matching line).</p><p class="io"><b>Without JavaScript:</b> the full A–Z list and the category pages. Search falls back to the A–Z list.</p></div>
+        <div class="wf"><svg viewBox="0 0 260 200" role="img" aria-label="Sketch of the all combos page: search field, three filters, letter jump links, and result rows with match reasons.">
+          <rect x="1" y="1" width="258" height="198" rx="14" fill="#05070d" stroke="#232b45"/>
+          <rect x="16" y="16" width="228" height="20" rx="10" fill="none" stroke="#232b45"/><text x="26" y="29" font-size="7.5" fill="#C9C2B0">studio time</text>
+          <g font-size="6.5" fill="#C9C2B0"><rect x="16" y="44" width="56" height="14" rx="7" fill="none" stroke="#232b45"/><text x="22" y="54">Category ▾</text><rect x="76" y="44" width="64" height="14" rx="7" fill="none" stroke="#232b45"/><text x="82" y="54">Safety note</text><rect x="144" y="44" width="54" height="14" rx="7" fill="none" stroke="#232b45"/><text x="150" y="54">Length ▾</text></g>
+          <text x="16" y="74" font-size="6.5" fill="#8D93A6">A B C D E F G H … (ignoring "The")</text>
+          <g font-family="Georgia" font-size="9" fill="#F3ECD9"><text x="16" y="96">Emotional Debt Spiral</text><text x="16" y="130">The Gratitude Prison</text></g>
+          <g font-size="6.5" fill="#8D93A6"><text x="16" y="108">matched: "Unrequested free studio time, rides…"</text><text x="16" y="142">matched: "uses Favor Debt"</text></g>
+        </svg></div>
+      </article>
+    </div>
+  </section>
+
+  <section id="frame" aria-labelledby="frame-h">
+    <header><p class="eyebrow">6 · Frame</p><h2 id="frame-h">Bars, safety and the House</h2></header>
+    <div class="two">
+      <div class="box"><h4>Combo pages: one fixed layer</h4><ul><li>Top bar: Fractal² · Contents · Search · House · <b>Leave</b> (44 px, top right, replaces the page so Back can't return).</li><li>Thin reading-progress line under the bar.</li><li>No bottom bar while reading.</li></ul></div>
+      <div class="box"><h4>Every other page</h4><ul><li>Top bar: Fractal² · Search · <b>Leave</b>.</li><li>Phone bottom bar: Home · Categories · All combos · House. On desktop these sit in the top bar.</li><li>THE HOUSE always opens the same shared drawer, unchanged.</li></ul></div>
+      <div class="box"><h4>Footer on every page</h4><ul><li>Your Sector Disclaimer, verbatim. It already ends "In danger? Contact local emergency services."</li><li>Version note (house rule).</li></ul></div>
+      <div class="box"><h4>Sector Standards</h4><ul><li>Its own page, with an anchor on each of your six headings.</li><li>Inside combos, each of the three fixed references ("Plus the Universal Evidence list…", "Apply the Universal Benign Explanations…", "Tier definitions…") expands the matching section in place, with a link to the full page.</li></ul></div>
+    </div>
+  </section>
+
+  <section id="parse" aria-labelledby="parse-h">
+    <header><p class="eyebrow">7 · Reading the files</p><h2 id="parse-h">Parser rules, each with a test</h2><p class="sub">The page can only be as true as the parser, so each pattern found in the 291 files gets a test that fails the build.</p></header>
+    <div class="tbl"><table class="t">
+      <thead><tr><th>Pattern</th><th>Rule</th></tr></thead>
+      <tbody>
+        <tr><td>Front matter</td><td>Read the title, category, tactics in order, tags, version and status. Never print the raw block.</td></tr>
+        <tr><td>Sections</td><td>Taken from the file, in the file's order. Never from a fixed list: Entertainment's C113 has all four Corporate sections.</td></tr>
+        <tr><td>Why This Order</td><td>Pair each bold-led paragraph with the blockquote that follows it. The last paragraph after the final quote is its own block (present in 291 of 291).</td></tr>
+        <tr><td>Cue cards</td><td>"SPOT IT — …:", "Ask:", "Concern rises if:" are separate lines joined by single line breaks. Parse them explicitly so they don't run together.</td></tr>
+        <tr><td>Escalation</td><td>Three bold-labeled lines plus the closing "Tier definitions…" line.</td></tr>
+        <tr><td>Corporate table</td><td>A four-column table: header row, separator, one row per step.</td></tr>
+        <tr><td>Inline</td><td>Bold, italic (text messages), bold run-in heads, and the <code>[X]</code>/<code>[Y]</code> fill-in blanks in two combos (shown as visible blanks).</td></tr>
+        <tr><td>Word count</td><td>The words on each page equal the words in its file, excluding front matter. Exact, every combo, every build.</td></tr>
+      </tbody>
+    </table></div>
+  </section>
+
+  <section id="visual" aria-labelledby="visual-h">
+    <header><p class="eyebrow">8 · Visual rules</p><h2 id="visual-h">What makes a 20-minute read a pleasure</h2><p class="sub">The look is chosen by comps of one real Entertainment combo and one real Corporate combo. These rules hold whichever look wins, and each one is a check.</p></header>
+    <div class="finds">
+      <div class="find"><h4>Measure and size</h4><p>Body 18–19 px on phones, 62–68 characters per line, line height about 1.6. Contrast 4.5:1 or better on rendered pixels, light and dark.</p></div>
+      <div class="find"><h4>Section rhythm</h4><p>Every section opens the same way: your heading, with 48 px or more of space above it. The Name and Reflection get a larger setting. No boxes around story text.</p></div>
+      <div class="find"><h4>First screen</h4><p>At 390 × 664 after the bar: the label, the title, the safety note when present, the meta line and the jump row are all visible.</p></div>
+      <div class="find"><h4>One fixed layer while reading</h4><p>Nothing covers text. Checked at 375, 390 and 1440 px and at 200% text size.</p></div>
+      <div class="find"><h4>Type and color</h4><p>Two typefaces at most, one accent for actions, the 8 px grid, 44 px targets, visible focus. Safety panels use a calm warm tint, never alarm red.</p></div>
+      <div class="find"><h4>Both modes, and print</h4><p>Light and dark both designed, following the system setting. Print gives the full text and the disclaimer, with no bars or buttons.</p></div>
+      <div class="find"><h4>Weight</h4><p>Fonts load once from the shared folder. A combo page stays small enough to open quickly on a weak phone signal.</p></div>
+      <div class="find"><h4>Calm motion</h4><p>Only to show a change (a contents sheet opening, results updating). Nothing autoplays. Reduced motion means none.</p></div>
+    </div>
+  </section>
+
+  <section id="steps" aria-labelledby="steps-h">
+    <header><p class="eyebrow">9 · Build steps</p><h2 id="steps-h">In this order</h2><p class="sub">Filled circles are where I stop and show you. Agents run one at a time.</p></header>
+    <div class="phases">
+      <div class="ph owner" data-n="0"><h3>Your calls</h3><p>Answers to section 10, appended to <code>content/fractal2/DECISIONS.md</code>. Store the package verbatim in <code>content/fractal/ent/</code> and <code>content/fractal/corp/</code>, never edited.</p><div class="kit"><div><h5>Skills</h5><p><code>/grill-me</code> if any call needs talking through</p></div><div><h5>Servers and tools</h5><p>AskUserQuestion</p></div><div><h5>Agents</h5><p>none</p></div></div></div>
+      <div class="ph" data-n="1"><h3>Parser and tests</h3><p>A new ingest for the markdown package that replaces the old format. Every rule in section 7 gets a test, plus the exact word-count round trip.</p><div class="kit"><div><h5>Skills</h5><p><code>ponytail</code></p></div><div><h5>Servers and tools</h5><p>Python, extending <code>design/fractal-sector/ingest.py</code></p></div><div><h5>Agents</h5><p><code>test-writer-fixer</code></p></div></div><p class="exit"><b>Exit:</b> 291 of 291 combos parse; word counts exact.</p></div>
+      <div class="ph" data-n="2"><h3>Checks before design</h3><p>Write the gates that judge the comps: first screen, one fixed layer, 200% text, contrast in both modes, nothing covering text, safety note directly under the title, no words outside the files and the approved strings.</p><div class="kit"><div><h5>Skills</h5><p><code>design-director</code>, <code>web-accessibility</code></p></div><div><h5>Servers and tools</h5><p><code>design-gates.mjs</code>, <code>verify.mjs</code>, Playwright</p></div><div><h5>Agents</h5><p>none</p></div></div><p class="exit"><b>Exit:</b> the gates fail on today's pages where the audit found faults.</p></div>
+      <div class="ph owner" data-n="3"><h3>Two real combo pages, three looks</h3><p>Emotional Debt Spiral in Entertainment and in Corporate, plus one combo with a safety note, in three looks. Real text, screenshots at 390 and 1440.</p><div class="kit"><div><h5>Skills</h5><p><code>design-director</code>, <code>frontend-design</code>, <code>refactoring-ui</code>, <code>impeccable</code></p></div><div><h5>Servers and tools</h5><p>Playwright; <code>docs/design-catalogue/</code></p></div><div><h5>Agents</h5><p><code>brand-guardian</code></p></div></div><p class="ownerflag">You choose a look.</p></div>
+      <div class="ph" data-n="4"><h3>The whole generator</h3><p>All five page types from the parsed data, for both sectors. Static HTML first, then the frame.</p><div class="kit"><div><h5>Skills</h5><p><code>ponytail</code>, <code>impeccable</code>, <code>web-design-guidelines</code></p></div><div><h5>Servers and tools</h5><p><code>serve.py 8802</code></p></div><div><h5>Agents</h5><p><code>frontend-developer</code></p></div></div><p class="exit"><b>Exit:</b> 166 + 151 pages in one command.</p></div>
+      <div class="ph" data-n="5"><h3>Contents, search, filters, copy</h3><p>The contents sheet and rail, the reading progress line, search with match reasons, the three filters, copy buttons and the in-place Standards. Every one works by keyboard and screen reader, and has a fallback without JavaScript.</p><div class="kit"><div><h5>Skills</h5><p><code>emil-design-eng</code>, <code>review-animations</code>, <code>web-perf</code></p></div><div><h5>Servers and tools</h5><p>Playwright</p></div><div><h5>Agents</h5><p><code>code-reviewer</code></p></div></div></div>
+      <div class="ph" data-n="6"><h3>Full checks and a critic round</h3><p>All gates on both sectors, accessibility, a contact sheet that I look at, then a fresh critic.</p><div class="kit"><div><h5>Skills</h5><p><code>better-accessibility</code>, <code>seo-audit</code>, <code>security-review</code></p></div><div><h5>Servers and tools</h5><p><code>verify.mjs</code>, <code>design-gates.mjs</code>, axe</p></div><div><h5>Agents</h5><p><code>impeccable-finish-reviewer</code></p></div></div><p class="exit"><b>Exit:</b> 0 failures.</p></div>
+      <div class="ph owner" data-n="7"><h3>Your phone, then release</h3><p>Your iPhone check on a preview. Approve the strings file. Then version and changelog in <code>sites.json</code> and on the page, redirects for the paused pages, and deploy only on your word.</p><div class="kit"><div><h5>Skills</h5><p><code>copy-editing</code> (strings only)</p></div><div><h5>Servers and tools</h5><p>Netlify, <code>verify-deployed.mjs</code></p></div><div><h5>Agents</h5><p><code>mobile-developer</code></p></div></div><p class="ownerflag">You say deploy.</p></div>
+    </div>
+  </section>
+
+  <section id="dec" aria-labelledby="dec-h">
+    <header><p class="eyebrow">10 · Your calls</p><h2 id="dec-h">Seven decisions</h2><p class="sub">If you don't answer one, I'll use the recommendation and say so.</p></header>
+    <ol class="dec">
+      <li><h3>"Combos" or "patterns" in the interface?</h3><p>Your files say combo; today's site says pattern.</p><p class="rec"><b>Recommend:</b> combos, matching your package.</p></li>
+      <li><h3>Show "draft", version or fit tier?</h3><p>Every file is version 1, status draft; fit tier is A or B.</p><p class="rec"><b>Recommend:</b> none on the page for now. The version note in the footer covers updates.</p></li>
+      <li><h3>Corporate's address and title</h3><p class="rec"><b>Recommend:</b> <code>/fractal2/corporate</code>, titled "Corporate &amp; Consulting" as in your Standards.</p></li>
+      <li><h3>One look or two, against the film and hub?</h3><p class="rec"><b>Recommend:</b> decided by the three comps in step 3.</p></li>
+      <li><h3>Short category names in navigation?</h3><p>"Capture &amp; Attachment" instead of "Capture &amp; Attachment Composites"; your full name stays on the category page.</p><p class="rec"><b>Recommend:</b> yes, a list of ten for you to approve.</p></li>
+      <li><h3>Page titles on a watched phone</h3><p>Browser tabs and history show titles like "Grooming". Leave can't clear history.</p><p class="rec"><b>Recommend:</b> normal titles, plus a note on private browsing in the footer link. A discreet-title option can come later.</p></li>
+      <li><h3>Today's tactic, stage and map pages</h3><p class="rec"><b>Recommend:</b> pause them and 301 their addresses to the sector home until combos are done.</p></li>
+    </ol>
+  </section>
+</div>
