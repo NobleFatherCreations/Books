@@ -131,7 +131,7 @@ def main():
             else: pre, e1 = fill(G, 0, a, p)
             post, e2 = fill(G, a, nb, N - p, avoid=(a,)); seq, ed = pre + post, e1 + e2; info['anchor'] = {'name': 'PEAK1', 'film_s': PK1}
         elif name == 'cue3.wav':                              # starts on PEAK2 with its strongest opening; its biggest lift on PEAK3
-            s0 = max(range(0, int(nb * .4)), key=lambda b: lift(G, b, 2) if b else float(G['kick'][0]) + 3); p = int(round((PK3 - t0) / BAR))
+            s0 = max(range(0, 9), key=lambda b: float(G['db'][b:b + 2].mean()) + 2.0 * float(G['kick'][b]))      # a drop on 'down': the loudest early downbeat with a kick (the owner's cue 3 fades in, so its biggest *change* was a quiet bar); p = int(round((PK3 - t0) / BAR))
             a = max(range(max(s0 + 16, int(nb * .55)), nb - 6), key=lambda b: lift(G, b)); info['opening_bar'] = s0; info['lift_bar'] = a; info['lift_score'] = round(lift(G, a), 2)   # the release lives in the cue's last part (the F major lift)
             pre, e1 = fill(G, s0, a, p, avoid=(s0,)); post, e2 = fill(G, a, nb, N - p, avoid=(a,)); seq, ed = pre + post, e1 + e2
             if s0: ed.insert(0, {'kind': 'start', 'bars': [s0, s0]})
@@ -142,6 +142,8 @@ def main():
         r = np.sqrt(np.mean(x[:, :int(N * BAR * SR)] ** 2)) + 1e-9; x *= (10 ** (-20 / 20)) / r      # level-match the cues (about -20 dBFS RMS each)
         if name != 'cue4.wav':                                # hard edge at the slot end (a 12 ms fade so it does not click)
             e = int(round(N * BAR * SR)); f = int(.012 * SR); x = x[:, :e]; x[:, e - f:] *= np.linspace(1, 0, f, dtype=np.float32)
+            if name == 'cue2.wav':                            # the two-bar pull-in under "So I stopped trying to climb out, and I went down": 9 dB down so the drop on 'down' lands
+                g = int(round(2 * BAR * SR)); x[:, e - g:] *= np.linspace(1, 10 ** (-9 / 20), g, dtype=np.float32)
         else:
             f = int(TAIL * SR); x[:, -f:] *= np.linspace(1, 0, f, dtype=np.float32) ** 2
         f = int(.006 * SR); x[:, :f] *= np.linspace(0, 1, f, dtype=np.float32)
