@@ -1,0 +1,551 @@
+<title>Sector Blueprint</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Instrument+Serif&family=Source+Serif+4:opsz,wght@8..60,300..600&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<style>
+/* Layout: one reading column for the argument; wide figures (axes, page tree, wireframes, phase ladder) break out to full width. Single dark look on purpose: the Fractal² film and hub palette. */
+:root{
+  --bg:#05070d; --panel:#0b0f1a; --panel2:#0f1424; --line:#232b45; --ink:#F3ECD9; --ink2:#C9C2B0; --mute:#8D93A6;
+  --gold:#E9C27A; --gold-dim:rgba(233,194,122,.13); --grey:#BFC4D2; --warn:#E8A07A; --ok:#9FCB9A;
+  --s1:#d9a441; --s2:#e07b39; --s3:#d24b4b; --s4:#b04a8c; --s5:#7b5bc4; --s6:#4a72c4; --s7:#3f9bb0; --s8:#5aa77a;
+  --display:"Instrument Serif",Georgia,serif; --body:"Source Serif 4",Georgia,serif; --mono:"IBM Plex Mono",ui-monospace,Menlo,monospace;
+  color-scheme:dark;
+}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:var(--body);font-size:17px;line-height:1.6;-webkit-font-smoothing:antialiased}
+.wrap{max-width:72rem;margin:0 auto;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));padding-block:56px 112px}
+.read{max-width:42rem}
+h1,h2,h3,h4{font-family:var(--display);font-weight:400;text-wrap:balance;margin:0}
+h1{font-size:clamp(3rem,9vw,5.5rem);line-height:.95;letter-spacing:-.01em}
+h2{font-size:clamp(2rem,5vw,2.9rem);line-height:1.05}
+h3{font-size:1.55rem;line-height:1.15}
+h4{font-size:1.2rem;line-height:1.2}
+p{margin:0}
+ul,ol{margin:0;padding-left:1.2em}
+li+li{margin-top:4px}
+.lede{color:var(--ink2);font-size:1.15rem;margin-top:20px}
+.eyebrow{font-family:var(--mono);font-size:.72rem;letter-spacing:.14em;text-transform:uppercase;color:var(--gold)}
+code,.mono{font-family:var(--mono);font-size:.82em;color:var(--ink2);overflow-wrap:anywhere}
+a{color:var(--gold)}
+:focus-visible{outline:2px solid var(--gold);outline-offset:3px}
+section{margin-top:96px;display:flex;flex-direction:column;gap:28px}
+section>*{min-width:0}
+section>header{display:flex;flex-direction:column;gap:10px;max-width:44rem}
+.sub{color:var(--mute)}
+.note{color:var(--mute);font-size:.92rem}
+.toc{display:flex;flex-wrap:wrap;gap:8px 18px;margin-top:28px;font-family:var(--mono);font-size:.78rem}
+.toc a{color:var(--ink2);text-decoration:none;border-bottom:1px solid var(--line)}
+.toc a:hover{color:var(--gold);border-color:var(--gold)}
+
+/* numbers */
+.nums{display:grid;grid-template-columns:repeat(auto-fit,minmax(9rem,1fr));gap:1px;background:var(--line);border:1px solid var(--line);border-radius:6px;overflow:hidden}
+.num{background:var(--bg);padding:16px}
+.num b{display:block;font-family:var(--display);font-weight:400;font-size:2.4rem;line-height:1;font-variant-numeric:tabular-nums}
+.num span{display:block;font-size:.85rem;color:var(--mute);margin-top:6px}
+
+/* findings */
+.finds{display:grid;grid-template-columns:1fr;gap:12px}
+@media(min-width:820px){.finds{grid-template-columns:1fr 1fr}}
+.find{border:1px solid var(--line);border-radius:6px;padding:16px 18px;display:flex;flex-direction:column;gap:6px;background:var(--panel)}
+.find .tag{font-family:var(--mono);font-size:.68rem;letter-spacing:.1em;text-transform:uppercase}
+.find.keep .tag{color:var(--ok)} .find.fix .tag{color:var(--warn)}
+.find p{color:var(--ink2);font-size:.95rem}
+.find .ev{font-family:var(--mono);font-size:.72rem;color:var(--mute)}
+
+/* the three layers */
+.layers{display:flex;flex-direction:column;gap:0;border:1px solid var(--line);border-radius:8px;overflow:hidden}
+.layer{display:grid;grid-template-columns:1fr;gap:12px;padding:20px;border-top:1px solid var(--line)}
+.layer:first-child{border-top:0}
+@media(min-width:820px){.layer{grid-template-columns:13rem minmax(0,1fr) 15rem;gap:24px;align-items:start}}
+.layer .lname{display:flex;flex-direction:column;gap:4px}
+.layer .lname small{font-family:var(--mono);font-size:.72rem;color:var(--mute)}
+.layer p{color:var(--ink2);font-size:.96rem}
+.layer .addr{font-family:var(--mono);font-size:.78rem;color:var(--gold);overflow-wrap:anywhere}
+.layer.decoder{background:linear-gradient(90deg,rgba(191,196,210,.06),transparent)}
+.layer.tactic{background:linear-gradient(90deg,var(--gold-dim),transparent)}
+.joint{font-family:var(--mono);font-size:.74rem;color:var(--mute);padding:8px 20px;background:var(--panel2);border-top:1px solid var(--line)}
+.joint b{color:var(--ink2);font-weight:500}
+
+/* matrix: stage x scale */
+.mx{overflow-x:auto;border:1px solid var(--line);border-radius:6px}
+.mx table{border-collapse:collapse;width:100%;min-width:44rem;font-size:.85rem}
+.mx th,.mx td{padding:10px 12px;border-bottom:1px solid var(--line);border-left:1px solid var(--line);text-align:left;vertical-align:top}
+.mx th{font-family:var(--mono);font-weight:400;font-size:.7rem;letter-spacing:.08em;text-transform:uppercase;color:var(--mute)}
+.mx td{color:var(--ink2)}
+.mx tr:last-child td{border-bottom:0}
+.mx .st{white-space:nowrap;color:var(--ink)}
+.dot{display:inline-block;width:9px;height:9px;border-radius:50%;margin-right:8px;vertical-align:0}
+.cnt{font-family:var(--mono);font-variant-numeric:tabular-nums;color:var(--mute);font-size:.75rem}
+
+/* tree */
+pre.tree{margin:0;padding:20px;background:var(--panel);border:1px solid var(--line);border-radius:6px;overflow-x:auto;font-family:var(--mono);font-size:.78rem;line-height:1.7;color:var(--ink2)}
+pre.tree b{color:var(--gold);font-weight:500}
+pre.tree i{color:var(--mute);font-style:normal}
+pre.tree em{color:var(--grey);font-style:normal}
+
+/* templates */
+.tpls{display:flex;flex-direction:column;gap:20px}
+.tpl{border:1px solid var(--line);border-radius:8px;display:grid;grid-template-columns:1fr;overflow:hidden}
+@media(min-width:900px){.tpl{grid-template-columns:minmax(0,1fr) minmax(0,1fr)}}
+.tpl .txt{padding:20px;display:flex;flex-direction:column;gap:10px}
+.tpl .txt .addr{font-family:var(--mono);font-size:.76rem;color:var(--gold);overflow-wrap:anywhere}
+.tpl .txt p{color:var(--ink2);font-size:.95rem}
+.tpl .txt ol{color:var(--ink2);font-size:.92rem}
+.tpl .txt .io{font-family:var(--mono);font-size:.72rem;color:var(--mute);line-height:1.6}
+.tpl .txt .io b{color:var(--ink2);font-weight:500}
+.wf{background:var(--panel);border-top:1px solid var(--line);padding:20px;display:flex;justify-content:center;align-items:flex-start}
+@media(min-width:900px){.wf{border-top:0;border-left:1px solid var(--line)}}
+.wf svg{width:100%;max-width:30rem;height:auto}
+.wf svg text{font-family:"IBM Plex Mono",monospace}
+
+/* rules table */
+.tbl{max-width:100%;min-width:0;overflow-x:auto;border:1px solid var(--line);border-radius:6px}
+table.t{border-collapse:collapse;width:100%;min-width:42rem;font-size:.9rem}
+table.t th,table.t td{text-align:left;padding:12px 14px;border-bottom:1px solid var(--line);vertical-align:top}
+table.t th{font-family:var(--mono);font-weight:400;font-size:.7rem;letter-spacing:.1em;text-transform:uppercase;color:var(--mute)}
+table.t tr:last-child td{border-bottom:0}
+table.t td{color:var(--ink2)} table.t td:first-child{color:var(--ink)}
+
+/* phases */
+.phases{display:flex;flex-direction:column;border-left:1px solid var(--line);margin-left:10px}
+.ph{position:relative;padding:0 0 36px 30px;display:flex;flex-direction:column;gap:10px}
+.ph:last-child{padding-bottom:0}
+.ph::before{content:attr(data-n);position:absolute;left:-15px;top:0;width:29px;height:29px;border-radius:50%;background:var(--bg);border:1px solid var(--gold);color:var(--gold);font-family:var(--mono);font-size:.72rem;display:flex;align-items:center;justify-content:center}
+.ph.owner::before{background:var(--gold);color:var(--bg)}
+.ph h3{font-size:1.45rem;padding-top:1px}
+.ph>p{color:var(--ink2);font-size:.96rem;max-width:46rem}
+.kit{display:grid;grid-template-columns:1fr;gap:8px}
+@media(min-width:820px){.kit{grid-template-columns:repeat(3,minmax(0,1fr))}}
+.kit div{border:1px solid var(--line);border-radius:4px;padding:10px 12px;background:var(--panel)}
+.kit h5{margin:0 0 6px;font-family:var(--mono);font-weight:400;font-size:.66rem;letter-spacing:.12em;text-transform:uppercase;color:var(--mute)}
+.kit p{font-size:.86rem;color:var(--ink2);line-height:1.5}
+.kit code{font-size:.78rem;color:var(--ink)}
+.exit{font-family:var(--mono);font-size:.74rem;color:var(--ok)}
+.exit b{font-weight:500}
+.ownerflag{font-family:var(--mono);font-size:.74rem;color:var(--gold)}
+
+/* decisions */
+ol.dec{list-style:none;margin:0;padding:0;display:flex;flex-direction:column;gap:12px}
+ol.dec li{border:1px solid var(--line);border-left:3px solid var(--warn);border-radius:4px;padding:16px 18px;display:flex;flex-direction:column;gap:6px;background:var(--panel);margin:0}
+ol.dec h3{font-size:1.3rem}
+ol.dec p{color:var(--ink2);font-size:.95rem}
+.rec{font-family:var(--mono);font-size:.76rem;color:var(--mute)}
+.rec b{color:var(--gold);font-weight:500}
+.two{display:grid;grid-template-columns:1fr;gap:16px}
+@media(min-width:820px){.two{grid-template-columns:1fr 1fr}}
+.box{border:1px solid var(--line);border-radius:6px;padding:18px;background:var(--panel);display:flex;flex-direction:column;gap:8px}
+.box p,.box li{color:var(--ink2);font-size:.94rem}
+</style>
+
+<div class="wrap">
+  <header class="read">
+    <p class="eyebrow">Fractal² · sector sites · plan only, nothing built</p>
+    <h1 style="margin-top:14px">Sector blueprint</h1>
+    <p class="lede">This is how every sector site gets rebuilt from the ground up. It covers how people read the 335 tactics at three scales, how each tactic hands off to Pattern Decoder for the general breakdown, how they move through the patterns by category, and the order I would build it in, with the skills, servers and agents for each step. It is drawn from what exists in Entertainment &amp; Music today and written so the same build works for all thirty sectors.</p>
+    <nav class="toc" aria-label="Sections">
+      <a href="#now">1 What exists</a><a href="#model">2 The model</a><a href="#tree">3 Page map</a><a href="#tpl">4 Templates</a><a href="#decoder">5 Pattern Decoder</a><a href="#combos">6 Patterns</a><a href="#links">7 Linking</a><a href="#data">8 Data</a><a href="#build">9 Build order</a><a href="#dec">10 Your calls</a>
+    </nav>
+  </header>
+
+  <!-- 1 -->
+  <section id="now" aria-labelledby="now-h">
+    <header>
+      <p class="eyebrow">1 · What exists</p>
+      <h2 id="now-h">Entertainment &amp; Music today</h2>
+      <p class="sub">Measured from <code>content/fractal/ent/build/sector.json</code>, the built pages in <code>library/fractal2/site/fractal2/entertainment/</code> and Pattern Decoder v20 in <code>instruments/playbook/site/</code>.</p>
+    </header>
+    <div class="nums">
+      <div class="num"><b>335</b><span>tactics, each with an Individual, Institutional and Civilizational example</span></div>
+      <div class="num"><b>153</b><span>patterns (combos) in 10 categories, median 3,045 words each</span></div>
+      <div class="num"><b>464k</b><span>words in the patterns alone</span></div>
+      <div class="num"><b>518</b><span>pages built today</span></div>
+      <div class="num"><b>335/335</b><span>tactics with a matching Pattern Decoder page, by the same standard ID</span></div>
+      <div class="num"><b>12</b><span>situations ("Signing &amp; contracts", "Touring &amp; crew", …)</span></div>
+    </div>
+    <div class="finds">
+      <div class="find keep"><span class="tag">Keep</span><h4>The scale is right</h4><p>Every tactic has a page and every pattern has a page. Search, the Leave button, safety notes first and the three reading modes are all solid groundwork.</p><p class="ev">navigation spec v1, verify.mjs 26 checks</p></div>
+      <div class="find keep"><span class="tag">Keep</span><h4>One ID ties everything together</h4><p>A tactic's standard ID (for example <code>S2-017</code>, Obligation Contracts) is the same in the sector data and in Pattern Decoder. That makes a clean one-to-one bridge possible.</p><p class="ev">content/decoder-v20/standard_index.json</p></div>
+      <div class="find fix"><span class="tag">Fix</span><h4>The three scales are hidden</h4><p>The fractal idea, the same tactic at three sizes, is just three stacked paragraphs on the tactic page. There's no way to read all Institutional examples together, or to zoom one tactic from a person to a civilization.</p><p class="ev">tactic/obligation-contracts.html; stage pages 143–234 KB each</p></div>
+      <div class="find fix"><span class="tag">Fix</span><h4>The Pattern Decoder link is a footnote</h4><p>The practical part (signs, questions to ask yourself, what you can do, words you could use) is in Pattern Decoder. On the sector page it's one link in a list at the bottom.</p><p class="ev">"Where else to read about it", last block</p></div>
+      <div class="find fix"><span class="tag">Fix</span><h4>Dead ends and loose links</h4><p>46 tactics belong to no pattern. 144 belong to only one. 25 tactic links inside pattern chains (22 distinct names) still don't link anywhere. Gaslighting, FOG and DARVO jump out to Pattern Decoder with no warning that you're leaving the sector.</p><p class="ev">links.json: still_unresolved 25; tactic reuse histogram</p></div>
+      <div class="find fix"><span class="tag">Fix</span><h4>Categories are hard to use</h4><p>Category pages are long lists. Their addresses start with <code>family-</code>, which will read as the Family sector once <code>/fractal2/family</code> exists. Every name ends in "Composites." The 12 situations exist only as a filter.</p><p class="ev">family-social-warfare.html; nav.json settings</p></div>
+      <div class="find fix"><span class="tag">Fix</span><h4>Patterns don't follow the stages in order</h4><p>27 patterns start at stage 6 and only 23 at stage 1. A chain drawn as a straight line hides that. It needs to be drawn on the eight-stage ring, where the jumps are the point.</p><p class="ev">first-tactic stage counts across 153 chains</p></div>
+      <div class="find fix"><span class="tag">Fix</span><h4>The root folder is a pile</h4><p>182 pages sit in one folder: patterns, categories, stages and guides side by side. The sector has no visible spine to its addresses.</p><p class="ev">entertainment/*.html</p></div>
+    </div>
+  </section>
+
+  <!-- 2 -->
+  <section id="model" aria-labelledby="model-h">
+    <header>
+      <p class="eyebrow">2 · The model</p>
+      <h2 id="model-h">Three layers, one ID</h2>
+      <p class="sub">Each layer answers one question and never repeats the layer next to it. The standard ID carries a reader from one to the next.</p>
+    </header>
+    <div class="layers">
+      <div class="layer decoder"><div class="lname"><h3>Pattern Decoder</h3><small>general, belongs to no sector</small></div><p><b>What is this, and what can I do?</b> The full guide to one tactic: what it is, it can sound like, signs it might be this or something else, questions to ask yourself, what you can do, words you could use, using the label fairly. It already exists, about 1,100 words per tactic.</p><p class="addr">/playbook/&lt;tactic&gt;<br>/playbook/&lt;umbrella&gt; (Gaslighting, FOG, DARVO…)</p></div>
+      <div class="joint"><b>standard ID</b> · one page on each side. The sector page leads to the Pattern Decoder guide, and the guide lists every sector where the tactic appears.</div>
+      <div class="layer tactic"><div class="lname"><h3>Sector tactic</h3><small>335 per sector</small></div><p><b>What does it look like here, at every size?</b> The author's three examples (Individual, Institutional, Civilizational), the tactic's stage, and every pattern it sits in, with its position in the chain.</p><p class="addr">/fractal2/&lt;sector&gt;/tactic/&lt;tactic&gt;<br>/fractal2/&lt;sector&gt;/scale/&lt;scale&gt;</p></div>
+      <div class="joint"><b>chain position</b> · "step 3 of 6 in The Debt Prison"</div>
+      <div class="layer"><div class="lname"><h3>Pattern</h3><small>153 per sector, 10 categories, 12 situations</small></div><p><b>How do tactics combine, and how do I break the chain?</b> The full script: scene, why this order, the three altitudes, indicators, spot it, chain breakers, words you could use.</p><p class="addr">/fractal2/&lt;sector&gt;/&lt;pattern&gt;<br>/fractal2/&lt;sector&gt;/patterns/&lt;category&gt;</p></div>
+    </div>
+    <header style="margin-top:12px"><h3>The tactic atlas: stage by scale</h3><p class="sub">Each sector's 335 tactics sit on a grid of 8 stages by 3 scales. Every row and every column is a real page you can read straight through. Counts are Entertainment's.</p></header>
+    <div class="mx"><table>
+      <thead><tr><th>Stage</th><th>Tactics</th><th>Individual</th><th>Institutional</th><th>Civilizational</th></tr></thead>
+      <tbody>
+        <tr><td class="st"><span class="dot" style="background:var(--s1)"></span>1 Idealize</td><td class="cnt">27</td><td rowspan="8" style="vertical-align:middle">A person and the people around them.<br><span class="cnt">/scale/individual · 335 examples</span></td><td rowspan="8" style="vertical-align:middle">A label, venue, management firm or platform.<br><span class="cnt">/scale/institutional · 335 examples</span></td><td rowspan="8" style="vertical-align:middle">The culture and unwritten rules of the whole industry.<br><span class="cnt">/scale/civilizational · 335 examples</span></td></tr>
+        <tr><td class="st"><span class="dot" style="background:var(--s2)"></span>2 Hook</td><td class="cnt">50</td></tr>
+        <tr><td class="st"><span class="dot" style="background:var(--s3)"></span>3 Devalue</td><td class="cnt">34</td></tr>
+        <tr><td class="st"><span class="dot" style="background:var(--s4)"></span>4 Confuse</td><td class="cnt">74</td></tr>
+        <tr><td class="st"><span class="dot" style="background:var(--s5)"></span>5 Isolate</td><td class="cnt">24</td></tr>
+        <tr><td class="st"><span class="dot" style="background:var(--s6)"></span>6 Extract · Control</td><td class="cnt">90</td></tr>
+        <tr><td class="st"><span class="dot" style="background:var(--s7)"></span>7 Discard</td><td class="cnt">21</td></tr>
+        <tr><td class="st"><span class="dot" style="background:var(--s8)"></span>8 Replace</td><td class="cnt">15</td></tr>
+      </tbody>
+    </table></div>
+    <p class="note">Stage colors here are placeholders. The build uses the eight hues from your original artwork.</p>
+  </section>
+
+  <!-- 3 -->
+  <section id="tree" aria-labelledby="tree-h">
+    <header>
+      <p class="eyebrow">3 · Page map</p>
+      <h2 id="tree-h">Every page in a sector</h2>
+      <p class="sub">Four sections under each sector, each with its own address. Tactic and pattern addresses stay exactly as they are today, because those are the pages people share.</p>
+    </header>
+<pre class="tree"><b>/fractal2/&lt;sector&gt;</b>                         Sector home: the ring, "where are you right now", the ten that matter
+│
+├── <b>/start</b>                                Ways in by situation <i>(today's six doors, made into one page)</i>
+│   ├── /in-it-now                        <i>kept</i>
+│   ├── /worried-about-someone            <i>kept</i>
+│   ├── /notice                           "What are you noticing?" <i>(kept, private, stores nothing)</i>
+│   └── /in/&lt;situation&gt;                   <em>NEW</em> 12 pages: Signing &amp; contracts, Touring &amp; crew, … <i>(before-you-sign → /in/signing)</i>
+│
+├── <b>/tactics</b>                              <em>NEW</em> The tactic atlas: stage × scale grid, filter, A–Z
+│   ├── /tactics/&lt;stage&gt;                  8 stage chapters <i>(replaces /stage-&lt;stage&gt;, 301)</i>
+│   ├── /scale/individual                 <em>NEW</em> all 335 at one scale, grouped by stage
+│   ├── /scale/institutional              <em>NEW</em>
+│   ├── /scale/civilizational             <em>NEW</em>
+│   └── /tactic/&lt;tactic&gt;                  335 tactic pages <i>(same address as today)</i>  ──▶  /playbook/&lt;tactic&gt;
+│
+├── <b>/patterns</b>                             The pattern library: filter by category, situation, stage, tactic
+│   ├── /patterns/&lt;category&gt;              10 category pages <i>(replaces /family-&lt;category&gt;, 301)</i>
+│   └── /&lt;pattern&gt;                        153 pattern pages <i>(same address as today)</i>
+│        ├── #quick   #sequence   #full     three reading modes over one text <i>(kept)</i>
+│        └── umbrella links in a chain    ──▶  /playbook/gaslighting, /playbook/fog …  <i>(marked "general guide")</i>
+│
+├── <b>/map</b>                                  The living map: tactics on the ring, patterns inside, chains drawn in order
+│
+└── <b>/about</b>                                <em>NEW</em> folder for reference pages
+    ├── /method                           <i>kept (address kept, linked from /about)</i>
+    ├── /take-it-with-you                 <i>kept</i>
+    └── /a-z                              <i>kept, the no-JavaScript search</i>
+
+<i>Per sector ≈ 1 home + 16 ways-in pages + 8 stages + 3 scales + 335 tactics + 10 categories + 153 patterns + 5 reference pages ≈ 531 pages.</i>
+<i>Thirty sectors at that size ≈ 16,000 pages, all static, all from one generator.</i></pre>
+    <div class="two">
+      <div class="box"><h4>Top bar on every page</h4><p>Fractal² mark · sector switcher (all thirty) · <b>Tactics</b> · <b>Patterns</b> · <b>Map</b> · Search · <b>Leave</b>. That's three sections, within the 4–7 item rule, with Leave always last and always visible.</p></div>
+      <div class="box"><h4>Breadcrumbs follow the address</h4><p><code>Fractal² / Entertainment &amp; Music / Tactics / Hook / Obligation Contracts</code><br><code>Fractal² / Entertainment &amp; Music / Patterns / Capture &amp; Attachment / The Debt Prison</code></p></div>
+    </div>
+  </section>
+
+  <!-- 4 -->
+  <section id="tpl" aria-labelledby="tpl-h">
+    <header>
+      <p class="eyebrow">4 · Templates</p>
+      <h2 id="tpl-h">Seven page types, in reading order</h2>
+      <p class="sub">The sketches are layout only, at phone width, to show order and weight. The look comes in step 5 of the build.</p>
+    </header>
+    <div class="tpls">
+
+      <article class="tpl">
+        <div class="txt"><p class="addr">/fractal2/&lt;sector&gt;/tactic/&lt;tactic&gt; · 335</p><h3>Tactic page: the zoom</h3><p>The most important template, because it's where the three scales live. One tactic, shown at three sizes, with the general guide one tap away.</p>
+          <ol><li>Stage chip (number, name, color), name, definition, "also called".</li><li><b>The zoom.</b> A three-step control (Individual · Institutional · Civilizational) over the author's three examples. It works like a map's scale ruler: the stage ring in the header grows with each step. On desktop all three show side by side, and each scale has its own link (<code>#institutional</code>).</li><li><b>Recognize it and respond.</b> One clear card leading to the Pattern Decoder guide. It names what the reader will find there (signs, questions to ask yourself, what you can do, words you could use) without copying the text.</li><li><b>In these patterns.</b> Each pattern as a small chain on the ring, this tactic lit, "step 3 of 6", grouped by category.</li><li><b>Near it.</b> Previous and next in the stage, tactics that share its patterns, and the same tactic in other sectors once they exist.</li></ol>
+          <p class="io"><b>In:</b> stage chapter, scale pages, every pattern chain, atlas, search, Pattern Decoder "in the sectors".<br><b>Out:</b> Pattern Decoder, its patterns, its stage, its scale column.</p></div>
+        <div class="wf"><svg viewBox="0 0 260 470" role="img" aria-label="Phone sketch of the tactic page: header with stage chip, a three-step scale control, an example card, a Pattern Decoder card, and small chain diagrams.">
+          <rect x="1" y="1" width="258" height="468" rx="14" fill="#05070d" stroke="#232b45"/>
+          <rect x="16" y="18" width="70" height="14" rx="7" fill="none" stroke="#e07b39"/><text x="24" y="28" font-size="8" fill="#e07b39">2 · HOOK</text>
+          <circle cx="222" cy="36" r="20" fill="none" stroke="#232b45"/><circle cx="222" cy="36" r="12" fill="none" stroke="#232b45"/><path d="M222 16 A20 20 0 0 1 240 28" stroke="#e07b39" stroke-width="3" fill="none"/>
+          <text x="16" y="56" font-size="15" fill="#F3ECD9" font-family="Georgia">Obligation Contracts</text>
+          <rect x="16" y="64" width="170" height="5" rx="2" fill="#2a3350"/><rect x="16" y="74" width="120" height="5" rx="2" fill="#2a3350"/>
+          <rect x="16" y="94" width="228" height="26" rx="13" fill="none" stroke="#232b45"/><rect x="18" y="96" width="74" height="22" rx="11" fill="rgba(233,194,122,.18)" stroke="#E9C27A"/>
+          <text x="26" y="110" font-size="8" fill="#E9C27A">Individual</text><text x="102" y="110" font-size="8" fill="#8D93A6">Institutional</text><text x="176" y="110" font-size="8" fill="#8D93A6">Civilizational</text>
+          <rect x="16" y="130" width="228" height="78" rx="6" fill="#0b0f1a" stroke="#232b45"/>
+          <rect x="28" y="144" width="200" height="5" rx="2" fill="#3a4466"/><rect x="28" y="156" width="190" height="5" rx="2" fill="#3a4466"/><rect x="28" y="168" width="204" height="5" rx="2" fill="#3a4466"/><rect x="28" y="180" width="140" height="5" rx="2" fill="#3a4466"/>
+          <rect x="16" y="222" width="228" height="62" rx="6" fill="none" stroke="#BFC4D2"/>
+          <text x="28" y="240" font-size="8" fill="#BFC4D2">RECOGNIZE IT AND RESPOND</text><text x="28" y="256" font-size="10" fill="#F3ECD9" font-family="Georgia">The general guide in Pattern Decoder</text><text x="28" y="272" font-size="7" fill="#8D93A6">signs · questions · what you can do · words  ›</text>
+          <text x="16" y="306" font-size="8" fill="#8D93A6">IN THESE PATTERNS · 6</text>
+          <g transform="translate(16,316)"><rect width="228" height="40" rx="6" fill="#0b0f1a" stroke="#232b45"/><circle cx="22" cy="20" r="11" fill="none" stroke="#232b45"/><circle cx="22" cy="9" r="2.5" fill="#e07b39"/><circle cx="32" cy="23" r="2" fill="#4a72c4"/><circle cx="15" cy="28" r="2" fill="#b04a8c"/><text x="42" y="18" font-size="9" fill="#F3ECD9" font-family="Georgia">The Debt Prison</text><text x="42" y="30" font-size="7" fill="#8D93A6">step 4 of 6 · Exit Prevention</text></g>
+          <g transform="translate(16,362)"><rect width="228" height="40" rx="6" fill="#0b0f1a" stroke="#232b45"/><circle cx="22" cy="20" r="11" fill="none" stroke="#232b45"/><circle cx="22" cy="9" r="2.5" fill="#e07b39"/><circle cx="12" cy="17" r="2" fill="#d9a441"/><text x="42" y="18" font-size="9" fill="#F3ECD9" font-family="Georgia">The Gratitude Prison</text><text x="42" y="30" font-size="7" fill="#8D93A6">step 5 of 6 · Capture</text></g>
+          <text x="16" y="424" font-size="8" fill="#8D93A6">‹ Hoovering            Golden Bars ›</text>
+        </svg></div>
+      </article>
+
+      <article class="tpl">
+        <div class="txt"><p class="addr">/fractal2/&lt;sector&gt;/scale/&lt;scale&gt; · 3</p><h3>Scale pages: read the sector at one size</h3><p>All 335 examples at one scale, grouped by stage, each linking to its tactic. Read the Individual page and you see the sector as one person lives it. Read Civilizational and you see the whole industry's unwritten rules. This is the fractal argument as a reading experience, and it's new.</p>
+          <ol><li>A one-line explanation of the scale and a ruler showing where it sits in the zoom.</li><li>Eight stage bands. Each opens to that stage's examples at this scale (name, example, link).</li><li>A switch to the same stage at the next scale up or down.</li></ol>
+          <p class="io"><b>In:</b> atlas, tactic zoom control, sector home. <b>Out:</b> 335 tactic pages, the other two scales.</p></div>
+        <div class="wf"><svg viewBox="0 0 260 300" role="img" aria-label="Sketch of a scale page: a scale ruler, then eight stage bands with example lines.">
+          <rect x="1" y="1" width="258" height="298" rx="14" fill="#05070d" stroke="#232b45"/>
+          <text x="16" y="30" font-size="15" fill="#F3ECD9" font-family="Georgia">Institutional</text>
+          <line x1="16" y1="48" x2="244" y2="48" stroke="#232b45"/><circle cx="16" cy="48" r="3" fill="#8D93A6"/><circle cx="130" cy="48" r="5" fill="#E9C27A"/><circle cx="244" cy="48" r="3" fill="#8D93A6"/>
+          <text x="10" y="62" font-size="7" fill="#8D93A6">person</text><text x="112" y="62" font-size="7" fill="#E9C27A">institution</text><text x="216" y="62" font-size="7" fill="#8D93A6">culture</text>
+          <g font-size="8" fill="#C9C2B0">
+            <rect x="16" y="76" width="4" height="22" fill="#d9a441"/><text x="26" y="86">1 Idealize · 27</text><rect x="26" y="90" width="190" height="4" rx="2" fill="#2a3350"/>
+            <rect x="16" y="106" width="4" height="22" fill="#e07b39"/><text x="26" y="116">2 Hook · 50</text><rect x="26" y="120" width="170" height="4" rx="2" fill="#2a3350"/>
+            <rect x="16" y="136" width="4" height="22" fill="#d24b4b"/><text x="26" y="146">3 Devalue · 34</text><rect x="26" y="150" width="200" height="4" rx="2" fill="#2a3350"/>
+            <rect x="16" y="166" width="4" height="22" fill="#b04a8c"/><text x="26" y="176">4 Confuse · 74</text><rect x="26" y="180" width="160" height="4" rx="2" fill="#2a3350"/>
+            <rect x="16" y="196" width="4" height="22" fill="#7b5bc4"/><text x="26" y="206">5 Isolate · 24</text><rect x="26" y="210" width="180" height="4" rx="2" fill="#2a3350"/>
+            <rect x="16" y="226" width="4" height="22" fill="#4a72c4"/><text x="26" y="236">6 Extract · Control · 90</text><rect x="26" y="240" width="196" height="4" rx="2" fill="#2a3350"/>
+            <text x="26" y="272" fill="#8D93A6">… 7 Discard · 8 Replace</text>
+          </g>
+        </svg></div>
+      </article>
+
+      <article class="tpl">
+        <div class="txt"><p class="addr">/fractal2/&lt;sector&gt;/tactics · 1, plus 8 stage chapters</p><h3>Tactic atlas</h3><p>The way into all 335. The 8×3 grid from section 2 works as a control: tap a stage for its chapter, a scale for its page, or a cell to see that stage at that scale. Below it is the full list, with type-to-narrow and a filter for "in a pattern" or "not yet in a pattern".</p><p>Stage chapters keep every tactic in full (definition and all three examples) for people who read straight through. Each entry links to its tactic page.</p>
+          <p class="io"><b>In:</b> top bar, sector home ring. <b>Out:</b> stages, scales, tactics.</p></div>
+        <div class="wf"><svg viewBox="0 0 260 200" role="img" aria-label="Sketch of the atlas: an eight by three grid of cells, then a filter and list.">
+          <rect x="1" y="1" width="258" height="198" rx="14" fill="#05070d" stroke="#232b45"/>
+          <text x="58" y="22" font-size="7" fill="#8D93A6">Indiv.</text><text x="120" y="22" font-size="7" fill="#8D93A6">Instit.</text><text x="184" y="22" font-size="7" fill="#8D93A6">Civil.</text>
+          <g>
+            <rect x="16" y="28" width="30" height="13" fill="#d9a441"/><rect x="16" y="43" width="30" height="13" fill="#e07b39"/><rect x="16" y="58" width="30" height="13" fill="#d24b4b"/><rect x="16" y="73" width="30" height="13" fill="#b04a8c"/><rect x="16" y="88" width="30" height="13" fill="#7b5bc4"/><rect x="16" y="103" width="30" height="13" fill="#4a72c4"/><rect x="16" y="118" width="30" height="13" fill="#3f9bb0"/><rect x="16" y="133" width="30" height="13" fill="#5aa77a"/>
+          </g>
+          <g fill="#0b0f1a" stroke="#232b45">
+            <rect x="50" y="28" width="62" height="13"/><rect x="114" y="28" width="62" height="13"/><rect x="178" y="28" width="62" height="13"/>
+            <rect x="50" y="43" width="62" height="13"/><rect x="114" y="43" width="62" height="13" fill="rgba(233,194,122,.25)" stroke="#E9C27A"/><rect x="178" y="43" width="62" height="13"/>
+            <rect x="50" y="58" width="62" height="13"/><rect x="114" y="58" width="62" height="13"/><rect x="178" y="58" width="62" height="13"/>
+            <rect x="50" y="73" width="62" height="13"/><rect x="114" y="73" width="62" height="13"/><rect x="178" y="73" width="62" height="13"/>
+            <rect x="50" y="88" width="62" height="13"/><rect x="114" y="88" width="62" height="13"/><rect x="178" y="88" width="62" height="13"/>
+            <rect x="50" y="103" width="62" height="13"/><rect x="114" y="103" width="62" height="13"/><rect x="178" y="103" width="62" height="13"/>
+            <rect x="50" y="118" width="62" height="13"/><rect x="114" y="118" width="62" height="13"/><rect x="178" y="118" width="62" height="13"/>
+            <rect x="50" y="133" width="62" height="13"/><rect x="114" y="133" width="62" height="13"/><rect x="178" y="133" width="62" height="13"/>
+          </g>
+          <rect x="16" y="160" width="228" height="18" rx="9" fill="none" stroke="#232b45"/><text x="26" y="172" font-size="8" fill="#8D93A6">Type a tactic…   · in a pattern · not yet</text>
+        </svg></div>
+      </article>
+
+      <article class="tpl">
+        <div class="txt"><p class="addr">/fractal2/&lt;sector&gt;/patterns · 1</p><h3>Pattern library</h3><p>All 153, filtered by what a reader actually knows. Each card shows the chain drawn on a small ring, so the shape is visible before reading.</p>
+          <ol><li><b>Browse by:</b> Category (10) · Situation (12) · Starts at stage · Contains a tactic · Length (4–11 steps) · Has a safety note (41) · Native or adapted to this sector.</li><li>A live count ("47 of 153"). The filter state goes in the address so a view can be shared, and nothing is stored.</li><li>Sort: the ten that matter first, then A–Z, shortest first, or longest.</li></ol>
+          <p class="io"><b>In:</b> top bar, sector home, category and situation pages. <b>Out:</b> 153 patterns, 10 categories.</p></div>
+        <div class="wf"><svg viewBox="0 0 260 230" role="img" aria-label="Sketch of the pattern library: filter chips, a count, and pattern cards with small ring chains.">
+          <rect x="1" y="1" width="258" height="228" rx="14" fill="#05070d" stroke="#232b45"/>
+          <g font-size="7" fill="#C9C2B0"><rect x="16" y="16" width="56" height="16" rx="8" fill="none" stroke="#E9C27A"/><text x="22" y="27" fill="#E9C27A">Category ▾</text><rect x="76" y="16" width="56" height="16" rx="8" fill="none" stroke="#232b45"/><text x="82" y="27">Situation ▾</text><rect x="136" y="16" width="44" height="16" rx="8" fill="none" stroke="#232b45"/><text x="142" y="27">Stage ▾</text><rect x="184" y="16" width="60" height="16" rx="8" fill="none" stroke="#232b45"/><text x="190" y="27">Has tactic ▾</text></g>
+          <text x="16" y="50" font-size="8" fill="#8D93A6">47 of 153 patterns</text>
+          <g transform="translate(16,60)"><rect width="228" height="48" rx="6" fill="#0b0f1a" stroke="#232b45"/><circle cx="24" cy="24" r="14" fill="none" stroke="#232b45"/><polyline points="24,10 36,20 30,36 14,30 13,18" fill="none" stroke="#E9C27A" stroke-width="1"/><text x="48" y="20" font-size="10" fill="#F3ECD9" font-family="Georgia">The Debt Prison</text><text x="48" y="34" font-size="7" fill="#8D93A6">6 steps · Exit Prevention · Money</text></g>
+          <g transform="translate(16,114)"><rect width="228" height="48" rx="6" fill="#0b0f1a" stroke="#232b45"/><circle cx="24" cy="24" r="14" fill="none" stroke="#232b45"/><polyline points="30,11 36,26 22,37 12,24" fill="none" stroke="#E9C27A" stroke-width="1"/><text x="48" y="20" font-size="10" fill="#F3ECD9" font-family="Georgia">The Room</text><text x="48" y="34" font-size="7" fill="#8D93A6">5 steps · Social Warfare · ! safety</text></g>
+          <g transform="translate(16,168)"><rect width="228" height="48" rx="6" fill="#0b0f1a" stroke="#232b45"/><circle cx="24" cy="24" r="14" fill="none" stroke="#232b45"/><polyline points="24,10 37,22 33,34 15,35 11,21 24,10" fill="none" stroke="#E9C27A" stroke-width="1"/><text x="48" y="20" font-size="10" fill="#F3ECD9" font-family="Georgia">The Long Con</text><text x="48" y="34" font-size="7" fill="#8D93A6">7 steps · Capture · Management</text></g>
+        </svg></div>
+      </article>
+
+      <article class="tpl">
+        <div class="txt"><p class="addr">/fractal2/&lt;sector&gt;/patterns/&lt;category&gt; · 10</p><h3>Category page</h3><p>Today it's a list. It becomes a page that explains what the patterns in it have in common, worked out from the data rather than written new.</p>
+          <ol><li>The author's category introduction, as written.</li><li><b>Where they live on the ring:</b> the stages this category's patterns use most, drawn as one stacked ring.</li><li><b>The tactics they share:</b> the tactics that recur across this category, linked.</li><li>The patterns, ordered by the ten-that-matter rank, then shortest first, so the easiest way in comes first.</li><li>Previous and next category.</li></ol>
+          <p class="io"><b>In:</b> library filter, pattern header, sector home. <b>Out:</b> its patterns, shared tactics.</p></div>
+        <div class="wf"><svg viewBox="0 0 260 210" role="img" aria-label="Sketch of a category page: intro lines, a heat ring of stages, shared tactic chips, pattern list.">
+          <rect x="1" y="1" width="258" height="208" rx="14" fill="#05070d" stroke="#232b45"/>
+          <text x="16" y="30" font-size="14" fill="#F3ECD9" font-family="Georgia">Exit Prevention</text>
+          <rect x="16" y="40" width="150" height="4" rx="2" fill="#2a3350"/><rect x="16" y="50" width="120" height="4" rx="2" fill="#2a3350"/>
+          <circle cx="210" cy="56" r="26" fill="none" stroke="#232b45" stroke-width="8"/><path d="M210 30 A26 26 0 0 1 236 56" stroke="#e07b39" stroke-width="8" fill="none"/><path d="M236 56 A26 26 0 0 1 210 82" stroke="#4a72c4" stroke-width="8" fill="none" opacity=".8"/>
+          <g font-size="7" fill="#C9C2B0"><rect x="16" y="96" width="72" height="14" rx="7" fill="none" stroke="#232b45"/><text x="22" y="106">Golden Bars</text><rect x="92" y="96" width="78" height="14" rx="7" fill="none" stroke="#232b45"/><text x="98" y="106">Debt Bondage</text><rect x="174" y="96" width="70" height="14" rx="7" fill="none" stroke="#232b45"/><text x="180" y="106">Sunk Cost</text></g>
+          <g font-size="9" fill="#F3ECD9" font-family="Georgia"><text x="16" y="134">1  The Debt Prison</text><text x="16" y="156">2  Golden Handcuffs</text><text x="16" y="178">3  The Hostage Scenario</text></g>
+        </svg></div>
+      </article>
+
+      <article class="tpl">
+        <div class="txt"><p class="addr">/fractal2/&lt;sector&gt;/&lt;pattern&gt; · 153</p><h3>Pattern page</h3><p>The reading modes, the safety-first rule and the author's text all stay. What changes is the chain at the top.</p>
+          <ol><li>Safety note first, in every mode, always.</li><li><b>The chain on the ring.</b> Steps numbered in order, each bead a stage color with the stage number as text. Tap a bead to see that tactic's definition and its example at the scale you're reading; tap again to open the tactic page.</li><li>Umbrella links (Gaslighting, FOG, DARVO) drawn as hollow beads labeled "general pattern, Pattern Decoder", so leaving the sector is never a surprise.</li><li>Quick · Sequence · Full, as today.</li><li>After the text: more in this category, patterns that share its tactics, this pattern in other sectors.</li></ol>
+          <p class="io"><b>In:</b> library, category, tactic pages, map, search, the ten. <b>Out:</b> every tactic in the chain, Pattern Decoder umbrellas, category.</p></div>
+        <div class="wf"><svg viewBox="0 0 260 250" role="img" aria-label="Sketch of a pattern page: safety note, a large ring with a numbered chain, one hollow bead, mode switch.">
+          <rect x="1" y="1" width="258" height="248" rx="14" fill="#05070d" stroke="#232b45"/>
+          <rect x="16" y="16" width="228" height="22" rx="4" fill="rgba(232,160,122,.12)" stroke="#E8A07A"/><text x="24" y="30" font-size="7" fill="#E8A07A">SAFETY NOTE · first, always</text>
+          <text x="16" y="60" font-size="14" fill="#F3ECD9" font-family="Georgia">The Debt Prison</text>
+          <circle cx="130" cy="130" r="52" fill="none" stroke="#232b45" stroke-width="10"/>
+          <polyline points="130,78 175,104 172,158 130,182 88,156 92,104" fill="none" stroke="#E9C27A" stroke-width="1.2"/>
+          <g font-size="7" fill="#05070d" font-weight="500"><circle cx="130" cy="78" r="7" fill="#e07b39"/><text x="127.5" y="80.5">1</text><circle cx="175" cy="104" r="7" fill="#4a72c4"/><text x="172.5" y="106.5">2</text><circle cx="172" cy="158" r="7" fill="#4a72c4"/><text x="169.5" y="160.5">3</text><circle cx="130" cy="182" r="7" fill="none" stroke="#BFC4D2"/><text x="127.5" y="184.5" fill="#BFC4D2">4</text><circle cx="88" cy="156" r="7" fill="#7b5bc4"/><text x="85.5" y="158.5">5</text><circle cx="92" cy="104" r="7" fill="#e07b39"/><text x="89.5" y="106.5">6</text></g>
+          <rect x="40" y="206" width="180" height="22" rx="11" fill="none" stroke="#232b45"/><rect x="42" y="208" width="58" height="18" rx="9" fill="rgba(233,194,122,.18)" stroke="#E9C27A"/><text x="56" y="220" font-size="7" fill="#E9C27A">Quick</text><text x="112" y="220" font-size="7" fill="#8D93A6">Sequence</text><text x="174" y="220" font-size="7" fill="#8D93A6">Full</text>
+        </svg></div>
+      </article>
+
+      <article class="tpl">
+        <div class="txt"><p class="addr">/fractal2/&lt;sector&gt; · 1</p><h3>Sector home</h3><p>It opens on the ring of 335: eight stage arcs with every tactic as a mark. Tapping an arc opens that stage. Below the ring come "Where are you right now?" (kept), the ten that matter (kept), and three large doors: Tactics, Patterns, Map. Each door gives its count and one sentence on what's inside.</p><p class="io"><b>In:</b> the hub's Enter button, the sector switcher, search engines. <b>Out:</b> every section.</p></div>
+        <div class="wf"><svg viewBox="0 0 260 170" role="img" aria-label="Sketch of the sector home: ring of marks, then three doors.">
+          <rect x="1" y="1" width="258" height="168" rx="14" fill="#05070d" stroke="#232b45"/>
+          <g fill="none" stroke-width="7"><path d="M130 20 A46 46 0 0 1 162 33" stroke="#d9a441"/><path d="M164 35 A46 46 0 0 1 176 66" stroke="#e07b39"/><path d="M176 68 A46 46 0 0 1 166 95" stroke="#d24b4b"/><path d="M164 97 A46 46 0 0 1 128 112" stroke="#b04a8c"/><path d="M126 112 A46 46 0 0 1 100 101" stroke="#7b5bc4"/><path d="M98 99 A46 46 0 0 1 84 64" stroke="#4a72c4"/><path d="M84 62 A46 46 0 0 1 96 35" stroke="#3f9bb0"/><path d="M98 33 A46 46 0 0 1 128 20" stroke="#5aa77a"/></g>
+          <g font-size="7" fill="#C9C2B0"><rect x="16" y="128" width="72" height="30" rx="4" fill="#0b0f1a" stroke="#232b45"/><text x="24" y="146">Tactics 335</text><rect x="94" y="128" width="72" height="30" rx="4" fill="#0b0f1a" stroke="#232b45"/><text x="100" y="146">Patterns 153</text><rect x="172" y="128" width="72" height="30" rx="4" fill="#0b0f1a" stroke="#232b45"/><text x="190" y="146">Map</text></g>
+        </svg></div>
+      </article>
+    </div>
+  </section>
+
+  <!-- 5 -->
+  <section id="decoder" aria-labelledby="dec-h1">
+    <header>
+      <p class="eyebrow">5 · The Pattern Decoder bridge</p>
+      <h2 id="dec-h1">What lives where, and how people cross</h2>
+      <p class="sub">The rule is simple: the sector shows the tactic in this world, and Pattern Decoder tells you what to do about it anywhere. Neither copies the other.</p>
+    </header>
+    <div class="tbl"><table class="t">
+      <thead><tr><th>Question a reader has</th><th>Answered by</th><th>Why there</th></tr></thead>
+      <tbody>
+        <tr><td>What is this tactic, in general?</td><td>Pattern Decoder <code>/playbook/&lt;tactic&gt;</code></td><td>The same answer in every sector. Written once, kept once.</td></tr>
+        <tr><td>Is this what's happening to me? What can I do? What can I say?</td><td>Pattern Decoder</td><td>Signs, look-alikes, questions to ask yourself, steps and words already exist there, reviewed for safety.</td></tr>
+        <tr><td>What does it look like in music, at a label, across the industry?</td><td>Sector tactic page</td><td>The author's three examples are specific to the sector.</td></tr>
+        <tr><td>How does it combine with other tactics here?</td><td>Pattern pages</td><td>Chains are specific to the sector.</td></tr>
+        <tr><td>What is Gaslighting, FOG or DARVO?</td><td>Pattern Decoder umbrella pages</td><td>They're bundles of tactics rather than single ones, so they aren't sector tactics.</td></tr>
+        <tr><td>Where else does this tactic show up?</td><td>Pattern Decoder, new "In the sectors" block</td><td>Pattern Decoder becomes the cross-sector center: one tactic, every sector that has it.</td></tr>
+      </tbody>
+    </table></div>
+    <div class="two">
+      <div class="box"><h4>Sector to Pattern Decoder</h4><ul><li>Every tactic page: the "Recognize it and respond" card, second section, not a footnote.</li><li>Every umbrella bead in a chain, marked as a general pattern.</li><li>Links resolve by standard ID only, and the build fails if a target page is missing.</li><li>The link says where it goes: "Pattern Decoder, the general guide", so nobody is surprised by the change of site.</li></ul></div>
+      <div class="box"><h4>Pattern Decoder to the sectors</h4><ul><li>New block on each Pattern Decoder tactic page: "In the sectors", listing each built sector with its tactic page link (Entertainment today, Corporate next).</li><li>Built from the sector manifests, so it grows on its own as sectors open.</li><li>This changes your live <code>/playbook</code>. It's a separate, small release that needs your yes.</li></ul></div>
+    </div>
+  </section>
+
+  <!-- 6 -->
+  <section id="combos" aria-labelledby="combos-h">
+    <header>
+      <p class="eyebrow">6 · Moving through the patterns</p>
+      <h2 id="combos-h">Four ways into 153 patterns</h2>
+      <p class="sub">People rarely arrive knowing a pattern's name. Each way in starts from something they do know.</p>
+    </header>
+    <div class="tbl"><table class="t">
+      <thead><tr><th>A reader knows…</th><th>Way in</th><th>Taps from sector home</th></tr></thead>
+      <tbody>
+        <tr><td>Where it's happening ("on tour", "in my contract")</td><td><code>/in/&lt;situation&gt;</code>: 12 situation pages, each listing its patterns first and its tactics second</td><td>2</td></tr>
+        <tr><td>What kind of harm it is ("they won't let me leave")</td><td><code>/patterns/&lt;category&gt;</code>: 10 categories with plain names (drop "Composites" in navigation, keep it on the page)</td><td>2</td></tr>
+        <tr><td>One tactic they've already named</td><td>Tactic page, "In these patterns"; or the library's "contains tactic" filter</td><td>2–3</td></tr>
+        <tr><td>Only what they've noticed</td><td><code>/notice</code>: tick observed signs in the author's words, then see the patterns that share them</td><td>1–2</td></tr>
+        <tr><td>Nothing yet</td><td>The ten that matter, on the home page</td><td>1</td></tr>
+      </tbody>
+    </table></div>
+    <p class="note">Every row meets the existing rule: each of the seven readers reaches what they need within two taps of the sector home.</p>
+  </section>
+
+  <!-- 7 -->
+  <section id="links" aria-labelledby="links-h">
+    <header>
+      <p class="eyebrow">7 · Linking</p>
+      <h2 id="links-h">No dead ends</h2>
+    </header>
+    <div class="tbl"><table class="t">
+      <thead><tr><th>Gap today</th><th>Fix</th></tr></thead>
+      <tbody>
+        <tr><td>46 tactics are in no pattern</td><td>Their page says "Not part of a mapped pattern in this sector yet" and leans on the zoom, the Pattern Decoder card and "near it". Nothing is hidden, and the atlas filter shows them honestly.</td></tr>
+        <tr><td>144 tactics are in exactly one pattern</td><td>"Near it" adds tactics that share that pattern, plus previous and next in the stage, so every page has at least four ways onward.</td></tr>
+        <tr><td>25 links in chains (22 names) go nowhere</td><td>A short list for you or the author to map, each one to a sector tactic or a Pattern Decoder umbrella. Until then they show as plain text, labeled, and the build logs them.</td></tr>
+        <tr><td>Only 34 tactic pairs follow each other in two or more patterns</td><td>Too thin for "often comes next" on tactic pages. That table stays on the map page only.</td></tr>
+        <tr><td>No proof that nothing is orphaned</td><td>A build check: every page has at least one link in from outside its own section, and every link points to a page that exists (resolved by ID, never guessed).</td></tr>
+      </tbody>
+    </table></div>
+  </section>
+
+  <!-- 8 -->
+  <section id="data" aria-labelledby="data-h">
+    <header>
+      <p class="eyebrow">8 · Data</p>
+      <h2 id="data-h">One spine for thirty sectors</h2>
+      <p class="sub">The author's package is never edited. Everything new is derived from it, and anything that needs a judgment call is written to a file you can review.</p>
+    </header>
+    <div class="tbl"><table class="t">
+      <thead><tr><th>File</th><th>Holds</th><th>Status</th></tr></thead>
+      <tbody>
+        <tr><td><code>content/fractal2/spine.json</code></td><td>One row per standard tactic: standard ID, T-number, stage, canonical name, Pattern Decoder slug, also-called names, which umbrellas it belongs to</td><td>New, built from <code>decoder-v20/standard_index.json</code> and the sector data</td></tr>
+        <tr><td><code>content/fractal/&lt;sector&gt;/source/</code></td><td>The author's package</td><td>Exists, never edited</td></tr>
+        <tr><td><code>content/fractal/&lt;sector&gt;/nav.json</code></td><td>The 12 situations and their keyword rules, plain category names</td><td>Exists, add display names</td></tr>
+        <tr><td><code>content/fractal/&lt;sector&gt;/aliases.json</code></td><td>Your mapping for chain names that don't resolve (22 names, 25 links in Entertainment)</td><td>New, needs your review</td></tr>
+        <tr><td><code>content/fractal/_crosslinks.json</code></td><td>Tactic and pattern presence across sectors, keyed by ID</td><td>New, turns on with the second sector</td></tr>
+        <tr><td><code>library/fractal2/manifests/&lt;sector&gt;.json</code></td><td>Every page, its ID, its links: what verify reads and what Pattern Decoder's "In the sectors" block reads</td><td>Exists, extend</td></tr>
+      </tbody>
+    </table></div>
+  </section>
+
+  <!-- 9 -->
+  <section id="build" aria-labelledby="build-h">
+    <header>
+      <p class="eyebrow">9 · Build order</p>
+      <h2 id="build-h">Twelve steps, in the order I'd do them</h2>
+      <p class="sub">Each step names the skills, servers and agents it uses and what has to be true before the next step starts. Filled circles are where I stop and show you. Agents run one at a time, per the project's rules.</p>
+    </header>
+    <div class="phases">
+
+      <div class="ph owner" data-n="0"><h3>Lock the brief</h3><p>Run the failure-log pre-flight. Turn the decisions in section 10 into answers. Write the brief-to-output table everything gets checked against.</p>
+        <div class="kit"><div><h5>Skills</h5><p><code>/grill-me</code> (planning interview on the open decisions)</p></div><div><h5>Servers and tools</h5><p><code>sequential-thinking</code> for the plan; AskUserQuestion for your calls</p></div><div><h5>Agents</h5><p>none</p></div></div>
+        <p class="exit"><b>Exit:</b> your answers to section 10, written into <code>content/fractal2/DECISIONS.md</code>.</p></div>
+
+      <div class="ph" data-n="1"><h3>Audit content and code</h3><p>Verify every count in this plan against the files. List the orphan tactics, the unresolved chain names and Pattern Decoder coverage. Review the current generator for anything worth keeping and anything that's dead weight.</p>
+        <div class="kit"><div><h5>Skills</h5><p><code>ponytail-audit</code> on <code>design/fractal-sector/</code>; <code>code-review</code></p></div><div><h5>Servers and tools</h5><p>Bash and Python over <code>sector.json</code>, <code>links.json</code>, the Pattern Decoder index</p></div><div><h5>Agents</h5><p><code>architect-review</code> (keep or rewrite, module by module)</p></div></div>
+        <p class="exit"><b>Exit:</b> <code>AUDIT.md</code> with every number sourced; a keep/rewrite list for the generator.</p></div>
+
+      <div class="ph" data-n="2"><h3>Build the data spine</h3><p>Write <code>spine.json</code>, the alias file, the situation display names and the cross-sector schema. Tests come first: the author's word count round-trips exactly, every ID resolves, and nothing is guessed.</p>
+        <div class="kit"><div><h5>Skills</h5><p><code>ponytail</code> (smallest code that works)</p></div><div><h5>Servers and tools</h5><p>Python; the existing <code>ingest.py</code> and <code>derive.py</code> extended, not replaced</p></div><div><h5>Agents</h5><p><code>test-writer-fixer</code> (spine and resolution tests)</p></div></div>
+        <p class="ownerflag">You review: the 22 alias mappings (or pass them to the author).</p>
+        <p class="exit"><b>Exit:</b> spine tests pass; 0 unresolved chain names, or every remaining one labeled and listed.</p></div>
+
+      <div class="ph" data-n="3"><h3>Finalize the information architecture</h3><p>Freeze the page tree, URL map, redirect table, breadcrumbs, top bar and linking rules from sections 3 to 7. Check them against the seven readers in the navigation spec, then test with a card-sort of real tactic and pattern names.</p>
+        <div class="kit"><div><h5>Skills</h5><p><code>site-architecture</code>, <code>programmatic-seo</code> (16k pages from templates without thin pages), <code>schema</code> (breadcrumbs, defined terms), <code>ux-heuristics</code></p></div><div><h5>Servers and tools</h5><p>Mermaid sitemap; a redirect generator added to the build</p></div><div><h5>Agents</h5><p><code>ux-researcher</code> (tree test for the seven readers)</p></div></div>
+        <p class="exit"><b>Exit:</b> <code>content/fractal2/SECTOR-IA.md</code> replaces NAV-SPEC v1; every old address has a 301.</p></div>
+
+      <div class="ph owner" data-n="4"><h3>Wireframes</h3><p>The seven templates in section 4, at phone and desktop width, gray boxes only, with real Entertainment content: Obligation Contracts, The Debt Prison, Exit Prevention, Institutional. Click through each reader's path.</p>
+        <div class="kit"><div><h5>Skills</h5><p><code>prototype</code>, <code>ux-heuristics</code>, <code>better-accessibility</code> (focus order and names decided at this stage)</p></div><div><h5>Servers and tools</h5><p>Figma (wireframes and a FigJam flow of the reader paths) or a Design artifact canvas; Playwright to click the prototype</p></div><div><h5>Agents</h5><p><code>mobile-developer</code> (phone-first review)</p></div></div>
+        <p class="ownerflag">You review: the wireframes and the paths, before any visual design.</p>
+        <p class="exit"><b>Exit:</b> each reader reaches their target in two taps on the prototype.</p></div>
+
+      <div class="ph owner" data-n="5"><h3>Visual direction</h3><p>Settle "one look or two" against the film and hub. Three comps of the tactic page and the pattern page. The zoom control and the chain ring get designed here, because they're the two signature moves.</p>
+        <div class="kit"><div><h5>Skills</h5><p><code>design-director</code> (comps, gates, critic), <code>frontend-design</code>, <code>refactoring-ui</code>, <code>apple-design</code> and <code>emil-design-eng</code> (zoom and bead interactions), <code>dataviz</code> (ring, heat ring, chain)</p></div><div><h5>Servers and tools</h5><p><code>docs/design-catalogue/</code> by ID; <code>scripts/design-gates.mjs</code>; Playwright screenshots at 375 and 1440</p></div><div><h5>Agents</h5><p><code>brand-guardian</code> (fit with the hub, film and Pattern Decoder), <code>ui-designer</code></p></div></div>
+        <p class="ownerflag">You choose: one direction.</p>
+        <p class="exit"><b>Exit:</b> 0 gate failures on the chosen comp; tokens written down.</p></div>
+
+      <div class="ph" data-n="6"><h3>Rebuild the generator</h3><p>New templates in <code>design/fractal-sector/</code>, from the spine. Static HTML first, so every page reads completely without JavaScript. Then the frame: top bar, breadcrumbs, Leave, THE HOUSE drawer, beacon, version note.</p>
+        <div class="kit"><div><h5>Skills</h5><p><code>ponytail</code>, <code>impeccable</code> (craft pass per template), <code>web-design-guidelines</code></p></div><div><h5>Servers and tools</h5><p>Python templates; <code>serve.py 8802</code> to preview at real addresses</p></div><div><h5>Agents</h5><p><code>frontend-developer</code> (HTML and CSS review)</p></div></div>
+        <p class="exit"><b>Exit:</b> about 531 pages build in one command; verify passes on structure and links.</p></div>
+
+      <div class="ph" data-n="7"><h3>The interactive pieces</h3><p>The zoom control, atlas grid, library filters (with state in the address), chain ring with tappable beads, category heat ring, notice tool and living map. Each works with keyboard and screen reader, and falls back cleanly under reduced motion or without JavaScript.</p>
+        <div class="kit"><div><h5>Skills</h5><p><code>dataviz</code>, <code>emil-design-eng</code>, <code>find-animation-opportunities</code>, then <code>review-animations</code>; <code>web-perf</code></p></div><div><h5>Servers and tools</h5><p>Playwright (pointer, keyboard and reduced-motion runs)</p></div><div><h5>Agents</h5><p><code>code-reviewer</code></p></div></div>
+        <p class="exit"><b>Exit:</b> each piece passes keyboard, screen reader and 375-px checks; no layout shift.</p></div>
+
+      <div class="ph" data-n="8"><h3>Checks that play the site like a person</h3><p>Extend <code>verify.mjs</code>: no orphans, every link resolves by ID, safety note first, author word count exact, two-tap reach for each reader, every Pattern Decoder target exists, redirects work. Then the full gates and a contact sheet I actually look at.</p>
+        <div class="kit"><div><h5>Skills</h5><p><code>web-accessibility</code>, <code>better-accessibility</code>, <code>web-perf</code>, <code>seo-audit</code>, <code>schema</code>, <code>security-review</code></p></div><div><h5>Servers and tools</h5><p><code>design-gates.mjs</code> (5 profiles), axe, Playwright</p></div><div><h5>Agents</h5><p><code>impeccable-finish-reviewer</code>, then <code>security-auditor</code></p></div></div>
+        <p class="exit"><b>Exit:</b> 0 failures; every finding fixed or explained.</p></div>
+
+      <div class="ph" data-n="9"><h3>Interface words</h3><p>Only the short interface lines (buttons, labels, the "near it" headings) get edited. The author's text is never touched. New lines go to you for a yes.</p>
+        <div class="kit"><div><h5>Skills</h5><p><code>copy-editing</code>, <code>no-ai-slop</code></p></div><div><h5>Servers and tools</h5><p><code>design/fractal-sector/strings.json</code></p></div><div><h5>Agents</h5><p>none</p></div></div>
+        <p class="ownerflag">You approve: the new interface lines.</p>
+        <p class="exit"><b>Exit:</b> every new line approved.</p></div>
+
+      <div class="ph" data-n="10"><h3>Pattern Decoder bridge</h3><p>Add the "In the sectors" block to Pattern Decoder's tactic pages from the manifests, and point umbrella pages back to the patterns that use them. It's a separate, small release of your live <code>/playbook</code>.</p>
+        <div class="kit"><div><h5>Skills</h5><p><code>impeccable</code> (fit to Pattern Decoder's own design), <code>code-review</code></p></div><div><h5>Servers and tools</h5><p>Pattern Decoder build (<code>decoder_v20.py</code>); <code>decoder-verify.js</code></p></div><div><h5>Agents</h5><p><code>code-reviewer</code></p></div></div>
+        <p class="ownerflag">You approve: changing the live Pattern Decoder.</p>
+        <p class="exit"><b>Exit:</b> 335 tactic pages each list their sectors; the Pattern Decoder checks pass.</p></div>
+
+      <div class="ph owner" data-n="11"><h3>Second-sector proof and your phone</h3><p>Run the same build on Corporate when its package is in the repo. Any rule that only works for Entertainment fails here, and gets fixed in the generator, not patched. Then your real-iPhone check on both sectors.</p>
+        <div class="kit"><div><h5>Skills</h5><p><code>design-director</code> (critic round on both)</p></div><div><h5>Servers and tools</h5><p>Playwright; a preview link</p></div><div><h5>Agents</h5><p><code>mobile-developer</code></p></div></div>
+        <p class="ownerflag">Needs: the Corporate package; your phone check.</p>
+        <p class="exit"><b>Exit:</b> both sectors pass every check from one command, with no per-sector code.</p></div>
+
+      <div class="ph owner" data-n="12"><h3>Release</h3><p>Version and changelog in <code>sites.json</code> and on the page, in the same commit. Redirects, sitemaps and the hub proxy lines. Deploy only on your word. Then check the live site byte for byte and ping the search engines.</p>
+        <div class="kit"><div><h5>Skills</h5><p><code>seo-audit</code>, <code>ai-seo</code></p></div><div><h5>Servers and tools</h5><p>Netlify (deploy), <code>verify-deployed.mjs</code>, IndexNow</p></div><div><h5>Agents</h5><p>none</p></div></div>
+        <p class="ownerflag">You say: deploy.</p>
+        <p class="exit"><b>Exit:</b> live matches the repo; old addresses 301 correctly.</p></div>
+    </div>
+  </section>
+
+  <!-- 10 -->
+  <section id="dec" aria-labelledby="dec-h">
+    <header>
+      <p class="eyebrow">10 · Your calls</p>
+      <h2 id="dec-h">Eight decisions before step 1</h2>
+      <p class="sub">My recommendation is under each one. If you don't answer one, I'll use the recommendation and say so.</p>
+    </header>
+    <ol class="dec">
+      <li><h3>One look or two?</h3><p>The film and hub are dark and gold. The open sector is light cream. Entering a sector is currently a jump between two worlds.</p><p class="rec"><b>Recommend:</b> one family. Same type and ring, a calmer reading ground for long text. Decided by comps in step 5.</p></li>
+      <li><h3>Keep tactic and pattern addresses?</h3><p>They're already shared and indexed.</p><p class="rec"><b>Recommend:</b> keep <code>/tactic/&lt;tactic&gt;</code> and flat <code>/&lt;pattern&gt;</code>; move stages and categories under their sections with 301s.</p></li>
+      <li><h3>Rename the <code>family-</code> category addresses?</h3><p>They will read as the Family sector.</p><p class="rec"><b>Recommend:</b> yes, <code>/patterns/&lt;category&gt;</code>.</p></li>
+      <li><h3>Plain category names in navigation?</h3><p>"Exit Prevention" instead of "Exit Prevention &amp; Entrapment Composites".</p><p class="rec"><b>Recommend:</b> short names in navigation; the author's full name on the category page.</p></li>
+      <li><h3>Situation pages?</h3><p>Twelve real pages (<code>/in/touring</code>, <code>/in/signing</code>…) instead of filters only.</p><p class="rec"><b>Recommend:</b> yes. They're the strongest way in for someone who knows where, not what.</p></li>
+      <li><h3>Scale pages?</h3><p>Three new pages that read all 335 at one size.</p><p class="rec"><b>Recommend:</b> yes. It's the fractal idea made readable.</p></li>
+      <li><h3>Add "In the sectors" to Pattern Decoder?</h3><p>It changes your live <code>/playbook</code>.</p><p class="rec"><b>Recommend:</b> yes, as its own small release after the sector is done.</p></li>
+      <li><h3>The 25 unlinked chain links</h3><p>22 names with no exact match, such as Need Concealment (3 times), Exit Prevention (2), Sextortion and Post-Separation Abuse.</p><p class="rec"><b>Recommend:</b> I draft a mapping; you or the author confirm it. Nothing is guessed into the site.</p></li>
+    </ol>
+  </section>
+</div>
