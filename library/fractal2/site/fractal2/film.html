@@ -1179,7 +1179,7 @@ function cam45(t) {
   var d = F.dims(), key = d.W + 'x' + d.H;
   if (key !== K45key) {
     var zf = ZF(), z0 = cam3(g4.t0)[1], zP = d.PORT ? .62 : .6, zI = d.PORT ? .112 : .125, zPat = zf * .8, e = a5.t0, R = -TAU;
-    K45 = [[g4.t0, z0, 0, 0, 0], [STOP, z0 * 1.04, 0, 0, 0, E.in2], [STOP + 1.3, z0 * 1.037, 0, 0, 0, E.settle], [m1.t0 + 9.5, d.PORT ? .48 : .62, 0, 0, 0, E.film], [m2.t1, .8, 0, 0, 0, E.lin],
+    K45 = [[g4.t0, z0, 0, 0, 0], [STOP, z0 * 1.04, 0, 0, 0, E.in2], [STOP + 1.3, z0 * 1.037, 0, 0, 0, E.settle], [m1.t0 + 9.5, d.PORT ? .40 : .62, 0, 0, 0, E.film], [m2.t1, .8, 0, 0, 0, E.lin],
       [m3.t0 + 1.5, .3, 0, 0, 0, E.film], [m3.t0 + 9.5, .3, 0, 0, 0], [m3.t0 + 13.6, .3, -1.5, 2.3, 0, E.film],    // the growth rings held whole, the newest map small at their centre, before the generations come [m6.t0, .27, -1.7, 2.6, 0, E.lin], [m6.t0 + 6.4, zf * 1.25, 0, 0, 0, E.film], [a1.t0, zf * 1.3, 0, 0, 0, E.lin],
       [PK1 - .12, 2.4, 0, 0, 0, E.in3], [PK1 + 9.4, zf, 0, 0, R, F.spring(.66, 7.5)], [e - .1, zf * 1.02, 0, 0, R, E.lin],
       [e + 1.5, zP, 0, 0, R, E.film], [e + 2.7, zP, 0, 0, R], [e + 4.3, zI, 0, 0, R, E.film], [a6.t0 - .1, zI, 0, 0, R], [a6.t0 + 1.9, zf, 0, 0, R, E.film], [n1.t0 - .1, zf, 0, 0, R],
@@ -1699,7 +1699,7 @@ function heroes(t, S) {
   }
   if (t >= MIR[0] && t < MIR[3]) {             // "the way I spoke to myself": the whole mirror, its tarnished frame and all, the owner's map inside it as the reflection
     a = win(t, MIR[0], MIR[1], MIR[2], MIR[3]); var mc = F.w2s(0, 0, S), push = 1 + .04 * clamp((t - MIR[1]) / (MIR[2] - MIR[1]), 0, 1);
-    Hp(0, 'mirror', mc[0], mc[1] - (P ? .035 * d.H : 0), (P ? .43 * d.W : .44 * d.H) * push, { disc: 0, a: a, dark: 1.9, lit: .5, under: 1 });
+    Hp(0, 'mirror', mc[0], mc[1] - (P ? .035 * d.H : 0), (P ? .43 * d.W : .44 * d.H) * push, { disc: 0, a: a, dark: P ? 1.35 : 1.9, lit: .5, under: 1 });
   }
   if (t >= RINGS[0] && t < RINGS[3]) {         // the generations: the whole growth-ring disc, the newest map at its centre
     a = win(t, RINGS[0], RINGS[1], RINGS[2], RINGS[3]); var push2 = 1 + .04 * clamp((t - RINGS[1]) / (RINGS[2] - RINGS[1]), 0, 1);
@@ -1707,7 +1707,7 @@ function heroes(t, S) {
   }
   if (t >= CITY[0] && t < CITY[3]) {           // section 5: the city, the far larger map, shown whole; it steps back under table 2
     a = win(t, CITY[0], CITY[1], CITY[2], CITY[3]); var tb = win(t, a5.t0 - .5, a5.t0 + .8, n5.t0, n5.t0 + 1.5), push3 = 1 + .04 * clamp((t - CITY[1]) / (CITY[2] - CITY[1]), 0, 1);
-    Hp(0, 'city', d.W * S.cxf, d.H * (d.CYF - (P ? .035 : 0)), (P ? .43 : .45) * sh * push3, { disc: 0, a: lerp(1, .45, tb) * a, dark: 1.3, lit: .25, under: 1, ang: -.003 * (t - CITY[0]) });
+    Hp(0, 'city', d.W * S.cxf, d.H * (d.CYF - (P ? .035 : 0)), (P ? .43 : .45) * sh * push3, { disc: 0, a: lerp(1, .45, tb) * a, dark: P ? 1.0 : 1.3, lit: .25, under: 1, ang: -.003 * (t - CITY[0]) });
     var hide = win(t, PK1 + 1.5, PK1 + 4.5, a5.t0 - 1.5, a5.t0 + .5); S.logo *= 1 - hide; S.emb *= 1 - hide; S.ringa *= 1 - .9 * hide;
   }
   if (t >= CENTER[0] && t < CENTER[3]) {       // "A counterfeit always comes second. Which means something real was here first.": the twins side by side, held

@@ -92,7 +92,7 @@ def job(j):
             if x1 - x0 < 8 or y1 - y0 < 8: continue
             kk = 256 / max(x1 - x0, y1 - y0); ww, hh = max(8, round((x1 - x0) * kk)), max(8, round((y1 - y0) * kk))
             Yc, Xc = np.mgrid[0:hh, 0:ww].astype(np.float32); Xc = x0 + (Xc + .5) / kk; Yc = y0 + (Yc + .5) / kk
-            crop = np.asarray(Image.fromarray(im.astype(np.uint8)).convert('L').crop((int(x0), int(y0), int(math.ceil(x1)), int(math.ceil(y1)))).resize((ww, hh), Image.BILINEAR)).astype(np.float32) / 255
+            crop = np.asarray(Image.fromarray(im.astype(np.uint8)).convert('L').resize((ww, hh), Image.BILINEAR, box=(x0, y0, x1, y1))).astype(np.float32) / 255      # the exact float box the reference is warped onto: a whole-pixel crop slid 1 px off the reference whenever the box edge crossed a pixel
             if gg is refs[0][2] and role == 'split':
                 pl = gg; a, ma = warp(pl['pa'], pl, Xc, Yc); b, _ = warp(pl['pb'], pl, Xc, Yc); r2, m2 = np.where(Xc >= pl['seam'], b, a), ma
             else: r2, m2 = warp(gg.get('k') or gg['pa'], gg, Xc, Yc)

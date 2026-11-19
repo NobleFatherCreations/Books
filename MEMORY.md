@@ -5141,3 +5141,8 @@ The owner was (fairly) angry that each fix shipped new faults. Standing rule fro
 - `exports/fractal2-film/preview-05-desktop-highlights.mp4` done (184 s, 1280x720, score muxed per clip; STOP silence and PEAK1 lift verified) and sent to the owner with `contact-sheet-05.jpg`.
 - Full phone preview renders in resumable 80 s chunks: scratchpad `r5/run.sh` (skips finished chunks, safe to re-run after a restart), joined with the score into `preview-05-full-phone-small.mp4` (44.1 MB, 1124 s, sent). Lesson: film2-render.mjs renders `from..to` inclusive, so each chunk has one extra frame; trim each chunk by frame count (trim=end_frame=fps*len) before joining or the picture drifts ~0.08 s per chunk behind the score. muxphone.sh's concat-with-outpoint did not trim; the filter_complex trim did.
 - Fit-report notes for the owner: cue 3 bars 93-124 are cut (to land PEAK3 on its downbeat); cue 4 is stretched from 123 to 216 bars with twelve 8-bar repeats.
+
+## 2026-11-19 — Mirror and city holds pass on phone
+- Found film.html had never been rebuilt after the agent's last shots.js tuning (previews 05 came from the code just before it). Rebuilt.
+- The city "4.5/8 s" fail was a scorer bug: film2-plates.py cropped on whole pixels vs a float-box reference (1 px slip when the box edge crossed a pixel). Fixed with resize(box=...). Phone holds now: mirror 13.5 s, city 11.0 s (target 8). Checked by eye.
+- Previews 05 slightly predate the rebuild: on phone the mirror and city are now a little larger/brighter than in the video sent. Full gate not re-run after the scorer fix (it takes hours); quick script: scratchpad hold/hold.mjs <url> <out> mirror,city.
