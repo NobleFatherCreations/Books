@@ -1,0 +1,282 @@
+{
+ "updated": "2026-11-20",
+ "note": "Book cover registry for all 15 books + The Root. 'cover' is the current image to use everywhere. Artlist covers are 1696x2528 (2:3). Low-res existing covers: swap in originals if the owner has them.",
+ "extra": {
+  "decoder_310_first_version": "content/tiktok-deck/covers-replaced/decoder-310-first-version.jpg",
+  "brand_mark": "content/tiktok-deck/covers-existing/brand-mark.jpg"
+ },
+ "books": [
+  {
+   "order": 1,
+   "slug": "decoder",
+   "title": "The Pattern Decoder",
+   "url": "https://noblefathercreations.com/playbook",
+   "cover": "content/tiktok-deck/covers/decoder.jpg",
+   "size": [
+    1696,
+    2528
+   ],
+   "aspect": "2:3",
+   "source": "Artlist, Nano Banana Pro 2K, generated 2026-11-20",
+   "artlist_generation_id": "01a1f797-93c4-7537-b03c-d65ae6f096f7",
+   "concept": "Edit of 01a1f6fd-b2eb-7b89-aa53-d30fda0a1c32 changing 310 to 335. Transit-map mandala of ten coloured lines around an eye.",
+   "replaced": "content/tiktok-deck/covers-replaced/decoder-old-logo-only.jpg",
+   "name_on_cover": "SHAE STOVELL"
+  },
+  {
+   "order": 2,
+   "slug": "feminine",
+   "title": "The Sovereign Divine Feminine",
+   "url": "https://noblefathercreations.com/feminine",
+   "cover": "content/tiktok-deck/covers-existing/feminine.jpg",
+   "size": [
+    603,
+    872
+   ],
+   "aspect": "603:872",
+   "source": "Owner's existing cover, taken from the Oct 2026 catalogue PDF (about 600 px wide)",
+   "artlist_generation_id": null,
+   "concept": null,
+   "replaced": null,
+   "name_on_cover": "SHAE STOVELL"
+  },
+  {
+   "order": 3,
+   "slug": "longafter",
+   "title": "The Long After",
+   "url": "https://noblefathercreations.com/longafter",
+   "cover": "content/tiktok-deck/covers/longafter.jpg",
+   "size": [
+    1696,
+    2528
+   ],
+   "aspect": "2:3",
+   "source": "Artlist, Nano Banana Pro 2K, generated 2026-11-20",
+   "artlist_generation_id": "01a1f6fd-b2ec-7eba-ab47-a7e6bdf5b278",
+   "concept": "Woman past an open door, threads (phone, court papers, child's drawing, money, camera) fraying into gold, long road over seven hills at dawn.",
+   "replaced": "content/tiktok-deck/covers-replaced/longafter-old.jpg",
+   "name_on_cover": "SHAE STOVELL"
+  },
+  {
+   "order": 4,
+   "slug": "children",
+   "title": "Playground Protectors",
+   "url": "https://noblefathercreations.com/children",
+   "cover": "content/tiktok-deck/covers-existing/children.jpg",
+   "size": [
+    594,
+    891
+   ],
+   "aspect": "2:3",
+   "source": "Owner's existing cover, taken from the Oct 2026 catalogue PDF (about 600 px wide)",
+   "artlist_generation_id": null,
+   "concept": null,
+   "replaced": null,
+   "name_on_cover": "SHAE STOVELL"
+  },
+  {
+   "order": 5,
+   "slug": "wook",
+   "title": "The Festie Codex",
+   "url": "https://noblefathercreations.com/wook",
+   "cover": "content/tiktok-deck/covers-existing/wook.jpg",
+   "size": [
+    680,
+    911
+   ],
+   "aspect": "680:911",
+   "source": "Owner's existing cover, taken from the Oct 2026 catalogue PDF (about 600 px wide)",
+   "artlist_generation_id": null,
+   "concept": null,
+   "replaced": null,
+   "name_on_cover": "SHAE STOVELL"
+  },
+  {
+   "order": 6,
+   "slug": "festival",
+   "title": "The Festie Bible",
+   "url": "https://noblefathercreations.com/festival",
+   "cover": "content/tiktok-deck/covers-existing/festival.jpg",
+   "size": [
+    640,
+    857
+   ],
+   "aspect": "640:857",
+   "source": "Owner's existing cover, taken from the Oct 2026 catalogue PDF (about 600 px wide)",
+   "artlist_generation_id": null,
+   "concept": null,
+   "replaced": null,
+   "name_on_cover": "SHAE STOVELL"
+  },
+  {
+   "order": 7,
+   "slug": "fractal",
+   "title": "The Fractal",
+   "url": "https://noblefathercreations.com/fractal",
+   "cover": "content/tiktok-deck/covers-existing/fractal.jpg",
+   "size": [
+    614,
+    1100
+   ],
+   "aspect": "614:1100",
+   "source": "Owner's existing cover, taken from the Oct 2026 catalogue PDF (about 600 px wide)",
+   "artlist_generation_id": null,
+   "concept": null,
+   "replaced": null,
+   "name_on_cover": "SHAE STOVELL"
+  },
+  {
+   "order": 8,
+   "slug": "fracture",
+   "title": "The Fracture",
+   "url": "https://noblefathercreations.com/fracture",
+   "cover": "content/tiktok-deck/covers-existing/fracture.jpg",
+   "size": [
+    872,
+    872
+   ],
+   "aspect": "872:872",
+   "source": "Owner's existing cover, taken from the Oct 2026 catalogue PDF (about 600 px wide)",
+   "artlist_generation_id": null,
+   "concept": null,
+   "replaced": null,
+   "name_on_cover": "SHAE STOVELL"
+  },
+  {
+   "order": 9,
+   "slug": "faith",
+   "title": "The Sacred Divide",
+   "url": "https://noblefathercreations.com/faith",
+   "cover": "content/tiktok-deck/covers-existing/faith.jpg",
+   "size": [
+    594,
+    1064
+   ],
+   "aspect": "594:1064",
+   "source": "Owner's existing cover, taken from the Oct 2026 catalogue PDF (about 600 px wide)",
+   "artlist_generation_id": null,
+   "concept": null,
+   "replaced": null,
+   "name_on_cover": "SHAE STOVELL"
+  },
+  {
+   "order": 10,
+   "slug": "silence",
+   "title": "The Silence",
+   "url": "https://noblefathercreations.com/silence",
+   "cover": "content/tiktok-deck/covers/silence.jpg",
+   "size": [
+    1696,
+    2528
+   ],
+   "aspect": "2:3",
+   "source": "Artlist, Nano Banana Pro 2K, generated 2026-11-20",
+   "artlist_generation_id": "01a1f6fd-b2fb-7dfa-9297-4217aaa6a39b",
+   "concept": "Man at a kitchen table at night, hand over mouth, three doors of dismissive headlines, police-blue light, his boyhood reflection in the window.",
+   "replaced": "content/tiktok-deck/covers-replaced/silence-old.jpg",
+   "name_on_cover": "SHAE STOVELL"
+  },
+  {
+   "order": 11,
+   "slug": "repair",
+   "title": "The Repair",
+   "url": "https://noblefathercreations.com/repair",
+   "cover": "content/tiktok-deck/covers/repair.jpg",
+   "size": [
+    1696,
+    2528
+   ],
+   "aspect": "2:3",
+   "source": "Artlist, Nano Banana Pro 2K, generated 2026-11-20",
+   "artlist_generation_id": "01a1f6fd-b2eb-7298-b206-231a11fcec32",
+   "concept": "Hands mending a shattered mirror with gold (kintsugi), scenes of harm in the shards, on a ruled ledger.",
+   "replaced": "content/tiktok-deck/covers-replaced/repair-old.jpg",
+   "name_on_cover": "SHAE STOVELL"
+  },
+  {
+   "order": 12,
+   "slug": "atwill",
+   "title": "At Will",
+   "url": "https://noblefathercreations.com/atwill",
+   "cover": "content/tiktok-deck/covers/atwill.jpg",
+   "size": [
+    1696,
+    2528
+   ],
+   "aspect": "2:3",
+   "source": "Artlist, Nano Banana Pro 2K, generated 2026-11-20",
+   "artlist_generation_id": "01a1f6fd-b2f0-7da8-b481-3c6140bb8a7f",
+   "concept": "Office worker on marionette strings from a giant clock, spiral maze of cubicles, PIP/NDA papers, 'We're a family' banner, cameras.",
+   "replaced": "content/tiktok-deck/covers-replaced/atwill-old.jpg",
+   "name_on_cover": "SHAE STOVELL"
+  },
+  {
+   "order": 13,
+   "slug": "slowtake",
+   "title": "The Slow Take",
+   "url": "https://noblefathercreations.com/slowtake",
+   "cover": "content/tiktok-deck/covers/slowtake.jpg",
+   "size": [
+    1696,
+    2528
+   ],
+   "aspect": "2:3",
+   "source": "Artlist, Nano Banana Pro 2K, generated 2026-11-20",
+   "artlist_generation_id": "01a1f6fd-b39b-72c0-8ce6-ba4c699c173b",
+   "concept": "Elderly woman's hands with a teacup, keys/will/photos unravelling into a gold thread wound by a hidden figure, phone ringing, adult child arriving.",
+   "replaced": "content/tiktok-deck/covers-replaced/slowtake-old.jpg",
+   "name_on_cover": "SHAE STOVELL"
+  },
+  {
+   "order": 14,
+   "slug": "loop",
+   "title": "The Loop",
+   "url": "https://noblefathercreations.com/loop",
+   "cover": "content/tiktok-deck/covers/loop.jpg",
+   "size": [
+    1696,
+    2528
+   ],
+   "aspect": "2:3",
+   "source": "Artlist, Nano Banana Pro 2K, generated 2026-11-20",
+   "artlist_generation_id": "01a1f824-3244-74d7-8fc4-99026cd1d7a6",
+   "concept": "Figure lit by a phone inside an infinite spiral of feeds and notifications, an eye of recommendation tiles, gold thread looping the wrist.",
+   "replaced": "content/tiktok-deck/covers-replaced/loop-old.jpg",
+   "name_on_cover": "SHAE STOVELL"
+  },
+  {
+   "order": 15,
+   "slug": "scale",
+   "title": "The Weighing",
+   "url": "https://noblefathercreations.com/scale",
+   "cover": "content/tiktok-deck/covers/scale.jpg",
+   "size": [
+    1696,
+    2528
+   ],
+   "aspect": "2:3",
+   "source": "Artlist, Nano Banana Pro 2K, generated 2026-11-20",
+   "artlist_generation_id": "01a1f824-324d-7612-b47d-77fc5bb6909c",
+   "concept": "Lantern-headed brass balance scale weighing a glowing heart against evidence, true and false masks behind.",
+   "replaced": "content/tiktok-deck/covers-replaced/scale-old.jpg",
+   "name_on_cover": "SHAE STOVELL"
+  },
+  {
+   "order": 16,
+   "slug": "root",
+   "title": "The Root",
+   "url": "https://noblefathercreations.com/shadowroot",
+   "cover": "content/tiktok-deck/covers/root.jpg",
+   "size": [
+    1696,
+    2528
+   ],
+   "aspect": "2:3",
+   "source": "Artlist, Nano Banana Pro 2K, generated 2026-11-20",
+   "artlist_generation_id": "01a1f6fd-b3a3-78a2-9b9e-4c4dcbf12b01",
+   "concept": "Meditating figure above ground, luminous root system with numbered steps through buried memories down to a seed of light.",
+   "replaced": "content/tiktok-deck/covers-replaced/root-old.jpg",
+   "name_on_cover": "SHAE STOVELL"
+  }
+ ]
+}
