@@ -1,0 +1,167 @@
+{
+ "phone": {
+  "screens": 39.6,
+  "H": 33388,
+  "secs": [
+   {
+    "id": "start-here",
+    "h": 1167
+   },
+   {
+    "id": "library",
+    "h": 13362
+   },
+   {
+    "id": "instruments",
+    "h": 3101
+   },
+   {
+    "id": "music",
+    "h": 1059
+   },
+   {
+    "id": "workshop",
+    "h": 3044
+   },
+   {
+    "id": "guide",
+    "h": 1393
+   },
+   {
+    "id": "manifesto",
+    "h": 721
+   },
+   {
+    "id": "maker",
+    "h": 1360
+   },
+   {
+    "id": "support",
+    "h": 1062
+   }
+  ],
+  "fonts": [
+   "\"Hanken Grotesk\"",
+   "Arial",
+   "Fraunces",
+   "\"Space Mono\"",
+   ""
+  ],
+  "interactive": 139,
+  "under44": 47,
+  "foldChoices": 20,
+  "words": 3760,
+  "overflow": 0,
+  "errors": []
+ },
+ "tablet": {
+  "screens": 30.3,
+  "H": 31068,
+  "secs": [
+   {
+    "id": "start-here",
+    "h": 1018
+   },
+   {
+    "id": "library",
+    "h": 12687
+   },
+   {
+    "id": "instruments",
+    "h": 3025
+   },
+   {
+    "id": "music",
+    "h": 1436
+   },
+   {
+    "id": "workshop",
+    "h": 2896
+   },
+   {
+    "id": "guide",
+    "h": 1264
+   },
+   {
+    "id": "manifesto",
+    "h": 597
+   },
+   {
+    "id": "maker",
+    "h": 1325
+   },
+   {
+    "id": "support",
+    "h": 761
+   }
+  ],
+  "fonts": [
+   "\"Hanken Grotesk\"",
+   "Arial",
+   "Fraunces",
+   "\"Space Mono\"",
+   ""
+  ],
+  "interactive": 139,
+  "under44": 43,
+  "foldChoices": 35,
+  "words": 3760,
+  "overflow": 0,
+  "errors": []
+ },
+ "desktop": {
+  "screens": 26.4,
+  "H": 23792,
+  "secs": [
+   {
+    "id": "start-here",
+    "h": 1029
+   },
+   {
+    "id": "library",
+    "h": 8632
+   },
+   {
+    "id": "instruments",
+    "h": 2122
+   },
+   {
+    "id": "music",
+    "h": 725
+   },
+   {
+    "id": "workshop",
+    "h": 2021
+   },
+   {
+    "id": "guide",
+    "h": 960
+   },
+   {
+    "id": "manifesto",
+    "h": 522
+   },
+   {
+    "id": "maker",
+    "h": 874
+   },
+   {
+    "id": "support",
+    "h": 846
+   }
+  ],
+  "fonts": [
+   "\"Hanken Grotesk\"",
+   "Arial",
+   "Fraunces",
+   "\"Space Mono\"",
+   ""
+  ],
+  "interactive": 139,
+  "under44": 55,
+  "foldChoices": 30,
+  "words": 3760,
+  "overflow": 0,
+  "errors": []
+ }
+}
