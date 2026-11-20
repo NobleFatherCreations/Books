@@ -4,6 +4,42 @@
 
 **Working on the Fractal project (Fractal, Fractal², Pattern Decoder, combinations, the explainer PDFs, the intro site)? Read `docs/FRACTAL-DIGEST.md` first.** It is a 2-minute summary of the project, the review verdict and the known defects, with a map of where everything lives. Then read `content/fractal2/design/FAILURE-LOG.md` (every past failure and a 10-step pre-flight checklist). Do not read the book itself to get oriented.
 
+## HOMEPAGE (hub) — OPEN BRIEF (owner decision 2026-11-20; overrides everything below for the homepage only)
+
+The owner removed every homepage restriction that lacks a hard reason. For
+`hub/` (noblefathercreations.com itself) **only these 10 rules remain**. All
+other rules in this file (design standard, fonts/accent/grid limits, dark
+theme, MOVEMENT labels, THE HOUSE tab, the 0.2–0.3s easing, the reference
+sites, "native IntersectionObserver, no library", section and nav order,
+book order, the Start-here count, the intro video, patch notes/version badge)
+**do not apply to the homepage**. Animation libraries such as GSAP are
+allowed, pasted inline into the page. `scripts/verify-hub.mjs` encodes the old
+v17 layout, so rewrite it to the new design rather than designing to it.
+
+1. Existing URLs and anchors that are linked or indexed keep working, and
+   `hub/catalogue-redesign._redirects` ships with the homepage. It routes
+   every book onto the domain.
+2. No third-party requests: nothing fetched from another company's server.
+   The Cloudflare beacon is the one exception. Same-site endpoints (our own
+   Netlify functions) are fine.
+3. Nothing personal stored in the visitor's browser, and no cookies or
+   per-person tracking. This is reader safety on shared phones. Anonymous
+   aggregate counts are fine.
+4. Accessibility floor: WCAG AA contrast, 44px tap targets, keyboard
+   reachable, and a designed `prefers-reduced-motion` version (self-running
+   motion stops; scroll-linked motion may stay).
+5. Audio plays only on tap. This is browser policy.
+6. No living people named in Fracture titles or summaries. Defamation risk.
+7. Book titles exactly match the books. The copy around them is free.
+8. Absolute asset paths, because of proxy routing.
+9. Built through `scripts/seo/build_hub.py` then `build_site.py`, or
+   replace those scripts. Never hand-edit an output that a script rewrites.
+10. A weight budget exists (number open; measured with `scripts/seo/perf.js`).
+    It is deployed only on the owner's words "deploy the homepage".
+
+The homepage carries **no on-page version or update notes**. `sites.json`
+still records `hub` version and changelog for us, invisibly.
+
 **Read `MEMORY.md` first, every session** — it's the actual cross-session
 memory in this environment (a fresh container has no access to anything
 outside this repo, so plugin-based memory tools don't carry over between
@@ -171,7 +207,7 @@ once per deployed round of work — not once per commit) plus the date, so
 anyone — us in a future session, or a reader coming back — can tell a new
 update shipped and what it actually changed, without diffing HTML.
 
-**Two places this lives, always kept in sync:**
+**Two places this lives, always kept in sync** (exception: the homepage has no on-page notes; see the HOMEPAGE section at the top):
 
 1. **On the page itself**, reader-facing. Add a small, unobtrusive
    `<section id="updates">` (or fold it into the book's existing About/
