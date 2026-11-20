@@ -38,8 +38,9 @@ OUTRO = [
 ]
 
 ABOUT = {
- "quote": "Everything in my library is written by a person who lived near what it describes.",
- "p": ["I'm Shae Stovell. I run Noble Father Creations. I make things by hand with a small NFC chip inside, and I write free books and tools about how people get steered: in relationships, in faith communities, at work, and on their feeds."]}
+ "quote": "I didn't come to this as a researcher. I came to it as someone it happened to.",
+ "p": ["The things that changed my life were never single acts. They were sequences so seamless I lived them as love, as loyalty, as growth.",
+       "So I learned to read the blueprint drawn around me, and kept finding it everywhere, one pattern in thirty costumes. The books are free because my daughter should have the words before she needs them."]}
 
 BOOKS = [
 # ---------------------------------------------------------------- DECODER
@@ -415,7 +416,7 @@ BOOKS = [
 {
  "slug": "loop", "title": "The Loop", "sub": "The machine that learns you.",
  "kicker": "Algorithms", "url": "noblefathercreations.com/loop",
- "cover": "covers-existing/loop.jpg",
+ "cover": "covers/loop.jpg",
  "chips": ["47 chapters", "8 movements", "Your feed"],
  "sections": [
   {"h": "What it is", "t": "You can't out-willpower *an optimiser.*", "p": [
@@ -440,7 +441,7 @@ BOOKS = [
 {
  "slug": "scale", "title": "The Weighing", "sub": "How to be right about people.",
  "kicker": "Discernment", "url": "noblefathercreations.com/scale",
- "cover": "covers-existing/scale.jpg",
+ "cover": "covers/scale.jpg",
  "chips": ["38 chapters", "6 movements", "4 tests"],
  "sections": [
   {"h": "What it is", "t": "Is that the *best explanation?*", "p": [
