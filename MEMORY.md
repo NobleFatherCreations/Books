@@ -5077,3 +5077,16 @@ The owner was (fairly) angry that each fix shipped new faults. Standing rule fro
 - New covers made with Artlist (Nano Banana Pro, 2:3, 1,120 credits, approved by the owner) for 7 books that had plain covers: Decoder, Long After, Silence, Repair, At Will, Slow Take, Root. Each carries the title and "SHAE STOVELL" at the bottom. In `content/tiktok-deck/covers/`. The others are taken from the PDF (`covers-existing/`, about 600 px wide, upscaled).
 - Build: `python3 content/tiktok-deck/build.py` (text in `books.py`, verbatim from the PDF; Playwright paginates to fit, then ffmpeg). Output `content/tiktok-deck/out/` (full video plus one MP4 per book; git-ignored).
 - v2 (same day): owner rejected v1 (13 Decoder slides, PDF text pasted). Rule now: each book is a short highlight / book description, 5-7 slides (cover, hook card, 4-5 highlights; Fractal may have more), covering what it is, what's inside, what makes it different, and who it's for, written to catch attention. Intro = 4 cards (body of work, audiences, how they help, 100% free, donations welcome but never required); outro = 1 card. Decoder is 335 tactics + 32 patterns, 21 fields per entry (the live v20 data); the cover was edited in Artlist from 310 to 335 (160 credits). There is no donation link on the site yet.
+- (later, same day) **Book cover registry: `content/tiktok-deck/covers.json`.** This is the single list of the current cover image for all 15 books plus The Root, in deck order. Each entry has the URL, path, size, source and Artlist generation ID; `replaced` points to the old image.
+  - **New Artlist covers (Nano Banana Pro, 1696×2528, 2:3, "SHAE STOVELL" at the bottom), in `content/tiktok-deck/covers/`:** Pattern Decoder (now says 335), The Long After, The Silence, The Repair, At Will, The Slow Take, The Loop, The Weighing, The Root.
+  - **Owner's existing covers (from the catalogue PDF, about 600 px wide), in `covers-existing/`:** The Sovereign Divine Feminine, Playground Protectors, The Festie Codex, The Festie Bible, The Fractal, The Fracture, The Sacred Divide. Swap in high-res originals if the owner has them.
+  - **Old images:** in `covers-replaced/`.
+  - **Download bundle:** `content/tiktok-deck/out/noble-father-book-covers.zip` (git-ignored; rebuild from covers.json).
+  - **Artlist credits used today:** 1,600 (7 + 2 covers, plus 1 edit).
+- **TikTok deck final state:**
+  - A 7:30 video on a 96 BPM bar grid (1 bar = 2.5 s): angel opener, 4 intro cards, About the Author (owner's bio: "Some of these I wrote as a father. All of them I wrote for the Father." plus the three reasons), 16 books, outro card, then the 12 s film and the gold signature.
+  - Suno files are in `content/tiktok-deck/suno/`:
+    - `main.txt`, 4,823 chars: Intro to Verse 12 (The Silence).
+    - `extend.txt`, 2,400 chars: from 4:50.
+    - `SUNO.md`: style, exclude, settings and the sync table.
+  - The owner also asked for a separate one-minute comic ending song in Motown doo-wop style. It was given in chat only, not as a file.

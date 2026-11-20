@@ -463,3 +463,9 @@ book's own design and stance are untouched; the plain pages use the book's own f
 | The Sacred Divide | (already 34 pages) | Tagged in place, no text moved; build_faith.py runs after sacred-divide-site.py |
 
 All seven: CC BY-NC-ND 4.0, visible byline + updated date, one-line notice linking the full notice.
+
+
+## Covers (2026-11-20)
+The current cover for every book is listed in `content/tiktok-deck/covers.json`; use it before guessing a filename.
+- **New Artlist covers (2:3, high-res):** Decoder, Long After, Silence, Repair, At Will, Slow Take, Loop, Weighing, Root.
+- **Owner's existing covers (low-res):** Feminine, Children, Festie Codex, Festie Bible, Fractal, Fracture, Sacred Divide.
