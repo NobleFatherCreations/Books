@@ -13,7 +13,7 @@ from PIL import Image
 HERE = os.path.dirname(os.path.abspath(__file__))
 BUILD = os.path.join(HERE, "build")
 sys.path.insert(0, HERE)
-from books import BOOKS  # noqa: E402
+from books import BOOKS, INTRO, OUTRO  # noqa: E402
 
 FPS = 30
 COVER_SECS = 4.0
@@ -36,14 +36,16 @@ def prep_images():
         out.append({**b, "coverUrl": "file://" + dst, "coverW": im.width, "coverH": im.height})
     brand = os.path.join(img, "brand.jpg")
     Image.open(os.path.join(HERE, "covers-existing/brand-mark.jpg")).convert("RGB").save(brand, quality=90)
-    return {"books": out, "brandUrl": "file://" + brand}
+    return {"books": out, "brandUrl": "file://" + brand, "intro": INTRO, "outro": OUTRO}
 
 
 def secs(m):
     if m["kind"] == "cover":
         return COVER_SECS
     if m["kind"] == "title":
-        return 4.0
+        return 4.5
+    if m["kind"] == "card":
+        return round(min(10.0, max(4.5, m["words"] / 2.7 + 1.5)), 2)
     return round(min(18.0, max(5.0, m["words"] / 2.7 + 2.0)), 2)
 
 

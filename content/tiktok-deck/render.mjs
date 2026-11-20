@@ -37,7 +37,7 @@ body{background:#000;font-family:HG,sans-serif;color:var(--ink)}
 .h2 em{color:var(--gold)}
 .h2 small{display:block;font:600 22px/1 HG;letter-spacing:.2em;text-transform:uppercase;color:var(--dim);margin-bottom:16px}
 .body{flex:1;overflow:hidden;min-height:0}
-.body p{font:400 40px/1.42 HG;margin-bottom:28px;color:var(--ink)}
+.body p{font:400 43px/1.42 HG;margin-bottom:28px;color:var(--ink)}
 .body p strong{color:var(--gold);font-weight:700}
 .body p em,.it em{font-family:HG;font-style:italic}
 .ac{display:flex;align-items:baseline;gap:34px;padding:2px 0;border-bottom:1px solid var(--line)}.ac b{font:80px/1 IS;color:var(--gold);width:70px;text-align:center}.ac span{font:500 42px/1.2 HG}
@@ -45,7 +45,7 @@ body{background:#000;font-family:HG,sans-serif;color:var(--ink)}
 .it b{display:block;font:700 37px/1.2 HG;color:var(--gold)}
 .it span{display:block;font:400 33px/1.38 HG;color:var(--ink);margin-top:6px}
 .it.solo b{color:var(--ink)}
-.bl{display:flex;gap:22px;font:400 40px/1.35 HG;margin-bottom:28px}
+.bl{display:flex;gap:22px;font:400 42px/1.32 HG;margin-bottom:28px}
 .bl:before{content:"";flex:none;width:14px;height:14px;margin-top:17px;background:var(--gold);transform:rotate(45deg)}
 .foot{gap:24px;padding-top:22px;border-top:1px solid var(--line);font:600 24px/1.2 HG;letter-spacing:.06em;color:var(--dim);display:flex;justify-content:space-between}
 .foot b{color:var(--gold);font-weight:600}
@@ -57,6 +57,8 @@ body{background:#000;font-family:HG,sans-serif;color:var(--ink)}
 .card h1{font:150px/.95 IS;margin:30px 0}
 .card h1 em{color:var(--gold)}
 .card p{font:400 44px/1.4 HG;color:var(--dim)}
+.grid{display:grid;grid-template-columns:repeat(8,1fr);gap:12px;margin-top:56px}.grid img{width:100%;aspect-ratio:2/3;object-fit:cover;border-radius:3px;box-shadow:0 6px 16px rgba(0,0,0,.6)}
+.card .cb{margin-top:10px}
 .chips{display:flex;flex-wrap:wrap;gap:14px;margin-top:40px}
 .chips span{border:1.5px solid var(--gold);color:var(--gold);font:700 24px/1 HG;letter-spacing:.14em;text-transform:uppercase;padding:14px 18px;border-radius:4px}
 `;
@@ -116,12 +118,19 @@ const shoot = async (html, meta) => {
   manifest.push({ file, ...meta });
 };
 
-// Intro
+// Intro / outro cards (from INTRO / OUTRO in books.py)
 const brand = books.brandUrl;
-await shoot(`<div class="slide"><div class="bgart" style="background-image:url('${brand}');opacity:.35"></div><div class="veil"></div>
- <div class="card"><div class="k">Noble Father Creations · Shae Stovell</div><h1>Words for the things we <em>can't name</em></h1>
- <p>A library of free field guides. Fifteen books and one guided practice, each written for the person who needs it most.</p>
- <div class="chips"><span>Free</span><span>No accounts</span><span>No paywalls</span></div></div></div>`, { slug: 'intro', kind: 'title', words: 30 });
+const hmd = (s) => esc(s).replace(/\*(.+?)\*/g, '<em>$1</em>');
+const grid = () => `<div class="grid">${books.books.map((b) => `<img src="${b.coverUrl}">`).join('')}</div>`;
+async function card(c, slug, i) {
+  const body = (c.p ? `<p>${esc(c.p)}</p>` : '') + (c.bullets ? `<div class="cb">${c.bullets.map((s) => `<div class="bl"><div>${esc(s)}</div></div>`).join('')}</div>` : '')
+    + (c.big ? `<p style="margin-top:44px;font:400 70px/1.1 IS;color:var(--gold)">${esc(c.big)}</p>` : '')
+    + (c.foot ? `<p style="margin-top:24px;font:600 28px/1.3 HG;color:var(--ink)">${esc(c.foot)}</p>` : '');
+  const words = [c.h, c.p || '', ...(c.bullets || []), c.foot || ''].join(' ').split(/\s+/).length;
+  await shoot(`<div class="slide"><div class="bgart" style="background-image:url('${brand}');opacity:.35"></div><div class="veil"></div>
+   <div class="card"><div class="k">${esc(c.k)}</div><h1 style="font-size:${c.h.length > 34 ? 112 : 140}px">${hmd(c.h)}</h1>${body}${i === 0 && slug === 'intro' ? grid() : ''}</div></div>`, { slug, kind: 'card', words });
+}
+for (let i = 0; i < books.intro.length; i++) await card(books.intro[i], 'intro', i);
 
 for (const b of books.books) {
   // 1) plan pages (dry-run packing)
@@ -132,6 +141,7 @@ for (const b of books.books) {
       let end = start + 1;
       while (end < us.length && await fits(textSlide(b, sec.h, cont, us.slice(start, end + 1), 1, 9))) end++;
       if (!(await fits(textSlide(b, sec.h, cont, us.slice(start, end), 1, 9)))) console.warn('OVERFLOW', b.slug, sec.h, start);
+      if (cont) console.warn('SPILL', b.slug, sec.h);
       pages.push({ h: sec.h, cont, us: us.slice(start, end) });
       start = end; cont = true;
     }
@@ -154,10 +164,7 @@ for (const b of books.books) {
 }
 
 // Outro
-await shoot(`<div class="slide"><div class="bgart" style="background-image:url('${brand}');opacity:.35"></div><div class="veil"></div>
- <div class="card"><div class="k">All of it, free</div><h1>Find the one you <em>need.</em></h1>
- <p>Every book and the Root are free to read, with no account and nothing tracked.</p>
- <p style="margin-top:50px;font:400 64px/1.1 IS;color:var(--gold)">noblefathercreations.com</p></div></div>`, { slug: 'outro', kind: 'title', words: 25 });
+for (let i = 0; i < books.outro.length; i++) await card(books.outro[i], 'outro', i);
 
 fs.writeFileSync(path.join(build, 'manifest.json'), JSON.stringify(manifest, null, 1));
 await browser.close();
