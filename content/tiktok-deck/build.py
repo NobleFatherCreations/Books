@@ -58,7 +58,7 @@ def segment(png, dur, dst, fade_in, fade_out):
     if fade_out:
         vf.insert(0, f"fade=t=out:st={dur - FADE:.2f}:d={FADE}")
     run(["ffmpeg", "-y", "-loop", "1", "-framerate", str(FPS), "-t", f"{dur}", "-i", png,
-         "-vf", ",".join(vf), "-c:v", "libx264", "-preset", "medium", "-crf", "18",
+         "-vf", ",".join(vf), "-c:v", "libx264", "-preset", "veryfast", "-threads", "2", "-crf", "18",
          "-tune", "stillimage", "-r", str(FPS), "-pix_fmt", "yuv420p", dst])
 
 
