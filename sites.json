@@ -106,7 +106,9 @@
       "hub/og.png",
       "hub/robots.txt",
       "hub/sitemap.xml",
-      "hub/topics.html"
+      "hub/topics.html",
+      "hub/netlify.toml",
+      "hub/netlify/"
     ],
     "buildCommand": "python3 scripts/seo/build_hub.py && python3 scripts/seo/build_site.py",
     "lastDeploy": {
@@ -117,7 +119,8 @@
     "pendingDeploy": {
       "since": "2026-11-09",
       "note": "Repo is ahead of live by two lines only: the /fractal/entertainment proxy rules in hub/catalogue-redesign._redirects and one Sitemap line in hub/robots.txt. The page itself is unchanged. Deploy blocked by the permission classifier; awaiting the owner's 'deploy the homepage'. Staging recipe: index.html + _redirects + hub.siteFiles."
-    }
+    },
+    "visitCounter": "Function /api/visits (hub/netlify/functions/visits.mjs) needs Netlify env var CF_API_TOKEN (Functions scope). Counter block on pages is added by scripts/visit-counter.py; run it after any page build."
   },
   "projects": [
     {

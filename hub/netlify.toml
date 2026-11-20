@@ -1,0 +1,3 @@
+# Only for the visit counter function (/api/visits). The site itself is static.
+[functions]
+  directory = "netlify/functions"
