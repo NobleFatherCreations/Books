@@ -1,5 +1,9 @@
-// Paginates books.json into 1080x1920 TikTok slides and screenshots each one.
-// Usage: node render.mjs <deckDir>   (expects <deckDir>/build/books.json)
+// TikTok book deck v3 renderer: books.json -> 1080x1920 PNG slides.
+// Design: gold-on-black editorial "field guide poster". Brand bar (logo +
+// wordmark) on every slide, one big serif headline, one proof block, and the
+// site link set large as a signed footer. TikTok safe area: x 72..912,
+// y 150..1440 (bottom 480 px is caption/UI).
+// Usage: node render.mjs <deckDir>
 import { createRequire } from 'module';
 const { chromium } = createRequire(import.meta.url)('playwright');
 import fs from 'fs';
@@ -10,164 +14,157 @@ const build = path.join(deck, 'build');
 const out = path.join(build, 'slides');
 fs.rmSync(out, { recursive: true, force: true });
 fs.mkdirSync(out, { recursive: true });
-const books = JSON.parse(fs.readFileSync(path.join(build, 'books.json'), 'utf8'));
-const fonts = path.resolve(deck, '../../tools/fonts');
-const f = (p) => 'file://' + path.join(fonts, p);
+const data = JSON.parse(fs.readFileSync(path.join(build, 'books.json'), 'utf8'));
+const root = path.resolve(deck, '../..');
+const f = (p) => 'file://' + path.join(root, 'tools/fonts', p);
+const LOGO = 'file://' + path.join(root, 'design/brand/logo-noble-father.png');
 
 const CSS = `
 @font-face{font-family:IS;src:url('${f('instrumentserif/InstrumentSerif-Regular.ttf')}')}
 @font-face{font-family:IS;font-style:italic;src:url('${f('instrumentserif/InstrumentSerif-Italic.ttf')}')}
 @font-face{font-family:HG;font-weight:100 900;src:url('${f('hankengrotesk/HankenGrotesk[wght].ttf')}')}
 @font-face{font-family:HG;font-style:italic;font-weight:100 900;src:url('${f('hankengrotesk/HankenGrotesk-Italic[wght].ttf')}')}
-:root{--bg:#0f0d0b;--ink:#f1e9d8;--dim:#b9ad97;--gold:#d4ad62;--line:rgba(212,173,98,.28)}
+:root{--bg:#0b0a08;--ink:#f3ecdc;--dim:#b8ad98;--gold:#e0b55e;--gold2:#f4d58a;--line:rgba(224,181,94,.32)}
 *{box-sizing:border-box;margin:0;padding:0}
 body{background:#000;font-family:HG,sans-serif;color:var(--ink)}
 .slide{width:1080px;height:1920px;position:relative;overflow:hidden;background:var(--bg)}
-.bgart{position:absolute;inset:-80px;background-size:cover;background-position:center;filter:blur(60px) saturate(1.1);opacity:.22}
-.veil{position:absolute;inset:0;background:radial-gradient(120% 70% at 50% 0%,rgba(15,13,11,.35),rgba(15,13,11,.92) 70%)}
-/* TikTok safe area: top 170, bottom 480 (caption+UI), left 72, right 168 */
-.safe{position:absolute;left:72px;top:170px;width:840px;height:1270px;display:flex;flex-direction:column}
-.head{display:flex;gap:24px;align-items:center;padding-bottom:26px;border-bottom:1px solid var(--line)}
-.thumb{width:66px;height:99px;object-fit:cover;border-radius:4px;box-shadow:0 6px 18px rgba(0,0,0,.6);flex:none}
-.hk{font:600 22px/1.2 HG;letter-spacing:.22em;text-transform:uppercase;color:var(--gold)}
-.ht{font:48px/1.05 IS;color:var(--ink);margin-top:6px}
-.bar{height:4px;background:rgba(255,255,255,.1);border-radius:2px;margin-top:22px;overflow:hidden}
-.bar i{display:block;height:100%;background:var(--gold)}
-.h2{font:84px/1 IS;color:var(--ink);margin:46px 0 30px}
-.h2 em{color:var(--gold)}
-.h2 small{display:block;font:600 22px/1 HG;letter-spacing:.2em;text-transform:uppercase;color:var(--dim);margin-bottom:16px}
-.body{flex:1;overflow:hidden;min-height:0}
-.body p{font:400 43px/1.42 HG;margin-bottom:28px;color:var(--ink)}
-.body p strong{color:var(--gold);font-weight:700}
-.body p em,.it em{font-family:HG;font-style:italic}
-.ac{display:flex;align-items:baseline;gap:34px;padding:2px 0;border-bottom:1px solid var(--line)}.ac b{font:80px/1 IS;color:var(--gold);width:70px;text-align:center}.ac span{font:500 42px/1.2 HG}
-.it{padding:18px 0 18px 26px;border-left:4px solid var(--gold);margin-bottom:18px}
-.it b{display:block;font:700 37px/1.2 HG;color:var(--gold)}
-.it span{display:block;font:400 33px/1.38 HG;color:var(--ink);margin-top:6px}
-.it.solo b{color:var(--ink)}
-.bl{display:flex;gap:22px;font:400 42px/1.32 HG;margin-bottom:28px}
-.bl:before{content:"";flex:none;width:14px;height:14px;margin-top:17px;background:var(--gold);transform:rotate(45deg)}
-.foot{gap:24px;padding-top:22px;border-top:1px solid var(--line);font:600 24px/1.2 HG;letter-spacing:.06em;color:var(--dim);display:flex;justify-content:space-between}
-.foot b{color:var(--gold);font-weight:600}
-/* cover */
+.glow{position:absolute;left:-200px;right:-200px;top:-300px;height:1300px;background-size:cover;background-position:center;filter:blur(90px) saturate(1.35);opacity:.5}
+.veil{position:absolute;inset:0;background:linear-gradient(180deg,rgba(11,10,8,.25) 0%,rgba(11,10,8,.82) 38%,var(--bg) 62%)}
+.frame{position:absolute;inset:28px;border:1px solid rgba(224,181,94,.18);border-radius:6px;pointer-events:none}
+.safe{position:absolute;left:72px;top:150px;width:840px;height:1290px;display:flex;flex-direction:column}
+.brand{display:flex;align-items:center;gap:26px;height:150px;flex:none}
+.brand .mk{width:150px;height:150px;border-radius:50%;flex:none;background:#000 url('${LOGO}') center 8%/118% auto no-repeat;box-shadow:0 0 0 3px var(--gold),0 0 0 9px rgba(224,181,94,.18),0 12px 30px rgba(0,0,0,.7)}
+.brand .wm{font:700 27px/1 HG;letter-spacing:.3em;color:var(--gold)}
+.brand .bt{font:italic 44px/1.1 IS;color:var(--ink);margin-top:12px}
+.lab{display:flex;align-items:center;gap:18px;font:700 28px/1 HG;letter-spacing:.22em;text-transform:uppercase;color:var(--gold);margin-top:40px;flex:none}
+.lab:before{content:"";width:48px;height:2px;background:var(--gold)}
+.hl{font:100px/1 IS;letter-spacing:-.005em;color:var(--ink);margin:18px 0 28px;flex:none}
+.hl em{color:var(--gold2)}
+.body{flex:1;min-height:0;overflow:hidden}
+.body p{font:400 46px/1.42 HG;margin-bottom:28px;color:var(--ink)}
+.body p strong{color:var(--gold2);font-weight:700}
+.body p em{font-style:italic}
+.bl{display:flex;gap:24px;font:500 44px/1.3 HG;padding:16px 0;border-bottom:1px solid rgba(255,255,255,.08)}
+.bl:last-child{border-bottom:0}
+.bl:before{content:"";flex:none;width:13px;height:13px;margin-top:17px;background:var(--gold);transform:rotate(45deg)}
+.it{padding:8px 0 8px 28px;border-left:4px solid var(--gold);margin-bottom:12px}
+.it b{display:block;font:700 41px/1.2 HG;color:var(--gold2)}
+.it span{display:block;font:400 37px/1.36 HG;color:var(--ink);margin-top:6px}
+.ac{display:flex;align-items:baseline;gap:34px;padding:2px 0;border-bottom:1px solid var(--line)}
+.ac b{font:70px/1 IS;color:var(--gold2);width:70px;text-align:center}
+.ac span{font:500 40px/1.2 HG}
+.card{border:1.5px solid var(--line);border-radius:18px;background:linear-gradient(180deg,rgba(224,181,94,.09),rgba(255,255,255,.02));padding:26px 32px;box-shadow:0 30px 60px rgba(0,0,0,.45)}
+.card .ct{font:700 24px/1.3 HG;letter-spacing:.2em;text-transform:uppercase;color:var(--gold);padding-bottom:22px;border-bottom:1px solid var(--line)}
+.card .cr{padding:10px 0;border-bottom:1px solid rgba(255,255,255,.08)}
+.card .cr:last-child{border-bottom:0;padding-bottom:4px}
+.card .cr b{display:block;font:700 25px/1 HG;letter-spacing:.16em;text-transform:uppercase;color:var(--gold2);margin-bottom:8px}
+.card .cr span{display:block;font:400 34px/1.34 HG}
+.stats .st{display:flex;align-items:baseline;gap:30px;padding:10px 0 18px;border-bottom:1px solid var(--line)}
+.stats .st b{font:170px/1 IS;color:var(--gold2);min-width:380px}
+.stats .st span{font:500 38px/1.25 HG;color:var(--ink)}
+.foot{flex:none;padding-top:20px;border-top:1px solid var(--line)}
+.foot .fl{font:700 25px/1 HG;letter-spacing:.3em;color:var(--dim);text-transform:uppercase}
+.foot .fu{font:68px/1.2 IS;color:var(--gold2);margin-top:12px;white-space:nowrap}
+.cbrand{position:absolute;left:72px;top:150px}
 .cov{position:absolute;left:0;width:1080px;object-fit:contain;box-shadow:0 30px 80px rgba(0,0,0,.7)}
-/* title cards */
-.card{position:absolute;left:72px;width:840px;top:170px;height:1270px;display:flex;flex-direction:column;justify-content:center}
-.card .k{font:600 26px/1.3 HG;letter-spacing:.24em;text-transform:uppercase;color:var(--gold)}
-.card h1{font:150px/.95 IS;margin:30px 0}
-.card h1 em{color:var(--gold)}
-.card p{font:400 44px/1.4 HG;color:var(--dim)}
-.grid{display:grid;grid-template-columns:repeat(8,1fr);gap:12px;margin-top:56px}.grid img{width:100%;aspect-ratio:2/3;object-fit:cover;border-radius:3px;box-shadow:0 6px 16px rgba(0,0,0,.6)}
-.card .cb{margin-top:10px}
-.don{margin-top:44px;border:1.5px solid var(--gold);border-radius:8px;padding:28px 34px;background:rgba(212,173,98,.06)}.don .dk{font:600 22px/1 HG;letter-spacing:.2em;text-transform:uppercase;color:var(--gold);margin-bottom:18px}.dr{display:flex;justify-content:space-between;align-items:baseline;padding:10px 0;font:500 38px/1.2 HG}.dr b{font:400 58px/1 IS;color:var(--gold)}
-.chips{display:flex;flex-wrap:wrap;gap:14px;margin-top:40px}
-.chips span{border:1.5px solid var(--gold);color:var(--gold);font:700 24px/1 HG;letter-spacing:.14em;text-transform:uppercase;padding:14px 18px;border-radius:4px}
+.hook{flex:1;display:flex;flex-direction:column;align-items:flex-start;justify-content:center}
+.hook .hc{height:430px;border-radius:6px;box-shadow:0 40px 90px rgba(0,0,0,.75),0 0 0 1px rgba(255,255,255,.08)}
+.hook h1{font:120px/.95 IS;margin-top:44px}
+.hook .sb{font:400 40px/1.35 HG;color:var(--dim);margin-top:22px}
+.nums{display:flex;gap:40px;margin-top:40px;flex-wrap:wrap}
+.nums div{display:flex;flex-direction:column}
+.nums b{font:84px/1 IS;color:var(--gold2)}
+.nums span{font:600 25px/1.2 HG;letter-spacing:.16em;text-transform:uppercase;color:var(--dim);margin-top:8px}
+.tc{flex:1;display:flex;flex-direction:column;justify-content:center}
+.tc .k{font:700 27px/1 HG;letter-spacing:.24em;text-transform:uppercase;color:var(--gold)}
+.tc h1{font:118px/.95 IS;margin:24px 0 30px}
+.tc h1 em{color:var(--gold2)}
+.tc p{font:400 44px/1.4 HG;color:var(--ink)}
+.tc .bl{font-size:42px}
+.grid{display:grid;grid-template-columns:repeat(8,1fr);gap:12px;margin-top:50px}
+.grid img{width:100%;aspect-ratio:2/3;object-fit:cover;border-radius:3px;box-shadow:0 6px 16px rgba(0,0,0,.6)}
+.don{margin-top:40px;border:1.5px solid var(--gold);border-radius:14px;padding:28px 34px;background:rgba(224,181,94,.07)}
+.don .dk{font:700 21px/1 HG;letter-spacing:.22em;text-transform:uppercase;color:var(--gold);margin-bottom:16px}
+.dr{display:flex;justify-content:space-between;align-items:baseline;padding:8px 0;font:500 38px/1.2 HG}
+.dr b{font:400 60px/1 IS;color:var(--gold2)}
+.big{font:74px/1.05 IS;color:var(--gold2);margin-top:40px}
 `;
 
-const esc = (s) => s.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
+const esc = (s) => String(s).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
 const md = (s) => esc(s).replace(/\*\*(.+?)\*\*/g, '<strong>$1</strong>').replace(/\*(.+?)\*/g, '<em>$1</em>');
-const splitSentences = (p) => p.split(/(?<=[.?!…]["”)]?)\s+(?=["“(*A-Z0-9$])/);
+const hmd = (s) => esc(s).replace(/\*(.+?)\*/g, '<em>$1</em>');
+const brandBar = (sub) => `<div class="brand"><div class="mk"></div><div><div class="wm">NOBLE FATHER CREATIONS</div><div class="bt">${esc(sub)}</div></div></div>`;
+const foot = (url, label = 'Read it free') => `<div class="foot"><div class="fl">${esc(label)}</div><div class="fu">${esc(url)}</div></div>`;
+const shell = (glowUrl, inner) => `<div class="slide"><div class="glow" style="background-image:url('${glowUrl}')"></div><div class="veil"></div><div class="frame"></div><div class="safe">${inner}</div></div>`;
 
-function units(sec) {
-  if (sec.p) return sec.p.flatMap((para, pi) => splitSentences(para).map((s) => ({ k: 'p', pi, s })));
-  if (sec.items) return sec.items.map(([n, d]) => ({ k: 'i', n, d }));
-  if (sec.acro) return sec.acro.map(([n, d]) => ({ k: 'a', n, d }));
-  return sec.bullets.map((s) => ({ k: 'b', s }));
+function bodyHtml(sec) {
+  if (sec.p) return sec.p.map((p) => `<p>${md(p)}</p>`).join('');
+  if (sec.bullets) return sec.bullets.map((s) => `<div class="bl"><div>${md(s)}</div></div>`).join('');
+  if (sec.items) return sec.items.map(([n, d]) => `<div class="it"><b>${md(n)}</b>${d ? `<span>${md(d)}</span>` : ''}</div>`).join('');
+  if (sec.acro) return sec.acro.map(([l, w]) => `<div class="ac"><b>${esc(l)}</b><span>${esc(w)}</span></div>`).join('');
+  if (sec.card) return `<div class="card"><div class="ct">${esc(sec.card.title)}</div>${sec.card.rows.map(([l, t]) => `<div class="cr"><b>${esc(l)}</b><span>${md(t)}</span></div>`).join('')}</div>`;
+  if (sec.stats) return `<div class="stats">${sec.stats.map(([n, l]) => `<div class="st"><b>${esc(n)}</b><span>${esc(l)}</span></div>`).join('')}</div>`;
+  return '';
 }
-function unitsHtml(us) {
-  let h = '', curP = null, buf = [];
-  const flush = () => { if (buf.length) h += `<p>${buf.map(md).join(' ')}</p>`; buf = []; };
-  for (const u of us) {
-    if (u.k === 'p') { if (curP !== u.pi) { flush(); curP = u.pi; } buf.push(u.s); continue; }
-    flush(); curP = null;
-    if (u.k === 'a') { h += `<div class="ac"><b>${esc(u.n)}</b><span>${esc(u.d)}</span></div>`; continue; }
-    if (u.k === 'i') h += `<div class="it${u.d ? '' : ' solo'}"><b>${md(u.n)}</b>${u.d ? `<span>${md(u.d)}</span>` : ''}</div>`;
-    else h += `<div class="bl"><div>${md(u.s)}</div></div>`;
-  }
-  flush();
-  return h;
-}
-const bg = (b) => `<div class="bgart" style="background-image:url('${b.coverUrl}')"></div><div class="veil"></div>`;
-const head = (b, n, of) => `<div class="head"><img class="thumb" src="${b.coverUrl}"><div style="flex:1"><div class="hk">${esc(b.kicker)} · ${n} / ${of}</div><div class="ht">${esc(b.title)}</div><div class="bar"><i style="width:${(n / of) * 100}%"></i></div></div></div>`;
-const foot = (b) => `<div class="foot"><span>Free to read</span><b>${esc(b.url)}</b></div>`;
-const heading = (h, cont) => { const words = h.split(' '); const last = words.pop(); return `<div class="h2">${cont ? '<small>Continued</small>' : ''}${esc(words.join(' '))} <em>${esc(last)}</em></div>`; };
-function textSlide(b, h, cont, us, n, of) {
-  return `<div class="slide">${bg(b)}<div class="safe">${head(b, n, of)}${heading(h, cont)}<div class="body">${unitsHtml(us)}</div>${foot(b)}</div></div>`;
-}
+const words = (sec) => JSON.stringify([sec.t, sec.p, sec.bullets, sec.items, sec.acro, sec.card, sec.stats]).replace(/[^\w\s$%']/g, ' ').split(/\s+/).filter(Boolean).length;
 
 const browser = await chromium.launch();
 const page = await browser.newPage({ viewport: { width: 1080, height: 1920 } });
-const mpage = await browser.newPage({ viewport: { width: 1080, height: 1920 } });
-const tmpM = path.join(build, '_measure.html');
-fs.writeFileSync(tmpM, `<!doctype html><meta charset="utf-8"><style>${CSS}</style><div id="m"></div>`);
-await mpage.goto('file://' + tmpM);
-await mpage.evaluate(() => document.fonts.ready);
-const fits = async (html) => mpage.evaluate((html) => {
-  const m = document.getElementById('m'); m.innerHTML = html;
-  const b = m.querySelector('.body'); return b.scrollHeight <= b.clientHeight + 1;
-}, html);
-
 const manifest = [];
-let idx = 0;
-const shoot = async (html, meta) => {
+let idx = 0, problems = 0;
+async function shoot(html, meta) {
   const tmp = path.join(build, '_slide.html');
   fs.writeFileSync(tmp, `<!doctype html><meta charset="utf-8"><style>${CSS}</style>${html}`);
   await page.goto('file://' + tmp);
-  await page.evaluate(async () => { await document.fonts.ready; await Promise.all([...document.images].map((i) => i.decode().catch(() => {}))); });
+  const r = await page.evaluate(async () => {
+    await document.fonts.ready;
+    await Promise.all([...document.images].map((i) => i.decode().catch(() => {})));
+    for (const u of document.querySelectorAll('.fu')) { let s = 68; while (u.scrollWidth > u.clientWidth && s > 36) { s -= 2; u.style.fontSize = s + 'px'; } }
+    const b = document.querySelector('.body');
+    const over = b ? b.scrollHeight - b.clientHeight : 0;
+    const safe = document.querySelector('.safe');
+    const sOver = safe ? safe.scrollHeight - safe.clientHeight : 0;
+    const broken = [...document.images].filter((i) => !i.naturalWidth).length;
+    const fill = b ? Math.round(100 * [...b.children].reduce((a, c) => a + c.getBoundingClientRect().height, 0) / b.clientHeight) : null;
+    return { over, sOver, broken, fill };
+  });
+  if (r.over > 1 || r.sOver > 4 || r.broken) { problems++; console.warn('PROBLEM', meta.slug, meta.kind, meta.h || '', JSON.stringify(r)); }
   const file = `${String(++idx).padStart(3, '0')}-${meta.slug}-${meta.kind}.png`;
   await page.locator('.slide').screenshot({ path: path.join(out, file) });
-  manifest.push({ file, ...meta });
-};
-
-// Intro / outro cards (from INTRO / OUTRO in books.py)
-const brand = books.brandUrl;
-const hmd = (s) => esc(s).replace(/\*(.+?)\*/g, '<em>$1</em>');
-const grid = () => `<div class="grid">${books.books.map((b) => `<img src="${b.coverUrl}">`).join('')}</div>`;
-async function card(c, slug, i) {
-  const body = (c.p ? `<p>${esc(c.p)}</p>` : '') + (c.bullets ? `<div class="cb">${c.bullets.map((s) => `<div class="bl"><div>${esc(s)}</div></div>`).join('')}</div>` : '')
-    + (c.big ? `<p style="margin-top:44px;font:400 70px/1.1 IS;color:var(--gold)">${esc(c.big)}</p>` : '')
-    + (c.donate ? `<div class="don"><div class="dk">Support the work · optional</div>${books.donate.map(([a, b]) => `<div class="dr"><span>${esc(a)}</span><b>${esc(b)}</b></div>`).join('')}</div>` : '')
-    + (c.foot ? `<p style="margin-top:24px;font:600 28px/1.3 HG;color:var(--ink)">${esc(c.foot).replace(/\n/g, '<br>')}</p>` : '');
-  const words = [c.h, c.p || '', ...(c.bullets || []), c.foot || ''].join(' ').split(/\s+/).length;
-  await shoot(`<div class="slide"><div class="bgart" style="background-image:url('${brand}');opacity:.35"></div><div class="veil"></div>
-   <div class="card"><div class="k">${esc(c.k)}</div><h1 style="font-size:${c.h.length > 34 ? 112 : 140}px">${hmd(c.h)}</h1>${body}${i === 0 && slug === 'intro' ? grid() : ''}</div></div>`, { slug, kind: 'card', words });
+  manifest.push({ file, ...meta, fill: r.fill });
 }
-for (let i = 0; i < books.intro.length; i++) await card(books.intro[i], 'intro', i);
 
-for (const b of books.books) {
-  // 1) plan pages (dry-run packing)
-  const pages = [];
+async function card(c, slug) {
+  const body = (c.p ? `<p>${esc(c.p)}</p>` : '')
+    + (c.bullets ? `<div>${c.bullets.map((s) => `<div class="bl"><div>${esc(s)}</div></div>`).join('')}</div>` : '')
+    + (c.big ? `<div class="big">${esc(c.big)}</div>` : '')
+    + (c.donate ? `<div class="don"><div class="dk">Support the work · optional</div>${data.donate.map(([a, b]) => `<div class="dr"><span>${esc(a)}</span><b>${esc(b)}</b></div>`).join('')}</div>` : '')
+    + (c.grid ? `<div class="grid">${data.books.map((b) => `<img src="${b.coverUrl}">`).join('')}</div>` : '');
+  const n = [c.h, c.p || '', ...(c.bullets || [])].join(' ').split(/\s+/).length + (c.donate ? 6 : 0);
+  await shoot(shell(data.brandUrl, `${brandBar('Books by Shae Stovell')}<div class="tc"><div class="k">${esc(c.k)}</div><h1 style="font-size:${c.h.length > 36 ? 100 : 118}px">${hmd(c.h)}</h1>${body}</div>${c.big ? '' : foot('noblefathercreations.com', 'Free to read')}`), { slug, kind: 'card', words: n });
+}
+
+for (const c of data.intro) await card(c, 'intro');
+
+for (const b of data.books) {
+  // full cover below the brand bar, kept inside the area TikTok leaves clear
+  const maxH = 1250, maxW = 1000; let ch = maxH, cw = Math.round(maxH * b.coverW / b.coverH);
+  if (cw > maxW) { cw = maxW; ch = Math.round(maxW * b.coverH / b.coverW); }
+  const top = 300 + Math.round((maxH - ch) / 2), left = Math.round((1080 - cw) / 2);
+  await shoot(`<div class="slide"><div class="glow" style="background-image:url('${b.coverUrl}');opacity:.7;top:-200px;height:2300px"></div><div class="veil" style="background:rgba(11,10,8,.35)"></div>
+    <div class="cbrand">${brandBar('Books by Shae Stovell')}</div>
+    <img class="cov" style="top:${top}px;left:${left}px;width:${cw}px;height:${ch}px;border-radius:6px" src="${b.coverUrl}"></div>`, { slug: b.slug, kind: 'cover', words: 0 });
+  const nums = b.chips.map((c) => { const m = c.match(/^([$0-9][0-9,.\-]*[A-Z%]*)\s+(.*)$/); return m ? `<div><b>${esc(m[1])}</b><span>${esc(m[2])}</span></div>` : `<div><b>✦</b><span>${esc(c)}</span></div>`; }).join('');
+  await shoot(shell(b.coverUrl, `${brandBar(b.kicker)}<div class="hook"><img class="hc" src="${b.coverUrl}"><h1 style="font-size:${b.title.length > 22 ? 96 : 120}px">${esc(b.title)}</h1><div class="sb">${esc(b.sub)}</div><div class="nums">${nums}</div></div>${foot(b.url)}`),
+    { slug: b.slug, kind: 'title', words: 10 + b.sub.split(' ').length });
   for (const sec of b.sections) {
-    const us = units(sec); let start = 0, cont = false;
-    while (start < us.length) {
-      let end = start + 1;
-      while (end < us.length && await fits(textSlide(b, sec.h, cont, us.slice(start, end + 1), 1, 9))) end++;
-      if (!(await fits(textSlide(b, sec.h, cont, us.slice(start, end), 1, 9)))) console.warn('OVERFLOW', b.slug, sec.h, start);
-      if (cont) console.warn('SPILL', b.slug, sec.h);
-      pages.push({ h: sec.h, cont, us: us.slice(start, end) });
-      start = end; cont = true;
-    }
+    await shoot(shell(b.coverUrl, `${brandBar(b.title)}<div class="lab">${esc(sec.h)}</div><div class="hl">${hmd(sec.t)}</div><div class="body">${bodyHtml(sec)}</div>${foot(b.url)}`),
+      { slug: b.slug, kind: 'info', h: sec.h, words: words(sec) + (sec.card ? 4 : 0) });
   }
-  // 2) cover (full-size image)
-  const ar = b.coverH / b.coverW, ch = Math.min(1920, Math.round(1080 * ar)), top = Math.round((1920 - ch) / 2);
-  await shoot(`<div class="slide"><div class="bgart" style="background-image:url('${b.coverUrl}');opacity:.55"></div>
-   <img class="cov" style="top:${top}px;height:${ch}px" src="${b.coverUrl}"></div>`, { slug: b.slug, kind: 'cover', words: 0 });
-  // 3) title card
-  await shoot(`<div class="slide">${bg(b)}<div class="card"><div class="k">${esc(b.kicker)}</div><h1 style="font-size:${b.title.length > 20 ? 120 : 150}px">${esc(b.title)}</h1>
-   <p>${esc(b.sub)}</p><div class="chips">${b.chips.map((c) => `<span>${esc(c)}</span>`).join('')}</div>
-   <p style="margin-top:50px;font-size:30px;color:var(--gold)">Read it free · ${esc(b.url)}</p></div></div>`, { slug: b.slug, kind: 'title', words: 12 + b.sub.split(' ').length });
-  // 4) info pages
-  for (let i = 0; i < pages.length; i++) {
-    const p = pages[i];
-    const words = p.us.map((u) => (u.s || `${u.n} ${u.d}`)).join(' ').split(/\s+/).length;
-    await shoot(textSlide(b, p.h, p.cont, p.us, i + 1, pages.length), { slug: b.slug, kind: 'info', words });
-  }
-  console.log(b.slug, pages.length, 'info slides');
+  console.log(b.slug, b.sections.length + 2, 'slides');
 }
-
-// Outro
-for (let i = 0; i < books.outro.length; i++) await card(books.outro[i], 'outro', i);
+for (const c of data.outro) await card(c, 'outro');
 
 fs.writeFileSync(path.join(build, 'manifest.json'), JSON.stringify(manifest, null, 1));
 await browser.close();
-console.log('slides:', manifest.length);
+console.log('slides:', manifest.length, 'problems:', problems);

@@ -28,3 +28,9 @@ See `docs/design-catalogue/templates/OWNER-TASTE.md` for the table to fill; add 
 
 ## Permissions granted
 - 2026-11-10: owner approved the label softenings and the five added safety sentences on the Entertainment site; chose to replace the old prototype site with Fractal² (since criticised; rebuild pending).
+
+## 2026-11-20: TikTok book deck (what the owner taught)
+- Slides should read as marketing book descriptions, not pasted catalogue text. Use 5–7 slides per book. Show a real example from inside the book when one exists. Always say what makes it unique and who it is for.
+- Brand logo on every slide. Make the website link large. No "1 / 5" slide counters.
+- Covers at book size (2:3), with complexity and a clear statement, and "SHAE STOVELL" at the bottom. Never generic stock-style images.
+- Donations: Cash App $shaestovell, Venmo @noblefather. Always say "welcome, never required".
