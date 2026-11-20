@@ -121,7 +121,8 @@ def main():
     os.makedirs(segdir)
     segs, total = [], 0.0
     sigbg = [m for m in man if m["kind"] == "sigbg"]
-    man = [m for m in man if m["kind"] != "sigbg"]
+    poster = [m for m in man if m["kind"] == "poster"]
+    man = [m for m in man if m["kind"] not in ("sigbg", "poster")]
     for i, m in enumerate(man):
         d = secs(m)
         nxt = man[i + 1] if i + 1 < len(man) else None
@@ -142,6 +143,8 @@ def main():
     full = [opener] + segs + [ender, sig]
     out = os.path.join(HERE, "out")
     os.makedirs(out, exist_ok=True)
+    if poster:
+        shutil.copy(os.path.join(BUILD, "slides", poster[0]["file"]), os.path.join(out, "tiktok-cover-photo.png"))
     concat(full, os.path.join(out, "noble-father-books-full.mp4"))
     # one video per book (cover through its last info slide)
     order = [b["slug"] for b in BOOKS]

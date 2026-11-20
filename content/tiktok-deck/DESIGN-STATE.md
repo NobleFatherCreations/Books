@@ -1,6 +1,6 @@
 # TikTok book deck: design state
 
-**State (2026-11-20, v4):** 110 slides plus three owner videos, about 21 minutes in total, 1080×1920, built by `python3 content/tiktok-deck/build.py`. The output goes to `out/` (full video plus 16 per-book MP4s; git-ignored).
+**State (2026-11-20, v5):** 109 video slides plus three owner videos, a TikTok cover photo (`out/tiktok-cover-photo.png`), about 21 minutes in total, 1080×1920, built by `python3 content/tiktok-deck/build.py`. The output goes to `out/` (full video plus 16 per-book MP4s; git-ignored).
 
 ## Concept
 A gold-on-black "field guide poster". Every slide shows the brand (a round logo badge and the wordmark), one large serif headline with a gold italic turn, one proof block, and the site link set large as a signed footer.
@@ -61,3 +61,26 @@ Not applied:
 - `angel-6s.mov`: opens the video (upscaled from 480×854; its own audio is kept).
 - `end-12s.mp4`: plays after the outro card (its own audio is kept).
 - `signature-draw.mp4`: played at 3× speed (about 5 s). The white paper is removed (negated luma used as alpha) and the ink is drawn in gold over the end card, which holds for 2.5 s.
+
+## v5: owner round + skill audits (impeccable, apple-design, emil-design-eng, no-ai-slop) + steelman
+- **Banner:** full slide width at the top of every slide (owner: "fit the page size"), recropped so the lettering has margins.
+- **Removed per impeccable's craft floor:**
+  - The eyebrow labels above headlines.
+  - The 4 px gold left borders on items.
+  - The unicode ✦ stat glyph.
+  - The small label above the URL.
+  - The repeated cover thumbnail on hook cards.
+- **About the Author (owner: "wayyyy better"):**
+  - A 380 px portrait.
+  - The owner's own line as a Cormorant Garamond italic pull quote.
+  - The bio below it.
+  - A large gold signature.
+- **Tracking and leading per apple-design:** display type at -0.015 to -0.02em with balanced wrapping; small caps tracked positive.
+- **Emil:** fades only where a book begins; there is no other motion.
+- **no-ai-slop and steelman copy pass:** removed triad fragments, "not X, Y" contrasts, colon reveals, "no X, no Y" lists, filler adverbs and repeated 2am lines.
+- **Steelman points NOT applied, with reasons:**
+  - **Shrinking the banner:** the owner asked for full width.
+  - **The banner's yellow-green:** it is the owner's brand.
+  - **Dropping the word-art face:** the owner chose it.
+  - **Adding excerpt cards for 9 more books:** it needs real excerpts the owner approves.
+  - **Splitting into 16 posts:** the per-book MP4s already exist in `out/`.
