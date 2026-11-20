@@ -1,10 +1,11 @@
 # Signature into the empty bottom band of the three Artlist remakes (Fractal, Fracture, Sacred Divide).
+# faith-b-final.png = Artlist text fix (MANIPULATION, PROPAGANDA) with the original 'MANUFACTURED' line pasted back locally.
 # Run from the repo root: python3 scripts/covers-sign-remade.py
 import cv2, numpy as np
 SIG = 'tools/brand/signature-shae-stovell.png'
 PICKS = {'07-fractal': ('fractal-b.png', (95, 175, 222)),    # BGR warm gold, like the title
          '08-fracture': ('fracture-a.png', (235, 235, 240)), # silver-white, like the title
-         '09-faith': ('faith-b.png', (95, 175, 222))}
+         '09-faith': ('faith-b-final.png', (95, 175, 222))}
 sig = cv2.imread(SIG, cv2.IMREAD_GRAYSCALE); a = 255 - sig
 ys, xs = np.where(a > 40); a = a[ys.min():ys.max()+1, xs.min():xs.max()+1]
 for out, (src, color) in PICKS.items():
