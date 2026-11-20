@@ -50,3 +50,10 @@ On the take you like, choose **Extend**, set "extend from" to the end of [Verse 
 | 7:30 | end | |
 
 If the song drifts against the video, line up the start of each [section] with the matching video time in your editor; each book changes on a bar line.
+
+## Ending song (separate generation, 25 s, video 7:05-7:30)
+Lyrics: `ending.txt` (10 lines = 10 bars at 96 BPM = 25 s).
+- Line 1-2 sit on the outro card (7:05), lines 3-7 on the closing film (7:10), lines 8-10 on the signature (7:22.5).
+- Style: the main Style plus "short 25-second outro song, starts on the first beat with no intro, ends on a hard stop".
+- Exclude: the main Exclude plus "intro, long instrumental".
+- In the edit: cut the long song at 7:05 and drop this in from 7:05 to 7:30. Trim any tail past 25 s.
