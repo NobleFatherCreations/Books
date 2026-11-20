@@ -44,5 +44,17 @@
 (function () {   // the margin shape appears once the title plate (which shows the same shape) has scrolled away
   var m = document.querySelector('.margin'), h = document.querySelector('.ch-head');
   if (!m || !h || !('IntersectionObserver' in window)) return;
-  new IntersectionObserver(function (es) { m.classList.toggle('away', es[0].isIntersecting); }, { threshold: 0.15 }).observe(h);
+  var big = document.querySelector('.sigfig'), vis = new Map();
+  var io = new IntersectionObserver(function (es) { es.forEach(function (en) { vis.set(en.target, en.isIntersecting); });
+    var away = false; vis.forEach(function (v) { if (v) away = true; }); m.classList.toggle('away', away); }, { threshold: 0.15 });
+  io.observe(h); if (big) io.observe(big);
+  // while reading the chain step by step, its step lights up in the margin shape
+  var dots = m.querySelectorAll('.dot'), lab = m.querySelector('.margin-step');
+  var steps = [].slice.call(document.querySelectorAll('.chain .link, .tl .tl-row'));
+  if (!dots.length || !steps.length) return;
+  var so = new IntersectionObserver(function (es) { es.forEach(function (en) { if (!en.isIntersecting) return;
+      var el = en.target, list = el.parentNode.children, i = [].indexOf.call(list, el);
+      dots.forEach(function (d, k) { d.classList.toggle('cur', k === i); });
+      if (lab) { var nm = el.querySelector('.link-name, .tl-tac'); lab.textContent = (i + 1) + ' · ' + (nm ? nm.textContent : ''); } }); }, { rootMargin: '-35% 0px -55% 0px' });
+  steps.forEach(function (s) { so.observe(s); });
 })();

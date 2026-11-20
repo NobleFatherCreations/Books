@@ -124,6 +124,11 @@ def inline(s):
     s = re.sub(r'\[([XY])\]', r'<span class="blank" aria-label="blank \1">[\1]</span>', s)
     return s
 
+def nxt(lines, i, pat):
+    j = i
+    while j < len(lines) and not lines[j].strip(): j += 1
+    return j < len(lines) and re.match(pat, lines[j]) is not None
+
 def blocks(md):
     """paragraphs, ordered and unordered lists, blockquotes, tables, bold-only lines, ornaments"""
     out, lines, i = [], md.split('\n'), 0
@@ -131,19 +136,21 @@ def blocks(md):
         l = lines[i]
         if not l.strip():
             i += 1; continue
-        if re.match(r'^\d+\. ', l):
+        if re.match(r'^\d+\. ', l):   # a numbered list continues across blank lines while the next item follows
             items = []
-            while i < len(lines) and (re.match(r'^\d+\. ', lines[i]) or (lines[i].startswith('   ') and items)):
-                if re.match(r'^\d+\. ', lines[i]): items.append(re.sub(r'^\d+\. ', '', lines[i]))
-                else: items[-1] += ' ' + lines[i].strip()
-                i += 1
+            while i < len(lines):
+                if re.match(r'^\d+\. ', lines[i]): items.append(re.sub(r'^\d+\. ', '', lines[i])); i += 1
+                elif lines[i].startswith('   ') and items: items[-1] += ' ' + lines[i].strip(); i += 1
+                elif not lines[i].strip() and nxt(lines, i, r'^\d+\. '): i += 1
+                else: break
             out.append(('ol', items)); continue
         if l.startswith('- '):
             items = []
-            while i < len(lines) and (lines[i].startswith('- ') or (lines[i].startswith('  ') and items)):
-                if lines[i].startswith('- '): items.append(lines[i][2:])
-                else: items[-1] += ' ' + lines[i].strip()
-                i += 1
+            while i < len(lines):
+                if lines[i].startswith('- '): items.append(lines[i][2:]); i += 1
+                elif lines[i].startswith('  ') and items: items[-1] += ' ' + lines[i].strip(); i += 1
+                elif not lines[i].strip() and nxt(lines, i, r'^- '): i += 1
+                else: break
             out.append(('ul', items)); continue
         if l.startswith('>'):
             q = []
@@ -231,7 +238,7 @@ def signature(steps, size=240, labelled=False, uid='s', names=False):
             return True
         for k in range(8):
             word = STAGES[k].split(' ')[0].upper()
-            w, h = len(word) * 2.05 + 1.0, 3.2
+            w, h = len(word) * 2.3 + 1.0, 3.6
             best = None
             for strict, off in [(True, o) for o in (0, 1.4, -1.4, 2.1, -2.1)] + [(False, o) for o in (0, 1.4, -1.4)]:   # on the ring line first, then within its band; last resort may cross a path line, never a dot
                 for j in range(0, 72):
@@ -243,19 +250,24 @@ def signature(steps, size=240, labelled=False, uid='s', names=False):
                             best = (cx, cy); break
                     if best: break
                 if best: break
-            if best and not strict_found(best, w, h, clear):   # last resort: of every spot clear of dots and labels, take the one the path crosses least
+            scale = 1.0
+            if best and not strict_found(best, w, h, clear):   # no clear spot at full size: try a slightly smaller name, then the spot the path crosses least
                 cands = []
-                for off in (0, 1.4, -1.4, 2.1, -2.1):
-                    for j in range(72):
-                        a = 2 * math.pi * j / 72; rr = rad(k) + off
-                        cx, cy = 50 + rr * math.cos(a), 50 + rr * math.sin(a)
-                        if 2 < cx - w / 2 and cx + w / 2 < 98 and 2 < cy - h / 2 and cy + h / 2 < 98 and clear(cx, cy, w, h, False):
-                            hits = sum(1 for (ax, ay), (bx2, by2) in segs for t in range(41) if abs(ax + (bx2 - ax) * t / 40 - cx) < w / 2 and abs(ay + (by2 - ay) * t / 40 - cy) < h / 2)
-                            cands.append((hits, abs(a - pref), cx, cy))
-                if cands: best = min(cands)[2:]
+                for sc in (1.0, .88, .78):
+                    ww, hh = w * sc, h * sc
+                    for off in (0, 1.4, -1.4, 2.1, -2.1):
+                        for j in range(72):
+                            a = 2 * math.pi * j / 72; rr = rad(k) + off
+                            cx, cy = 50 + rr * math.cos(a), 50 + rr * math.sin(a)
+                            if 2 < cx - ww / 2 and cx + ww / 2 < 98 and 2 < cy - hh / 2 and cy + hh / 2 < 98 and clear(cx, cy, ww, hh, False):
+                                hits = sum(1 for (ax, ay), (bx2, by2) in segs for t in range(41) if abs(ax + (bx2 - ax) * t / 40 - cx) < ww / 2 + .5 and abs(ay + (by2 - ay) * t / 40 - cy) < hh / 2 + .5)
+                                cands.append((hits, 1 - sc, abs(a - pref), cx, cy, sc))
+                    if any(c[0] == 0 for c in cands): break
+                if cands:
+                    c0 = min(cands); best, scale = (c0[3], c0[4]), c0[5]; w, h = w * scale, h * scale
             if best:
                 placed.append((best[0], best[1], w, h))
-                g.append('<text x="%.2f" y="%.2f" class="sig-st">%s</text>' % (best[0], best[1] + 1.0, e(word)))
+                g.append('<text x="%.2f" y="%.2f" class="sig-st"%s>%s</text>' % (best[0], best[1] + 1.0 * scale, '' if scale == 1 else ' style="font-size:%.2fpx"' % (3.3 * scale), e(word)))
     d = 'M' + ' L'.join('%.2f %.2f' % (x, y) for x, y, _, _ in pts)
     g.append('<path d="%s" class="path"/>' % d)
     for i, (x, y, st, a) in enumerate(pts):
@@ -347,7 +359,7 @@ def sec_name(md):
     m = re.search(r'\*\*(.+?)\*\*', md)
     pre = md[:m.start()] if m else ''
     post = md[m.end():] if m else ''
-    return '<p class="reveal"><span class="reveal-pre">%s</span><span class="reveal-name">%s</span><span class="reveal-post">%s</span></p>' % (
+    return '<p class="reveal">%s <span class="reveal-name">%s</span>%s</p>' % (
         inline(pre.strip()), e(m.group(1)) if m else inline(md), inline(post.strip()))
 
 def sec_breakdown(md, c):
@@ -564,7 +576,7 @@ def chain_page(c, i, order, cats, standards):
         url(prev), ICON['left'], e(STRINGS['prev']), e(prev['title']), url(nxt), e(STRINGS['next']), ICON['right'], e(nxt['title']))
     endnav = endnav.replace('<span class="en-t">%s</span></a>' % e(prev['title']), '<span class="en-t">%s</span><span class="en-sig">%s</span></a>' % (e(prev['title']), signature(prev['steps'], 56)), 1)
     endnav = endnav.replace('<span class="en-t">%s</span></a></nav>' % e(nxt['title']), '<span class="en-t">%s</span><span class="en-sig">%s</span></a></nav>' % (e(nxt['title']), signature(nxt['steps'], 56)), 1)
-    margin = '<aside class="margin" aria-hidden="true"><div class="margin-in">%s<p class="margin-t">%s</p><p class="margin-m">%d tactics</p></div></aside>' % (signature(c['steps'], 200), e(c['title']), len(c['tactics']))
+    margin = '<aside class="margin" aria-hidden="true"><div class="margin-in">%s<p class="margin-t">%s</p><p class="margin-m">%d tactics</p><p class="margin-step"></p></div></aside>' % (signature(c['steps'], 200), e(c['title']), len(c['tactics']))
     main = ('%s<main id="main" class="chain-page"><article class="ch">%s<div class="ch-grid"><aside class="rail" aria-label="Sections"><p class="rail-h">%s</p><ol>%s</ol></aside>'
             '<div class="ch-body">%s</div>%s</div></article>%s</main>%s%s') % (
         topbar(c, prev, nxt), head, e(STRINGS['in_chain']), rail, body_secs, margin, endnav, footer(standards), sheet(cats, c))

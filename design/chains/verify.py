@@ -84,6 +84,16 @@ for f in sorted(glob.glob(os.path.join(PKG, SEC[0] + '_C[0-9]*.md'))):
         missing = a - b; extra = b - a
         if missing: fails.append('%s / %s: missing words %s' % (slug, head, dict(list(missing.items())[:6])))
         if extra: fails.append('%s / %s: added words %s' % (slug, head, dict(list(extra.items())[:6])))
+    # lists keep their length: the chain's steps, numbered 1..n with the right stage, and the indicators
+    vb = re.search(r'<section class="sec sec-verbal-breakdown".*?</section>', h, re.S)
+    if vb:
+        nums = [int(x) for x in re.findall(r'<span class="link-n">(\d+)</span>', vb.group(0))]
+        n_t = len(re.findall(r'^\s+- ', open(f).read().split('---')[1], re.M))
+        if nums != list(range(1, len(nums) + 1)) or len(nums) != n_t:
+            fails.append('%s: chain steps numbered %s for %d tactics' % (slug, nums, n_t))
+    for blk, cls in (('observable-indicators', 'ind'),):
+        m2 = re.search(r'<section class="sec sec-%s".*?</section>' % blk, h, re.S)
+        if m2 and m2.group(0).count('<ol class="%s">' % cls) != 1: fails.append('%s: %s split into %d lists' % (slug, blk, m2.group(0).count('<ol class="%s">' % cls)))
     if src and src[0][0].startswith('Safety Note'):
         m = h.find('class="ch-title"'); s = h.find('class="safety sec'); j = h.find('class="meta"')
         if not (m < s < j): fails.append('%s: safety note not directly under the title' % slug)
