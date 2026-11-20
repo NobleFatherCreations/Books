@@ -47,3 +47,16 @@ Each sector its own site; build Corporate; call combos "manipulation chains"; ea
 2. Do the left and right arrows and the Menu work with one thumb, and does Leave work at once?
 3. With Reduce Motion on, does anything move that should not?
 4. Is the body text comfortable to read for a full chain (about 20 minutes)?
+
+## Round 5 (2026-11-20): every design skill, impeccable critique
+Skills run: design-director, impeccable (critique with two isolated assessments: A design review, B detector + browser overlay; craft-floor, typeset, animate playbooks), frontend-design, emil-design-eng, apple-design, find-animation-opportunities and review-animations standards, better-accessibility (motion and zoom). Servers: playwright (all screenshots and checks), sequential reasoning inline. The Figma, Canva and Adobe connectors were not used: the site must be self-contained and every visual is drawn in code from the data, so an exported design asset would have broken the no-outside-request rule or duplicated the figures.
+- Motion thesis: "the chain forms as you read". The Verbal Breakdown figure stays in view while its steps scroll past; its path draws to the step being read, the steps behind light up, a gold thread runs down the step list, the desktop margin names the step. Scroll-driven only, so Reduce Motion keeps it (instant); nothing plays on its own. Supporting motion: press feedback (scale .97), the menu sheet slides in (320 ms, ease-out) and out faster (200 ms), view transitions carry the title and shape from chain to chain (off under Reduce Motion), the reveal's gold underline follows the scroll.
+- Craft floor applied: eyebrow labels removed everywhere; sentence-case labels; no middle-dot meta strings; display capped at 6rem; Unicode icon stand-ins replaced with drawn SVG; the landing's card grids replaced by composed lists; category grid replaced by editorial rows.
+- Typography: curly quotes and apostrophes (glyphs only, verified word for word), old-style numerals in prose and tabular lining numerals in figures, hanging punctuation.
+- One accent: the stage rainbow on step circles removed (stages named in words; gold marks the current step); warm peach stays semantic (safety, Leave, escalation).
+- Rhythm: the practical sections (Observable Indicators to Safer Response Language) share a full-width tonal band; rail and menu space the story, the analysis and the practical part apart, with no invented labels.
+- Safety note: first sentence set large, the Leave line directly under it.
+- Landing hero: all 138 chain paths drawn over the eight rings, one traced in gold.
+- Phone: the bar wraps instead of overflowing; below 360 px the arrows move into the menu's previous/next cards. 320 px reflow and 200% text: no overflow.
+- Checks: verify PASS (every author word), gates 0 failures on chain (short, long, dense, safety) and landing and category pages, axe 0 violations, in-figure label test 0 crossings on all 276 figures with the path fully drawn (stricter than the gate), every figure carries all eight stage names.
+- Owner decisions still open: the chain's name in the title versus the story's promise to withhold it (author's own file puts the name first; kept); neutral tab titles for watched phones (kept normal for search).

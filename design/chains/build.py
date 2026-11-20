@@ -248,7 +248,7 @@ def signature(steps, size=240, labelled=False, uid='s', names=False):
             for (ax, ay), (bx2, by2) in (segs if strict else []):   # keep clear of the chain's own path
                 for t in range(0, 41):
                     px, py = ax + (bx2 - ax) * t / 40, ay + (by2 - ay) * t / 40
-                    if abs(px - cx) < w / 2 + .9 and abs(py - cy) < h / 2 + .9: return False
+                    if abs(px - cx) < w / 2 + 1.2 and abs(py - cy) < h / 2 + 1.1: return False
             for (bx, by, bw, bh) in placed:
                 if abs(bx - cx) < (bw + w) / 2 + .8 and abs(by - cy) < (bh + h) / 2 + .4: return False
             for nx_, ny_ in nums:   # never on a step number
@@ -256,9 +256,10 @@ def signature(steps, size=240, labelled=False, uid='s', names=False):
             return True
         for k in range(8):
             word = STAGES[k].split(' ')[0].upper()
-            w, h = len(word) * 2.3 + 1.0, 3.6
+            w, h = len(word) * 2.5 + 1.2, 3.8   # measured: Bricolage caps at 3.3px with tracking
             best = None
-            for strict, off in [(True, o) for o in (0, 1.4, -1.4, 2.1, -2.1)] + [(False, o) for o in (0, 1.4, -1.4)]:   # on the ring line first, then within its band; last resort may cross a path line, never a dot
+            inner = (-5, -8, -11, -14) if k == 0 else ()   # the innermost ring may place its name in the empty core
+            for strict, off in [(True, o) for o in (0, 1.4, -1.4, 2.1, -2.1) + inner] + [(False, o) for o in (0, 1.4, -1.4)]:   # on the ring line first, then within its band; last resort may cross a path line, never a dot
                 for j in range(0, 72):
                     for sgn in ((1, -1) if j else (1,)):
                         a = pref + sgn * j * math.pi / 36
@@ -271,14 +272,14 @@ def signature(steps, size=240, labelled=False, uid='s', names=False):
             scale = 1.0
             if best and not strict_found(best, w, h, clear):   # no clear spot at full size: try a slightly smaller name, then the spot the path crosses least
                 cands = []
-                for sc in (1.0, .88, .78):
+                for sc in (1.0, .88, .78, .68):
                     ww, hh = w * sc, h * sc
-                    for off in (0, 1.4, -1.4, 2.1, -2.1):
+                    for off in (0, 1.4, -1.4, 2.1, -2.1, 2.6, -2.6) + ((-5, -8, -11, -14) if k == 0 else ()):
                         for j in range(72):
                             a = 2 * math.pi * j / 72; rr = rad(k) + off
                             cx, cy = 50 + rr * math.cos(a), 50 + rr * math.sin(a)
                             if 2 < cx - ww / 2 and cx + ww / 2 < 98 and 2 < cy - hh / 2 and cy + hh / 2 < 98 and clear(cx, cy, ww, hh, False):
-                                hits = sum(1 for (ax, ay), (bx2, by2) in segs for t in range(41) if abs(ax + (bx2 - ax) * t / 40 - cx) < ww / 2 + .5 and abs(ay + (by2 - ay) * t / 40 - cy) < hh / 2 + .5)
+                                hits = sum(1 for (ax, ay), (bx2, by2) in segs for t in range(41) if abs(ax + (bx2 - ax) * t / 40 - cx) < ww * .58 + 1.2 and abs(ay + (by2 - ay) * t / 40 - cy) < hh * .58 + 1.0)
                                 cands.append((hits, 1 - sc, abs(a - pref), cx, cy, sc))
                     if any(c[0] == 0 for c in cands): break
                 if cands:
@@ -552,8 +553,10 @@ def url(c):
 def caturl(cat):
     return '%s/%s/categories/%s' % (BASE, SEC['slug'], slugify(short_cat(cat['name'])))
 
-def sheet(cats, c=None):
+def sheet(cats, c=None, nav=None):
     inner = ''
+    if c and nav:
+        inner += '<nav class="sh-pn" aria-label="Previous and next chain">%s</nav>' % nav
     if c:
         inner += '<section class="sh-sec"><h2 class="sh-h">%s</h2><ol class="sh-toc">%s</ol></section>' % (
             e(STRINGS['in_chain']), ''.join('<li%s><a href="#%s">%s</a></li>' % (' class="gs"' if h in GROUP_START else '', slugify(h), e(h)) for h, _ in c['secs']))
@@ -601,8 +604,8 @@ def chain_page(c, i, order, cats, standards):
             '<div class="ch-sig">%s</div></div>') % (
         e(c['title']), safety, caturl(cat), e(short_cat(cat['name'])),
         len(c['tactics']), read_min(c['words']), e(STRINGS['orient']), BASE, SEC['slug'], e(STRINGS['orient_link']), jump, signature(c['steps'], 340, True, names=True))
-    body_secs = ''.join(render_section(h, b, c, standards) for h, b in rest)
-    endnav = ('<p class="end-leave">' + e(STRINGS['leave_end']) + '</p><nav class="endnav" aria-label="More chains"><a class="en prev" href="%s" rel="prev"><span class="en-k">%s %s</span><span class="en-t">%s</span></a>'
+    body_secs = ''.join(render_section(h, b, c, standards) for h, b in rest) + '<p class="end-leave">' + e(STRINGS['leave_end']) + '</p>'
+    endnav = ('<nav class="endnav" aria-label="More chains"><a class="en prev" href="%s" rel="prev"><span class="en-k">%s %s</span><span class="en-t">%s</span></a>'
               '<a class="en next" href="%s" rel="next"><span class="en-k">%s %s</span><span class="en-t">%s</span></a></nav>') % (
         url(prev), ICON['left'], e(STRINGS['prev']), e(prev['title']), url(nxt), e(STRINGS['next']), ICON['right'], e(nxt['title']))
     endnav = endnav.replace('<span class="en-t">%s</span></a>' % e(prev['title']), '<span class="en-t">%s</span><span class="en-sig">%s</span></a>' % (e(prev['title']), signature(prev['steps'], 56)), 1)
@@ -610,7 +613,8 @@ def chain_page(c, i, order, cats, standards):
     margin = '<aside class="margin" aria-hidden="true"><div class="margin-in">%s<p class="margin-t">%s</p><p class="margin-m">%d tactics</p><p class="margin-step"></p></div></aside>' % (signature(c['steps'], 200), e(c['title']), len(c['tactics']))
     main = ('%s<main id="main" class="chain-page"><article class="ch">%s<div class="ch-grid"><aside class="rail" aria-label="Sections"><p class="rail-h">%s</p><ol>%s</ol></aside>'
             '<div class="ch-body">%s</div>%s</div></article>%s</main>%s%s') % (
-        topbar(c, prev, nxt), head, e(STRINGS['in_chain']), rail, body_secs, margin, endnav, footer(standards), sheet(cats, c))
+        topbar(c, prev, nxt), head, e(STRINGS['in_chain']), rail, body_secs, margin, endnav, footer(standards),
+        sheet(cats, c, '<a href="%s" rel="prev"><span class="lbl">%s</span>%s</a><a href="%s" rel="next"><span class="lbl">%s</span>%s</a>' % (url(prev), e(STRINGS['prev']), e(prev['title']), url(nxt), e(STRINGS['next']), e(nxt['title']))))
     title = '%s · %s · Fractal²' % (c['title'], SEC['title'])
     desc = 'A %s in %s: %d tactics in order, told as a story, with what to notice and what to do.' % (STRINGS['term'], SEC['title'].lower(), len(c['tactics']))
     return page(title, desc, main, url(c), 'is-chain')

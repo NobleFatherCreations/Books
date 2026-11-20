@@ -500,6 +500,15 @@ body{font-variant-numeric:oldstyle-nums proportional-nums;hanging-punctuation:fi
  .sh-panel{opacity:0;transition:opacity .15s linear}
  .sheet.open .sh-panel{opacity:1}
 }
+
+/* the bar wraps rather than overflowing (narrow screens, large text); arrows leave the bar below 360px */
+.bar-in{flex-wrap:wrap;height:auto;min-height:56px;row-gap:0}
+.bar-r{flex-wrap:wrap;justify-content:flex-end}
+@media (max-width:360px){.bar .bar-r>a[rel]{display:none}}
+.sh-pn{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin:8px 0 8px}
+.sh-pn a{display:flex;flex-direction:column;gap:2px;padding:12px;border:1px solid var(--line);border-radius:12px;text-decoration:none;font-family:var(--display);font-weight:700;font-stretch:92%;font-size:1rem;line-height:1.15;min-height:44px}
+.sh-pn a .lbl{font-family:var(--sans);font-weight:600;font-size:13px;color:var(--mut);margin:0}
+.end-leave{padding:48px 0 0;margin:0}
 @font-face{font-family:"BG";src:url(/fractal2/_a/f/chains-bricolage.woff2) format("woff2");font-weight:500 700;font-stretch:84% 100%;font-display:swap}@font-face{font-family:"SS";src:url(/fractal2/_a/f/chains-sourceserif.woff2) format("woff2");font-weight:400 700;font-display:swap}@font-face{font-family:"SS";src:url(/fractal2/_a/f/chains-sourceserif-italic.woff2) format("woff2");font-weight:400 600;font-style:italic;font-display:swap}
 :root{--bg:#0d0f14;--bg2:#13161e;--card:#161a24;--ink:#ebe6dc;--ink2:#cfc9bd;--mut:#a4a196;--line:#272c39;--line2:#353b4c;--accent:#e9c27a;--accent-ink:#1a1306;--accent-grad:#f3d59b;--glow-1:rgba(233,194,122,.25);--edge-hi:rgba(255,255,255,.06);
 --s1:#e7c77e;--s2:#e6a55a;--s3:#db7f4e;--s4:#d2615f;--s5:#bc6a8a;--s6:#96a6cf;--s7:#7c98da;--s8:#a6b9ee;--warm:#eba57f;--warm-bg:rgba(235,165,127,.08);

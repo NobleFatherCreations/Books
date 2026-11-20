@@ -500,3 +500,12 @@ body{font-variant-numeric:oldstyle-nums proportional-nums;hanging-punctuation:fi
  .sh-panel{opacity:0;transition:opacity .15s linear}
  .sheet.open .sh-panel{opacity:1}
 }
+
+/* the bar wraps rather than overflowing (narrow screens, large text); arrows leave the bar below 360px */
+.bar-in{flex-wrap:wrap;height:auto;min-height:56px;row-gap:0}
+.bar-r{flex-wrap:wrap;justify-content:flex-end}
+@media (max-width:360px){.bar .bar-r>a[rel]{display:none}}
+.sh-pn{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin:8px 0 8px}
+.sh-pn a{display:flex;flex-direction:column;gap:2px;padding:12px;border:1px solid var(--line);border-radius:12px;text-decoration:none;font-family:var(--display);font-weight:700;font-stretch:92%;font-size:1rem;line-height:1.15;min-height:44px}
+.sh-pn a .lbl{font-family:var(--sans);font-weight:600;font-size:13px;color:var(--mut);margin:0}
+.end-leave{padding:48px 0 0;margin:0}
