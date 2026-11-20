@@ -20,3 +20,19 @@ available automatically in any future session, no install step.
 coreyhaines31/marketingskills @96798cf (MIT, licence in `seo-audit/LICENSE-marketingskills`). Inspected first:
 plain markdown + reference docs + one CSV template; no hooks, scripts, daemons or telemetry. Same source as
 `site-architecture`. Used by `docs/SEO-AEO-PLAN.md`.
+
+## Added 2026-11-20 (homepage redo prep)
+
+Copied as skill folders only. No hooks, plugins or daemons were installed. Each was inspected first: no curl-to-shell, no telemetry, no network calls.
+ui-ux-pro-max's `preview.py` writes Google Fonts links into its preview HTML, so never ship that output; the inline-fonts rule wins.
+
+| Skill | Source (commit) |
+|---|---|
+| taste-skill (`design-taste-frontend`) | Leonxlnx/taste-skill @ f6b7657 |
+| ui-ux-pro-max | nextlevelbuilder/ui-ux-pro-max-skill @ 2de1134 (local python search over CSV) |
+| gsap-core / -scrolltrigger / -timeline / -performance / -plugins / -utils / -react / -frameworks | greensock/gsap-skills @ aed9cfd |
+| webapp-testing | anthropics/skills @ e4bb5d9 |
+| information-architecture | rampstackco/claude-skills @ 9d281db |
+| cognitive-design | lyndonkl/claude @ 4acc337 (the repo's plugin `hooks/` NOT copied) |
+
+GSAP caveat: our pages are no-CDN and self-contained. Using GSAP means inlining the library into the page, which needs the author's explicit yes. Otherwise use native IntersectionObserver plus CSS scroll-driven animation.
