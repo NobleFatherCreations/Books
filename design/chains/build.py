@@ -255,8 +255,8 @@ def signature(steps, size=240, labelled=False, uid='s', names=False):
                 if abs(nx_ - cx) < w / 2 + 2.4 and abs(ny_ - cy) < h / 2 + 2.4: return False
             return True
         for k in range(8):
-            word = STAGES[k].split(' ')[0].upper()
-            w, h = len(word) * 2.5 + 1.2, 3.8   # measured: Bricolage caps at 3.3px with tracking
+            word = STAGES[k].split(' ')[0]
+            w, h = len(word) * 2.1 + 1.4, 3.9   # measured: Bricolage sentence case at 3.6px
             best = None
             inner = (-5, -8, -11, -14) if k == 0 else ()   # the innermost ring may place its name in the empty core
             for strict, off in [(True, o) for o in (0, 1.4, -1.4, 2.1, -2.1) + inner] + [(False, o) for o in (0, 1.4, -1.4)]:   # on the ring line first, then within its band; last resort may cross a path line, never a dot
@@ -396,7 +396,7 @@ def sec_breakdown(md, c):
             h.append('</ol>')
         else:
             h.append(generic_block(k, v))
-    sig = '<figure class="sigfig" data-form>%s<figcaption class="sigcap">Each ring is a stage, from Idealize at the centre to Replace on the outside. The numbers follow the chain in order.</figcaption></figure>' % signature(c['steps'], 320, True, names=True)
+    sig = '<figure class="sigfig" data-form>%s<figcaption class="sigcap"><span class="sigcap-step" aria-hidden="true"></span><span class="sigcap-txt">Each ring is a stage, from Idealize at the centre to Replace on the outside. The numbers follow the chain in order.</span></figcaption></figure>' % signature(c['steps'], 320, True, names=True)
     return sig + ''.join(h)
 
 def legend():
@@ -569,7 +569,7 @@ def sheet(cats, c=None, nav=None):
             caturl(cat))
     inner += '</section><p class="sh-home"><a href="%s/%s">%s home</a> · <a href="%s/%s#all">%s</a></p>' % (BASE, SEC['slug'], e(SEC['title']), BASE, SEC['slug'], e(STRINGS['all']))
     return ('<div class="sheet" id="sheet" hidden><div class="sh-scrim" data-close></div><nav class="sh-panel" aria-label="%s"><div class="sh-top"><p class="sh-title">%s</p>'
-            '<button class="ib" type="button" data-close aria-label="Close menu">%s</button></div>%s</nav></div>') % (e(STRINGS['menu']), e(SEC['title']), ICON['x'], inner)
+            '<span class="sh-actions"><a class="leave" href="https://www.google.com/search?q=weather" data-leave>%s</a><button class="ib" type="button" data-close aria-label="Close menu">%s</button></span></div>%s</nav></div>') % (e(STRINGS['menu']), e(SEC['title']), e(STRINGS['leave']), ICON['x'], inner)
 
 def footer(standards):
     disc = dict(standards).get('Sector Disclaimer', '')
@@ -689,8 +689,9 @@ def category_page(cat, k, cats, standards):
     prv, nx = cats[keys[k - 1]], cats[keys[(k + 1) % len(keys)]]
     bl = [b for b in cat['intro'].split('\n\n') if b.strip()]
     first, rest = bl[0] if bl else '', '\n\n'.join(bl[1:])
-    body = ('<main id="main" class="cat-page"><header class="cat-head"><h1 class="cat-title">%s</h1><p class="meta cat-meta"><a href="%s/%s#categories">%s</a><span>%d chains</span></p>'
-            '<div class="cat-intro">%s<details class="more"><summary>%s</summary>%s</details></div></header>'
+    catfig = '<figure class="cat-fig">%s</figure>' % field(cat['chains'], cat['chains'][0])
+    body = ('<main id="main" class="cat-page"><div class="cat-top"><header class="cat-head"><h1 class="cat-title">%s</h1><p class="meta cat-meta"><a href="%s/%s#categories">%s</a><span>%d chains</span></p>'
+            '<div class="cat-intro">%s<details class="more"><summary>%s</summary>%s</details></div></header>' + catfig + '</div>'
             '<ol class="cgrid">%s</ol><nav class="endnav" aria-label="More categories"><a class="en prev" href="%s"><span class="en-k">%s Previous category</span><span class="en-t">%s</span></a>'
             '<a class="en next" href="%s"><span class="en-k">Next category %s</span><span class="en-t">%s</span></a></nav></main>') % (
         e(cat['name']), BASE, SEC['slug'], e(SEC['title']), len(cat['chains']), generic(first), e(STRINGS['read_intro']), generic(rest), ''.join(card(c) for c in cat['chains']),

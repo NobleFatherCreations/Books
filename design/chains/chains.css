@@ -509,3 +509,55 @@ body{font-variant-numeric:oldstyle-nums proportional-nums;hanging-punctuation:fi
 .sh-pn a{display:flex;flex-direction:column;gap:2px;padding:12px;border:1px solid var(--line);border-radius:12px;text-decoration:none;font-family:var(--display);font-weight:700;font-stretch:92%;font-size:1rem;line-height:1.15;min-height:44px}
 .sh-pn a .lbl{font-family:var(--sans);font-weight:600;font-size:13px;color:var(--mut);margin:0}
 .end-leave{padding:48px 0 0;margin:0}
+
+/* ================= final critic round ================= */
+/* Leave stays reachable while the menu is open */
+.sh-actions{display:flex;align-items:center;gap:8px}
+.sh-actions .leave{margin:0}
+/* the chain figure typeset like the prose: names in sentence case, larger */
+.sig-st{font-size:3.6px;letter-spacing:.01em;text-transform:none;font-weight:600}
+.st,.flip strong{text-transform:none;letter-spacing:0}
+.st{font-size:14px}
+.flip strong{font-size:14px}
+.sec-the-name .sec-h{font-size:14px;color:var(--ink2);font-weight:600}
+/* phone: a smaller pinned figure, no ring names, the step being read named in its caption; a wider reading measure */
+@media (max-width:1359px){
+ .sigfig .sig{width:min(52vw,200px)}
+ .sigfig .sig-st{display:none}
+ .sigfig .sigcap-txt{display:none}
+ .sigfig .sigcap-step{display:block;font-family:var(--display);font-weight:700;font-stretch:92%;font-size:15px;color:var(--accent);min-height:1.3em}
+}
+@media (min-width:1360px){.sigcap-step{display:none}}
+.link{grid-template-columns:36px minmax(0,1fr);gap:12px}
+.link-n{width:36px;height:36px;font-size:15px}
+.link::before{left:17px;top:36px}
+.link-name{margin-top:4px}
+/* display letter-spacing eased at large sizes */
+.ch-title,.cat-title{letter-spacing:-.012em}
+.hero-t{letter-spacing:-.01em}
+.reveal{letter-spacing:-.015em}
+/* safety: the first sentence a full step up */
+.safety-lead{font-size:1.36em;line-height:1.32}
+/* cue cards: no stub */
+.card::before{display:none}
+/* the author's numbered indicators shown as 1. 2. 3. */
+.ind li::before{content:counter(i) "."}
+/* landing lists: icon and label sit on the first line of the text */
+.safe-list>div{align-items:start}
+.safe-list dt{align-items:flex-start;padding-top:2px}
+/* phone hero: a quieter tangle */
+@media (max-width:700px){.field .all path{stroke-opacity:.06}}
+/* the practical band, a firmer step */
+.sec.act{--band:color-mix(in srgb,var(--bg2) 88%,var(--bg))}
+/* category hero: that category's chains overlaid beside the introduction */
+.cat-top{display:grid;grid-template-columns:minmax(0,1fr);gap:32px;align-items:center}
+@media (min-width:1000px){.cat-top{grid-template-columns:minmax(0,1.2fr) minmax(0,.8fr);gap:64px}}
+.cat-fig{margin:0;display:flex;justify-content:center}
+.cat-fig .field{width:min(80vw,400px)}
+@media (max-width:999px){.cat-fig{display:none}}
+/* text scrolling under the pinned figure fades out instead of being cut mid-line */
+@media (max-width:1359px){
+ .sigfig{box-shadow:none}
+ .sigfig::after{content:"";position:absolute;left:0;right:0;top:100%;height:32px;background:linear-gradient(var(--bg),transparent);pointer-events:none}
+}
+@media print{.sigfig::after{display:none}}

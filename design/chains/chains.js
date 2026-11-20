@@ -65,6 +65,8 @@
       f.dots.forEach(function (dt, i) { dt.classList.toggle('on', i <= kk || done); dt.classList.toggle('cur', i === cur); });
       f.nums.forEach(function (nm, i) { nm.classList.toggle('on', i <= kk || done); });
     });
+    var capStep = d.querySelector('.sigcap-step');
+    if (capStep) { var ci = (!done && k >= 0) ? k : -1, cel = ci < 0 ? null : links[ci]; var cn = cel && cel.querySelector('.link-name'); capStep.textContent = cn ? (ci + 1) + ' · ' + cn.textContent : (done ? '' : (links[0].querySelector('.link-name') ? '1 · ' + links[0].querySelector('.link-name').textContent : '')); }
     if (marginLab) {
       var idx = (!done && k >= 0) ? k : row, el = idx < 0 ? null : ((!done && k >= 0) ? links[idx] : rows[idx]);
       var nm = el && el.querySelector('.link-name, .tl-tac'); marginLab.textContent = nm ? (idx + 1) + ' · ' + nm.textContent : '';
