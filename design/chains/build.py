@@ -219,26 +219,43 @@ def signature(steps, size=240, labelled=False, uid='s', names=False):
         dots = [(x, y) for x, y, _, _ in pts]
         segs = list(zip(dots, dots[1:]))
         pref = -math.pi / 2 - math.pi / n
-        def clear(cx, cy, w, h):
+        def clear(cx, cy, w, h, strict=True):
             for x, y in dots:
-                if abs(x - cx) < w / 2 + 3.4 and abs(y - cy) < h / 2 + 3.4: return False
+                if abs(x - cx) < w / 2 + 4.2 and abs(y - cy) < h / 2 + 4.2: return False
+            for (ax, ay), (bx2, by2) in (segs if strict else []):   # keep clear of the chain's own path
+                for t in range(0, 41):
+                    px, py = ax + (bx2 - ax) * t / 40, ay + (by2 - ay) * t / 40
+                    if abs(px - cx) < w / 2 + .9 and abs(py - cy) < h / 2 + .9: return False
             for (bx, by, bw, bh) in placed:
                 if abs(bx - cx) < (bw + w) / 2 + .8 and abs(by - cy) < (bh + h) / 2 + .4: return False
             return True
         for k in range(8):
             word = STAGES[k].split(' ')[0].upper()
-            w, h = len(word) * 1.62 + .6, 2.6
+            w, h = len(word) * 2.05 + 1.0, 3.2
             best = None
-            for j in range(0, 72):
-                for sgn in ((1, -1) if j else (1,)):
-                    a = pref + sgn * j * math.pi / 36
-                    cx, cy = 50 + rad(k) * math.cos(a), 50 + rad(k) * math.sin(a)
-                    if 2 < cx - w / 2 and cx + w / 2 < 98 and clear(cx, cy, w, h):
-                        best = (cx, cy); break
+            for strict, off in [(True, o) for o in (0, 1.4, -1.4, 2.1, -2.1)] + [(False, o) for o in (0, 1.4, -1.4)]:   # on the ring line first, then within its band; last resort may cross a path line, never a dot
+                for j in range(0, 72):
+                    for sgn in ((1, -1) if j else (1,)):
+                        a = pref + sgn * j * math.pi / 36
+                        rr = rad(k) + off
+                        cx, cy = 50 + rr * math.cos(a), 50 + rr * math.sin(a)
+                        if 2 < cx - w / 2 and cx + w / 2 < 98 and 2 < cy - h / 2 and cy + h / 2 < 98 and clear(cx, cy, w, h, strict):
+                            best = (cx, cy); break
+                    if best: break
                 if best: break
+            if best and not strict_found(best, w, h, clear):   # last resort: of every spot clear of dots and labels, take the one the path crosses least
+                cands = []
+                for off in (0, 1.4, -1.4, 2.1, -2.1):
+                    for j in range(72):
+                        a = 2 * math.pi * j / 72; rr = rad(k) + off
+                        cx, cy = 50 + rr * math.cos(a), 50 + rr * math.sin(a)
+                        if 2 < cx - w / 2 and cx + w / 2 < 98 and 2 < cy - h / 2 and cy + h / 2 < 98 and clear(cx, cy, w, h, False):
+                            hits = sum(1 for (ax, ay), (bx2, by2) in segs for t in range(41) if abs(ax + (bx2 - ax) * t / 40 - cx) < w / 2 and abs(ay + (by2 - ay) * t / 40 - cy) < h / 2)
+                            cands.append((hits, abs(a - pref), cx, cy))
+                if cands: best = min(cands)[2:]
             if best:
                 placed.append((best[0], best[1], w, h))
-                g.append('<text x="%.2f" y="%.2f" class="sig-st">%s</text>' % (best[0], best[1] + .82, e(word)))
+                g.append('<text x="%.2f" y="%.2f" class="sig-st">%s</text>' % (best[0], best[1] + 1.0, e(word)))
     d = 'M' + ' L'.join('%.2f %.2f' % (x, y) for x, y, _, _ in pts)
     g.append('<path d="%s" class="path"/>' % d)
     for i, (x, y, st, a) in enumerate(pts):
@@ -250,6 +267,9 @@ def signature(steps, size=240, labelled=False, uid='s', names=False):
             g.append('<text x="%.2f" y="%.2f" class="sig-n">%d</text>' % (tx, ty + 1.3, i + 1))
     g.append('</svg>')
     return ''.join(g)
+
+def strict_found(pt, w, h, clear):
+    return clear(pt[0], pt[1], w, h, True)
 
 def scale_icon(k):
     c = ''.join('<circle cx="12" cy="12" r="%d" class="%s"/>' % (r, 'on' if j <= k else '') for j, r in enumerate((3.5, 7, 10.5)))
@@ -528,25 +548,26 @@ def chain_page(c, i, order, cats, standards):
     cat = cats[c['cat']]
     pos = cat['chains'].index(c) + 1
     secs = c['secs']
-    safety = ''.join(render_section(h, b, c, standards).replace('class="sec ', 'class="safety sec ', 1).replace('</section>', '<p class="safety-leave">%s</p></section>' % e(STRINGS['leave_line'])) for h, b in secs if h.startswith('Safety Note'))
+    safety = ''.join(render_section(h, b, c, standards).replace('class="sec ', 'class="safety sec ', 1).replace('<span>Safety Note', '<span class="safe-ic" aria-hidden="true"></span><span>Safety Note', 1).replace('</section>', '<p class="safety-leave">%s</p></section>' % e(STRINGS['leave_line'])) for h, b in secs if h.startswith('Safety Note'))
     rest = [(h, b) for h, b in secs if not h.startswith('Safety Note')]
     jump = ''.join('<a href="#%s">%s</a>' % (slugify(h), e(h)) for h in JUMP if any(x == h for x, _ in rest))
     rail = ''.join('<li><a href="#%s">%s</a></li>' % (slugify(h), e(h)) for h, _ in rest)
-    head = ('<div class="ch-head"><div class="ch-txt"><p class="kicker"><a href="%s">%s</a><span class="dotsep">·</span>%d of %d</p>'
+    head = ('<div class="ch-head"><div class="ch-txt"><p class="kicker"><a href="%s">%s</a></p>'
             '<h1 class="ch-title">%s</h1>%s<p class="meta">%d tactics · %d-minute read</p>'
             '<nav class="jump" aria-label="Jump to"><span class="jump-l">Jump to</span>%s</nav></div>'
             '<div class="ch-sig">%s</div></div>') % (
-        caturl(cat), e(short_cat(cat['name'])), pos, len(cat['chains']), e(c['title']), safety,
-        len(c['tactics']), read_min(c['words']), jump, signature(c['steps'], 340, False, names=True))
+        caturl(cat), e(short_cat(cat['name'])), e(c['title']), safety,
+        len(c['tactics']), read_min(c['words']), jump, signature(c['steps'], 340, True, names=True))
     body_secs = ''.join(render_section(h, b, c, standards) for h, b in rest)
     endnav = ('<nav class="endnav" aria-label="More chains"><a class="en prev" href="%s" rel="prev"><span class="en-k">%s %s</span><span class="en-t">%s</span></a>'
               '<a class="en next" href="%s" rel="next"><span class="en-k">%s %s</span><span class="en-t">%s</span></a></nav>') % (
         url(prev), ICON['left'], e(STRINGS['prev']), e(prev['title']), url(nxt), e(STRINGS['next']), ICON['right'], e(nxt['title']))
-    endnav = endnav.replace('<span class="en-t">%s</span></a>' % e(prev['title']), '<span class="en-t">%s</span><span class="en-sig">%s</span></a>' % (e(prev['title']), signature(prev['steps'], 40)), 1)
-    endnav = endnav.replace('<span class="en-t">%s</span></a></nav>' % e(nxt['title']), '<span class="en-t">%s</span><span class="en-sig">%s</span></a></nav>' % (e(nxt['title']), signature(nxt['steps'], 40)), 1)
+    endnav = endnav.replace('<span class="en-t">%s</span></a>' % e(prev['title']), '<span class="en-t">%s</span><span class="en-sig">%s</span></a>' % (e(prev['title']), signature(prev['steps'], 56)), 1)
+    endnav = endnav.replace('<span class="en-t">%s</span></a></nav>' % e(nxt['title']), '<span class="en-t">%s</span><span class="en-sig">%s</span></a></nav>' % (e(nxt['title']), signature(nxt['steps'], 56)), 1)
+    margin = '<aside class="margin" aria-hidden="true"><div class="margin-in">%s<p class="margin-t">%s</p><p class="margin-m">%d tactics</p></div></aside>' % (signature(c['steps'], 200), e(c['title']), len(c['tactics']))
     main = ('%s<main id="main" class="chain-page"><article class="ch">%s<div class="ch-grid"><aside class="rail" aria-label="Sections"><p class="rail-h">%s</p><ol>%s</ol></aside>'
-            '<div class="ch-body">%s</div></div></article>%s</main>%s%s') % (
-        topbar(c, prev, nxt), head, e(STRINGS['in_chain']), rail, body_secs, endnav, footer(standards), sheet(cats, c))
+            '<div class="ch-body">%s</div>%s</div></article>%s</main>%s%s') % (
+        topbar(c, prev, nxt), head, e(STRINGS['in_chain']), rail, body_secs, margin, endnav, footer(standards), sheet(cats, c))
     title = '%s · %s · Fractal²' % (c['title'], SEC['title'])
     desc = 'A %s in %s: %d tactics in order, told as a story, with what to notice and what to do.' % (STRINGS['term'], SEC['title'].lower(), len(c['tactics']))
     return page(title, desc, main, url(c), 'is-chain')
@@ -562,8 +583,8 @@ def az_key(t):
 def landing(cats, order, standards):
     total = len(order)
     std_html = ''.join('<details class="stdsec" id="std-%s"><summary>%s</summary><div>%s</div></details>' % (slugify(h), e(h), generic(b)) for h, b in standards if h != 'Sector Disclaimer')
-    catdoors = ''.join(('<li class="door"><a href="%s"><span class="door-n">%02d</span><span class="door-t">%s</span><span class="door-c">%d chains</span>'
-                        '<span class="door-x">%s</span></a></li>') % (caturl(cat), k + 1, e(short_cat(cat['name'])), len(cat['chains']),
+    catdoors = ''.join(('<li class="door"><a href="%s"><span class="door-n" aria-hidden="true">%s</span><span class="door-t">%s</span><span class="door-c">%d chains</span>'
+                        '<span class="door-x">%s</span></a></li>') % (caturl(cat), signature(cat['chains'][0]['steps'], 40), e(short_cat(cat['name'])), len(cat['chains']),
                         ' · '.join(e(x['title']) for x in cat['chains'][:3])) for k, cat in enumerate(cats.values()))
     az = sorted(order, key=lambda c: az_key(c['title']))
     letters, groups = [], ''
@@ -596,11 +617,11 @@ def category_page(cat, k, cats, standards):
     prv, nx = cats[keys[k - 1]], cats[keys[(k + 1) % len(keys)]]
     bl = [b for b in cat['intro'].split('\n\n') if b.strip()]
     first, rest = bl[0] if bl else '', '\n\n'.join(bl[1:])
-    body = ('<main id="main" class="cat-page"><header class="cat-head"><p class="kicker">Category %02d of %d</p><h1 class="cat-title">%s</h1>'
+    body = ('<main id="main" class="cat-page"><header class="cat-head"><p class="kicker"><a href="%s/%s#categories">%s</a> · %d chains</p><h1 class="cat-title">%s</h1>'
             '<div class="cat-intro">%s<details class="more"><summary>%s</summary>%s</details></div></header>'
             '<ol class="cgrid">%s</ol><nav class="endnav" aria-label="More categories"><a class="en prev" href="%s"><span class="en-k">%s Previous category</span><span class="en-t">%s</span></a>'
             '<a class="en next" href="%s"><span class="en-k">Next category %s</span><span class="en-t">%s</span></a></nav></main>') % (
-        k + 1, len(cats), e(cat['name']), generic(first), e(STRINGS['read_intro']), generic(rest), ''.join(card(c) for c in cat['chains']),
+        BASE, SEC['slug'], e(SEC['title']), len(cat['chains']), e(cat['name']), generic(first), e(STRINGS['read_intro']), generic(rest), ''.join(card(c) for c in cat['chains']),
         caturl(prv), ICON['left'], e(short_cat(prv['name'])), caturl(nx), ICON['right'], e(short_cat(nx['name'])))
     return page('%s · %s · Fractal²' % (short_cat(cat['name']), SEC['title']), 'The %s category in %s: %d manipulation chains.' % (short_cat(cat['name']).lower(), SEC['title'], len(cat['chains'])),
                 topbar() + body + footer(standards) + sheet(cats), caturl(cat), 'is-cat')

@@ -41,3 +41,8 @@
       if (navigator.clipboard) navigator.clipboard.writeText(t).then(done, function () {}); });
   });
 })();
+(function () {   // the margin shape appears once the title plate (which shows the same shape) has scrolled away
+  var m = document.querySelector('.margin'), h = document.querySelector('.ch-head');
+  if (!m || !h || !('IntersectionObserver' in window)) return;
+  new IntersectionObserver(function (es) { m.classList.toggle('away', es[0].isIntersecting); }, { threshold: 0.15 }).observe(h);
+})();

@@ -1171,6 +1171,27 @@
           "summary": "First edition online in the field-guide look of the sector PDFs: 335 tactics across eight stages, 153 patterns in ten families, the ten that matter most, sector standards and an A to Z. Deploy 6af1aefc6c9586bcb9b0274c."
         }
       ]
+    },
+    {
+      "codename": "fractal2-corp",
+      "slug": "fractal2-corporate",
+      "title": "Fractal²: Corporate & Consulting",
+      "tagline": "138 manipulation chains, each a full story with what to notice and what to do",
+      "url": null,
+      "finalUrl": "https://noblefathercreations.com/fractal2/corporate",
+      "repoPath": "library/fractal2/site/fractal2/corporate.html (+ library/fractal2/site/fractal2/corporate/)",
+      "buildCommand": "python3 design/chains/build.py corp && python3 design/chains/verify.py corp",
+      "source": "content/fractal/_packages/combo_clusters_markdown_v2/CORP (owner package, verbatim)",
+      "deployed": false,
+      "deployNote": "Not deployed. Needs the owner's go-ahead and the /fractal2 proxy (library/fractal2/redirects/HUB-RULES.txt).",
+      "version": "v1",
+      "changelog": [
+        {
+          "date": "2026-11-20",
+          "version": "v1",
+          "summary": "First edition: landing page, 10 categories, all 138 Corporate & Consulting manipulation chains in full."
+        }
+      ]
     }
   ],
   "craftBusiness": [
