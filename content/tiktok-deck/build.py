@@ -39,6 +39,28 @@ def prep_images():
     return {"books": out, "brandUrl": "file://" + brand, "intro": INTRO, "outro": OUTRO, "donate": DONATE, "about": ABOUT}
 
 
+BPM = 96
+BAR = 4 * 60 / BPM          # 2.5 s: every slide lasts a whole number of bars
+TARGET_BARS = 180           # 7:30 total, to sit under the Suno song
+CLIP_BARS = {"opener": 2, "end": 5, "signature": 3}
+
+
+def plan_bars(man):
+    """Give every slide a whole number of bars so book changes land on bar lines.
+    Fixed: card 2 (about 3), cover 1, title 1. Info slides share what is left,
+    2 bars each, with the shortest ones dropped to 1 bar until the total fits."""
+    for m in man:
+        m["bars"] = {"cover": 1, "title": 1, "card": 3 if m["slug"] == "about" else 2}.get(m["kind"], 2)
+    budget = TARGET_BARS - sum(CLIP_BARS.values())
+    over = sum(m["bars"] for m in man) - budget
+    for m in sorted([m for m in man if m["kind"] == "info"], key=lambda m: m["words"]):
+        if over <= 0:
+            break
+        m["bars"] = 1
+        over -= 1
+    assert over == 0, f"bar plan off by {over}"
+
+
 def secs(m):
     if m["kind"] == "cover":
         return COVER_SECS
@@ -70,17 +92,23 @@ def segment(png, dur, dst, fade_in, fade_out):
          "-vf", ",".join(vf), "-tune", "stillimage", *ENC, "-shortest", dst])
 
 
-def clip(src, dst, fade_in=True, fade_out=True, keep_audio=True):
+def clip(src, dst, fade_in=True, fade_out=True, keep_audio=True, length=None):
     """Normalise an owner video to 1080x1920/30fps with an audio track."""
     dur = float(subprocess.check_output(["ffprobe", "-v", "error", "-show_entries", "format=duration",
                                          "-of", "csv=p=0", src]).strip())
+    pad = 0.0
+    if length:
+        pad = max(0.0, length - dur)
+        dur = length
     vf = "scale=1080:1920:force_original_aspect_ratio=decrease:flags=lanczos,pad=1080:1920:(ow-iw)/2:(oh-ih)/2,fps=30"
+    if pad:
+        vf += f",tpad=stop_mode=clone:stop_duration={pad:.3f}"
     if fade_in:
         vf += f",fade=t=in:st=0:d={FADE}"
     if fade_out:
         vf += f",fade=t=out:st={dur - FADE - 0.05:.2f}:d={FADE}"
     if keep_audio:
-        run(["ffmpeg", "-y", "-i", src, "-vf", vf, "-af", "aresample=44100", *ENC, dst])
+        run(["ffmpeg", "-y", "-i", src, "-vf", vf, "-af", f"aresample=44100,apad", *ENC, "-t", f"{dur:.3f}", dst])
     else:
         run(["ffmpeg", "-y", "-i", src, "-f", "lavfi", "-i", "anullsrc=r=44100:cl=stereo",
              "-map", "0:v", "-map", "1:a", "-vf", vf, *ENC, "-shortest", dst])
@@ -123,8 +151,9 @@ def main():
     sigbg = [m for m in man if m["kind"] == "sigbg"]
     poster = [m for m in man if m["kind"] == "poster"]
     man = [m for m in man if m["kind"] not in ("sigbg", "poster")]
+    plan_bars(man)
     for i, m in enumerate(man):
-        d = secs(m)
+        d = m["bars"] * BAR
         nxt = man[i + 1] if i + 1 < len(man) else None
         fade_in = m["kind"] == "cover" or i == 0
         fade_out = nxt is None or nxt["kind"] == "cover"
@@ -135,9 +164,9 @@ def main():
         segs.append(dst)
     # owner videos: angel opens, the 12 s film and the signature close
     opener = os.path.join(segdir, "000-angel.mp4")
-    total += clip(os.path.join(ASSETS, "angel-6s.mov"), opener)
+    total += clip(os.path.join(ASSETS, "angel-6s.mov"), opener, length=CLIP_BARS["opener"] * BAR)
     ender = os.path.join(segdir, "998-end.mp4")
-    total += clip(os.path.join(ASSETS, "end-12s.mp4"), ender)
+    total += clip(os.path.join(ASSETS, "end-12s.mp4"), ender, length=CLIP_BARS["end"] * BAR)
     sig = os.path.join(segdir, "999-signature.mp4")
     total += signature(os.path.join(BUILD, "slides", sigbg[0]["file"]), sig)
     full = [opener] + segs + [ender, sig]
