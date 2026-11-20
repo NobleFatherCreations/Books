@@ -60,3 +60,13 @@ Skills run: design-director, impeccable (critique with two isolated assessments:
 - Phone: the bar wraps instead of overflowing; below 360 px the arrows move into the menu's previous/next cards. 320 px reflow and 200% text: no overflow.
 - Checks: verify PASS (every author word), gates 0 failures on chain (short, long, dense, safety) and landing and category pages, axe 0 violations, in-figure label test 0 crossings on all 276 figures with the path fully drawn (stricter than the gate), every figure carries all eight stage names.
 - Owner decisions still open: the chain's name in the title versus the story's promise to withhold it (author's own file puts the name first; kept); neutral tab titles for watched phones (kept normal for search).
+
+## Final round (2026-11-20): independent steelman critic, fixes, full re-test
+Critic 4 (independent, steelmanned 11 choices before attacking them). Scores: hierarchy 4, typography 4, space 4, craft 3, distinctiveness 5, feeling 4, restraint 4, phone readability 3, navigation 4, motion 4. Its three blockers and every smaller item were fixed:
+- The open menu covered Leave → Leave sits in the menu's header (tested: on screen, 44 px, tappable, leaves).
+- Diagram stage names small and in capitals → sentence case, larger.
+- The pinned phone figure took too much of the screen and narrowed the measure → capped at 200 px, ring names hidden there, its caption names the step being read ("3 · Obligation Hooks"); text scrolling under it now fades out instead of being cut mid-line.
+- Smaller items: eased display tracking, larger safety lead, cue-card stub removed, indicators numbered "1.", landing icons aligned, quieter phone hero, firmer practical band, a category hero drawn from that category's chains.
+Rejected: a dashed closing segment on shapes (a chain is not a loop); the "28 px strip" (a screenshot artefact, not on the page).
+
+Re-test on the final build: verify PASS (every author word); design gates 0 failures on a short chain, a safety chain, the landing and a category page in all five profiles (warnings: the scroll pass times out on 20-minute pages, and the landing has quiet screens by design); 22/22 interaction tests (Leave, Escape ×2, menu Leave, arrows, focus trap and return, jump links, copy and its fallback, chain forms on scroll, view transitions, Reduce Motion, print and PDF); full sweep of 149 pages in dark and light: axe 0 violations, 0 horizontal overflow, fonts load everywhere, readable with JavaScript off, no console errors beyond the sanctioned beacon; 276 figures, 0 label crossings, every figure carries all eight stage names; motion p95 16.7 ms, 0 long tasks.
