@@ -111,7 +111,7 @@ offline-capable — including THE HOUSE nav tab. Never add a CDN `<script>` or
 
 **The ONE sanctioned exception** (author-approved 2026-09-17, permanent): the
 Cloudflare Web Analytics beacon (`static.cloudflareinsights.com/beacon.min.js`)
-is present on all 485 deployed pages with one shared token and is intentional.
+must be on EVERY deployed page, with one shared token (owner, 2026-11-20). `python3 scripts/visit-counter.py --all` adds it wherever it is missing; run it after any build that rewrites pages. The visit counter goes on the homepage ONLY.
 It stays. Don't remove it, don't flag it in an audit. Nothing else gets added
 to that list without an explicit yes.
 

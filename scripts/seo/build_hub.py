@@ -368,6 +368,8 @@ def restructure(h):
     m = re.search(r'<p class="updates-version">v1[56] &mdash;', h)
     if m:
         h = h[:m.start()] + v17 + h[m.start():]
+    # Owner 2026-11-20: no version or update notes on the homepage (sites.json keeps the ledger).
+    h = re.sub(r'\s*<section id="updates">.*?</section>', "", h, count=1, flags=re.S)
     for a, b in FACTS:
         h = h.replace(a, b)
     h = h.replace(OLD_HERO_JS, HERO_JS)

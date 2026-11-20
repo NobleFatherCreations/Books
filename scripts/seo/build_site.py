@@ -132,15 +132,7 @@ def hub_head(sites):
             f'<link data-seo rel="license" href="{S.LICENSE_URL}">\n'
             f'<script type="application/ld+json" data-seo>{S.ld_json(ld)}</script>\n')
     h = h.replace("</title>", "</title>\n" + tags, 1)
-    v16 = ('<p class="updates-version">v16 &mdash; 2026-11-08</p>\n      <ul>\n        <li>Seven books now have a page for every '
-           'chapter, so search engines and AI assistants can send people straight to the part they need.</li>\n        <li>Every '
-           'book is now free to share under a Creative Commons licence: credit the author, no selling.</li>\n        <li>Fixed menu '
-           'names: The Listening Room, The Sacred Divide, and the Pattern Decoder\u2019s 310 tactics.</li>\n        <li>New: <a href="/topics">browse every topic</a>, from gaslighting to harm reduction, with the chapters that cover it.</li>\n      </ul>\n      ')
-    h = re.sub(r'<p class="updates-version">v16 &mdash; 2026-11-08</p>.*?</ul>\n      ', "", h, count=1, flags=re.S)
-    if "v16 &mdash; 2026-11-08" not in h:
-        anchor = '<p class="updates-version">v15 &mdash; 2026-09-04</p>'
-        assert anchor in h, "hub: updates badge not found"
-        h = h.replace(anchor, v16 + anchor, 1)
+    # Owner 2026-11-20: no version/update notes on the homepage; build_hub.py removes the section.
     S.write(f, h)
     # share card, drawn with The Fracture's faces
     tmp = S.ROOT / "library" / "_seo_tmp_hub"

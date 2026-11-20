@@ -51,7 +51,8 @@ for (const width of [375, 1440]) {
   const page = await ctx.newPage();
   const errors = [];
   page.on('pageerror', (e) => errors.push(String(e)));
-  page.on('console', (m) => { if (m.type() === 'error') errors.push(m.text()); });
+  // The Cloudflare beacon can't report from a local test address; that is expected and fine on the real domain.
+  page.on('console', (m) => { if (m.type() === 'error' && !/cloudflareinsights|net::ERR_FAILED/.test(m.text())) errors.push(m.text()); });
 
   await page.goto(target, { waitUntil: 'load' });
   await page.waitForTimeout(1200);
@@ -141,9 +142,13 @@ for (const width of [375, 1440]) {
   footBooks.includes('/nfc/') ? ok('footer links the guide')
                               : fail('footer does not link the guide');
 
-  const version = await page.textContent('#updates .updates-version');
-  version.includes('v17') ? ok(`on-page version badge reads ${version.trim()}`)
-                          : fail(`version badge reads ${version.trim()}`);
+  const noNotes = !(await page.$('#updates'));
+  noNotes ? ok('no version/update notes on the homepage (owner 2026-11-20)')
+          : fail('homepage still shows version/update notes');
+  const counter = await page.$('#nf-visits');
+  counter ? ok('visit counter present') : fail('visit counter missing');
+  const beacon = await page.$('script[src*="cloudflareinsights.com/beacon"]');
+  beacon ? ok('Cloudflare beacon present') : fail('Cloudflare beacon missing');
 
   const overflow = await page.evaluate(
     () => document.documentElement.scrollWidth - window.innerWidth);
