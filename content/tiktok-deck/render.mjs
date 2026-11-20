@@ -18,6 +18,8 @@ const data = JSON.parse(fs.readFileSync(path.join(build, 'books.json'), 'utf8'))
 const root = path.resolve(deck, '../..');
 const f = (p) => 'file://' + path.join(root, 'tools/fonts', p);
 const LOGO = 'file://' + path.join(root, 'design/brand/logo-noble-father.png');
+const ASSET = (p) => 'file://' + path.join(deck, 'assets', p);
+const BANNER = ASSET('banner.jpg'), SIG = ASSET('signature-gold.png'), FACE = ASSET('author-face.jpg');
 
 const CSS = `
 @font-face{font-family:IS;src:url('${f('instrumentserif/InstrumentSerif-Regular.ttf')}')}
@@ -32,13 +34,21 @@ body{background:#000;font-family:HG,sans-serif;color:var(--ink)}
 .veil{position:absolute;inset:0;background:linear-gradient(180deg,rgba(11,10,8,.25) 0%,rgba(11,10,8,.82) 38%,var(--bg) 62%)}
 .frame{position:absolute;inset:28px;border:1px solid rgba(224,181,94,.18);border-radius:6px;pointer-events:none}
 .safe{position:absolute;left:72px;top:150px;width:840px;height:1290px;display:flex;flex-direction:column}
-.brand{display:flex;align-items:center;gap:26px;height:150px;flex:none}
+.brand{height:176px;flex:none;display:flex;justify-content:center}
+.brand img{height:176px;width:auto;mix-blend-mode:lighten}
+.lab .bk{margin-left:auto;font:italic 36px/1 IS;letter-spacing:0;text-transform:none;color:var(--ink)}
+.hook .kk{font:700 26px/1 HG;letter-spacing:.22em;text-transform:uppercase;color:var(--gold);margin-top:26px}
+.sig{display:block;height:84px;width:auto;margin-top:16px}
+.by{font:700 22px/1 HG;letter-spacing:.3em;color:var(--dim);margin-top:26px}
+.acc{position:absolute;right:-30px;top:640px;height:600px;filter:drop-shadow(0 20px 40px rgba(0,0,0,.7))}
+.hook .row{display:flex;align-items:flex-end;gap:30px}.hook .ang{height:420px;filter:drop-shadow(0 20px 40px rgba(0,0,0,.7))}
+.arow{display:flex;align-items:center;gap:40px;margin-top:40px;flex:none}.arow .face{width:300px;height:300px;flex:none;border-radius:50%;object-fit:cover;margin-top:40px;box-shadow:0 0 0 4px var(--gold),0 0 0 14px rgba(224,181,94,.18),0 30px 70px rgba(0,0,0,.7)}
 .brand .mk{width:150px;height:150px;border-radius:50%;flex:none;background:#000 url('${LOGO}') center 8%/118% auto no-repeat;box-shadow:0 0 0 3px var(--gold),0 0 0 9px rgba(224,181,94,.18),0 12px 30px rgba(0,0,0,.7)}
 .brand .wm{font:700 27px/1 HG;letter-spacing:.3em;color:var(--gold)}
 .brand .bt{font:italic 44px/1.1 IS;color:var(--ink);margin-top:12px}
-.lab{display:flex;align-items:center;gap:18px;font:700 28px/1 HG;letter-spacing:.22em;text-transform:uppercase;color:var(--gold);margin-top:40px;flex:none}
+.lab{display:flex;align-items:center;gap:18px;font:700 28px/1 HG;letter-spacing:.22em;text-transform:uppercase;color:var(--gold);margin-top:18px;flex:none}
 .lab:before{content:"";width:48px;height:2px;background:var(--gold)}
-.hl{font:100px/1 IS;letter-spacing:-.005em;color:var(--ink);margin:18px 0 28px;flex:none}
+.hl{font:100px/1 IS;letter-spacing:-.005em;color:var(--ink);margin:16px 0 24px;flex:none}
 .hl em{color:var(--gold2)}
 .body{flex:1;min-height:0;overflow:hidden}
 .body p{font:400 46px/1.42 HG;margin-bottom:28px;color:var(--ink)}
@@ -68,8 +78,8 @@ body{background:#000;font-family:HG,sans-serif;color:var(--ink)}
 .cbrand{position:absolute;left:72px;top:150px}
 .cov{position:absolute;left:0;width:1080px;object-fit:contain;box-shadow:0 30px 80px rgba(0,0,0,.7)}
 .hook{flex:1;display:flex;flex-direction:column;align-items:flex-start;justify-content:center}
-.hook .hc{height:430px;border-radius:6px;box-shadow:0 40px 90px rgba(0,0,0,.75),0 0 0 1px rgba(255,255,255,.08)}
-.hook h1{font:120px/.95 IS;margin-top:44px}
+.hook .hc{height:380px;border-radius:6px;box-shadow:0 40px 90px rgba(0,0,0,.75),0 0 0 1px rgba(255,255,255,.08)}
+.hook h1{font:120px/.95 IS;margin-top:12px}
 .hook .sb{font:400 40px/1.35 HG;color:var(--dim);margin-top:22px}
 .nums{display:flex;gap:40px;margin-top:40px;flex-wrap:wrap}
 .nums div{display:flex;flex-direction:column}
@@ -81,7 +91,7 @@ body{background:#000;font-family:HG,sans-serif;color:var(--ink)}
 .tc h1 em{color:var(--gold2)}
 .tc p{font:400 44px/1.4 HG;color:var(--ink)}
 .tc .bl{font-size:42px}
-.grid{display:grid;grid-template-columns:repeat(8,1fr);gap:12px;margin-top:50px}
+.grid{display:grid;grid-template-columns:repeat(8,1fr);gap:10px;margin-top:18px}
 .grid img{width:100%;aspect-ratio:2/3;object-fit:cover;border-radius:3px;box-shadow:0 6px 16px rgba(0,0,0,.6)}
 .don{margin-top:40px;border:1.5px solid var(--gold);border-radius:14px;padding:28px 34px;background:rgba(224,181,94,.07)}
 .don .dk{font:700 21px/1 HG;letter-spacing:.22em;text-transform:uppercase;color:var(--gold);margin-bottom:16px}
@@ -93,9 +103,10 @@ body{background:#000;font-family:HG,sans-serif;color:var(--ink)}
 const esc = (s) => String(s).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
 const md = (s) => esc(s).replace(/\*\*(.+?)\*\*/g, '<strong>$1</strong>').replace(/\*(.+?)\*/g, '<em>$1</em>');
 const hmd = (s) => esc(s).replace(/\*(.+?)\*/g, '<em>$1</em>');
-const brandBar = (sub) => `<div class="brand"><div class="mk"></div><div><div class="wm">NOBLE FATHER CREATIONS</div><div class="bt">${esc(sub)}</div></div></div>`;
+const brandBar = () => `<div class="brand"><img src="${BANNER}"></div>`;
+const sigBlock = (by = 'Written by') => `<div class="by">${esc(by.toUpperCase())}</div><img class="sig" src="${SIG}">`;
 const foot = (url, label = 'Read it free') => `<div class="foot"><div class="fl">${esc(label)}</div><div class="fu">${esc(url)}</div></div>`;
-const shell = (glowUrl, inner) => `<div class="slide"><div class="glow" style="background-image:url('${glowUrl}')"></div><div class="veil"></div><div class="frame"></div><div class="safe">${inner}</div></div>`;
+const shell = (glowUrl, inner, extra = '') => `<div class="slide"><div class="glow" style="background-image:url('${glowUrl}')"></div><div class="veil"></div><div class="frame"></div>${extra}<div class="safe">${inner}</div></div>`;
 
 function bodyHtml(sec) {
   if (sec.p) return sec.p.map((p) => `<p>${md(p)}</p>`).join('');
@@ -139,12 +150,18 @@ async function card(c, slug) {
     + (c.bullets ? `<div>${c.bullets.map((s) => `<div class="bl"><div>${esc(s)}</div></div>`).join('')}</div>` : '')
     + (c.big ? `<div class="big">${esc(c.big)}</div>` : '')
     + (c.donate ? `<div class="don"><div class="dk">Support the work · optional</div>${data.donate.map(([a, b]) => `<div class="dr"><span>${esc(a)}</span><b>${esc(b)}</b></div>`).join('')}</div>` : '')
+    + (c.sig ? sigBlock(c.sig) : '')
     + (c.grid ? `<div class="grid">${data.books.map((b) => `<img src="${b.coverUrl}">`).join('')}</div>` : '');
   const n = [c.h, c.p || '', ...(c.bullets || [])].join(' ').split(/\s+/).length + (c.donate ? 6 : 0);
-  await shoot(shell(data.brandUrl, `${brandBar('Books by Shae Stovell')}<div class="tc"><div class="k">${esc(c.k)}</div><h1 style="font-size:${c.h.length > 36 ? 100 : 118}px">${hmd(c.h)}</h1>${body}</div>${c.big ? '' : foot('noblefathercreations.com', 'Free to read')}`), { slug, kind: 'card', words: n });
+  await shoot(shell(data.brandUrl, `${brandBar()}<div class="tc"><div class="k">${esc(c.k)}</div><h1 style="font-size:${c.h.length > 30 ? 96 : 118}px">${hmd(c.h)}</h1>${body}</div>${c.big ? '' : foot('noblefathercreations.com', 'Free to read')}`), { slug, kind: 'card', words: n });
 }
 
 for (const c of data.intro) await card(c, 'intro');
+if (data.about) {
+  const a = data.about;
+  await shoot(shell(FACE, `${brandBar()}<div class="arow"><img class="face" src="${FACE}"><div><div class="lab" style="margin-top:0">About the author</div><img class="sig" style="height:auto;width:440px;margin-top:30px" src="${SIG}"></div></div><div class="body" style="margin-top:30px">${a.p.map((p) => `<p style="font-size:43px">${md(p)}</p>`).join('')}</div>${foot('noblefathercreations.com', 'Everything free at')}`),
+    { slug: 'about', kind: 'card', words: a.p.join(' ').split(/\s+/).length + 4 });
+}
 
 for (const b of data.books) {
   // full cover below the brand bar, kept inside the area TikTok leaves clear
@@ -152,18 +169,19 @@ for (const b of data.books) {
   if (cw > maxW) { cw = maxW; ch = Math.round(maxW * b.coverH / b.coverW); }
   const top = 300 + Math.round((maxH - ch) / 2), left = Math.round((1080 - cw) / 2);
   await shoot(`<div class="slide"><div class="glow" style="background-image:url('${b.coverUrl}');opacity:.7;top:-200px;height:2300px"></div><div class="veil" style="background:rgba(11,10,8,.35)"></div>
-    <div class="cbrand">${brandBar('Books by Shae Stovell')}</div>
+    <div class="cbrand" style="left:0;width:1080px"><div class="brand" style="margin:0"><img src="${BANNER}"></div></div>
     <img class="cov" style="top:${top}px;left:${left}px;width:${cw}px;height:${ch}px;border-radius:6px" src="${b.coverUrl}"></div>`, { slug: b.slug, kind: 'cover', words: 0 });
   const nums = b.chips.map((c) => { const m = c.match(/^([$0-9][0-9,.\-]*[A-Z%]*)\s+(.*)$/); return m ? `<div><b>${esc(m[1])}</b><span>${esc(m[2])}</span></div>` : `<div><b>✦</b><span>${esc(c)}</span></div>`; }).join('');
-  await shoot(shell(b.coverUrl, `${brandBar(b.kicker)}<div class="hook"><img class="hc" src="${b.coverUrl}"><h1 style="font-size:${b.title.length > 22 ? 96 : 120}px">${esc(b.title)}</h1><div class="sb">${esc(b.sub)}</div><div class="nums">${nums}</div></div>${foot(b.url)}`),
+  await shoot(shell(b.coverUrl, `${brandBar()}<div class="hook"><div class="row"><img class="hc" src="${b.coverUrl}">${b.accent ? `<img class="ang" src="${ASSET(b.accent)}">` : ''}</div><div class="kk">${esc(b.kicker)}</div><h1 style="font-size:${b.title.length > 22 ? 96 : 120}px">${esc(b.title)}</h1><div class="sb">${esc(b.sub)}</div><div class="nums">${nums}</div></div>${foot(b.url)}`),
     { slug: b.slug, kind: 'title', words: 10 + b.sub.split(' ').length });
   for (const sec of b.sections) {
-    await shoot(shell(b.coverUrl, `${brandBar(b.title)}<div class="lab">${esc(sec.h)}</div><div class="hl">${hmd(sec.t)}</div><div class="body">${bodyHtml(sec)}</div>${foot(b.url)}`),
+    await shoot(shell(b.coverUrl, `${brandBar()}<div class="lab">${esc(sec.h)}</div><div class="hl">${hmd(sec.t)}</div><div class="body"${sec.accent && b.accent ? ' style="padding-right:300px"' : ''}>${bodyHtml(sec)}</div>${foot(b.url)}`, sec.accent && b.accent ? `<img class="acc" src="${ASSET(b.accent)}">` : ''),
       { slug: b.slug, kind: 'info', h: sec.h, words: words(sec) + (sec.card ? 4 : 0) });
   }
   console.log(b.slug, b.sections.length + 2, 'slides');
 }
 for (const c of data.outro) await card(c, 'outro');
+await shoot(shell(data.brandUrl, `${brandBar()}<div class="tc" style="justify-content:flex-start;padding-top:640px"><div class="big" style="font-size:80px;margin-top:0">noblefathercreations.com</div><p style="margin-top:24px;color:var(--dim)">Free forever. Donations welcome, never required.</p></div>`), { slug: 'sigend', kind: 'sigbg', words: 0 });
 
 fs.writeFileSync(path.join(build, 'manifest.json'), JSON.stringify(manifest, null, 1));
 await browser.close();

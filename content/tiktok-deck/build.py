@@ -13,7 +13,7 @@ from PIL import Image
 HERE = os.path.dirname(os.path.abspath(__file__))
 BUILD = os.path.join(HERE, "build")
 sys.path.insert(0, HERE)
-from books import BOOKS, INTRO, OUTRO, DONATE  # noqa: E402
+from books import BOOKS, INTRO, OUTRO, DONATE, ABOUT  # noqa: E402
 
 FPS = 30
 COVER_SECS = 4.0
@@ -36,7 +36,7 @@ def prep_images():
         out.append({**b, "coverUrl": "file://" + dst, "coverW": im.width, "coverH": im.height})
     brand = os.path.join(img, "brand.jpg")
     Image.open(os.path.join(HERE, "covers-existing/brand-mark.jpg")).convert("RGB").save(brand, quality=90)
-    return {"books": out, "brandUrl": "file://" + brand, "intro": INTRO, "outro": OUTRO, "donate": DONATE}
+    return {"books": out, "brandUrl": "file://" + brand, "intro": INTRO, "outro": OUTRO, "donate": DONATE, "about": ABOUT}
 
 
 def secs(m):
@@ -53,6 +53,12 @@ def run(cmd):
     subprocess.run(cmd, check=True, stdout=subprocess.DEVNULL, stderr=subprocess.PIPE)
 
 
+ENC = ["-c:v", "libx264", "-preset", "veryfast", "-threads", "2", "-crf", "18", "-r", str(FPS),
+       "-pix_fmt", "yuv420p", "-video_track_timescale", "15360",
+       "-c:a", "aac", "-ar", "44100", "-ac", "2", "-b:a", "128k"]
+ASSETS = os.path.join(HERE, "assets")
+
+
 def segment(png, dur, dst, fade_in, fade_out):
     vf = ["format=yuv420p"]
     if fade_in:
@@ -60,18 +66,45 @@ def segment(png, dur, dst, fade_in, fade_out):
     if fade_out:
         vf.insert(0, f"fade=t=out:st={dur - FADE:.2f}:d={FADE}")
     run(["ffmpeg", "-y", "-loop", "1", "-framerate", str(FPS), "-t", f"{dur}", "-i", png,
-         "-vf", ",".join(vf), "-c:v", "libx264", "-preset", "veryfast", "-threads", "2", "-crf", "18",
-         "-tune", "stillimage", "-r", str(FPS), "-pix_fmt", "yuv420p", dst])
+         "-f", "lavfi", "-t", f"{dur}", "-i", "anullsrc=r=44100:cl=stereo",
+         "-vf", ",".join(vf), "-tune", "stillimage", *ENC, "-shortest", dst])
+
+
+def clip(src, dst, fade_in=True, fade_out=True, keep_audio=True):
+    """Normalise an owner video to 1080x1920/30fps with an audio track."""
+    dur = float(subprocess.check_output(["ffprobe", "-v", "error", "-show_entries", "format=duration",
+                                         "-of", "csv=p=0", src]).strip())
+    vf = "scale=1080:1920:force_original_aspect_ratio=decrease:flags=lanczos,pad=1080:1920:(ow-iw)/2:(oh-ih)/2,fps=30"
+    if fade_in:
+        vf += f",fade=t=in:st=0:d={FADE}"
+    if fade_out:
+        vf += f",fade=t=out:st={dur - FADE - 0.05:.2f}:d={FADE}"
+    if keep_audio:
+        run(["ffmpeg", "-y", "-i", src, "-vf", vf, "-af", "aresample=44100", *ENC, dst])
+    else:
+        run(["ffmpeg", "-y", "-i", src, "-f", "lavfi", "-i", "anullsrc=r=44100:cl=stereo",
+             "-map", "0:v", "-map", "1:a", "-vf", vf, *ENC, "-shortest", dst])
+    return dur
+
+
+def signature(bg_png, dst):
+    """Owner's signature video, 3x speed, white paper removed, drawn in gold over the end card."""
+    src = os.path.join(ASSETS, "signature-draw.mp4")
+    fc = ("[1:v]setpts=PTS/3,scale=960:-2,format=gray,negate,format=gray[a];"
+          "color=c=0xF4D58A:s=960x540:r=30[g];[g][a]alphamerge[s];"
+          "[0:v][s]overlay=x=60:y=380:shortest=1,tpad=stop_mode=clone:stop_duration=2.5,"
+          f"fade=t=in:st=0:d={FADE},fade=t=out:st=6.9:d=0.6,format=yuv420p[v]")
+    run(["ffmpeg", "-y", "-loop", "1", "-framerate", "30", "-i", bg_png, "-i", src,
+         "-f", "lavfi", "-t", "7.5", "-i", "anullsrc=r=44100:cl=stereo",
+         "-filter_complex", fc, "-map", "[v]", "-map", "2:a", *ENC, "-t", "7.5", dst])
+    return 7.5
 
 
 def concat(parts, dst):
     lst = dst + ".txt"
     with open(lst, "w") as f:
         f.writelines(f"file '{p}'\n" for p in parts)
-    # silent AAC track: TikTok and some players reject video-only files
-    run(["ffmpeg", "-y", "-f", "concat", "-safe", "0", "-i", lst,
-         "-f", "lavfi", "-i", "anullsrc=r=44100:cl=stereo", "-shortest",
-         "-c:v", "copy", "-c:a", "aac", "-b:a", "64k", "-movflags", "+faststart", dst])
+    run(["ffmpeg", "-y", "-f", "concat", "-safe", "0", "-i", lst, "-c", "copy", "-movflags", "+faststart", dst])
     os.remove(lst)
 
 
@@ -87,6 +120,8 @@ def main():
     segdir = os.path.join(BUILD, "seg")
     os.makedirs(segdir)
     segs, total = [], 0.0
+    sigbg = [m for m in man if m["kind"] == "sigbg"]
+    man = [m for m in man if m["kind"] != "sigbg"]
     for i, m in enumerate(man):
         d = secs(m)
         nxt = man[i + 1] if i + 1 < len(man) else None
@@ -97,9 +132,17 @@ def main():
         m["secs"] = d
         total += d
         segs.append(dst)
+    # owner videos: angel opens, the 12 s film and the signature close
+    opener = os.path.join(segdir, "000-angel.mp4")
+    total += clip(os.path.join(ASSETS, "angel-6s.mov"), opener)
+    ender = os.path.join(segdir, "998-end.mp4")
+    total += clip(os.path.join(ASSETS, "end-12s.mp4"), ender)
+    sig = os.path.join(segdir, "999-signature.mp4")
+    total += signature(os.path.join(BUILD, "slides", sigbg[0]["file"]), sig)
+    full = [opener] + segs + [ender, sig]
     out = os.path.join(HERE, "out")
     os.makedirs(out, exist_ok=True)
-    concat(segs, os.path.join(out, "noble-father-books-full.mp4"))
+    concat(full, os.path.join(out, "noble-father-books-full.mp4"))
     # one video per book (cover through its last info slide)
     order = [b["slug"] for b in BOOKS]
     for n, slug in enumerate(order, 1):

@@ -1,6 +1,6 @@
 # TikTok book deck: design state
 
-**State (2026-11-20, v3):** 108 slides, about 21 minutes in total, 1080×1920, built by `python3 content/tiktok-deck/build.py`. The output goes to `out/` (full video plus 16 per-book MP4s; git-ignored).
+**State (2026-11-20, v4):** 110 slides plus three owner videos, about 21 minutes in total, 1080×1920, built by `python3 content/tiktok-deck/build.py`. The output goes to `out/` (full video plus 16 per-book MP4s; git-ignored).
 
 ## Concept
 A gold-on-black "field guide poster". Every slide shows the brand (a round logo badge and the wordmark), one large serif headline with a gold italic turn, one proof block, and the site link set large as a signed footer.
@@ -52,3 +52,12 @@ Not applied:
 ## Open
 - The covers taken from the PDF are about 600 px wide and slightly soft. Swap in originals if the owner has them.
 - A second critic round has not been run.
+
+## v4: owner assets (assets/)
+- `banner.jpg`: the Noble Father Creations banner. It is the header on every slide, blended with `mix-blend-mode: lighten` so its black background disappears.
+- `signature-gold.png`: the owner's signature recoloured gold on a transparent background. It appears wherever the name is shown: intro card 1, the About the Author slide, and the end.
+- `author-face.jpg`: the "manipulation face" word-art portrait, used on the About the Author slide (after the intro). The bio is the owner's own words from the catalogue PDF.
+- `hippy-angel.png`: cut out from `hippy-angel-source.jpg` by flood-filling the background from the image edges. It is an accent on The Festie Codex hook card and its "What it is" slide.
+- `angel-6s.mov`: opens the video (upscaled from 480×854; its own audio is kept).
+- `end-12s.mp4`: plays after the outro card (its own audio is kept).
+- `signature-draw.mp4`: played at 3× speed (about 5 s). The white paper is removed (negated luma used as alpha) and the ink is drawn in gold over the end card, which holds for 2.5 s.

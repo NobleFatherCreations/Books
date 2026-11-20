@@ -13,8 +13,8 @@ DONATE = [("Cash App", "$shaestovell"), ("Venmo", "@noblefather")]
 INTRO = [
  {"k": "Fifteen books · One practice · All free",
   "h": "Words for the things we *can't name.*",
-  "p": "How people get steered, in love, in families, at school, at work, in faith, online and at festivals, written down in plain words by someone who lived near it.",
-  "grid": True},
+  "p": "How people get steered, in love, in families, at work, in faith, online and at festivals, in plain words from someone who lived near it.",
+  "grid": True, "sig": "Written by"},
  {"k": "Who it's for",
   "h": "If something feels wrong, *there's a book for that.*",
   "bullets": ["Women, men, kids and parents", "Believers, and people walking away",
@@ -36,6 +36,10 @@ OUTRO = [
   "big": "noblefathercreations.com",
   "donate": True},
 ]
+
+ABOUT = {"p": [
+ "I'm Shae Stovell. I run Noble Father Creations. I make things by hand with a small NFC chip inside, and I write free books and tools about how people get steered: in relationships, in faith communities, at work, and on their feeds.",
+ "Everything in my library is written by a person who lived near what it describes."]}
 
 BOOKS = [
 # ---------------------------------------------------------------- DECODER
@@ -161,13 +165,13 @@ BOOKS = [
 # ---------------------------------------------------------------- WOOK
 {
  "slug": "wook", "title": "The Festie Codex", "sub": "A field manual for spotting wooks in sheep's clothing.",
- "kicker": "Wook in sheep's clothing", "url": "noblefathercreations.com/wook",
+ "kicker": "Wook in sheep's clothing", "url": "noblefathercreations.com/wook", "accent": "hippy-angel.png",
  "cover": "covers-existing/wook.jpg",
  "chips": ["33 chapters", "A-Z toolkit", "Zine voice"],
  "sections": [
-  {"h": "What it is", "t": "Know the pattern. Trust your body. *Protect the magic.*", "p": [
+  {"h": "What it is", "accent": True, "t": "Know the pattern. Trust your body. *Protect the magic.*", "p": [
    "A 33-chapter festival harm-reduction manual written like a zine and laid out like a setlist: Know the Pattern, Read the Room, and an Encore.",
-   "Story-led chapters up front, a lettered A to Z archive of tools at the back. Free, and made to be shared."]},
+   "Free, and made to be shared."]},
   {"h": "Inside", "t": "The stories *you'll recognise.*", "bullets": [
    "The new best friend you met at the gate",
    "The group chat that turns into a leash",
