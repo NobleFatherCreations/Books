@@ -8,6 +8,8 @@
 # | {"h", "bullets": [...]} | {"h", "acro": [(letter, word)]}
 # Every section is written to fit ONE slide; render.mjs warns if one spills.
 
+DONATE = [("Cash App", "$shaestovell"), ("Venmo", "@noblefather")]
+
 INTRO = [
  {"k": "Noble Father Creations · Shae Stovell",
   "h": "Words for the things we *can't name*",
@@ -23,7 +25,8 @@ INTRO = [
  {"k": "Free. Really.",
   "h": "100% free. *Always.*",
   "bullets": ["No paywall, no account, no sign-up", "Nothing tracked, nothing sold", "Works on any phone, even offline",
-              "Donations are welcome, never required"]},
+              "Donations welcome, never required"],
+  "donate": True},
 ]
 
 OUTRO = [
@@ -31,7 +34,7 @@ OUTRO = [
   "h": "Find the one *you need.*",
   "p": "Every book and the Root are free to read today. If one helped, send it to the person it would help next.",
   "big": "noblefathercreations.com",
-  "foot": "Free forever · Donations welcome, never required"},
+  "donate": True},
 ]
 
 BOOKS = [

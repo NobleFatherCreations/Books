@@ -59,6 +59,7 @@ body{background:#000;font-family:HG,sans-serif;color:var(--ink)}
 .card p{font:400 44px/1.4 HG;color:var(--dim)}
 .grid{display:grid;grid-template-columns:repeat(8,1fr);gap:12px;margin-top:56px}.grid img{width:100%;aspect-ratio:2/3;object-fit:cover;border-radius:3px;box-shadow:0 6px 16px rgba(0,0,0,.6)}
 .card .cb{margin-top:10px}
+.don{margin-top:44px;border:1.5px solid var(--gold);border-radius:8px;padding:28px 34px;background:rgba(212,173,98,.06)}.don .dk{font:600 22px/1 HG;letter-spacing:.2em;text-transform:uppercase;color:var(--gold);margin-bottom:18px}.dr{display:flex;justify-content:space-between;align-items:baseline;padding:10px 0;font:500 38px/1.2 HG}.dr b{font:400 58px/1 IS;color:var(--gold)}
 .chips{display:flex;flex-wrap:wrap;gap:14px;margin-top:40px}
 .chips span{border:1.5px solid var(--gold);color:var(--gold);font:700 24px/1 HG;letter-spacing:.14em;text-transform:uppercase;padding:14px 18px;border-radius:4px}
 `;
@@ -125,7 +126,8 @@ const grid = () => `<div class="grid">${books.books.map((b) => `<img src="${b.co
 async function card(c, slug, i) {
   const body = (c.p ? `<p>${esc(c.p)}</p>` : '') + (c.bullets ? `<div class="cb">${c.bullets.map((s) => `<div class="bl"><div>${esc(s)}</div></div>`).join('')}</div>` : '')
     + (c.big ? `<p style="margin-top:44px;font:400 70px/1.1 IS;color:var(--gold)">${esc(c.big)}</p>` : '')
-    + (c.foot ? `<p style="margin-top:24px;font:600 28px/1.3 HG;color:var(--ink)">${esc(c.foot)}</p>` : '');
+    + (c.donate ? `<div class="don"><div class="dk">Support the work · optional</div>${books.donate.map(([a, b]) => `<div class="dr"><span>${esc(a)}</span><b>${esc(b)}</b></div>`).join('')}</div>` : '')
+    + (c.foot ? `<p style="margin-top:24px;font:600 28px/1.3 HG;color:var(--ink)">${esc(c.foot).replace(/\n/g, '<br>')}</p>` : '');
   const words = [c.h, c.p || '', ...(c.bullets || []), c.foot || ''].join(' ').split(/\s+/).length;
   await shoot(`<div class="slide"><div class="bgart" style="background-image:url('${brand}');opacity:.35"></div><div class="veil"></div>
    <div class="card"><div class="k">${esc(c.k)}</div><h1 style="font-size:${c.h.length > 34 ? 112 : 140}px">${hmd(c.h)}</h1>${body}${i === 0 && slug === 'intro' ? grid() : ''}</div></div>`, { slug, kind: 'card', words });
