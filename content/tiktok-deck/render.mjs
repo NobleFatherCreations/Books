@@ -43,10 +43,11 @@ body{background:#000;font-family:HG,sans-serif;color:var(--ink)}
 .by{font:700 22px/1 HG;letter-spacing:.3em;color:var(--dim);margin-top:26px}
 .acc{position:absolute;right:150px;top:640px;height:430px;filter:drop-shadow(0 20px 40px rgba(0,0,0,.7))}
 .hook .row{display:flex;align-items:flex-end;gap:30px}.hook .ang{height:390px;filter:drop-shadow(0 20px 40px rgba(0,0,0,.7))}
-.arow{display:flex;align-items:center;gap:40px;margin-top:6px;flex:none}.arow .face{width:250px;height:250px;flex:none;border-radius:50%;object-fit:cover;box-shadow:0 0 0 4px var(--gold),0 0 0 14px rgba(224,181,94,.16),0 30px 70px rgba(0,0,0,.7)}
+.arow{display:flex;align-items:center;gap:40px;margin-top:6px;flex:none}.arow .face{width:300px;height:300px;flex:none;border-radius:50%;object-fit:cover;box-shadow:0 0 0 4px var(--gold),0 0 0 14px rgba(224,181,94,.16),0 30px 70px rgba(0,0,0,.7)}
 .pq{font:italic 500 58px/1.06 CG;color:var(--gold2);letter-spacing:-.01em;text-wrap:balance}
 .abody{flex:0 0 auto!important;height:auto;margin-top:30px;overflow:visible}.abody p{font:400 39px/1.4 HG;margin-bottom:20px}
-.asig{width:500px;height:auto;margin-top:6px;flex:none}
+.rs{display:flex;align-items:baseline;gap:26px;padding:12px 0;border-top:1px solid var(--line)}.rs b{font:76px/1 IS;color:var(--gold2);width:44px}.rs span{font:italic 500 50px/1.15 CG;color:var(--ink)}
+.asig{width:580px;height:auto;margin-top:22px;flex:none}
 .brand .mk{width:150px;height:150px;border-radius:50%;flex:none;background:#000 url('${LOGO}') center 8%/118% auto no-repeat;box-shadow:0 0 0 3px var(--gold),0 0 0 9px rgba(224,181,94,.18),0 12px 30px rgba(0,0,0,.7)}
 .brand .wm{font:700 27px/1 HG;letter-spacing:.3em;color:var(--gold)}
 .brand .bt{font:italic 44px/1.1 IS;color:var(--ink);margin-top:12px}
@@ -167,7 +168,7 @@ async function card(c, slug) {
 for (const c of data.intro) await card(c, 'intro');
 if (data.about) {
   const a = data.about;
-  await shoot(shell(FACE, `${brandBar()}<div class="arow"><img class="face" src="${FACE}"><blockquote class="pq">${esc(a.quote)}</blockquote></div><div class="body abody">${a.p.map((p) => `<p>${md(p)}</p>`).join('')}</div><img class="sig asig" src="${SIG}">`),
+  await shoot(shell(FACE, `${brandBar()}<div class="arow"><img class="face" src="${FACE}"><blockquote class="pq">${esc(a.quote)}</blockquote></div><div class="body abody">${a.p.map((p) => `<p>${md(p)}</p>`).join('')}${(a.reasons || []).map((t, i) => `<div class="rs"><b>${i + 1}</b><span>${esc(t)}</span></div>`).join('')}</div><img class="sig asig" src="${SIG}">`),
     { slug: 'about', kind: 'card', words: a.p.join(' ').split(/\s+/).length + 4 });
 }
 

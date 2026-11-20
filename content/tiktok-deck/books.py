@@ -38,9 +38,9 @@ OUTRO = [
 ]
 
 ABOUT = {
- "quote": "I didn't come to this as a researcher. I came to it as someone it happened to.",
- "p": ["The things that changed my life were never single acts. They were sequences so seamless I lived them as love, as loyalty, as growth.",
-       "So I learned to read the blueprint drawn around me, and kept finding it everywhere, one pattern in thirty costumes. The books are free because my daughter should have the words before she needs them."]}
+ "quote": "Some of these I wrote as a father. All of them I wrote for the Father.",
+ "p": ["Every book here is part of a spiritual journey toward the Most High, and every one is free, for three reasons:"],
+ "reasons": ["So fellow empaths stop feeling bad.", "So manipulators fail, and feel sad.", "So narcissists get big mad."]}
 
 BOOKS = [
 # ---------------------------------------------------------------- DECODER
