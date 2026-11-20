@@ -21,31 +21,31 @@ chorus, sung hook, melodic singing, female vocals, autotune ballad, EDM drop, du
 Paste `main.txt`. It covers the intro through **The Silence** (video 0:00 to 4:50).
 
 ## Step 2: extend (2397 chars)
-On the take you like, choose **Extend**, set "extend from" to the end of the [The Silence] verse (target 4:50), keep the same Style and Exclude, and paste `extend.txt`. Then use **Get Whole Song**.
+On the take you like, choose **Extend**, set "extend from" to the end of [Verse 12] (The Silence) (target 4:50), keep the same Style and Exclude, and paste `extend.txt`. Then use **Get Whole Song**.
 
 ## Sync map (video is cut to a 96 BPM grid: 1 bar = 2.5 s)
 | Video time | Section (lyric tag) | Bars |
 |---|---|---|
 | 0:00 | [Intro] angel video | 2 |
-| 0:05 | [The Library] | 8 |
-| 0:25 | [The Author] | 3 |
-| 0:32 | [The Pattern Decoder] | 12 |
-| 1:02 | [The Sovereign Divine Feminine] | 10 |
-| 1:27 | [The Long After] | 9 |
-| 1:50 | [Playground Protectors] | 10 |
-| 2:15 | [The Festie Codex] | 9 |
-| 2:37 | [The Festie Bible] | 9 |
-| 3:00 | [The Fractal] | 12 |
-| 3:30 | [The Fracture] | 10 |
-| 3:55 | [The Sacred Divide] | 12 |
-| 4:25 | [The Silence] | 10 |
-| 4:50 | [The Repair] | 9 |
-| 5:12 | [At Will] | 9 |
-| 5:35 | [The Slow Take] | 9 |
-| 5:57 | [The Loop] | 9 |
-| 6:20 | [The Weighing] | 9 |
-| 6:42 | [The Root] | 9 |
-| 7:05 | [Find Yours] | 2 |
+| 0:05 | [Verse 1] The Library | 8 |
+| 0:25 | [Verse 2] The Author | 3 |
+| 0:32 | [Verse 3] The Pattern Decoder | 12 |
+| 1:02 | [Verse 4] The Sovereign Divine Feminine | 10 |
+| 1:27 | [Verse 5] The Long After | 9 |
+| 1:50 | [Verse 6] Playground Protectors | 10 |
+| 2:15 | [Verse 7] The Festie Codex | 9 |
+| 2:37 | [Verse 8] The Festie Bible | 9 |
+| 3:00 | [Verse 9] The Fractal | 12 |
+| 3:30 | [Verse 10] The Fracture | 10 |
+| 3:55 | [Verse 11] The Sacred Divide | 12 |
+| 4:25 | [Verse 12] The Silence | 10 |
+| 4:50 | [Verse 13] The Repair | 9 |
+| 5:12 | [Verse 14] At Will | 9 |
+| 5:35 | [Verse 15] The Slow Take | 9 |
+| 5:57 | [Verse 16] The Loop | 9 |
+| 6:20 | [Verse 17] The Weighing | 9 |
+| 6:42 | [Verse 18] The Root | 9 |
+| 7:05 | [Verse 19] Find Yours | 2 |
 | 7:10 | [Outro] closing film + signature | 8 |
 | 7:30 | end | |
 
