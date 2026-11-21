@@ -357,6 +357,54 @@
     wk.addEventListener('pointermove', e => { ux(e.clientX); uy(e.clientY); });
   }
 
+  /* ---------- v19 batch 5: footer, counter, support, motif, the glow secret ---------- */
+  // back to the light: up to the top (the burn reverses with the scroll)
+  $('#up').addEventListener('click', () => { buzz(8); snd.play('page'); scrollTo({ top: 0, behavior: smooth() }); setTimeout(() => $('.brand').focus({ preventScroll: true }), calm() ? 0 : 900); });
+  // support: a few coins jump from the button (it still opens the link)
+  $$('.pay .btn').forEach(a => a.addEventListener('click', () => {
+    buzz([6, 30, 6]); snd.play('full');
+    if (calm() || !hasG) return;
+    const r = a.getBoundingClientRect();
+    for (let i = 0; i < 9; i++) {
+      const c = document.createElement('span'); c.className = 'coin'; document.body.appendChild(c);
+      gsap.fromTo(c, { x: r.left + r.width / 2, y: r.top + r.height / 2, scale: .6 }, { x: `+=${(Math.random() - .5) * 180}`, y: `-=${70 + Math.random() * 110}`, scale: 1, duration: .5, ease: 'power2.out', onComplete: () => gsap.to(c, { y: '+=160', opacity: 0, duration: .55, ease: 'power2.in', onComplete: () => c.remove() }) });
+    }
+  }));
+  // the visit counter (filled on the real domain) rolls its digits into place when it comes into view
+  // the counter block is added after this script by scripts/visit-counter.py, so wait for the page to finish parsing
+  const setupVisits = () => { const visits = document.getElementById('nf-visits');
+  if (visits) {
+    const roll = () => {
+      const m = visits.textContent.match(/^([\d,]+)(.*)$/); if (!m || visits.querySelector('.odo')) return;
+      visits.setAttribute('aria-label', visits.textContent);
+      const cols = [...m[1]].map(ch => /\d/.test(ch) ? `<span data-d="${ch}">${'0123456789'.split('').map(n => `<b>${n}</b>`).join('')}</span>` : `<span><b>${ch}</b></span>`).join('');
+      visits.innerHTML = `<span class="odo" aria-hidden="true">${cols}</span><span aria-hidden="true">${m[2]}</span>`;
+      const go = () => visits.querySelectorAll('.odo>span[data-d]').forEach((c, i) => { c.style.transitionDelay = (i * 90) + 'ms'; c.style.transform = `translateY(-${c.dataset.d * 1.5}em)`; });
+      if (calm()) { visits.querySelectorAll('.odo>span').forEach(c => c.style.transition = 'none'); go(); return; }
+      new IntersectionObserver((es, o) => { if (es[0].isIntersecting) { o.disconnect(); requestAnimationFrame(go); } }).observe(visits);
+    };
+    new MutationObserver(roll).observe(visits, { childList: true, characterData: true, subtree: true, attributes: true, attributeFilter: ['hidden'] });
+  } };
+  if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', setupVisits); else setupVisits();
+  // a small seal mark recurs in each section title (decorative; it turns as the page scrolls)
+  const SEAL = '<svg viewBox="0 0 64 64"><path fill="currentColor" d="M32 4l4.6 3.4 5.6-.9 2.6 5 5.3 2-.3 5.7 3.9 4.1-2.4 5.2 2.4 5.2-3.9 4.1.3 5.7-5.3 2-2.6 5-5.6-.9L32 60l-4.6-3.4-5.6.9-2.6-5-5.3-2 .3-5.7-3.9-4.1 2.4-5.2-2.4-5.2 3.9-4.1-.3-5.7 5.3-2 2.6-5 5.6.9z"/></svg>';
+  $$('.sec-head h2, .workshop h3, .support h2').forEach(h => h.insertAdjacentHTML('beforeend', `<span class="motif" aria-hidden="true">${SEAL}</span>`));
+  // the glow secret: type "glow" (or tap "Alive in the dark." three times) and the lights go out for a moment
+  const egg = document.createElement('div'); egg.className = 'egg'; egg.setAttribute('aria-hidden', 'true'); document.body.appendChild(egg);
+  for (let k = 0; k < 4; k++) { const i = document.createElement('i'), dots = []; for (let n = 0; n < 6; n++) { const r = (.7 + Math.random() * 1.2).toFixed(1); dots.push(`radial-gradient(circle at ${Math.round(Math.random() * 100)}% ${Math.round(Math.random() * 100)}%,#86ecd2 0 ${r}px,#0000 ${(+r + 1).toFixed(1)}px)`); } i.style.backgroundImage = dots.join(','); i.style.backgroundSize = `${180 + k * 53}px ${150 + k * 41}px`; egg.appendChild(i); }
+  let eggOn = false;
+  const lightsOut = () => {
+    if (eggOn || calm() || !hasG) return; eggOn = true; buzz([10, 60, 10, 60, 30]); snd.play('chime');
+    gsap.timeline({ onComplete: () => { eggOn = false; } })
+      .to(egg, { opacity: .96, duration: .6, ease: 'power2.out' })
+      .fromTo(egg.children, { opacity: 0 }, { opacity: 1, duration: .5, stagger: .35, ease: 'power1.out' }, .3)
+      .to(egg, { opacity: 0, duration: 1.4, ease: 'power2.inOut' }, '+=1.8');
+  };
+  let typed = '';
+  addEventListener('keydown', e => { if (e.target.closest && e.target.closest('input,textarea,[contenteditable]')) return; typed = (typed + (e.key || '')).slice(-4).toLowerCase(); if (typed === 'glow') lightsOut(); });
+  let taps = [];
+  $('.glowline').addEventListener('pointerup', () => { const n = performance.now(); taps = taps.filter(t => n - t < 700); taps.push(n); if (taps.length >= 3) { taps = []; lightsOut(); } });
+
   /* ---------- Music ---------- */
   const audio = new Audio(); audio.preload = 'none'; let cur = null;
   const fmt = s => `${Math.floor(s / 60)}:${String(Math.floor(s % 60)).padStart(2, '0')}`;
@@ -527,6 +575,23 @@
           gsap.fromTo(t, { '--rx': '8deg' }, { '--rx': '0deg', ease: 'none', scrollTrigger: { trigger: t, start: 'top 95%', end: 'top 60%', scrub: .4 } });
         });
       }
+      // NFC guide: a phone comes down onto a wax seal, the seal answers in rings, a note appears on the screen (twice, then rests)
+      const td = gsap.timeline({ paused: true, repeat: 1, repeatDelay: .4 })
+        .fromTo('.td-phone', { y: -18 }, { y: 6, duration: .55, ease: 'power2.in' })
+        .add(() => buzz(5))
+        .fromTo('.td-rip circle', { scale: 1, opacity: .9, svgOrigin: '80 84' }, { scale: 2.6, opacity: 0, duration: .9, stagger: .18, ease: 'power2.out' })
+        .to('.td-screen', { opacity: .5, duration: .3 }, '<')
+        .to('.td-note', { opacity: 1, duration: .3 }, '<+.1')
+        .to('.td-phone', { y: -18, duration: .6, ease: 'power2.out' }, '+=.4')
+        .to('.td-screen', { opacity: .08, duration: .4 }, '<')
+        .to('.td-note', { opacity: 0, duration: .3 }, '<');
+      ScrollTrigger.create({ trigger: '.card.guide', start: 'top 75%', once: true, onEnter: () => td.play(0) });
+      // The Press stamps down; The Casting pours and its figure rises
+      const [sealIco, castIco] = $$('.mk .mk-ico');
+      ScrollTrigger.create({ trigger: '.making', start: 'top 85%', once: true, onEnter: () => {
+        if (sealIco) gsap.timeline().fromTo(sealIco, { scale: 1.6, rotation: -25, opacity: 0 }, { scale: .88, rotation: 0, opacity: 1, duration: .35, ease: 'power3.in' }).to(sealIco, { scale: 1, duration: .5, ease: 'elastic.out(1,.4)' }).add(() => buzz(6), '<');
+        if (castIco) { const ps = $$('path', castIco); gsap.fromTo(ps, { drawSVG: '0%' }, { drawSVG: '100%', duration: .9, stagger: .15, ease: 'power2.inOut', delay: .2 }); }
+      } });
       // section titles rise line by line into a mask as they arrive (once), on every screen
       $$('.sec-head h2, .workshop h3, .support h2').forEach(h => {
         const sp = SplitText.create(h, { type: 'lines', mask: 'lines', aria: 'none' });
@@ -551,6 +616,13 @@
         cleanups.push(() => { clearTimeout(t0); removeEventListener('deviceorientation', or); });
       }
       if (fine) {
+        // desktop: a ring follows the pointer, grows over anything you can press, and turns green in the dark
+        const cur = document.createElement('div'); cur.className = 'cur'; cur.setAttribute('aria-hidden', 'true'); document.body.appendChild(cur);
+        const cx = gsap.quickTo(cur, 'x', { duration: .2, ease: 'power3.out' }), cy = gsap.quickTo(cur, 'y', { duration: .2, ease: 'power3.out' });
+        const cm = e => { cur.classList.add('is-on'); cx(e.clientX); cy(e.clientY); cur.classList.toggle('is-big', !!(e.target.closest && e.target.closest('a,button,.portal,.book3d'))); cur.classList.toggle('is-night', !!(e.target.closest && e.target.closest('[data-night]'))); };
+        const cl = () => cur.classList.remove('is-on');
+        addEventListener('pointermove', cm); document.addEventListener('pointerleave', cl);
+        cleanups.push(() => { removeEventListener('pointermove', cm); document.removeEventListener('pointerleave', cl); cur.remove(); });
         const tx = gsap.quickTo('.book-tilt', 'rotationY', { duration: .8, ease: 'power3.out' }), face = $('#hero-face'), hero = $('.hero');
         const fx = gsap.quickTo('.floor', 'x', { duration: .8, ease: 'power3.out' });
         const onMove = e => { const k = e.clientX / innerWidth; face.style.setProperty('--sheen', (100 - k * 100) + '%'); tx((k - .5) * 10); fx((k - .5) * -24); };
@@ -561,6 +633,10 @@
     ScrollTrigger.create({ start: 200, end: 'max', onToggle: st => top.classList.toggle('is-compact', st.isActive) });
     $$('.shelf .rule path').forEach(pth => gsap.fromTo(pth, { drawSVG: '0%' }, { drawSVG: '100%', ease: 'none', scrollTrigger: { trigger: pth.closest('.shelf'), start: 'top 85%', end: 'top 55%', scrub: .5 } }));
     gsap.fromTo('.tool .roots path', { drawSVG: '0%' }, { drawSVG: '100%', stagger: .08, ease: 'none', scrollTrigger: { trigger: '.tool-shadowroot', start: 'top 85%', end: 'bottom 60%', scrub: .5 } });
+    // the guide's cover lifts like a page as it arrives; the signature writes itself across as the footer comes up
+    gsap.fromTo('.card.guide img', { rotateX: 14, transformPerspective: 900 }, { rotateX: 0, ease: 'none', scrollTrigger: { trigger: '.card.guide', start: 'top 95%', end: 'top 45%', scrub: .5 } });
+    gsap.fromTo('.sig', { '--sig': '100%' }, { '--sig': '0%', ease: 'none', scrollTrigger: { trigger: 'footer', start: 'top 95%', end: 'top 50%', scrub: .5 } });
+    gsap.to('.motif', { rotation: 360, ease: 'none', scrollTrigger: { trigger: document.documentElement, start: 'top top', end: 'bottom bottom', scrub: 1 } });
     const ls = SplitText.create('.lede', { type: 'words', aria: 'none' });
     gsap.fromTo(ls.words, { color: '#cbbda4' }, { color: '#f6eedf', stagger: .1, ease: 'none', scrollTrigger: { trigger: '.hero', start: 'top top', end: '35% top', scrub: .5 } });
     gsap.to('.ribbon-track', { xPercent: -45, ease: 'none', scrollTrigger: { trigger: document.body, start: 'top top', end: () => '+=' + innerHeight * 1.6, scrub: .8 } });

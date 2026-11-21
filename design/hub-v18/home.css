@@ -185,7 +185,7 @@ p{margin:0;max-width:62ch;text-wrap:pretty}
 .making>p{font:400 23px var(--display),Georgia,serif;color:var(--glow)}
 .mk{display:flex;align-items:center;gap:var(--s2)}
 .mk.card{border:0;background:none;padding:0;border-radius:0;flex-direction:row}
-.mk .ico{width:44px;height:44px;margin:0;color:#c9b48a;flex:none}
+.mk .mk-ico{width:44px;height:44px;margin:0;color:#c9b48a;flex:none}
 .mk b{display:block;font:400 23px/1.1 var(--display),Georgia,serif}
 .mk small{color:var(--muted);font-size:15px}
 .card.guide .btn{background:var(--glow);border-color:var(--glow);color:var(--night);margin-top:var(--s3)}
@@ -424,3 +424,31 @@ h1 .ln>span{display:block}
  .portal{transform:scale(var(--ps,1));transition:none}
  .tool .glare{opacity:var(--go,0)}
 }
+
+/* v19 batch 5: Workshop end, footer, site layers */
+.tapdemo{display:block;width:200px;height:138px;margin:0 0 var(--s2);overflow:visible}
+.tapdemo .td-rip circle{opacity:0;transform-box:view-box;transform-origin:80px 84px}
+.card.guide img{transform-origin:50% 100%}
+.mk .mk-ico{transform-origin:50% 60%}
+.btn.up{margin-top:var(--s3)}
+.btn.up svg{width:18px;height:18px;fill:none;stroke:currentColor;stroke-width:2;stroke-linecap:round}
+.sig{clip-path:inset(0 var(--sig,0%) 0 0)}
+.shelf{background-image:radial-gradient(420px circle at var(--sx,-999px) var(--sy,-999px),#c9a24a12,transparent 70%),linear-gradient(90deg,color-mix(in srgb,var(--tint,#000) 9%,transparent),transparent 75%)}
+.motif{display:inline-block;width:.42em;height:.42em;margin-left:.22em;vertical-align:.12em;color:var(--brass)}
+.motif svg{width:100%;height:100%;display:block}
+.workshop .motif,.support .motif{color:var(--glow)}
+.coin{position:fixed;left:0;top:0;z-index:30;width:10px;height:10px;margin:-5px 0 0 -5px;border-radius:50%;background:radial-gradient(circle at 35% 35%,#f3dca0,#c9a24a 60%,#7a5a1d);pointer-events:none}
+.egg{position:fixed;inset:0;z-index:18;pointer-events:none;opacity:0;background:#000}
+.egg i{position:absolute;inset:0}
+.cur{position:fixed;left:0;top:0;z-index:31;width:28px;height:28px;margin:-14px 0 0 -14px;border-radius:50%;border:1px solid var(--brass-hi);pointer-events:none;opacity:0;transition:opacity .2s var(--ease-out),width .25s var(--ease-out),height .25s var(--ease-out),margin .25s var(--ease-out),border-color .25s}
+.cur.is-on{opacity:.7}
+.cur.is-big{width:56px;height:56px;margin:-28px 0 0 -28px}
+.cur.is-night{border-color:var(--glow)}
+/* the visit counter rolls up like a departures board */
+#nf-visits .odo{display:inline-flex;vertical-align:bottom;height:1.5em;overflow:hidden}
+#nf-visits .odo>span{display:flex;flex-direction:column;transition:transform 1.4s cubic-bezier(.23,1,.32,1)}
+#nf-visits .odo>span>b{display:block;height:1.5em;font-weight:inherit}
+/* paper grain drifts (stops under Still and reduced motion) */
+body::before{inset:-50%}
+@keyframes grain{0%{transform:translate(0,0)}20%{transform:translate(-3%,2%)}40%{transform:translate(2%,-3%)}60%{transform:translate(-2%,-1%)}80%{transform:translate(3%,3%)}100%{transform:translate(0,0)}}
+@media (prefers-reduced-motion:no-preference){html:not(.is-still) body::before{animation:grain 1.1s steps(5) infinite}}

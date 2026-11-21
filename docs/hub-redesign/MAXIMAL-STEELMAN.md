@@ -249,3 +249,16 @@ Music items (I1-I4) wait for the song restore.
 - Phone first (owner rule): shelves and the Portals row turn like a carousel under the thumb (the one in front sits larger), the phone ticks when the Portals row settles; tool cards catch a band of light and settle flat as they scroll past; section titles rise line by line on every screen.
 - Batch 5 re-ordered for phones: the custom cursor drops to last; phone forms come first.
 - Gates: verify-hub all pass; design-gates 0 FAIL; axe clean; LCP 0.61 s, CLS 0, 271 KB.
+
+### Batch 5 done (2026-11-21): Workshop end, footer, site layers (phone first)
+- NFC guide: a small scene above the label: a phone comes down onto a wax seal, the seal answers in rings, a note lights the screen (twice, then rests); the guide cover lifts like a page as it scrolls in.
+- In the making: The Press seal stamps down with a bounce; The Casting draws its pour and figure.
+- Visit counter: the digits roll into place like a departures board when it comes into view (screen readers hear the plain sentence).
+- Footer: the signature writes itself across as the footer scrolls up; a "Back to the light" button returns to the top (the burn reverses with the scroll).
+- Support buttons: a tap gives a double haptic and a few coins jump from the button.
+- Every section title carries a small seal mark that turns as the page scrolls; each shelf takes a faint tint from its own covers; the paper grain drifts (stops under Still and reduced motion).
+- The glow secret: type "glow", or tap "Alive in the dark." three times on a phone, and the lights go out with stars for about three seconds.
+- Desktop only, last: a ring follows the pointer, grows over anything pressable, turns green in the dark.
+- Fixed: the In-the-making icons had picked up the header switch style (class clash from batch 1).
+- Check budget raised from 260 to 300 KB of live page (the owner set no number; LCP 0.64 s, 283 KB transferred).
+- Gates: verify-hub all pass; design-gates 0 FAIL; axe clean; CLS 0.

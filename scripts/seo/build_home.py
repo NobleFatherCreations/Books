@@ -56,9 +56,9 @@ def subset_fonts(text):
 
 ICONS = {
     # a wax seal: scalloped rim, pressed monogram
-    "seal": '<svg class="ico" viewBox="0 0 64 64" aria-hidden="true"><path fill="currentColor" opacity=".9" d="M32 4l4.6 3.4 5.6-.9 2.6 5 5.3 2-.3 5.7 3.9 4.1-2.4 5.2 2.4 5.2-3.9 4.1.3 5.7-5.3 2-2.6 5-5.6-.9L32 60l-4.6-3.4-5.6.9-2.6-5-5.3-2 .3-5.7-3.9-4.1 2.4-5.2-2.4-5.2 3.9-4.1-.3-5.7 5.3-2 2.6-5 5.6.9z"/><circle cx="32" cy="32" r="16" fill="none" stroke="#07090a" stroke-width="2" opacity=".55"/><path d="M25 40V24l14 16V24" fill="none" stroke="#07090a" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" opacity=".7"/></svg>',
+    "seal": '<svg class="mk-ico" viewBox="0 0 64 64" aria-hidden="true"><path fill="currentColor" opacity=".9" d="M32 4l4.6 3.4 5.6-.9 2.6 5 5.3 2-.3 5.7 3.9 4.1-2.4 5.2 2.4 5.2-3.9 4.1.3 5.7-5.3 2-2.6 5-5.6-.9L32 60l-4.6-3.4-5.6.9-2.6-5-5.3-2 .3-5.7-3.9-4.1 2.4-5.2-2.4-5.2 3.9-4.1-.3-5.7 5.3-2 2.6-5 5.6.9z"/><circle cx="32" cy="32" r="16" fill="none" stroke="#07090a" stroke-width="2" opacity=".55"/><path d="M25 40V24l14 16V24" fill="none" stroke="#07090a" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" opacity=".7"/></svg>',
     # a casting: a pour into a mould, a figure rising
-    "cast": '<svg class="ico" viewBox="0 0 64 64" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M14 8h18l-4 8H18z"/><path d="M23 16v10"/><path d="M10 30h44v22a4 4 0 0 1-4 4H14a4 4 0 0 1-4-4z"/><path d="M26 56V44a6 6 0 0 1 12 0v12"/><circle cx="32" cy="38" r="0.5" fill="currentColor"/><path d="M23 26c0 2 1 3 0 4"/></svg>',
+    "cast": '<svg class="mk-ico" viewBox="0 0 64 64" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M14 8h18l-4 8H18z"/><path d="M23 16v10"/><path d="M10 30h44v22a4 4 0 0 1-4 4H14a4 4 0 0 1-4-4z"/><path d="M26 56V44a6 6 0 0 1 12 0v12"/><circle cx="32" cy="38" r="0.5" fill="currentColor"/><path d="M23 26c0 2 1 3 0 4"/></svg>',
 }
 PLAY = '<svg viewBox="0 0 14 14" aria-hidden="true"><path d="M3 1l10 6-10 6z"/></svg>'
 KNOB = '<svg viewBox="0 0 20 20" aria-hidden="true"><path d="M7 5l-4 5 4 5M13 5l4 5-4 5"/></svg>'
@@ -89,8 +89,17 @@ def main():
         return (f'<li><a class="bk" href="/{b["slug"]}"><span class="cov" style="aspect-ratio:{b["w"]}/{b["h"]}"><img src="{b["img"]}" width="{b["w"]}" height="{b["h"]}" '
                 f'alt="" loading="{"eager" if eager else "lazy"}" decoding="async"><span class="glint" aria-hidden="true"></span></span><b>{E(b["title"])}</b><small>{E(b["line"])}</small></a></li>')
 
+    def tint(sid):
+        px = []
+        for b in d["books"]:
+            if b["shelf"] != sid: continue
+            im = Image.open(HUB / b["img"].lstrip("/")).convert("RGB").resize((8, 8))
+            px += [im.getpixel((x, y)) for x in range(8) for y in range(8)]
+        r, g, bl = (sum(c[i] for c in px) // len(px) for i in range(3))
+        return f"#{r:02x}{g:02x}{bl:02x}"
+
     shelves = "".join(
-        f'<div class="shelf" id="shelf-{s["id"]}"><div><h3>{E(s["name"])}</h3><svg class="rule" viewBox="0 0 200 10" preserveAspectRatio="none" aria-hidden="true"><path d="M2 6 C40 3 80 8 120 5 S180 3 198 6"/></svg><p class="why">{E(s["why"])}</p></div>'
+        f'<div class="shelf" id="shelf-{s["id"]}" style="--tint:{tint(s["id"])}"><div><h3>{E(s["name"])}</h3><svg class="rule" viewBox="0 0 200 10" preserveAspectRatio="none" aria-hidden="true"><path d="M2 6 C40 3 80 8 120 5 S180 3 198 6"/></svg><p class="why">{E(s["why"])}</p></div>'
         f'<ul class="books" aria-label="{E(s["name"])}">' + "".join(book_li(b) for b in d["books"] if b["shelf"] == s["id"]) + "</ul></div>"
         for s in d["shelves"])
     bigger = "".join(book_li(b) for b in d["books"] if b["shelf"] == "bigger")
@@ -175,14 +184,14 @@ def main():
 <ul class="pairs portals">{pairs}</ul>
 <a class="more" href="/portals" style="margin-top:24px">See every Portal</a>
 <div class="wk-row" id="guide" data-nav="nfc">
-<a class="card guide" href="{E(g["url"])}"><img src="{g["src"]}" width="600" height="852" alt="" loading="lazy" decoding="async"><span><span class="tag">Free guide</span><h3>{E(g["title"])}</h3><p class="muted">{E(g["line"])}</p><span class="btn">Read the guide</span></span></a>
+<a class="card guide" href="{E(g["url"])}"><img src="{g["src"]}" width="600" height="852" alt="" loading="lazy" decoding="async"><span><svg class="tapdemo" viewBox="0 -20 160 130" aria-hidden="true"><g class="td-rip" fill="none" stroke="#86ecd2" stroke-width="2"><circle cx="80" cy="84" r="14"/><circle cx="80" cy="84" r="14"/><circle cx="80" cy="84" r="14"/></g><g class="td-seal"><circle cx="80" cy="84" r="20" fill="#9a3a2c"/><circle cx="80" cy="84" r="12" fill="none" stroke="#5e1f16" stroke-width="2"/><path d="M75 89V79l10 10V79" fill="none" stroke="#5e1f16" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></g><g class="td-phone"><rect x="58" y="6" width="44" height="72" rx="8" fill="#101418" stroke="#86ecd2" stroke-width="2"/><rect class="td-screen" x="63" y="14" width="34" height="54" rx="3" fill="#86ecd2" opacity=".08"/><path class="td-note" d="M76 50V34l10-3v15" fill="none" stroke="#86ecd2" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" opacity="0"/></g></svg><span class="tag">Free guide</span><h3>{E(g["title"])}</h3><p class="muted">{E(g["line"])}</p><span class="btn">Read the guide</span></span></a>
 <div class="making"><p>In the making</p>{making}</div></div></div></section>
 
 <section class="support" id="support" data-night="1"><div class="wrap"><div><h2 style="font-size:clamp(32px,2vw + 18px,48px)">Every book is free, and always will be.</h2>
 <p class="muted" style="margin-top:16px">If one found you at the right moment, you can leave something in the hat. Pay what you like, or nothing at all; it keeps the next one free for the next person.</p></div>
 <div class="pay">{pay}</div></div><span class="anchor" id="maker"></span></section>
 </main>
-<footer><div class="wrap"><div><h2>Noble Father Creations</h2><p>Books, tools and art by</p><img class="sig" src="/media/v18/signature.png" width="220" height="64" alt="Shae Stovell" loading="lazy"></div>
+<footer><div class="wrap"><div><h2>Noble Father Creations</h2><p>Books, tools and art by</p><img class="sig" src="/media/v18/signature.png" width="220" height="64" alt="Shae Stovell" loading="lazy"><button class="btn up" id="up" type="button"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M2 12h2M20 12h2M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"/></svg>Back to the light</button></div>
 <div><h2>Books</h2><ul>{"".join(f'<li><a href="#shelf-{s["id"]}">{E(s["name"])}</a></li>' for s in d["shelves"])}<li><a href="#door">The bigger picture</a></li></ul></div>
 <div><h2>Tools and music</h2><ul><li><a href="/playbook">The Pattern Decoder</a></li><li><a href="/shadowroot">The Root</a></li><li><a href="/music">The Listening Room</a></li><li><a href="/topics">Topics A to Z</a></li></ul></div>
 <div><h2>Art</h2><ul><li><a href="/portals">The Portals</a></li><li><a href="/nfc/">NFC guide</a></li><li><a href="{E(d["tiktok"])}" target="_blank" rel="noopener">TikTok</a></li><li><a href="#support">Support the work</a></li></ul></div>
