@@ -16,8 +16,8 @@ const QUERY = `query($a:String!,$f:AccountRumPageloadEventsAdaptiveGroupsFilter_
   viewer{accounts(filter:{accountTag:$a}){t:rumPageloadEventsAdaptiveGroups(limit:1,filter:$f){sum{visits}}}}}`;
 
 export default async () => {
-  // the key may be saved as CF_API_TOKEN or token1 (owner 2026-11-21: "use the token1")
-  const token = (Netlify.env.get("CF_API_TOKEN") || Netlify.env.get("token1") || Netlify.env.get("TOKEN1") || "").trim();
+  // the key may be saved as CF_API_TOKEN or token1 (the owner saved it as CF_API_TOKEN1 on 2026-11-21)
+  const token = (Netlify.env.get("CF_API_TOKEN") || Netlify.env.get("CF_API_TOKEN1") || Netlify.env.get("token1") || "").trim();
   if (!token) return Response.json({ error: "not configured" }, { status: 503 });
   const today = new Date().toISOString().slice(0, 10);
   try {
