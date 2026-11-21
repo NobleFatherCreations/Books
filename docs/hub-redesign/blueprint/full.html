@@ -1,0 +1,190 @@
+<!doctype html><html lang=en><meta charset=utf-8><meta name=viewport content="width=device-width,initial-scale=1">
+<title>Noble Father Creations</title><link rel=stylesheet href=common.css>
+<style>
+/* ===== Tokens: Direction A "The Press" (revised after frontend-design review) ===== */
+:root{
+ --ink:#16110d;        /* lamp-black, warm: the page */
+ --ink-2:#1f1812;      /* raised surfaces */
+ --line:#33291f;       /* hairlines */
+ --paper:#ece2cf;      /* text */
+ --muted:#b3a68e;      /* secondary text (7.4:1 on ink) */
+ --brass:#c9a24a;      /* the one accent: light falling on books */
+ --brass-hi:#e7c77d;
+ --oxblood:#9a3a2c;    /* Leave only */
+ --glow:#86ecd2;       /* strontium: the Workshop only */
+ --night:#07090a;      /* the Workshop ground */
+ --s1:8px;--s2:16px;--s3:24px;--s4:32px;--s6:48px;--s8:64px;--s12:96px;--s16:128px;
+ --t-body:17px;--t-sm:15px;--t-h3:clamp(24px,2.2vw,32px);--t-h2:clamp(40px,5vw,72px);--t-h1:clamp(48px,6.6vw,108px);
+ --ease:cubic-bezier(.2,.7,.2,1);
+}
+body{background:var(--ink);color:var(--paper);font:400 var(--t-body)/1.6 PS,sans-serif;overflow-x:hidden}
+.wrap{max-width:1280px;margin:0 auto;padding:0 var(--s8)}
+h1,h2,h3{font-family:IS,serif;font-weight:400;letter-spacing:-.01em;line-height:.98}
+h2{font-size:var(--t-h2)}h3{font-size:var(--t-h3);line-height:1.05}
+p{max-width:62ch}.muted{color:var(--muted)}
+.btn{background:none;font-family:inherit;cursor:pointer;display:inline-flex;align-items:center;min-height:48px;padding:0 22px;border-radius:999px;border:1px solid var(--brass);color:var(--paper);font-weight:600;font-size:var(--t-sm)}
+.btn.solid{background:var(--brass);color:var(--ink);border-color:var(--brass)}
+section{padding:var(--s16) 0}
+
+/* top */
+.top{position:sticky;top:0;z-index:5;background:color-mix(in srgb,var(--ink) 88%,transparent);backdrop-filter:blur(10px);border-bottom:1px solid var(--line)}
+.top .wrap{display:flex;align-items:center;justify-content:space-between;height:64px}
+.brand{font:400 24px IS}.nav{display:flex;gap:var(--s4);font-size:var(--t-sm);color:var(--muted)}.nav a[aria-current]{color:var(--paper)}
+.leave{background:var(--oxblood);color:#fff;font-weight:600;font-size:14px;padding:10px 16px;border-radius:999px}
+.ribbon{border-bottom:1px solid var(--line);overflow:hidden;white-space:nowrap;font:italic 28px/1 IS;color:#cdbea2;padding:14px 0}
+.ribbon span{display:inline-block;margin-right:72px}
+
+/* 1 hero */
+.hero{padding:var(--s8) 0 var(--s12)}
+.hero .wrap{display:grid;grid-template-columns:1.05fr 1fr;align-items:center;gap:var(--s6);min-height:calc(100vh - 160px)}
+.hero h1{font-size:var(--t-h1)}
+.lede{margin:var(--s3) 0 var(--s4);font-size:19px;color:#d6cab6;max-width:36ch}
+.ask{font:italic 26px IS;color:var(--brass-hi);margin-bottom:var(--s2)}
+.chip{border:1px solid #4a3d2e;background:var(--ink-2);color:var(--paper)}
+.chip[aria-pressed=true]{background:var(--brass);color:var(--ink);border-color:var(--brass)}
+.stage{position:relative;height:560px;perspective:1600px;display:grid;place-items:center}
+.halo{position:absolute;width:520px;aspect-ratio:1;border-radius:50%;background:radial-gradient(circle,#c9a24a2e,transparent 62%)}
+.book3d{position:relative;width:310px;aspect-ratio:2/3;transform-style:preserve-3d;transform:rotateY(-30deg) rotateX(7deg) rotateZ(-3deg)}
+.book3d img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;border-radius:2px 5px 5px 2px;box-shadow:34px 44px 80px #000b}
+.book3d .sp{position:absolute;left:0;top:0;width:32px;height:100%;background:linear-gradient(90deg,#1b140d,#3d3020);transform:rotateY(-90deg);transform-origin:left}
+.book3d .pg{position:absolute;right:0;top:3px;width:28px;height:calc(100% - 6px);background:repeating-linear-gradient(90deg,#efe5d1 0 1px,#d6c9ae 1px 2px);transform:rotateY(90deg);transform-origin:right}
+.stage figcaption{position:absolute;bottom:0;font:italic 18px IS;color:var(--muted)}
+
+/* 2 start result */
+.result{border-top:1px solid var(--line);border-bottom:1px solid var(--line);background:var(--ink-2);padding:var(--s8) 0}
+.result .wrap{display:grid;grid-template-columns:auto 1fr auto 1fr;gap:var(--s4);align-items:center}
+.result img{width:120px;aspect-ratio:2/3;object-fit:cover;border-radius:3px;box-shadow:12px 16px 30px #000a}
+.result h3{margin-bottom:6px}.result .k{font:italic 20px IS;color:var(--brass-hi)}
+
+/* 3 library */
+.lib-head{display:flex;justify-content:space-between;align-items:end;gap:var(--s4);margin-bottom:var(--s8)}
+.shelf{display:grid;grid-template-columns:260px 1fr;gap:var(--s6);padding:var(--s6) 0;border-top:1px solid var(--line)}
+.shelf h3{color:var(--brass-hi)}.shelf .why{color:var(--muted);font-size:var(--t-sm);margin-top:var(--s1)}
+.books{display:grid;grid-template-columns:repeat(4,1fr);gap:var(--s4)}
+.bk{display:block}.bk .cov{display:block;position:relative;aspect-ratio:2/3;border-radius:3px;overflow:hidden;box-shadow:10px 14px 28px #000a,inset -6px 0 10px #0006;transition:transform .25s var(--ease)}
+.bk .cov img{width:100%;height:100%;object-fit:cover}.bk:hover .cov{transform:translateY(-6px) rotate(-1deg)}
+.bk b{display:block;font:400 22px/1.1 IS;margin-top:var(--s2)}.bk small{color:var(--muted);font-size:14px}
+.door{margin-top:var(--s8);display:grid;grid-template-columns:1fr auto;gap:var(--s6);align-items:center;padding:var(--s6);border:1px solid var(--line);border-radius:6px;background:linear-gradient(90deg,#120e0a,#1d1610)}
+.door .spines{display:flex;gap:6px;margin-bottom:var(--s3)}.door .spines i{width:26px;height:150px;border-radius:2px;background:linear-gradient(90deg,#2a2016,#4a3a26,#2a2016)}
+.door .spines i:nth-child(2){height:170px}.door .spines i:nth-child(3){height:140px}
+
+/* 4 tools */
+.tools{display:grid;grid-template-columns:1fr 1fr;gap:var(--s4);margin-top:var(--s8)}
+.tool{display:grid;grid-template-columns:160px 1fr;gap:var(--s4);align-items:center;padding:var(--s4);border:1px solid var(--line);border-radius:6px;background:var(--ink-2)}
+.tool img{width:160px;aspect-ratio:2/3;object-fit:cover;border-radius:3px}
+
+/* 5 music */
+.music .wrap{display:grid;grid-template-columns:1fr 1.2fr;gap:var(--s12)}
+.tracks{border-top:1px solid var(--line)}
+.trk{display:grid;grid-template-columns:48px 1fr auto;gap:var(--s3);align-items:center;min-height:72px;border-bottom:1px solid var(--line)}
+.play{width:44px;height:44px;border-radius:50%;border:1px solid var(--brass);display:grid;place-items:center}
+.play svg{width:14px;fill:var(--brass-hi);margin-left:2px}.trk em{font-style:normal;color:var(--muted);font-size:14px}
+.trk .t{font:400 22px/1.15 IS}.trk .s{display:block;color:var(--muted);font-size:13px}
+.note{margin-top:var(--s3);font-size:14px;color:var(--muted)}
+
+/* 6 threshold + workshop */
+.threshold{padding:var(--s16) 0 var(--s12);background:linear-gradient(var(--ink),var(--night));text-align:left}
+.threshold h2{font-size:clamp(48px,7.5vw,128px);max-width:12ch}
+.threshold .glowline{color:var(--glow);text-shadow:0 0 28px #86ecd288}
+.workshop{background:var(--night);padding-top:0}
+.pairs{display:grid;grid-template-columns:repeat(3,1fr);gap:var(--s4);margin-top:var(--s8)}
+.pair{position:relative;aspect-ratio:1;border-radius:6px;overflow:hidden;background:#000}
+.pair img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
+.pair .dark{clip-path:inset(0 0 0 50%)}
+.pair .handle{position:absolute;top:0;bottom:0;left:50%;width:2px;background:var(--glow);box-shadow:0 0 18px var(--glow)}
+.pair .handle::after{content:"";position:absolute;top:50%;left:-21px;width:44px;height:44px;margin-top:-22px;border-radius:50%;background:var(--night);border:2px solid var(--glow)}
+.pair figcaption{position:absolute;left:var(--s2);bottom:var(--s2);font-size:13px;color:#fff;background:#0009;padding:4px 10px;border-radius:99px}
+.soon{display:grid;grid-template-columns:1fr 1fr 1.2fr;gap:var(--s4);margin-top:var(--s12)}
+.card{padding:var(--s4);border:1px solid #1f2a28;border-radius:6px;background:#0c1112}
+.card img{width:100%;aspect-ratio:16/10;object-fit:cover;border-radius:4px;margin-bottom:var(--s3)}
+.card .tag{font-size:13px;color:var(--glow)}
+.card.guide{border-color:#2e5a50}
+
+/* footer */
+footer{background:var(--night);border-top:1px solid #1a2120;padding:var(--s12) 0 var(--s8);color:var(--muted)}
+footer .wrap{display:grid;grid-template-columns:1.3fr 1fr 1fr 1fr;gap:var(--s6)}
+footer h4{font:400 22px IS;color:var(--paper);margin-bottom:var(--s2)}footer li{list-style:none;font-size:14px;line-height:2}
+.sig{width:220px;margin:var(--s2) 0}.count{margin-top:var(--s3);font-size:13px}
+
+@media(max-width:700px){
+ .wrap{padding:0 var(--s2)}section{padding:var(--s12) 0}.nav{display:none}.ribbon{font-size:21px;padding:10px 0}
+ .hero{padding:var(--s3) 0 var(--s8)}.hero .wrap{grid-template-columns:1fr;min-height:0;gap:0}.stage{order:-1;height:300px}.book3d{width:150px}.halo{width:300px}.stage figcaption{display:none}
+ .hero h1{font-size:46px}.lede{font-size:16px;margin:var(--s2) 0 var(--s3)}.ask{font-size:22px}.chip{font-size:14px;min-height:46px;padding:0 14px}
+ .result .wrap{grid-template-columns:72px 1fr;row-gap:var(--s3)}.result img{width:72px}
+ .lib-head{display:block}.shelf{grid-template-columns:1fr;gap:var(--s3)}
+ .books{display:flex;overflow-x:auto;gap:var(--s2);scroll-snap-type:x mandatory;margin-right:-16px;padding-right:16px}.bk{flex:0 0 42%;scroll-snap-align:start}.bk b{font-size:19px}
+ .door{grid-template-columns:1fr;padding:var(--s3)}.door .spines i{height:100px}.door .spines i:nth-child(2){height:116px}
+ .tools{grid-template-columns:1fr}.tool{grid-template-columns:96px 1fr;padding:var(--s3)}.tool img{width:96px}
+ .music .wrap{grid-template-columns:1fr;gap:var(--s4)}.trk .t{font-size:19px}
+ .threshold h2{font-size:52px}.pairs{display:flex;overflow-x:auto;gap:var(--s2);margin-right:-16px}.pair{flex:0 0 82%}
+ .soon{grid-template-columns:1fr}footer .wrap{grid-template-columns:1fr 1fr}footer .wrap>div:first-child{grid-column:1/-1}
+}
+</style>
+<header class=top><div class=wrap><span class=brand>Noble Father</span>
+<nav class=nav aria-label=Primary><a href=#library aria-current=true>Books</a><a href=#tools>Tools</a><a href=#music>Music</a><a href=#art>Art</a><a href=#nfc>NFC guide</a></nav>
+<a class=leave href=#>Leave now</a></div></header>
+<div class=ribbon aria-hidden=true><span>The Long After</span><span>The Silence</span><span>At Will</span><span>The Repair</span><span>The Loop</span><span>The Weighing</span><span>The Slow Take</span><span>The Sovereign Divine Feminine</span></div>
+
+<main>
+<section class=hero id=start-here><div class=wrap><div>
+<h1>Free books for the moment you start to wonder.</h1>
+<p class=lede>Field guides on manipulation and control, written plainly by Shae Stovell. Free to read, nothing to sign up for.</p>
+<p class=ask>What's happening?</p>
+<div class=chips><button class=chip aria-pressed=true>Someone close to me</button><button class=chip>Work or money</button><button class=chip>My kids or my parents</button><button class=chip>At a festival</button><button class=chip>Just looking</button></div></div>
+<figure class=stage><div class=halo></div><div class=book3d><span class=sp></span><img src=c/longafter.jpg alt="The Long After, cover"><span class=pg></span></div><figcaption>Turns as you scroll. Changes with your answer.</figcaption></figure></div></section>
+
+<section class=result aria-live=polite><div class=wrap>
+<img src=c/longafter.jpg alt=""><div><p class=k>Start here</p><h3>The Long After</h3><p class=muted>What happens once you've left, and how to keep your footing after.</p></div>
+<img src=c/decoder.jpg alt=""><div><p class=k>Then try</p><h3>The Pattern Decoder</h3><p class=muted>Put a name to what keeps happening, in plain words.</p></div></div></section>
+
+<section id=library><div class=wrap>
+<div class=lib-head><h2>The library</h2><p class=muted>Fourteen free books. Find the shelf that sounds like your life; each book opens straight to chapter one.</p></div>
+<div class=shelf><div><h3>Someone close to me</h3><p class=why>A partner, an ex, a friend, a family member.</p></div><div class=books>
+<a class=bk><span class=cov><img src=c/feminine.jpg alt=""></span><b>The Sovereign Divine Feminine</b><small>A field guide for women</small></a>
+<a class=bk><span class=cov><img src=c/longafter.jpg alt=""></span><b>The Long After</b><small>Once you've left</small></a>
+<a class=bk><span class=cov><img src=c/silence.jpg alt=""></span><b>The Silence</b><small>For men nobody thought to ask</small></a>
+<a class=bk><span class=cov><img src=c/repair.jpg alt=""></span><b>The Repair</b><small>If you were the one who hurt someone</small></a></div></div>
+<div class=shelf><div><h3>Work, money and family</h3><p class=why>Bosses, money, children, ageing parents.</p></div><div class=books>
+<a class=bk><span class=cov><img src=c/atwill.jpg alt=""></span><b>At Will</b><small>The coercive workplace</small></a>
+<a class=bk><span class=cov><img src=c/slowtake.jpg alt=""></span><b>The Slow Take</b><small>Coercion in later life</small></a>
+<a class=bk><span class=cov><img src=c/children.jpg alt=""></span><b>Playground Protectors</b><small>A guide for brave kids</small></a></div></div>
+<div class=shelf><div><h3>Screens and judgement</h3><p class=why>Your feed, and the people you size up.</p></div><div class=books>
+<a class=bk><span class=cov><img src=c/loop.jpg alt=""></span><b>The Loop</b><small>The machine that learns you</small></a>
+<a class=bk><span class=cov><img src=c/scale.jpg alt=""></span><b>The Weighing</b><small>How to be right about people</small></a></div></div>
+<div class=shelf><div><h3>Festivals</h3><p class=why>For the field, at night.</p></div><div class=books>
+<a class=bk><span class=cov><img src=c/wook.jpg alt=""></span><b>The Festie Codex</b><small>Spotting wooks in sheep's clothing</small></a>
+<a class=bk><span class=cov><img src=c/festival.jpg alt=""></span><b>The Festie Bible</b><small>Twelve guides for the festival world</small></a></div></div>
+<div class=door><div><div class=spines aria-hidden=true><i></i><i></i><i></i></div><h3>The bigger picture</h3><p class=muted>Three longer books for when you want to see how it all connects: one pattern across relationships, institutions and belief.</p></div><button class=btn>Open the bigger picture</button></div>
+</div></section>
+
+<section id=tools style="padding-top:0"><div class=wrap><h2>Free tools</h2>
+<div class=tools><a class=tool><img src=c/decoder.jpg alt=""><div><h3>The Pattern Decoder</h3><p class=muted>335 tactics in plain words: what each looks like, what it isn't, and a safe next step.</p></div></a>
+<a class=tool><img src=c/root.jpg alt=""><div><h3>The Root</h3><p class=muted>A shadow-work practice in eighteen guided steps. Three minutes or an evening.</p></div></a></div></div></section>
+
+<section class=music id=music><div class=wrap><div><h2>The Listening Room</h2><p class=muted style="margin-top:16px">Songs written and produced by Shae: call-outs, love songs, festival anthems. Press play; the page keeps playing while you read.</p><a class=btn style="margin-top:24px">All 176 songs</a></div>
+<div><div class=tracks>
+<div class=trk><span class=play><svg viewBox="0 0 10 12"><path d="M0 0l10 6-10 6z"/></svg></span><span><span class=t>A Man Wrote This</span><span class=s>The Reckoning</span></span><em>5:35</em></div>
+<div class=trk><span class=play><svg viewBox="0 0 10 12"><path d="M0 0l10 6-10 6z"/></svg></span><span><span class=t>Always Watching the Watchers</span><span class=s>The Reckoning</span></span><em>4:12</em></div>
+<div class=trk><span class=play><svg viewBox="0 0 10 12"><path d="M0 0l10 6-10 6z"/></svg></span><span><span class=t>Halo with an Edge</span><span class=s>The Frequency</span></span><em>4:19</em></div>
+<div class=trk><span class=play><svg viewBox="0 0 10 12"><path d="M0 0l10 6-10 6z"/></svg></span><span><span class=t>Divine Counterpart</span><span class=s>The Frequency</span></span><em>5:11</em></div>
+<div class=trk><span class=play><svg viewBox="0 0 10 12"><path d="M0 0l10 6-10 6z"/></svg></span><span><span class=t>Dharma Is My Safe Word</span><span class=s>The Frequency</span></span><em>4:38</em></div>
+</div><p class=note>Layout only for now: the songs come back when the music files are restored.</p></div></div></section>
+
+<section class=threshold id=art><div class=wrap><h2>Worn in the light. <span class=glowline>Alive in the dark.</span></h2><p class=muted style="margin-top:24px">The Workshop: hand-poured resin pendants with a strontium glow and a chip inside that plays a song, a message or a memory when a phone touches it.</p></div></section>
+
+<section class=workshop><div class=wrap><h3>The Portals</h3><p class=muted style="margin-top:8px">A portfolio of finished pieces. Drag the line to see each one in daylight and in the dark. Shop coming soon.</p>
+<div class=pairs>
+<figure class=pair><img src=c/p108.jpg alt="Pendant in daylight"><img class=dark src=c/p109.jpg alt="The same pendant glowing in the dark"><span class=handle></span><figcaption>Clockwork, day and night</figcaption></figure>
+<figure class=pair><img src=c/p116.jpg alt="Pendant in daylight"><img class=dark src=c/p117.jpg alt="The same pendant glowing"><span class=handle></span><figcaption>Ember square</figcaption></figure>
+<figure class=pair><img src=c/p104.jpg alt="Pendant in daylight"><img class=dark src=c/p105.jpg alt="The same pendant glowing"><span class=handle></span><figcaption>Gear moon</figcaption></figure></div>
+<div class=soon>
+<div class=card><img src=c/p131.jpg alt=""><span class=tag>In the making</span><h3>The Press</h3><p class=muted>Real wax seals with a voice inside.</p></div>
+<div class=card><img src=c/p150.jpg alt=""><span class=tag>In the making</span><h3>The Casting</h3><p class=muted>Eco-resin figures, hand-painted.</p></div>
+<div class="card guide" id=nfc><img src=c/p99.jpg alt=""><span class=tag>Free guide</span><h3>How to Program NFC Tags</h3><p class=muted>139 recipes for iPhone and Android: songs, messages, cards and treasure hunts.</p><a class=btn style="margin-top:16px;border-color:var(--glow)">Read the guide</a></div></div>
+</div></section>
+</main>
+<footer><div class=wrap><div><h4>Noble Father Creations</h4><p>Books, tools and art by</p><img class=sig src=c/sig-light.png alt="Shae Stovell"><p class=count>880 visits to Noble Father Creations</p></div>
+<div><h4>Books</h4><ul><li>Someone close to me<li>Work, money and family<li>Screens and judgement<li>Festivals<li>The bigger picture</ul></div>
+<div><h4>Tools and music</h4><ul><li>The Pattern Decoder<li>The Root<li>The Listening Room<li>Topics A to Z</ul></div>
+<div><h4>Art and support</h4><ul><li>The Portals<li>NFC guide<li>Support the work<li>TikTok</ul></div></div></footer>
+</html>
