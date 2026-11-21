@@ -46,3 +46,4 @@ Fractal2-intro-v9.zip
 .playwright-mcp/
 qa/v19/gates/
 qa/v19/shots/*.png
+qa/v19/crit/
