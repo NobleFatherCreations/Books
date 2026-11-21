@@ -1,0 +1,278 @@
+{
+ "shelves": [
+  {
+   "id": "close",
+   "name": "Someone close to me",
+   "why": "A partner, an ex, a friend, a family member."
+  },
+  {
+   "id": "work",
+   "name": "Work, money and family",
+   "why": "Bosses, money, children, ageing parents."
+  },
+  {
+   "id": "screens",
+   "name": "Screens and judgement",
+   "why": "Your feed, and the people you size up."
+  },
+  {
+   "id": "festival",
+   "name": "Festivals",
+   "why": "For the field, at night."
+  }
+ ],
+ "bigger": {
+  "name": "The bigger picture",
+  "why": "Three longer books for when you want to see how it all connects: one pattern running through relationships, institutions and belief."
+ },
+ "books": [
+  {
+   "slug": "feminine",
+   "title": "The Sovereign Divine Feminine",
+   "line": "A field guide for women",
+   "cover": "02-feminine.jpg",
+   "shelf": "close"
+  },
+  {
+   "slug": "longafter",
+   "title": "The Long After",
+   "line": "What happens once you've left",
+   "cover": "03-longafter.jpg",
+   "shelf": "close"
+  },
+  {
+   "slug": "silence",
+   "title": "The Silence",
+   "line": "For men nobody thought to ask",
+   "cover": "10-silence.jpg",
+   "shelf": "close"
+  },
+  {
+   "slug": "repair",
+   "title": "The Repair",
+   "line": "If you were the one who hurt someone",
+   "cover": "11-repair.jpg",
+   "shelf": "close"
+  },
+  {
+   "slug": "atwill",
+   "title": "At Will",
+   "line": "The coercive workplace",
+   "cover": "12-atwill.jpg",
+   "shelf": "work"
+  },
+  {
+   "slug": "slowtake",
+   "title": "The Slow Take",
+   "line": "Coercion in later life, for the adult child",
+   "cover": "13-slowtake.jpg",
+   "shelf": "work"
+  },
+  {
+   "slug": "children",
+   "title": "Playground Protectors",
+   "line": "Shaela's guide for brave kids",
+   "cover": "04-children.jpg",
+   "shelf": "work"
+  },
+  {
+   "slug": "loop",
+   "title": "The Loop",
+   "line": "The machine that learns you",
+   "cover": "14-loop.jpg",
+   "shelf": "screens"
+  },
+  {
+   "slug": "scale",
+   "title": "The Weighing",
+   "line": "How to be right about people",
+   "cover": "15-scale.jpg",
+   "shelf": "screens"
+  },
+  {
+   "slug": "wook",
+   "title": "The Festie Codex",
+   "line": "Spotting wooks in sheep's clothing",
+   "cover": "05-wook.jpg",
+   "shelf": "festival",
+   "src": "original"
+  },
+  {
+   "slug": "festival",
+   "title": "The Festie Bible",
+   "line": "Twelve guides for the festival world",
+   "cover": "06-festival.jpg",
+   "shelf": "festival"
+  },
+  {
+   "slug": "fractal",
+   "title": "The Fractal",
+   "line": "One pattern, eight stages, thirty techniques",
+   "cover": "07-fractal.jpg",
+   "shelf": "bigger"
+  },
+  {
+   "slug": "fracture",
+   "title": "The Fracture",
+   "line": "The pattern at work in real lives",
+   "cover": "08-fracture.jpg",
+   "shelf": "bigger"
+  },
+  {
+   "slug": "faith",
+   "title": "The Sacred Divide",
+   "line": "Honor the faith, name the machinery",
+   "cover": "09-faith.jpg",
+   "shelf": "bigger"
+  }
+ ],
+ "situations": [
+  {
+   "id": "close",
+   "label": "Someone close to me",
+   "books": [
+    "feminine",
+    "silence"
+   ],
+   "tool": "playbook",
+   "note": "The first is written for women, the second for men. Both start from the same place."
+  },
+  {
+   "id": "work",
+   "label": "Work or money",
+   "books": [
+    "atwill",
+    "slowtake"
+   ],
+   "tool": "playbook",
+   "note": "One for the workplace, one for when the money belongs to an ageing parent."
+  },
+  {
+   "id": "family",
+   "label": "My kids or my parents",
+   "books": [
+    "children",
+    "slowtake"
+   ],
+   "tool": "playbook",
+   "note": "A guide to read with a child, and one for looking after a parent."
+  },
+  {
+   "id": "festival",
+   "label": "At a festival",
+   "books": [
+    "wook",
+    "festival"
+   ],
+   "tool": "playbook",
+   "note": "The attendee guide first, then the full set for crews and organisers."
+  },
+  {
+   "id": "looking",
+   "label": "Just looking",
+   "books": [],
+   "tool": null,
+   "note": ""
+  }
+ ],
+ "tools": [
+  {
+   "slug": "playbook",
+   "title": "The Pattern Decoder",
+   "line": "335 tactics in plain words: what each looks like, what it isn't, and a safe next step.",
+   "cover": "01-decoder.jpg"
+  },
+  {
+   "slug": "shadowroot",
+   "title": "The Root",
+   "line": "A shadow-work practice in eighteen guided steps. Three minutes or an evening.",
+   "cover": "16-root.jpg"
+  }
+ ],
+ "music": {
+  "live": false,
+  "note": "The songs are being restored. Play buttons switch on when they are back.",
+  "tracks": [
+   {
+    "title": "A Man Wrote This",
+    "shelf": "The Reckoning",
+    "file": "a-man-wrote-this-the-sovereign-divine-feminine.mp3",
+    "dur": 335
+   },
+   {
+    "title": "Always Watching the Watchers",
+    "shelf": "The Reckoning",
+    "file": "always-watching-the-watchers.mp3",
+    "dur": 252
+   },
+   {
+    "title": "Halo with an Edge",
+    "shelf": "The Frequency",
+    "file": "halo-with-an-edge.mp3",
+    "dur": 259
+   },
+   {
+    "title": "Divine Counterpart",
+    "shelf": "The Frequency",
+    "file": "divine-counterpart.mp3",
+    "dur": 311
+   },
+   {
+    "title": "Dharma Is My Safe Word",
+    "shelf": "The Frequency",
+    "file": "dharma-is-my-safe-word.mp3",
+    "dur": 278
+   }
+  ]
+ },
+ "portals": [
+  {
+   "day": "p108.jpeg",
+   "night": "p109.jpeg",
+   "name": "Clockwork"
+  },
+  {
+   "day": "p116.jpeg",
+   "night": "p117.jpeg",
+   "name": "Ember square"
+  },
+  {
+   "day": "p104.jpeg",
+   "night": "p105.jpeg",
+   "name": "Gear moon"
+  }
+ ],
+ "making": [
+  {
+   "slug": "press",
+   "title": "The Press",
+   "line": "Real wax seals with a voice inside.",
+   "icon": "seal"
+  },
+  {
+   "slug": "resin",
+   "title": "The Casting",
+   "line": "Eco-resin figures, hand-painted.",
+   "icon": "cast"
+  }
+ ],
+ "guide": {
+  "url": "/nfc/",
+  "title": "How to Program NFC Tags",
+  "line": "139 recipes for iPhone and Android: songs, messages, business cards and treasure hunts.",
+  "img": "nfc-guide.webp"
+ },
+ "support": [
+  {
+   "name": "Venmo",
+   "handle": "@NobleFather",
+   "url": "https://venmo.com/u/NobleFather"
+  },
+  {
+   "name": "Cash App",
+   "handle": "$ShaeStovell",
+   "url": "https://cash.app/$ShaeStovell"
+  }
+ ],
+ "tiktok": "https://www.tiktok.com/@noblefathercreatorsource"
+}

@@ -20,3 +20,16 @@ frontend-design review changed A: one-colour headline (no single-phrase accent),
 - Motion plan: hero book turns with scroll and swaps cover on each situation answer (the one orchestrated moment); covers lift 6px on press; the Portals day/dark slider follows the finger; nothing else moves on its own. Reduced motion: the book holds still, the slider still works.
 - Page length: 10.7 phone screens (was 39.6), 8.3 desktop. Overflow 0.
 - Detector: dark-glow kept only where it is literal (strontium line, slider handle); the decorative glow was removed.
+
+## Stage 5: built (2026-11-21), NOT deployed
+Sources: design/hub-v18/{data.json,home.css,home.js,img/}; builder scripts/seo/build_home.py (replaces build_hub.py); GSAP 3.13.0 vendored in tools/vendor and inlined. Output 165 KB HTML; covers/Portals as WebP in hub/media/v18; fonts subset in hub/f.
+Owner changes applied: NFC guide before Press/Casting; Press/Casting use drawn seal/casting icons (no pendant photos).
+Audits run, with what each changed:
+- design-gates (5 profiles): figure/text overlap (pendant labels) moved to a legend; 8 radii down to 4; type sizes onto one scale; footer targets 44px; glow-line start contrast raised. Final: 0 FAIL; motion p95 16.7ms, 0 dropped frames at 4x CPU throttle.
+- find-animation-opportunities: press feedback on covers/picks/tools/Leave/Menu; ribbon made scroll-linked (was an endless loop, WCAG 2.2.2); book float limited to under 5s; one-time Portals slider hint; door spines tip back. Rejected: nav pill animation (frequent), cover fade-in on load, counter tick-up, cursor-tilt on covers, parallax text.
+- axe WCAG 2.2 AA: hero text fade removed (failed contrast mid-fade). Final: clean dark + light.
+- keyboard: found the hidden phone menu was focusable (fixed); every control shows a focus ring; Esc closes the menu; Esc twice = Leave.
+- perf (local): LCP 0.5s, CLS 0.003, 156 KB first load.
+- Impeccable detector: Instrument Serif "overused" kept (owner chose A by picture); the strontium glow kept (literal glow).
+- verify-hub.mjs rewritten for v18: all checks pass at 375 and 1440. REGRESSIONS.md lists the guards.
+Open: music songs (owner: later); the live counter needs the deploy (CF_API_TOKEN already set in Netlify by the owner).

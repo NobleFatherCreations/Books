@@ -110,7 +110,7 @@
       "hub/netlify.toml",
       "hub/netlify/"
     ],
-    "buildCommand": "python3 scripts/seo/build_hub.py && python3 scripts/seo/build_site.py && python3 scripts/visit-counter.py hub/catalogue-redesign.html hub/topics.html",
+    "buildCommand": "python3 scripts/seo/build_home.py && python3 scripts/seo/build_site.py && python3 scripts/visit-counter.py hub/catalogue-redesign.html hub/topics.html",
     "lastDeploy": {
       "id": "6af1238b68fb202899c80068",
       "date": "2026-11-09",
@@ -120,7 +120,8 @@
       "since": "2026-11-09",
       "note": "Repo is ahead of live by two lines only: the /fractal/entertainment proxy rules in hub/catalogue-redesign._redirects and one Sitemap line in hub/robots.txt. The page itself is unchanged. Deploy blocked by the permission classifier; awaiting the owner's 'deploy the homepage'. Staging recipe: index.html + _redirects + hub.siteFiles."
     },
-    "visitCounter": "Homepage only. Function /api/visits (hub/netlify/functions/visits.mjs) needs Netlify env var CF_API_TOKEN (Functions scope). scripts/visit-counter.py adds the counter to the homepage and the Cloudflare beacon to any page missing it; it is chained in buildCommand."
+    "visitCounter": "Homepage only. Function /api/visits (hub/netlify/functions/visits.mjs) needs Netlify env var CF_API_TOKEN (Functions scope). scripts/visit-counter.py adds the counter to the homepage and the Cloudflare beacon to any page missing it; it is chained in buildCommand.",
+    "buildNote": "v18 (2026-11-21, NOT deployed): build_home.py replaces build_hub.py. build_site.py rewrites hub/og.png; restore it with git checkout if the card is not meant to change. Test: node scripts/verify-hub.mjs http://127.0.0.1:8765/"
   },
   "projects": [
     {
