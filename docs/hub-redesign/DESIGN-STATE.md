@@ -35,3 +35,10 @@ Audits run, with what each changed:
 Open: music songs (owner: later); the live counter needs the deploy (CF_API_TOKEN already set in Netlify by the owner).
 - Critic round 1: 3 scores under 4 (composition, phone ergonomics, finish). All fixed. Round 2: all ten at 4, none under 4 (critic-round1.md, critic-round2.md). Round-2 refinements applied (door spines, answer panel layout, phone shelf edge fade, NFC 40/60). Final: verify-hub all pass; design-gates 0 FAIL.
 - Open for the owner: confirm Instrument Serif (the detector flags it as overused); a preview deploy or "deploy the homepage".
+
+## Push-to-5 round (2026-11-21), owner: "use all of the not yet used things"
+Used this round: Adobe font_recommend + suggest_type_palettes (Adobe Fonts can't be self-hosted, so used as a brief; OFL candidates IM Fell, Bodoni Moda, Gloock rendered on the real page, owner to pick); emil-design-eng + apple-design (stronger curves, interruptible motion, press-on-pointerdown, scroll-edge header, reduced transparency/contrast, display tracking); Figma (file "Noble Father Creations: homepage v18" in the owner's drafts via html_to_figma); signature: strontium charge-and-glow Portals (replaces the slider) and an opening hero book with light sheen; paper grain.
+Review batch 1 (impeccable polish/typeset/bolder/delight/overdrive/audit, taste-skill, refactoring-ui, web-design-guidelines): 4 must + 8 nice, all applied (review-batch1.md).
+Review batch 2 (review-animations, improve-animations, gsap-scrolltrigger/performance/core/timeline, ux-heuristics, cognitive-design, better-accessibility, web-accessibility, webapp-testing): 9 must + 6 nice, all applied (review-batch2.md). Motion layers rebuilt (book-in / book-tilt / book3d / face / leaf). Verified: no book jump, no shelf blink, the turn is seen before the scroll, Just looking lands on the library, Esc-twice leaves.
+Gates after both batches: verify-hub all pass; design-gates 0 FAIL, p95 16.7 ms, 0 drops; axe clean.
+Not used, on purpose: Artlist hero art/video (credits; no need found: the real covers and pendant photos carry the page); higgsfield (not connected).

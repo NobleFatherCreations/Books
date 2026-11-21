@@ -1,10 +1,14 @@
-/* Homepage v18 behaviour. Content works without this script; it only adds the interactions. */
+/* Homepage v18 behaviour. Content works without this script; it only adds the interactions.
+   Motion layers on the hero book (never two tweens on one property):
+   .book-in  = entrance + short float (y, opacity)   .book-tilt = mouse tilt (rotationY)
+   .book3d   = scroll tilt                            #hero-face = scroll cover swing   .leaf = answer turn */
 (() => {
   const $ = (s, r = document) => r.querySelector(s);
   const $$ = (s, r = document) => [...r.querySelectorAll(s)];
   const D = JSON.parse($('#home-data').textContent);
   const reduce = matchMedia('(prefers-reduced-motion: reduce)');
   const hasG = typeof window.gsap !== 'undefined';
+  const smooth = () => (reduce.matches ? 'auto' : 'smooth');
   const bookBy = Object.fromEntries(D.books.map(b => [b.slug, b]));
   const toolBy = Object.fromEntries(D.tools.map(t => [t.slug, t]));
 
@@ -19,9 +23,9 @@
   });
 
   /* ---------- Phone menu ---------- */
-  const sheet = $('#sheet'), menuBtn = $('#menu-btn');
-  const openSheet = () => { sheet.hidden = false; requestAnimationFrame(() => sheet.setAttribute('data-open', '')); menuBtn.setAttribute('aria-expanded', 'true'); $('a', sheet).focus(); };
-  const closeSheet = () => { sheet.removeAttribute('data-open'); menuBtn.setAttribute('aria-expanded', 'false'); setTimeout(() => { sheet.hidden = true; }, 320); menuBtn.focus(); };
+  const sheet = $('#sheet'), menuBtn = $('#menu-btn'); let hideT;
+  const openSheet = () => { clearTimeout(hideT); sheet.hidden = false; requestAnimationFrame(() => sheet.setAttribute('data-open', '')); menuBtn.setAttribute('aria-expanded', 'true'); $('a', sheet).focus(); };
+  const closeSheet = () => { sheet.removeAttribute('data-open'); menuBtn.setAttribute('aria-expanded', 'false'); clearTimeout(hideT); hideT = setTimeout(() => { sheet.hidden = true; }, 320); menuBtn.focus(); };
   menuBtn.addEventListener('click', openSheet);
   $('#sheet-close').addEventListener('click', closeSheet);
   sheet.addEventListener('click', e => { if (e.target === sheet || e.target.closest('a')) closeSheet(); });
@@ -32,35 +36,42 @@
     else if (!e.shiftKey && document.activeElement === last) { e.preventDefault(); first.focus(); }
   });
 
-  /* ---------- Start here: answer -> books + tool, and the hero book turns to the first one ---------- */
-  const result = $('#result'), heroImg = $('#hero-cover'), heroFace = $('#hero-face');
+  /* ---------- Start here: answer -> books + tool; the hero book turns to the first one, then the answer comes into view ---------- */
+  const result = $('#result'), heroImg = $('#hero-cover'), leaf = $('#hero-leaf'), book = $('.book3d'), status = $('#result-status');
+  let turnT;
   const pickHTML = (k, item, href) => `<a class="pick" href="${href}"><img src="${item.img}" alt="" width="96" height="143" loading="lazy" decoding="async"><span><span class="k">${k}</span><b>${item.title}</b><small>${item.line}</small></span></a>`;
-  const swapCover = (src, alt, ar) => {
-    document.querySelector('.book3d').style.setProperty('--ar', ar);
-    if (heroImg.getAttribute('src') === src) return;
-    if (!hasG || reduce.matches) { heroImg.src = src; heroImg.alt = alt; return; }
-    const bk = document.querySelector('.book3d'), wasOpen = bk.classList.contains('is-open'); bk.classList.add('is-open');
-    gsap.timeline({ onComplete: () => bk.classList.toggle('is-open', wasOpen) })
-      .to(heroFace, { rotateY: 90, duration: .28, ease: 'power2.in' })
-      .add(() => { heroImg.src = src; heroImg.alt = alt; })
-      .fromTo(heroFace, { rotateY: -90 }, { rotateY: 0, duration: .42, ease: 'back.out(1.6)' });
+  const reveal = () => { const r = result.getBoundingClientRect(); if (r.top > innerHeight * .6) scrollBy({ top: r.top - innerHeight * .45, behavior: smooth() }); };
+  const swapCover = (src, alt, ar, done) => {
+    if (heroImg.getAttribute('src') === src) { done(); return; }
+    if (!hasG || reduce.matches) { book.style.setProperty('--ar', ar); heroImg.src = src; heroImg.alt = alt; done(); return; }
+    if (turnT) turnT.progress(1).kill();
+    turnT = gsap.timeline({ onComplete: done })
+      .to(leaf, { rotateY: 90, duration: .26, ease: 'power2.in' })
+      .add(() => { book.style.setProperty('--ar', ar); heroImg.src = src; heroImg.alt = alt; })
+      .fromTo(leaf, { rotateY: -90 }, { rotateY: 0, duration: .42, ease: 'back.out(1.4)' });
   };
+  const setOpen = open => { result.toggleAttribute('data-open', open); result.inert = !open; };
+  setOpen(false);
   $$('.chip').forEach(chip => chip.addEventListener('click', () => {
     const s = D.situations.find(x => x.id === chip.dataset.s);
     $$('.chip').forEach(c => c.setAttribute('aria-pressed', String(c === chip)));
-    if (!s.books.length) { result.removeAttribute('data-open'); $('#library').scrollIntoView({ behavior: reduce.matches ? 'auto' : 'smooth' }); return; }
+    if (!s.books.length) {
+      // collapse instantly so the scroll lands on the library, not mid-way
+      result.style.transition = 'none'; setOpen(false); void result.offsetHeight;
+      $('#library').scrollIntoView({ behavior: smooth() });
+      requestAnimationFrame(() => { result.style.transition = ''; });
+      status.textContent = ''; return;
+    }
     const [a, b] = s.books.map(x => bookBy[x]); const t = toolBy[s.tool];
     $('#result-title').textContent = `For “${s.label.toLowerCase()}”`;
     $('#result-note').textContent = s.note;
     $('#result-grid').innerHTML = pickHTML('Start here', a, '/' + a.slug) + pickHTML('Or', b, '/' + b.slug) + pickHTML('Then try', t, '/' + t.slug);
-    result.setAttribute('data-open', '');
-    swapCover(a.imgLg, a.title + ', cover', a.w + '/' + a.h);
-    if (hasG && !reduce.matches) gsap.from('#result-grid .pick', { y: 14, opacity: 0, duration: .45, stagger: .07, ease: 'power3.out', delay: .15, clearProps: 'all' });
-    // show the answer: bring the panel into view if it is below the fold (phone and desktop)
-    setTimeout(() => { const r = result.getBoundingClientRect(); if (r.top > innerHeight * .6) result.scrollIntoView({ behavior: reduce.matches ? 'auto' : 'smooth', block: 'start' }); }, 140);
+    status.textContent = `Three suggestions for ${s.label.toLowerCase()}: ${a.title}, ${b.title}, and ${t.title}.`;
+    setOpen(true);
+    if (hasG && !reduce.matches) gsap.from('#result-grid .pick', { y: 14, opacity: 0, duration: .45, stagger: .07, ease: 'power3.out', delay: .1, clearProps: 'all' });
+    swapCover(a.imgLg, a.title + ', cover', a.w + '/' + a.h, () => setTimeout(reveal, reduce.matches ? 0 : 120));
   }));
-
-  $('#redo').addEventListener('click', () => { const c = $('.chip[aria-pressed="true"]') || $('.chip'); $('#ask').scrollIntoView({ behavior: reduce.matches ? 'auto' : 'smooth', block: 'center' }); c.focus({ preventScroll: true }); });
+  $('#redo').addEventListener('click', () => { const c = $('.chip[aria-pressed="true"]') || $('.chip'); $('#ask').scrollIntoView({ behavior: smooth(), block: 'center' }); c.focus({ preventScroll: true }); });
 
   /* ---------- The bigger picture door ---------- */
   const door = $('#door'), doorBtn = $('#door-btn');
@@ -75,41 +86,48 @@
   });
 
   /* ---------- Portals: strontium charges in light, then glows and fades in the dark ---------- */
-  const CHARGE_S = 1.2, GLOW_S = 7;   // hold ~1.2 s to charge fully; afterglow fades over ~7 s, like the real thing
+  const CHARGE_S = 1.2, GLOW_S = 7;   // hold ~1.2 s to charge fully; the afterglow fades over ~7 s, fast at first then slow, like the real thing
   $$('.portal').forEach(fig => {
-    const night = $('.night', fig), day = $('.day', fig), btn = fig.parentElement.querySelector('.charge'), label = $('.label', btn);
-    const v = { c: 0, g: 0 }; let chargeT, glowT;
-    const paint = () => { fig.style.setProperty('--c', v.c.toFixed(3)); btn.style.setProperty('--c', v.c.toFixed(3)); night.style.opacity = v.g; day.style.opacity = 1 - v.g * .92; };
-    const say = () => {};
+    const li = fig.parentElement, night = $('.night', fig), day = $('.day', fig), btn = $('.charge', li), label = $('.label', btn), live = $('.portal-status', li), name = fig.dataset.name;
+    const v = { c: 0, g: 0 }; let chargeT, glowT, held = false;
+    const paint = () => { const c = v.c.toFixed(3); fig.style.setProperty('--c', c); btn.style.setProperty('--c', c); night.style.opacity = v.g; day.style.opacity = 1 - v.g * .92; };
+    const rest = () => { fig.classList.remove('is-glowing', 'is-charging'); label.textContent = 'Hold to charge'; };
     const glow = () => {
+      if (!held) return; held = false;
       if (chargeT) chargeT.kill(); fig.classList.remove('is-charging');
-      if (v.c < .05) { v.c = 0; paint(); label.textContent = 'Hold to charge'; say('In daylight'); return; }
-      fig.classList.add('is-glowing'); btn.setAttribute('aria-pressed', 'true'); label.textContent = 'Glowing'; say('Glowing in the dark');
+      if (v.c < .05) { v.c = 0; v.g = 0; paint(); rest(); return; }
+      fig.classList.add('is-glowing'); label.textContent = 'Glowing'; live.textContent = `${name} is glowing in the dark.`;
       if (!hasG || reduce.matches) { v.g = 1; v.c = 0; paint(); return; }   // reduced motion: it simply glows until charged again
       if (glowT) glowT.kill();
       glowT = gsap.timeline()
         .to(v, { g: Math.min(1, .35 + v.c), duration: .35, ease: 'power2.out', onUpdate: paint })
         .to(v, { c: 0, duration: .5, ease: 'power2.out', onUpdate: paint }, 0)
-        .to(v, { g: 0, duration: GLOW_S * Math.max(.4, v.c), ease: 'power2.in', onUpdate: paint,
-                 onComplete: () => { fig.classList.remove('is-glowing'); btn.setAttribute('aria-pressed', 'false'); label.textContent = 'Hold to charge'; say('In daylight'); } });
+        .to(v, { g: 0, duration: GLOW_S * Math.max(.4, v.c), ease: 'power1.out', onUpdate: paint, onComplete: () => { rest(); live.textContent = ''; } });
     };
-    const charge = e => {
-      if (e && e.button > 0) return;
-      if (glowT) glowT.kill(); fig.classList.add('is-charging'); label.textContent = 'Charging'; say('Charging');
-      if (!hasG || reduce.matches) { v.c = 1; paint(); return; }
-      v.g = 0; paint();
+    const charge = () => {
+      if (held) return; held = true;
+      if (glowT) glowT.kill(); fig.classList.add('is-charging'); label.textContent = 'Charging';
+      if (!hasG || reduce.matches) { v.c = 1; v.g = 0; paint(); return; }
+      if (v.g > 0) gsap.to(v, { g: 0, duration: .25, ease: 'power2.out', onUpdate: paint });   // from glowing back to the light, no snap
       chargeT = gsap.to(v, { c: 1, duration: CHARGE_S * (1 - v.c), ease: 'none', onUpdate: paint, onComplete: () => { if (navigator.vibrate) navigator.vibrate(12); } });
     };
     const lamp = e => { const r = fig.getBoundingClientRect(); fig.style.setProperty('--lx', (e.clientX - r.left) + 'px'); fig.style.setProperty('--ly', (e.clientY - r.top) + 'px'); };
     [fig, btn].forEach(el => {
-      el.addEventListener('pointerdown', e => { if (el === fig) lamp(e); else { fig.style.setProperty('--lx', '50%'); fig.style.setProperty('--ly', '50%'); } try { el.setPointerCapture(e.pointerId); } catch (x) {} charge(e); });
+      el.addEventListener('pointerdown', e => {
+        if (e.button > 0) return;
+        if (el === fig) lamp(e); else { fig.style.setProperty('--lx', '50%'); fig.style.setProperty('--ly', '50%'); }
+        try { el.setPointerCapture(e.pointerId); } catch (x) {}
+        charge();
+      });
       el.addEventListener('pointerup', glow);
       el.addEventListener('pointercancel', glow);
       el.addEventListener('contextmenu', e => e.preventDefault());
     });
     fig.addEventListener('pointermove', lamp);
-    // keyboard: Enter/Space charges fully and lets go
-    btn.addEventListener('click', e => { if (e.detail === 0) { v.c = 1; glow(); } });
+    // keyboard: hold Space or Enter to charge, let go to glow
+    btn.addEventListener('keydown', e => { if ((e.key === ' ' || e.key === 'Enter') && !e.repeat) { e.preventDefault(); fig.style.setProperty('--lx', '50%'); fig.style.setProperty('--ly', '50%'); charge(); } });
+    btn.addEventListener('keyup', e => { if (e.key === ' ' || e.key === 'Enter') { e.preventDefault(); glow(); } });
+    btn.addEventListener('blur', glow);
     paint();
   });
 
@@ -140,35 +158,36 @@
   }), { rootMargin: '-45% 0px -50% 0px' });
   $$('[data-nav]').forEach(s => s.matches('section') && io.observe(s));
 
-  /* ---------- Motion (GSAP). Reduced motion: nothing self-running; the scroll tilt and slider stay. ---------- */
+  /* ---------- Motion (GSAP). Reduced motion: nothing self-running; scroll-linked motion stays. ---------- */
   if (!hasG) return;
   gsap.registerPlugin(ScrollTrigger);
   const mm = gsap.matchMedia();
   mm.add({ motion: '(prefers-reduced-motion: no-preference)', still: '(prefers-reduced-motion: reduce)' }, ctx => {
     const { motion } = ctx.conditions;
-    // the one orchestrated moment: the book arrives, then turns with the scroll
+    const cleanups = [];
     if (motion) {
-      gsap.from('.book3d', { y: 40, rotateY: -60, opacity: 0, duration: 1.2, ease: 'power3.out', delay: .1 });
-      // the words are readable from the first frame; only the book makes an entrance
-      // a short float that settles (under 5 s, so nothing moves on its own for long: WCAG 2.2.2)
-      gsap.to('.book3d', { y: -10, duration: 1.1, ease: 'sine.inOut', yoyo: true, repeat: 3, delay: 1.3 });
-      // books arrive one at a time on each shelf, once
-      ScrollTrigger.batch('.shelf .bk', { start: 'top 88%', once: true,
-        onEnter: els => gsap.from(els, { y: 28, rotate: -1.5, opacity: 0, duration: .6, stagger: .08, ease: 'power3.out', clearProps: 'all' }) });
+      // the one orchestrated moment: the book arrives, floats briefly (under 5 s), then rests
+      gsap.from('.book-in', { y: 40, opacity: 0, duration: 1.2, ease: 'power3.out', delay: .1 });
+      gsap.from('.book-tilt', { rotationY: -30, duration: 1.2, ease: 'power3.out', delay: .1 });
+      gsap.to('.book-in', { y: -10, duration: 1.1, ease: 'sine.inOut', yoyo: true, repeat: 3, delay: 1.3 });
+      // shelf books arrive one at a time, once; hidden before the first paint of the shelf so they never blink
+      gsap.set('.shelf .bk', { opacity: 0, y: 28, rotate: -1.5 });
+      ScrollTrigger.batch('.shelf .bk', { start: 'top 92%', once: true,
+        onEnter: els => gsap.to(els, { opacity: 1, y: 0, rotate: 0, duration: .6, stagger: .08, ease: 'power3.out', overwrite: true }) });
+      const onFocus = e => { const bk = e.target.closest && e.target.closest('.shelf .bk'); if (bk) gsap.to(bk, { opacity: 1, y: 0, rotate: 0, duration: .2, overwrite: true }); };
+      document.addEventListener('focusin', onFocus); cleanups.push(() => document.removeEventListener('focusin', onFocus));
+      if (matchMedia('(hover: hover) and (pointer: fine)').matches) {
+        const tx = gsap.quickTo('.book-tilt', 'rotationY', { duration: .8, ease: 'power3.out' }), face = $('#hero-face'), hero = $('.hero');
+        const onMove = e => { const k = e.clientX / innerWidth; face.style.setProperty('--sheen', (100 - k * 100) + '%'); tx((k - .5) * 10); };
+        hero.addEventListener('pointermove', onMove); cleanups.push(() => hero.removeEventListener('pointermove', onMove));
+      }
     }
     gsap.to('.ribbon-track', { xPercent: -30, ease: 'none', scrollTrigger: { trigger: document.body, start: 'top top', end: () => '+=' + innerHeight * 2.5, scrub: .8 } });
-    gsap.to('#hero-face', { rotateY: -42, ease: 'none', scrollTrigger: { trigger: '.hero', start: 'top top', end: 'bottom 30%', scrub: .6,
-      onUpdate: st => document.querySelector('.book3d').classList.toggle('is-open', st.progress > .02) } });
-    gsap.to('#hero-face', { '--sheen': '0%', ease: 'none', scrollTrigger: { trigger: '.hero', start: 'top top', end: 'bottom top', scrub: true } });
-    if (motion && matchMedia('(hover: hover) and (pointer: fine)').matches) {
-      const tx = gsap.quickTo('.book3d', 'rotationY', { duration: .8, ease: 'power3.out' }), face = document.querySelector('#hero-face');
-      document.querySelector('.hero').addEventListener('pointermove', e => {
-        const k = e.clientX / innerWidth; face.style.setProperty('--sheen', (100 - k * 100) + '%'); tx(-30 + (k - .5) * 10);
-      });
-    }
-    gsap.to('.book3d', { rotateY: -8, rotateX: 2, rotateZ: 0, ease: 'none',
+    gsap.fromTo('.book3d', { rotateY: -30, rotateX: 7, rotateZ: -3 }, { rotateY: -8, rotateX: 2, rotateZ: 0, ease: 'none', immediateRender: false,
       scrollTrigger: { trigger: '.hero', start: 'top top', end: 'bottom top', scrub: .6 } });
-    gsap.fromTo('.glowline', { textShadow: '0 0 0px #86ecd200', opacity: .82 }, { textShadow: '0 0 28px #86ecd288', opacity: 1, ease: 'none',
-      scrollTrigger: { trigger: '.threshold', start: 'top 80%', end: 'center center', scrub: true } });
+    gsap.fromTo('#hero-face', { rotateY: 0, '--sheen': '100%' }, { rotateY: -42, '--sheen': '0%', ease: 'none', immediateRender: false,
+      scrollTrigger: { trigger: '.hero', start: 'top top', end: 'bottom 30%', scrub: .6, onUpdate: st => book.classList.toggle('is-open', st.progress > .02) } });
+    gsap.fromTo('.glowline', { opacity: .82 }, { opacity: 1, ease: 'none', scrollTrigger: { trigger: '.threshold', start: 'top 80%', end: 'center center', scrub: true } });
+    return () => cleanups.forEach(f => f());
   });
 })();

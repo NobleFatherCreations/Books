@@ -107,9 +107,9 @@ def main():
         f'<li><figure class="portal" data-name="{E(p["name"])}"><img class="day" src="{p["dayImg"]}" width="720" height="720" alt="{E(p["name"])} pendant in daylight" loading="lazy" decoding="async">'
         f'<img class="night" src="{p["nightImg"]}" width="720" height="720" alt="" loading="lazy" decoding="async">'
         f'<span class="lamp" aria-hidden="true"></span></figure>'
-        f'<p class="legend"><span>{E(p["name"])}</span><button class="charge" type="button" aria-label="Charge {E(p["name"])} with light, then see it glow in the dark" aria-pressed="false">'
+        f'<p class="legend"><span>{E(p["name"])}</span><button class="charge" type="button">'
         f'<svg viewBox="0 0 48 48" aria-hidden="true"><circle cx="24" cy="24" r="20" class="track"/><circle cx="24" cy="24" r="20" class="fill" pathLength="1"/></svg>'
-        f'<span class="label" aria-live="polite">Hold to charge</span></button></p></li>'
+        f'<span class="label">Hold to charge</span><span class="vh"> {E(p["name"])}</span></button></p><p class="vh portal-status" role="status"></p></li>'
         for p in d["portals"])
     making = "".join(f'<div class="mk card soon">{ICONS[m["icon"]]}<span><b>{E(m["title"])}</b><small>{E(m["line"])}</small></span></div>' for m in d["making"])
     g = d["guide"]
@@ -138,10 +138,11 @@ def main():
 <p class="lede">Field guides on manipulation and control, written plainly by Shae Stovell. Free to read, nothing to sign up for.</p>
 <p class="ask" id="ask">What's happening?</p>
 <div class="chips" role="group" aria-labelledby="ask">{chips}</div></div>
-<figure class="stage"><div class="halo"></div><div class="book3d"><span class="sp"></span><div class="inside" aria-hidden="true"><span class="page-k">Chapter one</span><span class="lines"></span><span class="page-sig"></span></div><div class="face" id="hero-face"><span class="sheen" aria-hidden="true"></span><img id="hero-cover" src="{first["imgLg"]}" width="760" height="1133" alt="{E(first["title"])}, cover" fetchpriority="high" decoding="async"></div><span class="pg"></span></div>
+<figure class="stage"><div class="halo"></div><div class="book-in"><div class="book-tilt"><div class="book3d"><span class="sp"></span><div class="inside" aria-hidden="true"><span class="page-k">Chapter one</span><span class="lines"></span><span class="page-sig"></span></div><div class="face" id="hero-face"><div class="leaf" id="hero-leaf"><span class="sheen" aria-hidden="true"></span><img id="hero-cover" src="{first["imgLg"]}" width="760" height="1133" alt="{E(first["title"])}, cover" fetchpriority="high" decoding="async"></div></div><span class="pg"></span></div></div></div>
 <figcaption>Your answer turns the book.</figcaption></figure></div></section>
 
-<section class="result" id="result" aria-live="polite" aria-labelledby="result-title"><div><div class="wrap result-inner">
+<p class="vh" id="result-status" role="status"></p>
+<section class="result" id="result" aria-labelledby="result-title"><div><div class="wrap result-inner">
 <div class="result-head"><h2 id="result-title" class="h3" style="font-size:var(--t-h3)">Your starting point</h2><button class="redo" id="redo" type="button">Change answer</button><p class="muted" id="result-note" style="flex-basis:100%"></p></div>
 <div class="result-grid" id="result-grid"></div></div></div></section>
 
@@ -158,7 +159,7 @@ def main():
 <div class="sec-head"><h2>Free tools</h2><p class="muted">For when you need a name for something, or a few quiet minutes.</p></div>
 <div class="tools">{tools}</div></div></section>
 
-<section class="sec music" id="music" data-nav="music"><div class="wrap"><div class="music-head"><div><h2>The Listening Room</h2><p class="muted" style="margin-top:16px">Songs written and produced by Shae: call-outs, love songs, festival anthems. Press play and keep reading; the song carries on down the page.</p></div>
+<section class="sec music" id="music" data-nav="music"><div class="wrap"><div class="music-head"><div><h2>The Listening Room</h2><p class="muted" style="margin-top:16px">Songs written and produced by Shae: call-outs, love songs, festival anthems.</p></div>
 <a class="more" href="/music">All 176 songs</a></div>
 <ul class="tracks">{tracks}</ul><p class="note" id="music-note" role="status">{"" if live else E(d["music"]["note"])}</p></div></section>
 
