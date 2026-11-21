@@ -15,6 +15,11 @@
       {
         "date": "2026-11-21",
         "version": "v19",
+        "summary": "Owner fixes: NFC reading-position diagram, Motion and Sound switches in the header (phone included), stronger pendant glow and a touch hold that no longer cancels, Pattern Decoder and The Root linked in the menu."
+      },
+      {
+        "date": "2026-11-21",
+        "version": "v19",
         "summary": "Full homepage redesign. Opens with a montage of the owner's logo figures settling into four doors (The Library, The Portals, The Listening Room, NFC guide); the book chooser and 3D book open the Library; four situation shelves with the three bigger-picture books behind a hold-to-open door; free tools; a working Listening Room (all 176 songs browsable and playable, now-playing bar); Portals from six sets with a charge-and-glow you paint by touch; NFC guide; the sitewide wax-seal Catalogue back in the corner; Still switch and opt-in sound; Leave now always on top. SEO: title and description for manipulation and narcissistic abuse, 18 'Look up a pattern' links into the Pattern Decoder and Topics, structured data naming those subjects. No version notes on the page (owner)."
       },
       {
@@ -117,9 +122,9 @@
     ],
     "buildCommand": "python3 scripts/seo/build_home.py && python3 scripts/seo/build_site.py && python3 scripts/visit-counter.py hub/catalogue-redesign.html hub/topics.html",
     "lastDeploy": {
-      "id": "6b01beb40c3ad22c09292bc0",
+      "id": "6b01c686cc7e7d072c618abe",
       "date": "2026-11-21",
-      "verified": "live page = build; /api/visits returns a number (1,140) and the footer counter shows; key read from CF_API_TOKEN1"
+      "verified": "live page = build; /api/visits 200 (1,180); new media 200"
     },
     "visitCounter": "Homepage only. Function /api/visits (hub/netlify/functions/visits.mjs) needs Netlify env var CF_API_TOKEN (saved by the owner as CF_API_TOKEN1; the function reads either) (Functions scope). scripts/visit-counter.py adds the counter to the homepage and the Cloudflare beacon to any page missing it; it is chained in buildCommand.",
     "buildNote": "v19 (2026-11-21, deployed): build ONLY with buildCommand (build_site.py writes the SEO head). build_site.py rewrites hub/og.png; restore with git checkout if the card is not meant to change. Test: node scripts/verify-hub.mjs http://127.0.0.1:8765/"
