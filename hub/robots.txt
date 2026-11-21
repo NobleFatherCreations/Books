@@ -37,4 +37,11 @@ Sitemap: https://noblefathercreations.com/fractal/sitemap.xml
 Sitemap: https://noblefathercreations.com/fracture/sitemap.xml
 Sitemap: https://noblefathercreations.com/wook/sitemap.xml
 Sitemap: https://noblefathercreations.com/festival/sitemap.xml
+Sitemap: https://noblefathercreations.com/longafter/sitemap.xml
+Sitemap: https://noblefathercreations.com/silence/sitemap.xml
+Sitemap: https://noblefathercreations.com/repair/sitemap.xml
+Sitemap: https://noblefathercreations.com/atwill/sitemap.xml
+Sitemap: https://noblefathercreations.com/slowtake/sitemap.xml
+Sitemap: https://noblefathercreations.com/loop/sitemap.xml
+Sitemap: https://noblefathercreations.com/scale/sitemap.xml
 Sitemap: https://noblefathercreations.com/fractal/entertainment/sitemap.xml

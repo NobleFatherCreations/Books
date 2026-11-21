@@ -9,6 +9,9 @@ Ground rules that stay: every title, description and answer is taken from the bo
 - **Not search-ready: The Long After, The Silence, The Repair, At Will, The Slow Take, The Loop, The Weighing.** One page each, text inside JavaScript: crawlers and AI assistants see about 200 words, no title card, no description, no structured data.
 - Google Search Console and Bing Webmaster: verified by the owner. IndexNow ping runs after deploys.
 
+## Progress
+- 2026-11-21: **Round 2 built** (scripts/seo/build_jsbook.py + jsbook_extract.js): 316 chapter pages across the seven books, each with title, description, canonical, Chapter/Book/Breadcrumb data, share card, sitemap, contents page; every chapter links into the Pattern Decoder (423 links, plus a fallback link on chapters that name no pattern); robots.txt lists 17 sitemaps; llms.txt lists every chapter. verify_seo passes on all 7, schema valid on 531 pages, axe clean. **Not deployed** (needs the owner's word: 7 book sites + the homepage for robots/llms).
+
 ## Priority order (biggest gain first)
 | # | Work | Why it moves rankings | Skill / tool |
 |---|---|---|---|

@@ -22,7 +22,8 @@ import seo_common as S
 
 HUB = S.ROOT / "hub"
 FRACTAL_SECTORS = ["entertainment"]   # Fractal sector sites (design/fractal-sector), each its own Netlify site
-BOOKS_WITH_PAGES = ["faith", "children", "feminine", "fractal", "fracture", "wook", "festival"]
+JS_BOOKS = ["longafter", "silence", "repair", "atwill", "slowtake", "loop", "scale"]   # round 2 (scripts/seo/build_jsbook.py)
+BOOKS_WITH_PAGES = ["faith", "children", "feminine", "fractal", "fracture", "wook", "festival"] + JS_BOOKS
 AI_BOTS = ["GPTBot", "OAI-SearchBot", "ChatGPT-User", "ClaudeBot", "Claude-SearchBot", "Claude-User", "PerplexityBot",
            "Perplexity-User", "Google-Extended", "Applebot", "Applebot-Extended", "Amazonbot", "DuckAssistBot",
            "meta-externalagent", "meta-webindexer", "meta-externalfetcher", "MistralAI-User", "CCBot", "Bingbot", "Googlebot"]
@@ -58,6 +59,7 @@ def book_pages(slug):
 
 
 def llms(sites):
+    import importlib
     by = {p["url"].rstrip("/").rsplit("/", 1)[-1]: p for p in sites["projects"]}
     lines = ["# Noble Father Creations", "",
              "> Free books and tools by Shae Stovell for seeing manipulation, coercive control and power clearly, and for "
@@ -68,12 +70,16 @@ def llms(sites):
              "Each page carries a short notice: these are educational resources, not legal, medical or psychological advice.", ""]
     names = {"faith": "The Sacred Divide", "children": "Playground Protectors", "feminine": "The Sovereign Divine Feminine",
              "fractal": "The Fractal", "fracture": "The Fracture", "wook": "The Festie Codex", "festival": "The Festie Bible"}
-    import importlib
+    jb = importlib.import_module("build_jsbook")
+    names.update({b: jb.BOOKS[b]["title"] for b in JS_BOOKS})
     lines.append("## Books with chapter pages")
     lines.append("")
     for b in BOOKS_WITH_PAGES:
-        mod = importlib.import_module(f"build_{b}")
-        desc = mod.BOOK["description"]
+        if b in JS_BOOKS:
+            jb_h = S.read(S.ROOT / "library" / b / "index.html")
+            desc = re.search(r'<meta name="description" content="([^"]*)"', jb_h).group(1)
+        else:
+            desc = importlib.import_module(f"build_{b}").BOOK["description"]
         cont = f"{S.DOMAIN}/{b}/contents" if b != "faith" else f"{S.DOMAIN}/faith"
         lines.append(f"- [{names[b]}]({S.DOMAIN}/{b}): {desc} Contents: {cont}")
     for b in BOOKS_WITH_PAGES:
@@ -88,11 +94,7 @@ def llms(sites):
               f"- [The Pattern Decoder]({S.DOMAIN}/playbook): 310 manipulation and control tactics, each with its own page "
               f"(signs, what it is, what to do). Every tactic: {S.DOMAIN}/playbook/tactics",
               f"- [The Root]({S.DOMAIN}/shadowroot): {by['shadowroot'].get('tagline', 'A shadow work practice')}",
-              f"- [The Listening Room]({S.DOMAIN}/music): free original music", "",
-              "## More books (single page)", ""]
-    for b in ("loop", "scale", "longafter", "silence", "atwill", "repair", "slowtake"):
-        p = by[b]
-        lines.append(f"- [{p['title']}]({S.DOMAIN}/{b}): {p.get('tagline', '')}")
+              f"- [The Listening Room]({S.DOMAIN}/music): free original music", ""]
     lines += ["", "## Optional", "", f"- [Home]({S.DOMAIN}/): the whole catalogue",
               f"- [Topics]({S.DOMAIN}/topics): every term (gaslighting, DARVO, coercive control, harm reduction...) with the chapters that cover it",
               "- Corrections and contact: dapperdadnfc@gmail.com", ""]
