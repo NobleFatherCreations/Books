@@ -71,12 +71,18 @@ for (const [name, w, h] of [['375', 375, 812], ['1440', 1440, 900]]) {
   for (let y = 0; y < H; y += h * 0.7) { await page.evaluate((y) => scrollTo(0, y), y); await page.waitForTimeout(90); }
   await page.waitForTimeout(700);
   const stuck = await page.evaluate(() => [...document.querySelectorAll('main *')].filter((e) => getComputedStyle(e).opacity === '0'
-    && e.getBoundingClientRect().height > 0 && !e.matches('.pair input, .portal .night, .portal .lamp')).length);
-  stuck ? fail(`${stuck} elements stuck invisible after a full scroll`) : ok('nothing stuck invisible after a full scroll');
+    && e.getBoundingClientRect().height > 0 && !e.matches('.pair input, .portal .night, .portal .lamp, .door .burst, .tool .scan, .tool .glare')).map(e => e.className.baseVal ?? e.className));
+  stuck.length ? fail(`${stuck.length} elements stuck invisible after a full scroll: ${stuck.slice(0, 6).join(', ')}`) : ok('nothing stuck invisible after a full scroll');
   const small = await page.evaluate(() => [...document.querySelectorAll('a,button')].filter((e) => { const r = e.getBoundingClientRect(); return r.width && r.height && (r.height < 44 || r.width < 44) && !e.closest('.legal,.skip'); }).map((e) => e.textContent.trim().slice(0, 24)));
   small.length ? fail('tap targets under 44px: ' + small.slice(0, 6).join(' | ')) : ok('every tap target is at least 44px');
   const overflow = await page.evaluate(() => document.documentElement.scrollWidth - innerWidth);
   overflow > 1 ? fail(`horizontal overflow ${overflow}px`) : ok('no horizontal overflow');
+  // v19 batch 3: the door opens with a press-and-hold for pointers, but keyboard and screen readers open it straight away
+  await page.focus('#door-btn'); await page.keyboard.press('Enter'); await page.waitForTimeout(300);
+  const kOpen = await page.evaluate(() => document.querySelector('#door').hasAttribute('data-open'));
+  await page.keyboard.press('Enter'); await page.waitForTimeout(300);
+  const kShut = await page.evaluate(() => !document.querySelector('#door').hasAttribute('data-open'));
+  kOpen && kShut ? ok('keyboard opens and closes the bigger-picture door at once') : fail(`door by keyboard: open ${kOpen}, closed again ${kShut}`);
   // v19 foundations (owner 2026-11-21: every effect, made switchable)
   (await page.evaluate(() => window.__ac)) === 0 ? ok('no sound starts without a tap (rule 5)') : fail('an audio context started without a tap');
   await page.evaluate(() => scrollTo(0, 0)); await page.waitForTimeout(300);

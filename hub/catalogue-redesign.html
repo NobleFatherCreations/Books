@@ -359,13 +359,60 @@ h1 .ln>span{display:block}
 /* after dark (the reader's own clock, never stored): the lamp dims and the halo takes the glow colour */
 .after-dark{--ink:#120e0b}
 .after-dark .halo{background:radial-gradient(circle,#86ecd21f,transparent 62%)}
+
+/* v19 batch 3: header reading line + nav marker + compact header */
+.top{position:sticky}
+.progress{position:absolute;left:0;right:0;bottom:-1px;height:2px;pointer-events:none}
+.progress i{display:block;height:100%;background:var(--brass);transform-origin:0 50%;transform:scaleX(0)}
+.top.is-night .progress i{background:var(--glow);box-shadow:0 0 8px var(--glow)}
+.nav{position:relative}
+.nav .pill{position:absolute;left:0;top:50%;height:44px;margin-top:-22px;width:0;border-radius:999px;background:var(--ink-3);opacity:0;pointer-events:none}
+.nav.has-pill a[aria-current="true"]{background:none}
+.nav a{position:relative}
+.brand{display:inline-block;transform-origin:0 50%;transition:transform .35s var(--ease-out)}
+.top.is-compact .brand{transform:scale(.88)}
+/* shelves: a ledge, spotlight, ruled names, pull-out covers, a glint */
+.shelf{position:relative;background:radial-gradient(420px circle at var(--sx,-999px) var(--sy,-999px),#c9a24a12,transparent 70%)}
+.shelf .rule{display:block;width:min(200px,100%);height:10px;margin-top:6px;overflow:visible}
+.shelf .rule path{fill:none;stroke:var(--brass);stroke-width:1.5;stroke-linecap:round;vector-effect:non-scaling-stroke}
+@media (min-width:901px){.shelf:nth-of-type(even) .rule{margin-left:auto}}
+@media (min-width:901px){.shelf .books{position:relative;align-items:end}.shelf .bk{display:grid;grid-template-rows:auto 72px 64px}.shelf .bk b{margin-top:22px;align-self:start}.shelf .bk small{align-self:start}.shelf .books::after{content:"";position:absolute;left:-16px;right:-16px;bottom:calc(72px + 64px - 4px);height:10px;border-radius:2px;background:linear-gradient(#5a4632,#2b2016);box-shadow:0 12px 24px #000a,inset 0 1px 0 #8a6d4c66;pointer-events:none}.shelf .books>li{position:relative;z-index:1}}
+.bk .cov{transform:perspective(900px) translateY(var(--ly,0px)) rotateY(var(--ty,0deg)) rotate(var(--lr,0deg))}
+@media (hover:hover){.bk:hover .cov{transform:perspective(900px) translateY(-14px) rotateY(calc(var(--ty,0deg) - 14deg)) rotate(-1deg)}}
+.bk .glint{position:absolute;inset:0;z-index:1;background:linear-gradient(105deg,transparent 35%,#fff4 50%,transparent 65%);transform:translateX(-130%);pointer-events:none}
+/* the door: two leaves swing open in 3D, light bursts from the gap; a seam of light under it while shut */
+.door{position:relative;perspective:1400px}
+.door .leafs{position:absolute;inset:0;z-index:3;pointer-events:none;visibility:hidden;transform-style:preserve-3d}
+.door .leafs.is-on{visibility:visible}
+.door-l,.door-r{position:absolute;top:0;bottom:0;width:50%;background:repeating-linear-gradient(90deg,#2a1f15 0 22px,#2f2318 22px 24px),#2a1f15;box-shadow:inset 0 0 0 1px #4a3a29,inset 0 0 40px #0008;backface-visibility:hidden}
+.door-l{left:0;transform-origin:left center;border-radius:8px 0 0 8px}
+.door-r{right:0;transform-origin:right center;border-radius:0 8px 8px 0}
+.door-l::after,.door-r::after{content:"";position:absolute;top:50%;width:10px;height:44px;margin-top:-22px;border-radius:5px;background:linear-gradient(#e7c77d,#8a6a2a)}
+.door-l::after{right:16px}.door-r::after{left:16px}
+.door .burst{position:absolute;left:50%;top:50%;width:10px;height:100%;transform:translate(-50%,-50%);background:radial-gradient(closest-side,#f3dca0,#e7c77d55 40%,transparent);opacity:0}
+.door .seam{position:absolute;left:12%;right:12%;bottom:-1px;height:2px;border-radius:2px;background:linear-gradient(90deg,transparent,#e7c77d,transparent);box-shadow:0 0 12px 2px #e7c77d55;pointer-events:none;transition:opacity .4s var(--ease-out)}
+.door[data-open] .seam{opacity:0}
+.btn.hold{position:relative}
+.btn.hold .ring{width:20px;height:20px;transform:rotate(-90deg);flex:none}
+.btn.hold .ring circle{fill:none;stroke:var(--brass-hi);stroke-width:2.5;stroke-dasharray:63;stroke-dashoffset:calc(63 - 63 * var(--h,0))}
+.btn.hold .ring{display:none}
+@media (hover:hover),(pointer:coarse){.door:not([data-open]) .btn.hold .ring{display:block}}
+/* tools: tilt with a moving glare; the decoder scans, the root grows */
+.tool{position:relative;overflow:hidden;transform:perspective(1000px) rotateX(var(--rx,0deg)) rotateY(var(--ry,0deg))}
+.tool:hover{transform:perspective(1000px) rotateX(var(--rx,0deg)) rotateY(var(--ry,0deg)) translateY(-2px)}
+.tool .glare{position:absolute;inset:0;background:radial-gradient(360px circle at var(--gx,50%) var(--gy,50%),#ffffff14,transparent 60%);opacity:0;transition:opacity .3s var(--ease-out);pointer-events:none}
+@media (hover:hover){.tool:hover .glare{opacity:1}}
+.tool-art{position:relative;display:block}
+.tool .scan{position:absolute;left:0;right:0;top:0;height:3px;background:var(--brass-hi);box-shadow:0 0 14px 3px #e7c77d88;opacity:0;pointer-events:none}
+.tool .roots{position:absolute;left:5%;width:90%;top:92%;height:auto;overflow:visible;pointer-events:none}
+.tool .roots path{fill:none;stroke:#86ecd2aa;stroke-width:1.2;stroke-linecap:round}
 </style>
 </head><body>
 <a class="skip" href="#main">Skip to the books</a>
 <header class="top"><div class="wrap"><a class="brand" href="/">Noble Father</a>
-<nav class="nav" aria-label="Sections"><a href="#library" data-nav="books">Books</a><a href="#tools" data-nav="tools">Tools</a><a href="#music" data-nav="music">Music</a><a href="#art" data-nav="art">Art</a><a href="#guide" data-nav="nfc">NFC guide</a></nav>
+<nav class="nav" aria-label="Sections"><span class="pill" aria-hidden="true"></span><a href="#library" data-nav="books">Books</a><a href="#tools" data-nav="tools">Tools</a><a href="#music" data-nav="music">Music</a><a href="#art" data-nav="art">Art</a><a href="#guide" data-nav="nfc">NFC guide</a></nav>
 <div class="top-actions"><button class="ico" id="sound-btn" type="button" aria-label="Sound" aria-pressed="false" title="Sound is off until you turn it on"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M11 4.702a.705.705 0 0 0-1.203-.498L6.413 7.587A1.4 1.4 0 0 1 5.416 8H3a1 1 0 0 0-1 1v6a1 1 0 0 0 1 1h2.416a1.4 1.4 0 0 1 .997.413l3.383 3.384A.705.705 0 0 0 11 19.298z"/><g class="on"><path d="M16 9a5 5 0 0 1 0 6"/><path d="M19.364 18.364a9 9 0 0 0 0-12.728"/></g><g class="off"><line x1="22" x2="16" y1="9" y2="15"/><line x1="16" x2="22" y1="9" y2="15"/></g></svg><span class="ico-w">Sound</span></button><button class="ico" id="still-btn" type="button" aria-label="Still" aria-pressed="false" title="Stop every moving effect and sound"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="10"/><line x1="10" x2="10" y1="15" y2="9"/><line x1="14" x2="14" y1="15" y2="9"/></svg><span class="ico-w">Still</span></button><button class="menu-btn" id="menu-btn" type="button" aria-label="Menu" aria-expanded="false" aria-controls="sheet"><svg viewBox="0 0 24 24" aria-hidden="true"><line x1="4" x2="20" y1="7" y2="7"/><line x1="4" x2="20" y1="12" y2="12"/><line x1="4" x2="20" y1="17" y2="17"/></svg><span class="menu-w">Menu</span></button>
-<a class="leave" href="https://www.google.com/search?q=weather" data-leave title="Leave this site now (or press Esc twice)">Leave now</a></div></div></header>
+<a class="leave" href="https://www.google.com/search?q=weather" data-leave title="Leave this site now (or press Esc twice)">Leave now</a></div></div><span class="progress" aria-hidden="true"><i></i></span></header>
 <div class="sheet" id="sheet" hidden><div class="sheet-panel" role="dialog" aria-modal="true" aria-label="Menu"><a href="#library">Books</a><a href="#tools">Tools</a><a href="#music">Music</a><a href="#art">Art</a><a href="#guide">NFC guide</a><a href="/topics">Topics A to Z</a><a href="#support">Support the work</a><div class="sheet-row"><button class="btn sheet-sound" id="sheet-still" type="button" aria-pressed="false"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="10"/><line x1="10" x2="10" y1="15" y2="9"/><line x1="14" x2="14" y1="15" y2="9"/></svg>Still</button><button class="btn sheet-sound" id="sheet-sound" type="button" aria-pressed="false"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M11 4.702a.705.705 0 0 0-1.203-.498L6.413 7.587A1.4 1.4 0 0 1 5.416 8H3a1 1 0 0 0-1 1v6a1 1 0 0 0 1 1h2.416a1.4 1.4 0 0 1 .997.413l3.383 3.384A.705.705 0 0 0 11 19.298z"/><g class="on"><path d="M16 9a5 5 0 0 1 0 6"/><path d="M19.364 18.364a9 9 0 0 0 0-12.728"/></g><g class="off"><line x1="22" x2="16" y1="9" y2="15"/><line x1="16" x2="22" y1="9" y2="15"/></g></svg>Sound</button></div><button class="btn sheet-close" id="sheet-close" type="button">Close</button></div></div>
 <div class="ribbon" aria-hidden="true"><div class="ribbon-track"><span>The Long After</span><span>The Silence</span><span>At Will</span><span>The Repair</span><span>The Loop</span><span>The Weighing</span><span>The Slow Take</span><span>The Sovereign Divine Feminine</span><span>The Long After</span><span>The Silence</span><span>At Will</span><span>The Repair</span><span>The Loop</span><span>The Weighing</span><span>The Slow Take</span><span>The Sovereign Divine Feminine</span></div></div>
 <main id="main">
@@ -385,16 +432,16 @@ h1 .ln>span{display:block}
 
 <section class="sec" id="library" data-nav="books"><div class="wrap">
 <div class="sec-head"><h2>The library</h2><p class="muted">Fourteen free books. Find the shelf that sounds like your life; each one opens straight to the first chapter.</p></div>
-<div class="shelf" id="shelf-close"><div><h3>Someone close to me</h3><p class="why">A partner, an ex, a friend, a family member.</p></div><ul class="books" aria-label="Someone close to me"><li><a class="bk" href="/feminine"><span class="cov" style="aspect-ratio:480/694"><img src="/media/v18/feminine-480.webp" width="480" height="694" alt="" loading="lazy" decoding="async"></span><b>The Sovereign Divine Feminine</b><small>A field guide for women</small></a></li><li><a class="bk" href="/longafter"><span class="cov" style="aspect-ratio:480/715"><img src="/media/v18/longafter-480.webp" width="480" height="715" alt="" loading="lazy" decoding="async"></span><b>The Long After</b><small>What happens once you&#x27;ve left</small></a></li><li><a class="bk" href="/silence"><span class="cov" style="aspect-ratio:480/715"><img src="/media/v18/silence-480.webp" width="480" height="715" alt="" loading="lazy" decoding="async"></span><b>The Silence</b><small>For men nobody thought to ask</small></a></li><li><a class="bk" href="/repair"><span class="cov" style="aspect-ratio:480/715"><img src="/media/v18/repair-480.webp" width="480" height="715" alt="" loading="lazy" decoding="async"></span><b>The Repair</b><small>If you were the one who hurt someone</small></a></li></ul></div><div class="shelf" id="shelf-work"><div><h3>Work, money and family</h3><p class="why">Bosses, money, children, ageing parents.</p></div><ul class="books" aria-label="Work, money and family"><li><a class="bk" href="/atwill"><span class="cov" style="aspect-ratio:480/715"><img src="/media/v18/atwill-480.webp" width="480" height="715" alt="" loading="lazy" decoding="async"></span><b>At Will</b><small>The coercive workplace</small></a></li><li><a class="bk" href="/slowtake"><span class="cov" style="aspect-ratio:480/715"><img src="/media/v18/slowtake-480.webp" width="480" height="715" alt="" loading="lazy" decoding="async"></span><b>The Slow Take</b><small>Coercion in later life, for the adult child</small></a></li><li><a class="bk" href="/children"><span class="cov" style="aspect-ratio:480/720"><img src="/media/v18/children-480.webp" width="480" height="720" alt="" loading="lazy" decoding="async"></span><b>Playground Protectors</b><small>Shaela&#x27;s guide for brave kids</small></a></li></ul></div><div class="shelf" id="shelf-screens"><div><h3>Screens and judgement</h3><p class="why">Your feed, and the people you size up.</p></div><ul class="books" aria-label="Screens and judgement"><li><a class="bk" href="/loop"><span class="cov" style="aspect-ratio:480/715"><img src="/media/v18/loop-480.webp" width="480" height="715" alt="" loading="lazy" decoding="async"></span><b>The Loop</b><small>The machine that learns you</small></a></li><li><a class="bk" href="/scale"><span class="cov" style="aspect-ratio:480/715"><img src="/media/v18/scale-480.webp" width="480" height="715" alt="" loading="lazy" decoding="async"></span><b>The Weighing</b><small>How to be right about people</small></a></li></ul></div><div class="shelf" id="shelf-festival"><div><h3>Festivals</h3><p class="why">For the field, at night.</p></div><ul class="books" aria-label="Festivals"><li><a class="bk" href="/wook"><span class="cov" style="aspect-ratio:480/643"><img src="/media/v18/wook-480.webp" width="480" height="643" alt="" loading="lazy" decoding="async"></span><b>The Festie Codex</b><small>Spotting wooks in sheep&#x27;s clothing</small></a></li><li><a class="bk" href="/festival"><span class="cov" style="aspect-ratio:480/643"><img src="/media/v18/festival-480.webp" width="480" height="643" alt="" loading="lazy" decoding="async"></span><b>The Festie Bible</b><small>Twelve guides for the festival world</small></a></li></ul></div>
-<div class="door" id="door"><div class="door-head"><div class="spines" aria-hidden="true"><i style="background-image:url(/media/v18/fractal-480.webp)"></i><i style="background-image:url(/media/v18/fracture-480.webp)"></i><i style="background-image:url(/media/v18/faith-480.webp)"></i></div>
+<div class="shelf" id="shelf-close"><div><h3>Someone close to me</h3><svg class="rule" viewBox="0 0 200 10" preserveAspectRatio="none" aria-hidden="true"><path d="M2 6 C40 3 80 8 120 5 S180 3 198 6"/></svg><p class="why">A partner, an ex, a friend, a family member.</p></div><ul class="books" aria-label="Someone close to me"><li><a class="bk" href="/feminine"><span class="cov" style="aspect-ratio:480/694"><img src="/media/v18/feminine-480.webp" width="480" height="694" alt="" loading="lazy" decoding="async"><span class="glint" aria-hidden="true"></span></span><b>The Sovereign Divine Feminine</b><small>A field guide for women</small></a></li><li><a class="bk" href="/longafter"><span class="cov" style="aspect-ratio:480/715"><img src="/media/v18/longafter-480.webp" width="480" height="715" alt="" loading="lazy" decoding="async"><span class="glint" aria-hidden="true"></span></span><b>The Long After</b><small>What happens once you&#x27;ve left</small></a></li><li><a class="bk" href="/silence"><span class="cov" style="aspect-ratio:480/715"><img src="/media/v18/silence-480.webp" width="480" height="715" alt="" loading="lazy" decoding="async"><span class="glint" aria-hidden="true"></span></span><b>The Silence</b><small>For men nobody thought to ask</small></a></li><li><a class="bk" href="/repair"><span class="cov" style="aspect-ratio:480/715"><img src="/media/v18/repair-480.webp" width="480" height="715" alt="" loading="lazy" decoding="async"><span class="glint" aria-hidden="true"></span></span><b>The Repair</b><small>If you were the one who hurt someone</small></a></li></ul></div><div class="shelf" id="shelf-work"><div><h3>Work, money and family</h3><svg class="rule" viewBox="0 0 200 10" preserveAspectRatio="none" aria-hidden="true"><path d="M2 6 C40 3 80 8 120 5 S180 3 198 6"/></svg><p class="why">Bosses, money, children, ageing parents.</p></div><ul class="books" aria-label="Work, money and family"><li><a class="bk" href="/atwill"><span class="cov" style="aspect-ratio:480/715"><img src="/media/v18/atwill-480.webp" width="480" height="715" alt="" loading="lazy" decoding="async"><span class="glint" aria-hidden="true"></span></span><b>At Will</b><small>The coercive workplace</small></a></li><li><a class="bk" href="/slowtake"><span class="cov" style="aspect-ratio:480/715"><img src="/media/v18/slowtake-480.webp" width="480" height="715" alt="" loading="lazy" decoding="async"><span class="glint" aria-hidden="true"></span></span><b>The Slow Take</b><small>Coercion in later life, for the adult child</small></a></li><li><a class="bk" href="/children"><span class="cov" style="aspect-ratio:480/720"><img src="/media/v18/children-480.webp" width="480" height="720" alt="" loading="lazy" decoding="async"><span class="glint" aria-hidden="true"></span></span><b>Playground Protectors</b><small>Shaela&#x27;s guide for brave kids</small></a></li></ul></div><div class="shelf" id="shelf-screens"><div><h3>Screens and judgement</h3><svg class="rule" viewBox="0 0 200 10" preserveAspectRatio="none" aria-hidden="true"><path d="M2 6 C40 3 80 8 120 5 S180 3 198 6"/></svg><p class="why">Your feed, and the people you size up.</p></div><ul class="books" aria-label="Screens and judgement"><li><a class="bk" href="/loop"><span class="cov" style="aspect-ratio:480/715"><img src="/media/v18/loop-480.webp" width="480" height="715" alt="" loading="lazy" decoding="async"><span class="glint" aria-hidden="true"></span></span><b>The Loop</b><small>The machine that learns you</small></a></li><li><a class="bk" href="/scale"><span class="cov" style="aspect-ratio:480/715"><img src="/media/v18/scale-480.webp" width="480" height="715" alt="" loading="lazy" decoding="async"><span class="glint" aria-hidden="true"></span></span><b>The Weighing</b><small>How to be right about people</small></a></li></ul></div><div class="shelf" id="shelf-festival"><div><h3>Festivals</h3><svg class="rule" viewBox="0 0 200 10" preserveAspectRatio="none" aria-hidden="true"><path d="M2 6 C40 3 80 8 120 5 S180 3 198 6"/></svg><p class="why">For the field, at night.</p></div><ul class="books" aria-label="Festivals"><li><a class="bk" href="/wook"><span class="cov" style="aspect-ratio:480/643"><img src="/media/v18/wook-480.webp" width="480" height="643" alt="" loading="lazy" decoding="async"><span class="glint" aria-hidden="true"></span></span><b>The Festie Codex</b><small>Spotting wooks in sheep&#x27;s clothing</small></a></li><li><a class="bk" href="/festival"><span class="cov" style="aspect-ratio:480/643"><img src="/media/v18/festival-480.webp" width="480" height="643" alt="" loading="lazy" decoding="async"><span class="glint" aria-hidden="true"></span></span><b>The Festie Bible</b><small>Twelve guides for the festival world</small></a></li></ul></div>
+<div class="door" id="door"><span class="leafs" aria-hidden="true"><span class="door-l"></span><span class="door-r"></span><span class="burst"></span></span><span class="seam" aria-hidden="true"></span><div class="door-head"><div class="spines" aria-hidden="true"><i style="background-image:url(/media/v18/fractal-480.webp)"></i><i style="background-image:url(/media/v18/fracture-480.webp)"></i><i style="background-image:url(/media/v18/faith-480.webp)"></i></div>
 <div><h3>The bigger picture</h3><p class="muted">Three longer books for when you want to see how it all connects: one pattern running through relationships, institutions and belief.</p></div>
-<button class="btn" id="door-btn" type="button" aria-expanded="false" aria-controls="door-body">Open the bigger picture</button></div>
-<div class="door-body" id="door-body" inert><div><ul class="books" aria-label="The bigger picture"><li><a class="bk" href="/fractal"><span class="cov" style="aspect-ratio:480/715"><img src="/media/v18/fractal-480.webp" width="480" height="715" alt="" loading="lazy" decoding="async"></span><b>The Fractal</b><small>One pattern, eight stages, thirty techniques</small></a></li><li><a class="bk" href="/fracture"><span class="cov" style="aspect-ratio:480/715"><img src="/media/v18/fracture-480.webp" width="480" height="715" alt="" loading="lazy" decoding="async"></span><b>The Fracture</b><small>The pattern at work in real lives</small></a></li><li><a class="bk" href="/faith"><span class="cov" style="aspect-ratio:480/715"><img src="/media/v18/faith-480.webp" width="480" height="715" alt="" loading="lazy" decoding="async"></span><b>The Sacred Divide</b><small>Honor the faith, name the machinery</small></a></li></ul></div></div></div>
+<button class="btn hold" id="door-btn" type="button" aria-expanded="false" aria-controls="door-body"><svg class="ring" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="10"/></svg><span class="lbl">Open the bigger picture</span></button></div>
+<div class="door-body" id="door-body" inert><div><ul class="books" aria-label="The bigger picture"><li><a class="bk" href="/fractal"><span class="cov" style="aspect-ratio:480/715"><img src="/media/v18/fractal-480.webp" width="480" height="715" alt="" loading="lazy" decoding="async"><span class="glint" aria-hidden="true"></span></span><b>The Fractal</b><small>One pattern, eight stages, thirty techniques</small></a></li><li><a class="bk" href="/fracture"><span class="cov" style="aspect-ratio:480/715"><img src="/media/v18/fracture-480.webp" width="480" height="715" alt="" loading="lazy" decoding="async"><span class="glint" aria-hidden="true"></span></span><b>The Fracture</b><small>The pattern at work in real lives</small></a></li><li><a class="bk" href="/faith"><span class="cov" style="aspect-ratio:480/715"><img src="/media/v18/faith-480.webp" width="480" height="715" alt="" loading="lazy" decoding="async"><span class="glint" aria-hidden="true"></span></span><b>The Sacred Divide</b><small>Honor the faith, name the machinery</small></a></li></ul></div></div></div>
 </div></section>
 
 <section class="sec" id="tools" data-nav="tools" style="padding-top:0"><span class="anchor" id="instruments"></span><div class="wrap">
 <div class="sec-head"><h2>Free tools</h2><p class="muted">For when you need a name for something, or a few quiet minutes.</p></div>
-<div class="tools"><a class="tool" href="/playbook"><img src="/media/v18/playbook-480.webp" width="480" height="715" alt="" loading="lazy" decoding="async"><span><h3>The Pattern Decoder</h3><p class="muted">335 tactics in plain words: what each looks like, what it isn&#x27;t, and a safe next step.</p></span></a><a class="tool" href="/shadowroot"><img src="/media/v18/shadowroot-480.webp" width="480" height="715" alt="" loading="lazy" decoding="async"><span><h3>The Root</h3><p class="muted">A shadow-work practice in eighteen guided steps. Three minutes or an evening.</p></span></a></div></div></section>
+<div class="tools"><a class="tool tool-playbook" href="/playbook"><span class="tool-art"><img src="/media/v18/playbook-480.webp" width="480" height="715" alt="" loading="lazy" decoding="async"><span class="scan" aria-hidden="true"></span></span><span class="glare" aria-hidden="true"></span><span><h3>The Pattern Decoder</h3><p class="muted">335 tactics in plain words: what each looks like, what it isn&#x27;t, and a safe next step.</p></span></a><a class="tool tool-shadowroot" href="/shadowroot"><span class="tool-art"><img src="/media/v18/shadowroot-480.webp" width="480" height="715" alt="" loading="lazy" decoding="async"><svg class="roots" viewBox="0 0 200 120" aria-hidden="true"><path d="M100 0 C100 30 96 48 84 66 S60 96 40 118"/><path d="M100 0 C102 34 110 52 124 70 S150 98 168 116"/><path d="M98 26 C86 40 70 46 52 50"/><path d="M103 40 C118 52 134 56 152 58"/><path d="M90 62 C84 80 86 98 92 116"/><path d="M118 66 C124 84 122 100 116 118"/></svg></span><span class="glare" aria-hidden="true"></span><span><h3>The Root</h3><p class="muted">A shadow-work practice in eighteen guided steps. Three minutes or an evening.</p></span></a></div></div></section>
 
 <section class="sec music" id="music" data-nav="music"><div class="wrap"><div class="music-head"><div><h2>The Listening Room</h2><p class="muted" style="margin-top:16px">Songs written and produced by Shae: call-outs, love songs, festival anthems.</p></div>
 <p class="more is-off">176 songs, back soon</p></div>
@@ -457,6 +504,18 @@ h1 .ln>span{display:block}
 (function(B,A){typeof exports=="object"&&typeof module!="undefined"?A(exports):typeof define=="function"&&define.amd?define(["exports"],A):(B=typeof globalThis!="undefined"?globalThis:B||self,A(B.window=B.window||{}))})(this,function(B){"use strict";let A,_,G,re=()=>G||U.register(window.gsap),V=typeof Intl!="undefined"?new Intl.Segmenter:0,P=e=>typeof e=="string"?P(document.querySelectorAll(e)):"length"in e?Array.from(e):[e],X=e=>P(e).filter(t=>t instanceof HTMLElement),J=[],K=function(){},oe=/\s+/g,Y=new RegExp("\\p{RI}\\p{RI}|\\p{Emoji}(\\p{EMod}|\\u{FE0F}\\u{20E3}?|[\\u{E0020}-\\u{E007E}]+\\u{E007F})?(\\u{200D}\\p{Emoji}(\\p{EMod}|\\u{FE0F}\\u{20E3}?|[\\u{E0020}-\\u{E007E}]+\\u{E007F})?)*|.","gu"),Z={left:0,top:0,width:0,height:0},ee=(e,t)=>{if(t){let s=new Set(e.join("").match(t)||J),i=e.length,o,c,n,a;if(s.size)for(;--i>-1;){c=e[i];for(n of s)if(n.startsWith(c)&&n.length>c.length){for(o=0,a=c;n.startsWith(a+=e[i+ ++o])&&a.length<n.length;);if(o&&a.length===n.length){e[i]=n,e.splice(i+1,o);break}}}}return e},te=e=>window.getComputedStyle(e).display==="inline"&&(e.style.display="inline-block"),z=(e,t,s)=>t.insertBefore(typeof e=="string"?document.createTextNode(e):e,s),Q=(e,t,s)=>{let i=t[e+"sClass"]||"",{tag:o="div",aria:c="auto",propIndex:n=!1}=t,a=e==="line"?"block":"inline-block",h=i.indexOf("++")>-1,b=x=>{let g=document.createElement(o),C=s.length+1;return i&&(g.className=i+(h?" "+i+C:"")),n&&g.style.setProperty("--"+e,C+""),c!=="none"&&g.setAttribute("aria-hidden","true"),o!=="span"&&(g.style.position="relative",g.style.display=a),g.textContent=x,s.push(g),g};return h&&(i=i.replace("++","")),b.collection=s,b},ae=(e,t,s,i)=>{let o=Q("line",s,i),c=window.getComputedStyle(e).textAlign||"left";return(n,a)=>{let h=o("");for(h.style.textAlign=c,e.insertBefore(h,t[n]);n<a;n++)h.appendChild(t[n]);h.normalize()}},ie=(e,t,s,i,o,c,n,a,h,b)=>{var x;let g=Array.from(e.childNodes),C=0,{wordDelimiter:R,reduceWhiteSpace:L=!0,prepareText:$}=t,q=e.getBoundingClientRect(),j=q,D=!L&&window.getComputedStyle(e).whiteSpace.substring(0,3)==="pre",E=0,v=s.collection,r,f,H,l,m,y,I,d,u,W,S,O,T,F,w,p,k,N;for(typeof R=="object"?(H=R.delimiter||R,f=R.replaceWith||""):f=R===""?"":R||" ",r=f!==" ";C<g.length;C++)if(l=g[C],l.nodeType===3){for(w=l.textContent||"",L?w=w.replace(oe," "):D&&(w=w.replace(/\n/g,f+`
 `)),$&&(w=$(w,e)),l.textContent=w,m=f||H?w.split(H||f):w.match(a)||J,k=m[m.length-1],d=r?k.slice(-1)===" ":!k,k||m.pop(),j=q,I=r?m[0].charAt(0)===" ":!m[0],I&&z(" ",e,l),m[0]||m.shift(),ee(m,h),c&&b||(l.textContent=""),u=1;u<=m.length;u++)if(p=m[u-1],!L&&D&&p.charAt(0)===`
 `&&((x=l.previousSibling)==null||x.remove(),z(document.createElement("br"),e,l),p=p.slice(1)),!L&&p==="")z(f,e,l);else if(p===" ")e.insertBefore(document.createTextNode(" "),l);else{if(r&&p.charAt(0)===" "&&z(" ",e,l),E&&u===1&&!I&&v.indexOf(E.parentNode)>-1?(y=v[v.length-1],y.appendChild(document.createTextNode(i?"":p))):(y=s(i?"":p),z(y,e,l),E&&u===1&&!I&&y.insertBefore(E,y.firstChild)),i)for(S=V?ee([...V.segment(p)].map(M=>M.segment),h):p.match(a)||J,N=0;N<S.length;N++)y.appendChild(S[N]===" "?document.createTextNode(" "):i(S[N]));if(c&&b){if(w=l.textContent=w.substring(p.length+1,w.length),W=y.getBoundingClientRect(),W.top>j.top&&W.left<=j.left){for(O=e.cloneNode(),T=e.childNodes[0];T&&T!==y;)F=T,T=T.nextSibling,O.appendChild(F);e.parentNode.insertBefore(O,e),o&&te(O)}j=W}(u<m.length||d)&&z(u>=m.length?" ":r&&p.slice(-1)===" "?" "+f:f,e,l)}e.removeChild(l),E=0}else l.nodeType===1&&(n&&n.indexOf(l)>-1?(v.indexOf(l.previousSibling)>-1&&v[v.length-1].appendChild(l),E=l):(ie(l,t,s,i,o,c,n,a,h,!0),E=0),o&&te(l))};const ne=class se{constructor(t,s){this.isSplit=!1,re(),this.elements=X(t),this.chars=[],this.words=[],this.lines=[],this.masks=[],this.vars=s,this._split=()=>this.isSplit&&this.split(this.vars);let i=[],o,c=()=>{let n=i.length,a;for(;n--;){a=i[n];let h=a.element.offsetWidth;if(h!==a.width){a.width=h,this._split();return}}};this._data={orig:i,obs:typeof ResizeObserver!="undefined"&&new ResizeObserver(()=>{clearTimeout(o),o=setTimeout(c,200)})},K(this),this.split(s)}split(t){this.isSplit&&this.revert(),this.vars=t=t||this.vars||{};let{type:s="chars,words,lines",aria:i="auto",deepSlice:o=!0,smartWrap:c,onSplit:n,autoSplit:a=!1,specialChars:h,mask:b}=this.vars,x=s.indexOf("lines")>-1,g=s.indexOf("chars")>-1,C=s.indexOf("words")>-1,R=g&&!C&&!x,L=h&&("push"in h?new RegExp("(?:"+h.join("|")+")","gu"):h),$=L?new RegExp(L.source+"|"+Y.source,"gu"):Y,q=!!t.ignore&&X(t.ignore),{orig:j,animTime:D,obs:E}=this._data,v;return(g||C||x)&&(this.elements.forEach((r,f)=>{j[f]={element:r,html:r.innerHTML,ariaL:r.getAttribute("aria-label"),ariaH:r.getAttribute("aria-hidden")},i==="auto"?r.setAttribute("aria-label",(r.textContent||"").trim()):i==="hidden"&&r.setAttribute("aria-hidden","true");let H=[],l=[],m=[],y=g?Q("char",t,H):null,I=Q("word",t,l),d,u,W,S;if(ie(r,t,I,y,R,o&&(x||R),q,$,L,!1),x){let O=P(r.childNodes),T=ae(r,O,t,m),F,w=[],p=0,k=O.map(M=>M.nodeType===1?M.getBoundingClientRect():Z),N=Z;for(d=0;d<O.length;d++)F=O[d],F.nodeType===1&&(F.nodeName==="BR"?(w.push(F),T(p,d+1),p=d+1,N=k[p]):(d&&k[d].top>N.top&&k[d].left<=N.left&&(T(p,d),p=d),N=k[d]));p<d&&T(p,d),w.forEach(M=>{var le;return(le=M.parentNode)==null?void 0:le.removeChild(M)})}if(!C){for(d=0;d<l.length;d++)if(u=l[d],g||!u.nextSibling||u.nextSibling.nodeType!==3)if(c&&!x){for(W=document.createElement("span"),W.style.whiteSpace="nowrap";u.firstChild;)W.appendChild(u.firstChild);u.replaceWith(W)}else u.replaceWith(...u.childNodes);else S=u.nextSibling,S&&S.nodeType===3&&(S.textContent=(u.textContent||"")+(S.textContent||""),u.remove());l.length=0,r.normalize()}this.lines.push(...m),this.words.push(...l),this.chars.push(...H)}),b&&this[b]&&this.masks.push(...this[b].map(r=>{let f=r.cloneNode();return r.replaceWith(f),f.appendChild(r),r.className&&(f.className=r.className.replace(/(\b\w+\b)/g,"$1-mask")),f.style.overflow="clip",f}))),this.isSplit=!0,_&&(a?_.addEventListener("loadingdone",this._split):_.status==="loading"&&console.warn("SplitText called before fonts loaded")),(v=n&&n(this))&&v.totalTime&&(this._data.anim=D?v.totalTime(D):v),x&&a&&this.elements.forEach((r,f)=>{j[f].width=r.offsetWidth,E&&E.observe(r)}),this}revert(){var t,s;let{orig:i,anim:o,obs:c}=this._data;return c&&c.disconnect(),i.forEach(({element:n,html:a,ariaL:h,ariaH:b})=>{n.innerHTML=a,h?n.setAttribute("aria-label",h):n.removeAttribute("aria-label"),b?n.setAttribute("aria-hidden",b):n.removeAttribute("aria-hidden")}),this.chars.length=this.words.length=this.lines.length=i.length=this.masks.length=0,this.isSplit=!1,_==null||_.removeEventListener("loadingdone",this._split),o&&(this._data.animTime=o.totalTime(),o.revert()),(s=(t=this.vars).onRevert)==null||s.call(t,this),this}static create(t,s){return new se(t,s)}static register(t){A=A||t||window.gsap,A&&(P=A.utils.toArray,K=A.core.context||K),!G&&window.innerWidth>0&&(_=document.fonts,G=!0)}};ne.version="3.13.0";let U=ne;B.SplitText=U,B.default=U,Object.defineProperty(B,"__esModule",{value:!0})});
+
+/*!
+ * DrawSVGPlugin 3.13.0
+ * https://gsap.com
+ * 
+ * @license Copyright 2025, GreenSock. All rights reserved.
+ * Subject to the terms at https://gsap.com/standard-license.
+ * @author: Jack Doyle, jack@greensock.com
+ */
+
+!function(e,t){"object"==typeof exports&&"undefined"!=typeof module?t(exports):"function"==typeof define&&define.amd?define(["exports"],t):t((e=e||self).window=e.window||{})}(this,function(e){"use strict";function l(){return"undefined"!=typeof window}function m(){return t||l()&&(t=window.gsap)&&t.registerPlugin&&t}function p(e){return Math.round(1e4*e)/1e4}function q(e){return parseFloat(e)||0}function r(e,t){var r=q(e);return~e.indexOf("%")?r/100*t:r}function s(e,t){return q(e.getAttribute(t))}function u(e,t,r,n,s,i){return D(Math.pow((q(r)-q(e))*s,2)+Math.pow((q(n)-q(t))*i,2))}function v(e){return console.warn(e)}function w(e){return"non-scaling-stroke"===e.getAttribute("vector-effect")}function z(e){if(!(e=k(e)[0]))return 0;var t,r,n,i,o,a,f,h=e.tagName.toLowerCase(),l=e.style,d=1,c=1;w(e)&&(c=e.getScreenCTM(),d=D(c.a*c.a+c.b*c.b),c=D(c.d*c.d+c.c*c.c));try{r=e.getBBox()}catch(e){v("Some browsers won't measure invisible elements (like display:none or masks inside defs).")}var g=r||{x:0,y:0,width:0,height:0},_=g.x,y=g.y,x=g.width,m=g.height;if(r&&(x||m)||!M[h]||(x=s(e,M[h][0]),m=s(e,M[h][1]),"rect"!==h&&"line"!==h&&(x*=2,m*=2),"line"===h&&(_=s(e,"x1"),y=s(e,"y1"),x=Math.abs(x-_),m=Math.abs(m-y))),"path"===h)i=l.strokeDasharray,l.strokeDasharray="none",t=e.getTotalLength()||0,p(d)!==p(c)&&!b&&(b=1)&&v("Warning: <path> length cannot be measured when vector-effect is non-scaling-stroke and the element isn't proportionally scaled."),t*=(d+c)/2,l.strokeDasharray=i;else if("rect"===h)t=2*x*d+2*m*c;else if("line"===h)t=u(_,y,_+x,y+m,d,c);else if("polyline"===h||"polygon"===h)for(n=e.getAttribute("points").match(P)||[],"polygon"===h&&n.push(n[0],n[1]),t=0,o=2;o<n.length;o+=2)t+=u(n[o-2],n[o-1],n[o],n[o+1],d,c)||0;else"circle"!==h&&"ellipse"!==h||(a=x/2*d,f=m/2*c,t=Math.PI*(3*(a+f)-D((3*a+f)*(a+3*f))));return t||0}function A(e,t){if(!(e=k(e)[0]))return[0,0];t=t||z(e)+1;var r=f.getComputedStyle(e),n=r.strokeDasharray||"",s=q(r.strokeDashoffset),i=n.indexOf(",");return i<0&&(i=n.indexOf(" ")),t<(n=i<0?t:q(n.substr(0,i)))&&(n=t),[-s||0,n-s||0]}function B(){l()&&(f=window,d=t=m(),k=t.utils.toArray,c=t.core.getStyleSaver,g=t.core.reverting||function(){},h=-1!==((f.navigator||{}).userAgent||"").indexOf("Edge"))}var t,k,f,h,d,b,c,g,P=/[-+=\.]*\d+[\.e\-\+]*\d*[e\-\+]*\d*/gi,M={rect:["width","height"],circle:["r","r"],ellipse:["rx","ry"],line:["x2","y2"]},D=Math.sqrt,n={version:"3.13.0",name:"drawSVG",register:function register(e){t=e,B()},init:function init(e,t,n){if(!e.getBBox)return!1;d||B();var s,i,o,a=z(e);return this.styles=c&&c(e,"strokeDashoffset,strokeDasharray,strokeMiterlimit"),this.tween=n,this._style=e.style,this._target=e,t+""=="true"?t="0 100%":t?-1===(t+"").indexOf(" ")&&(t="0 "+t):t="0 0",i=function _parse(e,t,n){var s,i,o=e.indexOf(" ");return i=o<0?(s=void 0!==n?n+"":e,e):(s=e.substr(0,o),e.substr(o+1)),s=r(s,t),(i=r(i,t))<s?[i,s]:[s,i]}(t,a,(s=A(e,a))[0]),this._length=p(a),this._dash=p(s[1]-s[0]),this._offset=p(-s[0]),this._dashPT=this.add(this,"_dash",this._dash,p(i[1]-i[0]),0,0,0,0,0,1),this._offsetPT=this.add(this,"_offset",this._offset,p(-i[0]),0,0,0,0,0,1),h&&(o=f.getComputedStyle(e)).strokeLinecap!==o.strokeLinejoin&&(i=q(o.strokeMiterlimit),this.add(e.style,"strokeMiterlimit",i,i+.01)),this._live=w(e)||~(t+"").indexOf("live"),this._nowrap=~(t+"").indexOf("nowrap"),this._props.push("drawSVG"),1},render:function render(e,t){if(t.tween._time||!g()){var r,n,s,i,o=t._pt,a=t._style;if(o){for(t._live&&(r=z(t._target))!==t._length&&(n=r/t._length,t._length=r,t._offsetPT&&(t._offsetPT.s*=n,t._offsetPT.c*=n),t._dashPT?(t._dashPT.s*=n,t._dashPT.c*=n):t._dash*=n);o;)o.r(e,o.d),o=o._next;s=t._dash||e&&1!==e&&1e-4||0,r=t._length-s+.1,i=t._offset,s&&i&&s+Math.abs(i%t._length)>t._length-.05&&(i+=i<0?.005:-.005)&&(r+=.005),a.strokeDashoffset=s?i:i+.001,a.strokeDasharray=r<.1?"none":s?s+"px,"+(t._nowrap?999999:r)+"px":"0px, 999999px"}}else t.styles.revert()},getLength:z,getPosition:A};m()&&t.registerPlugin(n),e.DrawSVGPlugin=n,e.default=n;if (typeof(window)==="undefined"||window!==e){Object.defineProperty(e,"__esModule",{value:!0})} else {delete e.default}});
+
 </script>
 <script>/* Homepage v18 behaviour. Content works without this script; it only adds the interactions.
    Motion layers on the hero book (never two tweens on one property):
@@ -649,15 +708,48 @@ h1 .ln>span{display:block}
 
   /* ---------- The bigger picture door ---------- */
   const door = $('#door'), doorBtn = $('#door-btn');
-  doorBtn.addEventListener('click', () => {
+  const doorLbl = $('.lbl', doorBtn), leafs = $('.leafs', door);
+  let holdT = null, held = false, fromPointer = false;
+  const swing = () => {
+    if (!hasG || calm()) return;
+    leafs.style.height = $('.door-head', door).offsetHeight + 'px'; leafs.classList.add('is-on');
+    gsap.timeline({ onComplete: () => { leafs.classList.remove('is-on'); gsap.set('.door-l, .door-r, .door .burst', { clearProps: 'all' }); leafs.style.height = ''; } })
+      .fromTo('.door .burst', { opacity: 0, scaleX: 1 }, { opacity: 1, scaleX: 3, duration: .25, ease: 'power2.out' })
+      .to('.door-l', { rotateY: -96, duration: 1.15, ease: 'power2.inOut' }, .15)
+      .to('.door-r', { rotateY: 96, duration: 1.15, ease: 'power2.inOut' }, .15)
+      .to('.door .burst', { scaleX: 60, opacity: 0, duration: 1, ease: 'power2.out' }, .45);
+  };
+  const toggleDoor = () => {
     const open = !door.hasAttribute('data-open'); snd.play('door'); buzz(open ? [10, 40, 16] : 8);
+    if (open) swing();
     door.toggleAttribute('data-open', open);
     doorBtn.setAttribute('aria-expanded', String(open));
-    doorBtn.textContent = open ? 'Close the bigger picture' : 'Open the bigger picture';
+    doorLbl.textContent = open ? 'Close the bigger picture' : 'Open the bigger picture';
     $('#door-body').inert = !open;
     if (hasG && !calm()) gsap.to('.spines i', { rotate: open ? -14 : 0, opacity: open ? .35 : 1, duration: .45, stagger: .06, ease: 'power2.out' });
-    if (open && hasG && !calm()) gsap.from('#door-body .bk', { y: 24, rotate: -2, opacity: 0, duration: .55, stagger: .09, ease: 'power3.out', delay: .1, clearProps: 'all' });
+    if (open && hasG && !calm()) gsap.from('#door-body .bk', { y: 24, rotate: -2, opacity: 0, duration: .55, stagger: .09, ease: 'power3.out', delay: .4, clearProps: 'all' });
+  };
+  const HOLD_S = .7;
+  doorBtn.addEventListener('pointerdown', e => {
+    if (e.button > 0) return; fromPointer = true;
+    if (door.hasAttribute('data-open')) return;   // closing is a plain tap
+    held = false; doorLbl.textContent = 'Keep holding';
+    const v = { h: 0 };
+    holdT = (hasG ? gsap.to(v, { h: 1, duration: HOLD_S, ease: 'none', onUpdate: () => doorBtn.style.setProperty('--h', v.h), onComplete: () => { held = true; doorBtn.style.setProperty('--h', 0); toggleDoor(); } }) : null);
+    if (!hasG) { held = true; toggleDoor(); }
+    buzz(5);
   });
+  const endHold = () => {
+    if (holdT && !held) { holdT.kill(); doorBtn.style.setProperty('--h', 0); if (!door.hasAttribute('data-open')) doorLbl.textContent = 'Open the bigger picture'; }
+    holdT = null;
+  };
+  doorBtn.addEventListener('pointerup', endHold); doorBtn.addEventListener('pointerleave', endHold); doorBtn.addEventListener('pointercancel', endHold);
+  doorBtn.addEventListener('click', () => {
+    // a click that followed a pointer press was handled by the hold; keyboard and screen readers open straight away
+    if (fromPointer) { fromPointer = false; if (door.hasAttribute('data-open') && !held) toggleDoor(); held = false; return; }
+    toggleDoor();
+  });
+  $$('.shelf .books').forEach(ul => ul.addEventListener('scrollend', () => { if (ul.scrollWidth > ul.clientWidth + 4) { buzz(4); snd.play('tick'); } }));
 
   /* ---------- Portals: strontium charges in light, then glows and fades in the dark ---------- */
   const CHARGE_S = 1.2, GLOW_S = 7;   // hold ~1.2 s to charge fully; the afterglow fades over ~7 s, fast at first then slow, like the real thing
@@ -726,11 +818,19 @@ h1 .ln>span{display:block}
   audio.addEventListener('ended', () => { const next = cur.nextElementSibling; if (next && $('.play', next)) $('.play', next).click(); });
 
   /* ---------- Where am I: nav marker + header turns to night in the Workshop ---------- */
-  const navLinks = $$('.nav a'); const top = $('.top');
+  const navLinks = $$('.nav a'); const top = $('.top'), pill = $('.nav .pill');
+  const movePill = () => {
+    const a = $('.nav a[aria-current="true"]'); if (!a || !pill || !a.offsetParent) { if (pill) pill.style.opacity = 0; return; }
+    $('.nav').classList.add('has-pill');
+    const to = { x: a.offsetLeft, width: a.offsetWidth, opacity: 1 };
+    if (hasG && !calm() && pill.style.opacity === '1') gsap.to(pill, { ...to, duration: .45, ease: 'expo.out', overwrite: true }); else { gsap ? gsap.set(pill, to) : 0; pill.style.opacity = 1; }
+  };
+  addEventListener('resize', () => { const a = $('.nav a[aria-current="true"]'); if (a && pill && hasG) gsap.set(pill, { x: a.offsetLeft, width: a.offsetWidth }); });
   const io = new IntersectionObserver(es => es.forEach(e => {
     if (!e.isIntersecting) return;
     const id = e.target.dataset.nav;
     navLinks.forEach(a => a.setAttribute('aria-current', String(a.dataset.nav === id)));
+    movePill();
     top.classList.toggle('is-night', e.target.dataset.night === '1');
   }), { rootMargin: '-45% 0px -50% 0px' });
   $$('[data-nav]').forEach(s => s.matches('section') && io.observe(s));
@@ -775,7 +875,7 @@ h1 .ln>span{display:block}
 
   /* ---------- Motion (GSAP). Reduced motion: nothing self-running; scroll-linked motion stays. ---------- */
   if (!hasG) return;
-  gsap.registerPlugin(ScrollTrigger, SplitText);
+  gsap.registerPlugin(ScrollTrigger, SplitText, DrawSVGPlugin);
   let mm = gsap.matchMedia(), firstBuild = true;
   const build = () => mm.add({ motion: '(prefers-reduced-motion: no-preference)', still: '(prefers-reduced-motion: reduce)' }, ctx => {
     const motion = ctx.conditions.motion && !still, entrance = motion && firstBuild;
@@ -804,7 +904,8 @@ h1 .ln>span{display:block}
       // shelf books arrive one at a time, once; hidden before the first paint of the shelf so they never blink
       gsap.set('.shelf .bk', { opacity: 0, y: 28, rotate: -1.5 });
       ScrollTrigger.batch('.shelf .bk', { start: 'top 92%', once: true,
-        onEnter: els => gsap.to(els, { opacity: 1, y: 0, rotate: 0, duration: .6, stagger: .08, ease: 'power3.out', overwrite: true }) });
+        onEnter: els => { gsap.to(els, { opacity: 1, y: 0, rotate: 0, duration: .6, stagger: .08, ease: 'power3.out', overwrite: true });
+          gsap.fromTo(els.map(e => $('.glint', e)), { xPercent: -130 }, { xPercent: 130, duration: 1.1, stagger: .08, ease: 'power2.inOut', delay: .35 }); } });
     }
     if (entrance) {
       const onFocus = e => { const bk = e.target.closest && e.target.closest('.shelf .bk'); if (bk) gsap.to(bk, { opacity: 1, y: 0, rotate: 0, duration: .2, overwrite: true }); };
@@ -812,6 +913,34 @@ h1 .ln>span{display:block}
     }
     if (motion) {
       const fine = matchMedia('(hover: hover) and (pointer: fine)').matches;
+      // the title strip leans with scroll speed
+      const sk = gsap.quickTo('.ribbon-track', 'skewX', { duration: .5, ease: 'power3.out' });
+      ScrollTrigger.create({ trigger: document.body, start: 'top top', end: 'bottom bottom', onUpdate: st => sk(gsap.utils.clamp(-8, 8, st.getVelocity() / -300)) });
+      // the light under the door breathes three times when it comes into view
+      ScrollTrigger.create({ trigger: '#door', start: 'top 80%', once: true, onEnter: () => gsap.fromTo('.door .seam', { opacity: .35 }, { opacity: 1, duration: 1.2, yoyo: true, repeat: 5, ease: 'sine.inOut' }) });
+      // the decoder scans its page once when it arrives, and again on hover
+      const scan = () => gsap.fromTo('.tool .scan', { top: '0%', opacity: 1 }, { top: '100%', duration: 1.1, ease: 'power1.inOut', onComplete: () => gsap.set('.tool .scan', { opacity: 0 }) });
+      ScrollTrigger.create({ trigger: '.tool-playbook', start: 'top 80%', once: true, onEnter: scan });
+      const tp = $('.tool-playbook'); if (tp && fine) { tp.addEventListener('pointerenter', scan); cleanups.push(() => tp.removeEventListener('pointerenter', scan)); }
+      if (fine) {
+        // shelf spotlight + covers turn toward the pointer
+        $$('.shelf').forEach(sh => {
+          const covs = $$('.cov', sh);
+          const mv = e => { const r = sh.getBoundingClientRect(); sh.style.setProperty('--sx', (e.clientX - r.left) + 'px'); sh.style.setProperty('--sy', (e.clientY - r.top) + 'px');
+            covs.forEach(c => { const cr = c.getBoundingClientRect(); const k = gsap.utils.clamp(-1, 1, (e.clientX - (cr.left + cr.width / 2)) / 400); c.style.setProperty('--ty', (k * 10).toFixed(2) + 'deg'); }); };
+          const lv = () => { sh.style.removeProperty('--sx'); sh.style.removeProperty('--sy'); covs.forEach(c => c.style.removeProperty('--ty')); };
+          sh.addEventListener('pointermove', mv); sh.addEventListener('pointerleave', lv);
+          cleanups.push(() => { sh.removeEventListener('pointermove', mv); sh.removeEventListener('pointerleave', lv); lv(); });
+        });
+        // tool cards tilt with a glare that follows the pointer
+        $$('.tool').forEach(t => {
+          const mv = e => { const r = t.getBoundingClientRect(), x = (e.clientX - r.left) / r.width, y = (e.clientY - r.top) / r.height;
+            t.style.setProperty('--ry', ((x - .5) * 6).toFixed(2) + 'deg'); t.style.setProperty('--rx', ((.5 - y) * 6).toFixed(2) + 'deg'); t.style.setProperty('--gx', (x * 100) + '%'); t.style.setProperty('--gy', (y * 100) + '%'); };
+          const lv = () => ['--rx', '--ry'].forEach(k => t.style.removeProperty(k));
+          t.addEventListener('pointermove', mv); t.addEventListener('pointerleave', lv);
+          cleanups.push(() => { t.removeEventListener('pointermove', mv); t.removeEventListener('pointerleave', lv); lv(); });
+        });
+      }
       // dust in the lamplight around the book (canvas sized in pixels from the stage box; pauses off-screen and under Still)
       cleanups.push(dust());
       // drag the cover open by hand (mouse or a sideways swipe); it springs shut when let go
@@ -840,6 +969,10 @@ h1 .ln>span{display:block}
         hero.addEventListener('pointermove', onMove); cleanups.push(() => hero.removeEventListener('pointermove', onMove));
       }
     }
+    gsap.fromTo('.progress i', { scaleX: 0 }, { scaleX: 1, ease: 'none', scrollTrigger: { trigger: document.documentElement, start: 'top top', end: 'bottom bottom', scrub: .3 } });
+    ScrollTrigger.create({ start: 200, end: 'max', onToggle: st => top.classList.toggle('is-compact', st.isActive) });
+    $$('.shelf .rule path').forEach(pth => gsap.fromTo(pth, { drawSVG: '0%' }, { drawSVG: '100%', ease: 'none', scrollTrigger: { trigger: pth.closest('.shelf'), start: 'top 85%', end: 'top 55%', scrub: .5 } }));
+    gsap.fromTo('.tool .roots path', { drawSVG: '0%' }, { drawSVG: '100%', stagger: .08, ease: 'none', scrollTrigger: { trigger: '.tool-shadowroot', start: 'top 85%', end: 'bottom 60%', scrub: .5 } });
     const ls = SplitText.create('.lede', { type: 'words', aria: 'none' });
     gsap.fromTo(ls.words, { color: '#cbbda4' }, { color: '#f6eedf', stagger: .1, ease: 'none', scrollTrigger: { trigger: '.hero', start: 'top top', end: '35% top', scrub: .5 } });
     gsap.to('.ribbon-track', { xPercent: -45, ease: 'none', scrollTrigger: { trigger: document.body, start: 'top top', end: () => '+=' + innerHeight * 1.6, scrub: .8 } });

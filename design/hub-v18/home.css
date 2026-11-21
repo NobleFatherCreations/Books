@@ -350,3 +350,50 @@ h1 .ln>span{display:block}
 /* after dark (the reader's own clock, never stored): the lamp dims and the halo takes the glow colour */
 .after-dark{--ink:#120e0b}
 .after-dark .halo{background:radial-gradient(circle,#86ecd21f,transparent 62%)}
+
+/* v19 batch 3: header reading line + nav marker + compact header */
+.top{position:sticky}
+.progress{position:absolute;left:0;right:0;bottom:-1px;height:2px;pointer-events:none}
+.progress i{display:block;height:100%;background:var(--brass);transform-origin:0 50%;transform:scaleX(0)}
+.top.is-night .progress i{background:var(--glow);box-shadow:0 0 8px var(--glow)}
+.nav{position:relative}
+.nav .pill{position:absolute;left:0;top:50%;height:44px;margin-top:-22px;width:0;border-radius:999px;background:var(--ink-3);opacity:0;pointer-events:none}
+.nav.has-pill a[aria-current="true"]{background:none}
+.nav a{position:relative}
+.brand{display:inline-block;transform-origin:0 50%;transition:transform .35s var(--ease-out)}
+.top.is-compact .brand{transform:scale(.88)}
+/* shelves: a ledge, spotlight, ruled names, pull-out covers, a glint */
+.shelf{position:relative;background:radial-gradient(420px circle at var(--sx,-999px) var(--sy,-999px),#c9a24a12,transparent 70%)}
+.shelf .rule{display:block;width:min(200px,100%);height:10px;margin-top:6px;overflow:visible}
+.shelf .rule path{fill:none;stroke:var(--brass);stroke-width:1.5;stroke-linecap:round;vector-effect:non-scaling-stroke}
+@media (min-width:901px){.shelf:nth-of-type(even) .rule{margin-left:auto}}
+@media (min-width:901px){.shelf .books{position:relative;align-items:end}.shelf .bk{display:grid;grid-template-rows:auto 72px 64px}.shelf .bk b{margin-top:22px;align-self:start}.shelf .bk small{align-self:start}.shelf .books::after{content:"";position:absolute;left:-16px;right:-16px;bottom:calc(72px + 64px - 4px);height:10px;border-radius:2px;background:linear-gradient(#5a4632,#2b2016);box-shadow:0 12px 24px #000a,inset 0 1px 0 #8a6d4c66;pointer-events:none}.shelf .books>li{position:relative;z-index:1}}
+.bk .cov{transform:perspective(900px) translateY(var(--ly,0px)) rotateY(var(--ty,0deg)) rotate(var(--lr,0deg))}
+@media (hover:hover){.bk:hover .cov{transform:perspective(900px) translateY(-14px) rotateY(calc(var(--ty,0deg) - 14deg)) rotate(-1deg)}}
+.bk .glint{position:absolute;inset:0;z-index:1;background:linear-gradient(105deg,transparent 35%,#fff4 50%,transparent 65%);transform:translateX(-130%);pointer-events:none}
+/* the door: two leaves swing open in 3D, light bursts from the gap; a seam of light under it while shut */
+.door{position:relative;perspective:1400px}
+.door .leafs{position:absolute;inset:0;z-index:3;pointer-events:none;visibility:hidden;transform-style:preserve-3d}
+.door .leafs.is-on{visibility:visible}
+.door-l,.door-r{position:absolute;top:0;bottom:0;width:50%;background:repeating-linear-gradient(90deg,#2a1f15 0 22px,#2f2318 22px 24px),#2a1f15;box-shadow:inset 0 0 0 1px #4a3a29,inset 0 0 40px #0008;backface-visibility:hidden}
+.door-l{left:0;transform-origin:left center;border-radius:8px 0 0 8px}
+.door-r{right:0;transform-origin:right center;border-radius:0 8px 8px 0}
+.door-l::after,.door-r::after{content:"";position:absolute;top:50%;width:10px;height:44px;margin-top:-22px;border-radius:5px;background:linear-gradient(#e7c77d,#8a6a2a)}
+.door-l::after{right:16px}.door-r::after{left:16px}
+.door .burst{position:absolute;left:50%;top:50%;width:10px;height:100%;transform:translate(-50%,-50%);background:radial-gradient(closest-side,#f3dca0,#e7c77d55 40%,transparent);opacity:0}
+.door .seam{position:absolute;left:12%;right:12%;bottom:-1px;height:2px;border-radius:2px;background:linear-gradient(90deg,transparent,#e7c77d,transparent);box-shadow:0 0 12px 2px #e7c77d55;pointer-events:none;transition:opacity .4s var(--ease-out)}
+.door[data-open] .seam{opacity:0}
+.btn.hold{position:relative}
+.btn.hold .ring{width:20px;height:20px;transform:rotate(-90deg);flex:none}
+.btn.hold .ring circle{fill:none;stroke:var(--brass-hi);stroke-width:2.5;stroke-dasharray:63;stroke-dashoffset:calc(63 - 63 * var(--h,0))}
+.btn.hold .ring{display:none}
+@media (hover:hover),(pointer:coarse){.door:not([data-open]) .btn.hold .ring{display:block}}
+/* tools: tilt with a moving glare; the decoder scans, the root grows */
+.tool{position:relative;overflow:hidden;transform:perspective(1000px) rotateX(var(--rx,0deg)) rotateY(var(--ry,0deg))}
+.tool:hover{transform:perspective(1000px) rotateX(var(--rx,0deg)) rotateY(var(--ry,0deg)) translateY(-2px)}
+.tool .glare{position:absolute;inset:0;background:radial-gradient(360px circle at var(--gx,50%) var(--gy,50%),#ffffff14,transparent 60%);opacity:0;transition:opacity .3s var(--ease-out);pointer-events:none}
+@media (hover:hover){.tool:hover .glare{opacity:1}}
+.tool-art{position:relative;display:block}
+.tool .scan{position:absolute;left:0;right:0;top:0;height:3px;background:var(--brass-hi);box-shadow:0 0 14px 3px #e7c77d88;opacity:0;pointer-events:none}
+.tool .roots{position:absolute;left:5%;width:90%;top:92%;height:auto;overflow:visible;pointer-events:none}
+.tool .roots path{fill:none;stroke:#86ecd2aa;stroke-width:1.2;stroke-linecap:round}

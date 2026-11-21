@@ -227,3 +227,10 @@ Music items (I1-I4) wait for the song restore.
 - Android phones: tilting the phone tilts the book (iPhone needs a permission tap; not added).
 - After 9 pm by the reader's own clock (never stored) the page darkens a touch and the lamp turns strontium green.
 - Gates: verify-hub all pass; design-gates 0 FAIL (dust kept clear of the caption); axe clean; LCP 0.57 s, CLS 0, 239 KB transferred.
+
+### Batch 3 done (2026-11-21): library, door, tools, header
+- Header: a reading line under the header fills brass as you scroll and turns strontium green in the Workshop; a marker slides between nav items; the name shrinks a touch once you scroll; the title strip leans with scroll speed.
+- Shelves (desktop): covers stand on a wooden ledge, turn toward the pointer and pull out of the shelf on hover; a soft spotlight follows the pointer; shelf names get a hand-ruled line that draws in with the scroll; each cover catches a glint as it arrives. Phones: a tick when a shelf settles on a book.
+- The bigger-picture door: press and hold the button (a ring fills, "Keep holding"); two wooden doors swing open with light bursting from the gap; a seam of light under the door breathes three times when it comes into view. Keyboard and screen readers open it straight away; a tap closes it.
+- Tools: cards tilt with a glare that follows the pointer; the Pattern Decoder scans its page on arrival and on hover; roots grow down from The Root as you scroll.
+- Gates: verify-hub all pass (new: keyboard opens the door at once); design-gates 0 FAIL; axe clean; LCP 0.53 s, CLS 0, 256 KB.

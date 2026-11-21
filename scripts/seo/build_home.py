@@ -25,7 +25,8 @@ FONTS = HUB / "f"
 E = lambda s: html.escape(str(s), quote=True)
 
 
-GSAP_PLUGINS = ["ScrollTrigger", "SplitText"]
+GSAP_PLUGINS = ["ScrollTrigger", "SplitText", "DrawSVGPlugin"]
+ROOTS_SVG = '<svg class="roots" viewBox="0 0 200 120" aria-hidden="true"><path d="M100 0 C100 30 96 48 84 66 S60 96 40 118"/><path d="M100 0 C102 34 110 52 124 70 S150 98 168 116"/><path d="M98 26 C86 40 70 46 52 50"/><path d="M103 40 C118 52 134 56 152 58"/><path d="M90 62 C84 80 86 98 92 116"/><path d="M118 66 C124 84 122 100 116 118"/></svg>'
 
 def webp(src, name, width, quality=80):
     """Resize to a width and save as WebP under /media/v18; returns (url, w, h)."""
@@ -86,16 +87,16 @@ def main():
 
     def book_li(b, eager=False):
         return (f'<li><a class="bk" href="/{b["slug"]}"><span class="cov" style="aspect-ratio:{b["w"]}/{b["h"]}"><img src="{b["img"]}" width="{b["w"]}" height="{b["h"]}" '
-                f'alt="" loading="{"eager" if eager else "lazy"}" decoding="async"></span><b>{E(b["title"])}</b><small>{E(b["line"])}</small></a></li>')
+                f'alt="" loading="{"eager" if eager else "lazy"}" decoding="async"><span class="glint" aria-hidden="true"></span></span><b>{E(b["title"])}</b><small>{E(b["line"])}</small></a></li>')
 
     shelves = "".join(
-        f'<div class="shelf" id="shelf-{s["id"]}"><div><h3>{E(s["name"])}</h3><p class="why">{E(s["why"])}</p></div>'
+        f'<div class="shelf" id="shelf-{s["id"]}"><div><h3>{E(s["name"])}</h3><svg class="rule" viewBox="0 0 200 10" preserveAspectRatio="none" aria-hidden="true"><path d="M2 6 C40 3 80 8 120 5 S180 3 198 6"/></svg><p class="why">{E(s["why"])}</p></div>'
         f'<ul class="books" aria-label="{E(s["name"])}">' + "".join(book_li(b) for b in d["books"] if b["shelf"] == s["id"]) + "</ul></div>"
         for s in d["shelves"])
     bigger = "".join(book_li(b) for b in d["books"] if b["shelf"] == "bigger")
     spines = "".join(f'<i style="background-image:url({b["img"]})"></i>' for b in d["books"] if b["shelf"] == "bigger")
     chips = "".join(f'<button class="chip" type="button" data-s="{s["id"]}" aria-pressed="false">{E(s["label"])}</button>' for s in d["situations"])
-    tools = "".join(f'<a class="tool" href="/{t["slug"]}"><img src="{t["img"]}" width="{t["w"]}" height="{t["h"]}" alt="" loading="lazy" decoding="async">'
+    tools = "".join(f'<a class="tool tool-{t["slug"]}" href="/{t["slug"]}"><span class="tool-art"><img src="{t["img"]}" width="{t["w"]}" height="{t["h"]}" alt="" loading="lazy" decoding="async">' + ('<span class="scan" aria-hidden="true"></span>' if t["slug"] == "playbook" else ROOTS_SVG if t["slug"] == "shadowroot" else '') + '</span><span class="glare" aria-hidden="true"></span>'
                     f'<span><h3>{E(t["title"])}</h3><p class="muted">{E(t["line"])}</p></span></a>' for t in d["tools"])
     live = d["music"]["live"]
     music_link = '<a class="more" href="/music">All 176 songs</a>' if live else '<p class="more is-off">176 songs, back soon</p>'
@@ -128,9 +129,9 @@ def main():
 
     body = f"""<a class="skip" href="#main">Skip to the books</a>
 <header class="top"><div class="wrap"><a class="brand" href="/">Noble Father</a>
-<nav class="nav" aria-label="Sections">{navhtml}</nav>
+<nav class="nav" aria-label="Sections"><span class="pill" aria-hidden="true"></span>{navhtml}</nav>
 <div class="top-actions"><button class="ico" id="sound-btn" type="button" aria-label="Sound" aria-pressed="false" title="Sound is off until you turn it on"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M11 4.702a.705.705 0 0 0-1.203-.498L6.413 7.587A1.4 1.4 0 0 1 5.416 8H3a1 1 0 0 0-1 1v6a1 1 0 0 0 1 1h2.416a1.4 1.4 0 0 1 .997.413l3.383 3.384A.705.705 0 0 0 11 19.298z"/><g class="on"><path d="M16 9a5 5 0 0 1 0 6"/><path d="M19.364 18.364a9 9 0 0 0 0-12.728"/></g><g class="off"><line x1="22" x2="16" y1="9" y2="15"/><line x1="16" x2="22" y1="9" y2="15"/></g></svg><span class="ico-w">Sound</span></button><button class="ico" id="still-btn" type="button" aria-label="Still" aria-pressed="false" title="Stop every moving effect and sound"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="10"/><line x1="10" x2="10" y1="15" y2="9"/><line x1="14" x2="14" y1="15" y2="9"/></svg><span class="ico-w">Still</span></button><button class="menu-btn" id="menu-btn" type="button" aria-label="Menu" aria-expanded="false" aria-controls="sheet"><svg viewBox="0 0 24 24" aria-hidden="true"><line x1="4" x2="20" y1="7" y2="7"/><line x1="4" x2="20" y1="12" y2="12"/><line x1="4" x2="20" y1="17" y2="17"/></svg><span class="menu-w">Menu</span></button>
-<a class="leave" href="https://www.google.com/search?q=weather" data-leave title="Leave this site now (or press Esc twice)">Leave now</a></div></div></header>
+<a class="leave" href="https://www.google.com/search?q=weather" data-leave title="Leave this site now (or press Esc twice)">Leave now</a></div></div><span class="progress" aria-hidden="true"><i></i></span></header>
 <div class="sheet" id="sheet" hidden><div class="sheet-panel" role="dialog" aria-modal="true" aria-label="Menu">{sheet_links}<div class="sheet-row"><button class="btn sheet-sound" id="sheet-still" type="button" aria-pressed="false"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="10"/><line x1="10" x2="10" y1="15" y2="9"/><line x1="14" x2="14" y1="15" y2="9"/></svg>Still</button><button class="btn sheet-sound" id="sheet-sound" type="button" aria-pressed="false"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M11 4.702a.705.705 0 0 0-1.203-.498L6.413 7.587A1.4 1.4 0 0 1 5.416 8H3a1 1 0 0 0-1 1v6a1 1 0 0 0 1 1h2.416a1.4 1.4 0 0 1 .997.413l3.383 3.384A.705.705 0 0 0 11 19.298z"/><g class="on"><path d="M16 9a5 5 0 0 1 0 6"/><path d="M19.364 18.364a9 9 0 0 0 0-12.728"/></g><g class="off"><line x1="22" x2="16" y1="9" y2="15"/><line x1="16" x2="22" y1="9" y2="15"/></g></svg>Sound</button></div><button class="btn sheet-close" id="sheet-close" type="button">Close</button></div></div>
 <div class="ribbon" aria-hidden="true"><div class="ribbon-track">{ribbon}</div></div>
 <main id="main">
@@ -151,9 +152,9 @@ def main():
 <section class="sec" id="library" data-nav="books"><div class="wrap">
 <div class="sec-head"><h2>The library</h2><p class="muted">Fourteen free books. Find the shelf that sounds like your life; each one opens straight to the first chapter.</p></div>
 {shelves}
-<div class="door" id="door"><div class="door-head"><div class="spines" aria-hidden="true">{spines}</div>
+<div class="door" id="door"><span class="leafs" aria-hidden="true"><span class="door-l"></span><span class="door-r"></span><span class="burst"></span></span><span class="seam" aria-hidden="true"></span><div class="door-head"><div class="spines" aria-hidden="true">{spines}</div>
 <div><h3>{E(d["bigger"]["name"])}</h3><p class="muted">{E(d["bigger"]["why"])}</p></div>
-<button class="btn" id="door-btn" type="button" aria-expanded="false" aria-controls="door-body">Open the bigger picture</button></div>
+<button class="btn hold" id="door-btn" type="button" aria-expanded="false" aria-controls="door-body"><svg class="ring" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="10"/></svg><span class="lbl">Open the bigger picture</span></button></div>
 <div class="door-body" id="door-body" inert><div><ul class="books" aria-label="The bigger picture">{bigger}</ul></div></div></div>
 </div></section>
 

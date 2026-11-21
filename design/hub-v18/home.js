@@ -189,15 +189,48 @@
 
   /* ---------- The bigger picture door ---------- */
   const door = $('#door'), doorBtn = $('#door-btn');
-  doorBtn.addEventListener('click', () => {
+  const doorLbl = $('.lbl', doorBtn), leafs = $('.leafs', door);
+  let holdT = null, held = false, fromPointer = false;
+  const swing = () => {
+    if (!hasG || calm()) return;
+    leafs.style.height = $('.door-head', door).offsetHeight + 'px'; leafs.classList.add('is-on');
+    gsap.timeline({ onComplete: () => { leafs.classList.remove('is-on'); gsap.set('.door-l, .door-r, .door .burst', { clearProps: 'all' }); leafs.style.height = ''; } })
+      .fromTo('.door .burst', { opacity: 0, scaleX: 1 }, { opacity: 1, scaleX: 3, duration: .25, ease: 'power2.out' })
+      .to('.door-l', { rotateY: -96, duration: 1.15, ease: 'power2.inOut' }, .15)
+      .to('.door-r', { rotateY: 96, duration: 1.15, ease: 'power2.inOut' }, .15)
+      .to('.door .burst', { scaleX: 60, opacity: 0, duration: 1, ease: 'power2.out' }, .45);
+  };
+  const toggleDoor = () => {
     const open = !door.hasAttribute('data-open'); snd.play('door'); buzz(open ? [10, 40, 16] : 8);
+    if (open) swing();
     door.toggleAttribute('data-open', open);
     doorBtn.setAttribute('aria-expanded', String(open));
-    doorBtn.textContent = open ? 'Close the bigger picture' : 'Open the bigger picture';
+    doorLbl.textContent = open ? 'Close the bigger picture' : 'Open the bigger picture';
     $('#door-body').inert = !open;
     if (hasG && !calm()) gsap.to('.spines i', { rotate: open ? -14 : 0, opacity: open ? .35 : 1, duration: .45, stagger: .06, ease: 'power2.out' });
-    if (open && hasG && !calm()) gsap.from('#door-body .bk', { y: 24, rotate: -2, opacity: 0, duration: .55, stagger: .09, ease: 'power3.out', delay: .1, clearProps: 'all' });
+    if (open && hasG && !calm()) gsap.from('#door-body .bk', { y: 24, rotate: -2, opacity: 0, duration: .55, stagger: .09, ease: 'power3.out', delay: .4, clearProps: 'all' });
+  };
+  const HOLD_S = .7;
+  doorBtn.addEventListener('pointerdown', e => {
+    if (e.button > 0) return; fromPointer = true;
+    if (door.hasAttribute('data-open')) return;   // closing is a plain tap
+    held = false; doorLbl.textContent = 'Keep holding';
+    const v = { h: 0 };
+    holdT = (hasG ? gsap.to(v, { h: 1, duration: HOLD_S, ease: 'none', onUpdate: () => doorBtn.style.setProperty('--h', v.h), onComplete: () => { held = true; doorBtn.style.setProperty('--h', 0); toggleDoor(); } }) : null);
+    if (!hasG) { held = true; toggleDoor(); }
+    buzz(5);
   });
+  const endHold = () => {
+    if (holdT && !held) { holdT.kill(); doorBtn.style.setProperty('--h', 0); if (!door.hasAttribute('data-open')) doorLbl.textContent = 'Open the bigger picture'; }
+    holdT = null;
+  };
+  doorBtn.addEventListener('pointerup', endHold); doorBtn.addEventListener('pointerleave', endHold); doorBtn.addEventListener('pointercancel', endHold);
+  doorBtn.addEventListener('click', () => {
+    // a click that followed a pointer press was handled by the hold; keyboard and screen readers open straight away
+    if (fromPointer) { fromPointer = false; if (door.hasAttribute('data-open') && !held) toggleDoor(); held = false; return; }
+    toggleDoor();
+  });
+  $$('.shelf .books').forEach(ul => ul.addEventListener('scrollend', () => { if (ul.scrollWidth > ul.clientWidth + 4) { buzz(4); snd.play('tick'); } }));
 
   /* ---------- Portals: strontium charges in light, then glows and fades in the dark ---------- */
   const CHARGE_S = 1.2, GLOW_S = 7;   // hold ~1.2 s to charge fully; the afterglow fades over ~7 s, fast at first then slow, like the real thing
@@ -266,11 +299,19 @@
   audio.addEventListener('ended', () => { const next = cur.nextElementSibling; if (next && $('.play', next)) $('.play', next).click(); });
 
   /* ---------- Where am I: nav marker + header turns to night in the Workshop ---------- */
-  const navLinks = $$('.nav a'); const top = $('.top');
+  const navLinks = $$('.nav a'); const top = $('.top'), pill = $('.nav .pill');
+  const movePill = () => {
+    const a = $('.nav a[aria-current="true"]'); if (!a || !pill || !a.offsetParent) { if (pill) pill.style.opacity = 0; return; }
+    $('.nav').classList.add('has-pill');
+    const to = { x: a.offsetLeft, width: a.offsetWidth, opacity: 1 };
+    if (hasG && !calm() && pill.style.opacity === '1') gsap.to(pill, { ...to, duration: .45, ease: 'expo.out', overwrite: true }); else { gsap ? gsap.set(pill, to) : 0; pill.style.opacity = 1; }
+  };
+  addEventListener('resize', () => { const a = $('.nav a[aria-current="true"]'); if (a && pill && hasG) gsap.set(pill, { x: a.offsetLeft, width: a.offsetWidth }); });
   const io = new IntersectionObserver(es => es.forEach(e => {
     if (!e.isIntersecting) return;
     const id = e.target.dataset.nav;
     navLinks.forEach(a => a.setAttribute('aria-current', String(a.dataset.nav === id)));
+    movePill();
     top.classList.toggle('is-night', e.target.dataset.night === '1');
   }), { rootMargin: '-45% 0px -50% 0px' });
   $$('[data-nav]').forEach(s => s.matches('section') && io.observe(s));
@@ -315,7 +356,7 @@
 
   /* ---------- Motion (GSAP). Reduced motion: nothing self-running; scroll-linked motion stays. ---------- */
   if (!hasG) return;
-  gsap.registerPlugin(ScrollTrigger, SplitText);
+  gsap.registerPlugin(ScrollTrigger, SplitText, DrawSVGPlugin);
   let mm = gsap.matchMedia(), firstBuild = true;
   const build = () => mm.add({ motion: '(prefers-reduced-motion: no-preference)', still: '(prefers-reduced-motion: reduce)' }, ctx => {
     const motion = ctx.conditions.motion && !still, entrance = motion && firstBuild;
@@ -344,7 +385,8 @@
       // shelf books arrive one at a time, once; hidden before the first paint of the shelf so they never blink
       gsap.set('.shelf .bk', { opacity: 0, y: 28, rotate: -1.5 });
       ScrollTrigger.batch('.shelf .bk', { start: 'top 92%', once: true,
-        onEnter: els => gsap.to(els, { opacity: 1, y: 0, rotate: 0, duration: .6, stagger: .08, ease: 'power3.out', overwrite: true }) });
+        onEnter: els => { gsap.to(els, { opacity: 1, y: 0, rotate: 0, duration: .6, stagger: .08, ease: 'power3.out', overwrite: true });
+          gsap.fromTo(els.map(e => $('.glint', e)), { xPercent: -130 }, { xPercent: 130, duration: 1.1, stagger: .08, ease: 'power2.inOut', delay: .35 }); } });
     }
     if (entrance) {
       const onFocus = e => { const bk = e.target.closest && e.target.closest('.shelf .bk'); if (bk) gsap.to(bk, { opacity: 1, y: 0, rotate: 0, duration: .2, overwrite: true }); };
@@ -352,6 +394,34 @@
     }
     if (motion) {
       const fine = matchMedia('(hover: hover) and (pointer: fine)').matches;
+      // the title strip leans with scroll speed
+      const sk = gsap.quickTo('.ribbon-track', 'skewX', { duration: .5, ease: 'power3.out' });
+      ScrollTrigger.create({ trigger: document.body, start: 'top top', end: 'bottom bottom', onUpdate: st => sk(gsap.utils.clamp(-8, 8, st.getVelocity() / -300)) });
+      // the light under the door breathes three times when it comes into view
+      ScrollTrigger.create({ trigger: '#door', start: 'top 80%', once: true, onEnter: () => gsap.fromTo('.door .seam', { opacity: .35 }, { opacity: 1, duration: 1.2, yoyo: true, repeat: 5, ease: 'sine.inOut' }) });
+      // the decoder scans its page once when it arrives, and again on hover
+      const scan = () => gsap.fromTo('.tool .scan', { top: '0%', opacity: 1 }, { top: '100%', duration: 1.1, ease: 'power1.inOut', onComplete: () => gsap.set('.tool .scan', { opacity: 0 }) });
+      ScrollTrigger.create({ trigger: '.tool-playbook', start: 'top 80%', once: true, onEnter: scan });
+      const tp = $('.tool-playbook'); if (tp && fine) { tp.addEventListener('pointerenter', scan); cleanups.push(() => tp.removeEventListener('pointerenter', scan)); }
+      if (fine) {
+        // shelf spotlight + covers turn toward the pointer
+        $$('.shelf').forEach(sh => {
+          const covs = $$('.cov', sh);
+          const mv = e => { const r = sh.getBoundingClientRect(); sh.style.setProperty('--sx', (e.clientX - r.left) + 'px'); sh.style.setProperty('--sy', (e.clientY - r.top) + 'px');
+            covs.forEach(c => { const cr = c.getBoundingClientRect(); const k = gsap.utils.clamp(-1, 1, (e.clientX - (cr.left + cr.width / 2)) / 400); c.style.setProperty('--ty', (k * 10).toFixed(2) + 'deg'); }); };
+          const lv = () => { sh.style.removeProperty('--sx'); sh.style.removeProperty('--sy'); covs.forEach(c => c.style.removeProperty('--ty')); };
+          sh.addEventListener('pointermove', mv); sh.addEventListener('pointerleave', lv);
+          cleanups.push(() => { sh.removeEventListener('pointermove', mv); sh.removeEventListener('pointerleave', lv); lv(); });
+        });
+        // tool cards tilt with a glare that follows the pointer
+        $$('.tool').forEach(t => {
+          const mv = e => { const r = t.getBoundingClientRect(), x = (e.clientX - r.left) / r.width, y = (e.clientY - r.top) / r.height;
+            t.style.setProperty('--ry', ((x - .5) * 6).toFixed(2) + 'deg'); t.style.setProperty('--rx', ((.5 - y) * 6).toFixed(2) + 'deg'); t.style.setProperty('--gx', (x * 100) + '%'); t.style.setProperty('--gy', (y * 100) + '%'); };
+          const lv = () => ['--rx', '--ry'].forEach(k => t.style.removeProperty(k));
+          t.addEventListener('pointermove', mv); t.addEventListener('pointerleave', lv);
+          cleanups.push(() => { t.removeEventListener('pointermove', mv); t.removeEventListener('pointerleave', lv); lv(); });
+        });
+      }
       // dust in the lamplight around the book (canvas sized in pixels from the stage box; pauses off-screen and under Still)
       cleanups.push(dust());
       // drag the cover open by hand (mouse or a sideways swipe); it springs shut when let go
@@ -380,6 +450,10 @@
         hero.addEventListener('pointermove', onMove); cleanups.push(() => hero.removeEventListener('pointermove', onMove));
       }
     }
+    gsap.fromTo('.progress i', { scaleX: 0 }, { scaleX: 1, ease: 'none', scrollTrigger: { trigger: document.documentElement, start: 'top top', end: 'bottom bottom', scrub: .3 } });
+    ScrollTrigger.create({ start: 200, end: 'max', onToggle: st => top.classList.toggle('is-compact', st.isActive) });
+    $$('.shelf .rule path').forEach(pth => gsap.fromTo(pth, { drawSVG: '0%' }, { drawSVG: '100%', ease: 'none', scrollTrigger: { trigger: pth.closest('.shelf'), start: 'top 85%', end: 'top 55%', scrub: .5 } }));
+    gsap.fromTo('.tool .roots path', { drawSVG: '0%' }, { drawSVG: '100%', stagger: .08, ease: 'none', scrollTrigger: { trigger: '.tool-shadowroot', start: 'top 85%', end: 'bottom 60%', scrub: .5 } });
     const ls = SplitText.create('.lede', { type: 'words', aria: 'none' });
     gsap.fromTo(ls.words, { color: '#cbbda4' }, { color: '#f6eedf', stagger: .1, ease: 'none', scrollTrigger: { trigger: '.hero', start: 'top top', end: '35% top', scrub: .5 } });
     gsap.to('.ribbon-track', { xPercent: -45, ease: 'none', scrollTrigger: { trigger: document.body, start: 'top top', end: () => '+=' + innerHeight * 1.6, scrub: .8 } });
