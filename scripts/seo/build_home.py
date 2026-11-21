@@ -41,15 +41,13 @@ def subset_fonts(text):
     """Subset the two families to the characters the page uses."""
     FONTS.mkdir(exist_ok=True)
     chars = "".join(sorted(set(text + " .,;:!?'\"“”‘’—–-()&/0123456789$@%+…")))
-    jobs = [("tools/fonts/instrumentserif/InstrumentSerif-Regular.ttf", "instrument-serif-400-normal.woff2"),
-            ("tools/fonts/instrumentserif/InstrumentSerif-Italic.ttf", "instrument-serif-400-italic.woff2"),
+    jobs = [("tools/fonts/gloock/Gloock-Regular.ttf", "gloock-400-normal.woff2"),
             ("tools/fonts/public-sans/PublicSans[wght].ttf", "public-sans-100-900-normal.woff2")]
     for src, out in jobs:
         subprocess.run([sys.executable, "-m", "fontTools.subset", str(ROOT / src), f"--text={chars}",
                         "--flavor=woff2", f"--output-file={FONTS / out}", "--layout-features=kern,liga,calt,onum,pnum,tnum"],
                        check=True)
-    return ("@font-face{font-family:'Instrument Serif';font-style:normal;font-weight:400;font-display:swap;src:url(/f/instrument-serif-400-normal.woff2) format('woff2')}"
-            "@font-face{font-family:'Instrument Serif';font-style:italic;font-weight:400;font-display:swap;src:url(/f/instrument-serif-400-italic.woff2) format('woff2')}"
+    return ("@font-face{font-family:'Gloock';font-style:normal;font-weight:400;font-display:swap;src:url(/f/gloock-400-normal.woff2) format('woff2')}"
             "@font-face{font-family:'Public Sans';font-style:normal;font-weight:100 900;font-display:swap;src:url(/f/public-sans-100-900-normal.woff2) format('woff2')}")
 
 
@@ -201,7 +199,7 @@ def main():
 <title>Noble Father Creations</title>
 <meta name="description" content="Free books and tools by Shae Stovell.">
 {(SRC / "favicon.html").read_text()}
-<link rel="preload" href="/f/instrument-serif-400-normal.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/f/gloock-400-normal.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="preload" href="{first["imgLg"]}" as="image">
 <style>{fontcss}{(SRC / "home.css").read_text()}</style>
 </head><body>

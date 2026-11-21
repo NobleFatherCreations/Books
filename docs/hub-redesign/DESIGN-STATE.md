@@ -34,7 +34,7 @@ Audits run, with what each changed:
 - verify-hub.mjs rewritten for v18: all checks pass at 375 and 1440. REGRESSIONS.md lists the guards.
 Open: music songs (owner: later); the live counter needs the deploy (CF_API_TOKEN already set in Netlify by the owner).
 - Critic round 1: 3 scores under 4 (composition, phone ergonomics, finish). All fixed. Round 2: all ten at 4, none under 4 (critic-round1.md, critic-round2.md). Round-2 refinements applied (door spines, answer panel layout, phone shelf edge fade, NFC 40/60). Final: verify-hub all pass; design-gates 0 FAIL.
-- Open for the owner: confirm Instrument Serif (the detector flags it as overused); a preview deploy or "deploy the homepage".
+- Owner picked Gloock (2026-11-21) as the display face (OFL, self-hosted, 15 KB subset). Instrument Serif retired. Gloock has no italic, so italics became upright (font-synthesis:none). h1 resized for its width; question fits the first screen at 1440x900, 1366x768, 1280x720, 390x844 and 375x667.
 
 ## Push-to-5 round (2026-11-21), owner: "use all of the not yet used things"
 Used this round: Adobe font_recommend + suggest_type_palettes (Adobe Fonts can't be self-hosted, so used as a brief; OFL candidates IM Fell, Bodoni Moda, Gloock rendered on the real page, owner to pick); emil-design-eng + apple-design (stronger curves, interruptible motion, press-on-pointerdown, scroll-edge header, reduced transparency/contrast, display tracking); Figma (file "Noble Father Creations: homepage v18" in the owner's drafts via html_to_figma); signature: strontium charge-and-glow Portals (replaces the slider) and an opening hero book with light sheen; paper grain.
