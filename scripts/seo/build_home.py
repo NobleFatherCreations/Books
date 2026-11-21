@@ -25,6 +25,8 @@ FONTS = HUB / "f"
 E = lambda s: html.escape(str(s), quote=True)
 
 
+GSAP_PLUGINS = ["ScrollTrigger"]
+
 def webp(src, name, width, quality=80):
     """Resize to a width and save as WebP under /media/v18; returns (url, w, h)."""
     MEDIA.mkdir(parents=True, exist_ok=True)
@@ -127,9 +129,9 @@ def main():
     body = f"""<a class="skip" href="#main">Skip to the books</a>
 <header class="top"><div class="wrap"><a class="brand" href="/">Noble Father</a>
 <nav class="nav" aria-label="Sections">{navhtml}</nav>
-<div class="top-actions"><button class="menu-btn" id="menu-btn" type="button" aria-expanded="false" aria-controls="sheet">Menu</button>
+<div class="top-actions"><button class="ico" id="sound-btn" type="button" aria-label="Sound" aria-pressed="false" title="Sound is off until you turn it on"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M11 4.702a.705.705 0 0 0-1.203-.498L6.413 7.587A1.4 1.4 0 0 1 5.416 8H3a1 1 0 0 0-1 1v6a1 1 0 0 0 1 1h2.416a1.4 1.4 0 0 1 .997.413l3.383 3.384A.705.705 0 0 0 11 19.298z"/><g class="on"><path d="M16 9a5 5 0 0 1 0 6"/><path d="M19.364 18.364a9 9 0 0 0 0-12.728"/></g><g class="off"><line x1="22" x2="16" y1="9" y2="15"/><line x1="16" x2="22" y1="9" y2="15"/></g></svg><span class="ico-w">Sound</span></button><button class="ico" id="still-btn" type="button" aria-label="Still" aria-pressed="false" title="Stop every moving effect and sound"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="10"/><line x1="10" x2="10" y1="15" y2="9"/><line x1="14" x2="14" y1="15" y2="9"/></svg><span class="ico-w">Still</span></button><button class="menu-btn" id="menu-btn" type="button" aria-label="Menu" aria-expanded="false" aria-controls="sheet"><svg viewBox="0 0 24 24" aria-hidden="true"><line x1="4" x2="20" y1="7" y2="7"/><line x1="4" x2="20" y1="12" y2="12"/><line x1="4" x2="20" y1="17" y2="17"/></svg><span class="menu-w">Menu</span></button>
 <a class="leave" href="https://www.google.com/search?q=weather" data-leave title="Leave this site now (or press Esc twice)">Leave now</a></div></div></header>
-<div class="sheet" id="sheet" hidden><div class="sheet-panel" role="dialog" aria-modal="true" aria-label="Menu">{sheet_links}<button class="btn sheet-close" id="sheet-close" type="button">Close</button></div></div>
+<div class="sheet" id="sheet" hidden><div class="sheet-panel" role="dialog" aria-modal="true" aria-label="Menu">{sheet_links}<div class="sheet-row"><button class="btn sheet-sound" id="sheet-still" type="button" aria-pressed="false"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="10"/><line x1="10" x2="10" y1="15" y2="9"/><line x1="14" x2="14" y1="15" y2="9"/></svg>Still</button><button class="btn sheet-sound" id="sheet-sound" type="button" aria-pressed="false"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M11 4.702a.705.705 0 0 0-1.203-.498L6.413 7.587A1.4 1.4 0 0 1 5.416 8H3a1 1 0 0 0-1 1v6a1 1 0 0 0 1 1h2.416a1.4 1.4 0 0 1 .997.413l3.383 3.384A.705.705 0 0 0 11 19.298z"/><g class="on"><path d="M16 9a5 5 0 0 1 0 6"/><path d="M19.364 18.364a9 9 0 0 0 0-12.728"/></g><g class="off"><line x1="22" x2="16" y1="9" y2="15"/><line x1="16" x2="22" y1="9" y2="15"/></g></svg>Sound</button></div><button class="btn sheet-close" id="sheet-close" type="button">Close</button></div></div>
 <div class="ribbon" aria-hidden="true"><div class="ribbon-track">{ribbon}</div></div>
 <main id="main">
 <section class="hero" id="start-here" data-nav="books"><span class="anchor" id="top"></span><div class="wrap"><div>
@@ -193,7 +195,8 @@ def main():
 
     text = re.sub(r"<[^>]+>", " ", body) + json.dumps(client, ensure_ascii=False) + "Close the bigger picture Pause That song could not start"
     fontcss = subset_fonts(html.unescape(text))
-    gs = (ROOT / "tools/vendor/gsap-3.13.0/gsap.min.js").read_text() + "\n" + (ROOT / "tools/vendor/gsap-3.13.0/ScrollTrigger.min.js").read_text()
+    # GSAP core + only the plugins the page uses (all vendored in tools/vendor/gsap-3.13.0, free under the GSAP standard licence)
+    gs = "\n".join((ROOT / f"tools/vendor/gsap-3.13.0/{p}.min.js").read_text() for p in ["gsap"] + GSAP_PLUGINS)
     page = f"""<!doctype html>
 <html lang="en"><head><meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">

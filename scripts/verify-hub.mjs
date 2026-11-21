@@ -17,6 +17,12 @@ for (const [name, w, h] of [['375', 375, 812], ['1440', 1440, 900]]) {
   // The Cloudflare beacon can't report from a local test address; that is expected and fine on the real domain.
   page.on('console', (m) => { if (m.type() === 'error' && !/cloudflareinsights|net::ERR_FAILED|api\/visits/.test(m.text())) errors.push(m.text()); });
   await page.route('**/api/visits', (r) => r.fulfill({ contentType: 'application/json', body: '{"visits":880}' }));
+  // v19: count audio contexts and vibration calls so the checks can see them
+  await page.addInitScript(() => {
+    window.__ac = 0; window.__vib = 0;
+    const A = window.AudioContext; if (A) window.AudioContext = class extends A { constructor(...x) { super(...x); window.__ac++; } };
+    navigator.vibrate = () => { window.__vib++; return true; };
+  });
   await page.goto(url, { waitUntil: 'networkidle' });
   await page.waitForTimeout(800);
 
@@ -71,6 +77,22 @@ for (const [name, w, h] of [['375', 375, 812], ['1440', 1440, 900]]) {
   small.length ? fail('tap targets under 44px: ' + small.slice(0, 6).join(' | ')) : ok('every tap target is at least 44px');
   const overflow = await page.evaluate(() => document.documentElement.scrollWidth - innerWidth);
   overflow > 1 ? fail(`horizontal overflow ${overflow}px`) : ok('no horizontal overflow');
+  // v19 foundations (owner 2026-11-21: every effect, made switchable)
+  (await page.evaluate(() => window.__ac)) === 0 ? ok('no sound starts without a tap (rule 5)') : fail('an audio context started without a tap');
+  await page.evaluate(() => scrollTo(0, 0)); await page.waitForTimeout(300);
+  await page.click('#still-btn'); await page.waitForTimeout(400);
+  const st = await page.evaluate(() => ({ cls: document.documentElement.classList.contains('is-still'), pressed: document.querySelector('#still-btn').getAttribute('aria-pressed'),
+    running: gsap.getTweensOf('.book-in, .book-tilt, .ribbon-track').filter(t => t.isActive() && !t.scrollTrigger).length }));
+  st.cls && st.pressed === 'true' && st.running === 0 ? ok('Still stops every self-running effect') : fail('Still did not stop motion: ' + JSON.stringify(st));
+  if (w > 900) await page.click('#sound-btn'); else { await page.click('#menu-btn'); await page.waitForTimeout(350); await page.click('#sheet-sound'); }
+  await page.waitForTimeout(200);
+  const so = await page.evaluate(() => ({ ac: window.__ac, still: document.documentElement.classList.contains('is-still'), pressed: document.querySelector('#sheet-sound').getAttribute('aria-pressed') }));
+  so.ac === 1 && !so.still && so.pressed === 'true' ? ok('Sound starts on a tap and lifts Still') : fail('Sound switch: ' + JSON.stringify(so));
+  if (w <= 900) { await page.click('#sheet-still'); } else await page.click('#still-btn');
+  await page.waitForTimeout(200);
+  (await page.evaluate(() => document.querySelector('#sound-btn').getAttribute('aria-pressed'))) === 'false' ? ok('Still also silences sound') : fail('Still left sound on');
+  if (w <= 900) { await page.click('#sheet-still'); await page.click('#sheet-close'); } else await page.click('#still-btn');
+  await page.waitForTimeout(400);
   errors.length ? fail('console/page errors: ' + errors.slice(0, 3).join(' | ')) : ok('no console or page errors');
   await page.close();
 }

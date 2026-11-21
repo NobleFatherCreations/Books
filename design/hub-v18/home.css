@@ -306,3 +306,22 @@ h1 .ln>span{display:block}
 .hero .result-grid{grid-template-columns:1fr;gap:var(--s1)}
 .hero .pick{align-items:center}
 @media (min-width:901px){.hero .stage{align-self:start;position:sticky;top:96px}}
+
+/* v19: Still + Sound switches (header), sheet sound row */
+.ico{display:inline-flex;align-items:center;gap:8px;min-height:44px;min-width:44px;padding:0 12px;border-radius:999px;border:1px solid var(--line);background:transparent;color:var(--muted);cursor:pointer;font-size:15px;font-weight:600;transition:color var(--dur-1) var(--ease-out),border-color var(--dur-1) var(--ease-out),background-color var(--dur-1) var(--ease-out),transform 160ms var(--ease-out)}
+.ico svg,.sheet-sound svg{width:20px;height:20px;fill:none;stroke:currentColor;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;flex:none}
+.ico:hover{color:var(--paper);border-color:var(--muted)}
+.ico:active{transform:scale(.95)}
+.ico[aria-pressed="true"]{color:var(--ink);background:var(--brass);border-color:var(--brass)}
+.top.is-night .ico[aria-pressed="true"]{background:var(--glow);border-color:var(--glow);color:var(--night)}
+[aria-pressed="false"] .on,[aria-pressed="true"] .off{display:none}
+.sheet-sound{display:inline-flex;align-items:center;justify-content:center;gap:8px}
+.sheet-sound[aria-pressed="true"]{background:var(--brass);color:var(--ink);border-color:var(--brass)}
+@media (max-width:900px){.ico-w{display:none}.ico{padding:0;justify-content:center}#sound-btn{display:none}}
+@media (max-width:380px){.top-actions{gap:4px}}
+.menu-btn svg{width:20px;height:20px;fill:none;stroke:currentColor;stroke-width:2;stroke-linecap:round;display:none}
+@media (max-width:900px){.top .wrap{gap:var(--s1)}.top-actions{gap:4px}.menu-btn{padding:0;justify-content:center}.menu-btn svg{display:block}.menu-w{display:none}}
+@media (max-width:400px){.brand{font-size:21px}}
+@media (max-width:359px){#still-btn{display:none}.brand{font-size:19px}}
+.sheet-row{display:grid;grid-template-columns:1fr 1fr;gap:var(--s1);margin:var(--s2) 0 var(--s1)}
+.sheet-row .btn{min-height:52px}

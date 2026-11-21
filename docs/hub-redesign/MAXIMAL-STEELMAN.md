@@ -206,3 +206,13 @@ Music items (I1-I4) wait for the song restore.
 - Sound: **yes, off until tapped**. Synthesised in the page, a header sound button, never saved between visits.
 - Intro: **no**. A1 press-stamp title card and A3 preloader are out; the headline rises straight away (B1 upgrade still applies).
 - New words: **skip both**. A4 late-night line and B5 cycling headline are out. A5 (time-of-day dimming, no words) stays.
+
+### Batch 1 done (2026-11-21): foundations
+- Still switch (header beside Leave now; also in the phone menu): stops every self-running effect and all sound for this visit, not saved. Reduced-motion readers already get the still version.
+- Sound: synthesised in the page (tick, press, page turn, door, charge hum, glow chime), created only by a tap on the Sound switch (desktop header, phone menu).
+- Haptics: Android vibrate; iPhone one system tick via a hidden native switch (tap only; needs a real-device check). Portals: a pulse that quickens while charging, a firmer tap at full.
+- Leave now silences sound and stops motion before it leaves.
+- Device tier (html data-tier high/low) ready for the GPU effects.
+- GSAP plugins vendored (SplitText, DrawSVG, MorphSVG, Flip, Observer, Draggable, Inertia, Physics2D, CustomEase); the builder inlines only the ones listed in GSAP_PLUGINS.
+- Phone header: Menu became an icon to fit Still; at under 360px Still lives in the menu only.
+- Gates: verify-hub all pass (4 new checks: no sound without a tap, Still stops motion, Sound lifts Still, Still silences sound); design-gates 0 FAIL; axe clean dark + light.
