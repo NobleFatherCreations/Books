@@ -478,6 +478,52 @@
     return () => { ['pointerdown', 'pointermove', 'pointerup', 'pointercancel', 'lostpointercapture'].forEach((ev, i) => book.removeEventListener(ev, [down, move, up, up, up][i])); gsap.set(leaf, { rotateY: 0 }); book.classList.remove('is-peek'); };
   }
 
+  // batch 6.2: as you scroll down from the hero, a copy of the cover flies and lands on its own place on the shelf
+  function flight() {
+    const ghost = document.createElement('img'); ghost.className = 'ghost'; ghost.alt = ''; ghost.setAttribute('aria-hidden', 'true'); document.body.appendChild(ghost);
+    let tgt = null, tgtImg = null, src = '';
+    const pick = () => {
+      if (heroImg.getAttribute('src') === src) return tgt; src = heroImg.getAttribute('src');
+      const bk = D.books.find(b => b.imgLg === src); tgt = bk ? $(`.shelf .bk[href="/${bk.slug}"] .cov`) : null; tgtImg = tgt && $('img', tgt);
+      if (tgt) ghost.src = $('img', tgt).currentSrc || $('img', tgt).src; return tgt;
+    };
+    const cap = $('.stage figcaption');
+    const show = (inFlight) => { ghost.style.visibility = inFlight ? 'visible' : 'hidden'; if (cap) cap.style.visibility = inFlight ? 'hidden' : ''; book.style.visibility = inFlight ? 'hidden' : ''; if (tgtImg) tgtImg.style.visibility = inFlight ? 'hidden' : ''; };
+    const near = () => { const t = pick(); if (!t) return false; const gap = t.getBoundingClientRect().top - $('.hero').getBoundingClientRect().bottom; return gap < innerHeight * 1.6; };
+    const st = ScrollTrigger.create({ trigger: '.hero', start: 'bottom 75%', end: () => '+=' + Math.round(innerHeight * .9), onUpdate: s => {
+      const p = s.progress;
+      if (p <= 0 || p >= 1 || !near()) { show(false); return; }
+      const a = book.getBoundingClientRect(), b = tgt.getBoundingClientRect(), e = gsap.parseEase('power2.inOut')(p);
+      const w = a.width + (b.width - a.width) * e, x = a.left + (b.left - a.left) * e, y = a.top + (b.top - a.top) * e;
+      ghost.style.width = b.width + 'px'; ghost.style.height = b.height + 'px';
+      ghost.style.transform = `translate(${x}px,${y}px) scale(${w / b.width}) rotate(${(-6 * (1 - e)).toFixed(2)}deg)`;
+      show(true);
+    }, onLeave: () => show(false), onLeaveBack: () => show(false) });
+    return () => { st.kill(); show(false); ghost.remove(); };
+  }
+  // batch 6.3: desktop wheels glide (trackpads, keyboards, scrollbars and phones keep their own native scrolling)
+  function glide() {
+    let target = scrollY, cur = scrollY, raf = 0, active = false;
+    const max = () => document.documentElement.scrollHeight - innerHeight;
+    const step = () => {
+      cur += (target - cur) * .12;
+      if (Math.abs(target - cur) < .5) { cur = target; active = false; raf = 0; scrollTo({ top: cur, behavior: 'instant' }); return; }
+      scrollTo({ top: cur, behavior: 'instant' }); raf = requestAnimationFrame(step);
+    };
+    const wheel = e => {
+      if (e.ctrlKey || Math.abs(e.deltaX) > Math.abs(e.deltaY) || sheet.hasAttribute('data-open')) return;
+      const d = e.deltaMode === 1 ? e.deltaY * 16 : e.deltaMode === 2 ? e.deltaY * innerHeight : e.deltaY;
+      if (e.deltaMode === 0 && Math.abs(d) < 50 && !active) return;   // small, continuous deltas are a trackpad: leave them native
+      e.preventDefault();
+      if (!active) { cur = target = scrollY; active = true; }
+      target = gsap.utils.clamp(0, max(), target + d);
+      if (!raf) raf = requestAnimationFrame(step);
+    };
+    const keyOrBar = () => { if (active) { cancelAnimationFrame(raf); raf = 0; active = false; } };
+    addEventListener('wheel', wheel, { passive: false }); addEventListener('keydown', keyOrBar); addEventListener('pointerdown', keyOrBar);
+    return () => { removeEventListener('wheel', wheel); removeEventListener('keydown', keyOrBar); removeEventListener('pointerdown', keyOrBar); cancelAnimationFrame(raf); };
+  }
+
   /* ---------- Motion (GSAP). Reduced motion: nothing self-running; scroll-linked motion stays. ---------- */
   if (!hasG) return;
   gsap.registerPlugin(ScrollTrigger, SplitText, DrawSVGPlugin);
@@ -592,6 +638,15 @@
         if (sealIco) gsap.timeline().fromTo(sealIco, { scale: 1.6, rotation: -25, opacity: 0 }, { scale: .88, rotation: 0, opacity: 1, duration: .35, ease: 'power3.in' }).to(sealIco, { scale: 1, duration: .5, ease: 'elastic.out(1,.4)' }).add(() => buzz(6), '<');
         if (castIco) { const ps = $$('path', castIco); gsap.fromTo(ps, { drawSVG: '0%' }, { drawSVG: '100%', duration: .9, stagger: .15, ease: 'power2.inOut', delay: .2 }); }
       } });
+      cleanups.push(flight());
+      if (fine) cleanups.push(glide());
+      // stacking shelves: the shelf being covered sinks back a little as the next one slides over it
+      const shelfEls = $$('.shelf');
+      shelfEls.slice(0, -1).forEach((sh, i) => gsap.fromTo(sh, { scale: 1, filter: 'brightness(1)' }, { scale: .95, filter: 'brightness(.55)', ease: 'none',
+        scrollTrigger: { trigger: shelfEls[i + 1], start: 'top 85%', end: () => 'top ' + ($('.top').offsetHeight + 8) + 'px', scrub: .3 } }));
+      // page turn: Tools, The Listening Room and the support panel arrive with a diagonal edge sweeping down, like a turning page
+      $$('#tools, #music, #support').forEach(sec => gsap.fromTo(sec, { clipPath: 'polygon(0% 0%, 100% 0%, 100% 0%, 0% 35%)' }, { clipPath: 'polygon(0% 0%, 100% 0%, 100% 100%, 0% 135%)', ease: 'none',
+        scrollTrigger: { trigger: sec, start: 'top 95%', end: 'top 25%', scrub: .4, onLeave: () => gsap.set(sec, { clipPath: 'none' }), onEnterBack: () => {} } }));
       // section titles rise line by line into a mask as they arrive (once), on every screen
       $$('.sec-head h2, .workshop h3, .support h2').forEach(h => {
         const sp = SplitText.create(h, { type: 'lines', mask: 'lines', aria: 'none' });
@@ -640,7 +695,8 @@
     const ls = SplitText.create('.lede', { type: 'words', aria: 'none' });
     gsap.fromTo(ls.words, { color: '#cbbda4' }, { color: '#f6eedf', stagger: .1, ease: 'none', scrollTrigger: { trigger: '.hero', start: 'top top', end: '35% top', scrub: .5 } });
     gsap.to('.ribbon-track', { xPercent: -45, ease: 'none', scrollTrigger: { trigger: document.body, start: 'top top', end: () => '+=' + innerHeight * 1.6, scrub: .8 } });
-    gsap.fromTo('.book3d', { rotateY: -30, rotateX: 7, rotateZ: -3 }, { rotateY: -8, rotateX: 2, rotateZ: 0, ease: 'none', immediateRender: false,
+    // the spine catches more light as the book turns toward the reader
+    gsap.fromTo('.book3d', { rotateY: -30, rotateX: 7, rotateZ: -3, '--spl': .75 }, { rotateY: -8, rotateX: 2, rotateZ: 0, '--spl': 1.25, ease: 'none', immediateRender: false,
       scrollTrigger: { trigger: '.hero', start: 'top top', end: 'bottom top', scrub: .6 } });
     gsap.fromTo('#hero-face', { rotateY: 0, '--sheen': '100%' }, { rotateY: -42, '--sheen': '0%', ease: 'none', immediateRender: false,
       scrollTrigger: { trigger: '.hero', start: 'top top', end: 'bottom 30%', scrub: .6, onUpdate: st => book.classList.toggle('is-open', st.progress > .02) } });

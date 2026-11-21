@@ -262,3 +262,11 @@ Music items (I1-I4) wait for the song restore.
 - Fixed: the In-the-making icons had picked up the header switch style (class clash from batch 1).
 - Check budget raised from 260 to 300 KB of live page (the owner set no number; LCP 0.64 s, 283 KB transferred).
 - Gates: verify-hub all pass; design-gates 0 FAIL; axe clean; CLS 0.
+
+### Batch 6 done (2026-11-21): the big items
+- 6.1 The hero book has real thickness: a page block top and bottom, a back board, a thicker spine that catches more light as the book turns toward you.
+- 6.2 Scrolling down from the hero, a copy of the cover flies and lands on its own place on the shelf (whichever book the hero shows; skipped when that shelf is far away). The caption under the book hides while it flies.
+- 6.3 Desktop mouse wheels glide (about half a second per notch); trackpads, keyboards, scrollbars and phones keep native scrolling.
+- 6.4 Shelves stack: each shelf slides over the one before, which sinks back and dims. Phone check: every shelf fits the screen, so nothing is hidden before it is covered. Off under Still and reduced motion.
+- 6.5 Page turns: Tools, The Listening Room and the support panel arrive with a diagonal edge sweeping down.
+- Gates: verify-hub all pass; design-gates 0 FAIL; axe clean; LCP 0.65 s, CLS 0, 289 KB.

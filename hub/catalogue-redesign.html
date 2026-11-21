@@ -463,6 +463,23 @@ h1 .ln>span{display:block}
 body::before{inset:-50%}
 @keyframes grain{0%{transform:translate(0,0)}20%{transform:translate(-3%,2%)}40%{transform:translate(2%,-3%)}60%{transform:translate(-2%,-1%)}80%{transform:translate(3%,3%)}100%{transform:translate(0,0)}}
 @media (prefers-reduced-motion:no-preference){html:not(.is-still) body::before{animation:grain 1.1s steps(5) infinite}}
+/* batch 6.1: a book with real thickness (T = 11% of its width) */
+.book3d{--T:calc(var(--bw) * .11)}
+.book3d .sp{width:var(--T)}
+.book3d .pg{width:calc(var(--T) * .92)}
+.book3d .back{position:absolute;inset:0;border-radius:3px;background:linear-gradient(90deg,#1b140d,#2c2117);transform:translateZ(calc(var(--T) * -1));box-shadow:24px 30px 60px #000a}
+.book3d .tp,.book3d .bt{position:absolute;left:1%;width:97%;height:calc(var(--T) * .92);background:repeating-linear-gradient(#efe5d1 0 1px,#d6c9ae 1px 2px)}
+.book3d .tp{top:0;transform-origin:top center;transform:rotateX(-90deg)}
+.book3d .bt{bottom:0;transform-origin:bottom center;transform:rotateX(90deg);filter:brightness(.6)}
+.book3d .sp{background:linear-gradient(90deg,#120d08,#3d3020 50%,#1b140d);filter:brightness(var(--spl,1))}
+/* batch 6.2: the flying cover */
+.ghost{position:fixed;left:0;top:0;z-index:15;border-radius:3px;box-shadow:16px 24px 40px #000b;pointer-events:none;visibility:hidden;transform-origin:0 0;will-change:transform}
+/* batch 6.4: shelves stack as you scroll (each one slides over the one before) */
+@media (prefers-reduced-motion:no-preference){
+ html:not(.is-still) .shelf{position:sticky;top:calc(var(--head) + 8px);background-color:var(--ink);transform-origin:50% 0}
+ html:not(.is-still) .shelf:nth-of-type(3){z-index:2}html:not(.is-still) .shelf:nth-of-type(4){z-index:3}html:not(.is-still) .shelf:nth-of-type(5){z-index:4}
+ html:not(.is-still) .door{position:relative;z-index:5;background-color:#16110d}
+}
 </style>
 </head><body>
 <a class="skip" href="#main">Skip to the books</a>
@@ -482,7 +499,7 @@ body::before{inset:-50%}
 <div class="result" id="result" role="region" aria-labelledby="result-title"><div><div class="result-inner">
 <div class="result-head"><h2 id="result-title">Your starting point</h2><button class="redo" id="redo" type="button">Change answer</button><p class="muted" id="result-note"></p></div>
 <div class="result-grid" id="result-grid"></div></div></div></div></div>
-<figure class="stage"><div class="halo"></div><span class="floor" aria-hidden="true"></span><div class="book-in"><div class="book-tilt"><div class="book3d"><span class="sp"></span><div class="inside" aria-hidden="true"><span class="page-k">Chapter one</span><span class="lines"></span><span class="page-sig"></span></div><span class="riffle" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i></span><div class="face" id="hero-face"><div class="leaf" id="hero-leaf"><span class="sheen" aria-hidden="true"></span><img id="hero-cover" src="/media/v18/longafter-760.webp" width="760" height="1133" alt="The Long After, cover" fetchpriority="high" decoding="async"></div></div><span class="pg"></span></div></div></div>
+<figure class="stage"><div class="halo"></div><span class="floor" aria-hidden="true"></span><div class="book-in"><div class="book-tilt"><div class="book3d"><span class="back" aria-hidden="true"></span><span class="sp"></span><span class="tp" aria-hidden="true"></span><span class="bt" aria-hidden="true"></span><div class="inside" aria-hidden="true"><span class="page-k">Chapter one</span><span class="lines"></span><span class="page-sig"></span></div><span class="riffle" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i></span><div class="face" id="hero-face"><div class="leaf" id="hero-leaf"><span class="sheen" aria-hidden="true"></span><img id="hero-cover" src="/media/v18/longafter-760.webp" width="760" height="1133" alt="The Long After, cover" fetchpriority="high" decoding="async"></div></div><span class="pg"></span></div></div></div>
 <figcaption>Your answer turns the book.</figcaption></figure></div></section>
 
 
@@ -1054,6 +1071,52 @@ body::before{inset:-50%}
     return () => { ['pointerdown', 'pointermove', 'pointerup', 'pointercancel', 'lostpointercapture'].forEach((ev, i) => book.removeEventListener(ev, [down, move, up, up, up][i])); gsap.set(leaf, { rotateY: 0 }); book.classList.remove('is-peek'); };
   }
 
+  // batch 6.2: as you scroll down from the hero, a copy of the cover flies and lands on its own place on the shelf
+  function flight() {
+    const ghost = document.createElement('img'); ghost.className = 'ghost'; ghost.alt = ''; ghost.setAttribute('aria-hidden', 'true'); document.body.appendChild(ghost);
+    let tgt = null, tgtImg = null, src = '';
+    const pick = () => {
+      if (heroImg.getAttribute('src') === src) return tgt; src = heroImg.getAttribute('src');
+      const bk = D.books.find(b => b.imgLg === src); tgt = bk ? $(`.shelf .bk[href="/${bk.slug}"] .cov`) : null; tgtImg = tgt && $('img', tgt);
+      if (tgt) ghost.src = $('img', tgt).currentSrc || $('img', tgt).src; return tgt;
+    };
+    const cap = $('.stage figcaption');
+    const show = (inFlight) => { ghost.style.visibility = inFlight ? 'visible' : 'hidden'; if (cap) cap.style.visibility = inFlight ? 'hidden' : ''; book.style.visibility = inFlight ? 'hidden' : ''; if (tgtImg) tgtImg.style.visibility = inFlight ? 'hidden' : ''; };
+    const near = () => { const t = pick(); if (!t) return false; const gap = t.getBoundingClientRect().top - $('.hero').getBoundingClientRect().bottom; return gap < innerHeight * 1.6; };
+    const st = ScrollTrigger.create({ trigger: '.hero', start: 'bottom 75%', end: () => '+=' + Math.round(innerHeight * .9), onUpdate: s => {
+      const p = s.progress;
+      if (p <= 0 || p >= 1 || !near()) { show(false); return; }
+      const a = book.getBoundingClientRect(), b = tgt.getBoundingClientRect(), e = gsap.parseEase('power2.inOut')(p);
+      const w = a.width + (b.width - a.width) * e, x = a.left + (b.left - a.left) * e, y = a.top + (b.top - a.top) * e;
+      ghost.style.width = b.width + 'px'; ghost.style.height = b.height + 'px';
+      ghost.style.transform = `translate(${x}px,${y}px) scale(${w / b.width}) rotate(${(-6 * (1 - e)).toFixed(2)}deg)`;
+      show(true);
+    }, onLeave: () => show(false), onLeaveBack: () => show(false) });
+    return () => { st.kill(); show(false); ghost.remove(); };
+  }
+  // batch 6.3: desktop wheels glide (trackpads, keyboards, scrollbars and phones keep their own native scrolling)
+  function glide() {
+    let target = scrollY, cur = scrollY, raf = 0, active = false;
+    const max = () => document.documentElement.scrollHeight - innerHeight;
+    const step = () => {
+      cur += (target - cur) * .12;
+      if (Math.abs(target - cur) < .5) { cur = target; active = false; raf = 0; scrollTo({ top: cur, behavior: 'instant' }); return; }
+      scrollTo({ top: cur, behavior: 'instant' }); raf = requestAnimationFrame(step);
+    };
+    const wheel = e => {
+      if (e.ctrlKey || Math.abs(e.deltaX) > Math.abs(e.deltaY) || sheet.hasAttribute('data-open')) return;
+      const d = e.deltaMode === 1 ? e.deltaY * 16 : e.deltaMode === 2 ? e.deltaY * innerHeight : e.deltaY;
+      if (e.deltaMode === 0 && Math.abs(d) < 50 && !active) return;   // small, continuous deltas are a trackpad: leave them native
+      e.preventDefault();
+      if (!active) { cur = target = scrollY; active = true; }
+      target = gsap.utils.clamp(0, max(), target + d);
+      if (!raf) raf = requestAnimationFrame(step);
+    };
+    const keyOrBar = () => { if (active) { cancelAnimationFrame(raf); raf = 0; active = false; } };
+    addEventListener('wheel', wheel, { passive: false }); addEventListener('keydown', keyOrBar); addEventListener('pointerdown', keyOrBar);
+    return () => { removeEventListener('wheel', wheel); removeEventListener('keydown', keyOrBar); removeEventListener('pointerdown', keyOrBar); cancelAnimationFrame(raf); };
+  }
+
   /* ---------- Motion (GSAP). Reduced motion: nothing self-running; scroll-linked motion stays. ---------- */
   if (!hasG) return;
   gsap.registerPlugin(ScrollTrigger, SplitText, DrawSVGPlugin);
@@ -1168,6 +1231,15 @@ body::before{inset:-50%}
         if (sealIco) gsap.timeline().fromTo(sealIco, { scale: 1.6, rotation: -25, opacity: 0 }, { scale: .88, rotation: 0, opacity: 1, duration: .35, ease: 'power3.in' }).to(sealIco, { scale: 1, duration: .5, ease: 'elastic.out(1,.4)' }).add(() => buzz(6), '<');
         if (castIco) { const ps = $$('path', castIco); gsap.fromTo(ps, { drawSVG: '0%' }, { drawSVG: '100%', duration: .9, stagger: .15, ease: 'power2.inOut', delay: .2 }); }
       } });
+      cleanups.push(flight());
+      if (fine) cleanups.push(glide());
+      // stacking shelves: the shelf being covered sinks back a little as the next one slides over it
+      const shelfEls = $$('.shelf');
+      shelfEls.slice(0, -1).forEach((sh, i) => gsap.fromTo(sh, { scale: 1, filter: 'brightness(1)' }, { scale: .95, filter: 'brightness(.55)', ease: 'none',
+        scrollTrigger: { trigger: shelfEls[i + 1], start: 'top 85%', end: () => 'top ' + ($('.top').offsetHeight + 8) + 'px', scrub: .3 } }));
+      // page turn: Tools, The Listening Room and the support panel arrive with a diagonal edge sweeping down, like a turning page
+      $$('#tools, #music, #support').forEach(sec => gsap.fromTo(sec, { clipPath: 'polygon(0% 0%, 100% 0%, 100% 0%, 0% 35%)' }, { clipPath: 'polygon(0% 0%, 100% 0%, 100% 100%, 0% 135%)', ease: 'none',
+        scrollTrigger: { trigger: sec, start: 'top 95%', end: 'top 25%', scrub: .4, onLeave: () => gsap.set(sec, { clipPath: 'none' }), onEnterBack: () => {} } }));
       // section titles rise line by line into a mask as they arrive (once), on every screen
       $$('.sec-head h2, .workshop h3, .support h2').forEach(h => {
         const sp = SplitText.create(h, { type: 'lines', mask: 'lines', aria: 'none' });
@@ -1216,7 +1288,8 @@ body::before{inset:-50%}
     const ls = SplitText.create('.lede', { type: 'words', aria: 'none' });
     gsap.fromTo(ls.words, { color: '#cbbda4' }, { color: '#f6eedf', stagger: .1, ease: 'none', scrollTrigger: { trigger: '.hero', start: 'top top', end: '35% top', scrub: .5 } });
     gsap.to('.ribbon-track', { xPercent: -45, ease: 'none', scrollTrigger: { trigger: document.body, start: 'top top', end: () => '+=' + innerHeight * 1.6, scrub: .8 } });
-    gsap.fromTo('.book3d', { rotateY: -30, rotateX: 7, rotateZ: -3 }, { rotateY: -8, rotateX: 2, rotateZ: 0, ease: 'none', immediateRender: false,
+    // the spine catches more light as the book turns toward the reader
+    gsap.fromTo('.book3d', { rotateY: -30, rotateX: 7, rotateZ: -3, '--spl': .75 }, { rotateY: -8, rotateX: 2, rotateZ: 0, '--spl': 1.25, ease: 'none', immediateRender: false,
       scrollTrigger: { trigger: '.hero', start: 'top top', end: 'bottom top', scrub: .6 } });
     gsap.fromTo('#hero-face', { rotateY: 0, '--sheen': '100%' }, { rotateY: -42, '--sheen': '0%', ease: 'none', immediateRender: false,
       scrollTrigger: { trigger: '.hero', start: 'top top', end: 'bottom 30%', scrub: .6, onUpdate: st => book.classList.toggle('is-open', st.progress > .02) } });
