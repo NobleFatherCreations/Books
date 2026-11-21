@@ -71,7 +71,7 @@ for (const [name, w, h] of [['375', 375, 812], ['1440', 1440, 900]]) {
   for (let y = 0; y < H; y += h * 0.7) { await page.evaluate((y) => scrollTo(0, y), y); await page.waitForTimeout(90); }
   await page.waitForTimeout(700);
   const stuck = await page.evaluate(() => [...document.querySelectorAll('main *')].filter((e) => getComputedStyle(e).opacity === '0'
-    && e.getBoundingClientRect().height > 0 && !e.matches('.pair input, .portal .night, .portal .lamp, .door .burst, .tool .scan, .tool .glare')).map(e => e.className.baseVal ?? e.className));
+    && e.getBoundingClientRect().height > 0 && !e.matches('.pair input, .portal .night, .portal .lamp, .portal .glowpaint, .portal .glint, .door .burst, .tool .scan, .tool .glare')).map(e => e.className.baseVal ?? e.className));
   stuck.length ? fail(`${stuck.length} elements stuck invisible after a full scroll: ${stuck.slice(0, 6).join(', ')}`) : ok('nothing stuck invisible after a full scroll');
   const small = await page.evaluate(() => [...document.querySelectorAll('a,button')].filter((e) => { const r = e.getBoundingClientRect(); return r.width && r.height && (r.height < 44 || r.width < 44) && !e.closest('.legal,.skip'); }).map((e) => e.textContent.trim().slice(0, 24)));
   small.length ? fail('tap targets under 44px: ' + small.slice(0, 6).join(' | ')) : ok('every tap target is at least 44px');

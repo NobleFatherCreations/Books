@@ -234,3 +234,12 @@ Music items (I1-I4) wait for the song restore.
 - The bigger-picture door: press and hold the button (a ring fills, "Keep holding"); two wooden doors swing open with light bursting from the gap; a seam of light under the door breathes three times when it comes into view. Keyboard and screen readers open it straight away; a tap closes it.
 - Tools: cards tilt with a glare that follows the pointer; the Pattern Decoder scans its page on arrival and on hover; roots grow down from The Root as you scroll.
 - Gates: verify-hub all pass (new: keyboard opens the door at once); design-gates 0 FAIL; axe clean; LCP 0.53 s, CLS 0, 256 KB.
+
+### Batch 4 done (2026-11-21): threshold and Portals
+- Threshold: as you scroll in, the page burns down to black from the edges (an ember ring closing in), "Worn in the light." dims as the light leaves while "Alive in the dark." gathers its glow, and six layers of phosphor stars come out as the dark deepens. All scroll-linked, nothing self-running.
+- Portals: the glow is painted. Where the light touched is where it glows: hold and drag to paint light in; a still press spreads out from the finger and soaks the whole pendant in about a second. The afterglow fades on the same curve as before, with a soft bloom.
+- Moving over a glowing pendant sheds sparks of afterglow; a glint follows the pointer (and the phone tilt on Android).
+- Desktop: a faint UV lamp follows the pointer through the Workshop; passing over a pendant charges it a little where the light falls, so it glows faintly when you move away.
+- The first full charge of the visit turns the rest of the page dark for about two seconds so that pendant glows alone (Leave now stays on top; skipped under Still and reduced motion).
+- A charge-up hum (sound) was planned for the threshold scroll and left out: sound may only answer a tap.
+- Gates: verify-hub all pass; design-gates 0 FAIL (stars moved off a canvas so nothing sits over text; transitions snap under reduced motion); axe clean; LCP 0.60 s, CLS 0, 266 KB. Live page DOM 252 KB of the 260 KB check budget.

@@ -166,8 +166,8 @@ def main():
 {music_link}</div>
 <ul class="tracks">{tracks}</ul><p class="note" id="music-note" role="status">{"" if live else E(d["music"]["note"])}</p></div></section>
 
-<section class="threshold" id="art" data-nav="art" data-night="1"><span class="anchor" id="workshop"></span><span class="anchor" id="manifesto"></span><div class="wrap">
-<h2>Worn in the light. <span class="glowline">Alive in the dark.</span></h2>
+<section class="threshold" id="art" data-nav="art" data-night="1"><span class="anchor" id="workshop"></span><span class="anchor" id="manifesto"></span><span class="burn" aria-hidden="true"></span><span class="stars" aria-hidden="true"></span><div class="wrap">
+<h2><span class="lit">Worn in the light.</span> <span class="glowline">Alive in the dark.</span></h2>
 <p class="muted">The Workshop: hand-poured resin pendants with a strontium glow and a chip inside that plays a song, a message or a memory when a phone touches it.</p></div></section>
 
 <section class="workshop" data-nav="art" data-night="1"><div class="wrap">

@@ -406,6 +406,26 @@ h1 .ln>span{display:block}
 .tool .scan{position:absolute;left:0;right:0;top:0;height:3px;background:var(--brass-hi);box-shadow:0 0 14px 3px #e7c77d88;opacity:0;pointer-events:none}
 .tool .roots{position:absolute;left:5%;width:90%;top:92%;height:auto;overflow:visible;pointer-events:none}
 .tool .roots path{fill:none;stroke:#86ecd2aa;stroke-width:1.2;stroke-linecap:round}
+
+/* v19 batch 4: the threshold burns down to black; stars of phosphor come out */
+.threshold{overflow:hidden}
+.threshold .wrap{position:relative;z-index:1}
+.threshold .burn{position:absolute;inset:0;pointer-events:none;--b:130;background:radial-gradient(ellipse 75% 90% at 50% 45%,transparent calc(var(--b) * 1%),#e79a4a2e calc(var(--b) * 1% + 2%),#3a1a0a66 calc(var(--b) * 1% + 6%),var(--night) calc(var(--b) * 1% + 16%))}
+.threshold .stars,.threshold .stars i{position:absolute;inset:0;pointer-events:none}
+.threshold .stars i{opacity:0}
+.glowline{text-shadow:0 0 calc(8px + var(--gl,0) * 40px) rgba(134,236,210,calc(.25 + var(--gl,0) * .5))}
+/* Portals: painted glow, sparks, glint, the UV lamp, lights off */
+.portal .glowpaint,.portal .trail{position:absolute;inset:0;width:100%;height:100%;pointer-events:none}
+.portal .glowpaint{opacity:0;filter:drop-shadow(0 0 14px rgba(150,235,255,.45))}
+.portal .glint{position:absolute;inset:0;pointer-events:none;opacity:0;background:radial-gradient(circle at var(--gx,32%) var(--gy,28%),#e8fffa40,transparent 18%);mix-blend-mode:screen}
+.uv{position:fixed;left:0;top:0;z-index:18;width:260px;height:260px;margin:-130px 0 0 -130px;border-radius:50%;pointer-events:none;background:radial-gradient(circle,#8f6bff2e,#8f6bff10 40%,transparent 68%);mix-blend-mode:screen;opacity:0;transition:opacity .3s var(--ease-out)}
+.uv.is-on{opacity:1}
+.veil{position:fixed;inset:0;z-index:18;background:#000;opacity:0;pointer-events:none}
+.pairs>li.is-raised{z-index:19}
+/* reduced motion and Still: state changes snap instead of easing (utility feedback stays visible) */
+@media (prefers-reduced-motion:reduce){.brand,.top,.door .seam,.chip,.chip .rl>span,.uv,.tool,.tool .glare,.bk .cov,.portal .lamp,.nav a,.sheet-panel{transition:none}}
+.is-still .brand,.is-still .top,.is-still .door .seam,.is-still .chip .rl>span,.is-still .uv,.is-still .tool,.is-still .bk .cov{transition:none}
+.threshold p,.workshop>.wrap>p{text-shadow:0 0 4px var(--night),0 0 10px var(--night),0 0 16px var(--night)}
 </style>
 </head><body>
 <a class="skip" href="#main">Skip to the books</a>
@@ -447,8 +467,8 @@ h1 .ln>span{display:block}
 <p class="more is-off">176 songs, back soon</p></div>
 <ul class="tracks"><li class="trk" data-src="/music/audio/a-man-wrote-this-the-sovereign-divine-feminine.mp3" data-title="A Man Wrote This"><span class="n" aria-hidden="true">1</span><span><span class="t">A Man Wrote This</span><span class="s">The Reckoning</span></span><time>5:35</time><span class="bar" aria-hidden="true"><i></i></span></li><li class="trk" data-src="/music/audio/always-watching-the-watchers.mp3" data-title="Always Watching the Watchers"><span class="n" aria-hidden="true">2</span><span><span class="t">Always Watching the Watchers</span><span class="s">The Reckoning</span></span><time>4:06</time><span class="bar" aria-hidden="true"><i></i></span></li><li class="trk" data-src="/music/audio/halo-with-an-edge.mp3" data-title="Halo with an Edge"><span class="n" aria-hidden="true">3</span><span><span class="t">Halo with an Edge</span><span class="s">The Frequency</span></span><time>4:19</time><span class="bar" aria-hidden="true"><i></i></span></li><li class="trk" data-src="/music/audio/divine-counterpart.mp3" data-title="Divine Counterpart"><span class="n" aria-hidden="true">4</span><span><span class="t">Divine Counterpart</span><span class="s">The Frequency</span></span><time>5:11</time><span class="bar" aria-hidden="true"><i></i></span></li><li class="trk" data-src="/music/audio/dharma-is-my-safe-word.mp3" data-title="Dharma Is My Safe Word"><span class="n" aria-hidden="true">5</span><span><span class="t">Dharma Is My Safe Word</span><span class="s">The Frequency</span></span><time>4:38</time><span class="bar" aria-hidden="true"><i></i></span></li></ul><p class="note" id="music-note" role="status">The songs are being restored. Play buttons switch on when they are back.</p></div></section>
 
-<section class="threshold" id="art" data-nav="art" data-night="1"><span class="anchor" id="workshop"></span><span class="anchor" id="manifesto"></span><div class="wrap">
-<h2>Worn in the light. <span class="glowline">Alive in the dark.</span></h2>
+<section class="threshold" id="art" data-nav="art" data-night="1"><span class="anchor" id="workshop"></span><span class="anchor" id="manifesto"></span><span class="burn" aria-hidden="true"></span><span class="stars" aria-hidden="true"></span><div class="wrap">
+<h2><span class="lit">Worn in the light.</span> <span class="glowline">Alive in the dark.</span></h2>
 <p class="muted">The Workshop: hand-poured resin pendants with a strontium glow and a chip inside that plays a song, a message or a memory when a phone touches it.</p></div></section>
 
 <section class="workshop" data-nav="art" data-night="1"><div class="wrap">
@@ -751,40 +771,94 @@ h1 .ln>span{display:block}
   });
   $$('.shelf .books').forEach(ul => ul.addEventListener('scrollend', () => { if (ul.scrollWidth > ul.clientWidth + 4) { buzz(4); snd.play('tick'); } }));
 
-  /* ---------- Portals: strontium charges in light, then glows and fades in the dark ---------- */
+  /* ---------- Portals: strontium charges in light, then glows and fades in the dark ----------
+     v19: the glow is painted. Where the light touched is where it glows: a small charge map masks the night photo on a canvas,
+     and the canvas fades with the afterglow curve. Under Still / reduced motion the whole photo simply glows (the v18 behaviour). */
   const CHARGE_S = 1.2, GLOW_S = 7;   // hold ~1.2 s to charge fully; the afterglow fades over ~7 s, fast at first then slow, like the real thing
+  const veil = document.createElement('div'); veil.className = 'veil'; veil.setAttribute('aria-hidden', 'true'); document.body.appendChild(veil);
+  let lightsOffDone = false;
+  // the first full charge of the visit: the rest of the page goes dark for a moment so the pendant glows alone (Leave now stays above it)
+  const lightsOff = li => {
+    if (lightsOffDone || calm() || !hasG) return; lightsOffDone = true;
+    li.classList.add('is-raised');
+    gsap.timeline({ onComplete: () => li.classList.remove('is-raised') })
+      .to(veil, { opacity: .93, duration: .6, ease: 'power2.out' })
+      .to(veil, { opacity: 0, duration: 1.4, ease: 'power2.inOut' }, '+=2.2');
+  };
+  const DPR = Math.min(2, devicePixelRatio || 1);
   $$('.portal').forEach(fig => {
     const li = fig.parentElement, night = $('.night', fig), day = $('.day', fig), btn = $('.charge', li), label = $('.label', btn), live = $('.portal-status', li), name = fig.dataset.name;
-    const v = { c: 0, g: 0 }; let chargeT, glowT, held = false, hum = null, buzzT = 0;
-    const paint = () => { const c = v.c.toFixed(3); fig.style.setProperty('--c', c); btn.style.setProperty('--c', c); night.style.opacity = v.g; day.style.opacity = 1 - v.g * .92; };
+    const v = { c: 0, g: 0 }; let chargeT, glowT, held = false, hum = null, buzzT = 0, trickle = false;
+    // layers: the painted glow, the afterglow trail, a moving glint
+    const mk = (tag, cls) => { const e = document.createElement(tag); e.className = cls; e.setAttribute('aria-hidden', 'true'); return e; };
+    const cv = mk('canvas', 'glowpaint'), tr = mk('canvas', 'trail'), glint = mk('span', 'glint');
+    fig.insertBefore(cv, $('.lamp', fig)); fig.appendChild(tr); fig.appendChild(glint);
+    const gx = cv.getContext('2d'), tx = tr.getContext('2d');
+    const map = document.createElement('canvas'); map.width = map.height = 96; const mx = map.getContext('2d');
+    let S = 0, px = .5, py = .5, brushR = .2, parts = [], trRaf = 0;
+    const sizeCv = () => { const w = Math.round(fig.clientWidth * DPR); if (w && w !== S) { S = w; cv.width = cv.height = tr.width = tr.height = w; } };
+    const painted = () => !calm() && night.complete && night.naturalWidth > 0;
+    const paintAt = (x, y, r, a) => { const g = mx.createRadialGradient(x * 96, y * 96, 0, x * 96, y * 96, Math.max(1, r * 96)); g.addColorStop(0, `rgba(255,255,255,${a})`); g.addColorStop(1, 'rgba(255,255,255,0)'); mx.fillStyle = g; mx.fillRect(0, 0, 96, 96); };
+    const redraw = () => {
+      sizeCv(); gx.globalCompositeOperation = 'source-over'; gx.clearRect(0, 0, S, S);
+      if (!painted()) return;
+      gx.drawImage(night, 0, 0, S, S); gx.globalCompositeOperation = 'destination-in'; gx.drawImage(map, 0, 0, S, S);
+    };
+    const clearMap = () => { mx.clearRect(0, 0, 96, 96); redraw(); };
+    const paint = () => {
+      const c = v.c.toFixed(3); fig.style.setProperty('--c', c); btn.style.setProperty('--c', c);
+      if (painted()) { cv.style.opacity = v.g; night.style.opacity = 0; } else { night.style.opacity = v.g; cv.style.opacity = 0; }
+      day.style.opacity = 1 - v.g * .92; glint.style.opacity = (v.g * .55).toFixed(3);
+    };
     const rest = () => { fig.classList.remove('is-glowing', 'is-charging'); label.textContent = 'Hold to charge'; };
+    // while held, the light spreads out from the finger and soaks in
+    const soak = () => { if (!held) return; brushR = Math.min(.8, brushR + .012); paintAt(px, py, brushR, .16); redraw(); requestAnimationFrame(soak); };
+    const decay = (peak, len, done) => {
+      if (glowT) glowT.kill();
+      glowT = gsap.timeline()
+        .to(v, { g: peak, duration: .35, ease: 'power2.out', onUpdate: paint })
+        .to(v, { c: 0, duration: .5, ease: 'power2.out', onUpdate: paint }, 0)
+        .to(v, { g: 0, duration: len, ease: 'power1.out', onUpdate: paint, onComplete: () => { rest(); live.textContent = ''; clearMap(); if (done) done(); } });
+    };
     const glow = () => {
       if (!held) return; held = false; if (hum) { hum.stop(); hum = null; } clearTimeout(buzzT);
       if (chargeT) chargeT.kill(); fig.classList.remove('is-charging');
-      if (v.c < .05) { v.c = 0; v.g = 0; paint(); rest(); return; }
-      fig.classList.add('is-glowing'); label.textContent = 'Glowing'; snd.play('chime'); live.textContent = `${name} is glowing in the dark.`;
+      if (v.c < .05) { v.c = 0; v.g = 0; paint(); rest(); clearMap(); return; }
+      fig.classList.add('is-glowing'); label.textContent = 'Glowing'; snd.play('chime');
+      live.textContent = `${name} is glowing in the dark.`;
       if (!hasG || calm()) { v.g = 1; v.c = 0; paint(); return; }   // reduced motion: it simply glows until charged again
-      if (glowT) glowT.kill();
-      glowT = gsap.timeline()
-        .to(v, { g: Math.min(1, .35 + v.c), duration: .35, ease: 'power2.out', onUpdate: paint })
-        .to(v, { c: 0, duration: .5, ease: 'power2.out', onUpdate: paint }, 0)
-        .to(v, { g: 0, duration: GLOW_S * Math.max(.4, v.c), ease: 'power1.out', onUpdate: paint, onComplete: () => { rest(); live.textContent = ''; } });
+      const full = v.c > .97;
+      decay(Math.min(1, .35 + v.c), GLOW_S * Math.max(.4, v.c));
+      if (full) lightsOff(li);
     };
     const charge = () => {
-      if (held) return; held = true;
+      if (held) return; held = true; trickle = false;
       if (glowT) glowT.kill(); fig.classList.add('is-charging'); label.textContent = 'Charging';
       hum = snd.hum(); buzz(6);
       // Android: a pulse that quickens as the charge rises (iPhone gets one tick at the start and one at full)
       if ('vibrate' in navigator && !still) { let gap = 220; const pulse = () => { buzz(6); gap = Math.max(60, gap * .8); buzzT = setTimeout(pulse, gap); }; buzzT = setTimeout(pulse, gap); }
-      if (!hasG || calm()) { v.c = 1; v.g = 0; paint(); return; }
+      if (!hasG || calm()) { v.c = 1; v.g = 0; mx.fillStyle = '#fff'; mx.fillRect(0, 0, 96, 96); paint(); return; }
       if (v.g > 0) gsap.to(v, { g: 0, duration: .25, ease: 'power2.out', onUpdate: paint });   // from glowing back to the light, no snap
+      brushR = .2; requestAnimationFrame(soak);
       chargeT = gsap.to(v, { c: 1, duration: CHARGE_S * (1 - v.c), ease: 'none', onUpdate: () => { paint(); if (hum) hum.set(v.c); }, onComplete: () => { clearTimeout(buzzT); buzz(18); snd.play('full'); } });
     };
-    const lamp = e => { const r = fig.getBoundingClientRect(); fig.style.setProperty('--lx', (e.clientX - r.left) + 'px'); fig.style.setProperty('--ly', (e.clientY - r.top) + 'px'); };
+    const at = e => { const r = fig.getBoundingClientRect(); px = gsap.utils.clamp(0, 1, (e.clientX - r.left) / r.width); py = gsap.utils.clamp(0, 1, (e.clientY - r.top) / r.height); fig.style.setProperty('--lx', px * 100 + '%'); fig.style.setProperty('--ly', py * 100 + '%'); };
+    // afterglow trail: moving over a glowing pendant sheds a few sparks of light
+    const sparks = () => {
+      trRaf = 0; sizeCv(); tx.clearRect(0, 0, S, S); tx.globalCompositeOperation = 'lighter';
+      parts = parts.filter(q => (q.life -= 1 / 60) > 0);
+      for (const q of parts) { q.x += q.vx; q.y += q.vy; q.vy -= .00012; const a = q.life * q.life; tx.fillStyle = `rgba(180,255,236,${(a * .9).toFixed(3)})`; tx.beginPath(); tx.arc(q.x * S, q.y * S, q.r * DPR * (1 + (1 - q.life)), 0, 6.283); tx.fill(); }
+      if (parts.length) trRaf = requestAnimationFrame(sparks);
+    };
+    const shed = () => {
+      if (calm() || v.g < .15 || parts.length > 80) return;
+      for (let i = 0; i < 2; i++) parts.push({ x: px, y: py, vx: (Math.random() - .5) * .006, vy: (Math.random() - .5) * .006, r: .8 + Math.random() * 1.6, life: .7 + Math.random() * .5 });
+      if (!trRaf) trRaf = requestAnimationFrame(sparks);
+    };
     [fig, btn].forEach(el => {
       el.addEventListener('pointerdown', e => {
         if (e.button > 0) return;
-        if (el === fig) lamp(e); else { fig.style.setProperty('--lx', '50%'); fig.style.setProperty('--ly', '50%'); }
+        if (el === fig) at(e); else { px = py = .5; fig.style.setProperty('--lx', '50%'); fig.style.setProperty('--ly', '50%'); }
         try { el.setPointerCapture(e.pointerId); } catch (x) {}
         charge();
       });
@@ -792,13 +866,35 @@ h1 .ln>span{display:block}
       el.addEventListener('pointercancel', glow);
       el.addEventListener('contextmenu', e => e.preventDefault());
     });
-    fig.addEventListener('pointermove', lamp);
+    const fine = matchMedia('(hover: hover) and (pointer: fine)');
+    fig.addEventListener('pointermove', e => {
+      at(e); fig.style.setProperty('--gx', px * 100 + '%'); fig.style.setProperty('--gy', py * 100 + '%');
+      shed();
+      // the UV lamp: just passing over a pendant charges it a little where the light falls
+      if (!held && fine.matches && !calm() && v.g < .05) { paintAt(px, py, .14, .06); redraw(); trickle = true; }
+    });
+    fig.addEventListener('pointerleave', () => { if (trickle && !held && v.g < .05 && !calm() && hasG) { trickle = false; fig.classList.add('is-glowing'); decay(.5, GLOW_S * .55); } });
     // keyboard: hold Space or Enter to charge, let go to glow
-    btn.addEventListener('keydown', e => { if ((e.key === ' ' || e.key === 'Enter') && !e.repeat) { e.preventDefault(); fig.style.setProperty('--lx', '50%'); fig.style.setProperty('--ly', '50%'); charge(); } });
+    btn.addEventListener('keydown', e => { if ((e.key === ' ' || e.key === 'Enter') && !e.repeat) { e.preventDefault(); px = py = .5; fig.style.setProperty('--lx', '50%'); fig.style.setProperty('--ly', '50%'); charge(); } });
     btn.addEventListener('keyup', e => { if (e.key === ' ' || e.key === 'Enter') { e.preventDefault(); glow(); } });
     btn.addEventListener('blur', glow);
+    new ResizeObserver(() => { sizeCv(); redraw(); }).observe(fig);
     paint();
   });
+  // phones that allow it without asking (Android): tilting the phone moves the glint across every glowing pendant
+  if ('DeviceOrientationEvent' in window && typeof DeviceOrientationEvent.requestPermission !== 'function' && !matchMedia('(pointer: fine)').matches) {
+    const portals = $$('.portal');
+    addEventListener('deviceorientation', e => { if (e.gamma == null || calm()) return; const x = 50 + gsap.utils.clamp(-40, 40, e.gamma * 1.4), y = 50 + gsap.utils.clamp(-40, 40, (e.beta - 45) * 1.2); portals.forEach(f => { f.style.setProperty('--gx', x + '%'); f.style.setProperty('--gy', y + '%'); }); });
+  }
+  // the UV lamp follows the pointer through the dark Workshop (desktop)
+  if (matchMedia('(hover: hover) and (pointer: fine)').matches && hasG) {
+    const uv = document.createElement('div'); uv.className = 'uv'; uv.setAttribute('aria-hidden', 'true'); document.body.appendChild(uv);
+    const ux = gsap.quickTo(uv, 'x', { duration: .35, ease: 'power3.out' }), uy = gsap.quickTo(uv, 'y', { duration: .35, ease: 'power3.out' });
+    const wk = $('.workshop');
+    wk.addEventListener('pointerenter', () => uv.classList.add('is-on'));
+    wk.addEventListener('pointerleave', () => uv.classList.remove('is-on'));
+    wk.addEventListener('pointermove', e => { ux(e.clientX); uy(e.clientY); });
+  }
 
   /* ---------- Music ---------- */
   const audio = new Audio(); audio.preload = 'none'; let cur = null;
@@ -981,6 +1077,24 @@ h1 .ln>span{display:block}
     gsap.fromTo('#hero-face', { rotateY: 0, '--sheen': '100%' }, { rotateY: -42, '--sheen': '0%', ease: 'none', immediateRender: false,
       scrollTrigger: { trigger: '.hero', start: 'top top', end: 'bottom 30%', scrub: .6, onUpdate: st => book.classList.toggle('is-open', st.progress > .02) } });
     gsap.fromTo('.glowline', { opacity: .82 }, { opacity: 1, ease: 'none', scrollTrigger: { trigger: '.threshold', start: 'top 80%', end: 'center center', scrub: true } });
+    {
+      const th = $('.threshold'), burn = $('.threshold .burn'), gl = $('.glowline'), lit = $('.threshold .lit');
+      // stars of phosphor: six layers of tiny dots (plain CSS backgrounds), each layer comes out as the dark deepens
+      const layers = Array.from({ length: 6 }, (_, k) => {
+        // a small tile of dots repeated; each layer has its own tile size so the repeat never lines up
+        const i = document.createElement('i'), n = 4, dots = [], tw = 260 + k * 47, thh = 210 + k * 39;
+        for (let d = 0; d < n; d++) { const r = (.6 + Math.random() * 1.1).toFixed(1); dots.push(`radial-gradient(circle at ${Math.round(Math.random() * 100)}% ${Math.round(Math.random() * 100)}%,#86ecd2cc 0 ${r}px,#0000 ${(+r + .8).toFixed(1)}px)`); }
+        i.style.backgroundImage = dots.join(','); i.style.backgroundSize = `${tw}px ${thh}px`; $('.threshold .stars').appendChild(i); return { i, t: .12 + k * .13 };
+      });
+      const drawStars = p => layers.forEach(L => { L.i.style.opacity = gsap.utils.clamp(0, 1, (p - L.t) * 5).toFixed(3); });
+      ScrollTrigger.create({ trigger: th, start: 'top 85%', end: 'bottom 70%', scrub: true, onUpdate: st => {
+        const p = st.progress;
+        burn.style.setProperty('--b', (130 - p * 145).toFixed(1));
+        gl.style.setProperty('--gl', p.toFixed(3));
+        lit.style.color = `rgb(${Math.round(236 - p * 60)},${Math.round(226 - p * 58)},${Math.round(207 - p * 54)})`;
+        drawStars(p);
+      }, onRefresh: st => drawStars(st.progress) });
+    }
     firstBuild = false;
     return () => cleanups.forEach(f => f());
   });
