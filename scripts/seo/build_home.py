@@ -78,7 +78,7 @@ def main():
     for i, p in enumerate(d["portals"]):
         p["dayImg"] = webp(SRC / "img" / p["day"], f"portal-{i}-day", 720)[0]
         p["nightImg"] = webp(SRC / "img" / p["night"], f"portal-{i}-night", 720)[0]
-    d["guide"]["src"] = webp(SRC / "img" / d["guide"]["img"], "nfc-guide", 320)[0]
+    d["guide"]["src"] = webp(SRC / "img" / d["guide"]["img"], "nfc-guide", 640)[0]
     for t in d["music"]["tracks"]:
         t["dur"] = round(man[t["file"]]["duration"])
     books = {b["slug"]: b for b in d["books"]}
@@ -93,6 +93,7 @@ def main():
         f'<ul class="books" aria-label="{E(s["name"])}">' + "".join(book_li(b) for b in d["books"] if b["shelf"] == s["id"]) + "</ul></div>"
         for s in d["shelves"])
     bigger = "".join(book_li(b) for b in d["books"] if b["shelf"] == "bigger")
+    spines = "".join(f'<i style="background-image:url({b["img"]})"></i>' for b in d["books"] if b["shelf"] == "bigger")
     chips = "".join(f'<button class="chip" type="button" data-s="{s["id"]}" aria-pressed="false">{E(s["label"])}</button>' for s in d["situations"])
     tools = "".join(f'<a class="tool" href="/{t["slug"]}"><img src="{t["img"]}" width="{t["w"]}" height="{t["h"]}" alt="" loading="lazy" decoding="async">'
                     f'<span><h3>{E(t["title"])}</h3><p class="muted">{E(t["line"])}</p></span></a>' for t in d["tools"])
@@ -107,7 +108,7 @@ def main():
         f'<img class="night" src="{p["nightImg"]}" width="720" height="720" alt="The same pendant glowing in the dark" loading="lazy" decoding="async">'
         f'<span class="line"></span><input type="range" min="0" max="100" value="50" aria-label="{E(p["name"])}: slide between daylight and dark">'
         f'<span class="knob">{KNOB}</span></figure><p class="legend" aria-hidden="true"><span>Daylight</span><span>{E(p["name"])}</span><span>Dark</span></p></li>' for p in d["portals"])
-    making = "".join(f'<div class="card soon">{ICONS[m["icon"]]}<span class="tag">In the making</span><h3>{E(m["title"])}</h3><p class="muted">{E(m["line"])}</p></div>' for m in d["making"])
+    making = "".join(f'<div class="mk card soon">{ICONS[m["icon"]]}<span><b>{E(m["title"])}</b><small>{E(m["line"])}</small></span></div>' for m in d["making"])
     g = d["guide"]
     pay = "".join(f'<a class="btn" href="{E(p["url"])}" target="_blank" rel="noopener">{E(p["name"])} {E(p["handle"])}</a>' for p in d["support"])
     ribbon_titles = [books[s]["title"] for s in ("longafter", "silence", "atwill", "repair", "loop", "scale", "slowtake", "feminine")]
@@ -144,7 +145,7 @@ def main():
 <section class="sec" id="library" data-nav="books"><div class="wrap">
 <div class="sec-head"><h2>The library</h2><p class="muted">Fourteen free books. Find the shelf that sounds like your life; each one opens straight to the first chapter.</p></div>
 {shelves}
-<div class="door" id="door"><div class="door-head"><div class="spines" aria-hidden="true"><i></i><i></i><i></i></div>
+<div class="door" id="door"><div class="door-head"><div class="spines" aria-hidden="true">{spines}</div>
 <div><h3>{E(d["bigger"]["name"])}</h3><p class="muted">{E(d["bigger"]["why"])}</p></div>
 <button class="btn" id="door-btn" type="button" aria-expanded="false" aria-controls="door-body">Open the bigger picture</button></div>
 <div class="door-body" id="door-body" inert><div><ul class="books" aria-label="The bigger picture">{bigger}</ul></div></div></div>
@@ -154,10 +155,9 @@ def main():
 <div class="sec-head"><h2>Free tools</h2><p class="muted">For when you need a name for something, or a few quiet minutes.</p></div>
 <div class="tools">{tools}</div></div></section>
 
-<section class="sec music" id="music" data-nav="music"><div class="wrap"><div>
-<h2>The Listening Room</h2><p class="muted" style="margin-top:16px">Songs written and produced by Shae: call-outs, love songs, festival anthems. Press play and keep reading; the song carries on down the page.</p>
-<a class="btn" href="/music" style="margin-top:24px">All 176 songs</a></div>
-<div><ul class="tracks">{tracks}</ul><p class="note" id="music-note" role="status">{"" if live else E(d["music"]["note"])}</p></div></div></section>
+<section class="sec music" id="music" data-nav="music"><div class="wrap"><div class="music-head"><div><h2>The Listening Room</h2><p class="muted" style="margin-top:16px">Songs written and produced by Shae: call-outs, love songs, festival anthems. Press play and keep reading; the song carries on down the page.</p></div>
+<a class="more" href="/music">All 176 songs</a></div>
+<ul class="tracks">{tracks}</ul><p class="note" id="music-note" role="status">{"" if live else E(d["music"]["note"])}</p></div></section>
 
 <section class="threshold" id="art" data-nav="art" data-night="1"><span class="anchor" id="workshop"></span><span class="anchor" id="manifesto"></span><div class="wrap">
 <h2>Worn in the light. <span class="glowline">Alive in the dark.</span></h2>
@@ -166,10 +166,10 @@ def main():
 <section class="workshop" data-nav="art" data-night="1"><div class="wrap">
 <h3>The Portals</h3><p class="muted" style="margin-top:8px">A portfolio of finished pieces. Slide across each one to see it in daylight and in the dark. The shop opens soon.</p>
 <ul class="pairs">{pairs}</ul>
-<a class="btn" href="/portals" style="margin-top:32px;border-color:var(--glow)">See every Portal</a>
+<a class="more" href="/portals" style="margin-top:24px">See every Portal</a>
 <div class="wk-row" id="guide" data-nav="nfc">
-<a class="card guide" href="{E(g["url"])}"><img src="{g["src"]}" width="320" height="320" alt="" loading="lazy" decoding="async"><span><span class="tag">Free guide</span><h3>{E(g["title"])}</h3><p class="muted">{E(g["line"])}</p><span class="btn">Read the guide</span></span></a>
-{making}</div></div></section>
+<a class="card guide" href="{E(g["url"])}"><img src="{g["src"]}" width="600" height="852" alt="" loading="lazy" decoding="async"><span><span class="tag">Free guide</span><h3>{E(g["title"])}</h3><p class="muted">{E(g["line"])}</p><span class="btn">Read the guide</span></span></a>
+<div class="making"><p>In the making</p>{making}</div></div></div></section>
 
 <section class="support" id="support" data-night="1"><div class="wrap"><div><h2 style="font-size:clamp(32px,2vw + 18px,48px)">Every book is free, and always will be.</h2>
 <p class="muted" style="margin-top:16px">If one found you at the right moment, you can leave something in the hat. Pay what you like, or nothing at all; it keeps the next one free for the next person.</p></div>

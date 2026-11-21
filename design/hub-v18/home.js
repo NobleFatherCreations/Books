@@ -55,7 +55,8 @@
     result.setAttribute('data-open', '');
     swapCover(a.imgLg, a.title + ', cover', a.w + '/' + a.h);
     if (hasG && !reduce.matches) gsap.from('#result-grid .pick', { y: 14, opacity: 0, duration: .45, stagger: .07, ease: 'power3.out', delay: .15, clearProps: 'all' });
-    if (innerWidth < 900) setTimeout(() => result.scrollIntoView({ behavior: reduce.matches ? 'auto' : 'smooth', block: 'start' }), 120);
+    // show the answer: bring the panel into view if it is below the fold (phone and desktop)
+    setTimeout(() => { const r = result.getBoundingClientRect(); if (r.top > innerHeight * .6) result.scrollIntoView({ behavior: reduce.matches ? 'auto' : 'smooth', block: 'start' }); }, 140);
   }));
 
   /* ---------- The bigger picture door ---------- */
