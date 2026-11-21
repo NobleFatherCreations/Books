@@ -190,8 +190,8 @@
   }
  ],
  "music": {
-  "live": false,
-  "note": "The songs are being restored. Play buttons switch on when they are back.",
+  "live": true,
+  "note": "",
   "tracks": [
    {
     "title": "A Man Wrote This",

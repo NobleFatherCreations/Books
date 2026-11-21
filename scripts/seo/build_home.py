@@ -25,6 +25,42 @@ FONTS = HUB / "f"
 E = lambda s: html.escape(str(s), quote=True)
 
 
+# the sitewide seal + Catalogue drawer (the same component the books carry; list from scripts/nf-catalogue.py)
+import importlib.util as _ilu
+_spec = _ilu.spec_from_file_location("nf_catalogue", ROOT / "scripts/nf-catalogue.py"); CAT = _ilu.module_from_spec(_spec); _spec.loader.exec_module(CAT)
+
+def chrome_parts():
+    css = (SRC / "chrome/nf-chrome.css").read_text()
+    css = css.replace("--nf-display:'Fraunces',Georgia,'Times New Roman',serif;", "--nf-display:'Gloock',Georgia,serif;")
+    css = css.replace("--nf-mono:'Space Mono','IBM Plex Mono',ui-monospace,'SFMono-Regular',monospace;", "--nf-mono:'Public Sans',system-ui,sans-serif;")
+    assert "Fraunces" not in css and "Space Mono" not in css, "chrome fonts not swapped"
+    js = (SRC / "chrome/nf-chrome.js").read_text()
+    # the homepage binds Escape (twice) to Leave now: closing the Catalogue with Escape must not also count toward leaving
+    old = "if(e.key==='Escape'&&root.classList.contains('nf-open')){shut();return}"
+    assert js.count(old) == 1
+    js = js.replace(old, "if(e.key==='Escape'&&root.classList.contains('nf-open')){e.preventDefault();e.stopImmediatePropagation();shut();return}")
+    # run the drawer's keys in the capture phase so they are handled before the page's own Escape/Tab handlers
+    old_end = "    }\n  });\n  // bookmark ribbon"
+    assert js.count(old_end) == 1, "keydown tail"
+    js = js.replace(old_end, "    }\n  },true);\n  // bookmark ribbon")
+    return css, js
+
+ONPAGE = [("#welcome", "Where to go"), ("#start-here", "Start here"), ("#library", "The Library"), ("#tools", "Free tools"),
+          ("#music", "The Listening Room"), ("#art", "The Portals"), ("#guide", "NFC guide"), ("#support", "Support the work")]
+
+def chrome_html():
+    onpage = "".join(f'<li class="nf-row"><a href="{h}"><span class="nf-dot" aria-hidden="true"></span><span class="nf-num">{i:02d}</span><span class="nf-vol">{t}</span></a></li>' for i, (h, t) in enumerate(ONPAGE))
+    return ('<div id="nf-chrome" class="nf-chrome" data-nf-page="home"><div class="nf-veil" aria-hidden="true"></div>'
+            '<button class="nf-seal" type="button" aria-expanded="false" aria-controls="nf-panel" aria-label="Open the Catalogue — Noble Father Creations"><span class="nf-seal-mark" aria-hidden="true">NF</span></button>'
+            '<div class="nf-scrim" aria-hidden="true"></div>'
+            '<nav class="nf-panel" id="nf-panel" aria-label="The Catalogue" aria-hidden="true"><div class="nf-panel-head"><div><div class="nf-eyebrow">Noble Father Creations</div><h2 class="nf-panel-title">The Catalogue</h2></div>'
+            '<button class="nf-close" type="button" aria-label="Close the Catalogue">&#10005;</button></div>'
+            f'<div class="nf-onpage"><p class="nf-eyebrow" style="padding:14px 26px 0">On this page</p><ul class="nf-toc nf-toc-page">{onpage}</ul></div>'
+            '<p class="nf-eyebrow" style="padding:14px 26px 0">Every book and page</p>'
+            + CAT.toc("home") + f'<div class="nf-panel-foot">{CAT.FOOT}</div></nav></div>')
+
+MUSIC = json.loads((ROOT / "instruments/music/MANIFEST.json").read_text())
+
 GSAP_PLUGINS = ["ScrollTrigger", "SplitText", "DrawSVGPlugin"]
 ROOTS_SVG = '<svg class="roots" viewBox="0 0 200 120" aria-hidden="true"><path d="M100 0 C100 30 96 48 84 66 S60 96 40 118"/><path d="M100 0 C102 34 110 52 124 70 S150 98 168 116"/><path d="M98 26 C86 40 70 46 52 50"/><path d="M103 40 C118 52 134 56 152 58"/><path d="M90 62 C84 80 86 98 92 116"/><path d="M118 66 C124 84 122 100 116 118"/></svg>'
 
@@ -61,6 +97,7 @@ ICONS = {
     "cast": '<svg class="mk-ico" viewBox="0 0 64 64" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M14 8h18l-4 8H18z"/><path d="M23 16v10"/><path d="M10 30h44v22a4 4 0 0 1-4 4H14a4 4 0 0 1-4-4z"/><path d="M26 56V44a6 6 0 0 1 12 0v12"/><circle cx="32" cy="38" r="0.5" fill="currentColor"/><path d="M23 26c0 2 1 3 0 4"/></svg>',
 }
 PLAY = '<svg viewBox="0 0 14 14" aria-hidden="true"><path d="M3 1l10 6-10 6z"/></svg>'
+PAUSE = '<svg viewBox="0 0 14 14" aria-hidden="true"><path d="M3 1h3v12H3zM8 1h3v12H8z"/></svg>'
 KNOB = '<svg viewBox="0 0 20 20" aria-hidden="true"><path d="M7 5l-4 5 4 5M13 5l4 5-4 5"/></svg>'
 
 
@@ -111,7 +148,7 @@ def main():
     tools = "".join(f'<a class="tool tool-{t["slug"]}" href="/{t["slug"]}"><span class="tool-art"><img src="{t["img"]}" width="{t["w"]}" height="{t["h"]}" alt="" loading="lazy" decoding="async">' + ('<span class="scan" aria-hidden="true"></span>' if t["slug"] == "playbook" else ROOTS_SVG if t["slug"] == "shadowroot" else '') + '</span><span class="glare" aria-hidden="true"></span>'
                     f'<span><h3>{E(t["title"])}</h3><p class="muted">{E(t["line"])}</p></span></a>' for t in d["tools"])
     live = d["music"]["live"]
-    music_link = '<a class="more" href="/music">All 176 songs</a>' if live else '<p class="more is-off">176 songs, back soon</p>'
+    music_link = '<a class="more" href="/music">Open the Listening Room</a>' if live else '<p class="more is-off">176 songs, back soon</p>'
     tracks = "".join(
         f'<li class="trk" data-src="/music/audio/{E(t["file"])}" data-title="{E(t["title"])}">'
         + (f'<button class="play" type="button" aria-label="Play {E(t["title"])}">{PLAY}</button>' if live else f'<span class="n" aria-hidden="true">{i + 1}</span>')
@@ -134,7 +171,10 @@ def main():
 
     client = {"books": [{k: b[k] for k in ("slug", "title", "line", "img", "imgLg", "w", "h")} for b in d["books"]],
               "tools": [{k: t[k] for k in ("slug", "title", "line", "img")} for t in d["tools"]],
-              "situations": d["situations"]}
+              "situations": d["situations"],
+              # the whole Listening Room catalogue, compact: [title, file, seconds, shelf index]; rows are built only when someone opens the list
+              "songs": {"shelves": [sh["name"] for sh in MUSIC["shelves"]],
+                        "t": [[t["title"], t["file"], round(t["duration"]), [sh["id"] for sh in MUSIC["shelves"]].index(t["shelf"])] for t in MUSIC["tracks"]]}}
     nav = [("books", "#library", "Books"), ("tools", "#tools", "Tools"), ("music", "#music", "Music"), ("art", "#art", "Art"), ("nfc", "#guide", "NFC guide")]
     navhtml = "".join(f'<a href="{h}" data-nav="{k}">{t}</a>' for k, h, t in nav)
     sheet_links = "".join(f'<a href="{h}">{t}</a>' for k, h, t in nav) + '<a href="/topics">Topics A to Z</a><a href="#support">Support the work</a>'
@@ -146,6 +186,7 @@ def main():
 <nav class="nav" aria-label="Sections"><span class="pill" aria-hidden="true"></span>{navhtml}</nav>
 <div class="top-actions"><button class="ico" id="sound-btn" type="button" aria-label="Sound" aria-pressed="false" title="Sound is off until you turn it on"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M11 4.702a.705.705 0 0 0-1.203-.498L6.413 7.587A1.4 1.4 0 0 1 5.416 8H3a1 1 0 0 0-1 1v6a1 1 0 0 0 1 1h2.416a1.4 1.4 0 0 1 .997.413l3.383 3.384A.705.705 0 0 0 11 19.298z"/><g class="on"><path d="M16 9a5 5 0 0 1 0 6"/><path d="M19.364 18.364a9 9 0 0 0 0-12.728"/></g><g class="off"><line x1="22" x2="16" y1="9" y2="15"/><line x1="16" x2="22" y1="9" y2="15"/></g></svg><span class="ico-w">Sound</span></button><button class="ico" id="still-btn" type="button" aria-label="Still" aria-pressed="false" title="Stop every moving effect and sound"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="10"/><line x1="10" x2="10" y1="15" y2="9"/><line x1="14" x2="14" y1="15" y2="9"/></svg><span class="ico-w">Still</span></button><button class="menu-btn" id="menu-btn" type="button" aria-label="Menu" aria-expanded="false" aria-controls="sheet"><svg viewBox="0 0 24 24" aria-hidden="true"><line x1="4" x2="20" y1="7" y2="7"/><line x1="4" x2="20" y1="12" y2="12"/><line x1="4" x2="20" y1="17" y2="17"/></svg><span class="menu-w">Menu</span></button>
 <a class="leave" href="https://www.google.com/search?q=weather" data-leave title="Leave this site now (or press Esc twice)">Leave now</a></div></div><span class="progress" aria-hidden="true"><i></i></span></header>
+<div class="nowbar" id="nowbar" hidden><button class="play" id="np-play" type="button" aria-label="Pause">{PAUSE}</button><span class="np-t"><span class="np-k">Now playing</span><b id="np-title"></b></span><button class="np-next" id="np-next" type="button" aria-label="Next song"><svg viewBox="0 0 14 14" aria-hidden="true"><path d="M2 1l8 6-8 6zM11 1h2v12h-2z"/></svg></button><span class="np-bar" aria-hidden="true"><i id="np-prog"></i></span></div>
 <div class="sheet" id="sheet" hidden><div class="sheet-panel" role="dialog" aria-modal="true" aria-label="Menu">{sheet_links}<div class="sheet-row"><button class="btn sheet-sound" id="sheet-still" type="button" aria-pressed="false"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="10"/><line x1="10" x2="10" y1="15" y2="9"/><line x1="14" x2="14" y1="15" y2="9"/></svg>Still</button><button class="btn sheet-sound" id="sheet-sound" type="button" aria-pressed="false"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M11 4.702a.705.705 0 0 0-1.203-.498L6.413 7.587A1.4 1.4 0 0 1 5.416 8H3a1 1 0 0 0-1 1v6a1 1 0 0 0 1 1h2.416a1.4 1.4 0 0 1 .997.413l3.383 3.384A.705.705 0 0 0 11 19.298z"/><g class="on"><path d="M16 9a5 5 0 0 1 0 6"/><path d="M19.364 18.364a9 9 0 0 0 0-12.728"/></g><g class="off"><line x1="22" x2="16" y1="9" y2="15"/><line x1="16" x2="22" y1="9" y2="15"/></g></svg>Sound</button></div><button class="btn sheet-close" id="sheet-close" type="button">Close</button></div></div>
 <div class="ribbon" aria-hidden="true"><div class="ribbon-track">{ribbon}</div></div>
 <main id="main">
@@ -182,14 +223,14 @@ def main():
 
 <section class="sec music" id="music" data-nav="music"><div class="wrap"><div class="music-head"><div><h2>The Listening Room</h2><p class="muted" style="margin-top:16px">Songs written and produced by Shae: call-outs, love songs, festival anthems.</p></div>
 {music_link}</div>
-<ul class="tracks">{tracks}</ul><p class="note" id="music-note" role="status">{"" if live else E(d["music"]["note"])}</p></div></section>
+<ul class="tracks">{tracks}</ul><button class="btn all-songs" id="all-btn" type="button" aria-expanded="false" aria-controls="all-songs">Show all {len(MUSIC["tracks"])} songs</button><div class="all-songs" id="all-songs" hidden></div><p class="note" id="music-note" role="status">{"" if live else E(d["music"]["note"])}</p></div></section>
 
 <section class="threshold" id="art" data-nav="art" data-night="1"><span class="anchor" id="workshop"></span><span class="anchor" id="manifesto"></span><span class="burn" aria-hidden="true"></span><span class="stars" aria-hidden="true"></span><div class="wrap">
 <h2><span class="lit">Worn in the light.</span> <span class="glowline">Alive in the dark.</span></h2>
 <p class="muted">The Workshop: hand-poured resin pendants with a strontium glow and a chip inside that plays a song, a message or a memory when a phone touches it.</p></div></section>
 
 <section class="workshop" data-nav="art" data-night="1"><div class="wrap">
-<h3>The Portals</h3><p class="muted" style="margin-top:8px">A portfolio of finished pieces. Strontium drinks in light and gives it back in the dark: press and hold a pendant to charge it, then let go. Every photo shows the real glow; each set glows its own colour. The shop opens soon.</p>
+<h3>The Portals</h3><p class="muted" style="margin-top:20px">A portfolio of finished pieces. Strontium drinks in light and gives it back in the dark: press and hold a pendant to charge it, then let go. Every photo shows the real glow; each set glows its own colour. The shop opens soon.</p>
 <ul class="pairs portals">{pairs}</ul>
 <a class="more" href="/portals" style="margin-top:24px">See every Portal</a>
 <div class="wk-row" id="guide" data-nav="nfc">
@@ -212,6 +253,8 @@ def main():
     rgba = rgba.crop(rgba.getbbox()); rgba.thumbnail((440, 160)); MEDIA.mkdir(parents=True, exist_ok=True); rgba.save(MEDIA / "signature.png", optimize=True)
     ink = Image.new("RGBA", rgba.size, (58, 44, 26, 0)); ink.putalpha(rgba.getchannel("A")); ink.save(MEDIA / "signature-ink.png", optimize=True)
 
+    body += chrome_html()
+    chrome_css, chrome_js = chrome_parts()
     text = re.sub(r"<[^>]+>", " ", body) + json.dumps(client, ensure_ascii=False) + "Close the bigger picture Pause That song could not start"
     fontcss = subset_fonts(html.unescape(text))
     # GSAP core + only the plugins the page uses (all vendored in tools/vendor/gsap-3.13.0, free under the GSAP standard licence)
@@ -226,11 +269,13 @@ def main():
 <link rel="preload" href="/f/gloock-400-normal.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="preload" href="{first["imgLg"]}" as="image">
 <style>{fontcss}{(SRC / "home.css").read_text()}</style>
+<style id="nf-chrome-css">{chrome_css}</style>
 </head><body>
 {body}
 <script type="application/json" id="home-data">{json.dumps(client, ensure_ascii=False).replace("</", "<\\/")}</script>
 <script>{gs}</script>
 <script>{(SRC / "home.js").read_text()}</script>
+<script id="nf-chrome-js">{chrome_js}</script>
 </body></html>
 """
     (HUB / "catalogue-redesign.html").write_text(page)

@@ -9,7 +9,7 @@ deploy/music/
   index.html      generated — do not hand-edit (see "Rebuilding")
   _headers        CORS for /audio/* so the frequency display can read the audio
   MANIFEST.json   the catalogue: every track's Drive id, size, duration, title
-  audio/          176 mp3s — GITIGNORED, not in the repo (1.26 GB)
+  audio/          176 mp3s — GITIGNORED, not in the repo (1.26 GB); restore with python3 scripts/music-fetch-audio.py (from the owner's Drive folder, sizes checked)
 ```
 
 ## NOT DEPLOYED YET

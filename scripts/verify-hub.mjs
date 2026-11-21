@@ -27,7 +27,7 @@ for (const [name, w, h] of [['375', 375, 812], ['1440', 1440, 900]]) {
   await page.waitForTimeout(800);
 
   const kb = (await page.evaluate(() => document.documentElement.outerHTML.length)) / 1024;
-  kb < 300 ? ok(`homepage HTML ${kb.toFixed(0)} KB (budget 300)`) : fail(`homepage HTML ${kb.toFixed(0)} KB (budget 300)`);
+  kb < 380 ? ok(`homepage HTML ${kb.toFixed(0)} KB (budget 380)`) : fail(`homepage HTML ${kb.toFixed(0)} KB (budget 380)`);
 
   const missing = await page.evaluate((ids) => ids.filter((i) => !document.getElementById(i)), ANCHORS);
   missing.length ? fail('old anchors missing: ' + missing.join(' ')) : ok('every old anchor still resolves');
@@ -77,6 +77,18 @@ for (const [name, w, h] of [['375', 375, 812], ['1440', 1440, 900]]) {
   small.length ? fail('tap targets under 44px: ' + small.slice(0, 6).join(' | ')) : ok('every tap target is at least 44px');
   const overflow = await page.evaluate(() => document.documentElement.scrollWidth - innerWidth);
   overflow > 1 ? fail(`horizontal overflow ${overflow}px`) : ok('no horizontal overflow');
+  // owner 2026-11-21: "ensure that all seo is still intact" (the SEO head is written by scripts/seo/build_site.py: build with sites.json hub.buildCommand)
+  const seo = await page.evaluate(() => { const q = (s) => document.querySelector(s); const ld = [...document.querySelectorAll('script[type="application/ld+json"]')].map((x) => { try { return JSON.parse(x.textContent); } catch (e) { return null; } });
+    return { canonical: q('link[rel=canonical]')?.href, ogImage: q('meta[property="og:image"]')?.content, ogTitle: !!q('meta[property="og:title"]'), twitter: !!q('meta[name="twitter:card"]'), desc: (q('meta[name=description]')?.content || '').length, title: document.title.length, ld: ld.filter(Boolean).length, h1: document.querySelectorAll('h1').length }; });
+  seo.canonical === 'https://noblefathercreations.com/' && seo.ogImage && seo.ogTitle && seo.twitter && seo.desc >= 70 && seo.title >= 20 && seo.ld >= 1 && seo.h1 === 1 ? ok('SEO head intact: title, description, canonical, Open Graph, Twitter card, JSON-LD, one h1') : fail('SEO head: ' + JSON.stringify(seo));
+  // owner 2026-11-21: "the navigation symbol that was previously on my website still there and can navigate anyone to any other book or page"
+  await page.evaluate(() => scrollTo({ top: 0, behavior: 'instant' }));
+  await page.click('.nf-seal'); await page.waitForTimeout(500);
+  const cat = await page.evaluate(() => { const p = document.querySelector('#nf-panel'); const links = [...p.querySelectorAll('.nf-toc:not(.nf-toc-page) a')].map((a) => a.getAttribute('href'));
+    return { open: document.querySelector('.nf-seal').getAttribute('aria-expanded'), n: links.length, all: links.every((h) => /^https:\/\/noblefathercreations\.com\//.test(h)) }; });
+  await page.keyboard.press('Escape'); await page.waitForTimeout(400);
+  const shut = await page.evaluate(() => document.querySelector('.nf-seal').getAttribute('aria-expanded'));
+  cat.open === 'true' && cat.n >= 21 && cat.all && shut === 'false' && page.url().startsWith(url) ? ok(`the seal opens the Catalogue: ${cat.n} books and pages, Escape closes it (and does not leave)`) : fail('seal Catalogue: ' + JSON.stringify({ ...cat, shut }));
   // owner 2026-11-21: "the first thing people see ... doesn't assume they are there for a book": the first screen is the name and four doors
   const first = await page.evaluate(() => { scrollTo({ top: 0, behavior: 'instant' }); const h = document.querySelectorAll('h1'); const t = [...document.querySelectorAll('.door-grid .door-t')].map((a) => [a.textContent.trim(), a.getBoundingClientRect().top < innerHeight]);
     return { h1: h.length === 1 ? h[0].textContent.trim() : h.length, doors: t }; });

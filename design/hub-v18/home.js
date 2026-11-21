@@ -91,7 +91,7 @@
   soundBtns.forEach(b => b.addEventListener('click', () => { if (still && !snd.on) setStill(false); snd.set(!snd.on); showSound(); snd.play('tick'); buzz(6); }));
   const setStill = v => {
     still = v; stillBtns.forEach(b => b.setAttribute('aria-pressed', String(v))); root.classList.toggle('is-still', v);
-    if (v) { snd.set(false); showSound(); }
+    if (v) { snd.set(false); showSound(); if (window.__nfAudio) window.__nfAudio.pause(); }
     rebuild();
   };
   stillBtns.forEach(b => b.addEventListener('click', () => { buzz(6); setStill(!still); }));
@@ -99,7 +99,7 @@
   document.addEventListener('click', e => { if (e.target.closest('.chip, .btn, .pick, .bk a, .tool, .nav a, .menu-btn, .redo, .door-btn, .card a')) snd.play('tick'); });
 
   /* ---------- Leave: one tap (or Esc twice) to a neutral page, replacing this one in history ---------- */
-  const leave = () => { try { snd.kill(); if (window.gsap) gsap.globalTimeline.pause(); } catch (e) {} try { document.body.style.visibility = 'hidden'; } catch (e) {} location.replace('https://www.google.com/search?q=weather'); };
+  const leave = () => { try { snd.kill(); document.querySelectorAll('audio').forEach(a => a.pause()); if (window.__nfAudio) window.__nfAudio.pause(); if (window.gsap) gsap.globalTimeline.pause(); } catch (e) {} try { document.body.style.visibility = 'hidden'; } catch (e) {} location.replace('https://www.google.com/search?q=weather'); };
   $$('[data-leave]').forEach(a => a.addEventListener('click', e => { e.preventDefault(); leave(); }));
   let lastEsc = 0;
   addEventListener('keydown', e => {
@@ -405,22 +405,43 @@
   let taps = [];
   $('.glowline').addEventListener('pointerup', () => { const n = performance.now(); taps = taps.filter(t => n - t < 700); taps.push(n); if (taps.length >= 3) { taps = []; lightsOut(); } });
 
-  /* ---------- Music ---------- */
-  const audio = new Audio(); audio.preload = 'none'; let cur = null;
+  /* ---------- Music: every song can be found and played here; a small bar keeps it going while you read ---------- */
+  const audio = new Audio(); audio.preload = 'none'; let cur = null; window.__nfAudio = audio;
   const fmt = s => `${Math.floor(s / 60)}:${String(Math.floor(s % 60)).padStart(2, '0')}`;
-  $$('.trk').forEach(row => {
-    const btn = $('.play', row); if (!btn) return;
-    btn.addEventListener('click', () => {
-      if (cur === row && !audio.paused) { audio.pause(); return; }
-      if (cur !== row) { if (cur) cur.classList.remove('is-playing'); cur = row; audio.src = row.dataset.src; }
-      audio.play().catch(() => { $('#music-note').textContent = 'That song could not start. Try another, or open the Listening Room.'; });
-    });
+  const PLAYI = '<svg viewBox="0 0 14 14" aria-hidden="true"><path d="M3 1l10 6-10 6z"/></svg>', PAUSEI = '<svg viewBox="0 0 14 14" aria-hidden="true"><path d="M3 1h3v12H3zM8 1h3v12H8z"/></svg>';
+  const nowbar = $('#nowbar'), npPlay = $('#np-play'), npTitle = $('#np-title'), npProg = $('#np-prog'), note = $('#music-note');
+  const rows = () => $$('.trk[data-src]');
+  const setIcon = (row, playing) => { const b = $('.play', row); if (!b) return; b.innerHTML = playing ? PAUSEI : PLAYI; b.setAttribute('aria-label', (playing ? 'Pause ' : 'Play ') + row.dataset.title); };
+  const start = row => {
+    if (cur && cur !== row) { cur.classList.remove('is-playing'); setIcon(cur, false); }
+    if (cur !== row) { cur = row; audio.src = row.dataset.src; }
+    audio.play().catch(() => { if (note) note.textContent = 'That song could not start. Try another, or open the Listening Room.'; });
+  };
+  document.addEventListener('click', e => {
+    const b = e.target.closest && e.target.closest('.trk .play'); if (!b) return;
+    const row = b.closest('.trk'); if (cur === row && !audio.paused) audio.pause(); else start(row);
   });
-  const icon = p => p ? '<svg viewBox="0 0 14 14" aria-hidden="true"><path d="M3 1h3v12H3zM8 1h3v12H8z"/></svg>' : '<svg viewBox="0 0 14 14" aria-hidden="true"><path d="M3 1l10 6-10 6z"/></svg>';
-  audio.addEventListener('play', () => { cur.classList.add('is-playing'); const b = $('.play', cur); b.innerHTML = icon(true); b.setAttribute('aria-label', 'Pause ' + cur.dataset.title); });
-  audio.addEventListener('pause', () => { if (!cur) return; const b = $('.play', cur); b.innerHTML = icon(false); b.setAttribute('aria-label', 'Play ' + cur.dataset.title); });
-  audio.addEventListener('timeupdate', () => { if (cur && audio.duration) { $('.bar i', cur).style.width = (audio.currentTime / audio.duration * 100) + '%'; $('time', cur).textContent = fmt(audio.currentTime); } });
-  audio.addEventListener('ended', () => { const next = cur.nextElementSibling; if (next && $('.play', next)) $('.play', next).click(); });
+  npPlay.addEventListener('click', () => { if (!cur) return; if (audio.paused) audio.play().catch(() => {}); else audio.pause(); });
+  const next = () => { const all = rows(); const i = all.indexOf(cur); const n = all[(i + 1) % all.length]; if (n) start(n); };
+  $('#np-next').addEventListener('click', next);
+  audio.addEventListener('play', () => { cur.classList.add('is-playing'); setIcon(cur, true); nowbar.hidden = false; npTitle.textContent = cur.dataset.title; npPlay.innerHTML = PAUSEI; npPlay.setAttribute('aria-label', 'Pause ' + cur.dataset.title); if (note) note.textContent = ''; });
+  audio.addEventListener('pause', () => { if (!cur) return; setIcon(cur, false); npPlay.innerHTML = PLAYI; npPlay.setAttribute('aria-label', 'Play ' + cur.dataset.title); });
+  audio.addEventListener('timeupdate', () => { if (!cur || !audio.duration) return; const k = audio.currentTime / audio.duration * 100; const bar = $('.bar i', cur); if (bar) bar.style.width = k + '%'; npProg.style.width = k + '%'; const t = $('time', cur); if (t) t.textContent = fmt(audio.currentTime); });
+  audio.addEventListener('ended', next);
+  audio.addEventListener('error', () => { if (note) note.textContent = 'That song could not start. Try another, or open the Listening Room.'; });
+  // all songs, by shelf: built the first time someone opens the list
+  const allBtn = $('#all-btn'), allBox = $('#all-songs');
+  allBtn.addEventListener('click', () => {
+    const open = allBox.hidden;
+    if (open && !allBox.childElementCount) {
+      const S = D.songs, esc = x => x.replace(/[&<>"]/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]));
+      allBox.innerHTML = S.shelves.map((name, si) => `<h3>${esc(name)}</h3><ul class="tracks">` + S.t.filter(t => t[3] === si).map(t =>
+        `<li class="trk" data-src="/music/audio/${esc(t[1])}" data-title="${esc(t[0])}"><button class="play" type="button" aria-label="Play ${esc(t[0])}">${PLAYI}</button><span><span class="t">${esc(t[0])}</span><span class="s">${esc(name)}</span></span><time>${fmt(t[2])}</time><span class="bar" aria-hidden="true"><i></i></span></li>`).join('') + '</ul>').join('');
+    }
+    allBox.hidden = !open; allBtn.setAttribute('aria-expanded', String(open));
+    allBtn.textContent = open ? 'Show fewer songs' : `Show all ${D.songs.t.length} songs`;
+    if (!open) $('#music').scrollIntoView({ behavior: smooth() });
+  });
 
   /* ---------- Where am I: nav marker + header turns to night in the Workshop ---------- */
   const navLinks = $$('.nav a'); const top = $('.top'), pill = $('.nav .pill');
