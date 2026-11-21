@@ -28,7 +28,8 @@
  --brass:#c9a24a;--brass-hi:#e7c77d;--oxblood:#9a3a2c;--glow:#86ecd2;--night:#07090a;--night-2:#0c1112;--night-line:#1f2a28;
  --s1:8px;--s2:16px;--s3:24px;--s4:32px;--s6:48px;--s8:64px;--s12:96px;--s16:128px;
  --t-sm:15px;--t-body:17px;--t-lede:19px;--t-h3:clamp(24px,1.6vw + 14px,32px);--t-h2:clamp(40px,3.4vw + 20px,72px);--t-h1:clamp(46px,6.6vw + 14px,128px);
- --ease-out:cubic-bezier(.2,.7,.2,1);--ease-in-out:cubic-bezier(.65,0,.35,1);--dur-1:.18s;--dur-2:.32s;
+ --ease-out:cubic-bezier(.23,1,.32,1);--ease-in-out:cubic-bezier(.77,0,.175,1);--ease-drawer:cubic-bezier(.32,.72,0,1);
+ --display:"Instrument Serif";--dur-1:.18s;--dur-2:.32s;
  --wrap:1280px;--gut:var(--s8);--head:64px;
  color-scheme:dark;
 }
@@ -39,9 +40,9 @@ body{margin:0;background:var(--ink);color:var(--paper);font:400 var(--t-body)/1.
 img{display:block;max-width:100%;height:auto}
 a{color:inherit}
 button{font:inherit;color:inherit}
-h1,h2,h3{font-family:"Instrument Serif",Georgia,serif;font-weight:400;letter-spacing:-.01em;margin:0;text-wrap:balance}
-h1{font-size:var(--t-h1);line-height:.96}
-h2{font-size:var(--t-h2);line-height:.98}
+h1,h2,h3{font-family:var(--display),Georgia,serif;font-weight:400;letter-spacing:-.01em;margin:0;text-wrap:balance}
+h1{font-size:var(--t-h1);line-height:.96;letter-spacing:-.02em}
+h2{font-size:var(--t-h2);line-height:.98;letter-spacing:-.015em}
 h3{font-size:var(--t-h3);line-height:1.05}
 p{margin:0;max-width:62ch;text-wrap:pretty}
 .muted{color:var(--muted)}
@@ -62,16 +63,16 @@ p{margin:0;max-width:62ch;text-wrap:pretty}
 .btn[disabled]{opacity:.45;cursor:not-allowed}
 
 /* header */
-.top{position:sticky;top:0;z-index:20;height:var(--head);background:color-mix(in srgb,var(--ink) 86%,transparent);-webkit-backdrop-filter:blur(12px);backdrop-filter:blur(12px);border-bottom:1px solid var(--line);transition:background-color .4s var(--ease-out),border-color .4s var(--ease-out)}
+.top{position:sticky;top:0;z-index:20;height:var(--head);background:color-mix(in srgb,var(--ink) 80%,transparent);-webkit-backdrop-filter:blur(14px) saturate(140%);backdrop-filter:blur(14px) saturate(140%);border-bottom:1px solid transparent;transition:background-color .4s var(--ease-out),border-color .4s var(--ease-out)}
 .top.is-night{background:color-mix(in srgb,var(--night) 86%,transparent);border-color:var(--night-line)}
 .top .wrap{display:flex;align-items:center;justify-content:space-between;gap:var(--s3);height:100%}
-.brand{display:inline-flex;align-items:center;min-height:44px;font:400 27px/1 "Instrument Serif",serif;text-decoration:none;white-space:nowrap}
+.brand{display:inline-flex;align-items:center;min-height:44px;font:400 27px/1 var(--display),Georgia,serif;text-decoration:none;white-space:nowrap}
 .nav{display:flex;gap:var(--s1)}
 .nav a{display:inline-flex;align-items:center;min-height:44px;padding:0 12px;border-radius:999px;color:var(--muted);text-decoration:none;font-size:var(--t-sm);transition:color var(--dur-1) var(--ease-out),background-color var(--dur-1) var(--ease-out)}
 .nav a:hover{color:var(--paper)}
 .nav a[aria-current="true"]{color:var(--paper);background:var(--ink-3)}
 .top-actions{display:flex;align-items:center;gap:var(--s1)}
-.leave{display:inline-flex;align-items:center;min-height:44px;padding:0 16px;border-radius:999px;background:var(--oxblood);color:#fff;font-weight:600;font-size:15px;text-decoration:none;border:0;cursor:pointer}
+.leave{display:inline-flex;align-items:center;white-space:nowrap;min-height:44px;padding:0 16px;border-radius:999px;background:var(--oxblood);color:#fff;font-weight:600;font-size:15px;text-decoration:none;border:0;cursor:pointer}
 .leave:hover{background:#b0453a}
 .menu-btn{display:none;min-height:44px;min-width:44px;padding:0 14px;border-radius:999px;border:1px solid var(--line);background:var(--ink-2);cursor:pointer;font-size:15px;font-weight:600}
 
@@ -81,20 +82,20 @@ p{margin:0;max-width:62ch;text-wrap:pretty}
 .sheet[data-open]{opacity:1;pointer-events:auto}
 .sheet-panel{background:var(--ink-2);border-top:1px solid var(--line);border-radius:8px 8px 0 0;padding:var(--s3) var(--s2) calc(var(--s4) + env(safe-area-inset-bottom));max-height:85vh;overflow:auto;transform:translateY(24px);transition:transform var(--dur-2) var(--ease-out)}
 .sheet[data-open] .sheet-panel{transform:none}
-.sheet-panel a{display:flex;align-items:center;min-height:52px;padding:0 var(--s2);border-radius:8px;text-decoration:none;font:400 27px/1 "Instrument Serif",serif}
+.sheet-panel a{display:flex;align-items:center;min-height:52px;padding:0 var(--s2);border-radius:8px;text-decoration:none;font:400 27px/1 var(--display),Georgia,serif}
 .sheet-panel a:hover{background:var(--ink-3)}
 .sheet-close{display:block;margin:var(--s2) auto 0;min-height:48px}
 
 /* ribbon of titles */
 .ribbon{border-bottom:1px solid var(--line);overflow:hidden;padding:14px 0;-webkit-mask:linear-gradient(90deg,transparent,#000 6%,#000 94%,transparent);mask:linear-gradient(90deg,transparent,#000 6%,#000 94%,transparent)}
-.ribbon-track{display:flex;width:max-content;font:italic 400 27px/1 "Instrument Serif",serif;color:#cdbea2}
+.ribbon-track{display:flex;width:max-content;font:italic 400 27px/1 var(--display),Georgia,serif;color:#cdbea2}
 .ribbon-track span{padding-right:72px;white-space:nowrap}
 
 /* 1 hero */
 .hero{padding:var(--s8) 0 var(--s12)}
 .hero .wrap{display:grid;grid-template-columns:1.3fr .9fr;align-items:center;gap:var(--s6);min-height:min(calc(100svh - 150px),860px)}
 .lede{margin:var(--s3) 0 var(--s4);font-size:var(--t-lede);color:#d6cab6;max-width:36ch}
-.ask{font:italic 400 27px/1.1 "Instrument Serif",serif;color:var(--brass-hi);margin-bottom:var(--s2)}
+.ask{font:italic 400 27px/1.1 var(--display),Georgia,serif;color:var(--brass-hi);margin-bottom:var(--s2)}
 .chips{display:flex;flex-wrap:wrap;gap:var(--s1)}
 .chip{min-height:48px;display:inline-flex;align-items:center;padding:0 18px;border-radius:999px;border:1px solid #4a3d2e;background:var(--ink-2);font-size:var(--t-sm);cursor:pointer;transition:background-color var(--dur-1) var(--ease-out),color var(--dur-1) var(--ease-out),border-color var(--dur-1) var(--ease-out),transform var(--dur-1) var(--ease-out)}
 @media (hover:hover){.chip:hover{border-color:var(--brass)}}
@@ -106,7 +107,7 @@ p{margin:0;max-width:62ch;text-wrap:pretty}
 .book3d img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;border-radius:3px;box-shadow:34px 44px 80px #000b}
 .book3d .sp{position:absolute;left:0;top:0;width:12%;height:100%;background:linear-gradient(90deg,#1b140d,#3d3020);transform:rotateY(-90deg);transform-origin:left}
 .book3d .pg{position:absolute;right:0;top:1%;width:10%;height:98%;background:repeating-linear-gradient(90deg,#efe5d1 0 1px,#d6c9ae 1px 2px);transform:rotateY(90deg);transform-origin:right}
-.stage figcaption{position:absolute;bottom:0;font:italic 19px "Instrument Serif",serif;color:var(--muted);text-align:center}
+.stage figcaption{position:absolute;bottom:0;font:italic 19px var(--display),Georgia,serif;color:var(--muted);text-align:center}
 
 /* 2 start result */
 .result{display:grid;grid-template-rows:0fr;transition:grid-template-rows .5s var(--ease-out);background:var(--ink-2);border-block:1px solid transparent}
@@ -119,8 +120,8 @@ p{margin:0;max-width:62ch;text-wrap:pretty}
 .pick{display:grid;grid-template-columns:96px 1fr;gap:var(--s3);align-items:center;text-decoration:none;padding:var(--s2);border-radius:8px;transition:background-color var(--dur-1) var(--ease-out)}
 .pick:hover{background:var(--ink-3)}
 .pick img{width:96px;height:auto;border-radius:3px;box-shadow:10px 14px 26px #000a}
-.pick .k{font:italic 19px/1.2 "Instrument Serif",serif;color:var(--brass-hi)}
-.pick b{display:block;font:400 23px/1.1 "Instrument Serif",serif;margin:2px 0 4px}
+.pick .k{font:italic 19px/1.2 var(--display),Georgia,serif;color:var(--brass-hi)}
+.pick b{display:block;font:400 23px/1.1 var(--display),Georgia,serif;margin:2px 0 4px}
 .pick small{color:var(--muted);font-size:17px;line-height:1.45;display:block}
 
 /* sections */
@@ -137,7 +138,7 @@ p{margin:0;max-width:62ch;text-wrap:pretty}
 .bk .cov{display:block;position:relative;aspect-ratio:1696/2528;border-radius:3px;overflow:hidden;background:var(--ink-3);box-shadow:10px 14px 28px #000a;transition:transform var(--dur-2) var(--ease-out),box-shadow var(--dur-2) var(--ease-out)}
 .bk .cov::after{content:"";position:absolute;inset:0;background:linear-gradient(90deg,#0006,transparent 9%,#ffffff12 11%,transparent 16%);pointer-events:none}
 .bk img{width:100%;height:100%;object-fit:cover}
-.bk b{display:block;font:400 23px/1.1 "Instrument Serif",serif;margin-top:var(--s2)}
+.bk b{display:block;font:400 23px/1.1 var(--display),Georgia,serif;margin-top:var(--s2)}
 .bk small{display:block;color:var(--muted);font-size:13px;line-height:1.45;margin-top:4px}
 @media (hover:hover){.bk:hover .cov{transform:translateY(-6px) rotate(-1deg);box-shadow:16px 24px 40px #000c}}
 .door{margin-top:var(--s8);border:1px solid var(--line);border-radius:8px;background:linear-gradient(90deg,#120e0a,#1d1610)}
@@ -169,13 +170,13 @@ p{margin:0;max-width:62ch;text-wrap:pretty}
 .play svg{width:14px;height:14px;fill:var(--brass-hi)}
 .play:hover:not([disabled]){background:var(--brass)}.play:hover:not([disabled]) svg{fill:var(--ink)}
 .play[disabled]{opacity:.4;cursor:not-allowed}
-.trk .t{display:block;font:400 23px/1.15 "Instrument Serif",serif}
+.trk .t{display:block;font:400 23px/1.15 var(--display),Georgia,serif}
 .trk .s{display:block;color:var(--muted);font-size:15px}
 .trk time{color:var(--muted);font-size:13px;font-variant-numeric:tabular-nums}
 .trk.is-playing .t{color:var(--brass-hi)}
 .bar{grid-column:2/4;height:2px;background:var(--line);margin-top:-14px;margin-bottom:12px;display:none}
 .trk.is-playing .bar{display:block}.bar i{display:block;height:100%;width:0;background:var(--brass)}
-.more{display:inline-flex;align-items:center;min-height:44px;font:italic 400 25px/1 "Instrument Serif",serif;color:var(--brass-hi);text-decoration:underline;text-decoration-thickness:1px;text-underline-offset:6px;transition:text-underline-offset var(--dur-1) var(--ease-out)}
+.more{display:inline-flex;align-items:center;min-height:44px;font:italic 400 25px/1 var(--display),Georgia,serif;color:var(--brass-hi);text-decoration:underline;text-decoration-thickness:1px;text-underline-offset:6px;transition:text-underline-offset var(--dur-1) var(--ease-out)}
 @media (hover:hover){.more:hover{text-underline-offset:10px}}
 .workshop .more{color:var(--glow)}
 .note{margin-top:var(--s3);font-size:15px;color:var(--muted)}
@@ -205,11 +206,11 @@ p{margin:0;max-width:62ch;text-wrap:pretty}
 .card.guide img{width:100%;max-width:340px;height:auto;border-radius:8px;justify-self:center}
 .card.guide h3{font-size:clamp(32px,2.4vw + 16px,56px);margin:var(--s1) 0 var(--s2)}
 .making{display:flex;flex-wrap:wrap;align-items:center;gap:var(--s3) var(--s6);margin-top:var(--s6);padding-top:var(--s4);border-top:1px solid var(--night-line)}
-.making>p{font:italic 400 23px "Instrument Serif",serif;color:var(--glow)}
+.making>p{font:italic 400 23px var(--display),Georgia,serif;color:var(--glow)}
 .mk{display:flex;align-items:center;gap:var(--s2)}
 .mk.card{border:0;background:none;padding:0;border-radius:0;flex-direction:row}
 .mk .ico{width:44px;height:44px;margin:0;color:#c9b48a;flex:none}
-.mk b{display:block;font:400 23px/1.1 "Instrument Serif",serif}
+.mk b{display:block;font:400 23px/1.1 var(--display),Georgia,serif}
 .mk small{color:var(--muted);font-size:15px}
 .card.guide .btn{background:var(--glow);border-color:var(--glow);color:var(--night);margin-top:var(--s3)}
 
@@ -220,7 +221,7 @@ p{margin:0;max-width:62ch;text-wrap:pretty}
 .pay{display:flex;gap:var(--s2);flex-wrap:wrap}
 footer{background:var(--night);border-top:1px solid var(--night-line);padding:var(--s12) 0 var(--s8);color:var(--muted);font-size:15px}
 footer .wrap{display:grid;grid-template-columns:1.3fr 1fr 1fr 1fr;gap:var(--s6)}
-footer h2{font:400 23px/1.2 "Instrument Serif",serif;color:var(--paper);margin-bottom:var(--s2)}
+footer h2{font:400 23px/1.2 var(--display),Georgia,serif;color:var(--paper);margin-bottom:var(--s2)}
 footer ul{list-style:none;margin:0;padding:0}
 footer li a{display:inline-flex;align-items:center;min-height:44px;text-decoration:none}
 footer li a:hover{color:var(--paper)}
@@ -258,6 +259,34 @@ footer li a:hover{color:var(--paper)}
  footer .wrap{grid-template-columns:1fr 1fr}footer .wrap>div:first-child{grid-column:1/-1}
 }
 @media (max-width:380px){.leave{padding:0 12px}.brand{font-size:23px}}
+
+/* ===== push-to-5 round ===== */
+.top::after{content:"";position:absolute;left:0;right:0;top:100%;height:18px;background:linear-gradient(color-mix(in srgb,var(--ink) 60%,transparent),transparent);pointer-events:none}
+.top.is-night::after{background:linear-gradient(#07090a99,transparent)}
+@media (prefers-reduced-transparency:reduce){.top,.top.is-night{background:var(--ink);-webkit-backdrop-filter:none;backdrop-filter:none}}
+@media (prefers-contrast:more){.top{background:var(--ink);border-bottom-color:var(--paper)}.muted{color:var(--paper)}}
+/* paper grain: printed, not rendered */
+body::before{content:"";position:fixed;inset:0;z-index:60;pointer-events:none;opacity:.05;background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='160' height='160'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.9' numOctaves='2' stitchTiles='stitch'/%3E%3CfeColorMatrix values='0 0 0 0 1 0 0 0 0 .95 0 0 0 0 .85 0 0 0 1 0'/%3E%3C/filter%3E%3Crect width='160' height='160' filter='url(%23n)'/%3E%3C/svg%3E")}
+/* hero book: a hinged cover over a real page, catching the light */
+.book3d .inside{position:absolute;inset:1% 1% 1% 0;border-radius:2px 4px 4px 2px;background:#efe6d3;box-shadow:inset 18px 0 30px -18px #0007,inset -2px 0 0 #d6c9ae;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:10%;padding:16% 14%;transform:translateZ(-1px)}
+.book3d .page-k{font:italic 400 clamp(12px,1.3vw,20px)/1 var(--display),serif;color:#7a5a1d}
+.book3d .lines{width:100%;height:42%;background:repeating-linear-gradient(#0000 0 9px,#3a2f2033 9px 10px)}
+.book3d .page-sig{width:56%;height:12%;background:url(/media/v18/signature-ink.png) center/contain no-repeat;opacity:.75}
+.book3d .face{transform-origin:left center;backface-visibility:hidden}
+.book3d .sheen{position:absolute;inset:0;z-index:2;border-radius:3px;pointer-events:none;background:linear-gradient(105deg,transparent 30%,#fff3 45%,#fff0 60%);background-size:250% 100%;background-position:var(--sheen,100%) 0;mix-blend-mode:soft-light}
+/* Portals: strontium charge and glow */
+.portal{position:relative;margin:0;aspect-ratio:1;border-radius:8px;overflow:hidden;background:#000;touch-action:manipulation;-webkit-user-select:none;user-select:none;-webkit-touch-callout:none;cursor:pointer;--lx:50%;--ly:50%}
+.portal img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;pointer-events:none;-webkit-user-drag:none}
+.portal .night{opacity:0}
+.portal .lamp{position:absolute;inset:0;pointer-events:none;opacity:0;background:radial-gradient(circle at var(--lx) var(--ly),#fff6d8cc 0,#ffe7a466 14%,transparent 38%);mix-blend-mode:screen;transition:opacity .2s var(--ease-out)}
+@media (hover:hover) and (pointer:fine){.portal:hover .lamp{opacity:.55}}
+.portal.is-charging .lamp{opacity:1}
+.charge{position:absolute;left:50%;bottom:var(--s2);transform:translateX(-50%);display:flex;align-items:center;gap:10px;min-height:48px;padding:0 18px 0 6px;border-radius:999px;border:1px solid #86ecd255;background:#07090acc;color:#fff;font-size:15px;font-weight:600;cursor:pointer;-webkit-backdrop-filter:blur(8px);backdrop-filter:blur(8px);transition:transform 160ms var(--ease-out),opacity .3s var(--ease-out)}
+.charge:active{transform:translateX(-50%) scale(.97)}
+.charge svg{width:36px;height:36px;transform:rotate(-90deg)}
+.charge circle{fill:none;stroke-width:3}.charge .track{stroke:#86ecd233}.charge .fill{stroke:var(--glow);stroke-dasharray:1;stroke-dashoffset:calc(1 - var(--c,0));stroke-linecap:round}
+.portal.is-glowing .charge{opacity:.85}
+.legend .state{color:var(--glow)}
 </style>
 </head><body>
 <a class="skip" href="#main">Skip to the books</a>
@@ -273,7 +302,7 @@ footer li a:hover{color:var(--paper)}
 <p class="lede">Field guides on manipulation and control, written plainly by Shae Stovell. Free to read, nothing to sign up for.</p>
 <p class="ask" id="ask">What's happening?</p>
 <div class="chips" role="group" aria-labelledby="ask"><button class="chip" type="button" data-s="close" aria-pressed="false">Someone close to me</button><button class="chip" type="button" data-s="work" aria-pressed="false">Work or money</button><button class="chip" type="button" data-s="family" aria-pressed="false">My kids or my parents</button><button class="chip" type="button" data-s="festival" aria-pressed="false">At a festival</button><button class="chip" type="button" data-s="looking" aria-pressed="false">Just looking</button></div></div>
-<figure class="stage"><div class="halo"></div><div class="book3d"><span class="sp"></span><div class="face" id="hero-face"><img id="hero-cover" src="/media/v18/longafter-760.webp" width="760" height="1133" alt="The Long After, cover" fetchpriority="high" decoding="async"></div><span class="pg"></span></div>
+<figure class="stage"><div class="halo"></div><div class="book3d"><span class="sp"></span><div class="inside" aria-hidden="true"><span class="page-k">Chapter one</span><span class="lines"></span><span class="page-sig"></span></div><div class="face" id="hero-face"><span class="sheen" aria-hidden="true"></span><img id="hero-cover" src="/media/v18/longafter-760.webp" width="760" height="1133" alt="The Long After, cover" fetchpriority="high" decoding="async"></div><span class="pg"></span></div>
 <figcaption>Your answer turns the book.</figcaption></figure></div></section>
 
 <section class="result" id="result" aria-live="polite" aria-labelledby="result-title"><div><div class="wrap result-inner">
@@ -302,8 +331,8 @@ footer li a:hover{color:var(--paper)}
 <p class="muted">The Workshop: hand-poured resin pendants with a strontium glow and a chip inside that plays a song, a message or a memory when a phone touches it.</p></div></section>
 
 <section class="workshop" data-nav="art" data-night="1"><div class="wrap">
-<h3>The Portals</h3><p class="muted" style="margin-top:8px">A portfolio of finished pieces. Slide across each one to see it in daylight and in the dark. The shop opens soon.</p>
-<ul class="pairs"><li><figure class="pair"><img src="/media/v18/portal-0-day-720.webp" width="720" height="720" alt="Clockwork pendant in daylight" loading="lazy" decoding="async"><img class="night" src="/media/v18/portal-0-night-720.webp" width="720" height="720" alt="The same pendant glowing in the dark" loading="lazy" decoding="async"><span class="line"></span><input type="range" min="0" max="100" value="50" aria-label="Clockwork: slide between daylight and dark"><span class="knob"><svg viewBox="0 0 20 20" aria-hidden="true"><path d="M7 5l-4 5 4 5M13 5l4 5-4 5"/></svg></span></figure><p class="legend" aria-hidden="true"><span>Daylight</span><span>Clockwork</span><span>Dark</span></p></li><li><figure class="pair"><img src="/media/v18/portal-1-day-720.webp" width="720" height="720" alt="Ember square pendant in daylight" loading="lazy" decoding="async"><img class="night" src="/media/v18/portal-1-night-720.webp" width="720" height="720" alt="The same pendant glowing in the dark" loading="lazy" decoding="async"><span class="line"></span><input type="range" min="0" max="100" value="50" aria-label="Ember square: slide between daylight and dark"><span class="knob"><svg viewBox="0 0 20 20" aria-hidden="true"><path d="M7 5l-4 5 4 5M13 5l4 5-4 5"/></svg></span></figure><p class="legend" aria-hidden="true"><span>Daylight</span><span>Ember square</span><span>Dark</span></p></li><li><figure class="pair"><img src="/media/v18/portal-2-day-720.webp" width="720" height="720" alt="Gear moon pendant in daylight" loading="lazy" decoding="async"><img class="night" src="/media/v18/portal-2-night-720.webp" width="720" height="720" alt="The same pendant glowing in the dark" loading="lazy" decoding="async"><span class="line"></span><input type="range" min="0" max="100" value="50" aria-label="Gear moon: slide between daylight and dark"><span class="knob"><svg viewBox="0 0 20 20" aria-hidden="true"><path d="M7 5l-4 5 4 5M13 5l4 5-4 5"/></svg></span></figure><p class="legend" aria-hidden="true"><span>Daylight</span><span>Gear moon</span><span>Dark</span></p></li></ul>
+<h3>The Portals</h3><p class="muted" style="margin-top:8px">A portfolio of finished pieces. Strontium drinks in light and gives it back in the dark: press and hold a pendant to charge it, then let go. The shop opens soon.</p>
+<ul class="pairs portals"><li><figure class="portal" data-name="Clockwork"><img class="day" src="/media/v18/portal-0-day-720.webp" width="720" height="720" alt="Clockwork pendant in daylight" loading="lazy" decoding="async"><img class="night" src="/media/v18/portal-0-night-720.webp" width="720" height="720" alt="" loading="lazy" decoding="async"><span class="lamp" aria-hidden="true"></span><button class="charge" type="button" aria-label="Charge Clockwork with light, then see it glow in the dark" aria-pressed="false"><svg viewBox="0 0 48 48" aria-hidden="true"><circle cx="24" cy="24" r="20" class="track"/><circle cx="24" cy="24" r="20" class="fill" pathLength="1"/></svg><span class="label">Hold to charge</span></button></figure><p class="legend"><span>Clockwork</span><span class="state" aria-live="polite">In daylight</span></p></li><li><figure class="portal" data-name="Ember square"><img class="day" src="/media/v18/portal-1-day-720.webp" width="720" height="720" alt="Ember square pendant in daylight" loading="lazy" decoding="async"><img class="night" src="/media/v18/portal-1-night-720.webp" width="720" height="720" alt="" loading="lazy" decoding="async"><span class="lamp" aria-hidden="true"></span><button class="charge" type="button" aria-label="Charge Ember square with light, then see it glow in the dark" aria-pressed="false"><svg viewBox="0 0 48 48" aria-hidden="true"><circle cx="24" cy="24" r="20" class="track"/><circle cx="24" cy="24" r="20" class="fill" pathLength="1"/></svg><span class="label">Hold to charge</span></button></figure><p class="legend"><span>Ember square</span><span class="state" aria-live="polite">In daylight</span></p></li><li><figure class="portal" data-name="Gear moon"><img class="day" src="/media/v18/portal-2-day-720.webp" width="720" height="720" alt="Gear moon pendant in daylight" loading="lazy" decoding="async"><img class="night" src="/media/v18/portal-2-night-720.webp" width="720" height="720" alt="" loading="lazy" decoding="async"><span class="lamp" aria-hidden="true"></span><button class="charge" type="button" aria-label="Charge Gear moon with light, then see it glow in the dark" aria-pressed="false"><svg viewBox="0 0 48 48" aria-hidden="true"><circle cx="24" cy="24" r="20" class="track"/><circle cx="24" cy="24" r="20" class="fill" pathLength="1"/></svg><span class="label">Hold to charge</span></button></figure><p class="legend"><span>Gear moon</span><span class="state" aria-live="polite">In daylight</span></p></li></ul>
 <a class="more" href="/portals" style="margin-top:24px">See every Portal</a>
 <div class="wk-row" id="guide" data-nav="nfc">
 <a class="card guide" href="/nfc/"><img src="/media/v18/nfc-guide-640.webp" width="600" height="852" alt="" loading="lazy" decoding="async"><span><span class="tag">Free guide</span><h3>How to Program NFC Tags</h3><p class="muted">139 recipes for iPhone and Android: songs, messages, business cards and treasure hunts.</p><span class="btn">Read the guide</span></span></a>
@@ -416,11 +445,41 @@ footer li a:hover{color:var(--paper)}
     if (open && hasG && !reduce.matches) gsap.from('#door-body .bk', { y: 24, rotate: -2, opacity: 0, duration: .55, stagger: .09, ease: 'power3.out', delay: .1, clearProps: 'all' });
   });
 
-  /* ---------- Portals: drag between daylight and dark ---------- */
-  $$('.pair input').forEach(inp => {
-    const fig = inp.closest('.pair');
-    const set = () => { fig.style.setProperty('--x', inp.value + '%'); inp.setAttribute('aria-valuetext', `${100 - inp.value}% glowing`); };
-    inp.addEventListener('input', set); set();
+  /* ---------- Portals: strontium charges in light, then glows and fades in the dark ---------- */
+  const CHARGE_S = 1.2, GLOW_S = 7;   // hold ~1.2 s to charge fully; afterglow fades over ~7 s, like the real thing
+  $$('.portal').forEach(fig => {
+    const night = $('.night', fig), day = $('.day', fig), btn = $('.charge', fig), label = $('.label', btn), state = fig.parentElement.querySelector('.state');
+    const v = { c: 0, g: 0 }; let chargeT, glowT;
+    const paint = () => { fig.style.setProperty('--c', v.c.toFixed(3)); night.style.opacity = v.g; day.style.opacity = 1 - v.g * .92; };
+    const say = t => { state.textContent = t; };
+    const glow = () => {
+      if (chargeT) chargeT.kill(); fig.classList.remove('is-charging');
+      if (v.c < .05) { v.c = 0; paint(); label.textContent = 'Hold to charge'; say('In daylight'); return; }
+      fig.classList.add('is-glowing'); btn.setAttribute('aria-pressed', 'true'); label.textContent = 'Glowing'; say('Glowing in the dark');
+      if (!hasG || reduce.matches) { v.g = 1; v.c = 0; paint(); return; }   // reduced motion: it simply glows until charged again
+      if (glowT) glowT.kill();
+      glowT = gsap.timeline()
+        .to(v, { g: Math.min(1, .35 + v.c), duration: .35, ease: 'power2.out', onUpdate: paint })
+        .to(v, { c: 0, duration: .5, ease: 'power2.out', onUpdate: paint }, 0)
+        .to(v, { g: 0, duration: GLOW_S * Math.max(.4, v.c), ease: 'power2.in', onUpdate: paint,
+                 onComplete: () => { fig.classList.remove('is-glowing'); btn.setAttribute('aria-pressed', 'false'); label.textContent = 'Hold to charge'; say('In daylight'); } });
+    };
+    const charge = e => {
+      if (e && e.button > 0) return;
+      if (glowT) glowT.kill(); fig.classList.add('is-charging'); label.textContent = 'Charging'; say('Charging');
+      if (!hasG || reduce.matches) { v.c = 1; paint(); return; }
+      v.g = 0; paint();
+      chargeT = gsap.to(v, { c: 1, duration: CHARGE_S * (1 - v.c), ease: 'none', onUpdate: paint, onComplete: () => { if (navigator.vibrate) navigator.vibrate(12); } });
+    };
+    const lamp = e => { const r = fig.getBoundingClientRect(); fig.style.setProperty('--lx', (e.clientX - r.left) + 'px'); fig.style.setProperty('--ly', (e.clientY - r.top) + 'px'); };
+    fig.addEventListener('pointerdown', e => { lamp(e); try { fig.setPointerCapture(e.pointerId); } catch (x) {} charge(e); });
+    fig.addEventListener('pointermove', lamp);
+    fig.addEventListener('pointerup', glow);
+    fig.addEventListener('pointercancel', glow);
+    fig.addEventListener('contextmenu', e => e.preventDefault());
+    // keyboard: Enter/Space charges fully and lets go
+    btn.addEventListener('click', e => { if (e.detail === 0) { v.c = 1; glow(); } });
+    paint();
   });
 
   /* ---------- Music ---------- */
@@ -462,15 +521,19 @@ footer li a:hover{color:var(--paper)}
       // the words are readable from the first frame; only the book makes an entrance
       // a short float that settles (under 5 s, so nothing moves on its own for long: WCAG 2.2.2)
       gsap.to('.book3d', { y: -10, duration: 1.1, ease: 'sine.inOut', yoyo: true, repeat: 3, delay: 1.3 });
-      // the Portals slider shows once that it can be dragged
-      document.querySelectorAll('.pair').forEach((fig, i) => ScrollTrigger.create({ trigger: fig, start: 'top 75%', once: true, onEnter: () => {
-        const o = { x: 50 }; gsap.timeline({ delay: .2 + i * .15 }).to(o, { x: 28, duration: .45, ease: 'power2.out', onUpdate: () => fig.style.setProperty('--x', o.x + '%') })
-          .to(o, { x: 50, duration: .6, ease: 'power3.inOut', onUpdate: () => fig.style.setProperty('--x', o.x + '%') }); } }));
       // books arrive one at a time on each shelf, once
       ScrollTrigger.batch('.shelf .bk', { start: 'top 88%', once: true,
         onEnter: els => gsap.from(els, { y: 28, rotate: -1.5, opacity: 0, duration: .6, stagger: .08, ease: 'power3.out', clearProps: 'all' }) });
     }
     gsap.to('.ribbon-track', { xPercent: -30, ease: 'none', scrollTrigger: { trigger: document.body, start: 'top top', end: () => '+=' + innerHeight * 2.5, scrub: .8 } });
+    gsap.to('#hero-face', { rotateY: -42, ease: 'none', scrollTrigger: { trigger: '.hero', start: 'top top', end: 'bottom 30%', scrub: .6 } });
+    gsap.to('#hero-face', { '--sheen': '0%', ease: 'none', scrollTrigger: { trigger: '.hero', start: 'top top', end: 'bottom top', scrub: true } });
+    if (motion && matchMedia('(hover: hover) and (pointer: fine)').matches) {
+      const tx = gsap.quickTo('.book3d', 'rotationY', { duration: .8, ease: 'power3.out' }), face = document.querySelector('#hero-face');
+      document.querySelector('.hero').addEventListener('pointermove', e => {
+        const k = e.clientX / innerWidth; face.style.setProperty('--sheen', (100 - k * 100) + '%'); tx(-30 + (k - .5) * 10);
+      });
+    }
     gsap.to('.book3d', { rotateY: -8, rotateX: 2, rotateZ: 0, ease: 'none',
       scrollTrigger: { trigger: '.hero', start: 'top top', end: 'bottom top', scrub: .6 } });
     gsap.fromTo('.glowline', { textShadow: '0 0 0px #86ecd200', opacity: .82 }, { textShadow: '0 0 28px #86ecd288', opacity: 1, ease: 'none',

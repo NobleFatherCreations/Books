@@ -104,10 +104,13 @@ def main():
         f'<span><span class="t">{E(t["title"])}</span><span class="s">{E(t["shelf"])}</span></span><time>{fmt(t["dur"])}</time>'
         f'<span class="bar" aria-hidden="true"><i></i></span></li>' for t in d["music"]["tracks"])
     pairs = "".join(
-        f'<li><figure class="pair"><img src="{p["dayImg"]}" width="720" height="720" alt="{E(p["name"])} pendant in daylight" loading="lazy" decoding="async">'
-        f'<img class="night" src="{p["nightImg"]}" width="720" height="720" alt="The same pendant glowing in the dark" loading="lazy" decoding="async">'
-        f'<span class="line"></span><input type="range" min="0" max="100" value="50" aria-label="{E(p["name"])}: slide between daylight and dark">'
-        f'<span class="knob">{KNOB}</span></figure><p class="legend" aria-hidden="true"><span>Daylight</span><span>{E(p["name"])}</span><span>Dark</span></p></li>' for p in d["portals"])
+        f'<li><figure class="portal" data-name="{E(p["name"])}"><img class="day" src="{p["dayImg"]}" width="720" height="720" alt="{E(p["name"])} pendant in daylight" loading="lazy" decoding="async">'
+        f'<img class="night" src="{p["nightImg"]}" width="720" height="720" alt="" loading="lazy" decoding="async">'
+        f'<span class="lamp" aria-hidden="true"></span>'
+        f'<button class="charge" type="button" aria-label="Charge {E(p["name"])} with light, then see it glow in the dark" aria-pressed="false">'
+        f'<svg viewBox="0 0 48 48" aria-hidden="true"><circle cx="24" cy="24" r="20" class="track"/><circle cx="24" cy="24" r="20" class="fill" pathLength="1"/></svg>'
+        f'<span class="label">Hold to charge</span></button></figure>'
+        f'<p class="legend"><span>{E(p["name"])}</span><span class="state" aria-live="polite">In daylight</span></p></li>' for p in d["portals"])
     making = "".join(f'<div class="mk card soon">{ICONS[m["icon"]]}<span><b>{E(m["title"])}</b><small>{E(m["line"])}</small></span></div>' for m in d["making"])
     g = d["guide"]
     pay = "".join(f'<a class="btn" href="{E(p["url"])}" target="_blank" rel="noopener">{E(p["name"])} {E(p["handle"])}</a>' for p in d["support"])
@@ -135,7 +138,7 @@ def main():
 <p class="lede">Field guides on manipulation and control, written plainly by Shae Stovell. Free to read, nothing to sign up for.</p>
 <p class="ask" id="ask">What's happening?</p>
 <div class="chips" role="group" aria-labelledby="ask">{chips}</div></div>
-<figure class="stage"><div class="halo"></div><div class="book3d"><span class="sp"></span><div class="face" id="hero-face"><img id="hero-cover" src="{first["imgLg"]}" width="760" height="1133" alt="{E(first["title"])}, cover" fetchpriority="high" decoding="async"></div><span class="pg"></span></div>
+<figure class="stage"><div class="halo"></div><div class="book3d"><span class="sp"></span><div class="inside" aria-hidden="true"><span class="page-k">Chapter one</span><span class="lines"></span><span class="page-sig"></span></div><div class="face" id="hero-face"><span class="sheen" aria-hidden="true"></span><img id="hero-cover" src="{first["imgLg"]}" width="760" height="1133" alt="{E(first["title"])}, cover" fetchpriority="high" decoding="async"></div><span class="pg"></span></div>
 <figcaption>Your answer turns the book.</figcaption></figure></div></section>
 
 <section class="result" id="result" aria-live="polite" aria-labelledby="result-title"><div><div class="wrap result-inner">
@@ -164,8 +167,8 @@ def main():
 <p class="muted">The Workshop: hand-poured resin pendants with a strontium glow and a chip inside that plays a song, a message or a memory when a phone touches it.</p></div></section>
 
 <section class="workshop" data-nav="art" data-night="1"><div class="wrap">
-<h3>The Portals</h3><p class="muted" style="margin-top:8px">A portfolio of finished pieces. Slide across each one to see it in daylight and in the dark. The shop opens soon.</p>
-<ul class="pairs">{pairs}</ul>
+<h3>The Portals</h3><p class="muted" style="margin-top:8px">A portfolio of finished pieces. Strontium drinks in light and gives it back in the dark: press and hold a pendant to charge it, then let go. The shop opens soon.</p>
+<ul class="pairs portals">{pairs}</ul>
 <a class="more" href="/portals" style="margin-top:24px">See every Portal</a>
 <div class="wk-row" id="guide" data-nav="nfc">
 <a class="card guide" href="{E(g["url"])}"><img src="{g["src"]}" width="600" height="852" alt="" loading="lazy" decoding="async"><span><span class="tag">Free guide</span><h3>{E(g["title"])}</h3><p class="muted">{E(g["line"])}</p><span class="btn">Read the guide</span></span></a>
@@ -185,6 +188,7 @@ def main():
     sig = Image.open(ROOT / "tools/brand/signature-shae-stovell.png").convert("L")
     rgba = Image.new("RGBA", sig.size, (236, 226, 207, 0)); rgba.putalpha(Image.eval(sig, lambda v: 255 - v))
     rgba = rgba.crop(rgba.getbbox()); rgba.thumbnail((440, 160)); MEDIA.mkdir(parents=True, exist_ok=True); rgba.save(MEDIA / "signature.png", optimize=True)
+    ink = Image.new("RGBA", rgba.size, (58, 44, 26, 0)); ink.putalpha(rgba.getchannel("A")); ink.save(MEDIA / "signature-ink.png", optimize=True)
 
     text = re.sub(r"<[^>]+>", " ", body) + json.dumps(client, ensure_ascii=False) + "Close the bigger picture Pause That song could not start"
     fontcss = subset_fonts(html.unescape(text))

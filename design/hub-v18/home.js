@@ -71,11 +71,41 @@
     if (open && hasG && !reduce.matches) gsap.from('#door-body .bk', { y: 24, rotate: -2, opacity: 0, duration: .55, stagger: .09, ease: 'power3.out', delay: .1, clearProps: 'all' });
   });
 
-  /* ---------- Portals: drag between daylight and dark ---------- */
-  $$('.pair input').forEach(inp => {
-    const fig = inp.closest('.pair');
-    const set = () => { fig.style.setProperty('--x', inp.value + '%'); inp.setAttribute('aria-valuetext', `${100 - inp.value}% glowing`); };
-    inp.addEventListener('input', set); set();
+  /* ---------- Portals: strontium charges in light, then glows and fades in the dark ---------- */
+  const CHARGE_S = 1.2, GLOW_S = 7;   // hold ~1.2 s to charge fully; afterglow fades over ~7 s, like the real thing
+  $$('.portal').forEach(fig => {
+    const night = $('.night', fig), day = $('.day', fig), btn = $('.charge', fig), label = $('.label', btn), state = fig.parentElement.querySelector('.state');
+    const v = { c: 0, g: 0 }; let chargeT, glowT;
+    const paint = () => { fig.style.setProperty('--c', v.c.toFixed(3)); night.style.opacity = v.g; day.style.opacity = 1 - v.g * .92; };
+    const say = t => { state.textContent = t; };
+    const glow = () => {
+      if (chargeT) chargeT.kill(); fig.classList.remove('is-charging');
+      if (v.c < .05) { v.c = 0; paint(); label.textContent = 'Hold to charge'; say('In daylight'); return; }
+      fig.classList.add('is-glowing'); btn.setAttribute('aria-pressed', 'true'); label.textContent = 'Glowing'; say('Glowing in the dark');
+      if (!hasG || reduce.matches) { v.g = 1; v.c = 0; paint(); return; }   // reduced motion: it simply glows until charged again
+      if (glowT) glowT.kill();
+      glowT = gsap.timeline()
+        .to(v, { g: Math.min(1, .35 + v.c), duration: .35, ease: 'power2.out', onUpdate: paint })
+        .to(v, { c: 0, duration: .5, ease: 'power2.out', onUpdate: paint }, 0)
+        .to(v, { g: 0, duration: GLOW_S * Math.max(.4, v.c), ease: 'power2.in', onUpdate: paint,
+                 onComplete: () => { fig.classList.remove('is-glowing'); btn.setAttribute('aria-pressed', 'false'); label.textContent = 'Hold to charge'; say('In daylight'); } });
+    };
+    const charge = e => {
+      if (e && e.button > 0) return;
+      if (glowT) glowT.kill(); fig.classList.add('is-charging'); label.textContent = 'Charging'; say('Charging');
+      if (!hasG || reduce.matches) { v.c = 1; paint(); return; }
+      v.g = 0; paint();
+      chargeT = gsap.to(v, { c: 1, duration: CHARGE_S * (1 - v.c), ease: 'none', onUpdate: paint, onComplete: () => { if (navigator.vibrate) navigator.vibrate(12); } });
+    };
+    const lamp = e => { const r = fig.getBoundingClientRect(); fig.style.setProperty('--lx', (e.clientX - r.left) + 'px'); fig.style.setProperty('--ly', (e.clientY - r.top) + 'px'); };
+    fig.addEventListener('pointerdown', e => { lamp(e); try { fig.setPointerCapture(e.pointerId); } catch (x) {} charge(e); });
+    fig.addEventListener('pointermove', lamp);
+    fig.addEventListener('pointerup', glow);
+    fig.addEventListener('pointercancel', glow);
+    fig.addEventListener('contextmenu', e => e.preventDefault());
+    // keyboard: Enter/Space charges fully and lets go
+    btn.addEventListener('click', e => { if (e.detail === 0) { v.c = 1; glow(); } });
+    paint();
   });
 
   /* ---------- Music ---------- */
@@ -117,15 +147,19 @@
       // the words are readable from the first frame; only the book makes an entrance
       // a short float that settles (under 5 s, so nothing moves on its own for long: WCAG 2.2.2)
       gsap.to('.book3d', { y: -10, duration: 1.1, ease: 'sine.inOut', yoyo: true, repeat: 3, delay: 1.3 });
-      // the Portals slider shows once that it can be dragged
-      document.querySelectorAll('.pair').forEach((fig, i) => ScrollTrigger.create({ trigger: fig, start: 'top 75%', once: true, onEnter: () => {
-        const o = { x: 50 }; gsap.timeline({ delay: .2 + i * .15 }).to(o, { x: 28, duration: .45, ease: 'power2.out', onUpdate: () => fig.style.setProperty('--x', o.x + '%') })
-          .to(o, { x: 50, duration: .6, ease: 'power3.inOut', onUpdate: () => fig.style.setProperty('--x', o.x + '%') }); } }));
       // books arrive one at a time on each shelf, once
       ScrollTrigger.batch('.shelf .bk', { start: 'top 88%', once: true,
         onEnter: els => gsap.from(els, { y: 28, rotate: -1.5, opacity: 0, duration: .6, stagger: .08, ease: 'power3.out', clearProps: 'all' }) });
     }
     gsap.to('.ribbon-track', { xPercent: -30, ease: 'none', scrollTrigger: { trigger: document.body, start: 'top top', end: () => '+=' + innerHeight * 2.5, scrub: .8 } });
+    gsap.to('#hero-face', { rotateY: -42, ease: 'none', scrollTrigger: { trigger: '.hero', start: 'top top', end: 'bottom 30%', scrub: .6 } });
+    gsap.to('#hero-face', { '--sheen': '0%', ease: 'none', scrollTrigger: { trigger: '.hero', start: 'top top', end: 'bottom top', scrub: true } });
+    if (motion && matchMedia('(hover: hover) and (pointer: fine)').matches) {
+      const tx = gsap.quickTo('.book3d', 'rotationY', { duration: .8, ease: 'power3.out' }), face = document.querySelector('#hero-face');
+      document.querySelector('.hero').addEventListener('pointermove', e => {
+        const k = e.clientX / innerWidth; face.style.setProperty('--sheen', (100 - k * 100) + '%'); tx(-30 + (k - .5) * 10);
+      });
+    }
     gsap.to('.book3d', { rotateY: -8, rotateX: 2, rotateZ: 0, ease: 'none',
       scrollTrigger: { trigger: '.hero', start: 'top top', end: 'bottom top', scrub: .6 } });
     gsap.fromTo('.glowline', { textShadow: '0 0 0px #86ecd200', opacity: .82 }, { textShadow: '0 0 28px #86ecd288', opacity: 1, ease: 'none',
