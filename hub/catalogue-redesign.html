@@ -449,10 +449,12 @@ h1 .ln>span{display:block}
 .coin{position:fixed;left:0;top:0;z-index:30;width:10px;height:10px;margin:-5px 0 0 -5px;border-radius:50%;background:radial-gradient(circle at 35% 35%,#f3dca0,#c9a24a 60%,#7a5a1d);pointer-events:none}
 .egg{position:fixed;inset:0;z-index:18;pointer-events:none;opacity:0;background:#000}
 .egg i{position:absolute;inset:0}
-.cur{position:fixed;left:0;top:0;z-index:31;width:28px;height:28px;margin:-14px 0 0 -14px;border-radius:50%;border:1px solid var(--brass-hi);pointer-events:none;opacity:0;transition:opacity .2s var(--ease-out),width .25s var(--ease-out),height .25s var(--ease-out),margin .25s var(--ease-out),border-color .25s}
+/* the ring grows with a transform on a child, since GSAP owns the parent's transform for the follow */
+.cur{position:fixed;left:0;top:0;z-index:31;width:0;height:0;pointer-events:none;opacity:0;transition:opacity .2s var(--ease-out)}
+.cur::after{content:"";position:absolute;left:-14px;top:-14px;width:28px;height:28px;border-radius:50%;border:1px solid var(--brass-hi);transition:transform .25s var(--ease-out),border-color .25s}
 .cur.is-on{opacity:.7}
-.cur.is-big{width:56px;height:56px;margin:-28px 0 0 -28px}
-.cur.is-night{border-color:var(--glow)}
+.cur.is-big::after{transform:scale(2)}
+.cur.is-night::after{border-color:var(--glow)}
 /* the visit counter rolls up like a departures board */
 #nf-visits .odo{display:inline-flex;vertical-align:bottom;height:1.5em;overflow:hidden}
 #nf-visits .odo>span{display:flex;flex-direction:column;transition:transform 1.4s cubic-bezier(.23,1,.32,1)}
