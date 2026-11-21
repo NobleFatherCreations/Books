@@ -160,7 +160,17 @@ h2{font:600 1.375rem/1.25 Georgia,serif;margin:40px 0 8px;scroll-margin-top:16px
 ul{margin:0;padding-left:1.2em}li{margin:4px 0}.book{color:#BCB1A0}.dec{font-size:.9375rem}
 .crumbs{font-size:.9375rem;color:#BCB1A0;margin:0 0 24px}.crumbs a{color:#BCB1A0}footer{max-width:46rem;margin:0 auto;padding:24px 16px 96px;color:#BCB1A0;font-size:.9375rem;border-top:1px solid #2C2236}"""
 BOOK_NAMES = {"faith": "The Sacred Divide", "children": "Playground Protectors", "feminine": "The Sovereign Divine Feminine",
-              "fractal": "The Fractal", "fracture": "The Fracture", "wook": "The Festie Codex", "festival": "The Festie Bible"}
+              "fractal": "The Fractal", "fracture": "The Fracture", "wook": "The Festie Codex", "festival": "The Festie Bible",
+              "longafter": "The Long After", "silence": "The Silence", "repair": "The Repair", "atwill": "At Will",
+              "slowtake": "The Slow Take", "loop": "The Loop", "scale": "The Weighing"}
+
+
+def seal_menu():
+    """The site-wide seal menu (every book and project, scripts/nf-catalogue.py) for hub pages built here."""
+    import importlib.util
+    spec = importlib.util.spec_from_file_location("nf_catalogue", S.ROOT / "scripts/nf-catalogue.py")
+    cat = importlib.util.module_from_spec(spec); spec.loader.exec_module(cat)
+    return S.house_parts(cat.retoc(S.read(S.ROOT / "library/longafter/index.html"), None))
 
 
 def topics():
@@ -205,6 +215,7 @@ def topics():
         body.append(f'<h2 id="{S.slugify(shown[k], 60)}">{S.esc(S.smart(shown[k][0].upper() + shown[k][1:]))}</h2>{d}<ul>{items}</ul>')
     az = "".join(f'<a href="#letter-{L.lower() if L != "#" else "num"}">{L}</a>' for L in letters)
     url = f"{S.DOMAIN}/topics"
+    menu = seal_menu()
     title = "Topics: Manipulation, Coercive Control and Safety, Free Chapters"
     desc = (f"{len(order)} topics, from gaslighting and DARVO to consent and harm reduction, each linked to the free chapters "
             "that cover it across the Noble Father Creations library.")
@@ -219,13 +230,13 @@ def topics():
             f'<meta property="og:title" content="{S.esc(title)}">\n<meta property="og:description" content="{S.esc(desc)}">\n'
             f'<meta property="og:url" content="{url}">\n<meta property="og:image" content="{S.DOMAIN}/og.png">\n'
             f'<meta property="og:image:alt" content="Noble Father Creations: free books by Shae Stovell">\n<meta name="twitter:card" content="summary_large_image">\n'
-            f'<link rel="license" href="{S.LICENSE_URL}">\n<meta name="theme-color" content="#141019">\n<style>{TOPICS_CSS}</style>\n'
+            f'<link rel="license" href="{S.LICENSE_URL}">\n<meta name="theme-color" content="#141019">\n<style>{TOPICS_CSS}</style>\n{menu[0]}\n'
             f'<script type="application/ld+json">{S.ld_json(ld)}</script>\n</head>\n<body>\n<main>\n'
             '<nav class="crumbs" aria-label="Breadcrumb"><a href="/">Noble Father Creations</a> › Topics</nav>\n'
             f'<h1>Topics</h1>\n<p class="lede">{S.esc(desc)} Every chapter is free to read.</p>\n'
             f'<nav class="az" aria-label="Jump to a letter">{az}</nav>\n' + "\n".join(body) + "\n</main>\n"
             f'<footer><p>{S.LICENSE_LINE}</p><p><a href="/">All books</a> · <a href="/playbook/tactics">Every tactic in the Pattern Decoder</a></p></footer>\n'
-            '</body>\n</html>\n')
+            + menu[1] + "\n" + menu[2] + '\n</body>\n</html>\n')
     S.write(HUB / "topics.html", page)
     return len(order)
 

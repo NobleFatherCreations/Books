@@ -32,12 +32,13 @@ GROUPS = [
     ]),
     ("The living tools", [
         ("shadowroot", f"{SITE}/shadowroot", "The Root", "Shadow work, guided"),
-        ("playbook",   f"{SITE}/playbook",   "The Pattern Decoder", "349 tactics &middot; type what happened"),
+        ("playbook",   f"{SITE}/playbook",   "The Pattern Decoder", "Name the pattern &middot; type what happened"),
         ("music",      f"{SITE}/music",      "The Listening Room", "Sorted by what each song is for"),
     ]),
     ("Keeps it free", [
         ("shop",  "https://nfcportals.netlify.app/",   "The Shop", "Wax seals &middot; jewelry &middot; NFC craft"),
-        ("press", "https://noblenfcseals.netlify.app/", "The Press", "Real wax, a voice inside"),
+        ("press", f"{SITE}/press", "The Press", "Real wax, a voice inside"),
+        ("portals", f"{SITE}/portals", "The Portals", "Strontium glow, no battery"),
         ("resin", f"{SITE}/resin", "The Casting", "Eco-resin, hand-painted"),
         ("guide", f"{SITE}/nfc/",  "How to Program NFC Tags", "139 recipes, iPhone &amp; Android"),
     ]),

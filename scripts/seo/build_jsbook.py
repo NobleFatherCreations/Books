@@ -281,15 +281,55 @@ def patch_index(book, h):
     first = '<span class="ver">v3 &middot;'
     if first in h and ver not in h:
         h = h.replace(first, ver + first, 1)
+    h = cover(book, h)
+    # owner 2026-11-21: remove the "no analytics" line (the anonymous Cloudflare visit count is on every page)
+    for old, new in (("No account, no analytics, nothing stored", "No account, nothing stored"),
+                     ("no stored reading position, no analytics. It does", "no stored reading position. It does"),
+                     ("no accounts, no analytics, nothing stored", "no accounts, nothing stored")):
+        h = h.replace(old, new)
+    assert "no analytics" not in h.lower(), book["slug"]
     i = h.find('<script id="book-js">')
     return h[:i] + link + h[i:]
+
+
+COVER_FILE = {"longafter": "03", "silence": "10", "repair": "11", "atwill": "12", "slowtake": "13", "loop": "14", "scale": "15"}
+
+
+def cover(book, h):
+    """Owner 2026-11-21: the new signed cover art (content/covers/signed/) replaces the old cover strip on the book page.
+    Written as /<book>/cover.webp (absolute path, a separate file instead of base64 inside the page)."""
+    from PIL import Image
+    slug = book["slug"]
+    src = S.ROOT / "content/covers/signed" / f"{COVER_FILE[slug]}-{slug}.jpg"
+    im = Image.open(src).convert("RGB")
+    w = 720
+    im = im.resize((w, round(im.height * w / im.width)), Image.LANCZOS)
+    im.save(S.ROOT / "library" / slug / "cover.webp", "WEBP", quality=80, method=6)
+    tag = (f'<img class="cover-mark nf-cover" src="/{slug}/cover.webp" width="{w}" height="{im.height}" '
+           f'alt="{book["title"]} by Shae Stovell, book cover" decoding="async" fetchpriority="high">')
+    h = re.sub(r'<img class="cover-mark[^"]*"[^>]*>', tag, h, count=1)
+    if "nf-cover" not in h:      # The Loop and The Weighing had no cover on the page: put it at the top of the hero
+        anchor = "'<section class=\"hero\"><div class=\"wrap\">'+"
+        assert anchor in h, slug
+        h = h.replace(anchor, anchor + "\n   '" + tag + "'+", 1)
+    css = ('<style id="nf-cover-css">.nf-cover{display:block;width:min(64vw,300px);max-width:300px;height:auto;aspect-ratio:'
+           f'{w}/{im.height};margin:8px auto 24px;border-radius:4px;box-shadow:0 18px 40px rgba(0,0,0,.28),0 2px 6px rgba(0,0,0,.18);filter:none}}</style>')
+    h = re.sub(r'<style id="nf-cover-css">.*?</style>\n?', "", h, flags=re.S)
+    return h.replace("</head>", css + "\n</head>", 1)
 
 
 CHS = {}
 
 # The Loop and The Weighing still carry the older drawer; their new chapter pages use the current shared menu
+import importlib.util as _iu
+def _load(name, path):
+    spec = _iu.spec_from_file_location(name, path); m = _iu.module_from_spec(spec); spec.loader.exec_module(m); return m
+CAT = _load("nf_catalogue", S.ROOT / "scripts/nf-catalogue.py")          # the one list of every book and project (21)
+NH = _load("nh_drawer", S.ROOT / "scripts/nh-drawer-catalogue.py")       # the older drawer on The Loop / The Weighing
 _house = S.house_parts
-S.house_parts = lambda h: _house(h if 'id="nf-chrome-css"' in h else S.read(S.ROOT / "library/longafter/index.html"))
+_here = {}
+S.house_parts = lambda h: _house(h if 'id="nf-chrome-css"' in h else
+                                 CAT.retoc(S.read(S.ROOT / "library/longafter/index.html"), _here["slug"]))
 
 
 def main(slugs):
@@ -297,6 +337,9 @@ def main(slugs):
         out = S.ROOT / "library" / slug
         src = out / "index.html"
         h = S.read(src)
+        _here["slug"] = slug
+        # every page lists every other book and project (scripts/nf-catalogue.py), this one marked as "here"
+        h = CAT.retoc(h, slug) if 'class="nf-toc"' in h else NH.retoc(h, "scale" if slug == "scale" else slug)
         book = book_meta(slug, h)
         chs = chapters(slug, extract(src))
         CHS[slug] = chs

@@ -23,6 +23,171 @@ h1{font:600 clamp(2rem,1.4rem + 3vw,3rem)/1.1 Georgia,serif;margin:0 0 16px}.led
 h2{font:600 1.375rem/1.25 Georgia,serif;margin:40px 0 8px;scroll-margin-top:16px}h2.letter{font:700 .875rem/1 system-ui,sans-serif;letter-spacing:.12em;color:#C9A35B;margin:48px 0 0}
 ul{margin:0;padding-left:1.2em}li{margin:4px 0}.book{color:#BCB1A0}.dec{font-size:.9375rem}
 .crumbs{font-size:.9375rem;color:#BCB1A0;margin:0 0 24px}.crumbs a{color:#BCB1A0}footer{max-width:46rem;margin:0 auto;padding:24px 16px 96px;color:#BCB1A0;font-size:.9375rem;border-top:1px solid #2C2236}</style>
+<style id="nf-chrome-css">
+/* ============ Noble Father shared chrome — design tokens ============ */
+:root{
+  --nf-ink:#141019; --nf-ink-2:#0E0A14; --nf-panel:#1B1522; --nf-panel-2:#241B2E;
+  --nf-bone:#ECE4D6; --nf-bone-dim:#BCB1A0; --nf-muted:#8A8071;
+  --nf-brass:#C9A35B; --nf-brass-bright:#E8C879;
+  --nf-wax:#B23A33; --nf-wax-bright:#DC5A4D; --nf-wax-deep:#8E2B26;
+  --nf-line:rgba(201,163,91,.16);
+  --nf-ease:cubic-bezier(.2,.7,.2,1);
+  --nf-display:var(--serif,Georgia,serif);
+  --nf-mono:var(--mono,ui-monospace,monospace);
+}
+.nf-chrome,.nf-chrome *{margin:0;padding:0;box-sizing:border-box}
+
+/* ---- cross-document view transitions: the wax seal holds still while the
+   page changes around it. Browsers without support fall back to the veil. ---- */
+@view-transition{navigation:auto}
+@media (prefers-reduced-motion: no-preference){
+  ::view-transition-old(root){animation:nf-vt-out 190ms cubic-bezier(.5,0,.9,.6) both}
+  ::view-transition-new(root){animation:nf-vt-in 380ms cubic-bezier(.2,.7,.2,1) both}
+  @keyframes nf-vt-out{to{opacity:0;transform:scale(.994);filter:blur(3px)}}
+  @keyframes nf-vt-in{from{opacity:0;transform:scale(1.006);filter:blur(4px)}}
+}
+@media (prefers-reduced-motion: reduce){
+  ::view-transition-old(root),::view-transition-new(root){animation:none}
+}
+.nf-seal{view-transition-name:nf-seal}
+
+/* ---- shared motion utilities (driven by data attributes) ---- */
+.nf-ch{display:inline-block;white-space:pre}
+@media (prefers-reduced-motion: no-preference){
+  [data-nf-split] .nf-ch{opacity:0;transform:translateY(.42em) rotateX(-38deg);
+    transform-origin:50% 100%;
+    animation:nf-ch-in 620ms cubic-bezier(.16,1,.3,1) both;
+    animation-delay:calc(var(--i)*26ms + var(--d,0ms))}
+  @keyframes nf-ch-in{to{opacity:1;transform:none}}
+  [data-nf-split].nf-replay .nf-ch{animation:none;opacity:0;transform:translateY(.42em)}
+}
+
+/* gold-leaf: light travels across the letterforms rather than sitting still */
+@media (prefers-reduced-motion: no-preference){
+  .nf-leaf{background-size:280% 100%;animation:nf-leaf 7s ease-in-out infinite}
+  @keyframes nf-leaf{0%,100%{background-position:14% 50%}50%{background-position:86% 50%}}
+}
+.nf-veil{position:fixed;inset:0;z-index:9990;pointer-events:none;opacity:0;
+  background:
+    radial-gradient(120% 90% at 50% 108%, rgba(217,150,74,.14), transparent 55%),
+    var(--nf-ink-2);
+  animation:nf-veil-in 420ms var(--nf-ease) both}
+@keyframes nf-veil-in{from{opacity:1}to{opacity:0}}
+.nf-veil.nf-veil-out{animation:none;opacity:1;transition:opacity 180ms cubic-bezier(.5,0,.9,.6)}
+
+/* ---- bookmark ribbon: reading progress as a strip of gilding ---- */
+.nf-ribbon{position:fixed;top:0;left:0;right:0;height:2px;z-index:9945;
+  transform-origin:0 50%;transform:scaleX(0);
+  background:linear-gradient(90deg,#8E6B2F,#E8C879 60%,#C9A35B);
+  box-shadow:0 0 8px rgba(232,200,121,.45)}
+
+/* ---- scroll-reveal (JS-gated; nothing hides without the engine) ---- */
+.nf-r{opacity:0;transform:translateY(14px);filter:blur(6px);
+  transition:opacity .64s cubic-bezier(.16,1,.3,1),transform .64s cubic-bezier(.16,1,.3,1),
+  filter .64s cubic-bezier(.16,1,.3,1);transition-delay:var(--nf-d,0s)}
+.nf-r.nf-pop{transform:translateY(12px) scale(.965);filter:none}
+.nf-r.nf-in{opacity:1;transform:none;filter:none}
+
+/* ---- the seal ---- */
+.nf-seal{position:fixed;right:18px;bottom:18px;z-index:9950;width:56px;height:56px;
+  border-radius:50%;border:none;cursor:pointer;
+  font-family:var(--nf-display);font-weight:600;font-size:19px;letter-spacing:.02em;
+  color:#F2E6D2;text-shadow:0 -1px 1px rgba(0,0,0,.45),0 1px 1px rgba(255,255,255,.12);
+  background:radial-gradient(circle at 34% 28%,var(--nf-wax-bright),var(--nf-wax) 52%,var(--nf-wax-deep) 100%);
+  box-shadow:inset 0 2px 3px rgba(255,255,255,.22),inset 0 -3px 5px rgba(0,0,0,.35),
+    0 0 0 3px rgba(178,58,51,.28),0 6px 18px rgba(0,0,0,.55);
+  transition:transform 180ms var(--nf-ease),box-shadow 180ms var(--nf-ease)}
+.nf-seal:hover{transform:translateY(-2px) rotate(-4deg);
+  box-shadow:inset 0 2px 3px rgba(255,255,255,.22),inset 0 -3px 5px rgba(0,0,0,.35),
+    0 0 0 3px rgba(178,58,51,.34),0 8px 22px rgba(0,0,0,.6),0 0 24px rgba(232,200,121,.28)}
+.nf-seal:active{transform:scale(.92);transition-duration:90ms}
+.nf-seal:focus-visible{outline:2px solid var(--nf-brass);outline-offset:3px}
+.nf-seal[aria-expanded="true"]{transform:scale(.92);opacity:0;pointer-events:none;transition-duration:140ms}
+@media (prefers-reduced-motion: no-preference){
+  .nf-seal{animation:nf-sealidle 7s ease-in-out infinite}
+  @keyframes nf-sealidle{
+    0%,100%{box-shadow:inset 0 2px 3px rgba(255,255,255,.22),inset 0 -3px 5px rgba(0,0,0,.35),
+      0 0 0 3px rgba(178,58,51,.28),0 6px 18px rgba(0,0,0,.55)}
+    50%{box-shadow:inset 0 2px 3px rgba(255,255,255,.22),inset 0 -3px 5px rgba(0,0,0,.35),
+      0 0 0 3px rgba(178,58,51,.3),0 6px 18px rgba(0,0,0,.55),0 0 22px rgba(232,200,121,.22)}}
+}
+
+/* ---- scrim + leather catalogue panel ---- */
+.nf-scrim{position:fixed;inset:0;background:rgba(10,7,13,.58);backdrop-filter:blur(5px);
+  -webkit-backdrop-filter:blur(5px);z-index:9960;opacity:0;pointer-events:none;
+  transition:opacity 140ms var(--nf-ease)}
+.nf-open .nf-scrim{opacity:1;pointer-events:auto;transition-duration:220ms}
+.nf-panel{position:fixed;top:0;right:0;bottom:0;width:min(408px,100vw);z-index:9970;
+  display:flex;flex-direction:column;
+  background:linear-gradient(164deg,#1E1726,#141019 55%,#0E0A14),
+    url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='140' height='140'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.9' numOctaves='2'/%3E%3C/filter%3E%3Crect width='140' height='140' filter='url(%23n)' opacity='.05'/%3E%3C/svg%3E");
+  box-shadow:inset 1px 0 0 rgba(236,228,214,.05),-32px 0 64px rgba(0,0,0,.5);
+  transform:translateX(103%);visibility:hidden;
+  transition:transform 160ms cubic-bezier(.5,0,.9,.6),visibility 0s 160ms}
+.nf-panel::before{content:"";position:absolute;left:0;top:0;bottom:0;width:3px;
+  background:linear-gradient(180deg,#E8C879,#8E6B2F 28%,#C9A35B 55%,#E8C879 78%,#7A5A28);
+  opacity:.85}
+.nf-panel::after{content:"";position:absolute;inset:9px;pointer-events:none;
+  border:1px dashed rgba(201,163,91,.13);border-radius:2px}
+.nf-open .nf-panel{transform:translateX(0);visibility:visible;
+  transition:transform 270ms var(--nf-ease),visibility 0s}
+@media(max-width:560px){
+  .nf-panel{width:100vw;transform:translateY(103%)}
+  .nf-panel::before{left:0;right:0;top:0;bottom:auto;width:auto;height:3px;
+    background:linear-gradient(90deg,#E8C879,#8E6B2F 28%,#C9A35B 55%,#E8C879 78%,#7A5A28)}
+  .nf-open .nf-panel{transform:translateY(0)}
+}
+.nf-panel-head{display:flex;align-items:flex-start;justify-content:space-between;
+  padding:26px 26px 18px;border-bottom:1px solid var(--nf-line)}
+.nf-eyebrow{font-family:var(--nf-mono);font-size:10px;letter-spacing:.3em;
+  text-transform:uppercase;color:var(--nf-brass);margin-bottom:8px}
+.nf-panel-title{font-family:var(--nf-display);font-size:27px;font-weight:500;
+  color:var(--nf-bone);line-height:1.1}
+.nf-close{background:none;border:1px solid rgba(201,163,91,.3);color:var(--nf-bone-dim);
+  width:34px;height:34px;border-radius:50%;cursor:pointer;font-size:17px;line-height:1;
+  flex-shrink:0;margin-left:12px;transition:color 140ms,border-color 140ms,transform 140ms var(--nf-ease)}
+.nf-close:hover{color:var(--nf-brass-bright);border-color:var(--nf-brass);transform:rotate(90deg)}
+.nf-close:focus-visible{outline:2px solid var(--nf-brass);outline-offset:2px}
+.nf-toc{list-style:none;overflow-y:auto;flex:1;padding:10px 26px 18px;overscroll-behavior:contain}
+.nf-row{border-bottom:1px solid rgba(201,163,91,.12)}
+.nf-row a{display:grid;grid-template-columns:12px 34px 1fr auto;grid-template-rows:auto auto;
+  align-items:baseline;column-gap:9px;padding:13px 2px;text-decoration:none;
+  transition:transform 160ms var(--nf-ease),background 160ms var(--nf-ease)}
+.nf-row a:hover{transform:translateX(4px)}
+.nf-dot{grid-row:1/3;align-self:center;width:5px;height:5px;border-radius:50%;
+  background:var(--va,#C9A35B);opacity:.55;box-shadow:0 0 7px var(--va,#C9A35B);
+  transition:opacity 160ms,transform 160ms var(--nf-ease)}
+.nf-row a:hover .nf-dot{opacity:1;transform:scale(1.35)}
+.nf-row a:focus-visible{outline:2px solid var(--nf-brass);outline-offset:-2px;border-radius:4px}
+.nf-num{grid-row:1/3;font-family:var(--nf-mono);font-size:11px;color:var(--nf-muted);
+  transition:color 160ms,text-shadow 160ms}
+.nf-row a:hover .nf-num{color:var(--nf-brass);text-shadow:0 0 12px rgba(232,200,121,.5)}
+.nf-vol{font-family:var(--nf-display);font-size:16.5px;font-weight:500;color:var(--nf-bone);
+  transition:color 160ms}
+.nf-row a:hover .nf-vol{color:var(--nf-brass-bright)}
+.nf-desc{grid-column:3/5;font-size:11.5px;color:var(--nf-muted);letter-spacing:.02em;
+  font-family:system-ui,-apple-system,sans-serif}
+.nf-ext{grid-column:4;font-size:11px;color:var(--nf-muted)}
+.nf-row.nf-here .nf-vol{color:var(--nf-brass)}
+.nf-row.nf-here .nf-num{color:var(--nf-wax-bright)}
+.nf-here-dot{display:inline-block;width:7px;height:7px;border-radius:50%;margin-left:7px;
+  background:radial-gradient(circle at 35% 30%,var(--nf-wax-bright),var(--nf-wax-deep));
+  box-shadow:0 0 8px rgba(220,90,77,.6);vertical-align:baseline}
+.nf-panel-foot{padding:14px 26px 20px;border-top:1px solid var(--nf-line);
+  font-family:var(--nf-display);font-style:italic;font-size:12.5px;color:var(--nf-muted)}
+.nf-open .nf-row{opacity:0;transform:translateY(9px);
+  animation:nf-rise 210ms var(--nf-ease) both;animation-delay:calc(var(--nf-i)*20ms + 60ms)}
+@keyframes nf-rise{to{opacity:1;transform:translateY(0)}}
+
+@media(prefers-reduced-motion:reduce){
+  .nf-veil{animation:none;opacity:0}
+  .nf-veil.nf-veil-out{transition:none}
+  .nf-seal,.nf-seal:hover,.nf-close:hover,.nf-row a,.nf-row a:hover{transition:none;transform:none}
+  .nf-panel,.nf-open .nf-panel{transition:transform 0s,visibility 0s}
+  .nf-scrim,.nf-open .nf-scrim{transition:none}
+  .nf-open .nf-row{animation:none;opacity:1;transform:none}
+}
+</style>
 <script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":["CollectionPage","DefinedTermSet"],"@id":"https://noblefathercreations.com/topics","url":"https://noblefathercreations.com/topics","name":"Topics: Manipulation, Coercive Control and Safety, Free Chapters","description":"140 topics, from gaslighting and DARVO to consent and harm reduction, each linked to the free chapters that cover it across the Noble Father Creations library.","inLanguage":"en","isPartOf":{"@id":"https://noblefathercreations.com/#site"},"dateModified":"2026-11-21","license":"https://creativecommons.org/licenses/by-nc-nd/4.0/","hasDefinedTerm":[{"@type":"DefinedTerm","name":"Access Control","url":"https://noblefathercreations.com/topics#access-control"},{"@type":"DefinedTerm","name":"Access Exploitation","url":"https://noblefathercreations.com/topics#access-exploitation"},{"@type":"DefinedTerm","name":"Access Gatekeeping","url":"https://noblefathercreations.com/topics#access-gatekeeping"},{"@type":"DefinedTerm","name":"accountability","url":"https://noblefathercreations.com/topics#accountability"},{"@type":"DefinedTerm","name":"Accountability Deflection","url":"https://noblefathercreations.com/topics#accountability-deflection"},{"@type":"DefinedTerm","name":"Active Bystander Intervention","url":"https://noblefathercreations.com/topics#active-bystander-intervention"},{"@type":"DefinedTerm","name":"Authority Abuse","url":"https://noblefathercreations.com/topics#authority-abuse"},{"@type":"DefinedTerm","name":"backhanded compliments","url":"https://noblefathercreations.com/topics#backhanded-compliments"},{"@type":"DefinedTerm","name":"Bait and Switch","url":"https://noblefathercreations.com/topics#bait-and-switch"},{"@type":"DefinedTerm","name":"BITE Model","url":"https://noblefathercreations.com/topics#bite-model"},{"@type":"DefinedTerm","name":"blame-shifting","url":"https://noblefathercreations.com/topics#blame-shifting"},{"@type":"DefinedTerm","name":"Boundary Erosion","url":"https://noblefathercreations.com/topics#boundary-erosion"},{"@type":"DefinedTerm","name":"bystander intervention","url":"https://noblefathercreations.com/topics#bystander-intervention"},{"@type":"DefinedTerm","name":"capacity to consent","url":"https://noblefathercreations.com/topics#capacity-to-consent"},{"@type":"DefinedTerm","name":"catfishing","url":"https://noblefathercreations.com/topics#catfishing"},{"@type":"DefinedTerm","name":"circular arguments","url":"https://noblefathercreations.com/topics#circular-arguments"},{"@type":"DefinedTerm","name":"Coercion","url":"https://noblefathercreations.com/topics#coercion"},{"@type":"DefinedTerm","name":"coercive control","url":"https://noblefathercreations.com/topics#coercive-control"},{"@type":"DefinedTerm","name":"Compassion Exploitation","url":"https://noblefathercreations.com/topics#compassion-exploitation"},{"@type":"DefinedTerm","name":"Compassion Fatigue","url":"https://noblefathercreations.com/topics#compassion-fatigue"},{"@type":"DefinedTerm","name":"Conflict of Interest","url":"https://noblefathercreations.com/topics#conflict-of-interest"},{"@type":"DefinedTerm","name":"consent and intoxication","url":"https://noblefathercreations.com/topics#consent-and-intoxication"},{"@type":"DefinedTerm","name":"Consent Education","url":"https://noblefathercreations.com/topics#consent-education"},{"@type":"DefinedTerm","name":"Copyright Violation","url":"https://noblefathercreations.com/topics#copyright-violation"},{"@type":"DefinedTerm","name":"Credibility Theft","url":"https://noblefathercreations.com/topics#credibility-theft"},{"@type":"DefinedTerm","name":"Credit Theft","url":"https://noblefathercreations.com/topics#credit-theft"},{"@type":"DefinedTerm","name":"cult tactics","url":"https://noblefathercreations.com/topics#cult-tactics"},{"@type":"DefinedTerm","name":"cycle of abuse","url":"https://noblefathercreations.com/topics#cycle-of-abuse"},{"@type":"DefinedTerm","name":"DanceSafe","url":"https://noblefathercreations.com/topics#dancesafe"},{"@type":"DefinedTerm","name":"Dependency Cultivation","url":"https://noblefathercreations.com/topics#dependency-cultivation"},{"@type":"DefinedTerm","name":"Dependency Grooming","url":"https://noblefathercreations.com/topics#dependency-grooming"},{"@type":"DefinedTerm","name":"divide and conquer","url":"https://noblefathercreations.com/topics#divide-and-conquer"},{"@type":"DefinedTerm","name":"economic coercion","url":"https://noblefathercreations.com/topics#economic-coercion"},{"@type":"DefinedTerm","name":"emotional abuse","url":"https://noblefathercreations.com/topics#emotional-abuse"},{"@type":"DefinedTerm","name":"emotional blackmail","url":"https://noblefathercreations.com/topics#emotional-blackmail"},{"@type":"DefinedTerm","name":"enmeshment","url":"https://noblefathercreations.com/topics#enmeshment"},{"@type":"DefinedTerm","name":"Exclusive Meaning","url":"https://noblefathercreations.com/topics#exclusive-meaning"},{"@type":"DefinedTerm","name":"Exit Planning","url":"https://noblefathercreations.com/topics#exit-planning"},{"@type":"DefinedTerm","name":"fabricated evidence","url":"https://noblefathercreations.com/topics#fabricated-evidence"},{"@type":"DefinedTerm","name":"Fatigue-Impaired Driving","url":"https://noblefathercreations.com/topics#fatigue-impaired-driving"},{"@type":"DefinedTerm","name":"festival buddy system","url":"https://noblefathercreations.com/topics#festival-buddy-system"},{"@type":"DefinedTerm","name":"festival comedown","url":"https://noblefathercreations.com/topics#festival-comedown"},{"@type":"DefinedTerm","name":"festival safety plan","url":"https://noblefathercreations.com/topics#festival-safety-plan"},{"@type":"DefinedTerm","name":"Financial Control","url":"https://noblefathercreations.com/topics#financial-control"},{"@type":"DefinedTerm","name":"Financial Exploitation","url":"https://noblefathercreations.com/topics#financial-exploitation"},{"@type":"DefinedTerm","name":"flying monkeys","url":"https://noblefathercreations.com/topics#flying-monkeys"},{"@type":"DefinedTerm","name":"Forced Teaming","url":"https://noblefathercreations.com/topics#forced-teaming"},{"@type":"DefinedTerm","name":"frame control","url":"https://noblefathercreations.com/topics#frame-control"},{"@type":"DefinedTerm","name":"future faking","url":"https://noblefathercreations.com/topics#future-faking"},{"@type":"DefinedTerm","name":"gaslighting","url":"https://noblefathercreations.com/topics#gaslighting"},{"@type":"DefinedTerm","name":"guilt-tripping","url":"https://noblefathercreations.com/topics#guilt-tripping"},{"@type":"DefinedTerm","name":"harm reduction","url":"https://noblefathercreations.com/topics#harm-reduction"},{"@type":"DefinedTerm","name":"Harm Reduction Protocol","url":"https://noblefathercreations.com/topics#harm-reduction-protocol"},{"@type":"DefinedTerm","name":"high-control group","url":"https://noblefathercreations.com/topics#high-control-group"},{"@type":"DefinedTerm","name":"High-Control Group Dynamics","url":"https://noblefathercreations.com/topics#high-control-group-dynamics"},{"@type":"DefinedTerm","name":"high-control groups","url":"https://noblefathercreations.com/topics#high-control-groups"},{"@type":"DefinedTerm","name":"how to respond to manipulation","url":"https://noblefathercreations.com/topics#how-to-respond-to-manipulation"},{"@type":"DefinedTerm","name":"identity erosion","url":"https://noblefathercreations.com/topics#identity-erosion"},{"@type":"DefinedTerm","name":"Informed Consent Bypass","url":"https://noblefathercreations.com/topics#informed-consent-bypass"},{"@type":"DefinedTerm","name":"inner critic","url":"https://noblefathercreations.com/topics#inner-critic"},{"@type":"DefinedTerm","name":"institutional betrayal","url":"https://noblefathercreations.com/topics#institutional-betrayal"},{"@type":"DefinedTerm","name":"Intellectual Property Theft","url":"https://noblefathercreations.com/topics#intellectual-property-theft"},{"@type":"DefinedTerm","name":"intermittent reinforcement","url":"https://noblefathercreations.com/topics#intermittent-reinforcement"},{"@type":"DefinedTerm","name":"internalized abuse","url":"https://noblefathercreations.com/topics#internalized-abuse"},{"@type":"DefinedTerm","name":"intimidation","url":"https://noblefathercreations.com/topics#intimidation"},{"@type":"DefinedTerm","name":"Isolation","url":"https://noblefathercreations.com/topics#isolation"},{"@type":"DefinedTerm","name":"Isolation Primer","url":"https://noblefathercreations.com/topics#isolation-primer"},{"@type":"DefinedTerm","name":"leaving a cult","url":"https://noblefathercreations.com/topics#leaving-a-cult"},{"@type":"DefinedTerm","name":"legal abuse","url":"https://noblefathercreations.com/topics#legal-abuse"},{"@type":"DefinedTerm","name":"Legal Risk Awareness","url":"https://noblefathercreations.com/topics#legal-risk-awareness"},{"@type":"DefinedTerm","name":"list of manipulation tactics","url":"https://noblefathercreations.com/topics#list-of-manipulation-tactics"},{"@type":"DefinedTerm","name":"litigation abuse","url":"https://noblefathercreations.com/topics#litigation-abuse"},{"@type":"DefinedTerm","name":"loaded language","url":"https://noblefathercreations.com/topics#loaded-language"},{"@type":"DefinedTerm","name":"Loan-Sharking Gifts","url":"https://noblefathercreations.com/topics#loan-sharking-gifts"},{"@type":"DefinedTerm","name":"love bombing","url":"https://noblefathercreations.com/topics#love-bombing"},{"@type":"DefinedTerm","name":"manipulation glossary","url":"https://noblefathercreations.com/topics#manipulation-glossary"},{"@type":"DefinedTerm","name":"Manufactured Belonging","url":"https://noblefathercreations.com/topics#manufactured-belonging"},{"@type":"DefinedTerm","name":"manufactured consent","url":"https://noblefathercreations.com/topics#manufactured-consent"},{"@type":"DefinedTerm","name":"Manufactured Dependency","url":"https://noblefathercreations.com/topics#manufactured-dependency"},{"@type":"DefinedTerm","name":"Manufactured Destiny","url":"https://noblefathercreations.com/topics#manufactured-destiny"},{"@type":"DefinedTerm","name":"Manufactured Intimacy","url":"https://noblefathercreations.com/topics#manufactured-intimacy"},{"@type":"DefinedTerm","name":"Manufactured Obligation","url":"https://noblefathercreations.com/topics#manufactured-obligation"},{"@type":"DefinedTerm","name":"medical gaslighting","url":"https://noblefathercreations.com/topics#medical-gaslighting"},{"@type":"DefinedTerm","name":"mirroring","url":"https://noblefathercreations.com/topics#mirroring"},{"@type":"DefinedTerm","name":"mobility control","url":"https://noblefathercreations.com/topics#mobility-control"},{"@type":"DefinedTerm","name":"Moving Goalposts","url":"https://noblefathercreations.com/topics#moving-goalposts"},{"@type":"DefinedTerm","name":"narcissistic abuse cycle","url":"https://noblefathercreations.com/topics#narcissistic-abuse-cycle"},{"@type":"DefinedTerm","name":"negative self-talk","url":"https://noblefathercreations.com/topics#negative-self-talk"},{"@type":"DefinedTerm","name":"Noise-Induced Hearing Loss","url":"https://noblefathercreations.com/topics#noise-induced-hearing-loss"},{"@type":"DefinedTerm","name":"Non-Consensual Distribution","url":"https://noblefathercreations.com/topics#non-consensual-distribution"},{"@type":"DefinedTerm","name":"Objectification","url":"https://noblefathercreations.com/topics#objectification"},{"@type":"DefinedTerm","name":"online grooming","url":"https://noblefathercreations.com/topics#online-grooming"},{"@type":"DefinedTerm","name":"Payment Manipulation","url":"https://noblefathercreations.com/topics#payment-manipulation"},{"@type":"DefinedTerm","name":"Pedestal Ploy","url":"https://noblefathercreations.com/topics#pedestal-ploy"},{"@type":"DefinedTerm","name":"Peer Coercion","url":"https://noblefathercreations.com/topics#peer-coercion"},{"@type":"DefinedTerm","name":"Performative Allyship","url":"https://noblefathercreations.com/topics#performative-allyship"},{"@type":"DefinedTerm","name":"Personal Accountability","url":"https://noblefathercreations.com/topics#personal-accountability"},{"@type":"DefinedTerm","name":"Post-Incident Debrief","url":"https://noblefathercreations.com/topics#post-incident-debrief"},{"@type":"DefinedTerm","name":"Power Differential Awareness","url":"https://noblefathercreations.com/topics#power-differential-awareness"},{"@type":"DefinedTerm","name":"Preventive Structure","url":"https://noblefathercreations.com/topics#preventive-structure"},{"@type":"DefinedTerm","name":"Professional Sovereignty","url":"https://noblefathercreations.com/topics#professional-sovereignty"},{"@type":"DefinedTerm","name":"propaganda","url":"https://noblefathercreations.com/topics#propaganda"},{"@type":"DefinedTerm","name":"prosocial behavior","url":"https://noblefathercreations.com/topics#prosocial-behavior"},{"@type":"DefinedTerm","name":"reciprocity trap","url":"https://noblefathercreations.com/topics#reciprocity-trap"},{"@type":"DefinedTerm","name":"Reporting Suppression","url":"https://noblefathercreations.com/topics#reporting-suppression"},{"@type":"DefinedTerm","name":"Reputation Destruction","url":"https://noblefathercreations.com/topics#reputation-destruction"},{"@type":"DefinedTerm","name":"Resource Control","url":"https://noblefathercreations.com/topics#resource-control"},{"@type":"DefinedTerm","name":"Role Assignment","url":"https://noblefathercreations.com/topics#role-assignment"},{"@type":"DefinedTerm","name":"Role Exploitation","url":"https://noblefathercreations.com/topics#role-exploitation"},{"@type":"DefinedTerm","name":"Romantic Targeting","url":"https://noblefathercreations.com/topics#romantic-targeting"},{"@type":"DefinedTerm","name":"Safeguarding","url":"https://noblefathercreations.com/topics#safeguarding"},{"@type":"DefinedTerm","name":"safety planning","url":"https://noblefathercreations.com/topics#safety-planning"},{"@type":"DefinedTerm","name":"scapegoating","url":"https://noblefathercreations.com/topics#scapegoating"},{"@type":"DefinedTerm","name":"Scarcity Urgency","url":"https://noblefathercreations.com/topics#scarcity-urgency"},{"@type":"DefinedTerm","name":"Scope of Practice","url":"https://noblefathercreations.com/topics#scope-of-practice"},{"@type":"DefinedTerm","name":"Secondary Trauma Prevention","url":"https://noblefathercreations.com/topics#secondary-trauma-prevention"},{"@type":"DefinedTerm","name":"self-abandonment","url":"https://noblefathercreations.com/topics#self-abandonment"},{"@type":"DefinedTerm","name":"Sexual Coercion","url":"https://noblefathercreations.com/topics#sexual-coercion"},{"@type":"DefinedTerm","name":"Shame-Based Compliance","url":"https://noblefathercreations.com/topics#shame-based-compliance"},{"@type":"DefinedTerm","name":"silent treatment","url":"https://noblefathercreations.com/topics#silent-treatment"},{"@type":"DefinedTerm","name":"smear campaign","url":"https://noblefathercreations.com/topics#smear-campaign"},{"@type":"DefinedTerm","name":"Social Coercion","url":"https://noblefathercreations.com/topics#social-coercion"},{"@type":"DefinedTerm","name":"social proof","url":"https://noblefathercreations.com/topics#social-proof"},{"@type":"DefinedTerm","name":"Social Proof Pressure","url":"https://noblefathercreations.com/topics#social-proof-pressure"},{"@type":"DefinedTerm","name":"spiritual abuse","url":"https://noblefathercreations.com/topics#spiritual-abuse"},{"@type":"DefinedTerm","name":"spiritual bypassing","url":"https://noblefathercreations.com/topics#spiritual-bypassing"},{"@type":"DefinedTerm","name":"Spiritual Coercion","url":"https://noblefathercreations.com/topics#spiritual-coercion"},{"@type":"DefinedTerm","name":"spiritual manipulation","url":"https://noblefathercreations.com/topics#spiritual-manipulation"},{"@type":"DefinedTerm","name":"stonewalling","url":"https://noblefathercreations.com/topics#stonewalling"},{"@type":"DefinedTerm","name":"tone policing","url":"https://noblefathercreations.com/topics#tone-policing"},{"@type":"DefinedTerm","name":"trauma bonding","url":"https://noblefathercreations.com/topics#trauma-bonding"},{"@type":"DefinedTerm","name":"trauma dumping","url":"https://noblefathercreations.com/topics#trauma-dumping"},{"@type":"DefinedTerm","name":"triangulation","url":"https://noblefathercreations.com/topics#triangulation"},{"@type":"DefinedTerm","name":"Undercover Operations","url":"https://noblefathercreations.com/topics#undercover-operations"},{"@type":"DefinedTerm","name":"upstander","url":"https://noblefathercreations.com/topics#upstander"},{"@type":"DefinedTerm","name":"weaponized generosity","url":"https://noblefathercreations.com/topics#weaponized-generosity"},{"@type":"DefinedTerm","name":"word salad","url":"https://noblefathercreations.com/topics#word-salad"},{"@type":"DefinedTerm","name":"workplace gaslighting","url":"https://noblefathercreations.com/topics#workplace-gaslighting"},{"@type":"DefinedTerm","name":"you're too emotional","url":"https://noblefathercreations.com/topics#youre-too-emotional"},{"@type":"DefinedTerm","name":"Zendo Project","url":"https://noblefathercreations.com/topics#zendo-project"}]},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Noble Father Creations","item":"https://noblefathercreations.com/"},{"@type":"ListItem","position":2,"name":"Topics","item":"https://noblefathercreations.com/topics"}]},{"@type":"Person","@id":"https://noblefathercreations.com/#shae","name":"Shae Stovell","alternateName":"Dapper Dad","url":"https://noblefathercreations.com/","sameAs":["https://www.tiktok.com/@noblefathercreatorsource"],"worksFor":{"@id":"https://noblefathercreations.com/#org"}},{"@type":"Organization","@id":"https://noblefathercreations.com/#org","name":"Noble Father Creations","url":"https://noblefathercreations.com/","founder":{"@id":"https://noblefathercreations.com/#shae"},"sameAs":["https://www.tiktok.com/@noblefathercreatorsource"]}]}</script>
 </head>
 <body>
@@ -53,7 +218,7 @@ ul{margin:0;padding-left:1.2em}li{margin:4px 0}.book{color:#BCB1A0}.dec{font-siz
 <h2 id="coercion">Coercion</h2><ul><li><a href="/festival/pride-outing-as-leverage">Outing as Leverage</a> <span class="book">· The Festie Bible</span></li><li><a href="/festival/sound-your-reputation-or-your-compliance">Your Reputation or Your Compliance</a> <span class="book">· The Festie Bible</span></li></ul>
 <h2 id="coercive-control">Coercive control</h2><ul><li><a href="/wook/its-not-drama-its-warfare">It’s Not Drama, It’s Warfare</a> <span class="book">· The Festie Codex</span></li><li><a href="/fractal/family-and-relationships">Family &amp; Relationships</a> <span class="book">· The Fractal</span></li><li><a href="/feminine/the-high-control-cage">The High-Control Cage</a> <span class="book">· The Sovereign Divine Feminine</span></li></ul>
 <h2 id="compassion-exploitation">Compassion Exploitation</h2><p class="dec">In the Pattern Decoder: <a href="/playbook/labor-extraction">Compassion Exploitation, signs and what to do</a></p><ul><li><a href="/festival/hold-the-participant-who-manipulates-your-care">The Participant Who Manipulates Your Care</a> <span class="book">· The Festie Bible</span></li></ul>
-<h2 id="compassion-fatigue">Compassion Fatigue</h2><ul><li><a href="/festival/create-burnout-is-not-a-badge">Burnout Is Not a Badge</a> <span class="book">· The Festie Bible</span></li><li><a href="/festival/hold-you-can-handle-more">You Can Handle More</a> <span class="book">· The Festie Bible</span></li><li><a href="/festival/care-you-can-handle-more">You Can Handle More</a> <span class="book">· The Festie Bible</span></li></ul>
+<h2 id="compassion-fatigue">Compassion Fatigue</h2><ul><li><a href="/festival/create-burnout-is-not-a-badge">Burnout Is Not a Badge</a> <span class="book">· The Festie Bible</span></li><li><a href="/festival/care-you-can-handle-more">You Can Handle More</a> <span class="book">· The Festie Bible</span></li><li><a href="/festival/hold-you-can-handle-more">You Can Handle More</a> <span class="book">· The Festie Bible</span></li></ul>
 <h2 id="conflict-of-interest">Conflict of Interest</h2><ul><li><a href="/festival/event-the-report-is-about-your-headliner">The Report Is About Your Headliner</a> <span class="book">· The Festie Bible</span></li><li><a href="/festival/lead-two-of-my-people-one-story-each">Two of My People, One Story Each</a> <span class="book">· The Festie Bible</span></li></ul>
 <h2 id="consent-and-intoxication">Consent and intoxication</h2><ul><li><a href="/wook/the-capacity-spectrum">The Capacity Spectrum</a> <span class="book">· The Festie Codex</span></li><li><a href="/wook/yes-is-a-sober-word">Yes Is a Sober Word</a> <span class="book">· The Festie Codex</span></li></ul>
 <h2 id="consent-education">Consent Education</h2><ul><li><a href="/festival/sound-the-stage-is-not-a-consent-bypass">The Stage Is Not a Consent Bypass</a> <span class="book">· The Festie Bible</span></li><li><a href="/festival/bass-this-ones-about-you">This One’s About You</a> <span class="book">· The Festie Bible</span></li></ul>
@@ -102,7 +267,7 @@ ul{margin:0;padding-left:1.2em}li{margin:4px 0}.book{color:#BCB1A0}.dec{font-siz
 <h2 id="inner-critic">Inner critic</h2><ul><li><a href="/children/the-mean-voice-in-your-head">The Mean Voice in Your Head</a> <span class="book">· Playground Protectors (for kids)</span></li><li><a href="/fractal/the-mirror">The Mirror</a> <span class="book">· The Fractal</span></li><li><a href="/feminine/the-inner-critic">The Inner Critic</a> <span class="book">· The Sovereign Divine Feminine</span></li></ul>
 <h2 id="institutional-betrayal">Institutional betrayal</h2><p class="dec">In the Pattern Decoder: <a href="/playbook/institutional-betrayal">institutional betrayal, signs and what to do</a></p><ul><li><a href="/wook/the-institutional-betrayal-diagnostic">The Institutional Betrayal Diagnostic</a> <span class="book">· The Festie Codex</span></li></ul>
 <h2 id="intellectual-property-theft">Intellectual Property Theft</h2><ul><li><a href="/festival/create-your-art-on-our-merch">Your Art on Our Merch</a> <span class="book">· The Festie Bible</span></li><li><a href="/festival/market-your-design-on-their-merch">Your Design on Their Merch</a> <span class="book">· The Festie Bible</span></li></ul>
-<h2 id="intermittent-reinforcement">Intermittent reinforcement</h2><p class="dec">In the Pattern Decoder: <a href="/playbook/intermittent-reinforcement-push-pull">intermittent reinforcement, signs and what to do</a></p><ul><li><a href="/children/the-hot-and-cold-game">The Hot-and-Cold Game</a> <span class="book">· Playground Protectors (for kids)</span></li><li><a href="/festival/bass-hot-and-cold-all-weekend">Hot and Cold All Weekend</a> <span class="book">· The Festie Bible</span></li><li><a href="/festival/grove-hot-and-cold-all-weekend">Hot and Cold All Weekend</a> <span class="book">· The Festie Bible</span></li><li><a href="/feminine/the-addiction-engine">The Addiction Engine</a> <span class="book">· The Sovereign Divine Feminine</span></li></ul>
+<h2 id="intermittent-reinforcement">Intermittent reinforcement</h2><p class="dec">In the Pattern Decoder: <a href="/playbook/intermittent-reinforcement-push-pull">intermittent reinforcement, signs and what to do</a></p><ul><li><a href="/children/the-hot-and-cold-game">The Hot-and-Cold Game</a> <span class="book">· Playground Protectors (for kids)</span></li><li><a href="/festival/grove-hot-and-cold-all-weekend">Hot and Cold All Weekend</a> <span class="book">· The Festie Bible</span></li><li><a href="/festival/bass-hot-and-cold-all-weekend">Hot and Cold All Weekend</a> <span class="book">· The Festie Bible</span></li><li><a href="/feminine/the-addiction-engine">The Addiction Engine</a> <span class="book">· The Sovereign Divine Feminine</span></li></ul>
 <h2 id="internalized-abuse">Internalized abuse</h2><ul><li><a href="/fractal/the-mirror">The Mirror</a> <span class="book">· The Fractal</span></li><li><a href="/feminine/the-inner-critic">The Inner Critic</a> <span class="book">· The Sovereign Divine Feminine</span></li></ul>
 <h2 id="intimidation">Intimidation</h2><p class="dec">In the Pattern Decoder: <a href="/playbook/intimidation">intimidation, signs and what to do</a></p><ul><li><a href="/children/the-fear-spreader">The Fear Spreader</a> <span class="book">· Playground Protectors (for kids)</span></li></ul>
 <h2 id="isolation">Isolation</h2><ul><li><a href="/festival/sound-let-me-manage-you">Let Me Manage You</a> <span class="book">· The Festie Bible</span></li><li><a href="/festival/sound-road-isolation">Road Isolation</a> <span class="book">· The Festie Bible</span></li><li><a href="/festival/rave-you-dont-need-your-old-friends-here">You Don’t Need Your Old Friends Here</a> <span class="book">· The Festie Bible</span></li><li><a href="/festival/grove-your-friends-dont-get-it">Your Friends Don’t Get It</a> <span class="book">· The Festie Bible</span></li></ul>
@@ -194,6 +359,158 @@ ul{margin:0;padding-left:1.2em}li{margin:4px 0}.book{color:#BCB1A0}.dec{font-siz
 <h2 id="zendo-project">Zendo Project</h2><ul><li><a href="/wook/festival-safety-and-harm-reduction-organizations">Festival Safety and Harm Reduction Organizations</a> <span class="book">· The Festie Codex</span></li><li><a href="/wook/the-bad-trip-babysitter">The Bad Trip Babysitter</a> <span class="book">· The Festie Codex</span></li><li><a href="/wook/the-real-ones">The Real Ones</a> <span class="book">· The Festie Codex</span></li></ul>
 </main>
 <footer><p>&copy; 2026 Shae Stovell &middot; Free forever. Share it freely with credit, under <a href="https://creativecommons.org/licenses/by-nc-nd/4.0/" rel="license">CC BY-NC-ND 4.0</a> (no selling, no edited copies).</p><p><a href="/">All books</a> · <a href="/playbook/tactics">Every tactic in the Pattern Decoder</a></p></footer>
+<div class="nf-chrome" data-nf-page="longafter" id="nf-chrome"><div aria-hidden="true" class="nf-veil"></div><button aria-controls="nf-panel" aria-expanded="false" aria-label="Open the Catalogue — Noble Father Creations" class="nf-seal" type="button">NF</button><div aria-hidden="true" class="nf-scrim"></div><nav aria-hidden="true" aria-label="The Catalogue" class="nf-panel" id="nf-panel"><div class="nf-panel-head"><div><div class="nf-eyebrow">Noble Father Creations</div><h2 class="nf-panel-title">The Catalogue</h2></div><button aria-label="Close the Catalogue" class="nf-close" type="button">✕</button></div><ul class="nf-toc"><li class="nf-row" style="--nf-i:0"><a href="https://noblefathercreations.com/loop"><span aria-hidden="true" class="nf-dot" style="--va:#6E93B5"></span><span class="nf-num">I</span><span class="nf-vol">The Loop</span><span class="nf-desc">The machine that learns you</span></a></li><li class="nf-row" style="--nf-i:1"><a href="https://noblefathercreations.com/press"><span aria-hidden="true" class="nf-dot" style="--va:#E8C879"></span><span class="nf-num">II</span><span class="nf-vol">The Press</span><span class="nf-desc">Real wax, a voice inside</span></a></li><li class="nf-row" style="--nf-i:2"><a href="https://noblefathercreations.com/portals"><span aria-hidden="true" class="nf-dot" style="--va:#7FD9D4"></span><span class="nf-num">III</span><span class="nf-vol">The Portals</span><span class="nf-desc">Strontium glow, no battery</span></a></li><li class="nf-row" style="--nf-i:3"><a href="https://noblefathercreations.com/shadowroot"><span aria-hidden="true" class="nf-dot" style="--va:#D9964A"></span><span class="nf-num">IV</span><span class="nf-vol">The Root</span><span class="nf-desc">A shadow work practice</span></a></li><li class="nf-row" style="--nf-i:4"><a href="https://noblefathercreations.com/scale"><span aria-hidden="true" class="nf-dot" style="--va:#9B8FA8"></span><span class="nf-num">V</span><span class="nf-vol">The Weighing</span><span class="nf-desc">How to be right about people</span></a></li><li class="nf-row" style="--nf-i:5"><a href="https://noblefathercreations.com/faith"><span aria-hidden="true" class="nf-dot" style="--va:#C29A52"></span><span class="nf-num">VI</span><span class="nf-vol">The Sacred Divide</span><span class="nf-desc">Honor the faith, name the machinery</span></a></li><li class="nf-row" style="--nf-i:6"><a href="https://noblefathercreations.com/fractal"><span aria-hidden="true" class="nf-dot" style="--va:#E5A93C"></span><span class="nf-num">VII</span><span class="nf-vol">The Fractal</span><span class="nf-desc">One pattern runs the world</span></a></li><li class="nf-row" style="--nf-i:7"><a href="https://noblefathercreations.com/fracture"><span aria-hidden="true" class="nf-dot" style="--va:#C9A35B"></span><span class="nf-num">VIII</span><span class="nf-vol">The Fracture</span><span class="nf-desc">The reading edition</span></a></li><li class="nf-row" style="--nf-i:8"><a href="https://noblefathercreations.com/feminine"><span aria-hidden="true" class="nf-dot" style="--va:#C85F7E"></span><span class="nf-num">IX</span><span class="nf-vol">The Sovereign Divine Feminine</span><span class="nf-desc">A field guide</span></a></li><li class="nf-row" style="--nf-i:9"><a href="https://noblefathercreations.com/children"><span aria-hidden="true" class="nf-dot" style="--va:#FFC23D"></span><span class="nf-num">X</span><span class="nf-vol">Playground Protectors</span><span class="nf-desc">Shaela’s guide for brave kids</span></a></li><li class="nf-row" style="--nf-i:10"><a href="https://noblefathercreations.com/wook"><span aria-hidden="true" class="nf-dot" style="--va:#D8FF3D"></span><span class="nf-num">XI</span><span class="nf-vol">The Festie Codex</span><span class="nf-desc">The gate — attendee’s cut</span></a></li><li class="nf-row" style="--nf-i:11"><a href="https://noblefathercreations.com/playbook"><span aria-hidden="true" class="nf-dot" style="--va:#8A8071"></span><span class="nf-num">XII</span><span class="nf-vol">The Pattern Decoder</span><span class="nf-desc">310 tactics, decoded</span></a></li><li class="nf-row" style="--nf-i:12"><a href="https://noblefathercreations.com/music"><span aria-hidden="true" class="nf-dot" style="--va:#C9A24A"></span><span class="nf-num">XIII</span><span class="nf-vol">The Listening Room</span><span class="nf-desc">Free to stream</span></a></li><li class="nf-row" style="--nf-i:13"><a href="https://noblefathercreations.com/festival"><span aria-hidden="true" class="nf-dot" style="--va:#E8C879"></span><span class="nf-num">XIV</span><span class="nf-vol">The Festie Bible</span><span class="nf-desc">Twelve guides for the festival world</span></a></li><li class="nf-row" style="--nf-i:14"><a href="https://noblefathercreations.com/resin"><span aria-hidden="true" class="nf-dot" style="--va:#7FD6C2"></span><span class="nf-num">XV</span><span class="nf-vol">The Casting</span><span class="nf-desc">Eco-resin, hand-painted</span></a></li><li class="nf-row" style="--nf-i:15"><a href="https://noblefathercreations.com/longafter"><span aria-hidden="true" class="nf-dot" style="--va:#D9846A"></span><span class="nf-num">XVI</span><span class="nf-vol">The Long After</span><span class="nf-desc">What happens once you’ve left</span></a></li><li class="nf-row" style="--nf-i:16"><a href="https://noblefathercreations.com/silence"><span aria-hidden="true" class="nf-dot" style="--va:#93A7B8"></span><span class="nf-num">XVII</span><span class="nf-vol">The Silence</span><span class="nf-desc">For men nobody thought to ask</span></a></li><li class="nf-row" style="--nf-i:17"><a href="https://noblefathercreations.com/atwill"><span aria-hidden="true" class="nf-dot" style="--va:#C98A2E"></span><span class="nf-num">XVIII</span><span class="nf-vol">At Will</span><span class="nf-desc">The coercive workplace</span></a></li><li class="nf-row" style="--nf-i:18"><a href="https://noblefathercreations.com/repair"><span aria-hidden="true" class="nf-dot" style="--va:#A8474F"></span><span class="nf-num">XIX</span><span class="nf-vol">The Repair</span><span class="nf-desc">For the person on the other side of it</span></a></li><li class="nf-row" style="--nf-i:19"><a href="https://noblefathercreations.com/slowtake"><span aria-hidden="true" class="nf-dot" style="--va:#B99A3F"></span><span class="nf-num">XX</span><span class="nf-vol">The Slow Take</span><span class="nf-desc">Coercion in later life</span></a></li><li class="nf-row" style="--nf-i:20"><a href="https://noblefathercreations.com/nfc/"><span aria-hidden="true" class="nf-dot" style="--va:#C9A35B"></span><span class="nf-num">XXI</span><span class="nf-vol">How to Program NFC Tags</span><span class="nf-desc">139 recipes, iPhone &amp; Android</span></a></li></ul><div class="nf-panel-foot">Bound by hand in the study — twenty-one volumes &amp; counting.</div></nav></div>
+<script id="nf-chrome-js">
+(function(){
+  var root=document.getElementById('nf-chrome');if(!root)return;
+  var seal=root.querySelector('.nf-seal'),scrim=root.querySelector('.nf-scrim'),
+      panel=root.querySelector('.nf-panel'),close=root.querySelector('.nf-close');
+  var reduced=window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+  function open(){root.classList.add('nf-open');seal.setAttribute('aria-expanded','true');
+    panel.removeAttribute('aria-hidden');close.focus({preventScroll:true})}
+  function shut(){root.classList.remove('nf-open');seal.setAttribute('aria-expanded','false');
+    panel.setAttribute('aria-hidden','true');seal.focus({preventScroll:true})}
+  seal.addEventListener('click',open);
+  close.addEventListener('click',shut);
+  scrim.addEventListener('click',shut);
+  document.addEventListener('keydown',function(e){
+    if(e.key==='Escape'&&root.classList.contains('nf-open')){
+      /* This book binds Escape to its emergency exit, which blanks the page.
+         Closing the catalogue must not also do that -- capture phase plus
+         stopImmediatePropagation keeps Escape from reaching that handler. */
+      e.preventDefault();e.stopImmediatePropagation();shut();return}
+    if(!root.classList.contains('nf-open'))return;
+    if(e.key==='ArrowDown'||e.key==='ArrowUp'){
+      var links=[].slice.call(panel.querySelectorAll('.nf-row a'));
+      var i=links.indexOf(document.activeElement);
+      var next=e.key==='ArrowDown'?(i+1)%links.length:(i-1+links.length)%links.length;
+      links[next].focus();e.preventDefault();e.stopImmediatePropagation();
+    }},true);
+  // bookmark ribbon — reading progress as a strip of gilding
+  var ribbon=root.querySelector('.nf-ribbon');
+  if(ribbon&&!reduced){
+    var tick=false;
+    function prog(){
+      var d=document.documentElement;
+      var max=d.scrollHeight-innerHeight;
+      ribbon.style.transform='scaleX('+(max>0?Math.min(1,scrollY/max):0)+')';
+      tick=false;
+    }
+    addEventListener('scroll',function(){if(!tick){tick=true;requestAnimationFrame(prog)}},
+      {passive:true});
+    prog();
+  }
+  // scroll-reveal engine — hides nothing unless it is running
+  var cfg=root.getAttribute('data-nf-reveal');
+  if(cfg&&!reduced&&'IntersectionObserver' in window){
+    try{cfg=JSON.parse(cfg)}catch(_){cfg=null}
+    if(cfg){
+      var targets=[];
+      cfg.forEach(function(pair){
+        document.querySelectorAll(pair[0]).forEach(function(el){
+          if(el.closest('.nf-chrome'))return;
+          var r=el.getBoundingClientRect();
+          if(r.top<innerHeight*.86)return;          // already on screen: leave it
+          if(el.offsetHeight>innerHeight*1.1)return; // whole-chapter blocks reveal per-child, not wholesale
+          el.classList.add('nf-r');
+          if(pair[1]==='pop')el.classList.add('nf-pop');
+          targets.push(el);
+        });
+      });
+      var seen=0;
+      function show(el){
+        if(el.classList.contains('nf-in'))return;
+        el.style.setProperty('--nf-d',(Math.min(seen++%4,3)*70)+'ms');
+        el.classList.add('nf-in');
+        io.unobserve(el);
+        targets=targets.filter(function(t){return t!==el});
+        setTimeout(function(){el.classList.remove('nf-r','nf-pop','nf-in');
+          el.style.removeProperty('--nf-d')},1400);
+      }
+      var io=new IntersectionObserver(function(entries){
+        entries.forEach(function(en){if(en.isIntersecting)show(en.target)});
+      },{rootMargin:'0px 0px -6% 0px',threshold:0});
+      targets.forEach(function(el){io.observe(el)});
+      // sweep fallback: anything scrolled to (or past) always reveals
+      var sTick=false;
+      addEventListener('scroll',function(){
+        if(sTick||!targets.length)return;sTick=true;
+        requestAnimationFrame(function(){
+          targets.slice().forEach(function(el){
+            if(el.getBoundingClientRect().top<innerHeight*.94)show(el);
+          });
+          sTick=false;
+        });
+      },{passive:true});
+    }
+  }
+  /* ---- shared motion utilities ---- */
+  // split into letters so headlines can arrive a character at a time
+  window.NFsplit=function(el){
+    if(!el||el.dataset.nfSplitDone)return;
+    var text=el.textContent, frag=document.createDocumentFragment(), i=0;
+    text.split('').forEach(function(c){
+      var s=document.createElement('span');
+      s.className='nf-ch';s.textContent=c;
+      s.style.setProperty('--i',i++);
+      frag.appendChild(s);
+    });
+    el.textContent='';el.appendChild(frag);
+    el.dataset.nfSplitDone='1';
+    el.setAttribute('aria-label',text);
+  };
+  window.NFreplay=function(el){
+    if(!el)return;
+    el.classList.add('nf-replay');
+    void el.offsetWidth;                 // force reflow so the animation restarts
+    el.classList.remove('nf-replay');
+  };
+  if(!reduced)document.querySelectorAll('[data-nf-split]').forEach(window.NFsplit);
+
+  // numerals that count up when they first come into view
+  if(!reduced&&'IntersectionObserver' in window){
+    var cio=new IntersectionObserver(function(es){
+      es.forEach(function(en){
+        if(!en.isIntersecting)return;
+        var el=en.target, raw=el.textContent.trim(), to=parseInt(raw,10);
+        cio.unobserve(el);
+        if(isNaN(to))return;
+        var t0=null, dur=900;
+        function step(ts){
+          if(!t0)t0=ts;
+          var p=Math.min(1,(ts-t0)/dur);
+          el.textContent=Math.round(to*(1-Math.pow(1-p,3)));
+          if(p<1)requestAnimationFrame(step);else el.textContent=raw;
+        }
+        requestAnimationFrame(step);
+      });
+    },{threshold:.6});
+    document.querySelectorAll('[data-nf-count]').forEach(function(el){cio.observe(el)});
+  }
+
+  // ink-veil exit: internal same-origin links leave through the dark.
+  // Where the browser does real cross-document view transitions, stand down
+  // and let it morph instead — the seal stays put across the navigation.
+  var veil=root.querySelector('.nf-veil');
+  var nativeVT = !!document.startViewTransition &&
+                 CSS.supports('view-transition-name','nf-seal');
+  document.addEventListener('click',function(e){
+    if(nativeVT||reduced||e.metaKey||e.ctrlKey||e.shiftKey||e.altKey||e.button!==0)return;
+    var a=e.target&&e.target.closest?e.target.closest('a[href]'):null;
+    if(!a||a.target==='_blank')return;
+    var href=a.getAttribute('href');
+    if(!href||href.charAt(0)==='#'||/^(mailto|tel|javascript):/.test(href))return;
+    var u;try{u=new URL(a.href,location.href)}catch(_){return}
+    if(u.origin!==location.origin)return;
+    if(u.pathname===location.pathname&&u.hash)return;
+    e.preventDefault();
+    veil.classList.add('nf-veil-out');
+    setTimeout(function(){location.href=a.href},190);
+  },true);
+  window.addEventListener('pageshow',function(e){
+    if(e.persisted)veil.classList.remove('nf-veil-out')});
+})();
+</script>
 <script defer type='module' src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "c8d1aea530814aea8c7a92baa2accef3"}'></script>
 </body>
 </html>

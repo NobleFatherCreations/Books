@@ -63,7 +63,7 @@ def row(i, entry, here_slug):
     slug, title, desc, dot = entry
     here = slug == here_slug
     cls = "nf-row nf-here" if here else "nf-row"
-    href = "#" if here else f"{SITE}/{slug}"
+    href = f"{SITE}/{slug}"   # the current page links to itself too (chapter pages carry the same menu; "#" went nowhere)
     attrs = ' aria-current="page"' if here else ""
     vol = title + ('<span class="nf-here-dot" aria-hidden="true"></span>' if here else "")
     return (
