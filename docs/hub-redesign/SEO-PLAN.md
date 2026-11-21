@@ -16,8 +16,8 @@ Owner, 2026-11-21: "How can we build the seo that leads as many ways as possible
 5. **One h1** (the name) and the full SEO head (canonical, Open Graph, Twitter card, licence, JSON-LD) are guarded by `scripts/verify-hub.mjs`, so a build that drops them fails.
 
 ## What only the owner can do (in order of payoff)
-1. **Google Search Console** (search.google.com/search-console): add the property noblefathercreations.com (DNS verification at the domain registrar), then submit `https://noblefathercreations.com/sitemap.xml`. This is how Google learns all 23 homepage addresses plus each book's and the decoder's sitemaps, and it shows which searches already find the site.
-2. **Bing Webmaster Tools** (bing.com/webmasters): import from Search Console in one click. Bing also feeds ChatGPT search and DuckDuckGo.
+1. **Google Search Console and Bing Webmaster Tools: already done by the owner** (Search Console verified by DNS TXT, confirmed live on 2026-11-21: `google-site-verification=...` on noblefathercreations.com; imported into Bing Webmaster, MEMORY.md 2026-11-09). After each deploy: resubmit `https://noblefathercreations.com/sitemap.xml` in Search Console if pages were added, and ping IndexNow (`scripts/seo/indexnow.py`, which posts to www.bing.com/indexnow).
+2. (removed: covered by 1)
 3. **Links from other sites** are what move rankings most. The repo's outreach system (CLAUDE.md, "Outreach system": find ~20 real targets, a short personal note that leads with value to their audience, owner sends each one) fits: survivor-support blogs, therapists' resource pages, subreddit wikis (r/NarcissisticAbuse, r/emotionalabuse), domestic-abuse charities' resource lists, festival-safety groups for the Festie books. Ask me to draft the first batch; nothing is ever sent automatically.
 4. **TikTok**: link individual decoder pages (for example /playbook/gaslighting) in video captions and the bio, not only the homepage. Each one is a page that can rank on its own.
 
