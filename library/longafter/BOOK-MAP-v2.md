@@ -898,3 +898,134 @@ Format for each chapter:
 2. **Approve the voice** in section 2, with its example lines.
 3. **"Is my ex a narcissist?" (chapter 5):** yes or no to using the word where readers use it, with the no-diagnosis stance.
 4. **Country notes:** US, UK, Canada, Australia and Ireland, or a different set?
+
+---
+
+## 11. Steelman round 1 (2026-11-21): what the outline misses
+
+Method:
+- **Eight hostile readers** attacked the outline. The reader in crisis outranks the others.
+- **Search data** was checked again (autocomplete phrases the outline did not cover).
+- **Overlap** with the rest of the library was measured: The Sovereign Divine Feminine already uses "safety plan" 27 times, "grey rock" 9 times and "hoovering" 8 times; the Decoder has one page each on trauma bonding and hoovering.
+
+### 11.1 The biggest blind spot: the outline assumes one kind of reader
+
+The outline was written for someone who *chose* to leave, has *already moved out*, and is *the target* of the abuse. Five large groups fall outside that, and each one searches in large numbers:
+
+| Reader the outline misses | Evidence (searches) | Fix |
+|---|---|---|
+| Left days ago and needs a list | "what to do after leaving an abusive relationship", "after leaving checklist" | **New: The first 30 days** |
+| Was left (discarded) | "after a narcissist breaks up with you", "hoovering after discard", "when a narcissist leaves you" | **New: If they left you** |
+| Separated but still under one roof | "co parenting but living together", "how to leave when you live together" | **New: Still under the same roof** |
+| Accused of being the abuser | "reactive abuse", false allegations in custody, reports to child services | **New: When they say you're the abuser** |
+| Afraid *they* were the abusive one (often a gaslit target; sometimes truly the person who harmed) | "am I the abuser" | A section in chapter 6, routing to The Repair's "Am I the one doing it?" |
+
+### 11.2 Missing content (by hostile reader)
+
+**The reader in crisis**
+- **Sexual abuse and reproductive coercion inside the relationship are not covered at all.** This is the largest content gap. → **New chapter** `[H]`: health checks, sexual assault services as a category, consent and intimacy later.
+- **Non-fatal strangulation and head injury have delayed effects** that readers don't link to the past. → A required section in chapter 9 (warning signs) and chapter 47 (health): see a doctor, and it is also evidence.
+- **Drinking and drugs as a way of getting through** appear only as a warning sign in chapter 49. → **New chapter:** "Drinking, drugs and other ways of getting through", without shame and with routes to help.
+- **Pregnancy and newborns** (risk often rises in pregnancy). → **New chapter:** "Pregnant, or with a new baby".
+
+**The domestic-abuse advocate**
+- **Printable tools can be found.** A safety plan on the fridge is a risk. → Every tool carries "keep this somewhere they can't reach", and the safety plan is offered as fill-on-paper-and-hide.
+- **Grey rock can escalate some people,** and the scripts must not be used where they provoke. → Chapter 21 leads with when not to use it.
+- **The warning-signs checklist can falsely reassure** ("none apply, so I'm safe"). → Chapter 9 says plainly: the absence of a sign does not mean safety; talk to a service.
+- **Intimate images and threats to share them** are missing. → **New chapter:** "Intimate images and online threats", covering removal tools (StopNCII, Take It Down, platform reporting) and the law as a category.
+
+**The family lawyer**
+- **The divorce or separation process itself** is missing: "divorcing a narcissist" is a large search. → **New chapter:** financial disclosure, delays, mediation exemptions, settling against going to trial, costs.
+- **Moving away and international abduction risk** are missing. → **New chapter:** "Moving, passports and travel with children", covering relocation law as a category, passport alert schemes (for example US CPIAP, UK prohibited steps orders) and the Hague Convention.
+- **The paperwork** is missing: insurance beneficiaries, wills, pensions, the joint mortgage, the phone contract, emergency contacts. → **New chapter:** "Untangling: the house, the car, the accounts and the paperwork".
+- **Legal notes go stale.** → Every country note shows "checked on [date]", and there is a yearly review entry in `sites.json`.
+
+**The clinician**
+- **"Trauma bond" is a popular term, not a diagnosis.** → Chapter 38 says so, gives the research origin and avoids clinical overclaim.
+- **Rumination and compulsive checking** are common and heavily searched ("checking ex's social media", "why can't I stop thinking about my ex") but missing. → **New chapter:** "Checking their profile".
+- **Closure and forgiveness** are both heavily searched ("closure after narcissistic abuse", "do I have to forgive my abuser"). → **New chapter:** "Closure you give yourself, and whether you have to forgive", linking The Repair and The Weighing (which hold the library's forgiveness material).
+
+**The child's advocate**
+- **The outline tells parents what to say but not what children go through.** → **New chapter:** "How children react, and what helps them": signs by age, children's therapy, school support, and children who still love the parent who hurt you.
+
+**The reader outside the "usual" story** (extends chapter 7)
+- Young people leaving a first relationship (a route to teen-specific services)
+- Honour-based abuse and forced marriage (as a category, with services)
+- Older readers (link The Slow Take)
+- Rural readers and readers on low incomes
+- Faith communities
+
+**The search strategist**
+- **Feminine overlap.** The two books must have different jobs:
+  - **Feminine:** inside the relationship and leaving it.
+  - **The Long After:** after.
+
+  Titles state the "after" intent ("…after you've left", "…after a breakup"), and each book links to the other. Without this the library competes with itself.
+- **Decoder overlap** stays as planned: the Decoder defines, The Long After says what to do next.
+- **The one-page book contains every chapter's text again,** shown by script. That risks being read as duplicate content. The chapter pages already carry their own canonical addresses; keep the book's own title and description about the book as a whole, and watch Search Console for "duplicate" reports.
+- **Health and legal subjects are judged harder by Google** (the "your money or your life" standard: who wrote it and who checked it). → Seek one real reviewer, such as a domestic-abuse advocate or a family lawyer, through outreach the owner sends. Credit "Reviewed by" **only if real**. Until then, sources on every chapter and the author page carry the weight.
+- **More phrases to measure:** "what to do after leaving an abusive relationship", "after a narcissist breaks up with you", "reactive abuse", "divorcing a narcissist", "checking ex's social media", "closure after narcissistic abuse", "why did my ex move on so fast", "post separation abuse awareness week" (it exists, and is a good moment for outreach).
+
+**The editor**
+- **Numbering breaks when chapters are added.** → Number within parts ("Part III · 4") and give pages addresses by name, so future additions never renumber anything.
+- **Part VII grows to 15 chapters,** too long for one part. → Split it in two:
+  - **"Feelings":** trauma bond, feelings, grief, guilt, anger, checking their profile, closure.
+  - **"Body, health and help":** nervous system, sleep, memory, anniversaries, getting sick, sexual abuse, drinking and drugs, therapy, and the crisis chapter.
+- **Examples need people in them.** Composite scenes are allowed if they are clearly marked as composites: never real people, never invented statistics.
+- **Reading level:** check every chapter with a readability score, aiming for about age 12–14.
+
+### 11.3 Revised structure (if approved)
+
+**Router (S1) additions:**
+- *I left in the last few days*
+- *They left me*
+- *We still live together*
+- *I've been accused of something*
+- *I'm under 18*
+
+**New chapters from this round: 13**
+
+| New chapter | Part |
+|---|---|
+| The first 30 days | I |
+| If they left you | I |
+| Still under the same roof | I |
+| Intimate images and online threats | II |
+| When they say you're the abuser (false allegations, reactive abuse, DARVO) | III |
+| Divorce and separation proceedings | V |
+| Untangling: the house, the car, the accounts and the paperwork | V or X |
+| How children react, and what helps them | VI |
+| Moving, passports and travel with children | VI |
+| Pregnant, or with a new baby | VI |
+| Checking their profile | VII (Feelings) |
+| Closure you give yourself, and whether you have to forgive | VII (Feelings) |
+| If there was sexual abuse or reproductive coercion `[H]` | VIII (Body, health and help) |
+| Drinking, drugs and other ways of getting through | VIII (Body, health and help) |
+
+**Required new sections (not chapters):**
+- strangulation and head injury (chapters 9 and 47)
+- "Am I the abuser?" (chapter 6)
+- name change for safety (chapter 12)
+- honour-based abuse and forced marriage, young people, rural readers (chapter 7)
+- "Keep this somewhere safe" on every tool
+
+**New tool:** T10, *For professionals*: permission to print and hand out (the CC licence), a one-page summary and the toolbox links. Advocates and therapists who use it are the people most likely to link to it.
+
+**New totals:**
+- **83 chapters** across **11 parts**
+- plus 3 start pages and 10 tools: **96 pages**
+- roughly 70,000–90,000 words
+
+### 11.4 Opportunities beyond the text (owner decisions)
+1. **Audio edition.** Each chapter as an episode, through the ElevenLabs connector, possibly in the owner's own voice. It helps accessibility for tired eyes at 2am, and it can be found on podcast and YouTube search.
+2. **Short videos from the short answers.** One short answer makes one TikTok. vidIQ can test titles first.
+3. **A Spanish edition later.** "Trauma bond en español" shows up in the data, and Spanish speakers make up a large group of US domestic-abuse survivors who lack resources in their language.
+4. **Downloadable PDF tools** (safety plan, record, court checklist) through the Adobe connector. Domestic-abuse organisations link to free worksheets.
+5. **Outreach to domestic-abuse services' resource pages**, using the toolbox pages as the reason to link. Drafts go into Gmail and the owner sends them.
+6. **A discreet mode** for this book, which the playbook lists as an owner decision still pending: a neutral tab title and no browser history entries while it is on. Recommended here, because tab titles like "Safety plan after leaving…" can be seen on a shared device. Crawlers still see the real titles, so search is unaffected.
+
+### 11.5 Risks in the outline itself
+- **Size.** About 90,000 words, approved part by part, is many sessions of work. The order (Start + Part I first) means the highest-value pages come first.
+- **Labels.** The "Is my ex a narcissist?" chapter and the glossary must not turn the book into a label factory. Keep the word to that chapter, the glossary and natural mentions.
+- **Disputed numbers.** The "seven times to leave" figure and prevalence numbers: use them only if properly sourced, otherwise leave them out.
+- **Legal accuracy across five countries.** Categories plus dated, sourced notes plus "search this locally"; never instructions presented as advice.
