@@ -117,11 +117,11 @@
     ],
     "buildCommand": "python3 scripts/seo/build_home.py && python3 scripts/seo/build_site.py && python3 scripts/visit-counter.py hub/catalogue-redesign.html hub/topics.html",
     "lastDeploy": {
-      "id": "6b01aa9846689c7e189b5b69",
+      "id": "6b01beb40c3ad22c09292bc0",
       "date": "2026-11-21",
-      "verified": "live index.html byte-identical to the build; routes, media, music proxy, beacon checked; IndexNow (Bing) 24 urls 200"
+      "verified": "live page = build; /api/visits returns a number (1,140) and the footer counter shows; key read from CF_API_TOKEN1"
     },
-    "visitCounter": "Homepage only. Function /api/visits (hub/netlify/functions/visits.mjs) needs Netlify env var CF_API_TOKEN (Functions scope). scripts/visit-counter.py adds the counter to the homepage and the Cloudflare beacon to any page missing it; it is chained in buildCommand.",
+    "visitCounter": "Homepage only. Function /api/visits (hub/netlify/functions/visits.mjs) needs Netlify env var CF_API_TOKEN (saved by the owner as CF_API_TOKEN1; the function reads either) (Functions scope). scripts/visit-counter.py adds the counter to the homepage and the Cloudflare beacon to any page missing it; it is chained in buildCommand.",
     "buildNote": "v19 (2026-11-21, deployed): build ONLY with buildCommand (build_site.py writes the SEO head). build_site.py rewrites hub/og.png; restore with git checkout if the card is not meant to change. Test: node scripts/verify-hub.mjs http://127.0.0.1:8765/"
   },
   "projects": [
