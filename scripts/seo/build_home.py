@@ -106,8 +106,8 @@ def main():
         + f'<span><span class="t">{E(t["title"])}</span><span class="s">{E(t["shelf"])}</span></span><time>{fmt(t["dur"])}</time>'
         + '<span class="bar" aria-hidden="true"><i></i></span></li>' for i, t in enumerate(d["music"]["tracks"]))
     pairs = "".join(
-        f'<li><figure class="portal" data-name="{E(p["name"])}"><img class="day" src="{p["dayImg"]}" width="720" height="720" alt="{E(p["name"])} pendant in daylight" loading="lazy" decoding="async">'
-        f'<img class="night" src="{p["nightImg"]}" width="720" height="720" alt="" loading="lazy" decoding="async">'
+        f'<li><figure class="portal" data-name="{E(p["name"])}" data-set="{E(p["set"])}"><img class="day" src="{p["dayImg"]}" width="700" height="875" alt="{E(p["name"])} pendant in daylight" loading="lazy" decoding="async">'
+        f'<img class="night" src="{p["nightImg"]}" width="700" height="875" alt="" loading="lazy" decoding="async">'
         f'<span class="lamp" aria-hidden="true"></span></figure>'
         f'<p class="legend"><span>{E(p["name"])}</span><button class="charge" type="button">'
         f'<svg viewBox="0 0 48 48" aria-hidden="true"><circle cx="24" cy="24" r="20" class="track"/><circle cx="24" cy="24" r="20" class="fill" pathLength="1"/></svg>'
@@ -171,7 +171,7 @@ def main():
 <p class="muted">The Workshop: hand-poured resin pendants with a strontium glow and a chip inside that plays a song, a message or a memory when a phone touches it.</p></div></section>
 
 <section class="workshop" data-nav="art" data-night="1"><div class="wrap">
-<h3>The Portals</h3><p class="muted" style="margin-top:8px">A portfolio of finished pieces. Strontium drinks in light and gives it back in the dark: press and hold a pendant to charge it, then let go. Every photo shows the real glow: blue or green, depending on the pigment. The shop opens soon.</p>
+<h3>The Portals</h3><p class="muted" style="margin-top:8px">A portfolio of finished pieces. Strontium drinks in light and gives it back in the dark: press and hold a pendant to charge it, then let go. Every photo shows the real glow; each set glows its own colour. The shop opens soon.</p>
 <ul class="pairs portals">{pairs}</ul>
 <a class="more" href="/portals" style="margin-top:24px">See every Portal</a>
 <div class="wk-row" id="guide" data-nav="nfc">

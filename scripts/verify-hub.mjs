@@ -77,6 +77,10 @@ for (const [name, w, h] of [['375', 375, 812], ['1440', 1440, 900]]) {
   small.length ? fail('tap targets under 44px: ' + small.slice(0, 6).join(' | ')) : ok('every tap target is at least 44px');
   const overflow = await page.evaluate(() => document.documentElement.scrollWidth - innerWidth);
   overflow > 1 ? fail(`horizontal overflow ${overflow}px`) : ok('no horizontal overflow');
+  // owner 2026-11-21: "pull portal pendants from different sets at least so they aren't all the same"
+  const sets = await page.$$eval('.portal', (f) => f.map((x) => x.dataset.set || ''));
+  const distinct = new Set(sets.filter(Boolean)).size;
+  sets.length >= 3 && distinct === sets.length ? ok(`Portals come from ${distinct} different sets`) : fail(`Portals sets not distinct: [${sets.join(', ')}]`);
   // v19 batch 3: the door opens with a press-and-hold for pointers, but keyboard and screen readers open it straight away
   await page.focus('#door-btn'); await page.keyboard.press('Enter'); await page.waitForTimeout(300);
   const kOpen = await page.evaluate(() => document.querySelector('#door').hasAttribute('data-open'));

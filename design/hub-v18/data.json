@@ -227,19 +227,40 @@
  },
  "portals": [
   {
-   "day": "p108.jpeg",
-   "night": "p109.jpeg",
-   "name": "Clockwork"
+   "day": "portal-firmament-day.jpg",
+   "night": "portal-firmament-glow.jpg",
+   "name": "Firmament",
+   "set": "firmament"
   },
   {
-   "day": "p116.jpeg",
-   "night": "p117.jpeg",
-   "name": "Ember square"
+   "day": "portal-bushido-day.jpg",
+   "night": "portal-bushido-glow.jpg",
+   "name": "Bushido",
+   "set": "bushido"
   },
   {
-   "day": "p104.jpeg",
-   "night": "p105.jpeg",
-   "name": "Gear moon"
+   "day": "portal-paradox-day.jpg",
+   "night": "portal-paradox-glow.jpg",
+   "name": "Paradox",
+   "set": "paradox"
+  },
+  {
+   "day": "portal-unwritten-day.jpg",
+   "night": "portal-unwritten-glow.jpg",
+   "name": "The Unwritten",
+   "set": "unwritten"
+  },
+  {
+   "day": "portal-starseed-day.jpg",
+   "night": "portal-starseed-glow.jpg",
+   "name": "Starseed",
+   "set": "starseed"
+  },
+  {
+   "day": "portal-evolution-day.jpg",
+   "night": "portal-evolution-glow.jpg",
+   "name": "Evolution",
+   "set": "evolution"
   }
  ],
  "making": [

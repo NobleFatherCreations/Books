@@ -28,3 +28,7 @@ See `docs/design-catalogue/templates/OWNER-TASTE.md` for the table to fill; add 
 
 ## Permissions granted
 - 2026-11-10: owner approved the label softenings and the five added safety sentences on the Entertainment site; chose to replace the old prototype site with Fractal² (since criticised; rebuild pending).
+
+## 2026-11-21 (homepage v19)
+- "Please pull portal pendants from different sets at least so they aren't all the same." Show variety across sets (shape and glow colour), never one look repeated. Guarded by verify-hub "Portals come from N different sets".
+- "Desktop effects are fine but we are optimizing the entire experience and design for phones." Phone is the primary design target: every effect needs a phone form (touch, scroll, tilt, haptics), screenshots and critic rounds lead with phone, and desktop-only items (custom cursor, hover-only effects) are lowest priority.

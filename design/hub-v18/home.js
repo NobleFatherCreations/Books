@@ -502,6 +502,37 @@
       cleanups.push(dust());
       // drag the cover open by hand (mouse or a sideways swipe); it springs shut when let go
       cleanups.push(peek());
+      if (!fine) {
+        // phones: a carousel turn. Covers and pendants turn toward the centre of their row as the thumb scrolls it,
+        // the one in front sits a little larger, and the phone ticks when a row settles.
+        const rows = [...$$('.shelf .books').map(ul => [ul, $$('.cov', ul), 'cov']), ...$$('.pairs').map(ul => [ul, $$('.portal', ul), 'portal'])];
+        rows.forEach(([ul, items, kind]) => {
+          let raf = 0;
+          const turn = () => {
+            raf = 0; const r = ul.getBoundingClientRect(), mid = r.left + (kind === 'cov' ? r.width * .25 : r.width * .45);
+            items.forEach(el => { const b = el.getBoundingClientRect(), k = gsap.utils.clamp(-1, 1, (b.left + b.width / 2 - mid) / (r.width * .6));
+              if (kind === 'cov') { el.style.setProperty('--ty', (k * -22).toFixed(2) + 'deg'); el.style.setProperty('--cs', (1 - Math.abs(k) * .08).toFixed(3)); }
+              else el.style.setProperty('--ps', (1 - Math.abs(k) * .07).toFixed(3)); });
+          };
+          const on = () => { if (!raf) raf = requestAnimationFrame(turn); };
+          ul.addEventListener('scroll', on, { passive: true }); turn();
+          const settle = () => { buzz(4); snd.play('tick'); };
+          if (kind === 'portal') ul.addEventListener('scrollend', settle);
+          cleanups.push(() => { ul.removeEventListener('scroll', on); ul.removeEventListener('scrollend', settle); items.forEach(el => ['--ty', '--cs', '--ps'].forEach(v => el.style.removeProperty(v))); });
+        });
+        // tools: a band of light crosses each card as it passes through the screen, and the card settles flat
+        $$('.tool').forEach(t => {
+          gsap.fromTo(t, { '--gx': '0%', '--go': 0 }, { '--gx': '100%', ease: 'none', scrollTrigger: { trigger: t, start: 'top 90%', end: 'bottom 20%', scrub: .4,
+            onUpdate: st => t.style.setProperty('--go', (Math.sin(st.progress * Math.PI) * .9).toFixed(3)) } });
+          gsap.fromTo(t, { '--rx': '8deg' }, { '--rx': '0deg', ease: 'none', scrollTrigger: { trigger: t, start: 'top 95%', end: 'top 60%', scrub: .4 } });
+        });
+      }
+      // section titles rise line by line into a mask as they arrive (once), on every screen
+      $$('.sec-head h2, .workshop h3, .support h2').forEach(h => {
+        const sp = SplitText.create(h, { type: 'lines', mask: 'lines', aria: 'none' });
+        gsap.from(sp.lines, { yPercent: 105, duration: .9, stagger: .1, ease: 'expo.out', scrollTrigger: { trigger: h, start: 'top 88%', once: true }, onComplete: () => sp.revert() });
+        cleanups.push(() => sp.revert());
+      });
       if (fine) {
         // chips lean toward the pointer
         $$('.chip').forEach(c => {

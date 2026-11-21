@@ -243,3 +243,9 @@ Music items (I1-I4) wait for the song restore.
 - The first full charge of the visit turns the rest of the page dark for about two seconds so that pendant glows alone (Leave now stays on top; skipped under Still and reduced motion).
 - A charge-up hum (sound) was planned for the threshold scroll and left out: sound may only answer a tap.
 - Gates: verify-hub all pass; design-gates 0 FAIL (stars moved off a canvas so nothing sits over text; transitions snap under reduced motion); axe clean; LCP 0.60 s, CLS 0, 266 KB. Live page DOM 252 KB of the 260 KB check budget.
+
+### Owner round (2026-11-21): six sets, phone first
+- Portals: six pendants from six different sets (Firmament, Bushido, Paradox, The Unwritten, Starseed, Evolution), photos from workshop/portals; frames now 4:5 to match the photos; copy now says each set glows its own colour. Regression row + check added first (failed on the old three gear pieces, passes now).
+- Phone first (owner rule): shelves and the Portals row turn like a carousel under the thumb (the one in front sits larger), the phone ticks when the Portals row settles; tool cards catch a band of light and settle flat as they scroll past; section titles rise line by line on every screen.
+- Batch 5 re-ordered for phones: the custom cursor drops to last; phone forms come first.
+- Gates: verify-hub all pass; design-gates 0 FAIL; axe clean; LCP 0.61 s, CLS 0, 271 KB.

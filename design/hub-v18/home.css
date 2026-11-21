@@ -368,7 +368,7 @@ h1 .ln>span{display:block}
 .shelf .rule path{fill:none;stroke:var(--brass);stroke-width:1.5;stroke-linecap:round;vector-effect:non-scaling-stroke}
 @media (min-width:901px){.shelf:nth-of-type(even) .rule{margin-left:auto}}
 @media (min-width:901px){.shelf .books{position:relative;align-items:end}.shelf .bk{display:grid;grid-template-rows:auto 72px 64px}.shelf .bk b{margin-top:22px;align-self:start}.shelf .bk small{align-self:start}.shelf .books::after{content:"";position:absolute;left:-16px;right:-16px;bottom:calc(72px + 64px - 4px);height:10px;border-radius:2px;background:linear-gradient(#5a4632,#2b2016);box-shadow:0 12px 24px #000a,inset 0 1px 0 #8a6d4c66;pointer-events:none}.shelf .books>li{position:relative;z-index:1}}
-.bk .cov{transform:perspective(900px) translateY(var(--ly,0px)) rotateY(var(--ty,0deg)) rotate(var(--lr,0deg))}
+.bk .cov{transform:perspective(900px) translateY(var(--ly,0px)) rotateY(var(--ty,0deg)) rotate(var(--lr,0deg)) scale(var(--cs,1))}
 @media (hover:hover){.bk:hover .cov{transform:perspective(900px) translateY(-14px) rotateY(calc(var(--ty,0deg) - 14deg)) rotate(-1deg)}}
 .bk .glint{position:absolute;inset:0;z-index:1;background:linear-gradient(105deg,transparent 35%,#fff4 50%,transparent 65%);transform:translateX(-130%);pointer-events:none}
 /* the door: two leaves swing open in 3D, light bursts from the gap; a seam of light under it while shut */
@@ -417,3 +417,10 @@ h1 .ln>span{display:block}
 @media (prefers-reduced-motion:reduce){.brand,.top,.door .seam,.chip,.chip .rl>span,.uv,.tool,.tool .glare,.bk .cov,.portal .lamp,.nav a,.sheet-panel{transition:none}}
 .is-still .brand,.is-still .top,.is-still .door .seam,.is-still .chip .rl>span,.is-still .uv,.is-still .tool,.is-still .bk .cov{transition:none}
 .threshold p,.workshop>.wrap>p{text-shadow:0 0 4px var(--night),0 0 10px var(--night),0 0 16px var(--night)}
+.portal{aspect-ratio:4/5}
+@media (min-width:901px){.pairs{grid-template-columns:repeat(3,1fr)}}
+/* phone-first (owner 2026-11-21): the shelves and the Portals turn like a carousel under the thumb; tools catch the light as they pass */
+@media (max-width:900px){
+ .portal{transform:scale(var(--ps,1));transition:none}
+ .tool .glare{opacity:var(--go,0)}
+}
