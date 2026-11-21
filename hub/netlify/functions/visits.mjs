@@ -2,7 +2,7 @@
 // Whole-site visit count from Cloudflare Web Analytics, which every page
 // already reports to through the approved beacon. No cookies, nothing per
 // person, and nothing about the caller is stored or sent anywhere.
-// Needs the Netlify env var CF_API_TOKEN (Account Analytics: Read), scoped to Functions.
+// Needs the Netlify env var CF_API_TOKEN or token1 (Account Analytics: Read), scoped to Functions, with a Production value.
 //
 // Cloudflare keeps about 6 months of Web Analytics, so visits before CUTOFF are
 // frozen into BASELINE. Before CUTOFF is ~5 months old (around April 2027),
@@ -16,7 +16,8 @@ const QUERY = `query($a:String!,$f:AccountRumPageloadEventsAdaptiveGroupsFilter_
   viewer{accounts(filter:{accountTag:$a}){t:rumPageloadEventsAdaptiveGroups(limit:1,filter:$f){sum{visits}}}}}`;
 
 export default async () => {
-  const token = Netlify.env.get("CF_API_TOKEN");
+  // the key may be saved as CF_API_TOKEN or token1 (owner 2026-11-21: "use the token1")
+  const token = (Netlify.env.get("CF_API_TOKEN") || Netlify.env.get("token1") || Netlify.env.get("TOKEN1") || "").trim();
   if (!token) return Response.json({ error: "not configured" }, { status: 503 });
   const today = new Date().toISOString().slice(0, 10);
   try {
