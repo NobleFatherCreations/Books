@@ -1177,13 +1177,13 @@
       "slug": "fractal2-corporate",
       "title": "Fractal²: Corporate & Consulting",
       "tagline": "138 manipulation chains, each a full story with what to notice and what to do",
-      "url": null,
+      "url": "https://fractal2-corporate.netlify.app/fractal2/corporate",
       "finalUrl": "https://noblefathercreations.com/fractal2/corporate",
       "repoPath": "library/fractal2/site/fractal2/corporate.html (+ library/fractal2/site/fractal2/corporate/)",
       "buildCommand": "python3 design/chains/build.py corp && python3 design/chains/verify.py corp",
       "source": "content/fractal/_packages/combo_clusters_markdown_v2/CORP (owner package, verbatim)",
-      "deployed": false,
-      "deployNote": "Not deployed. Needs the owner's go-ahead and the /fractal2 proxy (library/fractal2/redirects/HUB-RULES.txt).",
+      "deployed": true,
+      "deployNote": "Standalone Netlify site (owner go-ahead 2026-11-21). Staged folder = fractal2/corporate.html + fractal2/corporate/ + fractal2/_a/f/chains-* fonts and licences, plus _redirects (/, /fractal2, /fractal2/hub -> /fractal2/corporate, 302) and _headers (font caching). Not yet proxied onto noblefathercreations.com: that needs /fractal2/* rules in hub/catalogue-redesign._redirects and a hub redeploy.",
       "version": "v1",
       "changelog": [
         {
@@ -1191,7 +1191,9 @@
           "version": "v1",
           "summary": "First edition: landing page, 10 categories, all 138 Corporate & Consulting manipulation chains in full."
         }
-      ]
+      ],
+      "siteId": "c336cd65-b9aa-4c4f-b6ef-da033f5fab11",
+      "lastDeploy": "2026-11-21 (deploy 6b00f7fc1dae013c5c710561)"
     }
   ],
   "craftBusiness": [
