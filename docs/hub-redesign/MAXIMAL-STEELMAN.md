@@ -200,3 +200,9 @@ Batches, each gated (verify-hub, design-gates at 4x throttle, axe, perf, reduced
 5. Workshop end + footer + site layers: L1, L3, L4, M1, M3, M4, N1, N2, N5-N7.
 6. Big-ticket items, each as its own release: C1 WebGL book, C7 book-to-shelf flight, E3 smooth scroll, F7 stacking, N8 page turns.
 Music items (I1-I4) wait for the song restore.
+
+## Part 5. Owner decisions (2026-11-21)
+- Volume: **Placed**. Every effect gets added; the reading half is rich at medium volume, the dark Workshop is full spectacle, and a Still switch sits beside Leave now.
+- Sound: **yes, off until tapped**. Synthesised in the page, a header sound button, never saved between visits.
+- Intro: **no**. A1 press-stamp title card and A3 preloader are out; the headline rises straight away (B1 upgrade still applies).
+- New words: **skip both**. A4 late-night line and B5 cycling headline are out. A5 (time-of-day dimming, no words) stays.
