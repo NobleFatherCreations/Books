@@ -46,7 +46,7 @@ def chrome_parts():
     return css, js
 
 ONPAGE = [("#welcome", "Where to go"), ("#start-here", "Start here"), ("#library", "The Library"), ("#tools", "Free tools"),
-          ("#music", "The Listening Room"), ("#art", "The Portals"), ("#guide", "NFC guide"), ("#support", "Support the work")]
+          ("#music", "The Listening Room"), ("#art", "The Portals"), ("#guide", "NFC guide"), ("#support", "Support the work"), ("/topics", "Topics A to Z")]
 
 def chrome_html():
     onpage = "".join(f'<li class="nf-row"><a href="{h}"><span class="nf-dot" aria-hidden="true"></span><span class="nf-num">{i:02d}</span><span class="nf-vol">{t}</span></a></li>' for i, (h, t) in enumerate(ONPAGE))

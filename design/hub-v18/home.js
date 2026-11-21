@@ -424,7 +424,7 @@
   npPlay.addEventListener('click', () => { if (!cur) return; if (audio.paused) audio.play().catch(() => {}); else audio.pause(); });
   const next = () => { const all = rows(); const i = all.indexOf(cur); const n = all[(i + 1) % all.length]; if (n) start(n); };
   $('#np-next').addEventListener('click', next);
-  audio.addEventListener('play', () => { cur.classList.add('is-playing'); setIcon(cur, true); nowbar.hidden = false; npTitle.textContent = cur.dataset.title; npPlay.innerHTML = PAUSEI; npPlay.setAttribute('aria-label', 'Pause ' + cur.dataset.title); if (note) note.textContent = ''; });
+  audio.addEventListener('play', () => { root.classList.add('is-playing'); cur.classList.add('is-playing'); setIcon(cur, true); nowbar.hidden = false; npTitle.textContent = cur.dataset.title; npPlay.innerHTML = PAUSEI; npPlay.setAttribute('aria-label', 'Pause ' + cur.dataset.title); if (note) note.textContent = ''; });
   audio.addEventListener('pause', () => { if (!cur) return; setIcon(cur, false); npPlay.innerHTML = PLAYI; npPlay.setAttribute('aria-label', 'Play ' + cur.dataset.title); });
   audio.addEventListener('timeupdate', () => { if (!cur || !audio.duration) return; const k = audio.currentTime / audio.duration * 100; const bar = $('.bar i', cur); if (bar) bar.style.width = k + '%'; npProg.style.width = k + '%'; const t = $('time', cur); if (t) t.textContent = fmt(audio.currentTime); });
   audio.addEventListener('ended', next);
@@ -576,8 +576,8 @@
         });
         deckImgs.filter(im => !tiles.some(t => t.dataset.logo === im.dataset.logo)).forEach(im => gsap.to(im, { autoAlpha: 0, scale: .9, duration: .4 }));
       }, '+=.15');
-      mt.to({}, { duration: .8 });
-      mt.from('.doors-head > *', { y: 24, opacity: 0, duration: .7, stagger: .08, ease: 'expo.out' }, '-=.9');
+      mt.to({}, { duration: .78 });
+      mt.from('.doors-head > *', { y: 24, opacity: 0, duration: .6, stagger: .07, ease: 'expo.out' }, '-=.25');
       const skip = () => { if (mt.progress() < 1) mt.progress(1); };
       if (late) mt.progress(1);
       const evs = ['pointerdown', 'wheel', 'keydown', 'touchstart'];

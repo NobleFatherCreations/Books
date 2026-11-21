@@ -103,9 +103,9 @@ def llms(sites):
 def hub_head(sites):
     f = HUB / "catalogue-redesign.html"
     h = S.SEO_TAG.sub("", S.read(f))
-    title = "Free Books on Manipulation and Narcissistic Abuse | Noble Father Creations"
-    desc = ("Free books and a Pattern Decoder by Shae Stovell on manipulation, narcissistic abuse, gaslighting and coercive "
-            "control: name the pattern, see what it is made of, take a safe next step.")
+    title = "Manipulation & Narcissistic Abuse: Free Books | Noble Father"
+    desc = ("Free books and a Pattern Decoder on manipulation, narcissistic abuse, gaslighting and coercive control. "
+            "Name the pattern, take a safe next step.")
     h = re.sub(r"<title>.*?</title>", f"<title>{S.esc(title)}</title>", h, count=1, flags=re.S)
     h = re.sub(r'<meta\s+name="description"[^>]*>', f'<meta name="description" content="{S.esc(desc)}">', h, count=1)
     h = re.sub(r'[ \t]*<link\s+rel="canonical"[^>]*>\n?', "", h)

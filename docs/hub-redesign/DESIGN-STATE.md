@@ -50,3 +50,6 @@ To deploy (owner's words "deploy the homepage"): build with sites.json hub.build
 
 ## v19 "maximal" (2026-11-21): planned, not built
 Owner asked for every possible effect, a steelman and a full design-director audit. Plan and decisions: MAXIMAL-STEELMAN.md (about 90 items in sections A-N, an intensity map, 6 gated batches). Decisions: Placed volume + Still switch; opt-in synthesised sound; no intro; no new copy (A4/B5 out).
+
+## Deployed (2026-11-21)
+Owner: "Deploy music and site". Music: noblemusic redeployed with the live page unchanged plus all 176 songs (the upload tool reported a 500 at the end, but every file is live at the right size). Homepage v19: deploy 6b01aa9846689c7e189b5b69; live index.html byte-identical to the build; live phone smoke test: four doors, the seal Catalogue (30 links), a song plays, only the beacon leaves the site, no errors. IndexNow pinged (24 urls, 200). Open: the visit counter answers "not configured" (the function cannot see CF_API_TOKEN), so it stays hidden until the key is visible to Functions on this site.

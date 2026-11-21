@@ -10,8 +10,13 @@
     "deploySource": "cli",
     "localSource": "hub/catalogue-redesign.html",
     "localSourceNote": "This is the first verified live deploy of the redesigned 'collected works' hub. A 2026-08-02 review package claimed the catalogue hub redesign was already deployed, but it did NOT byte-match live content at the time -- treat this 2026-08-05 deploy as the true first release.",
-    "version": "v17",
+    "version": "v19",
     "changelog": [
+      {
+        "date": "2026-11-21",
+        "version": "v19",
+        "summary": "Full homepage redesign. Opens with a montage of the owner's logo figures settling into four doors (The Library, The Portals, The Listening Room, NFC guide); the book chooser and 3D book open the Library; four situation shelves with the three bigger-picture books behind a hold-to-open door; free tools; a working Listening Room (all 176 songs browsable and playable, now-playing bar); Portals from six sets with a charge-and-glow you paint by touch; NFC guide; the sitewide wax-seal Catalogue back in the corner; Still switch and opt-in sound; Leave now always on top. SEO: title and description for manipulation and narcissistic abuse, 18 'Look up a pattern' links into the Pattern Decoder and Topics, structured data naming those subjects. No version notes on the page (owner)."
+      },
       {
         "date": "2026-11-08",
         "version": "v17",
@@ -112,16 +117,12 @@
     ],
     "buildCommand": "python3 scripts/seo/build_home.py && python3 scripts/seo/build_site.py && python3 scripts/visit-counter.py hub/catalogue-redesign.html hub/topics.html",
     "lastDeploy": {
-      "id": "6af1238b68fb202899c80068",
-      "date": "2026-11-09",
-      "verified": "verify-deployed: in sync"
-    },
-    "pendingDeploy": {
-      "since": "2026-11-09",
-      "note": "Repo is ahead of live by two lines only: the /fractal/entertainment proxy rules in hub/catalogue-redesign._redirects and one Sitemap line in hub/robots.txt. The page itself is unchanged. Deploy blocked by the permission classifier; awaiting the owner's 'deploy the homepage'. Staging recipe: index.html + _redirects + hub.siteFiles."
+      "id": "6b01aa9846689c7e189b5b69",
+      "date": "2026-11-21",
+      "verified": "live index.html byte-identical to the build; routes, media, music proxy, beacon checked; IndexNow (Bing) 24 urls 200"
     },
     "visitCounter": "Homepage only. Function /api/visits (hub/netlify/functions/visits.mjs) needs Netlify env var CF_API_TOKEN (Functions scope). scripts/visit-counter.py adds the counter to the homepage and the Cloudflare beacon to any page missing it; it is chained in buildCommand.",
-    "buildNote": "v18 (2026-11-21, NOT deployed): build_home.py replaces build_hub.py. build_site.py rewrites hub/og.png; restore it with git checkout if the card is not meant to change. Test: node scripts/verify-hub.mjs http://127.0.0.1:8765/"
+    "buildNote": "v19 (2026-11-21, deployed): build ONLY with buildCommand (build_site.py writes the SEO head). build_site.py rewrites hub/og.png; restore with git checkout if the card is not meant to change. Test: node scripts/verify-hub.mjs http://127.0.0.1:8765/"
   },
   "projects": [
     {
@@ -828,6 +829,11 @@
       "version": "v5",
       "changelog": [
         {
+          "date": "2026-11-21",
+          "version": "v5",
+          "summary": "Audio restored: all 176 songs uploaded from the owner's Drive folder (they had never been on the site, so every Play returned an error). Page unchanged."
+        },
+        {
           "date": "2026-09-01",
           "version": "v5",
           "summary": "The Catalogue now lists all twenty volumes, including the five new books. It had drifted to different lengths on different pages."
@@ -847,6 +853,10 @@
       "repoPath": "instruments/music/index.html",
       "pendingDeploy": {
         "note": "Repo is AHEAD of live. Menu label fix (2026-11-08: Sacred Divide subtitle, Decoder 310 tactics, The Listening Room) is in the repo only; it ships with this site's own next round."
+      },
+      "lastDeploy": {
+        "date": "2026-11-21",
+        "verified": "176 of 176 audio files live at the right sizes; page byte-identical to the previous live page"
       }
     },
     {

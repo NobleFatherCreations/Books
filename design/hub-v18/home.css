@@ -542,3 +542,6 @@ html{background:var(--night)}
 @media (hover:hover){.lookups a:hover{border-color:var(--brass);background:var(--ink-3)}}
 .lookup-more{display:flex;flex-wrap:wrap;gap:var(--s1) var(--s4);margin-top:var(--s3)}
 .lookup-more a{display:inline-flex;align-items:center;min-height:44px;color:var(--brass-hi);font:400 21px/1.1 var(--display),Georgia,serif;text-underline-offset:5px}
+/* final sweep: Still also stops the seal's idle glow; a playing song never hides the end of the page */
+.is-still .nf-seal::after{animation:none}
+html.is-playing body{padding-bottom:96px}
