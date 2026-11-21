@@ -56,3 +56,8 @@ Existing anchors (#start-here, #library, #instruments, #music, #workshop, #guide
 2. Music: may I restore the 176 songs to the music site (download from your Drive, then redeploy the Listening Room; needs your go-ahead)?
 3. Quick exit: yes/no.
 4. A real buy path for the Portals: where do pendants sell today (link, DM, form)?
+
+## Owner answers (2026-11-21, round 2)
+- The Portals are a portfolio for now (a shop comes later), so the showcase has no buy button yet.
+- Music: later (the restore plan above stands, waiting).
+- The owner disliked the structure diagram as "the design" and asked for skills, MCPs and award references to be visibly run. Done in Stage 3: references/board.jpg (Frans Hals Museum, Stripe Press, Persepolis Reimagined, Igloo Inc, Pangram Pangram, Aeon); UI/UX Pro Max design-system run (generic indigo/green output rejected; literary serif pairing + stagger motion kept); Taste skill rules applied (one section per screen, no violet, no fade-in-everything, real images lead); three directions in directions/.

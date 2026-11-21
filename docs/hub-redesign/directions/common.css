@@ -1,0 +1,12 @@
+@font-face{font-family:IS;src:url(/home/user/Books/tools/fonts/instrumentserif/InstrumentSerif-Regular.ttf)}
+@font-face{font-family:IS;font-style:italic;src:url(/home/user/Books/tools/fonts/instrumentserif/InstrumentSerif-Italic.ttf)}
+@font-face{font-family:CG;font-weight:300 700;src:url("/home/user/Books/tools/fonts/cormorantgaramond/CormorantGaramond[wght].ttf")}
+@font-face{font-family:CG;font-style:italic;font-weight:300 700;src:url("/home/user/Books/tools/fonts/cormorantgaramond/CormorantGaramond-Italic[wght].ttf")}
+@font-face{font-family:NR;font-weight:200 800;src:url("/home/user/Books/tools/fonts/newsreader/Newsreader[opsz,wght].ttf")}
+@font-face{font-family:NR;font-style:italic;font-weight:200 800;src:url("/home/user/Books/tools/fonts/newsreader/Newsreader-Italic[opsz,wght].ttf")}
+@font-face{font-family:BG;font-weight:200 800;src:url("/home/user/Books/tools/fonts/bricolagegrotesque/BricolageGrotesque[opsz,wdth,wght].ttf")}
+@font-face{font-family:PS;font-weight:100 900;src:url("/home/user/Books/tools/fonts/public-sans/PublicSans[wght].ttf")}
+*{box-sizing:border-box;margin:0;padding:0}html,body{height:100%}
+a{color:inherit;text-decoration:none}
+.chips{display:flex;flex-wrap:wrap;gap:8px}
+.chip{min-height:48px;display:inline-flex;align-items:center;gap:10px;padding:0 18px;border-radius:999px;font-size:15px}
