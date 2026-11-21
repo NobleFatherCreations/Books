@@ -1,0 +1,21 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Comp A</title><link rel="stylesheet" href="/_undeployed/hub-v19-comps/common.css">
+<style>
+/* A: light and dark. The screen is split by the threshold: the light half holds a book, the dark half a glowing pendant. */
+.light{position:absolute;left:0;right:0;top:0;height:52%;background:radial-gradient(ellipse at 60% 30%,#f4ead6,#d9cbb0);overflow:hidden}
+.dark{position:absolute;left:0;right:0;bottom:0;height:48%;background:var(--night);overflow:hidden}
+.seam{position:absolute;left:0;right:0;top:52%;height:2px;background:linear-gradient(90deg,transparent,var(--glow),transparent);box-shadow:0 0 18px 3px #86ecd255}
+.book{position:absolute;right:6%;top:84px;width:36%;transform:perspective(900px) rotateY(-24deg) rotateZ(-3deg);box-shadow:24px 30px 50px #0006;border-radius:3px}
+.pend{position:absolute;left:8%;bottom:-6%;width:62%;filter:drop-shadow(0 0 30px #ff5a4d66)}
+.words{position:absolute;left:16px;width:58%;top:calc(52% - 196px);z-index:2}.words h1{font-size:38px}
+.words h1 .l{color:var(--ink)} .words .eyebrow{color:#5a4632;margin-bottom:10px}
+.doors{position:absolute;left:16px;right:16px;bottom:24px;z-index:3;display:grid;grid-template-columns:1fr 1fr;gap:8px}
+.doors .door{background:#07090acc;border-color:#86ecd255}
+.top .brand{color:var(--ink)} .top .ic{border-color:#0002;color:#5a4632}
+</style></head><body>
+<div class="light"><img class="book" src="/media/v18/longafter-760.webp" alt=""></div>
+<div class="dark"><img class="pend" src="/media/v18/portal-1-night-720.webp" alt=""></div><div class="seam"></div>
+<header class="top"><span class="brand">Noble Father</span><span class="acts"><span class="ic">II</span><span class="ic">≡</span><span class="leave">Leave now</span></span></header>
+<div class="words"><p class="eyebrow">Noble Father Creations</p><h1><span class="l">Worn in the light.</span><br><span class="glowtxt">Alive in the dark.</span></h1></div>
+<nav class="doors"><span class="door">The Library</span><span class="door">The Portals</span><span class="door">The Listening Room</span><span class="door">NFC guide</span></nav>
+<span class="label">A · Light and dark</span>
+</body></html>

@@ -17,7 +17,7 @@ img{display:block;max-width:100%;height:auto}
 a{color:inherit}
 button{font:inherit;color:inherit}
 h1,h2,h3{font-family:var(--display),Georgia,serif;font-weight:400;letter-spacing:-.01em;margin:0;text-wrap:balance}
-h1{font-size:var(--t-h1);line-height:1;letter-spacing:-.025em}
+h1,.h1{font-size:var(--t-h1);line-height:1;letter-spacing:-.025em}
 h2{font-size:var(--t-h2);line-height:.98;letter-spacing:-.015em}
 h3{font-size:var(--t-h3);line-height:1.05}
 p{margin:0;max-width:62ch;text-wrap:pretty}
@@ -277,7 +277,7 @@ a,button{touch-action:manipulation}
 .book-in,.book-tilt{transform-style:preserve-3d}
 .book3d .leaf{position:absolute;inset:0;transform-style:preserve-3d;backface-visibility:hidden}
 .pairs>li{position:relative}
-@media (max-width:900px) and (max-height:720px){.stage{height:150px}.book3d{width:84px}.halo{width:170px}.hero h1{font-size:38px}.lede{margin:8px 0 16px}}
+@media (max-width:900px) and (max-height:720px){.stage{height:150px}.book3d{width:84px}.halo{width:170px}.hero .h1{font-size:38px}.lede{margin:8px 0 16px}}
 .result:not([data-open])>div{visibility:hidden;transition:visibility 0s .5s}
 .result[data-open]>div{visibility:visible}
 
@@ -293,8 +293,8 @@ a,button{touch-action:manipulation}
 .hero .pick small{font-size:15px}
 #result{scroll-margin-top:calc(var(--head) + var(--s2))}
 /* headline lines rise into place behind a mask: always full contrast */
-h1 .ln{display:block;overflow:hidden;padding-bottom:.08em;margin-bottom:-.08em}
-h1 .ln>span{display:block}
+.h1 .ln{display:block;overflow:hidden;padding-bottom:.08em;margin-bottom:-.08em}
+.h1 .ln>span{display:block}
 /* the title strip: clear edges, a real drift */
 .ribbon-track{padding-left:6vw}
 .more.is-off{font-style:normal;text-decoration:none;color:var(--muted)}
@@ -466,8 +466,45 @@ body::before{inset:-50%}
 /* batch 6.2: the flying cover */
 .ghost{position:fixed;left:0;top:0;z-index:15;border-radius:3px;box-shadow:16px 24px 40px #000b;pointer-events:none;visibility:hidden;transform-origin:0 0;will-change:transform}
 /* batch 6.4: shelves stack as you scroll (each one slides over the one before) */
-@media (prefers-reduced-motion:no-preference){
+@media (prefers-reduced-motion:no-preference) and (min-width:901px){
  html:not(.is-still) .shelf{position:sticky;top:calc(var(--head) + 8px);background-color:var(--ink);transform-origin:50% 0}
  html:not(.is-still) .shelf:nth-of-type(3){z-index:2}html:not(.is-still) .shelf:nth-of-type(4){z-index:3}html:not(.is-still) .shelf:nth-of-type(5){z-index:4}
  html:not(.is-still) .door{position:relative;z-index:5;background-color:#16110d}
 }
+/* critic v19 r1 */
+/* "Change answer" is a quiet text button beside the heading, still 44px tall */
+.result-head .redo{font:600 16px/1 var(--body),system-ui,sans-serif;text-underline-offset:4px}
+/* the brand stays a 44px target even when the header compacts it (scale .88) */
+.brand{min-height:50px}
+/* phone rhythm: no section gap over ~1/3 screen; the NFC scene centred and larger */
+@media (max-width:900px){.sec{padding:72px 0}.threshold{padding:72px 0 56px}.workshop{padding-bottom:72px}.support{padding:72px 0}footer{padding:56px 0 32px}
+ .tapdemo{width:240px;height:166px;margin:0 auto var(--s2)}
+ footer .wrap{gap:var(--s3)}footer h2{margin-bottom:var(--s1)}footer li a{min-height:44px}
+ .sig{width:180px}}
+/* pendants sit in the night: the grey cloth fades to black around each one */
+.portal::after{content:"";position:absolute;inset:0;pointer-events:none;z-index:1;background:radial-gradient(ellipse 62% 58% at 50% 52%,transparent 52%,#07090acc 80%,#07090a 100%)}
+.portal .glint,.portal .lamp{z-index:2}
+/* no brown band at the very end */
+html{background:var(--night)}
+#nf-visits{background:var(--night)!important;padding-bottom:48px!important}
+/* the opening: a montage of the logo figures settles into four doors */
+.doors{position:relative;min-height:calc(100svh - var(--head));padding:var(--s4) 0 var(--s4);overflow:hidden;background:radial-gradient(ellipse 80% 60% at 50% 30%,#2a1f15,var(--ink) 70%)}
+.doors .wrap{position:relative;display:flex;flex-direction:column;gap:var(--s3);min-height:calc(100svh - var(--head) - var(--s8))}
+.doors-head .eyebrow{font-size:15px;color:var(--muted);letter-spacing:.02em}
+.doors-head h1{font-size:clamp(40px,4.2vw + 16px,96px);line-height:1;margin:4px 0 6px}
+.doors-head .tagline{font:400 clamp(21px,1.4vw + 14px,32px)/1.15 var(--display),Georgia,serif;color:var(--paper)}
+.doors-head .tagline span{color:var(--glow);text-shadow:0 0 22px #86ecd266}
+.door-grid{flex:1;display:grid;grid-template-columns:repeat(4,1fr);gap:var(--s2);min-height:min(56svh,520px)}
+.door-t{position:relative;display:block;border-radius:12px;overflow:hidden;background:var(--night);border:1px solid var(--line);text-decoration:none;min-height:44px;transition:transform .25s var(--ease-out),border-color .25s var(--ease-out)}
+.door-t img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
+.door-t::after{content:"";position:absolute;inset:0;background:linear-gradient(transparent 40%,#000d)}
+.door-t b{position:absolute;left:14px;right:14px;bottom:12px;z-index:1;font:400 clamp(22px,1.2vw + 14px,32px)/1.05 var(--display),Georgia,serif;color:var(--paper);text-shadow:0 2px 12px #000}
+.door-t:active{transform:scale(.98)}
+@media (hover:hover){.door-t:hover{border-color:var(--brass)}}
+.deck{position:absolute;inset:0;pointer-events:none;display:none}
+.deck img{position:absolute;left:50%;top:50%;width:min(74vw,420px);aspect-ratio:4/5;object-fit:cover;border-radius:14px;box-shadow:0 30px 60px #000c;transform-origin:50% 50%;visibility:hidden}
+.is-montage .deck{display:block}
+.is-montage .door-t{opacity:0}
+@media (max-width:900px){.door-grid{grid-template-columns:1fr 1fr;grid-template-rows:1fr 1fr;min-height:0}.doors .wrap{min-height:calc(100svh - var(--head) - var(--s6))}.doors{padding:var(--s3) 0}}
+@media (min-width:901px){.door-grid{flex:none;min-height:0;grid-template-rows:clamp(260px,calc(100svh - 420px),520px)}.doors .wrap{min-height:0}.doors{min-height:0;padding:var(--s6) 0}}
+.cur:not(.is-on){visibility:hidden}

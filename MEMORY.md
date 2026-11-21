@@ -5089,3 +5089,4 @@ The owner was (fairly) angry that each fix shipped new faults. Standing rule fro
 ## 2026-11-21: homepage v19 (maximal, phone first), NOT deployed
 - Owner asked for every possible effect; steelman + plan in docs/hub-redesign/MAXIMAL-STEELMAN.md (decisions: placed volume + Still switch, opt-in synthesised sound, no intro, no new copy). Batches 1-4 built and gated (foundations, hero, library/door/tools/header, threshold/Portals).
 - Owner: Portals from different sets (six now, one per set); optimise everything for phones (OWNER-TASTE.md). Next: batch 5 (Workshop end, footer, site layers) phone-first.
+- 2026-11-21: homepage opening is now a montage of the owner's logo figures settling into four doors (Library, Portals, Listening Room, NFC guide); critic v19 round 1 fixes applied. Not deployed.

@@ -26,7 +26,7 @@ img{display:block;max-width:100%;height:auto}
 a{color:inherit}
 button{font:inherit;color:inherit}
 h1,h2,h3{font-family:var(--display),Georgia,serif;font-weight:400;letter-spacing:-.01em;margin:0;text-wrap:balance}
-h1{font-size:var(--t-h1);line-height:1;letter-spacing:-.025em}
+h1,.h1{font-size:var(--t-h1);line-height:1;letter-spacing:-.025em}
 h2{font-size:var(--t-h2);line-height:.98;letter-spacing:-.015em}
 h3{font-size:var(--t-h3);line-height:1.05}
 p{margin:0;max-width:62ch;text-wrap:pretty}
@@ -286,7 +286,7 @@ a,button{touch-action:manipulation}
 .book-in,.book-tilt{transform-style:preserve-3d}
 .book3d .leaf{position:absolute;inset:0;transform-style:preserve-3d;backface-visibility:hidden}
 .pairs>li{position:relative}
-@media (max-width:900px) and (max-height:720px){.stage{height:150px}.book3d{width:84px}.halo{width:170px}.hero h1{font-size:38px}.lede{margin:8px 0 16px}}
+@media (max-width:900px) and (max-height:720px){.stage{height:150px}.book3d{width:84px}.halo{width:170px}.hero .h1{font-size:38px}.lede{margin:8px 0 16px}}
 .result:not([data-open])>div{visibility:hidden;transition:visibility 0s .5s}
 .result[data-open]>div{visibility:visible}
 
@@ -302,8 +302,8 @@ a,button{touch-action:manipulation}
 .hero .pick small{font-size:15px}
 #result{scroll-margin-top:calc(var(--head) + var(--s2))}
 /* headline lines rise into place behind a mask: always full contrast */
-h1 .ln{display:block;overflow:hidden;padding-bottom:.08em;margin-bottom:-.08em}
-h1 .ln>span{display:block}
+.h1 .ln{display:block;overflow:hidden;padding-bottom:.08em;margin-bottom:-.08em}
+.h1 .ln>span{display:block}
 /* the title strip: clear edges, a real drift */
 .ribbon-track{padding-left:6vw}
 .more.is-off{font-style:normal;text-decoration:none;color:var(--muted)}
@@ -475,11 +475,48 @@ body::before{inset:-50%}
 /* batch 6.2: the flying cover */
 .ghost{position:fixed;left:0;top:0;z-index:15;border-radius:3px;box-shadow:16px 24px 40px #000b;pointer-events:none;visibility:hidden;transform-origin:0 0;will-change:transform}
 /* batch 6.4: shelves stack as you scroll (each one slides over the one before) */
-@media (prefers-reduced-motion:no-preference){
+@media (prefers-reduced-motion:no-preference) and (min-width:901px){
  html:not(.is-still) .shelf{position:sticky;top:calc(var(--head) + 8px);background-color:var(--ink);transform-origin:50% 0}
  html:not(.is-still) .shelf:nth-of-type(3){z-index:2}html:not(.is-still) .shelf:nth-of-type(4){z-index:3}html:not(.is-still) .shelf:nth-of-type(5){z-index:4}
  html:not(.is-still) .door{position:relative;z-index:5;background-color:#16110d}
 }
+/* critic v19 r1 */
+/* "Change answer" is a quiet text button beside the heading, still 44px tall */
+.result-head .redo{font:600 16px/1 var(--body),system-ui,sans-serif;text-underline-offset:4px}
+/* the brand stays a 44px target even when the header compacts it (scale .88) */
+.brand{min-height:50px}
+/* phone rhythm: no section gap over ~1/3 screen; the NFC scene centred and larger */
+@media (max-width:900px){.sec{padding:72px 0}.threshold{padding:72px 0 56px}.workshop{padding-bottom:72px}.support{padding:72px 0}footer{padding:56px 0 32px}
+ .tapdemo{width:240px;height:166px;margin:0 auto var(--s2)}
+ footer .wrap{gap:var(--s3)}footer h2{margin-bottom:var(--s1)}footer li a{min-height:44px}
+ .sig{width:180px}}
+/* pendants sit in the night: the grey cloth fades to black around each one */
+.portal::after{content:"";position:absolute;inset:0;pointer-events:none;z-index:1;background:radial-gradient(ellipse 62% 58% at 50% 52%,transparent 52%,#07090acc 80%,#07090a 100%)}
+.portal .glint,.portal .lamp{z-index:2}
+/* no brown band at the very end */
+html{background:var(--night)}
+#nf-visits{background:var(--night)!important;padding-bottom:48px!important}
+/* the opening: a montage of the logo figures settles into four doors */
+.doors{position:relative;min-height:calc(100svh - var(--head));padding:var(--s4) 0 var(--s4);overflow:hidden;background:radial-gradient(ellipse 80% 60% at 50% 30%,#2a1f15,var(--ink) 70%)}
+.doors .wrap{position:relative;display:flex;flex-direction:column;gap:var(--s3);min-height:calc(100svh - var(--head) - var(--s8))}
+.doors-head .eyebrow{font-size:15px;color:var(--muted);letter-spacing:.02em}
+.doors-head h1{font-size:clamp(40px,4.2vw + 16px,96px);line-height:1;margin:4px 0 6px}
+.doors-head .tagline{font:400 clamp(21px,1.4vw + 14px,32px)/1.15 var(--display),Georgia,serif;color:var(--paper)}
+.doors-head .tagline span{color:var(--glow);text-shadow:0 0 22px #86ecd266}
+.door-grid{flex:1;display:grid;grid-template-columns:repeat(4,1fr);gap:var(--s2);min-height:min(56svh,520px)}
+.door-t{position:relative;display:block;border-radius:12px;overflow:hidden;background:var(--night);border:1px solid var(--line);text-decoration:none;min-height:44px;transition:transform .25s var(--ease-out),border-color .25s var(--ease-out)}
+.door-t img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
+.door-t::after{content:"";position:absolute;inset:0;background:linear-gradient(transparent 40%,#000d)}
+.door-t b{position:absolute;left:14px;right:14px;bottom:12px;z-index:1;font:400 clamp(22px,1.2vw + 14px,32px)/1.05 var(--display),Georgia,serif;color:var(--paper);text-shadow:0 2px 12px #000}
+.door-t:active{transform:scale(.98)}
+@media (hover:hover){.door-t:hover{border-color:var(--brass)}}
+.deck{position:absolute;inset:0;pointer-events:none;display:none}
+.deck img{position:absolute;left:50%;top:50%;width:min(74vw,420px);aspect-ratio:4/5;object-fit:cover;border-radius:14px;box-shadow:0 30px 60px #000c;transform-origin:50% 50%;visibility:hidden}
+.is-montage .deck{display:block}
+.is-montage .door-t{opacity:0}
+@media (max-width:900px){.door-grid{grid-template-columns:1fr 1fr;grid-template-rows:1fr 1fr;min-height:0}.doors .wrap{min-height:calc(100svh - var(--head) - var(--s6))}.doors{padding:var(--s3) 0}}
+@media (min-width:901px){.door-grid{flex:none;min-height:0;grid-template-rows:clamp(260px,calc(100svh - 420px),520px)}.doors .wrap{min-height:0}.doors{min-height:0;padding:var(--s6) 0}}
+.cur:not(.is-on){visibility:hidden}
 </style>
 </head><body>
 <a class="skip" href="#main">Skip to the books</a>
@@ -490,8 +527,12 @@ body::before{inset:-50%}
 <div class="sheet" id="sheet" hidden><div class="sheet-panel" role="dialog" aria-modal="true" aria-label="Menu"><a href="#library">Books</a><a href="#tools">Tools</a><a href="#music">Music</a><a href="#art">Art</a><a href="#guide">NFC guide</a><a href="/topics">Topics A to Z</a><a href="#support">Support the work</a><div class="sheet-row"><button class="btn sheet-sound" id="sheet-still" type="button" aria-pressed="false"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="10"/><line x1="10" x2="10" y1="15" y2="9"/><line x1="14" x2="14" y1="15" y2="9"/></svg>Still</button><button class="btn sheet-sound" id="sheet-sound" type="button" aria-pressed="false"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M11 4.702a.705.705 0 0 0-1.203-.498L6.413 7.587A1.4 1.4 0 0 1 5.416 8H3a1 1 0 0 0-1 1v6a1 1 0 0 0 1 1h2.416a1.4 1.4 0 0 1 .997.413l3.383 3.384A.705.705 0 0 0 11 19.298z"/><g class="on"><path d="M16 9a5 5 0 0 1 0 6"/><path d="M19.364 18.364a9 9 0 0 0 0-12.728"/></g><g class="off"><line x1="22" x2="16" y1="9" y2="15"/><line x1="16" x2="22" y1="9" y2="15"/></g></svg>Sound</button></div><button class="btn sheet-close" id="sheet-close" type="button">Close</button></div></div>
 <div class="ribbon" aria-hidden="true"><div class="ribbon-track"><span>The Long After</span><span>The Silence</span><span>At Will</span><span>The Repair</span><span>The Loop</span><span>The Weighing</span><span>The Slow Take</span><span>The Sovereign Divine Feminine</span><span>The Long After</span><span>The Silence</span><span>At Will</span><span>The Repair</span><span>The Loop</span><span>The Weighing</span><span>The Slow Take</span><span>The Sovereign Divine Feminine</span></div></div>
 <main id="main">
-<section class="hero" id="start-here" data-nav="books"><span class="anchor" id="top"></span><div class="wrap"><div>
-<h1><span class="ln"><span>Free books for</span></span> <span class="ln"><span>the moment you</span></span> <span class="ln"><span>start to wonder.</span></span></h1>
+<section class="doors" id="welcome" aria-labelledby="welcome-title"><span class="anchor" id="top"></span><div class="wrap">
+<div class="doors-head"><p class="eyebrow">Shae Stovell</p><h1 id="welcome-title">Noble Father Creations</h1><p class="tagline">Worn in the light. <span>Alive in the dark.</span></p></div>
+<nav class="door-grid" aria-label="Where to go"><a class="door-t" href="#start-here" data-logo="truth"><img src="/media/v18/logo-truth-560.webp" width="640" height="640" alt="" style="object-position:30% 50%" decoding="async" fetchpriority="high"><b>The Library</b></a><a class="door-t" href="#art" data-logo="fractal"><img src="/media/v18/logo-fractal-560.webp" width="640" height="640" alt="" style="object-position:50% 40%" decoding="async"><b>The Portals</b></a><a class="door-t" href="#music" data-logo="cosmic"><img src="/media/v18/logo-cosmic-560.webp" width="640" height="640" alt="" style="object-position:50% 40%" decoding="async"><b>The Listening Room</b></a><a class="door-t" href="#guide" data-logo="wifi"><img src="/media/v18/logo-wifi-560.webp" width="640" height="640" alt="" style="object-position:50% 45%" decoding="async"><b>NFC guide</b></a></nav>
+<div class="deck" aria-hidden="true"><img src="/media/v18/logo-cosmic-560.webp" data-logo="cosmic" alt="" width="640" height="640" style="object-position:50% 40%" decoding="async"><img src="/media/v18/logo-wifi-560.webp" data-logo="wifi" alt="" width="640" height="640" style="object-position:50% 45%" decoding="async"><img src="/media/v18/logo-green-560.webp" data-logo="green" alt="" width="640" height="640" style="object-position:50% 40%" decoding="async"><img src="/media/v18/logo-earth-560.webp" data-logo="earth" alt="" width="640" height="640" style="object-position:50% 30%" decoding="async"><img src="/media/v18/logo-fractal-560.webp" data-logo="fractal" alt="" width="640" height="640" style="object-position:50% 40%" decoding="async"><img src="/media/v18/logo-angel-560.webp" data-logo="angel" alt="" width="640" height="640" style="object-position:50% 38%" decoding="async"><img src="/media/v18/logo-headphones-560.webp" data-logo="headphones" alt="" width="640" height="640" style="object-position:50% 40%" decoding="async"><img src="/media/v18/logo-truth-560.webp" data-logo="truth" alt="" width="640" height="640" style="object-position:30% 50%" decoding="async"></div></div></section>
+<section class="hero" id="start-here" data-nav="books"><div class="wrap"><div>
+<h2 class="h1"><span class="ln"><span>Free books for</span></span> <span class="ln"><span>the moment you</span></span> <span class="ln"><span>start to wonder.</span></span></h2>
 <p class="lede">Field guides on manipulation and control, written plainly by Shae Stovell. Free to read, nothing to sign up for.</p>
 <p class="ask" id="ask">What's happening?</p>
 <div class="chips" role="group" aria-labelledby="ask"><button class="chip" type="button" data-s="close" aria-pressed="false">Someone close to me</button><button class="chip" type="button" data-s="work" aria-pressed="false">Work or money</button><button class="chip" type="button" data-s="family" aria-pressed="false">My kids or my parents</button><button class="chip" type="button" data-s="festival" aria-pressed="false">At a festival</button><button class="chip" type="button" data-s="looking" aria-pressed="false">Just looking</button></div>
@@ -1074,7 +1115,7 @@ body::before{inset:-50%}
   // batch 6.2: as you scroll down from the hero, a copy of the cover flies and lands on its own place on the shelf
   function flight() {
     const ghost = document.createElement('img'); ghost.className = 'ghost'; ghost.alt = ''; ghost.setAttribute('aria-hidden', 'true'); document.body.appendChild(ghost);
-    let tgt = null, tgtImg = null, src = '';
+    let tgt = null, tgtImg = null, src = ''; const desk = matchMedia('(min-width: 901px)');
     const pick = () => {
       if (heroImg.getAttribute('src') === src) return tgt; src = heroImg.getAttribute('src');
       const bk = D.books.find(b => b.imgLg === src); tgt = bk ? $(`.shelf .bk[href="/${bk.slug}"] .cov`) : null; tgtImg = tgt && $('img', tgt);
@@ -1087,6 +1128,10 @@ body::before{inset:-50%}
       const p = s.progress;
       if (p <= 0 || p >= 1 || !near()) { show(false); return; }
       const a = book.getBoundingClientRect(), b = tgt.getBoundingClientRect(), e = gsap.parseEase('power2.inOut')(p);
+      if (!desk.matches && (a.bottom > 0 || b.top > innerHeight)) { show(false); return; }
+      const chips = $('.chips').getBoundingClientRect();
+      if (chips.bottom > 0 && chips.top < innerHeight && !desk.matches) { show(false); return; }
+      ghost.style.opacity = Math.min(1, p * 6).toFixed(2);
       const w = a.width + (b.width - a.width) * e, x = a.left + (b.left - a.left) * e, y = a.top + (b.top - a.top) * e;
       ghost.style.width = b.width + 'px'; ghost.style.height = b.height + 'px';
       ghost.style.transform = `translate(${x}px,${y}px) scale(${w / b.width}) rotate(${(-6 * (1 - e)).toFixed(2)}deg)`;
@@ -1125,26 +1170,52 @@ body::before{inset:-50%}
     const motion = ctx.conditions.motion && !still, entrance = motion && firstBuild;
     const cleanups = [];
     if (entrance) {
-      // the headline is set letter by letter like wet ink: each letter rises into its line and dries from brass to paper
-      const h1 = $('h1'), lns = $$('h1 .ln');
+      // the opening montage: the logo figures are dealt one after another, then the four that stand for each door fly into place.
+      // Under five seconds, any tap, scroll, key or focus skips straight to the doors.
+      const doorsEl = $('.doors'), deckImgs = $$('.deck img'), tiles = $$('.door-t');
+      // a slow phone that only gets here late has already painted the doors: never replay over them, just keep the doors
+      const late = performance.now() > 1400 || scrollY > 40;
+      if (!late) doorsEl.classList.add('is-montage');
+      const mt = gsap.timeline({ paused: late, onComplete: () => { doorsEl.classList.remove('is-montage'); deckImgs.forEach(i => gsap.set(i, { clearProps: 'all' })); off(); } });
+      // the first figure is on screen at once (it is the page's largest picture); each later one lands a touch smaller, so none outgrows it
+      gsap.set(deckImgs[0], { xPercent: -50, yPercent: -50, rotation: -6, autoAlpha: 1 });
+      deckImgs.slice(1).forEach((im, n) => { const k = n + 1; mt.fromTo(im, { xPercent: -50, yPercent: -46, scale: .98, rotation: k % 2 ? 4 : -4, autoAlpha: 0 },
+        { yPercent: -50, scale: .96, rotation: k % 2 ? 2.5 : -2.5, autoAlpha: 1, duration: .32, ease: 'power3.out' }, .3 + (k - 1) * .38); });
+      mt.add(() => {
+        const box = doorsEl.getBoundingClientRect();
+        tiles.forEach(t => {
+          const im = $(`.deck img[data-logo="${t.dataset.logo}"]`), r = t.getBoundingClientRect(), ir = im.getBoundingClientRect();
+          gsap.to(im, { x: r.left + r.width / 2 - (ir.left + ir.width / 2), y: r.top + r.height / 2 - (ir.top + ir.height / 2), scaleX: r.width / ir.width * (im._gsap.scaleX || 1), scaleY: r.height / ir.height * (im._gsap.scaleY || 1), rotation: 0, borderRadius: 12, duration: .75, ease: 'expo.inOut' });
+        });
+        deckImgs.filter(im => !tiles.some(t => t.dataset.logo === im.dataset.logo)).forEach(im => gsap.to(im, { autoAlpha: 0, scale: .9, duration: .4 }));
+      }, '+=.15');
+      mt.to({}, { duration: .8 });
+      mt.from('.doors-head > *', { y: 24, opacity: 0, duration: .7, stagger: .08, ease: 'expo.out' }, '-=.9');
+      const skip = () => { if (mt.progress() < 1) mt.progress(1); };
+      if (late) mt.progress(1);
+      const evs = ['pointerdown', 'wheel', 'keydown', 'touchstart'];
+      const off = () => { evs.forEach(ev => removeEventListener(ev, skip)); removeEventListener('scroll', skip); doorsEl.removeEventListener('focusin', skip); };
+      evs.forEach(ev => addEventListener(ev, skip, { passive: true })); addEventListener('scroll', skip, { passive: true }); doorsEl.addEventListener('focusin', skip);
+      cleanups.push(() => { mt.progress(1); off(); });
+      // the book's own entrance now plays when the Library opening scrolls into view
+      const h1 = $('.hero .h1'), lns = $$('.hero .h1 .ln');
       h1.setAttribute('aria-label', h1.textContent.replace(/\s+/g, ' ').trim()); lns.forEach(l => l.setAttribute('aria-hidden', 'true'));
-      const hs = SplitText.create('h1 .ln>span', { type: 'words,chars', aria: 'none' });
+      const hs = SplitText.create('.hero .h1 .ln>span', { type: 'words,chars', aria: 'none' });
       const unsplit = () => { hs.revert(); h1.removeAttribute('aria-label'); lns.forEach(l => l.removeAttribute('aria-hidden')); };
       cleanups.push(unsplit);
-      gsap.timeline({ delay: .15, onComplete: unsplit })
-        .from(hs.chars, { yPercent: 115, duration: .9, stagger: .022, ease: 'expo.out' })
-        .from(hs.chars, { color: '#e7c77d', duration: 1.3, stagger: .022, ease: 'power1.in' }, .25);
-      gsap.from('.lede, .ask, .chips', { y: 18, duration: .8, stagger: .1, ease: 'expo.out', delay: .7 });
-      gsap.from('.book-in', { y: -70, opacity: 0, duration: 1.1, ease: 'expo.out', delay: .5 });
-      gsap.from('.book-tilt', { rotationY: -34, duration: 1.4, ease: 'expo.out', delay: .5 });
-      // the cover lifts slightly, as if about to open, then settles: the scroll does the real opening
-      gsap.fromTo('.book-tilt', { rotationX: 0 }, { rotationX: -6, duration: .55, ease: 'power2.inOut', delay: 1.6, yoyo: true, repeat: 1 });
+      const ent = gsap.timeline({ paused: true, onComplete: unsplit })
+        .from(hs.chars, { yPercent: 115, duration: .9, stagger: .022, ease: 'expo.out' }, 0)
+        .from(hs.chars, { color: '#e7c77d', duration: 1.3, stagger: .022, ease: 'power1.in' }, .25)
+        .from('.lede, .ask, .chips', { y: 18, duration: .8, stagger: .1, ease: 'expo.out' }, .55)
+        .from('.book-in', { y: -70, opacity: 0, duration: 1.1, ease: 'expo.out' }, .35)
+        .from('.book-tilt', { rotationY: -34, duration: 1.4, ease: 'expo.out' }, .35)
+        .from('.floor', { opacity: 0, scale: .4, duration: 1.1, ease: 'expo.out' }, .35)
+        .fromTo('.book-tilt', { rotationX: 0 }, { rotationX: -6, duration: .55, ease: 'power2.inOut', yoyo: true, repeat: 1 }, 1.45)
+        .to('.book-in', { y: -10, duration: 1.1, ease: 'sine.inOut', yoyo: true, repeat: 3 }, 1.55)
+        .to('.floor', { scale: .82, opacity: .65, duration: 1.1, ease: 'sine.inOut', yoyo: true, repeat: 3 }, 1.55);
+      ScrollTrigger.create({ trigger: '.hero', start: 'top 75%', once: true, onEnter: () => ent.play() });
       // the title strip drifts in once on arrival (4 s, then it follows the scroll)
       gsap.from('.ribbon-track', { x: 220, duration: 4, ease: 'power2.out' });
-      gsap.to('.book-in', { y: -10, duration: 1.1, ease: 'sine.inOut', yoyo: true, repeat: 3, delay: 1.7 });
-      // the shadow on the floor tightens as the book rises, and comes in with it
-      gsap.from('.floor', { opacity: 0, scale: .4, duration: 1.1, ease: 'expo.out', delay: .5 });
-      gsap.to('.floor', { scale: .82, opacity: .65, duration: 1.1, ease: 'sine.inOut', yoyo: true, repeat: 3, delay: 1.7 });
       // shelf books arrive one at a time, once; hidden before the first paint of the shelf so they never blink
       gsap.set('.shelf .bk', { opacity: 0, y: 28, rotate: -1.5 });
       ScrollTrigger.batch('.shelf .bk', { start: 'top 92%', once: true,
@@ -1232,13 +1303,14 @@ body::before{inset:-50%}
         if (castIco) { const ps = $$('path', castIco); gsap.fromTo(ps, { drawSVG: '0%' }, { drawSVG: '100%', duration: .9, stagger: .15, ease: 'power2.inOut', delay: .2 }); }
       } });
       cleanups.push(flight());
+      if (!matchMedia('(min-width: 901px)').matches) $$('.shelf').forEach(sh => gsap.fromTo(sh, { y: 40, scale: .97 }, { y: 0, scale: 1, ease: 'none', scrollTrigger: { trigger: sh, start: 'top 100%', end: 'top 60%', scrub: .4 } }));
       if (fine) cleanups.push(glide());
       // stacking shelves: the shelf being covered sinks back a little as the next one slides over it
       const shelfEls = $$('.shelf');
-      shelfEls.slice(0, -1).forEach((sh, i) => gsap.fromTo(sh, { scale: 1, filter: 'brightness(1)' }, { scale: .95, filter: 'brightness(.55)', ease: 'none',
-        scrollTrigger: { trigger: shelfEls[i + 1], start: 'top 85%', end: () => 'top ' + ($('.top').offsetHeight + 8) + 'px', scrub: .3 } }));
+      if (matchMedia('(min-width: 901px)').matches) shelfEls.slice(0, -1).forEach((sh, i) => gsap.fromTo(sh, { scale: 1, filter: 'brightness(1)' }, { scale: .95, filter: 'brightness(.55)', ease: 'none',
+        scrollTrigger: { trigger: shelfEls[i + 1], start: 'top 40%', end: () => 'top ' + ($('.top').offsetHeight + 8) + 'px', scrub: .3 } }));
       // page turn: Tools, The Listening Room and the support panel arrive with a diagonal edge sweeping down, like a turning page
-      $$('#tools, #music, #support').forEach(sec => gsap.fromTo(sec, { clipPath: 'polygon(0% 0%, 100% 0%, 100% 0%, 0% 35%)' }, { clipPath: 'polygon(0% 0%, 100% 0%, 100% 100%, 0% 135%)', ease: 'none',
+      if (matchMedia('(min-width: 901px)').matches) $$('#tools, #music, #support').forEach(sec => gsap.fromTo(sec, { clipPath: 'polygon(0% 0%, 100% 0%, 100% 0%, 0% 35%)' }, { clipPath: 'polygon(0% 0%, 100% 0%, 100% 100%, 0% 135%)', ease: 'none',
         scrollTrigger: { trigger: sec, start: 'top 95%', end: 'top 25%', scrub: .4, onLeave: () => gsap.set(sec, { clipPath: 'none' }), onEnterBack: () => {} } }));
       // section titles rise line by line into a mask as they arrive (once), on every screen
       $$('.sec-head h2, .workshop h3, .support h2').forEach(h => {
@@ -1286,7 +1358,7 @@ body::before{inset:-50%}
     gsap.fromTo('.sig', { '--sig': '100%' }, { '--sig': '0%', ease: 'none', scrollTrigger: { trigger: 'footer', start: 'top 95%', end: 'top 50%', scrub: .5 } });
     gsap.to('.motif', { rotation: 360, ease: 'none', scrollTrigger: { trigger: document.documentElement, start: 'top top', end: 'bottom bottom', scrub: 1 } });
     const ls = SplitText.create('.lede', { type: 'words', aria: 'none' });
-    gsap.fromTo(ls.words, { color: '#cbbda4' }, { color: '#f6eedf', stagger: .1, ease: 'none', scrollTrigger: { trigger: '.hero', start: 'top top', end: '35% top', scrub: .5 } });
+    gsap.fromTo(ls.words, { color: '#cbbda4' }, { color: '#f6eedf', stagger: .1, ease: 'none', scrollTrigger: { trigger: '.hero', start: 'top 60%', end: '30% top', scrub: .5 } });
     gsap.to('.ribbon-track', { xPercent: -45, ease: 'none', scrollTrigger: { trigger: document.body, start: 'top top', end: () => '+=' + innerHeight * 1.6, scrub: .8 } });
     // the spine catches more light as the book turns toward the reader
     gsap.fromTo('.book3d', { rotateY: -30, rotateX: 7, rotateZ: -3, '--spl': .75 }, { rotateY: -8, rotateX: 2, rotateZ: 0, '--spl': 1.25, ease: 'none', immediateRender: false,

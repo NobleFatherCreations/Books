@@ -77,6 +77,10 @@ for (const [name, w, h] of [['375', 375, 812], ['1440', 1440, 900]]) {
   small.length ? fail('tap targets under 44px: ' + small.slice(0, 6).join(' | ')) : ok('every tap target is at least 44px');
   const overflow = await page.evaluate(() => document.documentElement.scrollWidth - innerWidth);
   overflow > 1 ? fail(`horizontal overflow ${overflow}px`) : ok('no horizontal overflow');
+  // owner 2026-11-21: "the first thing people see ... doesn't assume they are there for a book": the first screen is the name and four doors
+  const first = await page.evaluate(() => { scrollTo({ top: 0, behavior: 'instant' }); const h = document.querySelectorAll('h1'); const t = [...document.querySelectorAll('.door-grid .door-t')].map((a) => [a.textContent.trim(), a.getBoundingClientRect().top < innerHeight]);
+    return { h1: h.length === 1 ? h[0].textContent.trim() : h.length, doors: t }; });
+  first.h1 === 'Noble Father Creations' && first.doors.length === 4 && first.doors.every((x) => x[1]) ? ok('first screen: the name and four doors (Library, Portals, Listening Room, NFC guide)') : fail('first screen: ' + JSON.stringify(first));
   // owner 2026-11-21: "pull portal pendants from different sets at least so they aren't all the same"
   const sets = await page.$$eval('.portal', (f) => f.map((x) => x.dataset.set || ''));
   const distinct = new Set(sets.filter(Boolean)).size;

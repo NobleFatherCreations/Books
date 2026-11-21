@@ -295,5 +295,69 @@
    "url": "https://cash.app/$ShaeStovell"
   }
  ],
- "tiktok": "https://www.tiktok.com/@noblefathercreatorsource"
+ "tiktok": "https://www.tiktok.com/@noblefathercreatorsource",
+ "logos": [
+  {
+   "id": "cosmic",
+   "file": "logo-cosmic.png",
+   "pos": "50% 40%"
+  },
+  {
+   "id": "wifi",
+   "file": "logo-wifi.jpg",
+   "pos": "50% 45%"
+  },
+  {
+   "id": "green",
+   "file": "logo-green.jpg",
+   "pos": "50% 40%"
+  },
+  {
+   "id": "earth",
+   "file": "logo-earth.jpg",
+   "pos": "50% 30%"
+  },
+  {
+   "id": "fractal",
+   "file": "logo-fractal.jpg",
+   "pos": "50% 40%"
+  },
+  {
+   "id": "angel",
+   "file": "logo-angel.jpg",
+   "pos": "50% 38%"
+  },
+  {
+   "id": "headphones",
+   "file": "logo-headphones.png",
+   "pos": "50% 40%"
+  },
+  {
+   "id": "truth",
+   "file": "logo-truth.jpg",
+   "pos": "30% 50%"
+  }
+ ],
+ "doors": [
+  {
+   "label": "The Library",
+   "href": "#start-here",
+   "logo": "truth"
+  },
+  {
+   "label": "The Portals",
+   "href": "#art",
+   "logo": "fractal"
+  },
+  {
+   "label": "The Listening Room",
+   "href": "#music",
+   "logo": "cosmic"
+  },
+  {
+   "label": "NFC guide",
+   "href": "#guide",
+   "logo": "wifi"
+  }
+ ]
 }

@@ -481,7 +481,7 @@
   // batch 6.2: as you scroll down from the hero, a copy of the cover flies and lands on its own place on the shelf
   function flight() {
     const ghost = document.createElement('img'); ghost.className = 'ghost'; ghost.alt = ''; ghost.setAttribute('aria-hidden', 'true'); document.body.appendChild(ghost);
-    let tgt = null, tgtImg = null, src = '';
+    let tgt = null, tgtImg = null, src = ''; const desk = matchMedia('(min-width: 901px)');
     const pick = () => {
       if (heroImg.getAttribute('src') === src) return tgt; src = heroImg.getAttribute('src');
       const bk = D.books.find(b => b.imgLg === src); tgt = bk ? $(`.shelf .bk[href="/${bk.slug}"] .cov`) : null; tgtImg = tgt && $('img', tgt);
@@ -494,6 +494,10 @@
       const p = s.progress;
       if (p <= 0 || p >= 1 || !near()) { show(false); return; }
       const a = book.getBoundingClientRect(), b = tgt.getBoundingClientRect(), e = gsap.parseEase('power2.inOut')(p);
+      if (!desk.matches && (a.bottom > 0 || b.top > innerHeight)) { show(false); return; }
+      const chips = $('.chips').getBoundingClientRect();
+      if (chips.bottom > 0 && chips.top < innerHeight && !desk.matches) { show(false); return; }
+      ghost.style.opacity = Math.min(1, p * 6).toFixed(2);
       const w = a.width + (b.width - a.width) * e, x = a.left + (b.left - a.left) * e, y = a.top + (b.top - a.top) * e;
       ghost.style.width = b.width + 'px'; ghost.style.height = b.height + 'px';
       ghost.style.transform = `translate(${x}px,${y}px) scale(${w / b.width}) rotate(${(-6 * (1 - e)).toFixed(2)}deg)`;
@@ -532,26 +536,52 @@
     const motion = ctx.conditions.motion && !still, entrance = motion && firstBuild;
     const cleanups = [];
     if (entrance) {
-      // the headline is set letter by letter like wet ink: each letter rises into its line and dries from brass to paper
-      const h1 = $('h1'), lns = $$('h1 .ln');
+      // the opening montage: the logo figures are dealt one after another, then the four that stand for each door fly into place.
+      // Under five seconds, any tap, scroll, key or focus skips straight to the doors.
+      const doorsEl = $('.doors'), deckImgs = $$('.deck img'), tiles = $$('.door-t');
+      // a slow phone that only gets here late has already painted the doors: never replay over them, just keep the doors
+      const late = performance.now() > 1400 || scrollY > 40;
+      if (!late) doorsEl.classList.add('is-montage');
+      const mt = gsap.timeline({ paused: late, onComplete: () => { doorsEl.classList.remove('is-montage'); deckImgs.forEach(i => gsap.set(i, { clearProps: 'all' })); off(); } });
+      // the first figure is on screen at once (it is the page's largest picture); each later one lands a touch smaller, so none outgrows it
+      gsap.set(deckImgs[0], { xPercent: -50, yPercent: -50, rotation: -6, autoAlpha: 1 });
+      deckImgs.slice(1).forEach((im, n) => { const k = n + 1; mt.fromTo(im, { xPercent: -50, yPercent: -46, scale: .98, rotation: k % 2 ? 4 : -4, autoAlpha: 0 },
+        { yPercent: -50, scale: .96, rotation: k % 2 ? 2.5 : -2.5, autoAlpha: 1, duration: .32, ease: 'power3.out' }, .3 + (k - 1) * .38); });
+      mt.add(() => {
+        const box = doorsEl.getBoundingClientRect();
+        tiles.forEach(t => {
+          const im = $(`.deck img[data-logo="${t.dataset.logo}"]`), r = t.getBoundingClientRect(), ir = im.getBoundingClientRect();
+          gsap.to(im, { x: r.left + r.width / 2 - (ir.left + ir.width / 2), y: r.top + r.height / 2 - (ir.top + ir.height / 2), scaleX: r.width / ir.width * (im._gsap.scaleX || 1), scaleY: r.height / ir.height * (im._gsap.scaleY || 1), rotation: 0, borderRadius: 12, duration: .75, ease: 'expo.inOut' });
+        });
+        deckImgs.filter(im => !tiles.some(t => t.dataset.logo === im.dataset.logo)).forEach(im => gsap.to(im, { autoAlpha: 0, scale: .9, duration: .4 }));
+      }, '+=.15');
+      mt.to({}, { duration: .8 });
+      mt.from('.doors-head > *', { y: 24, opacity: 0, duration: .7, stagger: .08, ease: 'expo.out' }, '-=.9');
+      const skip = () => { if (mt.progress() < 1) mt.progress(1); };
+      if (late) mt.progress(1);
+      const evs = ['pointerdown', 'wheel', 'keydown', 'touchstart'];
+      const off = () => { evs.forEach(ev => removeEventListener(ev, skip)); removeEventListener('scroll', skip); doorsEl.removeEventListener('focusin', skip); };
+      evs.forEach(ev => addEventListener(ev, skip, { passive: true })); addEventListener('scroll', skip, { passive: true }); doorsEl.addEventListener('focusin', skip);
+      cleanups.push(() => { mt.progress(1); off(); });
+      // the book's own entrance now plays when the Library opening scrolls into view
+      const h1 = $('.hero .h1'), lns = $$('.hero .h1 .ln');
       h1.setAttribute('aria-label', h1.textContent.replace(/\s+/g, ' ').trim()); lns.forEach(l => l.setAttribute('aria-hidden', 'true'));
-      const hs = SplitText.create('h1 .ln>span', { type: 'words,chars', aria: 'none' });
+      const hs = SplitText.create('.hero .h1 .ln>span', { type: 'words,chars', aria: 'none' });
       const unsplit = () => { hs.revert(); h1.removeAttribute('aria-label'); lns.forEach(l => l.removeAttribute('aria-hidden')); };
       cleanups.push(unsplit);
-      gsap.timeline({ delay: .15, onComplete: unsplit })
-        .from(hs.chars, { yPercent: 115, duration: .9, stagger: .022, ease: 'expo.out' })
-        .from(hs.chars, { color: '#e7c77d', duration: 1.3, stagger: .022, ease: 'power1.in' }, .25);
-      gsap.from('.lede, .ask, .chips', { y: 18, duration: .8, stagger: .1, ease: 'expo.out', delay: .7 });
-      gsap.from('.book-in', { y: -70, opacity: 0, duration: 1.1, ease: 'expo.out', delay: .5 });
-      gsap.from('.book-tilt', { rotationY: -34, duration: 1.4, ease: 'expo.out', delay: .5 });
-      // the cover lifts slightly, as if about to open, then settles: the scroll does the real opening
-      gsap.fromTo('.book-tilt', { rotationX: 0 }, { rotationX: -6, duration: .55, ease: 'power2.inOut', delay: 1.6, yoyo: true, repeat: 1 });
+      const ent = gsap.timeline({ paused: true, onComplete: unsplit })
+        .from(hs.chars, { yPercent: 115, duration: .9, stagger: .022, ease: 'expo.out' }, 0)
+        .from(hs.chars, { color: '#e7c77d', duration: 1.3, stagger: .022, ease: 'power1.in' }, .25)
+        .from('.lede, .ask, .chips', { y: 18, duration: .8, stagger: .1, ease: 'expo.out' }, .55)
+        .from('.book-in', { y: -70, opacity: 0, duration: 1.1, ease: 'expo.out' }, .35)
+        .from('.book-tilt', { rotationY: -34, duration: 1.4, ease: 'expo.out' }, .35)
+        .from('.floor', { opacity: 0, scale: .4, duration: 1.1, ease: 'expo.out' }, .35)
+        .fromTo('.book-tilt', { rotationX: 0 }, { rotationX: -6, duration: .55, ease: 'power2.inOut', yoyo: true, repeat: 1 }, 1.45)
+        .to('.book-in', { y: -10, duration: 1.1, ease: 'sine.inOut', yoyo: true, repeat: 3 }, 1.55)
+        .to('.floor', { scale: .82, opacity: .65, duration: 1.1, ease: 'sine.inOut', yoyo: true, repeat: 3 }, 1.55);
+      ScrollTrigger.create({ trigger: '.hero', start: 'top 75%', once: true, onEnter: () => ent.play() });
       // the title strip drifts in once on arrival (4 s, then it follows the scroll)
       gsap.from('.ribbon-track', { x: 220, duration: 4, ease: 'power2.out' });
-      gsap.to('.book-in', { y: -10, duration: 1.1, ease: 'sine.inOut', yoyo: true, repeat: 3, delay: 1.7 });
-      // the shadow on the floor tightens as the book rises, and comes in with it
-      gsap.from('.floor', { opacity: 0, scale: .4, duration: 1.1, ease: 'expo.out', delay: .5 });
-      gsap.to('.floor', { scale: .82, opacity: .65, duration: 1.1, ease: 'sine.inOut', yoyo: true, repeat: 3, delay: 1.7 });
       // shelf books arrive one at a time, once; hidden before the first paint of the shelf so they never blink
       gsap.set('.shelf .bk', { opacity: 0, y: 28, rotate: -1.5 });
       ScrollTrigger.batch('.shelf .bk', { start: 'top 92%', once: true,
@@ -639,13 +669,14 @@
         if (castIco) { const ps = $$('path', castIco); gsap.fromTo(ps, { drawSVG: '0%' }, { drawSVG: '100%', duration: .9, stagger: .15, ease: 'power2.inOut', delay: .2 }); }
       } });
       cleanups.push(flight());
+      if (!matchMedia('(min-width: 901px)').matches) $$('.shelf').forEach(sh => gsap.fromTo(sh, { y: 40, scale: .97 }, { y: 0, scale: 1, ease: 'none', scrollTrigger: { trigger: sh, start: 'top 100%', end: 'top 60%', scrub: .4 } }));
       if (fine) cleanups.push(glide());
       // stacking shelves: the shelf being covered sinks back a little as the next one slides over it
       const shelfEls = $$('.shelf');
-      shelfEls.slice(0, -1).forEach((sh, i) => gsap.fromTo(sh, { scale: 1, filter: 'brightness(1)' }, { scale: .95, filter: 'brightness(.55)', ease: 'none',
-        scrollTrigger: { trigger: shelfEls[i + 1], start: 'top 85%', end: () => 'top ' + ($('.top').offsetHeight + 8) + 'px', scrub: .3 } }));
+      if (matchMedia('(min-width: 901px)').matches) shelfEls.slice(0, -1).forEach((sh, i) => gsap.fromTo(sh, { scale: 1, filter: 'brightness(1)' }, { scale: .95, filter: 'brightness(.55)', ease: 'none',
+        scrollTrigger: { trigger: shelfEls[i + 1], start: 'top 40%', end: () => 'top ' + ($('.top').offsetHeight + 8) + 'px', scrub: .3 } }));
       // page turn: Tools, The Listening Room and the support panel arrive with a diagonal edge sweeping down, like a turning page
-      $$('#tools, #music, #support').forEach(sec => gsap.fromTo(sec, { clipPath: 'polygon(0% 0%, 100% 0%, 100% 0%, 0% 35%)' }, { clipPath: 'polygon(0% 0%, 100% 0%, 100% 100%, 0% 135%)', ease: 'none',
+      if (matchMedia('(min-width: 901px)').matches) $$('#tools, #music, #support').forEach(sec => gsap.fromTo(sec, { clipPath: 'polygon(0% 0%, 100% 0%, 100% 0%, 0% 35%)' }, { clipPath: 'polygon(0% 0%, 100% 0%, 100% 100%, 0% 135%)', ease: 'none',
         scrollTrigger: { trigger: sec, start: 'top 95%', end: 'top 25%', scrub: .4, onLeave: () => gsap.set(sec, { clipPath: 'none' }), onEnterBack: () => {} } }));
       // section titles rise line by line into a mask as they arrive (once), on every screen
       $$('.sec-head h2, .workshop h3, .support h2').forEach(h => {
@@ -693,7 +724,7 @@
     gsap.fromTo('.sig', { '--sig': '100%' }, { '--sig': '0%', ease: 'none', scrollTrigger: { trigger: 'footer', start: 'top 95%', end: 'top 50%', scrub: .5 } });
     gsap.to('.motif', { rotation: 360, ease: 'none', scrollTrigger: { trigger: document.documentElement, start: 'top top', end: 'bottom bottom', scrub: 1 } });
     const ls = SplitText.create('.lede', { type: 'words', aria: 'none' });
-    gsap.fromTo(ls.words, { color: '#cbbda4' }, { color: '#f6eedf', stagger: .1, ease: 'none', scrollTrigger: { trigger: '.hero', start: 'top top', end: '35% top', scrub: .5 } });
+    gsap.fromTo(ls.words, { color: '#cbbda4' }, { color: '#f6eedf', stagger: .1, ease: 'none', scrollTrigger: { trigger: '.hero', start: 'top 60%', end: '30% top', scrub: .5 } });
     gsap.to('.ribbon-track', { xPercent: -45, ease: 'none', scrollTrigger: { trigger: document.body, start: 'top top', end: () => '+=' + innerHeight * 1.6, scrub: .8 } });
     // the spine catches more light as the book turns toward the reader
     gsap.fromTo('.book3d', { rotateY: -30, rotateX: 7, rotateZ: -3, '--spl': .75 }, { rotateY: -8, rotateX: 2, rotateZ: 0, '--spl': 1.25, ease: 'none', immediateRender: false,

@@ -76,6 +76,9 @@ def main():
         b["imgLg"] = webp(src, b["slug"], 760)[0]
     for t in d["tools"]:
         t["img"], t["w"], t["h"] = webp(ROOT / "content/covers/signed" / t["cover"], t["slug"], 480)
+    for lg in d["logos"]:
+        lg["img"] = webp(SRC / "img" / lg["file"], "logo-" + lg["id"], 560, 64)[0]
+    logo_by = {lg["id"]: lg for lg in d["logos"]}
     for i, p in enumerate(d["portals"]):
         p["dayImg"] = webp(SRC / "img" / p["day"], f"portal-{i}-day", 720)[0]
         p["nightImg"] = webp(SRC / "img" / p["night"], f"portal-{i}-night", 720)[0]
@@ -136,6 +139,8 @@ def main():
     navhtml = "".join(f'<a href="{h}" data-nav="{k}">{t}</a>' for k, h, t in nav)
     sheet_links = "".join(f'<a href="{h}">{t}</a>' for k, h, t in nav) + '<a href="/topics">Topics A to Z</a><a href="#support">Support the work</a>'
 
+    door_tiles = "".join(f'<a class="door-t" href="{dr["href"]}" data-logo="{dr["logo"]}"><img src="{logo_by[dr["logo"]]["img"]}" width="640" height="640" alt="" style="object-position:{logo_by[dr["logo"]]["pos"]}" decoding="async"{' fetchpriority="high"' if k == 0 else ''}><b>{E(dr["label"])}</b></a>' for k, dr in enumerate(d["doors"]))
+    deck = "".join(f'<img src="{lg["img"]}" data-logo="{lg["id"]}" alt="" width="640" height="640" style="object-position:{lg["pos"]}" decoding="async">' for lg in d["logos"])
     body = f"""<a class="skip" href="#main">Skip to the books</a>
 <header class="top"><div class="wrap"><a class="brand" href="/">Noble Father</a>
 <nav class="nav" aria-label="Sections"><span class="pill" aria-hidden="true"></span>{navhtml}</nav>
@@ -144,8 +149,12 @@ def main():
 <div class="sheet" id="sheet" hidden><div class="sheet-panel" role="dialog" aria-modal="true" aria-label="Menu">{sheet_links}<div class="sheet-row"><button class="btn sheet-sound" id="sheet-still" type="button" aria-pressed="false"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="10"/><line x1="10" x2="10" y1="15" y2="9"/><line x1="14" x2="14" y1="15" y2="9"/></svg>Still</button><button class="btn sheet-sound" id="sheet-sound" type="button" aria-pressed="false"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M11 4.702a.705.705 0 0 0-1.203-.498L6.413 7.587A1.4 1.4 0 0 1 5.416 8H3a1 1 0 0 0-1 1v6a1 1 0 0 0 1 1h2.416a1.4 1.4 0 0 1 .997.413l3.383 3.384A.705.705 0 0 0 11 19.298z"/><g class="on"><path d="M16 9a5 5 0 0 1 0 6"/><path d="M19.364 18.364a9 9 0 0 0 0-12.728"/></g><g class="off"><line x1="22" x2="16" y1="9" y2="15"/><line x1="16" x2="22" y1="9" y2="15"/></g></svg>Sound</button></div><button class="btn sheet-close" id="sheet-close" type="button">Close</button></div></div>
 <div class="ribbon" aria-hidden="true"><div class="ribbon-track">{ribbon}</div></div>
 <main id="main">
-<section class="hero" id="start-here" data-nav="books"><span class="anchor" id="top"></span><div class="wrap"><div>
-<h1><span class="ln"><span>Free books for</span></span> <span class="ln"><span>the moment you</span></span> <span class="ln"><span>start to wonder.</span></span></h1>
+<section class="doors" id="welcome" aria-labelledby="welcome-title"><span class="anchor" id="top"></span><div class="wrap">
+<div class="doors-head"><p class="eyebrow">Shae Stovell</p><h1 id="welcome-title">Noble Father Creations</h1><p class="tagline">Worn in the light. <span>Alive in the dark.</span></p></div>
+<nav class="door-grid" aria-label="Where to go">{door_tiles}</nav>
+<div class="deck" aria-hidden="true">{deck}</div></div></section>
+<section class="hero" id="start-here" data-nav="books"><div class="wrap"><div>
+<h2 class="h1"><span class="ln"><span>Free books for</span></span> <span class="ln"><span>the moment you</span></span> <span class="ln"><span>start to wonder.</span></span></h2>
 <p class="lede">Field guides on manipulation and control, written plainly by Shae Stovell. Free to read, nothing to sign up for.</p>
 <p class="ask" id="ask">What's happening?</p>
 <div class="chips" role="group" aria-labelledby="ask">{chips}</div>
