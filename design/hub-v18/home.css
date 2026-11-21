@@ -305,3 +305,4 @@ h1 .ln>span{display:block}
 .hero .pick{align-items:start}
 .hero .result-grid{grid-template-columns:1fr;gap:var(--s1)}
 .hero .pick{align-items:center}
+@media (min-width:901px){.hero .stage{align-self:start;position:sticky;top:96px}}

@@ -41,7 +41,7 @@
   let turnT;
   const pickHTML = (k, item, href) => `<a class="pick" href="${href}"><img src="${item.img}" alt="" width="96" height="143" loading="lazy" decoding="async"><span><span class="k">${k}</span><b>${item.title}</b><small>${item.line}</small></span></a>`;
   // bring only the top of the card into view, never a long jump
-  const reveal = () => { const r = result.getBoundingClientRect(), over = r.top + Math.min(r.height, 220) - innerHeight; if (over > 0) scrollBy({ top: over + 24, behavior: smooth() }); };
+  const reveal = () => { const first = $('#result-grid .pick'); if (!first) return; const over = first.getBoundingClientRect().bottom + 24 - innerHeight; if (over > 0) scrollBy({ top: Math.min(over, Math.round(innerHeight * .46)), behavior: smooth() }); };
   const swapCover = (src, alt, ar, done) => {
     if (heroImg.getAttribute('src') === src) { done(); return; }
     if (!hasG || reduce.matches) { book.style.setProperty('--ar', ar); heroImg.src = src; heroImg.alt = alt; done(); return; }
