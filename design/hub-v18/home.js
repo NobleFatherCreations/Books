@@ -39,7 +39,8 @@
     document.querySelector('.book3d').style.setProperty('--ar', ar);
     if (heroImg.getAttribute('src') === src) return;
     if (!hasG || reduce.matches) { heroImg.src = src; heroImg.alt = alt; return; }
-    gsap.timeline()
+    const bk = document.querySelector('.book3d'), wasOpen = bk.classList.contains('is-open'); bk.classList.add('is-open');
+    gsap.timeline({ onComplete: () => bk.classList.toggle('is-open', wasOpen) })
       .to(heroFace, { rotateY: 90, duration: .28, ease: 'power2.in' })
       .add(() => { heroImg.src = src; heroImg.alt = alt; })
       .fromTo(heroFace, { rotateY: -90 }, { rotateY: 0, duration: .42, ease: 'back.out(1.6)' });
@@ -59,6 +60,8 @@
     setTimeout(() => { const r = result.getBoundingClientRect(); if (r.top > innerHeight * .6) result.scrollIntoView({ behavior: reduce.matches ? 'auto' : 'smooth', block: 'start' }); }, 140);
   }));
 
+  $('#redo').addEventListener('click', () => { const c = $('.chip[aria-pressed="true"]') || $('.chip'); $('#ask').scrollIntoView({ behavior: reduce.matches ? 'auto' : 'smooth', block: 'center' }); c.focus({ preventScroll: true }); });
+
   /* ---------- The bigger picture door ---------- */
   const door = $('#door'), doorBtn = $('#door-btn');
   doorBtn.addEventListener('click', () => {
@@ -74,10 +77,10 @@
   /* ---------- Portals: strontium charges in light, then glows and fades in the dark ---------- */
   const CHARGE_S = 1.2, GLOW_S = 7;   // hold ~1.2 s to charge fully; afterglow fades over ~7 s, like the real thing
   $$('.portal').forEach(fig => {
-    const night = $('.night', fig), day = $('.day', fig), btn = $('.charge', fig), label = $('.label', btn), state = fig.parentElement.querySelector('.state');
+    const night = $('.night', fig), day = $('.day', fig), btn = fig.parentElement.querySelector('.charge'), label = $('.label', btn);
     const v = { c: 0, g: 0 }; let chargeT, glowT;
-    const paint = () => { fig.style.setProperty('--c', v.c.toFixed(3)); night.style.opacity = v.g; day.style.opacity = 1 - v.g * .92; };
-    const say = t => { state.textContent = t; };
+    const paint = () => { fig.style.setProperty('--c', v.c.toFixed(3)); btn.style.setProperty('--c', v.c.toFixed(3)); night.style.opacity = v.g; day.style.opacity = 1 - v.g * .92; };
+    const say = () => {};
     const glow = () => {
       if (chargeT) chargeT.kill(); fig.classList.remove('is-charging');
       if (v.c < .05) { v.c = 0; paint(); label.textContent = 'Hold to charge'; say('In daylight'); return; }
@@ -98,11 +101,13 @@
       chargeT = gsap.to(v, { c: 1, duration: CHARGE_S * (1 - v.c), ease: 'none', onUpdate: paint, onComplete: () => { if (navigator.vibrate) navigator.vibrate(12); } });
     };
     const lamp = e => { const r = fig.getBoundingClientRect(); fig.style.setProperty('--lx', (e.clientX - r.left) + 'px'); fig.style.setProperty('--ly', (e.clientY - r.top) + 'px'); };
-    fig.addEventListener('pointerdown', e => { lamp(e); try { fig.setPointerCapture(e.pointerId); } catch (x) {} charge(e); });
+    [fig, btn].forEach(el => {
+      el.addEventListener('pointerdown', e => { if (el === fig) lamp(e); else { fig.style.setProperty('--lx', '50%'); fig.style.setProperty('--ly', '50%'); } try { el.setPointerCapture(e.pointerId); } catch (x) {} charge(e); });
+      el.addEventListener('pointerup', glow);
+      el.addEventListener('pointercancel', glow);
+      el.addEventListener('contextmenu', e => e.preventDefault());
+    });
     fig.addEventListener('pointermove', lamp);
-    fig.addEventListener('pointerup', glow);
-    fig.addEventListener('pointercancel', glow);
-    fig.addEventListener('contextmenu', e => e.preventDefault());
     // keyboard: Enter/Space charges fully and lets go
     btn.addEventListener('click', e => { if (e.detail === 0) { v.c = 1; glow(); } });
     paint();
@@ -112,7 +117,7 @@
   const audio = new Audio(); audio.preload = 'none'; let cur = null;
   const fmt = s => `${Math.floor(s / 60)}:${String(Math.floor(s % 60)).padStart(2, '0')}`;
   $$('.trk').forEach(row => {
-    const btn = $('.play', row); if (btn.disabled) return;
+    const btn = $('.play', row); if (!btn) return;
     btn.addEventListener('click', () => {
       if (cur === row && !audio.paused) { audio.pause(); return; }
       if (cur !== row) { if (cur) cur.classList.remove('is-playing'); cur = row; audio.src = row.dataset.src; }
@@ -123,7 +128,7 @@
   audio.addEventListener('play', () => { cur.classList.add('is-playing'); const b = $('.play', cur); b.innerHTML = icon(true); b.setAttribute('aria-label', 'Pause ' + cur.dataset.title); });
   audio.addEventListener('pause', () => { if (!cur) return; const b = $('.play', cur); b.innerHTML = icon(false); b.setAttribute('aria-label', 'Play ' + cur.dataset.title); });
   audio.addEventListener('timeupdate', () => { if (cur && audio.duration) { $('.bar i', cur).style.width = (audio.currentTime / audio.duration * 100) + '%'; $('time', cur).textContent = fmt(audio.currentTime); } });
-  audio.addEventListener('ended', () => { const next = cur.nextElementSibling; if (next && !$('.play', next).disabled) $('.play', next).click(); });
+  audio.addEventListener('ended', () => { const next = cur.nextElementSibling; if (next && $('.play', next)) $('.play', next).click(); });
 
   /* ---------- Where am I: nav marker + header turns to night in the Workshop ---------- */
   const navLinks = $$('.nav a'); const top = $('.top');
@@ -152,7 +157,8 @@
         onEnter: els => gsap.from(els, { y: 28, rotate: -1.5, opacity: 0, duration: .6, stagger: .08, ease: 'power3.out', clearProps: 'all' }) });
     }
     gsap.to('.ribbon-track', { xPercent: -30, ease: 'none', scrollTrigger: { trigger: document.body, start: 'top top', end: () => '+=' + innerHeight * 2.5, scrub: .8 } });
-    gsap.to('#hero-face', { rotateY: -42, ease: 'none', scrollTrigger: { trigger: '.hero', start: 'top top', end: 'bottom 30%', scrub: .6 } });
+    gsap.to('#hero-face', { rotateY: -42, ease: 'none', scrollTrigger: { trigger: '.hero', start: 'top top', end: 'bottom 30%', scrub: .6,
+      onUpdate: st => document.querySelector('.book3d').classList.toggle('is-open', st.progress > .02) } });
     gsap.to('#hero-face', { '--sheen': '0%', ease: 'none', scrollTrigger: { trigger: '.hero', start: 'top top', end: 'bottom top', scrub: true } });
     if (motion && matchMedia('(hover: hover) and (pointer: fine)').matches) {
       const tx = gsap.quickTo('.book3d', 'rotationY', { duration: .8, ease: 'power3.out' }), face = document.querySelector('#hero-face');

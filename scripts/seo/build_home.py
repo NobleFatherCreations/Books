@@ -100,17 +100,17 @@ def main():
     live = d["music"]["live"]
     tracks = "".join(
         f'<li class="trk" data-src="/music/audio/{E(t["file"])}" data-title="{E(t["title"])}">'
-        f'<button class="play" type="button" aria-label="Play {E(t["title"])}"{"" if live else " disabled"}>{PLAY}</button>'
-        f'<span><span class="t">{E(t["title"])}</span><span class="s">{E(t["shelf"])}</span></span><time>{fmt(t["dur"])}</time>'
-        f'<span class="bar" aria-hidden="true"><i></i></span></li>' for t in d["music"]["tracks"])
+        + (f'<button class="play" type="button" aria-label="Play {E(t["title"])}">{PLAY}</button>' if live else f'<span class="n" aria-hidden="true">{i + 1}</span>')
+        + f'<span><span class="t">{E(t["title"])}</span><span class="s">{E(t["shelf"])}</span></span><time>{fmt(t["dur"])}</time>'
+        + '<span class="bar" aria-hidden="true"><i></i></span></li>' for i, t in enumerate(d["music"]["tracks"]))
     pairs = "".join(
         f'<li><figure class="portal" data-name="{E(p["name"])}"><img class="day" src="{p["dayImg"]}" width="720" height="720" alt="{E(p["name"])} pendant in daylight" loading="lazy" decoding="async">'
         f'<img class="night" src="{p["nightImg"]}" width="720" height="720" alt="" loading="lazy" decoding="async">'
-        f'<span class="lamp" aria-hidden="true"></span>'
-        f'<button class="charge" type="button" aria-label="Charge {E(p["name"])} with light, then see it glow in the dark" aria-pressed="false">'
+        f'<span class="lamp" aria-hidden="true"></span></figure>'
+        f'<p class="legend"><span>{E(p["name"])}</span><button class="charge" type="button" aria-label="Charge {E(p["name"])} with light, then see it glow in the dark" aria-pressed="false">'
         f'<svg viewBox="0 0 48 48" aria-hidden="true"><circle cx="24" cy="24" r="20" class="track"/><circle cx="24" cy="24" r="20" class="fill" pathLength="1"/></svg>'
-        f'<span class="label">Hold to charge</span></button></figure>'
-        f'<p class="legend"><span>{E(p["name"])}</span><span class="state" aria-live="polite">In daylight</span></p></li>' for p in d["portals"])
+        f'<span class="label" aria-live="polite">Hold to charge</span></button></p></li>'
+        for p in d["portals"])
     making = "".join(f'<div class="mk card soon">{ICONS[m["icon"]]}<span><b>{E(m["title"])}</b><small>{E(m["line"])}</small></span></div>' for m in d["making"])
     g = d["guide"]
     pay = "".join(f'<a class="btn" href="{E(p["url"])}" target="_blank" rel="noopener">{E(p["name"])} {E(p["handle"])}</a>' for p in d["support"])
@@ -142,7 +142,7 @@ def main():
 <figcaption>Your answer turns the book.</figcaption></figure></div></section>
 
 <section class="result" id="result" aria-live="polite" aria-labelledby="result-title"><div><div class="wrap result-inner">
-<div class="result-head"><h2 id="result-title" class="h3" style="font-size:var(--t-h3)">Your starting point</h2><p class="muted" id="result-note"></p></div>
+<div class="result-head"><h2 id="result-title" class="h3" style="font-size:var(--t-h3)">Your starting point</h2><button class="redo" id="redo" type="button">Change answer</button><p class="muted" id="result-note" style="flex-basis:100%"></p></div>
 <div class="result-grid" id="result-grid"></div></div></div></section>
 
 <section class="sec" id="library" data-nav="books"><div class="wrap">

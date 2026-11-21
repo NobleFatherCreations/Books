@@ -27,14 +27,14 @@
  --ink:#16110d;--ink-2:#1f1812;--ink-3:#2a2119;--line:#33291f;--paper:#ece2cf;--muted:#b3a68e;
  --brass:#c9a24a;--brass-hi:#e7c77d;--oxblood:#9a3a2c;--glow:#86ecd2;--night:#07090a;--night-2:#0c1112;--night-line:#1f2a28;
  --s1:8px;--s2:16px;--s3:24px;--s4:32px;--s6:48px;--s8:64px;--s12:96px;--s16:128px;
- --t-sm:15px;--t-body:17px;--t-lede:19px;--t-h3:clamp(24px,1.6vw + 14px,32px);--t-h2:clamp(40px,3.4vw + 20px,72px);--t-h1:clamp(46px,6.6vw + 14px,128px);
+ --t-sm:15px;--t-body:17px;--t-lede:19px;--t-h3:clamp(24px,1.6vw + 14px,32px);--t-h2:clamp(40px,3.4vw + 20px,72px);--t-h1:clamp(46px,min(6.6vw + 14px,10.5svh + 20px),128px);--t-h3-lg:clamp(32px,2.4vw + 16px,56px);
  --ease-out:cubic-bezier(.23,1,.32,1);--ease-in-out:cubic-bezier(.77,0,.175,1);--ease-drawer:cubic-bezier(.32,.72,0,1);
  --display:"Instrument Serif";--dur-1:.18s;--dur-2:.32s;
  --wrap:1280px;--gut:var(--s8);--head:64px;
  color-scheme:dark;
 }
 *,*::before,*::after{box-sizing:border-box}
-html{-webkit-text-size-adjust:100%;text-size-adjust:100%;scroll-padding-top:calc(var(--head) + var(--s2))}
+html{-webkit-tap-highlight-color:transparent;-webkit-text-size-adjust:100%;text-size-adjust:100%;scroll-padding-top:calc(var(--head) + var(--s2))}
 @media (prefers-reduced-motion:no-preference){html{scroll-behavior:smooth}}
 body{margin:0;background:var(--ink);color:var(--paper);font:400 var(--t-body)/1.6 "Public Sans",system-ui,sans-serif;-webkit-font-smoothing:antialiased;overflow-x:clip}
 img{display:block;max-width:100%;height:auto}
@@ -50,11 +50,11 @@ p{margin:0;max-width:62ch;text-wrap:pretty}
 .vh{position:absolute!important;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}
 .anchor{position:relative;top:calc(-1 * var(--head));display:block;height:0}
 :focus-visible{outline:2px solid var(--brass-hi);outline-offset:3px;border-radius:3px}
-.skip{position:absolute;left:var(--s2);top:-100px;z-index:50;background:var(--brass);color:var(--ink);padding:12px 16px;border-radius:8px;font-weight:600}
+.skip{position:absolute;left:var(--s2);top:-100px;z-index:50;background:var(--brass);color:var(--ink);padding:8px 16px;border-radius:8px;font-weight:600}
 .skip:focus{top:var(--s2)}
 
 /* buttons */
-.btn{display:inline-flex;align-items:center;justify-content:center;gap:10px;min-height:48px;padding:0 22px;border-radius:999px;border:1px solid var(--brass);background:none;color:var(--paper);font-weight:600;font-size:var(--t-sm);text-decoration:none;cursor:pointer;transition:background-color var(--dur-1) var(--ease-out),color var(--dur-1) var(--ease-out),transform var(--dur-1) var(--ease-out)}
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:8px;min-height:48px;padding:0 24px;touch-action:manipulation;border-radius:999px;border:1px solid var(--brass);background:none;color:var(--paper);font-weight:600;font-size:var(--t-sm);text-decoration:none;cursor:pointer;transition:background-color var(--dur-1) var(--ease-out),color var(--dur-1) var(--ease-out),transform var(--dur-1) var(--ease-out)}
 @media (hover:hover){.btn:hover{background:var(--brass);color:var(--ink)}}
 .btn.solid{background:var(--brass);color:var(--ink)}
 .btn:active,.chip:active,.play:active,.leave:active,.menu-btn:active{transform:scale(.97)}
@@ -74,7 +74,7 @@ p{margin:0;max-width:62ch;text-wrap:pretty}
 .top-actions{display:flex;align-items:center;gap:var(--s1)}
 .leave{display:inline-flex;align-items:center;white-space:nowrap;min-height:44px;padding:0 16px;border-radius:999px;background:var(--oxblood);color:#fff;font-weight:600;font-size:15px;text-decoration:none;border:0;cursor:pointer}
 .leave:hover{background:#b0453a}
-.menu-btn{display:none;min-height:44px;min-width:44px;padding:0 14px;border-radius:999px;border:1px solid var(--line);background:var(--ink-2);cursor:pointer;font-size:15px;font-weight:600}
+.menu-btn{display:none;min-height:44px;min-width:44px;padding:0 16px;border-radius:999px;border:1px solid var(--line);background:var(--ink-2);cursor:pointer;font-size:15px;font-weight:600}
 
 /* phone menu */
 .sheet{position:fixed;inset:0;z-index:40;display:grid;align-items:end;background:#000a;opacity:0;pointer-events:none;transition:opacity var(--dur-2) var(--ease-out)}
@@ -87,9 +87,9 @@ p{margin:0;max-width:62ch;text-wrap:pretty}
 .sheet-close{display:block;margin:var(--s2) auto 0;min-height:48px}
 
 /* ribbon of titles */
-.ribbon{border-bottom:1px solid var(--line);overflow:hidden;padding:14px 0;-webkit-mask:linear-gradient(90deg,transparent,#000 6%,#000 94%,transparent);mask:linear-gradient(90deg,transparent,#000 6%,#000 94%,transparent)}
+.ribbon{border-bottom:1px solid var(--line);overflow:hidden;padding:16px 0;-webkit-mask:linear-gradient(90deg,transparent,#000 6%,#000 94%,transparent);mask:linear-gradient(90deg,transparent,#000 6%,#000 94%,transparent)}
 .ribbon-track{display:flex;width:max-content;font:italic 400 27px/1 var(--display),Georgia,serif;color:#cdbea2}
-.ribbon-track span{padding-right:72px;white-space:nowrap}
+.ribbon-track span{padding-right:64px;white-space:nowrap}
 
 /* 1 hero */
 .hero{padding:var(--s8) 0 var(--s12)}
@@ -97,7 +97,7 @@ p{margin:0;max-width:62ch;text-wrap:pretty}
 .lede{margin:var(--s3) 0 var(--s4);font-size:var(--t-lede);color:#d6cab6;max-width:36ch}
 .ask{font:italic 400 27px/1.1 var(--display),Georgia,serif;color:var(--brass-hi);margin-bottom:var(--s2)}
 .chips{display:flex;flex-wrap:wrap;gap:var(--s1)}
-.chip{min-height:48px;display:inline-flex;align-items:center;padding:0 18px;border-radius:999px;border:1px solid #4a3d2e;background:var(--ink-2);font-size:var(--t-sm);cursor:pointer;transition:background-color var(--dur-1) var(--ease-out),color var(--dur-1) var(--ease-out),border-color var(--dur-1) var(--ease-out),transform var(--dur-1) var(--ease-out)}
+.chip{min-height:48px;display:inline-flex;align-items:center;padding:0 16px;touch-action:manipulation;border-radius:999px;border:1px solid #4a3d2e;background:var(--ink-2);font-size:var(--t-sm);cursor:pointer;transition:background-color var(--dur-1) var(--ease-out),color var(--dur-1) var(--ease-out),border-color var(--dur-1) var(--ease-out),transform var(--dur-1) var(--ease-out)}
 @media (hover:hover){.chip:hover{border-color:var(--brass)}}
 .chip[aria-pressed="true"]{background:var(--brass);color:var(--ink);border-color:var(--brass)}
 .stage{position:relative;margin:0;height:min(600px,64svh);perspective:1600px;display:grid;place-items:center}
@@ -139,11 +139,11 @@ p{margin:0;max-width:62ch;text-wrap:pretty}
 .bk .cov::after{content:"";position:absolute;inset:0;background:linear-gradient(90deg,#0006,transparent 9%,#ffffff12 11%,transparent 16%);pointer-events:none}
 .bk img{width:100%;height:100%;object-fit:cover}
 .bk b{display:block;font:400 23px/1.1 var(--display),Georgia,serif;margin-top:var(--s2)}
-.bk small{display:block;color:var(--muted);font-size:13px;line-height:1.45;margin-top:4px}
+.bk small{display:block;color:var(--muted);font-size:14px;line-height:1.45;margin-top:4px}
 @media (hover:hover){.bk:hover .cov{transform:translateY(-6px) rotate(-1deg);box-shadow:16px 24px 40px #000c}}
 .door{margin-top:var(--s8);border:1px solid var(--line);border-radius:8px;background:linear-gradient(90deg,#120e0a,#1d1610)}
 .door-head{display:grid;grid-template-columns:auto 1fr auto;gap:var(--s4);align-items:center;padding:var(--s6)}
-.spines{display:flex;gap:6px;align-items:end}
+.spines{display:flex;gap:8px;align-items:end}
 .spines i{transform-origin:bottom center;display:block;width:34px;height:160px;border-radius:3px;background-size:auto 100%;background-position:left center;box-shadow:inset -6px 0 8px #0009,inset 2px 0 0 #ffffff1a,6px 8px 16px #000a;filter:saturate(.85) brightness(.95)}
 .spines i:nth-child(1){transform:rotate(-4deg)}.spines i:nth-child(3){transform:rotate(3deg)}
 .spines i:nth-child(2){height:176px}.spines i:nth-child(3){height:150px}
@@ -154,10 +154,10 @@ p{margin:0;max-width:62ch;text-wrap:pretty}
 
 /* 4 tools */
 .tools{display:grid;grid-template-columns:1fr 1fr;gap:var(--s4)}
-.tool{display:grid;grid-template-columns:150px 1fr;gap:var(--s4);align-items:center;padding:var(--s4);border:1px solid var(--line);border-radius:8px;background:var(--ink-2);text-decoration:none;transition:border-color var(--dur-1) var(--ease-out),transform var(--dur-2) var(--ease-out)}
+.tool{display:grid;grid-template-columns:200px 1fr;gap:var(--s4);align-items:center;padding:var(--s6);border:1px solid var(--line);border-radius:8px;background:var(--ink-2);text-decoration:none;transition:border-color var(--dur-1) var(--ease-out),transform var(--dur-2) var(--ease-out)}
 .tool:hover{border-color:var(--brass);transform:translateY(-2px)}
-.tool img{width:150px;height:auto;border-radius:3px}
-.tool h3{margin-bottom:var(--s1)}
+.tool img{width:200px;height:auto;border-radius:3px}
+.tool h3{margin-bottom:var(--s1);font-size:clamp(32px,2.4vw + 16px,44px)}
 
 /* 5 music */
 .music-head{display:flex;justify-content:space-between;align-items:end;gap:var(--s6);margin-bottom:var(--s6)}
@@ -172,7 +172,7 @@ p{margin:0;max-width:62ch;text-wrap:pretty}
 .play[disabled]{opacity:.4;cursor:not-allowed}
 .trk .t{display:block;font:400 23px/1.15 var(--display),Georgia,serif}
 .trk .s{display:block;color:var(--muted);font-size:15px}
-.trk time{color:var(--muted);font-size:13px;font-variant-numeric:tabular-nums}
+.trk time{color:var(--muted);font-size:14px;font-variant-numeric:tabular-nums}
 .trk.is-playing .t{color:var(--brass-hi)}
 .bar{grid-column:2/4;height:2px;background:var(--line);margin-top:-14px;margin-bottom:12px;display:none}
 .trk.is-playing .bar{display:block}.bar i{display:block;height:100%;width:0;background:var(--brass)}
@@ -187,7 +187,7 @@ p{margin:0;max-width:62ch;text-wrap:pretty}
 .glowline{color:var(--glow);text-shadow:0 0 24px #86ecd266}
 .threshold p{margin-top:var(--s4);max-width:48ch}
 .workshop{background:var(--night);padding:0 0 var(--s16)}
-.workshop h3{font-size:clamp(32px,2.4vw + 16px,52px)}
+.workshop h3{font-size:var(--t-h3-lg)}
 .pairs{display:grid;grid-template-columns:repeat(3,1fr);gap:var(--s4);margin-top:var(--s6);list-style:none;padding:0}
 .pair{position:relative;margin:0;aspect-ratio:1;border-radius:8px;overflow:hidden;background:#000;--x:50%;touch-action:pan-y}
 .pair img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;pointer-events:none}
@@ -197,14 +197,14 @@ p{margin:0;max-width:62ch;text-wrap:pretty}
 .pair .knob svg{width:20px;height:20px;stroke:var(--glow);fill:none;stroke-width:2}
 .pair input{position:absolute;inset:0;width:100%;height:100%;opacity:0;cursor:ew-resize;margin:0}
 .pair input:focus-visible~.knob{outline:2px solid #fff;outline-offset:3px}
-.legend{display:flex;justify-content:space-between;margin-top:var(--s1);font-size:13px;color:var(--muted)}
+.legend{display:flex;justify-content:space-between;align-items:center;gap:var(--s2);margin-top:var(--s2);font-size:15px;color:var(--muted)}
 .legend span:last-child{color:var(--glow)}
 .wk-row{margin-top:var(--s12)}
 .card{padding:var(--s4);border:1px solid var(--night-line);border-radius:8px;background:var(--night-2);text-decoration:none;display:flex;flex-direction:column;gap:var(--s1)}
-.card .tag{font-size:13px;color:var(--glow)}
+.card .tag{font-size:14px;color:var(--glow)}
 .card.guide{border-color:#2e5a50;display:grid;grid-template-columns:2fr 3fr;gap:var(--s8);align-items:center;padding:var(--s6)}
 .card.guide img{width:100%;max-width:340px;height:auto;border-radius:8px;justify-self:center}
-.card.guide h3{font-size:clamp(32px,2.4vw + 16px,56px);margin:var(--s1) 0 var(--s2)}
+.card.guide h3{font-size:var(--t-h3-lg);margin:var(--s1) 0 var(--s2)}
 .making{display:flex;flex-wrap:wrap;align-items:center;gap:var(--s3) var(--s6);margin-top:var(--s6);padding-top:var(--s4);border-top:1px solid var(--night-line)}
 .making>p{font:italic 400 23px var(--display),Georgia,serif;color:var(--glow)}
 .mk{display:flex;align-items:center;gap:var(--s2)}
@@ -232,9 +232,11 @@ footer li a:hover{color:var(--paper)}
 @media (max-width:900px){
  :root{--gut:var(--s2)}
  .nav{display:none}.menu-btn{display:inline-flex;align-items:center}
- .hero{padding:var(--s3) 0 var(--s8)}
+ .hero{padding:var(--s2) 0 var(--s8)}
+ .ribbon{display:none}
+ .door[data-open] .spines{display:none}
  .hero .wrap{grid-template-columns:1fr;min-height:0;gap:0}
- .stage{order:-1;height:300px}.book3d{width:150px}.halo{width:300px}.stage figcaption{display:none}
+ .stage{order:-1;height:224px}.book3d{width:124px}.halo{width:240px}.stage figcaption{display:none}
  .ribbon{padding:10px 0}.ribbon-track{font-size:19px}
  .lede{font-size:17px;margin:var(--s2) 0 var(--s3)}.ask{font-size:23px}
  .chip{font-size:15px;padding:0 14px}
@@ -266,9 +268,10 @@ footer li a:hover{color:var(--paper)}
 @media (prefers-reduced-transparency:reduce){.top,.top.is-night{background:var(--ink);-webkit-backdrop-filter:none;backdrop-filter:none}}
 @media (prefers-contrast:more){.top{background:var(--ink);border-bottom-color:var(--paper)}.muted{color:var(--paper)}}
 /* paper grain: printed, not rendered */
-body::before{content:"";position:fixed;inset:0;z-index:60;pointer-events:none;opacity:.05;background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='160' height='160'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.9' numOctaves='2' stitchTiles='stitch'/%3E%3CfeColorMatrix values='0 0 0 0 1 0 0 0 0 .95 0 0 0 0 .85 0 0 0 1 0'/%3E%3C/filter%3E%3Crect width='160' height='160' filter='url(%23n)'/%3E%3C/svg%3E")}
+body{isolation:isolate}
+body::before{content:"";position:fixed;inset:0;z-index:-1;pointer-events:none;opacity:.05;background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='160' height='160'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.9' numOctaves='2' stitchTiles='stitch'/%3E%3CfeColorMatrix values='0 0 0 0 1 0 0 0 0 .95 0 0 0 0 .85 0 0 0 1 0'/%3E%3C/filter%3E%3Crect width='160' height='160' filter='url(%23n)'/%3E%3C/svg%3E")}
 /* hero book: a hinged cover over a real page, catching the light */
-.book3d .inside{position:absolute;inset:1% 1% 1% 0;border-radius:2px 4px 4px 2px;background:#efe6d3;box-shadow:inset 18px 0 30px -18px #0007,inset -2px 0 0 #d6c9ae;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:10%;padding:16% 14%;transform:translateZ(-1px)}
+.book3d .inside{visibility:hidden;position:absolute;inset:1% 1% 1% 0;border-radius:2px 4px 4px 2px;background:#efe6d3;box-shadow:inset 18px 0 30px -18px #0007,inset -2px 0 0 #d6c9ae;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:10%;padding:16% 14%;transform:translateZ(-1px)}
 .book3d .page-k{font:italic 400 clamp(12px,1.3vw,20px)/1 var(--display),serif;color:#7a5a1d}
 .book3d .lines{width:100%;height:42%;background:repeating-linear-gradient(#0000 0 9px,#3a2f2033 9px 10px)}
 .book3d .page-sig{width:56%;height:12%;background:url(/media/v18/signature-ink.png) center/contain no-repeat;opacity:.75}
@@ -281,12 +284,20 @@ body::before{content:"";position:fixed;inset:0;z-index:60;pointer-events:none;op
 .portal .lamp{position:absolute;inset:0;pointer-events:none;opacity:0;background:radial-gradient(circle at var(--lx) var(--ly),#fff6d8cc 0,#ffe7a466 14%,transparent 38%);mix-blend-mode:screen;transition:opacity .2s var(--ease-out)}
 @media (hover:hover) and (pointer:fine){.portal:hover .lamp{opacity:.55}}
 .portal.is-charging .lamp{opacity:1}
-.charge{position:absolute;left:50%;bottom:var(--s2);transform:translateX(-50%);display:flex;align-items:center;gap:10px;min-height:48px;padding:0 18px 0 6px;border-radius:999px;border:1px solid #86ecd255;background:#07090acc;color:#fff;font-size:15px;font-weight:600;cursor:pointer;-webkit-backdrop-filter:blur(8px);backdrop-filter:blur(8px);transition:transform 160ms var(--ease-out),opacity .3s var(--ease-out)}
-.charge:active{transform:translateX(-50%) scale(.97)}
+.charge{position:static;transform:none;flex:none;display:flex;align-items:center;gap:8px;min-height:48px;padding:0 16px 0 8px;border-radius:999px;border:1px solid #86ecd255;background:var(--night-2);touch-action:manipulation;color:#fff;font-size:15px;font-weight:600;cursor:pointer;-webkit-backdrop-filter:blur(8px);backdrop-filter:blur(8px);transition:transform 160ms var(--ease-out),opacity .3s var(--ease-out)}
+.charge:active{transform:scale(.97)}
 .charge svg{width:36px;height:36px;transform:rotate(-90deg)}
 .charge circle{fill:none;stroke-width:3}.charge .track{stroke:#86ecd233}.charge .fill{stroke:var(--glow);stroke-dasharray:1;stroke-dashoffset:calc(1 - var(--c,0));stroke-linecap:round}
 .portal.is-glowing .charge{opacity:.85}
 .legend .state{color:var(--glow)}
+
+.book3d.is-open .inside{visibility:visible}
+.hero{padding-top:var(--s6)}
+@media (max-width:900px){.hero{padding-top:var(--s2)}}
+a,button{touch-action:manipulation}
+.trk .n{width:44px;height:44px;display:grid;place-items:center;font:400 23px/1 var(--display),Georgia,serif;color:var(--muted)}
+.result-head{display:flex;align-items:baseline;justify-content:space-between;gap:var(--s3);flex-wrap:wrap}
+.result-head .redo{background:none;border:0;min-height:44px;padding:0;color:var(--brass-hi);font:italic 400 21px/1 var(--display),Georgia,serif;text-decoration:underline;text-underline-offset:5px;cursor:pointer}
 </style>
 </head><body>
 <a class="skip" href="#main">Skip to the books</a>
@@ -306,7 +317,7 @@ body::before{content:"";position:fixed;inset:0;z-index:60;pointer-events:none;op
 <figcaption>Your answer turns the book.</figcaption></figure></div></section>
 
 <section class="result" id="result" aria-live="polite" aria-labelledby="result-title"><div><div class="wrap result-inner">
-<div class="result-head"><h2 id="result-title" class="h3" style="font-size:var(--t-h3)">Your starting point</h2><p class="muted" id="result-note"></p></div>
+<div class="result-head"><h2 id="result-title" class="h3" style="font-size:var(--t-h3)">Your starting point</h2><button class="redo" id="redo" type="button">Change answer</button><p class="muted" id="result-note" style="flex-basis:100%"></p></div>
 <div class="result-grid" id="result-grid"></div></div></div></section>
 
 <section class="sec" id="library" data-nav="books"><div class="wrap">
@@ -324,7 +335,7 @@ body::before{content:"";position:fixed;inset:0;z-index:60;pointer-events:none;op
 
 <section class="sec music" id="music" data-nav="music"><div class="wrap"><div class="music-head"><div><h2>The Listening Room</h2><p class="muted" style="margin-top:16px">Songs written and produced by Shae: call-outs, love songs, festival anthems. Press play and keep reading; the song carries on down the page.</p></div>
 <a class="more" href="/music">All 176 songs</a></div>
-<ul class="tracks"><li class="trk" data-src="/music/audio/a-man-wrote-this-the-sovereign-divine-feminine.mp3" data-title="A Man Wrote This"><button class="play" type="button" aria-label="Play A Man Wrote This" disabled><svg viewBox="0 0 14 14" aria-hidden="true"><path d="M3 1l10 6-10 6z"/></svg></button><span><span class="t">A Man Wrote This</span><span class="s">The Reckoning</span></span><time>5:35</time><span class="bar" aria-hidden="true"><i></i></span></li><li class="trk" data-src="/music/audio/always-watching-the-watchers.mp3" data-title="Always Watching the Watchers"><button class="play" type="button" aria-label="Play Always Watching the Watchers" disabled><svg viewBox="0 0 14 14" aria-hidden="true"><path d="M3 1l10 6-10 6z"/></svg></button><span><span class="t">Always Watching the Watchers</span><span class="s">The Reckoning</span></span><time>4:06</time><span class="bar" aria-hidden="true"><i></i></span></li><li class="trk" data-src="/music/audio/halo-with-an-edge.mp3" data-title="Halo with an Edge"><button class="play" type="button" aria-label="Play Halo with an Edge" disabled><svg viewBox="0 0 14 14" aria-hidden="true"><path d="M3 1l10 6-10 6z"/></svg></button><span><span class="t">Halo with an Edge</span><span class="s">The Frequency</span></span><time>4:19</time><span class="bar" aria-hidden="true"><i></i></span></li><li class="trk" data-src="/music/audio/divine-counterpart.mp3" data-title="Divine Counterpart"><button class="play" type="button" aria-label="Play Divine Counterpart" disabled><svg viewBox="0 0 14 14" aria-hidden="true"><path d="M3 1l10 6-10 6z"/></svg></button><span><span class="t">Divine Counterpart</span><span class="s">The Frequency</span></span><time>5:11</time><span class="bar" aria-hidden="true"><i></i></span></li><li class="trk" data-src="/music/audio/dharma-is-my-safe-word.mp3" data-title="Dharma Is My Safe Word"><button class="play" type="button" aria-label="Play Dharma Is My Safe Word" disabled><svg viewBox="0 0 14 14" aria-hidden="true"><path d="M3 1l10 6-10 6z"/></svg></button><span><span class="t">Dharma Is My Safe Word</span><span class="s">The Frequency</span></span><time>4:38</time><span class="bar" aria-hidden="true"><i></i></span></li></ul><p class="note" id="music-note" role="status">The songs are being restored. Play buttons switch on when they are back.</p></div></section>
+<ul class="tracks"><li class="trk" data-src="/music/audio/a-man-wrote-this-the-sovereign-divine-feminine.mp3" data-title="A Man Wrote This"><span class="n" aria-hidden="true">1</span><span><span class="t">A Man Wrote This</span><span class="s">The Reckoning</span></span><time>5:35</time><span class="bar" aria-hidden="true"><i></i></span></li><li class="trk" data-src="/music/audio/always-watching-the-watchers.mp3" data-title="Always Watching the Watchers"><span class="n" aria-hidden="true">2</span><span><span class="t">Always Watching the Watchers</span><span class="s">The Reckoning</span></span><time>4:06</time><span class="bar" aria-hidden="true"><i></i></span></li><li class="trk" data-src="/music/audio/halo-with-an-edge.mp3" data-title="Halo with an Edge"><span class="n" aria-hidden="true">3</span><span><span class="t">Halo with an Edge</span><span class="s">The Frequency</span></span><time>4:19</time><span class="bar" aria-hidden="true"><i></i></span></li><li class="trk" data-src="/music/audio/divine-counterpart.mp3" data-title="Divine Counterpart"><span class="n" aria-hidden="true">4</span><span><span class="t">Divine Counterpart</span><span class="s">The Frequency</span></span><time>5:11</time><span class="bar" aria-hidden="true"><i></i></span></li><li class="trk" data-src="/music/audio/dharma-is-my-safe-word.mp3" data-title="Dharma Is My Safe Word"><span class="n" aria-hidden="true">5</span><span><span class="t">Dharma Is My Safe Word</span><span class="s">The Frequency</span></span><time>4:38</time><span class="bar" aria-hidden="true"><i></i></span></li></ul><p class="note" id="music-note" role="status">The songs are being restored. Play buttons switch on when they are back.</p></div></section>
 
 <section class="threshold" id="art" data-nav="art" data-night="1"><span class="anchor" id="workshop"></span><span class="anchor" id="manifesto"></span><div class="wrap">
 <h2>Worn in the light. <span class="glowline">Alive in the dark.</span></h2>
@@ -332,7 +343,7 @@ body::before{content:"";position:fixed;inset:0;z-index:60;pointer-events:none;op
 
 <section class="workshop" data-nav="art" data-night="1"><div class="wrap">
 <h3>The Portals</h3><p class="muted" style="margin-top:8px">A portfolio of finished pieces. Strontium drinks in light and gives it back in the dark: press and hold a pendant to charge it, then let go. The shop opens soon.</p>
-<ul class="pairs portals"><li><figure class="portal" data-name="Clockwork"><img class="day" src="/media/v18/portal-0-day-720.webp" width="720" height="720" alt="Clockwork pendant in daylight" loading="lazy" decoding="async"><img class="night" src="/media/v18/portal-0-night-720.webp" width="720" height="720" alt="" loading="lazy" decoding="async"><span class="lamp" aria-hidden="true"></span><button class="charge" type="button" aria-label="Charge Clockwork with light, then see it glow in the dark" aria-pressed="false"><svg viewBox="0 0 48 48" aria-hidden="true"><circle cx="24" cy="24" r="20" class="track"/><circle cx="24" cy="24" r="20" class="fill" pathLength="1"/></svg><span class="label">Hold to charge</span></button></figure><p class="legend"><span>Clockwork</span><span class="state" aria-live="polite">In daylight</span></p></li><li><figure class="portal" data-name="Ember square"><img class="day" src="/media/v18/portal-1-day-720.webp" width="720" height="720" alt="Ember square pendant in daylight" loading="lazy" decoding="async"><img class="night" src="/media/v18/portal-1-night-720.webp" width="720" height="720" alt="" loading="lazy" decoding="async"><span class="lamp" aria-hidden="true"></span><button class="charge" type="button" aria-label="Charge Ember square with light, then see it glow in the dark" aria-pressed="false"><svg viewBox="0 0 48 48" aria-hidden="true"><circle cx="24" cy="24" r="20" class="track"/><circle cx="24" cy="24" r="20" class="fill" pathLength="1"/></svg><span class="label">Hold to charge</span></button></figure><p class="legend"><span>Ember square</span><span class="state" aria-live="polite">In daylight</span></p></li><li><figure class="portal" data-name="Gear moon"><img class="day" src="/media/v18/portal-2-day-720.webp" width="720" height="720" alt="Gear moon pendant in daylight" loading="lazy" decoding="async"><img class="night" src="/media/v18/portal-2-night-720.webp" width="720" height="720" alt="" loading="lazy" decoding="async"><span class="lamp" aria-hidden="true"></span><button class="charge" type="button" aria-label="Charge Gear moon with light, then see it glow in the dark" aria-pressed="false"><svg viewBox="0 0 48 48" aria-hidden="true"><circle cx="24" cy="24" r="20" class="track"/><circle cx="24" cy="24" r="20" class="fill" pathLength="1"/></svg><span class="label">Hold to charge</span></button></figure><p class="legend"><span>Gear moon</span><span class="state" aria-live="polite">In daylight</span></p></li></ul>
+<ul class="pairs portals"><li><figure class="portal" data-name="Clockwork"><img class="day" src="/media/v18/portal-0-day-720.webp" width="720" height="720" alt="Clockwork pendant in daylight" loading="lazy" decoding="async"><img class="night" src="/media/v18/portal-0-night-720.webp" width="720" height="720" alt="" loading="lazy" decoding="async"><span class="lamp" aria-hidden="true"></span></figure><p class="legend"><span>Clockwork</span><button class="charge" type="button" aria-label="Charge Clockwork with light, then see it glow in the dark" aria-pressed="false"><svg viewBox="0 0 48 48" aria-hidden="true"><circle cx="24" cy="24" r="20" class="track"/><circle cx="24" cy="24" r="20" class="fill" pathLength="1"/></svg><span class="label" aria-live="polite">Hold to charge</span></button></p></li><li><figure class="portal" data-name="Ember square"><img class="day" src="/media/v18/portal-1-day-720.webp" width="720" height="720" alt="Ember square pendant in daylight" loading="lazy" decoding="async"><img class="night" src="/media/v18/portal-1-night-720.webp" width="720" height="720" alt="" loading="lazy" decoding="async"><span class="lamp" aria-hidden="true"></span></figure><p class="legend"><span>Ember square</span><button class="charge" type="button" aria-label="Charge Ember square with light, then see it glow in the dark" aria-pressed="false"><svg viewBox="0 0 48 48" aria-hidden="true"><circle cx="24" cy="24" r="20" class="track"/><circle cx="24" cy="24" r="20" class="fill" pathLength="1"/></svg><span class="label" aria-live="polite">Hold to charge</span></button></p></li><li><figure class="portal" data-name="Gear moon"><img class="day" src="/media/v18/portal-2-day-720.webp" width="720" height="720" alt="Gear moon pendant in daylight" loading="lazy" decoding="async"><img class="night" src="/media/v18/portal-2-night-720.webp" width="720" height="720" alt="" loading="lazy" decoding="async"><span class="lamp" aria-hidden="true"></span></figure><p class="legend"><span>Gear moon</span><button class="charge" type="button" aria-label="Charge Gear moon with light, then see it glow in the dark" aria-pressed="false"><svg viewBox="0 0 48 48" aria-hidden="true"><circle cx="24" cy="24" r="20" class="track"/><circle cx="24" cy="24" r="20" class="fill" pathLength="1"/></svg><span class="label" aria-live="polite">Hold to charge</span></button></p></li></ul>
 <a class="more" href="/portals" style="margin-top:24px">See every Portal</a>
 <div class="wk-row" id="guide" data-nav="nfc">
 <a class="card guide" href="/nfc/"><img src="/media/v18/nfc-guide-640.webp" width="600" height="852" alt="" loading="lazy" decoding="async"><span><span class="tag">Free guide</span><h3>How to Program NFC Tags</h3><p class="muted">139 recipes for iPhone and Android: songs, messages, business cards and treasure hunts.</p><span class="btn">Read the guide</span></span></a>
@@ -413,7 +424,8 @@ body::before{content:"";position:fixed;inset:0;z-index:60;pointer-events:none;op
     document.querySelector('.book3d').style.setProperty('--ar', ar);
     if (heroImg.getAttribute('src') === src) return;
     if (!hasG || reduce.matches) { heroImg.src = src; heroImg.alt = alt; return; }
-    gsap.timeline()
+    const bk = document.querySelector('.book3d'), wasOpen = bk.classList.contains('is-open'); bk.classList.add('is-open');
+    gsap.timeline({ onComplete: () => bk.classList.toggle('is-open', wasOpen) })
       .to(heroFace, { rotateY: 90, duration: .28, ease: 'power2.in' })
       .add(() => { heroImg.src = src; heroImg.alt = alt; })
       .fromTo(heroFace, { rotateY: -90 }, { rotateY: 0, duration: .42, ease: 'back.out(1.6)' });
@@ -433,6 +445,8 @@ body::before{content:"";position:fixed;inset:0;z-index:60;pointer-events:none;op
     setTimeout(() => { const r = result.getBoundingClientRect(); if (r.top > innerHeight * .6) result.scrollIntoView({ behavior: reduce.matches ? 'auto' : 'smooth', block: 'start' }); }, 140);
   }));
 
+  $('#redo').addEventListener('click', () => { const c = $('.chip[aria-pressed="true"]') || $('.chip'); $('#ask').scrollIntoView({ behavior: reduce.matches ? 'auto' : 'smooth', block: 'center' }); c.focus({ preventScroll: true }); });
+
   /* ---------- The bigger picture door ---------- */
   const door = $('#door'), doorBtn = $('#door-btn');
   doorBtn.addEventListener('click', () => {
@@ -448,10 +462,10 @@ body::before{content:"";position:fixed;inset:0;z-index:60;pointer-events:none;op
   /* ---------- Portals: strontium charges in light, then glows and fades in the dark ---------- */
   const CHARGE_S = 1.2, GLOW_S = 7;   // hold ~1.2 s to charge fully; afterglow fades over ~7 s, like the real thing
   $$('.portal').forEach(fig => {
-    const night = $('.night', fig), day = $('.day', fig), btn = $('.charge', fig), label = $('.label', btn), state = fig.parentElement.querySelector('.state');
+    const night = $('.night', fig), day = $('.day', fig), btn = fig.parentElement.querySelector('.charge'), label = $('.label', btn);
     const v = { c: 0, g: 0 }; let chargeT, glowT;
-    const paint = () => { fig.style.setProperty('--c', v.c.toFixed(3)); night.style.opacity = v.g; day.style.opacity = 1 - v.g * .92; };
-    const say = t => { state.textContent = t; };
+    const paint = () => { fig.style.setProperty('--c', v.c.toFixed(3)); btn.style.setProperty('--c', v.c.toFixed(3)); night.style.opacity = v.g; day.style.opacity = 1 - v.g * .92; };
+    const say = () => {};
     const glow = () => {
       if (chargeT) chargeT.kill(); fig.classList.remove('is-charging');
       if (v.c < .05) { v.c = 0; paint(); label.textContent = 'Hold to charge'; say('In daylight'); return; }
@@ -472,11 +486,13 @@ body::before{content:"";position:fixed;inset:0;z-index:60;pointer-events:none;op
       chargeT = gsap.to(v, { c: 1, duration: CHARGE_S * (1 - v.c), ease: 'none', onUpdate: paint, onComplete: () => { if (navigator.vibrate) navigator.vibrate(12); } });
     };
     const lamp = e => { const r = fig.getBoundingClientRect(); fig.style.setProperty('--lx', (e.clientX - r.left) + 'px'); fig.style.setProperty('--ly', (e.clientY - r.top) + 'px'); };
-    fig.addEventListener('pointerdown', e => { lamp(e); try { fig.setPointerCapture(e.pointerId); } catch (x) {} charge(e); });
+    [fig, btn].forEach(el => {
+      el.addEventListener('pointerdown', e => { if (el === fig) lamp(e); else { fig.style.setProperty('--lx', '50%'); fig.style.setProperty('--ly', '50%'); } try { el.setPointerCapture(e.pointerId); } catch (x) {} charge(e); });
+      el.addEventListener('pointerup', glow);
+      el.addEventListener('pointercancel', glow);
+      el.addEventListener('contextmenu', e => e.preventDefault());
+    });
     fig.addEventListener('pointermove', lamp);
-    fig.addEventListener('pointerup', glow);
-    fig.addEventListener('pointercancel', glow);
-    fig.addEventListener('contextmenu', e => e.preventDefault());
     // keyboard: Enter/Space charges fully and lets go
     btn.addEventListener('click', e => { if (e.detail === 0) { v.c = 1; glow(); } });
     paint();
@@ -486,7 +502,7 @@ body::before{content:"";position:fixed;inset:0;z-index:60;pointer-events:none;op
   const audio = new Audio(); audio.preload = 'none'; let cur = null;
   const fmt = s => `${Math.floor(s / 60)}:${String(Math.floor(s % 60)).padStart(2, '0')}`;
   $$('.trk').forEach(row => {
-    const btn = $('.play', row); if (btn.disabled) return;
+    const btn = $('.play', row); if (!btn) return;
     btn.addEventListener('click', () => {
       if (cur === row && !audio.paused) { audio.pause(); return; }
       if (cur !== row) { if (cur) cur.classList.remove('is-playing'); cur = row; audio.src = row.dataset.src; }
@@ -497,7 +513,7 @@ body::before{content:"";position:fixed;inset:0;z-index:60;pointer-events:none;op
   audio.addEventListener('play', () => { cur.classList.add('is-playing'); const b = $('.play', cur); b.innerHTML = icon(true); b.setAttribute('aria-label', 'Pause ' + cur.dataset.title); });
   audio.addEventListener('pause', () => { if (!cur) return; const b = $('.play', cur); b.innerHTML = icon(false); b.setAttribute('aria-label', 'Play ' + cur.dataset.title); });
   audio.addEventListener('timeupdate', () => { if (cur && audio.duration) { $('.bar i', cur).style.width = (audio.currentTime / audio.duration * 100) + '%'; $('time', cur).textContent = fmt(audio.currentTime); } });
-  audio.addEventListener('ended', () => { const next = cur.nextElementSibling; if (next && !$('.play', next).disabled) $('.play', next).click(); });
+  audio.addEventListener('ended', () => { const next = cur.nextElementSibling; if (next && $('.play', next)) $('.play', next).click(); });
 
   /* ---------- Where am I: nav marker + header turns to night in the Workshop ---------- */
   const navLinks = $$('.nav a'); const top = $('.top');
@@ -526,7 +542,8 @@ body::before{content:"";position:fixed;inset:0;z-index:60;pointer-events:none;op
         onEnter: els => gsap.from(els, { y: 28, rotate: -1.5, opacity: 0, duration: .6, stagger: .08, ease: 'power3.out', clearProps: 'all' }) });
     }
     gsap.to('.ribbon-track', { xPercent: -30, ease: 'none', scrollTrigger: { trigger: document.body, start: 'top top', end: () => '+=' + innerHeight * 2.5, scrub: .8 } });
-    gsap.to('#hero-face', { rotateY: -42, ease: 'none', scrollTrigger: { trigger: '.hero', start: 'top top', end: 'bottom 30%', scrub: .6 } });
+    gsap.to('#hero-face', { rotateY: -42, ease: 'none', scrollTrigger: { trigger: '.hero', start: 'top top', end: 'bottom 30%', scrub: .6,
+      onUpdate: st => document.querySelector('.book3d').classList.toggle('is-open', st.progress > .02) } });
     gsap.to('#hero-face', { '--sheen': '0%', ease: 'none', scrollTrigger: { trigger: '.hero', start: 'top top', end: 'bottom top', scrub: true } });
     if (motion && matchMedia('(hover: hover) and (pointer: fine)').matches) {
       const tx = gsap.quickTo('.book3d', 'rotationY', { duration: .8, ease: 'power3.out' }), face = document.querySelector('#hero-face');
