@@ -15,6 +15,11 @@
       {
         "date": "2026-11-21",
         "version": "v19",
+        "summary": "robots.txt lists 17 sitemaps, llms.txt lists every chapter of all 14 books, Topics page gains the seal menu, homepage menu lists all 21 entries."
+      },
+      {
+        "date": "2026-11-21",
+        "version": "v19",
         "summary": "Owner fixes: NFC reading-position diagram, Motion and Sound switches in the header (phone included), stronger pendant glow and a touch hold that no longer cancels, Pattern Decoder and The Root linked in the menu."
       },
       {
@@ -122,9 +127,9 @@
     ],
     "buildCommand": "python3 scripts/seo/build_home.py && python3 scripts/seo/build_site.py && python3 scripts/visit-counter.py hub/catalogue-redesign.html hub/topics.html",
     "lastDeploy": {
-      "id": "6b01c686cc7e7d072c618abe",
+      "id": "6b0206290cdaee8eb259fa51",
       "date": "2026-11-21",
-      "verified": "live page = build; /api/visits 200 (1,180); new media 200"
+      "verified": "live page = build; topics/robots/llms identical; /api/visits 200 (1,230); IndexNow 354 urls 200"
     },
     "visitCounter": "Homepage only. Function /api/visits (hub/netlify/functions/visits.mjs) needs Netlify env var CF_API_TOKEN (saved by the owner as CF_API_TOKEN1; the function reads either) (Functions scope). scripts/visit-counter.py adds the counter to the homepage and the Cloudflare beacon to any page missing it; it is chained in buildCommand.",
     "buildNote": "v19 (2026-11-21, deployed): build ONLY with buildCommand (build_site.py writes the SEO head). build_site.py rewrites hub/og.png; restore with git checkout if the card is not meant to change. Test: node scripts/verify-hub.mjs http://127.0.0.1:8765/"
@@ -684,7 +689,7 @@
         {
           "date": "2026-11-21",
           "version": "v4",
-          "summary": "SEO round 2: one crawlable page per chapter (title, description, canonical, Book/Chapter/Breadcrumb data, share card, sitemap), a contents page, links from each chapter to the matching Pattern Decoder pages, and the findability head on the book itself. Also: the new signed cover art on the book page (cover.webp), the seal menu lists all 21 books and projects on every page, and the old \"no analytics\" line is removed. Built by scripts/seo/build_jsbook.py; not yet deployed."
+          "summary": "SEO round 2: one crawlable page per chapter (title, description, canonical, Book/Chapter/Breadcrumb data, share card, sitemap), a contents page, links from each chapter to the matching Pattern Decoder pages, and the findability head on the book itself. Also: the new signed cover art on the book page (cover.webp), the seal menu lists all 21 books and projects on every page, and the old \"no analytics\" line is removed. Built by scripts/seo/build_jsbook.py; Deployed 2026-11-21."
         },
         {
           "date": "2026-09-01",
@@ -705,9 +710,9 @@
       "repoPath": "library/loop/index.html",
       "section": "library",
       "lastDeploy": {
-        "date": "2026-11-08",
-        "deployId": "6af0f8994deb519e0faa55d6",
-        "note": "Sacred Divide name + menu label fixes; verify-deployed in sync."
+        "date": "2026-11-21",
+        "deployId": "6b020556dd37297349afaad2",
+        "note": "v4 SEO round 2 + covers + full seal menu; every file byte-identical live; IndexNow 200"
       }
     },
     {
@@ -734,7 +739,7 @@
         {
           "date": "2026-11-21",
           "version": "v4",
-          "summary": "SEO round 2: one crawlable page per chapter (title, description, canonical, Book/Chapter/Breadcrumb data, share card, sitemap), a contents page, links from each chapter to the matching Pattern Decoder pages, and the findability head on the book itself. Also: the new signed cover art on the book page (cover.webp), the seal menu lists all 21 books and projects on every page, and the old \"no analytics\" line is removed. Built by scripts/seo/build_jsbook.py; not yet deployed."
+          "summary": "SEO round 2: one crawlable page per chapter (title, description, canonical, Book/Chapter/Breadcrumb data, share card, sitemap), a contents page, links from each chapter to the matching Pattern Decoder pages, and the findability head on the book itself. Also: the new signed cover art on the book page (cover.webp), the seal menu lists all 21 books and projects on every page, and the old \"no analytics\" line is removed. Built by scripts/seo/build_jsbook.py; Deployed 2026-11-21."
         },
         {
           "date": "2026-09-01",
@@ -756,6 +761,11 @@
       "section": "library",
       "pendingDeploy": {
         "note": "Repo is AHEAD of live. It names the faith book 'The Sacred Divide' (renamed 2026-09-27; live on /faith since 2026-09-28); live still says 'The Coercive Control Codex' in this book's menu and in two sentences. Only that text differs, 2 lines in the menu plus 4 in body text. Needs the owner's explicit go-ahead to deploy (single-file site, id 27ab9f53-5850-4fb1-8bed-6513b33ee11f). Menu label fix (2026-11-08: Sacred Divide subtitle, Decoder 310 tactics, The Listening Room) is in the repo only; it ships with this site's own next round."
+      },
+      "lastDeploy": {
+        "date": "2026-11-21",
+        "deployId": "6b02055637b43973d1a0f280",
+        "note": "v4 SEO round 2 + covers + full seal menu; every file byte-identical live; IndexNow 200"
       }
     },
     {
@@ -982,7 +992,7 @@
         {
           "date": "2026-11-21",
           "version": "v4",
-          "summary": "SEO round 2: one crawlable page per chapter (title, description, canonical, Book/Chapter/Breadcrumb data, share card, sitemap), a contents page, links from each chapter to the matching Pattern Decoder pages, and the findability head on the book itself. Also: the new signed cover art on the book page (cover.webp), the seal menu lists all 21 books and projects on every page, and the old \"no analytics\" line is removed. Built by scripts/seo/build_jsbook.py; not yet deployed."
+          "summary": "SEO round 2: one crawlable page per chapter (title, description, canonical, Book/Chapter/Breadcrumb data, share card, sitemap), a contents page, links from each chapter to the matching Pattern Decoder pages, and the findability head on the book itself. Also: the new signed cover art on the book page (cover.webp), the seal menu lists all 21 books and projects on every page, and the old \"no analytics\" line is removed. Built by scripts/seo/build_jsbook.py; Deployed 2026-11-21."
         },
         {
           "date": "2026-09-01",
@@ -1004,6 +1014,11 @@
       "netlifyUrl": "https://noble-the-long-after.netlify.app/",
       "pendingDeploy": {
         "note": "Repo is AHEAD of live. Menu label fix (2026-11-08: Sacred Divide subtitle, Decoder 310 tactics, The Listening Room) is in the repo only; it ships with this site's own next round."
+      },
+      "lastDeploy": {
+        "date": "2026-11-21",
+        "deployId": "6b020502b4febe6f3a50a76c",
+        "note": "v4 SEO round 2 + covers + full seal menu; every file byte-identical live; IndexNow 200"
       }
     },
     {
@@ -1031,7 +1046,7 @@
         {
           "date": "2026-11-21",
           "version": "v4",
-          "summary": "SEO round 2: one crawlable page per chapter (title, description, canonical, Book/Chapter/Breadcrumb data, share card, sitemap), a contents page, links from each chapter to the matching Pattern Decoder pages, and the findability head on the book itself. Also: the new signed cover art on the book page (cover.webp), the seal menu lists all 21 books and projects on every page, and the old \"no analytics\" line is removed. Built by scripts/seo/build_jsbook.py; not yet deployed."
+          "summary": "SEO round 2: one crawlable page per chapter (title, description, canonical, Book/Chapter/Breadcrumb data, share card, sitemap), a contents page, links from each chapter to the matching Pattern Decoder pages, and the findability head on the book itself. Also: the new signed cover art on the book page (cover.webp), the seal menu lists all 21 books and projects on every page, and the old \"no analytics\" line is removed. Built by scripts/seo/build_jsbook.py; Deployed 2026-11-21."
         },
         {
           "date": "2026-09-01",
@@ -1053,6 +1068,11 @@
       "netlifyUrl": "https://noble-the-silence.netlify.app/",
       "pendingDeploy": {
         "note": "Repo is AHEAD of live. Menu label fix (2026-11-08: Sacred Divide subtitle, Decoder 310 tactics, The Listening Room) is in the repo only; it ships with this site's own next round."
+      },
+      "lastDeploy": {
+        "date": "2026-11-21",
+        "deployId": "6b020540d5591ebb8a02a305",
+        "note": "v4 SEO round 2 + covers + full seal menu; every file byte-identical live; IndexNow 200"
       }
     },
     {
@@ -1080,7 +1100,7 @@
         {
           "date": "2026-11-21",
           "version": "v4",
-          "summary": "SEO round 2: one crawlable page per chapter (title, description, canonical, Book/Chapter/Breadcrumb data, share card, sitemap), a contents page, links from each chapter to the matching Pattern Decoder pages, and the findability head on the book itself. Also: the new signed cover art on the book page (cover.webp), the seal menu lists all 21 books and projects on every page, and the old \"no analytics\" line is removed. Built by scripts/seo/build_jsbook.py; not yet deployed."
+          "summary": "SEO round 2: one crawlable page per chapter (title, description, canonical, Book/Chapter/Breadcrumb data, share card, sitemap), a contents page, links from each chapter to the matching Pattern Decoder pages, and the findability head on the book itself. Also: the new signed cover art on the book page (cover.webp), the seal menu lists all 21 books and projects on every page, and the old \"no analytics\" line is removed. Built by scripts/seo/build_jsbook.py; Deployed 2026-11-21."
         },
         {
           "date": "2026-09-01",
@@ -1102,6 +1122,11 @@
       "netlifyUrl": "https://noble-at-will.netlify.app/",
       "pendingDeploy": {
         "note": "Repo is AHEAD of live. Menu label fix (2026-11-08: Sacred Divide subtitle, Decoder 310 tactics, The Listening Room) is in the repo only; it ships with this site's own next round."
+      },
+      "lastDeploy": {
+        "date": "2026-11-21",
+        "deployId": "6b0205409eb968a19f725ddc",
+        "note": "v4 SEO round 2 + covers + full seal menu; every file byte-identical live; IndexNow 200"
       }
     },
     {
@@ -1129,7 +1154,7 @@
         {
           "date": "2026-11-21",
           "version": "v4",
-          "summary": "SEO round 2: one crawlable page per chapter (title, description, canonical, Book/Chapter/Breadcrumb data, share card, sitemap), a contents page, links from each chapter to the matching Pattern Decoder pages, and the findability head on the book itself. Also: the new signed cover art on the book page (cover.webp), the seal menu lists all 21 books and projects on every page, and the old \"no analytics\" line is removed. Built by scripts/seo/build_jsbook.py; not yet deployed."
+          "summary": "SEO round 2: one crawlable page per chapter (title, description, canonical, Book/Chapter/Breadcrumb data, share card, sitemap), a contents page, links from each chapter to the matching Pattern Decoder pages, and the findability head on the book itself. Also: the new signed cover art on the book page (cover.webp), the seal menu lists all 21 books and projects on every page, and the old \"no analytics\" line is removed. Built by scripts/seo/build_jsbook.py; Deployed 2026-11-21."
         },
         {
           "date": "2026-09-01",
@@ -1151,6 +1176,11 @@
       "netlifyUrl": "https://noble-the-repair.netlify.app/",
       "pendingDeploy": {
         "note": "Repo is AHEAD of live. Menu label fix (2026-11-08: Sacred Divide subtitle, Decoder 310 tactics, The Listening Room) is in the repo only; it ships with this site's own next round."
+      },
+      "lastDeploy": {
+        "date": "2026-11-21",
+        "deployId": "6b0205404c706349f23b9f6a",
+        "note": "v4 SEO round 2 + covers + full seal menu; every file byte-identical live; IndexNow 200"
       }
     },
     {
@@ -1178,7 +1208,7 @@
         {
           "date": "2026-11-21",
           "version": "v4",
-          "summary": "SEO round 2: one crawlable page per chapter (title, description, canonical, Book/Chapter/Breadcrumb data, share card, sitemap), a contents page, links from each chapter to the matching Pattern Decoder pages, and the findability head on the book itself. Also: the new signed cover art on the book page (cover.webp), the seal menu lists all 21 books and projects on every page, and the old \"no analytics\" line is removed. Built by scripts/seo/build_jsbook.py; not yet deployed."
+          "summary": "SEO round 2: one crawlable page per chapter (title, description, canonical, Book/Chapter/Breadcrumb data, share card, sitemap), a contents page, links from each chapter to the matching Pattern Decoder pages, and the findability head on the book itself. Also: the new signed cover art on the book page (cover.webp), the seal menu lists all 21 books and projects on every page, and the old \"no analytics\" line is removed. Built by scripts/seo/build_jsbook.py; Deployed 2026-11-21."
         },
         {
           "date": "2026-09-01",
@@ -1200,6 +1230,11 @@
       "netlifyUrl": "https://noble-the-slow-take.netlify.app/",
       "pendingDeploy": {
         "note": "Repo is AHEAD of live. Menu label fix (2026-11-08: Sacred Divide subtitle, Decoder 310 tactics, The Listening Room) is in the repo only; it ships with this site's own next round."
+      },
+      "lastDeploy": {
+        "date": "2026-11-21",
+        "deployId": "6b02055655c9fd1cfa79459f",
+        "note": "v4 SEO round 2 + covers + full seal menu; every file byte-identical live; IndexNow 200"
       }
     },
     {
