@@ -1,6 +1,6 @@
 # The Long After: full audit and outline (2026-11-21)
 
-**Status: audit only. Nothing in the book has been changed.** Every proposal below waits for the owner's decision. Book wording changes only with the owner's yes, chapter by chapter.
+**Status: audit only. Nothing in the book has been changed.** Owner chose (2026-11-21): full voice rewrite, full expansion (all tiers), a complete resource guide built around search words. The new book outline is `BOOK-MAP-v2.md`. Every proposal below waits for the owner's decision. Book wording changes only with the owner's yes, chapter by chapter.
 
 What was checked:
 - **The text:** all 45 chapters (9,504 words), the brief (`BOOK-MAP.md`), the 2026-09 audit (`AUDIT.md`) and `BOOKS.md`.
