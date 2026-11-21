@@ -33,3 +33,5 @@ Audits run, with what each changed:
 - Impeccable detector: Instrument Serif "overused" kept (owner chose A by picture); the strontium glow kept (literal glow).
 - verify-hub.mjs rewritten for v18: all checks pass at 375 and 1440. REGRESSIONS.md lists the guards.
 Open: music songs (owner: later); the live counter needs the deploy (CF_API_TOKEN already set in Netlify by the owner).
+- Critic round 1: 3 scores under 4 (composition, phone ergonomics, finish). All fixed. Round 2: all ten at 4, none under 4 (critic-round1.md, critic-round2.md). Round-2 refinements applied (door spines, answer panel layout, phone shelf edge fade, NFC 40/60). Final: verify-hub all pass; design-gates 0 FAIL.
+- Open for the owner: confirm Instrument Serif (the detector flags it as overused); a preview deploy or "deploy the homepage".

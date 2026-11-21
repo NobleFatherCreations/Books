@@ -113,7 +113,8 @@ p{margin:0;max-width:62ch;text-wrap:pretty}
 .result[data-open]{grid-template-rows:1fr;border-color:var(--line)}
 .result>div{overflow:hidden}
 .result-inner{padding-block:var(--s8)}
-.result-head{display:flex;justify-content:space-between;align-items:baseline;gap:var(--s3);margin-bottom:var(--s4)}
+.result-head{margin-bottom:var(--s4)}
+.result-head p{margin-top:var(--s1)}
 .result-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:var(--s4)}
 .pick{display:grid;grid-template-columns:96px 1fr;gap:var(--s3);align-items:center;text-decoration:none;padding:var(--s2);border-radius:8px;transition:background-color var(--dur-1) var(--ease-out)}
 .pick:hover{background:var(--ink-3)}
@@ -142,8 +143,9 @@ p{margin:0;max-width:62ch;text-wrap:pretty}
 .door{margin-top:var(--s8);border:1px solid var(--line);border-radius:8px;background:linear-gradient(90deg,#120e0a,#1d1610)}
 .door-head{display:grid;grid-template-columns:auto 1fr auto;gap:var(--s4);align-items:center;padding:var(--s6)}
 .spines{display:flex;gap:6px;align-items:end}
-.spines i{transform-origin:bottom center;display:block;width:30px;height:150px;border-radius:3px;background-size:auto 100%;background-position:left center;box-shadow:inset -6px 0 8px #0009,inset 2px 0 0 #ffffff1a,6px 8px 16px #000a;filter:saturate(.7) brightness(.8)}
-.spines i:nth-child(2){height:168px}.spines i:nth-child(3){height:138px}
+.spines i{transform-origin:bottom center;display:block;width:34px;height:160px;border-radius:3px;background-size:auto 100%;background-position:left center;box-shadow:inset -6px 0 8px #0009,inset 2px 0 0 #ffffff1a,6px 8px 16px #000a;filter:saturate(.85) brightness(.95)}
+.spines i:nth-child(1){transform:rotate(-4deg)}.spines i:nth-child(3){transform:rotate(3deg)}
+.spines i:nth-child(2){height:176px}.spines i:nth-child(3){height:150px}
 .door-body{display:grid;grid-template-rows:0fr;transition:grid-template-rows .6s var(--ease-out)}
 .door[data-open] .door-body{grid-template-rows:1fr}
 .door-body>div{overflow:hidden}
@@ -199,7 +201,7 @@ p{margin:0;max-width:62ch;text-wrap:pretty}
 .wk-row{margin-top:var(--s12)}
 .card{padding:var(--s4);border:1px solid var(--night-line);border-radius:8px;background:var(--night-2);text-decoration:none;display:flex;flex-direction:column;gap:var(--s1)}
 .card .tag{font-size:13px;color:var(--glow)}
-.card.guide{border-color:#2e5a50;display:grid;grid-template-columns:minmax(0,420px) 1fr;gap:var(--s8);align-items:center;padding:var(--s6)}
+.card.guide{border-color:#2e5a50;display:grid;grid-template-columns:2fr 3fr;gap:var(--s8);align-items:center;padding:var(--s6)}
 .card.guide img{width:100%;max-width:340px;height:auto;border-radius:8px;justify-self:center}
 .card.guide h3{font-size:clamp(32px,2.4vw + 16px,56px);margin:var(--s1) 0 var(--s2)}
 .making{display:flex;flex-wrap:wrap;align-items:center;gap:var(--s3) var(--s6);margin-top:var(--s6);padding-top:var(--s4);border-top:1px solid var(--night-line)}
@@ -241,9 +243,10 @@ footer li a:hover{color:var(--paper)}
  .shelf{grid-template-columns:1fr;gap:var(--s3)}
  .books{display:flex;overflow-x:auto;gap:var(--s2);scroll-snap-type:x mandatory;margin-right:calc(-1 * var(--gut));padding:4px var(--gut) 12px 0;scrollbar-width:none}
  .books::-webkit-scrollbar{display:none}
+ .books{scroll-padding-inline:0 var(--gut);-webkit-mask:linear-gradient(90deg,#000 82%,transparent);mask:linear-gradient(90deg,#000 82%,transparent)}
  .books>li{flex:0 0 44%;scroll-snap-align:start}
  .bk b{font-size:19px}
- .door-head{grid-template-columns:1fr;padding:var(--s3);gap:var(--s2)}.spines i{height:96px}.spines i:nth-child(2){height:112px}.spines i:nth-child(3){height:88px}
+ .door-head{grid-template-columns:1fr;padding:var(--s3);gap:var(--s2)}.spines i{height:120px}.spines i:nth-child(2){height:132px}.spines i:nth-child(3){height:112px}
  .door-body .books{padding:0 var(--s3) var(--s3)}
  .tools{grid-template-columns:1fr}.tool{grid-template-columns:96px 1fr;padding:var(--s3);gap:var(--s3)}.tool img{width:96px}
  .music-head{display:block}.music-head .more{margin-top:var(--s2)}.tracks{column-count:1}.trk .t{font-size:19px}
