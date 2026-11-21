@@ -103,9 +103,9 @@ def llms(sites):
 def hub_head(sites):
     f = HUB / "catalogue-redesign.html"
     h = S.SEO_TAG.sub("", S.read(f))
-    title = "Noble Father Creations: Free Books on Manipulation, Safety and Power"
-    desc = ("Free books and tools by Shae Stovell: field guides to manipulation and coercive control for women, kids, "
-            "festival-goers and families, plus the Pattern Decoder.")
+    title = "Free Books on Manipulation and Narcissistic Abuse | Noble Father Creations"
+    desc = ("Free books and a Pattern Decoder by Shae Stovell on manipulation, narcissistic abuse, gaslighting and coercive "
+            "control: name the pattern, see what it is made of, take a safe next step.")
     h = re.sub(r"<title>.*?</title>", f"<title>{S.esc(title)}</title>", h, count=1, flags=re.S)
     h = re.sub(r'<meta\s+name="description"[^>]*>', f'<meta name="description" content="{S.esc(desc)}">', h, count=1)
     h = re.sub(r'[ \t]*<link\s+rel="canonical"[^>]*>\n?', "", h)
@@ -116,6 +116,9 @@ def hub_head(sites):
     ld = {"@context": "https://schema.org", "@graph": [
         {"@type": "WebSite", "@id": S.DOMAIN + "/#site", "url": S.DOMAIN + "/", "name": "Noble Father Creations",
          "description": desc, "publisher": {"@id": S.ORG["@id"]}, "inLanguage": "en", "license": S.LICENSE_URL,
+         # the subjects people search for, each pointing at the page that explains it (homepage "Look up a pattern")
+         "about": [{"@type": "Thing", "name": x["label"], "url": S.DOMAIN + x["href"]} for x in json.loads((S.ROOT / "design/hub-v18/data.json").read_text())["lookups"]],
+         "keywords": "manipulation, narcissistic abuse, gaslighting, coercive control, love bombing, trauma bonding, emotional abuse, DARVO, silent treatment",
          "hasPart": [{"@id": p["url"] + "#book"} if p["url"].rsplit("/", 1)[-1] in BOOKS_WITH_PAGES else {"@type": "CreativeWork", "name": p["title"], "url": p["url"]}
                      for p in sites["projects"]]},
         {"@type": "CollectionPage", "@id": S.DOMAIN + "/", "url": S.DOMAIN + "/", "name": title, "description": desc,

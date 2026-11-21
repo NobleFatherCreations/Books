@@ -530,3 +530,15 @@ html{background:var(--night)}
 .np-bar{position:absolute;left:14px;right:14px;bottom:5px;height:2px;background:var(--line);border-radius:2px;overflow:hidden}
 .np-bar i{display:block;height:100%;width:0;background:var(--brass)}
 @media (min-width:901px){.nowbar{left:auto;right:96px;width:380px}}
+/* the navigator is a real wax seal: the brand's hat and bow tie pressed in oxblood wax */
+.nf-chrome .nf-seal{background:url(/media/v18/seal-wax-168.webp) center/100% no-repeat;box-shadow:0 6px 18px rgba(0,0,0,.6),0 0 0 2px rgba(201,162,74,.25);width:60px;height:60px}
+.nf-chrome .nf-seal .nf-seal-mark{color:transparent}
+/* look up a pattern: plain links to the decoder and topic pages people search for */
+.lookup{margin-top:var(--s8);padding-top:var(--s6);border-top:1px solid var(--line)}
+.lookup h3{font-size:var(--t-h3-lg)}
+.lookup .muted{margin:var(--s1) 0 var(--s3);max-width:52ch}
+.lookups{list-style:none;margin:0;padding:0;display:flex;flex-wrap:wrap;gap:var(--s1)}
+.lookups a{display:inline-flex;align-items:center;min-height:44px;padding:0 16px;border-radius:999px;border:1px solid #7a6850;background:var(--ink-2);color:var(--paper);text-decoration:none;font-size:var(--t-sm);transition:border-color var(--dur-1) var(--ease-out),background-color var(--dur-1) var(--ease-out)}
+@media (hover:hover){.lookups a:hover{border-color:var(--brass);background:var(--ink-3)}}
+.lookup-more{display:flex;flex-wrap:wrap;gap:var(--s1) var(--s4);margin-top:var(--s3)}
+.lookup-more a{display:inline-flex;align-items:center;min-height:44px;color:var(--brass-hi);font:400 21px/1.1 var(--display),Georgia,serif;text-underline-offset:5px}

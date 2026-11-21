@@ -359,5 +359,79 @@
    "href": "#guide",
    "logo": "wifi"
   }
+ ],
+ "lookups": [
+  {
+   "label": "Narcissistic abuse",
+   "href": "/topics#narcissistic-abuse-cycle"
+  },
+  {
+   "label": "Gaslighting",
+   "href": "/playbook/gaslighting"
+  },
+  {
+   "label": "Love bombing",
+   "href": "/playbook/love-bombing"
+  },
+  {
+   "label": "Trauma bonding",
+   "href": "/playbook/trauma-bonding"
+  },
+  {
+   "label": "Coercive control",
+   "href": "/topics#coercive-control"
+  },
+  {
+   "label": "Silent treatment",
+   "href": "/playbook/withholding-silent-treatment"
+  },
+  {
+   "label": "DARVO",
+   "href": "/playbook/darvo"
+  },
+  {
+   "label": "Triangulation",
+   "href": "/playbook/triangulation"
+  },
+  {
+   "label": "Hoovering",
+   "href": "/playbook/hoovering-relief-bait"
+  },
+  {
+   "label": "Future faking",
+   "href": "/playbook/future-faking"
+  },
+  {
+   "label": "Stonewalling",
+   "href": "/playbook/stonewalling"
+  },
+  {
+   "label": "Isolation",
+   "href": "/playbook/isolation"
+  },
+  {
+   "label": "Financial control",
+   "href": "/playbook/financial-control"
+  },
+  {
+   "label": "Emotional abuse",
+   "href": "/topics#emotional-abuse"
+  },
+  {
+   "label": "Cycle of abuse",
+   "href": "/topics#cycle-of-abuse"
+  },
+  {
+   "label": "Spiritual abuse",
+   "href": "/topics#spiritual-abuse"
+  },
+  {
+   "label": "Workplace gaslighting",
+   "href": "/topics#workplace-gaslighting"
+  },
+  {
+   "label": "Medical gaslighting",
+   "href": "/topics#medical-gaslighting"
+  }
  ]
 }

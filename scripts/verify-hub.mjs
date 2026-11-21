@@ -81,6 +81,9 @@ for (const [name, w, h] of [['375', 375, 812], ['1440', 1440, 900]]) {
   const seo = await page.evaluate(() => { const q = (s) => document.querySelector(s); const ld = [...document.querySelectorAll('script[type="application/ld+json"]')].map((x) => { try { return JSON.parse(x.textContent); } catch (e) { return null; } });
     return { canonical: q('link[rel=canonical]')?.href, ogImage: q('meta[property="og:image"]')?.content, ogTitle: !!q('meta[property="og:title"]'), twitter: !!q('meta[name="twitter:card"]'), desc: (q('meta[name=description]')?.content || '').length, title: document.title.length, ld: ld.filter(Boolean).length, h1: document.querySelectorAll('h1').length }; });
   seo.canonical === 'https://noblefathercreations.com/' && seo.ogImage && seo.ogTitle && seo.twitter && seo.desc >= 70 && seo.title >= 20 && seo.ld >= 1 && seo.h1 === 1 ? ok('SEO head intact: title, description, canonical, Open Graph, Twitter card, JSON-LD, one h1') : fail('SEO head: ' + JSON.stringify(seo));
+  // owner 2026-11-21: "seo that leads as many ways as possible to my books or decoder when people search manipulation or narcissistic abuse"
+  const look = await page.$$eval('.lookups a', (a) => a.map((x) => x.getAttribute('href')));
+  look.length >= 15 && look.every((h) => /^\/(playbook|topics)/.test(h)) ? ok(`Look up a pattern: ${look.length} links into the Pattern Decoder and Topics`) : fail('lookups: ' + JSON.stringify(look));
   // owner 2026-11-21: "the navigation symbol that was previously on my website still there and can navigate anyone to any other book or page"
   await page.evaluate(() => scrollTo({ top: 0, behavior: 'instant' }));
   await page.click('.nf-seal'); await page.waitForTimeout(500);

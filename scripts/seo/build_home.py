@@ -116,6 +116,9 @@ def main():
     for lg in d["logos"]:
         lg["img"] = webp(SRC / "img" / lg["file"], "logo-" + lg["id"], 560, 64)[0]
     logo_by = {lg["id"]: lg for lg in d["logos"]}
+    # the navigator's wax seal (Artlist render, cut out with its alpha kept): 168px = 3x the 56px button
+    sw = Image.open(SRC / "img/seal-wax.png").convert("RGBA").resize((168, 168), Image.LANCZOS)
+    sw.save(MEDIA / "seal-wax-168.webp", "WEBP", quality=86, method=6)
     for i, p in enumerate(d["portals"]):
         p["dayImg"] = webp(SRC / "img" / p["day"], f"portal-{i}-day", 720)[0]
         p["nightImg"] = webp(SRC / "img" / p["night"], f"portal-{i}-night", 720)[0]
@@ -145,6 +148,7 @@ def main():
     bigger = "".join(book_li(b) for b in d["books"] if b["shelf"] == "bigger")
     spines = "".join(f'<i style="background-image:url({b["img"]})"></i>' for b in d["books"] if b["shelf"] == "bigger")
     chips = "".join(f'<button class="chip" type="button" data-s="{s["id"]}" aria-pressed="false">{E(s["label"])}</button>' for s in d["situations"])
+    lookups = "".join(f'<li><a href="{E(x["href"])}">{E(x["label"])}</a></li>' for x in d["lookups"])
     tools = "".join(f'<a class="tool tool-{t["slug"]}" href="/{t["slug"]}"><span class="tool-art"><img src="{t["img"]}" width="{t["w"]}" height="{t["h"]}" alt="" loading="lazy" decoding="async">' + ('<span class="scan" aria-hidden="true"></span>' if t["slug"] == "playbook" else ROOTS_SVG if t["slug"] == "shadowroot" else '') + '</span><span class="glare" aria-hidden="true"></span>'
                     f'<span><h3>{E(t["title"])}</h3><p class="muted">{E(t["line"])}</p></span></a>' for t in d["tools"])
     live = d["music"]["live"]
@@ -219,7 +223,8 @@ def main():
 
 <section class="sec" id="tools" data-nav="tools" style="padding-top:0"><span class="anchor" id="instruments"></span><div class="wrap">
 <div class="sec-head"><h2>Free tools</h2><p class="muted">For when you need a name for something, or a few quiet minutes.</p></div>
-<div class="tools">{tools}</div></div></section>
+<div class="tools">{tools}</div>
+<div class="lookup" id="lookup"><h3>Look up a pattern</h3><p class="muted">What each one looks like, what it isn't, and a safe next step, in plain words.</p><ul class="lookups">{lookups}</ul><p class="lookup-more"><a href="/playbook">All 335 tactics in the Pattern Decoder</a><a href="/topics">Every topic, A to Z</a></p></div></div></section>
 
 <section class="sec music" id="music" data-nav="music"><div class="wrap"><div class="music-head"><div><h2>The Listening Room</h2><p class="muted" style="margin-top:16px">Songs written and produced by Shae: call-outs, love songs, festival anthems.</p></div>
 {music_link}</div>
