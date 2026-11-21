@@ -25,7 +25,7 @@ FONTS = HUB / "f"
 E = lambda s: html.escape(str(s), quote=True)
 
 
-GSAP_PLUGINS = ["ScrollTrigger"]
+GSAP_PLUGINS = ["ScrollTrigger", "SplitText"]
 
 def webp(src, name, width, quality=80):
     """Resize to a width and save as WebP under /media/v18; returns (url, w, h)."""
@@ -143,7 +143,7 @@ def main():
 <div class="result" id="result" role="region" aria-labelledby="result-title"><div><div class="result-inner">
 <div class="result-head"><h2 id="result-title">Your starting point</h2><button class="redo" id="redo" type="button">Change answer</button><p class="muted" id="result-note"></p></div>
 <div class="result-grid" id="result-grid"></div></div></div></div></div>
-<figure class="stage"><div class="halo"></div><div class="book-in"><div class="book-tilt"><div class="book3d"><span class="sp"></span><div class="inside" aria-hidden="true"><span class="page-k">Chapter one</span><span class="lines"></span><span class="page-sig"></span></div><div class="face" id="hero-face"><div class="leaf" id="hero-leaf"><span class="sheen" aria-hidden="true"></span><img id="hero-cover" src="{first["imgLg"]}" width="760" height="1133" alt="{E(first["title"])}, cover" fetchpriority="high" decoding="async"></div></div><span class="pg"></span></div></div></div>
+<figure class="stage"><div class="halo"></div><span class="floor" aria-hidden="true"></span><div class="book-in"><div class="book-tilt"><div class="book3d"><span class="sp"></span><div class="inside" aria-hidden="true"><span class="page-k">Chapter one</span><span class="lines"></span><span class="page-sig"></span></div><span class="riffle" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i></span><div class="face" id="hero-face"><div class="leaf" id="hero-leaf"><span class="sheen" aria-hidden="true"></span><img id="hero-cover" src="{first["imgLg"]}" width="760" height="1133" alt="{E(first["title"])}, cover" fetchpriority="high" decoding="async"></div></div><span class="pg"></span></div></div></div>
 <figcaption>Your answer turns the book.</figcaption></figure></div></section>
 
 

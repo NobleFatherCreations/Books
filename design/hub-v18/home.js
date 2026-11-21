@@ -83,6 +83,9 @@
     const had = document.activeElement; tickLabel.click(); if (had && had.focus) had.focus({ preventScroll: true });
   };
 
+  { const h = new Date().getHours(); if (h >= 21 || h < 6) root.classList.add('after-dark'); }
+  // chips: a hidden copy of the label rolls in on hover (aria-hidden, so the name is read once)
+  $$('.chip').forEach(c => { const t = c.textContent; c.innerHTML = `<span class="rl"><span>${t}</span><span aria-hidden="true">${t}</span></span>`; });
   const stillBtns = $$('#still-btn, #sheet-still'), soundBtns = $$('#sound-btn, #sheet-sound');
   const showSound = () => soundBtns.forEach(b => b.setAttribute('aria-pressed', String(snd.on)));
   soundBtns.forEach(b => b.addEventListener('click', () => { if (still && !snd.on) setStill(false); snd.set(!snd.on); showSound(); snd.play('tick'); buzz(6); }));
@@ -129,11 +132,24 @@
     if (heroImg.getAttribute('src') === src) { done(); return; }
     if (!hasG || calm()) { book.style.setProperty('--ar', ar); heroImg.src = src; heroImg.alt = alt; done(); return; }
     if (turnT) turnT.progress(1).kill();
-    turnT = gsap.timeline({ onComplete: done })
-      .add(() => snd.play('page'))
-      .to(leaf, { rotateY: 90, duration: .26, ease: 'power2.in' })
-      .add(() => { book.style.setProperty('--ar', ar); heroImg.src = src; heroImg.alt = alt; })
-      .fromTo(leaf, { rotateY: -90 }, { rotateY: 0, duration: .42, ease: 'back.out(1.4)' });
+    const pages = $$('.riffle i', book);
+    turnT = gsap.timeline({ onComplete: () => { book.classList.remove('is-turning'); gsap.set(pages, { rotateY: 0 }); done(); } })
+      .add(() => { book.classList.add('is-turning'); snd.play('page'); buzz(6); })
+      .to(leaf, { rotateY: -100, duration: .3, ease: 'power2.in' })
+      .fromTo(pages, { rotateY: 0, z: .5 }, { rotateY: -178, duration: .34, stagger: .055, ease: 'power1.inOut' }, '-=.05')
+      .add(() => { book.style.setProperty('--ar', ar); heroImg.src = src; heroImg.alt = alt; snd.play('page'); }, '-=.12')
+      .to(leaf, { rotateY: 0, duration: .5, ease: 'back.out(1.3)' }, '-=.08');
+  };
+  // the answer heading decodes from press type into the words (about 0.5 s)
+  const GLYPHS = 'abcdefghijklmnopqrstuvwxyz§¶†‡';
+  let scrT;
+  const scramble = (el, text) => {
+    clearInterval(scrT); let f = 0; const n = 14;
+    scrT = setInterval(() => {
+      f++; const k = Math.floor(text.length * f / n);
+      el.innerHTML = text.slice(0, k) + '<span class="sc" aria-hidden="true">' + [...text.slice(k)].map(ch => ch === ' ' ? ' ' : GLYPHS[Math.floor(Math.random() * GLYPHS.length)]).join('') + '</span>';
+      if (f >= n) { clearInterval(scrT); el.textContent = text; }
+    }, 36);
   };
   const setOpen = open => { result.toggleAttribute('data-open', open); result.inert = !open; };
   setOpen(false);
@@ -153,8 +169,21 @@
     $('#result-grid').innerHTML = pickHTML('Start here', a, '/' + a.slug) + pickHTML('Or', b, '/' + b.slug) + pickHTML('Then try', t, '/' + t.slug);
     status.textContent = `Three suggestions for ${s.label.toLowerCase()}: ${a.title}, ${b.title}, and ${t.title}.`;
     setOpen(true);
-    if (hasG && !calm()) gsap.from('#result-grid .pick', { y: 14, opacity: 0, duration: .45, stagger: .07, ease: 'power3.out', delay: .1, clearProps: 'all' });
+    if (hasG && !calm()) {
+      const br = book.getBoundingClientRect(), bx = br.left + br.width / 2, by = br.top + br.height / 2;
+      $$('#result-grid .pick').forEach((pk, i) => {
+        const r = pk.getBoundingClientRect();
+        gsap.from(pk, { x: bx - (r.left + r.width / 2), y: by - (r.top + r.height / 2), rotation: -10 + i * 7, scale: .35, opacity: 0, duration: .75, delay: .18 + i * .09, ease: 'expo.out', clearProps: 'all' });
+      });
+      scramble($('#result-title'), `For “${s.label.toLowerCase()}”`);
+    }
     swapCover(a.imgLg, a.title + ', cover', a.w + '/' + a.h, () => setTimeout(reveal, calm() ? 0 : 120));
+  }));
+  $$('.chip').forEach(c => c.addEventListener('pointerdown', e => {
+    if (calm() || !hasG) return;
+    const r = c.getBoundingClientRect(), ring = document.createElement('span');
+    ring.className = 'seal'; ring.style.left = (e.clientX - r.left) + 'px'; ring.style.top = (e.clientY - r.top) + 'px'; c.appendChild(ring);
+    gsap.fromTo(ring, { scale: .2, opacity: 1 }, { scale: Math.max(r.width, r.height) / 6, opacity: 0, duration: .6, ease: 'power2.out', onComplete: () => ring.remove() });
   }));
   $('#redo').addEventListener('click', () => { const c = $('.chip[aria-pressed="true"]') || $('.chip'); $('#ask').scrollIntoView({ behavior: smooth(), block: 'center' }); c.focus({ preventScroll: true }); });
 
@@ -246,16 +275,61 @@
   }), { rootMargin: '-45% 0px -50% 0px' });
   $$('[data-nav]').forEach(s => s.matches('section') && io.observe(s));
 
+  /* ---------- Hero helpers (called inside the motion build; each returns its cleanup) ---------- */
+  const stage = $('.stage');
+  function dust() {
+    const cv = document.createElement('canvas'); cv.className = 'dust'; cv.setAttribute('aria-hidden', 'true'); stage.prepend(cv);
+    const g = cv.getContext('2d'), dpr = Math.min(2, devicePixelRatio || 1);
+    let W = 0, H = 0, raf = 0, on = true, t = 0;
+    const N = root.dataset.tier === 'high' ? 46 : 22, motes = [];
+    const cap = $('figcaption', stage);
+    const size = () => { const r = stage.getBoundingClientRect(), ch = cap && cap.offsetParent ? cap.offsetHeight + 16 : 0; if (Math.round(r.width) === W && Math.round(r.height - ch) === H) return; W = Math.round(r.width); H = Math.round(r.height - ch); cv.width = W * dpr; cv.height = H * dpr; cv.style.width = W + 'px'; cv.style.height = H + 'px'; };
+    size();
+    for (let i = 0; i < N; i++) motes.push({ x: Math.random(), y: Math.random(), r: .5 + Math.random() * 1.4, v: .00025 + Math.random() * .0006, ph: Math.random() * 6.28, a: .15 + Math.random() * .45 });
+    const glow = root.classList.contains('after-dark') ? '134,236,210' : '231,199,125';
+    const draw = () => {
+      raf = requestAnimationFrame(draw); if (!on) return; t += 1;
+      g.setTransform(dpr, 0, 0, dpr, 0, 0); g.clearRect(0, 0, W, H);
+      for (const m of motes) {
+        m.y -= m.v; if (m.y < -.05) { m.y = 1.05; m.x = Math.random(); }
+        const x = (m.x + Math.sin(t * .006 + m.ph) * .02) * W, y = m.y * H;
+        const d = Math.hypot(x / W - .5, y / H - .45), lit = Math.max(0, 1 - d * 1.9);   // brighter inside the lamp's circle
+        g.fillStyle = `rgba(${glow},${(m.a * (.25 + lit)).toFixed(3)})`; g.beginPath(); g.arc(x, y, m.r, 0, 6.283); g.fill();
+      }
+    };
+    const io = new IntersectionObserver(([e]) => { on = e.isIntersecting && !document.hidden; }); io.observe(stage);
+    const vis = () => { on = !document.hidden; }; document.addEventListener('visibilitychange', vis);
+    const ro = new ResizeObserver(size); ro.observe(stage);
+    draw();
+    return () => { cancelAnimationFrame(raf); io.disconnect(); ro.disconnect(); document.removeEventListener('visibilitychange', vis); cv.remove(); };
+  }
+  function peek() {
+    let x0 = null, w = 1, id = null, maxed = false;
+    const ry = gsap.quickTo(leaf, 'rotateY', { duration: .25, ease: 'power3.out' });
+    const down = e => { if ((turnT && turnT.isActive()) || e.button > 0) return; x0 = e.clientX; w = book.getBoundingClientRect().width; id = e.pointerId; maxed = false; book.classList.add('is-peek'); gsap.killTweensOf(leaf); };
+    const move = e => { if (x0 === null || e.pointerId !== id) return; const a = gsap.utils.clamp(-80, 0, (e.clientX - x0) / w * 110); if (a < -20) { try { book.setPointerCapture(id); } catch (x) {} } ry(a); if (a <= -79 && !maxed) { maxed = true; buzz(10); snd.play('page'); } };
+    const up = () => { if (x0 === null) return; x0 = null; gsap.to(leaf, { rotateY: 0, duration: .9, ease: 'elastic.out(1,.55)', overwrite: true, onComplete: () => book.classList.remove('is-peek') }); };
+    book.addEventListener('pointerdown', down); book.addEventListener('pointermove', move); book.addEventListener('pointerup', up); book.addEventListener('pointercancel', up); book.addEventListener('lostpointercapture', up);
+    return () => { ['pointerdown', 'pointermove', 'pointerup', 'pointercancel', 'lostpointercapture'].forEach((ev, i) => book.removeEventListener(ev, [down, move, up, up, up][i])); gsap.set(leaf, { rotateY: 0 }); book.classList.remove('is-peek'); };
+  }
+
   /* ---------- Motion (GSAP). Reduced motion: nothing self-running; scroll-linked motion stays. ---------- */
   if (!hasG) return;
-  gsap.registerPlugin(ScrollTrigger);
+  gsap.registerPlugin(ScrollTrigger, SplitText);
   let mm = gsap.matchMedia(), firstBuild = true;
   const build = () => mm.add({ motion: '(prefers-reduced-motion: no-preference)', still: '(prefers-reduced-motion: reduce)' }, ctx => {
     const motion = ctx.conditions.motion && !still, entrance = motion && firstBuild;
     const cleanups = [];
     if (entrance) {
-      // the one orchestrated moment: the book arrives, floats briefly (under 5 s), then rests
-      gsap.from('h1 .ln>span', { yPercent: 110, duration: 1.1, stagger: .14, ease: 'expo.out', delay: .2 });
+      // the headline is set letter by letter like wet ink: each letter rises into its line and dries from brass to paper
+      const h1 = $('h1'), lns = $$('h1 .ln');
+      h1.setAttribute('aria-label', h1.textContent.replace(/\s+/g, ' ').trim()); lns.forEach(l => l.setAttribute('aria-hidden', 'true'));
+      const hs = SplitText.create('h1 .ln>span', { type: 'words,chars', aria: 'none' });
+      const unsplit = () => { hs.revert(); h1.removeAttribute('aria-label'); lns.forEach(l => l.removeAttribute('aria-hidden')); };
+      cleanups.push(unsplit);
+      gsap.timeline({ delay: .15, onComplete: unsplit })
+        .from(hs.chars, { yPercent: 115, duration: .9, stagger: .022, ease: 'expo.out' })
+        .from(hs.chars, { color: '#e7c77d', duration: 1.3, stagger: .022, ease: 'power1.in' }, .25);
       gsap.from('.lede, .ask, .chips', { y: 18, duration: .8, stagger: .1, ease: 'expo.out', delay: .7 });
       gsap.from('.book-in', { y: -70, opacity: 0, duration: 1.1, ease: 'expo.out', delay: .5 });
       gsap.from('.book-tilt', { rotationY: -34, duration: 1.4, ease: 'expo.out', delay: .5 });
@@ -264,6 +338,9 @@
       // the title strip drifts in once on arrival (4 s, then it follows the scroll)
       gsap.from('.ribbon-track', { x: 220, duration: 4, ease: 'power2.out' });
       gsap.to('.book-in', { y: -10, duration: 1.1, ease: 'sine.inOut', yoyo: true, repeat: 3, delay: 1.7 });
+      // the shadow on the floor tightens as the book rises, and comes in with it
+      gsap.from('.floor', { opacity: 0, scale: .4, duration: 1.1, ease: 'expo.out', delay: .5 });
+      gsap.to('.floor', { scale: .82, opacity: .65, duration: 1.1, ease: 'sine.inOut', yoyo: true, repeat: 3, delay: 1.7 });
       // shelf books arrive one at a time, once; hidden before the first paint of the shelf so they never blink
       gsap.set('.shelf .bk', { opacity: 0, y: 28, rotate: -1.5 });
       ScrollTrigger.batch('.shelf .bk', { start: 'top 92%', once: true,
@@ -274,12 +351,37 @@
       document.addEventListener('focusin', onFocus); cleanups.push(() => document.removeEventListener('focusin', onFocus));
     }
     if (motion) {
-      if (matchMedia('(hover: hover) and (pointer: fine)').matches) {
+      const fine = matchMedia('(hover: hover) and (pointer: fine)').matches;
+      // dust in the lamplight around the book (canvas sized in pixels from the stage box; pauses off-screen and under Still)
+      cleanups.push(dust());
+      // drag the cover open by hand (mouse or a sideways swipe); it springs shut when let go
+      cleanups.push(peek());
+      if (fine) {
+        // chips lean toward the pointer
+        $$('.chip').forEach(c => {
+          const mx = gsap.quickTo(c, '--mx', { duration: .4, ease: 'power3.out', unit: 'px' }), my = gsap.quickTo(c, '--my', { duration: .4, ease: 'power3.out', unit: 'px' });
+          const mv = e => { const r = c.getBoundingClientRect(); mx((e.clientX - r.left - r.width / 2) * .22); my((e.clientY - r.top - r.height / 2) * .3); };
+          const lv = () => { mx(0); my(0); };
+          c.addEventListener('pointermove', mv); c.addEventListener('pointerleave', lv);
+          cleanups.push(() => { c.removeEventListener('pointermove', mv); c.removeEventListener('pointerleave', lv); c.style.removeProperty('--mx'); c.style.removeProperty('--my'); });
+        });
+      } else if ('DeviceOrientationEvent' in window && typeof DeviceOrientationEvent.requestPermission !== 'function') {
+        // phones that allow it without asking (Android): tilting the phone tilts the book
+        const gy = gsap.quickTo('.book-tilt', 'rotationY', { duration: .9, ease: 'power3.out' }), gx = gsap.quickTo('.book-tilt', 'rotationX', { duration: .9, ease: 'power3.out' });
+        let live = false; const t0 = setTimeout(() => { live = true; }, 3000);
+        const or = e => { if (!live || e.gamma == null) return; gy(gsap.utils.clamp(-14, 14, e.gamma * .5)); gx(gsap.utils.clamp(-8, 8, (e.beta - 45) * -.2)); };
+        addEventListener('deviceorientation', or);
+        cleanups.push(() => { clearTimeout(t0); removeEventListener('deviceorientation', or); });
+      }
+      if (fine) {
         const tx = gsap.quickTo('.book-tilt', 'rotationY', { duration: .8, ease: 'power3.out' }), face = $('#hero-face'), hero = $('.hero');
-        const onMove = e => { const k = e.clientX / innerWidth; face.style.setProperty('--sheen', (100 - k * 100) + '%'); tx((k - .5) * 10); };
+        const fx = gsap.quickTo('.floor', 'x', { duration: .8, ease: 'power3.out' });
+        const onMove = e => { const k = e.clientX / innerWidth; face.style.setProperty('--sheen', (100 - k * 100) + '%'); tx((k - .5) * 10); fx((k - .5) * -24); };
         hero.addEventListener('pointermove', onMove); cleanups.push(() => hero.removeEventListener('pointermove', onMove));
       }
     }
+    const ls = SplitText.create('.lede', { type: 'words', aria: 'none' });
+    gsap.fromTo(ls.words, { color: '#cbbda4' }, { color: '#f6eedf', stagger: .1, ease: 'none', scrollTrigger: { trigger: '.hero', start: 'top top', end: '35% top', scrub: .5 } });
     gsap.to('.ribbon-track', { xPercent: -45, ease: 'none', scrollTrigger: { trigger: document.body, start: 'top top', end: () => '+=' + innerHeight * 1.6, scrub: .8 } });
     gsap.fromTo('.book3d', { rotateY: -30, rotateX: 7, rotateZ: -3 }, { rotateY: -8, rotateX: 2, rotateZ: 0, ease: 'none', immediateRender: false,
       scrollTrigger: { trigger: '.hero', start: 'top top', end: 'bottom top', scrub: .6 } });

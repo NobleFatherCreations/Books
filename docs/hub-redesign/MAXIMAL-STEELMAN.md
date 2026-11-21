@@ -216,3 +216,14 @@ Music items (I1-I4) wait for the song restore.
 - GSAP plugins vendored (SplitText, DrawSVG, MorphSVG, Flip, Observer, Draggable, Inertia, Physics2D, CustomEase); the builder inlines only the ones listed in GSAP_PLUGINS.
 - Phone header: Menu became an icon to fit Still; at under 360px Still lives in the menu only.
 - Gates: verify-hub all pass (4 new checks: no sound without a tap, Still stops motion, Sound lifts Still, Still silences sound); design-gates 0 FAIL; axe clean dark + light.
+
+### Batch 2 done (2026-11-21): the hero
+- Headline set letter by letter like wet ink: each letter rises into its line and dries from brass to paper (the split is undone after 2 s; the heading keeps one accessible name throughout).
+- Lede words brighten as the reader scrolls past (scroll-linked, kept under reduced motion; both colours pass AA).
+- Chips: label rolls over on hover, lean toward the pointer (desktop), and a wax-seal ring ripples from the finger on press; haptic tick.
+- Answer: the book opens on its spine, five pages riffle, and it closes on the new cover (paper sound twice); the three picks deal out of the book like cards; the heading decodes from press type into the words.
+- The cover can be dragged open by hand (mouse, or a sideways swipe on phones) and springs shut; a tick at full open.
+- Dust in the lamplight (canvas, 46 motes on capable devices, 22 otherwise, pauses off-screen and under Still); a floor shadow that tightens as the book floats and shifts with the tilt.
+- Android phones: tilting the phone tilts the book (iPhone needs a permission tap; not added).
+- After 9 pm by the reader's own clock (never stored) the page darkens a touch and the lamp turns strontium green.
+- Gates: verify-hub all pass; design-gates 0 FAIL (dust kept clear of the caption); axe clean; LCP 0.57 s, CLS 0, 239 KB transferred.
