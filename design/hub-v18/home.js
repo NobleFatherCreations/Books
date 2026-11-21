@@ -40,7 +40,8 @@
   const result = $('#result'), heroImg = $('#hero-cover'), leaf = $('#hero-leaf'), book = $('.book3d'), status = $('#result-status');
   let turnT;
   const pickHTML = (k, item, href) => `<a class="pick" href="${href}"><img src="${item.img}" alt="" width="96" height="143" loading="lazy" decoding="async"><span><span class="k">${k}</span><b>${item.title}</b><small>${item.line}</small></span></a>`;
-  const reveal = () => { const r = result.getBoundingClientRect(); if (r.top > innerHeight * .6) scrollBy({ top: r.top - innerHeight * .45, behavior: smooth() }); };
+  // bring only the top of the card into view, never a long jump
+  const reveal = () => { const r = result.getBoundingClientRect(), over = r.top + Math.min(r.height, 220) - innerHeight; if (over > 0) scrollBy({ top: over + 24, behavior: smooth() }); };
   const swapCover = (src, alt, ar, done) => {
     if (heroImg.getAttribute('src') === src) { done(); return; }
     if (!hasG || reduce.matches) { book.style.setProperty('--ar', ar); heroImg.src = src; heroImg.alt = alt; done(); return; }
@@ -167,8 +168,14 @@
     const cleanups = [];
     if (motion) {
       // the one orchestrated moment: the book arrives, floats briefly (under 5 s), then rests
-      gsap.from('.book-in', { y: 40, opacity: 0, duration: 1.2, ease: 'power3.out', delay: .1 });
-      gsap.from('.book-tilt', { rotationY: -30, duration: 1.2, ease: 'power3.out', delay: .1 });
+      gsap.from('h1 .ln>span', { yPercent: 105, duration: .9, stagger: .12, ease: 'power4.out', delay: .05 });
+      gsap.from('.lede, .ask, .chips', { y: 16, duration: .7, stagger: .08, ease: 'power3.out', delay: .45 });
+      gsap.from('.book-in', { y: -60, opacity: 0, duration: 1, ease: 'power3.out', delay: .35 });
+      gsap.from('.book-tilt', { rotationY: -30, duration: 1.2, ease: 'power3.out', delay: .35 });
+      // the cover lifts slightly, as if about to open, then settles: the scroll does the real opening
+      gsap.fromTo('.book-tilt', { rotationX: 0 }, { rotationX: -6, duration: .55, ease: 'power2.inOut', delay: 1.25, yoyo: true, repeat: 1 });
+      // the title strip drifts in once on arrival (4 s, then it follows the scroll)
+      gsap.from('.ribbon-track', { x: 220, duration: 4, ease: 'power2.out' });
       gsap.to('.book-in', { y: -10, duration: 1.1, ease: 'sine.inOut', yoyo: true, repeat: 3, delay: 1.3 });
       // shelf books arrive one at a time, once; hidden before the first paint of the shelf so they never blink
       gsap.set('.shelf .bk', { opacity: 0, y: 28, rotate: -1.5 });
@@ -182,7 +189,7 @@
         hero.addEventListener('pointermove', onMove); cleanups.push(() => hero.removeEventListener('pointermove', onMove));
       }
     }
-    gsap.to('.ribbon-track', { xPercent: -30, ease: 'none', scrollTrigger: { trigger: document.body, start: 'top top', end: () => '+=' + innerHeight * 2.5, scrub: .8 } });
+    gsap.to('.ribbon-track', { xPercent: -45, ease: 'none', scrollTrigger: { trigger: document.body, start: 'top top', end: () => '+=' + innerHeight * 1.6, scrub: .8 } });
     gsap.fromTo('.book3d', { rotateY: -30, rotateX: 7, rotateZ: -3 }, { rotateY: -8, rotateX: 2, rotateZ: 0, ease: 'none', immediateRender: false,
       scrollTrigger: { trigger: '.hero', start: 'top top', end: 'bottom top', scrub: .6 } });
     gsap.fromTo('#hero-face', { rotateY: 0, '--sheen': '100%' }, { rotateY: -42, '--sheen': '0%', ease: 'none', immediateRender: false,

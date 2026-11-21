@@ -24,7 +24,7 @@
 <link rel="preload" href="/media/v18/longafter-760.webp" as="image">
 <style>@font-face{font-family:'Gloock';font-style:normal;font-weight:400;font-display:swap;src:url(/f/gloock-400-normal.woff2) format('woff2')}@font-face{font-family:'Public Sans';font-style:normal;font-weight:100 900;font-display:swap;src:url(/f/public-sans-100-900-normal.woff2) format('woff2')}/* Homepage v18 "The Press". Tokens: docs/hub-redesign/DESIGN-STATE.md. Built by scripts/seo/build_home.py. */
 :root{
- --ink:#16110d;--ink-2:#1f1812;--ink-3:#2a2119;--line:#33291f;--paper:#ece2cf;--muted:#b3a68e;
+ --ink:#16110d;--ink-2:#1f1812;--ink-3:#2a2119;--line:#33291f;--paper:#ece2cf;--muted:#cbbda4;
  --brass:#c9a24a;--brass-hi:#e7c77d;--oxblood:#9a3a2c;--glow:#86ecd2;--night:#07090a;--night-2:#0c1112;--night-line:#1f2a28;
  --s1:8px;--s2:16px;--s3:24px;--s4:32px;--s6:48px;--s8:64px;--s12:96px;--s16:128px;
  --t-sm:15px;--t-body:17px;--t-lede:19px;--t-h3:clamp(24px,1.6vw + 14px,32px);--t-h2:clamp(40px,3.4vw + 20px,72px);--t-h1:clamp(42px,min(5.4vw + 10px,8.6svh + 14px),104px);--t-h3-lg:clamp(32px,2.4vw + 16px,56px);
@@ -50,7 +50,7 @@ p{margin:0;max-width:62ch;text-wrap:pretty}
 .vh{position:absolute!important;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}
 .anchor{position:relative;top:calc(-1 * var(--head));display:block;height:0}
 :focus-visible{outline:2px solid var(--brass-hi);outline-offset:3px;border-radius:3px}
-.skip{position:absolute;left:var(--s2);top:-100px;z-index:50;background:var(--brass);color:var(--ink);padding:8px 16px;border-radius:8px;font-weight:600}
+.skip{position:absolute;left:var(--s2);top:-100px;z-index:50;background:var(--brass);color:var(--ink);padding:0 16px;min-height:48px;display:inline-flex;align-items:center;border-radius:8px;font-weight:600}
 .skip:focus{top:var(--s2)}
 
 /* buttons */
@@ -63,8 +63,8 @@ p{margin:0;max-width:62ch;text-wrap:pretty}
 .btn[disabled]{opacity:.45;cursor:not-allowed}
 
 /* header */
-.top{position:sticky;top:0;z-index:20;height:var(--head);background:color-mix(in srgb,var(--ink) 80%,transparent);-webkit-backdrop-filter:blur(14px) saturate(140%);backdrop-filter:blur(14px) saturate(140%);border-bottom:1px solid transparent;transition:background-color .4s var(--ease-out),border-color .4s var(--ease-out)}
-.top.is-night{background:color-mix(in srgb,var(--night) 86%,transparent);border-color:var(--night-line)}
+.top{position:sticky;top:0;z-index:20;height:var(--head);background:var(--ink);border-bottom:1px solid transparent;transition:background-color .4s var(--ease-out),border-color .4s var(--ease-out)}
+.top.is-night{background:var(--night);border-color:var(--night-line)}
 .top .wrap{display:flex;align-items:center;justify-content:space-between;gap:var(--s3);height:100%}
 .brand{display:inline-flex;align-items:center;min-height:44px;font:400 27px/1 var(--display),Georgia,serif;text-decoration:none;white-space:nowrap}
 .nav{display:flex;gap:var(--s1)}
@@ -304,6 +304,29 @@ a,button{touch-action:manipulation}
 @media (max-width:900px) and (max-height:720px){.stage{height:150px}.book3d{width:84px}.halo{width:170px}.hero h1{font-size:38px}.lede{margin:8px 0 16px}}
 .result:not([data-open])>div{visibility:hidden;transition:visibility 0s .5s}
 .result[data-open]>div{visibility:visible}
+
+/* answer card lives under the answers */
+.hero .result{margin-top:var(--s3);background:var(--ink-2);border-radius:8px;border:1px solid transparent}
+.hero .result[data-open]{border-color:var(--line)}
+.hero .result-inner{padding:var(--s3)}
+.hero .result-head h2{font-size:var(--t-h3)}
+.hero .result-grid{grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:var(--s2)}
+.hero .pick{grid-template-columns:64px 1fr;gap:var(--s2);padding:var(--s1)}
+.hero .pick img{width:64px}
+.hero .pick b{font-size:21px}
+.hero .pick small{font-size:15px}
+#result{scroll-margin-top:calc(var(--head) + var(--s2))}
+/* headline lines rise into place behind a mask: always full contrast */
+h1 .ln{display:block;overflow:hidden;padding-bottom:.08em;margin-bottom:-.08em}
+h1 .ln>span{display:block}
+/* the title strip: clear edges, a real drift */
+.ribbon-track{padding-left:6vw}
+.more.is-off{font-style:normal;text-decoration:none;color:var(--muted)}
+.legal a{display:inline-block;padding:13px 2px;margin:-13px 0}
+/* shelves alternate sides so five rows don't read as one repeated block */
+@media (min-width:901px){.shelf:nth-of-type(even){grid-template-columns:1fr 240px}.shelf:nth-of-type(even)>div:first-child{order:2;text-align:right}.shelf:nth-of-type(even) .books{justify-content:end;direction:rtl}.shelf:nth-of-type(even) .books>li{direction:ltr}}
+@media (max-width:900px){body{font-size:17px}.bk small,.trk time,.legend,.card .tag{font-size:15px}}
+.hero .pick{align-items:start}
 </style>
 </head><body>
 <a class="skip" href="#main">Skip to the books</a>
@@ -315,17 +338,18 @@ a,button{touch-action:manipulation}
 <div class="ribbon" aria-hidden="true"><div class="ribbon-track"><span>The Long After</span><span>The Silence</span><span>At Will</span><span>The Repair</span><span>The Loop</span><span>The Weighing</span><span>The Slow Take</span><span>The Sovereign Divine Feminine</span><span>The Long After</span><span>The Silence</span><span>At Will</span><span>The Repair</span><span>The Loop</span><span>The Weighing</span><span>The Slow Take</span><span>The Sovereign Divine Feminine</span></div></div>
 <main id="main">
 <section class="hero" id="start-here" data-nav="books"><span class="anchor" id="top"></span><div class="wrap"><div>
-<h1>Free books for the moment you start to wonder.</h1>
+<h1><span class="ln"><span>Free books for</span></span> <span class="ln"><span>the moment you</span></span> <span class="ln"><span>start to wonder.</span></span></h1>
 <p class="lede">Field guides on manipulation and control, written plainly by Shae Stovell. Free to read, nothing to sign up for.</p>
 <p class="ask" id="ask">What's happening?</p>
-<div class="chips" role="group" aria-labelledby="ask"><button class="chip" type="button" data-s="close" aria-pressed="false">Someone close to me</button><button class="chip" type="button" data-s="work" aria-pressed="false">Work or money</button><button class="chip" type="button" data-s="family" aria-pressed="false">My kids or my parents</button><button class="chip" type="button" data-s="festival" aria-pressed="false">At a festival</button><button class="chip" type="button" data-s="looking" aria-pressed="false">Just looking</button></div></div>
+<div class="chips" role="group" aria-labelledby="ask"><button class="chip" type="button" data-s="close" aria-pressed="false">Someone close to me</button><button class="chip" type="button" data-s="work" aria-pressed="false">Work or money</button><button class="chip" type="button" data-s="family" aria-pressed="false">My kids or my parents</button><button class="chip" type="button" data-s="festival" aria-pressed="false">At a festival</button><button class="chip" type="button" data-s="looking" aria-pressed="false">Just looking</button></div>
+<p class="vh" id="result-status" role="status"></p>
+<div class="result" id="result" role="region" aria-labelledby="result-title"><div><div class="result-inner">
+<div class="result-head"><h2 id="result-title">Your starting point</h2><button class="redo" id="redo" type="button">Change answer</button><p class="muted" id="result-note"></p></div>
+<div class="result-grid" id="result-grid"></div></div></div></div></div>
 <figure class="stage"><div class="halo"></div><div class="book-in"><div class="book-tilt"><div class="book3d"><span class="sp"></span><div class="inside" aria-hidden="true"><span class="page-k">Chapter one</span><span class="lines"></span><span class="page-sig"></span></div><div class="face" id="hero-face"><div class="leaf" id="hero-leaf"><span class="sheen" aria-hidden="true"></span><img id="hero-cover" src="/media/v18/longafter-760.webp" width="760" height="1133" alt="The Long After, cover" fetchpriority="high" decoding="async"></div></div><span class="pg"></span></div></div></div>
 <figcaption>Your answer turns the book.</figcaption></figure></div></section>
 
-<p class="vh" id="result-status" role="status"></p>
-<section class="result" id="result" aria-labelledby="result-title"><div><div class="wrap result-inner">
-<div class="result-head"><h2 id="result-title" class="h3" style="font-size:var(--t-h3)">Your starting point</h2><button class="redo" id="redo" type="button">Change answer</button><p class="muted" id="result-note" style="flex-basis:100%"></p></div>
-<div class="result-grid" id="result-grid"></div></div></div></section>
+
 
 <section class="sec" id="library" data-nav="books"><div class="wrap">
 <div class="sec-head"><h2>The library</h2><p class="muted">Fourteen free books. Find the shelf that sounds like your life; each one opens straight to the first chapter.</p></div>
@@ -341,7 +365,7 @@ a,button{touch-action:manipulation}
 <div class="tools"><a class="tool" href="/playbook"><img src="/media/v18/playbook-480.webp" width="480" height="715" alt="" loading="lazy" decoding="async"><span><h3>The Pattern Decoder</h3><p class="muted">335 tactics in plain words: what each looks like, what it isn&#x27;t, and a safe next step.</p></span></a><a class="tool" href="/shadowroot"><img src="/media/v18/shadowroot-480.webp" width="480" height="715" alt="" loading="lazy" decoding="async"><span><h3>The Root</h3><p class="muted">A shadow-work practice in eighteen guided steps. Three minutes or an evening.</p></span></a></div></div></section>
 
 <section class="sec music" id="music" data-nav="music"><div class="wrap"><div class="music-head"><div><h2>The Listening Room</h2><p class="muted" style="margin-top:16px">Songs written and produced by Shae: call-outs, love songs, festival anthems.</p></div>
-<a class="more" href="/music">All 176 songs</a></div>
+<p class="more is-off">176 songs, back soon</p></div>
 <ul class="tracks"><li class="trk" data-src="/music/audio/a-man-wrote-this-the-sovereign-divine-feminine.mp3" data-title="A Man Wrote This"><span class="n" aria-hidden="true">1</span><span><span class="t">A Man Wrote This</span><span class="s">The Reckoning</span></span><time>5:35</time><span class="bar" aria-hidden="true"><i></i></span></li><li class="trk" data-src="/music/audio/always-watching-the-watchers.mp3" data-title="Always Watching the Watchers"><span class="n" aria-hidden="true">2</span><span><span class="t">Always Watching the Watchers</span><span class="s">The Reckoning</span></span><time>4:06</time><span class="bar" aria-hidden="true"><i></i></span></li><li class="trk" data-src="/music/audio/halo-with-an-edge.mp3" data-title="Halo with an Edge"><span class="n" aria-hidden="true">3</span><span><span class="t">Halo with an Edge</span><span class="s">The Frequency</span></span><time>4:19</time><span class="bar" aria-hidden="true"><i></i></span></li><li class="trk" data-src="/music/audio/divine-counterpart.mp3" data-title="Divine Counterpart"><span class="n" aria-hidden="true">4</span><span><span class="t">Divine Counterpart</span><span class="s">The Frequency</span></span><time>5:11</time><span class="bar" aria-hidden="true"><i></i></span></li><li class="trk" data-src="/music/audio/dharma-is-my-safe-word.mp3" data-title="Dharma Is My Safe Word"><span class="n" aria-hidden="true">5</span><span><span class="t">Dharma Is My Safe Word</span><span class="s">The Frequency</span></span><time>4:38</time><span class="bar" aria-hidden="true"><i></i></span></li></ul><p class="note" id="music-note" role="status">The songs are being restored. Play buttons switch on when they are back.</p></div></section>
 
 <section class="threshold" id="art" data-nav="art" data-night="1"><span class="anchor" id="workshop"></span><span class="anchor" id="manifesto"></span><div class="wrap">
@@ -432,7 +456,8 @@ a,button{touch-action:manipulation}
   const result = $('#result'), heroImg = $('#hero-cover'), leaf = $('#hero-leaf'), book = $('.book3d'), status = $('#result-status');
   let turnT;
   const pickHTML = (k, item, href) => `<a class="pick" href="${href}"><img src="${item.img}" alt="" width="96" height="143" loading="lazy" decoding="async"><span><span class="k">${k}</span><b>${item.title}</b><small>${item.line}</small></span></a>`;
-  const reveal = () => { const r = result.getBoundingClientRect(); if (r.top > innerHeight * .6) scrollBy({ top: r.top - innerHeight * .45, behavior: smooth() }); };
+  // bring only the top of the card into view, never a long jump
+  const reveal = () => { const r = result.getBoundingClientRect(), over = r.top + Math.min(r.height, 220) - innerHeight; if (over > 0) scrollBy({ top: over + 24, behavior: smooth() }); };
   const swapCover = (src, alt, ar, done) => {
     if (heroImg.getAttribute('src') === src) { done(); return; }
     if (!hasG || reduce.matches) { book.style.setProperty('--ar', ar); heroImg.src = src; heroImg.alt = alt; done(); return; }
@@ -559,8 +584,14 @@ a,button{touch-action:manipulation}
     const cleanups = [];
     if (motion) {
       // the one orchestrated moment: the book arrives, floats briefly (under 5 s), then rests
-      gsap.from('.book-in', { y: 40, opacity: 0, duration: 1.2, ease: 'power3.out', delay: .1 });
-      gsap.from('.book-tilt', { rotationY: -30, duration: 1.2, ease: 'power3.out', delay: .1 });
+      gsap.from('h1 .ln>span', { yPercent: 105, duration: .9, stagger: .12, ease: 'power4.out', delay: .05 });
+      gsap.from('.lede, .ask, .chips', { y: 16, duration: .7, stagger: .08, ease: 'power3.out', delay: .45 });
+      gsap.from('.book-in', { y: -60, opacity: 0, duration: 1, ease: 'power3.out', delay: .35 });
+      gsap.from('.book-tilt', { rotationY: -30, duration: 1.2, ease: 'power3.out', delay: .35 });
+      // the cover lifts slightly, as if about to open, then settles: the scroll does the real opening
+      gsap.fromTo('.book-tilt', { rotationX: 0 }, { rotationX: -6, duration: .55, ease: 'power2.inOut', delay: 1.25, yoyo: true, repeat: 1 });
+      // the title strip drifts in once on arrival (4 s, then it follows the scroll)
+      gsap.from('.ribbon-track', { x: 220, duration: 4, ease: 'power2.out' });
       gsap.to('.book-in', { y: -10, duration: 1.1, ease: 'sine.inOut', yoyo: true, repeat: 3, delay: 1.3 });
       // shelf books arrive one at a time, once; hidden before the first paint of the shelf so they never blink
       gsap.set('.shelf .bk', { opacity: 0, y: 28, rotate: -1.5 });
@@ -574,7 +605,7 @@ a,button{touch-action:manipulation}
         hero.addEventListener('pointermove', onMove); cleanups.push(() => hero.removeEventListener('pointermove', onMove));
       }
     }
-    gsap.to('.ribbon-track', { xPercent: -30, ease: 'none', scrollTrigger: { trigger: document.body, start: 'top top', end: () => '+=' + innerHeight * 2.5, scrub: .8 } });
+    gsap.to('.ribbon-track', { xPercent: -45, ease: 'none', scrollTrigger: { trigger: document.body, start: 'top top', end: () => '+=' + innerHeight * 1.6, scrub: .8 } });
     gsap.fromTo('.book3d', { rotateY: -30, rotateX: 7, rotateZ: -3 }, { rotateY: -8, rotateX: 2, rotateZ: 0, ease: 'none', immediateRender: false,
       scrollTrigger: { trigger: '.hero', start: 'top top', end: 'bottom top', scrub: .6 } });
     gsap.fromTo('#hero-face', { rotateY: 0, '--sheen': '100%' }, { rotateY: -42, '--sheen': '0%', ease: 'none', immediateRender: false,

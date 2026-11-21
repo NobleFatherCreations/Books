@@ -96,6 +96,7 @@ def main():
     tools = "".join(f'<a class="tool" href="/{t["slug"]}"><img src="{t["img"]}" width="{t["w"]}" height="{t["h"]}" alt="" loading="lazy" decoding="async">'
                     f'<span><h3>{E(t["title"])}</h3><p class="muted">{E(t["line"])}</p></span></a>' for t in d["tools"])
     live = d["music"]["live"]
+    music_link = '<a class="more" href="/music">All 176 songs</a>' if live else '<p class="more is-off">176 songs, back soon</p>'
     tracks = "".join(
         f'<li class="trk" data-src="/music/audio/{E(t["file"])}" data-title="{E(t["title"])}">'
         + (f'<button class="play" type="button" aria-label="Play {E(t["title"])}">{PLAY}</button>' if live else f'<span class="n" aria-hidden="true">{i + 1}</span>')
@@ -132,17 +133,18 @@ def main():
 <div class="ribbon" aria-hidden="true"><div class="ribbon-track">{ribbon}</div></div>
 <main id="main">
 <section class="hero" id="start-here" data-nav="books"><span class="anchor" id="top"></span><div class="wrap"><div>
-<h1>Free books for the moment you start to wonder.</h1>
+<h1><span class="ln"><span>Free books for</span></span> <span class="ln"><span>the moment you</span></span> <span class="ln"><span>start to wonder.</span></span></h1>
 <p class="lede">Field guides on manipulation and control, written plainly by Shae Stovell. Free to read, nothing to sign up for.</p>
 <p class="ask" id="ask">What's happening?</p>
-<div class="chips" role="group" aria-labelledby="ask">{chips}</div></div>
+<div class="chips" role="group" aria-labelledby="ask">{chips}</div>
+<p class="vh" id="result-status" role="status"></p>
+<div class="result" id="result" role="region" aria-labelledby="result-title"><div><div class="result-inner">
+<div class="result-head"><h2 id="result-title">Your starting point</h2><button class="redo" id="redo" type="button">Change answer</button><p class="muted" id="result-note"></p></div>
+<div class="result-grid" id="result-grid"></div></div></div></div></div>
 <figure class="stage"><div class="halo"></div><div class="book-in"><div class="book-tilt"><div class="book3d"><span class="sp"></span><div class="inside" aria-hidden="true"><span class="page-k">Chapter one</span><span class="lines"></span><span class="page-sig"></span></div><div class="face" id="hero-face"><div class="leaf" id="hero-leaf"><span class="sheen" aria-hidden="true"></span><img id="hero-cover" src="{first["imgLg"]}" width="760" height="1133" alt="{E(first["title"])}, cover" fetchpriority="high" decoding="async"></div></div><span class="pg"></span></div></div></div>
 <figcaption>Your answer turns the book.</figcaption></figure></div></section>
 
-<p class="vh" id="result-status" role="status"></p>
-<section class="result" id="result" aria-labelledby="result-title"><div><div class="wrap result-inner">
-<div class="result-head"><h2 id="result-title" class="h3" style="font-size:var(--t-h3)">Your starting point</h2><button class="redo" id="redo" type="button">Change answer</button><p class="muted" id="result-note" style="flex-basis:100%"></p></div>
-<div class="result-grid" id="result-grid"></div></div></div></section>
+
 
 <section class="sec" id="library" data-nav="books"><div class="wrap">
 <div class="sec-head"><h2>The library</h2><p class="muted">Fourteen free books. Find the shelf that sounds like your life; each one opens straight to the first chapter.</p></div>
@@ -158,7 +160,7 @@ def main():
 <div class="tools">{tools}</div></div></section>
 
 <section class="sec music" id="music" data-nav="music"><div class="wrap"><div class="music-head"><div><h2>The Listening Room</h2><p class="muted" style="margin-top:16px">Songs written and produced by Shae: call-outs, love songs, festival anthems.</p></div>
-<a class="more" href="/music">All 176 songs</a></div>
+{music_link}</div>
 <ul class="tracks">{tracks}</ul><p class="note" id="music-note" role="status">{"" if live else E(d["music"]["note"])}</p></div></section>
 
 <section class="threshold" id="art" data-nav="art" data-night="1"><span class="anchor" id="workshop"></span><span class="anchor" id="manifesto"></span><div class="wrap">
