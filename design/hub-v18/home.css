@@ -303,3 +303,5 @@ h1 .ln>span{display:block}
 @media (min-width:901px){.shelf:nth-of-type(even){grid-template-columns:1fr 240px}.shelf:nth-of-type(even)>div:first-child{order:2;text-align:right}.shelf:nth-of-type(even) .books{justify-content:end;direction:rtl}.shelf:nth-of-type(even) .books>li{direction:ltr}}
 @media (max-width:900px){body{font-size:17px}.bk small,.trk time,.legend,.card .tag{font-size:15px}}
 .hero .pick{align-items:start}
+.hero .result-grid{grid-template-columns:1fr;gap:var(--s1)}
+.hero .pick{align-items:center}

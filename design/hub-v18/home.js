@@ -168,15 +168,15 @@
     const cleanups = [];
     if (motion) {
       // the one orchestrated moment: the book arrives, floats briefly (under 5 s), then rests
-      gsap.from('h1 .ln>span', { yPercent: 105, duration: .9, stagger: .12, ease: 'power4.out', delay: .05 });
-      gsap.from('.lede, .ask, .chips', { y: 16, duration: .7, stagger: .08, ease: 'power3.out', delay: .45 });
-      gsap.from('.book-in', { y: -60, opacity: 0, duration: 1, ease: 'power3.out', delay: .35 });
-      gsap.from('.book-tilt', { rotationY: -30, duration: 1.2, ease: 'power3.out', delay: .35 });
+      gsap.from('h1 .ln>span', { yPercent: 110, duration: 1.1, stagger: .14, ease: 'expo.out', delay: .2 });
+      gsap.from('.lede, .ask, .chips', { y: 18, duration: .8, stagger: .1, ease: 'expo.out', delay: .7 });
+      gsap.from('.book-in', { y: -70, opacity: 0, duration: 1.1, ease: 'expo.out', delay: .5 });
+      gsap.from('.book-tilt', { rotationY: -34, duration: 1.4, ease: 'expo.out', delay: .5 });
       // the cover lifts slightly, as if about to open, then settles: the scroll does the real opening
-      gsap.fromTo('.book-tilt', { rotationX: 0 }, { rotationX: -6, duration: .55, ease: 'power2.inOut', delay: 1.25, yoyo: true, repeat: 1 });
+      gsap.fromTo('.book-tilt', { rotationX: 0 }, { rotationX: -6, duration: .55, ease: 'power2.inOut', delay: 1.6, yoyo: true, repeat: 1 });
       // the title strip drifts in once on arrival (4 s, then it follows the scroll)
       gsap.from('.ribbon-track', { x: 220, duration: 4, ease: 'power2.out' });
-      gsap.to('.book-in', { y: -10, duration: 1.1, ease: 'sine.inOut', yoyo: true, repeat: 3, delay: 1.3 });
+      gsap.to('.book-in', { y: -10, duration: 1.1, ease: 'sine.inOut', yoyo: true, repeat: 3, delay: 1.7 });
       // shelf books arrive one at a time, once; hidden before the first paint of the shelf so they never blink
       gsap.set('.shelf .bk', { opacity: 0, y: 28, rotate: -1.5 });
       ScrollTrigger.batch('.shelf .bk', { start: 'top 92%', once: true,

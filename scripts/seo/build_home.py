@@ -168,7 +168,7 @@ def main():
 <p class="muted">The Workshop: hand-poured resin pendants with a strontium glow and a chip inside that plays a song, a message or a memory when a phone touches it.</p></div></section>
 
 <section class="workshop" data-nav="art" data-night="1"><div class="wrap">
-<h3>The Portals</h3><p class="muted" style="margin-top:8px">A portfolio of finished pieces. Strontium drinks in light and gives it back in the dark: press and hold a pendant to charge it, then let go. The shop opens soon.</p>
+<h3>The Portals</h3><p class="muted" style="margin-top:8px">A portfolio of finished pieces. Strontium drinks in light and gives it back in the dark: press and hold a pendant to charge it, then let go. Every photo shows the real glow: blue or green, depending on the pigment. The shop opens soon.</p>
 <ul class="pairs portals">{pairs}</ul>
 <a class="more" href="/portals" style="margin-top:24px">See every Portal</a>
 <div class="wk-row" id="guide" data-nav="nfc">
