@@ -1,0 +1,20 @@
+// owner round: header switches, menu with the two tools, NFC reading-position image, a real touch hold on a pendant; desktop nav at 1024
+import { chromium, devices } from 'playwright';
+const b = await chromium.launch(); const ctx = await b.newContext({ ...devices['iPhone 13'] }); const p = await ctx.newPage(); const errs = []; p.on('pageerror', e => errs.push(String(e)));
+await p.route('**/api/visits', r => r.fulfill({ contentType: 'application/json', body: '{"visits":880}' }));
+await p.goto('http://127.0.0.1:8765/', { waitUntil: 'networkidle' }); await p.waitForTimeout(4500);
+await p.screenshot({ path: 'qa/v19/shots/o2-1-header.png', clip: { x: 0, y: 0, width: 390, height: 300 } });
+await p.tap('#menu-btn'); await p.waitForTimeout(500); await p.screenshot({ path: 'qa/v19/shots/o2-2-menu.png' }); await p.tap('#sheet-close'); await p.waitForTimeout(400);
+await p.evaluate(() => { const e = document.querySelector('.card.guide'); scrollTo({ top: e.getBoundingClientRect().top + scrollY - 70, behavior: 'instant' }); }); await p.waitForTimeout(900);
+await p.screenshot({ path: 'qa/v19/shots/o2-3-nfc.png' });
+await p.evaluate(() => { const e = document.querySelector('.portal'); scrollTo({ top: e.getBoundingClientRect().top + scrollY - 120, behavior: 'instant' }); }); await p.waitForTimeout(900);
+await p.screenshot({ path: 'qa/v19/shots/o2-4-portal.png' });
+const bb = await (await p.$('.portal')).boundingBox(); const cdp = await ctx.newCDPSession(p); const pt = { x: Math.round(bb.x + bb.width / 2), y: Math.round(bb.y + bb.height / 2) };
+await cdp.send('Input.dispatchTouchEvent', { type: 'touchStart', touchPoints: [pt] }); await p.waitForTimeout(900); await p.screenshot({ path: 'qa/v19/shots/o2-5-charging.png' });
+await cdp.send('Input.dispatchTouchEvent', { type: 'touchEnd', touchPoints: [] }); await p.waitForTimeout(800); await p.screenshot({ path: 'qa/v19/shots/o2-6-glow.png' });
+const glowing = await p.evaluate(() => document.querySelector('.portal').classList.contains('is-glowing'));
+await ctx.close();
+const d = await b.newPage({ viewport: { width: 1024, height: 768 } }); await d.route('**/api/visits', r => r.fulfill({ contentType: 'application/json', body: '{"visits":880}' }));
+await d.goto('http://127.0.0.1:8765/', { waitUntil: 'networkidle' }); await d.waitForTimeout(1500);
+const ov = await d.evaluate(() => document.documentElement.scrollWidth - innerWidth); await d.screenshot({ path: 'qa/v19/shots/o2-7-desk1024.png', clip: { x: 0, y: 0, width: 1024, height: 90 } });
+await b.close(); console.log(JSON.stringify({ glowing, overflow1024: ov, errs }));

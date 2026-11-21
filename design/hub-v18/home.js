@@ -90,7 +90,7 @@
   const showSound = () => soundBtns.forEach(b => b.setAttribute('aria-pressed', String(snd.on)));
   soundBtns.forEach(b => b.addEventListener('click', () => { if (still && !snd.on) setStill(false); snd.set(!snd.on); showSound(); snd.play('tick'); buzz(6); }));
   const setStill = v => {
-    still = v; stillBtns.forEach(b => b.setAttribute('aria-pressed', String(v))); root.classList.toggle('is-still', v);
+    still = v; stillBtns.forEach(b => b.setAttribute('aria-pressed', String(b.id === 'still-btn' ? !v : v))); root.classList.toggle('is-still', v);
     if (v) { snd.set(false); showSound(); if (window.__nfAudio) window.__nfAudio.pause(); }
     rebuild();
   };
@@ -263,7 +263,9 @@
     const redraw = () => {
       sizeCv(); gx.globalCompositeOperation = 'source-over'; gx.clearRect(0, 0, S, S);
       if (!painted()) return;
+      // painted light at full strength on top of the whole pendant's own glow, so a short hold still clearly glows
       gx.drawImage(night, 0, 0, S, S); gx.globalCompositeOperation = 'destination-in'; gx.drawImage(map, 0, 0, S, S);
+      gx.globalCompositeOperation = 'destination-over'; gx.globalAlpha = .7; gx.drawImage(night, 0, 0, S, S); gx.globalAlpha = 1;
     };
     const clearMap = () => { mx.clearRect(0, 0, 96, 96); redraw(); };
     const paint = () => {
@@ -273,7 +275,7 @@
     };
     const rest = () => { fig.classList.remove('is-glowing', 'is-charging'); label.textContent = 'Hold to charge'; };
     // while held, the light spreads out from the finger and soaks in
-    const soak = () => { if (!held) return; brushR = Math.min(.8, brushR + .012); paintAt(px, py, brushR, .16); redraw(); requestAnimationFrame(soak); };
+    const soak = () => { if (!held) return; brushR = Math.min(.85, brushR + .02); paintAt(px, py, brushR, .2); redraw(); requestAnimationFrame(soak); };
     const decay = (peak, len, done) => {
       if (glowT) glowT.kill();
       glowT = gsap.timeline()
@@ -289,7 +291,7 @@
       live.textContent = `${name} is glowing in the dark.`;
       if (!hasG || calm()) { v.g = 1; v.c = 0; paint(); return; }   // reduced motion: it simply glows until charged again
       const full = v.c > .97;
-      decay(Math.min(1, .35 + v.c), GLOW_S * Math.max(.4, v.c));
+      decay(Math.min(1, .6 + v.c), GLOW_S * Math.max(.5, v.c));
       if (full) lightsOff(li);
     };
     const charge = () => {
@@ -672,17 +674,6 @@
           gsap.fromTo(t, { '--rx': '8deg' }, { '--rx': '0deg', ease: 'none', scrollTrigger: { trigger: t, start: 'top 95%', end: 'top 60%', scrub: .4 } });
         });
       }
-      // NFC guide: a phone comes down onto a wax seal, the seal answers in rings, a note appears on the screen (twice, then rests)
-      const td = gsap.timeline({ paused: true, repeat: 1, repeatDelay: .4 })
-        .fromTo('.td-phone', { y: -18 }, { y: 6, duration: .55, ease: 'power2.in' })
-        .add(() => buzz(5))
-        .fromTo('.td-rip circle', { scale: 1, opacity: .9, svgOrigin: '80 84' }, { scale: 2.6, opacity: 0, duration: .9, stagger: .18, ease: 'power2.out' })
-        .to('.td-screen', { opacity: .5, duration: .3 }, '<')
-        .to('.td-note', { opacity: 1, duration: .3 }, '<+.1')
-        .to('.td-phone', { y: -18, duration: .6, ease: 'power2.out' }, '+=.4')
-        .to('.td-screen', { opacity: .08, duration: .4 }, '<')
-        .to('.td-note', { opacity: 0, duration: .3 }, '<');
-      ScrollTrigger.create({ trigger: '.card.guide', start: 'top 75%', once: true, onEnter: () => td.play(0) });
       // The Press stamps down; The Casting pours and its figure rises
       const [sealIco, castIco] = $$('.mk .mk-ico');
       ScrollTrigger.create({ trigger: '.making', start: 'top 85%', once: true, onEnter: () => {

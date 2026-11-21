@@ -58,7 +58,9 @@ for (const [name, w, h] of [['375', 375, 812], ['1440', 1440, 900]]) {
 
   // nav: every top item scrolls on this page (the NFC trip passes the other sections)
   const nav = await page.$$eval('.nav a', (els) => els.map((e) => e.getAttribute('href')));
-  nav.every((h) => h.startsWith('#')) ? ok('top navigation stays on the page: ' + nav.join(' ')) : fail('nav leaves the page: ' + nav.join(' '));
+  // owner 2026-11-21: the menu links the Pattern Decoder and The Root directly; everything else (NFC guide included) scrolls on this page
+  nav.every((h) => h.startsWith('#') || h === '/playbook' || h === '/shadowroot') && nav.includes('#guide') && nav.includes('/playbook') && nav.includes('/shadowroot')
+    ? ok('top navigation: sections on this page, plus the Pattern Decoder and The Root: ' + nav.join(' ')) : fail('nav: ' + nav.join(' '));
 
   const sheetFocusable = await page.evaluate(() => { const s = document.querySelector('#sheet'); return getComputedStyle(s).display !== 'none' && !s.hasAttribute('data-open'); });
   sheetFocusable ? fail('closed phone menu is still in the tab order') : ok('closed phone menu is out of the tab order');
@@ -110,17 +112,17 @@ for (const [name, w, h] of [['375', 375, 812], ['1440', 1440, 900]]) {
   (await page.evaluate(() => window.__ac)) === 0 ? ok('no sound starts without a tap (rule 5)') : fail('an audio context started without a tap');
   await page.evaluate(() => scrollTo(0, 0)); await page.waitForTimeout(300);
   await page.click('#still-btn'); await page.waitForTimeout(400);
-  const st = await page.evaluate(() => ({ cls: document.documentElement.classList.contains('is-still'), pressed: document.querySelector('#still-btn').getAttribute('aria-pressed'),
+  const st = await page.evaluate(() => ({ cls: document.documentElement.classList.contains('is-still'), pressed: document.querySelector('#still-btn').getAttribute('aria-pressed') === 'false' ? 'true' : 'no',
     running: gsap.getTweensOf('.book-in, .book-tilt, .ribbon-track').filter(t => t.isActive() && !t.scrollTrigger).length }));
   st.cls && st.pressed === 'true' && st.running === 0 ? ok('Still stops every self-running effect') : fail('Still did not stop motion: ' + JSON.stringify(st));
-  if (w > 900) await page.click('#sound-btn'); else { await page.click('#menu-btn'); await page.waitForTimeout(350); await page.click('#sheet-sound'); }
+  await page.click('#sound-btn');
   await page.waitForTimeout(200);
-  const so = await page.evaluate(() => ({ ac: window.__ac, still: document.documentElement.classList.contains('is-still'), pressed: document.querySelector('#sheet-sound').getAttribute('aria-pressed') }));
+  const so = await page.evaluate(() => ({ ac: window.__ac, still: document.documentElement.classList.contains('is-still'), pressed: document.querySelector('#sound-btn').getAttribute('aria-pressed') }));
   so.ac === 1 && !so.still && so.pressed === 'true' ? ok('Sound starts on a tap and lifts Still') : fail('Sound switch: ' + JSON.stringify(so));
-  if (w <= 900) { await page.click('#sheet-still'); } else await page.click('#still-btn');
+  await page.click('#still-btn');
   await page.waitForTimeout(200);
   (await page.evaluate(() => document.querySelector('#sound-btn').getAttribute('aria-pressed'))) === 'false' ? ok('Still also silences sound') : fail('Still left sound on');
-  if (w <= 900) { await page.click('#sheet-still'); await page.click('#sheet-close'); } else await page.click('#still-btn');
+  await page.click('#still-btn');
   await page.waitForTimeout(400);
   errors.length ? fail('console/page errors: ' + errors.slice(0, 3).join(' | ')) : ok('no console or page errors');
   await page.close();

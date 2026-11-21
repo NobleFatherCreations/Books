@@ -545,3 +545,22 @@ html{background:var(--night)}
 /* final sweep: Still also stops the seal's idle glow; a playing song never hides the end of the page */
 .is-still .nf-seal::after{animation:none}
 html.is-playing body{padding-bottom:96px}
+/* owner round: switches in view, the reading-position diagram, a hold that clearly works */
+.nfc-pos{display:block;width:100%;max-width:340px;height:auto;border-radius:8px;margin:0 0 var(--s3);background:#fff}
+.ico.sw[aria-pressed="false"] .on,.ico.sw[aria-pressed="true"] .off{display:none}
+.ico.sw[aria-pressed="true"] .on,.ico.sw[aria-pressed="false"] .off{display:inline}
+@media (max-width:900px){
+ #sound-btn{display:inline-flex}
+ .ico.sw{flex-direction:column;gap:1px;min-width:48px;padding:0 4px;border-radius:12px}
+ .ico.sw .ico-w{display:block;font-size:10px;font-weight:600;letter-spacing:.02em;line-height:1}
+ .ico.sw svg{width:18px;height:18px}
+ .brand{font-size:19px}
+}
+@media (max-width:389px){.brand{font-size:16px}.leave{padding:0 10px;font-size:14px}.top-actions{gap:3px}}
+@media (max-width:359px){#still-btn{display:inline-flex}.brand{font-size:14px}}
+.portal{touch-action:none}
+.portal .hint{position:absolute;left:50%;bottom:12px;transform:translateX(-50%);z-index:3;padding:6px 12px;border-radius:999px;background:#07090acc;border:1px solid #86ecd255;color:#fff;font-size:13px;font-weight:600;pointer-events:none;transition:opacity .3s var(--ease-out)}
+.portal.is-charging .hint,.portal.is-glowing .hint{opacity:0}
+.portal.is-charging{box-shadow:0 0 0 2px #86ecd255,0 0 calc(var(--c,0) * 40px) calc(var(--c,0) * 6px) #fff3e0aa}
+@media (max-width:420px){.brand{font-size:17px}.ico.sw{min-width:44px}.top-actions{gap:3px}}
+@media (max-width:359px){.brand{font-size:0;letter-spacing:0}.brand::before{content:"NF";font-size:20px}}

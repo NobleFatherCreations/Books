@@ -45,7 +45,7 @@ def chrome_parts():
     js = js.replace(old_end, "    }\n  },true);\n  // bookmark ribbon")
     return css, js
 
-ONPAGE = [("#welcome", "Where to go"), ("#start-here", "Start here"), ("#library", "The Library"), ("#tools", "Free tools"),
+ONPAGE = [("#welcome", "Where to go"), ("#start-here", "Start here"), ("#library", "The Library"), ("/playbook", "The Pattern Decoder"), ("/shadowroot", "The Root"),
           ("#music", "The Listening Room"), ("#art", "The Portals"), ("#guide", "NFC guide"), ("#support", "Support the work"), ("/topics", "Topics A to Z")]
 
 def chrome_html():
@@ -122,6 +122,7 @@ def main():
     for i, p in enumerate(d["portals"]):
         p["dayImg"] = webp(SRC / "img" / p["day"], f"portal-{i}-day", 720)[0]
         p["nightImg"] = webp(SRC / "img" / p["night"], f"portal-{i}-night", 720)[0]
+    nfcpos = webp(SRC / "img" / "nfc-reading-position.jpg", "nfc-reading-position", 640, 78)[0]
     d["guide"]["src"] = webp(SRC / "img" / d["guide"]["img"], "nfc-guide", 640)[0]
     for t in d["music"]["tracks"]:
         t["dur"] = round(man[t["file"]]["duration"])
@@ -179,7 +180,7 @@ def main():
               # the whole Listening Room catalogue, compact: [title, file, seconds, shelf index]; rows are built only when someone opens the list
               "songs": {"shelves": [sh["name"] for sh in MUSIC["shelves"]],
                         "t": [[t["title"], t["file"], round(t["duration"]), [sh["id"] for sh in MUSIC["shelves"]].index(t["shelf"])] for t in MUSIC["tracks"]]}}
-    nav = [("books", "#library", "Books"), ("tools", "#tools", "Tools"), ("music", "#music", "Music"), ("art", "#art", "Art"), ("nfc", "#guide", "NFC guide")]
+    nav = [("books", "#library", "Books"), ("decoder", "/playbook", "Pattern Decoder"), ("root", "/shadowroot", "The Root"), ("music", "#music", "Music"), ("art", "#art", "Art"), ("nfc", "#guide", "NFC guide")]
     navhtml = "".join(f'<a href="{h}" data-nav="{k}">{t}</a>' for k, h, t in nav)
     sheet_links = "".join(f'<a href="{h}">{t}</a>' for k, h, t in nav) + '<a href="/topics">Topics A to Z</a><a href="#support">Support the work</a>'
 
@@ -188,10 +189,10 @@ def main():
     body = f"""<a class="skip" href="#main">Skip to the books</a>
 <header class="top"><div class="wrap"><a class="brand" href="/">Noble Father</a>
 <nav class="nav" aria-label="Sections"><span class="pill" aria-hidden="true"></span>{navhtml}</nav>
-<div class="top-actions"><button class="ico" id="sound-btn" type="button" aria-label="Sound" aria-pressed="false" title="Sound is off until you turn it on"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M11 4.702a.705.705 0 0 0-1.203-.498L6.413 7.587A1.4 1.4 0 0 1 5.416 8H3a1 1 0 0 0-1 1v6a1 1 0 0 0 1 1h2.416a1.4 1.4 0 0 1 .997.413l3.383 3.384A.705.705 0 0 0 11 19.298z"/><g class="on"><path d="M16 9a5 5 0 0 1 0 6"/><path d="M19.364 18.364a9 9 0 0 0 0-12.728"/></g><g class="off"><line x1="22" x2="16" y1="9" y2="15"/><line x1="16" x2="22" y1="9" y2="15"/></g></svg><span class="ico-w">Sound</span></button><button class="ico" id="still-btn" type="button" aria-label="Still" aria-pressed="false" title="Stop every moving effect and sound"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="10"/><line x1="10" x2="10" y1="15" y2="9"/><line x1="14" x2="14" y1="15" y2="9"/></svg><span class="ico-w">Still</span></button><button class="menu-btn" id="menu-btn" type="button" aria-label="Menu" aria-expanded="false" aria-controls="sheet"><svg viewBox="0 0 24 24" aria-hidden="true"><line x1="4" x2="20" y1="7" y2="7"/><line x1="4" x2="20" y1="12" y2="12"/><line x1="4" x2="20" y1="17" y2="17"/></svg><span class="menu-w">Menu</span></button>
+<div class="top-actions"><button class="ico sw" id="sound-btn" type="button" aria-label="Sound" aria-pressed="false" title="Sound on or off (off until you turn it on)"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M11 4.702a.705.705 0 0 0-1.203-.498L6.413 7.587A1.4 1.4 0 0 1 5.416 8H3a1 1 0 0 0-1 1v6a1 1 0 0 0 1 1h2.416a1.4 1.4 0 0 1 .997.413l3.383 3.384A.705.705 0 0 0 11 19.298z"/><g class="on"><path d="M16 9a5 5 0 0 1 0 6"/><path d="M19.364 18.364a9 9 0 0 0 0-12.728"/></g><g class="off"><line x1="22" x2="16" y1="9" y2="15"/><line x1="16" x2="22" y1="9" y2="15"/></g></svg><span class="ico-w">Sound</span></button><button class="ico sw" id="still-btn" type="button" aria-label="Motion" aria-pressed="true" title="Moving effects on or off"><svg viewBox="0 0 24 24" aria-hidden="true"><g class="on"><path d="M12 3l1.8 4.9L19 9.7l-4.2 3.2 1.4 5.1L12 15.2 7.8 18l1.4-5.1L5 9.7l5.2-1.8z"/></g><g class="off"><circle cx="12" cy="12" r="9"/><line x1="10" x2="10" y1="15" y2="9"/><line x1="14" x2="14" y1="15" y2="9"/></g></svg><span class="ico-w">Motion</span></button><button class="menu-btn" id="menu-btn" type="button" aria-label="Menu" aria-expanded="false" aria-controls="sheet"><svg viewBox="0 0 24 24" aria-hidden="true"><line x1="4" x2="20" y1="7" y2="7"/><line x1="4" x2="20" y1="12" y2="12"/><line x1="4" x2="20" y1="17" y2="17"/></svg><span class="menu-w">Menu</span></button>
 <a class="leave" href="https://www.google.com/search?q=weather" data-leave title="Leave this site now (or press Esc twice)">Leave now</a></div></div><span class="progress" aria-hidden="true"><i></i></span></header>
 <div class="nowbar" id="nowbar" hidden><button class="play" id="np-play" type="button" aria-label="Pause">{PAUSE}</button><span class="np-t"><span class="np-k">Now playing</span><b id="np-title"></b></span><button class="np-next" id="np-next" type="button" aria-label="Next song"><svg viewBox="0 0 14 14" aria-hidden="true"><path d="M2 1l8 6-8 6zM11 1h2v12h-2z"/></svg></button><span class="np-bar" aria-hidden="true"><i id="np-prog"></i></span></div>
-<div class="sheet" id="sheet" hidden><div class="sheet-panel" role="dialog" aria-modal="true" aria-label="Menu">{sheet_links}<div class="sheet-row"><button class="btn sheet-sound" id="sheet-still" type="button" aria-pressed="false"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="10"/><line x1="10" x2="10" y1="15" y2="9"/><line x1="14" x2="14" y1="15" y2="9"/></svg>Still</button><button class="btn sheet-sound" id="sheet-sound" type="button" aria-pressed="false"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M11 4.702a.705.705 0 0 0-1.203-.498L6.413 7.587A1.4 1.4 0 0 1 5.416 8H3a1 1 0 0 0-1 1v6a1 1 0 0 0 1 1h2.416a1.4 1.4 0 0 1 .997.413l3.383 3.384A.705.705 0 0 0 11 19.298z"/><g class="on"><path d="M16 9a5 5 0 0 1 0 6"/><path d="M19.364 18.364a9 9 0 0 0 0-12.728"/></g><g class="off"><line x1="22" x2="16" y1="9" y2="15"/><line x1="16" x2="22" y1="9" y2="15"/></g></svg>Sound</button></div><button class="btn sheet-close" id="sheet-close" type="button">Close</button></div></div>
+<div class="sheet" id="sheet" hidden><div class="sheet-panel" role="dialog" aria-modal="true" aria-label="Menu">{sheet_links}<button class="btn sheet-close" id="sheet-close" type="button">Close</button></div></div>
 <div class="ribbon" aria-hidden="true"><div class="ribbon-track">{ribbon}</div></div>
 <main id="main">
 <section class="doors" id="welcome" aria-labelledby="welcome-title"><span class="anchor" id="top"></span><div class="wrap">
@@ -239,7 +240,7 @@ def main():
 <ul class="pairs portals">{pairs}</ul>
 <a class="more" href="/portals" style="margin-top:24px">See every Portal</a>
 <div class="wk-row" id="guide" data-nav="nfc">
-<a class="card guide" href="{E(g["url"])}"><img src="{g["src"]}" width="600" height="852" alt="" loading="lazy" decoding="async"><span><svg class="tapdemo" viewBox="0 -20 160 130" aria-hidden="true"><g class="td-rip" fill="none" stroke="#86ecd2" stroke-width="2"><circle cx="80" cy="84" r="14"/><circle cx="80" cy="84" r="14"/><circle cx="80" cy="84" r="14"/></g><g class="td-seal"><circle cx="80" cy="84" r="20" fill="#9a3a2c"/><circle cx="80" cy="84" r="12" fill="none" stroke="#5e1f16" stroke-width="2"/><path d="M75 89V79l10 10V79" fill="none" stroke="#5e1f16" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></g><g class="td-phone"><rect x="58" y="6" width="44" height="72" rx="8" fill="#101418" stroke="#86ecd2" stroke-width="2"/><rect class="td-screen" x="63" y="14" width="34" height="54" rx="3" fill="#86ecd2" opacity=".08"/><path class="td-note" d="M76 50V34l10-3v15" fill="none" stroke="#86ecd2" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" opacity="0"/></g></svg><span class="tag">Free guide</span><h3>{E(g["title"])}</h3><p class="muted">{E(g["line"])}</p><span class="btn">Read the guide</span></span></a>
+<a class="card guide" href="{E(g["url"])}"><img src="{g["src"]}" width="600" height="852" alt="" loading="lazy" decoding="async"><span><img class="nfc-pos" src="{nfcpos}" width="640" height="632" alt="Where to hold the phone: near the top of the back on an iPhone (XR and later), the centre or top of the back on Android" loading="lazy" decoding="async"><span class="tag">Free guide</span><h3>{E(g["title"])}</h3><p class="muted">{E(g["line"])}</p><span class="btn">Read the guide</span></span></a>
 <div class="making"><p>In the making</p>{making}</div></div></div></section>
 
 <section class="support" id="support" data-night="1"><div class="wrap"><div><h2 style="font-size:clamp(32px,2vw + 18px,48px)">Every book is free, and always will be.</h2>

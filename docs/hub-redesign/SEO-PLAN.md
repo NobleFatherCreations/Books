@@ -25,3 +25,18 @@ Owner, 2026-11-21: "How can we build the seo that leads as many ways as possible
 - The same "Look up a pattern" links inside each book's closing pages (connectors only, never the book's wording).
 - A short definition paragraph at the top of each Topics A to Z entry (new words: owner approval needed).
 - Recheck rankings in Search Console after about four weeks and add homepage links for the searches that show up.
+
+## Whole-site SEO status, measured 2026-11-21 (scripts/seo/verify_seo.py + link counts)
+| Book | Own chapter pages | Passes the findability check | Links into the Pattern Decoder |
+|---|---|---|---|
+| The Sovereign Divine Feminine | 48 | yes | 140 links on 42 pages |
+| The Fractal | 36 | no: its sitemap misses the share-card source pages (render sources only; tidy-up) | 197 on 34 |
+| The Festie Codex | 66 | yes | 42 on 22 |
+| The Festie Bible | 293 | yes | 59 on 49 |
+| The Fracture | 15 | yes | 6 on 4 |
+| The Sacred Divide | 35 | yes | none |
+| Playground Protectors (kids) | 37 | yes | none (children's book: owner to decide) |
+| The Long After, The Silence, The Repair, At Will, The Slow Take, The Loop, The Weighing | **1 page each; text inside JavaScript** | **no** (no share image, no canonical, no structured data; crawlers see ~200 words) | none |
+| Pattern Decoder | 380 pages | built right (titles, descriptions, canonical, DefinedTerm data, sitemap) | links back to the books from 118 pages |
+
+**Round 2 of the 2026-11-08 plan (docs/SEO-AEO-PLAN.md) was never done**: the seven one-page books need the same treatment the first seven got (crawlable chapter pages, chapter titles and descriptions from the book's own sentences, structured data, a share card, a sitemap, and links from each chapter to the Decoder pages it covers). These are the coercive-control books with the most search demand, so this is the biggest SEO gain left.
