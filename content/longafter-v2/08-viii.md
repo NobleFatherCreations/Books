@@ -142,7 +142,6 @@ A predictable routine tells your body it's safe to sleep:
 - Dim lights an hour before bed.
 - Put screens away, especially messages from them.
 - Do the same few calm things each night: a shower, a book, a stretch, a warm drink without caffeine.
-- Go to bed when you're sleepy, not just tired.
 
 ## Making the bedroom feel safe
 If you're on alert at night, small changes can help:
@@ -357,7 +356,7 @@ You may also have frozen or gone along with it to stay safe. That's one of the b
 ## Urgent care and evidence
 If it happened recently, you can get medical care and, if you want, have evidence collected, even if you haven't decided whether to report.
 
-- **United Kingdom:** Sexual Assault Referral Centres (SARCs) offer medical care, support and forensic examinations. Evidence can often be collected up to around a week afterwards, and stored while you decide.
+- **United Kingdom:** Sexual Assault Referral Centres (SARCs) offer medical care, support and forensic examinations. Evidence can be collected up to around a week afterwards, and stored while you decide.
 - **United States:** a sexual assault nurse examiner can do a forensic exam. Federal law means you can have the exam without reporting to police and without paying for it.
 - **Elsewhere:** search "[your country] sexual assault centre."
 
@@ -543,7 +542,7 @@ In some family or criminal cases, the other side can ask for therapy records. It
 Early sessions are often about safety, getting to know each other and planning, not going straight into the worst memories. You may feel worse for a little while before you feel better. That's common. If you feel unsafe, unheard or judged, say so, or try someone else.
 
 ## Therapy for children
-Children may need their own support. Look for a therapist trained in working with children after domestic abuse or trauma. Their doctor or school can often refer them. See [How children react](ch:how-children-react).
+Children may need their own support. Look for a therapist trained in working with children after domestic abuse or trauma. Their doctor or school can refer them. See [How children react](ch:how-children-react).
 
 ## What if I need help now?
 If you're in crisis, don't wait for the right therapist. Any doctor, crisis line or mental health service is the right first step. See [When it's more than aftermath](ch:when-its-more-than-aftermath).

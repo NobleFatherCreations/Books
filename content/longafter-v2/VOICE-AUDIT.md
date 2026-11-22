@@ -6,94 +6,94 @@ Pages: 96. Median score 97.5. Average sentence 10.1 words. Headings repeated acr
 
 | Score | Page | Avg sentence | Over 25 words | You per 100 | Hedges per 1,000 | Clinical | 'You must/should' | Sections with no concrete picture |
 |---|---|---|---|---|---|---|---|---|
-| 88 | intimate-images-and-online-threats | 11.3 | 7% | 3.9 | 4.1 | - | 0 | Is it illegal for my ex to post pictures of me?; What if they're threatening to tell people things, not share images?; How do I cope with this? |
 | 88 | if-there-was-sexual-abuse | 10.3 | 0% | 4.5 | 7.5 | - | 0 | Is sexual abuse in a relationship still abuse?; It is a crime, including in marriage; Common reactions; Getting care, later |
 | 89 | when-it-stops | 10.2 | 1% | 3.8 | 24.5 | - | 0 | What keeps it going? |
 | 90 | what-is-post-separation-abuse | 10.7 | 1% | 3.4 | 6.8 | intervention | 0 | Is post-separation abuse domestic violence?; Is verbal and emotional abuse after separation still abuse? |
 | 91 | abuse-or-a-hard-breakup | 10.0 | 1% | 4.9 | 5.7 | - | 0 | What does a narcissist breakup, or an abusive one, look like?; What if it's both?; Am I the abuser? |
-| 91 | if-your-story-doesnt-look-like-the-usual-one | 12.2 | 4% | 5.5 | 4.4 | - | 0 | Does post-separation abuse happen to men?; Honour-based abuse and forced marriage; If you or they are in the armed forces |
+| 91 | if-your-story-doesnt-look-like-the-usual-one | 12.2 | 4% | 5.5 | 3.7 | - | 0 | Does post-separation abuse happen to men?; Honour-based abuse and forced marriage; If you or they are in the armed forces |
 | 91 | hoovering | 10.1 | 1% | 4.8 | 10.0 | - | 0 | What is hoovering?; I already replied. Have I ruined everything?; What a real apology contains |
 | 91 | the-trauma-bond | 10.6 | 1% | 4.3 | 7.4 | - | 0 | What are the signs of a trauma bond?; What does trauma bond withdrawal feel like?; Explaining it to people who don't understand |
-| 91 | what-your-nervous-system-is-doing | 10.7 | 3% | 5.6 | 7.4 | - | 0 | What is hypervigilance after abuse?; Could this be PTSD or complex PTSD?; Fight, flight, freeze, fawn |
-| 91 | finding-a-therapist-who-understands-this | 11.2 | 2% | 3.6 | 13.9 | - | 0 | What should I look for in a therapist?; Why is couples counselling the wrong tool?; The main therapies in plain words |
+| 91 | what-your-nervous-system-is-doing | 10.9 | 3% | 5.5 | 7.5 | - | 0 | What is hypervigilance after abuse?; Could this be PTSD or complex PTSD?; Fight, flight, freeze, fawn |
+| 91 | finding-a-therapist-who-understands-this | 11.2 | 2% | 3.6 | 12.9 | - | 0 | What should I look for in a therapist?; Why is couples counselling the wrong tool?; The main therapies in plain words |
 | 91 | the-friends-who-didnt-believe-you | 9.7 | 2% | 4.1 | 13.0 | - | 0 | Should I try to convince them?; Where do I find people who do believe me?; Why disbelief happens |
 | 91 | your-parents | 10.8 | 3% | 5.3 | 17.0 | - | 0 | What do I do?; Parents who blame you; Cultural and faith expectations |
 | 91 | telling-someone-new | 9.9 | 0% | 5.8 | 11.7 | - | 0 | How do I say it?; A one-line, a short and a full version; After you've told: what to watch for |
 | 92 | leaving-was-the-middle | 11.2 | 3% | 5.9 | 9.9 | - | 1 | Was leaving a mistake, then?; Who is this for? |
+| 92 | intimate-images-and-online-threats | 11.5 | 6% | 4.0 | 5.2 | - | 0 | Is it illegal for my ex to post pictures of me?; What if they're threatening to tell people things, not share images? |
 | 92 | what-this-book-might-have-wrong | 11.1 | 0% | 2.2 | 4.1 | - | 0 | Reading research claims online |
-| 93 | why-it-often-gets-worse-first | 10.8 | 6% | 3.3 | 9.2 | - | 0 | Is leaving an abusive relationship the most dangerous time?; What does research say about risk after leaving? |
 | 93 | if-they-left-you | 10.5 | 1% | 5.1 | 18.5 | - | 0 | Why does being left hurt this much?; What about the grief? |
 | 93 | your-family-and-mutual-friends | 10.6 | 2% | 5.3 | 13.2 | - | 2 | What do I say to someone who's been pulled in? |
 | 93 | the-new-partner | 10.5 | 3% | 6.1 | 19.2 | - | 0 | What do I tell my new partner?; Comparison and jealousy |
 | 94 | how-to-use-this-book | 9.9 | 2% | 4.6 | 7.2 | - | 0 | The words this book uses; What this book is not |
 | 94 | is-my-ex-a-narcissist | 11.4 | 4% | 4.4 | 13.0 | - | 0 | Is my ex a narcissist?; What does "narcissistic abuse recovery" mean? |
-| 94 | housing-and-benefits | 11.3 | 2% | 3.6 | 13.5 | - | 0 | Can I end my lease early?; Homelessness help and priority need |
+| 94 | housing-and-benefits | 11.3 | 2% | 3.6 | 12.5 | - | 0 | Can I end my lease early?; Homelessness help and priority need |
 | 94 | pregnant-or-with-a-new-baby | 11.8 | 1% | 5.6 | 12.7 | - | 0 | Why does abuse often get worse in pregnancy?; Antenatal care and being asked about abuse |
 | 94 | memory | 10.3 | 2% | 4.0 | 13.0 | - | 0 | Why is my memory so patchy?; Am I making it up? |
 | 94 | trust-as-a-practice | 9.7 | 1% | 4.8 | 7.9 | - | 0 | How do I learn to trust again?; Trust in small steps |
-| 94 | the-long-after | 10.6 | 1% | 4.5 | 12.6 | - | 0 | What do people wish they'd known in year one?; What people say, years on |
+| 94 | the-long-after | 10.8 | 2% | 4.5 | 12.6 | - | 0 | What do people wish they'd known in year one?; What people say, years on |
 | 95 | police-and-reporting | 10.6 | 2% | 4.2 | 8.8 | - | 1 | Your rights as a victim |
 | 95 | what-youre-allowed-to-feel-about-someone-you-left | 9.7 | 1% | 5.4 | 19.7 | - | 0 | What do I do with the good memories? |
-| 96 | co-parenting-or-parallel-parenting | 10.5 | 2% | 2.3 | 8.7 | - | 0 | - |
+| 96 | co-parenting-or-parallel-parenting | 10.5 | 2% | 2.3 | 8.0 | - | 0 | - |
 | 96 | handovers | 9.6 | 1% | 2.4 | 4.8 | - | 0 | - |
+| 97 | why-it-often-gets-worse-first | 10.7 | 5% | 3.4 | 10.5 | - | 0 | Is leaving an abusive relationship the most dangerous time? |
 | 97 | a-safety-plan-for-after-youve-left | 11.5 | 3% | 5.6 | 7.6 | - | 0 | If you're disabled or have health needs |
 | 97 | warning-signs-to-take-seriously | 10.1 | 3% | 4.7 | 3.0 | - | 0 | What if they're threatening to harm themselves? |
-| 97 | surveillance-and-technology | 11.5 | 0% | 5.1 | 8.6 | - | 0 | Do I have to stay suspicious forever? |
+| 97 | surveillance-and-technology | 11.5 | 1% | 5.1 | 7.8 | - | 0 | Do I have to stay suspicious forever? |
 | 97 | stalking-and-harassment | 10.1 | 2% | 4.7 | 6.6 | - | 0 | How is stalking different from hoovering? |
-| 97 | money-as-the-channel | 12.2 | 3% | 3.6 | 4.9 | - | 0 | Where to get help |
+| 97 | money-as-the-channel | 12.2 | 2% | 3.7 | 3.2 | - | 0 | Where to get help |
 | 97 | the-narrative-campaign | 10.3 | 2% | 5.2 | 14.5 | - | 0 | How do I live with it? |
-| 97 | when-they-say-youre-the-abuser | 11.1 | 3% | 4.4 | 10.3 | - | 0 | What is reactive abuse? |
+| 97 | when-they-say-youre-the-abuser | 11.1 | 3% | 4.4 | 10.5 | - | 0 | What is reactive abuse? |
 | 97 | no-contact-low-contact | 9.1 | 2% | 4.5 | 9.3 | - | 0 | What does no contact with an ex mean? |
 | 97 | grey-rock-and-written-only-contact | 8.6 | 0% | 3.6 | 6.8 | - | 0 | Does grey rock work? |
 | 97 | the-grief-nobody-will-let-you-have | 9.4 | 0% | 4.9 | 14.2 | - | 0 | Why do people dismiss this grief? |
 | 97 | closure-and-forgiveness | 8.9 | 1% | 6.2 | 15.2 | - | 0 | What closure looks like in practice |
 | 97 | getting-sick-after-leaving | 9.5 | 2% | 3.5 | 9.0 | - | 0 | Why do people get sick after leaving? |
-| 97 | drinking-drugs-and-getting-through | 10.4 | 0% | 3.4 | 6.4 | - | 0 | Why do people drink more after a breakup or abuse? |
+| 97 | drinking-drugs-and-getting-through | 10.4 | 0% | 3.4 | 4.7 | - | 0 | Why do people drink more after a breakup or abuse? |
 | 97 | when-its-more-than-aftermath | 10.4 | 0% | 6.4 | 7.5 | - | 0 | Is it normal to feel this way after leaving? |
-| 97 | dating-when-youre-ready-and-when-youre-not | 9.4 | 0% | 5.2 | 7.1 | - | 0 | Sex and intimacy after abuse |
+| 97 | dating-when-youre-ready-and-when-youre-not | 9.4 | 0% | 5.1 | 7.4 | - | 0 | Sex and intimacy after abuse |
 | 97 | the-version-of-you-from-before | 8.6 | 2% | 6.1 | 13.3 | - | 0 | What's available instead? |
 | 97 | what-recovered-actually-means | 8.7 | 2% | 5.5 | 10.5 | - | 0 | How do I know I'm recovering? |
 | 97 | find-help | 7.3 | 0% | 2.5 | 0.0 | - | 0 | United Kingdom |
-| 98 | divorce-and-separation-proceedings | 10.4 | 0% | 2.7 | 13.3 | - | 0 | - |
-| 99 | systems-abuse | 11.5 | 4% | 2.8 | 7.9 | - | 0 | - |
+| 98 | divorce-and-separation-proceedings | 10.4 | 0% | 2.6 | 13.6 | - | 0 | - |
+| 99 | systems-abuse | 11.4 | 4% | 2.8 | 7.1 | - | 0 | - |
+| 99 | moving-passports-and-travel-with-children | 12.9 | 6% | 3.5 | 8.7 | - | 0 | - |
 | 99 | the-record | 10.1 | 5% | 2.4 | 2.7 | - | 0 | - |
 | 99 | for-professionals | 10.3 | 6% | 1.1 | 10.9 | - | 0 | - |
 | 100 | where-are-you-right-now | 8.9 | 0% | 4.9 | 4.9 | - | 0 | - |
 | 100 | if-youre-not-safe-right-now | 10.1 | 1% | 6.5 | 4.5 | - | 0 | - |
 | 100 | the-shape-it-takes-when-they-cant-reach-you-directly | 9.4 | 1% | 4.3 | 9.6 | - | 0 | - |
-| 100 | the-first-30-days | 9.3 | 0% | 4.9 | 8.5 | - | 0 | - |
+| 100 | the-first-30-days | 9.3 | 0% | 4.9 | 7.0 | - | 0 | - |
 | 100 | still-under-the-same-roof | 11 | 1% | 4.9 | 4.2 | - | 0 | - |
-| 100 | your-address-your-records-your-mail | 11.5 | 2% | 6.2 | 5.8 | - | 0 | - |
+| 100 | your-address-your-records-your-mail | 11.5 | 2% | 6.1 | 5.0 | - | 0 | - |
 | 100 | children-as-the-channel | 10.1 | 4% | 4.2 | 4.1 | - | 0 | - |
-| 100 | words-you-can-use | 8.0 | 1% | 5.9 | 0.0 | - | 0 | - |
+| 100 | words-you-can-use | 8.1 | 1% | 6.0 | 0.0 | - | 0 | - |
 | 100 | messages-you-dont-have-to-answer | 11.0 | 3% | 3.1 | 6.0 | - | 0 | - |
 | 100 | what-to-document-and-how | 10.5 | 1% | 3.8 | 6.5 | - | 0 | - |
-| 100 | solicitors-legal-aid-and-no-money | 11.5 | 0% | 3.7 | 8.0 | - | 0 | - |
+| 100 | solicitors-legal-aid-and-no-money | 11.5 | 0% | 3.6 | 7.2 | - | 0 | - |
 | 100 | family-court-honestly | 11.4 | 2% | 3.1 | 16.8 | - | 0 | - |
 | 100 | your-day-in-court | 9.0 | 2% | 5.9 | 13.5 | - | 0 | - |
-| 100 | police-and-protective-orders | 10.2 | 2% | 4.4 | 14.5 | - | 0 | - |
-| 100 | where-to-find-the-right-body | 10.6 | 4% | 4.0 | 7.0 | - | 0 | - |
+| 100 | police-and-protective-orders | 10.2 | 2% | 4.5 | 13.7 | - | 0 | - |
+| 100 | where-to-find-the-right-body | 10.6 | 4% | 4.0 | 5.2 | - | 0 | - |
 | 100 | untangling-the-paperwork | 10.2 | 1% | 4.6 | 6.4 | - | 0 | - |
 | 100 | your-children-and-what-to-say | 9.1 | 1% | 4.9 | 7.2 | - | 0 | - |
 | 100 | how-children-react | 11.6 | 3% | 3.0 | 8.1 | - | 0 | - |
 | 100 | when-your-child-is-pulled-in | 11.4 | 1% | 5.1 | 8.4 | - | 0 | - |
 | 100 | apps-calendars-and-the-parenting-plan | 9.7 | 0% | 3.3 | 4.9 | - | 0 | - |
-| 100 | moving-passports-and-travel-with-children | 13.0 | 5% | 3.7 | 8.8 | - | 0 | - |
 | 100 | guilt-and-shame | 10.2 | 1% | 4.7 | 8.8 | - | 0 | - |
 | 100 | anger-arriving-late | 11.0 | 1% | 3.9 | 11.9 | - | 0 | - |
 | 100 | checking-their-profile | 10.3 | 1% | 5.0 | 5.5 | - | 0 | - |
 | 100 | the-anniversary-effect | 9.5 | 1% | 5.0 | 13.7 | - | 0 | - |
-| 100 | sleep | 11.3 | 1% | 4.2 | 12.8 | - | 0 | - |
+| 100 | sleep | 11.3 | 1% | 4.1 | 13.0 | - | 0 | - |
 | 100 | the-friends-who-did-and-are-tired | 9.5 | 1% | 3.8 | 8.1 | - | 0 | - |
 | 100 | making-new-people-from-scratch | 9.1 | 0% | 3.1 | 7.7 | - | 0 | - |
-| 100 | sharing-a-town-a-workplace-or-a-community | 9.5 | 0% | 4.4 | 10.0 | - | 0 | - |
-| 100 | money-from-zero | 10.2 | 1% | 3.0 | 5.6 | - | 0 | - |
+| 100 | sharing-a-town-a-workplace-or-a-community | 9.5 | 0% | 4.2 | 10.7 | - | 0 | - |
+| 100 | money-from-zero | 10.2 | 1% | 3.0 | 4.8 | - | 0 | - |
 | 100 | work-again | 11.0 | 1% | 3.9 | 5.6 | - | 0 | - |
 | 100 | a-home-that-feels-like-yours | 9.2 | 0% | 5.2 | 2.5 | - | 0 | - |
 | 100 | pets-and-the-things-left-behind | 10.1 | 1% | 4.0 | 6.2 | - | 0 | - |
 | 100 | holidays-and-the-first-year | 8.5 | 0% | 3.6 | 12.1 | - | 0 | - |
 | 100 | your-own-tastes-rediscovered | 9.1 | 0% | 5.7 | 5.8 | - | 0 | - |
-| 100 | if-you-go-back | 9.8 | 1% | 6.5 | 11.0 | - | 0 | - |
+| 100 | if-you-go-back | 10.0 | 1% | 5.9 | 14.0 | - | 0 | - |
 | 100 | helping-someone-in-year-one | 10 | 4% | 3.2 | 9.5 | - | 0 | - |
 | 100 | safety-plan-worksheet | 7.3 | 0% | 2.6 | 6.6 | - | 0 | - |
 | 100 | device-and-account-audit | 9.1 | 0% | 1.9 | 0.0 | - | 0 | - |

@@ -171,7 +171,7 @@ Most countries have a government child support service that can calculate paymen
 Using the official service also means you don't have to deal with them directly about money.
 
 ## What about coerced debt?
-Get your credit report from each credit agency. It's free in most countries. Look for accounts you didn't open or agree to. You can usually dispute them with the lender and the credit agency, and in some places a police report or a domestic abuse service's letter helps. In the UK, Surviving Economic Abuse has guidance. In the US, the Consumer Financial Protection Bureau explains how to dispute errors.
+Get your credit report from each credit agency. It's free in most countries. Look for accounts you didn't open or agree to. You can dispute them with the lender and the credit agency, and in some places a police report or a domestic abuse service's letter helps. In the UK, Surviving Economic Abuse has guidance. In the US, the Consumer Financial Protection Bureau explains how to dispute errors.
 
 ## How child support services work
 You don't have to negotiate money with the person you left. Official services can calculate and collect it.
@@ -193,7 +193,7 @@ People who are self-employed, paid in cash, or able to move money through a busi
 You don't need proof to raise it. You need to say what you know and ask them to look.
 
 ## Joint accounts and the mortgage after separation
-- **Joint accounts:** either person can often empty them. Get advice about freezing or closing them, and move your income to an account in your name.
+- **Joint accounts:** either person can empty them. Get advice about freezing or closing them, and move your income to an account in your name.
 - **Joint debts:** you may each be liable for the whole amount. Tell lenders you've separated and ask what can be done.
 - **The mortgage or lease:** stopping payments can damage both your credit records and risk the home. Get advice before you stop paying, even if they have.
 

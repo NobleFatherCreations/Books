@@ -20,16 +20,19 @@
   },
   "voice": {
    "label": "3. Voice audit: every page read against the voice spec (BOOK-MAP-v2.md section 2), scored, weak passages rewritten",
-   "status": "doing",
+   "status": "done",
    "notes": [
     "2026-11-22: Voice scorecard built (scripts/longafter-voice.py -> VOICE-AUDIT.md): median 97/100; 16 repeated headings renamed (incl. two that made pages compete in search); every 'you must/should' line read (all conditional or negated); 12 concrete pictures added to flagged sections; checklist false positives fixed",
-    "2026-11-22: Within-chapter duplicate check built (scripts/longafter-dupes.py -> DUPES.md); repeats merged or cut in 13 chapters (first-pass sections that restated existing text); remaining hits are shared link names"
+    "2026-11-22: Within-chapter duplicate check built (scripts/longafter-dupes.py -> DUPES.md); repeats merged or cut in 13 chapters (first-pass sections that restated existing text); remaining hits are shared link names",
+    "2026-11-22: Voice audit complete: scorecard median 97+/100, no repeated headings, concrete pictures added, duplicates merged, two chapters read end to end"
    ]
   },
   "slop": {
    "label": "4. No-AI-slop pass on the whole expanded book",
-   "status": "todo",
-   "notes": []
+   "status": "done",
+   "notes": [
+    "2026-11-22: No-AI-slop pass: pattern scan clean (binary contrasts only in genuine 'not just X' lists), 18 doubled hedges cut, one 'it's not X, it's Y' line rewritten, duplicate sleep advice removed; a blunt hedge-removal was tried and reverted because it made claims stronger than the evidence"
+   ]
   },
   "steelman": {
    "label": "5. Steelman of the finished book: hostile readers, gaps filled",
@@ -367,8 +370,8 @@
   "the-shape-it-takes-when-they-cant-reach-you-directly": 1066,
   "is-my-ex-a-narcissist": 1396,
   "abuse-or-a-hard-breakup": 1381,
-  "if-your-story-doesnt-look-like-the-usual-one": 1379,
-  "the-first-30-days": 1307,
+  "if-your-story-doesnt-look-like-the-usual-one": 1378,
+  "the-first-30-days": 1305,
   "if-they-left-you": 1147,
   "still-under-the-same-roof": 1203,
   "a-safety-plan-for-after-youve-left": 1598,
@@ -376,31 +379,31 @@
   "surveillance-and-technology": 1287,
   "stalking-and-harassment": 1220,
   "intimate-images-and-online-threats": 774,
-  "your-address-your-records-your-mail": 1021,
+  "your-address-your-records-your-mail": 1020,
   "children-as-the-channel": 1475,
-  "money-as-the-channel": 1247,
+  "money-as-the-channel": 1245,
   "the-narrative-campaign": 1121,
   "your-family-and-mutual-friends": 1080,
   "the-new-partner": 1055,
   "hoovering": 1929,
   "when-they-say-youre-the-abuser": 1255,
   "when-it-stops": 995,
-  "no-contact-low-contact": 1201,
+  "no-contact-low-contact": 1200,
   "grey-rock-and-written-only-contact": 1049,
   "words-you-can-use": 889,
   "messages-you-dont-have-to-answer": 1020,
   "what-to-document-and-how": 1241,
-  "systems-abuse": 1342,
-  "solicitors-legal-aid-and-no-money": 1123,
+  "systems-abuse": 1341,
+  "solicitors-legal-aid-and-no-money": 1122,
   "family-court-honestly": 1445,
   "your-day-in-court": 976,
   "divorce-and-separation-proceedings": 1115,
-  "police-and-protective-orders": 1269,
+  "police-and-protective-orders": 1267,
   "police-and-reporting": 926,
-  "housing-and-benefits": 976,
-  "where-to-find-the-right-body": 890,
+  "housing-and-benefits": 975,
+  "where-to-find-the-right-body": 889,
   "untangling-the-paperwork": 943,
-  "co-parenting-or-parallel-parenting": 1479,
+  "co-parenting-or-parallel-parenting": 1478,
   "handovers": 963,
   "your-children-and-what-to-say": 998,
   "how-children-react": 1120,
@@ -418,11 +421,11 @@
   "the-anniversary-effect": 896,
   "memory": 939,
   "what-your-nervous-system-is-doing": 1215,
-  "sleep": 870,
+  "sleep": 860,
   "getting-sick-after-leaving": 901,
-  "if-there-was-sexual-abuse": 1085,
+  "if-there-was-sexual-abuse": 1084,
   "drinking-drugs-and-getting-through": 872,
-  "finding-a-therapist-who-understands-this": 948,
+  "finding-a-therapist-who-understands-this": 947,
   "when-its-more-than-aftermath": 1075,
   "the-friends-who-didnt-believe-you": 862,
   "the-friends-who-did-and-are-tired": 753,
@@ -430,7 +433,7 @@
   "telling-someone-new": 788,
   "making-new-people-from-scratch": 928,
   "sharing-a-town-a-workplace-or-a-community": 758,
-  "money-from-zero": 1266,
+  "money-from-zero": 1265,
   "work-again": 908,
   "a-home-that-feels-like-yours": 806,
   "pets-and-the-things-left-behind": 811,
@@ -679,6 +682,14 @@
   {
    "date": "2026-11-22",
    "what": "Within-chapter duplicate check built (scripts/longafter-dupes.py -> DUPES.md); repeats merged or cut in 13 chapters (first-pass sections that restated existing text); remaining hits are shared link names"
+  },
+  {
+   "date": "2026-11-22",
+   "what": "No-AI-slop pass: pattern scan clean (binary contrasts only in genuine 'not just X' lists), 18 doubled hedges cut, one 'it's not X, it's Y' line rewritten, duplicate sleep advice removed; a blunt hedge-removal was tried and reverted because it made claims stronger than the evidence"
+  },
+  {
+   "date": "2026-11-22",
+   "what": "Voice audit complete: scorecard median 97+/100, no repeated headings, concrete pictures added, duplicates merged, two chapters read end to end"
   }
  ]
 }
