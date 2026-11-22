@@ -12,10 +12,11 @@
   },
   "write": {
    "label": "2. Write the expansion, part by part (target: about 105,000 words, roughly double)",
-   "status": "doing",
+   "status": "done",
    "notes": [
     "2026-11-22: First expansion pass complete across all 96 pages; second pass will follow the voice audit and steelman",
-    "2026-11-22: Second pass started: worked examples (labelled as made up) and closing action/reflection sections, chapter-specific headings"
+    "2026-11-22: Second pass started: worked examples (labelled as made up) and closing action/reflection sections, chapter-specific headings",
+    "2026-11-22: Writing complete for this round: 55,682 -> 96,674 words (+74%); every chapter outlined, expanded twice, audited, steelmanned and fact-checked"
    ]
   },
   "voice": {
@@ -50,8 +51,10 @@
   },
   "audit": {
    "label": "7. Full content audit + pipeline (scripts/longafter-pipeline.sh --fast)",
-   "status": "todo",
-   "notes": []
+   "status": "done",
+   "notes": [
+    "2026-11-22: Full pipeline passes on the expanded book: content audit 0 failing, findability and on-page checks, schema valid, seal menu, screenshots clean, axe 0 issues, chapter LCP about 0.5s"
+   ]
   },
   "design": {
    "label": "8. Design work (only after 1-7 are done)",
@@ -702,6 +705,14 @@
   {
    "date": "2026-11-22",
    "what": "Fact check: every new phone number searched (2 changes: South Africa backup added, unconfirmed US Deaf line removed); laws searched (DAPO pilot, TAKE IT DOWN, s.78, s.65, religious divorce, emergencySMS, CMS fees, CPIAP) with 2 wording corrections; 28 source lines added to 26 chapters; remaining well-established items stay marked in FACTS.md"
+  },
+  {
+   "date": "2026-11-22",
+   "what": "Full pipeline passes on the expanded book: content audit 0 failing, findability and on-page checks, schema valid, seal menu, screenshots clean, axe 0 issues, chapter LCP about 0.5s"
+  },
+  {
+   "date": "2026-11-22",
+   "what": "Writing complete for this round: 55,682 -> 96,674 words (+74%); every chapter outlined, expanded twice, audited, steelmanned and fact-checked"
   }
  ]
 }
