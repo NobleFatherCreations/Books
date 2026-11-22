@@ -138,7 +138,11 @@ def check_page(book, f, known, problems, stats, publish_dir=None):
 def check_book(book, publish_dir=None):
     d = publish_dir or ROOT / "library" / book
     pages = sorted(p for p in d.rglob("*.html") if "/f/" not in p.as_posix() and "/.netlify/" not in p.as_posix())
+    # pages deliberately kept out of search (search box, whole-book print page, redirects) are not findability pages
+    hidden = {p.relative_to(d).with_suffix("").as_posix() for p in pages
+              if re.search(r'<meta name="robots" content="noindex', p.read_text(encoding="utf-8", errors="ignore")[:6000])}
     known = {p.relative_to(d).with_suffix("").as_posix() for p in pages} | DEPLOY_ASSEMBLED.get(book, set())
+    pages = [p for p in pages if p.relative_to(d).with_suffix("").as_posix() not in hidden]
     problems, stats = [], []
     for f in pages:
         check_page(book, f, known, problems, stats, d)
@@ -147,7 +151,7 @@ def check_book(book, publish_dir=None):
         problems.append(f"{book}: no sitemap.xml")
     else:
         locs = [e.text for e in ET.parse(sm).getroot().iter("{http://www.sitemaps.org/schemas/sitemap/0.9}loc")]
-        want = {f"{DOMAIN}/{book}"} | {f"{DOMAIN}/{book}/{k}" for k in known if k != "index" and k not in DEPLOY_ASSEMBLED.get(book, set())}
+        want = {f"{DOMAIN}/{book}"} | {f"{DOMAIN}/{book}/{k}" for k in known if k != "index" and k not in hidden and k not in DEPLOY_ASSEMBLED.get(book, set())}
         if set(locs) != want:
             problems.append(f"{book}: sitemap mismatch; missing {sorted(want - set(locs))[:5]} extra {sorted(set(locs) - want)[:5]}")
     if not (d / "og.png").exists():

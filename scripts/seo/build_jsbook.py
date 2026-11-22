@@ -352,4 +352,6 @@ def main(slugs):
 
 
 if __name__ == "__main__":
-    main(sys.argv[1:] or list(BOOKS))
+    # The Long After moved to its own generator (2nd edition, scripts/seo/build_longafter_v2.py); never rebuild it here
+    want = [b for b in (sys.argv[1:] or list(BOOKS)) if b != "longafter"]
+    main(want)

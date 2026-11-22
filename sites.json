@@ -987,8 +987,13 @@
         "note": "Shared catalogue drawer installed."
       },
       "status": "live",
-      "version": "v4",
+      "version": "v5",
       "changelog": [
+        {
+          "date": "2026-11-22",
+          "version": "v5",
+          "summary": "Second edition: full voice rewrite and expansion to 96 pages (83 chapters in 11 parts, start pages, toolbox), built by scripts/seo/build_longafter_v2.py from content/longafter-v2; Dusk-to-first-light design; static crawlable pages, offline search, whole-book page, old #/c/N links forwarded. Built and checked; NOT yet deployed."
+        },
         {
           "date": "2026-11-21",
           "version": "v4",
