@@ -119,8 +119,8 @@
     "messages-you-dont-have-to-answer"
    ],
    "outlined": true,
-   "written": false,
-   "audited": false
+   "written": true,
+   "audited": true
   },
   "v": {
    "title": "Courts and the systems",
@@ -378,10 +378,10 @@
   "hoovering": 1797,
   "when-they-say-youre-the-abuser": 1148,
   "when-it-stops": 851,
-  "no-contact-low-contact": 631,
-  "grey-rock-and-written-only-contact": 658,
-  "words-you-can-use": 634,
-  "messages-you-dont-have-to-answer": 547,
+  "no-contact-low-contact": 1067,
+  "grey-rock-and-written-only-contact": 995,
+  "words-you-can-use": 994,
+  "messages-you-dont-have-to-answer": 891,
   "what-to-document-and-how": 765,
   "systems-abuse": 789,
   "solicitors-legal-aid-and-no-money": 619,
@@ -504,6 +504,14 @@
   {
    "date": "2026-11-22",
    "what": "Part III audited: Part III: content audit passing; facts logged"
+  },
+  {
+   "date": "2026-11-22",
+   "what": "Part IV written: Part IV: 19 new sections across 4 chapters (no contact online and with their family, cards and gifts, riding out the urge, family events, five grey rock exchanges, grey rock in person and with children watching, grey rock vs ignoring, ten ready replies for common messages, writing for a future judge, three-pile sorting, filters and separate inbox, someone else reading first, threats, reading on your schedule)"
+  },
+  {
+   "date": "2026-11-22",
+   "what": "Part IV audited: Part IV: content audit passing"
   }
  ]
 }
