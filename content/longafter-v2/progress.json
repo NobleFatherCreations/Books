@@ -107,8 +107,8 @@
     "when-it-stops"
    ],
    "outlined": true,
-   "written": false,
-   "audited": false
+   "written": true,
+   "audited": true
   },
   "iv": {
    "title": "Contact",
@@ -370,14 +370,14 @@
   "stalking-and-harassment": 1082,
   "intimate-images-and-online-threats": 917,
   "your-address-your-records-your-mail": 923,
-  "children-as-the-channel": 878,
-  "money-as-the-channel": 675,
-  "the-narrative-campaign": 616,
-  "your-family-and-mutual-friends": 558,
-  "the-new-partner": 528,
-  "hoovering": 1429,
-  "when-they-say-youre-the-abuser": 753,
-  "when-it-stops": 543,
+  "children-as-the-channel": 1339,
+  "money-as-the-channel": 1122,
+  "the-narrative-campaign": 979,
+  "your-family-and-mutual-friends": 918,
+  "the-new-partner": 934,
+  "hoovering": 1797,
+  "when-they-say-youre-the-abuser": 1148,
+  "when-it-stops": 851,
   "no-contact-low-contact": 631,
   "grey-rock-and-written-only-contact": 658,
   "words-you-can-use": 634,
@@ -496,6 +496,14 @@
   {
    "date": "2026-11-22",
    "what": "Part II audited: Part II: content audit passing; facts logged"
+  },
+  {
+   "date": "2026-11-22",
+   "what": "Part III written: Part III: 34 new sections across 8 chapters (tactics by child age, the fun parent, the first hour after handover, keeping children out of the middle, child support services UK/US/AU/CA, hidden income, joint accounts and mortgage, court costs as a weapon, what smears say, school/employer/faith, social media, smears in court, family on their side, neutral friends, information leaks, shared events, lost friendships, warning a new partner, introducing a partner to children, hoovering via children and crises, what a real apology contains, plan for the next hoover, counter-allegations, staying steady, men accused, signs it is winding down, flare-ups, relaxing safety slowly)"
+  },
+  {
+   "date": "2026-11-22",
+   "what": "Part III audited: Part III: content audit passing; facts logged"
   }
  ]
 }

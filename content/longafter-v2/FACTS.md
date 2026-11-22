@@ -181,3 +181,10 @@ Topics chosen from Ubersuggest Google-autocomplete data (8 seeds) and keyword vo
 - verify: England and Wales sharing/threatening to share intimate images incl. faked = offence (Online Safety Act 2023 amendments, from 31 Jan 2024)
 - verify: US TAKE IT DOWN Act (2025): crime to publish NCII incl. AI; platforms must remove on request (48 hours)
 - verify: UK anonymous electoral registration; US ACPs covering voter registration
+## Pass 4c: Part III (to verify in phase 6)
+- verify: UK Child Maintenance Service Direct Pay / Collect and Pay; domestic abuse affects options and fees; "variation" for unearned income
+- verify: US state child support agencies: income withholding, tax refund intercept
+- verify: Services Australia child support; Canadian provincial maintenance enforcement offices
+- verify: Surviving Economic Abuse (UK charity); NNEDV economic justice resources (US)
+- verify: fact-finding hearings in England and Wales family courts (PD12J)
+- verify: Men's Advice Line 0808 801 0327

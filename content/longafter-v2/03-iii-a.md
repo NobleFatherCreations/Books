@@ -59,6 +59,48 @@ Stay calm. Don't attack the other parent. Correct the fact gently, and tell the 
 
 [When your child is pulled into it](ch:when-your-child-is-pulled-in) goes deeper, including what to do if a child starts refusing to see you, or refusing to see the other parent.
 
+## Common tactics, by age
+The tactics shift as children grow:
+
+- **Babies and toddlers:** fights over feeding, sleep and routines; refusing to follow the baby's schedule; handovers made long and upsetting.
+- **Primary school age:** questions about your home ("Who stays over? What did Mum buy?"); messages passed through the child; promises of treats if they choose the other house.
+- **Teenagers:** treating them as a confidant; sharing adult details of the separation; offering freedoms you won't allow; recruiting them to report back on you.
+
+Knowing the pattern for your child's age helps you spot it earlier, and answer it calmly.
+
+## Gifts, promises and the "fun parent"
+Some parents use gifts and freedom to pull children towards them: the expensive phone, the late bedtime, the holiday they can't afford, the promise of a pet "if you live with me."
+
+You can't match it and you don't need to. Children do notice, in time, who keeps them safe, fed and steady. Keep your own house rules simple and consistent. If a gift arrives that undermines safety, like a phone with tracking on or an unsuitable game, deal with that one thing calmly and without blaming the child.
+
+## When your child comes home upset: the first hour
+- **Let them land.** A snack, a quiet space, their own room. Don't ask questions straight away.
+- **Be available, not intense.** "I'm in the kitchen if you want me."
+- **If they talk, listen.** Repeat back what you hear. "That sounded confusing."
+- **Don't criticise the other parent,** even if what they say makes you furious.
+- **Write it down later,** in their words, with the date. Don't write it in front of them.
+
+If they tell you about harm, or seem frightened of going back, see "When should I involve professionals?" below.
+
+## Keeping your child out of the middle
+**Do:**
+- tell them both homes can have different rules
+- let them love the other parent without guilt
+- handle adult matters with adults, in writing
+
+**Don't:**
+- ask them what happens at the other house
+- send messages through them
+- let them read court papers or adult messages
+- ask them to choose
+
+> **Say:** "That's a grown-up thing. Your dad and I will sort it out. You don't need to worry about it."
+
+## Looking after yourself while they're away
+Handovers and empty weekends can be the hardest part. The house is too quiet. You imagine what's being said about you.
+
+Plan something for the first evening: a friend, a walk, a film, a meal out. Keep your record, then close it. Remind yourself that most children come back to the safe home and settle. See [Holidays and the first year](ch:holidays-and-the-first-year) for the days that hurt most.
+
 ## When should I involve professionals?
 If a child talks about being hurt, frightened, or asked to keep secrets, or if their behaviour changes sharply, speak to your child's doctor or school, and get legal advice. If you believe a child is at immediate risk, contact the police or child protection services.
 
@@ -120,6 +162,38 @@ Using the official service also means you don't have to deal with them directly 
 
 ## What about coerced debt?
 Get your credit report from each credit agency. It's free in most countries. Look for accounts you didn't open or agree to. You can usually dispute them with the lender and the credit agency, and in some places a police report or a domestic abuse service's letter helps. In the UK, Surviving Economic Abuse has guidance. In the US, the Consumer Financial Protection Bureau explains how to dispute errors.
+
+## How child support services work
+You don't have to negotiate money with the person you left. Official services can calculate and collect it.
+
+- **United Kingdom (outside Northern Ireland):** the Child Maintenance Service can calculate what's owed. You can choose Direct Pay, where they pay you directly, or Collect and Pay, where the service collects it. If there's been domestic abuse, tell them; it affects the options and fees.
+- **United States:** each state has a child support agency. It can set an order and collect payments through wage withholding, and can take steps like intercepting tax refunds when payments are missed.
+- **Australia:** Services Australia handles child support assessments and collection.
+- **Canada:** each province has a family responsibility or maintenance enforcement office.
+
+Going through an official service keeps money out of your messages, and gives you a record if payments stop.
+
+## Hidden income and self-employment
+People who are self-employed, paid in cash, or able to move money through a business can make their income look smaller.
+
+- Note what you know: their lifestyle, business, property, cars, holidays.
+- Tell the child support service or court if you think income is hidden. In the UK, the Child Maintenance Service can consider a "variation" for some kinds of unearned income.
+- In court, a lawyer can ask for disclosure of financial records.
+
+You don't need proof to raise it. You need to say what you know and ask them to look.
+
+## Joint accounts and the mortgage after separation
+- **Joint accounts:** either person can often empty them. Get advice about freezing or closing them, and move your income to an account in your name.
+- **Joint debts:** you may each be liable for the whole amount. Tell lenders you've separated and ask what can be done.
+- **The mortgage or lease:** stopping payments can damage both your credit records and risk the home. Get advice before you stop paying, even if they have.
+
+## Money abuse through the courts
+Some people use court costs as a weapon: making repeated applications you have to defend, refusing to settle, or dragging out the sale of a house. Courts can order one side to pay the other's costs, and can limit repeated applications. See [Systems abuse and litigation abuse](ch:systems-abuse).
+
+## Where to get help
+- **United Kingdom:** Surviving Economic Abuse is a charity focused on this problem, with guidance on debts, banks and coerced debt.
+- **United States:** the National Network to End Domestic Violence has economic justice resources, and many domestic violence programs have financial advocates.
+- **Anywhere:** free debt advice services can deal with lenders for you. Tell them the debt is linked to abuse.
 
 ## How do I protect myself now?
 - Open an account in your name only, at a bank you didn't share.
@@ -194,6 +268,38 @@ This matters if the story turns into a false report to the police, social servic
 ## Is it defamation?
 Possibly, but defamation cases are expensive, slow and hard to win, and they keep you tied to the other person. Harassment law may fit better where there's a pattern. Get legal advice before threatening any action.
 
+## What does the story usually say?
+Smear campaigns after separation tend to follow a few familiar lines:
+
+- you're unstable, or "having a breakdown"
+- you drink, use drugs or neglect the children
+- you cheated, or left for someone else
+- you're turning the children against them
+- you're lying about the abuse for money or custody
+
+Knowing the script helps. When you hear one of these second-hand, you can recognise it as the campaign and not as the truth about you.
+
+## Schools, employers and faith communities
+These are often the places the story reaches first.
+
+- **School:** keep communication short and factual, and focus on the child. "There's a court order in place and I'm happy to share it. Please contact me directly about [child]."
+- **Employer:** if the story reaches work, talk to HR before rumours do. "My ex-partner may contact the workplace. There's a history of abuse. Please don't share my details."
+- **Faith community:** if leaders take sides, ask for a private meeting, or find support elsewhere for now. You don't have to stay where you're being judged.
+
+## Social media
+- Make your profiles private, and remove people who pass things on.
+- Don't respond publicly. A public argument always looks like two people fighting.
+- Screenshot posts and comments about you, with the date and the account name, before they're deleted.
+- Report impersonation and harassment to the platform.
+
+## When the story reaches court
+A smear campaign often ends up in court statements. Courts are used to hearing accusations in both directions. What helps is staying factual, providing evidence, and not matching their tone. Address each serious allegation briefly, with documents if you have them, and let your record show the wider pattern. See [Your day in court](ch:your-day-in-court).
+
+## Rebuilding your name slowly
+Most reputations recover through time and behaviour, not through argument. People see how you act at the school gate, at work and with your children. Over months, the gap between the story and the person in front of them becomes obvious.
+
+You may lose some people along the way. Keep the ones who asked you what happened before they decided.
+
 ## How do I live with it?
 - Tell one or two people the whole truth, so you aren't carrying it alone.
 - Let some people go. Those who believe the story without asking you may not be the people you need now. [Your family and mutual friends](ch:your-family-and-mutual-friends) and [The friends who didn't believe you](ch:the-friends-who-didnt-believe-you) cover this.
@@ -250,6 +356,35 @@ Keep it short, and don't ask them to choose:
 If they keep pushing:
 
 > **Say:** "I've asked you not to bring this up. If it keeps happening, I'll need some distance for a while."
+
+## When it's your own family
+It can be devastating when your own parents, siblings or children stay close to the person you left, or take their side. Sometimes they were charmed for years. Sometimes they don't want to lose the grandchildren. Sometimes they never saw what happened.
+
+You can ask for what you need without asking them to hate anyone:
+
+> **Say:** "I'm not asking you to take sides. I'm asking you not to pass on anything about me, and not to bring them up when we're together."
+
+If they can't do that, you may need more distance for a while. See [Your parents](ch:your-parents) for more.
+
+## Friends who want to stay neutral
+Some friends will say, "I don't want to get involved." In ordinary breakups that's fair. In abuse, neutrality often helps the person with more power.
+
+You can still keep friends who stay neutral, with limits. Don't share plans or details with them, and accept that they'll see both of you. Give your closeness to people who believe you.
+
+## When someone passes information
+If details about your life keep reaching the person you left, there's usually a route. Test it gently: share one harmless detail with one person only and see whether it travels. Then decide what that person gets to know from now on.
+
+## Weddings, funerals and school events
+Shared events can bring you face to face.
+
+- Ask the host whether the person you left will be there, and how it will be handled.
+- Arrive with someone, and agree a signal to leave.
+- Sit away from them, and keep any exchange short and polite.
+- If there's a court order, tell the host. It still applies.
+- You're allowed to skip an event to keep yourself safe or steady.
+
+## Grieving the friendships you lose
+Losing friends in a separation is a real loss, and it's rarely talked about. Some friendships end because people chose a side. Others fade because the friendship was built around the couple. It's okay to grieve them. It's also common, over time, to build friendships that are more truly yours. See [Making new people from scratch](ch:making-new-people-from-scratch).
 
 ## Do I have to cut everyone off?
 No. You decide person by person. Some relationships are worth a calm conversation. Some will repair with time and your steady behaviour. Some have become too costly for now. There's no rule that says you must keep everyone, or lose everyone who didn't immediately take your side.
