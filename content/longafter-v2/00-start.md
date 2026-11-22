@@ -196,6 +196,7 @@ Every chapter has the same frame, so you always know where you are:
 - **Questions as headings.** Each heading is a question people ask. Scan them and skip to the one that's yours.
 - **"Say" boxes.** Words you can use, in messages, on the phone or face to face. Change them to sound like you.
 - **Links that open the right page.** A phrase in colour takes you to the chapter that covers it. Links to the *Pattern Decoder* open the page for that tactic. Links to *The Sovereign Divine Feminine* open the exact passage.
+- **Honest checks.** In some chapters, a short set of private questions marked *An honest check, just for you*. They appear where hurt, longing or anger can bend how things look. They're about what's in your hands now, never about blame for what was done to you. Nobody sees your answers.
 - **Sources.** At the bottom of every chapter, listed plainly, so you or an advocate can check them.
 - **Next, if this is you.** Two or three pages that usually come next for someone in your place.
 

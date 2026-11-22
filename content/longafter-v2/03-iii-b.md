@@ -81,6 +81,17 @@ Online lives are edited. A new relationship tells you nothing about whether your
 ## What if the new relationship struggles under the pressure?
 That's not your fault, and it doesn't mean you shouldn't date. Some relationships hold under strain and some don't. A partner who meets this with calm and curiosity is showing you something good about them. [Dating, when you're ready and when you're not](ch:dating-when-youre-ready-and-when-youre-not) covers the wider picture.
 
+## Why do I want to warn them?
+*An honest check, just for you. This is about what's in your hands now, not blame for what was done to you.*
+
+Wanting to warn your ex's new partner can come from care. It can also come from a wish to be believed, or to spoil something for your ex. Ask yourself:
+
+- What do I hope will happen if I tell them?
+- Is there a child or safety reason, or is it mostly about me being right?
+- Am I prepared for them not to believe me?
+
+If the honest answer is mostly about you, let it go for now. If there's a real safety concern, tell a professional.
+
 ## When the messages reached the new partner
 *This example is made up, built from patterns many people describe.*
 
@@ -246,6 +257,18 @@ Yes, if there's any chance you'll need them: for a protective order, a custody c
 
 *The Sovereign Divine Feminine* calls hoovering "the return of the mask" in its chapter on [post-separation control](/feminine/post-separation-control#core-concept), and places it in [the manipulation cycle](/feminine/the-manipulation-cycle#core-concept).
 
+## Hearing what you hope to hear
+*An honest check, just for you. This is about what's in your hands now, not blame for what was done to you.*
+
+When a message arrives, the part of you that still hopes may read more into it than is there. Before you reply, ask yourself:
+
+- What does the message say, word for word, and what am I adding?
+- Is there an apology for anything they did, or only for how I feel?
+- Does it ask me for something: a meeting, a reply, a favour?
+- How did I feel an hour after the last time I answered?
+
+If you still want to reply, show the message to one person first.
+
 ## Three hoovers in one year
 *This example is made up, built from patterns many people describe.*
 
@@ -345,6 +368,18 @@ Being falsely accused can leave a mark even when it's resolved. You may feel wat
 Being accused of the thing that was done to you can feel like losing your mind. Hold on to your record, and to one or two people who know the truth. A therapist who understands coercive control can help too: see [Finding a therapist who understands this](ch:finding-a-therapist-who-understands-this).
 
 *The Sovereign Divine Feminine* lists false reports to employers, licensing boards, child services and the police among the forms of [post-separation control](/feminine/post-separation-control#core-concept).
+
+## An honest look at your own part
+*An honest check, just for you. This is about what's in your hands now, not blame for what was done to you.*
+
+Being accused can make it hard to look at anything you did, because owning anything feels like admitting everything. Privately, ask yourself:
+
+- Is there a moment I'm ashamed of? What happened just before it?
+- Was it a one-off reaction, or has it become a pattern of my own?
+- Am I frightening anyone now, including my children?
+- Is there something I'd want help with, like anger or drinking, whatever they say about me?
+
+Owning a moment isn't owning their pattern. If something does worry you, talking to a counsellor or a service for people concerned about their own behaviour is a strong step, not a confession.
 
 ## Staying calm under a false report
 *This example is made up, built from patterns many people describe.*

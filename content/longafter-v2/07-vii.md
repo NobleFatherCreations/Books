@@ -124,6 +124,18 @@ No. Trauma bonds form in ordinary people under particular conditions. They say m
 
 *The Sovereign Divine Feminine* traces how the bond gets built, stage by stage, in [The Manipulation Cycle](/feminine/the-manipulation-cycle#core-concept).
 
+## What the pull wants you to forget
+*An honest check, just for you. This is about what's in your hands now, not blame for what was done to you.*
+
+A trauma bond edits memory. It keeps the warm moments bright and fades the rest. On a hard night, ask yourself:
+
+- Am I missing the person, or the best version of them I saw a few times?
+- What happened the last time I believed things would change?
+- If I went back, what would I have to stop seeing again?
+- Who in my life would be worried, and why?
+
+Write your answers down while you're clear, and keep them with your list of what happened. Read both when the pull is strong.
+
 ## What loosening looked like for Dev
 *This example is made up, built from patterns many people describe.*
 
@@ -484,6 +496,18 @@ Sometimes anger becomes a constant hum, and stays for years. It can keep you tie
 ## Can anger be useful?
 Yes. Anger can power a boundary, a complaint, a court application, or help for someone else. Used that way, it becomes energy for your life, not fuel for theirs.
 
+## When the anger wants something
+*An honest check, just for you. This is about what's in your hands now, not blame for what was done to you.*
+
+Anger is fair. It can also start making plans. Ask yourself:
+
+- Do I want them to hurt the way I did?
+- Am I tempted to post, expose, or send something I can't take back?
+- Would I be comfortable with a judge or my children seeing what I'm about to do?
+- Is my anger aimed at the right person, or landing on the people near me?
+
+If any answer worries you, wait a day, and put the anger somewhere safe first: a run, a notebook, a friend.
+
 ## When the anger came
 *This example is made up, built from patterns many people describe.*
 
@@ -568,6 +592,18 @@ Checking fills a gap: boredom, loneliness, worry. Choose a replacement for the s
 
 ## What if I slip?
 You will, probably. Everyone does. Notice it, don't punish yourself, and start again. The aim is fewer checks, not a perfect record.
+
+## What the checking is doing for you
+*An honest check, just for you. This is about what's in your hands now, not blame for what was done to you.*
+
+Checking often feels like gathering information. Ask yourself:
+
+- What am I hoping to find this time?
+- When did checking last give me something I needed for safety or court?
+- How do I feel ten minutes after I look?
+- What am I avoiding feeling when I reach for my phone?
+
+If the honest answer is "I'm checking to feel close to them" or "to make sure they're suffering," that's normal, and it's also the bond talking. Use the slip plan, and be kind to yourself.
 
 ## How Sophie stopped checking
 *This example is made up, built from patterns many people describe.*
@@ -663,6 +699,18 @@ Family, friends or faith leaders may urge you to forgive, sometimes so they can 
 
 ## Acceptance without forgiveness
 Some people find a middle path: accepting that it happened, that they can't change it, and that they won't let it run their life, without forgiving. Acceptance is about your peace. It doesn't require anything from them.
+
+## What are you still waiting for?
+*An honest check, just for you. This is about what's in your hands now, not blame for what was done to you.*
+
+Waiting for closure can quietly keep a door open. Ask yourself:
+
+- What exactly do I want them to say?
+- If they said it, would I believe them?
+- Am I staying in contact, or checking in, in the hope of that moment?
+- What could I give myself instead of waiting for them?
+
+The answers may show you which door to close next.
 
 ## The letter you don't send
 Write a letter to the person you left, saying everything you'll never get to say. Don't send it. Keep it, burn it or bury it. The point is to finish the conversation in your own head, on your own terms.

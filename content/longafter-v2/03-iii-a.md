@@ -106,6 +106,18 @@ If a child talks about being hurt, frightened, or asked to keep secrets, or if t
 
 *The Sovereign Divine Feminine* looks at how motherhood is used as pressure in [The Motherhood Matrix](/feminine/the-motherhood-matrix#core-concept), and lists children among the main channels in [post-separation control](/feminine/post-separation-control#o-orient-return-to-facts-and-pattern). *Playground Protectors*, also in this library, is written for children themselves.
 
+## Being honest about what reaches the children
+*An honest check, just for you. This is about what's in your hands now, not blame for what was done to you.*
+
+When you're under attack, it's easy for some of it to spill towards the children without meaning to. Ask yourself:
+
+- Do I ask the children questions about the other home that are more for me than for them?
+- Have they heard me criticise their other parent, on the phone or to a friend?
+- Do I ever pass messages through them, even small ones?
+- Do I react to their love for the other parent in a way they can see?
+
+If any answer is yes, you're not a bad parent. You're a parent under strain. Choose one thing to change this week, and tell your child, "That was a grown-up thing I shouldn't have put on you."
+
 ## A handover that didn't become a fight
 *This example is made up, built from patterns many people describe.*
 
@@ -338,6 +350,18 @@ You may lose some people along the way. Keep the ones who asked you what happene
 - Keep living well, visibly and quietly. Over time, that's the strongest answer.
 
 *The Sovereign Divine Feminine* covers smear campaigns online in [Digital Smear Campaigns](/feminine/digital-smear-campaigns#core-concept) and the social side in [The Social Siege](/feminine/the-social-siege#core-concept).
+
+## Before you tell your side
+*An honest check, just for you. This is about what's in your hands now, not blame for what was done to you.*
+
+When lies are spreading, the urge to fight back with your own story can be strong. Ask yourself:
+
+- Am I correcting a fact, or trying to win people over?
+- Will saying this protect my children, my job or my safety?
+- Am I sharing details I'd regret once I'm calmer?
+- Am I starting to do to them what they did to me?
+
+Sometimes the honest answer is that silence and steady behaviour will do more than anything you could post.
 
 ## How a rumour faded
 *This example is made up, built from patterns many people describe.*

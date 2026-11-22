@@ -12,3 +12,20 @@ Owner's brief: the writing should make the reader feel seen, safe, and in the ri
 | **In the right place**: the reader knows within seconds whether this page is for them | Short answer at the top of every page; question headings; "Next, if this is you" at the end; the *Where are you right now?* page (now 20 situations) | In place on all 96 pages |
 | **In the right place**: nothing important is only mentioned in passing | Completeness audit: every question heading answered in under 45 words listed (148); 12 that were too thin for the question deepened; the rest are short answers with a link to the chapter that covers the topic fully | Done |
 | **In the right place**: terms are explained | Every acronym and legal term checked against the A to Z; 21 added (Cafcass, MARAC, IDVA, McKenzie friend, prohibited steps order, special measures, VAWA, EMDR and others) | A to Z now 65 entries |
+
+## Accountability sections ("An honest check, just for you"), added 2026-11-22
+Owner's brief: ask the reader to be honest with themselves, in a way that promotes healing and growth, where their view is most likely to be skewed.
+
+Placed in 17 chapters, grouped by what bends the view:
+- **Longing and hope:** the trauma bond, if you go back, hoovering, checking their profile, closure and forgiveness
+- **Anger:** anger arriving late, the narrative campaign, family court
+- **The children:** children as the channel, your children and what to say, when your child is pulled in
+- **Labels:** is my ex a narcissist, abuse or a hard breakup, when they say you're the abuser
+- **New relationships and trust:** dating, trust as a practice, the new partner
+
+Rules every section follows:
+1. It opens with the same line: *"This is about what's in your hands now, not blame for what was done to you."*
+2. Questions only, about present choices the reader controls. No verdicts, no scores.
+3. It ends with a gentle next step if an answer stings: a person to talk to, a day's wait, one small change.
+4. It's explained in *How to use this book*, so readers know what these sections are before they meet one.
+5. The drinking chapter already had a self-check, so a second one was not added.
