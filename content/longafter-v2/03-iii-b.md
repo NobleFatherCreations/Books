@@ -81,6 +81,16 @@ Online lives are edited. A new relationship tells you nothing about whether your
 ## What if the new relationship struggles under the pressure?
 That's not your fault, and it doesn't mean you shouldn't date. Some relationships hold under strain and some don't. A partner who meets this with calm and curiosity is showing you something good about them. [Dating, when you're ready and when you're not](ch:dating-when-youre-ready-and-when-youre-not) covers the wider picture.
 
+## When the messages reached the new partner
+*This example is made up, built from patterns many people describe.*
+
+A few months into Elena's new relationship, her partner got a long message from her ex, describing Elena as unstable and dangerous. Her partner showed her the message straight away. They agreed together: no reply, screenshot it, block the account. Elena added it to her record.
+
+Her partner said later that what convinced him wasn't anything Elena said. It was how calm she stayed, and how the message didn't match the person he knew.
+
+## Talk before it happens
+Tell a new partner early, briefly, that your ex may try to contact them, and agree what you'll both do if they do.
+
 ## Sources
 - Stark, E. (2007). *Coercive Control: How Men Entrap Women in Personal Life.* Oxford University Press.
 - Home Office (2016). *Domestic Violence Disclosure Scheme (Clare's Law) guidance* (England and Wales).
@@ -236,6 +246,16 @@ Yes, if there's any chance you'll need them: for a protective order, a custody c
 
 *The Sovereign Divine Feminine* calls hoovering "the return of the mask" in its chapter on [post-separation control](/feminine/post-separation-control#core-concept), and places it in [the manipulation cycle](/feminine/the-manipulation-cycle#core-concept).
 
+## Three hoovers in one year
+*This example is made up, built from patterns many people describe.*
+
+In January, Marcus's ex sent a long apology. He didn't reply. In April, she messaged that she was in hospital; he called her sister, who confirmed she was fine. In September, on their old anniversary, she sent a photo of their first holiday with "Do you remember?" He looked at it for a long time, then sent it to his friend instead of replying.
+
+Each hoover was different. His answer was the same each time: no reply, record it, tell someone. By the third, it hurt less.
+
+## Write your answer now
+Write down, today, what you'll do the next time they reach out. When it comes, you won't have to decide in the moment.
+
 ## Sources
 - Ferster, C. B., and Skinner, B. F. (1957). *Schedules of Reinforcement.* Appleton-Century-Crofts.
 - Dutton, D. G., and Painter, S. (1993). Emotional attachments in abusive relationships: A test of traumatic bonding theory. *Violence and Victims*, 8(2), 105–120.
@@ -326,6 +346,16 @@ Being accused of the thing that was done to you can feel like losing your mind. 
 
 *The Sovereign Divine Feminine* lists false reports to employers, licensing boards, child services and the police among the forms of [post-separation control](/feminine/post-separation-control#core-concept).
 
+## Staying calm under a false report
+*This example is made up, built from patterns many people describe.*
+
+Two days after Jess got a protective order, police came to her door. Her ex had reported that she had threatened him. She was shaking. She said, "I'd like to get legal advice before I answer questions, and I'd like you to know there's a protective order against him." She gave them the order's reference number.
+
+Her lawyer helped her give a calm statement with her record attached. The police took no further action. Jess still felt sick for a week. She also knew she had handled it well.
+
+## The sentence to remember
+"I want to get legal advice before I answer that." You're always allowed to say it.
+
 ## Sources
 - Freyd, J. J. (1997). Violations of power, adaptive blindness, and betrayal trauma theory. *Feminism & Psychology*, 7(1), 22–32.
 - Harsey, S., and Freyd, J. J. (2020). Deny, attack, and reverse victim and offender (DARVO): What is the influence on perceived perpetrator and victim credibility? *Journal of Aggression, Maltreatment & Trauma*, 29(8), 897–916.
@@ -399,6 +429,16 @@ Sometimes the pattern stops for you because it's moved to a new partner. You may
 
 ## What if it never fully stops?
 Then the goal shifts from ending it to shrinking it: fewer channels, shorter contact, less of your attention. Many people who share children with a controlling ex describe getting to a place where it's still there, but it no longer runs their week. That's a real outcome, and it's worth working towards. [The long after](ch:the-long-after) describes what life can look like years out.
+
+## How quiet arrived
+*This example is made up, built from patterns many people describe.*
+
+For two years after leaving, Ola's ex filed applications, sent messages and disrupted handovers. Then something shifted. He started a new relationship, and moved further away. The messages became shorter, then rare. Handovers became thirty seconds of nothing.
+
+Ola didn't notice the change until she looked back through her record and saw that the entries had thinned from several a week to one a month. She cried, then went out for dinner with a friend. She kept her safety steps for another year, just in case.
+
+## Looking back to see forward
+Every few months, read your record from the start. Change often only shows from a distance.
 
 ## Sources
 - Ferster, C. B., and Skinner, B. F. (1957). *Schedules of Reinforcement.* Appleton-Century-Crofts.
