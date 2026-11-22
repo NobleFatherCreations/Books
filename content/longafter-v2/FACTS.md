@@ -1,5 +1,36 @@
 # Fact log: claims to verify against a primary source before publishing
 
+## Verification pass, 2026-11-22 (web search against official and primary sources)
+**Checked, ok:**
+- Galop 0800 999 5428
+- Men's Advice Line 0808 801 0327
+- Karma Nirvana 0800 5999 247
+- Men's Aid Ireland 01 554 3811
+- Scotland DA and Forced Marriage Helpline 0800 027 1234 (24/7)
+- Live Fear Free 0808 80 10 800 (gov.wales, 24/7)
+- Rape Crisis England and Wales 0808 500 2222 (24/7)
+- Rape Crisis Scotland 08088 01 03 02 (evenings)
+- Dublin Rape Crisis Centre 1800 77 8888 (24/7)
+- HSE Drugs and Alcohol 1800 459 459 (weekdays)
+- AU Alcohol and Other Drug Hotline 1800 250 015 (24/7)
+- Drinkline 0300 123 1110 (Scotland 0800 7314 314)
+- love is respect 1-866-331-9474 / LOVEIS to 22522
+- 988 Canada, call or text
+- National Domestic Abuse Helpline 0808 2000 247
+- NSW coercive control offence: Crimes Act s.54D, in force 1 July 2024, current and former intimate partners
+- DA Act 2021 s.68: removed the cohabitation requirement (point-in-time version dated 2023-04-05)
+- TAKE IT DOWN Act: signed May 2025; 48-hour removal duty from 19 May 2026; FTC reporting site
+- Ireland paid domestic violence leave: 5 days, from 27 November 2023
+
+**Corrected in the text:**
+- UK Silent Solution works from mobiles only, and does not share location (S2, Find help)
+- Ireland stalking offence in force 1 November 2023, not 2024 (Stalking chapter)
+- Northern Ireland leave law renamed correctly (Domestic Abuse (Safe Leave) Act (NI) 2022); marked as not yet in force (Work again)
+- S2 short answer: "many" lines are 24/7, not "most"
+
+**Still to verify** (lower risk: academic citations, the remaining statutes and the US numbers already well known): the items marked `verify` below. Verify each before the deploy of the second edition.
+
+
 Status key: `verify` = still to check (final pass, task 24), `ok` = checked, with the source used.
 
 ## Start here

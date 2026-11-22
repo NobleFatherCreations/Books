@@ -286,7 +286,7 @@ Domestic abuse help near me: start with your country's national helpline below.
 - Legal help: LawHelp.org
 
 ## United Kingdom
-- Emergency: 999 (can't speak? press 55 when asked)
+- Emergency: 999 (can't speak? call from a mobile and press 55 when asked; say your location if you can)
 - National Domestic Abuse Helpline (England): 0808 2000 247
 - Scotland's Domestic Abuse and Forced Marriage Helpline: 0800 027 1234
 - Live Fear Free (Wales): 0808 80 10 800

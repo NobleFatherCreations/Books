@@ -245,7 +245,7 @@ If you've been drinking heavily every day, don't stop suddenly without medical a
 These services are free and confidential:
 
 - **United States:** SAMHSA National Helpline, 1-800-662-4357.
-- **United Kingdom:** Drinkline, 0300 123 1110; FRANK (drugs), 0300 123 6600.
+- **United Kingdom:** Drinkline, 0300 123 1110 (Scotland: 0800 7314 314); FRANK (drugs), 0300 123 6600.
 - **Australia:** National Alcohol and Other Drug Hotline, 1800 250 015.
 - **Ireland:** HSE Drugs and Alcohol Helpline, 1800 459 459.
 - **Canada:** search "[your province] addiction help line."

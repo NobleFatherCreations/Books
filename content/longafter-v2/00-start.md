@@ -54,7 +54,7 @@ Read [How to use this book](ch:how-to-use-this-book) for how it works. Or use th
 title: If you're not safe right now
 question: Where do I go for domestic abuse help today?
 seo: Domestic Abuse Help: Where to Go Right Now
-short: If you are in danger now, call your emergency number. For domestic abuse help that isn't an emergency, a domestic abuse helpline can talk you through what to do next, and most are free, confidential and open all hours. You don't need to be sure it's serious enough to call.
+short: If you are in danger now, call your emergency number. For domestic abuse help that isn't an emergency, a domestic abuse helpline can talk you through what to do next. They are free and confidential, and many are open all hours. You don't need to be sure it's serious enough to call.
 ---
 If someone is hurting you, threatening you, or outside your door, call your emergency number now. Nothing in this book matters more than that call.
 
@@ -62,7 +62,7 @@ You do not need to be sure it's "bad enough." Call handlers would much rather he
 
 ## Emergency numbers
 - United States and Canada: 911
-- United Kingdom: 999. If you can't speak, call 999, then press 55 when asked. This tells the operator you need help.
+- United Kingdom: 999. If you can't speak, call 999 from a mobile, then press 55 when the recording asks. This tells the operator you need help. It doesn't share your location, so say where you are if you can. It doesn't work from a landline.
 - Australia: 000
 - Ireland: 112 or 999
 - Anywhere else: search "[your country] emergency number" now, and save it in your phone under a plain name.
