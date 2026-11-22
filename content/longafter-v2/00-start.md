@@ -79,10 +79,16 @@ These lines are free and confidential. They can help you plan, find a refuge or 
 Anywhere else, search: "[your country] domestic abuse helpline." The national charity will come up near the top.
 
 ## If you're thinking about harming yourself
-Call a crisis line now. In the US and Canada, call or text 988. In the UK and Ireland, Samaritans are on 116 123. In Australia, Lifeline is 13 11 14. Then read [When it's more than aftermath](ch:when-its-more-than-aftermath), which was written for this moment.
+Call a crisis line now:
+
+- United States and Canada: call or text 988
+- United Kingdom and Ireland: Samaritans, 116 123
+- Australia: Lifeline, 13 11 14
+
+Then read [When it's more than aftermath](ch:when-its-more-than-aftermath), which was written for this moment.
 
 ## If this device isn't private
-The **Leave** button at the top of every page blanks this page at once. Press **Esc** on a keyboard to do the same.
+The **Leave** button at the top of every page blanks this page at once. Press **Esc** on a keyboard to do the same. The browser's back button can still bring the book back, so close the tab when you safely can.
 
 A private or incognito window keeps this book out of your history. Browsers can still be monitored in other ways, so if someone has had access to your phone, use a phone they've never touched: a friend's, a work phone, a library computer. [Surveillance and technology](ch:surveillance-and-technology) explains how to check.
 

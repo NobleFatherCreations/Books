@@ -58,3 +58,8 @@ Owner, 2026-11-22: write the full book now. It should have:
 
 ## Search plan
 Target phrases, volumes and the page-role map are in `BOOK-MAP-v2.md` §6, §7 and §11. Each chapter has exactly one main target phrase (in `plan.json`). It appears in the browser title, the first sentence of the short answer and one question heading; elsewhere only where a person would say it.
+
+## Pipeline (2026-11-22)
+`bash scripts/longafter-pipeline.sh` runs, in order, stopping at the first failure:
+content audit → build → beacon → hub files (llms.txt, topics) → findability + on-page + schema → seal menu → screenshots, axe, lab speed.
+Topic expansion loop: search data (Ubersuggest suggestions, Search Console via Windsor) → gap list (terms absent from the book) → sections written into the matching chapter → FACTS.md → pipeline.

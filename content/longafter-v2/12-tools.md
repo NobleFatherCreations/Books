@@ -342,6 +342,8 @@ These are the post-separation abuse terms people search for, explained plainly.
 
 **Blame-shifting.** Making you responsible for what they did. [Guilt and shame](ch:guilt-and-shame); Decoder: [blame-shifting](/playbook/blame-shifting).
 
+**Breadcrumbing.** Small scraps of attention that keep you hoping, with nothing behind them. [Hoovering](ch:hoovering); Decoder: [breadcrumbing](/playbook/bread-crumbing).
+
 **Coerced debt.** Debt in your name that you didn't freely agree to. [Money as the channel](ch:money-as-the-channel).
 
 **Coercive control.** A pattern of behaviour that takes away someone's freedom and sense of self. A crime in some places. [What post-separation abuse is](ch:what-is-post-separation-abuse).
@@ -351,6 +353,8 @@ These are the post-separation abuse terms people search for, explained plainly.
 **DARVO.** Deny, attack, reverse victim and offender. [When they say you're the abuser](ch:when-they-say-youre-the-abuser); Decoder: [DARVO](/playbook/darvo).
 
 **Discard.** Ending a relationship suddenly and coldly, often after blaming you for everything. [If they left you](ch:if-they-left-you); Decoder: [blame and discard](/playbook/blame-discard).
+
+**Dissociation.** Feeling far away, numb or unreal, a survival response that can continue after leaving. [What your nervous system is doing](ch:what-your-nervous-system-is-doing).
 
 **Economic abuse.** Using money to control: restricting it, taking it, or running up debt. [Money as the channel](ch:money-as-the-channel); Decoder: [financial control](/playbook/financial-control).
 
@@ -374,6 +378,10 @@ These are the post-separation abuse terms people search for, explained plainly.
 
 **Isolation.** Cutting someone off from friends and family. [Making new people from scratch](ch:making-new-people-from-scratch); Decoder: [isolation](/playbook/isolation).
 
+**Legal abuse syndrome.** A popular term, not a diagnosis, for the stress caused by long or abusive court cases. [Systems abuse and litigation abuse](ch:systems-abuse).
+
+**Limerence.** An intense, obsessive longing for someone, which can sit alongside a trauma bond. [The trauma bond](ch:the-trauma-bond).
+
 **Litigation abuse.** Using courts to harass or wear someone down. [Systems abuse and litigation abuse](ch:systems-abuse); Decoder: [legal abuse](/playbook/legal-abuse).
 
 **Love bombing.** Overwhelming attention and affection early on, or on return. [Dating, when you're ready and when you're not](ch:dating-when-youre-ready-and-when-youre-not); Decoder: [love bombing](/playbook/love-bombing).
@@ -386,7 +394,11 @@ These are the post-separation abuse terms people search for, explained plainly.
 
 **Parental alienation.** A disputed term for one parent turning a child against the other. [Family court, honestly](ch:family-court-honestly).
 
+**Planning Together for Children.** An online course the family court in England and Wales may refer parents to. [Co-parenting or parallel parenting?](ch:co-parenting-or-parallel-parenting).
+
 **Post-separation abuse.** Control, fear or punishment that continues after a relationship ends. [What post-separation abuse is](ch:what-is-post-separation-abuse).
+
+**Power and Control Wheel.** A 1984 diagram from Duluth, Minnesota, showing the tactics of control; post-separation versions exist. [What post-separation abuse is](ch:what-is-post-separation-abuse).
 
 **Protective order.** A court order to stay away and stop contact. [Protective orders](ch:police-and-protective-orders).
 
@@ -401,6 +413,8 @@ These are the post-separation abuse terms people search for, explained plainly.
 **Stalking.** A pattern of unwanted pursuit that causes fear. [Stalking and harassment after a breakup](ch:stalking-and-harassment).
 
 **Stalkerware.** Hidden software that reports what you do on your phone. [Surveillance and technology](ch:surveillance-and-technology).
+
+**Stockholm syndrome.** A bond with a captor, named after a 1973 bank siege. Related to a trauma bond, but not the same. [The trauma bond](ch:the-trauma-bond).
 
 **Stonewalling.** Refusing to engage, as a tactic. [Grey rock and written-only contact](ch:grey-rock-and-written-only-contact); Decoder: [stonewalling](/playbook/stonewalling).
 
@@ -418,67 +432,81 @@ short: The post-separation abuse questions people ask most, each with a short, p
 ---
 These are the post-separation abuse questions people ask most.
 
-**What is post-separation abuse?** Control, fear or punishment from a former partner that continues after the relationship ends, through children, money, courts, other people or technology. [Read more](ch:what-is-post-separation-abuse).
+**What is post-separation abuse?** Control, fear or punishment from a former partner that continues after the relationship ends, through children, money, courts, other people or technology. Read: [What post-separation abuse is](ch:what-is-post-separation-abuse).
 
-**Is post-separation abuse a crime?** Parts of it are crimes almost everywhere (threats, stalking, breaking an order), and coercive control itself is a crime in some places. [Read more](ch:what-is-post-separation-abuse).
+**Is post-separation abuse a crime?** Parts of it are crimes almost everywhere (threats, stalking, breaking an order), and coercive control itself is a crime in some places. Read: [What post-separation abuse is](ch:what-is-post-separation-abuse).
 
-**Does post-separation abuse ever end?** For many people it fades or stops; for some it continues in a smaller form for years. [Read more](ch:when-it-stops).
+**Does post-separation abuse ever end?** For many people it fades or stops; for some it continues in a smaller form for years. Read: [When it stops](ch:when-it-stops).
 
-**Is leaving the most dangerous time?** It can be, especially with a very controlling partner. Plan for safety. [Read more](ch:why-it-often-gets-worse-first).
+**Is leaving the most dangerous time?** It can be, especially with a very controlling partner. Plan for safety. Read: [Why it often gets worse first](ch:why-it-often-gets-worse-first).
 
-**What is hoovering?** An attempt to pull you back into contact, often just as you're doing well. [Read more](ch:hoovering).
+**What is hoovering?** An attempt to pull you back into contact, often just as you're doing well. Read: [Hoovering](ch:hoovering).
 
-**Will my ex come back?** Many do, at least once. You don't owe a reply. [Read more](ch:hoovering).
+**Will my ex come back?** Many do, at least once. You don't owe a reply. Read: [Hoovering](ch:hoovering).
 
-**What is a trauma bond?** A strong attachment to someone who hurt you, built by cycles of harm and warmth. [Read more](ch:the-trauma-bond).
+**What is the difference between hoovering and breadcrumbing?** Hoovering pulls you back into contact; breadcrumbing keeps you hoping with scraps. Read: [Hoovering](ch:hoovering).
 
-**How long does a trauma bond last?** There's no fixed time; it usually weakens once contact stops, in waves. [Read more](ch:the-trauma-bond).
+**What is a trauma bond?** A strong attachment to someone who hurt you, built by cycles of harm and warmth. Read: [The trauma bond: why you miss someone who hurt you](ch:the-trauma-bond).
 
-**Why do I miss my abuser?** Because the relationship wasn't only harm, and the bond was built strong. Missing isn't wanting back. [Read more](ch:what-youre-allowed-to-feel-about-someone-you-left).
+**How long does a trauma bond last?** There's no fixed time; it usually weakens once contact stops, in waves. Read: [The trauma bond: why you miss someone who hurt you](ch:the-trauma-bond).
 
-**Is my ex a narcissist?** Only a clinician can diagnose that, and you don't need a diagnosis to protect yourself. [Read more](ch:is-my-ex-a-narcissist).
+**Is a trauma bond the same as Stockholm syndrome?** Related, not the same: Stockholm syndrome describes a short ordeal with a captor; a trauma bond grows inside a relationship. Read: [The trauma bond: why you miss someone who hurt you](ch:the-trauma-bond).
 
-**What do narcissists do after a breakup?** Common patterns: silence, a smear campaign, fast replacement, and a return. [Read more](ch:is-my-ex-a-narcissist).
+**What are examples of trauma bonding?** Feeling relief that feels like love after cruelty; defending them; unblocking them the same night. Read: [The trauma bond: why you miss someone who hurt you](ch:the-trauma-bond).
 
-**Can you co-parent with a narcissist?** Usually not in the usual way; parallel parenting works better. [Read more](ch:co-parenting-or-parallel-parenting).
+**Why do I miss my abuser?** Because the relationship wasn't only harm, and the bond was built strong. Missing isn't wanting back. Read: [What you're allowed to feel about someone you left](ch:what-youre-allowed-to-feel-about-someone-you-left).
 
-**What is parallel parenting?** Two homes, minimal written contact, and a detailed plan. [Read more](ch:co-parenting-or-parallel-parenting).
+**Is my ex a narcissist?** Only a clinician can diagnose that, and you don't need a diagnosis to protect yourself. Read: [Is my ex a narcissist?](ch:is-my-ex-a-narcissist).
 
-**What is the grey rock method?** Short, flat, factual replies that give them nothing to react to. Not for every situation. [Read more](ch:grey-rock-and-written-only-contact).
+**What do narcissists do after a breakup?** Common patterns: silence, a smear campaign, fast replacement, and a return. Read: [Is my ex a narcissist?](ch:is-my-ex-a-narcissist).
 
-**Should I respond to my ex?** Only when a message needs an answer: children, court, money with a deadline. [Read more](ch:messages-you-dont-have-to-answer).
+**Can you co-parent with a narcissist?** Usually not in the usual way; parallel parenting works better. Read: [Co-parenting or parallel parenting?](ch:co-parenting-or-parallel-parenting).
 
-**How do I document post-separation abuse?** Four lines, the same day: when, what, who saw it, what it changed. [Read more](ch:what-to-document-and-how).
+**What is parallel parenting?** Two homes, minimal written contact, and a detailed plan. Read: [Co-parenting or parallel parenting?](ch:co-parenting-or-parallel-parenting).
 
-**What is litigation abuse?** Using the courts to harass or exhaust you. Courts can limit it. [Read more](ch:systems-abuse).
+**Do I have to take a co-parenting class?** Many courts require one. If there was abuse, ask to attend separately. Read: [Co-parenting or parallel parenting?](ch:co-parenting-or-parallel-parenting).
 
-**Where can I get free legal help?** Legal aid, domestic abuse legal services, law clinics and court help desks. [Read more](ch:solicitors-legal-aid-and-no-money).
+**What is the grey rock method?** Short, flat, factual replies that give them nothing to react to. Not for every situation. Read: [Grey rock and written-only contact](ch:grey-rock-and-written-only-contact).
 
-**How does a protective order work?** A court order to stay away and stop contact; breaking it can lead to arrest. [Read more](ch:police-and-protective-orders).
+**Should I respond to my ex?** Only when a message needs an answer: children, court, money with a deadline. Read: [Messages you don't have to answer](ch:messages-you-dont-have-to-answer).
 
-**Can I report post-separation abuse to the police?** Yes. Describe the pattern and ask for a reference number. [Read more](ch:police-and-reporting).
+**How do I document post-separation abuse?** Four lines, the same day: when, what, who saw it, what it changed. Read: [What to document and how](ch:what-to-document-and-how).
 
-**What is reactive abuse?** Being provoked until you react, then having the reaction used against you. [Read more](ch:when-they-say-youre-the-abuser).
+**What is litigation abuse?** Using the courts to harass or exhaust you. Courts can limit it. Read: [Systems abuse and litigation abuse](ch:systems-abuse).
 
-**Is my ex tracking me?** Check accounts, location sharing, your phone and your car, safely. [Read more](ch:surveillance-and-technology).
+**What is legal abuse syndrome?** A popular term, not a medical diagnosis, for the stress caused by abusive court cases. Read: [Systems abuse and litigation abuse](ch:systems-abuse).
 
-**What if my ex threatens to post pictures of me?** It's a crime in many places, and tools can block images from spreading. [Read more](ch:intimate-images-and-online-threats).
+**Is coercive control grounds for divorce?** Most places now allow no-fault divorce, so you don't need grounds; the abuse can still matter for children and safety. Read: [Divorce and separation proceedings](ch:divorce-and-separation-proceedings).
 
-**How do I explain the divorce to my child?** Simple, true facts for their age; not their fault; loved by both. [Read more](ch:your-children-and-what-to-say).
+**Where can I get free legal help?** Legal aid, domestic abuse legal services, law clinics and court help desks. Read: [Legal help with little or no money](ch:solicitors-legal-aid-and-no-money).
 
-**How do I make handovers safe?** School handovers, a public place, a third person, or a contact centre. [Read more](ch:handovers).
+**How does a protective order work?** A court order to stay away and stop contact; breaking it can lead to arrest. Read: [Protective orders](ch:police-and-protective-orders).
 
-**Why can't I stop thinking about my ex?** Obsessive thoughts are part of the withdrawal from a trauma bond, and they ease with distance. [Read more](ch:checking-their-profile).
+**Can I report post-separation abuse to the police?** Yes. Describe the pattern and ask for a reference number. Read: [Police and reporting](ch:police-and-reporting).
 
-**Do I have to forgive?** No. Forgiveness is a choice, not a requirement for healing. [Read more](ch:closure-and-forgiveness).
+**What is reactive abuse?** Being provoked until you react, then having the reaction used against you. Read: [When they say you're the abuser](ch:when-they-say-youre-the-abuser).
 
-**How many times does it take to leave?** There's no single number; leaving more than once is common. [Read more](ch:if-you-go-back).
+**Is my ex tracking me?** Check accounts, location sharing, your phone and your car, safely. Read: [Surveillance and technology](ch:surveillance-and-technology).
 
-**Will I ever be the same?** Not exactly, and much of you comes back, plus what you've learned. [Read more](ch:the-version-of-you-from-before).
+**What if my ex threatens to post pictures of me?** It's a crime in many places, and tools can block images from spreading. Read: [Intimate images and online threats](ch:intimate-images-and-online-threats).
 
-**What does recovery look like?** Getting back choice and capacity, not never having a hard day. [Read more](ch:what-recovered-actually-means).
+**How do I explain the divorce to my child?** Simple, true facts for their age; not their fault; loved by both. Read: [Your children, and what to say](ch:your-children-and-what-to-say).
 
-**How do I help a friend who left?** Believe them, follow their lead, and stay. [Read more](ch:helping-someone-in-year-one).
+**How do I make handovers safe?** School handovers, a public place, a third person, or a contact centre. Read: [Handovers](ch:handovers).
+
+**Why can't I stop thinking about my ex?** Obsessive thoughts are part of the withdrawal from a trauma bond, and they ease with distance. Read: [Checking their profile](ch:checking-their-profile).
+
+**What should I expect after leaving an emotionally abusive relationship?** Self-doubt, missing them, jumpiness, tiredness and late anger are all common. Read: [Leaving was the middle](ch:leaving-was-the-middle).
+
+**Do I have to forgive?** No. Forgiveness is a choice, not a requirement for healing. Read: [Closure you give yourself, and whether you have to forgive](ch:closure-and-forgiveness).
+
+**How many times does it take to leave?** There's no single number; leaving more than once is common. Read: [If you go back](ch:if-you-go-back).
+
+**Will I ever be the same?** Not exactly, and much of you comes back, plus what you've learned. Read: [The version of you from before](ch:the-version-of-you-from-before).
+
+**What does recovery look like?** Getting back choice and capacity, not never having a hard day. Read: [What “recovered” means](ch:what-recovered-actually-means).
+
+**How do I help a friend who left?** Believe them, follow their lead, and stay. Read: [Helping someone in year one](ch:helping-someone-in-year-one).
 
 === for-professionals
 title: For professionals

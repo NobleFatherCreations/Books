@@ -89,7 +89,7 @@ def llms(sites):
             fb = __import__("build_festival")
             guide_slugs = {S.slugify(g["role"], 40) for g in fb.data_of(S.read(S.ROOT / "library/festival/index.html"))["guides"]}
             pages = [p for p in pages if p[1].rsplit("/", 1)[-1] in guide_slugs]
-        lines += [f"- [{t}]({u})" for t, u, _ in pages]
+        lines += [f"- [{t}]({u})" + (f": {d}" if b == "longafter" and d else "") for t, u, d in pages]
     lines += ["", "## Tools", "",
               f"- [The Pattern Decoder]({S.DOMAIN}/playbook): 310 manipulation and control tactics, each with its own page "
               f"(signs, what it is, what to do). Every tactic: {S.DOMAIN}/playbook/tactics",
@@ -170,7 +170,7 @@ def seal_menu():
     import importlib.util
     spec = importlib.util.spec_from_file_location("nf_catalogue", S.ROOT / "scripts/nf-catalogue.py")
     cat = importlib.util.module_from_spec(spec); spec.loader.exec_module(cat)
-    return S.house_parts(cat.retoc(S.read(S.ROOT / "library/longafter/index.html"), None))
+    return S.house_parts(cat.retoc(S.read(S.ROOT / "library/silence/index.html"), None))
 
 
 def topics():

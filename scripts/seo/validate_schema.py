@@ -38,7 +38,7 @@ def walk(node, where):
             elif allowed and not (props[k] & allowed): errs[f"property {k} not expected on {t}"] += 1
     for k, v in node.items():
         if isinstance(v, (dict, list)): walk(v, where)
-files = [p for b in ["fracture","feminine","children","wook","fractal","festival","faith"] for p in (ROOT/"library"/b).glob("*.html")] + [ROOT/"hub/catalogue-redesign.html"]
+files = [p for b in ["fracture","feminine","children","wook","fractal","festival","faith","longafter"] for p in (ROOT/"library"/b).glob("*.html")] + [ROOT/"hub/catalogue-redesign.html"]
 for f in files:
     h = f.read_text(encoding="utf-8", errors="ignore")
     for m in re.finditer(r'<script type="application/ld\+json"[^>]*>(.*?)</script>', h, re.S):

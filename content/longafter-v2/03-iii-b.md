@@ -101,6 +101,16 @@ It also works because of how the relationship trained you. Warmth that comes and
 ## Will a narcissist come back after a breakup?
 Often, yes. Whatever label fits the person, returning after silence is one of the most common patterns after a break-up with a controlling partner. Some come back once. Some come back for years, every time you seem to be doing well.
 
+## Hoovering, breadcrumbing and ghosting: what's the difference?
+- **Hoovering** is an attempt to pull you back into contact after you've left, or after they've gone quiet. The aim is to get you reachable again.
+- **Breadcrumbing** is giving just enough attention to keep you hoping: a like, a late-night "thinking of you," with nothing behind it.
+- **Ghosting** is cutting off all contact without a word.
+
+After an abusive relationship these often come as a cycle. They go silent, which hurts. Then a crumb arrives. Then a full hoover, when the silence hasn't worked. Knowing the cycle helps you see the next step coming. The Decoder has pages on [breadcrumbing](/playbook/bread-crumbing), [ghosting as control](/playbook/ghosting-as-control) and [the silent treatment](/playbook/withholding-silent-treatment).
+
+## What about hoovering after a discard?
+Sometimes they ended it, coldly, and then came back weeks later as if nothing happened. That's still hoovering. The discard and the return are two parts of the same pattern. If they left you, [If they left you](ch:if-they-left-you) is written for that.
+
 ## How long does hoovering last?
 There's no fixed answer. For some people it stops after a few attempts that go unanswered. For others it returns on special dates or whenever life changes. What tends to make it fade is consistent silence, because each reply, even an angry one, tells them the channel still works. [When it stops](ch:when-it-stops) covers the range honestly.
 

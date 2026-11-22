@@ -147,3 +147,12 @@ Status key: `verify` = still to check (final pass, task 24), `ok` = checked, wit
 - verify: Ascione et al. (2007), VAW 13(4); AWI pet protective-order laws; Dogs Trust Freedom Project; Cats Protection Paws Protect; RedRover
 - verify: Emery (2004); Rempel, Holmes and Zanna (1985), JPSP 49(1); Strutzenberg et al. (2017), Discovery 18; Tedeschi and Calhoun (2004), Psych Inquiry 15(1); Smith (2003), Arch Psychiatr Nurs 17(4)
 - verify: Griffing et al. (2002), JIV 17(3); Anderson and Saunders (2003), TVA 4(2); the "seven times" figure (source and status)
+
+## Pass 3 (2026-11-22): search-gap additions
+Topics chosen from Ubersuggest Google-autocomplete data (8 seeds) and keyword volumes (US): "leaving an emotionally abusive relationship" 110/mo, "legal abuse syndrome" 110/mo, "trauma bond vs stockholm syndrome" 70/mo; Search Console via Windsor (28 days) showed "trauma bonding examples" reaching the Decoder.
+- Stockholm syndrome: named after the August 1973 Norrmalmstorg bank siege; psychiatrist Nils Bejerot advised police; never in DSM or ICD (checked: web search, multiple secondary sources).
+- Legal abuse syndrome: term from Karin Huffer's book (1995 per publisher); not in DSM-5; no peer-reviewed validation found. Book says "not a medical diagnosis".
+- Planning Together for Children: Cafcass-delivered online course (Action for Children / Family Action pages); FCA assesses with Child Impact Assessment Framework before referral. Book does NOT claim it replaced SPIP (unconfirmed).
+- Duluth Power and Control Wheel: Domestic Abuse Intervention Programs, Duluth MN, 1984 (well established). Post-separation adaptations described generally, none named.
+- No-fault divorce: England and Wales (April 2022), Scotland, Australia (1975), Canada (one-year separation), all US states offer a no-fault route (New York last, 2010).
+- "Vulnerable" vs "grandiose" narcissism: standard research distinction.

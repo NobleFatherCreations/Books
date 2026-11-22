@@ -54,7 +54,7 @@ SKY = {
     "iv": ("#151a33", "#35345e", "#e8a983"), "v": ("#141c36", "#2e3c64", "#eab089"),
     "vi": ("#13203a", "#2d4668", "#ecb68f"), "vii": ("#142540", "#365170", "#eebd96"),
     "viii": ("#162a45", "#495b75", "#efc39c"), "ix": ("#1a2e48", "#5e6479", "#f0c9a2"),
-    "x": ("#20334c", "#7a6b7a", "#f1cea7"), "xi": ("#283a52", "#a27d76", "#f3d4ad"),
+    "x": ("#20334c", "#66586e", "#f1cea7"), "xi": ("#283a52", "#7a5a64", "#f3d4ad"),
     "tools": ("#1d1a2a", "#36324a", "#e0b48e"),
 }
 
@@ -92,6 +92,34 @@ def smart(t):
     t = re.sub(r"(^|[\s(\[>])'", "\\1\u2018", t)
     t = t.replace("'", "\u2019")
     return t
+
+
+TEL_PAGES = {"if-youre-not-safe-right-now", "find-help", "the-card", "safety-plan-worksheet", "when-its-more-than-aftermath",
+             "pocket-card-words-you-can-use"}
+LONG_TEL = re.compile(r"(?<![\w-])(1-800-\d{3}-\d{4}|0\d{2,3}(?: \d{2,4}){2,3}|01 \d{3} \d{4}|1800 \d{3} \d{3}|13 11 14|116 123)(?![\w-])")
+SHORT_TEL = re.compile(r"(?<![\w.,-])(911|999|000|112|988|211)(?![\w-])")
+SMS = re.compile(r"text START to (88788)")
+
+
+def telify(h):
+    """Tap-to-call on the crisis pages: numbers in text (never inside a tag or an existing link) become tel:/sms: links."""
+    out, in_a = [], 0
+    for part in re.split(r"(<[^>]+>)", h):
+        if part.startswith("<"):
+            in_a += 1 if re.match(r"<a[\s>]", part) else (-1 if part.startswith("</a") else 0)
+            out.append(part); continue
+        if in_a:
+            out.append(part); continue
+        part = SMS.sub(lambda m: f'text START to <a class="tel" href="sms:{m.group(1)}?body=START">{m.group(1)}</a>', part)
+        bits = re.split(r"(<a [^>]+>.*?</a>)", part)
+        for i, b in enumerate(bits):
+            if b.startswith("<a "):
+                continue
+            b = LONG_TEL.sub(lambda m: f'<a class="tel" href="tel:{re.sub(r"[^0-9]", "", m.group(1))}">{m.group(1)}</a>', b)
+            segs = re.split(r"(<a [^>]+>.*?</a>)", b)
+            bits[i] = "".join(x if x.startswith("<a ") else SHORT_TEL.sub(lambda m: f'<a class="tel" href="tel:{m.group(1)}">{m.group(1)}</a>', x) for x in segs)
+        out.append("".join(bits))
+    return "".join(out)
 
 
 def md(body):
@@ -167,26 +195,26 @@ FONTS = (f"@font-face{{font-family:'BookDisplay';font-weight:400;font-style:norm
 CSS = """
 :root{color-scheme:dark;--night:#110e19;--panel:#1a1527;--panel2:#221c33;--fg:#efe9f4;--fg2:#bdb3cc;--line:#2f2842;
 --disp:'BookDisplay','Iowan Old Style',Georgia,serif;--body:'BookSerif','Iowan Old Style',Georgia,serif;--sans:var(--body)}
-*{box-sizing:border-box}html{-webkit-text-size-adjust:100%}
+*{box-sizing:border-box}html{-webkit-text-size-adjust:100%;scroll-padding-top:76px}
 body{margin:0;background:var(--night);color:var(--fg);font:400 1.15rem/1.68 var(--body);text-rendering:optimizeLegibility}
 a{color:var(--acc);text-underline-offset:.2em;text-decoration-thickness:1px}a:hover{color:#fff}
 :focus-visible{outline:3px solid var(--acc);outline-offset:3px;border-radius:4px}
 .skip{position:absolute;left:-999px;top:0;background:#fff;color:#000;padding:12px 16px;z-index:10000}.skip:focus{left:8px;top:8px}
-.bar{position:sticky;top:0;z-index:9000;display:flex;align-items:center;gap:6px;padding:6px 72px 6px 12px;min-height:60px;
+.bar{position:sticky;top:0;z-index:9000;display:flex;align-items:center;gap:6px;padding:6px 88px 6px 12px;min-height:60px;
 background:rgba(17,14,25,.94);backdrop-filter:saturate(1.2) blur(8px);border-bottom:1px solid var(--line);font-family:var(--sans)}
 .bar .home{font:400 1.2rem/1 var(--disp);color:var(--fg);text-decoration:none;margin-right:auto;padding:12px 4px;white-space:nowrap}
 .bar a.b,.bar button{display:inline-flex;align-items:center;justify-content:center;min-height:44px;min-width:44px;padding:0 12px;border-radius:10px;
 border:1px solid var(--line);background:transparent;color:var(--fg);font:600 .95rem/1 var(--sans);text-decoration:none;cursor:pointer}
-.bar .leave{background:#7a2730;border-color:#a33a45;color:#fff;min-width:72px}
+.bar .leave{background:#7a2730;border-color:#a33a45;color:#fff;min-width:84px}
 .bar .leave:hover{background:#962f3a}
 .nf-seal{top:8px!important;bottom:auto!important;right:10px!important;width:46px!important;height:46px!important;font-size:15px!important}
-.sky{background:linear-gradient(180deg,var(--s1),var(--s2));position:relative;padding:28px 16px 36px;overflow:hidden}
+.sky{background:linear-gradient(180deg,var(--s1),var(--s2));position:relative;padding:28px 16px 64px;overflow:hidden}
 .sky::after{content:"";position:absolute;left:0;right:0;bottom:0;height:1px;background:linear-gradient(90deg,transparent,var(--acc),transparent);opacity:.7}
-.sky::before{content:"";position:absolute;left:50%;bottom:-70px;width:520px;height:140px;transform:translateX(-50%);
-background:radial-gradient(closest-side,color-mix(in srgb,var(--acc) 45%,transparent),transparent);opacity:.55;pointer-events:none}
+.sky::before{content:"";position:absolute;left:50%;bottom:-48px;width:calc(360px + var(--dawn) * 900px);max-width:180vw;height:96px;transform:translateX(-50%);
+background:radial-gradient(closest-side,color-mix(in srgb,var(--acc) 45%,transparent),transparent);opacity:calc(.3 + var(--dawn) * .6);pointer-events:none}
 .sky .in,.wrap{max-width:44rem;margin:0 auto;position:relative}
-.loc{font:600 .8rem/1.4 var(--sans);letter-spacing:.06em;text-transform:uppercase;color:#f5ecef;opacity:.85;margin:0 0 12px}
-.loc a{color:inherit;display:inline-block;padding:12px 0;margin:-12px 0}
+.loc{font:italic 400 .98rem/1.4 var(--sans);color:#f5ecef;margin:0 0 12px}
+.loc a{color:inherit;display:inline-block;padding:13px 0;margin:-13px 0}
 h1{font:400 clamp(2.1rem,1.5rem + 3vw,3.1rem)/1.1 var(--disp);margin:0 0 12px;color:#fff;text-wrap:balance}
 .q{font-style:italic;color:#f1e9ee;margin:0;font-size:1.15rem;max-width:36rem}
 main{padding:0 16px 64px}
@@ -218,14 +246,15 @@ details.sources ul{color:var(--fg2);padding-left:1.2em}details.sources li{margin
 .next a{display:block;padding:14px 16px;border:1px solid var(--line);border-radius:12px;text-decoration:none;color:var(--fg);background:var(--panel)}
 .next a small{display:block;color:var(--fg2);font:600 .78rem/1.3 var(--sans);letter-spacing:.05em;text-transform:uppercase;margin-bottom:4px}
 .next a:hover{border-color:var(--acc)}
+.byline{max-width:44rem;margin:32px auto 8px;font-size:.88rem;color:var(--fg2)}
 .notice{max-width:44rem;margin:-16px auto 28px;font-size:.92rem;color:var(--fg2)}
 footer{border-top:1px solid var(--line);padding:28px 16px 96px;font-size:.95rem;color:var(--fg2)}
 footer .wrap p{margin:0 0 10px}footer nav{display:flex;flex-wrap:wrap;gap:4px 18px}footer nav a{display:inline-flex;min-height:44px;align-items:center}
 /* home */
 .cover{display:flex;flex-direction:column;align-items:center;text-align:center;padding:36px 16px 44px}
-.cover img{width:min(62vw,280px);height:auto;border-radius:4px;box-shadow:0 22px 50px rgba(0,0,0,.45);margin:0 0 24px}
+.cover img{width:min(44vw,200px);height:auto;border-radius:4px;box-shadow:0 22px 50px rgba(0,0,0,.45);margin:0 0 24px}
 .cover .q{margin:0 auto}
-.safe{max-width:44rem;margin:-14px auto 28px;background:#2a1520;border:1px solid #6d2a36;border-radius:12px;padding:14px 18px;font-size:1.02rem}
+.safe{position:relative;max-width:44rem;margin:-14px auto 28px;background:#2a1520;border:1px solid #6d2a36;border-radius:12px;padding:14px 18px;font-size:1.02rem}
 .safe a{color:#ffd6c8;font-weight:700}
 .sec{max-width:44rem;margin:0 auto 44px}
 .sec>h2{font:400 1.8rem/1.2 var(--disp);color:#fff;margin:0 0 6px}
@@ -234,7 +263,8 @@ footer .wrap p{margin:0 0 10px}footer nav{display:flex;flex-wrap:wrap;gap:4px 18
 @media (min-width:620px){.where{grid-template-columns:1fr 1fr}}
 .where a{display:flex;align-items:center;min-height:56px;padding:12px 16px;border-radius:12px;background:var(--panel);border:1px solid var(--line);
 color:var(--fg);text-decoration:none;font:600 1.05rem/1.3 var(--sans)}
-.where a:hover{border-color:var(--acc)}
+@media (hover:hover) and (pointer:fine){.where a:hover{border-color:var(--acc)}}
+details.more{margin-top:10px}details.more summary{cursor:pointer;min-height:48px;display:flex;align-items:center;font-weight:600;color:var(--acc)}details.more summary::before{content:"▸";margin-right:10px;transition:transform .2s var(--ease-out)}details.more[open] summary::before{transform:rotate(90deg)}details.more .where{margin-top:8px}
 form.find{display:flex;gap:8px}form.find input{flex:1;min-width:0;min-height:48px;padding:0 14px;border-radius:10px;border:1px solid var(--line);background:#0c0a13;color:var(--fg);font:1.05rem var(--sans)}
 form.find button{min-height:48px;padding:0 18px;border-radius:10px;border:0;background:var(--acc);color:#1a1020;font:700 1rem var(--sans);cursor:pointer}
 .path{list-style:none;margin:0;padding:0 0 0 26px;position:relative}
@@ -248,7 +278,13 @@ form.find button{min-height:48px;padding:0 18px;border-radius:10px;border:0;back
 .results{list-style:none;padding:0;margin:20px 0 0}.results li{border-top:1px solid var(--line)}.results a{display:block;padding:12px 0;text-decoration:none;color:var(--fg)}
 .results a span{display:block;color:var(--fg2);font-size:.95rem}
 @media (max-width:420px){body{font-size:1.1rem}.bar .home{font-size:1.05rem}.bar a.b{padding:0 9px}}
-@media print{.bar,.nf-seal,#nf-chrome,.next,footer nav,.skip{display:none!important}body{background:#fff;color:#000}.sky{background:none;color:#000}h1,.q,article h2,.loc{color:#000}a{color:#000}.short,blockquote.say{background:#fff;border-color:#999}}
+details.sources summary::before{content:"▸";display:inline-block;margin-right:10px;transition:transform .2s var(--ease-out)}details.sources[open] summary::before{transform:rotate(90deg)}
+:root{--ease-out:cubic-bezier(.23,1,.32,1)}
+a,.bar a.b,.bar button,.where a,.next a,.find button{transition:color .2s ease,background-color .2s ease,border-color .2s ease,transform .16s var(--ease-out)}
+.bar a.b:active,.bar button:not(.leave):active,.where a:active,.next a:active,.find button:active{transform:scale(.97)}
+.callnow{list-style:none;margin:16px 0 24px;padding:0;display:grid;grid-template-columns:1fr 1fr;gap:10px}.callnow a{display:flex;flex-direction:column;justify-content:center;min-height:64px;padding:10px 14px;border-radius:12px;background:#7a2730;border:1px solid #a33a45;color:#fff;text-decoration:none;font-size:.95rem;line-height:1.25}.callnow b{font-size:1.5rem}\na.tel{white-space:nowrap;font-weight:700;display:inline-block;padding:6px 2px;margin:-6px 0}
+@media (prefers-reduced-motion:reduce){*{transition-property:color,background-color,border-color!important}}
+@media print{.sky::before{display:none}.notice,.byline,th,td,.lede{color:#333!important}article a[href^="http"]::after{content:" (" attr(href) ")";font-size:.85em}.bar,.nf-seal,#nf-chrome,.next,footer nav,.skip{display:none!important}body{background:#fff;color:#000}.sky{background:none;color:#000}h1,.q,article h2,.loc{color:#000}a{color:#000}.short,blockquote.say{background:#fff;border-color:#999}}
 """
 
 JS = f"""<script>
@@ -257,6 +293,7 @@ if((m=h.match(/^#\\/c\\/(\\d+)/))&&O[m[1]])location.replace('{BASE}/'+O[m[1]]);
 else if((m=h.match(/^#\\/(\\w+)/))&&R[m[1]])location.replace('{BASE}/'+R[m[1]]);
 function leave(){{try{{document.title='New Tab';document.body.innerHTML='';}}catch(e){{}}location.replace('about:blank');}}
 document.addEventListener('click',function(e){{var t=e.target.closest&&e.target.closest('[data-leave]');if(t){{e.preventDefault();leave();}}}});
+addEventListener('beforeprint',function(){{document.querySelectorAll('details').forEach(function(d){{d.open=true}})}});
 document.addEventListener('keydown',function(e){{if(e.key==='Escape'&&!document.querySelector('.nf-open,[data-nf-open]'))leave();}});
 }})();
 </script>"""
@@ -273,6 +310,8 @@ HOUSE = None
 
 def frame(*, title, desc, url, ld, body, part, robots=None, og_type="article"):
     s1, s2, acc = SKY.get(part, SKY["start"])
+    order = list(SKY)
+    dawn = round(max(0, order.index(part) - 1) / 11, 2) if part in order and part != "tools" else 0.1
     hc, hh, hj, beacon = HOUSE
     head = S.head_tags(BOOK, title, desc, url, f"{URL}/og.png", "The Long After by Shae Stovell, free to read", og_type)
     if robots:
@@ -282,11 +321,11 @@ def frame(*, title, desc, url, ld, body, part, robots=None, og_type="article"):
             "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1, viewport-fit=cover\">\n" + head +
             f'<meta name="theme-color" content="{s1}">\n'
             f'<link rel="preload" href="{BASE}/f/bookserif-400-700-normal.woff2" as="font" type="font/woff2" crossorigin>\n'
-            f"<style>{FONTS}{CSS}:root{{--s1:{s1};--s2:{s2};--acc:{acc}}}</style>\n{hc}\n"
+            f"<style>{FONTS}{CSS}:root{{--s1:{s1};--s2:{s2};--acc:{acc};--dawn:{dawn}}}</style>\n{hc}\n"
             + (f'<script type="application/ld+json">{S.ld_json(ld)}</script>\n' if ld else "") + "</head>\n<body>\n"
             '<a class="skip" href="#text">Skip to the text</a>\n'
             f'<header class="bar"><a class="home" href="{BASE}">The Long After</a>'
-            f'<a class="b" href="{BASE}/search">Search</a><a class="b" href="{BASE}/find-help">Help</a>'
+            f'<a class="b" href="{BASE}/search">Search</a><a class="b" href="{BASE}/if-youre-not-safe-right-now">Help</a>'
             '<button class="leave" type="button" data-leave aria-label="Leave this page now">Leave</button></header>\n'
             + body +
             f'\n<footer><div class="wrap"><p>{S.LICENSE_LINE}</p><p>{BOOK["notice_short"]} '
@@ -303,7 +342,7 @@ def loc_line(c):
     if c["part"] == "tools":
         return f'<a href="{BASE}#toolbox">Toolbox</a>'
     p = PARTS[c["part"]]
-    return f'<a href="{BASE}#part-{c["part"]}">Part {ROMAN[c["part"]]} \u00b7 {html.escape(p["title"])}</a> \u00b7 {c["n"]} of {len(p["chapters"])}'
+    return f'<a href="{BASE}#part-{c["part"]}">Part {ROMAN[c["part"]]}: {html.escape(p["title"])}</a>, chapter {c["n"]} of {len(p["chapters"])}'
 
 
 def crumbs(c, url):
@@ -332,6 +371,15 @@ def page(slug, ch, pos):
     url = f"{URL}/{slug}"
     main, src = split_sources(ch["body"])
     body_html = md(main)
+    if slug in TEL_PAGES:
+        body_html = telify(body_html)
+    if slug == "if-youre-not-safe-right-now":
+        callnow = ('<ul class="callnow" aria-label="Emergency numbers">'
+                     + "".join(f'<li><a href="tel:{n}"><b>{n}</b> {w}</a></li>' for n, w in
+                               [("911", "US and Canada"), ("999", "UK"), ("000", "Australia"), ("112", "Ireland and Europe")])
+                     + "</ul>")
+    else:
+        callnow = ""
     src_html = ""
     if src:
         src_html = '<details class="sources"><summary>Sources for this page</summary>' + md(src) + "</details>"
@@ -354,10 +402,13 @@ def page(slug, ch, pos):
             "isPartOf": {"@id": URL + "#book"}, "author": {"@id": S.PERSON["@id"]}, "inLanguage": "en",
             "isAccessibleForFree": True, "license": S.LICENSE_URL, "description": m["short"], "abstract": m["short"],
             "keywords": ", ".join([c["keyword"]] + c["keywords2"])}
-    if c["part"] == "tools":
-        node["@type"] = "WebPageElement" if False else "Chapter"
+    if c["keywords2"]:
+        node["alternateName"] = c["keywords2"]
+    cites = [re.sub(r"[*_]", "", l[2:]).strip() for l in src.splitlines() if l.startswith("- ")] if src else []
+    if cites:
+        node["citation"] = cites
     graph = [{"@type": "WebPage", "@id": url, "url": url, "name": title, "description": desc, "inLanguage": "en",
-              "isPartOf": {"@id": URL + "#book"}, "breadcrumb": {"@id": url + "#crumbs"}, "dateModified": S.TODAY,
+              "isPartOf": {"@id": URL + "#book"}, "breadcrumb": {"@id": url + "#crumbs"}, "datePublished": BOOK.get("published", "2026-11-22"), "dateModified": S.TODAY,
               "author": {"@id": S.PERSON["@id"]}, "isAccessibleForFree": True, "license": S.LICENSE_URL,
               "primaryImageOfPage": f"{URL}/og.png", "mainEntity": {"@id": url + "#chapter"}},
              node, dict(crumbs(c, url), **{"@id": url + "#crumbs"}), S.book_node(BOOK), S.PERSON, S.ORG]
@@ -368,8 +419,8 @@ def page(slug, ch, pos):
         graph.append({"@type": "DefinedTermSet", "@id": url + "#terms", "name": "Post-separation abuse terms", "hasDefinedTerm": terms(main)})
     body = (f'<div class="sky"><div class="in"><p class="loc">{loc_line(c)}</p>'
             f'<h1 id="top">{html.escape(smart(c["title"]))}</h1><p class="q">{html.escape(smart(m["question"]))}</p></div></div>\n'
-            f'<main id="text"><section class="short" aria-label="The short answer"><p class="lab">The short answer</p>'
-            f'<p>{(inline(m["short"]))}</p></section>\n<p class="notice">{BOOK["notice_short"]} <a href="{BASE}/how-to-use-this-book">Full notice</a>.</p>\n<article>{body_html}</article>{src_html}{nxt}</main>')
+            f'<main id="text">{callnow}<section class="short" aria-label="The short answer"><p class="lab">The short answer</p>'
+            f'<p>{(inline(m["short"]))}</p></section>\n<p class="notice">{BOOK["notice_short"]} <a href="{BASE}/how-to-use-this-book">Full notice</a>.</p>\n<article>{body_html}</article><p class="byline">Written by Shae Stovell. Sources are listed below. Last reviewed <time datetime="{S.TODAY}">{S.TODAY_HUMAN}</time>.</p>{src_html}{nxt}</main>')
     return frame(title=title, desc=desc, url=url, ld={"@context": "https://schema.org", "@graph": graph}, body=body, part=c["part"])
 
 
@@ -405,7 +456,8 @@ def index_html():
              {"@type": "WebPage", "@id": URL, "url": URL, "name": "The Long After: Post-Separation Abuse After Leaving",
               "description": BOOK["description"], "inLanguage": "en", "about": {"@id": URL + "#book"},
               "dateModified": S.TODAY, "isAccessibleForFree": True, "license": S.LICENSE_URL}, S.PERSON, S.ORG]
-    where = "".join(f'<li><a href="{BASE}/where-are-you-right-now#{S.slugify(h, 60)}">{html.escape(h)}</a></li>' for h in where_items())
+    wl = [f'<li><a href="{BASE}/where-are-you-right-now#{S.slugify(h, 60)}">{html.escape(h)}</a></li>' for h in where_items()]
+    where = '<ul class="where">' + "".join(wl[:6]) + "</ul>" + ('<details class="more"><summary>More situations</summary><ul class="where">' + "".join(wl[6:]) + "</ul></details>" if len(wl) > 6 else "")
     body = (f'<div class="sky" style="--s1:#120d22;--s2:#3d2448"><div class="cover">'
             f'<img src="{BASE}/cover.webp" width="720" height="1073" alt="The Long After by Shae Stovell, book cover" fetchpriority="high">'
             '<h1>The Long After</h1><p class="q">What happens once you\u2019ve left. A free guide to post-separation abuse, '
@@ -414,7 +466,7 @@ def index_html():
             'The <b>Leave</b> button at the top clears this page instantly.</p>'
             f'<section class="sec" aria-labelledby="w-h"><h2 id="w-h">Where are you right now?</h2>'
             '<p class="lede">Pick the line that sounds most like today. It opens the chapters that matter most.</p>'
-            f'<ul class="where">{where}</ul></section>'
+            f'{where}</section>'
             f'<section class="sec" aria-labelledby="s-h"><h2 id="s-h">Search</h2><p class="lede">Type it the way you\u2019d say it. Nothing you type leaves this page.</p>'
             f'<form class="find" action="{BASE}/search" method="get" role="search"><label class="skip" for="q">Search the book</label>'
             '<input id="q" name="q" type="search" placeholder="he keeps texting my sister" autocomplete="off"><button type="submit">Search</button></form></section>'
@@ -425,7 +477,7 @@ def index_html():
             f'<section class="sec" id="toolbox" aria-labelledby="t-h"><h2 id="t-h">Toolbox</h2><p class="lede">Things to print, copy or keep. Keep them somewhere private.</p>{tools_list()}</section>'
             '<section class="sec" id="updates" aria-labelledby="u-h"><h2 id="u-h">Updates</h2>'
             '<p class="lede"><b>v5 \u00b7 November 2026.</b> Rewritten and greatly expanded: 83 chapters in eleven parts, a page for '
-            'where you are right now, a toolbox, search, sources on every page, and links to the matching patterns in the Pattern Decoder.</p>'
+            'where you are right now, a toolbox, search, sources on every page, links to the matching patterns in the Pattern Decoder, and tap-to-call help numbers.</p>'
             '<p class="lede">v4 \u00b7 21 November 2026. Every chapter got its own page. v3 \u00b7 1 September 2026. Cover watermark updated. '
             'v2 \u00b7 1 September 2026. First published.</p></section></main>')
     return frame(title="The Long After: Post-Separation Abuse After Leaving", desc=BOOK["description"], url=URL,

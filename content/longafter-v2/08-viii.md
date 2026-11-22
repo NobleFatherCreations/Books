@@ -24,6 +24,13 @@ It retrains slowly, through repeated experiences of real safety, not through one
 
 > Your body did its job well for a long time, and it's still doing it.
 
+## Why do I feel spaced out or detached?
+That's often dissociation. Many people who lived with coercive control describe it: feeling far away, numb, as if you're watching yourself, losing chunks of time, or the world looking flat and unreal.
+
+It's a survival response. When you couldn't fight or leave, your mind found a way to step back. After leaving, it can keep happening, especially when something reminds you of them.
+
+Simple grounding can help in the moment. Name five things you can see. Press your feet into the floor. Hold something cold. If it happens a lot, or you lose time, tell a doctor or a therapist who understands trauma. See [Finding a therapist who understands this](ch:finding-a-therapist-who-understands-this).
+
 ## What helps my nervous system settle?
 **Two practices you can do anywhere**
 
@@ -259,7 +266,7 @@ Some questions to ask:
 
 If several are yes, it's worth getting support now, before it grows.
 
-> Getting help takes back one more thing they took.
+> You don't have to be in crisis to ask for help.
 
 ## What can I do today?
 - **Count it.** Write down what you drink or use for a week. Seeing it clearly is a first step.

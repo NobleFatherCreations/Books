@@ -20,7 +20,7 @@ That unpredictable mix creates a stronger bond than steady kindness would. Behav
 
 "Trauma bond" is a widely used term, not a medical diagnosis. It describes something real that many people recognise.
 
-> The pull you feel doesn't mean you should go back. It means the bond was built well.
+> Feeling the pull is normal. You can feel it and still not act on it.
 
 ## What are the signs of a trauma bond?
 - You miss them intensely, even remembering what they did.
@@ -36,6 +36,17 @@ That unpredictable mix creates a stronger bond than steady kindness would. Behav
 After leaving, many people describe something like withdrawal: obsessive thoughts, cravings to make contact, anxiety, low mood, poor sleep. Brain scans of people recently rejected in love show activity in reward and craving areas that overlap with addiction. That doesn't mean love is a drug, but it explains why the urge can feel physical.
 
 It peaks in the early weeks and months for many people, and it often spikes when they reach out. See [Hoovering](ch:hoovering).
+
+## What are some examples of trauma bonding?
+These are the kinds of moments people describe:
+
+- After a cruel weekend, they cook your favourite meal, and the relief feels like love.
+- You tell a friend what happened, then spend ten minutes explaining why it wasn't that bad.
+- They threaten to leave, and you end up apologising for something they did.
+- You've blocked their number twice, and unblocked it twice, the same night.
+- Months after leaving, one kind message undoes a week of feeling clear.
+
+Each one follows the same rhythm: harm, then relief from the same person. The Decoder's [trauma bonding](/playbook/trauma-bonding) page has more examples.
 
 ## How do I break a trauma bond?
 There's no quick method. These are the things that tend to loosen it:
@@ -53,6 +64,24 @@ There's no reliable number, and you'll be told many. It depends on how long the 
 
 ## Trauma bond vs love: how do I tell the difference?
 Love tends to feel safe and steady, even when it's passionate. A trauma bond tends to feel urgent, anxious and consuming. Love survives your "no." A trauma bond punishes it. You can have loved them and also be trauma bonded to them. The two often sit together, which is part of why it's confusing.
+
+## Is a trauma bond the same as Stockholm syndrome?
+They're related, but they aren't the same thing.
+
+"Stockholm syndrome" comes from a bank siege in Stockholm in 1973. Some of the hostages defended their captors afterwards, and a psychiatrist advising the police gave the reaction a name. It describes a bond with a captor during a short, extreme ordeal.
+
+A trauma bond grows over months or years inside a relationship you chose, with real warmth mixed into the harm. That's why it can feel like love and not like fear.
+
+Neither is a medical diagnosis. Stockholm syndrome has never been in the main psychiatric manuals, and researchers argue about whether it's a distinct thing at all. Trauma bond is the more useful term for what happens between partners.
+
+## Is it codependency, or limerence?
+You may meet both words online.
+
+**Codependency** usually means a habit of putting someone else's needs first, at your own cost. Some people find it a helpful word. Others find it blames them for a pattern the other person built. A trauma bond is about how the harm was delivered, not a flaw in you.
+
+**Limerence** is an intense, obsessive longing for someone, often someone out of reach. It can sit alongside a trauma bond. The difference is the harm. A trauma bond forms with someone who hurt you, in cycles.
+
+Whatever word fits, what loosens it is much the same: distance, a straight story, and support.
 
 ## Can a trauma bond become a healthy relationship?
 Rarely, and only if the person who caused harm changes deeply, over a long time, with accountability and without pressure on you. Going back to test whether they've changed usually restarts the cycle. If you're considering it, read [If you go back](ch:if-you-go-back) and [Trust as a practice](ch:trust-as-a-practice) first.
@@ -287,7 +316,7 @@ For the same reasons you miss them. The bond is still there, and checking is a w
 
 There's also fear. You want to know what they're doing, who they're telling about you, whether they're coming for you. And some people check hoping for a sign they'll come back, which is the opening [hoovering](ch:hoovering) relies on.
 
-> Every check keeps them living in your head rent-free.
+> Each check restarts the pull, and often costs you the rest of the evening.
 
 ## Does checking slow recovery?
 Research says yes. A study of people after a break-up found that those who kept looking at an ex's profile had more distress, more longing and less personal growth than those who didn't.
@@ -327,7 +356,7 @@ Probably not. People who control others rarely give honest accounts of what they
 
 The Decoder describes apologies that change nothing in [apologies without repair](/playbook/apologies-without-repair).
 
-> Waiting for them to give you closure keeps them in charge of your ending.
+> If you wait for them to give you closure, you may wait for years.
 
 ## How do I find closure after narcissistic abuse?
 Closure is something you make, not something you're given. Things that help:

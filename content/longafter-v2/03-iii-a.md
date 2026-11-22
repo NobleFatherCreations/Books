@@ -94,7 +94,7 @@ Common forms:
 
 The Decoder describes the patterns: [financial control](/playbook/financial-control), [financial enmeshment](/playbook/financial-enmeshment) when your money is tangled with theirs, and [financial dependence by design](/playbook/financial-dependence-by-design).
 
-> The money matters. The timing tells you what it's for.
+> Notice when money arrives late, as well as how much. Late payment that lands before a hearing or a holiday is rarely an accident.
 
 ## How do I tell financial abuse from an ordinary money dispute?
 Real disputes over money happen in calm separations too: what the house is worth, who keeps the pension, what's fair. The pattern worth naming is when money trouble keeps arriving at the moments it hurts most, and keeps going after agreements are made.
@@ -160,7 +160,7 @@ It's a sustained effort to shape what other people think of you and of the separ
 
 It's often delivered calmly, with sadness and concern. That makes it more believable to people who weren't inside the relationship. The Decoder describes the tactic in [smear campaigns](/playbook/smear-campaigns) and the larger aim, owning the official version of events, in [narrative monopoly](/playbook/narrative-monopoly).
 
-> They often tell the story before you do. That gives them a head start, not the truth.
+> They often tell the story before you do. A head start doesn't make their version true.
 
 ## Why does it work so well?
 Because you often don't fight it. You assume the truth is obvious, or you're too tired, or you don't want to drag people in. Meanwhile, the people hearing the story only have one version. And the story-teller is often good at seeming reasonable.
