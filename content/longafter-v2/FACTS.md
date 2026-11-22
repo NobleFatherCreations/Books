@@ -20,3 +20,25 @@ Status key: `verify` = still to check (final pass, task 24), `ok` = checked, wit
 - verify: Fleury, Sullivan and Bybee (2000), Violence Against Women 6(12)
 - verify: Kelly and Johnson (2008), Family Court Review 46(3)
 - verify: Sbarra (2006), PSPB 32(3)
+
+## Part II
+- verify: Glass et al. (2008), J Emerg Med 35(3): prior non-fatal strangulation and later homicide risk (describe as "many times higher"; check the odds ratio before quoting a number)
+- verify: Campbell, Webster and Glass (2009), J Interpers Violence 24(4), Danger Assessment validation
+- verify: Ireland stalking offence, Criminal Justice (Miscellaneous Provisions) Act 2023, commenced 2024
+- verify: Scotland stalking, Criminal Justice and Licensing (Scotland) Act 2010 s.39; Stalking Protection Act 2019 (E&W)
+- verify: TAKE IT DOWN Act signed 2025 (US federal), platform removal duty
+- verify: Online Safety Act 2023 intimate image offences include threats (E&W); Abusive Behaviour and Sexual Harm (Scotland) Act 2016 s.2 includes threats; Coco's Law 2020; Canada CC s.162.1
+- verify: StopNCII (SWGfL), Take It Down (NCMEC, under-18 images), UK Revenge Porn Helpline, CCRI crisis line, eSafety scheme
+- verify: iOS unwanted AirTag alerts; Android "Unknown tracker alerts" under Safety and emergency
+- verify: UK anonymous electoral registration rules; AEC silent elector; US state ACPs (count of states)
+- verify: Logan and Walker (2017), Trauma Violence Abuse 18(2)
+
+## Part III
+- verify: Callaghan et al. (2018), J Interpers Violence 33(10)
+- verify: Bancroft, Silverman and Ritchie (2012), The Batterer as Parent, 2nd ed.
+- verify: Littwin (2012), California Law Review 100(4)
+- verify: Adams et al. (2008), Violence Against Women 14(5)
+- verify: Harsey and Freyd (2020), J Aggression Maltreatment Trauma 29(8)
+- verify: Dichter (2013), Women & Criminal Justice 23(2)
+- verify: child support services named (UK CMS collect and pay; Services Australia; US OCSS; Canadian provincial MEPs; Ireland District Court attachment of earnings)
+- verify: Clare's Law guidance 2016 (Home Office)
