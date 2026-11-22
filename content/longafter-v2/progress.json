@@ -358,16 +358,16 @@
   "where-are-you-right-now": 839,
   "if-youre-not-safe-right-now": 906,
   "how-to-use-this-book": 988,
-  "leaving-was-the-middle": 1175,
-  "what-is-post-separation-abuse": 1619,
-  "why-it-often-gets-worse-first": 1167,
-  "the-shape-it-takes-when-they-cant-reach-you-directly": 1009,
-  "is-my-ex-a-narcissist": 1210,
-  "abuse-or-a-hard-breakup": 1230,
-  "if-your-story-doesnt-look-like-the-usual-one": 1339,
-  "the-first-30-days": 1167,
-  "if-they-left-you": 964,
-  "still-under-the-same-roof": 1056,
+  "leaving-was-the-middle": 1328,
+  "what-is-post-separation-abuse": 1778,
+  "why-it-often-gets-worse-first": 1323,
+  "the-shape-it-takes-when-they-cant-reach-you-directly": 1066,
+  "is-my-ex-a-narcissist": 1339,
+  "abuse-or-a-hard-breakup": 1381,
+  "if-your-story-doesnt-look-like-the-usual-one": 1379,
+  "the-first-30-days": 1307,
+  "if-they-left-you": 1109,
+  "still-under-the-same-roof": 1203,
   "a-safety-plan-for-after-youve-left": 1432,
   "warning-signs-to-take-seriously": 966,
   "surveillance-and-technology": 1160,
@@ -624,6 +624,10 @@
   {
    "date": "2026-11-22",
    "what": "Second pass started: worked examples (labelled as made up) and closing action/reflection sections, chapter-specific headings"
+  },
+  {
+   "date": "2026-11-22",
+   "what": "Part I written: Part I second pass: 7 worked examples (labelled as made up) and 9 closing action or reflection sections, each with its own heading"
   }
  ]
 }
