@@ -137,9 +137,9 @@
     "where-to-find-the-right-body",
     "untangling-the-paperwork"
    ],
-   "outlined": false,
-   "written": false,
-   "audited": false
+   "outlined": true,
+   "written": true,
+   "audited": true
   },
   "vi": {
    "title": "Children",
@@ -153,7 +153,7 @@
     "moving-passports-and-travel-with-children",
     "pregnant-or-with-a-new-baby"
    ],
-   "outlined": false,
+   "outlined": true,
    "written": false,
    "audited": false
   },
@@ -382,17 +382,17 @@
   "grey-rock-and-written-only-contact": 995,
   "words-you-can-use": 994,
   "messages-you-dont-have-to-answer": 891,
-  "what-to-document-and-how": 765,
-  "systems-abuse": 789,
-  "solicitors-legal-aid-and-no-money": 619,
-  "family-court-honestly": 881,
-  "your-day-in-court": 638,
-  "divorce-and-separation-proceedings": 630,
-  "police-and-protective-orders": 798,
-  "police-and-reporting": 505,
-  "housing-and-benefits": 468,
-  "where-to-find-the-right-body": 424,
-  "untangling-the-paperwork": 556,
+  "what-to-document-and-how": 1184,
+  "systems-abuse": 1217,
+  "solicitors-legal-aid-and-no-money": 1003,
+  "family-court-honestly": 1315,
+  "your-day-in-court": 924,
+  "divorce-and-separation-proceedings": 1007,
+  "police-and-protective-orders": 1149,
+  "police-and-reporting": 801,
+  "housing-and-benefits": 842,
+  "where-to-find-the-right-body": 748,
+  "untangling-the-paperwork": 900,
   "co-parenting-or-parallel-parenting": 895,
   "handovers": 499,
   "your-children-and-what-to-say": 592,
@@ -512,6 +512,22 @@
   {
    "date": "2026-11-22",
    "what": "Part IV audited: Part IV: content audit passing"
+  },
+  {
+   "date": "2026-11-22",
+   "what": "Part V outlined: Part V outlined"
+  },
+  {
+   "date": "2026-11-22",
+   "what": "Part VI outlined: Part VI outlined"
+  },
+  {
+   "date": "2026-11-22",
+   "what": "Part V written: Part V: 33 new sections across 11 chapters (sample record entry, injuries and medical notes, witnesses, child's words, what is persuasive, lost evidence, forms of litigation abuse, regulator complaints, s.91(14)/vexatious litigant orders, one-page pattern table, legal aid by country, questions for a lawyer, unbundled help, how child decisions are made, reports and evaluators, court protections, contact centres, appeals, court-day kit, overwhelmed in the hearing, E&W divorce steps, disclosure, pensions, safe negotiation, UK orders incl. DAPOs, service, renewal, cross-border orders, after reporting, victims' rights, refuges, priority need, sanctuary schemes, VAWA housing, agency map table, IDVAs, paperwork checklist by category)"
+  },
+  {
+   "date": "2026-11-22",
+   "what": "Part V audited: Part V: content audit passing; facts logged"
   }
  ]
 }

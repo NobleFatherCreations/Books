@@ -188,3 +188,18 @@ Topics chosen from Ubersuggest Google-autocomplete data (8 seeds) and keyword vo
 - verify: Surviving Economic Abuse (UK charity); NNEDV economic justice resources (US)
 - verify: fact-finding hearings in England and Wales family courts (PD12J)
 - verify: Men's Advice Line 0808 801 0327
+## Pass 4d: Part V (to verify in phase 6)
+- verify: England and Wales legal aid: DA evidence types; means test; flexibility for protective orders
+- verify: s.91(14) Children Act 1989 and s.91A (inserted by Domestic Abuse Act 2021 s.67)
+- verify: US vexatious litigant statutes (many states)
+- verify: PD12J; US states with rebuttable presumption against custody for DV perpetrators
+- verify: Cafcass section 7 reports; custody evaluators / guardians ad litem (US)
+- verify: DA Act 2021 s.65 ban on in-person cross-examination in family proceedings (qualified legal representative); s.63 participation directions
+- verify: NACCC accredited contact centres; family appeals 21 days (FPR Part 30)
+- verify: no-fault divorce E&W from 6 April 2022; 20 weeks to conditional order; 6 weeks and a day to final order; narrow grounds to dispute
+- verify: Form E; pension sharing orders
+- verify: DVPN/DVPO; Domestic Abuse Protection Orders piloted from late 2024 (tagging, programmes); Scotland interdicts
+- verify: VAWA full faith and credit (18 USC 2265); EU recognition of protection measures (Directive 2011/99/EU, Regulation 606/2013)
+- verify: Victims' Code; Victims' Right to Review; IOPC; US victim notification (e.g. VINE)
+- verify: DA Act 2021 s.78 priority need; sanctuary schemes; VAWA housing protections and emergency transfers
+- verify: IDVA role

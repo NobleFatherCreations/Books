@@ -217,3 +217,28 @@ How each chapter was outlined: read what it already answers, then ask what a fri
 - *Having someone else read them first*.
 - *When a message contains a threat*.
 - *Reading once a day or once a week*.
+
+## PART V. COURTS AND THE SYSTEMS
+
+**what-to-document-and-how** (765 w): a filled-in sample entry · photos, injuries and medical records · witnesses · recording your child's words · what police and courts find persuasive · if you lost old evidence
+**systems-abuse** (789 w): the common forms · complaints to your employer or regulator · barring orders (s.91(14) Children Act, England and Wales) and vexatious litigant rules (US) · a one-page pattern summary for the court · keeping your costs and energy down
+**solicitors-legal-aid-and-no-money** (619 w): legal aid and the domestic abuse evidence route (England and Wales) · US legal aid, clinics and advocates · questions to ask a lawyer · keeping costs down · limited-scope help · if your lawyer isn't listening
+**family-court-honestly** (881 w): how decisions about children are made · reports and evaluators · protections in court (screens, video, the ban on in-person cross-examination) · contact centres and supervised contact · if the decision goes against you
+**your-day-in-court** (638 w): what to wear and bring · getting there safely, childcare · if you're overwhelmed in the hearing · saying "I don't understand" · the evening after a hard result
+**divorce-and-separation-proceedings** (630 w): the steps in England and Wales (and where to look elsewhere) · financial disclosure · pensions · if they won't respond · negotiating safely
+**police-and-protective-orders** (798 w): the main UK orders including the new Domestic Abuse Protection Orders · serving the order · telling the people who need to know · changing or renewing an order · orders across borders
+**police-and-reporting** (505 w): what happens after you report · your rights as a victim · if you don't want a prosecution · reporting online · complaints
+**housing-and-benefits** (468 w): what refuges and shelters are like · homelessness help and priority need · staying put safely (sanctuary schemes) · social housing transfers · renting with no references · US housing protections under VAWA
+**where-to-find-the-right-body** (424 w): problem → who handles it (table) · who to call first · one sheet to track agencies · when agencies disagree · advocates who coordinate (IDVA, DV advocates)
+**untangling-the-paperwork** (556 w): checklist by category · insurance and pensions · will and next of kin · medical consent and emergency contacts · digital accounts, subscriptions, photos · vehicles and shared pets
+
+## PART VI. CHILDREN
+
+**co-parenting-or-parallel-parenting** (895 w): what a parallel plan contains · communication rules · who decides what · medical and school decisions · when the plan is broken · moving towards cooperation later
+**handovers** (499 w): options compared (table) · contact centres · handovers through school · preparing children · late or no-shows
+**your-children-and-what-to-say** (592 w): explaining abuse they saw · explaining police or an order · explaining a move or new school · questions children ask, with answers · talking about safety without scaring them
+**how-children-react** (628 w): signs by age · going backwards (regression) · anger · teenagers: self-harm and their own relationships · getting school on side · therapy that helps children
+**when-your-child-is-pulled-in** (544 w): loyalty conflicts · "alienation" claims · keeping your bond strong · if a teenager chooses the other home · working with the school or therapist
+**apps-calendars-and-the-parenting-plan** (565 w): setting up the app · calendar rules · what to log · exporting records for court · if they refuse the app
+**moving-passports-and-travel-with-children** (506 w): passports and alerts (UK, US) · the Hague Convention in plain words · consent letters · relocation: what courts weigh · travelling with an order
+**pregnant-or-with-a-new-baby** (464 w): antenatal care and being asked about abuse · hospital safety at the birth · registering the birth · feeding and contact arrangements · postnatal depression and support
