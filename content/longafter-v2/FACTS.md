@@ -73,3 +73,11 @@ Status key: `verify` = still to check (final pass, task 24), `ok` = checked, wit
 - verify: Arizona Planning for Parenting Time guide (year); app names (OurFamilyWizard, TalkingParents, AppClose)
 - verify: US CPIAP and two-parent consent for under-16 passports; UK PSO, all-ports alert, HMPO objection; ICACU (UK); Reunite
 - verify: WHO (2011) IPV during pregnancy information sheet; NICE PH50 (2014); ACOG CO 518 (2012)
+
+## Part VII
+- verify: Dutton and Painter (1981), Victimology 6(1-4); Fisher et al. (2010), J Neurophysiol 104(1); Carnes (1997)
+- verify: Doka (1989); Boss (1999); Street and Arias (2001), Violence and Victims 16(1); Tangney and Dearing (2002)
+- verify: Orth and Wieland (2006), J Consult Clin Psych 74(4)
+- verify: Marshall (2012), Cyberpsych Behav Soc Netw 15(10): checking an ex's profile linked to more distress and less growth
+- verify: Worthington (2006); Rando (1993); VA National Center for PTSD anniversary reactions page
+- verify: Sweet (2019), ASR 84(5); Stern (2007)
