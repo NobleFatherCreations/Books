@@ -447,7 +447,8 @@ def where_items():
     items = []
     for sec in re.split(r"^## ", body, flags=re.M)[1:]:
         head, _, rest = sec.partition("\n")
-        items.append(head.strip())
+        if not head.startswith("If you only have"):
+            items.append(head.strip())
     return items
 
 

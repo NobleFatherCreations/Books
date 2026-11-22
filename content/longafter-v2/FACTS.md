@@ -156,3 +156,18 @@ Topics chosen from Ubersuggest Google-autocomplete data (8 seeds) and keyword vo
 - Duluth Power and Control Wheel: Domestic Abuse Intervention Programs, Duluth MN, 1984 (well established). Post-separation adaptations described generally, none named.
 - No-fault divorce: England and Wales (April 2022), Scotland, Australia (1975), Canada (one-year separation), all US states offer a no-fault route (New York last, 2010).
 - "Vulnerable" vs "grandiose" narcissism: standard research distinction.
+
+## Pass 4 (2026-11-22): expansion, Start + Part I (to verify in phase 6)
+- verify: UK emergencySMS requires registration (text "register" to 999)
+- verify: US text-to-911 availability varies; bounce-back message where unavailable
+- verify: Canada text with 9-1-1 limited to registered Deaf, hard of hearing, speech-impaired
+- verify: Australia National Relay Service; 1800RESPECT online chat
+- verify: Campbell et al. 2003 (AJPH) separation from controlling partner after cohabitation linked with femicide risk
+- verify: DASH checklist (UK); DARA rollout by police in England and Wales; MARAC
+- verify: Danger Assessment (Campbell); Lethality Assessment Program (police short form)
+- verify: NPD DSM-5 criteria summary; prevalence estimates range under 1% to about 6% (DSM-5-TR: 0 to 6.2%)
+- verify: "psychopath"/"sociopath" not DSM diagnoses; ASPD
+- verify: Bancroft, Why Does He Do That? (2002)
+- verify: US military Family Advocacy Program; restricted vs unrestricted reporting for domestic abuse
+- verify: UK Migrant Victims of Domestic Abuse Concession; US VAWA self-petition and U visa
+- verify: occupation order, Family Law Act 1996 (England and Wales); exclusion order (Scotland); US protective orders granting exclusive possession

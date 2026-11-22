@@ -44,8 +44,38 @@ Read [If you go back](ch:if-you-go-back), which has no judgment in it. Then [The
 ## I'm under 18
 You matter just as much. Read [If your story doesn't look like the usual one](ch:if-your-story-doesnt-look-like-the-usual-one), which lists help made for young people. Then [If you're not safe right now](ch:if-youre-not-safe-right-now).
 
+## They follow me or turn up
+Read [Stalking and harassment after a breakup](ch:stalking-and-harassment) first. Then [Warning signs to take seriously](ch:warning-signs-to-take-seriously), because following and turning up are among the signs that matter most. Then [What to document and how](ch:what-to-document-and-how), so each time counts.
+
+## Money is the problem
+If they control what you get, start with [Money as the channel](ch:money-as-the-channel). If you're starting again with nothing, read [Money from zero](ch:money-from-zero). For help with benefits or a home, go to [Housing and benefits](ch:housing-and-benefits).
+
+## I'm pregnant or have a new baby
+Read [Pregnant or with a new baby](ch:pregnant-or-with-a-new-baby). Pregnancy can raise the risk, so read [A safety plan for after you've left](ch:a-safety-plan-for-after-youve-left) as well, and tell your midwife or doctor what's happening.
+
+## They have a new partner
+Read [The new partner](ch:the-new-partner). It covers the comparison, the warning you may want to give, and why the new relationship rarely changes the pattern. If it's pulling you under, [Checking their profile](ch:checking-their-profile) helps with the urge to look.
+
+## My family or friends are on their side
+Read [Your family and mutual friends](ch:your-family-and-mutual-friends) and [The friends who didn't believe you](ch:the-friends-who-didnt-believe-you). If the story they're telling is the problem, add [The narrative campaign](ch:the-narrative-campaign).
+
+## It was years ago and it still hurts
+Nothing has gone wrong. Read [The anniversary effect](ch:the-anniversary-effect) and [Memory, and doubting yourself](ch:memory). [What "recovered" means](ch:what-recovered-actually-means) offers a way to think about it that isn't a finish line.
+
+## I'm thinking about dating again
+Read [Dating, when you're ready and when you're not](ch:dating-when-youre-ready-and-when-youre-not). Then [Trust as a practice](ch:trust-as-a-practice), which is about trusting yourself as much as anyone new.
+
 ## I'm helping someone
 Read [Helping someone in year one](ch:helping-someone-in-year-one). It's short and written to be forwarded. Then [What post-separation abuse is](ch:what-is-post-separation-abuse).
+
+## If you only have five minutes
+Whatever brought you here, these three pages do the most in the least time:
+
+1. [If you're not safe right now](ch:if-youre-not-safe-right-now): the numbers, and how to use this book on a phone someone else might check.
+2. [The record](ch:the-record): four lines you can write tonight that make every later step easier.
+3. [Messages you don't have to answer](ch:messages-you-dont-have-to-answer): how to tell what needs a reply.
+
+Then put the phone down. The rest will still be here.
 
 ## Something else
 Read [How to use this book](ch:how-to-use-this-book) for how it works. Or use the search at the top of the page. Type it the way you'd say it: "he keeps texting my sister", "she won't pay", "restraining order". Or open the [A to Z](ch:a-to-z) or [Questions people ask](ch:questions-people-ask).
@@ -77,6 +107,40 @@ These lines are free and confidential. They can help you plan, find a refuge or 
 - **Ireland:** Women's Aid, 1800 341 900. Men's Aid, 01 554 3811.
 
 Anywhere else, search: "[your country] domestic abuse helpline." The national charity will come up near the top.
+
+## What happens when you call a helpline
+A trained person answers. They won't judge you, and they won't tell you to leave or to stay. They'll ask whether you're safe to talk, then listen.
+
+You don't have to give your name. You don't have to know what you want. You can say, "I don't know if this counts," and they'll take it from there. Most people who call say something like that.
+
+They can help you think through what happens next. That might be a safety plan, a refuge or shelter, legal help, or someone to talk to again next week. If you need to stop, hang up. You can call back whenever you want.
+
+## If you can't speak or can't call
+- **United States:** in many areas you can text 911. If it isn't available where you are, you'll get a message back telling you to call. The National Domestic Violence Hotline also has live chat on its website.
+- **United Kingdom:** emergencySMS lets you text 999, but you have to register first. Text "register" to 999 now, while it's quiet, so it works when you need it. The National Domestic Abuse Helpline has live chat at set hours.
+- **Canada:** text service for 911 is for people who are Deaf, hard of hearing or speech-impaired, and they register in advance.
+- **Australia:** the National Relay Service connects calls for people who can't hear or speak on the phone. 1800RESPECT has online chat.
+- **Anywhere:** if you call and can't talk, stay on the line. Tap the phone, cough, or answer yes and no questions by pressing keys if asked.
+
+## If you have to leave right now
+Take only what you can carry without being noticed:
+
+- your phone and charger
+- keys
+- any cash and one bank card
+- your ID, if you can reach it quickly
+- medicine you need today
+- the children, and one comfort item each
+
+Everything else can wait. Documents can be replaced and things can be collected later, often with a police escort. Go to a public place, a friend, or a neighbour, then call.
+
+## If they're at the door
+- Don't open it.
+- Call your emergency number. Say: "My ex-partner is outside my door. I'm frightened. I have [a protective order / children here]."
+- Move to a room with a lock and a way out, away from the kitchen, with your phone.
+- If they get in, get out if you can. Your safety comes before your things and your home.
+
+Afterwards, write down what happened, with times. [What to document and how](ch:what-to-document-and-how) shows how.
 
 ## If you're thinking about harming yourself
 Call a crisis line now:
@@ -121,6 +185,31 @@ When you need a tool rather than a chapter, the [Toolbox](ch:the-record) has thi
 
 If you don't know where to start, go to [Where are you right now?](ch:where-are-you-right-now).
 
+## How each chapter is built
+Every chapter has the same frame, so you always know where you are:
+
+- **The short answer.** A few lines at the top. If that's all you read, you'll still have the main thing.
+- **Questions as headings.** Each heading is a question people ask. Scan them and skip to the one that's yours.
+- **"Say" boxes.** Words you can use, in messages, on the phone or face to face. Change them to sound like you.
+- **Links that open the right page.** A phrase in colour takes you to the chapter that covers it. Links to the *Pattern Decoder* open the page for that tactic. Links to *The Sovereign Divine Feminine* open the exact passage.
+- **Sources.** At the bottom of every chapter, listed plainly, so you or an advocate can check them.
+- **Next, if this is you.** Two or three pages that usually come next for someone in your place.
+
+## If reading is hard right now
+After abuse, many people find it hard to read for long. Concentration goes. Words slide off the page. That's common, and it usually comes back.
+
+- **Read the short answers only.** Every chapter works at that level.
+- **Use [The card](ch:the-card).** It's the whole book in a few lines.
+- **Read with someone.** A friend can read a chapter aloud, or read it first and tell you the part you need.
+- **Print one page.** Paper can be easier than a screen, and you can underline it. Keep it somewhere private.
+- **Stop when you've had enough.** The book doesn't need finishing.
+
+## The words this book uses
+- **"The person you left," "your ex," "the other parent."** These all mean the same person. The book uses whichever fits the sentence.
+- **"Abuse."** This book uses the word for patterns of control, fear and punishment, with or without violence. Most legal definitions now do the same.
+- **"Survivor" and "victim."** The book uses neither much. You don't have to call yourself anything.
+- **Gender.** Abuse happens to people of every gender, from people of every gender. The examples change from page to page on purpose.
+
 ## What this book is not
 **It is not therapy.** If you need steady support from someone trained, a book can't replace that. [Finding a therapist who understands this](ch:finding-a-therapist-who-understands-this) explains what to look for.
 
@@ -137,6 +226,14 @@ The Long After is written by Shae Stovell as part of a free library. Every chapt
 
 ## Keeping it private
 Nothing you do here is saved. There are no accounts and no tracking of what you read. The **Leave** button at the top clears the page instantly. If someone might check your phone, a private window helps, and [Surveillance and technology](ch:surveillance-and-technology) explains the rest.
+
+## Sharing this book safely
+You can send any page to someone by copying its address. Each chapter has its own.
+
+- **To a friend who's in it:** send one chapter, not the whole book. [What post-separation abuse is](ch:what-is-post-separation-abuse) or [Hoovering](ch:hoovering) are good first pages. Think about who else reads their messages.
+- **To someone helping you:** [Helping someone in year one](ch:helping-someone-in-year-one) was written to be forwarded.
+- **To a professional:** [For professionals](ch:for-professionals) explains how the book can be shared with clients.
+- **In print:** every page prints cleanly, with its sources.
 
 ## The rest of the library
 This book picks up where *The Sovereign Divine Feminine* leaves off. That book covers the relationship and the leaving; this one covers what comes after. *The Silence* is written for men. The [Pattern Decoder](/playbook) names hundreds of tactics, one page each, and many chapters here link to it. Advocates and therapists can find sharing details in [For professionals](ch:for-professionals).

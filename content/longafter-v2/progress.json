@@ -58,9 +58,9 @@
     "if-youre-not-safe-right-now",
     "how-to-use-this-book"
    ],
-   "outlined": false,
-   "written": false,
-   "audited": false
+   "outlined": true,
+   "written": true,
+   "audited": true
   },
   "i": {
    "title": "What is happening",
@@ -76,9 +76,9 @@
     "if-they-left-you",
     "still-under-the-same-roof"
    ],
-   "outlined": false,
-   "written": false,
-   "audited": false
+   "outlined": true,
+   "written": true,
+   "audited": true
   },
   "ii": {
    "title": "Staying safe after you leave",
@@ -351,19 +351,19 @@
   "for-professionals": 289
  },
  "words": {
-  "where-are-you-right-now": 490,
-  "if-youre-not-safe-right-now": 465,
-  "how-to-use-this-book": 535,
-  "leaving-was-the-middle": 748,
-  "what-is-post-separation-abuse": 1062,
-  "why-it-often-gets-worse-first": 609,
-  "the-shape-it-takes-when-they-cant-reach-you-directly": 559,
-  "is-my-ex-a-narcissist": 673,
-  "abuse-or-a-hard-breakup": 742,
-  "if-your-story-doesnt-look-like-the-usual-one": 819,
-  "the-first-30-days": 686,
-  "if-they-left-you": 624,
-  "still-under-the-same-roof": 609,
+  "where-are-you-right-now": 839,
+  "if-youre-not-safe-right-now": 906,
+  "how-to-use-this-book": 988,
+  "leaving-was-the-middle": 1175,
+  "what-is-post-separation-abuse": 1619,
+  "why-it-often-gets-worse-first": 1167,
+  "the-shape-it-takes-when-they-cant-reach-you-directly": 1009,
+  "is-my-ex-a-narcissist": 1210,
+  "abuse-or-a-hard-breakup": 1230,
+  "if-your-story-doesnt-look-like-the-usual-one": 1339,
+  "the-first-30-days": 1167,
+  "if-they-left-you": 964,
+  "still-under-the-same-roof": 1056,
   "a-safety-plan-for-after-youve-left": 913,
   "warning-signs-to-take-seriously": 593,
   "surveillance-and-technology": 759,
@@ -452,6 +452,30 @@
   {
    "date": "2026-11-22",
    "what": "Owner asked for the book to be roughly doubled, each topic fully outlined, then voice audit, no-ai-slop and steelman, then design. Tracker created."
+  },
+  {
+   "date": "2026-11-22",
+   "what": "Part START outlined: Start here outlined (3 chapters, 13 new sections planned)"
+  },
+  {
+   "date": "2026-11-22",
+   "what": "Part I outlined: Part I outlined (10 chapters, 42 new sections planned)"
+  },
+  {
+   "date": "2026-11-22",
+   "what": "Part START written: Start here: +5 situations-page lines (stalking, money, pregnancy, new partner, family on their side, years later, dating), a five-minute path, helpline walkthrough, silent and text options (UK emergencySMS, text-to-911), grab list, 'at the door' steps, chapter anatomy, reading-is-hard help, words used, sharing safely"
+  },
+  {
+   "date": "2026-11-22",
+   "what": "Part I written: Part I: 42 new sections across 10 chapters (why they keep going, checklist, effects, why systems miss it, risk research and DASH/DARA/Danger Assessment, high-risk moments, one month of reach, NPD clinical facts, label differences, illness vs control, side-by-side table, week of noticing, neurodivergent/interpreter/armed forces/no papers/relative abusers, one-page first-30-days, leaving with nothing, telling work and school, the looping questions, occupation orders)"
+  },
+  {
+   "date": "2026-11-22",
+   "what": "Part START audited: Start here: content audit passing; new facts logged for phase 6"
+  },
+  {
+   "date": "2026-11-22",
+   "what": "Part I audited: Part I: content audit passing (0 failing); new facts logged for phase 6"
   }
  ]
 }
