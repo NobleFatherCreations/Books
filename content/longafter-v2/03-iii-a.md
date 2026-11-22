@@ -52,7 +52,7 @@ Research on coercive control finds that children are affected directly. They are
 
 **Get advice before court.** Family courts vary widely in how they see coercive control. See [Family court, honestly](ch:family-court-honestly).
 
-## What do I say when my child repeats something cruel about me?
+## When cruel words come home with your child
 Stay calm. Don't attack the other parent. Correct the fact gently, and tell the child it's not their job to sort out grown-up problems:
 
 > **Say:** "I can see that's confusing. That isn't true, and you don't need to worry about it. Grown-ups sort out grown-up things. I love you, and that won't change."
@@ -151,7 +151,7 @@ The Decoder describes the patterns: [financial control](/playbook/financial-cont
 ## How do I tell financial abuse from an ordinary money dispute?
 Real disputes over money happen in calm separations too: what the house is worth, who keeps the pension, what's fair. The pattern worth naming is when money trouble keeps arriving at the moments it hurts most, and keeps going after agreements are made.
 
-## What should I write down?
+## What money records should I keep?
 - Each payment due and each payment made: date, amount, and how late.
 - Messages about money, kept as screenshots and exports.
 - Statements for any joint accounts.
@@ -362,7 +362,7 @@ The Decoder calls this [proxy recruitment](/playbook/flying-monkeys-proxy-recrui
 It's a vivid word. Use it in your head if it helps. Most of the people involved don't think of themselves that way, and treating them as enemies can cost you people who might come round.
 
 ## Why do people take my ex's side?
-Usually for ordinary reasons:
+Think of the friend who still likes their photos, or the cousin who sat next to them at the wedding and laughed at every joke. Usually for ordinary reasons:
 
 - **Familiarity.** They knew your ex first, or longer, or in a different setting where they were charming.
 - **One version.** They've only heard one side, often a calm, sad, convincing one. See [The narrative campaign](ch:the-narrative-campaign).
@@ -419,7 +419,7 @@ Shared events can bring you face to face.
 Losing friends in a separation is a real loss, and it's rarely talked about. Some friendships end because people chose a side. Others fade because the friendship was built around the couple. It's okay to grieve them. It's also common, over time, to build friendships that are more truly yours. See [Making new people from scratch](ch:making-new-people-from-scratch).
 
 ## Do I have to cut everyone off?
-No. You decide person by person. Some relationships are worth a calm conversation. Some will repair with time and your steady behaviour. Some have become too costly for now. There's no rule that says you must keep everyone, or lose everyone who didn't immediately take your side.
+Look at your phone's contact list. Some names feel safe, some feel uncertain, and a few make your stomach drop. No. You decide person by person. Some relationships are worth a calm conversation. Some will repair with time and your steady behaviour. Some have become too costly for now. There's no rule that says you must keep everyone, or lose everyone who didn't immediately take your side.
 
 If it's your own family who has sided with your ex, [Your parents](ch:your-parents) covers that particular pain. If you share a workplace, a church or a small town, see [When you share a town, a workplace or a community](ch:sharing-a-town-a-workplace-or-a-community). For friends who didn't believe you, see [The friends who didn't believe you](ch:the-friends-who-didnt-believe-you).
 

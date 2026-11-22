@@ -49,7 +49,7 @@ These are the kinds of moments people describe:
 Each one follows the same rhythm: harm, then relief from the same person. The Decoder's [trauma bonding](/playbook/trauma-bonding) page has more examples.
 
 ## How do I break a trauma bond?
-There's no quick method. These are the things that tend to loosen it:
+It often starts with something small: the phone in another room, their number blocked, a box of gifts taped shut. There's no quick method. These are the things that tend to loosen it:
 
 - **Distance.** No contact, or the least contact you can manage. Every contact restarts the cycle. See [No contact, low contact, or contact you can't avoid](ch:no-contact-low-contact).
 - **No intermittent contact.** Occasional replies feed the bond more than steady silence.
@@ -150,7 +150,7 @@ short: If you're asking "why do I miss my abuser," you're not alone. Missing som
 You might miss them. At certain times: a time of evening, a smell, a song in the supermarket. You might remember something kind and feel a rush of warmth, alongside a clear knowledge that leaving was right. You might feel relief and grief in the same hour.
 
 ## Why do I miss my abuser?
-Because the relationship wasn't only harm. There were real moments of closeness, real plans, maybe real love on your side. And because the bond was built by cycles of hurt and warmth, which make attachment stronger. [The trauma bond](ch:the-trauma-bond) explains that part.
+A song comes on in the supermarket, and for a second you're back in the car with them, laughing. Because the relationship wasn't only harm. There were real moments of closeness, real plans, maybe real love on your side. And because the bond was built by cycles of hurt and warmth, which make attachment stronger. [The trauma bond](ch:the-trauma-bond) explains that part.
 
 Missing someone isn't the same as wanting them back. You can hold both without either one cancelling the other.
 
@@ -250,7 +250,7 @@ Grief that other people don't recognise has a name: disenfranchised grief. It's 
 ## Is grief after leaving an abusive relationship normal?
 Yes. It's one of the most common experiences after leaving, and one of the least talked about. It can arrive straight away, or months later, once the practical crisis has passed and there's room to feel it. It's often tangled with relief, anger and longing. See [What you're allowed to feel about someone you left](ch:what-youre-allowed-to-feel-about-someone-you-left).
 
-## What do I do with it?
+## What do I do with the grief?
 - **Let it be grief.** You don't need anyone's permission for it to be real.
 - **Find one person who can hold it.** If friends can't, a therapist or support group can. See [Finding a therapist who understands this](ch:finding-a-therapist-who-understands-this).
 - **Mark the losses.** Some people write a letter they never send, or mark the day the future they planned would have happened.
@@ -419,7 +419,7 @@ Anger also needs a settled sense that what happened was wrong. If self-doubt was
 ## Is anger after narcissistic abuse normal?
 Yes. Anger is common after any kind of trauma, and research links it with post-traumatic stress. Many people describe it as a turning point: the moment they stopped blaming themselves.
 
-## What do I do with it?
+## What do I do with the anger?
 Anger is a physical state as much as a feeling, so it helps to move it through your body:
 
 - **Move:** walking fast, running, swimming, hitting a pillow, anything that uses big muscles.
@@ -579,7 +579,7 @@ short: Closure after narcissistic abuse rarely comes from the person who hurt yo
 You want them to understand what they did. To say sorry and mean it. To explain why. You imagine the conversation that would finally let you put it down.
 
 ## Will I get closure from them?
-Probably not. People who control others rarely give honest accounts of what they did. The longing for that conversation is often [the trauma bond](ch:the-trauma-bond) talking. A "closure conversation" often becomes another round: blame, denial, tears, a fresh hook. Even a real apology may not give you what you need.
+Many people picture a final conversation at a kitchen table where everything is finally said. It rarely happens. Probably not. People who control others rarely give honest accounts of what they did. The longing for that conversation is often [the trauma bond](ch:the-trauma-bond) talking. A "closure conversation" often becomes another round: blame, denial, tears, a fresh hook. Even a real apology may not give you what you need.
 
 The Decoder describes apologies that change nothing in [apologies without repair](/playbook/apologies-without-repair).
 
@@ -635,7 +635,7 @@ You can mark the end without them:
 - Plant something, light a candle, or choose a small object that stands for starting again.
 
 ## Forgiveness myths
-- **"You can't heal without forgiving."** Many people recover fully without forgiving.
+Maybe you've heard these from a relative at a family dinner, or seen them on a poster. - **"You can't heal without forgiving."** Many people recover fully without forgiving.
 - **"Forgiving means trusting them again."** It doesn't. Forgiveness and reconciliation are different things.
 - **"Forgiving means it was okay."** It doesn't. You can forgive and still say clearly that it was wrong.
 - **"Not forgiving means you're bitter."** You can refuse to forgive and still be at peace.
@@ -788,7 +788,7 @@ People who invent abuse don't usually lie awake wondering if they did.
 ## Will patchy memory hurt me in court?
 It can feel that way. Inconsistent dates can be used to question your credibility. That's exactly why a record made at the time matters so much: it doesn't depend on memory. Tell your lawyer about any gaps early, so they're not a surprise. Courts and trained professionals increasingly understand that trauma affects memory. See [Family court, honestly](ch:family-court-honestly).
 
-## When should I get help?
+## When should I get help with memory problems?
 If memories intrude often, if you have flashbacks or nightmares, or if large parts of your life feel missing, talk to a therapist who understands trauma. See [Finding a therapist who understands this](ch:finding-a-therapist-who-understands-this).
 
 

@@ -416,7 +416,7 @@ That's your nervous system catching up. It usually eases with time. See [What yo
 Flare-ups often come with change: a new partner, a move, a court review, a child's birthday, the other person's own life going badly. A flare-up after a quiet spell doesn't mean you're back at the start. Go back to your plan: written contact only, the record, the people who help. It tends to settle faster the second time, because you know what to do.
 
 ## Letting your guard down slowly
-At some point you may want to relax your safety steps. Do it one at a time, and watch what happens:
+Maybe one morning you leave the curtains open, or walk to the shop the old way, and notice your shoulders drop. At some point you may want to relax your safety steps. Do it one at a time, and watch what happens:
 
 - Unblock nothing at first; that can wait the longest.
 - Loosen one routine, like varying your route less.
