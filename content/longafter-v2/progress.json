@@ -186,8 +186,8 @@
     "when-its-more-than-aftermath"
    ],
    "outlined": true,
-   "written": false,
-   "audited": false
+   "written": true,
+   "audited": true
   },
   "ix": {
    "title": "The people around you",
@@ -410,13 +410,13 @@
   "closure-and-forgiveness": 720,
   "the-anniversary-effect": 764,
   "memory": 808,
-  "what-your-nervous-system-is-doing": 638,
-  "sleep": 517,
-  "getting-sick-after-leaving": 500,
-  "if-there-was-sexual-abuse": 546,
-  "drinking-drugs-and-getting-through": 506,
-  "finding-a-therapist-who-understands-this": 504,
-  "when-its-more-than-aftermath": 584,
+  "what-your-nervous-system-is-doing": 1106,
+  "sleep": 822,
+  "getting-sick-after-leaving": 855,
+  "if-there-was-sexual-abuse": 970,
+  "drinking-drugs-and-getting-through": 830,
+  "finding-a-therapist-who-understands-this": 824,
+  "when-its-more-than-aftermath": 1002,
   "the-friends-who-didnt-believe-you": 447,
   "the-friends-who-did-and-are-tired": 457,
   "your-parents": 513,
@@ -552,6 +552,14 @@
   {
    "date": "2026-11-22",
    "what": "Part VII audited: Part VII: content audit passing"
+  },
+  {
+   "date": "2026-11-22",
+   "what": "Part VIII written: Part VIII: 29 new sections across 7 chapters (triggers and mapping, fight/flight/freeze/fawn, grounding, body-based help, repair with children, PTSD treatments, wind-down routine, safe bedroom, empty nights, phone at night, caffeine/alcohol, common illness patterns, delayed strangulation signs, head injury, dental, sexual and reproductive health, moving gently, marital rape law, reactions, SARC/forensic exams, emergency contraception and PEP, Rape Crisis/RAINN, what drinking does for you, safer steps, coerced use, fear about children, stopping safely, support groups, therapies explained, group support, therapy notes and court, first sessions, children's therapy, signs it's more, telling a doctor, crisis plan, after self-harm, after a crisis)"
+  },
+  {
+   "date": "2026-11-22",
+   "what": "Part VIII audited: Part VIII: content audit passing incl. method/crisis-link safety checks"
   }
  ]
 }

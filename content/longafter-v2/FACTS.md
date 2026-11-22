@@ -212,3 +212,17 @@ Topics chosen from Ubersuggest Google-autocomplete data (8 seeds) and keyword vo
 - verify: 1980 Hague Convention return mechanism; Art 13(b) grave risk; Reunite International
 - verify: NICE routine enquiry about DA in antenatal care
 - verify: E&W unmarried father on birth certificate since 1 Dec 2003 gets parental responsibility; US acknowledgement of paternity
+## Pass 4f: Parts VII-VIII (to verify in phase 6)
+- verify: self-compassion linked with lower anxiety/depression (e.g. MacBeth & Gumley 2012 meta-analysis)
+- verify: stress and memory: central details sharp, peripheral/sequence fragmented
+- verify: NICE NG116 (2018): trauma-focused CBT and EMDR for PTSD
+- verify: strangulation delayed signs incl. carotid injury and stroke risk
+- verify: TBI common among DV survivors; symptoms
+- verify: marital rape criminal in UK (R v R 1991) and all US states
+- verify: SARCs: forensic evidence up to about 7 days, can be stored; US forensic exam without reporting, free (VAWA)
+- verify: emergency contraception windows (72/120 hours; copper IUD 5 days); HIV PEP within 72 hours
+- verify: Rape Crisis England and Wales 24/7 line 0808 500 2222; RAINN 1-800-656-4673
+- verify: alcohol withdrawal after heavy daily use can be dangerous (seizures)
+- verify: Freedom Programme (UK)
+- verify: therapy records may be sought in proceedings; courts usually protect
+- verify: Stanley-Brown style safety plan widely used by mental health services

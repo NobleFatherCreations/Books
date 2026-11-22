@@ -52,6 +52,39 @@ Maybe. Post-traumatic stress disorder includes reliving what happened (flashback
 
 Only a qualified professional can diagnose either. If these sound familiar and they're getting in the way of your life, there are effective treatments. See [Finding a therapist who understands this](ch:finding-a-therapist-who-understands-this).
 
+## Triggers, and mapping yours
+A trigger is anything that sets off the alarm before you've had time to think: a ringtone, a car like theirs, a smell, a tone of voice, a type of envelope. Your body reacts as if the danger is back.
+
+Mapping your triggers takes some of their power away. For a week, note each time you suddenly feel panicky, frozen or furious. Write what was happening just before. Patterns usually appear. Once you know them, you can plan: change the ringtone, take a different route, have a grounding step ready.
+
+## Fight, flight, freeze, fawn
+These are the body's automatic responses to threat:
+
+- **Fight:** anger, arguing back, tension.
+- **Flight:** wanting to get away, restlessness, keeping busy.
+- **Freeze:** going blank, numb or unable to move or speak.
+- **Fawn:** trying to please or calm the other person to stay safe.
+
+None of these is a choice, and none is a weakness. Many people in abusive relationships learned to freeze or fawn because fighting or leaving felt too dangerous. Those responses may still switch on now, even with people who are safe.
+
+## Grounding that works in the moment
+When the alarm goes off, try one of these:
+
+- **5-4-3-2-1:** name five things you can see, four you can hear, three you can touch, two you can smell, one you can taste.
+- **Long breath out:** breathe in for four, out for six or eight, for a minute.
+- **Temperature:** hold something cold, splash your face, or wrap your hands round a hot drink.
+- **Press down:** push your feet into the floor or your back into a wall, and feel the support.
+- **Say where you are:** "It's Tuesday. I'm in my kitchen. I'm safe right now."
+
+## Body-based help
+Movement helps the nervous system settle: walking, swimming, dancing, stretching. Some people find trauma-sensitive yoga helpful, where you're always in control of what you do. Regular routines, enough food, daylight and time with safe people all tell your body, over and over, that the danger has passed.
+
+## Reacting around the children
+You may snap, freeze or panic in front of your children when something triggers you. Afterwards, repair it simply: "I got a big fright just now and I was sharp with you. That wasn't your fault. I'm okay now." Children cope better with a parent who repairs than with one who never shows feelings.
+
+## Treatments for PTSD
+If you have PTSD, there are treatments with good evidence. The main ones recommended in clinical guidelines, such as the UK's NICE guidance, are trauma-focused cognitive behavioural therapy and EMDR (eye movement desensitisation and reprocessing). Both are usually delivered over a set number of sessions by a trained therapist. Ask your doctor about them. See [Finding a therapist who understands this](ch:finding-a-therapist-who-understands-this).
+
 ## When should I get help quickly?
 If you feel unable to cope, can't function day to day, or have thoughts of harming yourself, go to [When it's more than aftermath](ch:when-its-more-than-aftermath).
 
@@ -91,6 +124,32 @@ Disrupted sleep after abuse is so common it's almost expected. It's not a separa
 - Try the longer out-breath from [What your nervous system is doing](ch:what-your-nervous-system-is-doing).
 - Keep a notebook by the bed. Write the worry down and tell yourself you'll deal with it in the morning.
 - If fear is high, check the doors once, then go back to bed. Checking again and again feeds the fear.
+
+## A wind-down routine
+A predictable routine tells your body it's safe to sleep:
+
+- Get up at the same time each day, even after a bad night.
+- Dim lights an hour before bed.
+- Put screens away, especially messages from them.
+- Do the same few calm things each night: a shower, a book, a stretch, a warm drink without caffeine.
+- Go to bed when you're sleepy, not just tired.
+
+## Making the bedroom feel safe
+If you're on alert at night, small changes can help:
+
+- Check the doors and windows once, then stop.
+- A door chain or a simple door alarm can let your mind switch off.
+- A soft light, white noise or a fan can mask sounds that startle you.
+- If you shared a bed with them, change something: the bedding, the side you sleep on, where the bed stands.
+
+## Nights when the children are away
+Empty nights can be the hardest. The house is quiet, and the mind fills it. Plan for them: a friend on the phone, an audiobook, a later bedtime with a good film. Some people find it easier to sleep on the sofa or in a different room on those nights. That's fine.
+
+## The phone at night
+Messages at night can wreck sleep. Charge your phone outside the bedroom, use "do not disturb" with only emergency contacts allowed, or keep a separate alarm clock. If you need the phone for safety, keep it nearby but face down, with their notifications silenced.
+
+## Caffeine, alcohol and sleep
+Caffeine can stay in your body for many hours, so cut it after early afternoon if you're struggling. Alcohol may help you fall asleep, but it tends to wake you in the night and makes sleep lighter. See [Drinking, drugs and getting through](ch:drinking-drugs-and-getting-through).
 
 ## When should I see a doctor?
 If poor sleep lasts more than a few weeks, or affects your work, driving or parenting, talk to a doctor. The best-tested treatment for long-term insomnia is a short course of cognitive behavioural therapy for insomnia, which works without medication and is often available online or through health services. Nightmares can also be treated.
@@ -164,6 +223,43 @@ If the person you left controlled your medicine or your appointments, ask your d
 ## Can stress cause physical illness?
 It can raise the risk and make many conditions worse: headaches, gut problems, high blood pressure, skin flare-ups, pain. That doesn't mean it's "all in your head." It means your body carried what happened, and it deserves treatment like any other illness. See [What your nervous system is doing](ch:what-your-nervous-system-is-doing).
 
+## Common patterns
+People often notice these in the months after leaving:
+
+- more colds and infections
+- headaches and migraines
+- stomach and bowel problems
+- back, neck and jaw pain
+- skin flare-ups
+- flare-ups of long-term conditions
+- exhaustion that sleep doesn't fix
+
+Tell your doctor about the abuse and the stress. It helps them see the pattern and choose the right tests.
+
+## After strangulation: delayed signs
+Strangulation can cause injuries that don't show at first. Seek medical help, even days or weeks later, if you have:
+
+- a changed or hoarse voice, or trouble swallowing
+- pain in your neck or throat
+- trouble breathing
+- tiny red spots on your face, neck or eyes
+- headaches, dizziness, confusion or memory problems
+- weakness or numbness on one side
+
+Some of these can signal a serious problem, like damage to blood vessels in the neck that can lead to a stroke. Say clearly: "I was strangled on [date]."
+
+## Head injuries
+Many people who were hit, shaken or pushed have had head injuries without knowing it. Signs of a lasting brain injury can include headaches, memory and concentration problems, dizziness, irritability, and sensitivity to light or noise. If this sounds familiar, tell your doctor about any blows to the head, even old ones. Support and rehabilitation can help.
+
+## Dental care
+Abuse often damages teeth: from injuries, from clenching and grinding, or from not being allowed or able to see a dentist. Book a check-up when you can. Dentists also see signs of abuse and can be a source of support.
+
+## Sexual and reproductive health
+If you couldn't control contraception, sex or health care, it may help to have a check-up: screening tests you've missed, sexual health tests, and a review of contraception. Sexual health clinics are usually free and confidential. See [If there was sexual abuse or reproductive coercion](ch:if-there-was-sexual-abuse).
+
+## Moving gently
+Exercise helps both mood and sleep, but after a long period of stress your body may be tired. Start small: a short walk each day, stretching, gentle swimming. Increase slowly. Rest is part of recovery too.
+
 ## Sources
 - Campbell, J. C. (2002). Health consequences of intimate partner violence. *The Lancet*, 359(9314), 1331–1336.
 - Segerstrom, S. C., and Miller, G. E. (2004). Psychological stress and the human immune system: A meta-analytic study of 30 years of inquiry. *Psychological Bulletin*, 130(4), 601–630.
@@ -225,6 +321,43 @@ At any time:
 
 ## Do I have to report it?
 No. Reporting is your choice. You can report now, later, or never. You can get medical care and support without reporting. If you want to report, a specialist service can explain what happens and support you through it. See [Police and reporting](ch:police-and-reporting).
+
+## It is a crime, including in marriage
+Sex without consent is rape or sexual assault, whoever does it, including a husband, wife or long-term partner. In the UK it has been clear in law since 1991 that rape within marriage is a crime. Every US state now treats it as a crime. Being in a relationship, having had sex before, or not fighting back doesn't mean you consented.
+
+Consent can't be given when someone is afraid, asleep, too drunk or high to decide, or pressured with threats. Saying yes once doesn't mean yes every time.
+
+## Common reactions
+After sexual abuse, people often feel:
+
+- numb, or as if it happened to someone else
+- ashamed, dirty or to blame
+- confused, especially if they loved the person
+- frightened of touch, or of particular places, smells or sounds
+- unsure whether "it counts"
+
+You may also have frozen or gone along with it to stay safe. That's one of the body's most common responses to threat, and it doesn't mean you agreed.
+
+## Urgent care and evidence
+If it happened recently, you can get medical care and, if you want, have evidence collected, even if you haven't decided whether to report.
+
+- **United Kingdom:** Sexual Assault Referral Centres (SARCs) offer medical care, support and forensic examinations. Evidence can often be collected up to around a week afterwards, and stored while you decide.
+- **United States:** a sexual assault nurse examiner can do a forensic exam. Federal law means you can have the exam without reporting to police and without paying for it.
+- **Elsewhere:** search "[your country] sexual assault centre."
+
+Try not to wash or change clothes if you think you might want evidence, but go anyway if you already have.
+
+## Emergency contraception and HIV prevention
+- **Emergency contraception:** pills work best as soon as possible, within three to five days depending on the type. A copper coil fitted within five days is the most effective option.
+- **HIV prevention (PEP):** medicine that can prevent HIV must be started within 72 hours. Ask for it at a sexual health clinic or emergency department.
+- **Sexual health tests:** a clinic can test for infections and arrange follow-up.
+
+## Specialist services
+- **United Kingdom:** Rape Crisis England and Wales runs a 24/7 support line on 0808 500 2222. Scotland and Northern Ireland have their own services.
+- **United States:** the RAINN National Sexual Assault Hotline is 1-800-656-4673.
+- **Elsewhere:** search "[your country] rape crisis."
+
+They support people whatever happened and however long ago.
 
 ## What about sex and intimacy later?
 It may take time before sex or touch feels safe again. That's common. Go at your own pace. A new partner who respects your pace is showing you something important. [Dating, when you're ready and when you're not](ch:dating-when-youre-ready-and-when-youre-not) covers this.
@@ -289,6 +422,32 @@ These services are free and confidential:
 
 A doctor can also help, and so can a therapist who understands trauma. Treating the trauma often makes it easier to cut back. See [Finding a therapist who understands this](ch:finding-a-therapist-who-understands-this).
 
+## What it's doing for you
+Drinking or using usually does a job: helping you sleep, quieting the fear, numbing grief, giving you courage for a hard conversation. Naming the job helps you find other ways to do it.
+
+Ask yourself: "When do I most want a drink? What am I hoping it will do?" Then choose one alternative for that moment.
+
+## Safer steps
+- Set limits in advance: how much, on which days.
+- Don't drink before handovers, court, or contact with the person you left.
+- Keep alcohol out of the house for a while if it helps.
+- Eat before drinking, and alternate with water.
+- Tell one person what you're trying to do.
+
+## If they pushed substances on you
+Some abusers push their partner into drinking or using drugs, then use it against them: to discredit them, to control them, or in court. If that happened, it's part of the abuse. Tell your lawyer or advocate, and a doctor or substance service, so it's understood in context.
+
+## Fear about the children
+Many parents are afraid to ask for help with drinking or drugs because they think their children will be taken. In most places, asking for help is seen as a protective step. Services want parents to get support. A domestic abuse service can help you find substance support that understands both.
+
+## Stopping safely
+If you've been drinking heavily every day, stopping suddenly can be dangerous. Talk to a doctor or a substance service first. They can help you cut down safely, sometimes with medicine. The same is true for some prescription and street drugs.
+
+## Support groups
+- **Mutual help groups:** Alcoholics Anonymous, Narcotics Anonymous and SMART Recovery meet in person and online in many countries.
+- **For families:** Al-Anon supports people affected by someone else's drinking.
+- **Specialist services:** your doctor can refer you, or you can search "[your area] alcohol and drug service."
+
 ## What about other ways of getting through?
 Overworking, not eating, overeating, gambling, shopping, scrolling, risky sex. The same questions apply: is it helping, or is it starting to cost you? The same help applies too.
 
@@ -339,6 +498,25 @@ Be wary too of therapy language used against you: "you're triggering me," "I nee
 
 ## What if the first therapist isn't right?
 Try another. Fit matters more than anything else in how well therapy works. You're allowed to leave after a session or two.
+
+## The main therapies in plain words
+- **Trauma-focused cognitive behavioural therapy (TF-CBT):** helps you process memories and change frightening beliefs about yourself and the world.
+- **EMDR:** uses guided eye movements or taps while you recall memories, to help the brain process them. Recommended for PTSD in guidelines such as NICE's.
+- **Cognitive processing therapy (CPT):** focuses on the stuck beliefs trauma leaves, like "it was my fault."
+- **Counselling and talking therapies:** regular time with someone to make sense of what happened, often helpful for grief, confidence and relationships.
+- **Body-based therapies:** focus on calming the body. Some are well studied; others have less evidence. Ask what the therapist's training is.
+
+## Group support
+Groups for people who've left abuse can be powerful: hearing others describe exactly what you lived through can lift a lot of shame. In the UK, many services run the Freedom Programme or similar courses. In the US and elsewhere, domestic violence programs often have support groups. Groups are usually free.
+
+## Therapy notes and court
+In some family or criminal cases, the other side can ask for therapy records. It doesn't happen often, and courts usually protect them, but it's worth knowing. Ask your therapist at the start: "Who can see my notes, and what would happen if a court asked for them?" Tell your lawyer you're in therapy. Don't let this stop you getting help.
+
+## The first sessions
+Early sessions are often about safety, getting to know each other and planning, not going straight into the worst memories. You may feel worse for a little while before you feel better. That's common. If you feel unsafe, unheard or judged, say so, or try someone else.
+
+## Therapy for children
+Children may need their own support. Look for a therapist trained in working with children after domestic abuse or trauma. Their doctor or school can often refer them. See [How children react](ch:how-children-react).
 
 ## What if I need help now?
 If you're in crisis, don't wait for the right therapist. Any doctor, crisis line or mental health service is the right first step. See [When it's more than aftermath](ch:when-its-more-than-aftermath).
@@ -395,6 +573,41 @@ They may be. Ongoing abuse after separation, threats, court cases and being disb
 
 ## What if I'm worried about someone else?
 Ask them directly: "Are you thinking about suicide?" Asking doesn't put the idea in their head. It often brings relief. Listen, stay with them if you can, and help them contact a crisis line or emergency services.
+
+## Signs it's more than aftermath
+Talk to a doctor soon if, for more than two weeks, you notice:
+
+- feeling low, empty or hopeless most of the day
+- losing interest in everything, even things you used to love
+- not being able to sleep, or sleeping most of the day
+- not being able to eat, or eating far more than usual
+- panic attacks that keep coming
+- flashbacks or nightmares that stop you functioning
+- thoughts that you'd be better off dead, or of harming yourself
+
+If you're having thoughts of ending your life, don't wait two weeks. Call a crisis line or your emergency number now.
+
+## What happens when you tell a doctor
+A doctor will ask about your mood, sleep, appetite and safety. They may ask directly about suicidal thoughts. That's normal, and answering honestly helps them help you. They might suggest talking therapy, medicine, more support, or a referral to a mental health team. Telling a doctor you're struggling won't mean your children are taken away. It shows you're looking after yourself and them.
+
+## A crisis plan
+Make a plan while you're feeling steadier, and keep it on paper and in your phone:
+
+1. **My warning signs:** the thoughts, feelings or situations that mean a crisis may be coming.
+2. **Things I can do alone to get through:** a walk, music, a shower, a grounding exercise.
+3. **People and places that help:** friends, family, a café, a place of worship.
+4. **People I can ask for help:** names and numbers.
+5. **Professionals and crisis lines:** your doctor, a mental health team, crisis numbers.
+6. **Making my space safer:** asking someone to help put distance between me and anything I might use to hurt myself.
+7. **My reasons for living:** people, pets, plans, anything.
+
+This kind of plan is widely used by mental health services, and it can help on the worst nights.
+
+## If you've hurt yourself
+If you've harmed yourself, get medical help straight away: call your emergency number or go to an emergency department. You won't be judged. After you're safe, tell your doctor or a crisis service, so you get support with what led up to it.
+
+## After a crisis
+After a crisis, people often feel exhausted, embarrassed or flat. Be gentle with yourself. Tell one person what happened. Go over your crisis plan and add what helped. Book a follow-up with your doctor. Getting through a crisis is a sign of strength, not failure.
 
 ## You are not a burden
 That voice telling you everyone would be better off without you is lying. It's one of the things deep pain says. You've already done one of the hardest things a person can do: you left. Getting through this is possible, and you don't have to do it alone.
