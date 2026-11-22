@@ -1024,6 +1024,13 @@
         "date": "2026-11-21",
         "deployId": "6b020502b4febe6f3a50a76c",
         "note": "v4 SEO round 2 + covers + full seal menu; every file byte-identical live; IndexNow 200"
+      },
+      "workInProgress": {
+        "what": "Expansion to roughly double (owner, 2026-11-22): outline every chapter, write part by part, then voice audit, no-AI-slop, steelman, fact check, pipeline; design only after the writing is audited; deploy only on the owner's words.",
+        "checklist": "content/longafter-v2/CHECKLIST.md",
+        "progress": "content/longafter-v2/progress.json",
+        "outline": "content/longafter-v2/EXPANSION-OUTLINE.md",
+        "tracker": "scripts/longafter-progress.py"
       }
     },
     {
