@@ -64,3 +64,12 @@ Status key: `verify` = still to check (final pass, task 24), `ok` = checked, wit
 - verify: DA Act 2021 s.78 priority need (England); VAWA housing 34 USC 12491; Ontario RTA s.47.1; BC RTA s.45.1
 - verify: Wills Act 1837 s.18A; Safe Connections Act 2022 (US) phone line separation
 - verify: Police Scotland Disclosure Scheme for Domestic Abuse Scotland (DSDAS)
+
+## Part VI
+- verify: Stahl (2007), Parenting After Divorce, 2nd ed.; Kelly (2007), Family Process 46(1); Amato (2001), J Fam Psych 15(3); Kelly and Emery (2003), Family Relations 52(4)
+- verify: NACCC (UK); Supervised Visitation Network; OVW Safe Havens guiding principles
+- verify: Evans, Davies and DiLillo (2008), Aggression and Violent Behavior 13(2); DA Act 2021 s.3 children as victims
+- verify: Cohen, Mannarino and Deblinger (2017) TF-CBT 2nd ed.; Lieberman et al. (2015) Don't Hit My Mommy 2nd ed.
+- verify: Arizona Planning for Parenting Time guide (year); app names (OurFamilyWizard, TalkingParents, AppClose)
+- verify: US CPIAP and two-parent consent for under-16 passports; UK PSO, all-ports alert, HMPO objection; ICACU (UK); Reunite
+- verify: WHO (2011) IPV during pregnancy information sheet; NICE PH50 (2014); ACOG CO 518 (2012)
