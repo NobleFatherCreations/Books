@@ -66,6 +66,7 @@ You're exhausted all day. Then you lie down and your mind starts: replaying conv
 - **Your nervous system is still on watch.** A quiet, dark room can be when alertness is strongest, because there's nothing else to focus on. See [What your nervous system is doing](ch:what-your-nervous-system-is-doing).
 - **Grief and fear surface at night,** when the day's distractions are gone.
 - **Practical stress lands hardest in the dark:** money, court, the children.
+- **Your body may be worn down,** which [Getting sick after leaving](ch:getting-sick-after-leaving) explains.
 - **The relationship may have trained you not to sleep deeply,** if nights were when things happened. The Decoder describes [sleep deprivation](/playbook/sleep-deprivation) used as control.
 
 Disrupted sleep after abuse is so common it's almost expected. It's not a separate thing going wrong.
@@ -74,7 +75,7 @@ Disrupted sleep after abuse is so common it's almost expected. It's not a separa
 - **Keep the same wake time** every day, even after a bad night. It anchors your body clock more than bedtime does.
 - **Go to bed when sleepy,** not just tired.
 - **Wind down for 30 to 60 minutes:** dim lights, no news, no checking their social media. See [Checking their profile](ch:checking-their-profile).
-- **Make the room feel safe:** a lock you trust, a light you can reach, your phone charged nearby.
+- **Make the room feel safe:** a lock you trust, a light you can reach, your phone charged nearby. See [A home that feels like yours](ch:a-home-that-feels-like-yours).
 - **Use the bed for sleep.** If you're awake for what feels like 20 minutes, get up, do something dull in low light, and go back when sleepy.
 - **Cut caffeine after midday,** and be careful with alcohol: it helps you drop off but wrecks the second half of the night. See [Drinking, drugs and other ways of getting through](ch:drinking-drugs-and-getting-through).
 

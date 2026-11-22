@@ -83,7 +83,7 @@ These are the forms people describe most often. Most arrive as a text, a voicema
 
 **The practical excuse.** "I found some of your things." "There's post for you." "We need to talk about the car." Logistics as a door.
 
-**The special date.** Your birthday, their birthday, an anniversary, a holiday. Warmth arrives exactly when you're most open to it.
+**The special date.** Your birthday, their birthday, an anniversary, a holiday. Warmth arrives exactly when you're most open to it. [Holidays and the first year's calendar](ch:holidays-and-the-first-year) helps you plan for those days.
 
 **The third person.** A mutual friend, their mother, your child: "They miss you so much." See [Your family and mutual friends](ch:your-family-and-mutual-friends).
 

@@ -19,13 +19,13 @@ These are the patterns parents and researchers describe most often.
 
 **Through running you down.** Telling the children you broke up the family, that you're unstable, that you don't love them, or that they'd be happier with the other parent. Sometimes it's said outright; sometimes it's a sigh or a look.
 
-**Through the schedule.** Last-minute changes that wreck your plans. Rigid insistence on every minute when it suits them, and ignoring the plan when it doesn't. Holidays and birthdays used as bargaining chips.
+**Through the schedule.** Last-minute changes that wreck your plans. Rigid insistence on every minute when it suits them, and ignoring the plan when it doesn't. Holidays and birthdays used as bargaining chips. See [Holidays and the first year's calendar](ch:holidays-and-the-first-year).
 
 **Through gifts and promises.** Big presents, special trips, a pet, or promises that the children can live with them full time, often timed around court.
 
 **Through medical, school and activity decisions.** Refusing consent for treatment or a passport. Contacting teachers and doctors with stories about you. Turning up at your parents' evening or your child's match.
 
-**Through the courts.** Applications to change arrangements, often repeated. See [Systems abuse and litigation abuse](ch:systems-abuse).
+**Through the courts.** Applications to change arrangements, often repeated. See [Systems abuse and litigation abuse](ch:systems-abuse) and [Divorce and separation proceedings](ch:divorce-and-separation-proceedings).
 
 The Decoder describes the core moves: [children used as leverage](/playbook/children-as-leverage), [triangulation](/playbook/triangulation) when a child is put between you, and [parentification](/playbook/parentification) when a child is made to carry an adult's feelings.
 
@@ -86,7 +86,7 @@ Common forms:
 - **Child support** paid late, short, or only after repeated chasing, especially when you need it most.
 - **Debts in your name** that you didn't agree to, known as coerced debt. Loans, credit cards, phone contracts, utility bills.
 - **Joint accounts and loans** emptied, or used to run up new debt you're both liable for.
-- **Hidden income or assets**, especially before a financial settlement.
+- **Hidden income or assets**, especially before a financial settlement. See [Divorce and separation proceedings](ch:divorce-and-separation-proceedings).
 - **A shared home used as a hostage:** refusing to sell, refusing to buy you out, letting the mortgage fall behind.
 - **Disrupting your work:** calling your employer, turning up there, or making handovers clash with your shifts.
 - **Tax and benefits sabotage:** false claims, refusing to sign forms, reporting you to the authorities.
@@ -254,7 +254,7 @@ If they keep pushing:
 ## Do I have to cut everyone off?
 No. You decide person by person. Some relationships are worth a calm conversation. Some will repair with time and your steady behaviour. Some have become too costly for now. There's no rule that says you must keep everyone, or lose everyone who didn't immediately take your side.
 
-If it's your own family who has sided with your ex, [Your parents](ch:your-parents) covers that particular pain. For friends who didn't believe you, see [The friends who didn't believe you](ch:the-friends-who-didnt-believe-you).
+If it's your own family who has sided with your ex, [Your parents](ch:your-parents) covers that particular pain. If you share a workplace, a church or a small town, see [When you share a town, a workplace or a community](ch:sharing-a-town-a-workplace-or-a-community). For friends who didn't believe you, see [The friends who didn't believe you](ch:the-friends-who-didnt-believe-you).
 
 *The Sovereign Divine Feminine* describes how a social circle gets turned in [The Social Siege](/feminine/the-social-siege#core-concept).
 

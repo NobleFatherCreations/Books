@@ -48,7 +48,7 @@ You matter just as much. Read [If your story doesn't look like the usual one](ch
 Read [Helping someone in year one](ch:helping-someone-in-year-one). It's short and written to be forwarded. Then [What post-separation abuse is](ch:what-is-post-separation-abuse).
 
 ## Something else
-Use the search at the top of the page. Type it the way you'd say it: "he keeps texting my sister", "she won't pay", "restraining order". Or open the [A to Z](ch:a-to-z) or [Questions people ask](ch:questions-people-ask).
+Read [How to use this book](ch:how-to-use-this-book) for how it works. Or use the search at the top of the page. Type it the way you'd say it: "he keeps texting my sister", "she won't pay", "restraining order". Or open the [A to Z](ch:a-to-z) or [Questions people ask](ch:questions-people-ask).
 
 === if-youre-not-safe-right-now
 title: If you're not safe right now
@@ -133,4 +133,4 @@ The Long After is written by Shae Stovell as part of a free library. Every chapt
 Nothing you do here is saved. There are no accounts and no tracking of what you read. The **Leave** button at the top clears the page instantly. If someone might check your phone, a private window helps, and [Surveillance and technology](ch:surveillance-and-technology) explains the rest.
 
 ## The rest of the library
-This book picks up where *The Sovereign Divine Feminine* leaves off. That book covers the relationship and the leaving; this one covers what comes after. *The Silence* is written for men. The [Pattern Decoder](/playbook) names hundreds of tactics, one page each, and many chapters here link to it.
+This book picks up where *The Sovereign Divine Feminine* leaves off. That book covers the relationship and the leaving; this one covers what comes after. *The Silence* is written for men. The [Pattern Decoder](/playbook) names hundreds of tactics, one page each, and many chapters here link to it. Advocates and therapists can find sharing details in [For professionals](ch:for-professionals).

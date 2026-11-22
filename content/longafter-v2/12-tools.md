@@ -262,6 +262,8 @@ This is the post-separation abuse summary: the whole book, one line at a time.
 
 **No timeline. No verdict.** [What "recovered" means](ch:what-recovered-actually-means).
 
+**Look something up.** [A to Z](ch:a-to-z) or [Questions people ask](ch:questions-people-ask).
+
 **If it's more than a hard week, get help now.** [When it's more than aftermath](ch:when-its-more-than-aftermath).
 
 === find-help
