@@ -81,3 +81,16 @@ Status key: `verify` = still to check (final pass, task 24), `ok` = checked, wit
 - verify: Marshall (2012), Cyberpsych Behav Soc Netw 15(10): checking an ex's profile linked to more distress and less growth
 - verify: Worthington (2006); Rando (1993); VA National Center for PTSD anniversary reactions page
 - verify: Sweet (2019), ASR 84(5); Stern (2007)
+
+## Part VIII
+- verify: ICD-11 6B40/6B41; NICE NG116 (2018); APA PTSD guideline (2017); Zaccaro et al. (2018), Front Hum Neurosci 12:353
+- verify: Riemann et al. (2017), J Sleep Res 26(6) (CBT-I first line); Ebrahim et al. (2013), ACER 37(4)
+- verify: Campbell (2002), Lancet 359(9314); Segerstrom and Miller (2004), Psych Bull 130(4)
+- verify: PEP within 72 hours; SANE (US) and SARC (UK)
+- verify: RAINN 1-800-656-4673; Rape Crisis E&W 0808 500 2222; Rape Crisis Scotland 08088 01 03 02; Dublin Rape Crisis Centre 1800 77 8888
+- verify: Miller and Silverman (2010), Expert Rev Obstet Gynecol 5(5); ACOG CO 554 (2013); WHO clinical handbook (2014)
+- verify: SAMHSA 1-800-662-4357; Drinkline 0300 123 1110; FRANK 0300 123 6600; AU AOD hotline 1800 250 015; HSE 1800 459 459
+- verify: Devries et al. (2014), Addiction 109(3); Warshaw et al. (2014), NCDVTMH; Devries et al. (2013), PLoS Med 10(5); Dazzi et al. (2014), Psych Med 44(16); WHO (2017) safe messaging
+- verify: NHS Talking Therapies self-referral; Australian Mental Health Treatment Plan; Open Path Collective
+- verify: Stith, McCollum and Rosen (2011); Norcross and Lambert (2018), Psychotherapy 55(4)
+- manual safety review done 2026-11-22: crisis chapter, sexual abuse chapter, drinking chapter (help first, no method detail, no blame, choices with the reader)
