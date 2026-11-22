@@ -218,8 +218,8 @@
     "what-recovered-actually-means"
    ],
    "outlined": true,
-   "written": false,
-   "audited": false
+   "written": true,
+   "audited": true
   },
   "xi": {
    "title": "The ledger",
@@ -423,16 +423,16 @@
   "telling-someone-new": 752,
   "making-new-people-from-scratch": 801,
   "sharing-a-town-a-workplace-or-a-community": 773,
-  "money-from-zero": 732,
-  "work-again": 455,
-  "a-home-that-feels-like-yours": 503,
-  "pets-and-the-things-left-behind": 427,
-  "holidays-and-the-first-year": 472,
-  "your-own-tastes-rediscovered": 479,
-  "trust-as-a-practice": 508,
-  "dating-when-youre-ready-and-when-youre-not": 547,
-  "the-version-of-you-from-before": 486,
-  "what-recovered-actually-means": 490,
+  "money-from-zero": 1130,
+  "work-again": 780,
+  "a-home-that-feels-like-yours": 773,
+  "pets-and-the-things-left-behind": 699,
+  "holidays-and-the-first-year": 727,
+  "your-own-tastes-rediscovered": 757,
+  "trust-as-a-practice": 781,
+  "dating-when-youre-ready-and-when-youre-not": 877,
+  "the-version-of-you-from-before": 729,
+  "what-recovered-actually-means": 751,
   "if-you-go-back": 499,
   "helping-someone-in-year-one": 466,
   "what-this-book-might-have-wrong": 469,
@@ -584,6 +584,14 @@
   {
    "date": "2026-11-22",
    "what": "Part IX audited: Part IX: content audit passing"
+  },
+  {
+   "date": "2026-11-22",
+   "what": "Part X written: Part X: 50 new sections across 10 chapters (first budget, bank and identity safety, benefits calculators, child support income, scams, small cushion, what employers can do, returning after years out, training, the gap question, self-employment safety, first-week setup, furnishing from nothing, senses, inviting people in, children's rooms, pet ownership and orders, police escort, what to prioritise, photos, destroyed things, month-by-month first year, birthdays, school events, gifts, after year one, tiny experiments, reclaiming tastes, free ideas, the body, your own no, trust ladder, boundaries, family trust, institutions, gut vs alarm, dating readiness, first-date safety, green flags, intimacy after abuse, the past in new relationships, how people change, strengths, reclaiming ruined things, more than survivor, letter to yourself, areas of recovery, self-check, setbacks, recovery with ongoing contact, helping others)"
+  },
+  {
+   "date": "2026-11-22",
+   "what": "Part X audited: Part X: content audit passing"
   }
  ]
 }
