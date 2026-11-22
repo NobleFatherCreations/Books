@@ -94,3 +94,12 @@ Status key: `verify` = still to check (final pass, task 24), `ok` = checked, wit
 - verify: NHS Talking Therapies self-referral; Australian Mental Health Treatment Plan; Open Path Collective
 - verify: Stith, McCollum and Rosen (2011); Norcross and Lambert (2018), Psychotherapy 55(4)
 - manual safety review done 2026-11-22: crisis chapter, sexual abuse chapter, drinking chapter (help first, no method detail, no blame, choices with the reader)
+
+## Parts IX to XI
+- verify: Ullman (2010); Sylaska and Edwards (2014), TVA 15(1); Figley (1995); Coker et al. (2002), J Womens Health 11(5)
+- verify: Ehrensaft et al. (2003), J Consult Clin Psych 71(4); Hall (2019), JSPR 36(4) (about 50 hours casual, 200+ close friend); Peek-Asa et al. (2011), J Womens Health 20(11)
+- verify: Postmus et al. (2012), JIV 27(3); National Debt Helpline AU 1800 007 007; MABS; NFCC
+- verify: FDV leave: AU Fair Work Act s.106A (10 days paid); NZ DV Victims' Protection Act 2018 (10 days); Ireland WLB Act 2023 (5 days paid); NI Employment (Domestic Abuse) Act 2022 (10 days paid); Canada Labour Code s.206.7
+- verify: Ascione et al. (2007), VAW 13(4); AWI pet protective-order laws; Dogs Trust Freedom Project; Cats Protection Paws Protect; RedRover
+- verify: Emery (2004); Rempel, Holmes and Zanna (1985), JPSP 49(1); Strutzenberg et al. (2017), Discovery 18; Tedeschi and Calhoun (2004), Psych Inquiry 15(1); Smith (2003), Arch Psychiatr Nurs 17(4)
+- verify: Griffing et al. (2002), JIV 17(3); Anderson and Saunders (2003), TVA 4(2); the "seven times" figure (source and status)
