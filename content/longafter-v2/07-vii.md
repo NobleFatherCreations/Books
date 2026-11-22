@@ -124,6 +124,16 @@ No. Trauma bonds form in ordinary people under particular conditions. They say m
 
 *The Sovereign Divine Feminine* traces how the bond gets built, stage by stage, in [The Manipulation Cycle](/feminine/the-manipulation-cycle#core-concept).
 
+## What loosening looked like for Dev
+*This example is made up, built from patterns many people describe.*
+
+Dev knew his ex had been cruel. He still checked his phone every hour, hoping for a message. He started the thirty days. The first week he slipped twice and unblocked her. In the second week he wrote the list of what had happened and kept it on his phone. In the third week he joined a five-a-side team that played on the evenings he missed her most.
+
+By the end of the month the pull hadn't gone. But he noticed it, named it and let it pass most days. That felt like the first choice he'd made in years.
+
+## Name it when it comes
+When the pull arrives, say quietly, "This is the bond, not a sign." Then do one thing from your list.
+
 ## Sources
 - Dutton, D. G., and Painter, S. L. (1981). Traumatic bonding: The development of emotional attachments in battered women and other relationships of intermittent abuse. *Victimology*, 6(1–4), 139–155.
 - Dutton, D. G., and Painter, S. (1993). Emotional attachments in abusive relationships: A test of traumatic bonding theory. *Violence and Victims*, 8(2), 105–120.
@@ -203,6 +213,9 @@ Some people still love the person they left, months or years later. That doesn't
 
 ## Telling people about mixed feelings
 People around you may want you to only feel anger. If you say you miss them, they may worry, or get frustrated. Choose who you tell. A therapist, a helpline or a support group can hear mixed feelings without needing them to be simple.
+
+## Both columns
+Take a piece of paper and draw a line down the middle. On one side, write what you miss. On the other, what you don't. Keep both. On hard days, read both. Holding the whole picture is how mixed feelings start to settle.
 
 ## Sources
 - Dutton, D. G., and Painter, S. (1993). Emotional attachments in abusive relationships: A test of traumatic bonding theory. *Violence and Victims*, 8(2), 105–120.
@@ -286,6 +299,16 @@ Children grieve too: for the family they had, the house, the other parent, the r
 ## When grief and anger mix
 Grief and anger often arrive together. One minute you miss them; the next you're furious. Both are part of losing something that was also harming you. See [Anger arriving late](ch:anger-arriving-late).
 
+## How Helen marked the loss
+*This example is made up, built from patterns many people describe.*
+
+Helen's friends couldn't understand why she was grieving a man who had hurt her for twelve years. She stopped talking about it, and the grief got heavier. A counsellor suggested she write a letter to the life she'd hoped for: the house, the children growing up with both parents, growing old together. She read it aloud once, cried for an hour, then put it in a drawer.
+
+The grief didn't vanish. It became something she could carry, instead of something she had to hide.
+
+## Name one loss
+Write down one thing you've lost that nobody has acknowledged. Let yourself be sad about it for ten minutes, on purpose.
+
 ## Sources
 - Doka, K. J. (Ed.) (1989). *Disenfranchised Grief: Recognizing Hidden Sorrow.* Lexington Books.
 - Herman, J. L. (1992). *Trauma and Recovery.* Basic Books.
@@ -363,6 +386,16 @@ Sometimes guilt is pointing at something you did that hurt someone. If so, you c
 - **Make repairs where they're due,** and only there. If you snapped at your children, apologise to them. That's guilt doing its job.
 - **Get support** if shame is heavy or constant. See [Finding a therapist who understands this](ch:finding-a-therapist-who-understands-this).
 
+## Whose voice is it?
+*This example is made up, built from patterns many people describe.*
+
+Every time Aisha's children cried at handover, she heard her ex's voice: "You did this to them." She felt it as truth. Her therapist asked her to write the sentence down, then write who first said it. It was him, many times, for years. Then she wrote what she'd say to a friend in her position: "You got your children out of a frightening home. Their tears are about the change, not your failure."
+
+The guilt still came. She started recognising it as an old recording, not a verdict.
+
+## Write down the sentence
+Write the guilty thought exactly as it sounds in your head. Then write whose words they first were.
+
 ## Sources
 - Street, A. E., and Arias, I. (2001). Psychological abuse and posttraumatic stress disorder in battered women: Examining the roles of shame and guilt. *Violence and Victims*, 16(1), 65–78.
 - Tangney, J. P., and Dearing, R. L. (2002). *Shame and Guilt.* Guilford Press.
@@ -436,6 +469,16 @@ Sometimes anger becomes a constant hum, and stays for years. It can keep you tie
 
 ## Can anger be useful?
 Yes. Anger can power a boundary, a complaint, a court application, or help for someone else. Used that way, it becomes energy for your life, not fuel for theirs.
+
+## When the anger came
+*This example is made up, built from patterns many people describe.*
+
+For months after leaving, Pete felt nothing but tired. Then, about a year later, he was suddenly furious: at his ex, at himself, at the friends who'd laughed off what he told them. It frightened him. He started running three times a week, wrote angry letters he never sent and talked about it in a men's support group.
+
+The anger didn't disappear, but it changed shape. He used some of it to write a clear statement for court, and some of it to set limits with people who'd let him down.
+
+## Somewhere for it to go
+Pick one safe outlet for anger this week, like a run, a notebook or a call, and use it the next time anger comes.
 
 ## Sources
 - Orth, U., and Wieland, E. (2006). Anger, hostility, and posttraumatic stress disorder in trauma-exposed adults: A meta-analysis. *Journal of Consulting and Clinical Psychology*, 74(4), 698–706.
@@ -511,6 +554,16 @@ Checking fills a gap: boredom, loneliness, worry. Choose a replacement for the s
 
 ## What if I slip?
 You will, probably. Everyone does. Notice it, don't punish yourself, and start again. The aim is fewer checks, not a perfect record.
+
+## How Sophie stopped checking
+*This example is made up, built from patterns many people describe.*
+
+Sophie checked her ex's profile and his new partner's every night in bed. Each time she felt worse. She deleted the app for a month, charged her phone in the kitchen and asked her sister to message her at 10pm each night. When she slipped, she wrote two lines in a notebook and went back to day one.
+
+By the end of the month she was checking once a week. By the end of three, she'd forgotten to check for a fortnight and only noticed afterwards.
+
+## Tonight's barrier
+Add one obstacle between you and their profile tonight: log out, move the app, or charge your phone in another room.
 
 ## Sources
 - Marshall, T. C. (2012). Facebook surveillance of former romantic partners: Associations with postbreakup recovery and personal growth. *Cyberpsychology, Behavior, and Social Networking*, 15(10), 521–526.
@@ -594,6 +647,9 @@ Family, friends or faith leaders may urge you to forgive, sometimes so they can 
 
 ## Acceptance without forgiveness
 Some people find a middle path: accepting that it happened, that they can't change it, and that they won't let it run their life, without forgiving. Acceptance is about your peace. It doesn't require anything from them.
+
+## The letter you don't send
+Write a letter to the person you left, saying everything you'll never get to say. Don't send it. Keep it, burn it or bury it. The point is to finish the conversation in your own head, on your own terms.
 
 ## Sources
 - Worthington, E. L., Jr. (2006). *Forgiveness and Reconciliation: Theory and Application.* Routledge.
@@ -688,6 +744,16 @@ Children may have their own hard dates: the day you moved, a birthday spent apar
 ## Making new dates
 Over time, you can add dates that belong to your new life: the day you moved into your own place, the day you started a job, a trip you took with friends. These become anniversaries worth marking.
 
+## How Mark got through the first anniversary
+*This example is made up, built from patterns many people describe.*
+
+Mark knew the anniversary of leaving was coming in October. He felt anxious for a week beforehand without knowing why, then saw the date on the calendar. He made a plan: a morning walk with a friend, lunch with his sister, no social media and an early night. He told his manager he might be quiet that day.
+
+The day was sad in places, and fine in others. In the evening he wrote down three things he'd done in the year since leaving that he couldn't have done before.
+
+## Put the dates in now
+Add the hard dates for the next year to your calendar, each with a reminder a week before.
+
 ## Sources
 - US Department of Veterans Affairs, National Center for PTSD: Anniversary reactions to a traumatic event.
 - Rando, T. A. (1993). *Treatment of Complicated Mourning.* Research Press.
@@ -757,6 +823,16 @@ If police, a lawyer or a court asks about something you don't remember, it's fin
 > **Say:** "I don't remember that part clearly. What I do remember is..."
 
 Never guess to fill a gap. Saying what you remember, and what you don't, makes your account more credible, not less.
+
+## Building the timeline with gaps
+*This example is made up, built from patterns many people describe.*
+
+Before a court statement, Leila tried to write her history and froze. She remembered fragments: a smashed phone, a winter night locked out, the time he followed her to work. She wrote each fragment on a card. Then she matched them to anchors: which house they lived in, how old her son was, a holiday she had photos of. Her bank statements and texts filled some gaps.
+
+Her final timeline had gaps marked "I don't remember exactly when." Her lawyer said those honest gaps made it stronger.
+
+## One card today
+Write one memory on a card or a line, with any anchor you have. That's the start of a timeline.
 
 ## Sources
 - Brewin, C. R. (2011). The nature and significance of memory disturbance in posttraumatic stress disorder. *Annual Review of Clinical Psychology*, 7, 203–227.
