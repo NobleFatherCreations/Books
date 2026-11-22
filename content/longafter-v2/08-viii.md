@@ -29,7 +29,7 @@ That's often dissociation. Many people who lived with coercive control describe 
 
 It's a survival response. When you couldn't fight or leave, your mind found a way to step back. After leaving, it can keep happening, especially when something reminds you of them.
 
-Simple grounding can help in the moment. Name five things you can see. Press your feet into the floor. Hold something cold. If it happens a lot, or you lose time, tell a doctor or a therapist who understands trauma. See [Finding a therapist who understands this](ch:finding-a-therapist-who-understands-this).
+Grounding can help in the moment; the section below has techniques that work. If it happens a lot, or you lose time, tell a doctor or a therapist who understands trauma. See [Finding a therapist who understands this](ch:finding-a-therapist-who-understands-this).
 
 ## What helps my nervous system settle?
 **Two practices you can do anywhere**
@@ -436,6 +436,7 @@ If several are yes, it's worth getting support now, before it grows.
 - **Never drive** after drinking or using.
 
 If you've been drinking heavily every day, don't stop suddenly without medical advice. Talk to a doctor first.
+- Don't drink or use before handovers, court, or any contact with the person you left.
 
 ## Where can I get help?
 These services are free and confidential:
@@ -453,21 +454,11 @@ Drinking or using usually does a job: helping you sleep, quieting the fear, numb
 
 Ask yourself: "When do I most want a drink? What am I hoping it will do?" Then choose one alternative for that moment.
 
-## Safer steps
-- Set limits in advance: how much, on which days.
-- Don't drink before handovers, court, or contact with the person you left.
-- Keep alcohol out of the house for a while if it helps.
-- Eat before drinking, and alternate with water.
-- Tell one person what you're trying to do.
-
 ## If they pushed substances on you
 Some abusers push their partner into drinking or using drugs, then use it against them: to discredit them, to control them, or in court. If that happened, it's part of the abuse. Tell your lawyer or advocate, and a doctor or substance service, so it's understood in context.
 
 ## Fear about the children
 Many parents are afraid to ask for help with drinking or drugs because they think their children will be taken. In most places, asking for help is seen as a protective step. Services want parents to get support. A domestic abuse service can help you find substance support that understands both.
-
-## Stopping safely
-If you've been drinking heavily every day, stopping suddenly can be dangerous. Talk to a doctor or a substance service first. They can help you cut down safely, sometimes with medicine. The same is true for some prescription and street drugs.
 
 ## Support groups
 - **Mutual help groups:** Alcoholics Anonymous, Narcotics Anonymous and SMART Recovery meet in person and online in many countries.

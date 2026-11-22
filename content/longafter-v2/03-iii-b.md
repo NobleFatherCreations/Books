@@ -353,9 +353,6 @@ Two days after Jess got a protective order, police came to her door. Her ex had 
 
 Her lawyer helped her give a calm statement with her record attached. The police took no further action. Jess still felt sick for a week. She also knew she had handled it well.
 
-## The sentence to remember
-"I want to get legal advice before I answer that." You're always allowed to say it.
-
 ## Sources
 - Freyd, J. J. (1997). Violations of power, adaptive blindness, and betrayal trauma theory. *Feminism & Psychology*, 7(1), 22–32.
 - Harsey, S., and Freyd, J. J. (2020). Deny, attack, and reverse victim and offender (DARVO): What is the influence on perceived perpetrator and victim credibility? *Journal of Aggression, Maltreatment & Trauma*, 29(8), 897–916.
