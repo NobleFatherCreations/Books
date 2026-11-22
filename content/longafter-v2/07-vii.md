@@ -410,6 +410,8 @@ Write the guilty thought exactly as it sounds in your head. Then write whose wor
 - Street, A. E., and Arias, I. (2001). Psychological abuse and posttraumatic stress disorder in battered women: Examining the roles of shame and guilt. *Violence and Victims*, 16(1), 65–78.
 - Tangney, J. P., and Dearing, R. L. (2002). *Shame and Guilt.* Guilford Press.
 - Herman, J. L. (1992). *Trauma and Recovery.* Basic Books.
+- MacBeth, A., and Gumley, A. (2012). Exploring compassion: a meta-analysis of the association between self-compassion and psychopathology. *Clinical Psychology Review*, 32(6), 545-552
+
 
 === anger-arriving-late
 title: Anger, arriving late

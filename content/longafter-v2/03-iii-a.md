@@ -176,7 +176,7 @@ Get your credit report from each credit agency. It's free in most countries. Loo
 ## How child support services work
 You don't have to negotiate money with the person you left. Official services can calculate and collect it.
 
-- **United Kingdom (outside Northern Ireland):** the Child Maintenance Service can calculate what's owed. You can choose Direct Pay, where they pay you directly, or Collect and Pay, where the service collects it. If there's been domestic abuse, tell them; it affects the options and fees.
+- **United Kingdom (outside Northern Ireland):** the Child Maintenance Service can calculate what's owed. You can choose Direct Pay, where they pay you directly, or Collect and Pay, where the service collects it. If there's been domestic abuse, tell them. The application fee is waived, and you can go straight to Collect and Pay so you never deal with them directly. Collection fees still apply.
 - **United States:** each state has a child support agency. It can set an order and collect payments through wage withholding, and can take steps like intercepting tax refunds when payments are missed.
 - **Australia:** Services Australia handles child support assessments and collection.
 - **Canada:** each province has a family responsibility or maintenance enforcement office.
@@ -242,6 +242,9 @@ A shared business can tie you to the person you left long after the relationship
 - Surviving Economic Abuse (UK): guidance on coerced debt and banking.
 - Consumer Financial Protection Bureau (US): disputing errors on your credit report.
 - Child Maintenance Service (UK); Services Australia Child Support; US Office of Child Support Services.
+- GOV.UK: Child Maintenance Service, Collect and Pay; Child Support Collection (Domestic Abuse) Act 2023
+- Surviving Economic Abuse (UK); NNEDV economic justice program (US)
+
 
 === the-narrative-campaign
 title: The narrative campaign

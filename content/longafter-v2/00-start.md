@@ -167,6 +167,10 @@ When the danger has passed, make a plan for the next time. [A safety plan for af
 - Police.uk: the Silent Solution (999, then 55)
 - 988 Suicide and Crisis Lifeline (US) and 988 Canada; Samaritans (UK and Ireland); Lifeline (Australia)
 - 1800RESPECT (Australia); Women's Aid Ireland; Men's Aid Ireland; ShelterSafe (Canada)
+- emergencySMS service (Relay UK): registration by texting "register" to 999
+- FCC: text-to-911 availability; CRTC: Text with 9-1-1 for Deaf, hard of hearing and speech-impaired people (Canada)
+- National Relay Service (Australia)
+
 
 === how-to-use-this-book
 title: How to use this book, and what it is not

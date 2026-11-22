@@ -103,6 +103,8 @@ Pick one grounding technique from this chapter and practise it once a day for a 
 - Herman, J. L. (1992). *Trauma and Recovery.* Basic Books.
 - National Institute for Health and Care Excellence (2018). *Post-traumatic stress disorder* (NG116).
 - Zaccaro, A., et al. (2018). How breath-control can change your life: A systematic review on psycho-physiological correlates of slow breathing. *Frontiers in Human Neuroscience*, 12, 353.
+- NICE guideline NG116 (2018): Post-traumatic stress disorder
+
 
 === sleep
 title: Sleep
@@ -280,6 +282,7 @@ If you've been putting off a check-up, book it this week. Tell the doctor, "I've
 - Segerstrom, S. C., and Miller, G. E. (2004). Psychological stress and the human immune system: A meta-analytic study of 30 years of inquiry. *Psychological Bulletin*, 130(4), 601–630.
 - Training Institute on Strangulation Prevention (US): medical guidance on non-fatal strangulation.
 
+
 === if-there-was-sexual-abuse
 title: If there was sexual abuse or reproductive coercion
 question: Is sexual abuse in a relationship still abuse? What do I do now?
@@ -368,7 +371,7 @@ Try not to wash or change clothes if you think you might want evidence, but go a
 - **Sexual health tests:** a clinic can test for infections and arrange follow-up.
 
 ## Specialist services
-- **United Kingdom:** Rape Crisis England and Wales runs a 24/7 support line on 0808 500 2222. Scotland and Northern Ireland have their own services.
+- **United Kingdom:** Rape Crisis England and Wales runs a free 24/7 support line on 0808 500 2222, for anyone aged 16 or over, with online chat as well. Scotland and Northern Ireland have their own services.
 - **United States:** the RAINN National Sexual Assault Hotline is 1-800-656-4673.
 - **Elsewhere:** search "[your country] rape crisis."
 
@@ -394,6 +397,8 @@ Specialist sexual violence services support people however long ago it happened.
 - American College of Obstetricians and Gynecologists (2013). Committee Opinion 554: Reproductive and sexual coercion.
 - World Health Organization (2014). *Health care for women subjected to intimate partner violence or sexual violence: A clinical handbook.*
 - RAINN (US); Rape Crisis England and Wales; Rape Crisis Scotland; Dublin Rape Crisis Centre; 1800RESPECT.
+- NHS: sexual assault referral centres; emergency contraception; post-exposure prophylaxis (PEP)
+
 
 === drinking-drugs-and-getting-through
 title: Drinking, drugs and other ways of getting through

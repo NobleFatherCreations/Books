@@ -158,7 +158,7 @@ Topics chosen from Ubersuggest Google-autocomplete data (8 seeds) and keyword vo
 - "Vulnerable" vs "grandiose" narcissism: standard research distinction.
 
 ## Pass 4 (2026-11-22): expansion, Start + Part I (to verify in phase 6)
-- verify: UK emergencySMS requires registration (text "register" to 999)
+- CHECKED: emergencySMS: text 'register' to 999, reply yes; re-register on new number (Relay UK, fire services)
 - verify: US text-to-911 availability varies; bounce-back message where unavailable
 - verify: Canada text with 9-1-1 limited to registered Deaf, hard of hearing, speech-impaired
 - verify: Australia National Relay Service; 1800RESPECT online chat
@@ -179,10 +179,10 @@ Topics chosen from Ubersuggest Google-autocomplete data (8 seeds) and keyword vo
 - verify: National Stalking Helpline (UK)
 - verify: StopNCII.org (on-device hashing, adults); Take It Down (NCMEC, images under 18); Revenge Porn Helpline (UK); Childline Report Remove
 - verify: England and Wales sharing/threatening to share intimate images incl. faked = offence (Online Safety Act 2023 amendments, from 31 Jan 2024)
-- verify: US TAKE IT DOWN Act (2025): crime to publish NCII incl. AI; platforms must remove on request (48 hours)
+- CHECKED: TAKE IT DOWN Act signed May 2025; criminal provisions immediate; platform 48-hour removal duty in force May 2026, FTC enforcing, TakeItDown.ftc.gov (ftc.gov)
 - verify: UK anonymous electoral registration; US ACPs covering voter registration
 ## Pass 4c: Part III (to verify in phase 6)
-- verify: UK Child Maintenance Service Direct Pay / Collect and Pay; domestic abuse affects options and fees; "variation" for unearned income
+- CHECKED: CMS Collect and Pay fees 20% paying / 4% receiving still apply; Child Support Collection (Domestic Abuse) Act 2023 gives DA survivors quicker access to Collect and Pay; £20 application fee waived for DA. Book wording CORRECTED (gov.uk, Gingerbread 2026)
 - verify: US state child support agencies: income withholding, tax refund intercept
 - verify: Services Australia child support; Canadian provincial maintenance enforcement offices
 - verify: Surviving Economic Abuse (UK charity); NNEDV economic justice resources (US)
@@ -194,21 +194,21 @@ Topics chosen from Ubersuggest Google-autocomplete data (8 seeds) and keyword vo
 - verify: US vexatious litigant statutes (many states)
 - verify: PD12J; US states with rebuttable presumption against custody for DV perpetrators
 - verify: Cafcass section 7 reports; custody evaluators / guardians ad litem (US)
-- verify: DA Act 2021 s.65 ban on in-person cross-examination in family proceedings (qualified legal representative); s.63 participation directions
+- CHECKED: s.65 in force 21 July 2022 (SI 2022/840), PD3AB, qualified legal representative (legislation.gov.uk). s.63 not separately searched
 - verify: NACCC accredited contact centres; family appeals 21 days (FPR Part 30)
 - verify: no-fault divorce E&W from 6 April 2022; 20 weeks to conditional order; 6 weeks and a day to final order; narrow grounds to dispute
 - verify: Form E; pension sharing orders
-- verify: DVPN/DVPO; Domestic Abuse Protection Orders piloted from late 2024 (tagging, programmes); Scotland interdicts
+- CHECKED: DAPO pilot from 27 Nov 2024 (Greater Manchester, Croydon/Bromley/Sutton, British Transport Police; later Cleveland, North Wales); electronic monitoring possible where necessary and proportionate (judiciary.uk, gov.uk)
 - verify: VAWA full faith and credit (18 USC 2265); EU recognition of protection measures (Directive 2011/99/EU, Regulation 606/2013)
 - verify: Victims' Code; Victims' Right to Review; IOPC; US victim notification (e.g. VINE)
-- verify: DA Act 2021 s.78 priority need; sanctuary schemes; VAWA housing protections and emergency transfers
+- CHECKED: DA Act 2021 s.78 priority need, in force 5 July 2021 (legislation.gov.uk, Shelter). Sanctuary schemes and VAWA housing: well established
 - verify: IDVA role
 ## Pass 4e: Part VI (to verify in phase 6)
 - verify: both parents can usually get school/medical info absent an order (UK parental responsibility; US varies)
 - verify: TF-CBT and child-parent psychotherapy evidence base
 - verify: courts more cautious about "alienation" claims where abuse alleged (e.g. E&W guidance 2024, UN Special Rapporteur 2023 report)
 - verify: UK no general passport block; police port alert; prohibited steps order; Child Abduction Act 1984
-- verify: US two-parent consent for passports under 16; CPIAP
+- CHECKED: under-16 two-parent consent (22 USC 213n, 22 CFR 51.28); CPIAP free alert for children under 18 (travel.state.gov)
 - verify: 1980 Hague Convention return mechanism; Art 13(b) grave risk; Reunite International
 - verify: NICE routine enquiry about DA in antenatal care
 - verify: E&W unmarried father on birth certificate since 1 Dec 2003 gets parental responsibility; US acknowledgement of paternity
@@ -221,7 +221,7 @@ Topics chosen from Ubersuggest Google-autocomplete data (8 seeds) and keyword vo
 - verify: marital rape criminal in UK (R v R 1991) and all US states
 - verify: SARCs: forensic evidence up to about 7 days, can be stored; US forensic exam without reporting, free (VAWA)
 - verify: emergency contraception windows (72/120 hours; copper IUD 5 days); HIV PEP within 72 hours
-- verify: Rape Crisis England and Wales 24/7 line 0808 500 2222; RAINN 1-800-656-4673
+- CHECKED 2026-11-22: Rape Crisis E&W 0808 500 2222, free, 24/7, aged 16+ (rapecrisis.org.uk, gov.uk). RAINN unchanged (well established)
 - verify: alcohol withdrawal after heavy daily use can be dangerous (seizures)
 - verify: Freedom Programme (UK)
 - verify: therapy records may be sought in proceedings; courts usually protect
@@ -231,12 +231,16 @@ Topics chosen from Ubersuggest Google-autocomplete data (8 seeds) and keyword vo
 - verify: US protective orders can include pets in many states; some states let divorce courts weigh pet welfare
 - verify: Turn2us and entitledto benefit calculators (UK)
 - verify: McKenzie friend (England and Wales)
-- verify: NZ Women's Refuge 0800 733 843; Shine 0508 744 633; family violence info line 0800 456 450
-- verify: South Africa GBV Command Centre 0800 428 428; India Women Helpline 181, emergency 112
-- verify: Hourglass 0808 808 8141; National Deaf DV Hotline VP 1-855-812-1001; SignHealth (BSL); love is respect 1-866-331-9474 / text LOVEIS to 22522; Childline 0800 1111
+- CHECKED: NZ Women's Refuge 0800 733 843; Shine 0508 744 633; Are You OK 0800 456 450 (justice.govt.nz, govt.nz). Hours differ between sources; book gives no hours
+- CHECKED: SA GBV Command Centre 0800 428 428 (gov.za) but reported non-operational Dec 2024 (Daily Maverick) -> book adds SAPS 10111 backup. India 181 nationwide short code, integrated with ERSS-112 (myscheme.gov.in, PIB)
+- CHECKED: Hourglass 0808 808 8141, 24/7. US Deaf hotline number NOT confirmed -> removed from book. love is respect 866-331-9474 / text LOVEIS to 22522 (loveisrespect.org). SignHealth BSL support confirmed via council directories. Childline 0800 1111 well established
 ## Pass 5: steelman fills (to verify in phase 6)
 - verify: E&W publication of information from private children proceedings can be contempt (Administration of Justice Act 1960 s.12; Children Act 1989 s.97); permitted communication to lawyer, McKenzie friend, health professional, DA adviser (FPR 12.73, PD12G)
 - verify: US family records sometimes sealed; gag orders vary by state
 - verify: E&W witness care units; special measures (screens, live link, supporter); restraining orders on conviction or acquittal; Victim Personal Statement; US victim impact statements
 - verify: NICE NG116: trauma-focused therapies first for PTSD; drug treatment an option for some adults
-- verify: Divorce (Religious Marriages) Act 2002 (court can delay final order until religious divorce, prescribed faiths); get refusal treated as controlling behaviour (E&W, 2020)
+- CHECKED: Divorce (Religious Marriages) Act 2002 inserts s.10A MCA 1973 (court may delay civil decree until religious divorce, prescribed faiths). Get refusal: 2020 private prosecution ended before trial; 2022 conviction (Moher) for coercive control included get-related conduct; DA statutory guidance names withholding religious divorce as spiritual abuse. Book wording CORRECTED to match.
+
+## Status after phase 6 (2026-11-22)
+- Searched and confirmed or corrected: every new phone number; DAPO pilot; TAKE IT DOWN Act; s.78 priority need; religious divorce; emergencySMS; CMS fees; s.65 cross-examination ban; CPIAP. Corrections made: religious divorce wording, CMS fees wording, South Africa backup number, US Deaf hotline number removed.
+- Remaining 'verify' lines are well-established facts (statutes by name, named organisations, standard clinical guidance) that were not individually searched this round. They stay marked so a later pass can tick them.

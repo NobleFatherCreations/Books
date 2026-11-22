@@ -363,15 +363,19 @@ Domestic abuse help near me: start with your country's national helpline below.
 
 ## More countries
 - **New Zealand:** Women's Refuge crisis line, 0800 733 843. Shine, 0508 744 633. Family violence information line, 0800 456 450.
-- **South Africa:** Gender-Based Violence Command Centre, 0800 428 428.
+- **South Africa:** Gender-Based Violence Command Centre, 0800 428 428. If it doesn't connect, call the police on 10111.
 - **India:** Women Helpline, 181. Emergency, 112.
 
 ## Help by need
 - **Men:** UK Men's Advice Line, 0808 801 0327. In the US, the National Domestic Violence Hotline helps everyone.
 - **LGBTQ+:** UK Galop, 0800 999 5428. Elsewhere, search "LGBTQ domestic violence [your area]."
-- **Older people:** UK Hourglass, 0808 808 8141.
-- **Deaf people:** US National Deaf Domestic Violence Hotline, by videophone on 1-855-812-1001. In the UK, SignHealth offers support in British Sign Language.
+- **Older people:** UK Hourglass, 0808 808 8141, open day and night.
+- **Deaf people:** in the UK, SignHealth offers domestic abuse support in British Sign Language. In the US, the National Domestic Violence Hotline has options for Deaf callers; search "Deaf domestic violence hotline" for the current details.
 - **Young people:** US love is respect, 1-866-331-9474, or text LOVEIS to 22522. UK Childline, 0800 1111.
+
+## Sources
+- Women's Refuge NZ; Shine; Are You OK (New Zealand); GBV Command Centre (South Africa); Women Helpline 181 (India)
+- Hourglass; SignHealth; love is respect
 
 
 === a-to-z

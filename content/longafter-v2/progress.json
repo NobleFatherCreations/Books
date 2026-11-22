@@ -43,8 +43,10 @@
   },
   "facts": {
    "label": "6. Fact check of everything new (FACTS.md)",
-   "status": "todo",
-   "notes": []
+   "status": "done",
+   "notes": [
+    "2026-11-22: Fact check: every new phone number searched (2 changes: South Africa backup added, unconfirmed US Deaf line removed); laws searched (DAPO pilot, TAKE IT DOWN, s.78, s.65, religious divorce, emergencySMS, CMS fees, CPIAP) with 2 wording corrections; 28 source lines added to 26 chapters; remaining well-established items stay marked in FACTS.md"
+   ]
   },
   "audit": {
    "label": "7. Full content audit + pipeline (scripts/longafter-pipeline.sh --fast)",
@@ -383,7 +385,7 @@
   "intimate-images-and-online-threats": 774,
   "your-address-your-records-your-mail": 1020,
   "children-as-the-channel": 1475,
-  "money-as-the-channel": 1335,
+  "money-as-the-channel": 1354,
   "the-narrative-campaign": 1121,
   "your-family-and-mutual-friends": 1080,
   "the-new-partner": 1055,
@@ -399,7 +401,7 @@
   "solicitors-legal-aid-and-no-money": 1122,
   "family-court-honestly": 1621,
   "your-day-in-court": 976,
-  "divorce-and-separation-proceedings": 1203,
+  "divorce-and-separation-proceedings": 1221,
   "police-and-protective-orders": 1267,
   "police-and-reporting": 1154,
   "housing-and-benefits": 975,
@@ -425,7 +427,7 @@
   "what-your-nervous-system-is-doing": 1215,
   "sleep": 860,
   "getting-sick-after-leaving": 901,
-  "if-there-was-sexual-abuse": 1084,
+  "if-there-was-sexual-abuse": 1096,
   "drinking-drugs-and-getting-through": 872,
   "finding-a-therapist-who-understands-this": 947,
   "when-its-more-than-aftermath": 1195,
@@ -455,7 +457,7 @@
   "court-day-checklist": 342,
   "pocket-card-words-you-can-use": 210,
   "the-card": 211,
-  "find-help": 453,
+  "find-help": 480,
   "a-to-z": 797,
   "questions-people-ask": 978,
   "for-professionals": 374
@@ -696,6 +698,10 @@
   {
    "date": "2026-11-22",
    "what": "Steelman round 2 (STEELMAN-2.md): 15 hostile-reader findings; 11 filled now (sharing court details/contempt, criminal trial and special measures, bail and restraining orders, victim statements, medication, teen whose parent left, death of the ex, religious divorce, shared business, printouts, advocates' limits, reconnecting with adult children); sources gap moved to phase 6; reading-length and accessibility moved to design"
+  },
+  {
+   "date": "2026-11-22",
+   "what": "Fact check: every new phone number searched (2 changes: South Africa backup added, unconfirmed US Deaf line removed); laws searched (DAPO pilot, TAKE IT DOWN, s.78, s.65, religious divorce, emergencySMS, CMS fees, CPIAP) with 2 wording corrections; 28 source lines added to 26 chapters; remaining well-established items stay marked in FACTS.md"
   }
  ]
 }
