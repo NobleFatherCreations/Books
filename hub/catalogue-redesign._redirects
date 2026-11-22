@@ -15,6 +15,9 @@
 /children/*    https://playgroundprotector.netlify.app/:splat        200
 /wook          https://wook-in-sheeps-clothing.netlify.app/          200
 /wook/*        https://wook-in-sheeps-clothing.netlify.app/:splat    200
+# Fractal sector sites: each sector is its own Netlify site; these MUST stay above the /fractal/* rule.
+/fractal/entertainment     https://fractal-entertainment.netlify.app/fractal/entertainment          200
+/fractal/entertainment/*   https://fractal-entertainment.netlify.app/fractal/entertainment/:splat   200
 /fractal       https://thefractal.netlify.app/                       200
 /fractal/*     https://thefractal.netlify.app/:splat                 200
 /fracture      https://fractures.netlify.app/                        200

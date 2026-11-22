@@ -4,7 +4,7 @@ title: "Islam"
 family: "Islam"
 family_id: islam-family
 family_members: [islam, sunni-islam, shia-islam, ahmadiyya, dawoodi-bohra]
-version: v4
+version: v5
 checked: 2026-10-03
 sections_filled: 27/27
 missing: []

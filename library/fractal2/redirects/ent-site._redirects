@@ -1,0 +1,3 @@
+# Inside the Fractal² site (merge into the publish dir's _redirects; this generator does not own that file)
+/fractal2/entertainment/stage-extract  /fractal2/entertainment/stage-control  301!
+/fractal2/entertainment/standards  /fractal2/entertainment/method#standards  301!

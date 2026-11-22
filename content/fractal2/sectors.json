@@ -1,0 +1,306 @@
+{
+ "_about": "Registry of the thirty sectors. Order, names and 'relationship' are the owner's dominion table (owner-source/A, verbatim). fractal_chapter is set only where the published chapter file exists in library/fractal/. Set id/slug/title/built when a sector package is built.",
+ "base": "/fractal2",
+ "sectors": [
+  {
+   "n": 1,
+   "name": "Religion",
+   "relationship": "the divine",
+   "fractal_chapter": "/fractal/religion-and-spirituality",
+   "id": null,
+   "slug": null,
+   "title": null,
+   "built": false
+  },
+  {
+   "n": 2,
+   "name": "Politics",
+   "relationship": "power",
+   "fractal_chapter": "/fractal/politics-and-government",
+   "id": null,
+   "slug": null,
+   "title": null,
+   "built": false
+  },
+  {
+   "n": 3,
+   "name": "Media",
+   "relationship": "reality",
+   "fractal_chapter": "/fractal/media-and-information",
+   "id": null,
+   "slug": null,
+   "title": null,
+   "built": false
+  },
+  {
+   "n": 4,
+   "name": "Education",
+   "relationship": "your own mind",
+   "fractal_chapter": "/fractal/education",
+   "id": null,
+   "slug": null,
+   "title": null,
+   "built": false
+  },
+  {
+   "n": 5,
+   "name": "Healthcare",
+   "relationship": "your own body",
+   "fractal_chapter": "/fractal/healthcare-and-medicine",
+   "id": null,
+   "slug": null,
+   "title": null,
+   "built": false
+  },
+  {
+   "n": 6,
+   "name": "Finance",
+   "relationship": "survival",
+   "fractal_chapter": "/fractal/finance-and-economics",
+   "id": null,
+   "slug": null,
+   "title": null,
+   "built": false
+  },
+  {
+   "n": 7,
+   "name": "Technology",
+   "relationship": "attention and identity",
+   "fractal_chapter": null,
+   "id": null,
+   "slug": null,
+   "title": null,
+   "built": false
+  },
+  {
+   "n": 8,
+   "name": "Family",
+   "relationship": "love",
+   "fractal_chapter": "/fractal/family-and-relationships",
+   "id": null,
+   "slug": null,
+   "title": null,
+   "built": false
+  },
+  {
+   "n": 9,
+   "name": "Legal System",
+   "relationship": "freedom",
+   "fractal_chapter": "/fractal/legal-and-justice-system",
+   "id": null,
+   "slug": null,
+   "title": null,
+   "built": false
+  },
+  {
+   "n": 10,
+   "name": "Corporate",
+   "relationship": "your labor",
+   "fractal_chapter": "/fractal/corporate-and-workplace",
+   "id": null,
+   "slug": null,
+   "title": null,
+   "built": false
+  },
+  {
+   "n": 11,
+   "name": "Military",
+   "relationship": "your sovereignty",
+   "fractal_chapter": "/fractal/military-and-security",
+   "id": null,
+   "slug": null,
+   "title": null,
+   "built": false
+  },
+  {
+   "n": 12,
+   "name": "Entertainment",
+   "relationship": "being seen",
+   "fractal_chapter": "/fractal/entertainment-and-culture",
+   "id": "ENT",
+   "slug": "entertainment",
+   "title": "Entertainment & Music Industry",
+   "built": true
+  },
+  {
+   "n": 13,
+   "name": "Wellness",
+   "relationship": "your wound",
+   "fractal_chapter": "/fractal/new-age-spirituality-and-wellness",
+   "id": null,
+   "slug": null,
+   "title": null,
+   "built": false
+  },
+  {
+   "n": 14,
+   "name": "Food",
+   "relationship": "nourishment",
+   "fractal_chapter": "/fractal/food-and-agriculture",
+   "id": null,
+   "slug": null,
+   "title": null,
+   "built": false
+  },
+  {
+   "n": 15,
+   "name": "Housing",
+   "relationship": "rest",
+   "fractal_chapter": "/fractal/housing-and-real-estate",
+   "id": null,
+   "slug": null,
+   "title": null,
+   "built": false
+  },
+  {
+   "n": 16,
+   "name": "Sports",
+   "relationship": "your physical self",
+   "fractal_chapter": "/fractal/sports-and-athletics",
+   "id": null,
+   "slug": null,
+   "title": null,
+   "built": false
+  },
+  {
+   "n": 17,
+   "name": "Science",
+   "relationship": "truth and inquiry",
+   "fractal_chapter": "/fractal/science-and-academia",
+   "id": null,
+   "slug": null,
+   "title": null,
+   "built": false
+  },
+  {
+   "n": 18,
+   "name": "Nonprofits",
+   "relationship": "compassion",
+   "fractal_chapter": "/fractal/nonprofits-and-ngo-industry",
+   "id": null,
+   "slug": null,
+   "title": null,
+   "built": false
+  },
+  {
+   "n": 19,
+   "name": "Beauty",
+   "relationship": "self-acceptance",
+   "fractal_chapter": "/fractal/beauty-fashion-and-body-image",
+   "id": null,
+   "slug": null,
+   "title": null,
+   "built": false
+  },
+  {
+   "n": 20,
+   "name": "Dating",
+   "relationship": "intimacy",
+   "fractal_chapter": null,
+   "id": null,
+   "slug": null,
+   "title": null,
+   "built": false
+  },
+  {
+   "n": 21,
+   "name": "Surveillance",
+   "relationship": "privacy and autonomy",
+   "fractal_chapter": null,
+   "id": null,
+   "slug": null,
+   "title": null,
+   "built": false
+  },
+  {
+   "n": 22,
+   "name": "Child Welfare",
+   "relationship": "innocence",
+   "fractal_chapter": null,
+   "id": null,
+   "slug": null,
+   "title": null,
+   "built": false
+  },
+  {
+   "n": 23,
+   "name": "Aging & Death",
+   "relationship": "mortality",
+   "fractal_chapter": "/fractal/aging-death-and-end-of-life",
+   "id": null,
+   "slug": null,
+   "title": null,
+   "built": false
+  },
+  {
+   "n": 24,
+   "name": "Energy & Environment",
+   "relationship": "the living earth",
+   "fractal_chapter": "/fractal/energy-environment-and-natural-resources",
+   "id": null,
+   "slug": null,
+   "title": null,
+   "built": false
+  },
+  {
+   "n": 25,
+   "name": "Transportation",
+   "relationship": "movement and access",
+   "fractal_chapter": "/fractal/transportation-and-mobility",
+   "id": null,
+   "slug": null,
+   "title": null,
+   "built": false
+  },
+  {
+   "n": 26,
+   "name": "Mental Health",
+   "relationship": "your inner world",
+   "fractal_chapter": "/fractal/mental-health-and-therapy",
+   "id": null,
+   "slug": null,
+   "title": null,
+   "built": false
+  },
+  {
+   "n": 27,
+   "name": "Pharmaceuticals",
+   "relationship": "what enters your body",
+   "fractal_chapter": "/fractal/pharmaceutical-industry",
+   "id": null,
+   "slug": null,
+   "title": null,
+   "built": false
+  },
+  {
+   "n": 28,
+   "name": "Insurance",
+   "relationship": "risk and safety",
+   "fractal_chapter": "/fractal/insurance-industry",
+   "id": null,
+   "slug": null,
+   "title": null,
+   "built": false
+  },
+  {
+   "n": 29,
+   "name": "Incarceration",
+   "relationship": "confinement",
+   "fractal_chapter": "/fractal/incarceration-and-prison-industry",
+   "id": null,
+   "slug": null,
+   "title": null,
+   "built": false
+  },
+  {
+   "n": 30,
+   "name": "Immigration",
+   "relationship": "belonging and displacement",
+   "fractal_chapter": "/fractal/immigration-borders-and-displacement",
+   "id": null,
+   "slug": null,
+   "title": null,
+   "built": false
+  }
+ ]
+}

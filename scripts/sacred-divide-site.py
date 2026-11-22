@@ -41,6 +41,7 @@ ROOT = os.path.dirname(HERE)
 OUT = os.path.join(ROOT, 'library/_undeployed/sacred-divide-redesign')
 FONTS = os.path.join(ROOT, 'tools/pdf/fonts')
 PDFDIR = os.path.join(ROOT, 'library/_undeployed/sacred-divide-pdf')
+V5DIR = os.path.join(ROOT, 'library/_undeployed/sacred-divide-v5')   # the PDFs on the live site (manifest: pages and sizes)
 
 
 def load(name, file):
@@ -79,7 +80,7 @@ LIVE = '--live' in sys.argv[1:]
 # anonymous visit counter and state it plainly. Added to the live build only, never to previews.
 BEACON = ('<script defer type="module" src="https://static.cloudflareinsights.com/beacon.min.js" '
           'data-cf-beacon=\'{"token": "c8d1aea530814aea8c7a92baa2accef3"}\'></script>')
-VERSION, RELEASED = 'v4', '2026-09-29'
+VERSION, RELEASED = 'v5', '2026-10-27'
 # the earlier single-page codex, published alongside as the reference edition (live: <base>codex)
 CODEX_HREF = f'{BASE}codex{EXT}' if LIVE else '../sacred-divide-v4-factchecked.html'
 
@@ -1079,24 +1080,34 @@ TREE_CSS = r"""
 .updates{max-width:1240px;margin:0 auto;padding:48px 24px 120px;border-top:1px solid var(--line2);color:var(--ink2)}
 .updates h2{font:600 12px/1 var(--serif);letter-spacing:.2em;text-transform:uppercase;color:var(--ink3);margin:0 0 16px}
 .updates .ver{display:inline-block;border:1px solid var(--line);border-radius:999px;padding:4px 14px;color:var(--acc);font-size:14px;letter-spacing:.06em;margin:0 0 16px}
-.updates ul{max-width:70ch;padding-left:20px;font-size:16px} .updates li{margin:0 0 8px}
+.updates ul{max-width:70ch;padding-left:20px;font-size:16px} .updates ul + .ver{margin-top:32px} .updates li{margin:0 0 8px}
 .updates .privacy{max-width:70ch;font-size:15px;color:var(--ink3)}
 """
 
-UPDATES = [
-    "A new edition: one page for each of 34 traditions, grouped into 10 families, every page built on the same 27 sections.",
-    "Every section now opens with a short note on what it shows, and closes with a note on why it matters to you.",
-    "Compare any section side by side with the same section from other traditions.",
-    "Tap a citation to read its source in place. Every page has a quick-exit button.",
-    "Each tradition can be downloaded as a PDF: the full record, with the same notes and captions as the page.",
-    "Fact-check corrections are applied throughout; each page lists its own in \"What changed on this page\".",
-    "The earlier single-page codex stays available as the reference edition, with its volumes, instruments and methodology.",
+RELEASES = [   # newest first: (version, date, one-line plain-language entries)
+    ('v5', '2026-10-27', [
+        "Every page was fact-checked again against its sources. Facts, dates, counts and grades were corrected on all 34 pages, and each page lists its own corrections in \"What changed on this page\".",
+        "Help-line details were corrected. Faith to Faithless now shows its verified freephone number and opening hours.",
+        "Seven traditions (Ahmadiyya, Anglicanism, Dawoodi Bohra, Oriental Orthodoxy, Plymouth Brethren, Soka Gakkai and Unification Church) now give each of the 30 techniques its own entry, with a note on why it has its grade.",
+        "Wording that assumed belief in God was changed for the traditions that do not teach one.",
+        "The PDFs are new. Each is the full record and matches its page, with larger type, a contents page and a guide to reading it, and it is built to work with screen readers.",
+        "The note on the Supreme Court of India's pending Parsi case was re-checked on 27 October 2026: no verdict has been reported.",
+    ]),
+    ('v4', '2026-09-29', [
+        "A new edition: one page for each of 34 traditions, grouped into 10 families, every page built on the same 27 sections.",
+        "Every section now opens with a short note on what it shows, and closes with a note on why it matters to you.",
+        "Compare any section side by side with the same section from other traditions.",
+        "Tap a citation to read its source in place. Every page has a quick-exit button.",
+        "Each tradition can be downloaded as a PDF: the full record, with the same notes and captions as the page.",
+        "Fact-check corrections are applied throughout; each page lists its own in \"What changed on this page\".",
+        "The earlier single-page codex stays available as the reference edition, with its volumes, instruments and methodology.",
+    ]),
 ]
 
 
 def index_page():
     total = sum(len(m) for _, _, m in FAMILIES)
-    updates = ''.join(f'<li>{e(u)}</li>' for u in UPDATES)
+    updates = ''.join(f'<span class="ver">{v} \u2014 {d}</span><ul>' + ''.join(f'<li>{e(u)}</li>' for u in us) + '</ul>' for v, d, us in RELEASES)
     privacy = ('This site keeps an anonymous visit count (Cloudflare Web Analytics, which sets no cookies). '
                'Nothing you read, compare or print is stored, and no page asks who you are.') if LIVE else \
               'Preview build: no visit counter. The live build adds only an anonymous visit count.'
@@ -1113,14 +1124,15 @@ def index_page():
 <a href="{CODEX_HREF}">reference edition</a>: the earlier single-page codex, fact-checked and kept whole while its material moves into these pages.</p></aside>
 {ledger()}
 <footer class="updates" id="updates" aria-labelledby="h-updates"><h2 id="h-updates">Updates</h2>
-<span class="ver">{VERSION} — {RELEASED}</span><ul>{updates}</ul><p class="privacy">{privacy}</p></footer>
+{updates}<p class="privacy">{privacy}</p></footer>
 </main>'''
     return page('The Sacred Divide — Noble Father Creations', 'How institutional power works inside 34 religious traditions, each held to one standard and every claim sourced.', body, 'index', '{FONTS}')
 
 
 def main():
     os.makedirs(OUT, exist_ok=True)
-    man_std, man_exp = manifest('manifest.json'), manifest('expanded/manifest.json')
+    man_std = manifest('manifest.json')
+    man_exp = json.load(open(os.path.join(V5DIR, 'manifest.json')))
     pages = {'index': index_page()}
     for n, (fid, fname, members) in enumerate(FAMILIES, 1):
         for rid in members:

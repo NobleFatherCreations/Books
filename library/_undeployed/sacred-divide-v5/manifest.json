@@ -4,8 +4,8 @@
   "family": "Islam",
   "file": "ahmadiyya-expanded.pdf",
   "pages": 113,
-  "bytes": 1543864,
-  "version": "v4",
+  "bytes": 1587795,
+  "version": "v5",
   "checked": "2026-10-03"
  },
  "anglicanism": {
@@ -13,17 +13,17 @@
   "family": "Christianity",
   "file": "anglicanism-expanded.pdf",
   "pages": 118,
-  "bytes": 1636561,
-  "version": "v4",
+  "bytes": 1685918,
+  "version": "v5",
   "checked": "2026-10-03"
  },
  "bahai": {
-  "title": "Baháʼí Faith",
+  "title": "Bah\u00e1\u02bc\u00ed Faith",
   "family": "Persian-born",
   "file": "bahai-expanded.pdf",
   "pages": 133,
-  "bytes": 1596783,
-  "version": "v4",
+  "bytes": 1638792,
+  "version": "v5",
   "checked": "2026-10-03"
  },
  "buddhism": {
@@ -31,8 +31,8 @@
   "family": "Buddhism",
   "file": "buddhism-expanded.pdf",
   "pages": 135,
-  "bytes": 1590161,
-  "version": "v4",
+  "bytes": 1628900,
+  "version": "v5",
   "checked": "2026-10-03"
  },
  "catholicism": {
@@ -40,8 +40,8 @@
   "family": "Christianity",
   "file": "catholicism-expanded.pdf",
   "pages": 151,
-  "bytes": 1807381,
-  "version": "v4",
+  "bytes": 1860385,
+  "version": "v5",
   "checked": "2026-10-03"
  },
  "christianity": {
@@ -49,8 +49,8 @@
   "family": "Christianity",
   "file": "christianity-expanded.pdf",
   "pages": 147,
-  "bytes": 1819049,
-  "version": "v4",
+  "bytes": 1868094,
+  "version": "v5",
   "checked": "2026-10-03"
  },
  "confucianism": {
@@ -58,8 +58,8 @@
   "family": "East Asian",
   "file": "confucianism-expanded.pdf",
   "pages": 131,
-  "bytes": 1542609,
-  "version": "v4",
+  "bytes": 1580149,
+  "version": "v5",
   "checked": "2026-10-03"
  },
  "dawoodi-bohra": {
@@ -67,8 +67,8 @@
   "family": "Islam",
   "file": "dawoodi-bohra-expanded.pdf",
   "pages": 107,
-  "bytes": 1686057,
-  "version": "v4",
+  "bytes": 1741927,
+  "version": "v5",
   "checked": "2026-10-03"
  },
  "eastern-orthodoxy": {
@@ -76,8 +76,8 @@
   "family": "Christianity",
   "file": "eastern-orthodoxy-expanded.pdf",
   "pages": 138,
-  "bytes": 1678314,
-  "version": "v4",
+  "bytes": 1727374,
+  "version": "v5",
   "checked": "2026-10-03"
  },
  "hare-krishna": {
@@ -85,8 +85,8 @@
   "family": "Dharmic",
   "file": "hare-krishna-expanded.pdf",
   "pages": 136,
-  "bytes": 1595629,
-  "version": "v4",
+  "bytes": 1636201,
+  "version": "v5",
   "checked": "2026-10-03"
  },
  "hinduism": {
@@ -94,8 +94,8 @@
   "family": "Dharmic",
   "file": "hinduism-expanded.pdf",
   "pages": 142,
-  "bytes": 1695221,
-  "version": "v4",
+  "bytes": 1743698,
+  "version": "v5",
   "checked": "2026-10-03"
  },
  "indigenous": {
@@ -103,8 +103,8 @@
   "family": "Indigenous & folk",
   "file": "indigenous-expanded.pdf",
   "pages": 138,
-  "bytes": 1643702,
-  "version": "v4",
+  "bytes": 1688646,
+  "version": "v5",
   "checked": "2026-10-03"
  },
  "islam": {
@@ -112,8 +112,8 @@
   "family": "Islam",
   "file": "islam-expanded.pdf",
   "pages": 148,
-  "bytes": 1848913,
-  "version": "v4",
+  "bytes": 1911240,
+  "version": "v5",
   "checked": "2026-10-03"
  },
  "jainism": {
@@ -121,8 +121,8 @@
   "family": "Dharmic",
   "file": "jainism-expanded.pdf",
   "pages": 129,
-  "bytes": 1508874,
-  "version": "v4",
+  "bytes": 1543720,
+  "version": "v5",
   "checked": "2026-10-03"
  },
  "jehovahs-witnesses": {
@@ -130,8 +130,8 @@
   "family": "Restorationist & Adventist",
   "file": "jehovahs-witnesses-expanded.pdf",
   "pages": 142,
-  "bytes": 1718200,
-  "version": "v4",
+  "bytes": 1765244,
+  "version": "v5",
   "checked": "2026-10-03"
  },
  "judaism": {
@@ -139,8 +139,8 @@
   "family": "Judaism",
   "file": "judaism-expanded.pdf",
   "pages": 138,
-  "bytes": 1658626,
-  "version": "v4",
+  "bytes": 1700291,
+  "version": "v5",
   "checked": "2026-10-03"
  },
  "mormonism": {
@@ -148,8 +148,8 @@
   "family": "Restorationist & Adventist",
   "file": "mormonism-expanded.pdf",
   "pages": 147,
-  "bytes": 1773395,
-  "version": "v4",
+  "bytes": 1824418,
+  "version": "v5",
   "checked": "2026-10-03"
  },
  "new-age": {
@@ -157,8 +157,8 @@
   "family": "New movements & the spiritual marketplace",
   "file": "new-age-expanded.pdf",
   "pages": 138,
-  "bytes": 1586626,
-  "version": "v4",
+  "bytes": 1624911,
+  "version": "v5",
   "checked": "2026-10-03"
  },
  "oriental-orthodoxy": {
@@ -166,8 +166,8 @@
   "family": "Christianity",
   "file": "oriental-orthodoxy-expanded.pdf",
   "pages": 119,
-  "bytes": 1709536,
-  "version": "v4",
+  "bytes": 1766585,
+  "version": "v5",
   "checked": "2026-10-03"
  },
  "orthodox-hasidic-judaism": {
@@ -175,8 +175,8 @@
   "family": "Judaism",
   "file": "orthodox-hasidic-judaism-expanded.pdf",
   "pages": 135,
-  "bytes": 1610372,
-  "version": "v4",
+  "bytes": 1649056,
+  "version": "v5",
   "checked": "2026-10-03"
  },
  "pentecostal-charismatic": {
@@ -184,8 +184,8 @@
   "family": "Christianity",
   "file": "pentecostal-charismatic-expanded.pdf",
   "pages": 144,
-  "bytes": 1760099,
-  "version": "v4",
+  "bytes": 1807505,
+  "version": "v5",
   "checked": "2026-10-03"
  },
  "plymouth-brethren": {
@@ -193,8 +193,8 @@
   "family": "Christianity",
   "file": "plymouth-brethren-expanded.pdf",
   "pages": 107,
-  "bytes": 1456837,
-  "version": "v4",
+  "bytes": 1504233,
+  "version": "v5",
   "checked": "2026-10-03"
  },
  "protestant-evangelical": {
@@ -202,8 +202,8 @@
   "family": "Christianity",
   "file": "protestant-evangelical-expanded.pdf",
   "pages": 145,
-  "bytes": 1745068,
-  "version": "v4",
+  "bytes": 1794507,
+  "version": "v5",
   "checked": "2026-10-03"
  },
  "scientology": {
@@ -211,8 +211,8 @@
   "family": "New movements & the spiritual marketplace",
   "file": "scientology-expanded.pdf",
   "pages": 143,
-  "bytes": 1709193,
-  "version": "v4",
+  "bytes": 1757487,
+  "version": "v5",
   "checked": "2026-10-03"
  },
  "seventh-day-adventism": {
@@ -220,8 +220,8 @@
   "family": "Restorationist & Adventist",
   "file": "seventh-day-adventism-expanded.pdf",
   "pages": 138,
-  "bytes": 1642244,
-  "version": "v4",
+  "bytes": 1677817,
+  "version": "v5",
   "checked": "2026-10-03"
  },
  "shia-islam": {
@@ -229,8 +229,8 @@
   "family": "Islam",
   "file": "shia-islam-expanded.pdf",
   "pages": 144,
-  "bytes": 1808989,
-  "version": "v4",
+  "bytes": 1868273,
+  "version": "v5",
   "checked": "2026-10-03"
  },
  "shinto": {
@@ -238,8 +238,8 @@
   "family": "East Asian",
   "file": "shinto-expanded.pdf",
   "pages": 133,
-  "bytes": 1566766,
-  "version": "v4",
+  "bytes": 1603843,
+  "version": "v5",
   "checked": "2026-10-03"
  },
  "sikhism": {
@@ -247,8 +247,8 @@
   "family": "Dharmic",
   "file": "sikhism-expanded.pdf",
   "pages": 131,
-  "bytes": 1549433,
-  "version": "v4",
+  "bytes": 1585962,
+  "version": "v5",
   "checked": "2026-10-03"
  },
  "soka-gakkai": {
@@ -256,8 +256,8 @@
   "family": "Buddhism",
   "file": "soka-gakkai-expanded.pdf",
   "pages": 106,
-  "bytes": 1359922,
-  "version": "v4",
+  "bytes": 1397265,
+  "version": "v5",
   "checked": "2026-10-03"
  },
  "sunni-islam": {
@@ -265,8 +265,8 @@
   "family": "Islam",
   "file": "sunni-islam-expanded.pdf",
   "pages": 151,
-  "bytes": 1940586,
-  "version": "v4",
+  "bytes": 2013795,
+  "version": "v5",
   "checked": "2026-10-03"
  },
  "taoism": {
@@ -274,8 +274,8 @@
   "family": "East Asian",
   "file": "taoism-expanded.pdf",
   "pages": 129,
-  "bytes": 1508001,
-  "version": "v4",
+  "bytes": 1540284,
+  "version": "v5",
   "checked": "2026-10-03"
  },
  "tibetan-buddhism": {
@@ -283,8 +283,8 @@
   "family": "Buddhism",
   "file": "tibetan-buddhism-expanded.pdf",
   "pages": 140,
-  "bytes": 1656421,
-  "version": "v4",
+  "bytes": 1700145,
+  "version": "v5",
   "checked": "2026-10-03"
  },
  "unification-church": {
@@ -292,8 +292,8 @@
   "family": "New movements & the spiritual marketplace",
   "file": "unification-church-expanded.pdf",
   "pages": 112,
-  "bytes": 1630250,
-  "version": "v4",
+  "bytes": 1683828,
+  "version": "v5",
   "checked": "2026-10-03"
  },
  "zoroastrianism": {
@@ -301,8 +301,8 @@
   "family": "Persian-born",
   "file": "zoroastrianism-expanded.pdf",
   "pages": 133,
-  "bytes": 1556267,
-  "version": "v4",
+  "bytes": 1593830,
+  "version": "v5",
   "checked": "2026-10-03"
  }
 }

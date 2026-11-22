@@ -2171,5 +2171,15 @@
   "count": 3,
   "reason": "Open-source check 2026-10-06: judgment in the nine-judge reference (Sabarimala, Parsi women, Dawoodi Bohra) still reserved since 14 May 2026; no verdict reported.",
   "status": "proposed"
+ },
+ {
+  "id": "ZORF-D080",
+  "scope": "md",
+  "type": "fact",
+  "before": "last check on 6 October 2026",
+  "after": "last check on 27 October 2026",
+  "count": 3,
+  "reason": "Release-day check 2026-10-27: two searches found no verdict reported in the nine-judge reference (Sabarimala, Parsi women, Dawoodi Bohra); the Goolrokh Gupta matter is tagged to it and the Court has declined interim views.",
+  "status": "proposed"
  }
 ]

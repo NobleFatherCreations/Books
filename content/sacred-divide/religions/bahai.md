@@ -4,7 +4,7 @@ title: "Baháʼí Faith"
 family: "Persian-born"
 family_id: persian
 family_members: [zoroastrianism, bahai]
-version: v4
+version: v5
 checked: 2026-10-03
 sections_filled: 27/27
 missing: []

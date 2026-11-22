@@ -1,0 +1,3121 @@
+{
+ "Love Bombing": {
+  "standard_id": "S1-001",
+  "number": "T001",
+  "stage": "IDEALIZE",
+  "standard_definition": "Overwhelming attention designed to flood bonding signals and bypass discernment.",
+  "also_called": []
+ },
+ "Manufactured Destiny": {
+  "standard_id": "S1-002",
+  "number": "T002",
+  "stage": "IDEALIZE",
+  "standard_definition": "Creating a sense of fated connection to bypass critical evaluation.",
+  "also_called": []
+ },
+ "Manufactured Intimacy": {
+  "standard_id": "S1-003",
+  "number": "T003",
+  "stage": "IDEALIZE",
+  "standard_definition": "Engineering synthetic closeness before trust is earned.",
+  "also_called": [
+   "Weaponized AI Empathy"
+  ]
+ },
+ "Forced Teaming": {
+  "standard_id": "S1-004",
+  "number": "T004",
+  "stage": "IDEALIZE",
+  "standard_definition": "\"We\" language used to create false alliance before trust exists.",
+  "also_called": [
+   "Alignment Framing",
+   "Pseudo-Mutual Identity"
+  ]
+ },
+ "Premature Vulnerability / Trauma Dumping": {
+  "standard_id": "S1-005",
+  "number": "T005",
+  "stage": "IDEALIZE",
+  "standard_definition": "Deep disclosures too early to create obligation and recruit caretaking.",
+  "also_called": [
+   "Premature Vulnerability",
+   "Selective Vulnerability"
+  ]
+ },
+ "The Rescue Hook": {
+  "standard_id": "S1-007",
+  "number": "T006",
+  "stage": "IDEALIZE",
+  "standard_definition": "Subtle helplessness designed to recruit your caretaker identity.",
+  "also_called": []
+ },
+ "Pedestal Ploy / The Exception Script": {
+  "standard_id": "S1-008",
+  "number": "T007",
+  "stage": "IDEALIZE",
+  "standard_definition": "Elevating you above peers as an isolation primer.",
+  "also_called": [
+   "Pedestal Ploy",
+   "Social Elevation",
+   "The Exception Script",
+   "The Exception Script (Recycled)"
+  ]
+ },
+ "Emotional Flooding": {
+  "standard_id": "S1-009",
+  "number": "T008",
+  "stage": "IDEALIZE",
+  "standard_definition": "Overwhelming intensity so the nervous system confuses urgency with trust.",
+  "also_called": [
+   "Intensity as Intimacy"
+  ]
+ },
+ "Exclusive Meaning": {
+  "standard_id": "S1-010",
+  "number": "T009",
+  "stage": "IDEALIZE",
+  "standard_definition": "Framing the connection as rare or elite so leaving feels like losing something sacred.",
+  "also_called": [
+   "Exclusive Access",
+   "Privileged Access Framing"
+  ]
+ },
+ "Loan-Sharking Gifts": {
+  "standard_id": "S1-011",
+  "number": "T010",
+  "stage": "IDEALIZE",
+  "standard_definition": "Unsolicited generosity designed to create invisible debt.",
+  "also_called": [
+   "Free Adoption",
+   "Gift Economy",
+   "Weaponized Generosity"
+  ]
+ },
+ "Weaponized Generosity in Public": {
+  "standard_id": "S1-012",
+  "number": "T011",
+  "stage": "IDEALIZE",
+  "standard_definition": "Grand gestures witnessed by others to build reputation and create invisible obligation.",
+  "also_called": []
+ },
+ "Performative Public Affection / Dr. Jekyll and Mr. Hyde": {
+  "standard_id": "S1-013",
+  "number": "T012",
+  "stage": "IDEALIZE",
+  "standard_definition": "Wonderful in public, different in private, making disclosure unbelievable.",
+  "also_called": [
+   "Charm Offensive",
+   "Dr. Jekyll / Mr. Hyde",
+   "Dr. Jekyll/Mr. Hyde",
+   "Performative Public Affection",
+   "Public Praise / Private Punishment"
+  ]
+ },
+ "Mirroring-on-Demand": {
+  "standard_id": "S1-014",
+  "number": "T013",
+  "stage": "IDEALIZE",
+  "standard_definition": "Matching your values to create artificial alignment.",
+  "also_called": [
+   "Mirroring",
+   "Rapport Hijacking"
+  ]
+ },
+ "Credential-Costuming": {
+  "standard_id": "S1-015",
+  "number": "T014",
+  "stage": "IDEALIZE",
+  "standard_definition": "Faked or inflated authority used to project power.",
+  "also_called": []
+ },
+ "Catfishing": {
+  "standard_id": "S1-017",
+  "number": "T015",
+  "stage": "IDEALIZE",
+  "standard_definition": "A false representation designed to hook you before you see reality.",
+  "also_called": [
+   "Identity Performances"
+  ]
+ },
+ "Social Engineering": {
+  "standard_id": "S1-018",
+  "number": "T016",
+  "stage": "IDEALIZE",
+  "standard_definition": "Manipulating you into giving information by sounding credible or caring.",
+  "also_called": [
+   "AI-Driven Social Engineering (Automated)"
+  ]
+ },
+ "\"We're Family\" Erasure": {
+  "standard_id": "S1-019",
+  "number": "T017",
+  "stage": "IDEALIZE",
+  "standard_definition": "Family framing used to dissolve professional boundaries.",
+  "also_called": []
+ },
+ "Golden Child Elevation": {
+  "standard_id": "S1-020",
+  "number": "T018",
+  "stage": "IDEALIZE",
+  "standard_definition": "One person in a family or group is held up as the standard, praised and excused, and their example is used to measure everyone else.",
+  "also_called": []
+ },
+ "Tokenism": {
+  "standard_id": "S1-021",
+  "number": "T019",
+  "stage": "IDEALIZE",
+  "standard_definition": "One member of a group is given a visible seat or title and expected to stand for everyone like them, while their views are rarely asked for.",
+  "also_called": [
+   "Recruitment Without Preparation",
+   "Representational Tokenism"
+  ]
+ },
+ "Performative Allyship / False Solidarity": {
+  "standard_id": "S1-022",
+  "number": "T020",
+  "stage": "IDEALIZE",
+  "standard_definition": "Public support or shared values are declared, but nothing done in private backs them up when support would cost something.",
+  "also_called": []
+ },
+ "Premature Trust Extraction": {
+  "standard_id": "M-008",
+  "number": "T021",
+  "stage": "IDEALIZE",
+  "standard_definition": "Pressuring the target to share before earning the right to hold it.",
+  "also_called": []
+ },
+ "Identity Auditing": {
+  "standard_id": "M-009",
+  "number": "T022",
+  "stage": "IDEALIZE",
+  "standard_definition": "Mapping the target's vulnerabilities for strategic use.",
+  "also_called": [
+   "Vulnerability Identification"
+  ]
+ },
+ "Rescuer Positioning": {
+  "standard_id": "M-013",
+  "number": "T023",
+  "stage": "IDEALIZE",
+  "standard_definition": "Presenting as the answer to the target's confusion or fear.",
+  "also_called": [
+   "Leadership Arrival Narrative"
+  ]
+ },
+ "Pacing and Leading": {
+  "standard_id": "M-023",
+  "number": "T024",
+  "stage": "IDEALIZE",
+  "standard_definition": "First matching the target's rhythm, then shifting it toward dependency.",
+  "also_called": []
+ },
+ "Performative Reception": {
+  "standard_id": "S1-024",
+  "number": "T025",
+  "stage": "IDEALIZE",
+  "standard_definition": "A concern is received with warmth, speed and sympathy, but nothing that follows changes what happened.",
+  "also_called": [
+   "Institutional Intake Performance",
+   "Procedural Legitimation",
+   "Responsive Performance",
+   "Responsive Velocity",
+   "Sympathetic Intake"
+  ]
+ },
+ "Target Selection": {
+  "standard_id": "S1-025",
+  "number": "T026",
+  "stage": "IDEALIZE",
+  "standard_definition": "One person is singled out for special attention because they look most isolated, most eager or most useful, and the attention feels like being chosen.",
+  "also_called": [
+   "Talent Identification and Institutional Capture"
+  ]
+ },
+ "Gatekeeper Grooming": {
+  "standard_id": "S1-026",
+  "number": "T027",
+  "stage": "IDEALIZE",
+  "standard_definition": "The people around a target, such as parents, colleagues or an institution, are won over first, so that later access goes unquestioned and concerns are not believed.",
+  "also_called": [
+   "Grooming the Environment"
+  ]
+ },
+ "Future Faking": {
+  "standard_id": "S2-001",
+  "number": "T028",
+  "stage": "HOOK",
+  "standard_definition": "Promises of a future that secure present compliance with no guarantee of delivery.",
+  "also_called": [
+   "Paper Deferral"
+  ]
+ },
+ "Identity Hooking": {
+  "standard_id": "S2-002",
+  "number": "T029",
+  "stage": "HOOK",
+  "standard_definition": "Binding your self-worth to their system so leaving feels like losing yourself.",
+  "also_called": [
+   "Identity Installation",
+   "Social Identity Threat"
+  ]
+ },
+ "Premature Exclusivity": {
+  "standard_id": "S2-003",
+  "number": "T030",
+  "stage": "HOOK",
+  "standard_definition": "Pushing for commitment before evaluation is possible.",
+  "also_called": []
+ },
+ "Commitment Traps / Foot-in-the-Door": {
+  "standard_id": "S2-004",
+  "number": "T031",
+  "stage": "HOOK",
+  "standard_definition": "Small agreements that escalate into obligations.",
+  "also_called": [
+   "Commitment Traps",
+   "Escalation Testing",
+   "Foot-in-the-Door",
+   "Gradual Escalation",
+   "Graduated Compliance"
+  ]
+ },
+ "Manufactured Urgency": {
+  "standard_id": "S2-005",
+  "number": "T032",
+  "stage": "HOOK",
+  "standard_definition": "\"Decide now\" pressure to bypass discernment.",
+  "also_called": [
+   "Commitment Before Verification",
+   "Compressed Window",
+   "Pressure to Sign",
+   "Urgency Manufacturing"
+  ]
+ },
+ "Manufactured Scarcity": {
+  "standard_id": "S2-006",
+  "number": "T033",
+  "stage": "HOOK",
+  "standard_definition": "\"This is your only chance\" framing to trigger fear of loss.",
+  "also_called": [
+   "FOMO Lock",
+   "Manufactured Oversubscription"
+  ]
+ },
+ "Obligation Hooks": {
+  "standard_id": "S2-008",
+  "number": "T034",
+  "stage": "HOOK",
+  "standard_definition": "Installing a sense of \"owing\" that makes saying no feel like moral failure.",
+  "also_called": [
+   "Obligation Installation",
+   "Social Debt Invocation"
+  ]
+ },
+ "Favor Debt": {
+  "standard_id": "S2-009",
+  "number": "T035",
+  "stage": "HOOK",
+  "standard_definition": "Tracking generosity on an invisible ledger to cash in later.",
+  "also_called": [
+   "Emotional Debt Accumulation",
+   "Obligation Layering",
+   "Reciprocity Activation"
+  ]
+ },
+ "Duty Scripts": {
+  "standard_id": "S2-011",
+  "number": "T036",
+  "stage": "HOOK",
+  "standard_definition": "Cultural obligations framed as identity requirements.",
+  "also_called": []
+ },
+ "Sunk Cost Exploitation": {
+  "standard_id": "S2-012",
+  "number": "T037",
+  "stage": "HOOK",
+  "standard_definition": "Making you focus on what you've invested rather than what you're getting.",
+  "also_called": []
+ },
+ "Confirmation Bias Exploitation": {
+  "standard_id": "S2-013",
+  "number": "T038",
+  "stage": "HOOK",
+  "standard_definition": "Leveraging your tendency to focus on evidence that confirms the \"good version.\"",
+  "also_called": []
+ },
+ "Halo Effect Exploitation": {
+  "standard_id": "S2-014",
+  "number": "T039",
+  "stage": "HOOK",
+  "standard_definition": "One positive trait used to override pattern recognition.",
+  "also_called": []
+ },
+ "Hoovering / Relief Bait": {
+  "standard_id": "S2-016",
+  "number": "T040",
+  "stage": "HOOK",
+  "standard_definition": "Pulling you back after distance through charm, apology, or promises.",
+  "also_called": [
+   "Hoovering",
+   "Hoovering (Post-Discard)",
+   "Hoovering (Replacement Phase)",
+   "Periodic Reinforcement of the Ideal",
+   "Relief Bait",
+   "Zombieing"
+  ]
+ },
+ "Obligation Contracts": {
+  "standard_id": "S2-017",
+  "number": "T041",
+  "stage": "HOOK",
+  "standard_definition": "Unspoken debts enforced through shame.",
+  "also_called": [
+   "Covert Contract",
+   "Covert Contracts"
+  ]
+ },
+ "Golden Bars": {
+  "standard_id": "S2-018",
+  "number": "T042",
+  "stage": "HOOK",
+  "standard_definition": "Privileges that come with strings of compliance, making the cage feel like a gift.",
+  "also_called": []
+ },
+ "Financial Enmeshment": {
+  "standard_id": "S2-020",
+  "number": "T043",
+  "stage": "HOOK",
+  "standard_definition": "Tangling finances to make separation catastrophic.",
+  "also_called": []
+ },
+ "Financial Dependence by Design": {
+  "standard_id": "S2-021",
+  "number": "T044",
+  "stage": "HOOK",
+  "standard_definition": "Structuring finances so you cannot leave.",
+  "also_called": []
+ },
+ "Platform Migration": {
+  "standard_id": "S2-022",
+  "number": "T045",
+  "stage": "HOOK",
+  "standard_definition": "Moving communication off-record to reduce accountability.",
+  "also_called": []
+ },
+ "Bread-crumbing": {
+  "standard_id": "S2-023",
+  "number": "T046",
+  "stage": "HOOK",
+  "standard_definition": "Just enough to keep you striving, never enough to satisfy.",
+  "also_called": [
+   "Benching",
+   "Breadcrumbing",
+   "Cushioning",
+   "Hope as a Leash"
+  ]
+ },
+ "Boundary Testing": {
+  "standard_id": "S2-025",
+  "number": "T047",
+  "stage": "HOOK",
+  "standard_definition": "Small violations to gauge tolerance before escalating.",
+  "also_called": [
+   "Boundary Testing (Disguised)"
+  ]
+ },
+ "\"Sacred Duty\" Manipulation / Mission Framing": {
+  "standard_id": "S2-027",
+  "number": "T048",
+  "stage": "HOOK",
+  "standard_definition": "Framing participation as spiritual or moral obligation.",
+  "also_called": [
+   "\"Sacred Duty\" Manipulation",
+   "Mission Declaration",
+   "Mission Framing",
+   "Spiritual Abuse/Sacred Manipulation",
+   "Spiritual Coercion"
+  ]
+ },
+ "Martyrdom Display": {
+  "standard_id": "S2-029",
+  "number": "T049",
+  "stage": "HOOK",
+  "standard_definition": "Effort and self-denial are made visible through sighs, lists of sacrifices and \"don't mind me\", so others feel they must make up for it.",
+  "also_called": []
+ },
+ "Demand for Gratitude": {
+  "standard_id": "S2-030",
+  "number": "T050",
+  "stage": "HOOK",
+  "standard_definition": "Help is turned into something that must be repaid in visible thanks, and any complaint is answered with what you were given.",
+  "also_called": []
+ },
+ "Door-in-the-Face": {
+  "standard_id": "S2-031",
+  "number": "T051",
+  "stage": "HOOK",
+  "standard_definition": "A large request you are expected to refuse comes first, so the smaller request that follows feels like a fair compromise.",
+  "also_called": []
+ },
+ "Anchoring": {
+  "standard_id": "S2-032",
+  "number": "T052",
+  "stage": "HOOK",
+  "standard_definition": "The first number, price or standard you hear becomes the reference point, so everything after it is judged against it.",
+  "also_called": []
+ },
+ "Bait and Switch": {
+  "standard_id": "S2-033",
+  "number": "T053",
+  "stage": "HOOK",
+  "standard_definition": "An attractive offer gets your commitment, and what you actually receive is worse, changed or missing once leaving has become costly.",
+  "also_called": [
+   "Lowball Technique",
+   "Terms Modification"
+  ]
+ },
+ "Agent of Influence Operations": {
+  "standard_id": "S2-036",
+  "number": "T054",
+  "stage": "HOOK",
+  "standard_definition": "A credible voice promotes another party's interests without disclosing the connection, so you take their view as independent.",
+  "also_called": []
+ },
+ "Mystical Manipulation": {
+  "standard_id": "S2-038",
+  "number": "T055",
+  "stage": "HOOK",
+  "standard_definition": "Experiences presented to you as spontaneous, divine or fated were in fact arranged in advance.",
+  "also_called": []
+ },
+ "Charismatic Authority Dependence": {
+  "standard_id": "S2-039",
+  "number": "T056",
+  "stage": "HOOK",
+  "standard_definition": "Answers, permission and meaning all come from one leader, so doubting the leader feels like losing your footing.",
+  "also_called": [
+   "Charismatic Authority"
+  ]
+ },
+ "Parasocial Manipulation Engineering": {
+  "standard_id": "S2-041",
+  "number": "T057",
+  "stage": "HOOK",
+  "standard_definition": "A one-way sense of closeness with someone you follow is cultivated and then used to sell to you or move you.",
+  "also_called": []
+ },
+ "Algorithmic Targeting of Vulnerable Populations": {
+  "standard_id": "S2-044",
+  "number": "T058",
+  "stage": "HOOK",
+  "standard_definition": "Advertising and recommendation systems sort people by what they search, buy and watch, and aim offers at those least able to resist them.",
+  "also_called": [
+   "Algorithmic Profiling",
+   "Demographic Patterning"
+  ]
+ },
+ "Emotional Parasitism": {
+  "standard_id": "S2-046",
+  "number": "T059",
+  "stage": "HOOK",
+  "standard_definition": "Over a long time one person reliably receives care, attention and support from you, and little or nothing comes back.",
+  "also_called": [
+   "Emotional Labor Extraction"
+  ]
+ },
+ "Vulnerability Weaponization": {
+  "standard_id": "M-041",
+  "number": "T060",
+  "stage": "HOOK",
+  "standard_definition": "Using shared fears or wounds as leverage.",
+  "also_called": [
+   "Weaponized Intimacy"
+  ]
+ },
+ "Shared Secret Binding": {
+  "standard_id": "M-046",
+  "number": "T061",
+  "stage": "HOOK",
+  "standard_definition": "Creating complicity that makes leaving feel like betrayal.",
+  "also_called": [
+   "Complicity Implication",
+   "Mutual Exposure Framing"
+  ]
+ },
+ "Grooming Through Praise": {
+  "standard_id": "M-048",
+  "number": "T062",
+  "stage": "HOOK",
+  "standard_definition": "Selectively praising behaviors that serve the manipulator.",
+  "also_called": []
+ },
+ "Anchoring to Peak Moments": {
+  "standard_id": "M-050",
+  "number": "T063",
+  "stage": "HOOK",
+  "standard_definition": "Referencing past highs to maintain present attachment.",
+  "also_called": []
+ },
+ "Loyalty Testing": {
+  "standard_id": "M-066",
+  "number": "T064",
+  "stage": "HOOK",
+  "standard_definition": "Creating scenarios to test allegiance, then punishing failure.",
+  "also_called": [
+   "Punishment of Disloyalty"
+  ]
+ },
+ "Crisis Bonding": {
+  "standard_id": "M-069",
+  "number": "T065",
+  "stage": "HOOK",
+  "standard_definition": "Manufacturing or escalating crises to bond through shared urgency.",
+  "also_called": []
+ },
+ "Bait Disclosure": {
+  "standard_id": "M-071",
+  "number": "T066",
+  "stage": "HOOK",
+  "standard_definition": "Pretending to reveal information to draw the target in, then weaponizing their reaction.",
+  "also_called": []
+ },
+ "Authority Worship": {
+  "standard_id": "S2-047",
+  "number": "T067",
+  "stage": "HOOK",
+  "standard_definition": "Rank, title or position is presented as beyond question, so deferring feels like a virtue and asking why feels like disrespect.",
+  "also_called": []
+ },
+ "Buried Consent": {
+  "standard_id": "S2-048",
+  "number": "T068",
+  "stage": "HOOK",
+  "standard_definition": "Agreement is collected through long, vague or scattered terms that no ordinary person can realistically read, then treated as full and informed consent.",
+  "also_called": [
+   "Buried Consent Disclosure",
+   "Consent Theater",
+   "Disaggregated Consent",
+   "Standard-Term Camouflage"
+  ]
+ },
+ "Deniable Authorization": {
+  "standard_id": "S2-049",
+  "number": "T069",
+  "stage": "HOOK",
+  "standard_definition": "Permission is given only in conversation or by hint, never in writing, so it can later be denied.",
+  "also_called": [
+   "Verbal Authorization"
+  ]
+ },
+ "Gamified Compulsion": {
+  "standard_id": "S2-050",
+  "number": "T070",
+  "stage": "HOOK",
+  "standard_definition": "Streaks, badges, levels and progress bars make stopping feel like losing something already earned.",
+  "also_called": [
+   "Progress Gamification",
+   "Streak Architecture"
+  ]
+ },
+ "Reputation Braiding": {
+  "standard_id": "S2-052",
+  "number": "T071",
+  "stage": "HOOK",
+  "standard_definition": "Your name is tied in public to the other party early, before any concern exists, so later criticism of them would damage you too.",
+  "also_called": [
+   "Public Association"
+  ]
+ },
+ "Pocketing": {
+  "standard_id": "S2-053",
+  "number": "T072",
+  "stage": "HOOK",
+  "standard_definition": "You are kept apart from the other person's friends, family and public life, so the relationship exists only in private, with no witnesses. (Informal term from dating culture; no peer-reviewed research was found.)",
+  "also_called": [
+   "Stashing"
+  ]
+ },
+ "Forced Continuity": {
+  "standard_id": "S2-054",
+  "number": "T073",
+  "stage": "HOOK",
+  "standard_definition": "A free or low-cost start turns into ongoing payment or commitment without a clear moment where you choose to continue.",
+  "also_called": []
+ },
+ "That's-Not-All": {
+  "standard_id": "S2-055",
+  "number": "T074",
+  "stage": "HOOK",
+  "standard_definition": "Before you can answer an offer, extras are added or the price is lowered, so you decide on the sweetened version without time to weigh the original.",
+  "also_called": []
+ },
+ "Disrupt-Then-Reframe": {
+  "standard_id": "S2-056",
+  "number": "T075",
+  "stage": "HOOK",
+  "standard_definition": "An odd or confusing phrase briefly throws you off, and a reassuring reframe arrives in the same breath, so you accept the framing before you have regrouped.",
+  "also_called": []
+ },
+ "Legitimizing Paltry Contributions": {
+  "standard_id": "S2-057",
+  "number": "T076",
+  "stage": "HOOK",
+  "standard_definition": "A request is framed so that even the smallest contribution counts (\"even a little helps\"), which makes saying no at all feel unreasonable.",
+  "also_called": []
+ },
+ "Persistent Nagging": {
+  "standard_id": "S2-058",
+  "number": "T077",
+  "stage": "HOOK",
+  "standard_definition": "The same request or prompt keeps coming back, with no way to make it stop, until giving in is easier than saying no again.",
+  "also_called": []
+ },
+ "Intermittent Reinforcement / Push-Pull": {
+  "standard_id": "S3-001",
+  "number": "T078",
+  "stage": "DEVALUE",
+  "standard_definition": "Unpredictable reward that creates addiction-like striving.",
+  "also_called": [
+   "Emotional Bait-and-Switch",
+   "Intermittent Availability",
+   "Intermittent Reinforcement",
+   "Occasional Indulgences",
+   "Proximity Control",
+   "Push-Pull",
+   "Push-Pull / Rubberbanding",
+   "Push-Pull Cycling",
+   "Variable Ratio Reinforcement",
+   "Variable Reward Scheduling"
+  ]
+ },
+ "Shame Installation": {
+  "standard_id": "S3-002",
+  "number": "T079",
+  "stage": "DEVALUE",
+  "standard_definition": "Moving you from \"I did something wrong\" to \"I am something wrong.\"",
+  "also_called": [
+   "Shame Cycling"
+  ]
+ },
+ "Labeling as Identity Warfare": {
+  "standard_id": "S3-003",
+  "number": "T080",
+  "stage": "DEVALUE",
+  "standard_definition": "Words like \"difficult\" or \"problem child\" used to replace identity with a defect.",
+  "also_called": [
+   "Condition-Identity Fusion",
+   "Deficit Framing",
+   "Institutional Language Framing",
+   "Labeling",
+   "Name Erosion",
+   "Program Naming",
+   "Strength Invisibility"
+  ]
+ },
+ "Withholding / Silent Treatment": {
+  "standard_id": "S3-004",
+  "number": "T081",
+  "stage": "DEVALUE",
+  "standard_definition": "Removing attention, resources, or approval as punishment.",
+  "also_called": [
+   "Attention Starvation",
+   "Emotional Withholding",
+   "Love Withdrawal",
+   "Punishment by Withdrawal",
+   "Silent Treatment",
+   "Withholding"
+  ]
+ },
+ "Moving Goalposts": {
+  "standard_id": "S3-005",
+  "number": "T082",
+  "stage": "DEVALUE",
+  "standard_definition": "Standards that shift so you never arrive at \"good enough.\"",
+  "also_called": [
+   "Milestone Migration",
+   "Moving the Goalpost",
+   "Standards Shifting"
+  ]
+ },
+ "Baiting": {
+  "standard_id": "S3-006",
+  "number": "T083",
+  "stage": "DEVALUE",
+  "standard_definition": "Provoking a reaction to weaponize as evidence of your instability.",
+  "also_called": [
+   "Reactive Abuse Provocation"
+  ]
+ },
+ "Tone Policing": {
+  "standard_id": "S3-007",
+  "number": "T084",
+  "stage": "DEVALUE",
+  "standard_definition": "Redirecting from your concern to your delivery.",
+  "also_called": [
+   "\"You're Too Emotional\"",
+   "Clinical Tone Policing",
+   "Frame Assassination"
+  ]
+ },
+ "Emotional Invalidation": {
+  "standard_id": "S3-008",
+  "number": "T085",
+  "stage": "DEVALUE",
+  "standard_definition": "Dismissing your feelings as irrelevant or excessive.",
+  "also_called": [
+   "Covert Invalidation",
+   "Delegitimizing Emotion"
+  ]
+ },
+ "Contempt": {
+  "standard_id": "S3-010",
+  "number": "T086",
+  "stage": "DEVALUE",
+  "standard_definition": "Superiority and disgust used to erode self-worth.",
+  "also_called": [
+   "Curiosity Dismissal",
+   "Intellectual Belittling",
+   "Microexpressions of Contempt",
+   "Projected Disgust"
+  ]
+ },
+ "Double Binds": {
+  "standard_id": "S3-011",
+  "number": "T087",
+  "stage": "DEVALUE",
+  "standard_definition": "Contradictory demands where you lose either way.",
+  "also_called": [
+   "Contradictory Expectations",
+   "Double Bind Installation",
+   "Paradoxical Injunctions"
+  ]
+ },
+ "Negging": {
+  "standard_id": "S3-012",
+  "number": "T088",
+  "stage": "DEVALUE",
+  "standard_definition": "Backhanded compliments that lower self-esteem and increase approval-seeking.",
+  "also_called": [
+   "Backhanded Compliments",
+   "Body Shaming (Covert)"
+  ]
+ },
+ "Comparative Devaluation": {
+  "standard_id": "S3-013",
+  "number": "T089",
+  "stage": "DEVALUE",
+  "standard_definition": "Phantom comparisons to make your experience seem like a personal failing.",
+  "also_called": [
+   "Averages as Benchmarks",
+   "Comparison Architecture",
+   "Comparison Weaponization",
+   "Positional Scoring",
+   "Ranking Architecture",
+   "Real-Time Visibility"
+  ]
+ },
+ "Name-Calling Disguised as Humor": {
+  "standard_id": "S3-014",
+  "number": "T090",
+  "stage": "DEVALUE",
+  "standard_definition": "Insults wrapped in jokes.",
+  "also_called": [
+   "Humor as Weapon",
+   "Sarcasm as Weapon"
+  ]
+ },
+ "Time Theft": {
+  "standard_id": "S3-015",
+  "number": "T091",
+  "stage": "DEVALUE",
+  "standard_definition": "Wasting your time as a devaluation signal.",
+  "also_called": []
+ },
+ "Strategic Apathy / Weaponized Indifference": {
+  "standard_id": "S3-016",
+  "number": "T092",
+  "stage": "DEVALUE",
+  "standard_definition": "Indifference to your concerns signaling they don't deserve engagement.",
+  "also_called": [
+   "Strategic Apathy",
+   "Weaponized Indifference"
+  ]
+ },
+ "Weaponized Incompetence": {
+  "standard_id": "S3-017",
+  "number": "T093",
+  "stage": "DEVALUE",
+  "standard_definition": "Performing tasks poorly so you stop asking.",
+  "also_called": []
+ },
+ "Minimization": {
+  "standard_id": "S3-019",
+  "number": "T094",
+  "stage": "DEVALUE",
+  "standard_definition": "\"It's not that bad\" used to dismiss real harm.",
+  "also_called": [
+   "Effort Minimization",
+   "False Conclusion from Normal Labs",
+   "Gaslighting by Minimization",
+   "Medical Gaslighting",
+   "Trivializing"
+  ]
+ },
+ "Credit Theft": {
+  "standard_id": "S3-021",
+  "number": "T095",
+  "stage": "DEVALUE",
+  "standard_definition": "Your work presented by someone else as their own.",
+  "also_called": [
+   "Idea Theft in Real Time"
+  ]
+ },
+ "Credit Laundering": {
+  "standard_id": "S3-022",
+  "number": "T096",
+  "stage": "DEVALUE",
+  "standard_definition": "Your contribution passed through a chain until authorship disappears.",
+  "also_called": []
+ },
+ "Impossible Metrics": {
+  "standard_id": "S3-023",
+  "number": "T097",
+  "stage": "DEVALUE",
+  "standard_definition": "Standards designed to be unachievable, then you're blamed for failing.",
+  "also_called": [
+   "Expectation Inflation",
+   "Impossible Standards",
+   "Perfectionism Installation",
+   "Setting Up to Fail"
+  ]
+ },
+ "Scapegoating": {
+  "standard_id": "S3-024",
+  "number": "T098",
+  "stage": "DEVALUE",
+  "standard_definition": "Blaming one person for systemic failure.",
+  "also_called": [
+   "Sacrificial Repositioning"
+  ]
+ },
+ "Punishment of Boundaries": {
+  "standard_id": "S3-026",
+  "number": "T099",
+  "stage": "DEVALUE",
+  "standard_definition": "Saying no gets you labeled as defiant.",
+  "also_called": [
+   "Punishment of Voice"
+  ]
+ },
+ "Conditional Love": {
+  "standard_id": "S3-027",
+  "number": "T100",
+  "stage": "DEVALUE",
+  "standard_definition": "Making warmth contingent on compliance.",
+  "also_called": [
+   "Conditional Approval",
+   "Conditional Worth",
+   "Love as Performance Metric",
+   "Struggle Prohibition"
+  ]
+ },
+ "Objectification": {
+  "standard_id": "S3-028",
+  "number": "T101",
+  "stage": "DEVALUE",
+  "standard_definition": "You are related to as something with a use, such as your body, labor, status or money, rather than as a person with your own aims.",
+  "also_called": [
+   "Body Commodification"
+  ]
+ },
+ "Dehumanization": {
+  "standard_id": "S3-029",
+  "number": "T102",
+  "stage": "DEVALUE",
+  "standard_definition": "What makes a person particular, their history, feelings and name, is stripped away, so harm to them stops registering as harm.",
+  "also_called": []
+ },
+ "Performance Framework Manipulation": {
+  "standard_id": "S3-031",
+  "number": "T103",
+  "stage": "DEVALUE",
+  "standard_definition": "The measures used to judge people end up tracking deference and fit more than the quality of their work.",
+  "also_called": []
+ },
+ "Dispensing of Existence": {
+  "standard_id": "S3-033",
+  "number": "T104",
+  "stage": "DEVALUE",
+  "standard_definition": "The group decides who counts as worthy or fully real, and people outside it, or who leave it, are treated as if they do not matter.",
+  "also_called": []
+ },
+ "Emotional Contamination": {
+  "standard_id": "M-117",
+  "number": "T105",
+  "stage": "DEVALUE",
+  "standard_definition": "Ruining positive states through sudden intrusion.",
+  "also_called": []
+ },
+ "\"You've Changed\"": {
+  "standard_id": "S3-034",
+  "number": "T106",
+  "stage": "DEVALUE",
+  "standard_definition": "Your growth, new views or new limits are described as losing your true self, so changing feels like betraying the people around you.",
+  "also_called": []
+ },
+ "Cultural Penalty": {
+  "standard_id": "S3-035",
+  "number": "T107",
+  "stage": "DEVALUE",
+  "standard_definition": "Speech, work or knowledge that differs from one dominant style is marked as wrong or lesser, whatever its substance.",
+  "also_called": [
+   "Knowledge Hierarchy Enforcement",
+   "Training Data Bias"
+  ]
+ },
+ "Exoticization": {
+  "standard_id": "S3-037",
+  "number": "T108",
+  "stage": "DEVALUE",
+  "standard_definition": "A culture or identity is shown only as costume, festival or novelty, never as ordinary, present and complex.",
+  "also_called": []
+ },
+ "Experience Erasure": {
+  "standard_id": "S3-038",
+  "number": "T109",
+  "stage": "DEVALUE",
+  "standard_definition": "Real experience, skill or history is declared not to count because it lacks the system's own credential, format or record.",
+  "also_called": [
+   "Status Reset",
+   "Theoretical Displacement"
+  ]
+ },
+ "Stigma Marking": {
+  "standard_id": "S3-040",
+  "number": "T110",
+  "stage": "DEVALUE",
+  "standard_definition": "A person's need, status or condition is made visible to others through separate lines, labels, colors, rooms or lists.",
+  "also_called": [
+   "Architectural Stigma",
+   "Categorical Visibility",
+   "Peer Witnessing"
+  ]
+ },
+ "Unwritten Rules": {
+  "standard_id": "S3-041",
+  "number": "T111",
+  "stage": "DEVALUE",
+  "standard_definition": "Success depends on expectations nobody states, and people who did not arrive already knowing them are judged as failing.",
+  "also_called": [
+   "Hidden Curriculum Exposure"
+  ]
+ },
+ "Frame Control / False Framing": {
+  "standard_id": "S4-001",
+  "number": "T112",
+  "stage": "CONFUSE",
+  "standard_definition": "Controlling what the conversation is \"about\" so your truth can't survive.",
+  "also_called": [
+   "Community Reframing",
+   "False Framing",
+   "Frame Control",
+   "PSYOP Message Framing",
+   "Problem Identification (Selective)"
+  ]
+ },
+ "Credibility Theft": {
+  "standard_id": "S4-003",
+  "number": "T113",
+  "stage": "CONFUSE",
+  "standard_definition": "Undermining your reliability as a witness to your own experience.",
+  "also_called": [
+   "Competence Undermining",
+   "Source Poisoning"
+  ]
+ },
+ "Projection": {
+  "standard_id": "S4-005",
+  "number": "T114",
+  "stage": "CONFUSE",
+  "standard_definition": "Attributing their own behavior to you.",
+  "also_called": []
+ },
+ "Role Reversal Traps": {
+  "standard_id": "S4-007",
+  "number": "T115",
+  "stage": "CONFUSE",
+  "standard_definition": "The harmer becomes the victim and the harmed apologizes.",
+  "also_called": [
+   "Reputational Threat Conversion",
+   "Role Reversal via Therapy Language",
+   "Victim Role Reversal"
+  ]
+ },
+ "Weaponized Therapy-Speak": {
+  "standard_id": "S4-008",
+  "number": "T116",
+  "stage": "CONFUSE",
+  "standard_definition": "Therapeutic language used to pathologize and avoid accountability.",
+  "also_called": [
+   "Identity Diminishment via Pathologizing",
+   "Pseudo-Insight as Shutdown",
+   "Sanity Framing",
+   "Therapeutic Manipulation/Pathological Framing",
+   "Weaponized Therapy Language"
+  ]
+ },
+ "Authority Hijack": {
+  "standard_id": "S4-009",
+  "number": "T117",
+  "stage": "CONFUSE",
+  "standard_definition": "Positioning themselves as the expert on your experience.",
+  "also_called": [
+   "Credential Asymmetry Deployment"
+  ]
+ },
+ "Accountability Evasion via Diagnosis / Trash-Can Diagnosis": {
+  "standard_id": "S4-010",
+  "number": "T118",
+  "stage": "CONFUSE",
+  "standard_definition": "Replacing \"we failed you\" with \"you have a condition.\"",
+  "also_called": [
+   "Accountability Evasion via Diagnosis",
+   "Diagnostic Deflection",
+   "Trash-Can Diagnosis"
+  ]
+ },
+ "Preemptive Accusation / Complaint Weaponization": {
+  "standard_id": "S4-014",
+  "number": "T119",
+  "stage": "CONFUSE",
+  "standard_definition": "Accusing you first to inoculate against your complaint.",
+  "also_called": [
+   "Complaint Weaponization",
+   "Preemptive Accusation"
+  ]
+ },
+ "Deflection": {
+  "standard_id": "S4-015",
+  "number": "T120",
+  "stage": "CONFUSE",
+  "standard_definition": "Redirecting away from the issue.",
+  "also_called": [
+   "Diverting",
+   "Gaslighting by Deflection",
+   "Rapid Topic Switching",
+   "Topic Shifting",
+   "Topic Switching"
+  ]
+ },
+ "Word Salad": {
+  "standard_id": "S4-016",
+  "number": "T121",
+  "stage": "CONFUSE",
+  "standard_definition": "Circular, confusing language designed to exhaust understanding.",
+  "also_called": []
+ },
+ "Whataboutism": {
+  "standard_id": "S4-017",
+  "number": "T122",
+  "stage": "CONFUSE",
+  "standard_definition": "Countering your concern with an unrelated grievance.",
+  "also_called": []
+ },
+ "False Equivalence": {
+  "standard_id": "S4-019",
+  "number": "T123",
+  "stage": "CONFUSE",
+  "standard_definition": "\"Both sides\" flattening of asymmetric harm.",
+  "also_called": [
+   "Conflict Reframing",
+   "File Equalization",
+   "Procedural Symmetry"
+  ]
+ },
+ "Non-Apology Apologies": {
+  "standard_id": "S4-020",
+  "number": "T124",
+  "stage": "CONFUSE",
+  "standard_definition": "\"I'm sorry you feel that way\" — performing remorse with zero accountability.",
+  "also_called": [
+   "Faux Apology",
+   "Non-Apology Apology"
+  ]
+ },
+ "Contradiction Stacking": {
+  "standard_id": "S4-022",
+  "number": "T125",
+  "stage": "CONFUSE",
+  "standard_definition": "Denying and justifying the same behavior simultaneously.",
+  "also_called": [
+   "Reality Layering"
+  ]
+ },
+ "Semantic Traps": {
+  "standard_id": "S4-023",
+  "number": "T126",
+  "stage": "CONFUSE",
+  "standard_definition": "\"You're twisting my words\" used to derail into language debates.",
+  "also_called": []
+ },
+ "Gotcha Framing": {
+  "standard_id": "S4-024",
+  "number": "T127",
+  "stage": "CONFUSE",
+  "standard_definition": "Forcing a false confession from your own words.",
+  "also_called": []
+ },
+ "False Dilemma": {
+  "standard_id": "S4-025",
+  "number": "T128",
+  "stage": "CONFUSE",
+  "standard_definition": "Collapsing complex choices into a binary.",
+  "also_called": [
+   "Binary Choice Construction"
+  ]
+ },
+ "False Authority": {
+  "standard_id": "S4-026",
+  "number": "T129",
+  "stage": "CONFUSE",
+  "standard_definition": "\"I'm just being objective\" used to position subjective opinion as neutral truth.",
+  "also_called": []
+ },
+ "False Consensus / Social Proof Pressure": {
+  "standard_id": "S4-027",
+  "number": "T130",
+  "stage": "CONFUSE",
+  "standard_definition": "\"Everyone agrees\" used to override your perception.",
+  "also_called": [
+   "Early Endorsement Seeding",
+   "False Consensus",
+   "Gaslighting by Consensus",
+   "Normative Messaging",
+   "Petition Legitimation",
+   "Phantom Endorsement",
+   "Phantom Lead",
+   "Pluralistic Ignorance Installation",
+   "Social Pressure Layering",
+   "Social Proof",
+   "Social Proof Amplification",
+   "Social Proof Engineering",
+   "Social Proof Pressure"
+  ]
+ },
+ "Normalization / Overton Window Manipulation": {
+  "standard_id": "S4-028",
+  "number": "T131",
+  "stage": "CONFUSE",
+  "standard_definition": "Making abnormal conditions seem standard.",
+  "also_called": [
+   "Cycle Perpetuation",
+   "Gap Normalization",
+   "Institutional Dependency Normalization",
+   "Normalization",
+   "Overton Window Manipulation",
+   "Window Shifting"
+  ]
+ },
+ "Counterfeit Calm": {
+  "standard_id": "S4-029",
+  "number": "T132",
+  "stage": "CONFUSE",
+  "standard_definition": "Performed composure designed to make your emotion look irrational.",
+  "also_called": []
+ },
+ "Splitting": {
+  "standard_id": "S4-030",
+  "number": "T133",
+  "stage": "CONFUSE",
+  "standard_definition": "Dividing into all-good and all-bad with no nuance.",
+  "also_called": [
+   "Splitting (Induced)"
+  ]
+ },
+ "Malicious Compliance": {
+  "standard_id": "S4-032",
+  "number": "T134",
+  "stage": "CONFUSE",
+  "standard_definition": "Following the rule to the letter in a way designed to cause harm.",
+  "also_called": []
+ },
+ "Ambient Abuse / Atmosphere Control": {
+  "standard_id": "S4-033",
+  "number": "T135",
+  "stage": "CONFUSE",
+  "standard_definition": "Pervasive tension without any single identifiable act.",
+  "also_called": [
+   "Ambient Abuse",
+   "Erosion Through Accumulation"
+  ]
+ },
+ "Thought-Stopping Clichés": {
+  "standard_id": "S4-034",
+  "number": "T136",
+  "stage": "CONFUSE",
+  "standard_definition": "Phrases that shut down critical thinking.",
+  "also_called": [
+   "\"That's Just How It Is\""
+  ]
+ },
+ "Loaded Language": {
+  "standard_id": "S4-035",
+  "number": "T137",
+  "stage": "CONFUSE",
+  "standard_definition": "Words that carry judgment without evidence.",
+  "also_called": []
+ },
+ "Stonewalling": {
+  "standard_id": "S4-037",
+  "number": "T138",
+  "stage": "CONFUSE",
+  "standard_definition": "Complete refusal to engage, respond, or resolve.",
+  "also_called": []
+ },
+ "Priming / Narrative Seeding": {
+  "standard_id": "S4-039",
+  "number": "T139",
+  "stage": "CONFUSE",
+  "standard_definition": "Planting early stories to pre-frame future conflict.",
+  "also_called": [
+   "Institutional Contamination",
+   "Narrative Injection",
+   "Narrative Seeding",
+   "Priming"
+  ]
+ },
+ "Toxic Positivity / Weaponized Optimism": {
+  "standard_id": "S4-040",
+  "number": "T140",
+  "stage": "CONFUSE",
+  "standard_definition": "Relentless positivity is required, so naming a problem or a painful feeling is treated as the problem.",
+  "also_called": [
+   "Spiritual Bypassing"
+  ]
+ },
+ "Reverse Psychology": {
+  "standard_id": "S4-041",
+  "number": "T141",
+  "stage": "CONFUSE",
+  "standard_definition": "The opposite of what is wanted is said or forbidden, so pushing back leads you to the choice that was wanted all along.",
+  "also_called": []
+ },
+ "Cognitive Overload": {
+  "standard_id": "S4-042",
+  "number": "T142",
+  "stage": "CONFUSE",
+  "standard_definition": "Complexity created to prevent accountability.",
+  "also_called": [
+   "Complexity Saturation",
+   "Complexity Shield",
+   "Dilution Disguise",
+   "Drip Pricing",
+   "Fee Diffusion",
+   "Financial Obfuscation",
+   "Overcomplication",
+   "Sneaking",
+   "Strategic Confusion",
+   "Structural Layering",
+   "Waterfall Opacity"
+  ]
+ },
+ "Individualization of Systemic Issues": {
+  "standard_id": "S4-043",
+  "number": "T143",
+  "stage": "CONFUSE",
+  "standard_definition": "A shared, structural problem is treated as one person's private shortcoming, so the fix offered is always about changing that person.",
+  "also_called": [
+   "Deficit Attribution"
+  ]
+ },
+ "Diffusion of Responsibility": {
+  "standard_id": "S4-044",
+  "number": "T144",
+  "stage": "CONFUSE",
+  "standard_definition": "Each person in a chain does a small part and points to the next, so in the end no one is responsible for the outcome.",
+  "also_called": [
+   "\"Just Following Orders\"",
+   "Accountability Diffusion",
+   "Accountability Fragmentation",
+   "Authority Displacement",
+   "Jurisdictional Displacement",
+   "Responsibility Displacement"
+  ]
+ },
+ "Willful Blindness as Complicity": {
+  "standard_id": "S4-045",
+  "number": "T145",
+  "stage": "CONFUSE",
+  "standard_definition": "Strong signs of harm are in front of a person or organization, and they choose not to look, ask or act.",
+  "also_called": [
+   "Active Danger Preservation",
+   "Successor Enablement",
+   "Systemic Neglect Documentation"
+  ]
+ },
+ "Blame-Shifting": {
+  "standard_id": "S4-046",
+  "number": "T146",
+  "stage": "CONFUSE",
+  "standard_definition": "Responsibility for what someone did is moved onto you, someone else or circumstances (\"look what you made me do\").",
+  "also_called": [
+   "Blame Reversal"
+  ]
+ },
+ "Kafka Trapping": {
+  "standard_id": "S4-048",
+  "number": "T147",
+  "stage": "CONFUSE",
+  "standard_definition": "Denying an accusation is taken as proof of it, so every response confirms the charge.",
+  "also_called": []
+ },
+ "Feigned Ignorance": {
+  "standard_id": "S4-050",
+  "number": "T148",
+  "stage": "CONFUSE",
+  "standard_definition": "Not knowing is performed, through blank looks, repeated questions or \"I didn't realize\", so the burden of explaining or doing stays with you.",
+  "also_called": []
+ },
+ "Countering": {
+  "standard_id": "S4-051",
+  "number": "T149",
+  "stage": "CONFUSE",
+  "standard_definition": "Whatever you say happened is met with a flat \"no, it didn't\" or \"that's not what happened\", before anything is checked.",
+  "also_called": [
+   "Denial",
+   "Selective Memory"
+  ]
+ },
+ "Exaggeration": {
+  "standard_id": "S4-052",
+  "number": "T150",
+  "stage": "CONFUSE",
+  "standard_definition": "Claims are inflated with always, never and everyone, so a small issue is answered as though it were huge, or your point is restated as an extreme you never said.",
+  "also_called": []
+ },
+ "Burden of Proof Shifting / Sealioning": {
+  "standard_id": "S4-053",
+  "number": "T151",
+  "stage": "CONFUSE",
+  "standard_definition": "Raising a concern turns into a trial in which you must prove every detail, while the other side has to prove nothing.",
+  "also_called": [
+   "Burden of Proof Shifting",
+   "Sealioning"
+  ]
+ },
+ "Gish Gallop / Firehose of Falsehood": {
+  "standard_id": "S4-054",
+  "number": "T152",
+  "stage": "CONFUSE",
+  "standard_definition": "Many claims arrive at once, in a conversation or across many channels, faster than any of them can be checked, so silence looks like defeat.",
+  "also_called": [
+   "AI-Driven Narrative Hijacking",
+   "Firehose of Falsehood",
+   "Gish Gallop",
+   "Memory Flooding"
+  ]
+ },
+ "Limited Hangout": {
+  "standard_id": "S4-055",
+  "number": "T153",
+  "stage": "CONFUSE",
+  "standard_definition": "Admitting small wrongs to appear honest while concealing larger patterns.",
+  "also_called": [
+   "Confession as Control",
+   "Selective Accountability"
+  ]
+ },
+ "Pseudo-Profundity / Intellectual Intimidation": {
+  "standard_id": "S4-056",
+  "number": "T154",
+  "stage": "CONFUSE",
+  "standard_definition": "Statements that sound deep or technical but say little are used to make questions feel naive.",
+  "also_called": [
+   "Complexity-as-Authority"
+  ]
+ },
+ "Semantic Erosion / Meaning Dilution": {
+  "standard_id": "S4-057",
+  "number": "T155",
+  "stage": "CONFUSE",
+  "standard_definition": "Changing the meaning of words to prevent critique from landing.",
+  "also_called": [
+   "Redefining Terms"
+  ]
+ },
+ "Dog Whistling / Coded Signaling": {
+  "standard_id": "S4-058",
+  "number": "T156",
+  "stage": "CONFUSE",
+  "standard_definition": "A message has an ordinary surface for most listeners and a second meaning for an intended group, so its author can deny the second meaning.",
+  "also_called": []
+ },
+ "Revisionist History": {
+  "standard_id": "S4-059",
+  "number": "T157",
+  "stage": "CONFUSE",
+  "standard_definition": "Retelling events with key details changed.",
+  "also_called": [
+   "Memory Manipulation",
+   "Narrative Editing",
+   "Record Inversion",
+   "Retconning",
+   "Retroactive Recharacterization"
+  ]
+ },
+ "Repetition as Truth": {
+  "standard_id": "S4-061",
+  "number": "T158",
+  "stage": "CONFUSE",
+  "standard_definition": "A claim is repeated so often that it starts to feel true, because familiar statements are easier to believe.",
+  "also_called": [
+   "Reputation Laundering"
+  ]
+ },
+ "Meta-Gaslighting": {
+  "standard_id": "S4-063",
+  "number": "T159",
+  "stage": "CONFUSE",
+  "standard_definition": "Saying you are being gaslit is itself treated as proof that you are unstable or the one distorting things.",
+  "also_called": []
+ },
+ "Lying by Omission / Gaslighting by Omission": {
+  "standard_id": "S4-065",
+  "number": "T160",
+  "stage": "CONFUSE",
+  "standard_definition": "The lie living in what's left out.",
+  "also_called": [
+   "Gaslighting by Omission",
+   "Information Drip",
+   "Lying by Omission",
+   "Strategic Incompleteness"
+  ]
+ },
+ "Half-Truth Framing": {
+  "standard_id": "S4-066",
+  "number": "T161",
+  "stage": "CONFUSE",
+  "standard_definition": "Each sentence is true, but they are chosen and arranged to leave a false overall impression.",
+  "also_called": [
+   "Selective Disclosure",
+   "Selective Truth Weaponization"
+  ]
+ },
+ "Information Laundering": {
+  "standard_id": "S4-067",
+  "number": "T162",
+  "stage": "CONFUSE",
+  "standard_definition": "A claim from a weak or anonymous source is passed through more credible outlets until its origin is lost and it reads as established.",
+  "also_called": []
+ },
+ "Astroturfing / Sock Puppets": {
+  "standard_id": "S4-070",
+  "number": "T163",
+  "stage": "CONFUSE",
+  "standard_definition": "Support that looks like it comes from many independent people (reviews, comments, accounts or crowds) is staged, paid for or run through fake personas.",
+  "also_called": [
+   "Astroturfing",
+   "Sock Puppets",
+   "Synthetic Persona Networks"
+  ]
+ },
+ "False Flag Operations": {
+  "standard_id": "S4-073",
+  "number": "T164",
+  "stage": "CONFUSE",
+  "standard_definition": "An act is arranged to look like the work of someone else, so blame and reaction fall on them.",
+  "also_called": []
+ },
+ "Strategic Leaking": {
+  "standard_id": "S4-077",
+  "number": "T165",
+  "stage": "CONFUSE",
+  "standard_definition": "A disclosure presented as an accident or a breach in fact serves the person who released it.",
+  "also_called": [
+   "Complaint Leaking"
+  ]
+ },
+ "Cyber Manipulation Operations (CMOs)": {
+  "standard_id": "S4-079",
+  "number": "T166",
+  "stage": "CONFUSE",
+  "standard_definition": "Systems or accounts are broken into to change, plant or delete information, not only to steal it.",
+  "also_called": []
+ },
+ "Context Poisoning": {
+  "standard_id": "S4-080",
+  "number": "T167",
+  "stage": "CONFUSE",
+  "standard_definition": "False, skewed or booby-trapped content is placed where people or AI tools will pick it up as background fact.",
+  "also_called": []
+ },
+ "Immersive Manipulation (VR/AR)": {
+  "standard_id": "S4-081",
+  "number": "T168",
+  "stage": "CONFUSE",
+  "standard_definition": "A virtual or augmented scene is used to produce strong body-level reactions that steer choices.",
+  "also_called": []
+ },
+ "Pseudo-Logic": {
+  "standard_id": "M-145",
+  "number": "T169",
+  "stage": "CONFUSE",
+  "standard_definition": "Superficially rational arguments on false premises.",
+  "also_called": [
+   "Circular Arguments",
+   "Circular Logic"
+  ]
+ },
+ "Emotional Sequencing": {
+  "standard_id": "M-147",
+  "number": "T170",
+  "stage": "CONFUSE",
+  "standard_definition": "Rapidly shifting between emotions to destabilize.",
+  "also_called": [
+   "Emotional Non Sequiturs",
+   "Erratic Emotional Behavior"
+  ]
+ },
+ "Perspecticide": {
+  "standard_id": "M-159",
+  "number": "T171",
+  "stage": "CONFUSE",
+  "standard_definition": "The destruction of the target's ability to hold their own point of view.",
+  "also_called": []
+ },
+ "Abstraction Escalation": {
+  "standard_id": "S4-083",
+  "number": "T172",
+  "stage": "CONFUSE",
+  "standard_definition": "A question about one specific harm is answered with broad statements about values, mission or culture, so the event itself is never named.",
+  "also_called": [
+   "Values Broadcasting"
+  ]
+ },
+ "Agent Erasure": {
+  "standard_id": "S4-084",
+  "number": "T173",
+  "stage": "CONFUSE",
+  "standard_definition": "Accounts of what happened leave out who did it (\"mistakes were made\", \"the decision was taken\"), so no one is answerable.",
+  "also_called": []
+ },
+ "Captive Expertise": {
+  "standard_id": "S4-085",
+  "number": "T174",
+  "stage": "CONFUSE",
+  "standard_definition": "An outside expert is chosen or briefed so their findings support a decision already made, and their credentials are then used to end debate.",
+  "also_called": [
+   "Expert Procurement"
+  ]
+ },
+ "Done-Deal Framing": {
+  "standard_id": "S4-087",
+  "number": "T175",
+  "stage": "CONFUSE",
+  "standard_definition": "A decision is announced as already final and inevitable, so objecting feels pointless before anyone has been asked.",
+  "also_called": [
+   "Authority Presentation"
+  ]
+ },
+ "Language Laundering": {
+  "standard_id": "S4-089",
+  "number": "T176",
+  "stage": "CONFUSE",
+  "standard_definition": "Cuts, losses or harms are described in soft, technical or upbeat words, so they sound like improvements.",
+  "also_called": [
+   "Language Inflation"
+  ]
+ },
+ "Metric Masking": {
+  "standard_id": "S4-090",
+  "number": "T177",
+  "stage": "CONFUSE",
+  "standard_definition": "Averages, color codes and summary figures stand in for what happened to particular people, so overall numbers look fine while specific harm disappears.",
+  "also_called": [
+   "Aggregate Reporting Substitution",
+   "Decontextualized Measurement",
+   "Visual Simplification"
+  ]
+ },
+ "Moral Disengagement": {
+  "standard_id": "S4-091",
+  "number": "T178",
+  "stage": "CONFUSE",
+  "standard_definition": "Harmful acts are described in ways that make them feel acceptable: necessary, someone else's decision, or deserved by the people they hurt.",
+  "also_called": []
+ },
+ "Policy as Proof": {
+  "standard_id": "S4-092",
+  "number": "T179",
+  "stage": "CONFUSE",
+  "standard_definition": "The existence of a written policy is offered as proof that a problem is handled, in place of evidence that the policy works.",
+  "also_called": [
+   "Policy Adequacy Defense"
+  ]
+ },
+ "Retroactive Justification": {
+  "standard_id": "S4-093",
+  "number": "T180",
+  "stage": "CONFUSE",
+  "standard_definition": "Reasons for a decision appear only after it was made and challenged, and are presented as if they were the reasons all along.",
+  "also_called": [
+   "Retroactive Repositioning"
+  ]
+ },
+ "Self-Fulfilling Prediction": {
+  "standard_id": "S4-094",
+  "number": "T181",
+  "stage": "CONFUSE",
+  "standard_definition": "A prediction about a person shapes how they are treated, and the outcome that treatment produces is then cited as proof the prediction was right.",
+  "also_called": [
+   "Confirmation Feedback Loop",
+   "Self-Fulfilling Degradation"
+  ]
+ },
+ "Solution Theater": {
+  "standard_id": "S4-095",
+  "number": "T182",
+  "stage": "CONFUSE",
+  "standard_definition": "A visible purchase, program, support service or announcement is presented as the fix, while the cause of the problem stays untouched.",
+  "also_called": [
+   "Support Theater",
+   "Vendor Solution Adoption"
+  ]
+ },
+ "Victim Blaming": {
+  "standard_id": "S4-096",
+  "number": "T183",
+  "stage": "CONFUSE",
+  "standard_definition": "The harmed person is held partly or wholly responsible for what was done to them, through questions or remarks about their choices instead of the other person's actions.",
+  "also_called": []
+ },
+ "Just Asking Questions": {
+  "standard_id": "S4-097",
+  "number": "T184",
+  "stage": "CONFUSE",
+  "standard_definition": "Accusations or false claims are put as questions, so the claim spreads while the speaker can say they only asked.",
+  "also_called": []
+ },
+ "Motte-and-Bailey": {
+  "standard_id": "S4-098",
+  "number": "T185",
+  "stage": "CONFUSE",
+  "standard_definition": "A bold claim is made, and when it is challenged the speaker retreats to a modest version anyone would accept, then returns to the bold claim once the challenge passes.",
+  "also_called": []
+ },
+ "Isolation": {
+  "standard_id": "S5-001",
+  "number": "T186",
+  "stage": "ISOLATE",
+  "standard_definition": "Cutting off support to increase dependence.",
+  "also_called": [
+   "Cultural/Spiritual Isolation",
+   "Digital Isolation"
+  ]
+ },
+ "Triangulation": {
+  "standard_id": "S5-002",
+  "number": "T187",
+  "stage": "ISOLATE",
+  "standard_definition": "Using a third party to destabilize and avoid direct accountability.",
+  "also_called": [
+   "Central Positioning",
+   "Jealousy Manufacturing",
+   "Mirror Operation",
+   "Triangulation (Positive)",
+   "Triangulation (Weaponized)"
+  ]
+ },
+ "Smear Campaigns": {
+  "standard_id": "S5-003",
+  "number": "T188",
+  "stage": "ISOLATE",
+  "standard_definition": "Spreading distorted information to preemptively damage credibility.",
+  "also_called": [
+   "Reputation Poisoning",
+   "Reputation Warfare",
+   "Reputation Warfare (Post-Separation)",
+   "Smear Campaign",
+   "Smear Campaign (Preemptive)",
+   "Smear Campaign (Reactive)",
+   "Untraceable Seeding"
+  ]
+ },
+ "Flying Monkeys / Proxy Recruitment": {
+  "standard_id": "S5-004",
+  "number": "T189",
+  "stage": "ISOLATE",
+  "standard_definition": "Enlisting others to pressure or monitor on behalf of the authority.",
+  "also_called": [
+   "Flying Monkeys",
+   "Parental Amplification",
+   "Peer Pressure Weaponization",
+   "Proxy Control",
+   "Proxy Recruitment"
+  ]
+ },
+ "Plausible Deniability": {
+  "standard_id": "S5-005",
+  "number": "T190",
+  "stage": "ISOLATE",
+  "standard_definition": "Harm is done in a way that leaves no clear trace back to its source, so the person cannot point to who did it or show that it was meant.",
+  "also_called": [
+   "Narrative Severance",
+   "Strategic Dissolution"
+  ]
+ },
+ "Ostracism": {
+  "standard_id": "S5-006",
+  "number": "T191",
+  "stage": "ISOLATE",
+  "standard_definition": "Deliberate exclusion as punishment.",
+  "also_called": [
+   "Access Removal"
+  ]
+ },
+ "Silent Coalitions": {
+  "standard_id": "S5-007",
+  "number": "T192",
+  "stage": "ISOLATE",
+  "standard_definition": "Covert group exclusion where the target is made to blame themselves.",
+  "also_called": [
+   "Ambient Exclusion",
+   "Silent Coalition Building"
+  ]
+ },
+ "Ambiguity as Weapon / Strategic Ambiguity": {
+  "standard_id": "S5-008",
+  "number": "T193",
+  "stage": "ISOLATE",
+  "standard_definition": "Wording, rules, threats or exclusion are kept vague enough that you cannot point to what happened, so you end up doubting or blaming yourself.",
+  "also_called": [
+   "Ambiguity as Weapon",
+   "Community Confusion Exploitation",
+   "Confidentiality Uncertainty",
+   "Strategic Ambiguity"
+  ]
+ },
+ "Interruption Patterns": {
+  "standard_id": "S5-010",
+  "number": "T194",
+  "stage": "ISOLATE",
+  "standard_definition": "Systematically silencing specific voices.",
+  "also_called": []
+ },
+ "Pile-Ons / Brigading": {
+  "standard_id": "S5-012",
+  "number": "T195",
+  "stage": "ISOLATE",
+  "standard_definition": "Coordinated group attack against one person.",
+  "also_called": [
+   "Audience Activation",
+   "Brigading",
+   "Pile-Ons",
+   "Pressure Accumulation"
+  ]
+ },
+ "\"Polite Hostile\" Environments": {
+  "standard_id": "S5-013",
+  "number": "T196",
+  "stage": "ISOLATE",
+  "standard_definition": "Appearing respectful while systematically punishing truth-telling.",
+  "also_called": []
+ },
+ "Gatekeeping": {
+  "standard_id": "S5-014",
+  "number": "T197",
+  "stage": "ISOLATE",
+  "standard_definition": "Controlling access to resources, relationships, or opportunities.",
+  "also_called": [
+   "Access Control",
+   "Access Gatekeeping",
+   "Financial Filtration",
+   "ID Gatekeeping",
+   "Institutional Verification Monopoly",
+   "Legal Gatekeeping",
+   "Standardized Assessment Gatekeeping"
+  ]
+ },
+ "Stochastic Harassment Direction": {
+  "standard_id": "S5-015",
+  "number": "T198",
+  "stage": "ISOLATE",
+  "standard_definition": "A public figure keeps pointing an audience at a person in hostile terms, so some listeners harass them, while the speaker can say they asked for nothing.",
+  "also_called": []
+ },
+ "Divide and Conquer": {
+  "standard_id": "S5-017",
+  "number": "T199",
+  "stage": "ISOLATE",
+  "standard_definition": "People who could support each other are kept apart or set against each other, through rumors, rivalry, a divisive issue or separate versions of the story.",
+  "also_called": [
+   "Ally Poisoning",
+   "Defensive Withdrawal Induction",
+   "Manufactured Conflict",
+   "Momentum Collapse",
+   "Reentry Disruption",
+   "Wedge Issue Exploitation"
+  ]
+ },
+ "Compartmentalization": {
+  "standard_id": "S5-018",
+  "number": "T200",
+  "stage": "ISOLATE",
+  "standard_definition": "Each person is told something true but only their own slice, so no one can put the whole picture together.",
+  "also_called": [
+   "Confidential Disclosure Seeding",
+   "Selective Information Sharing"
+  ]
+ },
+ "Echo Chamber Construction": {
+  "standard_id": "S5-019",
+  "number": "T201",
+  "stage": "ISOLATE",
+  "standard_definition": "The circle around you is arranged so the same views keep coming back and outside voices are kept out or discredited.",
+  "also_called": []
+ },
+ "Social Mapping": {
+  "standard_id": "M-167",
+  "number": "T202",
+  "stage": "ISOLATE",
+  "standard_definition": "Identifying the target's relationships and developing a strategy for each.",
+  "also_called": []
+ },
+ "Support System Exhaustion": {
+  "standard_id": "M-176",
+  "number": "T203",
+  "stage": "ISOLATE",
+  "standard_definition": "Directing the target to the same resources until they burn out.",
+  "also_called": [
+   "Victim Redirection"
+  ]
+ },
+ "Identity-Based Isolation": {
+  "standard_id": "M-182",
+  "number": "T204",
+  "stage": "ISOLATE",
+  "standard_definition": "Leveraging marginalized identity to enforce silence.",
+  "also_called": [
+   "Language Barriers as Isolation"
+  ]
+ },
+ "Contribution Erasure": {
+  "standard_id": "S5-021",
+  "number": "T205",
+  "stage": "ISOLATE",
+  "standard_definition": "A person's or group's presence, contributions or history are left out of what is taught, shown or remembered, so absence starts to look like irrelevance.",
+  "also_called": [
+   "Curricular Absence",
+   "Legacy Erasure",
+   "Predecessor Erasure"
+  ]
+ },
+ "Front-Person Exposure": {
+  "standard_id": "S5-022",
+  "number": "T206",
+  "stage": "ISOLATE",
+  "standard_definition": "One person is made the public face of a decision many people shared, so they take the reaction alone.",
+  "also_called": [
+   "Visibility Inversion"
+  ]
+ },
+ "Incident Siloing": {
+  "standard_id": "S5-023",
+  "number": "T207",
+  "stage": "ISOLATE",
+  "standard_definition": "Each complaint is handled and closed on its own, in its own office or site, so no one is placed to see that the cases form a pattern.",
+  "also_called": [
+   "Campus-Level Containment",
+   "Case Closure Protocol",
+   "Cross-Campus Blindness"
+  ]
+ },
+ "Participation Penalty": {
+  "standard_id": "S5-024",
+  "number": "T208",
+  "stage": "ISOLATE",
+  "standard_definition": "Taking part, asking for help or speaking up exposes a person to new risk, so staying away becomes the safer choice.",
+  "also_called": [
+   "Engagement-Exposure Equation"
+  ]
+ },
+ "Reputation Hijacking": {
+  "standard_id": "S5-025",
+  "number": "T209",
+  "stage": "ISOLATE",
+  "standard_definition": "Someone takes control of how you are presented in public, speaking for you or reshaping your image, so your own account no longer reaches people first.",
+  "also_called": []
+ },
+ "Ritualized Exhaustion": {
+  "standard_id": "S6-005",
+  "number": "T210",
+  "stage": "CONTROL",
+  "standard_definition": "Forced routines designed to reduce resistance through depletion.",
+  "also_called": [
+   "Induced Debility"
+  ]
+ },
+ "Guilt-Tripping": {
+  "standard_id": "S6-007",
+  "number": "T211",
+  "stage": "CONTROL",
+  "standard_definition": "Using guilt to override boundaries.",
+  "also_called": [
+   "Confirmshaming",
+   "Guilt Induction",
+   "Guilt Installation"
+  ]
+ },
+ "Paper-Trail Traps": {
+  "standard_id": "S6-011",
+  "number": "T212",
+  "stage": "CONTROL",
+  "standard_definition": "Documentation created to build a case, not to support.",
+  "also_called": [
+   "Asymmetric Curation",
+   "Institutional Citation",
+   "Pattern Seeding",
+   "Preemptive Documentation",
+   "Selective Record-Keeping",
+   "Weaponized Documentation"
+  ]
+ },
+ "HR Shielding": {
+  "standard_id": "S6-013",
+  "number": "T213",
+  "stage": "CONTROL",
+  "standard_definition": "Using policy and process to protect the system, not the person.",
+  "also_called": [
+   "Dutiful Reporting",
+   "Firewall Function"
+  ]
+ },
+ "Process Exhaustion": {
+  "standard_id": "S6-014",
+  "number": "T214",
+  "stage": "CONTROL",
+  "standard_definition": "Bureaucratic loops designed to drain your will.",
+  "also_called": [
+   "Documentation Extraction",
+   "Exhaustion Yield",
+   "Form Gatekeeping",
+   "Internal Exhaustion Prerequisite",
+   "Paper Terrorism",
+   "Procedural Embedding",
+   "Sludge"
+  ]
+ },
+ "Vague Allegations with High Consequences": {
+  "standard_id": "S6-015",
+  "number": "T215",
+  "stage": "CONTROL",
+  "standard_definition": "Undefined charges attached to real punishment.",
+  "also_called": [
+   "Vague Allegations"
+  ]
+ },
+ "Confidentiality as Weapon": {
+  "standard_id": "S6-016",
+  "number": "T216",
+  "stage": "CONTROL",
+  "standard_definition": "\"We can't tell you\" used to prevent defense.",
+  "also_called": [
+   "Confidentiality Binding",
+   "Confidentiality Weaponization",
+   "Opacity Shield",
+   "Privacy Weaponization"
+  ]
+ },
+ "Resource Sabotage / Sabotaging Success": {
+  "standard_id": "S6-018",
+  "number": "T217",
+  "stage": "CONTROL",
+  "standard_definition": "Removing what you need to succeed.",
+  "also_called": [
+   "Resource Consequence",
+   "Resource Sabotage",
+   "Sabotaging Success"
+  ]
+ },
+ "Administrative Escalation": {
+  "standard_id": "S6-019",
+  "number": "T218",
+  "stage": "CONTROL",
+  "standard_definition": "Issues becoming formal processes as punishment for speaking up.",
+  "also_called": [
+   "Intervention Cascade",
+   "PIP Weaponization",
+   "Professional Degradation"
+  ]
+ },
+ "\"Managed Out\" Through Exhaustion": {
+  "standard_id": "S6-020",
+  "number": "T219",
+  "stage": "CONTROL",
+  "standard_definition": "Slowly draining you until you leave \"voluntarily.\"",
+  "also_called": [
+   "Discard by Degradation",
+   "Self-Exile Completion"
+  ]
+ },
+ "Legal / Administrative Threats": {
+  "standard_id": "S6-021",
+  "number": "T220",
+  "stage": "CONTROL",
+  "standard_definition": "Using the threat of process to intimidate.",
+  "also_called": []
+ },
+ "False Reports": {
+  "standard_id": "S6-022",
+  "number": "T221",
+  "stage": "CONTROL",
+  "standard_definition": "Fabricated complaints to create institutional jeopardy.",
+  "also_called": [
+   "Phantom Complaint Injection"
+  ]
+ },
+ "Location Tracking": {
+  "standard_id": "S6-024",
+  "number": "T222",
+  "stage": "CONTROL",
+  "standard_definition": "Monitoring physical presence as a control mechanism.",
+  "also_called": [
+   "Stalking & Surveillance (Post-Separation)",
+   "Stalking (Covert)",
+   "Stalking (Overt)"
+  ]
+ },
+ "Device Access Demands": {
+  "standard_id": "S6-025",
+  "number": "T223",
+  "stage": "CONTROL",
+  "standard_definition": "Forced surrender of personal technology and privacy.",
+  "also_called": []
+ },
+ "Account Control": {
+  "standard_id": "S6-026",
+  "number": "T224",
+  "stage": "CONTROL",
+  "standard_definition": "Someone else controls your accounts, phone number or digital identity, by demanding access or by taking it.",
+  "also_called": [
+   "Account Takeover",
+   "SIM Swap / 2FA Interception"
+  ]
+ },
+ "Response-Time Policing": {
+  "standard_id": "S6-027",
+  "number": "T225",
+  "stage": "CONTROL",
+  "standard_definition": "Punishment for not being available fast enough.",
+  "also_called": []
+ },
+ "Moral Licensing / Strategic Philanthropy": {
+  "standard_id": "S6-030",
+  "number": "T226",
+  "stage": "CONTROL",
+  "standard_definition": "Using a \"good\" identity as immunity from accountability.",
+  "also_called": [
+   "Moral Licensing",
+   "Strategic Benevolence",
+   "Strategic Benevolence / Strategic Philanthropy",
+   "Strategic Philanthropy",
+   "Virtue Signaling as Shield"
+  ]
+ },
+ "Moral Framing": {
+  "standard_id": "S6-031",
+  "number": "T227",
+  "stage": "CONTROL",
+  "standard_definition": "Recasting your resistance as a character failing.",
+  "also_called": [
+   "Moral Reframing",
+   "The \"Good Mother\" Frame"
+  ]
+ },
+ "Financial Control": {
+  "standard_id": "S6-032",
+  "number": "T228",
+  "stage": "CONTROL",
+  "standard_definition": "Restricting access to resources to enforce compliance.",
+  "also_called": [
+   "Economic Abuse",
+   "Economic Coercion",
+   "Financial Isolation"
+  ]
+ },
+ "Sexual Coercion": {
+  "standard_id": "S6-033",
+  "number": "T229",
+  "stage": "CONTROL",
+  "standard_definition": "Using power to override consent.",
+  "also_called": [
+   "Sexual Leverage"
+  ]
+ },
+ "Reproductive Coercion": {
+  "standard_id": "S6-034",
+  "number": "T230",
+  "stage": "CONTROL",
+  "standard_definition": "Controlling reproductive choices through institutional pressure.",
+  "also_called": []
+ },
+ "Extinction Bursts": {
+  "standard_id": "S6-035",
+  "number": "T231",
+  "stage": "CONTROL",
+  "standard_definition": "Dramatic escalation when control methods stop working.",
+  "also_called": [
+   "Extinction Burst"
+  ]
+ },
+ "Negative Reinforcement Traps": {
+  "standard_id": "S6-038",
+  "number": "T232",
+  "stage": "CONTROL",
+  "standard_definition": "Applying pressure until compliance, then removing it — training that compliance equals relief.",
+  "also_called": [
+   "Fear-Then-Relief"
+  ]
+ },
+ "Phobia Indoctrination / Catastrophizing": {
+  "standard_id": "S6-039",
+  "number": "T233",
+  "stage": "CONTROL",
+  "standard_definition": "Exaggerating consequences to extract compliance.",
+  "also_called": [
+   "Catastrophizing as Control",
+   "Phobia Indoctrination"
+  ]
+ },
+ "Strategic Chaos / Crisis Manufacturing": {
+  "standard_id": "S6-040",
+  "number": "T234",
+  "stage": "CONTROL",
+  "standard_definition": "Constant emergencies preventing strategic thinking.",
+  "also_called": [
+   "Strategic Chaos"
+  ]
+ },
+ "Time Control": {
+  "standard_id": "S6-042",
+  "number": "T235",
+  "stage": "CONTROL",
+  "standard_definition": "Dictating how every hour is spent to prevent autonomous thought.",
+  "also_called": []
+ },
+ "Sleep Deprivation": {
+  "standard_id": "S6-043",
+  "number": "T236",
+  "stage": "CONTROL",
+  "standard_definition": "Disrupting rest to reduce cognitive and emotional resistance.",
+  "also_called": []
+ },
+ "Narrative Monopoly": {
+  "standard_id": "S6-044",
+  "number": "T237",
+  "stage": "CONTROL",
+  "standard_definition": "Controlling the dominant story so alternative accounts can't gain traction.",
+  "also_called": [
+   "Narrative Capture"
+  ]
+ },
+ "Mobility Control": {
+  "standard_id": "S6-045",
+  "number": "T238",
+  "stage": "CONTROL",
+  "standard_definition": "Restricting physical movement to enforce submission.",
+  "also_called": []
+ },
+ "Body Autonomy Violations": {
+  "standard_id": "S6-046",
+  "number": "T239",
+  "stage": "CONTROL",
+  "standard_definition": "Controlling the physical body under institutional justification.",
+  "also_called": []
+ },
+ "Role Assignment": {
+  "standard_id": "S6-047",
+  "number": "T240",
+  "stage": "CONTROL",
+  "standard_definition": "Assigning fixed identities that dictate expectation and treatment.",
+  "also_called": [
+   "Identification as Identity Assignment",
+   "Identity Narrowing",
+   "Role Confinement"
+  ]
+ },
+ "Forced Dependency": {
+  "standard_id": "S6-048",
+  "number": "T241",
+  "stage": "CONTROL",
+  "standard_definition": "Eliminating the ability to function outside the system.",
+  "also_called": [
+   "Dependency Engineering",
+   "Dependency Installation",
+   "Device Dependency",
+   "Ecosystem Embedding"
+  ]
+ },
+ "Silence as Policy": {
+  "standard_id": "S6-051",
+  "number": "T242",
+  "stage": "CONTROL",
+  "standard_definition": "Making certain topics undiscussable through emotional consequence.",
+  "also_called": [
+   "Challenge Suppression",
+   "Organizational Silence Engineering",
+   "Permanent Silencing"
+  ]
+ },
+ "Children as Leverage": {
+  "standard_id": "S6-054",
+  "number": "T243",
+  "stage": "CONTROL",
+  "standard_definition": "Using children's wellbeing as a tool of control over adults.",
+  "also_called": [
+   "Children as Collateral Consequence"
+  ]
+ },
+ "Micromanagement": {
+  "standard_id": "S6-056",
+  "number": "T244",
+  "stage": "CONTROL",
+  "standard_definition": "Controlling minute details to erode autonomous function.",
+  "also_called": [
+   "Algorithmic Management",
+   "Autonomy Displacement",
+   "Pattern Recognition as Evaluation",
+   "Teacher Displacement"
+  ]
+ },
+ "Performance Monitoring": {
+  "standard_id": "S6-057",
+  "number": "T245",
+  "stage": "CONTROL",
+  "standard_definition": "Constant evaluation that installs hypervigilance.",
+  "also_called": [
+   "Compliance Infrastructure"
+  ]
+ },
+ "Controlled Communication": {
+  "standard_id": "S6-058",
+  "number": "T246",
+  "stage": "CONTROL",
+  "standard_definition": "Dictating how, when, and whether you may speak.",
+  "also_called": [
+   "Communication Chain Restriction",
+   "Constraining Verbal Expression",
+   "Vocal Regulation"
+  ]
+ },
+ "Rage as Regulation": {
+  "standard_id": "S6-060",
+  "number": "T247",
+  "stage": "CONTROL",
+  "standard_definition": "Using anger or its threat to control the environment.",
+  "also_called": [
+   "Disproportionate Reactivity",
+   "Rage as Control"
+  ]
+ },
+ "Fear Installation": {
+  "standard_id": "S6-061",
+  "number": "T248",
+  "stage": "CONTROL",
+  "standard_definition": "Creating persistent dread through unpredictable consequences.",
+  "also_called": [
+   "Anxiety Induction"
+  ]
+ },
+ "Managed Perception": {
+  "standard_id": "S6-063",
+  "number": "T249",
+  "stage": "CONTROL",
+  "standard_definition": "Controlling how the system appears to outsiders.",
+  "also_called": [
+   "Crisis-Triggered Repair"
+  ]
+ },
+ "Omnipresence / Demonstrating Omnipotence": {
+  "standard_id": "S6-067",
+  "number": "T250",
+  "stage": "CONTROL",
+  "standard_definition": "The sense that the system is always watching, always present, always ahead of you.",
+  "also_called": [
+   "Demonstrating Omnipotence",
+   "Omnipresence",
+   "Stalking-by-Notification"
+  ]
+ },
+ "Punishment by Proxy": {
+  "standard_id": "S6-068",
+  "number": "T251",
+  "stage": "CONTROL",
+  "standard_definition": "After a conflict between two people, trouble arrives for a third person the target cares about.",
+  "also_called": []
+ },
+ "Emotional Blackmail": {
+  "standard_id": "S6-069",
+  "number": "T252",
+  "stage": "CONTROL",
+  "standard_definition": "A request is tied to the relationship: do this, or the closeness, approval or safety you rely on will be withdrawn.",
+  "also_called": [
+   "Conditional Safety",
+   "Emotional Blackmail via Implicit Consequence",
+   "Revocation Threat"
+  ]
+ },
+ "Intimidation": {
+  "standard_id": "S6-070",
+  "number": "T253",
+  "stage": "CONTROL",
+  "standard_definition": "Danger is communicated without being stated outright: through words, posture, size, closeness or what is done in front of you.",
+  "also_called": [
+   "Form Intimidation",
+   "Implied Threat",
+   "Nonverbal Dominance",
+   "Postural Dominance",
+   "Spatial Invasion",
+   "Threats of Harm",
+   "Withdrawal Pressure"
+  ]
+ },
+ "Concern Trolling / Shame-as-Governance": {
+  "standard_id": "S6-071",
+  "number": "T254",
+  "stage": "CONTROL",
+  "standard_definition": "Control or criticism is wrapped in the language of worry, so objecting makes you look ungrateful for the care.",
+  "also_called": [
+   "Concern Masking",
+   "Concern Trolling",
+   "Shame-as-Governance",
+   "Shame-as-Governance Disguised as Advice"
+  ]
+ },
+ "Ultimatums": {
+  "standard_id": "S6-072",
+  "number": "T255",
+  "stage": "CONTROL",
+  "standard_definition": "A demand is paired with a loss and a deadline, leaving no room to discuss either.",
+  "also_called": []
+ },
+ "Loyalty Binds": {
+  "standard_id": "S6-073",
+  "number": "T256",
+  "stage": "CONTROL",
+  "standard_definition": "Speaking about a problem is framed as betraying the family, group or cause, so loyalty requires silence.",
+  "also_called": []
+ },
+ "Ambient Sexual Threat": {
+  "standard_id": "S6-074",
+  "number": "T257",
+  "stage": "CONTROL",
+  "standard_definition": "Remarks about your body, sexual jokes and unwanted closeness create a climate in which you feel at risk, without any single act that is easy to report.",
+  "also_called": []
+ },
+ "Overcorrection Demands": {
+  "standard_id": "S6-075",
+  "number": "T258",
+  "stage": "CONTROL",
+  "standard_definition": "After a small mistake, the response demanded, such as apologies, rituals or self-punishment, is far out of scale.",
+  "also_called": [
+   "Forced Submission"
+  ]
+ },
+ "Blackmail / Leverage Exploitation": {
+  "standard_id": "S6-076",
+  "number": "T259",
+  "stage": "CONTROL",
+  "standard_definition": "A demand comes with a threat to expose something about you, or an old secret or debt is kept in reserve as leverage.",
+  "also_called": [
+   "Selective Deployment"
+  ]
+ },
+ "Moral Outrage as Weapon": {
+  "standard_id": "S6-077",
+  "number": "T260",
+  "stage": "CONTROL",
+  "standard_definition": "Public outrage is directed at a person in a way that skips any check of what they actually did.",
+  "also_called": []
+ },
+ "Emotional Hostage-Taking": {
+  "standard_id": "S6-078",
+  "number": "T261",
+  "stage": "CONTROL",
+  "standard_definition": "One person's distress rises and falls with your choices, so you end up managing their state instead of making your own decisions.",
+  "also_called": []
+ },
+ "\"I Know Best\" Paternalism / Velvet Glove Control": {
+  "standard_id": "S6-079",
+  "number": "T262",
+  "stage": "CONTROL",
+  "standard_definition": "Another adult decides what is good for you and acts on it, overriding your own choices as being for your own good.",
+  "also_called": [
+   "\"I Know Best\" Paternalism",
+   "Using Privilege",
+   "Velvet Glove Control"
+  ]
+ },
+ "Interrogation": {
+  "standard_id": "S6-080",
+  "number": "T263",
+  "stage": "CONTROL",
+  "standard_definition": "Questions come in a rapid, repeated, accusing stream, so answering feels like a trial rather than a conversation.",
+  "also_called": []
+ },
+ "Moving-in-Silence": {
+  "standard_id": "S6-081",
+  "number": "T264",
+  "stage": "CONTROL",
+  "standard_definition": "Something large that will change your life is decided and arranged without you, and you learn about it when it is done.",
+  "also_called": []
+ },
+ "Enforcing Trivial Demands": {
+  "standard_id": "S6-082",
+  "number": "T265",
+  "stage": "CONTROL",
+  "standard_definition": "Small rules with no clear purpose are enforced strictly, so obedience itself becomes the point.",
+  "also_called": []
+ },
+ "Choice Restriction": {
+  "standard_id": "S6-084",
+  "number": "T266",
+  "stage": "CONTROL",
+  "standard_definition": "Your realistic options are narrowed through money, access, information or framing until only the wanted choice remains, while you are told the choice is yours.",
+  "also_called": [
+   "Bounded Choice",
+   "Coercive Framing",
+   "Institutional Adoption",
+   "Reflexive Control",
+   "Token Autonomy",
+   "Token Autonomy / Coercive Framing"
+  ]
+ },
+ "Pseudo-Consultation": {
+  "standard_id": "S6-085",
+  "number": "T267",
+  "stage": "CONTROL",
+  "standard_definition": "A consultation, survey or listening session happens in form, but the decision was already made and does not change.",
+  "also_called": [
+   "Pre-Decision Concealment",
+   "Process Performance",
+   "Structural Dilution"
+  ]
+ },
+ "Weaponized Inclusion / Strategic Containment": {
+  "standard_id": "S6-086",
+  "number": "T268",
+  "stage": "CONTROL",
+  "standard_definition": "Critics are invited inside, onto a committee or into a process, where their energy is absorbed and their voice contained.",
+  "also_called": [
+   "Critique Absorption",
+   "Dissent Absorption",
+   "Inclusion Capture"
+  ]
+ },
+ "Controlled Opposition": {
+  "standard_id": "S6-088",
+  "number": "T269",
+  "stage": "CONTROL",
+  "standard_definition": "Resistance that looks independent is quietly guided or set up by the party it opposes.",
+  "also_called": []
+ },
+ "Manufactured Consent": {
+  "standard_id": "S6-089",
+  "number": "T270",
+  "stage": "CONTROL",
+  "standard_definition": "Agreement that looks freely given rests on a narrowed picture, on pressure, or on silence counted as a yes.",
+  "also_called": [
+   "Consent Fabrication",
+   "Democratic Validation",
+   "Mutual Agreement Fabrication",
+   "Silence Harvesting"
+  ]
+ },
+ "Sacred Science": {
+  "standard_id": "S6-093",
+  "number": "T271",
+  "stage": "CONTROL",
+  "standard_definition": "The group's founding ideas are placed beyond evidence or question, so doubting them is treated as a flaw in the doubter.",
+  "also_called": []
+ },
+ "Doctrine Over Person": {
+  "standard_id": "S6-094",
+  "number": "T272",
+  "stage": "CONTROL",
+  "standard_definition": "A member's own experience is never allowed to count against the doctrine; when they clash, the person is wrong.",
+  "also_called": []
+ },
+ "Forced Confession / Self-Criticism Rituals": {
+  "standard_id": "S6-096",
+  "number": "T273",
+  "stage": "CONTROL",
+  "standard_definition": "Members must regularly confess faults or criticize themselves before others, and what they say is kept and can be used later.",
+  "also_called": []
+ },
+ "Algorithmic Manipulation": {
+  "standard_id": "S6-098",
+  "number": "T274",
+  "stage": "CONTROL",
+  "standard_definition": "Feeds and recommendation lists decide what you see first and most often, steering attention and mood in ways you cannot see.",
+  "also_called": [
+   "Epistemic Coercion via AI"
+  ]
+ },
+ "Biometric Exploitation": {
+  "standard_id": "S6-099",
+  "number": "T275",
+  "stage": "CONTROL",
+  "standard_definition": "Signals of how you feel, read from your face, voice or body by cameras, microphones and wearables, are used to influence you.",
+  "also_called": []
+ },
+ "Institutional Capture": {
+  "standard_id": "M-199",
+  "number": "T276",
+  "stage": "CONTROL",
+  "standard_definition": "Influence is gained over the bodies meant to provide oversight, or outside structures are lined up to enforce, so the place you would turn to for help is already on their side.",
+  "also_called": [
+   "System Recruitment"
+  ]
+ },
+ "Arbitrary Authority": {
+  "standard_id": "S6-101",
+  "number": "T277",
+  "stage": "CONTROL",
+  "standard_definition": "Decisions follow no stated rule, so nothing you do reliably changes the outcome.",
+  "also_called": [
+   "Effort-Outcome Mismatch",
+   "Uncontrollable Outcomes"
+  ]
+ },
+ "Black-Box Decisions": {
+  "standard_id": "S6-102",
+  "number": "T278",
+  "stage": "CONTROL",
+  "standard_definition": "Consequential decisions come from a system whose workings cannot be seen, explained or meaningfully questioned.",
+  "also_called": [
+   "High-Stakes Consequence",
+   "Invisibility of the Mechanism"
+  ]
+ },
+ "Celebration as Cover": {
+  "standard_id": "S6-103",
+  "number": "T279",
+  "stage": "CONTROL",
+  "standard_definition": "Overwork, self-funding or sacrifice is praised in public as dedication, so the shortage that required it is never fixed.",
+  "also_called": [
+   "Celebration Capture",
+   "Celebration as Extraction Cover"
+  ]
+ },
+ "Closed-Loop Appeals": {
+  "standard_id": "S6-104",
+  "number": "T280",
+  "stage": "CONTROL",
+  "standard_definition": "Challenging a decision sends you back to the same people, rules or system that made it.",
+  "also_called": [
+   "Appeal Circularity"
+  ]
+ },
+ "Collective Punishment": {
+  "standard_id": "S6-105",
+  "number": "T281",
+  "stage": "CONTROL",
+  "standard_definition": "A whole group is punished for something one person did, or for something no one is named for, so the group turns its pressure inward.",
+  "also_called": [
+   "Collective Consequence",
+   "Incident Identification Without Individual Accountability"
+  ]
+ },
+ "Data Harvesting": {
+  "standard_id": "S6-107",
+  "number": "T282",
+  "stage": "CONTROL",
+  "standard_definition": "Detailed information about behavior, location, feelings or performance is collected continuously and built into a profile, far beyond what the service needs.",
+  "also_called": [
+   "Ambient Data Collection",
+   "Data Accumulation",
+   "Data Point Extraction",
+   "Profile Construction"
+  ]
+ },
+ "Data Onward Sharing": {
+  "standard_id": "S6-108",
+  "number": "T283",
+  "stage": "CONTROL",
+  "standard_definition": "Information collected for one purpose is passed, sold or shown to others, often described as anonymized, without the person's real knowledge.",
+  "also_called": [
+   "De-identification Laundering",
+   "Non-Consensual Distribution",
+   "Secondary Market Exploitation"
+  ]
+ },
+ "Development Subordination": {
+  "standard_id": "S6-109",
+  "number": "T284",
+  "stage": "CONTROL",
+  "standard_definition": "A person's own learning, health or future is ranked below their usefulness to the system, and that ranking is presented as opportunity.",
+  "also_called": [
+   "Academic Subordination"
+  ]
+ },
+ "Initiative Churn": {
+  "standard_id": "S6-111",
+  "number": "T285",
+  "stage": "CONTROL",
+  "standard_definition": "New programs are launched one after another, so activity looks like progress while none runs long enough to be judged.",
+  "also_called": [
+   "Implementation Interruption",
+   "Initiative Proliferation"
+  ]
+ },
+ "Labor Extraction": {
+  "standard_id": "S6-112",
+  "number": "T286",
+  "stage": "CONTROL",
+  "standard_definition": "Work, time, care or personal money beyond what was agreed or paid is expected and uncounted, often because the role has grown too big or because stopping would hurt the people you serve.",
+  "also_called": [
+   "Administrative Displacement",
+   "Compassion Exploitation",
+   "Invisibility of Clinical Labor",
+   "Performance Extraction",
+   "Personal Subsidy Extraction",
+   "Ratio Exploitation",
+   "Role Inflation",
+   "Role Overload"
+  ]
+ },
+ "Liability Reframing": {
+  "standard_id": "S6-113",
+  "number": "T287",
+  "stage": "CONTROL",
+  "standard_definition": "A duty to protect or repair is handed to legal or risk management and treated as exposure to limit, then declared expired, out of scope or not owed.",
+  "also_called": [
+   "Legal Authority Transfer",
+   "Obligation Erasure"
+  ]
+ },
+ "Metric-Mission Substitution": {
+  "standard_id": "S6-114",
+  "number": "T288",
+  "stage": "CONTROL",
+  "standard_definition": "The numbers chosen to measure a purpose quietly replace the purpose, and people are judged on the numbers.",
+  "also_called": [
+   "Engagement-Learning Conflation",
+   "Metric Installation",
+   "Metric Substitution"
+  ]
+ },
+ "Motivation Displacement": {
+  "standard_id": "S6-115",
+  "number": "T289",
+  "stage": "CONTROL",
+  "standard_definition": "Points, scores and rewards replace a person's own reasons for doing something, so they stop when the reward stops.",
+  "also_called": [
+   "Intrinsic Motivation Displacement",
+   "Intrinsic-Extrinsic Displacement",
+   "Joy Extinction"
+  ]
+ },
+ "Predictive Tracking": {
+  "standard_id": "S6-116",
+  "number": "T290",
+  "stage": "CONTROL",
+  "standard_definition": "People are routed into tracks, groups or labels on the strength of a prediction, and the track then limits what they are offered and can become.",
+  "also_called": [
+   "Automatic Sorting",
+   "Intervention Channeling",
+   "Track Solidification"
+  ]
+ },
+ "Strategic Delay": {
+  "standard_id": "S6-119",
+  "number": "T291",
+  "stage": "CONTROL",
+  "standard_definition": "Responses, records or decisions are slowed until deadlines pass, evidence fades or the person gives up.",
+  "also_called": [
+   "Access Delay",
+   "Recommendation Deferral",
+   "Timeline Elongation",
+   "Timeline Exploitation"
+  ]
+ },
+ "Strategic Timing": {
+  "standard_id": "S6-120",
+  "number": "T292",
+  "stage": "CONTROL",
+  "standard_definition": "Damaging information or sudden pressure arrives just before an important moment, leaving no time to check or respond.",
+  "also_called": []
+ },
+ "Structural Underfunding": {
+  "standard_id": "S6-121",
+  "number": "T293",
+  "stage": "CONTROL",
+  "standard_definition": "The service meant to help is kept too small, too thinly staffed or too run-down to work, and its failure is treated as nobody's fault.",
+  "also_called": [
+   "Capacity Dilution",
+   "Environmental Degradation"
+  ]
+ },
+ "Harm to Pets or Property": {
+  "standard_id": "S6-122",
+  "number": "T294",
+  "stage": "CONTROL",
+  "standard_definition": "Belongings are destroyed, or a pet is harmed or threatened, as a warning of what could happen next. (Treat as a safety risk: contact local emergency or domestic violence services.)",
+  "also_called": []
+ },
+ "Coerced Debt": {
+  "standard_id": "S6-123",
+  "number": "T295",
+  "stage": "CONTROL",
+  "standard_definition": "Loans, credit or bills are taken out in your name, or you are pressured into them, without real consent, so you carry debt for someone else's control.",
+  "also_called": []
+ },
+ "Debt Bondage": {
+  "standard_id": "S6-124",
+  "number": "T296",
+  "stage": "CONTROL",
+  "standard_definition": "Fees for travel, housing, training or recruitment are charged against future earnings and keep growing, so you must keep working to pay a debt that never clears.",
+  "also_called": []
+ },
+ "Document Confiscation": {
+  "standard_id": "S6-125",
+  "number": "T297",
+  "stage": "CONTROL",
+  "standard_definition": "Passports, identity papers, visas or certificates are taken \"for safekeeping\", so leaving, travelling or proving who you are depends on someone else.",
+  "also_called": []
+ },
+ "Status Threats": {
+  "standard_id": "S6-126",
+  "number": "T298",
+  "stage": "CONTROL",
+  "standard_definition": "Your visa, residency, enrollment or legal status is used as a threat: comply, or you or your family could be reported, removed or deported. (Route to independent legal advice and support services.)",
+  "also_called": []
+ },
+ "Enmeshment": {
+  "standard_id": "S6-127",
+  "number": "T299",
+  "stage": "CONTROL",
+  "standard_definition": "The line between two people's feelings, choices and identities is dissolved, so your moods, decisions and successes are treated as belonging to someone else. (A family-systems concept.)",
+  "also_called": []
+ },
+ "Apologies Without Repair": {
+  "standard_id": "S7-002",
+  "number": "T300",
+  "stage": "DISCARD",
+  "standard_definition": "Performed remorse with no change.",
+  "also_called": [
+   "Accountability Mimicry",
+   "Apology Without Repair"
+  ]
+ },
+ "Pity Plays": {
+  "standard_id": "S7-003",
+  "number": "T301",
+  "stage": "DISCARD",
+  "standard_definition": "Performing victimhood to prevent accountability.",
+  "also_called": [
+   "Strategic Self-Deprecation",
+   "Strategic Self-Deprecation / Performed Humility",
+   "Strategic Vulnerability",
+   "Strategic Vulnerability / Weaponized Tears",
+   "Weaponized Tears"
+  ]
+ },
+ "Forced Forgiveness / Weaponized Forgiveness": {
+  "standard_id": "S7-004",
+  "number": "T302",
+  "stage": "DISCARD",
+  "standard_definition": "\"Move on\" before harm is processed.",
+  "also_called": [
+   "Forced Forgiveness",
+   "Weaponized Forgiveness"
+  ]
+ },
+ "Competitive Victimhood": {
+  "standard_id": "S7-005",
+  "number": "T303",
+  "stage": "DISCARD",
+  "standard_definition": "Responding to your pain with their bigger pain.",
+  "also_called": []
+ },
+ "Aftercare Control": {
+  "standard_id": "S7-007",
+  "number": "T304",
+  "stage": "DISCARD",
+  "standard_definition": "\"That was for your good\" reframing harm as help.",
+  "also_called": []
+ },
+ "Legal Abuse": {
+  "standard_id": "S7-009",
+  "number": "T305",
+  "stage": "DISCARD",
+  "standard_definition": "Lawsuits, court filings and legal processes are used to drain, punish or silence someone, for example after they leave or speak out. (Route to qualified legal advice.)",
+  "also_called": [
+   "Legal Abuse (Post-Separation)",
+   "SLAPP",
+   "Silencing Litigation"
+  ]
+ },
+ "Humiliation Rituals": {
+  "standard_id": "S7-011",
+  "number": "T306",
+  "stage": "DISCARD",
+  "standard_definition": "Degradation disguised as development.",
+  "also_called": [
+   "Degradation"
+  ]
+ },
+ "Public Exposure": {
+  "standard_id": "S7-012",
+  "number": "T307",
+  "stage": "DISCARD",
+  "standard_definition": "Being singled out for shaming.",
+  "also_called": [
+   "Public Humiliation",
+   "Public Identification",
+   "Public Shaming"
+  ]
+ },
+ "Ghosting as Control": {
+  "standard_id": "S7-015",
+  "number": "T308",
+  "stage": "DISCARD",
+  "standard_definition": "Disappearing without closure.",
+  "also_called": [
+   "Ghost Discard",
+   "Ghosting-Orbiting Cycle"
+  ]
+ },
+ "Sudden Devaluation": {
+  "standard_id": "S7-020",
+  "number": "T309",
+  "stage": "DISCARD",
+  "standard_definition": "An abrupt shift from investment to disposal.",
+  "also_called": [
+   "Disposability Architecture"
+  ]
+ },
+ "Replacement Display": {
+  "standard_id": "S7-021",
+  "number": "T310",
+  "stage": "DISCARD",
+  "standard_definition": "Publicly showcasing your replacement to signal your disposability.",
+  "also_called": []
+ },
+ "Blame Discard": {
+  "standard_id": "S7-023",
+  "number": "T311",
+  "stage": "DISCARD",
+  "standard_definition": "Framing the discard as the target's fault.",
+  "also_called": []
+ },
+ "Managed Exit": {
+  "standard_id": "S7-024",
+  "number": "T312",
+  "stage": "DISCARD",
+  "standard_definition": "Orchestrating the departure to maximize the system's control over the narrative.",
+  "also_called": [
+   "Voluntary Narrative Installation"
+  ]
+ },
+ "Manufactured Closure": {
+  "standard_id": "S7-033",
+  "number": "T313",
+  "stage": "DISCARD",
+  "standard_definition": "The matter is declared resolved or closed by the side that caused it, without the harmed person agreeing and without the harm being named.",
+  "also_called": [
+   "Closure Manufacture",
+   "Quiet Resolution",
+   "Resolution Without Acknowledgment",
+   "Unilateral Resolution"
+  ]
+ },
+ "Paid Silence": {
+  "standard_id": "S7-034",
+  "number": "T314",
+  "stage": "DISCARD",
+  "standard_definition": "Money, a reference, a role or another benefit is offered in exchange for not speaking about what happened.",
+  "also_called": [
+   "Positive Reference Leverage",
+   "Silence Incentivization"
+  ]
+ },
+ "Punitive Transfer": {
+  "standard_id": "S7-035",
+  "number": "T315",
+  "stage": "DISCARD",
+  "standard_definition": "After raising a concern, the person is moved to a different place, team, class or role, presented as routine.",
+  "also_called": [
+   "Geographic Displacement"
+  ]
+ },
+ "Record Erasure": {
+  "standard_id": "S7-036",
+  "number": "T316",
+  "stage": "DISCARD",
+  "standard_definition": "Records, files or evidence of what happened are deleted, lost or sealed, so the event can later be denied.",
+  "also_called": [
+   "Document Destruction",
+   "Institutional Memory Erasure"
+  ]
+ },
+ "Uncorrected Record": {
+  "standard_id": "S7-037",
+  "number": "T317",
+  "stage": "DISCARD",
+  "standard_definition": "The accusation is public, loud and lasting, while any correction is quiet or missing, so the first version stays.",
+  "also_called": [
+   "Correction Invisibility",
+   "Permanent Digital Residue"
+  ]
+ },
+ "Values-Fit Pretext": {
+  "standard_id": "S7-038",
+  "number": "T318",
+  "stage": "DISCARD",
+  "standard_definition": "A person's results or questions are redescribed as a mismatch with the group's values or culture, which becomes the reason they have to go.",
+  "also_called": [
+   "Values Misalignment Manufacturing"
+  ]
+ },
+ "Visible Impunity": {
+  "standard_id": "S7-039",
+  "number": "T319",
+  "stage": "DISCARD",
+  "standard_definition": "The person reported faces no visible consequence, which tells everyone watching that reporting does not work.",
+  "also_called": [
+   "Visible Non-Consequence"
+  ]
+ },
+ "Swatting": {
+  "standard_id": "S7-041",
+  "number": "T320",
+  "stage": "DISCARD",
+  "standard_definition": "A false emergency report brings an armed or emergency response to someone's home or school, using the authorities as a weapon. (Treat as an emergency safety risk.)",
+  "also_called": []
+ },
+ "Orbiting": {
+  "standard_id": "S8-001",
+  "number": "T321",
+  "stage": "REPLACE",
+  "standard_definition": "Watching from a distance to maintain psychological presence after discard.",
+  "also_called": []
+ },
+ "Infantilization": {
+  "standard_id": "S8-009",
+  "number": "T322",
+  "stage": "REPLACE",
+  "standard_definition": "Treating competent people as incapable to maintain dependence.",
+  "also_called": [
+   "Helper-Helpless Dynamic"
+  ]
+ },
+ "Parentification": {
+  "standard_id": "S8-010",
+  "number": "T323",
+  "stage": "REPLACE",
+  "standard_definition": "Forcing someone into a caretaker role that reverses the natural hierarchy.",
+  "also_called": []
+ },
+ "Emotional Blackmail via Self-Harm Threats": {
+  "standard_id": "S8-011",
+  "number": "T324",
+  "stage": "REPLACE",
+  "standard_definition": "Threatening collapse to prevent departure or boundaries.",
+  "also_called": [
+   "Self-Harm Threats as Leverage"
+  ]
+ },
+ "Health Sabotage": {
+  "standard_id": "S8-012",
+  "number": "T325",
+  "stage": "REPLACE",
+  "standard_definition": "Interfering with wellbeing to maintain dependence or instability.",
+  "also_called": []
+ },
+ "Coordinated Reporting": {
+  "standard_id": "S8-014",
+  "number": "T326",
+  "stage": "REPLACE",
+  "standard_definition": "Attempting to remove your voice.",
+  "also_called": []
+ },
+ "Context Collapse": {
+  "standard_id": "S8-015",
+  "number": "T327",
+  "stage": "REPLACE",
+  "standard_definition": "Communications stripped of context to change meaning.",
+  "also_called": [
+   "Context Collapse Exploitation",
+   "Context Elimination",
+   "Context Stripping",
+   "Evidence Traps",
+   "Moment Extraction"
+  ]
+ },
+ "Doxxing": {
+  "standard_id": "S8-016",
+  "number": "T328",
+  "stage": "REPLACE",
+  "standard_definition": "Publishing private information to intimidate.",
+  "also_called": []
+ },
+ "Forged Screenshots / Edited Evidence": {
+  "standard_id": "S8-018",
+  "number": "T329",
+  "stage": "REPLACE",
+  "standard_definition": "Fabricated or altered evidence presented as proof.",
+  "also_called": [
+   "Deepfake Video/Audio",
+   "Deepfakes",
+   "Edited Recordings",
+   "Fabricated Evidence",
+   "Forged Screenshots"
+  ]
+ },
+ "Guilt Legacy": {
+  "standard_id": "S8-020",
+  "number": "T330",
+  "stage": "REPLACE",
+  "standard_definition": "Inherited obligation used across generations.",
+  "also_called": []
+ },
+ "Maternal Gatekeeping": {
+  "standard_id": "S8-021",
+  "number": "T331",
+  "stage": "REPLACE",
+  "standard_definition": "Positioning oneself as the authority over your development to undermine confidence.",
+  "also_called": []
+ },
+ "Smart-Home Coercion": {
+  "standard_id": "S8-029",
+  "number": "T332",
+  "stage": "REPLACE",
+  "standard_definition": "Connected home devices such as cameras, locks, thermostats and speakers are used to monitor, unsettle or control someone living there.",
+  "also_called": []
+ },
+ "AI Voice Cloning": {
+  "standard_id": "S8-031",
+  "number": "T333",
+  "stage": "REPLACE",
+  "standard_definition": "Software produces speech that sounds like a specific real person, used to deceive the people who know that voice.",
+  "also_called": []
+ },
+ "Intimate Image Abuse": {
+  "standard_id": "S8-033",
+  "number": "T334",
+  "stage": "REPLACE",
+  "standard_definition": "Real or fabricated intimate images of a person are shared, threatened or used against them without consent. (Treat as an emergency: tell a trusted adult and contact the platform and police or specialist services.)",
+  "also_called": [
+   "Deepfake / AI Voice / SIM Swap / Intimate Image Abuse / Smart-Home Coercion"
+  ]
+ },
+ "Accountability Reset": {
+  "standard_id": "S8-035",
+  "number": "T335",
+  "stage": "REPLACE",
+  "standard_definition": "A change of leader, name or program is treated as a fresh start, so earlier promises and failures no longer count against anyone.",
+  "also_called": []
+ }
+}

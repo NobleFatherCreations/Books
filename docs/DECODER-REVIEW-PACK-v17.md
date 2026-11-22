@@ -1,5 +1,9 @@
 # Pattern Decoder v17: complete design and architecture review pack
 
+> **Note (2026-10-27, v19 candidate):** sections 5 to 7 describe v17/v18, with four tabs, the step dock and the network map.
+> The v19 candidate replaces those with one scroll per station, a sticky section index and a Browse page; see the v19 addendum in
+> `instruments/playbook/DESIGN.md`. Everything else here still holds.
+
 **For:** an independent reviewer (another AI or a person). **Status:** v17 is LIVE at
 https://noblefathercreations.com/playbook as of 2026-10-27. This pack describes exactly what is deployed, so feedback can
 shape the next round (v18). Everything here was read from the source or measured on the build. Where something is

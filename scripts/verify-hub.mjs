@@ -15,8 +15,7 @@ const HERE = path.dirname(fileURLToPath(import.meta.url));
 const target = process.argv[2] ||
   'file://' + path.join(HERE, '..', 'hub', 'catalogue-redesign.html');
 
-const EXPECTED_SECTIONS = ['workshop', 'library', 'instruments', 'music', 'guide',
-                           'maker', 'support'];
+const EXPECTED_SECTIONS = ['start-here', 'library', 'instruments', 'music', 'workshop', 'guide', 'maker', 'support'];
 const EXPECTED_BOOKS = [
   'The Festie Bible', 'The Festie Codex', 'The Sovereign Divine Feminine',
   'Playground Protectors', 'The Fractal', 'The Fracture', 'The Loop',
@@ -63,16 +62,22 @@ for (const width of [375, 1440]) {
     word: e.querySelector('.pg-label b')?.textContent,
     name: e.querySelector('.pg-label span')?.textContent,
   })));
-  const wantDoors = [['#workshop', 'Art'], ['#library', 'Book'], ['#instruments', 'Tools']];
+  const wantDoors = [['/portals', 'Art'], ['#library', 'Book'], ['#instruments', 'Tools']];
   const doorsOk = doors.length === 3 && wantDoors.every(
     ([h, w], i) => doors[i].href === h && doors[i].word === w);
-  doorsOk ? ok('three gates, Art first, words matching their destinations')
+  doorsOk ? ok('three doors: Art opens the portal pendants, then Book and Tools')
           : fail('gates wrong: ' + JSON.stringify(doors));
 
-  await page.click('.st-portal');            // Art — unlocks the page
-  await page.waitForTimeout(900);
-  await page.keyboard.press('Escape');       // dismiss the walkthrough
-  await page.waitForTimeout(400);
+  // v17: nothing locks the page -- no intro overlay, no door gate, no tour
+  const locked = await page.evaluate(() => document.documentElement.classList.contains('nf-gate-lock')
+    || !!document.getElementById('heroIntro') || getComputedStyle(document.documentElement).overflow === 'hidden');
+  locked ? fail('page starts locked (intro/gate)') : ok('page scrolls immediately: no intro lock, no gate, no tour');
+  const html = await (await fetch(target.startsWith('http') ? target : 'file://' + target).catch(() => null))?.text?.().catch(() => '') || '';
+  const kb = Math.round(Buffer.byteLength(await page.content()) / 1024);
+  kb < 1024 && !(await page.content()).includes(';base64,') ? ok(`homepage HTML ${kb} KB, no embedded media`)
+    : fail(`homepage HTML ${kb} KB or still embeds media`);
+  const start = await page.$$eval('#start-here details', (els) => els.length);
+  start >= 6 ? ok(`Start here: ${start} choices`) : fail('Start here missing');
 
   errors.length ? fail(`console/page errors: ${errors.slice(0, 3).join(' | ')}`)
                 : ok('no console or page errors');
@@ -93,7 +98,7 @@ for (const width of [375, 1440]) {
 
   const nav = await page.$$eval('.topnav a', (els) => els.map((e) => e.getAttribute('href')));
   JSON.stringify(nav) === JSON.stringify(
-    ['#workshop', '#library', '#instruments', '#music', '#guide', '#maker', '#support'])
+    ['#start-here', '#library', '#instruments', '#music', '/portals', '#workshop', '/topics', '#support'])
     ? ok('top navigation matches the section order')
     : fail('top nav is ' + nav.join(' '));
 
@@ -109,7 +114,8 @@ for (const width of [375, 1440]) {
   // The cover is loading="lazy", so it has no pixels until the section is
   // actually reached -- scroll to it before asking whether the art loaded.
   await page.evaluate(() => document.querySelector('#guide')?.scrollIntoView());
-  await page.waitForTimeout(900);
+  await page.waitForFunction(() => { const i = document.querySelector('#guide .st-book-face img'); return i && i.complete && i.naturalWidth > 0; },
+    null, { timeout: 8000 }).catch(() => {});
   const guide = await page.evaluate(() => {
     const s = document.querySelector('#guide');
     if (!s) return null;
@@ -136,7 +142,7 @@ for (const width of [375, 1440]) {
                               : fail('footer does not link the guide');
 
   const version = await page.textContent('#updates .updates-version');
-  version.includes('v14') ? ok(`on-page version badge reads ${version.trim()}`)
+  version.includes('v17') ? ok(`on-page version badge reads ${version.trim()}`)
                           : fail(`version badge reads ${version.trim()}`);
 
   const overflow = await page.evaluate(

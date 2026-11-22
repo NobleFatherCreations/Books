@@ -1,7 +1,16 @@
-# The Sacred Divide — release status, 7 Oct 2026
+# The Sacred Divide — release status, 27 Oct 2026 (v5 is live)
 
-Live now: **v4** (deployed 29 Sep 2026): 34 PDFs at `noblefathercreations.com/faith/pdf/<id>.pdf`, A4, 2,742 pages in total.
-In progress: **v5**, branch `claude/sacred-divide-v5-redesign`: 34 PDFs rebuilt today (7 Oct, 04:31 UTC) into `library/_undeployed/sacred-divide-v5/`, US Letter, 4,353 pages in total. Nothing has been deployed. `sites.json` still says v4.
+Live now: **v5** (deployed 27 Oct 2026, Netlify deploy `6ae0f04b48836258511ef096` on `thenobledivide`): 35 pages (home plus 34 traditions) and 34 PDFs at `noblefathercreations.com/faith/pdf/<id>.pdf`, US Letter, 4,541 pages in total, 55 MB. All 71 live files were checked byte for byte against the repo on both `thenobledivide.netlify.app` and `noblefathercreations.com/faith`. The page design is unchanged from v4; the text, the PDFs, the version stamp and the Updates list are v5. `sites.json` says v5 with its changelog.
+Previous: v4 (29 Sep 2026), A4, 2,742 pages. The sections below record the state as of 7 Oct and the v4 to v5 change list; the 'what is left' list is superseded by the next section.
+
+## 0. Release record, 27 Oct 2026
+
+- **Done for release:** pages regenerated from the v5 text (`scripts/sacred-divide-site.py --base /faith/ --pdf-base /faith/pdf/ --pdf-flat --ext "" --live --out library/faith`); download buttons read pages and sizes from `library/_undeployed/sacred-divide-v5/manifest.json` (written by `scripts/sacred-divide-v5-manifest.py` after the PDF build); version v5 in the page stamp and the home-page Updates list; PDFs tagged en-US; all 34 PDFs rebuilt and PDF/UA-1 passing; by-eye review finished for every volume.
+- **Checked before deploy:** no old help-line numbers, no leftover tags or comments, no outside requests except the intended Cloudflare visit counter, no broken internal links, every Download button equal to its PDF's page count, phone and desktop browser checks (index and five traditions), reduced motion.
+- **Release-day check:** the Parsi Supreme Court reference (nine-judge bench, reserved 14 May 2026): two searches on 27 Oct found no verdict; pages say "last check on 27 October 2026" (edit ZORF-D080).
+- **Deploy:** folder = 35 html + `codex.html` and `favicon.ico` copied unchanged from the live v4 deploy + `pdf/<id>.pdf` from the v5 PDFs; Netlify MCP `deploy-site` command, run from that folder.
+- **Known and left as is:** `IND-N010` (a narration edit) reports "found 0" because the shared sentence it targeted was replaced earlier by the template fix; nothing to apply. About 26 percent of PDF pages still have more than 15 percent empty space (design pass).
+- **Still open, none blocking:** the sourcing items in section 2B; the "nothing cut" sentence report (about 100 sentences per volume differ from v4 and are reworded, not proven removed); first-time-reader feedback (plain-language disclosure ledger labels, a "who this page is about" scope box on umbrella traditions, a short summary at the top of each page); the long-read, family-compare layout redesign (mockups: claude.ai artifact `DWiSPuFXrGZ27wfDoCKYvc`); rebuild the `exports/` zips from the v5 PDFs; the 3 Canva/Gamma references.
 
 ## 1. State of the rebuild and the information check (today)
 

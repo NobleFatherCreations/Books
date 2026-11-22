@@ -4,7 +4,7 @@ title: "Tibetan Buddhism"
 family: "Buddhism"
 family_id: buddhism-family
 family_members: [buddhism, tibetan-buddhism, soka-gakkai]
-version: v4
+version: v5
 checked: 2026-10-03
 sections_filled: 27/27
 missing: []

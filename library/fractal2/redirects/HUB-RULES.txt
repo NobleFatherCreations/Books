@@ -1,0 +1,6 @@
+# Lines the hub (hub/catalogue-redesign._redirects) would need. Not applied: hub/ is not edited by this generator.
+# Place above the hub's existing /fractal/* rule.
+/fractal/entertainment  /fractal2/entertainment  301!
+/fractal/entertainment/standards  /fractal2/entertainment/method#standards  301!
+/fractal/entertainment/*  /fractal2/entertainment/:splat  301!
+# Plus the proxy rules for /fractal2/* once the Fractal² site's Netlify address is chosen (directing session decides).

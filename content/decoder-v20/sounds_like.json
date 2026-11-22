@@ -1,0 +1,662 @@
+{
+  "Arbitrary Authority": [
+    "It's my call, and today the answer is no.",
+    "Last week that was fine. This week it isn't. Don't ask me why.",
+    "You'll know it's right when I say it's right.",
+    "I don't have to explain my decisions to you."
+  ],
+  "Body Autonomy Violations": [
+    "You're not leaving the house dressed like that. Go and change.",
+    "You can use the bathroom when I say the break starts.",
+    "Stop fussing. I'm doing this whether you like it or not.",
+    "You'll eat what I put in front of you, and you'll finish it."
+  ],
+  "Children as Leverage": [
+    "Walk out that door and you'll never see the kids again.",
+    "Keep complaining and see what happens to your son's place in the program.",
+    "Tell your mother she'd better sign, or no weekend visit.",
+    "If you report this, the kids will be the ones who pay for it."
+  ],
+  "Coerced Debt": [
+    "Just sign here. It's only paperwork, you don't need to read it.",
+    "I put the card in your name because my credit's no good. It's fine.",
+    "If you won't co-sign, don't expect me to stick around.",
+    "The bills are in your name now. I'll handle paying them, trust me."
+  ],
+  "Collective Punishment": [
+    "Nobody goes out for break until someone owns up.",
+    "The whole team loses the bonus. Thank whoever did it.",
+    "No screens for anyone in this house until I know who broke it.",
+    "The group stays locked until the person responsible messages me."
+  ],
+  "Controlled Communication": [
+    "You don't call your sister without checking with me first.",
+    "All questions come through me. Don't go to the director directly.",
+    "We don't bring that subject up in this family. Ever.",
+    "I'll read your messages before you send them, just to be safe."
+  ],
+  "Debt Bondage": [
+    "You can't leave yet. You still owe for the travel and the room.",
+    "The uniform and the bed are coming out of your pay this month too.",
+    "Your balance went up again. There were new fees.",
+    "Work until it's paid off. Then we can talk about going home."
+  ],
+  "Document Confiscation": [
+    "I'll keep your passport in the office. It's safer with me.",
+    "You'll get your papers back when the contract is finished.",
+    "Why do you need your ID? You're not going anywhere.",
+    "Your certificate stays here until the fees are settled."
+  ],
+  "Enmeshment": [
+    "We got into that university. I worked just as hard as you did.",
+    "How could you decide that without telling me? I thought we shared everything.",
+    "When you're unhappy, I can't sleep. So you can't keep things from me.",
+    "Moving out would break my heart. Is that what you want?"
+  ],
+  "Fear Installation": [
+    "Do that again and you'll see what happens.",
+    "I'm not angry. I'm just remembering this for later.",
+    "You know what happened last time. I'd hate for that to happen again.",
+    "Don't worry about it. You'll find out soon enough."
+  ],
+  "Financial Enmeshment": [
+    "You can't afford to leave. You'd lose everything we've built.",
+    "Let's put the house in my name and the loan in both. It's simpler.",
+    "Your job, your flat and your visa all come through the company. Think about that.",
+    "Sign the joint account papers today. Why would you need time to read them?"
+  ],
+  "Harm to Pets or Property": [
+    "Shame about your phone. Maybe next time you won't push me.",
+    "Look what you made me do to your laptop.",
+    "That dog of yours had better stay out of my way tonight.",
+    "Accidents happen when people make me angry."
+  ],
+  "Institutional Capture": [
+    "Go ahead and complain. The board chair and I go way back.",
+    "I already spoke to your landlord, so he knows what you're like.",
+    "Report me if you want. It comes straight to my desk anyway.",
+    "I called your school first so they'd hear the truth before your version."
+  ],
+  "Mobility Control": [
+    "Where do you think you're going? You didn't ask me.",
+    "I've got the car keys. You don't need to go out tonight.",
+    "Text me when you get there, and again when you leave, every time.",
+    "No fare money this week. You can stay home."
+  ],
+  "Performance Monitoring": [
+    "I noticed your status went idle for six minutes this morning.",
+    "I'm scoring how you handled dinner tonight. Not great.",
+    "Every task gets logged, so I can see exactly where you slipped.",
+    "We'll be watching your numbers daily from now on."
+  ],
+  "Role Assignment": [
+    "You're the responsible one. You don't get to fall apart.",
+    "That's not like you. You're the quiet one.",
+    "Leave the creative work to her. You're our numbers person.",
+    "You've always been the difficult child, so of course it was you."
+  ],
+  "Sleep Deprivation": [
+    "We're not going to bed until we sort this out.",
+    "Wake up. I need to talk to you right now.",
+    "Sleep is for lazy people. You can rest when the work is done.",
+    "Just agree and we can both get some sleep."
+  ],
+  "Status Threats": [
+    "One call from me and immigration will be at your door.",
+    "Your visa depends on me. Remember that before you complain.",
+    "Keep pushing and your brother's papers might get looked at too.",
+    "Raising this could turn into a conduct issue on your enrollment."
+  ],
+  "Strategic Chaos / Crisis Manufacturing": [
+    "Drop everything. This has to be done today, and plans have changed again.",
+    "We can talk about your raise later. Right now we have a new emergency.",
+    "Something came up, so the trip is off and I need you here.",
+    "Why weren't you ready? I only changed it an hour ago."
+  ],
+  "Strategic Timing": [
+    "Before your interview tomorrow, you should know everyone thinks you're struggling.",
+    "I need your answer before you get on the plane.",
+    "Sorry to bring this up on your wedding morning, but it can't wait.",
+    "We changed the fees this week. I know it's exams, but sign today."
+  ],
+  "Time Control": [
+    "Your weekends are for the family. Why would you need time alone?",
+    "Send me a list of what you did every hour today.",
+    "You've got a free evening? Good, I've found something for you.",
+    "Time with your friends is time taken away from us."
+  ],
+  "Blame Discard": [
+    "I had to end it. You were just too needy.",
+    "We let him go because he never pulled his weight. Simple as that.",
+    "She brought this on herself. Nobody pushed her out.",
+    "You drove me away. Don't make it about anything I did."
+  ],
+  "Managed Exit": [
+    "It might be best for everyone if you explored other options.",
+    "You can resign quietly by Friday, or we can make this formal. Your choice.",
+    "We'll tell the team you decided to move on.",
+    "Withdraw now and it won't go on your record. Don't bother with advice."
+  ],
+  "Anchoring to Peak Moments": [
+    "Remember how happy we were that first summer? That's still us.",
+    "This is just a dip. Think about the early days.",
+    "Look at these photos and tell me you want to throw all that away.",
+    "We'll get back to the founding spirit. Just stay a bit longer."
+  ],
+  "Authority Worship": [
+    "Because I'm the senior partner, that's why.",
+    "Who are you to question the pastor?",
+    "I have a doctorate in this. Your opinion isn't needed.",
+    "In this family we don't ask your father why. We just do it."
+  ],
+  "Bait Disclosure": [
+    "I probably shouldn't tell you, but the whole team thinks you're a liability.",
+    "Just being honest with you before the meeting. Your sister said awful things about you.",
+    "See? You're crying again. This is exactly what everyone means about you.",
+    "I can't share more than that. I only told you because I care."
+  ],
+  "Crisis Bonding": [
+    "They're coming after all of us now. We have to stick together.",
+    "This is no time for questions. The group is under attack.",
+    "If we don't pull together tonight, we'll lose everything we built.",
+    "I'm the only one who can get us through this, so stay close."
+  ],
+  "Disrupt-Then-Reframe": [
+    "It's a non-refundable participation alignment fee, which really just means you're investing in yourself.",
+    "The contract is self-renewing on a rolling basis. In other words, you never have to worry about it.",
+    "Think of the overtime not as hours but as ownership. You're building something.",
+    "It's a variable-rate structure, which basically means it works for you."
+  ],
+  "Grooming Through Praise": [
+    "You're so mature. You never make a fuss like the others.",
+    "Thanks for staying late again. You're the only one I can count on.",
+    "I love how easy you are. You always go along with my plans.",
+    "You're my best volunteer because you never say no."
+  ],
+  "Legitimizing Paltry Contributions": [
+    "Even a few coins would help. Surely you can spare that much.",
+    "It's just five minutes of your evening. Anyone can do five minutes.",
+    "We're not asking for much. Anything at all, really.",
+    "Just one small shift on the rota. Everyone else has signed up."
+  ],
+  "Loyalty Testing": [
+    "I set the meeting for Saturday. Let's see who really cares about this team.",
+    "If you're truly my friend, you'll stop talking to her.",
+    "You chose your cousin's party over the group. We'll remember that.",
+    "I wanted to see whose side you'd take. Now I know."
+  ],
+  "Reputation Braiding": [
+    "I've put your photo on our founders page. You're one of us now.",
+    "Everyone knows you've backed us from the start. How would it look if you spoke out now?",
+    "Your name is on the building. Criticising us is criticising yourself.",
+    "We thanked you in the newsletter, so people already link you with this project."
+  ],
+  "Shared Secret Binding": [
+    "This stays between us. If anyone finds out, we're both in trouble.",
+    "Remember, you were there too. You can't tell without telling on yourself.",
+    "I bent the rules for you. Now you owe me your silence.",
+    "Our little secret. Nobody else would understand."
+  ],
+  "That's-Not-All": [
+    "And before you answer, I'll throw in the second one for free.",
+    "Wait, there's more. Sign today and I'll knock off another fifty.",
+    "Plus the extended cover, plus the carry case. All of it, if you decide now.",
+    "Hold on, I haven't even mentioned the bonus gift yet."
+  ],
+  "Vulnerability Weaponization": [
+    "Is this your anxiety talking again?",
+    "Good luck tonight. Try not to freeze like you did at school.",
+    "Keep pushing and I might mention your little history to your boss.",
+    "You told me you always ruin good things. Looks like you were right."
+  ],
+  "Weaponized Generosity in Public": [
+    "Everyone, I've paid for her whole trip. No need to thank me, honey.",
+    "I'd like to announce I'm covering his rent this year. That's what friends do.",
+    "After I helped you in front of the whole team, you're questioning me?",
+    "Remember the party where I gave you that car? Everyone saw it."
+  ],
+  "Gatekeeper Grooming": [
+    "Let me take the kids to practice. You two deserve a night off.",
+    "Your parents trust me completely, so they won't mind if we stay late.",
+    "I've known your manager for years. Nobody would believe a word against me.",
+    "Don't worry about signing in. The office knows me."
+  ],
+  "Identity Auditing": [
+    "So what scares you most? What did your father do that hurt you?",
+    "Tell me about your debts. I need to understand where you're weak.",
+    "You mentioned you hate being left out. That's useful to know.",
+    "I asked around about your past. I like to know who I'm dealing with."
+  ],
+  "Orbiting": [
+    "Liked your photo from three years ago.",
+    "No reply to your message, but they viewed your story within a minute.",
+    "Saw you're seeing someone new. Cute.",
+    "A single heart on your new post, then silence again for weeks."
+  ],
+  "Pacing and Leading": [
+    "I feel exactly the same way about everything. It's uncanny.",
+    "Just run it past me first. I only want to help.",
+    "Maybe your friends don't really get you the way I do.",
+    "You trusted me before. Why not try it my way this once?"
+  ],
+  "Pocketing": [
+    "My friends are busy this month. Maybe next time.",
+    "Let's keep us off social media for now. It's nobody's business.",
+    "This is my friend, from work.",
+    "Why do you keep pushing to meet my family? It feels needy."
+  ],
+  "Premature Trust Extraction": [
+    "If you trust me, you'll tell me your darkest secret.",
+    "Openness is how we do things here. Share your history with the group.",
+    "You're holding back. Do you have trust issues?",
+    "We need your full family and money history before your first session."
+  ],
+  "Premature Vulnerability / Trauma Dumping": [
+    "I've only known you a day, but I need to tell you about my childhood.",
+    "You're the only one I've ever told this. So you won't leave, will you?",
+    "After everything I've been through, you're criticising my report?",
+    "I told you my deepest pain. The least you can do is lend me the money."
+  ],
+  "Replacement Display": [
+    "Meet my new girlfriend. She actually appreciates me.",
+    "Everyone, welcome our new lead. Finally someone who gets results.",
+    "Look at the photos from our trip. You'd never have enjoyed it this much.",
+    "She's my new best friend now. We do everything we used to do."
+  ],
+  "Rescuer Positioning": [
+    "Everyone else has given up on you. I'm the only one who can fix this.",
+    "Your family doesn't understand what you're going through. I do.",
+    "Don't get a second opinion. I know exactly what to do.",
+    "Before I arrived, this place was falling apart. Stick with me."
+  ],
+  "Sudden Devaluation": [
+    "Now that you've moved in, I don't see why I need to call every day.",
+    "Honestly, your work has always been average.",
+    "You signed? Great. Someone else will handle you from now.",
+    "I don't know why you're upset. I've just got better things to do."
+  ],
+  "Target Selection": [
+    "You're different from the others. They don't understand you like I do.",
+    "Let's meet after class, just the two of us. You're special.",
+    "I noticed you're new and don't know anyone. Stick with me.",
+    "Don't tell the others about the gifts. They'd only be jealous."
+  ],
+  "Black-Box Decisions": [
+    "The system declined it. I can't see why either.",
+    "There's no one who can review the score. It's automatic.",
+    "Your account was flagged. We're not able to share the reason.",
+    "Appeals go back through the same tool, I'm afraid."
+  ],
+  "Buried Consent": [
+    "Just tick the box to continue. It's the standard terms.",
+    "You agreed to that on page forty. It's all in the policy.",
+    "Sign at the bottom, please. There's a queue behind you.",
+    "By logging in you accepted monitoring. It was in the link."
+  ],
+  "Data Harvesting": [
+    "The app needs your contacts and location to set a reminder.",
+    "All keystrokes and messages are logged and kept for research purposes.",
+    "Your mood check-ins help us build a fuller picture of you.",
+    "Turning off tracking will disable your school account."
+  ],
+  "Data Onward Sharing": [
+    "Your answers may be shared with our trusted partners.",
+    "Don't worry, the survey data is anonymised before we pass it on.",
+    "The health app shares activity insights with selected advertisers.",
+    "I showed the group the photo you sent me. It's not a big deal."
+  ],
+  "Forced Continuity": [
+    "Your free trial has ended. Your card has been charged for the year.",
+    "To cancel, please call during business hours on a weekday.",
+    "The introductory price has finished, so you're on the full rate now.",
+    "It renewed automatically. It's in the terms you accepted."
+  ],
+  "Gamified Compulsion": [
+    "Your 200-day streak ends tonight. Don't lose it now!",
+    "You're 90 percent of the way to the next level. Just one more round.",
+    "Miss a day and your progress resets to zero.",
+    "Freeze your streak for a small fee and keep your rank."
+  ],
+  "Persistent Nagging": [
+    "Turn on notifications? Not now or OK.",
+    "I'm just going to keep asking until you say yes.",
+    "Did you think any more about lending me the car? What about now?",
+    "Third reminder today: please enable location access to continue."
+  ],
+  "Reputation Hijacking": [
+    "I already told the recruiter what you're really like, so you're welcome.",
+    "Let me tell everyone what she meant. She won't mind.",
+    "I've posted my side of the breakup. People deserve to know who you are.",
+    "Don't worry about your reference. I spoke to your new boss first."
+  ],
+  "Swatting": [
+    "Enjoy the visitors at your door tonight.",
+    "Hope the knock on your door was a nice surprise.",
+    "Funny how the emergency crews always find your address, isn't it?",
+    "Keep posting about me and see who shows up next time."
+  ],
+  "Uncorrected Record": [
+    "We cleared it up privately. There's no need to make another post.",
+    "The original announcement stays up. We added a small note at the bottom.",
+    "I'll fix your grade by email, but I'm not saying anything to the class.",
+    "Everyone saw the accusation, but a correction would just draw attention."
+  ],
+  "\"You've Changed\"": [
+    "You've changed. You used to be so easygoing.",
+    "Ever since that city got to you, you think you're better than us.",
+    "That counsellor has filled your head with ideas. This isn't you.",
+    "We miss the old you. Come back to who you really are."
+  ],
+  "Emotional Contamination": [
+    "A promotion? Great, but who's going to pick the kids up now?",
+    "Since we're all here for your birthday, let's talk about what you did last year.",
+    "Before we toast, I just want to say I'm still upset about the money.",
+    "Lovely holiday photos. Shame the house is a mess for when we get back."
+  ],
+  "Exoticization": [
+    "You should wear your traditional outfit to the party. It's so colourful.",
+    "Your accent is so exotic. Say something in your language.",
+    "Can you cook us something from your culture for diversity day?",
+    "There's something so mysterious about people from where you come from."
+  ],
+  "Contribution Erasure": [
+    "We don't have time to cover that group in this history unit.",
+    "The project summary only lists the current team. Keeps it simple.",
+    "This program really started when I took over.",
+    "Her name was cut from the anniversary booklet. It wasn't relevant."
+  ],
+  "Identity-Based Isolation": [
+    "Let's not make this about race. That's divisive.",
+    "With your visa situation, I wouldn't go making complaints.",
+    "We held the meeting in English. You wouldn't have followed it anyway.",
+    "People like you always have an agenda when you raise these things."
+  ],
+  "Social Mapping": [
+    "So who do you actually listen to? Who would worry about you?",
+    "I had coffee with your sister. She's lovely. Your best friend, less so.",
+    "Which colleague would notice if something was off with you?",
+    "I told your mother you're doing great, and your friend that you're struggling."
+  ],
+  "Support System Exhaustion": [
+    "Have you tried the helpline again?",
+    "That's really one for your counsellor. Talk to them.",
+    "You should lean on your friends for this, not me.",
+    "Please contact the other department. They'll send you back if it's ours."
+  ],
+  "Emotional Sequencing": [
+    "I love you so much. Why are you looking at me like that? Get out.",
+    "Fine, I'm crying now. Happy? Anyway, what's for dinner?",
+    "You asked about the bills, so now I'm furious. Oh, never mind, let's go out.",
+    "One minute I'm laughing, the next you've ruined everything. What were we talking about?"
+  ],
+  "Just Asking Questions": [
+    "I'm not saying anything, but why did she leave the office so early?",
+    "Has anyone actually checked where the club money went?",
+    "I'm just asking. Isn't it odd that he's always around when things go missing?",
+    "Why would a good mother need so many nights out? Just curious."
+  ],
+  "Moral Disengagement": [
+    "There was no other way. Somebody had to do it.",
+    "I'm just following the rules. Take it up with head office.",
+    "It was only a joke. No real harm done.",
+    "They brought it on themselves, honestly."
+  ],
+  "Motte-and-Bailey": [
+    "Everyone in that department is useless. Well, I only meant some people make mistakes.",
+    "This group has all the answers. I just mean we have good ideas, that's all.",
+    "You never help around here. I only meant you could do a bit more sometimes.",
+    "Nobody can question me. I just said I'd like some respect."
+  ],
+  "Narrative Monopoly": [
+    "Here's what really happened, and that's the version everyone needs to hear.",
+    "Every family has one difficult member. Don't listen to her side.",
+    "The newsletter will explain the situation. There's no need for other accounts.",
+    "If your experience was different, you're the exception."
+  ],
+  "Perspecticide": [
+    "That's not what you think. Let me tell you what you really think.",
+    "You don't need to read that. I'll explain it to you.",
+    "Your friends are confusing you. Just listen to me.",
+    "Why would you like that song? You don't like that kind of thing."
+  ],
+  "Retroactive Justification": [
+    "The real reason we turned you down was always the budget.",
+    "I said it was about the schedule, but actually it was about your attitude all along.",
+    "If you check the notes, the safety concern was always the reason.",
+    "We had many reasons. I just didn't list them all at the time."
+  ],
+  "Stonewalling": [
+    "I'm not discussing this.",
+    "Whatever. I have nothing to say about that.",
+    "Your complaint has been received. No further update is available.",
+    "Not this again. I'm going out."
+  ],
+  "Victim Blaming": [
+    "Well, what were you doing out that late?",
+    "Why didn't you just leave if it was that bad?",
+    "You must have said something to set him off.",
+    "Why didn't you report it straight away, if it really happened like that?"
+  ],
+  "Abstraction Escalation": [
+    "Safety and respect are at the heart of everything we do.",
+    "We are deeply committed to building a culture where every voice matters.",
+    "This isn't about one person. It's about our community's values.",
+    "Our mission has always been to serve our families with care."
+  ],
+  "Accountability Reset": [
+    "That was before my time. I can't speak to what was promised.",
+    "We're a new organisation now. Let's look forward, not back.",
+    "I've turned over a new leaf, so why are you bringing up the past?",
+    "Under the new program, this is our first year of results."
+  ],
+  "Agent Erasure": [
+    "Mistakes were made, and the matter is being reviewed.",
+    "It has been decided that your place will be withdrawn.",
+    "Unfortunately, errors occurred during the process.",
+    "The decision was taken at a higher level."
+  ],
+  "Captive Expertise": [
+    "The independent expert agrees with us, so the matter is settled.",
+    "We briefed the consultant on what we need the report to show.",
+    "The specialist reviewed our documents. Yours weren't relevant.",
+    "Are you saying you know better than a qualified expert?"
+  ],
+  "Celebration as Cover": [
+    "Let's give a round of applause to our night nurse, who covered three empty posts this year.",
+    "Our staff are so dedicated they buy their own supplies. That's our family spirit.",
+    "You're our hero for staying until midnight every night.",
+    "We couldn't run this place without your sacrifice, and we'd never ask you to stop."
+  ],
+  "Closed-Loop Appeals": [
+    "Your appeal will be reviewed by the manager who made the original decision.",
+    "We've checked, and the process was followed correctly.",
+    "There's no outside route. This is the final stage.",
+    "The panel reports to the same director, but they're very fair."
+  ],
+  "Cultural Penalty": [
+    "Your ideas are fine, but this isn't how a proper essay is written.",
+    "His accent makes him sound less qualified for client work.",
+    "That's not real knowledge. It's just stories your grandmother told.",
+    "It needs to sound more professional. You know what I mean."
+  ],
+  "Deniable Authorization": [
+    "Do what you need to. I didn't see anything.",
+    "There's no need to put it in an email. You have my word.",
+    "I never told you to go ahead. I said I'd think about it.",
+    "Just get it done. We don't need a paper trail for this."
+  ],
+  "Development Subordination": [
+    "Your own thesis can wait. My grant project needs you right now.",
+    "Covering reception is great experience, even if it isn't what you trained for.",
+    "Practice comes first. Your exams will sort themselves out.",
+    "You're too valuable on this team to move into the role you applied for."
+  ],
+  "Done-Deal Framing": [
+    "This is just to let you know the new rota starts Monday.",
+    "It's already decided. The signs are printed.",
+    "There's no point discussing it. This is happening either way.",
+    "The family has agreed you'll host this year. We've told everyone."
+  ],
+  "Experience Erasure": [
+    "Ten years running your own shop doesn't count without a formal reference.",
+    "Your degree from overseas isn't recognised here, so you'll start as a trainee.",
+    "Caring for your parents isn't real work experience.",
+    "That's nice, but we only count what's on our own certificate."
+  ],
+  "Front-Person Exposure": [
+    "You're new, so you can announce the cuts at the meeting.",
+    "Just say it was your decision. It'll go down better coming from you.",
+    "We'll stay out of it. You handle the parents' questions.",
+    "I voted for it, but I'm not going to defend it in public. That's your job."
+  ],
+  "Incident Siloing": [
+    "Your concern has been dealt with. The matter is closed.",
+    "This appears to be an isolated incident.",
+    "We can't discuss other cases, and there's no need to check them.",
+    "That happened at the other site, so it's not relevant to your complaint."
+  ],
+  "Initiative Churn": [
+    "Forget last term's plan. This year we're launching something completely new.",
+    "We've replaced the old system again. Training starts next week.",
+    "The last program? That was under the previous director.",
+    "We launched twelve new initiatives this year. Look at all that progress."
+  ],
+  "Labor Extraction": [
+    "Can you just answer the parents' messages tonight? Think of the kids.",
+    "It's not in your contract, but everyone helps out with the books.",
+    "We don't have a budget for supplies, but you'll find a way.",
+    "You're so good with the patients. I knew you wouldn't mind staying."
+  ],
+  "Language Laundering": [
+    "We're right-sizing the team to create a leaner, more agile model.",
+    "The library isn't closing. It's consolidating into a new digital pathway.",
+    "Your hours are being optimised to better align with demand.",
+    "This service realignment is an exciting new chapter for our community."
+  ],
+  "Liability Reframing": [
+    "Before we go further, I'll need to pass this to our legal team.",
+    "That happened off site, so it's out of scope for us.",
+    "The time limit has passed, so we have no further obligation.",
+    "We can offer support once you sign this release."
+  ],
+  "Managed Perception": [
+    "The inspectors come Thursday, so tidy everything and fix the broken lights.",
+    "If a visitor asks, tell them we always have this many staff.",
+    "Leave the problems out of the annual report. Focus on the success stories.",
+    "Now that it's in the news, we'll repair the heating this week."
+  ],
+  "Manufactured Closure": [
+    "We had our meeting, so I consider this matter closed.",
+    "We've all moved on. Why do you keep bringing it up?",
+    "Your complaint has been resolved. No further action is required.",
+    "It's in the past now. Let's not reopen old wounds."
+  ],
+  "Metric Masking": [
+    "Our results are above target, so there's clearly no problem.",
+    "The dashboard has been green all year.",
+    "Ninety-five percent of families are satisfied. One case doesn't change that.",
+    "We don't break the figures down by class. The overall average is fine."
+  ],
+  "Metric-Mission Substitution": [
+    "I don't care how you teach it, just get the test scores up.",
+    "Close the ticket. Whether the customer's problem is fixed isn't the point.",
+    "Ten appointments an hour is the target. Keep them short.",
+    "Attendance numbers are what the funders look at, so that's what matters."
+  ],
+  "Motivation Displacement": [
+    "You get ten points for every book you read. Shortest ones count too.",
+    "Why are you helping out if there's no prize for it?",
+    "No sticker, no practice. That's the deal.",
+    "Keep volunteering and you'll climb the leaderboard."
+  ],
+  "Paid Silence": [
+    "I'll write you a glowing reference, as long as this stays between us.",
+    "The payment is yours if you agree not to discuss what happened.",
+    "Drop the complaint and the promotion is yours.",
+    "The offer expires today, so there's no time to get advice."
+  ],
+  "Participation Penalty": [
+    "Since you reported it, we'll need to watch your work more closely.",
+    "You asked for help in front of everyone? Bit embarrassing, isn't it.",
+    "Let's sit down together with him and sort it out, face to face.",
+    "Raising concerns just marks you as trouble around here."
+  ],
+  "Performative Reception": [
+    "Thank you so much for sharing this. Your voice really matters to us.",
+    "Here's your case number. We take every concern very seriously.",
+    "We hear you, and we're listening. We'll be in touch.",
+    "Thanks for following up. We appreciate your patience."
+  ],
+  "Policy as Proof": [
+    "We have a zero-tolerance bullying policy, so that couldn't have happened here.",
+    "All staff signed the code of conduct. The issue is handled.",
+    "Here's a link to the safety procedure.",
+    "The new policy was approved last month, so this is already fixed."
+  ],
+  "Predictive Tracking": [
+    "Based on her early test, she's in the lower set. That's just where she belongs.",
+    "The risk score says you're not a good candidate for the program.",
+    "People from your intake don't usually go on to leadership roles.",
+    "You'd need to prove a lot more to move up a band."
+  ],
+  "Punitive Transfer": [
+    "We're moving you to the other site. It's just routine scheduling.",
+    "It's best for everyone if you switch to the night shift for now.",
+    "We've placed your daughter in a different class, to give everyone a fresh start.",
+    "He stays where he is. You'll be reassigned while we look into it."
+  ],
+  "Record Erasure": [
+    "There's no record of that complaint in your file.",
+    "The footage is wiped every few days. Nothing we can do.",
+    "We've removed that item from the minutes.",
+    "Without a record, there's nothing to say it happened."
+  ],
+  "Self-Fulfilling Prediction": [
+    "I knew he'd struggle, so there was no point giving him the training.",
+    "See? We didn't give her the project and she still underperformed.",
+    "Troublemakers like you need closer watching. And look, you slipped up.",
+    "He was always going to fail, and he proved it."
+  ],
+  "Solution Theater": [
+    "We've launched a wellbeing app to help with workload stress.",
+    "We held a resilience workshop, so staffing concerns are addressed.",
+    "The new hotline is our answer to the safety issue.",
+    "Look at all the new resources we've announced this term."
+  ],
+  "Stigma Marking": [
+    "Free lunch students, please use the separate queue.",
+    "Will everyone who hasn't paid their fees stand up?",
+    "Your name is on the list by the door with the others under review.",
+    "Support class kids, line up over here in front of everyone."
+  ],
+  "Strategic Delay": [
+    "It's in progress. We should have something next week.",
+    "We'll send the reference after the deadline. These things take time.",
+    "We need one more form before we can process your request.",
+    "Sorry for the wait. Unfortunately the appeal window has now closed."
+  ],
+  "Structural Underfunding": [
+    "There's simply no money. That's just the system.",
+    "The waiting list is long, but that's not anyone's fault.",
+    "Nobody uses the counselling service, so we'll cut it further.",
+    "Each worker has two hundred cases. We do the best we can."
+  ],
+  "Unwritten Rules": [
+    "You didn't show initiative. You should have known to go to the dinner.",
+    "Everyone knows you email the dean before applying.",
+    "You're just not polished enough yet. You'll figure out what that means.",
+    "Nobody told you? That's how it's always been done here."
+  ],
+  "Values-Fit Pretext": [
+    "You're just not aligned with our culture.",
+    "Your family asks too many questions. You're not a good fit for our community.",
+    "This isn't about your work. It's about your attitude.",
+    "If you disagree with the leaders, maybe you're not one of us."
+  ],
+  "Visible Impunity": [
+    "He's back coaching next season. Let's all move on.",
+    "Please join me in congratulating her on her promotion.",
+    "Uncle is still hosting the holidays. Don't make a scene.",
+    "We can't tell you the outcome, but he'll be leading the new project."
+  ]
+}

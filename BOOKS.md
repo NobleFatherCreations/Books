@@ -443,3 +443,23 @@ adult child scanning on a phone for what to do next is doing
 reference-manual reading, not linear reading. Chapters hang off a
 continuous vertical thread, because a record built entry by entry over
 months is what the book is asking for. Warm cream/olive/brass.
+
+---
+
+## Findability layer (2026-11-08, round 1 built; see docs/SEO-AEO-PLAN.md)
+
+Seven books now ship, besides their own page/app, one plain page per chapter generated from the book's own text
+(never reworded; `scripts/seo/fidelity.py` proves it), a contents page, sitemap, share card and structured data. The
+book's own design and stance are untouched; the plain pages use the book's own fonts, colours and THE HOUSE menu.
+
+| Book | Plain pages | Book-specific notes |
+|---|---|---|
+| The Fracture | 13 episodes | Sources per episode as `<cite>` + JSON-LD citation; Eps 9–10 say sources not yet attached (book's own note) |
+| The Sovereign Divine Feminine | 42 chapters + Preface, 30-Minute Rescue, Appendices B, C | Appendix A (111 words) stays in-book only |
+| Playground Protectors | 28 missions + 7 guides | Titles carry each mission's plain trick name; gamification untouched; no Decoder links (kids) |
+| The Festie Codex | 33 chapters + 5 essays + confession + 22 appendices | Track names are real headings; composites/not-advice notice on every page |
+| The Fractal | 3 essays + 26 sectors + Mirror + 4 essays | 4 sectors the book marks "in production" get no page; first legal notice added |
+| The Festie Bible | 21 guides + 270 scenarios | Scenario titles carry the book's clinical term; repeated hooks name their audience |
+| The Sacred Divide | (already 34 pages) | Tagged in place, no text moved; build_faith.py runs after sacred-divide-site.py |
+
+All seven: CC BY-NC-ND 4.0, visible byline + updated date, one-line notice linking the full notice.
