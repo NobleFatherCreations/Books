@@ -493,7 +493,7 @@ question: How do I find a therapist for trauma bonding and abuse?
 seo: Therapist for Trauma Bond and Abuse Recovery: What to Look For
 short: A good therapist for trauma bond recovery and abuse understands coercive control, works in a trauma-informed way, and can offer approaches with evidence behind them. Ask about their experience before you start. Low-cost options exist in most places, and couples counselling with your ex is the wrong tool.
 ---
-Not every therapist understands coercive control. A good one can help you loosen the trauma bond, settle your nervous system and rebuild trust in yourself. A poor fit can make you feel worse, or even take your ex's side.
+You finally book the appointment, sit down, and try to explain. Then the therapist asks what you did to make them so angry. Not every therapist understands coercive control. A good one can help you loosen the trauma bond, settle your nervous system and rebuild trust in yourself. A poor fit can make you feel worse, or even take your ex's side.
 
 ## What should I look for in a therapist?
 - **Experience with domestic abuse and coercive control,** not just relationship problems.

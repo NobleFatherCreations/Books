@@ -62,7 +62,7 @@ def syllables(w):
 
 def prose(body):
     """The reading text only: no links targets, no sources list, no headings markup."""
-    b = body.split("\n## Sources")[0]
+    b = body.split("\n## Sources")[0].split("\n## Research and books")[0]   # citation lists are not prose
     b = "\n".join(l for l in b.split("\n") if not l.lstrip().startswith("|"))   # tables are reference lists, not prose
     b = re.sub(r"\]\([^)]*\)", "]", b)
     b = re.sub(r"[#>*_`\[\]]", " ", b)
@@ -147,7 +147,7 @@ def audit(slug, ch):
     rt = len(re.findall(r"\brather than\b", low))
     if rt > 2:
         fails.append(f"'rather than' x{rt}")
-    dashes = len(re.findall(r"[—–]", body.split("\n## Sources")[0]))
+    dashes = len(re.findall(r"[—–]", body.split("\n## Sources")[0].split("\n## Research and books")[0]))
     if nw and dashes * 1000 / nw > 3:
         fails.append(f"{dashes} dashes ({dashes * 1000 / nw:.1f} per 1,000 words; limit 3)")
     sents = [s for s in re.split(r"(?<=[.!?])\s+|\n+", text) if len(words(s)) > 2]

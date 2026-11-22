@@ -226,7 +226,7 @@ After abuse, many people find it hard to read for long. Concentration goes. Word
 **It will never describe ways to harm yourself.** If you're in crisis, [When it's more than aftermath](ch:when-its-more-than-aftermath) is written for you. You don't need to read anything else first.
 
 ## Who wrote it, and how it's checked
-The Long After is written by Shae Stovell as part of a free library. Every chapter lists its sources. Where experts disagree, the chapter says so. Where the book is giving its own judgment, it says that too. [What this book might have wrong](ch:what-this-book-might-have-wrong) collects the weak spots in one place.
+The Long After is written by Shae Stovell as part of a free library. Every chapter lists its sources. Where experts disagree, the chapter says so. Where the book is giving its own judgment, it says that too. [What this book might have wrong](ch:what-this-book-might-have-wrong) collects the weak spots in one place, and [Every source in this book](ch:all-sources) lists all of the sources together.
 
 ## Keeping it private
 Nothing you do here is saved. There are no accounts and no tracking of what you read. The **Leave** button at the top clears the page instantly. If someone might check your phone, a private window helps, and [Surveillance and technology](ch:surveillance-and-technology) explains the rest.

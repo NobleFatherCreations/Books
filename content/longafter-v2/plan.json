@@ -171,7 +171,8 @@
     "find-help",
     "a-to-z",
     "questions-people-ask",
-    "for-professionals"
+    "for-professionals",
+    "all-sources"
    ]
   }
  ],
@@ -1739,6 +1740,19 @@
    "title": "For professionals",
    "keyword": "post separation abuse resource for advocates",
    "keywords2": [],
+   "decoder": [],
+   "feminine": [],
+   "heavy": false
+  },
+  {
+   "slug": "all-sources",
+   "part": "tools",
+   "n": 11,
+   "title": "Every source in this book",
+   "keyword": "domestic abuse research sources",
+   "keywords2": [
+    "post separation abuse sources"
+   ],
    "decoder": [],
    "feminine": [],
    "heavy": false

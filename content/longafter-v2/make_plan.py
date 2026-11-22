@@ -135,6 +135,7 @@ P = [
   ("a-to-z", "A to Z: the words, plainly", "post separation abuse terms", ["hoovering meaning", "trauma bond meaning", "grey rock meaning"], [], [], False),
   ("questions-people-ask", "Questions people ask", "post separation abuse questions", [], [], [], False),
   ("for-professionals", "For professionals", "post separation abuse resource for advocates", [], [], [], False),
+  ("all-sources", "Every source in this book", "domestic abuse research sources", ["post separation abuse sources"], [], [], False),
  ]),
 ]
 OLD_GONE = {"what-this-book-is-not": "how-to-use-this-book"}   # first-edition addresses that now live elsewhere
