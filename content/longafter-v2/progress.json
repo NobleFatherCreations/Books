@@ -14,7 +14,8 @@
    "label": "2. Write the expansion, part by part (target: about 105,000 words, roughly double)",
    "status": "doing",
    "notes": [
-    "2026-11-22: First expansion pass complete across all 96 pages; second pass will follow the voice audit and steelman"
+    "2026-11-22: First expansion pass complete across all 96 pages; second pass will follow the voice audit and steelman",
+    "2026-11-22: Second pass started: worked examples (labelled as made up) and closing action/reflection sections, chapter-specific headings"
    ]
   },
   "voice": {
@@ -619,6 +620,10 @@
   {
    "date": "2026-11-22",
    "what": "First expansion pass complete across all 96 pages; second pass will follow the voice audit and steelman"
+  },
+  {
+   "date": "2026-11-22",
+   "what": "Second pass started: worked examples (labelled as made up) and closing action/reflection sections, chapter-specific headings"
   }
  ]
 }
