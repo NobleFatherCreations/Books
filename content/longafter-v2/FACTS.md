@@ -171,3 +171,13 @@ Topics chosen from Ubersuggest Google-autocomplete data (8 seeds) and keyword vo
 - verify: US military Family Advocacy Program; restricted vs unrestricted reporting for domestic abuse
 - verify: UK Migrant Victims of Domestic Abuse Concession; US VAWA self-petition and U visa
 - verify: occupation order, Family Law Act 1996 (England and Wales); exclusion order (Scotland); US protective orders granting exclusive possession
+## Pass 4b: Part II (to verify in phase 6)
+- verify: victims' own risk perception predicts reassault (Weisz, Tolman & Saunders 2000; Heckert & Gondolf 2004)
+- verify: iOS and Android alerts for unknown Bluetooth trackers travelling with you
+- verify: former partners most common stalker category; more likely violent than stranger stalkers
+- verify: Stalking Protection Orders (Stalking Protection Act 2019, police apply, from Jan 2020); Scotland non-harassment orders; US stalking protective orders
+- verify: National Stalking Helpline (UK)
+- verify: StopNCII.org (on-device hashing, adults); Take It Down (NCMEC, images under 18); Revenge Porn Helpline (UK); Childline Report Remove
+- verify: England and Wales sharing/threatening to share intimate images incl. faked = offence (Online Safety Act 2023 amendments, from 31 Jan 2024)
+- verify: US TAKE IT DOWN Act (2025): crime to publish NCII incl. AI; platforms must remove on request (48 hours)
+- verify: UK anonymous electoral registration; US ACPs covering voter registration

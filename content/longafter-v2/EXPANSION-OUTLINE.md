@@ -90,3 +90,130 @@ How each chapter was outlined: read what it already answers, then ask what a fri
 - *Planning the move without announcing it*.
 - *Asking a court to have them leave*: occupation orders (England and Wales), exclusive possession in protective orders (US), and what to search.
 - *If they're the one moving out*.
+
+## PART II. STAYING SAFE AFTER YOU LEAVE
+
+**a-safety-plan-for-after-youve-left** (913 w)
+- *Making the plan with a service*: what to expect, why two heads help.
+- *A plan for the children*: by age; a code word; who they call.
+- *Online life in the plan*: posting, check-ins, tagged photos.
+- *Pets in the plan*.
+- *If you're disabled or have health needs*.
+- *Keeping the plan current*: when to update it.
+
+**warning-signs-to-take-seriously** (593 w)
+- *Signs in how they talk about you*: ownership, "if I can't have you", fixation.
+- *Signs around children and pets*.
+- *Signs it's escalating*.
+- *Why your fear counts*: research on victims' own risk judgments.
+- *Saying it without sounding dramatic*.
+
+**surveillance-and-technology** (759 w)
+- *Shared family plans and cloud accounts*.
+- *Smart home devices*.
+- *The car*: apps, trackers, alerts for unknown trackers.
+- *Children's devices and gifts*.
+- *Keeping evidence of tracking*.
+- *A private phone*.
+
+**stalking-and-harassment** (686 w)
+- *What stalking after a breakup often looks like*: the common patterns.
+- *Orders that cover stalking*: Stalking Protection Orders (England and Wales), protective orders elsewhere.
+- *Telling neighbours and work*.
+- *If police don't take it seriously*.
+- *Living with it*: routines, support, the long haul.
+
+**intimate-images-and-online-threats** (621 w)
+- *Getting images taken down*: platforms, StopNCII, Take It Down (under 18).
+- *Fake and AI-made images*.
+- *If you're under 18*.
+- *Telling someone*.
+
+**your-address-your-records-your-mail** (612 w)
+- *Official records*: anonymous electoral registration (UK), voter records (US).
+- *Deliveries, online orders and apps*.
+- *Your car and its registration*.
+- *The children's records*: school, doctor, clubs.
+- *A moving checklist*.
+
+## PART III. HOW IT CONTINUES
+
+**children-as-the-channel** (878 w)
+- *Common tactics, by age*.
+- *Gifts, promises and the "fun parent"*.
+- *When your child comes home upset: the first hour*.
+- *Keeping your child out of the middle*: what to say, what not to say.
+- *Looking after yourself while they're away*.
+
+**money-as-the-channel** (675 w)
+- *How child support services work*: CMS (UK), state agencies (US), others.
+- *Hidden income and self-employment*.
+- *Joint accounts and the mortgage after separation*.
+- *Money abuse through the courts*: costs as a weapon.
+- *Where to get help*: specialist economic abuse services.
+
+**the-narrative-campaign** (616 w)
+- *What the story usually says*.
+- *Schools, employers and faith communities*.
+- *Social media*: settings, silence, screenshots.
+- *When the story reaches court*.
+- *Rebuilding your name slowly*.
+
+**your-family-and-mutual-friends** (558 w)
+- *When it's your own family*.
+- *Friends who want to stay neutral*.
+- *When someone passes information*.
+- *Weddings, funerals and school events*.
+- *Grieving the friendships you lose*.
+
+**the-new-partner** (528 w)
+- *Should you warn their new partner?*
+- *Bringing a new partner into the children's lives*.
+- *When your partner wants to confront your ex*.
+- *Comparison and jealousy*.
+
+**hoovering** (1,429 w)
+- *Hoovering through the children*.
+- *Hoovering through a crisis or health scare*.
+- *What a real apology contains*.
+- *A plan for the next hoover*.
+
+**when-they-say-youre-the-abuser** (753 w)
+- *Counter-allegations in court*.
+- *Staying steady under accusation*.
+- *Getting your own legal advice quickly*.
+- *If you're a man being accused*.
+- *Rebuilding afterwards*.
+
+**when-it-stops** (543 w)
+- *Signs it's winding down*.
+- *What quiet feels like*.
+- *When it flares again*.
+- *Letting your guard down slowly*.
+- *If it moves to someone else*.
+
+## PART IV. CONTACT
+
+**no-contact-low-contact** (631 w)
+- *No contact and social media*.
+- *No contact with their family*.
+- *Cards, gifts and letters*.
+- *The urge to make contact: what to do in the moment*.
+- *Family events*.
+
+**grey-rock-and-written-only-contact** (658 w)
+- *Five grey rock exchanges*.
+- *Grey rock in person*: handovers, school events.
+- *Grey rock with the children watching*.
+- *Grey rock is not ignoring*.
+
+**words-you-can-use** (634 w)
+- *Replies for the most common messages*: schedule changes, money, insults, the new partner, threats, apologies, guilt about the children, third parties, requests to meet.
+- *Writing for a future judge*.
+
+**messages-you-dont-have-to-answer** (547 w)
+- *Three piles*: answer, record, ignore.
+- *Filters and a separate inbox*.
+- *Having someone else read them first*.
+- *When a message contains a threat*.
+- *Reading once a day or once a week*.

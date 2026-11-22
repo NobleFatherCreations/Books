@@ -90,9 +90,9 @@
     "intimate-images-and-online-threats",
     "your-address-your-records-your-mail"
    ],
-   "outlined": false,
-   "written": false,
-   "audited": false
+   "outlined": true,
+   "written": true,
+   "audited": true
   },
   "iii": {
    "title": "How it continues",
@@ -106,7 +106,7 @@
     "when-they-say-youre-the-abuser",
     "when-it-stops"
    ],
-   "outlined": false,
+   "outlined": true,
    "written": false,
    "audited": false
   },
@@ -118,7 +118,7 @@
     "words-you-can-use",
     "messages-you-dont-have-to-answer"
    ],
-   "outlined": false,
+   "outlined": true,
    "written": false,
    "audited": false
   },
@@ -364,12 +364,12 @@
   "the-first-30-days": 1167,
   "if-they-left-you": 964,
   "still-under-the-same-roof": 1056,
-  "a-safety-plan-for-after-youve-left": 913,
-  "warning-signs-to-take-seriously": 593,
-  "surveillance-and-technology": 759,
-  "stalking-and-harassment": 686,
-  "intimate-images-and-online-threats": 621,
-  "your-address-your-records-your-mail": 612,
+  "a-safety-plan-for-after-youve-left": 1432,
+  "warning-signs-to-take-seriously": 966,
+  "surveillance-and-technology": 1160,
+  "stalking-and-harassment": 1082,
+  "intimate-images-and-online-threats": 917,
+  "your-address-your-records-your-mail": 923,
   "children-as-the-channel": 878,
   "money-as-the-channel": 675,
   "the-narrative-campaign": 616,
@@ -476,6 +476,26 @@
   {
    "date": "2026-11-22",
    "what": "Part I audited: Part I: content audit passing (0 failing); new facts logged for phase 6"
+  },
+  {
+   "date": "2026-11-22",
+   "what": "Part II outlined: Part II outlined (see EXPANSION-OUTLINE.md)"
+  },
+  {
+   "date": "2026-11-22",
+   "what": "Part III outlined: Part III outlined (see EXPANSION-OUTLINE.md)"
+  },
+  {
+   "date": "2026-11-22",
+   "what": "Part IV outlined: Part IV outlined (see EXPANSION-OUTLINE.md)"
+  },
+  {
+   "date": "2026-11-22",
+   "what": "Part II written: Part II: 30 new sections across 6 chapters (planning with a service, children's plan by age, online life, pets, disability, warning signs in speech/children/pets/escalation, why your fear counts, family plans/cloud/smart home/car trackers/children's devices, stalking patterns and orders, police not listening, image takedown StopNCII/Take It Down, AI fakes, under-18 help, anonymous registration, deliveries, car, children's records, moving checklist)"
+  },
+  {
+   "date": "2026-11-22",
+   "what": "Part II audited: Part II: content audit passing; facts logged"
   }
  ]
 }
