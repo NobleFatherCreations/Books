@@ -154,8 +154,8 @@
     "pregnant-or-with-a-new-baby"
    ],
    "outlined": true,
-   "written": false,
-   "audited": false
+   "written": true,
+   "audited": true
   },
   "vii": {
    "title": "Feelings",
@@ -393,14 +393,14 @@
   "housing-and-benefits": 842,
   "where-to-find-the-right-body": 748,
   "untangling-the-paperwork": 900,
-  "co-parenting-or-parallel-parenting": 895,
-  "handovers": 499,
-  "your-children-and-what-to-say": 592,
-  "how-children-react": 628,
-  "when-your-child-is-pulled-in": 544,
-  "apps-calendars-and-the-parenting-plan": 565,
-  "moving-passports-and-travel-with-children": 506,
-  "pregnant-or-with-a-new-baby": 464,
+  "co-parenting-or-parallel-parenting": 1335,
+  "handovers": 846,
+  "your-children-and-what-to-say": 964,
+  "how-children-react": 983,
+  "when-your-child-is-pulled-in": 961,
+  "apps-calendars-and-the-parenting-plan": 797,
+  "moving-passports-and-travel-with-children": 917,
+  "pregnant-or-with-a-new-baby": 827,
   "the-trauma-bond": 1152,
   "what-youre-allowed-to-feel-about-someone-you-left": 501,
   "the-grief-nobody-will-let-you-have": 530,
@@ -528,6 +528,14 @@
   {
    "date": "2026-11-22",
    "what": "Part V audited: Part V: content audit passing; facts logged"
+  },
+  {
+   "date": "2026-11-22",
+   "what": "Part VI written: Part VI: 30 new sections across 8 chapters (what a parallel plan contains, communication rules, who decides what, school and medical info, breaches, moving towards cooperation, handover options table, contact centres, school handovers, preparing children, no-shows, explaining abuse/police/moves, common children's questions with answers, safety without fear, signs by age, regression, anger, teen self-harm and dating, school support, TF-CBT and child-parent psychotherapy, loyalty conflicts, alienation claims, keeping the bond, teen choosing the other home, app setup and logging and exports, passports and alerts, Hague Convention, consent letters, relocation, antenatal enquiry, birth safety, registering the birth, feeding and contact, postnatal depression)"
+  },
+  {
+   "date": "2026-11-22",
+   "what": "Part VI audited: Part VI: content audit passing; facts logged"
   }
  ]
 }

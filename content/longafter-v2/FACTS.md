@@ -203,3 +203,12 @@ Topics chosen from Ubersuggest Google-autocomplete data (8 seeds) and keyword vo
 - verify: Victims' Code; Victims' Right to Review; IOPC; US victim notification (e.g. VINE)
 - verify: DA Act 2021 s.78 priority need; sanctuary schemes; VAWA housing protections and emergency transfers
 - verify: IDVA role
+## Pass 4e: Part VI (to verify in phase 6)
+- verify: both parents can usually get school/medical info absent an order (UK parental responsibility; US varies)
+- verify: TF-CBT and child-parent psychotherapy evidence base
+- verify: courts more cautious about "alienation" claims where abuse alleged (e.g. E&W guidance 2024, UN Special Rapporteur 2023 report)
+- verify: UK no general passport block; police port alert; prohibited steps order; Child Abduction Act 1984
+- verify: US two-parent consent for passports under 16; CPIAP
+- verify: 1980 Hague Convention return mechanism; Art 13(b) grave risk; Reunite International
+- verify: NICE routine enquiry about DA in antenatal care
+- verify: E&W unmarried father on birth certificate since 1 Dec 2003 gets parental responsibility; US acknowledgement of paternity
