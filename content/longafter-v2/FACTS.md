@@ -226,3 +226,11 @@ Topics chosen from Ubersuggest Google-autocomplete data (8 seeds) and keyword vo
 - verify: Freedom Programme (UK)
 - verify: therapy records may be sought in proceedings; courts usually protect
 - verify: Stanley-Brown style safety plan widely used by mental health services
+## Pass 4g: Parts IX-XI and tools (to verify in phase 6)
+- verify: paid family and domestic violence leave: Australia (NES, 10 days, 2023), New Zealand (10 days, 2019)
+- verify: US protective orders can include pets in many states; some states let divorce courts weigh pet welfare
+- verify: Turn2us and entitledto benefit calculators (UK)
+- verify: McKenzie friend (England and Wales)
+- verify: NZ Women's Refuge 0800 733 843; Shine 0508 744 633; family violence info line 0800 456 450
+- verify: South Africa GBV Command Centre 0800 428 428; India Women Helpline 181, emergency 112
+- verify: Hourglass 0808 808 8141; National Deaf DV Hotline VP 1-855-812-1001; SignHealth (BSL); love is respect 1-866-331-9474 / text LOVEIS to 22522; Childline 0800 1111

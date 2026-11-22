@@ -45,6 +45,19 @@ Then add one summary line at the top: what the pattern is, over what period, wit
 
 [What to document and how](ch:what-to-document-and-how) explains why each part matters. *The Sovereign Divine Feminine* has an evidence routine in [Appendix B, Liberation Logistics](/feminine/liberation-logistics#top).
 
+## What not to write
+- Insults or speculation about their character. Stick to what happened.
+- Anything you'd be uncomfortable with a judge reading.
+- Plans to leave or move, if there's a chance they'll find the record.
+- Other people's private details beyond what's needed.
+
+## Keeping it safe
+Keep the record where they can't find or delete it: a notebook kept away from home, an email account only you can open, or a cloud folder with a new password. Back it up. If you're worried someone might see it, give a copy to a trusted friend or advocate.
+
+## Turning it into a statement
+When you need it for a court or police statement, pull out the most important entries in date order, summarise the pattern in a paragraph, and attach evidence. A lawyer or advocate can help. Keep the original record as well.
+
+
 === safety-plan-worksheet
 title: Safety plan worksheet
 question: A safety plan worksheet for domestic violence, for life after leaving.
@@ -151,6 +164,18 @@ Here is how to check your phone for stalkerware, step by step, and everything el
 
 [Surveillance and technology](ch:surveillance-and-technology) explains each step. The Decoder describes the pattern in [monitoring and surveillance](/playbook/monitoring-surveillance). *The Sovereign Divine Feminine* covers phones as control in [The Digital Leash](/feminine/the-digital-leash#core-concept).
 
+## If you find something
+If you find tracking software, a hidden device or someone logged into your account:
+
+1. Pause before removing it. Removing it can alert them.
+2. Photograph or screenshot what you found.
+3. Talk to a domestic abuse service or police about the safest next step.
+4. Then remove it, change passwords from a safe device, and turn on two-step login.
+
+## Children's devices
+Check the children's phones, tablets, watches and games consoles too: location sharing, family accounts, apps you don't recognise. Do it with them where possible, calmly, without blaming them.
+
+
 === court-day-checklist
 title: Court day checklist
 question: A family court checklist for before, during and after the hearing.
@@ -191,6 +216,14 @@ Use this family court checklist for any hearing.
 ☐ Something gentle planned for myself
 
 [Your day in court](ch:your-day-in-court) explains each step, and [Family court, honestly](ch:family-court-honestly) gives the bigger picture.
+
+## If you represent yourself
+- Read any guidance the court website offers for people without a lawyer.
+- Bring three copies of every document: one for you, one for the judge, one for the other side.
+- Write a short list of the points you want to make, and the order you'll make them in.
+- Ask the court about a support worker or a "McKenzie friend" (in England and Wales), who can sit with you and take notes.
+- If you don't understand something, say so and ask for it to be explained.
+
 
 === pocket-card-words-you-can-use
 title: Words you can use: the pocket card
@@ -327,6 +360,19 @@ Domestic abuse help near me: start with your country's national helpline below.
 - "[your area] protective order"
 
 [Where to find the right body](ch:where-to-find-the-right-body) explains which agency does what.
+
+## More countries
+- **New Zealand:** Women's Refuge crisis line, 0800 733 843. Shine, 0508 744 633. Family violence information line, 0800 456 450.
+- **South Africa:** Gender-Based Violence Command Centre, 0800 428 428.
+- **India:** Women Helpline, 181. Emergency, 112.
+
+## Help by need
+- **Men:** UK Men's Advice Line, 0808 801 0327. In the US, the National Domestic Violence Hotline helps everyone.
+- **LGBTQ+:** UK Galop, 0800 999 5428. Elsewhere, search "LGBTQ domestic violence [your area]."
+- **Older people:** UK Hourglass, 0808 808 8141.
+- **Deaf people:** US National Deaf Domestic Violence Hotline, by videophone on 1-855-812-1001. In the UK, SignHealth offers support in British Sign Language.
+- **Young people:** US love is respect, 1-866-331-9474, or text LOVEIS to 22522. UK Childline, 0800 1111.
+
 
 === a-to-z
 title: A to Z: the words, plainly
@@ -544,3 +590,13 @@ Stovell, S. (2026). *The Long After: What happens once you've left* (2nd ed.). N
 
 ## Corrections
 If you spot an error, especially in the legal notes or helpline numbers, please report it through the Noble Father Creations homepage. Corrections are made and dated.
+
+## Using it in sessions and groups
+- Share one chapter at a time, matched to what the person is facing.
+- The "Say" boxes work well as role-play material.
+- The record and safety plan worksheets can be filled in together.
+- Short answers can be read aloud at the start of a group.
+
+## Printing
+Every page prints cleanly with its sources. For a printed pack, start with [Where are you right now?](ch:where-are-you-right-now), [What post-separation abuse is](ch:what-is-post-separation-abuse), [The record](ch:the-record) and [Safety plan worksheet](ch:safety-plan-worksheet).
+

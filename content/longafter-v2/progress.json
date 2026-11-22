@@ -4,15 +4,18 @@
  "phases": {
   "outline": {
    "label": "1. Expansion outline: every chapter, what a reader still needs (EXPANSION-OUTLINE.md)",
-   "status": "doing",
+   "status": "done",
    "notes": [
-    "2026-11-22: Owner asked for the book to be roughly doubled, each topic fully outlined, then voice audit, no-ai-slop and steelman, then design. Tracker created."
+    "2026-11-22: Owner asked for the book to be roughly doubled, each topic fully outlined, then voice audit, no-ai-slop and steelman, then design. Tracker created.",
+    "2026-11-22: Every chapter outlined in EXPANSION-OUTLINE.md"
    ]
   },
   "write": {
    "label": "2. Write the expansion, part by part (target: about 105,000 words, roughly double)",
-   "status": "todo",
-   "notes": []
+   "status": "doing",
+   "notes": [
+    "2026-11-22: First expansion pass complete across all 96 pages; second pass will follow the voice audit and steelman"
+   ]
   },
   "voice": {
    "label": "3. Voice audit: every page read against the voice spec (BOOK-MAP-v2.md section 2), scored, weak passages rewritten",
@@ -230,8 +233,8 @@
     "the-long-after"
    ],
    "outlined": true,
-   "written": false,
-   "audited": false
+   "written": true,
+   "audited": true
   },
   "tools": {
    "title": "Toolbox",
@@ -248,8 +251,8 @@
     "for-professionals"
    ],
    "outlined": true,
-   "written": false,
-   "audited": false
+   "written": true,
+   "audited": true
   }
  },
  "baseline": {
@@ -433,20 +436,20 @@
   "dating-when-youre-ready-and-when-youre-not": 877,
   "the-version-of-you-from-before": 729,
   "what-recovered-actually-means": 751,
-  "if-you-go-back": 499,
-  "helping-someone-in-year-one": 466,
-  "what-this-book-might-have-wrong": 469,
-  "the-long-after": 481,
-  "the-record": 290,
+  "if-you-go-back": 795,
+  "helping-someone-in-year-one": 726,
+  "what-this-book-might-have-wrong": 709,
+  "the-long-after": 685,
+  "the-record": 437,
   "safety-plan-worksheet": 334,
-  "device-and-account-audit": 324,
-  "court-day-checklist": 247,
+  "device-and-account-audit": 420,
+  "court-day-checklist": 342,
   "pocket-card-words-you-can-use": 210,
   "the-card": 211,
-  "find-help": 327,
+  "find-help": 453,
   "a-to-z": 797,
   "questions-people-ask": 978,
-  "for-professionals": 289
+  "for-professionals": 374
  },
  "log": [
   {
@@ -592,6 +595,30 @@
   {
    "date": "2026-11-22",
    "what": "Part X audited: Part X: content audit passing"
+  },
+  {
+   "date": "2026-11-22",
+   "what": "Part XI written: Part XI written (XI: staying safer while back, record and exits, worsening signs, friends and children while back, year-one stages, practical help, children, online don'ts, helper self-care, source types, fast-changing areas, what the book leaves out, reading research claims, years-on voices, long tail, using what you know, a last word. Tools: what not to write, keeping the record safe, turning it into a statement, if you find tracking, children's devices, representing yourself, NZ/South Africa/India numbers, help by need, professional use and printing)"
+  },
+  {
+   "date": "2026-11-22",
+   "what": "Part XI audited: Part XI: content audit passing"
+  },
+  {
+   "date": "2026-11-22",
+   "what": "Part TOOLS written: Part TOOLS written (XI: staying safer while back, record and exits, worsening signs, friends and children while back, year-one stages, practical help, children, online don'ts, helper self-care, source types, fast-changing areas, what the book leaves out, reading research claims, years-on voices, long tail, using what you know, a last word. Tools: what not to write, keeping the record safe, turning it into a statement, if you find tracking, children's devices, representing yourself, NZ/South Africa/India numbers, help by need, professional use and printing)"
+  },
+  {
+   "date": "2026-11-22",
+   "what": "Part TOOLS audited: Part TOOLS: content audit passing"
+  },
+  {
+   "date": "2026-11-22",
+   "what": "Every chapter outlined in EXPANSION-OUTLINE.md"
+  },
+  {
+   "date": "2026-11-22",
+   "what": "First expansion pass complete across all 96 pages; second pass will follow the voice audit and steelman"
   }
  ]
 }
