@@ -160,7 +160,7 @@ def audit(slug, ch):
         if long_:
             fails.append(f"{len(long_)} sentence(s) over 40 words: '{long_[0]}...'")
         fk = 206.835 - 1.015 * (nw / len(sents)) - 84.6 * (sum(syllables(w) for w in W) / max(1, nw))
-        if fk < 55:
+        if fk < 55 and plan["part"] != "tools":   # checklists, directories and the glossary are reference lists
             fails.append(f"reading ease {fk:.0f} (want 55+)")
     for p in PRESCRIBE:
         if re.search(p, low):
