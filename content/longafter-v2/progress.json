@@ -199,9 +199,9 @@
     "making-new-people-from-scratch",
     "sharing-a-town-a-workplace-or-a-community"
    ],
-   "outlined": false,
-   "written": false,
-   "audited": false
+   "outlined": true,
+   "written": true,
+   "audited": true
   },
   "x": {
    "title": "Rebuilding",
@@ -217,7 +217,7 @@
     "the-version-of-you-from-before",
     "what-recovered-actually-means"
    ],
-   "outlined": false,
+   "outlined": true,
    "written": false,
    "audited": false
   },
@@ -229,7 +229,7 @@
     "what-this-book-might-have-wrong",
     "the-long-after"
    ],
-   "outlined": false,
+   "outlined": true,
    "written": false,
    "audited": false
   },
@@ -247,7 +247,7 @@
     "questions-people-ask",
     "for-professionals"
    ],
-   "outlined": false,
+   "outlined": true,
    "written": false,
    "audited": false
   }
@@ -417,12 +417,12 @@
   "drinking-drugs-and-getting-through": 830,
   "finding-a-therapist-who-understands-this": 824,
   "when-its-more-than-aftermath": 1002,
-  "the-friends-who-didnt-believe-you": 447,
-  "the-friends-who-did-and-are-tired": 457,
-  "your-parents": 513,
-  "telling-someone-new": 496,
-  "making-new-people-from-scratch": 514,
-  "sharing-a-town-a-workplace-or-a-community": 487,
+  "the-friends-who-didnt-believe-you": 735,
+  "the-friends-who-did-and-are-tired": 718,
+  "your-parents": 841,
+  "telling-someone-new": 752,
+  "making-new-people-from-scratch": 801,
+  "sharing-a-town-a-workplace-or-a-community": 773,
   "money-from-zero": 732,
   "work-again": 455,
   "a-home-that-feels-like-yours": 503,
@@ -560,6 +560,30 @@
   {
    "date": "2026-11-22",
    "what": "Part VIII audited: Part VIII: content audit passing incl. method/crisis-link safety checks"
+  },
+  {
+   "date": "2026-11-22",
+   "what": "Part IX outlined: Part IX outlined"
+  },
+  {
+   "date": "2026-11-22",
+   "what": "Part X outlined: Part X outlined"
+  },
+  {
+   "date": "2026-11-22",
+   "what": "Part XI outlined: Part XI outlined"
+  },
+  {
+   "date": "2026-11-22",
+   "what": "Part TOOLS outlined: Part TOOLS outlined"
+  },
+  {
+   "date": "2026-11-22",
+   "what": "Part IX written: Part IX: 25 new sections across 6 chapters (why disbelief happens, friends who come round, disbelieving relatives and children, disbelieving professionals, support map, asking clearly, what helps helpers, support that spares friends, parents who blame, parents who want to intervene, cultural and faith expectations, limits with love, rebuilding with parents, three versions of your story, telling friends/landlords/neighbours, reading reactions, 12-week friendship plan, first conversations, keeping friendships, survivor friendships, loneliness, run-in script, splitting spaces, working together, shared online groups, deciding to move)"
+  },
+  {
+   "date": "2026-11-22",
+   "what": "Part IX audited: Part IX: content audit passing"
   }
  ]
 }

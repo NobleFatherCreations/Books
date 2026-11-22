@@ -264,3 +264,39 @@ How each chapter was outlined: read what it already answers, then ask what a fri
 **drinking-drugs-and-getting-through** (506 w): what it's doing for you · safer steps · if they pushed substances on you · fear about the children · stopping safely · support groups
 **finding-a-therapist-who-understands-this** (504 w): the main therapies in plain words · group support · therapy notes and court · the first sessions · therapy for children
 **when-its-more-than-aftermath** (584 w): signs it's more · what happens when you tell a doctor · a crisis plan · if you've hurt yourself · after a crisis
+
+## PART IX. THE PEOPLE AROUND YOU
+
+**the-friends-who-didnt-believe-you** (447 w): why disbelief happens (the charm, the hidden pattern, their own fear) · what to say if they come round later · protecting the children from disbelieving adults · when disbelief comes from professionals
+**the-friends-who-did-and-are-tired** (457 w): a support map (who for what) · asking clearly · what friends say helps them help · paid and volunteer support that takes the load
+**your-parents** (513 w): parents who blame you · parents who want to "talk to them" · cultural and faith expectations · setting limits with love · rebuilding with a parent later
+**telling-someone-new** (496 w): a one-line, a short and a full version · telling a friend · telling a landlord or neighbour · after you've told: what to watch for
+**making-new-people-from-scratch** (514 w): a 12-week plan · the first conversation · keeping friendships going · friendships with other survivors · being lonely without being alone
+**sharing-a-town-a-workplace-or-a-community** (487 w): a run-in script · splitting spaces fairly · when you have to work on the same project · online communities you share · moving away: deciding
+
+## PART X. REBUILDING
+
+**money-from-zero** (732 w): a first budget · bank accounts and identity safety · benefits and tax credits to check · income from the court (maintenance) · scams and predatory lenders · building a small cushion
+**work-again** (455 w): what employers can do (policies, leave, adjustments) · returning after years out · training and education · interviews: answering questions about the gap · self-employment and safety online
+**a-home-that-feels-like-yours** (503 w): a first-week setup · furnishing from nothing · sounds and smells · inviting people in · the children's rooms
+**pets-and-the-things-left-behind** (427 w): pet custody and ownership · a police escort to collect things · what to prioritise · photos and sentimental things · when things are destroyed
+**holidays-and-the-first-year** (472 w): a month-by-month first year · birthdays (yours and the children's) · school events · gifts and money pressure · after the first year
+**your-own-tastes-rediscovered** (479 w): a list of tiny experiments · music, food, clothes, rooms · money-free ideas · the body: what feels good · noticing your own "no"
+**trust-as-a-practice** (508 w): trust in small steps (a ladder) · trust and boundaries · rebuilding trust with family · trust in institutions after being let down · trusting your gut without over-reading
+**dating-when-youre-ready-and-when-youre-not** (547 w): a readiness checklist · the first dates: practical safety · green flags · sex and intimacy after abuse · introducing a partner to the children (link) · when the past shows up in a new relationship
+**the-version-of-you-from-before** (486 w): what people describe changing · strengths built in hard times · reclaiming things they ruined · identity beyond "survivor" · writing a letter to yourself
+**what-recovered-actually-means** (490 w): areas of recovery (safety, body, mind, people, money, meaning) · a self-check across them · relapse and setbacks · when recovery includes ongoing contact · helping others when you're ready
+
+## PART XI. THE LEDGER
+
+**if-you-go-back** (499 w): staying safer while back · keeping your record and your exits · signs it's getting worse · keeping friends while back · the children while you're back
+**helping-someone-in-year-one** (466 w): what year one looks like · practical help by month · helping with children · what not to do online · looking after yourself as the helper · if you're a professional friend
+**what-this-book-might-have-wrong** (469 w): the evidence base (what kinds of sources) · where laws change fastest · what the book leaves out · how to read research claims online
+**the-long-after** (481 w): what people say years on · the long tail (court, children, anniversaries) · what you might do with what you know · a last word
+
+## TOOLBOX
+**the-record**: what not to write · keeping it safe · turning it into a statement
+**device-and-account-audit**: if you find something · children's devices
+**court-day-checklist**: if you represent yourself
+**find-help**: New Zealand, South Africa, India; services by need (men, LGBTQ+, older, disabled, Deaf, young people)
+**for-professionals**: using it in sessions and groups · printing
