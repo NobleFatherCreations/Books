@@ -42,3 +42,25 @@ Status key: `verify` = still to check (final pass, task 24), `ok` = checked, wit
 - verify: Dichter (2013), Women & Criminal Justice 23(2)
 - verify: child support services named (UK CMS collect and pay; Services Australia; US OCSS; Canadian provincial MEPs; Ireland District Court attachment of earnings)
 - verify: Clare's Law guidance 2016 (Home Office)
+
+## Part IV
+- verify: Eddy (2014), BIFF, 2nd ed., Unhooked Books
+- verify: AFCC (2016), Guidelines for Examining Intimate Partner Violence
+
+## Part V
+- verify: Children Act 1989 s.91(14) and s.91A (DA Act 2021 s.67)
+- verify: Home Office (2023), Controlling or Coercive Behaviour Statutory Guidance Framework lists legal proceedings
+- verify: Georgia and Washington abusive litigation laws (family cases)
+- verify: Miller and Smolter (2011), Violence Against Women 17(5); Gutowski and Goodman (2023), J Family Violence 38
+- verify: LASPO 2012 / Civil Legal Aid (Procedure) Regs 2012 reg 33; DA Act 2021 s.65 (cross-examination ban) and s.63 (special measures)
+- verify: Rights of Women advice line; LawHelp.org
+- verify: Harm Panel 2020 findings (pro-contact culture, minimisation)
+- verify: Family Law Amendment Act 2023 (Australia)
+- verify: Meier et al. (2019), GWU Public Law Research Paper 2019-56
+- verify: FPR PD 3A, MIAM domestic abuse exemption; Australian FDR family violence exemption
+- verify: Divorce, Dissolution and Separation Act 2020, in force 6 April 2022
+- verify: FLA 1996 s.42A (breach of a non-molestation order is a criminal offence); DA Act 2021 Part 3 DAPN/DAPO rollout status
+- verify: Logan and Walker (2010), Violence and Victims 25(3)
+- verify: DA Act 2021 s.78 priority need (England); VAWA housing 34 USC 12491; Ontario RTA s.47.1; BC RTA s.45.1
+- verify: Wills Act 1837 s.18A; Safe Connections Act 2022 (US) phone line separation
+- verify: Police Scotland Disclosure Scheme for Domestic Abuse Scotland (DSDAS)

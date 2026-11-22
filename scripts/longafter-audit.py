@@ -63,6 +63,7 @@ def syllables(w):
 def prose(body):
     """The reading text only: no links targets, no sources list, no headings markup."""
     b = body.split("\n## Sources")[0]
+    b = "\n".join(l for l in b.split("\n") if not l.lstrip().startswith("|"))   # tables are reference lists, not prose
     b = re.sub(r"\]\([^)]*\)", "]", b)
     b = re.sub(r"[#>*_`\[\]]", " ", b)
     return b
