@@ -86,6 +86,39 @@ Whatever word fits, what loosens it is much the same: distance, a straight story
 ## Can a trauma bond become a healthy relationship?
 Rarely, and only if the person who caused harm changes deeply, over a long time, with accountability and without pressure on you. Going back to test whether they've changed usually restarts the cycle. If you're considering it, read [If you go back](ch:if-you-go-back) and [Trust as a practice](ch:trust-as-a-practice) first.
 
+## A 30-day plan to loosen it
+Thirty days won't break a bond built over years. It can loosen its grip enough that you feel some choice again.
+
+- **Days 1 to 7: cut the supply.** Block or mute them everywhere you can. Put photos and gifts in a box out of sight. Tell one person you're doing this, and agree they're the one you message when the pull comes.
+- **Days 8 to 14: write the true story.** Each day, write one thing that happened, plainly, with the date if you know it. Read the list when the good memories arrive.
+- **Days 15 to 21: fill the gaps.** Notice the times of day you miss them most. Put something there: a walk, a call, a class, a programme you like.
+- **Days 22 to 30: look at what you've done.** Count the days without contact, the urges you rode out, the nights you slept. Write down one thing you've done for yourself that they would have stopped.
+
+If you slip, start again from the day you're on. Slips are part of how bonds loosen.
+
+## When the bond is with a parent or family
+Trauma bonds can form with a parent, a sibling or a whole family, as well as a partner. They can be even harder to loosen, because they started in childhood and come wrapped in duty and love.
+
+The same things help: distance where you can, a written account of what happened, and support. Add patience with yourself for the guilt that comes with stepping back from family. See "Leaving a controlling parent or family" in [If your story doesn't look like the usual one](ch:if-your-story-doesnt-look-like-the-usual-one).
+
+## The worst nights
+Some nights the pull is overwhelming. For those nights:
+
+- Don't decide anything after 10pm. Tell yourself you'll think about it in the morning.
+- Put your phone in another room, or give it to someone for the night.
+- Hold something cold, or take a warm shower, to bring your body down.
+- Read the list of what happened.
+- Call a helpline. They talk to people in this exact state every night.
+
+The night passes. The feeling usually feels smaller in daylight.
+
+## Explaining it to people who don't understand
+Friends may say, "Why would you miss someone who treated you like that?" It's hard to explain, and you don't owe anyone a full answer.
+
+> **Say:** "It's called a trauma bond. The ups and downs made the attachment stronger. I know it doesn't make sense from the outside. I don't need you to understand it; I just need you to not make me feel stupid for it."
+
+You can also send them this chapter.
+
 ## Is something wrong with me for feeling this?
 No. Trauma bonds form in ordinary people under particular conditions. They say more about the pattern you were in than about your judgment or strength. [What you're allowed to feel about someone you left](ch:what-youre-allowed-to-feel-about-someone-you-left) covers the mix of feelings this leaves behind.
 
@@ -150,6 +183,27 @@ Happiness after leaving isn't a betrayal of anyone, including your children. You
 ## What if I want to reach out to them?
 Notice the urge, and wait. Tell someone first. Read [Hoovering](ch:hoovering) and [The trauma bond](ch:the-trauma-bond). The urge usually passes, and it passes faster each time you don't act on it.
 
+## What do I do with the good memories?
+You may remember holidays, jokes, kindness, the early days. Those memories are real. They don't cancel out the harm, and the harm doesn't cancel them.
+
+You don't have to throw them away. You can put them in their place: one part of a story that also includes things that hurt you. When a good memory comes, you can let it be there, then remind yourself of the rest. Some people find it helps to write both columns side by side.
+
+## Missing them, or missing who you hoped they were?
+Often what people miss is the person they believed in: the version that appeared at the start, or in the good spells, or in their hopes. That version was part real and part promise.
+
+Asking yourself "Which one am I missing?" can make the grief clearer. You can grieve the hope without going back to the person.
+
+## Feeling sorry for them
+You may feel pity: for their childhood, their loneliness, their struggles. Compassion is a good quality. It may also have been used to keep you there.
+
+You can feel sorry for someone and still keep your distance. Their pain is real, and it's not yours to fix.
+
+## Love that lingers
+Some people still love the person they left, months or years later. That doesn't mean you should go back, or that you've failed to move on. Love can fade slowly, and it can sit alongside the knowledge that the relationship wasn't safe. Feeling love isn't the same as acting on it.
+
+## Telling people about mixed feelings
+People around you may want you to only feel anger. If you say you miss them, they may worry, or get frustrated. Choose who you tell. A therapist, a helpline or a support group can hear mixed feelings without needing them to be simple.
+
 ## Sources
 - Dutton, D. G., and Painter, S. (1993). Emotional attachments in abusive relationships: A test of traumatic bonding theory. *Violence and Victims*, 8(2), 105–120.
 - Herman, J. L. (1992). *Trauma and Recovery.* Basic Books.
@@ -203,6 +257,35 @@ It doesn't follow a timetable. It comes in waves that tend to get further apart.
 ## What about grieving for my children's family?
 Many parents grieve the family their children didn't get. Your children can still have a loving home, or two homes, even if it isn't the one you pictured.
 
+## The losses, named
+Leaving abuse can mean losing many things at once:
+
+- the person you loved, or thought you loved
+- the future you'd planned together
+- your home, your neighbourhood, your belongings
+- in-laws, friends and a community
+- money, security, a career
+- years of your life
+- the version of you from before
+- the family your children had
+
+Naming each one helps. Grief is easier to carry when you know what you're grieving.
+
+## Grief in waves
+Grief rarely moves in neat stages. It comes in waves: a song in a shop, a photo, a smell, a date. Some days are fine; some days you can't get out of bed. Over time, the waves usually come less often, and they're easier to ride. They may never stop completely, and that's okay.
+
+## Rituals that help
+- Write a letter to what you've lost, not to the person. Keep it, or burn it, or bury it.
+- Box up reminders and put them away, to decide about later.
+- Mark a date with something gentle: a walk, a meal, a candle.
+- Make a list of what you've gained, alongside what you've lost.
+
+## Your children's grief
+Children grieve too: for the family they had, the house, the other parent, the routines. Let them be sad without having to make you feel better. Keep some familiar things the same. See [How children react](ch:how-children-react).
+
+## When grief and anger mix
+Grief and anger often arrive together. One minute you miss them; the next you're furious. Both are part of losing something that was also harming you. See [Anger arriving late](ch:anger-arriving-late).
+
 ## Sources
 - Doka, K. J. (Ed.) (1989). *Disenfranchised Grief: Recognizing Hidden Sorrow.* Lexington Books.
 - Herman, J. L. (1992). *Trauma and Recovery.* Basic Books.
@@ -238,6 +321,40 @@ People stay for many reasons: love, hope, fear, money, children, nowhere to go, 
 
 ## What about guilt about the children?
 You may feel guilty that they saw things, or that they now have two homes. Children do better in one calm home than in one tense one. Leaving to protect them, or yourself, is a choice made for them, not against them. [How children react, and what helps them](ch:how-children-react) covers what helps them now.
+
+## Guilt as a tool they used
+In many controlling relationships, guilt was used on purpose. "After everything I've done for you." "You're tearing this family apart." "Look what you made me do."
+
+Guilt that was trained into you over years doesn't switch off when you leave. It can keep firing at things that aren't your fault. When guilt arrives, ask: "Is this my voice, or theirs?"
+
+## The common guilts, answered
+- **"I broke up the family."** The abuse broke it. Leaving was a response to that.
+- **"The children saw too much."** Many parents feel this. Leaving was one of the ways you protected them from seeing more.
+- **"I stayed too long."** You stayed as long as you needed to be able to leave safely. That is how leaving works for most people.
+- **"I left the pets, the house, their family."** You left what you couldn't take, to get out safely.
+- **"I'm costing everyone money and stress."** Their behaviour is causing the cost.
+
+## Shame about what you did to survive
+People in abusive relationships often do things they'd never normally do: lie to protect themselves, go along with things they disagreed with, cut off friends, snap at their children, use alcohol to cope. Afterwards, they feel deep shame.
+
+These were survival responses in an impossible situation. Understanding that doesn't mean pretending they didn't happen. It means placing them in context, and treating yourself with the understanding you'd give a friend.
+
+## Shame in a community or faith
+In some communities, separation and divorce carry stigma, or there's pressure to keep the family together "for the children" or because of religious teaching. You may feel judged by people you've known all your life.
+
+Find people inside or outside your community who support you. Many faith traditions have leaders and groups that recognise abuse. You don't have to choose between your faith and your safety.
+
+## Self-compassion that isn't fluffy
+Self-compassion isn't telling yourself everything's fine. It's talking to yourself the way a fair, kind friend would:
+
+- Acknowledge what's hard: "This is painful."
+- Remember you're not alone: "Lots of people feel this after leaving."
+- Offer one kind thing: "What would help a bit right now?"
+
+Researchers have found that self-compassion is linked with lower anxiety and depression, and isn't the same as letting yourself off the hook.
+
+## When guilt points to something real
+Sometimes guilt is pointing at something you did that hurt someone. If so, you can take responsibility for that thing, make amends where it's safe and possible, and learn from it. That's different from carrying blame for the whole relationship. Owning your part doesn't mean owning theirs.
 
 ## How do I loosen guilt and shame?
 - **Check the facts.** Write the guilty thought down. Then ask: what did I know at the time? What choices did I have? What would I say to a friend who wrote this?
@@ -295,6 +412,27 @@ Very. Many people are angry that they stayed, that they didn't see it, or that t
 
 ## What if I'm angry at the people who didn't help?
 Friends who didn't believe you, family who stayed neutral, services that let you down. That anger makes sense too. You get to decide what to do with those relationships. See [The friends who didn't believe you](ch:the-friends-who-didnt-believe-you).
+
+## Letting anger out safely
+Anger needs somewhere to go. Some safe places:
+
+- **Your body:** fast walking, running, swimming, hitting a pillow, shouting into a cushion, physical work.
+- **Paper:** write it all, uncensored, then destroy it if you like.
+- **A person:** a friend who can hear it without being frightened, a therapist, a support group.
+
+What tends not to help: sending angry messages, venting online, or replaying arguments in your head for hours.
+
+## Anger in the body
+Anger shows up physically: a tight jaw, clenched fists, a hot face, a racing heart. Noticing these signs early gives you a moment to choose what to do next. Slow breathing out, cold water on your face or stepping outside can take the edge off before it spills.
+
+## Anger and the children
+Your children may see your anger. That's okay, as long as it's not aimed at them and doesn't frighten them. You can name it: "I'm feeling cross about something grown-up. You haven't done anything wrong. I'm going to take a few minutes." Avoid venting about the other parent in front of them.
+
+## Anger at the system
+Many people feel furious at courts, police, social workers or family members who didn't help. That anger is often justified. You can use it to complain, to ask for reviews, or to support others later. Try not to let it make you give up on all help; some people and services will get it right.
+
+## When anger gets stuck
+Sometimes anger becomes a constant hum, and stays for years. It can keep you tied to the person you left. If you find you're thinking about them angrily most days, long after leaving, it may help to talk to a therapist about what the anger is protecting. Often it's grief or fear underneath.
 
 ## Can anger be useful?
 Yes. Anger can power a boundary, a complaint, a court application, or help for someone else. Used that way, it becomes energy for your life, not fuel for theirs.

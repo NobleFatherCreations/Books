@@ -170,7 +170,7 @@
     "the-anniversary-effect",
     "memory"
    ],
-   "outlined": false,
+   "outlined": true,
    "written": false,
    "audited": false
   },
@@ -185,7 +185,7 @@
     "finding-a-therapist-who-understands-this",
     "when-its-more-than-aftermath"
    ],
-   "outlined": false,
+   "outlined": true,
    "written": false,
    "audited": false
   },
@@ -536,6 +536,14 @@
   {
    "date": "2026-11-22",
    "what": "Part VI audited: Part VI: content audit passing; facts logged"
+  },
+  {
+   "date": "2026-11-22",
+   "what": "Part VII outlined: Part VII outlined"
+  },
+  {
+   "date": "2026-11-22",
+   "what": "Part VIII outlined: Part VIII outlined"
   }
  ]
 }

@@ -242,3 +242,25 @@ How each chapter was outlined: read what it already answers, then ask what a fri
 **apps-calendars-and-the-parenting-plan** (565 w): setting up the app · calendar rules · what to log · exporting records for court · if they refuse the app
 **moving-passports-and-travel-with-children** (506 w): passports and alerts (UK, US) · the Hague Convention in plain words · consent letters · relocation: what courts weigh · travelling with an order
 **pregnant-or-with-a-new-baby** (464 w): antenatal care and being asked about abuse · hospital safety at the birth · registering the birth · feeding and contact arrangements · postnatal depression and support
+
+## PART VII. FEELINGS
+
+**the-trauma-bond** (1,152 w): a 30-day plan to loosen it · when the bond is with a parent or family · the worst nights · explaining it to people who don't understand
+**what-youre-allowed-to-feel-about-someone-you-left** (501 w): what to do with good memories · missing them vs missing who you hoped they were · feeling sorry for them · love that lingers · telling people about mixed feelings
+**the-grief-nobody-will-let-you-have** (530 w): the losses, named · grief in waves · rituals that help · your children's grief · when grief and anger mix
+**guilt-and-shame** (458 w): guilt as a tool they used · the common guilts, answered · shame about what you did to survive · shame in a community or faith · self-compassion that isn't fluffy · when guilt points to something real
+**anger-arriving-late** (501 w): letting anger out safely · anger in the body · anger and the children · anger at the system · when anger gets stuck · anger turned into change
+**checking-their-profile** (427 w): practical blocks · checking through other people · the story you tell yourself when you look · the night-time urge · a slip plan · replacing the habit
+**closure-and-forgiveness** (429 w): what closure looks like in practice · endings you make yourself · forgiveness myths · when people push you to forgive · acceptance without forgiveness
+**the-anniversary-effect** (453 w): a year of hard dates · a plan for a hard day · telling people in advance · court and police dates · children and anniversaries · making new dates
+**memory** (480 w): how fear changes memory · what gaslighting does to memory · building a timeline from fragments · triggers · "I don't remember" in interviews
+
+## PART VIII. BODY, HEALTH AND HELP
+
+**what-your-nervous-system-is-doing** (638 w): triggers and mapping yours · fight, flight, freeze, fawn · grounding that works in the moment · body-based help · reacting around the children · treatments for PTSD
+**sleep** (517 w): a wind-down routine · making the bedroom feel safe · nights when the children are away · the phone at night · caffeine, alcohol and sleep
+**getting-sick-after-leaving** (500 w): common patterns · after strangulation: delayed signs · head injuries · dental care · sexual and reproductive health · moving gently
+**if-there-was-sexual-abuse** (546 w): it is a crime, including in marriage · common reactions · urgent care and evidence · emergency contraception and HIV prevention · specialist services · talking to a partner later
+**drinking-drugs-and-getting-through** (506 w): what it's doing for you · safer steps · if they pushed substances on you · fear about the children · stopping safely · support groups
+**finding-a-therapist-who-understands-this** (504 w): the main therapies in plain words · group support · therapy notes and court · the first sessions · therapy for children
+**when-its-more-than-aftermath** (584 w): signs it's more · what happens when you tell a doctor · a crisis plan · if you've hurt yourself · after a crisis
