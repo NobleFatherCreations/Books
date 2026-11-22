@@ -1,0 +1,1769 @@
+{
+ "parts": [
+  {
+   "id": "start",
+   "title": "Start here",
+   "chapters": [
+    "where-are-you-right-now",
+    "if-youre-not-safe-right-now",
+    "how-to-use-this-book"
+   ]
+  },
+  {
+   "id": "i",
+   "title": "What is happening",
+   "chapters": [
+    "leaving-was-the-middle",
+    "what-is-post-separation-abuse",
+    "why-it-often-gets-worse-first",
+    "the-shape-it-takes-when-they-cant-reach-you-directly",
+    "is-my-ex-a-narcissist",
+    "abuse-or-a-hard-breakup",
+    "if-your-story-doesnt-look-like-the-usual-one",
+    "the-first-30-days",
+    "if-they-left-you",
+    "still-under-the-same-roof"
+   ]
+  },
+  {
+   "id": "ii",
+   "title": "Staying safe after you leave",
+   "chapters": [
+    "a-safety-plan-for-after-youve-left",
+    "warning-signs-to-take-seriously",
+    "surveillance-and-technology",
+    "stalking-and-harassment",
+    "intimate-images-and-online-threats",
+    "your-address-your-records-your-mail"
+   ]
+  },
+  {
+   "id": "iii",
+   "title": "How it continues",
+   "chapters": [
+    "children-as-the-channel",
+    "money-as-the-channel",
+    "the-narrative-campaign",
+    "your-family-and-mutual-friends",
+    "the-new-partner",
+    "hoovering",
+    "when-they-say-youre-the-abuser",
+    "when-it-stops"
+   ]
+  },
+  {
+   "id": "iv",
+   "title": "Contact",
+   "chapters": [
+    "no-contact-low-contact",
+    "grey-rock-and-written-only-contact",
+    "words-you-can-use",
+    "messages-you-dont-have-to-answer"
+   ]
+  },
+  {
+   "id": "v",
+   "title": "Courts and the systems",
+   "chapters": [
+    "what-to-document-and-how",
+    "systems-abuse",
+    "solicitors-legal-aid-and-no-money",
+    "family-court-honestly",
+    "your-day-in-court",
+    "divorce-and-separation-proceedings",
+    "police-and-protective-orders",
+    "police-and-reporting",
+    "housing-and-benefits",
+    "where-to-find-the-right-body",
+    "untangling-the-paperwork"
+   ]
+  },
+  {
+   "id": "vi",
+   "title": "Children",
+   "chapters": [
+    "co-parenting-or-parallel-parenting",
+    "handovers",
+    "your-children-and-what-to-say",
+    "how-children-react",
+    "when-your-child-is-pulled-in",
+    "apps-calendars-and-the-parenting-plan",
+    "moving-passports-and-travel-with-children",
+    "pregnant-or-with-a-new-baby"
+   ]
+  },
+  {
+   "id": "vii",
+   "title": "Feelings",
+   "chapters": [
+    "the-trauma-bond",
+    "what-youre-allowed-to-feel-about-someone-you-left",
+    "the-grief-nobody-will-let-you-have",
+    "guilt-and-shame",
+    "anger-arriving-late",
+    "checking-their-profile",
+    "closure-and-forgiveness",
+    "the-anniversary-effect",
+    "memory"
+   ]
+  },
+  {
+   "id": "viii",
+   "title": "Body, health and help",
+   "chapters": [
+    "what-your-nervous-system-is-doing",
+    "sleep",
+    "getting-sick-after-leaving",
+    "if-there-was-sexual-abuse",
+    "drinking-drugs-and-getting-through",
+    "finding-a-therapist-who-understands-this",
+    "when-its-more-than-aftermath"
+   ]
+  },
+  {
+   "id": "ix",
+   "title": "The people around you",
+   "chapters": [
+    "the-friends-who-didnt-believe-you",
+    "the-friends-who-did-and-are-tired",
+    "your-parents",
+    "telling-someone-new",
+    "making-new-people-from-scratch",
+    "sharing-a-town-a-workplace-or-a-community"
+   ]
+  },
+  {
+   "id": "x",
+   "title": "Rebuilding",
+   "chapters": [
+    "money-from-zero",
+    "work-again",
+    "a-home-that-feels-like-yours",
+    "pets-and-the-things-left-behind",
+    "holidays-and-the-first-year",
+    "your-own-tastes-rediscovered",
+    "trust-as-a-practice",
+    "dating-when-youre-ready-and-when-youre-not",
+    "the-version-of-you-from-before",
+    "what-recovered-actually-means"
+   ]
+  },
+  {
+   "id": "xi",
+   "title": "The ledger",
+   "chapters": [
+    "if-you-go-back",
+    "helping-someone-in-year-one",
+    "what-this-book-might-have-wrong",
+    "the-long-after"
+   ]
+  },
+  {
+   "id": "tools",
+   "title": "Toolbox",
+   "chapters": [
+    "the-record",
+    "safety-plan-worksheet",
+    "device-and-account-audit",
+    "court-day-checklist",
+    "pocket-card-words-you-can-use",
+    "the-card",
+    "find-help",
+    "a-to-z",
+    "questions-people-ask",
+    "for-professionals"
+   ]
+  }
+ ],
+ "chapters": [
+  {
+   "slug": "where-are-you-right-now",
+   "part": "start",
+   "n": 1,
+   "title": "Where are you right now?",
+   "keyword": "what to do after leaving an abusive relationship",
+   "keywords2": [],
+   "decoder": [],
+   "feminine": [],
+   "heavy": false
+  },
+  {
+   "slug": "if-youre-not-safe-right-now",
+   "part": "start",
+   "n": 2,
+   "title": "If you're not safe right now",
+   "keyword": "domestic abuse help",
+   "keywords2": [
+    "domestic violence hotline",
+    "crisis line"
+   ],
+   "decoder": [],
+   "feminine": [
+    "the-30-minute-rescue#top"
+   ],
+   "heavy": true
+  },
+  {
+   "slug": "how-to-use-this-book",
+   "part": "start",
+   "n": 3,
+   "title": "How to use this book, and what it is not",
+   "keyword": "post separation abuse book",
+   "keywords2": [
+    "free book",
+    "what this book is not"
+   ],
+   "decoder": [],
+   "feminine": [],
+   "heavy": false
+  },
+  {
+   "slug": "leaving-was-the-middle",
+   "part": "i",
+   "n": 1,
+   "title": "Leaving was the middle",
+   "keyword": "after leaving an abusive relationship",
+   "keywords2": [
+    "aftermath of leaving an abusive relationship",
+    "why is it still hard after I left"
+   ],
+   "decoder": [],
+   "feminine": [
+    "post-separation-control#core-concept"
+   ],
+   "heavy": false
+  },
+  {
+   "slug": "what-is-post-separation-abuse",
+   "part": "i",
+   "n": 2,
+   "title": "What post-separation abuse is",
+   "keyword": "post separation abuse",
+   "keywords2": [
+    "what is post separation abuse",
+    "post separation abuse examples",
+    "is post separation abuse a crime",
+    "post separation abuse and coercive control"
+   ],
+   "decoder": [
+    "legal-abuse",
+    "smear-campaigns",
+    "children-as-leverage",
+    "financial-control"
+   ],
+   "feminine": [
+    "post-separation-control#core-concept"
+   ],
+   "heavy": false
+  },
+  {
+   "slug": "why-it-often-gets-worse-first",
+   "part": "i",
+   "n": 3,
+   "title": "Why it often gets worse first",
+   "keyword": "is leaving an abusive relationship the most dangerous time",
+   "keywords2": [
+    "ex getting worse after breakup",
+    "separation risk"
+   ],
+   "decoder": [
+    "intimidation"
+   ],
+   "feminine": [
+    "post-separation-control#o-orient-return-to-facts-and-pattern"
+   ],
+   "heavy": true
+  },
+  {
+   "slug": "the-shape-it-takes-when-they-cant-reach-you-directly",
+   "part": "i",
+   "n": 4,
+   "title": "The shape it takes when they can't reach you directly",
+   "keyword": "post separation control",
+   "keywords2": [
+    "why is my ex still controlling me",
+    "ex still controlling after breakup"
+   ],
+   "decoder": [
+    "punishment-by-proxy",
+    "monitoring-surveillance"
+   ],
+   "feminine": [
+    "post-separation-control#core-concept"
+   ],
+   "heavy": false
+  },
+  {
+   "slug": "is-my-ex-a-narcissist",
+   "part": "i",
+   "n": 5,
+   "title": "Is my ex a narcissist?",
+   "keyword": "narcissist after breakup",
+   "keywords2": [
+    "what does a narcissist do after a breakup",
+    "will a narcissist come back",
+    "why did the narcissist block me",
+    "can a narcissist change"
+   ],
+   "decoder": [
+    "darvo",
+    "smear-campaigns",
+    "hoovering-relief-bait"
+   ],
+   "feminine": [
+    "the-manipulation-cycle#core-concept"
+   ],
+   "heavy": false
+  },
+  {
+   "slug": "abuse-or-a-hard-breakup",
+   "part": "i",
+   "n": 6,
+   "title": "Abuse, or a hard breakup?",
+   "keyword": "normal breakup vs narcissist breakup",
+   "keywords2": [
+    "is it abuse or conflict",
+    "am I the abuser"
+   ],
+   "decoder": [
+    "false-equivalence",
+    "self-gaslighting-induction"
+   ],
+   "feminine": [
+    "post-separation-control#reality-check-manipulation-vs-friction"
+   ],
+   "heavy": false
+  },
+  {
+   "slug": "if-your-story-doesnt-look-like-the-usual-one",
+   "part": "i",
+   "n": 7,
+   "title": "If your story doesn't look like the usual one",
+   "keyword": "post separation abuse against men",
+   "keywords2": [
+    "abuse in same sex relationships",
+    "leaving a controlling family",
+    "forced marriage"
+   ],
+   "decoder": [
+    "identity-based-isolation",
+    "status-threats"
+   ],
+   "feminine": [],
+   "heavy": false
+  },
+  {
+   "slug": "the-first-30-days",
+   "part": "i",
+   "n": 8,
+   "title": "The first 30 days",
+   "keyword": "after leaving an abusive relationship checklist",
+   "keywords2": [
+    "what to do after leaving an abusive relationship",
+    "first steps after leaving"
+   ],
+   "decoder": [
+    "account-control"
+   ],
+   "feminine": [
+    "liberation-logistics#top"
+   ],
+   "heavy": false
+  },
+  {
+   "slug": "if-they-left-you",
+   "part": "i",
+   "n": 9,
+   "title": "If they left you",
+   "keyword": "after a narcissist breaks up with you",
+   "keywords2": [
+    "hoovering after discard",
+    "when a narcissist leaves you",
+    "why did my ex move on so fast"
+   ],
+   "decoder": [
+    "blame-discard",
+    "triangulation"
+   ],
+   "feminine": [
+    "the-manipulation-cycle#core-concept"
+   ],
+   "heavy": false
+  },
+  {
+   "slug": "still-under-the-same-roof",
+   "part": "i",
+   "n": 10,
+   "title": "Still under the same roof",
+   "keyword": "separated but living together",
+   "keywords2": [
+    "how to leave when you live together",
+    "co parenting but living together"
+   ],
+   "decoder": [
+    "time-control",
+    "mobility-control"
+   ],
+   "feminine": [
+    "liberation-logistics#top"
+   ],
+   "heavy": true
+  },
+  {
+   "slug": "a-safety-plan-for-after-youve-left",
+   "part": "ii",
+   "n": 1,
+   "title": "A safety plan for after you've left",
+   "keyword": "safety plan after leaving an abusive relationship",
+   "keywords2": [
+    "how to stay safe after leaving",
+    "post separation safety plan"
+   ],
+   "decoder": [],
+   "feminine": [
+    "liberation-logistics#top",
+    "post-separation-control#o-orient-return-to-facts-and-pattern"
+   ],
+   "heavy": true
+  },
+  {
+   "slug": "warning-signs-to-take-seriously",
+   "part": "ii",
+   "n": 2,
+   "title": "Warning signs to take seriously",
+   "keyword": "domestic violence risk factors",
+   "keywords2": [
+    "strangulation warning sign",
+    "danger assessment"
+   ],
+   "decoder": [
+    "intimidation",
+    "emotional-blackmail-via-self-harm-threats"
+   ],
+   "feminine": [
+    "liberation-logistics#top"
+   ],
+   "heavy": true
+  },
+  {
+   "slug": "surveillance-and-technology",
+   "part": "ii",
+   "n": 3,
+   "title": "Surveillance and technology",
+   "keyword": "is my ex tracking me",
+   "keywords2": [
+    "tracker on my car",
+    "stalkerware signs",
+    "location sharing after breakup"
+   ],
+   "decoder": [
+    "monitoring-surveillance",
+    "location-tracking",
+    "account-control"
+   ],
+   "feminine": [
+    "the-digital-leash#core-concept"
+   ],
+   "heavy": false
+  },
+  {
+   "slug": "stalking-and-harassment",
+   "part": "ii",
+   "n": 4,
+   "title": "Stalking and harassment after a breakup",
+   "keyword": "stalking after a breakup",
+   "keywords2": [
+    "ex harassing me",
+    "what counts as stalking"
+   ],
+   "decoder": [
+    "monitoring-surveillance",
+    "intimidation"
+   ],
+   "feminine": [
+    "post-separation-control#core-concept"
+   ],
+   "heavy": true
+  },
+  {
+   "slug": "intimate-images-and-online-threats",
+   "part": "ii",
+   "n": 5,
+   "title": "Intimate images and online threats",
+   "keyword": "ex threatening to post pictures",
+   "keywords2": [
+    "revenge porn",
+    "intimate image abuse",
+    "sextortion by ex"
+   ],
+   "decoder": [
+    "doxxing",
+    "reputation-hijacking"
+   ],
+   "feminine": [
+    "synthetic-evidence#core-concept"
+   ],
+   "heavy": true
+  },
+  {
+   "slug": "your-address-your-records-your-mail",
+   "part": "ii",
+   "n": 6,
+   "title": "Your address, your records, your mail",
+   "keyword": "address confidentiality program",
+   "keywords2": [
+    "hide my address from my ex",
+    "remove my address from people search sites"
+   ],
+   "decoder": [
+    "location-tracking"
+   ],
+   "feminine": [
+    "liberation-logistics#top"
+   ],
+   "heavy": false
+  },
+  {
+   "slug": "children-as-the-channel",
+   "part": "iii",
+   "n": 1,
+   "title": "Children as the channel",
+   "keyword": "post separation abuse child custody",
+   "keywords2": [
+    "using children as leverage",
+    "signs you are co parenting with a narcissist"
+   ],
+   "decoder": [
+    "children-as-leverage",
+    "triangulation",
+    "parentification"
+   ],
+   "feminine": [
+    "the-motherhood-matrix#core-concept",
+    "post-separation-control#o-orient-return-to-facts-and-pattern"
+   ],
+   "heavy": true
+  },
+  {
+   "slug": "money-as-the-channel",
+   "part": "iii",
+   "n": 2,
+   "title": "Money as the channel",
+   "keyword": "post separation financial abuse",
+   "keywords2": [
+    "ex won't pay child support",
+    "coerced debt",
+    "economic abuse after separation"
+   ],
+   "decoder": [
+    "financial-control",
+    "financial-enmeshment",
+    "financial-dependence-by-design"
+   ],
+   "feminine": [
+    "the-administrative-cage#core-concept"
+   ],
+   "heavy": false
+  },
+  {
+   "slug": "the-narrative-campaign",
+   "part": "iii",
+   "n": 3,
+   "title": "The narrative campaign",
+   "keyword": "smear campaign after breakup",
+   "keywords2": [
+    "ex telling lies about me",
+    "how to respond to a smear campaign"
+   ],
+   "decoder": [
+    "smear-campaigns",
+    "narrative-monopoly",
+    "reputation-hijacking"
+   ],
+   "feminine": [
+    "digital-smear-campaigns#core-concept",
+    "the-social-siege#core-concept"
+   ],
+   "heavy": false
+  },
+  {
+   "slug": "your-family-and-mutual-friends",
+   "part": "iii",
+   "n": 4,
+   "title": "Your family and mutual friends",
+   "keyword": "flying monkeys",
+   "keywords2": [
+    "my family sided with my ex",
+    "mutual friends after breakup"
+   ],
+   "decoder": [
+    "flying-monkeys-proxy-recruitment",
+    "silent-coalitions"
+   ],
+   "feminine": [
+    "the-social-siege#core-concept"
+   ],
+   "heavy": false
+  },
+  {
+   "slug": "the-new-partner",
+   "part": "iii",
+   "n": 5,
+   "title": "The new partner",
+   "keyword": "ex contacting my new partner",
+   "keywords2": [
+    "my ex's new partner contacted me",
+    "warning the new partner"
+   ],
+   "decoder": [
+    "triangulation",
+    "smear-campaigns"
+   ],
+   "feminine": [],
+   "heavy": false
+  },
+  {
+   "slug": "hoovering",
+   "part": "iii",
+   "n": 6,
+   "title": "Hoovering",
+   "keyword": "hoovering",
+   "keywords2": [
+    "hoovering after breakup",
+    "why is my ex contacting me again",
+    "will a narcissist come back",
+    "how long does hoovering last"
+   ],
+   "decoder": [
+    "hoovering-relief-bait",
+    "intermittent-reinforcement-push-pull",
+    "future-faking",
+    "love-bombing"
+   ],
+   "feminine": [
+    "post-separation-control#core-concept",
+    "the-manipulation-cycle#core-concept"
+   ],
+   "heavy": false
+  },
+  {
+   "slug": "when-they-say-youre-the-abuser",
+   "part": "iii",
+   "n": 7,
+   "title": "When they say you're the abuser",
+   "keyword": "reactive abuse",
+   "keywords2": [
+    "false allegations in custody",
+    "ex called CPS on me",
+    "DARVO"
+   ],
+   "decoder": [
+    "darvo",
+    "false-reports",
+    "preemptive-accusation-complaint-weaponization"
+   ],
+   "feminine": [
+    "post-separation-control#core-concept"
+   ],
+   "heavy": false
+  },
+  {
+   "slug": "when-it-stops",
+   "part": "iii",
+   "n": 8,
+   "title": "When it stops",
+   "keyword": "does post separation abuse ever end",
+   "keywords2": [
+    "how long does post separation abuse last",
+    "when does post separation abuse stop"
+   ],
+   "decoder": [
+    "intermittent-reinforcement-push-pull"
+   ],
+   "feminine": [],
+   "heavy": false
+  },
+  {
+   "slug": "no-contact-low-contact",
+   "part": "iv",
+   "n": 1,
+   "title": "No contact, low contact, or contact you can't avoid",
+   "keyword": "no contact with ex",
+   "keywords2": [
+    "how to go no contact with kids",
+    "low contact"
+   ],
+   "decoder": [
+    "controlled-communication"
+   ],
+   "feminine": [
+    "post-separation-control#quick-start",
+    "the-sovereign-playbook#core-concept"
+   ],
+   "heavy": false
+  },
+  {
+   "slug": "grey-rock-and-written-only-contact",
+   "part": "iv",
+   "n": 2,
+   "title": "Grey rock and written-only contact",
+   "keyword": "grey rock method",
+   "keywords2": [
+    "how to grey rock someone",
+    "does grey rock work",
+    "grey rock a narcissist"
+   ],
+   "decoder": [
+    "stonewalling"
+   ],
+   "feminine": [
+    "the-sovereign-playbook#core-concept",
+    "post-separation-control#r-respond-dont-react"
+   ],
+   "heavy": false
+  },
+  {
+   "slug": "words-you-can-use",
+   "part": "iv",
+   "n": 3,
+   "title": "Words you can use",
+   "keyword": "phrases to use when co parenting with a narcissist",
+   "keywords2": [
+    "how to respond to an ex",
+    "BIFF response"
+   ],
+   "decoder": [
+    "guilt-tripping",
+    "emotional-blackmail"
+   ],
+   "feminine": [
+    "the-digital-leash#r-respond-scripts-soft-firm-final"
+   ],
+   "heavy": false
+  },
+  {
+   "slug": "messages-you-dont-have-to-answer",
+   "part": "iv",
+   "n": 4,
+   "title": "Messages you don't have to answer",
+   "keyword": "should I respond to my ex",
+   "keywords2": [
+    "do I have to reply to my ex",
+    "ex texting me"
+   ],
+   "decoder": [
+    "time-control",
+    "false-dilemma"
+   ],
+   "feminine": [
+    "post-separation-control#if-then-plans"
+   ],
+   "heavy": false
+  },
+  {
+   "slug": "what-to-document-and-how",
+   "part": "v",
+   "n": 1,
+   "title": "What to document and how",
+   "keyword": "how to document post separation abuse",
+   "keywords2": [
+    "how to document abuse for court",
+    "evidence log"
+   ],
+   "decoder": [
+    "false-reports"
+   ],
+   "feminine": [
+    "liberation-logistics#top",
+    "synthetic-evidence#core-concept"
+   ],
+   "heavy": false
+  },
+  {
+   "slug": "systems-abuse",
+   "part": "v",
+   "n": 2,
+   "title": "Systems abuse and litigation abuse",
+   "keyword": "litigation abuse",
+   "keywords2": [
+    "litigation abuse in family court",
+    "how to prove litigation abuse",
+    "legal abuse",
+    "vexatious litigant"
+   ],
+   "decoder": [
+    "legal-abuse",
+    "administrative-escalation",
+    "legal-administrative-threats"
+   ],
+   "feminine": [
+    "the-administrative-cage#core-concept",
+    "post-separation-control#core-concept"
+   ],
+   "heavy": false
+  },
+  {
+   "slug": "solicitors-legal-aid-and-no-money",
+   "part": "v",
+   "n": 3,
+   "title": "Legal help with little or no money",
+   "keyword": "free legal help domestic violence",
+   "keywords2": [
+    "legal aid domestic abuse",
+    "pro bono family lawyer"
+   ],
+   "decoder": [],
+   "feminine": [
+    "liberation-logistics#top"
+   ],
+   "heavy": false
+  },
+  {
+   "slug": "family-court-honestly",
+   "part": "v",
+   "n": 4,
+   "title": "Family court, honestly",
+   "keyword": "family court coercive control",
+   "keywords2": [
+    "post separation abuse custody",
+    "how often do narcissists win in court",
+    "parental alienation accusation"
+   ],
+   "decoder": [
+    "children-as-leverage",
+    "legal-abuse"
+   ],
+   "feminine": [
+    "the-administrative-cage#core-concept"
+   ],
+   "heavy": false
+  },
+  {
+   "slug": "your-day-in-court",
+   "part": "v",
+   "n": 5,
+   "title": "Your day in court",
+   "keyword": "what to expect at a family court hearing",
+   "keywords2": [
+    "custody hearing tips",
+    "court with an abusive ex"
+   ],
+   "decoder": [
+    "intimidation"
+   ],
+   "feminine": [],
+   "heavy": false
+  },
+  {
+   "slug": "divorce-and-separation-proceedings",
+   "part": "v",
+   "n": 6,
+   "title": "Divorce and separation proceedings",
+   "keyword": "divorcing a narcissist",
+   "keywords2": [
+    "divorce with an abusive spouse",
+    "financial disclosure hiding assets",
+    "mediation and domestic abuse"
+   ],
+   "decoder": [
+    "financial-control",
+    "time-control"
+   ],
+   "feminine": [
+    "the-administrative-cage#core-concept"
+   ],
+   "heavy": false
+  },
+  {
+   "slug": "police-and-protective-orders",
+   "part": "v",
+   "n": 7,
+   "title": "Protective orders",
+   "keyword": "how does a protective order work",
+   "keywords2": [
+    "restraining order after breakup",
+    "how long does a protective order last",
+    "do protective orders work"
+   ],
+   "decoder": [
+    "intimidation"
+   ],
+   "feminine": [
+    "liberation-logistics#top"
+   ],
+   "heavy": true
+  },
+  {
+   "slug": "police-and-reporting",
+   "part": "v",
+   "n": 8,
+   "title": "Police and reporting",
+   "keyword": "can I report post separation abuse to the police",
+   "keywords2": [
+    "coercive control offence",
+    "Clare's Law"
+   ],
+   "decoder": [
+    "false-reports"
+   ],
+   "feminine": [
+    "liberation-logistics#top"
+   ],
+   "heavy": false
+  },
+  {
+   "slug": "housing-and-benefits",
+   "part": "v",
+   "n": 9,
+   "title": "Housing and benefits",
+   "keyword": "housing help after domestic abuse",
+   "keywords2": [
+    "break lease domestic violence",
+    "benefits after separation"
+   ],
+   "decoder": [
+    "financial-dependence-by-design"
+   ],
+   "feminine": [],
+   "heavy": false
+  },
+  {
+   "slug": "where-to-find-the-right-body",
+   "part": "v",
+   "n": 10,
+   "title": "Where to find the right body",
+   "keyword": "where to get help after domestic abuse",
+   "keywords2": [
+    "who to contact about my ex"
+   ],
+   "decoder": [
+    "administrative-escalation"
+   ],
+   "feminine": [],
+   "heavy": false
+  },
+  {
+   "slug": "untangling-the-paperwork",
+   "part": "v",
+   "n": 11,
+   "title": "Untangling: the house, the car, the accounts and the paperwork",
+   "keyword": "what to change after leaving an abusive relationship",
+   "keywords2": [
+    "change beneficiary after divorce",
+    "joint mortgage abusive ex"
+   ],
+   "decoder": [
+    "financial-enmeshment",
+    "account-control"
+   ],
+   "feminine": [
+    "liberation-logistics#top"
+   ],
+   "heavy": false
+  },
+  {
+   "slug": "co-parenting-or-parallel-parenting",
+   "part": "vi",
+   "n": 1,
+   "title": "Co-parenting or parallel parenting?",
+   "keyword": "co parenting with a narcissist",
+   "keywords2": [
+    "parallel parenting",
+    "can you co parent with a narcissist",
+    "can parallel parenting be court ordered"
+   ],
+   "decoder": [
+    "children-as-leverage",
+    "controlled-communication"
+   ],
+   "feminine": [
+    "the-motherhood-matrix#core-concept"
+   ],
+   "heavy": false
+  },
+  {
+   "slug": "handovers",
+   "part": "vi",
+   "n": 2,
+   "title": "Handovers",
+   "keyword": "safe custody exchange",
+   "keywords2": [
+    "custody exchange with abusive ex",
+    "supervised exchange"
+   ],
+   "decoder": [
+    "intimidation",
+    "children-as-leverage"
+   ],
+   "feminine": [],
+   "heavy": false
+  },
+  {
+   "slug": "your-children-and-what-to-say",
+   "part": "vi",
+   "n": 3,
+   "title": "Your children, and what to say",
+   "keyword": "how to explain divorce to a child",
+   "keywords2": [
+    "what to tell kids about an abusive parent"
+   ],
+   "decoder": [
+    "parentification"
+   ],
+   "feminine": [
+    "the-motherhood-matrix#core-concept"
+   ],
+   "heavy": false
+  },
+  {
+   "slug": "how-children-react",
+   "part": "vi",
+   "n": 4,
+   "title": "How children react, and what helps them",
+   "keyword": "effects of domestic abuse on children",
+   "keywords2": [
+    "signs a child is affected by domestic violence",
+    "child therapy after domestic abuse"
+   ],
+   "decoder": [
+    "parentification",
+    "golden-child-elevation"
+   ],
+   "feminine": [],
+   "heavy": true
+  },
+  {
+   "slug": "when-your-child-is-pulled-in",
+   "part": "vi",
+   "n": 5,
+   "title": "When your child is pulled into it",
+   "keyword": "child repeating what the other parent says",
+   "keywords2": [
+    "child refusing visits",
+    "ex using child to spy"
+   ],
+   "decoder": [
+    "children-as-leverage",
+    "triangulation"
+   ],
+   "feminine": [],
+   "heavy": true
+  },
+  {
+   "slug": "apps-calendars-and-the-parenting-plan",
+   "part": "vi",
+   "n": 6,
+   "title": "Apps, calendars and the parenting plan",
+   "keyword": "co parenting app court approved",
+   "keywords2": [
+    "parenting plan high conflict",
+    "co parenting communication app"
+   ],
+   "decoder": [
+    "controlled-communication"
+   ],
+   "feminine": [],
+   "heavy": false
+  },
+  {
+   "slug": "moving-passports-and-travel-with-children",
+   "part": "vi",
+   "n": 7,
+   "title": "Moving, passports and travel with children",
+   "keyword": "moving away from abusive ex with child",
+   "keywords2": [
+    "passport alert child abduction",
+    "relocation custody"
+   ],
+   "decoder": [
+    "mobility-control"
+   ],
+   "feminine": [],
+   "heavy": true
+  },
+  {
+   "slug": "pregnant-or-with-a-new-baby",
+   "part": "vi",
+   "n": 8,
+   "title": "Pregnant, or with a new baby",
+   "keyword": "leaving an abusive relationship while pregnant",
+   "keywords2": [
+    "newborn custody abusive ex"
+   ],
+   "decoder": [
+    "vulnerability-weaponization"
+   ],
+   "feminine": [
+    "the-motherhood-matrix#core-concept"
+   ],
+   "heavy": true
+  },
+  {
+   "slug": "the-trauma-bond",
+   "part": "vii",
+   "n": 1,
+   "title": "The trauma bond: why you miss someone who hurt you",
+   "keyword": "trauma bond",
+   "keywords2": [
+    "what is a trauma bond",
+    "how to break a trauma bond",
+    "how long does a trauma bond last",
+    "trauma bond withdrawal",
+    "trauma bond vs love"
+   ],
+   "decoder": [
+    "trauma-bonding",
+    "intermittent-reinforcement-push-pull"
+   ],
+   "feminine": [
+    "the-manipulation-cycle#core-concept"
+   ],
+   "heavy": false
+  },
+  {
+   "slug": "what-youre-allowed-to-feel-about-someone-you-left",
+   "part": "vii",
+   "n": 2,
+   "title": "What you're allowed to feel about someone you left",
+   "keyword": "why do I miss my abuser",
+   "keywords2": [
+    "missing someone who hurt you",
+    "feelings after leaving an abusive relationship"
+   ],
+   "decoder": [],
+   "feminine": [],
+   "heavy": false
+  },
+  {
+   "slug": "the-grief-nobody-will-let-you-have",
+   "part": "vii",
+   "n": 3,
+   "title": "The grief nobody will let you have",
+   "keyword": "grief after leaving an abusive relationship",
+   "keywords2": [
+    "grieving a toxic relationship"
+   ],
+   "decoder": [],
+   "feminine": [],
+   "heavy": false
+  },
+  {
+   "slug": "guilt-and-shame",
+   "part": "vii",
+   "n": 4,
+   "title": "Guilt and shame",
+   "keyword": "guilt after leaving an abusive relationship",
+   "keywords2": [
+    "feeling guilty about leaving",
+    "was it my fault"
+   ],
+   "decoder": [
+    "shame-installation",
+    "guilt-tripping"
+   ],
+   "feminine": [],
+   "heavy": false
+  },
+  {
+   "slug": "anger-arriving-late",
+   "part": "vii",
+   "n": 5,
+   "title": "Anger, arriving late",
+   "keyword": "anger after narcissistic abuse",
+   "keywords2": [
+    "angry years after breakup"
+   ],
+   "decoder": [],
+   "feminine": [],
+   "heavy": false
+  },
+  {
+   "slug": "checking-their-profile",
+   "part": "vii",
+   "n": 6,
+   "title": "Checking their profile",
+   "keyword": "checking ex's social media",
+   "keywords2": [
+    "why can't I stop thinking about my ex",
+    "obsessive thoughts about ex"
+   ],
+   "decoder": [
+    "intermittent-reinforcement-push-pull"
+   ],
+   "feminine": [],
+   "heavy": false
+  },
+  {
+   "slug": "closure-and-forgiveness",
+   "part": "vii",
+   "n": 7,
+   "title": "Closure you give yourself, and whether you have to forgive",
+   "keyword": "closure after narcissistic abuse",
+   "keywords2": [
+    "do I have to forgive my abuser",
+    "closure letter to ex"
+   ],
+   "decoder": [
+    "forced-forgiveness-weaponized-forgiveness",
+    "apologies-without-repair"
+   ],
+   "feminine": [],
+   "heavy": false
+  },
+  {
+   "slug": "the-anniversary-effect",
+   "part": "vii",
+   "n": 8,
+   "title": "The anniversary effect",
+   "keyword": "anniversary reaction trauma",
+   "keywords2": [
+    "trauma anniversary",
+    "hard dates after abuse"
+   ],
+   "decoder": [],
+   "feminine": [],
+   "heavy": false
+  },
+  {
+   "slug": "memory",
+   "part": "vii",
+   "n": 9,
+   "title": "Memory, and doubting yourself",
+   "keyword": "am I making it up",
+   "keywords2": [
+    "gaslighting after breakup",
+    "memory loss after abuse"
+   ],
+   "decoder": [
+    "gaslighting",
+    "self-gaslighting-induction"
+   ],
+   "feminine": [],
+   "heavy": false
+  },
+  {
+   "slug": "what-your-nervous-system-is-doing",
+   "part": "viii",
+   "n": 1,
+   "title": "What your nervous system is doing",
+   "keyword": "hypervigilance after abuse",
+   "keywords2": [
+    "anxiety after narcissistic abuse",
+    "complex PTSD after abuse"
+   ],
+   "decoder": [],
+   "feminine": [],
+   "heavy": false
+  },
+  {
+   "slug": "sleep",
+   "part": "viii",
+   "n": 2,
+   "title": "Sleep",
+   "keyword": "can't sleep after breakup",
+   "keywords2": [
+    "insomnia after trauma"
+   ],
+   "decoder": [
+    "sleep-deprivation"
+   ],
+   "feminine": [],
+   "heavy": false
+  },
+  {
+   "slug": "getting-sick-after-leaving",
+   "part": "viii",
+   "n": 3,
+   "title": "Getting sick after leaving",
+   "keyword": "getting sick after leaving an abusive relationship",
+   "keywords2": [
+    "stress illness after breakup"
+   ],
+   "decoder": [],
+   "feminine": [],
+   "heavy": false
+  },
+  {
+   "slug": "if-there-was-sexual-abuse",
+   "part": "viii",
+   "n": 4,
+   "title": "If there was sexual abuse or reproductive coercion",
+   "keyword": "sexual abuse in a relationship",
+   "keywords2": [
+    "reproductive coercion",
+    "marital rape"
+   ],
+   "decoder": [],
+   "feminine": [
+    "the-30-minute-rescue#top"
+   ],
+   "heavy": true
+  },
+  {
+   "slug": "drinking-drugs-and-getting-through",
+   "part": "viii",
+   "n": 5,
+   "title": "Drinking, drugs and other ways of getting through",
+   "keyword": "drinking after breakup",
+   "keywords2": [
+    "self medicating after trauma"
+   ],
+   "decoder": [],
+   "feminine": [],
+   "heavy": true
+  },
+  {
+   "slug": "finding-a-therapist-who-understands-this",
+   "part": "viii",
+   "n": 6,
+   "title": "Finding a therapist who understands this",
+   "keyword": "therapist for trauma bond",
+   "keywords2": [
+    "therapy for trauma bond",
+    "counseling after leaving an abusive relationship",
+    "trauma informed therapist"
+   ],
+   "decoder": [
+    "weaponized-therapy-speak"
+   ],
+   "feminine": [],
+   "heavy": false
+  },
+  {
+   "slug": "when-its-more-than-aftermath",
+   "part": "viii",
+   "n": 7,
+   "title": "When it's more than aftermath",
+   "keyword": "suicidal after leaving abusive relationship",
+   "keywords2": [
+    "crisis help"
+   ],
+   "decoder": [],
+   "feminine": [],
+   "heavy": true
+  },
+  {
+   "slug": "the-friends-who-didnt-believe-you",
+   "part": "ix",
+   "n": 1,
+   "title": "The friends who didn't believe you",
+   "keyword": "friends don't believe me abuse",
+   "keywords2": [],
+   "decoder": [
+    "silent-coalitions"
+   ],
+   "feminine": [
+    "the-social-siege#core-concept"
+   ],
+   "heavy": false
+  },
+  {
+   "slug": "the-friends-who-did-and-are-tired",
+   "part": "ix",
+   "n": 2,
+   "title": "The friends who did, and are tired",
+   "keyword": "supporting a friend after abuse",
+   "keywords2": [
+    "compassion fatigue friend"
+   ],
+   "decoder": [
+    "support-system-exhaustion"
+   ],
+   "feminine": [],
+   "heavy": false
+  },
+  {
+   "slug": "your-parents",
+   "part": "ix",
+   "n": 3,
+   "title": "Your parents",
+   "keyword": "parents don't support me after divorce",
+   "keywords2": [],
+   "decoder": [
+    "golden-child-elevation"
+   ],
+   "feminine": [],
+   "heavy": false
+  },
+  {
+   "slug": "telling-someone-new",
+   "part": "ix",
+   "n": 4,
+   "title": "Telling someone new",
+   "keyword": "when to tell a new partner about abuse",
+   "keywords2": [],
+   "decoder": [],
+   "feminine": [],
+   "heavy": false
+  },
+  {
+   "slug": "making-new-people-from-scratch",
+   "part": "ix",
+   "n": 5,
+   "title": "Making new people from scratch",
+   "keyword": "making friends after an abusive relationship",
+   "keywords2": [
+    "lonely after breakup"
+   ],
+   "decoder": [
+    "isolation"
+   ],
+   "feminine": [],
+   "heavy": false
+  },
+  {
+   "slug": "sharing-a-town-a-workplace-or-a-community",
+   "part": "ix",
+   "n": 6,
+   "title": "When you share a town, a workplace or a community",
+   "keyword": "ex in the same friend group",
+   "keywords2": [
+    "working with an ex",
+    "church after divorce abuse"
+   ],
+   "decoder": [
+    "silent-coalitions"
+   ],
+   "feminine": [],
+   "heavy": false
+  },
+  {
+   "slug": "money-from-zero",
+   "part": "x",
+   "n": 1,
+   "title": "Money from zero",
+   "keyword": "rebuilding finances after an abusive relationship",
+   "keywords2": [
+    "coerced debt credit report"
+   ],
+   "decoder": [
+    "financial-control"
+   ],
+   "feminine": [
+    "liberation-logistics#top"
+   ],
+   "heavy": false
+  },
+  {
+   "slug": "work-again",
+   "part": "x",
+   "n": 2,
+   "title": "Work again",
+   "keyword": "domestic violence leave",
+   "keywords2": [
+    "explaining a gap after abuse"
+   ],
+   "decoder": [],
+   "feminine": [],
+   "heavy": false
+  },
+  {
+   "slug": "a-home-that-feels-like-yours",
+   "part": "x",
+   "n": 3,
+   "title": "A home that feels like yours",
+   "keyword": "feeling safe at home after abuse",
+   "keywords2": [],
+   "decoder": [],
+   "feminine": [],
+   "heavy": false
+  },
+  {
+   "slug": "pets-and-the-things-left-behind",
+   "part": "x",
+   "n": 4,
+   "title": "Pets and the things left behind",
+   "keyword": "ex took my dog",
+   "keywords2": [
+    "pet foster domestic violence",
+    "getting belongings from ex"
+   ],
+   "decoder": [
+    "children-as-leverage"
+   ],
+   "feminine": [
+    "liberation-logistics#top"
+   ],
+   "heavy": false
+  },
+  {
+   "slug": "holidays-and-the-first-year",
+   "part": "x",
+   "n": 5,
+   "title": "Holidays and the first year's calendar",
+   "keyword": "first holidays after divorce",
+   "keywords2": [
+    "holiday custody abusive ex"
+   ],
+   "decoder": [],
+   "feminine": [],
+   "heavy": false
+  },
+  {
+   "slug": "your-own-tastes-rediscovered",
+   "part": "x",
+   "n": 6,
+   "title": "Your own tastes, rediscovered",
+   "keyword": "finding yourself after an abusive relationship",
+   "keywords2": [
+    "who am I after abuse"
+   ],
+   "decoder": [
+    "identity-erosion"
+   ],
+   "feminine": [],
+   "heavy": false
+  },
+  {
+   "slug": "trust-as-a-practice",
+   "part": "x",
+   "n": 7,
+   "title": "Trust as a practice",
+   "keyword": "trust issues after abuse",
+   "keywords2": [
+    "learning to trust again"
+   ],
+   "decoder": [],
+   "feminine": [],
+   "heavy": false
+  },
+  {
+   "slug": "dating-when-youre-ready-and-when-youre-not",
+   "part": "x",
+   "n": 8,
+   "title": "Dating, when you're ready and when you're not",
+   "keyword": "dating after an abusive relationship",
+   "keywords2": [
+    "red flags dating"
+   ],
+   "decoder": [
+    "love-bombing",
+    "future-faking"
+   ],
+   "feminine": [],
+   "heavy": false
+  },
+  {
+   "slug": "the-version-of-you-from-before",
+   "part": "x",
+   "n": 9,
+   "title": "The version of you from before",
+   "keyword": "will I ever be the same after abuse",
+   "keywords2": [],
+   "decoder": [
+    "identity-erosion"
+   ],
+   "feminine": [],
+   "heavy": false
+  },
+  {
+   "slug": "what-recovered-actually-means",
+   "part": "x",
+   "n": 10,
+   "title": "What “recovered” actually means",
+   "keyword": "recovery from narcissistic abuse",
+   "keywords2": [
+    "healing after abuse signs"
+   ],
+   "decoder": [],
+   "feminine": [],
+   "heavy": false
+  },
+  {
+   "slug": "if-you-go-back",
+   "part": "xi",
+   "n": 1,
+   "title": "If you go back",
+   "keyword": "how many times does it take to leave an abusive relationship",
+   "keywords2": [
+    "going back to an abuser"
+   ],
+   "decoder": [
+    "hoovering-relief-bait"
+   ],
+   "feminine": [],
+   "heavy": false
+  },
+  {
+   "slug": "helping-someone-in-year-one",
+   "part": "xi",
+   "n": 2,
+   "title": "Helping someone in year one",
+   "keyword": "how to help a friend who left an abusive relationship",
+   "keywords2": [],
+   "decoder": [],
+   "feminine": [],
+   "heavy": false
+  },
+  {
+   "slug": "what-this-book-might-have-wrong",
+   "part": "xi",
+   "n": 3,
+   "title": "What this book might have wrong",
+   "keyword": "post separation abuse research",
+   "keywords2": [],
+   "decoder": [],
+   "feminine": [],
+   "heavy": false
+  },
+  {
+   "slug": "the-long-after",
+   "part": "xi",
+   "n": 4,
+   "title": "The long after",
+   "keyword": "life after narcissistic abuse",
+   "keywords2": [
+    "healing years later"
+   ],
+   "decoder": [],
+   "feminine": [],
+   "heavy": false
+  },
+  {
+   "slug": "the-record",
+   "part": "tools",
+   "n": 1,
+   "title": "The record",
+   "keyword": "abuse documentation template",
+   "keywords2": [
+    "incident log template"
+   ],
+   "decoder": [],
+   "feminine": [
+    "liberation-logistics#top"
+   ],
+   "heavy": false
+  },
+  {
+   "slug": "safety-plan-worksheet",
+   "part": "tools",
+   "n": 2,
+   "title": "Safety plan worksheet",
+   "keyword": "safety plan worksheet domestic violence",
+   "keywords2": [],
+   "decoder": [],
+   "feminine": [
+    "liberation-logistics#top"
+   ],
+   "heavy": true
+  },
+  {
+   "slug": "device-and-account-audit",
+   "part": "tools",
+   "n": 3,
+   "title": "Device and account audit",
+   "keyword": "how to check phone for stalkerware",
+   "keywords2": [],
+   "decoder": [
+    "monitoring-surveillance"
+   ],
+   "feminine": [
+    "the-digital-leash#core-concept"
+   ],
+   "heavy": false
+  },
+  {
+   "slug": "court-day-checklist",
+   "part": "tools",
+   "n": 4,
+   "title": "Court day checklist",
+   "keyword": "family court checklist",
+   "keywords2": [],
+   "decoder": [],
+   "feminine": [],
+   "heavy": false
+  },
+  {
+   "slug": "pocket-card-words-you-can-use",
+   "part": "tools",
+   "n": 5,
+   "title": "Words you can use: the pocket card",
+   "keyword": "how to reply to an abusive ex",
+   "keywords2": [],
+   "decoder": [],
+   "feminine": [],
+   "heavy": false
+  },
+  {
+   "slug": "the-card",
+   "part": "tools",
+   "n": 6,
+   "title": "The card",
+   "keyword": "post separation abuse summary",
+   "keywords2": [],
+   "decoder": [],
+   "feminine": [],
+   "heavy": false
+  },
+  {
+   "slug": "find-help",
+   "part": "tools",
+   "n": 7,
+   "title": "Find help",
+   "keyword": "domestic abuse help near me",
+   "keywords2": [],
+   "decoder": [],
+   "feminine": [],
+   "heavy": true
+  },
+  {
+   "slug": "a-to-z",
+   "part": "tools",
+   "n": 8,
+   "title": "A to Z: the words, plainly",
+   "keyword": "post separation abuse terms",
+   "keywords2": [
+    "hoovering meaning",
+    "trauma bond meaning",
+    "grey rock meaning"
+   ],
+   "decoder": [],
+   "feminine": [],
+   "heavy": false
+  },
+  {
+   "slug": "questions-people-ask",
+   "part": "tools",
+   "n": 9,
+   "title": "Questions people ask",
+   "keyword": "post separation abuse questions",
+   "keywords2": [],
+   "decoder": [],
+   "feminine": [],
+   "heavy": false
+  },
+  {
+   "slug": "for-professionals",
+   "part": "tools",
+   "n": 10,
+   "title": "For professionals",
+   "keyword": "post separation abuse resource for advocates",
+   "keywords2": [],
+   "decoder": [],
+   "feminine": [],
+   "heavy": false
+  }
+ ],
+ "feminine": {
+  "psc": "post-separation-control#core-concept",
+  "psc-q": "post-separation-control#quick-start",
+  "psc-o": "post-separation-control#o-orient-return-to-facts-and-pattern",
+  "psc-r": "post-separation-control#r-respond-dont-react",
+  "psc-rc": "post-separation-control#reality-check-manipulation-vs-friction",
+  "psc-it": "post-separation-control#if-then-plans",
+  "log": "liberation-logistics#top",
+  "leash": "the-digital-leash#core-concept",
+  "leash-r": "the-digital-leash#r-respond-scripts-soft-firm-final",
+  "smear": "digital-smear-campaigns#core-concept",
+  "siege": "the-social-siege#core-concept",
+  "play": "the-sovereign-playbook#core-concept",
+  "rescue": "the-30-minute-rescue#top",
+  "admin": "the-administrative-cage#core-concept",
+  "synth": "synthetic-evidence#core-concept",
+  "mother": "the-motherhood-matrix#core-concept",
+  "cycle": "the-manipulation-cycle#core-concept"
+ },
+ "old_redirects": {
+  "what-this-book-is-not": "how-to-use-this-book"
+ }
+}
