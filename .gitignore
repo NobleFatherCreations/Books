@@ -2,6 +2,7 @@
 __pycache__/
 node_modules/
 .impeccable/hook.cache.json
+.impeccable/live/
 
 # background-agent isolated worktrees (each is its own nested git repo,
 # actively in use while an agent is running -- never a real deliverable)
