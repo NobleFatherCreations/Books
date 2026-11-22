@@ -530,6 +530,8 @@ Be wary too of therapy language used against you: "you're triggering me," "I nee
 ## What if the first therapist isn't right?
 Try another. Fit matters more than anything else in how well therapy works. You're allowed to leave after a session or two.
 
+You can say, "I don't think this is the right fit for me," and leave. You don't owe an explanation. Signs it isn't right: they suggest you see things from the abuser's side, push couples work, rush you into the worst memories, or seem uncomfortable with what you tell them. When you look for the next one, ask about their experience with abuse and coercive control before you book.
+
 ## The main therapies in plain words
 - **Trauma-focused cognitive behavioural therapy (TF-CBT):** helps you process memories and change frightening beliefs about yourself and the world.
 - **EMDR:** uses guided eye movements or taps while you recall memories, to help the brain process them. Recommended for PTSD in guidelines such as NICE's.

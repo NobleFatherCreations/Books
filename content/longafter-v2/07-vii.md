@@ -190,6 +190,8 @@ Numbness is common. It's often the nervous system protecting you while it's over
 ## What if I feel happy, then guilty for feeling happy?
 Happiness after leaving isn't a betrayal of anyone, including your children. You're allowed good days in the middle of a hard year.
 
+Guilt often arrives because happiness feels unfamiliar, or because you were punished for it in the past. You may also feel you should be sad for the children's sake, or that being happy proves the abuse wasn't that bad. Neither is true. Happy moments are part of recovery. Let yourself notice them, and if the guilt comes, name it and let it pass.
+
 ## What if I want to reach out to them?
 Notice the urge, and wait. Tell someone first. Read [Hoovering](ch:hoovering) and [The trauma bond](ch:the-trauma-bond). The urge usually passes, and it passes faster each time you don't act on it.
 
@@ -628,6 +630,8 @@ Then do it on your terms, in your time, privately if you like. You can forgive s
 ## What about forgiving myself?
 Often that's the forgiveness that matters most. See [Guilt and shame](ch:guilt-and-shame).
 
+People often blame themselves for staying, for not seeing it sooner, for what the children saw, or for things they did to survive. Forgiving yourself doesn't mean pretending none of it mattered. It means accepting that you did what you could with what you knew, under pressure most people never face. One way in: write what you'd say to a friend who told you your story. Then read it as if it were written to you.
+
 ## What closure looks like in practice
 Closure is rarely one moment. For most people it looks like:
 
@@ -719,6 +723,8 @@ A child's birthday can also be the anniversary of something terrible. You can ho
 
 ## What about the first anniversary of leaving?
 Many people mark it. Some celebrate. Some grieve. Many do both. There's no right way.
+
+The first anniversary often brings mixed feelings: pride at getting through a year, grief for what was lost, and sometimes fear that something will happen on the day. Plan it like any hard date: who you'll be with, what you'll do, what you'll avoid. Some people write a list of everything they've done in the year that they couldn't have done before. Others do something they used to love and were stopped from doing.
 
 ## A year of hard dates
 Make a list of dates that may be hard in the first year or two:
