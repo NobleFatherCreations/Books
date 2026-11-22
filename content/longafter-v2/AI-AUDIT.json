@@ -1,0 +1,1924 @@
+{
+ "pages": {
+  "where-are-you-right-now": {
+   "words": 839,
+   "tells_per_1000": 0.0,
+   "burstiness": 4.7,
+   "para_spread": 99,
+   "contractions_per_100": 4.6,
+   "you_per_100": 4.8,
+   "soft_words": 0,
+   "findings": {
+    "dash": 0,
+    "one-line closer": 0,
+    "saying (pull quote)": 0,
+    "bold label list item": 0,
+    "heading restated": 3,
+    "triad": 0,
+    "3 openings in a row": 0,
+    "over 25 words": 0
+   },
+   "tools": false
+  },
+  "if-youre-not-safe-right-now": {
+   "words": 905,
+   "tells_per_1000": 1.1,
+   "burstiness": 5.8,
+   "para_spread": 12.7,
+   "contractions_per_100": 3.6,
+   "you_per_100": 6.4,
+   "soft_words": 0,
+   "findings": {
+    "writing about the document": 1,
+    "dash": 0,
+    "one-line closer": 0,
+    "saying (pull quote)": 0,
+    "bold label list item": 10,
+    "triad": 0,
+    "3 openings in a row": 1,
+    "over 25 words": 1
+   },
+   "tools": false
+  },
+  "how-to-use-this-book": {
+   "words": 1036,
+   "tells_per_1000": 0.0,
+   "burstiness": 6.8,
+   "para_spread": 14.5,
+   "contractions_per_100": 2.7,
+   "you_per_100": 4.6,
+   "soft_words": 0,
+   "findings": {
+    "dash": 0,
+    "one-line closer": 0,
+    "saying (pull quote)": 0,
+    "bold label list item": 18,
+    "triad": 0,
+    "3 openings in a row": 0,
+    "over 25 words": 3
+   },
+   "tools": false
+  },
+  "leaving-was-the-middle": {
+   "words": 1328,
+   "tells_per_1000": 0.75,
+   "burstiness": 6.4,
+   "para_spread": 17.1,
+   "contractions_per_100": 2.9,
+   "you_per_100": 5.8,
+   "soft_words": 1,
+   "findings": {
+    "Q-and-punch": 1,
+    "dash": 0,
+    "one-line closer": 0,
+    "saying (pull quote)": 0,
+    "bold label list item": 9,
+    "triad": 0,
+    "3 openings in a row": 0,
+    "over 25 words": 4
+   },
+   "tools": false
+  },
+  "what-is-post-separation-abuse": {
+   "words": 1776,
+   "tells_per_1000": 1.69,
+   "burstiness": 6.4,
+   "para_spread": 12.6,
+   "contractions_per_100": 1.6,
+   "you_per_100": 3.4,
+   "soft_words": 0,
+   "findings": {
+    "word: leverage": 1,
+    "Q-and-punch": 2,
+    "dash": 0,
+    "one-line closer": 0,
+    "saying (pull quote)": 1,
+    "bold label list item": 24,
+    "triad": 3,
+    "3 openings in a row": 0,
+    "over 25 words": 3
+   },
+   "tools": false
+  },
+  "why-it-often-gets-worse-first": {
+   "words": 1158,
+   "tells_per_1000": 0.86,
+   "burstiness": 6.7,
+   "para_spread": 17.6,
+   "contractions_per_100": 1.9,
+   "you_per_100": 3.4,
+   "soft_words": 0,
+   "findings": {
+    "Q-and-punch": 1,
+    "dash": 0,
+    "one-line closer": 0,
+    "saying (pull quote)": 0,
+    "bold label list item": 3,
+    "triad": 0,
+    "3 openings in a row": 0,
+    "over 25 words": 5
+   },
+   "tools": false
+  },
+  "the-shape-it-takes-when-they-cant-reach-you-directly": {
+   "words": 1066,
+   "tells_per_1000": 0.0,
+   "burstiness": 6.1,
+   "para_spread": 11.1,
+   "contractions_per_100": 2.3,
+   "you_per_100": 4.0,
+   "soft_words": 0,
+   "findings": {
+    "dash": 0,
+    "one-line closer": 1,
+    "saying (pull quote)": 0,
+    "bold label list item": 8,
+    "triad": 0,
+    "3 openings in a row": 2,
+    "over 25 words": 2
+   },
+   "tools": false
+  },
+  "is-my-ex-a-narcissist": {
+   "words": 1395,
+   "tells_per_1000": 0.0,
+   "burstiness": 6.5,
+   "para_spread": 13.9,
+   "contractions_per_100": 2.9,
+   "you_per_100": 4.4,
+   "soft_words": 1,
+   "findings": {
+    "dash": 0,
+    "one-line closer": 0,
+    "saying (pull quote)": 1,
+    "bold label list item": 4,
+    "heading restated": 1,
+    "triad": 2,
+    "3 openings in a row": 0,
+    "over 25 words": 4
+   },
+   "tools": false
+  },
+  "abuse-or-a-hard-breakup": {
+   "words": 1384,
+   "tells_per_1000": 0.0,
+   "burstiness": 5.9,
+   "para_spread": 17.2,
+   "contractions_per_100": 2.3,
+   "you_per_100": 4.7,
+   "soft_words": 0,
+   "findings": {
+    "dash": 0,
+    "one-line closer": 0,
+    "saying (pull quote)": 0,
+    "bold label list item": 10,
+    "triad": 1,
+    "3 openings in a row": 1,
+    "over 25 words": 2
+   },
+   "tools": false
+  },
+  "if-your-story-doesnt-look-like-the-usual-one": {
+   "words": 1534,
+   "tells_per_1000": 0.0,
+   "burstiness": 7.1,
+   "para_spread": 14.8,
+   "contractions_per_100": 2.0,
+   "you_per_100": 6.0,
+   "soft_words": 0,
+   "findings": {
+    "dash": 0,
+    "one-line closer": 0,
+    "saying (pull quote)": 0,
+    "bold label list item": 10,
+    "heading restated": 1,
+    "triad": 2,
+    "3 openings in a row": 0,
+    "over 25 words": 5
+   },
+   "tools": false
+  },
+  "the-first-30-days": {
+   "words": 1305,
+   "tells_per_1000": 0.0,
+   "burstiness": 6.7,
+   "para_spread": 18.5,
+   "contractions_per_100": 2.9,
+   "you_per_100": 4.8,
+   "soft_words": 1,
+   "findings": {
+    "dash": 0,
+    "one-line closer": 0,
+    "saying (pull quote)": 0,
+    "bold label list item": 12,
+    "triad": 1,
+    "3 openings in a row": 2,
+    "over 25 words": 2
+   },
+   "tools": false
+  },
+  "if-they-left-you": {
+   "words": 1138,
+   "tells_per_1000": 0.88,
+   "burstiness": 6.4,
+   "para_spread": 13.6,
+   "contractions_per_100": 2.9,
+   "you_per_100": 5.1,
+   "soft_words": 0,
+   "findings": {
+    "staged run-up": 1,
+    "dash": 0,
+    "one-line closer": 0,
+    "saying (pull quote)": 1,
+    "bold label list item": 6,
+    "triad": 0,
+    "3 openings in a row": 2,
+    "over 25 words": 1
+   },
+   "tools": false
+  },
+  "still-under-the-same-roof": {
+   "words": 1201,
+   "tells_per_1000": 0.0,
+   "burstiness": 6.1,
+   "para_spread": 14.8,
+   "contractions_per_100": 3.1,
+   "you_per_100": 4.8,
+   "soft_words": 0,
+   "findings": {
+    "dash": 0,
+    "one-line closer": 0,
+    "saying (pull quote)": 0,
+    "bold label list item": 15,
+    "triad": 2,
+    "3 openings in a row": 0,
+    "over 25 words": 2
+   },
+   "tools": false
+  },
+  "a-safety-plan-for-after-youve-left": {
+   "words": 1598,
+   "tells_per_1000": 0.63,
+   "burstiness": 6.9,
+   "para_spread": 18.7,
+   "contractions_per_100": 2.4,
+   "you_per_100": 5.6,
+   "soft_words": 1,
+   "findings": {
+    "word: fostering": 1,
+    "dash": 0,
+    "one-line closer": 0,
+    "saying (pull quote)": 0,
+    "bold label list item": 3,
+    "triad": 2,
+    "3 openings in a row": 0,
+    "over 25 words": 5
+   },
+   "tools": false
+  },
+  "warning-signs-to-take-seriously": {
+   "words": 1010,
+   "tells_per_1000": 1.98,
+   "burstiness": 8.5,
+   "para_spread": 17.6,
+   "contractions_per_100": 4.1,
+   "you_per_100": 4.7,
+   "soft_words": 0,
+   "findings": {
+    "writing about the document": 2,
+    "dash": 0,
+    "one-line closer": 0,
+    "saying (pull quote)": 0,
+    "bold label list item": 16,
+    "triad": 0,
+    "3 openings in a row": 0,
+    "over 25 words": 5
+   },
+   "tools": false
+  },
+  "surveillance-and-technology": {
+   "words": 1287,
+   "tells_per_1000": 1.55,
+   "burstiness": 5.7,
+   "para_spread": 28.1,
+   "contractions_per_100": 2.3,
+   "you_per_100": 5.1,
+   "soft_words": 0,
+   "findings": {
+    "Q-and-punch": 1,
+    "writing about the document": 1,
+    "dash": 0,
+    "one-line closer": 0,
+    "saying (pull quote)": 0,
+    "bold label list item": 6,
+    "heading restated": 1,
+    "triad": 1,
+    "3 openings in a row": 2,
+    "over 25 words": 1
+   },
+   "tools": false
+  },
+  "stalking-and-harassment": {
+   "words": 1220,
+   "tells_per_1000": 0.0,
+   "burstiness": 7.2,
+   "para_spread": 13.4,
+   "contractions_per_100": 1.6,
+   "you_per_100": 4.7,
+   "soft_words": 0,
+   "findings": {
+    "dash": 0,
+    "one-line closer": 0,
+    "saying (pull quote)": 0,
+    "bold label list item": 10,
+    "triad": 0,
+    "3 openings in a row": 0,
+    "over 25 words": 3
+   },
+   "tools": false
+  },
+  "intimate-images-and-online-threats": {
+   "words": 772,
+   "tells_per_1000": 0.0,
+   "burstiness": 9.4,
+   "para_spread": 5.6,
+   "contractions_per_100": 2.7,
+   "you_per_100": 4.0,
+   "soft_words": 0,
+   "findings": {
+    "dash": 0,
+    "one-line closer": 0,
+    "saying (pull quote)": 0,
+    "bold label list item": 6,
+    "triad": 0,
+    "3 openings in a row": 0,
+    "over 25 words": 3
+   },
+   "tools": false
+  },
+  "your-address-your-records-your-mail": {
+   "words": 1021,
+   "tells_per_1000": 0.0,
+   "burstiness": 7.4,
+   "para_spread": 17.1,
+   "contractions_per_100": 2.1,
+   "you_per_100": 6.0,
+   "soft_words": 0,
+   "findings": {
+    "dash": 0,
+    "one-line closer": 0,
+    "saying (pull quote)": 0,
+    "bold label list item": 13,
+    "heading restated": 2,
+    "triad": 1,
+    "3 openings in a row": 0,
+    "over 25 words": 2
+   },
+   "tools": false
+  },
+  "children-as-the-channel": {
+   "words": 1473,
+   "tells_per_1000": 0.68,
+   "burstiness": 7.9,
+   "para_spread": 14.3,
+   "contractions_per_100": 3.4,
+   "you_per_100": 4.2,
+   "soft_words": 0,
+   "findings": {
+    "word: leverage": 1,
+    "dash": 0,
+    "one-line closer": 0,
+    "saying (pull quote)": 1,
+    "bold label list item": 8,
+    "triad": 2,
+    "3 openings in a row": 0,
+    "over 25 words": 9
+   },
+   "tools": false
+  },
+  "money-as-the-channel": {
+   "words": 1354,
+   "tells_per_1000": 0.0,
+   "burstiness": 8.2,
+   "para_spread": 14.0,
+   "contractions_per_100": 1.8,
+   "you_per_100": 3.9,
+   "soft_words": 0,
+   "findings": {
+    "dash": 0,
+    "one-line closer": 0,
+    "saying (pull quote)": 0,
+    "bold label list item": 22,
+    "triad": 0,
+    "3 openings in a row": 0,
+    "over 25 words": 4
+   },
+   "tools": false
+  },
+  "the-narrative-campaign": {
+   "words": 1123,
+   "tells_per_1000": 1.78,
+   "burstiness": 9.1,
+   "para_spread": 13.0,
+   "contractions_per_100": 4.0,
+   "you_per_100": 5.1,
+   "soft_words": 0,
+   "findings": {
+    "word: quietly": 1,
+    "staged run-up": 1,
+    "dash": 0,
+    "one-line closer": 0,
+    "saying (pull quote)": 1,
+    "bold label list item": 7,
+    "triad": 1,
+    "3 openings in a row": 0,
+    "over 25 words": 3
+   },
+   "tools": false
+  },
+  "your-family-and-mutual-friends": {
+   "words": 1080,
+   "tells_per_1000": 0.93,
+   "burstiness": 7.3,
+   "para_spread": 16.3,
+   "contractions_per_100": 4.2,
+   "you_per_100": 5.2,
+   "soft_words": 0,
+   "findings": {
+    "word: truly": 1,
+    "dash": 0,
+    "one-line closer": 0,
+    "saying (pull quote)": 0,
+    "bold label list item": 9,
+    "triad": 1,
+    "3 openings in a row": 2,
+    "over 25 words": 4
+   },
+   "tools": false
+  },
+  "the-new-partner": {
+   "words": 1056,
+   "tells_per_1000": 0.0,
+   "burstiness": 9.4,
+   "para_spread": 14.3,
+   "contractions_per_100": 4.1,
+   "you_per_100": 6.0,
+   "soft_words": 0,
+   "findings": {
+    "dash": 0,
+    "one-line closer": 0,
+    "saying (pull quote)": 0,
+    "bold label list item": 8,
+    "triad": 0,
+    "3 openings in a row": 0,
+    "over 25 words": 8
+   },
+   "tools": false
+  },
+  "hoovering": {
+   "words": 1924,
+   "tells_per_1000": 0.52,
+   "burstiness": 7.1,
+   "para_spread": 15.2,
+   "contractions_per_100": 4.4,
+   "you_per_100": 4.8,
+   "soft_words": 2,
+   "findings": {
+    "Q-and-punch": 1,
+    "dash": 0,
+    "one-line closer": 1,
+    "saying (pull quote)": 0,
+    "bold label list item": 11,
+    "triad": 1,
+    "3 openings in a row": 3,
+    "over 25 words": 5
+   },
+   "tools": false
+  },
+  "when-they-say-youre-the-abuser": {
+   "words": 1256,
+   "tells_per_1000": 0.0,
+   "burstiness": 7.4,
+   "para_spread": 11.5,
+   "contractions_per_100": 2.6,
+   "you_per_100": 4.4,
+   "soft_words": 0,
+   "findings": {
+    "dash": 0,
+    "one-line closer": 0,
+    "saying (pull quote)": 0,
+    "bold label list item": 4,
+    "triad": 0,
+    "3 openings in a row": 0,
+    "over 25 words": 5
+   },
+   "tools": false
+  },
+  "when-it-stops": {
+   "words": 988,
+   "tells_per_1000": 1.01,
+   "burstiness": 6.3,
+   "para_spread": 12.3,
+   "contractions_per_100": 3.1,
+   "you_per_100": 3.7,
+   "soft_words": 0,
+   "findings": {
+    "writing about the document": 1,
+    "dash": 0,
+    "one-line closer": 0,
+    "saying (pull quote)": 0,
+    "bold label list item": 8,
+    "triad": 1,
+    "3 openings in a row": 0,
+    "over 25 words": 1
+   },
+   "tools": false
+  },
+  "no-contact-low-contact": {
+   "words": 1200,
+   "tells_per_1000": 0.0,
+   "burstiness": 7.8,
+   "para_spread": 15.5,
+   "contractions_per_100": 3.2,
+   "you_per_100": 4.4,
+   "soft_words": 0,
+   "findings": {
+    "dash": 0,
+    "one-line closer": 0,
+    "saying (pull quote)": 0,
+    "bold label list item": 8,
+    "triad": 1,
+    "3 openings in a row": 0,
+    "over 25 words": 4
+   },
+   "tools": false
+  },
+  "grey-rock-and-written-only-contact": {
+   "words": 1048,
+   "tells_per_1000": 0.0,
+   "burstiness": 6.1,
+   "para_spread": 8.1,
+   "contractions_per_100": 4.1,
+   "you_per_100": 3.5,
+   "soft_words": 0,
+   "findings": {
+    "dash": 0,
+    "one-line closer": 0,
+    "saying (pull quote)": 3,
+    "bold label list item": 4,
+    "triad": 0,
+    "3 openings in a row": 0,
+    "over 25 words": 3
+   },
+   "tools": false
+  },
+  "words-you-can-use": {
+   "words": 887,
+   "tells_per_1000": 0.0,
+   "burstiness": 8.3,
+   "para_spread": 7.1,
+   "contractions_per_100": 5.5,
+   "you_per_100": 5.7,
+   "soft_words": 0,
+   "findings": {
+    "dash": 0,
+    "one-line closer": 0,
+    "saying (pull quote)": 1,
+    "bold label list item": 4,
+    "triad": 1,
+    "3 openings in a row": 0,
+    "over 25 words": 5
+   },
+   "tools": false
+  },
+  "messages-you-dont-have-to-answer": {
+   "words": 1022,
+   "tells_per_1000": 0.0,
+   "burstiness": 9.3,
+   "para_spread": 17.8,
+   "contractions_per_100": 2.9,
+   "you_per_100": 3.0,
+   "soft_words": 0,
+   "findings": {
+    "dash": 0,
+    "one-line closer": 0,
+    "saying (pull quote)": 1,
+    "bold label list item": 0,
+    "triad": 0,
+    "3 openings in a row": 1,
+    "over 25 words": 2
+   },
+   "tools": false
+  },
+  "what-to-document-and-how": {
+   "words": 1241,
+   "tells_per_1000": 0.0,
+   "burstiness": 6.4,
+   "para_spread": 19.9,
+   "contractions_per_100": 2.0,
+   "you_per_100": 3.7,
+   "soft_words": 0,
+   "findings": {
+    "dash": 0,
+    "one-line closer": 0,
+    "saying (pull quote)": 0,
+    "bold label list item": 18,
+    "triad": 0,
+    "3 openings in a row": 0,
+    "over 25 words": 1
+   },
+   "tools": false
+  },
+  "systems-abuse": {
+   "words": 1341,
+   "tells_per_1000": 0.0,
+   "burstiness": 6.9,
+   "para_spread": 18.9,
+   "contractions_per_100": 1.5,
+   "you_per_100": 2.7,
+   "soft_words": 0,
+   "findings": {
+    "dash": 0,
+    "one-line closer": 0,
+    "saying (pull quote)": 1,
+    "bold label list item": 17,
+    "triad": 1,
+    "3 openings in a row": 0,
+    "over 25 words": 4
+   },
+   "tools": false
+  },
+  "solicitors-legal-aid-and-no-money": {
+   "words": 1137,
+   "tells_per_1000": 0.0,
+   "burstiness": 6.3,
+   "para_spread": 33.9,
+   "contractions_per_100": 1.8,
+   "you_per_100": 3.6,
+   "soft_words": 1,
+   "findings": {
+    "dash": 0,
+    "one-line closer": 0,
+    "saying (pull quote)": 1,
+    "bold label list item": 13,
+    "triad": 0,
+    "3 openings in a row": 0,
+    "over 25 words": 2
+   },
+   "tools": false
+  },
+  "family-court-honestly": {
+   "words": 1626,
+   "tells_per_1000": 0.62,
+   "burstiness": 6.2,
+   "para_spread": 24.5,
+   "contractions_per_100": 2.8,
+   "you_per_100": 3.2,
+   "soft_words": 0,
+   "findings": {
+    "word: leverage": 1,
+    "dash": 0,
+    "one-line closer": 0,
+    "saying (pull quote)": 0,
+    "bold label list item": 16,
+    "triad": 3,
+    "3 openings in a row": 0,
+    "over 25 words": 3
+   },
+   "tools": false
+  },
+  "your-day-in-court": {
+   "words": 975,
+   "tells_per_1000": 0.0,
+   "burstiness": 8.6,
+   "para_spread": 11.3,
+   "contractions_per_100": 4.4,
+   "you_per_100": 5.7,
+   "soft_words": 1,
+   "findings": {
+    "dash": 0,
+    "one-line closer": 0,
+    "saying (pull quote)": 0,
+    "bold label list item": 9,
+    "triad": 0,
+    "3 openings in a row": 0,
+    "over 25 words": 3
+   },
+   "tools": false
+  },
+  "divorce-and-separation-proceedings": {
+   "words": 1279,
+   "tells_per_1000": 0.78,
+   "burstiness": 7.0,
+   "para_spread": 23.9,
+   "contractions_per_100": 1.6,
+   "you_per_100": 2.7,
+   "soft_words": 0,
+   "findings": {
+    "word: valuable": 1,
+    "dash": 0,
+    "one-line closer": 0,
+    "saying (pull quote)": 1,
+    "bold label list item": 5,
+    "triad": 4,
+    "3 openings in a row": 0,
+    "over 25 words": 6
+   },
+   "tools": false
+  },
+  "police-and-protective-orders": {
+   "words": 1267,
+   "tells_per_1000": 0.0,
+   "burstiness": 6.6,
+   "para_spread": 13.6,
+   "contractions_per_100": 2.0,
+   "you_per_100": 4.1,
+   "soft_words": 0,
+   "findings": {
+    "dash": 0,
+    "one-line closer": 0,
+    "saying (pull quote)": 0,
+    "bold label list item": 9,
+    "triad": 0,
+    "3 openings in a row": 0,
+    "over 25 words": 3
+   },
+   "tools": false
+  },
+  "police-and-reporting": {
+   "words": 1155,
+   "tells_per_1000": 1.73,
+   "burstiness": 7.1,
+   "para_spread": 18.2,
+   "contractions_per_100": 2.4,
+   "you_per_100": 4.6,
+   "soft_words": 0,
+   "findings": {
+    "Q-and-punch": 2,
+    "dash": 0,
+    "one-line closer": 0,
+    "saying (pull quote)": 0,
+    "bold label list item": 10,
+    "triad": 0,
+    "3 openings in a row": 2,
+    "over 25 words": 5
+   },
+   "tools": false
+  },
+  "housing-and-benefits": {
+   "words": 1060,
+   "tells_per_1000": 0.0,
+   "burstiness": 6.7,
+   "para_spread": 16.7,
+   "contractions_per_100": 2.0,
+   "you_per_100": 3.9,
+   "soft_words": 0,
+   "findings": {
+    "dash": 0,
+    "one-line closer": 0,
+    "saying (pull quote)": 0,
+    "bold label list item": 15,
+    "triad": 2,
+    "3 openings in a row": 0,
+    "over 25 words": 1
+   },
+   "tools": false
+  },
+  "where-to-find-the-right-body": {
+   "words": 972,
+   "tells_per_1000": 1.03,
+   "burstiness": 9.8,
+   "para_spread": 22.6,
+   "contractions_per_100": 1.7,
+   "you_per_100": 3.3,
+   "soft_words": 0,
+   "findings": {
+    "Q-and-punch": 1,
+    "dash": 0,
+    "one-line closer": 0,
+    "saying (pull quote)": 0,
+    "bold label list item": 7,
+    "triad": 1,
+    "3 openings in a row": 0,
+    "over 25 words": 3
+   },
+   "tools": false
+  },
+  "untangling-the-paperwork": {
+   "words": 946,
+   "tells_per_1000": 0.0,
+   "burstiness": 8.9,
+   "para_spread": 17.0,
+   "contractions_per_100": 1.8,
+   "you_per_100": 4.5,
+   "soft_words": 0,
+   "findings": {
+    "dash": 0,
+    "one-line closer": 0,
+    "saying (pull quote)": 0,
+    "bold label list item": 2,
+    "triad": 0,
+    "3 openings in a row": 0,
+    "over 25 words": 2
+   },
+   "tools": false
+  },
+  "co-parenting-or-parallel-parenting": {
+   "words": 1483,
+   "tells_per_1000": 1.35,
+   "burstiness": 6.7,
+   "para_spread": 18.8,
+   "contractions_per_100": 1.7,
+   "you_per_100": 2.2,
+   "soft_words": 0,
+   "findings": {
+    "word: leverage": 1,
+    "word: quietly": 1,
+    "dash": 0,
+    "one-line closer": 0,
+    "saying (pull quote)": 1,
+    "bold label list item": 18,
+    "triad": 0,
+    "3 openings in a row": 0,
+    "over 25 words": 4
+   },
+   "tools": false
+  },
+  "handovers": {
+   "words": 963,
+   "tells_per_1000": 1.04,
+   "burstiness": 7.3,
+   "para_spread": 13.3,
+   "contractions_per_100": 2.3,
+   "you_per_100": 2.1,
+   "soft_words": 0,
+   "findings": {
+    "word: leverage": 1,
+    "dash": 0,
+    "one-line closer": 0,
+    "saying (pull quote)": 1,
+    "bold label list item": 0,
+    "triad": 0,
+    "3 openings in a row": 0,
+    "over 25 words": 4
+   },
+   "tools": false
+  },
+  "your-children-and-what-to-say": {
+   "words": 998,
+   "tells_per_1000": 0.0,
+   "burstiness": 7.3,
+   "para_spread": 13.9,
+   "contractions_per_100": 5.2,
+   "you_per_100": 4.8,
+   "soft_words": 0,
+   "findings": {
+    "dash": 0,
+    "one-line closer": 0,
+    "saying (pull quote)": 0,
+    "bold label list item": 10,
+    "triad": 1,
+    "3 openings in a row": 0,
+    "over 25 words": 4
+   },
+   "tools": false
+  },
+  "how-children-react": {
+   "words": 1116,
+   "tells_per_1000": 0.9,
+   "burstiness": 7.2,
+   "para_spread": 12.5,
+   "contractions_per_100": 3.5,
+   "you_per_100": 2.9,
+   "soft_words": 0,
+   "findings": {
+    "word: elevation": 1,
+    "dash": 0,
+    "one-line closer": 0,
+    "saying (pull quote)": 0,
+    "bold label list item": 10,
+    "triad": 0,
+    "3 openings in a row": 0,
+    "over 25 words": 5
+   },
+   "tools": false
+  },
+  "when-your-child-is-pulled-in": {
+   "words": 1182,
+   "tells_per_1000": 1.69,
+   "burstiness": 7.3,
+   "para_spread": 17.0,
+   "contractions_per_100": 4.0,
+   "you_per_100": 5.0,
+   "soft_words": 0,
+   "findings": {
+    "word: leverage": 1,
+    "chatbot residue": 1,
+    "dash": 0,
+    "one-line closer": 0,
+    "saying (pull quote)": 0,
+    "bold label list item": 0,
+    "triad": 0,
+    "3 openings in a row": 0,
+    "over 25 words": 4
+   },
+   "tools": false
+  },
+  "apps-calendars-and-the-parenting-plan": {
+   "words": 836,
+   "tells_per_1000": 0.0,
+   "burstiness": 5.4,
+   "para_spread": 99,
+   "contractions_per_100": 2.5,
+   "you_per_100": 3.2,
+   "soft_words": 0,
+   "findings": {
+    "dash": 0,
+    "one-line closer": 0,
+    "saying (pull quote)": 0,
+    "bold label list item": 17,
+    "triad": 2,
+    "3 openings in a row": 0,
+    "over 25 words": 0
+   },
+   "tools": false
+  },
+  "moving-passports-and-travel-with-children": {
+   "words": 931,
+   "tells_per_1000": 0.0,
+   "burstiness": 7.1,
+   "para_spread": 14.2,
+   "contractions_per_100": 3.1,
+   "you_per_100": 3.4,
+   "soft_words": 1,
+   "findings": {
+    "dash": 0,
+    "one-line closer": 0,
+    "saying (pull quote)": 0,
+    "bold label list item": 5,
+    "triad": 0,
+    "3 openings in a row": 1,
+    "over 25 words": 4
+   },
+   "tools": false
+  },
+  "pregnant-or-with-a-new-baby": {
+   "words": 956,
+   "tells_per_1000": 0.0,
+   "burstiness": 5.2,
+   "para_spread": 16.8,
+   "contractions_per_100": 3.1,
+   "you_per_100": 5.5,
+   "soft_words": 0,
+   "findings": {
+    "dash": 0,
+    "one-line closer": 0,
+    "saying (pull quote)": 0,
+    "bold label list item": 3,
+    "triad": 1,
+    "3 openings in a row": 0,
+    "over 25 words": 1
+   },
+   "tools": false
+  },
+  "the-trauma-bond": {
+   "words": 1766,
+   "tells_per_1000": 1.7,
+   "burstiness": 5.7,
+   "para_spread": 16.5,
+   "contractions_per_100": 2.5,
+   "you_per_100": 4.3,
+   "soft_words": 1,
+   "findings": {
+    "word: quietly": 1,
+    "Q-and-punch": 1,
+    "writing about the document": 1,
+    "dash": 0,
+    "one-line closer": 1,
+    "saying (pull quote)": 1,
+    "bold label list item": 13,
+    "triad": 1,
+    "3 openings in a row": 0,
+    "over 25 words": 2
+   },
+   "tools": false
+  },
+  "what-youre-allowed-to-feel-about-someone-you-left": {
+   "words": 942,
+   "tells_per_1000": 0.0,
+   "burstiness": 5.5,
+   "para_spread": 17.6,
+   "contractions_per_100": 3.1,
+   "you_per_100": 5.4,
+   "soft_words": 0,
+   "findings": {
+    "dash": 0,
+    "one-line closer": 0,
+    "saying (pull quote)": 0,
+    "bold label list item": 4,
+    "triad": 1,
+    "3 openings in a row": 1,
+    "over 25 words": 2
+   },
+   "tools": false
+  },
+  "the-grief-nobody-will-let-you-have": {
+   "words": 1085,
+   "tells_per_1000": 1.84,
+   "burstiness": 5.3,
+   "para_spread": 19.0,
+   "contractions_per_100": 4.1,
+   "you_per_100": 5.2,
+   "soft_words": 0,
+   "findings": {
+    "Q-and-punch": 2,
+    "dash": 0,
+    "one-line closer": 0,
+    "saying (pull quote)": 0,
+    "bold label list item": 8,
+    "triad": 1,
+    "3 openings in a row": 0,
+    "over 25 words": 1
+   },
+   "tools": false
+  },
+  "guilt-and-shame": {
+   "words": 1034,
+   "tells_per_1000": 0.97,
+   "burstiness": 7.9,
+   "para_spread": 17.5,
+   "contractions_per_100": 3.9,
+   "you_per_100": 4.6,
+   "soft_words": 0,
+   "findings": {
+    "Q-and-punch": 1,
+    "dash": 0,
+    "one-line closer": 0,
+    "saying (pull quote)": 1,
+    "bold label list item": 9,
+    "triad": 0,
+    "3 openings in a row": 3,
+    "over 25 words": 4
+   },
+   "tools": false
+  },
+  "anger-arriving-late": {
+   "words": 943,
+   "tells_per_1000": 2.12,
+   "burstiness": 6.9,
+   "para_spread": 16.9,
+   "contractions_per_100": 3.0,
+   "you_per_100": 3.8,
+   "soft_words": 0,
+   "findings": {
+    "Q-and-punch": 2,
+    "dash": 0,
+    "one-line closer": 0,
+    "saying (pull quote)": 1,
+    "bold label list item": 7,
+    "heading restated": 1,
+    "triad": 0,
+    "3 openings in a row": 0,
+    "over 25 words": 2
+   },
+   "tools": false
+  },
+  "checking-their-profile": {
+   "words": 925,
+   "tells_per_1000": 0.0,
+   "burstiness": 6.9,
+   "para_spread": 15.1,
+   "contractions_per_100": 3.7,
+   "you_per_100": 4.9,
+   "soft_words": 0,
+   "findings": {
+    "dash": 0,
+    "one-line closer": 0,
+    "saying (pull quote)": 1,
+    "bold label list item": 6,
+    "triad": 0,
+    "3 openings in a row": 0,
+    "over 25 words": 1
+   },
+   "tools": false
+  },
+  "closure-and-forgiveness": {
+   "words": 877,
+   "tells_per_1000": 2.28,
+   "burstiness": 6.3,
+   "para_spread": 24.0,
+   "contractions_per_100": 2.5,
+   "you_per_100": 6.5,
+   "soft_words": 0,
+   "findings": {
+    "word: quietly": 1,
+    "Q-and-punch": 1,
+    "dash": 0,
+    "one-line closer": 0,
+    "saying (pull quote)": 1,
+    "bold label list item": 8,
+    "triad": 1,
+    "3 openings in a row": 0,
+    "over 25 words": 1
+   },
+   "tools": false
+  },
+  "the-anniversary-effect": {
+   "words": 969,
+   "tells_per_1000": 0.0,
+   "burstiness": 6.7,
+   "para_spread": 20.7,
+   "contractions_per_100": 2.5,
+   "you_per_100": 4.9,
+   "soft_words": 0,
+   "findings": {
+    "dash": 0,
+    "one-line closer": 0,
+    "saying (pull quote)": 1,
+    "bold label list item": 6,
+    "triad": 0,
+    "3 openings in a row": 0,
+    "over 25 words": 3
+   },
+   "tools": false
+  },
+  "memory": {
+   "words": 939,
+   "tells_per_1000": 0.0,
+   "burstiness": 6.7,
+   "para_spread": 17.3,
+   "contractions_per_100": 3.5,
+   "you_per_100": 3.9,
+   "soft_words": 2,
+   "findings": {
+    "dash": 0,
+    "one-line closer": 0,
+    "saying (pull quote)": 1,
+    "bold label list item": 5,
+    "triad": 0,
+    "3 openings in a row": 0,
+    "over 25 words": 3
+   },
+   "tools": false
+  },
+  "what-your-nervous-system-is-doing": {
+   "words": 1215,
+   "tells_per_1000": 0.82,
+   "burstiness": 7.1,
+   "para_spread": 13.8,
+   "contractions_per_100": 2.2,
+   "you_per_100": 5.4,
+   "soft_words": 0,
+   "findings": {
+    "writing about the document": 1,
+    "dash": 0,
+    "one-line closer": 0,
+    "saying (pull quote)": 1,
+    "bold label list item": 9,
+    "triad": 1,
+    "3 openings in a row": 0,
+    "over 25 words": 4
+   },
+   "tools": false
+  },
+  "sleep": {
+   "words": 859,
+   "tells_per_1000": 0.0,
+   "burstiness": 6.9,
+   "para_spread": 99,
+   "contractions_per_100": 2.1,
+   "you_per_100": 4.1,
+   "soft_words": 0,
+   "findings": {
+    "dash": 0,
+    "one-line closer": 0,
+    "saying (pull quote)": 0,
+    "bold label list item": 9,
+    "triad": 2,
+    "3 openings in a row": 0,
+    "over 25 words": 2
+   },
+   "tools": false
+  },
+  "getting-sick-after-leaving": {
+   "words": 901,
+   "tells_per_1000": 0.0,
+   "burstiness": 8.8,
+   "para_spread": 5.0,
+   "contractions_per_100": 2.3,
+   "you_per_100": 3.4,
+   "soft_words": 0,
+   "findings": {
+    "dash": 0,
+    "one-line closer": 0,
+    "saying (pull quote)": 1,
+    "bold label list item": 4,
+    "triad": 2,
+    "3 openings in a row": 0,
+    "over 25 words": 4
+   },
+   "tools": false
+  },
+  "if-there-was-sexual-abuse": {
+   "words": 1097,
+   "tells_per_1000": 2.73,
+   "burstiness": 5.9,
+   "para_spread": 13.5,
+   "contractions_per_100": 2.8,
+   "you_per_100": 4.4,
+   "soft_words": 0,
+   "findings": {
+    "Q-and-punch": 2,
+    "writing about the document": 1,
+    "dash": 0,
+    "one-line closer": 0,
+    "saying (pull quote)": 0,
+    "bold label list item": 21,
+    "triad": 0,
+    "3 openings in a row": 0,
+    "over 25 words": 1
+   },
+   "tools": false
+  },
+  "drinking-drugs-and-getting-through": {
+   "words": 867,
+   "tells_per_1000": 0.0,
+   "burstiness": 6.3,
+   "para_spread": 14.6,
+   "contractions_per_100": 2.5,
+   "you_per_100": 3.3,
+   "soft_words": 0,
+   "findings": {
+    "dash": 0,
+    "one-line closer": 0,
+    "saying (pull quote)": 1,
+    "bold label list item": 14,
+    "triad": 1,
+    "3 openings in a row": 0,
+    "over 25 words": 2
+   },
+   "tools": false
+  },
+  "finding-a-therapist-who-understands-this": {
+   "words": 1039,
+   "tells_per_1000": 0.0,
+   "burstiness": 8.6,
+   "para_spread": 17.9,
+   "contractions_per_100": 2.7,
+   "you_per_100": 4.1,
+   "soft_words": 1,
+   "findings": {
+    "dash": 0,
+    "one-line closer": 0,
+    "saying (pull quote)": 0,
+    "bold label list item": 15,
+    "triad": 0,
+    "3 openings in a row": 0,
+    "over 25 words": 5
+   },
+   "tools": false
+  },
+  "when-its-more-than-aftermath": {
+   "words": 1195,
+   "tells_per_1000": 0.84,
+   "burstiness": 6.4,
+   "para_spread": 26.0,
+   "contractions_per_100": 3.5,
+   "you_per_100": 6.2,
+   "soft_words": 0,
+   "findings": {
+    "writing about the document": 1,
+    "dash": 0,
+    "one-line closer": 0,
+    "saying (pull quote)": 0,
+    "bold label list item": 4,
+    "triad": 1,
+    "3 openings in a row": 0,
+    "over 25 words": 1
+   },
+   "tools": false
+  },
+  "the-friends-who-didnt-believe-you": {
+   "words": 862,
+   "tells_per_1000": 1.16,
+   "burstiness": 7.8,
+   "para_spread": 18.7,
+   "contractions_per_100": 3.7,
+   "you_per_100": 4.1,
+   "soft_words": 0,
+   "findings": {
+    "Q-and-punch": 1,
+    "dash": 0,
+    "one-line closer": 1,
+    "saying (pull quote)": 0,
+    "bold label list item": 14,
+    "triad": 1,
+    "3 openings in a row": 0,
+    "over 25 words": 3
+   },
+   "tools": false
+  },
+  "the-friends-who-did-and-are-tired": {
+   "words": 753,
+   "tells_per_1000": 0.0,
+   "burstiness": 8.7,
+   "para_spread": 99,
+   "contractions_per_100": 3.2,
+   "you_per_100": 3.7,
+   "soft_words": 0,
+   "findings": {
+    "dash": 0,
+    "one-line closer": 1,
+    "saying (pull quote)": 1,
+    "bold label list item": 10,
+    "triad": 1,
+    "3 openings in a row": 0,
+    "over 25 words": 3
+   },
+   "tools": false
+  },
+  "your-parents": {
+   "words": 1029,
+   "tells_per_1000": 1.94,
+   "burstiness": 7.5,
+   "para_spread": 19.7,
+   "contractions_per_100": 2.7,
+   "you_per_100": 5.2,
+   "soft_words": 0,
+   "findings": {
+    "word: elevation": 1,
+    "Q-and-punch": 1,
+    "dash": 0,
+    "one-line closer": 0,
+    "saying (pull quote)": 0,
+    "bold label list item": 9,
+    "triad": 0,
+    "3 openings in a row": 1,
+    "over 25 words": 7
+   },
+   "tools": false
+  },
+  "telling-someone-new": {
+   "words": 858,
+   "tells_per_1000": 0.0,
+   "burstiness": 5.8,
+   "para_spread": 18.1,
+   "contractions_per_100": 4.2,
+   "you_per_100": 5.9,
+   "soft_words": 0,
+   "findings": {
+    "dash": 0,
+    "one-line closer": 0,
+    "saying (pull quote)": 1,
+    "bold label list item": 8,
+    "triad": 0,
+    "3 openings in a row": 0,
+    "over 25 words": 2
+   },
+   "tools": false
+  },
+  "making-new-people-from-scratch": {
+   "words": 994,
+   "tells_per_1000": 0.0,
+   "burstiness": 5.3,
+   "para_spread": 21.9,
+   "contractions_per_100": 1.9,
+   "you_per_100": 3.0,
+   "soft_words": 0,
+   "findings": {
+    "dash": 0,
+    "one-line closer": 0,
+    "saying (pull quote)": 1,
+    "bold label list item": 7,
+    "triad": 0,
+    "3 openings in a row": 0,
+    "over 25 words": 1
+   },
+   "tools": false
+  },
+  "sharing-a-town-a-workplace-or-a-community": {
+   "words": 758,
+   "tells_per_1000": 1.32,
+   "burstiness": 6.1,
+   "para_spread": 99,
+   "contractions_per_100": 2.0,
+   "you_per_100": 4.1,
+   "soft_words": 1,
+   "findings": {
+    "word: quietly": 1,
+    "dash": 0,
+    "one-line closer": 0,
+    "saying (pull quote)": 0,
+    "bold label list item": 4,
+    "triad": 2,
+    "3 openings in a row": 0,
+    "over 25 words": 1
+   },
+   "tools": false
+  },
+  "money-from-zero": {
+   "words": 1265,
+   "tells_per_1000": 0.0,
+   "burstiness": 5.7,
+   "para_spread": 21.1,
+   "contractions_per_100": 2.0,
+   "you_per_100": 3.0,
+   "soft_words": 0,
+   "findings": {
+    "dash": 0,
+    "one-line closer": 0,
+    "saying (pull quote)": 1,
+    "bold label list item": 12,
+    "triad": 0,
+    "3 openings in a row": 0,
+    "over 25 words": 2
+   },
+   "tools": false
+  },
+  "work-again": {
+   "words": 928,
+   "tells_per_1000": 1.08,
+   "burstiness": 6.2,
+   "para_spread": 18.6,
+   "contractions_per_100": 1.6,
+   "you_per_100": 4.2,
+   "soft_words": 0,
+   "findings": {
+    "Q-and-punch": 1,
+    "dash": 0,
+    "one-line closer": 0,
+    "saying (pull quote)": 0,
+    "bold label list item": 7,
+    "triad": 1,
+    "3 openings in a row": 0,
+    "over 25 words": 2
+   },
+   "tools": false
+  },
+  "a-home-that-feels-like-yours": {
+   "words": 886,
+   "tells_per_1000": 0.0,
+   "burstiness": 4.7,
+   "para_spread": 99,
+   "contractions_per_100": 2.0,
+   "you_per_100": 5.1,
+   "soft_words": 2,
+   "findings": {
+    "dash": 0,
+    "one-line closer": 1,
+    "saying (pull quote)": 0,
+    "bold label list item": 10,
+    "triad": 0,
+    "3 openings in a row": 1,
+    "over 25 words": 0
+   },
+   "tools": false
+  },
+  "pets-and-the-things-left-behind": {
+   "words": 811,
+   "tells_per_1000": 2.47,
+   "burstiness": 5.7,
+   "para_spread": 15.3,
+   "contractions_per_100": 2.2,
+   "you_per_100": 3.9,
+   "soft_words": 0,
+   "findings": {
+    "word: leverage": 1,
+    "word: foster": 1,
+    "dash": 0,
+    "one-line closer": 0,
+    "saying (pull quote)": 0,
+    "bold label list item": 8,
+    "triad": 0,
+    "3 openings in a row": 0,
+    "over 25 words": 2
+   },
+   "tools": false
+  },
+  "holidays-and-the-first-year": {
+   "words": 912,
+   "tells_per_1000": 0.0,
+   "burstiness": 5.8,
+   "para_spread": 18.2,
+   "contractions_per_100": 3.5,
+   "you_per_100": 3.5,
+   "soft_words": 0,
+   "findings": {
+    "dash": 0,
+    "one-line closer": 0,
+    "saying (pull quote)": 0,
+    "bold label list item": 4,
+    "triad": 0,
+    "3 openings in a row": 3,
+    "over 25 words": 0
+   },
+   "tools": false
+  },
+  "your-own-tastes-rediscovered": {
+   "words": 872,
+   "tells_per_1000": 0.0,
+   "burstiness": 5.5,
+   "para_spread": 99,
+   "contractions_per_100": 3.7,
+   "you_per_100": 5.6,
+   "soft_words": 0,
+   "findings": {
+    "dash": 0,
+    "one-line closer": 0,
+    "saying (pull quote)": 1,
+    "bold label list item": 5,
+    "triad": 2,
+    "3 openings in a row": 0,
+    "over 25 words": 1
+   },
+   "tools": false
+  },
+  "trust-as-a-practice": {
+   "words": 894,
+   "tells_per_1000": 0.0,
+   "burstiness": 6.9,
+   "para_spread": 15.4,
+   "contractions_per_100": 2.7,
+   "you_per_100": 4.7,
+   "soft_words": 0,
+   "findings": {
+    "dash": 0,
+    "one-line closer": 0,
+    "saying (pull quote)": 0,
+    "bold label list item": 0,
+    "triad": 0,
+    "3 openings in a row": 0,
+    "over 25 words": 3
+   },
+   "tools": false
+  },
+  "dating-when-youre-ready-and-when-youre-not": {
+   "words": 1045,
+   "tells_per_1000": 0.0,
+   "burstiness": 6.5,
+   "para_spread": 26.8,
+   "contractions_per_100": 3.7,
+   "you_per_100": 5.2,
+   "soft_words": 0,
+   "findings": {
+    "dash": 0,
+    "one-line closer": 0,
+    "saying (pull quote)": 1,
+    "bold label list item": 9,
+    "triad": 0,
+    "3 openings in a row": 0,
+    "over 25 words": 1
+   },
+   "tools": false
+  },
+  "the-version-of-you-from-before": {
+   "words": 766,
+   "tells_per_1000": 0.0,
+   "burstiness": 6.2,
+   "para_spread": 99,
+   "contractions_per_100": 3.9,
+   "you_per_100": 6.0,
+   "soft_words": 1,
+   "findings": {
+    "dash": 0,
+    "one-line closer": 0,
+    "saying (pull quote)": 0,
+    "bold label list item": 0,
+    "triad": 0,
+    "3 openings in a row": 1,
+    "over 25 words": 3
+   },
+   "tools": false
+  },
+  "what-recovered-actually-means": {
+   "words": 872,
+   "tells_per_1000": 0.0,
+   "burstiness": 6.0,
+   "para_spread": 13.2,
+   "contractions_per_100": 3.2,
+   "you_per_100": 5.4,
+   "soft_words": 0,
+   "findings": {
+    "dash": 0,
+    "one-line closer": 0,
+    "saying (pull quote)": 0,
+    "bold label list item": 11,
+    "triad": 0,
+    "3 openings in a row": 0,
+    "over 25 words": 2
+   },
+   "tools": false
+  },
+  "if-you-go-back": {
+   "words": 725,
+   "tells_per_1000": 5.52,
+   "burstiness": 6.3,
+   "para_spread": 99,
+   "contractions_per_100": 4.6,
+   "you_per_100": 5.8,
+   "soft_words": 0,
+   "findings": {
+    "word: quietly": 2,
+    "writing about the document": 2,
+    "dash": 0,
+    "one-line closer": 1,
+    "saying (pull quote)": 1,
+    "bold label list item": 11,
+    "triad": 0,
+    "3 openings in a row": 0,
+    "over 25 words": 1
+   },
+   "tools": false
+  },
+  "helping-someone-in-year-one": {
+   "words": 858,
+   "tells_per_1000": 1.17,
+   "burstiness": 8.2,
+   "para_spread": 16.4,
+   "contractions_per_100": 4.0,
+   "you_per_100": 3.1,
+   "soft_words": 0,
+   "findings": {
+    "writing about the document": 1,
+    "dash": 0,
+    "one-line closer": 0,
+    "saying (pull quote)": 0,
+    "bold label list item": 6,
+    "triad": 0,
+    "3 openings in a row": 0,
+    "over 25 words": 4
+   },
+   "tools": false
+  },
+  "what-this-book-might-have-wrong": {
+   "words": 758,
+   "tells_per_1000": 0.0,
+   "burstiness": 6.7,
+   "para_spread": 99,
+   "contractions_per_100": 2.6,
+   "you_per_100": 2.1,
+   "soft_words": 0,
+   "findings": {
+    "dash": 0,
+    "one-line closer": 0,
+    "saying (pull quote)": 0,
+    "bold label list item": 12,
+    "triad": 0,
+    "3 openings in a row": 0,
+    "over 25 words": 2
+   },
+   "tools": false
+  },
+  "the-long-after": {
+   "words": 726,
+   "tells_per_1000": 0.0,
+   "burstiness": 7.5,
+   "para_spread": 99,
+   "contractions_per_100": 2.6,
+   "you_per_100": 4.4,
+   "soft_words": 0,
+   "findings": {
+    "dash": 0,
+    "one-line closer": 0,
+    "saying (pull quote)": 0,
+    "bold label list item": 6,
+    "triad": 1,
+    "3 openings in a row": 0,
+    "over 25 words": 1
+   },
+   "tools": false
+  },
+  "the-record": {
+   "words": 437,
+   "tells_per_1000": 0.0,
+   "burstiness": 16.2,
+   "para_spread": 8.2,
+   "contractions_per_100": 1.8,
+   "you_per_100": 2.1,
+   "soft_words": 0,
+   "findings": {
+    "dash": 0,
+    "one-line closer": 0,
+    "saying (pull quote)": 0,
+    "bold label list item": 0,
+    "triad": 0,
+    "3 openings in a row": 0,
+    "over 25 words": 5
+   },
+   "tools": true
+  },
+  "safety-plan-worksheet": {
+   "words": 334,
+   "tells_per_1000": 0.0,
+   "burstiness": 2.6,
+   "para_spread": 99,
+   "contractions_per_100": 2.7,
+   "you_per_100": 2.4,
+   "soft_words": 0,
+   "findings": {
+    "dash": 0,
+    "one-line closer": 0,
+    "saying (pull quote)": 0,
+    "bold label list item": 0,
+    "heading restated": 2,
+    "triad": 0,
+    "3 openings in a row": 0,
+    "over 25 words": 0
+   },
+   "tools": true
+  },
+  "device-and-account-audit": {
+   "words": 420,
+   "tells_per_1000": 0.0,
+   "burstiness": 8.0,
+   "para_spread": 99,
+   "contractions_per_100": 2.4,
+   "you_per_100": 1.9,
+   "soft_words": 0,
+   "findings": {
+    "dash": 0,
+    "one-line closer": 0,
+    "saying (pull quote)": 0,
+    "bold label list item": 0,
+    "triad": 0,
+    "3 openings in a row": 0,
+    "over 25 words": 1
+   },
+   "tools": true
+  },
+  "court-day-checklist": {
+   "words": 342,
+   "tells_per_1000": 0.0,
+   "burstiness": 99,
+   "para_spread": 99,
+   "contractions_per_100": 1.5,
+   "you_per_100": 2.6,
+   "soft_words": 2,
+   "findings": {
+    "dash": 0,
+    "one-line closer": 0,
+    "saying (pull quote)": 0,
+    "bold label list item": 0,
+    "triad": 0,
+    "3 openings in a row": 0,
+    "over 25 words": 0
+   },
+   "tools": true
+  },
+  "pocket-card-words-you-can-use": {
+   "words": 210,
+   "tells_per_1000": 0.0,
+   "burstiness": 6.7,
+   "para_spread": 3.0,
+   "contractions_per_100": 11.0,
+   "you_per_100": 4.3,
+   "soft_words": 0,
+   "findings": {
+    "dash": 0,
+    "one-line closer": 0,
+    "saying (pull quote)": 0,
+    "bold label list item": 0,
+    "triad": 0,
+    "3 openings in a row": 0,
+    "over 25 words": 2
+   },
+   "tools": true
+  },
+  "the-card": {
+   "words": 211,
+   "tells_per_1000": 0.0,
+   "burstiness": 4.2,
+   "para_spread": 4.3,
+   "contractions_per_100": 3.8,
+   "you_per_100": 3.8,
+   "soft_words": 0,
+   "findings": {
+    "dash": 0,
+    "one-line closer": 0,
+    "saying (pull quote)": 0,
+    "bold label list item": 0,
+    "triad": 1,
+    "3 openings in a row": 0,
+    "over 25 words": 0
+   },
+   "tools": true
+  },
+  "find-help": {
+   "words": 480,
+   "tells_per_1000": 0.0,
+   "burstiness": 99,
+   "para_spread": 99,
+   "contractions_per_100": 2.1,
+   "you_per_100": 2.3,
+   "soft_words": 0,
+   "findings": {
+    "dash": 0,
+    "one-line closer": 0,
+    "saying (pull quote)": 0,
+    "bold label list item": 8,
+    "triad": 0,
+    "3 openings in a row": 0,
+    "over 25 words": 0
+   },
+   "tools": true
+  },
+  "a-to-z": {
+   "words": 1260,
+   "tells_per_1000": 0.0,
+   "burstiness": 5.3,
+   "para_spread": 4.2,
+   "contractions_per_100": 1.2,
+   "you_per_100": 3.4,
+   "soft_words": 0,
+   "findings": {
+    "dash": 0,
+    "one-line closer": 0,
+    "saying (pull quote)": 0,
+    "bold label list item": 0,
+    "triad": 1,
+    "3 openings in a row": 0,
+    "over 25 words": 1
+   },
+   "tools": true
+  },
+  "questions-people-ask": {
+   "words": 978,
+   "tells_per_1000": 0.0,
+   "burstiness": 7.0,
+   "para_spread": 5.3,
+   "contractions_per_100": 1.4,
+   "you_per_100": 3.6,
+   "soft_words": 0,
+   "findings": {
+    "dash": 0,
+    "one-line closer": 0,
+    "saying (pull quote)": 0,
+    "bold label list item": 0,
+    "triad": 2,
+    "3 openings in a row": 0,
+    "over 25 words": 4
+   },
+   "tools": true
+  },
+  "for-professionals": {
+   "words": 399,
+   "tells_per_1000": 0.0,
+   "burstiness": 9.1,
+   "para_spread": 99,
+   "contractions_per_100": 1.0,
+   "you_per_100": 1.0,
+   "soft_words": 0,
+   "findings": {
+    "dash": 0,
+    "one-line closer": 0,
+    "saying (pull quote)": 0,
+    "bold label list item": 0,
+    "triad": 2,
+    "3 openings in a row": 0,
+    "over 25 words": 2
+   },
+   "tools": true
+  },
+  "all-sources": {
+   "words": 188,
+   "tells_per_1000": 5.32,
+   "burstiness": 6.3,
+   "para_spread": 99,
+   "contractions_per_100": 0.5,
+   "you_per_100": 1.1,
+   "soft_words": 0,
+   "findings": {
+    "writing about the document": 1,
+    "dash": 0,
+    "one-line closer": 0,
+    "saying (pull quote)": 0,
+    "bold label list item": 0,
+    "triad": 1,
+    "3 openings in a row": 0,
+    "over 25 words": 0
+   },
+   "tools": true
+  }
+ },
+ "totals": {
+  "heading restated": 11,
+  "writing about the document": 13,
+  "bold label list item": 763,
+  "3 openings in a row": 29,
+  "over 25 words": 259,
+  "Q-and-punch": 21,
+  "word": 20,
+  "saying (pull quote)": 32,
+  "triad": 64,
+  "word: leverage": 7,
+  "one-line closer": 7,
+  "staged run-up": 2,
+  "word: fostering": 1,
+  "word: quietly": 7,
+  "word: truly": 1,
+  "word: valuable": 1,
+  "word: elevation": 2,
+  "chatbot residue": 1,
+  "word: foster": 1
+ }
+}

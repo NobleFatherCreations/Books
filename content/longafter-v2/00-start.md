@@ -88,7 +88,7 @@ short: If you are in danger now, call your emergency number. For domestic abuse 
 ---
 If someone is hurting you, threatening you, or outside your door, call your emergency number now. Nothing in this book matters more than that call.
 
-You do not need to be sure it's "bad enough." Call handlers would much rather hear from you early.
+You don't need to be sure it's "bad enough." Call handlers would much rather hear from you early.
 
 ## Emergency numbers
 - United States and Canada: 911
@@ -181,7 +181,7 @@ short: The Long After is a free post-separation abuse book for anyone who has le
 This is a post-separation abuse book: it is for the part after you leave. You left a partner, a marriage, or a family that controlled you. Maybe it was last week. Maybe it was eight years ago and a chapter here still lands. Either way, something kept going after the door closed, and you want to understand it and deal with it.
 
 ## How it works
-Every chapter stands alone. Most people arrive in the middle, from a search, at a bad moment. So each chapter opens with **the short answer**: the plain version, in a few lines. Everything under it is the detail.
+Every chapter stands alone. Most people arrive in the middle, from a search, at a bad moment. So each chapter opens with **the short answer**: the plain version, in a few lines. Everything under it's the detail.
 
 The headings are the questions people ask. If you came here wondering "does it ever end?" or "is this a crime?", there's a heading for that.
 
@@ -215,13 +215,13 @@ After abuse, many people find it hard to read for long. Concentration goes. Word
 - **Gender.** Abuse happens to people of every gender, from people of every gender. The examples change from page to page on purpose.
 
 ## What this book is not
-**It is not therapy.** If you need steady support from someone trained, a book can't replace that. [Finding a therapist who understands this](ch:finding-a-therapist-who-understands-this) explains what to look for.
+**It isn't therapy.** If you need steady support from someone trained, a book can't replace that. [Finding a therapist who understands this](ch:finding-a-therapist-who-understands-this) explains what to look for.
 
-**It is not legal advice.** Laws differ by country, and often by state or region. Every legal chapter tells you what a thing is, gives examples from a few countries, and tells you exactly what to search to find your local version.
+**It isn't legal advice.** Laws differ by country, and often by state or region. Every legal chapter tells you what a thing is, gives examples from a few countries, and tells you exactly what to search to find your local version.
 
-**It is not a timeline.** No page here tells you how you ought to feel by six months, or a year, or five. Any number like that would be wrong for a lot of the people reading it. People heal at different speeds, and the speed says nothing about how well you're doing.
+**It isn't a timeline.** No page here tells you how you ought to feel by six months, or a year, or five. Any number like that would be wrong for a lot of the people reading it. People heal at different speeds, and the speed says nothing about how well you're doing.
 
-**It is not a verdict on whether you're "over it."** There's no test to pass. [What "recovered" means](ch:what-recovered-actually-means) offers a working definition, and it isn't a finish line.
+**It isn't a verdict on whether you're "over it."** There's no test to pass. [What "recovered" means](ch:what-recovered-actually-means) offers a working definition, and it isn't a finish line.
 
 **It will never describe ways to harm yourself.** If you're in crisis, [When it's more than aftermath](ch:when-its-more-than-aftermath) is written for you. You don't need to read anything else first.
 

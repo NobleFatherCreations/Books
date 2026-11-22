@@ -18,7 +18,7 @@ It often looks like:
 
 The Decoder calls the comparison game [triangulation](/playbook/triangulation). Stories told to turn people against you are covered in [smear campaigns](/playbook/smear-campaigns).
 
-> The new relationship can survive this. What you're seeing is the old pattern noticing you've moved on.
+> The new relationship can survive this. The contact usually means your ex has noticed that you've moved on.
 
 ## What do I tell my new partner?
 Early, calm honesty helps most. Your partner doesn't need every detail. They need enough to recognise what's happening if it comes:
@@ -113,7 +113,7 @@ This has a name.
 ## What is hoovering?
 Hoovering is an attempt to pull a former partner back into contact after a break-up or a period of silence. The name comes from the vacuum cleaner: it sucks you back in.
 
-It isn't always an attempt to restart the relationship. Often the goal is access: to see if you'll still respond, to reopen a channel, to get a reaction. The Decoder's page on [hoovering](/playbook/hoovering-relief-bait) gives the short definition. This chapter is about what to do when it happens after you've left.
+It isn't always an attempt to restart the relationship. Often the goal is access: to see if you'll still respond, to reopen a channel, to get a reaction. The Decoder's page on [hoovering](/playbook/hoovering-relief-bait) gives the short definition. Here's what to do when it happens after you've left.
 
 > A return that feels uniquely meaningful, uniquely well-timed and uniquely sincere is often one of the most common shapes there is.
 
@@ -177,7 +177,7 @@ If you share children, you may need to keep one channel open. Answer only what's
 More replies are in [Words you can use](ch:words-you-can-use). For deciding what needs an answer at all, see [Messages you don't have to answer](ch:messages-you-dont-have-to-answer).
 
 ## What if the emergency is real?
-Sometimes it is. You can respond to a real emergency without reopening the relationship. If someone says they're going to harm themselves, call emergency services and give them the details. That is the right help, and it doesn't have to come from you.
+Sometimes it is. You can respond to a real emergency without reopening the relationship. If someone says they're going to harm themselves, call emergency services and give them the details. That's the right help, and it doesn't have to come from you.
 
 If the same "emergency" keeps happening, or disappears once you reply, that tells you what it was.
 
@@ -221,7 +221,7 @@ You can respond to real danger without reopening the relationship:
 - If they mention suicide, tell their family or a crisis service, and give them the number for a crisis line.
 - You don't have to be the person who rescues them.
 
-Their family, friends and professionals exist. Directing them there is not abandonment.
+Their family, friends and professionals exist. Directing them there isn't abandonment.
 
 ## What a real apology contains
 Many hoovers come as apologies. A real apology usually has these parts:
@@ -325,7 +325,7 @@ In England and Wales, courts can hold a "fact-finding hearing" to decide what ha
 ## Staying steady under accusation
 Being called an abuser when you were the one who was harmed can feel unbearable. People in this position often describe shock, anger and a strong urge to prove themselves.
 
-What tends to work better is calm and consistent behaviour. Keep your messages polite and short. Keep attending appointments. Keep your record. Let professionals see, over time, who you are. Find somewhere private to let the anger out, a therapist, a friend, a journal, so it doesn't spill into the case.
+What tends to work better is calm and consistent behaviour. Keep your messages polite and short, keep attending appointments, and keep your record. Let professionals see, over time, who you are. Find somewhere private to let the anger out, a therapist, a friend, a journal, so it doesn't spill into the case.
 
 ## Getting your own legal advice quickly
 If you've been reported to police, social services or a court, get advice before you give statements or sign anything. Many domestic abuse services have legal advisers or can refer you. You're allowed to say: "I want to get legal advice before I answer that." See [Legal help with little or no money](ch:solicitors-legal-aid-and-no-money).
@@ -364,7 +364,7 @@ question: Does post-separation abuse ever end?
 seo: Does Post-Separation Abuse Ever End?
 short: Does post-separation abuse ever end? For many people it does, often fading as the person who caused it finds a new focus or meets consistent limits and consequences. For others it carries on in a smaller form for years. Both are honest answers, and you don't have to wait for it to end to start living fully.
 ---
-"How long will this go on?" may be the question people ask most. This chapter gives the honest answer, and the honest answer is a range.
+"How long will this go on?" may be the question people ask most. The honest answer is a range.
 
 ## Does post-separation abuse ever end?
 For many people, yes. It fades or stops. For others it continues in a smaller form for years, often flaring around court cases, holidays or changes in your life. Researchers and services see both outcomes, and nobody can tell you in advance which one you'll get.

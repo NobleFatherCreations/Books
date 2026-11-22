@@ -22,6 +22,8 @@ step() { printf '\n== %s\n' "$1"; }
 
 step "1 content audit";   python3 scripts/longafter-audit.py | tail -3
 python3 scripts/longafter-audit.py | tail -1 | grep -q " 0 failing" || { echo "content audit failed"; exit 1; }
+step "1b AI-writing report (not a gate)"; python3 scripts/longafter-ai-audit.py 2>/dev/null | head -1 || true
+python3 scripts/longafter-sources.py --no-lookup | tail -1
 step "2 build";           python3 scripts/seo/build_longafter_v2.py
 step "3 beacon";          python3 scripts/visit-counter.py library/longafter/*.html >/dev/null && echo "beacon checked"
 step "4 hub files";       python3 scripts/seo/build_site.py | tail -2

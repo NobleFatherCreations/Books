@@ -4,7 +4,7 @@ question: How do abusive exes use children after separation?
 seo: Post-Separation Abuse and Child Custody: Children as Leverage
 short: In post-separation abuse, child custody and contact are the most common channels for control. It shows up at handovers, in questions put to children, in running you down to them, and in games with the schedule. Your children's wellbeing matters more than winning any single exchange.
 ---
-If you have children with the person you left, they are probably the one channel you can't close. You'll see each other at handovers. You'll need to agree on schools and doctors. And the children carry messages, gifts and moods between two homes.
+If you have children with the person you left, they're probably the one channel you can't close. You'll see each other at handovers. You'll need to agree on schools and doctors. And the children carry messages, gifts and moods between two homes.
 
 That makes child custody and contact the most common route for post-separation abuse to continue. It also makes this the chapter that needs the most care, because the wrong response can hurt the children themselves.
 
@@ -35,7 +35,7 @@ The Decoder describes the core moves: [children used as leverage](/playbook/chil
 Many co-parents are difficult. They're late, disorganised, or bad at communicating. That's frustrating, not abusive. The difference is pattern and purpose. Ask whether the difficulty keeps landing where it hurts you most, and whether it continues when it costs the children. [Abuse, or a hard breakup?](ch:abuse-or-a-hard-breakup) has a fair test.
 
 ## What does this do to children?
-Research on coercive control finds that children are affected directly. They are never only bystanders. Children can become anxious, withdrawn, angry or clingy. Some feel they have to take care of a parent. Some start repeating things that are plainly someone else's words. [How children react, and what helps them](ch:how-children-react) covers the signs by age and what helps.
+Research on coercive control finds that children are affected directly. They're never only bystanders. Children can become anxious, withdrawn, angry or clingy. Some feel they have to take care of a parent. Some start repeating things that are plainly someone else's words. [How children react, and what helps them](ch:how-children-react) covers the signs by age and what helps.
 
 ## What should I do?
 **Protect the children first, and the argument last.** Matching hostility, or using the children to carry messages or gather information in return, harms them in the same way, whoever starts it.
@@ -335,14 +335,14 @@ You may lose some people along the way. Keep the ones who asked you what happene
 ## How do I live with it?
 - Tell one or two people the whole truth, so you aren't carrying it alone.
 - Let some people go. Those who believe the story without asking you may not be the people you need now. [Your family and mutual friends](ch:your-family-and-mutual-friends) and [The friends who didn't believe you](ch:the-friends-who-didnt-believe-you) cover this.
-- Keep living well, visibly and quietly. Over time, that is the strongest answer.
+- Keep living well, visibly and quietly. Over time, that's the strongest answer.
 
 *The Sovereign Divine Feminine* covers smear campaigns online in [Digital Smear Campaigns](/feminine/digital-smear-campaigns#core-concept) and the social side in [The Social Siege](/feminine/the-social-siege#core-concept).
 
 ## How a rumour faded
 *This example is made up, built from patterns many people describe.*
 
-After the separation, Nadia heard that her ex was telling people she drank and neglected the children. At the school gate, a few parents went cold. She didn't respond online and didn't defend herself to people who hadn't asked. She kept turning up, on time, sober, cheerful with her children. She told the head teacher briefly what was happening.
+After the separation, Nadia heard that her ex was telling people she drank and neglected the children. At the school gate, a few parents went cold. She didn't respond online and didn't defend herself to people who hadn't asked. Every day she turned up on time, sober and cheerful with her children, and she told the head teacher briefly what was happening.
 
 A year later, two of those parents apologised. One said, "We could see it wasn't true." The story hadn't been beaten. It had simply stopped fitting what people saw.
 

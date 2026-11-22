@@ -157,7 +157,7 @@ If you're on alert at night, small changes can help:
 Empty nights can be the hardest. The house is quiet, and the mind fills it. Plan for them: a friend on the phone, an audiobook, a later bedtime with a good film. Some people find it easier to sleep on the sofa or in a different room on those nights. That's fine.
 
 ## The phone at night
-Messages at night can wreck sleep. Charge your phone outside the bedroom, use "do not disturb" with only emergency contacts allowed, or keep a separate alarm clock. If you need the phone for safety, keep it nearby but face down, with their notifications silenced.
+Messages at night can wreck sleep. Charge your phone outside the bedroom, use "don't disturb" with only emergency contacts allowed, or keep a separate alarm clock. If you need the phone for safety, keep it nearby but face down, with their notifications silenced.
 
 ## Caffeine, alcohol and sleep
 Caffeine can stay in your body for many hours, so cut it after early afternoon if you're struggling. Alcohol may help you fall asleep, but it tends to wake you in the night and makes sleep lighter. See [Drinking, drugs and getting through](ch:drinking-drugs-and-getting-through).
@@ -385,9 +385,9 @@ It may take time before sex or touch feels safe again. That's common. Go at your
 ## Getting care, later
 *This example is made up, built from patterns many people describe.*
 
-Months after she left, Kim realised that what had happened in the relationship was sexual abuse. She hadn't reported it, and she wasn't sure she wanted to. She called a rape crisis line, who listened and explained her options without pushing her. She booked a sexual health check, and started seeing a counsellor who specialised in sexual violence.
+Months after she left, Kim realised that what had happened in the relationship was sexual abuse. She hadn't reported it, and she wasn't sure she wanted to. A rape crisis line listened and explained her options without pushing her. Then she booked a sexual health check, and started seeing a counsellor who specialised in sexual violence.
 
-She hadn't decided about reporting. She didn't have to. Getting care came first.
+Whether to report was still undecided, and it could stay that way. Getting care came first.
 
 ## There's no deadline on support
 Specialist sexual violence services support people however long ago it happened. You can call even if you're not sure what to call it.
@@ -408,7 +408,7 @@ short: Drinking after a breakup from an abusive relationship, or using drugs, fo
 ---
 A glass to sleep. Then two. Something to take the edge off before a handover. Scrolling until 3am. Working until you drop. Not eating, or eating everything.
 
-You're getting through. This chapter is about noticing whether the way you're getting through is starting to cost you.
+You're getting through. The question is whether the way you're getting through is starting to cost you.
 
 If you're in crisis, or you've had thoughts of harming yourself, go to [When it's more than aftermath](ch:when-its-more-than-aftermath) now.
 
@@ -475,7 +475,7 @@ Overworking, not eating, overeating, gambling, shopping, scrolling, risky sex. T
 ## Noticing the pattern
 *This example is made up, built from patterns many people describe.*
 
-After he left his marriage, Gareth started having a few drinks every night to sleep. Within months it was most of a bottle. He noticed he was drinking before handovers to calm his nerves. He talked to his doctor, who didn't judge him and referred him to a local service. He set limits, cut out drinking on nights before seeing his children and started going to a weekly group.
+After he left his marriage, Gareth started having a few drinks every night to sleep. Within months it was most of a bottle. When he noticed he was drinking before handovers to calm his nerves, he talked to his doctor, who didn't judge him and referred him to a local service. Limits came next: no drinking the night before seeing his children, and a weekly group.
 
 It wasn't a straight line. But he found other ways to get to sleep, and his mornings got clearer.
 

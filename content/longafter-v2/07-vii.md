@@ -81,7 +81,7 @@ You may meet both words online.
 
 **Limerence** is an intense, obsessive longing for someone, often someone out of reach. It can sit alongside a trauma bond. The difference is the harm. A trauma bond forms with someone who hurt you, in cycles.
 
-Whatever word fits, what loosens it is much the same: distance, a straight story, and support.
+Whatever word fits, what loosens it's much the same: distance, a straight story, and support.
 
 ## Can a trauma bond become a healthy relationship?
 Rarely, and only if the person who caused harm changes deeply, over a long time, with accountability and without pressure on you. Going back to test whether they've changed usually restarts the cycle. If you're considering it, read [If you go back](ch:if-you-go-back) and [Trust as a practice](ch:trust-as-a-practice) first.
@@ -257,7 +257,7 @@ Yes. It's one of the most common experiences after leaving, and one of the least
 - **Find one person who can hold it.** If friends can't, a therapist or support group can. See [Finding a therapist who understands this](ch:finding-a-therapist-who-understands-this).
 - **Mark the losses.** Some people write a letter they never send, or mark the day the future they planned would have happened.
 - **Watch for hard dates.** Anniversaries can bring grief back with force. See [The anniversary effect](ch:the-anniversary-effect).
-- **Don't confuse grief with a reason to return.** Missing the hoped-for future is not the same as that future being available. See [The trauma bond](ch:the-trauma-bond).
+- **Don't confuse grief with a reason to return.** Missing the hoped-for future isn't the same as that future being available. See [The trauma bond](ch:the-trauma-bond).
 
 ## When should I get more help?
 If grief stops you functioning for a long time, or turns into hopelessness that won't lift, talk to a doctor or therapist. If you're thinking about harming yourself, go to [When it's more than aftermath](ch:when-its-more-than-aftermath).
@@ -299,7 +299,7 @@ Grief rarely moves in neat stages. It comes in waves: a song in a shop, a photo,
 Children grieve too: for the family they had, the house, the other parent, the routines. Let them be sad without having to make you feel better. Keep some familiar things the same. See [How children react](ch:how-children-react).
 
 ## When grief and anger mix
-Grief and anger often arrive together. One minute you miss them; the next you're furious. Both are part of losing something that was also harming you. See [Anger arriving late](ch:anger-arriving-late).
+One minute you miss them; the next you're furious. Both are part of losing something that was also harming you. See [Anger arriving late](ch:anger-arriving-late).
 
 ## How Helen marked the loss
 *This example is made up, built from patterns many people describe.*
@@ -765,7 +765,7 @@ Over time, you can add dates that belong to your new life: the day you moved int
 ## How Mark got through the first anniversary
 *This example is made up, built from patterns many people describe.*
 
-Mark knew the anniversary of leaving was coming in October. He felt anxious for a week beforehand without knowing why, then saw the date on the calendar. He made a plan: a morning walk with a friend, lunch with his sister, no social media and an early night. He told his manager he might be quiet that day.
+Mark knew the anniversary of leaving was coming in October. For a week beforehand he felt anxious without knowing why, then saw the date on the calendar. The plan was simple: a morning walk with a friend, lunch with his sister, no social media and an early night. His manager knew he might be quiet that day.
 
 The day was sad in places, and fine in others. In the evening he wrote down three things he'd done in the year since leaving that he couldn't have done before.
 
