@@ -473,7 +473,7 @@ def all_html():
 
 
 def contents_html():
-    inner = f'<p class="lede">Every chapter of The Long After, by part. {len([s for s in ORDER if CH[s]["part"] not in ("start","tools")])} chapters, free to read.</p><h2 style="font:400 1.6rem/1.2 var(--disp);color:#fff">The eleven parts</h2>{contents_list()}<h2 id="toolbox">Toolbox</h2>{tools_list()}<p class="notice" style="margin-top:28px">{BOOK["notice_short"]} <a href="{BASE}/how-to-use-this-book">Full notice</a>.</p>'
+    inner = f'<p class="lede">Every chapter of The Long After, by part. {len([s for s in ORDER if CH[s]["part"] not in ("start","tools")])} chapters, free to read.</p><h2 id="the-eleven-parts" style="font:400 1.6rem/1.2 var(--disp);color:#fff">The eleven parts</h2>{contents_list()}<h2 id="toolbox">Toolbox</h2>{tools_list()}<p class="notice" style="margin-top:28px">{BOOK["notice_short"]} <a href="{BASE}/how-to-use-this-book">Full notice</a>.</p>'
     graph = [{"@type": "CollectionPage", "@id": URL + "/contents", "url": URL + "/contents", "name": "The Long After: Every Chapter",
               "isPartOf": {"@id": URL + "#book"}, "inLanguage": "en", "dateModified": S.TODAY,
               "mainEntity": {"@type": "ItemList", "numberOfItems": len(ORDER), "itemListElement": [

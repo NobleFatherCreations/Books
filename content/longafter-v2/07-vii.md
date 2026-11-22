@@ -111,6 +111,16 @@ This book won't give you a date. Any number would be more comforting than true. 
 - **Write the full story** down, good and bad, so neither side takes over.
 - **Be wary of people who rush you.** Pressure to "move on" usually comes from their discomfort, not from your progress.
 
+
+## What if I feel nothing at all?
+Numbness is common. It's often the nervous system protecting you while it's overloaded. Feelings usually return as things settle. See [What your nervous system is doing](ch:what-your-nervous-system-is-doing).
+
+## What if I feel happy, then guilty for feeling happy?
+Happiness after leaving isn't a betrayal of anyone, including your children. You're allowed good days in the middle of a hard year.
+
+## What if I want to reach out to them?
+Notice the urge, and wait. Tell someone first. Read [Hoovering](ch:hoovering) and [The trauma bond](ch:the-trauma-bond). The urge usually passes, and it passes faster each time you don't act on it.
+
 ## Sources
 - Dutton, D. G., and Painter, S. (1993). Emotional attachments in abusive relationships: A test of traumatic bonding theory. *Violence and Victims*, 8(2), 105–120.
 - Herman, J. L. (1992). *Trauma and Recovery.* Basic Books.
@@ -153,6 +163,16 @@ Yes. It's one of the most common experiences after leaving, and one of the least
 
 ## When should I get more help?
 If grief stops you functioning for a long time, or turns into hopelessness that won't lift, talk to a doctor or therapist. If you're thinking about harming yourself, go to [When it's more than aftermath](ch:when-its-more-than-aftermath).
+
+
+## Can I grieve while I'm still fighting them in court?
+Yes. Many people grieve and fight at the same time. The grief may surface in odd moments: in the car after a hearing, or at night. It's part of the same experience, not a contradiction.
+
+## How long does grief like this last?
+It doesn't follow a timetable. It comes in waves that tend to get further apart. Some losses, like the family you hoped your children would have, may be felt again at milestones for years. That's grief doing its job.
+
+## What about grieving for my children's family?
+Many parents grieve the family their children didn't get. Your children can still have a loving home, or two homes, even if it isn't the one you pictured.
 
 ## Sources
 - Doka, K. J. (Ed.) (1989). *Disenfranchised Grief: Recognizing Hidden Sorrow.* Lexington Books.
@@ -215,7 +235,7 @@ Because survival came first. In the early period, staying safe and getting throu
 
 Anger also needs a settled sense that what happened was wrong. If self-doubt was part of the abuse, that certainty can take a long time to arrive. When it does, anger often comes with it.
 
-> Late anger isn't a setback. It's often a sign you can finally see what happened clearly.
+> Late anger often means you can finally see what happened clearly.
 
 ## Is anger after narcissistic abuse normal?
 Yes. Anger is common after any kind of trauma, and research links it with post-traumatic stress. Many people describe it as a turning point: the moment they stopped blaming themselves.
@@ -239,6 +259,16 @@ If you're worried you might hurt someone, or you're lashing out in ways you regr
 
 ## Will it pass?
 For most people, it settles over time into something quieter. It may come back briefly, years later, on an anniversary or when something reminds you. That doesn't mean anything has gone wrong.
+
+
+## Is it normal to be angry with myself?
+Very. Many people are angry that they stayed, that they didn't see it, or that they went back. That anger usually belongs to the person who did the harm. See [Guilt and shame](ch:guilt-and-shame).
+
+## What if I'm angry at the people who didn't help?
+Friends who didn't believe you, family who stayed neutral, services that let you down. That anger makes sense too. You get to decide what to do with those relationships. See [The friends who didn't believe you](ch:the-friends-who-didnt-believe-you).
+
+## Can anger be useful?
+Yes. Anger can power a boundary, a complaint, a court application, or help for someone else. Used that way, it becomes energy for your life, not fuel for theirs.
 
 ## Sources
 - Orth, U., and Wieland, E. (2006). Anger, hostility, and posttraumatic stress disorder in trauma-exposed adults: A meta-analysis. *Journal of Consulting and Clinical Psychology*, 74(4), 698–706.
@@ -371,6 +401,22 @@ Hard dates can also bring contact from the person you left. Hoovering often clus
 ## Does it get easier?
 For most people, yes. The intensity usually softens over the years, even if it never disappears. [Holidays and the first year's calendar](ch:holidays-and-the-first-year) covers the first round of dates in more detail.
 
+
+## Which dates might catch me off guard?
+- the day you met, married or moved in together
+- the day you left
+- the date of a serious incident
+- a court date, a year later
+- their birthday, and yours
+- holidays you spent together
+- the season when it was worst
+
+## What if the date is also a happy one?
+A child's birthday can also be the anniversary of something terrible. You can hold both: be fully present for your child, and give yourself room for the rest later.
+
+## What about the first anniversary of leaving?
+Many people mark it. Some celebrate. Some grieve. Many do both. There's no right way.
+
 ## Sources
 - US Department of Veterans Affairs, National Center for PTSD: Anniversary reactions to a traumatic event.
 - Rando, T. A. (1993). *Treatment of Complicated Mourning.* Research Press.
@@ -396,7 +442,7 @@ The Decoder describes [gaslighting](/playbook/gaslighting) and the self-doubt it
 People who invent abuse don't usually lie awake wondering if they did.
 
 ## How do I trust my own account again?
-- **Write things down,** now and going forward. A note made at the time beats memory made later. See [What to document and how](ch:what-to-document-and-how).
+- **Write things down,** from now on. A note made at the time beats memory made later. See [What to document and how](ch:what-to-document-and-how).
 - **Collect anchors.** Old messages, emails, photos, diary entries, things you told friends at the time. They show what happened when your memory wobbles.
 - **Talk to people who were there,** or who you told back then.
 - **Notice the voice.** When doubt arrives, ask whose voice it sounds like.
@@ -407,6 +453,13 @@ It can feel that way. Inconsistent dates can be used to question your credibilit
 
 ## When should I get help?
 If memories intrude often, if you have flashbacks or nightmares, or if large parts of your life feel missing, talk to a therapist who understands trauma. See [Finding a therapist who understands this](ch:finding-a-therapist-who-understands-this).
+
+
+## What if I remember new things later?
+Memories can surface months or years afterwards, often set off by a smell, a place or a conversation. Write them down with the date you remembered them. Tell your lawyer if there's a case. Remembering late doesn't make a memory less true.
+
+## How do I tell my story if parts are missing?
+Use what you know. Give approximate times ("spring 2022"), tie events to anchors ("just before her fifth birthday"), and say clearly what you don't remember. A clear "I don't remember that part" is more credible than a guess.
 
 ## Sources
 - Brewin, C. R. (2011). The nature and significance of memory disturbance in posttraumatic stress disorder. *Annual Review of Clinical Psychology*, 7, 203–227.

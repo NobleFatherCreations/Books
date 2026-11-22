@@ -18,7 +18,7 @@ It often looks like:
 
 The Decoder calls the comparison game [triangulation](/playbook/triangulation). Stories told to turn people against you are covered in [smear campaigns](/playbook/smear-campaigns).
 
-> It isn't a sign the new relationship is doomed. It's a sign the old pattern noticed.
+> The new relationship can survive this. What you're seeing is the old pattern noticing you've moved on.
 
 ## What do I tell my new partner?
 Early, calm honesty helps most. Your partner doesn't need every detail. They need enough to recognise what's happening if it comes:
@@ -143,7 +143,7 @@ People can change. This book doesn't claim every returning ex is manipulating yo
 Hoovering usually fails those tests. It arrives tied to your stability, asks for something fast, and turns cold or angry when you don't respond. If you're unsure, [Trust as a practice](ch:trust-as-a-practice) offers a slow, careful way to judge.
 
 ## What if I'm tempted?
-That's normal. The pull isn't a sign that you should go back. It's a sign the bond was strong. Some things that help:
+That's normal. The pull tells you how strong the bond was. It tells you nothing about whether to go back. Some things that help:
 
 - Write down three things that happened that you never want to happen again, and read them when the message arrives.
 - Tell one trusted person before you reply to anything.

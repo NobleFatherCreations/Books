@@ -22,7 +22,7 @@ For a long time, being alert was useful. Reading their mood kept you safe. Your 
 
 It retrains slowly, through repeated experiences of real safety, not through one realisation.
 
-> This isn't weakness or overreacting. It's a body that did its job well, still doing it.
+> Your body did its job well for a long time, and it's still doing it.
 
 ## What helps my nervous system settle?
 **Two practices you can do anywhere**
@@ -88,9 +88,17 @@ Disrupted sleep after abuse is so common it's almost expected. It's not a separa
 ## When should I see a doctor?
 If poor sleep lasts more than a few weeks, or affects your work, driving or parenting, talk to a doctor. The best-tested treatment for long-term insomnia is a short course of cognitive behavioural therapy for insomnia, which works without medication and is often available online or through health services. Nightmares can also be treated.
 
+
+## What about nightmares?
+Nightmares are common after abuse, and they can be treated. One method, imagery rehearsal therapy, has you rewrite a recurring nightmare while awake and rehearse the new version. It has good evidence for trauma-related nightmares. Ask your doctor or a therapist.
+
+## Should I take sleeping pills?
+Talk to a doctor first. Some sleep medicines help for a short time, but they're not usually a long-term answer, and some don't mix with alcohol or other medicines. The talking treatment for insomnia often works better in the long run.
+
 ## Sources
+- Krakow, B., et al. (2001). Imagery rehearsal therapy for chronic nightmares in sexual assault survivors with posttraumatic stress disorder. *JAMA*, 286(5), 537–545.
 - Riemann, D., et al. (2017). European guideline for the diagnosis and treatment of insomnia. *Journal of Sleep Research*, 26(6), 675–700.
-- National Institute for Health and Care Excellence (2022). *Insomnia: Clinical Knowledge Summary.*
+- National Institute for Health and Care Excellence. *Insomnia: Clinical Knowledge Summary* (revised regularly).
 - Ebrahim, I. O., et al. (2013). Alcohol and sleep I: Effects on normal sleep. *Alcoholism: Clinical and Experimental Research*, 37(4), 539–549.
 
 === getting-sick-after-leaving
@@ -126,6 +134,28 @@ If you were ever strangled or choked, mention it even if it was long ago. See [W
 - Gentle movement.
 - Fewer stressors where you can, including less contact. See [No contact, low contact, or contact you can't avoid](ch:no-contact-low-contact).
 - Follow up on anything that doesn't settle.
+
+
+## Which symptoms should I never ignore?
+Get urgent care for:
+
+- a sudden, severe headache
+- confusion, or trouble speaking or seeing
+- weakness or numbness on one side of the body
+- fainting or seizures
+- trouble breathing or swallowing
+- chest pain
+
+After strangling, some injuries show up days later. Tell the doctor it happened.
+
+## What about check-ups I've missed?
+Abuse often means missed appointments and injuries that were never treated. Book the dentist, an eye test, any screening you've missed, and a check on any old injury that never healed right.
+
+## What about my medication?
+If the person you left controlled your medicine or your appointments, ask your doctor to review everything you take. Ask the pharmacy to keep your details private.
+
+## Can stress cause physical illness?
+It can raise the risk and make many conditions worse: headaches, gut problems, high blood pressure, skin flare-ups, pain. That doesn't mean it's "all in your head." It means your body carried what happened, and it deserves treatment like any other illness. See [What your nervous system is doing](ch:what-your-nervous-system-is-doing).
 
 ## Sources
 - Campbell, J. C. (2002). Health consequences of intimate partner violence. *The Lancet*, 359(9314), 1331–1336.
@@ -218,7 +248,7 @@ Because it works, for a while. Alcohol and drugs quieten an alert nervous system
 There's no shame in having reached for something. The question is whether it's helping or starting to hurt.
 
 ## How do I know if it's becoming a problem?
-Ask yourself:
+Some questions to ask:
 
 - Am I drinking or using more than I used to, or more often?
 - Do I need it to sleep, to face a handover, or to get through the evening?
@@ -229,7 +259,7 @@ Ask yourself:
 
 If several are yes, it's worth getting support now, before it grows.
 
-> Getting help isn't admitting failure. It's taking back something else they took.
+> Getting help takes back one more thing they took.
 
 ## What can I do today?
 - **Count it.** Write down what you drink or use for a week. Seeing it clearly is a first step.
@@ -257,7 +287,7 @@ Overworking, not eating, overeating, gambling, shopping, scrolling, risky sex. T
 
 ## Sources
 - Devries, K. M., et al. (2014). Intimate partner violence victimization and alcohol consumption in women: A systematic review and meta-analysis. *Addiction*, 109(3), 379–391.
-- Warshaw, C., et al. (2014). *Coercion Related to Mental Health and Substance Use in the Context of Intimate Partner Violence.* National Center on Domestic Violence, Trauma and Mental Health.
+- Warshaw, C., Lyon, E., Bland, P. J., Phillips, H., and Hooper, M. (2014). *Mental Health and Substance Use Coercion Surveys.* National Center on Domestic Violence, Trauma and Mental Health and the National Domestic Violence Hotline.
 - SAMHSA (US); Drinkline and FRANK (UK); National Alcohol and Other Drug Hotline (Australia); HSE (Ireland).
 
 === finding-a-therapist-who-understands-this

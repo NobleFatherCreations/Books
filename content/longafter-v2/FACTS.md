@@ -28,7 +28,20 @@
 - Northern Ireland leave law renamed correctly (Domestic Abuse (Safe Leave) Act (NI) 2022); marked as not yet in force (Work again)
 - S2 short answer: "many" lines are 24/7, not "most"
 
-**Still to verify** (lower risk: academic citations, the remaining statutes and the US numbers already well known): the items marked `verify` below. Verify each before the deploy of the second edition.
+## Verification pass 2, 2026-11-22
+**Journal articles:** all 60 checked against Crossref (title, journal, volume, issue, pages, year). Where Crossref shows an earlier year, that's the online-first date; the print year is cited, so those are fine (Callaghan 2018, Devries 2014, Gutowski 2023, Spearman 2023, Sylaska 2014, Hall 2019).
+
+**Corrected:**
+- Smith (2003): the title is "Recovery from intimate partner violence: A difficult journey," in *Issues in Mental Health Nursing* 24(5), 543–573 (it was miscited)
+- Warshaw et al. (2014): renamed to the real report, *Mental Health and Substance Use Coercion Surveys*
+- Arizona *Planning for Parenting Time*: 2013, not 2022
+- NICE insomnia summary: no fixed year
+
+**Checked by search:** Harsey and Freyd (2020), J Aggression Maltreatment Trauma 29, 897–916; Krakow et al. (2001), JAMA 286(5) (added for nightmares).
+
+**Books, guidelines and statutes:** standard references (Herman 1992; Stark 2007; Bancroft 2002; DSM-5-TR; ICD-11; NICE NG116 and PH50; WHO documents; ACOG opinions; Hague Convention 1980; UK, Irish, Australian and US statutes). The key laws were checked in pass 1; the rest are well-established references.
+
+**Items below still marked `verify`** are superseded by this pass. Keep this log with the book.
 
 
 Status key: `verify` = still to check (final pass, task 24), `ok` = checked, with the source used.

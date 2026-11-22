@@ -210,7 +210,7 @@ Possibly, but defamation cases are expensive, slow and hard to win, and they kee
 title: Your family and mutual friends
 question: Why are people taking my ex's side? What are flying monkeys?
 seo: Flying Monkeys: When Family and Friends Take Your Ex's Side
-short: "Flying monkeys" is the popular name for people who carry an abusive ex's messages, pressure or stories to you, knowingly or not. Most aren't malicious. They're loyal, misinformed or avoiding conflict. You get to decide, one person at a time, how much contact to keep.
+short: "Flying monkeys" is the popular name for people who carry an abusive ex's messages, pressure or stories to you, knowingly or not. Most mean no harm: they're loyal, misinformed or avoiding conflict. You get to decide, one person at a time, how much contact to keep.
 ---
 Your sister says your ex "seems so sad." An old friend messages to say you should "just talk." Your former in-laws ask the children about your new home.
 
