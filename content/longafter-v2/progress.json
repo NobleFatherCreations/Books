@@ -171,8 +171,8 @@
     "memory"
    ],
    "outlined": true,
-   "written": false,
-   "audited": false
+   "written": true,
+   "audited": true
   },
   "viii": {
    "title": "Body, health and help",
@@ -401,15 +401,15 @@
   "apps-calendars-and-the-parenting-plan": 797,
   "moving-passports-and-travel-with-children": 917,
   "pregnant-or-with-a-new-baby": 827,
-  "the-trauma-bond": 1152,
-  "what-youre-allowed-to-feel-about-someone-you-left": 501,
-  "the-grief-nobody-will-let-you-have": 530,
-  "guilt-and-shame": 458,
-  "anger-arriving-late": 501,
-  "checking-their-profile": 427,
-  "closure-and-forgiveness": 429,
-  "the-anniversary-effect": 453,
-  "memory": 480,
+  "the-trauma-bond": 1603,
+  "what-youre-allowed-to-feel-about-someone-you-left": 814,
+  "the-grief-nobody-will-let-you-have": 804,
+  "guilt-and-shame": 906,
+  "anger-arriving-late": 805,
+  "checking-their-profile": 799,
+  "closure-and-forgiveness": 720,
+  "the-anniversary-effect": 764,
+  "memory": 808,
   "what-your-nervous-system-is-doing": 638,
   "sleep": 517,
   "getting-sick-after-leaving": 500,
@@ -544,6 +544,14 @@
   {
    "date": "2026-11-22",
    "what": "Part VIII outlined: Part VIII outlined"
+  },
+  {
+   "date": "2026-11-22",
+   "what": "Part VII written: Part VII: 37 new sections across 9 chapters (30-day plan, family bonds, worst nights, explaining the bond, good memories, missing the hope, pity, lingering love, losses named, grief in waves, rituals, children's grief, guilt as a tool, common guilts answered, survival shame, community/faith shame, self-compassion, real guilt, safe anger outlets, anger in body and around children, system anger, stuck anger, blocks on checking, proxy checking, the story you tell, slip plan, closure in practice, self-made endings, forgiveness myths, pressure to forgive, acceptance, hard-dates calendar and day plan, children's anniversaries, new dates, fear and memory, gaslighting and memory, timeline from fragments, triggers, saying I don't remember)"
+  },
+  {
+   "date": "2026-11-22",
+   "what": "Part VII audited: Part VII: content audit passing"
   }
  ]
 }

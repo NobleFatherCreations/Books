@@ -473,6 +473,42 @@ Obsessive thoughts are common after a trauma bond, especially in the early month
 ## What if I need to monitor them for safety?
 If they're threatening you or posting about you, ask someone else to monitor and screenshot for you. That keeps the evidence without keeping you hooked. See [What to document and how](ch:what-to-document-and-how).
 
+## Practical blocks
+Make checking take more effort than it's worth:
+
+- Block or mute them, and their new partner, on every platform.
+- Log out of social apps on your phone, or delete them for a month.
+- Use your phone's screen-time settings to limit those apps after 9pm.
+- Remove their name from search suggestions and your browser history.
+- Mute keywords like their name, where the platform allows it.
+
+Each extra step gives the urge a few seconds to pass.
+
+## Checking through other people
+Sometimes the checking moves sideways: asking a friend what they've posted, looking at their sister's profile, reading mutual friends' comments. It's the same habit with an extra step.
+
+> **Say (to a friend):** "Please don't tell me what they're up to, even if I ask. Remind me I asked you not to."
+
+## The story you tell yourself when you look
+When you look, you usually find a scene that hurts: a smiling photo, a new partner, a holiday. Your mind fills in the rest: "They're happy. They've changed. It was me."
+
+Profiles show the parts people choose to show. They tell you nothing about what that person's days are like, or how they treat the person beside them. The story you tell after checking is usually the story the bond wants you to believe.
+
+## The night-time urge
+Most checking happens late, in bed, alone. Charge your phone outside the bedroom. If you wake and want to look, have something else within reach: a book, a podcast, a written list of reasons not to check.
+
+## A slip plan
+Decide now what you'll do after a slip:
+
+1. Close the app.
+2. Say, "That was the habit, not a choice about my life."
+3. Write down what you saw and how it made you feel, in two lines.
+4. Do one thing for yourself straight away: a drink of water, a message to a friend, five slow breaths.
+5. Start counting again tomorrow.
+
+## Replacing the habit
+Checking fills a gap: boredom, loneliness, worry. Choose a replacement for the same moments: a game, a walk, a message to a friend, a short video you enjoy. It works best when it's easy and ready.
+
 ## What if I slip?
 You will, probably. Everyone does. Notice it, don't punish yourself, and start again. The aim is fewer checks, not a perfect record.
 
@@ -526,6 +562,38 @@ Then do it on your terms, in your time, privately if you like. You can forgive s
 
 ## What about forgiving myself?
 Often that's the forgiveness that matters most. See [Guilt and shame](ch:guilt-and-shame).
+
+## What closure looks like in practice
+Closure is rarely one moment. For most people it looks like:
+
+- thinking about them less often, and for less time
+- being able to tell the story without it taking over your day
+- making plans that have nothing to do with them
+- feeling more curious about your future than about their life
+
+It usually arrives quietly. You notice it when you look back.
+
+## Endings you make yourself
+You can mark the end without them:
+
+- Write a letter you never send, saying everything.
+- Pack away reminders and decide later what to keep.
+- Go somewhere you used to go together, with a friend, and make a new memory there.
+- Plant something, light a candle, or choose a small object that stands for starting again.
+
+## Forgiveness myths
+- **"You can't heal without forgiving."** Many people recover fully without forgiving.
+- **"Forgiving means trusting them again."** It doesn't. Forgiveness and reconciliation are different things.
+- **"Forgiving means it was okay."** It doesn't. You can forgive and still say clearly that it was wrong.
+- **"Not forgiving means you're bitter."** You can refuse to forgive and still be at peace.
+
+## When people push you to forgive
+Family, friends or faith leaders may urge you to forgive, sometimes so they can stay comfortable or keep the peace. You can say:
+
+> **Say:** "I'll decide about forgiveness in my own time. Right now, I'm focusing on being safe and well."
+
+## Acceptance without forgiveness
+Some people find a middle path: accepting that it happened, that they can't change it, and that they won't let it run their life, without forgiving. Acceptance is about your peace. It doesn't require anything from them.
 
 ## Sources
 - Worthington, E. L., Jr. (2006). *Forgiveness and Reconciliation: Theory and Application.* Routledge.
@@ -584,6 +652,42 @@ A child's birthday can also be the anniversary of something terrible. You can ho
 ## What about the first anniversary of leaving?
 Many people mark it. Some celebrate. Some grieve. Many do both. There's no right way.
 
+## A year of hard dates
+Make a list of dates that may be hard in the first year or two:
+
+- the day you left, and the day you met
+- your wedding or relationship anniversary
+- birthdays: yours, theirs, the children's
+- holidays and festivals
+- court dates, police dates, the day an order was made
+- dates of incidents your body remembers
+
+Put them in your calendar, with a note a week before. Knowing they're coming takes away some of the ambush.
+
+## A plan for a hard day
+For each hard date, decide:
+
+- who you'll be with, or talk to
+- what you'll do in the morning, afternoon and evening
+- what you'll avoid, like social media, old photos or alcohol
+- one small thing that's just for you
+
+Keep the plan simple. The aim is to get through the day gently.
+
+## Telling people in advance
+> **Say:** "Next Thursday is a year since I left. I might be a bit low. Could you check in with me that day?"
+
+Most people are glad to be told. It lets them help without guessing.
+
+## Court and police dates
+The date of a hearing, an arrest or a statement can become an anniversary too. Your body may react days before you remember why. If you feel anxious for no clear reason, check the calendar.
+
+## Children and anniversaries
+Children may have their own hard dates: the day you moved, a birthday spent apart, the first holiday in two homes. Ask them what they'd like to do. Some want things the same; some want something new.
+
+## Making new dates
+Over time, you can add dates that belong to your new life: the day you moved into your own place, the day you started a job, a trip you took with friends. These become anniversaries worth marking.
+
 ## Sources
 - US Department of Veterans Affairs, National Center for PTSD: Anniversary reactions to a traumatic event.
 - Rando, T. A. (1993). *Treatment of Complicated Mourning.* Research Press.
@@ -627,6 +731,32 @@ Memories can surface months or years afterwards, often set off by a smell, a pla
 
 ## How do I tell my story if parts are missing?
 Use what you know. Give approximate times ("spring 2022"), tie events to anchors ("just before her fifth birthday"), and say clearly what you don't remember. A clear "I don't remember that part" is more credible than a guess.
+
+## How fear changes memory
+When you're frightened, the brain focuses on survival. Some details are stored very sharply, like a sound, a smell or the look on someone's face. Others, like the order of events or the date, may be missing or jumbled. This is a well-known effect of stress on memory, and it doesn't mean you're lying or mistaken about what matters.
+
+## What gaslighting does to memory
+If you were told for years that things didn't happen, or happened differently, you may have learned to doubt yourself automatically. Even after leaving, you may hear their voice: "You're imagining it. That's not how it was."
+
+Writing things down as they happen now, and rebuilding a timeline of the past, can slowly restore trust in your own mind.
+
+## Building a timeline from fragments
+1. Write down every memory you have, in any order, one per line or card.
+2. Add anything that can anchor it in time: a season, a house, a job, a child's age, a holiday.
+3. Look for outside records: texts, emails, photos, bank statements, medical notes, police reports.
+4. Put the anchored memories in order, and leave gaps where you don't know.
+
+A timeline with gaps is still a strong account. Honest gaps are more believable than invented detail.
+
+## Triggers
+Memories can return suddenly, set off by a smell, a song, a place or a phrase. You may feel the emotion before you know what memory it belongs to. Grounding helps in the moment. See [What your nervous system is doing](ch:what-your-nervous-system-is-doing). If a new memory comes back, write it down without forcing more.
+
+## "I don't remember" in interviews
+If police, a lawyer or a court asks about something you don't remember, it's fine to say so.
+
+> **Say:** "I don't remember that part clearly. What I do remember is..."
+
+Never guess to fill a gap. Saying what you remember, and what you don't, makes your account more credible, not less.
 
 ## Sources
 - Brewin, C. R. (2011). The nature and significance of memory disturbance in posttraumatic stress disorder. *Annual Review of Clinical Psychology*, 7, 203–227.
