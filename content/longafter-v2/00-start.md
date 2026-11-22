@@ -235,5 +235,8 @@ You can send any page to someone by copying its address. Each chapter has its ow
 - **To a professional:** [For professionals](ch:for-professionals) explains how the book can be shared with clients.
 - **In print:** every page prints cleanly, with its sources.
 
+## If you print pages
+Paper is easy to find. Keep printed pages somewhere the person you left can't reach: at work, with a friend, or in a folder that doesn't look like what it is. Shred what you don't need.
+
 ## The rest of the library
 This book picks up where *The Sovereign Divine Feminine* leaves off. That book covers the relationship and the leaving; this one covers what comes after. *The Silence* is written for men. The [Pattern Decoder](/playbook) names hundreds of tactics, one page each, and many chapters here link to it. Advocates and therapists can find sharing details in [For professionals](ch:for-professionals).

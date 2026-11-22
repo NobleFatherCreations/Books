@@ -645,6 +645,15 @@ If you've harmed yourself, get medical help straight away: call your emergency n
 ## After a crisis
 After a crisis, people often feel exhausted, embarrassed or flat. Be gentle with yourself. Tell one person what happened. Go over your crisis plan and add what helped. Book a follow-up with your doctor. Getting through a crisis is a sign of strength, not failure.
 
+## What about medication?
+Medication can help some people, especially with depression, anxiety or severe sleep problems. It isn't a sign of weakness, and it doesn't replace other help.
+
+- Talk to a doctor about the options, how long they take to work and possible side effects.
+- For PTSD, guidelines usually recommend trauma-focused talking therapies first, with medication as an option for some people.
+- Don't stop a medicine suddenly without advice; some need to be reduced slowly.
+- Tell the doctor if you're pregnant, breastfeeding, or drinking more than usual.
+- If you're worried the person you left could use your medication against you in court, tell your lawyer. Getting treatment is usually seen as a responsible step.
+
 ## You are not a burden
 That voice telling you everyone would be better off without you is lying. It's one of the things deep pain says. You've already done one of the hardest things a person can do: you left. Getting through this is possible, and you don't have to do it alone.
 

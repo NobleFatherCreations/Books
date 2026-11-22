@@ -36,8 +36,10 @@
   },
   "steelman": {
    "label": "5. Steelman of the finished book: hostile readers, gaps filled",
-   "status": "todo",
-   "notes": []
+   "status": "done",
+   "notes": [
+    "2026-11-22: Steelman round 2 (STEELMAN-2.md): 15 hostile-reader findings; 11 filled now (sharing court details/contempt, criminal trial and special measures, bail and restraining orders, victim statements, medication, teen whose parent left, death of the ex, religious divorce, shared business, printouts, advocates' limits, reconnecting with adult children); sources gap moved to phase 6; reading-length and accessibility moved to design"
+   ]
   },
   "facts": {
    "label": "6. Fact check of everything new (FACTS.md)",
@@ -363,14 +365,14 @@
  "words": {
   "where-are-you-right-now": 839,
   "if-youre-not-safe-right-now": 906,
-  "how-to-use-this-book": 988,
+  "how-to-use-this-book": 1029,
   "leaving-was-the-middle": 1328,
   "what-is-post-separation-abuse": 1776,
   "why-it-often-gets-worse-first": 1159,
   "the-shape-it-takes-when-they-cant-reach-you-directly": 1066,
   "is-my-ex-a-narcissist": 1396,
   "abuse-or-a-hard-breakup": 1381,
-  "if-your-story-doesnt-look-like-the-usual-one": 1378,
+  "if-your-story-doesnt-look-like-the-usual-one": 1532,
   "the-first-30-days": 1305,
   "if-they-left-you": 1147,
   "still-under-the-same-roof": 1203,
@@ -381,7 +383,7 @@
   "intimate-images-and-online-threats": 774,
   "your-address-your-records-your-mail": 1020,
   "children-as-the-channel": 1475,
-  "money-as-the-channel": 1245,
+  "money-as-the-channel": 1335,
   "the-narrative-campaign": 1121,
   "your-family-and-mutual-friends": 1080,
   "the-new-partner": 1055,
@@ -395,25 +397,25 @@
   "what-to-document-and-how": 1241,
   "systems-abuse": 1341,
   "solicitors-legal-aid-and-no-money": 1122,
-  "family-court-honestly": 1445,
+  "family-court-honestly": 1621,
   "your-day-in-court": 976,
-  "divorce-and-separation-proceedings": 1115,
+  "divorce-and-separation-proceedings": 1203,
   "police-and-protective-orders": 1267,
-  "police-and-reporting": 926,
+  "police-and-reporting": 1154,
   "housing-and-benefits": 975,
-  "where-to-find-the-right-body": 889,
+  "where-to-find-the-right-body": 971,
   "untangling-the-paperwork": 943,
   "co-parenting-or-parallel-parenting": 1478,
   "handovers": 963,
   "your-children-and-what-to-say": 998,
   "how-children-react": 1120,
-  "when-your-child-is-pulled-in": 1093,
+  "when-your-child-is-pulled-in": 1178,
   "apps-calendars-and-the-parenting-plan": 836,
   "moving-passports-and-travel-with-children": 931,
   "pregnant-or-with-a-new-baby": 956,
   "the-trauma-bond": 1767,
   "what-youre-allowed-to-feel-about-someone-you-left": 879,
-  "the-grief-nobody-will-let-you-have": 931,
+  "the-grief-nobody-will-let-you-have": 1092,
   "guilt-and-shame": 1034,
   "anger-arriving-late": 943,
   "checking-their-profile": 925,
@@ -426,7 +428,7 @@
   "if-there-was-sexual-abuse": 1084,
   "drinking-drugs-and-getting-through": 872,
   "finding-a-therapist-who-understands-this": 947,
-  "when-its-more-than-aftermath": 1075,
+  "when-its-more-than-aftermath": 1195,
   "the-friends-who-didnt-believe-you": 862,
   "the-friends-who-did-and-are-tired": 753,
   "your-parents": 959,
@@ -690,6 +692,10 @@
   {
    "date": "2026-11-22",
    "what": "Voice audit complete: scorecard median 97+/100, no repeated headings, concrete pictures added, duplicates merged, two chapters read end to end"
+  },
+  {
+   "date": "2026-11-22",
+   "what": "Steelman round 2 (STEELMAN-2.md): 15 hostile-reader findings; 11 filled now (sharing court details/contempt, criminal trial and special measures, bail and restraining orders, victim statements, medication, teen whose parent left, death of the ex, religious divorce, shared business, printouts, advocates' limits, reconnecting with adult children); sources gap moved to phase 6; reading-length and accessibility moved to design"
   }
  ]
 }

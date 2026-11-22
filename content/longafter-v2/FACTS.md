@@ -234,3 +234,9 @@ Topics chosen from Ubersuggest Google-autocomplete data (8 seeds) and keyword vo
 - verify: NZ Women's Refuge 0800 733 843; Shine 0508 744 633; family violence info line 0800 456 450
 - verify: South Africa GBV Command Centre 0800 428 428; India Women Helpline 181, emergency 112
 - verify: Hourglass 0808 808 8141; National Deaf DV Hotline VP 1-855-812-1001; SignHealth (BSL); love is respect 1-866-331-9474 / text LOVEIS to 22522; Childline 0800 1111
+## Pass 5: steelman fills (to verify in phase 6)
+- verify: E&W publication of information from private children proceedings can be contempt (Administration of Justice Act 1960 s.12; Children Act 1989 s.97); permitted communication to lawyer, McKenzie friend, health professional, DA adviser (FPR 12.73, PD12G)
+- verify: US family records sometimes sealed; gag orders vary by state
+- verify: E&W witness care units; special measures (screens, live link, supporter); restraining orders on conviction or acquittal; Victim Personal Statement; US victim impact statements
+- verify: NICE NG116: trauma-focused therapies first for PTSD; drug treatment an option for some adults
+- verify: Divorce (Religious Marriages) Act 2002 (court can delay final order until religious divorce, prescribed faiths); get refusal treated as controlling behaviour (E&W, 2020)

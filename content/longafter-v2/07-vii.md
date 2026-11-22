@@ -309,6 +309,16 @@ The grief didn't vanish. It became something she could carry, instead of somethi
 ## Name one loss
 Write down one thing you've lost that nobody has acknowledged. Let yourself be sad about it for ten minutes, on purpose.
 
+## If the person you left has died
+When an ex who hurt you dies, the feelings can be overwhelming and contradictory: grief, relief, anger, numbness, guilt for feeling relief. You may grieve the chance of an apology that will never come. People may expect you to be either devastated or glad, and you may be neither.
+
+- **The funeral:** you don't have to go. If you do, bring someone, and leave when you need to.
+- **The children:** they may grieve a parent you feared. Let them, without having to share your feelings about it. A children's bereavement service can help.
+- **Practical matters:** if you were still married, or there are children, there may be questions about inheritance, pensions or property. Get legal advice.
+- **The fear:** some people find their body stays on alert for a while, even knowing the person is gone. That usually eases with time.
+
+There's no right way to feel. Whatever comes is allowed.
+
 ## Sources
 - Doka, K. J. (Ed.) (1989). *Disenfranchised Grief: Recognizing Hidden Sorrow.* Lexington Books.
 - Herman, J. L. (1992). *Trauma and Recovery.* Basic Books.

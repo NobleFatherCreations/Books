@@ -226,6 +226,15 @@ She still had less money than she needed. But money was no longer something he c
 ## Take the money out of the messages
 If money still comes with contact, find out this week how to move it to an official service.
 
+## If you ran a business together
+A shared business can tie you to the person you left long after the relationship ends.
+
+- Get legal and accountancy advice about your options: buying them out, being bought out, closing the business or selling it.
+- Secure access to accounts, passwords and records now.
+- Keep a copy of financial records, as they may be needed to show the business's value.
+- If you're a director or partner, find out what you're personally liable for.
+- Don't sign anything under pressure.
+
 ## Sources
 - Domestic Abuse Act 2021 (England and Wales), section 1 (economic abuse).
 - Littwin, A. (2012). Coerced debt: The role of consumer credit in domestic violence. *California Law Review*, 100(4), 951–1026.
