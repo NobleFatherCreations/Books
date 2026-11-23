@@ -81,6 +81,7 @@ Online lives are edited. A new relationship tells you nothing about whether your
 ## What if the new relationship struggles under the pressure?
 That's not your fault, and it doesn't mean you shouldn't date. Some relationships hold under strain and some don't. A partner who meets this with calm and curiosity is showing you something good about them. [Dating, when you're ready and when you're not](ch:dating-when-youre-ready-and-when-youre-not) covers the wider picture.
 
+::: honest
 ## Why do I want to warn them?
 *An honest check, just for you. This is about what's in your hands now, not blame for what was done to you.*
 
@@ -91,16 +92,21 @@ Wanting to warn your ex's new partner can come from care. It can also come from 
 - Am I prepared for them not to believe me?
 
 If the honest answer is mostly about you, let it go for now. If there's a real safety concern, tell a professional.
+:::
 
+::: scene
 ## When the messages reached the new partner
 *This example is made up, built from patterns many people describe.*
 
 A few months into Elena's new relationship, her partner got a long message from her ex, describing Elena as unstable and dangerous. Her partner showed her the message straight away. They agreed together: no reply, screenshot it, block the account. Elena added it to her record.
 
 Her partner said later that what convinced him wasn't anything Elena said. It was how calm she stayed, and how the message didn't match the person he knew.
+:::
 
+::: action
 ## Talk before it happens
 Tell a new partner early, briefly, that your ex may try to contact them, and agree what you'll both do if they do.
+:::
 
 ## Sources
 - Stark, E. (2007). *Coercive Control: How Men Entrap Women in Personal Life.* Oxford University Press.
@@ -257,6 +263,7 @@ Yes, if there's any chance you'll need them: for a protective order, a custody c
 
 *The Sovereign Divine Feminine* calls hoovering "the return of the mask" in its chapter on [post-separation control](/feminine/post-separation-control#core-concept), and places it in [the manipulation cycle](/feminine/the-manipulation-cycle#core-concept).
 
+::: honest
 ## Hearing what you hope to hear
 *An honest check, just for you. This is about what's in your hands now, not blame for what was done to you.*
 
@@ -268,16 +275,21 @@ When a message arrives, the part of you that still hopes may read more into it t
 - How did I feel an hour after the last time I answered?
 
 If you still want to reply, show the message to one person first.
+:::
 
+::: scene
 ## Three hoovers in one year
 *This example is made up, built from patterns many people describe.*
 
 In January, Marcus's ex sent a long apology. He didn't reply. In April, she messaged that she was in hospital; he called her sister, who confirmed she was fine. In September, on their old anniversary, she sent a photo of their first holiday with "Do you remember?" He looked at it for a long time, then sent it to his friend instead of replying.
 
 Each hoover was different. His answer was the same each time: no reply, record it, tell someone. By the third, it hurt less.
+:::
 
+::: action
 ## Write your answer now
 Write down, today, what you'll do the next time they reach out. When it comes, you won't have to decide in the moment.
+:::
 
 ## Sources
 - Ferster, C. B., and Skinner, B. F. (1957). *Schedules of Reinforcement.* Appleton-Century-Crofts.
@@ -369,6 +381,7 @@ Being accused of the thing that was done to you can feel like losing your mind. 
 
 *The Sovereign Divine Feminine* lists false reports to employers, licensing boards, child services and the police among the forms of [post-separation control](/feminine/post-separation-control#core-concept).
 
+::: honest
 ## An honest look at your own part
 *An honest check, just for you. This is about what's in your hands now, not blame for what was done to you.*
 
@@ -380,13 +393,16 @@ Being accused can make it hard to look at anything you did, because owning anyth
 - Is there something I'd want help with, like anger or drinking, whatever they say about me?
 
 Owning a moment isn't owning their pattern. If something does worry you, talking to a counsellor or a service for people concerned about their own behaviour is a strong step, not a confession.
+:::
 
+::: scene
 ## Staying calm under a false report
 *This example is made up, built from patterns many people describe.*
 
 Two days after Jess got a protective order, police came to her door. Her ex had reported that she had threatened him. She was shaking. She said, "I'd like to get legal advice before I answer questions, and I'd like you to know there's a protective order against him." She gave them the order's reference number.
 
 Her lawyer helped her give a calm statement with her record attached. The police took no further action. Jess still felt sick for a week. She also knew she had handled it well.
+:::
 
 ## Sources
 - Freyd, J. J. (1997). Violations of power, adaptive blindness, and betrayal trauma theory. *Feminism & Psychology*, 7(1), 22–32.
@@ -462,15 +478,19 @@ Sometimes the pattern stops for you because it's moved to a new partner. You may
 ## What if it never fully stops?
 Then the goal shifts from ending it to shrinking it: fewer channels, shorter contact, less of your attention. Many people who share children with a controlling ex describe getting to a place where it's still there, but it no longer runs their week. That's a real outcome, and it's worth working towards. [The long after](ch:the-long-after) describes what life can look like years out.
 
+::: scene
 ## How quiet arrived
 *This example is made up, built from patterns many people describe.*
 
 For two years after leaving, Ola's ex filed applications, sent messages and disrupted handovers. Then something shifted. He started a new relationship, and moved further away. The messages became shorter, then rare. Handovers became thirty seconds of nothing.
 
 Ola didn't notice the change until she looked back through her record and saw that the entries had thinned from several a week to one a month. She cried, then went out for dinner with a friend. She kept her safety steps for another year, just in case.
+:::
 
+::: action
 ## Looking back to see forward
 Every few months, read your record from the start. Change often only shows from a distance.
+:::
 
 ## Sources
 - Ferster, C. B., and Skinner, B. F. (1957). *Schedules of Reinforcement.* Appleton-Century-Crofts.

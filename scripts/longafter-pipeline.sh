@@ -7,6 +7,7 @@
 #
 # Stages
 #   1 content    scripts/longafter-audit.py        voice, keywords, links, safety rules, readability (all 96 pages)
+#   1a manifest  scripts/manifest-check.py         counts and titles agree with site_manifest.json; READABILITY/MESO/TAXONOMY reports
 #   2 build      scripts/seo/build_longafter_v2.py  Markdown -> library/longafter (pages, search, sitemap)
 #   3 beacon     scripts/visit-counter.py          Cloudflare beacon on every page (owner rule)
 #   4 hub files  scripts/seo/build_site.py         llms.txt, topics, robots (homepage files only change on purpose)
@@ -22,6 +23,8 @@ step() { printf '\n== %s\n' "$1"; }
 
 step "1 content audit";   python3 scripts/longafter-audit.py | tail -3
 python3 scripts/longafter-audit.py | tail -1 | grep -q " 0 failing" || { echo "content audit failed"; exit 1; }
+step "1a manifest";        python3 scripts/manifest-check.py --book longafter || { echo "a page disagrees with site_manifest.json"; exit 1; }
+step "1a reports (not a gate)"; for r in readability meso taxonomy; do python3 scripts/book/$r.py --book longafter; done
 step "1b AI-writing report (not a gate)"; python3 scripts/longafter-ai-audit.py 2>/dev/null | head -1 || true
 python3 scripts/longafter-sources.py --no-lookup | tail -1
 step "2 build";           python3 scripts/seo/build_longafter_v2.py

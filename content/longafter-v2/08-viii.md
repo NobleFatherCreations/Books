@@ -88,15 +88,19 @@ If you have PTSD, there are treatments with good evidence. The main ones recomme
 ## When should I get help quickly?
 If you feel unable to cope, can't function day to day, or have thoughts of harming yourself, go to [When it's more than aftermath](ch:when-its-more-than-aftermath).
 
+::: scene
 ## When the doorbell rang
 *This example is made up, built from patterns many people describe.*
 
 Months after leaving, every time the doorbell rang Jas froze, heart pounding, even when she was expecting a parcel. She mapped her triggers for a week: the doorbell, a certain car, raised voices on TV. She changed the doorbell chime, put a camera on the door and practised a breathing pattern each time it rang.
 
 The freeze still came, but shorter. After a few months, a delivery became just a delivery most days.
+:::
 
+::: action
 ## One grounding step, ready
 Pick one grounding technique from this chapter and practise it once a day for a week, so it's there when the alarm goes off.
+:::
 
 ## Sources
 - World Health Organization (2019). *International Classification of Diseases, 11th Revision (ICD-11)*: 6B40 PTSD and 6B41 complex PTSD.
@@ -172,8 +176,10 @@ Nightmares are common after abuse, and they can be treated. One method, imagery 
 ## Should I take sleeping pills?
 Talk to a doctor first. Some sleep medicines help for a short time, but they're not usually a long-term answer, and some don't mix with alcohol or other medicines. The talking treatment for insomnia often works better in the long run.
 
+::: action
 ## A week of wind-downs
 For seven nights, do the same three calm things before bed and get up at the same time each morning. Write down how you slept each night. A week isn't long enough to fix sleep, but it's often enough to see what helps.
+:::
 
 ## Sources
 - Krakow, B., et al. (2001). Imagery rehearsal therapy for chronic nightmares in sexual assault survivors with posttraumatic stress disorder. *JAMA*, 286(5), 537–545.
@@ -274,8 +280,10 @@ If you couldn't control contraception, sex or health care, it may help to have a
 ## Moving gently
 Exercise helps both mood and sleep, but after a long period of stress your body may be tired. Start small: a short walk each day, stretching, gentle swimming. Increase slowly. Rest is part of recovery too.
 
+::: action
 ## Book the appointment
 If you've been putting off a check-up, book it this week. Tell the doctor, "I've recently left an abusive relationship and I'd like a general health check." Mention any injuries, especially to the head or neck, even if they were long ago.
+:::
 
 ## Sources
 - Campbell, J. C. (2002). Health consequences of intimate partner violence. *The Lancet*, 359(9314), 1331–1336.
@@ -382,15 +390,19 @@ It may take time before sex or touch feels safe again. That's common. Go at your
 
 *The Sovereign Divine Feminine* includes sexual coercion among the signs to act on fast in [The 30-Minute Rescue](/feminine/the-30-minute-rescue#top).
 
+::: scene
 ## Getting care, later
 *This example is made up, built from patterns many people describe.*
 
 Months after she left, Kim realised that what had happened in the relationship was sexual abuse. She hadn't reported it, and she wasn't sure she wanted to. A rape crisis line listened and explained her options without pushing her. Then she booked a sexual health check, and started seeing a counsellor who specialised in sexual violence.
 
 Whether to report was still undecided, and it could stay that way. Getting care came first.
+:::
 
+::: action
 ## There's no deadline on support
 Specialist sexual violence services support people however long ago it happened. You can call even if you're not sure what to call it.
+:::
 
 ## Sources
 - Miller, E., and Silverman, J. G. (2010). Reproductive coercion and partner violence: Implications for clinical assessment of unintended pregnancy. *Expert Review of Obstetrics & Gynecology*, 5(5), 511–515.
@@ -472,15 +484,19 @@ Many parents are afraid to ask for help with drinking or drugs because they thin
 ## What about other ways of getting through?
 Overworking, not eating, overeating, gambling, shopping, scrolling, risky sex. The same questions apply: is it helping, or is it starting to cost you? The same help applies too.
 
+::: scene
 ## Noticing the pattern
 *This example is made up, built from patterns many people describe.*
 
 After he left his marriage, Gareth started having a few drinks every night to sleep. Within months it was most of a bottle. When he noticed he was drinking before handovers to calm his nerves, he talked to his doctor, who didn't judge him and referred him to a local service. Limits came next: no drinking the night before seeing his children, and a weekly group.
 
 It wasn't a straight line. But he found other ways to get to sleep, and his mornings got clearer.
+:::
 
+::: action
 ## One honest question
 Ask yourself: "What is the drink doing for me tonight?" Then try one other way of doing that job.
+:::
 
 ## Sources
 - Devries, K. M., et al. (2014). Intimate partner violence victimization and alcohol consumption in women: A systematic review and meta-analysis. *Addiction*, 109(3), 379–391.
@@ -554,15 +570,19 @@ Children may need their own support. Look for a therapist trained in working wit
 ## What if I need help now?
 If you're in crisis, don't wait for the right therapist. Any doctor, crisis line or mental health service is the right first step. See [When it's more than aftermath](ch:when-its-more-than-aftermath).
 
+::: scene
 ## Finding the right fit
 *This example is made up, built from patterns many people describe.*
 
 Ellie's first therapist suggested she try to see things from her ex's point of view. She left feeling worse. Her second asked, in the first session, what she needed to feel safe, and explained how she worked with people after coercive control. After a few weeks of building trust, they started trauma-focused work.
 
 Ellie said later that the right therapist didn't make the work easy. They made it feel safe enough to do.
+:::
 
+::: action
 ## Three questions for a first call
 Before booking, ask: How much of your work involves abuse? How would you work with someone who still misses their ex? What would the first sessions look like?
+:::
 
 ## Sources
 - National Institute for Health and Care Excellence (2018). *Post-traumatic stress disorder* (NG116).
@@ -664,6 +684,7 @@ Medication can help some people, especially with depression, anxiety or severe s
 ## You are not a burden
 That voice telling you everyone would be better off without you is lying. It's one of the things deep pain says. You've already done one of the hardest things a person can do: you left. Getting through this is possible, and you don't have to do it alone.
 
+::: action
 ## A card to keep
 Write these on a card and keep it in your wallet or phone case:
 
@@ -673,6 +694,7 @@ Write these on a card and keep it in your wallet or phone case:
 - one reason to get to tomorrow
 
 On the worst nights, you won't have to remember. You'll only have to read.
+:::
 
 ## Sources
 - 988 Suicide and Crisis Lifeline (US) and 988 Canada; Samaritans (UK and Ireland); Lifeline (Australia).

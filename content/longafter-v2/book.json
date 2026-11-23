@@ -1,0 +1,114 @@
+{
+  "slug": "longafter",
+  "title": "The Long After",
+  "source": "content/longafter-v2",
+  "plan": "plan.json",
+  "countries": [
+    "UK",
+    "US",
+    "IE",
+    "CA",
+    "AU"
+  ],
+  "shapes_allowed": [
+    "scenario",
+    "question",
+    "myth",
+    "tool"
+  ],
+  "chapter_class": {
+    "crisis": "heavy",
+    "legal_parts": [
+      "v"
+    ]
+  },
+  "gate": {
+    "para_warn": 60,
+    "para_fail": 90,
+    "anchor_every": 350,
+    "grade_max": {
+      "crisis": 8,
+      "default": 9,
+      "legal": 11
+    }
+  },
+  "concepts": {
+    "DARVO": [
+      "darvo"
+    ],
+    "grey rock": [
+      "grey rock",
+      "gray rock"
+    ],
+    "hoovering": [
+      "hoovering",
+      "hoover"
+    ],
+    "trauma bond": [
+      "trauma bond"
+    ],
+    "coercive control": [
+      "coercive control"
+    ],
+    "parallel parenting": [
+      "parallel parenting"
+    ],
+    "BIFF": [
+      "biff"
+    ],
+    "documentation": [
+      "keep a record",
+      "documentation",
+      "document everything",
+      "what to document"
+    ],
+    "financial abuse": [
+      "financial abuse",
+      "economic abuse",
+      "coerced debt"
+    ],
+    "litigation abuse": [
+      "litigation abuse",
+      "systems abuse",
+      "vexatious"
+    ],
+    "gaslighting": [
+      "gaslighting"
+    ],
+    "love bombing": [
+      "love bombing",
+      "love-bombing"
+    ],
+    "flying monkeys": [
+      "flying monkeys",
+      "flying monkey"
+    ],
+    "triangulation": [
+      "triangulation"
+    ],
+    "safety plan": [
+      "safety plan"
+    ],
+    "protective order": [
+      "protective order",
+      "protection order",
+      "restraining order",
+      "non-molestation"
+    ],
+    "stalking": [
+      "stalking"
+    ],
+    "post-separation abuse": [
+      "post-separation abuse"
+    ]
+  },
+  "reference_pages": [
+    "where-are-you-right-now",
+    "how-to-use-this-book",
+    "a-to-z",
+    "questions-people-ask",
+    "the-card",
+    "all-sources",
+    "what-this-book-might-have-wrong"
+  ]
+}

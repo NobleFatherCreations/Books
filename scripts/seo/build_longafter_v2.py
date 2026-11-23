@@ -129,6 +129,14 @@ def md(body):
         ln = lines[i]
         if not ln.strip():
             i += 1; continue
+        if ln.startswith(":::"):   # block fences (BOOK-PIPELINE-V2 section 3): "::: kind [arg]" opens, ":::" closes
+            kind, _, arg = ln[3:].strip().partition(" ")
+            if kind:
+                extra = f' data-arg="{html.escape(arg)}"' if arg else ""
+                out.append(f'<div class="blk blk-{html.escape(kind)}"{extra}>')
+            else:
+                out.append("</div>")
+            i += 1; continue
         if ln.startswith("## "):
             text = ln[3:].strip()
             hid = S.slugify(text, 60)
@@ -172,7 +180,7 @@ def md(body):
                 items.append(re.sub(r"^\d+\. ", "", lines[i])); i += 1
             out.append("<ol>" + "".join(f"<li>{inline(x)}</li>" for x in items) + "</ol>"); continue
         para = []
-        while i < len(lines) and lines[i].strip() and not re.match(r"^(## |### |>|\||\s*- |\d+\. |☐)", lines[i]):
+        while i < len(lines) and lines[i].strip() and not re.match(r"^(## |### |>|\||\s*- |\d+\. |☐|:::)", lines[i]):
             para.append(lines[i].strip()); i += 1
         out.append(f"<p>{inline(' '.join(para))}</p>")
     return "\n".join(out)

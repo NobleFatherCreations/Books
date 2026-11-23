@@ -49,7 +49,7 @@ Pages: 97. Median score 97. Average sentence 10.2 words. Headings repeated acros
 | 97 | the-grief-nobody-will-let-you-have | 9.6 | 0% | 5.2 | 17.8 | - | 0 | Why do people dismiss this grief? |
 | 97 | closure-and-forgiveness | 9.4 | 1% | 6.6 | 16.7 | - | 0 | What closure looks like in practice |
 | 97 | getting-sick-after-leaving | 9.5 | 2% | 3.5 | 9.0 | - | 0 | Why do people get sick after leaving? |
-| 97 | drinking-drugs-and-getting-through | 10.5 | 1% | 3.5 | 4.1 | - | 0 | Why do people drink more after a breakup or abuse? |
+| 97 | drinking-drugs-and-getting-through | 10.5 | 1% | 3.4 | 4.7 | - | 0 | Why do people drink more after a breakup or abuse? |
 | 97 | when-its-more-than-aftermath | 10.6 | 0% | 6.3 | 9.3 | - | 0 | Is it normal to feel this way after leaving? |
 | 97 | making-new-people-from-scratch | 9.3 | 0% | 3.1 | 7.2 | - | 0 | What if I find it hard to trust new people? |
 | 97 | dating-when-youre-ready-and-when-youre-not | 9.8 | 1% | 5.2 | 6.2 | - | 0 | Sex and intimacy after abuse |
@@ -101,7 +101,7 @@ Pages: 97. Median score 97. Average sentence 10.2 words. Headings repeated acros
 | 100 | court-day-checklist | 9.8 | 0% | 2.7 | 0.0 | - | 0 | - |
 | 100 | pocket-card-words-you-can-use | 7.7 | 0% | 4.3 | 0.0 | - | 0 | - |
 | 100 | the-card | 6.5 | 0% | 3.8 | 14.2 | - | 0 | - |
-| 100 | a-to-z | 8.4 | 0% | 3.4 | 4.0 | - | 0 | - |
+| 100 | a-to-z | 8.6 | 0% | 3.4 | 3.9 | - | 0 | - |
 | 100 | questions-people-ask | 8.3 | 0% | 3.6 | 5.1 | - | 0 | - |
 
 ## Headings repeated across pages

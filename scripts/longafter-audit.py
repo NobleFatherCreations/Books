@@ -41,7 +41,7 @@ STOP = {"a", "an", "the", "to", "of", "in", "on", "my", "i", "is", "it", "and", 
 def parse():
     out = {}
     for f in sorted(SRC.glob("[0-9][0-9]-*.md")):
-        for block in re.split(r"^=== ", f.read_text(encoding="utf-8"), flags=re.M)[1:]:
+        for block in re.split(r"^=== ", re.sub(r"^:::.*\n", "", f.read_text(encoding="utf-8"), flags=re.M), flags=re.M)[1:]:
             slug, rest = block.split("\n", 1)
             head, _, body = rest.partition("\n---\n")
             meta = dict(re.findall(r"^(\w+):\s*(.+)$", head, re.M))

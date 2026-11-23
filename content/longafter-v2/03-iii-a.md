@@ -106,6 +106,7 @@ If a child talks about being hurt, frightened, or asked to keep secrets, or if t
 
 *The Sovereign Divine Feminine* looks at how motherhood is used as pressure in [The Motherhood Matrix](/feminine/the-motherhood-matrix#core-concept), and lists children among the main channels in [post-separation control](/feminine/post-separation-control#o-orient-return-to-facts-and-pattern). *Playground Protectors*, also in this library, is written for children themselves.
 
+::: honest
 ## Being honest about what reaches the children
 *An honest check, just for you. This is about what's in your hands now, not blame for what was done to you.*
 
@@ -117,16 +118,21 @@ When you're under attack, it's easy for some of it to spill towards the children
 - Do I react to their love for the other parent in a way they can see?
 
 If any answer is yes, you're not a bad parent. You're a parent under strain. Choose one thing to change this week, and tell your child, "That was a grown-up thing I shouldn't have put on you."
+:::
 
+::: scene
 ## A handover that didn't become a fight
 *This example is made up, built from patterns many people describe.*
 
 Every Sunday, Ben's son came home with questions: "Is it true you spent all our money? Dad says you don't want me there." Ben used to argue back, which made his son cry. Then he changed his approach. He answered simply: "That's not true, and you don't need to worry about it. I love having you here." He stopped asking about the weekend and let his son talk when he was ready. He wrote down what his son said, later, in his own words.
 
 Over months the questions slowed. His son started telling him about football instead.
+:::
 
+::: action
 ## Your one sentence
 Choose one calm sentence to use when your child repeats something unkind about you. Practise it until it comes easily.
+:::
 
 ## Sources
 - Katz, E. (2022). *Coercive Control in Children's and Mothers' Lives.* Oxford University Press.
@@ -228,12 +234,14 @@ Some people use court costs as a weapon: making repeated applications you have t
 
 *The Sovereign Divine Feminine* shows how paperwork and money become a cage inside the relationship in [The Administrative Cage](/feminine/the-administrative-cage#core-concept).
 
+::: scene
 ## When the payments stopped
 *This example is made up, built from patterns many people describe.*
 
 For a year, Harriet's ex paid child support late, short, or with a nasty message attached. She switched to the official collection service. It took a few weeks to set up. After that, the money came through the service, the messages stopped coming with it, and when he missed two payments, the service took action without her having to contact him.
 
 She still had less money than she needed. But money was no longer something he could hold over her every month.
+:::
 
 ## Take the money out of the messages
 If money still comes with contact, find out this week how to move it to an official service.
@@ -351,6 +359,7 @@ You may lose some people along the way. Keep the ones who asked you what happene
 
 *The Sovereign Divine Feminine* covers smear campaigns online in [Digital Smear Campaigns](/feminine/digital-smear-campaigns#core-concept) and the social side in [The Social Siege](/feminine/the-social-siege#core-concept).
 
+::: honest
 ## Before you tell your side
 *An honest check, just for you. This is about what's in your hands now, not blame for what was done to you.*
 
@@ -362,18 +371,23 @@ When lies are spreading, the urge to fight back with your own story can be stron
 - Am I starting to do to them what they did to me?
 
 Sometimes the honest answer is that silence and steady behaviour will do more than anything you could post.
+:::
 
+::: scene
 ## How a rumour faded
 *This example is made up, built from patterns many people describe.*
 
 After the separation, Nadia heard that her ex was telling people she drank and neglected the children. At the school gate, a few parents went cold. She didn't respond online and didn't defend herself to people who hadn't asked. Every day she turned up on time, sober and cheerful with her children, and she told the head teacher briefly what was happening.
 
 A year later, two of those parents apologised. One said, "We could see it wasn't true." The story hadn't been beaten. It had simply stopped fitting what people saw.
+:::
 
+::: action
 ## Questions before you correct anything
 - Does this person's opinion affect my safety, my children or my job?
 - Will correcting it end it, or feed it?
 - Can my behaviour answer it better than my words?
+:::
 
 ## Sources
 - Harsey, S., and Freyd, J. J. (2020). Deny, attack, and reverse victim and offender (DARVO): What is the influence on perceived perpetrator and victim credibility? *Journal of Aggression, Maltreatment & Trauma*, 29(8), 897–916.
@@ -461,15 +475,19 @@ If it's your own family who has sided with your ex, [Your parents](ch:your-paren
 
 *The Sovereign Divine Feminine* describes how a social circle gets turned in [The Social Siege](/feminine/the-social-siege#core-concept).
 
+::: scene
 ## Finding the leak
 *This example is made up, built from patterns many people describe.*
 
 Every detail of Chris's life seemed to reach his ex within days. He told one friend he was thinking of moving to a particular area. A week later his ex mentioned that area in a message. Chris didn't confront the friend. He simply stopped sharing plans with them, and kept seeing them for football and nothing else.
 
 The details stopped travelling. The friendship survived, smaller and safer.
+:::
 
+::: action
 ## Who gets to know what
 Make three short lists: people who can know everything, people who can know general news, and people who get nothing personal. Keep them in your head and use them.
+:::
 
 ## Sources
 - Stark, E. (2007). *Coercive Control: How Men Entrap Women in Personal Life.* Oxford University Press.

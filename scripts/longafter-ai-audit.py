@@ -41,7 +41,7 @@ CPAT = {k: re.compile(v, re.I) for k, v in PATTERNS.items()}
 
 def pages():
     for f in sorted(glob.glob(str(D / "[0-9]*.md"))):
-        for blk in re.split(r"^=== ", open(f).read(), flags=re.M)[1:]:
+        for blk in re.split(r"^=== ", re.sub(r"^:::.*\n", "", open(f).read(), flags=re.M), flags=re.M)[1:]:
             slug = blk.split("\n", 1)[0].strip()
             body = blk.split("\n---\n", 1)[1].split("\n## Sources")[0].split("\n## Research and books")[0]
             yield slug, body

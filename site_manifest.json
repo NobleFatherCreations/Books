@@ -1,0 +1,16 @@
+{
+  "_what": "One source for facts that appear on many pages. scripts/manifest-check.py fails when a page disagrees. Titles and taglines stay single-sourced in scripts/nf-catalogue.py CATALOGUE (the check reads them from there); the Decoder count is derived from content/decoder-v20/playbook_singles.json and compared with decoder_tactics below.",
+  "decoder_tactics": 335,
+  "author": "Shae Stovell",
+  "about_url": "/about",
+  "who_made_this": "Made by Shae Stovell, a father who needed this map and couldn't find one.",
+  "who_made_this_link": "Who made this",
+  "books": {
+    "longafter": {
+      "title": "The Long After",
+      "source": "content/longafter-v2",
+      "built": "library/longafter",
+      "countries": ["US", "UK", "Ireland", "Canada", "Australia"]
+    }
+  }
+}
