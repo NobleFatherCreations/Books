@@ -301,3 +301,34 @@ The free plan allows three lookups a day. Next lookups planned for: co-parenting
 2. **Expansion:** Tier 1 only, Tier 1 and 2 (recommended), or all three tiers including new chapters?
 3. **Design direction to sketch:** A "Dusk to first light" (recommended), B "The kept notebook", C "One lamp", or sketch all three for a side-by-side?
 4. **Search titles:** may chapter pages use searched words in their browser title and description, while the visible chapter title stays exactly as written?
+
+---
+
+# v6 design round (2026-11-23): Rescue/evolve track, `design-director` v3
+
+Text is frozen (step 2 complete, owner said "leave them in" and supplied `/about` for the author strip). Direction A, Dusk to first light, is kept (owner). This round styles the rewrite's 360 `:::` blocks and builds the shared book shell (BOOK-PIPELINE-V2 section 6).
+
+## R1. What the current v5 build shows (design-gates + contact sheets, phone-dark, phone-reduced, desktop-dark)
+- **Gates:** chapter and checklist pass. The cover fails "text over text" ×5, but this is a **gate false positive**: the links inside the closed "More situations" `<details>` still report rects. Opened, it lays out cleanly (`more-open.png` read).
+- **Warnings:** 5 font families (BookSerif, BookDisplay, ui-monospace, Georgia, system-ui), against the rule of 2. The mono and system-ui come from the shared NF catalogue menu, which is a shared part and out of scope. Georgia is a fallback in the builder. There are 11-22 text colours (aim ≤ 6) and the cover has low focal dominance.
+- **Blocks are unstyled:** scene, honest, action, decoder and bridge render as plain paragraphs. The reader can't see the closing step, the reply to copy or the honest check. This is the main job.
+- **The signature move barely shows:** past the cover hero, the part's sky survives only as a coral dot and a "PART" label, so the page doesn't feel the hour change.
+- **Monotony:** the cover's triage choices are 6 + 15 identical pills, and the contents is 97 near-identical lines (B5).
+- **What works:** the reading column (measure, size, contrast), the short-answer card, the Leave button and a clear top bar.
+
+## R2. Concept and budget
+- **Concept:** a friend's lamp on a long night. Each part is a later hour, and the things you need glow like notes left on the table for you.
+- **Lead style:** an editorial night book, keeping Dusk to first light.
+- **Signature move:** the hour is felt on every page of a part: a sky band at the chapter top, the part's accent on rules, links and the block edges, and a horizon rule between sections.
+- **Type:** BookDisplay for titles and BookSerif for text. Nothing else in the book's own CSS.
+- **Accent:** one per page, the part's accent (cover coral → first-light gold).
+- **Limits:** at most three feature effects per screen, and at least 70% of screens quiet reading.
+- **Motion:** only on block entrance and part openings, gentle. Reduced motion keeps the layout and drops only the self-running motion.
+- **Block language (the comps decide the treatment):**
+  - action = "One small step", the most actionable thing on the page
+  - decoder = two voices plus a Copy button on the reply
+  - honest = warm, recessed and private
+  - scene = a quieter story with its made-up note
+  - bridge = a calm signpost to another book
+  - sheet = print-ready
+- **Shell to build after the pick:** reading toggle (Full read / Just the steps), on-this-page menu for long chapters, reading time, top progress bar, author strip linking to `/about`, a share line (navigator.share, copy-link fallback), print CSS, desktop rail at ≥ 1100 px, phone dock, and Leave via Escape twice. None of it stores anything.
