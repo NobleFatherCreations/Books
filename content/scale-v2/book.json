@@ -151,7 +151,8 @@
    "ch:when-weighing-stops",
    "ch:before-you-test-is-testing-safe",
    "ch:this-book-in-the-wrong-hands"
-  ]
+  ],
+  "sources": "additive"
  },
  "step2": {
   "concept_homes": {

@@ -48,7 +48,11 @@ def main():
         if lost:
             bad.append(f"{s}: links lost {sorted(lost)}")
         src = lambda b: b.partition("\n## Sources")[2].strip()
-        if src(ob) != src(nb):
+        if cfg.get("sources") == "additive":   # the book may gain Sources; it may not lose any line it had
+            gone = [l for l in src(ob).splitlines() if l.strip() and l not in src(nb).splitlines()]
+            if gone:
+                bad.append(f"{s}: Sources lost {len(gone)} line(s)")
+        elif src(ob) != src(nb):
             bad.append(f"{s}: Sources changed")
         for k in headers:
             if k not in nh:
