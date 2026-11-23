@@ -1,5 +1,7 @@
 # Noble Father Creations — Standing Rules
 
+**New chat? Read `docs/handoff-2026-11-23/00-START-HERE.md` first** (opening prompt, skills to load, binding deploy/rebuild lessons, what's left, Long After finish order, next book, About-the-author plan).
+
 **Short on context? Read `docs/AI-QUICKSTART.md` first** — current live state and the exact commands, in one page.
 
 **Working on the Fractal project (Fractal, Fractal², Pattern Decoder, combinations, the explainer PDFs, the intro site)? Read `docs/FRACTAL-DIGEST.md` first.** It is a 2-minute summary of the project, the review verdict and the known defects, with a map of where everything lives. Then read `content/fractal2/design/FAILURE-LOG.md` (every past failure and a 10-step pre-flight checklist). Do not read the book itself to get oriented.

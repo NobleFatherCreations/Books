@@ -1,0 +1,60 @@
+9cc970e5 About bio: tidy spacing
+1bef17c5 About bio: pride and 'people I'll never meet' passage; closing ask to share it on; tip aside moved to the free section
+3dd5f2e4 About bio: new section, 'This won't read like any psychology book you've seen'
+cc6e5ca1 About bio: three-reader steelman (brand-trust psychologist, distrustful reader in the thick of it, DV advocate) and version 5
+576e0e0e About page v4: rewritten as the owner's bio with hooks and rhythm; helplines removed
+cc7b5506 About page: audited final prose from the owner's base (dashes removed, AI tells cut, real book titles, facts checked)
+841d334c About page draft 2: raw, first-person, from the owner's own words
+ea296b08 Share cards: whole brand header as background, lettering faded on the left, figure in full colour; Decoder and Long After deployed
+ef86675f Origin story plan and draft (Who made this); brand wordmark extracted from the owner's header
+116425fb Share cards: the owner's brand header for the homepage, its figure panel on the Long After and all Decoder cards; deployed those three
+43a9503d Share cards: the full Noble Father Creations figure on the homepage, Long After and all Decoder cards; deployed those three
+7704e10f Outreach: Gmail drafts noted, paste-ready submission packets, Decoder dataset export; JS-book description bug recorded
+9733dad7 Share cards: logo and name on the homepage, Long After (new second-edition card) and all Decoder cards; deployed those three sites
+836eb663 Submissions: Google and Bing sitemaps done
+87f92e6f Submissions: Search Console already verified; sitemap step only
+1cfd685b Homepage deployed; IndexNow for every live sitemap (1,412 URLs); Wayback captures; submissions tracker
+cc443f4b Record 2026-11-23 deploys; book pipeline v2 (outside review integrated) and Long After finish handoff
+493f75a1 Pre-deploy rebuild: homepage drawer 335 restored (pipeline no longer reverts the homepage), menu sweep runs after the Long After build, beacon on the old-address page
+1bef9e27 Catalogue drawer and related lines: Pattern Decoder count 310 -> 335 on every site (sources + sweep); homepage rebuilt via build_home.py; deploy set updated
+36da70bb Pattern Decoder v21 built (not deployed): all 21 fields on plain pages, verified research sources, pattern and route links, 109 route pages, five more books' back-links, direct book links, aliases, helpline links, share cards, real dates, full llms files, About and 404 pages; hub robots and llms fixed; Long After A to Z links to the Decoder
+8a14f32e Decoder rebuild baseline: book mentions now include The Loop and The Weighing chapter pages (built output only, not deployed)
+b8bea243 Decoder v21 plan: live indexing check, robots.txt sitemaps, IndexNow scope, Search Console first
+e90e838e Decoder v21 plan revised: outside review checked against the repo; hidden fields and combo links added; C1 verification rules
+660b1a3a Pattern Decoder v21 plan: back-links plus every other Decoder change, bundled for one rebuild and deploy
+9c6329f9 The Long After: full process map (every step in order) and retrospective with the improved order for the next book
+3d8e8f54 The Long After: 17 accountability sections where the reader's view is most likely skewed, framed as private and blame-free; explained in How to use this book
+29ead003 The Long After: AI-writing audit v2 from seven outside rule sets; contractions, page-describing lines, repeated openings, long sentences and sayings fixed; audit wired into pipeline
+f4208789 The Long After: completeness and tone audits, 21 glossary terms, sources appendix with verified links, full link check; writing finished
+137888f6 The Long After completeness audit: 12 thinly answered questions deepened; Decoder back-link finding saved to memory
+dd9a14b9 The Long After: expanded book rebuilt; pipeline passing; checklist, sites.json and memory updated
+1515b562 The Long After fact check: numbers and laws verified, four corrections, 28 source lines added
+8afd2556 The Long After steelman round 2: 15 hostile-reader findings, 11 gaps filled, facts logged
+fccabf34 The Long After: voice audit and no-AI-slop pass complete (doubled hedges cut, contrast line rewritten)
+122d9e17 The Long After: duplicate-content check; repeated sections merged or cut in 13 chapters
+0cac6bc5 The Long After: remove duplicated sections in the intimate images chapter
+c77d1dd3 The Long After voice audit: scorecard script and report, duplicate headings renamed, concrete pictures added to flagged sections
+f2195764 The Long After second pass: Parts IX-XI worked examples and closing sections
+078ce927 The Long After second pass: Parts VII-VIII worked examples and closing sections
+496ef9db The Long After second pass: Parts V-VI worked examples and closing sections
+058c7667 The Long After second pass: Parts II-IV worked examples and closing sections
+51446705 The Long After second pass: Part I worked examples and closing sections
+f7228ddb The Long After: second expansion pass plan saved to memory and checklist
+82b49c2b The Long After expansion: Part XI and toolbox written; first expansion pass complete (all 96 pages), audit passing
+aeeb5d44 The Long After expansion: Part X written (+2,900 words, 50 sections), audit passing
+91f77097 The Long After expansion: Part IX written (+1,600 words, 25 sections), audit passing
+0cdade10 The Long After expansion: Part VIII written (+2,600 words, 29 sections), audit and safety checks passing
+bd15145e The Long After expansion: Part VII written (+2,900 words, 37 sections), audit passing
+c3d33cf0 The Long After expansion: Part VII first half (trauma bond, feelings, grief, guilt, anger)
+e2aef608 The Long After expansion: Part VI written (+3,700 words, 30 sections), audit passing
+8acdf563 The Long After expansion: Part V written (+3,900 words, 33 sections), audit passing
+5c46eb8a The Long After expansion: Part IV written (+2,000 words, 19 sections), audit passing
+8b02a7ba The Long After expansion: Part III written (+3,300 words, 34 sections), audit passing
+e4beb3ed The Long After expansion: Part II written (+3,000 words, 30 sections), audit passing
+1acb489a The Long After expansion: Start here and Part I outlined and written (+5,900 words, 47 new sections), audit passing
+86efffb1 The Long After: expansion tracker (running checklist, progress.json), owner's order saved to memory and sites.json
+4f76c7f5 Ignore impeccable live-server scratch folder
+d01bc089 The Long After v5 polish: 15 search-gap sections, AI-writing and copy-edit passes, tap-to-call crisis numbers, design-review fixes, schema citations, Topics and llms.txt wiring, on-page SEO audit, one-command pipeline
+043e4ef9 The Long After v5: all journal citations verified against Crossref (4 corrections); 23 short chapters expanded with missing questions; AI-writing pattern pass (17 rewrites); rebuilt, findability/accessibility/perf checks pass
+a303bdba The Long After v5 built: 96-page second edition in the Dusk-to-first-light design, static crawlable pages, offline search, whole-book page, old links forwarded; findability and accessibility checks pass
+efd9ced9 The Long After 2nd edition: verification pass (helplines, key laws), four corrections; fact log updated
