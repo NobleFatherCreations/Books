@@ -68,3 +68,11 @@ python3 scripts/book/readability.py --stdout | grep -A3 "^## Totals"   # your ch
 Don't build, deploy, commit or push. `longafter-ai-audit.py` rewrites AI-AUDIT.md/.json: put them back with `git checkout` after running it. Also run `python3 scripts/book/rewrite-check.py content/longafter-v2/<file>` (must show 0 problems). Don't touch files other than your assigned `NN-*.md`.
 
 Report back: the chapters done, worklist items done or skipped (with why), facts you were unsure of, and three short before-and-after samples (one with a light moment, one structural fix, one handoff line).
+
+## 5. How to run a pass (for the worker)
+
+1. Read fully: this brief; your chapters' sections of `WORKLIST.md` (chapters are `=== slug` blocks; ignore a "HOME of" item if the definition already sits under a question heading, and an opening-shape item if the neighbours already open differently); `.claude/skills/no-ai-slop/SKILL.md`; `content/about.md` lines 1-60; `TONE-AUDIT.md`; `plan.json` (keywords, which chapters are heavy); and skim the previous file already rewritten, for tone continuity.
+2. Rewrite each chapter top to bottom: the voice pass plus every applicable worklist item, including the weaponization check.
+3. Run until clean: `python3 scripts/longafter-audit.py <part>` (0 failing), `python3 scripts/book/rewrite-check.py content/longafter-v2/<file>.md` (0 problems), `python3 scripts/book/readability.py --stdout | sed -n 1,20p`, `python3 scripts/longafter-ai-audit.py | head -5`, then `git checkout content/longafter-v2/AI-AUDIT.md content/longafter-v2/AI-AUDIT.json`.
+4. Edit only your file, and don't build, commit, push or deploy.
+5. Report in under 350 words: the chapters done; worklist items done or skipped, with why; facts you were unsure of; the check results; three short before-and-after samples (a light moment, a structural fix, a handoff).
