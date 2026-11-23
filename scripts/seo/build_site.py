@@ -151,6 +151,8 @@ def hub_head(sites):
                 "theme": {"bg": "#0B0E18", "fg": "#ECE6D9", "fg2": "#B6AF9E", "panel": "#0E1322", "glow": "#2a2014", "acc": "#E6C570",
                           "disp": "'Fraunces',Georgia,serif", "body": "'Crimson Text',Georgia,serif"}}
         S.make_og(card, tmp, "Free books · free tools · free forever", "See manipulation clearly. Stay safe. Help each other home.")
+        brand = S.ROOT / "design/brand/og-home-1200x630.png"     # the owner's own brand header, cropped to 1200x630
+        if brand.exists(): shutil.copyfile(brand, tmp / "og.png")
         shutil.copy(tmp / "og.png", HUB / "og.png")
     finally:
         shutil.rmtree(tmp, ignore_errors=True)

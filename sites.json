@@ -127,9 +127,9 @@
     ],
     "buildCommand": "python3 scripts/seo/build_home.py && python3 scripts/seo/build_site.py && python3 scripts/visit-counter.py hub/catalogue-redesign.html hub/topics.html",
     "lastDeploy": {
-      "id": "6b03cccb18f023d9bb919eef",
+      "id": "6b03cdefcbd0a87d8db830bc",
       "date": "2026-11-23",
-      "verified": "share card with the full Noble Father Creations figure; live og.png identical"
+      "verified": "share card = the owner brand header (design/brand/noble-father-header.png) at 1200x630; live identical"
     },
     "visitCounter": "Homepage only. Function /api/visits (hub/netlify/functions/visits.mjs) needs Netlify env var CF_API_TOKEN (saved by the owner as CF_API_TOKEN1; the function reads either) (Functions scope). scripts/visit-counter.py adds the counter to the homepage and the Cloudflare beacon to any page missing it; it is chained in buildCommand.",
     "buildNote": "v19 (2026-11-21, deployed): build ONLY with buildCommand (build_site.py writes the SEO head). build_site.py rewrites hub/og.png; restore with git checkout if the card is not meant to change. Test: node scripts/verify-hub.mjs http://127.0.0.1:8765/"
@@ -267,8 +267,8 @@
       "dataSource": "content/playbook-data.json",
       "lastDeploy": {
         "date": "2026-11-23",
-        "deployId": "6b03ccb6bc3c2114be634e82",
-        "note": "v21 + share cards with the full logo figure"
+        "deployId": "6b03cdd1fd532d9f7450a643",
+        "note": "v21 + cards with the brand figure panel"
       },
       "openItems": [
         {
@@ -1021,8 +1021,8 @@
       "netlifyUrl": "https://noble-the-long-after.netlify.app/",
       "lastDeploy": {
         "date": "2026-11-23",
-        "deployId": "6b03ccc3a736fff321557f06",
-        "note": "v5 + share card with the full logo figure"
+        "deployId": "6b03cde2082e2151ecbc4ac1",
+        "note": "v5 + card with the brand figure panel"
       },
       "workInProgress": {
         "what": "Expansion to roughly double (owner, 2026-11-22): outline every chapter, write part by part, then voice audit, no-AI-slop, steelman, fact check, pipeline; design only after the writing is audited; deploy only on the owner's words.",
