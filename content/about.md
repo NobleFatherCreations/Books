@@ -1,6 +1,6 @@
 # Who made this
 
-*Version 4, 2026-11-23. The owner's bio, rewritten for hook, rhythm and feeling.*
+*Version 5, 2026-11-23. Version 4 after a three-reader steelman (docs/ABOUT-STEELMAN.md).*
 
 ---
 
@@ -10,9 +10,9 @@ Someone once studied the way I love, and used it to try to take everything I had
 
 They almost did.
 
-I'm Shae. Father of four. I never meant to write a single book. I wrote to stay sane and keep my family safe, and somewhere in that fire it turned into a calling: a map out, written for every kind of person who's ever been made to doubt their own mind.
+I'm Shae. Father of four. I never meant to write a book. I wrote to stay sane and keep my family safe, and somewhere in that fire it turned into a calling: a map out, written for anyone who's been made to doubt their own mind.
 
-It's all free. Everyone told me that's crazy.
+It's all free. No sign-up, no catch. Everyone told me that's crazy.
 
 [Read why →]
 
@@ -20,49 +20,33 @@ It's all free. Everyone told me that's crazy.
 
 ## Full page
 
-# You were never too much.
+# Someone studied the way I love, and used it to try to take everything I had.
 
-You were just easy to aim at.
+They almost did.
 
-That's what nobody tells the big-hearted ones. The forgivers. The ones who explain, and understand, and give one more chance, and carry what isn't theirs because someone has to.
+I'm Shae. I'm a father of four. A couple of years ago I was building a business, pouring every spare hour into something I believed could carry my family. Then my life got hit so hard I had to drop all of it and stand guard.
 
-The very thing that makes you good is the thing they use.
+I won't tell you what happened. You don't need my details, and I'm not here to sell you my pain. I'm not here to sell you anything.
 
-I know, because it was used on me.
+What I will tell you is what it felt like, because if you're reading this, you might know.
 
----
-
-I'm Shae. I'm a father of four. A couple of years ago I was building a business, pouring every spare hour into something I believed could carry my family.
-
-Then my life got hit so hard I had to drop all of it and stand guard.
-
-I'm not going to tell you what happened. You don't need my details.
-
-You already know the feeling.
-
-The slow shrink. The way you start checking your own memory like it's lying to you. Explaining something obvious for the tenth time and hearing yourself sound less sure than the person who's lying. Apologising for things you never did, just to buy one quiet evening.
-
-Lying awake at 3am, running the conversation back, wondering if you're the problem.
+The slow shrink. Checking your own memory like it's lying to you. Explaining something obvious for the tenth time, and hearing yourself sound less sure than the person who's lying. Apologising for things you never did, just to buy one quiet evening. Lying awake at 3am, running the conversation back, wondering if you're the problem.
 
 You're not.
 
-That's the trick. It always was.
+You were aimed at. And the part they aimed at was what's good in you: the forgiving, the explaining, the one more chance, the carrying of things that were never yours to carry. People told you that was being *too much*. It wasn't. It was the target.
 
 ---
 
-I love without a ceiling. I always have. And over a whole lifetime, I've learned every single way that kind of love can be turned into a leash.
+I love without a ceiling. I always have. Over a lifetime, I've learned every way that kind of love can be turned into a leash.
 
 This time, someone studied it on purpose. My trust. My loyalty. The way my mind works. They built their plan out of the best parts of me and pointed it at everything I hold dear.
 
-I had two choices. Lose myself, or learn to see in the dark.
+I could lose myself, or I could learn to see in the dark.
 
 My kids needed me standing. So I started writing.
 
----
-
-Every contradiction. Every goalpost that moved when I got close. Every sentence that left me more confused than before it was said.
-
-I wrote until the fog had edges. Until the things that had no name had names. Until I could look at it and say: *there. That's what's happening. That's how it works.*
+Every contradiction. Every goalpost that moved when I got close. Every sentence that left me more confused than before it was said. I wrote until the fog had edges, until the things that had no name had names, until I could look at it and say: *there. That's how it works.*
 
 And in the middle of all that, something I didn't expect walked in.
 
@@ -70,64 +54,56 @@ Faith.
 
 Right in the worst of it, while one force was working to take my mind from me, something far bigger was pulling me back to myself. I can't tell you where the writing ends and the faith begins. They were made in the same fire.
 
-The writing got me through. I thought that was the end of it.
-
-It wasn't.
+I'm not here to convert anyone. You don't need to believe what I believe to use a single page of this. I'm only telling you because it's true, and leaving it out would be a lie.
 
 ---
 
-Because here's what I couldn't live with.
+The writing got me through. I thought that was the end of it.
 
-Once you can see it, you see it *everywhere.* In marriages. In families. At work. In courtrooms and churches. On festival grounds. Glowing on the phone in your hand.
+Then I looked up, and saw it everywhere. In marriages and families. At work. In courtrooms and churches. On festival grounds. Glowing on the phone in your hand. And everywhere, people like me, good people, sitting alone at 3am, sure they were broken because no one had ever given them the words.
 
-And everywhere I looked there were people like me. Good people. Loving people. Sitting alone at 3am, sure they were broken, because no one had ever handed them the words.
+Getting through it meant nothing if I kept the map in a drawer.
 
-Getting through it meant nothing to me if I kept the map in a drawer.
-
-So I didn't.
-
-I wrote it again, and again, in every language I could think of:
+So I wrote it again, in every language I could think of:
 - for **kids**, so my daughter and yours learn the tricks before they cost a heart
 - for the **festival family**, because places built on open hearts draw wolves in good vibes
-- for **women**, because apparently I like to live dangerously (and because so many of you carry a doubt that someone else planted)
-- for the **faithful**, because no one should have to hand over their connection to Spirit to belong
+- for **women**, which, as a man, may be the bravest thing I've written, because so many women carry a doubt someone else planted, and they deserve a mirror that doesn't talk down to them
+- for **men**, who almost never get asked, and almost never say
+- for the **faithful**, because nobody should have to hand over their connection to Spirit to belong
 - for anyone **in the storm, or just out of it**, who needs to name exactly what's being done to them and take their mind back, piece by piece
+- and for the ones who **hurt someone**, and want to stop for real
 
-It stopped being something I was doing. It became something I was *for.*
+Fourteen books. A Pattern Decoder of 335 tactics, each with the signs it fits *and* the signs it doesn't. Every source named, so you can check me.
 
 ---
 
 Two years. Every day.
 
-It's cost me sleep, money, time with my business, and more of my nerves than I'd like to admit.
-
-Every person I've told about this has said the same thing: *charge for it.* Every logical part of my own brain agrees.
+It's cost me sleep, money, time with my business, and more of my nerves than I'd like to admit. Every person I've told has said the same thing: *charge for it.* Every logical part of my own brain agrees.
 
 And I won't.
 
-Because the people who need this most are the ones with the least. Their money's controlled. Their time isn't theirs. Somebody checks their phone. You don't put a paywall between a person and the way out. You don't make them sign up to get their own mind back.
+The people who need this most have the least. Their money's controlled. Their time isn't theirs. Somebody checks their phone. You don't put a paywall between a person and the way out, and you don't make them sign up to get their own mind back.
 
-So there's no price. No login. No email list. No ads. Nothing tracking you. Just the books, the Decoder and the videos, open to anyone, for good.
+So there's no price, no login, no email list, no ads and nothing tracking you. The books, the Decoder and the videos are open to anyone, for good.
 
-I didn't make these for money. I made them to heal myself and the people I love.
+I don't know you. I don't need anything from you.
 
-And I believe, all the way down to my bones, that every soul alive deserves truth, love and a free will nobody has bent out of shape.
+I made these to heal myself and the people I love. And I believe, all the way down, that every soul deserves truth, love and a free will nobody has bent out of shape. So the people I love turned out to be a much bigger list than I planned.
 
-So when I say *the people I love,* I mean everyone.
-
-Yes. You too.
+It includes whoever is reading this.
 
 ---
 
-I'm not a guru. I'm not a therapist, a lawyer or a professor, and I'll never ask you to follow me. Where the research exists, I've named it so you can check every word. Where I'm speaking from my own scars or my faith, I'll tell you. If I've got something wrong, say so. I'd rather the truth stand than me.
+I'm not a guru. I'm not a therapist, a lawyer or a professor, and I'll never ask you to follow me. Where the research exists, I've named it. Where I'm speaking from my own scars or my faith, I'll say so. If I've got something wrong, tell me. I'd rather the truth stand than me.
 
-What I am is a father who refused to lose his soul, and refused to let what it cost him mean nothing.
+What I am is a father who refused to lose his soul, and refused to let what it cost mean nothing.
 
 (There's a tip link somewhere on this site with my Venmo and Cash App, if something here helped and you want to say thanks. I honestly couldn't tell you where it is. Spirit's teaching me to let myself receive. Still working on it.)
 
-If any of this felt like I was describing you, I was.
+If any of this sounded like you, it was written for you.
 
-Welcome. You're not crazy. You're not too much. And you're not on your own anymore.
+Take what helps. Leave the rest. You were never too much.
 
 With love,
 **Shae Stovell**
