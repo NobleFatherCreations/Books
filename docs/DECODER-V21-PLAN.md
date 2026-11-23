@@ -103,7 +103,8 @@ The 109 combos (the build's `recipes`) list which tactics happen together and in
    - each card shows the name, the line colour, the code and a definition of up to 120 characters
    - cards are regenerated only when their entry changes, and checked at 300px wide
    - a "Save this card" link on each page
-10. **IndexNow** after the deploy, for changed URLs only.
+10. **IndexNow** after the deploy, for changed URLs only. Google does not use IndexNow; it reaches Bing and the tools that draw on Bing's index (ChatGPT search, Copilot, DuckDuckGo).
+11. **Hub robots.txt.** The live file lists 10 of the 17 sitemaps; the repo copy has all 17 (it adds silence, atwill, repair, slowtake, loop, scale and fractal/entertainment). It goes out with the hub deploy.
 
 ### C. References to other works
 1. **"Research behind this", in its own section at the end.** It shows only:
@@ -145,6 +146,7 @@ The 109 combos (the build's `recipes`) list which tactics happen together and in
 - **"How it feels" entry pages** ("I feel like I'm walking on eggshells"). These need new writing, so they go to the owner.
 
 ## After deploy (owner's accounts and decisions)
+- **Most important for Google:** submit the sitemaps in Search Console. Checked 2026-11-23, nothing on the live site blocks indexing: robots allows every crawler, all 380 Decoder URLs are in its sitemap, each page returns 200 with `index, follow` and a correct canonical. Slow indexing comes from the site's age and authority on a sensitive (YMYL) topic, and from the sitemaps never having been submitted.
 - **Google Search Console and Bing Webmaster Tools:** verify the site and submit both sitemaps.
 - **Clinical review**, using the checklist. The reviewer's views are their own, never their employer's.
 - **Dataset with a DOI** (Zenodo or OSF). The licence is CC BY-NC-ND, so the owner decides whether to release the dataset under that licence or a looser one.
