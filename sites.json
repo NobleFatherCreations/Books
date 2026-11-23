@@ -13,6 +13,11 @@
     "version": "v19",
     "changelog": [
       {
+        "date": "2026-11-23",
+        "version": "v19",
+        "summary": "Who made this: Shae's full story on the homepage and at /about, with his Instagram, Threads and TikTok; the feedback link goes to TikTok."
+      },
+      {
         "date": "2026-11-21",
         "version": "v19",
         "summary": "robots.txt lists 17 sitemaps, llms.txt lists every chapter of all 14 books, Topics page gains the seal menu, homepage menu lists all 21 entries."
@@ -128,9 +133,9 @@
     ],
     "buildCommand": "python3 scripts/seo/build_home.py && python3 scripts/seo/build_site.py && python3 scripts/visit-counter.py hub/catalogue-redesign.html hub/topics.html hub/about.html",
     "lastDeploy": {
-      "id": "6b03cdefcbd0a87d8db830bc",
+      "id": "6b03e3e761fefb54341ba587",
       "date": "2026-11-23",
-      "verified": "share card = the owner brand header (design/brand/noble-father-header.png) at 1200x630; live identical"
+      "note": "Who made this: full bio on the homepage and /about; Person schema with Instagram/Threads/TikTok; llms.txt + sitemap; feedback link to TikTok. Byte-identical live; IndexNow 200."
     },
     "visitCounter": "Homepage only. Function /api/visits (hub/netlify/functions/visits.mjs) needs Netlify env var CF_API_TOKEN (saved by the owner as CF_API_TOKEN1; the function reads either) (Functions scope). scripts/visit-counter.py adds the counter to the homepage and the Cloudflare beacon to any page missing it; it is chained in buildCommand.",
     "buildNote": "v19 (2026-11-21, deployed): build ONLY with buildCommand (build_site.py writes the SEO head). build_site.py rewrites hub/og.png; restore with git checkout if the card is not meant to change. Test: node scripts/verify-hub.mjs http://127.0.0.1:8765/"

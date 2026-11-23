@@ -15,7 +15,7 @@ SRC = ROOT / "content/about.md"
 INSTAGRAM = "https://www.instagram.com/dapperdad_nfc/"
 THREADS = "https://www.threads.net/@dapperdad_nfc"
 TIKTOK = "https://www.tiktok.com/@noblefathercreatorsource"
-CONTACT = "https://ig.me/m/dapperdad_nfc"          # opens an Instagram direct message to the owner
+CONTACT = TIKTOK   # owner 2026-11-23: feedback goes to TikTok (Facebook Messenger once the link is sent)
 SOCIAL = [("Instagram", INSTAGRAM, "@dapperdad_nfc"), ("Threads", THREADS, "@dapperdad_nfc"), ("TikTok", TIKTOK, "@noblefathercreatorsource")]
 WORDMARK = '<img class="ab-wordmark" src="/media/v18/wordmark.webp" width="{w}" height="{h}" alt="Noble Father Creations" loading="lazy" decoding="async">'
 
