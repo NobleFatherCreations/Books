@@ -4,16 +4,18 @@ question: A simple abuse documentation template you can copy.
 seo: Abuse Documentation Template: The Four-Line Record
 short: This abuse documentation template has four lines per incident: when, what happened, who saw it, and what it changed. Fill it in the same day. Below it is a timeline page for when you need to show a lawyer, a court or the police the pattern.
 ---
-Use this abuse documentation template for every incident, however small.
+This is the abuse documentation template. Use it for every incident, even the ones that feel too small to bother with. The small ones are usually what makes the pattern.
 
 > Keep this somewhere they can't reach: a notebook away from home, or an account only you can open. See [Surveillance and technology](ch:surveillance-and-technology).
 
+::: sheet documentation
+
 ## The four-line entry
-Copy this for each incident.
+Copy this for each incident. Four lines, the same day, then put it away.
 
 **When:** (date, and time if you have it)
 
-**What happened:** (the act, in plain words: what was said or done)
+**What happened:** (what was said or done, in plain words)
 
 **Who saw it:** (a name, or "nobody")
 
@@ -21,16 +23,11 @@ Copy this for each incident.
 
 **Evidence:** (screenshot, photo, police reference number, if any)
 
-## A filled-in example
-**When:** Friday 7 March, 5:40pm
-
-**What happened:** Arrived 40 minutes late for handover. Said in front of the children, "Your mum made us wait again."
-
-**Who saw it:** The children; my neighbour Sam was outside.
-
-**What it changed:** Missed my evening shift; daughter cried at bedtime.
-
-**Evidence:** App message at 5:10pm saying "on my way."
+## What not to write
+- Insults, or guesses about their character. Stick to what happened.
+- Anything you'd squirm to hear a judge read out.
+- Plans to leave or move, if there's any chance they'll find the record.
+- Other people's private details beyond what's needed.
 
 ## The timeline page
 When you need to show the pattern, list every entry in date order, one line each:
@@ -43,19 +40,30 @@ When you need to show the pattern, list every entry in date order, one line each
 
 Then add one summary line at the top: what the pattern is, over what period, with a count. "Since the order on 4 June: 11 late handovers, 4 late payments, 63 messages outside the agreed app."
 
-[What to document and how](ch:what-to-document-and-how) explains why each part matters. *The Sovereign Divine Feminine* has an evidence routine in [Appendix B, Liberation Logistics](/feminine/liberation-logistics#top).
+:::
 
-## What not to write
-- Insults or speculation about their character. Stick to what happened.
-- Anything you'd be uncomfortable with a judge reading.
-- Plans to leave or move, if there's a chance they'll find the record.
-- Other people's private details beyond what's needed.
+## A filled-in example
+Here's one entry done properly. Notice how boring it is. Boring is exactly right.
+
+**When:** Friday 7 March, 5:40pm
+
+**What happened:** Arrived 40 minutes late for handover. Said in front of the children, "Your mum made us wait again."
+
+**Who saw it:** The children; my neighbour Sam was outside.
+
+**What it changed:** Missed my evening shift; daughter cried at bedtime.
+
+**Evidence:** App message at 5:10pm saying "on my way."
+
+[What to document and how](ch:what-to-document-and-how) explains why each line matters. *The Sovereign Divine Feminine* has an evidence routine in [Appendix B, Liberation Logistics](/feminine/liberation-logistics#top).
 
 ## Keeping it safe
-Keep the record where they can't find or delete it: a notebook kept away from home, an email account only you can open, or a cloud folder with a new password. Back it up. If you're worried someone might see it, give a copy to a trusted friend or advocate.
+Keep the record where they can't find it or delete it. That could be a notebook kept away from home, an email account only you can open, or a cloud folder with a new password. Back it up. If you're worried someone might see it, give a copy to a trusted friend or advocate.
 
 ## Turning it into a statement
-When you need it for a court or police statement, pull out the most important entries in date order, summarise the pattern in a paragraph, and attach evidence. A lawyer or advocate can help. Keep the original record as well.
+When a court or the police need a statement, pull out the most important entries in date order. Sum up the pattern in a short paragraph, and attach the evidence. A lawyer or advocate can help with this part. Keep the original record too.
+
+If they ever call your record "obsessive," look at what's in it: dates and facts, written calmly. That's all a record is.
 
 
 === safety-plan-worksheet
@@ -64,11 +72,13 @@ question: A safety plan worksheet for domestic violence, for life after leaving.
 seo: Safety Plan Worksheet for Domestic Violence (After Leaving)
 short: This safety plan worksheet for domestic violence is for the months after you leave. Fill it in on paper, then keep it hidden or in your head. If you're in danger now, call your emergency number first.
 ---
-This safety plan worksheet for domestic violence is for life after you've left.
+This safety plan worksheet for domestic violence is for life after you've left. What each part is for, and why, is in [A safety plan for after you've left](ch:a-safety-plan-for-after-youve-left).
 
 > If you're in danger now, call your emergency number. [If you're not safe right now](ch:if-youre-not-safe-right-now) has the numbers. If you're thinking about harming yourself, go to [When it's more than aftermath](ch:when-its-more-than-aftermath).
 
-> Fill this in on paper. Keep it hidden, with a friend, or memorise it. Don't keep it on a shared device.
+> Fill this in on paper. Keep it hidden, give it to a friend, or learn it by heart. Don't keep it on a shared device.
+
+::: sheet exit
 
 ## People
 - Two people I trust: ________ and ________
@@ -81,11 +91,16 @@ This safety plan worksheet for domestic violence is for life after you've left.
 - My lawyer or advocate: ________
 - A friend who can come at short notice: ________
 
-## Home
+## Getting out of home fast
 - Locks changed? ☐ Codes changed? ☐
 - My safest room, and how I get out of it: ________
 - Where I go if I have to leave fast: ________
 - Neighbour who knows to call for help: ________
+
+## Ready bag (kept at ________)
+☐ documents and court orders ☐ cash and card ☐ medicines ☐ charger ☐ spare keys ☐ written list of numbers
+
+:::
 
 ## Routes and routines
 - Usual routes I'll vary: ________
@@ -107,13 +122,10 @@ This safety plan worksheet for domestic violence is for life after you've left.
 - Email password changed, two-step login on? ☐
 - Location sharing off? ☐ Checked for trackers? ☐
 
-## Ready bag (kept at ________)
-☐ documents and court orders ☐ cash and card ☐ medicines ☐ charger ☐ spare keys ☐ written list of numbers
-
 ## High-risk days coming up
 - ________
 
-[A safety plan for after you've left](ch:a-safety-plan-for-after-youve-left) explains each section. [Warning signs to take seriously](ch:warning-signs-to-take-seriously) helps you judge the risk. *The Sovereign Divine Feminine* has a go-bag list for leaving in [Appendix B, Liberation Logistics](/feminine/liberation-logistics#top).
+[Warning signs to take seriously](ch:warning-signs-to-take-seriously) helps you judge how risky things are. *The Sovereign Divine Feminine* has a go-bag list for leaving in [Appendix B, Liberation Logistics](/feminine/liberation-logistics#top).
 
 === device-and-account-audit
 title: Device and account audit
@@ -121,59 +133,61 @@ question: How to check your phone for stalkerware, and every other way you might
 seo: How to Check Your Phone for Stalkerware: A Checklist
 short: This checklist shows how to check your phone for stalkerware, and goes through shared accounts, location sharing, trackers and home devices. Do it from a device your ex never touched, in a planned order, because sudden changes can alert someone who is watching.
 ---
-Here is how to check your phone for stalkerware, step by step, and everything else that can track you.
+Here's how to check your phone for stalkerware, step by step, plus the other ways you can be tracked. Use a device your ex has never touched.
 
-> If there's any risk of violence, plan the order with a domestic abuse service first. Removing tracking can alert the person watching.
+> Is there any risk of violence? Then plan the order with a domestic abuse service first. Removing tracking can alert the person watching.
 
 ## Accounts (start with email)
-☐ Email: new password, two-step login on, backup codes on paper
-☐ Apple ID or Google account: password, devices list, family sharing
-☐ Banking and payment apps
-☐ Social media: password, logged-in devices, location tags off, account private
-☐ Cloud photos and storage: shared albums removed
-☐ Shopping, food delivery, streaming, ride apps
-☐ Removed as trusted contact, recovery contact or family member everywhere
-☐ Security questions changed (to answers they can't guess)
+☐ Email: new password. Two-step login on. Backup codes written on paper.
+☐ Apple ID or Google account: new password. Check the devices list and family sharing.
+☐ Banking and payment apps.
+☐ Social media: new password. Check logged-in devices. Turn location tags off. Make the account private.
+
+## More accounts
+☐ Cloud photos and storage: shared albums removed.
+☐ Shopping, food delivery, streaming and ride apps. (Yes, the takeaway app too. It knows your address.)
+☐ Removed as a trusted contact, recovery contact or family member everywhere.
+☐ Security questions changed, to answers they can't guess.
 
 ## Location
-☐ iPhone: Settings → your name → Find My → who can see my location
-☐ Android: Google Maps → Location sharing; Settings → Google → Location
-☐ Life360, Snap Map, fitness and family apps checked
-☐ Car's own app checked
+☐ iPhone: Settings → your name → Find My. Check who can see your location.
+☐ Android: Google Maps → Location sharing. Then Settings → Google → Location.
+☐ Life360, Snap Map, fitness and family apps checked.
+☐ The car's own app checked.
 
 ## The phone itself
-☐ Apps list checked for anything I don't recognise
-☐ Apps with access to location, messages, microphone checked
-☐ Phone allows apps from outside the store? (if I didn't set that up, it's a warning sign)
-☐ Security app with stalkerware detection run
-☐ If anything found: photographed, not deleted yet, advice sought
+☐ Apps list checked for anything I don't know.
+☐ Apps that can reach location, messages or the mic checked.
+☐ Can the phone add apps from outside the store? If I didn't set that up, it's a warning sign.
+☐ A security app that finds stalkerware has been run.
+☐ If I find something: I photograph it, don't delete it yet, and get advice.
 
 ## Trackers
-☐ iPhone alerts for unknown AirTags noted
-☐ Android unknown tracker scan run (Settings → Safety and emergency)
-☐ Car checked: bumpers, wheel arches, under seats, boot, glovebox, OBD port
-☐ Bags, coats and children's belongings checked after visits
+☐ iPhone alerts about unknown AirTags noted.
+☐ Android scan for unknown trackers run (Settings → Safety and emergency).
+☐ Car checked: bumpers, wheel arches, under seats, boot, glovebox, OBD port.
+☐ Bags, coats and the children's things checked after visits.
 
 ## Home
-☐ Cameras, doorbells, speakers and thermostats reset or removed
-☐ Wi-Fi password changed; router admin password changed
+☐ Cameras, doorbells, speakers and thermostats reset or removed.
+☐ Wi-Fi password changed. Router admin password changed.
 
 ## Afterwards
-☐ Findings recorded. See [The record](ch:the-record).
-☐ Repeat after handovers if devices travel between homes
+☐ What I found written down. See [The record](ch:the-record).
+☐ Repeat after handovers if devices travel between homes.
 
-[Surveillance and technology](ch:surveillance-and-technology) explains each step. The Decoder describes the pattern in [monitoring and surveillance](/playbook/monitoring-surveillance). *The Sovereign Divine Feminine* covers phones as control in [The Digital Leash](/feminine/the-digital-leash#core-concept).
+[Surveillance and technology](ch:surveillance-and-technology) explains each step. The Decoder describes the pattern as [Monitoring & Surveillance](/playbook/monitoring-surveillance) (being watched). *The Sovereign Divine Feminine* covers phones as control in [The Digital Leash](/feminine/the-digital-leash#core-concept).
 
 ## If you find something
-If you find tracking software, a hidden device or someone logged into your account:
+Found tracking software, a hidden device, or someone logged into your account? Then:
 
-1. Pause before removing it. Removing it can alert them.
+1. Pause before you remove it. Removing it can alert them.
 2. Photograph or screenshot what you found.
-3. Talk to a domestic abuse service or police about the safest next step.
-4. Then remove it, change passwords from a safe device, and turn on two-step login.
+3. Ask a domestic abuse service or the police about the safest next step.
+4. Then remove it. Change passwords from a safe device, and turn on two-step login.
 
 ## Children's devices
-Check the children's phones, tablets, watches and games consoles too: location sharing, family accounts, apps you don't recognise. Do it with them where possible, calmly, without blaming them.
+Check the children's phones, tablets, watches and games consoles too. Look at location sharing, family accounts, and apps you don't know. Do it with them where you can. Keep it calm. Whatever turns up, it isn't their fault, and they need to hear you say so.
 
 
 === court-day-checklist
@@ -182,47 +196,57 @@ question: A family court checklist for before, during and after the hearing.
 seo: Family Court Checklist: Before, During and After
 short: This family court checklist covers the week before (protections, folder, plan), the day itself (what to bring and how to speak) and afterwards (the order, copies, safety). Print it or copy it into your phone.
 ---
-Use this family court checklist for any hearing.
+Use this family court checklist for any hearing. Print it or copy it into your phone.
 
-## The week before
-☐ Asked the court for protections: separate waiting room, screen or video link, separate entrance or times
-☐ Supporter arranged, and court asked if they can come in
-☐ Folder: documents in date order, timeline summary on top, key evidence flagged
-☐ List of the points I want to make, in order
-☐ Travel and parking planned; plan to leave without meeting them
-☐ Childcare arranged
-☐ Someone to check on me after
+::: sheet court
+
+## The week before: protections
+☐ I asked the court for protections. For example: a separate waiting room, a screen, a video link, or a separate way in or arrival time.
+☐ A supporter is booked. I asked the court if they can come in.
+
+## The week before: plans
+☐ My folder is ready. Papers in date order, timeline summary on top, key evidence marked.
+☐ I have a list of the points I want to make, in order.
+☐ Travel and parking planned. I have a plan to leave without meeting them.
+☐ Childcare sorted.
+☐ Someone will check on me after.
 
 ## What to bring
-☐ Folder and a spare copy of key documents
-☐ Notebook and pen
-☐ ID and the hearing letter
-☐ Water, snack, charger, something to read
-☐ Tissues
+☐ My folder, and a spare copy of the key papers.
+☐ Notebook and pen.
+☐ ID and the hearing letter.
+☐ Water, a snack, a charger, something to read. Hearings can run late.
+☐ Tissues.
 
 ## On the day
-☐ Arrive early; tell the usher about protections
-☐ Don't agree to anything outside the room I'm unsure of; ask for time
-☐ Speak slowly; answer the question asked; then stop
-☐ Facts, dates, effect on the children
-☐ If I freeze: ask for a moment, breathe, look at my notes
-☐ Speak only to the judge, not to them
+☐ Arrive early. Tell the usher (the staff member who calls cases in) about my protections.
+☐ Unsure about a deal offered outside the room? Don't agree. Ask for time.
+
+## In the room
+☐ Speak slowly. Answer the question asked. Then stop.
+☐ Stick to facts, dates, and the effect on the children.
+☐ If I freeze: ask for a moment, breathe, look at my notes.
+☐ Speak only to the judge, not to them.
 
 ## After
-☐ Copy of the order, or know when it arrives
-☐ Order read; dates and conditions checked
-☐ Copies to school and anyone who needs them
+☐ I have a copy of the order, or I know when it will arrive.
+☐ I've read the order and checked the dates and conditions.
+☐ Copies sent to school and anyone else who needs one.
 ☐ Safety plan updated for the next few days. See [A safety plan for after you've left](ch:a-safety-plan-for-after-youve-left).
-☐ Something gentle planned for myself
+☐ Something gentle planned for myself.
 
-[Your day in court](ch:your-day-in-court) explains each step, and [Family court, honestly](ch:family-court-honestly) gives the bigger picture.
+:::
+
+[Your day in court](ch:your-day-in-court) explains each step. [Family court, honestly](ch:family-court-honestly) gives the bigger picture.
 
 ## If you represent yourself
-- Read any guidance the court website offers for people without a lawyer.
-- Bring three copies of every document: one for you, one for the judge, one for the other side.
-- Write a short list of the points you want to make, and the order you'll make them in.
-- Ask the court about a support worker or a "McKenzie friend" (in England and Wales), who can sit with you and take notes.
-- If you don't understand something, say so and ask for it to be explained.
+- Read any guide the court website has for people without a lawyer.
+- Bring three copies of every paper: one for you, one for the judge, one for the other side.
+- Write a short list of the points you want to make, in the order you'll make them.
+- Ask the court about a support worker. In England and Wales, you can ask about a "McKenzie friend," who can sit with you and take notes.
+- If you don't understand something, say so. Ask for it to be explained.
+
+That last one feels hard in a courtroom. Ask anyway.
 
 
 === pocket-card-words-you-can-use
@@ -231,7 +255,7 @@ question: How to reply to an abusive ex, on one page.
 seo: How to Reply to an Abusive Ex: The Pocket Card
 short: How to reply to an abusive ex, in a few lines: keep it brief, factual, polite and final, and answer only what needs answering. These are the replies most people need most often.
 ---
-Not sure how to reply to an abusive ex? Start here.
+Not sure how to reply to an abusive ex? Start here. Screenshot it, so you're not writing a reply from scratch at midnight with your heart pounding.
 
 **Accusation:** "I don't agree with that. Pickup is still 5pm Friday."
 
@@ -259,6 +283,8 @@ Not sure how to reply to an abusive ex? Start here.
 
 **Before sending:** Would I be fine with a judge reading this? Then wait an hour.
 
+If they ever forward one of these to a court or your family, let them. Every line is short, polite and about the arrangements.
+
 More in [Words you can use](ch:words-you-can-use), [Messages you don't have to answer](ch:messages-you-dont-have-to-answer) and [Hoovering](ch:hoovering).
 
 === the-card
@@ -267,13 +293,13 @@ question: The whole book on one screen: a post-separation abuse summary.
 seo: Post-Separation Abuse Summary: The Whole Book on One Card
 short: A post-separation abuse summary on one screen: what's happening, how to stay safe, how to handle contact, how to use the systems, and how to look after yourself. Each line links to the chapter that explains it.
 ---
-This is the post-separation abuse summary: the whole book, one line at a time.
+This is the post-separation abuse summary: the whole book, one line at a time. Short on time, or on sleep? Read this, and tap the one line you need.
 
-**What's happening.** Leaving often changes the channel instead of ending the control: children, money, courts, other people, technology, and the return. [What post-separation abuse is](ch:what-is-post-separation-abuse).
+**What's happening.** Leaving often moves the control to new roads instead of ending it: children, money, courts, other people, technology, and the return. [What post-separation abuse is](ch:what-is-post-separation-abuse).
 
 **It often gets worse first.** Make a plan for the months after leaving. [A safety plan for after you've left](ch:a-safety-plan-for-after-youve-left).
 
-**Some signs mean act now.** Strangling, threats to kill, weapons, stalking, escalation. [Warning signs to take seriously](ch:warning-signs-to-take-seriously).
+**Some signs mean act now.** Strangling, threats to kill, weapons, stalking, things getting worse fast. [Warning signs to take seriously](ch:warning-signs-to-take-seriously).
 
 **Close the channels you can.** Accounts, location, trackers. [Surveillance and technology](ch:surveillance-and-technology).
 
@@ -281,7 +307,7 @@ This is the post-separation abuse summary: the whole book, one line at a time.
 
 **You don't owe a reply.** [Messages you don't have to answer](ch:messages-you-dont-have-to-answer).
 
-**They may come back when you're doing well.** [Hoovering](ch:hoovering).
+**They may come back when you're doing well.** Funny how that works. [Hoovering](ch:hoovering).
 
 **Write it down, the same day, in four lines.** [The record](ch:the-record).
 
@@ -289,11 +315,11 @@ This is the post-separation abuse summary: the whole book, one line at a time.
 
 **Legal help exists even with no money.** [Legal help with little or no money](ch:solicitors-legal-aid-and-no-money).
 
-**Missing them is the bond, not a sign.** [The trauma bond](ch:the-trauma-bond).
+**Missing them is the bond talking.** It says nothing about going back. [The trauma bond](ch:the-trauma-bond).
 
 **Your body is still on watch.** [What your nervous system is doing](ch:what-your-nervous-system-is-doing).
 
-**No timeline. No verdict.** [What "recovered" means](ch:what-recovered-actually-means).
+**Healing keeps no clock and hands out no grades.** [What "recovered" means](ch:what-recovered-actually-means).
 
 **Look something up.** [A to Z](ch:a-to-z) or [Questions people ask](ch:questions-people-ask).
 
@@ -305,61 +331,62 @@ question: Domestic abuse help near me: numbers and the words to search.
 seo: Domestic Abuse Help Near Me: Numbers and Where to Look
 short: Domestic abuse help near you is usually one phone call away. Here are national helplines for the US, UK, Canada, Australia and Ireland, crisis lines, specialist services, and the exact words to search to find local help anywhere else.
 ---
-Domestic abuse help near me: start with your country's national helpline below.
+Domestic abuse help near me: start with your country's helpline below. You can call for advice even if you're not sure it "counts."
 
-> In danger now: call your emergency number. Thinking about harming yourself: call a crisis line now, and see [When it's more than aftermath](ch:when-its-more-than-aftermath).
+> In danger now? Call your emergency number. Thinking about harming yourself? Call a crisis line now, and see [When it's more than aftermath](ch:when-its-more-than-aftermath).
 
 ## United States
-- Emergency: 911
-- National Domestic Violence Hotline: 1-800-799-7233, or text START to 88788
-- 988 Suicide and Crisis Lifeline: call or text 988
-- RAINN (sexual assault): 1-800-656-4673
-- love is respect (young people): 1-866-331-9474, or text LOVEIS to 22522
-- SAMHSA (drugs and alcohol): 1-800-662-4357
-- Legal help: LawHelp.org
+- Emergency: 911.
+- National Domestic Violence Hotline: 1-800-799-7233, or text START to 88788.
+- 988 Suicide and Crisis Lifeline: call or text 988.
+- RAINN (sexual assault): 1-800-656-4673.
+- love is respect (young people): 1-866-331-9474, or text LOVEIS to 22522.
+- SAMHSA (drugs and alcohol): 1-800-662-4357.
+- Legal help: LawHelp.org.
 
 ## United Kingdom
-- Emergency: 999 (can't speak? call from a mobile and press 55 when asked; say your location if you can)
-- National Domestic Abuse Helpline (England): 0808 2000 247
-- Scotland's Domestic Abuse and Forced Marriage Helpline: 0800 027 1234
-- Live Fear Free (Wales): 0808 80 10 800
-- Men's Advice Line: 0808 801 0327
-- Galop (LGBT+): 0800 999 5428
-- Karma Nirvana (honour-based abuse, forced marriage): 0800 5999 247
-- Rape Crisis (England and Wales): 0808 500 2222
-- National Stalking Helpline (Suzy Lamplugh Trust)
-- Revenge Porn Helpline
-- Samaritans: 116 123
+- Emergency: 999. Can't speak? Call from a mobile and press 55 when asked. Say where you are if you can.
+- National Domestic Abuse Helpline (England): 0808 2000 247.
+- Scotland's Domestic Abuse and Forced Marriage Helpline: 0800 027 1234.
+- Live Fear Free (Wales): 0808 80 10 800.
+- Men's Advice Line: 0808 801 0327.
+- Galop (LGBT+): 0800 999 5428.
+- Karma Nirvana (honour-based abuse, forced marriage): 0800 5999 247.
+- Rape Crisis (England and Wales): 0808 500 2222.
+- National Stalking Helpline (Suzy Lamplugh Trust).
+- Revenge Porn Helpline.
+- Samaritans: 116 123.
 
 ## Canada
-- Emergency: 911
-- Find a shelter: sheltersafe.ca
-- Connect to local services: 211
-- Crisis line: call or text 988
+- Emergency: 911.
+- Find a shelter: sheltersafe.ca.
+- Find local services: 211.
+- Crisis line: call or text 988.
 
 ## Australia
-- Emergency: 000
-- 1800RESPECT: 1800 737 732
-- Lifeline: 13 11 14
-- National Alcohol and Other Drug Hotline: 1800 250 015
-- eSafety Commissioner (image-based abuse): esafety.gov.au
+- Emergency: 000.
+- 1800RESPECT: 1800 737 732.
+- Lifeline: 13 11 14.
+- National Alcohol and Other Drug Hotline: 1800 250 015.
+- eSafety Commissioner (image-based abuse): esafety.gov.au.
 
 ## Ireland
-- Emergency: 112 or 999
-- Women's Aid: 1800 341 900
-- Men's Aid: 01 554 3811
-- Rape Crisis Centre: 1800 77 8888
-- Samaritans: 116 123
-- HSE Drugs and Alcohol Helpline: 1800 459 459
+- Emergency: 112 or 999.
+- Women's Aid: 1800 341 900.
+- Men's Aid: 01 554 3811.
+- Rape Crisis Centre: 1800 77 8888.
+- Samaritans: 116 123.
+- HSE Drugs and Alcohol Helpline: 1800 459 459.
 
 ## Anywhere else: what to search
+Type one of these into a search box. Swap in your country or town.
 - "[your country] domestic abuse helpline"
 - "[your country] emergency number"
 - "[your country] crisis line"
 - "[your area] legal aid domestic abuse"
 - "[your area] protective order"
 
-[Where to find the right body](ch:where-to-find-the-right-body) explains which agency does what.
+[Where to find the right body](ch:where-to-find-the-right-body) explains who does what.
 
 ## More countries
 - **New Zealand:** Women's Refuge crisis line, 0800 733 843. Shine, 0508 744 633. Family violence information line, 0800 456 450.
@@ -369,8 +396,8 @@ Domestic abuse help near me: start with your country's national helpline below.
 ## Help by need
 - **Men:** UK Men's Advice Line, 0808 801 0327. In the US, the National Domestic Violence Hotline helps everyone.
 - **LGBTQ+:** UK Galop, 0800 999 5428. Elsewhere, search "LGBTQ domestic violence [your area]."
-- **Older people:** UK Hourglass, 0808 808 8141, open day and night.
-- **Deaf people:** in the UK, SignHealth offers domestic abuse support in British Sign Language. In the US, the National Domestic Violence Hotline has options for Deaf callers; search "Deaf domestic violence hotline" for the current details.
+- **Older people:** UK Hourglass, 0808 808 8141. It's open day and night.
+- **Deaf people:** in the UK, SignHealth gives domestic abuse help in British Sign Language. In the US, the National Domestic Violence Hotline has ways for Deaf people to reach it. Search "Deaf domestic violence hotline" for the latest details.
 - **Young people:** US love is respect, 1-866-331-9474, or text LOVEIS to 22522. UK Childline, 0800 1111.
 
 ## Sources
@@ -384,91 +411,91 @@ question: What do these post-separation abuse terms mean?
 seo: Post-Separation Abuse Terms, A to Z
 short: The post-separation abuse terms people search for, from address confidentiality to vexatious litigant, each explained in a line or two, with a link to the chapter that covers it and, where there is one, the Pattern Decoder page.
 ---
-These are the post-separation abuse terms people search for, explained plainly.
+These are the post-separation abuse terms people search for, explained plainly. Did a word turn up in a message, a forum or a lawyer's letter? Look it up here, then follow the link.
 
-**Address confidentiality program.** A substitute address for public records, so an ex can't find you through them. [Your address, your records, your mail](ch:your-address-your-records-your-mail).
+**Address confidentiality program.** In most US states, a substitute address for state and local government records, such as voter registration. An ex can't find you through them. Mail goes on to your real address. [Your address, your records, your mail](ch:your-address-your-records-your-mail).
 
-**BIFF.** A way of replying to hostile messages: brief, informative, friendly, firm. [Words you can use](ch:words-you-can-use).
+**BIFF.** A way of replying to a hostile message, created by the lawyer and therapist Bill Eddy. It stands for Brief, Informative, Friendly and Firm: a few sentences, facts only, polite whatever you feel, closing the topic. [Words you can use](ch:words-you-can-use).
 
-**Blame-shifting.** Making you responsible for what they did. [Guilt and shame](ch:guilt-and-shame); Decoder: [blame-shifting](/playbook/blame-shifting).
+**Blame-shifting.** Making you responsible for what they did. [Guilt and shame](ch:guilt-and-shame); Decoder: [Blame-Shifting](/playbook/blame-shifting).
 
-**Breadcrumbing.** Small scraps of attention that keep you hoping, with nothing behind them. [Hoovering](ch:hoovering); Decoder: [breadcrumbing](/playbook/bread-crumbing).
+**Breadcrumbing.** Giving just enough attention to keep you hoping, like a like or a late-night "thinking of you," with nothing behind it. [Hoovering](ch:hoovering); Decoder: [Bread-crumbing](/playbook/bread-crumbing).
 
 **Cafcass.** The service in England that advises family courts about children, often by writing a report. [Family court, honestly](ch:family-court-honestly).
 
-**Clare's Law.** A scheme in the UK that lets you ask the police whether a partner has a history of abuse. [Police and reporting](ch:police-and-reporting).
+**Clare's Law.** The Domestic Violence Disclosure Scheme in England and Wales, which lets you ask the police whether someone has a history of abuse. Scotland and parts of Australia have similar schemes. [Police and reporting](ch:police-and-reporting).
 
-**Coerced debt.** Debt in your name that you didn't freely agree to. [Money as the channel](ch:money-as-the-channel); Decoder: [coerced debt](/playbook/coerced-debt).
+**Coerced debt.** Debt in your name that you didn't freely agree to. [Money as the channel](ch:money-as-the-channel); Decoder: [Coerced Debt](/playbook/coerced-debt).
 
-**Coercive control.** A pattern of behaviour that takes away someone's freedom and sense of self. A crime in some places. [What post-separation abuse is](ch:what-is-post-separation-abuse).
+**Coercive control.** A pattern of behaviour that takes away someone's freedom bit by bit. Think threats, monitoring, isolation, control of money and rules about daily life. It can happen with or without physical violence, and it's a crime in some places. [What post-separation abuse is](ch:what-is-post-separation-abuse); Decoder: [Coercive Control](/playbook/route-coercive-control).
 
 **Collect and Pay.** The UK Child Maintenance Service option where the service collects payments, so you don't deal with the other parent directly. [Money as the channel](ch:money-as-the-channel).
 
 **Complex PTSD.** A recognised condition linked to prolonged trauma, with lasting effects on emotions, self-worth and relationships. [What your nervous system is doing](ch:what-your-nervous-system-is-doing).
 
-**DARVO.** Deny, attack, reverse victim and offender. [When they say you're the abuser](ch:when-they-say-youre-the-abuser); Decoder: [DARVO](/playbook/darvo).
+**DARVO.** Deny, attack, reverse victim and offender. Someone called out on their behaviour denies it, attacks the person who raised it, then casts themselves as the real victim. [When they say you're the abuser](ch:when-they-say-youre-the-abuser); Decoder: [DARVO](/playbook/darvo).
 
 **DASH.** A checklist many UK services use to assess the risk of serious harm. [Why it often gets worse first](ch:why-it-often-gets-worse-first).
 
-**Discard.** Ending a relationship suddenly and coldly, often after blaming you for everything. [If they left you](ch:if-they-left-you); Decoder: [blame and discard](/playbook/blame-discard).
+**Discard.** Ending a relationship suddenly and coldly, often after blaming you for everything. [If they left you](ch:if-they-left-you); Decoder: [Blame Discard](/playbook/blame-discard).
 
 **Dissociation.** Feeling far away, numb or unreal, a survival response that can continue after leaving. [What your nervous system is doing](ch:what-your-nervous-system-is-doing).
 
-**Economic abuse.** Using money to control: restricting it, taking it, or running up debt. [Money as the channel](ch:money-as-the-channel); Decoder: [financial control](/playbook/financial-control).
+**Economic abuse.** Using money to control, punish or wear you down. It can look like late child support, debts in your name or hidden assets. [Money as the channel](ch:money-as-the-channel); Decoder: [Financial Control](/playbook/financial-control) (economic abuse).
 
 **EMDR.** Eye movement desensitisation and reprocessing, a therapy recommended for PTSD. [Finding a therapist who understands this](ch:finding-a-therapist-who-understands-this).
 
 **Fact-finding hearing.** A family court hearing that decides whether disputed allegations, such as abuse, happened, before deciding arrangements for children. [When they say you're the abuser](ch:when-they-say-youre-the-abuser).
 
-**Fawning.** Going along with someone to keep the peace, a survival response. [What your nervous system is doing](ch:what-your-nervous-system-is-doing); Decoder: [fawning](/playbook/fawning).
+**Fawning.** Going along with someone to keep the peace, a survival response. [What your nervous system is doing](ch:what-your-nervous-system-is-doing); Decoder: [Fawning](/playbook/fawning).
 
-**Flying monkeys.** People who carry an abuser's messages or pressure to you. [Your family and mutual friends](ch:your-family-and-mutual-friends); Decoder: [proxy recruitment](/playbook/flying-monkeys-proxy-recruitment).
+**Flying monkeys.** Friends, relatives or colleagues who end up doing an abusive person's work: passing on messages, gathering information about you, or applying pressure. The name comes from *The Wizard of Oz*. [Your family and mutual friends](ch:your-family-and-mutual-friends); Decoder: [Flying Monkeys / Proxy Recruitment](/playbook/flying-monkeys-proxy-recruitment).
 
-**Future faking.** Big promises about the future to pull you in or back. [Hoovering](ch:hoovering); Decoder: [future faking](/playbook/future-faking).
+**Future faking.** Big promises about the future, like moving, marriage or a baby, to pull you in or back. [Hoovering](ch:hoovering); Decoder: [Future Faking](/playbook/future-faking).
 
-**Gaslighting.** Making you doubt your memory or perception. [Memory, and doubting yourself](ch:memory); Decoder: [gaslighting](/playbook/gaslighting).
+**Gaslighting.** Making you doubt your own memory, perception or sanity, so their version of events wins. [Memory, and doubting yourself](ch:memory); Decoder: [Gaslighting](/playbook/gaslighting).
 
-**Grey rock.** Being as dull and unreactive as possible in necessary contact. [Grey rock and written-only contact](ch:grey-rock-and-written-only-contact).
+**Grey rock.** Making yourself as dull as a grey rock to someone who feeds on your reactions. Replies are short, flat, polite and factual, with nothing for them to grab. [Grey rock and written-only contact](ch:grey-rock-and-written-only-contact).
 
 **Guardian ad litem.** In the US, a person appointed to represent a child's interests in a court case; a custody evaluator plays a similar role. [Family court, honestly](ch:family-court-honestly).
 
 **Hague Convention.** An international agreement for returning children taken across borders without consent. [Moving, passports and travel with children](ch:moving-passports-and-travel-with-children).
 
-**Hoovering.** Trying to pull a former partner back into contact. [Hoovering](ch:hoovering); Decoder: [hoovering](/playbook/hoovering-relief-bait).
+**Hoovering.** When someone who hurt you tries to pull you back into contact after a break-up or a stretch of silence. Named after the vacuum cleaner, because it sucks you back in. It can arrive as an apology, an emergency, nostalgia or a gift. [Hoovering](ch:hoovering); Decoder: [Hoovering / Relief Bait](/playbook/hoovering-relief-bait).
 
-**Hypervigilance.** Staying on high alert after the danger has passed. [What your nervous system is doing](ch:what-your-nervous-system-is-doing).
+**Hypervigilance.** A state of constant alert after the danger has passed: scanning for threats, and reacting fast and hard to small things. [What your nervous system is doing](ch:what-your-nervous-system-is-doing).
 
 **IDVA.** Independent Domestic Violence Adviser: a UK specialist who supports people at higher risk and works with agencies for them. [Where to find the right body](ch:where-to-find-the-right-body).
 
-**Intermittent reinforcement.** Unpredictable warmth and cruelty, which builds a strong bond. [The trauma bond](ch:the-trauma-bond); Decoder: [push-pull](/playbook/intermittent-reinforcement-push-pull).
+**Intermittent reinforcement.** Warmth that comes and goes unpredictably, mixed with cruelty. It builds a stronger bond than steady kindness would. [The trauma bond](ch:the-trauma-bond); Decoder: [Intermittent Reinforcement / Push-Pull](/playbook/intermittent-reinforcement-push-pull) (hot and cold).
 
-**Intimate image abuse.** Sharing, or threatening to share, intimate images without consent. [Intimate images and online threats](ch:intimate-images-and-online-threats); Decoder: [intimate image abuse](/playbook/intimate-image-abuse).
+**Intimate image abuse.** Sharing, or threatening to share, intimate images without consent. [Intimate images and online threats](ch:intimate-images-and-online-threats); Decoder: [Intimate Image Abuse](/playbook/intimate-image-abuse).
 
-**Isolation.** Cutting someone off from friends and family. [Making new people from scratch](ch:making-new-people-from-scratch); Decoder: [isolation](/playbook/isolation).
+**Isolation.** Cutting someone off from friends and family. [Making new people from scratch](ch:making-new-people-from-scratch); Decoder: [Isolation](/playbook/isolation).
 
-**Legal abuse syndrome.** A popular term, not a diagnosis, for the stress caused by long or abusive court cases. [Systems abuse and litigation abuse](ch:systems-abuse); Decoder: [legal abuse](/playbook/legal-abuse).
+**Legal abuse syndrome.** A popular term, not a diagnosis, for the stress, anxiety and sense of injustice that long or abusive court cases can cause. The US family therapist Karin Huffer made it popular in 1995. [Systems abuse and litigation abuse](ch:systems-abuse); Decoder: [Legal Abuse](/playbook/legal-abuse).
 
 **Limerence.** An intense, obsessive longing for someone, which can sit alongside a trauma bond. [The trauma bond](ch:the-trauma-bond).
 
-**Litigation abuse.** Using courts to harass or wear someone down. [Systems abuse and litigation abuse](ch:systems-abuse); Decoder: [legal abuse](/playbook/legal-abuse).
+**Litigation abuse.** Using the courts to harass, control or wear down a former partner, often with repeated applications, delays and false allegations. In many places, courts can act once they see the pattern. [Systems abuse and litigation abuse](ch:systems-abuse); Decoder: [Legal Abuse](/playbook/legal-abuse) (litigation abuse).
 
-**Love bombing.** Overwhelming attention and affection early on, or on return. [Dating, when you're ready and when you're not](ch:dating-when-youre-ready-and-when-youre-not); Decoder: [love bombing](/playbook/love-bombing).
+**Love bombing.** Floods of attention, gifts and affection, very fast, early on or when they come back. [Dating, when you're ready and when you're not](ch:dating-when-youre-ready-and-when-youre-not); Decoder: [Love Bombing](/playbook/love-bombing).
 
 **MARAC.** A UK meeting where police, health, housing and support services plan together for someone at high risk. [Why it often gets worse first](ch:why-it-often-gets-worse-first).
 
 **McKenzie friend.** In England and Wales, a person who sits with you in court to support you and take notes when you don't have a lawyer. [Court-day checklist](ch:court-day-checklist).
 
-**Minimisation.** Making what happened sound smaller than it was. [Abuse, or a hard breakup?](ch:abuse-or-a-hard-breakup); Decoder: [minimization](/playbook/minimization).
+**Minimisation.** Making what happened sound smaller than it was. [Abuse, or a hard breakup?](ch:abuse-or-a-hard-breakup); Decoder: [Minimization](/playbook/minimization).
 
-**No contact.** No communication of any kind. [No contact, low contact, or contact you can't avoid](ch:no-contact-low-contact).
+**No contact.** Not communicating with them at all, in any way. [No contact, low contact, or contact you can't avoid](ch:no-contact-low-contact).
 
 **Non-molestation order.** A UK court order that stops someone using or threatening violence, harassing or intimidating you. [Protective orders](ch:police-and-protective-orders).
 
-**NPD.** Narcissistic personality disorder, a clinical diagnosis only a trained clinician can make. [Is my ex a narcissist?](ch:is-my-ex-a-narcissist).
+**NPD.** Narcissistic personality disorder, a clinical diagnosis only a trained clinician who assesses the person can make. [Is my ex a narcissist?](ch:is-my-ex-a-narcissist).
 
 **Occupation order.** A court order in England and Wales deciding who can live in the family home. [Still under the same roof](ch:still-under-the-same-roof).
 
-**Parallel parenting.** Raising children in two homes with minimal contact between parents. [Co-parenting or parallel parenting?](ch:co-parenting-or-parallel-parenting).
+**Parallel parenting.** Raising children across two homes when the parents can't work together safely. Each parent runs their own home. Contact is minimal and written, and a detailed plan settles the rest. [Co-parenting or parallel parenting?](ch:co-parenting-or-parallel-parenting).
 
 **Parental alienation.** A disputed term for one parent turning a child against the other. [Family court, honestly](ch:family-court-honestly).
 
@@ -476,45 +503,45 @@ These are the post-separation abuse terms people search for, explained plainly.
 
 **Planning Together for Children.** An online course the family court in England and Wales may refer parents to. [Co-parenting or parallel parenting?](ch:co-parenting-or-parallel-parenting).
 
-**Post-separation abuse.** Control, fear or punishment that continues after a relationship ends. [What post-separation abuse is](ch:what-is-post-separation-abuse).
+**Post-separation abuse.** When a former partner keeps trying to control, frighten or punish you after the relationship has ended, through the children, money, the courts, technology or other people. [What post-separation abuse is](ch:what-is-post-separation-abuse).
 
-**Power and Control Wheel.** A 1984 diagram from Duluth, Minnesota, showing the tactics of control; post-separation versions exist. [What post-separation abuse is](ch:what-is-post-separation-abuse).
+**Power and Control Wheel.** A 1984 diagram from Duluth, Minnesota, showing the everyday tactics of control as spokes around physical violence; post-separation versions exist. [What post-separation abuse is](ch:what-is-post-separation-abuse).
 
 **Prohibited steps order.** A court order in England and Wales that stops a parent doing something, such as taking a child abroad. [Moving, passports and travel with children](ch:moving-passports-and-travel-with-children).
 
-**Protective order.** A court order to stay away and stop contact. [Protective orders](ch:police-and-protective-orders).
+**Protective order.** A court order telling someone to stay away from you and stop contacting you. Most places offer emergency, temporary and longer-term orders, and the exact rules depend on where you live. [Protective orders](ch:police-and-protective-orders).
 
-**Reactive abuse.** A popular term for provoking someone until they react, then using the reaction against them. [When they say you're the abuser](ch:when-they-say-youre-the-abuser); Decoder: [baiting](/playbook/baiting).
+**Reactive abuse.** A popular term for provoking someone until they react, then using the reaction as proof that they're the abuser. [When they say you're the abuser](ch:when-they-say-youre-the-abuser); Decoder: [Baiting](/playbook/baiting) (reactive abuse).
 
-**Reproductive coercion.** Control over contraception, pregnancy or fertility. [If there was sexual abuse or reproductive coercion](ch:if-there-was-sexual-abuse); Decoder: [reproductive coercion](/playbook/reproductive-coercion).
+**Reproductive coercion.** Control over your fertility and reproductive choices, including contraception and pregnancy. [If there was sexual abuse or reproductive coercion](ch:if-there-was-sexual-abuse); Decoder: [Reproductive Coercion](/playbook/reproductive-coercion).
 
 **Sanctuary scheme.** Extra security fitted to your home so you can stay there safely. [Housing and benefits](ch:housing-and-benefits).
 
 **Shuttle mediation.** Mediation where you and your ex stay in separate rooms and the mediator moves between you. [Divorce and separation proceedings](ch:divorce-and-separation-proceedings).
 
-**Silent treatment.** Withdrawing communication as punishment. [Messages you don't have to answer](ch:messages-you-dont-have-to-answer); Decoder: [silent treatment](/playbook/withholding-silent-treatment).
+**Silent treatment.** Withdrawing communication as punishment. [Messages you don't have to answer](ch:messages-you-dont-have-to-answer); Decoder: [Withholding / Silent Treatment](/playbook/withholding-silent-treatment).
 
-**Smear campaign.** A sustained effort to damage your reputation. [The narrative campaign](ch:the-narrative-campaign); Decoder: [smear campaigns](/playbook/smear-campaigns).
+**Smear campaign.** A sustained effort to shape what other people think of you and of the separation. [The narrative campaign](ch:the-narrative-campaign); Decoder: [Smear Campaigns](/playbook/smear-campaigns).
 
 **Special measures.** Protections for witnesses in court, like screens or giving evidence by video. [Police and reporting](ch:police-and-reporting).
 
-**Stalking.** A pattern of unwanted pursuit that causes fear. [Stalking and harassment after a breakup](ch:stalking-and-harassment); Decoder: [location tracking](/playbook/location-tracking).
+**Stalking.** A pattern of unwanted pursuit that causes fear. [Stalking and harassment after a breakup](ch:stalking-and-harassment); Decoder: [Location Tracking](/playbook/location-tracking).
 
-**Stalkerware.** Hidden software that reports what you do on your phone. [Surveillance and technology](ch:surveillance-and-technology).
+**Stalkerware.** Software hidden on a phone to report what you do. [Surveillance and technology](ch:surveillance-and-technology).
 
 **Stockholm syndrome.** A bond with a captor, named after a 1973 bank siege. Related to a trauma bond, but not the same. [The trauma bond](ch:the-trauma-bond).
 
-**Stonewalling.** Refusing to engage, as a tactic. [Grey rock and written-only contact](ch:grey-rock-and-written-only-contact); Decoder: [stonewalling](/playbook/stonewalling).
+**Stonewalling.** Refusing to engage, as a tactic. [Grey rock and written-only contact](ch:grey-rock-and-written-only-contact); Decoder: [Stonewalling](/playbook/stonewalling).
 
 **StopNCII.** A free tool that helps block intimate images from being shared, without uploading them. [Intimate images and online threats](ch:intimate-images-and-online-threats).
 
-**Trauma bond.** A strong attachment to someone who hurt you, built by cycles of harm and warmth. [The trauma bond](ch:the-trauma-bond); Decoder: [trauma bonding](/playbook/trauma-bonding).
+**Trauma bond.** A strong emotional attachment to someone who hurts you, built when the harm comes in cycles with warmth in between. [The trauma bond](ch:the-trauma-bond); Decoder: [Trauma Bonding](/playbook/trauma-bonding).
 
-**Triangulation.** Bringing a third person in to unsettle or compete. [The new partner](ch:the-new-partner); Decoder: [triangulation](/playbook/triangulation).
+**Triangulation.** Bringing a third person in to unsettle you or make you compete. [The new partner](ch:the-new-partner); Decoder: [Triangulation](/playbook/triangulation).
 
 **VAWA.** The US Violence Against Women Act, which includes housing and immigration protections for survivors of any gender. [Housing and benefits](ch:housing-and-benefits).
 
-**Vexatious litigant.** Someone a court has restricted from filing repeated cases without permission. [Systems abuse and litigation abuse](ch:systems-abuse); Decoder: [legal abuse](/playbook/legal-abuse).
+**Vexatious litigant.** Someone a court has restricted from filing repeated cases without permission. [Systems abuse and litigation abuse](ch:systems-abuse); Decoder: [Legal Abuse](/playbook/legal-abuse).
 
 === questions-people-ask
 title: Questions people ask
@@ -522,83 +549,83 @@ question: The post-separation abuse questions people search for most, answered b
 seo: Post-Separation Abuse Questions, Answered
 short: The post-separation abuse questions people ask most, each with a short, plain answer and a link to the chapter with the full detail.
 ---
-These are the post-separation abuse questions people ask most.
+These are the post-separation abuse questions people ask most, usually typed into a search bar late at night. Each answer is short. The link takes you to the full chapter.
 
-**What is post-separation abuse?** Control, fear or punishment from a former partner that continues after the relationship ends, through children, money, courts, other people or technology. Read: [What post-separation abuse is](ch:what-is-post-separation-abuse).
+**What is post-separation abuse?** When a former partner keeps trying to control, frighten or punish you after the relationship has ended, through the children, money, the courts, technology or other people. [Read more](ch:what-is-post-separation-abuse).
 
-**Is post-separation abuse a crime?** Parts of it are crimes almost everywhere (threats, stalking, breaking an order), and coercive control itself is a crime in some places. Read: [What post-separation abuse is](ch:what-is-post-separation-abuse).
+**Is post-separation abuse a crime?** Some of it is, depending on where you live. Threats, stalking and breaking a court order are crimes almost everywhere, and coercive control itself is a crime in a growing number of places. [Read more](ch:what-is-post-separation-abuse).
 
-**Does post-separation abuse ever end?** For many people it fades or stops; for some it continues in a smaller form for years. Read: [When it stops](ch:when-it-stops).
+**Does post-separation abuse ever end?** For many people it fades or stops. For some it carries on in a smaller form for years. [Read more](ch:when-it-stops).
 
-**Is leaving the most dangerous time?** It can be, especially with a very controlling partner. Plan for safety. Read: [Why it often gets worse first](ch:why-it-often-gets-worse-first).
+**Is leaving the most dangerous time?** It can be, especially with a very controlling partner. Plan for your safety. [Read more](ch:why-it-often-gets-worse-first).
 
-**What is hoovering?** An attempt to pull you back into contact, often just as you're doing well. Read: [Hoovering](ch:hoovering).
+**What is hoovering?** When someone who hurt you tries to pull you back into contact, often just as you've started to feel steady. [Read more](ch:hoovering).
 
-**Will my ex come back?** Many do, at least once. You don't owe a reply. Read: [Hoovering](ch:hoovering).
+**Will my ex come back?** Many do, at least once. You don't owe them a reply. [Read more](ch:hoovering).
 
-**What is the difference between hoovering and breadcrumbing?** Hoovering pulls you back into contact; breadcrumbing keeps you hoping with scraps. Read: [Hoovering](ch:hoovering).
+**What is the difference between hoovering and breadcrumbing?** Hoovering pulls you back into contact. Breadcrumbing gives you just enough attention to keep you hoping. [Read more](ch:hoovering).
 
-**What is a trauma bond?** A strong attachment to someone who hurt you, built by cycles of harm and warmth. Read: [The trauma bond: why you miss someone who hurt you](ch:the-trauma-bond).
+**What is a trauma bond?** A strong emotional attachment to someone who hurts you, built when the harm comes in cycles with warmth in between. [Read more](ch:the-trauma-bond).
 
-**How long does a trauma bond last?** There's no fixed time; it usually weakens once contact stops, in waves. Read: [The trauma bond: why you miss someone who hurt you](ch:the-trauma-bond).
+**How long does a trauma bond last?** There's no reliable number. For most people the pull weakens once contact stops, and it fades in waves, flaring up on anniversaries. [Read more](ch:the-trauma-bond).
 
-**Is a trauma bond the same as Stockholm syndrome?** Related, not the same: Stockholm syndrome describes a short ordeal with a captor; a trauma bond grows inside a relationship. Read: [The trauma bond: why you miss someone who hurt you](ch:the-trauma-bond).
+**Is a trauma bond the same as Stockholm syndrome?** They're related but different. Stockholm syndrome describes a short ordeal with a captor; a trauma bond grows inside a relationship. [Read more](ch:the-trauma-bond).
 
-**What are examples of trauma bonding?** Feeling relief that feels like love after cruelty; defending them; unblocking them the same night. Read: [The trauma bond: why you miss someone who hurt you](ch:the-trauma-bond).
+**What are examples of trauma bonding?** Relief after cruelty that feels like love, defending them to friends, and unblocking them the same night you blocked them. [Read more](ch:the-trauma-bond).
 
-**Why do I miss my abuser?** Because the relationship wasn't only harm, and the bond was built strong. Missing isn't wanting back. Read: [What you're allowed to feel about someone you left](ch:what-youre-allowed-to-feel-about-someone-you-left).
+**Why do I miss my abuser?** Because the relationship wasn't only harm, and the bond was built strong. Missing someone isn't the same as wanting them back. [Read more](ch:what-youre-allowed-to-feel-about-someone-you-left).
 
-**Is my ex a narcissist?** Only a clinician can diagnose that, and you don't need a diagnosis to protect yourself. Read: [Is my ex a narcissist?](ch:is-my-ex-a-narcissist).
+**Is my ex a narcissist?** Only a clinician can diagnose that, and you don't need a diagnosis to protect yourself. [Read more](ch:is-my-ex-a-narcissist).
 
-**What do narcissists do after a breakup?** Common patterns: silence, a smear campaign, fast replacement, and a return. Read: [Is my ex a narcissist?](ch:is-my-ex-a-narcissist).
+**What do narcissists do after a breakup?** Whatever the diagnosis, common patterns are silence, a smear campaign, fast replacement, and a return. [Read more](ch:is-my-ex-a-narcissist).
 
-**Can you co-parent with a narcissist?** Usually not in the usual way; parallel parenting works better. Read: [Co-parenting or parallel parenting?](ch:co-parenting-or-parallel-parenting).
+**Can you co-parent with a narcissist?** Usually not in the usual way. Parallel parenting tends to work better. [Read more](ch:co-parenting-or-parallel-parenting).
 
-**What is parallel parenting?** Two homes, minimal written contact, and a detailed plan. Read: [Co-parenting or parallel parenting?](ch:co-parenting-or-parallel-parenting).
+**What is parallel parenting?** Two homes, each run its own way, with minimal written contact and a detailed plan that settles the rest. [Read more](ch:co-parenting-or-parallel-parenting).
 
-**Do I have to take a co-parenting class?** Many courts require one. If there was abuse, ask to attend separately. Read: [Co-parenting or parallel parenting?](ch:co-parenting-or-parallel-parenting).
+**Do I have to take a co-parenting class?** Sometimes. Many courts send separating parents on a course. If there was abuse, tell the court and ask to attend separately or online. [Read more](ch:co-parenting-or-parallel-parenting).
 
-**What is the grey rock method?** Short, flat, factual replies that give them nothing to react to. Not for every situation. Read: [Grey rock and written-only contact](ch:grey-rock-and-written-only-contact).
+**What is the grey rock method?** Short, flat, polite, factual replies that give them nothing to react to. It doesn't suit every situation. [Read more](ch:grey-rock-and-written-only-contact).
 
-**Should I respond to my ex?** Only when a message needs an answer: children, court, money with a deadline. Read: [Messages you don't have to answer](ch:messages-you-dont-have-to-answer).
+**Should I respond to my ex?** Only when a message needs an answer: the children, court, or money with a deadline. [Read more](ch:messages-you-dont-have-to-answer).
 
-**How do I document post-separation abuse?** Four lines, the same day: when, what, who saw it, what it changed. Read: [What to document and how](ch:what-to-document-and-how).
+**How do I document post-separation abuse?** Four lines, the same day: when, what happened, who saw it, and what it changed. [Read more](ch:what-to-document-and-how).
 
-**What is litigation abuse?** Using the courts to harass or exhaust you. Courts can limit it. Read: [Systems abuse and litigation abuse](ch:systems-abuse).
+**What is litigation abuse?** Using the courts to harass, control or wear you down. In many places, courts can limit it once they see the pattern. [Read more](ch:systems-abuse).
 
-**What is legal abuse syndrome?** A popular term, not a medical diagnosis, for the stress caused by abusive court cases. Read: [Systems abuse and litigation abuse](ch:systems-abuse).
+**What is legal abuse syndrome?** A popular term, not a medical diagnosis, for the stress that long or abusive court cases cause. [Read more](ch:systems-abuse).
 
-**Is coercive control grounds for divorce?** Most places now allow no-fault divorce, so you don't need grounds; the abuse can still matter for children and safety. Read: [Divorce and separation proceedings](ch:divorce-and-separation-proceedings).
+**Is coercive control grounds for divorce?** Most places now allow no-fault divorce, so you don't need grounds. The abuse can still matter for the children and your safety. [Read more](ch:divorce-and-separation-proceedings).
 
-**Where can I get free legal help?** Legal aid, domestic abuse legal services, law clinics and court help desks. Read: [Legal help with little or no money](ch:solicitors-legal-aid-and-no-money).
+**Where can I get free legal help?** It depends on where you live, but look for legal aid, domestic abuse legal services, law clinics and court help desks. [Read more](ch:solicitors-legal-aid-and-no-money).
 
-**How does a protective order work?** A court order to stay away and stop contact; breaking it can lead to arrest. Read: [Protective orders](ch:police-and-protective-orders).
+**How does a protective order work?** It's a court order telling someone to stay away and stop contact. The rules depend on where you live, and in many places breaking one can lead to arrest. [Read more](ch:police-and-protective-orders).
 
-**Can I report post-separation abuse to the police?** Yes. Describe the pattern and ask for a reference number. Read: [Police and reporting](ch:police-and-reporting).
+**Can I report post-separation abuse to the police?** Yes. Describe the pattern, and ask for a reference number. [Read more](ch:police-and-reporting).
 
-**What is reactive abuse?** Being provoked until you react, then having the reaction used against you. Read: [When they say you're the abuser](ch:when-they-say-youre-the-abuser).
+**What is reactive abuse?** Being provoked until you react, then having the reaction used as proof against you. [Read more](ch:when-they-say-youre-the-abuser).
 
-**Is my ex tracking me?** Check accounts, location sharing, your phone and your car, safely. Read: [Surveillance and technology](ch:surveillance-and-technology).
+**Is my ex tracking me?** Check your accounts, location sharing, your phone and your car, in a safe order. [Read more](ch:surveillance-and-technology).
 
-**What if my ex threatens to post pictures of me?** It's a crime in many places, and tools can block images from spreading. Read: [Intimate images and online threats](ch:intimate-images-and-online-threats).
+**What if my ex threatens to post pictures of me?** It's a crime in many places, and free tools can stop the images spreading. [Read more](ch:intimate-images-and-online-threats).
 
-**How do I explain the divorce to my child?** Simple, true facts for their age; not their fault; loved by both. Read: [Your children, and what to say](ch:your-children-and-what-to-say).
+**How do I explain the divorce to my child?** Simple, true facts for their age. It's not their fault, and they're loved by both of you. [Read more](ch:your-children-and-what-to-say).
 
-**How do I make handovers safe?** School handovers, a public place, a third person, or a contact centre. Read: [Handovers](ch:handovers).
+**How do I make handovers safe?** Use school handovers, a public place, a third person, or a contact centre. [Read more](ch:handovers).
 
-**Why can't I stop thinking about my ex?** Obsessive thoughts are part of the withdrawal from a trauma bond, and they ease with distance. Read: [Checking their profile](ch:checking-their-profile).
+**Why can't I stop thinking about my ex?** Obsessive thoughts are part of withdrawal from a trauma bond, and they ease with distance. [Read more](ch:checking-their-profile).
 
-**What should I expect after leaving an emotionally abusive relationship?** Self-doubt, missing them, jumpiness, tiredness and late anger are all common. Read: [Leaving was the middle](ch:leaving-was-the-middle).
+**What should I expect after leaving an emotionally abusive relationship?** Self-doubt, missing them, jumpiness, tiredness and late-arriving anger are all common. [Read more](ch:leaving-was-the-middle).
 
-**Do I have to forgive?** No. Forgiveness is a choice, not a requirement for healing. Read: [Closure you give yourself, and whether you have to forgive](ch:closure-and-forgiveness).
+**Do I have to forgive?** No. Forgiveness is a choice, and healing doesn't depend on it. [Read more](ch:closure-and-forgiveness).
 
-**How many times does it take to leave?** There's no single number; leaving more than once is common. Read: [If you go back](ch:if-you-go-back).
+**How many times does it take to leave?** There's no single number. Leaving more than once is common. [Read more](ch:if-you-go-back).
 
-**Will I ever be the same?** Not exactly, and much of you comes back, plus what you've learned. Read: [The version of you from before](ch:the-version-of-you-from-before).
+**Will I ever be the same?** Not exactly. Much of you comes back, plus what you've learned. [Read more](ch:the-version-of-you-from-before).
 
-**What does recovery look like?** Getting back choice and capacity, not never having a hard day. Read: [What “recovered” means](ch:what-recovered-actually-means).
+**What does recovery look like?** Getting back choice and capacity. Hard days still happen; they just stop running the show. [Read more](ch:what-recovered-actually-means).
 
-**How do I help a friend who left?** Believe them, follow their lead, and stay. Read: [Helping someone in year one](ch:helping-someone-in-year-one).
+**How do I help a friend who left?** Believe them, follow their lead, and stay. [Read more](ch:helping-someone-in-year-one).
 
 === for-professionals
 title: For professionals
@@ -606,10 +633,10 @@ question: A free post-separation abuse resource for advocates, therapists and la
 seo: Free Post-Separation Abuse Resource for Advocates
 short: The Long After is a free post-separation abuse resource for advocates, therapists, lawyers and anyone supporting survivors. You may print and share it freely with credit. Here is what it covers, which pages work best as handouts, and how to cite it.
 ---
-A free post-separation abuse resource for advocates, therapists, lawyers and anyone supporting survivors.
+A free post-separation abuse resource for advocates, therapists, lawyers and anyone supporting survivors. If you're the person someone rings at 2am, this is for you to hand on.
 
 ## What it is
-A free book on what happens after leaving an abusive relationship: post-separation abuse, safety after leaving, contact, courts and systems, children, feelings, health, and rebuilding. Every chapter opens with a short plain answer, lists its sources, and links to related chapters and to the [Pattern Decoder](/playbook), which names hundreds of tactics, one page each.
+A free book on what happens after leaving an abusive relationship: post-separation abuse, safety after leaving, contact, courts and systems, children, feelings, health, and rebuilding. Every chapter opens with a short plain answer and lists its sources. Each one links to related chapters and to the [Pattern Decoder](/playbook), which names hundreds of tactics, one page each.
 
 ## Pages that work as handouts
 - [The card](ch:the-card): the whole book on one screen
@@ -622,7 +649,7 @@ A free book on what happens after leaving an abusive relationship: post-separati
 - [Find help](ch:find-help)
 
 ## Sharing and licence
-The book is free to read and share under a Creative Commons licence (CC BY-NC-ND 4.0): share it with credit to Shae Stovell, don't sell it, and don't share edited copies. Link to the chapter page so readers always get the current version.
+The book is free to read and share under a Creative Commons licence (CC BY-NC-ND 4.0). Share it with credit to Shae Stovell, don't sell it, and don't share edited copies. Link to the chapter page, so readers always get the current version.
 
 ## How it's written
 - Answers first, in plain language, for readers in distress, often on a phone.
@@ -635,12 +662,12 @@ The book is free to read and share under a Creative Commons licence (CC BY-NC-ND
 Stovell, S. (2026). *The Long After: What happens once you've left* (2nd ed.). Noble Father Creations. noblefathercreations.com/longafter
 
 ## Corrections
-If you spot an error, especially in the legal notes or helpline numbers, please report it through the Noble Father Creations homepage. Corrections are made and dated.
+Spotted an error, especially in the legal notes or helpline numbers? Please report it through the Noble Father Creations homepage. Corrections are made and dated.
 
 ## Using it in sessions and groups
 - Share one chapter at a time, matched to what the person is facing.
-- The "Say" boxes work well as role-play material.
-- The record and safety plan worksheets can be filled in together.
+- The "Say" boxes work well for role-play.
+- The record and the safety plan worksheet can be filled in together.
 - Short answers can be read aloud at the start of a group.
 
 ## Citing the evidence
