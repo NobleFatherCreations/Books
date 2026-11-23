@@ -18,8 +18,8 @@ Started 2026-11-23. **Status:** done / waiting on the owner / not recommended.
 | Bing (which also feeds DuckDuckGo, Yahoo, Ecosia, ChatGPT search and Copilot) | **done** | IndexNow, 1,412 URLs, 200 |
 | Yandex | **done** | IndexNow, 202 |
 | Seznam, Naver, Yep | **done** | The IndexNow network (api.indexnow.org, 200) shares with all members |
-| Google (Search, AI Overviews, Gemini) | **verified already** (data since 2026-11-09; 419 pages had impressions by 2026-11-22, 345 of them Decoder pages) | The owner submits the 16 sitemaps in Search Console, under Sitemaps. |
-| Bing Webmaster Tools (reports, crawl control) | **waiting on the owner** | After Google: "Import from Google Search Console". No extra code needed. |
+| Google (Search, AI Overviews, Gemini) | **done** (verified since 2026-11-09; all 16 sitemaps submitted and read with Success, 2026-11-23) | Search Console |
+| Bing Webmaster Tools (reports, crawl control) | **done** (owner, 2026-11-23) | Site imported. All 16 sitemaps submitted. IndexNow shows 4.2K URLs received. Bing's one note: "lacks inbound links from high-quality domains" (fixed by section 6, not by the site). |
 | Yandex Webmaster, Naver Search Advisor | optional | Verification codes only. IndexNow already reaches them. |
 | Brave Search (which also feeds Claude's web search), Mojeek, Apple (Siri and Spotlight) | covered | They have no submission form. Their crawlers are allowed in robots.txt and discover the site through links. |
 | Baidu | not recommended | Needs a Chinese licence, and the audience isn't there. |
