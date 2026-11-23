@@ -342,26 +342,39 @@ Read `library/PSYCHOLOGIST-AUDIT.md` for the content findings,
 deliberately left, `library/DESIGN.md` for the design reasoning, and
 `library/BOOK-TEMPLATE-NOTES.md` for what book six must carry from the start.
 
-## longafter — The Long After **[confirmed, worked on directly]**
+## longafter — The Long After **[confirmed, worked on directly; v6 live 2026-11-23]**
 
-*"What happens once you have left."* 45 chapters, 7 movements, ~9.6k words.
-Post-separation abuse: the coercion changing channel rather than stopping,
-the systems (courts, documentation, housing, benefits), what the body is
-doing, and rebuilding over years. Sits after *Sovereign*, which ends at the
-door.
+*"What happens once you've left."* **v6:** 97 pages (3 start pages, 83 chapters in 11 parts, an 11-page Toolbox), about 105k words. It's built from `content/longafter-v2/*.md` by `scripts/seo/build_longafter_v2.py`. Post-separation abuse: control changing channel instead of stopping, safety, contact, courts and systems, children, feelings, body and health, people around you, rebuilding, and "the ledger".
 
-**Stance:** the most patient voice in the library. Its own brief: read
-slowly, re-read, "often opened at 2am." Never prescriptive about feelings,
-never a universal timeline.
+**Voice (owner, 2026-11-23):** "a best friend sending their bestie info that may help". Warm and straight-talking, with humour where it fits, never near safety content or inside honest checks. It's still never prescriptive about feelings or timelines. The binding brief is `content/longafter-v2/V6-WRITING-BRIEF.md`.
 
-**Design:** Newsreader, self-hosted. The loosest leading and most air of the
-five; movement breaks drawn as a horizon that fades out at both ends. The
-one book of the five that keeps a card grid — a held container is right
-here. Dusk/plum.
+**Structure every chapter carries:**
+- the short answer
+- question headings
+- one home definition per concept
+- `:::` blocks: scene (made-up example), honest check, decoder (They say / What it's doing / A reply you could send), action (one physical step of 3 minutes or less), bridge (to At Will, The Silence, The Repair or The Slow Take), and sheet (print)
+- a handoff line to what to read next
+- Sources
 
-**Reference adaptation:** Stripe Press cover moment ✅. Aeon measure ✅.
-Wait But Why contents ✅. No stance conflict — this book has no
-anti-gamification argument to violate, unlike Loop.
+Legal lines say where they apply.
+
+**Design (v6):** Dusk to first light. Each part is a later hour, from dusk violet with coral to dawn with gold, shown in a sky band, the accent and horizon rules. Direction A "Notes on the table" (warm cards, chat bubbles with Copy, a lamp-lit honest check, the index-card step), plus C's hour-tinted cover tiles. Fonts are BookDisplay and BookSerif only.
+
+**Shell (nothing stored):**
+- Just the steps toggle
+- progress bar and reading time
+- on-this-page menu
+- byline and author strip to /about
+- share line
+- discreet mode, off by default
+- Leave, also on Escape pressed twice
+- printable sheets
+- desktop rail and phone dock
+- real checkboxes
+
+Record: `library/longafter/DESIGN-STATE.md`. Guards: `design/longafter-v6/check-v6.mjs`.
+
+**Reference adaptation:** Stripe Press cover moment ✅. Aeon measure ✅. Wait But Why contents ✅. No anti-gamification stance; the progress bar is fine and stores nothing.
 
 ## silence — The Silence **[confirmed, worked on directly]**
 

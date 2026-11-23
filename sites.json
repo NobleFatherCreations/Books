@@ -994,7 +994,7 @@
         {
           "date": "2026-11-23",
           "version": "v6",
-          "summary": "Step 2 writing pass (best-friend voice, owner-approved) on all 97 pages: handoffs, closing action steps, decoder replies, GEO definitions, jurisdiction notes, weaponization counter-notes, sister-book bridges, steelman 3 + fact check. Design: direction A 'Notes on the table' + C cover tiles on Dusk to first light; shell (Just the steps toggle, progress, reading time, on-this-page, byline + author strip to /about, share line, discreet mode, Esc x2 Leave, print sheets, rail + dock, real checkboxes). FAQ schema restored. Not yet deployed."
+          "summary": "Step 2 writing pass (best-friend voice, owner-approved) on all 97 pages: handoffs, closing action steps, decoder replies, GEO definitions, jurisdiction notes, weaponization counter-notes, sister-book bridges, steelman 3 + fact check. Design: direction A 'Notes on the table' + C cover tiles on Dusk to first light; shell (Just the steps toggle, progress, reading time, on-this-page, byline + author strip to /about, share line, discreet mode, Esc x2 Leave, print sheets, rail + dock, real checkboxes). FAQ schema restored. Deployed 2026-11-23 (deploy 6b0461fd63d6756ab403bce1)."
         },
         {
           "date": "2026-11-22",
@@ -1026,8 +1026,8 @@
       "netlifyUrl": "https://noble-the-long-after.netlify.app/",
       "lastDeploy": {
         "date": "2026-11-23",
-        "deployId": "6b03cf4804b68a5fef8f7407",
-        "note": "v5 + card: whole brand header as background"
+        "deployId": "6b0461fd63d6756ab403bce1",
+        "note": "v6: best-friend rewrite of all 97 pages + Notes-on-the-table design and book shell. Live md5 = repo on 6 key pages (netlify + domain). IndexNow 99 URLs (200 x3)."
       },
       "workInProgress": {
         "what": "Expansion to roughly double (owner, 2026-11-22): outline every chapter, write part by part, then voice audit, no-AI-slop, steelman, fact check, pipeline; design only after the writing is audited; deploy only on the owner's words.",
