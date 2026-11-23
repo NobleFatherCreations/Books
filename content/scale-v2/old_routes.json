@@ -39,6 +39,8 @@
   "37": "when-weighing-stops",
   "38": "trust-as-a-skill-you-rebuild"
  },
- "card": "field-card",
- "limits": "limits"
+ "routes": {
+  "card": "field-card",
+  "limits": "limits"
+ }
 }

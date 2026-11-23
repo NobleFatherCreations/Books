@@ -11,6 +11,12 @@
       "source": "content/longafter-v2",
       "built": "library/longafter",
       "countries": ["US", "UK", "Ireland", "Canada", "Australia"]
+    },
+    "scale": {
+      "title": "The Weighing",
+      "source": "content/scale-v2",
+      "built": "library/scale",
+      "countries": ["US", "UK", "Ireland", "Canada", "Australia"]
     }
   }
 }

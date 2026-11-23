@@ -130,7 +130,7 @@ def decoder_index():
     for f in sorted(site.glob("*.html")):
         if f.name in ("index.html", "tactics.html") or f.name.startswith("line-"):
             continue
-        t = re.search(r"<title>(.*?):", S.read(f))
+        t = re.search(r"<title>(.*?)(?::|</title>)", S.read(f))
         if t:
             pages[f"/playbook/{f.stem}"] = _h.unescape(t.group(1)).strip()
     pats = []

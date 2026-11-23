@@ -153,6 +153,11 @@ def md(body):
             items = []
             while i < len(lines) and (re.match(r"^\s*- ", lines[i]) or lines[i].startswith("☐")):
                 items.append(lines[i]); i += 1
+            if stack and stack[-1] == "sort":   # "- item || answer": the answer stays behind a tap (recall before reveal)
+                items = [re.sub(r"^\s*- ", "", x).split(" || ", 1) for x in items]
+                out.append('<ul class="sort">' + "".join(
+                    f'<li><details><summary>{inline(q[0])}</summary><p>{inline(q[1])}</p></details></li>' if len(q) == 2
+                    else f"<li>{inline(q[0])}</li>" for q in items) + "</ul>"); continue
             lis = "".join(f'<li class="check"><label><input type="checkbox"><span>{inline(x[1:].lstrip())}</span></label></li>' if x.startswith("☐") else f"<li>{inline(re.sub(r'^\s*- ', '', x))}</li>" for x in items)
             out.append(f'<ul{" class=\"checks\"" if items[0].startswith("☐") else ""}>{lis}</ul>'); continue
         if re.match(r"^\d+\. ", ln):
