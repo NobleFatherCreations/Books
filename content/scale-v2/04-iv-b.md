@@ -122,7 +122,7 @@ If someone hands you this chapter to prove you're the difficult one, reread [Thi
 The audience test is for working out what's happening. It isn't a reason to stay longer while you collect results. If you're afraid of them, stop collecting and go to [When weighing stops](ch:when-weighing-stops).
 
 ::: bridge atwill:index
-If the place you're weighing is a job, with a manager who is charming in the all-staff meeting and vicious in one-to-ones, [At Will](/atwill/) applies the same tests to work.
+If the place you're weighing is a job, with a manager who is charming in the all-staff meeting and vicious in one-to-ones, [At Will](/atwill) applies the same tests to work.
 :::
 
 ::: try Try it tonight
@@ -481,7 +481,7 @@ Here's the good news, and it's substantial. With a person, you're often stuck gu
 This is a completely different evidence situation from anything else in this book, and it's under-used because people don't know the documents exist. A letter that quotes an organisation's own complaints policy back to it, with the dates it missed, reads very differently on their side from a letter about how upset you are. Both are true. One of them has page numbers.
 
 ::: bridge faith:index
-For religious institutions in depth, [The Sacred Divide](/faith/) weighs 34 faith traditions on what can be checked from public sources: published accounts, leaders' pay, safeguarding policy, whether the police are called first, and how a leader can be removed.
+For religious institutions in depth, [The Sacred Divide](/faith) weighs 34 faith traditions on what can be checked from public sources: published accounts, leaders' pay, safeguarding policy, whether the police are called first, and how a leader can be removed.
 :::
 
 ## Is HR on my side?
