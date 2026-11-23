@@ -18,7 +18,7 @@ Started 2026-11-23. **Status:** done / waiting on the owner / not recommended.
 | Bing (which also feeds DuckDuckGo, Yahoo, Ecosia, ChatGPT search and Copilot) | **done** | IndexNow, 1,412 URLs, 200 |
 | Yandex | **done** | IndexNow, 202 |
 | Seznam, Naver, Yep | **done** | The IndexNow network (api.indexnow.org, 200) shares with all members |
-| Google (Search, AI Overviews, Gemini) | **waiting on the owner** | Google has no ping, so Search Console is the only way. See "What I need". |
+| Google (Search, AI Overviews, Gemini) | **verified already** (data since 2026-11-09; 419 pages had impressions by 2026-11-22, 345 of them Decoder pages) | The owner submits the 16 sitemaps in Search Console, under Sitemaps. |
 | Bing Webmaster Tools (reports, crawl control) | **waiting on the owner** | After Google: "Import from Google Search Console". No extra code needed. |
 | Yandex Webmaster, Naver Search Advisor | optional | Verification codes only. IndexNow already reaches them. |
 | Brave Search (which also feeds Claude's web search), Mojeek, Apple (Siri and Spotlight) | covered | They have no submission form. Their crawlers are allowed in robots.txt and discover the site through links. |
@@ -71,11 +71,7 @@ Started 2026-11-23. **Status:** done / waiting on the owner / not recommended.
 | LinkedIn Post Inspector | optional | Same idea. Needs a login. |
 
 ## What I need from the owner
-1. **Google Search Console.**
-   - Add the property `https://noblefathercreations.com` (choose "URL prefix").
-   - Pick the **HTML file** method. Send me the file name Google shows (like `google1a2b3c4d5e6f.html`).
-   - I put it on the site, deploy only the homepage site, and you click Verify.
-   - Then I give you the 17 sitemap addresses to submit.
+1. **Google Search Console** is already verified, so no file is needed. Submit the 16 sitemaps under Sitemaps. The 17th (Fractal entertainment) is broken live, so skip it.
 2. **Bing Webmaster Tools.** After Google, choose "Import from Google Search Console". Nothing to send me.
 3. **Your public profile links**, for `sameAs`: Facebook page, TikTok, Instagram, YouTube, GitHub and any others you want tied to Shae Stovell and Noble Father Creations.
 4. **Which accounts you'll make:** Internet Archive, Open Library, Goodreads, Zenodo, ORCID, Curlie. For each, I prepare everything so it's paste-and-submit.
