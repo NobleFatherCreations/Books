@@ -145,6 +145,15 @@ body{position:relative}body .nf-seal{animation:none!important;position:absolute!
 .go{position:relative;padding-right:56px;transition:transform .16s ease-out,filter .2s ease}.go::after{content:"\\2192";position:absolute;right:20px;top:50%;transform:translateY(-50%);font:800 1.25rem/1 var(--sign)}
 @media (hover:hover){.go:hover{filter:brightness(1.04)}.row:hover b{text-decoration:underline;text-underline-offset:.2em}}@media (prefers-reduced-motion:no-preference){.go:active{transform:scale(.98)}}
 .row .code{font-variant-numeric:tabular-nums;letter-spacing:.04em}
+.more{margin:12px 0 0;border-radius:14px;background:var(--panel)}.more summary{cursor:pointer;min-height:48px;display:flex;align-items:center;gap:12px;padding:12px 16px;font:800 1.0625rem/1.25 var(--sign);list-style:none}
+.more summary::-webkit-details-marker{display:none}.more summary::after{content:"+";margin-left:auto;font:800 1.25rem/1 var(--sign);color:var(--fg-2)}.more[open] summary::after{content:"\\2212"}
+.more>div{padding:0 16px 16px}.more>div p:last-child{margin:0}.more.sm{background:none;margin:0}.more.sm summary{padding:8px 0;font:700 .9375rem/1.3 var(--sign);color:var(--fg-2);min-height:44px}.more.sm ul{list-style:none;padding:0;margin:0}
+.help{margin:12px 0 0!important}.help a{font:700 1rem/1.4 var(--sign);display:inline-flex;min-height:44px;align-items:center}
+.src{list-style:none!important;padding:0!important}.src li{padding-left:0!important}.src li::before{display:none!important}.src a{font-weight:700;white-space:nowrap}
+.lab{display:inline-block;font:700 .75rem/1.3 var(--sign);letter-spacing:.06em;text-transform:uppercase;color:var(--fg-2);box-shadow:inset 0 0 0 1px var(--rule-hi);border-radius:6px;padding:2px 6px;margin:0 8px 4px 0;vertical-align:middle}
+.steps{list-style:none;padding:0;margin:0 0 32px;counter-reset:st}.steps li{counter-increment:st;position:relative}.steps .row{padding-left:2.25rem}.steps li::before{content:counter(st);position:absolute;left:0;top:16px;font:800 .9375rem/1 var(--sign);color:var(--fg-2)}
+.upd{margin:32px 0 0;color:var(--fg-2);font-size:.9375rem}.upd a{display:inline-flex;min-height:44px;align-items:center}
+@media print{.more{background:none}.more>div{display:block}}
 """
 
 LEAVE_JS = ("<script>document.getElementById('leave').addEventListener('click',function(){document.title='Weather';"
@@ -156,7 +165,8 @@ OG_IMAGE = "https://noblefathercreations.com/playbook/f/og.png"
 DATE = ""
 
 
-def frame(title, desc, url, ld, body, house, beacon, extra_head=""):
+def frame(title, desc, url, ld, body, house, beacon, extra_head="", og=None):
+    og = og or OG_IMAGE
     for node in ld.get("@graph", []):          # freshness signal for search engines and AI crawlers
         if node.get("@type") in ("WebPage", "CollectionPage"): node.setdefault("dateModified", DATE)
     return ("<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n"
@@ -164,9 +174,9 @@ def frame(title, desc, url, ld, body, house, beacon, extra_head=""):
             "<title>%s</title>\n<meta name=\"description\" content=\"%s\">\n<link rel=\"canonical\" href=\"%s\">\n"
             "<meta property=\"og:type\" content=\"article\">\n<meta property=\"og:site_name\" content=\"Noble Father Creations\">\n"
             "<meta property=\"og:title\" content=\"%s\">\n<meta property=\"og:description\" content=\"%s\">\n<meta property=\"og:url\" content=\"%s\">\n"
-            "<meta property=\"og:image\" content=\"" + OG_IMAGE + "\">\n<meta property=\"og:image:width\" content=\"1200\">\n<meta property=\"og:image:height\" content=\"630\">\n"
-            "<meta property=\"og:image:alt\" content=\"Pattern Decoder: put a name to what is happening\">\n"
-            "<meta name=\"twitter:card\" content=\"summary_large_image\">\n<meta name=\"twitter:image\" content=\"" + OG_IMAGE + "\">\n"
+            "<meta property=\"og:image\" content=\"%s\">\n<meta property=\"og:image:width\" content=\"1200\">\n<meta property=\"og:image:height\" content=\"630\">\n"
+            "<meta property=\"og:image:alt\" content=\"%s\">\n"
+            "<meta name=\"twitter:card\" content=\"summary_large_image\">\n<meta name=\"twitter:image\" content=\"%s\">\n"
             "<meta name=\"robots\" content=\"index, follow, max-snippet:-1, max-image-preview:large\">\n"
             "<meta name=\"theme-color\" content=\"#050507\" media=\"(prefers-color-scheme: dark)\">\n"
             "<meta name=\"theme-color\" content=\"#FBFAF7\" media=\"(prefers-color-scheme: light)\">\n"
@@ -179,15 +189,17 @@ def frame(title, desc, url, ld, body, house, beacon, extra_head=""):
             "%s\n"
             "<footer class=\"foot\"><p>A reading aid, not a diagnosis, a legal opinion or therapy. If you are in danger, contact emergency services. "
             "Press Escape twice, or the green Leave button, to leave this site quickly.</p><p class=\"lic\">" + LICENSE + "</p>"
-            "<nav aria-label=\"More\"><a href=\"/playbook\">Open the Pattern Decoder</a><a href=\"/playbook/tactics\">Every tactic</a><a href=\"/playbook/patterns\">Patterns</a>"
+            "<nav aria-label=\"More\"><a href=\"/playbook\">Open the Pattern Decoder</a><a href=\"/playbook/tactics\">Every tactic</a><a href=\"/playbook/patterns\">Patterns</a><a href=\"/playbook/routes\">Routes</a><a href=\"/playbook/about-this-guide\">How this guide is made</a>"
             "<a href=\"/playbook#/safety\">Use this safely</a><a href=\"/\">Noble Father Creations</a></nav></footer>\n"
             "%s\n%s\n%s\n</body>\n</html>\n") % (
-        esc(title), esc(desc), url, esc(title), esc(desc), url, extra_head, CSS_FINAL, json.dumps(ld, ensure_ascii=False).replace("</", "<\\/"),
+        esc(title), esc(desc), url, esc(title), esc(desc), url, og, esc(title if og != OG_IMAGE else "Pattern Decoder: put a name to what is happening"), og, extra_head, CSS_FINAL, json.dumps(ld, ensure_ascii=False).replace("</", "<\\/"),
         body, house, LEAVE_JS, beacon)
 
 
 CSS_FINAL = ""
-BOOKREFS = {}   # v20: decoder slug -> [(book, chapter title, url)], set by the build
+BOOKREFS = {}   # decoder slug -> [(book, chapter title, url, score)], set by the build
+RECIPES = []    # routes (combos), set by the build
+STAMP = None    # decoder_v21.stamp, set by the build
 LICENSE = ("\u00a9 2026 Shae Stovell \u00b7 Free forever. Share it freely with credit, under "
            "<a href=\"https://creativecommons.org/licenses/by-nc-nd/4.0/\" rel=\"license\">CC BY-NC-ND 4.0</a> (no selling, no edited copies).")
 PERSON = {"@type": "Person", "name": "Shae Stovell", "alternateName": "Dapper Dad", "url": "https://noblefathercreations.com/"}
@@ -213,12 +225,60 @@ def crumbs_ld(items):
                                                             for i, (n, u) in enumerate(items)]}
 
 
-# ---------- the three kinds of page ----------
+# ---------- v21 helpers ----------
+RESEARCH = {}      # entry name -> [{cite, url, label}], verified by scripts/decoder-sources.py
+PARENTS = {}       # tactic -> patterns it is part of
+ROUTES = {}        # tactic -> [(route, index)]
+HELP_URL = "/longafter/if-youre-not-safe-right-now"
+TOKEN = "%%LASTMOD%%"
+
+
+def page_title(n, pt):
+    """Search phrase kept where it fits in 60 characters; the brand goes first (search engines show the site name anyway)."""
+    tiers = ([": What It Is Made Of and What to Do", ": Signs and What to Do"] if pt and pt["type"] != "effect"
+             else [": Signs, Examples and What to Do", ": Signs and What to Do"])
+    for t in [n + x for x in tiers]:
+        if len(t) <= 60: return t
+    return n
+
+
+def items(v):
+    return v if isinstance(v, list) else ([v] if v else [])
+
+
+def text_of(v):
+    return " ".join(items(v))
+
+
+def details(title, body):
+    return '<details class="more"><summary>%s</summary><div>%s</div></details>' % (title, body) if body else ""
+
+
+def cite_html(c):
+    t = re.sub(r"\*([^*]+)\*", r"<i>\1</i>", esc(c["cite"]))
+    return '<li><span class="lab">%s</span>%s <a href="%s" rel="noopener">%s</a></li>' % (
+        esc(c["label"]), t, esc(c["url"]), "Read it" if "doi.org" in c["url"] else "Book record")
+
+
+def book_rows(s):
+    refs = BOOKREFS.get(s, [])
+    out = []
+    for bk in dict.fromkeys(r[0] for r in refs):
+        mine = [r for r in refs if r[0] == bk]
+        best = max(mine, key=lambda r: r[3])
+        rest = [r for r in mine if r is not best]
+        out.append('<div class="bref"><p class="bk">%s</p><ul><li><a href="%s">%s</a></li></ul>%s</div>' % (
+            esc(bk), best[2], H(best[1]),
+            ('<details class="more sm"><summary>More from this book (%d)</summary><ul>%s</ul></details>' % (
+                len(rest), "".join('<li><a href="%s">%s</a></li>' % (u, H(t)) for b, t, u, sc in rest))) if rest else ""))
+    return "".join(out)
+
+
 def tactic_page(e, l, si, by, line_of, house, beacon):
     f, n, s = e["f"], e["n"], e["s"]
     url = SITE + "/" + s
     pt = e.get("pt")
-    title = n + (": What It Is, What It Is Made Of and What to Do" if pt and pt["type"] != "effect" else ": Signs, Examples and What to Do") + " \u00b7 Pattern Decoder"
+    title = page_title(n, pt)
     desc = clip("What is " + n + "? " + f["short_definition"], 160)
     order = l["order"]
     prev = by[order[si - 1]] if si > 0 else None
@@ -228,62 +288,155 @@ def tactic_page(e, l, si, by, line_of, house, beacon):
     resp = "".join("<h3>%s</h3><p>%s</p>" % (h, H(f["response_options"][k]))
                    for k, h in RESP if (f.get("response_options") or {}).get(k))
     script = re.sub(r"^Verification script[^:]*:\s*", "", str(f.get("boundary_script") or ""), flags=re.I)
-    other = (f.get("this_may_not_be_it_when") or []) + (f.get("less_concerning_if") or [])
+    other = items(f.get("this_may_not_be_it_when")) + items(f.get("less_concerning_if"))
+    signs = items(f.get("this_may_be_it_when"))
+    row = lambda m: '<a class="row" href="/playbook/%s" data-g="%s">%s<span><b>%s</b><small>%s</small></span></a>' % (
+        by[m]["s"], by[m]["g"], bullet(line_of[by[m]["g"]], "sm"), H(m), H(clip(by[m]["f"]["short_definition"], 120)))
     ptsec = (('<section class="pattern" aria-labelledby="pt"><h2 id="pt">A pattern, not a single move</h2><p>%s is %s.%s</p>%s</section>') % (
             H(n), PT_LABEL.get(pt["type"], "a pattern"),
             (" It is made of these tactics" + (", usually in this order:" if pt["seq"] else ":")) if pt["made_of"] else " The tactics below can lead to it.",
-            '<div class="rows">%s</div>' % "".join('<a class="row" href="/playbook/%s" data-g="%s">%s<span><b>%s</b><small>%s</small></span></a>' % (
-                by[m]["s"], by[m]["g"], bullet(line_of[by[m]["g"]], "sm"), H(m), H(clip(by[m]["f"]["short_definition"], 120)))
-                for m in (pt["made_of"] or e["rel"]) if m in by)) if pt else "")
+            '<div class="rows">%s</div>' % "".join(row(m) for m in (pt["made_of"] or e["rel"]) if m in by)) if pt else "")
+    fair = "".join("<h3>%s</h3>%s" % (h, ul(items(f.get(k)))) for h, k in (
+        ("What it is not", "what_it_is_not"), ("Ordinary explanations to rule out first", "innocent_or_ordinary_possibilities"),
+        ("Common false alarms", "common_false_positives"), ("More worrying if", "more_concerning_if"),
+        ("Signs it has become a pattern", "pattern_over_time_signs")) if items(f.get(k)))
+    deeper = "".join(details(h, prose(text_of(f.get(k)))) for h, k in (
+        ("How it works on the mind", "psychological_mechanism"), ("How it can affect the person on the receiving end", "possible_impact_on_receiver"),
+        ("What real repair would look like", "repair_check"), ("Are your limits respected?", "boundary_respect_check")) if f.get(k))
+    ups = [m for m in PARENTS.get(n, []) if m in by]
+    rts = sorted(ROUTES.get(n, []), key=lambda x: (-len(x[0]["c"]), x[0]["n"]))[:4]
+    rt_html = "".join('<a class="row" href="/playbook/route-%s"><span><b>%s</b><small>%s</small></span></a>' % (
+        r["s"], H(r["n"]), H(" \u00b7 ".join(x for x in (("Before it: " + r["c"][i - 1]) if i > 0 else "", ("Next: " + r["c"][i + 1]) if i + 1 < len(r["c"]) else "") if x)))
+        for r, i in rts)
+    research = RESEARCH.get(n, [])
     body = (
         '<main class="view" data-g="%s"><article aria-labelledby="h">' % l["k"] +
         '<nav class="crumbs" aria-label="You are here"><a href="/playbook">Pattern Decoder</a> \u203a <a href="/playbook/line-%s">%s</a></nav>' % (l["k"], esc(l["label"])) +
         '<header><div class="sign">%s<div><h1 id="h">%s</h1>%s</div></div>' % (bullet(l), H(n), '<p class="sub">%s</p>' % H(e["sub"]) if e["sub"] else "") +
         '<p class="onl">Station %d of %d on the %s line.</p><p class="meta"><span>Code %s</span>%s</p></header>' % (si + 1, len(order), esc(l["label"]), code(l, si + 1),
             "".join("<span>%s</span>" % x for x in (["Stage: " + esc(e["std"]["stage"]), "Standard tactic " + esc(e["std"]["t"])] if e.get("std", {}).get("t") else (["Pattern"] if pt else [])))) +
-        ('<section class="warn" role="note" aria-labelledby="w"><h2 id="w"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M12 3 2 20h20z"/><path d="M12 10v4"/><circle cx="12" cy="17" r=".6" fill="currentColor"/></svg>Safety first</h2><div class="body">%s</div></section>' % prose(f["safety_note"]) if e["sens"] else "") +
-        '<section class="answer" aria-label="In short"><h2>What is %s?</h2>%s%s%s</section>' % (
+        ('<section class="warn" role="note" aria-labelledby="w"><h2 id="w"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M12 3 2 20h20z"/><path d="M12 10v4"/><circle cx="12" cy="17" r=".6" fill="currentColor"/></svg>Safety first</h2><div class="body">%s<p class="help"><a href="%s">Helplines by country, with numbers you can tap to call</a></p></div></section>' % (prose(f["safety_note"]), HELP_URL) if e["sens"] else "") +
+        '<section class="answer" aria-label="In short"><h2>What is %s?</h2>%s%s%s%s</section>' % (
             H(n), prose(f["plain_language_summary"]),
+            ('<h3 class="k">Key signs</h3>' + ul(signs[:3])) if signs else "",
             ('<h3 class="k">It can sound like</h3><ul class="says">%s</ul>' % "".join(say_li(x) for x in says[:3])) if says else "",
             ('<p class="also">Also called %s</p>' % ", ".join(H(a) for a in e["abs"])) if e["abs"] else "") +
         '<a class="go" href="/playbook#/entry/%s">Check it step by step in the guide<small>Tick what fits, compare look-alikes and save it, all on your own device.</small></a>' % s +
         ptsec +
-        sec("Signs it might be this", ul(f.get("this_may_be_it_when"))) +
+        (sec("More signs it might be this", ul(signs[3:])) if len(signs) > 3 else "") +
         sec("Signs it is probably something else", ul(other)) +
+        (sec("Reading it fairly", "<p>Most hard moments are not manipulation. These help you check before you name it.</p>" + fair) if fair else "") +
         sec("Questions to ask yourself", ul(f.get("discernment_questions"))) +
         sec("What it is", prose(f.get("expanded_definition"))) +
         sec("Why it matters", prose(f.get("why_this_matters"))) +
         sec("How it shows up", ul(f.get("what_it_is"))) +
+        (sec("Go deeper", deeper) if deeper else "") +
         sec("What you can do",
             ('<p>Read the safety note at the top first. If speaking up could make things worse, skip the wording below and talk to someone you trust or a local support service.</p>' if e["sens"]
              else "<p>Pick what fits. You do not owe anyone a confrontation.</p>") +
             ("<h3>%s</h3><blockquote>%s</blockquote>" % (SCRIPT_H[e["kind"]], H(script)) if script else "") + resp) +
         sec("Using this label fairly", ul(f.get("misuse_warning"))) +
         sec("How it differs from look-alikes",
-            prose(f.get("how_to_distinguish_from_related")) +
-            ('<div class="rows">%s</div>' % "".join(
-                '<a class="row" href="/playbook/%s" data-g="%s">%s<span><b>%s</b><small>%s</small></span></a>' % (
-                    r["s"], r["g"], bullet(line_of[r["g"]], "sm"), H(r["n"]), H(clip(r["f"]["short_definition"], 120))) for r in rel[:8]) if rel else "")) +
-        (sec("Where this comes up in the books",
-             "<p>These free books from Noble Father Creations look at %s in a real setting.</p>%s" % (H(n), "".join(
-                 '<div class="bref"><p class="bk">%s</p><ul>%s</ul></div>' % (esc(bk), "".join('<li><a href="%s">%s</a></li>' % (u, H(t)) for b, t, u in BOOKREFS.get(s, [])[:10] if b == bk))
-                 for bk in dict.fromkeys(b for b, t, u in BOOKREFS.get(s, [])[:10]))))
-         if BOOKREFS.get(s) else "") +
+            prose(f.get("how_to_distinguish_from_related")) + ('<div class="rows">%s</div>' % "".join(row(r["n"]) for r in rel[:8]) if rel else "")) +
+        (sec("Part of these patterns", "<p>%s is one of the moves inside these larger patterns.</p><div class=\"rows\">%s</div>" % (H(n), "".join(row(m) for m in ups))) if ups else "") +
+        (sec("Often used together", "<p>Routes where %s comes up alongside other tactics, with the step that tends to come before or after it.</p><div class=\"rows\">%s</div>" % (H(n), rt_html)) if rts else "") +
+        (sec("Research behind this", "<p>Published work on this, or where its name comes from. Each source was checked before it was listed.</p><ul class=\"src\">%s</ul>" % "".join(cite_html(c) for c in research)) if research else "") +
+        (sec("Where this comes up in the books", "<p>These free books from Noble Father Creations look at %s in a real setting.</p>%s" % (H(n), book_rows(s))) if BOOKREFS.get(s) else "") +
         '<nav class="pn" aria-label="Along the %s line">%s%s</nav>' % (
             esc(l["label"]),
             '<a href="/playbook/%s"><span class="pa" aria-hidden="true">\u2190</span><small>Previous station</small><b>%s</b></a>' % (prev["s"], H(prev["n"])) if prev else "<span></span>",
             '<a class="nx" href="/playbook/%s"><span class="pa" aria-hidden="true">\u2192</span><small>Next station</small><b>%s</b></a>' % (nxt["s"], H(nxt["n"])) if nxt else "") +
+        '<p class="upd">Last updated <time>%s</time> \u00b7 <a href="/playbook/og/%s.jpg" download>Save this card</a> \u00b7 <a href="/playbook/about-this-guide">How this guide is made</a></p>' % (TOKEN, s) +
         "</article></main>")
+    books = [{"@type": "CreativeWork", "name": t, "url": ORIGIN + u} for b, t, u, sc in BOOKREFS.get(s, [])]
+    papers = [{"@type": "Book" if "openlibrary" in c["url"] else "ScholarlyArticle", "name": re.sub(r"\*", "", c["cite"]), "url": c["url"]} for c in research]
+    faq = [("What is %s?" % n, f["plain_language_summary"])]
+    if signs: faq.append(("What are the signs of %s?" % n, " ".join(signs[:3])))
+    if other: faq.append(("When is it probably not %s?" % n, " ".join(other[:3])))
     ld = {"@context": "https://schema.org", "@graph": [
         {"@type": "DefinedTerm", "@id": url + "#term", "name": n, "url": url, "termCode": code(l, si + 1).replace(" ", ""),
          "description": f["short_definition"], **({"alternateName": e["abs"]} if e["abs"] else {}), "inDefinedTermSet": {"@id": SITE + "#set"}},
         term_set(),
         {"@type": "WebPage", "@id": url, "url": url, "name": title, "description": desc, "inLanguage": "en", "author": PERSON,
-         "license": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
-         **({"citation": [{"@type": "CreativeWork", "name": t, "url": ORIGIN + u} for b, t, u in BOOKREFS.get(s, [])[:10]]} if BOOKREFS.get(s) else {}),
+         "license": "https://creativecommons.org/licenses/by-nc-nd/4.0/", "dateModified": TOKEN,
+         "image": SITE + "/og/" + s + ".jpg",
+         **({"citation": papers + books} if papers or books else {}),
+         **({"mentions": [{"@id": SITE + "/" + by[m]["s"] + "#term"} for m in ups]} if ups else {}),
          "isPartOf": {"@id": SITE + "#set"}, "about": {"@id": url + "#term"},
-         "breadcrumb": crumbs_ld([("Noble Father Creations", ORIGIN), ("Pattern Decoder", SITE), (l["label"], SITE + "/line-" + l["k"]), (n, url)])}]}
+         "breadcrumb": crumbs_ld([("Noble Father Creations", ORIGIN), ("Pattern Decoder", SITE), (l["label"], SITE + "/line-" + l["k"]), (n, url)])},
+        {"@type": "FAQPage", "@id": url + "#faq", "mainEntity": [{"@type": "Question", "name": q, "acceptedAnswer": {"@type": "Answer", "text": a}} for q, a in faq]}]}
+    return frame(title, desc, url, ld, body, house, beacon, og=SITE + "/og/" + s + ".jpg")
+
+
+def route_page(r, by, line_of, house, beacon):
+    url = SITE + "/route-" + r["s"]
+    title = r["n"] + ": How the Tactics Combine" if len(r["n"]) <= 35 else r["n"] + ": Tactics in Order"
+    if len(title) > 60: title = r["n"]
+    desc = clip(r["n"] + ": " + r["d"], 160)
+    steps = "".join('<li><a class="row" href="/playbook/%s" data-g="%s">%s<span><b>%s</b><small>%s</small></span></a></li>' % (
+        by[m]["s"], by[m]["g"], bullet(line_of[by[m]["g"]], "sm"), H(m), H(clip(by[m]["f"]["short_definition"], 140))) for m in r["c"] if m in by)
+    body = ('<main class="view"><nav class="crumbs" aria-label="You are here"><a href="/playbook">Pattern Decoder</a> \u203a <a href="/playbook/routes">Routes</a></nav>'
+            '<h1>%s</h1><p class="lede">%s</p><p>This route links %d tactics. Each step is a separate move with its own page, so you can check each one on its own. '
+            'Seeing one step does not mean the rest will follow.</p><ol class="steps">%s</ol>'
+            '<a class="go" href="/playbook#/routes/%s">Open this route in the guide<small>Follow it step by step on your own device.</small></a>'
+            '<p class="upd">Last updated <time>%s</time> \u00b7 <a href="/playbook/about-this-guide">How this guide is made</a></p></main>') % (
+        H(r["n"]), H(r["d"]), len(r["c"]), steps, r["s"], TOKEN)
+    ld = {"@context": "https://schema.org", "@graph": [term_set(), {
+        "@type": "WebPage", "@id": url, "url": url, "name": title, "description": desc, "dateModified": TOKEN, "isPartOf": {"@id": SITE + "#set"},
+        "breadcrumb": crumbs_ld([("Noble Father Creations", ORIGIN), ("Pattern Decoder", SITE), ("Routes", SITE + "/routes"), (r["n"], url)]),
+        "mainEntity": {"@type": "ItemList", "itemListOrder": "https://schema.org/ItemListOrderAscending", "numberOfItems": len(r["c"]), "itemListElement": [
+            {"@type": "ListItem", "position": i + 1, "url": SITE + "/" + by[m]["s"], "name": m} for i, m in enumerate(r["c"]) if m in by]}}]}
     return frame(title, desc, url, ld, body, house, beacon)
+
+
+def routes_index(recipes, house, beacon):
+    url = SITE + "/routes"
+    title = "%d Manipulation Routes: How Tactics Combine" % len(recipes)
+    desc = "How single manipulation tactics combine into familiar sequences, from grooming to smear campaigns. %d routes, each step linked to its own page." % len(recipes)
+    rows = "".join('<a class="row" href="/playbook/route-%s"><span><b>%s</b><small>%s</small></span></a>' % (r["s"], H(r["n"]), H(clip(r["d"], 140))) for r in sorted(recipes, key=lambda r: r["n"].lower()))
+    body = ('<main class="view"><nav class="crumbs" aria-label="You are here"><a href="/playbook">Pattern Decoder</a></nav><h1>Routes</h1>'
+            '<p class="lede">Some tactics tend to show up together, often in a set order. Each route lists its steps, and each step has its own page.</p><div class="rows">%s</div></main>') % rows
+    ld = {"@context": "https://schema.org", "@graph": [term_set(), {"@type": "CollectionPage", "@id": url, "url": url, "name": title, "description": desc,
+          "isPartOf": {"@id": SITE + "#set"}, "mainEntity": {"@type": "ItemList", "numberOfItems": len(recipes), "itemListElement": [
+              {"@type": "ListItem", "position": i + 1, "url": SITE + "/route-" + r["s"], "name": r["n"]} for i, r in enumerate(recipes)]}}]}
+    return frame(title, desc, url, ld, body, house, beacon)
+
+
+ABOUT = """<main class="view"><nav class="crumbs" aria-label="You are here"><a href="/playbook">Pattern Decoder</a></nav>
+<h1>How this guide is made</h1>
+<p class="lede">The Pattern Decoder is a free reading aid. It puts names to manipulation and control tactics in plain words, so a person can check what is happening and decide what to do. It is not a diagnosis, a legal opinion or therapy.</p>
+<section class="blk"><h2>What each entry holds</h2><p>Every tactic is written to the same 21-part outline: what it is and is not, signs it fits and signs it does not, ordinary explanations to rule out first, common false alarms, questions to ask yourself, what you can do, words you could use, a safety note, and a warning about using the label unfairly.</p>
+<p>The fair-reading parts are there on purpose. Most hard moments between people are not manipulation, and a label used carelessly can do harm of its own. Each entry tries to make it as easy to rule a tactic out as to rule it in.</p></section>
+<section class="blk"><h2>Tactics, patterns and routes</h2><p>The guide lists %(n)d single tactics, each one a distinct move, on ten lines. %(p)d famous names, such as gaslighting, DARVO and trauma bonding, are patterns: several tactics together, or an effect on a person. Each pattern page links to the tactics it is made of. %(r)d routes show tactics that tend to come in a set order.</p>
+<p>Every tactic has a standard number and a stage, from Idealize to Replace. Old names still find their entry in search and at their old address.</p></section>
+<section class="blk"><h2>How sources are chosen</h2><p>Where published work on a tactic exists, its page lists it under "Research behind this". A source is listed only after it has been checked: articles against their DOI record (title, authors and year), books against a library record. Each source carries one of three labels:</p>
+<ul><li><b>Research:</b> a study, review or academic book about the tactic.</li><li><b>Where the name comes from:</b> the work that first named it.</li><li><b>Popular book:</b> a widely read book that describes it.</li></ul>
+<p>Many tactics have no source listed. Some are everyday terms with little formal study, and some have not been checked yet. A missing source is not a claim that no research exists.</p></section>
+<section class="blk"><h2>Safety</h2><p>Entries that can involve danger open with a safety note and a link to helplines by country. A green Leave button on every page, or pressing Escape twice, switches straight to a weather page. Nothing you type or tick is sent anywhere, and nothing is stored unless you turn saving on.</p></section>
+<section class="blk"><h2>Updates and licence</h2><p>Each page shows the date it last changed. The guide's version history is in the guide under Settings. It is by Shae Stovell (Noble Father Creations), free to share with credit under CC BY-NC-ND 4.0: no selling and no edited copies.</p></section>
+</main>"""
+
+
+def about_page(n, p, r, house, beacon):
+    url = SITE + "/about-this-guide"
+    title = "How the Pattern Decoder Is Made"
+    desc = "How the Pattern Decoder's entries are written, how sources are checked and labelled, and how the guide keeps readers safe."
+    ld = {"@context": "https://schema.org", "@graph": [term_set(), {"@type": "AboutPage", "@id": url, "url": url, "name": title, "description": desc,
+          "dateModified": TOKEN, "author": PERSON, "isPartOf": {"@id": SITE + "#set"}}]}
+    return frame(title, desc, url, ld, ABOUT % {"n": n, "p": p, "r": r}, house, beacon)
+
+
+def not_found(lines, house, beacon):
+    body = ('<main class="view"><h1>That page is not here</h1><p class="lede">The address may be old or mistyped. Every tactic still has a page.</p>'
+            '<a class="go" href="/playbook">Search the Pattern Decoder<small>Search by name, by what was said, or answer two short questions.</small></a>'
+            '<div class="rows"><a class="row" href="/playbook/tactics"><span><b>Every tactic</b><small>All single tactics, grouped into ten lines</small></span></a>'
+            '<a class="row" href="/playbook/patterns"><span><b>Patterns</b><small>Gaslighting, DARVO, FOG and other famous names</small></span></a>'
+            '<a class="row" href="/playbook/routes"><span><b>Routes</b><small>How tactics combine</small></span></a></div>'
+            '<nav class="lines" aria-label="Lines" style="margin-top:32px">%s</nav></main>') % "".join(
+        '<a href="/playbook/line-%s" data-g="%s">%s%s</a>' % (l["k"], l["k"], bullet(l, "sm"), esc(l["label"])) for l in lines)
+    page = frame("Page not found \u00b7 Pattern Decoder", "This page is not here. Search the Pattern Decoder or browse every tactic.", SITE + "/404",
+                 {"@context": "https://schema.org", "@graph": [term_set()]}, body, house, beacon)
+    return page.replace('<meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large">', '<meta name="robots" content="noindex">').replace('<link rel="canonical" href="https://noblefathercreations.com/playbook/404">\n', "")
 
 
 def line_page(l, by, house, beacon):
@@ -307,7 +460,7 @@ def line_page(l, by, house, beacon):
 
 def index_page(lines, by, count, house, beacon):
     url = SITE + "/tactics"
-    title = "All %d Manipulation and Control Tactics, A to Z by Group \u00b7 Pattern Decoder" % count
+    title = "All %d Manipulation and Control Tactics, by Group" % count
     desc = "Every one of the %d tactics in the Pattern Decoder, grouped into ten lines, each with its own plain-words page." % count
     body = ('<main class="view"><nav class="crumbs" aria-label="You are here"><a href="/playbook">Pattern Decoder</a></nav>'
             '<h1>Every tactic</h1><p class="lede">%d manipulation and control tactics in ten groups. Each has its own page in plain words: '
@@ -329,7 +482,7 @@ def index_page(lines, by, count, house, beacon):
 def patterns_page(by, line_of, house, beacon):
     url = SITE + "/patterns"
     pts = sorted((e for e in by.values() if e.get("pt")), key=lambda e: (e["pt"]["type"], e["n"].lower()))
-    title = "%d Manipulation Patterns and What They Are Made Of: Gaslighting, DARVO, FOG and More \u00b7 Pattern Decoder" % len(pts)
+    title = "Manipulation Patterns: Gaslighting, DARVO, FOG and More"
     desc = clip("Gaslighting, DARVO, FOG, trauma bonding and %d more: each pattern broken down into the single tactics it is made of." % (len(pts) - 4), 160)
     groups = [("umbrella", "Umbrella names", "One name for a family of tactics."), ("built-in combo", "Combinations", "Several tactics used together, often in order."),
               ("effect", "Effects", "What can happen to a person over time. Not a move someone makes.")]
@@ -363,20 +516,45 @@ def ld_set(count):
         ensure_ascii=False).replace("</", "<\\/")
 
 
-def llms_txt(lines, count):
-    """A plain-text map of the guide for AI assistants (llms.txt convention). Every word comes from the build's own data."""
-    return ("# Pattern Decoder\n\n> A free guide to %d manipulation and control tactics in plain words: what each one looks like, how to tell if it fits, "
-            "and what you can do. It is a reading aid, not a diagnosis, a legal opinion or therapy. By Noble Father Creations.\n\n"
-            "## Start here\n\n- [Every tactic, grouped by line](%s/tactics): all %d tactics, each linked to its own page\n"
-            "- [Pattern Decoder, the interactive guide](%s): search by what was said or done, or answer two short questions\n"
-            "- [Use this guide safely](%s#/safety): what applies to every entry, and how to leave quickly\n\n"
-            "## The ten lines\n\n%s\n\n"
-            "## Notes for assistants\n\n"
-            "- Each tactic has its own page at %s/<name> with what it is, signs it fits and signs it does not, what you can do, and look-alikes.\n"
-            "- Where an entry can involve danger, its page opens with a safety note. Please keep that note with the answer.\n"
-            "- Nothing a reader types is sent anywhere. Sitemap: %s/sitemap.xml\n") % (
-        count, SITE, count, SITE, SITE,
-        "\n".join("- [%s](%s/line-%s): %s" % (l["label"], SITE, l["k"], l["blurb"]) for l in lines), SITE, SITE)
+def llms_txt(lines, count, by):
+    """llms.txt: every entry as a link with its one-line definition. Every word comes from the build's own data."""
+    pats = sorted((e for e in by.values() if e.get("pt")), key=lambda e: e["n"].lower())
+    out = ["# Pattern Decoder", "",
+           "> A free guide to %d manipulation and control tactics and %d patterns in plain words: what each one looks like, how to tell if it fits "
+           "and when it probably does not, and what you can do. A reading aid, not a diagnosis, a legal opinion or therapy. By Shae Stovell, Noble Father Creations. "
+           "Licence: CC BY-NC-ND 4.0." % (count, len(pats)), "",
+           "## Start here", "",
+           "- [Every tactic, grouped by line](%s/tactics)" % SITE, "- [Patterns](%s/patterns): gaslighting, DARVO, FOG and other famous names, each broken into its tactics" % SITE,
+           "- [Routes](%s/routes): how tactics combine, in order" % SITE, "- [How this guide is made](%s/about-this-guide): method, sources, safety" % SITE,
+           "- [Full text for assistants](%s/llms-full.txt): every entry's answer, signs both ways and safety note" % SITE, "",
+           "## Notes for assistants", "",
+           "- Where an entry can involve danger, its page opens with a safety note. Please keep that note with the answer.",
+           "- Each entry also lists signs that it is probably something else. Please keep that balance when you quote it.", ""]
+    out += ["## Patterns", ""] + ["- [%s](%s/%s): %s" % (e["n"], SITE, e["s"], e["f"]["short_definition"]) for e in pats] + [""]
+    for l in lines:
+        out += ["## %s" % l["label"], "", l["blurb"], "", "- [Every tactic on this line, in order](%s/line-%s)" % (SITE, l["k"])]
+        out += ["- [%s](%s/%s): %s" % (n, SITE, by[n]["s"], by[n]["f"]["short_definition"]) for n in l["order"] if not by[n].get("pt")]
+        out.append("")
+    out += ["Sitemap: %s/sitemap.xml" % SITE, ""]
+    return "\n".join(out)
+
+
+def llms_full(lines, by, count):
+    """llms-full.txt: the plain answer for every entry, with signs both ways and the safety note."""
+    out = ["# Pattern Decoder: full text", "", "> %d tactics and their patterns, in plain words. A reading aid, not a diagnosis. Licence: CC BY-NC-ND 4.0, by Shae Stovell, Noble Father Creations." % count, ""]
+    for l in lines:
+        for n in l["order"]:
+            e = by[n]; f = e["f"]
+            out += ["## %s" % n, "", "URL: %s/%s" % (SITE, e["s"])]
+            if e["abs"]: out.append("Also called: " + ", ".join(e["abs"]))
+            out += ["", unq(f["plain_language_summary"]), ""]
+            if e["sens"]: out += ["Safety: " + unq(f["safety_note"]), ""]
+            sg = items(f.get("this_may_be_it_when"))
+            if sg: out += ["Signs it might be this:"] + ["- " + unq(x) for x in sg] + [""]
+            nt = items(f.get("this_may_not_be_it_when")) + items(f.get("less_concerning_if"))
+            if nt: out += ["Signs it is probably something else:"] + ["- " + unq(x) for x in nt] + [""]
+            if RESEARCH.get(n): out += ["Sources:"] + ["- %s (%s) %s" % (c["cite"].replace("*", ""), c["label"], c["url"]) for c in RESEARCH[n]] + [""]
+    return "\n".join(out)
 
 
 def write_site(out_dir, app_html, entries, lines, house, beacon, logo_data_uri, font_dir, date):
@@ -398,21 +576,45 @@ def write_site(out_dir, app_html, entries, lines, house, beacon, logo_data_uri, 
     open(os.path.join(out_dir, "f", "icon.webp"), "wb").write(base64.b64decode(logo_data_uri.split(",", 1)[1]))
     shutil.copyfile(os.path.join(font_dir, "og.png"), os.path.join(out_dir, "f", "og.png"))
     nsingle = sum(1 for e in entries if not e.get("pt"))
-    with open(os.path.join(out_dir, "llms.txt"), "w", encoding="utf-8") as fh:
-        fh.write(llms_txt(lines, nsingle).replace("## The ten lines", "- [Patterns](%s/patterns): Gaslighting, DARVO, FOG and other famous names, each broken into the single tactics it is made of\n\n## The ten lines" % SITE, 1))
+    npat = len(entries) - nsingle
     pages = {"index.html": app_html,
              "tactics.html": index_page(lines, by, nsingle, house, beacon),
-             "patterns.html": patterns_page(by, line_of, house, beacon)}
+             "patterns.html": patterns_page(by, line_of, house, beacon),
+             "routes.html": routes_index(RECIPES, house, beacon),
+             "about-this-guide.html": about_page(nsingle, npat, len(RECIPES), house, beacon)}
     for l in lines:
         pages["line-%s.html" % l["k"]] = line_page(l, by, house, beacon)
         for si, n in enumerate(l["order"]):
             e = by[n]
             pages[e["s"] + ".html"] = tactic_page(e, l, si, by, line_of, house, beacon)
+    for r in RECIPES:
+        pages["route-%s.html" % r["s"]] = route_page(r, by, line_of, house, beacon)
+    dates = STAMP(pages, date)
+    og_dir = os.path.join(os.path.dirname(os.path.abspath(__file__)), "decoder-og")
+    os.makedirs(og_dir, exist_ok=True)
+    cards = [{"s": by[n]["s"], "n": by[n]["n"], "letter": l["letter"], "c": l["c"], "line": l["label"], "code": code(l, si + 1),
+              "kind": "Pattern" if by[n].get("pt") else ("Stage: " + by[n]["std"]["stage"] if by[n].get("std", {}).get("stage") else "Tactic"),
+              "d": clip(by[n]["f"]["short_definition"], 120)} for l in lines for si, n in enumerate(l["order"])]
+    with open(os.path.join(og_dir, "cards.json"), "w", encoding="utf-8") as fh:
+        json.dump(cards, fh, ensure_ascii=False, indent=0)
+    if os.path.isdir(og_dir):
+        os.makedirs(os.path.join(out_dir, "og"), exist_ok=True)
+        for c in cards:
+            src = os.path.join(og_dir, c["s"] + ".jpg")
+            if os.path.exists(src): shutil.copyfile(src, os.path.join(out_dir, "og", c["s"] + ".jpg"))
+    pages["404.html"] = not_found(lines, house, beacon)
     for name, text in pages.items():
         with open(os.path.join(out_dir, name), "w", encoding="utf-8") as fh:
             fh.write(text)
-    urls = [SITE, SITE + "/tactics", SITE + "/patterns"] + [SITE + "/line-" + l["k"] for l in lines] + [SITE + "/" + by[n]["s"] for l in lines for n in l["order"]]
+    with open(os.path.join(out_dir, "llms.txt"), "w", encoding="utf-8") as fh:
+        fh.write(llms_txt(lines, nsingle, by))
+    with open(os.path.join(out_dir, "llms-full.txt"), "w", encoding="utf-8") as fh:
+        fh.write(llms_full(lines, by, nsingle))
+    order = ["index.html", "tactics.html", "patterns.html", "routes.html", "about-this-guide.html"] + ["line-%s.html" % l["k"] for l in lines] + \
+        [by[n]["s"] + ".html" for l in lines for n in l["order"]] + ["route-%s.html" % r["s"] for r in RECIPES]
+    loc = lambda name: SITE if name == "index.html" else SITE + "/" + name[:-5]
+    urls = [loc(nm) for nm in order]
     with open(os.path.join(out_dir, "sitemap.xml"), "w", encoding="utf-8") as fh:
         fh.write('<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n' +
-                 "".join("  <url><loc>%s</loc><lastmod>%s</lastmod></url>\n" % (u, date) for u in urls) + "</urlset>\n")
+                 "".join("  <url><loc>%s</loc><lastmod>%s</lastmod></url>\n" % (loc(nm), dates[nm]) for nm in order) + "</urlset>\n")
     return pages, urls

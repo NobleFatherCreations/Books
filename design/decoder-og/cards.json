@@ -1,0 +1,3672 @@
+[
+{
+"s": "smear-campaigns",
+"n": "Smear Campaigns",
+"letter": "P",
+"c": "#FF8A4C",
+"line": "Turning people against you",
+"code": "P 01",
+"kind": "Stage: Isolate",
+"d": "Someone spreads distorted or false stories about a person to people who matter to them, so they are doubted, shunned…"
+},
+{
+"s": "flying-monkeys-proxy-recruitment",
+"n": "Flying Monkeys / Proxy Recruitment",
+"letter": "P",
+"c": "#FF8A4C",
+"line": "Turning people against you",
+"code": "P 02",
+"kind": "Stage: Isolate",
+"d": "Friends, relatives or colleagues are drawn in to pass on pressure or criticism, or to report back, for a person who…"
+},
+{
+"s": "triangulation",
+"n": "Triangulation",
+"letter": "P",
+"c": "#FF8A4C",
+"line": "Turning people against you",
+"code": "P 03",
+"kind": "Stage: Isolate",
+"d": "Pulling a third person, real or made up, into a disagreement between two people, so their supposed opinion wins the…"
+},
+{
+"s": "group-consolidation",
+"n": "Group Consolidation",
+"letter": "P",
+"c": "#FF8A4C",
+"line": "Turning people against you",
+"code": "P 04",
+"kind": "Pattern",
+"d": "Publicly punishing one person harshly enough that everyone watching learns what disagreement will cost them."
+},
+{
+"s": "silent-coalitions",
+"n": "Silent Coalitions",
+"letter": "P",
+"c": "#FF8A4C",
+"line": "Turning people against you",
+"code": "P 05",
+"kind": "Stage: Isolate",
+"d": "A group leaving one person out through many small, deniable slights, so no single clear incident ever stands out."
+},
+{
+"s": "ostracism",
+"n": "Ostracism",
+"letter": "P",
+"c": "#FF8A4C",
+"line": "Turning people against you",
+"code": "P 06",
+"kind": "Stage: Isolate",
+"d": "A person is left out of invitations, conversations, decisions or information until they end up on the outside of their…"
+},
+{
+"s": "contribution-erasure",
+"n": "Contribution Erasure",
+"letter": "P",
+"c": "#FF8A4C",
+"line": "Turning people against you",
+"code": "P 07",
+"kind": "Stage: Isolate",
+"d": "A person's or group's presence, contributions or history are left out of what is taught, shown or remembered, so…"
+},
+{
+"s": "credibility-theft",
+"n": "Credibility Theft",
+"letter": "P",
+"c": "#FF8A4C",
+"line": "Turning people against you",
+"code": "P 08",
+"kind": "Stage: Confuse",
+"d": "Credibility theft casts doubt on someone's reliability in advance, so whatever they later report is heard as doubtful…"
+},
+{
+"s": "priming-narrative-seeding",
+"n": "Priming / Narrative Seeding",
+"letter": "P",
+"c": "#FF8A4C",
+"line": "Turning people against you",
+"code": "P 09",
+"kind": "Stage: Confuse",
+"d": "Giving someone an interpretation of a person or event before they see it themselves, so what they notice afterward…"
+},
+{
+"s": "identity-based-isolation",
+"n": "Identity-Based Isolation",
+"letter": "P",
+"c": "#FF8A4C",
+"line": "Turning people against you",
+"code": "P 10",
+"kind": "Stage: Isolate",
+"d": "Leveraging marginalized identity to enforce silence."
+},
+{
+"s": "social-mapping",
+"n": "Social Mapping",
+"letter": "P",
+"c": "#FF8A4C",
+"line": "Turning people against you",
+"code": "P 11",
+"kind": "Stage: Isolate",
+"d": "Identifying the target's relationships and developing a strategy for each."
+},
+{
+"s": "support-system-exhaustion",
+"n": "Support System Exhaustion",
+"letter": "P",
+"c": "#FF8A4C",
+"line": "Turning people against you",
+"code": "P 12",
+"kind": "Stage: Isolate",
+"d": "Directing the target to the same resources until they burn out."
+},
+{
+"s": "pile-ons-brigading",
+"n": "Pile-Ons / Brigading",
+"letter": "P",
+"c": "#FF8A4C",
+"line": "Turning people against you",
+"code": "P 13",
+"kind": "Stage: Isolate",
+"d": "Many people pile criticism onto one person in a short span, so the sheer volume becomes the problem."
+},
+{
+"s": "mobbing",
+"n": "Mobbing",
+"letter": "P",
+"c": "#FF8A4C",
+"line": "Turning people against you",
+"code": "P 14",
+"kind": "Pattern",
+"d": "A group harasses one person for weeks or months, most often at work or in a community, and wears down their standing."
+},
+{
+"s": "scapegoating",
+"n": "Scapegoating",
+"letter": "P",
+"c": "#FF8A4C",
+"line": "Turning people against you",
+"code": "P 15",
+"kind": "Stage: Devalue",
+"d": "Blame for a failure shared by many lands on one person, who pays the price while the real cause stays untouched."
+},
+{
+"s": "labeling-as-identity-warfare",
+"n": "Labeling as Identity Warfare",
+"letter": "P",
+"c": "#FF8A4C",
+"line": "Turning people against you",
+"code": "P 16",
+"kind": "Stage: Devalue",
+"d": "Others pin a fixed defect label on a person, such as 'the difficult one', until everything that person does is read…"
+},
+{
+"s": "golden-child-elevation",
+"n": "Golden Child Elevation",
+"letter": "P",
+"c": "#FF8A4C",
+"line": "Turning people against you",
+"code": "P 17",
+"kind": "Stage: Idealize",
+"d": "One family member is held up as the model of excellence, and that standard is used to measure everyone else and find…"
+},
+{
+"s": "false-consensus-social-proof-pressure",
+"n": "False Consensus / Social Proof Pressure",
+"letter": "P",
+"c": "#FF8A4C",
+"line": "Turning people against you",
+"code": "P 18",
+"kind": "Stage: Confuse",
+"d": "Someone claims that everyone else already agrees, to push one person into going along, whether or not the agreement is…"
+},
+{
+"s": "divide-and-conquer",
+"n": "Divide and Conquer",
+"letter": "P",
+"c": "#FF8A4C",
+"line": "Turning people against you",
+"code": "P 19",
+"kind": "Stage: Isolate",
+"d": "Distance or distrust is created between people who might otherwise support one another, so they do not compare notes…"
+},
+{
+"s": "punishment-by-proxy",
+"n": "Punishment by Proxy",
+"letter": "P",
+"c": "#FF8A4C",
+"line": "Turning people against you",
+"code": "P 20",
+"kind": "Stage: Control",
+"d": "Trouble, coldness or harm lands on someone you care about after a disagreement, so you carry the cost without any…"
+},
+{
+"s": "stochastic-harassment-direction",
+"n": "Stochastic Harassment Direction",
+"letter": "P",
+"c": "#FF8A4C",
+"line": "Turning people against you",
+"code": "P 21",
+"kind": "Stage: Isolate",
+"d": "Someone keeps describing a named person in angry terms to a big audience, so some listeners predictably harass them…"
+},
+{
+"s": "interruption-patterns",
+"n": "Interruption Patterns",
+"letter": "P",
+"c": "#FF8A4C",
+"line": "Turning people against you",
+"code": "P 22",
+"kind": "Stage: Isolate",
+"d": "The same people keep getting cut off in group conversations, so their points never get finished while other speakers…"
+},
+{
+"s": "repetition-as-truth",
+"n": "Repetition as Truth",
+"letter": "T",
+"c": "#4A82FF",
+"line": "Twisting what is real",
+"code": "T 01",
+"kind": "Stage: Confuse",
+"d": "Saying the same claim over and over, with no new evidence, until its familiarity begins to feel like proof."
+},
+{
+"s": "gaslighting",
+"n": "Gaslighting",
+"letter": "T",
+"c": "#4A82FF",
+"line": "Twisting what is real",
+"code": "T 02",
+"kind": "Pattern",
+"d": "Repeatedly denying what someone saw, heard or remembers until they stop trusting their own account of events."
+},
+{
+"s": "moving-goalposts",
+"n": "Moving Goalposts",
+"letter": "T",
+"c": "#4A82FF",
+"line": "Twisting what is real",
+"code": "T 03",
+"kind": "Stage: Devalue",
+"d": "Changing what counts as success after you have met the standard that was set, so that you can never quite finish."
+},
+{
+"s": "double-binds",
+"n": "Double Binds",
+"letter": "T",
+"c": "#4A82FF",
+"line": "Twisting what is real",
+"code": "T 04",
+"kind": "Stage: Devalue",
+"d": "Giving someone demands that contradict each other, so that whatever they choose, they are told they chose wrong."
+},
+{
+"s": "contradiction-stacking",
+"n": "Contradiction Stacking",
+"letter": "T",
+"c": "#4A82FF",
+"line": "Twisting what is real",
+"code": "T 05",
+"kind": "Stage: Confuse",
+"d": "Saying something never happened and then, in the same talk, defending it as justified, so no single answer settles the…"
+},
+{
+"s": "countering",
+"n": "Countering",
+"letter": "T",
+"c": "#4A82FF",
+"line": "Twisting what is real",
+"code": "T 06",
+"kind": "Stage: Confuse",
+"d": "Flatly contradicting someone's account of an event over and over, so the two of you can never agree on what happened."
+},
+{
+"s": "normalization-overton-window-manipulation",
+"n": "Normalization / Overton Window Manipulation",
+"letter": "T",
+"c": "#4A82FF",
+"line": "Twisting what is real",
+"code": "T 07",
+"kind": "Stage: Confuse",
+"d": "Presenting harmful or hurtful treatment as ordinary and not worth questioning, so that objecting to it seems like the…"
+},
+{
+"s": "thought-stopping-clich-s",
+"n": "Thought-Stopping Clichés",
+"letter": "T",
+"c": "#4A82FF",
+"line": "Twisting what is real",
+"code": "T 08",
+"kind": "Stage: Confuse",
+"d": "Stock phrases, said in a closing tone, that end a conversation about a problem before anyone has looked at it."
+},
+{
+"s": "word-salad",
+"n": "Word Salad",
+"letter": "T",
+"c": "#4A82FF",
+"line": "Twisting what is real",
+"code": "T 09",
+"kind": "Stage: Confuse",
+"d": "Answering with long, looping language that never reaches a point, so the listener cannot pin anything down."
+},
+{
+"s": "pseudo-logic",
+"n": "Pseudo-Logic",
+"letter": "T",
+"c": "#4A82FF",
+"line": "Twisting what is real",
+"code": "T 10",
+"kind": "Stage: Confuse",
+"d": "Defending a claim by pointing back to the claim itself, so no outside fact is ever allowed to test it."
+},
+{
+"s": "ambiguity-as-weapon-strategic-ambiguity",
+"n": "Ambiguity as Weapon / Strategic Ambiguity",
+"letter": "T",
+"c": "#4A82FF",
+"line": "Twisting what is real",
+"code": "T 11",
+"kind": "Stage: Isolate",
+"d": "Wording a promise, an exclusion or an intention so loosely that several readings stay open, and the useful one is…"
+},
+{
+"s": "revisionist-history",
+"n": "Revisionist History",
+"letter": "T",
+"c": "#4A82FF",
+"line": "Twisting what is real",
+"code": "T 12",
+"kind": "Stage: Confuse",
+"d": "Changing the agreed account of past events so it matches the story someone prefers now, even though others clearly…"
+},
+{
+"s": "aftercare-control",
+"n": "Aftercare Control",
+"letter": "T",
+"c": "#4A82FF",
+"line": "Twisting what is real",
+"code": "T 13",
+"kind": "Stage: Discard",
+"d": "Recasting a hurtful act as a kindness after it happened. The person who was hurt begins to doubt their own memory of…"
+},
+{
+"s": "narrative-monopoly",
+"n": "Narrative Monopoly",
+"letter": "T",
+"c": "#4A82FF",
+"line": "Twisting what is real",
+"code": "T 14",
+"kind": "Stage: Control",
+"d": "Controlling the dominant story so alternative accounts can't gain traction."
+},
+{
+"s": "loaded-language",
+"n": "Loaded Language",
+"letter": "T",
+"c": "#4A82FF",
+"line": "Twisting what is real",
+"code": "T 15",
+"kind": "Stage: Confuse",
+"d": "Choosing words that carry a verdict, label or insult so that a judgment is made before the facts are discussed."
+},
+{
+"s": "exaggeration",
+"n": "Exaggeration",
+"letter": "T",
+"c": "#4A82FF",
+"line": "Twisting what is real",
+"code": "T 16",
+"kind": "Stage: Confuse",
+"d": "Stretching a claim with words like always, never, everyone or nothing, so it sounds bigger and harder to answer than…"
+},
+{
+"s": "forged-screenshots-edited-evidence",
+"n": "Forged Screenshots / Edited Evidence",
+"letter": "T",
+"c": "#4A82FF",
+"line": "Twisting what is real",
+"code": "T 17",
+"kind": "Stage: Replace",
+"d": "Passing off invented or altered messages, images or documents as genuine proof of something that did not happen or was…"
+},
+{
+"s": "lying-by-omission-gaslighting-by-omission",
+"n": "Lying by Omission / Gaslighting by Omission",
+"letter": "T",
+"c": "#4A82FF",
+"line": "Twisting what is real",
+"code": "T 18",
+"kind": "Stage: Confuse",
+"d": "Leaving out information the other person needs for an accurate picture, while everything that is said stays…"
+},
+{
+"s": "vague-allegations-with-high-consequences",
+"n": "Vague Allegations with High Consequences",
+"letter": "T",
+"c": "#4A82FF",
+"line": "Twisting what is real",
+"code": "T 19",
+"kind": "Stage: Control",
+"d": "Hinting that unnamed people have complaints about someone, without saying what the complaints are. The claim cannot be…"
+},
+{
+"s": "compartmentalization",
+"n": "Compartmentalization",
+"letter": "T",
+"c": "#4A82FF",
+"line": "Twisting what is real",
+"code": "T 20",
+"kind": "Stage: Isolate",
+"d": "Keeping information in separate pockets so different people know different parts, and nobody can see enough to notice…"
+},
+{
+"s": "half-truth-framing",
+"n": "Half-Truth Framing",
+"letter": "T",
+"c": "#4A82FF",
+"line": "Twisting what is real",
+"code": "T 21",
+"kind": "Stage: Confuse",
+"d": "Choosing and arranging statements that are each true so that the listener ends up with a false overall picture."
+},
+{
+"s": "frame-control-false-framing",
+"n": "Frame Control / False Framing",
+"letter": "T",
+"c": "#4A82FF",
+"line": "Twisting what is real",
+"code": "T 22",
+"kind": "Stage: Confuse",
+"d": "Deciding what a conversation is about, through loaded labels or topic swaps, so that your actual concern has no place…"
+},
+{
+"s": "burden-of-proof-shifting-sealioning",
+"n": "Burden of Proof Shifting / Sealioning",
+"letter": "T",
+"c": "#4A82FF",
+"line": "Twisting what is real",
+"code": "T 23",
+"kind": "Stage: Confuse",
+"d": "Pressing someone again and again, in a polite tone, to produce evidence or explanation. It wears them out and does not…"
+},
+{
+"s": "gish-gallop-firehose-of-falsehood",
+"n": "Gish Gallop / Firehose of Falsehood",
+"letter": "T",
+"c": "#4A82FF",
+"line": "Twisting what is real",
+"code": "T 24",
+"kind": "Stage: Confuse",
+"d": "Overwhelming a rival in live debate with a rapid stream of claims, many weak or false, too many to answer one by one."
+},
+{
+"s": "dog-whistling-coded-signaling",
+"n": "Dog Whistling / Coded Signaling",
+"letter": "T",
+"c": "#4A82FF",
+"line": "Twisting what is real",
+"code": "T 25",
+"kind": "Stage: Confuse",
+"d": "Words that sound ordinary to most listeners but carry a second, often threatening or exclusionary message for people…"
+},
+{
+"s": "emotional-sequencing",
+"n": "Emotional Sequencing",
+"letter": "T",
+"c": "#4A82FF",
+"line": "Twisting what is real",
+"code": "T 26",
+"kind": "Stage: Confuse",
+"d": "Rapidly shifting between emotions to destabilize."
+},
+{
+"s": "authority-hijack",
+"n": "Authority Hijack",
+"letter": "T",
+"c": "#4A82FF",
+"line": "Twisting what is real",
+"code": "T 27",
+"kind": "Stage: Confuse",
+"d": "Authority Hijack insists it knows what another person really feels, thinks or meant better than they do, and treats…"
+},
+{
+"s": "false-authority",
+"n": "False Authority",
+"letter": "T",
+"c": "#4A82FF",
+"line": "Twisting what is real",
+"code": "T 28",
+"kind": "Stage: Confuse",
+"d": "Presenting a personal opinion or bias as neutral fact. Disagreeing then looks like arguing against reality."
+},
+{
+"s": "credential-costuming",
+"n": "Credential-Costuming",
+"letter": "T",
+"c": "#4A82FF",
+"line": "Twisting what is real",
+"code": "T 29",
+"kind": "Stage: Idealize",
+"d": "Wearing a title or affiliation that is invented, stretched or borrowed, so a claim carries more authority than the…"
+},
+{
+"s": "pseudo-profundity-intellectual-intimidation",
+"n": "Pseudo-Profundity / Intellectual Intimidation",
+"letter": "T",
+"c": "#4A82FF",
+"line": "Twisting what is real",
+"code": "T 30",
+"kind": "Stage: Confuse",
+"d": "Pseudo-profundity uses grand, technical or abstract language that sounds deep but explains little, so questioning it…"
+},
+{
+"s": "just-asking-questions",
+"n": "Just Asking Questions",
+"letter": "T",
+"c": "#4A82FF",
+"line": "Twisting what is real",
+"code": "T 31",
+"kind": "Stage: Confuse",
+"d": "Accusations or false claims are put as questions, so the claim spreads while the speaker can say they only asked."
+},
+{
+"s": "motte-and-bailey",
+"n": "Motte-and-Bailey",
+"letter": "T",
+"c": "#4A82FF",
+"line": "Twisting what is real",
+"code": "T 32",
+"kind": "Stage: Confuse",
+"d": "A bold claim is made, and when it is challenged the speaker retreats to a modest version anyone would accept, then…"
+},
+{
+"s": "retroactive-justification",
+"n": "Retroactive Justification",
+"letter": "T",
+"c": "#4A82FF",
+"line": "Twisting what is real",
+"code": "T 33",
+"kind": "Stage: Confuse",
+"d": "Reasons for a decision appear only after it was made and challenged, and are presented as if they were the reasons all…"
+},
+{
+"s": "limited-hangout",
+"n": "Limited Hangout",
+"letter": "T",
+"c": "#4A82FF",
+"line": "Twisting what is real",
+"code": "T 34",
+"kind": "Stage: Confuse",
+"d": "A limited hangout shares part of the truth or admits a smaller wrong, so it seems fully disclosed while the larger…"
+},
+{
+"s": "meta-gaslighting",
+"n": "Meta-Gaslighting",
+"letter": "T",
+"c": "#4A82FF",
+"line": "Twisting what is real",
+"code": "T 35",
+"kind": "Stage: Confuse",
+"d": "Answering a person's naming of a harmful pattern by denying it and suggesting that naming it is itself the harm."
+},
+{
+"s": "semantic-erosion-meaning-dilution",
+"n": "Semantic Erosion / Meaning Dilution",
+"letter": "T",
+"c": "#4A82FF",
+"line": "Twisting what is real",
+"code": "T 36",
+"kind": "Stage: Confuse",
+"d": "Using a serious word for so many small things that it loses its weight when someone needs it for something real."
+},
+{
+"s": "moral-disengagement",
+"n": "Moral Disengagement",
+"letter": "T",
+"c": "#4A82FF",
+"line": "Twisting what is real",
+"code": "T 37",
+"kind": "Stage: Confuse",
+"d": "Harmful acts are described in ways that make them feel acceptable: necessary, someone else's decision, or deserved by…"
+},
+{
+"s": "victim-blaming",
+"n": "Victim Blaming",
+"letter": "T",
+"c": "#4A82FF",
+"line": "Twisting what is real",
+"code": "T 38",
+"kind": "Stage: Confuse",
+"d": "The harmed person is held partly or wholly responsible for what was done to them, through questions or remarks about…"
+},
+{
+"s": "perspecticide",
+"n": "Perspecticide",
+"letter": "T",
+"c": "#4A82FF",
+"line": "Twisting what is real",
+"code": "T 39",
+"kind": "Stage: Confuse",
+"d": "The destruction of the target's ability to hold their own point of view."
+},
+{
+"s": "semantic-traps",
+"n": "Semantic Traps",
+"letter": "T",
+"c": "#4A82FF",
+"line": "Twisting what is real",
+"code": "T 40",
+"kind": "Stage: Confuse",
+"d": "Steering a conversation to the exact wording someone used, so the original concern gets lost in a fight about…"
+},
+{
+"s": "gotcha-framing",
+"n": "Gotcha Framing",
+"letter": "T",
+"c": "#4A82FF",
+"line": "Twisting what is real",
+"code": "T 41",
+"kind": "Stage: Confuse",
+"d": "Taking an honest, tentative remark and presenting it as a confession, so that being open with someone has a price."
+},
+{
+"s": "context-collapse",
+"n": "Context Collapse",
+"letter": "T",
+"c": "#4A82FF",
+"line": "Twisting what is real",
+"code": "T 42",
+"kind": "Stage: Replace",
+"d": "Saving a person's messages, posts or remarks without their context, then bringing them out later at the moment they…"
+},
+{
+"s": "lying",
+"n": "Lying",
+"letter": "T",
+"c": "#4A82FF",
+"line": "Twisting what is real",
+"code": "T 43",
+"kind": "Pattern",
+"d": "Saying something the speaker knows to be untrue so that another person will believe it and act on it."
+},
+{
+"s": "platform-migration",
+"n": "Platform Migration",
+"letter": "T",
+"c": "#4A82FF",
+"line": "Twisting what is real",
+"code": "T 44",
+"kind": "Stage: Hook",
+"d": "Steering a conversation from messages or email onto calls, disappearing-message apps or in-person talk when the topic…"
+},
+{
+"s": "bait-and-switch",
+"n": "Bait and Switch",
+"letter": "T",
+"c": "#4A82FF",
+"line": "Twisting what is real",
+"code": "T 45",
+"kind": "Stage: Hook",
+"d": "Promising or advertising an appealing deal, then swapping in a worse one after the person has committed or given…"
+},
+{
+"s": "stonewalling",
+"n": "Stonewalling",
+"letter": "T",
+"c": "#4A82FF",
+"line": "Twisting what is real",
+"code": "T 46",
+"kind": "Stage: Confuse",
+"d": "Complete refusal to engage, respond, or resolve."
+},
+{
+"s": "plausible-deniability",
+"n": "Plausible Deniability",
+"letter": "B",
+"c": "#B07A52",
+"line": "Dodging blame",
+"code": "B 01",
+"kind": "Stage: Isolate",
+"d": "Someone acts in ways that can always be explained as concern, policy or accident, so no single incident can be called…"
+},
+{
+"s": "minimization",
+"n": "Minimization",
+"letter": "B",
+"c": "#B07A52",
+"line": "Dodging blame",
+"code": "B 02",
+"kind": "Stage: Devalue",
+"d": "Shrinking how serious something was so that your reaction looks too big for what actually happened."
+},
+{
+"s": "tone-policing",
+"n": "Tone Policing",
+"letter": "B",
+"c": "#B07A52",
+"line": "Dodging blame",
+"code": "B 03",
+"kind": "Stage: Devalue",
+"d": "Responding to how something was said and not what was said, so the complaint is never actually discussed."
+},
+{
+"s": "darvo",
+"n": "DARVO",
+"letter": "B",
+"c": "#B07A52",
+"line": "Dodging blame",
+"code": "B 04",
+"kind": "Pattern",
+"d": "A three-part reply to being confronted: deny it happened, attack the person raising it, then claim to be the one who…"
+},
+{
+"s": "preemptive-accusation-complaint-weaponization",
+"n": "Preemptive Accusation / Complaint Weaponization",
+"letter": "B",
+"c": "#B07A52",
+"line": "Dodging blame",
+"code": "B 05",
+"kind": "Stage: Confuse",
+"d": "Someone accuses another person of a fault first, often the very one they expect to hear about, so the reply sounds…"
+},
+{
+"s": "projection",
+"n": "Projection",
+"letter": "B",
+"c": "#B07A52",
+"line": "Dodging blame",
+"code": "B 06",
+"kind": "Stage: Confuse",
+"d": "Charging someone with a behavior or motive that the exchange shows more clearly in the person making the charge."
+},
+{
+"s": "blame-shifting",
+"n": "Blame-Shifting",
+"letter": "B",
+"c": "#B07A52",
+"line": "Dodging blame",
+"code": "B 07",
+"kind": "Stage: Confuse",
+"d": "Placing the cause of your own action on the other person, so that your choice is described as something they did to you."
+},
+{
+"s": "role-reversal-traps",
+"n": "Role Reversal Traps",
+"letter": "B",
+"c": "#B07A52",
+"line": "Dodging blame",
+"code": "B 08",
+"kind": "Stage: Confuse",
+"d": "Someone calls themselves the injured party when asked about harm, so sympathy shifts away from the person actually hurt."
+},
+{
+"s": "non-apology-apologies",
+"n": "Non-Apology Apologies",
+"letter": "B",
+"c": "#B07A52",
+"line": "Dodging blame",
+"code": "B 09",
+"kind": "Stage: Confuse",
+"d": "A statement that sounds like an apology but regrets your reaction or feelings, not the thing that was actually done."
+},
+{
+"s": "counterfeit-calm",
+"n": "Counterfeit Calm",
+"letter": "B",
+"c": "#B07A52",
+"line": "Dodging blame",
+"code": "B 10",
+"kind": "Stage: Confuse",
+"d": "Putting on an unbothered, composed manner so that someone's honest upset looks irrational or excessive by comparison."
+},
+{
+"s": "apologies-without-repair",
+"n": "Apologies Without Repair",
+"letter": "B",
+"c": "#B07A52",
+"line": "Dodging blame",
+"code": "B 11",
+"kind": "Stage: Discard",
+"d": "An apology is offered but no change in behavior follows, so the same harm returns and the apology closes the matter…"
+},
+{
+"s": "malicious-compliance",
+"n": "Malicious Compliance",
+"letter": "B",
+"c": "#B07A52",
+"line": "Dodging blame",
+"code": "B 12",
+"kind": "Stage: Confuse",
+"d": "Doing exactly what was asked, to the letter, in a way that predictably defeats the point of the request."
+},
+{
+"s": "weaponized-incompetence",
+"n": "Weaponized Incompetence",
+"letter": "B",
+"c": "#B07A52",
+"line": "Dodging blame",
+"code": "B 13",
+"kind": "Stage: Devalue",
+"d": "A pattern in which someone seems unable to do an unwanted task, so that it falls to another person for good."
+},
+{
+"s": "strategic-apathy-weaponized-indifference",
+"n": "Strategic Apathy / Weaponized Indifference",
+"letter": "B",
+"c": "#B07A52",
+"line": "Dodging blame",
+"code": "B 14",
+"kind": "Stage: Devalue",
+"d": "Saying 'I don't care' or 'whatever you want' at decision points, then picking apart whatever the other person chooses."
+},
+{
+"s": "false-equivalence",
+"n": "False Equivalence",
+"letter": "B",
+"c": "#B07A52",
+"line": "Dodging blame",
+"code": "B 15",
+"kind": "Stage: Confuse",
+"d": "Presenting very uneven harm as equally shared fault, so that no one is left holding the larger share."
+},
+{
+"s": "whataboutism",
+"n": "Whataboutism",
+"letter": "B",
+"c": "#B07A52",
+"line": "Dodging blame",
+"code": "B 16",
+"kind": "Stage: Confuse",
+"d": "The reply to a complaint raises a different wrong from the other side. The original issue goes unanswered."
+},
+{
+"s": "deflection",
+"n": "Deflection",
+"letter": "B",
+"c": "#B07A52",
+"line": "Dodging blame",
+"code": "B 17",
+"kind": "Stage: Confuse",
+"d": "Steering a conversation away from the issue that was raised, so the concern never gets a direct answer."
+},
+{
+"s": "kafka-trapping",
+"n": "Kafka Trapping",
+"letter": "B",
+"c": "#B07A52",
+"line": "Dodging blame",
+"code": "B 18",
+"kind": "Stage: Confuse",
+"d": "Treating a person's denial of an accusation as proof of guilt, so that no answer they give could ever clear them."
+},
+{
+"s": "competitive-victimhood",
+"n": "Competitive Victimhood",
+"letter": "B",
+"c": "#B07A52",
+"line": "Dodging blame",
+"code": "B 19",
+"kind": "Stage: Discard",
+"d": "Meeting someone's hurt with a bigger hurt of your own, so the conversation ends up about whose pain is worse."
+},
+{
+"s": "pity-plays",
+"n": "Pity Plays",
+"letter": "B",
+"c": "#B07A52",
+"line": "Dodging blame",
+"code": "B 20",
+"kind": "Stage: Discard",
+"d": "Answering a concern by showing helplessness or being the victim. The person who raised it ends up giving comfort, and…"
+},
+{
+"s": "feigned-ignorance",
+"n": "Feigned Ignorance",
+"letter": "B",
+"c": "#B07A52",
+"line": "Dodging blame",
+"code": "B 21",
+"kind": "Stage: Confuse",
+"d": "Someone acts as if they do not know or cannot follow something, so a responsibility is dropped or a hard conversation…"
+},
+{
+"s": "moral-licensing-strategic-philanthropy",
+"n": "Moral Licensing / Strategic Philanthropy",
+"letter": "B",
+"c": "#B07A52",
+"line": "Dodging blame",
+"code": "B 22",
+"kind": "Stage: Control",
+"d": "Pointing to a good character or past good deeds as a reason the present complaint does not need an answer."
+},
+{
+"s": "halo-effect-exploitation",
+"n": "Halo Effect Exploitation",
+"letter": "B",
+"c": "#B07A52",
+"line": "Dodging blame",
+"code": "B 23",
+"kind": "Stage: Hook",
+"d": "Answering a concern about someone's behavior by pointing to their achievements, talent or reputation, which have…"
+},
+{
+"s": "weaponized-therapy-speak",
+"n": "Weaponized Therapy-Speak",
+"letter": "B",
+"c": "#B07A52",
+"line": "Dodging blame",
+"code": "B 24",
+"kind": "Stage: Confuse",
+"d": "Using therapy words such as boundaries, projecting or triggered to turn someone's limits and complaints into the…"
+},
+{
+"s": "blame-discard",
+"n": "Blame Discard",
+"letter": "B",
+"c": "#B07A52",
+"line": "Dodging blame",
+"code": "B 25",
+"kind": "Stage: Discard",
+"d": "Framing the discard as the target's fault."
+},
+{
+"s": "managed-exit",
+"n": "Managed Exit",
+"letter": "B",
+"c": "#B07A52",
+"line": "Dodging blame",
+"code": "B 26",
+"kind": "Stage: Discard",
+"d": "Orchestrating the departure to maximize the system's control over the narrative."
+},
+{
+"s": "process-exhaustion",
+"n": "Process Exhaustion",
+"letter": "S",
+"c": "#8FA3BD",
+"line": "Work, school and systems",
+"code": "S 01",
+"kind": "Stage: Control",
+"d": "Steps, forms, meetings and re-reviews keep piling up until the person gives up worn out, and not because their matter…"
+},
+{
+"s": "diffusion-of-responsibility",
+"n": "Diffusion of Responsibility",
+"letter": "S",
+"c": "#8FA3BD",
+"line": "Work, school and systems",
+"code": "S 02",
+"kind": "Stage: Confuse",
+"d": "A decision or harm gets spread across so many people and steps that no one can be found who is answerable for it."
+},
+{
+"s": "legal-administrative-threats",
+"n": "Legal / Administrative Threats",
+"letter": "S",
+"c": "#8FA3BD",
+"line": "Work, school and systems",
+"code": "S 03",
+"kind": "Stage: Control",
+"d": "Raising the police, lawyers, HR, courts or other authorities as pressure in a personal or workplace dispute, instead…"
+},
+{
+"s": "confidentiality-as-weapon",
+"n": "Confidentiality as Weapon",
+"letter": "S",
+"c": "#8FA3BD",
+"line": "Work, school and systems",
+"code": "S 04",
+"kind": "Stage: Control",
+"d": "Citing confidentiality rules to keep from someone the accusation, the evidence or even the source of a complaint…"
+},
+{
+"s": "hr-shielding",
+"n": "HR Shielding",
+"letter": "S",
+"c": "#8FA3BD",
+"line": "Work, school and systems",
+"code": "S 05",
+"kind": "Stage: Control",
+"d": "A workplace complaints process that, in practice, protects the organization's reputation and the accused person better…"
+},
+{
+"s": "celebration-as-cover",
+"n": "Celebration as Cover",
+"letter": "S",
+"c": "#8FA3BD",
+"line": "Work, school and systems",
+"code": "S 06",
+"kind": "Stage: Control",
+"d": "Overwork, self-funding or sacrifice is praised in public as dedication, so the shortage that required it is never fixed."
+},
+{
+"s": "paper-trail-traps",
+"n": "Paper-Trail Traps",
+"letter": "S",
+"c": "#8FA3BD",
+"line": "Work, school and systems",
+"code": "S 07",
+"kind": "Stage: Control",
+"d": "Creating or shaping written records, like write-ups, emails and notes, to build a one-sided case against someone who…"
+},
+{
+"s": "administrative-escalation",
+"n": "Administrative Escalation",
+"letter": "S",
+"c": "#8FA3BD",
+"line": "Work, school and systems",
+"code": "S 08",
+"kind": "Stage: Control",
+"d": "Turning a small, informal concern into a formal complaint, report or legal step that is far heavier than what actually…"
+},
+{
+"s": "impossible-metrics",
+"n": "Impossible Metrics",
+"letter": "S",
+"c": "#8FA3BD",
+"line": "Work, school and systems",
+"code": "S 09",
+"kind": "Stage: Devalue",
+"d": "Giving someone a task or standard they are unlikely to meet with the means given, then treating the miss as proof they…"
+},
+{
+"s": "cultural-penalty",
+"n": "Cultural Penalty",
+"letter": "S",
+"c": "#8FA3BD",
+"line": "Work, school and systems",
+"code": "S 10",
+"kind": "Stage: Devalue",
+"d": "Speech, work or knowledge that differs from one dominant style is marked as wrong or lesser, whatever its substance."
+},
+{
+"s": "credit-theft",
+"n": "Credit Theft",
+"letter": "S",
+"c": "#8FA3BD",
+"line": "Work, school and systems",
+"code": "S 11",
+"kind": "Stage: Devalue",
+"d": "Someone presents another person's work, idea or effort as their own, or lets the credit drift away from the person who…"
+},
+{
+"s": "credit-laundering",
+"n": "Credit Laundering",
+"letter": "S",
+"c": "#8FA3BD",
+"line": "Work, school and systems",
+"code": "S 12",
+"kind": "Stage: Devalue",
+"d": "Passing someone's idea or work along through several people, each rewording it a little, until no one can trace it…"
+},
+{
+"s": "experience-erasure",
+"n": "Experience Erasure",
+"letter": "S",
+"c": "#8FA3BD",
+"line": "Work, school and systems",
+"code": "S 13",
+"kind": "Stage: Devalue",
+"d": "Real experience, skill or history is declared not to count because it lacks the system's own credential, format or…"
+},
+{
+"s": "performance-framework-manipulation",
+"n": "Performance Framework Manipulation",
+"letter": "S",
+"c": "#8FA3BD",
+"line": "Work, school and systems",
+"code": "S 14",
+"kind": "Stage: Devalue",
+"d": "Designing ratings, targets and reviews so that agreement and loyalty are rewarded, and skill, dissent and ethical…"
+},
+{
+"s": "managed-out-through-exhaustion",
+"n": "\"Managed Out\" Through Exhaustion",
+"letter": "S",
+"c": "#8FA3BD",
+"line": "Work, school and systems",
+"code": "S 15",
+"kind": "Stage: Control",
+"d": "Slowly removing a person's meaningful work, visibility and belonging until their leaving looks like a free choice on…"
+},
+{
+"s": "individualization-of-systemic-issues",
+"n": "Individualization of Systemic Issues",
+"letter": "S",
+"c": "#8FA3BD",
+"line": "Work, school and systems",
+"code": "S 16",
+"kind": "Stage: Confuse",
+"d": "Calling a problem of workload, staffing or structure a personal weakness, and expecting the individual to fix it."
+},
+{
+"s": "abstraction-escalation",
+"n": "Abstraction Escalation",
+"letter": "S",
+"c": "#8FA3BD",
+"line": "Work, school and systems",
+"code": "S 17",
+"kind": "Stage: Confuse",
+"d": "A question about one specific harm is answered with broad statements about values, mission or culture, so the event…"
+},
+{
+"s": "agent-erasure",
+"n": "Agent Erasure",
+"letter": "S",
+"c": "#8FA3BD",
+"line": "Work, school and systems",
+"code": "S 18",
+"kind": "Stage: Confuse",
+"d": "Accounts of what happened leave out who did it (\"mistakes were made\", \"the decision was taken\"), so no one is…"
+},
+{
+"s": "captive-expertise",
+"n": "Captive Expertise",
+"letter": "S",
+"c": "#8FA3BD",
+"line": "Work, school and systems",
+"code": "S 19",
+"kind": "Stage: Confuse",
+"d": "An outside expert is chosen or briefed so their findings support a decision already made, and their credentials are…"
+},
+{
+"s": "done-deal-framing",
+"n": "Done-Deal Framing",
+"letter": "S",
+"c": "#8FA3BD",
+"line": "Work, school and systems",
+"code": "S 20",
+"kind": "Stage: Confuse",
+"d": "A decision is announced as already final and inevitable, so objecting feels pointless before anyone has been asked."
+},
+{
+"s": "pseudo-consultation",
+"n": "Pseudo-Consultation",
+"letter": "S",
+"c": "#8FA3BD",
+"line": "Work, school and systems",
+"code": "S 21",
+"kind": "Stage: Control",
+"d": "Asking for opinions, feedback or comment after the decision is already made, when the input can no longer change…"
+},
+{
+"s": "tokenism",
+"n": "Tokenism",
+"letter": "S",
+"c": "#8FA3BD",
+"line": "Work, school and systems",
+"code": "S 22",
+"kind": "Stage: Idealize",
+"d": "Including one person, or a small number of people, from a group as a visible gesture. They are not given the voice or…"
+},
+{
+"s": "gatekeeping",
+"n": "Gatekeeping",
+"letter": "S",
+"c": "#8FA3BD",
+"line": "Work, school and systems",
+"code": "S 23",
+"kind": "Stage: Isolate",
+"d": "Controlling who can reach certain people, information, resources or opportunities, so some people must ask permission…"
+},
+{
+"s": "front-person-exposure",
+"n": "Front-Person Exposure",
+"letter": "S",
+"c": "#8FA3BD",
+"line": "Work, school and systems",
+"code": "S 24",
+"kind": "Stage: Isolate",
+"d": "One person is made the public face of a decision many people shared, so they take the reaction alone."
+},
+{
+"s": "polite-hostile-environments",
+"n": "\"Polite Hostile\" Environments",
+"letter": "S",
+"c": "#8FA3BD",
+"line": "Work, school and systems",
+"code": "S 25",
+"kind": "Stage: Isolate",
+"d": "A workplace or social setting that stays polite on the surface but quietly punishes anyone who speaks plainly or…"
+},
+{
+"s": "incident-siloing",
+"n": "Incident Siloing",
+"letter": "S",
+"c": "#8FA3BD",
+"line": "Work, school and systems",
+"code": "S 26",
+"kind": "Stage: Isolate",
+"d": "Each complaint is handled and closed on its own, in its own office or site, so no one is placed to see that the cases…"
+},
+{
+"s": "participation-penalty",
+"n": "Participation Penalty",
+"letter": "S",
+"c": "#8FA3BD",
+"line": "Work, school and systems",
+"code": "S 27",
+"kind": "Stage: Isolate",
+"d": "Taking part, asking for help or speaking up exposes a person to new risk, so staying away becomes the safer choice."
+},
+{
+"s": "silence-as-policy",
+"n": "Silence as Policy",
+"letter": "S",
+"c": "#8FA3BD",
+"line": "Work, school and systems",
+"code": "S 28",
+"kind": "Stage: Control",
+"d": "Building a workplace culture in which people learn that speaking up brings punishment and staying quiet brings safety."
+},
+{
+"s": "institutional-betrayal",
+"n": "Institutional Betrayal",
+"letter": "S",
+"c": "#8FA3BD",
+"line": "Work, school and systems",
+"code": "S 29",
+"kind": "Pattern",
+"d": "An institution that people depend on fails to prevent harm or to treat them fairly afterward, adding a second injury."
+},
+{
+"s": "micromanagement",
+"n": "Micromanagement",
+"letter": "S",
+"c": "#8FA3BD",
+"line": "Work, school and systems",
+"code": "S 30",
+"kind": "Stage: Control",
+"d": "Software that assigns tasks, tracks output and makes decisions about workers' hours, pay or jobs, with little human…"
+},
+{
+"s": "language-laundering",
+"n": "Language Laundering",
+"letter": "S",
+"c": "#8FA3BD",
+"line": "Work, school and systems",
+"code": "S 31",
+"kind": "Stage: Confuse",
+"d": "Cuts, losses or harms are described in soft, technical or upbeat words, so they sound like improvements."
+},
+{
+"s": "metric-masking",
+"n": "Metric Masking",
+"letter": "S",
+"c": "#8FA3BD",
+"line": "Work, school and systems",
+"code": "S 32",
+"kind": "Stage: Confuse",
+"d": "Averages, color codes and summary figures stand in for what happened to particular people, so overall numbers look…"
+},
+{
+"s": "self-fulfilling-prediction",
+"n": "Self-Fulfilling Prediction",
+"letter": "S",
+"c": "#8FA3BD",
+"line": "Work, school and systems",
+"code": "S 33",
+"kind": "Stage: Confuse",
+"d": "A prediction about a person shapes how they are treated, and the outcome that treatment produces is then cited as…"
+},
+{
+"s": "policy-as-proof",
+"n": "Policy as Proof",
+"letter": "S",
+"c": "#8FA3BD",
+"line": "Work, school and systems",
+"code": "S 34",
+"kind": "Stage: Confuse",
+"d": "The existence of a written policy is offered as proof that a problem is handled, in place of evidence that the policy…"
+},
+{
+"s": "solution-theater",
+"n": "Solution Theater",
+"letter": "S",
+"c": "#8FA3BD",
+"line": "Work, school and systems",
+"code": "S 35",
+"kind": "Stage: Confuse",
+"d": "A visible purchase, program, support service or announcement is presented as the fix, while the cause of the problem…"
+},
+{
+"s": "willful-blindness-as-complicity",
+"n": "Willful Blindness as Complicity",
+"letter": "S",
+"c": "#8FA3BD",
+"line": "Work, school and systems",
+"code": "S 36",
+"kind": "Stage: Confuse",
+"d": "Not looking into, acknowledging or acting on wrongdoing there is good reason to suspect, so that 'I didn't know' can…"
+},
+{
+"s": "performative-allyship-false-solidarity",
+"n": "Performative Allyship / False Solidarity",
+"letter": "S",
+"c": "#8FA3BD",
+"line": "Work, school and systems",
+"code": "S 37",
+"kind": "Stage: Idealize",
+"d": "Public support for a cause or group that private actions and choices do not match, so it earns trust it has not backed…"
+},
+{
+"s": "performative-reception",
+"n": "Performative Reception",
+"letter": "S",
+"c": "#8FA3BD",
+"line": "Work, school and systems",
+"code": "S 38",
+"kind": "Stage: Idealize",
+"d": "A concern is received with warmth, speed and sympathy, but nothing that follows changes what happened."
+},
+{
+"s": "weaponized-inclusion-strategic-containment",
+"n": "Weaponized Inclusion / Strategic Containment",
+"letter": "S",
+"c": "#8FA3BD",
+"line": "Work, school and systems",
+"code": "S 39",
+"kind": "Stage: Control",
+"d": "Placing someone in a group or process where they stay visible but have little real influence, so being included…"
+},
+{
+"s": "manufactured-closure",
+"n": "Manufactured Closure",
+"letter": "S",
+"c": "#8FA3BD",
+"line": "Work, school and systems",
+"code": "S 40",
+"kind": "Stage: Discard",
+"d": "The matter is declared resolved or closed by the side that caused it, without the harmed person agreeing and without…"
+},
+{
+"s": "accountability-reset",
+"n": "Accountability Reset",
+"letter": "S",
+"c": "#8FA3BD",
+"line": "Work, school and systems",
+"code": "S 41",
+"kind": "Stage: Replace",
+"d": "A change of leader, name or program is treated as a fresh start, so earlier promises and failures no longer count…"
+},
+{
+"s": "record-erasure",
+"n": "Record Erasure",
+"letter": "S",
+"c": "#8FA3BD",
+"line": "Work, school and systems",
+"code": "S 42",
+"kind": "Stage: Discard",
+"d": "Records, files or evidence of what happened are deleted, lost or sealed, so the event can later be denied."
+},
+{
+"s": "paid-silence",
+"n": "Paid Silence",
+"letter": "S",
+"c": "#8FA3BD",
+"line": "Work, school and systems",
+"code": "S 43",
+"kind": "Stage: Discard",
+"d": "Money, a reference, a role or another benefit is offered in exchange for not speaking about what happened."
+},
+{
+"s": "punitive-transfer",
+"n": "Punitive Transfer",
+"letter": "S",
+"c": "#8FA3BD",
+"line": "Work, school and systems",
+"code": "S 44",
+"kind": "Stage: Discard",
+"d": "After raising a concern, the person is moved to a different place, team, class or role, presented as routine."
+},
+{
+"s": "values-fit-pretext",
+"n": "Values-Fit Pretext",
+"letter": "S",
+"c": "#8FA3BD",
+"line": "Work, school and systems",
+"code": "S 45",
+"kind": "Stage: Discard",
+"d": "A person's results or questions are redescribed as a mismatch with the group's values or culture, which becomes the…"
+},
+{
+"s": "visible-impunity",
+"n": "Visible Impunity",
+"letter": "S",
+"c": "#8FA3BD",
+"line": "Work, school and systems",
+"code": "S 46",
+"kind": "Stage: Discard",
+"d": "The person reported faces no visible consequence, which tells everyone watching that reporting does not work."
+},
+{
+"s": "closed-loop-appeals",
+"n": "Closed-Loop Appeals",
+"letter": "S",
+"c": "#8FA3BD",
+"line": "Work, school and systems",
+"code": "S 47",
+"kind": "Stage: Control",
+"d": "Challenging a decision sends you back to the same people, rules or system that made it."
+},
+{
+"s": "development-subordination",
+"n": "Development Subordination",
+"letter": "S",
+"c": "#8FA3BD",
+"line": "Work, school and systems",
+"code": "S 48",
+"kind": "Stage: Control",
+"d": "A person's own learning, health or future is ranked below their usefulness to the system, and that ranking is…"
+},
+{
+"s": "labor-extraction",
+"n": "Labor Extraction",
+"letter": "S",
+"c": "#8FA3BD",
+"line": "Work, school and systems",
+"code": "S 49",
+"kind": "Stage: Control",
+"d": "Work, time, care or personal money beyond what was agreed or paid is expected and uncounted, often because the role…"
+},
+{
+"s": "initiative-churn",
+"n": "Initiative Churn",
+"letter": "S",
+"c": "#8FA3BD",
+"line": "Work, school and systems",
+"code": "S 50",
+"kind": "Stage: Control",
+"d": "New programs are launched one after another, so activity looks like progress while none runs long enough to be judged."
+},
+{
+"s": "liability-reframing",
+"n": "Liability Reframing",
+"letter": "S",
+"c": "#8FA3BD",
+"line": "Work, school and systems",
+"code": "S 51",
+"kind": "Stage: Control",
+"d": "A duty to protect or repair is handed to legal or risk management and treated as exposure to limit, then declared…"
+},
+{
+"s": "managed-perception",
+"n": "Managed Perception",
+"letter": "S",
+"c": "#8FA3BD",
+"line": "Work, school and systems",
+"code": "S 52",
+"kind": "Stage: Control",
+"d": "Controlling how the system appears to outsiders."
+},
+{
+"s": "metric-mission-substitution",
+"n": "Metric-Mission Substitution",
+"letter": "S",
+"c": "#8FA3BD",
+"line": "Work, school and systems",
+"code": "S 53",
+"kind": "Stage: Control",
+"d": "The numbers chosen to measure a purpose quietly replace the purpose, and people are judged on the numbers."
+},
+{
+"s": "motivation-displacement",
+"n": "Motivation Displacement",
+"letter": "S",
+"c": "#8FA3BD",
+"line": "Work, school and systems",
+"code": "S 54",
+"kind": "Stage: Control",
+"d": "Points, scores and rewards replace a person's own reasons for doing something, so they stop when the reward stops."
+},
+{
+"s": "predictive-tracking",
+"n": "Predictive Tracking",
+"letter": "S",
+"c": "#8FA3BD",
+"line": "Work, school and systems",
+"code": "S 55",
+"kind": "Stage: Control",
+"d": "People are routed into tracks, groups or labels on the strength of a prediction, and the track then limits what they…"
+},
+{
+"s": "false-reports",
+"n": "False Reports",
+"letter": "S",
+"c": "#8FA3BD",
+"line": "Work, school and systems",
+"code": "S 56",
+"kind": "Stage: Control",
+"d": "Making a formal complaint to an employer, school, agency or police that the filer knows is untrue, so the accused…"
+},
+{
+"s": "strategic-delay",
+"n": "Strategic Delay",
+"letter": "S",
+"c": "#8FA3BD",
+"line": "Work, school and systems",
+"code": "S 57",
+"kind": "Stage: Control",
+"d": "Responses, records or decisions are slowed until deadlines pass, evidence fades or the person gives up."
+},
+{
+"s": "structural-underfunding",
+"n": "Structural Underfunding",
+"letter": "S",
+"c": "#8FA3BD",
+"line": "Work, school and systems",
+"code": "S 58",
+"kind": "Stage: Control",
+"d": "The service meant to help is kept too small, too thinly staffed or too run-down to work, and its failure is treated as…"
+},
+{
+"s": "stigma-marking",
+"n": "Stigma Marking",
+"letter": "S",
+"c": "#8FA3BD",
+"line": "Work, school and systems",
+"code": "S 59",
+"kind": "Stage: Devalue",
+"d": "A person's need, status or condition is made visible to others through separate lines, labels, colors, rooms or lists."
+},
+{
+"s": "unwritten-rules",
+"n": "Unwritten Rules",
+"letter": "S",
+"c": "#8FA3BD",
+"line": "Work, school and systems",
+"code": "S 60",
+"kind": "Stage: Devalue",
+"d": "Success depends on expectations nobody states, and people who did not arrive already knowing them are judged as failing."
+},
+{
+"s": "deniable-authorization",
+"n": "Deniable Authorization",
+"letter": "S",
+"c": "#8FA3BD",
+"line": "Work, school and systems",
+"code": "S 61",
+"kind": "Stage: Hook",
+"d": "Permission is given only in conversation or by hint, never in writing, so it can later be denied."
+},
+{
+"s": "information-control",
+"n": "Information Control",
+"letter": "C",
+"c": "#1AA9DE",
+"line": "Control over your life",
+"code": "C 01",
+"kind": "Pattern",
+"d": "Narrowing what someone reads, hears and learns, and who they talk to, so one person's account becomes the main version…"
+},
+{
+"s": "isolation",
+"n": "Isolation",
+"letter": "C",
+"c": "#1AA9DE",
+"line": "Control over your life",
+"code": "C 02",
+"kind": "Stage: Isolate",
+"d": "Steadily cutting a person off from friends, family and other outside support, until only one relationship is left."
+},
+{
+"s": "omnipresence-demonstrating-omnipotence",
+"n": "Omnipresence / Demonstrating Omnipotence",
+"letter": "C",
+"c": "#1AA9DE",
+"line": "Control over your life",
+"code": "C 03",
+"kind": "Stage: Control",
+"d": "Showing off how much someone knows, controls or can reach in your life, until trying to act independently starts to…"
+},
+{
+"s": "device-access-demands",
+"n": "Device Access Demands",
+"letter": "C",
+"c": "#1AA9DE",
+"line": "Control over your life",
+"code": "C 04",
+"kind": "Stage: Control",
+"d": "Insisting on passwords, an unlocked phone or account logins as proof of trust, so that having a private space is read…"
+},
+{
+"s": "behavior-control",
+"n": "Behavior Control",
+"letter": "C",
+"c": "#1AA9DE",
+"line": "Control over your life",
+"code": "C 05",
+"kind": "Pattern",
+"d": "Setting rules about what another adult may wear, where they may go and who they may see, and enforcing them."
+},
+{
+"s": "punishment-of-boundaries",
+"n": "Punishment of Boundaries",
+"letter": "C",
+"c": "#1AA9DE",
+"line": "Control over your life",
+"code": "C 06",
+"kind": "Stage: Devalue",
+"d": "When someone sets a limit, the other person answers with a penalty, such as coldness, withdrawn help or a taken-away…"
+},
+{
+"s": "boundary-testing",
+"n": "Boundary Testing",
+"letter": "C",
+"c": "#1AA9DE",
+"line": "Control over your life",
+"code": "C 07",
+"kind": "Stage: Hook",
+"d": "Someone crosses a stated or implied limit in small steps, and each step that goes unchallenged is followed by a…"
+},
+{
+"s": "location-tracking",
+"n": "Location Tracking",
+"letter": "C",
+"c": "#1AA9DE",
+"line": "Control over your life",
+"code": "C 08",
+"kind": "Stage: Control",
+"d": "Requiring a person to keep their live location visible. Any gap in it is treated as a problem to be explained."
+},
+{
+"s": "smart-home-coercion",
+"n": "Smart-Home Coercion",
+"letter": "C",
+"c": "#1AA9DE",
+"line": "Control over your life",
+"code": "C 09",
+"kind": "Stage: Replace",
+"d": "Using connected home devices like locks, cameras, thermostats and speakers to watch, unsettle or control another…"
+},
+{
+"s": "resource-sabotage-sabotaging-success",
+"n": "Resource Sabotage / Sabotaging Success",
+"letter": "C",
+"c": "#1AA9DE",
+"line": "Control over your life",
+"code": "C 10",
+"kind": "Stage: Control",
+"d": "Taking away the tools, information, money or help someone needs, and calling the failure proof they are not up to it."
+},
+{
+"s": "ritualized-exhaustion",
+"n": "Ritualized Exhaustion",
+"letter": "C",
+"c": "#1AA9DE",
+"line": "Control over your life",
+"code": "C 11",
+"kind": "Stage: Control",
+"d": "A relentless run of schedules, demands and lost sleep that keeps a person too depleted to think clearly, weigh options…"
+},
+{
+"s": "emotion-control",
+"n": "Emotion Control",
+"letter": "C",
+"c": "#1AA9DE",
+"line": "Control over your life",
+"code": "C 12",
+"kind": "Pattern",
+"d": "Rewarding the feelings a person is allowed to show and punishing or shaming the rest, until they act out emotions…"
+},
+{
+"s": "moving-in-silence",
+"n": "Moving-in-Silence",
+"letter": "C",
+"c": "#1AA9DE",
+"line": "Control over your life",
+"code": "C 13",
+"kind": "Stage: Control",
+"d": "Settling a big matter that changes someone else's life without telling or asking them, so they hear about it only when…"
+},
+{
+"s": "financial-control",
+"n": "Financial Control",
+"letter": "C",
+"c": "#1AA9DE",
+"line": "Control over your life",
+"code": "C 14",
+"kind": "Stage: Control",
+"d": "Limiting what someone can reach, see or earn, or using money and assets to pressure them, so they depend on one person."
+},
+{
+"s": "financial-dependence-by-design",
+"n": "Financial Dependence by Design",
+"letter": "C",
+"c": "#1AA9DE",
+"line": "Control over your life",
+"code": "C 15",
+"kind": "Stage: Hook",
+"d": "Setting up money, work and account access so that one person cannot manage alone, no matter how either person feels…"
+},
+{
+"s": "golden-bars",
+"n": "Golden Bars",
+"letter": "C",
+"c": "#1AA9DE",
+"line": "Control over your life",
+"code": "C 16",
+"kind": "Stage: Hook",
+"d": "Someone offers real comfort, money or status that comes with unspoken conditions, so leaving or disagreeing means…"
+},
+{
+"s": "i-know-best-paternalism-velvet-glove-control",
+"n": "\"I Know Best\" Paternalism / Velvet Glove Control",
+"letter": "C",
+"c": "#1AA9DE",
+"line": "Control over your life",
+"code": "C 17",
+"kind": "Stage: Control",
+"d": "Overriding another adult's choices in the name of what is good for them, and expecting them to be grateful."
+},
+{
+"s": "enforcing-trivial-demands",
+"n": "Enforcing Trivial Demands",
+"letter": "C",
+"c": "#1AA9DE",
+"line": "Control over your life",
+"code": "C 18",
+"kind": "Stage: Control",
+"d": "Insisting on exact compliance with small, pointless-looking rules, treated far more seriously than the stakes deserve…"
+},
+{
+"s": "infantilization",
+"n": "Infantilization",
+"letter": "C",
+"c": "#1AA9DE",
+"line": "Control over your life",
+"code": "C 19",
+"kind": "Stage: Replace",
+"d": "Treating a capable adult as if they cannot manage their own money, tasks or decisions, and taking those over."
+},
+{
+"s": "forced-dependency",
+"n": "Forced Dependency",
+"letter": "C",
+"c": "#1AA9DE",
+"line": "Control over your life",
+"code": "C 20",
+"kind": "Stage: Control",
+"d": "One person sets up a relationship or setting so the other cannot manage without their ongoing help, and then keeps it…"
+},
+{
+"s": "health-sabotage",
+"n": "Health Sabotage",
+"letter": "C",
+"c": "#1AA9DE",
+"line": "Control over your life",
+"code": "C 21",
+"kind": "Stage: Replace",
+"d": "Interfering with someone's medicine, sleep, food, exercise or medical care in ways that make them weaker and more…"
+},
+{
+"s": "body-autonomy-violations",
+"n": "Body Autonomy Violations",
+"letter": "C",
+"c": "#1AA9DE",
+"line": "Control over your life",
+"code": "C 22",
+"kind": "Stage: Control",
+"d": "Controlling the physical body under institutional justification."
+},
+{
+"s": "mobility-control",
+"n": "Mobility Control",
+"letter": "C",
+"c": "#1AA9DE",
+"line": "Control over your life",
+"code": "C 23",
+"kind": "Stage: Control",
+"d": "Restricting physical movement to enforce submission."
+},
+{
+"s": "document-confiscation",
+"n": "Document Confiscation",
+"letter": "C",
+"c": "#1AA9DE",
+"line": "Control over your life",
+"code": "C 24",
+"kind": "Stage: Control",
+"d": "Passports, identity papers, visas or certificates are taken \"for safekeeping\", so leaving, travelling or proving who…"
+},
+{
+"s": "debt-bondage",
+"n": "Debt Bondage",
+"letter": "C",
+"c": "#1AA9DE",
+"line": "Control over your life",
+"code": "C 25",
+"kind": "Stage: Control",
+"d": "Fees for travel, housing, training or recruitment are charged against future earnings and keep growing, so you must…"
+},
+{
+"s": "coerced-debt",
+"n": "Coerced Debt",
+"letter": "C",
+"c": "#1AA9DE",
+"line": "Control over your life",
+"code": "C 26",
+"kind": "Stage: Control",
+"d": "Loans, credit or bills are taken out in your name, or you are pressured into them, without real consent, so you carry…"
+},
+{
+"s": "children-as-leverage",
+"n": "Children as Leverage",
+"letter": "C",
+"c": "#1AA9DE",
+"line": "Control over your life",
+"code": "C 27",
+"kind": "Stage: Control",
+"d": "Using children's wellbeing as a tool of control over adults."
+},
+{
+"s": "enmeshment",
+"n": "Enmeshment",
+"letter": "C",
+"c": "#1AA9DE",
+"line": "Control over your life",
+"code": "C 28",
+"kind": "Stage: Control",
+"d": "The line between two people's feelings, choices and identities is dissolved, so your moods, decisions and successes…"
+},
+{
+"s": "financial-enmeshment",
+"n": "Financial Enmeshment",
+"letter": "C",
+"c": "#1AA9DE",
+"line": "Control over your life",
+"code": "C 29",
+"kind": "Stage: Hook",
+"d": "Tangling finances to make separation catastrophic."
+},
+{
+"s": "harm-to-pets-or-property",
+"n": "Harm to Pets or Property",
+"letter": "C",
+"c": "#1AA9DE",
+"line": "Control over your life",
+"code": "C 30",
+"kind": "Stage: Control",
+"d": "Belongings are destroyed, or a pet is harmed or threatened, as a warning of what could happen next. (Treat as a safety…"
+},
+{
+"s": "reproductive-coercion",
+"n": "Reproductive Coercion",
+"letter": "C",
+"c": "#1AA9DE",
+"line": "Control over your life",
+"code": "C 31",
+"kind": "Stage: Control",
+"d": "Pressuring or penalizing someone over whether, when or how to have children, using money, work, family standing or…"
+},
+{
+"s": "arbitrary-authority",
+"n": "Arbitrary Authority",
+"letter": "C",
+"c": "#1AA9DE",
+"line": "Control over your life",
+"code": "C 32",
+"kind": "Stage: Control",
+"d": "Decisions follow no stated rule, so nothing you do reliably changes the outcome."
+},
+{
+"s": "strategic-chaos-crisis-manufacturing",
+"n": "Strategic Chaos / Crisis Manufacturing",
+"letter": "C",
+"c": "#1AA9DE",
+"line": "Control over your life",
+"code": "C 33",
+"kind": "Stage: Control",
+"d": "Constant emergencies preventing strategic thinking."
+},
+{
+"s": "collective-punishment",
+"n": "Collective Punishment",
+"letter": "C",
+"c": "#1AA9DE",
+"line": "Control over your life",
+"code": "C 34",
+"kind": "Stage: Control",
+"d": "A whole group is punished for something one person did, or for something no one is named for, so the group turns its…"
+},
+{
+"s": "fear-installation",
+"n": "Fear Installation",
+"letter": "C",
+"c": "#1AA9DE",
+"line": "Control over your life",
+"code": "C 35",
+"kind": "Stage: Control",
+"d": "Creating persistent dread through unpredictable consequences."
+},
+{
+"s": "institutional-capture",
+"n": "Institutional Capture",
+"letter": "C",
+"c": "#1AA9DE",
+"line": "Control over your life",
+"code": "C 36",
+"kind": "Stage: Control",
+"d": "Influence is gained over the bodies meant to provide oversight, or outside structures are lined up to enforce, so the…"
+},
+{
+"s": "status-threats",
+"n": "Status Threats",
+"letter": "C",
+"c": "#1AA9DE",
+"line": "Control over your life",
+"code": "C 37",
+"kind": "Stage: Control",
+"d": "Your visa, residency, enrollment or legal status is used as a threat: comply, or you or your family could be reported…"
+},
+{
+"s": "legal-abuse",
+"n": "Legal Abuse",
+"letter": "C",
+"c": "#1AA9DE",
+"line": "Control over your life",
+"code": "C 38",
+"kind": "Stage: Discard",
+"d": "Repeatedly using court filings, motions and hearings after a separation to drain the other person's money, time and…"
+},
+{
+"s": "monitoring-surveillance",
+"n": "Monitoring & Surveillance",
+"letter": "C",
+"c": "#1AA9DE",
+"line": "Control over your life",
+"code": "C 39",
+"kind": "Pattern",
+"d": "Demanding constant access to a person's phone, messages and movements. Every part of their day has to be explained."
+},
+{
+"s": "response-time-policing",
+"n": "Response-Time Policing",
+"letter": "C",
+"c": "#1AA9DE",
+"line": "Control over your life",
+"code": "C 40",
+"kind": "Stage: Control",
+"d": "Treating the time taken to answer a message as a failing that must be explained, so you feel permanently on call."
+},
+{
+"s": "interrogation",
+"n": "Interrogation",
+"letter": "C",
+"c": "#1AA9DE",
+"line": "Control over your life",
+"code": "C 41",
+"kind": "Stage: Control",
+"d": "Demanding that someone explain, justify or defend themselves on command. The demander acts as if an answer is owed…"
+},
+{
+"s": "time-theft",
+"n": "Time Theft",
+"letter": "C",
+"c": "#1AA9DE",
+"line": "Control over your life",
+"code": "C 42",
+"kind": "Stage: Devalue",
+"d": "Someone repeatedly spends another person's time carelessly, through lateness, waiting and canceled plans, as if those…"
+},
+{
+"s": "time-control",
+"n": "Time Control",
+"letter": "C",
+"c": "#1AA9DE",
+"line": "Control over your life",
+"code": "C 43",
+"kind": "Stage: Control",
+"d": "Dictating how every hour is spent to prevent autonomous thought."
+},
+{
+"s": "controlled-communication",
+"n": "Controlled Communication",
+"letter": "C",
+"c": "#1AA9DE",
+"line": "Control over your life",
+"code": "C 44",
+"kind": "Stage: Control",
+"d": "Dictating how, when, and whether you may speak."
+},
+{
+"s": "sleep-deprivation",
+"n": "Sleep Deprivation",
+"letter": "C",
+"c": "#1AA9DE",
+"line": "Control over your life",
+"code": "C 45",
+"kind": "Stage: Control",
+"d": "Disrupting rest to reduce cognitive and emotional resistance."
+},
+{
+"s": "choice-restriction",
+"n": "Choice Restriction",
+"letter": "C",
+"c": "#1AA9DE",
+"line": "Control over your life",
+"code": "C 46",
+"kind": "Stage: Control",
+"d": "Someone closes off or hides your realistic options one by one, until a single outcome looks like the only sensible…"
+},
+{
+"s": "role-assignment",
+"n": "Role Assignment",
+"letter": "C",
+"c": "#1AA9DE",
+"line": "Control over your life",
+"code": "C 47",
+"kind": "Stage: Control",
+"d": "Assigning fixed identities that dictate expectation and treatment."
+},
+{
+"s": "maternal-gatekeeping",
+"n": "Maternal Gatekeeping",
+"letter": "C",
+"c": "#1AA9DE",
+"line": "Control over your life",
+"code": "C 48",
+"kind": "Stage: Replace",
+"d": "A mother repeatedly corrects, redoes or limits the other parent's or caregiver's care of a child, until that person…"
+},
+{
+"s": "performance-monitoring",
+"n": "Performance Monitoring",
+"letter": "C",
+"c": "#1AA9DE",
+"line": "Control over your life",
+"code": "C 49",
+"kind": "Stage: Control",
+"d": "Constant evaluation that installs hypervigilance."
+},
+{
+"s": "strategic-timing",
+"n": "Strategic Timing",
+"letter": "C",
+"c": "#1AA9DE",
+"line": "Control over your life",
+"code": "C 50",
+"kind": "Stage: Control",
+"d": "Damaging information or sudden pressure arrives just before an important moment, leaving no time to check or respond."
+},
+{
+"s": "emotional-blackmail",
+"n": "Emotional Blackmail",
+"letter": "G",
+"c": "#9469FF",
+"line": "Guilt, pressure and fear",
+"code": "G 01",
+"kind": "Stage: Control",
+"d": "Making love, closeness or the relationship itself depend on doing what someone wants, so that saying no feels like…"
+},
+{
+"s": "fog",
+"n": "FOG",
+"letter": "G",
+"c": "#9469FF",
+"line": "Guilt, pressure and fear",
+"code": "G 02",
+"kind": "Pattern",
+"d": "Fear, a sense of debt, and guilt layered around a request until saying no is frightening, ungrateful and cruel all at…"
+},
+{
+"s": "guilt-tripping",
+"n": "Guilt-Tripping",
+"letter": "G",
+"c": "#9469FF",
+"line": "Guilt, pressure and fear",
+"code": "G 03",
+"kind": "Stage: Control",
+"d": "Using guilt about past help, sacrifice or hurt feelings to make saying no feel like a moral failing."
+},
+{
+"s": "duty-scripts",
+"n": "Duty Scripts",
+"letter": "G",
+"c": "#9469FF",
+"line": "Guilt, pressure and fear",
+"code": "G 04",
+"kind": "Stage: Hook",
+"d": "Someone uses a role like daughter, son or parent as a rule nobody can argue with, so refusing sounds like failing at…"
+},
+{
+"s": "we-re-family-erasure",
+"n": "\"We're Family\" Erasure",
+"letter": "G",
+"c": "#9469FF",
+"line": "Guilt, pressure and fear",
+"code": "G 05",
+"kind": "Stage: Idealize",
+"d": "Using family loyalty to make fairness, limits and the right to say no seem not to apply between relatives."
+},
+{
+"s": "concern-trolling-shame-as-governance",
+"n": "Concern Trolling / Shame-as-Governance",
+"letter": "G",
+"c": "#9469FF",
+"line": "Guilt, pressure and fear",
+"code": "G 06",
+"kind": "Stage: Control",
+"d": "Voicing worry for someone's wellbeing as cover for telling them what to do, so that refusing the advice looks like…"
+},
+{
+"s": "overcorrection-demands",
+"n": "Overcorrection Demands",
+"letter": "G",
+"c": "#9469FF",
+"line": "Guilt, pressure and fear",
+"code": "G 07",
+"kind": "Stage: Control",
+"d": "Overcorrection demands ask for a far larger apology, payment or gesture than a small lapse needs, so repair follows…"
+},
+{
+"s": "demand-for-gratitude",
+"n": "Demand for Gratitude",
+"letter": "G",
+"c": "#9469FF",
+"line": "Guilt, pressure and fear",
+"code": "G 08",
+"kind": "Stage: Hook",
+"d": "Expecting thanks on demand, in the right words or amount, as the price of help. The generosity ends up with conditions…"
+},
+{
+"s": "loan-sharking-gifts",
+"n": "Loan-Sharking Gifts",
+"letter": "G",
+"c": "#9469FF",
+"line": "Guilt, pressure and fear",
+"code": "G 09",
+"kind": "Stage: Idealize",
+"d": "Giving gifts, favors or help in a way that leaves the receiver in debt, so the giving can be used to press a later…"
+},
+{
+"s": "obligation-hooks",
+"n": "Obligation Hooks",
+"letter": "G",
+"c": "#9469FF",
+"line": "Guilt, pressure and fear",
+"code": "G 10",
+"kind": "Stage: Hook",
+"d": "Handing someone a secret, a sacrifice or a rule they never agreed to, then treating their loyalty as a debt they must…"
+},
+{
+"s": "obligation-contracts",
+"n": "Obligation Contracts",
+"letter": "G",
+"c": "#9469FF",
+"line": "Guilt, pressure and fear",
+"code": "G 11",
+"kind": "Stage: Hook",
+"d": "Holding someone to rules or debts they never agreed to and were never told about, then punishing or shaming them when…"
+},
+{
+"s": "favor-debt",
+"n": "Favor Debt",
+"letter": "G",
+"c": "#9469FF",
+"line": "Guilt, pressure and fear",
+"code": "G 12",
+"kind": "Stage: Hook",
+"d": "Citing past gifts, money or support as the reason someone must agree to a present request. Past kindness is then…"
+},
+{
+"s": "guilt-legacy",
+"n": "Guilt Legacy",
+"letter": "G",
+"c": "#9469FF",
+"line": "Guilt, pressure and fear",
+"code": "G 13",
+"kind": "Stage: Replace",
+"d": "Treating a family sacrifice or an ancestor's hardship from before you were born as a debt you repay by doing what is…"
+},
+{
+"s": "martyrdom-display",
+"n": "Martyrdom Display",
+"letter": "G",
+"c": "#9469FF",
+"line": "Guilt, pressure and fear",
+"code": "G 14",
+"kind": "Stage: Hook",
+"d": "Pointing out one's own unrewarded effort and sacrifice so that the other person feels in debt and unable to say no."
+},
+{
+"s": "emotional-hostage-taking",
+"n": "Emotional Hostage-Taking",
+"letter": "G",
+"c": "#9469FF",
+"line": "Guilt, pressure and fear",
+"code": "G 15",
+"kind": "Stage: Control",
+"d": "Linking your own mood to another person's answer so openly that they feel responsible for keeping you okay."
+},
+{
+"s": "emotional-blackmail-via-self-harm-threats",
+"n": "Emotional Blackmail via Self-Harm Threats",
+"letter": "G",
+"c": "#9469FF",
+"line": "Guilt, pressure and fear",
+"code": "G 16",
+"kind": "Stage: Replace",
+"d": "Someone says they will hurt or kill themselves if the other person leaves or refuses, tying that person's decision to…"
+},
+{
+"s": "withholding-silent-treatment",
+"n": "Withholding / Silent Treatment",
+"letter": "G",
+"c": "#9469FF",
+"line": "Guilt, pressure and fear",
+"code": "G 17",
+"kind": "Stage: Devalue",
+"d": "Withholding all communication, warmth or answers from someone, with no stated end. It lasts until they apologize or…"
+},
+{
+"s": "negative-reinforcement-traps",
+"n": "Negative Reinforcement Traps",
+"letter": "G",
+"c": "#9469FF",
+"line": "Guilt, pressure and fear",
+"code": "G 18",
+"kind": "Stage: Control",
+"d": "A cycle where coldness, criticism or withdrawal stays until someone gives in and then lifts at once, so giving in…"
+},
+{
+"s": "intimidation",
+"n": "Intimidation",
+"letter": "G",
+"c": "#9469FF",
+"line": "Guilt, pressure and fear",
+"code": "G 19",
+"kind": "Stage: Control",
+"d": "Using a hint or open warning of unwelcome consequences to push someone toward giving in or staying quiet."
+},
+{
+"s": "ambient-sexual-threat",
+"n": "Ambient Sexual Threat",
+"letter": "G",
+"c": "#9469FF",
+"line": "Guilt, pressure and fear",
+"code": "G 20",
+"kind": "Stage: Control",
+"d": "A sexually charged or menacing atmosphere around a person, kept alive by repeated small signals. The person stays on…"
+},
+{
+"s": "sexual-coercion",
+"n": "Sexual Coercion",
+"letter": "G",
+"c": "#9469FF",
+"line": "Guilt, pressure and fear",
+"code": "G 21",
+"kind": "Stage: Control",
+"d": "Using pressure, guilt, obligation or implied consequences to push someone into sexual activity without their free…"
+},
+{
+"s": "false-dilemma",
+"n": "False Dilemma",
+"letter": "G",
+"c": "#9469FF",
+"line": "Guilt, pressure and fear",
+"code": "G 22",
+"kind": "Stage: Confuse",
+"d": "Saying there are only two possible answers when more exist, so the person feels pushed toward one."
+},
+{
+"s": "sunk-cost-exploitation",
+"n": "Sunk Cost Exploitation",
+"letter": "G",
+"c": "#9469FF",
+"line": "Guilt, pressure and fear",
+"code": "G 23",
+"kind": "Stage: Hook",
+"d": "Pointing to the time, money or effort already spent as a reason you cannot stop, change course or leave now."
+},
+{
+"s": "commitment-traps-foot-in-the-door",
+"n": "Commitment Traps / Foot-in-the-Door",
+"letter": "G",
+"c": "#9469FF",
+"line": "Guilt, pressure and fear",
+"code": "G 24",
+"kind": "Stage: Hook",
+"d": "Winning a small yes first, then using it to secure a larger one, so each agreement makes the next harder to refuse."
+},
+{
+"s": "anchoring-to-peak-moments",
+"n": "Anchoring to Peak Moments",
+"letter": "G",
+"c": "#9469FF",
+"line": "Guilt, pressure and fear",
+"code": "G 25",
+"kind": "Stage: Hook",
+"d": "Referencing past highs to maintain present attachment."
+},
+{
+"s": "anchoring",
+"n": "Anchoring",
+"letter": "G",
+"c": "#9469FF",
+"line": "Guilt, pressure and fear",
+"code": "G 26",
+"kind": "Stage: Hook",
+"d": "Putting forward a first number, price or claim that then shapes how every later figure and offer is judged."
+},
+{
+"s": "door-in-the-face",
+"n": "Door-in-the-Face",
+"letter": "G",
+"c": "#9469FF",
+"line": "Guilt, pressure and fear",
+"code": "G 27",
+"kind": "Stage: Hook",
+"d": "Making a big request that is likely to be refused so that the smaller request that follows seems modest and hard to…"
+},
+{
+"s": "legitimizing-paltry-contributions",
+"n": "Legitimizing Paltry Contributions",
+"letter": "G",
+"c": "#9469FF",
+"line": "Guilt, pressure and fear",
+"code": "G 28",
+"kind": "Stage: Hook",
+"d": "A request is framed so that even the smallest contribution counts (\"even a little helps\"), which makes saying no at…"
+},
+{
+"s": "manufactured-scarcity",
+"n": "Manufactured Scarcity",
+"letter": "G",
+"c": "#9469FF",
+"line": "Guilt, pressure and fear",
+"code": "G 29",
+"kind": "Stage: Hook",
+"d": "Claiming that a chance, a person or a deal is about to disappear, so that fear of losing it replaces careful thought."
+},
+{
+"s": "authority-worship",
+"n": "Authority Worship",
+"letter": "G",
+"c": "#9469FF",
+"line": "Guilt, pressure and fear",
+"code": "G 30",
+"kind": "Stage: Hook",
+"d": "Rank, title or position is presented as beyond question, so deferring feels like a virtue and asking why feels like…"
+},
+{
+"s": "loyalty-testing",
+"n": "Loyalty Testing",
+"letter": "G",
+"c": "#9469FF",
+"line": "Guilt, pressure and fear",
+"code": "G 31",
+"kind": "Stage: Hook",
+"d": "Creating scenarios to test allegiance, then punishing failure."
+},
+{
+"s": "crisis-bonding",
+"n": "Crisis Bonding",
+"letter": "G",
+"c": "#9469FF",
+"line": "Guilt, pressure and fear",
+"code": "G 32",
+"kind": "Stage: Hook",
+"d": "Manufacturing or escalating crises to bond through shared urgency."
+},
+{
+"s": "manufactured-urgency",
+"n": "Manufactured Urgency",
+"letter": "G",
+"c": "#9469FF",
+"line": "Guilt, pressure and fear",
+"code": "G 33",
+"kind": "Stage: Hook",
+"d": "Someone pushes for a decision right now, often with an invented or inflated deadline or emergency, so you have no time…"
+},
+{
+"s": "cognitive-overload",
+"n": "Cognitive Overload",
+"letter": "G",
+"c": "#9469FF",
+"line": "Guilt, pressure and fear",
+"code": "G 34",
+"kind": "Stage: Confuse",
+"d": "Burying someone in more information, steps or demands than they can take in, so they cannot judge a decision clearly."
+},
+{
+"s": "extinction-bursts",
+"n": "Extinction Bursts",
+"letter": "G",
+"c": "#9469FF",
+"line": "Guilt, pressure and fear",
+"code": "G 35",
+"kind": "Stage: Control",
+"d": "A sudden, sharper surge of a pressure tactic right after it stops working, as the person tries harder to get the old…"
+},
+{
+"s": "ultimatums",
+"n": "Ultimatums",
+"letter": "G",
+"c": "#9469FF",
+"line": "Guilt, pressure and fear",
+"code": "G 36",
+"kind": "Stage: Control",
+"d": "Demanding that someone pick one of two outcomes right away, with a loss attached to the option the speaker does not…"
+},
+{
+"s": "reverse-psychology",
+"n": "Reverse Psychology",
+"letter": "G",
+"c": "#9469FF",
+"line": "Guilt, pressure and fear",
+"code": "G 37",
+"kind": "Stage: Confuse",
+"d": "Arguing against the outcome you actually want, so that the other person's wish to resist or prove you wrong carries…"
+},
+{
+"s": "that-s-not-all",
+"n": "That's-Not-All",
+"letter": "G",
+"c": "#9469FF",
+"line": "Guilt, pressure and fear",
+"code": "G 38",
+"kind": "Stage: Hook",
+"d": "Before you can answer an offer, extras are added or the price is lowered, so you decide on the sweetened version…"
+},
+{
+"s": "sacred-duty-manipulation-mission-framing",
+"n": "\"Sacred Duty\" Manipulation / Mission Framing",
+"letter": "G",
+"c": "#9469FF",
+"line": "Guilt, pressure and fear",
+"code": "G 39",
+"kind": "Stage: Hook",
+"d": "Presenting an ordinary request as a spiritual, moral or ancestral duty, so that saying no is treated as a sin or a…"
+},
+{
+"s": "bait-disclosure",
+"n": "Bait Disclosure",
+"letter": "G",
+"c": "#9469FF",
+"line": "Guilt, pressure and fear",
+"code": "G 40",
+"kind": "Stage: Hook",
+"d": "Pretending to reveal information to draw the target in, then weaponizing their reaction."
+},
+{
+"s": "disrupt-then-reframe",
+"n": "Disrupt-Then-Reframe",
+"letter": "G",
+"c": "#9469FF",
+"line": "Guilt, pressure and fear",
+"code": "G 41",
+"kind": "Stage: Hook",
+"d": "An odd or confusing phrase briefly throws you off, and a reassuring reframe arrives in the same breath, so you accept…"
+},
+{
+"s": "grooming-through-praise",
+"n": "Grooming Through Praise",
+"letter": "G",
+"c": "#9469FF",
+"line": "Guilt, pressure and fear",
+"code": "G 42",
+"kind": "Stage: Hook",
+"d": "Selectively praising behaviors that serve the manipulator."
+},
+{
+"s": "moral-framing",
+"n": "Moral Framing",
+"letter": "G",
+"c": "#9469FF",
+"line": "Guilt, pressure and fear",
+"code": "G 43",
+"kind": "Stage: Control",
+"d": "Answering someone's boundary, objection or criticism with a judgment of their character, such as selfish or disloyal…"
+},
+{
+"s": "moral-outrage-as-weapon",
+"n": "Moral Outrage as Weapon",
+"letter": "G",
+"c": "#9469FF",
+"line": "Guilt, pressure and fear",
+"code": "G 44",
+"kind": "Stage: Control",
+"d": "Answering a disagreement with intense moral anger far out of proportion, so that questioning it looks like siding with…"
+},
+{
+"s": "rage-as-regulation",
+"n": "Rage as Regulation",
+"letter": "G",
+"c": "#9469FF",
+"line": "Guilt, pressure and fear",
+"code": "G 45",
+"kind": "Stage: Control",
+"d": "Explosive anger that reliably ends a disagreement, whatever lies behind it, because the people nearby learn to give way."
+},
+{
+"s": "blackmail-leverage-exploitation",
+"n": "Blackmail / Leverage Exploitation",
+"letter": "G",
+"c": "#9469FF",
+"line": "Guilt, pressure and fear",
+"code": "G 46",
+"kind": "Stage: Control",
+"d": "Holding private or damaging information, true or not, over someone to force compliance or silence, under a stated or…"
+},
+{
+"s": "reputation-braiding",
+"n": "Reputation Braiding",
+"letter": "G",
+"c": "#9469FF",
+"line": "Guilt, pressure and fear",
+"code": "G 47",
+"kind": "Stage: Hook",
+"d": "Your name is tied in public to the other party early, before any concern exists, so later criticism of them would…"
+},
+{
+"s": "shared-secret-binding",
+"n": "Shared Secret Binding",
+"letter": "G",
+"c": "#9469FF",
+"line": "Guilt, pressure and fear",
+"code": "G 48",
+"kind": "Stage: Hook",
+"d": "Creating complicity that makes leaving feel like betrayal."
+},
+{
+"s": "vulnerability-weaponization",
+"n": "Vulnerability Weaponization",
+"letter": "G",
+"c": "#9469FF",
+"line": "Guilt, pressure and fear",
+"code": "G 49",
+"kind": "Stage: Hook",
+"d": "Using shared fears or wounds as leverage."
+},
+{
+"s": "forced-forgiveness-weaponized-forgiveness",
+"n": "Forced Forgiveness / Weaponized Forgiveness",
+"letter": "G",
+"c": "#9469FF",
+"line": "Guilt, pressure and fear",
+"code": "G 50",
+"kind": "Stage: Discard",
+"d": "Someone presses a person to forgive or move on before the harm has been acknowledged or made right, demanding…"
+},
+{
+"s": "forced-teaming",
+"n": "Forced Teaming",
+"letter": "G",
+"c": "#9469FF",
+"line": "Guilt, pressure and fear",
+"code": "G 51",
+"kind": "Stage: Idealize",
+"d": "Declaring a shared 'we' that the other person never agreed to, so a separate choice starts to look like betrayal."
+},
+{
+"s": "weaponized-generosity-in-public",
+"n": "Weaponized Generosity in Public",
+"letter": "G",
+"c": "#9469FF",
+"line": "Guilt, pressure and fear",
+"code": "G 52",
+"kind": "Stage: Idealize",
+"d": "Grand gestures witnessed by others to build reputation and create invisible obligation."
+},
+{
+"s": "loyalty-binds",
+"n": "Loyalty Binds",
+"letter": "G",
+"c": "#9469FF",
+"line": "Guilt, pressure and fear",
+"code": "G 53",
+"kind": "Stage: Control",
+"d": "Defining loyalty as obedience and silence, so that disagreeing, asking questions or telling outsiders counts as…"
+},
+{
+"s": "intermittent-reinforcement-push-pull",
+"n": "Intermittent Reinforcement / Push-Pull",
+"letter": "L",
+"c": "#F05BA0",
+"line": "Love that hooks you",
+"code": "L 01",
+"kind": "Stage: Devalue",
+"d": "A repeating cycle of warmth and distance that leaves the other person working to get back to the warm stretch."
+},
+{
+"s": "hoovering-relief-bait",
+"n": "Hoovering / Relief Bait",
+"letter": "L",
+"c": "#F05BA0",
+"line": "Love that hooks you",
+"code": "L 02",
+"kind": "Stage: Hook",
+"d": "Reaching out to draw someone back into a relationship after they have pulled away or ended it. This often comes with…"
+},
+{
+"s": "love-bombing",
+"n": "Love Bombing",
+"letter": "L",
+"c": "#F05BA0",
+"line": "Love that hooks you",
+"code": "L 03",
+"kind": "Stage: Idealize",
+"d": "Flooding someone with intense affection, praise and attention very early. The pace outruns how well the two people…"
+},
+{
+"s": "manufactured-intimacy",
+"n": "Manufactured Intimacy",
+"letter": "L",
+"c": "#F05BA0",
+"line": "Love that hooks you",
+"code": "L 04",
+"kind": "Stage: Idealize",
+"d": "Creating deep closeness fast, through early confessions and painful sharing, before the two people have any shared…"
+},
+{
+"s": "future-faking",
+"n": "Future Faking",
+"letter": "L",
+"c": "#F05BA0",
+"line": "Love that hooks you",
+"code": "L 05",
+"kind": "Stage: Hook",
+"d": "Making vivid promises about a better future together that keep you invested in the present. The promised things never…"
+},
+{
+"s": "manufactured-destiny",
+"n": "Manufactured Destiny",
+"letter": "L",
+"c": "#F05BA0",
+"line": "Love that hooks you",
+"code": "L 06",
+"kind": "Stage: Idealize",
+"d": "Presenting a relationship as fated or cosmically arranged, so that doubting it, slowing it down or leaving it is…"
+},
+{
+"s": "exclusive-meaning",
+"n": "Exclusive Meaning",
+"letter": "L",
+"c": "#F05BA0",
+"line": "Love that hooks you",
+"code": "L 07",
+"kind": "Stage: Idealize",
+"d": "Claiming that only this one person truly understands you. Gradually, everyone else in your life seems less worthy of…"
+},
+{
+"s": "pedestal-ploy-the-exception-script",
+"n": "Pedestal Ploy / The Exception Script",
+"letter": "L",
+"c": "#F05BA0",
+"line": "Love that hooks you",
+"code": "L 08",
+"kind": "Stage: Idealize",
+"d": "Telling you that you are uniquely different from everyone around you. Keeping that special status then depends on…"
+},
+{
+"s": "premature-vulnerability-trauma-dumping",
+"n": "Premature Vulnerability / Trauma Dumping",
+"letter": "L",
+"c": "#F05BA0",
+"line": "Love that hooks you",
+"code": "L 09",
+"kind": "Stage: Idealize",
+"d": "Deep disclosures too early to create obligation and recruit caretaking."
+},
+{
+"s": "the-rescue-hook",
+"n": "The Rescue Hook",
+"letter": "L",
+"c": "#F05BA0",
+"line": "Love that hooks you",
+"code": "L 10",
+"kind": "Stage: Idealize",
+"d": "Showing a need that seems helpless, so you take over tasks or feelings unasked and your effort is treated as devotion."
+},
+{
+"s": "emotional-parasitism",
+"n": "Emotional Parasitism",
+"letter": "L",
+"c": "#F05BA0",
+"line": "Love that hooks you",
+"code": "L 11",
+"kind": "Stage: Hook",
+"d": "A steady one-way arrangement where one person's feelings get the attention and care, and the other is drained with…"
+},
+{
+"s": "pocketing",
+"n": "Pocketing",
+"letter": "L",
+"c": "#F05BA0",
+"line": "Love that hooks you",
+"code": "L 12",
+"kind": "Stage: Hook",
+"d": "You are kept apart from the other person's friends, family and public life, so the relationship exists only in…"
+},
+{
+"s": "bread-crumbing",
+"n": "Bread-crumbing",
+"letter": "L",
+"c": "#F05BA0",
+"line": "Love that hooks you",
+"code": "L 13",
+"kind": "Stage: Hook",
+"d": "Sending just enough occasional attention to keep someone hopeful and available, while the contact never turns into…"
+},
+{
+"s": "ghosting-as-control",
+"n": "Ghosting as Control",
+"letter": "L",
+"c": "#F05BA0",
+"line": "Love that hooks you",
+"code": "L 14",
+"kind": "Stage: Discard",
+"d": "Cutting off all contact with no explanation and then returning later, leaving the other person with questions they…"
+},
+{
+"s": "trauma-bonding",
+"n": "Trauma Bonding",
+"letter": "L",
+"c": "#F05BA0",
+"line": "Love that hooks you",
+"code": "L 15",
+"kind": "Pattern",
+"d": "A strong attachment that grows through cycles of hurt, then comfort from the same person. Fear and closeness become…"
+},
+{
+"s": "emotional-flooding",
+"n": "Emotional Flooding",
+"letter": "L",
+"c": "#F05BA0",
+"line": "Love that hooks you",
+"code": "L 16",
+"kind": "Stage: Idealize",
+"d": "Pouring on emotion so fast and so hard that the other person cannot think, until speed and intensity get mistaken for…"
+},
+{
+"s": "identity-auditing",
+"n": "Identity Auditing",
+"letter": "L",
+"c": "#F05BA0",
+"line": "Love that hooks you",
+"code": "L 17",
+"kind": "Stage: Idealize",
+"d": "Mapping the target's vulnerabilities for strategic use."
+},
+{
+"s": "premature-trust-extraction",
+"n": "Premature Trust Extraction",
+"letter": "L",
+"c": "#F05BA0",
+"line": "Love that hooks you",
+"code": "L 18",
+"kind": "Stage: Idealize",
+"d": "Pressuring the target to share before earning the right to hold it."
+},
+{
+"s": "gatekeeper-grooming",
+"n": "Gatekeeper Grooming",
+"letter": "L",
+"c": "#F05BA0",
+"line": "Love that hooks you",
+"code": "L 19",
+"kind": "Stage: Idealize",
+"d": "The people around a target, such as parents, colleagues or an institution, are won over first, so that later access…"
+},
+{
+"s": "target-selection",
+"n": "Target Selection",
+"letter": "L",
+"c": "#F05BA0",
+"line": "Love that hooks you",
+"code": "L 20",
+"kind": "Stage: Idealize",
+"d": "One person is singled out for special attention because they look most isolated, most eager or most useful, and the…"
+},
+{
+"s": "pacing-and-leading",
+"n": "Pacing and Leading",
+"letter": "L",
+"c": "#F05BA0",
+"line": "Love that hooks you",
+"code": "L 21",
+"kind": "Stage: Idealize",
+"d": "First matching the target's rhythm, then shifting it toward dependency."
+},
+{
+"s": "mirroring-on-demand",
+"n": "Mirroring-on-Demand",
+"letter": "L",
+"c": "#F05BA0",
+"line": "Love that hooks you",
+"code": "L 22",
+"kind": "Stage: Idealize",
+"d": "Quickly copying your interests, opinions and way of speaking so you feel unusually understood, whether or not the…"
+},
+{
+"s": "idealize-devalue-discard-cycle",
+"n": "Idealize-Devalue-Discard Cycle",
+"letter": "L",
+"c": "#F05BA0",
+"line": "Love that hooks you",
+"code": "L 23",
+"kind": "Pattern",
+"d": "A three-stage arc. Someone is first placed on a pedestal, then steadily criticized and put down, and finally dropped."
+},
+{
+"s": "splitting",
+"n": "Splitting",
+"letter": "L",
+"c": "#F05BA0",
+"line": "Love that hooks you",
+"code": "L 24",
+"kind": "Stage: Confuse",
+"d": "Seeing a person or group as all good or all bad, with no middle ground, and flipping that view suddenly after a minor…"
+},
+{
+"s": "confirmation-bias-exploitation",
+"n": "Confirmation Bias Exploitation",
+"letter": "L",
+"c": "#F05BA0",
+"line": "Love that hooks you",
+"code": "L 25",
+"kind": "Stage: Hook",
+"d": "Supplying enough good moments that your own habit of favoring the kinder reading does the work of discounting the harm."
+},
+{
+"s": "premature-exclusivity",
+"n": "Premature Exclusivity",
+"letter": "L",
+"c": "#F05BA0",
+"line": "Love that hooks you",
+"code": "L 26",
+"kind": "Stage: Hook",
+"d": "Pushing someone to commit exclusively and seriously before they have had time to know you well enough to choose freely."
+},
+{
+"s": "orbiting",
+"n": "Orbiting",
+"letter": "L",
+"c": "#F05BA0",
+"line": "Love that hooks you",
+"code": "L 27",
+"kind": "Stage: Replace",
+"d": "Watching from a distance to maintain psychological presence after discard."
+},
+{
+"s": "rescuer-positioning",
+"n": "Rescuer Positioning",
+"letter": "L",
+"c": "#F05BA0",
+"line": "Love that hooks you",
+"code": "L 28",
+"kind": "Stage: Idealize",
+"d": "Presenting as the answer to the target's confusion or fear."
+},
+{
+"s": "identity-hooking",
+"n": "Identity Hooking",
+"letter": "L",
+"c": "#F05BA0",
+"line": "Love that hooks you",
+"code": "L 29",
+"kind": "Stage: Hook",
+"d": "Saying that someone's identity, skills or successes belong to you, so that standing apart from you means giving up the…"
+},
+{
+"s": "replacement-display",
+"n": "Replacement Display",
+"letter": "L",
+"c": "#F05BA0",
+"line": "Love that hooks you",
+"code": "L 30",
+"kind": "Stage: Discard",
+"d": "Publicly showcasing your replacement to signal your disposability."
+},
+{
+"s": "sudden-devaluation",
+"n": "Sudden Devaluation",
+"letter": "L",
+"c": "#F05BA0",
+"line": "Love that hooks you",
+"code": "L 31",
+"kind": "Stage: Discard",
+"d": "An abrupt shift from investment to disposal."
+},
+{
+"s": "shame-installation",
+"n": "Shame Installation",
+"letter": "W",
+"c": "#C06BE0",
+"line": "Put-downs that wear you down",
+"code": "W 01",
+"kind": "Stage: Devalue",
+"d": "Treating a person's mistake as proof that something is wrong with them as a whole, so shame replaces guilt."
+},
+{
+"s": "comparative-devaluation",
+"n": "Comparative Devaluation",
+"letter": "W",
+"c": "#C06BE0",
+"line": "Put-downs that wear you down",
+"code": "W 02",
+"kind": "Stage: Devalue",
+"d": "Holding a person up against someone else, again and again, in a way that always leaves them coming up short."
+},
+{
+"s": "negging",
+"n": "Negging",
+"letter": "W",
+"c": "#C06BE0",
+"line": "Put-downs that wear you down",
+"code": "W 03",
+"kind": "Stage: Devalue",
+"d": "Slipping in a subtle insult, wrapped as a compliment or a joke. You end up feeling a little smaller and a little more…"
+},
+{
+"s": "name-calling-disguised-as-humor",
+"n": "Name-Calling Disguised as Humor",
+"letter": "W",
+"c": "#C06BE0",
+"line": "Put-downs that wear you down",
+"code": "W 04",
+"kind": "Stage: Devalue",
+"d": "Putting an insult or demeaning label inside a joke, so that if you object, you can be accused of overreacting."
+},
+{
+"s": "contempt",
+"n": "Contempt",
+"letter": "W",
+"c": "#C06BE0",
+"line": "Put-downs that wear you down",
+"code": "W 05",
+"kind": "Stage: Devalue",
+"d": "Treating someone with open disgust or superiority. It is aimed at who they are, not at anything they did."
+},
+{
+"s": "performative-public-affection-dr-jekyll-and-mr-hyde",
+"n": "Performative Public Affection / Dr. Jekyll and Mr. Hyde",
+"letter": "W",
+"c": "#C06BE0",
+"line": "Put-downs that wear you down",
+"code": "W 06",
+"kind": "Stage: Idealize",
+"d": "Showing one warm, admired face to the world and another harsh one to a particular person. Nobody else sees how that…"
+},
+{
+"s": "ambient-abuse-atmosphere-control",
+"n": "Ambient Abuse / Atmosphere Control",
+"letter": "W",
+"c": "#C06BE0",
+"line": "Put-downs that wear you down",
+"code": "W 07",
+"kind": "Stage: Confuse",
+"d": "A steady climate of tension, criticism and unpredictability. No single moment looks serious, but the whole leaves a…"
+},
+{
+"s": "emotional-invalidation",
+"n": "Emotional Invalidation",
+"letter": "W",
+"c": "#C06BE0",
+"line": "Put-downs that wear you down",
+"code": "W 08",
+"kind": "Stage: Devalue",
+"d": "Telling someone that what they feel is wrong, silly or not allowed, instead of accepting that they feel it."
+},
+{
+"s": "baiting",
+"n": "Baiting",
+"letter": "W",
+"c": "#C06BE0",
+"line": "Put-downs that wear you down",
+"code": "W 09",
+"kind": "Stage: Devalue",
+"d": "Provoking someone into an angry or upset reaction, then pointing to that reaction as the real problem."
+},
+{
+"s": "you-ve-changed",
+"n": "\"You've Changed\"",
+"letter": "W",
+"c": "#C06BE0",
+"line": "Put-downs that wear you down",
+"code": "W 10",
+"kind": "Stage: Devalue",
+"d": "Your growth, new views or new limits are described as losing your true self, so changing feels like betraying the…"
+},
+{
+"s": "emotional-contamination",
+"n": "Emotional Contamination",
+"letter": "W",
+"c": "#C06BE0",
+"line": "Put-downs that wear you down",
+"code": "W 11",
+"kind": "Stage: Devalue",
+"d": "Ruining positive states through sudden intrusion."
+},
+{
+"s": "exoticization",
+"n": "Exoticization",
+"letter": "W",
+"c": "#C06BE0",
+"line": "Put-downs that wear you down",
+"code": "W 12",
+"kind": "Stage: Devalue",
+"d": "A culture or identity is shown only as costume, festival or novelty, never as ordinary, present and complex."
+},
+{
+"s": "public-exposure",
+"n": "Public Exposure",
+"letter": "W",
+"c": "#C06BE0",
+"line": "Put-downs that wear you down",
+"code": "W 13",
+"kind": "Stage: Discard",
+"d": "Someone embarrasses or puts down a person in front of others, or puts private matters on show, so the audience adds to…"
+},
+{
+"s": "dehumanization",
+"n": "Dehumanization",
+"letter": "W",
+"c": "#C06BE0",
+"line": "Put-downs that wear you down",
+"code": "W 14",
+"kind": "Stage: Devalue",
+"d": "Dehumanization reduces a person to a label, a number or a problem, so decisions about them leave no room for their…"
+},
+{
+"s": "objectification",
+"n": "Objectification",
+"letter": "W",
+"c": "#C06BE0",
+"line": "Put-downs that wear you down",
+"code": "W 15",
+"kind": "Stage: Devalue",
+"d": "Treating a person as a tool, a body or a source of output, so that only what they supply seems to count about them."
+},
+{
+"s": "conditional-love",
+"n": "Conditional Love",
+"letter": "W",
+"c": "#C06BE0",
+"line": "Put-downs that wear you down",
+"code": "W 16",
+"kind": "Stage: Devalue",
+"d": "Treating a person's value as something that rises and falls with their usefulness and their willingness to comply."
+},
+{
+"s": "internalized-conditioning",
+"n": "Internalized Conditioning",
+"letter": "W",
+"c": "#C06BE0",
+"line": "Put-downs that wear you down",
+"code": "W 17",
+"kind": "Pattern",
+"d": "Following rules and reactions that once came from another person. Now they are enforced from inside your own head…"
+},
+{
+"s": "pre-punishment",
+"n": "Pre-Punishment",
+"letter": "W",
+"c": "#C06BE0",
+"line": "Put-downs that wear you down",
+"code": "W 18",
+"kind": "Pattern",
+"d": "You hold yourself back before anyone else can, by not applying, speaking or trying, because past experience taught you…"
+},
+{
+"s": "silence-installation",
+"n": "Silence Installation",
+"letter": "W",
+"c": "#C06BE0",
+"line": "Put-downs that wear you down",
+"code": "W 19",
+"kind": "Pattern",
+"d": "A learned inability to speak about specific things. Naming them brings dread, because raising them has repeatedly cost…"
+},
+{
+"s": "fawning",
+"n": "Fawning",
+"letter": "W",
+"c": "#C06BE0",
+"line": "Put-downs that wear you down",
+"code": "W 20",
+"kind": "Pattern",
+"d": "Responding to a threatening person by pleasing them, agreeing and shrinking yourself, as an automatic way to stay safe."
+},
+{
+"s": "identity-erosion",
+"n": "Identity Erosion",
+"letter": "W",
+"c": "#C06BE0",
+"line": "Put-downs that wear you down",
+"code": "W 21",
+"kind": "Pattern",
+"d": "Inside a relationship, your tastes, opinions, limits and friendships slowly fade, until the person you used to be is…"
+},
+{
+"s": "learned-helplessness",
+"n": "Learned Helplessness",
+"letter": "W",
+"c": "#C06BE0",
+"line": "Put-downs that wear you down",
+"code": "W 22",
+"kind": "Pattern",
+"d": "Repeatedly telling someone they could not cope alone, until they start to believe it and stop trying."
+},
+{
+"s": "parentification",
+"n": "Parentification",
+"letter": "W",
+"c": "#C06BE0",
+"line": "Put-downs that wear you down",
+"code": "W 23",
+"kind": "Stage: Replace",
+"d": "A child or partner is put in the permanent role of caring for an adult's feelings, practical needs and crises, at the…"
+},
+{
+"s": "self-gaslighting-induction",
+"n": "Self-Gaslighting Induction",
+"letter": "W",
+"c": "#C06BE0",
+"line": "Put-downs that wear you down",
+"code": "W 24",
+"kind": "Pattern",
+"d": "The habit of doubting your own memory and perception on reflex, long after anyone else has needed to challenge it."
+},
+{
+"s": "approval-addiction-cultivation",
+"n": "Approval Addiction Cultivation",
+"letter": "W",
+"c": "#C06BE0",
+"line": "Put-downs that wear you down",
+"code": "W 25",
+"kind": "Pattern",
+"d": "Coming to depend on one person's approval, often built through warmth that comes and goes unpredictably. In the end…"
+},
+{
+"s": "the-good-woman-program",
+"n": "The \"Good Woman Program\"",
+"letter": "W",
+"c": "#C06BE0",
+"line": "Put-downs that wear you down",
+"code": "W 26",
+"kind": "Pattern",
+"d": "Unspoken rules reward women for going along and giving things up, and make them pay for being direct, setting…"
+},
+{
+"s": "toxic-positivity-weaponized-optimism",
+"n": "Toxic Positivity / Weaponized Optimism",
+"letter": "W",
+"c": "#C06BE0",
+"line": "Put-downs that wear you down",
+"code": "W 27",
+"kind": "Stage: Confuse",
+"d": "Toxic positivity insists on cheer in answer to real pain or a real complaint, so the feeling becomes the problem and…"
+},
+{
+"s": "accountability-evasion-via-diagnosis-trash-can-diagnosis",
+"n": "Accountability Evasion via Diagnosis / Trash-Can Diagnosis",
+"letter": "W",
+"c": "#C06BE0",
+"line": "Put-downs that wear you down",
+"code": "W 28",
+"kind": "Stage: Confuse",
+"d": "Using a mental-health label about someone as an insult, a verdict, or a way to treat their limits and reactions as…"
+},
+{
+"s": "phobia-indoctrination-catastrophizing",
+"n": "Phobia Indoctrination / Catastrophizing",
+"letter": "M",
+"c": "#A2C23A",
+"line": "Groups, cults and propaganda",
+"code": "M 01",
+"kind": "Stage: Control",
+"d": "Intense, out-of-proportion dread attached to actions like leaving, disagreeing or trusting outsiders, until avoiding…"
+},
+{
+"s": "dispensing-of-existence",
+"n": "Dispensing of Existence",
+"letter": "M",
+"c": "#A2C23A",
+"line": "Groups, cults and propaganda",
+"code": "M 02",
+"kind": "Stage: Devalue",
+"d": "A group's doctrine sorts people by who deserves to exist or counts as fully human, which makes harm to outsiders…"
+},
+{
+"s": "demand-for-purity",
+"n": "Demand for Purity",
+"letter": "M",
+"c": "#A2C23A",
+"line": "Groups, cults and propaganda",
+"code": "M 03",
+"kind": "Pattern",
+"d": "Setting a standard of moral perfection that no one can meet, which leaves members ashamed and looking only to the…"
+},
+{
+"s": "doctrine-over-person",
+"n": "Doctrine Over Person",
+"letter": "M",
+"c": "#A2C23A",
+"line": "Groups, cults and propaganda",
+"code": "M 04",
+"kind": "Stage: Control",
+"d": "Teaching members that if their own experience, memory or conscience contradicts the group's doctrine, then the…"
+},
+{
+"s": "thought-control",
+"n": "Thought Control",
+"letter": "M",
+"c": "#A2C23A",
+"line": "Groups, cults and propaganda",
+"code": "M 05",
+"kind": "Pattern",
+"d": "Controlling the words, explanations and conclusions a person may use, so doubt is labeled a symptom and only one…"
+},
+{
+"s": "sacred-science",
+"n": "Sacred Science",
+"letter": "M",
+"c": "#A2C23A",
+"line": "Groups, cults and propaganda",
+"code": "M 06",
+"kind": "Stage: Control",
+"d": "Treating the group's doctrine as beyond question, so a doubt is read as a flaw in the doubter and the claim goes…"
+},
+{
+"s": "charismatic-authority-dependence",
+"n": "Charismatic Authority Dependence",
+"letter": "M",
+"c": "#A2C23A",
+"line": "Groups, cults and propaganda",
+"code": "M 07",
+"kind": "Stage: Hook",
+"d": "Making a single leader the only trusted source of truth, meaning and safety, so that winning the leader's approval…"
+},
+{
+"s": "milieu-control",
+"n": "Milieu Control",
+"letter": "M",
+"c": "#A2C23A",
+"line": "Groups, cults and propaganda",
+"code": "M 08",
+"kind": "Pattern",
+"d": "A group's tight control over what members can read, hear and discuss and whom they see, so the group becomes their…"
+},
+{
+"s": "echo-chamber-construction",
+"n": "Echo Chamber Construction",
+"letter": "M",
+"c": "#A2C23A",
+"line": "Groups, cults and propaganda",
+"code": "M 09",
+"kind": "Stage: Isolate",
+"d": "Arranging what another person reads, hears and talks about so they mostly meet one view and see every other source as…"
+},
+{
+"s": "information-cascades",
+"n": "Information Cascades",
+"letter": "M",
+"c": "#A2C23A",
+"line": "Groups, cults and propaganda",
+"code": "M 10",
+"kind": "Pattern",
+"d": "A belief or reputation spreads because each person sees others accepting it, so agreement takes the place of anyone…"
+},
+{
+"s": "controlled-opposition",
+"n": "Controlled Opposition",
+"letter": "M",
+"c": "#A2C23A",
+"line": "Groups, cults and propaganda",
+"code": "M 11",
+"kind": "Stage: Control",
+"d": "A protest group, critic or movement secretly funded, steered or shaped by the power it seems to oppose, so dissent…"
+},
+{
+"s": "astroturfing-sock-puppets",
+"n": "Astroturfing / Sock Puppets",
+"letter": "M",
+"c": "#A2C23A",
+"line": "Groups, cults and propaganda",
+"code": "M 12",
+"kind": "Stage: Confuse",
+"d": "Making a campaign look like spontaneous public support when it is staged, funded or run by a hidden sponsor."
+},
+{
+"s": "agent-of-influence-operations",
+"n": "Agent of Influence Operations",
+"letter": "M",
+"c": "#A2C23A",
+"line": "Groups, cults and propaganda",
+"code": "M 13",
+"kind": "Stage: Hook",
+"d": "A public figure, such as a journalist, academic, politician or executive, who is secretly guided by an outside party…"
+},
+{
+"s": "honey-trapping",
+"n": "Honey Trapping",
+"letter": "M",
+"c": "#A2C23A",
+"line": "Groups, cults and propaganda",
+"code": "M 14",
+"kind": "Pattern",
+"d": "Using a romantic or sexual relationship as cover for an intelligence aim, like getting secrets, recruiting someone, or…"
+},
+{
+"s": "strategic-deception-denial-deception-d-d",
+"n": "Strategic Deception (Denial & Deception / D&D)",
+"letter": "M",
+"c": "#A2C23A",
+"line": "Groups, cults and propaganda",
+"code": "M 15",
+"kind": "Pattern",
+"d": "Organized efforts by a state or institution to hide what is real and show something false, so an opponent plans…"
+},
+{
+"s": "cyber-manipulation-operations-cmos",
+"n": "Cyber Manipulation Operations (CMOs)",
+"letter": "M",
+"c": "#A2C23A",
+"line": "Groups, cults and propaganda",
+"code": "M 16",
+"kind": "Stage: Confuse",
+"d": "Quietly changing, inventing or deleting data inside a system, so people make decisions based on records they believe…"
+},
+{
+"s": "strategic-leaking",
+"n": "Strategic Leaking",
+"letter": "M",
+"c": "#A2C23A",
+"line": "Groups, cults and propaganda",
+"code": "M 17",
+"kind": "Stage: Confuse",
+"d": "Releasing sensitive information through channels that look unauthorized, so a planned disclosure looks like a secret…"
+},
+{
+"s": "false-flag-operations",
+"n": "False Flag Operations",
+"letter": "M",
+"c": "#A2C23A",
+"line": "Groups, cults and propaganda",
+"code": "M 18",
+"kind": "Stage: Confuse",
+"d": "Arranging an event to look like another group's work, so a response seems justified or the blamed party is harmed."
+},
+{
+"s": "computational-propaganda",
+"n": "Computational Propaganda",
+"letter": "M",
+"c": "#A2C23A",
+"line": "Groups, cults and propaganda",
+"code": "M 19",
+"kind": "Pattern",
+"d": "Using bots, fake accounts and automated tools to flood public talk with political messages posing as real opinion, at…"
+},
+{
+"s": "manufactured-consent",
+"n": "Manufactured Consent",
+"letter": "M",
+"c": "#A2C23A",
+"line": "Groups, cults and propaganda",
+"code": "M 20",
+"kind": "Stage: Control",
+"d": "Steering what the public sees and hears so that agreement with a decision looks like free choice when it was guided."
+},
+{
+"s": "post-truth-epistemic-manipulation",
+"n": "Post-Truth Epistemic Manipulation",
+"letter": "M",
+"c": "#A2C23A",
+"line": "Groups, cults and propaganda",
+"code": "M 21",
+"kind": "Pattern",
+"d": "A flood of contradictions and denials that wears down belief in knowable facts, until people trust no source and…"
+},
+{
+"s": "information-laundering",
+"n": "Information Laundering",
+"letter": "M",
+"c": "#A2C23A",
+"line": "Groups, cults and propaganda",
+"code": "M 22",
+"kind": "Stage: Confuse",
+"d": "Passing a false or unverified claim through a series of apparently credible sources until it looks like established…"
+},
+{
+"s": "forced-confession-self-criticism-rituals",
+"n": "Forced Confession / Self-Criticism Rituals",
+"letter": "M",
+"c": "#A2C23A",
+"line": "Groups, cults and propaganda",
+"code": "M 23",
+"kind": "Stage: Control",
+"d": "Required, repeated sharing of faults, doubts or past wrongs with the group, which brings shame and gives the group…"
+},
+{
+"s": "humiliation-rituals",
+"n": "Humiliation Rituals",
+"letter": "M",
+"c": "#A2C23A",
+"line": "Groups, cults and propaganda",
+"code": "M 24",
+"kind": "Stage: Discard",
+"d": "A formal routine of shaming people in front of others, presented as initiation or growth, where the pain is treated as…"
+},
+{
+"s": "mystical-manipulation",
+"n": "Mystical Manipulation",
+"letter": "M",
+"c": "#A2C23A",
+"line": "Groups, cults and propaganda",
+"code": "M 25",
+"kind": "Stage: Hook",
+"d": "Staging events that look spontaneous or divine, like visions, healings or signs, to persuade members that a leader…"
+},
+{
+"s": "coordinated-reporting",
+"n": "Coordinated Reporting",
+"letter": "O",
+"c": "#17BDB0",
+"line": "Online and technology",
+"code": "O 01",
+"kind": "Stage: Replace",
+"d": "Organized mass reporting of an account or post, often on false grounds, to get a platform to remove or restrict it."
+},
+{
+"s": "doxxing",
+"n": "Doxxing",
+"letter": "O",
+"c": "#17BDB0",
+"line": "Online and technology",
+"code": "O 02",
+"kind": "Stage: Replace",
+"d": "Publishing a person's private details, such as a home address or workplace, so others can find or harass them."
+},
+{
+"s": "ai-voice-cloning",
+"n": "AI Voice Cloning",
+"letter": "O",
+"c": "#17BDB0",
+"line": "Online and technology",
+"code": "O 03",
+"kind": "Stage: Replace",
+"d": "Software-made copies of a real person's voice, used to impersonate them in calls, messages or recordings."
+},
+{
+"s": "social-engineering",
+"n": "Social Engineering",
+"letter": "O",
+"c": "#17BDB0",
+"line": "Online and technology",
+"code": "O 04",
+"kind": "Stage: Idealize",
+"d": "Getting someone to hand over information, access or action by playing on their trust, urgency or habits, usually with…"
+},
+{
+"s": "account-control",
+"n": "Account Control",
+"letter": "O",
+"c": "#17BDB0",
+"line": "Online and technology",
+"code": "O 05",
+"kind": "Stage: Control",
+"d": "Taking over someone's email, social media, banking or cloud accounts, so they are watched, spoken for and cut off from…"
+},
+{
+"s": "black-box-decisions",
+"n": "Black-Box Decisions",
+"letter": "O",
+"c": "#17BDB0",
+"line": "Online and technology",
+"code": "O 06",
+"kind": "Stage: Control",
+"d": "Consequential decisions come from a system whose workings cannot be seen, explained or meaningfully questioned."
+},
+{
+"s": "algorithmic-manipulation",
+"n": "Algorithmic Manipulation",
+"letter": "O",
+"c": "#17BDB0",
+"line": "Online and technology",
+"code": "O 07",
+"kind": "Stage: Control",
+"d": "Using feed ranking and recommendation systems to steer what a person sees and feels, in ways they cannot inspect or…"
+},
+{
+"s": "algorithmic-targeting-of-vulnerable-populations",
+"n": "Algorithmic Targeting of Vulnerable Populations",
+"letter": "O",
+"c": "#17BDB0",
+"line": "Online and technology",
+"code": "O 08",
+"kind": "Stage: Hook",
+"d": "Finding people in a weak moment through their data, then targeting them with exploitative offers, scams or harmful…"
+},
+{
+"s": "biometric-exploitation",
+"n": "Biometric Exploitation",
+"letter": "O",
+"c": "#17BDB0",
+"line": "Online and technology",
+"code": "O 09",
+"kind": "Stage: Control",
+"d": "Reading someone's face, voice or body signals in real time, often without clear knowledge, to time or tune an attempt…"
+},
+{
+"s": "dark-patterns-ai-adaptive",
+"n": "Dark Patterns (AI-Adaptive)",
+"letter": "O",
+"c": "#17BDB0",
+"line": "Online and technology",
+"code": "O 10",
+"kind": "Pattern",
+"d": "Screen designs that push people into purchases, data sharing or consent they did not intend, and that change to fit…"
+},
+{
+"s": "immersive-manipulation-vr-ar",
+"n": "Immersive Manipulation (VR/AR)",
+"letter": "O",
+"c": "#17BDB0",
+"line": "Online and technology",
+"code": "O 11",
+"kind": "Stage: Confuse",
+"d": "Using virtual or augmented reality experiences to make staged scenarios seem real enough to shape someone's fears…"
+},
+{
+"s": "parasocial-manipulation-engineering",
+"n": "Parasocial Manipulation Engineering",
+"letter": "O",
+"c": "#17BDB0",
+"line": "Online and technology",
+"code": "O 12",
+"kind": "Stage: Hook",
+"d": "Building a one-sided feeling of friendship or closeness with an audience, then using it to draw out loyalty, money…"
+},
+{
+"s": "buried-consent",
+"n": "Buried Consent",
+"letter": "O",
+"c": "#17BDB0",
+"line": "Online and technology",
+"code": "O 13",
+"kind": "Stage: Hook",
+"d": "Agreement is collected through long, vague or scattered terms that no ordinary person can realistically read, then…"
+},
+{
+"s": "forced-continuity",
+"n": "Forced Continuity",
+"letter": "O",
+"c": "#17BDB0",
+"line": "Online and technology",
+"code": "O 14",
+"kind": "Stage: Hook",
+"d": "A free or low-cost start turns into ongoing payment or commitment without a clear moment where you choose to continue."
+},
+{
+"s": "gamified-compulsion",
+"n": "Gamified Compulsion",
+"letter": "O",
+"c": "#17BDB0",
+"line": "Online and technology",
+"code": "O 15",
+"kind": "Stage: Hook",
+"d": "Streaks, badges, levels and progress bars make stopping feel like losing something already earned."
+},
+{
+"s": "persistent-nagging",
+"n": "Persistent Nagging",
+"letter": "O",
+"c": "#17BDB0",
+"line": "Online and technology",
+"code": "O 16",
+"kind": "Stage: Hook",
+"d": "The same request or prompt keeps coming back, with no way to make it stop, until giving in is easier than saying no…"
+},
+{
+"s": "pig-butchering-long-con-digital-fraud",
+"n": "Pig Butchering (Long-Con Digital Fraud)",
+"letter": "O",
+"c": "#17BDB0",
+"line": "Online and technology",
+"code": "O 17",
+"kind": "Pattern",
+"d": "A slow online fraud where a stranger wins your trust over weeks or months, then steers you into a fake investment or…"
+},
+{
+"s": "catfishing",
+"n": "Catfishing",
+"letter": "O",
+"c": "#17BDB0",
+"line": "Online and technology",
+"code": "O 18",
+"kind": "Stage: Idealize",
+"d": "Building an online relationship behind a made-up identity, such as borrowed photos or an invented life story, so…"
+},
+{
+"s": "context-poisoning",
+"n": "Context Poisoning",
+"letter": "O",
+"c": "#17BDB0",
+"line": "Online and technology",
+"code": "O 19",
+"kind": "Stage: Confuse",
+"d": "Planting misleading or tampered material in shared information sources, or in AI training data, so that later readers…"
+},
+{
+"s": "data-harvesting",
+"n": "Data Harvesting",
+"letter": "O",
+"c": "#17BDB0",
+"line": "Online and technology",
+"code": "O 20",
+"kind": "Stage: Control",
+"d": "Detailed information about behavior, location, feelings or performance is collected continuously and built into a…"
+},
+{
+"s": "data-onward-sharing",
+"n": "Data Onward Sharing",
+"letter": "O",
+"c": "#17BDB0",
+"line": "Online and technology",
+"code": "O 21",
+"kind": "Stage: Control",
+"d": "Information collected for one purpose is passed, sold or shown to others, often described as anonymized, without the…"
+},
+{
+"s": "swatting",
+"n": "Swatting",
+"letter": "O",
+"c": "#17BDB0",
+"line": "Online and technology",
+"code": "O 22",
+"kind": "Stage: Discard",
+"d": "A false emergency report brings an armed or emergency response to someone's home or school, using the authorities as a…"
+},
+{
+"s": "uncorrected-record",
+"n": "Uncorrected Record",
+"letter": "O",
+"c": "#17BDB0",
+"line": "Online and technology",
+"code": "O 23",
+"kind": "Stage: Discard",
+"d": "The accusation is public, loud and lasting, while any correction is quiet or missing, so the first version stays."
+},
+{
+"s": "intimate-image-abuse",
+"n": "Intimate Image Abuse",
+"letter": "O",
+"c": "#17BDB0",
+"line": "Online and technology",
+"code": "O 24",
+"kind": "Stage: Replace",
+"d": "Sharing or threatening to share private sexual images of someone without consent, including fake ones, often with a…"
+},
+{
+"s": "reputation-hijacking",
+"n": "Reputation Hijacking",
+"letter": "O",
+"c": "#17BDB0",
+"line": "Online and technology",
+"code": "O 25",
+"kind": "Stage: Isolate",
+"d": "Someone takes control of how you are presented in public, speaking for you or reshaping your image, so your own…"
+}
+]

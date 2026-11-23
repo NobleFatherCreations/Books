@@ -109,9 +109,15 @@ const contrast = (a, b) => { const L = c => { c = c.map(v => v / 255).map(v => v
     await ctx.close(); }
   { const site = path.dirname(file), rd = f => fs.readFileSync(path.join(site, f), "utf8"), bad = [];
     for (const f of ["index.html", "gaslighting.html", "line-truth.html", "tactics.html"]) { const h = rd(f);
-      if (!/<meta property="og:image" content="https:\/\/noblefathercreations\.com\/playbook\/f\/og\.png">/.test(h)) bad.push(f + ": og:image"); if (!/twitter:card" content="summary_large_image"/.test(h)) bad.push(f + ": twitter card");
+      const og = f === "gaslighting.html" ? "og\\/gaslighting\\.jpg" : "f\\/og\\.png";   /* v21: each tactic has its own card */
+      if (!new RegExp('<meta property="og:image" content="https://noblefathercreations\\.com/playbook/' + og + '">').test(h)) bad.push(f + ": og:image"); if (!/twitter:card" content="summary_large_image"/.test(h)) bad.push(f + ": twitter card");
       if (/noindex|nofollow/.test(h)) bad.push(f + ": robots block"); if (f !== "index.html" && !/"dateModified": "20\d\d-\d\d-\d\d"/.test(h)) bad.push(f + ": dateModified"); }
     const png = fs.readFileSync(path.join(site, "f", "og.png")); if (png.readUInt32BE(16) !== 1200 || png.readUInt32BE(20) !== 630) bad.push("og.png is not 1200x630");
+    { const jpg = fs.readFileSync(path.join(site, "og", "gaslighting.jpg")); let i = 2, ok = false;   /* read the JPEG frame size */
+      while (i < jpg.length) { const m = jpg[i + 1], len = jpg.readUInt16BE(i + 2); if (m >= 0xC0 && m <= 0xC2) { ok = jpg.readUInt16BE(i + 5) === 630 && jpg.readUInt16BE(i + 7) === 1200; break; } i += 2 + len; }
+      if (!ok) bad.push("og/gaslighting.jpg is not 1200x630");
+      const cards = fs.readdirSync(path.join(site, "og")).length, tact = (rd("sitemap.xml").match(/<loc>/g) || []).length;
+      if (cards < 300) bad.push("only " + cards + " share cards"); if (!fs.existsSync(path.join(site, "llms-full.txt"))) bad.push("no llms-full.txt"); }
     const ll = rd("llms.txt"); if ((ll.match(/\]\(https:\/\/noblefathercreations\.com\/playbook\/line-/g) || []).length !== 10 || !/sitemap\.xml/.test(ll)) bad.push("llms.txt");
     T("findable (v19): link-preview image (1200x630) and large card on every kind of page, dateModified on plain pages, llms.txt maps the ten lines", !bad.length, bad.join("; ")); }
 

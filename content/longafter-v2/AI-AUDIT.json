@@ -1241,12 +1241,12 @@
    "tools": false
   },
   "drinking-drugs-and-getting-through": {
-   "words": 980,
+   "words": 867,
    "tells_per_1000": 0.0,
    "burstiness": 6.3,
-   "para_spread": 14.2,
-   "contractions_per_100": 2.4,
-   "you_per_100": 3.5,
+   "para_spread": 14.6,
+   "contractions_per_100": 2.5,
+   "you_per_100": 3.3,
    "soft_words": 0,
    "findings": {
     "dash": 0,
@@ -1823,7 +1823,7 @@
    "tools": true
   },
   "a-to-z": {
-   "words": 1260,
+   "words": 1281,
    "tells_per_1000": 0.0,
    "burstiness": 5.3,
    "para_spread": 4.2,

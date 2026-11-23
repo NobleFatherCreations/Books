@@ -30,6 +30,7 @@ step "4 hub files";       python3 scripts/seo/build_site.py | tail -2
 git checkout -- hub/og.png hub/catalogue-redesign.html 2>/dev/null || true   # build_site re-renders these; keep them unless the homepage is the job
 step "5 SEO";             python3 scripts/seo/verify_seo.py longafter | tail -2
 python3 scripts/seo/onpage_longafter.py | tail -1
+python3 scripts/decoder-relink.py --check || { echo "book links point at old Decoder addresses: run python3 scripts/decoder-relink.py"; exit 1; }
 SCHEMA="${SCHEMAORG:-$OUT/schemaorg.jsonld}"
 if [[ ! -s "$SCHEMA" ]]; then curl -fsSL -o "$SCHEMA" https://schema.org/version/latest/schemaorg-current-https.jsonld || true; fi
 if [[ -s "$SCHEMA" ]]; then python3 scripts/seo/validate_schema.py "$SCHEMA" | tail -1; else echo "schema vocabulary not reachable: schema check skipped"; fi

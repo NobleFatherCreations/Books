@@ -28,13 +28,15 @@ A10 = os.path.join(HERE, "decoder-v10", "assets")
 sys.path.insert(0, HERE)
 import decoder_pages as pages  # noqa: E402  (plain per-tactic pages, v16)
 import decoder_v20  # noqa: E402  (standard list of 335, v20)
+import decoder_v21  # noqa: E402  (aliases, sources, routes, real dates, v21)
 
 _spec = importlib.util.spec_from_file_location("v10", os.path.join(HERE, "build-decoder-v10.py"))
 v10 = importlib.util.module_from_spec(_spec); _spec.loader.exec_module(v10)
 
-VERSION = "v20"
-DATE = "2026-11-09"
+VERSION = "v21"
+DATE = "2026-11-23"
 UPDATES = [
+    "<strong>Deeper pages and checked sources (v21).</strong> Every tactic page now shows the parts that help you read a situation fairly: what it is not, ordinary explanations to rule out first, common false alarms, what makes it more worrying, and signs it has become a pattern, plus how it works and what real repair would look like. Tactics link up to the patterns they belong to and to the routes where they come up, and each route now has its own page. 86 entries list published research or where their name comes from, each source checked before it was added. Five more books (The Long After, The Silence, At Will, The Repair and The Slow Take) now show where each tactic comes up in them. Safety notes link to helplines by country, more everyday names find the right entry in search, and each page shows the date it last changed.",
     "<strong>The standard list (v20).</strong> The guide now holds 335 single tactics, one entry for each distinct move, with 110 new ones added. Where two entries described the same move they are now one, under its standard name, and every old name still finds it in search and at its old address. Gaslighting, DARVO, FOG, Trauma Bonding and the other big names are now marked as patterns, each showing the single tactics it is made of, and they keep their pages. Every tactic now shows its stage (Idealize to Replace) and its standard number, and lists the chapters in the books where it comes up.",
     "<strong>One scroll, no map (v19).</strong> Each tactic is now one page you scroll down, with a slim index at the top that jumps to its four parts: Is this it?, Understand, What to do and Go deeper. The four tabs, the step bar and the swipe are gone. The map of dots and lines is gone too: Browse lists the ten lines and every tactic in plain rows, and search sits on the first page. Colour is quieter to begin with (Vivid is in Settings), the top and bottom bars are frosted so the page slides under them, and the bottom bar slides away while you read down and returns when you scroll up.",
     "<strong>More room to read on a phone (v18).</strong> While you read down a tactic, only the slim step bar stays at the bottom of the screen; scroll up and the four buttons and Back to top come back. Share and Print now sit under More, two look-alikes compare one above the other on a phone, the daytime look uses the same warm gold as the night one, and a stray quote mark in a few comparisons is fixed.",
@@ -352,6 +354,14 @@ def main():
     entries, by, recipes, aliases, narrow, common, redirects = decoder_v20.transform(entries, recipes, aliases, narrow, common)
     nsingle = sum(1 for e in entries if "pt" not in e)
     pages.BOOKREFS = decoder_v20.book_mentions(redirects)
+    n_alias = decoder_v21.apply_aliases(entries, aliases)
+    pages.RESEARCH = decoder_v21.research()
+    pages.PARENTS = decoder_v21.parents(entries)
+    pages.ROUTES = decoder_v21.routes_of(recipes)
+    pages.RECIPES = recipes
+    pages.STAMP = decoder_v21.stamp
+    unknown = [n for n in pages.RESEARCH if n not in by]
+    if unknown: print("SOURCES NAME UNKNOWN ENTRIES:", unknown); sys.exit(1)
 
     groups = [(k, l, b) for k, l, b in v10.GROUPS if any(e["g"] == k for e in entries)]
     keys = order_columns([k for k, _, _ in groups], by, entries)
@@ -425,13 +435,13 @@ def main():
         written, urls = pages.write_site(site, html, entries, lines, read(A10, "house.html"), read(A10, "beacon.html"),
                                          read(A10, "brand-logo.txt").strip(), A15, DATE)
         text_of = lambda t: re.sub(r"<(style|script)\b.*?</\1>", "", t, flags=re.S)   # CSS and JS braces are not placeholders
-        bad = [n for n, t in written.items() if n != "index.html" and (PLACEHOLDER.search(text_of(t)) or "noindex" in t)]
+        bad = [n for n, t in written.items() if n not in ("index.html", "404.html") and (PLACEHOLDER.search(text_of(t)) or "noindex" in t)]
         bad += [e["n"] for e in entries if e["s"] + ".html" not in written]
         with open(os.path.join(site, "_redirects"), "w", encoding="utf-8") as fh:
             fh.write(decoder_v20.redirects_file(redirects))
-        if bad or len(urls) != len(entries) + len(lines) + 3:
+        if bad or len(urls) != len(entries) + len(lines) + len(recipes) + 5:
             print("PLAIN PAGES FAILED:", bad[:10], len(urls)); sys.exit(1)
-        print(f"plain pages: {len(written) - 1} written ({len(entries)} tactics, {len(lines)} lines, 1 index), sitemap {len(urls)} addresses")
+        print(f"plain pages: {len(written) - 1} written ({len(entries)} tactics, {len(lines)} lines, {len(recipes)} routes, indexes, about, 404), sitemap {len(urls)} addresses; {n_alias} names added; sources on {len(pages.RESEARCH)} entries")
     print("pre-compile gate: all", len(entries), "entries checked and read back from the page, byte for byte")
     print(f"wrote {os.path.relpath(a.out, ROOT)}  {len(html.encode())//1024} KB  entries {len(entries)}  "
           f"index {len(js_json(payload).encode())//1024} KB  css {len(read(V15,'app.css').encode())//1024} KB  js {len(read(V15,'app.js').encode())//1024} KB")

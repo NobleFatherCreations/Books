@@ -99,7 +99,7 @@ Rhythm: pages with machine-even sentence lengths (spread under 4 words): 0 []. A
 | memory | 0.0 | 6.7 | 17.3 | 3.5 | bold label list item 5, over 25 words 3, saying (pull quote) 1 |
 | sleep | 0.0 | 6.9 | 99 | 2.1 | bold label list item 9, triad 2, over 25 words 2 |
 | getting-sick-after-leaving | 0.0 | 8.8 | 5.0 | 2.3 | bold label list item 4, over 25 words 4, triad 2, saying (pull quote) 1 |
-| drinking-drugs-and-getting-through | 0.0 | 6.3 | 14.2 | 2.4 | bold label list item 14, over 25 words 2, saying (pull quote) 1, triad 1 |
+| drinking-drugs-and-getting-through | 0.0 | 6.3 | 14.6 | 2.5 | bold label list item 14, over 25 words 2, saying (pull quote) 1, triad 1 |
 | finding-a-therapist-who-understands-this | 0.0 | 8.6 | 17.9 | 2.7 | bold label list item 15, over 25 words 5 |
 | the-friends-who-did-and-are-tired | 0.0 | 8.7 | 99 | 3.2 | bold label list item 10, over 25 words 3, one-line closer 1, saying (pull quote) 1, triad 1 |
 | telling-someone-new | 0.0 | 5.8 | 18.1 | 4.2 | bold label list item 8, over 25 words 2, saying (pull quote) 1 |

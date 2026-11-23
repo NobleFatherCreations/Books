@@ -90,9 +90,13 @@ def llms(sites):
             guide_slugs = {S.slugify(g["role"], 40) for g in fb.data_of(S.read(S.ROOT / "library/festival/index.html"))["guides"]}
             pages = [p for p in pages if p[1].rsplit("/", 1)[-1] in guide_slugs]
         lines += [f"- [{t}]({u})" + (f": {d}" if b == "longafter" and d else "") for t, u, d in pages]
+    dl = S.read(S.ROOT / "instruments/playbook/site/llms.txt")
+    m = re.search(r"guide to (\d+) manipulation and control tactics and (\d+) patterns", dl)
+    count = f"{m.group(1)} manipulation and control tactics and {m.group(2)} patterns" if m else "manipulation and control tactics"
     lines += ["", "## Tools", "",
-              f"- [The Pattern Decoder]({S.DOMAIN}/playbook): 310 manipulation and control tactics, each with its own page "
-              f"(signs, what it is, what to do). Every tactic: {S.DOMAIN}/playbook/tactics",
+              f"- [The Pattern Decoder]({S.DOMAIN}/playbook): {count}, each with its own page "
+              f"(signs both ways, what you can do, checked sources). Every tactic: {S.DOMAIN}/playbook/tactics. "
+              f"Full list for assistants: {S.DOMAIN}/playbook/llms.txt",
               f"- [The Root]({S.DOMAIN}/shadowroot): {by['shadowroot'].get('tagline', 'A shadow work practice')}",
               f"- [The Listening Room]({S.DOMAIN}/music): free original music", ""]
     lines += ["", "## Optional", "", f"- [Home]({S.DOMAIN}/): the whole catalogue",

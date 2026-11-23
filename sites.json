@@ -149,8 +149,13 @@
         "found": false,
         "checkedAt": "2026-08-02"
       },
-      "version": "v20",
+      "version": "v21",
       "changelog": [
+        {
+          "date": "2026-11-23",
+          "version": "v21",
+          "summary": "Built, not yet deployed (deploys with The Long After, the hub and the books on the owner's words). Plain pages now show all 21 parts of every entry (what it is not, ordinary explanations, false alarms, more worrying if, pattern over time, how it works, impact, repair and boundary checks); answer box with key signs; tactics link up to their patterns and to 109 new route pages; 'Research behind this' on 86 entries from 69 sources each verified against Crossref or Open Library and labelled; five more books in 'Where this comes up' with one row per book and the rest folded; 121 book links point straight at current addresses; 55 more 'Also called' names; safety boxes link to helplines by country; per-page share cards; real per-page dates; llms.txt lists every entry and llms-full.txt added; FAQ and citation structured data; About page; 404 page; titles kept under 60 characters."
+        },
         {
           "date": "2026-11-09",
           "version": "v20",

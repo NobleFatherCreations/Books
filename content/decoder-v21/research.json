@@ -1,0 +1,639 @@
+{
+ "Gaslighting": [
+  {
+   "cite": "Sweet (2019). The Sociology of Gaslighting. *American Sociological Review*.",
+   "url": "https://doi.org/10.1177/0003122419874843",
+   "label": "Research"
+  }
+ ],
+ "DARVO": [
+  {
+   "cite": "Freyd (1997). Violations of Power, Adaptive Blindness and Betrayal Trauma Theory. *Feminism & Psychology*.",
+   "url": "https://doi.org/10.1177/0959353597071004",
+   "label": "Where the name comes from"
+  },
+  {
+   "cite": "Harsey et al. (2017). Perpetrator Responses to Victim Confrontation: DARVO and Victim Self-Blame. *Journal of Aggression, Maltreatment & Trauma*.",
+   "url": "https://doi.org/10.1080/10926771.2017.1320777",
+   "label": "Research"
+  }
+ ],
+ "Institutional Betrayal": [
+  {
+   "cite": "Smith and Freyd (2014). Institutional betrayal. *American Psychologist*.",
+   "url": "https://doi.org/10.1037/a0037564",
+   "label": "Where the name comes from"
+  }
+ ],
+ "Trauma Bonding": [
+  {
+   "cite": "Dutton and Painter (1993). Emotional Attachments in Abusive Relationships: A Test of Traumatic Bonding Theory. *Violence and Victims*.",
+   "url": "https://doi.org/10.1891/0886-6708.8.2.105",
+   "label": "Research"
+  },
+  {
+   "cite": "Patrick Carnes (1997). *The Betrayal Bond*.",
+   "url": "https://openlibrary.org/works/OL2654209W",
+   "label": "Popular book"
+  }
+ ],
+ "Intermittent Reinforcement / Push-Pull": [
+  {
+   "cite": "Charles B. Ferster (1957). *Schedules of Reinforcement*.",
+   "url": "https://openlibrary.org/works/OL6445502W",
+   "label": "Research"
+  }
+ ],
+ "Learned Helplessness": [
+  {
+   "cite": "Seligman and Maier (1967). Failure to escape traumatic shock. *Journal of Experimental Psychology*.",
+   "url": "https://doi.org/10.1037/h0024514",
+   "label": "Where the name comes from"
+  }
+ ],
+ "Mobbing": [
+  {
+   "cite": "Leymann (1990). Mobbing and Psychological Terror at Workplaces. *Violence and Victims*.",
+   "url": "https://doi.org/10.1891/0886-6708.5.2.119",
+   "label": "Research"
+  }
+ ],
+ "Information Cascades": [
+  {
+   "cite": "Bikhchandani et al. (1992). A Theory of Fads, Fashion, Custom, and Cultural Change as Informational Cascades. *Journal of Political Economy*.",
+   "url": "https://doi.org/10.1086/261849",
+   "label": "Where the name comes from"
+  }
+ ],
+ "Dark Patterns (AI-Adaptive)": [
+  {
+   "cite": "Mathur et al. (2019). Dark Patterns at Scale Findings from a Crawl of 11K Shopping Websites. *Proceedings of the ACM on Human-Computer Interaction*.",
+   "url": "https://doi.org/10.1145/3359183",
+   "label": "Research"
+  }
+ ],
+ "FOG": [
+  {
+   "cite": "Susan Forward (1996). *Emotional Blackmail*.",
+   "url": "https://openlibrary.org/works/OL1929398W",
+   "label": "Where the name comes from"
+  }
+ ],
+ "Emotional Blackmail": [
+  {
+   "cite": "Susan Forward (1996). *Emotional Blackmail*.",
+   "url": "https://openlibrary.org/works/OL1929398W",
+   "label": "Where the name comes from"
+  }
+ ],
+ "Fawning": [
+  {
+   "cite": "Pete Walker (2013). *Complex PTSD*.",
+   "url": "https://openlibrary.org/works/OL19987839W",
+   "label": "Where the name comes from"
+  }
+ ],
+ "Isolation": [
+  {
+   "cite": "Evan Stark (2007). *Coercive Control*.",
+   "url": "https://openlibrary.org/works/OL2982769W",
+   "label": "Research"
+  }
+ ],
+ "Monitoring & Surveillance": [
+  {
+   "cite": "Evan Stark (2007). *Coercive Control*.",
+   "url": "https://openlibrary.org/works/OL2982769W",
+   "label": "Research"
+  }
+ ],
+ "Financial Control": [
+  {
+   "cite": "Adams et al. (2008). Development of the Scale of Economic Abuse. *Violence Against Women*.",
+   "url": "https://doi.org/10.1177/1077801208315529",
+   "label": "Research"
+  },
+  {
+   "cite": "Postmus et al. (2012). Understanding Economic Abuse in the Lives of Survivors. *Journal of Interpersonal Violence*.",
+   "url": "https://doi.org/10.1177/0886260511421669",
+   "label": "Research"
+  }
+ ],
+ "Legal Abuse": [
+  {
+   "cite": "Miller and Smolter (2011). “Paper Abuse”: When All Else Fails, Batterers Use Procedural Stalking. *Violence Against Women*.",
+   "url": "https://doi.org/10.1177/1077801211407290",
+   "label": "Research"
+  },
+  {
+   "cite": "Gutowski and Goodman (2022). Coercive Control in the Courtroom: the Legal Abuse Scale (LAS). *Journal of Family Violence*.",
+   "url": "https://doi.org/10.1007/s10896-022-00408-3",
+   "label": "Research"
+  },
+  {
+   "cite": "Spearman et al. (2022). Post‐separation abuse: A concept analysis. *Journal of Advanced Nursing*.",
+   "url": "https://doi.org/10.1111/jan.15310",
+   "label": "Research"
+  }
+ ],
+ "Children as Leverage": [
+  {
+   "cite": "Spearman et al. (2022). Post‐separation abuse: A concept analysis. *Journal of Advanced Nursing*.",
+   "url": "https://doi.org/10.1111/jan.15310",
+   "label": "Research"
+  }
+ ],
+ "Door-in-the-Face": [
+  {
+   "cite": "Cialdini et al. (1975). Reciprocal concessions procedure for inducing compliance: The door-in-the-face technique. *Journal of Personality and Social Psychology*.",
+   "url": "https://doi.org/10.1037/h0076284",
+   "label": "Where the name comes from"
+  }
+ ],
+ "Commitment Traps / Foot-in-the-Door": [
+  {
+   "cite": "Freedman and Fraser (1966). Compliance without pressure: The foot-in-the-door technique. *Journal of Personality and Social Psychology*.",
+   "url": "https://doi.org/10.1037/h0023552",
+   "label": "Where the name comes from"
+  }
+ ],
+ "That's-Not-All": [
+  {
+   "cite": "Burger (1986). Increasing compliance by improving the deal: The that's-not-all technique. *Journal of Personality and Social Psychology*.",
+   "url": "https://doi.org/10.1037/0022-3514.51.2.277",
+   "label": "Where the name comes from"
+  }
+ ],
+ "Legitimizing Paltry Contributions": [
+  {
+   "cite": "Cialdini and Schroeder (1976). Increasing compliance by legitimizing paltry contributions: When even a penny helps. *Journal of Personality and Social Psychology*.",
+   "url": "https://doi.org/10.1037/0022-3514.34.4.599",
+   "label": "Where the name comes from"
+  }
+ ],
+ "Disrupt-Then-Reframe": [
+  {
+   "cite": "Davis and Knowles (1999). A disrupt-then-reframe technique of social influence. *Journal of Personality and Social Psychology*.",
+   "url": "https://doi.org/10.1037/0022-3514.76.2.192",
+   "label": "Where the name comes from"
+  }
+ ],
+ "Anchoring": [
+  {
+   "cite": "Tversky and Kahneman (1974). Judgment under Uncertainty: Heuristics and Biases Biases in judgments reveal some heuristics of thinking under uncertainty. *Science*.",
+   "url": "https://doi.org/10.1126/science.185.4157.1124",
+   "label": "Research"
+  }
+ ],
+ "Sunk Cost Exploitation": [
+  {
+   "cite": "Arkes and Blumer (1985). The psychology of sunk cost. *Organizational Behavior and Human Decision Processes*.",
+   "url": "https://doi.org/10.1016/0749-5978(85)90049-4",
+   "label": "Research"
+  }
+ ],
+ "Repetition as Truth": [
+  {
+   "cite": "Hasher et al. (1977). Frequency and the conference of referential validity. *Journal of Verbal Learning and Verbal Behavior*.",
+   "url": "https://doi.org/10.1016/S0022-5371(77)80012-1",
+   "label": "Research"
+  }
+ ],
+ "False Consensus / Social Proof Pressure": [
+  {
+   "cite": "Ross et al. (1977). The “false consensus effect”: An egocentric bias in social perception and attribution processes. *Journal of Experimental Social Psychology*.",
+   "url": "https://doi.org/10.1016/0022-1031(77)90049-X",
+   "label": "Research"
+  }
+ ],
+ "Moral Licensing / Strategic Philanthropy": [
+  {
+   "cite": "Monin and Miller (2001). Moral credentials and the expression of prejudice. *Journal of Personality and Social Psychology*.",
+   "url": "https://doi.org/10.1037/0022-3514.81.1.33",
+   "label": "Research"
+  }
+ ],
+ "Pseudo-Profundity / Intellectual Intimidation": [
+  {
+   "cite": "Pennycook et al. (2015). On the reception and detection of pseudo-profound bullshit. *Judgment and Decision Making*.",
+   "url": "https://doi.org/10.1017/S1930297500006999",
+   "label": "Research"
+  }
+ ],
+ "Double Binds": [
+  {
+   "cite": "Bateson et al. (1956). Toward a theory of schizophrenia. *Behavioral Science*.",
+   "url": "https://doi.org/10.1002/bs.3830010402",
+   "label": "Where the name comes from"
+  }
+ ],
+ "Ostracism": [
+  {
+   "cite": "Williams (2007). Ostracism. *Annual Review of Psychology*.",
+   "url": "https://doi.org/10.1146/annurev.psych.58.110405.085641",
+   "label": "Research"
+  }
+ ],
+ "Withholding / Silent Treatment": [
+  {
+   "cite": "Williams (2007). Ostracism. *Annual Review of Psychology*.",
+   "url": "https://doi.org/10.1146/annurev.psych.58.110405.085641",
+   "label": "Research"
+  }
+ ],
+ "Guilt-Tripping": [
+  {
+   "cite": "Baumeister et al. (1994). Guilt: An interpersonal approach. *Psychological Bulletin*.",
+   "url": "https://doi.org/10.1037/0033-2909.115.2.243",
+   "label": "Research"
+  }
+ ],
+ "Context Collapse": [
+  {
+   "cite": "Marwick and boyd (2010). I tweet honestly, I tweet passionately: Twitter users, context collapse, and the imagined audience. *New Media & Society*.",
+   "url": "https://doi.org/10.1177/1461444810365313",
+   "label": "Where the name comes from"
+  }
+ ],
+ "Intimate Image Abuse": [
+  {
+   "cite": "McGlynn and Rackley (2017). Image-Based Sexual Abuse. *Oxford Journal of Legal Studies*.",
+   "url": "https://doi.org/10.1093/ojls/gqw033",
+   "label": "Research"
+  }
+ ],
+ "Location Tracking": [
+  {
+   "cite": "Freed et al. (2018). “A Stalker's Paradise” How Intimate Partner Abusers Exploit Technology. *Proceedings of the 2018 CHI Conference on Human Factors in Computing Systems*.",
+   "url": "https://doi.org/10.1145/3173574.3174241",
+   "label": "Research"
+  }
+ ],
+ "Device Access Demands": [
+  {
+   "cite": "Freed et al. (2018). “A Stalker's Paradise” How Intimate Partner Abusers Exploit Technology. *Proceedings of the 2018 CHI Conference on Human Factors in Computing Systems*.",
+   "url": "https://doi.org/10.1145/3173574.3174241",
+   "label": "Research"
+  }
+ ],
+ "Account Control": [
+  {
+   "cite": "Freed et al. (2018). “A Stalker's Paradise” How Intimate Partner Abusers Exploit Technology. *Proceedings of the 2018 CHI Conference on Human Factors in Computing Systems*.",
+   "url": "https://doi.org/10.1145/3173574.3174241",
+   "label": "Research"
+  }
+ ],
+ "Diffusion of Responsibility": [
+  {
+   "cite": "Darley and Latane (1968). Bystander intervention in emergencies: Diffusion of responsibility. *Journal of Personality and Social Psychology*.",
+   "url": "https://doi.org/10.1037/h0025589",
+   "label": "Research"
+  }
+ ],
+ "Moral Disengagement": [
+  {
+   "cite": "Bandura (1999). Moral Disengagement in the Perpetration of Inhumanities. *Personality and Social Psychology Review*.",
+   "url": "https://doi.org/10.1207/s15327957pspr0303_3",
+   "label": "Research"
+  }
+ ],
+ "Language Laundering": [
+  {
+   "cite": "Bandura (1999). Moral Disengagement in the Perpetration of Inhumanities. *Personality and Social Psychology Review*.",
+   "url": "https://doi.org/10.1207/s15327957pspr0303_3",
+   "label": "Research"
+  }
+ ],
+ "Dehumanization": [
+  {
+   "cite": "Bandura (1999). Moral Disengagement in the Perpetration of Inhumanities. *Personality and Social Psychology Review*.",
+   "url": "https://doi.org/10.1207/s15327957pspr0303_3",
+   "label": "Research"
+  },
+  {
+   "cite": "Haslam (2006). Dehumanization: An Integrative Review. *Personality and Social Psychology Review*.",
+   "url": "https://doi.org/10.1207/s15327957pspr1003_4",
+   "label": "Research"
+  }
+ ],
+ "Victim Blaming": [
+  {
+   "cite": "Bandura (1999). Moral Disengagement in the Perpetration of Inhumanities. *Personality and Social Psychology Review*.",
+   "url": "https://doi.org/10.1207/s15327957pspr0303_3",
+   "label": "Research"
+  },
+  {
+   "cite": "Lerner and Miller (1978). Just world research and the attribution process: Looking back and ahead. *Psychological Bulletin*.",
+   "url": "https://doi.org/10.1037/0033-2909.85.5.1030",
+   "label": "Research"
+  }
+ ],
+ "Thought-Stopping Clichés": [
+  {
+   "cite": "Robert Jay Lifton (1961). *Thought Reform and the Psychology of Totalism*.",
+   "url": "https://openlibrary.org/works/OL15241904W",
+   "label": "Where the name comes from"
+  }
+ ],
+ "Loaded Language": [
+  {
+   "cite": "Robert Jay Lifton (1961). *Thought Reform and the Psychology of Totalism*.",
+   "url": "https://openlibrary.org/works/OL15241904W",
+   "label": "Where the name comes from"
+  }
+ ],
+ "Milieu Control": [
+  {
+   "cite": "Robert Jay Lifton (1961). *Thought Reform and the Psychology of Totalism*.",
+   "url": "https://openlibrary.org/works/OL15241904W",
+   "label": "Where the name comes from"
+  }
+ ],
+ "Demand for Purity": [
+  {
+   "cite": "Robert Jay Lifton (1961). *Thought Reform and the Psychology of Totalism*.",
+   "url": "https://openlibrary.org/works/OL15241904W",
+   "label": "Where the name comes from"
+  }
+ ],
+ "Sacred Science": [
+  {
+   "cite": "Robert Jay Lifton (1961). *Thought Reform and the Psychology of Totalism*.",
+   "url": "https://openlibrary.org/works/OL15241904W",
+   "label": "Where the name comes from"
+  }
+ ],
+ "Doctrine Over Person": [
+  {
+   "cite": "Robert Jay Lifton (1961). *Thought Reform and the Psychology of Totalism*.",
+   "url": "https://openlibrary.org/works/OL15241904W",
+   "label": "Where the name comes from"
+  }
+ ],
+ "Dispensing of Existence": [
+  {
+   "cite": "Robert Jay Lifton (1961). *Thought Reform and the Psychology of Totalism*.",
+   "url": "https://openlibrary.org/works/OL15241904W",
+   "label": "Where the name comes from"
+  }
+ ],
+ "Mystical Manipulation": [
+  {
+   "cite": "Robert Jay Lifton (1961). *Thought Reform and the Psychology of Totalism*.",
+   "url": "https://openlibrary.org/works/OL15241904W",
+   "label": "Where the name comes from"
+  }
+ ],
+ "Forced Confession / Self-Criticism Rituals": [
+  {
+   "cite": "Robert Jay Lifton (1961). *Thought Reform and the Psychology of Totalism*.",
+   "url": "https://openlibrary.org/works/OL15241904W",
+   "label": "Where the name comes from"
+  }
+ ],
+ "Behavior Control": [
+  {
+   "cite": "Steven Hassan (1988). *Combating Cult Mind Control*.",
+   "url": "https://openlibrary.org/works/OL4475504W",
+   "label": "Where the name comes from"
+  }
+ ],
+ "Information Control": [
+  {
+   "cite": "Steven Hassan (1988). *Combating Cult Mind Control*.",
+   "url": "https://openlibrary.org/works/OL4475504W",
+   "label": "Where the name comes from"
+  }
+ ],
+ "Thought Control": [
+  {
+   "cite": "Steven Hassan (1988). *Combating Cult Mind Control*.",
+   "url": "https://openlibrary.org/works/OL4475504W",
+   "label": "Where the name comes from"
+  }
+ ],
+ "Emotion Control": [
+  {
+   "cite": "Steven Hassan (1988). *Combating Cult Mind Control*.",
+   "url": "https://openlibrary.org/works/OL4475504W",
+   "label": "Where the name comes from"
+  }
+ ],
+ "Motivation Displacement": [
+  {
+   "cite": "Lepper et al. (1973). Undermining children's intrinsic interest with extrinsic reward: A test of the \"overjustification\" hypothesis. *Journal of Personality and Social Psychology*.",
+   "url": "https://doi.org/10.1037/h0035519",
+   "label": "Research"
+  }
+ ],
+ "Silence as Policy": [
+  {
+   "cite": "Morrison and Milliken (2000). Organizational Silence: A Barrier to Change and Development in a Pluralistic World. *The Academy of Management Review*.",
+   "url": "https://doi.org/10.5465/amr.2000.3707697",
+   "label": "Research"
+  }
+ ],
+ "Process Exhaustion": [
+  {
+   "cite": "Moynihan et al. (2014). Administrative Burden: Learning, Psychological, and Compliance Costs in Citizen-State Interactions. *Journal of Public Administration Research and Theory*.",
+   "url": "https://doi.org/10.1093/jopart/muu009",
+   "label": "Research"
+  }
+ ],
+ "Metric-Mission Substitution": [
+  {
+   "cite": "Campbell (1979). Assessing the impact of planned social change. *Evaluation and Program Planning*.",
+   "url": "https://doi.org/10.1016/0149-7189(79)90048-X",
+   "label": "Research"
+  }
+ ],
+ "Metric Masking": [
+  {
+   "cite": "Campbell (1979). Assessing the impact of planned social change. *Evaluation and Program Planning*.",
+   "url": "https://doi.org/10.1016/0149-7189(79)90048-X",
+   "label": "Research"
+  }
+ ],
+ "Institutional Capture": [
+  {
+   "cite": "Stigler (1971). The Theory of Economic Regulation. *The Bell Journal of Economics and Management Science*.",
+   "url": "https://doi.org/10.2307/3003160",
+   "label": "Research"
+  }
+ ],
+ "Tokenism": [
+  {
+   "cite": "Kanter (1977). Some Effects of Proportions on Group Life: Skewed Sex Ratios and Responses to Token Women. *American Journal of Sociology*.",
+   "url": "https://doi.org/10.1086/226425",
+   "label": "Research"
+  }
+ ],
+ "Black-Box Decisions": [
+  {
+   "cite": "Pasquale (2015). The Black Box Society The Secret Algorithms That Control Money and Information. *Harvard University Press*.",
+   "url": "https://doi.org/10.4159/harvard.9780674736061",
+   "label": "Research"
+  }
+ ],
+ "Ambiguity as Weapon / Strategic Ambiguity": [
+  {
+   "cite": "Eisenberg (1984). Ambiguity as strategy in organizational communication. *Communication Monographs*.",
+   "url": "https://doi.org/10.1080/03637758409390197",
+   "label": "Where the name comes from"
+  }
+ ],
+ "Pseudo-Consultation": [
+  {
+   "cite": "Arnstein (1969). A Ladder Of Citizen Participation. *Journal of the American Institute of Planners*.",
+   "url": "https://doi.org/10.1080/01944366908977225",
+   "label": "Research"
+  }
+ ],
+ "Parasocial Manipulation Engineering": [
+  {
+   "cite": "Horton and Richard Wohl (1956). Mass Communication and Para-Social Interaction Observations on Intimacy at a Distance. *Psychiatry*.",
+   "url": "https://doi.org/10.1080/00332747.1956.11023049",
+   "label": "Where the name comes from"
+  }
+ ],
+ "Halo Effect Exploitation": [
+  {
+   "cite": "Thorndike (1920). A constant error in psychological ratings. *Journal of Applied Psychology*.",
+   "url": "https://doi.org/10.1037/h0071663",
+   "label": "Where the name comes from"
+  }
+ ],
+ "Confirmation Bias Exploitation": [
+  {
+   "cite": "Nickerson (1998). Confirmation Bias: A Ubiquitous Phenomenon in Many Guises. *Review of General Psychology*.",
+   "url": "https://doi.org/10.1037/1089-2680.2.2.175",
+   "label": "Research"
+  }
+ ],
+ "Maternal Gatekeeping": [
+  {
+   "cite": "Allen and Hawkins (1999). Maternal Gatekeeping: Mothers' Beliefs and Behaviors That Inhibit Greater Father Involvement in Family Work. *Journal of Marriage and the Family*.",
+   "url": "https://doi.org/10.2307/353894",
+   "label": "Where the name comes from"
+  }
+ ],
+ "Harm to Pets or Property": [
+  {
+   "cite": "Ascione (1997). Battered Women's Reports of Their Partners' and Their Children's Cruelty to Animals. *Journal of Emotional Abuse*.",
+   "url": "https://doi.org/10.1300/J135v01n01_06",
+   "label": "Research"
+  }
+ ],
+ "Reproductive Coercion": [
+  {
+   "cite": "Miller et al. (2010). Pregnancy coercion, intimate partner violence and unintended pregnancy. *Contraception*.",
+   "url": "https://doi.org/10.1016/j.contraception.2009.12.004",
+   "label": "Research"
+  }
+ ],
+ "Ghosting as Control": [
+  {
+   "cite": "LeFebvre et al. (2019). Ghosting in Emerging Adults’ Romantic Relationships: The Digital Dissolution Disappearance Strategy. *Imagination, Cognition and Personality*.",
+   "url": "https://doi.org/10.1177/0276236618820519",
+   "label": "Research"
+  }
+ ],
+ "Forced Teaming": [
+  {
+   "cite": "Gavin de Becker (1997). *The Gift of Fear*.",
+   "url": "https://openlibrary.org/works/OL3355180W",
+   "label": "Where the name comes from"
+  }
+ ],
+ "Loan-Sharking Gifts": [
+  {
+   "cite": "Gavin de Becker (1997). *The Gift of Fear*.",
+   "url": "https://openlibrary.org/works/OL3355180W",
+   "label": "Where the name comes from"
+  }
+ ],
+ "Gish Gallop / Firehose of Falsehood": [
+  {
+   "cite": "Paul and Matthews (2016). The Russian \"Firehose of Falsehood\" Propaganda Model: Why It Might Work and Options to Counter It. *RAND Corporation*.",
+   "url": "https://doi.org/10.7249/PE198",
+   "label": "Research"
+  }
+ ],
+ "Motte-and-Bailey": [
+  {
+   "cite": "Shackel (2005). THE VACUITY OF POSTMODERNIST METHODOLOGY. *Metaphilosophy*.",
+   "url": "https://doi.org/10.1111/j.1467-9973.2005.00370.x",
+   "label": "Where the name comes from"
+  }
+ ],
+ "Lying": [
+  {
+   "cite": "DePaulo et al. (1996). Lying in everyday life. *Journal of Personality and Social Psychology*.",
+   "url": "https://doi.org/10.1037/0022-3514.70.5.979",
+   "label": "Research"
+  }
+ ],
+ "Objectification": [
+  {
+   "cite": "Fredrickson and Roberts (1997). Objectification Theory: Toward Understanding Women's Lived Experiences and Mental Health Risks. *Psychology of Women Quarterly*.",
+   "url": "https://doi.org/10.1111/j.1471-6402.1997.tb00108.x",
+   "label": "Research"
+  }
+ ],
+ "Credibility Theft": [
+  {
+   "cite": "Fricker (2007). Epistemic Injustice Power and the Ethics of Knowing. *Oxford University PressOxford*.",
+   "url": "https://doi.org/10.1093/acprof:oso/9780198237907.001.0001",
+   "label": "Research"
+  }
+ ],
+ "Experience Erasure": [
+  {
+   "cite": "Fricker (2007). Epistemic Injustice Power and the Ethics of Knowing. *Oxford University PressOxford*.",
+   "url": "https://doi.org/10.1093/acprof:oso/9780198237907.001.0001",
+   "label": "Research"
+  }
+ ],
+ "Stigma Marking": [
+  {
+   "cite": "Erving Goffman (1963). *Stigma*.",
+   "url": "https://openlibrary.org/works/OL3282007W",
+   "label": "Research"
+  }
+ ],
+ "Stonewalling": [
+  {
+   "cite": "John Mordechai Gottman (1993). *What Predicts Divorce?*.",
+   "url": "https://openlibrary.org/works/OL1982055W",
+   "label": "Research"
+  }
+ ],
+ "Contempt": [
+  {
+   "cite": "John Mordechai Gottman (1993). *What Predicts Divorce?*.",
+   "url": "https://openlibrary.org/works/OL1982055W",
+   "label": "Research"
+  }
+ ],
+ "Self-Fulfilling Prediction": [
+  {
+   "cite": "Merton (1948). The Self-Fulfilling Prophecy. *The Antioch Review*.",
+   "url": "https://doi.org/10.2307/4609267",
+   "label": "Where the name comes from"
+  }
+ ],
+ "Computational Propaganda": [
+  {
+   "cite": "Woolley and Howard (2018). Computational Propaganda. *Oxford Scholarship Online*.",
+   "url": "https://doi.org/10.1093/oso/9780190931407.001.0001",
+   "label": "Research"
+  }
+ ],
+ "Post-Truth Epistemic Manipulation": [
+  {
+   "cite": "Lee C. McIntyre (2018). *Post-Truth*.",
+   "url": "https://openlibrary.org/works/OL19744673W",
+   "label": "Research"
+  }
+ ]
+}

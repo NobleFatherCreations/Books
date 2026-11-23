@@ -355,10 +355,10 @@ def decoder_terms():
     site = ROOT / "instruments/playbook/site"
     out = []
     for f in sorted(site.glob("*.html")):
-        if f.name in ("index.html", "tactics.html") or f.name.startswith("line-"):
+        if f.name in ("index.html", "tactics.html", "patterns.html", "routes.html", "about-this-guide.html", "404.html") or f.name.startswith(("line-", "route-")):
             continue
         page = read(f)
-        t = re.search(r"<title>(.*?):", page)
+        t = re.search(r'<h1 id="h">(.*?)</h1>', page)
         if t:
             full = html.unescape(t.group(1)).strip()
             also = re.search(r'<p class="also">Also called (.*?)</p>', page)

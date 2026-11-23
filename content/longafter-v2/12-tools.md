@@ -398,7 +398,7 @@ These are the post-separation abuse terms people search for, explained plainly.
 
 **Clare's Law.** A scheme in the UK that lets you ask the police whether a partner has a history of abuse. [Police and reporting](ch:police-and-reporting).
 
-**Coerced debt.** Debt in your name that you didn't freely agree to. [Money as the channel](ch:money-as-the-channel).
+**Coerced debt.** Debt in your name that you didn't freely agree to. [Money as the channel](ch:money-as-the-channel); Decoder: [coerced debt](/playbook/coerced-debt).
 
 **Coercive control.** A pattern of behaviour that takes away someone's freedom and sense of self. A crime in some places. [What post-separation abuse is](ch:what-is-post-separation-abuse).
 
@@ -442,11 +442,11 @@ These are the post-separation abuse terms people search for, explained plainly.
 
 **Intermittent reinforcement.** Unpredictable warmth and cruelty, which builds a strong bond. [The trauma bond](ch:the-trauma-bond); Decoder: [push-pull](/playbook/intermittent-reinforcement-push-pull).
 
-**Intimate image abuse.** Sharing, or threatening to share, intimate images without consent. [Intimate images and online threats](ch:intimate-images-and-online-threats).
+**Intimate image abuse.** Sharing, or threatening to share, intimate images without consent. [Intimate images and online threats](ch:intimate-images-and-online-threats); Decoder: [intimate image abuse](/playbook/intimate-image-abuse).
 
 **Isolation.** Cutting someone off from friends and family. [Making new people from scratch](ch:making-new-people-from-scratch); Decoder: [isolation](/playbook/isolation).
 
-**Legal abuse syndrome.** A popular term, not a diagnosis, for the stress caused by long or abusive court cases. [Systems abuse and litigation abuse](ch:systems-abuse).
+**Legal abuse syndrome.** A popular term, not a diagnosis, for the stress caused by long or abusive court cases. [Systems abuse and litigation abuse](ch:systems-abuse); Decoder: [legal abuse](/playbook/legal-abuse).
 
 **Limerence.** An intense, obsessive longing for someone, which can sit alongside a trauma bond. [The trauma bond](ch:the-trauma-bond).
 
@@ -484,9 +484,9 @@ These are the post-separation abuse terms people search for, explained plainly.
 
 **Protective order.** A court order to stay away and stop contact. [Protective orders](ch:police-and-protective-orders).
 
-**Reactive abuse.** A popular term for provoking someone until they react, then using the reaction against them. [When they say you're the abuser](ch:when-they-say-youre-the-abuser).
+**Reactive abuse.** A popular term for provoking someone until they react, then using the reaction against them. [When they say you're the abuser](ch:when-they-say-youre-the-abuser); Decoder: [baiting](/playbook/baiting).
 
-**Reproductive coercion.** Control over contraception, pregnancy or fertility. [If there was sexual abuse or reproductive coercion](ch:if-there-was-sexual-abuse).
+**Reproductive coercion.** Control over contraception, pregnancy or fertility. [If there was sexual abuse or reproductive coercion](ch:if-there-was-sexual-abuse); Decoder: [reproductive coercion](/playbook/reproductive-coercion).
 
 **Sanctuary scheme.** Extra security fitted to your home so you can stay there safely. [Housing and benefits](ch:housing-and-benefits).
 
@@ -498,7 +498,7 @@ These are the post-separation abuse terms people search for, explained plainly.
 
 **Special measures.** Protections for witnesses in court, like screens or giving evidence by video. [Police and reporting](ch:police-and-reporting).
 
-**Stalking.** A pattern of unwanted pursuit that causes fear. [Stalking and harassment after a breakup](ch:stalking-and-harassment).
+**Stalking.** A pattern of unwanted pursuit that causes fear. [Stalking and harassment after a breakup](ch:stalking-and-harassment); Decoder: [location tracking](/playbook/location-tracking).
 
 **Stalkerware.** Hidden software that reports what you do on your phone. [Surveillance and technology](ch:surveillance-and-technology).
 
@@ -514,7 +514,7 @@ These are the post-separation abuse terms people search for, explained plainly.
 
 **VAWA.** The US Violence Against Women Act, which includes housing and immigration protections for survivors of any gender. [Housing and benefits](ch:housing-and-benefits).
 
-**Vexatious litigant.** Someone a court has restricted from filing repeated cases without permission. [Systems abuse and litigation abuse](ch:systems-abuse).
+**Vexatious litigant.** Someone a court has restricted from filing repeated cases without permission. [Systems abuse and litigation abuse](ch:systems-abuse); Decoder: [legal abuse](/playbook/legal-abuse).
 
 === questions-people-ask
 title: Questions people ask

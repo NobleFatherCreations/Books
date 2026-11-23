@@ -21,7 +21,9 @@ SRC = os.path.join(ROOT, "content", "decoder-v20")
 ORIGIN = "https://noblefathercreations.com"
 BOOKS = {"fracture": "The Fracture", "feminine": "The Sovereign Divine Feminine", "wook": "The Festie Codex",
          "fractal": "The Fractal", "festival": "The Festie Bible", "faith": "The Sacred Divide",
-         "loop": "The Loop", "scale": "The Weighing"}
+         "loop": "The Loop", "scale": "The Weighing", "longafter": "The Long After", "silence": "The Silence",
+         "atwill": "At Will", "repair": "The Repair", "slowtake": "The Slow Take"}
+SKIP_PAGES = ("index", "contents", "codex", "all", "search", "404")
 STAGES = {"IDEALIZE": "Idealize", "HOOK": "Hook", "DEVALUE": "Devalue", "CONFUSE": "Confuse", "ISOLATE": "Isolate",
           "CONTROL": "Control", "DISCARD": "Discard", "REPLACE": "Replace"}
 SENSITIVE = re.compile(r"immediate danger|in danger|emergency services|police|trafficking|forced lab|self-harm|suicid|child protection|safeguarding|violence|abuse|threat", re.I)
@@ -158,20 +160,27 @@ def transform(entries, recipes, aliases, narrow, common):
 
 
 def book_mentions(redirects):
-    """{decoder slug: [(book, chapter title, url)]} from the links the books' chapter pages already carry."""
+    """{decoder slug: [(book, chapter title, url, score)]} from the links the books' chapter pages already carry.
+    score ranks a book's chapters for one tactic: the tactic's address linked more often, and the chapter title naming it, rank higher."""
     out = defaultdict(list)
     for folder, book in BOOKS.items():
         for p in sorted(glob.glob(os.path.join(ROOT, "library", folder, "*.html"))):
             name = os.path.basename(p)[:-5]
-            if name in ("index", "contents", "codex"): continue
+            if name in SKIP_PAGES: continue
             t = open(p, encoding="utf-8", errors="ignore").read()
-            slugs = set(re.findall(r'href="/playbook/([a-z0-9-]+)"', t))
-            if not slugs: continue
+            if 'name="robots" content="noindex' in t: continue
+            found = re.findall(r'href="/playbook/([a-z0-9-]+)', t)
+            if not found: continue
             m = re.search(r"<h1[^>]*>(.*?)</h1>", t, re.S)
             title = html.unescape(re.sub(r"<[^>]+>", "", m.group(1))).strip() if m else name
-            for s in slugs:
-                s = redirects.get(s, s)
-                out[s].append((book, title, "/%s/%s" % (folder, name)))
+            counts = Counter(redirects.get(s, s) for s in found)
+            spread = len(counts)              # a glossary or index links to many tactics; a chapter about one links to few
+            for s, c in counts.items():
+                words = [w for w in s.split("-") if len(w) > 3]
+                named = sum(w in title.lower() for w in words)
+                out[s].append((book, title, "/%s/%s" % (folder, name), 3 * named + c / (1 + spread / 8)))
+    for s in out:
+        out[s].sort(key=lambda x: (list(BOOKS.values()).index(x[0]), -x[3], x[1]))
     return out
 
 

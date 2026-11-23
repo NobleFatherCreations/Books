@@ -15,7 +15,7 @@ h1{position:absolute;left:72px;top:196px;width:960px;font:800 104px/1.02 O;lette
 p{position:absolute;left:72px;top:416px;width:900px;font:400 36px/1.4 A;color:#A8A69E}
 .u{position:absolute;left:72px;bottom:44px;display:flex;align-items:center;gap:20px;font:800 26px O;color:#E5C158}.u i{width:64px;height:8px;border-radius:8px;background:#E5C158}
 </style><div class="g"></div><div class="b"><img src="${f("instruments/playbook/site/f/icon.webp")}">Pattern Decoder</div>
-<h1>Put a name to what is happening.</h1><p>310 manipulation and control tactics, in plain words: how to tell if one fits, and what you can do.</p>
+<h1>Put a name to what is happening.</h1><p>335 manipulation and control tactics, in plain words: how to tell if one fits, and what you can do.</p>
 <div class="u"><i></i>noblefathercreations.com/playbook</div>`;
 (async () => { const b = await chromium.launch(), p = await b.newPage({ viewport: { width: 1200, height: 630 } });
   const tmp = path.join(os.tmpdir(), "decoder-og.html"); fs.writeFileSync(tmp, html);   /* file:// assets load only from a file page */

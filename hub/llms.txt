@@ -680,7 +680,7 @@ Every book below has a contents page and one plain HTML page per chapter, so you
 
 ## Tools
 
-- [The Pattern Decoder](https://noblefathercreations.com/playbook): 310 manipulation and control tactics, each with its own page (signs, what it is, what to do). Every tactic: https://noblefathercreations.com/playbook/tactics
+- [The Pattern Decoder](https://noblefathercreations.com/playbook): 335 manipulation and control tactics and 32 patterns, each with its own page (signs both ways, what you can do, checked sources). Every tactic: https://noblefathercreations.com/playbook/tactics. Full list for assistants: https://noblefathercreations.com/playbook/llms.txt
 - [The Root](https://noblefathercreations.com/shadowroot): Shadow work, guided
 - [The Listening Room](https://noblefathercreations.com/music): free original music
 

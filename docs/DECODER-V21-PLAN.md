@@ -1,4 +1,42 @@
-# Pattern Decoder v21: revised plan (2026-11-23, nothing built)
+# Pattern Decoder v21: BUILT 2026-11-23, NOT DEPLOYED
+
+## Status
+Everything in sections A to D below is built and checked. The Decoder's own suite passes (106 of 106; v20 passed 105 of 106). Axe is clean in light and dark. There is no overflow or console error at 375 and 1440. All 1,125 pages scanned have valid structured data, and The Long After's pipeline passes.
+
+**Rebuild order:**
+1. `python3 scripts/decoder-sources.py` (cached; `--refresh` re-checks every source)
+2. `python3 design/build-decoder-v15.py`
+3. `node scripts/make-decoder-cards.js` (only redraws changed cards)
+4. Rebuild again so the cards are copied in
+5. `python3 scripts/decoder-relink.py --check`
+
+**Deploy set** (one go, on the owner's words):
+
+| What | Folder | Why |
+|---|---|---|
+| Decoder | `instruments/playbook/site` (Netlify: noblepatterns) | v21 |
+| The Long After | `library/longafter` | v5 plus the A to Z links to the Decoder; the helpline link in the Decoder's safety boxes points here |
+| Hub | `hub/` (robots.txt, llms.txt, topics.html, sitemap.xml) | robots.txt lists all 17 sitemaps; llms.txt counts fixed |
+| The Fractal, The Sovereign Divine Feminine, The Festie Codex, The Festie Bible, The Fracture | `library/{fractal,feminine,wook,festival,fracture}` | 121 links now point straight at current Decoder addresses |
+
+The Silence, At Will, The Repair and The Slow Take did not change: their back-links live on the Decoder.
+
+**After deploy:**
+- IndexNow ping (`scripts/seo/indexnow.py`)
+- Search Console and Bing setup (owner)
+- Clinical review using `docs/DECODER-REVIEW-CHECKLIST.md`
+
+**Owner, please skim:** the 55 new "Also called" names in `content/decoder-v21/aliases.json`. Same-thing names only; nothing related, and no "parental alienation".
+
+**Changed from the plan while building:**
+- Combos got their own pages: `/playbook/route-<name>` and an index at `/playbook/routes`. That's 109 pages, and the "Often used together" links point to them.
+- Cards are JPEG, about 57 KB each, kept in `design/decoder-og/`.
+- Entries with no source show nothing. They do not say "no research found", because we have not searched for every entry. The About page says so.
+- The A to Z gained 7 Decoder links. It already had 20, so the earlier "0" was a counting error.
+
+---
+
+# The plan as approved
 
 This revises the 2026-11-22 proposal after the owner shared an outside review. It keeps what holds up and corrects what the review got wrong against our own data. It adds two big wins the review missed, both found by checking the built pages against the source data.
 

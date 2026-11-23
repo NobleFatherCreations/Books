@@ -1,0 +1,728 @@
+[
+ {
+  "t": [
+   "Gaslighting"
+  ],
+  "label": "Research",
+  "doi": "10.1177/0003122419874843",
+  "au": "Sweet",
+  "y": 2019,
+  "title": "The sociology of gaslighting"
+ },
+ {
+  "t": [
+   "DARVO"
+  ],
+  "label": "Where the name comes from",
+  "doi": "10.1177/0959353597071004",
+  "au": "Freyd",
+  "y": 1997,
+  "title": "Violations of power, adaptive blindness and betrayal trauma theory"
+ },
+ {
+  "t": [
+   "DARVO"
+  ],
+  "label": "Research",
+  "doi": "10.1080/10926771.2017.1320777",
+  "au": "Harsey",
+  "y": 2017,
+  "title": "Perpetrator responses to victim confrontation: DARVO and victim self-blame"
+ },
+ {
+  "t": [
+   "Institutional Betrayal"
+  ],
+  "label": "Where the name comes from",
+  "doi": "10.1037/a0037564",
+  "au": "Smith",
+  "y": 2014,
+  "title": "Institutional betrayal"
+ },
+ {
+  "t": [
+   "Trauma Bonding"
+  ],
+  "label": "Research",
+  "doi": "10.1891/0886-6708.8.2.105",
+  "au": "Dutton",
+  "y": 1993,
+  "title": "Emotional attachments in abusive relationships: a test of traumatic bonding theory"
+ },
+ {
+  "t": [
+   "Trauma Bonding"
+  ],
+  "label": "Popular book",
+  "book": {
+   "title": "The Betrayal Bond",
+   "author": "Carnes"
+  },
+  "y": 1997
+ },
+ {
+  "t": [
+   "Intermittent Reinforcement / Push-Pull"
+  ],
+  "label": "Research",
+  "book": {
+   "title": "Schedules of Reinforcement",
+   "author": "Ferster"
+  },
+  "y": 1957
+ },
+ {
+  "t": [
+   "Learned Helplessness"
+  ],
+  "label": "Where the name comes from",
+  "doi": "10.1037/h0024514",
+  "au": "Seligman",
+  "y": 1967,
+  "title": "Failure to escape traumatic shock"
+ },
+ {
+  "t": [
+   "Mobbing"
+  ],
+  "label": "Research",
+  "doi": "10.1891/0886-6708.5.2.119",
+  "au": "Leymann",
+  "y": 1990,
+  "title": "Mobbing and psychological terror at workplaces"
+ },
+ {
+  "t": [
+   "Information Cascades"
+  ],
+  "label": "Where the name comes from",
+  "doi": "10.1086/261849",
+  "au": "Bikhchandani",
+  "y": 1992,
+  "title": "A theory of fads, fashion, custom, and cultural change as informational cascades"
+ },
+ {
+  "t": [
+   "Dark Patterns (AI-Adaptive)"
+  ],
+  "label": "Research",
+  "doi": "10.1145/3359183",
+  "au": "Mathur",
+  "y": 2019,
+  "title": "Dark patterns at scale"
+ },
+ {
+  "t": [
+   "FOG",
+   "Emotional Blackmail"
+  ],
+  "label": "Where the name comes from",
+  "book": {
+   "title": "Emotional Blackmail",
+   "author": "Susan Forward"
+  },
+  "y": 1997
+ },
+ {
+  "t": [
+   "Fawning"
+  ],
+  "label": "Where the name comes from",
+  "book": {
+   "title": "Complex PTSD",
+   "author": "Pete Walker"
+  },
+  "y": 2013
+ },
+ {
+  "t": [
+   "Isolation",
+   "Monitoring & Surveillance"
+  ],
+  "label": "Research",
+  "book": {
+   "title": "Coercive Control",
+   "author": "Evan Stark"
+  },
+  "y": 2007
+ },
+ {
+  "t": [
+   "Financial Control"
+  ],
+  "label": "Research",
+  "doi": "10.1177/1077801208315529",
+  "au": "Adams",
+  "y": 2008,
+  "title": "Development of the scale of economic abuse"
+ },
+ {
+  "t": [
+   "Financial Control"
+  ],
+  "label": "Research",
+  "doi": "10.1177/0886260511421669",
+  "au": "Postmus",
+  "y": 2012,
+  "title": "Understanding economic abuse in the lives of survivors"
+ },
+ {
+  "t": [
+   "Legal Abuse"
+  ],
+  "label": "Research",
+  "doi": "10.1177/1077801211407290",
+  "au": "Miller",
+  "y": 2011,
+  "title": "Paper abuse: when all else fails, batterers use procedural stalking"
+ },
+ {
+  "t": [
+   "Legal Abuse"
+  ],
+  "label": "Research",
+  "doi": "10.1007/s10896-022-00408-3",
+  "au": "Gutowski",
+  "y": 2023,
+  "title": "Coercive control in the courtroom: the legal abuse scale"
+ },
+ {
+  "t": [
+   "Children as Leverage",
+   "Legal Abuse"
+  ],
+  "label": "Research",
+  "doi": "10.1111/jan.15310",
+  "au": "Spearman",
+  "y": 2023,
+  "title": "Post-separation abuse: a concept analysis"
+ },
+ {
+  "t": [
+   "Door-in-the-Face"
+  ],
+  "label": "Where the name comes from",
+  "doi": "10.1037/h0076284",
+  "au": "Cialdini",
+  "y": 1975,
+  "title": "Reciprocal concessions procedure for inducing compliance: the door-in-the-face technique"
+ },
+ {
+  "t": [
+   "Commitment Traps / Foot-in-the-Door"
+  ],
+  "label": "Where the name comes from",
+  "doi": "10.1037/h0023552",
+  "au": "Freedman",
+  "y": 1966,
+  "title": "Compliance without pressure: the foot-in-the-door technique"
+ },
+ {
+  "t": [
+   "That's-Not-All"
+  ],
+  "label": "Where the name comes from",
+  "doi": "10.1037/0022-3514.51.2.277",
+  "au": "Burger",
+  "y": 1986,
+  "title": "Increasing compliance by improving the deal: the that's-not-all technique"
+ },
+ {
+  "t": [
+   "Legitimizing Paltry Contributions"
+  ],
+  "label": "Where the name comes from",
+  "doi": "10.1037/0022-3514.34.4.599",
+  "au": "Cialdini",
+  "y": 1976,
+  "title": "Increasing compliance by legitimizing paltry contributions"
+ },
+ {
+  "t": [
+   "Disrupt-Then-Reframe"
+  ],
+  "label": "Where the name comes from",
+  "doi": "10.1037/0022-3514.76.2.192",
+  "au": "Davis",
+  "y": 1999,
+  "title": "A disrupt-then-reframe technique of social influence"
+ },
+ {
+  "t": [
+   "Anchoring"
+  ],
+  "label": "Research",
+  "doi": "10.1126/science.185.4157.1124",
+  "au": "Tversky",
+  "y": 1974,
+  "title": "Judgment under uncertainty: heuristics and biases"
+ },
+ {
+  "t": [
+   "Sunk Cost Exploitation"
+  ],
+  "label": "Research",
+  "doi": "10.1016/0749-5978(85)90049-4",
+  "au": "Arkes",
+  "y": 1985,
+  "title": "The psychology of sunk cost"
+ },
+ {
+  "t": [
+   "Repetition as Truth"
+  ],
+  "label": "Research",
+  "doi": "10.1016/S0022-5371(77)80012-1",
+  "au": "Hasher",
+  "y": 1977,
+  "title": "Frequency and the conference of referential validity"
+ },
+ {
+  "t": [
+   "False Consensus / Social Proof Pressure"
+  ],
+  "label": "Research",
+  "doi": "10.1016/0022-1031(77)90049-X",
+  "au": "Ross",
+  "y": 1977,
+  "title": "The false consensus effect"
+ },
+ {
+  "t": [
+   "Moral Licensing / Strategic Philanthropy"
+  ],
+  "label": "Research",
+  "doi": "10.1037/0022-3514.81.1.33",
+  "au": "Monin",
+  "y": 2001,
+  "title": "Moral credentials and the expression of prejudice"
+ },
+ {
+  "t": [
+   "Pseudo-Profundity / Intellectual Intimidation"
+  ],
+  "label": "Research",
+  "doi": "10.1017/S1930297500006999",
+  "au": "Pennycook",
+  "y": 2015,
+  "title": "On the reception and detection of pseudo-profound bullshit"
+ },
+ {
+  "t": [
+   "Double Binds"
+  ],
+  "label": "Where the name comes from",
+  "doi": "10.1002/bs.3830010402",
+  "au": "Bateson",
+  "y": 1956,
+  "title": "Toward a theory of schizophrenia",
+  "vol": "1"
+ },
+ {
+  "t": [
+   "Ostracism",
+   "Withholding / Silent Treatment"
+  ],
+  "label": "Research",
+  "doi": "10.1146/annurev.psych.58.110405.085641",
+  "au": "Williams",
+  "y": 2007,
+  "title": "Ostracism"
+ },
+ {
+  "t": [
+   "Guilt-Tripping"
+  ],
+  "label": "Research",
+  "doi": "10.1037/0033-2909.115.2.243",
+  "au": "Baumeister",
+  "y": 1994,
+  "title": "Guilt: an interpersonal approach"
+ },
+ {
+  "t": [
+   "Context Collapse"
+  ],
+  "label": "Where the name comes from",
+  "doi": "10.1177/1461444810365313",
+  "au": "Marwick",
+  "y": 2011,
+  "title": "I tweet honestly, I tweet passionately: Twitter users, context collapse, and the imagined audience"
+ },
+ {
+  "t": [
+   "Intimate Image Abuse"
+  ],
+  "label": "Research",
+  "doi": "10.1093/ojls/gqw033",
+  "au": "McGlynn",
+  "y": 2017,
+  "title": "Image-based sexual abuse"
+ },
+ {
+  "t": [
+   "Location Tracking",
+   "Device Access Demands",
+   "Account Control"
+  ],
+  "label": "Research",
+  "doi": "10.1145/3173574.3174241",
+  "au": "Freed",
+  "y": 2018,
+  "title": "A stalker's paradise: how intimate partner abusers exploit technology"
+ },
+ {
+  "t": [
+   "Diffusion of Responsibility"
+  ],
+  "label": "Research",
+  "doi": "10.1037/h0025589",
+  "au": "Darley",
+  "y": 1968,
+  "title": "Bystander intervention in emergencies: diffusion of responsibility"
+ },
+ {
+  "t": [
+   "Moral Disengagement",
+   "Language Laundering",
+   "Dehumanization",
+   "Victim Blaming"
+  ],
+  "label": "Research",
+  "doi": "10.1207/s15327957pspr0303_3",
+  "au": "Bandura",
+  "y": 1999,
+  "title": "Moral disengagement in the perpetration of inhumanities"
+ },
+ {
+  "t": [
+   "Dehumanization"
+  ],
+  "label": "Research",
+  "doi": "10.1207/s15327957pspr1003_4",
+  "au": "Haslam",
+  "y": 2006,
+  "title": "Dehumanization: an integrative review"
+ },
+ {
+  "t": [
+   "Victim Blaming"
+  ],
+  "label": "Research",
+  "doi": "10.1037/0033-2909.85.5.1030",
+  "au": "Lerner",
+  "y": 1978,
+  "title": "Just world research and the attribution process: looking back and ahead"
+ },
+ {
+  "t": [
+   "Thought-Stopping Clichés",
+   "Loaded Language",
+   "Milieu Control",
+   "Demand for Purity",
+   "Sacred Science",
+   "Doctrine Over Person",
+   "Dispensing of Existence",
+   "Mystical Manipulation",
+   "Forced Confession / Self-Criticism Rituals"
+  ],
+  "label": "Where the name comes from",
+  "book": {
+   "title": "Thought Reform and the Psychology of Totalism",
+   "author": "Lifton"
+  },
+  "y": 1961
+ },
+ {
+  "t": [
+   "Behavior Control",
+   "Information Control",
+   "Thought Control",
+   "Emotion Control"
+  ],
+  "label": "Where the name comes from",
+  "book": {
+   "title": "Combating Cult Mind Control",
+   "author": "Steven Hassan"
+  },
+  "y": 1988
+ },
+ {
+  "t": [
+   "Motivation Displacement"
+  ],
+  "label": "Research",
+  "doi": "10.1037/h0035519",
+  "au": "Lepper",
+  "y": 1973,
+  "title": "Undermining children's intrinsic interest with extrinsic reward"
+ },
+ {
+  "t": [
+   "Silence as Policy"
+  ],
+  "label": "Research",
+  "doi": "10.5465/amr.2000.3707697",
+  "au": "Morrison",
+  "y": 2000,
+  "title": "Organizational silence"
+ },
+ {
+  "t": [
+   "Process Exhaustion"
+  ],
+  "label": "Research",
+  "doi": "10.1093/jopart/muu009",
+  "au": "Moynihan",
+  "y": 2015,
+  "title": "Administrative burden: learning, psychological, and compliance costs"
+ },
+ {
+  "t": [
+   "Metric-Mission Substitution",
+   "Metric Masking"
+  ],
+  "label": "Research",
+  "doi": "10.1016/0149-7189(79)90048-X",
+  "au": "Campbell",
+  "y": 1979,
+  "title": "Assessing the impact of planned social change"
+ },
+ {
+  "t": [
+   "Institutional Capture"
+  ],
+  "label": "Research",
+  "doi": "10.2307/3003160",
+  "au": "Stigler",
+  "y": 1971,
+  "title": "The theory of economic regulation"
+ },
+ {
+  "t": [
+   "Tokenism"
+  ],
+  "label": "Research",
+  "doi": "10.1086/226425",
+  "au": "Kanter",
+  "y": 1977,
+  "title": "Some effects of proportions on group life"
+ },
+ {
+  "t": [
+   "Black-Box Decisions"
+  ],
+  "label": "Research",
+  "doi": "10.4159/harvard.9780674736061",
+  "au": "Pasquale",
+  "y": 2015,
+  "title": "The black box society"
+ },
+ {
+  "t": [
+   "Ambiguity as Weapon / Strategic Ambiguity"
+  ],
+  "label": "Where the name comes from",
+  "doi": "10.1080/03637758409390197",
+  "au": "Eisenberg",
+  "y": 1984,
+  "title": "Ambiguity as strategy in organizational communication"
+ },
+ {
+  "t": [
+   "Pseudo-Consultation"
+  ],
+  "label": "Research",
+  "doi": "10.1080/01944366908977225",
+  "au": "Arnstein",
+  "y": 1969,
+  "title": "A ladder of citizen participation"
+ },
+ {
+  "t": [
+   "Parasocial Manipulation Engineering"
+  ],
+  "label": "Where the name comes from",
+  "doi": "10.1080/00332747.1956.11023049",
+  "au": "Horton",
+  "y": 1956,
+  "title": "Mass communication and para-social interaction"
+ },
+ {
+  "t": [
+   "Halo Effect Exploitation"
+  ],
+  "label": "Where the name comes from",
+  "doi": "10.1037/h0071663",
+  "au": "Thorndike",
+  "y": 1920,
+  "title": "A constant error in psychological ratings"
+ },
+ {
+  "t": [
+   "Confirmation Bias Exploitation"
+  ],
+  "label": "Research",
+  "doi": "10.1037/1089-2680.2.2.175",
+  "au": "Nickerson",
+  "y": 1998,
+  "title": "Confirmation bias: a ubiquitous phenomenon in many guises"
+ },
+ {
+  "t": [
+   "Maternal Gatekeeping"
+  ],
+  "label": "Where the name comes from",
+  "doi": "10.2307/353894",
+  "au": "Allen",
+  "y": 1999,
+  "title": "Maternal gatekeeping: mothers' beliefs and behaviors that inhibit greater father involvement"
+ },
+ {
+  "t": [
+   "Harm to Pets or Property"
+  ],
+  "label": "Research",
+  "doi": "10.1300/J135v01n01_06",
+  "au": "Ascione",
+  "y": 1998,
+  "title": "Battered women's reports of their partners' and their children's cruelty to animals"
+ },
+ {
+  "t": [
+   "Reproductive Coercion"
+  ],
+  "label": "Research",
+  "doi": "10.1016/j.contraception.2009.12.004",
+  "au": "Miller",
+  "y": 2010,
+  "title": "Pregnancy coercion, intimate partner violence and unintended pregnancy"
+ },
+ {
+  "t": [
+   "Ghosting as Control"
+  ],
+  "label": "Research",
+  "doi": "10.1177/0276236618820519",
+  "au": "LeFebvre",
+  "y": 2019,
+  "title": "Ghosting in emerging adults' romantic relationships"
+ },
+ {
+  "t": [
+   "Forced Teaming",
+   "Loan-Sharking Gifts"
+  ],
+  "label": "Where the name comes from",
+  "book": {
+   "title": "The Gift of Fear",
+   "author": "Gavin de Becker"
+  },
+  "y": 1997
+ },
+ {
+  "t": [
+   "Gish Gallop / Firehose of Falsehood"
+  ],
+  "label": "Research",
+  "doi": "10.7249/PE198",
+  "au": "Paul",
+  "y": 2016,
+  "title": "The Russian firehose of falsehood propaganda model"
+ },
+ {
+  "t": [
+   "Motte-and-Bailey"
+  ],
+  "label": "Where the name comes from",
+  "doi": "10.1111/j.1467-9973.2005.00370.x",
+  "au": "Shackel",
+  "y": 2005,
+  "title": "The vacuity of postmodernist methodology"
+ },
+ {
+  "t": [
+   "Lying"
+  ],
+  "label": "Research",
+  "doi": "10.1037/0022-3514.70.5.979",
+  "au": "DePaulo",
+  "y": 1996,
+  "title": "Lying in everyday life"
+ },
+ {
+  "t": [
+   "Objectification"
+  ],
+  "label": "Research",
+  "doi": "10.1111/j.1471-6402.1997.tb00108.x",
+  "au": "Fredrickson",
+  "y": 1997,
+  "title": "Objectification theory"
+ },
+ {
+  "t": [
+   "Credibility Theft",
+   "Experience Erasure"
+  ],
+  "label": "Research",
+  "doi": "10.1093/acprof:oso/9780198237907.001.0001",
+  "au": "Fricker",
+  "y": 2007,
+  "title": "Epistemic injustice: power and the ethics of knowing"
+ },
+ {
+  "t": [
+   "Stigma Marking"
+  ],
+  "label": "Research",
+  "book": {
+   "title": "Stigma",
+   "author": "Goffman"
+  },
+  "y": 1963
+ },
+ {
+  "t": [
+   "Stonewalling",
+   "Contempt"
+  ],
+  "label": "Research",
+  "book": {
+   "title": "What Predicts Divorce?",
+   "author": "Gottman"
+  },
+  "y": 1994
+ },
+ {
+  "t": [
+   "Self-Fulfilling Prediction"
+  ],
+  "label": "Where the name comes from",
+  "doi": "10.2307/4609267",
+  "au": "Merton",
+  "y": 1948,
+  "title": "The self-fulfilling prophecy"
+ },
+ {
+  "t": [
+   "Computational Propaganda"
+  ],
+  "label": "Research",
+  "doi": "10.1093/oso/9780190931407.001.0001",
+  "au": "Woolley",
+  "y": 2018,
+  "title": "Computational propaganda"
+ },
+ {
+  "t": [
+   "Post-Truth Epistemic Manipulation"
+  ],
+  "label": "Research",
+  "book": {
+   "title": "Post-Truth",
+   "author": "Lee McIntyre"
+  },
+  "y": 2018
+ }
+]
