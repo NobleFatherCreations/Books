@@ -332,3 +332,8 @@ Text is frozen (step 2 complete, owner said "leave them in" and supplied `/about
   - bridge = a calm signpost to another book
   - sheet = print-ready
 - **Shell to build after the pick:** reading toggle (Full read / Just the steps), on-this-page menu for long chapters, reading time, top progress bar, author strip linking to `/about`, a share line (navigator.share, copy-link fallback), print CSS, desktop rail at ≥ 1100 px, phone dock, and Leave via Escape twice. None of it stores anything.
+
+## Owner's pick (2026-11-23)
+- **Direction:** A "Notes on the table" for every block, plus C's cover tiles: each "Where are you right now?" choice takes a different hour's sky. Comps and sheets are in `design/longafter-v6/comps/`.
+- **Discreet mode:** offered as a toggle, off by default. Nothing is stored, so it resets each visit.
+- **Author strip:** links to the live `/about` page. Its source isn't on this branch.

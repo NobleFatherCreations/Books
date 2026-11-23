@@ -32,3 +32,7 @@ See `docs/design-catalogue/templates/OWNER-TASTE.md` for the table to fill; add 
 ## 2026-11-21 (homepage v19)
 - "Please pull portal pendants from different sets at least so they aren't all the same." Show variety across sets (shape and glow colour), never one look repeated. Guarded by verify-hub "Portals come from N different sets".
 - "Desktop effects are fine but we are optimizing the entire experience and design for phones." Phone is the primary design target: every effect needs a phone form (touch, scroll, tilt, haptics), screenshots and critic rounds lead with phone, and desktop-only items (custom cursor, hover-only effects) are lowest priority.
+
+## 2026-11-23 (The Long After v6)
+- Writing voice: "approach this info like a best friend sending their bestie info that may help", "make them laugh if appropriate". Kept even the borderline light lines ("Leave them in").
+- Design: picked A "Notes on the table" (warm tactile cards, chat bubbles with Copy, a lamp-lit honest check) plus C's hour-tinted cover tiles, from phone comparison sheets. Discreet tab title as an off-by-default toggle.
