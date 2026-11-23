@@ -76,3 +76,11 @@ Started 2026-11-23. **Status:** done / waiting on the owner / not recommended.
 3. **Your public profile links**, for `sameAs`: Facebook page, TikTok, Instagram, YouTube, GitHub and any others you want tied to Shae Stovell and Noble Father Creations.
 4. **Which accounts you'll make:** Internet Archive, Open Library, Goodreads, Zenodo, ORCID, Curlie. For each, I prepare everything so it's paste-and-submit.
 5. **Yes or no for outreach drafts:** DV libraries, ICSA, librarians, awesome lists, llms.txt directories. I draft, you send.
+
+## Update 2026-11-23 (owner: "yes to all")
+- **Share cards:** logo and name added to the homepage, The Long After (new second-edition card) and all 367 Decoder cards. Deployed and verified. Facebook previews were re-scraped by the owner (the homepage needs one more "Scrape Again").
+- **Gmail drafts created** (the owner reviews and sends): NNEDV Safety Net, ICSA, Center for Institutional Courage, DomesticShelters.org. Every address was taken from the organisation's own pages.
+- **Paste-ready packets** for every form and account: `docs/SUBMISSION-PACKETS.md`. Covers VAWnet, Curlie, Open Library (14 books), Zenodo (dataset files in `content/decoder-v21/export/`), ORCID, Goodreads, Internet Archive, llms.txt directories and 8 university library guides.
+- **Bug found (not fixed, needs the owner's go-ahead to redeploy 6 sites):** the front-page meta description of loop, scale, silence, atwill, repair and slowtake repeats the tagline four times.
+  - Cause: `scripts/seo/build_jsbook.py` `book_meta()` reads the description back from its own output and prefixes it again on every run.
+  - Fix: give each book a fixed description in `BOOKS`. The SUBMISSION-PACKETS table has candidates. Then rebuild those six and deploy them on the owner's word.
