@@ -388,12 +388,14 @@ html,body{margin:0;width:1200px;height:630px;overflow:hidden;background:%(bg)s;c
 .c{box-sizing:border-box;width:1200px;height:630px;padding:72px 80px;display:flex;flex-direction:column;justify-content:space-between;
 background:radial-gradient(120%% 90%% at 85%% 0%%,%(glow)s 0%%,transparent 60%%),%(bg)s;border-bottom:12px solid %(acc)s}
 .k{font:600 24px/1.2 %(disp)s;letter-spacing:.14em;text-transform:uppercase;color:%(acc)s}
-h1{font:600 %(size)spx/1.02 %(disp)s;margin:0;letter-spacing:-.01em;max-width:1000px}
-p{font:400 34px/1.3 %(body)s;margin:32px 0 0;color:%(fg2)s;max-width:960px}
+h1{font:600 %(size)spx/1.02 %(disp)s;margin:0;letter-spacing:-.01em;max-width:760px;position:relative}
+p{font:400 34px/1.3 %(body)s;margin:32px 0 0;color:%(fg2)s;max-width:640px;position:relative}
+.fig{position:absolute;right:28px;bottom:12px;height:600px;filter:drop-shadow(0 0 40px rgba(0,0,0,.6));-webkit-mask-image:linear-gradient(to bottom,#000 78%%,transparent);mask-image:linear-gradient(to bottom,#000 78%%,transparent)}
+.k,.f{position:relative;z-index:1}
 .f{display:flex;justify-content:space-between;align-items:center;font:600 24px/1.2 %(disp)s;color:%(fg2)s}.f b{color:%(acc)s;font-weight:600}
-.f span{display:flex;align-items:center;gap:16px}.f img{width:56px;height:56px;border-radius:50%%;box-shadow:0 0 0 2px %(acc)s}
-</style></head><body><div class="c"><div class="k">%(kicker)s</div><div><h1>%(title)s</h1><p>%(sub)s</p></div>
-<div class="f"><span>%(logo)s<span>Shae Stovell &middot; Noble Father Creations</span></span><b>noblefathercreations.com/%(slug)s</b></div></div></body></html>"""
+.f{flex-direction:column;align-items:flex-start;gap:8px}.f span{display:flex}
+</style></head><body><div class="c">%(logo)s<div class="k">%(kicker)s</div><div><h1>%(title)s</h1><p>%(sub)s</p></div>
+<div class="f"><span><span>Shae Stovell &middot; Noble Father Creations</span></span><b>noblefathercreations.com/%(slug)s</b></div></div></body></html>"""
 
 
 def make_og(book, out_dir, kicker, sub):
@@ -409,11 +411,11 @@ def make_og(book, out_dir, kicker, sub):
             fonts.append(f"@font-face{{font-family:'{fam}';font-weight:{w};font-style:{st};src:url('{f.as_uri()}')}}")
     th = book["theme"]
     title = book["title"]
-    size = 132 if len(title) <= 14 else 108 if len(title) <= 22 else 88
+    size = 120 if len(title) <= 14 else 96 if len(title) <= 22 else 80
     page = OG_HTML % dict(fonts="\n".join(fonts), bg=th["bg"], fg=th["fg"], fg2=th["fg2"], acc=th["acc"],
                           glow=th.get("glow", th["panel"]), disp=th["disp"], body=th["body"], size=size,
                           kicker=esc(kicker), title=esc(title), sub=esc(sub), slug=book["slug"],
-                          logo='<img src="%s" alt="">' % (ROOT / "design/decoder-v10/assets/brand-logo.txt").read_text().strip())
+                          logo='<img class="fig" src="%s" alt="">' % (ROOT / "design/brand/logo-noble-father.png").as_uri())
     with tempfile.NamedTemporaryFile("w", suffix=".html", delete=False, encoding="utf-8") as t:
         t.write(page)
     js = ("const {chromium}=require('playwright');(async()=>{const b=await chromium.launch();const p=await b.newPage({viewport:{width:1200,height:630}});"
