@@ -10,3 +10,4 @@ Writers list anything they couldn't confirm on a page. The steelman and fact-che
 - 03-iii-b: readability flags 'You do not need to prove intent to be entitled to a boundary.' as a place-less legal claim. False positive (not a legal claim; The Loop links to it): leave word for word. Kruger 2005 and Vrij 2009 issue numbers unverified (left out).
 - 03-iii-c: Chesney and Citron 2019 page range (start page only); Rathje et al. 2021 issue number left out; Bartlett 1932 DOI points to the reprint; Bartlett's specific story changes stated generally (confirm).
 - 04-iv-a: Lewicki, Polin and Lount (2016) DOI given as 10.34891/9awp-8644 (journal's newer DOI); the original Wiley DOI not checked. Confirm which resolves.
+- 04-iv-c: Hall (2019) friendship hours (volume/pages from press release only); the scholarly objection to Hassan's BITE model is mentioned but unsourced (source it or cut); Tepper (2000) definition quoted via a citing paper (check against the original).
