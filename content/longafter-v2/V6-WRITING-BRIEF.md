@@ -30,7 +30,7 @@ The reader is often reading at 2am, tired, scared or furious, on a phone. Write 
 6. **Honest checks** (`::: honest`) keep their exact opening line (*An honest check, just for you. This is about what's in your hands now, not blame for what was done to you.*) and the four rules in `TONE-AUDIT.md`: about the present, a blame-free opener, private questions with no verdicts, a gentle next step. No humour inside them.
 7. **Composite examples** (`::: scene`) keep their opening note line exactly (*This example is made up, built from patterns many people describe.*). You may rewrite the story in the new voice. Never describe a real person or case.
 8. **Blocks:** keep the `:::` fences around what they wrap. Opening line `::: kind`, closing line `:::` alone, a blank line before and after. New blocks use the same syntax: `scene`, `honest`, `decoder`, `action`, `bridge`.
-9. **No Root or Listening Room links** (owner left that question open). Don't change the composite-example wording rule (also left open).
+9. **No NEW Root or Listening Room links** (owner left that question open). Links already in the text stay. Don't change the composite-example wording rule (also left open).
 10. **Length:** each chapter within about 15% of its current word count, unless the worklist adds something.
 
 ## 3. The worklist items, and how to do each one
