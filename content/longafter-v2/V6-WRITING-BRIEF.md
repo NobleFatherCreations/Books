@@ -14,6 +14,7 @@ The reader is often reading at 2am, tired, scared or furious, on a phone. Write 
   - Yes: dry, warm lightness about the absurd everyday side, like the 47-message essay at midnight, the ex's sudden passion for the school calendar, the forms that ask for the same thing four times, or yourself rehearsing a reply in the shower for the ninth time.
   - Never: jokes about violence, sexual abuse, self-harm, children being hurt, or the reader's pain; anything mocking the reader; anything in the crisis and safety sections. In the heavy chapters (book.json `chapter_class` crisis = `heavy: true` in plan.json), keep the safety parts plain and steady. A light line elsewhere in the chapter is fine if it helps them breathe.
   - Aim for roughly one light moment per chapter where it fits naturally. Zero is fine. Never force it.
+  - Pilot note (01-i-a): the result was clean and accurate but a little reserved. In non-heavy chapters, lean further into friend-talk: the aside a mate would actually say, the knowing "yep, that one", a wry line about the absurd bits. In practical, legal and money chapters especially, warmth and a little wit make dry material bearable.
 - **Owner's voice signals** (from `content/about.md`): plain words, raw honesty, short punches ("You're not."), naming the feeling exactly ("checking your own memory like it's lying to you"), no hedged corporate tone, warmth without syrup. Steal the cadence, not the content.
 - **"I" is allowed sparingly** for opinion and solidarity ("I won't pretend this part is fun"). Never invent a personal story, experience or fact about the author.
 - **Never preachy, never therapist-speak.** No "it's important to", "self-care journey", "hold space", "you've got this", "you are valid". Show it instead.
@@ -64,6 +65,6 @@ python3 scripts/longafter-audit.py <part-id>          # 0 failing (voice, links,
 python3 scripts/longafter-ai-audit.py | head -3       # no new hard hits for your chapters
 python3 scripts/book/readability.py --stdout | grep -A3 "^## Totals"   # your chapters improved
 ```
-Don't build, deploy, commit or push. Don't touch files other than your assigned `NN-*.md`.
+Don't build, deploy, commit or push. `longafter-ai-audit.py` rewrites AI-AUDIT.md/.json: put them back with `git checkout` after running it. Also run `python3 scripts/book/rewrite-check.py content/longafter-v2/<file>` (must show 0 problems). Don't touch files other than your assigned `NN-*.md`.
 
 Report back: the chapters done, worklist items done or skipped (with why), facts you were unsure of, and three short before-and-after samples (one with a light moment, one structural fix, one handoff line).
