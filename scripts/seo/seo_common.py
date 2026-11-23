@@ -390,9 +390,10 @@ background:radial-gradient(120%% 90%% at 85%% 0%%,%(glow)s 0%%,transparent 60%%)
 .k{font:600 24px/1.2 %(disp)s;letter-spacing:.14em;text-transform:uppercase;color:%(acc)s}
 h1{font:600 %(size)spx/1.02 %(disp)s;margin:0;letter-spacing:-.01em;max-width:1000px}
 p{font:400 34px/1.3 %(body)s;margin:32px 0 0;color:%(fg2)s;max-width:960px}
-.f{display:flex;justify-content:space-between;font:600 24px/1.2 %(disp)s;color:%(fg2)s}.f b{color:%(acc)s;font-weight:600}
+.f{display:flex;justify-content:space-between;align-items:center;font:600 24px/1.2 %(disp)s;color:%(fg2)s}.f b{color:%(acc)s;font-weight:600}
+.f span{display:flex;align-items:center;gap:16px}.f img{width:56px;height:56px;border-radius:50%%;box-shadow:0 0 0 2px %(acc)s}
 </style></head><body><div class="c"><div class="k">%(kicker)s</div><div><h1>%(title)s</h1><p>%(sub)s</p></div>
-<div class="f"><span>by Shae Stovell &middot; Noble Father Creations</span><b>noblefathercreations.com/%(slug)s</b></div></div></body></html>"""
+<div class="f"><span>%(logo)s<span>Shae Stovell &middot; Noble Father Creations</span></span><b>noblefathercreations.com/%(slug)s</b></div></div></body></html>"""
 
 
 def make_og(book, out_dir, kicker, sub):
@@ -411,7 +412,8 @@ def make_og(book, out_dir, kicker, sub):
     size = 132 if len(title) <= 14 else 108 if len(title) <= 22 else 88
     page = OG_HTML % dict(fonts="\n".join(fonts), bg=th["bg"], fg=th["fg"], fg2=th["fg2"], acc=th["acc"],
                           glow=th.get("glow", th["panel"]), disp=th["disp"], body=th["body"], size=size,
-                          kicker=esc(kicker), title=esc(title), sub=esc(sub), slug=book["slug"])
+                          kicker=esc(kicker), title=esc(title), sub=esc(sub), slug=book["slug"],
+                          logo='<img src="%s" alt="">' % (ROOT / "design/decoder-v10/assets/brand-logo.txt").read_text().strip())
     with tempfile.NamedTemporaryFile("w", suffix=".html", delete=False, encoding="utf-8") as t:
         t.write(page)
     js = ("const {chromium}=require('playwright');(async()=>{const b=await chromium.launch();const p=await b.newPage({viewport:{width:1200,height:630}});"

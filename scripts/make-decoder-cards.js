@@ -22,9 +22,10 @@ const page = c => {
 .top .r{margin-left:auto;color:#E5C158}
 h1{position:absolute;left:72px;top:170px;width:1056px;font:800 ${size}px/1.04 O;letter-spacing:-.025em}
 p{position:absolute;left:72px;bottom:120px;width:1000px;font:400 34px/1.38 A;color:#C9C6BD}
-.u{position:absolute;left:72px;bottom:48px;font:800 24px O;color:#E5C158}
+.u{position:absolute;left:72px;bottom:48px;font:800 22px O;color:#E5C158}
+.by{position:absolute;right:72px;bottom:36px;display:flex;align-items:center;gap:14px;font:700 22px O;color:#A8A69E}.by img{width:48px;height:48px;border-radius:50%;box-shadow:0 0 0 2px #E5C158}
 </style><div class="bar"></div><div class="top"><div class="bul">${c.letter}</div><span>${esc(c.code)}&nbsp; · &nbsp;${esc(c.kind)}</span><span class="r">Pattern Decoder</span></div>
-<h1>${esc(c.n)}</h1><p>${esc(c.d)}</p><div class="u">noblefathercreations.com/playbook/${c.s}</div>`;
+<h1>${esc(c.n)}</h1><p>${esc(c.d)}</p><div class="u">noblefathercreations.com/playbook</div><div class="by"><img src="${f("instruments/playbook/site/f/icon.webp")}">Shae Stovell<b style="font-weight:inherit;margin:0 .45em">·</b>Noble Father Creations</div>`;
 };
 (async () => {
   const todo = cards.filter(c => { const h = crypto.createHash("sha256").update(JSON.stringify(c)).digest("hex").slice(0, 16);

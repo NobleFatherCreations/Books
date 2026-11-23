@@ -14,9 +14,10 @@ const html = `<!doctype html><meta charset="utf-8"><style>
 h1{position:absolute;left:72px;top:196px;width:960px;font:800 104px/1.02 O;letter-spacing:-.03em}
 p{position:absolute;left:72px;top:416px;width:900px;font:400 36px/1.4 A;color:#A8A69E}
 .u{position:absolute;left:72px;bottom:44px;display:flex;align-items:center;gap:20px;font:800 26px O;color:#E5C158}.u i{width:64px;height:8px;border-radius:8px;background:#E5C158}
+.by{position:absolute;right:72px;bottom:44px;font:700 24px O;color:#A8A69E}
 </style><div class="g"></div><div class="b"><img src="${f("instruments/playbook/site/f/icon.webp")}">Pattern Decoder</div>
 <h1>Put a name to what is happening.</h1><p>335 manipulation and control tactics, in plain words: how to tell if one fits, and what you can do.</p>
-<div class="u"><i></i>noblefathercreations.com/playbook</div>`;
+<div class="u"><i></i>noblefathercreations.com/playbook</div><div class="by">by Shae Stovell<b style="font-weight:inherit;margin:0 .45em">·</b>Noble Father Creations</div>`;
 (async () => { const b = await chromium.launch(), p = await b.newPage({ viewport: { width: 1200, height: 630 } });
   const tmp = path.join(os.tmpdir(), "decoder-og.html"); fs.writeFileSync(tmp, html);   /* file:// assets load only from a file page */
   await p.goto("file://" + tmp); await p.evaluate(() => document.fonts.ready); await p.waitForTimeout(300);

@@ -547,6 +547,15 @@ def redirect_html(to):
 META, META_BODY = {}, {}
 
 
+def share_card():
+    """1200x630 share card in the book's own Dusk colours and fonts, with the author's logo and name (scripts/seo/seo_common.make_og)."""
+    n = sum(1 for c in PLAN["chapters"] if c["part"] not in ("start", "tools"))
+    card = {"slug": "longafter", "title": "The Long After", "fonts": ["bookdisplay", "bookserif"],
+            "theme": {"bg": "#1b1430", "fg": "#F4EEE6", "fg2": "#CBBFB6", "panel": "#241a3a", "glow": "#3a2346", "acc": "#e0957a",
+                      "disp": "'bookdisplay',Georgia,serif", "body": "'bookserif',Georgia,serif"}}
+    S.make_og(card, OUT, f"Free to read \u00b7 second edition \u00b7 {n} chapters", "What happens once you've left.")
+
+
 def main():
     global HOUSE
     chs = parse()
@@ -572,6 +581,8 @@ def main():
     urls = [URL, URL + "/contents"] + [f"{URL}/{s}" for s in ORDER]
     S.write(OUT / "sitemap.xml", '<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n'
             + "".join(f"  <url><loc>{u}</loc><lastmod>{S.TODAY}</lastmod></url>\n" for u in urls) + "</urlset>\n")
+    if "--og" in sys.argv:
+        share_card()
     print(f"longafter v5: {len(ORDER)} pages + index, contents, search, all; {len(stale)} stale pages removed; sitemap {len(urls)} URLs")
 
 
