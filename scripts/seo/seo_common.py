@@ -390,12 +390,17 @@ background:radial-gradient(120%% 90%% at 85%% 0%%,%(glow)s 0%%,transparent 60%%)
 .k{font:600 24px/1.2 %(disp)s;letter-spacing:.14em;text-transform:uppercase;color:%(acc)s}
 h1{font:600 %(size)spx/1.02 %(disp)s;margin:0;letter-spacing:-.01em;max-width:540px;position:relative}
 p{font:400 34px/1.3 %(body)s;margin:32px 0 0;color:%(fg2)s;max-width:500px;position:relative}
-.fig{position:absolute;right:-24px;top:0;height:630px}
-.k,.f{position:relative;z-index:1}
+.fig{position:absolute;inset:0;width:1200px;height:630px;object-fit:cover}
+.veil{position:absolute;inset:0;background:linear-gradient(0deg,%(veil1)s 0%%,%(veil2)s 16%%,transparent 34%%),linear-gradient(90deg,%(veil1)s 0%%,%(veil1)s 40%%,%(veil2)s 52%%,transparent 64%%)}
+.k,.f,h1,p{position:relative;z-index:1}
 .f{display:flex;justify-content:space-between;align-items:center;font:600 24px/1.2 %(disp)s;color:%(fg2)s}.f b{color:%(acc)s;font-weight:600}
 .f{flex-direction:column;align-items:flex-start;gap:8px}.f span{display:flex}
-</style></head><body><div class="c">%(logo)s<div class="k">%(kicker)s</div><div><h1>%(title)s</h1><p>%(sub)s</p></div>
+</style></head><body><div class="c">%(logo)s<div class="veil"></div><div class="k">%(kicker)s</div><div><h1>%(title)s</h1><p>%(sub)s</p></div>
 <div class="f"><span><span>Shae Stovell &middot; Noble Father Creations</span></span><b>noblefathercreations.com/%(slug)s</b></div></div></body></html>"""
+
+
+def _rgba(hexcol, a):
+    h = hexcol.lstrip("#"); return "rgba(%d,%d,%d,%s)" % (int(h[0:2], 16), int(h[2:4], 16), int(h[4:6], 16), a)
 
 
 def make_og(book, out_dir, kicker, sub):
@@ -415,7 +420,8 @@ def make_og(book, out_dir, kicker, sub):
     page = OG_HTML % dict(fonts="\n".join(fonts), bg=th["bg"], fg=th["fg"], fg2=th["fg2"], acc=th["acc"],
                           glow=th.get("glow", th["panel"]), disp=th["disp"], body=th["body"], size=size,
                           kicker=esc(kicker), title=esc(title), sub=esc(sub), slug=book["slug"],
-                          logo='<img class="fig" src="%s" alt="">' % (ROOT / "design/brand/figure-panel.png").as_uri())
+                          logo='<img class="fig" src="%s" alt="">' % (ROOT / "design/brand/card-bg-1200x630.jpg").as_uri(),
+                          veil1=_rgba(th["bg"], .9), veil2=_rgba(th["bg"], .62))
     with tempfile.NamedTemporaryFile("w", suffix=".html", delete=False, encoding="utf-8") as t:
         t.write(page)
     js = ("const {chromium}=require('playwright');(async()=>{const b=await chromium.launch();const p=await b.newPage({viewport:{width:1200,height:630}});"

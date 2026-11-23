@@ -267,8 +267,8 @@
       "dataSource": "content/playbook-data.json",
       "lastDeploy": {
         "date": "2026-11-23",
-        "deployId": "6b03cdd1fd532d9f7450a643",
-        "note": "v21 + cards with the brand figure panel"
+        "deployId": "6b03cf36587e5ba42a90e549",
+        "note": "v21 + cards: whole brand header as background, lettering faded on the left"
       },
       "openItems": [
         {
@@ -1021,8 +1021,8 @@
       "netlifyUrl": "https://noble-the-long-after.netlify.app/",
       "lastDeploy": {
         "date": "2026-11-23",
-        "deployId": "6b03cde2082e2151ecbc4ac1",
-        "note": "v5 + card with the brand figure panel"
+        "deployId": "6b03cf4804b68a5fef8f7407",
+        "note": "v5 + card: whole brand header as background"
       },
       "workInProgress": {
         "what": "Expansion to roughly double (owner, 2026-11-22): outline every chapter, write part by part, then voice audit, no-AI-slop, steelman, fact check, pipeline; design only after the writing is audited; deploy only on the owner's words.",
