@@ -127,16 +127,25 @@
   ]
  },
  "reference_pages": [
+  "what-are-you-trying-to-weigh",
+  "how-to-use-this-book",
+  "the-60-second-weigh",
   "field-card",
+  "questions-people-ask",
+  "a-to-z",
+  "weighing-sheet",
+  "track-record-sheet",
   "limits"
  ],
  "audit": "",
  "rewrite": {
   "headers": [
    "title",
+   "question",
+   "seo",
    "short"
   ],
-  "scene_line": "",
+  "scene_line": "*LABEL*",
   "honest_line": "",
   "crisis": [
    "ch:when-weighing-stops",

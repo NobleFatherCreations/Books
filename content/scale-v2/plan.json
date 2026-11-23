@@ -1,6 +1,15 @@
 {
  "parts": [
   {
+   "id": "start",
+   "title": "Start here",
+   "blurb": "",
+   "chapters": [
+    "what-are-you-trying-to-weigh",
+    "how-to-use-this-book"
+   ]
+  },
+  {
    "id": "i",
    "title": "Why weigh at all",
    "blurb": "The problem this book solves, the safeguard against its own misuse, and the three frames everything downstream rests on.",
@@ -9,7 +18,10 @@
     "this-book-in-the-wrong-hands",
     "the-two-errors-and-what-they-actually-cost",
     "most-people-most-days",
-    "the-gradient"
+    "the-gradient",
+    "red-flag-flaw-or-dealbreaker",
+    "conflict-or-control",
+    "a-boundary-or-a-rule"
    ]
   },
   {
@@ -19,6 +31,9 @@
    "chapters": [
     "your-detector-has-a-history",
     "the-gut-sensor-or-smoke-alarm",
+    "gut-feeling-or-anxiety",
+    "when-people-say-youre-overreacting",
+    "the-biases-in-everyone",
     "grief-in-the-costume-of-analysis",
     "the-retrospective-rewrite",
     "the-state-youre-judging-from",
@@ -36,6 +51,10 @@
     "the-discipline-of-three-explanations",
     "the-boring-explanations",
     "intent-impact-and-the-mind-reading-trap",
+    "can-you-tell-when-someone-is-lying",
+    "reading-a-text-message",
+    "i-dont-remember-it-that-way",
+    "screenshots-and-what-they-leave-out",
     "secondhand-accounts",
     "judging-strangers-through-screens"
    ]
@@ -52,7 +71,13 @@
     "is-it-you-or-is-it-everyone",
     "power-changes-the-meaning",
     "difference-is-not-malice",
-    "institutions-weigh-differently"
+    "institutions-weigh-differently",
+    "when-you-both-say-victim",
+    "weighing-someone-new",
+    "weighing-family",
+    "weighing-a-boss",
+    "weighing-a-friend",
+    "weighing-a-group"
    ]
   },
   {
@@ -63,6 +88,7 @@
     "am-i-the-one-doing-it",
     "the-vocabulary-as-a-weapon",
     "who-benefits-from-your-verdict",
+    "when-youre-the-one-accused",
     "being-wrong-well"
    ]
   },
@@ -75,28 +101,58 @@
     "when-you-cant-ever-know",
     "scoring-your-own-past-calls",
     "certainty-is-the-tell",
+    "can-people-change",
+    "weighing-an-expert",
     "helping-someone-else-weigh",
+    "weighing-after-youve-left",
     "when-weighing-stops",
+    "changing-your-mind-out-loud",
     "trust-as-a-skill-you-rebuild"
    ]
   },
   {
-   "id": "appendix",
-   "title": "Appendices",
-   "blurb": "",
+   "id": "tools",
+   "title": "Toolbox",
+   "blurb": "Things to keep, print or screenshot.",
    "chapters": [
+    "the-60-second-weigh",
     "field-card",
+    "questions-people-ask",
+    "a-to-z",
+    "weighing-sheet",
+    "track-record-sheet",
     "limits"
    ]
   }
  ],
  "chapters": [
   {
+   "slug": "what-are-you-trying-to-weigh",
+   "part": "start",
+   "n": null,
+   "title": "What are you trying to weigh?",
+   "keyword": "",
+   "keywords2": [],
+   "decoder": [],
+   "heavy": false,
+   "new": true
+  },
+  {
+   "slug": "how-to-use-this-book",
+   "part": "start",
+   "n": null,
+   "title": "How to use this book",
+   "keyword": "",
+   "keywords2": [],
+   "decoder": [],
+   "heavy": false,
+   "new": true
+  },
+  {
    "slug": "you-learned-to-see-this-is-how-you-learn-to-weigh",
    "part": "i",
    "n": 1,
    "title": "You learned to see. This is how you learn to weigh.",
-   "minutes": 8,
    "keyword": "",
    "keywords2": [],
    "decoder": [
@@ -111,7 +167,6 @@
    "part": "i",
    "n": 2,
    "title": "This book in the wrong hands",
-   "minutes": 7,
    "keyword": "",
    "keywords2": [],
    "decoder": [
@@ -127,7 +182,6 @@
    "part": "i",
    "n": 3,
    "title": "The two errors, and what they actually cost",
-   "minutes": 8,
    "keyword": "",
    "keywords2": [],
    "decoder": [],
@@ -138,7 +192,6 @@
    "part": "i",
    "n": 4,
    "title": "Most people, most days",
-   "minutes": 7,
    "keyword": "",
    "keywords2": [],
    "decoder": [],
@@ -149,7 +202,6 @@
    "part": "i",
    "n": 5,
    "title": "The gradient",
-   "minutes": 8,
    "keyword": "",
    "keywords2": [],
    "decoder": [
@@ -159,11 +211,43 @@
    "heavy": false
   },
   {
+   "slug": "red-flag-flaw-or-dealbreaker",
+   "part": "i",
+   "n": 6,
+   "title": "Red flag, flaw or dealbreaker",
+   "keyword": "",
+   "keywords2": [],
+   "decoder": [],
+   "heavy": false,
+   "new": true
+  },
+  {
+   "slug": "conflict-or-control",
+   "part": "i",
+   "n": 7,
+   "title": "Conflict or control",
+   "keyword": "",
+   "keywords2": [],
+   "decoder": [],
+   "heavy": false,
+   "new": true
+  },
+  {
+   "slug": "a-boundary-or-a-rule",
+   "part": "i",
+   "n": 8,
+   "title": "A boundary, or a rule for someone else",
+   "keyword": "",
+   "keywords2": [],
+   "decoder": [],
+   "heavy": false,
+   "new": true
+  },
+  {
    "slug": "your-detector-has-a-history",
    "part": "ii",
-   "n": 6,
+   "n": 9,
    "title": "Your detector has a history",
-   "minutes": 8,
    "keyword": "",
    "keywords2": [],
    "decoder": [
@@ -174,20 +258,51 @@
   {
    "slug": "the-gut-sensor-or-smoke-alarm",
    "part": "ii",
-   "n": 7,
+   "n": 10,
    "title": "The gut: sensor or smoke alarm",
-   "minutes": 8,
    "keyword": "",
    "keywords2": [],
    "decoder": [],
    "heavy": false
   },
   {
+   "slug": "gut-feeling-or-anxiety",
+   "part": "ii",
+   "n": 11,
+   "title": "Gut feeling or anxiety",
+   "keyword": "",
+   "keywords2": [],
+   "decoder": [],
+   "heavy": false,
+   "new": true
+  },
+  {
+   "slug": "when-people-say-youre-overreacting",
+   "part": "ii",
+   "n": 12,
+   "title": "When people say you’re overreacting",
+   "keyword": "",
+   "keywords2": [],
+   "decoder": [],
+   "heavy": false,
+   "new": true
+  },
+  {
+   "slug": "the-biases-in-everyone",
+   "part": "ii",
+   "n": 13,
+   "title": "The biases in everyone",
+   "keyword": "",
+   "keywords2": [],
+   "decoder": [],
+   "heavy": false,
+   "new": true
+  },
+  {
    "slug": "grief-in-the-costume-of-analysis",
    "part": "ii",
-   "n": 8,
+   "n": 14,
    "title": "Grief in the costume of analysis",
-   "minutes": 7,
    "keyword": "",
    "keywords2": [],
    "decoder": [],
@@ -196,9 +311,8 @@
   {
    "slug": "the-retrospective-rewrite",
    "part": "ii",
-   "n": 9,
+   "n": 15,
    "title": "The retrospective rewrite",
-   "minutes": 8,
    "keyword": "",
    "keywords2": [],
    "decoder": [
@@ -209,9 +323,8 @@
   {
    "slug": "the-state-youre-judging-from",
    "part": "ii",
-   "n": 10,
+   "n": 16,
    "title": "The state you’re judging from",
-   "minutes": 6,
    "keyword": "",
    "keywords2": [],
    "decoder": [
@@ -222,9 +335,8 @@
   {
    "slug": "the-reference-sample",
    "part": "ii",
-   "n": 11,
+   "n": 17,
    "title": "The reference sample",
-   "minutes": 9,
    "keyword": "",
    "keywords2": [],
    "decoder": [
@@ -236,9 +348,8 @@
   {
    "slug": "what-is-evidence",
    "part": "iii",
-   "n": 12,
+   "n": 18,
    "title": "What is evidence",
-   "minutes": 8,
    "keyword": "",
    "keywords2": [],
    "decoder": [
@@ -249,9 +360,8 @@
   {
    "slug": "one-thing-is-not-a-pattern",
    "part": "iii",
-   "n": 13,
+   "n": 19,
    "title": "One thing is not a pattern",
-   "minutes": 9,
    "keyword": "",
    "keywords2": [],
    "decoder": [
@@ -264,9 +374,8 @@
   {
    "slug": "the-file-that-builds-itself",
    "part": "iii",
-   "n": 14,
+   "n": 20,
    "title": "The file that builds itself",
-   "minutes": 8,
    "keyword": "",
    "keywords2": [],
    "decoder": [
@@ -279,9 +388,8 @@
   {
    "slug": "the-discipline-of-three-explanations",
    "part": "iii",
-   "n": 15,
+   "n": 21,
    "title": "The discipline of three explanations",
-   "minutes": 8,
    "keyword": "",
    "keywords2": [],
    "decoder": [],
@@ -290,9 +398,8 @@
   {
    "slug": "the-boring-explanations",
    "part": "iii",
-   "n": 16,
+   "n": 22,
    "title": "The boring explanations",
-   "minutes": 7,
    "keyword": "",
    "keywords2": [],
    "decoder": [
@@ -305,20 +412,62 @@
   {
    "slug": "intent-impact-and-the-mind-reading-trap",
    "part": "iii",
-   "n": 17,
+   "n": 23,
    "title": "Intent, impact, and the mind-reading trap",
-   "minutes": 8,
    "keyword": "",
    "keywords2": [],
    "decoder": [],
    "heavy": false
   },
   {
+   "slug": "can-you-tell-when-someone-is-lying",
+   "part": "iii",
+   "n": 24,
+   "title": "Can you tell when someone is lying?",
+   "keyword": "",
+   "keywords2": [],
+   "decoder": [],
+   "heavy": false,
+   "new": true
+  },
+  {
+   "slug": "reading-a-text-message",
+   "part": "iii",
+   "n": 25,
+   "title": "Reading a text message",
+   "keyword": "",
+   "keywords2": [],
+   "decoder": [],
+   "heavy": false,
+   "new": true
+  },
+  {
+   "slug": "i-dont-remember-it-that-way",
+   "part": "iii",
+   "n": 26,
+   "title": "“I don’t remember it that way”",
+   "keyword": "",
+   "keywords2": [],
+   "decoder": [],
+   "heavy": false,
+   "new": true
+  },
+  {
+   "slug": "screenshots-and-what-they-leave-out",
+   "part": "iii",
+   "n": 27,
+   "title": "Screenshots, and what they leave out",
+   "keyword": "",
+   "keywords2": [],
+   "decoder": [],
+   "heavy": false,
+   "new": true
+  },
+  {
    "slug": "secondhand-accounts",
    "part": "iii",
-   "n": 18,
+   "n": 28,
    "title": "Secondhand accounts",
-   "minutes": 9,
    "keyword": "",
    "keywords2": [],
    "decoder": [
@@ -329,9 +478,8 @@
   {
    "slug": "judging-strangers-through-screens",
    "part": "iii",
-   "n": 19,
+   "n": 29,
    "title": "Judging strangers through screens",
-   "minutes": 8,
    "keyword": "",
    "keywords2": [],
    "decoder": [
@@ -344,9 +492,8 @@
   {
    "slug": "before-you-test-is-testing-safe",
    "part": "iv",
-   "n": 20,
+   "n": 30,
    "title": "Before you test: is testing safe?",
-   "minutes": 6,
    "keyword": "",
    "keywords2": [],
    "decoder": [
@@ -360,9 +507,8 @@
   {
    "slug": "the-naming-test",
    "part": "iv",
-   "n": 21,
+   "n": 31,
    "title": "The naming test",
-   "minutes": 9,
    "keyword": "",
    "keywords2": [],
    "decoder": [
@@ -375,9 +521,8 @@
   {
    "slug": "repair-and-apologys-counterfeit",
    "part": "iv",
-   "n": 22,
+   "n": 32,
    "title": "Repair, and apology’s counterfeit",
-   "minutes": 9,
    "keyword": "",
    "keywords2": [],
    "decoder": [
@@ -388,9 +533,8 @@
   {
    "slug": "the-cost-of-no",
    "part": "iv",
-   "n": 23,
+   "n": 33,
    "title": "The cost of “no”",
-   "minutes": 7,
    "keyword": "",
    "keywords2": [],
    "decoder": [],
@@ -399,9 +543,8 @@
   {
    "slug": "is-it-you-or-is-it-everyone",
    "part": "iv",
-   "n": 24,
+   "n": 34,
    "title": "Is it you, or is it everyone?",
-   "minutes": 8,
    "keyword": "",
    "keywords2": [],
    "decoder": [
@@ -413,9 +556,8 @@
   {
    "slug": "power-changes-the-meaning",
    "part": "iv",
-   "n": 25,
+   "n": 35,
    "title": "Power changes the meaning",
-   "minutes": 8,
    "keyword": "",
    "keywords2": [],
    "decoder": [
@@ -428,9 +570,8 @@
   {
    "slug": "difference-is-not-malice",
    "part": "iv",
-   "n": 26,
+   "n": 36,
    "title": "Difference is not malice",
-   "minutes": 9,
    "keyword": "",
    "keywords2": [],
    "decoder": [
@@ -441,20 +582,84 @@
   {
    "slug": "institutions-weigh-differently",
    "part": "iv",
-   "n": 27,
+   "n": 37,
    "title": "Institutions weigh differently",
-   "minutes": 9,
    "keyword": "",
    "keywords2": [],
    "decoder": [],
    "heavy": false
   },
   {
+   "slug": "when-you-both-say-victim",
+   "part": "iv",
+   "n": 38,
+   "title": "When you both say you’re the victim",
+   "keyword": "",
+   "keywords2": [],
+   "decoder": [],
+   "heavy": false,
+   "new": true
+  },
+  {
+   "slug": "weighing-someone-new",
+   "part": "iv",
+   "n": 39,
+   "title": "Weighing someone new",
+   "keyword": "",
+   "keywords2": [],
+   "decoder": [],
+   "heavy": false,
+   "new": true
+  },
+  {
+   "slug": "weighing-family",
+   "part": "iv",
+   "n": 40,
+   "title": "Weighing your own family",
+   "keyword": "",
+   "keywords2": [],
+   "decoder": [],
+   "heavy": false,
+   "new": true
+  },
+  {
+   "slug": "weighing-a-boss",
+   "part": "iv",
+   "n": 41,
+   "title": "Weighing a boss",
+   "keyword": "",
+   "keywords2": [],
+   "decoder": [],
+   "heavy": false,
+   "new": true
+  },
+  {
+   "slug": "weighing-a-friend",
+   "part": "iv",
+   "n": 42,
+   "title": "Weighing a friend",
+   "keyword": "",
+   "keywords2": [],
+   "decoder": [],
+   "heavy": false,
+   "new": true
+  },
+  {
+   "slug": "weighing-a-group",
+   "part": "iv",
+   "n": 43,
+   "title": "Weighing a group",
+   "keyword": "",
+   "keywords2": [],
+   "decoder": [],
+   "heavy": false,
+   "new": true
+  },
+  {
    "slug": "am-i-the-one-doing-it",
    "part": "v",
-   "n": 28,
+   "n": 44,
    "title": "Am I the one doing it?",
-   "minutes": 9,
    "keyword": "",
    "keywords2": [],
    "decoder": [
@@ -467,9 +672,8 @@
   {
    "slug": "the-vocabulary-as-a-weapon",
    "part": "v",
-   "n": 29,
+   "n": 45,
    "title": "The vocabulary as a weapon",
-   "minutes": 8,
    "keyword": "",
    "keywords2": [],
    "decoder": [
@@ -483,9 +687,8 @@
   {
    "slug": "who-benefits-from-your-verdict",
    "part": "v",
-   "n": 30,
+   "n": 46,
    "title": "Who benefits from your verdict",
-   "minutes": 8,
    "keyword": "",
    "keywords2": [],
    "decoder": [
@@ -496,11 +699,21 @@
    "heavy": false
   },
   {
+   "slug": "when-youre-the-one-accused",
+   "part": "v",
+   "n": 47,
+   "title": "When you’re the one accused",
+   "keyword": "",
+   "keywords2": [],
+   "decoder": [],
+   "heavy": false,
+   "new": true
+  },
+  {
    "slug": "being-wrong-well",
    "part": "v",
-   "n": 31,
+   "n": 48,
    "title": "Being wrong well",
-   "minutes": 7,
    "keyword": "",
    "keywords2": [],
    "decoder": [
@@ -512,9 +725,8 @@
   {
    "slug": "assessment-is-not-decision",
    "part": "vi",
-   "n": 32,
+   "n": 49,
    "title": "Assessment is not decision",
-   "minutes": 7,
    "keyword": "",
    "keywords2": [],
    "decoder": [],
@@ -523,9 +735,8 @@
   {
    "slug": "when-you-cant-ever-know",
    "part": "vi",
-   "n": 33,
+   "n": 50,
    "title": "When you can’t ever know",
-   "minutes": 7,
    "keyword": "",
    "keywords2": [],
    "decoder": [],
@@ -534,9 +745,8 @@
   {
    "slug": "scoring-your-own-past-calls",
    "part": "vi",
-   "n": 34,
+   "n": 51,
    "title": "Scoring your own past calls",
-   "minutes": 6,
    "keyword": "",
    "keywords2": [],
    "decoder": [],
@@ -545,9 +755,8 @@
   {
    "slug": "certainty-is-the-tell",
    "part": "vi",
-   "n": 35,
+   "n": 52,
    "title": "Certainty is the tell",
-   "minutes": 9,
    "keyword": "",
    "keywords2": [],
    "decoder": [
@@ -556,11 +765,32 @@
    "heavy": false
   },
   {
+   "slug": "can-people-change",
+   "part": "vi",
+   "n": 53,
+   "title": "Can people change?",
+   "keyword": "",
+   "keywords2": [],
+   "decoder": [],
+   "heavy": false,
+   "new": true
+  },
+  {
+   "slug": "weighing-an-expert",
+   "part": "vi",
+   "n": 54,
+   "title": "Weighing an expert",
+   "keyword": "",
+   "keywords2": [],
+   "decoder": [],
+   "heavy": false,
+   "new": true
+  },
+  {
    "slug": "helping-someone-else-weigh",
    "part": "vi",
-   "n": 36,
+   "n": 55,
    "title": "Helping someone else weigh",
-   "minutes": 8,
    "keyword": "",
    "keywords2": [],
    "decoder": [
@@ -569,11 +799,21 @@
    "heavy": false
   },
   {
+   "slug": "weighing-after-youve-left",
+   "part": "vi",
+   "n": 56,
+   "title": "Weighing after you’ve left",
+   "keyword": "",
+   "keywords2": [],
+   "decoder": [],
+   "heavy": false,
+   "new": true
+  },
+  {
    "slug": "when-weighing-stops",
    "part": "vi",
-   "n": 37,
+   "n": 57,
    "title": "When weighing stops",
-   "minutes": 6,
    "keyword": "",
    "keywords2": [],
    "decoder": [
@@ -584,11 +824,21 @@
    "heavy": true
   },
   {
+   "slug": "changing-your-mind-out-loud",
+   "part": "vi",
+   "n": 58,
+   "title": "Changing your mind out loud",
+   "keyword": "",
+   "keywords2": [],
+   "decoder": [],
+   "heavy": false,
+   "new": true
+  },
+  {
    "slug": "trust-as-a-skill-you-rebuild",
    "part": "vi",
-   "n": 38,
+   "n": 59,
    "title": "Trust as a skill you rebuild",
-   "minutes": 9,
    "keyword": "",
    "keywords2": [],
    "decoder": [
@@ -597,8 +847,19 @@
    "heavy": false
   },
   {
+   "slug": "the-60-second-weigh",
+   "part": "tools",
+   "n": null,
+   "title": "The 60-second weigh",
+   "keyword": "",
+   "keywords2": [],
+   "decoder": [],
+   "heavy": false,
+   "new": true
+  },
+  {
    "slug": "field-card",
-   "part": "appendix",
+   "part": "tools",
    "n": null,
    "title": "The field card",
    "keyword": "",
@@ -607,8 +868,52 @@
    "heavy": false
   },
   {
+   "slug": "questions-people-ask",
+   "part": "tools",
+   "n": null,
+   "title": "Questions people ask",
+   "keyword": "",
+   "keywords2": [],
+   "decoder": [],
+   "heavy": false,
+   "new": true
+  },
+  {
+   "slug": "a-to-z",
+   "part": "tools",
+   "n": null,
+   "title": "A to Z",
+   "keyword": "",
+   "keywords2": [],
+   "decoder": [],
+   "heavy": false,
+   "new": true
+  },
+  {
+   "slug": "weighing-sheet",
+   "part": "tools",
+   "n": null,
+   "title": "The weighing sheet",
+   "keyword": "",
+   "keywords2": [],
+   "decoder": [],
+   "heavy": false,
+   "new": true
+  },
+  {
+   "slug": "track-record-sheet",
+   "part": "tools",
+   "n": null,
+   "title": "Your track record sheet",
+   "keyword": "",
+   "keywords2": [],
+   "decoder": [],
+   "heavy": false,
+   "new": true
+  },
+  {
    "slug": "limits",
-   "part": "appendix",
+   "part": "tools",
    "n": null,
    "title": "The limits of this instrument",
    "keyword": "",

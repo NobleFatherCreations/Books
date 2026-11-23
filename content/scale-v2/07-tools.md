@@ -1,3 +1,9 @@
+=== the-60-second-weigh
+title: The 60-second weigh
+short: Not written yet.
+---
+*Not written yet. Design: CHAPTER-DESIGN.md.*
+
 === field-card
 title: The field card
 short: One page. Screenshot it, print it, keep it where you will actually find it.
@@ -105,6 +111,30 @@ Three lines, whenever you reach a real conclusion about someone: what you conclu
 ## Certainty is the tell
 
 Check the **shape**, not the content: total explanatory coverage · nothing could disprove it · disagreement means you are asleep · confidence rising without evidence rising · doubt costs you your place. Applies to this book too.
+
+=== questions-people-ask
+title: Questions people ask
+short: Not written yet.
+---
+*Not written yet. Design: CHAPTER-DESIGN.md.*
+
+=== a-to-z
+title: A to Z
+short: Not written yet.
+---
+*Not written yet. Design: CHAPTER-DESIGN.md.*
+
+=== weighing-sheet
+title: The weighing sheet
+short: Not written yet.
+---
+*Not written yet. Design: CHAPTER-DESIGN.md.*
+
+=== track-record-sheet
+title: Your track record sheet
+short: Not written yet.
+---
+*Not written yet. Design: CHAPTER-DESIGN.md.*
 
 === limits
 title: The limits of this instrument
