@@ -127,9 +127,9 @@
     ],
     "buildCommand": "python3 scripts/seo/build_home.py && python3 scripts/seo/build_site.py && python3 scripts/visit-counter.py hub/catalogue-redesign.html hub/topics.html",
     "lastDeploy": {
-      "id": "6b0206290cdaee8eb259fa51",
-      "date": "2026-11-21",
-      "verified": "live page = build; topics/robots/llms identical; /api/visits 200 (1,230); IndexNow 354 urls 200"
+      "id": "6b03b97d3074c39789791504",
+      "date": "2026-11-23",
+      "verified": "live homepage byte-identical to the build; robots.txt 17 sitemaps; /api/visits 200; IndexNow 1,412 urls (api.indexnow.org 200, Bing 200, Yandex 202)"
     },
     "visitCounter": "Homepage only. Function /api/visits (hub/netlify/functions/visits.mjs) needs Netlify env var CF_API_TOKEN (saved by the owner as CF_API_TOKEN1; the function reads either) (Functions scope). scripts/visit-counter.py adds the counter to the homepage and the Cloudflare beacon to any page missing it; it is chained in buildCommand.",
     "buildNote": "v19 (2026-11-21, deployed): build ONLY with buildCommand (build_site.py writes the SEO head). build_site.py rewrites hub/og.png; restore with git checkout if the card is not meant to change. Test: node scripts/verify-hub.mjs http://127.0.0.1:8765/"
@@ -453,7 +453,7 @@
       "lastDeploy": {
         "date": "2026-11-23",
         "deployId": "6b03b6ea228437162c3fc7e3",
-        "note": "menu count only; went beyond the owner's ask, owner may roll back"
+        "note": "menu count 335 and related line; owner confirmed keep (2026-11-23)"
       }
     },
     {
