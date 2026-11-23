@@ -157,7 +157,7 @@ def frame(title, desc, url, ld, body, house, beacon, extra_head=""):
             "<meta name=\"robots\" content=\"index, follow, max-snippet:-1, max-image-preview:large\">\n"
             "<meta name=\"theme-color\" content=\"#050507\" media=\"(prefers-color-scheme: dark)\">\n"
             "<meta name=\"theme-color\" content=\"#FBFAF7\" media=\"(prefers-color-scheme: light)\">\n"
-            "<link rel=\"icon\" href=\"/playbook/f/icon.webp\">\n%s"
+            "<link rel=\"icon\" href=\"/playbook/f/icon.webp\">\n<link rel=\"alternate\" type=\"text/plain\" href=\"/playbook/llms.txt\" title=\"llms.txt: a plain-text map of the guide for AI assistants\">\n%s"
             "<link rel=\"preload\" href=\"/playbook/f/overpass-var.woff2\" as=\"font\" type=\"font/woff2\" crossorigin>\n"
             "<style>%s</style>\n<script type=\"application/ld+json\">%s</script>\n</head>\n<body>\n"
             "<header class=\"top\"><a class=\"brand\" href=\"/playbook\">Pattern Decoder</a>"
@@ -167,7 +167,7 @@ def frame(title, desc, url, ld, body, house, beacon, extra_head=""):
             "<footer class=\"foot\"><p>A reading aid, not a diagnosis, a legal opinion or therapy. If you are in danger, contact emergency services. "
             "Press Escape twice, or the green Leave button, to leave this site quickly.</p>"
             "<nav aria-label=\"More\"><a href=\"/playbook\">Open the Pattern Decoder</a><a href=\"/playbook/tactics\">Every tactic</a>"
-            "<a href=\"/playbook#/safety\">Use this safely</a><a href=\"/\">Noble Father Creations</a></nav></footer>\n"
+            "<a href=\"/playbook#/safety\">Use this safely</a><a href=\"/playbook/llms.txt\">For AI assistants (llms.txt)</a><a href=\"/\">Noble Father Creations</a></nav></footer>\n"
             "%s\n%s\n%s\n</body>\n</html>\n") % (
         esc(title), esc(desc), url, esc(title), esc(desc), url, extra_head, CSS_FINAL, json.dumps(ld, ensure_ascii=False).replace("</", "<\\/"),
         body, house, LEAVE_JS, beacon)
@@ -295,7 +295,7 @@ def index_page(lines, by, count, house, beacon):
 def crawl_links(lines, count):
     """Links for crawlers that do not run scripts, placed in the app's <noscript>."""
     return ('<nav aria-label="Every tactic" style="max-width:44rem;margin:0 auto;padding:24px 16px">'
-            '<p><a href="/playbook/tactics">All %d tactics, each on its own page</a></p><ul>%s</ul></nav>') % (
+            '<p><a href="/playbook/tactics">All %d tactics, each on its own page</a></p><p><a href="/playbook/llms.txt">For AI assistants: llms.txt</a></p><ul>%s</ul></nav>') % (
         count, "".join('<li><a href="/playbook/line-%s">%s</a></li>' % (l["k"], esc(l["label"])) for l in lines))
 
 

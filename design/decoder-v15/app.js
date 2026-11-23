@@ -178,7 +178,7 @@ function gloss(html){
 }
 function foot(){
   return '<footer class="foot"><p>A free guide by Noble Father Creations. It is a reading aid, not a diagnosis, a legal opinion or therapy. If you are in danger, contact emergency services.</p>'+
-    '<nav aria-label="More"><a href="#/safety">Use this safely</a><a href="/playbook/tactics">Every tactic on its own page</a><a href="#/lines">All lines</a><a href="#/routes">Patterns seen together</a><a href="#/updates">Service updates ('+esc(D.version)+')</a><a href="#/settings">Settings</a></nav></footer>';
+    '<nav aria-label="More"><a href="#/safety">Use this safely</a><a href="/playbook/tactics">Every tactic on its own page</a><a href="/playbook/llms.txt">For AI assistants (llms.txt)</a><a href="#/lines">All lines</a><a href="#/routes">Patterns seen together</a><a href="#/updates">Service updates ('+esc(D.version)+')</a><a href="#/settings">Settings</a></nav></footer>';
 }
 const notFound = () => '<div class="view"><h1 class="h-page">That page is not here.</h1><p class="lede">The link may be out of date or cut short.</p><div class="blades"><a class="blade pri" href="#/"><span class="bt"><b>Go to the start</b></span><span class="ar">'+ic("arrow")+'</span></a><a class="blade" href="#/search"><span class="bt"><b>Search instead</b></span><span class="ar">'+ic("arrow")+'</span></a></div></div>';
 

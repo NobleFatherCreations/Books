@@ -110,10 +110,13 @@ const contrast = (a, b) => { const L = c => { c = c.map(v => v / 255).map(v => v
   { const site = path.dirname(file), rd = f => fs.readFileSync(path.join(site, f), "utf8"), bad = [];
     for (const f of ["index.html", "gaslighting.html", "line-truth.html", "tactics.html"]) { const h = rd(f);
       if (!/<meta property="og:image" content="https:\/\/noblefathercreations\.com\/playbook\/f\/og\.png">/.test(h)) bad.push(f + ": og:image"); if (!/twitter:card" content="summary_large_image"/.test(h)) bad.push(f + ": twitter card");
-      if (/noindex|nofollow/.test(h)) bad.push(f + ": robots block"); if (f !== "index.html" && !/"dateModified": "20\d\d-\d\d-\d\d"/.test(h)) bad.push(f + ": dateModified"); }
+      if (/noindex|nofollow/.test(h)) bad.push(f + ": robots block"); if (!/<link rel="alternate" type="text\/plain" href="\/playbook\/llms\.txt"/.test(h)) bad.push(f + ": llms.txt head link"); if (f !== "index.html" && !/href="\/playbook\/llms\.txt">For AI assistants/.test(h)) bad.push(f + ": llms.txt footer link"); if (f !== "index.html" && !/"dateModified": "20\d\d-\d\d-\d\d"/.test(h)) bad.push(f + ": dateModified"); }
     const png = fs.readFileSync(path.join(site, "f", "og.png")); if (png.readUInt32BE(16) !== 1200 || png.readUInt32BE(20) !== 630) bad.push("og.png is not 1200x630");
     const ll = rd("llms.txt"); if ((ll.match(/\]\(https:\/\/noblefathercreations\.com\/playbook\/line-/g) || []).length !== 10 || !/sitemap\.xml/.test(ll)) bad.push("llms.txt");
-    T("findable (v19): link-preview image (1200x630) and large card on every kind of page, dateModified on plain pages, llms.txt maps the ten lines", !bad.length, bad.join("; ")); }
+    T("findable (v19): link-preview image (1200x630) and large card on every kind of page, dateModified on plain pages, llms.txt maps the ten lines and is linked from every page head and footer", !bad.length, bad.join("; ")); }
+
+  { const ctx = await ctxFor(390, 844, "dark"); const p = await open(ctx, "#/");
+    T("llms.txt is linked in the app footer as well as its head", await p.evaluate(() => !!document.querySelector("footer.foot a[href='/playbook/llms.txt']") && !!document.querySelector("link[rel=alternate][href='/playbook/llms.txt']"))); await ctx.close(); }
 
   // ---- axe on each page type, both themes, both widths
   if (!axeSrc) { T("axe-core accessibility scan", false, "axe-core not found: run `npm i --no-save axe-core`"); }
