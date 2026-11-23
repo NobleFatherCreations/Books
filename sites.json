@@ -989,8 +989,13 @@
         "note": "Shared catalogue drawer installed."
       },
       "status": "live",
-      "version": "v5",
+      "version": "v6",
       "changelog": [
+        {
+          "date": "2026-11-23",
+          "version": "v6",
+          "summary": "Step 2 writing pass (best-friend voice, owner-approved) on all 97 pages: handoffs, closing action steps, decoder replies, GEO definitions, jurisdiction notes, weaponization counter-notes, sister-book bridges, steelman 3 + fact check. Design: direction A 'Notes on the table' + C cover tiles on Dusk to first light; shell (Just the steps toggle, progress, reading time, on-this-page, byline + author strip to /about, share line, discreet mode, Esc x2 Leave, print sheets, rail + dock, real checkboxes). FAQ schema restored. Not yet deployed."
+        },
         {
           "date": "2026-11-22",
           "version": "v5",

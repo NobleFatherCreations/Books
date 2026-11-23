@@ -36,7 +36,7 @@ spec = _iu.spec_from_file_location("nf_catalogue", ROOT / "scripts/nf-catalogue.
 CAT = _iu.module_from_spec(spec); spec.loader.exec_module(CAT)
 
 BOOK = {
-    "slug": "longafter", "title": "The Long After", "version": "v5",
+    "slug": "longafter", "title": "The Long After", "version": "v6",
     "description": ("A free guide to life after leaving an abusive relationship: post-separation abuse, safety, contact, "
                     "courts, children, feelings and rebuilding."),
     "genre": ["Self-help", "Psychology", "Domestic abuse recovery"],
@@ -703,7 +703,10 @@ def index_html():
             f'<li><a href="{BASE}/if-youre-not-safe-right-now">If you\u2019re not safe right now</a></li></ul>{contents_list()}</section>'
             f'<section class="sec" id="toolbox" aria-labelledby="t-h"><h2 id="t-h">Toolbox</h2><p class="lede">Things to print, copy or keep. Keep them somewhere private.</p>{tools_list()}</section>'
             '<section class="sec" id="updates" aria-labelledby="u-h"><h2 id="u-h">Updates</h2>'
-            '<p class="lede"><b>v5 \u00b7 November 2026.</b> Rewritten and greatly expanded: 83 chapters in eleven parts, a page for '
+            '<p class="lede"><b>v6 \u00b7 23 November 2026.</b> Every chapter rewritten to sound like a friend who has been there: shorter paragraphs, '
+            'one small step to take at the end of each chapter, replies you can copy, what to read next, and a note on where each law applies. '
+            'A new look where each part is a later hour of the night, a Just the steps view, printable sheets, a discreet mode and a Leave button always in reach.</p>'
+            '<p class="lede">v5 \u00b7 22 November 2026. Rewritten and greatly expanded: 83 chapters in eleven parts, a page for '
             'where you are right now, a toolbox, search, sources on every page, links to the matching patterns in the Pattern Decoder, and tap-to-call help numbers.</p>'
             '<p class="lede">v4 \u00b7 21 November 2026. Every chapter got its own page. v3 \u00b7 1 September 2026. Cover watermark updated. '
             'v2 \u00b7 1 September 2026. First published.</p></section></main>')
@@ -809,7 +812,7 @@ def main():
             + "".join(f"  <url><loc>{u}</loc><lastmod>{S.TODAY}</lastmod></url>\n" for u in urls) + "</urlset>\n")
     if "--og" in sys.argv:
         share_card()
-    print(f"longafter v5: {len(ORDER)} pages + index, contents, search, all; {len(stale)} stale pages removed; sitemap {len(urls)} URLs")
+    print(f"longafter {BOOK['version']}: {len(ORDER)} pages + index, contents, search, all; {len(stale)} stale pages removed; sitemap {len(urls)} URLs")
 
 
 if __name__ == "__main__":
