@@ -36,3 +36,9 @@ See `docs/design-catalogue/templates/OWNER-TASTE.md` for the table to fill; add 
 ## 2026-11-23 (The Long After v6)
 - Writing voice: "approach this info like a best friend sending their bestie info that may help", "make them laugh if appropriate". Kept even the borderline light lines ("Leave them in").
 - Design: picked A "Notes on the table" (warm tactile cards, chat bubbles with Copy, a lamp-lit honest check) plus C's hour-tinted cover tiles, from phone comparison sheets. Discreet tab title as an off-by-default toggle.
+
+## 2026-11-23 (The Weighing, Phase 0 intake; owner chose The Weighing over The Silence)
+- Depth: about 60k words (from 21,692 words, 38 chapters, 6 movements). New chapters may be added to the movements.
+- Voice: "Sharp thinking partner with more than normal humor that's blunt and no filter." Keeps the book's precision; humour is blunter than The Long After's. Safety content (crisis, testing-safety, wrong-hands chapters) still gets no jokes next to it.
+- Worked-example label: "Come up with something really good by the end." Draft candidates during writing; owner picks at content freeze.
+- Deploy scope: ship The Weighing alone, with what's already waiting in its repo (Sacred Divide rename, menu count, meta-description fix). No other site.
