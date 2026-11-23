@@ -123,7 +123,6 @@ I'm not a guru. I'm not a therapist, a lawyer or a professor, and I'll never ask
 
 What I am is a father who refused to lose his soul, and refused to let what it cost mean nothing.
 
-
 If any of this sounded like you, it was written for you.
 
 Take what helps. Leave the rest. You were never too much.
