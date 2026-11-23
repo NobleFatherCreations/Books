@@ -1,16 +1,18 @@
-# Who made this, and why
+# Who made this
 
-*Draft 2, written from the owner's own words, 2026-11-23. The owner edits it before anything is published.*
+*Final draft (audited), 2026-11-23. Built from the owner's own base text.*
 
 ---
 
 ## Short version (homepage and the end of each book)
 
-I'm Shae, a father of four. I was building a business when something in my life forced me to drop everything and protect myself and my family. Someone was using my own mind against me to take everything I held dear.
+I'm Shae. A father of four, and a builder. Someone once learned exactly how my mind works and used it to try to take everything I love. I had to learn to see in the dark.
 
-I didn't set out to write books. I wrote to survive it, and then I couldn't stop, because I didn't want anyone else to go through that without a map.
+I didn't learn this in a classroom. I learned it the hard way, over a lifetime, because I love without holding back, and I've seen every way that kind of love can be turned against a person.
 
-Everything here is free. That's on purpose.
+I never meant to build a library. I wrote to keep my head clear and my family safe. Somewhere in that fire it became a calling: one map, told in different languages, so a child, a festival kid, a woman doubting herself, a believer and a survivor can each see the trap before it closes.
+
+All of it is free. No walls, nothing asked. That's the whole point.
 
 [Read the whole story →]
 
@@ -18,64 +20,98 @@ Everything here is free. That's on purpose.
 
 ## Full page
 
-### I didn't set out to write any of this.
+# I'm not a guru. I'm a father who refused to lose his soul.
 
-I'm a father of four. A couple of years ago I was building a business, the kind of idea you pour yourself into because you believe it can take care of your family. I'm still building it.
+If you found your way here, your guard is probably up. Good. Keep it up.
 
-Then something happened in my life that made me put it all down.
+If you've been hurt by people who promised love, safety or healing, being careful is how you survived. You've seen the places that draw hurting people in with soft words, then put the real answers behind a price, an email list, or a quiet request to hand your power over to them.
 
-I'm not going to tell you the details. They're not the point, and some of them aren't only mine to tell. What I will tell you is how it felt. Someone found the way my mind works, the things I care about, the way I trust, the way I love, and turned all of it against me. The goal was everything I held dear.
+So, first: nothing here is for sale. There's no list to join, nothing collected about you, no group to belong to. I'm not asking you to follow me.
 
-When it's done well, you don't see it happening. You just feel yourself getting smaller. You start doubting what you saw, what you heard, who you are. You explain yourself over and over and somehow sound less sane each time.
+I'm a father of four. Before any of these books existed, I was building a business, the kind you lose sleep over because you believe it can carry your family. I still am.
 
-### So I did the only thing I could think of. I started writing it down.
+Then life hit hard enough that I had to put everything down and stand my ground.
 
-What was said. What was done. What it did to me. I looked for the patterns, and for the names other people had given them. I needed to see clearly, because my family needed me to.
+## When someone uses your own light against you
 
-At the same time, something else was happening, and I can't separate the two. It was the start of my faith. My spiritual path began in the middle of the hardest thing I've ever been through. While one force was working to take my mind from me, I was finding my way back to something bigger than me, and back to myself.
+I love without holding back. Over a lifetime, I've learned every way that kind of love can be used against a person. I didn't read that in a textbook. I lived it.
 
-That writing got me through. It helped me protect the people I love. And then it started to become something I hadn't planned.
+I won't tell you what happened. The details aren't the point, and parts of that story belong to other people.
 
-### Healing didn't mean anything until it could help someone else.
+What matters is how it works, because if you're reading this, your heart may work the way mine does. You give people the benefit of the doubt. You try to understand. You forgive. You carry things that aren't yours because you care. Then someone studies all of it, your trust, your loyalty, your kindness, and turns it into leverage against everything you love.
 
-I could have stopped there. I'd made it through. I was turning the pain into something I could stand on.
+It doesn't come through the front door. You don't see the walls going up. You just feel yourself getting smaller. You doubt your own memory. You explain simple things again and again and somehow sound less sure each time. You apologise for things you didn't do, just to get five minutes of quiet.
 
-But it didn't mean anything to me until I saw what it could do for someone else.
+I knew that if I couldn't see what was happening clearly, I'd lose myself. And my children needed me standing.
 
-Once you can see these patterns, you see them everywhere: in relationships, in families, at work, in courtrooms, in churches, on your phone. So many people are inside something they can't name, with no one telling them they're not crazy. I couldn't unsee that. It stopped feeling like a project and started feeling like a calling. A spiritual one. A soul one.
+## I wrote to survive. Something bigger met me there.
 
-The work became this: helping people understand their own minds, and the people and forces that try to play them, and find their way back to sovereignty. Back to their own clear mind, their own choices, their own free will.
+So I wrote it down. Every contradiction. Every moved goalpost. Every pattern. Bit by bit, the things I couldn't name got names, and the fog started to lift. I needed to see clearly to protect the people I love.
 
-### It has cost me.
+In the middle of the worst season of my life, something else woke up in me: my faith. I can't separate these books from it, because they were made in the same fire. While one force worked to bend what I saw and take my choices away, I was being pulled back toward something far bigger than me, and back to who I really am.
 
-These books have been my life for almost two years, every single day. That time came out of my business, my sleep, my wallet and my energy. I won't pretend otherwise.
+The writing kept me standing. When the storm passed, I thought I was done.
 
-Every person I've talked to has told me to charge for it. Every logical part of my own mind agrees with them.
+## Getting through it meant nothing until it could help someone else
 
-And I won't do it.
+I could have closed the notebook. I'd made it.
 
-### Why it's free.
+But walking away felt empty the moment I understood what that map could do for someone still lost inside it.
 
-I didn't make these for money. I made them to heal myself and the people I love.
+Once you can see how control works, you see it everywhere: at home, at work, in courtrooms and pulpits, at festivals, on the phone in your hand. So many good, loving people sit alone at three in the morning believing they're broken, or crazy, or too much, because nobody ever gave them words for what's happening to them.
 
-I believe, down to my bones, that we all deserve truth, love and free will without distortion. Every one of us. And when I say the people I love, I mean everyone. If you're reading this, that includes you.
+A textbook doesn't reach you when your chest is caving in. Jargon doesn't protect a kid on a playground or a friend in a crowd.
 
-The people who need this most often have the least: their money is controlled, their time isn't theirs, their phone is watched. Putting a price or a sign-up in front of them would be one more wall. So there isn't one. No paywall, no ads, no tracking, nothing to sign. There's a Leave button on every page if you need to close it fast. The books, the Pattern Decoder and the videos are free and will stay free.
+So I told the same truth in different languages, for different worlds:
 
-### What I am, and what I'm not.
+- **For kids: *Playground Protectors*.** Written for my daughter. Nobody should have to wait for heartbreak to learn how tricky people work, how to trust their gut and how to hold their ground.
+- **For the festival family: *The Festie Codex* and *The Festie Bible*.** Places built on open hearts draw wolves in good vibes. These help you keep the magic real and get everyone home.
+- **For women: *The Sovereign Divine Feminine*.** Written because apparently I like to live dangerously. Really, it's because so many women carry a doubt someone else planted, and too many voices either profit from that pain or talk down to it. This is a straight mirror from a dad who wants every woman to walk out of the fog with her crown on.
+- **For faith: *The Sacred Divide*.** The same tactics used behind closed doors get scaled up into institutions. No one should have to give up their own connection to Spirit to belong.
+- **For the storm and after: *The Long After*, *The Silence*, *At Will*, *The Repair*, *The Slow Take* and the *Pattern Decoder*.** For anyone in it now, or out of it and still fighting, who needs to name exactly what's being done and take their mind back piece by piece.
 
-I'm not a therapist, a lawyer or a professor. My credential is a lifetime of living through this kind of thing, and healing from it, in every part of my life. And I refuse to let that be for nothing.
+What started as self-defence turned out to be an assignment. A spiritual one. Every page here exists to hand you back your own clear sight, your own choices and your own free will.
 
-Where research exists, I've used it and named it, so you can check it. Where it doesn't, the books say so. If I've got something wrong, tell me. I'd rather fix it than be right.
+## What it cost, and why it will never have a price
 
-### If you're in it right now:
+Here's the truth.
 
-You're not crazy. You're not too much. You're not alone. You don't have to read everything. Start where you are:
+For almost two years, this has been my life, every day. It came out of my business, my sleep, my savings and my nerves. Everyone I've asked says to charge for it. The practical part of my own head agrees.
+
+I won't.
+
+I made this to heal myself and protect the people I love. I believe, all the way down, that every soul deserves truth, love and a free will nobody has bent out of shape. When I say the people I love, I mean everyone. If you're reading this, that means you.
+
+A price would defeat the point anyway. The people who need this most usually have the least. Their money is controlled. Their time isn't theirs. Their phones are watched. A paywall, a subscription, even a sign-up form, would be one more cage.
+
+So here there's:
+- no price and no hidden offer
+- no ads, no tracking, nothing collected about you
+- no account, no login, no email form
+- a Leave button on every page that clears the screen in a second
+
+The books, the Decoder and the videos are free, and they'll stay free.
+
+(There's a tip link somewhere on this site with my Venmo and Cash App, if something here helped and you want to say thanks. I honestly couldn't tell you where it is on my own website, which tells you how high it ranks. Spirit's been teaching me to let myself receive. I'm working on it.)
+
+## Who I am, and who I'm not
+
+You should know whose words you're reading, so you can weigh them yourself.
+
+- **I'm not a therapist, a lawyer or a professor.** My credential is a lifetime inside this, learning how it works, and refusing to let that pain go to waste.
+- **I don't ask you to take my word for it.** Where research exists, I name it so you can check. Where I'm speaking from my own life or my faith, I say so.
+- **I'm human.** If I got something wrong, tell me. I'd rather the truth stand clean than be right.
+
+## If you're in the middle of it right now
+
+Breathe. You're not crazy. You're not too much. You're not alone.
+
+You don't have to read all of this today. Take one step from where you are:
 - **Not safe right now?** [Helplines by country]
-- **Want to put a name to what's happening?** [The Pattern Decoder]
-- **You left, and it didn't stop?** [The Long After]
+- **Need a name for what's happening?** [The Pattern Decoder]
+- **You got out, and it didn't stop?** [The Long After]
 
-Take what helps. Leave the rest. Nothing here asks anything of you.
+Take what brings you clarity. Leave what doesn't. Nothing here will ask for your money, your name or your sovereignty.
 
 With love,
 **Shae Stovell**
