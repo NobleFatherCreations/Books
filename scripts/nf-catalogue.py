@@ -43,7 +43,7 @@ CATALOGUE = [
     ("feminine",   "The Sovereign Divine Feminine", "A field guide",                           "#C85F7E"),
     ("children",   "Playground Protectors",         "Shaela&#8217;s guide for brave kids",     "#FFC23D"),
     ("wook",       "The Festie Codex",              "The gate &mdash; attendee&#8217;s cut",   "#D8FF3D"),
-    ("playbook",   "The Pattern Decoder",           "310 tactics, decoded",                    "#8A8071"),
+    ("playbook",   "The Pattern Decoder",           "335 tactics, decoded",                    "#8A8071"),
     ("music",      "The Listening Room",            "Free to stream",                          "#C9A24A"),
     ("festival",   "The Festie Bible",              "Twelve guides for the festival world",    "#E8C879"),
     ("resin",      "The Casting",                   "Eco-resin, hand-painted",                 "#7FD6C2"),

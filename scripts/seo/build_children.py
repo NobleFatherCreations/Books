@@ -41,7 +41,7 @@ BOOK = {
     "unit": "missions and guides",
 }
 RELATED = [("feminine", "The Sovereign Divine Feminine", "The grown-up field guide: manipulation tactics and counter-moves"),
-           ("playbook", "The Pattern Decoder", "310 manipulation and control tactics, each with signs and what to do"),
+           ("playbook", "The Pattern Decoder", "335 manipulation and control tactics, each with signs and what to do"),
            ("festival", "The Festie Bible", "Twelve guides for staying safe and kind in the festival world")]
 
 PROMOTE = [("div.panel-head", "h2"), ("div.pu-burst", "drop"), ("div.pu-name", "h3"), ("span.move-tag", "drop"),

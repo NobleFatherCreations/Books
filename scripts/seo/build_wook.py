@@ -37,7 +37,7 @@ BOOK = {
     "unit": "chapters and appendices",
 }
 RELATED = [("festival", "The Festie Bible", "Twelve guides for staying safe and kind in the festival world"),
-           ("playbook", "The Pattern Decoder", "310 manipulation and control tactics, each with signs and what to do"),
+           ("playbook", "The Pattern Decoder", "335 manipulation and control tactics, each with signs and what to do"),
            ("feminine", "The Sovereign Divine Feminine", "A field guide to manipulation tactics and counter-moves")]
 
 FRONT = ["before-we-roll", "cast", "lexicon", "methodology", "real-ones"]

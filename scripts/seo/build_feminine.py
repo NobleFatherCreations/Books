@@ -37,7 +37,7 @@ BOOK = {
     "notice_href": "/feminine#copyright",
     "unit": "chapters",
 }
-RELATED = [("playbook", "The Pattern Decoder", "310 manipulation and control tactics, each with signs and what to do"),
+RELATED = [("playbook", "The Pattern Decoder", "335 manipulation and control tactics, each with signs and what to do"),
            ("children", "Playground Protectors", "Shaela's guide for brave kids: tricky people, power and friendship"),
            ("faith", "The Sacred Divide", "Coercive control inside faith communities, tradition by tradition")]
 

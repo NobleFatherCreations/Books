@@ -41,7 +41,7 @@ BOOK = {
     "unit": "chapters",
 }
 RELATED = [("fracture", "The Fracture", "The who: where roughly $50 trillion went, with 195 public-record sources"),
-           ("playbook", "The Pattern Decoder", "310 manipulation and control tactics, each with signs and what to do"),
+           ("playbook", "The Pattern Decoder", "335 manipulation and control tactics, each with signs and what to do"),
            ("feminine", "The Sovereign Divine Feminine", "A field guide to manipulation tactics and counter-moves")]
 
 NOTICE_HTML = f"""<section class="fx-notice" id="notice" style="max-width:40rem;margin:64px auto;padding:24px;border:1px solid rgba(150,160,200,.16);border-radius:12px;font-size:.9375rem;line-height:1.6;color:#A9AAC0">

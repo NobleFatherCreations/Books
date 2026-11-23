@@ -38,7 +38,7 @@ BOOK = {
     "unit": "guides and scenarios",
 }
 RELATED = [("wook", "The Festie Codex", "The full field manual: 33 chapters on spotting Wooks in sheep's clothing"),
-           ("playbook", "The Pattern Decoder", "310 manipulation and control tactics, each with signs and what to do"),
+           ("playbook", "The Pattern Decoder", "335 manipulation and control tactics, each with signs and what to do"),
            ("feminine", "The Sovereign Divine Feminine", "A field guide to manipulation tactics and counter-moves")]
 
 NOTICE_HTML = f"""<section id="notice" style="max-width:44rem;margin:48px auto 120px;padding:24px;border:1px solid rgba(201,163,91,.16);border-radius:12px;color:#BCB1A0;font:400 15px/1.6 'Hanken Grotesk',system-ui,sans-serif">

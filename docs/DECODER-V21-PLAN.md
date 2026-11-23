@@ -10,16 +10,18 @@ Everything in sections A to D below is built and checked. The Decoder's own suit
 4. Rebuild again so the cards are copied in
 5. `python3 scripts/decoder-relink.py --check`
 
-**Deploy set** (one go, on the owner's words):
+**Deploy set** (one go, on the owner's words). The Catalogue drawer's "310 tactics, decoded" became "335 tactics, decoded" on every site (`scripts/nf-catalogue.py`, then `scripts/nf-catalogue-sweep.py`). The books' "related" line changed the same way (483 pages). So every site that carries the menu changed:
 
-| What | Folder | Why |
+| What | Folder | What changed |
 |---|---|---|
-| Decoder | `instruments/playbook/site` (Netlify: noblepatterns) | v21 |
-| The Long After | `library/longafter` | v5 plus the A to Z links to the Decoder; the helpline link in the Decoder's safety boxes points here |
-| Hub | `hub/` (robots.txt, llms.txt, topics.html, sitemap.xml) | robots.txt lists all 17 sitemaps; llms.txt counts fixed |
-| The Fractal, The Sovereign Divine Feminine, The Festie Codex, The Festie Bible, The Fracture | `library/{fractal,feminine,wook,festival,fracture}` | 121 links now point straight at current Decoder addresses |
+| Decoder | `instruments/playbook/site` (noblepatterns) | v21 |
+| The Long After | `library/longafter` | v5, A to Z links to the Decoder, menu count |
+| The Fractal, The Sovereign Divine Feminine, The Festie Codex, The Festie Bible, The Fracture | `library/{fractal,feminine,wook,festival,fracture}` | 121 direct Decoder links, related line, menu count |
+| The Silence, At Will, The Repair, The Slow Take, The Loop, The Weighing, Playground Protectors, The Sacred Divide, Fractal entertainment | `library/{silence,atwill,repair,slowtake,loop,scale,children,faith}`, `library/fractal2` | menu count (children also the related line) |
+| Root, Listening Room, NFC guide, Seals, Portals, Reaction map | `instruments/{shadowroot,music}`, `workshop/{nfcguide,seals,portals}`, `other/reaction-map` | menu count |
+| Hub files | `hub/` robots.txt, llms.txt, topics.html, sitemap.xml | 17 sitemaps, counts |
+| Homepage | `hub/catalogue-redesign.html` (built by `build_home.py`) | menu count only. Needs the owner's separate words "deploy the homepage" (CLAUDE.md) |
 
-The Silence, At Will, The Repair and The Slow Take did not change: their back-links live on the Decoder.
 
 **After deploy:**
 - IndexNow ping (`scripts/seo/indexnow.py`)

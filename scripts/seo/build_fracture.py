@@ -37,7 +37,7 @@ BOOK = {
     "unit": "episodes",
 }
 RELATED = [("fractal", "The Fractal", "The where and the how: one manipulation pattern at every scale"),
-           ("playbook", "The Pattern Decoder", "310 manipulation and control tactics, each with signs and what to do"),
+           ("playbook", "The Pattern Decoder", "335 manipulation and control tactics, each with signs and what to do"),
            ("loop", "The Loop", "The machine that learns you: algorithms, ad auctions and dark patterns")]
 
 

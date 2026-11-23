@@ -145,7 +145,7 @@ START_HERE = [
                              ("silence", "The Silence", "For men nobody thought to ask")]),
         ("Family", [("feminine", "The Sovereign Divine Feminine", "Family scripts, guilt and obligation"),
                     ("playbook", "The Pattern Decoder", "Look up what they keep doing, by name")]),
-        ("A friend, boss or anyone", [("playbook", "The Pattern Decoder", "310 tactics, each with signs and what to do"),
+        ("A friend, boss or anyone", [("playbook", "The Pattern Decoder", "335 tactics, each with signs and what to do"),
                                       ("scale", "The Weighing", "How to be right about people")]),
     ]),
     ("At work", [(None, [("atwill", "At Will", "The coercive workplace"),
