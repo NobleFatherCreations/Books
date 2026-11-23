@@ -266,12 +266,9 @@
       "repoPath": "instruments/playbook/site",
       "dataSource": "content/playbook-data.json",
       "lastDeploy": {
-        "date": "2026-11-09",
-        "version": "v20",
-        "deployId": "6af18f945eb27bb2b5d54b14",
-        "method": "netlify MCP deploy-site from a staging copy of instruments/playbook/site (384 files, 19 MB)",
-        "verified": "verify-deployed: 380 files identical to live; 301s for old addresses checked live; suite 105/106 (timing check, same on v19); axe clean",
-        "replaced": "v19 deploy 6ae0da00e86b4d164b8a4f3f"
+        "date": "2026-11-23",
+        "deployId": "6b03b699e4e7d11b8f6a4b7c",
+        "note": "v21 (verified byte-identical live)"
       },
       "openItems": [
         {
@@ -409,9 +406,9 @@
       "repoPath": "library/feminine/",
       "section": "library",
       "lastDeploy": {
-        "date": "2026-11-09",
-        "deployId": "6af11b070c386018bd5ced31",
-        "note": "Round 1 findability; verify-deployed in sync (all pages)."
+        "date": "2026-11-23",
+        "deployId": "6b03b6deaeb5b4f2eadf3b4c",
+        "note": "direct Decoder links (121 across 5 books) + menu count 335"
       }
     },
     {
@@ -454,9 +451,9 @@
       "repoPath": "library/children/",
       "section": "library",
       "lastDeploy": {
-        "date": "2026-11-09",
-        "deployId": "6af11b3153b8c9ec0981cfe5",
-        "note": "Round 1 findability; verify-deployed in sync (all pages)."
+        "date": "2026-11-23",
+        "deployId": "6b03b6ea228437162c3fc7e3",
+        "note": "menu count only; went beyond the owner's ask, owner may roll back"
       }
     },
     {
@@ -565,9 +562,9 @@
       "liveVerifiedNote": "Deployed via netlify-deploy-services-updater deploy-site + the returned one-shot proxy command, run from library/wook/. Live bytes (md5, 71a7871f...) confirmed identical to library/wook/index.html, both directly against the Netlify site URL and through the noblefathercreations.com/wook proxy path (200, 14,119,027 bytes all three). v14 patch note text and the rewritten Chapter 32 Save (the 'THEY FEEL SAFER THAN THEY ARE' line) both confirmed present on the live page. This field records what is actually live; 'version' records what has been built.",
       "reviewInProgress": "Full chapter-by-chapter review under content/wook-audits/wook-full-review-plan.md complete, including pass D2. v10 deployed 2026-09-15; see changelog.",
       "lastDeploy": {
-        "date": "2026-11-09",
-        "deployId": "6af11bc4c1816776b885dc9f",
-        "note": "Round 1 findability; verify-deployed in sync (all pages)."
+        "date": "2026-11-23",
+        "deployId": "6b03b71fcb96c6ed3d945aa2",
+        "note": "direct Decoder links (121 across 5 books) + menu count 335"
       }
     },
     {
@@ -610,9 +607,9 @@
       "repoPath": "library/fractal/",
       "section": "library",
       "lastDeploy": {
-        "date": "2026-11-09",
-        "deployId": "6af11b5c1255ca0f56129311",
-        "note": "Round 1 findability; verify-deployed in sync (all pages)."
+        "date": "2026-11-23",
+        "deployId": "6b03b7368c50e003878f7473",
+        "note": "direct Decoder links (121 across 5 books) + menu count 335"
       }
     },
     {
@@ -665,9 +662,9 @@
       "repoPath": "library/fracture/",
       "section": "library",
       "lastDeploy": {
-        "date": "2026-11-09",
-        "deployId": "6af11ac8ecb9ca19341af288",
-        "note": "Round 1 findability; verify-deployed in sync (all pages)."
+        "date": "2026-11-23",
+        "deployId": "6b03b74224201276e70a9d58",
+        "note": "direct Decoder links (121 across 5 books) + menu count 335"
       }
     },
     {
@@ -1022,13 +1019,10 @@
       ],
       "section": "library",
       "netlifyUrl": "https://noble-the-long-after.netlify.app/",
-      "pendingDeploy": {
-        "note": "Repo is AHEAD of live. Menu label fix (2026-11-08: Sacred Divide subtitle, Decoder 310 tactics, The Listening Room) is in the repo only; it ships with this site's own next round."
-      },
       "lastDeploy": {
-        "date": "2026-11-21",
-        "deployId": "6b020502b4febe6f3a50a76c",
-        "note": "v4 SEO round 2 + covers + full seal menu; every file byte-identical live; IndexNow 200"
+        "date": "2026-11-23",
+        "deployId": "6b03b6d110f3161d30bc3743",
+        "note": "v5 second edition (first deploy of the static multi-page book)"
       },
       "workInProgress": {
         "what": "Expansion to roughly double (owner, 2026-11-22): outline every chapter, write part by part, then voice audit, no-AI-slop, steelman, fact check, pipeline; design only after the writing is audited; deploy only on the owner's words.",
