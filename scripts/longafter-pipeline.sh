@@ -25,9 +25,10 @@ python3 scripts/longafter-audit.py | tail -1 | grep -q " 0 failing" || { echo "c
 step "1b AI-writing report (not a gate)"; python3 scripts/longafter-ai-audit.py 2>/dev/null | head -1 || true
 python3 scripts/longafter-sources.py --no-lookup | tail -1
 step "2 build";           python3 scripts/seo/build_longafter_v2.py
+python3 scripts/nf-catalogue-sweep.py >/dev/null   # the menu borrowed from another book, brought to the one canonical catalogue
 step "3 beacon";          python3 scripts/visit-counter.py library/longafter/*.html >/dev/null && echo "beacon checked"
 step "4 hub files";       python3 scripts/seo/build_site.py | tail -2
-git checkout -- hub/og.png hub/catalogue-redesign.html 2>/dev/null || true   # build_site re-renders these; keep them unless the homepage is the job
+git checkout -- hub/og.png 2>/dev/null || true   # build_site re-renders the share image; the homepage itself is built by build_home.py and must not be reverted here
 step "5 SEO";             python3 scripts/seo/verify_seo.py longafter | tail -2
 python3 scripts/seo/onpage_longafter.py | tail -1
 python3 scripts/decoder-relink.py --check || { echo "book links point at old Decoder addresses: run python3 scripts/decoder-relink.py"; exit 1; }
