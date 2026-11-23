@@ -23,7 +23,7 @@ These are the patterns parents and researchers describe most often.
 
 **Through gifts and promises.** Big presents, special trips, a pet, or promises that the children can live with them full time, often timed around court.
 
-**Through medical, school and activity decisions.** Refusing consent for treatment or a passport. Contacting teachers and doctors with stories about you. Turning up at your parents' evening or your child's match with a brand-new passion for the school calendar.
+**Through medical, school and activity decisions.** Refusing consent for treatment or a passport. Contacting teachers and doctors with stories about you. Turning up at your parents' evening or your child's match to be seen there.
 
 **Through the courts.** Applications to change arrangements, often over and over. See [Systems abuse and litigation abuse](ch:systems-abuse) and [Divorce and separation proceedings](ch:divorce-and-separation-proceedings).
 
@@ -193,7 +193,7 @@ See [What to document and how](ch:what-to-document-and-how) for a simple format.
 You don't have to negotiate money with the person you left. Most countries have a government child support service that can work out what's owed and collect it, taking money from wages or bank accounts if needed.
 
 - **United Kingdom (outside Northern Ireland):** the Child Maintenance Service works out what's owed. You choose Direct Pay, where your ex pays you, or Collect and Pay, where the service collects it for you.
-- **If there's been domestic abuse (UK):** tell the Child Maintenance Service. The application fee is waived, and you can go straight to Collect and Pay so you never deal with your ex about money. Collection fees still apply.
+- **If there's been domestic abuse (UK):** tell the Child Maintenance Service. There's no application fee, and you can go straight to Collect and Pay so you never deal with your ex about money. Collection fees still apply.
 - **United States:** each state has a child support agency. It can set an order and collect payments through wage withholding, and can take steps like intercepting tax refunds when payments are missed.
 - **Australia:** Services Australia's Child Support handles assessments and collection.
 - **Canada:** each province runs a family responsibility or maintenance enforcement office.
@@ -310,7 +310,7 @@ Partly because you often don't fight it. You assume the truth is obvious, or you
 ## Should I fight back publicly?
 Usually not. A public back-and-forth reads to outsiders as "they're both difficult," which tends to help whoever is more comfortable with conflict. It also hands the other person new material: an angry post, a sharp message, a screenshot they can share.
 
-You'll probably rehearse your defence in the shower nine times. You don't have to deliver it. Staying quiet in public still counts as a response, and most people who matter will see a fuller picture through how you behave over time.
+You'll probably draft your defence in your head more than once. You don't have to deliver it. Staying quiet in public still counts as a response, and most people who matter will see a fuller picture through how you behave over time.
 
 ## When is a correction worth it?
 Before you correct anything, ask three things. Does this person's opinion affect my safety, my children or my job? Will correcting it end it, or feed it? Could my behaviour answer it better than my words?

@@ -526,7 +526,7 @@ Anger needs somewhere to go. Some safe places:
 - **Paper:** write it all, uncensored, then destroy it if you like.
 - **A person:** a friend who can hear it without being frightened, a therapist, a support group.
 
-What tends not to help: sending angry messages, venting online, or replaying the argument in your head for hours. Yes, that includes the shower version, the one where you finally say the perfect thing and they have no comeback. We've all won that argument forty times. It never makes the evening better.
+What tends not to help: sending angry messages, venting online, or replaying the argument in your head for hours. Winning the argument in your head for the fortieth time feels good for about a minute. It never makes the evening better.
 
 ## Anger in the body
 Anger shows up physically: a tight jaw, clenched fists, a hot face, a racing heart. Catching these signs early gives you a moment to choose what happens next. A slow breath out, cold water on your face or a step outside can take the edge off before it spills.
@@ -650,7 +650,7 @@ Decide now what you'll do after a slip:
 Checking fills a gap: boredom, loneliness, worry. Choose a replacement for the same moments: a game, a walk, a message to a friend, a short video you enjoy. It works best when it's easy and ready to go.
 
 ## What if I slip?
-You will, probably. Everyone does. Notice it, don't punish yourself, and start again. You're aiming for fewer checks. Nobody's keeping a perfect record.
+You will, probably. Everyone does. Notice it, don't punish yourself, and start again. You're aiming for fewer checks, not none.
 
 ::: honest
 ## What the checking is doing for you
@@ -693,7 +693,7 @@ question: How do I find closure after narcissistic abuse? Do I have to forgive?
 seo: Closure After Narcissistic Abuse, and Whether to Forgive
 short: Closure after narcissistic abuse rarely comes from the person who hurt you: the apology, explanation or final conversation usually never arrives, or makes things worse. Closure is something you build yourself. Forgiveness is a choice, not a duty, and you can heal without it.
 ---
-You want them to understand what they did. To say sorry and mean it. To explain why. You've rehearsed the conversation that would finally let you put it down so many times, in the car, in the shower, at 3am, that it has drafts.
+You want them to understand what they did. To say sorry and mean it. To explain why. You've rehearsed the conversation that would finally let you put it down so many times, in the car and at 3am, that it has drafts.
 
 ## Will I get closure from them?
 Probably not. Many people picture a final talk at the kitchen table where everything finally gets said. It rarely happens. People who control others rarely give honest accounts of what they did.

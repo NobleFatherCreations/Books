@@ -393,7 +393,7 @@ In England and Wales, courts can hold a "fact-finding hearing" to decide what ha
 ## Staying steady under accusation
 Being called an abuser when you were the one harmed can feel unbearable. People in this spot often describe shock, rage and a burning need to prove themselves.
 
-You'll probably rehearse your defence in the shower nine times. Fine. Keep it out of your inbox. What tends to work better is calm, consistent behaviour: short polite messages, every appointment kept, the record kept up. Let professionals see, over time, who you are.
+Write the furious version if you need to, then keep it out of your inbox. What tends to work better is calm, consistent behaviour: short polite messages, every appointment kept, the record kept up. Let professionals see, over time, who you are.
 
 Find somewhere private to let the anger out, like a therapist, a friend or a journal, so it doesn't spill into the case.
 

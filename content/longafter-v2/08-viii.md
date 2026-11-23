@@ -174,7 +174,7 @@ If you're on alert at night, small changes can help:
 ## Nights when the children are away
 Empty nights can be the hardest. The house is quiet, and your mind fills it. Plan for them: a friend on the phone, an audiobook, a later bedtime with a good film.
 
-Some people sleep better on the sofa or in a different room on those nights. That's fine. Nobody's handing out marks for where you sleep.
+Some people sleep better on the sofa or in a different room on those nights. That's fine. Sleep wherever you sleep best.
 
 ## The phone at night
 Messages at night can wreck sleep. Charge your phone outside the bedroom, use "do not disturb" with only emergency contacts allowed, or get a separate alarm clock. If you need the phone for safety, keep it nearby but face down, with their notifications silenced.
@@ -586,7 +586,7 @@ Watch out, too, for therapy language used against you: "you're triggering me," "
 - **Support groups:** free, and often run by people who've been through it.
 
 ## What if the first therapist isn't right?
-Try another. Fit matters more than anything else in how well therapy works. Therapy is one of the few places where walking away after one date is completely normal, and nobody will chase you with a 47-message essay about it.
+Try another. How well you get on with a therapist makes a big difference to how well therapy works. Therapy is one of the few places where walking away after one session is completely normal.
 
 You can say, "I don't think this is the right fit for me," and leave. You don't owe an explanation.
 
@@ -709,7 +709,7 @@ If you're having thoughts of ending your life, don't wait two weeks. Call a cris
 ## What happens when you tell a doctor
 A doctor will ask about your mood, sleep, appetite and safety. They may ask directly about suicidal thoughts. That's normal, and answering honestly helps them help you.
 
-They might suggest talking therapy, medicine, more support, or a referral to a mental health team. Telling a doctor you're struggling won't mean your children are taken away. It shows you're looking after yourself and them.
+They might suggest talking therapy, medicine, more support, or a referral to a mental health team. Telling a doctor you're struggling is very unlikely to mean your children are taken away. It shows you're looking after yourself and them.
 
 ## A crisis plan
 Make a plan while you're feeling steadier, and keep it on paper and in your phone:

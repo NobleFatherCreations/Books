@@ -362,7 +362,7 @@ Read down these pairs. A good seam hands the reader on; a dead end stops them.
 
 > **ends:** …When the date is set, Your day in court walks you through the hearing itself, from the car park to the evening after.
 >
-> **next opens:** The date is set. You've been dreading it for weeks, and you've rehearsed what you'll say in the shower more times than you'd admit. Here's what to expect at a family court hearing, step by step, so at least the practical parts hold no surprises.…
+> **next opens:** The date is set. You've been dreading it for weeks, and you've rehearsed what you'll say more times than you'd admit. Here's what to expect at a family court hearing, step by step, so at least the practical parts hold no surprises.…
 
 ### your-day-in-court → divorce-and-separation-proceedings
 
@@ -488,7 +488,7 @@ Read down these pairs. A good seam hands the reader on; a dead end stops them.
 
 > **ends:** …A lot of checking is waiting for something from them: a sign, a reason, an ending. Closure you give yourself is about getting that without them.
 >
-> **next opens:** You want them to understand what they did. To say sorry and mean it. To explain why. You've rehearsed the conversation that would finally let you put it down so many times, in the car, in the shower, at 3am, that it has drafts.…
+> **next opens:** You want them to understand what they did. To say sorry and mean it. To explain why. You've rehearsed the conversation that would finally let you put it down so many times, in the car and at 3am, that it has drafts.…
 
 ### closure-and-forgiveness → the-anniversary-effect
 

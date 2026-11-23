@@ -145,7 +145,7 @@ Here's how to check your phone for stalkerware, step by step, plus the other way
 
 ## More accounts
 ☐ Cloud photos and storage: shared albums removed.
-☐ Shopping, food delivery, streaming and ride apps. (Yes, the takeaway app too. It knows your address.)
+☐ Shopping, food delivery, streaming and ride apps. Delivery apps store your address.
 ☐ Removed as a trusted contact, recovery contact or family member everywhere.
 ☐ Security questions changed, to answers they can't guess.
 
@@ -307,7 +307,7 @@ This is the post-separation abuse summary: the whole book, one line at a time. S
 
 **You don't owe a reply.** [Messages you don't have to answer](ch:messages-you-dont-have-to-answer).
 
-**They may come back when you're doing well.** Funny how that works. [Hoovering](ch:hoovering).
+**They may come back when you're doing well.** That timing is part of the pattern. [Hoovering](ch:hoovering).
 
 **Write it down, the same day, in four lines.** [The record](ch:the-record).
 

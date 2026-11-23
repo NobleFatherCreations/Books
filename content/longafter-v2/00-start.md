@@ -6,16 +6,16 @@ short: You don't have to read this book in order. Pick the line below that sound
 ---
 Wondering what to do after leaving an abusive relationship? You probably didn't arrive here calmly, with a cup of tea and a free afternoon. A message just landed. A court letter came. It's 2am and the house is too quiet. So this book starts with you, not with chapter one.
 
-Find the line that sounds like today. Next week it might be a different one, and that's fine. Nobody's keeping score.
+Find the line that sounds like today. Next week it might be a different one, and that's fine.
 
 ## I left in the last few days
 Start with [The first 30 days](ch:the-first-30-days), a plain list for the first month. Then read [A safety plan for after you've left](ch:a-safety-plan-for-after-youve-left), because the weeks after leaving can be the most dangerous. Then [Leaving was the middle](ch:leaving-was-the-middle), for why it doesn't feel like the ending you were promised.
 
 ## They keep contacting me
-[Hoovering](ch:hoovering) helps you spot the pattern. [Words you can use](ch:words-you-can-use) has replies you can copy and send. [Messages you don't have to answer](ch:messages-you-dont-have-to-answer) helps you sort the ones that need a reply from the 47-message essay that doesn't.
+[Hoovering](ch:hoovering) helps you spot the pattern. [Words you can use](ch:words-you-can-use) has replies you can copy and send. [Messages you don't have to answer](ch:messages-you-dont-have-to-answer) helps you sort the ones that need a reply from the ones that can wait forever.
 
 ## We have children together
-Start with [Co-parenting or parallel parenting?](ch:co-parenting-or-parallel-parenting). Then [Your children, and what to say](ch:your-children-and-what-to-say). Then [Children as the channel](ch:children-as-the-channel), for the ways children get pulled into the middle, like the ex who's suddenly passionate about the school calendar.
+Start with [Co-parenting or parallel parenting?](ch:co-parenting-or-parallel-parenting). Then [Your children, and what to say](ch:your-children-and-what-to-say). Then [Children as the channel](ch:children-as-the-channel), for the ways children get pulled into the middle, and what you can do about it.
 
 ## There's a court case
 Start with [What to document and how](ch:what-to-document-and-how), because the record does a lot of the heavy lifting. Then [Family court, honestly](ch:family-court-honestly). Then [Your day in court](ch:your-day-in-court).
