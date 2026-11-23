@@ -48,14 +48,15 @@ BOOK = {
                      "emergency services."),
 }
 
-# Dusk to first light: [sky top, sky bottom, accent] per part
+# Dusk to first light: [sky top, sky bottom, accent] per part. OKLCH steps: accent hue 32->88deg, lightness .72->.86 (coral to gold);
+# sky top hue 298->255, bottom 318->35. Every step keeps link and sky text at AA (design/longafter-v6/check-v6.mjs).
 SKY = {
-    "start": ("#1b1430", "#3a2346", "#e0957a"), "i": ("#1b1430", "#3a2346", "#e0957a"),
-    "ii": ("#19142e", "#40274d", "#e39a7d"), "iii": ("#171630", "#3d2c57", "#e6a17f"),
-    "iv": ("#151a33", "#35345e", "#e8a983"), "v": ("#141c36", "#2e3c64", "#eab089"),
-    "vi": ("#13203a", "#2d4668", "#ecb68f"), "vii": ("#142540", "#365170", "#eebd96"),
-    "viii": ("#162a45", "#495b75", "#efc39c"), "ix": ("#1a2e48", "#5e6479", "#f0c9a2"),
-    "x": ("#20334c", "#66586e", "#f1cea7"), "xi": ("#283a52", "#7a5a64", "#f3d4ad"),
+    "start": ("#180b2c", "#3f1d49", "#e88572"), "i": ("#180b2c", "#3f1d49", "#e88572"),
+    "ii": ("#180e2f", "#452047", "#eb8c6f"), "iii": ("#181232", "#4c2245", "#ee926c"),
+    "iv": ("#181535", "#512543", "#f0996a"), "v": ("#181838", "#562740", "#f2a068"),
+    "vi": ("#181c3a", "#5b2b3e", "#f3a768"), "vii": ("#191f3c", "#602e3c", "#f3af68"),
+    "viii": ("#19223e", "#633239", "#f3b669"), "ix": ("#192640", "#673637", "#f3be6c"),
+    "x": ("#192942", "#6a3b36", "#f2c570"), "xi": ("#1a2c44", "#6c4034", "#f0cd74"),
     "tools": ("#1d1a2a", "#36324a", "#e0b48e"),
 }
 
@@ -145,9 +146,10 @@ def md(body):
             while i < len(lines) and lines[i].startswith("**"):
                 lab, _, rest = inline(lines[i].strip()).partition("</strong>")
                 k = "say" if "They say" in lab else "why" if "What it" in lab else "reply"
-                cp = ' <button class="dv-copy" type="button" data-js>Copy</button>' if k == "reply" else ""
-                voices.append(f'<p class="dv dv-{k}">{lab.replace("<strong>", "<strong class=\"dv-l\">")}</strong> '
-                              f'<span class="dv-t">{rest.strip()}</span>{cp}</p>')
+                lab = lab.replace("<strong>", "<strong class=\"dv-l\">") + "</strong>"
+                if k == "reply":   # Copy sits beside the label, so it shows as soon as the reply does (never under the dock)
+                    lab = f'<span class="dv-h">{lab} <button class="dv-copy" type="button" data-js>Copy</button></span>'
+                voices.append(f'<p class="dv dv-{k}">{lab} <span class="dv-t">{rest.strip()}</span></p>')
                 i += 1
             out.append('<div class="dv-p">' + "".join(voices) + "</div>"); continue
         if ln.startswith("## "):
@@ -185,7 +187,7 @@ def md(body):
             items = []
             while i < len(lines) and (re.match(r"^\s*- ", lines[i]) or lines[i].startswith("☐")):
                 items.append(lines[i]); i += 1
-            lis = "".join(f'<li class="check">{inline(x)}</li>' if x.startswith("☐") else f"<li>{inline(re.sub(r'^\s*- ', '', x))}</li>" for x in items)
+            lis = "".join(f'<li class="check"><label><input type="checkbox"><span>{inline(x[1:].lstrip())}</span></label></li>' if x.startswith("☐") else f"<li>{inline(re.sub(r'^\s*- ', '', x))}</li>" for x in items)
             out.append(f'<ul{" class=\"checks\"" if items[0].startswith("☐") else ""}>{lis}</ul>'); continue
         if re.match(r"^\d+\. ", ln):
             items = []
@@ -249,7 +251,7 @@ article h3{font:700 1.15rem/1.3 var(--body);margin:1.6em 0 .4em}
 article p,article li{max-width:66ch}
 article p{margin:0 0 1em}
 article ul,article ol{padding-left:1.3em;margin:0 0 1.2em}article li{margin:.35em 0}
-ul.checks{list-style:none;padding:0}ul.checks li{padding:.25em 0;border-bottom:1px solid var(--line)}
+ul.checks{list-style:none;padding:0}ul.checks li{margin:0;border-bottom:1px solid var(--line)}
 blockquote{margin:1.6em 0;padding:0}
 blockquote.pull{border-left:3px solid var(--acc);padding:4px 0 4px 20px;font:italic 400 1.3rem/1.5 var(--body);color:#fff}
 blockquote.pull p{margin:0 0 .5em}
@@ -322,6 +324,7 @@ ICONS = {
     "scissors": '<circle cx="6" cy="6" r="3"/><path d="M8.12 8.12 12 12"/><path d="M20 4 8.12 15.88"/><circle cx="6" cy="18" r="3"/><path d="M14.8 14.8 20 20"/>',
     "arrow": '<path d="M5 12h14"/><path d="m12 5 7 7-7 7"/>',
     "signpost": '<path d="M12 13v8"/><path d="M12 3v3"/><path d="M2.354 10.354a1.207 1.207 0 0 1 0-1.708l2.06-2.06A2 2 0 0 1 5.828 6h12.344a2 2 0 0 1 1.414.586l2.06 2.06a1.207 1.207 0 0 1 0 1.708l-2.06 2.06a2 2 0 0 1-1.414.586H5.828a2 2 0 0 1-1.414-.586z"/>',
+    "check": '<path d="M20 6 9 17l-5-5"/>',
     "copy": '<rect width="14" height="14" x="8" y="8" rx="2" ry="2"/><path d="M4 16c-1.1 0-2-.9-2-2V4c0-1.1.9-2 2-2h10c1.1 0 2 .9 2 2"/>',
 }
 
@@ -349,16 +352,15 @@ article .blk h2{{font:400 1.45rem/1.25 var(--disp);color:#fff;margin:0 0 .5em;sc
 article .blk>:last-child{{margin-bottom:0}}
 .blk-action::before,.blk-scene::before,.blk-sheet::before{{display:block;font-family:var(--sans);font-size:1rem;line-height:1.2;{SC}margin:0 0 10px}}
 /* action: an index card with a hand-drawn circle */
-article .blk-action{{background-color:#2a2232;background-image:repeating-linear-gradient(180deg,transparent 0 30px,rgba(239,233,244,.05) 30px 31px);
-background-position:0 66px;border-top:3px solid var(--acc);border-radius:4px 4px 12px 12px;padding:18px 20px 20px;
+article .blk-action{{background-color:#2a2232;border-top:3px solid var(--acc);border-radius:4px 4px 12px 12px;padding:18px 20px 20px;
 box-shadow:0 18px 32px -18px rgba(0,0,0,.75),inset 0 1px 0 rgba(255,255,255,.04)}}
 .blk-action::before{{content:"One small step";color:var(--acc)}}
 article .blk-action h2{{position:relative;padding-left:42px}}
 article .blk-action h2::before{{content:"";position:absolute;left:2px;top:.1em;width:26px;height:26px;border:2px solid var(--acc);
 border-radius:54% 44% 57% 43% / 46% 56% 44% 54%;transform:rotate(-9deg);box-shadow:1px 1px 0 0 color-mix(in srgb,var(--acc) 35%,transparent)}}
-article .blk-action p{{color:#f3edf6}}
+article .blk-action p{{color:#f3edf6;background:linear-gradient(180deg,transparent calc(1lh - 5px),rgba(239,233,244,.11) calc(1lh - 5px),rgba(239,233,244,.11) calc(1lh - 4px),transparent calc(1lh - 4px)) 0 0/100% 1lh repeat-y}}
 /* decoder: two voices as chat bubbles, Copy on the reply */
-article .blk-decoder{{background:#1c1727;border:1px solid #2c2539;border-radius:20px;padding:16px 14px}}
+article .blk-decoder{{background:#1c1727;border:1px solid color-mix(in srgb,var(--acc) 30%,#2c2539);border-radius:20px;padding:16px 14px}}
 .dv-p{{display:flex;flex-direction:column;gap:12px}}
 article .dv{{margin:0;max-width:none}}
 .dv-l,.dv-t{{display:block}}
@@ -368,8 +370,9 @@ article .dv{{margin:0;max-width:none}}
 .dv-reply{{align-self:flex-end;max-width:90%;display:flex;flex-direction:column;background:var(--acc);color:#1c1322;border-radius:20px 20px 6px 20px;padding:12px 16px 10px}}
 .dv-l{{font-family:var(--sans);font-size:1rem;line-height:1.3;{SC}color:var(--fg2);margin:0 0 2px}}
 .dv-reply .dv-l{{color:#4a2733}}
+.dv-h{{display:flex;align-items:center;justify-content:space-between;gap:8px;margin:0 0 4px}}.dv-h .dv-l{{margin:0}}
 .dv-copy{{display:inline-flex;align-items:center;justify-content:center;gap:8px;min-height:44px;min-width:44px;cursor:pointer;font:600 1rem/1 var(--sans);
-align-self:flex-end;margin-top:8px;padding:0 16px;border-radius:999px;border:1px solid rgba(28,19,34,.45);background:rgba(28,19,34,.07);color:#1c1322}}
+flex:none;padding:0 16px;border-radius:999px;border:1px solid rgba(28,19,34,.45);background:rgba(28,19,34,.07);color:#1c1322}}
 .dv-copy::before{{content:"";width:16px;height:16px;background:currentColor;{mask('copy')}}}
 .dv-copy:hover{{background:rgba(28,19,34,.16)}}
 .dv-copy:focus-visible{{outline-color:#1c1322}}
@@ -380,7 +383,7 @@ border-radius:20px;padding:22px 20px;box-shadow:inset 0 4px 14px rgba(0,0,0,.75)
 article .blk-honest h2{{padding-right:40px}}
 article .blk-honest p:first-of-type{{color:var(--fg2)}}
 /* scene: a softer paper tone, in italics */
-article .blk-scene{{background:#251f2e;border:1px solid #362e43;border-radius:4px 16px 16px 16px;padding:18px 20px 20px}}
+article .blk-scene{{background:#251f2e;border:1px solid #362e43;border-left:3px solid color-mix(in srgb,var(--acc) 55%,#362e43);border-radius:4px 16px 16px 16px;padding:18px 20px 20px}}
 .blk-scene::before{{content:"A made-up story";color:#d8cde4}}
 article .blk-scene p{{font-style:italic;color:#e9e2f0}}
 article .blk-scene p:first-of-type{{color:var(--fg2)}}
@@ -395,20 +398,27 @@ article .blk-sheet{{border:2px dashed color-mix(in srgb,var(--fg2) 55%,transpare
 .blk-sheet::after{{content:"";position:absolute;right:28px;top:-14px;width:28px;height:26px;background:var(--night) {ico('scissors', '#bdb3cc')} center/22px no-repeat}}
 article .blk-sheet h2{{font-size:1.3rem;margin:1.3em 0 .3em}}
 article .blk-sheet h2:first-of-type{{margin-top:.2em}}
-article .blk-sheet ul.checks li{{padding:.5em 0 .5em 1.25em;text-indent:-1.25em;border-bottom-color:#2d2639}}
+article .blk-sheet ul.checks li{{border-bottom-color:#2d2639}}
+/* checklists: real checkboxes, ticks live in memory only (nothing stored, reset on reload) */
+ul.checks label{{display:flex;align-items:flex-start;gap:12px;min-height:44px;padding:10px 0;cursor:pointer}}
+ul.checks input{{appearance:none;-webkit-appearance:none;flex:none;width:22px;height:22px;margin:.2em 0 0;border:2px solid var(--acc);border-radius:5px;background:transparent;cursor:pointer;display:grid;place-content:center}}
+ul.checks input:checked{{background:var(--acc) {ico('check', '#1c1322')} center/16px no-repeat}}
 /* shell */
 [hidden]{{display:none!important}}
 html:not(.js) [data-js]{{display:none!important}}
 button{{font-family:var(--sans)}}
 details:not([open])>:not(summary){{display:none}}
-.by{{font-size:1rem;line-height:1.5;color:#f1e9ee;margin:14px 0 0}}.by a{{color:#fff;display:inline-block;padding:10px 0;margin:-10px 0}}
+/* compact chapter header: byline on one line where it fits, then one row of controls (44px tall) */
+.by{{font-size:.9rem;line-height:1.45;color:#f1e9ee;margin:10px 0 0}}
+.sky:has(.hrow){{padding-bottom:44px}}
+.hrow{{display:flex;flex-wrap:wrap;align-items:center;gap:8px;margin:12px 0 0}}.hrow .tools,.hrow .otp{{margin:0}}.otp[open]{{flex-basis:100%;order:2}}.by a{{color:#fff;display:inline-block;padding:10px 0;margin:-10px 0}}
 .tools{{display:flex;flex-wrap:wrap;align-items:center;gap:8px 12px;margin:12px 0 0}}
 .mode{{display:inline-flex;padding:3px;border-radius:999px;background:rgba(10,8,16,.55);border:1px solid rgba(255,255,255,.14)}}
-.mode button,.disc{{min-height:44px;padding:0 16px;border-radius:999px;border:0;background:none;color:#f1e9ee;font:600 1rem/1 var(--sans);cursor:pointer}}
+.mode button,.disc{{min-height:44px;padding:0 14px;border-radius:999px;border:0;background:none;color:#f1e9ee;font:600 1rem/1 var(--sans);cursor:pointer}}
 .mode button[aria-pressed=true]{{background:var(--acc);color:#1c1322}}
 .disc{{border:1px solid rgba(255,255,255,.22);background:rgba(10,8,16,.4)}}.disc[aria-pressed=true]{{background:#f1e9ee;color:#1c1322}}
 .otp{{margin:12px 0 0;background:rgba(10,8,16,.55);border:1px solid rgba(255,255,255,.14);border-radius:12px;font-size:1rem}}
-.otp summary{{cursor:pointer;min-height:48px;display:flex;align-items:center;padding:0 14px;font-weight:600;color:#fff}}
+.otp summary{{cursor:pointer;min-height:44px;display:flex;align-items:center;padding:0 14px;font-weight:600;color:#fff}}
 .otp summary::before{{content:"▸";margin-right:10px;transition:transform .2s var(--ease-out)}}.otp[open] summary::before{{transform:rotate(90deg)}}
 .otp ol{{margin:0;padding:0 14px 8px;list-style:none}}.otp a{{display:block;padding:10px 0;color:#f1e9ee;border-top:1px solid rgba(255,255,255,.1);text-decoration:none}}
 .prog{{position:fixed;top:0;left:0;right:0;height:3px;z-index:9600;pointer-events:none}}.prog i{{display:block;height:100%;background:var(--acc);transform:scaleX(0);transform-origin:0 50%}}
@@ -419,7 +429,7 @@ footer .disc{{color:var(--fg2);margin-top:8px}}
 .rail,.dock .leave{{font-family:var(--sans)}}
 .rail{{display:none}}
 .dock{{position:fixed;left:0;right:0;bottom:0;z-index:8999;display:grid;grid-template-columns:auto auto 1fr;align-items:end;gap:8px;padding:8px 12px calc(8px + env(safe-area-inset-bottom));
-background:rgba(17,14,25,.96);border-top:1px solid var(--line)}}
+background:var(--night);border-top:1px solid var(--line)}}
 .dock a,.dock button{{display:flex;align-items:center;justify-content:center;min-height:48px;padding:0 12px;border-radius:12px;border:1px solid var(--line);background:var(--panel);
 color:var(--fg);font:600 .95rem/1.1 var(--sans);white-space:nowrap;text-decoration:none;text-align:center;cursor:pointer}}
 .dock button[aria-pressed=true]{{background:var(--acc);color:#1c1322;border-color:var(--acc)}}
@@ -439,6 +449,7 @@ padding:14px;background:rgba(17,14,25,.94);border:1px solid var(--line);border-r
 @media print{{@page{{margin:14mm}}html{{background:#fff;color-scheme:light}}.sky{{background:none!important;padding-bottom:16px}}.sky .loc,.sky .q,.by{{color:#000!important}}footer,.end,.end a{{color:#333!important}}.short{{margin-top:8px}}.prog,.rail,.dock,.tools,.otp,.share,.dv-copy,.bar::after,footer .disc{{display:none!important}}
 article>h2::before{{background:#999}}article .blk-sheet{{border-color:#000;background:none;break-before:page;break-after:page}}.blk-sheet::after{{background-color:#fff}}
 .blk-sheet::before{{color:#000}}article .blk-sheet ul.checks li{{border-bottom-color:#999;break-inside:avoid}}
+ul.checks input{{background:none!important;border-color:#000!important}}
 article .blk-action,article .blk-scene,article .blk-honest,article .blk-decoder{{background:none;box-shadow:none;border:1px solid #999;break-inside:avoid}}
 .dv-say,.dv-reply{{background:#eee;color:#000}}.dv-l,.dv-why,article .blk p,article .blk h2,.by,.by a{{color:#000!important}}}}
 """
@@ -480,7 +491,7 @@ if(disc){{fav=D.createElement('link');fav.rel='icon';fav.href='data:image/svg+xm
 else if(fav){{D.head.removeChild(fav);fav=null}}$$('[data-discreet]').forEach(function(x){{x.setAttribute('aria-pressed',String(disc))}});}}}});
 function flash(b,t,t0){{b.textContent=t;clearTimeout(b._t);b._t=setTimeout(function(){{b.textContent=t0}},2000)}}
 $$('.dv-copy').forEach(function(b){{if(!navigator.clipboard){{b.hidden=true;return}}b.onclick=function(){{
-var x=b.parentNode.querySelector('.dv-t').textContent.trim(),q=x.match(/\\u201c[^\\u201d]+\\u201d/g);if(q)x=q.map(function(s){{return s.slice(1,-1)}}).join(' ');
+var x=b.closest('.dv').querySelector('.dv-t').textContent.trim(),q=x.match(/\\u201c[^\\u201d]+\\u201d/g);if(q)x=q.map(function(s){{return s.slice(1,-1)}}).join(' ');
 navigator.clipboard.writeText(x).then(function(){{flash(b,'Copied','Copy')}})}}}});
 $$('[data-share]').forEach(function(b){{b.onclick=function(){{var u=location.href.split('#')[0];
 if(navigator.share)navigator.share({{title:D.title,url:u}}).catch(function(){{}});
@@ -630,10 +641,10 @@ def page(slug, ch, pos):
               f'<a href="{BASE}/contents">Contents</a><button class="leave" type="button" data-leave>Leave</button></nav>\n')
     body = (f'{chrome}<div class="sky"><div class="in"><p class="loc">{loc_line(c)}</p>'
             f'<h1 id="top">{title_h}</h1><p class="q">{html.escape(smart(m["question"]))}</p>'
-            f'<p class="by">By <a href="{MANIFEST["about_url"]}">{MANIFEST["author"]}</a> \u00b7 Last reviewed <time datetime="{S.TODAY}">{S.TODAY_HUMAN}</time> \u00b7 {mins} min read</p>'
-            '<div class="tools" data-js><div class="mode" role="group" aria-label="How much to show">'
+            f'<p class="by">By <a href="{MANIFEST["about_url"]}">{MANIFEST["author"]}</a> \u00b7 Last reviewed <time datetime="{S.TODAY}">{S.TODAY_HUMAN}</time> \u00b7 <span style="white-space:nowrap">{mins} min read</span></p>'
+            '<div class="hrow"><div class="tools" data-js><div class="mode" role="group" aria-label="How much to show">'
             '<button type="button" data-mode="full" aria-pressed="true">Full read</button><button type="button" data-mode="steps" aria-pressed="false">Just the steps</button></div>'
-            f'<button class="disc" type="button" data-discreet aria-pressed="false">Discreet mode</button></div>{otp}</div></div>\n'
+            f'<button class="disc" type="button" data-discreet aria-pressed="false">Discreet mode</button></div>{otp}</div></div></div>\n'
             f'<main id="text">{callnow}<section class="short" aria-label="The short answer"><p class="lab">The short answer</p>'
             f'<p>{(inline(m["short"]))}</p></section>\n<p class="notice">{BOOK["notice_short"]} <a href="{BASE}/how-to-use-this-book">Full notice</a>.</p>\n<article>{body_html}</article>{src_html}{nxt}{end}</main>')
     return frame(title=title, desc=desc, url=url, ld={"@context": "https://schema.org", "@graph": graph}, body=body, part=c["part"])

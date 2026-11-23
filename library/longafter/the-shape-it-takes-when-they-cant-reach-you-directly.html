@@ -25,7 +25,7 @@
 <meta name="twitter:image:alt" content="The Long After by Shae Stovell, free to read">
 <link rel="license" href="https://creativecommons.org/licenses/by-nc-nd/4.0/">
 <link rel="sitemap" type="application/xml" href="/longafter/sitemap.xml">
-<meta name="theme-color" content="#1b1430">
+<meta name="theme-color" content="#180b2c">
 <link rel="preload" href="/longafter/f/bookserif-400-700-normal.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="preload" href="/longafter/f/bookdisplay-400-normal.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="preload" href="/longafter/f/bookserif-400-700-italic.woff2" as="font" type="font/woff2" crossorigin>
@@ -66,7 +66,7 @@ article h3{font:700 1.15rem/1.3 var(--body);margin:1.6em 0 .4em}
 article p,article li{max-width:66ch}
 article p{margin:0 0 1em}
 article ul,article ol{padding-left:1.3em;margin:0 0 1.2em}article li{margin:.35em 0}
-ul.checks{list-style:none;padding:0}ul.checks li{padding:.25em 0;border-bottom:1px solid var(--line)}
+ul.checks{list-style:none;padding:0}ul.checks li{margin:0;border-bottom:1px solid var(--line)}
 blockquote{margin:1.6em 0;padding:0}
 blockquote.pull{border-left:3px solid var(--acc);padding:4px 0 4px 20px;font:italic 400 1.3rem/1.5 var(--body);color:#fff}
 blockquote.pull p{margin:0 0 .5em}
@@ -136,16 +136,15 @@ article .blk h2{font:400 1.45rem/1.25 var(--disp);color:#fff;margin:0 0 .5em;scr
 article .blk>:last-child{margin-bottom:0}
 .blk-action::before,.blk-scene::before,.blk-sheet::before{display:block;font-family:var(--sans);font-size:1rem;line-height:1.2;font-variant-caps:all-small-caps;letter-spacing:.07em;font-weight:700;margin:0 0 10px}
 /* action: an index card with a hand-drawn circle */
-article .blk-action{background-color:#2a2232;background-image:repeating-linear-gradient(180deg,transparent 0 30px,rgba(239,233,244,.05) 30px 31px);
-background-position:0 66px;border-top:3px solid var(--acc);border-radius:4px 4px 12px 12px;padding:18px 20px 20px;
+article .blk-action{background-color:#2a2232;border-top:3px solid var(--acc);border-radius:4px 4px 12px 12px;padding:18px 20px 20px;
 box-shadow:0 18px 32px -18px rgba(0,0,0,.75),inset 0 1px 0 rgba(255,255,255,.04)}
 .blk-action::before{content:"One small step";color:var(--acc)}
 article .blk-action h2{position:relative;padding-left:42px}
 article .blk-action h2::before{content:"";position:absolute;left:2px;top:.1em;width:26px;height:26px;border:2px solid var(--acc);
 border-radius:54% 44% 57% 43% / 46% 56% 44% 54%;transform:rotate(-9deg);box-shadow:1px 1px 0 0 color-mix(in srgb,var(--acc) 35%,transparent)}
-article .blk-action p{color:#f3edf6}
+article .blk-action p{color:#f3edf6;background:linear-gradient(180deg,transparent calc(1lh - 5px),rgba(239,233,244,.11) calc(1lh - 5px),rgba(239,233,244,.11) calc(1lh - 4px),transparent calc(1lh - 4px)) 0 0/100% 1lh repeat-y}
 /* decoder: two voices as chat bubbles, Copy on the reply */
-article .blk-decoder{background:#1c1727;border:1px solid #2c2539;border-radius:20px;padding:16px 14px}
+article .blk-decoder{background:#1c1727;border:1px solid color-mix(in srgb,var(--acc) 30%,#2c2539);border-radius:20px;padding:16px 14px}
 .dv-p{display:flex;flex-direction:column;gap:12px}
 article .dv{margin:0;max-width:none}
 .dv-l,.dv-t{display:block}
@@ -155,8 +154,9 @@ article .dv{margin:0;max-width:none}
 .dv-reply{align-self:flex-end;max-width:90%;display:flex;flex-direction:column;background:var(--acc);color:#1c1322;border-radius:20px 20px 6px 20px;padding:12px 16px 10px}
 .dv-l{font-family:var(--sans);font-size:1rem;line-height:1.3;font-variant-caps:all-small-caps;letter-spacing:.07em;font-weight:700;color:var(--fg2);margin:0 0 2px}
 .dv-reply .dv-l{color:#4a2733}
+.dv-h{display:flex;align-items:center;justify-content:space-between;gap:8px;margin:0 0 4px}.dv-h .dv-l{margin:0}
 .dv-copy{display:inline-flex;align-items:center;justify-content:center;gap:8px;min-height:44px;min-width:44px;cursor:pointer;font:600 1rem/1 var(--sans);
-align-self:flex-end;margin-top:8px;padding:0 16px;border-radius:999px;border:1px solid rgba(28,19,34,.45);background:rgba(28,19,34,.07);color:#1c1322}
+flex:none;padding:0 16px;border-radius:999px;border:1px solid rgba(28,19,34,.45);background:rgba(28,19,34,.07);color:#1c1322}
 .dv-copy::before{content:"";width:16px;height:16px;background:currentColor;-webkit-mask:url("data:image/svg+xml,%3Csvg%20xmlns%3D%27http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%27%20viewBox%3D%270%200%2024%2024%27%20fill%3D%27none%27%20stroke%3D%27black%27%20stroke-width%3D%271.75%27%20stroke-linecap%3D%27round%27%20stroke-linejoin%3D%27round%27%3E%3Crect%20width%3D%2714%27%20height%3D%2714%27%20x%3D%278%27%20y%3D%278%27%20rx%3D%272%27%20ry%3D%272%27%2F%3E%3Cpath%20d%3D%27M4%2016c-1.1%200-2-.9-2-2V4c0-1.1.9-2%202-2h10c1.1%200%202%20.9%202%202%27%2F%3E%3C%2Fsvg%3E") center/contain no-repeat;mask:url("data:image/svg+xml,%3Csvg%20xmlns%3D%27http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%27%20viewBox%3D%270%200%2024%2024%27%20fill%3D%27none%27%20stroke%3D%27black%27%20stroke-width%3D%271.75%27%20stroke-linecap%3D%27round%27%20stroke-linejoin%3D%27round%27%3E%3Crect%20width%3D%2714%27%20height%3D%2714%27%20x%3D%278%27%20y%3D%278%27%20rx%3D%272%27%20ry%3D%272%27%2F%3E%3Cpath%20d%3D%27M4%2016c-1.1%200-2-.9-2-2V4c0-1.1.9-2%202-2h10c1.1%200%202%20.9%202%202%27%2F%3E%3C%2Fsvg%3E") center/contain no-repeat;}
 .dv-copy:hover{background:rgba(28,19,34,.16)}
 .dv-copy:focus-visible{outline-color:#1c1322}
@@ -167,7 +167,7 @@ border-radius:20px;padding:22px 20px;box-shadow:inset 0 4px 14px rgba(0,0,0,.75)
 article .blk-honest h2{padding-right:40px}
 article .blk-honest p:first-of-type{color:var(--fg2)}
 /* scene: a softer paper tone, in italics */
-article .blk-scene{background:#251f2e;border:1px solid #362e43;border-radius:4px 16px 16px 16px;padding:18px 20px 20px}
+article .blk-scene{background:#251f2e;border:1px solid #362e43;border-left:3px solid color-mix(in srgb,var(--acc) 55%,#362e43);border-radius:4px 16px 16px 16px;padding:18px 20px 20px}
 .blk-scene::before{content:"A made-up story";color:#d8cde4}
 article .blk-scene p{font-style:italic;color:#e9e2f0}
 article .blk-scene p:first-of-type{color:var(--fg2)}
@@ -182,20 +182,27 @@ article .blk-sheet{border:2px dashed color-mix(in srgb,var(--fg2) 55%,transparen
 .blk-sheet::after{content:"";position:absolute;right:28px;top:-14px;width:28px;height:26px;background:var(--night) url("data:image/svg+xml,%3Csvg%20xmlns%3D%27http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%27%20viewBox%3D%270%200%2024%2024%27%20fill%3D%27none%27%20stroke%3D%27%23bdb3cc%27%20stroke-width%3D%271.75%27%20stroke-linecap%3D%27round%27%20stroke-linejoin%3D%27round%27%3E%3Ccircle%20cx%3D%276%27%20cy%3D%276%27%20r%3D%273%27%2F%3E%3Cpath%20d%3D%27M8.12%208.12%2012%2012%27%2F%3E%3Cpath%20d%3D%27M20%204%208.12%2015.88%27%2F%3E%3Ccircle%20cx%3D%276%27%20cy%3D%2718%27%20r%3D%273%27%2F%3E%3Cpath%20d%3D%27M14.8%2014.8%2020%2020%27%2F%3E%3C%2Fsvg%3E") center/22px no-repeat}
 article .blk-sheet h2{font-size:1.3rem;margin:1.3em 0 .3em}
 article .blk-sheet h2:first-of-type{margin-top:.2em}
-article .blk-sheet ul.checks li{padding:.5em 0 .5em 1.25em;text-indent:-1.25em;border-bottom-color:#2d2639}
+article .blk-sheet ul.checks li{border-bottom-color:#2d2639}
+/* checklists: real checkboxes, ticks live in memory only (nothing stored, reset on reload) */
+ul.checks label{display:flex;align-items:flex-start;gap:12px;min-height:44px;padding:10px 0;cursor:pointer}
+ul.checks input{appearance:none;-webkit-appearance:none;flex:none;width:22px;height:22px;margin:.2em 0 0;border:2px solid var(--acc);border-radius:5px;background:transparent;cursor:pointer;display:grid;place-content:center}
+ul.checks input:checked{background:var(--acc) url("data:image/svg+xml,%3Csvg%20xmlns%3D%27http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%27%20viewBox%3D%270%200%2024%2024%27%20fill%3D%27none%27%20stroke%3D%27%231c1322%27%20stroke-width%3D%271.75%27%20stroke-linecap%3D%27round%27%20stroke-linejoin%3D%27round%27%3E%3Cpath%20d%3D%27M20%206%209%2017l-5-5%27%2F%3E%3C%2Fsvg%3E") center/16px no-repeat}
 /* shell */
 [hidden]{display:none!important}
 html:not(.js) [data-js]{display:none!important}
 button{font-family:var(--sans)}
 details:not([open])>:not(summary){display:none}
-.by{font-size:1rem;line-height:1.5;color:#f1e9ee;margin:14px 0 0}.by a{color:#fff;display:inline-block;padding:10px 0;margin:-10px 0}
+/* compact chapter header: byline on one line where it fits, then one row of controls (44px tall) */
+.by{font-size:.9rem;line-height:1.45;color:#f1e9ee;margin:10px 0 0}
+.sky:has(.hrow){padding-bottom:44px}
+.hrow{display:flex;flex-wrap:wrap;align-items:center;gap:8px;margin:12px 0 0}.hrow .tools,.hrow .otp{margin:0}.otp[open]{flex-basis:100%;order:2}.by a{color:#fff;display:inline-block;padding:10px 0;margin:-10px 0}
 .tools{display:flex;flex-wrap:wrap;align-items:center;gap:8px 12px;margin:12px 0 0}
 .mode{display:inline-flex;padding:3px;border-radius:999px;background:rgba(10,8,16,.55);border:1px solid rgba(255,255,255,.14)}
-.mode button,.disc{min-height:44px;padding:0 16px;border-radius:999px;border:0;background:none;color:#f1e9ee;font:600 1rem/1 var(--sans);cursor:pointer}
+.mode button,.disc{min-height:44px;padding:0 14px;border-radius:999px;border:0;background:none;color:#f1e9ee;font:600 1rem/1 var(--sans);cursor:pointer}
 .mode button[aria-pressed=true]{background:var(--acc);color:#1c1322}
 .disc{border:1px solid rgba(255,255,255,.22);background:rgba(10,8,16,.4)}.disc[aria-pressed=true]{background:#f1e9ee;color:#1c1322}
 .otp{margin:12px 0 0;background:rgba(10,8,16,.55);border:1px solid rgba(255,255,255,.14);border-radius:12px;font-size:1rem}
-.otp summary{cursor:pointer;min-height:48px;display:flex;align-items:center;padding:0 14px;font-weight:600;color:#fff}
+.otp summary{cursor:pointer;min-height:44px;display:flex;align-items:center;padding:0 14px;font-weight:600;color:#fff}
 .otp summary::before{content:"▸";margin-right:10px;transition:transform .2s var(--ease-out)}.otp[open] summary::before{transform:rotate(90deg)}
 .otp ol{margin:0;padding:0 14px 8px;list-style:none}.otp a{display:block;padding:10px 0;color:#f1e9ee;border-top:1px solid rgba(255,255,255,.1);text-decoration:none}
 .prog{position:fixed;top:0;left:0;right:0;height:3px;z-index:9600;pointer-events:none}.prog i{display:block;height:100%;background:var(--acc);transform:scaleX(0);transform-origin:0 50%}
@@ -206,7 +213,7 @@ footer .disc{color:var(--fg2);margin-top:8px}
 .rail,.dock .leave{font-family:var(--sans)}
 .rail{display:none}
 .dock{position:fixed;left:0;right:0;bottom:0;z-index:8999;display:grid;grid-template-columns:auto auto 1fr;align-items:end;gap:8px;padding:8px 12px calc(8px + env(safe-area-inset-bottom));
-background:rgba(17,14,25,.96);border-top:1px solid var(--line)}
+background:var(--night);border-top:1px solid var(--line)}
 .dock a,.dock button{display:flex;align-items:center;justify-content:center;min-height:48px;padding:0 12px;border-radius:12px;border:1px solid var(--line);background:var(--panel);
 color:var(--fg);font:600 .95rem/1.1 var(--sans);white-space:nowrap;text-decoration:none;text-align:center;cursor:pointer}
 .dock button[aria-pressed=true]{background:var(--acc);color:#1c1322;border-color:var(--acc)}
@@ -226,9 +233,10 @@ padding:14px;background:rgba(17,14,25,.94);border:1px solid var(--line);border-r
 @media print{@page{margin:14mm}html{background:#fff;color-scheme:light}.sky{background:none!important;padding-bottom:16px}.sky .loc,.sky .q,.by{color:#000!important}footer,.end,.end a{color:#333!important}.short{margin-top:8px}.prog,.rail,.dock,.tools,.otp,.share,.dv-copy,.bar::after,footer .disc{display:none!important}
 article>h2::before{background:#999}article .blk-sheet{border-color:#000;background:none;break-before:page;break-after:page}.blk-sheet::after{background-color:#fff}
 .blk-sheet::before{color:#000}article .blk-sheet ul.checks li{border-bottom-color:#999;break-inside:avoid}
+ul.checks input{background:none!important;border-color:#000!important}
 article .blk-action,article .blk-scene,article .blk-honest,article .blk-decoder{background:none;box-shadow:none;border:1px solid #999;break-inside:avoid}
 .dv-say,.dv-reply{background:#eee;color:#000}.dv-l,.dv-why,article .blk p,article .blk h2,.by,.by a{color:#000!important}}
-:root{--s1:#1b1430;--s2:#3a2346;--acc:#e0957a;--dawn:0.0}</style>
+:root{--s1:#180b2c;--s2:#3f1d49;--acc:#e88572;--dawn:0.0}</style>
 <style id="nf-chrome-css">
 /* ============ Noble Father shared chrome — design tokens ============ */
 :root{
@@ -400,7 +408,7 @@ article .blk-action,article .blk-scene,article .blk-honest,article .blk-decoder{
 <a class="skip" href="#text">Skip to the text</a>
 <header class="bar"><a class="home" href="/longafter">The Long After</a><a class="b" href="/longafter/search">Search</a><a class="b" href="/longafter/if-youre-not-safe-right-now">Help</a><button class="leave" type="button" data-leave aria-label="Leave this page now">Leave</button></header>
 <div class="prog" aria-hidden="true"><i></i></div><nav class="rail" aria-label="This chapter"><p class="r-loc"><a href="/longafter#part-i">Part I: What is happening</a>, chapter 4 of 10</p><p class="r-t">The shape it takes when they can’t reach you directly</p><ol><li><a href="#why-is-my-ex-still-controlling-me">Why is my ex still controlling me?</a></li><li><a href="#what-are-the-channels">What are the channels?</a></li><li><a href="#why-is-it-so-easy-to-miss">Why is it so easy to miss?</a></li><li><a href="#how-can-i-tell-control-from-ordinary-friction">How can I tell control from ordinary friction?</a></li><li><a href="#what-does-one-month-of-it-look-like">What does one month of it look like?</a></li><li><a href="#how-do-the-channels-feed-each-other">How do the channels feed each other?</a></li><li><a href="#what-if-a-professional-becomes-the-channel">What if a professional becomes the channel?</a></li><li><a href="#what-should-i-write-down-when-i-spot-a-new-channel">What should I write down when I spot a new channel?</a></li><li><a href="#what-do-i-do-once-i-see-the-pattern">What do I do once I see the pattern?</a></li><li><a href="#which-door-would-you-close-first">Which door would you close first?</a></li></ol><button class="leave" type="button" data-leave>Leave</button></nav><nav class="dock" aria-label="Quick actions"><button type="button" data-mode-toggle aria-pressed="false" data-js>Just the steps</button><a href="/longafter/contents">Contents</a><button class="leave" type="button" data-leave>Leave</button></nav>
-<div class="sky" role="region" aria-label="Title"><div class="in"><p class="loc"><a href="/longafter#part-i">Part I: What is happening</a>, chapter 4 of 10</p><h1 id="top">The shape it takes when they can’t reach you directly</h1><p class="q">Why is my ex still controlling me after the breakup?</p><p class="by">By <a href="/about">Shae Stovell</a> · Last reviewed <time datetime="2026-11-23">November 23, 2026</time> · 5 min read</p><div class="tools" data-js><div class="mode" role="group" aria-label="How much to show"><button type="button" data-mode="full" aria-pressed="true">Full read</button><button type="button" data-mode="steps" aria-pressed="false">Just the steps</button></div><button class="disc" type="button" data-discreet aria-pressed="false">Discreet mode</button></div><details class="otp"><summary>On this page</summary><ol><li><a href="#why-is-my-ex-still-controlling-me">Why is my ex still controlling me?</a></li><li><a href="#what-are-the-channels">What are the channels?</a></li><li><a href="#why-is-it-so-easy-to-miss">Why is it so easy to miss?</a></li><li><a href="#how-can-i-tell-control-from-ordinary-friction">How can I tell control from ordinary friction?</a></li><li><a href="#what-does-one-month-of-it-look-like">What does one month of it look like?</a></li><li><a href="#how-do-the-channels-feed-each-other">How do the channels feed each other?</a></li><li><a href="#what-if-a-professional-becomes-the-channel">What if a professional becomes the channel?</a></li><li><a href="#what-should-i-write-down-when-i-spot-a-new-channel">What should I write down when I spot a new channel?</a></li><li><a href="#what-do-i-do-once-i-see-the-pattern">What do I do once I see the pattern?</a></li><li><a href="#which-door-would-you-close-first">Which door would you close first?</a></li></ol></details></div></div>
+<div class="sky" role="region" aria-label="Title"><div class="in"><p class="loc"><a href="/longafter#part-i">Part I: What is happening</a>, chapter 4 of 10</p><h1 id="top">The shape it takes when they can’t reach you directly</h1><p class="q">Why is my ex still controlling me after the breakup?</p><p class="by">By <a href="/about">Shae Stovell</a> · Last reviewed <time datetime="2026-11-23">November 23, 2026</time> · <span style="white-space:nowrap">5 min read</span></p><div class="hrow"><div class="tools" data-js><div class="mode" role="group" aria-label="How much to show"><button type="button" data-mode="full" aria-pressed="true">Full read</button><button type="button" data-mode="steps" aria-pressed="false">Just the steps</button></div><button class="disc" type="button" data-discreet aria-pressed="false">Discreet mode</button></div><details class="otp"><summary>On this page</summary><ol><li><a href="#why-is-my-ex-still-controlling-me">Why is my ex still controlling me?</a></li><li><a href="#what-are-the-channels">What are the channels?</a></li><li><a href="#why-is-it-so-easy-to-miss">Why is it so easy to miss?</a></li><li><a href="#how-can-i-tell-control-from-ordinary-friction">How can I tell control from ordinary friction?</a></li><li><a href="#what-does-one-month-of-it-look-like">What does one month of it look like?</a></li><li><a href="#how-do-the-channels-feed-each-other">How do the channels feed each other?</a></li><li><a href="#what-if-a-professional-becomes-the-channel">What if a professional becomes the channel?</a></li><li><a href="#what-should-i-write-down-when-i-spot-a-new-channel">What should I write down when I spot a new channel?</a></li><li><a href="#what-do-i-do-once-i-see-the-pattern">What do I do once I see the pattern?</a></li><li><a href="#which-door-would-you-close-first">Which door would you close first?</a></li></ol></details></div></div></div>
 <main id="text"><section class="short" aria-label="The short answer"><p class="lab">The short answer</p><p>Post-separation control is what happens when one way of reaching you closes and the person you left finds another. It can look nothing like what happened at home, which is why it’s so easy to miss. The test is what it does to you, whatever it looks like on the surface.</p></section>
 <p class="notice">Information, not legal, medical or therapeutic advice. If you are in danger, contact your local emergency services. <a href="/longafter/how-to-use-this-book">Full notice</a>.</p>
 <article><p>You blocked the number, and the messages stopped. A week later your mum rang to say they’d popped round “just to talk.” The school forwarded an email from them. A solicitor’s letter landed on the mat.</p>
@@ -619,7 +627,7 @@ if(disc){fav=D.createElement('link');fav.rel='icon';fav.href='data:image/svg+xml
 else if(fav){D.head.removeChild(fav);fav=null}$$('[data-discreet]').forEach(function(x){x.setAttribute('aria-pressed',String(disc))});}});
 function flash(b,t,t0){b.textContent=t;clearTimeout(b._t);b._t=setTimeout(function(){b.textContent=t0},2000)}
 $$('.dv-copy').forEach(function(b){if(!navigator.clipboard){b.hidden=true;return}b.onclick=function(){
-var x=b.parentNode.querySelector('.dv-t').textContent.trim(),q=x.match(/\u201c[^\u201d]+\u201d/g);if(q)x=q.map(function(s){return s.slice(1,-1)}).join(' ');
+var x=b.closest('.dv').querySelector('.dv-t').textContent.trim(),q=x.match(/\u201c[^\u201d]+\u201d/g);if(q)x=q.map(function(s){return s.slice(1,-1)}).join(' ');
 navigator.clipboard.writeText(x).then(function(){flash(b,'Copied','Copy')})}});
 $$('[data-share]').forEach(function(b){b.onclick=function(){var u=location.href.split('#')[0];
 if(navigator.share)navigator.share({title:D.title,url:u}).catch(function(){});

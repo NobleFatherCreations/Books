@@ -354,3 +354,13 @@ That commit is labelled WIP, but it holds the finished build, and everything pas
   - The court sheet runs to 2 A4 pages.
   - Version is still v5 until release.
 - **Phone shots:** `design/longafter-v6/prototype/`.
+
+## v6 fix round 1 (critic)
+Six regressions found by the critic in the v6 build. Each has a guard; the automated ones live in `design/longafter-v6/check-v6.mjs` (run with the local server up: `node design/longafter-v6/check-v6.mjs`).
+1. **Phone dock let text show through.** Below 1100px the dock was 96% opaque. Guard: the dock's computed background alpha is 1. Both Leave buttons, the top bar and the dock stay; that redundancy is deliberate.
+2. **Decoder Copy button sat under the dock.** It was at the foot of the reply bubble. Guard: at 390×844, scroll the reply into view; the Copy button's rect is fully above the dock's top edge.
+3. **Checklists were ☐ characters, not controls.** Guard: every `ul.checks li` holds a real `<input type="checkbox">` inside a label with a hit area of at least 44px; no ☐ in the rendered text; ticking boxes leaves localStorage, sessionStorage and cookies empty and the URL unchanged. Print shows empty boxes.
+4. **Ruled-paper lines crossed through the text in "One small step".** Guard: the line pitch is set from the computed body line-height, and each line of text sits on a rule (checked by eye at 390 and 1440).
+5. **The hour signature barely changed between parts.** Guard: for every part, the link colour on the page background is at least 4.5:1, and neighbouring parts' accents differ by more than a small hue or lightness step.
+6. **The chapter header pushed the short answer below the dock.** Guard: at 390×844 on first load, the short-answer box's top edge is above the dock's top edge.
+- **Result (2026-11-23):** all six fixed in `scripts/seo/build_longafter_v2.py`; `check-v6.mjs` failed on the old build (items 1-5, and the compact-header guard for 6) and passes now. The literal item-6 guard (short-answer top above the dock) already passed before; the extra guard, short answer starting in the top half of a 390×844 screen, failed before (430-469px) and passes now (340-379px). Text diff against the pre-design snapshot: only the accepted UI strings, the Copy button moving beside its label, and 164 ☐ characters removed. Side-by-side: `design/longafter-v6/prototype/8-part-i-vs-part-x.png`.
