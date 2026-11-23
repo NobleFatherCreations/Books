@@ -196,7 +196,7 @@ p{margin:0;max-width:62ch;text-wrap:pretty}
 .support .wrap{display:grid;grid-template-columns:1.2fr 1fr;gap:var(--s8);align-items:center}
 .pay{display:flex;gap:var(--s2);flex-wrap:wrap}
 footer{background:var(--night);border-top:1px solid var(--night-line);padding:var(--s12) 0 var(--s8);color:var(--muted);font-size:15px}
-footer .wrap{display:grid;grid-template-columns:1.3fr 1fr 1fr 1fr;gap:var(--s6)}
+footer .wrap{display:grid;grid-template-columns:1.3fr 1fr 1fr 1fr 1fr;gap:var(--s6)}
 footer h2{font:400 23px/1.2 var(--display),Georgia,serif;color:var(--paper);margin-bottom:var(--s2)}
 footer ul{list-style:none;margin:0;padding:0}
 footer li a{display:inline-flex;align-items:center;min-height:44px;text-decoration:none}
@@ -564,3 +564,28 @@ html.is-playing body{padding-bottom:96px}
 .portal.is-charging{box-shadow:0 0 0 2px #86ecd255,0 0 calc(var(--c,0) * 40px) calc(var(--c,0) * 6px) #fff3e0aa}
 @media (max-width:420px){.brand{font-size:17px}.ico.sw{min-width:44px}.top-actions{gap:3px}}
 @media (max-width:359px){.brand{font-size:0;letter-spacing:0}.brand::before{content:"NF";font-size:20px}}
+
+/* Who made this: the owner's bio (content/about.md), a long read in one calm column */
+.about{background:var(--night-2);border-top:1px solid var(--night-line);padding:var(--s12) 0 var(--s16)}
+.ab-col{max-width:40rem;margin:0 auto}
+.ab-eyebrow{font-size:15px;letter-spacing:.08em;text-transform:uppercase;color:var(--brass-hi);margin-bottom:var(--s3)}
+.about h2{font-size:clamp(34px,2.6vw + 18px,56px);line-height:1.05;letter-spacing:-.015em;margin-bottom:var(--s6)}
+.ab-body{font-size:clamp(18px,.3vw + 17px,20px);line-height:1.7;color:#e6dcc9}
+.ab-body p{max-width:none;margin:0 0 1.15em}
+.ab-body h3{font-size:clamp(26px,1.4vw + 16px,36px);line-height:1.15;color:var(--paper);margin:var(--s8) 0 var(--s3)}
+.ab-body ul{margin:0 0 1.15em;padding-left:1.2em}
+.ab-body li{margin:0 0 .5em;padding-left:.2em}
+.ab-body li::marker{color:var(--brass)}
+.ab-body strong{color:var(--paper);font-weight:650}
+.ab-body em{color:var(--paper)}
+.ab-body a{color:var(--brass-hi);text-underline-offset:.2em;text-decoration-thickness:1px}
+.ab-body a:hover{color:var(--paper)}
+.ab-rule{border:0;height:1px;margin:var(--s6) auto;width:96px;background:linear-gradient(90deg,transparent,var(--brass),transparent);opacity:.7}
+.ab-wordmark{width:min(280px,70%);height:auto;margin:var(--s3) 0 0;opacity:.95}
+.ab-social ul{list-style:none;margin:var(--s6) 0 0;padding:var(--s4) 0 0;border-top:1px solid var(--night-line);display:flex;flex-wrap:wrap;gap:var(--s1) var(--s3)}
+.ab-social a{display:inline-flex;align-items:baseline;gap:8px;min-height:44px;align-items:center;text-decoration:none;color:var(--paper)}
+.ab-social a span{color:var(--muted);font-size:15px}
+.ab-social a:hover b{color:var(--brass-hi)}
+.ab-perma{margin-top:var(--s2);font-size:15px}
+.ab-perma a{color:var(--muted);display:inline-flex;align-items:center;min-height:44px}
+@media (max-width:760px){.about{padding:var(--s8) 0 var(--s12)}}

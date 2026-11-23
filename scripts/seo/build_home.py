@@ -46,7 +46,7 @@ def chrome_parts():
     return css, js
 
 ONPAGE = [("#welcome", "Where to go"), ("#start-here", "Start here"), ("#library", "The Library"), ("/playbook", "The Pattern Decoder"), ("/shadowroot", "The Root"),
-          ("#music", "The Listening Room"), ("#art", "The Portals"), ("#guide", "NFC guide"), ("#support", "Support the work"), ("/topics", "Topics A to Z")]
+          ("#music", "The Listening Room"), ("#art", "The Portals"), ("#guide", "NFC guide"), ("#about", "Who made this"), ("#support", "Support the work"), ("/topics", "Topics A to Z")]
 
 def chrome_html():
     onpage = "".join(f'<li class="nf-row"><a href="{h}"><span class="nf-dot" aria-hidden="true"></span><span class="nf-num">{i:02d}</span><span class="nf-vol">{t}</span></a></li>' for i, (h, t) in enumerate(ONPAGE))
@@ -58,6 +58,9 @@ def chrome_html():
             f'<div class="nf-onpage"><p class="nf-eyebrow" style="padding:14px 26px 0">On this page</p><ul class="nf-toc nf-toc-page">{onpage}</ul></div>'
             '<p class="nf-eyebrow" style="padding:14px 26px 0">Every book and page</p>'
             + CAT.toc("home") + f'<div class="nf-panel-foot">{CAT.FOOT}</div></nav></div>')
+
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+import about_content as AB   # the owner's bio, content/about.md
 
 MUSIC = json.loads((ROOT / "instruments/music/MANIFEST.json").read_text())
 
@@ -174,6 +177,17 @@ def main():
     ribbon = "".join(f"<span>{E(t)}</span>" for t in ribbon_titles) * 2
     first = books["longafter"]
 
+    # Who made this: the owner's full bio (content/about.md); the same text is the /about page (build_site.py)
+    wm = Image.open(ROOT / "design/brand/wordmark-white.png").convert("RGBA"); wm = wm.crop(wm.getbbox()); wm.thumbnail((640, 640), Image.LANCZOS)
+    MEDIA.mkdir(parents=True, exist_ok=True); wm.save(MEDIA / "wordmark.webp", "WEBP", quality=88, method=6)
+    ab_title, ab_body = AB.blocks()
+    ab_body = ab_body.replace("{WORDMARK}", AB.WORDMARK.format(w=wm.width, h=wm.height))
+    ab_social = "".join(f'<li><a href="{E(u)}" target="_blank" rel="noopener me"><b>{E(n)}</b> <span>{E(h)}</span></a></li>' for n, u, h in AB.SOCIAL)
+    about = (f'<section class="about" id="about" aria-labelledby="about-title" data-night="1"><div class="wrap"><article class="ab-col">'
+             f'<p class="ab-eyebrow">Who made this</p><h2 id="about-title">{E(ab_title)}</h2><div class="ab-body">{ab_body}</div>'
+             f'<nav class="ab-social" aria-label="Shae Stovell elsewhere"><ul>{ab_social}</ul></nav>'
+             f'<p class="ab-perma"><a href="/about">This story on its own page</a></p></article></div></section>')
+
     client = {"books": [{k: b[k] for k in ("slug", "title", "line", "img", "imgLg", "w", "h")} for b in d["books"]],
               "tools": [{k: t[k] for k in ("slug", "title", "line", "img")} for t in d["tools"]],
               "situations": d["situations"],
@@ -182,7 +196,7 @@ def main():
                         "t": [[t["title"], t["file"], round(t["duration"]), [sh["id"] for sh in MUSIC["shelves"]].index(t["shelf"])] for t in MUSIC["tracks"]]}}
     nav = [("books", "#library", "Books"), ("decoder", "/playbook", "Pattern Decoder"), ("root", "/shadowroot", "The Root"), ("music", "#music", "Music"), ("art", "#art", "Art"), ("nfc", "#guide", "NFC guide")]
     navhtml = "".join(f'<a href="{h}" data-nav="{k}">{t}</a>' for k, h, t in nav)
-    sheet_links = "".join(f'<a href="{h}">{t}</a>' for k, h, t in nav) + '<a href="/topics">Topics A to Z</a><a href="#support">Support the work</a>'
+    sheet_links = "".join(f'<a href="{h}">{t}</a>' for k, h, t in nav) + '<a href="/topics">Topics A to Z</a><a href="#about">Who made this</a><a href="#support">Support the work</a>'
 
     door_tiles = "".join(f'<a class="door-t" href="{dr["href"]}" data-logo="{dr["logo"]}"><img src="{logo_by[dr["logo"]]["img"]}" width="640" height="640" alt="" style="object-position:{logo_by[dr["logo"]]["pos"]}" decoding="async"{' fetchpriority="high"' if k == 0 else ''}><b>{E(dr["label"])}</b></a>' for k, dr in enumerate(d["doors"]))
     deck = "".join(f'<img src="{lg["img"]}" data-logo="{lg["id"]}" alt="" width="640" height="640" style="object-position:{lg["pos"]}" decoding="async">' for lg in d["logos"])
@@ -243,6 +257,8 @@ def main():
 <a class="card guide" href="{E(g["url"])}"><img src="{g["src"]}" width="600" height="852" alt="" loading="lazy" decoding="async"><span><img class="nfc-pos" src="{nfcpos}" width="640" height="632" alt="Where to hold the phone: near the top of the back on an iPhone (XR and later), the centre or top of the back on Android" loading="lazy" decoding="async"><span class="tag">Free guide</span><h3>{E(g["title"])}</h3><p class="muted">{E(g["line"])}</p><span class="btn">Read the guide</span></span></a>
 <div class="making"><p>In the making</p>{making}</div></div></div></section>
 
+{about}
+
 <section class="support" id="support" data-night="1"><div class="wrap"><div><h2 style="font-size:clamp(32px,2vw + 18px,48px)">Every book is free, and always will be.</h2>
 <p class="muted" style="margin-top:16px">If one found you at the right moment, you can leave something in the hat. Pay what you like, or nothing at all; it keeps the next one free for the next person.</p></div>
 <div class="pay">{pay}</div></div><span class="anchor" id="maker"></span></section>
@@ -251,6 +267,7 @@ def main():
 <div><h2>Books</h2><ul>{"".join(f'<li><a href="#shelf-{s["id"]}">{E(s["name"])}</a></li>' for s in d["shelves"])}<li><a href="#door">The bigger picture</a></li></ul></div>
 <div><h2>Tools and music</h2><ul><li><a href="/playbook">The Pattern Decoder</a></li><li><a href="/shadowroot">The Root</a></li><li><a href="/music">The Listening Room</a></li><li><a href="/topics">Topics A to Z</a></li></ul></div>
 <div><h2>Art</h2><ul><li><a href="/portals">The Portals</a></li><li><a href="/nfc/">NFC guide</a></li><li><a href="{E(d["tiktok"])}" target="_blank" rel="noopener">TikTok</a></li><li><a href="#support">Support the work</a></li></ul></div>
+<div><h2>The maker</h2><ul><li><a href="/about">Who made this</a></li><li><a href="{E(AB.INSTAGRAM)}" target="_blank" rel="noopener me">Instagram</a></li><li><a href="{E(AB.THREADS)}" target="_blank" rel="noopener me">Threads</a></li></ul></div>
 <p class="legal">Every book is free to share under <a href="https://creativecommons.org/licenses/by-nc-nd/4.0/">CC BY-NC-ND 4.0</a>: credit the author, no selling, no changes.</p></div></footer>"""
 
     # signature as a light PNG for the footer

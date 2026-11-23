@@ -67,7 +67,10 @@ def llms(sites):
              "went, a sourced record of power inside 34 faiths, and the Pattern Decoder (335 named tactics and 32 patterns). Everything is "
              "free to read, offline-friendly, and licensed CC BY-NC-ND 4.0 (share with credit; no selling; no edited copies).", "",
              "Every book below has a contents page and one plain HTML page per chapter, so you can cite the exact chapter. "
-             "Each page carries a short notice: these are educational resources, not legal, medical or psychological advice.", ""]
+             "Each page carries a short notice: these are educational resources, not legal, medical or psychological advice.", "",
+             "## Who made this", "",
+             f"- [Shae Stovell, in his own words]({S.DOMAIN}/about): " + __import__("about_content").plain_summary(),
+             "- Elsewhere: " + ", ".join(f"{n} {u}" for n, u, _ in __import__("about_content").SOCIAL), ""]
     names = {"faith": "The Sacred Divide", "children": "Playground Protectors", "feminine": "The Sovereign Divine Feminine",
              "fractal": "The Fractal", "fracture": "The Fracture", "wook": "The Festie Codex", "festival": "The Festie Bible"}
     jb = importlib.import_module("build_jsbook")
@@ -121,7 +124,7 @@ def hub_head(sites):
         items.append({"@type": "ListItem", "position": len(items) + 1, "url": p["url"], "name": p["title"]})
     ld = {"@context": "https://schema.org", "@graph": [
         {"@type": "WebSite", "@id": S.DOMAIN + "/#site", "url": S.DOMAIN + "/", "name": "Noble Father Creations",
-         "description": desc, "publisher": {"@id": S.ORG["@id"]}, "inLanguage": "en", "license": S.LICENSE_URL,
+         "description": desc, "publisher": {"@id": S.ORG["@id"]}, "creator": {"@id": S.PERSON["@id"]}, "inLanguage": "en", "license": S.LICENSE_URL,
          # the subjects people search for, each pointing at the page that explains it (homepage "Look up a pattern")
          "about": [{"@type": "Thing", "name": x["label"], "url": S.DOMAIN + x["href"]} for x in json.loads((S.ROOT / "design/hub-v18/data.json").read_text())["lookups"]],
          "keywords": "manipulation, narcissistic abuse, gaslighting, coercive control, love bombing, trauma bonding, emotional abuse, DARVO, silent treatment",
@@ -247,6 +250,72 @@ def topics():
     return len(order)
 
 
+ABOUT_CSS = """:root{color-scheme:dark;--ink:#16110d;--night:#0c1112;--line:#1f2a28;--paper:#ece2cf;--muted:#cbbda4;--brass:#c9a24a;--brass-hi:#e7c77d}
+*{box-sizing:border-box}body{margin:0;background:var(--night);color:#e6dcc9;font:400 clamp(18px,.3vw + 17px,20px)/1.7 'Public Sans',system-ui,sans-serif;-webkit-font-smoothing:antialiased}
+img{display:block;max-width:100%;height:auto}a{color:var(--brass-hi);text-underline-offset:.2em;text-decoration-thickness:1px}a:hover{color:var(--paper)}
+:focus-visible{outline:2px solid var(--brass-hi);outline-offset:3px;border-radius:3px}
+.bar{display:flex;justify-content:space-between;align-items:center;gap:16px;max-width:72rem;margin:0 auto;padding:8px 16px}
+.bar a{display:inline-flex;align-items:center;min-height:44px;font-size:15px;color:var(--muted);text-decoration:none}.bar .leave{color:var(--paper);border:1px solid #3a4644;border-radius:999px;padding:0 16px}
+.hero{max-width:72rem;margin:0 auto 0;padding:0 16px}.hero img{width:100%;border-radius:12px}
+main{max-width:40rem;margin:0 auto;padding:48px 16px 96px}
+.eyebrow{font-size:15px;letter-spacing:.08em;text-transform:uppercase;color:var(--brass-hi);margin:0 0 24px}
+h1,h2,h3{font-family:'Gloock',Georgia,serif;font-weight:400;color:var(--paper);text-wrap:balance}
+h1{font-size:clamp(36px,2.8vw + 20px,60px);line-height:1.05;letter-spacing:-.015em;margin:0 0 48px}
+h2{font-size:clamp(26px,1.4vw + 16px,36px);line-height:1.15;margin:64px 0 24px}
+p{margin:0 0 1.15em;text-wrap:pretty}ul{margin:0 0 1.15em;padding-left:1.2em}li{margin:0 0 .5em}li::marker{color:var(--brass)}
+strong,em{color:var(--paper)}strong{font-weight:650}
+.ab-rule{border:0;height:1px;margin:48px auto;width:96px;background:linear-gradient(90deg,transparent,var(--brass),transparent);opacity:.7}
+.ab-wordmark{width:min(280px,70%);margin:24px 0 0}
+.social{list-style:none;margin:48px 0 0;padding:32px 0 0;border-top:1px solid var(--line);display:flex;flex-wrap:wrap;gap:8px 24px}
+.social a{display:inline-flex;align-items:center;gap:8px;min-height:44px;text-decoration:none;color:var(--paper)}.social span{color:var(--muted);font-size:15px}
+footer{max-width:40rem;margin:0 auto;padding:24px 16px 96px;color:var(--muted);font-size:15px;border-top:1px solid var(--line)}footer a{color:var(--muted)}"""
+
+
+def about():
+    """/about: the owner's bio in full (content/about.md), with ProfilePage + Person schema. The homepage carries the same text."""
+    import about_content as AB
+    from PIL import Image
+    title_h1, body = AB.blocks()
+    media = HUB / "media/v18"
+    wm = Image.open(media / "wordmark.webp")                      # written by build_home.py
+    body = body.replace("{WORDMARK}", AB.WORDMARK.format(w=wm.width, h=wm.height)).replace("<h3>", "<h2>").replace("</h3>", "</h2>")   # h1 here, so sections are h2
+    hero = Image.open(S.ROOT / "design/brand/noble-father-header.png").convert("RGB")
+    hero.thumbnail((1600, 1600), Image.LANCZOS); hero.save(media / "brand-header-1600.webp", "WEBP", quality=82, method=6)
+    url = f"{S.DOMAIN}/about"
+    title = "Who Made This: Shae Stovell, Noble Father Creations"
+    desc = ("Shae Stovell, father of four, on why he wrote fourteen free books and the Pattern Decoder on manipulation "
+            "and coercive control, and why they will always be free.")
+    menu = seal_menu()
+    ld = {"@context": "https://schema.org", "@graph": [
+        {"@type": ["ProfilePage", "AboutPage"], "@id": url, "url": url, "name": title, "headline": S.plain(title_h1), "description": desc,
+         "inLanguage": "en", "isPartOf": {"@id": S.DOMAIN + "/#site"}, "dateModified": S.TODAY, "datePublished": "2026-11-23",
+         "mainEntity": {"@id": S.PERSON["@id"]}, "author": {"@id": S.PERSON["@id"]},
+         "primaryImageOfPage": f"{S.DOMAIN}/media/v18/brand-header-1600.webp", "license": S.LICENSE_URL},
+        S.crumbs_ld([("Noble Father Creations", S.DOMAIN + "/"), ("Who made this", url)]),
+        dict(S.PERSON, image=f"{S.DOMAIN}/media/v18/brand-header-1600.webp", description=AB.plain_summary()), S.ORG]}
+    social = "".join(f'<li><a href="{S.esc(u)}" target="_blank" rel="noopener me"><b>{S.esc(n)}</b> <span>{S.esc(h)}</span></a></li>' for n, u, h in AB.SOCIAL)
+    fonts = ("@font-face{font-family:'Gloock';font-style:normal;font-weight:400;font-display:swap;src:url(/f/gloock-400-normal.woff2) format('woff2')}"
+             "@font-face{font-family:'Public Sans';font-style:normal;font-weight:100 900;font-display:swap;src:url(/f/public-sans-100-900-normal.woff2) format('woff2')}")
+    page = ("<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n"
+            f"<title>{S.esc(title)}</title>\n<meta name=\"description\" content=\"{S.esc(desc)}\">\n<meta name=\"author\" content=\"Shae Stovell\">\n<link rel=\"canonical\" href=\"{url}\">\n"
+            f'<meta property="og:type" content="profile">\n<meta property="profile:first_name" content="Shae">\n<meta property="profile:last_name" content="Stovell">\n'
+            f'<meta property="og:site_name" content="Noble Father Creations">\n<meta property="og:title" content="{S.esc(title)}">\n'
+            f'<meta property="og:description" content="{S.esc(desc)}">\n<meta property="og:url" content="{url}">\n<meta property="og:image" content="{S.DOMAIN}/og.png">\n'
+            f'<meta property="og:image:width" content="1200">\n<meta property="og:image:height" content="630">\n'
+            f'<meta property="og:image:alt" content="Noble Father Creations: free books by Shae Stovell">\n<meta name="twitter:card" content="summary_large_image">\n'
+            + "".join(f'<link rel="me" href="{S.esc(u)}">\n' for _, u, _ in AB.SOCIAL) +
+            f'<link rel="preload" href="/f/gloock-400-normal.woff2" as="font" type="font/woff2" crossorigin>\n'
+            f'<meta name="theme-color" content="#0c1112">\n<style>{fonts}{ABOUT_CSS}</style>\n{menu[0]}\n'
+            f'<script type="application/ld+json">{S.ld_json(ld)}</script>\n</head>\n<body>\n'
+            '<header><div class="bar"><a href="/">&larr; Noble Father Creations</a><a class="leave" href="https://www.google.com/search?q=weather" onclick="location.replace(this.href);return false">Leave now</a></div>\n'
+            '<div class="hero"><img src="/media/v18/brand-header-1600.webp" width="' + str(hero.width) + '" height="' + str(hero.height) + '" alt="Noble Father Creations: the hatted figure holding a glowing chip" fetchpriority="high"></div></header>\n'
+            f'<main>\n<p class="eyebrow">Who made this</p>\n<h1>{S.esc(title_h1)}</h1>\n{body}\n'
+            f'<nav aria-label="Shae Stovell elsewhere"><ul class="social">{social}</ul></nav>\n</main>\n'
+            f'<footer><p>{S.LICENSE_LINE}</p><p><a href="/">All the free books</a> · <a href="/playbook">The Pattern Decoder</a> · <a href="/topics">Topics A to Z</a></p></footer>\n'
+            + menu[1] + "\n" + menu[2] + '\n</body>\n</html>\n')
+    S.write(HUB / "about.html", page)
+
+
 def main():
     sites = json.loads((S.ROOT / "sites.json").read_text())
     maps = robots()
@@ -254,9 +323,12 @@ def main():
     n = llms(sites)
     hub_head(sites)
     nt = topics()
+    about()
     sm = S.read(HUB / "sitemap.xml")
-    if "/topics<" not in sm:
-        S.write(HUB / "sitemap.xml", sm.replace("</urlset>", f"  <url><loc>{S.DOMAIN}/topics</loc><lastmod>{S.TODAY}</lastmod></url>\n</urlset>"))
+    for path in ("/topics", "/about"):
+        if f"{path}<" not in sm:
+            sm = sm.replace("</urlset>", f"  <url><loc>{S.DOMAIN}{path}</loc><lastmod>{S.TODAY}</lastmod></url>\n</urlset>")
+    S.write(HUB / "sitemap.xml", sm)
     print(f"topics: {nt}")
     print(f"robots.txt: {len(maps)} sitemaps; llms.txt: {n} lines; hub head + og.png written")
 

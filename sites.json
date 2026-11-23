@@ -122,10 +122,11 @@
       "hub/robots.txt",
       "hub/sitemap.xml",
       "hub/topics.html",
+      "hub/about.html",
       "hub/netlify.toml",
       "hub/netlify/"
     ],
-    "buildCommand": "python3 scripts/seo/build_home.py && python3 scripts/seo/build_site.py && python3 scripts/visit-counter.py hub/catalogue-redesign.html hub/topics.html",
+    "buildCommand": "python3 scripts/seo/build_home.py && python3 scripts/seo/build_site.py && python3 scripts/visit-counter.py hub/catalogue-redesign.html hub/topics.html hub/about.html",
     "lastDeploy": {
       "id": "6b03cdefcbd0a87d8db830bc",
       "date": "2026-11-23",

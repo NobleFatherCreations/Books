@@ -33,11 +33,17 @@ LICENSE_LINE = ("&copy; 2026 Shae Stovell &middot; Free forever. Share it freely
 TODAY = _dt.date.today().isoformat()
 TODAY_HUMAN = _dt.date.today().strftime("%B %-d, %Y")
 
-PERSON = {"@type": "Person", "@id": DOMAIN + "/#shae", "name": AUTHOR, "alternateName": "Dapper Dad", "url": DOMAIN + "/",
-          "sameAs": ["https://www.tiktok.com/@noblefathercreatorsource"], "worksFor": {"@id": DOMAIN + "/#org"}}
+_SOCIAL = ["https://www.instagram.com/dapperdad_nfc/", "https://www.threads.net/@dapperdad_nfc", "https://www.tiktok.com/@noblefathercreatorsource"]
+PERSON = {"@type": "Person", "@id": DOMAIN + "/#shae", "name": AUTHOR, "alternateName": ["Dapper Dad", "dapperdad_nfc"],
+          "url": DOMAIN + "/about", "jobTitle": "Author and maker",
+          "description": "Father of four and founder of Noble Father Creations. Writes free books and tools on manipulation, "
+                         "coercive control and staying safe, including the Pattern Decoder.",
+          "knowsAbout": ["manipulation", "coercive control", "narcissistic abuse", "gaslighting", "post-separation abuse",
+                         "spiritual abuse", "festival safety", "NFC technology", "resin art"],
+          "sameAs": _SOCIAL, "worksFor": {"@id": DOMAIN + "/#org"}}
 ORG = {"@type": "Organization", "@id": DOMAIN + "/#org", "name": "Noble Father Creations", "url": DOMAIN + "/",
-       "founder": {"@id": DOMAIN + "/#shae"},
-       "sameAs": ["https://www.tiktok.com/@noblefathercreatorsource"]}
+       "logo": DOMAIN + "/og.png", "founder": {"@id": DOMAIN + "/#shae"},
+       "sameAs": _SOCIAL}
 
 
 # ---------------------------------------------------------------- small helpers

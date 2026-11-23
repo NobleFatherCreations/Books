@@ -87,6 +87,9 @@
 # given on a card, kept as real redirects (301) so there is one canonical
 # path per product rather than two addresses serving identical content.
 /portal        /portals                                              301
+# The owner's bio lives at /about (hub/about.html, built by scripts/seo/build_site.py).
+/who-made-this  /about                                               301
+/author        /about                                               301
 /seals         /press                                                301
 
 /festival      https://noble-festie-bible.netlify.app/                200
