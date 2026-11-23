@@ -4,41 +4,41 @@ question: How do abusive exes use children after separation?
 seo: Post-Separation Abuse and Child Custody: Children as Leverage
 short: In post-separation abuse, child custody and contact are the most common channels for control. It shows up at handovers, in questions put to children, in running you down to them, and in games with the schedule. Your children's wellbeing matters more than winning any single exchange.
 ---
-If you have children with the person you left, they're probably the one channel you can't close. You'll see each other at handovers. You'll need to agree on schools and doctors. And the children carry messages, gifts and moods between two homes.
+Why does everything to do with the children feel like a fight you never agreed to? Because if you have children with the person you left, they're probably the one channel you can't close. You'll see each other at handovers. You'll have to agree on schools and doctors. And the children carry messages, gifts and moods between two homes.
 
-That makes child custody and contact the most common route for post-separation abuse to continue. It also makes this the chapter that needs the most care, because the wrong response can hurt the children themselves.
+That's why, in many places, child custody and contact become the main road for post-separation abuse: control that carries on after you've gone ([What is post-separation abuse?](ch:what-is-post-separation-abuse) has the full picture). It also makes this the chapter that needs the most care, because the wrong response can hurt the children themselves.
 
 If you're worried about a child's safety right now, contact the police or your local child protection service. If you're in danger yourself, go to [If you're not safe right now](ch:if-youre-not-safe-right-now).
 
 ## How do abusive exes use children after separation?
 These are the patterns parents and researchers describe most often.
 
-**At handovers.** Long conversations at the door. Questions, accusations, comments in front of the children. Arriving late, early, or not at all.
+**At handovers.** Long conversations at the door. Questions, accusations, comments in front of the children. Turning up late, early, or not at all.
 
-**Through questioning.** Asking the children where you went, who visited, what you said, whether you have a new partner. Children become reporters without knowing it.
+**Through questioning.** Asking the children where you went, who visited, what you said, whether you're seeing someone. Children become reporters without knowing it.
 
-**Through running you down.** Telling the children you broke up the family, that you're unstable, that you don't love them, or that they'd be happier with the other parent. Sometimes it's said outright; sometimes it's a sigh or a look.
+**Through running you down.** Telling the children you broke up the family, that you're unstable, that you don't love them, or that they'd be happier at the other house. Sometimes it's said outright. Sometimes it's a sigh or a look.
 
-**Through the schedule.** Last-minute changes that wreck your plans. Rigid insistence on every minute when it suits them, and ignoring the plan when it doesn't. Holidays and birthdays used as bargaining chips. See [Holidays and the first year's calendar](ch:holidays-and-the-first-year).
+**Through the schedule.** Last-minute changes that wreck your plans. Strict about every minute when it suits them, and ignoring the plan when it doesn't. Holidays and birthdays used as bargaining chips. See [Holidays and the first year's calendar](ch:holidays-and-the-first-year).
 
 **Through gifts and promises.** Big presents, special trips, a pet, or promises that the children can live with them full time, often timed around court.
 
-**Through medical, school and activity decisions.** Refusing consent for treatment or a passport. Contacting teachers and doctors with stories about you. Turning up at your parents' evening or your child's match.
+**Through medical, school and activity decisions.** Refusing consent for treatment or a passport. Contacting teachers and doctors with stories about you. Turning up at your parents' evening or your child's match with a brand-new passion for the school calendar.
 
-**Through the courts.** Applications to change arrangements, often repeated. See [Systems abuse and litigation abuse](ch:systems-abuse) and [Divorce and separation proceedings](ch:divorce-and-separation-proceedings).
+**Through the courts.** Applications to change arrangements, often over and over. See [Systems abuse and litigation abuse](ch:systems-abuse) and [Divorce and separation proceedings](ch:divorce-and-separation-proceedings).
 
-The Decoder describes the core moves: [children used as leverage](/playbook/children-as-leverage), [triangulation](/playbook/triangulation) when a child is put between you, and [parentification](/playbook/parentification) when a child is made to carry an adult's feelings.
+The Decoder names the core moves: [Children as Leverage](/playbook/children-as-leverage), [Triangulation](/playbook/triangulation) (when a child is put between you), and [Parentification](/playbook/parentification) (when a child is made to carry an adult's feelings).
 
-> The aim of the tactic is to provoke you. The children are watching what you do next.
+> The tactic is built to provoke you. The children are watching what you do next.
 
 ## Is this post-separation abuse, or just a hard co-parent?
-Many co-parents are difficult. They're late, disorganised, or bad at communicating. That's frustrating, not abusive. The difference is pattern and purpose. Ask whether the difficulty keeps landing where it hurts you most, and whether it continues when it costs the children. [Abuse, or a hard breakup?](ch:abuse-or-a-hard-breakup) has a fair test.
+Plenty of co-parents are hard work. Late, disorganised, allergic to answering emails. That's maddening, but it isn't abuse. The difference is pattern and purpose. Ask whether the trouble keeps landing where it hurts you most, and whether it carries on even when it costs the children. [Abuse, or a hard breakup?](ch:abuse-or-a-hard-breakup) has a fair test.
 
 ## What does this do to children?
-Research on coercive control finds that children are affected directly. They're never only bystanders. Children can become anxious, withdrawn, angry or clingy. Some feel they have to take care of a parent. Some start repeating things that are plainly someone else's words. [How children react, and what helps them](ch:how-children-react) covers the signs by age and what helps.
+Research on coercive control finds that children are affected directly. They're never only bystanders. Children can become anxious, withdrawn, angry or clingy. Some feel they have to look after a parent. Some start repeating things that are plainly someone else's words. [How children react, and what helps them](ch:how-children-react) covers the signs by age and what helps.
 
 ## What should I do?
-**Protect the children first, and the argument last.** Matching hostility, or using the children to carry messages or gather information in return, harms them in the same way, whoever starts it.
+**Protect the children first, and the argument last.** Matching hostility, or using the children to carry messages or gather information back, harms them in the same way, whoever started it.
 
 **Make handovers short and dull.** Hello, the bag, goodbye. If handovers are where things go wrong, change how they happen: school handovers, a public place, a third person, or a contact centre. See [Handovers](ch:handovers).
 
@@ -46,39 +46,45 @@ Research on coercive control finds that children are affected directly. They're 
 
 **Think about parallel parenting.** When cooperation isn't possible, each parent runs their own home with minimal contact. See [Co-parenting or parallel parenting?](ch:co-parenting-or-parallel-parenting).
 
-**Keep a record.** Late handovers, cancelled visits, things the children report, messages. Write down what the child said in their own words, without asking leading questions. See [What to document and how](ch:what-to-document-and-how).
+**Keep a record.** Late handovers, cancelled visits, things the children report, messages. Write down what your child said in their own words, without asking leading questions. See [What to document and how](ch:what-to-document-and-how).
 
-**Don't interrogate the children.** Questions like "What did Daddy say about me?" put them in the middle. Let them talk; listen; write it down later.
+**Don't interrogate the children.** Questions like "What did Daddy say about me?" put them in the middle. Let them talk, listen, and write it down later.
 
-**Get advice before court.** Family courts vary widely in how they see coercive control. See [Family court, honestly](ch:family-court-honestly).
+**Get advice before court.** Family courts vary a lot in how they see coercive control. See [Family court, honestly](ch:family-court-honestly).
+
+::: bridge silence:the-children-as-leverage
+If you're a dad being kept from your children, [The Silence](/silence/the-children-as-leverage) is another book in this library, written for you. It looks at this same pattern from a father's side.
+:::
 
 ## When cruel words come home with your child
-Stay calm. Don't attack the other parent. Correct the fact gently, and tell the child it's not their job to sort out grown-up problems:
+Stay calm. Don't attack the other parent. Correct the fact gently, and tell your child it's not their job to sort out grown-up problems:
 
 > **Say:** "I can see that's confusing. That isn't true, and you don't need to worry about it. Grown-ups sort out grown-up things. I love you, and that won't change."
 
 [When your child is pulled into it](ch:when-your-child-is-pulled-in) goes deeper, including what to do if a child starts refusing to see you, or refusing to see the other parent.
 
 ## Common tactics, by age
-The tactics shift as children grow:
+The tactics change as children grow:
 
-- **Babies and toddlers:** fights over feeding, sleep and routines; refusing to follow the baby's schedule; handovers made long and upsetting.
-- **Primary school age:** questions about your home ("Who stays over? What did Mum buy?"); messages passed through the child; promises of treats if they choose the other house.
+- **Babies and toddlers:** fights over feeding, sleep and routines; ignoring the baby's schedule; handovers made long and upsetting.
+- **Primary school age:** questions about your home ("Who stays over? What did Mum buy?"); messages passed through the child; treats promised if they pick the other house.
 - **Teenagers:** treating them as a confidant; sharing adult details of the separation; offering freedoms you won't allow; recruiting them to report back on you.
 
-Knowing the pattern for your child's age helps you spot it earlier, and answer it calmly.
+Knowing the pattern for your child's age helps you spot it sooner, and answer it calmly.
 
 ## Gifts, promises and the "fun parent"
 Some parents use gifts and freedom to pull children towards them: the expensive phone, the late bedtime, the holiday they can't afford, the promise of a pet "if you live with me."
 
-You can't match it and you don't need to. Children do notice, in time, who keeps them safe, fed and steady. Keep your own house rules simple and consistent. If a gift arrives that undermines safety, like a phone with tracking on or an unsuitable game, deal with that one thing calmly and without blaming the child.
+You can't match it, and you don't need to. In time, children notice who keeps them safe, fed and steady. Keep your own house rules simple and the same each week.
+
+If a gift arrives that puts your child at risk, like a phone with tracking switched on or a game that isn't suitable, deal with that one thing calmly. Don't blame your child for it.
 
 ## When your child comes home upset: the first hour
-- **Let them land.** A snack, a quiet space, their own room. Don't ask questions straight away.
+- **Let them land.** A snack, a quiet corner, their own room. No questions straight away.
 - **Be available, not intense.** "I'm in the kitchen if you want me."
 - **If they talk, listen.** Repeat back what you hear. "That sounded confusing."
 - **Don't criticise the other parent,** even if what they say makes you furious.
-- **Write it down later,** in their words, with the date. Don't write it in front of them.
+- **Write it down later,** in their words, with the date. Not in front of them.
 
 If they tell you about harm, or seem frightened of going back, see "When should I involve professionals?" below.
 
@@ -99,7 +105,7 @@ If they tell you about harm, or seem frightened of going back, see "When should 
 ## Looking after yourself while they're away
 Handovers and empty weekends can be the hardest part. The house is too quiet. You imagine what's being said about you.
 
-Plan something for the first evening: a friend, a walk, a film, a meal out. Keep your record, then close it. Remind yourself that most children come back to the safe home and settle. See [Holidays and the first year](ch:holidays-and-the-first-year) for the days that hurt most.
+Plan something for the first evening: a friend, a walk, a film, a meal out. Write up your record, then close it. Most children come back to the safe home and settle. See [Holidays and the first year](ch:holidays-and-the-first-year) for the days that hurt most.
 
 ## When should I involve professionals?
 If a child talks about being hurt, frightened, or asked to keep secrets, or if their behaviour changes sharply, speak to your child's doctor or school, and get legal advice. If you believe a child is at immediate risk, contact the police or child protection services.
@@ -110,7 +116,7 @@ If a child talks about being hurt, frightened, or asked to keep secrets, or if t
 ## Being honest about what reaches the children
 *An honest check, just for you. This is about what's in your hands now, not blame for what was done to you.*
 
-When you're under attack, it's easy for some of it to spill towards the children without meaning to. Ask yourself:
+When you're under attack, some of it can spill towards the children without you meaning it to. Ask yourself:
 
 - Do I ask the children questions about the other home that are more for me than for them?
 - Have they heard me criticise their other parent, on the phone or to a friend?
@@ -124,15 +130,19 @@ If any answer is yes, you're not a bad parent. You're a parent under strain. Cho
 ## A handover that didn't become a fight
 *This example is made up, built from patterns many people describe.*
 
-Every Sunday, Ben's son came home with questions: "Is it true you spent all our money? Dad says you don't want me there." Ben used to argue back, which made his son cry. Then he changed his approach. He answered simply: "That's not true, and you don't need to worry about it. I love having you here." He stopped asking about the weekend and let his son talk when he was ready. He wrote down what his son said, later, in his own words.
+Every Sunday, Ben's son came home with questions. "Is it true you spent all our money? Dad says you don't want me there." Ben used to argue back, and his son would end up in tears.
+
+Then he changed his approach. He answered simply: "That's not true, and you don't need to worry about it. I love having you here." He stopped asking about the weekend and let his son talk when he was ready. Later, on his own, he wrote down what his son had said, in his son's words.
 
 Over months the questions slowed. His son started telling him about football instead.
 :::
 
 ::: action
 ## Your one sentence
-Choose one calm sentence to use when your child repeats something unkind about you. Practise it until it comes easily.
+Open your notes app and type one calm sentence for the next time your child repeats something unkind about you. Something like "That isn't true, and you don't need to worry about it." Say it out loud once, so it's there when you need it.
 :::
+
+When you're ready, [Handovers](ch:handovers) is where a lot of this plays out, and where small changes make the biggest difference.
 
 ## Sources
 - Katz, E. (2022). *Coercive Control in Children's and Mothers' Lives.* Oxford University Press.
@@ -146,14 +156,16 @@ question: What is post-separation financial abuse, and what can I do about it?
 seo: Post-Separation Financial Abuse: Signs and What to Do
 short: Post-separation financial abuse uses money to keep control after a break-up: child support paid late or not at all, debts run up in your name, assets hidden, a house sale dragged out, or your work disrupted. Keep a record, check your credit, and use the enforcement routes that exist.
 ---
-You've left, but you still share a mortgage. Or a car loan. Or a child. And every month, money becomes the place where the fight continues.
+You've left, but you still share a mortgage. Or a car loan. Or a child. And every month, money is where the fight carries on. The payment turns up three days late and a bit short, with a paragraph of commentary attached.
 
 ## What is post-separation financial abuse?
-It is using money to control, punish or exhaust a former partner. Many laws now recognise it. In England and Wales, economic abuse is part of the legal definition of domestic abuse, and it covers former partners.
+Post-separation financial abuse is when a former partner uses money to control you, punish you or wear you down after the relationship has ended. It can look like child support paid late or not at all, debts run up in your name, hidden assets, a shared home held hostage, or attacks on your job.
 
-Common forms:
+It's recognised more and more. In England and Wales, economic abuse is part of the legal definition of domestic abuse, and it covers former partners.
 
-- **Child support** paid late, short, or only after repeated chasing, especially when you need it most.
+The common forms:
+
+- **Child support** paid late, short, or only after endless chasing, especially when you need it most.
 - **Debts in your name** that you didn't agree to, known as coerced debt. Loans, credit cards, phone contracts, utility bills.
 - **Joint accounts and loans** emptied, or used to run up new debt you're both liable for.
 - **Hidden income or assets**, especially before a financial settlement. See [Divorce and separation proceedings](ch:divorce-and-separation-proceedings).
@@ -162,12 +174,12 @@ Common forms:
 - **Tax and benefits sabotage:** false claims, refusing to sign forms, reporting you to the authorities.
 - **Expensive litigation** that drains your savings. See [Systems abuse and litigation abuse](ch:systems-abuse).
 
-The Decoder describes the patterns: [financial control](/playbook/financial-control), [financial enmeshment](/playbook/financial-enmeshment) when your money is tangled with theirs, and [financial dependence by design](/playbook/financial-dependence-by-design).
+The Decoder names the patterns: [Financial Control](/playbook/financial-control), [Financial Enmeshment](/playbook/financial-enmeshment) (when your money is tangled up with theirs), and [Financial Dependence by Design](/playbook/financial-dependence-by-design).
 
-> Notice when money arrives late, as well as how much. Late payment that lands before a hearing or a holiday is rarely an accident.
+> Notice when money arrives late, as well as how much. Late payment that lands just before a hearing or a holiday is rarely an accident.
 
 ## How do I tell financial abuse from an ordinary money dispute?
-Real disputes over money happen in calm separations too: what the house is worth, who keeps the pension, what's fair. The pattern worth naming is when money trouble keeps arriving at the moments it hurts most, and keeps going after agreements are made.
+Calm separations argue about money too: what the house is worth, who keeps the pension, what's fair. The pattern worth naming is money trouble that keeps arriving at the moments it hurts most, and keeps going after agreements are made.
 
 ## What money records should I keep?
 - Each payment due and each payment made: date, amount, and how late.
@@ -178,30 +190,23 @@ Real disputes over money happen in calm separations too: what the house is worth
 See [What to document and how](ch:what-to-document-and-how) for a simple format.
 
 ## My ex won't pay child support. What can I do?
-Most countries have a government child support service that can calculate payments and collect them, taking money from wages or bank accounts if needed:
+You don't have to negotiate money with the person you left. Most countries have a government child support service that can work out what's owed and collect it, taking money from wages or bank accounts if needed.
 
-- **United States:** each state has a child support enforcement agency.
-- **United Kingdom:** the Child Maintenance Service, including a "collect and pay" option where it collects the money for you.
-- **Australia:** Services Australia's Child Support.
-- **Canada:** each province runs a maintenance enforcement program.
+- **United Kingdom (outside Northern Ireland):** the Child Maintenance Service works out what's owed. You choose Direct Pay, where your ex pays you, or Collect and Pay, where the service collects it for you.
+- **If there's been domestic abuse (UK):** tell the Child Maintenance Service. The application fee is waived, and you can go straight to Collect and Pay so you never deal with your ex about money. Collection fees still apply.
+- **United States:** each state has a child support agency. It can set an order and collect payments through wage withholding, and can take steps like intercepting tax refunds when payments are missed.
+- **Australia:** Services Australia's Child Support handles assessments and collection.
+- **Canada:** each province runs a family responsibility or maintenance enforcement office.
 - **Ireland:** maintenance is set by the District Court, which can order deductions from earnings.
 
-Using the official service also means you don't have to deal with them directly about money.
+There will be forms, and some will ask for the same thing four times. It's still worth it. An official service keeps money out of your messages, and gives you a record if payments stop. If money still comes with contact, find out this week how to move it over.
 
 ## What about coerced debt?
-Get your credit report from each credit agency. It's free in most countries. Look for accounts you didn't open or agree to. You can dispute them with the lender and the credit agency, and in some places a police report or a domestic abuse service's letter helps. In the UK, Surviving Economic Abuse has guidance. In the US, the Consumer Financial Protection Bureau explains how to dispute errors.
+Get your credit report from each credit agency. It's free in most countries. Look for accounts you didn't open or agree to.
 
-## How child support services work
-You don't have to negotiate money with the person you left. Official services can calculate and collect it.
+You can dispute them with the lender and the credit agency. In some places a police report or a letter from a domestic abuse service helps. In the UK, Surviving Economic Abuse has guidance. In the US, the Consumer Financial Protection Bureau explains how to dispute errors.
 
-- **United Kingdom (outside Northern Ireland):** the Child Maintenance Service can calculate what's owed. You can choose Direct Pay, where they pay you directly, or Collect and Pay, where the service collects it. If there's been domestic abuse, tell them. The application fee is waived, and you can go straight to Collect and Pay so you never deal with them directly. Collection fees still apply.
-- **United States:** each state has a child support agency. It can set an order and collect payments through wage withholding, and can take steps like intercepting tax refunds when payments are missed.
-- **Australia:** Services Australia handles child support assessments and collection.
-- **Canada:** each province has a family responsibility or maintenance enforcement office.
-
-Going through an official service keeps money out of your messages, and gives you a record if payments stop.
-
-## Hidden income and self-employment
+## What if they're hiding income?
 People who are self-employed, paid in cash, or able to move money through a business can make their income look smaller.
 
 - Note what you know: their lifestyle, business, property, cars, holidays.
@@ -211,12 +216,23 @@ People who are self-employed, paid in cash, or able to move money through a busi
 You don't need proof to raise it. You need to say what you know and ask them to look.
 
 ## Joint accounts and the mortgage after separation
-- **Joint accounts:** either person can empty them. Get advice about freezing or closing them, and move your income to an account in your name.
+- **Joint accounts:** either of you can empty them. Get advice about freezing or closing them, and move your income to an account in your name.
 - **Joint debts:** you may each be liable for the whole amount. Tell lenders you've separated and ask what can be done.
-- **The mortgage or lease:** stopping payments can damage both your credit records and risk the home. Get advice before you stop paying, even if they have.
+- **The mortgage or lease:** stopping payments can damage both your credit records and put the home at risk. Get advice before you stop paying, even if they have.
+
+## If you ran a business together
+A shared business can tie you to the person you left long after the relationship ends.
+
+- Get legal and accountancy advice about your options: buying them out, being bought out, closing the business or selling it.
+- Secure access to accounts, passwords and records now.
+- Keep a copy of financial records, as they may be needed to show what the business is worth.
+- If you're a director or partner, find out what you're personally liable for.
+- Don't sign anything under pressure.
 
 ## Money abuse through the courts
-Some people use court costs as a weapon: making repeated applications you have to defend, refusing to settle, or dragging out the sale of a house. Courts can order one side to pay the other's costs, and can limit repeated applications. See [Systems abuse and litigation abuse](ch:systems-abuse).
+Some people use court costs as a weapon. They make repeated applications you have to defend, refuse to settle, or drag out the sale of a house.
+
+In many places a court can order one side to pay the other's costs, and can limit repeated applications, but the rules depend on where you live. See [Systems abuse and litigation abuse](ch:systems-abuse), and [Where to find the right body](ch:where-to-find-the-right-body) for who to ask.
 
 ## Where to get help
 - **United Kingdom:** Surviving Economic Abuse is a charity focused on this problem, with guidance on debts, banks and coerced debt.
@@ -227,10 +243,10 @@ Some people use court costs as a weapon: making repeated applications you have t
 - Open an account in your name only, at a bank you didn't share.
 - Remove yourself from joint accounts where you can, or ask the bank to require both signatures.
 - Change passwords and security answers on every financial account.
-- Ask lenders to note that you're a victim of economic abuse; many banks have specialist teams.
+- Ask lenders to note that you're a victim of economic abuse. Many banks have specialist teams.
 - Get advice before you stop paying anything in joint names, because you may both be liable.
 
-[Untangling: the house, the car, the accounts and the paperwork](ch:untangling-the-paperwork) covers the longer job of separating finances. [Money from zero](ch:money-from-zero) covers rebuilding.
+Separating your finances is a longer job, and [Money from zero](ch:money-from-zero) covers rebuilding once the worst is untangled.
 
 *The Sovereign Divine Feminine* shows how paperwork and money become a cage inside the relationship in [The Administrative Cage](/feminine/the-administrative-cage#core-concept).
 
@@ -238,22 +254,19 @@ Some people use court costs as a weapon: making repeated applications you have t
 ## When the payments stopped
 *This example is made up, built from patterns many people describe.*
 
-For a year, Harriet's ex paid child support late, short, or with a nasty message attached. She switched to the official collection service. It took a few weeks to set up. After that, the money came through the service, the messages stopped coming with it, and when he missed two payments, the service took action without her having to contact him.
+For a year, Harriet's ex paid child support late, short, or with a nasty message attached. She switched to the official collection service, and it took a few weeks to set up.
+
+After that, the money came through the service and the messages stopped coming with it. When he missed two payments, the service took action without her having to contact him.
 
 She still had less money than she needed. But money was no longer something he could hold over her every month.
 :::
 
-## Take the money out of the messages
-If money still comes with contact, find out this week how to move it to an official service.
+::: action
+## Both names on it
+Grab a pen and list every account, loan, bill and contract that still has both your names on it. Give it three minutes and write whatever you remember. Keep the list somewhere they can't see it.
+:::
 
-## If you ran a business together
-A shared business can tie you to the person you left long after the relationship ends.
-
-- Get legal and accountancy advice about your options: buying them out, being bought out, closing the business or selling it.
-- Secure access to accounts, passwords and records now.
-- Keep a copy of financial records, as they may be needed to show the business's value.
-- If you're a director or partner, find out what you're personally liable for.
-- Don't sign anything under pressure.
+When you've got the energy, [Untangling: the house, the car, the accounts and the paperwork](ch:untangling-the-paperwork) takes that list one item at a time.
 
 ## Sources
 - Domestic Abuse Act 2021 (England and Wales), section 1 (economic abuse).
@@ -272,43 +285,59 @@ question: My ex is spreading lies about me. How do I handle a smear campaign aft
 seo: Smear Campaign After a Breakup: How to Respond
 short: A smear campaign after a breakup is a sustained effort to control what other people believe about you: that you're unstable, cruel, unfaithful or dangerous. It often works because it sounds calm and reasonable. Most of the time the best response is steady behaviour, a few short corrections to people who matter, and a record.
 ---
-A friend goes quiet. Your mother-in-law stops answering. Someone at the school gate looks at you differently. Then you hear it: the story going round about you.
+A friend goes quiet. Your mother-in-law stops answering. Someone at the school gate looks at you a little too long. Then you hear it: the story going round about you.
 
 ## What is a smear campaign after a breakup?
-It's a sustained effort to shape what other people think of you and of the separation. Common lines:
+It's a sustained effort to shape what other people think of you and of the separation. The lines are depressingly familiar:
 
-- you're mentally unstable, or "not coping"
+- you're unstable, "not coping" or "having a breakdown"
+- you drink, use drugs or neglect the children
 - you were the abusive one
 - you cheated, or left for someone else
-- you're keeping the children from them
-- you're after money
+- you're keeping the children from them, or turning them against them
+- you're after money, or lying about the abuse to get the children
 - they're "worried about you"
 
-It's often delivered calmly, with sadness and concern. That makes it more believable to people who weren't inside the relationship. The Decoder describes the tactic in [smear campaigns](/playbook/smear-campaigns) and the larger aim, owning the official version of events, in [narrative monopoly](/playbook/narrative-monopoly).
+It's often delivered calmly, with sadness and concern. That makes it more believable to people who weren't inside the relationship. Knowing the script helps. When you hear one of these second-hand, you can recognise it as the campaign, and not as the truth about you.
+
+The Decoder covers the tactic in [Smear Campaigns](/playbook/smear-campaigns), and the bigger aim of owning the official version of events in [Narrative Monopoly](/playbook/narrative-monopoly).
 
 > They often tell the story before you do. A head start doesn't make their version true.
 
 ## Why does it work so well?
-Because you often don't fight it. You assume the truth is obvious, or you're too tired, or you don't want to drag people in. Meanwhile, the people hearing the story only have one version. And the story-teller is often good at seeming reasonable.
+Partly because you often don't fight it. You assume the truth is obvious, or you're too tired, or you don't want to drag people in. Meanwhile, the people hearing the story only have one version. And the person telling it is often very good at seeming reasonable.
 
 ## Should I fight back publicly?
 Usually not. A public back-and-forth reads to outsiders as "they're both difficult," which tends to help whoever is more comfortable with conflict. It also hands the other person new material: an angry post, a sharp message, a screenshot they can share.
 
-Not responding isn't losing. Most people who matter will come to see a fuller picture through how you behave over time.
+You'll probably rehearse your defence in the shower nine times. You don't have to deliver it. Staying quiet in public still counts as a response, and most people who matter will see a fuller picture through how you behave over time.
 
 ## When is a correction worth it?
-Some audiences matter enough for one calm, short correction:
+Before you correct anything, ask three things. Does this person's opinion affect my safety, my children or my job? Will correcting it end it, or feed it? Could my behaviour answer it better than my words?
+
+Some audiences pass that test and deserve one calm, short correction:
 
 - **your children's school or nursery**
 - **your employer**, if they've been contacted
 - **professionals involved in your case:** social workers, a child's representative, a mediator
-- **close family and friends** who you want to keep
+- **close family and friends** you want to keep
 
-Keep it brief and factual, without attacking the other person:
+Keep it brief and factual, and don't attack the other person:
 
 > **Say:** "You may have heard some things about me from [name]. We've separated, and there's a court process. I'd rather not go into it, but I wanted you to hear from me that I'm fine, the children are well, and I'm happy to answer anything that affects you."
 
-For professionals, stick to facts and documents: "These are the messages I've received since the order." The Decoder's [reputation hijacking](/playbook/reputation-hijacking) page covers how your name gets used against you.
+If that message ever gets passed back to them, it only shows you declined to run them down.
+
+For professionals, stick to facts and documents: "These are the messages I've received since the order." The Decoder's [Reputation Hijacking](/playbook/reputation-hijacking) page covers how your name gets used against you.
+
+## What if they say it to my face?
+Sometimes the smear arrives directly, dressed up as concern. It's an invitation to defend yourself in writing, and anything you write can be screenshotted.
+
+::: decoder
+**They say:** "I'm only saying this because I'm worried. Everyone can see you're not coping."
+**What it's doing:** Planting the story as concern and baiting you into an angry denial they can share. See [Smear Campaigns](/playbook/smear-campaigns).
+**A reply you could send:** "Thanks. I'm well and the children are well. Let's keep messages to arrangements for the children."
+:::
 
 ## How do I keep evidence of a smear campaign?
 - Screenshot posts, messages and comments, with dates and names.
@@ -318,24 +347,13 @@ For professionals, stick to facts and documents: "These are the messages I've re
 This matters if the story turns into a false report to the police, social services or your employer. See [When they say you're the abuser](ch:when-they-say-youre-the-abuser) and [What to document and how](ch:what-to-document-and-how).
 
 ## Is it defamation?
-Possibly, but defamation cases are expensive, slow and hard to win, and they keep you tied to the other person. Harassment law may fit better where there's a pattern. Get legal advice before threatening any action.
-
-## What does the story usually say?
-Smear campaigns after separation tend to follow a few familiar lines:
-
-- you're unstable, or "having a breakdown"
-- you drink, use drugs or neglect the children
-- you cheated, or left for someone else
-- you're turning the children against them
-- you're lying about the abuse for money or custody
-
-Knowing the script helps. When you hear one of these second-hand, you can recognise it as the campaign and not as the truth about you.
+Possibly. But defamation cases are expensive, slow and hard to win, and they keep you tied to the other person. Harassment law may fit better where there's a pattern. Both depend on where you live, so get legal advice before threatening any action. [Where to find the right body](ch:where-to-find-the-right-body) can point you to it.
 
 ## Schools, employers and faith communities
 These are often the places the story reaches first.
 
-- **School:** keep communication short and factual, and focus on the child. "There's a court order in place and I'm happy to share it. Please contact me directly about [child]."
-- **Employer:** if the story reaches work, talk to HR before rumours do. "My ex-partner may contact the workplace. There's a history of abuse. Please don't share my details."
+- **School:** keep it short and factual, and focus on your child. "There's a court order in place and I'm happy to share it. Please contact me directly about [child]."
+- **Employer:** if the story reaches work, talk to HR before the rumours do. "My ex-partner may contact the workplace. There's a history of abuse. Please don't share my details."
 - **Faith community:** if leaders take sides, ask for a private meeting, or find support elsewhere for now. You don't have to stay where you're being judged.
 
 ## Social media
@@ -345,17 +363,19 @@ These are often the places the story reaches first.
 - Report impersonation and harassment to the platform.
 
 ## When the story reaches court
-A smear campaign often ends up in court statements. Courts are used to hearing accusations in both directions. What helps is staying factual, providing evidence, and not matching their tone. Address each serious allegation briefly, with documents if you have them, and let your record show the wider pattern. See [Your day in court](ch:your-day-in-court).
+A smear campaign often ends up in court statements. Courts are used to hearing accusations in both directions. What helps is staying factual, providing evidence, and not matching their tone.
+
+Answer each serious allegation briefly, with documents if you have them, and let your record show the wider pattern. See [Your day in court](ch:your-day-in-court).
 
 ## Rebuilding your name slowly
-Most reputations recover through time and behaviour, not through argument. People see how you act at the school gate, at work and with your children. Over months, the gap between the story and the person in front of them becomes obvious.
+Most reputations recover through time and behaviour. Argument rarely does it. People see how you act at the school gate, at work and with your children. Over months, the gap between the story and the person in front of them gets hard to ignore.
 
 You may lose some people along the way. Keep the ones who asked you what happened before they decided.
 
 ## How do I live with it?
 - Tell one or two people the whole truth, so you aren't carrying it alone.
-- Let some people go. Those who believe the story without asking you may not be the people you need now. [Your family and mutual friends](ch:your-family-and-mutual-friends) and [The friends who didn't believe you](ch:the-friends-who-didnt-believe-you) cover this.
-- Keep living well, visibly and quietly. Over time, that's the strongest answer.
+- Let some people go. Those who believe the story without asking you may not be the people you need now. [The friends who didn't believe you](ch:the-friends-who-didnt-believe-you) covers this.
+- Keep living well, where people can see it. Over time, that's the strongest answer.
 
 *The Sovereign Divine Feminine* covers smear campaigns online in [Digital Smear Campaigns](/feminine/digital-smear-campaigns#core-concept) and the social side in [The Social Siege](/feminine/the-social-siege#core-concept).
 
@@ -370,24 +390,26 @@ When lies are spreading, the urge to fight back with your own story can be stron
 - Am I sharing details I'd regret once I'm calmer?
 - Am I starting to do to them what they did to me?
 
-Sometimes the honest answer is that silence and steady behaviour will do more than anything you could post.
+Sometimes the honest answer is that silence and steady behaviour will do more than anything you could post. If you're unsure, sleep on it and decide tomorrow.
 :::
 
 ::: scene
 ## How a rumour faded
 *This example is made up, built from patterns many people describe.*
 
-After the separation, Nadia heard that her ex was telling people she drank and neglected the children. At the school gate, a few parents went cold. She didn't respond online and didn't defend herself to people who hadn't asked. Every day she turned up on time, sober and cheerful with her children, and she told the head teacher briefly what was happening.
+After the separation, Nadia heard that her ex was telling people she drank and neglected the children. At the school gate, a few parents went cold.
 
-A year later, two of those parents apologised. One said, "We could see it wasn't true." The story hadn't been beaten. It had simply stopped fitting what people saw.
+She didn't respond online, and didn't defend herself to people who hadn't asked. She told the head teacher briefly what was happening. Then every day she turned up on time, sober and cheerful with her children.
+
+A year later, two of those parents apologised. One said, "We could see it wasn't true." Nobody had won an argument. The story had simply stopped fitting what people saw.
 :::
 
 ::: action
-## Questions before you correct anything
-- Does this person's opinion affect my safety, my children or my job?
-- Will correcting it end it, or feed it?
-- Can my behaviour answer it better than my words?
+## Your correction list
+Open a note and write down the three people whose opinion affects your safety, your children or your job. Those are the only people who get a correction. Everyone else gets your steady behaviour.
 :::
+
+Next, when you've got a minute, [Your family and mutual friends](ch:your-family-and-mutual-friends) deals with the people who keep carrying the story back and forth.
 
 ## Sources
 - Harsey, S., and Freyd, J. J. (2020). Deny, attack, and reverse victim and offender (DARVO): What is the influence on perceived perpetrator and victim credibility? *Journal of Aggression, Maltreatment & Trauma*, 29(8), 897–916.
@@ -405,30 +427,30 @@ Your sister says your ex "seems so sad." An old friend messages to say you shoul
 The person you left may not be contacting you directly. Other people are doing it for them.
 
 ## What are flying monkeys?
-"Flying monkeys" comes from *The Wizard of Oz*, where the witch sends winged monkeys to do her work. People now use it for friends, relatives or colleagues who end up acting for an abusive person: passing on messages, gathering information, applying pressure, or repeating the story.
+"Flying monkeys" is the popular name for friends, relatives or colleagues who end up doing an abusive person's work for them: passing on messages, gathering information about you, applying pressure, or repeating their version of events. The name comes from *The Wizard of Oz*, where the witch sends winged monkeys to do her bidding. Many don't realise they're doing it.
 
-The Decoder calls this [proxy recruitment](/playbook/flying-monkeys-proxy-recruitment).
+The Decoder calls this [Proxy Recruitment](/playbook/flying-monkeys-proxy-recruitment) (flying monkeys).
 
-It's a vivid word. Use it in your head if it helps. Most of the people involved don't think of themselves that way, and treating them as enemies can cost you people who might come round.
+It's a vivid word. Use it in your head if it helps. Most of the people involved don't see themselves that way, and treating them as enemies can cost you people who might come round.
 
 ## Why do people take my ex's side?
-Think of the friend who still likes their photos, or the cousin who sat next to them at the wedding and laughed at every joke. Usually for ordinary reasons:
+Think of the friend who still likes their photos, or the cousin who sat next to them at the wedding and laughed at every joke. Usually the reasons are ordinary:
 
-- **Familiarity.** They knew your ex first, or longer, or in a different setting where they were charming.
+- **Familiarity.** They knew your ex first, or longer, or in a setting where they were charming.
 - **One version.** They've only heard one side, often a calm, sad, convincing one. See [The narrative campaign](ch:the-narrative-campaign).
 - **Avoiding conflict.** Staying "neutral" feels kinder. In practice it often means accepting whichever version arrived first.
 - **Disbelief.** It's hard to believe someone you like could do what you've described.
 - **Self-interest.** A shared business, a family peace, a social circle they don't want to lose.
 
-> Silence from people you love often means they haven't engaged with the question at all. That hurts, and it's different from deciding you're lying.
+> Silence from people you love often means they haven't engaged with the question at all. That hurts. It's still different from deciding you're lying.
 
-The Decoder's page on [silent coalitions](/playbook/silent-coalitions) describes how groups go quiet around abuse.
+The Decoder's page on [Silent Coalitions](/playbook/silent-coalitions) describes how groups go quiet around abuse.
 
 ## How do I close the third-party channel?
 - **Ask directly:** "Please don't pass on messages from [name], and please don't share anything about me or the children with them."
-- **Give less:** share less news with people who you know report back.
+- **Give less:** share less news with people you know report back.
 - **Don't send replies through others.** If something must be said, say it in writing through your usual channel.
-- **Record it:** contact through others can break a protective order. Write down who passed on what, and when. See [What to document and how](ch:what-to-document-and-how).
+- **Record it:** depending on its wording, contact through other people can break a protective order. Write down who passed on what, and when. See [What to document and how](ch:what-to-document-and-how), and ask a service near you how your order works ([Where to find the right body](ch:where-to-find-the-right-body) helps you find one).
 
 ## What do I say to someone who's been pulled in?
 Keep it short, and don't ask them to choose:
@@ -438,6 +460,8 @@ Keep it short, and don't ask them to choose:
 If they keep pushing:
 
 > **Say:** "I've asked you not to bring this up. If it keeps happening, I'll need some distance for a while."
+
+If either message gets forwarded, that's fine. All it shows is that you asked to be left out of it, politely.
 
 ## When it's your own family
 It can be devastating when your own parents, siblings or children stay close to the person you left, or take their side. Sometimes they were charmed for years. Sometimes they don't want to lose the grandchildren. Sometimes they never saw what happened.
@@ -449,12 +473,12 @@ You can ask for what you need without asking them to hate anyone:
 If they can't do that, you may need more distance for a while. See [Your parents](ch:your-parents) for more.
 
 ## Friends who want to stay neutral
-Some friends will say, "I don't want to get involved." In ordinary breakups that's fair. In abuse, neutrality often helps the person with more power.
+Some friends will say, "I don't want to get involved." In ordinary breakups that's fair. When there's been abuse, neutrality often helps the person with more power.
 
-You can still keep friends who stay neutral, with limits. Don't share plans or details with them, and accept that they'll see both of you. Give your closeness to people who believe you.
+You can still keep neutral friends, with limits. Don't share plans or details with them, and accept that they'll see both of you. Save your closeness for people who believe you.
 
 ## When someone passes information
-If details about your life keep reaching the person you left, there's usually a route. Test it gently: share one harmless detail with one person only and see whether it travels. Then decide what that person gets to know from now on.
+If details about your life keep reaching the person you left, there's usually a route. Test it gently. Tell one person one harmless detail, say that you're thinking of taking up pottery, and see whether pottery turns up in your ex's next message. Then decide what that person gets to know from now on.
 
 ## Weddings, funerals and school events
 Shared events can bring you face to face.
@@ -466,12 +490,16 @@ Shared events can bring you face to face.
 - You're allowed to skip an event to keep yourself safe or steady.
 
 ## Grieving the friendships you lose
-Losing friends in a separation is a real loss, and it's rarely talked about. Some friendships end because people chose a side. Others fade because the friendship was built around the couple. It's okay to grieve them. It's also common, over time, to build friendships that are more truly yours. See [Making new people from scratch](ch:making-new-people-from-scratch).
+Losing friends in a separation is a real loss, and hardly anyone talks about it. Some friendships end because people chose a side. Others fade because the friendship was built around the couple.
+
+It's okay to grieve them. Over time, many people build friendships that belong to them, not to the couple. See [Making new people from scratch](ch:making-new-people-from-scratch).
 
 ## Do I have to cut everyone off?
-Look at your phone's contact list. Some names feel safe, some feel uncertain, and a few make your stomach drop. No. You decide person by person. Some relationships are worth a calm conversation. Some will repair with time and your steady behaviour. Some have become too costly for now. There's no rule that says you must keep everyone, or lose everyone who didn't immediately take your side.
+You decide person by person. Scroll through your phone's contacts and you'll feel it: some names feel safe, some feel uncertain, and a few make your stomach drop.
 
-If it's your own family who has sided with your ex, [Your parents](ch:your-parents) covers that particular pain. If you share a workplace, a church or a small town, see [When you share a town, a workplace or a community](ch:sharing-a-town-a-workplace-or-a-community). For friends who didn't believe you, see [The friends who didn't believe you](ch:the-friends-who-didnt-believe-you).
+Some relationships are worth a calm conversation. Some will repair with time and your steady behaviour. Some have become too costly for now. There's no rule that says you must keep everyone, or lose everyone who didn't take your side straight away.
+
+If you share a workplace, a church or a small town, see [When you share a town, a workplace or a community](ch:sharing-a-town-a-workplace-or-a-community).
 
 *The Sovereign Divine Feminine* describes how a social circle gets turned in [The Social Siege](/feminine/the-social-siege#core-concept).
 
@@ -479,15 +507,17 @@ If it's your own family who has sided with your ex, [Your parents](ch:your-paren
 ## Finding the leak
 *This example is made up, built from patterns many people describe.*
 
-Every detail of Chris's life seemed to reach his ex within days. He told one friend he was thinking of moving to a particular area. A week later his ex mentioned that area in a message. Chris didn't confront the friend. He simply stopped sharing plans with them, and kept seeing them for football and nothing else.
+Every detail of Chris's life seemed to reach his ex within days. He told one friend he was thinking of moving to a particular area. A week later his ex mentioned that area in a message.
 
-The details stopped travelling. The friendship survived, smaller and safer.
+Chris didn't confront the friend. He stopped sharing plans with them, and kept seeing them for football and nothing else. The details stopped travelling. The friendship survived, smaller and safer.
 :::
 
 ::: action
 ## Who gets to know what
-Make three short lists: people who can know everything, people who can know general news, and people who get nothing personal. Keep them in your head and use them.
+Take a scrap of paper and make three short lists: people who can know everything, people who get general news, and people who get nothing personal. Read it twice, then keep it in your head or somewhere only you can see.
 :::
+
+When you're ready, [The friends who didn't believe you](ch:the-friends-who-didnt-believe-you) is for the ones whose doubt still stings.
 
 ## Sources
 - Stark, E. (2007). *Coercive Control: How Men Entrap Women in Personal Life.* Oxford University Press.
