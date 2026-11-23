@@ -91,6 +91,12 @@ So every page here is built from the questions I couldn't answer and the things 
 
 I know there's nothing else out there quite like it, because I looked everywhere. Every book, every site, every expert. When I couldn't find it, I said screw it, and I wrote it myself, every day, for almost two years.
 
+And I'm proud of it.
+
+Not because it's perfect. Because it's the thing I needed and couldn't find, and now it exists. It's the best work of my life, and I put everything I had into it.
+
+Most of the people it reaches, I'll never meet. I'll never know their names or what they were going through when they found it. Somebody reading at 3am in a kitchen I'll never see. A teenager. A dad. A woman about to pack a bag. That's who I wrote it for. People I'll never meet, who deserve a way out as much as my own family did.
+
 ---
 
 Two years. Every day.
@@ -102,6 +108,8 @@ And I won't.
 The people who need this most have the least. Their money's controlled. Their time isn't theirs. Somebody checks their phone. You don't put a paywall between a person and the way out, and you don't make them sign up to get their own mind back.
 
 So there's no price, no login, no email list, no ads and nothing tracking you. The books, the Decoder and the videos are open to anyone, for good.
+
+(There's a tip link somewhere on this site with my Venmo and Cash App, if something here helped and you want to say thanks. I honestly couldn't tell you where it is. Spirit's teaching me to let myself receive. Still working on it.)
 
 I don't know you. I don't need anything from you.
 
@@ -115,11 +123,24 @@ I'm not a guru. I'm not a therapist, a lawyer or a professor, and I'll never ask
 
 What I am is a father who refused to lose his soul, and refused to let what it cost mean nothing.
 
-(There's a tip link somewhere on this site with my Venmo and Cash App, if something here helped and you want to say thanks. I honestly couldn't tell you where it is. Spirit's teaching me to let myself receive. Still working on it.)
 
 If any of this sounded like you, it was written for you.
 
 Take what helps. Leave the rest. You were never too much.
+
+---
+
+## My only ask
+
+If anything here helped you, the biggest thank you is to pass it on.
+
+Send it to the friend who keeps apologising. The sister who's gone quiet. The coworker who can't explain why Monday makes her sick. The guy in your group chat who laughs it off.
+
+My dream is for this work, the thing I've given everything of myself to, to reach as many people as possible. But it can only help the people who know it exists, that it's free, and that it's here right now.
+
+That's it. That's the only thing I'll ever ask.
+
+And bonus points if you [tell me how it helped you]. Honestly, that would make my whole week. 🌹
 
 With love,
 **Shae Stovell**
