@@ -337,3 +337,20 @@ Text is frozen (step 2 complete, owner said "leave them in" and supplied `/about
 - **Direction:** A "Notes on the table" for every block, plus C's cover tiles: each "Where are you right now?" choice takes a different hour's sky. Comps and sheets are in `design/longafter-v6/comps/`.
 - **Discreet mode:** offered as a toggle, off by default. Nothing is stored, so it resets each visit.
 - **Author strip:** links to the live `/about` page. Its source isn't on this branch.
+
+## Build (2026-11-23): commit ea657ae4
+That commit is labelled WIP, but it holds the finished build, and everything passes.
+- **Design:** A blocks and C cover tiles, sky band, horizon rules.
+- **Shell:** reading toggle, progress bar, reading time, on-this-page menu, byline and author strip to `/about`, share line, discreet toggle, Escape twice, print CSS, desktop rail and phone dock. Nothing is stored.
+- **Checks:**
+  - text diff: only new UI strings
+  - design gates on 5 pages × 3 profiles
+  - axe TOTAL {}
+  - CLS 0 / 0.069
+  - 24 interaction checks, with storage empty
+  - all 21 inbound anchors present
+- **Known gaps:**
+  - If the reader turns on background printing, Chromium prints the page margins dark.
+  - The court sheet runs to 2 A4 pages.
+  - Version is still v5 until release.
+- **Phone shots:** `design/longafter-v6/prototype/`.
