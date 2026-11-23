@@ -1,0 +1,620 @@
+{
+ "parts": [
+  {
+   "id": "i",
+   "title": "Why weigh at all",
+   "blurb": "The problem this book solves, the safeguard against its own misuse, and the three frames everything downstream rests on.",
+   "chapters": [
+    "you-learned-to-see-this-is-how-you-learn-to-weigh",
+    "this-book-in-the-wrong-hands",
+    "the-two-errors-and-what-they-actually-cost",
+    "most-people-most-days",
+    "the-gradient"
+   ]
+  },
+  {
+   "id": "ii",
+   "title": "The instrument is you",
+   "blurb": "Before evidence: the detector itself. Where yours was calibrated, what distorts it, and what a healthy baseline actually looks like.",
+   "chapters": [
+    "your-detector-has-a-history",
+    "the-gut-sensor-or-smoke-alarm",
+    "grief-in-the-costume-of-analysis",
+    "the-retrospective-rewrite",
+    "the-state-youre-judging-from",
+    "the-reference-sample"
+   ]
+  },
+  {
+   "id": "iii",
+   "title": "What counts",
+   "blurb": "Evidence standards. What is a pattern, how a case builds itself, and the two riskiest sources of information you will ever use.",
+   "chapters": [
+    "what-is-evidence",
+    "one-thing-is-not-a-pattern",
+    "the-file-that-builds-itself",
+    "the-discipline-of-three-explanations",
+    "the-boring-explanations",
+    "intent-impact-and-the-mind-reading-trap",
+    "secondhand-accounts",
+    "judging-strangers-through-screens"
+   ]
+  },
+  {
+   "id": "iv",
+   "title": "The tests that work",
+   "blurb": "Four discriminators that actually separate manipulation from ordinary human failure — and the safety gate that comes before all of them.",
+   "chapters": [
+    "before-you-test-is-testing-safe",
+    "the-naming-test",
+    "repair-and-apologys-counterfeit",
+    "the-cost-of-no",
+    "is-it-you-or-is-it-everyone",
+    "power-changes-the-meaning",
+    "difference-is-not-malice",
+    "institutions-weigh-differently"
+   ]
+  },
+  {
+   "id": "v",
+   "title": "The mirror",
+   "blurb": "Turning the instrument around before you act on anything it told you.",
+   "chapters": [
+    "am-i-the-one-doing-it",
+    "the-vocabulary-as-a-weapon",
+    "who-benefits-from-your-verdict",
+    "being-wrong-well"
+   ]
+  },
+  {
+   "id": "vi",
+   "title": "Living calibrated",
+   "blurb": "What to do with a conclusion, how to survive not having one, and how to get back to trusting people.",
+   "chapters": [
+    "assessment-is-not-decision",
+    "when-you-cant-ever-know",
+    "scoring-your-own-past-calls",
+    "certainty-is-the-tell",
+    "helping-someone-else-weigh",
+    "when-weighing-stops",
+    "trust-as-a-skill-you-rebuild"
+   ]
+  },
+  {
+   "id": "appendix",
+   "title": "Appendices",
+   "blurb": "",
+   "chapters": [
+    "field-card",
+    "limits"
+   ]
+  }
+ ],
+ "chapters": [
+  {
+   "slug": "you-learned-to-see-this-is-how-you-learn-to-weigh",
+   "part": "i",
+   "n": 1,
+   "title": "You learned to see. This is how you learn to weigh.",
+   "minutes": 8,
+   "keyword": "",
+   "keywords2": [],
+   "decoder": [
+    "stonewalling",
+    "withholding-silent-treatment",
+    "non-apology-apologies"
+   ],
+   "heavy": false
+  },
+  {
+   "slug": "this-book-in-the-wrong-hands",
+   "part": "i",
+   "n": 2,
+   "title": "This book in the wrong hands",
+   "minutes": 7,
+   "keyword": "",
+   "keywords2": [],
+   "decoder": [
+    "gaslighting",
+    "isolation",
+    "intimidation",
+    "minimization"
+   ],
+   "heavy": false
+  },
+  {
+   "slug": "the-two-errors-and-what-they-actually-cost",
+   "part": "i",
+   "n": 3,
+   "title": "The two errors, and what they actually cost",
+   "minutes": 8,
+   "keyword": "",
+   "keywords2": [],
+   "decoder": [],
+   "heavy": false
+  },
+  {
+   "slug": "most-people-most-days",
+   "part": "i",
+   "n": 4,
+   "title": "Most people, most days",
+   "minutes": 7,
+   "keyword": "",
+   "keywords2": [],
+   "decoder": [],
+   "heavy": false
+  },
+  {
+   "slug": "the-gradient",
+   "part": "i",
+   "n": 5,
+   "title": "The gradient",
+   "minutes": 8,
+   "keyword": "",
+   "keywords2": [],
+   "decoder": [
+    "behavior-control",
+    "minimization"
+   ],
+   "heavy": false
+  },
+  {
+   "slug": "your-detector-has-a-history",
+   "part": "ii",
+   "n": 6,
+   "title": "Your detector has a history",
+   "minutes": 8,
+   "keyword": "",
+   "keywords2": [],
+   "decoder": [
+    "hoovering-relief-bait"
+   ],
+   "heavy": false
+  },
+  {
+   "slug": "the-gut-sensor-or-smoke-alarm",
+   "part": "ii",
+   "n": 7,
+   "title": "The gut: sensor or smoke alarm",
+   "minutes": 8,
+   "keyword": "",
+   "keywords2": [],
+   "decoder": [],
+   "heavy": false
+  },
+  {
+   "slug": "grief-in-the-costume-of-analysis",
+   "part": "ii",
+   "n": 8,
+   "title": "Grief in the costume of analysis",
+   "minutes": 7,
+   "keyword": "",
+   "keywords2": [],
+   "decoder": [],
+   "heavy": false
+  },
+  {
+   "slug": "the-retrospective-rewrite",
+   "part": "ii",
+   "n": 9,
+   "title": "The retrospective rewrite",
+   "minutes": 8,
+   "keyword": "",
+   "keywords2": [],
+   "decoder": [
+    "gaslighting"
+   ],
+   "heavy": false
+  },
+  {
+   "slug": "the-state-youre-judging-from",
+   "part": "ii",
+   "n": 10,
+   "title": "The state you’re judging from",
+   "minutes": 6,
+   "keyword": "",
+   "keywords2": [],
+   "decoder": [
+    "isolation"
+   ],
+   "heavy": false
+  },
+  {
+   "slug": "the-reference-sample",
+   "part": "ii",
+   "n": 11,
+   "title": "The reference sample",
+   "minutes": 9,
+   "keyword": "",
+   "keywords2": [],
+   "decoder": [
+    "hoovering-relief-bait",
+    "non-apology-apologies"
+   ],
+   "heavy": false
+  },
+  {
+   "slug": "what-is-evidence",
+   "part": "iii",
+   "n": 12,
+   "title": "What is evidence",
+   "minutes": 8,
+   "keyword": "",
+   "keywords2": [],
+   "decoder": [
+    "gaslighting"
+   ],
+   "heavy": false
+  },
+  {
+   "slug": "one-thing-is-not-a-pattern",
+   "part": "iii",
+   "n": 13,
+   "title": "One thing is not a pattern",
+   "minutes": 9,
+   "keyword": "",
+   "keywords2": [],
+   "decoder": [
+    "financial-control",
+    "intimidation",
+    "gaslighting"
+   ],
+   "heavy": false
+  },
+  {
+   "slug": "the-file-that-builds-itself",
+   "part": "iii",
+   "n": 14,
+   "title": "The file that builds itself",
+   "minutes": 8,
+   "keyword": "",
+   "keywords2": [],
+   "decoder": [
+    "non-apology-apologies",
+    "accountability-reset",
+    "love-bombing"
+   ],
+   "heavy": false
+  },
+  {
+   "slug": "the-discipline-of-three-explanations",
+   "part": "iii",
+   "n": 15,
+   "title": "The discipline of three explanations",
+   "minutes": 8,
+   "keyword": "",
+   "keywords2": [],
+   "decoder": [],
+   "heavy": false
+  },
+  {
+   "slug": "the-boring-explanations",
+   "part": "iii",
+   "n": 16,
+   "title": "The boring explanations",
+   "minutes": 7,
+   "keyword": "",
+   "keywords2": [],
+   "decoder": [
+    "monitoring-surveillance",
+    "minimization",
+    "non-apology-apologies"
+   ],
+   "heavy": false
+  },
+  {
+   "slug": "intent-impact-and-the-mind-reading-trap",
+   "part": "iii",
+   "n": 17,
+   "title": "Intent, impact, and the mind-reading trap",
+   "minutes": 8,
+   "keyword": "",
+   "keywords2": [],
+   "decoder": [],
+   "heavy": false
+  },
+  {
+   "slug": "secondhand-accounts",
+   "part": "iii",
+   "n": 18,
+   "title": "Secondhand accounts",
+   "minutes": 9,
+   "keyword": "",
+   "keywords2": [],
+   "decoder": [
+    "context-collapse"
+   ],
+   "heavy": false
+  },
+  {
+   "slug": "judging-strangers-through-screens",
+   "part": "iii",
+   "n": 19,
+   "title": "Judging strangers through screens",
+   "minutes": 8,
+   "keyword": "",
+   "keywords2": [],
+   "decoder": [
+    "contempt",
+    "non-apology-apologies",
+    "moral-outrage-as-weapon"
+   ],
+   "heavy": false
+  },
+  {
+   "slug": "before-you-test-is-testing-safe",
+   "part": "iv",
+   "n": 20,
+   "title": "Before you test: is testing safe?",
+   "minutes": 6,
+   "keyword": "",
+   "keywords2": [],
+   "decoder": [
+    "intimidation",
+    "administrative-escalation",
+    "non-apology-apologies",
+    "accountability-reset"
+   ],
+   "heavy": false
+  },
+  {
+   "slug": "the-naming-test",
+   "part": "iv",
+   "n": 21,
+   "title": "The naming test",
+   "minutes": 9,
+   "keyword": "",
+   "keywords2": [],
+   "decoder": [
+    "gaslighting",
+    "non-apology-apologies",
+    "hoovering-relief-bait"
+   ],
+   "heavy": false
+  },
+  {
+   "slug": "repair-and-apologys-counterfeit",
+   "part": "iv",
+   "n": 22,
+   "title": "Repair, and apology’s counterfeit",
+   "minutes": 9,
+   "keyword": "",
+   "keywords2": [],
+   "decoder": [
+    "non-apology-apologies"
+   ],
+   "heavy": false
+  },
+  {
+   "slug": "the-cost-of-no",
+   "part": "iv",
+   "n": 23,
+   "title": "The cost of “no”",
+   "minutes": 7,
+   "keyword": "",
+   "keywords2": [],
+   "decoder": [],
+   "heavy": false
+  },
+  {
+   "slug": "is-it-you-or-is-it-everyone",
+   "part": "iv",
+   "n": 24,
+   "title": "Is it you, or is it everyone?",
+   "minutes": 8,
+   "keyword": "",
+   "keywords2": [],
+   "decoder": [
+    "flying-monkeys-proxy-recruitment",
+    "monitoring-surveillance"
+   ],
+   "heavy": false
+  },
+  {
+   "slug": "power-changes-the-meaning",
+   "part": "iv",
+   "n": 25,
+   "title": "Power changes the meaning",
+   "minutes": 8,
+   "keyword": "",
+   "keywords2": [],
+   "decoder": [
+    "intimidation",
+    "accountability-reset",
+    "administrative-escalation"
+   ],
+   "heavy": false
+  },
+  {
+   "slug": "difference-is-not-malice",
+   "part": "iv",
+   "n": 26,
+   "title": "Difference is not malice",
+   "minutes": 9,
+   "keyword": "",
+   "keywords2": [],
+   "decoder": [
+    "non-apology-apologies"
+   ],
+   "heavy": false
+  },
+  {
+   "slug": "institutions-weigh-differently",
+   "part": "iv",
+   "n": 27,
+   "title": "Institutions weigh differently",
+   "minutes": 9,
+   "keyword": "",
+   "keywords2": [],
+   "decoder": [],
+   "heavy": false
+  },
+  {
+   "slug": "am-i-the-one-doing-it",
+   "part": "v",
+   "n": 28,
+   "title": "Am I the one doing it?",
+   "minutes": 9,
+   "keyword": "",
+   "keywords2": [],
+   "decoder": [
+    "projection",
+    "non-apology-apologies",
+    "guilt-tripping"
+   ],
+   "heavy": false
+  },
+  {
+   "slug": "the-vocabulary-as-a-weapon",
+   "part": "v",
+   "n": 29,
+   "title": "The vocabulary as a weapon",
+   "minutes": 8,
+   "keyword": "",
+   "keywords2": [],
+   "decoder": [
+    "gaslighting",
+    "love-bombing",
+    "behavior-control",
+    "darvo"
+   ],
+   "heavy": false
+  },
+  {
+   "slug": "who-benefits-from-your-verdict",
+   "part": "v",
+   "n": 30,
+   "title": "Who benefits from your verdict",
+   "minutes": 8,
+   "keyword": "",
+   "keywords2": [],
+   "decoder": [
+    "administrative-escalation",
+    "isolation",
+    "legal-abuse"
+   ],
+   "heavy": false
+  },
+  {
+   "slug": "being-wrong-well",
+   "part": "v",
+   "n": 31,
+   "title": "Being wrong well",
+   "minutes": 7,
+   "keyword": "",
+   "keywords2": [],
+   "decoder": [
+    "non-apology-apologies",
+    "contempt"
+   ],
+   "heavy": false
+  },
+  {
+   "slug": "assessment-is-not-decision",
+   "part": "vi",
+   "n": 32,
+   "title": "Assessment is not decision",
+   "minutes": 7,
+   "keyword": "",
+   "keywords2": [],
+   "decoder": [],
+   "heavy": false
+  },
+  {
+   "slug": "when-you-cant-ever-know",
+   "part": "vi",
+   "n": 33,
+   "title": "When you can’t ever know",
+   "minutes": 7,
+   "keyword": "",
+   "keywords2": [],
+   "decoder": [],
+   "heavy": false
+  },
+  {
+   "slug": "scoring-your-own-past-calls",
+   "part": "vi",
+   "n": 34,
+   "title": "Scoring your own past calls",
+   "minutes": 6,
+   "keyword": "",
+   "keywords2": [],
+   "decoder": [],
+   "heavy": false
+  },
+  {
+   "slug": "certainty-is-the-tell",
+   "part": "vi",
+   "n": 35,
+   "title": "Certainty is the tell",
+   "minutes": 9,
+   "keyword": "",
+   "keywords2": [],
+   "decoder": [
+    "isolation"
+   ],
+   "heavy": false
+  },
+  {
+   "slug": "helping-someone-else-weigh",
+   "part": "vi",
+   "n": 36,
+   "title": "Helping someone else weigh",
+   "minutes": 8,
+   "keyword": "",
+   "keywords2": [],
+   "decoder": [
+    "intimidation"
+   ],
+   "heavy": false
+  },
+  {
+   "slug": "when-weighing-stops",
+   "part": "vi",
+   "n": 37,
+   "title": "When weighing stops",
+   "minutes": 6,
+   "keyword": "",
+   "keywords2": [],
+   "decoder": [
+    "intimidation",
+    "isolation",
+    "administrative-escalation"
+   ],
+   "heavy": false
+  },
+  {
+   "slug": "trust-as-a-skill-you-rebuild",
+   "part": "vi",
+   "n": 38,
+   "title": "Trust as a skill you rebuild",
+   "minutes": 9,
+   "keyword": "",
+   "keywords2": [],
+   "decoder": [
+    "isolation"
+   ],
+   "heavy": false
+  },
+  {
+   "slug": "field-card",
+   "part": "appendix",
+   "n": null,
+   "title": "The field card",
+   "keyword": "",
+   "keywords2": [],
+   "decoder": [],
+   "heavy": false
+  },
+  {
+   "slug": "limits",
+   "part": "appendix",
+   "n": null,
+   "title": "The limits of this instrument",
+   "keyword": "",
+   "keywords2": [],
+   "decoder": [],
+   "heavy": false
+  }
+ ]
+}
