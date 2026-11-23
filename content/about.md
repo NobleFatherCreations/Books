@@ -77,6 +77,22 @@ Fourteen books. A Pattern Decoder of 335 tactics, each with the signs it fits *a
 
 ---
 
+## This won't read like any psychology book you've seen.
+
+When I was in it, I didn't need the clinical term.
+
+I needed to know how to spot it while it was happening. What it feels like in your chest when it starts. How to defend myself without making it worse. And the hardest one: how to tell whether my wrecked nervous system was seeing manipulation everywhere, or whether this one was a real red flag.
+
+No textbook answered that. Most of them didn't even ask it.
+
+Because here's the part nobody talks about: when you can't put it into words, you can't ask for help. You sit across from a friend, a counsellor, a judge, and you can't explain what's happening to you. You sound confused, or dramatic, or crazy. And the person doing it to you sounds calm.
+
+So every page here is built from the questions I couldn't answer and the things I couldn't say. The struggle first, then the words for it. Plain language, no jargon, in the order you actually need it: what's happening, how to know for sure, what to do next. And always, the signs that it *isn't* this, because when you've been through it, you need that just as badly.
+
+I know there's nothing else out there quite like it, because I looked everywhere. Every book, every site, every expert. When I couldn't find it, I said screw it, and I wrote it myself, every day, for almost two years.
+
+---
+
 Two years. Every day.
 
 It's cost me sleep, money, time with my business, and more of my nerves than I'd like to admit. Every person I've told has said the same thing: *charge for it.* Every logical part of my own brain agrees.
