@@ -1,0 +1,5 @@
+# Inbound anchors into The Weighing (2026-11-23)
+
+Links from other sites point at page addresses only (/scale/<slug>, /scale/contents, /scale#/limits).
+No links target a heading inside a page, so headings may change freely. Every existing page address must keep resolving.
+/scale#/limits and #/c/N are forwarded by the page script (old_routes.json).
