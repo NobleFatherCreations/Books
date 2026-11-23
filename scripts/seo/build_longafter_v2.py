@@ -10,6 +10,7 @@ sky, from deep dusk in Part I to first light in Part XI; reading text sits on on
 """
 import html
 import json
+from urllib.parse import quote
 import re
 import sys
 from pathlib import Path
@@ -94,6 +95,8 @@ def smart(t):
     return t
 
 
+MANIFEST = json.loads((ROOT / "site_manifest.json").read_text())
+CRISIS = {"if-youre-not-safe-right-now", "find-help", "when-its-more-than-aftermath"}   # byline only (06-ABOUT, rules)
 TEL_PAGES = {"if-youre-not-safe-right-now", "find-help", "the-card", "safety-plan-worksheet", "when-its-more-than-aftermath",
              "pocket-card-words-you-can-use"}
 LONG_TEL = re.compile(r"(?<![\w-])(1-800-\d{3}-\d{4}|0\d{2,3}(?: \d{2,4}){2,3}|01 \d{3} \d{4}|1800 \d{3} \d{3}|13 11 14|116 123)(?![\w-])")
@@ -124,7 +127,7 @@ def telify(h):
 
 def md(body):
     lines = body.split("\n")
-    out, i, used = [], 0, set()
+    out, i, used, stack = [], 0, set(), []
     while i < len(lines):
         ln = lines[i]
         if not ln.strip():
@@ -133,10 +136,20 @@ def md(body):
             kind, _, arg = ln[3:].strip().partition(" ")
             if kind:
                 extra = f' data-arg="{html.escape(arg)}"' if arg else ""
-                out.append(f'<div class="blk blk-{html.escape(kind)}"{extra}>')
+                out.append(f'<div class="blk blk-{html.escape(kind)}"{extra}>'); stack.append(kind)
             else:
-                out.append("</div>")
+                out.append("</div>"); stack and stack.pop()
             i += 1; continue
+        if stack and stack[-1] == "decoder" and ln.startswith("**"):   # one element per voice; Copy on the reply
+            voices = []
+            while i < len(lines) and lines[i].startswith("**"):
+                lab, _, rest = inline(lines[i].strip()).partition("</strong>")
+                k = "say" if "They say" in lab else "why" if "What it" in lab else "reply"
+                cp = ' <button class="dv-copy" type="button" data-js>Copy</button>' if k == "reply" else ""
+                voices.append(f'<p class="dv dv-{k}">{lab.replace("<strong>", "<strong class=\"dv-l\">")}</strong> '
+                              f'<span class="dv-t">{rest.strip()}</span>{cp}</p>')
+                i += 1
+            out.append('<div class="dv-p">' + "".join(voices) + "</div>"); continue
         if ln.startswith("## "):
             text = ln[3:].strip()
             hid = S.slugify(text, 60)
@@ -202,7 +215,7 @@ FONTS = (f"@font-face{{font-family:'BookDisplay';font-weight:400;font-style:norm
 
 CSS = """
 :root{color-scheme:dark;--night:#110e19;--panel:#1a1527;--panel2:#221c33;--fg:#efe9f4;--fg2:#bdb3cc;--line:#2f2842;
---disp:'BookDisplay','Iowan Old Style',Georgia,serif;--body:'BookSerif','Iowan Old Style',Georgia,serif;--sans:var(--body)}
+--disp:'BookDisplay',serif;--body:'BookSerif',serif;--sans:var(--body)}
 *{box-sizing:border-box}html{-webkit-text-size-adjust:100%;scroll-padding-top:76px}
 body{margin:0;background:var(--night);color:var(--fg);font:400 1.15rem/1.68 var(--body);text-rendering:optimizeLegibility}
 a{color:var(--acc);text-underline-offset:.2em;text-decoration-thickness:1px}a:hover{color:#fff}
@@ -295,14 +308,185 @@ a,.bar a.b,.bar button,.where a,.next a,.find button{transition:color .2s ease,b
 @media print{.sky::before{display:none}.notice,.byline,th,td,.lede{color:#333!important}article a[href^="http"]::after{content:" (" attr(href) ")";font-size:.85em}.bar,.nf-seal,#nf-chrome,.next,footer nav,.skip{display:none!important}body{background:#fff;color:#000}.sky{background:none;color:#000}h1,.q,article h2,.loc{color:#000}a{color:#000}.short,blockquote.say{background:#fff;border-color:#999}}
 """
 
+# ---------------------------------------------------------------- v6 design: A "Notes on the table" + C's cover tiles
+# Lucide paths (tools/lucide-icons-lucide), drawn as CSS masks so they take the part's accent.
+ICONS = {
+    "lamp": '<path d="M12 12v6"/><path d="M4.077 10.615A1 1 0 0 0 5 12h14a1 1 0 0 0 .923-1.385l-3.077-7.384A2 2 0 0 0 15 2H9a2 2 0 0 0-1.846 1.23Z"/><path d="M8 20a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v1a1 1 0 0 1-1 1H9a1 1 0 0 1-1-1z"/>',
+    "door": '<path d="M11 20H2"/><path d="M11 4.562v16.157a1 1 0 0 0 1.242.97L19 20V5.562a2 2 0 0 0-1.515-1.94l-4-1A2 2 0 0 0 11 4.561z"/><path d="M11 4H8a2 2 0 0 0-2 2v14"/><path d="M14 12h.01"/><path d="M22 20h-3"/>',
+    "msg": '<path d="M2.992 16.342a2 2 0 0 1 .094 1.167l-1.065 3.29a1 1 0 0 0 1.236 1.168l3.413-.998a2 2 0 0 1 1.099.092 10 10 0 1 0-4.777-4.719"/><path d="M8 12h.01"/><path d="M12 12h.01"/><path d="M16 12h.01"/>',
+    "users": '<path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"/><path d="M16 3.128a4 4 0 0 1 0 7.744"/><path d="M22 21v-2a4 4 0 0 0-3-3.87"/><circle cx="9" cy="7" r="4"/>',
+    "scale": '<path d="M12 3v18"/><path d="m19 8 3 8a5 5 0 0 1-6 0zV7"/><path d="M3 7h1a17 17 0 0 0 8-2 17 17 0 0 0 8 2h1"/><path d="m5 8 3 8a5 5 0 0 1-6 0zV7"/><path d="M7 21h10"/>',
+    "shield": '<path d="M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z"/><path d="M12 8v4"/><path d="M12 16h.01"/>',
+    "moon": '<path d="M18 5h4"/><path d="M20 3v4"/><path d="M20.985 12.486a9 9 0 1 1-9.473-9.472c.405-.022.617.46.402.803a6 6 0 0 0 8.268 8.268c.344-.215.825-.004.803.401"/>',
+    "printer": '<path d="M6 18H4a2 2 0 0 1-2-2v-5a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v5a2 2 0 0 1-2 2h-2"/><path d="M6 9V3a1 1 0 0 1 1-1h10a1 1 0 0 1 1 1v6"/><rect x="6" y="14" width="12" height="8" rx="1"/>',
+    "scissors": '<circle cx="6" cy="6" r="3"/><path d="M8.12 8.12 12 12"/><path d="M20 4 8.12 15.88"/><circle cx="6" cy="18" r="3"/><path d="M14.8 14.8 20 20"/>',
+    "arrow": '<path d="M5 12h14"/><path d="m12 5 7 7-7 7"/>',
+    "signpost": '<path d="M12 13v8"/><path d="M12 3v3"/><path d="M2.354 10.354a1.207 1.207 0 0 1 0-1.708l2.06-2.06A2 2 0 0 1 5.828 6h12.344a2 2 0 0 1 1.414.586l2.06 2.06a1.207 1.207 0 0 1 0 1.708l-2.06 2.06a2 2 0 0 1-1.414.586H5.828a2 2 0 0 1-1.414-.586z"/>',
+    "copy": '<rect width="14" height="14" x="8" y="8" rx="2" ry="2"/><path d="M4 16c-1.1 0-2-.9-2-2V4c0-1.1.9-2 2-2h10c1.1 0 2 .9 2 2"/>',
+}
+
+
+def ico(name, stroke="black"):
+    svg = (f"<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='{stroke}' stroke-width='1.75' "
+           f"stroke-linecap='round' stroke-linejoin='round'>{ICONS[name].replace(chr(34), chr(39))}</svg>")
+    return 'url("data:image/svg+xml,' + quote(svg, safe="") + '")'
+
+
+def mask(name):
+    return f"-webkit-mask:{ico(name)} center/contain no-repeat;mask:{ico(name)} center/contain no-repeat;"
+
+
+SC = "font-variant-caps:all-small-caps;letter-spacing:.07em;font-weight:700;"
+CSS += f"""
+/* v6: the hour on every page (sky band, horizon rules, accent edges) */
+.bar{{border-bottom-color:transparent}}
+.bar::after{{content:"";position:absolute;left:0;right:0;bottom:-1px;height:3px;pointer-events:none;background:linear-gradient(90deg,var(--s1),var(--s2) 22%,var(--acc) 50%,var(--s2) 78%,var(--s1))}}
+.sky{{background:linear-gradient(180deg,var(--s1) 0%,var(--s2) 78%,color-mix(in srgb,var(--s2) 78%,var(--acc)) 100%)}}
+article>h2::before,.blk-sheet>h2::before{{content:"";display:block;height:1px;margin:0 0 1.1em;background:linear-gradient(90deg,transparent,color-mix(in srgb,var(--acc) 80%,transparent) 50%,transparent)}}
+.blk-sheet>h2:first-of-type::before{{display:none}}
+article .blk{{margin:2.5rem 0;position:relative}}
+article .blk h2{{font:400 1.45rem/1.25 var(--disp);color:#fff;margin:0 0 .5em;scroll-margin-top:76px}}
+article .blk>:last-child{{margin-bottom:0}}
+.blk-action::before,.blk-scene::before,.blk-sheet::before{{display:block;font-family:var(--sans);font-size:1rem;line-height:1.2;{SC}margin:0 0 10px}}
+/* action: an index card with a hand-drawn circle */
+article .blk-action{{background-color:#2a2232;background-image:repeating-linear-gradient(180deg,transparent 0 30px,rgba(239,233,244,.05) 30px 31px);
+background-position:0 66px;border-top:3px solid var(--acc);border-radius:4px 4px 12px 12px;padding:18px 20px 20px;
+box-shadow:0 18px 32px -18px rgba(0,0,0,.75),inset 0 1px 0 rgba(255,255,255,.04)}}
+.blk-action::before{{content:"One small step";color:var(--acc)}}
+article .blk-action h2{{position:relative;padding-left:42px}}
+article .blk-action h2::before{{content:"";position:absolute;left:2px;top:.1em;width:26px;height:26px;border:2px solid var(--acc);
+border-radius:54% 44% 57% 43% / 46% 56% 44% 54%;transform:rotate(-9deg);box-shadow:1px 1px 0 0 color-mix(in srgb,var(--acc) 35%,transparent)}}
+article .blk-action p{{color:#f3edf6}}
+/* decoder: two voices as chat bubbles, Copy on the reply */
+article .blk-decoder{{background:#1c1727;border:1px solid #2c2539;border-radius:20px;padding:16px 14px}}
+.dv-p{{display:flex;flex-direction:column;gap:12px}}
+article .dv{{margin:0;max-width:none}}
+.dv-l,.dv-t{{display:block}}
+.dv-say{{align-self:flex-start;max-width:90%;background:#2e2839;border-radius:20px 20px 20px 6px;padding:12px 16px}}
+.dv-why{{align-self:stretch;color:var(--fg2);font-style:italic;padding:0 10px 0 14px;border-left:2px solid #3b3349;margin:2px 8px!important}}
+.dv-why a{{color:var(--acc)}}
+.dv-reply{{align-self:flex-end;max-width:90%;display:flex;flex-direction:column;background:var(--acc);color:#1c1322;border-radius:20px 20px 6px 20px;padding:12px 16px 10px}}
+.dv-l{{font-family:var(--sans);font-size:1rem;line-height:1.3;{SC}color:var(--fg2);margin:0 0 2px}}
+.dv-reply .dv-l{{color:#4a2733}}
+.dv-copy{{display:inline-flex;align-items:center;justify-content:center;gap:8px;min-height:44px;min-width:44px;cursor:pointer;font:600 1rem/1 var(--sans);
+align-self:flex-end;margin-top:8px;padding:0 16px;border-radius:999px;border:1px solid rgba(28,19,34,.45);background:rgba(28,19,34,.07);color:#1c1322}}
+.dv-copy::before{{content:"";width:16px;height:16px;background:currentColor;{mask('copy')}}}
+.dv-copy:hover{{background:rgba(28,19,34,.16)}}
+.dv-copy:focus-visible{{outline-color:#1c1322}}
+/* honest: recessed, private, a small lamp */
+article .blk-honest{{background:radial-gradient(110% 70% at 100% 0%,color-mix(in srgb,var(--acc) 15%,transparent),transparent 62%),#0b0911;
+border-radius:20px;padding:22px 20px;box-shadow:inset 0 4px 14px rgba(0,0,0,.75),inset 0 0 0 1px rgba(255,255,255,.035)}}
+.blk-honest::before{{content:"";position:absolute;right:18px;top:20px;width:26px;height:26px;background:var(--acc);{mask('lamp')}}}
+article .blk-honest h2{{padding-right:40px}}
+article .blk-honest p:first-of-type{{color:var(--fg2)}}
+/* scene: a softer paper tone, in italics */
+article .blk-scene{{background:#251f2e;border:1px solid #362e43;border-radius:4px 16px 16px 16px;padding:18px 20px 20px}}
+.blk-scene::before{{content:"A made-up story";color:#d8cde4}}
+article .blk-scene p{{font-style:italic;color:#e9e2f0}}
+article .blk-scene p:first-of-type{{color:var(--fg2)}}
+/* bridge: a signpost */
+article .blk-bridge{{border-top:1px dashed #3d3550;border-bottom:1px dashed #3d3550;padding:16px 0 16px 46px}}
+.blk-bridge::before{{content:"";position:absolute;left:4px;top:18px;width:28px;height:28px;background:var(--acc);{mask('signpost')}}}
+article .blk-bridge a{{font-size:1.12em;{SC}white-space:nowrap}}
+article .blk-bridge a::after{{content:"";display:inline-block;width:18px;height:18px;margin-left:6px;vertical-align:-3px;background:currentColor;{mask('arrow')}}}
+/* sheet: cut along the dashes */
+article .blk-sheet{{border:2px dashed color-mix(in srgb,var(--fg2) 55%,transparent);border-radius:10px;padding:18px 18px 12px;background:#16121e}}
+.blk-sheet::before{{content:"Printable sheet";color:var(--fg2);padding-left:30px;min-height:22px;background:{ico('printer', '#bdb3cc')} left center/22px no-repeat}}
+.blk-sheet::after{{content:"";position:absolute;right:28px;top:-14px;width:28px;height:26px;background:var(--night) {ico('scissors', '#bdb3cc')} center/22px no-repeat}}
+article .blk-sheet h2{{font-size:1.3rem;margin:1.3em 0 .3em}}
+article .blk-sheet h2:first-of-type{{margin-top:.2em}}
+article .blk-sheet ul.checks li{{padding:.5em 0 .5em 1.25em;text-indent:-1.25em;border-bottom-color:#2d2639}}
+/* shell */
+[hidden]{{display:none!important}}
+html:not(.js) [data-js]{{display:none!important}}
+button{{font-family:var(--sans)}}
+details:not([open])>:not(summary){{display:none}}
+.by{{font-size:1rem;line-height:1.5;color:#f1e9ee;margin:14px 0 0}}.by a{{color:#fff;display:inline-block;padding:10px 0;margin:-10px 0}}
+.tools{{display:flex;flex-wrap:wrap;align-items:center;gap:8px 12px;margin:12px 0 0}}
+.mode{{display:inline-flex;padding:3px;border-radius:999px;background:rgba(10,8,16,.55);border:1px solid rgba(255,255,255,.14)}}
+.mode button,.disc{{min-height:44px;padding:0 16px;border-radius:999px;border:0;background:none;color:#f1e9ee;font:600 1rem/1 var(--sans);cursor:pointer}}
+.mode button[aria-pressed=true]{{background:var(--acc);color:#1c1322}}
+.disc{{border:1px solid rgba(255,255,255,.22);background:rgba(10,8,16,.4)}}.disc[aria-pressed=true]{{background:#f1e9ee;color:#1c1322}}
+.otp{{margin:12px 0 0;background:rgba(10,8,16,.55);border:1px solid rgba(255,255,255,.14);border-radius:12px;font-size:1rem}}
+.otp summary{{cursor:pointer;min-height:48px;display:flex;align-items:center;padding:0 14px;font-weight:600;color:#fff}}
+.otp summary::before{{content:"▸";margin-right:10px;transition:transform .2s var(--ease-out)}}.otp[open] summary::before{{transform:rotate(90deg)}}
+.otp ol{{margin:0;padding:0 14px 8px;list-style:none}}.otp a{{display:block;padding:10px 0;color:#f1e9ee;border-top:1px solid rgba(255,255,255,.1);text-decoration:none}}
+.prog{{position:fixed;top:0;left:0;right:0;height:3px;z-index:9600;pointer-events:none}}.prog i{{display:block;height:100%;background:var(--acc);transform:scaleX(0);transform-origin:0 50%}}
+.end{{max-width:44rem;margin:40px auto 0;padding-top:20px;border-top:1px solid var(--line);font-size:1rem;color:var(--fg2)}}
+.end p{{margin:0 0 8px}}.end a{{display:inline-block;padding:10px 0;margin:-10px 0}}
+.share button{{min-height:44px;padding:0 4px;border:0;background:none;color:var(--acc);font:600 1rem/1 var(--sans);text-decoration:underline;text-underline-offset:.2em;cursor:pointer}}
+footer .disc{{color:var(--fg2);margin-top:8px}}
+.rail,.dock .leave{{font-family:var(--sans)}}
+.rail{{display:none}}
+.dock{{position:fixed;left:0;right:0;bottom:0;z-index:8999;display:grid;grid-template-columns:auto auto 1fr;align-items:end;gap:8px;padding:8px 12px calc(8px + env(safe-area-inset-bottom));
+background:rgba(17,14,25,.96);border-top:1px solid var(--line)}}
+.dock a,.dock button{{display:flex;align-items:center;justify-content:center;min-height:48px;padding:0 12px;border-radius:12px;border:1px solid var(--line);background:var(--panel);
+color:var(--fg);font:600 .95rem/1.1 var(--sans);white-space:nowrap;text-decoration:none;text-align:center;cursor:pointer}}
+.dock button[aria-pressed=true]{{background:var(--acc);color:#1c1322;border-color:var(--acc)}}
+.dock [data-mode-toggle]{{min-width:8.4em}}.dock .leave{{min-height:56px;background:#7a2730;border-color:#a33a45;color:#fff;font-size:1.1rem}}
+body:has(.dock) footer{{padding-bottom:120px}}
+@media (max-width:1099px){{.tools .mode{{display:none}}}}
+@media (min-width:1100px){{.dock{{display:none}}.otp{{display:none}}
+.rail{{display:flex;flex-direction:column;gap:6px;position:fixed;z-index:50;top:84px;right:calc(50% + 22rem + 24px);width:min(240px,calc(50vw - 22rem - 40px));max-height:calc(100vh - 100px);overflow:auto;
+padding:14px;background:rgba(17,14,25,.94);border:1px solid var(--line);border-radius:14px;font-size:.95rem;line-height:1.35}}
+.rail p{{margin:0}}.rail .r-loc a{{color:var(--acc);display:inline;padding:0;margin:0}}.rail .r-t{{font:400 1.2rem/1.2 var(--disp);color:#fff;margin:4px 0 6px}}
+.rail ol{{list-style:none;margin:0;padding:0;border-top:1px solid var(--line)}}.rail ol a{{display:block;padding:9px 0;color:var(--fg2);text-decoration:none;border-bottom:1px solid var(--line)}}
+.rail ol a:hover{{color:#fff}}
+.rail .leave{{position:sticky;bottom:0;flex:none;box-shadow:0 -12px 12px rgba(17,14,25,.94);margin-top:10px;min-height:52px;border-radius:12px;background:#7a2730;border:1px solid #a33a45;color:#fff;font:600 1.1rem/1 var(--sans);cursor:pointer}}}}
+/* Just the steps: keep the short answer, the step, the decoder, safety links, lists and tables */
+.steps article>:not(.blk-action):not(.blk-decoder):not(ul):not(ol):not(.tbl):not(h2:has(+ul,+ol,+.tbl)):not(p:has(a.tel,a[href$="/if-youre-not-safe-right-now"],a[href$="/find-help"],a[href$="/when-its-more-than-aftermath"])),
+.steps details.sources{{display:none}}
+@media print{{@page{{margin:14mm}}html{{background:#fff;color-scheme:light}}.sky{{background:none!important;padding-bottom:16px}}.sky .loc,.sky .q,.by{{color:#000!important}}footer,.end,.end a{{color:#333!important}}.short{{margin-top:8px}}.prog,.rail,.dock,.tools,.otp,.share,.dv-copy,.bar::after,footer .disc{{display:none!important}}
+article>h2::before{{background:#999}}article .blk-sheet{{border-color:#000;background:none;break-before:page;break-after:page}}.blk-sheet::after{{background-color:#fff}}
+.blk-sheet::before{{color:#000}}article .blk-sheet ul.checks li{{border-bottom-color:#999;break-inside:avoid}}
+article .blk-action,article .blk-scene,article .blk-honest,article .blk-decoder{{background:none;box-shadow:none;border:1px solid #999;break-inside:avoid}}
+.dv-say,.dv-reply{{background:#eee;color:#000}}.dv-l,.dv-why,article .blk p,article .blk h2,.by,.by a{{color:#000!important}}}}
+"""
+
+COVER_CSS = "".join(f'.where.tiles a[href$="#{k}"]{{--ico:{ico(v)}}}' for k, v in {
+    "i-left-in-the-last-few-days": "door", "they-keep-contacting-me": "msg", "we-have-children-together": "users",
+    "theres-a-court-case": "scale", "i-dont-feel-safe": "shield", "i-cant-stop-thinking-about-them": "moon"}.items()) + f"""
+/* C's cover tiles: each choice a different hour of the night */
+.where.tiles li,.more .where li{{display:flex}}.where.tiles a,.more .where a{{flex:1}}
+.where.tiles{{grid-template-columns:1fr 1fr;gap:10px}}
+.where.tiles a{{flex-direction:column;align-items:flex-start;justify-content:space-between;gap:14px;min-height:120px;padding:14px;
+border:1px solid rgba(255,255,255,.1);border-radius:18px;color:#fff;font-size:1.1rem;line-height:1.28;background:linear-gradient(165deg,var(--t2),var(--t1))}}
+.where.tiles a::before{{content:"";width:28px;height:28px;background:#fff;opacity:.92;-webkit-mask:var(--ico) center/contain no-repeat;mask:var(--ico) center/contain no-repeat}}
+.where.tiles li:nth-child(1) a{{--t1:#1b1430;--t2:#3a2346}}.where.tiles li:nth-child(2) a{{--t1:#171630;--t2:#3d2c57}}
+.where.tiles li:nth-child(3) a{{--t1:#141c36;--t2:#2e3c64}}.where.tiles li:nth-child(4) a{{--t1:#13203a;--t2:#2d4668}}
+.where.tiles li:nth-child(5) a{{--t1:#2a1520;--t2:#5a2633}}.where.tiles li:nth-child(6) a{{--t1:#1a2e48;--t2:#4b5068}}
+@media (hover:hover) and (pointer:fine){{.where.tiles a:hover{{border-color:var(--acc)}}}}
+.more .where{{grid-template-columns:1fr 1fr}}
+.more .where a{{min-height:64px;padding:10px 12px;font-size:1.1rem;line-height:1.28;border-radius:14px;background:linear-gradient(165deg,#2a2440,#1a1527)}}
+"""
+
 JS = f"""<script>
 (function(){{var O={json.dumps(OLD['chapters'])},R={json.dumps(OLD['routes'])},h=location.hash,m;
 if((m=h.match(/^#\\/c\\/(\\d+)/))&&O[m[1]])location.replace('{BASE}/'+O[m[1]]);
 else if((m=h.match(/^#\\/(\\w+)/))&&R[m[1]])location.replace('{BASE}/'+R[m[1]]);
+var D=document,H=D.documentElement,$$=function(q){{return D.querySelectorAll(q)}};
 function leave(){{try{{document.title='New Tab';document.body.innerHTML='';}}catch(e){{}}location.replace('about:blank');}}
-document.addEventListener('click',function(e){{var t=e.target.closest&&e.target.closest('[data-leave]');if(t){{e.preventDefault();leave();}}}});
-addEventListener('beforeprint',function(){{document.querySelectorAll('details').forEach(function(d){{d.open=true}})}});
-document.addEventListener('keydown',function(e){{if(e.key==='Escape'&&!document.querySelector('.nf-open,[data-nf-open]'))leave();}});
+D.addEventListener('click',function(e){{var t=e.target.closest&&e.target.closest('[data-leave]');if(t){{e.preventDefault();leave();}}}});
+addEventListener('beforeprint',function(){{$$('details').forEach(function(d){{d.open=true}})}});
+var esc=0;D.addEventListener('keydown',function(e){{if(e.key!=='Escape'||D.querySelector('.nf-open,[data-nf-open]'))return;
+var n=Date.now();if(n-esc<1500)leave();else esc=n;}});
+/* nothing below stores anything: every setting lives in memory and resets on reload */
+function steps(on){{H.classList.toggle('steps',on);$$('[data-mode]').forEach(function(b){{b.setAttribute('aria-pressed',String((b.dataset.mode==='steps')===on))}});
+$$('[data-mode-toggle]').forEach(function(b){{b.setAttribute('aria-pressed',String(on));b.textContent=on?'Full read':'Just the steps'}});}}
+$$('[data-mode]').forEach(function(b){{b.onclick=function(){{steps(b.dataset.mode==='steps')}}}});
+$$('[data-mode-toggle]').forEach(function(b){{b.onclick=function(){{steps(!H.classList.contains('steps'))}}}});
+var title0=D.title,disc=false,fav=null;$$('[data-discreet]').forEach(function(b){{b.onclick=function(){{disc=!disc;D.title=disc?'Reading':title0;
+if(disc){{fav=D.createElement('link');fav.rel='icon';fav.href='data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 16 16%22%3E%3Crect width=%2216%22 height=%2216%22 rx=%223%22 fill=%22%23888%22/%3E%3C/svg%3E';D.head.appendChild(fav)}}
+else if(fav){{D.head.removeChild(fav);fav=null}}$$('[data-discreet]').forEach(function(x){{x.setAttribute('aria-pressed',String(disc))}});}}}});
+function flash(b,t,t0){{b.textContent=t;clearTimeout(b._t);b._t=setTimeout(function(){{b.textContent=t0}},2000)}}
+$$('.dv-copy').forEach(function(b){{if(!navigator.clipboard){{b.hidden=true;return}}b.onclick=function(){{
+var x=b.parentNode.querySelector('.dv-t').textContent.trim(),q=x.match(/\\u201c[^\\u201d]+\\u201d/g);if(q)x=q.map(function(s){{return s.slice(1,-1)}}).join(' ');
+navigator.clipboard.writeText(x).then(function(){{flash(b,'Copied','Copy')}})}}}});
+$$('[data-share]').forEach(function(b){{b.onclick=function(){{var u=location.href.split('#')[0];
+if(navigator.share)navigator.share({{title:D.title,url:u}}).catch(function(){{}});
+else if(navigator.clipboard)navigator.clipboard.writeText(u).then(function(){{flash(b,'Link copied','Share this page')}});}}}});
+var bar=D.querySelector('.prog i');if(bar){{var f=0;addEventListener('scroll',function(){{if(f)return;f=requestAnimationFrame(function(){{f=0;
+var d=H.scrollHeight-innerHeight;bar.style.transform='scaleX('+(d>0?Math.min(1,scrollY/d):0)+')'}})}},{{passive:true}});}}
 }})();
 </script>"""
 
@@ -316,7 +500,7 @@ def house():
 HOUSE = None
 
 
-def frame(*, title, desc, url, ld, body, part, robots=None, og_type="article"):
+def frame(*, title, desc, url, ld, body, part, robots=None, og_type="article", extra_css=""):
     s1, s2, acc = SKY.get(part, SKY["start"])
     order = list(SKY)
     dawn = round(max(0, order.index(part) - 1) / 11, 2) if part in order and part != "tools" else 0.1
@@ -329,7 +513,10 @@ def frame(*, title, desc, url, ld, body, part, robots=None, og_type="article"):
             "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1, viewport-fit=cover\">\n" + head +
             f'<meta name="theme-color" content="{s1}">\n'
             f'<link rel="preload" href="{BASE}/f/bookserif-400-700-normal.woff2" as="font" type="font/woff2" crossorigin>\n'
-            f"<style>{FONTS}{CSS}:root{{--s1:{s1};--s2:{s2};--acc:{acc};--dawn:{dawn}}}</style>\n{hc}\n"
+            f'<link rel="preload" href="{BASE}/f/bookdisplay-400-normal.woff2" as="font" type="font/woff2" crossorigin>\n'
+            f'<link rel="preload" href="{BASE}/f/bookserif-400-700-italic.woff2" as="font" type="font/woff2" crossorigin>\n'
+            "<script>document.documentElement.className+=' js'</script>\n"
+            f"<style>{FONTS}{CSS}{extra_css}:root{{--s1:{s1};--s2:{s2};--acc:{acc};--dawn:{dawn}}}</style>\n{hc}\n"
             + (f'<script type="application/ld+json">{S.ld_json(ld)}</script>\n' if ld else "") + "</head>\n<body>\n"
             '<a class="skip" href="#text">Skip to the text</a>\n'
             f'<header class="bar"><a class="home" href="{BASE}">The Long After</a>'
@@ -340,7 +527,8 @@ def frame(*, title, desc, url, ld, body, part, robots=None, og_type="article"):
             f'<a href="{BASE}/how-to-use-this-book">What this book is and isn\u2019t</a>.</p>'
             f'<nav aria-label="More"><a href="{BASE}">The Long After</a><a href="{BASE}/contents">Every chapter</a>'
             f'<a href="{BASE}/search">Search</a><a href="{BASE}/all">The whole book on one page</a><a href="/playbook">The Pattern Decoder</a>'
-            '<a href="/topics">All topics</a><a href="/">Noble Father Creations</a></nav></div></footer>\n'
+            '<a href="/topics">All topics</a><a href="/">Noble Father Creations</a></nav>'
+            '<button class="disc" type="button" data-discreet aria-pressed="false" data-js>Discreet mode</button></div></footer>\n'
             + hh + "\n" + hj + "\n" + JS + "\n" + beacon + "\n</body>\n</html>\n")
 
 
@@ -425,10 +613,29 @@ def page(slug, ch, pos):
         graph[0]["mainEntity"] = faq_items(main)
     if slug == "a-to-z":
         graph.append({"@type": "DefinedTermSet", "@id": url + "#terms", "name": "Post-separation abuse terms", "hasDefinedTerm": terms(main)})
-    body = (f'<div class="sky"><div class="in"><p class="loc">{loc_line(c)}</p>'
-            f'<h1 id="top">{html.escape(smart(c["title"]))}</h1><p class="q">{html.escape(smart(m["question"]))}</p></div></div>\n'
+    h2s = [(i, plain(t)) for i, t in re.findall(r'<h2 id="([^"]+)">(.*?)</h2>', body_html)]
+    mins = max(1, round(len(plain(body_html + " " + m["short"]).split()) / 220))
+    jump = "".join(f'<li><a href="#{i}">{html.escape(t)}</a></li>' for i, t in h2s)
+    otp = f'<details class="otp"><summary>On this page</summary><ol>{jump}</ol></details>' if len(h2s) >= 5 else ""
+    title_h = html.escape(smart(c["title"]))
+    end = (f'<aside class="end" aria-label="Who made this"><p>{html.escape(MANIFEST["who_made_this"])} '
+           f'<a href="{MANIFEST["about_url"]}">Who made this \u2192</a></p>'
+           '<p class="share" data-js>Know someone this would help? <button type="button" data-share>Share this page</button></p></aside>'
+           if slug not in CRISIS else "")
+    chrome = ('<div class="prog" aria-hidden="true"><i></i></div>'
+              f'<nav class="rail" aria-label="This chapter"><p class="r-loc">{loc_line(c)}</p><p class="r-t">{title_h}</p>'
+              + (f'<ol>{jump}</ol>' if h2s else "") +
+              '<button class="leave" type="button" data-leave>Leave</button></nav>'
+              '<nav class="dock" aria-label="Quick actions"><button type="button" data-mode-toggle aria-pressed="false" data-js>Just the steps</button>'
+              f'<a href="{BASE}/contents">Contents</a><button class="leave" type="button" data-leave>Leave</button></nav>\n')
+    body = (f'{chrome}<div class="sky"><div class="in"><p class="loc">{loc_line(c)}</p>'
+            f'<h1 id="top">{title_h}</h1><p class="q">{html.escape(smart(m["question"]))}</p>'
+            f'<p class="by">By <a href="{MANIFEST["about_url"]}">{MANIFEST["author"]}</a> \u00b7 Last reviewed <time datetime="{S.TODAY}">{S.TODAY_HUMAN}</time> \u00b7 {mins} min read</p>'
+            '<div class="tools" data-js><div class="mode" role="group" aria-label="How much to show">'
+            '<button type="button" data-mode="full" aria-pressed="true">Full read</button><button type="button" data-mode="steps" aria-pressed="false">Just the steps</button></div>'
+            f'<button class="disc" type="button" data-discreet aria-pressed="false">Discreet mode</button></div>{otp}</div></div>\n'
             f'<main id="text">{callnow}<section class="short" aria-label="The short answer"><p class="lab">The short answer</p>'
-            f'<p>{(inline(m["short"]))}</p></section>\n<p class="notice">{BOOK["notice_short"]} <a href="{BASE}/how-to-use-this-book">Full notice</a>.</p>\n<article>{body_html}</article><p class="byline">Written by Shae Stovell. Sources are listed below. Last reviewed <time datetime="{S.TODAY}">{S.TODAY_HUMAN}</time>.</p>{src_html}{nxt}</main>')
+            f'<p>{(inline(m["short"]))}</p></section>\n<p class="notice">{BOOK["notice_short"]} <a href="{BASE}/how-to-use-this-book">Full notice</a>.</p>\n<article>{body_html}</article>{src_html}{nxt}{end}</main>')
     return frame(title=title, desc=desc, url=url, ld={"@context": "https://schema.org", "@graph": graph}, body=body, part=c["part"])
 
 
@@ -466,7 +673,7 @@ def index_html():
               "description": BOOK["description"], "inLanguage": "en", "about": {"@id": URL + "#book"},
               "dateModified": S.TODAY, "isAccessibleForFree": True, "license": S.LICENSE_URL}, S.PERSON, S.ORG]
     wl = [f'<li><a href="{BASE}/where-are-you-right-now#{S.slugify(h, 60)}">{html.escape(h)}</a></li>' for h in where_items()]
-    where = '<ul class="where">' + "".join(wl[:6]) + "</ul>" + ('<details class="more"><summary>More situations</summary><ul class="where">' + "".join(wl[6:]) + "</ul></details>" if len(wl) > 6 else "")
+    where = '<ul class="where tiles">' + "".join(wl[:6]) + "</ul>" + ('<details class="more"><summary>More situations</summary><ul class="where">' + "".join(wl[6:]) + "</ul></details>" if len(wl) > 6 else "")
     body = (f'<div class="sky" style="--s1:#120d22;--s2:#3d2448"><div class="cover">'
             f'<img src="{BASE}/cover.webp" width="720" height="1073" alt="The Long After by Shae Stovell, book cover" fetchpriority="high">'
             '<h1>The Long After</h1><p class="q">What happens once you\u2019ve left. A free guide to post-separation abuse, '
@@ -490,7 +697,7 @@ def index_html():
             '<p class="lede">v4 \u00b7 21 November 2026. Every chapter got its own page. v3 \u00b7 1 September 2026. Cover watermark updated. '
             'v2 \u00b7 1 September 2026. First published.</p></section></main>')
     return frame(title="The Long After: Post-Separation Abuse After Leaving", desc=BOOK["description"], url=URL,
-                 ld={"@context": "https://schema.org", "@graph": graph}, body=body, part="start", og_type="book")
+                 ld={"@context": "https://schema.org", "@graph": graph}, body=body, part="start", og_type="book", extra_css=COVER_CSS)
 
 
 def simple(title, desc, url, inner, robots=None, part="start", ld=None):
