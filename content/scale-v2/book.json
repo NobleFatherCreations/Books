@@ -1,0 +1,186 @@
+{
+ "slug": "scale",
+ "title": "The Weighing",
+ "source": "content/scale-v2",
+ "plan": "plan.json",
+ "countries": [
+  "UK",
+  "US",
+  "IE",
+  "CA",
+  "AU"
+ ],
+ "shapes_allowed": [
+  "scenario",
+  "question",
+  "myth",
+  "tool"
+ ],
+ "chapter_class": {
+  "crisis": "heavy",
+  "legal_parts": []
+ },
+ "gate": {
+  "para_warn": 60,
+  "para_fail": 90,
+  "anchor_every": 350,
+  "grade_max": {
+   "crisis": 8,
+   "default": 9,
+   "legal": 11
+  }
+ },
+ "concepts": {
+  "base rate": [
+   "base rate",
+   "base rates",
+   "how common is this"
+  ],
+  "false positive": [
+   "false positive",
+   "false positives",
+   "misreading it"
+  ],
+  "false negative": [
+   "false negative",
+   "false negatives",
+   "missing it"
+  ],
+  "calibration": [
+   "calibration",
+   "calibrated"
+  ],
+  "the gradient": [
+   "the gradient",
+   "rude, thoughtless",
+   "seven positions"
+  ],
+  "three explanations": [
+   "three explanations",
+   "hostile, one neutral"
+  ],
+  "the naming test": [
+   "naming test"
+  ],
+  "repair": [
+   "repair happens",
+   "four components",
+   "apology"
+  ],
+  "the cost of no": [
+   "cost of no",
+   "refuse something small"
+  ],
+  "reference sample": [
+   "reference sample",
+   "what healthy looks like"
+  ],
+  "smoke alarm": [
+   "smoke alarm"
+  ],
+  "confirmation bias": [
+   "confirmation bias",
+   "the file that builds itself"
+  ],
+  "intent and impact": [
+   "intent and impact",
+   "mind-reading",
+   "what they meant"
+  ],
+  "secondhand accounts": [
+   "secondhand",
+   "second-hand"
+  ],
+  "power": [
+   "power changes",
+   "unaccountable power"
+  ],
+  "certainty as a tell": [
+   "certainty is the tell",
+   "total explanatory coverage"
+  ],
+  "track record": [
+   "track record",
+   "score your own",
+   "past calls"
+  ],
+  "gaslighting": [
+   "gaslighting"
+  ],
+  "narcissist": [
+   "narcissist",
+   "narcissism"
+  ],
+  "coercive control": [
+   "coercive control"
+  ],
+  "DARVO": [
+   "darvo"
+  ],
+  "love bombing": [
+   "love bombing",
+   "love-bombing"
+  ],
+  "stonewalling": [
+   "stonewalling",
+   "silent treatment"
+  ]
+ },
+ "reference_pages": [
+  "field-card",
+  "limits"
+ ],
+ "audit": "",
+ "rewrite": {
+  "headers": [
+   "title",
+   "short"
+  ],
+  "scene_line": "",
+  "honest_line": "",
+  "crisis": [
+   "ch:when-weighing-stops",
+   "ch:before-you-test-is-testing-safe",
+   "ch:this-book-in-the-wrong-hands"
+  ]
+ },
+ "step2": {
+  "concept_homes": {
+   "base rate": "most-people-most-days",
+   "false positive": "the-two-errors-and-what-they-actually-cost",
+   "false negative": "the-two-errors-and-what-they-actually-cost",
+   "calibration": "you-learned-to-see-this-is-how-you-learn-to-weigh",
+   "the gradient": "the-gradient",
+   "three explanations": "the-discipline-of-three-explanations",
+   "the naming test": "the-naming-test",
+   "repair": "repair-and-apologys-counterfeit",
+   "the cost of no": "the-cost-of-no",
+   "reference sample": "the-reference-sample",
+   "smoke alarm": "the-gut-sensor-or-smoke-alarm",
+   "confirmation bias": "the-file-that-builds-itself",
+   "intent and impact": "intent-impact-and-the-mind-reading-trap",
+   "secondhand accounts": "secondhand-accounts",
+   "power": "power-changes-the-meaning",
+   "certainty as a tell": "certainty-is-the-tell",
+   "track record": "scoring-your-own-past-calls"
+  },
+  "decoder_dialogue": [],
+  "bridges": {
+   "am-i-the-one-doing-it": {
+    "repair:index": "if the self-audit says some of it was you"
+   },
+   "institutions-weigh-differently": {
+    "faith:index": "for institutions at depth, The Sacred Divide and its records toolkit"
+   },
+   "when-weighing-stops": {
+    "longafter:if-youre-not-safe-right-now": "if you have already left and it is not over"
+   },
+   "is-it-you-or-is-it-everyone": {
+    "atwill:index": "if the place you are weighing is a job"
+   },
+   "intent-impact-and-the-mind-reading-trap": {
+    "loop:index": "The Loop builds on this chapter's line about intent and impact"
+   }
+  }
+ }
+}

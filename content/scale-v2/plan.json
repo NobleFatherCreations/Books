@@ -120,7 +120,7 @@
     "intimidation",
     "minimization"
    ],
-   "heavy": false
+   "heavy": true
   },
   {
    "slug": "the-two-errors-and-what-they-actually-cost",
@@ -355,7 +355,7 @@
     "non-apology-apologies",
     "accountability-reset"
    ],
-   "heavy": false
+   "heavy": true
   },
   {
    "slug": "the-naming-test",
@@ -581,7 +581,7 @@
     "isolation",
     "administrative-escalation"
    ],
-   "heavy": false
+   "heavy": true
   },
   {
    "slug": "trust-as-a-skill-you-rebuild",
