@@ -110,5 +110,63 @@
     "the-card",
     "all-sources",
     "what-this-book-might-have-wrong"
-  ]
+  ],
+  "step2": {
+    "concept_homes": {
+      "post-separation abuse": "what-is-post-separation-abuse",
+      "coercive control": "what-is-post-separation-abuse",
+      "hoovering": "hoovering",
+      "financial abuse": "money-as-the-channel",
+      "litigation abuse": "systems-abuse",
+      "protective order": "police-and-protective-orders",
+      "safety plan": "a-safety-plan-for-after-youve-left",
+      "documentation": "what-to-document-and-how",
+      "grey rock": "grey-rock-and-written-only-contact",
+      "DARVO": "is-my-ex-a-narcissist",
+      "BIFF": "words-you-can-use",
+      "gaslighting": "memory",
+      "trauma bond": "the-trauma-bond",
+      "parallel parenting": "co-parenting-or-parallel-parenting",
+      "stalking": "stalking-and-harassment",
+      "flying monkeys": "your-family-and-mutual-friends"
+    },
+    "decoder_dialogue": [
+      "words-you-can-use",
+      "grey-rock-and-written-only-contact",
+      "messages-you-dont-have-to-answer",
+      "family-court-honestly",
+      "your-day-in-court",
+      "co-parenting-or-parallel-parenting",
+      "handovers",
+      "hoovering",
+      "the-narrative-campaign",
+      "when-they-say-youre-the-abuser"
+    ],
+    "bridges": {
+      "work-again": {
+        "atwill:a-bad-job-versus-a-coercive-one": "if work itself starts to feel like another controlling relationship, or your ex is going after your job"
+      },
+      "sharing-a-town-a-workplace-or-a-community": {
+        "atwill:index": "if you share a workplace and it is being used against you"
+      },
+      "if-your-story-doesnt-look-like-the-usual-one": {
+        "silence:nobody-asked-and-you-noticed": "for men whose story nobody thought to ask about"
+      },
+      "children-as-the-channel": {
+        "silence:the-children-as-leverage": "for fathers being kept from their children"
+      },
+      "when-they-say-youre-the-abuser": {
+        "repair:the-difference-and-why-its-practical": "if the honest check leaves you wondering whether some of it was you"
+      },
+      "abuse-or-a-hard-breakup": {
+        "repair:index": "if you think you may have been the one doing harm"
+      },
+      "your-parents": {
+        "slowtake:index": "if it is an older parent being controlled, by a partner, a carer or a family member"
+      },
+      "helping-someone-in-year-one": {
+        "slowtake:this-is-written-for-the-son-or-the-daughter": "if the person you are helping is an older parent"
+      }
+    }
+  }
 }
