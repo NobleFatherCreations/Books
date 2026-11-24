@@ -9,3 +9,8 @@ PASSED: 0 failing check(s). Read <profile>/contact.jpg first, then the individua
 
 PASSED: 0 failing check(s). Read <profile>/contact.jpg first, then the individual screenshots. These gates are necessary, not sufficient.
 == field-card
+   WARN  4 font families in use: Fraunces, ui-monospace, Georgia, system-ui (rule: max 2)
+   WARN  11 distinct text colours (aim <= 6)
+
+PASSED: 0 failing check(s). Read <profile>/contact.jpg first, then the individual screenshots. These gates are necessary, not sufficient.
+== when-weighing-stops
