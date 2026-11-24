@@ -258,6 +258,9 @@ border:1px solid rgba(255,255,255,.1);border-radius:18px;color:#fff;font-size:1.
 .more .where a{{min-height:64px;padding:10px 12px;font-size:1.1rem;line-height:1.28;border-radius:14px;background:linear-gradient(165deg,#2a2440,#1a1527)}}
 """
 
+# The Weighing's own fixes on top of the inherited skin: long sister-book titles and printable blank lines must wrap on phones
+CSS += "article .blk-bridge a{white-space:normal}article .blk-sheet p,article .blk-sheet li{overflow-wrap:anywhere}"
+
 JS = SH.js(OLD['chapters'], OLD['routes'], BASE)
 
 
