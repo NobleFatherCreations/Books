@@ -187,7 +187,8 @@
     "intimidation",
     "minimization"
    ],
-   "heavy": true
+   "heavy": true,
+   "desc": "Someone using therapy language against you, like \"you're overreacting\" or \"it's your past,\" to make you doubt them is evidence. Three rules come first."
   },
   {
    "slug": "the-two-errors-and-what-they-actually-cost",
@@ -200,7 +201,8 @@
     "am I being paranoid in my relationship"
    ],
    "decoder": [],
-   "heavy": false
+   "heavy": false,
+   "desc": "False positive vs false negative in relationships: missing real manipulation, or calling ordinary failure manipulation. Neither is always worse. Price both."
   },
   {
    "slug": "most-people-most-days",
@@ -257,7 +259,8 @@
    ],
    "decoder": [],
    "heavy": false,
-   "new": true
+   "new": true,
+   "desc": "Toxic relationship or coercive control? Conflict is weather: storms that pass, both still free. Control is climate: one adapts while their freedom shrinks."
   },
   {
    "slug": "a-boundary-or-a-rule",
@@ -286,7 +289,8 @@
    "decoder": [
     "hoovering-relief-bait"
    ],
-   "heavy": false
+   "heavy": false,
+   "desc": "Is it trauma or a red flag? Your alarm was tuned in an old room by an old person. Ask whose voice it sounds like, which era it's from, and if the size fits."
   },
   {
    "slug": "the-gut-sensor-or-smoke-alarm",
@@ -313,7 +317,8 @@
    ],
    "decoder": [],
    "heavy": false,
-   "new": true
+   "new": true,
+   "desc": "Gut feeling or anxiety? Intuition points at something specific and settles with information. Anxiety loops back to you and wants another answer every time."
   },
   {
    "slug": "when-people-say-youre-overreacting",
@@ -341,7 +346,8 @@
    ],
    "decoder": [],
    "heavy": false,
-   "new": true
+   "new": true,
+   "desc": "Cognitive biases in relationships push toward suspicion of decent people and excuses for harmful ones. You can't switch them off, but each has a counter-move."
   },
   {
    "slug": "grief-in-the-costume-of-analysis",
@@ -384,7 +390,8 @@
    "decoder": [
     "isolation"
    ],
-   "heavy": false
+   "heavy": false,
+   "desc": "Why does everything feel worse at night? Judgement is done by a body, and sleep loss, hunger and fear push it toward threat while feeling just as certain."
   },
   {
    "slug": "the-reference-sample",
@@ -400,7 +407,8 @@
     "hoovering-relief-bait",
     "non-apology-apologies"
    ],
-   "heavy": false
+   "heavy": false,
+   "desc": "What does a healthy relationship look like? It still has arguments and unsolved problems. The difference is the aftermath: repair, and a \"no\" you survive."
   },
   {
    "slug": "what-is-evidence",
@@ -479,7 +487,8 @@
     "minimization",
     "non-apology-apologies"
    ],
-   "heavy": false
+   "heavy": false,
+   "desc": "Manipulation or just tired? Most behaviour that looks like a tactic has a cheaper cause. Someone who is just tired improves with sleep. A tactic survives it."
   },
   {
    "slug": "intent-impact-and-the-mind-reading-trap",
@@ -520,7 +529,8 @@
    ],
    "decoder": [],
    "heavy": false,
-   "new": true
+   "new": true,
+   "desc": "What does this text mean? A text strips out face, voice and timing, so your brain fills in the tone, usually with your worst guess. Ask what you need to know."
   },
   {
    "slug": "i-dont-remember-it-that-way",
@@ -534,7 +544,8 @@
    ],
    "decoder": [],
    "heavy": false,
-   "new": true
+   "new": true,
+   "desc": "Gaslighting or remembering differently? Honest people often recall the same evening differently. Honest disagreement welcomes a check. Gaslighting fights it."
   },
   {
    "slug": "screenshots-and-what-they-leave-out",
@@ -563,7 +574,8 @@
    "decoder": [
     "context-collapse"
    ],
-   "heavy": false
+   "heavy": false,
+   "desc": "Should you believe what people tell you about your partner? Only provisionally: stories change in transit. Ask who saw it and what they want."
   },
   {
    "slug": "judging-strangers-through-screens",
@@ -598,7 +610,8 @@
     "non-apology-apologies",
     "accountability-reset"
    ],
-   "heavy": true
+   "heavy": true,
+   "desc": "Is it safe to confront a controlling partner? Check first: violence or threats, punished refusals, fear, a child at risk, being cut off. One yes means don't."
   },
   {
    "slug": "the-naming-test",
@@ -630,7 +643,8 @@
    "decoder": [
     "non-apology-apologies"
    ],
-   "heavy": false
+   "heavy": false,
+   "desc": "Real apology vs fake apology: a real one names the thing, sets no conditions and is followed by weeks of change. A fake one ends with you comforting them."
   },
   {
    "slug": "the-cost-of-no",
@@ -643,7 +657,8 @@
     "cost of saying no"
    ],
    "decoder": [],
-   "heavy": false
+   "heavy": false,
+   "desc": "What happens when you say no to a controlling person? The price is quiet and lasting: the temperature drops and your no becomes proof you're selfish."
   },
   {
    "slug": "is-it-you-or-is-it-everyone",
@@ -691,7 +706,8 @@
    "decoder": [
     "non-apology-apologies"
    ],
-   "heavy": false
+   "heavy": false,
+   "desc": "Red flag or just different? Culture, neurotype, class, generation and language set different norms. Ask about the norm, then check the aftermath."
   },
   {
    "slug": "institutions-weigh-differently",
@@ -718,7 +734,8 @@
    ],
    "decoder": [],
    "heavy": false,
-   "new": true
+   "new": true,
+   "desc": "Reactive abuse: someone controlled for a long time snaps, and the snap is used against them. When you both say victim, ask who fears whom and who adapts."
   },
   {
    "slug": "weighing-someone-new",
@@ -732,7 +749,8 @@
    ],
    "decoder": [],
    "heavy": false,
-   "new": true
+   "new": true,
+   "desc": "Love bombing or genuine interest? Genuine interest can be fast but lets you set the speed. Love bombing is fast and needs you to keep up. Watch the first no."
   },
   {
    "slug": "weighing-family",
@@ -774,7 +792,8 @@
    ],
    "decoder": [],
    "heavy": false,
-   "new": true
+   "new": true,
+   "desc": "A one-sided friendship never tips back, even when their life is fine. A hard season tips for a while. Look at two seasons, and ask for something small back."
   },
   {
    "slug": "weighing-a-group",
@@ -883,7 +902,8 @@
     "deciding when unsure about a relationship"
    ],
    "decoder": [],
-   "heavy": false
+   "heavy": false,
+   "desc": "Do you need proof to leave? No. Whether it's manipulation and what you'll do are separate questions. \"I don't want this\" is a complete reason to step back."
   },
   {
    "slug": "when-you-cant-ever-know",
@@ -952,7 +972,8 @@
    ],
    "decoder": [],
    "heavy": false,
-   "new": true
+   "new": true,
+   "desc": "Couples counselling with a controlling partner, a therapist who met one of you, an online diagnosis: each saw a slice. Weigh what the expert actually saw."
   },
   {
    "slug": "helping-someone-else-weigh",
@@ -998,7 +1019,8 @@
     "isolation",
     "administrative-escalation"
    ],
-   "heavy": true
+   "heavy": true,
+   "desc": "Scared of your partner? Stop weighing and get safe if there's violence or threats, a child at risk, or you're cut off. You don't need proof. What to do now."
   },
   {
    "slug": "changing-your-mind-out-loud",

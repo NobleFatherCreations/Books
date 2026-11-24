@@ -418,7 +418,7 @@ def page(slug, ch, pos):
     nxt = ('<nav class="next" aria-labelledby="nx-h"><h2 id="nx-h">Next, if this is you</h2><ul>'
            + "".join(f'<li><a href="{BASE}/{t}"><small>{k}</small>{html.escape(CH[t]["title"])}</a></li>' for k, t in links)
            + "</ul></nav>")
-    desc = m.get("desc") or whole_sentences(m["short"], 158)
+    desc = m.get("desc") or CH.get(c["slug"], {}).get("desc") or whole_sentences(m["short"], 158)
     title = m["seo"]
     node = {"@type": "Chapter", "@id": url + "#chapter", "name": c["title"], "position": pos, "url": url,
             "isPartOf": {"@id": URL + "#book"}, "author": {"@id": S.PERSON["@id"]}, "inLanguage": "en",
