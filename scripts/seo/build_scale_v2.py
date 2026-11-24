@@ -279,6 +279,8 @@ def labels(h):
         danger = arg.startswith("danger")
         arg = arg[6:].strip() if danger else arg
         cls = f"blk blk-{kind}" + (" blk-danger" if danger else "")
+        if kind == "bridge":   # "book:slug" is link data, not reader text (R1 2026-11-24: it was printing as a label)
+            return f'<div class="{cls}" data-to="{html.escape(arg)}">'
         return f'<div class="{cls}"><p class="blk-k">{html.escape(arg, quote=False)}</p>' if arg else f'<div class="{cls}">'
     h = re.sub(r'<div class="blk blk-(\w+)" data-arg="([^"]*)">', one, h)
     used = set(re.findall(r' id="([^"]+)"', h))

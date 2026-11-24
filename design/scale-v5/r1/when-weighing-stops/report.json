@@ -1,0 +1,327 @@
+{
+ "url": "http://localhost:8765/scale/when-weighing-stops",
+ "at": "2026-11-24T15:01:37.440Z",
+ "engine": "chromium",
+ "profiles": {
+  "phone-dark": {
+   "steps": 19,
+   "fonts": [
+    "Fraunces"
+   ],
+   "tokens": {
+    "radii": 6,
+    "shadows": 4,
+    "families": [
+     "Fraunces",
+     "ui-monospace",
+     "Georgia",
+     "system-ui"
+    ],
+    "colors": 12
+   },
+   "motion": null,
+   "pixels": {
+    "hues": [
+     2,
+     2,
+     2,
+     2,
+     2,
+     2,
+     3,
+     2,
+     2,
+     2,
+     3,
+     3,
+     3,
+     3,
+     3,
+     3,
+     3,
+     3,
+     3
+    ],
+    "empty": [
+     0.19,
+     0.18,
+     0.22,
+     0.23,
+     0.22,
+     0.09,
+     0.21,
+     0.2,
+     0.19,
+     0.29,
+     0.42,
+     0.31,
+     0.2,
+     0.29,
+     0.38,
+     0.32,
+     0.45,
+     0.43,
+     0.44
+    ],
+    "focal": [
+     0.19,
+     0.18,
+     0.18,
+     0.2,
+     0.18,
+     0.15,
+     0.16,
+     0.17,
+     0.18,
+     0.19,
+     0.25,
+     0.23,
+     0.16,
+     0.2,
+     0.22,
+     0.2,
+     0.3,
+     0.28,
+     0.29
+    ],
+    "sizes": [
+     18,
+     19
+    ],
+    "sync": [
+     0,
+     0,
+     0
+    ],
+    "contact": "design/scale-v5/r1/when-weighing-stops/phone-dark/contact.jpg"
+   },
+   "problems": [
+    [
+     "WARN",
+     "tap targets under 40px",
+     [
+      "a \"Full notice\" 73x18",
+      "a \"If you’re not safe right now\" 220x21",
+      "a \"Isolation\" 73x21",
+      "a \"Find help\" 77x21"
+     ]
+    ],
+    [
+     "WARN",
+     "4 font families in use: Fraunces, ui-monospace, Georgia, system-ui (rule: max 2)"
+    ],
+    [
+     "WARN",
+     "12 distinct text colours (aim <= 6)"
+    ],
+    [
+     "WARN",
+     "low focal dominance (0.21): screens may lack one clear focal point"
+    ]
+   ]
+  },
+  "phone-reduced": {
+   "steps": 19,
+   "fonts": [
+    "Fraunces"
+   ],
+   "tokens": {
+    "radii": 6,
+    "shadows": 4,
+    "families": [
+     "Fraunces",
+     "ui-monospace",
+     "Georgia",
+     "system-ui"
+    ],
+    "colors": 12
+   },
+   "motion": null,
+   "pixels": {
+    "hues": [
+     2,
+     2,
+     2,
+     2,
+     2,
+     2,
+     3,
+     2,
+     2,
+     2,
+     3,
+     3,
+     3,
+     3,
+     3,
+     3,
+     3,
+     3,
+     3
+    ],
+    "empty": [
+     0.19,
+     0.18,
+     0.22,
+     0.23,
+     0.22,
+     0.09,
+     0.21,
+     0.2,
+     0.19,
+     0.29,
+     0.42,
+     0.31,
+     0.2,
+     0.29,
+     0.38,
+     0.32,
+     0.45,
+     0.43,
+     0.44
+    ],
+    "focal": [
+     0.19,
+     0.18,
+     0.18,
+     0.2,
+     0.18,
+     0.15,
+     0.16,
+     0.17,
+     0.18,
+     0.19,
+     0.25,
+     0.23,
+     0.16,
+     0.2,
+     0.22,
+     0.2,
+     0.3,
+     0.28,
+     0.29
+    ],
+    "sizes": [
+     18,
+     19
+    ],
+    "sync": [
+     0,
+     0,
+     0
+    ],
+    "contact": "design/scale-v5/r1/when-weighing-stops/phone-reduced/contact.jpg"
+   },
+   "problems": [
+    [
+     "WARN",
+     "tap targets under 40px",
+     [
+      "a \"Full notice\" 73x18",
+      "a \"If you’re not safe right now\" 220x21",
+      "a \"Isolation\" 73x21",
+      "a \"Find help\" 77x21"
+     ]
+    ],
+    [
+     "WARN",
+     "4 font families in use: Fraunces, ui-monospace, Georgia, system-ui (rule: max 2)"
+    ],
+    [
+     "WARN",
+     "12 distinct text colours (aim <= 6)"
+    ],
+    [
+     "WARN",
+     "low focal dominance (0.21): screens may lack one clear focal point"
+    ]
+   ]
+  },
+  "desktop-dark": {
+   "steps": 13,
+   "fonts": [
+    "Fraunces"
+   ],
+   "tokens": {
+    "radii": 7,
+    "shadows": 5,
+    "families": [
+     "Fraunces",
+     "ui-monospace",
+     "Georgia",
+     "system-ui"
+    ],
+    "colors": 12
+   },
+   "motion": null,
+   "pixels": {
+    "hues": [
+     3,
+     2,
+     3,
+     3,
+     3,
+     3,
+     2,
+     2,
+     2,
+     2,
+     3,
+     2,
+     2
+    ],
+    "empty": [
+     0.47,
+     0.49,
+     0.51,
+     0.41,
+     0.44,
+     0.5,
+     0.56,
+     0.53,
+     0.54,
+     0.54,
+     0.61,
+     0.67,
+     0.67
+    ],
+    "focal": [
+     0.32,
+     0.29,
+     0.31,
+     0.25,
+     0.26,
+     0.3,
+     0.37,
+     0.32,
+     0.31,
+     0.33,
+     0.4,
+     0.47,
+     0.47
+    ],
+    "sizes": [],
+    "sync": [
+     0,
+     0,
+     0
+    ],
+    "contact": "design/scale-v5/r1/when-weighing-stops/desktop-dark/contact.jpg"
+   },
+   "problems": [
+    [
+     "WARN",
+     "7 different corner radii (token sprawl; aim <= 4)"
+    ],
+    [
+     "WARN",
+     "4 font families in use: Fraunces, ui-monospace, Georgia, system-ui (rule: max 2)"
+    ],
+    [
+     "WARN",
+     "12 distinct text colours (aim <= 6)"
+    ]
+   ]
+  }
+ }
+}

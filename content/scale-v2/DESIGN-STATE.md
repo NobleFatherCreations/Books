@@ -16,3 +16,19 @@
 - **Breadcrumbs exist only in structured data.** The "Movement IV ..., chapter 12 of 14" line already orients readers; keep it visible in every design.
 - **Already fixed in the builder (keep when restyling):** table scroll boxes are keyboard-reachable regions with numbered labels, no empty header cells, FAQ "Read more" links are named after their question.
 - **Words frozen:** snapshot at design/scale-v5/text-before.json (not committed; rebuild it from the audit commit with `python3 scripts/book/text-diff.py snap library/scale design/scale-v5/text-before.json`). After design, `text-diff.py check` must show only new UI strings.
+
+## R1 (2026-11-24): gates on cover, the-gradient, field-card, when-weighing-stops x phone-dark, phone-reduced, desktop-dark
+All four PASS (0 failing checks). Contact sheets in design/scale-v5/r1/<page>/<profile>/contact.jpg (per-frame shots git-ignored). Gate warnings: 4 font families (Fraunces, ui-monospace, Georgia, system-ui; rule max 2), 12-16 text colours (aim 6), 6 cover screens over 70% empty.
+
+Faults read from the phone sheets (F-numbers from docs/design-catalogue/07-choosing-and-combining.md):
+- **Bug, fixed:** all 57 `::: bridge` blocks printed their link data ("longafter:if-youre-not-safe-right-now") as a visible label, including twice in "Help, now" on the crisis page. The builder now keeps it as `data-to` only; text-diff confirms nothing else changed. Snapshot retaken after the fix.
+- **Cover, F5 + F8:** the cover image is a small thumbnail (about a third of the phone width), so there's no title moment; then about 11 phone screens of identical contents rows with only a small brass label per movement. Needs a real cover moment and movements as visual chapters (collapsible or card-grouped).
+- **Cover:** the crisis notice appears twice in the first two screens (under the title and again above Start here). Keep one.
+- **F4:** brass on navy is The Long After's interim skin recoloured, not a Weighing concept.
+- **The gradient, F5:** the book's central idea (seven positions, rude to abusive) renders as a plain bullet list, twice. It's the strongest candidate for the signature move (a dial or scale that holds still, readable in reduced motion and print).
+- **Field card, F5:** promises "one page, screenshot it, print it", but is about 11 phone screens of 59 underlined numbered links. Needs a compact screenshot and print form (two columns on paper, grouped by movement, links not underlined).
+- **Recall sorts:** render as a long "▸" list (see the cognitive-design note above: batch them).
+- **Crisis page:** reads calmly and the five conditions come first, which is right (F13 avoided). The emergency instruction is body text inside the short-answer box; consider one clear "Find help where you live" action near the top. No humour, no effects; keep it that way.
+- **F14:** 5 radii and 5 shadow styles on the cover; tokenise in the build.
+
+Next: R2 (concept sentence and budget), then three comps for the owner to pick by picture.
