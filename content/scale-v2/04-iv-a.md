@@ -10,6 +10,7 @@ Stop here before you run any test in this part of the book. Answer these honestl
 ☐ They have been violent or threatened violence, towards me, a child, a pet, my things, or themselves to control me.
 ☐ The last time I refused them something, there was rage, punishment, or a price I feared.
 ☐ They control something I can't easily replace: home, money, job, visa, my children, my community.
+☐ They are cutting me off from people who could help, or making it hard, expensive or dangerous to leave.
 ☐ Picturing naming something to them makes my body afraid, not just embarrassed.
 ☐ I am worried about a child's safety.
 ☐ If a test went badly, I'd have nowhere safe to go tonight.
@@ -52,6 +53,8 @@ Testing is for uncertainty. If you already know, the tests have nothing to add a
 **What they control.** Your home, your money, your job, your visa or residency status, your access to your children, your standing in a community you can't easily leave. Dependency turns a small experiment into a large gamble, because someone who holds the things you need can make a refusal very expensive very fast. The Decoder has pages on [financial control](/playbook/financial-control) and on [legal and administrative threats](/playbook/legal-administrative-threats), such as threats about a visa.
 
 Pulling away from a controlling partner can itself be a dangerous time. In a large US study of women killed by a partner, led by the nursing researcher Jacquelyn Campbell, separation from a partner was linked to higher risk, especially when the partner was controlling. So was an earlier threat with a weapon. This is why domestic abuse services help people plan the leaving itself, and why no test in this book is a substitute for that plan.
+
+**Being cut off, or kept from leaving.** If friends and family are being steadily pushed out of your life, or leaving is being made difficult, expensive or dangerous, you're in the territory of rule three in [This book in the wrong hands](ch:this-book-in-the-wrong-hands). That's not a situation to test inside.
 
 **Physical fear.** If the thought of naming something plainly produces physical fear rather than social awkwardness, that fear is the finding. You don't need the test.
 
