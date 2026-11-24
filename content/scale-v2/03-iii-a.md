@@ -6,19 +6,19 @@ short: What counts as evidence about a person sits on four rungs. A record exist
 ---
 "He humiliated me."
 
-Is that evidence? It's certainly something. It might be the truest sentence you say all year. But hand it to someone who wasn't there and they can't do anything with it, because it's three different things squashed into one: what happened, what you think it meant, and how it felt.
+Is that evidence? It's something. It might be the truest sentence you say all year. But hand it to someone who wasn't there and they can't do anything with it, because it's three different things squashed into one: what happened, what you think it meant, and how it felt.
 
-Everything from here on runs on a standard, so the standard has to be stated.
+Here's the standard the rest of this part runs on.
 
 ::: pull
 **Evidence is what was said, done, written, or observable.** What it felt like, what it meant, and what you guessed about the mind behind it are all real. They sit lower down.
 :::
 
-That sounds severe, and it isn't meant to dismiss anything. Feelings are real, they matter enormously, and they're often the first correct signal you get. They're evidence about a different subject, which is you.
+That sounds severe. Feelings are real, and they're often the first correct signal you get. They're evidence about a different subject, which is you.
 
 ## What counts as evidence about a person?
 
-What was said, done or written, ideally where someone else can check it. Messages, dates, money, things other people saw, and what you saw and heard yourself. Your conclusions about why, and how it felt, count too, but lower down. Sort what you have into rungs before you decide anything, because only the top rungs can carry a verdict.
+What was said, done or written, best of all where someone else can check it. Messages, dates, money, things other people saw, and what you saw and heard. Your conclusions about why, and how it felt, count too, but lower down. Sort what you have into rungs before you decide anything, because only the top rungs can carry a verdict.
 
 ## The courtroom ladder
 
@@ -26,19 +26,20 @@ Picture a ladder in a courtroom. Each rung holds more weight than the one below 
 
 **Rung one, at the top: the record.** Messages, emails, recordings, documents, dates, amounts, things other people witnessed. It exists outside your memory and outside your interpretation. It's the only rung that survives contact with someone who disputes it.
 
-**Rung two: the observation.** What you saw and heard yourself, held in your memory. Real evidence, and the rung most human judgment runs on. It wobbles, because memory is partly rebuilt each time you recall an event, and it can drift toward what you now believe. [I don't remember it that way](ch:i-dont-remember-it-that-way) covers how that works.
+**Rung two: the observation.** What you saw and heard yourself, held in your memory. Real evidence, and the rung most human judgement runs on. It wobbles, because memory is partly rebuilt each time you recall an event, and it can drift toward what you now believe. [I don't remember it that way](ch:i-dont-remember-it-that-way) covers how that works.
 
 **Rung three: the inference.** What you concluded from what you saw. "He did it to make me look stupid." "She's losing interest." An inference is a feeling that has put on a suit and learned to talk like a lawyer. Sometimes it's right. It's still a conclusion, and conclusions can be argued with forever.
 
 **Rung four, at the bottom: the feeling.** What it was like. The atmosphere. What you sensed. [The gut chapter](ch:the-gut-sensor-or-smoke-alarm) showed that this can be real pattern-matching running below language. It's also a reading of *you reading them*, and it can't hold a verdict up on its own.
 
-::: handle
-Record, observation, inference, feeling: know which rung you're on.
+::: tool THE LADDER
+When you're sure what they did, and you're about to say it to their face.
+Ask yourself: is this a record, something I saw, something I concluded, or something I felt?
 :::
 
 None of these rungs is forbidden. The failure is not knowing which one you're standing on, then defending a rung-four feeling as though it were a rung-one record.
 
-The group chat, for the record, accepts all four rungs as evidence, plus vibes, plus a screenshot of his star sign.
+Most of us have handed a group chat a rung-four feeling dressed up as a rung-one record, and the group chat accepted it, because the group chat accepts vibes.
 
 ## Why the inference rung causes most fights
 
@@ -46,16 +47,18 @@ Most arguments about people happen on rung three, and that's why they never end.
 
 "You did that to embarrass me" is an inference about someone's intent. They can deny it all night, and there's no way to settle it, because neither of you can open their skull. "You told the story about my driving test twice in front of your boss" is an observation. It's much harder to deny, and if they do deny it, you've learned something more useful.
 
+You've almost certainly told someone they did something on purpose. At least once, they were just bad at it.
+
 So when you raise something, raise it from the highest rung you have. Say what happened. Keep the inference for later, or for yourself. Why intent is a trap in its own right is in [Intent, impact and the mind-reading trap](ch:intent-impact-and-the-mind-reading-trap).
 
-This is also why [gaslighting](/playbook/gaslighting) aims at rung two. It tells you that what you saw and heard didn't happen. If your observations get knocked out, everything above them falls, and only the record is left standing. That's the best reason there is to write things down.
+This is also why [gaslighting](/playbook/gaslighting) aims at rung two. It tells you that what you saw and heard didn't happen. If your observations get knocked out, only the record is left standing.
 
 ## The camera test
 
 The quickest way to find your rung is to ask what a camera would have caught.
 
 ::: try The camera test
-Take the event and write the version a camera would have recorded. No adjectives about mood. No motives. No "dismissively," no "coldly," no "deliberately." Only what a lens and a microphone would have captured.
+Take the event and write the version a camera would have recorded. No adjectives about mood and no motives: strike "dismissively", "coldly" and "deliberately". Only what a lens and a microphone would have captured.
 
 Then read both versions side by side.
 :::
@@ -70,13 +73,11 @@ Sometimes the camera version is *worse*. Stripped of your habit of softening, wh
 
 ## Are feelings evidence?
 
-Yes, about you, and they're a strong reason to look closer at them. A feeling tells you something landed and that it mattered. It can't tell you, alone, what the other person did or meant. Treat a feeling as the instruction to start gathering, and look for what a camera would have caught.
+Yes, about you, and a feeling is a strong reason to look closer at what happened. It tells you something landed and that it mattered. It can't tell you what the other person did or meant. So it's a good reason to open an investigation, starting with what a camera would have caught, and a poor reason to close one.
 
-An impression is an excellent instruction to *look* and a poor basis to *conclude*. Let it start the investigation. Don't let it close one.
+And feelings are permanently authoritative about one thing, which is what you want. You don't need rung-one evidence to decide you don't enjoy someone's company, don't want the job, or don't want to go. Preference is a decision about you, so it needs no proof. That's rule one from [This book in the wrong hands](ch:this-book-in-the-wrong-hands), wearing working clothes.
 
-And feelings are permanently authoritative about one thing, which is what you want. You don't need rung-one evidence to decide you don't enjoy someone's company, don't want the job, or don't want to go. Preference needs no proof, because it isn't a verdict about anyone. That's rule one from [This book in the wrong hands](ch:this-book-in-the-wrong-hands), wearing working clothes.
-
-::: warn The ladder is for verdicts, not for safety
+::: warn Safety doesn't need the ladder
 You never need to climb this ladder before you protect yourself. A feeling of fear is enough to leave a room, a date or a house.
 
 Having no record doesn't make what you saw count for less: coercion is usually done where nobody is recording, and your own observation is real evidence. If you're in danger, skip the ladder and go to [When weighing stops](ch:when-weighing-stops). And if someone tells you "feelings aren't evidence" to shut down something you've raised about them, that's the move [This book in the wrong hands](ch:this-book-in-the-wrong-hands) warns about.
@@ -84,43 +85,46 @@ Having no record doesn't make what you saw count for less: coercion is usually d
 
 ## Put it on a rung
 
-Ten things people offer as evidence. Name the rung before you tap.
+Eleven things people offer as evidence. Name the rung before you tap.
 
 ::: sort
 - A text from him that says "I never said I'd pay you back." || Record. It exists outside your head. (Whether it's the whole conversation is another question, covered in [Screenshots and what they leave out](ch:screenshots-and-what-they-leave-out).)
 - "He rolled his eyes when I mentioned my promotion." || Observation. You saw it. One instance.
 - "He's jealous of my career." || Inference. Built on the eye-roll, maybe. What else would show it?
 - "The room went cold when I walked in." || Feeling. What did people actually do? Stop talking? Leave? That would be an observation.
-- A bank statement showing £600 withdrawn the week she said she was broke. || Record. Checkable, dated, and very hard to argue with.
-- "My sister saw him grab my arm at the party." || Record, more or less. A second witness. Her memory rebuilds too, but two memories that agree are much harder to dispute.
+- A bank statement showing six hundred withdrawn the week she said she was broke. || Record. Checkable, dated, and very hard to argue with.
+- "My sister saw him grab my arm at the party." || A second observation, which works almost like a record. Her memory rebuilds too, but two memories that agree are much harder to dispute.
 - "She's been distant for a month." || Inference wearing an observation's coat. What did she do? Cancel three plans? Stop asking about your day? Those are observations.
+- You're certain what he did, and you're about to say it to his face. What do you ask yourself first? || Which rung is this on: a record, something I saw, something I concluded, or something I felt? Then say it from the highest rung you have.
 - "I just know he's lying." || Feeling. It might be right. [Can you tell when someone is lying?](ch:can-you-tell-when-someone-is-lying) has the bad news about how well anyone knows.
 - "He deleted the thread before he handed me his phone." || Observation. You watched it happen. Hold on to the date.
 - "He did it to make me look stupid in front of his friends." || Inference, about intent. Climb down to what he did and say that instead.
 :::
 
-Look at how many of the ten sounded like facts when you first read them. "She's been distant" feels like something you saw. It's a summary you wrote.
+Look at how many of those sounded like facts when you first read them. "She's been distant" feels like something you saw. It's a summary you wrote.
 
 ## The ladder at a birthday party
 
 ::: scene
 *Made up, but you've met these people.*
 
-Hana tells her sister that Felix humiliated her at Ben's birthday. Her sister, who is annoying in the way of people who are usually right, asks what happened.
+Hana tells her sister that Tyler humiliated her at Ben's birthday. Her sister, who is annoying in the way of people who are usually right, asks what happened.
 
-So Hana sorts it on the bus home.
+So Hana sorts it on the bus home, fast and furious.
 
-Feeling: humiliated, hot-faced, wanted to leave. Inference: he did it to make her look stupid in front of his friends. Observation: he corrected her camping story three times, and then said, "She always makes things sound more dramatic than they were." Record: none, but Ben was standing right there.
+Feeling: humiliated, hot-faced, wanted to leave. Observation: he made her look stupid in front of his friends. Record: none, but Ben was standing right there.
 
-She doesn't open with the inference. On Sunday she gives Felix the observation. "You corrected my story three times at Ben's, and then said I always make things sound dramatic."
+She reads it back and stops at the second line. A camera couldn't film "made her look stupid". That's rung three, sitting on rung two. She moves it down to inference and writes what a camera would have caught: he corrected her camping story three times, then said, "She always makes things sound more dramatic than they were."
 
-Felix frowns. "Three times? I don't think so."
+On Sunday she gives Tyler the camera version.
 
-She texts Ben. Ben replies, "yeah, at least twice, it was a bit much mate."
+Tyler frowns. "Three times? I don't think so."
 
-Felix goes quiet, then apologises. His new manager was at the party, and he'd been nervous and pedantic all night. He says he'll keep his corrections to himself.
+She texts Ben. Ben replies, "at least twice, it was a bit much."
 
-One evening, one observation, one apology. Hana doesn't have a verdict, and she doesn't need one. She has a note, and a reason to notice if it happens again.
+Tyler goes quiet, then apologises. His new manager was at the party, and he'd been nervous and pedantic all night. He says he'll keep his corrections to himself.
+
+Hana puts the date in her notes app, under "Ben's birthday", with the camera version underneath.
 :::
 
 ::: bridge longafter:what-to-document-and-how
@@ -147,25 +151,23 @@ It happened **___ times**, over **___ months**. It is **growing / stable / shrin
 
 Most people get stuck on the first blank, because "constantly" won't fit in it. Some get stuck on the last, because they've never said it out loud. Both are findings.
 
-Almost any single behaviour fits almost any explanation. One instance of coldness, forgetting, lying, charm, generosity or withdrawal fits a manipulator, and it fits an ordinary person having an ordinary week. That's a fact about behaviour, and no amount of staring at the one instance will change it.
+Almost any single behaviour fits almost any explanation. One instance of coldness, forgetting, lying, charm, generosity or withdrawal fits a manipulator, and it fits an ordinary person having an ordinary week. That's a fact about behaviour, and staring harder at the one instance won't change it. Meaning lives in the pattern, and the four blanks are how you measure one.
 
-Patterns carry meaning. Four blanks turn incidents into a finding.
-
-::: handle
-How often, how long, getting worse, what changed when named?
+::: ask
+Ask yourself: have I actually counted this, or have I just felt it a lot?
 :::
 
 ## How do I know if it's a pattern?
 
-Count four things. How many times it has happened in a set window. Over how many weeks or months. Whether it's getting more frequent, more severe, or reaching further into your life. And what happened after you raised it. A behaviour that continues, worsens or gets punished after being clearly named is a pattern you can act on.
+To tell whether it's a pattern, count four things: how many times it happened in a set window, over how many weeks or months, whether it's getting more frequent, more severe or wider-reaching, and what happened after you raised it. Behaviour that continues, worsens or gets punished after being clearly named is a pattern you can act on.
 
 ## Blank one: how often
 
 A number, in a stated window. "Constantly" is not a number. Neither is "every single time," which on inspection often means four times and once in a dream.
 
-Memory counts the way fishermen measure, generously and with hand gestures. People are startled by how much "he always does this" shrinks when they actually count. "Always" turns out to be two Tuesdays and a bank holiday.
+Memory counts the way fishermen measure, generously and with hand gestures. You've said "you always do this" to someone. Most of us have. Count it next time, and "always" usually turns out to be two Tuesdays and your birthday.
 
-They're also sometimes startled the other way. "Now and then" becomes nine times in six weeks once it's written down, because each one got filed as a one-off. Count on paper, with dates if you can. The form doesn't care which way the number goes.
+Counting can surprise you the other way too. "Now and then" becomes nine times in six weeks once it's written down, because each one got filed as a one-off. Count on paper, with dates if you can. The form doesn't care which way the number goes.
 
 ## Blank two: how long
 
@@ -175,7 +177,7 @@ Duration also tells you whether you're looking at a season or a person. Everyone
 
 ## Blank three: is it getting worse
 
-Is it growing, in how often it happens, how severe it is, or how much of your life it reaches? This is the most predictive of the four. Stable unpleasantness and escalating unpleasantness have very different futures.
+Is it growing, in how often it happens, how severe it is, or how much of your life it reaches? Stable unpleasantness and escalating unpleasantness have very different futures.
 
 Escalation is the blank that most justifies acting before you're certain. Domestic abuse risk assessments take it seriously for that reason. The first question on the Danger Assessment, a tool developed by the nursing researcher Jacquelyn Campbell and used by many services, asks whether physical violence has increased in severity or frequency over the past year.
 
@@ -183,11 +185,11 @@ If what's escalating is threats, [intimidation](/playbook/intimidation) or anyth
 
 ## Blank four: what changed when you named it
 
-This is the decisive one. Nearly everything on the left of [the gradient](ch:the-gradient) improves, at least partly, once it's raised. People who didn't realise they were doing something tend to stop, or try to.
+This is the decisive one. Nearly everything on the left of [the gradient](ch:the-gradient) improves, at least partly, once it's raised. People who didn't realise they were doing something mostly stop, or try to.
 
 Behaviour that continues unchanged after being clearly named has told you what it is. So has behaviour that gets worse, or that punishes you for naming it. So has "that never happened," said about something that did, which is where [gaslighting](/playbook/gaslighting) starts. [The naming test](ch:the-naming-test) is built entirely on this blank, and [Before you test: is testing safe?](ch:before-you-test-is-testing-safe) comes first if naming it could cost you.
 
-If you've never named it, the blank stays empty, and that empty blank is the most useful thing the form can tell you.
+If you've never named it, the blank stays empty. Plenty of people have counted something for five months and never once said it out loud. Counting feels safer than saying.
 
 ::: pull
 A single event is an **observation**. Four blanks turn it into a **finding**. Most arguments about people are two observations being fought over as though they were findings.
@@ -195,7 +197,7 @@ A single event is an **observation**. Four blanks turn it into a **finding**. Mo
 
 ## Am I overreacting to one thing they did?
 
-Possibly, and possibly not. One incident can be serious enough on its own, and some acts are covered below. For most behaviour, one instance tells you little about the person. If your reaction is sized for a pattern you haven't counted yet, count it. If it's sized for something in your past, that's worth knowing too.
+One incident usually tells you little about a person, so a reaction sized for a whole personality is often too big. The exceptions are listed below: some acts are serious enough on their own. If your reaction is sized for a pattern you haven't counted yet, count it. If it's sized for something in your past, that's worth knowing too.
 
 The full size check, two rulers and who's holding them, is in [When people say you're overreacting](ch:when-people-say-youre-overreacting).
 
@@ -204,30 +206,30 @@ The full size check, two rulers and who's holding them, is in [When people say y
 ::: scene
 *Made up, but you've met these people.*
 
-Noor's flatmate asks why she keeps changing before she goes out. Noor says Kieran "sometimes" comments on what she wears. Then she fills in the form, because "sometimes" won't fit in the first blank.
+Noor's flatmate asks why she keeps changing before she goes out. Noor says her girlfriend, Tash, "sometimes" comments on what she wears. Then she fills in the form, because "sometimes" won't fit in the first blank.
 
 How often: she goes back through her messages and her diary. Nine comments in six weeks.
 
 How long: since the spring. About five months.
 
-Getting worse: it started as "You're wearing that?" By July he was asking for a photo before she left. Now he sulks if she goes out at all, and asks who'll be there.
+Getting worse: it started as "You're wearing that?" By July, Tash was asking for a photo before Noor left. Now Tash sulks if Noor goes out at all, and asks who'll be there.
 
-What changed when she named it: in June she told him the comments made her feel like she couldn't dress herself. He said she was too sensitive. The photo requests started the following week.
+What changed when she named it: in June, Noor told Tash the comments made her feel like she couldn't dress herself. Tash said she was too sensitive. The photo requests started the following week.
 
-Four blanks, four answers that point the same way. Noor doesn't argue with him about it. She shows the form to her flatmate, then to her oldest friend, and starts going out again in whatever she likes, with her phone charged and a plan for getting home.
+Four blanks, four answers pointing the same way. This is control. The photo requests have a name in the Decoder, [monitoring](/playbook/monitoring-surveillance), and naming them made them worse.
 
-Yes, this was control. The photo requests had a name, [monitoring](/playbook/monitoring-surveillance), and naming it had made it worse.
+Noor doesn't argue with Tash about it. She shows the form to her flatmate, then to her oldest friend. On Friday she goes out in the green dress, with her phone charged and a plan for getting home.
 :::
 
-## The inverse discipline: don't build a pattern backwards
+## Am I seeing a pattern that isn't there?
 
-This one is harder, and more common. Don't turn a single event into a pattern by hunting through the past for matches.
+You might be, if the pattern appeared after one event sent you searching the past for matches. That's building a pattern backwards, and everyone does it. The check is simple: would you have listed those moments last week, before this happened? If not, you may have built the pattern rather than found it.
 
 Once something happens, a search runs automatically. *Has he done this before?* And the archive obliges. It always obliges. It hands back six half-remembered moments across nine years, all recoloured by today. Memory is a very cooperative witness. Ask it for six examples and it'll find eight, two of which happened to someone on a podcast.
 
 That doesn't establish a pattern. It establishes that you searched.
 
-The test: would you have listed those six moments *last week*, before this happened? If not, be careful. You may have built that pattern rather than found it. [The file that builds itself](ch:the-file-that-builds-itself) is about the machinery that builds it.
+[The file that builds itself](ch:the-file-that-builds-itself) is about the machinery that runs the search.
 
 ## The exception, stated plainly
 
@@ -247,15 +249,16 @@ The form is also never the price of leaving. You don't need a pattern to end a r
 
 ## Fill it in from memory
 
-Cover the form at the top. Name the four blanks, the inverse discipline, and the exception before you tap.
+Cover the form at the top. Name the four blanks, the backwards pattern, and the exception before you tap. They're in no particular order.
 
 ::: sort
-- Blank one? || How often, as a number, in a stated window.
-- Blank two? || How long, over what span of weeks, months or years.
-- Blank three, and why it matters most for safety? || Is it getting worse: more often, more severe, reaching further? Escalation justifies acting before you're sure.
 - Blank four, the decisive one? || What changed when you named it. Continuing, worsening or punishing the naming tells you what it is.
-- The inverse discipline? || Don't build a pattern backwards by searching the past. Would you have listed those moments last week?
 - Which acts need no pattern? || Violence or a credible threat, sexual coercion, harm to a child, and a deception that changed your life. Once is a finding.
+- Blank two? || How long, over what span of weeks, months or years.
+- You're about to tell someone they "always" do it. What do you ask yourself? || Have I actually counted this, or have I just felt it a lot? Then fill in the first blank with a number.
+- How do you catch a pattern you built backwards? || Ask whether you'd have listed those moments last week, before this happened.
+- Blank one? || How often, as a number, in a stated window.
+- Blank three, and why it matters most for safety? || Is it getting worse: more often, more severe, reaching further? Escalation justifies acting before you're sure.
 :::
 
 ::: bridge repair:your-own-file
@@ -278,31 +281,31 @@ question: Why does everything they do seem to prove I'm right about them?
 seo: Confirmation bias in relationships: the file that lies
 short: Confirmation bias in relationships is the habit of seeking and reading evidence in ways that favour what you already believe. Once someone is under suspicion, everything they do gets filed against them, kindness included. A file where every entry confirms is useless. Keep both columns, and ask whether you looked for the other one at all.
 ---
-Why does everything they do seem to prove you right? Usually because of what you've started doing, not what they have. Watch one week of it.
+Why does everything they do seem to prove you right? Usually because of something you've started doing. Watch one week of it.
 
 ::: scene
 *Made up, but you've met these people.*
 
-Petra's friend mentions, carefully, that she saw Luis having coffee with his ex.
+Gina's friend mentions, carefully, that she saw Luis having coffee with his ex.
 
-That night Petra opens a note on her phone. She doesn't call it a file. She calls it "stuff."
+That night Gina opens a note on her phone. She doesn't call it a file. She calls it "stuff."
 
 Tuesday: Luis cooks her favourite dinner without being asked. She writes "guilty conscience?"
 
-Wednesday: he's forty minutes late home. "With her?"
+Wednesday: he's an hour late home. "With her?"
 
 Thursday: he texts "love you" at lunchtime, which he never does. "Overcompensating."
 
 Friday: he's quiet and goes to bed early. "Pulling away."
 
-On Saturday morning she reads the note back from the top and stops at Tuesday. A man made her dinner, and she filed it as evidence against him.
+On Saturday morning she reads the note back from the top and stops at Tuesday. A man made her dinner, and she filed it as evidence against him. She looks at the other three entries and can't think of a single thing Luis could have done that week that wouldn't have gone in the note.
 
-So she asks him about the coffee. Luis looks puzzled, then remembers. His ex is moving to Glasgow and wanted to give back his good saucepan. He'd forgotten to mention it because it was, in his words, "the least interesting coffee of my life."
+So she asks him about the coffee. Luis looks puzzled, then remembers. His ex is moving abroad and wanted to give back his good saucepan. He'd forgotten to mention it because it was, in his words, "the least interesting coffee of my life."
 
-Petra deletes the note. She keeps the saucepan story, because it's very funny, and because next time she wants to remember what her file did to a free dinner.
+Gina deletes the note. That night Luis makes pasta in the saucepan, and she eats it without writing anything down.
 :::
 
-Petra's note filled itself. That's what suspicion does. It runs on its own, like a process left open in the background, and it turns everything it touches into evidence.
+Gina's note filled itself. Suspicion does that. It runs on its own and turns everything it touches into evidence.
 
 Picture a manila folder with a name on the front. Once the name is written, the folder starts filling. Nobody has to put anything in it. It eats.
 
@@ -318,7 +321,7 @@ Here's one person's week, read through two lenses.
 - He forgets your friend's name. *Suspicious:* he doesn't care about my relationships.
 
 ::: pull
-Notice that **every square is filled.** Warmth and coldness, apology and silence, attention and inattention: all six confirm. A hypothesis that no observation could contradict is not being tested. It is being decorated.
+Notice that **every square is filled.** Warmth and coldness, apology and silence, attention and inattention: all six confirm. A theory that every possible fact confirms has stopped being tested and started being decorated.
 :::
 
 At this point the man could sit perfectly still in a chair all weekend, and that would go in the folder too, under [stonewalling](/playbook/stonewalling).
@@ -329,11 +332,11 @@ Confirmation bias is the habit of looking for, noticing and interpreting evidenc
 
 The psychologist Raymond Nickerson, in a 1998 review of the research, described it as the seeking or interpreting of evidence in ways that are partial to existing beliefs. He stressed that people do it without meaning to treat evidence unfairly, and often without knowing they're doing it.
 
-That's why it doesn't feel like bias from the inside. It feels like finally seeing clearly. Each new item really does fit, so you get more certain every day, while the folder gets no more accurate at all. [The biases in everyone](ch:the-biases-in-everyone) covers the brain's other defaults. This is the one that does the most damage once someone is under suspicion.
+So from the inside it doesn't feel like bias. It feels like finally seeing clearly. [The biases in everyone](ch:the-biases-in-everyone) covers the brain's other defaults. Once someone is under suspicion, this is the one to watch.
 
 ## Confirmation bias in relationships
 
-In a relationship, the folder does three jobs at once, and the research has caught it doing each one.
+Confirmation bias in relationships starts the day you suspect your partner of something. From then on, what fits the suspicion gets noticed and kept, what doesn't gets explained away, and your questions start producing the answers you feared. The folder does three jobs at once, and the research has caught it doing each one.
 
 **It files what fits and loses what doesn't.** The kind evening slides out of memory. The sharp sentence gets a permanent tab.
 
@@ -343,8 +346,8 @@ In a relationship, the folder does three jobs at once, and the research has caug
 
 That last one matters in a kitchen. If you question a partner the way a detective questions a suspect, you'll get guarded, defensive answers. Guarded and defensive is exactly what a guilty person looks like. The folder wrote the answer, then filed it.
 
-::: handle
-If kindness goes in the file, the file is rigged.
+::: ask
+Ask yourself: what would they have to do to land in the other column?
 :::
 
 ## The counter-discipline: keep the acquittals
@@ -375,7 +378,7 @@ Fairness to them is a side effect. The real reason is what the file can tell you
 
 **Nothing is ever in their favour.** Every new fact strengthens the case and none weakens it. Real evidence about real people doesn't behave like that. Real people are inconsistent.
 
-**You're fetching rather than noticing.** There's a difference between things arriving and you going out to get them. Re-reading old messages, checking, comparing timelines, scrolling back to 2019 at 1am. That's fetching, and fetching always succeeds. So does typing "is my husband secretly" into a search bar. The autocomplete has never once replied "probably not, go to bed."
+**You're fetching rather than noticing.** There's a difference between things arriving and you going out to get them. Re-reading old messages, checking, comparing timelines, scrolling back to 2019 at 1am. That's fetching, and fetching always succeeds. So does typing "is my husband secretly" into a search bar, and most of us have typed some version of it. The autocomplete has never once replied "probably not, go to bed."
 
 ## Am I being paranoid about my partner?
 
@@ -387,7 +390,7 @@ Sometimes the file is one-sided because the person is one-sided. Some people rea
 
 So skip *is my file one-sided?* and ask *did I look?* A file with an empty acquittals column after months of honest attention is evidence. A file with an empty acquittals column because you never opened it is a mirror.
 
-The opposite machine exists too, and it's just as rigged. Some files empty themselves. Every broken promise gets wiped by "new start, I've changed," until nothing ever counts against them. When an organisation does it with a new leader or a rebrand, the Decoder calls it [accountability reset](/playbook/accountability-reset). People do it in kitchens with flowers. A file that only ever empties is as useless as one that only ever fills.
+The opposite machine exists too, and it's just as rigged. Some files empty themselves. Every broken promise gets wiped by "new start, I've changed," until nothing ever counts against them. When an organisation does it with a new leader or a rebrand, the Decoder calls it [accountability reset](/playbook/accountability-reset). People do it in kitchens, with flowers.
 
 ::: warn If someone tells you it's just confirmation bias
 Confirmation bias is yours to check, privately, by choice. If the person you're worried about tells you your concerns are "just confirmation bias," ask them what's in the other column, then reread [This book in the wrong hands](ch:this-book-in-the-wrong-hands). None of this applies if you're in danger: go to [When weighing stops](ch:when-weighing-stops).
@@ -398,12 +401,13 @@ Confirmation bias is yours to check, privately, by choice. If the person you're 
 Before you tap, decide where each entry goes, or whether the file is rigged.
 
 ::: sort
+- She was distant on Wednesday, and you filed it as "punishing me" before you asked. || Rung three, an inference, filed as a fact. What did she actually do?
 - She made you tea without being asked, and you wrote "buttering me up." || The file is rigged. That was an acquittal filed as a charge.
 - He accepted your "no" to his work party without sulking. || Acquittals column. A no with no price is one of the strongest entries it can hold.
 - You spent an hour at midnight re-reading their messages from March, and found three suspicious ones. || Fetching. It always finds something. Note it, and weigh it lower.
-- He told your mum he'd forgotten her birthday, rather than blaming the post. || Acquittals column. The truth, when it cost him.
+- He told your mum he'd forgotten her birthday, rather than blaming the card going missing. || Acquittals column. The truth, when it cost him.
+- You notice you've filed something nice they did as a sign of guilt. What do you ask yourself? || What would they have to do to land in the other column? If the answer is "nothing", the file is rigged.
 - Every entry this month is on the left, and you've been honestly looking for the right. || A real finding. Take it to [One thing is not a pattern](ch:one-thing-is-not-a-pattern) and count it.
-- She was distant on Wednesday, and you filed it as "punishing me" before you asked. || Rung three, an inference, filed as a fact. What did she actually do?
 :::
 
 ::: try Try it this week
@@ -424,27 +428,24 @@ question: How do I stop jumping to the worst explanation, without talking myself
 seo: Is it me or am I being manipulated? Three explanations
 short: Before you settle on whether it's you or you're being manipulated, write three explanations that fit the same facts: one hostile, one neutral, and one about you or the situation. Then ask what you could observe that would tell them apart. It takes ninety seconds, works when you're upset, and sometimes confirms the hostile one.
 ---
-This is the drill you'll use more than everything else in this book combined. It takes about ninety seconds, and it's deliberately mechanical, because it has to work when you're upset, which is exactly when thinking doesn't.
-
-::: handle
-Hostile, neutral, you. Then: what would tell them apart?
-:::
+This is the drill for the moment you've already decided why they did it. It takes about ninety seconds, and it's deliberately mechanical, because it has to work when you're upset, which is exactly when thinking doesn't.
 
 ## What is the three explanations exercise?
 
 Before you settle on why someone did something, write three explanations that fit the same facts. One hostile, one neutral, and one that involves you or the situation. Then ask what you could see or find out that would tell them apart. The point is an investigation you can actually run, and sometimes it confirms the hostile one.
 
-::: pull
-Before settling on any read of what someone did, produce **three** explanations that fit the same facts: one hostile, one neutral, and one that implicates you or the situation. Then ask which the evidence actually favours, and what would tell them apart.
+::: tool THREE EXPLANATIONS
+When you've already decided why they did it, and it's the worst possible reason.
+Ask yourself: what's the hostile reading, the neutral one, the one about me, and what would tell them apart?
 :::
 
 ## Why three, and why those three
 
 One explanation is a conclusion that arrived already formed.
 
-Two explanations is a hostage situation: either he's manipulating you or you're losing your mind. That's a false choice, and a trap people in this territory fall into all the time. It's also a choice someone [gaslighting](/playbook/gaslighting) you would be delighted to offer.
+Two explanations is a hostage situation: either he's manipulating you or you're losing your mind. That's a false choice, and people who've been lied to before fall into it all the time. It's also a choice someone [gaslighting](/playbook/gaslighting) you would be delighted to offer.
 
-Three forces you to actually generate. The third slot, the one about you or the circumstances, is there because it's the one everyone skips. It's also very often where the answer is. Sometimes the answer is that you were hungry.
+Three forces you to actually generate. The third slot, the one about you or the circumstances, is there because it's the one everyone skips. It's also very often where the answer is. You've picked a fight over a text that was fine. You hadn't eaten since breakfast.
 
 There's research behind making yourself explain an alternative. In 1995, Edward Hirt and Keith Markman found that explaining any plausible alternative outcome reduced the bias that comes from explaining only one, and the alternative didn't have to be the opposite. It did have to be plausible. Explaining an unlikely alternative didn't help.
 
@@ -456,7 +457,7 @@ That question offers two answers, and the truth is often a third. Write three ex
 
 ## The drill
 
-Three rounds, three events. For each one, set a timer for ninety seconds and write four lines: hostile, neutral, you or the situation, and what would tell them apart. Then tap to compare with the model answer. Yours will be different, and that's fine. The fourth line is the one to check.
+Three rounds, three events. For each one, set a timer for ninety seconds and write four lines: hostile, neutral, you or the situation, and what would tell them apart. Then tap to compare with the model answer. Yours will differ. The fourth line is the one to check.
 
 ### Round one: the slow reply
 
@@ -473,7 +474,7 @@ What reply speed can and can't tell you in general is in [Reading a text message
 
 ### Round two: the story at Sunday lunch
 
-**The facts:** your brother-in-law tells the story about you getting lost driving to Wales. Everyone laughs. It's the third time he's told it this year.
+**The facts:** your brother-in-law tells the story about you getting lost driving to the coast. Everyone laughs. It's the third time he's told it this year.
 
 ::: sort
 - Hostile || He's making you the family joke on purpose, so you stay small at the table.
@@ -491,11 +492,12 @@ Without looking back up, can you say the whole drill?
 ☐ One neutral explanation, plausible enough that a reasonable person would believe it.
 ☐ One about me or the situation.
 ☐ The question that does the work: what would I see or find out that tells them apart?
+☐ The moment to use it: when I've already decided why they did it, and it's the worst possible reason.
 :::
 
 ### Round three: the moved meeting
 
-**The facts:** your manager moved your one-to-one twice this month. Both times she kept her meeting with the colleague who's up for the same promotion as you.
+**The facts:** your manager moved your weekly meeting with her twice this month. Both times she kept her meeting with the colleague who's up for the same promotion as you.
 
 ::: sort
 - Hostile || She's sidelining you, and the promotion is already decided.
@@ -512,14 +514,14 @@ Look at the fourth line in every round. Every one is something you could see, co
 
 That question turns anxiety into an investigation. A relaxation technique makes you feel better. This drill makes you find out, which sometimes feels worse.
 
-## What this is not
+## What if the worst explanation is right?
 
-It's not a device for talking yourself out of hostile readings.
+Then the drill has done its job. It's built to find out, in either direction. Often the hostile explanation is plainly the best of the three. It fits more facts, it survives the test that tells them apart, and the neutral versions need more and more heroic assumptions.
 
-Often the hostile explanation is plainly the best of the three. It fits more facts, it survives the test that tells them apart, and the neutral versions need more and more heroic assumptions. When that happens, you haven't failed the drill. You've finished it, and you now hold the conclusion with evidence behind it instead of dread.
+When that happens, you've finished the drill, and you now hold the conclusion with evidence behind it instead of dread.
 
 ::: pull
-Discernment is not the habit of thinking the *best* of people. It is the habit of thinking the most **supported** thing about people, including when the supported thing is bad.
+Discernment means believing the best-**supported** thing about people, including when the best-supported thing is bad.
 :::
 
 ## The drill, run for real
@@ -527,19 +529,21 @@ Discernment is not the habit of thinking the *best* of people. It is the habit o
 ::: scene
 *Made up, but you've met these people.*
 
-Ruby's partner, Dev, tells her that her friend Lou has been saying things behind her back. Lou apparently called Ruby "exhausting" at a party Dev went to without her.
+Dev's girlfriend, Kayla, tells him that his friend Jamal has been saying things behind his back. Apparently Jamal called Dev "exhausting" at a party Kayla went to alone.
 
-Ruby is hurt. Then she runs the drill on her lunch break.
+Dev is hurt. Then he runs the drill on his lunch break.
 
-Hostile: Dev is driving a wedge between her and Lou. Neutral: Lou really did say it, and Dev is passing it on because he cares. Her or the situation: Lou said something milder, and it grew on the way home. What would tell them apart? Asking Lou. And whether Dev has done this before.
+Hostile: Kayla is driving a wedge between him and Jamal. Neutral: Jamal said it, and Kayla is passing it on because she cares. Him or the situation: Jamal said something milder, and it grew on the way home. What would tell them apart? Asking Jamal, and whether Kayla has done this before.
 
-He has. Last year it was her sister, supposedly calling Ruby "a lot" at Christmas. Ruby never checked.
+She has. Last year it was his sister, supposedly calling Dev "a lot" at Christmas. Dev never checked.
 
-This time she asks Lou, gently. Lou is baffled. She wasn't at that party. She was at her nan's eightieth, and there are photos.
+This time he asks Jamal. Jamal is baffled. He wasn't at that party. He was at his grandmother's eightieth, and there are photos.
 
-That evening Ruby tells Dev she asked Lou. Dev doesn't ask how Lou is. He's furious that Ruby "went behind his back," and says that if she trusts Lou over him, maybe she should go and live with Lou.
+That evening Dev tells Kayla he asked Jamal. She doesn't ask how Jamal is. She's furious that Dev "went behind her back," and says that if he trusts Jamal over her, maybe he should go and live with Jamal.
 
-Yes, this was manipulation. The neutral explanation couldn't survive one phone call, and Dev had been working on her friendships for a year. The Decoder calls it [triangulation](/playbook/triangulation), aimed at [isolation](/playbook/isolation).
+The neutral explanation didn't survive one phone call, and that's two of his people in a year. It's manipulation: [triangulation](/playbook/triangulation), aimed at [isolation](/playbook/isolation).
+
+Dev rings his sister that night and asks her about Christmas.
 :::
 
 ## When you can't come up with three
