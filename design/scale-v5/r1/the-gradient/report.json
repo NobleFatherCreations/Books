@@ -1,0 +1,323 @@
+{
+ "url": "http://localhost:8765/scale/the-gradient",
+ "at": "2026-11-24T14:59:35.302Z",
+ "engine": "chromium",
+ "profiles": {
+  "phone-dark": {
+   "steps": 19,
+   "fonts": [
+    "Fraunces"
+   ],
+   "tokens": {
+    "radii": 5,
+    "shadows": 4,
+    "families": [
+     "Fraunces",
+     "ui-monospace",
+     "Georgia",
+     "system-ui"
+    ],
+    "colors": 12
+   },
+   "motion": null,
+   "pixels": {
+    "hues": [
+     3,
+     2,
+     2,
+     2,
+     2,
+     2,
+     3,
+     3,
+     3,
+     3,
+     3,
+     3,
+     3,
+     3,
+     3,
+     3,
+     3,
+     3,
+     3
+    ],
+    "empty": [
+     0.23,
+     0.17,
+     0.35,
+     0.43,
+     0.17,
+     0.23,
+     0.25,
+     0.13,
+     0.23,
+     0.06,
+     0.22,
+     0.23,
+     0.26,
+     0.27,
+     0.29,
+     0.38,
+     0.5,
+     0.38,
+     0.38
+    ],
+    "focal": [
+     0.19,
+     0.17,
+     0.23,
+     0.25,
+     0.17,
+     0.19,
+     0.18,
+     0.15,
+     0.19,
+     0.14,
+     0.2,
+     0.18,
+     0.2,
+     0.19,
+     0.18,
+     0.25,
+     0.33,
+     0.25,
+     0.25
+    ],
+    "sizes": [
+     18,
+     19
+    ],
+    "sync": [
+     0,
+     0,
+     0
+    ],
+    "contact": "design/scale-v5/r1/the-gradient/phone-dark/contact.jpg"
+   },
+   "problems": [
+    [
+     "WARN",
+     "tap targets under 40px",
+     [
+      "a \"Full notice\" 73x18",
+      "summary \"He forgot your birthday.\" 335x30",
+      "a \"behaviour control\" 147x21",
+      "a \"When weighing stops\" 175x21"
+     ]
+    ],
+    [
+     "WARN",
+     "4 font families in use: Fraunces, ui-monospace, Georgia, system-ui (rule: max 2)"
+    ],
+    [
+     "WARN",
+     "12 distinct text colours (aim <= 6)"
+    ],
+    [
+     "WARN",
+     "low focal dominance (0.20): screens may lack one clear focal point"
+    ]
+   ]
+  },
+  "phone-reduced": {
+   "steps": 19,
+   "fonts": [
+    "Fraunces"
+   ],
+   "tokens": {
+    "radii": 5,
+    "shadows": 4,
+    "families": [
+     "Fraunces",
+     "ui-monospace",
+     "Georgia",
+     "system-ui"
+    ],
+    "colors": 12
+   },
+   "motion": null,
+   "pixels": {
+    "hues": [
+     2,
+     2,
+     2,
+     2,
+     2,
+     2,
+     3,
+     3,
+     3,
+     3,
+     3,
+     3,
+     3,
+     3,
+     3,
+     3,
+     3,
+     3,
+     3
+    ],
+    "empty": [
+     0.23,
+     0.17,
+     0.35,
+     0.43,
+     0.17,
+     0.23,
+     0.25,
+     0.13,
+     0.23,
+     0.06,
+     0.22,
+     0.23,
+     0.26,
+     0.27,
+     0.29,
+     0.38,
+     0.5,
+     0.38,
+     0.38
+    ],
+    "focal": [
+     0.19,
+     0.17,
+     0.23,
+     0.25,
+     0.17,
+     0.19,
+     0.18,
+     0.15,
+     0.19,
+     0.14,
+     0.2,
+     0.18,
+     0.2,
+     0.19,
+     0.18,
+     0.25,
+     0.33,
+     0.25,
+     0.25
+    ],
+    "sizes": [
+     18,
+     19
+    ],
+    "sync": [
+     0,
+     0,
+     0
+    ],
+    "contact": "design/scale-v5/r1/the-gradient/phone-reduced/contact.jpg"
+   },
+   "problems": [
+    [
+     "WARN",
+     "tap targets under 40px",
+     [
+      "a \"Full notice\" 73x18",
+      "summary \"He forgot your birthday.\" 335x30",
+      "a \"behaviour control\" 147x21",
+      "a \"When weighing stops\" 175x21"
+     ]
+    ],
+    [
+     "WARN",
+     "4 font families in use: Fraunces, ui-monospace, Georgia, system-ui (rule: max 2)"
+    ],
+    [
+     "WARN",
+     "12 distinct text colours (aim <= 6)"
+    ],
+    [
+     "WARN",
+     "low focal dominance (0.20): screens may lack one clear focal point"
+    ]
+   ]
+  },
+  "desktop-dark": {
+   "steps": 13,
+   "fonts": [
+    "Fraunces"
+   ],
+   "tokens": {
+    "radii": 6,
+    "shadows": 5,
+    "families": [
+     "Fraunces",
+     "ui-monospace",
+     "Georgia",
+     "system-ui"
+    ],
+    "colors": 12
+   },
+   "motion": null,
+   "pixels": {
+    "hues": [
+     2,
+     3,
+     3,
+     3,
+     3,
+     3,
+     3,
+     3,
+     3,
+     3,
+     3,
+     3,
+     3
+    ],
+    "empty": [
+     0.48,
+     0.61,
+     0.58,
+     0.52,
+     0.48,
+     0.48,
+     0.47,
+     0.54,
+     0.53,
+     0.58,
+     0.62,
+     0.65,
+     0.65
+    ],
+    "focal": [
+     0.31,
+     0.38,
+     0.35,
+     0.3,
+     0.28,
+     0.28,
+     0.28,
+     0.32,
+     0.32,
+     0.37,
+     0.42,
+     0.42,
+     0.42
+    ],
+    "sizes": [],
+    "sync": [
+     0,
+     0,
+     0
+    ],
+    "contact": "design/scale-v5/r1/the-gradient/desktop-dark/contact.jpg"
+   },
+   "problems": [
+    [
+     "WARN",
+     "4 font families in use: Fraunces, ui-monospace, Georgia, system-ui (rule: max 2)"
+    ],
+    [
+     "WARN",
+     "12 distinct text colours (aim <= 6)"
+    ]
+   ]
+  }
+ }
+}

@@ -4,3 +4,8 @@
 
 PASSED: 0 failing check(s). Read <profile>/contact.jpg first, then the individual screenshots. These gates are necessary, not sufficient.
 == the-gradient
+   WARN  4 font families in use: Fraunces, ui-monospace, Georgia, system-ui (rule: max 2)
+   WARN  12 distinct text colours (aim <= 6)
+
+PASSED: 0 failing check(s). Read <profile>/contact.jpg first, then the individual screenshots. These gates are necessary, not sufficient.
+== field-card
