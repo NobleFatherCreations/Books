@@ -80,7 +80,7 @@ This isn't proof. Some people really do run the expensive version, and this book
 
 ## The boring-fix test
 
-Boring causes respond to boring fixes. That's how you tell a real one from a tactic wearing its clothes.
+Boring causes respond to boring fixes. That's how you tell a real one from a tactic using it as cover.
 
 ::: compare What a boring fix should do
 | The cause | The boring fix | If it was boring | If it wasn't |
