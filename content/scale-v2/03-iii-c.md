@@ -339,7 +339,7 @@ The last four drives have gone, and so has the taxi. "Cold" has arrived from now
 
 Three hops and the story has a villain, a victim and a moral. Idris, meanwhile, is asleep at home with a £14 taxi receipt and no idea he's become a cautionary tale.
 
-Nobody lied. Every teller passed on what they believed. In 1932 Frederic Bartlett ran the lab version of this game, passing stories from person to person. Details dropped out, and each retelling bent the story towards what the teller already knew, until it settled into a more familiar shape. Ninety years later, Idris got the same treatment in three hops.
+Nobody lied. Every teller passed on what they believed. This is the chain of retellings Frederic Bartlett ran in his lab in 1932, the one from [I don't remember it that way](ch:i-dont-remember-it-that-way), played with burgers. Ninety years on, it took three hops.
 
 ::: handle
 Who saw it, and what do they want?
