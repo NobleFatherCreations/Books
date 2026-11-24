@@ -32,3 +32,12 @@ Faults read from the phone sheets (F-numbers from docs/design-catalogue/07-choos
 - **F14:** 5 radii and 5 shadow styles on the cover; tokenise in the build.
 
 Next: R2 (concept sentence and budget), then three comps for the owner to pick by picture.
+
+## R2 (2026-11-24): concept and budget
+- **Concept:** an instrument you can trust at 2am: quiet, exact and blunt, with one moving part (the gradient).
+- **Budget:** one lead style per comp; one signature move (the seven-step gradient as a drawn scale, reused wherever a case is placed); two type families; one accent per movement on a calm dark ground; at most 3 effects per screen; reduced motion designed (the scale stands still, nothing self-runs); print and screenshot forms for the kit.
+- **Three directions for the owner to pick by picture** (catalogue IDs, docs/design-catalogue/01):
+  - **A "The Instrument":** S-34 technical/data-sheet (ticks, callouts, measurement) + S-53 single-hue. The gradient is a calibrated scale; tool cards read like instrument labels.
+  - **B "Plain Speech":** S-44 gov-grade plain + S-46 big-sans. Maximum clarity at 2am, oversized blunt headings (the deadpan voice in type), tool cards as hard-edged signs.
+  - **C "The Ledger":** S-49 receipt/label/ticket + S-45 modern serif. The book's own receipts, price list and logbook become the visual language; tool cards are tags, the kit is a receipt.
+- Comps are built on the v5.1 pilot chapters (01-i-b) so the owner sees the new tool and ask blocks, the new cases and the new voice in one review. Faults from R1 that every comp must fix: the cover moment, movement cards instead of the 11-screen list, the gradient drawn rather than bulleted, one crisis notice, the kit as one screen or one page, batched sorts, 2 fonts.
