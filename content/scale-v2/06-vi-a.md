@@ -260,9 +260,9 @@ Yes. An apology can help, but it's one possible ingredient, and the one you cont
 ::: scene
 *LABEL*
 
-Beatriz's ex-husband moved to Lisbon two years ago and blocked everyone, including their dog's vet. She still doesn't know when the affair started. Year two of the marriage, or year nine?
+Beatriz's ex-husband moved to Valencia two years ago and blocked everyone, including their dog's vet. She still doesn't know when the affair started. Year two of the marriage, or year nine?
 
-She checks his sister's Instagram about twice a week. She's asked three mutual friends, one of them twice. Her own sister now says "Lisbon?" whenever Beatriz takes a breath, to save time.
+She checks his sister's Instagram about twice a week. She's asked three mutual friends, one of them twice. Her own sister now says "Valencia?" whenever Beatriz takes a breath, to save time.
 
 She runs the check. Nobody left would tell her the truth. No record. Nothing new in a year. She wouldn't believe him if he rang. And the answer would change nothing: the house is sold, and she likes the flat.
 
@@ -311,7 +311,7 @@ A track record is a written list of the calls you've made about people: what you
 
 Calibration, in the literal sense, means checking predictions against outcomes. The question is whether your *confidence* was right. A person who's certain and correct half the time is badly calibrated. A person who says "probably" and is right about seventy per cent of the time is very well calibrated, and far more useful to themselves.
 
-Experts don't get this for free. Philip Tetlock spent years collecting forecasts from political experts and found them seriously overconfident: events they called 90 per cent likely happened more like 70 per cent of the time. In the forecasting tournament that came later, Barbara Mellers, Tetlock and their colleagues found that training in probability, working in teams, and grouping the best forecasters together all improved both accuracy and calibration. The whole tournament ran on a score kept for every single forecast.
+Experts don't get this for free. Philip Tetlock spent years collecting forecasts from political experts and found them seriously overconfident. In his own summary, events they called 90 per cent likely happened more like 70 per cent of the time. In the forecasting tournament that came later, Barbara Mellers, Tetlock and their colleagues found that training in probability, working in teams, and grouping the best forecasters together all improved both accuracy and calibration. The whole tournament ran on a score kept for every single forecast.
 
 ## The logbook
 
@@ -589,7 +589,7 @@ Personality isn't set in stone. Brent Roberts and colleagues reviewed 207 studie
 
 Change in people who abuse a partner is slower, harder and less common. Julia Babcock and colleagues reviewed treatment programmes for men who were violent to their partners and found small effects: a woman whose partner went through a programme was about five per cent less likely to be assaulted again than if he'd only been arrested.
 
-The most detailed UK study asked the women themselves. In Project Mirabal, Liz Kelly and Nicole Westmarland followed men through perpetrator programmes for a year. In the women's reports, physical and sexual violence fell sharply. The everyday abuse (belittling, intimidation, using money to control) was more common to begin with and more likely to carry on. Control through money fell by only three per cent.
+The most detailed UK study asked the women themselves. In Project Mirabal, Liz Kelly and Nicole Westmarland followed men through perpetrator programmes for a year. In the women's reports, physical and sexual violence fell sharply. The everyday abuse (belittling, intimidation, using money to control) was more common to begin with and more likely to carry on. Control through money was among the things that changed least.
 
 So the headline behaviour can stop while the shape underneath stays put. Don't only watch the thing they apologised for. Watch what your no costs. [The cost of "no"](ch:the-cost-of-no) has the price list.
 
