@@ -20,7 +20,7 @@ Credentials aren't a verdict. Ask what they saw.
 
 ## The job sheet
 
-Before any professional opinion gets the final word, run it through six questions. They work on a psychiatrist, a couples counsellor, a social worker, a life coach with a ring light, and the chatbot you pasted his texts into at 1am.
+Before any professional opinion gets the final word, run it through six questions. They work on a psychiatrist, a couples counsellor, a social worker, a life coach on Instagram, and the chatbot you pasted his texts into at 1am.
 
 ::: check The second-opinion checklist
 ☐ **What did they see?** Who was in the room, for how long, telling whose story?
@@ -63,7 +63,7 @@ The internet will diagnose your partner for free, in under a minute, with backgr
 
 Psychiatry has a rule about the famous version of this. In 1973 the American Psychiatric Association wrote into its ethics code that psychiatrists shouldn't give a professional opinion about a public figure they haven't examined. It's called the Goldwater Rule, and psychiatrists still argue about where its edges are. The principle underneath is the job sheet. No examination, no finding.
 
-If a psychiatrist isn't supposed to diagnose a senator from a press conference, your group chat can't diagnose your boyfriend from a voice note. The labels themselves are covered in [The vocabulary as a weapon](ch:the-vocabulary-as-a-weapon), and a label thrown as a verdict has its own Decoder page: [trash-can diagnosis](/playbook/accountability-evasion-via-diagnosis-trash-can-diagnosis).
+If a psychiatrist isn't supposed to diagnose a senator from a press conference, a friend can't diagnose your boyfriend from a voice note. The labels themselves are covered in [The vocabulary as a weapon](ch:the-vocabulary-as-a-weapon), and a label thrown as a verdict has its own Decoder page: [trash-can diagnosis](/playbook/accountability-evasion-via-diagnosis-trash-can-diagnosis).
 
 The good news is that you never needed the diagnosis. What he does, how often, and what happens when you say no will carry every decision you have to make. [Assessment is not decision](ch:assessment-is-not-decision) explains why you need even less than that to leave.
 
@@ -187,7 +187,7 @@ The escalator swings the torch round the loft yelling "Rat! That's a rat! It's d
 
 Escalation makes the situation harder to describe honestly. Your friend starts editing what they tell you so as not to set you off, which means you get a worse account every time. It makes going back shameful, so if they stay, you lose them. And it puts your feelings into a room that already had plenty.
 
-It's also how a friend who has met the partner twice ends up casting him as a villain in a film only they've seen.
+It's also how a friend who knows the partner from one wedding ends up casting him as a villain in a film only they've seen.
 
 ### The minimiser
 
