@@ -16,7 +16,7 @@ You can't know who they are. Not in a month. Everyone is on their best behaviour
 
 So the whole-person verdict is off the table. A pattern needs time to show itself ([One thing is not a pattern](ch:one-thing-is-not-a-pattern) counts the weeks), and you don't have the weeks yet. New people also sit in the wide room, where most people are ordinary ([Most people, most days](ch:most-people-most-days) explains why that matters).
 
-The internet disagrees. According to the short-video economy, every good-morning text is love bombing and every gift is a grooming technique. Follow that advice and you'll end up suspicious of a man for buying you a sandwich. That's a detector with the batteries in upside down.
+The internet disagrees. By its rules, every good-morning text is love bombing and every gift is a grooming technique. Follow that advice and you'll end up suspicious of a man for buying you a sandwich. That's a detector with the batteries in upside down.
 
 ## What you can know: the dual-control car
 
