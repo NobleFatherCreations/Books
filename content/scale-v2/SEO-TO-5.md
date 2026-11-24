@@ -1,5 +1,7 @@
 # The Weighing: raising SEO to 5 (2026-11-24)
 
+**Owner, 2026-11-24: "Don't draft anything for reaching out to others for SEO - I want the final book only right now."** Only section A (the book's own pages) is active. Sections B, C and D are parked: nothing is drafted, sent or deployed for them until the owner asks.
+
 Scores from V5.1-DECISION-ANALYSIS.md:
 - on-page 4 (5 after this pass);
 - authority 1;
@@ -23,7 +25,7 @@ Scores from V5.1-DECISION-ANALYSIS.md:
 | 6 | Fix the layout jump (0.3) and the 2.5s cover image (speed is a ranking signal) | Design phase |
 | 7 | Accessibility 0 issues on all pages | Done |
 
-## B. Authority, internal web (needs a deploy of each named site; the fastest lever)
+## B. (PARKED) Authority, internal web (needs a deploy of each named site; the fastest lever)
 
 **Why first:** the domain's other books already have their own search and link history, and links from them pass value inside the same domain immediately.
 
@@ -36,7 +38,7 @@ Scores from V5.1-DECISION-ANALYSIS.md:
 
 **Batching:** these could all go in one release window after "deploy The Weighing", with each site named in one message.
 
-## C. Authority, earned links (owner-sent; starts the week v5.1 is live)
+## C. (PARKED) Authority, earned links (owner-sent; starts the week v5.1 is live)
 
 | # | Action | Detail |
 |---|---|---|
@@ -46,7 +48,7 @@ Scores from V5.1-DECISION-ANALYSIS.md:
 | 4 | **Professional review (strongest trust signal, owner decision)** | Ask one qualified person (an abuse-service worker or counsellor) to read the safety chapters and agree to be named as a reviewer. Google weighs this heavily for health-adjacent topics, and it makes services likelier to link. |
 | 5 | **Community answers (no spam)** | The owner answers real questions in forums where the book genuinely helps, linking only where it answers the question. |
 
-## D. Technical and measurement (owner, a few minutes once)
+## D. (PARKED) Technical and measurement (owner, a few minutes once)
 
 | # | Action |
 |---|---|
