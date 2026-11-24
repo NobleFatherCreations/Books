@@ -193,89 +193,89 @@ Each answer is the short version. The chapter behind it has the long one, with t
 
 ## Is it me?
 
-**Am I overreacting?** Measure the event and your reaction separately. Place the event on the gradient, from rude to abusive. Then measure your reaction by what you said and did, not by how strongly you felt. If the two roughly match, you aren't overreacting, whoever says so. If your reaction is much bigger, check whether it's carrying a pattern or your past. [Read more](ch:when-people-say-youre-overreacting)
+**Am I overreacting?** Split it in two. Size the event on the gradient, size your reaction by what you did rather than what you felt, and compare. A match means you aren't, whoever says otherwise. A big gap usually means you're carrying a pattern or your past into tonight. [Read more](ch:when-people-say-youre-overreacting)
 
-**Why do people say "you're overreacting"?** Usually because your reaction surprised them, made them uncomfortable, or honestly looked too big. Sometimes because it was. And sometimes because it works: it moves the conversation from what they did to how you responded. The test is whether the original thing ever gets discussed. If the topic is always your reaction, it's a tactic. [Read more](ch:when-people-say-youre-overreacting)
+**Why do people say "you're overreacting"?** Sometimes because it's true, sometimes because your reaction startled them, and sometimes because it works: the subject quietly changes from what they did to how you took it. If the original thing never gets discussed, the word is doing a job. [Read more](ch:when-people-say-youre-overreacting)
 
-**Am I the toxic one?** Maybe in places, and you can find out. Judge yourself on the last six months the way you'd judge anyone: specific acts, how often, and what happened when someone raised them. Most honest people find one or two real habits, under one kind of pressure, with one or two people. That's a habit you can fix. [Read more](ch:am-i-the-one-doing-it)
+**Am I the toxic one?** Find out the way you'd check anyone else: dated acts from the last six months, how often, and what happened when someone raised them. Most people turn up a habit or two, not a character. Instant, total guilt is its own warning sign. [Read more](ch:am-i-the-one-doing-it)
 
-**Am I the toxic one or the victim?** Possibly some of both, and one doesn't cancel the other. Run the fear test honestly. If you're the one who is afraid, adapting and paying for every no, a reaction you're ashamed of doesn't make you the abuser. If they're afraid of you and adapt around you, being provoked doesn't make you the victim. [Read more](ch:when-you-both-say-victim)
+**Am I the toxic one or the victim?** It can be some of both. The fear test sorts it: who is afraid, who adapts in advance, whose no costs them. One snap after months of pressure doesn't make you the abuser, and being provoked once doesn't make you the victim. [Read more](ch:when-you-both-say-victim)
 
-**Is it me, or am I being manipulated?** That question offers two answers, and the truth is often a third. Write three explanations for the specific thing that happened: hostile, neutral, and one about you or the situation. Then ask what would tell them apart, and go and look. If the hostile one keeps fitting best after that, you have your answer, with evidence instead of dread. [Read more](ch:the-discipline-of-three-explanations)
+**Is it me, or am I being manipulated?** That's a two-answer question for a three-answer world. Write one hostile, one neutral and one you-or-the-situation explanation, then find what would tell them apart. If the hostile one survives the check, you have an answer backed by evidence. [Read more](ch:the-discipline-of-three-explanations)
 
-**Should I trust my gut about someone?** Yes, as a first reading. Your gut is fast pattern-matching on small signals you never consciously noticed. But the same machinery fires on resemblance to old harm, and the two feel identical. Give the feeling ten minutes and a piece of paper. If it unpacks into things a camera would have caught, weigh them. If not, it's an alarm. [Read more](ch:the-gut-sensor-or-smoke-alarm)
+**Should I trust my gut about someone?** As a first reading, yes, never as a verdict. Give the feeling ten minutes and a pen. If it turns into things a camera would have caught, you have something to weigh. If it stays as atmosphere, it's an alarm, and caution is all it has earned. [Read more](ch:the-gut-sensor-or-smoke-alarm)
 
-**Is it my gut feeling or anxiety?** Watch what happens when you get information. A gut feeling points at something specific outside you, and it calms down or sharpens when you learn more. Anxiety is vaguer, circles back to you, and treats each answer as the reason for the next question. If reassurance buys you twenty minutes before the feeling returns, it's probably anxiety. [Read more](ch:gut-feeling-or-anxiety)
+**Is it my gut feeling or anxiety?** Feed it one fact and watch. Intuition settles or sharpens into a better question. Anxiety takes the fact and asks for another. Reassurance that wears off in twenty minutes is the giveaway. [Read more](ch:gut-feeling-or-anxiety)
 
-**Is it anxiety or manipulation?** It can be both, and each can feed the other. Anxiety reads threat into ordinary things. Manipulation makes ordinary-looking things threatening on purpose, and living with it makes most people anxious. So skip the question of which one you are. Ask what the other person did, in specifics, and whether it keeps happening. Behaviour can settle it. Your nerves can't. [Read more](ch:gut-feeling-or-anxiety)
+**Is it anxiety or manipulation?** Often both, feeding each other, so don't try to diagnose your nerves. Look at what the other person actually did, in specifics, and whether it repeats. Their behaviour can answer the question. Your pulse can't. [Read more](ch:gut-feeling-or-anxiety)
 
-**Why do I see manipulation everywhere now?** Because you learned the names, and the names fit nearly everything. Manipulation tactics are built out of ordinary human behaviour, so every tired partner, slow reply and clumsy apology resembles something on the list. Resemblance is free and proves very little. The skill you need next is weighing whether the tactic is the best explanation for what happened. [Read more](ch:you-learned-to-see-this-is-how-you-learn-to-weigh)
+**Why do I see manipulation everywhere now?** Because the tactic names are built from ordinary behaviour, so once you know them nearly everything resembles one. Resemblance costs nothing and proves little. The next skill is asking whether the tactic is the best explanation for what happened. [Read more](ch:you-learned-to-see-this-is-how-you-learn-to-weigh)
 
-**How do I stop seeing red flags everywhere after a toxic relationship?** Sort them instead of trying to stop them. Write each one down, name exactly what set it off, and ask whether it's a resemblance or a behaviour. Then extend small trusts and record how people respond. Over weeks, the resemblance alarms quieten while the real ones keep ringing. That's recalibration. [Read more](ch:weighing-after-youve-left)
+**How do I stop seeing red flags everywhere after a toxic relationship?** Don't fight the alarm. Log it. Note what set it off, sort resemblance from behaviour, and try small trusts to see how people respond. Over weeks the resemblance alarms quieten and the real ones keep working. [Read more](ch:weighing-after-youve-left)
 
 ## Normal, flaw, or something worse?
 
-**What's the difference between rude and abusive?** Rude behaviour hurts your feelings and leaves your life the same size. Abusive behaviour shrinks your life: where you can go, who you can see, what you can say, what you can spend, what you're allowed to remember. Between them sit five more positions, and most of the bad behaviour you'll ever meet lives in those five. [Read more](ch:the-gradient)
+**What's the difference between rude and abusive?** Rudeness hurts and leaves your life the same size. Abuse shrinks it: where you go, who you see, what you say or spend. Five more positions sit between the two, and most bad behaviour lives there. [Read more](ch:the-gradient)
 
-**Is it a red flag or just a flaw?** Ask what it turns into if it gets worse. A flaw grows into a bigger version of the same annoyance: messier, later, louder at the cinema. A red flag grows into something that takes from you, such as your time, your friends, your money or your confidence in your own memory. Same irritation today, very different direction. [Read more](ch:red-flag-flaw-or-dealbreaker)
+**Is it a red flag or just a flaw?** Picture it getting worse. A flaw becomes a bigger version of the same annoyance. A red flag becomes something that takes from you: time, friends, money, your trust in your own memory. Then watch how they handle your first no. [Read more](ch:red-flag-flaw-or-dealbreaker)
 
-**What's the difference between a red flag and a dealbreaker?** A red flag is a prediction about them. A dealbreaker is a decision about you. Someone who doesn't want children isn't showing a red flag, and if you want three, it's still a dealbreaker. You don't need a red flag to leave, and you don't need to justify a dealbreaker to anyone. [Read more](ch:red-flag-flaw-or-dealbreaker)
+**What's the difference between a red flag and a dealbreaker?** A red flag predicts something about them. A dealbreaker is a decision about you, and it needs no evidence or defence. Wanting children when they don't is a dealbreaker, not a flag, and it's still allowed to end things. [Read more](ch:red-flag-flaw-or-dealbreaker)
 
-**Is it normal fighting or abuse?** Normal fighting is about something, it goes both ways, and it ends. Each person can say no, argue back and walk away for an hour, and afterwards someone tries to repair it. Abuse is about who decides. One person is afraid of the other's reaction, does most of the adapting, and finds that saying no costs them every time. [Read more](ch:conflict-or-control)
+**Is it normal fighting or abuse?** Ordinary fights are about something, run both ways and end with some repair. Abuse is about who decides: one person is afraid, does the adapting, and pays for every no. Ask what you've stopped doing, and whether you chose to. [Read more](ch:conflict-or-control)
 
-**What is coercive control?** A pattern in which one partner takes over the other's everyday life through intimidation, isolation, monitoring and rules, until the other person's freedom has shrunk. The sociologist Evan Stark called it a "liberty crime," because the main harm is to the victim's freedom. It can happen without any physical violence at all. [Read more](ch:conflict-or-control)
+**What is coercive control?** A pattern of intimidation, isolation, monitoring and rules that steadily shrinks one partner's life. Evan Stark called it a "liberty crime" and argued it can do its damage with little or no physical violence. [Read more](ch:conflict-or-control)
 
-**Is my partner setting boundaries or controlling me?** Ask whose behaviour their sentence governs. If it ends with you doing less, seeing fewer people, changing your clothes or handing over your phone, it's a rule, whatever it's called. If it ends with them doing something, such as leaving the room or going home early, it's a boundary, even if you hate it. [Read more](ch:a-boundary-or-a-rule)
+**Is my partner setting boundaries or controlling me?** Look at whose behaviour the sentence governs. If it changes what they will do, it's a boundary, even if you hate it. If it changes what you're allowed to do, wear, see or keep private, it's a rule, whatever they call it. [Read more](ch:a-boundary-or-a-rule)
 
-**Is it love bombing or genuine interest?** Both are fast and both feel wonderful, so speed alone won't tell you. Slow things down a notch and watch. Genuine interest is disappointed, then adjusts to your pace and is still there next week. Love bombing argues with your pace, sulks, or speeds up. The test is what the attention does when you ask for less of it. [Read more](ch:weighing-someone-new)
+**Is it love bombing or genuine interest?** You can't tell from the speed, so ask for a slower pace and watch. Real interest is disappointed, adjusts and is still there next week. Love bombing argues, sulks or speeds up. [Read more](ch:weighing-someone-new)
 
-**Is my parent controlling or just difficult?** Difficult parents criticise, nag, sulk and repeat themselves, but your choices stay yours. Controlling parents need to approve them. Watch for three things: your no gets punished, they reach into your adult life (money, keys, partner, children), and other relatives get sent to deliver the message. Disapproval is allowed. Punishment is the line. [Read more](ch:weighing-family)
+**Is my parent controlling or just difficult?** Difficult parents cost you an evening and your choices stay yours. Controlling ones charge for your choices: a punished no, a reach into your money, keys or partner, a relative sent with the message. Disapproval is allowed. Punishment is the line. [Read more](ch:weighing-family)
 
-**Is my boss bad or toxic?** Score them. If your manager is weak on clarity, consistency or credit but your nos, your concerns and your exit are safe, they're a bad manager: annoying, possibly worth leaving. If the trouble is what happens when you refuse, speak up or try to leave, that's control, and it calls for records and advice. [Read more](ch:weighing-a-boss)
+**Is my boss bad or toxic?** Score them on six lines with examples. Weak clarity, consistency or credit is bad management. Trouble that lands on your nos, your concerns or your way out is coercion, and it calls for records and advice. [Read more](ch:weighing-a-boss)
 
-**Is my friend using me?** Maybe, or maybe they're in a hard season. Look at more than now. In a hard season the giving runs one way for a while, there's a cause you can name, and small returns still happen. Using runs one way in good times too. Ask for something small back, and watch what happens. [Read more](ch:weighing-a-friend)
+**Is my friend using me?** Compare two seasons, not one. A hard season tips the giving one way for a reason you can name, and small returns still turn up. Using tips it one way even when their life is fine. A small ask will tell you which. [Read more](ch:weighing-a-friend)
 
-**What does a healthy relationship actually look like?** Messier than most people expect. Healthy couples argue, disappoint each other, get defensive when tired, and carry problems they never solve. What sets them apart is what happens next: either person can raise a problem, someone repairs it, saying no doesn't cost you your standing, and nobody's world is getting smaller. [Read more](ch:the-reference-sample)
+**What does a healthy relationship actually look like?** Less tidy than people think: arguments, defensiveness and problems that never get solved. The difference is the aftermath. Problems can be raised, repairs happen, a no doesn't cost you your standing, and nobody's world keeps shrinking. [Read more](ch:the-reference-sample)
 
 ## Lies, texts and memory
 
-**How can you tell if someone is lying?** Mostly, not from their face. Across 206 studies, people judged lies and truths correctly about 54% of the time, barely better than a coin. Eye contact, fidgeting and eye direction tell you almost nothing. What works is slower: specific, checkable detail, core facts that hold or move between tellings, the record, and time. [Read more](ch:can-you-tell-when-someone-is-lying)
+**How can you tell if someone is lying?** Not by their face. In a review of 206 studies people spotted lies and truths about 54% of the time, barely above a coin toss. Check facts instead: checkable detail, core facts across tellings, the record, and time. [Read more](ch:can-you-tell-when-someone-is-lying)
 
-**Can you tell if someone is lying over text?** Not from tone, punctuation or reply speed. Look at content instead: vague answers to easy questions, answers to a different question, and core facts that change between messages. A text thread is a record, so scroll up and compare. Then check the facts you can. [Read more](ch:reading-a-text-message)
+**Can you tell if someone is lying over text?** Not from tone, punctuation or reply speed. Content is what helps: easy questions answered vaguely, a different question answered, core facts that drift. The thread is a record, so scroll up and compare it with what you can check. [Read more](ch:reading-a-text-message)
 
-**What does this text mean?** Usually less than you think. A text carries words and almost nothing else, so tone, mood and intent get supplied by the reader, and an anxious reader supplies the worst. Before you decide, list three readings that fit the words. Then ask what you'd need to know: how they text everyone, what's happening for them, and whether this is new. [Read more](ch:reading-a-text-message)
+**What does this text mean?** Less than it feels like. A text carries the words and leaves the face, voice and timing out, so an anxious reader fills the gap with the worst guess. List three readings, then ask what you'd need to know to choose between them. [Read more](ch:reading-a-text-message)
 
-**Is it gaslighting or do we just remember it differently?** Honest disagreement happens now and then, goes both ways, and stays about the memory: the day, the words, the order. Gaslighting is a pattern. Its corrections always land in the other person's favour, it attacks your mind instead of your memory ("you make things up"), and it treats any record you keep as the problem. [Read more](ch:i-dont-remember-it-that-way)
+**Is it gaslighting or do we just remember it differently?** Honest disagreement is occasional, cuts both ways and stays about details. Gaslighting is a pattern whose corrections always favour one person, goes after your mind rather than your memory, and treats your records as the problem. [Read more](ch:i-dont-remember-it-that-way)
 
-**How do I know if it's a pattern?** Count four things. How many times it has happened in a set window. Over how many weeks or months. Whether it's getting more frequent, more severe, or reaching further into your life. And what happened after you raised it. A behaviour that continues, worsens or gets punished after being clearly named is a pattern you can act on. [Read more](ch:one-thing-is-not-a-pattern)
+**How do I know if it's a pattern?** Fill in four blanks: how often, over how long, whether it's getting worse, and what changed when you named it. That last one usually decides it. Some acts, such as violence, need no pattern at all. [Read more](ch:one-thing-is-not-a-pattern)
 
-**Am I being paranoid about my partner?** Ask whether your file has a second column. If every single thing they do, warm or cold, counts against them, your folder is probably running itself. If you have specific, dated things they did, and the kind things you noticed haven't cancelled them, you may simply be right. Count both, then check what happened when you named it. [Read more](ch:the-file-that-builds-itself)
+**Am I being paranoid about my partner?** Check whether your file has a column for the kind things. If everything they do, warm or cold, counts against them, the file is running itself. Specific, dated acts that kindness hasn't cancelled may mean you're simply right. [Read more](ch:the-file-that-builds-itself)
 
 ## Bringing it up
 
-**How do I bring something up and tell if they're manipulating me?** Describe what they did and its effect on you in one plain sentence, with no diagnosis and no guess at motive. Then stop talking and watch. A decent person engages with the subject, even badly. A controlling person moves the subject onto you. Only do this if it's safe, and check again weeks later. [Read more](ch:the-naming-test)
+**How do I bring something up and tell if they're manipulating me?** Say the act and its effect in one sentence, with no diagnosis or guess at motive, then stop talking. Watch whether the subject stays on what they did or moves onto you. Only do it if it's safe, and check weeks later whether you can raise it again. [Read more](ch:the-naming-test)
 
-**Is getting defensive a sign of guilt?** No. Defensiveness is what most people do when they hear they've hurt someone, guilty or not, so it tells you about their nerves. The signal is what comes after: whether they come back to the subject, even an hour later and grumpily. Defensive and engaged is normal. Calm and never engaged is the one to watch. [Read more](ch:the-naming-test)
+**Is getting defensive a sign of guilt?** Not on its own. Nearly everyone bristles when told they've hurt someone. What matters is whether they come back to the subject, even grumpily and an hour later. Defensive and engaged is normal. Smooth and never engaged is the one to watch. [Read more](ch:the-naming-test)
 
-**How do I know if an apology is real?** Hold it up to the light and look for four things. It names the specific act. It comes without conditions or counter-charges. The behaviour changes and stays changed over the following weeks. And nobody sends you a bill for having apologised. Real apologies are often clumsy. Specifics count for far more than fluency. [Read more](ch:repair-and-apologys-counterfeit)
+**How do I know if an apology is real?** Check four features: it names the act, it carries no conditions or counter-charges, the behaviour changes and stays changed, and it never turns into a debt. The weeks after tell you more than the words. [Read more](ch:repair-and-apologys-counterfeit)
 
-**What happens when you say no to a controlling person?** Usually not a scene. More often a price paid later, and deniably: a cold few days, help that stops arriving, your no retold as proof you're selfish, the request coming back bigger. One bad reaction means little. When every small no gets charged for, refusing is being made expensive, and that is control. [Read more](ch:the-cost-of-no)
+**What happens when you say no to a controlling person?** Rarely a scene. More often a quiet, deniable bill: a cold few days, help withdrawn, your no retold as selfishness, the request back and bigger. One sulk means little. Being charged for every small no is control. [Read more](ch:the-cost-of-no)
 
-**Can a manipulative person change?** Some can, and some do, but rarely quickly and never because they said so. Real change shows up as specific behaviour that holds for months, keeps holding when it's inconvenient, and doesn't need an audience. The surest sign is that your no gets cheaper. Time is the evidence. [Read more](ch:can-people-change)
+**Can a manipulative person change?** Some do, slowly, and promises are not the evidence. Real change is specific behaviour that holds for months, through inconvenience and with nobody watching. The clearest sign is that your no gets cheaper. [Read more](ch:can-people-change)
 
 ## Deciding, and after
 
-**Do I need proof to leave a relationship?** No. Proof is what you'd need to convince someone else, and leaving doesn't require convincing anyone. "I don't want this" is a complete reason to end a relationship, a friendship or a job. Weighing what's happening is still worth doing, because it helps you choose well. It was never a permission slip. [Read more](ch:assessment-is-not-decision)
+**Do I need proof to leave a relationship?** No. Proof is for convincing other people, and leaving needs nobody's agreement. "I don't want this" is enough. Weighing helps you choose well, and it was never the price of permission. [Read more](ch:assessment-is-not-decision)
 
-**What should I do if I'm scared of my partner?** Treat the fear as enough. Get somewhere safe, tell one person outside the relationship, and contact the domestic abuse service where you live. If you're in danger now, call your local emergency number. You don't need to prove anything, name what's happening, or decide anything about the relationship before you reach out. [Read more](ch:when-weighing-stops)
+**What should I do if I'm scared of my partner?** Treat the fear as reason enough. Get somewhere safe, tell one person outside the relationship, and contact the domestic abuse service where you live. In danger now, call your local emergency number. You don't need proof first. [Read more](ch:when-weighing-stops)
 
-**How do I stop second-guessing myself?** Move the argument out of your head and onto paper. Write each call, how sure you are and what would prove you wrong, then check back in a few months. After ten entries you'll know whether your doubts are earned. Second-guessing feeds on a record nobody kept. A kept one gives the doubt something real to argue with. [Read more](ch:scoring-your-own-past-calls)
+**How do I stop second-guessing myself?** Keep a record instead of arguing in your head. Write each call, how sure you are and what would show you wrong, then check back months later. After about ten entries you'll know whether your doubt is earned. [Read more](ch:scoring-your-own-past-calls)
 
-**Is it paranoia if you're right?** Being right once doesn't make the method sound. Paranoia is a method in which everything confirms and nothing could ever disconfirm. You can be right about one person while running a method that will be wrong about the next ten. So check how you reached the conclusion, and whether anything could have changed it. [Read more](ch:certainty-is-the-tell)
+**Is it paranoia if you're right?** Being right once doesn't make the method sound. Paranoia is a method where everything confirms and nothing could disconfirm, so it will be wrong about the next ten people. Check how you got there as well as where you landed. [Read more](ch:certainty-is-the-tell)
 
-**How do you get closure when you'll never know the truth?** Stop trying to settle the question, and settle your position instead. Say "I don't know, and here's how I'm going to live anyway," then write down what that means in behaviour: what you'll stop checking, who you'll stop asking, which explanation you'll act on. Closure is something you do. [Read more](ch:when-you-cant-ever-know)
+**How do you get closure when you'll never know the truth?** Settle your position instead of the question. Say "I don't know, and here's how I'm going to live anyway," then turn it into behaviour: what you'll stop checking, who you'll stop asking, which explanation you'll act on. [Read more](ch:when-you-cant-ever-know)
 
-**How do I trust again after being manipulated?** Start small and go up in steps. Rely on someone for something minor, share something low-stakes, say a small no, and watch what happens each time. Climb when they handle it well, step back when they don't. Expect to be wrong sometimes. The point is to be wrong at a height you can survive. [Read more](ch:trust-as-a-skill-you-rebuild)
+**How do I trust again after being manipulated?** In steps you can afford to lose. Rely on someone for something small, share something minor, say a small no, and watch each time. Climb when it holds and step back when it doesn't. You'll still be wrong sometimes, at a height you can survive. [Read more](ch:trust-as-a-skill-you-rebuild)
 
 === a-to-z
 title: A to Z
@@ -295,7 +295,7 @@ Plain definitions, as this book uses the words. Where the Pattern Decoder has a 
 
 **Base rate.** How often something is true before you know anything about the particular case. Your evidence has to drag a suspicion up from that starting number. [Most people, most days](ch:most-people-most-days)
 
-**BITE model.** Steven Hassan's model of how high-demand groups control members, sorted into Behaviour, Information, Thought and Emotional control. A checklist of questions, not a test that proves anything. [Weighing a group](ch:weighing-a-group) · Decoder: [Behavior control](/playbook/behavior-control)
+**BITE model.** Steven Hassan's model of how high-demand groups control members, sorted into Behaviour, Information, Thought and Emotional control. A checklist of questions, not a test that proves anything. [Weighing a group](ch:weighing-a-group) · Decoder, for the B: [Behavior control](/playbook/behavior-control)
 
 **Boring explanations.** The ordinary causes behind most bad moments: thoughtlessness, exhaustion, distraction, mismatched expectations, logistics, the body. Check them before a plan, then watch what a boring fix does. [The boring explanations](ch:the-boring-explanations)
 
@@ -307,7 +307,7 @@ Plain definitions, as this book uses the words. Where the Pattern Decoder has a 
 
 **Concept creep.** The psychologist Nick Haslam's term for words like abuse, bullying and trauma widening over time to cover milder experiences than they first described. Some of the widening caught real harm; some of it blunted the words. [The vocabulary as a weapon](ch:the-vocabulary-as-a-weapon)
 
-**Confirmation bias.** The habit of looking for, noticing and interpreting evidence in ways that favour what you already believe. Certainty rises with every entry; accuracy doesn't move. [The file that builds itself](ch:the-file-that-builds-itself) · Decoder: [Confirmation bias exploitation](/playbook/confirmation-bias-exploitation)
+**Confirmation bias.** The habit of looking for, noticing and interpreting evidence in ways that favour what you already believe. Certainty rises with every entry; accuracy doesn't move. [The file that builds itself](ch:the-file-that-builds-itself) · Decoder, for the reverse, where someone feeds your hopeful reading: [Confirmation bias exploitation](/playbook/confirmation-bias-exploitation)
 
 **Cost of no.** What happens to you after you refuse someone something reasonable. Small and brief in a healthy relationship; in a controlling one, a price paid later in temperature, access and framing. [The cost of "no"](ch:the-cost-of-no) · Decoder: [Punishment of boundaries](/playbook/punishment-of-boundaries)
 
@@ -359,7 +359,7 @@ Plain definitions, as this book uses the words. Where the Pattern Decoder has a 
 
 ## R to W
 
-**Reactive abuse.** A survivors' and support workers' term, not a diagnosis. Someone controlled or provoked for a long time finally snaps, and the controlling person holds up the reaction as proof the victim is the abuser. [When you both say you're the victim](ch:when-you-both-say-victim) · Decoder: [Baiting](/playbook/baiting)
+**Reactive abuse.** A survivors' and support workers' term, not a diagnosis. Someone controlled or provoked for a long time finally snaps, and the controlling person holds up the reaction as proof the victim is the abuser. [When you both say you're the victim](ch:when-you-both-say-victim) · Decoder, for when the reaction was provoked on purpose: [Baiting](/playbook/baiting)
 
 **Red flag.** Behaviour that predicts harm, usually to your freedom, honesty or safety, because of what it tends to grow into. A flag that changes when you name it was probably a flaw. [Red flag, flaw or dealbreaker](ch:red-flag-flaw-or-dealbreaker)
 
@@ -369,7 +369,7 @@ Plain definitions, as this book uses the words. Where the Pattern Decoder has a 
 
 **Rule.** A sentence about what someone else must do, with "you" as its subject, whatever it's called. "You're not going out tonight" is a rule, and so is "my boundary is that you don't talk to your ex." [A boundary or a rule](ch:a-boundary-or-a-rule)
 
-**Secondhand account.** Anything you know about a person because someone else told you. You're weighing two things at once, what happened and the teller. [Secondhand accounts](ch:secondhand-accounts) · Decoder: [Flying monkeys](/playbook/flying-monkeys-proxy-recruitment)
+**Secondhand account.** Anything you know about a person because someone else told you. You're weighing two things at once, what happened and the teller. [Secondhand accounts](ch:secondhand-accounts) · Decoder, for stories carried on someone else's behalf: [Flying monkeys](/playbook/flying-monkeys-proxy-recruitment)
 
 **Shape check.** Five signs that a belief is a funnel rather than an explanation: it explains everything, nothing could prove it wrong, doubt costs you, the world splits clean, and certainty climbs faster than evidence. [Certainty is the tell](ch:certainty-is-the-tell)
 
