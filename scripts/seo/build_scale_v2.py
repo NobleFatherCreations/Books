@@ -71,8 +71,13 @@ TEL_PAGES = {"when-weighing-stops"}
 
 
 # ---------------------------------------------------------------- page frame
-FONTS = "".join(f"@font-face{{font-family:'Fraunces';font-weight:{w};font-style:{st};font-display:swap;src:url({BASE}/f/fraunces-{w}-{st}.woff2) format('woff2')}}"
-                for w, st in (("400", "normal"), ("400", "italic"), ("600", "normal"), ("700", "normal")))
+FONTS = (f"@font-face{{font-family:'Public Sans';font-weight:100 900;font-style:normal;font-display:swap;src:url({BASE}/f/publicsans-var.woff2) format('woff2')}}"
+         f"@font-face{{font-family:'Public Sans';font-weight:100 900;font-style:italic;font-display:swap;src:url({BASE}/f/publicsans-italic-var.woff2) format('woff2')}}"
+         f"@font-face{{font-family:'Bricolage';font-weight:500 800;font-style:normal;font-display:swap;src:url({BASE}/f/bricolage-500-800.woff2) format('woff2')}}"
+         # size-matched fallbacks so the swap doesn't move the page (the 0.3 layout shift, R1)
+         "@font-face{font-family:'PS-fallback';src:local('Arial'),local('Helvetica'),local('Liberation Sans');size-adjust:104%;ascent-override:95%;descent-override:24%}"
+         "@font-face{font-family:'BG-fallback';src:local('Arial Black'),local('Arial Bold'),local('Liberation Sans Bold');size-adjust:92%;ascent-override:100%;descent-override:26%}")
+FONT_FILES = ["publicsans-var.woff2", "publicsans-italic-var.woff2", "bricolage-500-800.woff2"]   # tools/fonts/web-scale -> library/scale/f
 
 CSS = """
 :root{color-scheme:dark;--night:#110e19;--panel:#1a1527;--panel2:#221c33;--fg:#efe9f4;--fg2:#bdb3cc;--line:#2f2842;
@@ -260,8 +265,19 @@ border:1px solid rgba(255,255,255,.1);border-radius:18px;color:#fff;font-size:1.
 
 # The Weighing's own fixes on top of the inherited skin: long sister-book titles and printable blank lines must wrap on phones
 CSS += "article .blk-bridge a{white-space:normal}article .blk-sheet p,article .blk-sheet li{overflow-wrap:anywhere}"
+CSS += (ROOT / "design/scale-v5/skin-b.css").read_text()   # v5.1 look B, Plain Speech (owner pick 2026-11-24)
 
 JS = SH.js(OLD['chapters'], OLD['routes'], BASE)
+JS += """<script>(function(){
+document.querySelectorAll('ol.path>li[id^="part-"]').forEach(function(li){var h=li.querySelector('h3'),ol=li.querySelector('ol');if(!h||!ol)return;
+var d=document.createElement('details'),s=document.createElement('summary');s.innerHTML=h.innerHTML+'<span class="cnt">'+ol.children.length+' chapters</span>';
+d.id=h.id;h.removeAttribute('id');d.appendChild(s);d.appendChild(ol);h.replaceWith(d);if(location.hash==='#'+li.id)d.open=true;});
+document.querySelectorAll('ul.sort').forEach(function(ul){var it=[].slice.call(ul.children);if(it.length<=5)return;
+it.forEach(function(li,i){if(i>=4)li.classList.add('batch-hidden');});var b=document.createElement('button');b.type='button';b.className='sort-more';
+function l(){var n=ul.querySelectorAll('.batch-hidden').length;b.textContent=n?('Show '+Math.min(4,n)+' more'+(n>4?' ('+n+' left)':'')):'';b.hidden=!n;}
+b.addEventListener('click',function(){[].slice.call(ul.querySelectorAll('.batch-hidden'),0,4).forEach(function(li){li.classList.remove('batch-hidden');});l();});ul.after(b);l();});
+window.addEventListener('beforeprint',function(){document.querySelectorAll('.batch-hidden').forEach(function(li){li.classList.remove('batch-hidden');});document.querySelectorAll('.path details').forEach(function(d){d.open=true;});});
+})();</script>"""
 
 
 def house():
@@ -335,7 +351,8 @@ def frame(*, title, desc, url, ld, body, part, robots=None, og_type="article", e
     return ("<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n"
             "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1, viewport-fit=cover\">\n" + head +
             f'<meta name="theme-color" content="{s1}">\n'
-            f'<link rel="preload" href="{BASE}/f/fraunces-400-normal.woff2" as="font" type="font/woff2" crossorigin>\n'
+            f'<link rel="preload" href="{BASE}/f/publicsans-var.woff2" as="font" type="font/woff2" crossorigin>\n'
+            f'<link rel="preload" href="{BASE}/f/bricolage-500-800.woff2" as="font" type="font/woff2" crossorigin>\n'
             "<script>document.documentElement.className+=' js'</script>\n"
             f"<style>{FONTS}{CSS}{extra_css}:root{{--s1:{s1};--s2:{s2};--acc:{acc};--dawn:{dawn}}}</style>\n{hc}\n"
             + (f'<script type="application/ld+json">{S.ld_json(ld)}</script>\n' if ld else "") + "</head>\n<body>\n"
@@ -616,6 +633,9 @@ def main():
         keep.add(f"{s}.html")
     for old, new in PLAN.get("old_redirects", {}).items():
         S.write(OUT / f"{old}.html", redirect_html(new)); keep.add(f"{old}.html")
+    (OUT / "f").mkdir(exist_ok=True)
+    for ff in FONT_FILES:
+        (OUT / "f" / ff).write_bytes((ROOT / "tools/fonts/web-scale" / ff).read_bytes())
     S.write(OUT / "index.html", index_html())
     S.write(OUT / "contents.html", contents_html())
     S.write(OUT / "search.html", search_html())

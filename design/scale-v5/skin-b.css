@@ -1,0 +1,57 @@
+
+/* ===== The Weighing v5.1, look B "Plain Speech" (S-44 gov-grade clarity + S-46 big-sans), owner pick 2026-11-24 ===== */
+html:root{--night:#111214;--panel:#1b1c1f;--panel2:#222327;--fg:#f4f4f2;--fg2:#b8b8b2;--line:#34363a;--acc:#ffd23f;
+--disp:'Bricolage','BG-fallback',system-ui,sans-serif;--body:'Public Sans','PS-fallback',system-ui,sans-serif;--sans:var(--body)}
+html{scroll-padding-top:72px;scroll-padding-bottom:104px}
+body{font:400 1.14rem/1.62 var(--body)}
+a{color:var(--fg);text-decoration-color:var(--acc);text-decoration-thickness:2px;text-underline-offset:3px}a:hover{color:var(--acc)}
+.bar{background:rgba(17,18,20,.95)}
+.bar .home{font:800 1.15rem/1 var(--disp);letter-spacing:-.02em}
+.sky{background:var(--night)!important}.sky::before{display:none}
+.sky::after{background:var(--line);opacity:1}
+.loc{font:700 .8rem/1.4 var(--body)!important;letter-spacing:.06em;text-transform:uppercase;color:var(--acc)!important}
+.loc a{text-decoration-color:transparent}
+h1{font:800 clamp(2.6rem,1.6rem + 6vw,5rem)/.98 var(--disp)!important;letter-spacing:-.03em}
+.q{font-style:normal;font-size:1.2rem;color:var(--fg2)}
+article h2,.sec>h2{font:800 clamp(1.6rem,1.1rem + 2.6vw,2.3rem)/1.05 var(--disp)!important;letter-spacing:-.025em}
+.path h3{font:800 1.5rem/1.1 var(--disp)}
+.short{background:var(--panel);border:0;border-left:6px solid var(--acc);border-radius:0}
+.short .lab{color:var(--acc)}
+.short p{font-size:1.22rem}
+/* the signature move: the gradient as a ramp */
+article .blk-gradient ul{list-style:none;margin:24px 0;padding:0;display:grid;grid-template-columns:repeat(7,1fr);gap:3px}
+article .blk-gradient li{position:relative;margin:0;padding:44px 2px 0;font:700 .7rem/1.2 var(--body);text-align:center}
+article .blk-gradient li::before{content:"";position:absolute;top:0;left:0;right:0;height:34px;background:var(--acc);opacity:calc(.18 + var(--i,0) * .137)}
+article .blk-gradient li:nth-child(2){--i:1}article .blk-gradient li:nth-child(3){--i:2}article .blk-gradient li:nth-child(4){--i:3}
+article .blk-gradient li:nth-child(5){--i:4}article .blk-gradient li:nth-child(6){--i:5}article .blk-gradient li:nth-child(7){--i:6}
+@media (max-width:560px){article .blk-gradient ul{grid-template-columns:1fr}
+ article .blk-gradient li{padding:12px 14px 12px 64px;text-align:left;font-size:1rem}
+ article .blk-gradient li::before{right:auto;width:48px;height:100%}}
+@media print{article .blk-gradient li::before{background:#000}}
+/* retention: tool card (8 core chapters) and self-check */
+article .blk-tool{background:var(--acc);color:#111;border:0;border-radius:0;padding:22px}
+article .blk-tool .blk-k{font:800 1.6rem/1.05 var(--disp);letter-spacing:-.02em;color:#111;margin:0 0 8px;text-transform:none}
+article .blk-tool p{color:#111;margin:0}article .blk-tool .when{display:block;font-weight:500}
+article .blk-tool .ask{font-weight:800;font-size:1.15rem;margin-top:10px}
+article .blk-tool::before{display:none}
+article .blk-ask{background:none;border:2px solid var(--fg);border-radius:0;padding:14px 18px}
+article .blk-ask p{margin:0}article .blk-ask .ask{font-weight:800}
+article .blk-scene{background:var(--panel);border:0;border-radius:0}
+/* recall quizzes in batches of four (script) */
+ul.sort{list-style:none;padding-left:0}
+.sort li.batch-hidden{display:none}
+.sort-more{margin:8px 0 0;min-height:44px;padding:0 18px;border:0;border-radius:0;background:var(--acc);color:#111;font:800 1rem/1 var(--body);cursor:pointer}
+/* contents: movement cards (script wraps each movement in <details>) */
+.path>li>details{border-top:3px solid var(--fg);padding:18px 0}
+.path>li>details>summary{display:grid;grid-template-columns:1fr auto;gap:6px;cursor:pointer;list-style:none;font:800 1.6rem/1.05 var(--disp);letter-spacing:-.02em}
+.path>li>details>summary::-webkit-details-marker{display:none}
+.path>li>details>summary small{grid-column:1/-1;color:var(--acc)}
+.path .cnt{font:600 .8rem var(--body);color:var(--fg2);letter-spacing:0;align-self:end}
+/* cover: type first */
+.sky .cover{display:flex;flex-direction:column;align-items:flex-start;text-align:left}
+.sky .cover h1{order:-2;margin:8px 0 12px!important;text-align:left}
+.sky .cover .q{order:-1;text-align:left;font-size:1.15rem;margin:0 0 24px}
+.sky .cover img{width:min(48vw,220px);height:auto;align-self:flex-end;margin:0;border-left:6px solid var(--acc)}
+form.find button{background:var(--acc);color:#111;border-radius:0}form.find input{border-radius:0}
+@media (prefers-reduced-motion:reduce){*{transition:none!important;animation:none!important}}
+.path>li{--pa:var(--acc)!important}
