@@ -295,6 +295,27 @@ def labels(h):
 HOUSE = None
 
 
+def a11y(body):
+    """Weighing-only accessibility fixes (axe 2026-11-24), kept out of shell.py so The Long After stays byte-identical:
+    scrollable tables reachable by keyboard, no empty header cells, and FAQ "Read more" links named after their question."""
+    n = iter(range(1, 99))
+    body = re.sub(r'<div class="tbl"><table>', lambda m: f'<div class="tbl" tabindex="0" role="region" aria-label="Table {next(n)}, scrolls sideways"><table>', body)
+    body = body.replace("<thead><tr><th></th>", "<thead><tr><td></td>")
+    return re.sub(r'(<strong>([^<]+\?)</strong>[^<]*)<a href="([^"]+)">Read more</a>',
+                  lambda m: f'{m.group(1)}<a href="{m.group(3)}" aria-label="Read more: {m.group(2)}">Read more</a>', body)
+
+
+def whole_sentences(text, n=158):
+    """Meta description from the short answer: whole sentences up to n chars; if that is under 110 chars, cut at a word."""
+    t = plain(text)
+    out = ""
+    for sent in re.split(r"(?<=[.?!])\s+", t):
+        if len(out) + len(sent) + 1 > n:
+            break
+        out = (out + " " + sent).strip()
+    return out if len(out) >= 110 else S.clip(t, n)
+
+
 def frame(*, title, desc, url, ld, body, part, robots=None, og_type="article", extra_css=""):
     s1, s2, acc = SKY.get(part, SKY["start"])
     order = list(SKY)
@@ -304,6 +325,7 @@ def frame(*, title, desc, url, ld, body, part, robots=None, og_type="article", e
     if robots:
         head = re.sub(r'<meta name="robots"[^>]*>', f'<meta name="robots" content="{robots}">', head)
     body = body.replace('<div class="sky"', '<div class="sky" role="region" aria-label="Title"', 1)
+    body = a11y(body)
     return ("<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n"
             "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1, viewport-fit=cover\">\n" + head +
             f'<meta name="theme-color" content="{s1}">\n'
@@ -390,7 +412,7 @@ def page(slug, ch, pos):
     nxt = ('<nav class="next" aria-labelledby="nx-h"><h2 id="nx-h">Next, if this is you</h2><ul>'
            + "".join(f'<li><a href="{BASE}/{t}"><small>{k}</small>{html.escape(CH[t]["title"])}</a></li>' for k, t in links)
            + "</ul></nav>")
-    desc = S.clip(m["short"], 158)
+    desc = m.get("desc") or whole_sentences(m["short"], 158)
     title = m["seo"]
     node = {"@type": "Chapter", "@id": url + "#chapter", "name": c["title"], "position": pos, "url": url,
             "isPartOf": {"@id": URL + "#book"}, "author": {"@id": S.PERSON["@id"]}, "inLanguage": "en",

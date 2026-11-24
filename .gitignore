@@ -50,3 +50,4 @@ qa/v19/shots/*.png
 qa/v19/crit/
 instruments/music/audio/
 qa/v19/final/
+design/scale-v5/text-before.json

@@ -35,9 +35,10 @@ for l in sys.stdin:
 print("  screenshots:", "problems found" if bad else "no overflow, errors or stuck content")
 sys.exit(1 if bad else 0)'
 AXE_DIR="$(dirname "$(node -p "require.resolve('axe-core/package.json')" 2>/dev/null || true)")"
-if [[ -z "$AXE_DIR" || "$AXE_DIR" == "." ]]; then (cd "$OUT" && npm i --silent --no-save axe-core >/dev/null 2>&1) || true; export NODE_PATH="$OUT/node_modules"; fi
+if [[ -z "$AXE_DIR" || "$AXE_DIR" == "." ]]; then (cd "$OUT" && npm i --silent --no-save axe-core >/dev/null 2>&1) || true; export NODE_PATH="$OUT/node_modules${NODE_PATH:+:$NODE_PATH}:$(npm root -g)"; fi
 if node -e "require('axe-core')" 2>/dev/null; then
-  node scripts/seo/a11y.js $PAGES | tail -1 | tee "$OUT/a11y.txt"
+  ALL="$B $(ls library/scale/*.html | xargs -n1 basename | sed 's/\.html$//' | grep -v '^index$' | sed "s#^#$B/#" | tr '\n' ' ')"   # every page, not a sample
+  node scripts/seo/a11y.js $ALL | tail -1 | tee "$OUT/a11y.txt"
   grep -q 'TOTAL {}' "$OUT/a11y.txt" || { echo "accessibility issues found"; exit 1; }
 else echo "  axe-core not installed and package installs are off here: accessibility scan SKIPPED (run it where npm works)"; fi
 node scripts/seo/perf.js $B $B/the-gradient $B/when-weighing-stops
