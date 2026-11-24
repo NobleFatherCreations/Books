@@ -44,3 +44,10 @@ See `docs/design-catalogue/templates/OWNER-TASTE.md` for the table to fill; add 
 - Deploy scope: ship The Weighing alone, with what's already waiting in its repo (Sacred Divide rename, menu count, meta-description fix). No other site.
 - 2026-11-23 (later, BINDING, replaces the 60k target): "I do not want the expansion goal to be a certain amount of words. I want all topics covered and easy for people to understand and remember how to weigh effectively." Up to 100,000 words is fine. Goals, always: find any missing content related to the book; discuss every idea fully; optimise for SEO; connect to the other books to build the web; relatable and helpful writing; start from the original ~20k and branch into the missed ideas and opportunities; write a full book. "The sections within each chapter shouldn't follow a static flow": audit each chapter and design a unique approach for it, with usability and retention tricks so people remember in the moment.
 - 2026-11-23 (freeze answers): worked-example label = "Made up, but you've met these people." No bridge from the-gradient to /feminine/the-harm-ladder. Before design: link to About the author, full SEO and AI-crawler pass, everything linked properly to the other books.
+
+## 2026-11-24 (The Weighing, steelman 2 answers; reopens the writing freeze for a voice pass)
+- Section punchlines: "Find a better way to present them, the humor should be blunt but also point out a truth in a funny way, or bring the reader to self reflection and accountability." (Not mic-drop restatements of the lesson.)
+- Memory lines ("X, not Y" handles): "Find a better retention system."
+- Humour level: "Think Shane Gillis esque" (read as: deadpan, observational, everyman, unbothered, willing to laugh at the reader and himself; still no jokes near safety content and never at the expense of someone being harmed).
+- Repetition structure (short answer, argument, memory device, recall, field card): keep.
+- Voice protocol: the owner's "Human Voice & Anti-Slop Protocol" (2026-11-24, in the chat) applies to every rewrite.
