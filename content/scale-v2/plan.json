@@ -131,8 +131,11 @@
    "part": "start",
    "n": null,
    "title": "What are you trying to weigh?",
-   "keyword": "",
-   "keywords2": [],
+   "keyword": "is it manipulation",
+   "keywords2": [
+    "am I being manipulated",
+    "manipulation or normal"
+   ],
    "decoder": [],
    "heavy": false,
    "new": true
@@ -142,8 +145,11 @@
    "part": "start",
    "n": null,
    "title": "How to use this book",
-   "keyword": "",
-   "keywords2": [],
+   "keyword": "the weighing book",
+   "keywords2": [
+    "free book on manipulation",
+    "how to use the weighing"
+   ],
    "decoder": [],
    "heavy": false,
    "new": true
@@ -153,8 +159,11 @@
    "part": "i",
    "n": 1,
    "title": "You learned to see. This is how you learn to weigh.",
-   "keyword": "",
-   "keywords2": [],
+   "keyword": "seeing manipulation everywhere",
+   "keywords2": [
+    "what is calibration",
+    "am I paranoid or being manipulated"
+   ],
    "decoder": [
     "stonewalling",
     "withholding-silent-treatment",
@@ -167,8 +176,11 @@
    "part": "i",
    "n": 2,
    "title": "This book in the wrong hands",
-   "keyword": "",
-   "keywords2": [],
+   "keyword": "someone using therapy language against me",
+   "keywords2": [
+    "do I need proof to leave",
+    "told I'm overreacting"
+   ],
    "decoder": [
     "gaslighting",
     "isolation",
@@ -182,8 +194,11 @@
    "part": "i",
    "n": 3,
    "title": "The two errors, and what they actually cost",
-   "keyword": "",
-   "keywords2": [],
+   "keyword": "false positive vs false negative in relationships",
+   "keywords2": [
+    "missing red flags",
+    "am I being paranoid in my relationship"
+   ],
    "decoder": [],
    "heavy": false
   },
@@ -192,8 +207,11 @@
    "part": "i",
    "n": 4,
    "title": "Most people, most days",
-   "keyword": "",
-   "keywords2": [],
+   "keyword": "what is a base rate",
+   "keywords2": [
+    "can't trust anyone after a toxic relationship",
+    "how do I know if this is normal"
+   ],
    "decoder": [],
    "heavy": false
   },
@@ -202,8 +220,11 @@
    "part": "i",
    "n": 5,
    "title": "The gradient",
-   "keyword": "",
-   "keywords2": [],
+   "keyword": "rude or abusive",
+   "keywords2": [
+    "difference between rude and abusive",
+    "is it abuse or just rude"
+   ],
    "decoder": [
     "behavior-control",
     "minimization"
@@ -215,8 +236,11 @@
    "part": "i",
    "n": 6,
    "title": "Red flag, flaw or dealbreaker",
-   "keyword": "",
-   "keywords2": [],
+   "keyword": "red flag vs flaw",
+   "keywords2": [
+    "red flag vs dealbreaker",
+    "what is considered a red flag"
+   ],
    "decoder": [],
    "heavy": false,
    "new": true
@@ -226,8 +250,11 @@
    "part": "i",
    "n": 7,
    "title": "Conflict or control",
-   "keyword": "",
-   "keywords2": [],
+   "keyword": "toxic relationship or coercive control",
+   "keywords2": [
+    "normal fighting or abuse",
+    "what is coercive control"
+   ],
    "decoder": [],
    "heavy": false,
    "new": true
@@ -237,8 +264,11 @@
    "part": "i",
    "n": 8,
    "title": "A boundary, or a rule for someone else",
-   "keyword": "",
-   "keywords2": [],
+   "keyword": "boundaries vs control",
+   "keywords2": [
+    "is my partner setting boundaries or controlling me",
+    "boundary or rule"
+   ],
    "decoder": [],
    "heavy": false,
    "new": true
@@ -248,8 +278,11 @@
    "part": "ii",
    "n": 9,
    "title": "Your detector has a history",
-   "keyword": "",
-   "keywords2": [],
+   "keyword": "is it trauma or a red flag",
+   "keywords2": [
+    "hypervigilance in relationships",
+    "why do I overreact to small things"
+   ],
    "decoder": [
     "hoovering-relief-bait"
    ],
@@ -260,8 +293,11 @@
    "part": "ii",
    "n": 10,
    "title": "The gut: sensor or smoke alarm",
-   "keyword": "",
-   "keywords2": [],
+   "keyword": "should you trust your gut",
+   "keywords2": [
+    "trust your gut about cheating",
+    "gut feeling about someone"
+   ],
    "decoder": [],
    "heavy": false
   },
@@ -270,8 +306,11 @@
    "part": "ii",
    "n": 11,
    "title": "Gut feeling or anxiety",
-   "keyword": "",
-   "keywords2": [],
+   "keyword": "gut feeling or anxiety",
+   "keywords2": [
+    "trusting your gut when you have anxiety",
+    "gut feeling or OCD"
+   ],
    "decoder": [],
    "heavy": false,
    "new": true
@@ -281,8 +320,11 @@
    "part": "ii",
    "n": 12,
    "title": "When people say you’re overreacting",
-   "keyword": "",
-   "keywords2": [],
+   "keyword": "am I overreacting",
+   "keywords2": [
+    "am I overreacting in a relationship",
+    "you're overreacting manipulation"
+   ],
    "decoder": [],
    "heavy": false,
    "new": true
@@ -292,8 +334,11 @@
    "part": "ii",
    "n": 13,
    "title": "The biases in everyone",
-   "keyword": "",
-   "keywords2": [],
+   "keyword": "cognitive biases in relationships",
+   "keywords2": [
+    "fundamental attribution error",
+    "hostile attribution bias"
+   ],
    "decoder": [],
    "heavy": false,
    "new": true
@@ -303,8 +348,11 @@
    "part": "ii",
    "n": 14,
    "title": "Grief in the costume of analysis",
-   "keyword": "",
-   "keywords2": [],
+   "keyword": "can't stop thinking about what happened",
+   "keywords2": [
+    "overthinking after a breakup",
+    "grief after betrayal"
+   ],
    "decoder": [],
    "heavy": false
   },
@@ -313,8 +361,11 @@
    "part": "ii",
    "n": 15,
    "title": "The retrospective rewrite",
-   "keyword": "",
-   "keywords2": [],
+   "keyword": "was the whole relationship a lie",
+   "keywords2": [
+    "were the good times real",
+    "memories after infidelity"
+   ],
    "decoder": [
     "gaslighting"
    ],
@@ -325,8 +376,11 @@
    "part": "ii",
    "n": 16,
    "title": "The state you’re judging from",
-   "keyword": "",
-   "keywords2": [],
+   "keyword": "why does everything feel worse at night",
+   "keywords2": [
+    "lack of sleep paranoia",
+    "overthinking at night"
+   ],
    "decoder": [
     "isolation"
    ],
@@ -337,8 +391,11 @@
    "part": "ii",
    "n": 17,
    "title": "The reference sample",
-   "keyword": "",
-   "keywords2": [],
+   "keyword": "what does a healthy relationship look like",
+   "keywords2": [
+    "is it normal to argue in a relationship",
+    "healthy relationship signs"
+   ],
    "decoder": [
     "hoovering-relief-bait",
     "non-apology-apologies"
@@ -350,8 +407,11 @@
    "part": "iii",
    "n": 18,
    "title": "What is evidence",
-   "keyword": "",
-   "keywords2": [],
+   "keyword": "what counts as evidence",
+   "keywords2": [
+    "are feelings evidence",
+    "how to prove emotional abuse"
+   ],
    "decoder": [
     "gaslighting"
    ],
@@ -362,8 +422,11 @@
    "part": "iii",
    "n": 19,
    "title": "One thing is not a pattern",
-   "keyword": "",
-   "keywords2": [],
+   "keyword": "is it a pattern",
+   "keywords2": [
+    "one-off or pattern",
+    "am I overreacting to one thing"
+   ],
    "decoder": [
     "financial-control",
     "intimidation",
@@ -376,8 +439,11 @@
    "part": "iii",
    "n": 20,
    "title": "The file that builds itself",
-   "keyword": "",
-   "keywords2": [],
+   "keyword": "confirmation bias in relationships",
+   "keywords2": [
+    "what is confirmation bias",
+    "am I being paranoid about my partner"
+   ],
    "decoder": [
     "non-apology-apologies",
     "accountability-reset",
@@ -390,8 +456,11 @@
    "part": "iii",
    "n": 21,
    "title": "The discipline of three explanations",
-   "keyword": "",
-   "keywords2": [],
+   "keyword": "is it me or am I being manipulated",
+   "keywords2": [
+    "three explanations exercise",
+    "how to stop assuming the worst"
+   ],
    "decoder": [],
    "heavy": false
   },
@@ -400,8 +469,11 @@
    "part": "iii",
    "n": 22,
    "title": "The boring explanations",
-   "keyword": "",
-   "keywords2": [],
+   "keyword": "manipulation or just tired",
+   "keywords2": [
+    "red flag or normal",
+    "manipulative or bad at communicating"
+   ],
    "decoder": [
     "monitoring-surveillance",
     "minimization",
@@ -414,8 +486,11 @@
    "part": "iii",
    "n": 23,
    "title": "Intent, impact, and the mind-reading trap",
-   "keyword": "",
-   "keywords2": [],
+   "keyword": "intent vs impact",
+   "keywords2": [
+    "does intent matter",
+    "mind reading in relationships"
+   ],
    "decoder": [],
    "heavy": false
   },
@@ -424,8 +499,11 @@
    "part": "iii",
    "n": 24,
    "title": "Can you tell when someone is lying?",
-   "keyword": "",
-   "keywords2": [],
+   "keyword": "how to tell if someone is lying",
+   "keywords2": [
+    "lying over text",
+    "body language of lying"
+   ],
    "decoder": [],
    "heavy": false,
    "new": true
@@ -435,8 +513,11 @@
    "part": "iii",
    "n": 25,
    "title": "Reading a text message",
-   "keyword": "",
-   "keywords2": [],
+   "keyword": "what does this text mean",
+   "keywords2": [
+    "left on read meaning",
+    "reply speed meaning"
+   ],
    "decoder": [],
    "heavy": false,
    "new": true
@@ -446,8 +527,11 @@
    "part": "iii",
    "n": 26,
    "title": "“I don’t remember it that way”",
-   "keyword": "",
-   "keywords2": [],
+   "keyword": "gaslighting or remembering differently",
+   "keywords2": [
+    "is it normal to remember things differently",
+    "am I being gaslighted"
+   ],
    "decoder": [],
    "heavy": false,
    "new": true
@@ -457,8 +541,11 @@
    "part": "iii",
    "n": 27,
    "title": "Screenshots, and what they leave out",
-   "keyword": "",
-   "keywords2": [],
+   "keyword": "can a screenshot be used as proof",
+   "keywords2": [
+    "how to tell if a screenshot is fake",
+    "is it AI or real"
+   ],
    "decoder": [],
    "heavy": false,
    "new": true
@@ -468,8 +555,11 @@
    "part": "iii",
    "n": 28,
    "title": "Secondhand accounts",
-   "keyword": "",
-   "keywords2": [],
+   "keyword": "should I believe what people tell me about my partner",
+   "keywords2": [
+    "secondhand information",
+    "hearsay in relationships"
+   ],
    "decoder": [
     "context-collapse"
    ],
@@ -480,8 +570,11 @@
    "part": "iii",
    "n": 29,
    "title": "Judging strangers through screens",
-   "keyword": "",
-   "keywords2": [],
+   "keyword": "can you judge someone from a video",
+   "keywords2": [
+    "viral video context",
+    "should I share this clip"
+   ],
    "decoder": [
     "contempt",
     "non-apology-apologies",
@@ -494,8 +587,11 @@
    "part": "iv",
    "n": 30,
    "title": "Before you test: is testing safe?",
-   "keyword": "",
-   "keywords2": [],
+   "keyword": "is it safe to confront a controlling partner",
+   "keywords2": [
+    "testing a controlling partner",
+    "scared of my partner's reaction"
+   ],
    "decoder": [
     "intimidation",
     "administrative-escalation",
@@ -509,8 +605,11 @@
    "part": "iv",
    "n": 31,
    "title": "The naming test",
-   "keyword": "",
-   "keywords2": [],
+   "keyword": "how to call out manipulation",
+   "keywords2": [
+    "is getting defensive a sign of guilt",
+    "what is the naming test"
+   ],
    "decoder": [
     "gaslighting",
     "non-apology-apologies",
@@ -523,8 +622,11 @@
    "part": "iv",
    "n": 32,
    "title": "Repair, and apology’s counterfeit",
-   "keyword": "",
-   "keywords2": [],
+   "keyword": "real apology vs fake apology",
+   "keywords2": [
+    "is sorry you feel that way an apology",
+    "why does my partner apologise but never change"
+   ],
    "decoder": [
     "non-apology-apologies"
    ],
@@ -535,8 +637,11 @@
    "part": "iv",
    "n": 33,
    "title": "The cost of “no”",
-   "keyword": "",
-   "keywords2": [],
+   "keyword": "what happens when you say no to a controlling person",
+   "keywords2": [
+    "why am I scared to say no to my partner",
+    "cost of saying no"
+   ],
    "decoder": [],
    "heavy": false
   },
@@ -545,8 +650,11 @@
    "part": "iv",
    "n": 34,
    "title": "Is it you, or is it everyone?",
-   "keyword": "",
-   "keywords2": [],
+   "keyword": "nice to everyone but me",
+   "keywords2": [
+    "is it me or them",
+    "acts different in public"
+   ],
    "decoder": [
     "flying-monkeys-proxy-recruitment",
     "monitoring-surveillance"
@@ -558,8 +666,11 @@
    "part": "iv",
    "n": 35,
    "title": "Power changes the meaning",
-   "keyword": "",
-   "keywords2": [],
+   "keyword": "power imbalance in relationships",
+   "keywords2": [
+    "can I say no to my boss",
+    "financial power in relationships"
+   ],
    "decoder": [
     "intimidation",
     "accountability-reset",
@@ -572,8 +683,11 @@
    "part": "iv",
    "n": 36,
    "title": "Difference is not malice",
-   "keyword": "",
-   "keywords2": [],
+   "keyword": "red flag or just different",
+   "keywords2": [
+    "cultural differences in relationships",
+    "autism misunderstood as rude"
+   ],
    "decoder": [
     "non-apology-apologies"
    ],
@@ -584,8 +698,11 @@
    "part": "iv",
    "n": 37,
    "title": "Institutions weigh differently",
-   "keyword": "",
-   "keywords2": [],
+   "keyword": "institutional betrayal",
+   "keywords2": [
+    "nobody did anything when I reported it",
+    "is HR on my side"
+   ],
    "decoder": [],
    "heavy": false
   },
@@ -594,8 +711,11 @@
    "part": "iv",
    "n": 38,
    "title": "When you both say you’re the victim",
-   "keyword": "",
-   "keywords2": [],
+   "keyword": "reactive abuse",
+   "keywords2": [
+    "mutual abuse",
+    "am I the toxic one or the victim"
+   ],
    "decoder": [],
    "heavy": false,
    "new": true
@@ -605,8 +725,11 @@
    "part": "iv",
    "n": 39,
    "title": "Weighing someone new",
-   "keyword": "",
-   "keywords2": [],
+   "keyword": "love bombing or genuine interest",
+   "keywords2": [
+    "how fast is too fast in a new relationship",
+    "trusting your gut when dating"
+   ],
    "decoder": [],
    "heavy": false,
    "new": true
@@ -616,8 +739,11 @@
    "part": "iv",
    "n": 40,
    "title": "Weighing your own family",
-   "keyword": "",
-   "keywords2": [],
+   "keyword": "am I overreacting about my parents",
+   "keywords2": [
+    "is my parent controlling",
+    "stepping back from parents"
+   ],
    "decoder": [],
    "heavy": false,
    "new": true
@@ -627,8 +753,11 @@
    "part": "iv",
    "n": 41,
    "title": "Weighing a boss",
-   "keyword": "",
-   "keywords2": [],
+   "keyword": "bad boss vs toxic boss",
+   "keywords2": [
+    "is my boss trying to get me to quit",
+    "am I overreacting at work"
+   ],
    "decoder": [],
    "heavy": false,
    "new": true
@@ -638,8 +767,11 @@
    "part": "iv",
    "n": 42,
    "title": "Weighing a friend",
-   "keyword": "",
-   "keywords2": [],
+   "keyword": "one-sided friendship",
+   "keywords2": [
+    "is my friend using me",
+    "how to tell a friend I can't be their therapist"
+   ],
    "decoder": [],
    "heavy": false,
    "new": true
@@ -649,8 +781,11 @@
    "part": "iv",
    "n": 43,
    "title": "Weighing a group",
-   "keyword": "",
-   "keywords2": [],
+   "keyword": "signs of a high-demand group",
+   "keywords2": [
+    "is it a cult",
+    "what is the BITE model"
+   ],
    "decoder": [],
    "heavy": false,
    "new": true
@@ -660,8 +795,11 @@
    "part": "v",
    "n": 44,
    "title": "Am I the one doing it?",
-   "keyword": "",
-   "keywords2": [],
+   "keyword": "am I the toxic one",
+   "keywords2": [
+    "how do I know if I'm being toxic",
+    "am I the problem in my relationship"
+   ],
    "decoder": [
     "projection",
     "non-apology-apologies",
@@ -674,8 +812,11 @@
    "part": "v",
    "n": 45,
    "title": "The vocabulary as a weapon",
-   "keyword": "",
-   "keywords2": [],
+   "keyword": "weaponized therapy speak",
+   "keywords2": [
+    "therapy speak examples",
+    "is it gaslighting or disagreement"
+   ],
    "decoder": [
     "gaslighting",
     "love-bombing",
@@ -689,8 +830,11 @@
    "part": "v",
    "n": 46,
    "title": "Who benefits from your verdict",
-   "keyword": "",
-   "keywords2": [],
+   "keyword": "should I listen to my friends about my relationship",
+   "keywords2": [
+    "group polarization",
+    "a neutral opinion on my relationship"
+   ],
    "decoder": [
     "administrative-escalation",
     "isolation",
@@ -703,8 +847,11 @@
    "part": "v",
    "n": 47,
    "title": "When you’re the one accused",
-   "keyword": "",
-   "keywords2": [],
+   "keyword": "accused of being abusive",
+   "keywords2": [
+    "falsely accused of manipulation",
+    "someone says I'm gaslighting them"
+   ],
    "decoder": [],
    "heavy": false,
    "new": true
@@ -714,8 +861,11 @@
    "part": "v",
    "n": 48,
    "title": "Being wrong well",
-   "keyword": "",
-   "keywords2": [],
+   "keyword": "how to apologize for wrongly accusing someone",
+   "keywords2": [
+    "partly wrong apology",
+    "taking back an accusation"
+   ],
    "decoder": [
     "non-apology-apologies",
     "contempt"
@@ -727,8 +877,11 @@
    "part": "vi",
    "n": 49,
    "title": "Assessment is not decision",
-   "keyword": "",
-   "keywords2": [],
+   "keyword": "do I need proof to leave",
+   "keywords2": [
+    "leaving without proof of abuse",
+    "deciding when unsure about a relationship"
+   ],
    "decoder": [],
    "heavy": false
   },
@@ -737,8 +890,11 @@
    "part": "vi",
    "n": 50,
    "title": "When you can’t ever know",
-   "keyword": "",
-   "keywords2": [],
+   "keyword": "closure when you'll never know the truth",
+   "keywords2": [
+    "closure without an apology",
+    "moving on without answers"
+   ],
    "decoder": [],
    "heavy": false
   },
@@ -747,8 +903,11 @@
    "part": "vi",
    "n": 51,
    "title": "Scoring your own past calls",
-   "keyword": "",
-   "keywords2": [],
+   "keyword": "how to stop second-guessing yourself",
+   "keywords2": [
+    "track record of your judgement",
+    "trust my judgement again"
+   ],
    "decoder": [],
    "heavy": false
   },
@@ -757,8 +916,11 @@
    "part": "vi",
    "n": 52,
    "title": "Certainty is the tell",
-   "keyword": "",
-   "keywords2": [],
+   "keyword": "is it paranoia if you're right",
+   "keywords2": [
+    "certainty as a red flag",
+    "leaving one cult and joining another"
+   ],
    "decoder": [
     "isolation"
    ],
@@ -769,8 +931,11 @@
    "part": "vi",
    "n": 53,
    "title": "Can people change?",
-   "keyword": "",
-   "keywords2": [],
+   "keyword": "can a manipulative person change",
+   "keywords2": [
+    "should I give him a second chance",
+    "signs of real change"
+   ],
    "decoder": [],
    "heavy": false,
    "new": true
@@ -780,8 +945,11 @@
    "part": "vi",
    "n": 54,
    "title": "Weighing an expert",
-   "keyword": "",
-   "keywords2": [],
+   "keyword": "couples counselling with a controlling partner",
+   "keywords2": [
+    "can a therapist diagnose a narcissist",
+    "diagnosing someone online"
+   ],
    "decoder": [],
    "heavy": false,
    "new": true
@@ -791,8 +959,11 @@
    "part": "vi",
    "n": 55,
    "title": "Helping someone else weigh",
-   "keyword": "",
-   "keywords2": [],
+   "keyword": "how to help a friend in a toxic relationship",
+   "keywords2": [
+    "what to say to a friend in an abusive relationship",
+    "should I tell my friend to leave"
+   ],
    "decoder": [
     "intimidation"
    ],
@@ -803,8 +974,11 @@
    "part": "vi",
    "n": 56,
    "title": "Weighing after you’ve left",
-   "keyword": "",
-   "keywords2": [],
+   "keyword": "seeing red flags everywhere after a toxic relationship",
+   "keywords2": [
+    "hypervigilance after a toxic relationship",
+    "trusting your judgement after abuse"
+   ],
    "decoder": [],
    "heavy": false,
    "new": true
@@ -814,8 +988,11 @@
    "part": "vi",
    "n": 57,
    "title": "When weighing stops",
-   "keyword": "",
-   "keywords2": [],
+   "keyword": "what to do if you're scared of your partner",
+   "keywords2": [
+    "is it abuse if he hasn't hit me",
+    "when to leave an abusive relationship"
+   ],
    "decoder": [
     "intimidation",
     "isolation",
@@ -828,8 +1005,11 @@
    "part": "vi",
    "n": 58,
    "title": "Changing your mind out loud",
-   "keyword": "",
-   "keywords2": [],
+   "keyword": "how to admit you were wrong about someone",
+   "keywords2": [
+    "telling a friend they were right about your partner",
+    "correcting what you told people"
+   ],
    "decoder": [],
    "heavy": false,
    "new": true
@@ -839,8 +1019,11 @@
    "part": "vi",
    "n": 59,
    "title": "Trust as a skill you rebuild",
-   "keyword": "",
-   "keywords2": [],
+   "keyword": "how to trust again after being manipulated",
+   "keywords2": [
+    "rebuilding trust after abuse",
+    "can you trust someone completely"
+   ],
    "decoder": [
     "isolation"
    ],
@@ -851,8 +1034,11 @@
    "part": "tools",
    "n": null,
    "title": "The 60-second weigh",
-   "keyword": "",
-   "keywords2": [],
+   "keyword": "how to tell if you're being manipulated",
+   "keywords2": [
+    "quick manipulation check",
+    "is this manipulation checklist"
+   ],
    "decoder": [],
    "heavy": false,
    "new": true
@@ -862,8 +1048,11 @@
    "part": "tools",
    "n": null,
    "title": "The field card",
-   "keyword": "",
-   "keywords2": [],
+   "keyword": "manipulation or normal checklist",
+   "keywords2": [
+    "the weighing field card",
+    "printable manipulation checklist"
+   ],
    "decoder": [],
    "heavy": false
   },
@@ -872,8 +1061,11 @@
    "part": "tools",
    "n": null,
    "title": "Questions people ask",
-   "keyword": "",
-   "keywords2": [],
+   "keyword": "questions about manipulation",
+   "keywords2": [
+    "manipulation FAQ",
+    "am I being manipulated questions"
+   ],
    "decoder": [],
    "heavy": false,
    "new": true
@@ -883,8 +1075,11 @@
    "part": "tools",
    "n": null,
    "title": "A to Z",
-   "keyword": "",
-   "keywords2": [],
+   "keyword": "manipulation terms glossary",
+   "keywords2": [
+    "calibration glossary",
+    "relationship terms A to Z"
+   ],
    "decoder": [],
    "heavy": false,
    "new": true
@@ -894,8 +1089,11 @@
    "part": "tools",
    "n": null,
    "title": "The weighing sheet",
-   "keyword": "",
-   "keywords2": [],
+   "keyword": "relationship worksheet printable",
+   "keywords2": [
+    "manipulation worksheet",
+    "the weighing sheet"
+   ],
    "decoder": [],
    "heavy": false,
    "new": true
@@ -905,8 +1103,11 @@
    "part": "tools",
    "n": null,
    "title": "Your track record sheet",
-   "keyword": "",
-   "keywords2": [],
+   "keyword": "judgement journal template",
+   "keywords2": [
+    "decision journal",
+    "track record sheet"
+   ],
    "decoder": [],
    "heavy": false,
    "new": true
@@ -916,8 +1117,11 @@
    "part": "tools",
    "n": null,
    "title": "The limits of this instrument",
-   "keyword": "",
-   "keywords2": [],
+   "keyword": "limits of self-help books",
+   "keywords2": [
+    "what this book can't do",
+    "the weighing limits"
+   ],
    "decoder": [],
    "heavy": false
   }

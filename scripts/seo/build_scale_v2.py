@@ -277,7 +277,16 @@ def labels(h):
         arg = arg[6:].strip() if danger else arg
         cls = f"blk blk-{kind}" + (" blk-danger" if danger else "")
         return f'<div class="{cls}"><p class="blk-k">{html.escape(arg, quote=False)}</p>' if arg else f'<div class="{cls}">'
-    return re.sub(r'<div class="blk blk-(\w+)" data-arg="([^"]*)">', one, h)
+    h = re.sub(r'<div class="blk blk-(\w+)" data-arg="([^"]*)">', one, h)
+    used = set(re.findall(r' id="([^"]+)"', h))
+
+    def h3(m):   # sub-headings get an anchor too, so every heading can be linked to and cited
+        hid = S.slugify(plain(m.group(1)), 60)
+        while hid in used:
+            hid += "-2"
+        used.add(hid)
+        return f'<h3 id="{hid}">{m.group(1)}</h3>'
+    return re.sub(r"<h3>(.*?)</h3>", h3, h)
 
 
 HOUSE = None
@@ -308,7 +317,7 @@ def frame(*, title, desc, url, ld, body, part, robots=None, og_type="article", e
             f'<a href="{BASE}/limits">What this book can\u2019t do</a>.</p>'
             f'<nav aria-label="More"><a href="{BASE}">The Weighing</a><a href="{BASE}/contents">Every chapter</a>'
             f'<a href="{BASE}/search">Search</a><a href="{BASE}/all">The whole book on one page</a><a href="/playbook">The Pattern Decoder</a>'
-            '<a href="/topics">All topics</a><a href="/">Noble Father Creations</a></nav>'
+            f'<a href="/topics">All topics</a><a href="{MANIFEST["about_url"]}">Who made this</a><a href="/">Noble Father Creations</a></nav>'
             '<button class="disc" type="button" data-discreet aria-pressed="false" data-js>Discreet mode</button></div></footer>\n'
             + hh + "\n" + hj + "\n" + JS + "\n" + beacon + "\n</body>\n</html>\n")
 
@@ -421,7 +430,7 @@ def page(slug, ch, pos):
             '<button type="button" data-mode="full" aria-pressed="true">Full read</button><button type="button" data-mode="steps" aria-pressed="false">Just the steps</button></div>'
             f'<button class="disc" type="button" data-discreet aria-pressed="false">Discreet mode</button></div>{otp}</div></div></div>\n'
             f'<main id="text">{callnow}<section class="short" aria-label="The short answer"><p class="lab">The short answer</p>'
-            f'<p>{(inline(m["short"]))}</p></section>\n<p class="notice">{BOOK["notice_short"]} <a href="{BASE}/limits">What this book can\u2019t do</a>.</p>\n<article>{body_html}</article>{src_html}{nxt}{end}</main>')
+            f'<p>{(inline(m["short"]))}</p></section>\n<p class="notice">{BOOK["notice_short"]} <a href="{BASE}/how-to-use-this-book">Full notice</a>.</p>\n<article>{body_html}</article>{src_html}{nxt}{end}</main>')
     return frame(title=title, desc=desc, url=url, ld={"@context": "https://schema.org", "@graph": graph}, body=body, part=c["part"])
 
 
@@ -463,6 +472,8 @@ def index_html():
             '<p class="lede">Six movements, from why to weigh at all to trusting people again. Every chapter stands alone.</p>'
             f'{contents_list()}</section>'
             f'<section class="sec" id="toolbox" aria-labelledby="t-h"><h2 id="t-h">Toolbox</h2><p class="lede">Things to keep, print or screenshot.</p>{tools_list()}</section>'
+            f'<section class="sec" id="who" aria-labelledby="who-h"><h2 id="who-h">Who made this</h2><p class="lede">{html.escape(MANIFEST["who_made_this"])} '
+            f'<a href="{MANIFEST["about_url"]}">Read why \u2192</a></p></section>'
             '<section class="sec" id="updates" aria-labelledby="u-h"><h2 id="u-h">Updates</h2>'
             '<p class="lede">v4 \u00b7 21 November 2026. Every chapter got its own page, a contents page, links to the matching patterns in the '
             'Pattern Decoder, and new cover art. v3 \u00b7 1 September 2026. The list of other books was brought up to date. '
@@ -515,7 +526,7 @@ def contents_html():
     n = len([s for s in ORDER if CH[s]["part"] not in NOT_MOVEMENTS])
     inner = (f'<p class="lede">Every chapter of The Weighing, by movement. {n} chapters, free to read.</p>'
              f'<h2 id="the-six-movements" style="font:400 1.6rem/1.2 var(--disp);color:#fff">The six movements</h2>{contents_list()}'
-             f'<h2 id="toolbox">Toolbox</h2>{tools_list()}<p class="notice" style="margin-top:28px">{BOOK["notice_short"]} <a href="{BASE}/limits">What this book can\u2019t do</a>.</p>')
+             f'<h2 id="toolbox">Toolbox</h2>{tools_list()}<p class="notice" style="margin-top:28px">{BOOK["notice_short"]} <a href="{BASE}/how-to-use-this-book">Full notice</a>. <a href="{BASE}/limits">What this book can\u2019t do</a>.</p>')
     graph = [{"@type": "CollectionPage", "@id": URL + "/contents", "url": URL + "/contents", "name": "The Weighing: Every Chapter",
               "isPartOf": {"@id": URL + "#book"}, "inLanguage": "en", "dateModified": S.TODAY,
               "mainEntity": {"@type": "ItemList", "numberOfItems": len(ORDER), "itemListElement": [
@@ -544,6 +555,22 @@ def share_card():
     S.make_og(card, OUT, f"Free to read \u00b7 {n} chapters", "How to be right about people.")
 
 
+def llms_txt():
+    """A plain map of the book for AI assistants (llmstxt.org format): every page with its one-line answer."""
+    out = [f"# {BOOK['title']}", "", f"> {BOOK['description']} By {MANIFEST['author']} ({S.DOMAIN}{MANIFEST['about_url']}). "
+           "Free to read, no account, nothing stored. A thinking tool, not a diagnosis, legal or therapeutic advice.", "",
+           f"The whole book on one page: {URL}/all", f"Every chapter: {URL}/contents", ""]
+    for p in PLAN["parts"]:
+        name = p["title"] if p["id"] in NOT_MOVEMENTS else f"Movement {ROMAN[p['id']]}: {p['title']}"
+        out.append(f"## {name}")
+        out += [f"- [{CH[s]['title']}]({URL}/{s}): {plain(inline(META[s]['short']))}" for s in p["chapters"]]
+        out.append("")
+    out += ["## Related", f"- [The Pattern Decoder]({S.DOMAIN}/playbook): the named tactics this book links to",
+            f"- [The Long After]({S.DOMAIN}/longafter): life after leaving an abusive relationship",
+            f"- [All books]({S.DOMAIN}/llms.txt)", ""]
+    return "\n".join(out)
+
+
 def main():
     global HOUSE
     chs = parse()
@@ -568,6 +595,7 @@ def main():
     urls = [URL, URL + "/contents"] + [f"{URL}/{s}" for s in ORDER]
     S.write(OUT / "sitemap.xml", '<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n'
             + "".join(f"  <url><loc>{u}</loc><lastmod>{S.TODAY}</lastmod></url>\n" for u in urls) + "</urlset>\n")
+    S.write(OUT / "llms.txt", llms_txt())
     if "--og" in sys.argv:
         share_card()
     print(f"scale {BOOK['version']}: {len(ORDER)} pages + index, contents, search, all; {len(stale)} stale pages removed; sitemap {len(urls)} URLs")
