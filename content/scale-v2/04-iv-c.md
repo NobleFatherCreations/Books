@@ -157,7 +157,7 @@ Someone new comes with no history, which is why you watch the brake. Your family
 title: Weighing your own family
 question: Am I overreacting about my parents, or are they actually controlling?
 seo: Am I overreacting about my parents? Difficult or controlling
-short: Difficult family costs you an evening: the comment, the sigh, the old argument, and then you go home still yourself. Controlling family costs you yourself: your money, partner, friends or plans need their approval, and saying no gets punished. Weigh each person separately, by what your no costs and whether you can leave the table.
+short: To tell if you're overreacting about your parents, look at what it costs. Difficult family costs you an evening: the comment, the sigh, the old argument, and then you go home still yourself. Controlling family costs you yourself: your money, partner, friends or plans need their approval, and saying no gets punished. Weigh each person separately.
 ---
 Every family has a seating plan nobody wrote down, and everyone knows exactly where it is.
 
@@ -321,7 +321,7 @@ Family holds your history. A boss holds your rent, and the weighing changes when
 title: Weighing a boss
 question: Is my boss just bad at managing, or is this something worse?
 seo: Bad boss or toxic boss? How to tell if it's coercion
-short: A bad boss is bad at the job: disorganised, moody, unclear, sometimes unfair, and it usually lands on the whole team. A coercive boss is good at you. They control what you can say, who you can talk to and what it costs to refuse, complain or leave, and it lands hardest on whoever objects. Review them on six lines.
+short: A bad boss is bad at the job: disorganised, moody, unclear, sometimes unfair, and it usually lands on the whole team. A toxic boss is good at you. They control what you can say, who you can talk to and what it costs to refuse, complain or leave, and it lands hardest on whoever objects. Review them on six lines.
 ---
 Once a year, your manager fills in a form about you. This chapter hands you the pen.
 
@@ -461,7 +461,7 @@ A boss pays you, so the power is easy to see. A friend doesn't, which makes thei
 title: Weighing a friend
 question: Is my friend just going through a hard time, or are they using me?
 seo: One-sided friendship or a hard season? How to tell
-short: Every friendship runs a ledger of give and take. In a hard season it tips one way for a while, and that's what friends are for. Using is a ledger that never tips back, even when their life is fine. To tell them apart, look at two seasons, not one, and ask for something small back. Seasons end. Patterns don't.
+short: Every friendship runs a ledger of give and take. In a hard season it tips one way for a while, and that's what friends are for. Using is a one-sided ledger that never tips back, even when their life is fine. Look at two seasons, not one, and ask for something small back. Seasons end. Patterns don't.
 ---
 Your friend has rung you every night for six weeks.
 
@@ -605,7 +605,7 @@ One friend is a ledger. A whole group is harder to read, because it can make lea
 title: Weighing a group
 question: Is this group a healthy community, or is it something more controlling?
 seo: Is it a cult? Signs of a high-demand group, and the test
-short: Most groups are just groups. A high-demand group asks for more each year, more time, money, obedience and distance from outside friends, until leaving costs you everyone. Compare what it gave you in month one with what it asks in month twelve. Then ask the clearest question there is: can you leave and still be spoken to?
+short: The signs of a high-demand group build slowly. It asks for more each year, more time, money, obedience and distance from outside friends, until leaving costs you everyone. Compare what it gave you in month one with what it asks in month twelve. Then ask the clearest question there is: can you leave and still be spoken to?
 ---
 Every group hands you a welcome pack.
 

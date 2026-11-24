@@ -2,7 +2,7 @@
 title: Is it you, or is it everyone?
 question: Why are they lovely to everyone else and only like this with me?
 seo: Why are they nice to everyone but me? The audience test
-short: Check the behaviour across three audiences: other people, witnesses and stakes. If it shows up with everyone, it's personality. If it's worse with everyone close, it's about intimacy, a real problem but a different one. If it shows up only with you, only when nobody is watching, and switches off when someone walks in, it's being aimed.
+short: If they're nice to everyone but you, check the behaviour across three audiences: other people, witnesses and stakes. If it shows up with everyone, it's personality. If it's worse with everyone close, it's about intimacy. If it shows up only with you, only when nobody is watching, and switches off when someone walks in, it's being aimed.
 ---
 Who else gets this version of them?
 
@@ -134,8 +134,8 @@ The audience test asks who's watching. The next test asks who's holding what, be
 === power-changes-the-meaning
 title: Power changes the meaning
 question: Why does the same comment feel so different coming from my boss, my landlord or my partner?
-seo: How power changes what words mean, at work and at home
-short: Power is who can take what from whom, and how easily. The same sentence from a friend and from someone who controls your money, home, job or visa is not the same sentence, because refusing costs different amounts. Before judging the words, map what each of you could take from the other. Then run the map wherever you hold power.
+seo: Power imbalance in relationships: how it changes words
+short: Power is who can take what from whom, and any power imbalance in relationships changes what words mean. The same sentence from a friend and from someone who controls your money, home, job or visa is not the same sentence, because refusing costs different amounts. Before judging the words, map what each of you could take from the other.
 ---
 Write one sentence on an index card:
 
@@ -290,7 +290,7 @@ Power explains why the same words can weigh more. Difference explains why innoce
 title: Difference is not malice
 question: Are they being rude or cold on purpose, or do they just do things differently?
 seo: Rude or just different? When it's not a red flag at all
-short: Many things that feel like red flags are differences in norms: how direct people are, how much shows on their face, eye contact, reply speed, apologies and money. Culture, neurotype, class, generation and language all set these defaults. Ask about the norm, not the incident, then check the aftermath. Difference never excuses harm. Control looks the same in any dialect.
+short: Many things that feel like red flags are just different norms: how direct people are, how much shows on their face, reply speed, apologies and money. Culture, neurotype, class, generation and language all set these defaults. Ask about the norm, not the incident, then check the aftermath. Difference never excuses harm. Control looks the same in any dialect.
 ---
 You carry a rulebook for how people are supposed to behave. You never signed it, nobody showed it to you, and you enforce it like a nightclub bouncer.
 
@@ -411,8 +411,8 @@ Difference is a mismatch between two people's rulebooks. The next chapter is abo
 === institutions-weigh-differently
 title: Institutions weigh differently
 question: How do I judge a school, church, employer or organisation that treated me badly?
-seo: How to judge an institution: ask what the system rewards
-short: An institution has no single mind, so "did they mean to hurt me?" has no answer. Ask what the structure rewards and protects instead. Who decides? Who audits? Who can remove the people at the top? What does it disclose without being asked? What happened to the last three people who complained? Institutions leave paper, so check the records.
+seo: Institutional betrayal: how to judge what a system rewards
+short: Institutional betrayal is hard to judge because an institution has no single mind, so "did they mean to hurt me?" has no answer. Ask what the structure rewards and protects instead. Who decides? Who audits? Who can remove the people at the top? What happened to the last three people who complained? Institutions leave paper, so check the records.
 ---
 Start with three things almost everyone believes.
 

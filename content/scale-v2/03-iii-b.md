@@ -2,7 +2,7 @@
 title: The boring explanations
 question: Is this manipulation, or are they just tired, stressed or bad at this?
 seo: Manipulation or just tired? Check the boring causes first
-short: Most behaviour that looks like a tactic has a cheaper cause: thoughtlessness, exhaustion, distraction, mismatched expectations, logistics, a body having a bad day. Manipulation needs planning and upkeep, so it's an expensive explanation. Check the boring causes first, then try a boring fix. Tiredness improves with sleep. A tactic survives it.
+short: Most behaviour that looks like a tactic has a cheaper cause: thoughtlessness, exhaustion, distraction, mismatched expectations, logistics, a body having a bad day. Manipulation needs planning and upkeep, so it's an expensive explanation. Check the boring causes first, then try a boring fix. Someone who is just tired improves with sleep. A tactic survives it.
 ---
 Manipulation is an expensive explanation.
 
@@ -317,7 +317,7 @@ Motive is one thing people try to read off a face. The other is whether that fac
 title: Can you tell when someone is lying?
 question: How can I tell if someone is lying to me?
 seo: How to tell if someone is lying, and why faces don't help
-short: Mostly, not from their face. Across 206 studies, people judged lies and truths correctly about 54% of the time, barely better than tossing a coin. Eye contact, fidgeting and eye direction tell you almost nothing. What works is slower: checkable detail, core facts that hold or move over time, the record, and other people.
+short: Mostly, you can't tell if someone is lying from their face. Across 206 studies, people judged lies and truths correctly about 54% of the time, barely better than tossing a coin. Eye contact, fidgeting and eye direction tell you almost nothing. What works is slower: checkable detail, core facts that hold or move over time, the record, and other people.
 ---
 You can't tell by looking. Almost nobody can.
 
@@ -466,7 +466,7 @@ A lot of lies, and a lot more imagined ones, arrive by text, where there's no fa
 title: Reading a text message
 question: What does this text actually mean, and am I reading too much into it?
 seo: What does this text mean? Tone, "k" and being left on read
-short: A text strips out the face, voice and timing that carry most of a message's tone, so your brain fills the gap, usually with your worst guess. In one set of studies, people read the tone of written messages right only 56% of the time while feeling 90% sure. Before deciding what it meant, ask what you'd need to know.
+short: A text strips out the face, voice and timing that carry most of the tone, so your brain does the filling in, usually with your worst guess. In one set of studies, people read written tone right only 56% of the time while feeling 90% sure. Before deciding what this text meant, ask what you'd need to know.
 ---
 You've read it eleven times. It hasn't changed. It still says "Sure." with a full stop, and you're still deciding whether the full stop is a threat.
 

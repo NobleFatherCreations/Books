@@ -2,7 +2,7 @@
 title: What are you trying to weigh?
 question: Something feels off about someone. Where do I start?
 seo: How to tell if someone is manipulating you: start here
-short: Start with the person on your mind. Pick the situation below that sounds like yours (a partner, someone new, family, a friend, a boss or group, or yourself) and follow three chapters in order. In danger right now? Skip all of it and go to the safety page first.
+short: To work out whether it's manipulation, start with the person on your mind. Pick the situation below that sounds like yours (a partner, someone new, family, a friend, a boss or group, or yourself) and follow three chapters in order. In danger right now? Skip all of it and go to the safety page first.
 ---
 You're not here for a reading list. Somebody did something, or keeps doing something, and you'd like to know whether it's a bad week or a bad person before the group chat finishes voting. Good. This page skips the theory and sends you to the three chapters that matter for your situation.
 

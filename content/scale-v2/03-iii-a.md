@@ -2,7 +2,7 @@
 title: What is evidence
 question: How do I know if what I have is real evidence, or just a feeling?
 seo: What counts as evidence about a person? The four rungs
-short: Evidence about a person sits on four rungs. A record exists outside your head. An observation is what you saw and heard. An inference is what you concluded from it. A feeling is what it was like. All four count. Only the top two can carry a verdict, and none is needed to protect yourself.
+short: What counts as evidence about a person sits on four rungs. A record exists outside your head. An observation is what you saw and heard. An inference is what you concluded from it. A feeling is what it was like. All four count. Only the top two can carry a verdict, and none is needed to protect yourself.
 ---
 "He humiliated me."
 
@@ -276,7 +276,7 @@ Counting honestly is harder than it sounds, because once you suspect someone, th
 title: The file that builds itself
 question: Why does everything they do seem to prove I'm right about them?
 seo: Confirmation bias in relationships: the file that lies
-short: Confirmation bias is the habit of seeking and reading evidence in ways that favour what you already believe. Once someone is under suspicion, everything they do gets filed against them, kindness included. A file where every entry confirms is useless. Keep both columns, and ask whether you looked for the other one at all.
+short: Confirmation bias in relationships is the habit of seeking and reading evidence in ways that favour what you already believe. Once someone is under suspicion, everything they do gets filed against them, kindness included. A file where every entry confirms is useless. Keep both columns, and ask whether you looked for the other one at all.
 ---
 Why does everything they do seem to prove you right? Usually because of what you've started doing, not what they have. Watch one week of it.
 
@@ -422,7 +422,7 @@ A two-column file tells you what happened. It doesn't tell you why. For any sing
 title: The discipline of three explanations
 question: How do I stop jumping to the worst explanation, without talking myself out of the right one?
 seo: Is it me or am I being manipulated? Three explanations
-short: Before you settle on why someone did something, write three explanations that fit the same facts: one hostile, one neutral, and one about you or the situation. Then ask what you could observe that would tell them apart. It takes ninety seconds, works when you're upset, and sometimes confirms the hostile one.
+short: Before you settle on whether it's you or you're being manipulated, write three explanations that fit the same facts: one hostile, one neutral, and one about you or the situation. Then ask what you could observe that would tell them apart. It takes ninety seconds, works when you're upset, and sometimes confirms the hostile one.
 ---
 This is the drill you'll use more than everything else in this book combined. It takes about ninety seconds, and it's deliberately mechanical, because it has to work when you're upset, which is exactly when thinking doesn't.
 

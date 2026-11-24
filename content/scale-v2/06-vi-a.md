@@ -154,7 +154,7 @@ Sometimes the first sentence never fills in, however long you wait, because nobo
 title: When you can’t ever know
 question: How do I get closure when I'll never know the truth about what happened?
 seo: How to get closure when you'll never know the truth
-short: Some questions never resolve: the person is gone, would lie, or the only record is memory. Closure then comes from settling your own position instead. Say "I don't know, and here's how I'm going to live anyway," then write down what you'll stop checking, who you'll stop asking, and which explanation you'll act on. Reopen it if real news arrives.
+short: When you'll never know the truth, because the person is gone, would lie, or the only record is memory, closure comes from settling your own position instead. Say "I don't know, and here's how I'm going to live anyway," then write down what you'll stop checking and which explanation you'll act on. Reopen it if real news arrives.
 ---
 Suppose the answer arrived tonight. An envelope on the mat: *Yes, he meant it.* Or *No, she never did.* What would you do differently tomorrow?
 
@@ -293,7 +293,7 @@ A closed question can still teach you something, as long as you wrote down what 
 title: Scoring your own past calls
 question: How do I stop second-guessing myself and find out whether my judgement about people is any good?
 seo: How to stop second-guessing yourself: keep a track record
-short: To stop second-guessing your judgement about people, keep a track record. Each time you reach a real conclusion, write the call, how sure you are, and what would prove you wrong. Months later, add what happened. After ten entries you'll see your tilt, where you run hot and where you run soft, and you can correct for it.
+short: To stop second-guessing yourself about people, keep a track record. Each time you reach a real conclusion, write the call, how sure you are, and what would prove you wrong. Months later, add what happened. After ten entries you'll see your tilt, where you run hot and where you run soft, and you can correct for it.
 ---
 This is the only mechanism in the book that keeps improving after you finish reading it, and it takes about a minute a month.
 
@@ -419,8 +419,8 @@ When you read your entries back, look hard at the ones marked 95 or 100. Feeling
 === certainty-is-the-tell
 title: Certainty is the tell
 question: Why am I suddenly so sure about everything? Am I seeing clearly, or being pulled into something new?
-seo: Certainty as a red flag: how to spot a total explanation
-short: Certainty as a tell means treating a sudden, total sense of clarity as a warning sign. People who've just escaped one controlling belief system are prime recruits for the next. So check the shape, not the content: does it explain everything, survive every fact, punish doubt, split the world in two, and grow surer without new evidence?
+seo: Is it paranoia if you're right? Certainty as a red flag
+short: Certainty as a tell means treating a total sense of clarity as a warning sign. It isn't paranoia, and you're probably right about what you escaped. But people who've just left one controlling belief system are prime recruits for the next. So check the shape: does it explain everything, survive every fact, punish doubt, and grow surer without new evidence?
 ---
 Here is the failure mode that catches people who have just done everything right.
 
@@ -571,7 +571,7 @@ Two of the most popular funnels in this whole subject are "people never change" 
 title: Can people change?
 question: Can a manipulative person really change? Should I give them a second chance?
 seo: Can a manipulative person really change? Signs it's real
-short: Yes, some people change, but rarely fast and never because they promised. Real change is specific behaviour that holds for months, especially when it costs them and nobody is watching. Performed change is big, early and fluent, then fades. Judge it at one, six and twelve months. Whether to give a second chance is your call alone.
+short: Yes, a manipulative person can change, but rarely fast and never because they promised. Real change is specific behaviour that holds for months, especially when it costs them and nobody is watching. Performed change is big, early and fluent, then fades. Judge it at one, six and twelve months. Whether to give a second chance is your call alone.
 ---
 Yes, people can change. Most of the people who promise to, don't. Both are true, and you need both, because either one on its own will hurt you.
 

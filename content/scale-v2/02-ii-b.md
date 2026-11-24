@@ -2,7 +2,7 @@
 title: Grief in the costume of analysis
 question: Why can't I stop analysing what happened, even though I already know?
 seo: Can't stop analysing what happened? It may be grief
-short: If you keep investigating something you already understand, the investigation may be doing a second job: holding a loss at arm's length. Analysis feels productive and grief doesn't, so the mind swaps one for the other. The tell is a case that never reaches a verdict and doesn't want to. Investigation that never reaches a verdict is grief.
+short: If you can't stop thinking about what happened even though you understand it, the investigation may be doing a second job: holding a loss at arm's length. Analysis feels productive and grief doesn't, so the mind swaps one for the other. The tell is a case that doesn't want to close. Investigation that never reaches a verdict is grief.
 ---
 Somewhere in your phone is a folder called "proof," or "receipts," or, if you were being careful, "receipts 2." You know the timeline by heart. You have zoomed in on a photo from 2019 until it turned into squares. You know his ex's dog's name. You have never met his ex. You have possibly never met the dog.
 
@@ -144,7 +144,7 @@ None of this makes what happened smaller. The harm can be entirely real and the 
 title: The retrospective rewrite
 question: Now that I know the truth, was any of it real?
 seo: Was the whole relationship a lie? Sorting your memories
-short: After a betrayal comes out, the mind rewrites every memory at once: the holiday was cover, the kindness was strategy. Some of that is accurate, because you finally have the missing facts. A total overwrite isn't. Sort memories one at a time into still true, needs revising and can't know. Revise memory by memory, not all at once.
+short: After a betrayal comes out, the whole relationship can feel like a lie, and the mind rewrites every memory at once: the holiday was cover, the kindness was strategy. Some of that is accurate, because you finally have the missing facts. A total overwrite isn't. Sort memories one at a time into still true, needs revising and can't know.
 ---
 Picture the album. Every photo from those years, in order. The holiday, the flat with the bad boiler, the birthday where the cake collapsed and everyone ate it off the plate anyway.
 
@@ -267,7 +267,7 @@ The finished position sounds like this, and it's open to you: *That person did r
 title: The state you’re judging from
 question: Why does everything about them seem worse at night, or when I'm exhausted?
 seo: Why does everything feel worse at night? Judging tired
-short: Judgment is done by a body, and the body's state changes the result. Sleep loss, hunger, fear, isolation and hours of scrolling all push readings toward threat while feeling just as certain. Run a six-line check before any verdict. If one person reliably leaves you exhausted or cut off, that's data about them. No verdicts at 2am.
+short: Everything feels worse at night because judgment is done by a body, and its state does change the result. Sleep loss, hunger, fear, isolation and hours of scrolling all push readings toward threat while feeling just as certain. Run a six-line check before any verdict. If one person reliably leaves you exhausted or cut off, that's data about them.
 ---
 Quick check before you read on. When did you last eat, and what time is it?
 
@@ -411,7 +411,7 @@ The checklist tells you when the instrument is off. Some people's instrument was
 title: The reference sample
 question: What does a healthy relationship actually look like?
 seo: What does a healthy relationship look like? A real baseline
-short: Healthy relationships still have regular arguments, disappointments, defensiveness and problems that never get solved. What sets them apart is the aftermath: problems can be named, repair happens, "no" is survivable, and nobody's freedom is shrinking. If your baseline came from a controlling home or relationship, borrow a better one. Grade the aftermath, not the trouble.
+short: A healthy relationship does have arguments, disappointments, defensiveness and problems that never get solved. What sets it apart is the aftermath: problems can be named, repair happens, "no" is survivable, and nobody's freedom is shrinking. If your baseline came from a controlling home or relationship, borrow a better picture of what healthy looks like. Grade the aftermath, not the trouble.
 ---
 A kitchen scale gets checked with a test weight: a lump of metal you know is exactly one kilo. Put it on, read the number, adjust. Without the test weight, a scale can be wrong for years and look completely sure of itself.
 

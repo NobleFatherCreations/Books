@@ -2,7 +2,7 @@
 title: Weighing an expert
 question: A therapist, a couples counsellor, a court report or someone online has given an opinion about us. How much should it count?
 seo: Couples counselling with a controlling partner? Read first
-short: Give a professional opinion the weight of what the professional actually saw. A therapist who has met only one of you, a counsellor seeing you both while one of you is afraid, a stranger diagnosing online, a report written after two interviews: each saw a slice. Ask what they saw, what they're trained to spot and whose account they heard.
+short: Give a professional opinion the weight of what the professional actually saw. A therapist who has met only one of you, couples counselling with a controlling partner, a stranger diagnosing online, a report written after two interviews: each saw a slice. Ask what they saw, what they're trained to spot and whose account they heard.
 ---
 A qualification is a better instrument. It isn't a pair of eyes in your kitchen.
 
@@ -153,7 +153,7 @@ Sometimes you're the one being treated as the expert: a friend at your kitchen t
 title: Helping someone else weigh
 question: My friend thinks they might be in a manipulative relationship. What do I say?
 seo: How to help a friend in a toxic relationship: what to say
-short: To help a friend weigh a relationship, ask questions instead of handing over a verdict. "What happened, exactly?" and "What do you want?" do more than "Leave him." Stay steady, keep your outrage out of the room, and keep the door open whatever they decide. If there's violence, a threat or fear, stop weighing and help them get safe.
+short: To help a friend weigh a relationship that might be toxic, ask questions instead of handing over a verdict. "What do you want?" does more than "Leave him." Stay steady, keep your outrage out of the room, and keep the door open whatever they decide. If there's violence, a threat or fear, stop weighing and help them get safe.
 ---
 You will be handed other people's situations. Once it's known that you've read a book like this, they arrive constantly. A friend at the kitchen table. A sister on the phone at eleven at night. A colleague who opens with "Can I ask you something odd?"
 
@@ -317,7 +317,7 @@ Sometimes the friend at the table is you, a year after leaving, wondering why yo
 title: Weighing after you’ve left
 question: I left a controlling relationship and now I see red flags everywhere. How do I trust my own judgement again?
 seo: Seeing red flags everywhere after a toxic relationship
-short: After a controlling relationship your alarm is still set for the room you left, so it fires at almost everything. Don't switch it off, and don't obey every ring. Log what sets it off, name the specifics, check which room you're in and test small, over weeks. Keep it at full volume for the ex. Turn it down, never off.
+short: Seeing red flags everywhere after a toxic or controlling relationship is normal, because your alarm is still set for the room you left. Don't switch it off, and don't obey every ring. Log what sets it off, name the specifics, check which room you're in and test small, over weeks. Keep it at full volume for the ex.
 ---
 You got out. Your smoke alarm came with you, still set for the old kitchen.
 
@@ -454,8 +454,8 @@ Sometimes the alarm isn't miscalibrated at all. If what's setting it off is viol
 === when-weighing-stops
 title: When weighing stops
 question: When should I stop trying to work out what's happening and just get safe?
-seo: When to stop analysing and get safe from domestic abuse
-short: Stop weighing and get safe if there has been violence or a threat of it, a child is at risk, you're being cut off from people who could help, leaving is being made difficult or dangerous, or your fear is physical. You don't need proof. In danger, call your local emergency number. Otherwise, contact the domestic abuse service where you live.
+seo: Scared of your partner? When to stop and get safe
+short: Stop weighing and get safe if there's been violence or the threat of it, a child is at risk, you're cut off from help, leaving is made difficult or dangerous, or you're physically scared of your partner or anyone. You don't need proof, whatever you're told. In danger, call your local emergency number. Otherwise, contact your local domestic abuse service.
 ---
 Everything in this book assumes you have room to think. This chapter is about the conditions where you don't, and where thinking is the wrong activity.
 
@@ -581,7 +581,7 @@ If you're safe, and reading on, the next chapter is about telling people when yo
 title: Changing your mind out loud
 question: How do I tell people I was wrong about someone, or tell a friend they were right?
 seo: How to admit you were wrong about someone: what to say
-short: To change your mind out loud, tell the people who heard your first verdict, briefly: what you said, what you think now, and that you don't need a reply. Telling a friend "you were right about him" works the same way. Keep it short, skip the backstory and the self-punishment, and never retract something true because someone pushes you to.
+short: To admit you were wrong about someone, tell the people who heard your first verdict, briefly: what you said, what you think now, and that you don't need a reply. Telling a friend "you were right about him" works the same way. Keep it short, skip the backstory and self-punishment, and never retract something true because someone pushes you to.
 ---
 A verdict about a person travels. It goes to your sister, your group chat, your mum, the friend who tells everyone everything. When your view changes, the verdict keeps travelling without you, because nobody announced the update.
 
@@ -714,7 +714,7 @@ Being able to say "I was wrong" in public is what makes the last skill in this b
 title: Trust as a skill you rebuild
 question: If I can never be certain about anyone, how am I supposed to trust people again?
 seo: How to trust again after being manipulated, step by step
-short: You trust again the way everyone with good relationships already does: in steps. Extend small things you can afford to lose, watch what happens, then climb or step back. Watch three signals: can things be named, does repair happen, what does a no cost. Weighing won't stop you ever being wrong. It makes being wrong survivable.
+short: After being manipulated, you trust again the way everyone with good relationships already does: in steps. Extend small things you can afford to lose, watch what happens, then climb or step back. Watch three signals: can things be named, does repair happen, what does a no cost. Weighing won't stop you ever being wrong. It makes being wrong survivable.
 ---
 Here is the question the whole book has been walking toward, and it's usually asked with some despair.
 

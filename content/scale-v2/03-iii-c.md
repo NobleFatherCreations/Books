@@ -2,7 +2,7 @@
 title: “I don’t remember it that way”
 question: Are they gaslighting me, or do we just remember it differently?
 seo: Gaslighting or just remembering differently? How to tell
-short: Memory rebuilds itself each time you recall it, so two honest people often remember the same evening differently. Gaslighting is something else: a pattern of denial that always lands in their favour, attacks your mind rather than your memory, and treats your records as the problem. Honest disagreement welcomes a check. Gaslighting fights it.
+short: Memory rebuilds itself each time you recall it, so two honest people often end up remembering the same evening differently. Gaslighting is something else: a pattern of denial that always lands in their favour, attacks your mind rather than your memory, and treats your records as the problem. Honest disagreement welcomes a check. Gaslighting fights it.
 ---
 Ask your brother who broke the greenhouse window in 1998. Then stand well back.
 
@@ -163,7 +163,7 @@ A record is the best answer to a memory fight, until someone shows you a record 
 title: Screenshots, and what they leave out
 question: Can I trust a screenshot, a recording or a video someone shows me?
 seo: Can a screenshot be used as proof? What the crop leaves out
-short: A genuine screenshot proves what's inside its frame and nothing else. It can't show what came before, what came after, the phone call in between, or why someone chose that slice. Edits and AI fakes are now cheap, and people can't reliably spot them by eye. Ask for the whole thread, and check the source.
+short: A genuine screenshot can be used as proof of what's inside its frame and nothing else. It can't show what came before, what came after, the phone call in between, or why someone chose that slice. Edits and AI fakes are now cheap, and people can't reliably spot them by eye. Ask for the whole thread, and check the source.
 ---
 Nobody in history has screenshotted the bit where they were wrong.
 
@@ -312,8 +312,8 @@ A screenshot is a secondhand account with pixels. Most of what you hear about pe
 === secondhand-accounts
 title: Secondhand accounts
 question: How much should I believe what someone tells me about another person?
-seo: Secondhand accounts: how to weigh what someone told you
-short: A secondhand account is anything you know about a person because someone else told you. Stories change in transit, even between honest people: they shrink, lose context, pick up adjectives and bend towards their audience. Ask who saw it and what they want. Act protectively where needed, and keep the verdict provisional.
+seo: Should you believe what people tell you about your partner?
+short: Believe what people tell you about your partner, or anyone, only provisionally. Stories change in transit, even between honest people: they shrink, lose context, pick up adjectives and bend towards their audience. Ask who saw it and what they want. Act protectively where needed, but you should keep the verdict open.
 ---
 Most judgments you make about people are made on information someone else supplied. You have never watched the thing. You have watched someone tell you about the thing.
 
@@ -472,7 +472,7 @@ Stories from people you know at least come from someone you can ask. Stories abo
 title: Judging strangers through screens
 question: Can I judge someone from a clip, a thread or a viral video?
 seo: Can you judge someone from a video? The eight-second test
-short: Rarely. A clip is the most shareable few seconds of a life, chosen by someone with a reason and spread by systems that reward outrage. Ask whether context could change what you're seeing. For tone and reactions it nearly always could. For documented acts and on-the-record statements by people with power, it often can't.
+short: Rarely can you judge someone from a video. A clip is the most shareable few seconds of a life, chosen for a reason and spread by systems that reward outrage. Ask whether context could change what you're seeing. For tone and reactions it nearly always could. For documented acts and on-the-record statements by people with power, it often can't.
 ---
 The modern default is forming confident verdicts about people you have never met, from material you did not seek, selected by systems whose goal is not accuracy.
 

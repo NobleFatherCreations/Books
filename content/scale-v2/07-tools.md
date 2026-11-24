@@ -2,7 +2,7 @@
 title: The 60-second weigh
 question: Is there a quick way to work out whether what's happening is manipulation?
 seo: Is it manipulation? The 60-second weigh, step by step
-short: The whole method on one screen. First check for danger, and if it's there, stop and act. Then name the room, place the behaviour on the gradient, write three explanations, ask the four pattern questions, run one safe test, and write two separate sentences: what you believe and what you'll do.
+short: The quickest way to tell if you're being manipulated, on one screen. First check for danger, and if it's there, stop and act. Then name the room, place the behaviour on the gradient, write three explanations, ask the four pattern questions, run one safe test, and write two separate sentences: what you believe and what you'll do.
 ---
 The whole book, folded small enough to fit in a pocket. Run it in order. Each step has a chapter behind it for when you have more than a minute.
 
@@ -45,8 +45,8 @@ Then write the call down with a date, so future you can mark it. [Your track rec
 === field-card
 title: The field card
 question: What are the main lessons of The Weighing on one page?
-seo: How to weigh people fairly: the whole book on one card
-short: One page. Screenshot it, print it, keep it where you will actually find it. Every chapter's line to remember, in book order and grouped by movement, with the floor rules on top and the few working tools that need more than one line.
+seo: Manipulation or normal? A one-page checklist
+short: One page, a checklist for telling manipulation from normal behaviour. Screenshot it, print it, keep it where you will actually find it. Every chapter's line to remember, in book order and grouped by movement, with the floor rules on top and the few working tools that need more than one line.
 ---
 ## The floor: outranks everything else
 
@@ -187,7 +187,7 @@ When a line isn't enough, the questions people type at 2am are answered one by o
 title: Questions people ask
 question: What are the most common questions about telling manipulation from normal behaviour?
 seo: Am I overreacting or being manipulated? Common questions
-short: Short, straight answers to the questions people actually type at 2am: am I overreacting, am I the toxic one, is it anxiety or manipulation, red flag or flaw, are they lying, can they change, do I need proof to leave. Each answer links to the chapter that does the full job.
+short: Short, straight answers to the questions people actually type about manipulation at 2am: am I overreacting, am I the toxic one, is it anxiety or manipulation, red flag or flaw, are they lying, can they change, do I need proof to leave. Each answer links to the chapter that does the full job.
 ---
 Each answer is the short version. The chapter behind it has the long one, with the tests and the exceptions. If anyone is in danger, skip all of this and go to [When weighing stops](ch:when-weighing-stops).
 
@@ -281,7 +281,7 @@ Each answer is the short version. The chapter behind it has the long one, with t
 title: A to Z
 question: What do terms like base rate, false positive, DARVO and coercive control mean?
 seo: Manipulation and judgement terms explained, A to Z
-short: Every working term in The Weighing in one or two plain sentences: base rate, calibration, the gradient, false positives and negatives, confirmation bias, reactive abuse, coercive control, DARVO, love bombing, concept creep and more. Each one links to the chapter that uses it, and to the Pattern Decoder where it has a page.
+short: A glossary of every working term in The Weighing, manipulation terms included, in one or two plain sentences: base rate, calibration, the gradient, false positives and negatives, confirmation bias, reactive abuse, coercive control, DARVO, love bombing, concept creep and more. Each one links to the chapter that uses it, and to the Pattern Decoder where it has a page.
 ---
 Plain definitions, as this book uses the words. Where the Pattern Decoder has a page on the same pattern, the link sits at the end.
 
@@ -389,7 +389,7 @@ Plain definitions, as this book uses the words. Where the Pattern Decoder has a 
 title: The weighing sheet
 question: Is there a worksheet to help me think through whether someone is manipulating me?
 seo: Is it manipulation? A printable worksheet to weigh it
-short: A printable worksheet that walks one situation through the whole method: the danger check, the two-sided question, three explanations, the four pattern blanks, and two separate sentences for what you believe and what you'll do. Print it, fill it in by hand, and keep it somewhere private.
+short: A printable worksheet that walks one situation in a relationship through the whole method: the danger check, the two-sided question, three explanations, the four pattern blanks, and two separate sentences for what you believe and what you'll do. Print it, fill it in by hand, and keep it somewhere private.
 ---
 One sheet per situation. Fill it in by hand, in daylight, somewhere private. If you live with someone who reads your things, keep it in your head instead, or use initials. Your safety outranks your paperwork.
 
@@ -476,8 +476,8 @@ When you've reached a real call, copy it onto [Your track record sheet](ch:track
 === track-record-sheet
 title: Your track record sheet
 question: How do I keep track of whether my judgement about people is any good?
-seo: How to stop second-guessing yourself: a track record sheet
-short: A printable logbook for your calls about people. Each entry is three lines written at the time (the call, how sure you are, what would show you wrong) and a fourth added months later: what actually happened. After eight or ten entries, read down the last column to find your tilt.
+seo: Judgement journal template: a printable track record sheet
+short: A printable judgement journal template for your calls about people. Each entry is three lines written at the time (the call, how sure you are, what would show you wrong) and a fourth added months later: what actually happened. After eight or ten entries, read down the last column to find your tilt.
 ---
 This is the sheet from [Scoring your own past calls](ch:scoring-your-own-past-calls). The rule is the chapter's handle: write the call before you learn the answer. A slip filled in after the race is worth nothing, because hindsight wins every bet it places.
 
@@ -615,7 +615,7 @@ The logbook is for calls, not for danger. You never need a good track record to 
 title: The limits of this instrument
 question: What can't this book tell me, and where could it be wrong?
 seo: The Weighing's limits: what it can't do, where it fails
-short: What this book cannot do, where it fails, and what would change its mind. It can't tell you whether a specific person is manipulating you, make you safe, or diagnose anyone. It's most likely to fail someone inside a coercive situation, and it names the findings that would prove it wrong.
+short: Self-help books have limits, and this one names its own. It can't tell you whether a specific person is manipulating you, make you safe, or diagnose anyone. It's most likely to fail someone inside a coercive situation. It also lists where it could be wrong and the findings that would change its mind.
 ---
 A book that demands evidentiary standards and publishes none for itself fails its own test. So here is the honest accounting.
 

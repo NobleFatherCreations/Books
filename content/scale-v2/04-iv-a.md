@@ -2,7 +2,7 @@
 title: Before you test: is testing safe?
 question: Is it safe to test whether someone is controlling me?
 seo: Is it safe to test a controlling partner? Check first
-short: Some tests in this book add friction on purpose. With a dangerous person, that friction is the risk. Before any test, run the safety gate: violence or threats, punished refusals, what they control, being cut off from help, physical fear, a child at risk, nowhere safe to go. One yes means don't test.
+short: Some tests in this book add friction on purpose. With a dangerous person, that friction is the risk. Before any test, including simply confronting a controlling partner, run the safety gate: violence or threats, punished refusals, what they control, being cut off from help, physical fear, a child at risk, nowhere safe to go. One yes means don't test.
 ---
 Stop here before you run any test in this part of the book. Answer these honestly, and quickly. This is not an exercise in being fair to them.
 
@@ -167,7 +167,7 @@ If there is danger, go to [When weighing stops](ch:when-weighing-stops). If ever
 title: The naming test
 question: How do I bring something up and tell whether they're manipulating me?
 seo: The naming test: how to call out manipulation calmly
-short: The naming test means saying what someone did and what it did to you, plainly, with no diagnosis and no guess at motive. Then you stop talking and watch. A decent person may get defensive, but they engage with the subject. A controlling one moves the subject onto you. Weeks later, check whether you can raise it again.
+short: The naming test is how to call out manipulation. Say what someone did and what it did to you, plainly, without diagnosing or guessing motive. Then stop talking and watch. A decent person may get defensive, but they engage with the subject. A controlling one moves the subject onto you. Weeks later, check whether you can raise it again.
 ---
 What happens to a subject after you say it out loud?
 
@@ -333,7 +333,7 @@ If the response was an apology, good. It's also not the end of the test, because
 title: Repair, and apology’s counterfeit
 question: How do I know if an apology is real or just words?
 seo: Real apology vs fake apology: how to tell the difference
-short: A real apology names the specific thing, comes without conditions or counter-charges, is followed by changed behaviour over weeks, and never becomes a debt you owe. Repair is that whole process, not the sentence. Counterfeits copy the words: sorry you feel that way, the tearful reset, the apology that ends with you comforting them. Check over six weeks.
+short: A real apology names the specific thing, comes without conditions or counter-charges, is followed by changed behaviour over weeks, and never becomes a debt you owe. Repair is that whole process, not the sentence. Fake apologies copy the words: sorry you feel that way, the tearful reset, the apology that ends with you comforting them. Check over six weeks.
 ---
 Everyone causes harm. Everyone. The people you love have hurt you and you've hurt them, and no amount of good character prevents it.
 
@@ -482,7 +482,7 @@ An apology shows you what happens after harm. The next test shows you what happe
 title: The cost of “no”
 question: What happens when I say no to them, and what does it tell me?
 seo: What happens when you say no to a controlling person?
-short: The cost of no is what refusing costs you afterwards. With most people it's a little disappointment, then it's gone. With a controlling person the price is quieter and lasts: the temperature drops, things you rely on get harder, and your no becomes proof you're selfish. Refuse something small, track the price for weeks, and read the pattern.
+short: The cost of no is what happens after you refuse. With most people it's a little disappointment, then it's gone. When you say no to a controlling person, the price is quieter and lasts: the temperature drops, things you rely on get harder, and your no becomes proof you're selfish. Refuse something small, and track the price for weeks.
 ---
 This is the most economical test in the book. It takes one sentence, and it tells you more than a month of analysis.
 

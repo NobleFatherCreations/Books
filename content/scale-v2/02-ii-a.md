@@ -2,7 +2,7 @@
 title: Your detector has a history
 question: Why do I react so strongly to things that remind me of someone who hurt me?
 seo: Is it trauma or a red flag? Where your alarm was tuned
-short: Your alarm for danger was tuned in a specific room, by a specific person, when reading them right kept you safe. It still fires on anything that resembles them, so it is accurate about the past and unproven about the present. Ask whose voice the alarm sounds like, which era it belongs to, and whether the size matches.
+short: Your alarm for danger was tuned in a specific room, by a specific person, when reading them right kept you safe. It still fires on anything that resembles them, so a strong reaction may be old trauma or a real red flag. Ask whose voice the alarm sounds like, which era it belongs to, and whether the size matches.
 ---
 Every alarm was installed by somebody. Yours went in during a stretch of your life when reading one particular person correctly kept you safe. A parent, a partner, sometimes a whole house. You learned that a certain tone came before a bad night, and you learned it fast, because slow learners had worse nights.
 
@@ -144,7 +144,7 @@ Knowing where the alarm came from tells you whose voice it's using. It doesn't t
 title: The gut: sensor or smoke alarm
 question: Should I trust my gut feeling about someone?
 seo: Should you trust your gut about someone? A 10-minute test
-short: Trust your gut as a first reading, never as a verdict. A sensor reading can be unpacked into specifics a camera would have caught. A smoke-alarm reading can't, because it fired on resemblance to something old. Give the feeling ten minutes and a piece of paper. Either way, you never need evidence to protect yourself.
+short: You should trust your gut as a first reading, never as a verdict. A sensor reading can be unpacked into specifics a camera would have caught. A smoke-alarm reading can't, because it fired on resemblance to something old. Give the feeling ten minutes and a piece of paper. Either way, you never need evidence to protect yourself.
 ---
 "I just had a feeling about him."
 
@@ -278,7 +278,7 @@ Sometimes ten minutes gives you neither specifics nor quiet, only a loop of what
 title: Gut feeling or anxiety
 question: How do I know if it's my gut telling me something, or just my anxiety?
 seo: Gut feeling or anxiety? How to tell intuition from fear
-short: Intuition points at something specific outside you, and it settles or sharpens when you get information. Anxiety is vaguer, loops back to you, and wants another answer every time it gets one. OCD doubt, trauma alarms and attachment panic have their own tells. Having anxiety doesn't make you wrong. Intuition informs. Anxiety interrogates.
+short: Intuition, the gut feeling worth listening to, points at something specific outside you, and it settles or sharpens when you get information. Anxiety is vaguer, loops back to you, and wants another answer every time it gets one. OCD doubt, trauma alarms and attachment panic have their own tells. Having anxiety doesn't make you wrong. Intuition informs. Anxiety interrogates.
 ---
 Intuition and anxiety ring from the same number. Both go off in your chest, both say "something's wrong," and neither leaves its name.
 
@@ -545,7 +545,7 @@ Even with both rulers in hand, your brain leans on the measurement. Everyone's d
 title: The biases in everyone
 question: What biases affect how I judge people, and how do I check for them?
 seo: Cognitive biases in relationships: 8 to check in yourself
-short: Everyone judges people through mental shortcuts: blaming character over circumstance, reading hostility into accidents, letting one trait colour everything, weighting bad over good. These biases push toward suspicion of decent people and toward excuses for harmful ones. You can't switch them off, but each has a quick counter-move. Your brain has defaults. Check them.
+short: In relationships and everywhere else, people judge each other through mental shortcuts: blaming character over circumstance, reading hostility into accidents, letting one trait colour everything, weighting bad over good. These cognitive biases push toward suspicion of decent people and toward excuses for harmful ones. You can't switch them off, but each has a quick counter-move. Check them.
 ---
 Your brain judges people with shortcuts. They're fast, they're usually fine, and they go wrong in predictable directions. Psychologists have been cataloguing them for about fifty years, and the main finding is that you aren't special. Everyone has them, including everyone who has ever written a book about them. This one included.
 
