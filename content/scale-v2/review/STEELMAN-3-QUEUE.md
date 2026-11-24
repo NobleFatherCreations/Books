@@ -2,3 +2,4 @@
 - 02-ii-a: crypto-man line, 'absolute goldfish', Bea's unresolved ending reads open
 - 02-ii-b: barbecue joke in betrayal chapter; 'unfair to someone who loves you' mirror; reference-sample opening weight
 - 03-iii-a: 'group chat accepts vibes'; counting-five-months line near a moral; 'hadn't eaten since breakfast' presumption
+- 03-iii-b: 'guess wearing a lab coat'; 'wrecked'; 'boiler' (regional)
