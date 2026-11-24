@@ -516,7 +516,7 @@ She writes one letter. It quotes their own policy, lists the four dates she call
 
 **Being reassured by good individuals.** The kindness of the person in front of you is real, and it tells you nothing about the structure behind them. Many people inside harmful institutions are decent and constrained. Some of them are the next people the structure will sideline.
 
-One more tell. When an organisation announces new leadership, a new name or a new programme, and suddenly everything before it no longer counts, the Decoder calls that an [accountability reset](/playbook/accountability-reset). A fresh start that wipes the record is the old structure protecting itself in a new font.
+One more tell. When an organisation announces new leadership, a new name or a new programme, and suddenly everything before it no longer counts, the Decoder calls that an [accountability reset](/playbook/accountability-reset). A fresh start that wipes the record is the old structure protecting itself on new letterhead.
 
 ## Sort the questions
 
