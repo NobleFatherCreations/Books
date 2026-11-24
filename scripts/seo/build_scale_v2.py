@@ -533,7 +533,7 @@ def contents_html():
                   {"@type": "ListItem", "position": i + 1, "url": f"{URL}/{s}", "name": CH[s]["title"]} for i, s in enumerate(ORDER)]}},
              S.crumbs_ld([("Noble Father Creations", S.DOMAIN + "/"), ("The Weighing", URL), ("Every chapter", URL + "/contents")]),
              S.book_node(BOOK), S.PERSON, S.ORG]
-    return simple("Every chapter", "Every chapter of The Weighing, a free book on how to be right about people, by movement.",
+    return simple("Every chapter, by movement", "Every chapter of The Weighing, a free book on how to be right about people, by movement.",
                   URL + "/contents", inner, ld={"@context": "https://schema.org", "@graph": graph})
 
 
