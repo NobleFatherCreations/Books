@@ -9,6 +9,8 @@ BOOK=${4:-longafter}
 D=content/$BOOK-v2
 F=$D/$1.md
 python3 scripts/book/rewrite-check.py "$F" | tail -1
+VOICE=$(python3 -c "import json;print(json.load(open('$D/book.json')).get('voice',''))")
+[[ -n "$VOICE" ]] && { python3 scripts/book/voice-check.py "$F" | tail -1; python3 scripts/book/voice-check.py "$F" >/dev/null || { echo "voice-check failing"; exit 1; }; }
 AUDIT=$(python3 -c "import json,sys;print(json.load(open('$D/book.json')).get('audit',''))")
 [[ -z "$AUDIT" && "$BOOK" == longafter ]] && AUDIT="python3 scripts/longafter-audit.py {part}"
 if [[ -n "$AUDIT" ]]; then
@@ -20,6 +22,6 @@ TITLE=$(python3 -c "import json;print(json.load(open('$D/book.json')).get('title
 git add "$F" && git commit -qm "$TITLE writing pass: $3
 
 Co-Authored-By: Claude Opus 5.5 <noreply@anthropic.com>
-Claude-Session: https://claude.ai/code/session_013rW7RC1Kr6aUmdeRwP2FgS"
+Claude-Session: https://claude.ai/code/session_013rW7RAcabKLHjiecruFmN6"
 for i in 1 2 3 4; do git push -q origin HEAD 2>/dev/null && break || sleep $((2**i)); done
 git log --oneline -1
