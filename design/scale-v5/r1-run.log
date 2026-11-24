@@ -1,0 +1,6 @@
+== cover
+   WARN  16 distinct text colours (aim <= 6)
+   WARN  6 screens are > 70% empty (dead-space risk; intentional silence or unfinished?)
+
+PASSED: 0 failing check(s). Read <profile>/contact.jpg first, then the individual screenshots. These gates are necessary, not sufficient.
+== the-gradient

@@ -1,0 +1,307 @@
+{
+ "url": "http://localhost:8765/scale/",
+ "at": "2026-11-24T14:58:33.556Z",
+ "engine": "chromium",
+ "profiles": {
+  "phone-dark": {
+   "steps": 17,
+   "fonts": [
+    "Fraunces"
+   ],
+   "tokens": {
+    "radii": 5,
+    "shadows": 5,
+    "families": [
+     "Fraunces",
+     "ui-monospace",
+     "Georgia",
+     "system-ui"
+    ],
+    "colors": 16
+   },
+   "motion": null,
+   "pixels": {
+    "hues": [
+     2,
+     3,
+     3,
+     3,
+     2,
+     3,
+     2,
+     3,
+     2,
+     2,
+     3,
+     3,
+     2,
+     2,
+     2,
+     3,
+     3
+    ],
+    "empty": [
+     0.5,
+     0.45,
+     0.35,
+     0.37,
+     0.31,
+     0.31,
+     0.31,
+     0.33,
+     0.32,
+     0.33,
+     0.37,
+     0.33,
+     0.27,
+     0.52,
+     0.44,
+     0.42,
+     0.47
+    ],
+    "focal": [
+     0.32,
+     0.31,
+     0.28,
+     0.28,
+     0.25,
+     0.28,
+     0.25,
+     0.26,
+     0.26,
+     0.28,
+     0.27,
+     0.26,
+     0.26,
+     0.35,
+     0.31,
+     0.23,
+     0.24
+    ],
+    "sizes": [],
+    "sync": [
+     0,
+     0,
+     0
+    ],
+    "contact": "design/scale-v5/r1/cover/phone-dark/contact.jpg"
+   },
+   "problems": [
+    [
+     "WARN",
+     "tap targets under 40px",
+     [
+      "a \"When weighing stops\" 173x20",
+      "a \"Read why →\" 102x21",
+      "a \"CC BY-NC-ND 4.0\" 129x19"
+     ]
+    ],
+    [
+     "WARN",
+     "4 font families in use: Fraunces, ui-monospace, Georgia, system-ui (rule: max 2)"
+    ],
+    [
+     "WARN",
+     "16 distinct text colours (aim <= 6)"
+    ],
+    [
+     "WARN",
+     "low focal dominance (0.28): screens may lack one clear focal point"
+    ]
+   ]
+  },
+  "phone-reduced": {
+   "steps": 17,
+   "fonts": [
+    "Fraunces"
+   ],
+   "tokens": {
+    "radii": 5,
+    "shadows": 5,
+    "families": [
+     "Fraunces",
+     "ui-monospace",
+     "Georgia",
+     "system-ui"
+    ],
+    "colors": 16
+   },
+   "motion": null,
+   "pixels": {
+    "hues": [
+     2,
+     3,
+     3,
+     3,
+     2,
+     3,
+     2,
+     3,
+     2,
+     2,
+     3,
+     3,
+     2,
+     2,
+     2,
+     3,
+     3
+    ],
+    "empty": [
+     0.5,
+     0.45,
+     0.35,
+     0.37,
+     0.31,
+     0.31,
+     0.31,
+     0.33,
+     0.32,
+     0.33,
+     0.37,
+     0.33,
+     0.27,
+     0.52,
+     0.44,
+     0.42,
+     0.47
+    ],
+    "focal": [
+     0.32,
+     0.31,
+     0.28,
+     0.28,
+     0.25,
+     0.28,
+     0.25,
+     0.26,
+     0.26,
+     0.28,
+     0.27,
+     0.26,
+     0.26,
+     0.35,
+     0.31,
+     0.23,
+     0.24
+    ],
+    "sizes": [],
+    "sync": [
+     0,
+     0,
+     0
+    ],
+    "contact": "design/scale-v5/r1/cover/phone-reduced/contact.jpg"
+   },
+   "problems": [
+    [
+     "WARN",
+     "tap targets under 40px",
+     [
+      "a \"When weighing stops\" 173x20",
+      "a \"Read why →\" 102x21",
+      "a \"CC BY-NC-ND 4.0\" 129x19"
+     ]
+    ],
+    [
+     "WARN",
+     "4 font families in use: Fraunces, ui-monospace, Georgia, system-ui (rule: max 2)"
+    ],
+    [
+     "WARN",
+     "16 distinct text colours (aim <= 6)"
+    ],
+    [
+     "WARN",
+     "low focal dominance (0.28): screens may lack one clear focal point"
+    ]
+   ]
+  },
+  "desktop-dark": {
+   "steps": 13,
+   "fonts": [
+    "Fraunces"
+   ],
+   "tokens": {
+    "radii": 5,
+    "shadows": 5,
+    "families": [
+     "Fraunces",
+     "ui-monospace",
+     "Georgia",
+     "system-ui"
+    ],
+    "colors": 16
+   },
+   "motion": null,
+   "pixels": {
+    "hues": [
+     2,
+     3,
+     3,
+     3,
+     3,
+     3,
+     3,
+     3,
+     3,
+     3,
+     3,
+     3,
+     3
+    ],
+    "empty": [
+     0.76,
+     0.68,
+     0.69,
+     0.73,
+     0.71,
+     0.69,
+     0.68,
+     0.7,
+     0.67,
+     0.66,
+     0.74,
+     0.74,
+     0.74
+    ],
+    "focal": [
+     0.64,
+     0.54,
+     0.53,
+     0.56,
+     0.55,
+     0.55,
+     0.51,
+     0.51,
+     0.51,
+     0.49,
+     0.57,
+     0.51,
+     0.51
+    ],
+    "sizes": [],
+    "sync": [
+     0,
+     0,
+     0
+    ],
+    "contact": "design/scale-v5/r1/cover/desktop-dark/contact.jpg"
+   },
+   "problems": [
+    [
+     "WARN",
+     "4 font families in use: Fraunces, ui-monospace, Georgia, system-ui (rule: max 2)"
+    ],
+    [
+     "WARN",
+     "16 distinct text colours (aim <= 6)"
+    ],
+    [
+     "WARN",
+     "6 screens are > 70% empty (dead-space risk; intentional silence or unfinished?)"
+    ]
+   ]
+  }
+ }
+}
