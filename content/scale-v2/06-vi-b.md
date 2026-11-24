@@ -59,7 +59,7 @@ A careful couples counsellor sees each partner alone before working with both, a
 
 ### The diagnosis from a distance
 
-The internet will diagnose your partner for free, in under a minute, with background music. A woman in a ring light lists eleven signs of a covert narcissist. He has nine. So does your dentist. A chatbot reads three of his texts, pasted in with your commentary, and finds "a pattern consistent with narcissistic abuse." It has never met him. It has never met anyone.
+The internet will diagnose your partner for free, in under a minute, with background music. A woman in a ring light lists eleven signs of a covert narcissist. He has nine. So does your postman. A chatbot reads three of his texts, pasted in with your commentary, and finds "a pattern consistent with narcissistic abuse." It has never met him. It has never met anyone.
 
 Psychiatry has a rule about the famous version of this. In 1973 the American Psychiatric Association wrote into its ethics code that psychiatrists shouldn't give a professional opinion about a public figure they haven't examined. It's called the Goldwater Rule, and psychiatrists still argue about where its edges are. The principle underneath is the job sheet. No examination, no finding.
 
@@ -266,9 +266,9 @@ Before you look: is each one holding the torch, swinging it, or switching it off
 ::: scene
 *LABEL*
 
-Saskia mentions it over noodles, as if it were nothing. Tobias "does the budget," so she texts him a photo of every receipt.
+Saskia mentions it over noodles, as if it were nothing. Anders "does the budget," so she texts him a photo of every receipt.
 
-Esperanza has disliked Tobias since he explained her own job to her at a wedding. The speech is ready in her mouth. She swallows it.
+Esperanza has disliked Anders since he explained her own job to her at a wedding. The speech is ready in her mouth. She swallows it.
 
 "What happens if you don't send one?"
 
@@ -608,7 +608,7 @@ Because the verdict is still out there doing its job. You told nine people your 
 The most common one. Same volume as the original: a verdict delivered in the group chat gets corrected in the group chat, and a verdict told to your dad over Sunday lunch gets corrected to your dad.
 
 ::: script To the people who heard it
-**You:** A while ago I told you Ana was cold and only with Tom for his money. I was wrong. I've got to know her, she's shy and works nights, and I was unfair. I didn't want that hanging around.
+**You:** A while ago I told you Ana was cold and only with Gareth for his money. I was wrong. I've got to know her, she's shy and works nights, and I was unfair. I didn't want that hanging around.
 **If they say:** Ha, I did wonder.
 **You:** Fair. Anyway, that's the update.
 **If they say:** Are you sure? You were really convinced.
@@ -634,7 +634,7 @@ Short is kinder here as well. They don't need the full account of how bad it got
 Sometimes the update runs the other way. You raised a worry, people said you were overreacting, you half believed them, and now it's confirmed. The temptation is a victory lap. Don't take one. Say what's changed, and put the attention where it belongs.
 
 ::: script When the worry turned out to be true
-**You:** I said last spring I was worried about how Uncle Rob treats Aunt Jen. Some of you thought I was overreacting. She's left him, and she's told me some of what happened. I'm not saying this to be right. I'm saying it because she'll need people, and I'd like us to be those people.
+**You:** I said last spring I was worried about how Uncle Martin treats Aunt Jen. Some of you thought I was overreacting. She's left him, and she's told me some of what happened. I'm not saying this to be right. I'm saying it because she'll need people, and I'd like us to be those people.
 :::
 
 ### "I've changed my mind about staying, or going"
@@ -666,9 +666,9 @@ Take it. You can say thank you without saying it didn't hurt, and you don't have
 Before you look: would each one get everyone to the right platform?
 
 ::: sort
-- In the group chat: "Update: I was wrong about Sam. He's not a cheat, the receipts were his brother's. Sorry, all." || Yes. Same place as the verdict, old and new, done.
-- "I was wrong about Sam, but honestly, can you blame me after how he acted at Christmas?" || No. The "but" reboards the old train.
-- A three-page message about your trust issues, your childhood and your ex, ending "so yes, I was wrong about Sam." || Too long. The update is buried under the signalling fault.
+- In the group chat: "Update: I was wrong about Josh. He's not a cheat, the receipts were his brother's. Sorry, all." || Yes. Same place as the verdict, old and new, done.
+- "I was wrong about Josh, but honestly, can you blame me after how he acted at Christmas?" || No. The "but" reboards the old train.
+- A three-page message about your trust issues, your childhood and your ex, ending "so yes, I was wrong about Josh." || Too long. The update is buried under the signalling fault.
 - Telling one close friend you were wrong, when you'd originally told twelve. || Too quiet. Eleven people are still on the wrong platform.
 - To the friend who warned you: "You were right. I'm sorry I went quiet on you." || Yes. Two sentences, and they stop wondering.
 - "As I always said, she was trouble." || No. That's a victory lap, with a rewrite of what you always said.
