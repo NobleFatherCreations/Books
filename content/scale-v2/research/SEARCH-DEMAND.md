@@ -5,12 +5,12 @@ Sources: Ubersuggest google_suggestions (8 seeds, US; raw file next to this one)
 ## Clusters worth a chapter heading or an FAQ answer
 | Cluster | Real phrasings people type | Where it lands in the book |
 |---|---|---|
-| Am I the problem | am i the toxic one in the relationship / or the victim / at work / in my family; how do i know if i'm being toxic | am-i-the-one-doing-it, is-it-you-or-is-it-everyone |
-| Gut vs anxiety | trusting your gut vs anxiety; trust your gut or anxiety; when you have ocd; should you trust your gut feeling about someone / about cheating | the-gut-sensor-or-smoke-alarm, the-state-youre-judging-from |
+| Am I the problem | am i the toxic one in the relationship / or the victim / at work / in my family; how do i know if i'm being toxic | am-i-the-one-doing-it, when-you-both-say-victim |
+| Gut vs anxiety | trusting your gut vs anxiety; trust your gut or anxiety; when you have ocd; should you trust your gut feeling about someone / about cheating | gut-feeling-or-anxiety, the-gut-sensor-or-smoke-alarm |
 | Manipulation or me | is it me or am i being manipulated; is it anxiety or manipulation; is it mental illness or manipulation; is it paranoia if you're right | certainty-is-the-tell, the-discipline-of-three-explanations |
-| Overreacting | how do i know if i am overreacting; am i overreacting in a relationship / at work / about my parents / by stepping back from my parents | the-gradient, one-thing-is-not-a-pattern |
-| Red flag or normal | red flag or not; red flag vs dealbreaker; red flag vs flaw; what is considered a red flag | difference-is-not-malice, the-boring-explanations |
-| Lying | how to tell if someone is lying over text / through text / when you ask a question; lying about cheating / about trauma | what-is-evidence (and the honest answer: tells don't work, base rates do) |
+| Overreacting | how do i know if i am overreacting; am i overreacting in a relationship / at work / about my parents / by stepping back from my parents | when-people-say-youre-overreacting, the-gradient |
+| Red flag or normal | red flag or not; red flag vs dealbreaker; red flag vs flaw; what is considered a red flag | red-flag-flaw-or-dealbreaker, the-gradient |
+| Lying | how to tell if someone is lying over text / through text / when you ask a question; lying about cheating / about trauma | can-you-tell-when-someone-is-lying, reading-a-text-message |
 | Second-guessing | why am i second guessing everything; how to stop second guessing myself | scoring-your-own-past-calls, being-wrong-well |
 
 ## Notes for the writing pass

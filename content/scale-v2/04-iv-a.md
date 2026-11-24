@@ -2,7 +2,7 @@
 title: Before you test: is testing safe?
 question: Is it safe to test whether someone is controlling me?
 seo: Is it safe to test a controlling partner? Check first
-short: Some tests in this book add friction on purpose, such as naming a behaviour or refusing something small. With a dangerous person, that friction is the risk. Before any test, check four things: violence or threats, what happened last time you refused, what they control, and physical fear. If any one applies, don't test. Get help instead.
+short: Some tests in this book add friction on purpose. With a dangerous person, that friction is the risk. Before any test, run the safety gate: violence or threats, punished refusals, what they control, being cut off from help, physical fear, a child at risk, nowhere safe to go. One yes means don't test.
 ---
 Stop here before you run any test in this part of the book. Answer these honestly, and quickly. This is not an exercise in being fair to them.
 
@@ -132,13 +132,16 @@ If every line of the gate is clear, three rules keep the tests proportionate.
 
 ## Say the gate without looking
 
-Cover the top of this page. Before any test, the gate asks about four things. Can you name them?
+Cover the top of this page. Before any test, the gate asks about seven things. How many can you name?
 
 ::: sort
 - First: has there been… || Violence, or a threat of it, towards anyone, including pets, property, or themselves as leverage.
 - Second: what happened when you… || Last refused them something. What actually happened, not what you imagine.
 - Third: what do they… || Control: home, money, job, visa, children, community.
-- Fourth: what does your body do when… || You picture naming something to them. Physical fear is the finding.
+- Fourth: are they cutting you… || Off from help, or making leaving hard or dangerous.
+- Fifth: what does your body do when… || You picture naming something to them. Physical fear is the finding.
+- Sixth: is a child… || At risk. Any worry about a child's safety counts.
+- Seventh: if it went badly tonight… || Would you have somewhere safe to go?
 - And if any answer is yes? || Don't test. Leave or get help.
 :::
 
