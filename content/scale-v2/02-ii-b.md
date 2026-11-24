@@ -150,7 +150,7 @@ Picture the album. Every photo from those years, in order. The holiday, the flat
 
 Then something comes out. A confession, a document, a diagnosis, a pattern you finally see. And overnight someone goes through the whole album with a red pen and rewrites every caption.
 
-"Crete, 2018" becomes "Crete, 2018 (he was texting her from the pool)." The birthday becomes maintenance. The good year becomes a lull. The photo you loved is now unbearable, because you can see what he was doing with his hand. By morning even the dog looks complicit.
+"Crete, 2018" becomes "Crete, 2018 (he was texting her from the pool)." The birthday becomes maintenance. The good year becomes a lull. The photo you loved is now unbearable, because you can see what he was doing with his hand. By morning even the boiler looks like an accomplice.
 
 Some of that red pen is accurate and necessary. Some of it is one of the most destructive things this library can set off, and almost nobody warns you about it.
 
@@ -300,7 +300,7 @@ No ticks: you're cleared to weigh. One or two: weigh, and hold the result loosel
 No verdicts at 2am.
 :::
 
-Night-time thinking isn't worthless. It's darker, and it arrives with the same certainty as daylight thinking, which is the dangerous combination. Your brain at 2am is a true-crime podcast with no editor and no ad breaks.
+Night-time thinking isn't worthless. It's darker, and it arrives with the same certainty as daylight thinking, which is the dangerous combination. Your brain at 2am is a rolling news channel with one story and no fact-checkers.
 
 Anything genuinely urgent at 2am is a safety matter, and safety doesn't need a verdict. It needs an exit. If you're in danger, go straight to [When weighing stops](ch:when-weighing-stops).
 
@@ -316,7 +316,7 @@ A 2010 study from the same lab, led by Els van der Helm, found that sleep-depriv
 
 ### Eaten?
 
-Unglamorous, and real. In a 2019 study, Jennifer MacCormack and Kristen Lindquist found that hungry people rated ambiguous images more negatively, mainly when they'd just seen something unpleasant. Hunger didn't create a bad mood out of nothing. It soured a moment that was already tense. Hungry you reads "ok" as a declaration of war.
+Unglamorous, and real. In a 2019 study, Jennifer MacCormack and Kristen Lindquist found that hungry people rated ambiguous images more negatively, but only when they'd just seen something unpleasant. Hunger didn't create a bad mood out of nothing. It soured a moment that was already tense. Hungry you reads "ok" as a declaration of war.
 
 ### Frightened?
 
@@ -396,7 +396,7 @@ If you can't sleep since leaving someone, and the nights are where everything ge
 :::
 
 ::: try Try a verdict curfew tonight
-Set a phone reminder for 11pm that says "Write it down. Decide at 11am." When it goes off, anything you're chewing on about a person goes into one note, in one line, and the phone goes across the room. Tomorrow at eleven, read the note. If it's still true, act on it. If it reads like a 2am podcast, delete it.
+Set a phone reminder for 11pm that says "Write it down. Decide at 11am." When it goes off, anything you're chewing on about a person goes into one note, in one line, and the phone goes across the room. Tomorrow at eleven, read the note. If it's still true, act on it. If it reads like 2am wrote it, delete it.
 :::
 
 The checklist tells you when the instrument is off. Some people's instrument was never set right in the first place, because they never saw a healthy relationship up close, and [The reference sample](ch:the-reference-sample) gives you one to measure against.
