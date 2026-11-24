@@ -1,18 +1,16 @@
 === grief-in-the-costume-of-analysis
 title: Grief in the costume of analysis
 question: Why can't I stop analysing what happened, even though I already know?
-seo: Can't stop analysing what happened? It may be grief
-short: If you can't stop thinking about what happened even though you understand it, the investigation may be doing a second job: holding a loss at arm's length. Analysis feels productive and grief doesn't, so the mind swaps one for the other. The tell is a case that doesn't want to close. Investigation that never reaches a verdict is grief.
+seo: Can't stop thinking about what happened? It may be grief
+short: If you can't stop thinking about what happened even though you understand it, the investigation may be doing a second job: holding a loss at arm's length. Analysis feels productive and grief doesn't, so the mind swaps one for the other. The tell is a case that never closes and doesn't want to.
 ---
 Somewhere in your phone is a folder called "proof," or "receipts," or, if you were being careful, "receipts 2." You know the timeline by heart. You have zoomed in on a photo from 2019 until it turned into squares. You know his ex's dog's name. You have never met his ex. You have possibly never met the dog.
 
 You worked out what happened months ago. And every night you're still building the wall: printouts, dates, red string from the lie in March to the lie in June, one new pin before bed.
 
-This chapter is about that wall, and what it's holding up.
+## Why can't I stop thinking about what happened?
 
-## Why can't I stop analysing what happened?
-
-Often because the analysis is protecting you from something worse, which is the loss. Investigating feels active and useful. Grief feels like falling. So the mind keeps the case open, because an open case means you never have to feel that it's over. If you already know what happened and still can't stop, suspect grief.
+Often because the thinking is protecting you from the loss. Investigating feels active and useful. Grief feels like falling. So the mind keeps the case open, because an open case means you never have to feel that it's over. If you already know what happened and still can't stop, suspect grief.
 
 ## The swap
 
@@ -20,12 +18,12 @@ Something ended, or was revealed, or turned out never to have been what you thou
 
 Grief can't be survived in large pieces. Analysis can. So the mind offers a brilliant substitution: instead of feeling the loss, *build the case*. Reread the messages. Rebuild the timeline. Find the tell in the 2019 photo. Learn the vocabulary. Name the tactics. Explain it, completely, until it makes sense.
 
-And it works. Analysis is absorbing, it feels productive, it gives you the sensation of progress, and **it postpones the feeling indefinitely.** You cannot grieve something you are still investigating.
+And it works. Analysis is absorbing and it feels like progress, and **it postpones the feeling indefinitely.** You cannot grieve something you are still investigating. It's very hard to cry while cross-referencing a bank statement, which is partly why people cross-reference bank statements at midnight.
 
 Grief researchers have a name for a version of this. In 2007, Margaret Stroebe and colleagues proposed that rumination after a death, going over and over why it happened and what it means, can work as avoidance: a way of not facing the painful reality of the loss. Their work is about bereavement. The shape fits any loss where the mind prefers *why* to *gone*.
 
-::: handle
-Investigation that never reaches a verdict is grief.
+::: ask
+Ask yourself: if I found the missing piece tonight, what would change tomorrow?
 :::
 
 A real investigation wants to finish. This one would be ruined by finishing, because a conclusion would end the activity that's keeping the grief out.
@@ -48,22 +46,20 @@ I'm not going anywhere. You can visit me whenever there's a real reason. But I'm
 The case
 :::
 
-The letter's last line is the point of this chapter. The wall is doing a job, and it's the wrong tool for that job.
-
 ## Am I grieving or still figuring it out?
 
-You can't tell by the amount of analysis. Real situations need real analysis, and some people need eight months or more to understand what was done to them. Tell by what the analysis *does*. Tick what's true.
+You can't tell by the amount of analysis. Real situations need real analysis, and some people need many months to understand what was done to them. Tell by what the analysis *does*: whether it moves you toward a conclusion or keeps one away. Tick what's true.
 
 ::: check The tells
 ☐ New evidence only ever adds. Nothing counts the other way, and nothing is enough.
 ☐ You reached your verdict long ago, and the investigating hasn't slowed down.
 ☐ Stopping feels like betrayal, as if closing the case would mean it didn't happen.
-☐ There's a flatness under it. You're running warm and feeling nothing.
+☐ You're busy all evening and numb underneath.
 ☐ You can explain it all, but can't say "I lost something" without adding evidence.
 ☐ It happens mostly at night, alone, long after you meant to stop.
 :::
 
-Two or more ticks and the wall is probably doing a second job. That last one gets its own chapter: [The state you're judging from](ch:the-state-youre-judging-from).
+Two or more ticks and the wall is probably doing a second job. The last one gets its own chapter: [The state you're judging from](ch:the-state-youre-judging-from).
 
 ## When the investigating is the right job
 
@@ -77,19 +73,19 @@ If the person you're investigating tells you you're "obsessed" or "just grieving
 
 ## Why a grieving mind can't weigh
 
-A mind in this state can't calibrate, and it hears every attempt at calibration as an attack.
+A mind in this state can't weigh evidence, and it hears every attempt at weighing as an attack.
 
-Ask someone in case mode to consider an alternative explanation and it doesn't land as fairness. It lands as *you're trying to take this from me*. They're half right. The case is doing a job nothing else is doing.
+Ask someone in case mode to consider another explanation and what they hear is *you're trying to take this from me*. They're half right. The case is doing a job nothing else is doing.
 
 [The discipline of three explanations](ch:the-discipline-of-three-explanations) will later ask you to come up with three explanations for anything that worries you. That drill is close to impossible while the case is holding up the roof. If you try it and your mind flatly refuses to produce a neutral reading, this chapter is probably why.
 
-## What to do, said carefully
+## What to do instead
 
 "Stop analysing" is useless advice. You'd be pulling a wall out from under something heavy.
 
 Put something else under the loss first. Grief needs a real container: a person who will sit with it, a therapist, a ritual, one evening a week when you deliberately don't open the folder. The analysis loosens on its own once it isn't the only thing standing between you and the loss.
 
-You don't have to swing to the other extreme, either.
+You don't have to stare at the loss all day instead.
 
 Margaret Stroebe and Henk Schut's dual process model describes healthy grieving as a back-and-forth. People face the loss, then turn away from it toward ordinary life, work and new things, then face it again. Turning away is part of coping, in doses. The trouble starts when one mode is the only mode, and for the person at the wall, the case has become the turning away.
 
@@ -98,9 +94,9 @@ Margaret Stroebe and Henk Schut's dual process model describes healthy grieving 
 ::: scene
 *Made up, but you've met these people.*
 
-Grace found Daniel's second phone in February. Two years of a second relationship, confirmed by him, by the other woman and by a bank statement. Grace left in April.
+September. Grace's spreadsheet has four tabs: Timeline, Lies, Locations, Questions. The Questions tab has 212 rows. She added three tonight.
 
-By September she has a spreadsheet with four tabs: Timeline, Lies, Locations, Questions. The Questions tab has 212 rows.
+She left Daniel in April. In February she'd found his second phone: two years of a second relationship, confirmed by him, by the other woman and by a bank statement. He lied to her for two years, on purpose. Nobody, Daniel included, disputes a word of it.
 
 Her friend Suki asks what she's hoping to find. "The whole picture," Grace says. Suki asks what would change if she found it. Grace opens her mouth and nothing comes out.
 
@@ -110,7 +106,7 @@ She closes the laptop and says the sentence out loud in her kitchen. "I was marr
 
 Then she cries, properly, for the first time since April.
 
-Daniel lied to her for two years, on purpose. That was settled in February. Since then the spreadsheet had been doing a different job. She doesn't delete it. She stops adding rows, and on Sunday she rings her sister instead.
+She doesn't delete the spreadsheet. She stops adding rows, and on Sunday she rings her sister instead.
 :::
 
 ## Say it back
@@ -118,11 +114,12 @@ Daniel lied to her for two years, on purpose. That was settled in February. Sinc
 Cover the page and answer before you tap.
 
 ::: sort
-- The tell, in one line? || An investigation that never reaches a verdict, and doesn't want to.
-- Why does analysis win the swap? || It's absorbing, it feels like progress, and it postpones the feeling indefinitely.
 - What does new evidence do in a grieving case? || It only ever adds. Nothing counts the other way, and nothing is enough.
+- You already know what happened, and you're still opening the folder every night. What do you ask yourself? || If I found the missing piece tonight, what would change tomorrow?
 - Why doesn't "just stop analysing" work? || The analysis is holding something up. Put something else under the loss first.
+- The tell, in one line? || A case that never reaches a verdict, and doesn't want to.
 - When is investigating the right job? || When the record has a use outside your head: safety, police, a court.
+- Why does analysis win the swap? || It feels like progress, and it postpones the feeling indefinitely.
 :::
 
 ::: bridge longafter:the-grief-nobody-will-let-you-have
@@ -130,7 +127,7 @@ If what's under the wall is grief for someone who hurt you, and nobody around yo
 :::
 
 ::: try Try it once, today
-Say the sentence underneath the case out loud, in whatever form is true. *I lost something.* *I loved them and it wasn't what I thought.* *I gave that place twenty years.* Notice whether the urge to explain, qualify or add evidence arrives within seconds. That urge is the swap happening. Watching it is the whole exercise, and you don't have to do anything else about it today.
+Say the sentence underneath the case out loud, in whatever form is true. *I lost something.* *I loved them and it wasn't what I thought.* *I gave that place twenty years.* Notice whether the urge to explain or add evidence arrives within seconds. That urge is the swap happening. Watching it is the whole exercise, and you don't have to do anything else about it today.
 :::
 
 None of this makes what happened smaller. The harm can be entirely real and the analysis can still be doing a second job. Usually both are true at once. A revelation does one more strange thing to the past, which is rewrite every memory overnight, and [The retrospective rewrite](ch:the-retrospective-rewrite) shows you how to check which rewrites were right.
@@ -152,10 +149,12 @@ Then something comes out. A confession, a document, a diagnosis, a pattern you f
 
 "Crete, 2018" becomes "Crete, 2018 (he was texting her from the pool)." The birthday becomes maintenance. The good year becomes a lull. The photo you loved is now unbearable, because you can see what he was doing with his hand. By morning even the boiler looks like an accomplice.
 
-Some of that red pen is accurate and necessary. Some of it is one of the most destructive things this library can set off, and almost nobody warns you about it.
+If you've scrolled back through four years of photos at 3am, zooming in to check whether he looked guilty at a barbecue, you've met the pen.
+
+Some of what it writes is accurate and necessary. Some of it quietly takes things it had no right to, and almost nobody warns you about that part.
 
 ::: aside
-This is a cousin of [Grief in the costume of analysis](ch:grief-in-the-costume-of-analysis), with a different job. That chapter was about a case that never closes. This one is about a past that gets rewritten all at once.
+This is a cousin of [Grief in the costume of analysis](ch:grief-in-the-costume-of-analysis). That chapter was about a case that never closes. This one is about a past that gets rewritten all at once.
 :::
 
 ## Was the whole relationship a lie?
@@ -164,7 +163,7 @@ Probably not all of it, and you don't have to decide in one go. Concealment mean
 
 ## Why every caption changes at once
 
-The mind can't hold two incompatible readings of a long shared history. So it picks one and applies it backwards to everything. It's fast, involuntary and total. It doesn't sort memory by memory. It flips the whole album.
+The mind struggles to hold two incompatible readings of a long shared history. So it picks one and applies it backwards to everything, fast and without asking you. It doesn't sort memory by memory. It flips the whole album.
 
 And it feels like discovery. The rewritten past doesn't arrive labelled as an interpretation. It arrives as *what was really going on the whole time*, and the old captions arrive as proof you were naive. The red pen has the editorial standards of a tabloid: one confirmed fact and the whole decade gets a headline.
 
@@ -172,9 +171,9 @@ Part of this is [hindsight bias](ch:the-biases-in-everyone), which makes outcome
 
 ## What the red pen gets right
 
-A great deal. Concealment means your original captions were written with missing information. Correcting them is finally having the data. If someone ran a deception for a decade, then the decade contained the deception, and rereading it that way is accuracy.
+A great deal. Concealment means your original captions were written with missing information. Correcting them is catching up on the facts. If someone ran a deception for a decade, then the decade contained the deception, and rereading it that way is accuracy.
 
-So this chapter isn't telling you your revision is wrong. The revision has a *reach*, and by default the mind applies it far beyond that reach.
+Your revision is right as far as it reaches. The trouble is that the mind, left to itself, applies it far beyond that reach.
 
 ## What the total overwrite costs
 
@@ -186,7 +185,7 @@ A person can hide something enormous and still have laughed with you, properly, 
 When the overwrite erases them, you lose twice: once to what was done, and once to **the twenty years you are no longer allowed to have had.**
 :::
 
-People describe it precisely: *it took my whole past*. It's one of the most under-treated injuries in recovery.
+People describe it precisely: *it took my whole past*.
 
 ## Were the good times real?
 
@@ -194,7 +193,7 @@ Some of them, very likely. A person who lied about one thing wasn't necessarily 
 
 ## Three captions
 
-So here's the discipline. Revise by evidence rather than by mood, one photo at a time. Each memory gets one of three captions.
+So here's the discipline. Revise by evidence, one photo at a time. Each memory gets one of three captions.
 
 - **Still true.** The new fact doesn't reach this moment. It happened the way you remember.
 - **Needs revising.** The new fact lands right on it. Rewrite the caption, and be exact about which part changes.
@@ -202,8 +201,8 @@ So here's the discipline. Revise by evidence rather than by mood, one photo at a
 
 The question for every photo is the same: *which parts does this new fact actually reach?* "Was it all a lie?" is a question about the whole album, and the album can't answer it.
 
-::: handle
-Revise memory by memory, not all at once.
+::: ask
+Ask yourself: which part of this memory does the new fact actually touch?
 :::
 
 ## The album on the kitchen table
@@ -211,17 +210,17 @@ Revise memory by memory, not all at once.
 ::: scene
 *Made up, but you've met these people.*
 
-Marta finds out that Ian has £40,000 of gambling debt, and has lied about it for four years, including a loan against the house. The red pen starts that night.
+Two days after the letter from the bank, Marta has three photos on the kitchen table and a rule: three photos tonight, and the album stays shut.
 
-Two days later she makes herself do three photos, not the album.
+The letter said forty thousand in gambling debt, and a loan against the house. Ian had kept it from her for four years. That part of the red pen is accurate, and she's keeping it.
 
-Their daughter's first birthday, six years ago, before any of it started. The new fact doesn't reach it. *Still true.*
+The first is their daughter's first birthday, six years ago, before any of it started. The new fact doesn't reach it. *Still true.*
 
-The "surprise" Lisbon weekend, three years ago, that he said he'd saved up for months to pay for. He hadn't. It went on a loan she didn't know about. *Needs revising*, and she's exact about it: the trip happened, and the saving didn't.
+The second is the "surprise" Lisbon weekend, three years ago, that he said he'd saved for months to pay for. He hadn't. It went on the loan. *Needs revising*, and she's exact about it: the trip happened, and the saving didn't.
 
-Ian holding her hand at the hospital scan last spring. Was he thinking about the debt? Was he scared? She has no way of knowing. *Can't know.* The caption stays "He held my hand."
+The third is Ian holding her hand at the hospital scan last spring. Was he thinking about the debt? Was he scared? She has no way of knowing. *Can't know.* The caption stays "He held my hand."
 
-Ian lied to her for four years. That part of the rewrite is accurate, and she's keeping it. She's also keeping the birthday.
+She puts the birthday photo back on the fridge, under the magnet from Lisbon.
 :::
 
 ## The rewrite runs the other way, too
@@ -242,14 +241,15 @@ The person who did the harm will often have opinions about your album.
 
 ## Caption these
 
-Six memories from six different albums. Give each one a caption before you tap.
+Seven memories from seven different albums. Give each one a caption before you tap.
 
 ::: sort
-- She was lovely to you on the Crete holiday. The affair started two years later. || Still true. The new fact doesn't reach a holiday two years before it began.
-- He worked late every Thursday that year. The affair was on Thursdays. || Needs revising. The new fact lands right on it.
 - He cried at your dad's funeral. || Can't know, most likely. Nothing you've learned reaches it, and nothing will settle it. Leave it unsorted.
-- The church paid your mum's rent when she was ill. Its leaders hid abuse for years. || Still true. An institution can hide harm and still have paid the rent. Both go in the album.
+- She was lovely to you on the Crete holiday. The affair started two years later. || Still true. The new fact doesn't reach a holiday two years before it began.
 - He said he'd never been happier, the week you got engaged. He was seeing someone else at the time. || Needs revising, and partly can't know. You know what he was hiding. You can't know what he felt.
+- It's 3am, the truth came out yesterday, and you're recaptioning a whole decade. What do you ask yourself? || Which part of this memory does the new fact actually touch? Then do one photo, not the album.
+- The church paid your mum's rent when she was ill. Its leaders hid abuse for years. || Still true. An institution can hide harm and still have paid the rent. Both go in the album.
+- He worked late every Thursday that year. The affair was on Thursdays. || Needs revising. The new fact lands right on it.
 - You both laughed until you cried when the ferry left without you. || Still true. Your laugh was yours, whatever his was doing.
 :::
 
@@ -258,16 +258,16 @@ If the rewrite has left you doubting your memory itself, asking whether you're m
 :::
 
 ::: try Try three photos
-Open your camera roll and pick three photos from the years in question. Not eras, single moments. Under each one, in your notes app, write one caption: still true, needs revising, or can't know. Stop at three. The point is to break the reflex of rewriting everything at once, not to relitigate your life tonight.
+Open your camera roll and pick three photos from the years in question: single moments, like one dinner or one car journey. Under each one, in your notes app, write one caption: still true, needs revising, or can't know. Stop at three. Three is enough to break the rewrite-everything reflex, and the rest of your life can wait until you've slept.
 :::
 
-The finished position sounds like this, and it's open to you: *That person did real harm, and that Tuesday was genuinely good.* Neither half weakens the other. If the rewriting mostly happens in the small hours, the problem may be the hour as much as the album, and [The state you're judging from](ch:the-state-youre-judging-from) is the checklist for that.
+The finished position sounds like this: *That person did real harm, and that Tuesday was genuinely good.* Neither half weakens the other. If the rewriting mostly happens in the small hours, the problem may be the hour as much as the album, and [The state you're judging from](ch:the-state-youre-judging-from) is the checklist for that.
 
 === the-state-youre-judging-from
 title: The state you’re judging from
 question: Why does everything about them seem worse at night, or when I'm exhausted?
 seo: Why does everything feel worse at night? Judging tired
-short: Everything feels worse at night because judgment is done by a body, and its state does change the result. Sleep loss, hunger, fear, isolation and hours of scrolling all push readings toward threat while feeling just as certain. Run a six-line check before any verdict. If one person reliably leaves you exhausted or cut off, that's data about them.
+short: Everything feels worse at night because judgement is done by a body, and its state changes the result. Sleep loss, hunger, fear, isolation and hours of scrolling all push readings toward threat while feeling just as certain. Run a six-line check before any verdict. If one person reliably leaves you exhausted or cut off, that's data about them.
 ---
 Quick check before you read on. When did you last eat, and what time is it?
 
@@ -275,7 +275,7 @@ If the answers are "lunch, yesterday" and "2.14am," this chapter is for you, rig
 
 Pilots with thirty years in the seat still run a pre-flight checklist before every flight. They know how planes work. They run it anyway, because the checklist never asks whether they feel ready. Feeling ready is the thing a tired pilot is worst at judging.
 
-Your judgment works the same way. A tired, hungry, frightened brain that's six hours into a thread at one in the morning is a different instrument from the one you'll have at eleven tomorrow. It will feel exactly as confident.
+Your judgement works the same way. A tired, hungry, frightened brain that's six hours into a thread at one in the morning is a different instrument from the one you'll have at eleven tomorrow. It will feel exactly as confident.
 
 ## Why does everything feel worse at night?
 
@@ -290,17 +290,17 @@ Before you reach any conclusion about a person, run this. It takes fifteen secon
 ☐ I haven't eaten in a while.
 ☐ I'm frightened, of them, of losing them, or of being wrong.
 ☐ I haven't said any of this out loud to someone who would push back.
-☐ I've been reading, scrolling or rereading about this for more than about forty minutes.
+☐ I've been reading, scrolling or rereading about this for more than forty minutes.
 ☐ It's late at night.
 :::
 
-No ticks: you're cleared to weigh. One or two: weigh, and hold the result loosely. Three or more: you're cleared to write things down, not to decide anything.
+No ticks: you're cleared to weigh. One or two: weigh, and hold the result loosely. Three or more: you're cleared to write things down. Deciding waits for daylight.
 
-::: handle
-No verdicts at 2am.
+::: ask
+Ask yourself: would I let a friend in this exact state decide anything tonight?
 :::
 
-Night-time thinking isn't worthless. It's darker, and it arrives with the same certainty as daylight thinking, which is the dangerous combination. Your brain at 2am is a rolling news channel with one story and no fact-checkers.
+Night-time thinking still carries information. It's darker, though, and it arrives with the same certainty as daylight thinking, which is the dangerous combination. Your brain at 2am is a rolling news channel with one story and no fact-checkers.
 
 Anything genuinely urgent at 2am is a safety matter, and safety doesn't need a verdict. It needs an exit. If you're in danger, go straight to [When weighing stops](ch:when-weighing-stops).
 
@@ -320,7 +320,7 @@ Unglamorous, and real. In a 2019 study, Jennifer MacCormack and Kristen Lindquis
 
 ### Frightened?
 
-Fear does more than colour judgment. It completes patterns from partial information, and that's the exact failure this book is about. A frightened brain sees two dots and draws the whole picture, because in real danger, waiting for the third dot is what gets people hurt.
+Fear does more than colour judgement. It completes patterns from partial information, and that's the exact failure this book is about. A frightened brain sees two dots and draws the whole picture, because in real danger, waiting for the third dot is what gets people hurt.
 
 That's why fear gets a line here and also gets the final say elsewhere. If the fear is about your safety, stop weighing and act. If it's fear of losing them or of being wrong, it bends your reading, so wait.
 
@@ -334,42 +334,38 @@ Reading old messages, scrolling their profile, rereading the thread. My rough li
 
 ### What time is it?
 
-See the handle. Write it down, put the phone across the room, and decide tomorrow at eleven. If it's still true at eleven, it'll still be true.
+After midnight, no verdicts. Write it down, put the phone across the room, and decide tomorrow at eleven. If it was true at 2am, it'll survive until eleven.
 
 ## Isolation, specifically
 
 Other people are the correction. They don't have to be wiser than you. Saying a conclusion out loud to someone outside your head forces it through language, and a surprising number of certainties don't survive the trip. You've had it happen: you start explaining, and halfway through you hear it.
 
-Take that away and judgment runs in a closed loop. Every pass raises your confidence and none of them raises your accuracy. This is exactly why manipulators and recruitment pipelines both work to cut people off. A lone person is easier to influence, and a lone person also **loses the mechanism that would have caught it.** The Decoder has the full page on [isolation](/playbook/isolation).
+Take that away and judgement runs in a closed loop. Every pass raises your confidence and none of them raises your accuracy. This is exactly why controlling partners and cults both work to cut people off. A lone person is easier to influence, and a lone person also **loses the mechanism that would have caught it.** The Decoder has the full page on [isolation](/playbook/isolation).
 
 ## The reverse reading
 
-This chapter also runs backwards, and then it stops being about your reliability and turns into a finding.
+Run the check backwards and it stops measuring you. It starts measuring someone else.
 
-If a specific person or place reliably leaves you sleepless, unfed, frightened or cut off, that isn't background to your judgment. **That's data about them.**
+If a specific person or place reliably leaves you sleepless, unfed, frightened or cut off, the ticks have a source. **That's data about them.**
 
 Compare "I'm exhausted this month because of work" with "I'm exhausted every time I spend a weekend there." The first is a reason to postpone your conclusions. The second is the beginning of a conclusion, and it belongs in [One thing is not a pattern](ch:one-thing-is-not-a-pattern), where you check how often, how long and whether it's getting worse.
-
-The six lines that tell you when to distrust your reading also tell you, over time, exactly where to look.
 
 ## The Sunday notes
 
 ::: scene
 *Made up, but you've met these people.*
 
-Every Sunday, Leah comes home from Marcus's flat feeling like she's done something wrong. She can't say what.
+Every Sunday, Marcus comes home from Leah's flat feeling like he's done something wrong. He can't say what.
 
-She starts running the checklist on Sunday mornings, in his bathroom, on her phone. Slept: four hours, three weekends running. Alone with it: she hasn't told anyone. How long: the "talks" start around midnight and end near three.
+He starts running the checklist on Sunday mornings, in her bathroom, on his phone. Slept: four hours, three weekends running. Alone with it: he hasn't told anyone. How long: the "talks" start around midnight and end near three.
 
-The talks are always about her. A look she gave his friend. Why she's "gone distant." By 3am she's apologising for things she can't name.
+The talks are always about him. A look he gave her friend. Why he's "gone distant." By 3am he's apologising for things he can't name.
 
-So she tells him she's happy to talk about anything, before eleven.
+So he tells her he's happy to talk about anything, before eleven.
 
-He says that's convenient. The next Saturday he starts at half past twelve anyway. When she says she's going to sleep, he follows her to the bedroom and keeps talking with the light on. On Sunday he tells her she's impossible to communicate with.
+She says that's convenient. The next Saturday she starts at twelve thirty anyway. When he says he's going to sleep, she follows him to the bedroom and keeps talking with the light on. On Sunday she tells him he's impossible to communicate with. Leah is using his exhaustion to win, and she kept going after he asked her to stop.
 
-She shows her four Sunday notes to her friend Bex. Bex reads them twice and asks how long he's been doing this.
-
-Yes, this was manipulation. Exhaustion was doing his arguing for him.
+He shows his four Sunday notes to his friend Dean. Dean reads them twice and asks how long she's been doing this.
 :::
 
 Keeping someone awake so they'll give in has a Decoder page: [sleep deprivation](/playbook/sleep-deprivation).
@@ -380,15 +376,16 @@ This checklist postpones verdicts. It never postpones protection. If someone say
 
 ## Run the check from memory
 
-Six lines, and the reason each one is there. Answer before you tap.
+Six lines, the reason each one is there, and the question to ask. Answer before you tap.
 
 ::: sort
-- Why is sleep on the list? || Sleep loss turns the brain's threat alarm up and its brake down. Ambiguous things read as hostile.
-- Why is food on the list? || Hunger sours a moment that's already tense. Hungry you reads "ok" as war.
-- Why is fear on the list? || Fear completes patterns from partial information. Unless it's about safety, then it wins and you act.
-- Why does being alone with it matter most? || Nobody outside your head to hear it out loud, so confidence climbs and accuracy doesn't.
-- How long is too long in the thread? || Roughly forty minutes. After that you're marinating, not gathering.
 - What's the reverse reading? || If one person or place reliably puts ticks on this list, that's data about them.
+- Why is food on the list? || Hunger sours a moment that's already tense. Hungry you reads "ok" as war.
+- It's 1am, you're on hour two of their profile, and you're sure. What do you ask yourself? || Would I let a friend in this exact state decide anything tonight?
+- Why does being alone with it matter most? || Nobody outside your head to hear it out loud, so confidence climbs and accuracy doesn't.
+- Why is sleep on the list? || Sleep loss turns the brain's threat alarm up and its brake down. Ambiguous things read as hostile.
+- How long is too long in the thread? || Roughly forty minutes. After that you're marinating, not gathering.
+- Why is fear on the list? || Fear completes patterns from partial information. Unless it's about safety, then it wins and you act.
 :::
 
 ::: bridge longafter:sleep
@@ -411,19 +408,19 @@ The checklist tells you when the instrument is off. Some people's instrument was
 title: The reference sample
 question: What does a healthy relationship actually look like?
 seo: What does a healthy relationship look like? A real baseline
-short: A healthy relationship does have arguments, disappointments, defensiveness and problems that never get solved. What sets it apart is the aftermath: problems can be named, repair happens, "no" is survivable, and nobody's freedom is shrinking. If your baseline came from a controlling home or relationship, borrow a better picture of what healthy looks like. Grade the aftermath, not the trouble.
+short: What does a healthy relationship look like? Messier than you'd think: arguments, disappointments, defensiveness and problems that never get solved. What sets it apart is the aftermath: problems can be named, repair happens, "no" is survivable, and nobody's freedom is shrinking. If your baseline came from a controlling home or relationship, borrow a better one.
 ---
-A kitchen scale gets checked with a test weight: a lump of metal you know is exactly one kilo. Put it on, read the number, adjust. Without the test weight, a scale can be wrong for years and look completely sure of itself.
+A kitchen scale gets checked with a test weight: a lump of metal you know is exactly one kilo. Put it on, read the number, adjust. Without the test weight, a scale can be wrong for years, and nobody notices, least of all the scale.
 
-Every judgment in this book is a weighing against something. Is this more than normal? Worse than usual? Outside the range? You can't answer any of those without a known weight to check against.
+Every judgement in this book is a weighing against something. Is this more than normal? Worse than usual? Outside the range? You can't answer any of those without a known weight to check against.
 
-Many readers of this library don't have one.
+Many readers of this library don't have one. If you grew up checking the mood in the hall before you took your coat off, that's the scale you've been weighing on ever since. Nobody told you it was off. It was the only scale in the house.
 
 ## What is a reference sample?
 
-A reference sample is your working picture of ordinary, decent relationships: how often people argue, how they make up, what normal disappointment looks like. You weigh every relationship against it, usually without noticing. If yours was built in a controlling home or relationship, it's off, and you'll misread friction and danger both.
+A reference sample is your working picture of ordinary, decent relationships: how often people argue, how they make up, what normal disappointment looks like. You weigh every relationship against it, usually without noticing. If yours was built in a controlling home or relationship, it's the wrong weight, and you'll misjudge in both directions without knowing which.
 
-If the relationships that formed you were controlling, your test weight is the wrong weight. You'll misjudge in both directions and never know which. Ordinary friction reads as danger. Ordinary danger reads as friction. Both are being measured against a weight that was never a kilo.
+Ordinary friction reads as danger. Ordinary danger reads as friction. Both are being measured against a weight that was never a kilo.
 
 So here's a baseline. It's deliberately unromantic.
 
@@ -438,13 +435,13 @@ It looks messier than most people expect. Healthy couples argue, disappoint each
 - **Myth:** Healthy couples solve their problems. / **True:** Most of their problems are permanent. They learn to live with them and keep talking about them.
 - **Myth:** In a good relationship you're never disappointed. / **True:** Forgotten things, small broken promises, someone not showing up the way you needed. Routinely.
 - **Myth:** Healthy people don't get defensive. / **True:** They do, especially when tired. They come back to it later, and that's the part that matters.
-- **Myth:** A good partner always puts you first. / **True:** People prioritise themselves regularly. That isn't a red flag. That's a person.
+- **Myth:** A good partner always puts you first. / **True:** People put themselves first regularly. You did it this morning, with the last of the hot water.
 - **Myth:** Good couples feel close all the time. / **True:** Weeks or months of being less close, for no dramatic reason, that then pass.
 - **Myth:** When it's right, it feels easy. / **True:** Nearly every good couple has two or three subjects they've handled badly for years.
 - **Myth:** Real love looks like the couples online. / **True:** The couple filming their anniversary dinner is not, at that moment, arguing about the bins. You're watching the trailer.
 :::
 
-Everyone is sometimes unfair to the people closest to them, too. How often, and what happens afterwards, is what separates that from anything worse.
+Everyone is sometimes unfair to the people closest to them, too. You've been unfair to someone who loves you this year, probably over something you can't now remember. How often, and what happens afterwards, is what separates that from anything worse.
 
 ::: pull
 If your model of healthy is frictionless, every real relationship will fail your test, and every relationship that passes will be one where somebody is performing.
@@ -452,7 +449,7 @@ If your model of healthy is frictionless, every real relationship will fail your
 
 ## Is it normal to argue in a healthy relationship?
 
-Yes. Arguing is ordinary, and how often you argue tells you very little. What matters is how the arguments go and how they end. In healthy relationships both people can disagree without fear, nobody keeps score with the past, and someone moves to repair it afterwards, even clumsily. A couple that never argues isn't automatically healthy.
+Yes. Arguing is ordinary, and how often you argue tells you very little. What matters is how the arguments go and how they end. In healthy relationships both people can disagree without fear, nobody keeps score with the past, and someone moves to repair it afterwards, even clumsily.
 
 The relationship researcher John Gottman, who spent decades observing couples in his lab, reports in *The Seven Principles for Making Marriage Work* (with Nan Silver, 1999) that 69% of couples' conflicts are what he calls perpetual problems. These come from lasting differences in personality or needs, and they never get solved. The couples who do well keep a dialogue going about them instead of getting stuck.
 
@@ -460,19 +457,20 @@ Gottman also puts a lot of weight on **repair attempts**: anything either person
 
 A couple that never argues might be two very easygoing people. It might also be one person who has learned not to start anything. [Conflict or control](ch:conflict-or-control) is how you tell storms from climate.
 
-## The four things that do tell them apart
+## The four marks that do tell them apart
 
-So if healthy relationships contain all of that, what separates them? Four things, and none of them is the absence of trouble.
+So if healthy relationships contain all of that, what separates them? Four marks, and none of them is the absence of trouble.
 
 1. **Things can be named.** You can raise a problem and have the problem be the subject, instead of your tone or your past. That's [the naming test](ch:the-naming-test).
-2. **Repair happens.** Perfect apologies aren't the standard. Adjustment over the following weeks is. Watch for the counterfeits: [non-apologies](/playbook/non-apology-apologies) that apologise for how you feel, and warm reunions that feel like repair but change nothing, which is how [hoovering](/playbook/hoovering-relief-bait) works. Relief isn't repair. [Repair, and apology's counterfeit](ch:repair-and-apologys-counterfeit) has the full forgery check.
+2. **Repair happens.** Perfect apologies aren't the standard. Adjustment over the following weeks is. Watch for the counterfeits: [non-apologies](/playbook/non-apology-apologies) that apologise for how you feel, and warm reunions that feel like repair but change nothing, which is how [hoovering](/playbook/hoovering-relief-bait) works. Relief and repair feel the same for about a day. [Repair, and apology's counterfeit](ch:repair-and-apologys-counterfeit) has the full forgery check.
 3. **"No" is survivable.** Refusing something costs some disappointment, and never your standing. That's [the cost of "no"](ch:the-cost-of-no).
 4. **Your freedom isn't shrinking.** Over a year, the moves open to you (friendships, money, going places, having opinions) stay the same or grow.
 
-Every one of those is about the aftermath, not the incident. It's the single most useful reframe for anyone working from a bad test weight. Stop grading the trouble. Start grading what happens next.
+Every one of those marks is about the morning after, and none of them is about the row. Put the row down and weigh what happened next.
 
-::: handle
-Grade the aftermath, not the trouble.
+::: tool THE TEST WEIGHT
+When a row or a sulk has you braced for the worst, or telling yourself it's nothing.
+Ask yourself: am I weighing the row, or the morning after it?
 :::
 
 ::: compare The morning after the same row
@@ -489,16 +487,16 @@ Grade the aftermath, not the trouble.
 The myths describe ordinary trouble. The four marks decide. A relationship can have every ordinary problem on this page and still fail all four marks, and "every couple argues" doesn't answer whether you're afraid, whether you can say no, or whether your world is shrinking. If someone uses this chapter to prove your relationship is normal, reread [This book in the wrong hands](ch:this-book-in-the-wrong-hands). If you're afraid of your partner, none of this applies. Go to [When weighing stops](ch:when-weighing-stops).
 :::
 
-## A sulk, graded
+## A sulk, weighed
 
 ::: scene
 *Made up, but you've met these people.*
 
-Sian grew up in a house where a slammed door meant a week of silence. Eight months into dating Tom, she forgets she promised to cook when his sister visits. He's short with her all evening. "It's fine." It is very clearly not fine.
+Becca grew up in a house where a slammed door meant a week of silence. Eight months into dating Tom, she forgets she promised to cook when his sister visits. He's short with her all evening. "It's fine." It is very clearly not fine.
 
 Her old test weight says this is day one of a week. She's drafting an apology long enough to need chapters.
 
-She decides to grade the aftermath instead. She doesn't have to wait long.
+She decides to weigh the morning after instead. She doesn't have to wait long.
 
 Next morning Tom brings her a coffee. "I was snippy last night. I was embarrassed in front of Gemma. Can we put dinners in the shared calendar?"
 
@@ -506,7 +504,7 @@ Named: yes. Repaired: yes, with a change attached. Is no survivable? She tries i
 
 He laughs and suggests a note on the fridge.
 
-A month later the note is still on the fridge, and nobody has mentioned the dinner since. One grumpy evening, then a fixed problem. Sian writes it down, because next time her alarm reads a sulk as a siege, she wants the real weight to hand.
+A month later the note is still on the fridge, and nobody has mentioned the dinner since. Becca writes the whole thing on a card and keeps it in her purse: *Snippy evening. A coffee. Fridge note. Nobody brought it up again.*
 :::
 
 ## Trouble or aftermath?
@@ -514,26 +512,27 @@ A month later the note is still on the fridge, and nobody has mentioned the dinn
 Sort each one before you tap. Only one kind counts as evidence.
 
 ::: sort
-- They forgot your birthday. || Trouble. Doesn't tell you much yet. What happened when you mentioned it?
-- When you said you were hurt, they told you you're too sensitive. || Aftermath, and a bad one. The problem got swapped for your reaction.
-- You argue about money every couple of months. || Trouble. A perpetual problem, like most couples have. Watch how the arguments end.
-- After the argument, they came back the next day and said what they'd got wrong. || Aftermath, and a good one. That's repair.
 - You've stopped seeing two friends because it causes rows. || Aftermath, and a serious one. Your freedom is shrinking.
-- They were defensive when you raised it. || Trouble. Healthy people get defensive. Did they come back to it?
-- You turned down their family's Christmas and they sulked for an afternoon. || Aftermath, and survivable. Some disappointment, no lasting price. Keep watching if it grows.
+- They forgot your birthday. || Trouble. Doesn't tell you much yet. What happened when you mentioned it?
 - Name the four marks. || Things can be named. Repair happens. "No" is survivable. Your freedom isn't shrinking.
+- When you said you were hurt, they told you you're too sensitive. || Aftermath, and a bad one. The problem got swapped for your reaction.
+- They were defensive when you raised it. || Trouble. Healthy people get defensive. Did they come back to it?
+- He went quiet after a row and you're already drafting a three-page apology. What do you ask yourself? || Am I weighing the row, or the morning after it? Wait for the morning, then grade that.
+- You argue about money every couple of months. || Trouble. A perpetual problem, like most couples have. Watch how the arguments end.
+- You turned down their family's Christmas and they sulked for an afternoon. || Aftermath, and survivable. Some disappointment, no lasting price. Keep watching if it grows.
+- After the argument, they came back the next day and said what they'd got wrong. || Aftermath, and a good one. Something got repaired.
 :::
 
 ## Building a sample if you don't have one
 
 You can't install a different childhood. You can gather evidence.
 
-Fiction is a poor sample. Stories compress years into incidents and demand a resolution. Relationship content online is worse, because it's edited by the people in it. Real relationships are mostly logistics, repetition and low-grade negotiation, broken up by ordinary disappointment. A reader grading a partner against a screenplay will find them wanting, correctly, and for no reason.
+Fiction is a poor sample. Stories compress years into incidents and demand a resolution. Relationship content online is worse, because it's edited by the people in it. Real relationships are mostly logistics and low-grade negotiation, broken up by ordinary disappointment. A reader grading a partner against a screenplay will find them wanting, correctly, and for no reason.
 
 People are a better sample, if you ask them the right question.
 
 ::: try Try the awkward question this week
-Ask two or three people whose relationships you think are decent: "How often do you two argue? What about? How does it usually end?" Most people answer honestly, and the answers are startling: more often, more petty and more unresolved than you'd expect. That surprise is the recalibration. Do it three times and you have a test weight you didn't have last week.
+Ask two or three people whose relationships you think are decent: "How often do you two argue? What about? How does it usually end?" Most people answer honestly, and the answers surprise almost everyone. They argue more often than you'd guess, about pettier things, and plenty of it never gets settled. That surprise is the recalibration. Do it three times and you have a test weight you didn't have last week.
 :::
 
 That's the end of the instrument. You know where your alarm was tuned, what bends it, and what it should be checked against. Next comes what it's measuring, starting with the question of what counts as evidence at all, in [What is evidence](ch:what-is-evidence).
