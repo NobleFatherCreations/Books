@@ -1,5 +1,7 @@
 # Noble Father Creations — Standing Rules
 
+**Continuing The Weighing (scale)? Read `docs/HANDOFF-WEIGHING-2026-11-24.md` first**: writing finished and frozen; next is Phase 4 design.
+
 **Starting the next book (or any book rewrite/redesign)? Read `docs/BOOK-FLOW-V3.md` first**: the proven start-to-finish flow from The Long After v6.
 
 **New chat? Read `docs/handoff-2026-11-23/00-START-HERE.md` first** (opening prompt, skills to load, binding deploy/rebuild lessons, what's left, Long After finish order, next book, About-the-author plan).
