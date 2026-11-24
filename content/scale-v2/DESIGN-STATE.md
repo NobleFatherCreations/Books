@@ -23,7 +23,7 @@ All four PASS (0 failing checks). Contact sheets in design/scale-v5/r1/<page>/<p
 Faults read from the phone sheets (F-numbers from docs/design-catalogue/07-choosing-and-combining.md):
 - **Bug, fixed:** all 57 `::: bridge` blocks printed their link data ("longafter:if-youre-not-safe-right-now") as a visible label, including twice in "Help, now" on the crisis page. The builder now keeps it as `data-to` only; text-diff confirms nothing else changed. Snapshot retaken after the fix.
 - **Cover, F5 + F8:** the cover image is a small thumbnail (about a third of the phone width), so there's no title moment; then about 11 phone screens of identical contents rows with only a small brass label per movement. Needs a real cover moment and movements as visual chapters (collapsible or card-grouped).
-- **Cover:** the crisis notice appears twice in the first two screens (under the title and again above Start here). Keep one.
+- **Cover (corrected 2026-11-24):** the crisis notice appears once (`p.safe`); in the R1 sheet it straddled two overlapping frames, which read as a duplicate. No change needed.
 - **F4:** brass on navy is The Long After's interim skin recoloured, not a Weighing concept.
 - **The gradient, F5:** the book's central idea (seven positions, rude to abusive) renders as a plain bullet list, twice. It's the strongest candidate for the signature move (a dial or scale that holds still, readable in reduced motion and print).
 - **Field card, F5:** promises "one page, screenshot it, print it", but is about 11 phone screens of 59 underlined numbered links. Needs a compact screenshot and print form (two columns on paper, grouped by movement, links not underlined).

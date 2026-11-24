@@ -303,6 +303,10 @@ def a11y(body):
     n = iter(range(1, 99))
     body = re.sub(r'<div class="tbl"><table>', lambda m: f'<div class="tbl" tabindex="0" role="region" aria-label="Table {next(n)}, scrolls sideways"><table>', body)
     body = body.replace("<thead><tr><th></th>", "<thead><tr><td></td>")
+    # tool cards: "When ..." and "Ask yourself: ..." are two lines (v5.1 retention card)
+    body = re.sub(r'(<div class="blk blk-tool"><p class="blk-k">[^<]*</p>\s*<p>)(When [^<]*?)\s+(Ask yourself:)',
+                  r'\1<span class="when">\2</span></p><p class="ask">\3', body)
+    body = body.replace('<div class="blk blk-ask">\n<p>Ask yourself:', '<div class="blk blk-ask">\n<p class="ask">Ask yourself:')
     return re.sub(r'(<strong>([^<]+\?)</strong>[^<]*)<a href="([^"]+)">Read more</a>',
                   lambda m: f'{m.group(1)}<a href="{m.group(3)}" aria-label="Read more: {m.group(2)}">Read more</a>', body)
 

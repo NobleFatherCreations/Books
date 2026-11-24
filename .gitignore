@@ -53,3 +53,5 @@ qa/v19/final/
 design/scale-v5/text-before.json
 design/scale-v5/r1/*/*/[0-9]*.jpg
 design/scale-v5/r1/*/*/[0-9]*.json
+design/scale-v5/comp-shots/[abc]-*.png
+design/scale-v5/comps/
