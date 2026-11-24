@@ -73,3 +73,23 @@ Also done: the pipeline's axe step now scans every page and keeps Playwright on 
 8. **Gates, then one critic** (`impeccable-finish-reviewer`), then the fix round. Each fix gets a failing-first guard in `design/scale-v5/check-*.mjs`.
 9. **Final checks:** full pipeline including axe on every page = 0, `text-diff.py check` = only new UI strings, then perf.
 10. **Release only on "deploy The Weighing"** (handoff section 3, Phase 5). Restore the v4 copy after every pipeline run until then: `git checkout -q library/scale && git clean -fdq library/scale`.
+
+## 5. Steelman: could the writing and SEO be better? (owner asked, 2026-11-24)
+
+Method: argue the strongest case that it falls short, then test it. Close reads of the gradient, am-i-the-one-doing-it (longest), and the crisis pages; repetition measured across all 59 chapters; live search results for the two biggest phrases.
+
+**Verdict: the writing meets the goal and is good, with four improvable points. The SEO on the page is close to the ceiling; the remaining gap is off the page.**
+
+Writing, improvable:
+1. **"Dial" means two things in the central chapter.** The seven-step gradient is "a dial", and the three factors (freedom, repetition, response) are also "the three dials below". Rename the factors ("three tests") so the core model is unambiguous. Text change, needs the owner.
+2. **The gradient's recall sort runs in order** (rude to abusive), so answers can be guessed from position. Shuffle the eight items. Other sorts should be checked for the same.
+3. **The safety refrain appears in 47 of 59 chapters** ("reread This book in the wrong hands", 17 of them "If someone hands you this chapter to..."). Each is tailored and each chapter must stand alone for search visitors, so it stays, but as prose it becomes wallpaper for a front-to-back reader. Fix in design (no text change): render it as one recognisable small guard block so it's instantly identified and easy to skip.
+4. **Spelling mix** (judgment/judgement; weaponized/weaponised in link text).
+
+Writing, tested and holds: voice matches the brief (blunt, funny away from safety: "a light switch with a comments section", "what people type at 1am, though, so here we are"); concrete images carry each idea (the dashcam, the dial); research is named, not "studies show"; section lengths (70-600 words) are substantial rather than padded; the 109k length is mitigated by standalone chapters, 50-60 word short answers, Start here routing, the 60-second weigh and the field card.
+
+SEO, steelmanned:
+- **"how to tell if someone is lying" (8,100/mo):** page one is Time, NBC, Scientific American, Simply Psychology, Psychology Today, Inc. A new domain with no backlinks won't outrank them on content alone. Realistic wins are the long tail ("over text" 390/mo, "about cheating" 110/mo, both have headings) and AI citations, where the book's research-honest answer (54% accuracy across 206 studies) is more citable than most of page one.
+- **"am i overreacting in my relationship":** page one is generic advice blogs and forums. Winnable; the chapter is stronger than what ranks.
+- **The real gap is authority, not content:** no inbound links yet. The owner-gated 13-link plan from the sister books (CROSS-LINKS.md) is the cheapest fix; outside links need the `link-building` skill and owner-approved outreach.
+- Descriptions: 22 hand-written lines await approval (DESC-DRAFTS.md).
