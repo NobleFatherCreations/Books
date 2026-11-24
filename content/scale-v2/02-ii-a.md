@@ -225,7 +225,7 @@ Decide before you tap.
 
 Trust it enough to look at what changed, and not enough to convict. A gut picking up real change can usually name it: new passwords, new hours, a story with gaps in it. A gut that names nothing, and gets louder at 2am, is more likely an alarm or anxiety. Behaviour you can describe beats a feeling you can't.
 
-Nobody has ever found peace by reading someone's "recently played" at 2am for evidence of a secret emotional life. Why 2am readings run hot is in [The state you're judging from](ch:the-state-youre-judging-from). Why a suspicion keeps finding support once you start looking is in [The file that builds itself](ch:the-file-that-builds-itself).
+Reading someone's "recently played" at 2am for evidence of a secret emotional life is a hobby, not an investigation. Why 2am readings run hot is in [The state you're judging from](ch:the-state-youre-judging-from). Why a suspicion keeps finding support once you start looking is in [The file that builds itself](ch:the-file-that-builds-itself).
 
 ## When the gut was right
 
