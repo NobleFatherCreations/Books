@@ -26,7 +26,7 @@ Picture a ladder in a courtroom. Each rung holds more weight than the one below 
 
 **Rung one, at the top: the record.** Messages, emails, recordings, documents, dates, amounts, things other people witnessed. It exists outside your memory and outside your interpretation. It's the only rung that survives contact with someone who disputes it.
 
-**Rung two: the observation.** What you saw and heard yourself, held in your memory. Real evidence, and the rung most human judgment runs on. It wobbles, because memory rebuilds an event each time you recall it, and it tends to rebuild toward what you now believe. [I don't remember it that way](ch:i-dont-remember-it-that-way) covers how that works.
+**Rung two: the observation.** What you saw and heard yourself, held in your memory. Real evidence, and the rung most human judgment runs on. It wobbles, because memory is partly rebuilt each time you recall an event, and it can drift toward what you now believe. [I don't remember it that way](ch:i-dont-remember-it-that-way) covers how that works.
 
 **Rung three: the inference.** What you concluded from what you saw. "He did it to make me look stupid." "She's losing interest." An inference is a feeling that has put on a suit and learned to talk like a lawyer. Sometimes it's right. It's still a conclusion, and conclusions can be argued with forever.
 
@@ -268,7 +268,7 @@ Counting honestly is harder than it sounds, because once you suspect someone, th
 
 ## Sources
 
-- Campbell, J. C. (2003). *Danger Assessment*. Johns Hopkins University School of Nursing. www.dangerassessment.com
+- Campbell, J. C. (2003). *Danger Assessment*. Johns Hopkins University School of Nursing. www.dangerassessment.org
 
 === the-file-that-builds-itself
 title: The file that builds itself
