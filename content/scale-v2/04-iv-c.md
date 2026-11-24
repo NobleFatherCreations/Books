@@ -677,7 +677,9 @@ Hassan set out the four kinds in his 1988 book *Combatting Cult Mind Control* an
 - **Thought.** Critical questions about the leader or teaching not allowed. Other beliefs labelled evil or worthless. A private vocabulary, including stock phrases that end a thought before it finishes. The Decoder has [thought control](/playbook/thought-control), [loaded language](/playbook/loaded-language) and [thought-stopping clichés](/playbook/thought-stopping-clich-s).
 - **Emotion.** Feelings narrowed to the approved ones. Your needs called selfish. Fear of the outside world, of leaving, or of what happens to people who leave. The Decoder has [emotional control](/playbook/emotion-control) and [phobia indoctrination](/playbook/phobia-indoctrination-catastrophizing).
 
-Hold it as a model, not settled science. It is one author's framework, and some researchers who study religious movements reject "mind control" language altogether, arguing that it underrates the choices people make in joining and leaving. The sociologist Eileen Barker, who studied the Unification Church in the 1970s, found that most people who went to its recruitment workshops never joined, which is hard to square with irresistible mind control. Both things can be true. People do choose, and groups do make some choices much more expensive than others. Use the four letters as questions to ask, not as a verdict to hand down.
+Hold it as a model, not settled science. It is one author's framework, and some researchers who study religious movements reject "mind control" language altogether, arguing that it underrates the choices people make in joining and leaving.
+
+The sociologist Eileen Barker, who studied the Unification Church in the 1970s, found that most people who went to its recruitment workshops never joined, which is hard to square with irresistible mind control. Both things can be true. People do choose, and groups do make some choices much more expensive than others. Use the four letters as questions to ask, not as a verdict to hand down.
 
 ## Demanding is not the same as high-demand
 
