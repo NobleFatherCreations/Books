@@ -1,1 +1,2 @@
 - 01-i-a: check Jordan's HR-draft humour (survivor case), the washing-up mirror line, the Nesse 'dinner' line
+- 02-ii-a: crypto-man line, 'absolute goldfish', Bea's unresolved ending reads open
