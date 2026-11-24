@@ -8,11 +8,11 @@ Stop here before you run any test in this part of the book. Answer these honestl
 
 ::: check The safety gate
 ☐ They have been violent or threatened violence, towards me, a child, a pet, my things, or themselves to control me.
-☐ The last time I refused them something, there was rage, punishment, or a price I feared.
-☐ They control something I can't easily replace: home, money, job, visa, my children, my community.
-☐ They are cutting me off from people who could help, or making it hard, expensive or dangerous to leave.
+☐ Last time I refused them something, there was rage, punishment or a price I feared.
+☐ They control something I can't easily replace: home, money, job, visa, children, community.
+☐ They're cutting me off from help, or making leaving hard or dangerous.
 ☐ Picturing naming something to them makes my body afraid, not just embarrassed.
-☐ I am worried about a child's safety.
+☐ I'm worried about a child's safety.
 ☐ If a test went badly, I'd have nowhere safe to go tonight.
 :::
 
