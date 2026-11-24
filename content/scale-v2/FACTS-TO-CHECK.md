@@ -12,3 +12,10 @@ Writers list anything they couldn't confirm on a page. The steelman and fact-che
 - 04-iv-a: Lewicki, Polin and Lount (2016) DOI given as 10.34891/9awp-8644 (journal's newer DOI); the original Wiley DOI not checked. Confirm which resolves.
 - 04-iv-c: Hall (2019) friendship hours (volume/pages from press release only); the scholarly objection to Hassan's BITE model is mentioned but unsourced (source it or cut); Tepper (2000) definition quoted via a citing paper (check against the original).
 - 06-vi-a (second-hand, confirm against originals): Tetlock 2005 '90% calls came true about 70%' (from a Wharton interview); Fischhoff, Slovic and Lichtenstein 1977 '100% sure, 70-85% correct' (textbook summary); Babcock et al. 2004 'about 5% less re-assault than arrest alone' (quoted via Arias et al. 2013 p.1044).
+
+## For the steelman pass (from distilling the Toolbox)
+- Duplicate question headings across chapters (search cannibalisation): "Is getting defensive a sign of guilt?" (the-naming-test, when-youre-the-one-accused); "Am I the toxic one or the victim?" (when-you-both-say-victim, am-i-the-one-doing-it). Keep one, rephrase the other.
+- FAQ answers on questions-people-ask repeat chapter opening answers word for word: reword so they summarise rather than copy.
+- Close-match Decoder links in a-to-z: confirmation-bias-exploitation, behavior-control (BITE), baiting (reactive abuse), flying monkeys (secondhand accounts). Keep only true matches.
+- Field card is about 1,250 words (not one screen): fine as a page; design can make it a scannable card.
+- SEARCH-DEMAND.md still routes lying/overreacting to older chapters (update the table).
