@@ -48,7 +48,7 @@ Both are fast and both feel wonderful, so speed alone won't tell you. Slow thing
 | Month three | Warmth settles into something ordinary | Warmth turns conditional, on when you comply and off when you don't |
 :::
 
-"I've never felt this way about anyone" in week two is either true or a line, and both versions sound the same. The line version is the same on everyone it's used on, like a horoscope with your name typed in.
+"I've never felt this way about anyone" in week two is either true or a line, and both versions sound the same. The line version is the same on everyone it's used on, like a mail merge with your name typed in.
 
 The Decoder files the pieces separately: [love bombing](/playbook/love-bombing) itself, [future faking](/playbook/future-faking) for the cottage in March, [premature exclusivity](/playbook/premature-exclusivity) for "delete the apps, I already have", and [mirroring on demand](/playbook/mirroring-on-demand) for the person who, astonishingly, loves every one of your favourite bands. The last stage, where the warmth is withdrawn once you're attached, is the [idealise, devalue, discard cycle](/playbook/idealize-devalue-discard-cycle).
 
@@ -677,7 +677,7 @@ Hassan set out the four kinds in his 1988 book *Combatting Cult Mind Control* an
 - **Thought.** Critical questions about the leader or teaching not allowed. Other beliefs labelled evil or worthless. A private vocabulary, including stock phrases that end a thought before it finishes. The Decoder has [thought control](/playbook/thought-control), [loaded language](/playbook/loaded-language) and [thought-stopping clichés](/playbook/thought-stopping-clich-s).
 - **Emotion.** Feelings narrowed to the approved ones. Your needs called selfish. Fear of the outside world, of leaving, or of what happens to people who leave. The Decoder has [emotional control](/playbook/emotion-control) and [phobia indoctrination](/playbook/phobia-indoctrination-catastrophizing).
 
-Hold it as a model, not settled science. It is one author's framework, and some researchers who study religious movements reject "mind control" language altogether, arguing that it underrates the choices people make in joining and leaving. Both things can be true. People do choose, and groups do make some choices much more expensive than others. Use the four letters as questions to ask, not as a verdict to hand down.
+Hold it as a model, not settled science. It is one author's framework, and some researchers who study religious movements reject "mind control" language altogether, arguing that it underrates the choices people make in joining and leaving. The sociologist Eileen Barker, who studied the Unification Church in the 1970s, found that most people who went to its recruitment workshops never joined, which is hard to square with irresistible mind control. Both things can be true. People do choose, and groups do make some choices much more expensive than others. Use the four letters as questions to ask, not as a verdict to hand down.
 
 ## Demanding is not the same as high-demand
 
@@ -759,6 +759,7 @@ You've now weighed partners, strangers, family, bosses, friends and groups. One 
 
 ## Sources
 
+- Barker, E. (1984). *The Making of a Moonie: Choice or Brainwashing?* Basil Blackwell.
 - Hassan, S. (1988). *Combatting Cult Mind Control*. Park Street Press.
 - Hassan, S. A. (2020). *The BITE Model of Authoritarian Control: Undue Influence, Thought Reform, Brainwashing, Mind Control, Trafficking and the Law* (Doctoral dissertation). Fielding Graduate University. https://freedomofmind.com/wp-content/uploads/2021/01/Dr-Hassan-Dissertation-Published.pdf
 - Federal Trade Commission (n.d.). *Multi-level marketing businesses and pyramid schemes*. Consumer advice. https://consumer.ftc.gov/articles/multi-level-marketing-businesses-and-pyramid-schemes
