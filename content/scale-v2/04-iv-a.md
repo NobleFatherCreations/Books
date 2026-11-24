@@ -202,7 +202,7 @@ The test only works if the naming is clean, and most people's first draft is a c
 
 Act, then effect, with nothing about diagnosis or motive. [Intent, impact and the mind-reading trap](ch:intent-impact-and-the-mind-reading-trap) wrote this sentence for you.
 
-The discipline is practical. A diagnosis gives the response somewhere legitimate to go. Say "you're [gaslighting](/playbook/gaslighting) me" and a completely innocent person will defend themselves against the label, and you'll read the defence as evasion. In the whole history of relationships, "you're gaslighting me" has never once produced the reply "Good catch, I'll stop." The clean version removes that exit and leaves only the behaviour on the table.
+The discipline is practical. A diagnosis gives the response somewhere legitimate to go. Say "you're [gaslighting](/playbook/gaslighting) me" and a completely innocent person will defend themselves against the label, and you'll read the defence as evasion. The reply "Good catch, I'll stop" is not coming. The clean version removes that exit and leaves only the behaviour on the table.
 
 ::: script The words
 **You:** "You said you'd call on Tuesday and didn't. When I brought it up, you said we never agreed that. That's the third time this month, and it's making me doubt my own memory."
@@ -516,7 +516,7 @@ People expect a no to be punished with a row, so they watch for a row. Coercive 
 
 Each line of the coercive column has a Decoder page.
 
-- **Temperature** is the [silent treatment](/playbook/withholding-silent-treatment) in its everyday clothes. Nothing is said. Everything is cooler for four days. Ask and you get "I'm fine."
+- **Temperature** is the everyday form of the [silent treatment](/playbook/withholding-silent-treatment). Nothing is said. Everything is cooler for four days. Ask and you get "I'm fine."
 - **Access** is how small refusals get taxed when someone holds the purse or the car keys. At its heaviest it's [financial control](/playbook/financial-control).
 - **Framing** turns your no into a character reference, which is [guilt-tripping](/playbook/guilt-tripping) with a longer memory.
 - **The ask, escalated** is [punishment of boundaries](/playbook/punishment-of-boundaries). The request comes back like a sequel nobody asked for, with a bigger budget and the same plot.
