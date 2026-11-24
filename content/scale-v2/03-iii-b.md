@@ -342,7 +342,7 @@ The anchor for this chapter is a face on a screen with the sound off. Everything
 ::: myth
 - **Myth:** Liars avoid eye contact. / **True:** It's the most popular belief about lying on earth. A 2006 survey across 75 countries and 43 languages found "liars avert their gaze" was the dominant belief across cultures. A 2003 review combined 32 estimates of eye contact while lying and found an effect of almost exactly zero.
 - **Myth:** Liars look up and to the right. / **True:** That one comes from neuro-linguistic programming. In 2012, Richard Wiseman and colleagues tested it in three studies, including footage of real press conferences. Eye direction didn't separate liars from truth tellers, and people taught the rule were no better at catching lies.
-- **Myth:** Liars fidget. / **True:** The same 2003 review found a tiny effect for fidgeting in general, and none for scratching and self-touching. Its authors concluded there was no clear relationship between fidgeting and lying.
+- **Myth:** Liars fidget. / **True:** The same 2003 review found only a small effect for fidgeting in general, which varied a lot from study to study, and none for scratching and self-touching. Fidgeting is a poor guide to lying.
 - **Myth:** A nervous answer is a guilty one. / **True:** Being doubted makes honest people tense too. Nerves tell you someone is nervous.
 - **Myth:** I'd know if he was lying. I know him. / **True:** People who know each other do barely better than strangers, and lean harder towards believing.
 - **Myth:** Trained professionals can tell. / **True:** In the 2006 review, experts were no more accurate than students. They were just more suspicious.
