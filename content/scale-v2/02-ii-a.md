@@ -639,7 +639,7 @@ Ziva Kunda's 1990 review found that people are more likely to arrive at the conc
 
 **Counter-move:** Name the feeling. Then, on a separate line, list what happened. Feelings are strong evidence about you and weak evidence about them.
 
-Arnoud Arntz and colleagues found in 1995 that people with anxiety disorders inferred danger from their own anxiety as well as from the facts, which they called ex-consequentia reasoning. The guilt version is the one manipulative people farm, and it has a Decoder page: [guilt-tripping](/playbook/guilt-tripping). [Gut feeling or anxiety](ch:gut-feeling-or-anxiety) has more on telling a feeling from a fact.
+The lab version is the 1995 ex-consequentia study in [Gut feeling or anxiety](ch:gut-feeling-or-anxiety): anxious people treated their own fear as evidence of danger. The guilt version is the one manipulative people farm, and it has a Decoder page: [guilt-tripping](/playbook/guilt-tripping). That chapter has more on telling a feeling from a fact.
 
 ### 8. Rejection sensitivity
 
