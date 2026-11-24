@@ -51,3 +51,5 @@ See `docs/design-catalogue/templates/OWNER-TASTE.md` for the table to fill; add 
 - Humour level: "Think Shane Gillis esque" (read as: deadpan, observational, everyman, unbothered, willing to laugh at the reader and himself; still no jokes near safety content and never at the expense of someone being harmed).
 - Repetition structure (short answer, argument, memory device, recall, field card): keep.
 - Voice protocol: the owner's "Human Voice & Anti-Slop Protocol" (2026-11-24, in the chat) applies to every rewrite.
+- Retention system: "All 3 if possible - analyze how best to do that before implementing" (tool + question, if-then trigger, self-check question). Humour form: both (mirror-the-reader lines, and jokes inside paragraphs with plain section stops).
+- Examples: rebalance 6-8 harm cases by gender; everyday + diverse names; place-neutral settings (keep British spelling); vary shapes, cut "Yes, it was X." and lesson-stating endings, add misuse cases, wider lives: "All of the above in the best way possible".
