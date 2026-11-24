@@ -96,7 +96,7 @@ Margaret Stroebe and Henk Schut's dual process model describes healthy grieving 
 ## The spreadsheet
 
 ::: scene
-*LABEL*
+*Made up, but you've met these people.*
 
 Grace found Daniel's second phone in February. Two years of a second relationship, confirmed by him, by the other woman and by a bank statement. Grace left in April.
 
@@ -209,7 +209,7 @@ Revise memory by memory, not all at once.
 ## The album on the kitchen table
 
 ::: scene
-*LABEL*
+*Made up, but you've met these people.*
 
 Marta finds out that Ian has £40,000 of gambling debt, and has lied about it for four years, including a loan against the house. The red pen starts that night.
 
@@ -355,7 +355,7 @@ The six lines that tell you when to distrust your reading also tell you, over ti
 ## The Sunday notes
 
 ::: scene
-*LABEL*
+*Made up, but you've met these people.*
 
 Every Sunday, Leah comes home from Marcus's flat feeling like she's done something wrong. She can't say what.
 
@@ -492,7 +492,7 @@ The myths describe ordinary trouble. The four marks decide. A relationship can h
 ## A sulk, graded
 
 ::: scene
-*LABEL*
+*Made up, but you've met these people.*
 
 Sian grew up in a house where a slammed door meant a week of silence. Eight months into dating Tom, she forgets she promised to cook when his sister visits. He's short with her all evening. "It's fine." It is very clearly not fine.
 

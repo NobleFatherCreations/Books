@@ -105,7 +105,7 @@ If someone pushes past a no about sex or your body, turns up where you didn't in
 ## Fast, and fine
 
 ::: scene
-*LABEL*
+*Made up, but you've met these people.*
 
 Zara's last boyfriend sent flowers to her office on their second date, and a year later he was reading her emails. So when Matteo sends a good-morning text every day for three weeks, her stomach goes cold.
 
@@ -274,7 +274,7 @@ Say the plan, say it again, and don't add reasons. Each reason is something new 
 ## The cost of no, at home
 
 ::: scene
-*LABEL*
+*Made up, but you've met these people.*
 
 Rhiannon's dad lent her £15,000 towards her flat. No paperwork. "Family doesn't need contracts." Since then he's had a key, an opinion about her boyfriend, and a standing expectation of Sunday lunch.
 
@@ -408,7 +408,7 @@ Before you scroll up: which line does each one score?
 ## Six lines, scored
 
 ::: scene
-*LABEL*
+*Made up, but you've met these people.*
 
 Kasia has worked under Lionel for two years. Lately she dreads Mondays and can't say why, so on a Sunday she fills in the reversed review.
 
@@ -547,7 +547,7 @@ Being the one in the long season isn't a failing. Leaving a hard stretch, especi
 ## Two seasons, read
 
 ::: scene
-*LABEL*
+*Made up, but you've met these people.*
 
 For five months Freya has carried her friend Juno through a divorce. Lifts to the solicitor. Calls most nights. Freya's sister has a theory: "She's using you. When did she last ask about your life?"
 
@@ -696,7 +696,7 @@ Watch for the particular shape. Your friends and family become your market. Buyi
 ## Twelve months in
 
 ::: scene
-*LABEL*
+*Made up, but you've met these people.*
 
 Teodora's gym friend, Nkechi, invites her to "the Collective", a wellness team that meets for Saturday brunch. Month one is lovely. Forty people learn her name in a fortnight. The group chat never sleeps, and everyone says she's glowing.
 

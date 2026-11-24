@@ -107,7 +107,7 @@ The last line has two ways in on purpose. Certainty is one route to a big decisi
 ## The two sentences, used
 
 ::: scene
-*LABEL*
+*Made up, but you've met these people.*
 
 Rasmus has spent eight months deciding whether Oona's jokes are contempt. At her work dinners she tells the story of him getting lost in IKEA, every time, and the table howls, and on the drive home he feels about four foot tall.
 
@@ -258,7 +258,7 @@ Yes. An apology can help, but it's one possible ingredient, and the one you cont
 ## Closing the tab, used
 
 ::: scene
-*LABEL*
+*Made up, but you've met these people.*
 
 Beatriz's ex-husband moved to Valencia two years ago and blocked everyone, including their dog's vet. She still doesn't know when the affair started. Year two of the marriage, or year nine?
 
@@ -386,7 +386,7 @@ Before you look: what's missing or broken in each entry?
 ## The logbook, used
 
 ::: scene
-*LABEL*
+*Made up, but you've met these people.*
 
 Thandiwe starts a logbook after her divorce, mostly because her counsellor wouldn't stop suggesting it. By the following October she has eleven entries.
 
@@ -526,7 +526,7 @@ A man who calls every new neighbour a criminal will eventually be right about on
 ## The funnel, used
 
 ::: scene
-*LABEL*
+*Made up, but you've met these people.*
 
 Ifeoma left her husband in January, after six years of him checking her phone and telling her she imagined things. By March she's found an online recovery group run by a coach called Sage.
 
@@ -649,7 +649,7 @@ Before you look: which column of the audit does each one belong in?
 ## The audit, used twice
 
 ::: scene
-*LABEL*
+*Made up, but you've met these people.*
 
 Zainab moved out in March. For three years Malik had decided what she spent, who she saw, and what she'd "really" meant.
 
@@ -667,7 +667,7 @@ Yes, it was manipulation: a [future](/playbook/future-faking) he described and n
 :::
 
 ::: scene
-*LABEL*
+*Made up, but you've met these people.*
 
 Every time Cosmo brought his partner Lucian to his mother's, she found something. The haircut. The job. "Is he still doing that little website?"
 

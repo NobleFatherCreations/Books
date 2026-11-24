@@ -89,7 +89,7 @@ These tests are for your own judgment, run by choice, in safety. Nobody gets to 
 ## The gate, used
 
 ::: scene
-*LABEL*
+*Made up, but you've met these people.*
 
 Halima has read the next few chapters and wants to try the cost of no. Her husband, Victor, takes her wages every month "to manage them." She plans to tell him she'll keep a small part of this month's pay for herself.
 
@@ -284,7 +284,7 @@ Watch for one more result. Sometimes the subject doesn't change, but the mood do
 ## The protocol, run three times
 
 ::: scene
-*LABEL*
+*Made up, but you've met these people.*
 
 Eamon has noticed that his partner, Carla, jokes at dinner parties that he's "useless with money." He reads the gate first: nothing frightening has ever followed a disagreement, he pays half the rent, and he could stay at his brother's. Clear.
 
@@ -431,7 +431,7 @@ It also protects you in the other direction. People do change and don't get cred
 ## A forgery, then the real thing
 
 ::: scene
-*LABEL*
+*Made up, but you've met these people.*
 
 Della has started reading Oskar's messages over his shoulder on the sofa and commenting. "Who's Phil? Why is Phil sending you a thumbs-up?" Oskar names it plainly: "You've read my screen twice this week while I was typing. It makes me feel watched in my own living room."
 
@@ -551,7 +551,7 @@ Keep it simple. After each no, write one word each for temperature, access and f
 ## The price list, used
 
 ::: scene
-*LABEL*
+*Made up, but you've met these people.*
 
 Jonah asks his partner, Mairead, to come to his work quiz night. She doesn't want to. She reads the gate: nothing frightening has ever followed a refusal, they split the bills, and she has her own car. So she makes it a small test and says, "No, I'll skip this one."
 

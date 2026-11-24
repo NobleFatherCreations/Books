@@ -104,7 +104,7 @@ Look at how many of the ten sounded like facts when you first read them. "She's 
 ## The ladder at a birthday party
 
 ::: scene
-*LABEL*
+*Made up, but you've met these people.*
 
 Hana tells her sister that Felix humiliated her at Ben's birthday. Her sister, who is annoying in the way of people who are usually right, asks what happened.
 
@@ -202,7 +202,7 @@ The full size check, two rulers and who's holding them, is in [When people say y
 ## The form, filled in
 
 ::: scene
-*LABEL*
+*Made up, but you've met these people.*
 
 Noor's flatmate asks why she keeps changing before she goes out. Noor says Kieran "sometimes" comments on what she wears. Then she fills in the form, because "sometimes" won't fit in the first blank.
 
@@ -281,7 +281,7 @@ short: Confirmation bias is the habit of seeking and reading evidence in ways th
 Why does everything they do seem to prove you right? Usually because of what you've started doing, not what they have. Watch one week of it.
 
 ::: scene
-*LABEL*
+*Made up, but you've met these people.*
 
 Petra's friend mentions, carefully, that she saw Luis having coffee with his ex.
 
@@ -525,7 +525,7 @@ Discernment is not the habit of thinking the *best* of people. It is the habit o
 ## The drill, run for real
 
 ::: scene
-*LABEL*
+*Made up, but you've met these people.*
 
 Ruby's partner, Dev, tells her that her friend Lou has been saying things behind her back. Lou apparently called Ruby "exhausting" at a party Dev went to without her.
 

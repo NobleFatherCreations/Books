@@ -94,7 +94,7 @@ Safety. If the alarm says *get out of this room*, get out of the room, and do th
 ## A dig on a second date
 
 ::: scene
-*LABEL*
+*Made up, but you've met these people.*
 
 Bea is on a second date with Owen. He's funny, and he's nice to the waiter. Then she mentions she might quit her job, and he goes quiet for three seconds, looks down at the table, and says, "Right."
 
@@ -230,7 +230,7 @@ Reading someone's "recently played" at 2am for evidence of a secret emotional li
 ## When the gut was right
 
 ::: scene
-*LABEL*
+*Made up, but you've met these people.*
 
 Five weeks in, Nadia's gut says something is off about Chris. Her friends love him. She can't say why, so she gives it ten minutes and the back of a receipt, camera facts only.
 
@@ -357,7 +357,7 @@ If someone points at your anxiety, your diagnosis or your therapy to dismiss a s
 ## The table at midnight
 
 ::: scene
-*LABEL*
+*Made up, but you've met these people.*
 
 Farah's girlfriend, Jess, is at a work leaving do. It's 11.40pm. Jess's last message, at nine, said "home by 11 x." Farah's chest has been going for twenty minutes.
 
@@ -492,7 +492,7 @@ If someone hands you this chapter, or the tree above, to prove you're overreacti
 ## When the rulers matched
 
 ::: scene
-*LABEL*
+*Made up, but you've met these people.*
 
 Imani finds her journal in the wrong drawer, open at last week. She asks Joel about it. He says he flicked through it, "barely," and asks why she's being so dramatic.
 
@@ -512,7 +512,7 @@ She writes down both versions of his story, with the times, and rings Rachel. Ye
 ## When the rulers didn't
 
 ::: scene
-*LABEL*
+*Made up, but you've met these people.*
 
 Dan's friend Wes forgets to ring him on his birthday. Dan unfollows him, leaves the five-a-side group chat, and drafts a long message about loyalty.
 
@@ -664,7 +664,7 @@ If the person saying it is the one you're worried about, reread [This book in th
 ## Three cards on a Tuesday
 
 ::: scene
-*LABEL*
+*Made up, but you've met these people.*
 
 Theo's new manager, Ruth, sends emails like "Need this by 3." and "See me." No hello, no name. By week two Theo has decided she dislikes him, and he's drafting a message to an old colleague asking if her team is hiring.
 

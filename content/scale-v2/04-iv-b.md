@@ -83,7 +83,7 @@ Intimacy surfaces things distance never does. People are shorter with those they
 The question that separates them is **whether it tracks intimacy or tracks observation.** Worse with everyone close and better with everyone distant is about intimacy. Worse specifically when nobody is watching, and switched off the moment a witness appears, is about being seen. Those are very different findings, and the second is the one this chapter exists for.
 
 ::: scene
-*LABEL*
+*Made up, but you've met these people.*
 
 Pavel has started to wonder whether Annika saves her worst for him. At work she's famous for her patience. At home, if he loads the dishwasher wrong, he gets a sigh that could strip paint.
 
@@ -230,7 +230,7 @@ You hold power somewhere. Over a report at work, a student, a younger sibling, a
 Someone is weighing you with this chapter right now. Reading it from that side is uncomfortable, and it's worth doing.
 
 ::: scene
-*LABEL*
+*Made up, but you've met these people.*
 
 Greta runs a small bakery. Her favourite employee is Tobi, nineteen, saving for college. At 9.40pm she texts him: "No pressure!! Any chance you could open tomorrow? Totally fine if not x"
 
@@ -348,7 +348,7 @@ Most norm mismatches dissolve on contact with a direct question, which is one of
 Apologies are a good example. How often people say sorry, and for what, is a family norm. Someone raised without the word may sound arrogant to someone raised with it after every sentence. A [non-apology](/playbook/non-apology-apologies) that puts the fault in your feelings is a different thing, and it shows up in any dialect.
 
 ::: scene
-*LABEL*
+*Made up, but you've met these people.*
 
 Saoirse has cooked for Kenji six times. He eats everything, has seconds, washes up without being asked, and has never once said thank you.
 
@@ -495,7 +495,7 @@ Sometimes, when your interests and the organisation's line up. HR's job is to pr
 ## The paper trail, used
 
 ::: scene
-*LABEL*
+*Made up, but you've met these people.*
 
 Ingrid has reported the mould in her flat four times. Every call handler is lovely. One says, "I'm so sorry, I'll escalate that personally." Nothing happens.
 
@@ -659,7 +659,7 @@ You can start from there. [Am I the one doing it?](ch:am-i-the-one-doing-it) is 
 ## The fear test, used
 
 ::: scene
-*LABEL*
+*Made up, but you've met these people.*
 
 Bronwen threw a mug at the kitchen wall. Not at Aziz. At the wall, after an hour of him following her from room to room, calling her pathetic in a calm, low voice.
 

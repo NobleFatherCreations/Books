@@ -107,7 +107,7 @@ Before you look: which question from the checklist does each one fail?
 ## The job sheet, used
 
 ::: scene
-*LABEL*
+*Made up, but you've met these people.*
 
 Pilar's husband, Rohan, books couples counselling. "Let a professional decide who's being unreasonable."
 
@@ -264,7 +264,7 @@ Before you look: is each one holding the torch, swinging it, or switching it off
 ## The torch, held
 
 ::: scene
-*LABEL*
+*Made up, but you've met these people.*
 
 Saskia mentions it over noodles, as if it were nothing. Anders "does the budget," so she texts him a photo of every receipt.
 
@@ -414,7 +414,7 @@ Before you look: where does each alarm belong?
 ## The plan, used
 
 ::: scene
-*LABEL*
+*Made up, but you've met these people.*
 
 Fourteen months after leaving Ciaran, Yasmin is three dates into seeing Leon. On the third, he says, "You should wear green more. It really suits you."
 
@@ -534,7 +534,7 @@ If any of them is true for you, you already have the answer this book can give. 
 ## Weighing stops, in practice
 
 ::: scene
-*LABEL*
+*Made up, but you've met these people.*
 
 For a year, Dorota has kept a notebook about Magnus's rages. Each one gets three explanations: he's exhausted, he's worried about money, she pushed him. She's been waiting for the pattern to become clear.
 
@@ -677,7 +677,7 @@ Before you look: would each one get everyone to the right platform?
 ## The announcement, used
 
 ::: scene
-*LABEL*
+*Made up, but you've met these people.*
 
 For two years Lorcan defended his brother-in-law, Achille. Achille fixed Lorcan's boiler, remembered his kids' birthdays, and rang him now and then, worried. "Moira's been so up and down. I just want her to get help."
 
@@ -799,7 +799,7 @@ Before you look: is each one a sensible step, a skipped one, or a staircase nobo
 ## The staircase, used
 
 ::: scene
-*LABEL*
+*Made up, but you've met these people.*
 
 Two years after she left, Clemence joins a choir and finds herself next to Signe, who sings flat and apologises to the whole alto section about it.
 

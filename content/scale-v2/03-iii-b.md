@@ -125,7 +125,7 @@ It's worth thirty seconds with the countdown first.
 ## The countdown, run for real
 
 ::: scene
-*LABEL*
+*Made up, but you've met these people.*
 
 Asha's boyfriend, Gabe, is late with his half of the rent for the third month running. Each time he pays a few days later, with a vague apology. Asha has started to wonder whether this is about money, or about control, or about seeing what she'll let slide.
 
@@ -270,7 +270,7 @@ Watch for the swap. You raise an impact, and within a minute the conversation is
 ## The three boxes at a family lunch
 
 ::: scene
-*LABEL*
+*Made up, but you've met these people.*
 
 At every family lunch, Mira's brother Fergus says something about her body. This time it was "Someone's found the biscuit tin," loud enough for their mum to hear.
 
@@ -418,7 +418,7 @@ Before you tap, decide whether each one is a face-reading myth or a method that 
 ## Checking facts, for real
 
 ::: scene
-*LABEL*
+*Made up, but you've met these people.*
 
 Cerys has spent three weeks reading Ollie's face. He's been doing "overtime" on Thursdays since March. When she asks about it, he scratches his neck, and she has read that liars touch their necks. She has also read that they don't.
 
@@ -578,7 +578,7 @@ A little lying over text is ordinary. In a 2009 study of nearly 7,000 instant me
 ## The full stop
 
 ::: scene
-*LABEL*
+*Made up, but you've met these people.*
 
 Wren sends her new boyfriend, Raf, a photo of her new haircut at lunchtime. Two hours later, he replies.
 

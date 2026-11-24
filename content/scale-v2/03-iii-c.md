@@ -97,7 +97,7 @@ A record helps whichever way it turns out. If you've been misremembering, it sho
 ## The sofa, settled
 
 ::: scene
-*LABEL*
+*Made up, but you've met these people.*
 
 Odile and Kwame have argued about the sofa for three years. Odile remembers Kwame choosing the mustard one in the shop and calling it "brave". Kwame remembers Odile choosing it, and himself saying "brave" as a warning.
 
@@ -132,7 +132,7 @@ Run the same table on yourself. Do your corrections always land your way? When t
 ## When the record was the problem
 
 ::: scene
-*LABEL*
+*Made up, but you've met these people.*
 
 In March, Stuart tells Lorna he'll renew the car insurance. In April it lapses. He says, "I never said that. You invent conversations, Lorna. You should get your memory looked at."
 
@@ -279,7 +279,7 @@ If someone is using edited or fake screenshots, recordings or images against you
 ## The crop, caught
 
 ::: scene
-*LABEL*
+*Made up, but you've met these people.*
 
 At 11pm Niamh gets a screenshot from Margot, her brother Rory's girlfriend. It's Rory, in his own words: "honestly my sister is exhausting, I can't keep doing this".
 
@@ -434,7 +434,7 @@ Notice which answers come back as facts and which come back as adjectives. "He w
 ## The account that held up
 
 ::: scene
-*LABEL*
+*Made up, but you've met these people.*
 
 On Monday, Femi's colleague Linnea asks him for a word. On Saturday, in the supermarket car park, she saw his sister Celeste with her husband.
 
@@ -568,7 +568,7 @@ The cost of a public confident view of a stranger, multiplied by ten thousand pe
 ## The draft that stayed a draft
 
 ::: scene
-*LABEL*
+*Made up, but you've met these people.*
 
 Yusuf is on his lunch break when the clip arrives in three group chats at once. A woman at a bus stop snaps "Don't touch me, get away!" at an older man, who looks bewildered. The caption says, "Imagine treating a pensioner like this." Four million views.
 
