@@ -330,7 +330,7 @@ How long since you said any of this out loud to someone who would push back? Thi
 
 ### How long have you been in this?
 
-Reading old messages, scrolling their profile, rereading the thread. My rough line is forty minutes. Past that, you've stopped gathering and started marinating. Nobody has ever found the missing piece at minute ninety of a scroll.
+Reading old messages, scrolling their profile, rereading the thread. My rough line is forty minutes. Past that, you've stopped gathering and started marinating. Minute ninety of a scroll is where the missing piece isn't.
 
 ### What time is it?
 
