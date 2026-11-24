@@ -77,7 +77,9 @@ An impression is an excellent instruction to *look* and a poor basis to *conclud
 And feelings are permanently authoritative about one thing, which is what you want. You don't need rung-one evidence to decide you don't enjoy someone's company, don't want the job, or don't want to go. Preference needs no proof, because it isn't a verdict about anyone. That's rule one from [This book in the wrong hands](ch:this-book-in-the-wrong-hands), wearing working clothes.
 
 ::: warn The ladder is for verdicts, not for safety
-You never need to climb this ladder before you protect yourself. A feeling of fear is enough to leave a room, a date or a house. And having no record doesn't make what you saw count for less: coercion is usually done where nobody is recording, and your own observation is real evidence. If you're in danger, skip the ladder and go to [When weighing stops](ch:when-weighing-stops). And if someone tells you "feelings aren't evidence" to shut down something you've raised about them, that's the move [This book in the wrong hands](ch:this-book-in-the-wrong-hands) warns about.
+You never need to climb this ladder before you protect yourself. A feeling of fear is enough to leave a room, a date or a house.
+
+Having no record doesn't make what you saw count for less: coercion is usually done where nobody is recording, and your own observation is real evidence. If you're in danger, skip the ladder and go to [When weighing stops](ch:when-weighing-stops). And if someone tells you "feelings aren't evidence" to shut down something you've raised about them, that's the move [This book in the wrong hands](ch:this-book-in-the-wrong-hands) warns about.
 :::
 
 ## Put it on a rung
