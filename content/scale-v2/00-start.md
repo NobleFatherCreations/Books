@@ -11,7 +11,7 @@ One thing comes before all of it.
 ## In danger right now?
 
 ::: warn danger Read this first
-If someone has hurt you, threatened you, cut you off from help, made leaving dangerous, or you're afraid in your body and not just your head, stop weighing. You don't need to be sure before you protect yourself. Get safe first. If it's an emergency, call your local emergency number.
+If someone has hurt you or threatened to, a child is at risk, you're being cut off from people who could help, leaving is being made hard or dangerous, or you're afraid in your body and not just your head, stop weighing. You don't need to be sure before you protect yourself. Get safe first. If it's an emergency, call your local emergency number.
 
 [When weighing stops](ch:when-weighing-stops) says what to do instead. The Long After's [If you're not safe right now](/longafter/if-youre-not-safe-right-now) has help lines by country and what to do if this device isn't private.
 :::
