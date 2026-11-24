@@ -622,7 +622,7 @@ That study was about women, but the pattern doesn't care about gender. Men are c
 
 ## When it really is both
 
-Sometimes it is. Two people who both escalate, both control, both say cruel things, with roughly comparable power and neither of them afraid. Swan and Snow's largest group was messy in a different way: relationships where one partner used more physical violence and the other more coercive control. Real relationships don't always sort into a victim and an abuser.
+Sometimes it is. Two people who both escalate, both control, both say cruel things, with roughly comparable power and neither of them afraid. Swan and Snow's largest groups were messy in a different way: relationships where both partners used violence and control, in different mixes. Real relationships don't always sort into a victim and an abuser.
 
 If the fear test comes back genuinely even, you have a different problem, and it needs a different kind of help. That may include help for the two of you together. Many domestic abuse services, including the US National Domestic Violence Hotline, advise against couples counselling in an abusive relationship, because what's said honestly in the counselling room can be punished at home. If anyone is afraid, start with individual help. [Weighing an expert](ch:weighing-an-expert) goes into why.
 
@@ -661,9 +661,9 @@ You can start from there. [Am I the one doing it?](ch:am-i-the-one-doing-it) is 
 ::: scene
 *LABEL*
 
-Tamsin threw a mug at the kitchen wall. Not at Aziz. At the wall, after an hour of him following her from room to room, calling her pathetic in a calm, low voice.
+Bronwen threw a mug at the kitchen wall. Not at Aziz. At the wall, after an hour of him following her from room to room, calling her pathetic in a calm, low voice.
 
-By the weekend, Aziz has shown her sister a photo of the broken mug. "I didn't want to say anything, but she's been violent. Honestly, we're both toxic." Her sister rings, worried. Tamsin starts to believe him.
+By the weekend, Aziz has shown her sister a photo of the broken mug. "I didn't want to say anything, but she's been violent. Honestly, we're both toxic." Her sister rings, worried. Bronwen starts to believe him.
 
 At midnight she runs the fear test, on paper.
 
