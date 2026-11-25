@@ -2,39 +2,37 @@
 title: Is it you, or is it everyone?
 question: Why are they lovely to everyone else and only like this with me?
 seo: Why are they nice to everyone but me? The audience test
-short: If they're nice to everyone but you, check the behaviour across three audiences: other people, witnesses and stakes. If it shows up with everyone, it's personality. If it's worse with everyone close, it's about intimacy. If it shows up only with you, only when nobody is watching, and switches off when someone walks in, it's being aimed.
+short: If they're nice to everyone but you, run three checks: how they treat other people, whether witnesses change it, and what's at stake. The same with everyone is personality. Worse with everyone close is about intimacy. Only with you, only when nobody's watching, and gone the moment someone walks in, means it's aimed at you.
 ---
 Who else gets this version of them?
 
-Anyone who has been told "that's just how he is" has wanted to ask it. If that's how he is, why is he a delight at his sister's birthday, patient with the kid at the checkout, and a complete charmer with your friends, and only like this with you, in the car, on the way home?
+You've probably been told "that's just how he is". Fine. Then why is he a delight at his sister's birthday, a complete charmer with your friends, and only like this with you, in the car, on the way home?
 
-Picture a stage. Personality plays the same show to a full house and an empty one. Strategy checks the seats before it starts.
-
-This chapter is the audience test. You check the same behaviour in front of three audiences and see whether the show changes.
+Picture a stage. Personality plays the same show to a full house and an empty one. Strategy checks the seats before it starts. This chapter checks the seats.
 
 ## Why are they nice to everyone except me?
 
-Sometimes because you're the person they're closest to, and closeness wears down everyone's manners. Sometimes because you're the person they've chosen to aim at. The way to tell is to check who else gets it. Worse with everyone close is about intimacy. Worse only with you, only in private, and gone the moment someone walks in, is targeting.
+Sometimes because you're the person they're closest to, and closeness wears down everyone's manners. Sometimes because you're the person they've chosen to aim at. Check who else gets it. Worse with everyone close is about intimacy. Worse only with you, only in private, and gone the moment someone walks in, is targeting.
 
 ## Personality is the same show every night
 
 A man who is brusque with waiters, colleagues, his mother and you is brusque. That may be unpleasant to live with, and it tells you about him.
 
-A man who is warm and easy with everyone, and cutting only with you, only when nobody else is present, is doing something else. The something else is targeting.
+A man who is warm and easy with everyone, and cutting only with you, only when nobody else is present, is targeting you.
 
-The test works because it separates **personality** from **strategy**, and almost nothing else does. Personality is expensive to switch on and off. Nobody's genuine short temper has ever waited politely for the in-laws to leave. Strategy is selective by definition: it appears where it's useful and vanishes where it would cost something.
+The test works because it separates **personality** from **strategy**. Personality is expensive to switch on and off. Nobody's genuine short temper has ever waited politely for the in-laws to leave. Strategy is selective. It turns up where it's useful and disappears where it would cost something.
 
-So a trait that reliably disappears in front of witnesses and reappears in private behaves like a decision, and the selectivity is the evidence of the decision.
+So a trait that reliably vanishes in front of witnesses and comes back in private behaves like a decision. The selectivity is the evidence.
 
-It's also why the test is hard to argue with. "That's just how he is" doesn't lose to your account of how it feels. It loses to the plain observation that it isn't how he is with anyone else.
+It's also why the test is hard to argue with. "That's just how he is" can always shrug off your account of how it feels. It has no answer to the plain observation that it's how he is with nobody else.
 
-::: handle
-Only you, only unwatched: that's information.
+::: ask
+Ask yourself: would this still be happening if someone walked in right now?
 :::
 
-## The three audiences
+## Three readings, one table
 
-Here is the same behaviour seen from three seats. Find the row that matches what you've seen.
+The columns are the seats: in public with you, in private with you, with other people. The rows are what the pattern usually means. Find the row that matches what you've seen.
 
 ::: compare The audience test
 | If it's… | In public, with you | In private, with you | With other people |
@@ -44,7 +42,7 @@ Here is the same behaviour seen from three seats. Find the row that matches what
 | Targeting | Warm, attentive, jokes about how lucky they are | Cold, cutting, contemptuous | Easy and generous with everyone, including the people closest to them |
 :::
 
-The bottom row has a Decoder page with a memorable name: [Dr Jekyll and Mr Hyde](/playbook/performative-public-affection-dr-jekyll-and-mr-hyde) (performative public affection). Its sharpest form is the partner whose public warmth is so convincing that your friends would never believe the private version, which is part of what the warmth is for.
+The bottom row has a Decoder page: [Dr Jekyll and Mr Hyde](/playbook/performative-public-affection-dr-jekyll-and-mr-hyde) (performative public affection). Its sharpest form is the partner whose public warmth is so convincing that your friends would never believe the private version, which is part of what the warmth is for.
 
 ## Three questions that fill in the table
 
@@ -56,48 +54,48 @@ You need all three. One friend saying "he's lovely with me" answers the first qu
 
 ## Is it me, or are they like this with everyone?
 
-Check before you decide. Think of how they treat a waiter, a colleague, a sibling and an old friend, in specifics. If they're this way with everyone, it's their personality. If they're like this with everyone close, it's about intimacy. If it's only you, and only unwatched, take that seriously. That pattern is information, and it isn't your imagination.
+Check before you decide, and check in specifics. Think of how they treat a waiter, a colleague, a sibling and an old friend. The same with all of them means it's their personality. Worse with the close ones means intimacy. If it's only you, and only when nobody's watching, take it seriously, and keep reading.
 
 ## What if everyone is difficult with me?
 
-Then turn the test around. If every partner, flatmate, boss and friend turns out to be the problem, the audience test points at the one person who was in every room. That might be bad luck, or a detector tuned to one kind of person. It might be you. [Am I the one doing it?](ch:am-i-the-one-doing-it) checks.
+Then turn the test around. If every partner, flatmate, boss and friend has turned out to be the problem, the audience test points at the one person who was at every one of those dinners. That might be bad luck, or a detector tuned to one kind of person. It might be you. [Am I the one doing it?](ch:am-i-the-one-doing-it) checks.
 
-Two honest footnotes. A detector set by an old relationship can keep choosing the same kind of person, and [Your detector has a history](ch:your-detector-has-a-history) is about that. And people who have been treated badly for years sometimes find it everywhere afterwards, which is a reason to check, not a verdict on you.
+Two honest footnotes. A detector set by an old relationship can keep choosing the same kind of person, and [Your detector has a history](ch:your-detector-has-a-history) is about that. And people who have been treated badly for years sometimes find it everywhere afterwards, which is a reason to check. It's no verdict on you.
 
 ## How to gather this without building a surveillance operation
 
-You aren't opening a field office. Turning your life into an investigation is its own harm, and it rarely gives you better answers than ordinary life would.
+You aren't opening a field office. Turning your life into an investigation is a harm of its own, and it rarely tells you more than ordinary life would.
 
-Mostly this comes from being in rooms and noticing, over time. Some of it comes from a light, non-leading question to someone with no stake in the answer. *"What's he like at work?"* gets you information. *"Does he ever snap at you like this?"* gets you agreement. One is a question. The other is a petition looking for signatures.
+Mostly this comes from being in rooms and noticing, over time. Some of it comes from a light question to someone with no stake in the answer. *"What's he like at work?"* gets you information. *"Does he ever snap at you like this?"* gets you agreement. One is a question. The other is a petition looking for signatures.
 
 ::: warn The line
 Don't read their messages, track their location or recruit people into watching them. The Decoder files the first two under [monitoring and surveillance](/playbook/monitoring-surveillance) and the third under [proxy recruitment](/playbook/flying-monkeys-proxy-recruitment), and they are no more acceptable when you do them. Beyond the ethics, it destroys the test. Covert investigation reliably produces evidence, changes you into someone you didn't want to be, and hands them a legitimate grievance that will bury the original question entirely.
 :::
 
-## The honest complication: intimacy or observation
+## Intimacy, or an audience?
 
-Some behaviour really is relationship-specific without being malicious, and this chapter would be dangerous without saying so.
+Some behaviour really is saved for one relationship without being malicious.
 
-Intimacy surfaces things distance never does. People are shorter with those they trust most, because familiarity removes the performance. Someone may be endlessly patient at work and snappish at home precisely because home is the one place they stop managing themselves. That's a real problem, worth raising. It isn't the same as targeting.
+Closeness brings out things distance never does. People are shorter with the ones they trust most, because they've stopped performing. Someone may be endlessly patient at work and snappish at home because home is the one place they stop managing themselves. You know this one. You're nicer to the delivery driver than to whoever you live with. That's a real problem, and worth raising. Targeting is something else.
 
-The question that separates them is **whether it tracks intimacy or tracks observation.** Worse with everyone close and better with everyone distant is about intimacy. Worse specifically when nobody is watching, and switched off the moment a witness appears, is about being seen. Those are very different findings, and the second is the one this chapter exists for.
+The question that separates them is **whether it tracks closeness or tracks being watched.** Worse with everyone close and better with everyone distant is about intimacy. Worse specifically when nobody is watching, and switched off the moment a witness appears, is about being seen.
 
 ::: scene
 *Made up, but you've met these people.*
 
-Pavel has started to wonder whether Annika saves her worst for him. At work she's famous for her patience. At home, if he loads the dishwasher wrong, he gets a sigh that could strip paint.
+Tony has started to wonder whether Michelle saves her worst for him. At work she's famous for her patience. At home, if he loads the dishwasher wrong, he gets a sigh that could strip paint.
 
-He tries the three questions over a month, without asking anyone anything leading.
+He tries the three questions for a month, and asks nobody anything leading.
 
-Across people: on the phone to her dad she's short within two minutes. With her sister, the same. With her colleague who drops round, she's lovely.
+Across people: on the phone to her dad she's short within two minutes. With her sister, the same. With the neighbour who drops round, she's lovely.
 
-Across witnesses: at his friend's birthday she snapped at him over a lost coat in front of six people, then went pink and apologised in the taxi.
+Across witnesses: their two teenagers are in the kitchen for most of it, and she doesn't change gear for them. When his mother visits, she's all smiles.
 
-Across stakes: it doesn't cluster around anything he asks for. It clusters around Fridays.
+Across stakes: it doesn't cluster around anything he asks for. It clusters around Fridays, and around the weeks when he's the one doing the school run.
 
-So it tracks intimacy, not observation. The closer you are to Annika, the less patience you get, and witnesses don't change it. That's a problem worth raising. Targeting it isn't.
+Then their fifteen-year-old, loading her own plate into the dishwasher, says, "Mum's only like that with you, you know."
 
-On Sunday he names it plainly: "You're shorter with me at home than you are with anyone at work, and I mind." She's defensive for an hour, then says, "My dad says the same. I'm running on empty by Friday." They start there.
+Tony doesn't know whether that's a witness or a teenager taking a side. He writes it in the third column anyway, and leaves the other two half full.
 :::
 
 ## Sort the readings
@@ -105,17 +103,18 @@ On Sunday he names it plainly: "You're shorter with me at home than you are with
 Cover the answers. Personality, intimacy or targeting?
 
 ::: sort
-- She's sharp with you, the shop assistant, her boss and her own brother, in public and in private. || Personality. Unpleasant, maybe, but the same show for every audience.
-- He's snappish with you, his mum and his best friend, and polite with everyone else. Witnesses make no difference. || Intimacy. Closeness wears down his manners. Worth raising, not targeting.
-- She's warm to you at dinner parties and silent and cold the moment the front door closes. With her friends she's warm all the time. || Targeting. Only you, only unwatched.
 - He mocks your accent at home, and goes quiet mid-sentence when his sister walks in. || Targeting. A behaviour that pauses when observed can be controlled.
-- She's short with you only when you ask her for help with money. || Look at stakes. It appears where you ask for something, which is worth watching over time.
 - Everyone you've dated for ten years has "turned out" cold with you and only you. || Turn the test around. You're the common factor, so [check the mirror](ch:am-i-the-one-doing-it) before the verdict.
+- He's snappish with you, his mum and his best friend, and polite with everyone else. Witnesses make no difference. || Intimacy. Closeness wears down his manners. Worth raising, and a different problem from targeting.
+- Charming at the party, cold the moment the car doors shut. What do you ask yourself? || Would this still be happening if someone walked in right now? Then check the other two columns.
+- She's sharp with you, the shop assistant, her boss and her own brother, in public and in private. || Personality. Unpleasant, maybe, but the same show for every audience.
+- She's short with you only when you ask her for help with money. || Look at stakes. It appears where you ask for something, which is worth watching over time.
+- She's warm to you at dinner parties and silent and cold the moment the front door closes. With her friends she's warm all the time. || Targeting. Only you, only unwatched.
 :::
 
 ## If someone turns the audience test on you
 
-The test can be borrowed. "Everyone thinks you're the problem" sounds like an audience test, but check who counted the votes. If the "everyone" is people the other person briefed first, that's a [smear campaign](/playbook/smear-campaigns), not a survey. And "I'm only like this with you because you provoke me" is the targeting pattern describing itself. [When you both say you're the victim](ch:when-you-both-say-victim) takes that line apart.
+The test can be borrowed. "Everyone thinks you're the problem" sounds like an audience test, but check who counted the votes. If the "everyone" is people the other person briefed first, that's a [smear campaign](/playbook/smear-campaigns) with a hand-picked sample. And "I'm only like this with you because you provoke me" is the targeting pattern describing itself. [When you both say you're the victim](ch:when-you-both-say-victim) takes that line apart.
 
 If someone hands you this chapter to prove you're the difficult one, reread [This book in the wrong hands](ch:this-book-in-the-wrong-hands).
 
@@ -152,17 +151,17 @@ Now hand the card to four different people and let each of them say it to you.
 | Your landlord, about letting a buyer view the flat | Your lease renewal, which is to say your home | Whatever he wants to call it |
 :::
 
-The same eighteen words, read in the same tone. Four different sentences.
+The same fourteen words, read in the same tone. Four different sentences.
 
-::: handle
-Same words, different weight.
+::: ask
+Ask yourself: what would a no cost here, and who would pay it?
 :::
 
 ## What is power?
 
 Power, in this book, means who can take what from whom, and how easily. Money, housing, a job, a visa, the children, a reputation, a community you can't leave, physical size, being the person others believe. Whoever could cost the other more holds more power in that relationship, whether or not they ever use it.
 
-That last clause matters most. Power changes what words mean even when it's never used, because the person with less of it is always doing the arithmetic.
+Power changes what words mean even when it's never used, because the person with less of it is always doing the arithmetic.
 
 ## Why does it matter who says it?
 
@@ -170,7 +169,7 @@ Refusing has a price, and the price depends on what the speaker can do to you. A
 
 ## Map it before you judge the words
 
-Most people never do this explicitly. It takes fifteen seconds.
+Most people never do this out loud. It takes fifteen seconds, and the person with less power has usually done it already, twice, in the shower.
 
 - What can they take away from me?
 - What can I take away from them?
@@ -180,13 +179,13 @@ Most people never do this explicitly. It takes fifteen seconds.
 
 The answers set the standard you should apply. They don't decide the case. They decide how much the same behaviour means.
 
-Add the quiet ones too, because they're easy to miss: whose name is on the tenancy, who can drive, who has family nearby, who knows the passwords, who has somewhere else to sleep tonight.
+Add the quiet ones too, because they're easy to miss: whose name is on the lease, who can drive, who has family nearby, who knows the passwords, who has somewhere else to sleep tonight.
 
 ## What power does to ordinary behaviour
 
 - **Requests become instructions.** A boss saying "no pressure" has not removed the pressure. They've removed their name from it. The Decoder calls the general move [plausible deniability](/playbook/plausible-deniability).
 - **Persistence becomes coercion.** Asking three times is asking three times, from a peer. From someone who controls something you need, the third ask isn't a question, and both of you know it.
-- **Silence becomes a message.** When the powerful say nothing, the less powerful have to interpret it, and interpretation under threat runs worst-case. A hint about what might happen is [intimidation](/playbook/intimidation) even when nothing is ever said outright.
+- **Silence becomes a message.** When the powerful say nothing, the less powerful have to interpret it, and they assume the worst, because the worst is the safe guess. A hint about what might happen is [intimidation](/playbook/intimidation) even when nothing is ever said outright.
 - **Jokes become policy.** A remark from above sets a norm, whatever was intended. If the head of the department jokes that holidays are for the weak, nobody books a holiday.
 - **Consent becomes unreadable.** Agreement from someone who can't afford to refuse tells you nothing about what they wanted.
 - **Small complaints become big weapons.** Someone with access to formal channels can turn a minor disagreement into a warning, a report or a legal letter. The Decoder's page is [administrative escalation](/playbook/administrative-escalation).
@@ -197,13 +196,13 @@ People with more power tend to see it less, and this isn't only a moral failing.
 
 In a 2003 review in *Psychological Review*, the psychologists Dacher Keltner, Deborah Gruenfeld and Cameron Anderson set out a theory, built from many studies, of how power changes people. Having less power, they argued, makes people more alert to threat and more attentive to the people above them, and better at judging what those people think of them. Having more power makes people quicker to act on impulse and less accurate about what others think and want.
 
-The findings they gather go all the way down to the petty. Among them: people with power are more likely to interrupt, and more likely to take the second cookie from a shared plate.
+The findings they gather go all the way down to the petty. Among them: people with power are more likely to interrupt, and more likely to take the second cookie from a shared plate. If you've ever chaired a meeting, you know who got the last one.
 
 So the person with less power has usually drawn the map already. The person with more often hasn't noticed there's a map.
 
 ## Can I really say no to my boss?
 
-On paper, often yes. In practice, it depends on what a no would cost you, and you are the best judge of that. If refusing would cost you shifts, a reference or the next contract, the request is working as an instruction, however politely it was put. Treat it as one, and keep a dated note of what was asked.
+On paper, often yes. In practice, it depends on what a no would cost you, and you're the best judge of that. If refusing would cost you shifts, a reference or the next contract, the request is working as an instruction, however politely it was put. Treat it as one, and keep a dated note of what was asked.
 
 [Weighing a boss](ch:weighing-a-boss) separates a bad manager from a coercive one.
 
@@ -227,22 +226,20 @@ This is the half readers skip. A map that only ever raises the bar for the peopl
 
 You hold power somewhere. Over a report at work, a student, a younger sibling, a client, a lodger, a partner who depends on your income, a child. In those relationships your ordinary behaviour lands with the same amplification. Your bad mood is weather to you and climate to them. Your casual preference is an instruction. Your "I'm fine" is something they'll spend two days decoding.
 
-Someone is weighing you with this chapter right now. Reading it from that side is uncomfortable, and it's worth doing.
+Someone is weighing you with this chapter right now. They've already worked out what you could take from them. You may not have noticed you were holding it.
 
 ::: scene
 *Made up, but you've met these people.*
 
-Greta runs a small bakery. Her favourite employee is Tobi, nineteen, saving for college. At 9.40pm she texts him: "No pressure!! Any chance you could open tomorrow? Totally fine if not x"
+Lorraine has run her bakery for thirty years. At 9.40pm she texts Tobi, nineteen, saving for college: "No pressure!! Any chance you could open tomorrow? Totally fine if not x"
 
-He says yes. He always says yes. She has told her sister he's the keenest kid she's ever hired.
+He says yes. He always says yes. She's told her sister he's the keenest kid she's ever hired.
 
-Then she runs the map on herself. She writes the rota. She'll write his reference. He needs the hours. She has three other staff, and he has one job. If they fell out, the other staff would take her word, not his.
+Then she runs the map on herself. She writes the rota and she'll write his reference. He has one job; she has four staff, and they'd back her. At nineteen, she said yes to everything too.
 
-Every yes she's ever had from Tobi tells her nothing about what he wanted. She's been mistaking a power gap for enthusiasm.
+Extra shifts now go on a sheet each Monday, with "can't" printed as an option.
 
-So she changes the asking. Extra shifts go up on a sheet at the start of the week, with "can't do it" printed as an option. She tells him, once, that a no won't change his hours.
-
-Three weeks later he writes "can't" next to a Sunday for the first time. His hours stay the same. She notices she's more pleased by that one word than by any yes he's given her.
+Three weeks later he writes "can't" next to a Sunday. His hours stay the same.
 :::
 
 ::: bridge repair:power-you-didnt-notice-holding
@@ -258,6 +255,7 @@ Cover the answers. What has power turned each sentence into?
 - A flatmate, about the washing up, for the third time. || Still a request. Annoying, but neither of you holds anything over the other.
 - Your landlord, asking a third time whether you'd "consider" the higher rent early. || Persistence from someone who controls your home. The third ask is pressure.
 - A partner who holds all the money goes quiet after you buy a coat. || Silence you have to decode, from someone who controls what you need. Watch what happens to the money next.
+- Your flatmate pays the rent on time and asks you, for the second time, to keep the noise down after eleven. You want to wave it off. What do you ask yourself? || What would a no cost here, and who would pay it? Here, nobody holds much over anybody. It's a request, and a fair one.
 - The head teacher, joking to new staff that "nobody here goes home before six". || Policy, wearing a joke. Watch who leaves at five.
 - You, texting your intern at 10pm: "only if you're free!" || A request from you, an instruction to them. Run the map on yourself.
 :::
@@ -277,7 +275,7 @@ A controlling person can claim the power map backwards: "You have all the power 
 :::
 
 ::: try Try it today
-Take the sentence that's bothering you. Write who said it and answer the five map questions in one line each. Then reread the sentence as if a friend with nothing over you had said it. If your reaction drops, the weight came from power. That weight is real, and you're allowed to count it.
+Take the sentence that's bothering you. Write who said it and answer the five map questions in one line each. Then reread the sentence as if a friend with nothing over you had said it. If your reaction drops, the weight came from power. You're allowed to count it.
 :::
 
 Power explains why the same words can weigh more. Difference explains why innocent words can read as hostile in the first place, and it's where a lot of honest mistakes about people live: [Difference is not malice](ch:difference-is-not-malice).
@@ -290,21 +288,19 @@ Power explains why the same words can weigh more. Difference explains why innoce
 title: Difference is not malice
 question: Are they being rude or cold on purpose, or do they just do things differently?
 seo: Rude or just different? When it's not a red flag at all
-short: Many things that feel like red flags are just different norms: how direct people are, how much shows on their face, reply speed, apologies and money. Culture, neurotype, class, generation and language all set these defaults. Ask about the norm, not the incident, then check the aftermath. Difference never excuses harm. Control looks the same in any dialect.
+short: Red flag or just different? Many things that feel like red flags are different norms: how direct people are, how much shows on their face, reply speed, apologies and money. Culture, neurotype, class, generation and language all set them. Ask about their usual way first, then check the aftermath. Difference never excuses control.
 ---
 You carry a rulebook for how people are supposed to behave. You never signed it, nobody showed it to you, and you enforce it like a nightclub bouncer.
 
-Your family wrote most of it. Your region, your class, your generation, your neurology and your first language added chapters. It has never once been checked by anyone outside the building. And because it's the only one you've lived inside, it doesn't feel like a rulebook. It feels like a description of normal.
-
-That's exactly why breaking it reads as a choice.
+Your family wrote most of it. Your region, your class, your generation, your neurology and your first language added chapters. It has never once been checked by anyone outside the building. And because it's the only one you've lived inside, it feels like a plain description of normal, which is exactly why anyone breaking it seems to be doing it on purpose.
 
 So this chapter is a phrasebook. Behaviour has dialects, and a lot of what reads as cold, rude or evasive is someone speaking theirs.
 
 ## Is it a red flag or just a difference?
 
-Often a difference. Directness, eye contact, reply speed, how much someone shows on their face, how often they apologise: all of these vary by culture, neurotype, class, generation and language. Ask about the norm, not the incident. A difference explains itself and adjusts where it can. A red flag stays the same, or gets defended, after you've asked.
+Often a difference. Directness, eye contact, reply speed, how much someone shows on their face, how often they apologise: all of these vary by culture, neurotype, class, generation and language. Ask about their usual way before you ask about the incident. A difference explains itself and adjusts where it can. A red flag stays the same, or gets defended, after you've asked.
 
-A large share of false positives aren't misread intentions. They're misread *norms*. ([The two errors](ch:the-two-errors-and-what-they-actually-cost) covers what a false positive costs.)
+A lot of false positives are misread *norms*. ([The two errors](ch:the-two-errors-and-what-they-actually-cost) covers what a false positive costs.)
 
 ## The phrasebook
 
@@ -316,16 +312,16 @@ Read across. The left column is what you saw. The right column is what to ask be
 | Says the hard thing straight away | Brutal, aggressive | In plenty of families and cultures, directness is respect: you tell the truth to people you take seriously | "Is that a decision, or are you thinking out loud?" |
 | Hints, softens, never says a flat no | Evasive, manipulative | In much of the world a flat no is rude, and the no lives in the hint | "If this were a no, would you tell me straight out?" |
 | A flat face and voice | Cold, hiding something | Common in many autistic people, and in people raised in undemonstrative homes | "I can't tell how you feel about this. Can you say?" |
-| Little eye contact | Shifty, lying | Respect in some cultures, comfort for many autistic people, shyness for others | Nothing about honesty. It detects nothing. |
+| Little eye contact | Shifty, lying | Respect in some cultures, comfort for many autistic people, shyness for others | None. Eye contact tells you nothing about honesty |
 | Answers the question you asked, not the one you meant | Obtuse, dodging | Literal processing, common in autistic people and in anyone speaking a second language | Ask the question you actually mean |
 | Short, blunt messages | Rude, annoyed | A second language, where softeners ("would you possibly mind") are the hardest part to learn | "Are we okay?" once, then believe the answer |
 | Replies two days later | Punishing you | A different generation or a different life, where messages are post rather than conversation | "Is two days normal for you, or was it this message?" |
 | Talks over you, loudly, at dinner | Aggressive, dismissive | In plenty of families, overlapping talk is enthusiasm and silence would be the insult | "Do you want me to fight for the floor, or wait?" |
 | Never says thank you for small things, or says it constantly | Arrogant, or fake | Gratitude and apology norms vary hugely; in some homes you only thank guests | "Does thanking you feel formal to you?" |
-| Keeps score of every pound, or never notices the bill | Tight and controlling, or careless and using you | Money habits are class and family habits. Growing up with little or with plenty both leave marks | "How did money work in your house?" |
+| Keeps score of every penny, or never notices the bill | Tight and controlling, or careless and using you | Money habits are class and family habits. Growing up with little or with plenty both leave marks | "How did money work in your house?" |
 :::
 
-Two rows need a note. Eye contact has been treated as a lie detector for about a century and it has never worked; [Can you tell when someone is lying?](ch:can-you-tell-when-someone-is-lying) has the research. And text style differs so much by age that it gets its own chapter, [Reading a text message](ch:reading-a-text-message).
+Two rows need a note. Eye contact gets treated as a lie detector and it has never worked; [Can you tell when someone is lying?](ch:can-you-tell-when-someone-is-lying) has the research. And text style differs so much by age that it gets its own chapter, [Reading a text message](ch:reading-a-text-message).
 
 ## Misreading runs both ways
 
@@ -333,7 +329,7 @@ When an autistic person and a non-autistic person misread each other, the usual 
 
 The same logic holds across any two dialects. If you find someone impossible to read, there's a fair chance they find you just as baffling, and are quietly drawing conclusions about your character too.
 
-The Decoder has a page for the version where one dialect gets marked as the correct one and every other way of speaking or working gets graded down: [cultural penalty](/playbook/cultural-penalty). It's worth reading with yourself in mind.
+The Decoder has a page for the version where one dialect gets marked as the correct one and every other way of speaking or working gets graded down: [cultural penalty](/playbook/cultural-penalty). Read it with your own rulebook open. Most of us have marked someone down for doing it their way.
 
 ::: pull
 The question that catches this: **does my read depend on an unstated assumption about how people are supposed to behave?** If so, check the assumption before it hardens into a verdict.
@@ -341,7 +337,7 @@ The question that catches this: **does my read depend on an unstated assumption 
 
 ## How to check
 
-Ask about the norm, not the incident, and without accusation. "Do you usually take a while to reply, or was this about my message?" "When you say it like that, do you mean it as a decision or as thinking out loud?"
+Ask about the usual, before the incident, and without accusation. "Do you usually take a while to reply, or was this about my message?" "When you say it like that, do you mean it as a decision or as thinking out loud?"
 
 Most norm mismatches dissolve on contact with a direct question, which is one of the few genuinely cheerful facts in this book. They survive for years only because nobody asks. Each person privately concludes the other is doing something to them, and two decent people spend a decade building cases against each other over a full stop and a missing thank-you.
 
@@ -350,19 +346,15 @@ Apologies are a good example. How often people say sorry, and for what, is a fam
 ::: scene
 *Made up, but you've met these people.*
 
-Saoirse has cooked for Kenji six times. He eats everything, has seconds, washes up without being asked, and has never once said thank you.
+Danielle has cooked for Kenji six times. He has seconds, washes up unasked, and has never once said thank you. Her mum, consulted by phone, agrees he takes her for granted, with some enthusiasm.
 
-By the sixth dinner she's built a theory. He takes her for granted. Her mum, consulted by phone, agrees with some enthusiasm.
+Danielle asks about the norm instead. "You never say thanks for dinner. Is that a you thing or a me thing?"
 
-Before she says anything that starts with "you always", she asks about the norm. "Can I ask something without it being a fight? You never say thanks for dinner. Is that a you thing, or a me thing?"
+Kenji looks startled. "In my house you only thanked guests. Thanking family was like calling them visitors. I wash up. That was the thank you."
 
-Kenji looks startled. "In my house you only thanked guests. Thanking family was like saying they were visitors." He thinks about it. "I wash up. That was the thank you."
-
-She tells him that in her family, the words are the thank you, and the washing up is just washing up.
+She tells him that in her family the words are the thank you, and the washing up is just washing up.
 
 The next week he says, slightly awkwardly, "Thanks. That was really good." He still washes up.
-
-That's the aftermath that matters. The difference explained itself, and he adjusted where he could.
 :::
 
 ## Check the aftermath
@@ -373,8 +365,8 @@ Asking is the first half of the test. The second half is what happens after you'
 
 **Control insists.** "That's just how I am" arrives to defend something that keeps shrinking your choices, and asking about it makes you the problem.
 
-::: handle
-Different isn't dangerous. Check the aftermath.
+::: ask
+Ask yourself: what rule did I assume they were breaking?
 :::
 
 ::: warn This cuts both ways — it is not a shield
@@ -394,6 +386,7 @@ Cover the answers, then decide.
 - "In my family we say what we think," after calling your work stupid in front of your friends, every time. You've stopped mentioning work. || Control wearing directness. Your moves shrank.
 - She's autistic, doesn't do small talk, tells you so, and asks what you need from her instead. || Difference, handled well.
 - His family talks over each other at dinner and you leave feeling shouted at. || Probably difference. Ask how he'd like you to join in.
+- Your new colleague's emails have no greeting and no sign-off, and you've decided she dislikes you. What do you ask yourself? || What rule did I assume she was breaking? Then ask her about her usual, once.
 - "In my family, partners don't see friends without asking first." || A rule about your life. Difference describes their own behaviour. A rule governs yours. [A boundary or a rule](ch:a-boundary-or-a-rule) sorts it.
 - He's flat when you share good news. || Can't tell yet. Ask about the norm, then watch the aftermath.
 :::
@@ -414,7 +407,7 @@ question: How do I judge a school, church, employer or organisation that treated
 seo: Institutional betrayal: how to judge what a system rewards
 short: Institutional betrayal is hard to judge because an institution has no single mind, so "did they mean to hurt me?" has no answer. Ask what the structure rewards and protects instead. Who decides? Who audits? Who can remove the people at the top? What happened to the last three people who complained? Institutions leave paper, so check the records.
 ---
-Start with three things almost everyone believes.
+Three beliefs to drop before you start.
 
 ::: myth
 - **Myth:** If the people are kind, the place is safe. / **True:** Kind people inside a bad structure still produce bad outcomes. Judging an institution by the person in front of you is like judging the weather by the person handing you an umbrella.
@@ -422,22 +415,22 @@ Start with three things almost everyone believes.
 - **Myth:** Their policy says they take concerns seriously, so they do. / **True:** The policy tells you what they want to be seen to reward. What happened to the last three people who raised a concern tells you what they actually reward.
 :::
 
-Everything before this chapter weighs a person. Institutions need different instruments. Use the person tools on an organisation and you go wrong in both directions: enraged at a machine that was never thinking about you, or reassured by individuals who are genuinely kind inside a structure that isn't.
+Everything before this chapter weighs a person. Institutions need different instruments. Use the person tools on an organisation and you go wrong in both directions: enraged at a machine that was never thinking about you, or reassured by individuals who are genuinely kind inside a structure that isn't. Most of us have shouted at a call handler who earns less than we do and decides nothing.
 
 ## There is no mind to read
 
 An institution has no intent. It has hundreds or thousands of people, most of whom mean well, working inside incentives that produce an outcome none of them chose.
 
-That's why the person question fails. "Did they mean to hurt me?" has no answer, because there is no *they*. The question you need isn't about motive at all.
+That's why the person question fails. "Did they mean to hurt me?" has no answer, because there is no *they*. Swap motive for incentive.
 
 ::: pull
-**What does this structure reward, and what does it protect?** Not what does it say. What does it reward.
+**What does this structure reward, and what does it protect?** The website says what it values. The last three complaints show what it rewards.
 :::
 
 An organisation that says it welcomes concerns, and reliably sidelines the people who raise them, has told you what it rewards. Nobody needed to be a villain for that to be true, and it will keep happening after every individual involved has left.
 
-::: handle
-Ask what the system rewards.
+::: ask
+Ask yourself: what happened to the last person who complained?
 :::
 
 ## Why did nobody do anything when I reported it?
@@ -448,15 +441,15 @@ The psychologists Carly Smith and Jennifer Freyd gave this a name in 2014: **ins
 
 ## Draw the org chart
 
-Every organisation will hand you its org chart: boxes, names, lines. Draw your own instead, and add the three lines nobody prints: where the money comes from, where complaints go, and who can fire the top box.
+Every organisation will hand you its org chart, all boxes and names. Draw your own instead, and add the three lines nobody prints: where the money comes from, where complaints go, and who can fire the top box.
 
-Then ask five questions of the drawing. They do more work than any amount of assessing how the place feels.
+Then ask five questions of the drawing. They do more work than any amount of sensing how the place feels.
 
 1. **Who decides?** Named people, or an unaccountable process?
 2. **Who audits?** Is anyone outside allowed to look, and do they publish what they find?
 3. **Who can remove the people at the top, and has it ever happened?**
 4. **What is disclosed without being asked?** Voluntary transparency is expensive, which is why it means something.
-5. **What happens to people who raise things?** The single most revealing question about any organisation. Follow the last three people who complained.
+5. **What happens to people who raise things?** If I could ask only one, I'd ask this. Follow the last three people who complained.
 
 Then trace your own complaint through the chart.
 
@@ -468,13 +461,13 @@ Then trace your own complaint through the chart.
 - If it involves a child at risk → Don't weigh the institution. Report it straight to the police or child protection services. [When weighing stops](ch:when-weighing-stops) has the rest.
 :::
 
-## The compensation: institutions leave paper
+## Institutions leave paper
 
-Here's the good news, and it's substantial. With a person, you're often stuck guessing. With an institution, you frequently don't have to guess at all.
+With a person, you're often stuck guessing. With an institution, you frequently don't have to guess at all.
 
 - **Filed accounts.** Where the money comes from and where it goes.
 - **Registers and filings.** Who is in charge, who else they're connected to, how long they've been there.
-- **Judgments and orders.** What courts and regulators have already found.
+- **Court rulings and orders.** What courts and regulators have already found.
 - **Inquiries and reports.** Often thousands of pages of testimony, already gathered and published.
 - **Their own published policies.** Which you can hold up against what happened to you. That's frequently the fastest route to a finding.
 
@@ -497,17 +490,17 @@ Sometimes, when your interests and the organisation's line up. HR's job is to pr
 ::: scene
 *Made up, but you've met these people.*
 
-Ingrid has reported the mould in her flat four times. Every call handler is lovely. One says, "I'm so sorry, I'll escalate that personally." Nothing happens.
+Carol uses a wheelchair and lives on the fourth floor. The lift has broken five times since spring. When it's down, she can't leave the flat: no shopping, no physio, no work. She's reported it each time. Every call handler is lovely. One says, "I'm so sorry, I'll escalate that personally."
 
-She stops asking whether the housing association cares, and draws the chart.
+She stops asking whether her landlord cares, and draws the chart.
 
-Who decides? A repairs team that, according to their own annual report, is measured on calls closed. Who audits? A regulator, named at the bottom of their complaints page. What's disclosed? Their published policy promises a written response within ten working days. She has never had one.
+Who decides? A repairs team that, according to the landlord's own website, prides itself on closing tickets within two days. So an engineer resets the lift, the ticket closes, and it breaks again by Thursday. Who audits? The city's housing inspector, named at the bottom of their complaints page. What's disclosed? Their published policy promises a written response within ten working days. She has never had one.
 
-Then the last three people who complained. Two neighbours waited months. A third copied in her local councillor and had a contractor round within a week.
+Then the last three people who complained. Two neighbours waited months for a broken entry door. A third wrote to a local reporter and had a contractor round within a week.
 
-So the structure rewards closing calls and responds to pressure from outside it. Nobody there wishes her harm. Nobody there is paid to fix her ceiling either.
+Nobody there wishes her harm. Nobody there is paid to fix the lift properly either.
 
-She writes one letter. It quotes their own policy, lists the four dates she called and the deadline they missed, and copies in the regulator. The contractor comes nine days later.
+She writes one letter. It quotes their own policy, lists the five dates she was stuck indoors and the deadline they missed, and copies in the housing inspector. A contractor comes nine days later, with a replacement part.
 :::
 
 ## Two errors to avoid
@@ -525,6 +518,7 @@ Cover the answers. Which of the five chart questions does each fact answer?
 ::: sort
 - The chief executive's brother chairs the board. || Who can remove the people at the top. Here, probably nobody.
 - They publish an independent safeguarding review every year, including the bad bits. || What is disclosed without being asked. Expensive, so it means something.
+- Your gym has charged you twice for four months, and every person on the phone is lovely about it. What do you ask yourself? || What happened to the last person who complained? Then check where complaints go on the chart.
 - All three people who complained last year have since left. || What happens to people who raise things. The most revealing answer on the page.
 - Every decision is made "by the committee", and nobody can tell you who's on it. || Who decides. An unaccountable process.
 - The regulator hasn't visited in eleven years. || Who audits. On paper, someone. In practice, nobody.
@@ -552,7 +546,7 @@ short: When both people say they're the victim, don't count who shouted. Ask who
 ---
 Two people. Two stories. Both of them say, "I'm the one being hurt."
 
-Friends pick sides by who got to them first. Family picks by blood. Sometimes a counsellor splits the difference down the middle. And somewhere a person who has been controlled for years sits at the kitchen table at midnight, typing "am I the abuser" into a search bar, because of the one time they screamed back.
+Friends pick sides by who got to them first. Family picks by blood. And somewhere a person who has been controlled for years sits at the kitchen table at midnight, typing "am I the abuser" into a search bar, because of the one time they screamed back.
 
 This chapter gives you a way through that doesn't depend on who tells it better.
 
@@ -560,16 +554,16 @@ This chapter gives you a way through that doesn't depend on who tells it better.
 If either of you has hit, choked, shoved, restrained or threatened the other, or you're afraid right now of what will happen when they get home, stop weighing. Go to [When weighing stops](ch:when-weighing-stops), and find the domestic abuse service where you live through [Find help](/longafter/find-help). You don't need to have worked out who started it to get help. Tell them everything, including anything you did yourself.
 :::
 
-## Count the fear, not the shouts
+## Who listens for the key?
 
 Picture a key turning in the front door.
 
 In some homes, nobody notices. In others, one person hears it and something changes in their body. They check the kitchen. They put the phone face down. They rehearse the opening line. They read the face in the hallway before they say hello.
 
-The person who listens for the key is the one to pay attention to. Not the one who shouted loudest last Tuesday.
+Pay attention to the person who listens for the key. Who shouted loudest last Tuesday tells you much less.
 
-::: handle
-Ask who is afraid, not who shouted.
+::: ask
+Ask yourself: which of us listens for the other's key?
 :::
 
 ## What is reactive abuse?
@@ -618,7 +612,7 @@ The research points the same way. Michael Johnson's typology, covered in [Confli
 
 That study was about women, but the pattern doesn't care about gender. Men are controlled and provoked into reacting too, and the reaction gets used against them the same way.
 
-"Mutual abuse" is a tidy phrase. It lets everyone feel fair, it lets friends stay neutral, and it lets a counsellor avoid picking a side. For the person doing the controlling, it has one more use: it turns a clear pattern into a fog that is nobody's fault in particular.
+"Mutual abuse" is a tidy phrase. It lets friends stay neutral, and it lets a counsellor avoid picking a side. For the person doing the controlling, it has one more use: it turns a clear pattern into a fog that is nobody's fault in particular.
 
 ## When it really is both
 
@@ -661,21 +655,23 @@ You can start from there. [Am I the one doing it?](ch:am-i-the-one-doing-it) is 
 ::: scene
 *Made up, but you've met these people.*
 
-Bronwen threw a mug at the kitchen wall. Not at Aziz. At the wall, after an hour of him following her from room to room, calling her pathetic in a calm, low voice.
+By Saturday, Amber's sister has seen the photo. A broken mug on the kitchen floor, sent by Aziz: "I didn't want to say anything, but she's been violent. Honestly, we're both toxic." Her sister rings, worried. Amber starts to believe him.
 
-By the weekend, Aziz has shown her sister a photo of the broken mug. "I didn't want to say anything, but she's been violent. Honestly, we're both toxic." Her sister rings, worried. Bronwen starts to believe him.
+The mug is real. On Wednesday she threw it at the wall, not at him, after an hour of him following her from room to room, calling her pathetic in a calm, low voice.
 
-At midnight she runs the fear test, on paper.
+At midnight she runs the fear test on paper.
 
 Who is afraid of whom? She is. She checks his mood from his texts before she comes home. He isn't afraid of her. After the mug he made a cup of tea, took the photo and slept fine.
 
-Who adapts? She does. She's stopped seeing her running club. She tells him about plans on Sundays, when he's calmest.
+Who adapts? She does. She's stopped going to her running club. She tells him about plans on Sundays, when he's calmest.
 
 Who can say no? When she refused to lend his brother money, he barely spoke for four days.
 
 Who told the story first? He did, with a photo, within forty-eight hours.
 
-The mug was hers to own, and she owns it. Everything around it was his. Yes, it was manipulation: [baiting](/playbook/baiting), then [DARVO](/playbook/darvo), then a [smear campaign](/playbook/smear-campaigns) to her own sister. On Monday, from work, she calls the domestic abuse service where she lives and tells them all of it, including the mug.
+The mug was hers to own, and she owns it. The pattern around it was his: [baiting](/playbook/baiting), then [DARVO](/playbook/darvo), then a [smear campaign](/playbook/smear-campaigns) to her own sister.
+
+On Monday, from work, she calls the domestic abuse service where she lives and tells them all of it, including the mug.
 :::
 
 ## Run the test on these
@@ -685,6 +681,7 @@ Cover the answers. What does the fear test tell you?
 ::: sort
 - She shouted at him last night. He went out with his friends as planned, came home late and slept well. || A shout happened. Fear didn't. Look at the pattern, not the night.
 - He hasn't told her about his promotion yet. He's waiting for a good week. || Adapting in advance. That's the climate.
+- You're both saying "you're the abuser", and you want a fair way to tell. What do you ask yourself? || Which of us listens for the other's key? Then answer the other three questions about both of you.
 - After the row, she rang his mother before he'd left the room. || Who tells the story first. Note it, and watch whether it happens every time.
 - They both yell, both apologise, and both still see their own friends and spend their own money. || Looks like two people with a conflict problem, not one controlling the other.
 - "I'm scared of you," he says, and checks her phone every night. || Claimed fear with no adaptation. The phone-checking is the finding.
