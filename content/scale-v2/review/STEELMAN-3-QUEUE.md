@@ -3,3 +3,4 @@
 - 02-ii-b: barbecue joke in betrayal chapter; 'unfair to someone who loves you' mirror; reference-sample opening weight
 - 03-iii-a: 'group chat accepts vibes'; counting-five-months line near a moral; 'hadn't eaten since breakfast' presumption
 - 03-iii-b: 'guess wearing a lab coat'; 'wrecked'; 'boiler' (regional)
+- 03-iii-c: Denise intent line ('knows exactly what at your age will do'); 'someone's head' ask near gaslighting; telephone-game names read British (Tamsin, Gethin); Köbis deepfake figures not re-checked
