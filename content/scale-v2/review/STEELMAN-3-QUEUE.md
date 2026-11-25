@@ -4,3 +4,5 @@
 - 03-iii-a: 'group chat accepts vibes'; counting-five-months line near a moral; 'hadn't eaten since breakfast' presumption
 - 03-iii-b: 'guess wearing a lab coat'; 'wrecked'; 'boiler' (regional)
 - 03-iii-c: Denise intent line ('knows exactly what at your age will do'); 'someone's head' ask near gaslighting; telephone-game names read British (Tamsin, Gethin); Köbis deepfake figures not re-checked
+- REQUIRED (07-tools): field card 'The safety gate.' lists 6 of 7 lines; add 'cutting me off from help, or making leaving hard or dangerous' to match before-you-test and when-weighing-stops
+- 04-iv-a: Phil thumbs-up closing joke; 'most of the population, probably including you' jab; 'the friction is the danger' line in safety chapter
