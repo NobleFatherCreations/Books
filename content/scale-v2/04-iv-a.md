@@ -2,7 +2,7 @@
 title: Before you test: is testing safe?
 question: Is it safe to test whether someone is controlling me?
 seo: Is it safe to test a controlling partner? Check first
-short: Some tests in this book add friction on purpose. With a dangerous person, that friction is the risk. Before any test, including simply confronting a controlling partner, run the safety gate: violence or threats, punished refusals, what they control, being cut off from help, physical fear, a child at risk, nowhere safe to go. One yes means don't test.
+short: Is it safe to confront a controlling partner? Not always. Naming something or refusing a request adds friction, and a dangerous person may answer it with harm. Run the safety gate: violence or threats, punished refusals, what they control, being cut off from help, physical fear, a child at risk, nowhere safe to go. One yes means don't test.
 ---
 Stop here before you run any test in this part of the book. Answer these honestly, and quickly. This is not an exercise in being fair to them.
 
@@ -22,13 +22,14 @@ Stop here before you run any test in this part of the book. Answer these honestl
 You have already reached the answer that matters: this situation isn't safe enough to experiment inside. Go to [When weighing stops](ch:when-weighing-stops). Find the domestic abuse service where you live through [Find help](/longafter/find-help). If you have left or are planning to, [A safety plan for after you've left](/longafter/a-safety-plan-for-after-youve-left) in The Long After covers your home, your routines, your phone and who to call. You don't need to be sure it's abuse to get help.
 :::
 
-::: handle
-If testing could cost your safety, don't test. Leave or get help.
+::: tool THE GATE
+When you're about to say no, or name something, just to see what they'll do.
+Ask yourself: is it safe to find out?
 :::
 
 ## Is it safe to confront a controlling partner?
 
-Sometimes it isn't. Naming a behaviour or refusing a request adds friction, and a controlling person may answer friction with punishment, threats or violence. If there has been violence or a threat, if refusing has been punished, if they control what you depend on, or if you feel physical fear, don't confront. Plan with a domestic abuse service instead.
+Not always. Naming a behaviour or refusing a request adds friction, and a controlling person may answer friction with punishment, threats or violence. If any line of the gate above is true for you, don't confront them to see what happens. Plan with a domestic abuse service instead.
 
 ## Why the tests need a gate
 
@@ -36,7 +37,7 @@ The next chapters hold the tests that work. Several of them add friction on purp
 
 With an ordinary person, that friction is informative and cheap.
 
-With a dangerous person, it is the most hazardous thing this book could tell you to do.
+With a dangerous person, the friction is the danger.
 
 ::: warn Read this before running any test in this movement
 **You do not need to run a test on someone you already need to get away from.**
@@ -52,28 +53,28 @@ Testing is for uncertainty. If you already know, the tests have nothing to add a
 
 **What they control.** Your home, your money, your job, your visa or residency status, your access to your children, your standing in a community you can't easily leave. Dependency turns a small experiment into a large gamble, because someone who holds the things you need can make a refusal very expensive very fast. The Decoder has pages on [financial control](/playbook/financial-control) and on [legal and administrative threats](/playbook/legal-administrative-threats), such as threats about a visa.
 
-Pulling away from a controlling partner can itself be a dangerous time. In a large US study of women killed by a partner, led by the nursing researcher Jacquelyn Campbell, separation from a partner was linked to higher risk, especially when the partner was controlling. So was an earlier threat with a weapon. This is why domestic abuse services help people plan the leaving itself, and why no test in this book is a substitute for that plan.
+Pulling away from a controlling partner can itself be a dangerous time. A study led by the nursing researcher Jacquelyn Campbell, across eleven US cities, compared women killed by a partner with abused women who survived. Separation was linked to higher risk, especially when the partner was controlling. So was an earlier threat with a weapon. This is why domestic abuse services help people plan the leaving itself, and why no test in this book is a substitute for that plan.
 
-**Being cut off, or kept from leaving.** If friends and family are being steadily pushed out of your life, or leaving is being made difficult, expensive or dangerous, you're in the territory of rule three in [This book in the wrong hands](ch:this-book-in-the-wrong-hands). That's not a situation to test inside.
+**Being cut off, or kept from leaving.** If friends and family are being steadily pushed out of your life, or leaving is being made difficult, expensive or dangerous, that's rule three in [This book in the wrong hands](ch:this-book-in-the-wrong-hands). It isn't a situation to test inside.
 
 **Physical fear.** If the thought of naming something plainly produces physical fear rather than social awkwardness, that fear is the finding. You don't need the test.
 
-**A child.** If a child is at risk, you don't weigh at all. This is the one situation where you act on suspicion rather than evidence, and where being wrong is an acceptable cost.
+**A child.** If a child is at risk, you don't weigh at all. This is the one situation where you act on suspicion rather than evidence, and where being wrong is an acceptable cost. Contact the police or the child protection service where you live.
 
 **Somewhere to go tonight.** If a test went badly and you would have nowhere safe to go, don't run it until you would.
 
 ## Do I have to be sure it's abuse before I get help?
 
-No. The first rule of this book is that you do not owe anyone certainty before you protect yourself. You can contact a domestic abuse service while you're still unsure, still together, and still not calling it abuse. Helping people who can't yet name what is happening is part of their work. Proof is never the price of help.
+No. The first rule of this book is that you do not owe anyone certainty before you protect yourself. You can contact a domestic abuse service while you're still unsure, still together, and still not calling it abuse. Helping people who can't yet name what is happening is part of their work.
 
 ## If the check says stop
 
-Then the tests are suspended, and the work changes from assessment to planning. You haven't failed at weighing. You have reached the answer that matters, which is that this situation isn't safe enough to experiment inside.
+Then the tests are suspended, and the work changes from assessment to planning. You haven't failed at weighing.
 
-What replaces the tests is practical: telling at least one person outside the situation, understanding your real options for money and housing, knowing what you would need to take, and finding the local organisation whose job this is. This book doesn't do that part. Organisations that specialise in it exist in nearly every country, and they are free.
+What replaces the tests is practical: telling at least one person outside the situation, understanding your real options for money and housing, knowing what you would need to take, and finding the local organisation whose job this is. This book doesn't do that part. Organisations that specialise in it exist in nearly every country, and most are free.
 
 ::: pull
-[This book in the wrong hands](ch:this-book-in-the-wrong-hands), restated where it does the most work: **calibration is a peacetime skill.** The tests in this part are for working out what is true in a situation where being wrong is survivable.
+The rule from [This book in the wrong hands](ch:this-book-in-the-wrong-hands) applies here most of all: **calibration is a peacetime skill.** The tests in this part are for working out what is true in a situation where being wrong is survivable.
 :::
 
 ## If someone uses these tests on you
@@ -83,7 +84,7 @@ The tests in this part can be turned around. A controlling person can borrow the
 ::: warn If someone runs a test on you
 Someone can "name" your behaviour in order to rewrite it, refuse you things to see how much less you will accept, or tell you that you "failed" a test because you were upset.
 
-These tests are for your own judgment, run by choice, in safety. Nobody gets to administer them to you. If someone uses them to grade you, that act is itself evidence. Reread [This book in the wrong hands](ch:this-book-in-the-wrong-hands).
+These tests are for your own judgement, run by choice, in safety. Nobody gets to administer them to you. If someone uses them to grade you, that act is itself evidence. Reread [This book in the wrong hands](ch:this-book-in-the-wrong-hands).
 :::
 
 ## The gate, used
@@ -91,17 +92,17 @@ These tests are for your own judgment, run by choice, in safety. Nobody gets to 
 ::: scene
 *Made up, but you've met these people.*
 
-Halima has read the next few chapters and wants to try the cost of no. Her husband, Victor, takes her wages every month "to manage them." She plans to tell him she'll keep a small part of this month's pay for herself.
+Halima has read the next few chapters and has her sentence ready. Her husband, Victor, takes her wages every month "to manage them." On Friday she plans to tell him she's keeping a small part of this month's pay for herself, and see what he does.
 
-Before she does, she reads the gate.
+On Thursday night she reads the gate.
 
-The second line stops her. In the spring, when she said she didn't want his brother staying for a month, Victor put his fist through the bathroom door. The third line stops her too. Her visa depends on him, and he has said more than once that he could "make one phone call."
+The first line stops her. In the spring, when she said she didn't want his brother staying for a month, Victor put his fist through the bathroom door. That answers the second line too: what happened the last time she refused. The third line stops her as well. Her visa depends on him, and he has said more than once that he could "make one phone call."
 
-She ticks two lines. She doesn't run the test. She already has the result.
+Three ticks. On Friday she doesn't say the sentence. She already has the result.
 
-At work, on a colleague's phone, she contacts the domestic abuse service where she lives. They talk about her visa, about money, and about what she would need to take with her. She starts keeping copies of her documents in her locker.
+At work, on a colleague's phone, she contacts the domestic abuse service where she lives. They talk about her visa, about money, and about what she would need to take with her.
 
-She hasn't decided anything yet, and she doesn't have to. The gate kept a test away from someone who had already given her the answer.
+She hasn't decided anything yet. She starts keeping copies of her documents in her locker.
 :::
 
 ## If the check is clear: testing without escalating
@@ -122,7 +123,7 @@ If every line of the gate is clear, three rules keep the tests proportionate.
 | Test | What you do | Healthy signal | Coercive signal |
 |---|---|---|---|
 | [The naming test](ch:the-naming-test) | Describe the behaviour plainly, then watch what the response does. | Engages with the content: disputes facts, apologises, argues the specifics. The subject stays available. | Attacks the act of naming itself. Your memory, character, mental health or loyalty becomes the subject. |
-| [Repair](ch:repair-and-apologys-counterfeit) | Watch what happens after harm, not the harm itself. | Specific acknowledgment, no conditions or counter-charges, changed behaviour over time. | Vague apology, bundled counter-charges, no lasting change. |
+| [Repair](ch:repair-and-apologys-counterfeit) | Watch what happens after harm, not the harm itself. | Specific acknowledgement, no conditions or counter-charges, changed behaviour over time. | Vague apology, bundled counter-charges, no lasting change. |
 | [The cost of "no"](ch:the-cost-of-no) | Refuse something small and reasonable. Watch the price over the following days. | The refusal is absorbed, with no lasting cost. | Temperature drop, access changes, reframing, escalated cost, or the refusal brought back later as a debt. |
 | [Targeting](ch:is-it-you-or-is-it-everyone) | Check the behaviour across people, witnesses and stakes. | The same whether or not anyone is watching. | Worse only in private, only with you, only unobserved. The selectivity is the evidence. |
 | [Power](ch:power-changes-the-meaning) | Map who can take what from whom before judging the words. | Ordinary weight: answerable, refusable, revisable. | Requests work as instructions. Persistence becomes coercion. Silence has to be decoded under threat. |
@@ -132,16 +133,17 @@ If every line of the gate is clear, three rules keep the tests proportionate.
 
 ## Say the gate without looking
 
-Cover the top of this page. Before any test, the gate asks about seven things. How many can you name?
+Cover the top of this page. Before any test, the gate asks about seven things. How many can you name? They're in no particular order.
 
 ::: sort
-- First: has there been… || Violence, or a threat of it, towards anyone, including pets, property, or themselves as leverage.
-- Second: what happened when you… || Last refused them something. What actually happened, not what you imagine.
-- Third: what do they… || Control: home, money, job, visa, children, community.
-- Fourth: are they cutting you… || Off from help, or making leaving hard or dangerous.
-- Fifth: what does your body do when… || You picture naming something to them. Physical fear is the finding.
-- Sixth: is a child… || At risk. Any worry about a child's safety counts.
-- Seventh: if it went badly tonight… || Would you have somewhere safe to go?
+- What does your body do when… || You picture naming something to them. Physical fear is the finding.
+- Has there been… || Violence, or a threat of it, towards anyone, including pets, property, or themselves as leverage.
+- If it went badly tonight… || Would you have somewhere safe to go?
+- What do they… || Control: home, money, job, visa, children, community.
+- You're about to say no to them, just to see what they'll do. What do you ask yourself? || Is it safe to find out? If any line of the gate is true, it isn't. Don't test.
+- Is a child… || At risk. Any worry about a child's safety counts.
+- What happened when you… || Last refused them something. What actually happened, not what you imagine.
+- Are they cutting you… || Off from help, or making leaving hard or dangerous.
 - And if any answer is yes? || Don't test. Leave or get help.
 :::
 
@@ -167,13 +169,13 @@ If there is danger, go to [When weighing stops](ch:when-weighing-stops). If ever
 title: The naming test
 question: How do I bring something up and tell whether they're manipulating me?
 seo: The naming test: how to call out manipulation calmly
-short: The naming test is how to call out manipulation. Say what someone did and what it did to you, plainly, without diagnosing or guessing motive. Then stop talking and watch. A decent person may get defensive, but they engage with the subject. A controlling one moves the subject onto you. Weeks later, check whether you can raise it again.
+short: The naming test is how to call out manipulation. Say what someone did and what it did to you, with no diagnosis and no guess at motive. Then stop talking and watch. A decent person may get defensive but stays on the subject. A controlling one moves it onto you. Weeks later, check whether you can raise it again.
 ---
 What happens to a subject after you say it out loud?
 
 That's the whole experiment. You say one plain sentence about something a person did, and then you watch where the subject goes. Either it stays on the table, or it gets carried out of the room and somehow you're the one on the table instead.
 
-This is the strongest single discriminator in the book. If you only ever use one thing from these pages, use this.
+You've probably run it by accident already. You raised something small, and twenty minutes later you were apologising for your tone and couldn't say how you got there. This chapter runs it on purpose, and takes notes.
 
 ## What is the naming test?
 
@@ -183,7 +185,7 @@ The naming test means describing what someone did, and its effect on you, in one
 Run this test only if every line of [Before you test: is testing safe?](ch:before-you-test-is-testing-safe) was clear. If naming something could get you hurt, you already have your answer, and the next step is [When weighing stops](ch:when-weighing-stops).
 :::
 
-The rest of this chapter is a lab protocol: conditions, materials, procedure, observations, results, and the repeat run. No goggles required.
+The rest of this chapter is the protocol, in six steps, written up like a lab experiment.
 
 ## Step 1: Set the conditions
 
@@ -191,11 +193,11 @@ Pick a calm moment: sober, rested, daylight, just the two of you. People behave 
 
 Pick something small, true and recent. Ideally it has happened more than once, so you're naming a behaviour and not a bad afternoon.
 
-Bring one sample. This is a lab, not a tribunal. If you arrive with eleven years of grievances in a ring binder, the response will be about the binder.
+Bring one sample. If you arrive with eleven years of grievances in a ring binder, the response will be about the binder.
 
 Say it in person or on a call if you can. Text strips out the face and the timing, and you'll spend a week reading the reply instead of watching it ([Reading a text message](ch:reading-a-text-message) covers why).
 
-## Step 2: Write the sentence
+## Step 2: How to call out manipulation in one sentence
 
 The test only works if the naming is clean, and most people's first draft is a closing argument with a diagnosis stapled to it.
 
@@ -203,9 +205,9 @@ The test only works if the naming is clean, and most people's first draft is a c
 
 **Instead:** "You said you'd call on Tuesday and didn't, and when I brought it up you said we never agreed that. That's the third time this month, and it's making me doubt my own memory."
 
-Act, then effect, with nothing about diagnosis or motive. [Intent, impact and the mind-reading trap](ch:intent-impact-and-the-mind-reading-trap) wrote this sentence for you.
+Act, then effect, with no diagnosis and no motive. [Intent, impact and the mind-reading trap](ch:intent-impact-and-the-mind-reading-trap) explains why motive stays out: you can't see it, and they can always deny it.
 
-The discipline is practical. A diagnosis gives the response somewhere legitimate to go. Say "you're [gaslighting](/playbook/gaslighting) me" and a completely innocent person will defend themselves against the label, and you'll read the defence as evasion. The reply "Good catch, I'll stop" is not coming. The clean version removes that exit and leaves only the behaviour on the table.
+The discipline is practical. A diagnosis gives the response somewhere legitimate to go. Say "you're [gaslighting](/playbook/gaslighting) me" and a completely innocent person will defend themselves against the label, and you'll read the defence as evasion. The reply "Good catch, I'll stop" isn't coming. The clean version removes that exit and leaves only the behaviour on the table.
 
 ::: script The words
 **You:** "You said you'd call on Tuesday and didn't. When I brought it up, you said we never agreed that. That's the third time this month, and it's making me doubt my own memory."
@@ -219,13 +221,9 @@ One return line, then stop. The test watches where they take the subject. It doe
 
 ## Step 3: Say it, then stop talking
 
-Say the sentence once. Then stop. Don't soften it, don't add three qualifications, and don't apologise for raising it.
+Say the sentence once. Then stop. Don't soften it, and don't apologise for raising it.
 
-The silence will feel about four hours long. It's usually three seconds. Filling it with "sorry, it's probably nothing" is pouring your sample down the sink before anyone looks at it. The silence after a plain sentence is where the test happens.
-
-::: handle
-Say the act and the effect. Then stop talking.
-:::
+The silence will feel about four hours long. It's usually three seconds. Filling it with "sorry, it's probably nothing" is pouring your sample down the sink before anyone looks at it.
 
 ## Step 4: Watch the shape
 
@@ -247,14 +245,18 @@ In a coercive response, the behaviour never gets addressed. The response attacks
 - **Instant reversal.** Within ninety seconds you're apologising and can't reconstruct how. It's a magic trick where the rabbit is your point. The Decoder's page is [DARVO](/playbook/darvo).
 
 ::: pull
-Watch the **shape** of the response, not its warmth. A gentle answer that never touches the subject and an angry one that does are not what they appear to be. Warmth is the easiest thing to fake. Engaging with an inconvenient subject is one of the hardest.
+Watch the **shape** of the response. A gentle answer that never touches the subject is worse news than an angry one that does. Warmth is the easiest thing to fake. Staying on an inconvenient subject is one of the hardest.
+:::
+
+::: ask
+Ask yourself: five minutes in, are we still talking about what they did?
 :::
 
 ## Is getting defensive a sign of guilt?
 
 No. Defensiveness is what most people do when they hear they've hurt someone, guilty or not, so it tells you about their nerves. The signal is what comes after: whether they come back to the subject, even an hour later and grumpily. Defensive and engaged is normal. Calm and never engaged is the one to watch.
 
-Picture it. At seven: "Oh, come on, it was a joke." At ten: "I did it at Nell's too, didn't I. I'll knock it off." That's a pass, delivered by someone who hates being wrong, which describes most of the population.
+Picture it. At seven: "Oh, come on, it was a joke." At ten: "I did it at Nell's too, didn't I. I'll knock it off." That's a pass, delivered by someone who hates being wrong, which describes most of the population, probably including you.
 
 ## Step 5: Read the result
 
@@ -281,24 +283,24 @@ That last question is the one. In a healthy relationship, subjects stay availabl
 
 Watch for one more result. Sometimes the subject doesn't change, but the mood does: a week of unusual sweetness, a surprise dinner, a "we're so good right now." Relief feels like an answer. If the behaviour itself is untouched, the sweetness was [relief bait](/playbook/hoovering-relief-bait), and the subject is still waiting.
 
-## The protocol, run three times
+## The protocol, run twice
 
 ::: scene
 *Made up, but you've met these people.*
 
-Eamon has noticed that his partner, Carla, jokes at dinner parties that he's "useless with money." He reads the gate first: nothing frightening has ever followed a disagreement, he pays half the rent, and he could stay at his brother's. Clear.
+Sean's partner, Carla, has started joking at dinner parties that he's "useless with money." He reads the gate first: nothing frightening has ever followed a disagreement, he pays half the rent, and he could stay at his brother's. Clear.
 
 On a quiet Sunday he says it. "Twice this month, at dinner with friends, you've said I can't be trusted with money. When I mentioned it after, you said I was imagining the tone. It made me feel small in front of people I like."
 
 Then he stops talking.
 
-Carla laughs. "Here we go. Is this your therapist's idea? You've been so fragile lately." By the end of the evening they're discussing whether Eamon might be depressed. Money never comes up.
+Carla laughs. "Here we go. Is this your therapist's idea? You've been so fragile lately." By the end of the evening they're discussing whether Sean might be depressed. Money never comes up. He writes down the date and where the subject went.
 
-He writes down the date and where the subject went.
+Three weeks later it happens again, at a birthday. He raises it once more. "We already did this. You're obsessed. It's a bit worrying." At the next dinner a friend asks him quietly whether he's "doing okay." Carla has been telling people he's struggling.
 
-Three weeks later it happens again, at a birthday. He raises it once more. "We already did this. You're obsessed. Honestly, it's a bit worrying." At the next dinner a friend asks him, gently, whether he's "doing okay," and he realises Carla has been telling people he's struggling.
+Both times the subject moved to his mind. It was manipulation: [gaslighting](/playbook/gaslighting) about the tone, [weaponised therapy-speak](/playbook/weaponized-therapy-speak) about his "fragility," and a quiet [smear campaign](/playbook/smear-campaigns) behind it.
 
-Two runs, the same shape both times: the subject moved to his mind, and the list of things he can't say got longer. Yes, it was manipulation: [gaslighting](/playbook/gaslighting) about the tone, [weaponised therapy-speak](/playbook/weaponized-therapy-speak) about his "fragility," and a quiet [smear campaign](/playbook/smear-campaigns) behind it.
+He writes the second date under the first. Then he rings his brother.
 :::
 
 ::: warn If the test gets turned on you
@@ -316,6 +318,7 @@ Cover the answers. For each reply, decide: did the subject stay, or did it move 
 - "Ugh. Fine. It was twice, not three times, but I get it." || Stayed. Grumpy, argued the count, engaged.
 - "Have you been taking your meds?" || Moved. Your mental health became the subject.
 - "Can we talk about this tomorrow? I'm wiped." || Stayed, if tomorrow arrives. If it never does, the timing became the subject.
+- Ten minutes after you raised the dinners, you're discussing your sleep, your mum and your tone. What do you ask yourself? || Are we still talking about what they did? If not, the subject moved to you.
 - "After everything I've done for you, this is what you bring me?" || Moved. Your loyalty became the subject.
 - "I didn't realise it came across like that. What did it sound like from your side?" || Stayed. They got curious about the effect.
 - "You're the one gaslighting me right now." || Moved, by reversal. That's DARVO.
@@ -333,15 +336,15 @@ If the response was an apology, good. It's also not the end of the test, because
 title: Repair, and apology’s counterfeit
 question: How do I know if an apology is real or just words?
 seo: Real apology vs fake apology: how to tell the difference
-short: A real apology names the specific thing, comes without conditions or counter-charges, is followed by changed behaviour over weeks, and never becomes a debt you owe. Repair is that whole process, not the sentence. Fake apologies copy the words: sorry you feel that way, the tearful reset, the apology that ends with you comforting them. Check over six weeks.
+short: Real apology vs fake apology: a real one names the specific thing, comes without conditions or counter-charges, and asks for nothing back. Then behaviour changes and stays changed for weeks. Fakes copy the words: sorry you feel that way, the tearful reset, the apology that ends with you comforting them. Check again in six weeks.
 ---
-Everyone causes harm. Everyone. The people you love have hurt you and you've hurt them, and no amount of good character prevents it.
+You've hurt someone you love this week. Probably over something small, like the tone you used about the bins. Everyone causes harm, and no amount of good character prevents it.
 
-So the harm itself is a weak signal. What happens afterwards is the strongest positive signal in this entire book.
+So the harm itself is a weak signal. What happens afterwards tells you far more.
 
 A shopkeeper handed a large note holds it up to the light. The watermark is there or it isn't, and the thread runs through the paper or it's printed on. Nobody checks a note by how confidently it was handed over.
 
-Apologies get the same treatment here. They're currency: they buy the end of an argument. Which is exactly why they get forged.
+Apologies get the same check here. They're currency: they buy the end of an argument. Which is exactly why they get forged.
 
 ## What is repair?
 
@@ -359,21 +362,21 @@ Hold any apology up to the light and look for these four.
 
 **2 · Unconditional.** The apology arrives on its own, not bundled with what you did, and not dependent on you conceding something. A sentence with "but" in the middle is usually two sentences, and the second one is the point.
 
-**3 · Changed.** Behaviour shifts and stays shifted. This is the only feature that can't be printed in a hurry. Weeks, not minutes.
+**3 · Changed.** Behaviour shifts and stays shifted. This is the only feature that can't be printed in a hurry. It takes weeks.
 
 **4 · No bill.** Having apologised doesn't become a debt you owe. If the apology is later produced as a receipt ("I said sorry, what more do you want?"), it was a transaction. Forgiveness demanded on the spot is the same bill, paid in advance; the Decoder calls it [forced forgiveness](/playbook/forced-forgiveness-weaponized-forgiveness).
 
-::: handle
-Specific, unconditional, changed, no bill.
-:::
-
-The best-known study of apology structure points the same way. In two experiments with 755 people, Roy Lewicki, Beth Polin and Robert Lount had participants rate apologies built from up to six parts: regret, an explanation, acknowledging responsibility, declaring repentance, offering repair, and asking for forgiveness. Acknowledging responsibility mattered most. Asking for forgiveness mattered least.
+One well-known study of apology structure points the same way. In two experiments with 755 people, Roy Lewicki, Beth Polin and Robert Lount had participants rate apologies built from up to six parts: regret, an explanation, acknowledging responsibility, declaring repentance, offering repair, and asking for forgiveness. Acknowledging responsibility mattered most. Asking for forgiveness mattered least.
 
 So the part where the person who hurt you asks you to do something came last. Even in a lab, people can tell an apology from an invoice.
 
+::: ask
+Ask yourself: what does this apology want from me?
+:::
+
 ## What does a real apology sound like?
 
-Short, specific and slightly uncomfortable to say. "I read your messages over your shoulder twice this week. That wasn't okay, and I'm going to stop. Tell me if I do it again." It names the act, owns it, says what changes, and asks for nothing. Real apologies are often clumsy. Specifics count for far more than fluency.
+Short, and a little uncomfortable to say. "I mocked your cooking in front of your parents. That wasn't okay, and I won't do it again. Tell me if I do." It names the act, owns it, says what changes, and asks for nothing. Real apologies are often clumsy. Specifics count for far more than fluency.
 
 ## Is "I'm sorry you feel that way" an apology?
 
@@ -385,15 +388,15 @@ Usually not. It apologises for your feelings, which puts the fault in your perce
 
 Each of these looks enough like repair to end the conversation, and ending the conversation is their job.
 
-**The apology that is an accusation.** "I'm sorry you felt that way." "I'm sorry you took it like that." The grammar apologises. The content puts the fault in your perception.
+**The apology that is an accusation.** "I'm sorry you feel that way," and its cousin "I'm sorry you took it like that." The grammar apologises. The content puts the fault in your perception.
 
 **The transaction.** Delivered to buy the end of the subject. "Okay, sorry. Can we drop it now?" You can feel the timer running.
 
 **The fast apology that changes nothing.** Immediate, fluent, complete, and identical to the last four, because it costs nothing and buys quiet. The Decoder files these under [apologies without repair](/playbook/apologies-without-repair).
 
-**The grand repentance.** Enormous, tearful, sometimes truly felt, with a speech and flowers big enough to need their own chair. It resets the whole scoreboard: everything before is wiped, the pattern is declared over, and six weeks later it resumes on a clean ledger. The bigger the show, the less often anything changes. The Decoder calls the wipe an [accountability reset](/playbook/accountability-reset). When the show arrives just as you were pulling away, it's often [relief bait](/playbook/hoovering-relief-bait).
+**The grand repentance.** Enormous, tearful, sometimes truly felt, with a speech and flowers big enough to need their own chair. It resets the whole scoreboard: everything before is wiped, the pattern is declared over, and six weeks later it resumes on a clean ledger. Size predicts nothing. Plenty of people cry sincerely and change nothing. The Decoder calls the wipe an [accountability reset](/playbook/accountability-reset). When the show arrives just as you were pulling away, it's often [relief bait](/playbook/hoovering-relief-bait).
 
-**The self-flagellation.** They collapse so completely that you end up comforting them, and the original harm disappears under the job of managing their distress. You came in with a bruise and leave holding the tissues, apologising for bringing it up. Watch who is being consoled at the end. The Decoder's page is [martyrdom display](/playbook/martyrdom-display).
+**The self-flagellation.** They collapse so completely that you end up comforting them, and the original harm disappears under the job of managing their distress. You came in with a complaint and leave holding the tissues, apologising for bringing it up. Watch who is being consoled at the end. The Decoder's page is [martyrdom display](/playbook/martyrdom-display).
 
 **The apology for the wrong thing.** A sincere apology for something next door to the problem, while the actual matter goes unaddressed. "Sorry I was late," when the problem was what he said when he arrived.
 
@@ -406,6 +409,7 @@ Cover the answers. Real, or which counterfeit?
 - "Fine, sorry, okay? Are we done?" || The transaction. Paying to end the subject.
 - Sobbing: "I'm the worst. I don't know why you even stay with me." || The self-flagellation. You're about to spend the evening consoling them.
 - "I'm sorry I raised my voice. But you know how you get after a drink." || Conditional, with a counter-charge. The second half is the point.
+- He's just said sorry, and you can't tell whether it means anything. What do you ask yourself? || What does this apology want from me? A real one wants nothing.
 - A three-page letter, a weekend away, and "I'm a completely different person now." The second time this year. || The grand repentance. Big show, clean ledger, same pattern.
 - "Sorry I was late." The problem was what he said when he got there. || The wrong thing. Sincere, and beside the point.
 - "Sorry." Said within four seconds, for the fifth time this month, about the same thing. || The fast one. Fluent because it's had practice.
@@ -414,16 +418,16 @@ Cover the answers. Real, or which counterfeit?
 
 ## Why does my partner apologise but never change?
 
-Because the apology is doing a different job. For some people it's how they end the discomfort of being in trouble, and it works, so nothing pushes them to change. For others, change is truly hard and they keep failing at it. The weeks after tell you which. Count changed behaviour, not sorries.
+Because the apology is doing a different job. For some people it's how they end the discomfort of being in trouble, and it works, so nothing pushes them to change. For others, change is truly hard and they keep failing at it. The weeks after tell you which. Count the changed behaviour. Sorries are free.
 
-Either way, the sorries are not the measure. [Can people change?](ch:can-people-change) covers what real change looks like at one, six and twelve months.
+[Can people change?](ch:can-people-change) covers what real change looks like at one, six and twelve months.
 
-## How to wait without it being passivity
+## How do I wait without just putting up with it?
 
-Waiting is not doing nothing. It is holding the question open while you gather the only data that answers it.
+Waiting here means holding the question open while you gather the only data that answers it. You write down what would be different, and you look again on a date. Putting up with it has no date.
 
 ::: pull
-**Repair is measured in the weeks after, not the moment.** Anyone can perform the moment. Six weeks of adjusted behaviour is very hard to fake for someone who didn't mean it, because it's too much work for too long.
+**Repair shows up in the weeks after.** Anyone can perform the moment. Six weeks of adjusted behaviour is very hard to fake for someone who didn't mean it, because it's too much work for too long.
 :::
 
 It also protects you in the other direction. People do change and don't get credited, because nobody was measuring. A note with a date on it makes you fair to them as well.
@@ -433,27 +437,33 @@ It also protects you in the other direction. People do change and don't get cred
 ::: scene
 *Made up, but you've met these people.*
 
-Della has started reading Oskar's messages over his shoulder on the sofa and commenting. "Who's Phil? Why is Phil sending you a thumbs-up?" Oskar names it plainly: "You've read my screen twice this week while I was typing. It makes me feel watched in my own living room."
+Since Ray and Bev both retired, they share the same sofa most of the day. Lately Bev reads his phone over his shoulder.
 
-Della says, "I'm sorry you feel watched. I'm just interested in your life."
+"Who's Phil? Why is Phil sending you a thumbs-up?"
 
-Oskar holds it up to the light. Sorry for his feeling, nothing about her behaviour: the first counterfeit. So he says, "That didn't really land. It's the reading over my shoulder I mean." Della goes to bed annoyed.
+"Phil from bowls. Bev, you've read my screen twice this week while I was typing. It makes me feel watched in my own front room."
 
-Over coffee the next morning she says, "I said that badly last night. I read your screen twice this week, and that's not okay. I'll stop. If I do it again, tell me."
+"I'm sorry you feel watched. I'm just interested in your life."
 
-Oskar notes the date and one line: *She won't read my screen.*
+Sorry for his feeling, nothing about her behaviour. Ray tries once more. "That didn't really land. It's the reading over my shoulder I mean."
 
-Six weeks later he checks. Once, in week three, she leaned over, caught herself and said, "Sorry. Habit." Otherwise, nothing. She hasn't brought up the apology since, or suggested he should be grateful for it.
+Bev goes to bed annoyed.
 
-A counterfeit first, then a real apology, then six weeks that held. That's repair.
+Over coffee the next morning: "I said that badly last night. I read your screen twice this week, and that's not okay. I'll stop. If I do it again, tell me."
+
+Ray writes the date on the calendar by the fridge, and one line: *Won't read my screen.*
+
+In week three she leans over, catches herself and says, "Sorry. Habit."
+
+Six weeks on, he turns the calendar page. She hasn't mentioned the apology once, or suggested he ought to be grateful for it. Phil has sent eleven more thumbs-ups.
 :::
 
-## Why repair is the best signal
+## Why repair tells you more than the fight
 
-Because it's expensive and can't be counterfeited over time, and because it's what makes a relationship survivable in the first place. The couples research covered in [The reference sample](ch:the-reference-sample) points the same way: what separates couples who last is whether their repairs land, not whether they fight.
+Because it's expensive and can't be faked for long, and because it's what makes a relationship livable in the first place. The couples research covered in [The reference sample](ch:the-reference-sample) points the same way: what separates couples who last is whether their repairs land, and how often they fight barely figures.
 
 ::: pull
-Two people who repair can weather almost anything, including serious harm. **Two people who can't repair will be destroyed by ordinary friction, no matter how much they love each other.**
+Two people who repair can get through a lot of ordinary damage. **Two people who can't repair get worn down by ordinary friction, however much they love each other.**
 :::
 
 ## Do I have to forgive someone who apologised properly?
@@ -469,7 +479,7 @@ If you're the one who owes an apology, [What an apology is for](/repair/what-an-
 :::
 
 ::: try Try it after the next apology
-Note the date and one sentence: *what specifically would be different if this were real?* Be concrete. Not "he'll be more considerate" but "he'll tell me when he's going to be late." Then set a reminder for six weeks from today and look again. It takes thirty seconds, and it's the most useful record you can keep about anyone.
+Note the date and one sentence: *what specifically would be different if this were real?* Make it something you could check. "He'll be more considerate" can't be checked. "He'll tell me when he's going to be late" can. Then set a reminder for six weeks from today and look again.
 :::
 
 An apology shows you what happens after harm. The next test shows you what happens after you refuse something: [The cost of "no"](ch:the-cost-of-no).
@@ -484,11 +494,9 @@ question: What happens when I say no to them, and what does it tell me?
 seo: What happens when you say no to a controlling person?
 short: The cost of no is what happens after you refuse. With most people it's a little disappointment, then it's gone. When you say no to a controlling person, the price is quieter and lasts: the temperature drops, things you rely on get harder, and your no becomes proof you're selfish. Refuse something small, and track the price for weeks.
 ---
-This is the most economical test in the book. It takes one sentence, and it tells you more than a month of analysis.
+You already know what a no costs with most people in your life. Your best friend: "boo." Your mum: a long sigh down the phone. You've just never written the prices down.
 
 Picture a price list. Every no you say has a price on it. In most relationships the prices are cheap and printed on the front: a sigh, a "shame," maybe a sulky evening. Some relationships run a different shop. Nothing is printed, and you find out what the no cost when the bill turns up days later, in a currency you didn't know you were paying in.
-
-This chapter teaches you to read that price list.
 
 ## What is the cost of no?
 
@@ -496,10 +504,6 @@ The cost of no is what happens to you after you refuse someone something reasona
 
 ::: warn Only after the gate
 This test is only for situations that passed [Before you test: is testing safe?](ch:before-you-test-is-testing-safe). If refusing has ever been met with violence, threats or a punishment you were afraid of, don't refuse something to see what happens. You already know the price. Go to [When weighing stops](ch:when-weighing-stops).
-:::
-
-::: handle
-Refuse something small. Watch the price.
 :::
 
 ## The price list
@@ -519,28 +523,33 @@ People expect a no to be punished with a row, so they watch for a row. Coercive 
 
 Each line of the coercive column has a Decoder page.
 
-- **Temperature** is the everyday form of the [silent treatment](/playbook/withholding-silent-treatment). Nothing is said. Everything is cooler for four days. Ask and you get "I'm fine."
+- **Temperature** is the everyday form of the [silent treatment](/playbook/withholding-silent-treatment). Nothing is said, for days.
 - **Access** is how small refusals get taxed when someone holds the purse or the car keys. At its heaviest it's [financial control](/playbook/financial-control).
 - **Framing** turns your no into a character reference, which is [guilt-tripping](/playbook/guilt-tripping) with a longer memory.
 - **The ask, escalated** is [punishment of boundaries](/playbook/punishment-of-boundaries). The request comes back like a sequel nobody asked for, with a bigger budget and the same plot.
 - **Other people** knowing is [proxy recruitment](/playbook/flying-monkeys-proxy-recruitment). His mother texts to ask why you're "making things so hard for him."
 - **Memory** is [favour debt](/playbook/favor-debt). Your no to Saturday dinner turns up in March, in an argument about the bins, dressed as evidence.
 
+::: tool THE PRICE LIST
+When you want to say no to them and you're already rehearsing your reasons.
+Ask yourself: what did my last small no cost, and for how long?
+:::
+
 ## What happens when you say no to a controlling person?
 
 Usually not a scene. More often a price paid later, and deniably: a cold few days, help that stops arriving, your no retold as proof you're selfish, the request coming back bigger. One bad reaction means little. When every small no gets charged for, refusing is being made expensive, and that is control.
 
-[Conflict or control](ch:conflict-or-control) explains why that matters: control is less about any single fight and more about how much room you have left to refuse.
+[Conflict or control](ch:conflict-or-control) explains why that matters: control is measured by how much room you have left to refuse.
 
 ## Choosing the no
 
-Choose a no that is small, reasonable and entirely defensible, something no fair person could object to. Not a boundary you're frightened about. A trivial one.
+Choose a no that is small and entirely defensible, something no fair person could object to. Not a boundary you're frightened about. A trivial one.
 
 Skipping the work drinks. Not lending the car on Saturday. Not watching a third episode tonight. If the response to "no, I'll pass on the third episode" is four days of frost, you have learned a great deal for the price of forty minutes of television.
 
-Say it once, plainly, with no justification attached. Reasons are handles. Give three and you've handed over three things to argue with. "No, I can't make Saturday" is a full sentence, and it doesn't need an appendix.
+Say it once, plainly, with no justification attached. Reasons are handles. Give three and you've handed over three things to argue with. Most of us have softened a no with a dentist appointment that doesn't exist. Skip the dentist. "No, I can't make Saturday" is a full sentence, and it doesn't need an appendix.
 
-## Track the price, not the reaction
+## Track how long the price lasts
 
 Everyone is disappointed badly sometimes. Everyone occasionally sulks. A single sour response to a refusal means very little, because people are allowed to want things.
 
@@ -553,20 +562,20 @@ Keep it simple. After each no, write one word each for temperature, access and f
 ::: scene
 *Made up, but you've met these people.*
 
-Jonah asks his partner, Mairead, to come to his work quiz night. She doesn't want to. She reads the gate: nothing frightening has ever followed a refusal, they split the bills, and she has her own car. So she makes it a small test and says, "No, I'll skip this one."
+Jonah asks his partner, Alicia, to come to his work quiz night. She doesn't want to. Her last partner charged for every no, so she braces. She reads the gate: nothing frightening has ever followed a refusal, they split the bills, and she has her own car. So she makes it a small test. "No, I'll skip this one."
 
 Jonah's face drops. "Fine. I'll go on my own, then." He's quiet all evening.
 
 That night she writes three words: *Cool. Nothing. Nothing.* Temperature, access, framing.
 
-On day three Jonah tells her his team came fourth and does an impression of his boss reading out the questions. On day seven nothing has changed. He still drops her at the station. Nobody has mentioned the quiz.
+On day three Jonah tells her his team came fourth and does an impression of his boss reading out the questions. On day seven he's still making her coffee before work. Nobody has mentioned the quiz.
 
-Two weeks later she skips his friend's barbecue. He's disappointed and asks if she'd come for an hour. She says no again. He goes, and comes home with a burger wrapped in foil for her.
+Two weeks later she skips his friend's barbecue. He asks if she'd come for just an hour. She says no again. He goes, and comes home with a burger wrapped in foil for her.
 
-Two nos, two small sulks, no price. Jonah's disappointment lasted about one evening each time, which is what it looks like when someone simply wanted you there.
-
-Mairead had braced for more, because her last partner charged for everything. This one doesn't. The alarm was set by the old relationship, and [Your detector has a history](ch:your-detector-has-a-history) is about exactly that.
+That night she writes: *Warm. Nothing. Nothing.*
 :::
+
+If your alarm rings louder than the price, check where it was set. Alicia's was set by her last relationship, and [Your detector has a history](ch:your-detector-has-a-history) covers alarms tuned that way.
 
 ## Name the price
 
@@ -576,6 +585,7 @@ Cover the answers. Which line of the price list is this, or is it ordinary disap
 - He's quiet for an evening, then normal and joking by breakfast. || Ordinary disappointment. The price was paid and gone overnight.
 - "I'm fine." Four days of one-word answers. || Temperature. Deniable, and long.
 - After you skip her sister's party, she suddenly "needs the car" on the days you work. || Access. Something you rely on just got harder.
+- You want to turn down Sunday lunch at his parents', and you're already drafting three reasons. What do you ask yourself? || What did my last small no cost, and for how long? If the gate is clear, say it with no reasons attached.
 - "You've changed. You used to be fun." || Framing. Your no became a verdict on your character.
 - His mother texts to ask why you're "making things so hard for him." || Other people. The story reached them before you said a word.
 - Eight months later: "Remember when you wouldn't help me move? So don't talk to me about support." || Memory. The no came back as a debt.
@@ -589,23 +599,17 @@ A controlling person can claim this chapter too. They can call their demands "my
 Or they can refuse things on purpose and call your disappointment "the cost of no," to prove you're the controlling one. Being sad about a no is allowed. A price is a cost imposed on someone for refusing. If someone hands you this chapter to prove you punish them, reread [This book in the wrong hands](ch:this-book-in-the-wrong-hands).
 :::
 
-It's worth asking the mirror question too: what do your nos cost the people close to you? If you're not sure, [Am I the one doing it?](ch:am-i-the-one-doing-it) asks it properly.
+Turn the price list round, too. What does a no cost the people who live with you? Most of us have charged someone a long sigh and a day of short replies for turning us down. [Am I the one doing it?](ch:am-i-the-one-doing-it) asks it properly.
 
 ## Why do I feel scared to say no to my partner?
 
 Because part of you has already priced it. If picturing a small refusal makes you rehearse justifications, plan the timing and brace for their mood, you've learned what a no costs in this relationship. That learning is data. If the fear is physical, don't run this test at all. You already have your answer.
 
-This is the part of the chapter that does the most work, and it needs no test at all.
-
-**If you can't bring yourself to run this, you have already learned something.**
-
-Sit with the idea of refusing something small, and notice what your body does. If the thought produces real dread, if you start rehearsing justifications, planning the timing and preparing to manage their reaction, then you already know what a no costs here. You've priced it accurately enough that you avoid it without deciding to.
-
 ::: pull
-If the thought of refusing something small produces real dread, **you already know what a no costs in this relationship.** You've priced it accurately enough that you avoid it without deciding to.
+If you can't bring yourself to refuse something small, **you already know what a no costs here.** You've priced it accurately enough that you avoid it without deciding to.
 :::
 
-That reluctance is data of exactly the kind this book has been teaching you to read. And as [Before you test: is testing safe?](ch:before-you-test-is-testing-safe) says, if the dread is physical rather than social, don't run the test. You have your answer, and what you need now is [When weighing stops](ch:when-weighing-stops).
+[Before you test: is testing safe?](ch:before-you-test-is-testing-safe) has the full gate. If the dread is physical rather than social, what you need now is [When weighing stops](ch:when-weighing-stops).
 
 ::: try Try it this week
 If the gate was clear, pick one trivial no and say it once, with no reasons attached. That night, on day three and on day seven, write one word each for temperature, access and framing. In a few weeks, try a different small no and compare the two price tags.
