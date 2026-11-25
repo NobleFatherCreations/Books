@@ -2,17 +2,17 @@
 title: “I don’t remember it that way”
 question: Are they gaslighting me, or do we just remember it differently?
 seo: Gaslighting or just remembering differently? How to tell
-short: Memory rebuilds itself each time you recall it, so two honest people often end up remembering the same evening differently. Gaslighting is something else: a pattern of denial that always lands in their favour, attacks your mind rather than your memory, and treats your records as the problem. Honest disagreement welcomes a check. Gaslighting fights it.
+short: Gaslighting or just remembering differently? Memory rebuilds itself each time you recall it, so two honest people often remember the same evening differently. Gaslighting is a pattern: the corrections always land in their favour, they attack your mind instead of your memory, and your records become the problem. An honest disagreement welcomes a check. Gaslighting fights it.
 ---
 Ask your brother who broke the greenhouse window in 1998. Then stand well back.
 
 Two of you were there. Two of you are certain. One of you is wrong, and neither of you is lying. Families have run the same argument for thirty years on less evidence than a parking ticket.
 
-"I don't remember it that way" is one of the most ordinary sentences two people can say to each other. It's also the sentence gaslighting wears to work. If you've lived with the second kind, hearing the first kind can make the floor tilt. This chapter separates them, and it starts with you as a witness.
+"I don't remember it that way" is one of the most ordinary sentences two people can say to each other. It's also the sentence gaslighting wears to work. If you've lived with the second kind, hearing the first kind can make the floor tilt. You can tell them apart, and you start by being a witness yourself.
 
 ## The two-witness exercise
 
-Picture two witnesses to the same small event, giving statements in separate rooms. That's the picture for this whole chapter: two honest statements that don't match, and the question of what happens next.
+Picture two witnesses to the same small event, giving statements in separate rooms. Both statements are honest. They don't match. The interesting part is what each witness does next.
 
 Try it before you read on. Pick one shared memory that you and someone else tell differently: who suggested the move, what was said at the wedding, how the dog got onto the shed roof. Write your version in three lines. Then, if it's safe and easy, ask them for theirs.
 
@@ -24,13 +24,13 @@ Yes, completely. Memory doesn't keep a recording. It keeps pieces, and rebuilds 
 
 ## How memory rebuilds itself
 
-Memory works less like a video and more like a re-enactment, staged fresh every time by an actor who has picked up some opinions since the last performance.
+Memory is a re-enactment, staged fresh every time by an actor who has picked up some opinions since the last performance.
 
-In 1932 the psychologist Frederic Bartlett had people retell stories and pass them along. Details fell out, and the stories bent towards what the tellers already knew, settling into more familiar shapes. He concluded that remembering rebuilds an event rather than replaying it.
+In 1932 the psychologist Frederic Bartlett had people retell stories and pass them along. Details fell out, and the stories bent towards what the tellers already knew, settling into more familiar shapes. He concluded that remembering is rebuilding. Each recall puts the event back together from parts.
 
 In 1974 Elizabeth Loftus and John Palmer showed students a film of a car crash, then asked how fast the cars were going when they "hit" or "smashed into" each other. A week later, 32% of the "smashed" group said they'd seen broken glass, against 14% of the "hit" group. The film had no broken glass in it.
 
-One verb put broken glass into a crash. Think what nine years of retelling has done to Christmas 2016.
+One verb put broken glass into a crash. Now think what ten years of retelling has done to the Christmas your family still argues about.
 
 And feeling sure tells you very little. The day after the September 11 attacks, Jennifer Talarico and David Rubin recorded students' memories of hearing the news, along with an ordinary memory from the same week. When they retested them weeks or months later, both kinds of memory had drifted at about the same rate. Confidence in the ordinary memory fell.
 
@@ -42,11 +42,7 @@ Three things follow from that.
 - They misremember too. The research doesn't take sides, and it describes every human head, including the one telling you yours is broken.
 - How sure either of you feels settles nothing.
 
-So a memory disagreement can't be won by volume or by certainty. It can only be settled by checking, or left open. Which of those two the other person reaches for tells you a great deal.
-
-::: handle
-Two honest memories can disagree. Gaslighting attacks the rememberer.
-:::
+So a memory disagreement can't be won by volume or by certainty. It can only be settled by checking, or left open. Which of those the other person reaches for tells you whether you're in a disagreement or in something else.
 
 ## Gaslighting or just remembering differently?
 
@@ -59,7 +55,7 @@ Honest disagreement happens now and then, goes both ways, and stays about the me
 | Which way the errors fall | Both ways. Sometimes you're right, sometimes they are | Always their way |
 | What it's about | Details: the day, the exact words, who went first | Whether it happened at all, usually about things that matter |
 | What gets attacked | The memory: "I think it was Friday" | The rememberer: "You always invent things. You need help." |
-| Curiosity | They want to hear how you remember it | Your version isn't wanted, only withdrawn |
+| Curiosity | They want to hear how you remember it | They want your version withdrawn |
 | Records | Welcome: "Let's check the texts" | Attacked: "Why are you keeping notes? That's sick." Or they go missing |
 | Afterwards | A shrug, a laugh, sometimes "fair, you're right" | You feel less sure of yourself, and you apologise |
 :::
@@ -72,9 +68,13 @@ Three rows do most of the work.
 
 **What happens to the record.** An honest person who remembers differently is usually glad to check, because they'd like to know too. Someone doing [gaslighting](/playbook/gaslighting) needs the record gone, discredited or recast as an attack. When the texts come out and the answer is "you probably edited those," the argument has moved from what happened to what's wrong with you. The Decoder calls deleting the evidence [record erasure](/playbook/record-erasure), and the slow rewrite of shared history [revisionist history](/playbook/revisionist-history).
 
+::: ask
+Ask yourself: are we arguing about what happened, or about what's wrong with someone's head?
+:::
+
 ## Am I being gaslighted, or do I just have a bad memory?
 
-Possibly some of both, and that's allowed. You can be wrong about a detail and still be gaslit about the pattern. Don't try to settle it inside one argument. Write disputed moments down on the day they happen. After a few weeks, look at which way the corrections fall and how your records get treated.
+Possibly both. You can be wrong about a detail and still be gaslit about the pattern. Don't try to settle it inside one argument. Write disputed moments down on the day they happen. After a few weeks, look at which way the corrections fall and how your records get treated.
 
 A truly bad memory is bad at everything. It loses your keys, your PIN, your dentist appointment and the plot of the film you watched on Tuesday. It doesn't specialise in losing only the conversations where the other person promised to do something.
 
@@ -99,17 +99,29 @@ A record helps whichever way it turns out. If you've been misremembering, it sho
 ::: scene
 *Made up, but you've met these people.*
 
-Odile and Kwame have argued about the sofa for three years. Odile remembers Kwame choosing the mustard one in the shop and calling it "brave". Kwame remembers Odile choosing it, and himself saying "brave" as a warning.
+"You chose it," Nina says. "In the shop. You called it brave."
 
-This time, instead of round forty-one, they each write three lines. They agree on the shop, the price and the word "brave". They disagree only about whose mouth it came out of and what it meant.
+"I said 'brave' as a warning," Kwame says. "You chose it."
 
-"I could be wrong," Kwame says. Odile, startled, says the same.
+This is round forty-one about the mustard sofa. They're three years in.
 
-Then Kwame finds the order confirmation in his email. It's in Odile's name, with a note in the delivery instructions: "Kwame thinks it's brave. He's wrong."
+"Fine," Nina says. "Three lines each, written down. Then we compare."
 
-Odile laughs until she has to sit down, on the sofa. Kwame screenshots the email for future use.
+They read them out. Same shop. Same price. Same word.
 
-One detail in dispute, curiosity on both sides, and a record that both of them were happy to check. Two witnesses, and no prosecutor.
+"So we agree on everything," Kwame says, "except whose mouth 'brave' came out of."
+
+"And what it meant."
+
+A pause. "I could be wrong," he says.
+
+Nina stares at him. "So could I."
+
+Kwame is already scrolling his email. "Order confirmation. In your name." He reads the delivery note aloud. "'Kwame thinks it's brave. He's wrong.'"
+
+Nina laughs until she has to sit down, on the sofa.
+
+Kwame screenshots the email for future use.
 :::
 
 ## Sort them: witness or prosecutor
@@ -120,6 +132,7 @@ Before you tap, decide which side of the table each one sits on.
 - "I thought we said Saturday, not Sunday. Let me check." || Honest. A detail, and a check offered.
 - "That never happened. You dream things up and then believe them." || Attacks the rememberer. A memory claim would have stopped after the first sentence.
 - "We remember it differently. I'm honestly not sure who's right." || Honest, and rarer than it should be.
+- You're on round three of who agreed to host Christmas, and the volume is going up. What do you ask yourself? || Are we arguing about what happened, or about what's wrong with someone's head?
 - "Why have you got screenshots of our arguments? Normal people don't do that." || The record under attack, if it comes with a refusal to look at what's in them. Notice the subject has moved from what was said to what's wrong with you.
 - "Even your mum says your memory's shocking." || Was your mum there? If not, that's a second witness to nothing. Bringing in an outside opinion to win an argument is what the Decoder calls [triangulation](/playbook/triangulation).
 - He got the restaurant wrong, you got the year wrong, and you both laughed. || Honest. Errors in both directions, and a shrug.
@@ -127,24 +140,30 @@ Before you tap, decide which side of the table each one sits on.
 
 ## If you're the one saying "that never happened"
 
-Run the same table on yourself. Do your corrections always land your way? When they bring up an old text, are you curious or annoyed? When did you last say "fair, you're right"? People who would never set out to gaslight anyone can still slide into winning every memory argument, mostly by being louder and surer. [Am I the one doing it?](ch:am-i-the-one-doing-it) has the full mirror.
+Run the same table on yourself. If you've ever won an argument about a restaurant by saying its name more confidently, this part is for you.
+
+Do your corrections always land your way? When they bring up an old text, are you curious or annoyed? When did you last say "fair, you're right"? People who would never set out to gaslight anyone can still slide into winning every memory argument, mostly by being louder and surer. [Am I the one doing it?](ch:am-i-the-one-doing-it) has the full mirror.
 
 ## When the record was the problem
 
 ::: scene
 *Made up, but you've met these people.*
 
-In March, Stuart tells Lorna he'll renew the car insurance. In April it lapses. He says, "I never said that. You invent conversations, Lorna. You should get your memory looked at."
+In March, Denise tells Gary she'll renew the car insurance. In April it lapses. She says, "I never said that. You invent conversations, Gary. At your age you should get your memory looked at."
 
-It's the third time this year. In January it was the dentist bill he'd promised to pay. In February it was the weekend he'd agreed to have his mum to stay. Each time, Lorna ended up apologising.
+He's sixty-four. She knows exactly what "at your age" will do to him.
 
-So she starts writing things down on the day, in a notes app with a passcode. By May she can run the table. Three disputes, all settled in Stuart's favour, each one ending with a remark about her mind rather than the date. When she once mentioned keeping notes, he said, "Writing down what I say? That's sick."
+It's the third time this year. In January it was the dentist bill she'd promised to pay. In February it was the weekend she'd agreed to have her sister to stay. Each time, Gary ended up apologising.
 
-Then she finds the March text, still on her phone. "leave the insurance with me, I'll sort it tonight x". She shows him.
+He books a check-up, because at sixty-four you would. It's fine. He still does the crossword in pen and hasn't missed a grandchild's birthday. A bad memory would be bad at everything. His only fails in conversations where Denise promised something.
 
-"You could have faked that," he says. "People do it with apps."
+So he starts writing things down on the day, in a notes app with a passcode. By May he can run the table. Three disputes, all settled her way, each ending on his mind. When he once mentioned the notes, she said, "Writing down what I say? That's sick." This is gaslighting.
 
-Every row of the table had lined up on the same side, and the last one, the record, settled it. Lorna's memory was fine. Her notes were right three times out of three. This was gaslighting.
+Then he finds the March text. "leave the insurance with me, I'll sort it tonight x". He shows her.
+
+"You could have faked that," she says. "People do it with apps."
+
+Gary forwards the text to his own email. Then he rings his son.
 :::
 
 ::: try Try it this week
@@ -165,11 +184,9 @@ question: Can I trust a screenshot, a recording or a video someone shows me?
 seo: Can a screenshot be used as proof? What the crop leaves out
 short: A genuine screenshot can be used as proof of what's inside its frame and nothing else. It can't show what came before, what came after, the phone call in between, or why someone chose that slice. Edits and AI fakes are now cheap, and people can't reliably spot them by eye. Ask for the whole thread, and check the source.
 ---
-Nobody in history has screenshotted the bit where they were wrong.
+Nobody in history has screenshotted the bit where they were wrong. Including you.
 
-A screenshot is a photograph of a conversation, taken by someone who was in it, cropped by the same person, and sent to someone they'd like on their side. Every one of those steps is a choice. And the picture can still be completely genuine.
-
-That's what makes screenshots hard. A real one can still mislead you, because the misleading happens at the edges.
+A screenshot is a photograph of a conversation, taken by someone who was in it, cropped by the same person, and sent to someone they'd like on their side. Every one of those steps is a choice, and the picture can still be completely genuine. A real screenshot misleads you at the edges.
 
 ## Can a screenshot be used as proof?
 
@@ -185,7 +202,7 @@ Here's a whole conversation between two flatmates, Imogen and Dex, on a Thursday
 4. **Imogen:** I know. I'm a nightmare. I'll buy two
 5. **Dex:** honestly I can't live like this
 6. **Dex:** 😂 joking. get the good naan though
-7. **Imogen:** deal. also you still owe me £40 for the gas
+7. **Imogen:** deal. also you still owe me forty for the gas
 8. **Dex:** I paid you that
 9. **Imogen:** you didn't, I checked
 10. **Dex:** wow ok. you're unbelievable
@@ -200,10 +217,10 @@ Now crop it.
 
 Every crop is genuine. Nobody edited a pixel. Each one produces a different verdict, and each verdict would feel to its reader like seeing the evidence first-hand.
 
-And the one question that matters, whether Dex paid the £40, isn't answered anywhere in the thread. It's in a banking app.
+The one question that matters, whether Dex paid the forty, has its answer in a banking app. Nobody screenshotted that.
 
-::: handle
-Ask what's outside the frame.
+::: ask
+Ask yourself: if this were my screenshot, what would I want shown above and below it?
 :::
 
 ## The four edges and the hand
@@ -218,7 +235,7 @@ Picture a screenshot as a photo with four edges, held in somebody's hand. Each p
 
 **The glass: whether it was altered.** Messages can be deleted from the middle, names swapped, whole threads invented. Fake-chat generators exist for exactly this, and using one takes no skill at all. The Decoder covers [forged screenshots and edited evidence](/playbook/forged-screenshots-edited-evidence).
 
-**The hand: who chose this slice, and why.** Someone picked these lines, at this moment, for you. That tells you something about them. Saving someone's words and bringing them out later, stripped of where they came from, is what the Decoder calls [context collapse](/playbook/context-collapse). Sending crops around to turn people against someone is a [smear campaign](/playbook/smear-campaigns).
+**The hand: who chose this slice, and why.** Someone picked these lines, at this moment, for you. Ask what they want you to do once you've read them. Saving someone's words and bringing them out later, stripped of where they came from, is what the Decoder calls [context collapse](/playbook/context-collapse). Sending crops around to turn people against someone is a [smear campaign](/playbook/smear-campaigns).
 
 ## Recordings have edges too
 
@@ -230,9 +247,9 @@ If you're thinking of recording someone yourself, the rules on recording people 
 
 ## How to tell if a screenshot is fake
 
-Mostly you can't tell by looking, so stop squinting at fonts. Check the source. Ask to see the conversation on the original phone, scrolled up and down. Compare it with your own copy of the thread if you were in it. Check that names, times and dates fit what you know. If someone won't show the original, weigh the screenshot accordingly.
+Mostly you can't tell by looking, so stop squinting at fonts. Check the source. Ask to see the conversation on the original phone, scrolled up and down. Compare it with your own copy of the thread if you were in it. Check that names, times and dates fit what you know. If someone won't show the original, weigh the screenshot as a rumour with a picture attached.
 
-A wrong font or an impossible timestamp will catch a lazy fake. A careful one won't have either. A clean-looking screenshot is no more likely to be genuine than a messy one, so the check that counts is the original thread.
+A wrong font or an impossible timestamp will catch a lazy fake. A careful one won't have either.
 
 ## Is it AI or real?
 
@@ -257,13 +274,14 @@ In a relationship it sounds like "you could have faked that", said about a text 
 Before you scroll, name the four edges and the hand from memory. Then check yourself against the list, which also works as the checklist for the next screenshot, recording or video someone hands you.
 
 ::: check
-☐ Top edge: what came just before the first line?
-☐ Bottom edge: what came just after the last line?
-☐ The sides: was there a call or a conversation in between?
+☐ Top edge: what came before the first line?
+☐ Bottom edge: what came after the last line?
+☐ The sides: was there a call or a chat in between?
 ☐ The glass: have I seen the original thread, on the device?
-☐ The hand: who chose this slice, and what do they want from me?
+☐ The hand: who chose this slice, and what do they want?
 ☐ A recording: what happened before someone pressed record?
-☐ Possibly AI-made: where did it first appear, and can I check with the person by another route?
+☐ Possibly AI-made: where did it first appear, and can I reach the person another way?
+☐ It made me furious: what would I want shown above and below it if it were mine?
 :::
 
 ## Keeping your own screenshots
@@ -281,17 +299,13 @@ If someone is using edited or fake screenshots, recordings or images against you
 ::: scene
 *Made up, but you've met these people.*
 
-At 11pm Niamh gets a screenshot from Margot, her brother Rory's girlfriend. It's Rory, in his own words: "honestly my sister is exhausting, I can't keep doing this".
+At 11pm Kelsey gets a screenshot from Brooke, her brother Ryan's girlfriend. Ryan, in his words: "honestly my sister is exhausting, I can't keep doing this". Under it: "thought you should know what he really says about you x".
 
-Underneath, Margot has typed: "thought you should know what he really says about you x".
+Kelsey runs the frame check. Top edge: unknown. Bottom edge: the worst line. The hand: Brooke, frosty since the engagement party.
 
-Niamh's stomach drops. Then she runs the frame check. Top edge: no idea what came before. Bottom edge: it ends on that line. The hand: Margot, who has been frosty with her since the engagement party.
+She asks Ryan for the whole thread. Above the line, Brooke had asked about his half-marathon training. Below it: "...these 6am runs she's got me doing. my legs have filed a complaint".
 
-So she asks Rory for the whole thread, without saying why. He sends it, puzzled.
-
-Above the line, Margot had asked how his half-marathon training was going. Below it, Rory had written: "...these 6am runs she's got me doing. my legs have filed a complaint".
-
-Niamh doesn't reply to Margot. She saves both versions with the dates, in case this is the first of several. Then she tells Rory she'll go easier on the 6am starts.
+Kelsey doesn't reply to Brooke. She saves both versions with the dates, then tells Ryan she'll go easier on the 6am starts.
 :::
 
 ::: warn If someone threatens to share images or recordings of you
@@ -313,11 +327,11 @@ A screenshot is a secondhand account with pixels. Most of what you hear about pe
 title: Secondhand accounts
 question: How much should I believe what someone tells me about another person?
 seo: Should you believe what people tell you about your partner?
-short: Believe what people tell you about your partner, or anyone, only provisionally. Stories change in transit, even between honest people: they shrink, lose context, pick up adjectives and bend towards their audience. Ask who saw it and what they want. Act protectively where needed, but you should keep the verdict open.
+short: Should you believe what people tell you about your partner? Provisionally. Stories change in transit, even between honest people: they shrink, lose context, pick up adjectives and bend towards their audience. Ask who saw it and what the teller wants. Act protectively where someone's safety is at stake, and keep the verdict open until you've heard more.
 ---
-Most judgments you make about people are made on information someone else supplied. You have never watched the thing. You have watched someone tell you about the thing.
+Most judgements you make about people are made on information someone else supplied. You have never watched the thing. You have watched someone tell you about the thing.
 
-This is the highest-risk evidence category in the book, and it's unavoidable, so it needs handling rather than banning.
+You can't stop hearing about people secondhand, and you wouldn't want to. So you learn to handle it.
 
 ## What is a secondhand account?
 
@@ -337,12 +351,12 @@ The last four drives have gone, and so has the taxi. "Cold" has arrived from now
 
 **Hop three.** Hattie tells Tamsin's sister: "I heard Idris abandoned Tamsin at a party when she was drunk."
 
-Three hops and the story has a villain, a victim and a moral. Idris, meanwhile, is asleep at home with a £14 taxi receipt and no idea he's become a cautionary tale.
+Three hops and the story has a villain, a victim and a moral. Idris, meanwhile, is asleep at home with a taxi receipt in his jacket and no idea he's become a cautionary tale.
 
-Nobody lied. Every teller passed on what they believed. This is the chain of retellings Frederic Bartlett ran in his lab in 1932, the one from [I don't remember it that way](ch:i-dont-remember-it-that-way), played with burgers. Ninety years on, it took three hops.
+Nobody lied. Every teller passed on what they believed. This is the chain of retellings Frederic Bartlett described in 1932, the one from [I don't remember it that way](ch:i-dont-remember-it-that-way), played with burgers. Ninety-odd years on, it took three hops.
 
-::: handle
-Who saw it, and what do they want?
+::: ask
+Ask yourself: who actually saw this, and what do they want me to do with it?
 :::
 
 ## What happens to a story in transit
@@ -357,12 +371,14 @@ Five things, all done by honest people, none of them lying.
 
 Audience shaping also changes the teller. In 2005, Gerald Echterhoff, Tory Higgins and Stephan Groll had people describe a man to a listener who either liked or disliked him. People tilted their descriptions to suit the listener. Afterwards, their own memory of what they'd read about him had tilted the same way. Tell a story to please someone, and you start to remember it the way you told it.
 
+You've done this. The version of your worst date that you tell at parties has a better ending than the date did.
+
 ## Told to you, or shaped for you
 
-That's the distinction worth learning. Some signs that a story is being positioned rather than passed on:
+Some signs that a story is being positioned for you:
 
-- It arrives with the conclusion already attached, and the conclusion is the point rather than the events.
-- Asking for specifics gets you more *adjectives*, not more *facts*.
+- It arrives with the conclusion already attached, and the conclusion matters more to the teller than the events.
+- Asking for specifics gets you more *adjectives*.
 - You're asked early to take a side, or to change how you treat someone.
 - The teller gains from your conclusion: your loyalty, your distance from a third person, your agreement that they were wronged.
 - You're asked not to check.
@@ -385,7 +401,7 @@ Believe it provisionally, in proportion to who actually saw it and what the tell
 
 ## How to weigh an account without discounting it
 
-Demanding proof won't do it. Pay attention to the qualities that track truthfulness.
+Demanding proof won't do it, because the truest accounts often have none. Watch for the qualities that track truthfulness.
 
 - **Specificity.** Real accounts contain odd, unhelpful, undramatic detail: the wrong day of the week, what was on the counter. Constructed accounts tend to be smoother and more thematic.
 - **Consistency without rigidity.** Truthful retellings vary in wording and detail while holding the core. A word-perfect repetition is as notable as a contradictory one.
@@ -400,6 +416,7 @@ Before you tap, name what happened to the story on the way to you.
 - "She didn't reply for a day" arrived as "she ghosted him." || Adjective substitution. One verb carried a whole verdict in with it.
 - A two-year falling-out, told to you in three sentences, all about one night at a wedding. || Compression. You got the peaks.
 - "He shouted at me", with no mention of the hour-long row before it. || Context stripping. Ask what happened just before.
+- Your sister rings, already furious, with a story about your best friend's husband. What do you ask yourself first? || Who actually saw this, and what do they want me to do with it?
 - Your friend tells you the story with more outrage and a better ending than he told his mum. || Audience shaping. He knows what you'll find convincing.
 - In everybody's version of the office feud, the person telling it was being perfectly reasonable. || Role stabilisation. Every narrator is reasonable, from inside their own skull.
 - "I'm only telling you because I care. Don't ask her about it, she'll only lie." || Shaped, and asked not to check, which is the strongest sign. The exception is a story about someone being hurt, where secrecy may be about safety.
@@ -431,29 +448,33 @@ You don't need to cross-examine anyone. A few calm questions sort most accounts.
 
 Notice which answers come back as facts and which come back as adjectives. "He was horrible to her" is an adjective. "He told her to get out of the car" is a fact.
 
-## The account that held up
+## The account from the car park
 
 ::: scene
 *Made up, but you've met these people.*
 
-On Monday, Femi's colleague Linnea asks him for a word. On Saturday, in the supermarket car park, she saw his sister Celeste with her husband.
+On Monday, Femi's colleague Kim asks him for a word. On Saturday, in the supermarket car park, she saw his sister Funmi with her husband.
 
-Femi asks the messenger questions. Did she see it herself? Yes, from two cars away. What were the words? Linnea doesn't do adjectives. "He said, 'Get in the car or walk home.' He threw the keys onto the roof. She picked them up and got in." What happened before? She doesn't know. She only saw that much.
+Femi asks the messenger questions. Did she see it herself? Yes, from two cars away. What were the words? Kim doesn't do adjectives. "He said, 'Get in the car or walk home.' He threw the keys onto the roof. She picked them up and got in." What happened before? She doesn't know. She only saw that much.
 
 Was she going to say anything? "No. I went back and forth all weekend. I don't want to make trouble in your family."
 
-She doesn't ask him to do anything. She gains nothing from telling him, and it has cost her a weekend of worry. The account is specific and unpolished, and it doesn't come with a verdict attached. Femi gives it real weight.
+She doesn't ask him to do anything. She gains nothing from telling him, and it has cost her a weekend of worry. The account is specific and unpolished, and it arrives with no verdict attached.
 
-He doesn't confront the husband, and he doesn't repeat the story as though he'd been there. He rings Celeste that evening, talks about nothing much, and ends with, "I'm around. Any time, for anything." Then he makes sure he is.
-:::
+Femi doesn't confront the husband, and he doesn't repeat the story as though he'd been there. He rings Funmi that evening.
 
-::: pull
-The correct default is **provisional**: act protectively where the stakes require it, hold the verdict open, and never repeat a secondhand account as though you witnessed it.
+"Kim from your work?" A pause. "He'd had a terrible week. He said sorry in the car. Honestly, it's fine."
+
+"Okay," Femi says. "I'm around. Any time, for anything."
+
+"I know," Funmi says. "How's the new flat?"
+
+He tells her about the flat.
 :::
 
 ## When you're the messenger
 
-You're a hop too. When you pass something on, say whether you saw it or heard it, give the words rather than the adjectives, and tell it the same way you'd tell it to the person it's about. If someone is struggling to weigh what they've been told, [Helping someone else weigh](ch:helping-someone-else-weigh) has better questions than "I always knew he was like that."
+You're a hop too. When you pass something on, never tell it as though you were there. Say whether you saw it or heard it, give the words rather than the adjectives, and tell it the same way you'd tell it to the person it's about. If someone is struggling to weigh what they've been told, [Helping someone else weigh](ch:helping-someone-else-weigh) has better questions than "I always knew he was like that."
 
 If you've got two people telling you opposite stories about each other, each casting themselves as the one wronged, [When you both say victim](ch:when-you-both-say-victim) has the test that usually separates them.
 
@@ -472,19 +493,17 @@ Stories from people you know at least come from someone you can ask. Stories abo
 title: Judging strangers through screens
 question: Can I judge someone from a clip, a thread or a viral video?
 seo: Can you judge someone from a video? The eight-second test
-short: Rarely can you judge someone from a video. A clip is the most shareable few seconds of a life, chosen for a reason and spread by systems that reward outrage. Ask whether context could change what you're seeing. For tone and reactions it nearly always could. For documented acts and on-the-record statements by people with power, it often can't.
+short: Can you judge someone from a video? The act sometimes, the person rarely. A clip is the most shareable seconds of a life, chosen for a reason and spread by systems that reward outrage. Ask whether context could change what you're seeing. For tone and reactions it nearly always could. For documented acts and on-the-record statements, it often can't.
 ---
-The modern default is forming confident verdicts about people you have never met, from material you did not seek, selected by systems whose goal is not accuracy.
-
 At some point this year you held a firm opinion about a man in a car park in a country you've never visited. Everybody did. None of us knows his name.
 
-It's worth being precise about what's missing from that clip, because it's a lot.
+He reached you through a feed, picked by a machine that gets paid when you react and earns nothing when you get him right.
 
 ## Can you judge someone from a video?
 
 Sometimes you can judge the act on screen. You can rarely judge the person. A clip shows a few seconds someone chose to share, without what came before or after. Ask whether context could change what you're seeing. For tone, reactions and one bad moment, it nearly always could. For a documented act or an on-the-record statement, it often can't.
 
-## What's structurally missing from a clip
+## What a clip leaves out
 
 - **What came before.** The provocation, the two hours of context, the running joke, the previous eleven times.
 - **What came after.** The apology, the correction, the conversation that resolved it.
@@ -493,13 +512,13 @@ Sometimes you can judge the act on screen. You can rarely judge the person. A cl
 - **Whether it's real.** Editing, sequencing, staging, and now synthesis. The floor under "I saw it with my own eyes" has quietly gone. [Screenshots and what they leave out](ch:screenshots-and-what-they-leave-out) has the checks.
 - **Who chose to show you.** Someone did. They had a reason.
 
-::: handle
-Eight seconds is not a person.
+::: ask
+Ask yourself: could anything before or after these eight seconds change what I'm seeing?
 :::
 
 ## The sample is curated against you
 
-This is what separates screen judgment from ordinary secondhand information.
+This is what separates judging through a screen from ordinary secondhand information.
 
 A friend telling you a story is one teller with one angle. A feed is a sorting machine. It ranks what you see partly by what people react to, and people react to outrage.
 
@@ -511,7 +530,7 @@ So what reaches you is a filtered stream, tuned by measurement towards the examp
 Every instinct this book has taught you, to check the base rate, generate three explanations and ask what would tell them apart, is running against a system built to make those steps feel unnecessary.
 :::
 
-Which is worth sitting with. You now have a framework for coercive influence, and the largest instance of it in your life may be the thing sorting what you see, which has no face at all. [That's a different book: The Loop.](https://noblefathercreations.com/loop)
+You now have a framework for coercive influence, and the largest instance of it in your life may be the thing sorting what you see, which has no face at all. [That's a different book: The Loop.](https://noblefathercreations.com/loop)
 
 Outrage also gets used on purpose. A clip posted with a caption telling you exactly how furious to be is asking you to do something with that fury, and the Decoder calls that [moral outrage as a weapon](/playbook/moral-outrage-as-weapon).
 
@@ -520,7 +539,7 @@ Outrage also gets used on purpose. A clip posted with a caption telling you exac
 Run this before you comment, share or forward.
 
 ::: tree
-- If the clip shows a documented act, or words said on the record by someone with power (a vote, a signed policy, a speech, a post they wrote) → context rarely changes it. Judge the act. Check that it's real, recent and theirs.
+- If the clip shows a documented act, or words said on the record by someone with power (a vote, a signed policy, a speech, a post they wrote) → context rarely changes it. Judge the act. Check that it's real and that it's theirs.
 - If the clip shows tone, a reaction, or one moment of a longer exchange → ask whether anything before or after could change what it means.
   - If yes, which it nearly always is → hold your view provisionally, and privately.
   - If you can't think of anything that would → check again in an hour. Outrage is very bad at imagining context.
@@ -530,7 +549,7 @@ Run this before you comment, share or forward.
 
 ## The honest exception
 
-Some things are visible in a clip and need no context. Documented acts, statements made on the record, public conduct by people with power: these can be legitimately assessed. "You can't judge from a video" is itself a defence used to deflect plain evidence. Footage of someone repeatedly kicking a dog doesn't need the forty minutes before it.
+Some things are visible in a clip and need no context. Documented acts, statements made on the record, public conduct by people with power: you can fairly judge these. "You can't judge from a video" is itself a defence used to deflect plain evidence. Footage of someone repeatedly kicking a dog doesn't need the forty minutes before it.
 
 The test is whether context could plausibly change what you're looking at. For a policy someone signed, it can't. For eight seconds of someone's tone at a dinner table, it easily could. Sort by that, rather than by how strongly you reacted.
 
@@ -541,11 +560,12 @@ Even where the act is clear, judge the act. One documented cruelty tells you som
 Before you tap, decide whether context could change each one.
 
 ::: sort
-- A woman at a bus stop snaps "Leave me alone!" at an older man. || Easily. You don't know what he'd done before the camera started.
-- A council leader's recorded vote to close the library. || No. The vote is the vote. Why they cast it is a separate argument.
+- A cyclist shouting at a driver at a junction. || Easily. You don't know what the driver did before the camera started.
+- A city councillor's recorded vote to close the library. || No. The vote is the vote. Why they cast it is a separate argument.
 - A teenager rolling his eyes at a teacher, captioned "the state of kids today". || Yes. One teenager, eight seconds, picked for being annoying. That's a sample of one, sent to an audience of millions.
 - A post a celebrity wrote, under their own name, and hasn't deleted or explained. || Mostly no. It's on the record in their words. Check it's really theirs.
 - A man shouting at a restaurant worker, posted by an account with 900,000 followers. || The shout happened. What it says about him needs what came before. The follower count tells you about the hand holding the camera, not the man.
+- A clip of a stranger has you typing a reply. What do you ask yourself before you post? || Could anything before or after these eight seconds change what I'm seeing?
 - An apology video posted the day after a pile-on. || You can't weigh it from here. Repair shows in what someone does next, off camera.
 :::
 
@@ -555,14 +575,14 @@ You can't weigh a stranger's apology through a screen, because the part that cou
 
 ## The rule
 
-**Judgments about strangers stay provisional, and stay private.**
+**Judgements about strangers stay provisional, and stay private.**
 
-You're allowed to have a reaction. You're not obliged to publish it, forward it, or add to a pile. Holding a private, provisional view of a stranger costs nothing.
+You're allowed to have a reaction. You're not obliged to publish it, forward it, or add to a pile. Holding a private, provisional view of a stranger costs nothing. Nobody has ever lain awake over a comment they didn't post.
 
 Ten thousand people each adding one small comment is how a [pile-on](/playbook/pile-ons-brigading) works, and none of them feels responsible. The correction, when it comes, reaches a fraction of the people who saw the first version. The Decoder calls that gap the [uncorrected record](/playbook/uncorrected-record).
 
 ::: pull
-The cost of a public confident view of a stranger, multiplied by ten thousand people doing the same thing, **is a life**. And you will never learn whether you were right.
+Ten thousand confident strangers can cost one person their job and their front door. Most of the ten thousand never find out whether they were right.
 :::
 
 ## The draft that stayed a draft
@@ -570,17 +590,15 @@ The cost of a public confident view of a stranger, multiplied by ten thousand pe
 ::: scene
 *Made up, but you've met these people.*
 
-Yusuf is on his lunch break when the clip arrives in three group chats at once. A woman at a bus stop snaps "Don't touch me, get away!" at an older man, who looks bewildered. The caption says, "Imagine treating a pensioner like this." Four million views.
+The clip lands in three of Yusuf's group chats at lunch. A woman at a bus stop snaps "Don't touch me, get away!" at an older man. Caption: "Imagine treating an old man like this." Yusuf has a quote post typed.
 
-Yusuf has his thumb over "quote post" and a line ready.
-
-Then he runs the clip test. It's tone and one moment, so context could change it. He doesn't know what came before. He doesn't know who filmed it. The account that posted it mostly posts clips of women losing their temper, which tells him something about the hand.
+He runs the clip test. Tone, one moment: context could change it. Who filmed it? No idea. The account mostly posts women losing their temper.
 
 He puts the phone down.
 
-Two days later the woman posts from her own account. The man had followed her for three stops, sat beside her on two buses and tried to take her hand. She'd already moved seats twice. The filming started when she finally shouted. Her post has a fraction of the views.
+Two days later the woman posts from her own account. The man had followed her for three stops and tried to take her hand. The filming started when she finally shouted. Her post has a fraction of the views.
 
-Yusuf never learns more than that, and he doesn't need to. His line stays in his drafts.
+Yusuf's line is still in his drafts.
 :::
 
 ## If the clip is about you
